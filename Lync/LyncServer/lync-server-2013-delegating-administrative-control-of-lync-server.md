@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Delegación del control administrativo de Microsoft Lync Server 2013'
+title: 'Lync Server 2013: Delegación del control administrativo de Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 134d5a4abae1173cc1d74cecb876951cea6d72c1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 028921122b0198e85e7cc95df97355908f517894
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739820"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031314"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delegating-administrative-control-of-lync-server-2013"></a>Delegación del control administrativo de Microsoft Lync Server 2013
+# <a name="delegating-administrative-control-of-lync-server-2013"></a>Delegación del control administrativo de Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41739820"
 
 _**Última modificación del tema:** 2013-02-22_
 
-En Lync Server 2013, las tareas administrativas se delegan a los usuarios con la nueva característica de control de acceso basado en roles (RBAC). Al instalar Lync Server, se crea una serie de roles RBAC. Estos roles corresponden a los grupos de seguridad universal de los Servicios de dominio de Active Directory. Por ejemplo, el rol de RBAC CsHelpDesk se corresponde con el grupo CsHelpDesk que se encuentra en el contenedor usuarios de los servicios de dominio de Active Directory. Además, cada rol de RBAC está asociado a un conjunto de cmdlets de Windows PowerShell de Lync Server. Estos cmdlets representan las tareas que pueden realizar los usuarios a los que se les haya asignado el rol de RBAC determinado. Por ejemplo, a la función CsHelpDesk se le ha asignado el cmdlet Lock-CsClientPin y UnlockCsClientPin. Eso significa que los usuarios a los que se les ha asignado el rol de CsHelpDesk pueden bloquear y desbloquear números de PIN de usuario. Sin embargo, el rol CsHelpDesk no se ha asignado al cmdlet New-CsVoicePolicy. Eso significa que los usuarios a los que se les ha asignado el rol de CsHelpDesk no pueden crear directivas de voz nuevas.
+En Lync Server 2013, las tareas administrativas se delegan a los usuarios con la nueva característica de control de acceso basado en roles (RBAC). Al instalar Lync Server, se crea una serie de roles RBAC. Estos roles corresponden a los grupos de seguridad universal de servicios de dominio de Active Directory. Por ejemplo, el rol de RBAC CsHelpDesk corresponde al grupo CsHelpDesk que se encuentra en el contenedor usuarios de los servicios de dominio de Active Directory. Además, cada rol RBAC está asociado a un conjunto de cmdlets de Windows PowerShell de Lync Server. Estos cmdlets representan las tareas que pueden realizar los usuarios a los que se les ha asignado el rol RBAC especificado. Por ejemplo, al rol CsHelpDesk se le han asignado los cmdlets Lock-CsClientPin y UnlockCsClientPin. Esto significa que los usuarios a los que se les asignó el rol CsHelpDesk pueden bloquear y desbloquear los números de PIN de los usuarios. Sin embargo, el rol CsHelpDesk no se ha asignado al cmdlet New-CsVoicePolicy. Esto significa que los usuarios a los que se les ha asignado el rol CsHelpDesk no pueden crear nuevas directivas de voz.
 
 <div>
 
-## <a name="viewing-information-about-rbac-roles"></a>Ver información sobre los roles de RBAC
+## <a name="viewing-information-about-rbac-roles"></a>Visualización de información sobre los roles RBAC
 
-Puede recuperar información básica sobre los roles de RBAC ejecutando el siguiente comando desde el shell de administración de Lync Server:
+Puede recuperar la información básica de los roles RBAC ejecutando el siguiente comando desde el shell de administración de Lync Server:
 
     Get-CsAdminRole
 
 Tenga en cuenta que la identidad del rol RBAC (por ejemplo, CsVoiceAdministrator) tiene una asignación directa a un grupo de seguridad que se encuentra en el contenedor usuarios de servicios de dominio de Active Directory.
 
-Para ver una lista de los cmdlets que se han asignado a un rol, use un comando similar a este:
+Para ver una lista de los cmdlets que se han asignado a un rol, use un comando similar al siguiente:
 
     Get-CsAdminRole -Identity "CsHelpDesk" | Select-Object -ExpandProperty Cmdlets
 
@@ -57,27 +57,27 @@ Para ver una lista de los cmdlets que se han asignado a un rol, use un comando s
 
 <div>
 
-## <a name="assigning-an-rbac-role-to-a-user"></a>Asignación de un rol de RBAC a un usuario
+## <a name="assigning-an-rbac-role-to-a-user"></a>Asignación de un rol RBAC a un usuario
 
-Para asignar un rol de RBAC a un usuario, debe agregar ese usuario al grupo de seguridad de Active Directory correspondiente. Por ejemplo, para asignar el rol CsLocationAdministrator a un usuario, debe agregar ese usuario al grupo CsLocationAdministrator. Esto se puede llevar a cabo mediante el siguiente procedimiento:
+Para asignar un rol RBAC a un usuario, debe agregar ese usuario al grupo de seguridad de Active Directory correspondiente. Por ejemplo, para asignar el rol CsLocationAdministrator a un usuario, es necesario agregar a dicho usuario al grupo CsLocationAdministrator. Eso puede hacerse siguiendo el procedimiento siguiente:
 
-**Para asignar un usuario a un grupo de seguridad**
+**Asignar un usuario a un grupo de seguridad**
 
-1.  Con una cuenta que tenga permiso para modificar la pertenencia de un grupo de Active Directory, inicie sesión en un equipo en el que se hayan instalado usuarios y equipos de Active Directory.
+1.  Usar una cuenta que tenga permisos para modificar la permanencia de un grupo de Active Directory, iniciar sesión en un equipo en el que se haya instalado el complemento Usuarios y equipos de Active Directory.
 
-2.  Haga clic en **Inicio**, seleccione **todos los programas**, **herramientas administrativas**y, a continuación, haga clic en **usuarios y equipos de Active**Directory.
+2.  Haga clic en **Inicio**, en **Todos los programas**, en **Herramientas administrativas** y después en **Usuarios y equipos de Active Directory**.
 
-3.  En usuarios y equipos de Active Directory, expanda el nombre de su dominio y haga clic en el contenedor **usuarios** .
+3.  En Usuarios y equipos de Active Directory, expanda el nombre de su dominio y haga clic en el contenedor **Usuarios**.
 
-4.  Haga clic con el botón secundario en el grupo de seguridad **CsLocationAdministrator**y haga clic en **propiedades**.
+4.  Haga clic con el botón secundario en el grupo de seguridad **CsLocationAdministrator** y, a continuación, seleccione **Propiedades**.
 
-5.  En el cuadro de diálogo **propiedades** , en la pestaña **miembros** , haga clic en **Agregar**.
+5.  En el cuadro de diálogo **Propiedades**, en la pestaña **Miembros**, haga clic en **Agregar**.
 
-6.  En el cuadro de diálogo **Seleccionar usuarios, equipos, contactos o grupos** , escriba el nombre de usuario o el nombre para mostrar del usuario que se va a agregar al grupo (por ejemplo, **Ken Myer**) en el cuadro **Escriba los nombres de objeto que desea seleccionar** y, a continuación, haga clic en **Aceptar**.
+6.  En el cuadro de diálogo **Seleccionar usuarios, equipos, contactos o grupos**, escriba el nombre del usuario o el nombre para mostrar del usuario que se desea agregar al grupo (por ejemplo, **Ken Myer**) en el cuadro **Escribir los nombres de objeto para seleccionar** y después haga clic en **Aceptar**.
 
-7.  En el cuadro de diálogo **propiedades** , haga clic en **Aceptar**.
+7.  En el cuadro de diálogo **Propiedades**, haga clic en **Aceptar**.
 
-Para comprobar que se ha asignado el rol RBAC, use el cmdlet [Get-CsAdminRoleAssignment](https://docs.microsoft.com/powershell/module/skype/Get-CsAdminRoleAssignment) y pase el cmdlet como SamAccountName (nombre de inicio de sesión de Active Directory) del usuario. Por ejemplo, ejecute este comando desde el shell de administración de Lync Server:
+Para verificar que el rol RBAC se ha asignado, use el cmdlet [Get-CsAdminRoleAssignment](https://docs.microsoft.com/powershell/module/skype/Get-CsAdminRoleAssignment) y envíe al cmdlet el SamAccountName (nombre de inicio de sesión de Active Directory) del usuario. Por ejemplo, ejecute este comando desde el shell de administración de Lync Server:
 
     Get-CsAdminRoleAssignment  -Identity "kenmyer"
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Definir topologías de Director opcionales en la topología'
+title: 'Lync Server 2013: definir topologías de Director opcionales en la topología'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86f3c78730e8c866e3838f22a1267a57bb3d237b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e1da76c885eb290673836f518ab9a1bac9e516c3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728390"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,56 +37,56 @@ ms.locfileid: "41728390"
 
 _**Última modificación del tema:** 2012-09-08_
 
-Los directores de Lync Server 2013 pueden ser servidores de instancia única o se pueden instalar como un grupo de varios directores con equilibrio de carga para ofrecer mayor disponibilidad y capacidad. Se admiten el equilibrio de carga de hardware y el equilibrio de carga del sistema de nombres de dominio (DNS). En este tema se explica cómo configurar el equilibrio de carga de DNS para los grupos de directores.
+Los directores de Lync Server 2013 pueden ser servidores de instancia única o se pueden instalar como un grupo de carga equilibrada de varios directores para obtener una mayor disponibilidad y capacidad. Se admiten el equilibrio de carga de hardware y el equilibrio de carga del sistema de nombres de dominio (DNS). En este tema se explica cómo configurar el equilibrio de carga de DNS para grupos de directores.
 
-Para publicar, habilitar o deshabilitar correctamente una topología al agregar o quitar un rol de servidor, debe haber iniciado sesión como un usuario que sea miembro de los grupos **administradores de dominio** y **RTCUniversalServerAdmins** . También puede delegar los derechos y permisos adecuados para agregar roles de servidor. Para obtener más información, consulte [permisos de configuración de delegación en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) en la documentación de implementación de servidor Standard Edition o Enterprise Edition. Para otros cambios de configuración, solo es necesario pertenecer al grupo **RTCUniversalServerAdmins** .
+Para publicar, habilitar o deshabilitar una topología correctamente al agregar o quitar un rol de servidor, debe haber iniciado sesión con un usuario que sea miembro de los grupos **RTCUniversalServerAdmins** y **Administradores de dominio**. También es posible delegar los permisos apropiados para agregar roles de servidor. Para obtener más información, consulte [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) en la documentación de implementación de servidor Standard Edition o Enterprise Edition. Para realizar otros cambios en la configuración, solo se necesita ser miembro del grupo **RTCUniversalServerAdmins**.
 
-En este tema se describen los pasos necesarios para definir y publicar la topología de las dos topologías de Director:
+En este tema se describen los pasos para definir y publicar la topología para las dos topologías de Director:
 
-  - Para definir el director (instancia única)
+  - Para definir el director (una sola instancia)
 
-  - Para definir el director (grupo de varios directores)
+  - Para definir el Director (grupo de varios directores)
 
 <div>
 
-## <a name="to-define-the-director-single-instance"></a>Para definir el director (instancia única)
+## <a name="to-define-the-director-single-instance"></a>Para definir el Director (instancia única)
 
-1.  Iniciar generador de topología: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topología de Lync Server**.
+1.  Inicie el generador de topologías: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topologías de Lync Server**.
 
-2.  En la Página principal, haga clic en **Descargar topología de la implementación existente**.
+2.  En la página de bienvenida, haga clic en **Descargar topología de la implementación existente**.
 
-3.  En el cuadro de diálogo **Guardar topología como** , escriba el nombre y la ubicación de la copia local de la topología existente y, a continuación, haga clic en **Guardar**.
+3.  En el cuadro de diálogo **Guardar topología como**, escriba el nombre y la ubicación de la copia local de la topología existente y haga clic en **Guardar**.
 
-4.  Expanda el sitio en el que planea agregar el director, haga clic con el botón secundario en **grupos de directores**y, a continuación, haga clic en **nuevo grupo de directores**.
+4.  Expanda el sitio donde desee agregar el director, haga clic con el botón secundario en **Grupos de servidores de director** y, a continuación, haga clic en **Nuevo grupo de servidores de director**.
 
-5.  En el cuadro de diálogo **definir el FQDN del grupo de directores** , haga lo siguiente:
+5.  En el cuadro de diálogo **Definir el FQDN del grupo director**, haga lo siguiente:
     
-      - En **FQDN del grupo**, escriba el FQDN del grupo de directores.
+      - En **FQDN de grupo de servidores**, escriba el FQDN del grupo de servidores de director.
     
-      - Haga clic en **grupo de equipos únicos**y, a continuación, en **siguiente**.
+      - Haga clic en **Grupo de servidores de un solo equipo** y, a continuación, haga clic en **Siguiente**.
 
-6.  En el cuadro de diálogo **definir el uso compartido de archivos** , realice una de las siguientes acciones:
+6.  En el cuadro de diálogo **Definir el recurso compartido de archivos**, siga uno de estos procedimientos:
     
-    1.  Para usar un recurso compartido de archivos existente, haga clic en usar un recurso compartido de archivos **definido previamente**, seleccione un recurso compartido de archivos de la lista y haga clic en **siguiente**.
+    1.  Para usar un recurso compartido de archivos existente, haga clic en **Usar un recurso compartido de archivos definido previamente**, seleccione un recurso compartido de la lista y, a continuación, haga clic en **Siguiente**.
     
-    2.  Para crear un nuevo recurso compartido de archivos, haga clic en **definir un nuevo recurso compartido de archivos**, escriba el FQDN de la ubicación del recurso compartido de archivos en **FQDN del servidor de archivos**, escriba el nombre del recurso compartido en el **recurso compartido de archivos**y, a continuación, haga clic en **siguiente**.
+    2.  Para crear un nuevo recurso compartido de archivos, haga clic en **Definir un nuevo recurso compartido de archivos**, escriba el FQDN de la ubicación del recurso compartido de archivos en **FQDN de servidor de archivos**, escriba el nombre del recurso compartido en **Recurso compartido de archivos** y haga clic en **Siguiente**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > El recurso compartido de archivos que especifique o cree en este paso debe existir o crearse antes de publicar la topología.<BR>El recurso compartido de archivos asignado a un director no se utiliza realmente, por lo que puede asignar el recurso compartido de archivos de cualquier grupo de la organización.
+    > El recurso compartido de archivos que especifique o que cree en este paso debe existir o debe haberse creado antes de publicar la topología.<BR>En realidad, el recurso compartido de archivos asignado a un director no se usa, de modo que puede asignar el recurso compartido de archivos de cualquier grupo de servidores de la organización.
 
     
     </div>
 
-7.  En el cuadro de diálogo **especificar dirección URL de servicios web** , en **dirección URL base externa**, especifique el FQDN de los directores y, a continuación, haga clic en **Finalizar**.
+7.  En el cuadro de diálogo **Especificar la URL de servicios web**, en **URL de base externa**, especifique el FQDN de los directores y haga clic en **Finalizar**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > El nombre debe poder resolverse desde los servidores DNS de Internet y apuntar a la dirección IP pública del proxy inverso, que escucha las solicitudes HTTP/HTTPS a esa dirección URL y los envía al directorio virtual de servicios Web externo de ese director.
+    > El nombre debe poder resolverse desde los servidores DNS de Internet, y debe apuntar a la dirección IP pública del proxy inverso, que escucha las solicitudes HTTP/HTTPS a esa URL y las redirige al directorio virtual de servicios web externos de ese director.
 
     
     </div>
@@ -95,7 +95,7 @@ En este tema se describen los pasos necesarios para definir y publicar la topolo
     
 
     > [!WARNING]  
-    > Si tiene más de un grupo de servidores front-end o un servidor front-end, el FQDN de los servicios web externos debe ser único. Por ejemplo, si define el FQDN de los servicios web externos de un servidor front-end como <STRONG>pool01.contoso.com</STRONG>, no puede usar <STRONG>pool01.contoso.com</STRONG> para otro grupo de servidores front-end o servidor front-end. Si también va a implementar directores, el FQDN de servicios Web externo definido para cualquier Director o grupo de directores debe ser único de cualquier otro grupo de directores o directores, así como de cualquier grupo de servidores front-end o servidor front-end. Si decide invalidar los servicios Web internos con un FQDN definido por el usuario, cada FQDN debe ser único de cualquier otro grupo de servidores front-end, director o grupo de directores.
+    > Si tiene más de un grupo de servidores front-end o un servidor front-end, el FQDN de los servicios web externos debe ser único. Por ejemplo, si define el FQDN de servicios web externos de un servidor front-end como <STRONG>pool01.contoso.com</STRONG>, no puede usar <STRONG>pool01.contoso.com</STRONG> para otro grupo de servidores front-end o servidor front-end. Si también está implementando directores, el FQDN de servicios Web externo definido para cualquier Director o grupo de directores debe ser único de cualquier otro director o grupo de directores, así como cualquier grupo de servidores front-end o servidor front-end. Si decide reemplazar los servicios Web internos con un FQDN autodefinido, cada FQDN debe ser único en cualquier otro grupo de servidores front-end, director o grupo de directores.
 
     
     </div>
@@ -106,50 +106,50 @@ En este tema se describen los pasos necesarios para definir y publicar la topolo
 
 <div>
 
-## <a name="to-define-the-director-multiple-director-pool"></a>Para definir el director (grupo de varios directores)
+## <a name="to-define-the-director-multiple-director-pool"></a>Para definir el Director (grupo de directores de múltiples)
 
-1.  Iniciar generador de topología: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topología de Lync Server**.
+1.  Inicie el generador de topologías: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topologías de Lync Server**.
 
-2.  En la Página principal, haga clic en **Descargar topología de la implementación existente**.
+2.  En la página de bienvenida, haga clic en **Descargar topología de la implementación existente**.
 
-3.  En el cuadro de diálogo **Guardar topología como** , escriba el nombre y la ubicación de la copia local de la topología existente y, a continuación, haga clic en **Guardar**.
+3.  En el cuadro de diálogo **Guardar topología como**, escriba el nombre y la ubicación de la copia local de la topología existente y haga clic en **Guardar**.
 
-4.  Expanda el sitio en el que planea agregar el director, haga clic con el botón secundario en **grupos de directores**y, a continuación, haga clic en **nuevo grupo de directores**.
+4.  Expanda el sitio donde desee agregar el director, haga clic con el botón secundario en **Grupos de servidores de director** y, a continuación, haga clic en **Nuevo grupo de servidores de director**.
 
-5.  En el cuadro de diálogo **definir el FQDN del grupo de directores** , haga lo siguiente:
+5.  En el cuadro de diálogo **Definir el FQDN del grupo director**, haga lo siguiente:
     
-      - En **FQDN del grupo**, escriba el FQDN del grupo de directores.
+      - En **FQDN de grupo de servidores**, escriba el FQDN del grupo de servidores de director.
     
-      - Haga clic en **grupo de varios equipos**y, a continuación, en **siguiente**.
+      - Haga clic en **Grupo de servidores de varios equipos** y, a continuación, haga clic en **Siguiente**.
 
-6.  En el cuadro de diálogo **definir los equipos de este grupo** , haga lo siguiente:
+6.  En el cuadro de diálogo **Definir los equipos de este grupo **, haga lo siguiente:
     
-      - Especifique el FQDN del equipo del primer miembro del grupo y, a continuación, haga clic en **Agregar**.
+      - Especifique el FQDN de equipo del primer miembro del grupo de servidores y haga clic en **Agregar**.
     
-      - Repita el paso anterior para cada equipo que desee agregar. Cuando haya terminado, haga clic en **siguiente**.
+      - Repita el paso anterior para cada equipo que quiera agregar. Cuando haya acabado, haga clic en **Siguiente**.
 
-7.  En el cuadro de diálogo **definir el uso compartido de archivos** , realice una de las siguientes acciones:
+7.  En el cuadro de diálogo **Definir el recurso compartido de archivos**, siga uno de estos procedimientos:
     
-      - Para usar un recurso compartido de archivos existente, haga clic en usar un recurso compartido de archivos **definido previamente**, seleccione un recurso compartido de archivos de la lista y haga clic en **siguiente**.
+      - Para usar un recurso compartido de archivos existente, haga clic en **Usar un recurso compartido de archivos definido previamente**, seleccione un recurso compartido de la lista y, a continuación, haga clic en **Siguiente**.
     
-      - Para crear un nuevo recurso compartido de archivos, haga clic en **definir un nuevo recurso compartido de archivos**, escriba el FQDN de la ubicación del recurso compartido de archivos en **FQDN del servidor de archivos**, escriba el nombre del recurso compartido en el **recurso compartido de archivos**y, a continuación, haga clic en **siguiente**.
+      - Para crear un nuevo recurso compartido de archivos, haga clic en **Definir un nuevo recurso compartido de archivos**, escriba el FQDN de la ubicación del recurso compartido de archivos en **FQDN de servidor de archivos**, escriba el nombre del recurso compartido en **Recurso compartido de archivos** y haga clic en **Siguiente**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > El recurso compartido de archivos que especifique o cree en este paso debe existir o crearse antes de publicar la topología.<BR>El recurso compartido de archivos asignado a un director no se utiliza realmente, por lo que puede asignar el recurso compartido de archivos de cualquier grupo de la organización.
+    > El recurso compartido de archivos que especifique o que cree en este paso debe existir o debe haberse creado antes de publicar la topología.<BR>En realidad, el recurso compartido de archivos asignado a un director no se usa, de modo que puede asignar el recurso compartido de archivos de cualquier grupo de servidores de la organización.
 
     
     </div>
 
-8.  En el cuadro de diálogo **especificar dirección URL de servicios web** , en **dirección URL base externa**, especifique el FQDN de los directores y, a continuación, haga clic en **Finalizar**.
+8.  En el cuadro de diálogo **Especificar la URL de servicios web**, en **URL de base externa**, especifique el FQDN de los directores y haga clic en **Finalizar**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > El nombre debe poder resolverse desde los servidores DNS de Internet y apuntar a la dirección IP pública del proxy inverso, que escucha las solicitudes HTTP/HTTPS enviadas a esa dirección URL y las envía al directorio virtual de servicios Web externo de ese grupo de directores.
+    > El nombre debe poder resolverse en servidores DNS de Internet y debe apuntar a la dirección IP pública del proxy inverso, que escucha las solicitudes HTTP/HTTPS enviadas a la dirección URL y lo envía mediante proxy al directorio virtual de servicios web externos del grupo de servidores de director.
 
     
     </div>
@@ -158,7 +158,7 @@ En este tema se describen los pasos necesarios para definir y publicar la topolo
     
 
     > [!WARNING]  
-    > Si tiene más de un grupo de servidores front-end o un servidor front-end, el FQDN de los servicios web externos debe ser único. Por ejemplo, si define el FQDN de los servicios web externos de un servidor front-end como <STRONG>pool01.contoso.com</STRONG>, no puede usar <STRONG>pool01.contoso.com</STRONG> para otro grupo de servidores front-end o servidor front-end. Si también va a implementar directores, el FQDN de servicios Web externo definido para cualquier Director o grupo de directores debe ser único de cualquier otro grupo de directores o directores, así como de cualquier grupo de servidores front-end o servidor front-end. Si decide invalidar los servicios Web internos con un FQDN definido por el usuario, cada FQDN debe ser único de cualquier otro grupo de servidores front-end, director o grupo de directores.
+    > Si tiene más de un grupo de servidores front-end o un servidor front-end, el FQDN de los servicios web externos debe ser único. Por ejemplo, si define el FQDN de servicios web externos de un servidor front-end como <STRONG>pool01.contoso.com</STRONG>, no puede usar <STRONG>pool01.contoso.com</STRONG> para otro grupo de servidores front-end o servidor front-end. Si también está implementando directores, el FQDN de servicios Web externo definido para cualquier Director o grupo de directores debe ser único de cualquier otro director o grupo de directores, así como cualquier grupo de servidores front-end o servidor front-end. Si decide reemplazar los servicios Web internos con un FQDN autodefinido, cada FQDN debe ser único en cualquier otro grupo de servidores front-end, director o grupo de directores.
 
     
     </div>

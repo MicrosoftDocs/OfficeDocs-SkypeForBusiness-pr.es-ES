@@ -12,16 +12,16 @@ ms:contentKeyID: 48185108
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 397c1037937e100f1981a689f0860362d852ed10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 75eeabe640c9d66c897d59f4e06bb485a482ed04
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743810"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007449"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,11 +37,11 @@ ms.locfileid: "41743810"
 
 _**Última modificación del tema:** 2012-09-17_
 
-Antes de publicar la base de datos de ubicación, debe validar nuevas ubicaciones en relación con la guía de dirección maestra (MSAG) que mantiene su tronco de SIP o la red de telefonía pública conmutada (RTC) E9-1-1 proveedor de servicios.
+Antes de publicar la base de datos de las ubicaciones, debe validar las nuevas ubicaciones comparándolas con la guía de direcciones que mantiene el proveedor de servicios de emergencia.
 
-Para obtener más información sobre los proveedores de servicios E9-1-1 de SIP, consulte [elección de un proveedor de servicios de E9-1-1 para Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).
+Para obtener más información acerca de los proveedores de servicios E9-1-1 de tronco SIP, consulte [elección de un proveedor de servicios E9-1-1 para Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).
 
-Para obtener detalles sobre la validación de direcciones, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:
+Para obtener más información sobre la validación de direcciones, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:
 
   - **Get-CsLisServiceProvider**
 
@@ -51,20 +51,20 @@ Para obtener detalles sobre la validación de direcciones, consulte la documenta
 
   - **Get-CsLisCivicAddress**
 
-  - **Prueba-CsLisCivicAddress**
+  - **Test-CsLisCivicAddress**
 
 <div>
 
 ## <a name="to-validate-addresses-located-in-the-location-database"></a>Para validar direcciones ubicadas en la base de datos de ubicaciones
 
-1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-2.  Ejecute los cmdlets siguientes para configurar la conexión de proveedor de servicios de emergencia.
+2.  Para configurar la conexión de proveedor de servicios de emergencia, ejecute los siguientes cmdlets.
     
         $pwd = Read-Host -AsSecureString <password>
         Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
 
-3.  Ejecute el cmdlet siguiente para validar las direcciones en la base de datos de ubicaciones.
+3.  Para validar las direcciones en la base de datos de ubicaciones, ejecute el siguiente cmdlet.
     
         Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
     

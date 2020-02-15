@@ -12,16 +12,16 @@ ms:contentKeyID: 48183357
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5cd00033eeccc855cd5ff10b6a2bee6f78da1d0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: edd6c7cbcaa1789d9f37cd77123b4afd8c2416de
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762238"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036660"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -39,11 +39,11 @@ _**Última modificación del tema:** 2012-08-13_
 
 Puede usar *las conexiones SIP directas* para conectar Lync Server a cualquiera de las siguientes opciones:
 
-  - Un IP-PBX (para obtener información detallada, consulte [Opciones de implementación de SIP directo en Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)).
+  - Un IP-PBX (para obtener más información, consulte [Opciones de implementación SIP directa en Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)).
 
-  - Una puerta de enlace RTC (para obtener información detallada, consulte [Opciones de implementación de la puerta de enlace RTC en Lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)).
+  - Una puerta de enlace RTC (para obtener más información, consulte [Opciones de implementación de la puerta de enlace RTC en Lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)).
 
-Para implementar una conexión SIP directa, debe seguir esencialmente los mismos pasos de implementación que para implementar un tronco de SIP. En ambos casos, la conexión se implementa con la interfaz externa de un servidor de mediación. La única diferencia es que los troncos SIP se conectan a una entidad externa, como una puerta de enlace ITSP, y se conectan conexiones SIP directas a una entidad interna de su red local, como un IP-PBX o una puerta de enlace de red telefónica conmutada (RTC).
+Para implementar una conexión SIP directa, deberá seguir básicamente los mismos pasos de implementación que seguiría para implementar un tronco SIP. En ambos casos, la conexión se implementa mediante la interfaz externa de un servidor de mediación. La única diferencia es que los troncos SIP se conectan a una entidad externa, como, por ejemplo, una puerta de enlace del proveedor de servicios de telefonía por Internet (ITSP), mientras que las conexiones SIP se conectan a una entidad interna de la red local, como, por ejemplo, una puerta de enlace de red telefónica conmutada (RTC) o un sistema IP-PBX.
 
 <div>
 

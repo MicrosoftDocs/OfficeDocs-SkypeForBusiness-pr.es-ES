@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: uso de la autenticación en dos fases con el cliente de Lync'
+title: 'Lync Server 2013: usar la autenticación en dos fases con el cliente de Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 55115593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25b5d3305c5d9825342c0293325c9afca96c5a97
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cbd45e3e54ec9fb6b1a9757c0a46a1454901f749
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743820"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007459"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-two-factor-authentication-with-lync-client-and-lync-server-2013"></a>Usar la autenticación en dos fases con el cliente de Lync y Lync Server 2013
+# <a name="using-two-factor-authentication-with-lync-client-and-lync-server-2013"></a>Uso de la autenticación en dos fases con Lync Client y Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41743820"
 
 _**Última modificación del tema:** 2013-07-11_
 
-En este tema se describe cómo aprovechar la autenticación en dos fases con el cliente de Lync 2013.
+En este tema se describió cómo aprovechar la autenticación en dos fases con el cliente de Lync 2013.
 
 <div>
 
 ## <a name="sign-in-to-lync-2013-for-the-first-time"></a>Iniciar sesión en Lync 2013 por primera vez
 
-La información de inicio de sesión de Lync se suele configurar automáticamente cuando Lync 2013 está instalado. Pero la primera vez que usa Lync, es posible que tenga que iniciar el cliente de forma manual.
+La información de inicio de sesión de Lync suele configurarse automáticamente cuando Lync 2013 está instalado. Pero la primera vez que use Lync, es posible que deba iniciar manualmente el cliente.
 
 **Para iniciar sesión en Lync por primera vez**
 
@@ -53,21 +53,21 @@ La información de inicio de sesión de Lync se suele configurar automáticament
     
     Debería ver la pantalla de inicio de sesión de Lync.
     
-      - Si el cuadro de dirección para inicio de sesión ya está rellenado, confirme que la dirección que aparece es correcta.
+      - Si el cuadro Dirección de inicio de sesión ya está rellenado, confirme que la dirección mostrada es correcta.
     
-      - Si no es correcta, o si el cuadro está vacío, escriba su dirección de inicio de sesión de Lync (normalmente es la misma que su dirección de correo electrónico).
+      - Si no es correcta o si el cuadro está vacío, escriba su dirección de inicio de sesión de Lync (normalmente es la misma que su dirección de correo electrónico).
     
-      - Si aparece un cuadro de contraseña vacío, escriba su contraseña.
+      - Si se muestra un cuadro de contraseña vacío, agregue su contraseña.
 
-3.  Seleccione **Iniciar sesión**.
+3.  Seleccione **iniciar sesión**.
 
 </div>
 
 <div>
 
-## <a name="sign-out-of-lync"></a>Cerrar la sesión de Lync
+## <a name="sign-out-of-lync"></a>Cerrar sesión en Lync
 
-Cuando haya terminado de usar Lync, puede cerrar la pantalla, cerrar la sesión de la sesión o salir del programa, todo desde el menú archivo. En la tabla siguiente se explican las diferencias entre estas opciones.
+Cuando haya terminado de usar Lync, podrá cerrar la pantalla, cerrar la sesión de la sesión o salir del programa, todo desde el menú archivo. En la tabla siguiente se explican las diferencias de las opciones.
 
 
 <table>
@@ -79,36 +79,36 @@ Cuando haya terminado de usar Lync, puede cerrar la pantalla, cerrar la sesión 
 <thead>
 <tr class="header">
 <th>Opción</th>
-<th>Qué hace</th>
-<th>Cómo lo hago</th>
+<th>Lo que hace</th>
+<th>Cómo realizarlo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Cerrar</p></td>
-<td><p>Cierra la pantalla de Lync, pero permite que la sesión de Lync identificada con su identificador de usuario continúe ejecutándose. El motivo es poder seguir recibiendo notificaciones e interactuando con los demás.</p>
-<p>Puede volver a abrir la pantalla en cualquier momento haciendo clic en el icono de Lync en la barra de tareas o en el área de notificación de la parte inferior de la pantalla.</p></td>
-<td><p>En la ventana principal de Lync, siga uno de estos procedimientos:</p>
+<td><p>Cierra la presentación de Lync, pero permite que la sesión de Lync identificada con su identificador de usuario continúe ejecutándose. Esto es así para que pueda seguir recibiendo notificaciones e interactuar con otros usuarios.</p>
+<p>Puede volver a mostrar la presentación en cualquier momento haciendo clic en el icono de Lync de la barra de tareas o en el área de notificación en la parte inferior de la pantalla.</p></td>
+<td><p>En la ventana principal de Lync, realice una de las siguientes acciones:</p>
 <ol>
-<li><p>Seleccione el <strong>botón Opciones</strong> y, a continuación, haga clic en <strong>cerrar</strong> <strong>archivo</strong> &gt; .</p></li>
-<li><p>Haga clic en el botón <strong>Cerrar</strong> (X) situado en la esquina superior derecha de la ventana.</p></li>
+<li><p>Seleccione el <strong>botón Opciones</strong> y, después, haga clic en <strong>cerrar</strong> <strong>archivo</strong> &gt; .</p></li>
+<li><p>Haga clic en el botón Cerrar (X) que se <strong>incluye</strong> en la esquina superior derecha de la ventana.</p></li>
 </ol></td>
 </tr>
 <tr class="even">
 <td><p>Cerrar sesión</p></td>
-<td><p>Finaliza la sesión de Lync asociada a su identificador de usuario, pero Lync continúa ejecutándose en segundo plano. Al cerrar la sesión, aparece la ventana de inicio de sesión.</p>
+<td><p>Finaliza la sesión de Lync asociada con el identificador de usuario, pero Lync sigue ejecutándose en segundo plano. Cuando cierre sesión, aparecerá la ventana de inicio de sesión.</p>
 <div>
 
 > [!TIP]  
-> Seleccione <STRONG>Eliminar mi información de inicio de sesión</STRONG> al cerrar la sesión para quitar el registro de su identificador y contraseña de inicio de sesión de la memoria del equipo. De este modo tiene que resultar más fácil al equipo técnico ayudar a los usuarios a resolver problemas de inicio de sesión. También puede ayudar a garantizar que la información de inicio de sesión es más segura, ya que resulta más difícil para los usuarios no autorizados iniciar sesión con credenciales ajenas.
+> Seleccione <STRONG>eliminar mi información</STRONG> de inicio de sesión al cerrar la sesión para quitar el registro del identificador de inicio de sesión y la contraseña del equipo. Al hacerlo, es posible que sea más fácil para los usuarios de soporte técnico solucionar problemas de inicio de sesión. También puede ayudar a garantizar que la información de inicio de sesión sea más segura, lo que dificulta que los usuarios no autorizados inicien sesión con sus credenciales.
 
 
 </div></td>
-<td><p>En la ventana principal de Lync, seleccione el botón <strong>Opciones</strong> y, a continuación, seleccione <strong>Cerrar sesión</strong>en <strong>archivo</strong> &gt; .</p></td>
+<td><p>En la ventana principal de Lync, seleccione el botón <strong>Opciones</strong> y, después, seleccione <strong>Cerrar sesión</strong>en el <strong>archivo</strong> &gt; .</p></td>
 </tr>
 <tr class="odd">
 <td><p>Salir</p></td>
-<td><p>Finaliza la sesión de Lync y cierra Lync en el equipo. Después de haber salido, si quiere reiniciar Lync, seleccione <strong>iniciar</strong> &gt; <strong>todos los programas</strong> &gt; <strong>Microsoft Lync</strong> &gt; <strong>Lync 2013</strong>.</p></td>
+<td><p>Finaliza la sesión de Lync y cierra Lync en el equipo. Después de salir, si quiere reiniciar Lync, seleccione <strong>iniciar</strong> &gt; <strong>todos los programas</strong> &gt; <strong>Microsoft Lync</strong> &gt; <strong>Lync 2013</strong>.</p></td>
 <td><p>En la ventana principal de Lync, seleccione el botón <strong>Opciones</strong> y, a continuación, seleccione <strong>salida</strong>de <strong>archivo</strong> &gt; .</p></td>
 </tr>
 </tbody>
@@ -123,15 +123,15 @@ Cuando haya terminado de usar Lync, puede cerrar la pantalla, cerrar la sesión 
 
 Algunas organizaciones ahora usan un proceso de inicio de sesión de varios pasos, denominado autenticación en dos fases, para aumentar la seguridad de los usuarios de Lync 2013. Si tiene previsto usar esta opción, necesitará una "tarjeta inteligente" para iniciar sesión en Lync. Las tarjetas inteligentes vienen en dos variedades, físicas y virtuales:
 
-  - **Físico**   sobre el tamaño de una tarjeta de crédito. Se inserta en un lector al iniciar sesión.
+  - **Físico**   sobre el tamaño de una tarjeta de crédito. Insértelo en un lector de tarjetas inteligentes cuando inicie sesión.
 
-  - **Virtual**   no es un objeto físico, sino un identificador electrónico que se escribe en un chip especial de su equipo, que, en esencia, crea la tarjeta inteligente en el equipo. Solo disponible para usar con equipos con Windows 8 que contengan el chip TPM (módulo de plataforma segura).
+  - **Virtual**   no es un objeto físico, sino un identificador electrónico que se escribe en un chip especial del equipo, que, en esencia, crea la tarjeta inteligente en el equipo. Disponible solo para usar con equipos con Windows 8 que contengan el chip TPM (módulo de plataforma segura).
 
 <div>
 
 ## <a name="enroll-your-smart-card"></a>Inscriba su tarjeta inteligente
 
-Para poder iniciar sesión con una tarjeta inteligente, esta necesita primero "inscribirse", es decir, las credenciales del usuario tienen que identificarse con la tarjeta. Esto se aplica tanto a tarjetas físicas como virtuales. Es posible que el administrador de Lync Server ya haya realizado este proceso. Compruébelo si no está seguro.
+Para poder iniciar sesión con una tarjeta inteligente, la tarjeta debe estar "inscrito"; es decir, las credenciales de usuario deben identificarse con la tarjeta. Este es el caso si la tarjeta es física o virtual. Es posible que este proceso ya lo haya realizado el administrador de Lync Server. Compárelas si no está seguro de si se ha hecho.
 
 <div>
 
@@ -143,104 +143,104 @@ Para poder iniciar sesión con una tarjeta inteligente, esta necesita primero "i
 
 </div>
 
-**Inscribir una tarjeta inteligente manualmente**
+**Para inscribir manualmente su tarjeta inteligente**
 
 1.  Inicie sesión en el equipo en el que va a ejecutar Lync.
 
-2.  En Internet Explorer, busque la página de inscripción web de la entidad de certificación de la organización.
+2.  Con Internet Explorer, vaya a la página de inscripción Web de la entidad de certificación de la organización.
     
-    Pida a su administrador de Lync Server la dirección Web de este recurso si aún no la tiene. La dirección URL tendrá un aspecto similar a https://MyCA.\este:\][elnombredesuempresa. com/certsrv.
-    
-    <div>
-    
-
-    > [!NOTE]  
-    > Si usa Internet Explorer 10, puede que tenga que visualizar este sitio web en modo de compatibilidad.
-
-    
-    </div>
-
-3.  Cuando se le solicite que inicie sesión en la página de certificación, inicie sesión con la cuenta de dominio (en lugar de hacerlo como administrador del equipo).
-
-4.  En la página principal del sitio web, seleccione **Solicitar un certificado**.
-
-5.  Seleccione **Solicitud avanzada**.
-
-6.  Seleccione **Crear y enviar una solicitud a esta CA** y haga clic en **Siguiente**.
-
-7.  Aparecerá una página llamada Estación de inscripción de tarjetas inteligentes. Apruebe la solicitud para instalar el control ActiveX y luego complete el formulario Solicitud de certificado avanzada de la siguiente manera:
-    
-    1.  Seleccione **Usuario de tarjeta inteligente** de la lista desplegable **Plantilla de certificado**.
-    
-    2.  Seleccione **Crear conjunto de claves nuevo**.
-    
-    3.  Busque la información del fabricante en la etiqueta de la tarjeta inteligente y seleccione el fabricante de la lista desplegable **CSP**.
-    
-    4.  Seleccione **CSP** como el formato de la solicitud, si aún no está seleccionado.
-    
-    5.  Seleccione **sha1** de la lista desplegable Algoritmo hash, si aún no está seleccionado.
-    
-    6.  Elija un nombre que pueda reconocer para el certificado y haga clic en **Enviar**.
-
-8.  Inserte la tarjeta inteligente vacía en el lector de tarjetas junto a la estación de inscripción y haga clic en **Inscribir**.
-
-9.  Cuando se le indique, escriba su número de identificación personal (PIN) y haga clic en **Aceptar**.
+    Solicite a su administrador de Lync Server la dirección Web de este recurso si todavía no la tiene. La dirección URL tendrá un aspecto similar a https://MyCA.\este:\][nombredesuempresa. com/certsrv.
     
     <div>
     
 
     > [!NOTE]  
-    > Si el representante de soporte técnico no le asignó un PIN especial para usar en la inscripción de la tarjeta inteligente, use el valor de PIN predeterminado de la tarjeta, que es 12345678.
+    > Si usa Internet Explorer 10, es posible que deba ver este sitio web en modo de compatibilidad.
 
     
     </div>
 
-10. Seleccione la opción para forzar al usuario (usted) a que cambie el PIN la primera vez que use la tarjeta inteligente.
+3.  Cuando se le solicite que inicie sesión en la página de certificación, inicie sesión con su cuenta de dominio (en lugar de hacerlo como administrador del equipo).
 
-11. Inserte la tarjeta inteligente vacía en el lector de tarjetas junto a la estación de inscripción y haga clic en **Inscribir**.
+4.  En la página de bienvenida del sitio web, seleccione **solicitar un certificado**.
 
-12. Cuando se le indique, escriba su número de identificación personal (PIN) y haga clic en **Aceptar**.
+5.  Seleccione **solicitud avanzada**.
+
+6.  Seleccione **crear y enviar una solicitud a esta CA**y, a continuación, haga clic en **siguiente**.
+
+7.  Ahora verá una página denominada estación de inscripción para tarjetas inteligentes. Apruebe la solicitud para instalar el control ActiveX y, a continuación, complete el formulario de solicitud de certificado avanzado de la siguiente manera:
+    
+    1.  Seleccione **usuario de tarjeta inteligente** en la lista desplegable **plantilla de certificado** .
+    
+    2.  Seleccione **crear conjunto de claves nuevo**.
+    
+    3.  Busque la información del fabricante en la etiqueta de la tarjeta inteligente y seleccione ese fabricante en la lista desplegable **CSP** .
+    
+    4.  Seleccione **CSP** como el formato de solicitud, si aún no está seleccionado.
+    
+    5.  Seleccione **SHA1** en la lista desplegable algoritmo hash, si aún no está seleccionado.
+    
+    6.  Asigne un nombre al certificado que reconozca y haga clic en **Enviar**.
+
+8.  Ahora, inserte la tarjeta inteligente en blanco en el lector de tarjetas conectado a la estación de inscripción y haga clic en **inscribirse**.
+
+9.  Cuando se le solicite, escriba su número de identificación personal (PIN) y, a continuación, haga clic en **Aceptar**.
     
     <div>
     
 
     > [!NOTE]  
-    > Si el representante de soporte técnico no le asignó un PIN especial para usar en la inscripción de la tarjeta inteligente, use el valor de PIN predeterminado de la tarjeta, que es 12345678.
+    > Si el personal de soporte técnico no le ha proporcionado un PIN especial para suscribirse a la tarjeta inteligente, use el valor predeterminado de PIN de la tarjeta inteligente, que es 12345678.
 
     
     </div>
 
-13. Seleccione la opción para forzar al usuario (usted) a que cambie el PIN la primera vez que use la tarjeta inteligente.
+10. Seleccione la opción para forzar al usuario (usted) a cambiar el PIN la primera vez que se use la tarjeta inteligente.
 
-14. Haga clic en **Aceptar** para confirmar que el certificado que aparece incluye la información correspondiente.
+11. Ahora, inserte la tarjeta inteligente en blanco en el lector de tarjetas conectado a la estación de inscripción y haga clic en **inscribirse**.
 
-15. Cuando vea la notificación de que se emitió el certificado, haga clic en **Instalar este certificado** para completar el proceso de inscripción.
+12. Cuando se le solicite, escriba su número de identificación personal (PIN) y, a continuación, haga clic en **Aceptar**.
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > Si el personal de soporte técnico no le ha proporcionado un PIN especial para suscribirse a la tarjeta inteligente, use el valor predeterminado de PIN de la tarjeta inteligente, que es 12345678.
+
+    
+    </div>
+
+13. Seleccione la opción para forzar al usuario (usted) a cambiar el PIN la primera vez que se use la tarjeta inteligente.
+
+14. Haga clic en **Aceptar** para confirmar que el certificado que se muestra contiene su información.
+
+15. Una vez que vea el aviso de que se ha emitido el certificado, haga clic en **instalar este certificado** para completar el proceso de inscripción.
 
 </div>
 
 <div>
 
-## <a name="sign-in-to-lync-with-your-smart-card-credentials"></a>Iniciar sesión en Lync con las credenciales de su tarjeta inteligente
+## <a name="sign-in-to-lync-with-your-smart-card-credentials"></a>Iniciar sesión en Lync con las credenciales de la tarjeta inteligente
 
-Antes de usar su tarjeta inteligente por primera vez, le recomendamos que haga clic en **eliminar mi información de inicio de sesión** en la página de inicio de sesión de Lync. De esta manera, se borran todas las credenciales de inicio de sesión almacenadas en el equipo y se elimina una posible fuente de error.
+Antes de usar la tarjeta inteligente por primera vez, se recomienda que haga clic en **eliminar mi información de inicio de sesión** en la página de inicio de sesión de Lync. De esta manera, se borran las credenciales de inicio de sesión almacenadas en el equipo y se elimina un posible origen de error.
 
-**Para iniciar sesión en Lync con las credenciales de su tarjeta inteligente**
+**Para iniciar sesión en Lync con las credenciales de la tarjeta inteligente**
 
 1.  Inicie el cliente de Lync.
 
-2.  En la pantalla de inicio de sesión, escriba el nombre de la cuenta de usuario para iniciar la sesión en el cuadro **Dirección de inicio de sesión** y haga clic en **Iniciar sesión**.
+2.  En la pantalla de inicio de sesión, escriba el nombre de la cuenta de usuario de inicio de sesión en el cuadro **dirección de inicio de sesión** y, a continuación, haga clic en **iniciar sesión**.
 
 3.  Si usa una tarjeta inteligente virtual, omita este paso.
     
-    Si usa una tarjeta inteligente física, inserte la tarjeta en el lector de tarjetas inteligentes y, si se lo solicitan, haga clic en **Aceptar** cuando la tarjeta es detectada.
+    Si usa una tarjeta inteligente física, inserte la tarjeta inteligente en el lector de tarjetas inteligentes y se le pedirá que lo haga y, a continuación, haga clic en **Aceptar** cuando se detecte la tarjeta.
 
-4.  Escriba el número de PIN para la tarjeta inteligente y haga clic en **Aceptar**.
+4.  Escriba el número de PIN de la tarjeta inteligente y, a continuación, haga clic en **Aceptar**.
     
     <div>
     
 
     > [!NOTE]  
-    > Si no se le asignó un número de PIN para la tarjeta inteligente, use el valor predeterminado, que es 12345678.
+    > Si el personal de soporte no le asignó un número PIN de tarjeta inteligente, use el valor predeterminado, que es 12345678.
 
     
     </div>

@@ -12,16 +12,16 @@ ms:contentKeyID: 50873759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13f9fa62b16390c490a0ab555559a7895cdce93e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0599fb84cedc2ff64cb053e0bc319c364962de3c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757484"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007189"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,27 +37,27 @@ ms.locfileid: "41757484"
 
 _**Última modificación del tema:** 2013-02-23_
 
-Las directivas de versión de cliente se usan para aplicar un conjunto de reglas de control de versiones de cliente globalmente o a un sitio, grupo o grupo de usuarios en particular. Puede ver las directivas de versión de cliente que se han configurado en el entorno de Lync Server 2013 desde el panel de control de Lync Server 2013 o el shell de administración de Lync Server 2013.
+Las directivas de versión de cliente se usan para aplicar un conjunto de reglas de control de versiones de cliente de forma global o para un sitio, grupo o grupo de usuarios en particular. Puede ver las directivas de versión de cliente que se han configurado en el entorno de Lync Server 2013 desde el panel de control de Lync Server 2013 o el shell de administración de Lync Server 2013.
 
 <div>
 
-## <a name="to-view-client-version-policies-by-using-lync-server-control-panel"></a>Para ver las directivas de versión de cliente con el panel de control de Lync Server
+## <a name="to-view-client-version-policies-by-using-lync-server-control-panel"></a>Para ver las directivas de versión de cliente mediante el panel de control de Lync Server
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, haga clic en el botón de navegación de la **Directiva de versión cliente** .
+3.  En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, haga clic en el botón de navegación **Directiva de versión de cliente** .
 
-4.  Si desea ver las reglas de una directiva de versión de cliente, en la página **Directiva de versión del cliente** , haga doble clic en la Directiva que desea ver.
+4.  Si desea ver las reglas de una directiva de versión de cliente, en la página **Directiva de versión de cliente** , haga doble clic en la Directiva que desea ver.
 
 </div>
 
 <div>
 
-## <a name="viewing-client-version-policies-by-using-windows-powershell-cmdlets"></a>Ver directivas de versión de cliente con cmdlets de Windows PowerShell
+## <a name="viewing-client-version-policies-by-using-windows-powershell-cmdlets"></a>Visualización de directivas de versión de cliente mediante cmdlets de Windows PowerShell
 
-Puede ver las directivas de versión de cliente con el cmdlet **Get-CsClientVersionPolicy** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede ver las directivas de versión de cliente con el cmdlet **Get-CsClientVersionPolicy** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
 <div>
 
@@ -91,7 +91,7 @@ Puede ver las directivas de versión de cliente con el cmdlet **Get-CsClientVers
 
 </div>
 
-Para obtener más información, vea el tema de ayuda sobre el cmdlet [Get-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicy) .
+Para obtener más información, consulte el tema de ayuda del cmdlet [Get-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicy) .
 
 </div>
 

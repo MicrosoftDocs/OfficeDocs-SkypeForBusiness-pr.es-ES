@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: capacidad de probar la conexión a un dominio federado'
+title: 'Lync Server 2013: capacidad de prueba para conectarse a un dominio federado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969653
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f18a8c703b085fe559b3a979ac72d9c0b0dfe38f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82c44cf7cff78fc93054679ae1bc4c66bc6b4c40
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746020"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42016241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>Capacidad de prueba para conectarse a un dominio federado desde Lync Server 2013
+# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>Probar la capacidad de conectarse a un dominio federado desde Lync Server 2013
 
 </div>
 
@@ -45,8 +45,8 @@ _**Última modificación del tema:** 2014-06-05_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Programación de verificación</p></td>
-<td><p>Cada día</p></td>
+<td><p>Programación de comprobación</p></td>
+<td><p>Diario</p></td>
 </tr>
 <tr class="even">
 <td><p>Herramienta de prueba</p></td>
@@ -54,8 +54,8 @@ _**Última modificación del tema:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
-<td><p>Al ejecutarse de forma local con el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol de RBAC que tenga permiso para ejecutar el cmdlet test-CsFederatedPartner. Para ver una lista de todos los roles de RBAC que pueden usar este cmdlet, ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:</p>
+<td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsFederatedPartner. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsFederatedPartner&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**Última modificación del tema:** 2014-06-05_
 
 ## <a name="description"></a>Descripción
 
-Prueba-CsFederatedPartner comprueba su capacidad de conectar con el dominio de un socio federado. Para comprobar la conectividad a un dominio, ese dominio debe aparecer en la colección de dominios permitidos (federados). Puede recuperar una lista de los dominios en la lista de dominios permitidos con este comando:
+Test-CsFederatedPartner verifica su capacidad de conectarse con el dominio de un socio federado. Para comprobar la conectividad a un dominio, ese dominio debe estar incluido en la colección de dominios permitidos (federado). Puede recuperar una lista de los dominios en la lista de dominios permitidos con este comando:
 
     Get-CsAllowedDomain
 
@@ -78,7 +78,7 @@ Para obtener más información, consulte la documentación de ayuda del cmdlet [
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-El cmdlet test-FederatedPartner requiere dos datos: el FQDN de su servidor perimetral y el FQDN del socio federado. Por ejemplo, este comando prueba la capacidad de conectar con el dominio contoso.com:
+El cmdlet test-FederatedPartner requiere dos datos: el FQDN del servidor perimetral y el FQDN del socio federado. Por ejemplo, este comando comprueba la capacidad de conectarse al dominio contoso.com:
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"
 
@@ -92,21 +92,21 @@ Para obtener más información, consulte la documentación de ayuda del cmdlet [
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Determinar el éxito o el fracaso
+## <a name="determining-success-or-failure"></a>Determinar si se ha realizado correctamente o erróneo
 
-Si se puede contactar con el dominio especificado, recibirá una salida similar a la siguiente, con la propiedad result marcada como **correcta:**
+Si se puede establecer contacto con el dominio especificado, recibirá un resultado similar al siguiente con la propiedad result marcada como **correcta:**
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
-Resultado: éxito
+Resultado: correcto
 
 Latencia: 00:00:00
 
-:
+Error
 
 Diagnóstico
 
-Si no se puede contactar con el dominio especificado, el resultado se mostrará como erróneo y la información adicional se registrará en las propiedades de diagnóstico y errores:
+Si no se puede establecer contacto con el dominio especificado, el resultado se mostrará como error y la información adicional se registrará en las propiedades error y diagnosis:
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -116,15 +116,15 @@ Latencia: 00:00:00
 
 Error: 504, tiempo de espera del servidor
 
-Diagnosis: ErrorCode = 2, Source = ATL-CS-001. litwareinc. com, razón = ver
+Diagnosis: ErrorCode = 2, Source = ATL-CS-001. litwareinc. com, Reason = vea
 
 código de respuesta y frase de motivo.
 
 Microsoft. RTC. Signaling. DiagnosticHeader
 
-Por ejemplo, la salida anterior indica que no se pudo realizar la prueba debido a un error de tiempo de espera del servidor. Normalmente, esto indica problemas de conectividad de red o problemas para ponerse en contacto con el servidor perimetral.
+Por ejemplo, la salida anterior indica que la prueba produjo un error debido a un error de tiempo de espera del servidor. Normalmente, esto indica problemas de conectividad de red o problemas al contactar con el servidor perimetral.
 
-Si prueba-CsFederatedPartner da error, es posible que desee volver a ejecutar la prueba, esta vez incluido el parámetro detallado:
+Si test-CsFederatedPartner produce un error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com" -Verbose
 
@@ -132,11 +132,11 @@ Si prueba-CsFederatedPartner da error, es posible que desee volver a ejecutar la
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Razones por las que se ha producido un error en la prueba
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
 Estas son algunas de las razones comunes por las que test-CsFederatedPartner podría fallar:
 
-  - Es posible que el servidor perimetral no esté disponible. Puede usar los FQDN de los servidores perimetrales con este comando:
+  - Es posible que el servidor perimetral no esté disponible. Puede usar este comando para los FQDN de los servidores perimetrales:
     
         Get-CsService -EdgeServer | Select-Object PoolFqdn
     
@@ -144,11 +144,11 @@ Estas son algunas de las razones comunes por las que test-CsFederatedPartner pod
     
         ping atl-edge-001.litwareinc.com
 
-  - Es posible que el dominio especificado no aparezca en la lista de dominios permitidos. Para comprobar los dominios que se han agregado a la lista de dominios permitidos, use este comando:
+  - Es posible que el dominio especificado no aparezca en la lista de dominios permitidos. Para comprobar los dominios que se agregaron a la lista de dominios permitidos, use este comando:
     
         Get-CsAllowedDomain
     
-    Si desea ver una lista de los dominios con los que los usuarios no pueden comunicarse, use este comando:
+    Si quiere ver una lista de dominios con los que los usuarios no se pudieron comunicar, use este comando:
     
         Get-CsBlockedDomain
 

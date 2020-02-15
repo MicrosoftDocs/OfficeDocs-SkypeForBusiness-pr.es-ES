@@ -1,5 +1,5 @@
 ---
-title: Ver los usuarios actuales en un grupo de servidores de Lync Server 2010
+title: Ver usuarios actuales en el grupo de servidores 2010 de Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da91f6a7247f152599f740aebaa7ebea09c852bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fadc7b822fe1bdd04c170031407fe0441bfdc2f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730760"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036188"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-current-users-in-lync-server-2010-pool"></a>Ver los usuarios actuales en un grupo de servidores de Lync Server 2010
+# <a name="view-current-users-in-lync-server-2010-pool"></a>Ver usuarios actuales en el grupo de servidores 2010 de Lync Server
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41730760"
 
 _**Última modificación del tema:** 2012-09-26_
 
-Antes de aprender las distintas formas de mover usuarios entre grupos, primero debemos determinar qué usuarios existen en el grupo de servidores de Lync Server 2010 heredado. En la imagen de abajo, la columna registrar grupo identifica seis usuarios que están configurados para el grupo de servidores de Lync Server 2010 heredado. Estos son los usuarios de prueba que se moverán al grupo de servidores de Lync Server 2013.
+Antes de aprender las distintas formas de mover usuarios entre grupos de servidores, primero debemos determinar qué usuarios existen en el grupo de servidores de Lync Server 2010 heredado. En la imagen siguiente, la columna grupo de registrador identifica a seis usuarios que están configurados para el grupo de servidores de Lync Server 2010 heredado. Estos son los usuarios de prueba que se moverán al grupo de servidores de Lync 2013.
 
 **Para ver la lista de usuarios del grupo de servidores de Lync Server 2010**
 
-1.  Inicie sesión en el servidor front-end de Lync Server 2010 con una cuenta que sea miembro del grupo RTCUniversalServerAdmins o de un miembro del rol administrativo CsAdministrator o CsUserAdministrator.
+1.  Inicie sesión en el servidor front-end de Lync Server 2010 con una cuenta que sea miembro del grupo RTCUniversalServerAdmins o miembro del rol administrativo CsAdministrator o CsUserAdministrator.
 
 2.  Abra el **Panel de control de Lync Server**.
 
-3.  Haga clic en **Usuarios**, haga clic en Buscar y, posteriormente, haga clic en **Buscar**.
+3.  Haga clic en **Usuarios**, Buscar y **Buscar**.
 
 **Panel de control de Lync Server 15**
 

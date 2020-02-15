@@ -12,16 +12,16 @@ ms:contentKeyID: 49733844
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f3dd712b94838382f6022de888383c0f47bee6e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7f5deeab8d2df55f4f2e91a1a90909a3550a3a56
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758094"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035332"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41758094"
 
 _**Última modificación del tema:** 2013-02-07_
 
-Siga estos pasos para crear una directiva de conferencia de nivel de usuario o de sitio. Para obtener más información sobre cómo asignar una directiva de nivel de usuario a un usuario, vea [asignar una directiva de conferencia por usuario en Lync Server 2013](lync-server-2013-assign-a-per-user-conferencing-policy.md). Para obtener una lista de todas las configuraciones de directiva de conferencia disponibles, consulte [referencia de configuración de directiva de conferencia para Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
+Siga estos pasos para crear una directiva de conferencia de nivel de usuario o de nivel de sitio. Para obtener más información sobre cómo asignar una directiva de nivel de usuario a un usuario, consulte [asignar una directiva de conferencia por usuario en Lync Server 2013](lync-server-2013-assign-a-per-user-conferencing-policy.md). Para obtener una lista de todas las opciones de configuración de directivas de conferencia disponibles, consulte [referencia de configuración de directivas de conferencia para Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
 
 <div>
 
-## <a name="to-create-a-new-user-or-site-policy"></a>Para crear una nueva Directiva de usuario o de sitio
+## <a name="to-create-a-new-user-or-site-policy"></a>Para crear una directiva de sitio o de usuario nueva
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **Conferencia** y, a continuación, en **Directiva de conferencia**.
+3.  En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Directiva de Conferencia**.
 
-4.  Haga clic en **Nuevo** y, luego, siga uno de estos procedimientos:
+4.  Haga clic en **Nuevo** y luego siga uno de estos procedimientos:
     
       - Para crear una directiva de nivel de usuario, haga clic en **Directiva de usuario**. En **Directiva de conferencia nueva**, en **Nombre**, escriba un nombre descriptivo para la directiva.
     
@@ -59,7 +59,7 @@ Siga estos pasos para crear una directiva de conferencia de nivel de usuario o d
         
 
         > [!NOTE]  
-        > El nombre del sitio se convierte en el nombre de la Directiva de conferencia y no se puede cambiar.
+        > El nombre del sitio pasa a ser el nombre de la directiva de conferencia y no se puede cambiar.
 
         
         </div>
@@ -68,7 +68,7 @@ Siga estos pasos para crear una directiva de conferencia de nivel de usuario o d
 
 6.  En **Directiva de organizadores**, en **Tamaño máximo de la reunión**, escriba el número máximo de usuarios que desea que participen en una reunión. De manera predeterminada, el tamaño máximo de la reunión se establece en 250.
 
-7.  Para impedir que los usuarios inviten a usuarios anónimos a las reuniones, desactive la casilla **Permitir a los participantes invitar a usuarios anónimos**. Los usuarios anónimos son usuarios que no tienen credenciales en los servicios de dominio de Active Directory de su organización y que, por consiguiente, no se autentican. De manera predeterminada, los participantes pueden invitar a usuarios anónimos a las reuniones.
+7.  Para impedir que los usuarios inviten a usuarios anónimos a las reuniones, desactive la casilla **Permitir a los participantes invitar a usuarios anónimos**. Los usuarios anónimos son usuarios que no tienen credenciales en los servicios de dominio de Active Directory de la organización y que, por lo tanto, no están autenticados. Normalmente, los participantes pueden invitar a usuarios anónimos a las reuniones.
 
 8.  En **Grabación**, lleve a cabo uno de los siguientes procedimientos:
     
@@ -88,11 +88,11 @@ Siga estos pasos para crear una directiva de conferencia de nivel de usuario o d
 
 11. Si opta por permitir el uso de audio en **Audio/vídeo**, realice uno de los procedimientos siguientes:
     
-      - Para impedir que los usuarios participen en la reunión mediante acceso telefónico, desactive la casilla **Habilitar conferencia de acceso telefónico local RTC**. De manera predeterminada, los usuarios pueden acceder telefónicamente a las reuniones a través de la red telefónica conmutada (RTC).
+      - Para impedir que los usuarios participen en la reunión mediante acceso telefónico, desactive la casilla **Habilitar conferencia de acceso telefónico local RTC**. Normalmente, los usuarios pueden acceder telefónicamente a las reuniones a través de la red telefónica conmutada (RTC).
     
-      - Si permite que los usuarios accedan telefónicamente a las reuniones y desea permitir que usuarios no autenticados (anónimos) se unan a una reunión por aceptación de llamada, active la casilla **Permitir acceso telefónico a los participantes anónimos**. Con la aceptación de llamadas, el servidor de conferencia llama al usuario y este contesta el teléfono para participar en la reunión. De manera predeterminada, los usuarios anónimos no pueden participar en una reunión por aceptación de llamada.
+      - Si permite que los usuarios accedan telefónicamente a las reuniones y desea permitir que usuarios no autenticados (anónimos) se unan a una reunión con llamadas salientes, active la casilla **Permitir acceso telefónico a los participantes anónimos**. Con las llamadas salientes, el servidor de conferencia llama al usuario y este contesta el teléfono para participar en la reunión. Normalmente, los usuarios anónimos no pueden participar en una reunión con llamadas salientes.
 
-12. Si decide permitir el uso de vídeo en **audio o vídeo**, Active **permitir varias transmisiones de vídeo** .
+12. Si opta por permitir el uso de vídeo en **Audio/vídeo**, active **Permitir varias secuencias de vídeo**.
 
 13. En **Colaboración de datos**, lleve a cabo uno de los siguientes procedimientos:
     
@@ -102,13 +102,13 @@ Siga estos pasos para crear una directiva de conferencia de nivel de usuario o d
 
 14. Si opta por permitir la colaboración de datos en **Colaboración de datos**, realice uno de los procedimientos siguientes:
     
-      - Para impedir descargas externas, desactive la casilla **Permitir a los participantes federados y anónimos descargar contenido**. De manera predeterminada, los usuarios externos pueden descargar contenido.
+      - Para impedir descargas externas, desactive la casilla **Permitir a los participantes federados y anónimos descargar contenido**. Normalmente, los usuarios externos pueden descargar contenido.
     
-      - Para impedir la transferencia de archivos, desactive la casilla **Permitir a los participantes transferir archivos**. De manera predeterminada, los usuarios pueden transferir archivos.
+      - Para impedir la transferencia de archivos, desactive la casilla **Permitir a los participantes transferir archivos**. Normalmente, los usuarios pueden transferir archivos.
     
-      - Para impedir el uso de anotaciones, desactive la casilla **Habilitar anotaciones**. Para usar las anotaciones en presentaciones con diapositivas de PowerPoint, desactive la casilla **Habilitar anotaciones de PowerPoint**. Normalmente, las anotaciones se permiten.
+      - Para impedir el uso de anotaciones, desactive la casilla **Habilitar anotaciones**. Para usar anotaciones en las presentaciones de PowerPoint compartidas, desactive la casilla **Habilitar anotaciones de PowerPoint**. Normalmente, las anotaciones se permiten.
     
-      - Para impedir el uso de sondeos, desactive la casilla **Habilitar sondeos**. De manera predeterminada, se permiten los sondeos.
+      - Para impedir el uso de sondeos, desactive la casilla **Habilitar sondeos**. Normalmente, se permiten los sondeos.
 
 15. En **Uso compartido de aplicaciones**, lleve a cabo uno de los siguientes procedimientos:
     
@@ -116,11 +116,11 @@ Siga estos pasos para crear una directiva de conferencia de nivel de usuario o d
     
       - Para permitir el uso compartido de aplicaciones, haga clic en **Habilitar el uso compartido de aplicaciones**. Esta es la configuración predeterminada.
 
-16. Si opta por permitir el uso compartido de aplicaciones en **Uso compartido de aplicaciones**, realice uno de los procedimientos siguientes:
+16. Si opta por permitir el uso compartido de aplicaciones en **Compartit aplicaciones**, realice uno de los procedimientos siguientes:
     
-      - Para impedir que los participantes en una reunión controlen el uso compartido de aplicaciones, desactive la casilla **Permitir a los participantes asumir el control**. De manera predeterminada, los participantes pueden controlar el uso compartido de las aplicaciones.
+      - Para impedir que los participantes en una reunión controlen el uso compartido de aplicaciones, desactive la casilla **Permitir a los participantes asumir el control**. Normalmente, los participantes pueden controlar el uso compartido de las aplicaciones.
     
-      - Si opta por permitir que los participantes de las reuniones controlen el uso compartido de aplicaciones, seleccione la casilla **Permitir a los participantes federados y anónimos asumir el control** para permitir que los usuarios externos controlen el uso compartido de aplicaciones. De manera predeterminada, los usuarios externos no pueden controlar el uso compartido de las aplicaciones.
+      - Si opta por permitir que los participantes de las reuniones controlen el uso compartido de aplicaciones, seleccione la casilla **Permitir a los participantes federados y anónimos asumir el control** para permitir que los usuarios externos controlen el uso compartido de aplicaciones. Normalmente, los usuarios externos no pueden controlar el uso compartido de las aplicaciones.
 
 17. En **Directiva de participantes**, siga uno de estos procedimientos:
     
@@ -130,11 +130,11 @@ Siga estos pasos para crear una directiva de conferencia de nivel de usuario o d
     
       - Para permitir el uso compartido de las aplicaciones y del escritorio, haga clic en **Habilitar el uso compartido de aplicaciones y escritorio**. Esta es la configuración predeterminada.
 
-18. Para impedir la transferencia de archivos punto a punto, desactive la casilla **Habilitar la transferencia de archivos punto a punto**. De manera predeterminada, se permite la transferencia de archivos punto a punto.
+18. Para impedir la transferencia de archivos punto a punto, desactive la casilla **Habilitar la transferencia de archivos punto a punto**. Normalmente, se permite la transferencia de archivos punto a punto.
 
-19. Para permitir la grabación punto a punto, active la casilla **Habilitar grabación punto a punto**. De manera predeterminada, no se permite la grabación punto a punto.
+19. Para permitir la grabación punto a punto, active la casilla **Habilitar grabación punto a punto**. Normalmente, no se permite la grabación punto a punto.
 
-20. Para permitir que los participantes se unan con varias secuencias de vídeo, active la casilla **Permitir que los participantes se unan con varias secuencias de vídeo**. De manera predeterminada, se permiten varias secuencias de vídeo.
+20. Para permitir que los participantes se unan con varias secuencias de vídeo, active la casilla **Permitir que los participantes se unan con varias secuencias de vídeo**. Normalmente, se permiten varias secuencias de vídeo.
 
 21. Haga clic en **Confirmar**.
 
@@ -142,13 +142,13 @@ Siga estos pasos para crear una directiva de conferencia de nivel de usuario o d
 
 <div>
 
-## <a name="to-modify-an-existing-user-or-site-policy"></a>Para modificar una directiva de sitio o usuario existente
+## <a name="to-modify-an-existing-user-or-site-policy"></a>Para modificar una directiva de usuario o de sitio existente
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **Conferencia** y, a continuación, en **Directiva de conferencia**.
+3.  En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Directiva de conferencia**.
 
 4.  En la lista de directivas de conferencia, haga clic en la directiva que desee cambiar y luego haga clic en **Editar** y en **Mostrar detalles**.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Componentes y topologías para mensajería unificada local'
+title: 'Lync Server 2013: componentes y topologías para mensajería unificada local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1739dbb7d603f112af72c78032c46b94470302bb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 94a22348ca5b0f17415edf0a4f259d5c58d473a9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742590"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007990"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41742590"
 
 _**Última modificación del tema:** 2012-09-25_
 
-En este tema se describen los componentes de Microsoft Exchange Server 2013 necesarios para proporcionar características de mensajería unificada (UM) de Exchange a la implementación de Lync Server 2013. También se describen las topologías compatibles con la integración local de mensajería unificada de Exchange.
+En este tema se describen los componentes de Microsoft Exchange Server 2013 necesarios para proporcionar características de mensajería unificada (MU) de Exchange a la implementación de Lync Server 2013. También se describen las topologías admitidas para la integración local de mensajería unificada de Exchange.
 
 <div>
 
 ## <a name="exchange-server-components"></a>Componentes de Exchange Server
 
-Para proporcionar las características y los servicios de mensajería unificada de Exchange que se describen en [las características de mensajería unificada integrada y Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md) a los usuarios de telefonía IP empresarial de su organización, debe implementar un servidor de correo de Microsoft Exchange y un servidor de acceso de cliente, que aloje los buzones de usuario y proporciona una única ubicación de almacenamiento para correo electrónico y correo de voz. La mensajería unificada de Exchange se ejecuta como un servicio en el buzón de Exchange y los servidores de acceso de cliente.
+Para proporcionar las características y los servicios de mensajería unificada de Exchange descritos en [características de mensajería unificada integrada y Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md) a los usuarios de Enterprise Voice de su organización, debe implementar un servidor de buzones de correo y un servidor de acceso de cliente de Microsoft Exchange, que hospeda los buzones de usuario y proporciona una única ubicación de almacenamiento para el correo electrónico y el correo de voz La mensajería unificada de Exchange se ejecuta como un servicio en los servidores de buzones y de acceso de cliente de Exchange.
 
-Para obtener detalles sobre los componentes de mensajería unificada de Exchange en Microsoft Exchange Server 2007 y Microsoft Exchange Server 2010, consulte [implementación local de mensajería unificada de Exchange para proporcionar el correo de voz de Lync Server 2013](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md) en la documentación de implementación.
+Para obtener más información acerca de los componentes de mensajería unificada de Exchange en Microsoft Exchange Server 2007 y Microsoft Exchange Server 2010, consulte [Deploying on-premises Exchange um to Provide Lync Server 2013 Voice Mail](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md) en la documentación sobre implementación.
 
 </div>
 
@@ -59,17 +59,17 @@ Lync Server 2013 admite las siguientes topologías para la integración de mensa
 
   - Bosque único
 
-  - Dominio único (es decir, un único bosque con un único dominio). Lync Server 2013, Microsoft Exchange y los usuarios residen en el mismo dominio.
+  - Dominio único (es decir, un único bosque con un único dominio). Lync Server 2013, Microsoft Exchange y todos los usuarios residen en el mismo dominio.
 
-  - Varios dominios (es decir, un dominio raíz con uno o más dominios secundarios). Lync Server 2013 y los servidores de Microsoft Exchange se implementan en diferentes dominios desde el dominio en el que se crean los usuarios. Los servidores de mensajería unificada de Exchange se pueden implementar en diferentes dominios del grupo de 2013 de Lync Server que admiten.
+  - Varios dominios (es decir, un dominio raíz con uno o más dominios secundarios). Lync Server 2013 y los servidores de Microsoft Exchange se implementan en dominios diferentes del dominio donde se crean los usuarios. Los servidores de mensajería unificada de Exchange se pueden implementar en dominios diferentes del grupo de Lync Server 2013 que admiten.
 
-  - Varios bosques (es decir, un bosque de recursos). Lync Server 2013 se implementa en un único bosque y, a continuación, los usuarios se distribuyen entre varios bosques. Los atributos de mensajería unificada de Exchange de los usuarios deben replicarse en el bosque de Lync Server 2013.
+  - Varios bosques (es decir, un bosque de recursos). Lync Server 2013 se implementa en un único bosque y, a continuación, los usuarios se distribuyen en varios bosques. Los atributos de mensajería unificada de Exchange de los usuarios deben replicarse en el bosque de Lync Server 2013.
     
     <div>
     
 
     > [!NOTE]  
-    > Exchange se puede implementar en varios bosques. Cada organización de Exchange puede proporcionar mensajería unificada de Exchange a sus usuarios, o la mensajería unificada de Exchange se puede implementar en el mismo bosque que Lync Server 2013.
+    > Exchange se puede implementar en varios bosques. Cada organización de Exchange puede proporcionar la mensajería unificada de Exchange a sus usuarios o se puede implementar la mensajería unificada de Exchange en el mismo bosque que Lync Server 2013.
 
     
     </div>

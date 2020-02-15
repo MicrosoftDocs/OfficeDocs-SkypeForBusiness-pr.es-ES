@@ -12,16 +12,16 @@ ms:contentKeyID: 48183575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3fd89dfe950ccc6c36f014acdf525664096b40f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9502d5cab3cb348b9fdf03236c6da966893d0852
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746590"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006726"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41746590"
 
 _**Última modificación del tema:** 2012-09-18_
 
-La mensajería instantánea (MI) y la presencia siempre se ejecutan en los grupos de servidores front-end Enterprise Edition y en los servidores Standard Edition. Para obtener información sobre el hardware, los sistemas operativos y el software de base de datos admitidos, consulte lo siguiente:
+La mensajería instantánea (mi) y la presencia siempre se ejecutan en grupos de servidores front-end Enterprise Edition y servidores Standard Edition. Para obtener más información sobre el hardware, lo sistemas operativos y el software de base de datos admitidos, consulte lo siguiente:
 
-  - [Hardware admitido en Lync Server 2013](lync-server-2013-supported-hardware.md)
+  - [Hardware compatible con Lync Server 2013](lync-server-2013-supported-hardware.md)
 
   - [Software de servidor y compatibilidad con la infraestructura en Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md)
 
 <div>
 
-## <a name="supported-collocation"></a>Collocation compatibles
+## <a name="supported-collocation"></a>Escenarios de instalación compatibles
 
-El rol de servidor front-end se puede incluir en el servidor de mediación. También puede ejecutar la supervisión y el archivado en servidores front-end. El servidor front-end no se puede incluir con el servidor EDGE o director.
+El rol de servidor front-end se puede instalar junto con el servidor de mediación.También es posible ejecutar la supervisión y el archivado en servidores front-end. El servidor front-end no se puede instalar con el servidor perimetral ni director.
 
 </div>
 

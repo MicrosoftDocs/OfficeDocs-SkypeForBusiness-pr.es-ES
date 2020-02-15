@@ -12,20 +12,20 @@ ms:contentKeyID: 48183723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80e835bfcf12495c75612ecee93d87cf3c421651
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1cfde603ace9036ba547ffb0a7ee80c1963ae6cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755944"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-media-port-range-settings-in-lync-server-2013"></a>Configuración de la configuración de intervalo de puertos de medios en Lync Server 2013
+# <a name="configuring-media-port-range-settings-in-lync-server-2013"></a>Configuración de intervalos de puertos de medios en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41755944"
 
 _**Última modificación del tema:** 2012-10-18_
 
-La configuración de intervalo de puertos de medios puede influir significativamente en el rendimiento del cliente y debe configurarse. Puede configurar estas opciones con el shell de administración de Lync Server.
+La configuración del intervalo de puertos de medios puede afectar significativamente al rendimiento del cliente y debe configurarse. Puede configurar estas opciones mediante el shell de administración de Lync Server.
 
 ### <a name="media-port-range-settings"></a>Configuración de intervalo de puertos de medios
 
@@ -52,26 +52,26 @@ La configuración de intervalo de puertos de medios puede influir significativam
 <tr class="header">
 <th>Configuración</th>
 <th>Descripción</th>
-<th>Cmdlet del shell de administración de Lync Server</th>
+<th>Cmdlet de Shell de administración de Lync Server</th>
 <th>Parámetros del cmdlet</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Portrange\Enabled</p></td>
-<td><p>Especifica si el cliente debe usar los intervalos de puertos enviados por el servidor para multimedia y para la señalización. Se usa junto con los subvalores MinMediaPort y MaxMediaPort.</p></td>
+<td><p>Especifica si el cliente debe usar los intervalos de puertos enviados por el servidor para medios y señalización. Se usa junto con los subvalores MinMediaPort y MaxMediaPort.</p></td>
 <td><p><strong>CsConferencingConfiguration</strong></p></td>
-<td><p>ClientMediaPortRangeEnabled</p></td>
+<td><p>Los parámetros clientmediaportrangeenabled</p></td>
 </tr>
 <tr class="even">
 <td><p>Portrange\MinMediaPort</p></td>
-<td><p>Especifica el número de puerto de inicio que se va a usar para los medios. Se combina con MaxMediaPort para especificar el rango de puertos. El intervalo mínimo recomendado es 40 puertos.</p></td>
+<td><p>Especifica el número de Puerto inicial que se va a usar para los medios. Se combina con MaxMediaPort para especificar el intervalo de puertos. El intervalo mínimo recomendado es de 40 puertos.</p></td>
 <td><p><strong>CsConferencingConfiguration</strong></p></td>
-<td><p>ClientMediaPort (representa el número de puerto de inicio para usar en los medios del cliente)</p></td>
+<td><p>ClientMediaPort (representa el número inicial de puerto que debe usarse para los medios de cliente)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Portrange\MaxMediaPort</p></td>
-<td><p>Especifica el número de puerto más alto que se debe usar para los medios. Se combina con MinMediaPort para especificar el rango de puertos. El intervalo mínimo recomendado es 40 puertos.</p></td>
+<td><p>Especifica el número de puerto más alto que se va a usar para los medios. Se combina con MinMediaPort para especificar el intervalo de puertos. El intervalo mínimo recomendado es de 40 puertos.</p></td>
 <td><p><strong>CsConferencingConfiguration</strong></p></td>
 <td><p>ClientMediaPortRange (indica el número total de puertos disponibles para los medios de cliente; el valor predeterminado es 40)</p></td>
 </tr>
@@ -83,15 +83,15 @@ La configuración de intervalo de puertos de medios puede influir significativam
 
 ## <a name="to-configure-media-port-range-settings"></a>Para configurar las opciones de intervalo de puertos de medios
 
-1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
 2.  Ejecute el siguiente cmdlet:
     
         Get-CsConferencingConfiguration
     
-    Este cmdlet devuelve la configuración de la Conferencia.
+    Este cmdlet devuelve las opciones de configuración de conferencia.
 
-3.  Ejecute el siguiente cmdlet con los parámetros y valores que desea cambiar (para obtener información detallada sobre los parámetros para este cmdlet, consulte la documentación del shell de administración de Lync Server):
+3.  Ejecute el siguiente cmdlet con los parámetros y valores que desee cambiar (para obtener información detallada sobre los parámetros de este cmdlet, consulte la documentación del shell de administración de Lync Server):
     
         Set-CsConferencingConfiguration
     
@@ -99,7 +99,7 @@ La configuración de intervalo de puertos de medios puede influir significativam
     
 
     > [!NOTE]  
-    > Puede crear más conjuntos de parámetros de configuración de conferencias para sitios específicos. Use el cmdlet <STRONG>New-CsConferencingConfiguration</STRONG> con una identidad de sitio. Al crear nuevas opciones de configuración de conferencias para sitios, la configuración del sitio tiene prioridad sobre la configuración global. Para obtener más información, consulte la documentación del shell de administración de Lync Server.
+    > Puede crear conjuntos adicionales de opciones de configuración de conferencia para sitios específicos. Use el cmdlet <STRONG>New-CsConferencingConfiguration</STRONG> con una identidad de sitio. Al crear nuevas opciones de configuración de conferencia para los sitios, la configuración del sitio tiene prioridad sobre la configuración global. Para obtener más información, vea la documentación referente a Lync Server Management Shell.
 
     
     </div>

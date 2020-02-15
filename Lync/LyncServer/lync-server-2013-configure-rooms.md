@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar salones'
+title: 'Lync Server 2013: configurar salas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184750
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06fea4fcda27eaedd671d833a4f53ed0ddec67c6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0d6d5fabe5b465fd2ecab3cfee7474aa64160210
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730040"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035252"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-rooms-in-lync-server-2013"></a>Configurar salones en Lync Server 2013
+# <a name="configure-rooms-in-lync-server-2013"></a>Configurar salas en Lync Server 2013
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41730040"
 
 _**Última modificación del tema:** 2012-10-06_
 
-La configuración de los salones de chat persistentes la controlan normalmente los usuarios u otros equipos centrales mediante la interfaz de línea de comandos de Windows PowerShell; por lo general, los administradores no administran salones de chat. Sin embargo, si tiene que crear y administrar salones de chat, puede usar la interfaz de línea de comandos de Windows PowerShell o agregarse como miembro a un salón de chat y usar el cliente de Lync 2013.
+La configuración de salones de chat persistente suele estar controlada por los usuarios u otros equipos centrales mediante la interfaz de línea de comandos de Windows PowerShell; un administrador no suele administrar los salones de chat. Sin embargo, si tiene que crear y administrar salones de chat, puede usar la interfaz de línea de comandos de Windows PowerShell o agregarse como miembro a un salón de chat y usar el cliente de Lync 2013.
 
-Para obtener detalles sobre la configuración de salones de chat con la interfaz de línea de comandos de Windows PowerShell, consulte "administración de salas" en [configurar el servidor de chat persistente mediante cmdlets de Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).
+Para obtener más información sobre cómo configurar salones de chat mediante la interfaz de línea de comandos de Windows PowerShell, consulte "administración de salones" en [Configuring persistent chat Server by Using Windows PowerShell cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).
 
 <div>
 
 ## <a name="managing-data-in-chat-rooms"></a>Administración de datos en salones de chat
 
-El servidor de chat persistente permite a los usuarios colaborar mediante la publicación de mensajes en salas de chat persistentes. Los datos se conservan en el servidor y los miembros de la sala pueden tener acceso a los datos, incluidos los datos históricos. Sin embargo, los usuarios con diferentes roles tienen acceso diferente a los datos persistentes, como se describe en la siguiente lista.
+El servidor de chat persistente permite que los usuarios colaboren publicando mensajes en salones de chat persistente. Los datos persisten en el servidor, y los miembros del salón pueden obtener acceso a los datos, incluido el historial. No obstante, los usuarios con diferentes roles pueden tener un acceso diferente a los datos de persistencia, como se describe en la lista siguiente.
 
-  - Los administradores pueden eliminar contenido antiguo (por ejemplo, contenido que fue publicado antes de una determinada fecha) de cualquier salón de chat para conservar la base de datos e impedir que crezca demasiado. O bien, pueden quitar o reemplazar mensajes que se consideren inapropiados para un salón de chat en particular.
+  - Los administradores pueden eliminar contenido antiguo (por ejemplo, contenido que fue publicado antes de una determinada fecha) de cualquier salón de chat para conservar la base de datos e impedir que crezca demasiado. También pueden quitar o reemplazar mensajes que se consideren inapropiados para un salón de chat específico.
 
-  - Los usuarios finales, incluidos los autores de los mensajes, no pueden eliminar contenido de ningún salón de chat.
+  - Los usuarios finales, incluidos los autores de mensajes, no pueden eliminar contenido de ningún salón de chat.
 
-  - Los administradores de salones de chat pueden deshabilitar salas, pero no pueden eliminar salas. Solo los administradores pueden eliminar un salón de chat una vez que se ha creado.
+  - Los administradores de los salones de chat pueden deshabilitar salones, pero no pueden eliminarlos. Solo los administradores pueden eliminar un salón de chat una vez creado.
 
-Cuando se elimina un mensaje, no se puede deshacer la acción. Sin embargo, los mensajes eliminados se pueden restaurar si hay una copia de seguridad. Si un servidor de cumplimiento de chat persistente está habilitado, los mensajes antiguos se conservan en la base de datos de cumplimiento.
+Si se elimina un mensaje, no se puede deshacer la acción. Sin embargo, los mensajes eliminados pueden restaurarse si hay una copia de seguridad. Si un servidor de cumplimiento de chat persistente está habilitado, los mensajes antiguos se conservan en la base de datos de cumplimiento.
 
 <div>
 
 
 > [!NOTE]  
-> Este uso de datos del salón de chat se aplica a Lync Server 2013, aplicación API de servidor de chat persistente, excepto en el caso de que intervenga el rol de administrador. La API del servidor de chat persistente no se puede usar para realizar ninguna de las operaciones del administrador. Debe realizar estas operaciones en el shell de administración de Lync Server.
+> Este uso de datos del salón de chat se aplica a la aplicación de API del servidor de chat persistente de Lync Server 2013, excepto en el caso de que el rol de administrador esté implicado. La API del servidor de chat persistente no se puede usar para realizar ninguna de las operaciones del administrador. Debe realizar estas operaciones en el shell de administración de Lync Server.
 
 
 

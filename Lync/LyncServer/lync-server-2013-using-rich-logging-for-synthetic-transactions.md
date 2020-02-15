@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: uso del registro completo para transacciones sintéticas'
+title: 'Lync Server 2013: usar el registro enriquecido para transacciones sintéticas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48efc99a49fd41678d07eef8685bc7f045397aa3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 421b691bd282b858eca64c9756e92dd24aac8b7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744050"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007579"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a>Usar el registro avanzado para transacciones sintéticas en Lync Server 2013
+# <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a>Uso del registro enriquecido para transacciones sintéticas en Lync Server 2013
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41744050"
 
 _**Última modificación del tema:** 2012-10-22_
 
-Las transacciones sintéticas (presentadas en Microsoft Lync Server 2010) permiten a los administradores comprobar que los usuarios pueden completar correctamente tareas comunes como iniciar sesión en el sistema, intercambiar mensajes instantáneos o hacer llamadas a un teléfono ubicado en la red de telefonía pública conmutada (RTC). Estas pruebas (que se empaquetan como un conjunto de cmdlets de Windows PowerShell de Lync Server) pueden realizarse manualmente por un administrador o una aplicación, como System Center Operations Manager, las puede ejecutar automáticamente.
+Las transacciones sintéticas (incluidas en Microsoft Lync Server 2010) proporcionan una manera para que los administradores comprueben que los usuarios pueden completar correctamente tareas comunes como iniciar sesión en el sistema, intercambiar mensajes instantáneos o realizar llamadas a un teléfono ubicado en la red telefónica conmutada (RTC). Estas pruebas (que se empaquetan como un conjunto de cmdlets de Windows PowerShell de Lync Server) pueden ser realizadas manualmente por un administrador o pueden ser ejecutadas automáticamente por una aplicación como System Center Operations Manager.
 
-En Lync Server 2010, las transacciones sintéticas se demostraron muy útiles para ayudar a los administradores a identificar problemas con el sistema. Por ejemplo, el cmdlet **Test-CsRegistration** puede avisar a los administradores de que algunos usuarios tienen problemas para registrarse en Lync Server. Sin embargo, las transacciones sintéticas eran menos útiles para ayudar a los administradores a determinar por qué estos usuarios tenían problemas para registrarse en Lync Server. Esto se debía a que las transacciones sintéticas no proporcionaban información de registro detallada que pudiera ayudar a los administradores a solucionar problemas con Lync Server. En el mejor de los casos, la salida detallada de una transacción sintética proporcionaba información paso a paso que podría permitir a un administrador hacer una estimación educada sobre dónde se produjo un problema.
+En Lync Server 2010, las transacciones sintéticas resultaban muy útiles para ayudar a los administradores a identificar problemas en el sistema. Por ejemplo, el cmdlet **Test-CsRegistration** podría avisar a los administradores del hecho de que algunos usuarios tenían problemas para registrarse en Lync Server. Sin embargo, las transacciones sintéticas eran algo menos útiles para ayudar a los administradores a determinar por qué estos usuarios tenían problemas para registrarse con Lync Server. Esto se debe a que las transacciones sintéticas no proporcionaban información de registro detallada que podría ayudar a los administradores a solucionar problemas con Lync Server. En el mejor de los casos, los resultados detallados de las transacciones sintéticas proporcionaban información detallada que podían ayudar al administrador a suponer dónde se podía encontrar el problema.
 
-En Microsoft Lync Server 2013, las transacciones sintéticas se han diseñado para proporcionar un registro enriquecido. "Registro enriquecido" significa que, para cada actividad que se compromete con una transacción sintética, se registrará información como esta:
+En Microsoft Lync Server 2013, las transacciones sintéticas se han vuelto a diseñar para proporcionar un registro enriquecido. El concepto "registro enriquecido" implica que se registra información detallada para cada una de las transacciones sintéticas llevadas a cabo:
 
-  - El momento en que comenzó la actividad
+  - La hora a la que se inició la actividad
 
-  - El momento en que terminó la actividad
+  - La hora a la que finalizó la actividad
 
-  - La acción que se realizó (por ejemplo, crear, unirse o salir de una conferencia; iniciar sesión en Lync Server; enviar un mensaje instantáneo, etc.)
+  - La acción que se ha realizado (por ejemplo, crear, unirse o abandonar una conferencia; iniciar sesión en Lync Server; enviar un mensaje instantáneo, etc.)
 
-  - Mensajes de error o advertencias detalladas o informativas generadas cuando se ejecutó la actividad.
+  - Mensajes de error o advertencias detalladas o informativas generadas cuando se ejecutó la actividad
 
   - Mensajes de registro SIP
 
-  - Registros de excepciones o códigos de diagnóstico generados cuando se ejecutó la actividad
+  - Códigos de diagnóstico o registros de excepción generados cuando se ejecutó la actividad
 
-  - El resultado neto de la ejecución de la actividad
+  - Resultado neto de la ejecución de la actividad
 
-Esta información se genera automáticamente cada vez que se ejecuta una transacción sintética. Sin embargo, la información no se muestra o se guarda automáticamente en un archivo de registro. En su lugar, los administradores que ejecutan manualmente una transacción sintética pueden usar el parámetro OutLoggerVariable para especificar una variable de Windows PowerShell en la que se almacenará la información. Desde allí, los administradores pueden usar un par de métodos que les permitan guardar o ver el registro enriquecido en formato XML o HTML.
+Esta información se genera automáticamente cada vez que se ejecuta una transacción sintética. Sin embargo, la información no se muestra automáticamente ni se guarda en un archivo de registro. En su lugar, los administradores que ejecutan manualmente una transacción sintética pueden usar el parámetro OutLoggerVariable para especificar una variable de Windows PowerShell en la que se almacenará la información. Desde ahí, los administradores pueden usar un par de métodos que permiten guardar y ver los registros enriquecidos en formato XML o HTML.
 
 Por ejemplo, los administradores de Lync Server 2010 pueden ejecutar el cmdlet **Test-CsRegistration** con un comando similar al siguiente:
 
@@ -68,9 +68,9 @@ Los administradores tienen la opción de incluir el parámetro OutLoggerVariable
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 
 > [!NOTE]  
-> No anteponga el carácter $ al nombre de la variable. Use un nombre de variable como RegistrationTest y no $RegistrationTest.
+> Asegúrese de no anteponer el carácter $ al nombre de la variable. Utilice el nombre de variable RegistrationTest y no $RegistrationTest.
 
-El comando anterior genera contenido similar al siguiente:
+El comando anterior muestra un contenido similar al siguiente:
 
     Target Fqdn   : atl-cs-001.litwareinc.com
     Result        : Failure
@@ -78,7 +78,7 @@ El comando anterior genera contenido similar al siguiente:
     Error Message : This machine does not have any assigned certificates.
     Diagnosis     :
 
-Sin embargo, hay mucha más información detallada para este error que solo el mensaje de error que se muestra arriba. Para tener acceso a esa información en formato HTML, use un comando similar a este para guardar la información almacenada en la variable RegistrationTest en un archivo HTML:
+Sin embargo, existe información más detallada para este error que el mensaje mostrado anteriormente. Para tener acceso a dicha información en formato HTML, utilice un comando similar al siguiente. Este comando permite guardar la información almacenada en la variable RegistrationTest en un archivo HTML:
 
     $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
 
@@ -86,12 +86,12 @@ Del mismo modo, puede usar el método ToXML() para guardar los datos en un archi
 
     $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 
-Estos archivos se pueden ver con Internet Explorer, Visual Studio o cualquier otra aplicación capaz de abrir archivos HTML o XML.
+A continuación, estos archivos se pueden ver con Internet Explorer, Visual Studio o cualquier otra aplicación capaz de abrir archivos HTML/XML.
 
-Las transacciones sintéticas ejecutadas desde dentro de System Center Operations Manager generarán automáticamente estos archivos de registro por si se producen errores. Sin embargo, estos registros no se generarán si se produce un error en la ejecución antes de que Windows PowerShell pueda cargar y ejecutar la transacción sintética.
+Las transacciones sintéticas que se ejecutan desde dentro de System Center Operations Manager generarán automáticamente estos archivos de registro para los errores. Sin embargo, estos registros no se generarán si se produce un error en la ejecución antes de que Windows PowerShell pueda cargar y ejecutar la transacción sintética.
 
 > [!IMPORTANT]  
-> De forma predeterminada, Lync Server 2013 guarda los archivos de registro en una carpeta que no está compartida. Para que estos registros sean accesibles fácilmente, debe compartir esta carpeta (por ejemplo, \\ \\ATL-Watcher-001. litwareinc. com\WatcherNode.
+> De forma predeterminada, Lync Server 2013 guarda los archivos de registro en una carpeta que no está compartida. Para que estos registros sean accesibles fácilmente, debe compartir esta carpeta (por ejemplo, \\ \\ATL-monitor-001. litwareinc. com\WatcherNode.
 
 
 </div>

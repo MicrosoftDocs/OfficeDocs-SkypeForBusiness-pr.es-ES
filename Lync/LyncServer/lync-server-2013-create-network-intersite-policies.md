@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: crear directivas de sitios intersitios de red'
+title: 'Lync Server 2013: crear directivas entre sitios de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185148
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 655cde30a3d798d57520c57e3882b2162010888c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 072dcf4cbb8f04a2db3e4b930eeaf666a031e94e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740330"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-network-intersite-policies-in-lync-server-2013"></a>Crear directivas de intersitios de red en Lync Server 2013
+# <a name="create-network-intersite-policies-in-lync-server-2013"></a>Crear directivas entre sitios de red en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41740330"
 
 _**Última modificación del tema:** 2012-10-19_
 
-Una *Directiva de red entre sitios* define limitaciones de ancho de banda entre los sitios que tienen vínculos WAN directos entre ellos.
+Una *directiva entre sitios de red* define las limitaciones de ancho de banda entre sitios que tienen vínculos WAN entre ellos.
 
 Para obtener más información, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:
 
@@ -53,25 +53,25 @@ Para obtener más información, consulte la documentación del shell de administ
 
 
 > [!IMPORTANT]  
-> Una directiva de red entre sitios <EM>solo</EM> es necesaria si hay un vínculo cruzado directo entre dos sitios de red.
+> Una directiva entre sitios de red <EM>solo</EM> se necesita si hay un vínculo cruzado directo entre dos sitios de red.
 
 
 
 </div>
 
-En la topología de ejemplo de la región de Norteamérica, hay un vínculo directo entre los sitios de Reno y Albuquerque. Estos dos sitios requieren una directiva entre sitios que aplique un perfil de directiva de ancho de banda adecuado. En el siguiente ejemplo se aplica\_el perfil de vínculo de 20 MB.
+En la topología de ejemplo de la región de Norteamérica, hay un vínculo directo entre los sitios de Reno y Albuquerque. Estos dos sitios requieren una directiva entre sitios que aplique un perfil de directiva de ancho de banda adecuado. En el siguiente ejemplo, se\_aplica el perfil de vínculo de 20 MB.
 
 <div>
 
-## <a name="to-create-a-network-intersite-policy"></a>Para crear una directiva de intersitios de red
+## <a name="to-create-a-network-intersite-policy"></a>Para crear una directiva entre sitios de red
 
-1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-2.  Ejecute el cmdlet New-CsNetworkInterSitePolicy para crear directivas entre sitios de red y aplicar un perfil de directiva de ancho de banda adecuado para dos sitios que tengan un vínculo cruzado directo. Por ejemplo, ejecute lo siguiente:
+2.  Ejecute el cmdlet New-CsNetworkInterSitePolicy para crear directivas entre sitios de red y aplicar un perfil de directiva de ancho de banda adecuado para dos sitios que tienen un vínculo cruzado directo. Por ejemplo, ejecute lo siguiente:
     
         New-CsNetworkInterSitePolicy -InterNetworkSitePolicyID Reno_Albuquerque -NetworkSiteID1 Reno -NetworkSiteID2 Albuquerque -BWPolicyProfileID 20Mb_Link
 
-3.  Repita el paso 2 según sea necesario para crear directivas de intersitios de red para todas las parejas de sitios de red con vínculos cruzados directos.
+3.  Repita el paso 2 según sea necesario para crear directivas entre sitios de red para todos los pares de sitios de red que tengan un vínculo cruzado directo.
 
 </div>
 

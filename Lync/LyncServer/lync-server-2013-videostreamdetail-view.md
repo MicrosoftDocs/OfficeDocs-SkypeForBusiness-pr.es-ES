@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: vista VideoStreamDetail'
+title: 'Lync Server 2013: vista de VideoStreamDetail'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733863
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfa754fbcc24377b07bab3b13473adb1c5e953ea
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 311fb8fcd750261dbb5ef2e579fb092781526a19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741980"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007239"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41741980"
 
 _**Última modificación del tema:** 2012-10-03_
 
-La vista VideoStreamDetail almacena información acerca de cada secuencia de vídeo de la base de datos. Esta vista se presentó en Microsoft Lync Server 2013.
+La vista VideoStreamDetail almacena información de todas las secuencias de vídeo en la base de datos. Esta vista se introdujo en Microsoft Lync Server 2013.
 
 
 <table>
@@ -57,32 +57,32 @@ La vista VideoStreamDetail almacena información acerca de cada secuencia de ví
 <tr class="odd">
 <td><p>SessionTime</p></td>
 <td><p>datetime</p></td>
-<td><p>Se hace referencia a ellos desde la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
+<td><p>Referencia de la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>SessionSeq</p></td>
 <td><p>int</p></td>
-<td><p>Se hace referencia a ellos desde la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
+<td><p>Referencia de la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MediaLineLabel</p></td>
 <td><p>tinyint</p></td>
-<td><p>Se hace referencia a ellos desde la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
+<td><p>Referencia de la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>StreamId</p></td>
 <td><p>int</p></td>
-<td><p>IDENTIFICADOR exclusivo dentro de una línea de medios.</p></td>
+<td><p>Identificador único de una línea de medios.</p></td>
 </tr>
 <tr class="odd">
 <td><p>StartTime</p></td>
 <td><p>datetime</p></td>
-<td><p>Hora de inicio de la sesión.</p></td>
+<td><p>Fecha y hora de inicio de la sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p>EndTime</p></td>
 <td><p>datetime</p></td>
-<td><p>Hora de finalización de la sesión.</p></td>
+<td><p>Fecha y hora de finalización de la sesión.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallPriority</p></td>
@@ -91,133 +91,133 @@ La vista VideoStreamDetail almacena información acerca de cada secuencia de ví
 </tr>
 <tr class="even">
 <td><p>CallerPool</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>FQDN del grupo de llamadas.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>FQDN del grupo de autores de llamadas.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleePool</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>FQDN del grupo de destinatarios de la llamada.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>FQDN del grupo de destinatarios de llamadas.</p></td>
 </tr>
 <tr class="even">
-<td><p>Autor de llamada</p></td>
+<td><p>Caller</p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI de la persona que llama.</p></td>
+<td><p>URI del autor de la llamada.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Destinatario de la llamada</p></td>
+<td><p>Destinatario</p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI de la persona que llama.</p></td>
+<td><p>URI del destinatario de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerUserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Cadena de agente de usuario de la llamada.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Cadena de agente de usuario del autor de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerUserAgentType</p></td>
 <td><p>smallint</p></td>
-<td><p>Tipo de agente de usuario de la llamada. Para obtener más información, vea la <a href="lync-server-2013-useragent-table.md">tabla UserAgent en Lync Server 2013</a> .</p></td>
+<td><p>Tipo de agente de usuario del autor de la llamada. Consulte la <a href="lync-server-2013-useragent-table.md">tabla UserAgent en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerUserAgentCategory</p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Categoría del agente de usuario de la llamada. Para obtener más información, consulte la <a href="lync-server-2013-useragentdef-table-qoe.md">tabla UserAgentDef (QoE) en Lync Server 2013</a> .</p></td>
+<td><p>Categoría de agente de usuario del autor de la llamada. Consulte la <a href="lync-server-2013-useragentdef-table-qoe.md">tabla UserAgentDef (QoE) en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeUserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Cadena de agente de usuario de la persona que llama.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Cadena del agente de usuario del destinatario de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeUserAgentType</p></td>
 <td><p>smallint</p></td>
-<td><p>Tipo de agente de usuario del destinatario de la llamada. Para obtener más información, vea la <a href="lync-server-2013-useragent-table.md">tabla UserAgent en Lync Server 2013</a> .</p></td>
+<td><p>Tipo de agente de usuario del destinatario de la llamada. Consulte la <a href="lync-server-2013-useragent-table.md">tabla UserAgent en Lync Server 2013</a> para obtener información.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeUserAgentCategory</p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Categoría del agente de usuario del destinatario de la llamada. Para obtener más información, consulte la <a href="lync-server-2013-useragentdef-table-qoe.md">tabla UserAgentDef (QoE) en Lync Server 2013</a> .</p></td>
+<td><p>Categoría de agente de usuario del destinatario de la llamada. Consulte la <a href="lync-server-2013-useragentdef-table-qoe.md">tabla UserAgentDef (QoE) en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerEndpoint</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nombre del punto de conexión de la llamada.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Nombre del extremo del autor de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeEndpoint</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nombre del extremo de la persona que llama.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Nombre del extremo del destinatario de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerOS</p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Sistema operativo (SO) del punto final de la llamada.</p></td>
+<td><p>Sistema operativo (SO) del extremo del autor de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeOS</p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Sistema operativo (SO) del extremo de la persona que llama.</p></td>
+<td><p>Sistema operativo (SO) del extremo del destinatario de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerCPUName</p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Nombre de la CPU del punto final de la llamada.</p></td>
+<td><p>Nombre de la CPU del extremo del autor de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeCPUName</p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Nombre de la CPU del punto final de la llamada.</p></td>
+<td><p>Nombre de la CPU del extremo del destinatario de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerCPUNumberOfCores</p></td>
 <td><p>smallint</p></td>
-<td><p>Número de núcleos de CPU del punto final de la llamada.</p></td>
+<td><p>Número de núcleos de CPU del extremo del autor de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeCPUNumberOfCores</p></td>
 <td><p>smallint</p></td>
-<td><p>Número de núcleos de CPU del punto final de la llamada.</p></td>
+<td><p>Número de núcleos de CPU del extremo del destinatario de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerCPUProcessorSpeed</p></td>
 <td><p>int</p></td>
-<td><p>Velocidad del procesador de CPU del punto final de la llamada.</p></td>
+<td><p>Velocidad del procesador de la CPU del extremo del autor de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeCPUProcessorSpeed</p></td>
 <td><p>int</p></td>
-<td><p>Velocidad del procesador de CPU del punto final de la llamada.</p></td>
+<td><p>Velocidad del procesador de la CPU del extremo del destinatario de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerVirtualizationFlag</p></td>
 <td><p>tinyint</p></td>
-<td><p>Indica si el sistema de la persona que llama se está ejecutando en un entorno virtualizado. Para obtener más información, consulte la <a href="lync-server-2013-endpoint-table.md">tabla de extremos en Lync Server 2013</a> .</p></td>
+<td><p>Indica si el sistema del autor de la llamada se está ejecutando en un entorno visualizado. Consulte la <a href="lync-server-2013-endpoint-table.md">tabla Endpoint en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeVirtualizationFlag</p></td>
 <td><p>tinyint</p></td>
-<td><p>Indica si el sistema de la persona que llama se está ejecutando en un entorno virtualizado. Para obtener más información, consulte la <a href="lync-server-2013-endpoint-table.md">tabla de extremos en Lync Server 2013</a> .</p></td>
+<td><p>Indica si el sistema del destinatario de la llamada se está ejecutando en un entorno virtualizado. Consulte la <a href="lync-server-2013-endpoint-table.md">tabla Endpoint en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p>ConnectivityIce</p></td>
 <td><p>tinyint</p></td>
-<td><p>Información sobre la ruta multimedia, como Direct o retransmitida. Para obtener más información, consulte la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a> .</p></td>
+<td><p>Información sobre la ruta de medios, como directa o retransmitida. Consulte la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerIceWarningFlags</p></td>
 <td><p>int</p></td>
-<td><p>Información sobre el proceso de establecimiento de conectividad interactiva (ICE) descrito en indicadores de bits para la persona que llama. Para obtener más información, consulte la especificación de protocolo de servidor de supervisión de la calidad de la experiencia.</p></td>
+<td><p>Información sobre el proceso de establecimiento interactivo de conectividad (ICE) descrito en bits de indicador para el autor de la llamada. Si desea obtener información detallada, consulte la Especificación del protocolo de servidor de supervisión de la calidad de la experiencia.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeIceWarningFlags</p></td>
 <td><p>int</p></td>
-<td><p>Información sobre el proceso de establecimiento de conectividad interactiva (ICE) descrito en marcas de bits para el destinatario de la llamada. Para obtener más información, consulte la especificación de protocolo de servidor de supervisión de la calidad de la experiencia.</p></td>
+<td><p>Información sobre el proceso de establecimiento interactivo de conectividad (ICE) descrito en bits de indicador para el destinatario de la llamada. Si desea obtener información detallada, consulte la Especificación del protocolo de servidor de supervisión de la calidad de la experiencia.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Transport</p></td>
 <td><p>int</p></td>
-<td><p>Tipo de transporte: 0 es UDP, 1 es TCP.</p></td>
+<td><p>Tipo de transporte: 0 es UDP y 1 es TCP.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerIPAddr</p></td>
@@ -227,67 +227,67 @@ La vista VideoStreamDetail almacena información acerca de cada secuencia de ví
 <tr class="odd">
 <td><p>CallerPort</p></td>
 <td><p>int</p></td>
-<td><p>Puerto usado por el autor de la llamada.</p></td>
+<td><p>Puerto del autor de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerInside</p></td>
 <td><p>bit</p></td>
-<td><p>Indica si la persona que llama está dentro de la red de la organización. 1 significa que la persona que llama está dentro de la red de la empresa, 0 significa que la persona que llama está fuera de la red.</p></td>
+<td><p>Indica si el autor de la llamada está dentro de la red de la organización. El valor 1 significa que el autor de la llamada está dentro de la red de empresa, 0 significa que se encuentra fuera.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeIPAddr</p></td>
 <td><p>var (50)</p></td>
-<td><p>Dirección IP del destinatario. Puede ser una dirección IPv4 o IPv6.</p></td>
+<td><p>Dirección IP del destinatario de la llamada. Puede ser una dirección IPv4 o IPv6.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleePort</p></td>
 <td><p>int</p></td>
-<td><p>Puerto usado por el destinatario.</p></td>
+<td><p>Puerto del destinatario de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeInside</p></td>
 <td><p>bit</p></td>
-<td><p>Indica si la persona que llama está dentro de la red de la organización. 1 significa que el destinatario de la llamada está dentro de la red de la empresa, 0 significa que el destinatario de la llamada está fuera de la red.</p></td>
+<td><p>Indica si el autor de la llamada está dentro de la red de la organización. El valor 1 significa que el destinatario de la llamada está dentro de la red de empresa, 0 significa que se encuentra fuera.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerUserSite</p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Nombre del sitio de la persona que llama.</p></td>
+<td><p>Nombre del centro del autor de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerRegion</p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Nombre del país o de la región del sitio de la persona que llama.</p></td>
+<td><p>Nombre del país o región del centro del autor de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeUserSite</p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Nombre del sitio de la persona que llama.</p></td>
+<td><p>Nombre del centro del destinatario de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeRegion</p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Nombre del país o región del sitio de la persona que llama.</p></td>
+<td><p>Nombre del país o la región del centro del destinatario de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerRelayIPAddr</p></td>
 <td><p>var (50)</p></td>
-<td><p>Dirección IP del servicio perimetral A/V que usa el autor de la llamada. Para obtener más información, consulte la <a href="lync-server-2013-ipaddress-table.md">tabla IPAddress en Lync Server 2013</a> .</p></td>
+<td><p>Dirección IP del servicio perimetral A/V que usa el autor de la llamada. Consulte la <a href="lync-server-2013-ipaddress-table.md">tabla IPAddress en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerRelayPort</p></td>
 <td><p>int</p></td>
-<td><p>Puerto en el servicio perimetral A/V usado por el autor de la llamada.</p></td>
+<td><p>Puerto en el servicio perimetral A/V que usa el autor de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeRelayIPAddr</p></td>
 <td><p>var (50)</p></td>
-<td><p>Clave de dirección IP del servicio perimetral A/V que usa el destinatario de la llamada. Para obtener más información, consulte la <a href="lync-server-2013-ipaddress-table.md">tabla IPAddress en Lync Server 2013</a> .</p></td>
+<td><p>Clave de dirección IP del servicio perimetral A/V que usa el destinatario de la llamada. Consulte la <a href="lync-server-2013-ipaddress-table.md">tabla IPAddress en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeRelayPort</p></td>
 <td><p>int</p></td>
-<td><p>Puerto del servicio perimetral A/V usado por el destinatario de la llamada.</p></td>
+<td><p>Puerto en el servicio perimetral A/V que usa el destinatario de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerCaptureDev</p></td>
@@ -297,7 +297,7 @@ La vista VideoStreamDetail almacena información acerca de cada secuencia de ví
 <tr class="odd">
 <td><p>CallerRenderDev</p></td>
 <td><p>VARCHAR (256)</p></td>
-<td><p>Nombre del dispositivo de representación del autor de la llamada.</p></td>
+<td><p>Nombre del dispositivo de presentación del autor de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerCaptureDevDriver</p></td>
@@ -307,72 +307,72 @@ La vista VideoStreamDetail almacena información acerca de cada secuencia de ví
 <tr class="odd">
 <td><p>CallerRenderDevDriver</p></td>
 <td><p>VARCHAR (256)</p></td>
-<td><p>Nombre del controlador del dispositivo de representación del autor de la llamada.</p></td>
+<td><p>Nombre del controlador dispositivo de presentación del autor de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeCaptureDev</p></td>
 <td><p>VARCHAR (256)</p></td>
-<td><p>Nombre del dispositivo de captura de la persona que llama.</p></td>
+<td><p>Nombre del dispositivo de captura del destinatario de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeRenderDev</p></td>
 <td><p>VARCHAR (256)</p></td>
-<td><p>Nombre del dispositivo de representación de la persona que llama.</p></td>
+<td><p>Nombre del dispositivo de presentación del destinatario de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleCaptureDevDriver</p></td>
 <td><p>VARCHAR (256)</p></td>
-<td><p>Nombre del controlador del dispositivo de captura.</p></td>
+<td><p>Nombre del controlador del dispositivo de captura del destinatario de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeRenderDevDriver</p></td>
 <td><p>VARCHAR (256)</p></td>
-<td><p>Nombre del controlador del dispositivo de representación de la llamada.</p></td>
+<td><p>Nombre del controlador del dispositivo de presentación del destinatario de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerNetworkConnectionType</p></td>
 <td><p>tinyint</p></td>
-<td><p>Tipo de conexión de red de la persona que llama: 0 es con cable, 1 es inalámbrico.</p></td>
+<td><p>Tipo de conexión de red del autor de la llamada: 0 es con cable y 1, inalámbrica.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerVPN</p></td>
 <td><p>bit</p></td>
-<td><p>Indica si el autor de la llamada se ha conectado a través de una red privada virtual. 1 es una red privada virtual (VPN) y 0 no es una VPN.</p></td>
+<td><p>Indica si el autor de la llamada está conectado a través de una red privada virtual. El valor 1 indica una red privada virtual (VPN) y 0, otra red diferente.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerLinkSpeed</p></td>
-<td><p>decimal (18;)</p></td>
-<td><p>Velocidad de vínculo de red para el punto final de la llamada en bps.</p></td>
+<td><p>decimal (18)</p></td>
+<td><p>Velocidad del vínculo de red del extremo del autor de la llamada en bps.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeNetworkConnectionType</p></td>
 <td><p>tinyint</p></td>
-<td><p>Tipo de conexión de red de la persona que llama: 0 es con cable, 1 es inalámbrico.</p></td>
+<td><p>Tipo de conexión de red del destinatario de la llamada: 0 es con cable y 1, inalámbrica.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeVPN</p></td>
 <td><p>bit</p></td>
-<td><p>Indica si el destinatario de la llamada se conecta a través de una red privada virtual. 1 es una red privada virtual (VPN) y 0 no es una VPN.</p></td>
+<td><p>Indica si el destinatario de la llamada está conectado a través de una red privada virtual. El valor 1 indica una red privada virtual (VPN) y 0, otra red diferente.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeLinkSpeed</p></td>
 <td><p>decimal (18; 0)</p></td>
-<td><p>Velocidad de vínculo de red del extremo de la persona que llama (en bps).</p></td>
+<td><p>Velocidad del vínculo de red del extremo del destinatario de la llamada en bps.</p></td>
 </tr>
 <tr class="even">
 <td><p>ConversationalMOS</p></td>
 <td><p>decimal (3, 2)</p></td>
-<td><p>OP de banda estrecha de las sesiones de audio (basadas en ambas secuencias de audio).</p></td>
+<td><p>MOS de conversación de banda estrecha de las sesiones de audio (basado en ambas secuencias de audio).</p></td>
 </tr>
 <tr class="odd">
 <td><p>AppliedBandwidthLimit</p></td>
 <td><p>int</p></td>
-<td><p>El ancho de banda real aplicado a la transmisión de la parte de envío dada proporciona varias configuraciones de directiva (TURN, API, SDP, Policy Server, etc.). Esto no se debe confundir con el ancho de banda efectivo porque puede haber un ancho de banda más bajo según el cálculo de ancho de banda. Básicamente, este es el ancho de banda máximo que la secuencia de envío puede tomar límites de bloqueo impuestas por la estimación del ancho de banda.</p></td>
+<td><p>Ancho de banda real aplicado a una secuencia de envío determinada en un entorno regido por diversas directivas (TURN, API, SDP, Servidor de directivas, etc.). No se debe confundir con el ancho de banda efectivo, ya que el ancho de banda efectivo puede ser menor en función de las previsiones de ancho de banda. Este valor es, a grandes rasgos, el ancho de banda máximo que la secuencia de envío puede ocupar asumiendo los límites impuestos por la previsión de ancho de banda.</p></td>
 </tr>
 <tr class="even">
 <td><p>JitterInterArrival</p></td>
 <td><p>int</p></td>
-<td><p>Vibración de red media de las estadísticas del Protocolo de control de tiempo real (RTCP).</p></td>
+<td><p>Promedio de vibración de red de las estadísticas de Protocolo de control en tiempo real (RTCP).</p></td>
 </tr>
 <tr class="odd">
 <td><p>JitterInterArrivalMax</p></td>
@@ -380,94 +380,94 @@ La vista VideoStreamDetail almacena información acerca de cada secuencia de ví
 <td><p>Vibración máxima de la red durante la llamada.</p></td>
 </tr>
 <tr class="even">
-<td><p>RoundTrip</p></td>
+<td><p>Vuelta</p></td>
 <td><p>int</p></td>
 <td><p>Tiempo de ida y vuelta de las estadísticas de RTCP.</p></td>
 </tr>
 <tr class="odd">
 <td><p>RoundTripMax</p></td>
 <td><p>int</p></td>
-<td><p>Tiempo máximo de ida y vuelta para la secuencia de audio.</p></td>
+<td><p>Tiempo de ida y vuelta máximo de la secuencia de audio.</p></td>
 </tr>
 <tr class="even">
 <td><p>PacketLossRate</p></td>
-<td><p>decimal (4,5)</p></td>
-<td><p>Tasa promedio de pérdida de paquetes durante la llamada.</p></td>
+<td><p>decimal (5, 4)</p></td>
+<td><p>Promedio de frecuencia de pérdida de paquetes durante la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>PacketLossRateMax</p></td>
-<td><p>decimal (4,5)</p></td>
-<td><p>Pérdida máxima de paquetes observadas durante la llamada.</p></td>
+<td><p>decimal (5, 4)</p></td>
+<td><p>Pérdida máxima de paquetes observada durante la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>PacketUtilization</p></td>
 <td><p>int</p></td>
-<td><p>Recuento de paquetes para la secuencia de vídeo (Protocolo de transporte en tiempo real, RTP).</p></td>
+<td><p>Número de paquetes de la secuencia de vídeo (Protocolo de transporte en tiempo real, RTP).</p></td>
 </tr>
 <tr class="odd">
 <td><p>Ancho de banda más</p></td>
 <td><p>int</p></td>
-<td><p>Cálculo de ancho de banda para la secuencia de audio.</p></td>
+<td><p>Previsiones de ancho de banda de la secuencia de audio.</p></td>
 </tr>
 <tr class="even">
 <td><p>PayloadDescription</p></td>
 <td><p>int</p></td>
-<td><p>Códec de audio usado para la llamada, al que se hace referencia desde la <a href="lync-server-2013-payloaddescription-table.md">tabla PayloadDescription en Lync Server 2013</a>.</p></td>
+<td><p>Códec de audio usado para la llamada, a la que se hace referencia desde la <a href="lync-server-2013-payloaddescription-table.md">tabla PayloadDescription en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Resolución de la</p></td>
-<td><p>carácter (9)</p></td>
-<td><p>Resolución del vídeo en píxeles ancho multiplicado por píxeles alto. Se ha notificado como una cadena.</p></td>
+<td><p>Resolución de</p></td>
+<td><p>Char (9)</p></td>
+<td><p>Resolución del vídeo en píxeles de ancho multiplicados por píxeles de alto. Se proporciona como cadena.</p></td>
 </tr>
 <tr class="even">
 <td><p>VideoBitRateAvg</p></td>
 <td><p>int</p></td>
-<td><p>Promedio de velocidad de bits de la secuencia de vídeo.</p></td>
+<td><p>Tasa de bits media de la secuencia de vídeo.</p></td>
 </tr>
 <tr class="odd">
 <td><p>InboundVideoFrameRateAvg</p></td>
 <td><p>decimal (9, 4)</p></td>
-<td><p>Velocidad de fotogramas de video recibido.</p></td>
+<td><p>Tasa de fotogramas de vídeo recibida.</p></td>
 </tr>
 <tr class="even">
 <td><p>OutboundVideoFrameRateAvg</p></td>
 <td><p>decimal (9, 4)</p></td>
-<td><p>Velocidad de fotogramas enviada.</p></td>
+<td><p>Tasa de fotogramas de vídeo enviada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>ViideoBitRateMax</p></td>
 <td><p>int</p></td>
-<td><p>Máxima tasa de bits de vídeo durante la sesión de video.</p></td>
+<td><p>Tasa de bits de vídeo máxima durante la sesión de vídeo.</p></td>
 </tr>
 <tr class="even">
-<td><p>Tasa</p></td>
+<td><p>VideoPacketLossRate</p></td>
 <td><p>decimal (9, 4)</p></td>
-<td><p>Velocidad a la que se han perdido paquetes de video.</p></td>
+<td><p>Tasa a la que se perdieron los paquetes de vídeo.</p></td>
 </tr>
 <tr class="odd">
 <td><p>VideoFrameLossRate</p></td>
 <td><p>decimal (9.4)</p></td>
-<td><p>Porcentaje de fotogramas de video totales que se pierden.</p></td>
+<td><p>Porcentaje del total de fotogramas de vídeo que se pierde.</p></td>
 </tr>
 <tr class="even">
 <td><p>VideoFEC</p></td>
 <td><p>bit</p></td>
-<td><p>No usado.</p></td>
+<td><p>No se usa.</p></td>
 </tr>
 <tr class="odd">
 <td><p>VideoAllocateBWAvg</p></td>
 <td><p>int</p></td>
-<td><p>Cantidad promedio de ancho de banda asignado para el vídeo.</p></td>
+<td><p>Cantidad máxima del ancho de banda asignada para vídeo.</p></td>
 </tr>
 <tr class="even">
-<td><p>Media</p></td>
+<td><p>VideoLocalFrameLossPercentageAvg</p></td>
 <td><p>decimal (9.4)</p></td>
-<td><p>Porcentaje de fotogramas de video totales que se han perdido.</p></td>
+<td><p>Porcentaje del total de fotogramas de vídeo que se perdió.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SenderIsCallerPAI</p></td>
 <td><p>bit</p></td>
-<td><p>Dirección de la secuencia para la información de identidad declarada en p. 1 significa que la dirección de la transmisión es de la persona que llama al destinatario de la llamada. 0 significa que la dirección de la transmisión es de la persona que llama a la persona que llama.</p></td>
+<td><p>Dirección de secuencia de la información de identidad p-asserted. El valor 1 indica que la dirección de la secuencia es del autor de la llamada al destinatario; y 0 significa del destinatario al autor.</p></td>
 </tr>
 </tbody>
 </table>

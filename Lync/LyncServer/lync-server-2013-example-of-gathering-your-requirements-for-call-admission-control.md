@@ -12,16 +12,16 @@ ms:contentKeyID: 48183820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 345f5d7e41dd9da3e6d68c59ce9656d3052c57b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 204339161cf5af83f0d9e393a0a4db981c0e8445
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756274"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035162"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,37 +37,37 @@ ms.locfileid: "41756274"
 
 _**Última modificación del tema:** 2012-09-21_
 
-Este ejemplo muestra cómo planificar e implementar el servicio de control de admisión de llamadas (CAC). De forma general, esto consta de las siguientes actividades:
+Este ejemplo muestra cómo planear e implementar el control de admisión de llamadas (CAC). De forma general, esto consta de las siguientes actividades:
 
-1.  Identifica todos los concentradores de red y redes troncales (llamados *regiones de red*).
+1.  Identificar todos los concentradores de red y redes troncales (llamados *regiones de red*).
 
-2.  Identifique el sitio central de Lync Server que administrará CAC para cada región de la red.
+2.  Identificar el sitio central de Lync Server que va a administrar el CAC para cada región de red.
 
-3.  Identifica y define los *sitios de red* que están conectados a cada región de red.
+3.  Identificar y definir los *sitios de red* que están conectados a cada región de red.
 
-4.  Para cada sitio de red cuya conexión a la WAN se limite al ancho de banda, describa la capacidad de ancho de banda de la conexión WAN y los límites de ancho de banda que se han establecido para el tráfico multimedia de Lync Server, si procede. No necesitas incluir sitios cuya conexión a la red WAN no tiene ancho de banda restringido.
+4.  Para cada sitio de red cuya conexión a la WAN tiene restringido el ancho de banda, describa la capacidad de ancho de banda de la conexión WAN y los límites de ancho de banda que el administrador de red ha configurado para el tráfico de medios de Lync Server, si procede. No es necesario incluir sitios cuya conexión a la red WAN no tiene ancho de banda restringido.
 
-5.  Asocia cada subred de la red a un sitio de red.
+5.  Asociar cada subred de la red a un sitio de red.
 
-6.  Asigna los vínculos entre las regiones de red. Para cada vínculo, describa su capacidad de ancho de banda y los límites que el administrador de la red haya colocado en el tráfico multimedia de Lync Server.
+6.  Asignar los vínculos entre las regiones de red. Para cada vínculo, describa la capacidad de ancho de banda y los límites que el administrador de red haya colocado en el tráfico de medios de Lync Server.
 
-7.  Define una ruta entre cada par de regiones de red.
+7.  Definir una ruta entre cada par de regiones de red.
 
 <div>
 
 ## <a name="gather-the-required-information"></a>Recopilar la información necesaria
 
-Para preparar el servicio de control de admisión de llamadas, recopila la información descrita en los pasos siguientes:
+Para preparar el control de admisión de llamadas, recopile la información descrita en los pasos siguientes:
 
-1.  Identifica las regiones de red. Una región de red representa una red troncal de red o un concentrador de red.
+1.  Identificar las regiones de red. Una región de red representa una red troncal de red o un concentrador de red.
     
     Una red troncal de red o un concentrador de red forma parte de una infraestructura de red informática que interconecta diversas partes de red, que proporciona una ruta de acceso para el intercambio de información entre distintas redes LAN o subredes. Una red troncal puede asociar diversas redes, desde una ubicación pequeña a una amplia zona geográfica. La capacidad de la red troncal suele ser mayor que la de las redes conectadas a ella.
     
-    Nuestra topología de ejemplo tiene tres regiones de red: Norteamérica, EMEA y APAC. Una región de red incluye una colección de sitios de red. Trabaja con el administrador de la red para definir las regiones de red de tu empresa.
+    Nuestra topología de ejemplo tiene tres regiones de red: Norteamérica, EMEA y APAC. Una región de red incluye una colección de sitios de red. Trabaje con el administrador de la red para definir las regiones de red de su empresa.
 
-2.  Identifica cada sitio central asociado a la región de red. Un sitio central contiene al menos un servidor front-end y es la implementación de Lync Server que administrará CAC para todo el tráfico multimedia que pasa por la conexión WAN de la región de la red.
+2.  Identificar cada sitio central asociado a la región de red. Un sitio central contiene al menos un servidor front-end y es la implementación de Lync Server que administrará el CAC para todo el tráfico de medios que pasa a través de la conexión WAN de la región de red.
     
-    **Una red de empresa de ejemplo dividida en tres regiones de red**
+    **Red de empresa de ejemplo dividida en tres regiones de red**
     
     ![Ejemplo de topología de red con 3 regiones de red](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Ejemplo de topología de red con 3 regiones de red")  
     
@@ -75,16 +75,16 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     
 
     > [!NOTE]
-    > Una red de conmutación de etiquetas multiprotocolo (MPLS) necesita representarse como una región de red en la que cada ubicación geográfica tiene un sitio de red correspondiente. Para obtener más información, consulte el tema "<A href="lync-server-2013-call-admission-control-on-an-mpls-network.md">control de admisión de llamadas en una red MPLS con Lync Server 2013</A>" en la documentación de planificación.
+    > Una red de conmutación de etiquetas multiprotocolo (MPLS) debe representarse como una región de red en la que cada ubicación geográfica tiene un sitio de red correspondiente. Para obtener más información, consulte el tema "<A href="lync-server-2013-call-admission-control-on-an-mpls-network.md">control de admisión de llamadas en una red MPLS con Lync Server 2013</A>" en la documentación de planeación.
 
     
     </div>
     
-    En el ejemplo anterior, hay tres regiones de red, cada una con un sitio central de Lync Server que administra CAC. El sitio central adecuado para una región de red se elige por la proximidad geográfica. Como el tráfico de medios será mayor dentro de las regiones de red, la propiedad por proximidad geográfica lo hace independiente y seguirá siendo funcional aunque otros sitios centrales dejen de estar disponibles.
+    En la topología de red de ejemplo anterior, hay tres regiones de red, cada una con un sitio central de Lync Server que administra el CAC. El sitio central adecuado para una región de red se elige por la proximidad geográfica. Como el tráfico de medios será mayor dentro de las regiones de red, la propiedad por proximidad geográfica lo hace independiente y seguirá siendo funcional aunque otros sitios centrales dejen de estar disponibles.
     
     En este ejemplo, una implementación de Lync Server llamada Chicago es el sitio central de la región de Norteamérica.
     
-    Todos los usuarios de Lync de América del norte están alojados en servidores de la implementación de Chicago. En la tabla siguiente se muestran los sitios centrales de las tres regiones de red.
+    Todos los usuarios de Lync de Norteamérica están hospedados en los servidores de la implementación de Chicago. En la tabla siguiente se muestran los sitios centrales de las tres regiones de red.
     
     ### <a name="network-regions-and-their-associated-central-sites"></a>Regiones de red y sus sitios centrales asociados
     
@@ -102,15 +102,15 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     <tbody>
     <tr class="odd">
     <td><p>Norteamérica</p></td>
-    <td><p>Chicago</p></td>
+    <td><p>Guadalajara</p></td>
     </tr>
     <tr class="even">
     <td><p>EMEA</p></td>
-    <td><p>Londres</p></td>
+    <td><p>México</p></td>
     </tr>
     <tr class="odd">
-    <td><p>APAC</p></td>
-    <td><p>Pekín</p></td>
+    <td><p>Pacífico</p></td>
+    <td><p>Beijing</p></td>
     </tr>
     </tbody>
     </table>
@@ -119,12 +119,12 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     
 
     > [!NOTE]
-    > Dependiendo de su topología de Lync Server, se puede asignar el mismo sitio central a varias regiones de red.
+    > Según la topología de Lync Server, el mismo sitio central puede asignarse a varias regiones de red.
 
     
     </div>
 
-3.  En cada región de red, identifica todos los sitios de red (oficinas o ubicaciones) cuyas conexiones WAN no tienen ancho de banda restringido. Como estos sitios no tienen ancho de banda restringido, no necesitas aplicarles directivas de ancho de banda de CAC.
+3.  En cada región de red, identifique todos los sitios de red (oficinas o ubicaciones) cuyas conexiones WAN no tienen ancho de banda restringido. Como estos sitios no tienen ancho de banda restringido, no es necesario aplicarles directivas de ancho de banda de CAC.
     
     En el ejemplo que se muestra en la siguiente tabla, tres sitios de red no tienen vínculos WAN de ancho de banda restringido: Nueva York, Chicago y Detroit.
     
@@ -147,7 +147,7 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     <td><p>Norteamérica</p></td>
     </tr>
     <tr class="even">
-    <td><p>Chicago</p></td>
+    <td><p>Guadalajara</p></td>
     <td><p>Norteamérica</p></td>
     </tr>
     <tr class="odd">
@@ -158,9 +158,9 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     </table>
 
 
-4.  En cada región de red, identifica todos los sitios de red que se conectan a la región de red a través de vínculos WAN de ancho de banda restringido.
+4.  En cada región de red, identifique todos los sitios de red que se conectan a la región de red a través de vínculos WAN de ancho de banda restringido.
     
-    Para asegurar la calidad de audio y vídeo, recomendamos que estos sitios de red de ancho de banda restringido tengan las redes WAN supervisadas y directivas de ancho de banda del CAC que limiten el flujo del tráfico de medios (voz o vídeo) hacia la región de red y desde ella.
+    Para asegurar la calidad de audio y vídeo, se recomienda que estos sitios de red de ancho de banda restringido tengan las redes WAN supervisadas y directivas de ancho de banda del CAC que limiten el flujo del tráfico de medios (voz o vídeo) hacia la región de red y desde ella.
     
     En el ejemplo que se muestra en la siguiente tabla, hay tres sitios de red que están restringidos por el ancho de banda de WAN: Portland, Reno y Albuquerque.
     
@@ -195,17 +195,17 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     
     **Región de red para CAC Norteamérica con tres sitios de red que no están restringidos por el ancho de banda (Chicago, Nueva York y Detroit) y tres sitios de red que están restringidos por el ancho de banda de WAN (Portland, Reno y Albuquerque)**
     
-    ![Ejemplo de sitios de la red restringidos por el ancho de banda de la WAN](images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "Ejemplo de sitios de la red restringidos por el ancho de banda de la WAN")  
+    ![Sitios de red de ejemplo restringidos por el ancho de banda de WAN](images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "Sitios de red de ejemplo restringidos por el ancho de banda de WAN")  
 
-5.  Para cada vínculo WAN de ancho de banda restringido, determina lo siguiente:
+5.  Para cada vínculo WAN de ancho de banda restringido, determine lo siguiente:
     
-      - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de audio. Si una nueva sesión de audio hace que se supere este límite, Lync Server no permite que se inicie la sesión.
+      - Límite general de ancho de banda que desea establecer para todas las sesiones simultáneas de audio. Si una nueva sesión de audio provoca que se supere este límite, Lync Server no permite que se inicie la sesión.
     
-      - Límite de ancho de banda que deseas establecer para cada sesión individual de audio. El límite predeterminado de ancho de banda para CAC es de 175 kbps, pero el administrador puede modificarlo.
+      - Límite de ancho de banda que desea establecer para cada sesión individual de audio. El límite predeterminado de ancho de banda para CAC es de 175 kbps, pero el administrador puede modificarlo.
     
-      - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de vídeo. Si una nueva sesión de video hace que se supere este límite, Lync Server no permite que se inicie la sesión.
+      - Límite general de ancho de banda que desea establecer para todas las sesiones simultáneas de vídeo. Si una nueva sesión de vídeo provoca que se supere este límite, Lync Server no permite que se inicie la sesión.
     
-      - Límite de ancho de banda que deseas establecer para cada sesión individual de vídeo. El límite predeterminado de ancho de banda para CAC es de 700 kbps, pero el administrador puede modificarlo.
+      - Límite de ancho de banda que desea establecer para cada sesión individual de vídeo. El límite predeterminado de ancho de banda para CAC es de 700 kbps, pero el administrador puede modificarlo.
     
     ### <a name="network-sites-with-wan-bandwidth-constraint-information-bandwidth-in-kbps"></a>Sitios de red con información de restricción de ancho de banda de WAN (ancho de banda en kbps)
     
@@ -234,8 +234,8 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     <tr class="odd">
     <td><p>Albuquerque</p></td>
     <td><p>Norteamérica</p></td>
-    <td><p>5 000</p></td>
-    <td><p>2.000</p></td>
+    <td><p>5,000</p></td>
+    <td><p>2,000</p></td>
     <td><p>175</p></td>
     <td><p>1.400</p></td>
     <td><p>700</p></td>
@@ -252,7 +252,7 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     <tr class="odd">
     <td><p>Portland</p></td>
     <td><p>Norteamérica</p></td>
-    <td><p>5 000</p></td>
+    <td><p>5,000</p></td>
     <td><p>4.000</p></td>
     <td><p>175</p></td>
     <td><p>2.800</p></td>
@@ -268,7 +268,7 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     <td><p>(sin límite)</p></td>
     </tr>
     <tr class="odd">
-    <td><p>Chicago</p></td>
+    <td><p>Guadalajara</p></td>
     <td><p>Norteamérica</p></td>
     <td><p>(sin límite)</p></td>
     <td><p>(sin límite)</p></td>
@@ -289,13 +289,13 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     </table>
 
 
-6.  Para cada subred de la red, especifica el sitio de red asociado.
+6.  Para cada subred de la red, especifique el sitio de red asociado.
     
     <div>
     
 
     > [!IMPORTANT]
-    > Cada subred de la red necesita estar asociada a un sitio de red, aunque el sitio de red no esté restringido por el ancho de banda. Esto es porque el servicio de control de admisión de llamadas usa la información de la subred para determinar el sitio de red en que está situado un extremo. Cuando se determinan las ubicaciones de ambas partes de la sesión, el servicio de control de admisión de llamadas puede determinar si existe suficiente ancho de banda para establecer una llamada. Cuando se establece una sesión a través de un vínculo que no tiene límites de ancho de banda, se genera una alerta.<BR>Si implementas servidores perimetrales de audio o vídeo, las direcciones IP públicas de cada servidor perimetral necesitan estar asociadas al sitio de red en el que se implementa el servidor perimetral. Cada dirección IP pública del servidor perimetral A/V necesita agregarse a las opciones de configuración de la red como subred con una máscara de subred de 32. Por ejemplo, si implementas servidores perimetrales A/V en Chicago, para cada dirección IP externa de los servidores, crea una subred con una máscara de subred de 32 y asocia el sitio de red Chicago a dichas subredes. Para obtener detalles sobre las direcciones IP públicas, consulte <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">determinar el firewall externo a/V y los requisitos de puerto para Lync Server 2013</A> en la documentación de planeación.
+    > Cada subred de la red debe estar asociada a un sitio de red, aunque el sitio de red no esté restringido por el ancho de banda. Esto se debe a que el control de admisión de llamadas usa la información de la subred para determinar el sitio de red en que está situado un extremo. Cuando se determinan las ubicaciones de ambas partes de la sesión, el control de admisión de llamadas puede determinar si existe suficiente ancho de banda para establecer una llamada. Cuando se establece una sesión a través de un vínculo que no tiene límites de ancho de banda, se genera una alerta.<BR>Si implementa servidores perimetrales de audio/vídeo, las direcciones IP públicas de cada servidor perimetral deben estar asociadas al sitio de red en el que se implementa el servidor perimetral. Cada dirección IP pública del servidor perimetral A/V debe agregarse a las opciones de configuración de la red como subred con una máscara de subred de 32. Por ejemplo, si implementa servidores perimetrales A/V en Chicago, para cada dirección IP externa de los servidores, cree una subred con una máscara de subred de 32 y asocie el sitio de red Chicago a dichas subredes. Para obtener más información acerca de las direcciones IP públicas, consulte <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">determinar el firewall externo a/V y los requisitos de puerto para Lync Server 2013</A> en la documentación referente a la planeación.
 
     
     </div>
@@ -304,12 +304,12 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     
 
     > [!NOTE]
-    > Aparecerá una alerta de indicador de estado clave (KHI), que especifica una lista de direcciones IP que están incluidas en la red, pero que no están asociadas a una subred; o bien, la subred que incluye las direcciones IP no está asociada a un sitio de red. Esta alerta no aparecerá más que una vez en un período de 8 horas. A continuación se ofrece la información sobre las alertas relevante y un ejemplo:<BR><STRONG>Fuente:</STRONG> Servicio de directivas de ancho de banda CS (núcleo)<BR><STRONG>Número de evento:</STRONG> 36034<BR><STRONG>Nivel:</STRONG> 2<BR><STRONG>Descripción:</STRONG> Las subredes de las siguientes direcciones IP: &lt;la lista de direcciones&gt; IP no está configurada o las subredes no están asociadas a un sitio de red.<BR><STRONG>Causa:</STRONG> Las subredes de las direcciones IP correspondientes no se encuentran en la configuración de red o las subredes no están asociadas a un sitio de red.<BR><STRONG>Solución:</STRONG> Agregue subredes que correspondan a la lista anterior de direcciones IP en la configuración de red y asocie cada subred a un sitio de red.<BR>Por ejemplo, si la lista de direcciones IP de la alerta especifica 10.121.248.226 y 10.121.249.20, estas direcciones IP no están asociadas a una subred o la subred a la que están asociadas no pertenece a un sitio de red. Si 10.121.248.0/24 y 10.121.249.0/24 son las subredes correspondientes a estas direcciones, este problema se puede resolver de la siguiente manera: 
+    > Aparecerá una alerta de indicador de estado clave (KHI), que especifica una lista de direcciones IP que están incluidas en la red pero que no están asociadas a una subred, o bien la subred que incluye las direcciones IP no está asociada a un sitio de red. Esta alerta no aparecerá más que una vez en un período de ocho horas. A continuación se ofrece la información de alerta relevante y un ejemplo:<BR><STRONG>Origen:</STRONG> Servicio de directivas de ancho de banda (principal) de CS<BR><STRONG>Número de evento:</STRONG> 36034<BR><STRONG>Nivel:</STRONG> 2<BR><STRONG>Descripción:</STRONG> Las subredes de las siguientes direcciones IP: &lt;la lista de direcciones&gt; IP no está configurada o las subredes no están asociadas a un sitio de red.<BR><STRONG>Causa:</STRONG> Las subredes de las direcciones IP correspondientes faltan en las opciones de configuración de red o las subredes no están asociadas a un sitio de red.<BR><STRONG>Solución:</STRONG> Agregue subredes correspondientes a la lista anterior de direcciones IP a las opciones de configuración de red y asocie cada subred a un sitio de red.<BR>Por ejemplo, si la lista de direcciones IP de la alerta especifica 10.121.248.226 y 10.121.249.20, estas direcciones IP no están asociadas a una subred o la subred a la que están asociadas no pertenece a un sitio de red. Si 10.121.248.0/24 y 10.121.249.0/24 son las subredes correspondientes a estas direcciones, este problema se puede resolver de la siguiente manera: 
     > <OL>
     > <LI>
-    > <P>Asegúrate de que la dirección IP 10.121.248.226 esté asociada a la subred 10.121.248.0/24 y la dirección IP 10.121.249.20 esté asociada a la subred 10.121.249.0/24.</P>
+    > <P>Asegúrese de que la dirección IP 10.121.248.226 está asociada a la subred 10.121.248.0/24 y la dirección IP 10.121.249.20 está asociada a la subred 10.121.249.0/24.</P>
     > <LI>
-    > <P>Asegúrate de que cada una de las subredes 10.121.248.0/24 y 10.121.249.0/24 esté asociada a un sitio de red.</P></LI></OL>
+    > <P>Asegúrese de que cada una de las subredes 10.121.248.0/24 y 10.121.249.0/24 está asociada a un sitio de red.</P></LI></OL>
 
     
     </div>
@@ -343,8 +343,8 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     <tr class="odd">
     <td><p>Albuquerque</p></td>
     <td><p>Norteamérica</p></td>
-    <td><p>5 000</p></td>
-    <td><p>2.000</p></td>
+    <td><p>5,000</p></td>
+    <td><p>2,000</p></td>
     <td><p>175</p></td>
     <td><p>1.400</p></td>
     <td><p>700</p></td>
@@ -363,7 +363,7 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     <tr class="odd">
     <td><p>Portland</p></td>
     <td><p>Norteamérica</p></td>
-    <td><p>5 000</p></td>
+    <td><p>5,000</p></td>
     <td><p>4.000</p></td>
     <td><p>175</p></td>
     <td><p>2.800</p></td>
@@ -381,7 +381,7 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     <td><p>172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24</p></td>
     </tr>
     <tr class="odd">
-    <td><p>Chicago</p></td>
+    <td><p>Guadalajara</p></td>
     <td><p>Norteamérica</p></td>
     <td><p>(sin límite)</p></td>
     <td><p>(sin límite)</p></td>
@@ -404,15 +404,15 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     </table>
 
 
-7.  En el control de admisión de las llamadas de Lync Server, las conexiones entre regiones de red se denominan *vínculos de región*. Para cada vínculo de región, determina lo siguiente, tal como has hecho para los sitios de red:
+7.  En el control de admisión de llamadas de Lync Server, las conexiones entre regiones de red se denominan *vínculos de región*. Para cada vínculo de región, determine lo siguiente, tal como hizo para los sitios de red:
     
-      - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de audio. Si una nueva sesión de audio hace que se supere este límite, Lync Server no permite que se inicie la sesión.
+      - Límite general de ancho de banda que desea establecer para todas las sesiones simultáneas de audio. Si una nueva sesión de audio provoca que se supere este límite, Lync Server no permite que se inicie la sesión.
     
-      - Límite de ancho de banda que deseas establecer para cada sesión individual de audio. El límite predeterminado de ancho de banda para CAC es de 175 kbps, pero el administrador puede modificarlo.
+      - Límite de ancho de banda que desea establecer para cada sesión individual de audio. El límite predeterminado de ancho de banda para CAC es de 175 kbps, pero el administrador puede modificarlo.
     
-      - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de vídeo. Si una nueva sesión de video hace que se supere este límite, Lync Server no permite que se inicie la sesión.
+      - Límite general de ancho de banda que desea establecer para todas las sesiones simultáneas de vídeo. Si una nueva sesión de vídeo provoca que se supere este límite, Lync Server no permite que se inicie la sesión.
     
-      - Límite de ancho de banda que deseas establecer para cada sesión individual de vídeo. El límite predeterminado de ancho de banda para CAC es de 700 kbps, pero el administrador puede modificarlo.
+      - Límite de ancho de banda que desea establecer para cada sesión individual de vídeo. El límite predeterminado de ancho de banda para CAC es de 700 kbps, pero el administrador puede modificarlo.
     
     **Vínculos de región de red con límites de ancho de banda asociados**
     
@@ -449,15 +449,15 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     <td><p>Norteamérica</p></td>
     <td><p>EMEA</p></td>
     <td><p>50 000</p></td>
-    <td><p>20 000</p></td>
+    <td><p>20,000</p></td>
     <td><p>175</p></td>
-    <td><p>14 000</p></td>
+    <td><p>14.000</p></td>
     <td><p>700</p></td>
     </tr>
     <tr class="even">
     <td><p>EMEA-APAC-LINK</p></td>
     <td><p>EMEA</p></td>
-    <td><p>APAC</p></td>
+    <td><p>Pacífico</p></td>
     <td><p>25 000</p></td>
     <td><p>10 000</p></td>
     <td><p>175</p></td>
@@ -468,7 +468,7 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     </table>
 
 
-8.  Define una ruta entre cada par de regiones de red.
+8.  Definir una ruta entre cada par de regiones de red.
     
     <div>
     
@@ -506,32 +506,32 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     <tr class="even">
     <td><p>EMEA-APAC-ROUTE</p></td>
     <td><p>EMEA</p></td>
-    <td><p>APAC</p></td>
+    <td><p>Pacífico</p></td>
     <td><p>EMEA-APAC-LINK</p></td>
     </tr>
     <tr class="odd">
     <td><p>NA-APAC-ROUTE</p></td>
     <td><p>Norteamérica</p></td>
-    <td><p>APAC</p></td>
+    <td><p>Pacífico</p></td>
     <td><p>NA-EMEA-LINK, EMEA-APAC-LINK</p></td>
     </tr>
     </tbody>
     </table>
 
 
-9.  Para cada par de sitios de red que estén conectados directamente por un solo vínculo (denominado vínculo *entre sitios*), determina lo siguiente:
+9.  Para cada par de sitios de red que estén conectados directamente por un solo vínculo (denominado vínculo *entre sitios*), determine lo siguiente:
     
-      - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de audio. Si una nueva sesión de audio hace que se supere este límite, Lync Server no permite que se inicie la sesión.
+      - Límite general de ancho de banda que desea establecer para todas las sesiones simultáneas de audio. Si una nueva sesión de audio provoca que se supere este límite, Lync Server no permite que se inicie la sesión.
     
-      - Límite de ancho de banda que deseas establecer para cada sesión individual de audio. El límite predeterminado de ancho de banda para CAC es de 175 kbps, pero el administrador puede modificarlo.
+      - Límite de ancho de banda que desea establecer para cada sesión individual de audio. El límite predeterminado de ancho de banda para CAC es de 175 kbps, pero el administrador puede modificarlo.
     
-      - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de vídeo. Si una nueva sesión de video hace que se supere este límite, Lync Server no permite que se inicie la sesión.
+      - Límite general de ancho de banda que desea establecer para todas las sesiones simultáneas de vídeo. Si una nueva sesión de vídeo provoca que se supere este límite, Lync Server no permite que se inicie la sesión.
     
-      - Límite de ancho de banda que deseas establecer para cada sesión individual de vídeo. El límite predeterminado de ancho de banda para CAC es de 700 kbps, pero el administrador puede modificarlo.
+      - Límite de ancho de banda que desea establecer para cada sesión individual de vídeo. El límite predeterminado de ancho de banda para CAC es de 700 kbps, pero el administrador puede modificarlo.
     
     **Región de red para CAC Norteamérica con indicación de las capacidades de ancho de banda y los límites de ancho de banda del vínculo entre sitios entre Reno y Albuquerque**
     
-    ![Ejemplo de sitios de la red restringidos por el ancho de banda de la WAN](images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Ejemplo de sitios de la red restringidos por el ancho de banda de la WAN")  
+    ![Ejemplo de sitios de red restringidos por el ancho de banda de WAN](images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Ejemplo de sitios de red restringidos por el ancho de banda de WAN")  
     
     ### <a name="bandwidth-information-for-an-inter-site-link-between-two-network-sites-bandwidth-in-kbps"></a>Información de ancho de banda de un vínculo entre sitios entre dos sitios de red (ancho de banda en kbps)
     
@@ -560,13 +560,13 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>Reno-Albu-Intersite-Link</p></td>
+    <td><p>Reno-Albu-intersite-Link</p></td>
     <td><p>Reno</p></td>
     <td><p>Albuquerque</p></td>
-    <td><p>20 000</p></td>
-    <td><p>12 000</p></td>
+    <td><p>20,000</p></td>
+    <td><p>12.000</p></td>
     <td><p>175</p></td>
-    <td><p>5 000</p></td>
+    <td><p>5,000</p></td>
     <td><p>700</p></td>
     </tr>
     </tbody>
@@ -577,13 +577,13 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Una vez recopilada la información necesaria, puede realizar la implementación de CAC mediante el shell de administración de Lync Server o el panel de control de Lync Server.
+Una vez recopilada la información necesaria, puede realizar una implementación de CAC mediante el shell de administración de Lync Server o el panel de control de Lync Server.
 
 <div>
 
 
 > [!NOTE]
-> Aunque puede realizar la mayoría de las tareas de configuración de red con el panel de control de Lync Server, para crear subredes y vínculos entre sitios, debe usar el shell de administración de Lync Server. Para obtener más información, vea la documentación del shell de administración de Lync Server para el cmdlet <STRONG>New-CsNetworkSubnet</STRONG> y el cmdlet <STRONG>New-CsNetworkIntersitePolicy</STRONG> .
+> Aunque puede realizar la mayoría de las tareas de configuración de red mediante el panel de control de Lync Server, para crear subredes y vínculos entre sitios, debe usar el shell de administración de Lync Server. Para obtener más información, consulte la documentación del shell de administración de Lync Server para el cmdlet <STRONG>New-CsNetworkSubnet</STRONG> y el cmdlet <STRONG>New-CsNetworkIntersitePolicy</STRONG> .
 
 
 

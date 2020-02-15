@@ -1,5 +1,5 @@
 ---
-title: Ejecutar compatibilidad con versiones anteriores para servidor de chat persistente
+title: Ejecutar compatibilidad con versiones anteriores para el servidor de chat persistente
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184175
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22d7054e9dfb3eba8e6365710accfd3a9693bc39
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 329415e7bae43bbbfd3a77da39e99049f4fe617e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726970"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035726"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="run-backward-compatibility-for-persistent-chat-server"></a>Ejecutar compatibilidad con versiones anteriores para servidor de chat persistente
+# <a name="run-backward-compatibility-for-persistent-chat-server"></a>Ejecutar compatibilidad con versiones anteriores para el servidor de chat persistente
 
 </div>
 
@@ -37,41 +37,41 @@ ms.locfileid: "41726970"
 
 _**Última modificación del tema:** 2013-02-21_
 
-Lync Server 2013, extremo del servidor de chat persistente proporciona una forma de crear una dirección URL simple que apunta a un grupo de servidores de chat persistente. Esto es útil para clientes heredados (servidor de chat grupal de Microsoft Office Communications Server 2007 R2 o Lync Server 2010, chat grupal) porque los usuarios pueden escribir una dirección URL simple en la configuración manual al intentar apuntar el cliente heredado a un equipo que ejecute Lync 2013. Chat persistente. Este punto de conexión no lo usa el chat persistente y es necesario solo para los clientes heredados. Esto es útil para el período provisional en el que se pueden migrar las salas, pero los clientes de Lync 2013 no se han implementado en toda la organización. Los usuarios que ejecutan Lync 2010 chat de grupo pueden seguir conectándose con el servidor de servicios de chat persistente.
+El punto de conexión del servidor de chat persistente de Lync Server 2013 proporciona una forma de crear una dirección URL sencilla que apunta a un grupo de servidores de chat persistente. Esto es útil para los clientes heredados (servidor de chat en grupo de Microsoft Office Communications Server 2007 R2 o Lync Server 2010, chat en grupo), ya que los usuarios pueden escribir una dirección URL sencilla en la configuración manual al intentar apuntar el cliente heredado a un equipo que ejecute Lync 2013. Chat persistente. El chat persistente no usa este extremo y solo es necesario para los clientes heredados. Esto es útil para el período intermedio en el que se pueden migrar los salones, pero los clientes de Lync 2013 no se han implementado en toda la organización. Los usuarios que ejecutan Lync 2010 Group chat (Client) pueden seguir conectándose al servidor back-end del servidor de chat persistente.
 
-No es necesario crear varios puntos de conexión del servidor de chat persistente; solo necesita una por cada grupo de servidores de chat persistente. Los administradores pueden crear varios puntos de conexión (uno por grupo), pero los clientes heredados se pueden configurar para que solo se conecten a un grupo a la vez. En el escenario normal o estándar, la implementación heredada solo es de un grupo. Generalmente, una nueva implementación migra ese grupo a un nuevo Lync Server 2013 y puede agregar nuevos grupos de servidores de chat persistentes adicionales.
+No es necesario crear varios extremos del servidor de chat persistente; solo necesita uno para cada grupo de servidores de chat persistente. Los administradores pueden crear varios extremos (uno por cada grupo), pero los clientes heredados solo pueden configurarse para conectarse a un grupo de servidores a la vez. En el escenario habitual o estándar, la implementación heredada es un grupo solamente. Una nueva implementación suele migrar ese grupo a un nuevo Lync Server 2013 y puede agregar nuevos grupos de servidores de chat persistente adicionales.
 
 Este escenario estándar generalmente sigue este patrón:
 
-  - Los usuarios se administran con un servidor de Lync Server 2010, un grupo de chats grupales y los clientes de chat grupal de Lync 2010 se conectan a ese grupo mediante algún\<usuario\>conocido (SIP predeterminado: ocschat@ domainname. com o uno similar). Los usuarios son servicios de dominio de Active Directory habilitados para SIP y el servicio de búsqueda se registra con ellos para recibir solicitudes entrantes.
+  - Los usuarios se administran con un servidor de Lync Server 2010, un grupo de servidores de chat en grupo y los clientes de chat de grupo de Lync 2010 se conectan a ese grupo\<de\>servidores mediante algún usuario conocido (SIP predeterminado: ocschat@ nombredominio. com o uno similar). Los usuarios son servicios de dominio de Active Directory habilitados para SIP y el servicio de búsqueda se registra con ellos para recibir solicitudes entrantes.
 
-  - Después, instale un servidor de chat persistente de Lync Server 2013 y un grupo de servidores de chat persistente.
+  - Posteriormente, se instala un servidor de chat persistente de Lync Server 2013 y un grupo de servidores de chat persistente.
 
-  - En el caso de que los usuarios estén generalmente desconectados (por ejemplo, un fin de semana):
+  - Durante un momento en el que los usuarios suelen estar desconectados (por ejemplo, un fin de semana):
     
-      - Desactive Lync Server 2010, conversación grupal.
+      - Desactive Lync Server 2010, chat en grupo.
     
-      - Migre los datos desde el servidor de Lync 2010, el grupo de chats grupales al grupo de servidores de chat persistente de Lync Server 2013.
+      - Migre datos del grupo de servidores de chats de Lync Server 2010, al grupo de servidores de chat persistente de Lync Server 2013.
     
       - Elimine el usuario conocido de los servicios de dominio de Active Directory.
     
-      - Cree un nuevo *extremo heredado* con el mismo URI de SIP que el usuario conocido previamente eliminado.
+      - Cree un nuevo *extremo heredado* con el mismo URI de SIP que el usuario conocido eliminado previamente.
     
-      - Inicie Lync Server 2013, servidores de chat persistentes.
+      - Inicie los servidores de chat persistente de Lync Server 2013.
 
-  - Los usuarios inician sesión de nuevo con su chat de grupo de Lync 2010 (cliente) y se conectan a sus datos sin necesidad de cambiar ninguna configuración.
+  - Los usuarios vuelven a iniciar sesión con su chat en grupo de Lync 2010 (cliente) y se conectan a sus datos sin necesidad de cambiar ninguna configuración.
 
-  - En un momento posterior, puede dar de baja el Lync Server 2010, una conversación grupal. Después, puede implementar Lync Server 2013, servidor de chat persistente e instalar nuevos grupos de servidores de chat persistentes de Lync Server 2013.
+  - En un momento posterior, puede retirar el chat en grupo de Lync Server 2010. A continuación, puede implementar Lync Server 2013, servidor de chat persistente e instalar nuevos grupos de servidores de chat persistente de Lync Server 2013.
 
-Para obtener más información sobre cómo migrar desde Lync Server 2010, chatear en grupo a Lync Server 2013, servidor de chat persistente, consulte [migración desde Lync server 2010, chat grupal u Office Communications server 2007 R2 conversación grupal a Lync server 2013, servidor de chat persistente](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md).
+Para obtener información detallada sobre cómo migrar desde Lync Server 2010, chat en grupo a Lync Server 2013, servidor de chat persistente, vea [Migration from Lync server 2010, Group chat u Office Communications server 2007 R2 Group chat a Lync server 2013, servidor de chat persistente](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md).
 
-Para ejecutar la compatibilidad con versiones anteriores (para crear un extremo de servidor de chat persistente que apunta a un grupo de servidores de chat persistente, que pueden usar los clientes heredados del grupo de chats):
+Para ejecutar la compatibilidad con versiones anteriores (para crear un extremo de servidor de chat persistente que apunte a un grupo de servidores de chat persistente, que pueden usar los clientes del grupo de chat de grupo heredado):
 
     New-CsPersistentChatEndpoint -SipAddress <CO name, ex. persistentchat@contoso.com> -PersistentChatPoolFqdn <pool FQDN, like pcpool.contoso.com>
 
-A continuación, configure los clientes de chat persistentes para que usen esa dirección SIP como su objeto de contacto. La dirección SIP se crea con el cmdlet **New-CsPersistentChatEndpoint** para un grupo de servidores de chat persistente específico.
+A continuación, configure los clientes de chat persistentes para usar esa dirección SIP como su objeto de contacto. La dirección SIP se crea con el cmdlet **New-CsPersistentChatEndpoint** para un grupo de servidores de chat persistente específico.
 
-Para agregar el extremo del servidor de chat persistente con la interfaz de línea de comandos de Windows PowerShell, considere el siguiente ejemplo. En este caso, está configurando el objeto de contacto para que se llame "persistentchat" en la topología "contoso.com", donde el nombre de dominio completo (FQDN) es "pcpool.contoso.com":
+Para agregar el extremo del servidor de chat persistente mediante la interfaz de línea de comandos de Windows PowerShell, considere el siguiente ejemplo. En este caso, va a configurar el objeto de contacto para que se denomine "persistentchat" en la topología "constoso.com" donde el nombre de dominio completo (FQDN) del grupo de servidores es "pcpool.contoso.com":
 
     New-CsPersistentChatEndpoint -SipAddress sip:persistentchat@contoso.com -PersistentChatPoolFqdn pcpool.contoso.com
 
@@ -80,7 +80,7 @@ Para agregar el extremo del servidor de chat persistente con la interfaz de lín
 ## <a name="see-also"></a>Vea también
 
 
-[Migración del chat de grupo de Lync Server 2010 o el chat de grupo de Office Communications Server 2007 R2 al servidor de chat persistente de Lync Server 2013](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)  
+[Migración desde Lync Server 2010, chat grupal o grupo de Office Communications Server 2007 R2 a Lync Server 2013, servidor de chat persistente](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)  
   
 
 </div>

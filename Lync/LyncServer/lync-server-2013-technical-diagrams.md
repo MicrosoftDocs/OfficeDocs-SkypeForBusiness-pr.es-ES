@@ -12,16 +12,16 @@ ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9a27f534c68a509e1febacd7937724c02c72061
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0e2500e58b17cefdae1fa1457416979c105b8efe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746670"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007699"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -39,9 +39,9 @@ _**Última modificación del tema:** 2014-03-14_
 
 **Resumen:** estos diagramas proporcionan representaciones visuales de soluciones recomendadas para Lync 2013.
 
-Estos recursos están disponibles en formato Visio (. VSD) (Visio 2010 o Visio 2013) y en formato PDF. Para más información sobre cómo imprimir documentos, vea Tips for printing posters.
+Estos recursos están disponibles en formato Visio (. VSD) (Visio 2010 o Visio 2013) y en formato PDF. Para obtener información sobre cómo imprimir documentos, vea sugerencias para imprimir pósteres.
 
-Podría necesitar otros programas de software para ver estos archivos. En la tabla siguiente encontrará más información.
+Es posible que necesite software adicionales para visualizar estos archivos. Consulte la tabla siguiente para obtener más información.
 
 
 <table>
@@ -57,9 +57,9 @@ Podría necesitar otros programas de software para ver estos archivos. En la tab
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>.vsd</p></td>
+<td><p>. VSD</p></td>
 <td><p>Visio 2010, Visio 2013 o el <a href="http://go.microsoft.com/fwlink/?linkid=393676">Visor gratuito de Visio</a></p>
-<p>Si utiliza Visio viewer, haga clic con el botón secundario en el vínculo de VSD, haga clic en <strong>Guardar destino como</strong>, guarde el archivo en el equipo y, luego, abra el archivo en su equipo.</p></td>
+<p>Si usa el visor de Visio, haga clic con el botón derecho en el vínculo VSD, haga clic en <strong>Guardar destino como</strong>, guarde el archivo en su equipo y, después, ábralo desde allí.</p></td>
 </tr>
 <tr class="even">
 <td><p>.pdf</p></td>
@@ -75,9 +75,9 @@ Podría necesitar otros programas de software para ver estos archivos. En la tab
 
 <div>
 
-## <a name="posters"></a>Pósteres
+## <a name="posters"></a>Cartel
 
-Estos pósteres profundizan en un área técnica específica y han sido pensados para ser utilizados con los artículos correspondientes en TechNet o contenido disponible en el centro de descarga.
+Estos pósteres detallan un área técnica específica y están pensados para usarlos con los artículos correspondientes de TechNet o contenido disponible en el centro de descarga.
 
 
 <table>
@@ -93,62 +93,62 @@ Estos pósteres profundizan en un área técnica específica y han sido pensados
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>2013 arquitecturas locales de Lync Server</strong></p>
+<td><p><strong>Lync Server 2013 arquitecturas locales</strong></p>
 <img src="images/Dn594589.36530bb8-732f-4be0-9502-082c01df9fba(OCS.15).jpg" title="miniatura del póster de arquitecturas de Lync" alt="thumbnail of Lync architectures poster" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392974">Acerque el póster en detalle con zoom.it de Microsoft</a>(el mejor en equipos de escritorio o portátiles)</p>
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392578">Versión PDF</a> (ideal para dispositivos móviles o equipos de tableta)</p>
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392579">Versión de Visio</a> (recomendado para usuarios de Visio)</p></td>
-<td><p>Póster ofrece instrucciones arquitectónicas para la planeación y la implementación. El póster contiene información sobre componentes comunes de Lync Server, terminología usada al planear una implementación, nuevas características, roles de servidor y una descripción general de la instalación. Además, el póster contiene arquitecturas de ejemplo para aumentar la alta disponibilidad y la recuperación ante desastres, así como para topologías de muestra pequeñas, medianas y grandes.</p>
-<p>Tamaño: 34 x 44 pulgadas</p>
-<p>Este póster se creó con Visio 2013. En un principio, no se requerirá ninguna modificación para un entorno específico.</p></td>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392974">Acerque el póster en detalle con zoom.it de Microsoft</a>(recomendado en equipos de escritorio o portátiles)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392578">Versión en PDF</a> (recomendado en dispositivos móviles o tabletas)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392579">Versión de Visio</a> (recomendado para usuarios con Visio)</p></td>
+<td><p>Póster proporciona instrucciones arquitectónicas para la planeación y la implementación. El póster contiene información sobre los componentes comunes de Lync Server, la terminología que se usa al planear una implementación, nuevas características, roles de servidor e información general de la instalación. Además, el póster contiene arquitecturas de ejemplo para aumentar la alta disponibilidad y la recuperación ante desastres, así como para topologías de ejemplo pequeñas, medianas y grandes.</p>
+<p>Tamaño: 34 por 44 pulgadas</p>
+<p>Este póster se creó con Visio 2013. No se necesita ninguna modificación para un entorno específico.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Metodología de calidad de llamadas de Lync</strong></p>
 <img src="images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg" title="Póster que describe el proceso de CQM" alt="Poster describing the CQM process" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392972">Acerque el póster en detalle con zoom.it de Microsoft</a>(el mejor en equipos de escritorio o portátiles)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392972">Acerque el póster en detalle con zoom.it de Microsoft</a>(recomendado en equipos de escritorio o portátiles)</p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=391841">Versiones de Visio y PDF juntas en un archivo. zip</a></p></td>
 <td><p>Póster que describe la solución de problemas del sistema Lync, especialmente para los problemas que afectan a la calidad de voz empresarial. Use este póster con:</p>
 <ul>
 <li><p><a href="http://go.microsoft.com/fwlink/p/?linkid=390677">Guía de redes de Lync Server</a></p></li>
 <li><p><a href="lync-server-2013-poster-lync-call-quality-methodology.md">Metodología de calidad de llamadas de Lync en Lync Server 2013</a> (artículo de accesibilidad)</p></li>
-<li><p><a href="lync-server-2013-poster-key-health-indicators.md">Indicadores clave de estado en Lync Server 2013</a> (artículo de accesibilidad)</p></li>
+<li><p><a href="lync-server-2013-poster-key-health-indicators.md">Indicadores de estado clave en Lync Server 2013</a> (artículo de accesibilidad)</p></li>
 </ul>
-<p>Tamaño: 34 x 44 pulgadas</p>
-<p>Este póster se ha creado utilizando Visio 2010. En un principio, no se requerirá ninguna modificación para un entorno específico.</p></td>
+<p>Tamaño: 34 por 44 pulgadas</p>
+<p>Este póster se creó con Visio 2010. No se necesita ninguna modificación para un entorno específico.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Indicadores clave de estado</strong></p>
-<img src="images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg" title="Póster que describe la solución de problemas con datos de KHI" alt="Poster describing troubleshooting using KHI data" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392971">Acerque el póster en detalle con zoom.it de Microsoft</a>(el mejor en equipos de escritorio o portátiles)</p>
+<td><p><strong>Indicadores de estado clave</strong></p>
+<img src="images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg" title="Póster que describe cómo solucionar problemas con datos de KHI" alt="Poster describing troubleshooting using KHI data" />
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392971">Acerque el póster en detalle con zoom.it de Microsoft</a>(recomendado en equipos de escritorio o portátiles)</p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=391838">Versiones de Visio y PDF juntas en un archivo. zip</a></p></td>
-<td><p>Póster que describe las métricas de solución de problemas del servidor para el estado básico del servidor y para el rol de un servidor determinado en la implementación de Lync. Use este póster con:</p>
+<td><p>Póster que describe las métricas de solución de problemas del servidor para el estado básico del servidor y el rol de un servidor determinado en la implementación de Lync. Use este póster con:</p>
 <ul>
 <li><p><a href="http://go.microsoft.com/fwlink/p/?linkid=390677">Guía de redes de Lync Server</a></p></li>
 <li><p><a href="lync-server-2013-poster-lync-call-quality-methodology.md">Metodología de calidad de llamadas de Lync en Lync Server 2013</a> (artículo de accesibilidad)</p></li>
-<li><p><a href="lync-server-2013-poster-key-health-indicators.md">Indicadores clave de estado en Lync Server 2013</a> (artículo de accesibilidad)</p></li>
+<li><p><a href="lync-server-2013-poster-key-health-indicators.md">Indicadores de estado clave en Lync Server 2013</a> (artículo de accesibilidad)</p></li>
 </ul>
-<p>Tamaño: 432 x 558 mm</p>
-<p>Este póster se ha creado utilizando Visio 2010. En un principio, no se requerirá ninguna modificación para un entorno específico.</p></td>
+<p>Tamaño: 17 por 22 pulgadas</p>
+<p>Este póster se creó con Visio 2010. No se necesita ninguna modificación para un entorno específico.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Opciones de plataforma de Lync 2013</strong></p>
-<img src="images/Dn594589.c5b66828-c3cf-4654-bb75-b93f97d085b3(OCS.15).jpg" title="vista de miniaturas del póster opciones de plataforma" alt="thumbnail view of platform options poster" />
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=391840">Acercar el póster en detalle con Zoom.it de Microsoft</a></p>
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=391837">Versión PDF</a> (ideal para dispositivos móviles o equipos de tableta)</p>
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=391839">Versión de Visio</a> (recomendado para usuarios de Visio)</p></td>
-<td><p>Este póster describe las opciones de plataforma disponibles para Lync 2013 a los usuarios y arquitectos que pueden elegir de Lync Online con Office 365, Lync híbrido, Lync Server local y hospedado en Lync. El póster incluye detalles de cada opción de arquitectura, incluidos los escenarios más ideales para cada uno, los requisitos de licencia y las responsabilidades de los profesionales de ti.</p>
-<p>Tamaño: 34 x 44 pulgadas</p>
-<p>Este póster se creó con Visio 2013. En un principio, no se requerirá ninguna modificación para un entorno específico.</p></td>
+<td><p><strong>Opciones de plataforma para Lync 2013</strong></p>
+<img src="images/Dn594589.c5b66828-c3cf-4654-bb75-b93f97d085b3(OCS.15).jpg" title="vista en miniatura del póster opciones de plataforma" alt="thumbnail view of platform options poster" />
+<p><a href="http://go.microsoft.com/fwlink/p/?linkid=391840">Ampliar el póster en detalle con Zoom.it de Microsoft</a></p>
+<p><a href="http://go.microsoft.com/fwlink/p/?linkid=391837">Versión en PDF</a> (recomendado en dispositivos móviles o tabletas)</p>
+<p><a href="http://go.microsoft.com/fwlink/p/?linkid=391839">Versión de Visio</a> (recomendado para usuarios con Visio)</p></td>
+<td><p>En este póster se describen las opciones de plataforma disponibles para Lync 2013 a los clientes y arquitectos que pueden elegir de Lync Online con Office 365, Hybrid Lync, Lync Server local y Lync hospedado. El póster incluye información detallada sobre cada opción de arquitectura, incluidos los escenarios más adecuados para cada una, los requisitos de licencia y las responsabilidades de los profesionales de TI.</p>
+<p>Tamaño: 34 por 44 pulgadas</p>
+<p>Este póster se creó con Visio 2013. No se necesita ninguna modificación para un entorno específico.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Cargas de trabajo de protocolo de Microsoft Lync Server 2013</strong></p>
+<td><p><strong>Cargas de trabajo del protocolo 2013 de Microsoft Lync Server</strong></p>
 <img src="images/Dn594589.e00f8445-4e00-48f6-a3e2-f97334dde719(OCS.15).jpg" title="vista de miniaturas del póster de cargas de trabajo de protocolo" alt="thumbnail view of protocol Workloads poster" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392970">Acercar el póster en detalle con Zoom.it de Microsoft</a></p>
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392512">Versión PDF</a> (ideal para dispositivos móviles o equipos de tableta)</p>
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392513">Versión de Visio</a> (recomendado para usuarios de Visio)</p></td>
-<td><p>Descargue este póster para comprender las capacidades y los requisitos de Lync 2013, teléfono de Lync, Lync Web App, Lync para Mac y Lync Mobile w. Vea cómo las cargas de trabajo de Lync Server facilitan la comunicación en una organización.</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392970">Ampliar el póster en detalle con Zoom.it de Microsoft</a></p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392512">Versión en PDF</a> (recomendado en dispositivos móviles o tabletas)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392513">Versión de Visio</a> (recomendado para usuarios con Visio)</p></td>
+<td><p>Descargue este póster para conocer las capacidades y los requisitos de Lync 2013, Lync Phone, Lync Web App, Lync para Mac y Lync Mobile w. Vea cómo las cargas de trabajo de Lync Server facilitan la comunicación en una organización.</p>
 <p>Tamaño: 24 x 36 pulgadas</p>
-<p>Este póster se creó con Visio 2013. En un principio, no se requerirá ninguna modificación para un entorno específico.</p></td>
+<p>Este póster se creó con Visio 2013. No se necesita ninguna modificación para un entorno específico.</p></td>
 </tr>
 </tbody>
 </table>
@@ -160,21 +160,21 @@ Estos pósteres profundizan en un área técnica específica y han sido pensados
 
 <div>
 
-## <a name="tips-for-printing-posters"></a>Sugerencias para imprimir los pósteres
+## <a name="tips-for-printing-posters"></a>Consejos para imprimir los pósteres
 
-Si tiene un trazador gráfico, puede imprimir estos pósteres en su tamaño completo. Si no tiene trazador gráfico, siga estos pasos para imprimir en papel de menor tamaño.
+Si tiene un trazador, puede imprimir estos pósteres a tamaño completo. Si no tiene un trazador, siga estos pasos para imprimir en un papel de tamaño más reducido.
 
-**Imprimir pósteres en papel más pequeño**
+**Impresión de pósteres en papel de tamaño reducido**
 
 1.  Abra el póster en Visio.
 
 2.  En el menú **Archivo**, haga clic en **Configurar página**.
 
-3.  En la pestaña **Configurar impresión**, en la sección **Papel de impresora**, seleccione el tamaño del papel en el que desee imprimir.
+3.  En la ficha **Configurar impresión**, en la sección **Papel de la impresora**, seleccione el tamaño del papel en el que desee imprimir.
 
-4.  En la pestaña **Configurar impresión**, en la sección **Zoom para imprimir**, haga clic en **Ajustar** y, luego, escriba **1 hoja a lo ancho por 1 hoja a lo largo**.
+4.  En la ficha **Configurar impresión**, en la sección **Zoom para imprimir**, haga clic en **Ajustar a** y, a continuación, escriba **1 hoja a lo ancho por 1 hoja a lo largo**.
 
-5.  En la pestaña **Tamaño de página**, haga clic en **Ajustar al contenido del dibujo** y haga clic en **Aceptar**.
+5.  En la ficha **Tamaño de página**, haga clic en **Ajustar al contenido del dibujo** y, a continuación, haga clic en **Aceptar**.
 
 6.  En el menú **Archivo**, haga clic en **Imprimir**.
 

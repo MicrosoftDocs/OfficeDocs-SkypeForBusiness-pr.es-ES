@@ -12,16 +12,16 @@ ms:contentKeyID: 49733588
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91a15057e4785a16e7fc632422573ee02d1d920b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a7c21a6b44d31514cc9addc800b2ae0812a5ad3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736430"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035976"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -43,15 +43,15 @@ Use el siguiente procedimiento para eliminar un anuncio que se usa para llamadas
 
 ## <a name="to-delete-an-announcement"></a>Para eliminar un anuncio
 
-1.  Inicie sesión en el equipo donde está instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [permisos de configuración de delegado en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Inicie sesión en el equipo donde esté instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
 3.  Muestre todos los anuncios de su organización. En la línea de comandos, ejecute:
     
         Get-CsAnnouncement
 
-4.  En la lista resultante, busque el anuncio que desea eliminar y copie el GUID. A continuación, en la línea de comandos, ejecute:
+4.  En la lista resultante, busque el anuncio que desea eliminar, y copie el GUID. A continuación, en la línea de comandos, ejecute:
     
         Remove-CsAnnouncement -Identity "<Service:service ID/guid>" 
     
@@ -63,7 +63,7 @@ Use el siguiente procedimiento para eliminar un anuncio que se usa para llamadas
     
 
     > [!NOTE]  
-    > Para obtener más información sobre más opciones, vea <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</A> y <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>.
+    > Para obtener más información sobre más opciones, consulte <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</A> y <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>.
 
     
     </div>

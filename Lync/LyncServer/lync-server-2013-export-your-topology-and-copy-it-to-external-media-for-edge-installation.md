@@ -12,16 +12,16 @@ ms:contentKeyID: 48185615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8eb8f20e7af8cbfd772226917b027a33a688a4a5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db1637b711d2743d5a2e1fb8a5138949fc3a21ec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756214"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035022"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41756214"
 
 _**Última modificación del tema:** 2012-09-08_
 
-Después de publicar su topología, el Asistente para la implementación de Lync Server necesita acceso a los datos del almacén central de administración para iniciar el proceso de implementación en el servidor. En la red interna, los datos están disponibles directamente desde los servidores, pero los servidores perimetrales que no se encuentran en el dominio interno no tienen acceso a los datos. Para que los datos de configuración de topología estén disponibles para una implementación de servidor perimetral, debe exportar los datos de la topología a un archivo y copiarlos en medios externos (por ejemplo, una unidad USB o un recurso compartido de red que esté disponible desde el servidor perimetral) antes de ejecutar el servidor de DEP de Lync Server Asistente para loyment en el servidor perimetral. Use el siguiente procedimiento para que los datos de configuración de su topología estén disponibles en el servidor perimetral que va a implementar.
+Después de publicar la topología, el Asistente para la implementación de Lync Server necesita tener acceso a los datos del almacén de administración central para poder iniciar el proceso de implementación en el servidor. En la red interna, se puede obtener acceso a los datos desde los servidores, pero los servidores perimetrales que no se encuentran en el dominio interno no pueden obtener acceso a los datos. Para que los datos de configuración de la topología estén disponibles para una implementación de servidor perimetral, debe exportar los datos de la topología a un archivo y copiarlos en medios externos (por ejemplo, una unidad USB o un recurso compartido de red disponible desde el servidor perimetral) antes de ejecutar el DEP de Lync Server. Asistente de loyment en el servidor perimetral. Siga el procedimiento indicado a continuación para hacer que sus datos de configuración de topología estén disponibles en el servidor perimetral que está implementando.
 
 <div>
 
 
 > [!NOTE]
-> Después de instalar Lync Server 2013 en un servidor perimetral, administra el servidor perimetral con las herramientas administrativas de la red interna, que automáticamente replican la configuración en los servidores perimetrales de la implementación. La única excepción es asignar e instalar certificados e detener e iniciar servicios, ambos deben realizarse en el servidor perimetral.
+> Después de instalar Lync Server 2013 en un servidor perimetral, se administra el servidor perimetral mediante las herramientas administrativas de la red interna, que replican automáticamente la configuración en los servidores perimetrales de la implementación. La única excepción es la asignación e instalación de certificados, así como la detención y el inicio de servicios que deben realizarse en el servidor perimetral.
 
 
 
@@ -51,15 +51,15 @@ Después de publicar su topología, el Asistente para la implementación de Lync
 
 <div>
 
-## <a name="to-make-your-topology-data-available-on-an-edge-server-by-using-lync-server-management-shell"></a>Para hacer que los datos de su topología estén disponibles en un servidor perimetral mediante el shell de administración de Lync Server
+## <a name="to-make-your-topology-data-available-on-an-edge-server-by-using-lync-server-management-shell"></a>Para hacer que los datos de la topología estén disponibles en un servidor perimetral mediante el Shell de administración de Communications Server
 
-1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
 2.  En el shell de administración de Lync Server, ejecute el siguiente cmdlet:
     
         Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
 
-3.  Copie el archivo exportado a un medio externo (por ejemplo, una unidad USB o un recurso compartido de red que esté disponible desde el servidor perimetral durante la implementación).
+3.  Copie el archivo externo a medios externos (por ejemplo, una unidad USB o un recurso compartido de red disponible desde el servidor perimetral durante la implementación).
 
 </div>
 

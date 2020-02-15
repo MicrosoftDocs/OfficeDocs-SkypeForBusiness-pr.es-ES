@@ -12,16 +12,16 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfedd6cc909b1d164df145862c8bd783581ed306
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d28ad5b4f00c724a6344d201cc871fdddf189706
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727380"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034130"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,29 +37,29 @@ ms.locfileid: "41727380"
 
 _**Última modificación del tema:** 2012-10-15_
 
-En los temas de esta sección se describen las tareas que tendrá que realizar después de completar la migración a Lync Server 2013.
+En los temas de esta sección se describen las tareas que necesitará realizar después de haber completado la migración a Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Migrar grupos de respuesta](migrate-response-groups_1.md)
+  - [Migrar los grupos de respuesta](migrate-response-groups_1.md)
 
   - [Migrar los números de acceso telefónico](migrate-dial-in-access-numbers_1.md)
 
-  - [Habilitar Exchange 2013 Outlook Web App y la integración con mensajería instantánea](enable-exchange-2013-outlook-web-app-and-im-integration.md)
+  - [Habilitar la integración de Exchange 2013 Outlook Web App y mensajería instantánea](enable-exchange-2013-outlook-web-app-and-im-integration.md)
 
-  - [Migrar la libreta de direcciones](migrate-address-book_1.md)
+  - [Migrar la Libreta de direcciones](migrate-address-book_1.md)
 
   - [Habilitar control remoto de llamadas](enable-remote-call-control.md)
 
   - [Quitar los servidores de archivado y supervisión heredados](remove-legacy-archiving-and-monitoring-servers_1.md)
 
-  - [Migrar servidor de mediación](migrate-mediation-server.md)
+  - [Migrar el servidor de mediación](migrate-mediation-server.md)
 
-  - [Configurar servidores de aplicaciones de confianza](configure-trusted-application-servers_1.md)
+  - [Configuración de servidores de aplicaciones de confianza](configure-trusted-application-servers_1.md)
 
-  - [Configurar la página para unirse a la reunión](configure-the-meeting-join-page_1.md)
+  - [Configurar la página de participación en la reunión](configure-the-meeting-join-page_1.md)
 
   - [Implementar clientes de Lync Server 2013](deploy-lync-server-2013-clients_1.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Nueva característica de tronco'
+title: 'Lync Server 2013: nueva característica de tronco'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 962da42567ffcc1c0d541b74266ac5bb1b4653c3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 250b240ed0e1b42051e92e9393f10c01ebb753f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755894"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006146"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,14 +37,14 @@ ms.locfileid: "41755894"
 
 _**Última modificación del tema:** 2012-09-21_
 
-En Microsoft Lync Server 2013, se pueden definir varios troncos entre un servidor de mediación y una puerta de enlace. Microsoft Lync Server 2010 solo se permite para un único tronco entre un servidor de mediación y una puerta de enlace RTC. Esta característica proporciona la flexibilidad de definir troncos adicionales. Un tronco es una asociación lógica entre un FQDN de servidor de mediación y un puerto de escucha y una puerta de enlace de RTC y un puerto de escucha. Esta nueva capacidad permite una definición de troncal sencilla para la resistencia (donde se pueden usar varios servidores de mediación para enrutar llamadas a la misma puerta de enlace PSTN), para la interoperabilidad de PBX, en la que se pueden usar varios troncos con diferentes directivas relacionadas entre y IP-PBX y un servidor de mediación, y para las configuraciones de troncal de SIP, donde los servidores de mediación en diferentes sitios tienen troncos SIP a la portadora a la que hace referencia el mismo FQDN de portador.
+En Microsoft Lync Server 2013, se pueden definir varios troncos entre un servidor de mediación y una puerta de enlace. Microsoft Lync Server 2010 solo se permite para un tronco entre un servidor de mediación y una puerta de enlace RTC. Esta característica ofrece la flexibilidad necesaria para definir troncos adicionales. Un tronco es una asociación lógica entre el FQDN de un servidor de mediación y el puerto de escucha y el FQDN y el puerto de escucha de la puerta de enlace RTC. Esta nueva capacidad permite una definición de tronco sencilla para la resistencia (donde se pueden usar varios servidores de mediación para enrutar llamadas a la misma puerta de enlace RTC), para la interoperabilidad de PBX, en la que se pueden usar varios troncos con diferentes directivas asociadas entre y IP-PBX y un servidor de mediación, y para las configuraciones de tronco SIP donde los servidores de mediación en diferentes sitios tienen troncos SIP a la portadora a la que hace referencia el mismo FQDN de portadora.
 
 <div>
 
 ## <a name="see-also"></a>Vea también
 
 
-[Nuevas características de la telefonía IP empresarial en Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
+[Nuevas características de Enterprise Voice en Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Administración de servicios y roles de servidor'
+title: 'Lync Server 2013: administración de servicios y roles de servidor de Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 650c3afba4aa38282867f28db4e0f142b2315212
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5ca7fd0277bf04149376f21964c08d6002564823
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743368"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034400"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -49,7 +49,7 @@ Puede usar los procedimientos de esta sección para administrar los diversos ser
 
   - [Administración de servicios de Lync Server 2013](lync-server-2013-managing-lync-server-services.md)
 
-  - [Administrar el servicio de libreta de direcciones en Lync Server 2013](lync-server-2013-administering-the-address-book-service.md)
+  - [Administración del servicio de libreta de direcciones en Lync Server 2013](lync-server-2013-administering-the-address-book-service.md)
 
   - [Cambiar la dirección URL de los servicios web en Lync Server 2013](lync-server-2013-change-the-web-services-url.md)
 

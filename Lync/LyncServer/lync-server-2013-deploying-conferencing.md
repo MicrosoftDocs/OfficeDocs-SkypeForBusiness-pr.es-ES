@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Implementar conferencias'
+title: 'Lync Server 2013: implementación de conferencias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733728
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a81b46d7bbc3c0652d2352577c11877c44b36608
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3b3ea06d440f8255b9bd2234966733d990fa3040
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729460"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42013473"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-conferencing-in-lync-server-2013"></a>Implementar conferencias en Lync Server 2013
+# <a name="deploying-conferencing-in-lync-server-2013"></a>Implementación de conferencias en Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41729460"
 
 _**Última modificación del tema:** 2012-09-27_
 
-En esta sección se describe cómo configurar los servicios de conferencia de acceso telefónico local y Office Web Apps Server.
+En esta sección, se describe cómo configurar el marcado en el servidor de Office Web Apps y conferencia.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Configurar una conferencia de acceso telefónico local en Lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
+  - [Configurar las conferencias de acceso telefónico local en Lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
 
-  - [Configuración de la integración de Office Web Apps Server y Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
+  - [Configuración de la integración con Office Web Apps Server y Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
 
-  - [Configuración de la página de participación en reuniones en Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md)
+  - [Configuración de la página de participación en la reunión en Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184702
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2396cb1a157b88d8beb9458006c1c8a44874dba3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a672eea92c820970b3cc4cc1c112c15fcffd641
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744580"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033799"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41744580"
 
 _**Última modificación del tema:** 2013-02-18_
 
-Los cmdlets de administración de usuarios incluidos en Microsoft Lync Server 2013 le permiten habilitar, deshabilitar y modificar cuentas de usuario de Lync Server.
+Los cmdlets de administración de usuarios incluidos en Microsoft Lync Server 2013 permiten habilitar, deshabilitar y modificar las cuentas de usuario de Lync Server.
 
 <div>
 
 ## <a name="user-management-cmdlets"></a>Cmdlets de administración de usuarios
 
-La mayoría de las tareas de administración que se aplican a los usuarios y las cuentas de usuario se pueden realizar en el panel de control de Lync Server. Las excepciones principales son los cmdlets que se utilizan en los proveedores de servicios de audioconferencia. Las tareas de administración de usuarios se pueden realizar con cmdlets desde el shell de administración de Lync Server o desde una secuencia de comandos. Mediante un script, puede automatizar determinadas tareas. A continuación se muestra una lista de cmdlets que se relacionan directamente con la administración de usuarios y cuentas de usuario:
+La mayoría de las tareas de administración que se aplican a usuarios y cuentas de usuario se pueden realizar desde el panel de control de Lync Server. Las excepciones más importantes son los cmdlets que se ocupan de los proveedores de servicios de audioconferencia. Las tareas de administración de usuarios se pueden realizar mediante el uso de cmdlets desde el shell de administración de Lync Server o desde una secuencia de comandos. El uso de un script permite automatizar determinadas tareas. A continuación se presenta una lista de cmdlets directamente relacionados con la administración de usuarios y cuentas de usuario:
 
   - <span></span>  
     [Get-CsAdContact](https://docs.microsoft.com/powershell/module/skype/Get-CsAdContact)
@@ -83,7 +83,7 @@ La mayoría de las tareas de administración que se aplican a los usuarios y las
     [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser)
 
   - <span></span>  
-    [Mover-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)
+    [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)
 
   - <span></span>  
     [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser)

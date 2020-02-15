@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: comprobar los requisitos previos de la copia de seguridad'
+title: 'Lync Server 2013: comprobación de los requisitos previos de la copia de seguridad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541448
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6106fb91f3366c7857fe0cf9fd894b647ca70b99
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0bbf798b46745bf0469e49c6384fd0544cd72c1c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742130"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007309"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verifying-backup-prerequisites-in-lync-server-2013"></a>Comprobar los requisitos previos de copia de seguridad en Lync Server 2013
+# <a name="verifying-backup-prerequisites-in-lync-server-2013"></a>Comprobar los requisitos previos de la copia de seguridad en Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41742130"
 
 _**Última modificación del tema:** 2013-02-17_
 
-Antes de empezar a realizar una copia de seguridad de Lync Server, compruebe que está preparado con lo siguiente:
+Antes de empezar a crear una copia de seguridad de Lync Server, compruebe que está preparado con lo siguiente:
 
-  - Herramientas de copia de seguridad. Para obtener más información, consulte [requisitos de copia de seguridad y restauración en Lync Server 2013: herramientas y permisos](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
+  - Herramientas de copia de seguridad. Para obtener más información, consulte [requisitos de copia de seguridad y restauración en Lync Server 2013: Tools and Permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
 
-  - Permisos. Para obtener más información, consulte [requisitos de copia de seguridad y restauración en Lync Server 2013: herramientas y permisos](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
+  - Los. Para obtener más información, consulte [requisitos de copia de seguridad y restauración en Lync Server 2013: Tools and Permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
 
-  - Ubicación para almacenar copias de seguridad. Para obtener más información, vea [configurar una ubicación de copia de seguridad de Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).
+  - Ubicación para almacenar las copias de seguridad. Para obtener más información, consulte [configuración de una ubicación de copia de seguridad para Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).
 
-  - Medios para las copias de seguridad. Para obtener más información, vea [configurar una ubicación de copia de seguridad de Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).
+  - Medios para las copias de seguridad. Para obtener más información, consulte [configuración de una ubicación de copia de seguridad para Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ver una lista de equipos que ejecutan Lync Server 2013'
+title: 'Lync Server 2013: ver una lista de los equipos que ejecutan Lync Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184030
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b11c6234cbe646888946313df8dd77abc60837fd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 05193ab70846918bd4106883583e42da03b541fc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741970"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007229"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-a-list-of-computers-running-lync-server-2013"></a>Ver una lista de equipos que ejecutan Lync Server 2013
+# <a name="view-a-list-of-computers-running-lync-server-2013"></a>Ver una lista de los equipos que ejecutan Lync Server 2013
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41741970"
 
 _**Última modificación del tema:** 2012-11-01_
 
-Puede usar el panel de control de Lync Server 2013 para ver una lista de todos los equipos que ejecutan Lync Server 2013 en su topología y ver el estado del servicio de cada uno. Puede ordenar la lista por equipo, grupo o sitio.
+Puede usar el panel de control de Lync Server 2013 para ver una lista de todos los equipos que ejecutan Lync Server 2013 en su topología y ver el estado del servicio de cada uno. Puede ordenar la lista por PC, grupo de servidores o sitio.
 
 <div>
 
-## <a name="to-view-a-list-of-computers-running-lync-server"></a>Para ver una lista de equipos que ejecutan Lync Server
+## <a name="to-view-a-list-of-computers-running-lync-server"></a>Para ver una lista de equipo que ejecutan Lync Server
 
-1.  Desde una cuenta de usuario asignada a cualquiera de los roles administrativos predefinidos para Lync Server 2013, inicie sesión en cualquier equipo de su implementación interna. Para obtener más información sobre los roles administrativos predefinidos disponibles en Lync Server 2013, consulte [planificación de control de acceso basado en roles en Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+1.  Desde una cuenta de usuario asignada a cualquiera de los roles administrativos predefinidos para Lync Server 2013, inicie sesión en cualquier equipo de la implementación interna. Para obtener más información sobre los roles administrativos predefinidos disponibles en Lync Server 2013, vea [planeación del control de acceso basado en roles en Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **topología** y, a continuación, en **Estado**.
+3.  En la barra de navegación izquierda, haga clic en **Topología** y después en **Estado**.
 
-4.  En la página **Estado** , realice una de las siguientes acciones según sea necesario:
+4.  En la página **Estado**, realice alguna de las operaciones siguientes:
     
-      - Ordene la lista haciendo clic en el encabezado de la columna **equipo**, **Grupo**de servidores o **sitio** y, a continuación, haga clic en la flecha arriba o la flecha abajo.
+      - Ordene la lista haciendo clic en el encabezado de columna **Equipo**, **Grupo de servidores** o **Sitio** y después haga clic en la flecha arriba o en la flecha abajo.
     
       - Haga clic en **Actualizar** para ver la lista más actualizada.
     
-      - Busque un equipo específico escribiendo el nombre del equipo en el campo de búsqueda.
+      - Para buscar un equipo específico, escriba el nombre del equipo en el campo de búsqueda.
 
 </div>
 

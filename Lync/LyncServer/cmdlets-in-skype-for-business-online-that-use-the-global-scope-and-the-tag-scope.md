@@ -1,5 +1,5 @@
 ---
-title: Cmdlets de Skype empresarial online que usan el ámbito global y el ámbito de la etiqueta
+title: Cmdlets de Skype empresarial online que usan el ámbito global y el ámbito de etiqueta
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,23 +13,23 @@ ms:contentKeyID: 56558824
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04eb5f71a0092452eb8b24fa9acf53d46fb3bcd5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 998201bf7772003c83ae27d56b3a238f9f0ca055
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728100"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42001155"
 ---
-# <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a>Cmdlets de Skype empresarial online que usan el ámbito global y el ámbito de la etiqueta
+# <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a>Cmdlets de Skype empresarial online que usan el ámbito global y el ámbito de etiqueta
 
  
 
 
-En Skype empresarial online, las directivas se pueden configurar en el *ámbito global* o en el *ámbito* de la etiqueta (o *por ámbito de usuario*). Al usar los cmdlets **Get-CS** , no tiene que especificar un ámbito o una identidad. Si llama a uno de estos cmdlets sin parámetros, se devolverán todos los elementos pertinentes. Por ejemplo, este comando devuelve información acerca de todas las directivas de acceso externas:
+En Skype empresarial online, las directivas se pueden configurar en el *ámbito global* o en el *ámbito* de la etiqueta (o *por ámbito de usuario*). Cuando se usan los cmdlets **Get-CS** , no es necesario especificar un ámbito o una identidad. Si se llama a uno de estos cmdlets sin ningún parámetro, se devolverán todos los elementos relevantes. Por ejemplo, este comando devuelve información sobre todas las directivas de acceso externo:
 
     Get-CsExternalAccessPolicy
 
-Si desea limitar los datos devueltos, solo tiene que incluir el parámetro Identity o el parámetro filter. Por ejemplo, para devolver solo la directiva global, use este comando:
+Si desea limitar los datos devueltos, solo tiene que incluir el parámetro Identity o el parámetro filter. Por ejemplo, para devolver sólo la directiva global, use este comando:
 
     Get-CsExternalAccessPolicy -Identity "global"
 
@@ -47,31 +47,31 @@ Para devolver todas las directivas excepto las directivas globales (es decir, to
 
     Get-CsExternalAccessPolicy -Filter "tag:*"
 
-Los siguientes cmdlets funcionan contra el ámbito global y el ámbito por usuario (etiqueta):
+Los siguientes cmdlets operan en el ámbito global y en el ámbito por usuario (etiqueta):
 
-  - [Get-ClientPolicy](https://technet.microsoft.com/en-us/library/gg398830\(v=ocs.15\))
+  - [Get-CsClientPolicy](https://technet.microsoft.com/library/gg398830\(v=ocs.15\))
 
-  - [Get-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/gg398293\(v=ocs.15\))
+  - [Get-CsConferencingPolicy](https://technet.microsoft.com/library/gg398293\(v=ocs.15\))
 
-  - [Get-CsDialPlan](https://technet.microsoft.com/en-us/library/gg413043\(v=ocs.15\))
+  - [Get-CsDialPlan](https://technet.microsoft.com/library/gg413043\(v=ocs.15\))
 
-  - [Get-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/gg425805\(v=ocs.15\))
+  - [Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/gg425805\(v=ocs.15\))
 
-  - [Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/gg398348\(v=ocs.15\))
+  - [Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/gg398348\(v=ocs.15\))
 
-  - [Get-CsPresencePolicy](https://technet.microsoft.com/en-us/library/gg398463\(v=ocs.15\))
+  - [Get-CsPresencePolicy](https://technet.microsoft.com/library/gg398463\(v=ocs.15\))
 
-  - [Get-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398101\(v=ocs.15\))
+  - [Get-CsVoicePolicy](https://technet.microsoft.com/library/gg398101\(v=ocs.15\))
 
 
 > [!NOTE]  
-> A pesar del nombre, los planes de marcado son, en términos funcionales, directivas. El <EM>plan de marcado</EM> de términos se usa en lugar de, por ejemplo, la Directiva de marcado, a fin de preservar la terminología que se usa con versiones anteriores de Lync Server.
+> A pesar del nombre, los planes de marcado son, en términos funcionales, directivas. El plan de términos de <EM>marcado</EM> se usa en lugar de, por ejemplo, la Directiva de marcado, a fin de preservar la terminología que se usa con versiones anteriores de Lync Server.
 
 
 
 ## <a name="see-also"></a>Vea también
 
 
-[Identidades, ámbitos y espacios empresariales en Skype empresarial online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Los cmdlets de Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
+[Identidades, ámbitos e inquilinos en Skype empresarial online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Los cmdlets de Skype empresarial online](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
 

@@ -1,5 +1,5 @@
 ---
-title: Los cmdlets de Lync Online
+title: Los cmdlets de Skype empresarial online
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 56558831
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c0d56a85fda6cb4f46991700b6fa428acb1c823
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e1ddc16cf293401ae8b6dffb199f950bebcbb8fa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738750"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035596"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="the-skype-for-business-online-cmdlets"></a>Los cmdlets de Lync Online
+# <a name="the-skype-for-business-online-cmdlets"></a>Los cmdlets de Skype empresarial online
 
 </div>
 
@@ -37,30 +37,30 @@ ms.locfileid: "41738750"
 
 _**Última modificación del tema:** 2013-07-05_
 
-Al conectarse a Skype empresarial online mediante Windows PowerShell, se copia una colección de cmdlets de Skype empresarial online en la memoria del equipo. Estos cmdlets, además de cualquier otro cmdlet que ya tenga en el equipo local (incluidos los cmdlets básicos que se instalan al instalar Windows PowerShell), están disponibles para la administración de la implementación de Skype empresarial online y de Skype para Cuentas de usuario de empresa online. Los cmdlets de Skype empresarial online se presentan en los siguientes temas:
+Al conectarse a Skype empresarial online mediante Windows PowerShell, una colección de cmdlets de Skype empresarial online se copia en la memoria del equipo. Estos cmdlets, además de otros cmdlets que ya tiene en el equipo local (incluidos los cmdlets básicos que se instalan al instalar Windows PowerShell), están disponibles para administrar su implementación de Skype empresarial online y su Skype empresarial Cuentas de usuario de empresa online. Los cmdlets de Skype empresarial online se incluyen en los siguientes temas:
 
-  - [Administrar inquilinos de Lync Online](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
+  - [Administrar los inquilinos de Skype empresarial online](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
 
-  - [Administrar los usuarios y las propiedades de la cuenta de usuario en Skype empresarial online](https://docs.microsoft.com/skypeforbusiness/manage/user-accounts/user-accounts)
+  - [Administración de usuarios y propiedades de la cuenta de usuario en Skype empresarial online](https://docs.microsoft.com/skypeforbusiness/manage/user-accounts/user-accounts)
 
   - [Administración de directivas en Skype empresarial online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-policies-with-office-365-powershell)
 
-  - [Administrar el cliente de Skype empresarial desde Skype empresarial online](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
+  - [Administración del cliente de Skype empresarial desde Skype empresarial online](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
 
   - [Administrar la mensajería unificada de Exchange y el correo de voz hospedado en Skype empresarial online](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail)
 
   - [Administración de comunicaciones en Skype empresarial online con usuarios externos y organizaciones](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users)
 
-  - [Administrar conferencias y reuniones de Lync Online](https://docs.microsoft.com/skypeforbusiness/manage/conferencing/conferencing-policies)
+  - [Administrar reuniones y conferencias de Skype empresarial online](https://docs.microsoft.com/skypeforbusiness/manage/conferencing/conferencing-policies)
 
-  - [Administración de teléfonos móviles y dispositivos móviles en Skype empresarial online](https://docs.microsoft.com/skypeforbusiness/set-up-policies-in-your-organization/set-up-mobile-policies-for-your-organization)
+  - [Administrar teléfonos celulares y dispositivos móviles en Skype empresarial online](https://docs.microsoft.com/skypeforbusiness/set-up-policies-in-your-organization/set-up-mobile-policies-for-your-organization)
 
 <div>
 
 ## <a name="see-also"></a>Vea también
 
 
-[Referencia rápida: Realizar tareas de administración comunes de Lync Online con Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)  
+[Referencia rápida: uso de Windows PowerShell para realizar tareas de administración comunes de Skype empresarial online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)  
   
 
 </div>

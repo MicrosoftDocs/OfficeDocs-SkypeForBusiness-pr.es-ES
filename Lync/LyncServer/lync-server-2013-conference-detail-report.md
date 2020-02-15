@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: informe detallado de la Conferencia'
+title: 'Lync Server 2013: informe de detalles de conferencia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e8e2cd992e83adb29c43935d4b4c7f223580d53
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dce868d90d2811b36a4f11c159b4e7d9d29b5ffa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757034"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007889"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conference-detail-report-in-lync-server-2013"></a>Informe detallado de la Conferencia en Lync Server 2013
+# <a name="conference-detail-report-in-lync-server-2013"></a>Informe de detalles de conferencia en Lync Server 2013
 
 </div>
 
@@ -43,15 +43,15 @@ El Informe de detalles de conferencia proporciona información detallada sobre t
 
 ## <a name="accessing-the-conference-detail-report"></a>Acceso al Informe de detalles de conferencia
 
-Es posible obtener acceso al Informe de detalles de conferencia a partir de los siguientes informes:
+Es posible acceder al Informe de detalles de conferencia a partir de los siguientes informes:
 
-  - El [Informe de control de admisión de llamadas en Lync Server 2013](lync-server-2013-call-admission-control-report.md) (al hacer clic en la métrica de detalle de una conferencia)
+  - El [Informe de control de admisión de llamadas en Lync Server 2013](lync-server-2013-call-admission-control-report.md) (haciendo clic en la métrica detalle de una conferencia)
 
-  - El [informe lista de errores de Lync Server 2013](lync-server-2013-failure-list-report.md) (al hacer clic en la métrica de la Conferencia)
+  - El [Informe de lista de errores en Lync Server 2013](lync-server-2013-failure-list-report.md) (haciendo clic en la métrica de conferencia)
 
-  - [Informe de actividad de usuario en Lync Server 2013](lync-server-2013-user-activity-report.md) (al hacer clic en la métrica de URI de la Conferencia)
+  - El [Informe de actividad de usuario en Lync Server 2013](lync-server-2013-user-activity-report.md) (haciendo clic en la métrica URI de conferencia)
 
-En el informe de detalles de la Conferencia, puede acceder al [Informe de diagnóstico en Lync Server 2013](lync-server-2013-diagnostic-report.md) haciendo clic en la métrica de informe de diagnóstico (detalles).
+Desde el informe de detalles de conferencia, puede tener acceso al [Informe de diagnósticos en Lync Server 2013](lync-server-2013-diagnostic-report.md) haciendo clic en la métrica informe de diagnósticos (detalle).
 
 </div>
 
@@ -80,7 +80,7 @@ La siguiente tabla muestra la información brindada en la sección Información 
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
@@ -89,7 +89,7 @@ La siguiente tabla muestra la información brindada en la sección Información 
 <td><p><strong>URI de conferencia</strong></p></td>
 <td></td>
 <td><p>URI asignado a la conferencia. Por ejemplo:</p>
-<p>sip:kmyer@litwareinc.com;gruu;opaque=app:conf:focus:id:drg2y8v4</p></td>
+<p>SIP: kmyer@litwareinc. com; gruu; Opaque = App: conf: Focus: ID: drg2y8v4</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FQDN del grupo de servidores</strong></p></td>
@@ -109,7 +109,7 @@ La siguiente tabla muestra la información brindada en la sección Información 
 <tr class="odd">
 <td><p><strong>Hora de finalización</strong></p></td>
 <td></td>
-<td><p>Fecha y hora en que la conferencia finalizó.</p></td>
+<td><p>Fecha y hora en que finalizó la conferencia.</p></td>
 </tr>
 </tbody>
 </table>
@@ -128,13 +128,13 @@ La siguiente tabla muestra la información brindada en la sección Participació
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Usuario</strong></p></td>
+<td><p><strong>User</strong></p></td>
 <td></td>
 <td><p>Dirección SIP del usuario que participó en la conferencia.</p></td>
 </tr>
@@ -172,7 +172,7 @@ La siguiente tabla muestra la información brindada en la sección Participació
 </table>
 
 
-En la tabla siguiente se enumera la información proporcionada en la sección modalidades de conferencia del informe detalles de la Conferencia.
+En la siguiente tabla se muestra la información proporcionada en la sección modalidades de conferencia del informe de detalles de conferencia.
 
 ### <a name="conference-modalities-metrics"></a>Métricas de Modalidades de conferencia
 
@@ -185,13 +185,13 @@ En la tabla siguiente se enumera la información proporcionada en la sección mo
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Usuario</strong></p></td>
+<td><p><strong>User</strong></p></td>
 <td></td>
 <td><p>Dirección SIP del usuario que participó en la conferencia.</p></td>
 </tr>

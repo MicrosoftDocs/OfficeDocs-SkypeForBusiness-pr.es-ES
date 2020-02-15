@@ -12,16 +12,16 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e416901fd5a98ffa3974c29e469eef2b6f4cb783
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a82cb5ae505db5db3bbd8dd216ad61256368814e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737970"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998745"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41737970"
 
 _**Última modificación del tema:** 2014-05-29_
 
-Puede administrar la configuración y las directivas de usuario para los usuarios migrados a Lync Online mediante las características de administración de usuarios disponibles en el portal en línea de Microsoft Office 365. Necesita iniciar sesión con una cuenta de administrador de inquilinos para realizar tareas administrativas.
+Puede administrar la configuración y las directivas de usuario para los usuarios migrados a Lync Online mediante las características de administración de usuarios disponibles en el portal de Microsoft Office 365 online. Debe iniciar sesión con la cuenta de administrador de inquilinos para realizar tareas de administración.
 
 <div>
 
-## <a name="moving-users-back-to-on-premises"></a>Mover usuarios a local
+## <a name="moving-users-back-to-on-premises"></a>Mover a usuarios localmente
 
 <div class="">
 
 
 > [!IMPORTANT]  
-> Esta sección solo se aplica a los usuarios que se han creado y habilitado para Lync local y después se han movido de una implementación local a Lync Online. Si quiere mover los usuarios que se crearon en Lync Online (y nunca se habilitaron para Lync en una implementación local), vea <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">mover usuarios de Lync Online a Lync local en Lync Server 2013</A>.
+> Esta sección solo se aplica a los usuarios que se crearon y habilitaron para Lync local y, a continuación, se movieron de una implementación local a Lync Online. Si quiere mover usuarios que se crearon en Lync Online (y que nunca se habilitaron para Lync en una implementación local), vea <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">mover usuarios de Lync Online a Lync local en Lync Server 2013</A>.
 
 
 
@@ -63,27 +63,27 @@ Puede administrar la configuración y las directivas de usuario para los usuario
         Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
        ```
 
-El formato de la dirección URL especificada para el parámetro **HostedMigrationOverrideUrl** necesita ser la dirección URL al grupo donde se ejecuta el servicio de migración hospedado, con el siguiente formato:
+El formato de la dirección URL especificada para el parámetro **HostedMigrationOverrideUrl** debe ser la dirección URL del grupo en el que se está ejecutando el servicio de migración hospedado, en el siguiente formato:
 
-Https://\<FQDN\>del grupo de/HostedMigration/hostedmigrationService.SVC. Para determinar la dirección URL al servicio de migración hospedado, vea la dirección URL del Panel de control de Lync Online para la cuenta del inquilino de Office 365.
+Https://\<FQDN\>del grupo de servidores de/HostedMigration/hostedmigrationService.SVC. Para determinar la dirección URL del servicio de migración hospedado, vea la dirección URL del panel de control de Lync Online para su cuenta de inquilino de Office 365.
 
-**Para determinar la dirección URL al servicio de migración de hospedado de su inquilino Office 365**
+**Para determinar la dirección URL del servicio de migración hospedado de su inquilino de Office 365**
 
-1.  Inicie sesión en el inquilino de Office 365 como administrador.
+1.  Inicie sesión en su inquilino de Office 365 como administrador.
 
 2.  Abra el **centro de administración de Lync**.
 
-3.  Con el **centro de administración de Lync** mostrado, seleccione y copie la dirección URL en la barra de direcciones hasta **Lync.com**. Una dirección URL de ejemplo es muy similar a la siguiente:
+3.  Con el **centro de administración de Lync** mostrado, seleccione y copie la dirección URL en la barra de direcciones hasta **Lync.com**. Una dirección URL de ejemplo tiene un aspecto similar al siguiente:
     
     `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
 
-4.  Sustituya **webdir** en la dirección URL por **admin**. Quedará como a continuación:
+4.  Reemplace **webdir** en la dirección URL con **admin**, lo que dará como resultado lo siguiente:
     
     `https://admin0a.online.lync.com`
 
-5.  Anexe la cadena siguiente a la URL: **/MigraciónHospedada/ServicioDeMigraciónHospedada.svc**.
+5.  Anexe la cadena siguiente a la dirección URL: **/HostedMigration/hostedmigrationservice.SVC**.
     
-    La dirección URL resultante, que es el valor de **HostedMigrationOverrideUrl**, necesita ser como la siguiente:
+    La dirección URL resultante, que es el valor de **HostedMigrationOverrideUrl**, debe ser similar a la siguiente:
     
     `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
 

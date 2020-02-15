@@ -1,5 +1,5 @@
 ---
-title: 'Fase 2: Preparación de la migración'
+title: 'Fase 2: preparar la migración'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85db7e4aea8405bf1ec3f94e491c7007ae8b51ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: febd806e55e8e2d6234818ec45eefb33cc3ef708
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757704"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034330"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-2-prepare-for-migration"></a>Fase 2: Preparación de la migración
+# <a name="phase-2-prepare-for-migration"></a>Fase 2: preparar la migración
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41757704"
 
 _**Última modificación del tema:** 2012-09-17_
 
-Antes de empezar la migración a Lync Server 2013 desde Lync Server 2010, siga los pasos que se describen en esta sección.
+Antes de comenzar la migración a Lync Server 2013 desde Lync Server 2010, siga los pasos descritos en esta sección.
 
 <div>
 
@@ -45,13 +45,13 @@ Antes de empezar la migración a Lync Server 2013 desde Lync Server 2010, siga l
 
   - [Aplicar actualizaciones de Lync Server 2010](apply-lync-server-2010-updates.md)
 
-  - [Configurar registros DNS para una implementación de grupo de servidores piloto](configure-dns-records-for-pilot-pool-deployment.md)
+  - [Configurar registros DNS para la implementación del grupo piloto](configure-dns-records-for-pilot-pool-deployment.md)
 
-  - [Ejecutar el analizador de procedimientos recomendados](run-best-practices-analyzer.md)
+  - [Ejecución del Analizador de procedimientos recomendados](run-best-practices-analyzer.md)
 
   - [Copia de seguridad de los datos y sistemas](back-up-systems-and-data.md)
 
-  - [Configuración de los clientes para la migración](configure-clients-for-migration.md)
+  - [Configuración de clientes para la migración](configure-clients-for-migration.md)
 
   - [Comprobar el entorno de Lync Server 2010](verify-lync-server-2010-environment.md)
 

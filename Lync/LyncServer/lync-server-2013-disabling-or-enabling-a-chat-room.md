@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Habilitar o deshabilitar un salón de chat'
+title: 'Lync Server 2013: deshabilitar o habilitar un salón de chat'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706011
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3ed23319631dd8ab51131fe9a8d7a9099e35d18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55d9c706c0ea5afcff4f249a9c00a2355667f221
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757604"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007839"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="disabling-or-enabling-a-chat-room-in-lync-server-2013"></a>Habilitar o deshabilitar un salón de chat en Lync Server 2013
+# <a name="disabling-or-enabling-a-chat-room-in-lync-server-2013"></a>Deshabilitar o habilitar un salón de chat en Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41757604"
 
 _**Última modificación del tema:** 2014-02-05_
 
-Si el tema de un salón de chat persistente ya no es relevante, puede deshabilitarlo para hacer que el salón de chat no esté disponible para los usuarios. Cuando un salón de chat está deshabilitado, todos los miembros se desconectan inmediatamente del salón. Después de deshabilitar un salón de chat, los usuarios no pueden volver a unirse o encontrarlo en las búsquedas del salón de chat.
+Si el tema de un salón de chat persistente ya no es relevante, puede deshabilitarlo para que el salón de chat no esté disponible para los usuarios. Cuando se deshabilita una salón de chat, todos los miembros se desconectan inmediatamente del salón. Después de deshabilitar un salón de chat, los usuarios no pueden unirse a él o encontrarlo en las búsquedas de salones de chat.
 
-Un administrador de chat persistente puede habilitar más tarde un salón de chat desactivado. Si un salón de chat se encuentra deshabilitado, se conservan su lista de pertenencia y otras opciones de configuración. Si vuelve a habilitar el salón, no es necesario que vuelva a crear la configuración de forma manual.
+Un administrador de chat persistente puede habilitar más adelante un salón de chat deshabilitado. Si un salón de chat está deshabilitado, su lista de pertenencia y otras configuraciones se conservan. Si vuelve a habilitar el salón, necesitará volver a crear manualmente la configuración.
 
-Si el historial del salón de chat persiste (la persistencia del historial del salón de chat es una configuración opcional en una categoría que se aplica a todas las salas de la categoría; el valor predeterminado es persistir, pero se puede desactivar si se establece la opción **Habilitar historial de chat** en falso), el contenido se conserva cuando el salón de chat está deshabilitado. Pero, dicho contenido no aparecerá en las búsquedas mientras el salón de chat permanezca deshabilitado. Si vuelve a habilitar el salón de chat, los usuarios podrán buscar mensajes publicados antes de que se deshabilitara el salón de chat.
+Si el historial del salón de chat persiste (la persistencia del historial del salón de chat es una configuración opcional en una categoría que se aplica a todos los salones de la categoría; la persistencia es el valor predeterminado, pero puede desactivarse configurando la **habilitación del historial del chat** en falso), el contenido se conserva cuando se deshabilita el salón de chat. No obstante, ese contenido no aparecerá en las búsquedas durante el tiempo que el salón de chat permanezca deshabilitado. Si más tarde habilita el salón de chat, los usuarios pueden buscar mensajes que se publicaron antes de que lo deshabilitara.
 
-Para obtener detalles sobre cómo deshabilitar y habilitar salones de chat con la interfaz de línea de comandos de Windows PowerShell, consulte "administración de la sala" en [configurar el servidor de chat persistente mediante cmdlets de Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md). Para deshabilitar un salón de chat, use un comando similar a este:
+Para obtener información detallada acerca de la deshabilitación y habilitación de salones de chat mediante la interfaz de línea de comandos de Windows PowerShell, consulte "administración de salones" en [Configuring persistent chat Server by Using Windows PowerShell cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md). Para deshabilitar un salón de chat, usa un comando similar al siguiente:
 
     Set-CsPersistentChatRoom -Identity "atl-cs-001.litwareinc.com\ITChatRoom" -Disabled $True
 
-Para habilitar un salón de chat, establece la propiedad disabled en false:
+Para habilitar un salón de chat, establezca la propiedad disabled en false:
 
     Set-CsPersistentChatRoom -Identity "atl-cs-001.litwareinc.com\ITChatRoom" -Disabled $False
 
-Tenga en cuenta que los salones de chat no se pueden habilitar ni deshabilitar mediante el panel de control de Lync Server.
+Tenga en cuenta que los salones de chat no se pueden habilitar o deshabilitar mediante el panel de control de Lync Server.
 
-Para obtener más información sobre cómo configurar salones de chat, consulte [configurar salas en Lync Server 2013](lync-server-2013-configure-rooms.md) en la documentación de implementación.
+Para obtener más información sobre cómo configurar salones de chat, vea [Configure Rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) en la documentación sobre implementación.
 
 </div>
 

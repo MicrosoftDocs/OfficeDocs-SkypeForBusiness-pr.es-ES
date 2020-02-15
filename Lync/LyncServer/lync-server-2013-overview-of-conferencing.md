@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Información general sobre conferencias'
+title: 'Lync Server 2013: información general sobre las conferencias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184245
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43209ccc816e1c5d2c877aa0ac9089c81db4cd08
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc6702a1958dc9e2582cf3d59720f729dbdb5e54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755584"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034350"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-conferencing-in-lync-server-2013"></a>Información general sobre conferencias en Lync Server 2013
+# <a name="overview-of-conferencing-in-lync-server-2013"></a>Información general sobre las conferencias en Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41755584"
 
 _**Última modificación del tema:** 2012-09-30_
 
-Al implementar las conferencias, puede elegir entre habilitar y usar conferencias web y conferencias A/V, o simplemente conferencias web. La conferencia de acceso telefónico local es un subconjunto de la conferencia de audio y requiere configuración adicional.
+Cuando se implementan conferencias, puede optar por habilitar y usar conferencia web y conferencia A/V o, únicamente, conferencia web. La conferencia de acceso telefónico local es un subconjunto de la conferencia de audio y requiere configuración adicional.
 
-Con todas las formas de conferencia habilitadas, los usuarios pueden disfrutar del mejor entorno de conferencias posible con cualquier combinación de mensajería instantánea (mi), audio, vídeo, uso compartido de escritorio, presentaciones de diapositivas, uso compartido de datos adjuntos y aplicaciones para compartir. Las conferencias pueden ser programadas o no programadas, y los usuarios pueden agregar fácilmente formularios de comunicación a una conferencia mientras se produce. Por ejemplo, a partir de la mensajería instantánea, agregar colaboración de documentos y, a continuación, agregar voz o vídeo. También se pueden agregar nuevos participantes a las conferencias en curso en tiempo real.
+Con todas las formas de conferencia habilitadas, los usuarios pueden disfrutar del entorno de conferencia más completo posible, con cualquier combinación de mensajería instantánea, audio, vídeo, uso compartido de escritorio, presentaciones de diapositivas, datos adjuntos de uso compartido y aplicaciones de uso compartido. Las conferencias pueden ser programadas o no, y los usuarios pueden agregar fácilmente modos de comunicación a una conferencia mientras se produce (así, por ejemplo, pueden comenzar con mensajería instantánea, agregar colaboración en documentos y, luego, agregar voz o vídeo). También se pueden incorporar nuevos participantes a conferencias en curso en tiempo real.
 
-En los siguientes temas se ofrece información general sobre las características y capacidades específicas que proporcionan las conferencias web, las conferencias A/V y las conferencias de acceso telefónico local.
+En los siguientes temas se ofrece información general sobre las características y funciones específicas que proporcionan la conferencia web, la conferencia A/V y la conferencia de acceso telefónico local.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Conceptos de conferencias comunes en Lync Server 2013](lync-server-2013-common-conferencing-concepts.md)
+  - [Conceptos comunes de conferencia en Lync Server 2013](lync-server-2013-common-conferencing-concepts.md)
 
-  - [Información general sobre las conferencias web en Lync Server 2013](lync-server-2013-web-conferencing-overview.md)
+  - [Información general sobre conferencias web en Lync Server 2013](lync-server-2013-web-conferencing-overview.md)
 
-  - [Información general sobre las conferencias A/V en Lync Server 2013](lync-server-2013-a-v-conferencing-overview.md)
+  - [Información general sobre la conferencia A/V en Lync Server 2013](lync-server-2013-a-v-conferencing-overview.md)
 
   - [Información general sobre las conferencias de acceso telefónico local en Lync Server 2013](lync-server-2013-dial-in-conferencing-overview.md)
 

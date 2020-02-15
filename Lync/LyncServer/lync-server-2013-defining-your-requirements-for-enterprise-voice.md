@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Definición de los requisitos para la telefonía IP empresarial'
+title: 'Lync Server 2013: definición de los requisitos para la telefonía IP empresarial'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8987905d2b117eb889486882b7d74ce4e52659a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d88a70796282fe09941ce7632d8c13258defc515
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739940"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42032162"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41739940"
 
 _**Última modificación del tema:** 2012-08-07_
 
-En este tema se proporciona una descripción general de las consideraciones que debe tener en las regiones, los sitios y los vínculos entre los sitios de su topología y cómo son importantes cuando implementa la telefonía IP empresarial. Para obtener detalles que le ayuden a tomar estas decisiones, consulte [configuración de red para las características de telefonía avanzada empresarial de Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md) en la documentación de planeación.
+En este tema se proporciona una introducción a las consideraciones que se deben tener en cuenta sobre las regiones, los sitios y los vínculos entre los sitios de la topología y cómo son importantes cuando se implementa la telefonía IP empresarial. Para obtener detalles que le ayuden a tomar estas decisiones, consulte [configuración de red para las características avanzadas de telefonía IP empresarial en Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md) en la documentación referente a la planeación.
 
 <div>
 
 ## <a name="sites-and-regions"></a>Sitios y regiones
 
-En primer lugar, identifique los sitios de su topología en los que va a implementar Enterprise Voice y las regiones de red a las que pertenecen dichos sitios. En concreto, tenga en cuenta la forma en que se va a proporcionar conectividad de red telefónica conmutada (RTC) a cada sitio. Por motivos logísticos y de manejabilidad, las regiones a las que dichos sitios pertenecen pueden constituir un factor decisivo. Decidir dónde se implementarán las puertas de enlace de forma local, donde se implementarán los dispositivos de sucursal (SBAs) supervivientes, y donde puede configurar los troncos SIP (ya sea de forma local o en el sitio central) a un proveedor de servicios de telefonía por Internet (ITSP).
+En primer lugar, identifique los sitios de la topología en los que va a implementar la telefonía IP empresarial y las regiones de red a las que pertenecen dichos sitios. En concreto, tenga en cuenta la forma en que proporcionará conectividad de red telefónica conmutada (RTC) a cada sitio. Por motivos logísticos y de manejabilidad, las regiones a las que dichos sitios pertenecen pueden constituir un factor decisivo. Decida dónde se implementarán las puertas de enlace localmente, donde se implementarán las aplicaciones de sucursal con funciones de supervivencia (las) y dónde puede configurar los troncos SIP (ya sea localmente o en el sitio central) a un proveedor de servicios de telefonía por Internet (ITSP).
 
 </div>
 
@@ -51,7 +51,7 @@ En primer lugar, identifique los sitios de su topología en los que va a impleme
 
 ## <a name="network-links-between-sites"></a>Vínculos de red entre sitios
 
-También debe considerar el uso de ancho de banda que espera en los vínculos de red entre su sitio central y sus sitios de sucursales. Si tiene, o planea implementar, vínculos WAN resistentes entre sitios, le recomendamos que implemente una puerta de enlace en cada sitio de sucursal para proporcionar una terminación de marcado directo local (sí) para los usuarios de esos sitios. Si tiene vínculos WAN resistentes, pero es probable que el ancho de banda de un vínculo WAN esté restringido, configure el control de admisión de llamadas para ese vínculo. Si no tiene vínculos WAN resistentes, aloje menos de 1000 usuarios en el sitio de la sucursal y no dispone de administradores de Lync Server capacitados locales, le recomendamos que implemente una aplicación de mayor supervivencia en el sitio de la sucursal. Si se aloja entre usuarios de 1000 y 5000 en su sitio de sucursal, carece de una conexión WAN resistente y tiene disponibles administradores de Lync Server capacitados, le recomendamos que implemente un servidor de sucursal con una pequeña puerta de enlace en el sitio de la sucursal. También debe considerar habilitar la omisión de medios en vínculos restringidos si tiene una puerta de enlace del mismo nivel que admite la omisión de medios.
+También debe tener en cuenta el uso de ancho de banda que espera en los vínculos de red entre el sitio central y sus sitios de sucursal. Si tiene, o planea implementar, vínculos WAN resistentes entre sitios, le recomendamos que implemente una puerta de enlace en cada sitio de sucursal para proporcionar una terminación de marcado entrante directo local (DID) para los usuarios de dichos sitios. Si tiene vínculos WAN resistentes, pero es probable que el ancho de banda de un vínculo WAN esté restringido, configure el control de admisión de llamadas para ese vínculo. Si no tiene vínculos WAN resistentes, aloje menos de 1000 usuarios en el sitio de sucursal y no tiene administradores de Lync Server entrenados locales, le recomendamos que implemente una aplicación de sucursal con funciones de supervivencia en el sitio de sucursal. Si hospeda entre 1000 y 5000 usuarios en el sitio de sucursal, carecen de una conexión WAN resistente y tienen disponibles administradores de Lync Server entrenados, le recomendamos que implemente un servidor de sucursal con funciones de supervivencia con una puerta de enlace pequeña en el sitio de sucursal. También debe considerar la posibilidad de habilitar la omisión de medios en vínculos restringidos si tiene una puerta de enlace del mismo nivel que admite la omisión de medios.
 
 </div>
 
@@ -60,7 +60,7 @@ También debe considerar el uso de ancho de banda que espera en los vínculos de
 ## <a name="see-also"></a>Vea también
 
 
-[Network settings for the advanced Enterprise Voice features in Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)  
+[Configuración de red para las características avanzadas de telefonía IP empresarial en Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)  
   
 
 </div>

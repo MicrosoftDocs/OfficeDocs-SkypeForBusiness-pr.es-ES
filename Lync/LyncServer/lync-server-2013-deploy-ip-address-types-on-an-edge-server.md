@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Implementar tipos de dirección IP en un servidor perimetral'
+title: 'Lync Server 2013: implementar tipos de direcciones IP en un servidor perimetral'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ece4b55f42958916876539f05b951e862e0d493f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fd057c79132200dbe5be8ee2551a711d8fb8e95c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729670"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036922"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-ip-address-types-on-an-edge-server-for-lync-server-2013"></a>Implementar tipos de dirección IP en un servidor perimetral para Lync Server 2013
+# <a name="deploy-ip-address-types-on-an-edge-server-for-lync-server-2013"></a>Implementar tipos de direcciones IP en un servidor perimetral para Lync Server 2013
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41729670"
 
 _**Última modificación del tema:** 2012-06-14_
 
-Con el generador de topologías, siga los pasos que se indican en el siguiente procedimiento para implementar tipos de direcciones IP en un servidor perimetral.
+Mediante el generador de topologías, lleve a cabo los pasos del siguiente procedimiento para implementar tipos de direcciones IP en un servidor perimetral.
 
 <div>
 
 ## <a name="to-deploy-ip-address-types-on-an-edge-server"></a>Para implementar tipos de direcciones IP en un servidor perimetral
 
-1.  En el generador de topologías, en **grupos de límites**, haga clic con el botón secundario en el servidor dentro de un grupo y seleccione **Editar propiedades**. (También puede seleccionar el servidor y, a continuación, hacer clic en **Editar propiedades** en el menú **acción** ).
+1.  En el generador de topologías, en grupos de servidores **perimetrales**, haga clic con el botón secundario en el servidor dentro de un grupo y, después, seleccione **Editar propiedades**. (También puede seleccionar el servidor y hacer clic en **Editar propiedades** en el menú **Acción**).
 
-2.  En la ventana **Editar propiedades**, seleccione la configuración de dirección IP que quiera admitir. En las siguientes figuras se muestra una configuración de pila dual para la interfaz interna y la interfaz externa.
+2.  En la ventana **Editar propiedades**, seleccione la configuración de dirección IP que quiera admitir. En las siguientes figuras se muestra una configuración de pila dual para la interfaz interna y la interfaz externa.
     
-    **Interfaz interna del servidor perimetral de pila dual**
+    **Interfaz interna del servidor perimetral**
     
     ![Página de propiedades generales de Lync Server](images/JJ204984.5b0883ee-b9f2-4a21-91a9-3286d0beb63b(OCS.15).png "Página de propiedades generales de Lync Server")
     
-    **Interfaz externa del servidor perimetral de pila dual**
+    **Interfaz de servidor perimetral externo interfaz de pila dual**
     
-    ![Página de siguiente salto/configuración externa de Lync Server](images/JJ204984.2aa00ce2-ba50-40aa-bbf1-78636016daf9(OCS.15).png "Página de siguiente salto/configuración externa de Lync Server")
+    ![Página de configuración externa y próximo salto de Lync Server](images/JJ204984.2aa00ce2-ba50-40aa-bbf1-78636016daf9(OCS.15).png "Página de configuración externa y próximo salto de Lync Server")
 
-3.  Es preciso proporcionar las direcciones internas y externas apropiadas para cada tipo de dirección que seleccione.
+3.  Debe proporcionar las direcciones internas y externas apropiadas para cada tipo de dirección que seleccione.
 
 </div>
 

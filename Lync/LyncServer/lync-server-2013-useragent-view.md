@@ -12,16 +12,16 @@ ms:contentKeyID: 49733795
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 828e81d028fb476362a91c4fa0ab83c5e2c34c20
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7b82d8a03f159aa1c99d53dd06a0811847f77b12
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744420"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007619"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41744420"
 
 _**Última modificación del tema:** 2012-10-03_
 
-La vista UserAgent almacena información sobre los agentes de usuario implicados en las sesiones que tienen registros en la base de datos. Esta vista se presentó en Microsoft Lync Server 2013.
+La vista UserAgent almacena información sobre los agentes de usuario que han participado en las sesiones que tienen registros en la base de datos. Esta vista se introdujo en Microsoft Lync Server 2013.
 
 
 <table>
@@ -61,18 +61,18 @@ La vista UserAgent almacena información sobre los agentes de usuario implicados
 </tr>
 <tr class="even">
 <td><p>UserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Cadena de agente de usuario.</p></td>
 </tr>
 <tr class="odd">
 <td><p>UAType</p></td>
 <td><p>smallint</p></td>
-<td><p>Tipo de agente de usuario. Para obtener más información, vea la <a href="lync-server-2013-useragent-table.md">tabla UserAgent en Lync Server 2013</a> .</p></td>
+<td><p>Tipo de agente de usuario. Consulte la <a href="lync-server-2013-useragent-table.md">tabla UserAgent en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p>UACategory</p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Categoría a la que pertenece el agente de usuario. Por ejemplo, el agente de usuario Conferencing_Attendant_1,0 pertenece a la CAA de UACategory.</p></td>
+<td><p>Categoría a la que pertenece el agente de usuario. Por ejemplo, el agente de usuario Conferencing_Attendant_1.0 pertenece a la UACategory CAA.</p></td>
 </tr>
 </tbody>
 </table>

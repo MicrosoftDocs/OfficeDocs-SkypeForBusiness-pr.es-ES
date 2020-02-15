@@ -12,16 +12,16 @@ ms:contentKeyID: 48184386
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d519b647eae4937af10a38673803484a253baef7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d8ba2330e59d4f352407d94c6e73f96a5fff816
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742190"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006166"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -41,17 +41,17 @@ _**Última modificación del tema:** 2017-09-20_
 
 
 > [!NOTE]  
-> La referencia del cmdlet de Skype empresarial se ha movido a docs.microsoft.com. Al hacer clic en los vínculos siguientes te llevará a la nueva página de docs.microsoft.com. El contenido ahora está abierto y disponible para las contribuciones de la comunidad a través de GitHub. ¿Está interesado en colaborar? Consulte el archivo Léame en el repositorio aquí:<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> La referencia del cmdlet de Skype empresarial se ha movido a docs.microsoft.com. Al hacer clic en los siguientes vínculos, se le llevará a la nueva página de docs.microsoft.com. El contenido se encuentra ahora abierto y disponible para contribuciones de la comunidad a través de GitHub. ¿Está interesado en colaborar? Consulte el archivo Léame en el repositorio aquí:<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 
 </div>
 
-Microsoft Lync Server 2010 presentó un gran conjunto de características nuevas y mejoradas en comparación con lo que estaba disponible en Microsoft Office Communications Server 2007 R2. Una mejora es la manera en la que administra su implementación. Por ejemplo, hay una nueva interfaz de usuario, llamada panel de control de Lync Server, que representa un gran turno desde donde se usan la mayoría de los usuarios con Microsoft Management Console. La otra mejora importante de la capacidad de administración es la inclusión de Windows PowerShell.
+Microsoft Lync Server 2010 introdujo un gran conjunto de características nuevas y mejoradas en comparación con lo que estaba disponible en Microsoft Office Communications Server 2007 R2. Una de las mejoras es la manera de administrar la implementación. Por ejemplo, hay una nueva interfaz de usuario, denominada panel de control de Lync Server, que representa un gran cambio de lo que la mayoría de las personas se usan con Microsoft Management Console. La otra mejora importante de la administración es la inclusión de Windows PowerShell.
 
-Windows PowerShell le permite administrar aplicaciones de Microsoft desde la línea de comandos. Incluye un entorno de línea de comandos, comandos específicos del producto y un lenguaje de scripting completo. Windows PowerShell se presentó por primera vez como una versión descargable para el sistema operativo Windows en 2006, y se incorporó como la interfaz de línea de comandos para la capacidad de administración de Microsoft Exchange Server 2007. A partir de ese punto, continuará creciendo y se ha incorporado a la mayoría de los productos de servidor de Microsoft, el más reciente de ellos es Microsoft Lync Server 2013. Lync Server 2010 ha introducido cmdlets específicos de producto de 550 que puede usar para administrar todos los aspectos de su implementación.
+Windows PowerShell le permite administrar las aplicaciones de Microsoft desde la línea de comandos. Incluye un entorno de línea de comandos, comandos específicos de producto y un lenguaje de scripting completo. Windows PowerShell se introdujo por primera vez como una versión descargable para el sistema operativo Windows más tarde en 2006 y se incorporó como la interfaz de línea de comandos para la administración de Microsoft Exchange Server 2007. A partir de ese punto, continuó creciendo y se ha incorporado a la mayoría de los productos de servidor de Microsoft, la más reciente es Microsoft Lync Server 2013. Lync Server 2010 presentaba cerca de 550 cmdlets específicos del producto que puede usar para administrar todos los aspectos de la implementación.
 
-Las secciones siguientes contienen una lista de los cmdlets y sus descripciones. Esta información también se encuentra disponible directamente en la línea de comandos. Simplemente escriba lo siguiente en el símbolo del sistema del shell de administración de Lync Server:
+Las secciones siguientes contienen una lista de cmdlets y sus descripciones. Esta información también está disponible directamente desde la línea de comandos. Basta con escribir lo siguiente en el símbolo del sistema del shell de administración de Lync Server:
 
     Get-Help <cmdlet name> -Full
 
@@ -59,7 +59,7 @@ Por ejemplo, para obtener ayuda en el símbolo del sistema sobre el cmdlet **New
 
     Get-Help New-CsVoicePolicy -Full
 
-Cosas que debe saber sobre Windows PowerShell en Lync Server 2013:
+Aspectos que debe conocer sobre Windows PowerShell en Lync Server 2013:
 
   - Para ejecutar los cmdlets de Lync Server, abra el shell de administración de Lync Server.
     
@@ -67,14 +67,14 @@ Cosas que debe saber sobre Windows PowerShell en Lync Server 2013:
     
 
     > [!WARNING]  
-    > Si abre una ventana de Windows PowerShell en lugar del shell de administración de Lync Server, de forma predeterminada, no podrá ejecutar los cmdlets de Lync Server. Para ejecutar los cmdlets de Lync Server desde Windows PowerShell, en primer lugar escriba lo siguiente en el símbolo del sistema de Windows PowerShell:<BR>Importación: módulo de Lync
+    > Si abre una ventana de Windows PowerShell en lugar del shell de administración de Lync Server, de forma predeterminada, no podrá ejecutar los cmdlets de Lync Server. Para ejecutar los cmdlets de Lync Server desde dentro de Windows PowerShell, primero escriba lo siguiente en el símbolo del sistema de Windows PowerShell:<BR>Import-Module Lync
 
     
     </div>
 
-  - El shell de administración de Lync Server se instala automáticamente en todos los servidores front-end de Lync Server Enterprise Edition o en el servidor Standard Edition.
+  - El shell de administración de Lync Server se instala automáticamente en cada servidor front-end de Lync Server Enterprise Edition o servidor Standard Edition.
 
-  - La información nueva y actualizada, los scripts de ejemplo y la ayuda para comenzar y aprender más acerca de los cmdlets de Windows PowerShell y Microsoft Lync Server 2013 está disponible en [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)el blog de Windows PowerShell de Lync Server.
+  - La información nueva y actualizada, los scripts de ejemplo y la ayuda para empezar y aprender más acerca de Windows PowerShell y los cmdlets de 2013 de Microsoft Lync Server están disponibles [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)en el blog de Lync Server Windows PowerShell.
 
 </div>
 

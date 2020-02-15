@@ -1,5 +1,5 @@
 ---
-title: Configurar servidor de mediación
+title: Configurar el servidor de mediación
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb9b2c7cf8da1d454f310a8ac999dddbc7d34f68
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 389c6e5c017594bf386109541a379bd5ae2f7e01
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728170"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006656"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-mediation-server"></a>Configurar servidor de mediación
+# <a name="configure-mediation-server"></a>Configurar el servidor de mediación
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41728170"
 
 _**Última modificación del tema:** 2012-09-28_
 
-Este procedimiento detalla los pasos para configurar el grupo de servidores de Lync 2013 para que usen el servidor de mediación de Lync Server 2013, en lugar del servidor de mediación de Office Communications Server 2007 R2 heredado.
+En este procedimiento se detallan los pasos para configurar el grupo de servidores de Lync Server 2013 para usar el servidor de mediación de Lync Server 2013, en lugar del servidor de mediación de Office Communications Server 2007 R2 heredado.
 
-Para publicar, habilitar o deshabilitar correctamente una topología al agregar o quitar un rol de servidor, debe haber iniciado sesión como un usuario que sea miembro de los grupos administradores de dominio y RTCUniversalServerAdmins. También es posible delegar los derechos y permisos de administrador adecuados para agregar roles de servidor. Para obtener más información, consulte permisos de configuración de delegación en la documentación de implementación de servidor Standard Edition o Enterprise Edition. Para otros cambios de configuración, solo es necesario pertenecer al grupo RTCUniversalServerAdmins.
+Para publicar, habilitar o deshabilitar correctamente una topología al agregar o quitar un rol de servidor, es necesario haber iniciado sesión como usuario miembro de los grupos Admins del dominio y RTCUniversalServerAdmins. También es posible delegar los derechos y permisos de administrador adecuados para agregar roles de servidor. Para obtener información detallada, consulte Delegate Setup Permissions en la documentación referente a la implementación de servidores Standard Edition o Enterprise Edition. Para realizar otros cambios de configuración, solo se requiere pertenecer al grupo RTCUniversalServerAdmins.
 
 <div>
 
 
 > [!NOTE]  
-> Para obtener la información más reciente sobre la búsqueda de puertas de enlace RTC calificadas, IP-PBX y los servicios de Troncalización SIP que funcionan con Lync Server 2013, consulte "programa de <A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>interoperabilidad abierto de comunicaciones unificadas de Microsoft" en.
+> Para obtener la información más reciente sobre cómo buscar puertas de enlace RTC cualificadas, IP-PBX y servicios de enlace troncal SIP que funcionen con Lync Server 2013, consulte "Microsoft Unified Communications <A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>Open Interoperability Program" en.
 
 
 
@@ -53,41 +53,41 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
 
 <div>
 
-## <a name="to-configure-mediation-server-using-topology-builder"></a>Para configurar el servidor de mediación con el generador de topología
+## <a name="to-configure-mediation-server-using-topology-builder"></a>Para configurar el servidor de mediación mediante el generador de topologías
 
-1.  Abra una topología existente desde el generador de topología.
+1.  Abre una topología existente del Generador de topologías.
 
-2.  En el panel de la izquierda, vaya a **puertas de enlace RTC**.
+2.  En el panel de la izquierda, navegue a **Puertas de enlace RTC**.
 
-3.  Haga clic con el botón secundario en **puertas de enlace RTC**y luego haga clic en **nueva puerta de enlace IP/PSTN**.
+3.  Haga clic con el botón secundario en **Puertas de enlace RTC ** y, a continuación, haga clic en **Nueva puerta de enlace IP/RTC **.
 
-4.  Complete la página **definir nueva puerta de enlace IP/RTC** con la siguiente información:
+4.  Complete la página **Definir nueva puerta de enlace IP/RTC ** con la siguiente información:
     
-      - Escriba la dirección IP o el FQDN de la puerta de enlace. El FQDN de la puerta de enlace es obligatorio si la puerta de enlace usa el protocolo TLS.
+      - Indique el FQDN de puerta de enlace o la dirección IP. El FQDN de la puerta de enlace es obligatorio si la puerta de enlace utiliza el protocolo TLS.
     
-      - Acepte el valor predeterminado del **Puerto de escucha para la puerta de enlace IP/PSTN** o introduzca el nuevo puerto de escucha si se modificó.
+      - Acepte el valor predeterminado de la opción **Puerto de escucha para la puerta de enlace IP/RTC** o, si se ha modificado, especifique el nuevo puerto de escucha.
     
-      - Configurar el **Protocolo de transporte SIP**.
+      - Establezca el **	Protocolo de transporte SIP**.
 
-5.  En el panel de la izquierda, navegue hasta el **grupo de servidores front-end Enterprise Edition** o el **servidor Standard Edition**.
+5.  En el panel de la izquierda, navegue al **grupo de servidores front-end Enterprise Edition** o al **servidor Standard Edition**.
 
-6.  Haga clic con el botón secundario en el grupo y luego haga clic en **Editar propiedades**.
+6.  Haga clic con el botón secundario en el grupo y, a continuación, haga clic en **Editar propiedades**.
 
-7.  En **servidor de mediación**, configure los **puertos de escucha**.
+7.  En **Servidor de mediación**, defina los **Puertos de escucha**.
 
-8.  A continuación, para asociar la puerta de enlace RTC recién creada, selecciónela y haga clic en **Agregar**.
+8.  A continuación, asocie la puerta de enlace RTC recién creada seleccionándola y haciendo clic en **Agregar**.
 
-9.  En el **generador de topologías**, seleccione el nodo de nivel superior de **Lync Server**.
+9.  En el **Generador de topologías**, seleccione el primer nodo **Lync Server**.
 
-10. En el menú **acción** , seleccione **publicar topología** y, a continuación, haga clic en **siguiente**.
+10. En el menú **Acción**, seleccione **Publicar topología** y, a continuación, haga clic en **Siguiente**.
 
-11. Cuando finalice el Asistente para la **publicación** , haga clic en **Finalizar** para cerrar el asistente.
+11. Cuando el **Asistente para publicación** haya finalizado, haga clic en **Finalizar** para cerrar el asistente.
 
 <div>
 
 
 > [!NOTE]  
-> Es importante que complete el siguiente tema, cambie las <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">rutas de voz para usar el nuevo servidor de mediación de Lync server 2013</A> para asegurarse de que las rutas de voz apuntan al servidor de mediación correcto.
+> Es importante que complete el siguiente tema, cambie las <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">rutas de voz para usar el nuevo servidor de mediación de Lync Server 2013</A> para asegurarse de que las rutas de voz señalen al servidor de mediación correcto.
 
 
 

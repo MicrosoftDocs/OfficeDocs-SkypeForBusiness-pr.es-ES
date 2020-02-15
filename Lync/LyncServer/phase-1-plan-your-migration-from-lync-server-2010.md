@@ -12,16 +12,16 @@ ms:contentKeyID: 48183480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e413bef2271a7b01487536ed44f475eac60dd0c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b8fbb2256f008106b868c8d570c9fec3f138e37d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743650"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034450"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,23 +37,23 @@ ms.locfileid: "41743650"
 
 _**Última modificación del tema:** 2012-09-29_
 
-En esta sección se tratan los temas de planeación de la migración de Lync Server 2010 a Lync Server 2013.
+En esta sección se describen los temas de planeación para migrar desde Lync Server 2010 a Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Migración de usuario](user-migration.md)
+  - [Migración de usuarios](user-migration.md)
 
-  - [Migrar servidores de archivado y supervisión](migrating-archiving-and-monitoring-servers.md)
+  - [Migración de servidores de archivado y supervisión](migrating-archiving-and-monitoring-servers.md)
 
-  - [Migrar servidores de chats grupales](migrating-group-chat-servers.md)
+  - [Migrar servidores de chat en grupo](migrating-group-chat-servers.md)
 
-  - [Administrar los servidores tras la migración](administering-servers-after-migration.md)
+  - [Administración de servidores tras la migración](administering-servers-after-migration.md)
 
-  - [Migrar múltiples sitios y grupos de servidores](migrating-multiple-sites-and-pools.md)
+  - [Migrar varios sitios y grupos de servidores](migrating-multiple-sites-and-pools.md)
 
-  - [Migrar la federación XMPP](migrating-xmpp-federation.md)
+  - [Migración de la Federación XMPP](migrating-xmpp-federation.md)
 
 </div>
 

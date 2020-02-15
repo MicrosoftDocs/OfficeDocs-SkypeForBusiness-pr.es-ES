@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Editar o configurar direcciones URL sencillas'
+title: 'Lync Server 2013: editar o configurar direcciones URL sencillas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fe6ae7197e2f47c590384547c34dd4b1db50950
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f0c36c632e2a2ee33568bd44dd57ec7fc7451343
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739540"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034030"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41739540"
 
 _**Última modificación del tema:** 2014-02-04_
 
-Este procedimiento no requiere la pertenencia a un grupo de dominio de administrador o de privilegios local. Debe iniciar sesión en un equipo como usuario estándar.
+Este procedimiento no requiere pertenencia al grupo de dominio con privilegios o de administrador local. Deberá iniciar sesión en un equipo como usuario estándar.
 
-Lync Server 2013 usa direcciones URL simples para dirigir llamadas internas y externas a servicios en el servidor front-end o en el director, si se ha implementado una. Para obtener más información acerca de las direcciones URL simples, consulte [planificación de direcciones URL simples en Lync Server 2013](lync-server-2013-planning-for-simple-urls.md) en la documentación de planeación. Puede seleccionar el formato de las direcciones URL simples de varias opciones. Para obtener más información sobre estas opciones, consulte [requisitos de DNS para obtener direcciones URL simples en Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md) en la documentación de planeación.
+Lync Server 2013 usa direcciones URL sencillas para dirigir llamadas internas y externas a los servicios del servidor front-end o del Director, si se ha implementado una. Para obtener más información acerca de las direcciones URL sencillas, consulte [Planning for simple URLs in Lync Server 2013](lync-server-2013-planning-for-simple-urls.md) en la documentación referente a la planeación. Puede seleccionar el formato de las direcciones URL sencillas desde varias opciones. Para obtener más información sobre estas opciones, consulte [DNS Requirements for simple URLs in Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md) en la documentación referente a la planeación.
 
-De forma predeterminada, las direcciones URL simples se configurarán con el formato (por ejemplo, la dirección URL de acceso https://dialin.\<SIP telefónico simple): dominio\>
+De forma predeterminada, las direcciones URL sencillas se configurarán con el formato (por ejemplo, la dirección URL sencilla de https://dialin.\<SIP acceso telefónico): dominio\>
 
 <div>
 
-## <a name="to-configure-simple-urls"></a>Para configurar direcciones URL simples
+## <a name="to-configure-simple-urls"></a>Para configurar direcciones URL sencillas
 
-1.  En el generador de topología, haga clic con el botón secundario en el nodo de **Lync Server** y luego haga clic en **Editar propiedades**.
+1.  En el generador de topologías, haga clic con el botón secundario en el nodo **Lync Server** y luego haga clic en **Editar propiedades**.
 
-2.  En el panel **Direcciones URL sencillas**, seleccione **Direcciones URL de acceso telefónico:** (marcado) o **Direcciones URL de reunión:** (reunión) para editarlas. Luego, haga clic en **Editar dirección URL**.
+2.  En el panel **direcciones URL simples** , seleccione **direcciones URL de acceso telefónico:** (acceso telefónico) o **direcciones URL de reunión:** (reunirse) para editar y, a continuación, haga clic en **Editar dirección URL**.
 
-3.  Actualice la dirección URL con el valor que quiera y haga clic en **Aceptar** para guardar la dirección URL modificada. El ejemplo que se muestra aquí ha modificado la dirección URL de https://pool01.contoso.net/dialinacceso telefónico.
+3.  Actualice la dirección URL al valor deseado y haga clic en **Aceptar** para guardar la dirección URL modificada. El ejemplo que se muestra aquí ha modificado la dirección URL de https://pool01.contoso.net/dialinacceso telefónico a.
 
 4.  Edite la dirección URL de reunión realizando los mismos pasos, si es necesario.
 
@@ -61,15 +61,15 @@ De forma predeterminada, las direcciones URL simples se configurarán con el for
 
 ## <a name="to-define-the-optional-admin-simple-url"></a>Para definir la dirección URL sencilla de administración opcional
 
-1.  En el generador de topología, haga clic con el botón secundario en el nodo de **Lync Server** y luego haga clic en **Editar propiedades**.
+1.  En el generador de topologías, haga clic con el botón secundario en el nodo **Lync Server** y luego haga clic en **Editar propiedades**.
 
-2.  En el cuadro **dirección URL de acceso administrativo** , escriba la dirección URL simple que desee para el acceso administrativo al panel de control de Lync Server 2013 y, a continuación, haga clic en **Aceptar**.
+2.  En el cuadro **dirección URL de acceso administrativo** , escriba la dirección URL sencilla que desee para el acceso administrativo al panel de control de Lync Server 2013 y, a continuación, haga clic en **Aceptar**.
     
     <div>
     
 
     > [!TIP]  
-    > Recomendamos usar la dirección URL más simple posible como dirección URL sencilla de administración. La opción más sencilla es <STRONG> https://admin.</STRONG> &lt;dominio&gt;.
+    > Recomendamos usar la dirección URL más simple posible para la dirección URL de administración. La opción más sencilla es <STRONG> https://admin.</STRONG> &lt;dominio&gt;.
 
     
     </div>
@@ -78,7 +78,7 @@ De forma predeterminada, las direcciones URL simples se configurarán con el for
     
 
     > [!IMPORTANT]  
-    > Si modifica una dirección URL sencilla después de la implementación inicial, necesita saber qué cambios influyen en los certificados y registros del Sistema de nombres de dominio (DNS) relativos a las direcciones URL sencillas. Si el cambio afecta a la base de una dirección URL simple, debe cambiar también los certificados y los registros DNS. Por ejemplo, si cambia https://lync.contoso.com/Meet de https://meet.contoso.com para cambia la dirección URL base de Lync.contoso.com a meet.contoso.com, tendrá que cambiar los registros DNS y los certificados para hacer referencia a meet.contoso.com. Si cambió la dirección URL simple de https://lync.contoso.com/Meet a https://lync.contoso.com/Meetings, la dirección URL base de Lync.contoso.com permanece igual, por lo que no es necesario realizar cambios en el certificado o DNS. Sin embargo, siempre que cambie un nombre de dirección URL simple, debe ejecutar el cmdlet <STRONG>enable-CsComputer</STRONG> en cada director y en el servidor front-end para registrar el cambio.
+    > Si cambia una dirección URL sencilla tras la implementación inicial, deberá conocer qué cambios afectan a los certificados y los registros de su sistema de nombres de dominio (DNS) para direcciones de URL sencillas. Si el cambio afecta a la base de una dirección URL sencilla, deberá modificar también los certificados y registros DNS. Por ejemplo, si se https://lync.contoso.com/Meet cambia https://meet.contoso.com de para cambia la dirección URL base de Lync.contoso.com a meet.contoso.com, es necesario cambiar los registros DNS y los certificados para hacer referencia a meet.contoso.com. Si ha cambiado la dirección URL sencilla https://lync.contoso.com/Meet de https://lync.contoso.com/Meetingsa, la dirección URL base de Lync.contoso.com permanece igual, por lo que no es necesario ningún cambio de certificado o DNS. Sin embargo, cada vez que cambie un nombre de dirección URL simple, debe ejecutar el cmdlet <STRONG>enable-CsComputer</STRONG> en cada director y en el servidor front-end para registrar el cambio.
 
     
     </div>
@@ -90,7 +90,7 @@ De forma predeterminada, las direcciones URL simples se configurarán con el for
 ## <a name="see-also"></a>Vea también
 
 
-[Planeación de las direcciones URL simples en Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)  
+[Planeación de direcciones URL sencillas en Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: prueba de llamadas telefónicas RTC'
+title: 'Lync Server 2013: prueba de llamadas de teléfono RTC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969656
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8095b4b0bb6aa4e6920d291c3fde3885ae6bfb03
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4092f728cc691ab73432d7ca853f6441728b5713
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745590"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036268"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-phone-call-in-lync-server-2013"></a>Prueba de llamadas telefónicas RTC en Lync Server 2013
+# <a name="testing-pstn-phone-call-in-lync-server-2013"></a>Prueba de llamadas de teléfono RTC en Lync Server 2013
 
 </div>
 
@@ -45,8 +45,8 @@ _**Última modificación del tema:** 2014-06-05_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Programación de verificación</p></td>
-<td><p>Cada día</p></td>
+<td><p>Programación de comprobación</p></td>
+<td><p>Diario</p></td>
 </tr>
 <tr class="even">
 <td><p>Herramienta de prueba</p></td>
@@ -54,8 +54,8 @@ _**Última modificación del tema:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
-<td><p>Al ejecutarse de forma local con el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol de RBAC que tenga permiso para ejecutar el cmdlet test-CsRegistration. Para ver una lista de todos los roles de RBAC que pueden usar este cmdlet, ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:</p>
+<td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsRegistration. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPstnOutboundCall&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +66,9 @@ _**Última modificación del tema:** 2014-06-05_
 
 ## <a name="description"></a>Descripción
 
-El cmdlet test-CsPstnOutboundCall prueba la capacidad de un usuario de hacer una llamada a un número de teléfono ubicado en la RTC. Al ejecutar test-CsPstnOutboundCall, el cmdlet primero intenta registrar el usuario de prueba en Lync Server. Si el inicio de sesión se realiza correctamente, el cmdlet intentará realizar una llamada telefónica en la puerta de enlace PSTN. Esta llamada telefónica se realizará con el plan de marcado, la Directiva de voz y otras directivas y parámetros asignados a la cuenta de prueba. Cuando se responde a la llamada, el cmdlet envía códigos de multifrecuencia de doble tono (DTMF) a través de la red para comprobar la conectividad de los medios.
+El cmdlet test-CsPstnOutboundCall comprueba la capacidad de un usuario de realizar una llamada a un número de teléfono ubicado en la RTC. Al ejecutar test-CsPstnOutboundCall, el cmdlet intenta iniciar sesión en Lync Server en el primer lugar del usuario. Si el inicio de sesión se realiza correctamente, el cmdlet intentará realizar una llamada telefónica en la puerta de enlace RTC. Esta llamada telefónica se realizará mediante el plan de marcado, la Directiva de voz y otras directivas y configuraciones asignadas a la cuenta de prueba. Cuando se responde a la llamada, el cmdlet envía códigos de tono de marcado de frecuencia múltiple (DTMF) a través de la red para comprobar la conectividad de los medios.
 
-Al realizar su prueba, test-CsPstnOutboundCall hará una llamada real: el teléfono de destino sonará y debe responderse para que la prueba se realice correctamente. Esta llamada también debe ser finalizada manualmente por el administrador.
+Al realizar su prueba, test-CsPstnOutboundCall realizará una llamada de teléfono real: el teléfono de destino sonará y debe responderse para que la prueba se realice correctamente. El administrador también debe finalizar manualmente esta llamada.
 
 </div>
 
@@ -76,11 +76,11 @@ Al realizar su prueba, test-CsPstnOutboundCall hará una llamada real: el teléf
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-El cmdlet test-CsPstnOutboundCall se puede ejecutar mediante una cuenta de prueba preconfigurada (consulte Configurar cuentas de prueba para ejecutar pruebas de Lync Server) o la cuenta de cualquier usuario que esté habilitado para Lync Server. Para ejecutar esta comprobación mediante una cuenta de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando y el número de teléfono RTC al que se llama. Por ejemplo:
+El cmdlet test-CsPstnOutboundCall se puede ejecutar con una cuenta de prueba preconfigurada (consulte la configuración de las cuentas de prueba para ejecutar pruebas de Lync Server) o en la cuenta de cualquier usuario que esté habilitado para Lync Server. Para ejecutar esta comprobación con una cuenta de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando y el número de teléfono RTC al que se llama. Por ejemplo:
 
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219"
 
-Para ejecutar esta comprobación mediante una cuenta de usuario real, primero debe crear un objeto de credenciales de Windows PowerShell que contenga el nombre de la cuenta y la contraseña. Después debes incluir ese objeto de credenciales y la dirección SIP asignada a la cuenta al llamar a test-CsPstnOutboundCall:
+Para ejecutar esta comprobación con una cuenta de usuario real, primero debe crear un objeto de credenciales de Windows PowerShell que contenga el nombre y la contraseña de la cuenta. A continuación, debe incluir ese objeto Credentials y la dirección SIP asignada a la cuenta al llamar a test-CsPstnOutboundCall:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
@@ -91,21 +91,21 @@ Para obtener más información, consulte la documentación de ayuda del cmdlet [
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Determinar el éxito o el fracaso
+## <a name="determining-success-or-failure"></a>Determinar si se ha realizado correctamente o erróneo
 
-Si el usuario especificado puede realizar la llamada y se responde a la llamada, recibirá una salida similar a la siguiente y la propiedad result se marcará como **correcta:**
+Si el usuario especificado puede realizar la llamada y si se responde a la llamada, recibirá una salida similar a la siguiente, con la propiedad result marcada como **correcta:**
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
-Resultado: éxito
+Resultado: correcto
 
 Latencia: 00:00:06.8630376
 
-:
+Error
 
 Diagnóstico
 
-Si el usuario especificado no puede hacer la llamada o si la llamada no es contestada, el resultado se mostrará como error y la información adicional se registrará en las propiedades de error y diagnóstico:
+Si el usuario especificado no puede realizar la llamada o si no se responde a la llamada, el resultado se mostrará como error y se registrará información adicional en las propiedades error y diagnosis:
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -117,29 +117,29 @@ Error: 403, prohibido
 
 Diagnosis: ErrorCode = 12001, Source = ATL-CS-001. litwareinc. com, Reason = User
 
-La Directiva no contiene uso de la ruta telefónica
+La Directiva no contiene uso de ruta telefónica
 
-El resultado anterior indica que no se pudo realizar la prueba porque la Directiva de voz asignada al usuario especificado no incluye un uso de teléfono. (Las directivas de voz se asocian con las directivas de voz. Sin una directiva de voz y una ruta de voz correspondiente, no puede hacer llamadas a través de la RTC.
+La salida anterior indica que la prueba produjo un error porque la Directiva de voz asignada al usuario especificado no incluye un uso de teléfono. (Los usos de teléfono unen las directivas de voz a las rutas de voz. Sin una directiva de voz y una ruta de voz correspondiente, no se pueden realizar llamadas a través de la RTC.
 
-Si prueba-CsPstnOutboundCall da error, es posible que desee volver a ejecutar la prueba, esta vez incluido el parámetro detallado:
+Si test-CsPstnOutboundCall produce un error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
 
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219" -Verbose
 
-Cuando se incluye el parámetro detallado, test-CsPstnOutboundCall devolverá una cuenta paso a paso de cada acción que se probó cuando se comprobó la capacidad del usuario especificado para iniciar sesión en Lync Server. Por ejemplo, esta salida indica que hay problemas de red que impiden una conexión con la RTC:
+Cuando se incluye el parámetro verbose, test-CsPstnOutboundCall devolverá una cuenta paso a paso de cada acción que se intentó realizar cuando se comprobó la capacidad del usuario especificado para iniciar sesión en Lync Server. Por ejemplo, este resultado indica que hay problemas de red que impiden la conexión con la RTC:
 
-Establecer videollamadas de audio a ' SIP: + 12065551219@litwareinc. com; User = Phone '.
+Establecimiento de una llamada de audio en vídeo a ' SIP: + 12065551219@litwareinc. com; User = Phone '.
 
-Se ha recibido una respuesta ' una 404 (no se encontró) de la red y se produjo un error en la operación.
+Se ha recibido una respuesta de excepción de 404 (no se encontró) desde la red y se ha producido un error en la operación.
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Razones por las que se ha producido un error en la prueba
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
 Estas son algunas de las razones comunes por las que test-CsPstnOutboundCall podría fallar:
 
-  - Ha especificado una cuenta de usuario no válida. Puede comprobar que una cuenta de usuario existe ejecutando un comando similar a este:
+  - Ha especificado una cuenta de usuario no válida. Puede comprobar si existe una cuenta de usuario mediante la ejecución de un comando similar al siguiente:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
@@ -149,11 +149,11 @@ Estas son algunas de las razones comunes por las que test-CsPstnOutboundCall pod
     
     Si la propiedad Enabled se establece en false, significa que el usuario no está habilitado actualmente para Lync Server.
 
-  - La Directiva de voz asignada al usuario especificado no tiene un uso de RTC válido. Puede determinar la Directiva de voz asignada a un usuario mediante un comando similar a este:
+  - La Directiva de voz asignada al usuario especificado no tiene un uso de RTC válido. Puede determinar la Directiva de voz que se asigna a un usuario mediante un comando similar a este:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object VoicePolicy
     
-    Y, después, puede determinar los usos de RTC (si los hay) que se asignan a esa Directiva mediante un comando similar al siguiente, que recupera información sobre la Directiva de voz por usuario RedmondVoicePolicy:
+    A continuación, puede determinar los usos de RTC (si los hay) asignados a esa Directiva mediante un comando similar al siguiente, que recupera información sobre la Directiva de voz por usuario RedmondVoicePolicy:
     
         Get-CsVoicePolicy -Identity "RedmondVoicePolicy"
 

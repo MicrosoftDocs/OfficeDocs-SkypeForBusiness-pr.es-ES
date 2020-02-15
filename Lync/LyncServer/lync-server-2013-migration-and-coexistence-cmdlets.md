@@ -12,20 +12,20 @@ ms:contentKeyID: 48185968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbae93a344909139fba3b40e2864ca3b943e77a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 20e2931dc24e96243b2e80eb0abd0cf3b50599ad
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757534"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033399"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migration-and-coexistence-cmdlets-in-lync-server-2013"></a>Cmdlets de migración y coexistencia de Lync Server 2013
+# <a name="migration-and-coexistence-cmdlets-in-lync-server-2013"></a>Cmdlets de migración y coexistencia en Lync Server 2013
 
 </div>
 
@@ -37,40 +37,40 @@ ms.locfileid: "41757534"
 
 _**Última modificación del tema:** 2012-06-26_
 
-El cmdlet [Move-CsLegacyUser](https://technet.microsoft.com/en-us/library/Gg413025(v=OCS.15)) le permite mover cuentas de usuario de Office Communications Server 2007 o Microsoft lync Server 2010 a Microsoft lync Server 2013. Si necesita mover una cuenta de usuario "hacia atrás" (por ejemplo, de Microsoft Lync Server 2013 a Microsoft Lync Server 2010) Use el cmdlet [Move-CsUser](https://technet.microsoft.com/en-us/library/Gg398528(v=OCS.15)) .
+El cmdlet [Move-CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15)) proporciona una forma de mover cuentas de usuario de Office Communications Server 2007 o Microsoft lync Server 2010 a Microsoft lync Server 2013. Si necesita mover una cuenta de usuario "hacia atrás" (por ejemplo, de Microsoft Lync Server 2013 a Microsoft Lync Server 2010), use el cmdlet [Move-CsUser](https://technet.microsoft.com/library/Gg398528(v=OCS.15)) .
 
   - <span></span>  
-    [Import-CsLegacyConferenceDirectory](https://technet.microsoft.com/en-us/library/Gg398418(v=OCS.15))
+    [Import-CsLegacyConferenceDirectory](https://technet.microsoft.com/library/Gg398418(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Importar-CsLegacyConfiguration](https://technet.microsoft.com/en-us/library/Gg412923(v=OCS.15))
+    [Import-CsLegacyConfiguration](https://technet.microsoft.com/library/Gg412923(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Combinar-CsLegacyTopology](https://technet.microsoft.com/en-us/library/Gg425870(v=OCS.15))
+    [Merge-CsLegacyTopology](https://technet.microsoft.com/library/Gg425870(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Move-CsApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398188(v=OCS.15))
+    [Move-CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398188(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Move-CsLegacyUser](https://technet.microsoft.com/en-us/library/Gg413025(v=OCS.15))
+    [Move-CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15))
 
 <!-- end list -->
 
-  - [Convert-CsUserData](https://technet.microsoft.com/en-us/library/JJ205337(v=OCS.15))
+  - [Convert-CsUserData](https://technet.microsoft.com/library/JJ205337(v=OCS.15))
 
-  - [Export-CsUserData](https://technet.microsoft.com/en-us/library/JJ204897(v=OCS.15))
+  - [Export-CsUserData](https://technet.microsoft.com/library/JJ204897(v=OCS.15))
 
-  - [Import-CsUserData](https://technet.microsoft.com/en-us/library/JJ205373(v=OCS.15))
+  - [Import-CsUserData](https://technet.microsoft.com/library/JJ205373(v=OCS.15))
 
-  - [Update-CsUserData](https://technet.microsoft.com/en-us/library/JJ205358(v=OCS.15))
+  - [Update-CsUserData](https://technet.microsoft.com/library/JJ205358(v=OCS.15))
 
 <div>
 

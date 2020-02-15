@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Comprobar o configurar la autenticación y la certificación en directorios virtuales IIS'
+title: 'Lync Server 2013: comprobar o configurar la autenticación y la certificación en los directorios virtuales de IIS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48399ed2a6eba53707218295adcd1cbd11a5e32c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b4a9e4b2ad53b3fa3a339eae7b4b1ee1f4412548
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742160"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007329"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-or-configure-authentication-and-certification-on-iis-virtual-directories-in-lync-server-2013"></a>Comprobar o configurar la autenticación y la certificación en directorios virtuales IIS en Lync Server 2013
+# <a name="verify-or-configure-authentication-and-certification-on-iis-virtual-directories-in-lync-server-2013"></a>Comprobar o configurar la autenticación y la certificación en directorios virtuales de IIS en Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41742160"
 
 _**Última modificación del tema:** 2012-05-25_
 
-Use el procedimiento siguiente para configurar el certificado en los directorios virtuales de servicios de Internet Information Server (IIS) o comprobar que el certificado está configurado correctamente. Realice el siguiente procedimiento en cada servidor que ejecute IIS en el grupo de servidores de Lync interno y en el director opcional. o servidores de grupo de directores.
+Use el siguiente procedimiento para configurar el certificado en los directorios virtuales de Internet Information Services (IIS) o comprobar que el certificado está configurado correctamente. Realice el procedimiento siguiente en cada servidor que ejecute IIS en el grupo de servidores interno de Lync Server y en el director opcional o en los servidores de grupos de directores.
 
 <div>
 
 
 > [!NOTE]  
-> El procedimiento siguiente define un procedimiento para solicitar un certificado combinado que se usa para todos los propósitos de Lync Server, sitio Web interno y sitio web externo en IIS. Lync Server 2010 presentó un conjunto de cmdlets de Windows&nbsp;PowerShell de Shell de administración de Lync Server para la administración de solicitudes de certificados, importaciones y asignaciones. En el procedimiento se supone que hay una entidad de certificación (CA) implementada internamente que puede procesar la solicitud. Si usa certificados públicos para sus propósitos de Lync Server, o si su CA requiere una solicitud sin conexión, consulte la sintaxis detallada de este tema para obtener información sobre el parámetro-output. <A href="https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate">Solicitud-CsCertificate</A>
+> El siguiente procedimiento define un procedimiento para solicitar un certificado combinado que se usa para todos los propósitos Lync Server, sitio Web interno y sitio web externo de IIS. Lync Server 2010 incorporó un conjunto de cmdlets de Windows&nbsp;PowerShell de Shell de administración de Lync Server para el propósito expreso de administrar la solicitud de certificados, la importación y la asignación. Este procedimiento supone que existe una entidad de certificación (CA) implementada internamente que puede procesar la solicitud. Si usa certificados públicos para los propósitos de Lync Server o la CA requiere una solicitud sin conexión, consulte la sintaxis detallada de este tema para obtener información sobre el parámetro – output. <A href="https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate">Solicitud-CsCertificate</A>
 
 
 
@@ -51,38 +51,38 @@ Use el procedimiento siguiente para configurar el certificado en los directorios
 
 <div>
 
-## <a name="to-configure-authentication-and-certificates-on-iis-virtual-directories"></a>Para configurar la autenticación y los certificados en directorios virtuales de IIS
+## <a name="to-configure-authentication-and-certificates-on-iis-virtual-directories"></a>Configuración de la autenticación y los certificados en los directorios virtuales IIS
 
-1.  Para completar correctamente lo siguiente, debe haber iniciado sesión en el equipo (servidor front-end o director) donde están instalados los servicios web y ser administradores locales. Debe tener permisos de **lectura** e **inscripción** en la entidad de certificación de la que va a solicitar certificados, si la entidad emisora de certificados es la entidad de certificación de su organización. No necesita permisos para la entidad emisora de certificados si va a configurar y enviar una solicitud de certificado sin conexión.
+1.  Para completar correctamente lo siguiente, debe iniciar sesión en el equipo (servidor front-end o director) donde están instalados los servicios web y ser un administrador local. Debe tener permisos de **lectura** e **inscripción** en la entidad de certificación a la que solicitará los certificados, si la entidad de certificación es la entidad de certificación de su organización. No necesitará permisos de la entidad de certificación si configura y envía una solicitud de certificado fuera de línea.
 
-2.  Haga clic en **Inicio**, seleccione **todos los programas**, **herramientas administrativas**y, a continuación, haga clic en **Administrador de Internet Information Services (IIS)**.
+2.  Haga clic en **Inicio**, seleccione **Todos los programas**, seleccione **Herramientas administrativas** y, a continuación, haga clic en **Administrador de Internet Information Services (IIS)**.
 
-3.  En el **Administrador de Internet Information Services (IIS)**, seleccione **ServerName**. En la **vista características**, seleccione **certificados de servidor**, haga clic con el botón derecho y seleccione **abrir característica**.
+3.  En **Administrador de Internet Information Services (IIS)**, seleccione **ServerName**. En **Vista Características**, seleccione **Certificados de servidor**, haga clic con el botón secundario y seleccione **Abrir característica**.
     
     <div>
     
 
     > [!TIP]  
-    > En la vista características de certificados de servidor, si hay certificados asignados al servidor, aparecerán aquí. Si hay un certificado que cumpla los requisitos para el sitio web externo en IIS, puede volver a usarlo. Para ver un certificado, haga clic con el botón derecho en el certificado y seleccione <STRONG>ver...</STRONG>
+    > En la Vista Características de certificados de servidor, si hay certificados asignados al servidor, aparecerán aquí. Si hay un certificado que coincide con los requisitos del sitio web externo en IIS, puede volver a utilizar este certificado. Para ver un certificado, haga clic con el botón secundario en el certificado y seleccione <STRONG>Ver…</STRONG>
 
     
     </div>
 
-4.  En el servidor front-end o director para el que va a solicitar el certificado, haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+4.  En el servidor front-end o director para el que va a solicitar el certificado, haga clic en **Inicio**, seleccione **todos los programas**, seleccione **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
 
 5.  En el shell de administración de Lync Server, escriba lo siguiente:
     
         Get-CsCertificate
     
-    El resultado es una lista de los certificados que se encuentran actualmente en el servidor del almacén de certificados personal del equipo. Tenga en cuenta que en el certificado combinado (es decir, cuando el valor predeterminado, servicios Web internos y servicios web externos estén usando el mismo certificado) verá que la propiedad use se rellenará con default, WebServicesInternal y WebServicesExternal. Además, la propiedad Thumbprint será la misma para cada uno de los tipos de uso. En este ejemplo se muestra un ejemplo de la salida de Get-CsCertificate:
+    El resultado es una lista de los certificados que están actualmente en el servidor del almacén de certificados personales del equipo. Ten en cuenta que en el certificado combinado (es decir, donde los servicios web internos y los servicios web externos predeterminados están utilizando el mismo certificado), verá que la propiedad de uso se rellenará con predeterminado, WebServicesInternal y WebServicesExternal. Además, la propiedad huella digital será la misma para cada uno de los tipos de uso. En este ejemplo se muestra un resultado de ejemplo de Get-CsCertificate:
     
-    ![Get-CsCertificate información sobre el estado actual de scert](images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "Get-CsCertificate información sobre el estado actual de scert")
+    ![Get-CsCertificate información sobre el estado de scert actual](images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "Get-CsCertificate información sobre el estado de scert actual")
 
 6.  En el shell de administración de Lync Server, escriba lo siguiente:
     
         Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -CA <CA Server FQDN\CA Instance> -Verbose -DomainName "<FQDN entries to be added to the Subject Alternative Name>"
     
-    Donde el comando completo tendría el siguiente ejemplo:
+    Donde el comando completo aparecería como en el siguiente ejemplo:
     
         Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -CA dc01.contoso.net\contoso-DC01-CA -Verbose -DomainName "LyncdiscoverInternal.Contoso.com,Lyncdiscover.Contoso.com"
     
@@ -90,22 +90,22 @@ Use el procedimiento siguiente para configurar el certificado en los directorios
     
 
     > [!TIP]  
-    > De forma predeterminada, Request-CsCertificate rellenará el nombre del asunto con el nombre del servidor o grupo de servidores y llenará las entradas en el nombre de asunto alternativo con el servidor FQDN, FQDN del grupo, FQDN de dirección URL simple y FQDN de los servicios Web internos y externos. Para ello, hace referencia al documento de topología de su implementación. Si falta un valor y ha especificado el parámetro – verbose, se le notificará que los valores calculados y reales de los nombres alternativos son diferentes, pero no le informan los valores que faltan. Le proporciona el valor calculado completo al que hace referencia el cmdlet. Use la cadena de nombres alternativos calculados en la salida para volver a solicitar un nuevo certificado que incluirá todos los valores.
+    > De modo predeterminado, Request-CsCertificate rellenará el nombre de asunto con el nombre del servidor o del grupo de servidores y rellenará las entradas en el nombre alternativo del asunto con el servidor FQDN, el grupo de servidores FQDN, los FQDN de URL simples y los FQDN de los servicios web internos y externos. Esto lo hace haciendo referencia al documento de topología de su implementación. Si falta un valor y ha especificado el parámetro –Verbose, se le notificará que los valores calculados y reales de los nombres alternativos son diferentes, pero no se le informará de los valores que faltan. Se le proporcionará el valor calculado completo al que hace referencia el cmdlet. Utilice la cadena de nombres alternativos calculados en el resultado para volver a solicitar un nuevo certificado que incluya todos los valores
 
     
     </div>
     
-    ![Resultado de la solicitud del certificado mediante la solicitud-CsCertifica](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Resultado de la solicitud del certificado mediante la solicitud-CsCertifica")
+    ![Resultado de la solicitud del certificado mediante request-CsCertifica](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Resultado de la solicitud del certificado mediante request-CsCertifica")
 
 7.  En el shell de administración de Lync Server, escriba lo siguiente:
     
         Set-CsCertificate -Type Default,WebServicesInternal,WebServicesExternal -Thumbprint <Thumbprint of certificate to use>
     
-    Donde el comando completo tendría el siguiente ejemplo:
+    Donde el comando completo aparecería como en el siguiente ejemplo:
     
         Set-CsCertificate -Type Default,WebServicesInternal,WebServicesExternal -Thumbprint 466D9BB0E8B928B65AF38FA2D9F41E1B301ECE9D
     
-    El resultado del cmdlet Set-CsCertificate mostrará que el mismo certificado (identificado por la huella digital del certificado) se asigna al uso predeterminado, WebServicesExternal y WebServicesInternal.
+    para>El resultado del cmdlet Set-CsCertificate mostrará que se ha asignado el mismo certificado (identificado por la huella digital del certificado) para el uso predeterminado, WebServicesExternal y WebServicesInternal u
     
     ![Resultado de set-CsCertificate en IIS WebExt](images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "Resultado de set-CsCertificate en IIS WebExt")
 
@@ -113,17 +113,17 @@ Use el procedimiento siguiente para configurar el certificado en los directorios
 
 <div>
 
-## <a name="to-verify-or-configure-authentication-and-certificates-on-iis-virtual-directories"></a>Para comprobar o configurar la autenticación y los certificados en los directorios virtuales de IIS
+## <a name="to-verify-or-configure-authentication-and-certificates-on-iis-virtual-directories"></a>Para comprobar o configurar la autenticación y la certificación en directorios virtuales de IIS
 
-1.  Haga clic en **Inicio**, seleccione **todos los programas**, **herramientas administrativas**y, a continuación, haga clic en **Administrador de Internet Information Services (IIS)**.
+1.  Haga clic en **Inicio**, elija **Todos los programas**, elija **Herramientas administrativas** y, a continuación, haga clic en **Administrador de Internet Information Services (IIS)**.
 
-2.  En el **Administrador de Internet Information Services (IIS)**, expanda **ServerName**y, a continuación, expanda **sites**.
+2.  En el **Administrador de Internet Information Services (IIS)**, expanda **ServerName**y, a continuación, expanda **sitios**.
 
-3.  Haga clic con el botón secundario en **sitio web externo de Lync Server**y, a continuación, haga clic en **Editar enlaces**
+3.  Haga clic con el botón secundario en **Sitio web externo de Lync Server** y, a continuación, haga clic en **Modificar enlaces**
 
-4.  Compruebe que https está asociado con el puerto 4443 y, a continuación, haga clic en **https**.
+4.  Compruebe que https está asociado al puerto 4443 y haga clic en **https**.
 
-5.  Seleccione la entrada HTTPS, haga clic en **Editar**y, a continuación, compruebe que Lync Server WebServicesExternalCertificate está enlazado a este protocolo. Compare la huella digital del cmdlet Set-CsCertificate para asegurarse de que el certificado esperado esté correctamente asociado con el enlace HTTPS.
+5.  Seleccione la entrada HTTPS, haga clic en **Editar**y, a continuación, compruebe que Lync Server WebServicesExternalCertificate está enlazado a este protocolo. Compare la huella digital del cmdlet Set-CsCertificate para asegurar que el certificado esperado está correctamente asociado con el enlace HTTPS.
 
 </div>
 

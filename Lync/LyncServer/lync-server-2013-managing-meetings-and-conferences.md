@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Administrar reuniones y conferencias'
+title: 'Lync Server 2013: administrar reuniones y conferencias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23a3b907702cda1ae3f528da8890256dd0facce1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f9da919b539ce80303889069379aea9abc89e80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762068"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033729"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41762068"
 
 _**Última modificación del tema:** 2013-08-09_
 
-Los temas de esta sección proporcionan procedimientos paso a paso para las tareas que puede realizar con las páginas del grupo de **conferencias** en el panel de control de Lync Server.
+Los temas de esta sección proporcionan procedimientos paso a paso para las tareas que puede realizar con las páginas del grupo de **Conferencia** en el panel de control de Lync Server.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Configuración de la reunión en Lync Server 2013](lync-server-2013-meeting-configuration-settings.md)
+  - [Opciones de configuración de reunión en Lync Server 2013](lync-server-2013-meeting-configuration-settings.md)
 
   - [Directivas de conferencia en Lync Server 2013](lync-server-2013-conferencing-policies.md)
 
   - [Conferencias de acceso telefónico local en Lync Server 2013 (configuración/números de acceso)](lync-server-2013-dial-in-conferencing-configuration-access-numbers.md)
 
-  - [Usar llamarme en con un teléfono habilitado para Lync y Lync Server 2013](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)
+  - [Usar la llamada me en con un teléfono habilitado para Lync y Lync Server 2013](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)
 
 </div>
 

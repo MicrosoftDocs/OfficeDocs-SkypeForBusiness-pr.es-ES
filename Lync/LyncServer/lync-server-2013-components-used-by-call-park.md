@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Componentes que usa el estacionamiento de llamadas'
+title: 'Lync Server 2013: componentes que usa el estacionamiento de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185374
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae458d7ef3245e366e4f2bdd61f192401909213b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a0b6d6bece5fa107e0fe130aab983458acbc0a4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757084"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007940"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41757084"
 
 _**Última modificación del tema:** 2012-09-13_
 
-La aplicación de estacionamiento de llamadas se instala automáticamente al implementar la telefonía IP empresarial. Para habilitar el parque de llamadas, configure la Directiva de voz. Los siguientes componentes de Lync Server 2013 son compatibles con la aplicación estacionamiento de llamadas:
+La aplicación estacionamiento de llamadas se instala automáticamente al implementar la telefonía IP empresarial. Puede habilitar el estacionamiento de llamadas mediante la configuración de la Directiva de voz. Los siguientes componentes de Lync Server 2013 admiten la aplicación estacionamiento de llamadas:
 
-  - ****   El servicio de aplicación de servicio de aplicación proporciona una plataforma para implementar, hospedar y administrar aplicaciones de comunicaciones unificadas, como la aplicación de estacionamiento de llamadas. El servicio de aplicaciones se instala automáticamente en todos los servidores front-end de un grupo de servidores front-end y en todos los servidores Standard Edition.
+  - ****   El servicio de aplicación de servicio de aplicación proporciona una plataforma para implementar, hospedar y administrar aplicaciones de comunicaciones unificadas, como la aplicación de estacionamiento de llamadas. El servicio de aplicación se instala automáticamente en todos los servidores front-end de un grupo de servidores front-end y en cada servidor Standard Edition.
 
-  - **Aplicación de estacionamiento de llamadas**   la aplicación de estacionamiento de llamadas es una de las aplicaciones de comunicaciones unificadas que se hospedan en el servicio de aplicación. Se incluye automáticamente al implementar la telefonía IP empresarial. Llama a parques de aparcamiento y recupera llamadas y administra las órbitas del parque de llamadas.
+  - **Aplicación estacionamiento de llamadas**   la aplicación de estacionamiento de llamadas es una de las aplicaciones de comunicaciones unificadas que se hospedan en el servicio de aplicación. Se incluye automáticamente al implementar la Telefonía IP empresarial. Los parques de estacionamiento de llamadas y recuperan llamadas y administran órbitas de estacionamiento de llamadas.
 
-  - **Música en espera-archivo**   si la música está habilitada, el archivo de música se reproduce mientras se estaciona una llamada. Cuando se instala la aplicación de estacionamiento de llamadas, se incluye un archivo de música predeterminado.
+  - **Música en espera-archivo**   si la música está habilitada, el archivo de música se reproduce mientras se estaciona una llamada. Se incluye un archivo de música predeterminado cuando se instala la aplicación de estacionamiento de llamadas.
 
-  - **Almacén de archivos**   la aplicación de estacionamiento de llamadas usa el almacén de archivos para almacenar los archivos de audio personalizados.
+  - **Almacén de archivos**   la aplicación estacionamiento de llamadas usa el almacén de archivos para guardar los archivos de audio personalizados.
 
-  - **Panel de control de Lync Server**   puede usar el panel de control de Lync Server para configurar la tabla orbital de llamadas y para habilitar el parque de llamadas para los usuarios.
+  - **Panel de control de Lync Server**   puede usar el panel de control de Lync Server para configurar la tabla de órbitas de estacionamiento de llamadas y habilitar el estacionamiento de llamadas para los usuarios.
 
-  - **Shell de administración de Lync Server**   toda la configuración de la aplicación estacionamiento de llamadas se puede realizar mediante los cmdlets del shell de Lync Server Management.
+  - **Shell de administración de Lync Server**   toda la configuración de la aplicación estacionamiento de llamadas se puede realizar mediante los cmdlets del shell de administración de Lync Server.
 
 </div>
 

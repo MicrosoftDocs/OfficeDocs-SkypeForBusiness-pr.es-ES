@@ -12,16 +12,16 @@ ms:contentKeyID: 48183974
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 489ad3b47b1502c210fc3f66fea3ed751b4f58a2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a01005e9c6d78f521c3987bb36813e2d7eadb11
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765591"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991985"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41765591"
 
 _**Última modificación del tema:** 2012-10-01_
 
-Un flujo de trabajo de grupo de respuesta define el comportamiento de una llamada desde el momento en que el teléfono suena al momento en que un agente responde a la llamada. El flujo de trabajo incluye información de cola y enrutamiento, e incluye información de grupo de captura o respuesta de voz interactiva (IVR).
+Un flujo de trabajo de grupo de respuesta define el comportamiento de una llamada desde el momento en que suena el teléfono hasta el momento en que un agente responde a la llamada. El flujo de trabajo incluye información de cola y enrutamiento, y también información sobre grupo de extensiones o respuesta interactiva de voz (IVR).
 
-En los temas de esta sección se describen los procedimientos recomendados para diseñar flujos de trabajo de IVR, así como la creación de horas de trabajo y conjuntos de días laborables personalizados, cómo crear o modificar flujos de trabajo y cómo eliminar grupos de trabajo.
+En los temas de esta sección se identifican las mejores prácticas para diseñar flujos de trabajo IVR y se explica cómo crear horarios laborales personalizados y conjuntos de vacaciones, cómo crear o modificar flujos de trabajo y cómo eliminar grupos de trabajo.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Diseñar flujos de llamada para respuestas de voz interactivas en Lync Server 2013](lync-server-2013-design-interactive-voice-response-call-flows.md)
+  - [Diseñar flujos de llamadas de respuesta de voz interactiva en Lync Server 2013](lync-server-2013-design-interactive-voice-response-call-flows.md)
 
-  - [Faculta Definir las horas de trabajo del grupo de respuesta en Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)
+  - [Opcional Definir el horario comercial del grupo de respuesta en Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)
 
-  - [Faculta Definir conjuntos de días festivos de grupos de respuesta en Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md)
+  - [Opcional Definir conjuntos de días festivos para grupos de respuesta en Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md)
 
   - [Crear o modificar un flujo de trabajo en Lync Server 2013](lync-server-2013-create-or-modify-a-workflow.md)
 

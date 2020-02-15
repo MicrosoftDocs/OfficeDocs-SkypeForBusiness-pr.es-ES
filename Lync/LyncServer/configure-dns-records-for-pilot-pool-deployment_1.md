@@ -1,5 +1,5 @@
 ---
-title: Configurar registros DNS para una implementación de grupo de servidores piloto
+title: Configurar registros DNS para la implementación del grupo piloto
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 49733666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 612857ba1a0ec599b0011ab5779cb7fc4b5a0615
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fd9ae4eff928413838fc014a125b681aa15f0def
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727940"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41999005"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-records-for-pilot-pool-deployment"></a>Configurar registros DNS para una implementación de grupo de servidores piloto
+# <a name="configure-dns-records-for-pilot-pool-deployment"></a>Configurar registros DNS para la implementación del grupo piloto
 
 </div>
 
@@ -38,23 +38,23 @@ ms.locfileid: "41727940"
 
 _**Última modificación del tema:** 2012-09-24_
 
-Antes de implementar el grupo piloto de Lync Server 2013, debe actualizar las entradas de host DNS A para la agrupación piloto. Para completar correctamente este procedimiento, debe haber iniciado sesión en el servidor o dominio como mínimo como miembro del grupo administradores de dominio o miembro del grupo DnsAdmins.
+Antes de implementar el grupo piloto de Lync Server 2013, debe actualizar las entradas de host DNS A para el grupo piloto. Para completar correctamente este procedimiento, debe iniciar sesión en el servidor o dominio como mínimo como miembro del grupo administradores del dominio o como miembro del grupo DnsAdmins.
 
-**Para configurar registros A de host DNS**
+**Para configurar los registros de host DNS A**
 
-1.  En el servidor del sistema de nombres de dominio (DNS), haga clic en **Inicio**, en **herramientas administrativas**y, por último, en **DNS**.
+1.  En el servidor del Sistema de nombres de dominio (DNS), haga clic en **Inicio**, **Herramientas administrativas ** y, a continuación, en **DNS**.
 
-2.  En el árbol de consola de su dominio, expanda **zonas de búsqueda directa**y haga clic con el botón secundario en el dominio en el que se instalará Lync Server 2013.
+2.  En el árbol de la consola del dominio, expanda **zonas de búsqueda directa**y, a continuación, haga clic con el botón secundario en el dominio en el que se instalará Lync Server 2013.
 
-3.  Haga clic en **nuevo host (A o aaaa)**.
+3.  Haga clic en **Host nuevo (A o AAAA)**.
 
-4.  Haga clic en **nombre**, escriba el nombre de host del grupo (el nombre de dominio se supone de la zona en la que está definido el registro y no tiene que especificarse como parte del registro A).
+4.  Haga clic en **nombre**, escriba el nombre de host del grupo de servidores (el nombre de dominio se asume de la zona en la que se define el registro y no es necesario introducirlo como parte del registro A).
 
-5.  Haga clic en **dirección IP**y escriba la dirección IP del grupo de servidores front-end.
+5.  Haga clic en **dirección IP**, escriba la dirección IP del grupo de servidores front-end.
 
-6.  Haga clic en **Agregar host**y, a continuación, en **Aceptar**.
+6.  Haga clic en **Agregar host** y, a continuación, haga clic en **Aceptar**.
 
-7.  Cuando haya terminado, haga clic en **listo**.
+7.  Cuando haya terminado, haga clic en **Listo**.
 
 </div>
 

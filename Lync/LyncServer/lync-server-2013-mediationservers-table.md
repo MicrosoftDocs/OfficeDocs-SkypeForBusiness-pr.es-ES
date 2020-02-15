@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla MediationServers'
+title: 'Lync Server 2013: tabla MediationServers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184929
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7854306eefb1bed16753e8f6408a8c06f95bd04f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9a711cdd4073d5e9bfe884c907d079437ffc8440
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766071"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008362"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41766071"
 
 _**Última modificación del tema:** 2010-11-06_
 
-La tabla MediationServers es una tabla de soporte. Cada registro almacena información acerca de un servidor de mediación implicado en llamadas que tienen registros en la base de datos.
+La tabla MediationServers es una tabla de apoyo. Cada registro almacena información sobre un servidor de mediación implicado en llamadas que tienen registros en la base de datos.
 
 
 <table>
@@ -59,12 +59,12 @@ La tabla MediationServers es una tabla de soporte. Cada registro almacena inform
 <tr class="odd">
 <td><p><strong>MediationServerId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
+<td><p>Principal</p></td>
 <td><p>Número único que identifica este servidor de mediación.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MediationServer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p> </p></td>
 <td><p>Nombre del servidor de mediación.</p></td>
 </tr>

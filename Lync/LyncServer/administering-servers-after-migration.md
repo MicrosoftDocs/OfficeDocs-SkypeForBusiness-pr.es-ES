@@ -1,5 +1,5 @@
 ---
-title: Administrar los servidores tras la migración
+title: Administración de servidores tras la migración
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 48184582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 067dadbb1578aa89f2d7199c0c356ddf86884eac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af2a420b12b10f0b96609fbcfbd31907294a1a08
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724200"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42005925"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="administering-servers-after-migration"></a>Administrar los servidores tras la migración
+# <a name="administering-servers-after-migration"></a>Administración de servidores tras la migración
 
 </div>
 
@@ -38,13 +38,13 @@ ms.locfileid: "41724200"
 
 _**Última modificación del tema:** 2012-09-29_
 
-En general, debe usar la herramienta administrativa correspondiente a la versión del servidor que desea administrar. No puede instalar las herramientas administrativas de Lync Server 2010 y Lync Server 2013 en el mismo equipo. Además, el panel de control de Lync Server 2013 no se instala automáticamente en cada servidor. Para instalar el panel de control de Lync Server 2013, siga el procedimiento que se incluye en el tema instalación de las [herramientas administrativas de Lync server 2013](lync-server-2013-install-lync-server-administrative-tools.md) en la documentación de implementación.
+En general, debe utilizar la herramienta administrativa que corresponde a la versión del servidor que desea administrar. No puede instalar las herramientas administrativas de Lync Server 2010 y Lync Server 2013 en el mismo equipo. Además, el panel de control de Lync Server 2013 no se instala automáticamente en cada servidor. Para instalar el panel de control de Lync Server 2013, siga el procedimiento que se incluye en el tema [install Lync Server 2013 Administrative Tools](lync-server-2013-install-lync-server-administrative-tools.md) en la documentación sobre implementación.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Después de implementar un grupo piloto de Lync Server 2013, no puede usar el generador de topología de Lync Server 2010 ni el panel de control de Lync Server 2010 para administrar los recursos de Lync Server 2013. Para administrar los recursos de Lync Server 2013 y Lync Server 2010, debe usar las herramientas de Lync Server 2013.
+> Después de implementar un grupo piloto de Lync Server 2013, no puede usar el generador de topologías de Lync Server 2010 o Lync Server 2010 para administrar los recursos de Lync Server 2013. Debe usar las herramientas de Lync Server 2013 para administrar los recursos de Lync Server 2013 y Lync Server 2010.
 
 
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733796
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 630472c67c560438f37fa65607dc817782535963
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fe22268f7376b1744e5997a3f9916395109c9e39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756034"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035666"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,39 +37,39 @@ ms.locfileid: "41756034"
 
 _**Última modificación del tema:** 2012-10-04_
 
-Puede usar el panel de control de Lync Server para iniciar o detener todos los servicios de Lync Server 2010 que se ejecutan en un equipo específico o para iniciar o detener un servicio específico de Lync Server 2010.
+Puede usar el panel de control de Lync Server para iniciar o detener todos los servicios de Lync Server 2010 que se ejecutan en un equipo específico o para iniciar o detener un servicio de Lync Server 2010 específico.
 
 <div>
 
-## <a name="to-start-or-stop-all-lync-server-services-on-a-computer"></a>Para iniciar o detener todos los servicios de Lync Server en un equipo
+## <a name="to-start-or-stop-all-lync-server-services-on-a-computer"></a>Para iniciar o detener todos los servicios de Lync Server en un equipo:
 
-1.  Abra el Panel de control de Lync Server.
+1.  Abra Panel de control de Lync Server
 
-2.  En la barra de navegación izquierda, haga clic en **topología** y, a continuación, en **Estado**.
+2.  En la barra de navegación izquierda, haga clic en **Topología** y después en **Estado**.
 
-3.  En la página **Estado** , ordene o busque en la lista según sea necesario para buscar el equipo que ejecuta los servicios que desea iniciar o detener y, a continuación, haga clic en él.
+3.  En la página **Estado**, ordene la lista o realice una búsqueda para encontrar el equipo que ejecuta los servicios que desea iniciar o detener, y haga clic en él.
 
-4.  Haga clic en **acción**.
+4.  Haga clic en **Acción**.
 
-5.  Haga clic en **iniciar todos los servicios** o en **detener todos los servicios**.
+5.  Haga clic en **Iniciar todos los servicios** o **Detener todos los servicios**.
 
 </div>
 
 <div>
 
-## <a name="to-start-or-stop-a-specific-service"></a>Para iniciar o detener un servicio específico
+## <a name="to-start-or-stop-a-specific-service"></a>Para iniciar o detener un servicio específico:
 
-1.  Abra el Panel de control de Lync Server.
+1.  Abra Panel de control de Lync Server
 
-2.  En la barra de navegación izquierda, haga clic en **topología** y, a continuación, en **Estado**.
+2.  En la barra de navegación izquierda, haga clic en **Topología** y en **Estado**.
 
-3.  En la página **Estado** , ordene o busque en la lista según sea necesario para buscar el equipo que está ejecutando el servicio que desea iniciar o detener y, a continuación, haga clic en él.
+3.  En la página **Estado**, ordene la lista o realice una búsqueda para encontrar el equipo que ejecuta el servicio que desea iniciar o detener, y haga clic en él.
 
-4.  Haga clic en **propiedades**.
+4.  Haga clic en **Propiedades**.
 
-5.  Ordene la lista de servicios, si es necesario, y haga clic en el servicio que desea iniciar o detener.
+5.  Ordene la lista de servicios si es necesario y haga clic en el servicio que desea iniciar o detener.
 
-6.  Haga clic en **acción**.
+6.  Haga clic en **Acción**.
 
 7.  Haga clic en **Iniciar servicio** o **Detener servicio**.
 

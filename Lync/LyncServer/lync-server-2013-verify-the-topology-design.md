@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Comprobar el diseño de la topología'
+title: 'Lync Server 2013: comprobar el diseño de la topología'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85266477df342c16ed69c0507813b905c608745c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c6968dfca2072ca9a6c0e5008528e27a14f01447
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742150"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007319"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,23 +37,23 @@ ms.locfileid: "41742150"
 
 _**Última modificación del tema:** 2012-01-02_
 
-El generador de topología verifica automáticamente la topología. Cualquier error de topología se identifica como un error de validación, indicado por el icono de error de validación junto al rol de servidor. También es importante comprobar que la topología representa correctamente la topología de la implementación.
+El generador de topologías comprueba automáticamente la topología. Cualquier error de topología se identifica como un error de validación, que se indica mediante el icono de error de validación junto al rol de servidor. Es importante comprobar también que la topología representa correctamente la topología de su implementación.
 
 <div>
 
-## <a name="to-verify-the-topology-prior-to-publication"></a>Para comprobar la topología antes de la publicación
+## <a name="to-verify-the-topology-prior-to-publication"></a>Para comprobar la topología antes de su publicación
 
 1.  Compruebe que todas las URL sencillas están configuradas correctamente.
 
-2.  Confirme que el servidor basado en SQL Server está en línea y disponible para el equipo donde el Generador de topologías está instalado, incluidas todas las reglas de firewall necesarias.
+2.  Confirme que el servidor basado en SQL Server está en línea y disponible para el equipo en el que está instalado el generador de topologías, incluidas las reglas de Firewall necesarias.
 
-3.  Confirme que el recurso compartido de archivos está disponible y que tiene los permisos definidos correctamente.
+3.  Confirme que el recurso compartido de archivos esté disponible y que los permisos correctos estén definidos.
 
 4.  Confirme que se han definido en la topología los roles de servidor correctos que cumplen los requisitos de la implementación.
 
-5.  Compruebe que los servidores existen en los servicios de dominio de Active Directory. Esto ocurrirá automáticamente si ha unido los servidores al dominio.
+5.  Compruebe que los servidores existen en los servicios de dominio de Active Directory. Esto se producirá automáticamente si ha incorporado los servidores al dominio.
 
-Tras comprobar la topología y constatar que no hay errores de validación, estará listo para publicar la topología. Si hay errores de validación, debe corregirlos antes de poder publicar la topología. Para obtener más información sobre cómo publicar su topología, vea [publicar la topología en Lync Server 2013](lync-server-2013-publish-the-topology.md).
+Una vez que haya verificado la topología y comprobado que no existen errores de validación, estará listo para publicar la topología. Si hay errores de validación, deberá corregirlos para poder publicar la topología. Para obtener más información sobre la publicación de la topología, consulte [publicar la topología en Lync Server 2013](lync-server-2013-publish-the-topology.md).
 
 </div>
 

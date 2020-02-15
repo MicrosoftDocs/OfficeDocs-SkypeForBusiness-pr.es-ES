@@ -12,20 +12,20 @@ ms:contentKeyID: 48183654
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b82db655a0b55858de9cdc32efd1a3f110247b54
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b2203c4169075b7b906156bf3436e61011f873a4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743850"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007479"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-the-office-customization-tool-oct-in-lync-server-2013"></a>Usar la herramienta de personalización de Office (OCT) en Lync Server 2013
+# <a name="using-the-office-customization-tool-oct-in-lync-server-2013"></a>Uso de la herramienta de personalización de Office (OCT) en Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41743850"
 
 _**Última modificación del tema:** 2012-10-02_
 
-La herramienta de personalización de Office (OCT) forma parte del programa de instalación y es la herramienta recomendada para muchas personalizaciones. Al usar la OCT, se personaliza Office y se guardan las personalizaciones en un archivo. MSP de personalización del programa de instalación. El archivo se coloca en la carpeta actualizaciones del punto de instalación de red. Al instalar Office, el programa de instalación busca un archivo de personalización de la configuración en la carpeta actualizaciones y aplica las personalizaciones. La carpeta actualizaciones solo se puede usar para implementar actualizaciones de software durante una instalación inicial de Office 2013.
+La herramienta de personalización de Office (OCT) forma parte del programa de instalación y es la herramienta recomendada para muchas personalizaciones. Mediante el uso de la OCT, se personaliza Office y se guardan las personalizaciones en un archivo. MSP de personalización del programa de instalación. El archivo se coloca en la carpeta Actualizaciones del punto de instalación en red. Al instalar Office, el programa de instalación busca un archivo de personalización del programa de instalación en la carpeta actualizaciones y aplica las personalizaciones. La carpeta updates solo se puede usar para implementar actualizaciones de software durante una instalación inicial de Office 2013.
 
-La OCT forma parte de la instalación y se incluye en las versiones de licencia por volumen del producto. Para ejecutar la OCT, escriba `setup.exe /admin` en la línea de comandos de la raíz del punto de instalación de red que contiene los archivos de origen de Office 2013. Por ejemplo, use lo siguiente:
+La OCT forma parte de la instalación y está incluida en las versiones de licencia por volumen del producto. Para ejecutar la OCT, escriba `setup.exe /admin` en la línea de comandos desde la raíz del punto de instalación de red que contiene los archivos de origen de Office 2013. Por ejemplo, utilice lo siguiente:
 
 `\\server\share\Office15\setup.exe /admin`
 
-Los administradores pueden usar la OCT para crear un archivo .msp de personalización de la instalación. Al igual que en Microsoft Office 2010, los administradores pueden personalizar las siguientes áreas:
+Los administradores pueden utilizar la OCT para crear un archivo .msp de personalización de la instalación. Como en Microsoft Office 2010 OCT, los administradores pueden personalizar las siguientes áreas:
 
-  - **Configuración** Se usa para especificar la ubicación de instalación predeterminada en el cliente y el nombre de la organización predeterminada, otras fuentes de instalación en red, la clave de producto, el contrato de licencia para el usuario final, el nivel de presentación, las versiones anteriores de Office que se van a quitar;
+  - **Configuración** de Se usa para especificar la ubicación de instalación predeterminada en el cliente y el nombre predeterminado de la organización, orígenes de instalación en red adicionales, clave de producto, contrato de licencia para el usuario final, nivel de presentación, versiones anteriores de Office que se van a quitar, programas personalizados que se ejecutarán durante la instalación, configuración de seguridad y propiedades de configuración.
 
-  - **Características** Se usa para configurar las opciones de usuario y personalizar la instalación de las características de Office. Los administradores pueden usar la OCT para especificar los valores iniciales predeterminados de la aplicación de Office para los usuarios. Los usuarios pueden modificar la mayoría de las opciones después de la instalación.
+  - **Características** Se usa para configurar las opciones de usuario y personalizar el modo en que se instalan las características de Office. Los administradores pueden utilizar la OCT para especificar los valores iniciales predeterminados de la aplicación de Office para los usuarios. Los usuarios pueden modificar la mayoría de las opciones después de la instalación.
 
-  - **Contenido adicional** Se usa para agregar o quitar archivos, agregar o quitar entradas del registro y configurar accesos directos.
+  - **Contenido adicional** Se usa para agregar o quitar archivos, para agregar o quitar entradas del registro y para configurar accesos directos.
 
-  - **Outlook** Se usa para personalizar el perfil predeterminado de Outlook de un usuario, especificar la configuración de Exchange, agregar cuentas, quitar cuentas y exportar\\la configuración y especificar los grupos de envío y recepción.
+  - **Outlook** Se usa para personalizar el perfil de Outlook predeterminado de un usuario, especificar la configuración de Exchange, agregar cuentas, quitar cuentas y exportar\\configuraciones, y especificar los grupos de envío y recepción.
 
-Para obtener más información sobre la OCT <http://go.microsoft.com/fwlink/p/?linkid=267516>, consulte.
+Para obtener información sobre la OCT, <http://go.microsoft.com/fwlink/p/?linkid=267516>consulte.
 
 </div>
 

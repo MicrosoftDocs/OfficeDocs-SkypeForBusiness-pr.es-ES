@@ -12,16 +12,16 @@ ms:contentKeyID: 48185639
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2cfe26b70db612249ca840c86b41fb3d60db663
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ccbe1735d92d510f4e5016cc2e52b62e1c82bb7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738220"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034982"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41738220"
 
 _**Última modificación del tema:** 2012-10-22_
 
-Puesto que solo se admite una reunión de gran tamaño a la vez en el grupo dedicado de reuniones grandes, recomendamos implementar un proceso de programación de reuniones de gran tamaño para ayudar a evitar conflictos de reuniones grandes. El propósito de este proceso de programación es facilitar la configuración de las reuniones de gran tamaño. Esta capacidad no la proporcionan directamente los clientes de Lync Server o Lync Server. Para implementar este proceso tiene la posibilidad de usar el sistema de vales del equipo de soporte técnico de la organización, si está disponible.
+Como solo se admite una única reunión grande en el grupo de servidores exclusivo de la reunión grande, recomendamos que implemente un proceso de programación de reunión grande para que le sea más fácil evitar conflictos en dicha reunión. El objetivo de la programación es facilitar la configuración de las reuniones grandes. Esta capacidad no la proporcionan directamente los clientes de Lync Server o Lync Server. Para implementar este proceso tiene la posibilidad de usar el sistema de vales del equipo de soporte técnico de la organización, si está disponible.
 
-En el caso de los organizadores de reuniones de gran tamaño, la programación de una reunión grande conlleva la realización de los siguientes pasos:
+Los organizadores de reuniones grandes que deseen programar una de estas reuniones deben ejecutar los pasos siguientes:
 
 1.  El organizador de la reunión o el delegado determina la hora, la duración y el tamaño de la próxima reunión, además de presentar una lista de moderadores. Si se anticipa que el tamaño de la reunión va a superar los 250 usuarios o se desea garantizar la mejor experiencia de usuario para una reunión que no supere los 250 usuarios, el organizador o el delegado presentará una solicitud de convocatoria de reunión grande.
 
@@ -47,9 +47,9 @@ En el caso de los organizadores de reuniones de gran tamaño, la programación d
 
 3.  Si se aprueba la solicitud, el personal de programación (con credenciales en el grupo dedicado) usa el complemento de reunión en línea para Lync 2013 con Outlook para configurar una reunión en el grupo de reuniones de gran tamaño dedicado. Como parte del aviso de aprobación, se proporcionará al solicitante la dirección URL que se usará para unirse a la reunión.
 
-4.  El organizador de la reunión o el delegado usará Outlook para programar la próxima reunión y agregará a la invitación la dirección URL para unirse a la reunión. Después, el organizador de la reunión o el delegado especificará los usuarios que desea invitar y les enviará la invitación.
+4.  El organizador de la reunión o el delegado usa Outlook para programar la próxima reunión, agregando la dirección URL para unirse a la reunión a la invitación a la reunión. Después, el organizador de la reunión o el delegado especificará los usuarios que desea invitar y les enviará la invitación.
     
-    En la siguiente ilustración se muestra un flujo de trabajo de solicitud y aprobación típico para programar reuniones grandes.
+    En la figura siguiente se muestra una solicitud y un flujo de trabajo de aprobación típicos para programar grandes reuniones.
     
     ![5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d](images/JJ205334.5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d(OCS.15).jpg "5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d")  
 

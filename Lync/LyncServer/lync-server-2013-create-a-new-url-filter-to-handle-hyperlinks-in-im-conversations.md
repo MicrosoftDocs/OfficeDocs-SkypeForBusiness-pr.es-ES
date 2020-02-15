@@ -1,5 +1,5 @@
 ---
-title: Crear un filtro de dirección URL para procesar hipervínculos en conversaciones de mensajería instantánea
+title: Crear un nuevo filtro de dirección URL para administrar hipervínculos en conversaciones de mensajería instantánea
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7f6cd39034dbc3114f5b89fb15d252b71149762
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88aa97d270448208170e463370774e6279ea9bf9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740390"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034892"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-a-new-url-filter-in-lync-server-2013-to-handle-hyperlinks-in-im-conversations"></a>Crear un filtro de dirección URL en Lync Server 2013 para administrar hipervínculos en conversaciones de mensajería instantánea
+# <a name="create-a-new-url-filter-in-lync-server-2013-to-handle-hyperlinks-in-im-conversations"></a>Crear un nuevo filtro de dirección URL en Lync Server 2013 para administrar hipervínculos en conversaciones de mensajería instantánea
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41740390"
 
 _**Última modificación del tema:** 2012-09-26_
 
-Además de modificar el filtro de dirección URL global, puede configurar filtros de URL personalizados para sitios individuales dentro de la implementación de Lync Server 2013. Para obtener más información sobre el filtrado de URL, consulte [configuración de la transferencia de archivos y filtrado de URL para mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
+Además de modificar el filtro de dirección URL global, puede configurar filtros de URL personalizados para sitios individuales dentro de la implementación de Lync Server 2013. Para obtener más información sobre el filtrado de URL, consulte [configuración de transferencia de archivos y filtrado de URL para la mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
 
 <div>
 
-## <a name="to-create-a-new-url-filter"></a>Para crear un filtro de dirección URL nuevo
+## <a name="to-create-a-new-url-filter"></a>Para crear un filtro nuevo para direcciones URL
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **mensajería instantánea y presencia**y, a continuación, haga clic en **filtro de URL**.
+3.  En la barra de navegación izquierda, haga clic en **Mensajería instantánea y presencia** y, a continuación, en **Filtro para direcciones URL**.
 
-4.  En la página **filtro de URL** , haga clic en **nuevo**.
+4.  En la página **Filtro para direcciones URL**, haga clic en **Nuevo**.
 
-5.  En **seleccionar un sitio**, haga clic en el sitio para el que desea crear el filtro de dirección URL y, a continuación, haga clic en **Aceptar**.
+5.  En el cuadro de diálogo **Seleccionar un sitio**, haga clic en el sitio para el que desea crear un filtro para direcciones URL y, a continuación, haga clic en **Aceptar**.
 
-6.  En el cuadro de diálogo **nuevo filtro de URL** , seleccione la casilla de verificación **Habilitar filtro** de URL para habilitar el filtrado de URL para el sitio.
+6.  En el cuadro **Filtro para direcciones URL nuevo**, active la casilla **Habilitar filtro para direcciones URL** para habilitar el filtrado para direcciones URL del sitio.
 
-7.  Para bloquear cualquier dirección URL activa que contenga un archivo con una extensión enumerada en **extensiones de tipo de archivo que se bloquean** en **Editar filtro de archivo**, active la casilla **bloquear direcciones URL con extensión de archivo** .
+7.  Para bloquear cualquier URL activa que contenga un archivo con una extensión que aparezca en **Extensiones de tipo de archivo a bloquear**, en **Editar filtro de archivo**, active la casilla **Bloquear direcciones URL con extensión de archivo**.
 
-8.  En el cuadro de lista desplegable **prefijo del hipervínculo** , haga clic en la opción que corresponde a cómo desea controlar las direcciones URL en las conversaciones de mensajes instantáneos.
+8.  En la lista desplegable **Prefijo de hipervínculo**, haga clic en la opción que corresponde a cómo desea administrar direcciones URL en conversaciones de mensajería instantánea.
     
-    El cuadro **permitir mensaje** permite que se envíe un mensaje de advertencia al usuario al enviar hipervínculos que pueden enviarse.
+    Con el cuadro **Permitir mensaje**, puede enviar un mensaje de advertencia al usuario cuando se envíen hipervínculos permitidos.
 
 9.  Haga clic en **Confirmar**.
 
@@ -70,12 +70,12 @@ Además de modificar el filtro de dirección URL global, puede configurar filtro
 ## <a name="see-also"></a>Vea también
 
 
-[Configuración de la transferencia de archivos y el filtrado de URL para mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
+[Configuración de la transferencia de archivos y el filtrado de URL para la mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
 [Crear un filtro de transferencia de archivos nuevo en Lync Server 2013 para un sitio específico](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
 [Modificar el filtro de transferencia de archivos predeterminado en Lync Server 2013](lync-server-2013-modify-the-default-file-transfer-filter.md)  
 
 
-[Modificar el filtro de dirección URL predeterminado en Lync Server 2013](lync-server-2013-modify-the-default-url-filter.md)  
+[Modificar el filtro de direcciones URL predeterminado en Lync Server 2013](lync-server-2013-modify-the-default-url-filter.md)  
   
 
 </div>

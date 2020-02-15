@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Instalar los requisitos previos de software de Lync Server 2013'
+title: 'Lync Server 2013: instalar el software necesario para Lync Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184028
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e37e18fc18a0c57a2905302529ec0cb41d7c11f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2bf287ac6bb92f070047368685c1f1cbad371f2f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763754"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008332"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-lync-server-2013-prerequisite-software"></a>Instalar los requisitos previos de software de Lync Server 2013
+# <a name="install-lync-server-2013-prerequisite-software"></a>Instalar el software de requisitos previos de Lync Server 2013
 
 </div>
 
@@ -37,20 +37,20 @@ ms.locfileid: "41763754"
 
 _**Última modificación del tema:** 2013-02-21_
 
-El software necesario para el servidor de chat persistente es el mismo que el necesario para los servidores front-end de Lync Server 2013 y el servidor de Lync Server 2013 Standard Edition en el que están instaladas las características del servidor de chat persistente.
+El software necesario para el servidor de chat persistente es el mismo que el software necesario para los servidores front-end de Lync Server 2013 y para el servidor de Lync Server 2013 Standard Edition en el que se instalan las características del servidor de chat persistente.
 
-El software necesario para el almacenamiento de archivos del servidor de chat persistente es el mismo que el de Lync Server 2013.
+El software necesario como requisito previo para el almacén de archivos del servidor de chat persistente es el mismo que para Lync Server 2013.
 
-El software necesario para las bases de datos de SQL Server para el contenido y el cumplimiento del servidor de chat persistente también es el mismo que el de Lync Server 2013.
+El software necesario para las bases de datos de SQL Server para el contenido y el cumplimiento del servidor de chat persistente también es el mismo que para Lync Server 2013.
 
-Para obtener más información sobre todos los requisitos de software para servidores de Lync Server 2013, consulte [soporte técnico de servidor y requisitos adicionales en Lync server 2013](lync-server-2013-additional-server-support-and-requirements.md) en la documentación de soporte técnico.
+Para obtener información detallada sobre todos los requisitos de software para los servidores de Lync Server 2013, consulte [soporte técnico de servidores y requisitos adicionales en Lync server 2013](lync-server-2013-additional-server-support-and-requirements.md) en la documentación sobre compatibilidad.
 
 <div>
 
 ## <a name="see-also"></a>Vea también
 
 
-[Compatibilidad y requisitos para un servidor adicional en Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md)  
+[Compatibilidad de servidor adicional y requisitos en Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md)  
   
 
 </div>

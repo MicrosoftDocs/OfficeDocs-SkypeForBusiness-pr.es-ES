@@ -12,16 +12,16 @@ ms:contentKeyID: 48183455
 ms.date: 04/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aea86048fa29e9b6a21aa040093edff3f53ffe27
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cc7ed0572d36a87532c4845df887dc87ccb34eec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757624"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035132"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41757624"
 
 _**Última modificación del tema:** 2016-04-04_
 
-Puede usar el siguiente procedimiento para deshabilitar una cuenta de usuario habilitada previamente en Lync Server 2013 sin perder la configuración de Lync Server que ha configurado para la cuenta de usuario. Como no pierde la configuración de la cuenta de usuario de Lync Server, puede volver a habilitar otra cuenta de usuario habilitada previamente sin tener que volver a configurar la cuenta de usuario.
+Puede usar el siguiente procedimiento para deshabilitar una cuenta de usuario habilitada previamente en Lync Server 2013 sin perder la configuración de Lync Server que ha configurado para la cuenta de usuario. Como no pierde la configuración de la cuenta de usuario de Lync Server, puede volver a habilitar una cuenta de usuario habilitada previamente sin tener que volver a configurar la cuenta de usuario.
 
 <div>
 
 
 > [!WARNING]  
-> Simplemente deshabilitar una cuenta de usuario en Active Directory <STRONG>no impedirá</STRONG> que un usuario pueda iniciar sesión o usar Lync Server. Esto se debe a que Lync usa la autenticación de certificados que optimiza el proceso de autenticación y estos certificados de cliente son válidos durante 180 días. Si desea detener la deshabilitación de las cuentas de Active Directory que se han habilitado para que Lync tenga acceso a Lync Server, debe usar el cmdlet <STRONG>Disable-CsUser</STRONG> , o el <STRONG>Panel de control de Lync Server</STRONG> , como se indica en este artículo. Una vez que el usuario está deshabilitado en Lync y el almacén central de administración se ha replicado en el entorno, los usuarios ya no podrán iniciar sesión. Además, se desconectarán los usuarios que hayan iniciado sesión.
+> La simple deshabilitación de una cuenta de usuario en Active Directory <STRONG>no impedirá</STRONG> que un usuario pueda iniciar sesión en el servidor o usar Lync Server. Esto se debe a que Lync usa la autenticación de certificados que simplifica el proceso de autenticación y estos certificados de cliente son válidos durante 180 días. Si desea detener la deshabilitación de cuentas de Active Directory que se han habilitado para Lync para que tengan acceso a Lync Server, debe usar el cmdlet <STRONG>Disable-CsUser</STRONG> o usar el <STRONG>Panel de control de Lync Server</STRONG> tal y como se ha indicado en este artículo. Una vez que el usuario está deshabilitado en Lync y el almacén de administración central se ha replicado en el entorno, los usuarios ya no podrán iniciar sesión. Además, se desconectarán los usuarios que hayan iniciado sesión.
 
 
 
@@ -53,29 +53,29 @@ Puede usar el siguiente procedimiento para deshabilitar una cuenta de usuario ha
 
 ## <a name="to-disable-or-re-enable-a-previously-enabled-user-account-for-lync-server"></a>Para deshabilitar o volver a habilitar una cuenta de usuario habilitada previamente para Lync Server
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  En la barra de navegación izquierda, haga clic en **Usuarios**.
 
-4.  En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desea deshabilitar o volver a habilitar y, a continuación, haga clic en **Buscar**.
+4.  En el cuadro **Buscar usuarios**, escriba la primera parte del nombre para mostrar el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea de la cuenta de usuario que desee deshabilitar o volver a habilitar y, a continuación, haga clic en **Buscar**.
 
-5.  En la tabla, haga clic en la cuenta de usuario que desea deshabilitar o volver a habilitar.
+5.  En la tabla, haga clic en la cuenta de usuario que desee deshabilitar o volver a habilitar.
 
-6.  En el menú **acción** , siga uno de estos procedimientos:
+6.  En el menú **acción** , realice una de las siguientes acciones:
     
-      - Para deshabilitar temporalmente la cuenta de usuario de Lync Server 2013, haga clic en **deshabilitar temporalmente para Lync Server**.
+      - Para deshabilitar temporalmente la cuenta de usuario para Lync Server 2013, haga clic en **deshabilitar temporalmente para Lync Server**.
     
-      - Para habilitar la cuenta de usuario de Lync Server 2013, haga clic en **volver a habilitar para Lync Server**.
+      - Para habilitar la cuenta de usuario para Lync Server 2013, haga clic en **volver a habilitar para Lync Server**.
 
 </div>
 
 <div>
 
-## <a name="using-windows-powershell-to-disable-or-re-enable-user-accounts"></a>Usar Windows PowerShell para deshabilitar o volver a habilitar cuentas de usuario
+## <a name="using-windows-powershell-to-disable-or-re-enable-user-accounts"></a>Uso de Windows PowerShell para deshabilitar o volver a habilitar cuentas de usuario
 
-Las cuentas de usuario se pueden deshabilitar temporalmente y, después, volverlas a habilitar más tarde mediante el cmdlet **set-CsUser** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Las cuentas de usuario se pueden deshabilitar temporalmente y, más adelante, volver a habilitarlas mediante el cmdlet **set-CsUser** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
 <div>
 
@@ -97,7 +97,7 @@ Las cuentas de usuario se pueden deshabilitar temporalmente y, después, volverl
 
 </div>
 
-Para obtener más información, consulte el tema de ayuda para el cmdlet [set-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) .
+Para obtener más información, consulte el tema de ayuda del cmdlet [set-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) .
 
 </div>
 
@@ -106,10 +106,10 @@ Para obtener más información, consulte el tema de ayuda para el cmdlet [set-Cs
 ## <a name="see-also"></a>Vea también
 
 
-[Agregar y habilitar una cuenta de usuario para Lync Server 2013](lync-server-2013-add-and-enable-user-account-for-lync-server.md)  
+[Agregar y habilitar la cuenta de usuario para Lync Server 2013](lync-server-2013-add-and-enable-user-account-for-lync-server.md)  
 
 
-[Habilitar y deshabilitar usuarios para Lync Server 2013](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
+[Habilitación y deshabilitación de usuarios para Lync Server 2013](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
   
 
 </div>

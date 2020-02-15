@@ -12,16 +12,16 @@ ms:contentKeyID: 48184225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13bcb9dd285beaaf96e56aef1114751b74c290a6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9f12ecaef8c6dda3b7bcee1da02add88c6ed5c59
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740200"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41995505"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41740200"
 
 _**Última modificación del tema:** 2012-10-02_
 
-Lync Server 2013 admite dos tipos de flujos de trabajo: Grupo de captura y respuesta de voz interactiva (IVR). Al crear un flujo de trabajo, se usa la herramienta de configuración de grupos de respuesta para especificar la cola que se va a usar y otras opciones de configuración, como un mensaje de bienvenida, música en espera, horario comercial y preguntas que la aplicación de grupo de respuesta pregunta al autor de la llamada.
+Lync Server 2013 admite dos tipos de flujos de trabajo: Grupo de extensiones y respuesta de voz interactiva (IVR). Cuando se crea un flujo de trabajo, se usa la herramienta de configuración de grupo de respuesta para especificar la cola que se va a usar y otras opciones, como un mensaje de bienvenida, la música en espera, el horario comercial y las preguntas que la aplicación de grupo de respuesta solicita al autor de la llamada.
 
 <div>
 
 
 > [!NOTE]  
-> Debe crear grupos de agentes y colas antes de crear un flujo de trabajo que use dichos elementos. Si desea crear días laborables y festivos predefinidos que puede usar para varios flujos de trabajo, también debe definir estas horas y días no laborables antes de crear un flujo de trabajo que las use.
+> Debe crear grupos de agentes y colas antes de crear un flujo de trabajo que use dichos elementos. Si desea crear horario comercial y festivos predefinidos que puede usar para varios flujos de trabajo, también debe definir estas horas y festivos antes de crear un flujo de trabajo que las use.
 
 
 
@@ -53,7 +53,7 @@ Lync Server 2013 admite dos tipos de flujos de trabajo: Grupo de captura y respu
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Crear o modificar un flujo de trabajo de grupo de captura en Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
+  - [Crear o modificar un flujo de trabajo de grupo de búsqueda en Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
 
   - [Crear o modificar un flujo de trabajo interactivo en Lync Server 2013](lync-server-2013-create-or-modify-an-interactive-workflow.md)
 
@@ -66,10 +66,10 @@ Lync Server 2013 admite dos tipos de flujos de trabajo: Grupo de captura y respu
 
 [Crear o modificar un grupo de agentes en Lync Server 2013](lync-server-2013-create-or-modify-an-agent-group.md)  
 [Crear o modificar una cola en Lync Server 2013](lync-server-2013-create-or-modify-a-queue.md)  
-[Faculta Definir conjuntos de días festivos de grupos de respuesta en Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md)  
+[Opcional Definir conjuntos de días festivos para grupos de respuesta en Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md)  
 
 
-[Faculta Definir las horas de trabajo del grupo de respuesta en Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)  
+[Opcional Definir el horario comercial del grupo de respuesta en Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)  
   
 
 </div>

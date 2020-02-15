@@ -12,16 +12,16 @@ ms:contentKeyID: 48183602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27ca4874ac8c991828383afb524be1a1868bb7e8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dbf2a8c64e549a90661d10614254c5937ebde603
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763534"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007359"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,11 +37,11 @@ ms.locfileid: "41763534"
 
 _**Última modificación del tema:** 2012-09-08_
 
-En Lync Server 2013, había disponible un asistente de validación independiente para ayudar a validar la conectividad entre los servidores perimetrales y los servidores internos. En Lync Server 2013 la validación de conectividad se realiza automáticamente cuando se instalan los servidores perimetrales.
+En Lync Server 2013, había disponible un asistente de validación independiente para ayudar a validar la conectividad entre los servidores perimetrales y los servidores internos. En Lync Server 2013 la validación de la conectividad se realiza automáticamente al instalar los servidores perimetrales.
 
-Puede validar la replicación de la información de configuración en el extremo ejecutando el cmdlet **Get-CsManagementStoreReplicationStatus** de Windows PowerShell en el equipo interno en el que se encuentra el almacén de administración central (o en cualquier equipo de dominio Unido en el que estén instalados los componentes principales de Lync Server 2013 (OcsCore. msi). Los resultados iniciales pueden indicar que el estado es "false" en lugar de "true" para la replicación. En ese caso, ejecuta el cmdlet **Invoke-CsManagementStoreReplication** y deja tiempo para que se complete la replicación antes de volver a ejecutar **Get-CsManagementStoreReplicationStatus** .
+Para validar la replicación de la información de configuración en el servidor perimetral, ejecute el cmdlet **Get-CsManagementStoreReplicationStatus** de Windows PowerShell en el equipo interno en el que se encuentra el almacén de administración central (o en cualquier equipo unido al dominio en el que se hayan instalado los componentes principales de Lync Server 2013 (OcsCore. msi). Los resultados iniciales pueden indicar el estado como "False" en lugar de "True" para la replicación. Si así es, ejecute el cmdlet **Invoke-CsManagementStoreReplication** y deje que la replicación termine antes de volver a ejecutar **Get-CsManagementStoreReplicationStatus**.
 
-Puede comprobar la conectividad de usuarios externos por separado, incluyendo el analizador de conectividad remota de Office Communications Server para comprobar la conectividad de usuarios remotos. Para obtener más información, vea [comprobar la conectividad de los usuarios externos en Lync Server 2013](lync-server-2013-verify-connectivity-for-external-users.md).
+La conectividad de los usuarios externos se puede comprobar por separado, además de usar el Analizador de conectividad remota de Office Communications Server para comprobar la conectividad remota de los usuarios. Para obtener más información, consulte [Verify Connectivity for external users in Lync Server 2013](lync-server-2013-verify-connectivity-for-external-users.md).
 
 </div>
 

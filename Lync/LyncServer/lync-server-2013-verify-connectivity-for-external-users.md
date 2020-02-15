@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Comprobar la conectividad de usuarios externos'
+title: 'Lync Server 2013: comprobar la conectividad de usuarios externos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c1f8a9bbda54c596a9ccae8451b15ce7300bffd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 14d3dbc74119ff4f5669776dafce8a7cc2dee21a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763524"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007349"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,35 +37,35 @@ ms.locfileid: "41763524"
 
 _**Última modificación del tema:** 2012-10-19_
 
-La validación de la conectividad de los usuarios externos requiere garantizar la conectividad de los usuarios con el servidor y el puerto del servicio perimetral de acceso.
+La validación de la conectividad para los usuarios externos requiere garantizar la conectividad de los usuarios al servidor y el puerto para el servicio perimetral de acceso.
 
-Un recurso muy útil para confirmar la configuración y la capacidad de conectar, enviar y recibir los mensajes correctos para los escenarios que requiere el acceso de usuarios externos es el analizador de conectividad<http://www.testocsconnectivity.com>remota (). El sitio es administrado y mantenido por el soporte técnico de Microsoft. Para comunicarse con el analizador de conectividad remota, abra el sitio web en un explorador y siga las instrucciones para seleccionar el escenario.
+Un recurso valioso para confirmar la configuración y la capacidad de conectarse, enviar y recibir mensajes correctos para los escenarios que requiere el acceso de usuarios externos es el sitio analizador de conectividad remota<http://www.testocsconnectivity.com>(). El sitio es administrado y mantenido por el soporte técnico de Microsoft. Para acceder al analizador de conectividad remota, abra el sitio web en un explorador y siga las instrucciones para seleccionar el escenario.
 
 <div>
 
-## <a name="test-connectivity-of-external-users-and-external-access"></a>Probar la conectividad de usuarios externos y acceso externo
+## <a name="test-connectivity-of-external-users-and-external-access"></a>Comprobación de conectividad de los usuarios externos y el acceso externo
 
-Las pruebas para el acceso de usuarios externos deben incluir cada tipo de usuario externo que admita su organización, incluidos cualquiera de los siguientes elementos:
+Las pruebas para el acceso de usuarios externos deben incluir cada tipo de usuario externo que admita su organización, incluidos todos o algunos de los siguientes elementos:
 
-  - Usuarios de al menos un dominio federado y prueba la mensajería instantánea, la presencia, A/V y el uso compartido del escritorio.
+  - Usuarios de al menos un dominio federado y probar la mensajería instantánea, la presencia, el uso compartido de escritorio y A/V.
 
-  - Usuarios de cada proveedor de servicios de mensajería instantánea pública que admita su organización (y para el que se ha completado el aprovisionamiento).
+  - Usuarios de cada proveedor de servicios de mensajería instantánea pública que admita su organización (y para los que se haya completado el aprovisionamiento).
 
   - Usuarios anónimos.
 
-  - Los usuarios de su organización que hayan iniciado sesión en Lync de forma remota, pero no utilicen VPN.
+  - Usuarios de la organización que han iniciado sesión en Lync de forma remota, pero que no usan VPN.
 
-Estas pruebas determinan si su servidor perimetral es:
+Estas pruebas determinan si el servidor perimetral es:
 
-  - Escucha en los puertos necesarios a través de un cliente de telnet de fuera de la red.
+  - Escucha en los puertos necesarios mediante el uso de un cliente de Telnet desde fuera de la red.
     
       - Ejemplo: Telnet sip.contoso.com 443
     
-      - Realice la prueba anterior en los puertos que está usando en el servidor perimetral o en el grupo de servidores perimetrales dependiendo de su implementación.
+      - Realice la prueba anterior en los puertos que usa en el servidor perimetral o en el grupo de servidores perimetrales en función de la implementación.
 
-  - Logre una resolución de DNS externa precisa.
+  - Realizar una resolución de DNS externa precisa.
     
-      - Desde fuera de la red haga ping a cada uno de los FQDN externos de su grupo perimetral o perimetral. Incluso si se produce un error en la ping, verá las direcciones IP, que puede comparar con las que ha asignado.
+      - Desde fuera de la red haga ping a cada uno de los FQDN externos del grupo perimetral o perimetral. Incluso si se produce un error en el comando ping, verá las direcciones IP, que puede comparar con las que ha asignado.
 
 </div>
 

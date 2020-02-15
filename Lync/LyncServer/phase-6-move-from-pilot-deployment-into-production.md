@@ -1,5 +1,5 @@
 ---
-title: 'Fase 6: Pasar de la implementación piloto a la producción'
+title: 'Fase 6: pasar de la implementación piloto a la producción'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61720e8a255be3f5eedbee3c8cf409b4342427af
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 50f4b6c9b9930b9966f13ec44e7f418d7595e2f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743630"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-6-move-from-pilot-deployment-into-production"></a>Fase 6: Pasar de la implementación piloto a la producción
+# <a name="phase-6-move-from-pilot-deployment-into-production"></a>Fase 6: pasar de la implementación piloto a la producción
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41743630"
 
 _**Última modificación del tema:** 2012-10-19_
 
-En los temas de esta sección se describen tareas que debe completar antes de mover la implementación de Lync Server 2013 desde una implementación piloto a una implementación de nivel de producción.
+En los temas de esta sección se describen las tareas que debe completar antes de mover la implementación de Lync Server 2013 desde una implementación piloto a una implementación de nivel de producción.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Configurar las rutas de federación y el tráfico multimedia](configure-federation-routes-and-media-traffic.md)
+  - [Configurar rutas de Federación y tráfico de medios](configure-federation-routes-and-media-traffic.md)
 
   - [Comprobar la federación y el acceso remoto de usuarios externos](verify-federation-and-remote-access-for-external-users.md)
 
-  - [Cambiar las direcciones URL simples tras la migración](change-simple-urls-after-migration.md)
+  - [Cambiar direcciones URL sencillas después de la migración](change-simple-urls-after-migration.md)
 
   - [Mover los usuarios restantes a Lync Server 2013](move-remaining-users-to-lync-server-2013.md)
 

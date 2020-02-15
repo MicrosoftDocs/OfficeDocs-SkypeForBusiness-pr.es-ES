@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Crear objetos de contacto para la mensajería unificada de Exchange hospedada'
+title: 'Lync Server 2013: crear objetos de contacto para la mensajería unificada de Exchange hospedada'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185045
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 358b595fceb05a377c59479b0a08e100bffb318a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 15a238c2517fd295d35d63a8a1d2f4c4e88a76b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740350"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42032863"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,11 +37,11 @@ ms.locfileid: "41740350"
 
 _**Última modificación del tema:** 2012-09-24_
 
-El procedimiento siguiente explica cómo crear objetos de contacto de acceso de suscriptor automático (AA) o de acceso de suscriptor (SA) para mensajería unificada de Exchange hospedado (UM).
+El siguiente procedimiento explica cómo crear objetos de contacto de operador automático (AA) o de acceso de suscriptor (SA) para mensajería unificada (UM) hospedada de Exchange.
 
-Para obtener más información, consulte [Administración de objetos de contactos hospedados de Exchange en Lync Server 2013](lync-server-2013-hosted-exchange-contact-object-management.md) en la documentación de planeación.
+Para obtener más información, consulte [Hosted Exchange Contact Object Management in Lync Server 2013](lync-server-2013-hosted-exchange-contact-object-management.md) en la documentación referente a la planeación.
 
-Para obtener detalles sobre la configuración de objetos de contacto, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:
+Para obtener más información acerca de la configuración de objetos de contacto, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:
 
   - [New-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/New-CsExUmContact)
 
@@ -51,7 +51,7 @@ Para obtener detalles sobre la configuración de objetos de contacto, consulte l
 
 
 > [!IMPORTANT]  
-> Antes de que los objetos de contacto de Lync Server 2013 se puedan habilitar para la mensajería unificada de Exchange hospedada, se debe implementar una directiva de correo de voz hospedada que se aplica. Para obtener más información, consulte <A href="lync-server-2013-hosted-voice-mail-policies.md">directivas de correo de voz hospedado en Lync Server 2013</A>.
+> Antes de que Lync Server 2013 los objetos de contacto se puedan habilitar para la mensajería unificada de Exchange hospedada, debe implementarse una directiva de correo de voz hospedada que se les aplique. Para obtener más información, consulte <A href="lync-server-2013-hosted-voice-mail-policies.md">directivas de correo de voz hospedado en Lync Server 2013</A>.
 
 
 
@@ -59,11 +59,11 @@ Para obtener detalles sobre la configuración de objetos de contacto, consulte l
 
 <div>
 
-## <a name="to-create-aa-or-sa-contact-objects-for-hosted-exchange-um"></a>Para crear objetos de contacto AA o SA para una mensajería unificada de Exchange hospedado
+## <a name="to-create-aa-or-sa-contact-objects-for-hosted-exchange-um"></a>Para crear objetos de contacto AA o SA para la mensajería unificada de Exchange hospedada
 
-1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-2.  Ejecute el cmdlet New-CsExUmContact para crear cualquier objeto de contacto necesario para su implementación. Por ejemplo, ejecute lo siguiente para crear un objeto de contacto de AA y de SA:
+2.  Ejecute el cmdlet New-CsExUmContact para crear cualquier objeto de contacto necesario para la implementación. Por ejemplo, ejecute lo siguiente para crear un objeto de contacto de la AA y de la Asociación:
     
        ```powershell
         New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
@@ -73,11 +73,11 @@ Para obtener detalles sobre la configuración de objetos de contacto, consulte l
         New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
        ```
     
-    Estos ejemplos establecen los siguientes parámetros:
+    En estos ejemplos se establecen los siguientes parámetros:
     
-      - **SipAddress** especifica la dirección SIP del objeto de contacto. Debe ser una dirección que aún no se haya usado para configurar un objeto de usuario o contacto en los servicios de dominio de Active Directory. Este valor debe tener el formato "SIP:\<*Dirección*\>SIP", tal y como se muestra en los ejemplos anteriores.
+      - **SipAddress** especifica la dirección SIP del objeto de contacto. Debe tratarse de una dirección que aún no se haya usado para configurar un objeto de contacto o de usuario en servicios de dominio de Active Directory. Este valor debe tener el formato "SIP:\<*Dirección*\>SIP", tal como se muestra en los ejemplos anteriores.
     
-      - **RegistrarPool** especifica el nombre de dominio completo (FQDN) del grupo en el que se está ejecutando el servicio de registro.
+      - **RegistrarPool** especifica el nombre de dominio completo (FQDN) del grupo en el que se está ejecutando el servicio de registrador.
         
         <div class=" ">
         
@@ -92,7 +92,7 @@ Para obtener detalles sobre la configuración de objetos de contacto, consulte l
     
       - **DisplayNumber** especifica el número de teléfono del objeto de contacto. El número de teléfono de cada objeto de contacto debe ser único.
     
-      - **Autoattendant** especifica si el objeto Contact es un operador automático. El operador automático proporciona un conjunto de mensajes de voz que permiten que las personas que llaman puedan navegar por el sistema telefónico y llegar a la persona con quien desean ponerse en contacto. Un valor de **falso** (el valor predeterminado) de este parámetro indica un objeto de contacto de acceso de suscriptor.
+      - **Autoattendant** especifica si el objeto de contacto es un operador automático. Operador automático proporciona un conjunto de mensajes de voz que permiten a los autores de llamadas navegar por el sistema telefónico y llegar a la parte de la que quieren contactar. Un valor de **false** (valor predeterminado) para este parámetro indica un objeto de contacto de acceso de suscriptor.
 
 </div>
 

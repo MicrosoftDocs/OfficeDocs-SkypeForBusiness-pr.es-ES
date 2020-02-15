@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: informe de inventario telefónico de IP'
+title: 'Lync Server 2013: informe de inventario de teléfono IP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5fb9bb9a3ae48c8bf2fc9a5122e1b8004e0f6019
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0c99945626105282324202d1fd754cd5d966bc81
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765378"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035102"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Informe de inventario telefónico de IP en Lync Server 2013
+# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Informe de inventario de teléfono IP en Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41765378"
 
 _**Última modificación del tema:** 2012-11-12_
 
-El informe de inventario de teléfono IP ofrece información sobre los teléfonos IP que la organización usa actualmente. El informe proporciona una lista detallada de los teléfonos IP que realmente se usaron durante el período de informes especificado. Entre otros datos, este informe permite que los administradores conozcan si aún hay teléfonos antiguos obsoletos en uso que se necesiten reemplazar. También puede advertir a los administradores sobre la presencia de teléfonos costosos que casi no se usan en la organización. Ese tipo de información puede resultar valiosa en el momento de comprar teléfonos nuevos o de redistribuir los teléfonos existentes. (Por ejemplo, se le puede pedir a un usuario que rara vez usa su costoso teléfono que lo intercambie con un usuario que usa el suyo con mucha más frecuencia).
+El informe de inventario de teléfono IP ofrece información sobre los teléfonos IP que la organización usa actualmente. El informe proporciona una lista detallada de los teléfonos IP que realmente se usaron durante el período de informes especificado. Entre otros datos, este informe permite que los administradores conozcan si aún hay teléfonos antiguos obsoletos en uso que se deben reemplazar. También puede advertir a los administradores sobre la presencia de teléfonos costosos que casi no se usan en la organización. Ese tipo de información puede resultar valiosa en el momento de comprar teléfonos nuevos o de redistribuir los teléfonos existentes. (Por ejemplo, se le puede pedir a un usuario que rara vez usa su costoso teléfono que lo intercambie con un usuario que usa el suyo con mucha más frecuencia).
 
-Es preciso tener en cuenta que este informe presenta algunas limitaciones cuando se usa como un informe de inventario real. Por un lado, el informe de teléfono IP simplemente muestra todos los teléfonos que iniciaron sesión en Lync Server durante el período de tiempo especificado, ordenados por el último tiempo de inicio de sesión. Si un teléfono no inició sesión durante el período especificado, no aparecerá en el informe de inventario. Eso incluye los teléfonos que iniciaron sesión antes de que comenzara el período y que seguían conectados durante el intervalo especificado. Por ejemplo, supongamos que desea consultar todo el inventario de teléfonos de julio de 2012. Supongamos, además, que varios teléfonos han iniciado sesión en Lync Server el 30 de junio de 2012 y que continuaron con la sesión el 1 de julio. Esos teléfonos no se mostrarán en el informe de inventario del 1 de julio.
+Debe tenerse en cuenta que este informe presenta algunas limitaciones cuando se usa como un informe de inventario real. Por un lado, el informe de teléfono IP se limita a enumerar todos los teléfonos que iniciaron sesión en Lync Server durante el período de tiempo especificado, ordenados por la hora de último inicio de sesión. Si un teléfono no inició sesión durante el período especificado, no aparecerá en el informe de inventario. Eso incluye los teléfonos que iniciaron sesión antes de que comenzara el período y que seguían conectados durante el intervalo especificado. Por ejemplo, supongamos que desea ver el inventario de teléfonos completo de julio de 2012. Supongamos, además, que varios teléfonos iniciaron sesión en Lync Server el 30 de junio de 2012 y que todavía iniciaron sesión a partir del 1 de julio. Esos teléfonos no se mostrarán en el informe de inventario del 1 de julio.
 
-También es importante tener en cuenta que el informe de inventario podría incluir teléfonos que su organización ya no utiliza. Por ejemplo, supongamos que una serie de teléfonos de Fabrikam han iniciado sesión en el sistema el 1 de julio de 2012; 5 días más tarde su organización ha quitado todos esos teléfonos de Fabrikam y los ha sustituido por un modelo de Contoso más reciente. Los teléfonos de Fabrikam seguirán apareciendo en el informe "inventario" simplemente porque han iniciado sesión en el sistema durante el mes de julio.
+También es importante tener en cuenta que el informe de inventario puede incluir teléfonos que la organización ya no usa. Por ejemplo, supongamos que diferentes teléfonos de Fabrikam iniciaron sesión en el sistema el 1 de julio de 2012. Cinco días después, la organización se deshizo de todos esos teléfonos de Fabrikam y los reemplazó por un modelo más nuevo de Contoso. Los teléfonos de Fabrikam seguirán apareciendo en el informe de "inventario" porque iniciaron sesión en el sistema durante el mes de julio.
 
 Además, el informe de inventario de teléfono IP no proporciona información sobre los totales de resumen de los diferentes tipos de teléfonos. Por ejemplo, supongamos que tiene 105 teléfonos Polycom CX600. El informe no indicará que tiene 105 teléfonos de ese tipo; en cambio, simplemente se visualizarán 105 entradas independientes para Polycom CX600. La única forma de saber que existen 105 entradas para Polycom CX600 sería contar cada una de esas entradas manualmente.
 
@@ -67,7 +67,7 @@ Se puede tener acceso al informe de inventario de teléfono IP desde la página 
 
 ## <a name="making-the-best-use-of-the-ip-phone-inventory-report"></a>Aprovechar al máximo el informe de inventario de teléfono IP
 
-Si solo le interesa la información de uso de un determinado tipo de teléfono (por ejemplo, "¿con qué frecuencia utilizan los usuarios un teléfono Polycom CX600?"), puede obtener esa información directamente desde el informe de inventario telefónico de IP al filtrar por ese tipo de teléfono en particular. Sin embargo, si desea información de Resumen de todos los teléfonos (cuántas personas usan un Polycom CX600, cuántos usan una IP8540 LG-Nortel, etc.), tendrá que exportar los datos y usar otra aplicación (como Windows PowerShell) para ello Análisis. Por ejemplo, supongamos que exporta los datos a un archivo de valores separados por comas\\(\_C\_:\_\\IP Phone Inventory Report. csv). En ese caso, puede usar estos dos comandos para proporcionar datos de Resumen de todos los teléfonos:
+Si solo le interesa la información de uso de un tipo de teléfono en particular (por ejemplo, "¿con qué frecuencia usan los usuarios un teléfono Polycom CX600?"), puede obtener esa información directamente del informe de inventario de teléfono IP filtrando para ese tipo de teléfono en particular. Sin embargo, si desea obtener información de Resumen de todos los teléfonos (cuántas personas usan un Polycom CX600, cuántos están usando un IP8540 de LG-Nortel), tendrá que exportar los datos y usar otra aplicación (como Windows PowerShell) para realizar ese tipo de analice. Por ejemplo, supongamos que exporta los datos a un archivo de valores separados por comas\\(\_C\_:\_\\Data IP Phone Inventory Report. csv). En ese caso, podría usar estos dos comandos para proporcionar datos de resumen para todos los teléfonos:
 
     $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
     $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
@@ -131,32 +131,32 @@ En la siguiente tabla verá una lista de los filtros que puede usar con el infor
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
-<td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:</p>
-<p>7/7/2012 1:00 P.M.</p>
-<p>Si no escribe una hora de inicio, el informe se iniciará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<td><p><strong>From</strong></p></td>
+<td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</p>
+<p>7/7/2012 1:00 pm</p>
+<p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
-<p>Las semanas siempre van del domingo al sábado.</p></td>
+<p>Las semanas siempre empiezan en domingo y terminan en sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Hasta</strong></p></td>
-<td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización como se indica a continuación:</p>
-<p>7/7/2012 1:00 P.M.</p>
-<p>Si no escribe una hora de finalización, el informe finalizará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:</p>
+<p>7/7/2012 1:00 PM</p>
+<p>Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
 <p>Las semanas siempre van del domingo al sábado.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Fabricante</strong></p></td>
+<td><p><strong>Manufacturer</strong></p></td>
 <td><p>Nombre de la empresa que fabricó el teléfono IP. Los valores de este filtro se rellenan automáticamente a partir de los teléfonos IP que hay actualmente en la base de datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Versión de hardware</strong></p></td>
-<td><p>Número de versión del teléfono IP. con el fabricante y los filtros de versión de hardware, puede identificar de manera inequívoca un determinado tipo de teléfono. Los valores de este filtro se rellenan automáticamente a partir de los teléfonos IP que hay actualmente en la base de datos.</p></td>
+<td><p>Número de versión del teléfono IP; mediante el uso del fabricante y los filtros de versión de hardware puede identificar de manera única un tipo de teléfono en particular. Los valores de este filtro se rellenan automáticamente a partir de los teléfonos IP que hay actualmente en la base de datos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Agente de usuario</strong></p></td>
@@ -167,26 +167,26 @@ En la siguiente tabla verá una lista de los filtros que puede usar con el infor
 <td><p>Identificador único de la interfaz de red del teléfono IP. La dirección Media Access Control (MAC) suele asignarse en el momento de fabricar el teléfono y está preprogramada en el hardware del dispositivo.</p>
 <p>Para buscar registros correspondientes a una dirección MAC concreta, basta con escribir esa dirección. Por ejemplo:</p>
 <p>00-08-5D-16-16-48</p>
-<p>Necesita escribir la dirección completa. Si escribe parte de una dirección (por ejemplo, 00-08-5D), no obtendrá ningún resultado.</p></td>
+<p>Debe escribir la dirección completa. Si escribe parte de una dirección (por ejemplo, 00-08-5D), no obtendrá ningún resultado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Días anteriores a la última actividad</strong></p></td>
 <td><p>Seleccione uno de los siguientes valores:</p>
 <ul>
-<li><p>[Todas]</p></li>
-<li><p>base10</p></li>
-<li><p>veinte</p></li>
-<li><p>0,30</p></li>
+<li><p>Todos</p></li>
+<li><p>10 </p></li>
+<li><p>20</p></li>
+<li><p>semestre</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>Días anteriores a la hora del último cierre de sesión</strong></p></td>
 <td><p>Seleccione uno de los siguientes valores:</p>
 <ul>
-<li><p>[Todas]</p></li>
-<li><p>base10</p></li>
-<li><p>veinte</p></li>
-<li><p>0,30</p></li>
+<li><p>Todos</p></li>
+<li><p>10 </p></li>
+<li><p>20</p></li>
+<li><p>semestre</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -216,13 +216,13 @@ En la tabla siguiente se muestra la información proporcionada en el informe de 
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Fabricante</strong></p></td>
+<td><p><strong>Manufacturer</strong></p></td>
 <td><p>Sí</p></td>
 <td><p>Nombre de la empresa que fabricó el teléfono IP.</p></td>
 </tr>
@@ -247,14 +247,14 @@ En la tabla siguiente se muestra la información proporcionada en el informe de 
 <td><p>Identificador del software del teléfono IP.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Hora del último inicio de sesión</strong></p></td>
+<td><p><strong>Hora de último inicio de sesión</strong></p></td>
 <td><p>Sí</p></td>
 <td><p>Fecha y hora en que el teléfono IP inició sesión por última vez en Lync Server.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Hora del último cierre de sesión</strong></p></td>
+<td><p><strong>Hora de último cierre de sesión</strong></p></td>
 <td><p>Sí</p></td>
-<td><p>Fecha y hora en que el teléfono IP se cerró por última vez en Lync Server.</p></td>
+<td><p>Fecha y hora en que el teléfono IP cerró sesión por última vez en Lync Server.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Última actividad</strong></p></td>

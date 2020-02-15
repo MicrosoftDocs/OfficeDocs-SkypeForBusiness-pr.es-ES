@@ -12,16 +12,16 @@ ms:contentKeyID: 50675349
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99936b495075034e6eae3f90e6dd95325bf6e2be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8e18cf2aa76ada1d3ab42d16f68d902ad3a41eae
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736410"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007088"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -43,27 +43,27 @@ Si desea eliminar una directiva de versión de cliente que se configuró anterio
 
 ## <a name="to-delete-client-version-policies-by-using-lync-server-control-panel"></a>Para eliminar directivas de versión de cliente mediante el panel de control de Lync Server
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, haga clic en el botón de navegación de la **Directiva de versión cliente** .
+3.  En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, haga clic en el botón de navegación **Directiva de versión de cliente** .
 
-4.  En la página **Directiva de versión del cliente** , seleccione la Directiva de versión del cliente o las directivas que desea eliminar, haga clic en **Editar**y, a continuación, haga clic en **eliminar**.
+4.  En la página **Directiva de versión de cliente** , seleccione la Directiva o las directivas de versión de cliente que desea eliminar, haga clic en **Editar**y, a continuación, haga clic en **eliminar**.
 
 </div>
 
 <div>
 
-## <a name="deleting-client-version-policies-by-using-windows-powershell-cmdlets"></a>Eliminar directivas de versión de cliente con cmdlets de Windows PowerShell
+## <a name="deleting-client-version-policies-by-using-windows-powershell-cmdlets"></a>Eliminación de directivas de versión de cliente mediante cmdlets de Windows PowerShell
 
-Puede eliminar directivas de versión de cliente mediante el cmdlet **Remove-CsClientVersionPolicy** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede eliminar directivas de versión de cliente mediante el cmdlet **Remove-CsClientVersionPolicy** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
 <div>
 
 ## <a name="to-remove-a-specific-client-version-policy"></a>Para quitar una directiva de versión de cliente específica
 
-  - Este comando elimina la Directiva de versión del cliente que se aplica al sitio de Redmond:
+  - Este comando elimina la Directiva de versión de cliente que se aplica al sitio Redmond:
     
         Remove-CsClientVersionPolicy -Identity site:Redmond
 
@@ -73,7 +73,7 @@ Puede eliminar directivas de versión de cliente mediante el cmdlet **Remove-CsC
 
 ## <a name="to-remove-all-the-client-version-policies-applied-to-the-site-scope"></a>Para quitar todas las directivas de versión de cliente que se aplican al ámbito del sitio
 
-  - Este comando quita todas las directivas de versión de cliente configuradas en el ámbito del sitio:
+  - Este comando quita todas las directivas de versión de cliente configuradas en el ámbito de sitio:
     
         Get-CsClientVersionPolicy -Fiter "site:*" | Remove-CsClientVersionPolicy
 
@@ -83,13 +83,13 @@ Puede eliminar directivas de versión de cliente mediante el cmdlet **Remove-CsC
 
 ## <a name="to-remove-client-version-policies-that-do-not-include-a-specific-user-agent"></a>Para quitar directivas de versión de cliente que no incluyen un agente de usuario específico
 
-  - Y este comando elimina las directivas de versión de cliente que no incluyan una regla para el agente de usuario de Windows Phone Lync (WPLync):
+  - Y este comando quita todas las directivas de versión de cliente que no incluyan una regla para el agente de usuario de Windows Phone Lync (WPLync):
     
         Get-CsClientVersionPolicy | Where-Object {$_.Rules -notmatch "UserAgent=WPLync" | Remove-CsClientVersionPolicy
 
 </div>
 
-Para obtener más información, vea el tema de ayuda sobre el cmdlet [Remove-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsClientVersionPolicy) .
+Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsClientVersionPolicy) .
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Administrar el estacionamiento de llamadas durante la recuperación ante desastres'
+title: 'Lync Server 2013: administrar el estacionamiento de llamadas durante la recuperación ante desastres'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733645
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f324064e2936bda7b5e015aa502aaca10407e591
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 727751762fc63d9e4f888b20dabd62fef0278ea6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733420"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007809"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41733420"
 
 _**Última modificación del tema:** 2012-09-10_
 
-Lync Server 2013 admite la llamada en el grupo de copia de seguridad durante la recuperación ante desastres. En esta sección se describe lo que hay que tener en cuenta si desea admitir la función deestacionamientor llamadas durante una interrupción y qué sucede con las llamadas estacionadas durante las etapas de una interrupción.
+Lync Server 2013 admite el estacionamiento de llamadas en el grupo de copia de seguridad durante la recuperación ante desastres. En esta sección se describen los aspectos que se deben tener en cuenta si se desea admitir el estacionamiento de llamadas durante una interrupción y qué sucede con las llamadas estacionadas durante las fases de una interrupción.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Planear la recuperación ante desastres del estacionamiento de llamadas en Lync Server 2013](lync-server-2013-planning-for-call-park-disaster-recovery.md)
+  - [Planeación de la recuperación ante desastres del estacionamiento de llamadas en Lync Server 2013](lync-server-2013-planning-for-call-park-disaster-recovery.md)
 
-  - [Experiencia de estacionamiento de llamadas durante un error del grupo de servidores en Lync Server 2013](lync-server-2013-call-park-experience-during-pool-failure.md)
+  - [Experiencia de estacionamiento de llamadas en Lync Server 2013 durante un error de grupo](lync-server-2013-call-park-experience-during-pool-failure.md)
 
 </div>
 

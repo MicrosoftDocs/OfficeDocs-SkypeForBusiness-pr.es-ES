@@ -1,5 +1,5 @@
 ---
-title: Crear un registro DNS SRV para la integración con mensajería unificada (UM) hospedada de Exchange
+title: Crear un registro SRV de DNS para la integración con la mensajería unificada de Exchange hospedada
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184770
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8cc5072e122d553007a2b4e095c58988aca390d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 43df4e9956fd3c48b88a0fd3adc70d131fc1c669
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740460"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035172"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Crear un registro DNS SRV para la integración con mensajería unificada (UM) hospedada de Exchange
+# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Crear un registro SRV de DNS para la integración con la mensajería unificada de Exchange hospedada
 
 </div>
 
@@ -37,49 +37,49 @@ ms.locfileid: "41740460"
 
 _**Última modificación del tema:** 2013-02-20_
 
-En este tema se describe cómo configurar el registro SRV de sistema de nombres de dominio (DNS) necesario para que un servidor perimetral de Lync Server 2013 se pueda enrutar a un servicio de Exchange hospedado como Microsoft Exchange Online.
+En este tema se describe cómo configurar el registro SRV del sistema de nombres de dominio (DNS) necesario para que un servidor perimetral de Lync Server 2013 pueda enrutar a un servicio de Exchange hospedado como Microsoft Exchange Online.
 
 <div>
 
-## <a name="to-create-an-external-dns-srv-record-for-the-hosted-exchange-service"></a>Para crear un registro SRV de DNS externo para el servicio hospedado de Exchange
+## <a name="to-create-an-external-dns-srv-record-for-the-hosted-exchange-service"></a>Para crear un registro SRV de DNS externo para el servicio Exchange hospedado
 
 1.  Inicie sesión en el servidor DNS externo como miembro del grupo DnsAdmins.
 
-2.  Haga clic en **Inicio**, seleccione **herramientas administrativas**y, a continuación, haga clic en **DNS**.
+2.  Haga clic en **Iniciar**, en **Herramientas administrativas** y en **DNS**.
 
-3.  En el árbol de consola de su dominio SIP, expanda **zonas de búsqueda directa**y seleccione el dominio SIP en el que se instalará Lync Server 2013.
+3.  En el árbol de la consola del dominio SIP, expanda **zonas de búsqueda directa**y seleccione el dominio SIP en el que se instalará Lync Server 2013.
     
     <div>
     
 
     > [!IMPORTANT]
-    > Debe crear el registro SRV de DNS en el dominio SIP en el que se instalará o se instalará Lync Server. Al crear el registro SRV, el FQDN usado para el host que ofrece este campo de servicio debe ser el FQDN externo del grupo Edge. Por ejemplo, si el nombre completo externo del grupo de servidores perimetrales es edge01.contoso.net, escriba ese valor. También debe estar en el mismo dominio que el registro de hosts DNS (A).
+    > Debe crear el registro SRV de DNS en el dominio SIP en que se va a instalar Lync Server. Al crear el registro SRV, el FQDN usado para el host que ofrece este campo de servicio debe ser el FQDN externo del grupo de servidores perimetrales. Por ejemplo, si el FQDN externo de su grupo de servidores perimetrales es edge01.contoso.net, escriba ese valor. Este debe estar también en el mismo dominio que el registro de host (A) de DNS.
 
     
     </div>
 
-4.  Haga clic con el botón secundario en el dominio seleccionado y, a continuación, haga clic en **otros registros nuevos**.
+4.  Haga clic con el botón secundario en el dominio seleccionado y haga clic en **Registros nuevos**.
 
-5.  En **tipo de registro de recursos**, haga clic en **Ubicación de servicio (SRV)** y, a continuación, haga clic en **crear registro**.
+5.  En **Tipo de registro del recurso**, haga clic en **Ubicación de servicio (SRV)** y en **Crear registro**.
 
 6.  En **nuevo registro de recursos**, haga clic en **servicio**y, a continuación, escriba ** \_sipfederationtls**.
 
 7.  Haga clic en **Protocolo**y, a continuación, escriba ** \_TCP**.
 
-8.  Haga clic en **Número de puerto** y, luego, escriba **5061**.
+8.  Haga clic en **Número de puerto** y escriba **5061**.
 
-9.  Haga clic en **host que ofrece este servicio**y, a continuación, escriba el nombre de dominio completo (FQDN) del grupo perimetral de lync Server 2013 que proporciona acceso a su sistema de lync Server 2013 para clientes externos de confianza.
+9.  Haga clic en **host que ofrece este servicio**y, a continuación, escriba el nombre de dominio completo (FQDN) del grupo de servidores perimetrales de lync Server 2013 que proporciona acceso al sistema de lync Server 2013 para clientes externos de confianza.
     
     <div>
     
 
     > [!NOTE]
-    > El dominio también debe configurarse como un dominio autorizado y aceptado en la configuración de Exchange Online. Para obtener más información, consulte crear dominios <A href="http://go.microsoft.com/fwlink/p/?linkid=229762">http://go.microsoft.com/fwlink/p/?linkId=229762</A>aceptados en.
+    > El dominio también debe estar configurado como un dominio aceptado y autoritativo en la configuración de Exchange Online. Para obtener más información, consulte crear dominios <A href="http://go.microsoft.com/fwlink/p/?linkid=229762">http://go.microsoft.com/fwlink/p/?linkId=229762</A>aceptados en.
 
     
     </div>
 
-10. Haga clic en **Aceptar** y, luego, haga clic en **Listo**.
+10. Haga clic en **Aceptar** y en **Listo**.
 
 </div>
 
@@ -87,15 +87,15 @@ En este tema se describe cómo configurar el registro SRV de sistema de nombres 
 
 ## <a name="to-verify-that-the-dns-srv-record-was-created-successfully"></a>Para comprobar que el registro SRV de DNS se ha creado correctamente
 
-1.  Inicie sesión en un equipo cliente del dominio.
+1.  Inicie sesión en un equipo cliente en el dominio.
 
-2.  Haga clic en  **Inicio ** y en  **Ejecutar **.
+2.  Haga clic en **Inicio** y, a continuación, en **Ejecutar**.
 
-3.  En el símbolo del sistema, ejecute el siguiente comando:
+3.  En el símbolo del sistema, ejecute el comando siguiente:
     
         nslookup <FQDN Lync Edge Pool>
 
-4.  Compruebe que recibe una respuesta que se resuelve en la dirección IP adecuada para el nombre de dominio completo (FQDN).
+4.  Compruebe que recibe una respuesta que resuelve la dirección IP adecuada para el FQDN.
 
 </div>
 

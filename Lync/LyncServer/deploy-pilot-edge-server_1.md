@@ -12,16 +12,16 @@ ms:contentKeyID: 48183446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 686973f9334b9bf376a2e56c52f3306cf243c0eb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 69d6d83751dd4e8b28a460f154b35416d80e0bb6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724030"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006436"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,45 +37,45 @@ ms.locfileid: "41724030"
 
 _**Última modificación del tema:** 2012-10-19_
 
-En este tema se destacan las opciones de configuración que debe tener en cuenta antes de implementar el servidor perimetral de Lync Server 2013. Esta sección solo resalta los puntos clave que debe considerar como parte de la implementación del grupo de bordes de la prueba piloto. Para conocer los pasos detallados, vea [implementar el acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md) en la documentación de implementación, que describe el proceso de implementación y también proporciona información de configuración para el acceso de usuarios externos.
+En este tema se destacan las opciones de configuración que debe tener en cuenta antes de implementar el servidor perimetral de Lync Server 2013. En esta sección solo se destacan los puntos clave que se deben tener en cuenta como parte de la implementación del grupo de servidores perimetrales piloto. Para conocer los pasos detallados, consulte [Deploying external User Access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) en la documentación sobre implementación, que describe el proceso de implementación y también proporciona información de configuración para el acceso de usuarios externos.
 
-Mientras navega por el asistente **definir nuevo grupo de bordes** , revise la configuración de clave que se muestra en los siguientes pasos. Observe que solo se muestran algunas páginas del asistente **definir nuevo grupo de bordes** .
+Al navegar por el asistente **Definir nuevo grupo de servidores perimetrales**, repase las principales opciones de configuración recogidas en cada paso. Observe que solo se muestran unas cuantas páginas de**** este asistente.
 
-**Definir un grupo perimetral**
+**Definir un grupo de servidores perimetrales**
 
-1.  Abra la topología de la agrupación piloto con el generador de topología.
+1.  Abra la topología del grupo piloto en Generador de topologías.
 
-2.  Vaya al nodo de 2013 de Lync Server. Haga clic con el botón secundario en **agrupaciones perimetrales**y haga clic en **nuevo borde**.
+2.  Navegue hasta el nodo 2013 de Lync Server. haga clic con el botón secundario en **Grupos de servidores perimetrales** y en **Nuevo grupo de servidores perimetrales**.
     
-    ![Definir el cuadro de diálogo nuevo grupo perimetral](images/JJ205306.a90d388c-49ff-4620-a19d-42e2f1bb559c(OCS.15).jpg "Definir el cuadro de diálogo nuevo grupo perimetral")
+    ![Definir el cuadro de diálogo nuevo grupo de servidores perimetrales](images/JJ205306.a90d388c-49ff-4620-a19d-42e2f1bb559c(OCS.15).jpg "Definir el cuadro de diálogo nuevo grupo de servidores perimetrales")
 
-3.  Un grupo de servidores perimetrales puede ser un **grupo de varios equipos** o un **único grupo de equipos**.
+3.  Un grupo de servidores perimetrales puede ser un **Grupo de varios equipos** o un **Grupo de un solo equipo**.
     
-    ![Definir el cuadro de diálogo FQDN del grupo de bordes](images/JJ205306.4904fe8f-537c-4e66-a399-1bd8a316dc10(OCS.15).jpg "Definir el cuadro de diálogo FQDN del grupo de bordes")
+    ![Cuadro de diálogo definir el FQDN del grupo de servidores perimetrales](images/JJ205306.4904fe8f-537c-4e66-a399-1bd8a316dc10(OCS.15).jpg "Cuadro de diálogo definir el FQDN del grupo de servidores perimetrales")
 
-4.  En la página **seleccionar características** , no habilite la Federación ni la Federación XMPP. La Federación y la Federación de XMPP actualmente se enrutan a través del servidor perimetral heredado de Office Communications Server 2007 R2. Estas características se configurarán en una fase posterior de la migración.
+4.  En la página **Seleccionar características**, no habilite la federación ni la federación XMPP. La Federación y la Federación XMPP actualmente se enrutan a través del servidor perimetral de Office Communications Server 2007 R2 heredado. Estas características se configurarán en una fase posterior de la migración.
     
     ![Cuadro de diálogo Seleccionar características](images/JJ205306.cb0b45a4-2856-45ba-bd97-e49fafbb077e(OCS.15).jpg "Cuadro de diálogo Seleccionar características")
 
-5.  Después, siga completando las siguientes páginas del asistente: **Seleccione opciones de IP**, **FQDN externos**, **defina la dirección IP interna**y **defina la dirección IP externa**.
+5.  A continuación, siga completando las siguientes páginas del asistente: **Seleccione opciones IP**, **FQDN externos**, **defina la dirección IP interna**y **defina la dirección IP externa**.
 
-6.  En la página **definir el siguiente salto** , seleccione el director para el próximo salto del grupo de servidores perimetrales de Lync Server 2013.
+6.  En la página **definir el próximo salto** , seleccione el director para el próximo salto del grupo de servidores perimetrales de Lync Server 2013.
     
-    ![Cuadro de diálogo definir nuevo grupo perimetral, lista Grupo de próximos saltos](images/JJ204682.61d963d5-e0bd-4b1f-b437-e37c267347ba(OCS.15).jpg "Cuadro de diálogo definir nuevo grupo perimetral, lista Grupo de próximos saltos")
+    ![Cuadro de diálogo definir nuevo grupo de servidores perimetrales, lista de grupo de servidores de próximo salto](images/JJ204682.61d963d5-e0bd-4b1f-b437-e37c267347ba(OCS.15).jpg "Cuadro de diálogo definir nuevo grupo de servidores perimetrales, lista de grupo de servidores de próximo salto")
 
-7.  En la página **asociar pools front-end** , no asocie un grupo con este grupo perimetral en este momento. El tráfico multimedia externo se enruta actualmente a través del servidor perimetral heredado de Office Communications Server 2007 R2. Esta configuración se configurará en una fase posterior de la migración.
+7.  En la página **asociar grupos de servidores front-end** , no asocie un grupo de servidores a este grupo de servidores perimetrales en este momento. El tráfico de medios externos se enruta actualmente a través del servidor perimetral de Office Communications Server 2007 R2 heredado. Definiremos esta configuración en una fase posterior de la migración.
     
-    ![Cuadro de diálogo definir nuevo grupo perimetral](images/JJ204682.bb538039-bd2a-40ed-a120-8b80bd2cefc2(OCS.15).jpg "Cuadro de diálogo definir nuevo grupo perimetral")
+    ![Cuadro de diálogo definir nuevo grupo de servidores perimetrales](images/JJ204682.bb538039-bd2a-40ed-a120-8b80bd2cefc2(OCS.15).jpg "Cuadro de diálogo definir nuevo grupo de servidores perimetrales")
 
-8.  Haga clic en **Finalizar** y, a continuación, **publique** la topología.
+8.  Haga clic en **Finalizar** y, a continuación, publique**** la topología.
 
-9.  Siga los pasos que se indican en [instalar servidores perimetrales para Lync Server 2013](lync-server-2013-install-edge-servers.md) en la documentación de implementación para instalar los archivos en el nuevo servidor perimetral, configurar certificados e iniciar los servicios.
+9.  Siga los pasos descritos en [instalar servidores perimetrales para Lync Server 2013](lync-server-2013-install-edge-servers.md) en la documentación de implementación para instalar los archivos en el nuevo servidor perimetral, configurar los certificados e iniciar los servicios.
 
-Es muy importante seguir las directrices de los temas [implementar el acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md) en la documentación de implementación. En esta sección se proporciona una mera información sobre las opciones de configuración al instalar estos roles de servidor.
+Es muy importante que siga las instrucciones de los temas [Deploying external User Access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) en la documentación sobre implementación. En esta sección solo se ha proporcionado cierta orientación sobre las opciones de configuración al instalar estos roles de servidor.
 
-Ahora debe tener una implementación heredada de servidor perimetral de Office Communications Server 2007 R2, indicada por la presencia de la BackCompatSite, en paralelo con una implementación de servidor perimetral de Lync Server 2013. La Federación está configurada para usar el director de Office Communications Server 2007 R2. Compruebe que las implementaciones se ejecutan correctamente y que se inician los servicios, y puede administrar cada implementación antes de pasar a la siguiente fase.
+Ahora debe tener una implementación heredada de servidor perimetral de Office Communications Server 2007 R2, indicada por la presencia de BackCompatSite, en paralelo con una implementación de servidor perimetral de Lync Server 2013. La Federación está configurada para usar el director de Office Communications Server 2007 R2. Antes de pasar a la siguiente fase, confirme que ambas implementaciones funcionan correctamente, que los servicios se han iniciado y que puede administrar cada una de las implementaciones.
 
-![Generador de topología que muestra el servidor perimetral de OCS](images/JJ204682.171363a3-eaf0-4c94-bd41-02b1ab6fa7dc(OCS.15).jpg "Generador de topología que muestra el servidor perimetral de OCS")
+![Generador de topologías que muestra el servidor perimetral de OCS](images/JJ204682.171363a3-eaf0-4c94-bd41-02b1ab6fa7dc(OCS.15).jpg "Generador de topologías que muestra el servidor perimetral de OCS")
 
 </div>
 

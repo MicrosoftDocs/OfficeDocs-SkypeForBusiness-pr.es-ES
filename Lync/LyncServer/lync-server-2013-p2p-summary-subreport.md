@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: subinforme del Resumen P2P'
+title: 'Lync Server 2013: subinforme de Resumen de P2P'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185950
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3cff1eb86376068d53651f0d88224bf7f030921
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47da588037fd3db70fc277c91b919185f48a9286
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755404"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41989735"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="p2p-summary-subreport-in-lync-server-2013"></a>Informe de Resumen de P2P en Lync Server 2013
+# <a name="p2p-summary-subreport-in-lync-server-2013"></a>Subinforme de Resumen de P2P en Lync Server 2013
 
 </div>
 
@@ -60,28 +60,28 @@ Los filtros ofrecen el medio para devolver un conjunto de datos más específico
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:</p>
-<p>7/7/2012 1:00 P.M.</p>
-<p>Si no escribe una hora de inicio, el informe se iniciará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<p>7/7/2012 1:00 pm</p>
+<p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
-<p>Las semanas siempre van del domingo al sábado.</p></td>
+<p>Las semanas siempre empiezan en domingo y terminan en sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Hasta</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:</p>
-<p>7/7/2012 1:00 P.M.</p>
-<p>Si no escribe una hora de finalización, el informe finalizará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<p>7/7/2012 13:00</p>
+<p>Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
 <p>Las semanas siempre van del domingo al sábado.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Grupo de servidores</strong></p></td>
-<td><p>Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en <strong>[Todos]</strong> para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.</p></td>
+<td><p><strong>Pool</strong></p></td>
+<td><p>Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en <strong>[Todo]</strong> para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.</p></td>
 </tr>
 </tbody>
 </table>
@@ -106,7 +106,7 @@ En la tabla siguiente se muestra la información recogida en el Subinforme de re
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
@@ -114,7 +114,7 @@ En la tabla siguiente se muestra la información recogida en el Subinforme de re
 <tr class="odd">
 <td><p><strong>Total de sesiones</strong></p></td>
 <td><p>No</p></td>
-<td><p>Cantidad total de sesiones, incluidas las sesiones correctas, las sesiones con errores (tanto esperados como inesperados) y las sesiones sin categoría.</p></td>
+<td><p>Número total de sesiones, incluidas las sesiones correctas, las sesiones con errores (tanto esperados como inesperados) y las sesiones sin categoría.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Porcentaje de errores</strong></p></td>
@@ -124,12 +124,12 @@ En la tabla siguiente se muestra la información recogida en el Subinforme de re
 <tr class="odd">
 <td><p><strong>Sesiones por modalidad</strong></p></td>
 <td><p>No</p></td>
-<td><p>Cantidad total de sesiones agrupadas por modalidad (por ejemplo, mensajería instantánea).</p></td>
+<td><p>Número total de sesiones agrupadas por modalidad (por ejemplo, mensajería instantánea).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Porcentaje de errores por modalidad</strong></p></td>
 <td><p>No</p></td>
-<td><p>Cantidad total de sesiones con error agrupadas por modalidad (por ejemplo, mensajería instantánea).</p></td>
+<td><p>Número total de sesiones con error agrupadas por modalidad (por ejemplo, mensajería instantánea).</p></td>
 </tr>
 </tbody>
 </table>

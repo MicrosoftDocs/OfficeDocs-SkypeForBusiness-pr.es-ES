@@ -12,16 +12,16 @@ ms:contentKeyID: 48185441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 439c179476c89de8a5245e80e26586d42f4f6e3b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56454e4ea4fa1498dc73056d5b5f01193b007352
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758692"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006156"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,11 +37,11 @@ ms.locfileid: "41758692"
 
 _**Última modificación del tema:** 2013-02-22_
 
-En las siguientes tablas se enumeran los nombres y descripciones de los contadores de rendimiento que puede usar para supervisar los servidores que ejecutan la API Web de comunicaciones unificadas (UCWA) y el servicio de movilidad de Lync Server 2013 MCX.
+En las tablas siguientes se enumeran los nombres y las descripciones de los contadores de rendimiento que puede usar para supervisar los servidores que ejecutan la API Web de comunicaciones unificadas (UCWA) y el servicio de movilidad Lync Server 2013 MCX.
 
-El nombre de categoría de los contadores de la tabla relativa a UCWA es **LS:WEB – UCWA**.
+El nombre de categoría de los contadores de la tabla UCWA es **LS: Web – UCWA**.
 
-El nombre de categoría de los contadores de la tabla relativa al servicio de movilidad Mcx es **LS:WEB - Mobile Communication Service**.
+El nombre de categoría de los contadores de la tabla MCX Mobility Service es **LS: web-Mobile Communication Service**.
 
 <div>
 
@@ -55,7 +55,7 @@ El nombre de categoría de los contadores de la tabla relativa al servicio de mo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Contador</th>
+<th>Counter</th>
 <th>Descripción</th>
 </tr>
 </thead>
@@ -65,7 +65,7 @@ El nombre de categoría de los contadores de la tabla relativa al servicio de mo
 <td><p>Número actual de aplicaciones</p></td>
 </tr>
 <tr class="even">
-<td><p>Recuento de modalidad de uso compartido de aplicaciones activa</p></td>
+<td><p>Recuento de modalidad de uso compartido de aplicaciones activas</p></td>
 <td><p>Número actual de modalidad de uso compartido de aplicaciones</p></td>
 </tr>
 <tr class="odd">
@@ -77,27 +77,27 @@ El nombre de categoría de los contadores de la tabla relativa al servicio de mo
 <td><p>Número actual de modalidad de colaboración de datos</p></td>
 </tr>
 <tr class="odd">
-<td><p>Latencia de recuperación de foto de Active Directory (ms)</p></td>
-<td><p>Contador que refleja el promedio de tiempo (en milisegundos) que se invierte en recuperar una foto de Active Directory</p></td>
+<td><p>Latencia de la obtención de foto de Active Directory (MS)</p></td>
+<td><p>Este contador muestra el promedio de tiempo (en milisegundos) que se tarda en recuperar una foto de Active Directory</p></td>
 </tr>
 <tr class="even">
 <td><p>Recuento de modalidad de mensajería activa</p></td>
 <td><p>Número actual de modalidad de mensajería</p></td>
 </tr>
 <tr class="odd">
-<td><p>Recuento de modalidad de vídeo panorámico activa</p></td>
+<td><p>Recuento de modalidad de vídeo panorámico activo</p></td>
 <td><p>Número actual de modalidad de vídeo panorámico</p></td>
 </tr>
 <tr class="even">
-<td><p>Recuento de solicitudes GET pendientes activas</p></td>
-<td><p>Número de solicitudes GET pendientes activas actualmente; conexiones largamente mantenidas con el servidor</p></td>
+<td><p>Recuento de Get pendientes activos</p></td>
+<td><p>Número de dependientes actualmente activas. conexiones de larga duración con el servidor</p></td>
 </tr>
 <tr class="odd">
 <td><p>Recuento de sesiones activas</p></td>
-<td><p>Número actual de extremos registrados en UCWA por aplicación y total</p></td>
+<td><p>Número actual de extremos registrados en UCWA por aplicación y totales</p></td>
 </tr>
 <tr class="even">
-<td><p>Recuento de instancias de usuario activas</p></td>
+<td><p>Número de instancias de usuario activas</p></td>
 <td><p>Número actual de instancias de usuario</p></td>
 </tr>
 <tr class="odd">
@@ -105,84 +105,84 @@ El nombre de categoría de los contadores de la tabla relativa al servicio de mo
 <td><p>Número actual de instancias de usuario sin aplicación</p></td>
 </tr>
 <tr class="even">
-<td><p>Recuento de modalidad de vídeo de aplicaciones activa</p></td>
+<td><p>Recuento de modalidad de vídeo activo</p></td>
 <td><p>Número actual de modalidad de vídeo</p></td>
 </tr>
 <tr class="odd">
 <td><p>Solicitudes de creación de aplicación recibidas/segundo</p></td>
-<td><p>Ratio por segundo de solicitudes de creación de aplicación recibidas</p></td>
+<td><p>Tasa por segundo de solicitudes de creación de aplicaciones recibidas</p></td>
 </tr>
 <tr class="even">
-<td><p>Errores de unión a sesión de MCU de AS</p></td>
-<td><p>Número de errores de unión a sesión de MCU de AS</p></td>
+<td><p>Como errores de unión de MCU</p></td>
+<td><p>El número de errores de Unión en MCU</p></td>
 </tr>
 <tr class="odd">
-<td><p>Errores de unión a sesión de MCU de AV</p></td>
-<td><p>Errores de unión a sesión de MCU de AV</p></td>
+<td><p>Errores de unión a un MCU AV</p></td>
+<td><p>Número de errores de unión a un MCU AV</p></td>
 </tr>
 <tr class="even">
-<td><p>Tiempo medio de inicio de aplicación (ms)</p></td>
-<td><p>Promedio de tiempo de inicio de la aplicación en milisegundos</p></td>
+<td><p>Tiempo medio de inicio de la aplicación (MS)</p></td>
+<td><p>Tiempo medio de inicio de la aplicación en milisegundos</p></td>
 </tr>
 <tr class="odd">
-<td><p>Duración media de sesión (ms)</p></td>
+<td><p>Duración media de la sesión (MS)</p></td>
 <td><p>Duración media de una sesión en milisegundos</p></td>
 </tr>
 <tr class="even">
-<td><p>Errores de unión a sesión de MCU de datos</p></td>
-<td><p>Número de errores de unión a sesión de MCU de datos</p></td>
+<td><p>Errores de unión a Data MCU</p></td>
+<td><p>Número de errores de unión a datos MCU</p></td>
 </tr>
 <tr class="odd">
-<td><p>Latencia de búsqueda de contacto de Exchange (ms)</p></td>
-<td><p>Contador que refleja el promedio de tiempo (en milisegundos) que se invierte en buscar un contacto en Exchange</p></td>
+<td><p>Latencia de búsqueda de contactos de Exchange (MS)</p></td>
+<td><p>Este contador muestra el tiempo medio (en milisegundos) para buscar en el contacto en Exchange</p></td>
 </tr>
 <tr class="even">
-<td><p>Latencia de recuperación de foto HD de Exchange (ms)</p></td>
-<td><p>Contador que refleja el promedio de tiempo (en milisegundos) que se invierte en recuperar una foto de Exchange</p></td>
+<td><p>Latencia de obtención de foto HD de Exchange (MS)</p></td>
+<td><p>Este contador muestra el promedio de tiempo (en milisegundos) que se tarda en recuperar una foto de Exchange</p></td>
 </tr>
 <tr class="odd">
-<td><p>Respuestas HTTP 4xx/segundo</p></td>
-<td><p>Ratio por segundo de respuestas con código HTTP 4xx</p></td>
+<td><p>Respuestas 4xx HTTP/segundo</p></td>
+<td><p>Tasa por segundo de respuestas con código 4xx HTTP</p></td>
 </tr>
 <tr class="even">
 <td><p>Respuestas HTTP 5xx/segundo</p></td>
-<td><p>Ratio por segundo de respuestas con código HTTP 5xx</p></td>
+<td><p>Tasa por segundo de respuestas con código HTTP 5xx</p></td>
 </tr>
 <tr class="odd">
-<td><p>Errores de unión a sesión de MCU de MI</p></td>
-<td><p>Cantidad de errores de unión a sesión de MCU de MI</p></td>
+<td><p>Errores de unión de mi MCU</p></td>
+<td><p>Número de errores de unión de mi MCU</p></td>
 </tr>
 <tr class="even">
-<td><p>Cantidad de errores de recuperación de foto de Active Directory</p></td>
-<td><p>Cantidad total de errores en recuperar fotos de Active Directory</p></td>
+<td><p>Número de errores de obtención de foto de Active Directory</p></td>
+<td><p>Número total de errores para recuperar fotos de Active Directory</p></td>
 </tr>
 <tr class="odd">
-<td><p>Cantidad de errores de búsqueda de contacto</p></td>
-<td><p>Cantidad total de errores de búsqueda de contactos en Exchange</p></td>
+<td><p>Número de errores de búsqueda de contactos</p></td>
+<td><p>Número total de errores en la búsqueda de contactos en Exchange</p></td>
 </tr>
 <tr class="even">
-<td><p>Cantidad de errores de deserialización</p></td>
-<td><p>Cantidad total de errores de deserialización</p></td>
+<td><p>Número de errores de deserialización</p></td>
+<td><p>Número total de errores de deserialización</p></td>
 </tr>
 <tr class="odd">
-<td><p>Número de errores de obtención de fotos de alta definición</p></td>
-<td><p>Cantidad total de errores en recuperar fotos HD de Exchange</p></td>
+<td><p>Número de errores de obtención de foto HD</p></td>
+<td><p>El número total de errores para recuperar fotos HD de Exchange</p></td>
 </tr>
 <tr class="even">
-<td><p>Exceso de número máximo de suscripciones por aplicación</p></td>
-<td><p>Cantidad de solicitudes de suscripción por encima del máximo permitido por aplicación</p></td>
+<td><p>Sobre el número máximo de suscripciones por aplicación</p></td>
+<td><p>El número de solicitudes de suscripción por encima del máximo permitido por aplicación</p></td>
 </tr>
 <tr class="odd">
-<td><p>Exceso de número máximo de suscripciones por lote</p></td>
-<td><p>Cantidad de solicitudes de suscripción por encima del máximo permitido por lote</p></td>
+<td><p>Superada la cantidad máxima de suscripciones por lote</p></td>
+<td><p>El número de solicitudes de suscripción que supera el máximo permitido por lote</p></td>
 </tr>
 <tr class="even">
 <td><p>Errores de suscripción de presencia</p></td>
-<td><p>Cantidad de errores al suscribir la presencia</p></td>
+<td><p>Número de errores para suscribir presencia</p></td>
 </tr>
 <tr class="odd">
-<td><p>Errores de registro de extremos</p></td>
-<td><p>Cantidad de errores al registrar extremos</p></td>
+<td><p>Registro de errores de punto de conexión</p></td>
+<td><p>Número de errores para registrar los extremos</p></td>
 </tr>
 <tr class="even">
 <td><p>Solicitudes recibidas/segundo</p></td>
@@ -190,47 +190,47 @@ El nombre de categoría de los contadores de la tabla relativa al servicio de mo
 </tr>
 <tr class="odd">
 <td><p>Solicitudes correctas/segundo</p></td>
-<td><p>Ratio por segundo de solicitudes correctas (códigos de respuesta HTTP 2xx/3xx)</p></td>
+<td><p>Tasa por segundo de solicitudes correctas (códigos de respuesta HTTP 2xx/3xx)</p></td>
 </tr>
 <tr class="even">
-<td><p>Solicitudes de creación de aplicación correctas/segundo</p></td>
-<td><p>Ratio por segundo de solicitudes de creación de aplicación correctas</p></td>
+<td><p>Solicitudes de aplicación creadas correctamente/segundo</p></td>
+<td><p>Tasa por segundo de solicitudes de creación de aplicaciones correctas</p></td>
 </tr>
 <tr class="odd">
-<td><p>Recuento de solicitudes GET pendientes de tiempo agotado</p></td>
-<td><p>Cantidad de solicitudes GET pendientes que han agotado el tiempo</p></td>
+<td><p>Recuento de peticiones GET pendientes de tiempo de espera agotado</p></td>
+<td><p>El número de Get pendientes que agotaron el tiempo de espera</p></td>
 </tr>
 <tr class="even">
-<td><p>Total de solicitudes de creación de aplicación recibidas</p></td>
-<td><p>Cantidad total de solicitudes de creación de aplicaciones recibido desde que se inició el servicio</p></td>
+<td><p>Total de solicitudes de creación de aplicaciones recibidas</p></td>
+<td><p>Número total de solicitudes de creación de aplicaciones recibidas desde que se inició el servicio</p></td>
 </tr>
 <tr class="odd">
 <td><p>Total de respuestas HTTP 4xx</p></td>
-<td><p>Cantidad total de respuestas HTTP 4xx</p></td>
+<td><p>Número total de respuestas HTTP 4xx</p></td>
 </tr>
 <tr class="even">
 <td><p>Total de respuestas HTTP 5xx</p></td>
-<td><p>Cantidad total de respuestas HTTP 5xx</p></td>
+<td><p>Número total de respuestas HTTP 5xx</p></td>
 </tr>
 <tr class="odd">
-<td><p>Solicitudes totales recibidas en el canal de comandos</p></td>
-<td><p>Cantidad total de solicitudes recibidas en el canal de comandos</p></td>
+<td><p>Total de solicitudes recibidas en el canal de comandos</p></td>
+<td><p>Número total de solicitudes recibidas en el canal de comandos</p></td>
 </tr>
 <tr class="even">
-<td><p>Total de solicitudes correctas</p></td>
-<td><p>Cantidad total de solicitudes correctas</p></td>
+<td><p>Solicitudes correctas totales</p></td>
+<td><p>Número total de solicitudes que se realizaron correctamente</p></td>
 </tr>
 <tr class="odd">
 <td><p>Total de sesiones iniciadas</p></td>
-<td><p>Cantidad total de sesiones que se han iniciado desde que se inició el servicio</p></td>
+<td><p>El número total de sesiones que se iniciaron desde que se inició el servicio</p></td>
 </tr>
 <tr class="even">
-<td><p>Sesiones totales finalizadas ya que se ha agotado el tiempo de espera de inactividad</p></td>
-<td><p>Cantidad total de sesiones que han finalizado porque se ha agotado el tiempo de espera de inactividad del usuario</p></td>
+<td><p>Total de sesiones finalizadas por un tiempo de espera inactivo</p></td>
+<td><p>Número total de sesiones que han finalizado porque se ha agotado el tiempo de espera de inactividad del usuario</p></td>
 </tr>
 <tr class="odd">
 <td><p>Total de aplicaciones limitadas</p></td>
-<td><p>Cantidad total de aplicaciones limitadas</p></td>
+<td><p>El número de aplicaciones limitadas</p></td>
 </tr>
 </tbody>
 </table>
@@ -240,7 +240,7 @@ El nombre de categoría de los contadores de la tabla relativa al servicio de mo
 
 <div id="sectionSection1" class="section">
 
-### <a name="performance-counters-for-mcx-mobility-service"></a>Contadores de rendimiento para el servicio de movilidad Mcx
+### <a name="performance-counters-for-mcx-mobility-service"></a>Contadores de rendimiento para el servicio de movilidad de MCX
 
 <table>
 <colgroup>
@@ -249,7 +249,7 @@ El nombre de categoría de los contadores de la tabla relativa al servicio de mo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Contador</th>
+<th>Counter</th>
 <th>Descripción</th>
 </tr>
 </thead>
@@ -260,23 +260,23 @@ El nombre de categoría de los contadores de la tabla relativa al servicio de mo
 </tr>
 <tr class="even">
 <td><p>Suscripciones de notificación de inserción actuales</p></td>
-<td><p>Cantidad actual de suscripciones de notificación de inserción. Esta cantidad representa, junto con el recuento de sesiones actualmente activas, el subconjunto de sesiones actualmente activas que hay registradas para dispositivos Windows Mobile o iPhone.</p></td>
+<td><p>Número actual de suscripciones de notificación de inserción. Este número, junto con el recuento de sesiones actualmente activas, representa el subconjunto de las sesiones actualmente activas registradas para dispositivos Windows Mobile o iPhone.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Recuento de sondeos de tiempo de espera agotado de red actualmente activa</p></td>
-<td><p>Cantidad de sondeos de red cuyo tiempo de espera se ha agotado</p></td>
+<td><p>Número de sondeos de red cuyo tiempo de espera se ha agotado</p></td>
 </tr>
 <tr class="even">
 <td><p>Recuento de sondeos actualmente activos</p></td>
-<td><p>Cantidad de sondeos actualmente activos (conexiones largamente mantenidas con el servidor)</p></td>
+<td><p>Número de sondeos actualmente activos (conexiones largamente mantenidas con el servidor)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Recuento de sesiones actualmente activas</p></td>
-<td><p>Cantidad actual de extremos registrados en el servicio de movilidad</p></td>
+<td><p>Número actual de extremos registrados en el servicio de movilidad</p></td>
 </tr>
 <tr class="even">
 <td><p>Recuento de sesiones actualmente activas con suscripciones de presencia activa</p></td>
-<td><p>Cantidad de sesiones actualmente activas con suscripciones de presencia activa</p></td>
+<td><p>Número de sesiones actualmente activas con suscripciones de presencia activa</p></td>
 </tr>
 <tr class="odd">
 <td><p>Solicitudes de notificación de inserción erróneas/segundo</p></td>
@@ -316,67 +316,67 @@ El nombre de categoría de los contadores de la tabla relativa al servicio de mo
 </tr>
 <tr class="even">
 <td><p>Llamadas de voz entrantes rechazadas totales</p></td>
-<td><p>Cantidad total de llamadas de voz entrantes que se han rechazado</p></td>
+<td><p>Número total de llamadas de voz entrantes que se han rechazado</p></td>
 </tr>
 <tr class="odd">
 <td><p>Llamadas de voz entrantes erróneas totales</p></td>
-<td><p>Cantidad total de llamadas de voz entrantes erróneas</p></td>
+<td><p>Número total de llamadas de voz entrantes erróneas</p></td>
 </tr>
 <tr class="even">
 <td><p>Llamadas de voz salientes erróneas totales</p></td>
-<td><p>Cantidad total de llamadas de voz salientes erróneas</p></td>
+<td><p>Número total de llamadas de voz salientes erróneas</p></td>
 </tr>
 <tr class="odd">
-<td><p>Cantidad de sesiones finalizadas por usuario</p></td>
-<td><p>Cantidad de sesiones finalizadas por usuarios</p></td>
+<td><p>Número de sesiones finalizadas por usuario</p></td>
+<td><p>Número de sesiones finalizadas por usuarios</p></td>
 </tr>
 <tr class="even">
 <td><p>Solicitudes de notificación de inserción totales</p></td>
-<td><p>Cantidad total de solicitudes de notificación de inserción</p></td>
+<td><p>Número total de solicitudes de notificación de inserción</p></td>
 </tr>
 <tr class="odd">
 <td><p>Solicitudes de notificación de inserción erróneas totales</p></td>
-<td><p>Cantidad total de solicitudes de notificación de inserción erróneas</p></td>
+<td><p>Número total de solicitudes de notificación de inserción erróneas</p></td>
 </tr>
 <tr class="even">
 <td><p>Solicitudes de notificación de inserción correctas totales</p></td>
-<td><p>Cantidad total de solicitudes de notificación de inserción realizadas correctamente</p></td>
+<td><p>Número total de solicitudes de notificación de inserción realizadas correctamente</p></td>
 </tr>
 <tr class="odd">
 <td><p>Solicitudes de notificación de inserción reducidas totales</p></td>
-<td><p>Cantidad total de solicitudes de notificación de inserción que se han reducido</p></td>
+<td><p>Número total de solicitudes de notificación de inserción que se han reducido</p></td>
 </tr>
 <tr class="even">
 <td><p>Solicitudes erróneas totales</p></td>
-<td><p>Cantidad total de solicitudes erróneas</p></td>
+<td><p>Número total de solicitudes erróneas</p></td>
 </tr>
 <tr class="odd">
 <td><p>Solicitudes totales recibidas en el canal de comandos</p></td>
-<td><p>Cantidad total de solicitudes recibidas en el canal de comandos</p></td>
+<td><p>Número total de solicitudes recibidas en el canal de comandos</p></td>
 </tr>
 <tr class="even">
 <td><p>Solicitudes rechazadas totales</p></td>
-<td><p>Cantidad total de solicitudes que se han rechazado</p></td>
+<td><p>Número total de solicitudes que se han rechazado</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total de solicitudes correctas</p></td>
-<td><p>Cantidad total de solicitudes realizadas al servicio de movilidad correctamente</p></td>
+<td><p>Solicitudes correctas totales</p></td>
+<td><p>Número total de solicitudes realizadas al servicio de movilidad correctamente</p></td>
 </tr>
 <tr class="even">
 <td><p>Recuento de sesiones iniciadas totales</p></td>
-<td><p>Cantidad total de sesiones que se han iniciado desde que se inició el servicio de movilidad</p></td>
+<td><p>Número total de sesiones que se han iniciado desde que se inició el servicio de movilidad</p></td>
 </tr>
 <tr class="odd">
-<td><p>Sesiones totales finalizadas ya que se ha agotado el tiempo de espera de inactividad del usuario</p></td>
-<td><p>Cantidad total de sesiones que han finalizado porque se ha agotado el tiempo de espera de inactividad del usuario</p></td>
+<td><p>Sesiones totales finalizadas debido a que se ha agotado el tiempo de espera de inactividad del usuario</p></td>
+<td><p>Número total de sesiones que han finalizado porque se ha agotado el tiempo de espera de inactividad del usuario</p></td>
 </tr>
 <tr class="even">
 <td><p>Llamadas de voz entrantes correctas totales</p></td>
-<td><p>Cantidad total de llamadas de voz entradas que se han realizado correctamente</p></td>
+<td><p>Número total de llamadas de voz entradas que se han realizado correctamente</p></td>
 </tr>
 <tr class="odd">
 <td><p>Llamadas de voz salientes correctas totales</p></td>
-<td><p>Cantidad total de llamadas de voz salientes que se han realizado correctamente</p></td>
+<td><p>Número total de llamadas de voz salientes que se han realizado correctamente</p></td>
 </tr>
 </tbody>
 </table>

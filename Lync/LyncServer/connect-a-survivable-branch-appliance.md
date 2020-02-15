@@ -1,5 +1,5 @@
 ---
-title: Conectar una aplicación de sucursal con funciones de supervivencia
+title: Conexión de una aplicación de sucursal con funciones de supervivencia
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ef6294deba25998c5ad16254e464b6f682fa660
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 77382343fa7736c90ac208f8d13f81bc74969efa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723180"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006526"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="connect-a-survivable-branch-appliance"></a>Conectar una aplicación de sucursal con funciones de supervivencia
+# <a name="connect-a-survivable-branch-appliance"></a>Conexión de una aplicación de sucursal con funciones de supervivencia
 
 </div>
 
@@ -37,60 +37,60 @@ ms.locfileid: "41723180"
 
 _**Última modificación del tema:** 2012-10-19_
 
-Cada dispositivo de sucursal con supervivencia (SBA) está asociado con un grupo de servidores front-end que sirve como registrador de copias de seguridad de la SBA. Cuando el grupo de servidores front-end se migra a Lync Server 2013, SBA debe desasociarse del grupo de servidores front-end de Lync Server 2010 mientras se actualiza el grupo, una vez que el grupo se ha migrado a Lync Server 2013, la SBA se puede volver a asociar con el grupo de servidores front-end actualizado. Esto implica eliminar SBA de la topología heredada de Lync Server 2010 en el generador de topología y, a continuación, agregar SBA a la topología de Lync Server 2013. Los usuarios alojados en el antiguo Lync Server 2010 SBA deben moverse primero a otro grupo de servidores front end antes de quitar SBA de la topología. Una vez agregada SBA a la topología de Lync Server 2013, esos usuarios podrán volver a la SBA. Estos pasos se resumen a continuación:
+Cada aplicación de sucursal con funciones de supervivencia (SBA) está asociada a un grupo de servidores front-end que sirve como registrador de copias de seguridad para SBA. Cuando el grupo de servidores front-end se migra a Lync Server 2013, SBA debe estar desasociado del grupo de servidores front-end de Lync Server 2010 mientras se actualiza el grupo, una vez que el grupo se ha migrado a Lync Server 2013, la SBA se puede volver a asociar con el grupo de servidores front-end actualizado. Esto implica eliminar la SBA de la topología de Lync Server 2010 heredada en el generador de topologías y, a continuación, agregar la SBA a la topología de Lync Server 2013. Los usuarios hospedados en el servidor de Lync Server 2010 SBA deben moverse primero a otro grupo de servidores front-end antes de quitar SBA de la topología. Una vez agregada SBA a la topología de Lync Server 2013, estos usuarios pueden volver a moverse a SBA. Estos pasos se sintetizan a continuación:
 
-1.  Mueva los usuarios alojados en el servidor de Lync existente de SBA de 2010 a otro grupo de servidores front-end.
+1.  Mueva los usuarios de sucursal alojados en el servidor de Lync Server 2010 heredado a otro grupo de servidores front-end.
 
-2.  Quite SBA de la topología heredada de Lync Server 2010 para desconectar el grupo de servidores front-end existente como registrador de copias de seguridad.
+2.  Quite SBA de la topología heredada de Lync Server 2010 para desconectar el grupo de servidores front-end existente como registrador de reserva.
 
-3.  Agregue SBA a la topología de Lync Server 2013 y configúrela como registrador de la copia de seguridad.
+3.  Agregue SBA a la topología de Lync Server 2013 y configure este nuevo grupo de servidores front-end como registrador de reserva.
 
-4.  Mueva los usuarios de la sucursal al nuevo Lync Server 2013 SBA.
+4.  Mueva los usuarios de sucursal al nuevo SBA de Lync Server 2013.
 
-**Agregar el sitio de la sucursal de SBA de Lync Server 2010 a su topología**
+**Agregar un sitio de sucursal SBA de Lync Server 2010 a la topología**
 
-1.  Abra el **generador de topologías**.
+1.  Abrir **Generador de topologías**.
 
-2.  En el panel izquierdo, haga clic con el botón secundario en **sitios de sucursales**y luego haga clic en **nuevo sitio de rama**.
+2.  En el panel de la izquierda, hacer clic con el botón secundario en **Sitios de sucursal** y, a continuación, en **Nuevo sitio de sucursal**.
 
-3.  En el cuadro de diálogo **definir nuevo sitio de sucursal** , haga clic en **nombre**y, a continuación, escriba el nombre del sitio de la sucursal.
+3.  En el cuadro de diálogo **Definir nuevo sitio de sucursal**, haga clic en **Nombre ** y escriba el nombre del sitio de sucursal.
 
-4.  Faculta Haga clic en **Descripción**y, a continuación, escriba una descripción para el sitio de la sucursal.
+4.  (Opcional) Haga clic en **Descripción ** y escriba una descripción significativa para el sitio de sucursal.
 
 5.  Haga clic en **Siguiente**.
 
-6.  Faculta En el cuadro de diálogo **definir siguiente sitio de sucursal** , realice una de las siguientes acciones:
+6.  (Opcional) En el siguiente cuadro de diálogo **Definir nuevo sitio de sucursal**, realice una de las siguientes acciones:
     
-    1.  Haga clic en **ciudad**y, a continuación, escriba el nombre de la ciudad en la que se encuentra el sitio de la sucursal.
+    1.  Haga clic en **Ciudad** y escriba el nombre de la ciudad en la se ubica el sitio de sucursal.
     
-    2.  Haga clic en **Estado o región**y, a continuación, escriba el nombre del estado o la región en la que se encuentra el sitio de la sucursal.
+    2.  Haga clic en **Provincia o región** y escriba el nombre de la provincia o la región en la que se ubica el sitio de sucursal.
     
-    3.  Haga clic en **prefijo internacional**y escriba el código de la llamada de dos dígitos para el país o la región en la que se encuentra el sitio de la sucursal.
+    3.  Haga clic en **código de país** y escriba el código telefónico de dos dígitos del país o la región en el que se ubica el sitio de sucursal.
 
-7.  Haga clic en **siguiente**y, a continuación, siga uno de estos procedimientos:
+7.  Haga clic en **Siguiente** y, a continuación, siga uno de estos procedimientos:
     
-    1.  Si está usando un equipo o servidor de una sucursal de Lync 2010, asegúrese de desactivar la opción **abrir el nuevo asistente superviviente cuando se cierre este asistente** . Haga clic en **Finalizar**.
+    1.  Si utiliza una aplicación o un servidor de sucursal con funciones de supervivencia de Lync 2010 en este sitio, no olvide desactivar la opción **Abrir el Asistente con nuevas funciones de supervivencia cuando se cierre el asistente**. Haga clic en **Finalizar**.
 
-8.  Para asociar el servidor de Lync Server 2010 SBA al grupo front-end de Lync Server 2013:
+8.  Para asociar el SBA heredado de Lync Server 2010 al grupo de servidores front-end de Lync Server 2013:
     
-    1.  Expanda el sitio de la sucursal que ha creado.
+    1.  Expanda el sitio de sucursal que ha creado.
     
-    2.  Haga clic con el botón secundario en **Lync Server 2010** y, a continuación, haga clic en **nuevo**.
+    2.  Haga clic con el botón secundario en **Lync Server 2010** y, a continuación, en **Nuevo**.
     
-    3.  Haga clic en **equipo de rama superviviente...**
+    3.  Haga clic en **Aplicación de sucursal con funciones de supervivencia…**
 
-9.  Siga las instrucciones del asistente que se abre. Para obtener información sobre los elementos del asistente, consulte [definir un dispositivo o servidor de sucursal con la que sea reviviente en Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
+9.  Siga las indicaciones del asistente que se abrirá. Para obtener información sobre los elementos del asistente, consulte [definir una aplicación o un servidor de sucursal con funciones de supervivencia en Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
     
     <div>
     
 
     > [!NOTE]  
-    > Un dispositivo de sucursal 2010 de Lync Server solo se puede asociar con un almacén de supervisión de Lync Server 2010.
+    > Una aplicación de sucursal con funciones de supervivencia de Lync Server 2010 solo se puede asociar a un almacén de supervisión de Lync Server 2010.
 
     
     </div>
 
-10. Si no usa un equipo o servidor de sucursal con la supervivencia en este sitio, desactive la casilla **abrir el nuevo asistente superviviente cuando se cierre este asistente** y, a continuación, haga clic en **Finalizar**.
+10. Si no usa una aplicación o un servidor de sucursal con funciones de supervivencia en este sitio, desactive la casilla **Abrir el Asistente con nuevas funciones de supervivencia cuando se cierre este asistente** y haga clic en **Finalizar**.
 
 11. Repita los pasos anteriores para cada sitio de sucursal que desee agregar a la topología.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar una ruta de conmutación por error'
+title: 'Lync Server 2013: configurar una ruta de conmutación por error'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184542
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22ebdf359a8cdf5f20ada8740a589b0181c3cc93
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 17477c647d2e5dd5918225486c43b93a29509fb2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741290"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034230"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41741290"
 
 _**Última modificación del tema:** 2012-09-21_
 
-En el ejemplo siguiente se muestra cómo un administrador puede definir una ruta de conmutación por error para su uso si la GW1 de Dallas está desactivada para su mantenimiento o no está disponible. En las siguientes tablas se muestra el cambio de configuración requerido.
+En el siguiente ejemplo se muestra cómo puede un administrador definir una ruta de conmutación por error para usarla en caso de que se desconecte Dallas-GW1 por motivos de mantenimiento o no esté disponible. En las tablas siguientes se muestra el cambio de configuración necesario.
 
-### <a name="table-1-user-policy"></a>Tabla 1. Directiva de usuario
+### <a name="table-1-user-policy"></a>Tabla 1. Directiva de usuario
 
 <table>
 <colgroup>
@@ -49,12 +49,12 @@ En el ejemplo siguiente se muestra cómo un administrador puede definir una ruta
 <thead>
 <tr class="header">
 <th>Directiva de usuario</th>
-<th>Uso del teléfono</th>
+<th>Uso de teléfono</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Directiva de llamadas predeterminada</p></td>
+<td><p>Directiva de llamada predeterminada</p></td>
 <td><p>Local</p>
 <p>GlobalPSTNHopoff</p></td>
 </tr>
@@ -63,7 +63,7 @@ En el ejemplo siguiente se muestra cómo un administrador puede definir una ruta
 <td><p>RedmondLocal</p></td>
 </tr>
 <tr class="odd">
-<td><p>Política de llamadas de Dallas</p></td>
+<td><p>Directiva de llamada de Dallas</p></td>
 <td><p>DallasUsers</p>
 <p>GlobalPSTNHopoff</p></td>
 </tr>
@@ -71,7 +71,7 @@ En el ejemplo siguiente se muestra cómo un administrador puede definir una ruta
 </table>
 
 
-### <a name="table-2-routes"></a>Tabla 2. Redirige
+### <a name="table-2-routes"></a>Tabla 2. Rutas
 
 <table>
 <colgroup>
@@ -83,23 +83,23 @@ En el ejemplo siguiente se muestra cómo un administrador puede definir una ruta
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de la ruta</th>
-<th>Patrón de números</th>
-<th>Uso del teléfono</th>
+<th>Nombre de ruta</th>
+<th>Modelo de número</th>
+<th>Uso de teléfono</th>
 <th>Tronco</th>
-<th>Puerta</th>
+<th>Puerta de enlace</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Camino local de Redmond</p></td>
+<td><p>Ruta local de Redmond</p></td>
 <td><p>^\+1 (425 | 206 | 253) (\d{7}) $</p></td>
 <td><p>Local</p>
 <p>RedmondLocal</p></td>
 <td><p>Trunk1</p>
 <p>Trunk2</p></td>
-<td><p>Rojo: GW1</p>
-<p>Rojo: GW2</p></td>
+<td><p>Rojo-GW1</p>
+<p>Rojo-GW2</p></td>
 </tr>
 <tr class="even">
 <td><p>Ruta local de Dallas</p></td>
@@ -115,8 +115,8 @@ En el ejemplo siguiente se muestra cómo un administrador puede definir una ruta
 <td><p>Trunk1</p>
 <p>Trunk2</p>
 <p>Trunk3</p></td>
-<td><p>Rojo: GW1</p>
-<p>Rojo: GW2</p>
+<td><p>Rojo-GW1</p>
+<p>Rojo-GW2</p>
 <p>Dallas-GW1</p></td>
 </tr>
 <tr class="even">
@@ -130,7 +130,7 @@ En el ejemplo siguiente se muestra cómo un administrador puede definir una ruta
 </table>
 
 
-En la tabla 1, se agrega un uso de teléfono de GlobalPSTNHopoff después del uso del teléfono DallasUsers en la política de llamadas de Dallas. Esto permite que las llamadas con la Directiva de llamadas de Dallas usen rutas configuradas para el uso del teléfono GlobalPSTNHopoff si una ruta para el uso del teléfono DallasUsers no está disponible.
+En la Tabla 1, se agrega el uso de teléfono GlobalPSTNHopoff después del uso de teléfono DallasUsers en la directiva de llamada de Dallas. Esto permite que las llamadas con la directiva de llamada de Dallas usen las rutas configuradas para el uso de teléfono GlobalPSTNHopoff en caso de que una ruta para el uso telefónico DallasUsers no esté disponible.
 
 </div>
 

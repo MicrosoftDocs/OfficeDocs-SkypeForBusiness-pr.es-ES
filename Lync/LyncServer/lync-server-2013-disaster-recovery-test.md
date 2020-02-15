@@ -12,16 +12,16 @@ ms:contentKeyID: 63969571
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7c6c3b7c3b5d78324fe9c674650dd94338baea4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4fc04381e315375fe0d5858c9a12ad577f6c8baf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739200"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007829"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,62 +37,62 @@ ms.locfileid: "41739200"
 
 _**Última modificación del tema:** 2015-01-26_
 
-Realice una recuperación del sistema de un servidor de grupo 2013 de Lync Server para probar el proceso de recuperación ante desastres documentado. Esta prueba simulará un error completo de hardware en un servidor y ayudará a garantizar que los recursos, planes y datos estén disponibles para su recuperación. Trate de variar cada mes el objeto de esta simulación, de modo que su organización vaya poniendo a prueba distintos servidores u otros elementos.
+Realice una recuperación del sistema para un servidor de grupo de servidores de Lync Server 2013 para probar el proceso de recuperación ante desastres documentado. Esta prueba simulará un error de hardware completo para un servidor y ayudará a garantizar que los recursos, los planes y los datos estén disponibles para la recuperación. Intente girar el foco de la prueba cada mes para que la organización Pruebe el error de un servidor diferente o de otro elemento del equipo cada vez.
 
-Tenga en cuenta que el programa mediante el cual las organizaciones realizan pruebas de recuperación ante desastres puede variar. Es muy importante no ignorar o descuidar estas pruebas.
+Tenga en cuenta que la programación por la que las organizaciones realizan pruebas de recuperación ante desastres variarán. Es muy importante que las pruebas de recuperación ante desastres no se ignore o sin atender.
 
 <div>
 
 
-Exporte su topología, directivas y configuración de configuración de Lync Server 2013 a un archivo. Entre otras cosas, este archivo podrá usarse para restaurar esta información en el Almacén de administración central después de una actualización, un error de hardware o cualquier otro problema que resulte en la pérdida de datos.
+Exporte la topología, las directivas y las opciones de configuración de Lync Server 2013 a un archivo. Entre otras cosas, este archivo puede usarse para restaurar esta información en el almacén de administración central después de una actualización, un error de hardware o algún otro problema ha provocado la pérdida de datos.
 
-Importe la topología, las directivas y las opciones de configuración de Lync Server 2013 en el almacén de administración central o en el equipo local, tal y como se muestra en los siguientes comandos:
+Importe la topología, las directivas y las opciones de configuración de Lync Server 2013 al almacén de administración central o al equipo local, como se muestra en los siguientes comandos:
 
 `Import-CsConfiguration -ByteInput <Byte[]> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
 `Import-CsConfiguration -FileName <String> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
-Para hacer una copia de seguridad de los datos de producción de Lync Server 2013:
+Para hacer una copia de seguridad de los datos de 2013 de producción de Lync Server:
 
-  - Haga una copia de seguridad de las bases de datos RTC y LCSLog con el proceso de copia de seguridad estándar de SQL Server para volcar la base de datos en un dispositivo de volcado de archivo o cinta.
+  - Realice una copia de seguridad de las bases de datos RTC y LCSLog mediante el proceso de copia de seguridad estándar de SQL Server para volcar la base de datos en un dispositivo de volcado de archivos o cinta.
 
-  - Use una aplicación de terceros para realizar en un archivo o cinta una copia de seguridad de los datos.
+  - Use una aplicación de copia de seguridad de terceros para realizar una copia de seguridad de los datos en archivo o en cinta.
 
   - Use el cmdlet Export-CsUserData para crear una exportación XML de toda la base de datos RTC.
 
-  - Use la copia de seguridad del sistema de archivos o una aplicación de terceros para realizar una copia de seguridad del contenido de las reuniones y los registros de cumplimiento.
+  - Use la copia de seguridad del sistema de archivos o de terceros para hacer copias de seguridad de contenido de reuniones y registros de cumplimiento.
 
-  - Use la herramienta de línea de comandos Export-CsConfiguration para realizar copias de seguridad de la configuración de Lync Server 2013.
+  - Use la herramienta de línea de comandos Export-CsConfiguration para realizar una copia de seguridad de la configuración de Lync Server 2013.
 
-El primer paso en el procedimiento de conmutación por error incluye el traslado forzoso de los usuarios desde el grupo de producción al grupo de recuperación ante desastres.
+El primer paso del procedimiento de conmutación por error incluye un movimiento forzoso de los usuarios del grupo de producción al grupo de recuperación ante desastres.
 
-Se trata de un traslado forzoso porque el grupo de producción no estará disponible para aceptar la reubicación de los usuarios.
+Esto será un movimiento forzado porque el grupo de producción no estará disponible para aceptar la reubicación del usuario.
 
-El proceso de desplazar usuarios de Lync Server 2013 es realmente un cambio en un atributo del objeto de cuenta de usuario, además de una actualización de registro en la base de datos de SQL de RTC.
+El proceso de migración de usuarios de Lync Server 2013 es, en realidad, un cambio en un atributo del objeto de cuenta de usuario además de una actualización de registros en la base de datos SQL de RTC.
 
-Estos datos pueden restaurarse mediante los dos siguientes procesos:
+Estos datos se pueden restaurar a través de los dos procesos siguientes:
 
-  - La base de datos RTC puede restaurarse desde el dispositivo de volcado de copia de seguridad original desde el servidor SQL de producción mediante el proceso de restauración estándar de SQL Server o mediante una herramienta de copia de seguridad y restauración de terceros.
+  - RTC Database puede restaurarse a partir del dispositivo de volcado de copia de seguridad original desde el SQL Server de producción mediante el proceso de restauración estándar de SQL Server o mediante una utilidad de copia de seguridad y restauración de terceros.
 
-  - Los datos de contacto de usuarios pueden restaurarse con la utilidad DBIMPEXP.exe, utilizando el archivo XML creado por la exportación del SQL Server de producción.
+  - Los datos de contacto de los usuarios se pueden restaurar con la utilidad DBIMPEXP. exe mediante el archivo XML que se creó a partir de la exportación de SQL Server de producción.
 
-Una vez que se hayan restaurado estos datos, los usuarios podrán conectarse eficazmente al grupo de recuperación ante desastres de Lync Server 2013 y funcionar como de costumbre.
+Una vez que se han restaurado estos datos, los usuarios pueden conectarse de forma eficaz al grupo de recuperación ante desastres de Lync Server 2013 y funcionar como de costumbre.
 
-Para permitir que los usuarios se conecten al grupo de recuperación ante desastres de Lync Server 2013, será necesario un cambio de registro DNS.
+Para permitir que los usuarios se conecten al grupo de recuperación ante desastres Lync Server 2013, será necesario cambiar un registro DNS.
 
-Los clientes hará referencia al grupo de producción de Lync Server 2013 con la configuración automática y los registros SRV de DNS de:
+Los clientes harán referencia al grupo de producción Lync Server 2013 mediante la configuración automática y los registros SRV de DNS de:
 
   - SRV: \_SIP. \_TLS. \</CNAME\> de dominio: SIP. \<dominio\>
 
-  - CNAME: SIP. \<domain\> /CVC-Pool-1. \<dominio\>
+  - CNAME: SIP. \<dominio\> /CVC-Pool-1. \<dominio\>
 
 Para facilitar la conmutación por error, este registro CNAME debe actualizarse para que haga referencia al FQDN DROCSPool:
 
-  - CNAME: SIP. \<domain\> /DROCSPool. \<dominio\>
+  - CNAME: SIP. \<dominio\> /DROCSPool. \<dominio\>
 
   - SIP. \<dominio\>
 
-  - AV.\<Domain\>
+  - AV.\<dominio\>
 
   - WebConf. \<dominio\>
 
@@ -102,7 +102,7 @@ Para facilitar la conmutación por error, este registro CNAME debe actualizarse 
 
 
 > [!IMPORTANT]  
-> Para obtener información detallada sobre la administración y los procedimientos de administración, consulte <A href="lync-server-2013-backing-up-and-restoring-lync-server.md">copia de seguridad y restauración de Lync Server 2013</A>.
+> Para obtener información detallada acerca de los procedimientos de administración y administración, consulte <A href="lync-server-2013-backing-up-and-restoring-lync-server.md">copia de seguridad y restauración de Lync Server 2013</A>.
 
 
 
@@ -119,9 +119,9 @@ Para facilitar la conmutación por error, este registro CNAME debe actualizarse 
 [Cmdlets de copia de seguridad y alta disponibilidad en Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)  
 
 
-[Importar-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
+[Import-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
 [Copia de seguridad y restauración de Lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)  
-[Administrar la recuperación ante desastres, la alta disponibilidad y el servicio de copia de seguridad en Lync Server 2013](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
+[Administración del servicio de copia de seguridad, alta disponibilidad y recuperación ante desastres de Lync Server 2013](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
   
 
 </div>

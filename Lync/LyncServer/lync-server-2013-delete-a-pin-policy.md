@@ -12,16 +12,16 @@ ms:contentKeyID: 48184609
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc11f1383ec652c512fe5542d9a6780ce028c516
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38f8c9899665353d33682cc0c780cd7411b0abfd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741000"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006326"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -53,15 +53,15 @@ Siga estos pasos para eliminar una directiva de número de identificación perso
 
 ## <a name="to-delete-a-pin-policy-in-lync-server-2013-control-panel"></a>Para eliminar una directiva de PIN en el panel de control de Lync Server 2013
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo de la red en el que haya implementado Lync Server 2013.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que se implementó Lync Server 2013.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  En la barra de navegación izquierda, haga clic en **Seguridad** y, a continuación, en **Directiva de PIN**.
 
 4.  En la página **Directiva de PIN**, escriba en el campo de búsqueda el nombre completo o parcial de la directiva que desea eliminar.
 
-5.  En la lista de directivas, haga clic en la directiva que desea, en **Editar** y en **Eliminar**.
+5.  En la lista de directivas, seleccione la directiva que desee, haga clic en **Editar** y, a continuación, en **Eliminar**.
 
 6.  Haga clic en **Aceptar**.
 
@@ -69,15 +69,15 @@ Siga estos pasos para eliminar una directiva de número de identificación perso
 
 <div>
 
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Quitar directivas de PIN mediante cmdlets de Windows PowerShell
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Eliminación de directivas de PIN mediante cmdlets de Windows PowerShell
 
-Puede eliminar directivas de PIN mediante Windows PowerShell y el cmdlet Remove-CsPinPolicy. Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede eliminar directivas de PIN con Windows PowerShell y el cmdlet Remove-CsPinPolicy. Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
 <div>
 
-## <a name="to-remove-a-specific-pin-policy"></a>Quitar una directiva de PIN específica
+## <a name="to-remove-a-specific-pin-policy"></a>Para quitar una directiva de PIN específica
 
-  - Este comando quita la Directiva de PIN con la RedmondPinPolicy de identidad:
+  - Este comando elimina la Directiva de PIN con la RedmondPinPolicy de identidad:
     
         Remove-CsPinPolicy -Identity "RedmondPinPolicy"
 
@@ -85,9 +85,9 @@ Puede eliminar directivas de PIN mediante Windows PowerShell y el cmdlet Remove-
 
 <div>
 
-## <a name="to-remove-all-the-pin-policies-applied-to-the-site-scope"></a>Quitar todas las directivas de PIN que se aplican al ámbito del sitio
+## <a name="to-remove-all-the-pin-policies-applied-to-the-site-scope"></a>Para quitar todas las directivas de PIN que se aplican al ámbito del sitio
 
-  - Este comando quita todas las directivas de PIN configuradas en el ámbito del sitio:
+  - Este comando elimina todas las Directivas de PIN configuradas en el ámbito del sitio:
     
         Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 
@@ -95,7 +95,7 @@ Puede eliminar directivas de PIN mediante Windows PowerShell y el cmdlet Remove-
 
 <div>
 
-## <a name="to-remove-all-the-pin-policies-that-allow-the-use-of-common-patterns"></a>Quitar todas las directivas de PIN que permiten el uso de patrones comunes
+## <a name="to-remove-all-the-pin-policies-that-allow-the-use-of-common-patterns"></a>Para quitar todas las directivas de PIN que permiten el uso de patrones comunes
 
   - Y este elimina todas las Directivas de PIN que permiten el uso de patrones comunes:G
     
@@ -103,7 +103,7 @@ Puede eliminar directivas de PIN mediante Windows PowerShell y el cmdlet Remove-
 
 </div>
 
-Para obtener más información, consulte el tema de ayuda para el cmdlet [Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsPinPolicy) .
+Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsPinPolicy) .
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: componentes usados por la recogida de llamadas grupales'
+title: 'Lync Server 2013: componentes usados por la recogida de llamadas de grupo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541470
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b9c810d5835d113a26bd3a15295f75a71552590
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a05bf0b6a55eb3d8d3d322061947ac43f6295c63
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757074"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007930"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41757074"
 
 _**Última modificación del tema:** 2013-01-30_
 
-La recopilación de llamadas grupales se implementa automáticamente al implementar la telefonía IP empresarial y la aplicación estacionamiento de llamadas. Para habilitar la recopilación de llamadas de grupo, configure la tabla de llamadas en órbita con intervalos de números designados como números de grupo de recogida de llamadas y, a continuación, asigne usuarios para llamar a grupos de recogida y habilitar a los usuarios para la recogida de llamadas grupales. Los siguientes componentes de Lync Server admiten la recogida de llamadas de Grupo:
+La recogida de llamadas de grupo se implementa automáticamente al implementar la telefonía IP empresarial y la aplicación estacionamiento de llamadas. Para habilitar la recogida de llamadas de grupo, configure la tabla de órbitas de estacionamiento de llamadas con intervalos de números designados como números de grupo de atención de llamadas y, a continuación, asigne usuarios a los grupos de atención de llamadas y habilite a los usuarios para la recogida de llamadas de grupo. Los siguientes componentes de Lync Server admiten la recogida de llamadas de Grupo:
 
-  - ****   El servicio de aplicación de servicio de aplicación proporciona una plataforma para implementar, hospedar y administrar aplicaciones de comunicaciones unificadas, como la aplicación de estacionamiento de llamadas. El servicio de aplicaciones se instala automáticamente en todos los servidores front-end de un grupo de servidores front-end y en todos los servidores Standard Edition.
+  - ****   El servicio de aplicación de servicio de aplicación proporciona una plataforma para implementar, hospedar y administrar aplicaciones de comunicaciones unificadas, como la aplicación de estacionamiento de llamadas. El servicio de aplicación se instala automáticamente en todos los servidores front-end de un grupo de servidores front-end y en cada servidor Standard Edition.
 
-  - **Aplicación de estacionamiento de llamadas**   la aplicación de estacionamiento de llamadas es una de las aplicaciones de comunicaciones unificadas que se hospedan en el servicio de aplicación. La recogida de llamadas grupales se basa en la aplicación de estacionamiento de llamadas.
+  - **Aplicación estacionamiento de llamadas**   la aplicación de estacionamiento de llamadas es una de las aplicaciones de comunicaciones unificadas que se hospedan en el servicio de aplicación. La recogida de llamadas de grupo se basa en la aplicación de estacionamiento de llamadas.
 
-  - **Shell de administración de Lync Server**   use el shell de administración de Lync Server para administrar grupos de recopilación de llamadas de grupo.
+  - **Shell de administración de Lync Server**   use el shell de administración de Lync Server para administrar grupos de recogida de llamadas de grupo.
 
-  - **Herramienta del kit de recursos de SEFAUtil**   use la utilidad de activación de características de extensión secundaria (SEFAUtil) para asignar usuarios a un grupo de recogida de llamadas y para habilitar o deshabilitar la recogida de llamadas para los usuarios.
+  - **Herramienta del kit de recursos de SEFAUtil**   usa la utilidad de activación de la característica de extensión secundaria (SEFAUtil) para asignar usuarios a un grupo de atención de llamadas y para habilitar o deshabilitar la atención de llamadas para los usuarios.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla UserAgent'
+title: 'Lync Server 2013: tabla UserAgent'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25d1cd6b48b09ad3083499ec3f173772d242ba6b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ba13a18436c7a55ca68931ff2794fd584be84f9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744400"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007629"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41744400"
 
 _**Última modificación del tema:** 2012-05-25_
 
-La tabla UserAgent es una tabla de soporte que almacena una lista de los diversos agentes de usuario que participaron en sesiones registradas en la base de datos. Cada registro de la tabla representa un agente de usuario
+La tabla UserAgent es una tabla de apoyo que almacena una lista de los diversos agentes de usuario que participaron en sesiones registradas en la base de datos. Cada registro de la tabla representa un agente de usuario
 
 
 <table>
@@ -59,13 +59,13 @@ La tabla UserAgent es una tabla de soporte que almacena una lista de los diverso
 <tr class="odd">
 <td><p><strong>UserAgentKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
+<td><p>Principal</p></td>
 <td><p>Número único que identifica a este agente de usuario.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserAgent</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Solo</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Única</p></td>
 <td><p>Cadena de agente de usuario.</p></td>
 </tr>
 <tr class="odd">
@@ -76,11 +76,11 @@ La tabla UserAgent es una tabla de soporte que almacena una lista de los diverso
 <p>2 es un servidor de conferencia A/V.</p>
 <p>4 es Lync.</p>
 <p>8 es teléfono IP.</p>
-<p>16 es la consola de Live Meeting.</p>
+<p>16 es consola de Live Meeting.</p>
 <p>32 es la herramienta de validación de implementación (DVT).</p>
-<p>64 son Lync en equipos Macintosh.</p>
-<p>128 es el operador R2 de Office Communications Server 2007.</p>
-<p>256 es el servicio de anuncios de conferencia.</p>
+<p>64 es Lync en equipos Macintosh.</p>
+<p>128 es el operador de Office Communications Server 2007 R2.</p>
+<p>256 es el servicio de anuncio de conferencia.</p>
 <p>512 es operador automático de conferencia.</p>
 <p>1024 es una aplicación de grupo de respuesta.</p>
 <p>2048 está fuera del control de voz.</p></td>

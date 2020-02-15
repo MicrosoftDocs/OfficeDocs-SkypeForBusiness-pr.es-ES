@@ -1,5 +1,5 @@
 ---
-title: Configurar la supervisión SCOM
+title: Configurar la supervisión de SCOM
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 49733624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7904edf9723dacdd28f69a75bec17cb5db3c2061
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8266097035a284c966ad62672515cb2a64444339
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728149"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006646"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-scom-monitoring"></a>Configurar la supervisión SCOM
+# <a name="configure-scom-monitoring"></a>Configurar la supervisión de SCOM
 
 </div>
 
@@ -38,27 +38,27 @@ ms.locfileid: "41728149"
 
 _**Última modificación del tema:** 2012-10-04_
 
-Después de migrar a Microsoft Lync Server 2013, debe completar algunas tareas para configurar Lync Server 2013 para que funcione con System Center Operations Manager.
+Después de migrar a Microsoft Lync Server 2013, debe realizar algunas tareas para configurar Lync Server 2013 para que funcione con System Center Operations Manager.
 
-  - Aplique actualizaciones de Lync Server 2010 a un servidor elegido para administrar la lógica de descubrimiento central.
+  - Aplique las actualizaciones de Lync Server 2010 a un servidor elegido para administrar la lógica de detección central.
 
-  - Actualice la clave del registro del candidato de detección central.
+  - Actualice la clave de registro del servidor candidato de detección central.
 
-  - Configure el servidor de administración principal de System Center Operations Manager para que invalide el nodo de detección central candidato.
+  - Configure el servidor de administración principal de System Center Operations Manager para invalidar el nodo de detección central candidato.
 
-A continuación se proporcionan instrucciones para llevar a cabo estas tareas.
+A continuación se proporcionan instrucciones para realizar cada una de estas tareas.
 
-**Aplique actualizaciones de Lync Server 2010 a un servidor elegido para administrar la lógica de descubrimiento central.**
+**Aplique las actualizaciones de Lync Server 2010 a un servidor elegido para administrar la lógica de detección central.**
 
-1.  Elija un servidor que tenga instalados los archivos del agente System Center Operations Manager y esté configurado como un nodo de detección candidato.
+1.  Elija un servidor que tenga los archivos del agente System Center Operations Manager instalados y esté configurado como un nodo de detección candidato.
 
-2.  Aplique las actualizaciones de Lync Server 2010 a este servidor. Vea el tema sobre cómo [aplicar actualizaciones de Lync Server 2010](apply-lync-server-2010-updates.md).
+2.  Aplique las actualizaciones de Lync Server 2010 a este servidor. Consulte el tema [Apply Lync Server 2010 updates](apply-lync-server-2010-updates.md).
 
-**Actualice la clave del registro del candidato de detección central.**
+**Actualice la clave de registro del servidor candidato de detección central.**
 
-1.  En el servidor elegido para administrar la lógica de detección central, abra una ventana de comandos de Windows PowerShell.
+1.  En el servidor decidió administrar la lógica de detección central, abra una ventana de comandos de Windows PowerShell.
 
-2.  En la línea de comandos, escriba:
+2.  En la línea de comandos, escriba lo siguiente:
     
        ```PowerShell
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
@@ -72,22 +72,22 @@ A continuación se proporcionan instrucciones para llevar a cabo estas tareas.
     
 
     > [!NOTE]  
-    > Siempre que edite el registro, es posible que se produzca un error en el comando si la clave del registro ya existe. Si tiene esto, puede ignorar el error sin riesgos.
+    > Al cambiar el registro, puede recibir un error que indica que el comando ha fallado si la clave de registro ya existe. Si le pasa esto, puede ignorar el error de forma segura.
 
     
     </div>
 
-**Configure su servidor de administración principal de System Center Operations Manager para invalidar el nodo de supervisor de detección central candidato.**
+**Configure el servidor de administración principal de System Center Operations Manager para invalidar el nodo de monitor de detección central candidato.**
 
-1.  En un equipo en el que se haya instalado la consola de System Center Operations Manager, expanda los **objetos del módulo de administración** y seleccione **descubrimientos de objetos**.
+1.  En un PC donde se haya instalado la consola de System Center Operations Manager, expanda **Objetos del módulo de administración** y luego seleccione **Detecciones de objetos**.
 
-2.  Haga clic en **cambiar ámbito...**
+2.  Haga clic en **Cambiar ámbito...**
 
-3.  En la página **objetos del módulo de administración del ámbito** , seleccione candidato de detección de **LS**.
+3.  En la página **Objetos de módulo de administración de ámbito**, seleccione **Candidato de detección de LS**.
 
-4.  Invalide el **valor efectivo candidato** a la detección de LS al nombre del servidor candidato elegido en el procedimiento anterior.
+4.  Reemplace el **Valor efectivo de Candidato de detección de LS** con el nombre del servidor candidato elegido en el procedimiento anterior.
 
-Por último, para finalizar los cambios, reinicie el servicio de mantenimiento en el servidor de administración de raíz de System Center Operations Manager.
+Por último, para finalizar los cambios, reinicie el servicio de estado en el Servidor de administración raíz de System Center Operations Manager.
 
 </div>
 

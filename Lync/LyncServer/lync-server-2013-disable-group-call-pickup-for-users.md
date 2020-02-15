@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: deshabilitar la recogida de llamadas grupales para usuarios'
+title: 'Lync Server 2013: deshabilitar la atención de llamadas grupales para los usuarios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7e47b5c3b12997bd05f3721555a5dfdfe692bbc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c03242cf0b3521dada944ccaba30946306c1ff24
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762208"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036600"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="disable-group-call-pickup-for-users-in-lync-server-2013"></a>Deshabilitar la recogida de llamadas grupales para los usuarios en Lync Server 2013
+# <a name="disable-group-call-pickup-for-users-in-lync-server-2013"></a>Deshabilitar la atención de llamadas grupales para los usuarios en Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41762208"
 
 _**Última modificación del tema:** 2013-01-30_
 
-Use el siguiente procedimiento para deshabilitar la recogida de llamadas grupales para un usuario.
+Use el siguiente procedimiento para deshabilitar la atención de llamadas grupales para un usuario.
 
 <div>
 
 
 > [!NOTE]  
-> Al deshabilitar la recogida de llamadas grupales para un usuario, el número del grupo de recogida de llamadas que se asignó al usuario no se conserva. Si posteriormente deseas volver a habilitar la recogida de llamadas grupales para ese usuario, debes asignar el número del grupo de recogida de llamadas de nuevo con el parámetro/enablegrouppickup.
+> Cuando se deshabilita la recepción de llamadas de grupo para un usuario, no se conserva el número del grupo de atención de llamadas que se asignó al usuario. Si, posteriormente, desea volver a habilitar la atención de llamadas grupales para ese usuario, debe asignar el número de grupo de recogida de llamadas de nuevo con el parámetro/enablegrouppickup.
 
 
 
@@ -51,9 +51,9 @@ Use el siguiente procedimiento para deshabilitar la recogida de llamadas grupale
 
 <div>
 
-## <a name="to-disable-group-call-pickup-for-a-user"></a>Para deshabilitar la recogida de llamadas grupales para un usuario
+## <a name="to-disable-group-call-pickup-for-a-user"></a>Para deshabilitar la recepción de llamadas de grupo para un usuario
 
-1.  Inicie sesión como administrador en el equipo en el que haya instalado la herramienta SEFAUtil.
+1.  Inicie sesión en el equipo donde instaló la herramienta SEFAUtil con derechos de administrador.
 
 2.  En la línea de comandos, ejecute:
     
@@ -70,8 +70,8 @@ Use el siguiente procedimiento para deshabilitar la recogida de llamadas grupale
 ## <a name="see-also"></a>Vea también
 
 
-[Asignar números de recogida de llamadas grupales a los usuarios de Lync Server 2013](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
-[Habilitar la recogida de llamadas grupales para los usuarios en Lync Server 2013](lync-server-2013-enable-group-call-pickup-for-users.md)  
+[Asignar números de llamada de llamada de grupo a los usuarios en Lync Server 2013](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
+[Habilitar la atención de llamadas grupales para los usuarios en Lync Server 2013](lync-server-2013-enable-group-call-pickup-for-users.md)  
   
 
 </div>

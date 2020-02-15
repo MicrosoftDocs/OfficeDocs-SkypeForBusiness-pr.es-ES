@@ -12,16 +12,16 @@ ms:contentKeyID: 63969662
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31d6a38c0c1d8a67977f9dd66da2a94b51a4f9ab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2db1e1e0a94a73c520a3beb0ea1375688b106cfc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763664"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007419"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -45,8 +45,8 @@ _**Última modificación del tema:** 2014-06-05_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Programación de verificación</p></td>
-<td><p>Cada día</p></td>
+<td><p>Programación de comprobación</p></td>
+<td><p>Diario</p></td>
 </tr>
 <tr class="even">
 <td><p>Herramienta de prueba</p></td>
@@ -54,8 +54,8 @@ _**Última modificación del tema:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
-<td><p>Al ejecutarse de forma local con el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol de RBAC que tenga permiso para ejecutar el cmdlet test-CsAddressBookWebQuery. Para ver una lista de todos los roles de RBAC que pueden usar este cmdlet, ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:</p>
+<td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsAddressBookWebQuery. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAddressBookWebQuery&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**Última modificación del tema:** 2014-06-05_
 
 ## <a name="description"></a>Descripción
 
-El cmdlet test-CsAddressBookWebQuery permite a los administradores comprobar que los usuarios pueden usar el servicio de consultas Web de la libreta de direcciones para buscar un contacto específico. Al ejecutar el cmdlet, test-CsAddressBookWebQuery se conectará en primer lugar con el servicio de vales web para que se autentique. Si la autenticación se realiza correctamente, el cmdlet se conectará al servicio de consulta Web de la libreta de direcciones y buscará el contacto especificado. Si se encuentra ese contacto, el cmdlet intentará devolver esa información al equipo local. La prueba se marcará como correcta solo si se pueden completar todos los pasos.
+El cmdlet test-CsAddressBookWebQuery permite a los administradores comprobar que los usuarios pueden usar el servicio de consulta Web de libreta de direcciones para buscar un contacto específico. Al ejecutar el cmdlet, test-CsAddressBookWebQuery se conectará primero al servicio de vale web para autenticarse. Si la autenticación se realiza correctamente, el cmdlet se conectará al servicio de consulta Web de la libreta de direcciones y buscará el contacto especificado. Si se encuentra ese contacto, el cmdlet intentará devolver esa información al equipo local. La prueba se marcará como correcta solo si se pueden completar todos los pasos.
 
 Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery) .
 
@@ -76,11 +76,11 @@ Para obtener más información, consulte la documentación de ayuda del cmdlet [
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-El cmdlet test-CsAddressBookWebQuery se puede ejecutar mediante una cuenta de prueba preconfigurada (consulte Configurar cuentas de prueba para ejecutar pruebas de Lync Server) o la cuenta de cualquier usuario que esté habilitado para Lync Server. Para ejecutar esta comprobación mediante una cuenta de prueba, solo tiene que especificar el FQDN del grupo de servidores de Lync y la dirección SIP del usuario que actúa como destino de la búsqueda. Por ejemplo:
+El cmdlet test-CsAddressBookWebQuery se puede ejecutar con una cuenta de prueba preconfigurada (consulte la configuración de las cuentas de prueba para ejecutar pruebas de Lync Server) o en la cuenta de cualquier usuario que esté habilitado para Lync Server. Para ejecutar esta comprobación con una cuenta de prueba, solo tiene que especificar el FQDN del grupo de Lync Server y la dirección SIP del usuario que actúa como destino de la búsqueda. Por ejemplo:
 
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com"
 
-Para ejecutar esta comprobación mediante una cuenta de usuario real, debe crear un objeto de credenciales de Windows PowerShell que contenga un nombre de usuario y una contraseña válidos. Después debes incluir ese objeto de credenciales y la dirección SIP asignada a la cuenta cuando el código llama a test-CsAddressBookWebQuery:
+Para ejecutar esta comprobación con una cuenta de usuario real, debe crear un objeto de credenciales de Windows PowerShell que contenga un nombre de usuario y una contraseña válidos. A continuación, debe incluir ese objeto Credentials y la dirección SIP asignada a la cuenta cuando el código llame a test-CsAddressBookWebQuery:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
@@ -91,23 +91,23 @@ Para obtener más información, consulte la documentación de ayuda del cmdlet [
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Determinar el éxito o el fracaso
+## <a name="determining-success-or-failure"></a>Determinar si se ha realizado correctamente o erróneo
 
-Si el usuario especificado puede conectarse al servicio de libreta de direcciones y recuperar la dirección de usuario de destino, devolverá un resultado similar a este, con la propiedad result marcada como correcta:
+Si el usuario especificado puede conectarse al servicio de libreta de direcciones y recuperar la dirección del usuario de destino, se devuelve un resultado similar al siguiente con la propiedad result marcada como correcta:
 
 TargetUrihttps://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
-Resultado: éxito
+Resultado: correcto
 
 Latencia: 00:00:06.2611356
 
-:
+Error
 
 Diagnóstico
 
-Si el usuario especificado no se puede conectar o si la dirección de usuario de destino no se puede recuperar, el resultado se mostrará como error y la información adicional se registrará en las propiedades de diagnóstico y errores:
+Si el usuario especificado no se puede conectar o si no se puede recuperar la dirección de usuario de destino, el resultado se mostrará como error y la información adicional se registrará en las propiedades error y diagnosis:
 
 TargetUrihttps://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
@@ -117,25 +117,25 @@ Resultado: error
 
 Latencia: 00:00:00
 
-Error: error en la solicitud de servicio Web de libreta de direcciones con código de respuesta
+Error: error en la solicitud del servicio Web de libreta de direcciones con código de respuesta
 
 NoEntryFound.
 
 Diagnóstico
 
-La salida anterior indica que no se pudo realizar la prueba porque no se pudo encontrar el usuario de destino. Puede determinar si se ha pasado o no una dirección SIP válida a test-CsAddressBookWebQuery ejecutando un comando similar al siguiente:
+La salida anterior indica que se produjo un error en la prueba porque no se encontró el usuario de destino. Puede determinar si se ha pasado una dirección SIP válida a test-CsAddressBookWebQuery mediante la ejecución de un comando similar al siguiente:
 
     Get-CsUser | Where-Object {$_.SipAddress -eq "sip:davidlongmire@litwareinc.com"
 
-Si prueba-CsAddressBookWebQuery da error, es posible que desee volver a ejecutar la prueba, esta vez incluido el parámetro detallado:
+Si test-CsAddressBookWebQuery produce un error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
 
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com" -Verbose
 
-Cuando se incluye el parámetro detallado, test-CsAddressBookWebQuery devolverá una cuenta paso a paso de cada acción que intentó realizar comprobando la capacidad del usuario especificado para iniciar sesión en Lync Server. Por ejemplo, esta salida indica que test-CsAddressBookWebQuery pudo conectarse al servicio de libreta de direcciones, pero no pudo encontrar la dirección SIP de destino:
+Cuando se incluye el parámetro verbose, test-CsAddressBookWebQuery devolverá una cuenta paso a paso de cada acción que ha probado mientras se comprueba la capacidad del usuario especificado para iniciar sesión en Lync Server. Por ejemplo, este resultado indica que test-CsAddressBookWebQuery se pudo conectar al servicio de libreta de direcciones, pero no pudo encontrar la dirección SIP de destino:
 
-Actividad ' QueryAddressBookWebService ' iniciada.
+Se inició la actividad ' QueryAddressBookWebService '.
 
-Llamar al servicio de consultas Web de la libreta de direcciones. DIRECCIÓN URL DE ABWS =
+Llamar al servicio de consulta Web de libreta de direcciones. DIRECCIÓN URL DE ABWS =
 
 https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
@@ -145,15 +145,15 @@ Excepción de consulta de la libreta de direcciones: error en la solicitud de se
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Razones por las que se ha producido un error en la prueba
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
 Estas son algunas de las razones comunes por las que test-CsAddressBookWebQuery podría fallar:
 
-  - Ha especificado una cuenta de usuario no válida. Puede comprobar que una cuenta de usuario existe ejecutando un comando similar a este:
+  - Ha especificado una cuenta de usuario no válida. Puede comprobar si existe una cuenta de usuario mediante la ejecución de un comando similar al siguiente:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - La cuenta de usuario es válida, pero la cuenta no está habilitada actualmente para Lync Server. Para comprobar que se ha habilitado una cuenta de usuario para Lync Server, ejecute un comando similar al siguiente:
+  - La cuenta de usuario es válida, pero la cuenta no está habilitada actualmente para Lync Server. Para comprobar que una cuenta de usuario se ha habilitado para Lync Server, ejecute un comando similar al siguiente:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
@@ -161,7 +161,7 @@ Estas son algunas de las razones comunes por las que test-CsAddressBookWebQuery 
 
   - Es posible que el usuario de destino no esté en la libreta de direcciones.
 
-  - Es posible que la libreta de direcciones no se haya actualizado completamente y se haya replicado. Puede forzar una actualización de todos los servidores de la libreta de direcciones de su organización ejecutando el siguiente comando:
+  - Es posible que la libreta de direcciones no se haya actualizado completamente y replicado. Para forzar una actualización de todos los servidores de la libreta de direcciones de la organización, ejecute el siguiente comando:
     
         Update-CsAddressBook
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lista de tablas de QoE'
+title: 'Lync Server 2013: lista de tablas de QoE'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3161415b65c8e85ace7968ab29d86c0d0c5387a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3b15cab5a39e74cbbc1813fb9d4f5ce56d777408
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765398"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033759"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41765398"
 
 _**Última modificación del tema:** 2012-10-02_
 
-El esquema de la base de datos consta de las siguientes tablas.
+El esquema de la base de datos incluye las tablas siguientes.
 
-**Tablas de soporte técnico**
+**Tablas auxiliares**
 
 
 <table>
@@ -49,118 +49,118 @@ El esquema de la base de datos consta de las siguientes tablas.
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Tabla</strong></th>
+<th><strong>Table</strong></th>
 <th><strong>Descripción</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-appsharingmetricsthreshold-table.md">Tabla AppSharingMetricsThreshold en Lync Server 2013</a></p></td>
-<td><p>Almacena valores óptimos y aceptables para las métricas de la calidad de la experiencia que se usan con el uso compartido de aplicaciones.</p></td>
+<td><p>Almacena los valores aceptables y óptimos para la métrica Calidad de la experiencia que se usa al compartir aplicaciones.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-codecdescription-table.md">Tabla CodecDescription en Lync Server 2013</a></p></td>
-<td><p>Asigna identificadores de códec únicos a su códec correspondiente.</p></td>
+<td><p>Asigna identificadores de códecs únicos al códec correspondiente.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-ipaddress-table.md">Tabla IPAddress en Lync Server 2013</a></p></td>
-<td><p>Asigna direcciones IP a los identificadores de dirección IP única que se usan en otras partes de la base de datos de la calidad de la experiencia.</p></td>
+<td><p>Asigna direcciones IP a los identificadores de dirección IP únicos que se usan en la base de datos de Calidad de la experiencia.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-networkconnectiondetail-table.md">Tabla NetworkConnectionDetail en Lync Server 2013</a></p></td>
-<td><p>Mapas tipos de conexión de red a los identificadores de conexión de red usados en otras partes de la base de datos de la calidad de la experiencia.</p></td>
+<td><p>Asigna tipos de conexión de red a los identificadores de conexión de red que se usan en la base de datos de Calidad de la experiencia.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-purgesettings-table-qoe.md">Tabla PurgeSettings (QoE) en Lync Server 2013</a></p></td>
-<td><p>Almacena información que especifica si (y cuándo) la calidad de los registros de experiencia se eliminará automáticamente de la base de datos de QoE.</p></td>
+<td><p>Almacena información que especifica si los registros de Calidad de la experiencia no actualizados se eliminarán automáticamente de la base de datos de QoE (así como cuándo se eliminarán).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-traceroute-table.md">Tabla TraceRoute en Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-traceroute-table.md">TraceRoute tabla en Lync Server 2013</a></p></td>
 <td><p>Almacena la información de enrutamiento de las llamadas.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-useragentdef-table-qoe.md">Tabla UserAgentDef (QoE) en Lync Server 2013</a></p></td>
-<td><p>Asigna identificadores de agente de usuario a los nombres descriptivos del agente.</p></td>
+<td><p>Asigna los identificadores de agente de usuario a los nombres descriptivos del agente.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-videometricsthreshold-table.md">Tabla VideoMetricsThreshold en Lync Server 2013</a></p></td>
-<td><p>Almacena valores óptimos y aceptables para las métricas de la calidad de la experiencia que se usan con las videollamadas.</p></td>
+<td><p>Almacena los valores aceptables y óptimos para la métrica Calidad de la experiencia que se usa con las llamadas de vídeo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-useragent-table.md">Tabla UserAgent en Lync Server 2013</a></p></td>
-<td><p>Almacena las cadenas y los tipos de UA del agente de usuario del Protocolo de inicio de sesión (SIP) que se usan en sesiones de audio y vídeo.</p></td>
+<td><p>Almacena las cadenas del agente de usuario del Protocolo de inicio de sesión (SIP) y los tipos de agentes de usuario utilizados en las sesiones de audio y vídeo.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-user-table.md">Tabla User en Lync Server 2013</a></p></td>
-<td><p>Almacena los URI de usuario, Conferencia y teléfono que se usan en las sesiones de audio y vídeo.</p></td>
+<td><p><a href="lync-server-2013-user-table.md">Tabla user en Lync Server 2013</a></p></td>
+<td><p>Almacena los URI de teléfono, usuario y conferencia utilizados en las sesiones de audio y vídeo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-endpoint-table.md">Tabla Endpoint en Lync Server 2013</a></p></td>
-<td><p>Almacena FQDN de los nombres de los equipos de puntos de conexión que participan en sesiones de audio y vídeo.</p></td>
+<td><p>Almacena los nombres de equipo FQDN de los extremos que participan en las sesiones de audio y vídeo.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-pool-table.md">Tabla Pool en Lync Server 2013</a></p></td>
-<td><p>Almacena los nombres de los grupos a los que pertenecen los datos de métrica.</p></td>
+<td><p><a href="lync-server-2013-pool-table.md">Tabla de grupo en Lync Server 2013</a></p></td>
+<td><p>Almacena los nombres de los grupos de servidores a los que pertenecen los datos de métricas.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-device-table.md">Tabla Device en Lync Server 2013</a></p></td>
-<td><p>Almacena dispositivos de captura y dispositivos de representación que se usan en una llamada de audio o vídeo.</p></td>
+<td><p>Almacena los dispositivos de captura y presentación utilizados en las llamadas de audio/vídeo.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-devicedriver-table.md">Tabla DeviceDriver en Lync Server 2013</a></p></td>
-<td><p>Almacena el controlador para el dispositivo de captura y el dispositivo de representación que se usan en las llamadas de audio o vídeo.</p></td>
+<td><p>Almacena el controlador de los dispositivos de captura y presentación utilizados en las llamadas de audio/vídeo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-conference-table.md">Tabla Conference en Lync Server 2013</a></p></td>
-<td><p>Almacena los URI de conferencia para escenarios de conferencia o DialogID para otros escenarios.</p></td>
+<td><p><a href="lync-server-2013-conference-table.md">Tabla de conferencia en Lync Server 2013</a></p></td>
+<td><p>Almacena los URI de conferencia para los escenarios de conferencia o el identificador de diálogo para otros escenarios.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-sessioncorrelation-table.md">Tabla SessionCorrelation en Lync Server 2013</a></p></td>
-<td><p>Almacena CorrelationID para llamadas RTC.</p></td>
+<td><p>Almacena el identificador de correlación de las llamadas RTC.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-payloaddescription-table.md">Tabla PayloadDescription en Lync Server 2013</a></p></td>
-<td><p>Almacena el códec usado en las llamadas de audio o vídeo.</p></td>
+<td><p>Almacena el códec utilizado en las llamadas de audio/vídeo.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-appliedbandwidthsource-table.md">Tabla AppliedBandwidthSource en Lync Server 2013</a></p></td>
-<td><p>Almacena la fuente de ancho de banda que se usa en las llamadas de audio o vídeo.</p></td>
+<td><p>Almacena el origen de ancho de banda utilizado en las llamadas de audio/vídeo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-macaddress-table.md">Tabla MacAddress en Lync Server 2013</a></p></td>
-<td><p>Almacena la dirección MAC de los puntos de conexión que participan en sesiones de audio y vídeo.</p></td>
+<td><p>Almacena la dirección MAC de los extremos que participan en las sesiones de audio y vídeo.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-dialog-table.md">Tabla Dialog en Lync Server 2013</a></p></td>
-<td><p>Almacena el identificador de cuadro de diálogo de las sesiones de audio y vídeo.</p></td>
+<td><p><a href="lync-server-2013-dialog-table.md">Tabla de cuadro de diálogo en Lync Server 2013</a></p></td>
+<td><p>Almacena el identificador de diálogo de las sesiones de audio y vídeo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-region-table.md">Tabla Region en Lync Server 2013</a></p></td>
-<td><p>Almacena la región de red definida en NC.</p></td>
+<td><p><a href="lync-server-2013-region-table.md">Tabla region en Lync Server 2013</a></p></td>
+<td><p>Almacena la región de red definida en la configuración NCS.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-usersite-table.md">Tabla UserSite en Lync Server 2013</a></p></td>
-<td><p>Almacena el sitio de red definido en NC Settings.</p></td>
+<td><p>Almacena el sitio de red definido en la configuración NCS.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-subnet-table.md">Tabla Subnet en Lync Server 2013</a></p></td>
-<td><p>Almacena la subred definida en la configuración de NC.</p></td>
+<td><p><a href="lync-server-2013-subnet-table.md">Tabla de subred en Lync Server 2013</a></p></td>
+<td><p>Almacena la subred definida en la configuración NCS.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-monitoredregionlink-table.md">Tabla MonitoredRegionLink en Lync Server 2013</a></p></td>
-<td><p>Almacena el vínculo región definido en NC.</p></td>
+<td><p>Almacena el vínculo de región definido en la configuración NCS.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="monitoredusersitelink-table.md">Tabla MonitoredUserSiteLink</a></p></td>
-<td><p>Almacena los vínculos de sitio de red definidos en NC.</p></td>
+<td><p>Almacena los vínculos de sitios de red definidos en la configuración NCS.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-endpointsubnet-table.md">Tabla EndpointSubnet en Lync Server 2013</a></p></td>
-<td><p>Almacena la subred del punto final que participa en una sesión de audio y vídeo.</p></td>
+<td><p>Almacena la subred del extremo que participa en las sesiones de audio y vídeo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-server-table.md">Tabla Server en Lync Server 2013</a></p></td>
-<td><p>Almacena el FQDN o la dirección IP del servidor en el que se recorren los medios.</p></td>
+<td><p>Almacena el FQDN o la dirección IP del servidor que utilizan los medios.</p></td>
 </tr>
 </tbody>
 </table>
@@ -176,52 +176,52 @@ El esquema de la base de datos consta de las siguientes tablas.
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Tabla</strong></th>
+<th><strong>Table</strong></th>
 <th><strong>Descripción</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-appsharingstream-table.md">Tabla AppSharingStream en Lync Server 2013</a></p></td>
-<td><p>Almacena métricas de experiencia de evaluación de la calidad de las secuencias de red usadas para compartir aplicaciones. Métricas de la calidad de la experiencia de las secuencias de red que se usan para compartir aplicaciones.</p></td>
+<td><p>Almacena las métricas de Calidad de la experiencia para los flujos de red usados al compartir aplicaciones. Las métricas de calidad de la experiencia se usan al compartir aplicaciones.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-session-table.md">Tabla Session en Lync Server 2013</a></p></td>
-<td><p>Almacena información general sobre una sesión de audio o vídeo o audio. Una sesión se define como un cuadro de diálogo SIP de audio o vídeo entre dos puntos finales.</p></td>
+<td><p>Almacena información general acerca de una sesión de audio o de audio/vídeo. Una sesión se define como un diálogo SIP de audio o vídeo entre dos extremos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-medialine-table.md">Tabla MediaLine en Lync Server 2013</a></p></td>
-<td><p>Almacena información sobre cada línea multimedia de una sesión. Una línea de medios es una colección de una o más secuencias de audio y vídeo. Normalmente, una única línea multimedia tendrá dos secuencias, ya sea audio o vídeo.</p></td>
+<td><p>Almacena información acerca de cada línea de medios de una sesión. Una línea de medios es una recopilación de una o varias secuencias de audio y vídeo. Por lo general, una única línea de medios tendrá dos secuencias, de audio o de vídeo.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-audiostream-table.md">Tabla AudioStream en Lync Server 2013</a></p></td>
-<td><p>Almacena las métricas de calidad de audio multimedia de audio de cada flujo de audio de la línea de medios.</p></td>
+<td><p>Almacena métricas de calidad de medios de audio para cada secuencia de audio de la línea de medios.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-audiosignal-table.md">Tabla AudioSignal en Lync Server 2013</a></p></td>
-<td><p>Almacena las métricas de calidad de audio multimedia en la línea media. Esto incluye la métrica de cancelación de eco acústico (AEC) y las métricas de control automático de ganancia (AGC).</p></td>
+<td><p>Almacena métricas de calidad de medios de audio de la línea de medios. Esto incluye las métricas de cancelación del eco acústico (AEC) y el control de ganancia automático (AGC).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-videostream-table.md">Tabla VideoStream en Lync Server 2013</a></p></td>
-<td><p>Almacena métricas de calidad de medios de vídeo para cada flujo de audio de la línea de medios.</p></td>
+<td><p><a href="lync-server-2013-videostream-table.md">Tabla Videostream en Lync Server 2013</a></p></td>
+<td><p>Almacena métricas de calidad de medios de vídeo para cada secuencia de vídeo de la línea de medios.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-audioclientevent-table.md">Tabla AudioClientEvent en Lync Server 2013</a></p></td>
-<td><p>Almacena las métricas de calidad de audio multimedia recopiladas del evento de cliente.</p></td>
+<td><p>Almacena métricas de calidad de medios de audio recopiladas desde el evento del cliente.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-videoclientevent-table.md">Tabla VideoClientEvent en Lync Server 2013</a></p></td>
-<td><p>Almacena las métricas de calidad de medios de vídeo recopiladas desde el evento de cliente.</p></td>
+<td><p>Almacena métricas de calidad de medios de vídeo recopiladas desde el evento del cliente.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Tabla DiagnosticData</strong></p></td>
-<td><p>Almacena datos de diagnóstico que solo son para uso interno.</p></td>
+<td><p>Almacena datos de diagnóstico para uso interno únicamente.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Tablas de datos de Resumen**
+**Tablas para datos de resumen**
 
 
 <table>
@@ -231,28 +231,28 @@ El esquema de la base de datos consta de las siguientes tablas.
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Tabla</strong></th>
+<th><strong>Table</strong></th>
 <th><strong>Descripción</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Tabla ServerSummary</strong></p></td>
-<td><p>Almacena los datos de Resumen de los servidores, estos datos se usan únicamente para los informes de calidad de la experiencia (QoE).</p></td>
+<td><p>Almacena datos de resumen para los servidores; estos datos se usan para los informes QoE (Calidad de la experiencia) únicamente.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tabla UserSummary</strong></p></td>
-<td><p>Almacena los datos de Resumen de los usuarios, estos datos se usan solo para informes de QoE.</p></td>
+<td><p>Almacena datos de resumen para los usuarios; estos datos se usan para los informes QoE (Calidad de la experiencia) únicamente.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Tabla CallTypeSummary</strong></p></td>
-<td><p>Almacenar datos de Resumen de tipos de llamadas: estos datos se usan para informes de QoE únicamente.</p></td>
+<td><p>Almacena datos de resumen para los tipos de llamada; estos datos se usan para los informes QoE (Calidad de la experiencia) únicamente.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Tablas para uso interno mediante el servidor de supervisión**
+**Tablas para uso interno del servidor de supervisión**
 
 
 <table>
@@ -262,70 +262,70 @@ El esquema de la base de datos consta de las siguientes tablas.
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Tabla</strong></th>
+<th><strong>Table</strong></th>
 <th><strong>Descripción</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>DbConfigDateTime</strong></p></td>
-<td><p>Solo para uso interno.</p></td>
+<td><p>Únicamente para uso interno.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DbConfigInt</strong></p></td>
-<td><p>Solo para uso interno.</p></td>
+<td><p>Únicamente para uso interno.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Tabla de FrontEnd</strong></p></td>
-<td><p>Solo para uso interno.</p></td>
+<td><p><strong>Tabla FrontEnd</strong></p></td>
+<td><p>Únicamente para uso interno.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Tabla de tareas</strong></p></td>
-<td><p>Solo para uso interno.</p></td>
+<td><p><strong>Tabla Task</strong></p></td>
+<td><p>Únicamente para uso interno.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SummaryTableConfiguration</strong></p></td>
-<td><p>Solo para uso interno.</p></td>
+<td><p>Únicamente para uso interno.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DbErrorMessage</strong></p></td>
-<td><p>Solo para uso interno.</p></td>
+<td><p>Únicamente para uso interno.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MetricsThreshold</strong></p></td>
-<td><p>Solo para uso interno.</p></td>
+<td><p>Únicamente para uso interno.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DaylightSavingYears</strong></p></td>
-<td><p>Solo para uso interno.</p></td>
+<td><p>Únicamente para uso interno.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TimeZoneConfiguration</strong></p></td>
-<td><p>Solo para uso interno.</p></td>
+<td><p>Únicamente para uso interno.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>TimeZones</strong></p></td>
-<td><p>Solo para uso interno.</p></td>
+<td><p>Únicamente para uso interno.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Tabla CallSummary</strong></p></td>
-<td><p>Solo para uso interno.</p></td>
+<td><p>Únicamente para uso interno.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tabla DeviceCallSumary</strong></p></td>
-<td><p>Solo para uso interno.</p></td>
+<td><p>Únicamente para uso interno.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Tabla de inquilinos</strong></p></td>
-<td><p>Solo para uso interno.</p></td>
+<td><p><strong>Tabla Tenant</strong></p></td>
+<td><p>Únicamente para uso interno.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoCallSummaryTable</strong></p></td>
-<td><p>Solo para uso interno.</p></td>
+<td><p>Únicamente para uso interno.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ASCallSummaryTable</strong></p></td>
-<td><p>Solo para uso interno.</p></td>
+<td><p>Únicamente para uso interno.</p></td>
 </tr>
 </tbody>
 </table>

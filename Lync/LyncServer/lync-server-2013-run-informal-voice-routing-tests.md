@@ -12,16 +12,16 @@ ms:contentKeyID: 48185904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f916de228545a560c94bc45ea0a774ccc538c60
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d8edac9a9bd955165a2e20197fd340ea80c2e27a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765078"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007759"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,75 +37,72 @@ ms.locfileid: "41765078"
 
 _**Última modificación del tema:** 2012-08-07_
 
-Puede usar el cuadro de diálogo crear información de caso de prueba de enrutamiento de voz para ejecutar pruebas **informales** antes de crear un caso de prueba real. Cuando esté satisfecho con el resultado de una prueba, tiene la opción de guardarla como caso de prueba formal.
+Puede usar el cuadro de diálogo **Crear información de caso de prueba de enrutamiento de voz** para ejecutar pruebas informales antes de crear un caso de prueba real. Cuando esté satisfecho con el resultado de una prueba, dispone de la opción de guardarlo como caso de prueba formal.
 
 <div>
 
 ## <a name="to-run-an-informal-voice-routing-test"></a>Para ejecutar una prueba de enrutamiento de voz informal
 
-1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, consulte [permisos de configuración de delegación en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro de la función CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, consulte [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **enrutamiento de voz**y, a continuación, en **probar enrutamiento de voz**.
+3.  En la barra de navegación izquierda, haga clic en **Enrutamiento de voz** y, a continuación, en **Probar enrutamiento de voz**.
 
-4.  En la página **probar enrutamiento de voz** , haga clic en **crear ruta de voz información del caso de prueba**.
+4.  En la página **Probar enrutamiento de voz**, haga clic en **Crear información de caso de prueba de enrutamiento de voz**.
 
-5.  En el campo **número marcado** , escriba el número de teléfono que desea usar para esta prueba. Este número se normalizará y se mostrará en el campo **Número normalizado** del panel **resultados** .
+5.  En el campo **Número marcado**, escriba el número de teléfono que desee usar para esta prueba. El número se normalizará y se mostrará en el campo **Número normalizado** del panel **Resultados**.
 
-6.  En la lista **plan de marcado** , seleccione el plan de marcado que se va a usar para probar el número marcado. El valor predeterminado es el plan de marcado global.
+6.  En la lista **Plan de marcado**, seleccione el plan de marcado que se usará para probar el número marcado. El plan de marcado predeterminado es el plan de marcado Global.
     
-    Al ejecutar la prueba, la primera regla de normalización del plan de marcado que coincida con el número marcado se mostrará en el campo **regla de normalización** del panel **resultados** .
+    Cuando ejecute la prueba, la primera regla de normalización del plan de marcado que coincida con el número marcado aparecerá en el campo **Regla de normalización** del panel **Resultados**.
 
-7.  En la lista **Directiva de voz** , seleccione la Directiva de voz que se va a usar para probar el número marcado. El valor predeterminado es la Directiva de voz global.
+7.  En la lista **Directiva de voz**, seleccione la directiva de voz que se usará para probar el número marcado. La directiva de voz predeterminada es la directiva de voz Global.
     
-    Al ejecutar la prueba, se mostrará el primer registro de uso de RTC coincidente en esta directiva de voz en el **primer campo uso de RTC** del panel **resultados** . Además, la primera ruta de voz coincidente asociada con este registro de uso de RTC se mostrará en el **primer** campo de ruta.
+    Cuando ejecute la prueba, el primer registro de uso de RTC coincidente en esta directiva de voz se mostrará en el campo **Primer uso de RTC** del panel **Resultados**. Asimismo, la primera ruta de voz coincidente que se asocie con este registro de uso de RTC se mostrará en el campo **Primera ruta**.
 
-8.  Faculta Active la casilla **de verificación rellenar desde el usuario** si desea probar el número marcado con la Directiva de voz asignada a un usuario en particular.
+8.  (Opcional) Active la casilla **Rellenar con usuario** si desea probar el número marcado con la directiva de voz asignada a un usuario en concreto.
     
-    1.  Haga clic en **examinar** para mostrar el cuadro de diálogo **Seleccionar usuarios de voz de empresa** .
+    1.  Haga clic en **Examinar** para mostrar el cuadro de diálogo **Seleccionar usuarios de Telefonía IP empresarial**.
     
-    2.  Haga clic en **Buscar** para mostrar la lista de usuarios que están habilitados para telefonía IP empresarial.
+    2.  Haga clic en **Buscar** para visualizar la lista de usuarios habilitados para Telefonía IP empresarial.
     
-    3.  Haga doble clic en el nombre de usuario cuya directiva de voz asignada desea usar para esta prueba. El campo de **Directiva** se rellena con la Directiva de voz asignada al usuario seleccionado.
+    3.  Haga doble clic en el nombre del usuario cuya directiva de voz asignada desee usar para esta prueba. A continuación, el campo **Directiva** se rellenará con la directiva de voz asignada al usuario seleccionado.
     
-    Al ejecutar la prueba, se mostrará el primer registro de uso de la red telefónica conmutada (RTC) en esta directiva de voz en el primer campo de **uso de RTC** del panel **resultados** . Además, la primera ruta de voz coincidente asociada con este registro de uso de RTC se mostrará en el **primer** campo de ruta.
+    Cuando ejecute la prueba, el primer registro de uso de RTC coincidente en esta directiva de voz se mostrará en el campo **Primer uso de RTC** del panel **Resultados**. Asimismo, la primera ruta de voz coincidente que se asocie con este registro de uso de RTC se mostrará en el campo **Primera ruta**.
 
-9.  Haga clic en **Ejecutar** para ejecutar el caso de prueba. Los resultados se muestran en el panel derecho del cuadro de diálogo.
+9.  Haga clic en **Ejecutar** para ejecutar el caso de prueba. Los resultados se mostrarán en el panel derecho del cuadro de diálogo.
 
-10. Faculta Haga clic en **Guardar como** si desea guardar esta configuración de prueba como un caso de prueba formal.
+10. (Opcional) Haga clic en **Guardar como** si desea guardar la configuración de la prueba como caso de prueba formal.
     
-    1.  En el campo **nombre** del cuadro de diálogo **Guardar información de caso de prueba de enrutamiento de voz** , escriba un nombre único para el caso de prueba.
+    1.  En el campo **Nombre** del cuadro de diálogo **Guardar información de caso de prueba de enrutamiento de voz**, escriba un nombre único para el caso de prueba.
         
-        El nombre debe ser único entre todos los casos de prueba de enrutamiento de voz en la implementación de telefonía IP empresarial. Puede tener hasta 32 caracteres de longitud y puede contener cualquier carácter alfanumérico, además de la barra invertida (\\), el punto (.) o el carácter de subrayado (\_).
+        El nombre debe ser único entre todos los casos de prueba de enrutamiento de voz en la implementación de telefonía IP empresarial. Puede tener hasta 32 caracteres de longitud y puede contener caracteres alfanuméricos, además de la barra diagonal inversa (\\), el punto (.) o el carácter de subrayado (\_).
     
-    2.  Tenga en cuenta que los campos restantes en el cuadro de diálogo **Guardar información del caso de prueba de enrutamiento de voz** son de solo lectura y se rellenan previamente desde la configuración de prueba informal *y* los resultados. Compruebe que esta es la configuración que desea guardar para el caso de prueba.
+    2.  No olvide que los demás campos del cuadro de diálogo **Guardar información de caso de prueba de enrutamiento de voz** son de solo lectura, y se rellenan automáticamente con la configuración de la prueba informal *y* sus resultados. Compruebe que es la configuración que desea guardar para el caso de prueba.
         
         <div>
         
 
         > [!NOTE]  
-        > Los valores de los resultados de la prueba se usan para rellenar previamente los campos en el cuadro de diálogo <STRONG>Guardar información de caso de prueba de enrutamiento de voz</STRONG> de la siguiente manera: 
+        > Los valores de los resultados de la prueba se usan para rellenar automáticamente los campos del cuadro de diálogo <STRONG>Guardar información de caso de prueba de enrutamiento de voz</STRONG>, como sigue: 
         > <UL>
         > <LI>
-        > <P>La <STRONG>traducción esperada</STRONG> se rellena previamente con el valor del campo de <STRONG>Número normalizado</STRONG> .</P>
+        > <P><STRONG>Conversión prevista</STRONG> se rellena automáticamente con el valor del campo <STRONG>Número normalizado</STRONG>.</P>
         > <LI>
-        > <P>La <STRONG>ruta esperada</STRONG> se ha rellenado previamente con el valor del primer campo de <STRONG>ruta</STRONG> .</P>
+        > <P><STRONG>Ruta prevista</STRONG> se rellena automáticamente con el valor del campo <STRONG>Primera ruta</STRONG>.</P>
         > <LI>
-        > <P>El <STRONG>registro de uso de RTC esperado</STRONG> se rellenó con el valor en el <STRONG>primer campo uso de RTC</STRONG> .</P></LI></UL>Si durante la ejecución de prueba no se encontraron coincidencias para cualquiera de estos valores, el campo correspondiente estará vacío en el cuadro de diálogo <STRONG>Guardar información del caso de prueba de enrutamiento de voz</STRONG> .
-
-        
-        </div>
+        > <P><STRONG>Registro de uso de RTC previsto</STRONG> se rellena automáticamente con el valor del campo <STRONG>Primer uso de RTC</STRONG>.</P></LI></UL>Si no se han encontrado coincidencias con estos valores durante la ejecución de la prueba, el campo correspondiente estará vacío en el cuadro de diálogo <STRONG>Guardar información de caso de prueba de enrutamiento de voz</STRONG>.</div>
     
-    3.  Haga clic en **Aceptar** para guardar el caso de prueba, o haga clic en **Cancelar** para volver al cuadro de diálogo **ver información del caso de prueba de enrutamiento de voz** para seguir desarrollando la prueba antes de guardarla.
+    3.  Haga clic en **Aceptar** para guardar el caso de prueba o en **Cancelar** para volver al cuadro de diálogo **ver información de caso de prueba de enrutamiento de voz** para seguir desarrollando la prueba antes de guardarla.
 
-11. Haga clic en **Confirmar** y, a continuación, en **Confirmar todo**.
+11. Haga clic en **Confirmar** y, a continuación en **Confirmar todo**.
     
     <div>
     
 
     > [!NOTE]  
-    > Siempre que cree un caso de prueba de enrutamiento de voz, debe ejecutar el comando <STRONG>confirmar todo</STRONG> para publicar el caso de prueba. Para obtener más información, vea <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">publicar cambios pendientes en la configuración de enrutamiento de voz en Lync Server 2013</A> en la documentación de operaciones.
+    > Cada vez que cree un caso de prueba de enrutamiento de voz, debe ejecutar el comando <STRONG>Confirmar todo</STRONG> para publicar el caso de prueba. Para obtener más información, consulte <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish Pending changes to the Voice Routing Configuration en Lync Server 2013</A> en la documentación de operaciones.
 
     
     </div>
@@ -118,13 +115,13 @@ Puede usar el cuadro de diálogo crear información de caso de prueba de enrutam
 
 
 [Crear un caso de prueba de enrutamiento de voz en Lync Server 2013](lync-server-2013-create-a-voice-routing-test-case.md)  
-[Ejecutar los casos de prueba de enrutamiento de voz en Lync Server 2013](lync-server-2013-run-voice-routing-test-cases.md)  
+[Ejecutar casos de prueba de enrutamiento de voz en Lync Server 2013](lync-server-2013-run-voice-routing-test-cases.md)  
 [Exportar casos de prueba de enrutamiento de voz en Lync Server 2013](lync-server-2013-export-voice-routing-test-cases.md)  
 [Importar casos de prueba de enrutamiento de voz en Lync Server 2013](lync-server-2013-import-voice-routing-test-cases.md)  
 
 
 [Configurar planes de marcado en Lync Server 2013](lync-server-2013-configuring-dial-plans.md)  
-[Configuración de directivas de voz, registros de uso de RTC y rutas de voz en Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)  
+[Configurar directivas de voz, registros de uso de RTC y rutas de voz en Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)  
   
 
 </div>

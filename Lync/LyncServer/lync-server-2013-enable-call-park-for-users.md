@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: habilitar el parque de llamadas para los usuarios'
+title: 'Lync Server 2013: habilitar el estacionamiento de llamadas para los usuarios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd89ba10f5cae16e88c65e6e56178fc517c71213
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8d739c9987c0a17c29997fad8ac47b2d886fbea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736250"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033809"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-call-park-for-users-in-lync-server-2013"></a>Habilitar el parque de llamadas para los usuarios en Lync Server 2013
+# <a name="enable-call-park-for-users-in-lync-server-2013"></a>Habilitar el estacionamiento de llamadas para los usuarios en Lync Server 2013
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41736250"
 
 _**Última modificación del tema:** 2012-09-11_
 
-Los usuarios no pueden detener llamadas ni recuperar llamadas estacionadas hasta que estén habilitadas para el parque de llamadas en la Directiva de voz.
+Los usuarios no pueden estacionar llamadas ni recuperar llamadas estacionadas hasta que estén habilitadas para estacionamiento de llamadas en la Directiva de voz.
 
 <div>
 
 
 > [!NOTE]  
-> De forma predeterminada, el parque de llamadas está deshabilitado para todos los usuarios.
+> De forma predeterminada, el estacionamiento de llamadas está deshabilitado para todos los usuarios.
 
 
 
 </div>
 
-Puede habilitar el parque de llamadas en el ámbito global o en el ámbito del sitio o ámbito de usuario. El ámbito de usuario tiene prioridad sobre el ámbito de sitio y el ámbito de sitio tiene prioridad sobre el ámbito global. Si tiene varias directivas de voz, revise todas las directivas para habilitar el parque de llamadas, no solo la directiva global.
+Puede habilitar el estacionamiento de llamadas en el ámbito global o en el ámbito de sitio o de usuario. El ámbito de usuario tiene prioridad sobre el ámbito de sitio y el ámbito de sitio tiene prioridad sobre el ámbito global. Si tiene varias directivas de voz, revise todas las directivas para habilitar el estacionamiento de llamadas, no solo la directiva global.
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-to-enable-call-park-for-users"></a>Para usar el panel de control de Lync Server para habilitar el parque de llamadas para los usuarios
+## <a name="to-use-lync-server-control-panel-to-enable-call-park-for-users"></a>Para usar el panel de control de Lync Server para habilitar el estacionamiento de llamadas para los usuarios
 
-1.  Inicie sesión en el equipo como miembro del grupo **RTCUniversalServerAdmins** o bien como miembro del rol administrativo **CsVoiceAdministrator**, **CsServerAdministrator** o **CsAdministrator**.
+1.  Inicie sesión en el equipo como miembro del grupo **RTCUniversalServerAdmins**, o bien como miembro del rol administrativo **CsVoiceAdministrator**, **CsServerAdministrator** o **CsAdministrator**.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  En la barra de navegación izquierda, haga clic en **Enrutamiento de voz**.
 
@@ -65,7 +65,7 @@ Puede habilitar el parque de llamadas en el ámbito global o en el ámbito del s
 
 5.  Haga doble clic en una directiva de voz existente para abrir el cuadro de diálogo **Editar directiva de voz**.
 
-6.  En **Características de llamada**, seleccione **Habilitar estacionamiento de llamadas**.
+6.  En **Características de llamada**, seleccione **Habilitar Estacionamiento de llamadas**.
 
 7.  Haga clic en **Aceptar** para guardar la directiva de voz.
 
@@ -73,17 +73,17 @@ Puede habilitar el parque de llamadas en el ámbito global o en el ámbito del s
 
 <div>
 
-## <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>Para usar cmdlets para habilitar el parque de llamadas para los usuarios
+## <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>Para usar cmdlets para habilitar el estacionamiento de llamadas para los usuarios
 
-1.  Inicie sesión en el equipo como un miembro del grupo RTCUniversalServerAdmins o bien, como un miembro del rol administrativo CsVoiceAdministrator, CsServerAdministrator o CsAdministrator.
+1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o bien como miembro del rol administrativo CsVoiceAdministrator, CsServerAdministrator o CsAdministrator.
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-3.  Ejecute:
+3.  Realizar
     
         Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
     
-    Por ejemplo, para habilitar el parque de llamadas para la Directiva de voz global predeterminada:
+    Por ejemplo, para habilitar el estacionamiento de llamadas de la Directiva de voz global predeterminada:
     
         Set-CsVoicePolicy -EnableCallPark $true
 

@@ -1,5 +1,5 @@
 ---
-title: Combinar cmdlets de Skype empresarial online con otros cmdlets de Windows PowerShell en
+title: Combinar los cmdlets de Skype empresarial online con otros cmdlets de Windows PowerShell en
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 56558835
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7d0dd6070eb3c69b23f03e56bf542025c221b15
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b7455ba7d98ecc11fcfc6e0c255eb430e213d3f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727989"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42000755"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="combining-skype-for-business-online-cmdlets-with-other-windows-powershell-cmdlets-in"></a>Combinar cmdlets de Skype empresarial online con otros cmdlets de Windows PowerShell en
+# <a name="combining-skype-for-business-online-cmdlets-with-other-windows-powershell-cmdlets-in"></a>Combinar los cmdlets de Skype empresarial online con otros cmdlets de Windows PowerShell en
 
 </div>
 
@@ -38,38 +38,38 @@ ms.locfileid: "41727989"
 
 _**Última modificación del tema:** 2013-07-05_
 
-Al conectarse a Skype empresarial online mediante Windows PowerShell, aproximadamente 40 cmdlets de Skype empresarial online estarán disponibles para su uso. Sin embargo, no está limitado a usar solo esos cmdlets de 40 al administrar Skype empresarial online. Además de los cmdlets de Skype empresarial online, también puede usar otros cmdlets de Windows PowerShell que estén instalados en su equipo. (Al instalar Windows PowerShell 3,0, también se instalan cientos de cmdlets básicos de Windows PowerShell). Sus comandos pueden combinar y asociar los cmdlets de Skype empresarial online y cualquier otro cmdlet disponible en su equipo.
+Al conectarse a Skype empresarial online mediante Windows PowerShell, aproximadamente 40 cmdlets de Skype empresarial online estarán disponibles para su uso. Sin embargo, no está limitado a usar solo esos cmdlets 40 al administrar Skype empresarial online. Además de los cmdlets de Skype empresarial online, también puede usar otros cmdlets de Windows PowerShell que estén instalados en el equipo. (Al instalar Windows PowerShell 3,0, también se instalan cientos de cmdlets de Windows PowerShell principales). Los comandos pueden combinar y hacer coincidir los cmdlets de Skype empresarial online y cualquier otro cmdlet disponible en el equipo.
 
-Aunque un curso completo en Windows PowerShell 3,0 va más allá del ámbito de este artículo, aquí se muestran algunos ejemplos que muestran por qué es posible que desee combinar y asociar cmdlets. En primer lugar, ninguno de los cmdlets de Skype empresarial online incluye un comando imprimir, y este comando no se puede encontrar en la consola de Windows PowerShell. ¿Cómo se obtiene una copia impresa de la información que un cmdlet ha recuperado? Una es recuperar la información y, a continuación, enviar esa información al cmdlet **out-Printer** :
+Aunque un curso completo de Windows PowerShell 3,0 va más allá del ámbito de este artículo, a continuación se muestran algunos ejemplos que muestran por qué es posible que desee combinar y hacer coincidir los cmdlets. En primer lugar, ninguno de los cmdlets de Skype empresarial online incluye un comando Print y no se puede encontrar dicho comando en la consola de Windows PowerShell. ¿Cómo se obtiene una copia impresa de la información recuperada por un cmdlet? Una forma de hacerlo es recuperar la información y enviarla al cmdlet **out-Printer** :
 
     Get-CsTenant | Out-Printer
 
-Como no se incluyen parámetros adicionales, toda la información devuelta por **el cmdlet out-Printer** se imprimirá en la impresora predeterminada.
+Como no se incluye ningún parámetro adicional, toda la información devuelta por **el cmdlet out-Printer** se imprimirá en la impresora predeterminada.
 
-Del mismo modo, ninguno de los cmdlets de Skype empresarial online incluye un parámetro que le permite guardar datos en un archivo. Pero eso es correcto: este comando usa el cmdlet **out-File** para guardar la información devuelta en el archivo de texto\\C\\: registra arrendatarios. txt:
+De forma similar, ninguno de los cmdlets de Skype empresarial online incluye un parámetro que permite guardar datos en un archivo. Pero esto es correcto: este comando usa el cmdlet **out-File** para guardar la información devuelta en el archivo de texto\\C\\: logs Tenants. txt:
 
     Get-Tenant | Out-File -FilePath "C:\Logs\Tenants.txt"
 
-Y este comando usa el cmdlet **Select-Object** para limitar los datos que se devuelven y se muestran en pantalla. En este ejemplo, el cmdlet [Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/JJ994026(v=OCS.15)) recupera información de todos los usuarios de Skype empresarial online y, a continuación, el cmdlet **Select-Object** se usa para limitar los datos mostrados al valor de identidad del usuario y a su Directiva de archivado:
+Y este comando usa el cmdlet **Select-Object** para limitar los datos que se devuelven y que se muestran en la pantalla. En este ejemplo, el cmdlet [Get-CsOnlineUser](https://technet.microsoft.com/library/JJ994026(v=OCS.15)) recupera información de todos los usuarios de Skype empresarial online y, a continuación, el cmdlet **Select-Object** se usa para limitar los datos que se muestran al valor de identidad del usuario y a su Directiva de archivado:
 
     Get-CsOnlineUser | Select-Object Identity, ArchivingPolicy
 
-Como habrá cientos de cmdlets disponibles para su uso en el equipo, es posible que tenga problemas para determinar qué cmdlets son los cmdlets de Skype empresarial online y cuáles no. Para obtener una lista de los cmdlets de Skype empresarial online (y solo de Skype empresarial online), primero debe determinar el nombre del módulo temporal de Windows PowerShell que contiene todos los cmdlets de Skype empresarial online. Para ello, ejecute este comando desde el símbolo del sistema de Windows PowerShell:
+Como habrá cientos de cmdlets disponibles para su uso en el equipo, es posible que tenga dificultades para determinar qué cmdlets son los cmdlets de Skype empresarial online y cuáles no. Para obtener una lista de los cmdlets de Skype empresarial online (y solo los cmdlets de Skype empresarial online), primero debe determinar el nombre del módulo temporal de Windows PowerShell que contiene todos los cmdlets de Skype empresarial online. Para ello, ejecute este comando desde el símbolo del sistema de Windows PowerShell:
 
     Get-Module
 
-Aparecerá información similar a la siguiente en la pantalla:
+La información similar a la siguiente aparecerá en la pantalla:
 
     ModuleType Name                 ExportedCommands
     ---------- ----                 ----------------
     Manifest   Microsoft.PowerS...  {Add-Computer, Add-Content, A...}
     Script     tmp_5astd3uh.m5v     {Disable-CsMeetingRoom, Enabl...}
 
-El módulo con el script de ModuleType es el módulo que contiene los cmdlets de Skype empresarial online. Para obtener una lista de esos cmdlets, ejecute el cmdlet **get-command** y use el nombre del módulo de script como el nombre del módulo:
+El módulo con el script de ModuleType es el módulo que contiene los cmdlets de Skype empresarial online. Para obtener una lista de estos cmdlets, ejecute el cmdlet **get-command** , usando el nombre del módulo de script como el nombre del módulo:
 
     Get-Command -Module tmp_5astd3uh.m5v
 
-Es posible tener varios módulos con un valor de ModuleType igual a script. En ese caso, puede ejecutar el comando siguiente para averiguar qué módulo incluye el cmdlet **Get-CsTenant** :
+Es posible tener varios módulos con un valor de ModuleType igual a script. En ese caso, puede ejecutar el siguiente comando para averiguar qué módulo incluye el cmdlet **Get-CsTenant** :
 
     Get-Command Get-CsTenant
 
@@ -84,7 +84,7 @@ El módulo devuelto para el cmdlet **Get-CsTenant** será el módulo que contien
 ## <a name="see-also"></a>Vea también
 
 
-[Una introducción a Windows PowerShell y Skype Empresarial Online](https://technet.microsoft.com/en-us/library/Dn362785(v=OCS.15))  
+[Introducción a Windows PowerShell y Skype empresarial online](https://technet.microsoft.com/library/Dn362785(v=OCS.15))  
   
 
 </div>

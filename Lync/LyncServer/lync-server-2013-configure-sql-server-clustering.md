@@ -12,20 +12,20 @@ ms:contentKeyID: 56472032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b63d338e630da93c90b573ac098d47e0929f0d84
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 984e7d7e287e9177fff5798c9cb20ab476591f46
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730000"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035202"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-sql-server-clustering-for-lync-server-2013"></a>Configurar clústeres de SQL Server para Lync Server 2013
+# <a name="configure-sql-server-clustering-for-lync-server-2013"></a>Configurar la organización en clústeres de SQL Server para Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41730000"
 
 _**Última modificación del tema:** 2014-01-10_
 
-Microsoft Lync Server 2013 admite clústeres para SQL Server 2012 y SQL Server 2008 R2. Para obtener más información sobre lo que se admite, vea [compatibilidad de software de base de datos en Lync Server 2013](lync-server-2013-database-software-support.md).
+Microsoft Lync Server 2013 admite clústeres para SQL Server 2012 y SQL Server 2008 R2. Para obtener más información sobre lo que se admite, consulte [compatibilidad de software de base de datos en Lync Server 2013](lync-server-2013-database-software-support.md).
 
-Debe configurar y configurar el clúster de SQL Server antes de instalar e implementar el servidor front-end Enterprise Edition y la base de datos back-end. Para ver los procedimientos recomendados y las instrucciones de configuración para el clúster de conmutación por <http://technet.microsoft.com/en-us/library/hh231721.aspx>error en SQL Server 2012, consulte. Para el clúster de conmutación por error en SQL Server <http://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx>2008, consulte.
+Debe configurar y configurar el clúster de SQL Server antes de instalar e implementar la base de datos back-end y el servidor front-end Enterprise Edition. Para conocer los procedimientos recomendados y las instrucciones de configuración de los clústeres de conmutación <http://technet.microsoft.com/library/hh231721.aspx>por error en SQL Server 2012, consulte. Para clústeres de conmutación por error en SQL Server <http://technet.microsoft.com/library/ms189134(v=sql.105).aspx>2008, consulte.
 
-Al instalar SQL Server, es preciso instalar también SQL Server Management Studio para administrar las ubicaciones de la base de datos y de los archivos de registro. SQL Server Management Studio se instala como un componente opcional al instalar SQL Server.
+Cuando instale SQL Server, instale también SQL Server Management Studio para administrar las ubicaciones de la base de datos y las ubicaciones de archivo de registro. SQL Server Management Studio se instala como componente adicional al instalar SQL Server.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Para instalar e implementar las bases de datos en el servidor basado en SQL Server, debe ser miembro del grupo sysadmin de SQL Server para el servidor basado en SQL Server en el que va a instalar los archivos de base de datos. Si no es miembro del grupo sysadmin de SQL Server, tendrá que solicitar que lo agregue al grupo hasta que se implementen los archivos de base de datos. Si no puede hacerse miembro del grupo sysadmin, debe proporcionar el administrador de la base de datos de SQL Server con el script para configurar e implementar las bases de datos. Para obtener más información sobre los permisos y los derechos de usuario adecuados que necesita para realizar los procedimientos, consulte <A href="lync-server-2013-deployment-permissions-for-sql-server.md">permisos de implementación para SQL Server en Lync server 2013</A>.
+> Para instalar e implementar las bases de datos en el servidor basado en SQL Server, el usuario debe ser miembro del grupo sysadmins de SQL Server para el servidor basado en SQL Server en el que se vayan a instalar los archivos de base de datos. Si no es miembro del grupo sysadmins de SQL Server, deberá solicitar su incorporación en dicho grupo hasta que los archivos de base de datos se implementen. Si no puede convertirse en miembro del grupo sysadmins, proporcione al administrador de bases de datos SQL Server la secuencia de comandos para configurar e implementar las bases de datos. Para obtener información detallada sobre los permisos y derechos de usuario adecuados para realizar los procedimientos, vea <A href="lync-server-2013-deployment-permissions-for-sql-server.md">permisos de implementación para SQL Server en Lync Server 2013</A>.
 
 
 
@@ -55,60 +55,60 @@ Al instalar SQL Server, es preciso instalar también SQL Server Management Studi
 
 <div>
 
-## <a name="to-configure-sql-server-clustering"></a>Para configurar la organización en clústeres de SQL Server
+## <a name="to-configure-sql-server-clustering"></a>Para configurar clústeres SQL Server
 
-1.  Una vez completada la instalación y la configuración de la organización por clústeres de SQL Server, defina el almacén de SQL Server en el generador de topología con el nombre del clúster virtual de instancias de SQL Server (configurado en la configuración de clústeres de SQL Server) y la instancia. nombre de la base de datos de SQL Server. Es diferente de un único servidor basado en SQL Server, se usa el nombre de dominio completo (FQDN) del nodo virtual para un servidor basado en SQL Server agrupado.
+1.  Una vez completada la instalación y la configuración de la agrupación en clústeres de SQL Server, defina el almacén de SQL Server en Topology Builder mediante el nombre del clúster virtual de instancia de SQL Server (tal y como se ha configurado en la configuración de la agrupación en clústeres de SQL Server) y la instancia nombre de la base de datos de SQL Server. A diferencia de lo que sucede con un solo servidor basado en SQL Server, usará el nombre de dominio completo (FQDN) del nodo virtual para un servidor en clúster basado en SQL Server.
     
     <div>
     
 
     > [!NOTE]  
-    > Los nodos individuales del clúster de servidor de Windows no tienen que estar configurados para el generador de topología. Solo usará el nombre de clúster de SQL Server virtual.
+    > No es necesario configurar los nodos individuales del clúster de servidores de Windows para el generador de topologías. Únicamente usará el nombre de clúster virtual de SQL Server.
 
     
     </div>
 
-2.  Si usa la topología Builder para implementar sus bases de datos, debe ser miembro del grupo sysadmin de SQL Server. Si es miembro del grupo sysadmin de SQL Server, pero no tiene privilegios en el dominio (por ejemplo, una función de administrador de base de datos de SQL Server), tendrá los derechos para crear las bases de datos pero no para leer la información necesaria en Lync Server. Para más información sobre los derechos de usuario y los permisos necesarios para implementar Lync Server, consulte [permisos de implementación para SQL Server en Lync server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
+2.  Si usa el generador de topologías para implementar las bases de datos, debe ser miembro del grupo sysadmin de SQL Server. Si es miembro del grupo sysadmin de SQL Server, pero no tiene privilegios en el dominio (por ejemplo, un rol de administrador de bases de datos de SQL Server), tiene derechos para crear las bases de datos pero no para leer la información necesaria en Lync Server. Para obtener más información sobre los derechos de usuario y los permisos necesarios para implementar Lync Server, vea [permisos de implementación para SQL Server en Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-3.  Asegúrese de que los valores predeterminados de la carpeta base de datos y archivos de registro están asignados correctamente a los discos compartidos en el clúster de SQL Server mediante SQL Server Management Studio. Este es un procedimiento obligatorio si va a crear bases de datos con el generador de topologías.
+3.  Asegúrese de que los valores predeterminados de la carpeta de base de datos y la carpeta de archivos de registro se asignan correctamente a los discos compartidos en el clúster de SQL Server mediante SQL Server Management Studio. Se trata de un procedimiento necesario si se van a crear bases de datos con Topology Builder.
     
     <div>
     
 
     > [!NOTE]  
-    > Si no instaló SQL Server Management Studio, puede instalarlo si vuelve a ejecutar la instalación de SQL Server y, a continuación, selecciona la herramienta de administración como una característica agregada para la implementación existente de SQL Server.
+    > Si no instaló SQL Server Management Studio, puede hacerlo ejecutando de nuevo la instalación de SQL Server y seleccionando a continuación la herramienta de administración como una característica agregada para la implementación existente de SQL Server.
 
     
     </div>
 
-4.  Instale las bases de datos para el servidor basado en SQL Server con los cmdlets del generador de topología o de Windows PowerShell. Para usar el generador de topología, use el procedimiento siguiente. Para usar los cmdlets de Windows PowerShell, vea [instalación de bases de datos con el shell de administración de Lync Server en Lync server 2013](lync-server-2013-database-installation-using-lync-server-management-shell.md).
+4.  Instale las bases de datos para el servidor basado en SQL Server mediante el generador de topologías o los cmdlets de Windows PowerShell. Para usar el generador de topologías, use el siguiente procedimiento. Para usar los cmdlets de Windows PowerShell, consulte [instalación de bases de datos mediante el shell de administración de Lync Server en Lync server 2013](lync-server-2013-database-installation-using-lync-server-management-shell.md).
 
 </div>
 
 <div>
 
-## <a name="to-create-databases-using-topology-builder"></a>Para crear bases de datos con el generador de topología
+## <a name="to-create-databases-using-topology-builder"></a>Para crear bases de datos con el generador de topologías
 
-1.  Iniciar generador de topología: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topología de Lync Server**.
+1.  Inicie el generador de topologías: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topologías de Lync Server**.
     
     <div>
     
 
     > [!WARNING]  
-    > En el procedimiento siguiente se supone que ha definido y configurado su topología en el generador de topología. Para obtener más información sobre cómo definir su topología, consulte<A href="lync-server-2013-defining-and-configuring-the-topology.md">definir y configurar la topología en Lync Server 2013</A>. Para usar el generador de topología para publicar la topología y configurar la base de datos, debe iniciar sesión como usuario con los derechos de usuario y pertenencias a grupos correctos. Para obtener más información sobre los derechos obligatorios y la pertenencia a grupos, consulte <A href="lync-server-2013-deployment-permissions-for-sql-server.md">permisos de implementación para SQL Server en Lync server 2013</A>.
+    > El siguiente procedimiento presupone que ha definido y configurado la topología en el generador de topologías. Para obtener más información sobre cómo definir la topología, consulte<A href="lync-server-2013-defining-and-configuring-the-topology.md">Defining and Configuring the Topology in Lync Server 2013</A>. Para usar Topology Builder para publicar la topología y configurar la base de datos, debe iniciar sesión como usuario con los derechos de usuario y las pertenencias a grupo correctos. Para obtener más información sobre los derechos obligatorios y las pertenencias a grupos, consulte <A href="lync-server-2013-deployment-permissions-for-sql-server.md">permisos de implementación para SQL Server en Lync Server 2013</A>.
 
     
     </div>
 
-2.  En el generador de topologías, a medida que publique la topología, en la página **crear bases de datos** , haga clic en **Opciones avanzadas**.
+2.  En el generador de topologías, cuando publique la topología, en la página **crear bases de datos** , haga clic en **Opciones avanzadas**.
 
-3.  La página **Seleccionar ubicación de archivo de base de datos** tiene dos opciones que determinan cómo se implementarán los archivos de base de datos en el clúster de SQL Server. Seleccione una de las siguientes opciones:
+3.  La página **Seleccionar la ubicación del archivo de base de datos** incluye dos opciones que determinan la forma en que se implementarán los archivos de base de datos en el clúster de SQL Server. Seleccione una de las siguientes opciones:
     
-      - **Determinar automáticamente la ubicación del archivo de base de datos.** Esta selección usa un algoritmo para determinar el registro de la base de datos y las ubicaciones del archivo de datos en función de la configuración del servidor basado en SQL Server. Los archivos se distribuirán de manera tal que intenten proporcionar un rendimiento óptimo.
+      - **Determinar automáticamente la ubicación del archivo de base de datos.** Esta selección usa un algoritmo para determinar las ubicaciones del registro de la base de datos y el archivo de datos en función de la configuración de unidades en el servidor basado en SQL Server. Los archivos se distribuirán de manera que se intente proporcionar un rendimiento óptimo.
     
-      - Use los valores predeterminados de instancia de SQL Server. Al seleccionar esta opción se instalarán los archivos de registro y de datos de acuerdo con la configuración de la instancia de SQL Server. Después de implementar los archivos de base de datos en SQL Server, es posible que el administrador de la base de datos de SQL Server desee reubicar los archivos para optimizar el rendimiento de los requisitos de configuración de SQL Server concretos.
+      - Usar valores predeterminados de instancia de SQL Server. Si selecciona esta opción, los archivos de datos y de registro se instalarán según la configuración de la instancia de SQL Server. Después de la implementación de los archivos de base de datos en SQL Server, es posible que el administrador de bases de datos de SQL Server desee reubicar los archivos para optimizar el rendimiento de los requisitos de configuración de SQL Server en concreto.
 
-4.  Complete la publicación de la topología y confirme que no hubo errores durante la operación.
+4.  Complete la publicación de la topología y confirme que no se produjeron errores durante la operación.
 
 </div>
 

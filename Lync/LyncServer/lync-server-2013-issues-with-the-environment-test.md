@@ -12,16 +12,16 @@ ms:contentKeyID: 48185970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65803ff396a9615787291de2d728fe63f3350d0b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b7d077b22c147dd677a5db68636b2c68bfafcf23
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765348"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035052"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,31 +37,31 @@ ms.locfileid: "41765348"
 
 _**Última modificación del tema:** 2012-09-21_
 
-El analizador de procedimientos recomendados proporciona una forma de comprobar que el entorno de Lync Server 2013 es una configuración admitida. Como parte de la comprobación de los servicios de dominio de Active Directory, el analizador de procedimientos recomendados hace lo siguiente:
+El analizador de procedimientos recomendados proporciona una manera de comprobar que el entorno de Lync Server 2013 es una configuración admitida. Durante la comprobación de los servicios de dominio de Active Directory, el Analizador de procedimientos recomendados realiza las siguientes operaciones:
 
-  - Comprueba la preparación del bosque y el esquema de los servicios de dominio de Active Directory.
+  - Verifica la preparación del bosque y el esquema de Servicios de dominio de Active Directory.
 
-  - Identifica el número de dominios y sitios de servicios de dominio de Active Directory en la implementación.
+  - Identifica el número de sitios y dominios de Servicios de dominio de Active Directory en la implementación.
 
-  - Comprueba los niveles de bosque y dominio.
+  - Comprueba el bosque y los niveles de dominio.
 
-  - Comprueba la versión del controlador de dominio.
+  - Comprueba la versión del controlador del dominio.
 
-  - Identifica el contexto de nomenclatura del dominio, la configuración y el esquema.
+  - Identifica el contexto de denominación del dominio, la configuración y el esquema.
 
   - Identifica el número de usuarios habilitados.
 
-  - Comprueba dónde se almacena la configuración de los servicios de dominio de Active Directory global.
+  - Comprueba el lugar de almacenamiento de la configuración de los Servicios de dominio de Active Directory.
 
-  - Comprueba los puntos de conexión de servicio (SCP) de Lync Server.
+  - Busca los puntos de conexión de servicio (SCP) para Lync Server.
 
   - Identifica la versión de la base de datos.
 
 <div>
 
-## <a name="resolving-issues-with-the-environment"></a>Resolución de problemas con el entorno
+## <a name="resolving-issues-with-the-environment"></a>Resolución de problemas del entorno
 
-Si la prueba de entorno encontró problemas con su entorno, probablemente se deba a problemas con la configuración de Active Directory o el nivel de software que se ejecuta en servidores específicos. Por ejemplo, si el analizador de procedimientos recomendados identifica cualquier controlador de dominio de su entorno que ejecuta Windows Server 2000, emitirá una advertencia y tendrá que actualizar esos controladores de dominio a una versión compatible de Windows Server.
+Si durante la prueba del entorno se detectan problemas, probablemente se deban a problemas de configuración de Active Directory o el nivel de software que se ejecuta en determinados servidores. Por ejemplo, si el Analizador de procedimientos recomendados detecta que algún controlador de dominio del entorno ejecuta Windows Server 2000, emitirá una advertencia y será necesario actualizar esos controladores de dominio a una versión compatible de Windows Server.
 
 </div>
 

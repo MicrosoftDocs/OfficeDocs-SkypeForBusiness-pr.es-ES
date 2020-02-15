@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: publicar cambios pendientes en la configuración del enrutamiento de voz'
+title: 'Lync Server 2013: publicar los cambios pendientes en la configuración del enrutamiento de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185974
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aac5c30cb73ef428d0571a1a0fe6853dbf70db4c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eec5236f6b40d332617e2e2a5dedeb6a77d752b9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724620"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987365"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41724620"
 
 _**Última modificación del tema:** 2012-08-07_
 
-Después de realizar cambios en cualquiera de las opciones de configuración de las páginas del grupo **Enrutamiento de voz**, siga este procedimiento para revisar, publicar o cancelar los cambios pendientes.
+Después de realizar algún cambio en cualquiera de las opciones de configuración de las páginas del grupo **Enrutamiento de voz**, siga este procedimiento para revisar, publicar o cancelar los cambios pendientes.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Compruebe que solo modifica las opciones de configuración de Enrutamiento de voz un usuario cada vez.<BR>Todos los cambios pendientes deben publicarse al mismo tiempo, ejecutando el comando <STRONG>Confirmar todo</STRONG>. No se pueden publicar los cambios pendientes de forma selectiva. Antes de publicar los cambios pendientes, ejecute el comando <STRONG>Revisar cambios sin confirmar</STRONG> y cancele los cambios de configuración que no desee publicar.<BR>Si sale de las páginas del grupo <STRONG>Enrutamiento de voz</STRONG> de confirmar los cambios pendientes, se perderán todos los cambios pendientes. No obstante, puede exportar la configuración actual (incluidos los cambios pendientes) a un archivo de configuración de voz y, a continuación, importar y publicar la configuración actualizada. Para obtener más información, vea <A href="lync-server-2013-export-a-voice-route-configuration-file.md">exportar un archivo de configuración de ruta de voz en Lync Server 2013</A>.
+> Compruebe que solo modifica las opciones de configuración de Enrutamiento de voz un usuario cada vez.<BR>Todos los cambios pendientes deben publicarse al mismo tiempo, ejecutando el comando <STRONG>Confirmar todo</STRONG>. No se pueden publicar los cambios pendientes de forma selectiva. Antes de publicar los cambios pendientes, ejecute el comando <STRONG>Revisar cambios sin confirmar</STRONG> y cancele los cambios de configuración que no desee publicar.<BR>Si sale de las páginas del grupo <STRONG>Enrutamiento de voz</STRONG> antes de confirmar los cambios pendientes, se perderán todos los cambios pendientes. Sin embargo, puede exportar la configuración actual (incluidos los cambios pendientes) a un archivo de configuración de voz y, a continuación, importar y publicar la configuración actualizada. Para obtener más información, consulte <A href="lync-server-2013-export-a-voice-route-configuration-file.md">exportar un archivo de configuración de enrutamiento de voz en Lync Server 2013</A>.
 
 
 
@@ -53,9 +53,9 @@ Después de realizar cambios en cualquiera de las opciones de configuración de 
 
 ## <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>Para revisar, publicar o cancelar cambios de configuración de enrutamiento de voz
 
-1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, consulte [permisos de configuración de delegación en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro de la función CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, consulte [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  En la barra de navegación izquierda, haga clic en **Enrutamiento de voz**.
 
@@ -73,7 +73,7 @@ Después de realizar cambios en cualquiera de las opciones de configuración de 
 
 8.  En el cuadro de diálogo **Configuración de voz no confirmada**, que muestra una lista de todos los cambios pendientes, haga clic en **Aceptar**.
     
-    Cuando el panel de control de Lync Server ha confirmado los cambios, aparece el mensaje de **configuración de enrutamiento de voz correctamente publicado** .
+    Cuando el panel de control de Lync Server ha confirmado los cambios, aparece el mensaje **configuración de enrutamiento de voz publicada correctamente** .
 
 </div>
 

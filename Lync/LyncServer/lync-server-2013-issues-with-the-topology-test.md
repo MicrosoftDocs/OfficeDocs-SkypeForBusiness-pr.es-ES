@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: problemas con la topología de la prueba'
+title: 'Lync Server 2013: problemas con la prueba de topología'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184670
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0492f53692230bf02b3b66d91ba7fdf14b01c23
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 254fb591acca4f58bf27b300d5ead3e615e026ce
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765448"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035032"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41765448"
 
 _**Última modificación del tema:** 2012-09-21_
 
-Al igual que el cmdlet **Test-CsTopology** , el analizador de procedimientos recomendados proporciona una forma de comprobar que Lync Server 2013 está funcionando correctamente en un nivel global. De forma predeterminada, el analizador de procedimientos recomendados, como el cmdlet, comprueba toda la infraestructura de Lync Server 2013, verifica que los servicios necesarios se estén ejecutando y que se hayan establecido los derechos y permisos de usuario apropiados para estos servicios y para la aplicación universal. grupos de seguridad creados al instalar Lync Server 2013.
+Al igual que el cmdlet **Test-CsTopology** , el analizador de procedimientos recomendados proporciona una manera de comprobar que Lync Server 2013 funciona correctamente a nivel global. De forma predeterminada, el analizador de procedimientos recomendados, al igual que el cmdlet, comprueba toda la infraestructura 2013 de Lync Server, comprobando que los servicios necesarios se están ejecutando y que se han establecido los derechos y permisos de usuario adecuados para estos servicios y para la universal grupos de seguridad creados al instalar Lync Server 2013.
 
-Además de comprobar la validez de Lync Server como un todo, **Test-CsTopology** también comprueba la validez de un servicio específico. Para obtener detalles sobre el uso del cmdlet para probar servicios específicos, consulte [prueba-CsTopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) en la documentación del shell de administración de Lync Server. Use la siguiente información para ayudar a resolver problemas con su topología.
+Además de comprobar la validez de Lync Server como un todo, **Test-CsTopology** también comprueba la validez de un servicio específico. Para obtener información detallada sobre cómo usar el cmdlet para probar servicios específicos, consulte [Test-CsTopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) en la documentación del shell de administración de Lync Server. Use la siguiente información para ayudar a resolver los problemas con su topología.
 
 <div>
 
 
 > [!NOTE]  
-> En función de la configuración de los servidores perimetrales y de cualquier configuración de red perimetral relacionada, incluyendo la configuración y los permisos del firewall, es posible que el analizador de procedimientos recomendados no pueda tener acceso a los servidores perimetrales y explorarlos. Si incluye servidores perimetrales en el análisis y los informes indican que hay un problema de acceso a los servidores perimetrales, desactive la casilla <STRONG>servidores perimetrales</STRONG> y ejecute el examen de nuevo para evitar que se muestre el problema en los informes.
+> Dependiendo de la configuración de sus Servidores perimetrales y las configuraciones de red perimetrales relacionadas, incluso los permisos y configuraciones de firewall, el Analizador de mejores prácticas puede no acceder y registrar sus Servidores perimetrales. Si incluye los Servidores perimetrales en su registro y los informes indican que existe un problema al acceder a los Servidores perimetrales, desmarque la casilla <STRONG>Servidores perimetrales</STRONG> y ejecute nuevamente para evitar que el problema aparezca en los informes.
 
 
 
@@ -53,15 +53,15 @@ Además de comprobar la validez de Lync Server como un todo, **Test-CsTopology**
 
 <div>
 
-## <a name="resolving-issues-with-your-topology"></a>Solución de problemas con su topología
+## <a name="resolving-issues-with-your-topology"></a>Resolver problemas con su topología
 
-Si la prueba de topología encontró problemas con su topología, probablemente se deba a problemas que se produjeron al publicar o habilitar su topología.
+Si la prueba de topología encuentra problemas con su topología, estos problemas son probablemente causados por problemas que se produjeron cuando publicó o habilitó su topología.
 
-Cuando realice cambios en su topología, los cambios solo se aplicarán cuando se hayan publicado y habilitado. Debe usar topología Builder para realizar cambios de topología. Después de realizar los cambios, puede publicar y habilitar esos cambios con el generador de topologías.
+Cuando realiza cambios en su topología, los cambios surten efecto solo después de haberse publicado y habilitado. Debe usar el generador de topologías para realizar cambios en la topología. Después de realizar los cambios, puede publicar y habilitar dichos cambios mediante el generador de topologías.
 
-Al publicar los cambios, la nueva información (por ejemplo, un nuevo sitio o una nueva función de servidor) se escribe en el almacén de administración central. Sin embargo, estos nuevos objetos (o los recién modificados) no se unen inmediatamente a su topología. Los objetos se unen a su topología solo cuando habilita la topología actualizada. Si selecciona la opción de publicación en el generador de topología, se realizan ambos pasos: los cambios se publican (es decir, se escriben en el almacén de administración central) y, a continuación, se habilita la nueva topología.
+Al publicar los cambios, la nueva información (por ejemplo, un nuevo sitio o un nuevo rol de servidor) se escribe en el almacén de administración central. Sin embargo, estos nuevos objetos (o los que se modificaron recientemente) no se unen inmediatamente a su topología. los objetos se unen a su topología solo cuando habilita la topología actualizada. Si selecciona la opción publicar en el generador de topologías, se producen estos dos pasos: los cambios se publican (es decir, se escriben en el almacén de administración central) y, a continuación, se habilita la nueva topología.
 
-De forma predeterminada, los miembros del grupo RTCUniversalServerAdmins tienen autorización para ejecutar el cmdlet **Publish-CsTopology** y el cmdlet **enable-CsTopology** . Sin embargo, si los permisos de configuración no se han delegado, debe haber iniciado sesión como administrador de dominio para poder ejecutar **Publish-CsTopology**. Para otorgar a RTCUniversalServerAdmins el derecho de usar el cmdlet **Publish-CsTopology** , debe ejecutar el cmdlet **Grant-CsSetupPermission** en todos los contenedores de Active Directory que contienen los equipos que ejecutan los servicios de Lync Server. Para otorgar a RTCUniversalServerAdmins el derecho de usar el cmdlet **enable-CsTopology** , debe ejecutar el cmdlet **set-CsSetupPermission** en todos los contenedores de los servicios de dominio de Active Directory que contengan equipos con los servicios de Lync Server. Tenga en cuenta que esto se aplica a habilitar y publicar una topología mediante el generador de topologías. Si no ha delegado permisos mediante **set-CsSetupPermission**, solo el administrador del dominio puede habilitar y publicar una topología a través de Topology Builder.
+De forma predeterminada, los miembros del grupo RTCUniversalServerAdmins tienen la autorización de ejecutar el cmdlet **Publish-CsTopology** y el cmdlet **Enable-CsTopology**. Sin embargo, si no se delegaron los permisos de configuración, debe haber iniciado sesión como un administrador de dominio para ejecutar **Publish-CsTopology**. Para conceder a RTCUniversalServerAdmins el derecho de usar el cmdlet **Publish-CsTopology** , debe ejecutar el cmdlet **Grant-CsSetupPermission** en cada contenedor de Active Directory que contenga equipos que ejecutan servicios de Lync Server. Para conceder a RTCUniversalServerAdmins el derecho a usar el cmdlet **enable-CsTopology** , debe ejecutar el cmdlet **set-CsSetupPermission** en cada contenedor de servicios de dominio de Active Directory que contiene equipos que ejecutan servicios de Lync Server. Tenga en cuenta que esto se aplica a la habilitación y publicación de una topología mediante el generador de topologías. Si no ha delegado permisos mediante **set-CsSetupPermission**, solo un administrador de dominio puede habilitar y publicar una topología a través del generador de topologías.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: administración de capacidad y disponibilidad'
+title: 'Lync Server 2013: administración de la capacidad y la disponibilidad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969586
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 169c2e383a1799f5f3ab7ca810de32f86350e51b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 315b8a70451e762c6eafd82a221b3266696034eb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730310"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036550"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-and-availability-management-in-lync-server-2013"></a>Administración de la capacidad y disponibilidad de Lync Server 2013
+# <a name="capacity-and-availability-management-in-lync-server-2013"></a>Administración de la capacidad y la disponibilidad en Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41730310"
 
 _**Última modificación del tema:** 2014-08-18_
 
-El propósito de la administración de capacidad y la administración de la disponibilidad es medir y controlar el rendimiento del sistema. Le recomendamos que implemente procedimientos de administración de capacidad y de disponibilidad para poder medir y controlar el rendimiento del sistema. Debe saber si el sistema está disponible y si puede manejar las exigencias actuales y previstas configurando líneas de base y supervisando el sistema para buscar tendencias.
+El propósito de la administración de la capacidad y la administración de la disponibilidad es medir y controlar el rendimiento del sistema. Le recomendamos que implemente procedimientos de administración de la capacidad y la disponibilidad para que pueda medir y controlar el rendimiento del sistema. Tiene que saber si el sistema está disponible y si puede controlar las demandas actuales y previstas estableciendo líneas de base y supervisando el sistema para buscar tendencias.
 
 <div>
 
-## <a name="capacity-management"></a>Administración de capacidad
+## <a name="capacity-management"></a>Administración de la capacidad
 
-La administración de la capacidad implica la planeación, el ajuste de tamaño y el control de la capacidad de servicio para ayudar a garantizar que se superan los niveles de rendimiento mínimos especificados en el SLA. Una buena administración de la capacidad ayuda a garantizar que puedes proporcionar servicios de ti a un coste razonable y seguir satisfaciendo los niveles de rendimiento definidos en los SLAs con el cliente. Estos criterios pueden incluir lo siguiente:
+La administración de la capacidad implica la planeación, el ajuste de tamaño y el control de la capacidad del servicio para ayudar a garantizar que se superen los niveles de rendimiento mínimos especificados en el SLA. Una buena administración de la capacidad contribuye a garantizar que puede proporcionar servicios de ti a un coste razonable y seguir cumpliendo los niveles de rendimiento definidos en los SLAs con el cliente. Estos criterios pueden incluir lo siguiente:
 
-  - **Tiempo de respuesta del sistema**   es el tiempo medido que el sistema tarda en realizar acciones típicas. Algunos ejemplos son el tiempo necesario para que la función de servidor de audio y vídeo procese el tráfico de audio o vídeo, el tiempo necesario para que un cliente se cree y se una a una conferencia, o el tiempo que se tarda en actualizar la presencia en todos los clientes de monitor.
+  - **Tiempo de respuesta del sistema**   es el tiempo que tarda el sistema en realizar las acciones típicas. Algunos ejemplos son el tiempo necesario para que el rol de servidor de audio y vídeo procese el tráfico de audio y vídeo, el tiempo necesario para que un cliente cree y se una a una conferencia, o el tiempo que se tarda en actualizar la presencia en todos los clientes de monitor.
 
-  - **Capacidad de almacenamiento**   esta es la capacidad de un sistema de almacenamiento, ya sea una base de datos de contenido, un dispositivo de copia de seguridad o una unidad local. Algunos ejemplos son la cantidad máxima de espacio de almacenamiento que se debe proporcionar por sitio y el tiempo que las copias de seguridad deben almacenarse antes de que se sobrescriban.
+  - **Capacidad de almacenamiento**   esta es la capacidad de un sistema de almacenamiento, ya sea una base de datos de contenido, un dispositivo de copia de seguridad o una unidad local. Algunos ejemplos son la cantidad máxima de espacio de almacenamiento que se debe proporcionar por sitio y el tiempo que se almacenan las copias de seguridad antes de que se sobrescriban.
 
-Normalmente, la capacidad de ajuste es asegurarse de que haya suficientes recursos físicos disponibles, como el espacio en el disco y el ancho de banda de la red. En la tabla siguiente se enumeran las resoluciones típicas de problemas relacionados con la capacidad.
+El ajuste de la capacidad suele ser un caso para asegurarse de que haya suficientes recursos físicos disponibles, como espacio en disco y ancho de banda de la red. En la siguiente tabla se enumeran las soluciones típicas para problemas relacionados con la capacidad.
 
-### <a name="typical-resolutions-for-capacity-related-issues"></a>Resoluciones típicas de problemas relacionados con la capacidad
+### <a name="typical-resolutions-for-capacity-related-issues"></a>Soluciones típicas para problemas relacionados con la capacidad
 
 <table>
 <colgroup>
@@ -66,26 +66,26 @@ Normalmente, la capacidad de ajuste es asegurarse de que haya suficientes recurs
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Usuarios remotos con un bajo rendimiento de audio y vídeo</p></td>
-<td><p>Compruebe si el ancho de banda disponible es adecuado en los vínculos WAN y si QoS está habilitado y configurado correctamente. Consultar los datos de la calidad.</p></td>
+<td><p>Usuarios remotos con un rendimiento deficiente de audio y vídeo</p></td>
+<td><p>Compruebe si el ancho de banda adecuado está disponible en los vínculos WAN y si QoS está habilitado y configurado correctamente. Compruebe los datos de QoE.</p></td>
 </tr>
 <tr class="even">
 <td><p>La respuesta general del entorno de Lync es lenta.</p></td>
-<td><p>Ejecute pruebas para comprobar que los servidores front-end existentes pueden tratar la carga. Introduzca un nuevo servidor de aplicaciones para usuario si es necesario. Compruebe los tiempos de respuesta de la base de datos SQL y corrija las causas de los retrasos (por ejemplo, mejorar la e/s de disco).</p></td>
+<td><p>Ejecute las pruebas para comprobar que los servidores front-end existentes pueden tratar la carga. Introduzca un nuevo servidor front-end si es necesario. Compruebe los tiempos de respuesta de la base de datos SQL y corrija las causas de los retrasos (por ejemplo, mejorar e/s de disco).</p></td>
 </tr>
 </tbody>
 </table>
 
 
-La solución de problemas más detallada se trata en la guía de redes de Lync Server.
+La solución de problemas con más detalle se describe en la guía de redes de Lync Server.
 
-La capacidad se ve afectada por la configuración del sistema y depende de recursos físicos, como el ancho de banda de la red. Por ejemplo, si un entorno de Lync está configurado para realizar una copia de seguridad completa por la noche, debe tener cuidado para garantizar que se minimice el efecto sobre el rendimiento interactivo experimentado por los usuarios finales.
+La capacidad se ve afectada por la configuración del sistema y depende de los recursos físicos, como el ancho de banda de la red. Por ejemplo, si un entorno de Lync está configurado para realizar una copia de seguridad completa por la noche, debe tener cuidado para garantizar que se minimice el efecto en el rendimiento interactivo que experimentan los usuarios finales.
 
-La administración de capacidad es el proceso de mantener la capacidad de un sistema dentro de los niveles aceptables y solucionar los problemas siguientes:
+La administración de la capacidad es el proceso de mantener la capacidad de un sistema dentro de los niveles aceptables y resuelve los problemas siguientes:
 
-  - **El reaccionamiento de los cambios en**   los requisitos de capacidad debe ajustarse para tener en cuenta los cambios en el sistema o la organización. Por ejemplo, si su entorno decide implementar la telefonía IP empresarial, el número y la ubicación de los servidores de mediación y de las puertas de enlace de red telefónica conmutada (RTC) serán muy importantes. Si va a realizar una Troncalización del Protocolo de inicio de sesión (SIP) o un SIP directo, el diseño general se cambiará significativamente para ofrecer el mejor rendimiento de la telefonía IP empresarial.
+  - **Reaccionar ante los cambios en los**   requisitos de capacidad se deben ajustar los requisitos de capacidad para tener en cuenta los cambios en el sistema o la organización. Por ejemplo, si su entorno decide implementar la telefonía IP empresarial, la cantidad y la ubicación de los servidores de mediación y las puertas de enlace de la red telefónica conmutada (RTC) serán muy importantes. Si va a realizar un enlace troncal del Protocolo de inicio de sesión (SIP) o un SIP directo, el diseño general se cambiará significativamente para proporcionar el mejor rendimiento de la telefonía IP empresarial.
 
-  - **Predicción de requisitos**   futuros algunos requisitos de capacidad cambian de forma predecible a lo largo del tiempo. El seguimiento de las tendencias permite planear actualizaciones por adelantado. Por ejemplo, se debe supervisar el ancho de banda disponible entre los distintos sitios de Lync para crear una línea base. Esta línea base le permitirá predecir cuándo tiene que agregar más ancho de banda a estos vínculos, ya que el recuento de usuarios en estos sitios remotos aumenta con el tiempo.
+  - **Predecir los requisitos**   futuros algunos requisitos de capacidad cambian de forma predecible con el tiempo. Al realizar un seguimiento de las tendencias, puede planear actualizaciones por adelantado. Por ejemplo, el ancho de banda disponible entre varios sitios de Lync debe supervisarse para crear una línea base. Esta línea base le permitirá predecir cuándo tiene que agregar más ancho de banda a estos vínculos, ya que el recuento de usuarios en estos sitios remotos aumenta con el tiempo.
 
 </div>
 
@@ -93,31 +93,31 @@ La administración de capacidad es el proceso de mantener la capacidad de un sis
 
 ## <a name="availability-management"></a>Administración de la disponibilidad
 
-La administración de la disponibilidad es el proceso de garantizar que cualquier servicio de TI sea consistente y rentable para ofrecer el nivel de servicio coherente y confiable requerido por el cliente. La administración de la disponibilidad se ocupa de minimizar la pérdida de servicio y asegurarse de que se realiza la acción adecuada si se pierde el servicio. En un entorno de Lync, puede que le preocupe la preocupación de si el servicio de telefonía IP empresarial está disponible, si los usuarios pueden unirse a conferencias programadas, etc. Un SLA define una frecuencia y una duración de interrupciones aceptables y permite períodos específicos cuando el sistema no está disponible para el mantenimiento planeado.
+La administración de la disponibilidad es el proceso de garantizar que cualquier servicio de ti ofrezca de forma coherente y rentable el nivel de servicio coherente y fiable que requiera el cliente. La administración de la disponibilidad se ocupa de minimizar la pérdida de servicio y asegurarse de que se realiza la acción apropiada si se pierde el servicio. En un entorno de Lync, puede que le preocupe saber si el servicio de telefonía IP empresarial está disponible, si los usuarios pueden unirse a conferencias programadas, etc. Un SLA define una frecuencia aceptable y la duración de las interrupciones, y permite períodos determinados cuando el sistema no está disponible para el mantenimiento planeado.
 
-Si tiene que proporcionar informes a su administración sobre la disponibilidad de los sistemas, o si tiene sanciones financieras o de otro tipos relacionados con los objetivos de disponibilidad que faltan, debe registrar los datos de disponibilidad. Incluso si no tiene requisitos formales, es una buena idea conocer con qué frecuencia se ha producido un error en un sistema en un determinado período de tiempo. Por ejemplo, la disponibilidad del sistema en los últimos 12 meses y el tiempo que se tarda en recuperarse de cada error. Esta información le ayudará a medir y mejorar la efectividad de su equipo para responder a un error del sistema. También puede darle información útil si hay una disputa.
+Si tiene que proporcionar informes a su administración sobre la disponibilidad de los sistemas o si tiene alguna penalización financiera u otras penalizaciones asociadas con los objetivos de disponibilidad que faltan, debe registrar los datos de disponibilidad. Incluso si no tiene dichos requisitos formales, es una buena idea saber con qué frecuencia se produce un error en un sistema durante un período de tiempo determinado. Por ejemplo, la disponibilidad del sistema en los últimos 12 meses y el tiempo que tardó en recuperarse de cada error. Esta información le ayudará a medir y mejorar la efectividad del equipo para responder a un error del sistema. También puede darle información útil si hay una disputa.
 
 Las medidas relacionadas con la disponibilidad son las siguientes:
 
-  - **Disponibilidad**   generalmente se expresa como el momento en que se puede acceder a un sistema o servicio en comparación con el tiempo que está inactivo. Normalmente se expresa como un porcentaje. (Es posible que vea referencias a "tres nueves" o "cinco nueves". Estas referencias hacen referencia al 99,9 por ciento o al 99,999 por ciento de disponibilidad.)
+  - **Disponibilidad**   suele expresarse como el momento en que se puede tener acceso a un sistema o servicio en comparación con el tiempo que está inactivo. Normalmente se expresa como un porcentaje. (Es posible que vea referencias a "tres nueves" o "cinco nueves". Estos hacen referencia a la disponibilidad de 99,9 por ciento o el 99,999 por ciento.)
 
-  - **Confiabilidad**   es una medida del tiempo entre los errores de un sistema y a veces se expresa como el tiempo promedio entre errores (MTBF).
+  - **Confiabilidad**   es una medida del tiempo entre errores de un sistema y a veces se expresa como media (o media) tiempo entre errores (MTBF).
 
-  - **Tiempo de reparación**   es el tiempo que se tarda en recuperar un servicio después de que se produjo un error y se suele expresar como media (es decir, el promedio) de tiempo de reparación (MTTR).
+  - **Tiempo de reparación**   es el tiempo que se tarda en recuperar un servicio cuando se ha producido un error y suele expresarse como media (lo que significa promedio) tiempo de reparación (MTTR).
 
 La disponibilidad, la confiabilidad y el tiempo de reparación se relacionan de la siguiente manera:
 
-**Disponibilidad = (MTBF – MTTR)/MTBF**   por ejemplo, si un servidor no funciona dos veces durante un período de seis meses y no está disponible durante un promedio de 20 minutos, la MTBF es de tres meses o 90 días y el MTTR es de 20 minutos. Por lo tanto, Availability = (90 días – 20 minutos)/90 días = 99,985 por ciento.
+**Disponibilidad = (MTBF – MTTR)/MTBF**   por ejemplo, si se produce un error en un servidor dos veces durante un período de seis meses y no está disponible durante un promedio de 20 minutos, la MTBF es de tres meses o 90 días y el MTTR es de 20 minutos. Por lo tanto, Availability = (90 días – 20 minutos)/90 días = 99,985 por ciento.
 
-La administración de la disponibilidad es el proceso de asegurarse de que la disponibilidad se maximice y se mantenga dentro de los parámetros definidos en los SLAs. La administración de la disponibilidad incluye los siguientes procesos:
+La administración de la disponibilidad es el proceso de garantizar que la disponibilidad se maximice y se mantenga dentro de los parámetros definidos en los SLA. La administración de la disponibilidad incluye los siguientes procesos:
 
-  - **Supervisión**     del examen Cuándo y por cuánto tiempo los servicios no están disponibles.
+  - **Supervisión**     : se examina Cuándo y durante cuánto tiempo los servicios no están disponibles.
 
-  - **Informar**   de las cifras de disponibilidad debe proporcionarse regularmente a los equipos de administración, usuarios y operaciones. Estos informes deben resaltar tendencias e identificar las áreas que hacen bien y las áreas que requieren atención. El informe debe resumir el cumplimiento de los objetivos establecidos en los SLA.
+  - **Los informes**   de las cifras de disponibilidad deben proporcionarse con regularidad a los equipos de administración, usuarios y operaciones. Estos informes deben resaltar tendencias e identificar las áreas que están haciendo bien y las que requieren atención. El informe debe resumir el cumplimiento de los objetivos establecidos en los SLA.
 
-  - **Mejora**   si la disponibilidad no cumple con los objetivos definidos en los SLA o si la tendencia es para reducir la disponibilidad, el proceso de administración de la disponibilidad debe planear los pasos correctos. Esto debe incluir el trabajo con otros equipos responsables de destacar las razones de las interrupciones y planificar las medidas correctivas para evitar una reaparición de las interrupciones.
+  - **Mejora**   si la disponibilidad no cumple con los objetivos definidos en los SLAs o donde la tendencia es a reducir la disponibilidad, el proceso de administración de la disponibilidad debe planear los pasos necesarios para los remedios. Esto debe incluir trabajar con otros equipos responsables para resaltar los motivos de las interrupciones y planear las acciones correctivas para evitar una reaparición de las interrupciones.
 
-Las medidas de capacidad y disponibilidad son tareas repetitivas que son ideales para las herramientas automatizadas y scripts como Microsoft System Center Operations Manager (anteriormente Microsoft Operations Manager), que se trata más adelante en este documento.
+Las medidas de capacidad y disponibilidad son tareas repetitivas que resultan adecuadas para las herramientas automatizadas y scripts como Microsoft System Center Operations Manager (anteriormente Microsoft Operations Manager), que se describen más adelante en este documento.
 
 </div>
 

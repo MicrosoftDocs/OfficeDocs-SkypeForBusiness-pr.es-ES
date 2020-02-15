@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Requisitos para el almacenamiento de contactos unificado'
+title: 'Lync Server 2013: requisitos para el almacén de contactos unificados'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df3eccd4c5e245fe4729df8b5680db294841f21e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eb689d004f11dd5a3613dd44b78975b2826e7976
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723800"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033379"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41723800"
 
 _**Última modificación del tema:** 2012-10-01_
 
-En la lista siguiente se describen los requisitos para implementar el almacén de contactos unificado en Lync Server 2013:
+En la siguiente lista se describen los requisitos para implementar el almacén de contactos unificado en Lync Server 2013:
 
-  - Debe estar ejecutando Microsoft Lync Server 2013 y Exchange 2013.
+  - Debe ejecutar Microsoft Lync Server 2013 y Exchange 2013.
 
-  - Los usuarios deben usar Lync 2013 para iniciar la migración de los contactos de Lync Server 2013 a Exchange 2013.
+  - Los usuarios deben usar Lync 2013 para iniciar la migración de contactos de Lync Server 2013 a Exchange 2013.
 
-  - Los buzones de usuario deben migrarse a Exchange 2013.
+  - Los buzones de correo de los usuarios deben migrarse a Exchange 2013.
 
-  - Debe tener configurada la autenticación de servidor a servidor entre Lync Server 2013 y Exchange 2013.
+  - Debe tener la autenticación de servidor a servidor configurada entre Lync Server 2013 y Exchange 2013.
     
     <div>
     
 
     > [!NOTE]  
-    > Para conocer los requisitos detallados sobre la configuración de la autenticación entre Lync Server 2013 y Exchange 2013, vea Administración de la <A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">autenticación de servidor a servidor (OAuth) y aplicaciones de Partners en Lync server 2013</A> en la documentación de operaciones.
+    > Para obtener información detallada sobre los requisitos para configurar la autenticación entre Lync Server 2013 y Exchange 2013, consulte <A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Managing Server-to-Server Authentication (OAuth) and Partner Applications in Lync server 2013</A> en la documentación de operaciones.
 
     
     </div>

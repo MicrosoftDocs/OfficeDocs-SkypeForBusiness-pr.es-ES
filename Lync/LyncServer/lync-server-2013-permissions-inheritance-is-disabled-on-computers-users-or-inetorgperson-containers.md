@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: La herencia de permisos está deshabilitada en los contenedores Computer, Users o InetOrgPerson'
+title: 'Lync Server 2013: la herencia de permisos está deshabilitada en los contenedores Computer, users o InetOrgPerson'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185348
 ms.date: 12/19/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da84454a6e02e02520206b5eb667edfcf4fce849
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1340c76209667d705908f5012a8182eaf1c7c4cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755250"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006928"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers-in-lync-server-2013"></a>La herencia de permisos está deshabilitada en los contenedores Computer, Users o InetOrgPerson en Lync Server 2013
+# <a name="permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers-in-lync-server-2013"></a>La herencia de permisos está deshabilitada en los contenedores Computers, users o InetOrgPerson en Lync Server 2013
 
 </div>
 
@@ -37,44 +37,44 @@ ms.locfileid: "41755250"
 
 _**Última modificación del tema:** 2014-12-19_
 
-En los servicios de dominio de Active Directory bloqueados, los usuarios y los objetos de equipos se colocan a menudo en unidades organizativas específicas con la herencia de permisos deshabilitada para ayudar a proteger la delegación administrativa y para habilitar el uso de objetos de directiva de grupo (GPO) para exigir directivas de seguridad.
+En los servicios de dominio de Active Directory bloqueados, los objetos de usuarios y equipos a menudo se colocan en unidades organizativas específicas con la herencia de permisos deshabilitada para ayudar a proteger la delegación administrativa y habilitar el uso de objetos de directiva de grupo (GPO). para aplicar directivas de seguridad.
 
-La preparación del dominio y la activación del servidor establecen las entradas de control de acceso (ACE) que necesita Lync Server 2013. Cuando la herencia de permisos está deshabilitada, los grupos de seguridad de Lync Server no pueden heredar estas ACE. Cuando no se heredan estos permisos, los grupos de seguridad de Lync Server no pueden obtener acceso a la configuración y se producen los dos problemas siguientes:
+La preparación del dominio y la activación del servidor establecen las entradas de control de acceso (ACE) que necesita Lync Server 2013. Cuando la herencia de permisos está deshabilitada, los grupos de seguridad de Lync Server no pueden heredar estas ACE. Cuando estos permisos no se heredan, los grupos de seguridad de Lync Server no pueden obtener acceso a la configuración y se producen los dos problemas siguientes:
 
-  - Para administrar usuarios, InetOrgPersons y contactos, y para trabajar con los servidores, los grupos de seguridad de Lync Server requieren entradas ACE establecidas por el procedimiento de preparación del dominio en los conjuntos de propiedades de cada usuario, en las comunicaciones en tiempo real (RTC), en la búsqueda de usuario RTC y en la información pública. . Cuando la herencia de permisos está deshabilitada, los grupos de seguridad no heredan estas ACE y no pueden administrar servidores ni usuarios.
+  - Para administrar usuarios, InetOrgPersons y contactos, y para operar los servidores, los grupos de seguridad de Lync Server requieren ACE establecidos por el procedimiento de preparación del dominio en cada conjunto de propiedades de usuario, comunicaciones en tiempo real (RTC), búsqueda de usuarios RTC e información pública . Cuando la herencia de permisos está deshabilitada, los grupos de seguridad no heredan estas entradas ACE y no pueden administrar los servidores o usuarios.
 
-  - Para descubrir servidores y grupos, los servidores que ejecutan Lync Server dependen de las entradas que se establecen mediante la activación en objetos relacionados con el equipo, incluidos el objeto servidor y el contenedor de Microsoft. Cuando la herencia de permisos está deshabilitada, los grupos de seguridad, los servidores y los grupos no heredan estas entradas ACE y no pueden aprovechar las ventajas de estas entradas.
+  - Para detectar servidores y grupos de servidores, los servidores que ejecutan Lync Server se basan en ACE que se establecen mediante la activación en objetos relacionados con el equipo, incluido el objeto de servidor y el contenedor de Microsoft. Cuando la herencia de permisos está deshabilitada, los grupos de seguridad, servidores y grupos de servidores no heredan estas entradas ACE y no pueden aprovecharlas.
 
-Para solucionar estos problemas, Lync Server proporciona el cmdlet **Grant-CsOuPermission** . Este cmdlet establece las entradas de Lync Server requeridas directamente en un contenedor y unidades organizativas especificadas y en los objetos dentro del contenedor o la unidad organizativa.
+Para solucionar estos problemas, Lync Server proporciona el cmdlet **Grant-CsOuPermission** . Este cmdlet establece las entradas ACE de Lync Server necesarias directamente en un contenedor y unidades organizativas especificadas y en los objetos del contenedor o la unidad organizativa.
 
 <div>
 
-## <a name="set-permissions-for-user-inetorgperson-and-contact-objects-after-running-domain-preparation"></a>Establecer permisos para objetos user, InetOrgPerson y Contact después de ejecutar la preparación del dominio
+## <a name="set-permissions-for-user-inetorgperson-and-contact-objects-after-running-domain-preparation"></a>Definir permisos para los objetos User, InetOrgPerson y Contact después de ejecutar la preparación del dominio
 
-En un entorno de Active Directory bloqueado donde la herencia de permisos está deshabilitada, la preparación del dominio no establece las entradas ACE necesarias en los contenedores o unidades organizativas que contienen los usuarios o los objetos InetOrgPerson dentro del dominio. En esta situación, debe ejecutar el cmdlet **Grant-CsOuPermission** en cada contenedor o unidad organizativa que tenga objetos de usuario o inetOrgPerson para los que se haya deshabilitado la herencia de permisos. Si tiene una topología de bosque central, también debe realizar este procedimiento en los contenedores o en las unidades organizativas que contienen objetos de contacto. Para obtener más información sobre las topologías de bosque central, consulte [topologías de Active Directory admitidas en Lync Server 2013](lync-server-2013-supported-active-directory-topologies.md) en la documentación de soporte técnico. El parámetro ObjectType especifica el tipo de objeto. El parámetro OU especifica la unidad organizativa.
+En un entorno con Active Directory bloqueado donde la herencia de permisos está deshabilitada, la preparación del dominio no establece las entradas ACE necesarias en los contenedores o las unidades organizativas que incluyen los objetos User o InetOrgPerson del dominio. En esta situación, debe ejecutar el cmdlet **Grant-CsOuPermission** en cada contenedor o unidad organizativa que tenga objetos User o InetOrgPerson para los que la herencia de permisos esté deshabilitada. Si tiene una topología de bosque central, debe realizar también este procedimiento en los contenedores o unidades organizativas que contengan objetos de contacto. Para obtener más información sobre las topologías de bosques centrales, consulte [topologías admitidas de Active Directory en Lync Server 2013](lync-server-2013-supported-active-directory-topologies.md) en la documentación sobre compatibilidad. El parámetro ObjectType especifica el tipo de objeto. El parámetro OU especifica la unidad organizativa.
 
-Este cmdlet agrega las ACE necesarias directamente en los contenedores o unidades organizativas especificados y los objetos user o InetOrgPerson dentro del contenedor. Si la OU en la que se ejecuta este comando tiene unidades organizativas secundarias con objetos user o InetOrgPerson, los permisos no se aplicarán a esos permisos. Tendrá que ejecutar el comando en cada unidad organizativa secundaria individualmente. Este es un escenario común con las implementaciones de hospedaje de Lync, por ejemplo, uo primaria = inquilinos de OCS, DC = CONTOSO, DC = LOCAL y secundarias = Tenant1, OU = OCS.
+Este cmdlet agrega las entradas ACE necesarias directamente en los contenedores o unidades organizativas especificados y los objetos User o InetOrgPerson del contenedor. Si la unidad organizativa en la que se ejecuta este comando tiene unidades organizativas secundarias con objetos user o InetOrgPerson, los permisos no se aplicarán a dichos permisos. Tendrá que ejecutar el comando individualmente en cada unidad organizativa secundaria. Este es un escenario común con las implementaciones de hospedaje de Lync, por ejemplo, OU primaria = inquilinos de OCS, DC = CONTOSO, DC = LOCAL y secundaria OU = Tenant1, OU = inquilinos de OCS, DC = CONTOSO, DC = LOCAL.
 
-Necesita los derechos de usuario equivalentes a los miembros del grupo administradores de dominio para ejecutar este cmdlet. Si las entradas ACE de los usuarios autenticados también se han quitado en el entorno bloqueado, debe conceder a esta cuenta las entradas de acceso de lectura en los contenedores o las unidades organizativas relevantes del dominio raíz del bosque, como se describe en [permisos de usuario autenticados se quitan en Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) o usar una cuenta que sea miembro del grupo administradores de la empresa.
+Necesita tener los derechos de usuario equivalentes a la pertenencia al grupo administradores de dominio para ejecutar este cmdlet. Si las ACE de los usuarios autenticados también se han quitado en el entorno bloqueado, debe conceder a esta cuenta las entradas ACE de acceso de lectura en los contenedores relevantes o en las unidades organizativas del dominio raíz del bosque, tal y como se describe en los [permisos de usuario autenticados, se quitan en Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) o use una cuenta que sea miembro del grupo administradores de empresa
 
-**Para establecer las entradas ACE necesarias para los objetos user, InetOrgPerson y Contact**
+**Para establecer las entradas ACE necesarias para los objetos User, InetOrgPerson y Contact**
 
-1.  Inicie sesión en un equipo unido al dominio con una cuenta que sea miembro del grupo administradores del dominio o que tenga derechos de usuario equivalentes.
+1.  Inicie sesión en un equipo unido al dominio con una cuenta que sea miembro del grupo Admins. del dominio o que tenga derechos de usuario equivalentes.
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-3.  Ejecute:
+3.  Realizar
     
         Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> 
         -OU <DN name for the OU container relative to the domain root container DN> [-Domain <Domain FQDN>]
     
-    Si no especifica el parámetro domain, el valor predeterminado es el dominio local.
+    Si no se especifica el parámetro Domain, el valor predeterminado es el dominio local.
     
     Por ejemplo:
     
         Grant-CsOuPermission -ObjectType "User" -OU "cn=Redmond,dc=contoso,dc=net" -Domain "contoso.net"
 
-4.  En el archivo de registro, busque el resultado de la ejecución ** \<correcta\> ** al final de cada tarea para comprobar que se establecieron los permisos y, a continuación, cierre la ventana de registro. O bien, puede ejecutar el comando siguiente para determinar si se establecieron los permisos:
+4.  En el archivo de registro, busque resultado de ejecución ** \<correcta\> ** al final de cada tarea para comprobar que se establecieron los permisos y, a continuación, cierre la ventana de registro. También puede ejecutar el comando siguiente para determinar si se establecieron los permisos:
     
         Test-CsOuPermission -ObjectType <type of object> 
         -OU <DN name for the OU container relative to the domain root container DN> 
@@ -90,31 +90,31 @@ Necesita los derechos de usuario equivalentes a los miembros del grupo administr
 
 ## <a name="set-permissions-for-computer-objects-after-running-domain-preparation"></a>Establecer permisos para objetos de equipo después de ejecutar la preparación del dominio
 
-En un entorno de Active Directory bloqueado donde la herencia de permisos está deshabilitada, la preparación del dominio no establece las entradas ACE necesarias en los contenedores o las unidades organizativas que contienen objetos de equipo dentro del dominio. En esta situación, debe ejecutar el cmdlet **Grant-CsOuPermission** en cada contenedor o unidad organizativa que tenga equipos que ejecuten Lync Server donde la herencia de permisos esté deshabilitada. El parámetro ObjectType especifica el tipo de objeto.
+En un entorno con Active Directory bloqueado donde la herencia de permisos está deshabilitada, la preparación del dominio no establece las entradas ACE necesarias en los contenedores o unidades organizativas que incluyen los objetos de equipo dentro del dominio. En esta situación, debe ejecutar el cmdlet **Grant-CsOuPermission** en cada uno de los contenedores o unidades organizativas que tienen equipos que ejecutan Lync Server y la herencia de permisos está deshabilitada. El parámetro ObjectType especifica el tipo de objeto.
 
 Este procedimiento agrega las entradas ACE necesarias directamente en los contenedores especificados.
 
-Necesita los derechos de usuario equivalentes a los miembros del grupo administradores de dominio para ejecutar este cmdlet. Si las ACE de los usuarios autenticados también se han eliminado, debe conceder a esta cuenta las entradas de acceso de lectura en los contenedores relevantes del dominio raíz del bosque, como se describe en [permisos de usuario autenticados se quitan de Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) o usar una cuenta que sea miembro del grupo administradores de empresa.
+Necesita tener los derechos de usuario equivalentes a la pertenencia al grupo administradores de dominio para ejecutar este cmdlet. Si también se han quitado las ACE de usuario autenticado, debe conceder a esta cuenta las entradas ACE de acceso de lectura en los contenedores relevantes del dominio raíz del bosque, tal y como se describe en [permisos de usuario autenticados, se quitan en Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) o use una cuenta que sea miembro del grupo administradores de la empresa.
 
-**Para establecer las entradas ACE necesarias para objetos de equipo**
+**Para establecer las entradas ACE necesarias para los objetos de equipo**
 
-1.  Inicie sesión en el equipo del dominio con una cuenta que sea miembro del grupo administradores del dominio o que tenga derechos de usuario equivalentes.
+1.  Inicie sesión en un equipo del dominio con una cuenta que sea miembro del grupo Admins. del dominio o que tenga derechos de usuario equivalentes.
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-3.  Ejecute:
+3.  Realizar
     
         Grant-CsOuPermission -ObjectType <Computer> 
         -OU <DN name for the computer OU container relative to the domain root container DN> 
         [-Domain <Domain FQDN>][-Report <fully qualified path and name of output report>]
     
-    Si no especifica el parámetro domain, el valor predeterminado es el dominio local.
+    Si no se especifica el parámetro Domain, el valor predeterminado es el dominio local.
     
     Por ejemplo:
     
         Grant-CsOuPermission -ObjectType "Computer" -OU "ou=Lync Servers,dc=litwareinc,dc=com" -Report "C:\Logs\OUPermissions.xml"
 
-4.  En el archivo de registro C:\\registra\\OUPermissions. XML, debería buscar el resultado de la ejecución ** \<correcta\> ** al final de cada tarea y comprobar que no hay errores y, a continuación, cerrar el registro. Puede ejecutar el siguiente cmdlet para probar los permisos:
+4.  En el archivo de registro de ejemplo\\C\\: registra OUPermissions. XML, busque el resultado de la ejecución ** \<correcta\> ** al final de cada tarea y compruebe que no haya errores y, a continuación, cierre el registro. Para probar los permisos, puede ejecutar el siguiente cmdlet:
     
         Test-CsOuPermission -ObjectType <type of object> 
         -OU <DN name for the OU container relative to the domain root container DN> [-Domain <Domain FQDN>]
@@ -127,7 +127,7 @@ Necesita los derechos de usuario equivalentes a los miembros del grupo administr
     
 
     > [!NOTE]  
-    > Si ejecuta la preparación del dominio en el dominio raíz del bosque en un entorno de Active Directory bloqueado, tenga en cuenta que Lync Server requiere acceso al esquema y a los contenedores de configuración de Active Directory.<BR>Si se quita el permiso de usuario autenticado predeterminado del esquema o los contenedores de configuración de&nbsp;AD DS, solo se permite el acceso a los miembros del grupo de administradores de esquema (para el contenedor de esquemas) o del grupo de administradores de la empresa (en el contenedor de configuración). Como Setup. exe, los cmdlets del shell de administración de Lync Server y el panel de control de Lync Server requieren acceso a estos contenedores, la configuración e instalación de las herramientas administrativas no se realizarán correctamente, a menos que el usuario que ejecuta la instalación tenga los derechos de usuario equivalentes al esquema Miembros del grupo administradores y administradores de empresa.<BR>Para solucionar este problema, debe conceder al grupo RTCUniversalGlobalWriteGroup lectura, acceso de escritura al esquema y a los contenedores de configuración.
+    > Si ejecuta la preparación del dominio en el dominio raíz del bosque en un entorno de Active Directory bloqueado, tenga en cuenta que Lync Server requiere acceso al esquema de Active Directory y a los contenedores de configuración.<BR>Si se quita el permiso de usuario autenticado predeterminado del esquema o los contenedores de configuración en&nbsp;AD DS, solo se permite que los miembros del grupo de administradores de esquema (para el contenedor de esquemas) o del grupo de administradores de la empresa (para el contenedor de configuración) tengan acceso al contenedor especificado. Debido a que Setup. exe, los cmdlets del shell de administración de Lync Server y el panel de control de Lync Server necesitan acceso a estos contenedores, se producirá un error en la instalación e instalación de las herramientas administrativas, a menos que el usuario que ejecuta la instalación tenga derechos de usuario equivalentes al esquema Administradores y pertenencia al grupo administradores de empresa.<BR>Para solucionar esta situación, deberá conceder al grupo RTCUniversalGlobalWriteGroup acceso de lectura y escritura a los contenedores de esquema y de configuración.
 
     
     </div>

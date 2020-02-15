@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Compatibilidad de mensajería unificada (UM) de Exchange'
+title: 'Lync Server 2013: compatibilidad con mensajería unificada (MU) de Exchange'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183405
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8925bd8a07693800c49ff2d818d3677b33452b97
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0e906b6194572d0ed7f797a2be64c7b66982436b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756244"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035082"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="exchange-unified-messaging-um-support-in-lync-server-2013"></a>Compatibilidad de mensajería unificada (UM) de Exchange en Lync Server 2013
+# <a name="exchange-unified-messaging-um-support-in-lync-server-2013"></a>Compatibilidad con mensajería unificada (MU) de Exchange en Lync Server 2013
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41756244"
 
 _**Última modificación del tema:** 2012-09-21_
 
-Lync Server 2013 admite la integración con mensajería unificada de Exchange (UM) para combinar la mensajería de voz y la mensajería de correo electrónico en una sola infraestructura de mensajería. En Exchange 2013, la mensajería unificada de Exchange consta del servicio MU de Exchange, que se instala y se ejecuta en el servidor de buzón de correo, y el enrutador de llamadas de mensajería unificada, que se instala y se ejecuta en el servidor de acceso de cliente. Para implementaciones de Lync Server 2013 Enterprise Voice, la mensajería UNIFICAda de Exchange combina la mensajería de voz y la mensajería de correo electrónico en un solo almacén accesible desde un teléfono (es decir, Outlook Voice Access) o un equipo. La mensajería unificada de Exchange y Lync Server 2013 funcionan de forma conjunta para proporcionar respuesta de llamada, Outlook Voice Access y los servicios de operador automático a los usuarios de telefonía IP empresarial.
+Lync Server 2013 admite la integración con la mensajería unificada (UM) de Exchange para combinar la mensajería de voz y la mensajería de correo electrónico en una única infraestructura de mensajería. En Exchange 2013, la mensajería unificada de Exchange consta del servicio MU de Exchange, que se instala y se ejecuta en el servidor de buzones de correo, y el enrutador de llamadas de mensajería unificada, que se instala y se ejecuta en el servidor de acceso de cliente. Para las implementaciones de Lync Server 2013 Enterprise Voice, la mensajería UNIFICAda de Exchange combina la mensajería de voz y la mensajería de correo electrónico en un solo almacén al que se puede tener acceso desde un teléfono (es decir, Outlook Voice Access) o un equipo. La mensajería unificada de Exchange y Lync Server 2013 funcionan de forma conjunta para proporcionar servicios de contestador automático, Outlook Voice Access y operador automático a los usuarios de telefonía IP empresarial.
 
-Además de la compatibilidad para la integración con implementaciones locales de la mensajería unificada de Exchange, Lync Server 2013 admite la integración con mensajería unificada de Exchange hospedado. Esto le permite proporcionar mensajería de voz a los usuarios si migra algunos o todos a un proveedor de servicios de Exchange hospedado como Microsoft Exchange Online.
+Además de la compatibilidad para la integración con implementaciones locales de mensajería unificada de Exchange, Lync Server 2013 admite la integración con la mensajería unificada de Exchange hospedada. Esto le permite proporcionar mensajería de voz a sus usuarios si los migra, en su totalidad o en parte, a un proveedor de servicios de Exchange hospedado como Microsoft Exchange Online
 
-Lync Server 2013 admite las versiones siguientes:
+Lync Server 2013 admite las siguientes versiones:
 
   - Microsoft Exchange 2013
 
-  - Microsoft Exchange Server 2010 (obligatorio) o con el Service Pack más reciente (recomendado)
+  - Microsoft Exchange Server 2010 (obligatorio) o con el último Service Pack (recomendado)
 
-  - Microsoft Exchange Server 2007 con Service Pack 1 (SP1) (obligatorio) o el Service Pack más reciente (recomendado)
+  - Microsoft Exchange Server 2007 con Service Pack 1 (SP1) (obligatorio) o el último Service Pack (recomendado)
 
-No puede Collocate mensajería unificada de Exchange con Lync Server 2013 o una base de datos de Lync Server 2013. Puede instalar la mensajería unificada de Exchange y Lync Server 2013 en bosques diferentes.
+No puede combinar mensajería unificada de Exchange con Lync Server 2013 o una base de datos de Lync Server 2013. Puede instalar la mensajería unificada de Exchange y Lync Server 2013 en bosques independientes.
 
 <div>
 
 
 > [!NOTE]  
-> Es posible que no se necesite la mensajería unificada de Exchange para implementaciones de telefonía IP con una PBX implementada, porque la PBX puede seguir proporcionando correo de voz y servicios relacionados a todos los usuarios. Si finalmente retira el sistema PBX (por ejemplo, si implementa la configuración de troncal de SIP para conectividad de red telefónica conmutada (RTC)), debe volver a configurar la mensajería unificada de Exchange para proporcionar el correo de voz a los usuarios que antes usaban el sistema de correo de voz PBX.
+> Es posible que no se requiera la mensajería unificada de Exchange para implementaciones de Enterprise Voice que tengan implementado un sistema PBX, ya que el sistema PBX puede continuar proporcionando correo de voz y servicios relacionados a todos los usuarios. Si finalmente retira la PBX (por ejemplo, si implementa un enlace troncal SIP para la conectividad de red telefónica conmutada (RTC)), debe volver a configurar la mensajería unificada de Exchange para proporcionar correo de voz a los usuarios que usaron previamente el sistema de correo de voz PBX.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: 'Fase 8: Retirar los grupos de servidores heredados'
+title: 'Fase 8: retirar grupos heredados'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9c21aa29f2e98aacd3ec68076a21ba2b4d2a76e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6450e129d68aadcb0e79f38def3e89176ef93373
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729080"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034150"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-decommission-legacy-pools"></a>Fase 8: Retirar los grupos de servidores heredados
+# <a name="phase-8-decommission-legacy-pools"></a>Fase 8: retirar grupos heredados
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41729080"
 
 _**Última modificación del tema:** 2016-12-08_
 
-En el siguiente tema se proporcionan instrucciones para actualizar entradas DNS, mover el servidor de administración de contenido, decomisar grupos y desactivar y quitar servidores y grupos de servidores de una implementación heredada de Lync Server 2010. No todos los procedimientos enumerados en esta sección son obligatorios. Lea la documentación y determine qué procedimiento de retiro se debe usar.
+En el siguiente tema se proporcionan instrucciones para actualizar entradas DNS, mover el servidor de administración de contenido, retirar grupos de servidores y desactivar y quitar servidores y grupos de servidores de una implementación heredada de Lync Server 2010. No todos los procedimientos de esta sección son obligatorios. Lea la documentación y determine qué procedimiento utilizar.
 
-Para obtener una cobertura exhaustiva de la eliminación de servidores y roles de servidor de Lync Server 2010, y una guía paso a paso para dar de baja una implementación de Lync Server 2010, consulte "desinstalar Microsoft Lync Server 2010 y quitar roles de servidor", [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)que se puede descargar en.
+Para obtener una cobertura exhaustiva de la eliminación de servidores y roles de servidor de Lync Server 2010, y una guía paso a paso para retirar una implementación de Lync Server 2010, consulte "desinstalar Microsoft Lync Server 2010 y quitar roles de servidor", que se [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)puede descargar en.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Para obtener información sobre cómo migrar y actualizar aplicaciones de la API administrada de Microsoft Unified Communications (UCMA), antes de dar de baja a su entorno heredado, consulte<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
+> Para obtener información sobre la migración y actualización de aplicaciones de la API administrada de comunicaciones unificadas de Microsoft (UCMA) antes de retirar el entorno heredado, consulte<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 
@@ -56,7 +56,7 @@ Para obtener una cobertura exhaustiva de la eliminación de servidores y roles d
 ## <a name="in-this-section"></a>En esta sección
 
   - <span></span>  
-    [Actualizar registros SRV de DNS](update-dns-srv-records.md)
+    [Actualizar registros DNS SRV](update-dns-srv-records.md)
 
   - <span></span>  
     [Mover el servidor de administración central de Lync Server 2010 a Lync Server 2013](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
@@ -65,16 +65,16 @@ Para obtener una cobertura exhaustiva de la eliminación de servidores y roles d
     [Mover directorios de conferencia](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
 
   - <span></span>  
-    [Quitar la asociación del servidor de archivado](remove-the-archiving-server-association.md)
+    [Quitar la Asociación del servidor de archivado](remove-the-archiving-server-association.md)
 
   - <span></span>  
-    [Quitar la asociación del servidor de supervisión](remove-the-monitoring-server-association.md)
+    [Quitar la Asociación del servidor de supervisión](remove-the-monitoring-server-association.md)
 
   - <span></span>  
-    [Quitar el servidor front-end de Enterprise Edition o el servidor front-end Standard Edition](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
+    [Quitar el servidor front-end Enterprise Edition o el servidor front-end Standard Edition](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
 
   - <span></span>  
-    [Quitar instancias de SQL Server y bases de datos en el servidor back-end](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+    [Quitar instancias y bases de datos de SQL Server en el servidor back-end](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
 
 </div>
 

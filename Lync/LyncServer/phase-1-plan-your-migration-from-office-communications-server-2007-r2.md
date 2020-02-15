@@ -1,5 +1,5 @@
 ---
-title: 'Fase 1: planear la migración de Office Communications Server 2007 R2'
+title: 'Fase 1: planear la migración desde Office Communications Server 2007 R2'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184023
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 593dfc97f73398dee5f627da1f534d324242845b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 58853e62b7958d564f01b4616d5439d18217b07f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757724"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-1-plan-your-migration-from-office-communications-server-2007-r2"></a>Fase 1: planear la migración de Office Communications Server 2007 R2
+# <a name="phase-1-plan-your-migration-from-office-communications-server-2007-r2"></a>Fase 1: planear la migración desde Office Communications Server 2007 R2
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41757724"
 
 _**Última modificación del tema:** 2012-09-29_
 
-En esta sección se tratan los temas de planeación de la migración de Office Communications Server 2007 R2 a Lync Server 2013.
+En esta sección se describen los temas de planeación para la migración de Office Communications Server 2007 R2 a Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Migración de usuario](user-migration_1.md)
+  - [Migración de usuarios](user-migration_1.md)
 
-  - [Migrar servidores de archivado y supervisión](migrating-archiving-and-monitoring-servers_1.md)
+  - [Migración de servidores de archivado y supervisión](migrating-archiving-and-monitoring-servers_1.md)
 
-  - [Administrar los servidores tras la migración](administering-servers-after-migration_1.md)
+  - [Administración de servidores tras la migración](administering-servers-after-migration_1.md)
 
-  - [Migrar múltiples sitios y grupos de servidores](migrating-multiple-sites-and-pools_1.md)
+  - [Migrar varios sitios y grupos de servidores](migrating-multiple-sites-and-pools_1.md)
 
-  - [Migrar la federación XMPP](migrating-xmpp-federation_1.md)
+  - [Migración de la Federación XMPP](migrating-xmpp-federation_1.md)
 
 </div>
 

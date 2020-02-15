@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Recuperación ante desastres del servidor perimetral'
+title: 'Lync Server 2013: recuperación ante desastres del servidor perimetral'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733545
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 431b4853407b65bca2b029626cc5659490a493d3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cd85a769d021aae6873a50a719a6043ef72f770
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733500"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006266"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41733500"
 
 _**Última modificación del tema:** 2014-03-12_
 
-Al igual que con otros roles de servidor, la mejor manera de proporcionar alta disponibilidad para los servidores perimetrales es implementar varios servidores perimetrales en grupos en cada sitio. Si un servidor perimetral deja de funcionar, los otros servidores del grupo seguirán proporcionando servicios de extremo.
+Como con otros roles de servidor, la mejor manera que tiene de proporcionar alta disponibilidad para sus servidores perimetrales es implementar varios servidores perimetrales en grupos de servidores en cada sitio. Si un servidor perimetral deja de funcionar, los demás servidores del grupo de servidores continuarán proporcionando servicios perimetrales.
 
-Para habilitar los procedimientos de recuperación ante desastres, debe disponer de grupos de servidores perimetrales separados en sitios diferentes. No es necesario emparejar de manera explícita las agrupaciones periféricas como se hace con los grupos de aplicaciones para el usuario, pero tener varios grupos de límites aún proporciona la disponibilidad para funcionar si se produce la baja de un grupo de bordes completo. En las siguientes secciones se proporcionan detalles sobre la recuperación de desastres para las distintas funciones de los servidores perimetrales.
+Para habilitar los procedimientos de recuperación ante desastres, debe tener grupos de servidores perimetrales implementados en sitios independientes. No tiene que emparejar explícitamente grupos de servidores perimetrales como hace con grupos de servidores front-end, pero tener varios grupos de servidores perimetrales ofrece todavía la disponibilidad de continuar si un grupo de servidores perimetrales completo dejar de funcionar. Las secciones siguientes proporcionan detalles sobre la recuperación ante desastres para las distintas funciones de los servidores perimetrales.
 
 <div>
 
 ## <a name="remote-access"></a>Acceso remoto
 
-Si tiene varios sitios, cada uno con un grupo de servidores perimetrales y se produce un error en una agrupación perimetral completa, los servicios de acceso remoto seguirán funcionando sin necesidad de acción de administrador. Al crear grupos de borde en diferentes sitios, no se puede usar el mismo FQDN. Cada grupo perimetral debe tener FQDN únicos (internos y externos). Los conjuntos de bordes no usan reglas de publicación de proxy invertida para hablar con los servidores de aplicaciones para el usuario. La conmutación por error automática se produce cuando el cliente vuelve a consultar los registros del servicio DNS de acceso remoto y los usuarios remotos se enrutan a los servidores perimetrales de otro sitio. El cliente intenta cada FQDN de borde externo según la prioridad de los registros SRV de DNS.
+Si tiene varios sitios, cada uno con un grupo de servidores perimetrales, y se produce un error en un grupo de servidores perimetrales completo, los servicios de acceso remoto seguirán funcionando sin necesidad de acciones del administrador. Al crear grupos de servidores perimetrales en sitios diferentes, no se puede usar el mismo FQDN. Cada grupo de servidores perimetrales debe tener FQDN únicos (internos y externos). Los grupos de servidores perimetrales no utilizan reglas de publicación de proxy inverso para comunicarse con los servidores front-end. La conmutación por error automática se produce cuando el cliente vuelve a consultar los registros de servicio DNS de acceso remoto, y los usuarios remotos se enrutan a los servidores perimetrales de otro sitio. El cliente intenta cada FQDN de perímetro externo de acuerdo con la prioridad de los registros DNS SRV.
 
 <div>
 
 
 > [!NOTE]  
-> Para que la conmutación por error funcione sin problemas, asegúrese de que el Firewall permite que los servidores front-end de cada grupo se comuniquen con todos los servidores perimetrales.
+> Para que la conmutación por error funcione sin problemas, asegúrese de que el Firewall permite que los servidores front-end de todos los grupos se comuniquen con todos los servidores perimetrales.
 
 
 
@@ -63,9 +63,9 @@ Si tiene varios sitios, cada uno con un grupo de servidores perimetrales y se pr
 
 ## <a name="federation"></a>Federación
 
-Para las relaciones de Federación con otras organizaciones que ejecutan Lync Server, las solicitudes de Federación entrante seguirán funcionando siempre y cuando tenga soluciones como el DNS geográfica GTM. Es importante comprender que la conmutación por error de la Federación no proporciona la conmutación por error con prioridad en los registros SRV. Una solución proporcionada anteriormente puede ayudarle a proporcionar capacidades de recuperación ante desastres para la Federación entrante.
+Para las relaciones de Federación con otras organizaciones que ejecutan Lync Server, las solicitudes de Federación de entrada seguirán funcionando siempre que tenga soluciones como GTM de DNS geográfico. Es importante comprender que la conmutación por error de Federación no proporciona conmutación por error con prioridad en los registros SRV. Una solución proporcionada anteriormente puede ayudarle a proporcionar capacidades de recuperación ante desastres para la Federación entrante.
 
-La Federación saliente siempre se configura a través de un grupo perimetral publicado o un servidor perimetral en la organización. Si este grupo de límites ha desaparecido, debe usar el generador de topología para cambiar la ruta de Federación saliente para usar un grupo de límites que aún se esté ejecutando. Para obtener más información, consulte [conmutación por error del grupo perimetral usado para la Federación de Lync Server en Lync server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)
+La federación saliente siempre se configura a través de un grupo de servidores perimetrales publicado o un servidor perimetral de la organización. Si este grupo de servidores perimetrales ha quedado inactivo, debe usar el Generador de topologías para cambiar la ruta de federación saliente para que use un grupo de servidores perimetrales que se está ejecutando todavía. Para obtener más información, consulte [conmutación por error del grupo de servidores perimetrales usado para la Federación de Lync Server en Lync server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)
 
 </div>
 
@@ -73,15 +73,15 @@ La Federación saliente siempre se configura a través de un grupo perimetral pu
 
 ## <a name="xmpp-federation"></a>Federación XMPP
 
-Para la Federación XMPP, se producirá un error en el tráfico entrante y saliente si el grupo perimetral designado como la puerta de enlace de Federación XMPP deja de funcionar. Para hacer que la Federación XMPP vuelva a funcionar, debe cambiar la Federación de XMPP para usar un grupo de borde diferente. Para obtener más información, consulte [conmutación por error del grupo perimetral usado para la Federación XMPP en Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md).
+Para la federación XMPP, se producirá un error tanto en el tráfico entrante como en el saliente si el grupo de servidores perimetrales que está designado como la puerta de enlace de federación XMPP deja de funcionar. Para que la federación XMPP vuelva a funcionar, debe cambiar la federación de XMPP para que use un grupo de servidores perimetrales diferente. Para obtener más información, consulte [conmutación por error del grupo de servidores perimetrales usado para la Federación XMPP en Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md).
 
 </div>
 
 <div>
 
-## <a name="edge-pool-fails-but-front-end-pool-is-still-running"></a>El grupo Edge falla pero el grupo de servidores front-end aún se está ejecutando
+## <a name="edge-pool-fails-but-front-end-pool-is-still-running"></a>Se produce un error en el grupo de servidores perimetrales pero el grupo de servidores front-end todavía se está ejecutando
 
-Si se produce un error en un grupo de límites del sitio, pero el grupo de servidores front-end de ese sitio aún se está ejecutando, tendrá que cambiar el grupo de servidores front-end para usar un grupo de borde diferente en un sitio diferente mientras el primer grupo perimetral esté inactivo. Para obtener más información, vea [cambiar el grupo perimetral asociado a un grupo de servidores front-end en Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md).
+Si se produce un error en un grupo de servidores perimetrales en un sitio, pero el grupo de servidores front-end de ese sitio todavía se está ejecutando, tendrá que cambiar el grupo de servidores front-end para que use un grupo de servidores perimetrales diferente en un sitio diferente mientras que el primer grupo de servidores perimetrales ha dejado de funcionar. Para obtener más información, consulte [cambiar el grupo de servidores perimetrales asociado a un grupo de servidores front-end en Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md).
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733699
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8e88d7a9fa66f309bbd64ab064ec95adafc40b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ddc05e2ee7e96ec10c6d3dbf691f7b094a10983
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744390"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007639"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41744390"
 
 _**Última modificación del tema:** 2012-10-01_
 
-La vista de usuario almacena información sobre los usuarios que han participado en llamadas o sesiones que tienen registros en la base de datos. Esta vista se presentó en Microsoft Lync Server 2013.
+La vista de usuario almacena información sobre usuarios que han participado en llamadas o sesiones con registros en la base de datos. Esta vista se introdujo en Microsoft Lync Server 2013.
 
 
 <table>
@@ -55,24 +55,24 @@ La vista de usuario almacena información sobre los usuarios que han participado
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Iddeusuario</p></td>
+<td><p>UserId</p></td>
 <td><p>int</p></td>
 <td><p>Número único que identifica a este usuario.</p></td>
 </tr>
 <tr class="even">
 <td><p>UserUri</p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>Identificador URI del usuario.</p></td>
+<td><p>URI del usuario.</p></td>
 </tr>
 <tr class="odd">
 <td><p>TenantKey</p></td>
 <td><p>identificador</p></td>
-<td><p>Espacio empresarial de usuario. Para obtener más información, consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos de Lync Server 2013</a> .</p></td>
+<td><p>Inquilino del usuario. Consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p>UriType</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Tipo de URI de usuario. Para obtener más información, consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Tipo de URI de usuario. Consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 </tbody>
 </table>

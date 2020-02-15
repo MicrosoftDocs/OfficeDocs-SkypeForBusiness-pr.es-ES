@@ -12,20 +12,20 @@ ms:contentKeyID: 48185598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4e42d73a5b7ac36439aca673ff68c03cc13f50f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d524f8551561a4c7fb61abdaa6ab15bf2c111de9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747090"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987375"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="publish-the-location-database-from-lync-server-2013"></a>Publicar la base de datos de ubicación desde Lync Server 2013
+# <a name="publish-the-location-database-from-lync-server-2013"></a>Publicar la base de datos de ubicaciones en Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41747090"
 
 _**Última modificación del tema:** 2012-10-30_
 
-Las nuevas ubicaciones agregadas a la base de datos de ubicaciones no estarán disponibles para el cliente hasta que no se publiquen.
+Las nuevas ubicaciones agregadas a la base de datos de ubicaciones no estarán disponibles para el cliente mientras no se hayan publicado.
 
 Para obtener más información, consulte la documentación del shell de administración de Lync Server para el siguiente cmdlet:
 
   - **Publish-CsLisConfiguration**
 
-Si usa puertas de enlace de número de identificación de ubicación de emergencia (ELIN), cargue también los ELIN en la base de datos de identificación de ubicación automática (ALI) del proveedor de la red telefónica conmutada (RTC). Probablemente el proveedor de RTC le solicite que use un formato específico para los registros de ELIN. Póngase en contacto con el proveedor de RTC para obtener más información al respecto. Puede exportar los registros de la base de datos de servicios de información de ubicación y darles formato según sea necesario.
+Si usa puertas de enlace de número de identificación de ubicación de emergencia (ELIN), cargue también los ELIN en la base de datos de identificación de ubicación automática (ALI) del proveedor de la red telefónica conmutada (RTC). Probablemente el proveedor de RTC le solicite que use un formato específico para los registros de ELIN. Póngase en contacto con el proveedor de RTC para más información. Puede exportar los registros de la base de datos del servicio de información de ubicación y darles formato según sea necesario.
 
 <div>
 
 ## <a name="to-publish-the-location-database"></a>Para publicar la base de datos de ubicaciones
 
-  - Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+  - Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
   - Ejecute el cmdlet siguiente para publicar la base de datos de ubicaciones.
     

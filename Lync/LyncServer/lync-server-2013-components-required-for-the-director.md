@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Componentes requeridos para el director'
+title: 'Lync Server 2013: componentes necesarios para el director'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183502
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12db97a72a9882964727edd3084e0bd598527358
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e4409632afc61aea4606864e7dd230ad4d295935
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757094"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-required-for-the-director-in-lync-server-2013"></a>Componentes requeridos para el director en Lync Server 2013
+# <a name="components-required-for-the-director-in-lync-server-2013"></a>Componentes necesarios para el Director en Lync Server 2013
 
 </div>
 
@@ -37,33 +37,33 @@ ms.locfileid: "41757094"
 
 _**Última modificación del tema:** 2012-09-08_
 
-El único componente necesario para crear y configurar un director es implementar la función de servidor de director. Para ello, use el generador de topología y defina un único grupo de equipos o un grupo de varios equipos en el nodo de grupo de directores. Una vez que haya definido el grupo de directores o directores, ejecute el Asistente para la implementación de Lync Server en el equipo que será director. En el caso de un grupo de directores, ejecute el Asistente para la implementación de Lync Server en cada servidor que vaya a ser miembro del grupo.
+El único componente necesario para crear y configurar un director es implementar el rol de servidor Director. Para ello, puede usar el generador de topologías y definir un grupo de un solo equipo o un grupo de varios equipos en el nodo de grupo de directores. Una vez que haya definido el director o el grupo de directores, ejecute el Asistente para la implementación de Lync Server en el equipo que será director. En el caso de un grupo de directores, ejecute el Asistente para la implementación de Lync Server en cada servidor que vaya a ser miembro del grupo.
 
 <div>
 
 ## <a name="topologies"></a>Topologías
 
-Puede implementar un servidor de un solo Director o un grupo de directores. El director es siempre un servidor o grupo de servidores separado, no en función de ningún otro rol de servidor de Lync Server 2013.
+Puede implementar un servidor de Director único o un grupo de directores. El director es siempre un servidor o grupo de servidores independiente, no combinado con ningún otro rol de servidor en Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> Si no implementa directores, el servidor front-end o el grupo de servidores front-end asumirán el rol de director.
+> Si no implementa los directores, el servidor front-end o el grupo de servidores front-end asumirán el rol de director.
 
 
 
 </div>
 
-Un grupo de directores debe tener equilibrio de carga. Puede realizar una de las siguientes acciones:
+Un grupo de directores debe tener carga equilibrada. Puede hacer uno de los pasos siguientes:
 
   - Cree una topología que use un equilibrador de carga de hardware para los servicios web y el equilibrio de carga del sistema de nombres de dominio (DNS) para los otros tipos de tráfico.
     
-    [Grupo de director escalado - Equilibrio de carga DNS y equilibradores de carga de hardware en Lync Server 2013](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
+    [Grupo de Director escalado-equilibrio de carga de DNS y equilibrador de carga de hardware en Lync Server 2013](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
 
   - Cree una topología que use un equilibrador de carga de hardware para el equilibrio de carga necesario para el grupo de directores.
     
-    [Grupo de servidores de director escalado - Equilibrador de carga de hardware en Lync Server 2013](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
+    [Grupo de Director escalado-equilibrador de carga de hardware en Lync Server 2013](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Nuevas características de supervisión'
+title: 'Lync Server 2013: nuevas características de supervisión'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ce8fa7b78aa00008cd5aaf748ba66a78ecefbe7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53144bfd9a05d1fc20671b1d7b6aeb22b0f84f6f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725610"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007769"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41725610"
 
 _**Última modificación del tema:** 2012-11-08_
 
-Lync Server 2013 no tiene un rol de servidor de supervisión independiente. La supervisión es una característica opcional disponible en todos los servidores front-end de una implementación de Enterprise Edition, y en servidores Standard Edition, que se puede implementar y configurar para un grupo o sitio. Nuevo en Lync Server 2013, puede habilitar la creación de reflejo de la base de datos de SQL Server para su base de datos de supervisión.
+Lync Server 2013 no tiene un rol de servidor de supervisión independiente. La supervisión es una característica importante disponible en todos los servidores front-end de una implementación de Enterprise Edition y en los servidores de Standard Edition, que se pueden implementar y configurar para un grupo de servidores o un sitio. Nuevo en Lync Server 2013, puede habilitar la creación de reflejo de la base de datos de SQL Server para la base de datos de supervisión.
 
 </div>
 

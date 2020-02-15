@@ -1,5 +1,5 @@
 ---
-title: Comprobar y notificar el estado y asignación de la autenticación Kerberos
+title: Pruebas e informes del estado y la asignación de la autenticación Kerberos
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184716
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4aeeff884decf5d94ba15eecd5f49c87baece99
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a23252190b9ce93ed397e1e44ea400efa9db856c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745870"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-and-reporting-the-status-and-assignment-of-kerberos-authentication-in-lync-server-2013"></a>Comprobar y notificar el estado y asignación de la autenticación Kerberos en Lync Server 2013
+# <a name="testing-and-reporting-the-status-and-assignment-of-kerberos-authentication-in-lync-server-2013"></a>Probar e informar el estado y la asignación de la autenticación Kerberos en Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41745870"
 
 _**Última modificación del tema:** 2010-11-03_
 
-Si necesita probar las asignaciones de Kerberos o determinar el estado de la autenticación Kerberos, puede usar los cmdlets de Windows PowerShell.
+Si necesita probar las asignaciones Kerberos o determinar el estado de la autenticación Kerberos, puede usar los cmdlets de Windows PowerShell.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Comprobar y crear informes de disponibilidad funcional para la autenticación Kerberos en Lync Server 2013](lync-server-2013-test-and-report-functional-readiness-for-kerberos-authentication.md)
+  - [Probar y notificar la preparación funcional para la autenticación Kerberos en Lync Server 2013](lync-server-2013-test-and-report-functional-readiness-for-kerberos-authentication.md)
 
-  - [Creación de informes de asignación de cuentas Kerberos en Lync Server 2013](lync-server-2013-report-kerberos-account-assignments.md)
+  - [Informar sobre las asignaciones de cuentas Kerberos en Lync Server 2013](lync-server-2013-report-kerberos-account-assignments.md)
 
 </div>
 

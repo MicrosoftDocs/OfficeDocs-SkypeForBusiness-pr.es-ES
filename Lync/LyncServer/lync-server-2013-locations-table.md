@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla Locations'
+title: 'Lync Server 2013: tabla de ubicaciones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2d16ffd08184a650f993d175239f5aff72b8b3b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: accab39d1f1f7cb1855ba651ea217aa3b0a4bd8d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762138"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033359"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="locations-table-in-lync-server-2013"></a>Tabla Locations en Lync Server 2013
+# <a name="locations-table-in-lync-server-2013"></a>Tabla Locations in Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41762138"
 
 _**Última modificación del tema:** 2012-05-25_
 
-Cada registro representa una referencia de una ubicación en una llamada de emergencia, como una llamada de E9-1-1.
+Cada registro representa una referencia de ubicación en una llamada de emergencia, como una llamada de E9-1-1.
 
 
 <table>
@@ -59,20 +59,20 @@ Cada registro representa una referencia de una ubicación en una llamada de emer
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Principal, extranjero</p></td>
-<td><p>Hora de la solicitud de sesión. Se usa en conjunción con <strong>SessionIdSeq</strong> para identificar de forma única una sesión. Para obtener más información, vea la <a href="lync-server-2013-dialogs-table.md">tabla cuadros de diálogo en Lync Server 2013</a> .</p></td>
+<td><p>Principal, Externa</p></td>
+<td><p>Hora de la solicitud de sesión. Se usa junto con <strong>SessionIdSeq</strong> para identificar una sesión de manera exclusiva. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal, extranjero</p></td>
-<td><p>Número de identificación para identificar la sesión. Se usa en conjunción con <strong>SessionIdTime</strong> para identificar de forma única una sesión. Para obtener más información, vea la <a href="lync-server-2013-dialogs-table.md">tabla cuadros de diálogo en Lync Server 2013</a> .</p></td>
+<td><p>Principal, Exterior</p></td>
+<td><p>Número del identificador para identificar la sesión. Se usa en combinación con <strong>SessionIdTime</strong> para identificar de forma única una sesión. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Ubicación</strong></p></td>
 <td><p>nvarchar (Max)</p></td>
 <td></td>
-<td><p>Ubicación de la llamada de emergencia.</p></td>
+<td><p>Ubicación de una llamada de emergencia.</p></td>
 </tr>
 </tbody>
 </table>

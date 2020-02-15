@@ -1,5 +1,5 @@
 ---
-title: Sitios de Lync Server 2013
+title: Sitios de 2013 de Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183233
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2e5dc3323ad14f02a5b24258878512707f66f19
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db3e420a1fad89692133df4422138b43d4d7210e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764476"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987035"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,33 +37,33 @@ ms.locfileid: "41764476"
 
 _**Última modificación del tema:** 2012-10-16_
 
-En Lync Server, define los *sitios* de su red que contienen los componentes de Lync Server. Un sitio es un conjunto de equipos con una buena conexión de red de alta velocidad y baja latencia, como, por ejemplo, una red de área local (LAN) única o dos redes conectadas a través de una red de fibra óptica de alta velocidad. Tenga en cuenta que los sitios de Lync Server son un concepto independiente de los sitios de los servicios de dominio de Active Directory y los sitios de Microsoft Exchange Server. Los sitios de Lync Server no necesitan corresponderse con los sitios de Active Directory.
+En Lync Server, puede definir *sitios* en la red que contengan componentes de Lync Server. Un sitio es un conjunto de equipos con una buena conexión de red de alta velocidad y baja latencia, como, por ejemplo, una red de área local (LAN) única o dos redes conectadas a través de una red de fibra óptica de alta velocidad. Tenga en cuenta que los sitios de Lync Server son un concepto independiente de los sitios de servicios de dominio de Active Directory y los sitios de Microsoft Exchange Server. No es necesario que los sitios de Lync Server correspondan con sus sitios de Active Directory.
 
 <div>
 
 ## <a name="site-types"></a>Tipos de sitio
 
-Cada sitio es un *sitio central*, que contiene al menos un grupo de servidores front-end o un servidor Standard Edition, o un *sitio de sucursal*. Cada sitio de sucursal está asociado exactamente a un sitio central y los usuarios del sitio de la sucursal obtienen la mayor parte de la funcionalidad de Lync Server de los servidores del sitio central asociado.
+Cada sitio puede ser un *sitio central*, que contiene al menos un grupo de servidores front-end o un servidor Standard Edition, o un *sitio de sucursal*. Cada sitio de sucursal está asociado exactamente a un sitio central y los usuarios del sitio de sucursal obtienen la mayor parte de su funcionalidad de Lync Server de los servidores en el sitio central asociado.
 
-Cada sitio de la sucursal contiene una de las siguientes opciones:
+Cada una de las sucursales contiene uno de los siguientes elementos:
 
-  - Un *dispositivo de rama con la supervivencia (SBA)*, que es un servidor blade estándar del sector con un registrador de Lync Server y un servidor de mediación que se ejecuta en Windows Server. El dispositivo de sucursal con la supervivencia también contiene una puerta de enlace de red telefónica conmutada (RTC). El equipo de sucursales con la que es superviviente está diseñado para sucursales con entre 25 y 1000 usuarios.
+  - Una aplicación de sucursal con funciones de *supervivencia (SBA)*, que es un servidor blade estándar de la industria con un registrador de Lync Server y un servidor de mediación que se ejecuta en Windows Server. La aplicación de sucursal con funciones de supervivencia también contiene una puerta de enlace de red telefónica conmutada (RTC). La aplicación de sucursal con funciones de supervivencia está diseñada para sitios de sucursal con entre 25 y 1000 usuarios.
 
-  - Un *servidor de sucursal (SBS) con supervivencia*, que es un servidor que ejecuta Windows Server y que cumple con los requisitos de hardware especificados y que tiene instalado el software de servidor de mediación y registrador de Lync Server. Debe conectarse a una puerta de enlace PSTN o a un tronco SIP a un proveedor de servicios telefónicos. El servidor de sucursal con la supervivencia está diseñado para sucursales con usuarios de 1000 y 5000.
+  - Un servidor de sucursal con funciones de *supervivencia (SBS)*, que es un servidor que ejecuta Windows Server y que cumple los requisitos de hardware especificados y que tiene instalado el software del servidor de mediación y el registrador de Lync Server. Debe conectarse a una puerta de enlace RTC o a un tronco SIP hacia un proveedor de servicios telefónicos. El servidor de sucursal con funciones de supervivencia está diseñado para sucursales de entre 1.000 y 5.000 usuarios.
 
-  - Una puerta de enlace RTC y, opcionalmente, un *servidor de mediación*. Para obtener más información sobre este y otros roles de servidor, vea [roles de servidor en Lync server 2013](lync-server-2013-server-roles.md).
+  - Una puerta de enlace RTC y, opcionalmente, un *servidor de mediación*. Para obtener más información sobre este y otros roles de servidor, consulte [roles de servidor en Lync server 2013](lync-server-2013-server-roles.md).
 
-Una sucursal con un vínculo de red de área extensa (WAN) resistente a un sitio central puede usar la tercera opción: una puerta de enlace RTC y, opcionalmente, un servidor de mediación. Los sitios de sucursales con vínculos menos resistentes deben usar un equipo de sucursal o un servidor de sucursal que sea reviviente y que ofrezcan resiliencia en momentos de errores de red de área extensa. Por ejemplo, en un sitio con una sucursal o un servidor de sucursal superviviente implementado, los usuarios pueden seguir realizando y recibiendo llamadas de voz empresariales si la WAN que conecta el sitio de la sucursal con el sitio central está desactivada. Para más información sobre la aplicación de sucursales con capacidad de supervivencia, servidor de sucursal y resistencia, consulte [planificación de la resistencia de voz empresarial en Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md) en la documentación de planificación.
+Una sucursal con un vínculo de red de área extensa (WAN) resistente hacia un sitio central puede usar la tercera opción, una puerta de enlace RTC y, opcionalmente, un servidor de mediación. Los sitios de sucursal con vínculos menos resistentes deben usar una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia, que proporcionan resistencia en momentos de errores de red de área extensa. Por ejemplo, en un sitio con una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia implementado, los usuarios pueden seguir realizando y recibiendo llamadas de telefonía IP empresarial si la WAN que conecta el sitio de sucursal al sitio central no está disponible. Para obtener más información sobre la aplicación de sucursal con funciones de supervivencia, el servidor de sucursal con funciones de supervivencia y la resistencia, consulte [Planning for Enterprise Voice Resiliency in Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md) en la documentación referente a la planeación.
 
 </div>
 
 <div>
 
-## <a name="site-topologies"></a>Topologías de sitios
+## <a name="site-topologies"></a>Topología de sitios
 
-La implementación debe incluir al menos un sitio central y puede incluir entre cero y muchos sitios de la sucursal. Cada sitio de sucursal está afiliado a un sitio central. El sitio central proporciona los servicios de Lync Server al sitio de la sucursal que no está hospedado localmente en el sitio de la sucursal, como la presencia y la Conferencia.
+La implementación debe incluir un sitio central como mínimo, y puede incluir de ninguna a muchas sucursales. Cada una de las sucursales está afiliada a un sitio central. El sitio central proporciona los servicios de Lync Server al sitio de sucursal que no se hospedan de forma local en el sitio de sucursal, como la presencia y la Conferencia.
 
-Si tiene varios sitios, puede emparejar los grupos de aplicaciones para el usuario en diferentes sitios para habilitar las capacidades de recuperación ante desastres. Para obtener más información, consulte [compatibilidad de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md).
+Si tiene varios sitios, puede emparejar los grupos de servidores de front-end en diferentes sitios para habilitar capacidades de recuperación ante desastres. Para obtener más información, consulte [compatibilidad con alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md).
 
 </div>
 
@@ -73,10 +73,10 @@ Si tiene varios sitios, puede emparejar los grupos de aplicaciones para el usuar
 
 
 [Roles de servidor en Lync Server 2013](lync-server-2013-server-roles.md)  
-[Compatibilidad entre la alta disponibilidad y la recuperación ante desastres en Lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md)  
+[Compatibilidad de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md)  
 
 
-[Planear la resistencia de la telefonía IP empresarial en Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md)  
+[Planeación de la resistencia de la telefonía IP empresarial en Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md)  
   
 
 </div>

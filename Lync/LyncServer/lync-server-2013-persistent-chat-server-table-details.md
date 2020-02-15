@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Detalles de la tabla del servidor de chat persistente'
+title: 'Lync Server 2013: detalles de la tabla del servidor de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185323
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd738a423744257968eb029abdd29e5964c0c623
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3caf59185bc3fbe985ea8b7d4371d464b515e3fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755220"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006898"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41755220"
 
 _**Última modificación del tema:** 2012-06-25_
 
-En los temas siguientes se detallan las columnas de cada una de las tablas de esquema de base de datos de chat persistentes.
+En los temas siguientes se detallan las columnas de cada una de las tablas de esquema de base de datos de chat persistente.
 
 <div>
 
@@ -57,7 +57,7 @@ En los temas siguientes se detallan las columnas de cada una de las tablas de es
 
   - [tblPrincipalType en Lync Server 2013](lync-server-2013-tblprincipaltype.md)
 
-  - [tblPrincipal enn Lync Server 2013](lync-server-2013-tblprincipal.md)
+  - [tblPrincipal en Lync Server 2013](lync-server-2013-tblprincipal.md)
 
   - [tblPrincipalAffiliations en Lync Server 2013](lync-server-2013-tblprincipalaffiliations.md)
 
@@ -87,7 +87,7 @@ En los temas siguientes se detallan las columnas de cada una de las tablas de es
 
   - [tblFileToken en Lync Server 2013](lync-server-2013-tblfiletoken.md)
 
-  - [tblServerIdentity en Lync Server 2013](lync-server-2013-tblserveridentity.md)
+  - [Tabla tblserveridentity en Lync Server 2013](lync-server-2013-tblserveridentity.md)
 
   - [tblAdminLock en Lync Server 2013](lync-server-2013-tbladminlock.md)
 

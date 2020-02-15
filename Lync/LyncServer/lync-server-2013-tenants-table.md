@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla Tenants'
+title: 'Lync Server 2013: tabla Tenants'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185309
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de776adeb8c280c5216b35cc8236a0834c14aa13
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b0d2459c169fb93520125ceef7a8076bd51343db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746500"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006105"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41746500"
 
 _**Última modificación del tema:** 2012-09-28_
 
-La tabla de inquilinos es una tabla de soporte que almacena una lista de los distintos inquilinos. Cada registro de la tabla representa un inquilino.
+La tabla Inquilinos es una tabla auxiliar que almacena una lista de los diversos inquilinos. Cada registro de la tabla representa a un inquilino.
 
 <div>
 
 
 > [!NOTE]  
-> En la implementación local, CDR usa el identificador de inquilino de la compilación para indicar un tipo de autenticación diferente, como la conectividad de mensajería instantánea pública, federada y anónima.
+> En una instalación local, el CDR usa el identificador de inquilino integrado para indicar distintos tipos de autenticación, como la de conectividad de mensajería instantánea pública, federada y anónima.
 
 
 
@@ -69,18 +69,18 @@ La tabla de inquilinos es una tabla de soporte que almacena una lista de los dis
 <tr class="odd">
 <td><p><strong>TenantId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>Número único que identifica este ID de inquilino.</p></td>
+<td><p>Principal</p></td>
+<td><p>Número único que identifica este identificador de inquilino.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>TenantKey</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>Valores permitidos:</p>
 <ul>
-<li><p>00000000-0000-0000-0000-000000000000-Enterprise</p></li>
-<li><p>00000000-0000-0000-0000-000000000001: federado</p></li>
-<li><p>00000000-0000-0000-0000-000000000002: anónimo</p></li>
+<li><p>00000000-0000-0000-0000-000000000000: de empresa</p></li>
+<li><p>00000000-0000-0000-0000-000000000001: federada</p></li>
+<li><p>00000000-0000-0000-0000-000000000002: anónima</p></li>
 <li><p>00000000-0000-0000-0000-000000000003: conectividad de mensajería instantánea pública</p></li>
 </ul></td>
 </tr>

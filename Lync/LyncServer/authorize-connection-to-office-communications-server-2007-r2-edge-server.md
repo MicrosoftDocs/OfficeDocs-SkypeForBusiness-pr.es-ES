@@ -1,5 +1,5 @@
 ---
-title: Autorizar la conexión a Office Communications Server 2007 R2 servidor perimetral
+title: Autorizar la conexión al servidor perimetral de Office Communications Server 2007 R2
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 48183493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8dbce32a12f05dff768d23a2bdccfe1b84a567cb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 64786c29027c99de2f3b5e01846a5283ec57a084
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724220"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003985"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Autorizar la conexión a Office Communications Server 2007 R2 servidor perimetral
+# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Autorizar la conexión al servidor perimetral de Office Communications Server 2007 R2
 
 </div>
 
@@ -38,29 +38,29 @@ ms.locfileid: "41724220"
 
 _**Última modificación del tema:** 2012-09-28_
 
-Para cada servidor front-end de Lync Server 2013 o servidor Standard Edition de su grupo piloto, debe actualizar la lista de servidores internos autorizados para conectarse al servidor perimetral de Office Communications Server 2007 R2. Sin estas actualizaciones, las conferencias de audio/visual (A/V) externas para usuarios que se unen mediante el servidor perimetral heredado no funcionarán.
+Para cada servidor front-end de Lync Server 2013 o servidor Standard Edition del grupo piloto, debe actualizar la lista de servidores internos que están autorizados a conectarse al servidor perimetral de Office Communications Server 2007 R2. Sin estas actualizaciones, no funcionará la conferencia de audio/vídeo (A/V) externa para los usuarios que se unen al servidor perimetral heredado.
 
 <div>
 
-## <a name="to-authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Para autorizar la conexión con el servidor perimetral de Office Communications Server 2007 R2
+## <a name="to-authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Para autorizar la conexión al servidor perimetral de Office Communications Server 2007 R2
 
 1.  Desde el servidor perimetral de Office Communications Server 2007 R2, en el grupo **herramientas administrativas** , abra el complemento **Administración de equipos** .
 
-2.  En el árbol de consola, expanda **servicios y aplicaciones**.
+2.  En el árbol de consola, expanda **Servicios y Aplicaciones**.
 
-3.  Haga clic con el botón secundario en **Office Communications Server 2007 R2**y, a continuación, haga clic en **propiedades**.
+3.  Haga clic con el botón secundario en **Office Communications Server 2007 R2** y, a continuación, haga clic en **Propiedades**.
 
-4.  Haga clic en la pestaña **interno** .
+4.  Haga clic en la pestaña **Interno**.
 
 5.  En **Agregar servidor**, haga clic en **Agregar**.
 
-6.  En el cuadro de diálogo **Agregar Office Communications Server** , escriba la información adecuada:
+6.  En el cuadro de diálogo **Agregar Office Communications Server**, escriba la información apropiada:
     
-      - Especifique el nombre de dominio completo (FQDN) de todos los servidores front-end de Lync Server 2013 o el servidor Standard Edition y el grupo de servidores de Lync Server 2013.
+      - Especifique el nombre de dominio completo (FQDN) de cada servidor front-end de Lync Server 2013 o servidor Standard Edition, y grupo de servidores de Lync Server 2013.
     
-      - Especifique el FQDN del Director de Lync Server 2013 si ha configurado una ruta estática en el grupo que especifica el equipo del próximo salto por su FQDN.
+      - Especifique el FQDN del Director de Lync Server 2013 si configuró una ruta estática en el grupo de servidores que especifica el equipo del próximo salto por su FQDN.
 
-7.  Una vez que haya agregado una entrada para cada servidor de Lync Server 2013, servidor front-end, servidor Standard Edition, grupo y director, haga clic en **aplicar** y, a continuación, haga clic en **Aceptar** para cerrar la página de propiedades.
+7.  Una vez que haya agregado una entrada para cada 2013, servidor front-end, servidor Standard Edition, grupo de servidores y director de Lync Server, haga clic en **aplicar** y, a continuación, haga clic en **Aceptar** para cerrar la página de propiedades.
 
 </div>
 

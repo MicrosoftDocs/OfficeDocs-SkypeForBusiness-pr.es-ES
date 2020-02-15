@@ -12,16 +12,16 @@ ms:contentKeyID: 49733779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e809db03cf098bea07f57673ddcbfc019e15f299
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8e176b03adf3d64b06e7bd9e2a0e72282a1f0f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762978"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034600"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,23 +37,23 @@ ms.locfileid: "41762978"
 
 _**Última modificación del tema:** 2012-10-16_
 
-Lync Server proporciona compatibilidad con dispositivos analógicos. Específicamente, los dispositivos analógicos compatibles son teléfonos de audio analógicos y equipos de fax analógico. Puede configurar las puertas de enlace calificadas para que admitan el uso de dispositivos analógicos en el entorno de Lync Server. Después de migrar de Lync Server 2010 a Lync Server 2013, también debe migrar los objetos de contacto asociados con los dispositivos analógicos. Use el shell de administración de Lync Server para recuperar primero todos los objetos de contacto asociados con los dispositivos analógicos de Lync Server 2010 y, a continuación, mueva esos objetos al grupo de servidores de Lync Server 2013.
+Lync Server proporciona soporte para dispositivos analógicos. En concreto, los dispositivos analógicos compatibles son los teléfonos de audio analógicos y los equipos de fax analógicos. Puede configurar las puertas de enlace calificadas para que admitan el uso de dispositivos analógicos en su entorno de Lync Server. Después de migrar de Lync Server 2010 a Lync Server 2013, también debe migrar los objetos de contacto asociados con los dispositivos analógicos. Use el shell de administración de Lync Server para recuperar primero todos los objetos de contacto asociados con los dispositivos analógicos de Lync Server 2010 y, a continuación, mover dichos objetos al grupo de servidores de Lync Server 2013.
 
 <div>
 
 ## <a name="to-migrate-analog-devices"></a>Para migrar dispositivos analógicos
 
-1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-2.  En la línea de comandos, escriba:
+2.  En la línea de comandos, escriba lo siguiente:
     
         Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsAnalogDevice -Target pool02.contoso.net
 
-3.  Compruebe que todos los objetos de contacto se han movido al grupo de 2013 de Lync Server. En la línea de comandos, escriba:
+3.  Compruebe que todos los objetos de contacto se han movido al grupo de servidores de Lync 2013. En la línea de comandos, escriba lo siguiente:
     
         Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool02.contoso.net"}
 
-4.  Compruebe que todos los objetos de contacto están asociados con el grupo de servidores de Lync Server 2013.
+4.  Compruebe que todos los objetos de contacto están ahora asociados con el grupo de servidores de Lync Server 2013.
 
 </div>
 

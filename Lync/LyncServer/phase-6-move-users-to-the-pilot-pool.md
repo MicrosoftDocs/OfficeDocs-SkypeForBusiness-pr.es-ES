@@ -1,5 +1,5 @@
 ---
-title: 'Fase 6: mover usuarios a la agrupación piloto'
+title: 'Fase 6: mover usuarios al grupo piloto'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184388
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 353f36d2ecb12823535e06fd137d7e9eaae06ae9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b70806985b6553049a2b632e633bbbac2f13fa69
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743620"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034180"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-6-move-users-to-the-pilot-pool"></a>Fase 6: mover usuarios a la agrupación piloto
+# <a name="phase-6-move-users-to-the-pilot-pool"></a>Fase 6: mover usuarios al grupo piloto
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41743620"
 
 _**Última modificación del tema:** 2012-10-16_
 
-Puede mover un solo usuario o grupos de usuarios a la nueva implementación de Lync Server 2013 con los dos métodos siguientes: panel de control de Lync Server y Shell de administración de Lync Server. En los temas de esta sección se describen tareas que debe completar durante la implementación piloto, así como antes de mover la implementación de Lync Server 2013 de una implementación piloto a una implementación de nivel de producción.
+Puede mover un solo usuario o grupos de usuarios a la nueva implementación de Lync Server 2013 mediante los dos métodos siguientes: panel de control de Lync Server y Shell de administración de Lync Server. En los temas de esta sección se describen las tareas que debe completar durante la implementación piloto, así como antes de mover la implementación de Lync Server 2013 desde una implementación piloto a una implementación de nivel de producción.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [La comprobación de la replicación de usuarios ha finalizado](verify-user-replication-has-completed_1.md)
+  - [Comprobar que la replicación de usuarios se ha completado](verify-user-replication-has-completed_1.md)
 
-  - [Mover un solo usuario a la agrupación piloto](move-a-single-user-to-the-pilot-pool_1.md)
+  - [Mover un solo usuario al grupo piloto](move-a-single-user-to-the-pilot-pool_1.md)
 
-  - [Mover varios usuarios a la agrupación piloto](move-multiple-users-to-the-pilot-pool_1.md)
+  - [Mover varios usuarios al grupo piloto](move-multiple-users-to-the-pilot-pool_1.md)
 
 </div>
 

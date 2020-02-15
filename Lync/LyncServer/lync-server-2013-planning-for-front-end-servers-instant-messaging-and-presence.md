@@ -1,5 +1,5 @@
 ---
-title: Planificar los servidores front-end, la mensajería instantánea y la presencia
+title: Planeación de los servidores front-end, la mensajería instantánea y la presencia
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184799
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a481953037ec818378c931a28ce8892c1a486d72
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3d0ec31823f4fe7fc5872f9d4266306186703aa2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41752240"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036750"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Planificar los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013
+# <a name="planning-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Planeación de los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41752240"
 
 _**Última modificación del tema:** 2012-09-13_
 
-Los servidores front-end proporcionan una gran parte de la funcionalidad de Lync Server y se incluyen en todas las implementaciones de Lync Server. La mensajería instantánea (mi) y la presencia son capacidades básicas de Lync Server y se implementan y habilitan automáticamente en todas las instalaciones de Lync Server. En las siguientes secciones se proporcionan más detalles sobre los servidores front-end, la mensajería instantánea y la presencia.
+Los servidores front-end proporcionan gran parte de la funcionalidad de Lync Server y se incluyen en todas las implementaciones de Lync Server. La mensajería instantánea (mi) y la presencia son funciones principales de Lync Server y se implementan y habilitan automáticamente en cada instalación de Lync Server. Las siguientes secciones ofrecen más detalles acerca de los servidores front-end, la MI y la presencia.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Características y funcionalidades de los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013](lync-server-2013-features-and-functionality-of-front-end-servers-instant-messaging-and-presence.md)
+  - [Características y funciones de los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013](lync-server-2013-features-and-functionality-of-front-end-servers-instant-messaging-and-presence.md)
 
-  - [Definir los requisitos de los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013](lync-server-2013-defining-your-requirements-for-front-end-servers-instant-messaging-and-presence.md)
+  - [Definición de los requisitos para los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013](lync-server-2013-defining-your-requirements-for-front-end-servers-instant-messaging-and-presence.md)
 
   - [Topologías y componentes para los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)
 

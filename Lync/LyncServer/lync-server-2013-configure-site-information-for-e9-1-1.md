@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configurar información del sitio para E9-1-1'
+title: 'Lync Server 2013: configurar la información del sitio para E9-1-1'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183824
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 157054343b299e7be1be75d3ee615c27cf74fb83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f39760dde02ab573111642d5ec888a321184b41
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730010"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035222"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41730010"
 
 _**Última modificación del tema:** 2012-10-03_
 
-Para definir una directiva de ubicación para subredes, debe hacer lo siguiente en cualquier orden:
+Para definir una directiva de ubicación para subredes, lleve a cabo lo siguiente en cualquier orden:
 
-  - Aplicar una directiva de ubicación al sitio de red.
+  - Aplique una directiva de ubicación al sitio de red.
 
-  - Agregue las subredes al sitio de red.
+  - Agregue subredes al sitio de red.
 
-Para obtener más información sobre los sitios de red, vea [sitios de Lync Server para Lync server 2013](lync-server-2013-sites.md).
+Para obtener más información sobre los sitios de red, consulte [sitios de Lync Server para Lync server 2013](lync-server-2013-sites.md).
 
 <div>
 
 
 > [!NOTE]  
-> Si crea sitios de red para otra característica de voz y desea configurar E9-1-1 usando los mismos sitios, puede modificar los sitios que se usarán para E9-1-1.
+> Si crea sitios de red para otra característica de voz y desea configurar E9-1-1 con los mismos sitios, puede modificar los sitios que se van a usar para E9-1-1.
 
 
 

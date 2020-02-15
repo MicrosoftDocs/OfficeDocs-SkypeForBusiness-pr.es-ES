@@ -12,20 +12,20 @@ ms:contentKeyID: 48242739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f44de6e3b7756935829b008c585474e08f6f9969
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 376c5788d535cd893b2261dcddcb1fe05d676005
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744720"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007669"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>Actualización de la lista de habilitación de Outlook en Lync Server 2013
+# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>Actualizar la lista de habilitación de Outlook en Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41744720"
 
 _**Última modificación del tema:** 2013-01-07_
 
-Puede asegurarse de que el complemento de reuniones en línea para Microsoft Lync 2013 permanezca siempre habilitado para los usuarios mediante la creación de una directiva que lo incluya en la lista de administración de complementos para Outlook. La Directiva de lista de administración de complementos se incluye en los archivos de plantillas administrativas de Office para la consola de administración de directivas de grupo. Crea una clave del registro en HKCU\\software\\\\Policies\\Microsoft\\Office\\15,0\\Outlook15 Resiliency\\AddinList. Puede Agregar un valor para ucaddin. dll a esta clave y configurar el valor de ucaddin. dll para que esté siempre habilitado y para que los usuarios no puedan deshabilitarlo manualmente
+Puede asegurarse de que el complemento de conferencia en línea para Microsoft Lync 2013 siempre sigue habilitado para los usuarios mediante la creación de una directiva que lo incluya en la lista de administración de complementos de Outlook. Esta directiva forma parte de los archivos de plantilla administrativa de Office de la Consola de administración de directivas de grupo. Crea una clave del registro en HKCU\\software\\\\Policies\\Microsoft\\Office\\15,0\\Outlook15 Resiliency\\AddinList. Puede Agregar un valor para ucaddin. dll a esta clave y configurar el valor de ucaddin. dll para que esté siempre habilitado y para que los usuarios no puedan deshabilitarlo manualmente
 
 <div>
 
 ## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>Para agregar ucaddin. dll a la lista de complementos de Outlook
 
-  - Para la clave del registro AddinList, que se\\encuentra\\en\\la\\sección\\directivas\\de\\software HKCU\\Microsoft Office 15,0 Outlook15 Resiliency AddinList, agregue el siguiente valor:
+  - En la clave del registro AddinList, que se\\encuentra\\en\\la\\página\\directivas\\de\\software HKCU\\Microsoft Office 15,0 Outlook15 Resiliency AddinList, agregue el siguiente valor:
     
       - Tipo de registro =\_reg SZ
     
-      - Name = ucaddin. dll
+      - Nombre = ucaddin.dll
     
-      - Valor = 1 (especifica que el complemento está siempre habilitado y que el usuario final no puede administrarlo)
+      - Valor = 1 (significa que el complemento siempre está habilitado y que el usuario final no puede administrarlo)
 
 </div>
 

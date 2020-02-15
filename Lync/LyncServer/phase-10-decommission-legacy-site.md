@@ -12,16 +12,16 @@ ms:contentKeyID: 48185540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8110d41e5f6436bfdbecc64fe07d514b5d0538ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e46c2977289ae8fec1db26e4eb33dfd6736f838
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757714"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034380"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41757714"
 
 _**Última modificación del tema:** 2012-10-16_
 
-En los siguientes temas se proporcionan instrucciones para retirar grupos y desactivarlos y quitarlos de una implementación heredada de Office Communications Server 2007 R2. No todos los procedimientos enumerados en esta sección son obligatorios. Lea la información de cada uno de estos temas para determinar qué procedimiento de retiro se debe usar.
+En los siguientes temas se proporcionan instrucciones para retirar grupos de servidores y desactivar y quitar servidores y grupos de servidores de una implementación heredada de Office Communications Server 2007 R2. No todos los procedimientos de esta sección son obligatorios. Lea la información en cada uno de estos temas para averiguar qué procedimiento de retirada debe usar.
 
 <div>
 
 
 > [!WARNING]  
-> Si ha importado directorios de conferencia para conferencias de acceso telefónico local a Lync Server 2013, es importante que pase la propiedad del directorio de conferencias a Lync Server 2013 antes de empezar a dar de baja sus grupos. Si vuelve a dar de baja un grupo de servidores sin cambiar la propiedad del directorio de conferencia, la característica de acceso telefónico para todas las reuniones migradas dejará de funcionar. Debe realizar el paso de transición de la propiedad una vez para cada directorio de conferencia de su grupo heredado.
+> Si ha importado directorios de conferencia para las conferencias de acceso telefónico local a Lync Server 2013, es importante que cambie la propiedad del directorio de conferencia a Lync Server 2013 antes de empezar a retirar los grupos. Si retira un grupo sin haber trasladado la propiedad de los directorios de conferencia, no funcionará más la característica de acceso telefónico para todas las reuniones migradas. Debe realizar el traslado de la propiedad una vez para cada directorio de conferencia del grupo heredado.
 
 
 
@@ -53,7 +53,7 @@ En los siguientes temas se proporcionan instrucciones para retirar grupos y desa
 
 
 > [!IMPORTANT]  
-> Para obtener información sobre cómo migrar y actualizar aplicaciones de la API administrada de Microsoft Unified Communications (UCMA), antes de dar de baja a su entorno heredado, consulte<A href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</A>
+> Para obtener información sobre la migración y actualización de aplicaciones de la API administrada de comunicaciones unificadas de Microsoft (UCMA) antes de retirar el entorno heredado, consulte<A href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 
@@ -65,9 +65,9 @@ En los siguientes temas se proporcionan instrucciones para retirar grupos y desa
 
   - [Mover directorios de conferencia](move-conference-directories.md)
 
-  - [Actualizar registros SRV de DNS](update-dns-srv-records_1.md)
+  - [Actualizar registros DNS SRV](update-dns-srv-records_1.md)
 
-  - [Retirar servidores y grupos](decommissioning-servers-and-pools.md)
+  - [Retirar servidores y grupos de servidores](decommissioning-servers-and-pools.md)
 
   - [Quitar BackCompatSite](remove-backcompatsite.md)
 

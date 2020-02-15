@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Probar el enrutamiento de voz'
+title: 'Lync Server 2013: probar el enrutamiento de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b27fc4f3dfc42e9187ea0aee801b3c2115d83ff0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b45f52a07713973d8f642389513d0e34b5236de
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746040"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42018041"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41746040"
 
 _**Última modificación del tema:** 2013-02-24_
 
-Puede usar la pestaña enrutamiento de voz de **prueba** del panel de control de Lync Server para configurar escenarios de casos de prueba. Para definir un caso de prueba, especifique el plan de marcado, la Directiva de voz, el uso de RTC y la ruta de voz para comprobar el número de teléfono especificado.
+Puede usar la ficha probar el enrutamiento de **voz** del panel de control de Lync Server para configurar escenarios de casos de prueba. Para definir un caso de prueba, se especifica el plan de marcado, la directiva de voz, el uso de la RTC y la ruta de voz que se van a usar para probar un número de teléfono específico.
 
-Antes de implementar realmente la configuración del enrutamiento de voz, le recomendamos que la pruebe en varios números de teléfono para asegurarse de que los resultados son lo que espera.
+Antes de implementar realmente la configuración de enrutamiento de voz, le recomendamos que la pruebe con varios números de teléfono para asegurarse de que los resultados son lo que esperaba.
 
 <div>
 
 
 > [!TIP]  
-> Puede usar los comandos <STRONG>exportar casos de prueba</STRONG> e <STRONG>importar casos de prueba</STRONG> para guardar los casos de prueba de enrutamiento de voz e importarlos para usarlos en otro equipo.
+> Puede usar los comandos <STRONG>Exportar casos de prueba</STRONG> e <STRONG>Importar casos de prueba</STRONG> para guardar los casos de prueba de enrutamiento de voz e importarlos para su uso en otro equipo.
 
 
 
@@ -55,7 +55,7 @@ Antes de implementar realmente la configuración del enrutamiento de voz, le rec
 
 
 > [!WARNING]  
-> Si elimina cualquier parte de la configuración de enrutamiento de voz, como un plan de marcado, una directiva de voz, una ruta de voz o el uso del teléfono, debe revisar y actualizar los casos de prueba de enrutamiento de voz. El panel de control de Lync Server no le avisará de los casos de prueba que ya no son válidos debido a configuraciones modificadas.
+> Si ha eliminado cualquier parte de la configuración del enrutamiento de voz, como un plan de marcado, directiva de voz, ruta de voz o uso de un teléfono, debe comprobar y actualizar los casos de prueba del enrutamiento de voz. El panel de control de Lync Server no le avisará de los casos de prueba que ya no son válidos debido a configuraciones modificadas.
 
 
 

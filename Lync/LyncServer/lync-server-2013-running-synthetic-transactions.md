@@ -12,16 +12,16 @@ ms:contentKeyID: 63969593
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b77593ea062f83352592ebe32dbb81b99c1a9613
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 448e96c03b554970b1ee92166908965ee2a6629c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732800"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987245"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41732800"
 
 _**Última modificación del tema:** 2014-08-18_
 
-Las transacciones sintéticas se suelen realizar de dos maneras. Puede usar los cmdlets de CsHealthMonitoringConfiguration para configurar los usuarios de prueba para cada uno de sus grupos de registradores. Estos usuarios de prueba son un par de usuarios que estaban preconfigurados para su uso con transacciones sintéticas. (Normalmente, son cuentas de prueba y no cuentas que pertenecen a usuarios reales). Con los usuarios de prueba configurados para un grupo, puede ejecutar una transacción sintética en ese grupo sin necesidad de especificar las identidades de las cuentas de usuario implicadas en la prueba (y proporcionar las credenciales de las mismas).
+Las transacciones sintéticas se suelen llevar a cabo de dos maneras. Puede usar los cmdlets CsHealthMonitoringConfiguration para configurar los usuarios de prueba para cada uno de sus grupos de registradores. Estos usuarios de prueba son un par de usuarios que estaban preconfigurados para su uso con transacciones sintéticas. (Normalmente, son cuentas de prueba y no cuentas que pertenecen a usuarios reales). Con los usuarios de prueba configurados para un grupo de servidores, puede ejecutar una transacción sintética en ese grupo sin tener que especificar las identidades de (y proporcionar las credenciales para) las cuentas de usuario implicadas en la prueba.
 
-O bien, puede ejecutar una transacción sintética con cuentas de usuario reales. Por ejemplo, si dos usuarios no pueden intercambiar mensajes instantáneos, podría ejecutar una transacción sintética con esas dos cuentas de usuario (en lugar de un par de cuentas de prueba) y, a continuación, intentar diagnosticar y resolver el problema. Si decide realizar una transacción sintética con cuentas de usuario reales, debe proporcionar los nombres de inicio de sesión y las contraseñas de cada usuario.
+O bien, puede ejecutar una transacción sintética con cuentas de usuario reales. Por ejemplo, si dos usuarios no pueden intercambiar mensajes instantáneos, podría ejecutar una transacción sintética con estas dos cuentas de usuario (en lugar de un par de cuentas de prueba) y, a continuación, intentar diagnosticar y resolver el problema. Si decide realizar una transacción sintética con cuentas de usuario reales, debe proporcionar los nombres de inicio de sesión y las contraseñas para cada usuario.
 
 <div>
 
 ## <a name="see-also"></a>Vea también
 
 
-[Configuración de los usuarios de prueba y la configuración de los nodos de monitor en Lync Server 2013](lync-server-2013-configuring-watcher-node-test-users-and-configuration-settings.md)  
-[Instrucciones especiales de configuración para transacciones sintéticas en Lync Server 2013](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md)  
+[Configuración de usuarios y opciones de configuración de prueba de nodos de monitor en Lync Server 2013](lync-server-2013-configuring-watcher-node-test-users-and-configuration-settings.md)  
+[Instrucciones de configuración especiales para transacciones sintéticas en Lync Server 2013](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md)  
   
 
 </div>

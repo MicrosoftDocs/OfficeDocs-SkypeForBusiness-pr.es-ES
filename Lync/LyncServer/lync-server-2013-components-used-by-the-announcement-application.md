@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Componentes que usa la aplicación Anuncio'
+title: 'Lync Server 2013: componentes que usa la aplicación de anuncio'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184595
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52ef0b1da665f8797f29582e9ce9e1d311287d61
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a888ca21e26a21103d1c45e74518c3d224d18a7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757054"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007910"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-the-announcement-application-in-lync-server-2013"></a>Componentes que usa la aplicación Anuncio en Lync Server 2013
+# <a name="components-used-by-the-announcement-application-in-lync-server-2013"></a>Componentes usados por la aplicación de anuncio en Lync Server 2013
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41757054"
 
 _**Última modificación del tema:** 2012-09-13_
 
-En Lync Server 2013, la aplicación de anuncios es un componente de la aplicación de grupo de respuesta. Al implementar Enterprise Voice, la aplicación de anuncio se instala y se activa automáticamente junto con la aplicación de grupo de respuesta. En esta sección se describen los componentes que admiten la aplicación de anuncios.
+En Lync Server 2013, la aplicación de anuncio es un componente de la aplicación de grupo de respuesta. Al implementar la telefonía IP empresarial, la aplicación del anuncio se instala y se activa automáticamente junto con la aplicación grupo de respuesta. En esta sección se describen los componentes que admiten la aplicación de anuncio.
 
 <div>
 
-## <a name="announcement-application-components"></a>Componentes de la aplicación de anuncios
+## <a name="announcement-application-components"></a>Componentes de la aplicación de anuncio
 
-Los siguientes componentes de Lync Server son compatibles con la aplicación de anuncios:
+Los siguientes componentes de Lync Server admiten la aplicación de anuncio:
 
-  - ****   El servicio de aplicación de servicio de aplicación proporciona una plataforma para implementar, hospedar y administrar aplicaciones de comunicaciones unificadas. El servicio de aplicaciones se instala automáticamente en todos los servidores front-end de un grupo de servidores front-end y en todos los servidores Standard Edition.
+  - ****   El servicio de aplicación de servicio de aplicación proporciona una plataforma para implementar, hospedar y administrar aplicaciones de comunicaciones unificadas. El servicio de aplicación se instala automáticamente en todos los servidores front-end de un grupo de servidores front-end y en cada servidor Standard Edition.
 
-  - **Aplicación de grupo de respuesta**   la aplicación de grupo de respuesta es una de las aplicaciones de comunicaciones unificadas que se hospedan en el servicio de aplicación. Cuando se configura un intervalo de números de teléfono sin asignar para que se dirija a un anuncio, se necesita la aplicación de grupo de respuesta para enrutar las llamadas hechas al número de teléfono. (La aplicación de grupo de respuesta no es necesaria si todos los intervalos están configurados para enrutar a mensajería unificada de Exchange (UM)).
+  - **Aplicación de grupo de respuesta**   la aplicación de grupo de respuesta es una de las aplicaciones de comunicaciones unificadas que se hospedan en el servicio de aplicación. Cuando se configura un intervalo de números de teléfono sin asignar para redirigir a un anuncio, se requiere la aplicación de grupo de respuesta para enrutar las llamadas realizadas al número de teléfono. (La aplicación grupo de respuesta no es necesaria si todos los intervalos están configurados para enrutar a la mensajería unificada de Exchange).
 
-  - **Archivos de audio**   se usan archivos de audio para los anuncios.
+  - **Archivos de audio**   los archivos de audio se usan para los anuncios.
 
-  - **Almacén de archivos**   la aplicación de anuncios usa el almacén de archivos para almacenar sus archivos de audio.
+  - **Almacén de archivos**   la aplicación de anuncio usa el almacén de archivos para almacenar sus archivos de audio.
 
   - **Panel de control de Lync Server**   puede usar el panel de control de Lync Server para configurar la tabla de números sin asignar.
 
-  - **Shell de administración de Lync Server**   puede usar los cmdlets del shell de administración de Lync Server para establecer la configuración de la presentación y la tabla de números sin asignar.
+  - **Shell de administración de Lync Server**   puede usar cmdlets del shell de administración de Lync Server para configurar las opciones de anuncio y la tabla de números sin asignar.
 
 </div>
 

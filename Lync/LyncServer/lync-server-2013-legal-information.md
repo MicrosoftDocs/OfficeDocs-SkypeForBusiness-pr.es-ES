@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Información legal'
+title: Lync Server 2013 información legal
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9486431d320a5ba081afd85daa3b5e295028a12
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 84def7e711a18762f4473bbda5946a14eff3b1e8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758004"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034932"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="legal-information-for-lync-server-2013"></a>Información legal de Lync Server 2013
+# <a name="legal-information-for-lync-server-2013"></a>Información legal para Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41758004"
 
 _**Última modificación del tema:** 2011-02-22_
 
-Este documento se proporciona "tal cual". La información y las opiniones expresadas en este documento, incluyendo referencias a direcciones URL y a otros sitios web de Internet, pueden cambiar sin aviso previo.
+Este documento se proporciona “tal cual”. Es posible que la información y los puntos de vista reflejados en este documento, incluidas la dirección URL y otras referencias a sitios web de Internet, cambien sin previo aviso.
 
-Algunos ejemplos mostrados en el presente documento se proporcionan a nivel ilustrativo y son ficticios. No existe intención alguna de realizar ninguna asociación o conexión con casos reales, ni debe deducirse tal intención.
+Algunos ejemplos descritos aquí se proporcionan solo para servir de ilustración y son ficticios. No se pretende realizar asociaciones ni conexiones con la realidad ni se deben inferir de ningún modo.
 
-Este documento no le aporta ningún derecho legal a ninguna propiedad intelectual de ningún producto de Microsoft. Puede copiar y utilizar este documento con finalidades de referencia interna, propia.
+Este documento no proporciona ningún derecho legal sobre la propiedad intelectual e industrial de ningún producto de Microsoft. Este documento puede copiarse y usarse para fines internos y de referencia.
 
-Copyright © 2013 Microsoft Corporation. Todos los derechos reservados.
+Copyright © 2013 Microsoft Corporation. Reservados todos los derechos.
 
 </div>
 

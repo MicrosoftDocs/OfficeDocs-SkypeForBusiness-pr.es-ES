@@ -12,16 +12,16 @@ ms:contentKeyID: 49733664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e49aa2fdef3731a34de05e04b8195cb8aa32cd7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 79183039cedc058d479d52fa80ce09a70ffd73b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730850"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036308"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41730850"
 
 _**Última modificación del tema:** 2012-09-26_
 
-Use la herramienta **OCSUmUtil** o el cmdlet **Get-CsExumContact** para comprobar que los objetos de contacto de MU de Exchange se han quitado del grupo heredado de Office Communications Server 2007 R2. **OCSUmUtil** se encuentra en la siguiente carpeta:
+Use la herramienta **OCSUmUtil** o el cmdlet **Get-CsExumContact** para comprobar que los objetos de contacto de mensajería unificada de Exchange se han quitado del grupo de Office Communications Server 2007 R2 heredado. **OCSUmUtil** se encuentra en la siguiente carpeta:
 
-% Archivos de programa\\% archivos\\comunes de Lync\\Server\\2013 support OcsUMUtil. exe
+% Program Files\\% archivos\\comunes Lync Server\\2013\\support OcsUMUtil. exe
 
 **OCSUmUtil** debe ejecutarse desde una cuenta de usuario que tenga:
 
-  - Pertenencia al grupo RTCUniversalServerAdmins y RTCUniversalUserAdmins (que incluye derechos para leer la configuración de mensajería unificada de Exchange Server)
+  - Pertenencia a los grupos RTCUniversalServerAdmins y RTCUniversalUserAdmins (que incluyen derechos para leer la configuración de mensajería unificada de Exchange Server)
 
-  - Derechos de dominio para crear objetos de contacto en el contenedor de unidades organizativas (OU) especificadas
+  - Derechos de dominio para crear objetos de contacto en el contenedor especificado de la unidad organizativa.
 
-Para obtener detalles sobre el uso del cmdlet **Get-CsExumContact** , vea [Get-CsExumContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) en la documentación del shell de administración de Lync Server.
+Para obtener información detallada sobre cómo usar el cmdlet **Get-CsExumContact** , vea [Get-CsExumContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) en la documentación del shell de administración de Lync Server.
 
 </div>
 

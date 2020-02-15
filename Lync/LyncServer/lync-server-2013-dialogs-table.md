@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla Dialogs'
+title: 'Lync Server 2013: tabla Dialogs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184001
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 326ecac8df81eeba11ed29ff9f1968b681cdb98f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: be0bb5a603f856aa0faa02074962618fcb82448e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762258"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036730"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dialogs-table-in-lync-server-2013"></a>Tabla Dialogs en Lync Server 2013
+# <a name="dialogs-table-in-lync-server-2013"></a>Tabla de cuadros de diálogo en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41762258"
 
 _**Última modificación del tema:** 2012-09-28_
 
-La tabla de cuadros de diálogo es una tabla de soporte que almacena la información sobre DialogIDs para las sesiones de punto a punto.
+La tabla Dialogs es una tabla de apoyo que almacena la información sobre DialogIDs para las sesiones punto a punto.
 
 
 <table>
@@ -59,28 +59,28 @@ La tabla de cuadros de diálogo es una tabla de soporte que almacena la informac
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primary</p></td>
-<td><p>Hora de la solicitud de sesión; se usa en conjunción con SessionIDSeq para identificar de forma única una sesión.</p></td>
+<td><p>Principal</p></td>
+<td><p>Hora de la solicitud de sesión; se usa junto con SessionIDSeq para identificar de forma única una sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>Número de identificación para identificar la sesión. Se usa en conjunción con SessionIDTime para identificar de forma única una sesión.</p></td>
+<td><p>Principal</p></td>
+<td><p>Número de identificador para identificar la sesión. Se usa junto con SessionIDTime para identificar de forma única una sesión.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ExternalChecksum</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Suma de comprobación de la ExternalID. Este campo se usa para aumentar la velocidad de las búsquedas en la base de datos.</p></td>
+<td><p>Suma de comprobación de ExternalID. Este campo se usa para aumentar la velocidad de las búsquedas en bases de datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ExternalId</strong></p></td>
 <td><p>varbinary (775)</p></td>
 <td><p> </p></td>
 <td><p>IDENTIFICADOR del cuadro de diálogo SIP, almacenado como binario. El formato del binario es:</p>
-<p>cuadro de diálogo; desde: etiqueta; to-Tag</p>
-<p>Estos datos se pueden convertir a formato de texto con esta sintaxis:</p>
+<p>Dialog; from-Tag; to-Tag</p>
+<p>Estos datos pueden convertirse en formato de texto con esta sintaxis:</p>
 <p><code>cast(cast(ExternalId as varbinary(max)) as varchar(max))</code></p></td>
 </tr>
 </tbody>

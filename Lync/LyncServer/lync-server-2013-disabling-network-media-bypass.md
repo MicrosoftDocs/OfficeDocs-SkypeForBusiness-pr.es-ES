@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: deshabilitar la omisión de medios de red'
+title: 'Lync Server 2013: deshabilitar el desvío de medios de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0457281a743d317e17a5fd0728e1a747b4d88271
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 58bf551f94bc6b3ba919437730841f54dd01e291
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757614"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034842"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="disabling-network-media-bypass-in-lync-server-2013"></a>Deshabilitar la omisión de medios de red en Lync Server 2013
+# <a name="disabling-network-media-bypass-in-lync-server-2013"></a>Deshabilitar el desvío de medios de red en Lync Server 2013
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41757614"
 
 _**Última modificación del tema:** 2012-10-15_
 
-La configuración de omisión de medios se aplica globalmente en una implementación de Microsoft Lync Server 2013. La omisión de medios permite que las llamadas omitan el servidor de mediación. Para obtener información sobre Cuándo usar la omisión de medios, consulte [planificación de la omisión de medios en Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) en la sección planificación. Puede deshabilitar la omisión de medios en el panel de control de Lync Server. Para obtener más información sobre cómo habilitar y configurar el bypass medial, consulte [Habilitar el omisión de medios de red en Lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)
+La configuración del desvío de medios se aplica globalmente en una implementación de Microsoft Lync Server 2013. Con el desvío de medios, las llamadas pueden omitir el servidor de mediación. Para obtener información detallada sobre Cuándo usar la omisión de medios, consulte [planeación de la omisión de medios en Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) en la sección planeación. Puede deshabilitar la omisión de medios en el panel de control de Lync Server. Para obtener más información sobre cómo habilitar y configurar la omisión de datos, consulte [Habilitar el desvío de medios de red en Lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)
 
 <div>
 
-## <a name="to-disable-media-bypass"></a>Para deshabilitar la omisión de medios
+## <a name="to-disable-media-bypass"></a>Para deshabilitar el desvío de medios
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **configuración de red** y, después, en **global**.
+3.  En la barra de navegación izquierda, haga clic en **Configuración de red** y, a continuación, en **Global**.
 
-4.  En la página **global** , haga clic en la configuración **global** . Siempre hay una sola configuración y siempre se denomina global.
+4.  En la página **Global**, haga clic en la configuración **Global**. En todos los casos hay solo una configuración y siempre se llama Global.
 
-5.  En el menú **Editar** , haga clic en **Ver detalles**.
+5.  En el menú **Editar**, haga clic en **Ver detalles**.
 
-6.  En la página **Editar configuración global** , desactive la casilla **Habilitar omisión de medios** .
+6.  En la página  **Editar configuración global **, desactive la casilla  **Habilitar desvío de medios **.
 
-7.  Haga clic en **confirmar** para guardar los cambios.
+7.  Haga clic en  **Confirmar ** para guardar los cambios.
 
 </div>
 
@@ -64,7 +64,7 @@ La configuración de omisión de medios se aplica globalmente en una implementac
 ## <a name="see-also"></a>Vea también
 
 
-[Habilitar el omisión de medios de red en Lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)  
+[Habilitación del desvío de medios de red en Lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)  
   
 
 </div>

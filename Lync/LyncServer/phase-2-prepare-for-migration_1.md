@@ -1,5 +1,5 @@
 ---
-title: 'Fase 2: Preparación de la migración'
+title: 'Fase 2: preparar la migración'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9303c1a1b394216dfaed4adf826edf665fbd0c2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dc1007da4b793c837c937d572366ea64230050e8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757694"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034320"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-2-prepare-for-migration"></a>Fase 2: Preparación de la migración
+# <a name="phase-2-prepare-for-migration"></a>Fase 2: preparar la migración
 
 </div>
 
@@ -43,15 +43,15 @@ Antes de empezar a migrar a Lync Server 2013 desde Office Communications Server 
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Aplicar las actualizaciones de Office Communications Server 2007 R2](apply-office-communications-server-2007-r2-updates.md)
+  - [Aplicar actualizaciones de Office Communications Server 2007 R2](apply-office-communications-server-2007-r2-updates.md)
 
-  - [Configurar registros DNS para una implementación de grupo de servidores piloto](configure-dns-records-for-pilot-pool-deployment_1.md)
+  - [Configurar registros DNS para la implementación del grupo piloto](configure-dns-records-for-pilot-pool-deployment_1.md)
 
-  - [Ejecutar el analizador de procedimientos recomendados](run-best-practices-analyzer_1.md)
+  - [Ejecución del Analizador de procedimientos recomendados](run-best-practices-analyzer_1.md)
 
   - [Copia de seguridad de los datos y sistemas](back-up-systems-and-data_1.md)
 
-  - [Configuración de los clientes para la migración](configure-clients-for-migration_1.md)
+  - [Configuración de clientes para la migración](configure-clients-for-migration_1.md)
 
   - [Comprobar el entorno de Office Communications Server 2007 R2](verify-office-communications-server-2007-r2-environment.md)
 

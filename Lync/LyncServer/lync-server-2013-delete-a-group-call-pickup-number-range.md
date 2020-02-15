@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: eliminar un intervalo de números de recogida de llamadas grupales'
+title: 'Lync Server 2013: eliminar un intervalo de números de atención de llamadas de grupo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66b95df76c812b50ff9c220ea208406a5ab7cf2a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 179bde8b8e23cc21fb95fa93e3c6cbeb7f381630
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741030"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006336"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-group-call-pickup-number-range-in-lync-server-2013"></a>Eliminar un intervalo de números de recogida de llamadas grupales en Lync Server 2013
+# <a name="delete-a-group-call-pickup-number-range-in-lync-server-2013"></a>Eliminar un intervalo de números de atención de llamadas grupales en Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41741030"
 
 _**Última modificación del tema:** 2013-01-30_
 
-Use el siguiente procedimiento para eliminar un intervalo de números de recogida de llamadas grupales.
+Use el siguiente procedimiento para eliminar un intervalo de números de atención de llamadas grupales.
 
 <div>
 
-## <a name="to-delete-a-call-pickup-group-number-range"></a>Para eliminar un intervalo de números de un grupo de recogida de llamadas
+## <a name="to-delete-a-call-pickup-group-number-range"></a>Para eliminar un intervalo de números del grupo de atención de llamadas
 
-1.  Inicie sesión en el equipo donde está instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [permisos de configuración de delegado en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Inicie sesión en el equipo donde esté instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
 3.  En la línea de comandos, escriba lo siguiente:
     
@@ -71,7 +71,7 @@ Use el siguiente procedimiento para eliminar un intervalo de números de recogid
 ## <a name="see-also"></a>Vea también
 
 
-[Crear o modificar un intervalo orbitar de llamadas en Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
+[Crear o modificar un intervalo de órbitas de estacionamiento de llamadas en Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
 
 
 [Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit)  

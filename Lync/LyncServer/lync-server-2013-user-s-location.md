@@ -12,16 +12,16 @@ ms:contentKeyID: 51803984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9754b75b941944a445da33750190b9347aeb9313
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bbb581f049e8d45d16ace385fc26908d3d8301b9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744440"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007659"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,26 +37,26 @@ ms.locfileid: "41744440"
 
 _**Última modificación del tema:** 2013-03-09_
 
-El enrutamiento basado en la ubicación aprovecha las mismas regiones, sitios y subredes de la red que se definen en Lync Server usado por E9-1-1, CAC y media bypass para aplicar restricciones de enrutamiento de llamadas para evitar el bypass de llamadas RTC. La ubicación de un usuario viene determinada por la subred IP de los puntos de conexión de Lync del usuario. Cada subred IP está asociada a un sitio de red, y los sitios de red se agrupan en regiones de red definidas por el administrador. El enrutamiento basado en ubicación se aplica en función del sitio de red del usuario.
+El enrutamiento basado en ubicación aprovecha las mismas regiones de red, sitios y subredes que se definen en Lync Server usado por E9-1-1, CAC y media bypass para aplicar restricciones de enrutamiento de llamadas para evitar el desvío de peajes RTC. La ubicación de un usuario se determina en función de la subred IP de los puntos de conexión de Lync del usuario. Cada subred IP está asociada a un sitio de red, que se agrega a las regiones de red definidas por el administrador. El enrutamiento basado en ubicación se aplica en función del sitio de red del usuario.
 
-Las reglas de enrutamiento basadas en ubicación se aplican por sitio de red, lo que significa que se aplicará a todos los puntos de conexión que estén habilitados para el enrutamiento basado en la ubicación que se encuentra dentro del mismo sitio de red. Los administradores pueden aplicar el enrutamiento basado en ubicación a los sitios de red que lo necesiten.
+Las reglas de enrutamiento basadas en ubicación se aplican por sitio de red, lo que significa que se aplicará un conjunto determinado de reglas a todos los extremos habilitados para el enrutamiento basado en ubicación que se encuentran en el mismo sitio de red. Los administradores pueden aplicar el enrutamiento basado en ubicación a los sitios de red que lo necesiten.
 
-Se pueden definir directivas de enrutamiento de voz en cada sitio de red, para que todos los usuarios ubicados en el sitio de red utilicen una puerta de enlace RTC concreta para llamar a números de teléfono de RTC. Dichas directivas de enrutamiento de voz tendrán prioridad sobre el enrutamiento definido por la Directiva de voz del usuario cuando el usuario se encuentre en un sitio de red habilitado para el enrutamiento basado en la ubicación y evitará el enrutamiento de llamadas a través de otras puertas de enlace RTC habilitadas para Enrutamiento basado en la ubicación. Cuando un usuario de Lync realiza una llamada RTC, la Directiva de voz del usuario determina si el usuario puede tener autorización para realizar la llamada. Si la Directiva de voz del usuario permite al usuario realizar la llamada, el enrutamiento basado en la ubicación determina qué puerta de enlace RTC debe salir de la llamada. El enrutamiento basado en la ubicación realiza esta determinación en función de la ubicación del usuario.
+Las directivas de enrutamiento de voz se pueden definir en cada sitio de red para definir una puerta de enlace RTC determinada que deben usar todos los usuarios ubicados en el sitio de red para llamar a números de teléfono RTC. Estas directivas de enrutamiento de voz tendrán prioridad sobre el enrutamiento definido por la Directiva de voz del usuario cuando el usuario se encuentre en un sitio de red habilitado para el enrutamiento basado en ubicación y impedirá el enrutamiento de llamadas a través de otras puertas de enlace RTC que estén habilitadas para Enrutamiento basado en ubicación. Cuando un usuario de Lync coloca una llamada RTC, la Directiva de voz del usuario determina si el usuario puede tener autorización para realizar la llamada. Si la Directiva de voz del usuario permite al usuario realizar la llamada, el enrutamiento basado en ubicación determina la puerta de enlace RTC de la que debe salir la llamada. El enrutamiento basado en ubicación realiza esta determinación en función de la ubicación del usuario.
 
-La ubicación de un usuario se puede clasificar de las siguientes maneras:
+Una ubicación de usuario se puede clasificar de las siguientes maneras:
 
-  - El usuario se encuentra en un sitio de red conocido habilitado para enrutamiento basado en la ubicación y su número de ha finalizado (marcado directo) finaliza en una puerta de enlace RTC situada en el mismo sitio de red (es decir, Office). El enrutamiento de las llamadas salientes se realizará a través de la directiva de enrutamiento de voz del sitio de red en el que está ubicado el usuario. Las llamadas de RTC entrantes que reciba el usuario se redirigirán a los extremos ubicados en el mismo sitio de red que la puerta de enlace RTC.
+  - El usuario se encuentra en un sitio de red conocido habilitado para el enrutamiento basado en ubicación y su número de DID (marcado interno directo) termina en una puerta de enlace RTC situada en el mismo sitio de red (por ejemplo, Office). El enrutamiento de las llamadas salientes será a través de la Directiva de enrutamiento de voz del sitio de red en el que se encuentra el usuario. Las llamadas RTC entrantes al usuario se enrutan a los extremos que se encuentran en el mismo sitio de red que la puerta de enlace RTC.
 
-  - El usuario está ubicado en un sitio de red conocido y diferente del sitio de red donde se encuentra la puerta de enlace RTC (es decir, el usuario viajó a otra oficina de la compañía). El enrutamiento de las llamadas salientes utilizará la directiva de enrutamiento de voz del sitio de red en el que está ubicado el usuario. Las llamadas de RTC entrantes que reciba el usuario no se redirigirán a los extremos ubicados en sitios diferentes del de la puerta de enlace RTC, para evitar que se omitan los números de pago de RTC.
+  - El usuario se encuentra en un sitio de red conocido que se encuentra en diferente del sitio de red donde se encuentra la puerta de enlace RTC. (es decir, el usuario ha viajado a otra oficina corporativa). El enrutamiento de las llamadas salientes estará usando la Directiva de enrutamiento de voz del sitio de red en el que se encuentra el usuario. Las llamadas RTC entrantes al usuario no se enrutarán a los extremos ubicados en sitios diferentes de la puerta de enlace RTC para evitar que se omitan los peajes RTC.
 
-  - Cuando un usuario se encuentra en un sitio de red desconocido para la implementación de Lync Server, el enrutamiento de las llamadas salientes se basará en la Directiva de voz asignada al usuario a las puertas de enlace RTC no enlazadas a las restricciones de enrutamiento basadas en la ubicación. Las llamadas de RTC entrantes no se redirigirán a los extremos ubicados en sitios de red desconocidos, para evitar que se omitan los números de pago de RTC.
+  - Cuando un usuario se encuentra en un sitio de red desconocido para la implementación de Lync Server, el enrutamiento de las llamadas salientes se basará en la Directiva de voz asignada al usuario a las puertas de enlace RTC no enlazadas con las restricciones de enrutamiento basadas en la ubicación. Las llamadas RTC entrantes no se enrutarán a los extremos ubicados en sitios de red desconocidos para evitar que se omitan los peajes RTC.
 
 <div>
 
 ## <a name="see-also"></a>Vea también
 
 
-[Instrucciones para el enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)  
+[Guía para el enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)  
   
 
 </div>

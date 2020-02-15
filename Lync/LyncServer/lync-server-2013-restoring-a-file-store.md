@@ -12,16 +12,16 @@ ms:contentKeyID: 51541491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c013159de83d258273e381dd54556bcceec056f7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 60c4a3e1563890d64394f3a99141523cb95add38
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723570"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006136"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,24 +37,24 @@ ms.locfileid: "41723570"
 
 _**Última modificación del tema:** 2013-02-18_
 
-Los almacenes de archivos para Standard Edition suelen estar ubicados en el servidor Standard Edition. Los almacenes de archivos para Enterprise Edition suelen estar situados en un clúster o servidor de archivos. En el procedimiento siguiente se describe cómo restaurar un almacén de archivos.
+Los almacenes de archivos para Standard Edition suelen estar ubicados en el servidor Standard Edition. Los almacenes de archivos para Enterprise Edition suelen estar ubicados en un clúster o un servidor de archivos. El siguiente procedimiento describe cómo restaurar un almacén de archivos.
 
 <div>
 
 ## <a name="to-restore-a-file-store"></a>Para restaurar un almacén de archivos
 
-1.  Si se produce un error en el almacén de archivos, copie el\\ almacén de archivos correspondiente de $backup a la ubicación del almacén de archivos en el servidor Standard Edition o el servidor de archivos y, a continuación, comparta la carpeta.
+1.  Si se produce un error en un almacén de archivos, copie el\\ almacén de archivos correspondiente de $backup a la ubicación del almacén de archivos en el servidor de archivos o Standard Edition y, a continuación, comparta la carpeta.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > La ruta de acceso y el nombre de archivo del almacén de archivos restaurado deberían ser exactamente iguales a los del almacén de archivos de la copia de seguridad, de modo que los componentes que los usen puedan tener acceso a ellos.
+    > La ruta de acceso y el nombre de archivo del almacén de archivos restaurados deben ser exactamente los mismos que los del almacén de archivos de copia de seguridad, para que los componentes que usan los archivos puedan tener acceso a ellos.
 
     
     </div>
 
-2.  Si es necesario, establezca las listas de control de acceso (ACL) para el almacén de archivos. En la línea de comandos, escriba:
+2.  Si es necesario, establezca las listas de control de acceso (ACL) para el almacén de archivos. En la línea de comandos, escriba lo siguiente:
     
         Enable-CsTopology
     
@@ -62,7 +62,7 @@ Los almacenes de archivos para Standard Edition suelen estar ubicados en el serv
     
 
     > [!NOTE]  
-    > Solo debe realizar este paso si todavía no ha ejecutado la topología Builder durante el proceso de restauración.
+    > Debe realizar este paso solo si, de lo contrario, no ejecutó el generador de topologías durante el proceso de restauración.
 
     
     </div>

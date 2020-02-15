@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Requisitos técnicos para conferencias'
+title: Lync Server 2013 requisitos técnicos para conferencias
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a275836b940cfe2c56b184d238bc12c432132e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bc548446120ae4088d90acb45c258f3f736063d0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746600"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006736"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,25 +37,25 @@ ms.locfileid: "41746600"
 
 _**Última modificación del tema:** 2014-06-25_
 
-Para Lync Server 2013, las conferencias de acceso telefónico local, las conferencias A/V, las conferencias de mensajería instantánea (mi) y las capacidades de conferencia web siempre se ejecutan en servidores front-end.
+Para Lync Server 2013, las capacidades de conferencia de acceso telefónico local, conferencia A/V, Conferencia de mensajería instantánea (mi) y conferencia web siempre se ejecutan en los servidores front-end.
 
-En esta sección se detallan los requisitos de hardware y software de estos servidores, junto con el collocation compatible.
+En esta sección se describen detalladamente los requisitos de hardware y software de estos servidores, junto con la combinación admitida.
 
-Las conferencias de acceso telefónico local son una característica que incluye una variedad de componentes. Algunos de los componentes son específicos de las conferencias de acceso telefónico local y otros son componentes de telefonía empresarial. En esta sección se describen los requisitos para los componentes específicos de las conferencias de acceso telefónico local. Para obtener más información sobre los requisitos de la puerta de enlace de red telefónica conmutada (RTC) y el servidor de mediación, consulte [componente servidor de mediación en Lync server 2013](lync-server-2013-mediation-server-component.md) , así como [componentes y topologías de servidor de mediación en Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) en la documentación de planificación.
+La conferencia de acceso telefónico local es una característica que incluye una variedad de componentes. Algunos componentes son específicos de las conferencias de acceso telefónico local y otros lo son de Enterprise Voice. En esta sección se describen los requisitos de los componentes específicos de las conferencias de acceso telefónico local. Para obtener más información sobre los requisitos del servidor de mediación y la puerta de enlace de la red telefónica conmutada (RTC), consulte [Mediation Server Component in Lync server 2013](lync-server-2013-mediation-server-component.md) , and [Components and Topologs for Mediation Server in Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) en la documentación de planeación.
 
 <div>
 
 ## <a name="hardware-requirements"></a>Requisitos de hardware
 
-Debido a que las conferencias web y A/V se colocan con el servidor front-end, los requisitos de hardware del servidor son los mismos que los servidores front-end. Para obtener más información sobre los requisitos de hardware, vea [plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md) en la documentación de soporte técnico. Los siguientes componentes necesarios para las conferencias de acceso telefónico local también tienen los mismos requisitos de hardware que los servidores front-end:
+Debido a que la conferencia web y la conferencia A/V se colocan con el servidor front-end, los requisitos de hardware del servidor son los mismos que para los servidores front-end. Para obtener más información sobre los requisitos de hardware, vea [plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md) en la documentación sobre compatibilidad. Los siguientes componentes necesarios para las conferencias de acceso telefónico local también tienen los mismos requisitos de hardware que los servidores front-end:
 
-  - Servicio de aplicaciones
+  - Servicio de aplicación
 
   - Aplicación Operador de conferencia
 
   - Aplicación de anuncio de conferencia
 
-Los requisitos de hardware para el servidor front-end son los mismos que para otros muchos roles de servidor de Lync Server 2013 se describen en la tabla siguiente.
+Los requisitos de hardware para el servidor front-end son los mismos que para muchas otras funciones de servidor en Lync Server 2013 se describen en la siguiente tabla.
 
 </div>
 
@@ -63,29 +63,29 @@ Los requisitos de hardware para el servidor front-end son los mismos que para ot
 
 ## <a name="software-requirements"></a>Requisitos de software
 
-Debido a que las conferencias web y A/V se colocan con el servidor front-end, los requisitos de software del servidor son los mismos que los servidores front-end. Para obtener más información sobre los requisitos de software, vea [compatibilidad del sistema operativo servidor y herramientas en Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) en la documentación de soporte técnico.
+Debido a que la conferencia web y la conferencia A/V se colocan con el servidor front-end, los requisitos de software del servidor son los mismos que para los servidores front-end. Para obtener más información sobre los requisitos de software, consulte [Server and Tools Operating System support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) en la documentación sobre compatibilidad.
 
-Para las conferencias web, Lync Server 2013 también requiere Office Web Apps y Office Web Apps Server (anteriormente conocido como servidor WAC) para controlar presentaciones de PowerPoint. Para obtener más información, vea [configurar la integración con Office Web Apps Server y Lync server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+Para las conferencias web, Lync Server 2013 también requiere Office Web Apps y Office Web Apps Server (antes conocido como servidor WAC) para controlar las presentaciones de PowerPoint. Para obtener más información, consulte [Configuring Integration with Office Web Apps Server y Lync server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
-Para las conferencias de acceso telefónico local, servicio de aplicaciones, operador de conferencias y aplicación de anuncio de Conferencia tienen los mismos requisitos del sistema operativo que los servidores de aplicaciones para el usuario. Para obtener más información sobre los requisitos de software, vea [compatibilidad del sistema operativo servidor y herramientas en Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) en la documentación de soporte técnico.
+Para las conferencias de acceso telefónico local, el servicio de aplicación, la aplicación operador de conferencia y la aplicación anuncio de Conferencia tienen los mismos requisitos de sistema operativo que los servidores front-end. Para obtener más información sobre los requisitos de software, consulte [Server and Tools Operating System support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) en la documentación sobre compatibilidad.
 
-El Asistente de conferencia y la aplicación de anuncio de conferencia requieren que Windows Media Format Runtime esté instalado en los servidores frontales. El tiempo de ejecución de Windows Media Format es necesario para reproducir archivos de audio de Windows Media (WMA) que se usan para música en espera, nombres grabados y avisos. Excepto en el caso de Windows Server 2012 y Windows Server 2012 R2, el tiempo de ejecución de Windows Media Format se instala automáticamente como parte de la experiencia de escritorio de Windows al ejecutar el programa de instalación, pero es posible que tenga que reiniciar el equipo. Por lo tanto, le recomendamos que instale como parte de la experiencia de escritorio de Windows, que incluye el Windows Media Format Runtime antes de ejecutar el programa de instalación. Windows Server 2012 y Windows Server 2012 R2 requieren Microsoft Media Foundation.
+La aplicación operador de conferencia y la aplicación anuncio de conferencia requieren que el tiempo de ejecución de Windows Media Format esté instalado en los servidores front-end. El tiempo de ejecución de Windows Media Format es necesario para reproducir archivos audio de Windows Media (WMA) que se usan para la música en espera, nombres registrados y avisos. Excepto en el caso de Windows Server 2012 y Windows Server 2012 R2, el tiempo de ejecución de Windows Media Format se instala automáticamente como parte de la experiencia del escritorio de Windows al ejecutar el programa de instalación, pero es posible que deba reiniciar el equipo. Por lo tanto, recomendamos que instale como parte de la experiencia de escritorio de Windows, que incluye el tiempo de ejecución de Windows Media Format antes de ejecutar el programa de instalación. Windows Server 2012 y Windows Server 2012 R2 requieren Microsoft Media Foundation.
 
 </div>
 
 <div>
 
-## <a name="port-requirements-for-dial-in-conferencing"></a>Requisitos de puerto para las conferencias de acceso telefónico local
+## <a name="port-requirements-for-dial-in-conferencing"></a>Requisitos de puerto para conferencias de acceso telefónico local
 
-En la siguiente tabla se describen los puertos que usan las conferencias de acceso telefónico local. Si usa un equilibrador de carga, asegúrese de que el equilibrador de carga está configurado para los puertos usados por todas las aplicaciones que se ejecutarán en el grupo.
+En la tabla siguiente se describen los puertos usados por las conferencias de acceso telefónico local. Si usa un equilibrador de carga, asegúrese de que está configurado para los puertos usados por las aplicaciones que se ejecutarán en el grupo.
 
-Estos puertos son configuraciones predeterminadas que se pueden cambiar con el cmdlet **Set-CsApplicationServer**. Para obtener más información sobre este cmdlet, consulte la documentación del shell de administración de Lync Server.
+Estos puertos son configuraciones predeterminadas que se pueden cambiar mediante el cmdlet **Set-CsApplicationServer**. Para obtener más información sobre este cmdlet, consulte la documentación del shell de administración de Lync Server.
 
 <div>
 
 
 > [!NOTE]  
-> Todas las instancias de la misma aplicación de un grupo usan el mismo puerto de escucha de SIP.
+> Todas las instancias de la misma aplicación en un grupo de servidores usan el mismo puerto de escucha de SIP.
 
 
 
@@ -107,11 +107,11 @@ Estos puertos son configuraciones predeterminadas que se pueden cambiar con el c
 <tbody>
 <tr class="odd">
 <td><p>5072</p></td>
-<td><p>Usado por la aplicación de operador de conferencia para solicitudes de escucha de SIP</p></td>
+<td><p>Usado por la aplicación de operador de conferencia para solicitudes de escucha SIP</p></td>
 </tr>
 <tr class="even">
 <td><p>5073</p></td>
-<td><p>Usado por la aplicación de anuncios de conferencias para solicitudes de escucha de SIP</p></td>
+<td><p>Usada por la aplicación de anuncio de conferencia para solicitudes de escucha SIP</p></td>
 </tr>
 </tbody>
 </table>
@@ -121,25 +121,25 @@ Estos puertos son configuraciones predeterminadas que se pueden cambiar con el c
 
 <div>
 
-## <a name="supported-clients-for-dial-in-conferencing"></a>Clientes compatibles con conferencias de acceso telefónico local
+## <a name="supported-clients-for-dial-in-conferencing"></a>Clientes admitidos para conferencias de acceso telefónico local
 
-Puede usar el siguiente cliente para programar conferencias locales que admitan el acceso telefónico:
+Puede usar al siguiente cliente para programar conferencias locales que admiten el acceso telefónico local:
 
-  - Complemento de reunión en línea para Lync 2013 (se instala automáticamente al instalar Lync 2013 o asistente)
+  - Complemento para reunión en línea para Lync 2013 (se instala automáticamente al instalar Lync 2013 o asistente)
 
 </div>
 
 <div>
 
-## <a name="dial-in-conferencing-settings-page-requirements"></a>Requisitos de la página de configuración de la Conferencia de acceso telefónico local
+## <a name="dial-in-conferencing-settings-page-requirements"></a>Requisitos de la página de configuración de conferencia de acceso telefónico local
 
-La página de configuración de la Conferencia de acceso telefónico local admite las combinaciones de sistemas operativos y exploradores Web que se describen en la tabla siguiente.
+La página de configuración de la Conferencia de acceso telefónico local admite las combinaciones de sistemas operativos y exploradores Web que se describen en la siguiente tabla.
 
 <div>
 
 
 > [!NOTE]  
-> se admiten las versiones de 32 y 64 bits de los sistemas operativos.
+> Las versiones de 32 bits y 64 bits de los sistemas operativos son compatibles.
 
 
 
@@ -192,13 +192,13 @@ La página de configuración de la Conferencia de acceso telefónico local admit
 
 <div>
 
-## <a name="audio-file-requirements-for-dial-in-conferencing"></a>Requisitos de los archivos de audio para las conferencias de acceso telefónico local
+## <a name="audio-file-requirements-for-dial-in-conferencing"></a>Requisitos de archivo de audio para conferencias de acceso telefónico local
 
-Lync Server 2013 no admite la personalización de mensajes de voz y de música para conferencias de acceso telefónico local. Sin embargo, si tiene una gran necesidad comercial que le exija cambiar los archivos de audio predeterminados, consulte el artículo 961177 de Microsoft Knowledge base, [Cómo personalizar las solicitudes de voz o los archivos de música para conferencias de audio de acceso telefónico local en Microsoft Office Communications Server 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
+Lync Server 2013 no admite la personalización de mensajes de voz y la música para conferencias de acceso telefónico local. Sin embargo, si tiene una gran necesidad empresarial que requiera cambiar los archivos de audio predeterminados, consulte el artículo de Microsoft Knowledge Base 961177, [How to Customize Voice prompts or files Music for Dial-in audioconferencia in Microsoft Office Communications Server 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
 
-También puede usar la herramienta de administración de [solicitudes de voz personalizadas del operador de conferencias de Microsoft Lync Server](http://go.microsoft.com/fwlink/p/?linkid=396880) , que permite a los administradores reemplazar los avisos de voz predeterminados que se usan cuando una llamada de teléfono se une a una reunión de Lync con peticiones personalizadas para proporcionar otra experiencia de entrada de reunión. Las solicitudes de voz personalizadas se pueden instalar en un servidor que ejecute Lync Server 2010 o Lync Server 2013, Enterprise o Standard.
+También puede usar la herramienta de administración de [mensajes de voz personalizados del operador de conferencia de Microsoft Lync Server](http://go.microsoft.com/fwlink/p/?linkid=396880) , que permite a los administradores reemplazar los mensajes de voz predeterminados que se usan cuando un autor de llamada de teléfono se une a una reunión de Lync con mensajes personalizados para proporcionar una experiencia de entrada de reunión diferente. Los mensajes de voz personalizados pueden instalarse en un servidor que ejecute Lync Server 2010 o Lync Server 2013, ya sea Enterprise o Standard Edition.
 
-El operador de conferencia y la aplicación de anuncio de Conferencia tienen los siguientes requisitos de música en espera, nombre grabado y archivos de solicitud de audio:
+La aplicación operador de conferencia y la aplicación anuncio de Conferencia tienen los siguientes requisitos para los archivos de música en espera, nombre grabado y mensajes de audio:
 
   - Formato de archivo de audio de Windows Media (WMA)
 
@@ -212,9 +212,9 @@ El operador de conferencia y la aplicación de anuncio de Conferencia tienen los
 
 <div>
 
-## <a name="user-requirements-for-dial-in-conferencing"></a>Requisitos de usuario para las conferencias de acceso telefónico local
+## <a name="user-requirements-for-dial-in-conferencing"></a>Requisitos de usuario para conferencias de acceso telefónico local
 
-Los usuarios de conferencias de acceso telefónico local necesitan tener un número de teléfono único o una extensión asignada a su cuenta. Este requisito admite la autenticación durante las conferencias de acceso telefónico local. Los usuarios empresariales (es decir, los usuarios que tienen credenciales de servicios de dominio de Active Directory y cuentas de Lync Server dentro de su organización) escriben su número de teléfono (o extensión) y un número de identificación personal (PIN) para llamar a conferencias como un usuario autenticado.
+Los usuarios de conferencias de acceso telefónico local deben tener un número de teléfono único o una extensión asignada a su cuenta. Este requisito admite la autenticación durante las conferencias de acceso telefónico local. Los usuarios empresariales (es decir, los usuarios que tienen credenciales de servicios de dominio de Active Directory y cuentas de Lync Server en la organización) escriben su número de teléfono (o extensión) y un número de identificación personal (PIN) para llamar a conferencias como un usuario autenticado.
 
 </div>
 

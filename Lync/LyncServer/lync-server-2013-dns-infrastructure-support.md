@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Compatibilidad con infraestructura de DNS'
+title: 'Lync Server 2013: compatibilidad con la infraestructura de DNS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183878
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d192388d03bb96a5d630a230ab4bd35e22c3217
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 190e0160532ca0ac26ce4f818f260848ea68f0a1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739220"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034812"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-infrastructure-support-in-lync-server-2013"></a>Compatibilidad con infraestructura de DNS en Lync Server 2013
+# <a name="dns-infrastructure-support-in-lync-server-2013"></a>Compatibilidad con la infraestructura de DNS en Lync Server 2013
 
 </div>
 
@@ -39,17 +39,17 @@ _**Última modificación del tema:** 2013-03-08_
 
 Lync Server 2013 requiere el sistema de nombres de dominio (DNS) y lo usa de las siguientes maneras:
 
-  - Para detectar los servidores o grupos de servidores internos para las comunicaciones de servidor a servidor.
+  - Para detectar los servidores o grupos de servidores internos para las comunicaciones entre servidores.
 
-  - Para permitir que los clientes descubran el grupo de servidores front-end o el servidor Standard Edition usado para varias transacciones SIP.
+  - Para permitir a los clientes detectar el servidor Standard Edition o el grupo front-end que se usa para diversas transacciones SIP.
 
-  - Para asociar las direcciones URL simples a las conferencias con los servidores que hospedan esas conferencias.
+  - Para asociar las direcciones URL simples para conferencias con los servidores que hospedan dichas conferencias.
 
-  - Para permitir que los servidores y clientes externos se conecten a servidores perimetrales o al proxy inverso HTTP para mensajería instantánea (mi) o conferencias.
+  - Para permitir a los clientes y servidores externos conectarse a los servidores perimetrales o el proxy inverso HTTP para la mensajería instantánea o las conferencias.
 
-  - Para habilitar los dispositivos de comunicaciones unificadas (UC) que no han iniciado sesión para detectar el grupo de servidores front-end o el servidor Standard Edition que ejecuta el servicio Web de actualización de dispositivos, obtener actualizaciones y enviar registros.
+  - Para permitir que los dispositivos de comunicaciones unificadas (UC) que no se hayan registrado detecten el grupo front-end o el servidor Standard Edition que ejecuta el servicio web de actualización de dispositivos, obtenga las actualizaciones y envíe los registros.
 
-  - Para permitir que los clientes móviles detecten automáticamente recursos de servicios web sin que los usuarios tengan que introducir direcciones URL en la configuración del dispositivo de forma manual.
+  - Para permitir que los clientes móviles detecten automáticamente recursos de servicios web sin que los usuarios tengan que escribir manualmente las direcciones URL en la configuración del dispositivo.
 
   - Para el equilibrio de carga de DNS.
 
@@ -57,7 +57,7 @@ Lync Server 2013 requiere el sistema de nombres de dominio (DNS) y lo usa de las
 
 
 > [!NOTE]  
-> Lync Server 2013 no admite nombres de dominio internacionalizados (IDNs).
+> Lync Server 2013 no admite nombres de dominio internacionalizados (IDN).
 
 
 
@@ -67,7 +67,7 @@ Lync Server 2013 requiere el sistema de nombres de dominio (DNS) y lo usa de las
 
 
 > [!IMPORTANT]  
-> El nombre que especifique debe ser idéntico al nombre de equipo configurado en el servidor. De forma predeterminada, el nombre de equipo en el caso de un equipo que no está unido a un dominio es un nombre corto, no un nombre de dominio completo (FQDN). El Generador de topologías usa nombres de dominio completos, no nombres cortos. Por lo tanto, debe configurar un sufijo DNS en el nombre del equipo para implementarse como servidor perimetral que no está unido a un dominio. <STRONG>Utilice únicamente caracteres estándar</STRONG> (incluyendo A–Z, a–z, 0–9 y guiones) a la hora de asignar FQDN de sus Lync Server, servidores perimetrales y grupos. No utilice caracteres Unicode ni de subrayado. Los caracteres no estándar en una dirección URL o un FQDN a menudo no son compatibles con DNS externas y CA públicas (es decir, cuando el FQDN debe asignarse al SN en el certificado).
+> El nombre que especifique debe ser idéntico al nombre del equipo configurado en el servidor. De manera predeterminada, el nombre de equipo de un equipo que no está unido a un dominio es un nombre corto, en lugar de un nombre de dominio completo (FQDN). Topology Builder usa nombres de dominio completos, no nombres cortos. Así pues, debe configurar un sufijo de DNS en el nombre del equipo para poder implementarlo como servidor perimetral no incorporado a un dominio. <STRONG>Utilice únicamente caracteres estándar </STRONG> (A–Z, a–z, 0–9 y guiones) cuando asigne los nombres de dominio completo de sus servidores Lync, servidores perimetrales y grupos de servidores. No utilice caracteres Unicode ni de subrayado. Los DNS externos y las entidades de certificación públicas no admiten caracteres que no sean estándar en un nombre de dominio completo (es decir, cuando el FQDN se debe asignar al nombre de sujeto en el certificado).
 
 
 

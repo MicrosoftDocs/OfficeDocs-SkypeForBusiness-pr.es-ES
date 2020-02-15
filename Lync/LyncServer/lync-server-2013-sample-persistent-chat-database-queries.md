@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Consultas de base de datos del chat persistente de ejemplo'
+title: 'Lync Server 2013: consultas de base de datos de chat persistente de ejemplo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184133
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a31863ef11f144b5996468ccbeef35f55bd9aa66
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3fc1d53046b6a43da38a7a91c7e19f195e6667f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732770"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987305"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="sample-persistent-chat-database-queries-for-lync-server-2013"></a>Consultas de base de datos del chat persistente de ejemplo para Lync Server 2013
+# <a name="sample-persistent-chat-database-queries-for-lync-server-2013"></a>Consultas de base de datos de chat persistente de ejemplo para Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41732770"
 
 _**Última modificación del tema:** 2012-10-06_
 
-Esta sección contiene consultas de ejemplo de la base de datos de chat persistente.
+Esta sección contiene consultas de ejemplo para la base de datos de chat persistente.
 
-Use el siguiente ejemplo para obtener una lista de sus salones de chat persistentes más activos después de una fecha determinada.
+Use el siguiente ejemplo para obtener una lista de los salones de chat persistente más activos después de una fecha determinada.
 
     SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
       FROM tblChat, tblNode
@@ -47,7 +47,7 @@ Use el siguiente ejemplo para obtener una lista de sus salones de chat persisten
       GROUP BY nodeName
       ORDER BY ChatMessages DESC
 
-Use el ejemplo siguiente para obtener una lista de los usuarios más activos después de una fecha determinada.
+Use el siguiente ejemplo para obtener  una lista de sus usuarios más activos tras una fecha determinada.
 
     SELECT prinName as Name, count(*) as ChatMessages
       FROM tblChat, tblPrincipal
@@ -55,25 +55,25 @@ Use el ejemplo siguiente para obtener una lista de los usuarios más activos des
       GROUP BY prinName
       ORDER BY ChatMessages DESC
 
-Use el ejemplo siguiente para obtener una lista de todas las personas que hayan enviado un mensaje con "Hola a todos".
+Use el siguiente ejemplo para obtener una lista de todas las personas que han enviado alguna vez un mensaje que incluya las palabras “Hello World”.
 
     SELECT nodeName as ChatRoom, prinName as Name, content as Message
       FROM tblChat, tblNode, tblPrincipal
       WHERE channelId = nodeID AND userId = prinID AND content like '%Hello World%'
 
-Use el ejemplo siguiente para obtener una lista de pertenencias a grupos de un determinado principal.
+Use el siguiente ejemplo para obtener una lista de pertenencia a grupos correspondiente a determinada entidad de seguridad.
 
     SELECT prinName as Name    
       FROM tblPrincipalAffiliations as pa, tblPrincipal
       where principalID = 7 and affiliationID = prinID
 
-Use el ejemplo siguiente para obtener una lista de todos los salones de chat con los que un usuario, Julia Dow, es miembro directo.
+Use el siguiente ejemplo para obtener una lista de todos los salones de chat de los que un usuario, Jane Dow, es miembro directo.
 
     SELECT DISTINCT nodeName as ChatRoom, prinName as Name          
       FROM tblPrincipalRole, tblPrincipal, tblNode
       WHERE  prinRoleNodeID = nodeID AND prinRolePrinID = prinID AND prinName = 'Jane Dow'
 
-Use el ejemplo siguiente para obtener una lista de las invitaciones que un usuario ha recibido.
+Use el siguiente ejemplo para obtener una lista de las invitaciones que ha recibido un usuario.
 
     SELECT prinName
           ,nodeName

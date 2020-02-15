@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Comprobar el acceso a través del proxy inverso'
+title: 'Lync Server 2013: comprobar el acceso a través del proxy inverso'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183753
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e13f7e23f3404191f7251c1f49bda6f8935a2929
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4dec8a6d5339af93a7e8c0f63aca5f5d3f990583
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763564"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007379"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,23 +37,23 @@ ms.locfileid: "41763564"
 
 _**Última modificación del tema:** 2013-03-29_
 
-Use el procedimiento siguiente para comprobar que los usuarios pueden obtener acceso a la información del proxy inverso. Es posible que tenga que completar la configuración del firewall y del sistema de nombres de dominio (DNS) antes de que Access funcione correctamente.
+Realice el siguiente procedimiento para comprobar que los usuarios pueden obtener acceso a la información sobre el proxy inverso. Puede que tenga que completar la configuración del firewall y del Sistema de nombres de dominio (DNS) para que el acceso funcione correctamente.
 
 <div>
 
 ## <a name="to-verify-that-you-can-access-the-website-through-the-internet"></a>Para comprobar que puede obtener acceso al sitio web a través de Internet
 
-  - Abra un explorador Web, escriba las direcciones URL en la barra de **direcciones** que los clientes usan para acceder a los archivos de la libreta de direcciones y el sitio web para las conferencias de la siguiente manera:
+  - Abra un explorador web y escriba las direcciones URL en la barra **Dirección** que utilizan los clientes para obtener acceso a los archivos de Libreta de direcciones y al sitio web para conferencias, tal como se indica a continuación:
     
-      - En servidor de la libreta de direcciones, escriba una dirección URL similar **https://externalwebfarmFQDN/abs** a la siguiente: donde externalwebfarmFQDN es el FQDN externo de los servicios web externos que hospedan los servicios de libreta de direcciones. El usuario debe recibir un desafío HTTP, ya que la seguridad de directorios de la carpeta del servidor de la libreta de direcciones está configurada de forma predeterminada en la autenticación de Windows.
+      - En servidor de libreta de direcciones, escriba una dirección URL similar a **https://externalwebfarmFQDN/abs** la siguiente: donde externalwebfarmFQDN es el FQDN externo de los servicios web externos que hospedan los servicios de libreta de direcciones. El usuario debe recibir un desafío HTTP, ya que la seguridad de directorios de la carpeta del servidor de la Libreta de direcciones está configurada para la autenticación de Windows de forma predeterminada.
     
-      - Para conferencias, escriba una dirección URL similar a la siguiente **https://externalwebfarmFQDN/meet** : donde externalwebfarmFQDN es el FQDN externo de la granja de servidores web que hospeda el contenido de la reunión. Esta dirección URL debe mostrar la página de solución de problemas para conferencias. También puede confirmar que su dirección URL simple para conferencias funciona correctamente. Una dirección URL sencilla de ejemplo para la combinación de conferencia puede serhttps://meet.contoso.com
+      - Para conferencias, escriba una dirección URL similar a la siguiente **https://externalwebfarmFQDN/meet** : donde externalwebfarmFQDN es el FQDN externo de la granja de servidores web que hospeda el contenido de la reunión. Esta dirección URL debe mostrar la página de solución de problemas para conferencias. Alternativamente, confirme que su dirección URL sencilla para conferencias funciona correctamente. Una dirección URL sencilla de ejemplo para la combinación de conferencia puede serhttps://meet.contoso.com
     
-      - En expansión de grupos de distribución, escriba una dirección URL similar a **https://externalwebfarmFQDN/GroupExpansion/service.svc**la siguiente:. El usuario debe recibir un desafío HTTP, porque la seguridad de directorio en el servicio de expansión del grupo de distribución está configurada de forma predeterminada en la autenticación de Windows.
+      - Para la expansión del grupo de distribución, escriba una dirección URL similar **https://externalwebfarmFQDN/GroupExpansion/service.svc**a la siguiente:. El usuario debe recibir un desafío HTTP, ya que la seguridad de directorios del servicio de expansión de grupos de distribución está configurada de forma predeterminada para la autenticación de Windows.
     
-      - Para el acceso telefónico, escriba la dirección URL sencilla similar a la **https://externalwebfarmFQDN/dialin** siguiente, donde externalwebfarmFQDN es el nombre completo externo del conjunto de servidores web que hospeda la página de acceso telefónico local. El usuario debe dirigirse a la página de acceso telefónico. También puede confirmar que su dirección de acceso telefónico simple funciona correctamente. Un ejemplo de una dirección URL simple para el acceso telefónico eshttps://dialin.contoso.com
+      - En el caso de acceso telefónico local, escriba la dirección URL sencilla **https://externalwebfarmFQDN/dialin** similar a la siguiente, donde externalwebfarmFQDN es el FQDN externo de la granja de servidores web que hospeda la página de acceso telefónico local para las conferencias de acceso telefónico local. Se dirigirá al usuario a la página de acceso telefónico local. Alternativamente, confirme que el acceso telefónico local de su dirección URL sencilla funciona correctamente. Un ejemplo de dirección URL sencilla para el acceso telefónico eshttps://dialin.contoso.com
     
-      - Para confirmar que la dirección URL de detección automática funciona, https://lyncdiscoverescriba. externaldomainFQDN. El explorador debe pedirle que abra un archivo. Seleccione Bloc de notas para abrirlo. Una respuesta típica sería similar a:
+      - Para confirmar que la dirección URL de detección automática funciona, https://lyncdiscoverescriba. externaldomainFQDN. El explorador debe pedirle que abra un archivo. Seleccione Bloc de notas para abrirlo. Una respuesta típica sería similar a la siguiente:
         
             {"AccessLocation":"External","Root":{"Links":[{"href":"https:\/\/extweb.contoso.com\/Autodiscover\/AutodiscoverService.svc\/root\/domain","token":"Domain"},
             {"href":"https:\/\/extweb.contoso.com\/Autodiscover\/AutodiscoverService.svc\/root\/user","token":"User"},

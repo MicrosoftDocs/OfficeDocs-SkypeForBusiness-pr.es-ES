@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: deshabilitar un usuario para telefonía IP empresarial'
+title: 'Lync Server 2013: deshabilitar a un usuario para telefonía IP empresarial'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f89b40a7398f35efab418fac7be92536ec17270
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a0d2e5cf6eaa6ed594e7f5fbbc5b1e6a4c9103a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762218"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036610"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="disable-a-user-for-enterprise-voice-in-lync-server-2013"></a>Deshabilitar un usuario de telefonía IP empresarial en Lync Server 2013
+# <a name="disable-a-user-for-enterprise-voice-in-lync-server-2013"></a>Deshabilitar a un usuario para la telefonía IP empresarial en Lync Server 2013
 
 </div>
 
@@ -37,38 +37,38 @@ ms.locfileid: "41762218"
 
 _**Última modificación del tema:** 2012-09-21_
 
-Use el siguiente procedimiento para deshabilitar Enterprise Voice para una cuenta de usuario habilitada para Lync Server 2013.
+Use el siguiente procedimiento para deshabilitar Enterprise Voice para una cuenta de usuario que esté habilitada para Lync Server 2013.
 
 <div>
 
-## <a name="to-disable-a-user-account-for-enterprise-voice"></a>Para deshabilitar una cuenta de usuario para Enterprise Voice
+## <a name="to-disable-a-user-account-for-enterprise-voice"></a>Para deshabilitar una cuenta de usuario para telefonía IP empresarial
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  En la barra de navegación izquierda, haga clic en **Usuarios**.
 
 4.  En el cuadro **Buscar usuarios**, escriba la primera parte del nombre para mostrar, el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea de la cuenta de usuario que desee habilitar y, a continuación, haga clic en **Buscar**.
 
-5.  En la tabla, haga clic en la cuenta de usuario que desea habilitar para la telefonía IP empresarial.
+5.  En la tabla, haga clic en la cuenta de usuario que desee habilitar para la telefonía IP empresarial.
 
-6.  En el menú **Editar**, haga clic en **Mostrar detalles**.
+6.  En el menú **Editar **, haga clic en **Mostrar detalles **.
 
-7.  En la página **Editar usuario de Lync Server** , en **telefonía**, haga clic en cualquier opción excepto telefonía **IP empresarial**.
+7.  En la página **Editar usuario de Lync Server **, en **Telefonía **, haga clic en cualquier opción excepto **Telefonía IP empresarial **.
     
     <div>
     
 
     > [!NOTE]  
-    > Para impedir que un usuario realice llamadas de audio o vídeo mediante Lync, en <STRONG>telefonía</STRONG>, haga clic en <STRONG>audio/vídeo deshabilitado</STRONG>.
+    > Para impedir que un usuario realice llamadas de audio o vídeo mediante Lync, en <STRONG>telefonía</STRONG>, haga clic en <STRONG>audio y vídeo deshabilitado</STRONG>.
 
     
     </div>
 
 8.  Haga clic en **Confirmar**.
 
-El usuario ahora no puede usar la característica de telefonía IP empresarial.
+El usuario ahora no puede usar la característica Enterprise Voice.
 
 </div>
 
@@ -77,10 +77,10 @@ El usuario ahora no puede usar la característica de telefonía IP empresarial.
 ## <a name="see-also"></a>Vea también
 
 
-[Habilitar usuarios para telefonía IP empresarial en Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)  
+[Habilitar a los usuarios para la telefonía IP empresarial en Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)  
 
 
-[Administración de telefonía IP empresarial para usuarios en Lync Server 2013](lync-server-2013-managing-enterprise-voice-for-users.md)  
+[Administración de la telefonía IP empresarial para los usuarios en Lync Server 2013](lync-server-2013-managing-enterprise-voice-for-users.md)  
 [Shell de administración de Lync Server 2013](lync-server-2013-lync-server-management-shell.md)  
   
 

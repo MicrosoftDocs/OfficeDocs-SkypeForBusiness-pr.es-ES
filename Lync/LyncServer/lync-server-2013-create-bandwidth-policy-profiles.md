@@ -12,16 +12,16 @@ ms:contentKeyID: 48185086
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d3eef3ea6dfb349f0f712c1127adb8310d90c27
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ea1e44f7c8c0d81757d6d10a63194de7c0d12c08
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726340"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035806"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -39,9 +39,9 @@ _**Última modificación del tema:** 2012-10-19_
 
 Las *directivas de ancho de banda* definen limitaciones en el uso de ancho de banda para las modalidades de audio y vídeo en tiempo real. Las directivas de ancho de banda se aplican a los *perfiles de directiva de ancho de banda*, que pueden aplicarse a varios sitios de red para el control de admisión de llamadas.
 
-Para obtener instrucciones sobre qué límites de ancho de banda debe establecer en su implementación CAC, consulte [definir los requisitos para el control de admisión de llamadas en Lync Server 2013](lync-server-2013-defining-your-requirements-for-call-admission-control.md) en la documentación de planeación.
+Para obtener instrucciones sobre los límites de ancho de banda que debe establecer en su implementación de CAC, consulte [Defining Your Requirements for Call Admission Control in Lync Server 2013](lync-server-2013-defining-your-requirements-for-call-admission-control.md) en la documentación referente a la planeación.
 
-Para obtener más información sobre cómo trabajar con directivas de ancho de banda y perfiles de Directiva, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:
+Para obtener información detallada sobre cómo trabajar con directivas y perfiles de directiva de ancho de banda, vea la documentación del shell de administración de Lync Server para los siguientes cmdlets:
 
   - [New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)
 
@@ -51,7 +51,7 @@ Para obtener más información sobre cómo trabajar con directivas de ancho de b
 
   - [Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
 
-Las directivas de ejemplo creadas en el procedimiento siguiente definen límites para el tráfico de audio global, sesiones de audio individuales, el tráfico de vídeo global y sesiones de vídeo individuales. Por ejemplo, el perfil\_de directiva de ancho de banda del vínculo de 5 MB establece los siguientes límites:
+Las directivas de ejemplo creadas en el procedimiento siguiente definen límites para el tráfico de audio global, sesiones de audio individuales, el tráfico de vídeo global y sesiones de vídeo individuales. Por ejemplo, el perfil\_de directiva de ancho de banda de vínculos de 5 MB define los siguientes límites:
 
   - Límite de audio: 2.000 kbps
 
@@ -73,9 +73,9 @@ Las directivas de ejemplo creadas en el procedimiento siguiente definen límites
 
 <div>
 
-## <a name="to-create-bandwidth-policy-profiles-by-using-management-shell"></a>Para crear perfiles de directiva de ancho de banda mediante el shell de administración
+## <a name="to-create-bandwidth-policy-profiles-by-using-management-shell"></a>Para crear perfiles de directiva de ancho de banda mediante el Shell de administración
 
-1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
 2.  Para cada perfil de directiva de ancho de banda que quiera crear, ejecute el cmdlet New-CsNetworkBandwidthPolicyProfile. Por ejemplo, ejecute lo siguiente:
     
@@ -99,9 +99,9 @@ Las directivas de ejemplo creadas en el procedimiento siguiente definen límites
 
 <div>
 
-## <a name="to-create-bandwidth-policy-profiles-by-using-lync-server-control-panel"></a>Para crear perfiles de directiva de ancho de banda mediante el panel de control de Lync Server
+## <a name="to-create-bandwidth-policy-profiles-by-using-lync-server-control-panel"></a>Para crear perfiles de directiva de ancho de banda mediante el Panel de control de Lync Server
 
-1.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 2.  En la barra de navegación izquierda, haga clic en **Configuración de red**.
 
@@ -111,13 +111,13 @@ Las directivas de ejemplo creadas en el procedimiento siguiente definen límites
 
 5.  En la página **Nuevo perfil de directiva**, haga clic en **Nombre** y escriba un nombre para el perfil de directiva de ancho de banda.
 
-6.  Haga clic en **Límite de audio** y escriba el número máximo de kbps que se deben permitir para todas las sesiones de audio combinadas.
+6.  Haga clic en **Límite de audio** y escriba el número máximo de kbps que permitir para todas las sesiones de audio combinadas.
 
-7.  Haga clic en **Límite de sesión de audio** y escriba el número máximo de kbps que se deben permitir para cada sesión de audio.
+7.  Haga clic en **Límite de sesión de audio** y escriba el número máximo de kbps que permitir para cada sesión de audio.
 
-8.  Haga clic en **Límite de vídeo** y escriba el número máximo de kbps que se deben permitir para todas las sesiones de vídeo combinadas.
+8.  Haga clic en **Límite de vídeo** y escriba el número máximo de kbps que permitir para todas las sesiones de vídeo combinadas.
 
-9.  Haga clic en **Límite de sesión de vídeo** y escriba el número máximo de kbps que se deben permitir para cada sesión de vídeo.
+9.  Haga clic en **Límite de sesión de vídeo** y escriba el número máximo de kbps que permitir para cada sesión de vídeo.
 
 10. Si lo desea, haga clic en **Descripción** y escriba información adicional para describir este perfil de directiva de ancho de banda.
 

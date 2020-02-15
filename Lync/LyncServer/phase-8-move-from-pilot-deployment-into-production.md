@@ -12,16 +12,16 @@ ms:contentKeyID: 49733539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72465d617e747616921825e771b3be6bff157a21
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 07ab5e017f165a3dc5d9883f14b3711501a0e0d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727360"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034140"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41727360"
 
 _**Última modificación del tema:** 2012-10-15_
 
-En los temas de esta sección se describen tareas que debe completar antes de mover la implementación de Lync Server 2013 desde una implementación piloto a una implementación de nivel de producción.
+En los temas de esta sección se describen las tareas que debe completar antes de mover la implementación de Lync Server 2013 desde una implementación piloto a una implementación de nivel de producción.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Configurar las rutas de federación y el tráfico multimedia](configure-federation-routes-and-media-traffic_1.md)
+  - [Configurar rutas de Federación y tráfico de medios](configure-federation-routes-and-media-traffic_1.md)
 
   - [Mover los usuarios restantes a Lync Server 2013](move-remaining-users-to-lync-server-2013_1.md)
 

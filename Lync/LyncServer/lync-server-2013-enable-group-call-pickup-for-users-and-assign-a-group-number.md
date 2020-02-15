@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: habilitar la recogida de llamadas grupales para los usuarios y asignar un número de grupo'
+title: 'Lync Server 2013: habilitar la atención de llamadas grupales para los usuarios y asignar un número de grupo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541517
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5ad9bbc6f5505e5778872a568bdbc80b3f7bf91
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c541d5a82becf253ebbbb2bbab6d1c69e9fb7016
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729400"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033779"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-group-call-pickup-for-users-in-lync-server-2013-and-assign-a-group-number"></a>Habilitar la recogida de llamadas grupales para los usuarios en Lync Server 2013 y asignar un número de grupo
+# <a name="enable-group-call-pickup-for-users-in-lync-server-2013-and-assign-a-group-number"></a>Habilitar la atención de llamadas grupales para los usuarios en Lync Server 2013 y asignar un número de grupo
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41729400"
 
 _**Última modificación del tema:** 2013-01-30_
 
-Después de agregar los números del grupo de recogida de llamadas a la tabla de llamadas en órbita, asigne los números de grupo a los usuarios y habilite la recogida de llamadas grupales. Use la herramienta del kit de recursos de activación de características de extensión secundaria (SEFAUtil) para asignar números de grupo y habilitar la recogida de llamadas grupales.
+Después de agregar los números del grupo de atención de llamadas a la tabla de órbitas de estacionamiento de llamadas, debe asignar los números de grupo a los usuarios y habilitar la recepción de llamadas de grupo para ellos. Use la herramienta de kit de recursos de activación de la característica de extensión secundaria (SEFAUtil) para asignar números de grupo y habilitar la atención de llamadas grupales.
 
 <div>
 
 
 > [!NOTE]  
-> En una implementación híbrida, no asigne un grupo de recogida de llamadas grupal a los usuarios alojados en línea. Los usuarios alojados en Internet no pueden participar en la recogida de llamadas grupales. Es decir, otros usuarios no pueden contestar las llamadas y no pueden responder llamadas a otros usuarios.
+> En una implementación híbrida, no asigne un grupo de recogida de llamadas de grupo a los usuarios hospedados en línea. Los usuarios hospedados en línea no pueden participar en la recogida de llamadas de grupo. Es decir, otros usuarios no pueden contestar a sus llamadas y no pueden responder llamadas a otros usuarios.
 
 
 
@@ -51,15 +51,15 @@ Después de agregar los números del grupo de recogida de llamadas a la tabla de
 
 <div>
 
-## <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>Para asignar un número de grupo y habilitar la recogida de llamadas grupales para un usuario
+## <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>Para asignar un número de grupo y habilitar la atención de llamadas grupales para un usuario
 
-1.  Inicie sesión como administrador en el equipo en el que haya instalado la herramienta SEFAUtil.
+1.  Inicie sesión en el equipo donde instaló la herramienta SEFAUtil con derechos de administrador.
 
 2.  En la línea de comandos, ejecute:
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
     
-    Por ejemplo, para asignar el número de grupo 199 a un usuario:
+    Por ejemplo, para asignar el número de grupo 199 a un usuario:
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199 
 
@@ -70,7 +70,7 @@ Después de agregar los números del grupo de recogida de llamadas a la tabla de
 ## <a name="see-also"></a>Vea también
 
 
-[Deshabilitar la recogida de llamadas grupales para los usuarios en Lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)  
+[Deshabilitar la atención de llamadas grupales para los usuarios en Lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)  
   
 
 </div>

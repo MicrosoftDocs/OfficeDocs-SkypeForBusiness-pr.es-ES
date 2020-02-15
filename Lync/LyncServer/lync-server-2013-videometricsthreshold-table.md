@@ -12,16 +12,16 @@ ms:contentKeyID: 48183736
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93dc2fd539ccc24717939ccfa2ca93032fd9f25b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9ffd2c289917c5ccf0ec3a484284fecca3323810
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741990"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007259"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41741990"
 
 _**Última modificación del tema:** 2012-10-02_
 
-La tabla VideoMetricsThreshold contiene valores óptimos y aceptables para la medición de la calidad de la medición que se usa con las videollamadas.
+La tabla VideoMetricsThreshold contiene valores óptimos y aceptables para las métricas de Calidad de experiencia utilizadas con videollamadas.
 
 
 <table>
@@ -59,30 +59,30 @@ La tabla VideoMetricsThreshold contiene valores óptimos y aceptables para la me
 <tr class="odd">
 <td><p><strong>CallType</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>Tipo de llamada que se realizó.</p></td>
+<td><p>Principal</p></td>
+<td><p>Tipo de llamada realizada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoPostFECPLROptimal</strong></p></td>
-<td><p>decimal (4,5)</p></td>
+<td><p>decimal (5, 2)</p></td>
 <td></td>
 <td><p>El valor predeterminado es 0,05.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoPostFECPLRAcceptable</strong></p></td>
-<td><p>decimal (4,5)</p></td>
+<td><p>decimal (5, 2)</p></td>
 <td></td>
 <td><p>El valor predeterminado es 0,10.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoLocalFrameLostPercentageAverageOptimal</strong></p></td>
-<td><p>decimal (4,5)</p></td>
+<td><p>decimal (5, 2)</p></td>
 <td></td>
 <td><p>El valor predeterminado es 5,0.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoLocalFrameLostPercentageAverageAcceptable</strong></p></td>
-<td><p>decimal (4,5)</p></td>
+<td><p>decimal (5, 2)</p></td>
 <td></td>
 <td><p>El valor predeterminado es 10,0.</p></td>
 </tr>
@@ -100,25 +100,25 @@ La tabla VideoMetricsThreshold contiene valores óptimos y aceptables para la me
 </tr>
 <tr class="even">
 <td><p><strong>LowFrameRateCallPercentOptimal</strong></p></td>
-<td><p>decimal (4,5)</p></td>
+<td><p>decimal (5, 2)</p></td>
 <td></td>
 <td><p>El valor predeterminado es 5,0.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowFrameRateCallPercentAcceptable</strong></p></td>
-<td><p>decimal (4,5)</p></td>
+<td><p>decimal (5, 2)</p></td>
 <td></td>
-<td><p>El valor predeterminado es 10,0/</p></td>
+<td><p>El valor predeterminado es 10,0.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowResolutionCallPercentOptimal</strong></p></td>
-<td><p>decimal (4,5)</p></td>
+<td><p>decimal (5, 2)</p></td>
 <td></td>
 <td><p>El valor predeterminado es 5,0.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowResolutionCallPercentAcceptable</strong></p></td>
-<td><p>decimal (4,5)</p></td>
+<td><p>decimal (5, 2)</p></td>
 <td></td>
 <td><p>El valor predeterminado es 10,0.</p></td>
 </tr>
@@ -148,13 +148,13 @@ La tabla VideoMetricsThreshold contiene valores óptimos y aceptables para la me
 </tr>
 <tr class="even">
 <td><p><strong>DynamicCapabilityPercentOptimal</strong></p></td>
-<td><p>decimal (4,5)</p></td>
+<td><p>decimal (5, 2)</p></td>
 <td></td>
 <td><p>El valor predeterminado es 5,00.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DynamicCapabilityPercentAcceptable</strong></p></td>
-<td><p>decimal (4,5)</p></td>
+<td><p>decimal (5, 2)</p></td>
 <td></td>
 <td><p>El valor predeterminado es 10,00.</p></td>
 </tr>

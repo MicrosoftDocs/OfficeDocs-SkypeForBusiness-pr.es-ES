@@ -1,5 +1,5 @@
 ---
-title: Eliminar una colección existente de parámetros de configuración de la versión de cliente
+title: Eliminar una colección existente de opciones de configuración de versión de cliente
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 50873760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf3015358c27786b03b505e580acd599e26d4f3a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 00b594254b4ecac166be8e639dd8e7d437fcdffc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737430"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007058"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Eliminar una colección existente de parámetros de configuración de la versión de cliente en Lync Server 2013
+# <a name="delete-an-existing-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Eliminar una colección existente de opciones de configuración de versión de cliente en Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41737430"
 
 _**Última modificación del tema:** 2013-02-23_
 
-Si desea quitar la configuración de cliente que se ha configurado previamente para un sitio, puede quitar la configuración del panel de control de Lync Server 2013 o del shell de administración de Lync Server 2013.
+Si desea quitar las opciones de configuración de cliente que se han configurado anteriormente para un sitio, puede quitar la configuración del panel de control de Lync Server 2013 o del shell de administración de Lync Server 2013.
 
 <div>
 
-## <a name="to-remove-client-configuration-settings-by-using-lync-server-control-panel"></a>Para quitar los valores de configuración del cliente mediante el panel de control de Lync Server
+## <a name="to-remove-client-configuration-settings-by-using-lync-server-control-panel"></a>Para quitar opciones de configuración de cliente mediante el panel de control de Lync Server
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, haga clic en el botón de navegación de **configuración de versión de cliente** .
+3.  En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, haga clic en el botón de navegación **configuración de versión de cliente** .
 
 4.  Seleccione el sitio, haga clic en **Editar**, haga clic en **eliminar**y, a continuación, haga clic en **Aceptar**.
 
@@ -55,15 +55,15 @@ Si desea quitar la configuración de cliente que se ha configurado previamente p
 
 <div>
 
-## <a name="removing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Quitar la configuración de la versión de cliente mediante cmdlets de Windows PowerShell
+## <a name="removing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Quitar opciones de configuración de versión de cliente mediante cmdlets de Windows PowerShell
 
-Puede eliminar la configuración de la versión del cliente mediante el cmdlet **Remove-CsClientVersionConfiguration** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede eliminar las opciones de configuración de la versión de cliente con el cmdlet **Remove-CsClientVersionConfiguration** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-client-version-configuration-settings"></a>Para quitar una colección especificada de parámetros de configuración de la versión de cliente
+## <a name="to-remove-a-specified-collection-of-client-version-configuration-settings"></a>Para quitar una colección especificada de opciones de configuración de versión de cliente
 
-  - El siguiente comando quita la configuración de la versión del cliente que se aplica al sitio de Redmond:
+  - El siguiente comando quita las opciones de configuración de versión de cliente que se aplican al sitio Redmond:
     
         Remove-CsClientVersionConfiguration -Identity "site:Redmond"
 
@@ -71,9 +71,9 @@ Puede eliminar la configuración de la versión del cliente mediante el cmdlet *
 
 <div>
 
-## <a name="to-remove-all-the-client-version-configuration-settings-applied-to-the-site-scope"></a>Para quitar todas las opciones de configuración de la versión del cliente que se aplican al ámbito del sitio
+## <a name="to-remove-all-the-client-version-configuration-settings-applied-to-the-site-scope"></a>Para quitar todas las opciones de configuración de versión de cliente que se aplican al ámbito de sitio
 
-  - Este comando quita todas las opciones de configuración de la versión del cliente configuradas en el ámbito del sitio:
+  - Este comando quita todas las opciones de configuración de versión de cliente configuradas en el ámbito de sitio:
     
         Get-CsClientVersionConfiguration -Filter site:* | Remove-CsClientVersionConfiguration
 
@@ -81,15 +81,15 @@ Puede eliminar la configuración de la versión del cliente mediante el cmdlet *
 
 <div>
 
-## <a name="to-remove-all-the-client-version-configuration-settings-based-on-the-value-of-the-defaultaction-property"></a>Para quitar toda la configuración de la versión de cliente basada en el valor de la propiedad DefaultAction
+## <a name="to-remove-all-the-client-version-configuration-settings-based-on-the-value-of-the-defaultaction-property"></a>Para quitar todas las opciones de configuración de versión de cliente en función del valor de la propiedad DefaultAction
 
-  - Y este comando elimina toda la configuración de la versión de cliente en la que la acción predeterminada se ha establecido en "bloquear":
+  - Y este comando quita todas las opciones de configuración de versión de cliente en las que la acción predeterminada se ha definido como "bloquear":
     
         Get-CsClientVersionConfiguration | Where-Object {$_.DefaultAction -eq "Block" | Remove-CsClientVersionConfiguration
 
 </div>
 
-Para obtener más información, vea el tema de ayuda sobre el cmdlet [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/en-us/library/Gg425925(v=OCS.15)) .
+Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg425925(v=OCS.15)) .
 
 </div>
 

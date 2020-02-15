@@ -1,5 +1,5 @@
 ---
-title: Requisitos del puerto 2013 de Lync Server
+title: Requisitos del puerto de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 584d1c8391f0393711b2caf6de46a0df6c437c51
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb1e0668ffc482b0c2987326aa2f09e1888e48bc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747660"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034742"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-requirements-for-lync-server-2013"></a>Requisitos de puerto para Lync Server 2013
+# <a name="port-requirements-for-lync-server-2013"></a>Requisitos de puertos para Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41747660"
 
 _**Última modificación del tema:** 2013-03-27_
 
-Lync Server requiere que los puertos específicos del firewall estén abiertos. Además, si se ha implementado el protocolo de seguridad de Internet (IPSec) en la organización, IPSec debe estar deshabilitado en el intervalo de puertos que se usa para la entrega de audio, vídeo y vídeo panorámico.
+Lync Server requiere que estén abiertos los puertos específicos del firewall. Además, si se ha implementado el protocolo de seguridad de Internet (IPSec) en la organización, IPSec debe estar deshabilitado en el intervalo de puertos usado para la entrega de audio, vídeo y vídeo panorámico.
 
 <div>
 
@@ -49,19 +49,19 @@ Esta sección incluye los siguientes temas:
 
   - [Excepciones de IPsec en Lync Server 2013](lync-server-2013-ipsec-exceptions.md)
 
-  - [Resumen de puerto - Perímetro consolidado de un solo equipo con direcciones IP privadas mediante NAT en Lync Server 2013](lync-server-2013-port-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
+  - [Resumen de Puerto-perímetro consolidado de un solo servidor con direcciones IP privadas mediante NAT en Lync Server 2013](lync-server-2013-port-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
 
-  - [Resumen de puerto - Perímetro consolidado de equipo único con direcciones IP públicas en Lync Server 2013](lync-server-2013-port-summary-single-consolidated-edge-with-public-ip-addresses.md)
+  - [Resumen de Puerto-perímetro consolidado de un solo servidor con direcciones IP públicas en Lync Server 2013](lync-server-2013-port-summary-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [Resumen de puerto - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT en Lync Server 2013](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [Resumen de Puerto-servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT en Lync Server 2013](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [Resumen de puerto - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [Resumen de Puerto-servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [Resumen de puerto - Servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013](lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [Resumen de Puerto-servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013](lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-  - [Resumen de puerto - Proxy inverso en Lync Server 2013](lync-server-2013-port-summary-reverse-proxy.md)
+  - [Resumen de Puerto-proxy inverso en Lync Server 2013](lync-server-2013-port-summary-reverse-proxy.md)
 
-  - [Resumen de puertos: SIP, Federación XMPP y mensajería instantánea pública en Lync Server 2013](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [Resumen de Puerto-SIP, Federación XMPP y mensajería instantánea pública en Lync Server 2013](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
 </div>
 

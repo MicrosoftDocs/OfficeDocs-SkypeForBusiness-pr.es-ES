@@ -12,16 +12,16 @@ ms:contentKeyID: 49733662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2085eb133fa38231af2d223928796300d553e3c1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 681ed50132900e9db269b59d86ca18a022d4a428
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757994"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034862"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41757994"
 
 _**Última modificación del tema:** 2013-02-21_
 
-Puede configurar vínculos entre dos regiones de red como parte de control de admisión de llamadas (CAC).
+Puede configurar vínculos entre dos regiones de red como parte del control de admisión de llamadas.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Visualización de la información del vínculo región de red en Lync Server 2013](lync-server-2013-viewing-network-region-link-information.md)
+  - [Ver la información del vínculo de región de red en Lync Server 2013](lync-server-2013-viewing-network-region-link-information.md)
 
-  - [Configuración de vínculos de regiones de red en Lync Server 2013](lync-server-2013-configuring-network-region-links.md)
+  - [Configuración de vínculos de región de red en Lync Server 2013](lync-server-2013-configuring-network-region-links.md)
 
-  - [Eliminar vínculos de regiones de red en Lync Server 2013](lync-server-2013-deleting-network-region-links.md)
+  - [Eliminación de vínculos de regiones de red en Lync Server 2013](lync-server-2013-deleting-network-region-links.md)
 
 </div>
 

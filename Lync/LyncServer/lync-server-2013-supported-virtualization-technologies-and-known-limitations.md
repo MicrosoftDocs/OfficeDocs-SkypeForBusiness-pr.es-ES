@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tecnologías de virtualización admitidas y limitaciones comunes'
+title: 'Lync Server 2013: tecnologías de virtualización admitidas y limitaciones conocidas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184428
 ms.date: 02/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf513e9dee4e6a27708c8882519099c825f903f2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 387290f8fb7ab88dcb7bc987c38c4a2e3e71ec5e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731650"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006802"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-virtualization-technologies-and-known-limitations-in-lync-server-2013"></a>Tecnologías de virtualización admitidas y limitaciones comunes en Lync Server 2013
+# <a name="supported-virtualization-technologies-and-known-limitations-in-lync-server-2013"></a>Tecnologías de virtualización admitidas y limitaciones conocidas en Lync Server 2013
 
 </div>
 
@@ -37,51 +37,51 @@ ms.locfileid: "41731650"
 
 _**Última modificación del tema:** 2017-02-06_
 
-El complemento VDI para Lync permite llamadas de audio y vídeo para tecnologías de virtualización compatibles. Esto extiende la funcionalidad descrita para Microsoft Lync Server 2010 en las notas del producto [de virtualización de cliente en Microsoft lync 2010](https://go.microsoft.com/fwlink/?linkid=330447) . Conforme a las normativas estándar para teléfonos, también se incluye compatibilidad con E911. En las siguientes secciones se describen las tecnologías de virtualización admitidas por el complemento VDI de Lync y las limitaciones de las características conocidas.
+El complemento de VDI de Lync permite llamadas de audio y vídeo para tecnologías de virtualización compatibles. Esto amplía la funcionalidad que se describe en Microsoft Lync Server 2010 en las notas del producto [de virtualización de clientes en Microsoft lync 2010](https://go.microsoft.com/fwlink/?linkid=330447) . De acuerdo con las regulaciones telefónicas estándar, también se incluye compatibilidad con E911. En las siguientes secciones se describen las tecnologías de virtualización que son compatibles con el complemento VDI de Lync y las limitaciones de características conocidas.
 
 <div>
 
-## <a name="support-for-virtualization-technologies"></a>Soporte de tecnologías de virtualización
+## <a name="support-for-virtualization-technologies"></a>Compatibilidad con tecnologías de virtualización
 
-El complemento de VDI para Lync es compatible con el entorno remoto de escritorio completo en el escenario de escritorio virtual personal, pero no en el escenario de sesión de escritorio remoto. Estos entornos pueden describirse así:
+El complemento de VDI de Lync admite la comunicación remota de escritorio completa en el escenario de escritorio virtual personal, pero no en el escenario de sesión de escritorio remoto. Estos escenarios se pueden describir de la siguiente manera:
 
-  - **Compatible: escritorios virtuales personalizados o infraestructura de escritorio virtual (VDI).**    En este escenario, cada usuario inicia sesión en un escritorio virtual personalizable y puede guardar archivos en el escritorio que permanecen entre sesiones. Los servicios de escritorio remoto de Microsoft, la vista de horizonte de VMware y Citrix XenDesktop son implementaciones probadas para su uso con Lync. Para obtener información sobre los entornos de VDI específicos del proveedor y el hardware de cliente que Microsoft ha probado, consulte [infraestructura cualificada para Microsoft Lync](https://go.microsoft.com/fwlink/?linkid=313435).
+  - **Se admite: escritorios virtuales personalizados o infraestructura de escritorio virtual (VDI).**    En este escenario, cada usuario inicia sesión en un escritorio virtual personalizable y puede guardar archivos en el escritorio que se conservan entre sesiones. Los servicios de escritorio remoto de Microsoft, la vista del horizonte de VMware y Citrix XenDesktop son implementaciones que se han probado para su uso con Lync. Para obtener información sobre entornos VDI específicos del proveedor y hardware de cliente que han sido probados por Microsoft, consulte [infraestructura apta para Microsoft Lync](https://go.microsoft.com/fwlink/?linkid=313435).
 
-  - **No admitido: sesiones de escritorio remoto.**    En este escenario, cada usuario inicia sesión en una sesión de escritorio virtual genérica que no se puede personalizar. Algunos ejemplos de implementaciones son las sesiones de escritorio remoto de Microsoft (RDSH) y Citrix XenApp combinadas con Citrix Receiver.
+  - **No admitido: sesiones de escritorio remoto.**    En este escenario, cada usuario inicia sesión en una sesión de escritorio virtual genérica que no se puede personalizar. Las implementaciones de ejemplo incluyen sesiones de escritorio remoto de Microsoft (RDSH) y Citrix XenApp junto con el receptor Citrix.
 
-El complemento de VDI para Lync no admite otras tecnologías de virtualización, como la virtualización de aplicaciones, que permite el uso de una aplicación sin requerir la instalación de la aplicación completa de forma local. Algunos ejemplos de implementaciones son Citrix XenApp y Microsoft Application Virtualization (App-V). El streaming de aplicaciones, la comunicación remota de aplicaciones y los modos mixtos de virtualización (por ejemplo, la comunicación remota de aplicaciones en la comunicación remota de escritorio completa) no se admiten.
+El complemento de VDI de Lync no admite otras tecnologías de virtualización, como la virtualización de aplicaciones, que permite el uso de una aplicación sin necesidad de instalar la aplicación completa de forma local. Las implementaciones de ejemplo incluyen Citrix XenApp y Microsoft Application Virtualization (App-V). No se admiten la transmisión por secuencias de aplicaciones, la comunicación remota de aplicaciones y los modos mixtos de virtualización (por ejemplo, el acceso remoto de aplicaciones en el entorno remoto de escritorio completo).
 
-Para permitir la extensibilidad, el complemento de VDI para Lync se diseñó para usar las API independientes de la plataforma denominadas canales virtuales dinámicos (DVCs). Para escenarios que no son explícitamente compatibles con Lync, consulte declaraciones de soporte técnico del proveedor de soluciones de VDI.
+Para permitir la extensibilidad, el complemento de VDI de Lync se diseñó para usar API independientes de la plataforma denominadas canales virtuales dinámicos (DVC). Para escenarios que no son compatibles de forma explícita con Lync, consulte las instrucciones de compatibilidad del proveedor de la solución de VDI.
 
 </div>
 
 <div>
 
-## <a name="known-feature-limitations"></a>Limitaciones comunes de la funciones
+## <a name="known-feature-limitations"></a>Limitaciones de las características conocidas
 
-A continuación se muestran algunas limitaciones conocidas al usar Lync 2013 en un entorno de VDI:
+A continuación se indican las limitaciones conocidas al usar Lync 2013 en un entorno de VDI:
 
-  - La delegación de llamadas y las características de anonymization de grupo de respuesta son limitadas.
+  - La delegación de llamadas y las características de anonymization del agente de grupo de respuesta tienen compatibilidad limitada.
 
   - No se admiten estas características:
     
       - Las páginas de ajuste del dispositivo de audio y de vídeo integrados.
     
-      - El vídeo de múltiples vistas.
+      - Vídeo de varias vistas.
     
       - La grabación de las conversaciones.
     
       - Servicios de escritorio remoto (RDS).
     
-      - Unirse a reuniones de forma anónima (es decir, unirse a reuniones de Lync hospedadas por una organización que no se federan con su organización).
+      - Unirse a reuniones de forma anónima (es decir, unirse a reuniones de Lync hospedadas por una organización que no se federa con la organización).
     
-      - Usar el complemento VDI de Lync junto con un dispositivo de Lync Phone Edition.
+      - Usar el complemento de VDI de Lync junto con un dispositivo de Lync Phone Edition.
     
       - La continuación de llamadas en caso de una interrupción de la red.
     
-      - Las características de tonos de llamada personalizados y de música en espera.
+      - Tonos personalizados y características de música en espera.
 
-  - El complemento de VDI para Lync no es compatible en un entorno de Office 365.
+  - El complemento de VDI para Lync no es compatible con un entorno de Office 365.
 
 </div>
 

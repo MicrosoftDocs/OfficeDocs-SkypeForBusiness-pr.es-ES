@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: usar el panel de supervisión'
+title: 'Lync Server 2013: uso del panel de supervisión'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 929d0fbc650a7b067d86738e5ded176a15c511f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 643cbc55730d8efb1520ed88c40977c90e35f2fa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743880"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007489"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-the-monitoring-dashboard-in-lync-server-2013"></a>Usar el panel de supervisión de Lync Server 2013
+# <a name="using-the-monitoring-dashboard-in-lync-server-2013"></a>Uso del panel de supervisión en Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41743880"
 
 _**Última modificación del tema:** 2014-02-05_
 
-El panel de supervisión proporciona a los administradores una breve descripción general del uso del sistema y el estado del sistema de Microsoft Lync Server 2013. El panel está diseñado para mostrar una vista agregada de métricas del sistema clave y para hacerlo mostrando:
+El panel de supervisión proporciona a los administradores una introducción rápida del uso del sistema y el estado del sistema de Microsoft Lync Server 2013. El panel está diseñado para mostrar una vista agregada de métricas del sistema clave y para hacerlo mostrando:
 
-  - Los totales del día en curso. Tenga en cuenta que los valores que aparecen para el día en curso representan los datos registrados desde medianoche hasta la hora en curso (basada en la hora local del servidor de informes). Esto quiere decir que normalmente verá datos de parte de un día y no de un período de 24 horas. Por ejemplo, si para el servidor son las 8 de la mañana, verá datos correspondientes a ocho horas, es decir, los datos del período transcurrido entre medianoche y la hora actual (8 de la mañana).
+  - Totales del día actual. Tenga en cuenta que los valores que se muestran para el día actual representan datos que se han registrado desde medianoche hasta la hora actual (en función de la hora local del servidor de informes). Esto significa que normalmente estará viendo los datos de un día parcial y no durante un período de 24 horas. Por ejemplo, si la hora local del servidor es 8:00 A.M., verá ocho horas de datos porque hay ocho horas entre la medianoche y el tiempo actual de 8:00 AM.
 
-  - Los totales de la semana y las tendencias de los totales en las últimas seis semanas.
+  - Los totales de la semana y las tendencias de los totales de las seis últimas semanas.
 
-  - Los totales del mes y las tendencias de los totales en los últimos seis meses (solo para el uso del sistema).
+  - Los totales del mes y los totales de tendencia para los últimos seis meses (solo para el uso del sistema).
 
-Tenga en cuenta que puede usar el cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsReportingConfiguration) para devolver la dirección URL que se usa para acceder a los informes de supervisión de Lync Server 2013:
+Tenga en cuenta que puede usar el cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsReportingConfiguration) para devolver la dirección URL usada para obtener acceso a los informes de supervisión de Lync Server 2013:
 
     Get-CsReportingConfiguration
 
-Normalmente, el panel de supervisión muestra los datos de la semana de las métricas siguientes (y las tendencias de los totales de las seis semanas anteriores):
+De forma predeterminada, el panel de supervisión muestra los datos de las siguientes métricas para la semana actual (y los totales de tendencia de las seis semanas anteriores):
 
 <div>
 
@@ -75,7 +75,7 @@ Normalmente, el panel de supervisión muestra los datos de la semana de las mét
 
   - Media de minutos de sesiones de audio
 
-**Una conferencia**
+**Conversación**
 
   - Total de conferencias
 
@@ -91,7 +91,7 @@ Normalmente, el panel de supervisión muestra los datos de la semana de las mét
 
   - Total de minutos de conferencia A/V
 
-  - Media de minutos de conferencia A/V
+  - Lecturas. Minutos de conferencia A/V
 
   - Total de conferencias RTC
 
@@ -99,7 +99,7 @@ Normalmente, el panel de supervisión muestra los datos de la semana de las mét
 
   - Total de minutos de participantes RTC
 
-Además de las métricas de uso del sistema, las métricas siguientes muestran el total del día actual y de los seis días anteriores (si selecciona **Vista semanal**) o de la semana actual y de las seis semanas anteriores, si selecciona **Vista mensual**.
+Además de las métricas de uso del sistema, las métricas siguientes muestran el total del día actual y los seis días anteriores (si selecciona la **vista semanal**) o para la semana actual y las seis últimas semanas si selecciona la **vista mensual**.
 
 </div>
 
@@ -115,7 +115,7 @@ Además de las métricas de uso del sistema, las métricas siguientes muestran e
 
 **Usuarios con llamadas de calidad deficiente**
 
-  - Total de usuarios con llamadas de mala calidad
+  - Total de usuarios con llamadas de calidad deficiente
 
 </div>
 
@@ -127,27 +127,27 @@ Punto a punto
 
   - Total de errores
 
-  - Porcentaje general de errores
+  - Porcentaje de errores generales
 
   - Porcentaje de errores de mensajería instantánea
 
   - Porcentaje de errores de audio
 
-  - Porcentaje de errores de uso compartido de aplicaciones
+  - Tasa de errores de uso compartido de aplicaciones
 
-Una conferencia
+Conversación
 
   - Total de errores
 
-  - Porcentaje general de errores
+  - Porcentaje de errores generales
 
   - Porcentaje de errores de mensajería instantánea
 
   - Porcentaje de errores de A/V
 
-  - Porcentaje de errores de uso compartido de aplicaciones
+  - Tasa de errores de uso compartido de aplicaciones
 
-5 servidores principales por sesiones con error
+Cinco servidores principales por sesiones con error
 
 </div>
 
@@ -161,17 +161,17 @@ Punto a punto
 
   - Porcentaje de llamadas de calidad deficiente
 
-  - Total de llamadas RTC de calidad deficiente
+  - Llamadas RTC con mala calidad
 
-Una conferencia
+Conversación
 
   - Total de llamadas de calidad deficiente
 
   - Porcentaje de llamadas de calidad deficiente
 
-  - Total de llamadas RTC de calidad deficiente
+  - Llamadas RTC con mala calidad
 
-Los peores servidores por porcentaje de llamadas de calidad deficiente
+Principales servidores con un porcentaje de llamadas de mala calidad
 
 </div>
 
@@ -179,31 +179,31 @@ Los peores servidores por porcentaje de llamadas de calidad deficiente
 
 ## <a name="working-with-the-monitoring-dashboard"></a>Trabajar con el panel de supervisión
 
-Tal como hemos indicado, se muestran los totales predeterminados de la semana en curso y los valores de las tendencias de las seis últimas semanas. Si prefiere ver los totales del mes actual (así como los valores de las tendencias de los últimos seis meses), haga clic en el vínculo **Vista mensual** de la esquina superior derecha del panel. Si decide ver los totales mensuales, el texto del vínculo cambiará a **Vista semanal**. Puede volver a la vista semanal haciendo clic en el vínculo.
+Como se indicó, de forma predeterminada, se muestran los totales de la semana actual y se muestran los valores de tendencia de las seis últimas semanas. Si prefiere ver los totales del mes actual (así como los valores de tendencia de los últimos seis meses), haga clic en el vínculo **vista mensual** en la esquina superior derecha del panel. Si decide ver los totales mensuales, el texto del vínculo cambiará a la **vista semanal**. Puede volver a la vista semanal haciendo clic en ese vínculo.
 
 <div>
 
 
 > [!TIP]  
-> El panel de supervisión le limita la consulta a los totales de la semana en curso (o el mes en curso) y a los valores de las tendencias de las seis últimas semanas (o seis últimos meses). Estas fechas y horas no se pueden cambiar. Por ejemplo, con el panel no se pueden ver los totales de informe de un período que se inició nueve meses antes.
+> El panel de supervisión le limita a mirar los totales de la semana en curso (o mes) y los valores de tendencia de las seis últimas semanas (o meses). No puede cambiar estas fechas y horas. Por ejemplo, no puede usar el panel para ver totales de informes para el período de tiempo que comienza nueve meses.
 
 
 
 </div>
 
-Los valores que aparecen en las columnas **Esta semana**, **Este mes** u **Hoy** le vinculan a información más detallada sobre el elemento. Tenga en cuenta que el nombre de la columna y los valores que aparecen en ella cambiarán a menudo en función de la métrica elegida y en función de si ha seleccionado vista semanal o vista mensual. Por ejemplo, si hace clic en los totales que aparecen en la métrica **Inicios de sesión de usuario únicos**, verá el **Informe de registro de usuario** del período de tiempo especificado. Puede volver al panel de supervisión en cualquier momento, haciendo clic en **Panel**.
+Los valores que se muestran en las columnas **esta semana**, **este mes**o **hoy** le vinculan a información más detallada sobre el elemento. Tenga en cuenta que el nombre de columna y los valores que se muestran en la columna con frecuencia serán distintos en función de la métrica elegida y dependiendo de si ha seleccionado la vista semanal o mensual. Por ejemplo, si hace clic en los totales que se muestran para la métrica de **inicios de sesión de usuario únicos** , verá el **Informe de registro de usuario** para el período de tiempo especificado. Puede volver al panel de supervisión en cualquier momento haciendo clic en **Panel**.
 
 <div>
 
 
 > [!TIP]  
-> También puede acceder a la Página principal de informes del servidor de supervisión haciendo clic en el vínculo <STRONG>informes</STRONG> , en la esquina superior derecha del panel.
+> También puede acceder a la Página principal de informes del servidor de supervisión haciendo clic en el vínculo <STRONG>informes</STRONG> de la esquina superior derecha del panel.
 
 
 
 </div>
 
-La columna **Tendencia** muestra un gráfico de línea sencilla con los totales de las últimas seis semanas (o, en función de la métrica y del intervalo de tiempo, los últimos seis días o seis meses). Estos gráficos de línea sencilla muestran un punto de datos sin etiquetar por cada período de tiempo (por ejemplo, un punto de datos sin etiquetar por cada una de las seis últimas semanas). Ahora bien, puede recuperar los valores reales de estos gráficos manteniendo el puntero del mouse sobre el gráfico. En ese caso, la información sobre herramientas muestra los valores máximos y mínimos en el gráfico.
+La columna **tendencia** muestra un gráfico de líneas simple que muestra los totales de las seis últimas semanas (o en función de la métrica y el intervalo de tiempo, los últimos seis días o los últimos seis meses). Estos gráficos de líneas simples muestran un punto de datos sin etiquetar para cada período de tiempo (por ejemplo, un punto de datos sin etiquetar para cada una de las seis últimas semanas). Sin embargo, puede recuperar los valores reales de estos gráficos manteniendo el puntero del mouse sobre el gráfico. En ese caso, una información sobre herramientas muestra los valores máximos y mínimos en el gráfico.
 
 </div>
 
@@ -211,7 +211,7 @@ La columna **Tendencia** muestra un gráfico de línea sencilla con los totales 
 
 ## <a name="exporting-data-from-the-monitoring-dashboard"></a>Exportar datos desde el panel de supervisión
 
-El panel de supervisión proporciona varias formas de exportar la vista del panel actual. En la barra de herramientas del panel, verá un icono con el aspecto de un disquete con una flecha verde vinculada. Si hace clic en el icono, aparecerá una lista desplegable que le presentará los siguientes formatos de exportación de datos:
+El panel de supervisión ofrece varias formas de exportar la vista del panel actual. En la barra de herramientas del panel, verá un icono similar a un disquete con una flecha verde adjunta. Si hace clic en este icono, aparecerá una lista desplegable que proporciona los siguientes formatos de exportación de datos:
 
   - Archivo XML con datos de informe
 
@@ -221,29 +221,29 @@ El panel de supervisión proporciona varias formas de exportar la vista del pane
 
   - Archivo MHTML (archivo web)
 
-  - Archivo de Excel
+  - Excel
 
   - Archivo TIFF
 
-  - Archivo de Word
+  - Word
 
-Para exportar la vista de panel actual (y sus valores), haga clic en la opción de exportación deseada. Lync Server 2013 genera un informe en el formato especificado y, a continuación, le ofrece la opción de abrir ese informe o guardarlo. Tenga en cuenta que, de forma predeterminada, Lync Server títulos el **Panel de supervisión** de informes y lo guarda en la carpeta descargas. Para darle al informe otro nombre o guardarlo en otra carpeta, haga clic en la flecha situada al lado del botón **Guardar** y después haga clic en **Guardar como**. Si le parece bien el nombre **Panel de supervisión** y está de acuerdo en guardar el informe en la carpeta Descargas, solo tiene que hacer clic en el botón **Guardar**.
+Para exportar la vista del panel actual (y sus valores), haga clic en la opción de exportación que desee. Lync Server 2013 genera un informe en el formato especificado y, a continuación, ofrece la opción de abrir el informe o guardarlo. Tenga en cuenta que, de forma predeterminada, Lync Server títulos el **Panel de supervisión** de informes y lo guarda en la carpeta descargas. Para dar al informe un nombre diferente o para almacenarlo en una carpeta diferente, haga clic en la flecha situada junto al botón **Guardar** y, a continuación, haga clic en **Guardar como**. Si está bien con el **Panel de supervisión** de nombres y si tiene el informe guardado en la carpeta descargas, solo tiene que hacer clic en el botón **Guardar** .
 
-Es posible que, cuando intente exportar datos del panel, aparezca el cuadro de diálogo **Alerta de seguridad** junto con el mensaje "La configuración actual no permite descargar este archivo". Si ocurre esto, haga lo siguiente:
+Es posible que, al intentar exportar datos de panel, aparezca un cuadro de diálogo de **alerta de seguridad** junto con el mensaje "la configuración actual no permite la descarga de este archivo". Si esto ocurre, haga lo siguiente:
 
   - En Internet Explorer, seleccione **Opciones de Internet**.
 
-  - En el cuadro de diálogo **Opciones de Internet**, en la pestaña **Seguridad**, haga clic en **Sitios de confianza** y después en **Sitios**.
+  - En el cuadro de diálogo **Opciones de Internet** , en la ficha **seguridad** , haga clic en **sitios de confianza** y, a continuación, en **sitios**.
 
-  - En el cuadro de diálogo **sitios de confianza** , haga clic en **Agregar** para agregar el Lync Server 2013 que ejecuta los informes de Lync Server 2013 a las colecciones de sitios web de confianza.
+  - En el cuadro de diálogo **sitios de confianza** , haga clic en **Agregar** para agregar los informes de Lync Server 2013 que ejecutan Lync Server 2013 a las colecciones de sitios web de confianza.
 
-  - Haga clic en **Cerrar** y, luego, en **Aceptar**.
+  - Haga clic en **cerrar** y, a continuación, en **Aceptar**.
 
-Necesitará actualizar el panel de supervisión antes de que entren en vigor los cambios. Para ello, presione F5 o haga clic en el icono **Actualizar** de la barra de herramientas del panel (el icono **Actualizar** es un círculo que contiene un par de flechas verdes).
+Tendrá que actualizar el panel de supervisión antes de que los cambios surtan efecto. Para ello, presione F5 o haga clic en el icono **Actualizar** de la barra de herramientas del panel. (El icono de **actualización** es un círculo con un par de flechas verdes en él.)
 
-También puede crear una hoja de cálculo de Excel que contenga fuentes de datos activos, lo que incluye vínculos con los últimos datos del panel de supervisión. Para crear un archivo de fuentes de datos activos, haga clic en el icono naranja **Exportar a fuente de datos** de la barra de herramientas.
+También puede crear una hoja de cálculo de Excel que incluya fuentes de datos activos, que incluye vínculos a los últimos datos del panel de supervisión. Para crear un archivo de fuente de datos activo, haga clic en el icono naranja **exportar a la fuente de datos** de la barra de herramientas.
 
-Si prefiere imprimir el panel actual, haga clic en el icono de la impresora de la barra de herramientas.
+Si prefiere imprimir el panel actual, haga clic en el icono de la impresora en la barra de herramientas.
 
 </div>
 

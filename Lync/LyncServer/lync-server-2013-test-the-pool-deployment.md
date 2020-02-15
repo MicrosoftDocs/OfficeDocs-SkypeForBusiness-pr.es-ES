@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Probar la implementación del grupo de servidores'
+title: 'Lync Server 2013: probar la implementación del grupo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185976
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfde95e7323d68f05e78f670a6b027a5949f0169
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 46f656453b6ad6eee3eaf8fc0bbc8c26f308fe35
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746070"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42019021"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,24 +37,24 @@ ms.locfileid: "41746070"
 
 _**Última modificación del tema:** 2013-09-25_
 
-En el procedimiento siguiente se describe cómo probar la implementación del grupo de servidores front-end.
+El siguiente procedimiento describe cómo probar la implementación del grupo de servidores front-end.
 
 <div>
 
-## <a name="to-test-the-pool-deployment"></a>Para probar la implementación de la agrupación
+## <a name="to-test-the-pool-deployment"></a>Para probar la implementación del grupo
 
-1.  Use equipos y usuarios de Active Directory para agregar el objeto de usuario de Active Directory de la función Administrador de la implementación de Lync Server 2013 (en la que está instalado el panel de control de Lync Server 2013) en el grupo **CSAdministrator** .
+1.  Use usuarios y equipos de Active Directory para agregar el objeto de usuario de Active Directory del rol de administrador para la implementación de Lync Server 2013 (en el que está instalado el panel de control de Lync Server 2013) al grupo **CSAdministrator** .
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Si no agrega los usuarios y grupos adecuados al grupo CsAdministors, recibirá un error al abrir el panel de control de Lync Server, que indica "no autorizado: acceso denegado debido a un error de autorización de control de acceso basado en roles (RBAC)."
+    > Si no agrega los usuarios y grupos adecuados al grupo CsAdministors, recibirá un error al abrir el panel de control de Lync Server, lo que indica que "no autorizado: acceso denegado debido a un error de autorización de control de acceso basado en roles (RBAC)."
 
     
     </div>
 
-2.  Si actualmente el objeto de usuario ha iniciado sesión, cierre sesión y, luego, vuelva a iniciarla para registrar la nueva asignación de grupo.
+2.  Si el objeto de usuario ha iniciado sesión, cierre sesión y, a continuación, vuelva a iniciar sesión para registrar la nueva asignación de grupo.
     
     <div>
     
@@ -67,23 +67,23 @@ En el procedimiento siguiente se describe cómo probar la implementación del gr
 
 3.  Use la cuenta administrativa para iniciar sesión en el equipo en el que está instalado el panel de control de Lync Server.
 
-4.  Inicie el panel de control de Lync Server y, si se le solicita, proporcione las credenciales. El panel de control de Lync Server muestra información de implementación.
+4.  Inicie el panel de control de Lync Server y, si se le pide, proporcione las credenciales. El panel de control de Lync Server muestra la información de implementación.
 
-5.  En la barra de navegación izquierda, haga clic en **topología**y, a continuación, confirme que el estado del servicio muestra un equipo con una flecha verde y que una marca de verificación verde para el estado de replicación está junto a cada rol de servidor de Lync Server que se ha implementado y se ha puesto en conexión.
+5.  En la barra de navegación izquierda, haga clic en **topología**y, a continuación, confirme que el estado del servicio muestra un equipo con una flecha verde y que una marca de verificación verde para el estado de replicación es junto a cada rol de servidor de Lync Server que se ha implementado y se ha puesto en línea.
 
-6.  En la barra de navegación izquierda, haga clic en **Usuarios** y, luego, haga clic en **Habilitar usuarios**.
+6.  En la barra de navegación izquierda, haga clic en **Usuarios** y haga clic en **Habilitar usuarios**.
 
-7.  En la página **nuevo usuario de Lync Server** , haga clic en **Agregar**.
+7.  En la página **Nuevo usuario de Lync Server**, haga clic en **Agregar**.
 
-8.  Para definir parámetros de búsqueda de los objetos que quiera encontrar, en la página **Seleccionar de Active Directory**, seleccione **Buscar** y, si lo desea, haga clic en **Agregar filtro**. También puede seleccionar **Búsqueda LDAP** y especificar una expresión de LDAP para filtrar o limitar los objetos que se devolverán. Una vez que haya decidido las opciones de búsqueda, **Busque**vínculos de vínculos.
+8.  Para definir parámetros de búsqueda de los objetos que quiera encontrar, en la página **Seleccionar de Active Directory** seleccione **Buscar** y, si lo desea, haga clic en **Agregar filtro**. También puede seleccionar **Búsqueda LDAP** y especificar una expresión de LDAP para filtrar o limitar los objetos que se devolverán. Una vez establecidas las opciones de búsqueda, haga clic en **Buscar**.
 
-9.  En el panel Resultados de la búsqueda, seleccione todos los objetos de esta sesión de búsqueda y, a continuación, haga clic en **Aceptar**.
+9.  En en el panel de resultados de la búsqueda, seleccione todos los objetos de esta sesión de búsqueda y haga clic en **Aceptar**.
 
-10. En la página **nuevo usuario de Lync Server** , el objeto o los objetos que haya seleccionado aparecerán en la pantalla **usuarios** . En la lista **asignar usuarios a un grupo** , seleccione el servidor en el que se deben alojar los objetos.
+10. En la página **Nuevo usuario de Lync Server** el objeto o los objetos seleccionados están en la pantalla **Usuarios**. En la lista **Asignar usuarios a un grupo**, seleccione el servidor en el que se deben hospedar los objetos.
     
-    A continuación se muestran varias opciones para configurar los objetos.
+    A continuación se presentan una serie de opciones para configurar los objetos.
     
-      - **Generar el URI de SIP del usuario**
+      - **Generar el URI del SIP del usuario**
     
       - **Telefonía**
     
@@ -91,7 +91,7 @@ En el procedimiento siguiente se describe cómo probar la implementación del gr
     
       - **Directiva de conferencia**
     
-      - **Directiva de versión de cliente**
+      - **Directiva de versión de clientes**
     
       - **Directiva de PIN**
     
@@ -103,13 +103,13 @@ En el procedimiento siguiente se describe cómo probar la implementación del gr
     
       - **Directiva de cliente**
     
-    A fin de probar la funcionalidad básica, seleccione la opción que prefiera para la configuración de **URI de SIP del usuario** (las demás opciones de la configuración usarán la configuración predeterminada) y, a continuación, haga clic en **Habilitar**.
+    Para probar la funcionalidad básica, seleccione la opción que prefiera para el parámetro **Generar el URI del SIP de usuario** (las otras opciones de la configuración usan los valores predeterminados) y haga clic en **Habilitar**.
 
-11. Se muestra una página de resumen que muestra una marca de verificación en la columna **habilitada** para indicar que los objetos ya están listos para su uso. En la columna **Dirección SIP** figura la dirección que se necesita para configurar el inicio de sesión del usuario.
+11. En pantalla se muestra una página de resumen con una marca de verificación en la columna **Habilitado** para indicar que los objetos ya están listos para usarse. En la columna **Dirección SIP** figura la dirección que se necesita para configurar el inicio de sesión del usuario.
 
-12. Iniciar sesión de un usuario en un equipo que se une al dominio y otro usuario en otro equipo del dominio.
+12. Un usuario debe iniciar sesión en un equipo integrado en el dominio y otro usuario, en otro equipo del dominio.
 
-13. Instale Lync 2013 en cada uno de los dos equipos cliente y, a continuación, compruebe que ambos usuarios pueden iniciar sesión en Lync Server 2013 y pueden enviar mensajes instantáneos entre sí.
+13. Instale Lync 2013 en cada uno de los dos equipos cliente y, a continuación, compruebe que ambos usuarios puedan iniciar sesión en Lync Server 2013 y que puedan enviar mensajes instantáneos entre sí.
 
 </div>
 

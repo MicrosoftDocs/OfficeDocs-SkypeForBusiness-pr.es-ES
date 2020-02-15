@@ -12,16 +12,16 @@ ms:contentKeyID: 63969597
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26e7de821dee778d4b0b1e9aa105669635abaf6c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 861d927053e05c395c39118910032df41566b32e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755814"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034080"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,11 +37,11 @@ ms.locfileid: "41755814"
 
 _**Última modificación del tema:** 2015-05-15_
 
-La arquitectura de referencia que se describe en este documento le ayudará a asegurarse de que tiene una implementación de Lync Server 2013 que no solo escala a los requisitos de la organización, sino que está diseñado según las prácticas recomendadas de Microsoft. Asegúrese de que la implementación de Lync Server 2013 es un servicio dinámico y, al igual que cualquier otro servicio de la empresa, aún requiere supervisión y administración proactiva para mantener un alto nivel de disponibilidad de servicio y calidad de servicio para la empresa.
+La arquitectura de referencia que se describe en este documento le ayudará a asegurarse de que tiene una implementación de Lync Server 2013 que no solo escala a los requisitos de la organización, sino que está diseñada según los procedimientos recomendados de Microsoft. Asegúrese de que la implementación de Lync Server 2013 es un servicio dinámico y, al igual que cualquier otro servicio de la empresa, sigue necesitando supervisión y administración proactiva para mantener un alto nivel de disponibilidad de servicio y calidad de servicio para la empresa.
 
-Puesto que Lync Server 2013 se hace profundamente ingranulario en las empresas cotidianas de la organización, es importante que el servicio se administre mediante una administración de nivel de servicio precisa y tangible. La arquitectura del sistema de Lync puede ser compleja y muy integrada, y para mantener la administración del nivel de servicio eficaz y establecer SLAs para Lync Server 2013 es fundamental comprender las dependencias del sistema en otras plataformas y servidores. Igualmente importante es anotar qué servicios empresariales, como las aplicaciones integradas de voz y comunicaciones, se convierten en dependientes en Lync.
+Como Lync Server 2013 se convierte en profundidad en las actividades cotidianas de la organización, es importante que el servicio se administre con una administración de niveles de servicio precisa y tangible. La arquitectura del sistema Lync puede llegar a ser compleja y muy integrada y para mantener una administración eficaz del nivel de servicio y establecer SLAs para Lync Server 2013 se convierte en crítica para comprender las dependencias del sistema en otras plataformas y servidores. Igualmente importante es tener en cuenta qué servicios empresariales, como las aplicaciones integradas de voz y de comunicaciones unificadas, se convierten en independientes en Lync.
 
-Lync Server 2013 debe establecerse con todas las dependencias mencionadas. El mapa de servicio le permitirá formular un SLA entre Lync y su servicio dependiente y proporcionar un lugar de inicio para la negociación de SLA.
+Lync Server 2013 debe establecerse teniendo en cuentan todas las dependencias mencionadas. El mapa de servicio le permitirá formular un SLA entre Lync y su servicio dependiente y proporcionar un punto de partida para la negociación del SLA.
 
 En la siguiente tabla se enumeran los servicios de dependencia típicos para una infraestructura de Lync. Cada una de estas tecnologías debe tener su propia supervisión proactiva.
 
@@ -96,7 +96,7 @@ En la siguiente tabla se enumeran los servicios de dependencia típicos para una
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Infraestructura de red-Internet</p></td>
+<td><p>Infraestructura de red: Internet</p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -115,9 +115,9 @@ En la siguiente tabla se enumeran los servicios de dependencia típicos para una
 </table>
 
 
-Se supone que la organización se ha consolidado en el ejercicio de las funciones básicas de administración del nivel de servicio, como la administración de cambios, incidentes y versiones, según lo prescribe el MOF. Las soluciones de Lync deben ser adoptadas por estas funciones y están sujetas a los mismos procesos de administración operativos.
+Se supone que la organización es una tarea muy madura para ejercitar las funciones básicas de administración de nivel de servicio, como la administración de cambios, incidentes y versiones, como se indica en el MOF. La solución de Lync debe ser adoptada por estas funciones y estar sujeta a los mismos procesos de administración operativos.
 
-Partiendo de la información obtenida anteriormente, ahora tenemos una mayor comprensión de lo que puede afectar al servicio Lync en la empresa. Para garantizar la calidad y disponibilidad del servicio de Lync Server 2013, las siguientes herramientas de supervisión deben acompañar a la implementación de arquitectura de referencia:
+A partir de la información obtenida anteriormente, ahora tenemos un conocimiento más profundo de lo que puede afectar al servicio Lync en la empresa. Para ayudar a garantizar la calidad y disponibilidad del servicio de Lync Server 2013, las siguientes herramientas de supervisión deben acompañar a la implementación de la arquitectura de referencia:
 
 ### <a name="monitoring-tools"></a>Herramientas de supervisión
 
@@ -137,40 +137,40 @@ Partiendo de la información obtenida anteriormente, ahora tenemos una mayor com
 <tbody>
 <tr class="odd">
 <td><p>Servidor de supervisión de Lync Server 2013</p></td>
-<td><p>Implemente al menos un rol de servidor de supervisión de Lync Server 2013 por sitio central y configure la calidad de la experiencia (QoE).</p>
-<p>Para obtener más información, consulte la documentación de implementación de Lync Server 2013:</p>
+<td><p>Implemente al menos un rol de servidor de supervisión de Lync Server 2013 por sitio central y configure la calidad de la experiencia (QoE) Reporting Pack.</p>
+<p>Consulte la documentación de implementación de Lync Server 2013 para obtener más información:</p>
 <p><a href="lync-server-2013-deploying-monitoring.md">Implementación de la supervisión en Lync Server 2013</a></p></td>
 <td><p>Sitios centrales</p></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><p>Tethering cada grupo a su instancia más cercana de la función de servidor de supervisión.</p></td>
+<td><p>Tethering cada grupo a su instancia más cercana del rol del servidor de supervisión.</p></td>
 <td><p>Sitios centrales</p>
-<p>Sitios de sucursales</p></td>
+<p>Sitios de sucursal</p></td>
 </tr>
 <tr class="odd">
 <td><p>System Center Operations Manager 2012</p></td>
 <td><p>System Center Operations Manager 2012 con el módulo de administración de Microsoft Lync Server 2013 (MP) importado.</p>
-<p>El módulo de administración implementa la instrumentación tradicional basada en el registro de eventos y en el contador de rendimiento, así como la habilitación de la instrumentación recién disponible en Lync Server 2013.</p></td>
+<p>El módulo de administración que implementa la instrumentación tradicional basada en el registro de eventos y el contador de rendimiento se usa, así como la habilitación de la instrumentación reciente disponible en Lync Server 2013.</p></td>
 <td><p>Sitios centrales</p></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><p>Asegúrese de que el descubrimiento central para descubrir los roles y componentes que es necesario supervisar se completa automáticamente según un script de detección central que lee el documento de topología publicado en la base de datos de administración central.</p></td>
+<td><p>Asegúrese de que la detección central para la detección de roles y componentes que deben supervisarse se completen automáticamente en función de un script de detección central que lea el documento de topología publicado en la base de datos de administración central.</p></td>
 <td><p>Sitio central</p>
 <p>Sitio de sucursal</p>
 <p>Sitio perimetral</p></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><p>Implemente agentes de System Center Operations Manager 2007 en todos los servidores implementados que ejecuten Lync Server.</p></td>
+<td><p>Implementar agentes del centro de Operations Manager 2007 en todos los servidores implementados que ejecutan Lync Server.</p></td>
 <td><p>Sitio central</p>
 <p>Sitio de sucursal</p>
 <p>Sitio perimetral</p></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><p>Asegúrese de que las alertas prioritarias están configuradas para notificaciones:</p>
+<td><p>Asegúrese de que las alertas con prioridad están configuradas para la notificación:</p>
 <p>Alertas de prioridad alta</p>
 <p>Alertas de prioridad media</p>
 <p>Otras alertas.</p></td>
@@ -180,46 +180,46 @@ Partiendo de la información obtenida anteriormente, ahora tenemos una mayor com
 </tr>
 <tr class="odd">
 <td></td>
-<td><p>Configure la supervisión de puertos para su implementación.</p></td>
+<td><p>Configure la supervisión de puertos para la implementación.</p></td>
 <td><p>Sitio central</p>
 <p>Sitio de sucursal</p>
 <p>Sitio perimetral</p></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><p>Configurar la supervisión de URL para la implementación</p></td>
+<td><p>Configurar la supervisión de direcciones URL para la implementación</p></td>
 <td><p>Sitio central</p></td>
 </tr>
 <tr class="odd">
 <td><p>Integración de Lync y System Center Operations Manager</p></td>
-<td><p>Implementar la confiabilidad de las llamadas y la calidad de los medios MonitoringCall la fiabilidad y la supervisión de la calidad de los medios use el equipo servidor de supervisión como nodo de monitor para supervisar la confiabilidad de las llamadas y la calidad de los medios de Lync Server. Estas dos características consultan las bases de datos del servidor de supervisión para realizar análisis.</p></td>
+<td><p>Implementar la confiabilidad de las llamadas y la calidad de los medios MonitoringCall la fiabilidad y la supervisión de la calidad de los medios use el equipo servidor de supervisión como nodo de monitor para supervisar la confiabilidad de las llamadas y la calidad de los medios de Lync Server. Estas dos características consultan las bases de datos del servidor de supervisión para realizar el análisis.</p></td>
 <td><p>Sitio central</p>
 <p>Sitio de sucursal</p></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><p>Garantizar que los umbrales de advertencia de calidad de medios se hayan configurado correctamente. En la tabla siguiente se indican los resultados de opinión medios máximos de la red por códec. En la producción, estas puntuaciones deben vigilarse durante un período establecido y los umbrales aceptables se deben establecer en función de las puntuaciones de NMOS específicas de la organización.</p></td>
+<td><p>Garantizar que los umbrales de advertencia de calidad de medios se configuran correctamente. En la tabla siguiente se indican los resultados de opinión media de red máxima por códec. En producción, estos resultados deben supervisarse durante un período de tiempo determinado y los umbrales aceptables deben establecerse en función de los resultados de las puntuaciones NMOS específicas de la organización.</p></td>
 <td><p>Sitio central</p>
 <p>Sitio de sucursal</p></td>
 </tr>
 <tr class="odd">
 <td><p>Monitor de transacción sintética de Lync Server 2013</p></td>
-<td><p>Implementar un servidor de Lync dedicado para que sea un monitor de transacciones sintéticos.</p>
-<p>Las transacciones sintéticas son cmdlets de Lync Server 2013 de Windows PowerShell que el módulo de administración desencadena automáticamente en un intervalo predefinido. Se ejecutan en un nodo de monitor de transacciones sintéticos, que es un servidor designado por el administrador responsable de detectar y ejecutar STs para cada grupo.</p>
-<p>No se recomienda usar un servidor de Microsoft Lync Server 2013 existente como nodo de supervisor de transacciones sintéticos. Esto se debe a los requisitos de uso intensivo de CPU y memoria para ejecutar STs. Use un nuevo equipo servidor (o un servidor virtual) para el nodo Monitor de transacciones sintéticos.</p></td>
+<td><p>Implemente un servidor de Lync dedicado para que sea un monitor de transacciones sintéticas.</p>
+<p>Las transacciones sintéticas son cmdlets de Windows PowerShell de Lync Server 2013 que se desencadenan automáticamente por el módulo de administración en un intervalo predefinido. Se ejecutan en un nodo de monitor de transacciones sintéticas que es un servidor designado por el administrador responsable de la detección y la ejecución de STs para cada grupo de servidores.</p>
+<p>No se recomienda usar un servidor de Microsoft Lync Server 2013 existente como nodo de monitor de transacciones sintéticas. Esto se debe a los requisitos de uso intensivo de CPU y memoria para ejecutar STs. Use un nuevo equipo servidor (o un servidor virtual) para el nodo Monitor de transacciones sintéticas.</p></td>
 <td><p>Sitio central</p></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><p>Implementación del nodo de monitor de transacciones sintéticas.</p>
-<p>Consulte el documento MonitoringCS_withSCOM. docx de la documentación de UCTAP Connect.</p></td>
+<p>Consulte el documento MonitoringCS_withSCOM. docx de la documentación de conexión de UCTAP.</p></td>
 <td><p>Sitio central</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="maximum-network-mos-scores-per-codec"></a>Puntuaciones de OP de red máxima por códec
+### <a name="maximum-network-mos-scores-per-codec"></a>Puntuaciones máximas de MOS de red por códec
 
 <table>
 <colgroup>
@@ -236,12 +236,12 @@ Partiendo de la información obtenida anteriormente, ahora tenemos una mayor com
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UC-llamadas UC</p></td>
-<td><p>RTAudio WB</p></td>
-<td><p>4,10</p></td>
+<td><p>Llamadas de UC a UC</p></td>
+<td><p>WB RTAudio</p></td>
+<td><p>4.10</p></td>
 </tr>
 <tr class="even">
-<td><p>UC-llamadas UC</p></td>
+<td><p>Llamadas de UC a UC</p></td>
 <td><p>RTAudio NB</p></td>
 <td><p>2,95</p></td>
 </tr>
@@ -251,12 +251,12 @@ Partiendo de la información obtenida anteriormente, ahora tenemos una mayor com
 <td><p>3,72</p></td>
 </tr>
 <tr class="even">
-<td><p>UC-llamada RTC</p></td>
+<td><p>Llamada de UC-RTC</p></td>
 <td><p>RTAudio NB</p></td>
 <td><p>2,95</p></td>
 </tr>
 <tr class="odd">
-<td><p>UC-llamada RTC</p></td>
+<td><p>Llamada de UC-RTC</p></td>
 <td><p>G-711</p></td>
 <td><p>3,61</p></td>
 </tr>
@@ -264,7 +264,7 @@ Partiendo de la información obtenida anteriormente, ahora tenemos una mayor com
 </table>
 
 
-Antes y después de las actividades de supervisión proactivas anteriores, las tareas de mantenimiento deben ejecutarse para sitios centrales, perimetrales y de sucursales en una periodicidad diaria, semanal y mensual, según se define en la guía de operaciones de Lync RA.
+Más allá de las anteriores actividades de supervisión proactivas, las tareas de mantenimiento deben ejecutarse para sitios centrales, perimetrales y de sucursal en una periodicidad diaria, semanal y mensual, tal como se define en la guía de operaciones de Lync RA.
 
 </div>
 

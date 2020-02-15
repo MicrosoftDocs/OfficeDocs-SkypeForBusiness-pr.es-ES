@@ -12,16 +12,16 @@ ms:contentKeyID: 49733801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22d79d16980c29907aa4e254d4be7eaee2fcfaae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c74bbc90b0b7ef27da6b38b626fc91bc04383685
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757344"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007149"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41757344"
 
 _**Última modificación del tema:** 2013-02-23_
 
-Las notificaciones push, en forma de insignias, iconos o alertas, se pueden enviar a un dispositivo móvil incluso cuando la aplicación móvil no está activa. Las notificaciones push notifican a un usuario de eventos como una invitación o un correo de voz nuevos o perdidos. Puede ver la configuración de notificaciones de inserción de información para dispositivos móviles usando el panel de control de Lync Server 2013 o el shell de administración de Lync Server 2013.
+Las notificaciones de inserción, en la forma de distintivos, iconos o alertas, se pueden enviar a un dispositivo móvil aunque la aplicación móvil se encuentre inactiva. Las notificaciones de inserción notifican a un usuario eventos como correo de voz o invitaciones de mensajería instantánea nuevas o perdidas. Puede ver la configuración de notificaciones de inserción de información para dispositivos móviles mediante el panel de control de Lync Server 2013 o el shell de administración de Lync Server 2013.
 
 <div>
 
-## <a name="to-view-push-notification-information-from-lync-server-control-panel"></a>Para ver la información de notificaciones Push en el panel de control de Lync Server
+## <a name="to-view-push-notification-information-from-lync-server-control-panel"></a>Para ver la información de notificaciones de inserción desde el panel de control de Lync Server
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, haga clic en el botón de navegación de **configuración de notificaciones push** .
+3.  En la barra de navegación izquierda, haga clic en **Clientes** y, a continuación, en el botón de navegación **Configuración de notificaciones de inserción**.
 
-4.  En la página **configuración de notificaciones push** , haga clic en el sitio que desea ver, haga clic en el menú **Editar** y, a continuación, haga clic en **Mostrar detalles**.
+4.  En la página **configuración de notificaciones de inserción** , haga clic en el sitio que desea ver, haga clic en el menú **Editar** y, a continuación, haga clic en **Mostrar detalles**.
 
 </div>
 
@@ -57,11 +57,11 @@ Las notificaciones push, en forma de insignias, iconos o alertas, se pueden envi
 
 ## <a name="viewing-push-notification-information-by-using-windows-powershell-cmdlets"></a>Ver la información de notificaciones de inserción mediante cmdlets de Windows PowerShell
 
-Puede ver la configuración de las notificaciones push mediante Windows PowerShell y el cmdlet **Get-CsPushNotificationConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede ver las opciones de configuración de notificaciones de inserción con Windows PowerShell y el cmdlet **Get-CsPushNotificationConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
 <div>
 
-## <a name="to-view-push-notification-configuration-information"></a>Para ver la información de configuración de notificaciones push
+## <a name="to-view-push-notification-configuration-information"></a>Para ver información sobre la configuración de las notificaciones de inserción:
 
   - Para ver información sobre todas las opciones de configuración de notificaciones de inserción, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:
     
@@ -75,7 +75,7 @@ Puede ver la configuración de las notificaciones push mediante Windows PowerShe
 
 </div>
 
-Para obtener más información, consulte el tema de ayuda para el cmdlet [Get-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsPushNotificationConfiguration) .
+Para más información, consulte el tema de Ayuda del cmdlet [Get-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsPushNotificationConfiguration).
 
 </div>
 
@@ -84,7 +84,7 @@ Para obtener más información, consulte el tema de ayuda para el cmdlet [Get-Cs
 ## <a name="see-also"></a>Vea también
 
 
-[Configurar las notificaciones de inserción en Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)  
+[Configuración de notificaciones de inserción en Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)  
   
 
 </div>

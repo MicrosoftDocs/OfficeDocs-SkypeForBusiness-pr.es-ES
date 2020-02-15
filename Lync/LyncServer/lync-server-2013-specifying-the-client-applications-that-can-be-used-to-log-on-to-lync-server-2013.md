@@ -12,16 +12,16 @@ ms:contentKeyID: 48185450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 788a0638dee6b9d52a5d954eafb7b4e33bdfd294
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ea0083a28253f5b79e6124dc7733a3ea096f4509
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731880"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006125"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41731880"
 
 _**Última modificación del tema:** 2012-12-11_
 
-Lync Server 2013 le permite especificar la versión de los clientes que son compatibles con su entorno. El uso de directivas de versión de cliente puede ayudar a reducir los costos asociados a la compatibilidad de varias versiones de cliente. También puede mejorar la experiencia general del usuario, ya que cuando interactúan versiones anteriores y posteriores de los clientes, las características disponibles pueden verse limitadas por la versión anterior del cliente.
+Lync Server 2013 permite especificar la versión de los clientes que son compatibles con el entorno. El uso de directivas de versión de cliente puede ayudar a reducir los costos asociados a la compatibilidad con varias versiones de cliente. También puede mejorar la experiencia general del usuario, ya que cuando interactúan versiones anteriores y posteriores de los clientes, las características disponibles pueden estar limitadas por la versión anterior del cliente.
 
-Hay tres componentes de control de versiones de cliente:
+Hay tres componentes del control de versiones de cliente:
 
-  - La configuración de la versión del cliente se usa para activar o desactivar el control de versiones del cliente, ya sea de forma global o para sitios concretos.
+  - Las opciones de configuración de versión de cliente se usan para activar o desactivar el control de versiones de cliente, ya sea de forma global o para determinados sitios.
 
-  - Las directivas de versión de cliente se usan para asignar un conjunto de reglas globalmente o a un sitio, grupo de usuarios o grupo de usuarios en particular.
+  - Las directivas de versión de cliente se usan para asignar un conjunto de reglas de forma global o para un sitio, grupo o grupo de usuarios en particular.
 
-  - Las reglas de directiva de versión de cliente constituyen una directiva de versión de cliente y se usan para definir las acciones que se deben realizar cuando los usuarios intentan iniciar sesión con clientes y versiones de cliente específicos.
+  - Las reglas de directiva de versión de cliente componen una directiva de versión de cliente y se usan para definir las acciones que deben realizarse cuando los usuarios intentan iniciar sesión con clientes y versiones de cliente específicos.
 
 <div>
 
@@ -61,7 +61,7 @@ Hay tres componentes de control de versiones de cliente:
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Configuración de la versión de cliente en Lync Server 2013](lync-server-2013-client-version-configuration-settings.md)
+  - [Opciones de configuración de versión de cliente en Lync Server 2013](lync-server-2013-client-version-configuration-settings.md)
 
   - [Directivas de versión de cliente en Lync Server 2013](lync-server-2013-client-version-policies.md)
 
@@ -74,7 +74,7 @@ Hay tres componentes de control de versiones de cliente:
 ## <a name="see-also"></a>Vea también
 
 
-[Administrar dispositivos, teléfonos y aplicaciones cliente en Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)  
+[Administración de dispositivos, teléfonos y aplicaciones cliente en Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)  
   
 
 </div>

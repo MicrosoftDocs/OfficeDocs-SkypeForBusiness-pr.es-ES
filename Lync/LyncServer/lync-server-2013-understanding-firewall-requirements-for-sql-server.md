@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Descripción de los requisitos de firewall para SQL Server'
+title: 'Lync Server 2013: Descripción de los requisitos de Firewall para SQL Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dba3296ee01f997857660d2a3f328f663d32cf99
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba04284106bcd1b0cbf17d214d8ad0b1a1ff9024
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744820"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006686"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>Descripción de los requisitos de firewall para SQL Server con Lync Server 2013
+# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>Descripción de los requisitos de Firewall para SQL Server con Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41744820"
 
 _**Última modificación del tema:** 2013-02-21_
 
-Para una implementación de Standard Edition, las excepciones de Firewall se crean automáticamente durante la instalación de Lync Server 2013. Sin embargo, para las implementaciones de Enterprise Edition, debe configurar las excepciones de Firewall manualmente en el servidor back-end de SQL Server. El protocolo TCP/IP permite que un puerto determinado se use una vez para una determinada dirección IP. Esto significa que para el servidor basado en SQL Server, puede asignar la instancia de base de datos predeterminada al puerto TCP predeterminado 1433. En el caso de otras instancias, tendrá que usar el administrador de configuración de SQL Server para asignar puertos únicos y sin usar. Este tema trata:
+Para una implementación de Standard Edition, las excepciones de Firewall se crean automáticamente durante la instalación de Lync Server 2013. Sin embargo, para las implementaciones de Enterprise Edition, debe configurar las excepciones de Firewall manualmente en el servidor back-end de SQL Server. El protocolo TCP/IP permite que un puerto determinado se use una vez para una dirección IP determinada. Esto significa que, para el servidor basado en SQL Server, puede asignar la instancia de base de datos predeterminada al puerto TCP 1433 predeterminado. Para las demás instancias deberá usar el Administrador de configuración de SQL Server para asignar puertos únicos y sin uso. En este tema se describen:
 
-  - Requisitos para una excepción de Firewall al usar la instancia predeterminada
+  - Requisitos de una excepción de firewall al usar la instancia predeterminada
 
-  - Requisitos de una excepción de Firewall para el servicio SQL Server Browser
+  - Requisitos de una excepción de firewall para el servicio SQL Server Browser
 
-  - Requisitos para puertos de escucha estáticos al utilizar instancias con nombre
+  - Requisitos de puertos de escucha estáticos al usar instancias especificadas por el usuario
 
 <div>
 
-## <a name="requirements-for-a-firewall-exception-when-using-the-default-instance"></a>Requisitos para una excepción de Firewall al usar la instancia predeterminada
+## <a name="requirements-for-a-firewall-exception-when-using-the-default-instance"></a>Requisitos de una excepción de firewall al usar la instancia predeterminada
 
-Si está usando la instancia predeterminada de SQL Server para cualquier base de datos al implementar Lync Server 2013, se usan los siguientes requisitos de regla de Firewall para garantizar la comunicación desde el grupo de servidores front-end a la instancia predeterminada de SQL Server.
+Si usa la instancia predeterminada de SQL Server para cualquier base de datos al implementar Lync Server 2013, se usan los siguientes requisitos de reglas de Firewall para ayudar a garantizar que el grupo de servidores front-end se comunica con la instancia predeterminada de SQL Server.
 
 
 <table>
@@ -69,7 +69,7 @@ Si está usando la instancia predeterminada de SQL Server para cualquier base de
 <tr class="odd">
 <td><p>TCP</p></td>
 <td><p>1433</p></td>
-<td><p>Entrante a SQL Server</p></td>
+<td><p>Entrante para SQL Server</p></td>
 </tr>
 </tbody>
 </table>
@@ -79,9 +79,9 @@ Si está usando la instancia predeterminada de SQL Server para cualquier base de
 
 <div>
 
-## <a name="requirements-for-a-firewall-exception-for-the-sql-server-browser-service"></a>Requisitos de una excepción de Firewall para el servicio SQL Server Browser
+## <a name="requirements-for-a-firewall-exception-for-the-sql-server-browser-service"></a>Requisitos de una excepción de firewall para el servicio SQL Server Browser
 
-El servicio SQL Server Browser buscará instancias de base de datos y comunicará el puerto que la instancia (con nombre o predeterminado) está configurada para usar.
+El servicio SQL Server Browser buscará las instancias de base de datos y comunicará al puerto que la instancia (especificada por el usuario o predeterminada) está configurada para su uso.
 
 
 <table>
@@ -111,9 +111,9 @@ El servicio SQL Server Browser buscará instancias de base de datos y comunicar�
 
 <div>
 
-## <a name="requirements-for-static-listening-ports-when-using-named-instances"></a>Requisitos para puertos de escucha estáticos al utilizar instancias con nombre
+## <a name="requirements-for-static-listening-ports-when-using-named-instances"></a>Requisitos de puertos de escucha estáticos al usar instancias especificadas por el usuario
 
-Al usar instancias con nombre en la configuración de SQL Server para bases de datos compatibles con Lync Server 2013, debe configurar los puertos estáticos mediante el administrador de configuración de SQL Server. Después de asignar los puertos estáticos a cada instancia con nombre, cree excepciones para cada puerto estático en el firewall.
+Cuando se usan instancias con nombre en la configuración de SQL Server para bases de datos compatibles con Lync Server 2013, se configuran los puertos estáticos mediante el administrador de configuración de SQL Server. Una vez asignados los puertos estáticos a cada instancia especificada por el usuario, puede crear excepciones para cada puerto estático del firewall.
 
 
 <table>
@@ -132,7 +132,7 @@ Al usar instancias con nombre en la configuración de SQL Server para bases de d
 <tbody>
 <tr class="odd">
 <td><p>TCP</p></td>
-<td><p>Definición estática</p></td>
+<td><p>Definido estáticamente</p></td>
 <td><p>Entrada</p></td>
 </tr>
 </tbody>
@@ -145,7 +145,7 @@ Al usar instancias con nombre en la configuración de SQL Server para bases de d
 
 ## <a name="sql-server-documentation"></a>Documentación de SQL Server
 
-La documentación de 2012 de Microsoft SQL Server proporciona instrucciones detalladas sobre cómo configurar el acceso a Firewall para bases de datos. Para obtener más información sobre Microsoft SQL Server 2012, consulte "configurar el Firewall de Windows para permitir el acceso [http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031)a SQL Server" en.
+La documentación de Microsoft SQL Server 2012 proporciona instrucciones detalladas sobre cómo configurar el acceso a Firewall para bases de datos. Para obtener más información acerca de Microsoft SQL Server 2012, consulte "configuración del firewall de Windows para permitir el [http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031)acceso a SQL Server" en.
 
 </div>
 

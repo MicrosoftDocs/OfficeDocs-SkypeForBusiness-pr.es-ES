@@ -12,16 +12,16 @@ ms:contentKeyID: 48184668
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 624bbfa52c5d4ed963fda895e7af3a544f0f3733
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d55f9e1f9233b838c1fe6ee56c4642edee1cc67e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765741"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034290"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41765741"
 
 _**Última modificación del tema:** 2012-03-29_
 
-En los siguientes temas se describen los pasos necesarios para combinar los grupos de Microsoft Office Communications Server 2007 R2 con los grupos de servidores de Microsoft Lync Server 2013. En primer lugar, use el Asistente para combinar el generador de topología para combinar la información de la topología. Esta herramienta recopila información sobre el entorno de Office Communications Server 2007 R2, incluida la información del servidor perimetral, y publica esa información en una base de datos compartida con Lync Server 2013. Después de publicar la topología combinada, el generador de topología se usa para ver la información de topología de Office Communications Server 2007 R2 e información sobre la topología recién implementada de Lync Server 2013. Por último, use los cmdlets del shell de administración de Lync Server para importar directivas y opciones de configuración.
+Los siguientes temas describen los pasos necesarios para combinar los grupos de servidores de Microsoft Office Communications Server 2007 R2 con los grupos de servidores de Microsoft Lync Server 2013. En primer lugar, utilice el asistente para combinaciones del Generador de topologías para combinar la información de topología. Esta herramienta recopila información sobre el entorno de Office Communications Server 2007 R2, incluida la información del servidor perimetral, y la publica la información en una base de datos compartida con Lync Server 2013. Después de publicar la topología combinada, el generador de topologías se usa para ver la información de topología de Office Communications Server 2007 R2 e información sobre la topología recién implementada de Lync Server 2013. Para finalizar, utilice los cmdlets del Shell de administración de Communications Server para importar directivas y valores de configuración.
 
 <div>
 
@@ -45,9 +45,9 @@ En los siguientes temas se describen los pasos necesarios para combinar los grup
 
   - [Instalar el paquete de compatibilidad con versiones anteriores de WMI](install-wmi-backward-compatibility-package.md)
 
-  - [Combinar mediante el Asistente para combinar generador de topología](merge-using-topology-builder-merge-wizard.md)
+  - [Combinar mediante el Asistente de combinación del generador de topologías](merge-using-topology-builder-merge-wizard.md)
 
-  - [Importar directivas y configuración](import-policies-and-settings.md)
+  - [Importación de directivas y parámetros](import-policies-and-settings.md)
 
   - [Comprobar la información de la topología](verify-topology-information.md)
 

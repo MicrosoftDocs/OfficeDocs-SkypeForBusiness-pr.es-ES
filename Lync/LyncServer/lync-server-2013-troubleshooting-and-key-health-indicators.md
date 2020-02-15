@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: problemas y indicadores de estado de claves'
+title: 'Lync Server 2013: solución de problemas y indicadores de estado clave'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969585
 ms.date: 05/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a20e47f21b918976291371bd56e529196bae8a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d6f052aceb6678d87c99fc287b69752d0ed761a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745050"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036460"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-and-key-health-indicators-in-lync-server-2013"></a>Indicadores de estado de las claves y solución de problemas en Lync Server 2013
+# <a name="troubleshooting-and-key-health-indicators-in-lync-server-2013"></a>Solución de problemas y indicadores de estado clave en Lync Server 2013
 
 </div>
 
@@ -41,9 +41,9 @@ _**Última modificación del tema:** 2015-05-18_
 
 ## <a name="in-this-section"></a>En esta sección
 
-Para cumplir con los SLAs de arquitectura de referencia y garantizar una transición sin problemas a nuestros equipos de soporte técnico, se debe definir un enfoque de solución de problemas común junto con un conjunto necesario de métodos y herramientas de solución de problemas, tal como se define en la [Guía de redes](http://go.microsoft.com/fwlink/p/?linkid=390677) de Lync Server.
+Para cumplir con los SLAs de arquitectura de referencia y garantizar una transición sin problemas a nuestros equipos de soporte, se debe definir un enfoque de solución de problemas común junto con un conjunto necesario de herramientas y enfoques de solución de problemas, tal como se define en la [Guía de redes](http://go.microsoft.com/fwlink/p/?linkid=390677) de Lync Server.
 
-Se recomienda usar System Center Operations Manager para supervisar el estado del sistema Lync Server 2013. Además, consulte la descripción de KHIs en la [Guía de redes](http://go.microsoft.com/fwlink/p/?linkid=390677) de lync Server 2013 y la hoja de cálculo de Excel para usar con Lync 2013.
+Se recomienda usar System Center Operations Manager para supervisar el estado del sistema Lync Server 2013. Además, consulte la descripción de KHIs en la [Guía de redes](http://go.microsoft.com/fwlink/p/?linkid=390677) de lync Server 2013 y la hoja de cálculo de Excel para usarla con Lync 2013.
 
 </div>
 

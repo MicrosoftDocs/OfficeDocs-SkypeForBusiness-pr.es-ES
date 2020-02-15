@@ -12,16 +12,16 @@ ms:contentKeyID: 49733847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29a8bd95af99b6b79b91f84231120c6981eeedb7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 66b68459a1923fcb4a066cafe02c5226b24f9321
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723030"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006416"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,25 +37,25 @@ ms.locfileid: "41723030"
 
 _**Última modificación del tema:** 2012-09-29_
 
-Al crear un grupo de servidores de Lync Server 2013, usará el almacén de administración central asociado a Lync Server 2010. Al iniciar el generador de topología en el primer uso y en sesiones de edición posteriores, se le pedirá la ubicación en la que desea que el generador de topología cargue el documento de configuración actual. Puesto que ya tiene una topología de Lync Server 2010 definida y ha establecido el almacén de administración central, debe elegir descargar una topología de una implementación existente. El generador de topología leerá la base de datos y recuperará la definición actual.
+Al crear un grupo de servidores de Lync Server 2013, usará el almacén de administración central que está asociado con Lync Server 2010. Cuando inicie el Generador de topologías, en el primer uso y en los usos posteriores se le solicitará la ubicación en la que desea que el Generador de topologías cargue el documento de configuración actual. Como ya tiene una topología de Lync Server 2010 definida y ha establecido el almacén de administración central, debe elegir descargar una topología de una implementación existente. El Generador de topologías leerá la base de datos y recuperará la definición actual.
 
 **Para descargar una topología de una implementación existente**
 
 1.  Abra el **Asistente para la implementación de Lync Server**.
 
-2.  En la página de **Lync Server 2013: Asistente para la implementación** , haga clic en **instalar herramientas administrativas**.
+2.  En la página **Lync Server 2013 – Asistente para la implementación**, haga clic en **Instalar las Herramientas administrativas**.
 
-3.  Iniciar generador de topología: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013** y, a continuación, haga clic en **generador de topología de Lync Server**.
+3.  Inicie el generador de topologías: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Microsoft Lync Server 2013** y, a continuación, haga clic en **generador de topologías de Lync Server**.
 
-4.  Seleccione **Descargar topología de la implementación existente**.
+4.  Seleccione **Descargar una topología desde una implementación existente**.
     
-    ![Configuración del generador de topología del Asistente para la implementación](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "Configuración del generador de topología del Asistente para la implementación")
+    ![Configuración del generador de topologías del Asistente para la implementación](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "Configuración del generador de topologías del Asistente para la implementación")
 
-5.  Elija un nombre de archivo y guarde la topología con el tipo de archivo default. tbxml.
+5.  Elija un nombre de archivo y guarde la topología con el tipo de archivo .tbxml como valor predeterminado.
 
-6.  Expanda el nodo de Lync Server, como se muestra a continuación, para mostrar los distintos roles de servidor en la implementación.
+6.  Expanda el nodo de Lync Server, tal como mostramos, para revelar los diversos roles de servidor de la implementación.
     
-    ![Propiedades generales de roles del servidor del generador de topologías](images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "Propiedades generales de roles del servidor del generador de topologías")
+    ![Propiedades generales del rol de servidor del generador de topologías](images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "Propiedades generales del rol de servidor del generador de topologías")
 
 </div>
 

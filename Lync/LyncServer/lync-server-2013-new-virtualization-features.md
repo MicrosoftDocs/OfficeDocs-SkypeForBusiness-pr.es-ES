@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Nuevas características de virtualización'
+title: 'Lync Server 2013: nuevas características de virtualización'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733861
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 687e1c77cec18dc9ad4372fd911db32c537c61c9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2d5c60926db1238c586c2c516302649c5c44cd8d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755864"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033319"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41755864"
 
 _**Última modificación del tema:** 2013-11-07_
 
-Lync Server 2013 admite la virtualización en Windows Server 2012, Windows Server 2012 R2 y Windows Server 2008 R2. La compatibilidad con Windows Server 2012 y Windows Server 2012 R2 incluye compatibilidad con las capacidades de virtualización de e/s de raíz única (SR-IOV). Con SR-IOV, la función virtual de un adaptador de red físico se asigna directamente a una máquina virtual. Esto aumenta el rendimiento de la red y reduce la latencia de la red al tiempo que reduce la sobrecarga de CPU del host necesaria para procesar el tráfico de red. Para aprovechar SR-IOV, debe usar un servidor host que tenga BIOS que admita SR-IOV, así como usar adaptadores de red que admitan SR-IOV.
+Lync Server 2013 admite la virtualización en Windows Server 2012, Windows Server 2012 R2 y Windows Server 2008 R2. La compatibilidad con Windows Server 2012 y Windows Server 2012 R2 incluye compatibilidad con la única funcionalidad de virtualización de e/s de raíz (SR-IOV). Con la SR-IOV, la función virtual de un adaptador de red físico se asigna directamente a una máquina virtual. De este modo se aumenta el rendimiento de la red y se reduce la latencia de la red y la sobrecarga de la CPU host necesaria para el procesamiento del tráfico de red. Para poder utilizar la SR-IOV, debe usar un servidor host con una BIOS compatible con SR-IOV y adaptadores de red compatibles con SR-IOV.
 
 </div>
 

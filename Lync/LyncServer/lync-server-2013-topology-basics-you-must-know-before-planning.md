@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Aspectos básicos de la topología a tener en cuenta antes de la planificación'
+title: Lync Server 2013 topologías básicas que debe conocer antes de la planeación
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9034ce0802cce542c8e7b893feaafd618bb56b97
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af22effc5c16f824952806dffe1d6c646b4b7654
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745200"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036590"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a>Aspectos básicos de la topología a tener en cuenta antes de la planificación para Lync Server 2013
+# <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a>Aspectos básicos de la topología debe conocer antes de planear Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41745200"
 
 _**Última modificación del tema:** 2012-09-25_
 
-No es necesario que sea un experto en Lync Server para ejecutar la herramienta de planeación. De hecho, ejecutar la herramienta de planeación varias veces, responder a las preguntas de forma diferente y comparar los resultados es una buena forma de obtener información sobre Lync Server.
+No es necesario que sea un experto en Lync Server para ejecutar la herramienta de planeación. De hecho, ejecutar la herramienta de planeación varias veces, responder las preguntas de manera diferente y comparar los resultados es una buena forma de obtener información sobre Lync Server.
 
-Antes de obtener más información sobre los distintos componentes, debe comprender los siguientes aspectos básicos de las topologías de Lync Server 2013.
+Antes de obtener información más detallada sobre los distintos componentes, debe comprender los siguientes aspectos básicos de las topologías de Lync Server 2013.
 
 <div>
 
@@ -49,7 +49,7 @@ Antes de obtener más información sobre los distintos componentes, debe compren
 
   - [Roles de servidor en Lync Server 2013](lync-server-2013-server-roles.md)
 
-  - [Compatibilidad entre la alta disponibilidad y la recuperación ante desastres en Lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md)
+  - [Compatibilidad de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md)
 
 </div>
 

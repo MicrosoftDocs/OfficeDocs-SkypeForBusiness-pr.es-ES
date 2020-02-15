@@ -12,16 +12,16 @@ ms:contentKeyID: 63969640
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28f6ab6f10d071fc86646deed030ab87d931ad95
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 65f50a5b78c92b82ec4a17711add8744bb2313d6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729380"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006236"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41729380"
 
 _**Última modificación del tema:** 2014-08-18_
 
-Los procedimientos de emergencia son procedimientos a petición que se encuentran fuera de los procedimientos estándar previamente tratados y que deben ser tratados por la función de administración de cambios (consulte en el [MOF](http://go.microsoft.com/fwlink/p/?linkid=40939) una descripción de la función "administración de cambios"). Estos procedimientos suelen estar relacionados con uno de los siguientes:
+Los procedimientos de emergencia son procedimientos a petición que se encuentran fuera de los procedimientos estándar descritos anteriormente y deben ser controlados por la función de administración de cambios (consulte la [MOF](http://go.microsoft.com/fwlink/p/?linkid=40939) para obtener una descripción de la función "administración de cambios"). Estos procedimientos suelen estar relacionados con uno de los siguientes:
 
-  - Implementar cambios como parte de un esfuerzo de solución de problemas: para resolver un problema del sistema identificado.
+  - Implementación de cambios como parte de un esfuerzo de solución de problemas: para resolver un problema del sistema identificado.
 
   - Resolver una amenaza de seguridad identificada, como actualizaciones de software.
 
-El impacto en la empresa debe evaluarse para determinar si un cambio temporal debe implementarse o canalizarse a través de los procedimientos oficiales de administración de cambios según se define en las instrucciones de la fase de cambio.
+El impacto en la empresa debe evaluarse para determinar si un cambio temporal debe implementarse o canalizarse a través de los procedimientos oficiales de administración de cambios según se define en las instrucciones de cambio de cuadrante.
 
-Recomendamos implementar procedimientos de cambio de emergencia. Por ejemplo, documente cómo tratar estos tipos de procedimientos y ayude a reducir un estado de confusión cuando se presente un cambio de emergencia.
+Le recomendamos que implemente procedimientos de cambio de emergencia. Por ejemplo, documente cómo tratar estos tipos de procedimientos y ayudar a reducir un estado de confusión cuando se presenta un cambio de emergencia.
 
 <div>
 

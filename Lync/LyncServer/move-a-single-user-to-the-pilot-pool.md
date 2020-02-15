@@ -1,5 +1,5 @@
 ---
-title: Mover un solo usuario a la agrupación piloto
+title: Mover un solo usuario al grupo piloto
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185905
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c14c4a772ced3939d979bd8d4cd053207b0c5613
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3cce0a2110c0c40b105bf2b3d26bf4f99b901522
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765308"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="move-a-single-user-to-the-pilot-pool"></a>Mover un solo usuario a la agrupación piloto
+# <a name="move-a-single-user-to-the-pilot-pool"></a>Mover un solo usuario al grupo piloto
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41765308"
 
 _**Última modificación del tema:** 2012-09-26_
 
-Puede mover un usuario de su grupo de 2010 de Lync Server a su grupo de pruebas piloto de Lync Server 2013 mediante el panel de control de Lync Server 2013 o el shell de administración de Lync Server 2013. En el ejemplo siguiente, en la columna registrar grupo, **pool01.contoso.net** es el grupo de servidores de Lync Server 2010 y todos los seis de estos usuarios están conectados a este grupo. Use los procedimientos siguientes para mover un usuario a su grupo de servidores de Lync Server 2013 con el panel de control de Lync Server 2013 y el shell de administración de Lync Server.
+Puede mover un usuario de su grupo de servidores de Lync Server 2010 al grupo piloto de Lync Server 2013 mediante el panel de control de Lync Server 2013 o el shell de administración de Lync Server 2013. En el ejemplo siguiente, en la columna de grupo de registrador, **pool01.contoso.net** es el grupo de servidores de Lync Server 2010 y los seis usuarios están conectados a este grupo. Use los siguientes procedimientos para mover un usuario al grupo de servidores de Lync Server 2013 mediante el panel de control de Lync Server 2013 y el shell de administración de Lync Server.
 
 <div>
 
@@ -49,21 +49,21 @@ Puede mover un usuario de su grupo de 2010 de Lync Server a su grupo de pruebas 
 
 1.  Inicie sesión en el servidor front-end con una cuenta que sea miembro del grupo RTCUniversalServerAdmins o miembro del rol administrativo CsAdministrator o CsUserAdministrator.
 
-2.  Abra el **Panel de control de Lync Server**.
+2.  Abrir **Panel de control de Lync Server**.
 
-3.  Haga clic en **Usuarios**, haga clic en Buscar y, posteriormente, haga clic en **Buscar**.
+3.  Haga clic en **Usuarios**, Buscar y **Buscar**.
 
-4.  Seleccione el usuario que desea mover al grupo de servidores de Lync Server 2013. En este ejemplo, moveremos a Sara Davis.
+4.  Seleccione un usuario que quiera mover al grupo de servidores de Lync Server 2013. En ste ejemplo, moveremos al usuario Sara Davis.
 
-5.  En el menú **Acción**, seleccione **Mover usuarios seleccionados a grupo**.
+5.  En el menú  **Acción **, haga clic en  **Mover usuarios seleccionados a un grupo de servidores **.
 
-6.  En la lista desplegable, seleccione el grupo de 2013 de Lync Server.
+6.  En la lista desplegable, seleccione el grupo de servidores de Lync Server 2013.
 
-7.  Haga clic en **Acción** y, posteriormente, haga clic en **Mover usuarios seleccionados a grupo**. Haga clic en **Aceptar**.
+7.  Haga clic en **Acción** y, a continuación, en **Mover usuarios seleccionados a grupo**. Haga clic en **Aceptar**.
     
-    ![Cuadro de diálogo mover usuarios, conjunto de registradores de destino](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Cuadro de diálogo mover usuarios, conjunto de registradores de destino")  
+    ![Cuadro de diálogo mover usuarios, grupo de registradores de destino](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Cuadro de diálogo mover usuarios, grupo de registradores de destino")  
 
-8.  Compruebe que la columna del **Grupo registrador** del usuario contiene ahora el grupo de servidores de Lync Server 2013, lo que indica que el usuario se ha movido correctamente.
+8.  Compruebe que la columna **grupo de registradores** del usuario contiene ahora el grupo de servidores de Lync Server 2013, lo que indica que el usuario se movió correctamente.
 
 </div>
 
@@ -71,9 +71,9 @@ Puede mover un usuario de su grupo de 2010 de Lync Server a su grupo de pruebas 
 
 ## <a name="to-move-a-user-by-using-the-lync-server-2013-management-shell"></a>Para mover un usuario mediante el shell de administración de Lync Server 2013
 
-1.  Abra el shell de administración de Lync Server.
+1.  Abra el Shell de administración de Lync Server.
 
-2.  En la línea de comandos, escriba:
+2.  En la línea de comandos, escriba lo siguiente:
     
         Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
 
@@ -81,7 +81,7 @@ Puede mover un usuario de su grupo de 2010 de Lync Server a su grupo de pruebas 
     
         Get-CsUser -Identity "David Pelton"
 
-4.  La identidad de **RegistrarPool** apunta ahora al grupo de servidores de Lync 2013. La presencia de esta identidad confirma que el usuario se movió correctamente.
+4.  La identidad **RegistrarPool** ahora apunta al grupo de servidores de Lync 2013. La presencia de esta identidad confirma que se movió al usuario correctamente.
     
     ![Resultado del cmdlet Get-CsUser con el filtro de identidad](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Resultado del cmdlet Get-CsUser con el filtro de identidad")  
     
@@ -89,7 +89,7 @@ Puede mover un usuario de su grupo de 2010 de Lync Server a su grupo de pruebas 
     
 
     > [!NOTE]  
-    > Para obtener detalles sobre el cmdlet <STRONG>Get-CsUser</STRONG> , ejecute: <STRONG>Get-Help Get-CsUser-Detailed</STRONG>
+    > Para obtener detalles acerca del cmdlet <STRONG>Get-CsUser</STRONG>, ejecute: <STRONG>Get-Help Get-CsUser –Detailed</STRONG>
 
     
     </div>

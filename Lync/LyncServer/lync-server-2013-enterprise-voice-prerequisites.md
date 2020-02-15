@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Requisitos previos de la telefonía IP empresarial'
+title: 'Lync Server 2013: requisitos previos de la telefonía IP empresarial'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d04b94fe5d31c4105d58651b2bc5fa5635bddde
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4289d79be09b1bfbcb9d11e53d97ef2ee9a37dca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735410"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41993525"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41735410"
 
 _**Última modificación del tema:** 2012-08-06_
 
-Para obtener la mejor experiencia en la implementación de telefonía IP empresarial, asegúrese de que su infraestructura de ti, red y sistemas cumplan los requisitos previos que se describen en los temas de esta sección.
+Para obtener una experiencia óptima a la hora de implementar la Telefonía IP empresarial, asegúrese de que su infraestructura de TI, red y sistemas cumplan los requisitos previos descritos en esta sección.
 
 <div>
 
@@ -45,7 +45,7 @@ Para obtener la mejor experiencia en la implementación de telefonía IP empresa
 
   - [Requisitos previos de software para la telefonía IP empresarial en Lync Server 2013](lync-server-2013-software-prerequisites-for-enterprise-voice.md)
 
-  - [Requisitos previos de seguridad y configuración de telefonía IP empresarial en Lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
+  - [Requisitos previos de seguridad y configuración para telefonía IP empresarial en Lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
 
 </div>
 

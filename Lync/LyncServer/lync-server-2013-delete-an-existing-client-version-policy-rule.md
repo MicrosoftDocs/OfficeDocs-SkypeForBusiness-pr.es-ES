@@ -12,16 +12,16 @@ ms:contentKeyID: 50675352
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ad64a77e8244bf1eb2073a5d62edcb30e41eb20
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6bd2f021241f373a30e205ddb81c21ba9a4a5beb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736420"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007098"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41736420"
 
 _**Última modificación del tema:** 2013-01-21_
 
-Una directiva de versión de cliente está formada por un conjunto de reglas de directiva de versión de cliente. Estas reglas definen las acciones que se necesitan realizar cuando los usuarios intentan iniciar sesión con clientes y versiones de clientes específicos. Puede eliminar reglas individuales de una directiva de versión de cliente desde el panel de control de Lync Server 2013.
+Una directiva de versión de cliente se compone de un conjunto de reglas de directiva de versión de cliente. Estas reglas definen las acciones que se deben realizar cuando los usuarios intentan iniciar sesión con clientes y versiones de clientes específicos. Puede eliminar reglas individuales de una directiva de versión de cliente desde el panel de control de Lync Server 2013.
 
 <div>
 
 ## <a name="to-delete-client-version-policy-rules-with-lync-server-control-panel"></a>Para eliminar reglas de directiva de versión de cliente con el panel de control de Lync Server
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, haga clic en el botón de navegación de la **Directiva de versión cliente** .
+3.  En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, haga clic en el botón de navegación **Directiva de versión de cliente** .
 
-4.  En la página de la **Directiva de versión del cliente** , haga doble clic en la Directiva de versión del cliente para la regla que desea eliminar.
+4.  En la página **Directiva de versión de cliente** , haga doble clic en la Directiva de versión de cliente de la regla que desee eliminar.
 
-5.  Las reglas aparecen en la página **Editar Directiva de versión del cliente** . Para eliminar una regla, seleccione la regla y, a continuación, haga clic en **quitar**.
+5.  Las reglas aparecen en la página **Editar Directiva de versión de cliente** . Para eliminar una regla, seleccione la regla y, a continuación, haga clic en **quitar**.
 
 </div>
 

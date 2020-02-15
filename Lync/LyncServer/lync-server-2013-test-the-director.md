@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Probar el director'
+title: 'Lync Server 2013: probar el director'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184856
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b82b8b7e494a66cf38fd27e37f322c79e95f801c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1da9d365b42e0d8c78de48ac9ffa9a96c51ebc9f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746080"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021131"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-the-director-in-lync-server-2013"></a>Probar el director en Lync Server 2013
+# <a name="test-the-director-in-lync-server-2013"></a>Probar el Director en Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41746080"
 
 _**Última modificación del tema:** 2012-09-08_
 
-En este momento, tiene un grupo de directores o directores configurado, pero las entradas SRV del sistema de nombres de dominio (DNS) aún apuntan a los clientes para iniciar sesión usando un grupo de servidores o un servidor Standard Edition. Antes de cambiar el registro DNS para que los clientes de Lync 2013 inicien sesión automáticamente con el director, pruebe un cliente de forma manual al Director.
+Llegados a este punto, ya tiene configurado un director o un grupo de servidores de director, pero las entradas SRV de su Sistema de nombres de dominio (DNS) continúan obligando a los clientes a iniciar sesión mediante un grupo de servidores o un servidor Standard Edition. Antes de cambiar el registro DNS para que los clientes de Lync 2013 inicien sesión automáticamente mediante el director, pruebe un cliente de forma manual hacia él para dirigirlo al Director.
 
 <div>
 
 ## <a name="to-test-the-deployment"></a>Para probar la implementación
 
-1.  Inicie sesión en el equipo en el que tiene instalado el panel de control de Lync Server con una cuenta de dominio que forme parte del grupo **CSAdministrator** .
+1.  Inicie sesión en el equipo donde tenga instalado el panel de control de Lync Server con una cuenta de dominio que forme parte del grupo **CSAdministrator** .
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En el panel de navegación, haga clic en **topología**y, en la columna **Estado** , confirme que hay un servidor verde con una flecha (es decir, ![icono de servidor con flecha verde](images/Gg398767.2263cdb7-7e60-457a-a528-a3a082bd051b(OCS.15).jpg "Icono de servidor con flecha verde")) para su director o grupo de directores.
+3.  En el panel de navegación, haga clic en **topología**y, en la columna **Estado** , confirme que haya un servidor verde con una flecha (es decir, un ![icono de servidor con flecha verde](images/Gg398767.2263cdb7-7e60-457a-a528-a3a082bd051b(OCS.15).jpg "Icono de servidor con flecha verde")) para su director o grupo de directores.
 
-4.  Conecte dos equipos cliente que tengan el cliente de Lync Server 2013 instalado e inicie sesión con una cuenta de usuario diferente habilitada para Lync Server 2013 en cada equipo.
+4.  Conecte dos equipos cliente que tengan el cliente de Lync Server 2013 instalado e inicie sesión con una cuenta de usuario distinta habilitada para Lync Server 2013 en cada equipo.
 
-5.  En uno de los equipos cliente, haga clic en el menú **Opciones** , seleccione el grupo configuración **personal** , haga clic en **avanzadas**, haga clic en **configuración manual**y, a continuación, establezca el **nombre del servidor interno o la dirección IP** en el nombre de dominio completo (FQDN) del nuevo director o grupo de directores.
+5.  En uno de los equipos cliente, haga clic en el menú **Opciones**, seleccione el grupo de configuración **Personal**, haga clic en **Avanzada** y, a continuación, en **Configuración manual**. Por último, defina en **Nombre de servidor interno o dirección IP** el nombre de dominio completo (FQDN) del nuevo director o grupo de servidores del director.
 
-6.  Inicie sesión en ambos clientes y compruebe que el cliente que inicia sesión con el director puede iniciar sesión correctamente, ver el estado de presencia del otro usuario y que pueden intercambiar mensajes instantáneos.
+6.  Inicie sesión en ambos clientes y compruebe que el cliente que inicie sesión usando el director pueda iniciar sesión correctamente, observe el estado de presencia del otro usuario y si pueden intercambiar mensajes instantáneos.
 
 </div>
 

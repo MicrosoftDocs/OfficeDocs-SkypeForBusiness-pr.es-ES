@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Componentes necesarios para el acceso de usuarios externos'
+title: 'Lync Server 2013: componentes necesarios para el acceso de usuarios externos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 550eb864ff7cc26eb0bfeace37759bb15b9816f6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e225f63da97ea48d98a5a2540a6b35a9c63c08f2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757104"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007960"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41757104"
 
 _**Última modificación del tema:** 2014-05-29_
 
-La mayoría de los componentes perimetrales se implementan en una red perimetral. Los siguientes componentes forman la topología perimetral de la red perimetral. Excepto donde se indique lo contrario, los componentes forman parte de los [escenarios para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) y en la red perimetral. Los componentes perimetrales engloban los siguientes:
+La mayoría de los componentes perimetrales se implementan en una red perimetral. Los siguientes componentes conforman la topología perimetral de una red perimetral. Excepto donde se indique, los componentes forman parte de los [escenarios para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) y se encuentran en la red perimetral. Los componentes perimetrales engloban los siguientes:
 
-  - Edge Servers
+  - Servidores perimetrales
 
-  - Reverse proxies
+  - Proxies inversos
 
   - Firewalls
 
-  - Directores (opcional y, lógicamente, ubicado en la red interna)
+  - Directores (opcionales y ubicados lógicamente en la red interna)
 
   - Equilibrio de carga para topologías perimetrales escaladas (equilibrio de carga de DNS o un equilibrador de carga de hardware)
     
@@ -53,7 +53,7 @@ La mayoría de los componentes perimetrales se implementan en una red perimetral
     
 
     > [!IMPORTANT]  
-    > No se admite el uso del equilibrio de carga de DNS en una interfaz y del equilibrio de carga de hardware en otra. Necesita utilizar el equilibrio de carga de hardware o de DNS en ambas interfaces.
+    > No se admite el uso del equilibrio de carga de DNS en una interfaz y del equilibrio de carga de hardware en otra. Debe utilizar el equilibrio de carga de hardware o de DNS en ambas interfaces.
 
     
     </div>
@@ -62,23 +62,23 @@ La mayoría de los componentes perimetrales se implementan en una red perimetral
 
 ## <a name="edge-servers"></a>Servidores perimetrales
 
-Los servidores perimetrales envían y reciben tráfico de red para los servicios ofrecidos por los usuarios externos en la implementación interna. El servidor perimetral ejecuta los siguientes servicios:
+Los servidores perimetrales envían y reciben tráfico de red para los servicios ofrecidos por la implementación interna por los usuarios externos. El servidor perimetral ejecuta los siguientes servicios:
 
-  - **Servicio perimetral de acceso**   el servicio perimetral de acceso proporciona un único punto de conexión de confianza para el tráfico de protocolo de inicio de sesión entrante y saliente (SIP).
+  - **Servicio perimetral de acceso**   el servicio perimetral de acceso proporciona un único punto de conexión de confianza para el tráfico SIP (Protocolo de inicio de sesión) saliente y entrante.
 
-  - **Servicio perimetral de conferencias web**   el servicio perimetral de conferencias web permite a los usuarios externos unirse a reuniones hospedadas en la implementación interna de Lync Server 2013.
+  - **Servicio perimetral de conferencia web**   el servicio perimetral de conferencia web permite a los usuarios externos unirse a reuniones hospedadas en la implementación interna de Lync Server 2013.
 
-  - **Servicio perimetral a/v**   el servicio a/v Edge hace que el audio, el video, el uso compartido de aplicaciones y la transferencia de archivos estén disponibles para los usuarios externos. Los usuarios pueden agregar audio y vídeo a las reuniones que incluyen participantes externos, y pueden comunicarse con audio o video directamente con un usuario externo en sesiones punto a punto. El servicio perimetral A/V también proporciona compatibilidad con el uso compartido de escritorio y la transferencia de archivos.
+  - **Servicio perimetral a/v**   el servicio perimetral a/v hace que el audio, vídeo, uso compartido de aplicaciones y transferencia de archivos estén disponibles para los usuarios externos. Los usuarios pueden agregar audio y vídeo a las reuniones que incluyen participantes externos, y pueden comunicarse mediante audio o vídeo directamente con un usuario externo en sesiones punto a punto. De igual modo, este servicio permite el uso compartido de escritorio y la transferencia de archivos.
 
-  - **Servicio de proxy XMPP**   el servicio de proxy XMPP acepta y envía mensajes de protocolo de presencia y mensajería extensible (XMPP) a los socios de XMPP federados configurados.
+  - **Servicio Proxy XMPP**   el servicio Proxy XMPP acepta y envía mensajes del Protocolo de mensajería y presencia extensible (XMPP) a y desde socios federados de XMPP configurados.
 
-Los usuarios externos autorizados pueden tener acceso a los servidores perimetrales para conectarse a la implementación interna de Lync Server 2013, pero los servidores perimetrales no proporcionan medios para ningún otro tipo de acceso a la red interna.
+Los usuarios externos autorizados pueden tener acceso a los servidores perimetrales para conectarse a la implementación interna de Lync Server 2013, pero los servidores perimetrales no proporcionan medios para otros tipos de acceso a la red interna.
 
 <div>
 
 
 > [!NOTE]  
-> Los servidores perimetrales se implementan para proporcionar conexiones para clientes de Lync habilitados y otros servidores Microsoft Edge (como en los escenarios de Federación). No están diseñados para permitir conexiones de otros tipos de clientes o servidores de punto final. El servidor de puerta de enlace XMPP puede implementarse para permitir conexiones con socios XMPP configurados. El servidor perimetral y la puerta de enlace XMPP solo admiten conexiones de punto final de estos tipos de Federación y cliente.
+> Los servidores perimetrales se implementan para proporcionar conexiones para los clientes de Lync habilitados y otros servidores de Microsoft Edge (como en los escenarios de Federación). Estos servidores no están diseñados para permitir conexiones desde otros tipos de servidores o clientes de extremos. El servidor de puerta de enlace XMPP puede implementarse para permitir conexiones con socios XMPP configurados. El servidor perimetral y la puerta de enlace XMPP solo admite conexiones de extremos procedentes de estos clientes y de estos tipos de federación
 
 
 
@@ -90,31 +90,31 @@ Los usuarios externos autorizados pueden tener acceso a los servidores perimetra
 
 ## <a name="reverse-proxy"></a>Proxy inverso
 
-El proxy inverso es necesario para lo siguiente:
+El proxy inverso se requiere para:
 
-  - Para permitir que los usuarios se conecten a reuniones o conferencias de acceso telefónico local con direcciones URL simples
+  - Dejar que los usuarios se conecten a reuniones o conferencias de acceso telefónico usando direcciones URL sencillas
 
-  - Para permitir que los usuarios externos descarguen contenido de la reunión
+  - Dejar que los usuarios descarguen el contenido de las reuniones
 
-  - Para permitir a los usuarios externos expandir grupos de distribución
+  - Dejar que los usuarios externos expandan grupos de distribución
 
-  - Para permitir que el usuario obtenga un certificado basado en el usuario para la autenticación basada en certificados de cliente
+  - Dejar que los usuarios obtengan un certificado individual de usuario para la autenticación basada en certificados
 
-  - Para permitir que los usuarios remotos descarguen archivos desde el servidor de la libreta de direcciones o para enviar consultas al servicio de consulta Web de la libreta de direcciones
+  - Dejar que los usuarios remotos descarguen archivos del servidor de libreta de direcciones o envíen consultas al servicio de consulta web de la libreta de direcciones
 
-  - Para permitir que los usuarios remotos obtengan actualizaciones del software del cliente y del dispositivo
+  - Dejar que los usuarios remotos obtengan actualizaciones de software de dispositivo y de cliente
 
-  - Para habilitar dispositivos móviles para detectar automáticamente los servidores front-end que ofrecen servicios de movilidad
+  - Para habilitar dispositivos móviles para detectar automáticamente servidores front-end que ofrecen servicios de movilidad
 
-  - Para habilitar las notificaciones de inserción en dispositivos móviles desde el Office 365 o servicios de notificaciones push de Apple
+  - Para habilitar notificaciones de inserción para dispositivos móviles desde los servicios de notificación de inserción de Office 365 o Apple
 
-Para obtener más información relacionada con los proxies inversos y los requisitos que deben cumplir los proxies inversos, consulte los detalles de [los requisitos de configuración para el proxy inverso en Lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).
+Para obtener información adicional relacionada con los proxies inversos y los requisitos que deben cumplir los servidores proxy inversos, consulte los detalles de [los requisitos de configuración para el proxy inverso en Lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).
 
 <div>
 
 
 > [!NOTE]  
-> Los usuarios externos no necesitan una conexión de red privada virtual (VPN) a la organización para poder participar en las comunicaciones con Lync Server 2013. Si ha implementado tecnología VPN en su organización y los usuarios usan la VPN para Lync, el tráfico multimedia (como las videoconferencias) puede verse afectado negativamente. Debe considerar proporcionar un medio para que el tráfico de medios se conecte directamente con el servicio perimetral de AV y omita la red privada virtual. Para obtener más información, vea el artículo del blog de NextHop, "habilitar medios de Lync para eludir <A href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>un túnel VPN" en.
+> Los usuarios externos no necesitan una conexión de red privada virtual (VPN) a la organización para poder participar en las comunicaciones con Lync Server 2013. Si ha implementado la tecnología VPN en su organización y los usuarios usan la VPN para Lync, el tráfico multimedia (por ejemplo, la videoconferencia) puede verse afectado negativamente. Debe considerar la posibilidad de ofrecer un medio para que el tráfico de medios se conecte directamente con el servicio perimetral AV y omita la VPN. Para obtener más información, consulte el artículo del blog NextHop, "Enabling Lync media to bypass a VPN Tunnel <A href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>", en.
 
 
 
@@ -124,19 +124,19 @@ Para obtener más información relacionada con los proxies inversos y los requis
 
 <div>
 
-## <a name="firewall"></a>Firewall
+## <a name="firewall"></a>Éste
 
-Puede implementar su topología perimetral solo con un firewall externo o con firewalls externos e internos. Las arquitecturas de escenario incluyen dos firewalls. El uso de dos firewalls es el método recomendado, ya que garantiza el enrutamiento estricto desde un perímetro de red al otro y protege la implementación interna detrás de dos niveles de Firewall.
+La topología perimetral se puede implementar con únicamente un firewall externo o con un firewall interno y otro externo. Las arquitecturas de escenario incluyen dos firewalls. El uso de dos firewall es el método que se recomienda, en tanto garantiza el enrutamiento estricto desde un perímetro de red al otro, además de proteger la implementación interna detrás de dos niveles de firewall.
 
 </div>
 
 <div>
 
-## <a name="director"></a>Director
+## <a name="director"></a>Dirección
 
-Un director es un rol de servidor independiente y opcional de Lync Server 2013 que no aloja cuentas de usuario o proporciona servicios de presencia o de conferencia. Actúa como un servidor interno del próximo salto al que un servidor perimetral enruta el tráfico SIP entrante destinado a los servidores internos. El director preautentica las solicitudes entrantes y las redirige al grupo de servidores o al grupo de servidores principal del usuario. Al autenticar en el director, puede colocar solicitudes de cuentas de usuario desconocidas para la implementación.
+Un director es un rol de servidor opcional e independiente en Lync Server 2013 que no aloja cuentas de usuario ni proporciona servicios de presencia o conferencia. Actúa como un servidor interno del próximo salto en el que un servidor perimetral enruta el tráfico SIP entrante destinado a los servidores internos. El director autentica las solicitudes de entrada y las redirige al servidor o grupo de servidores principales del usuario. Mediante la autenticación previa en el director, puede colocar solicitudes de cuentas de usuario que son desconocidas para la implementación.
 
-Un director ayuda a aislar servidores Standard Edition y servidores de aplicaciones para el usuario de las agrupaciones front end de Enterprise Edition de tráfico malintencionado, como ataques de denegación de servicio (DoS). Si la red se inunda con tráfico externo no válido en tal ataque, el tráfico termina en el director. Para obtener más información sobre el uso de los directores, consulte [escenarios del Director de Lync Server 2013](lync-server-2013-scenarios-for-the-director.md).
+Un director ayuda a aislar los servidores Standard Edition y los servidores front-end de los grupos de servidores front-end Enterprise Edition de tráfico malintencionado, como los ataques por denegación de servicio (DoS). Si la red está inundada con tráfico externo no válido en un ataque de este tipo, el tráfico termina en el director. Para obtener más información sobre el uso de los directores, consulte [escenarios del Director en Lync Server 2013](lync-server-2013-scenarios-for-the-director.md).
 
 </div>
 
@@ -145,7 +145,7 @@ Un director ayuda a aislar servidores Standard Edition y servidores de aplicacio
 ## <a name="see-also"></a>Vea también
 
 
-[Requisitos del equilibrador de carga de hardware en Lync Server 2013](lync-server-2013-hardware-load-balancer-requirements.md)  
+[Requisitos del equilibrador de carga de hardware para Lync Server 2013](lync-server-2013-hardware-load-balancer-requirements.md)  
   
 
 </div>

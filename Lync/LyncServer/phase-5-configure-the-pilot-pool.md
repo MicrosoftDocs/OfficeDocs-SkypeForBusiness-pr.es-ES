@@ -12,16 +12,16 @@ ms:contentKeyID: 48183532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e3d956d4252d73d2aa1d393917a5b3d72976209
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d337fec0fcb5261e01424f5bcfbad9de07448cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765711"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034250"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41765711"
 
 _**Última modificación del tema:** 2012-10-19_
 
-Ahora que se ha creado el grupo piloto y la información de implementación heredada se ha fusionado con Lync Server 2013, esta sección identifica algunas configuraciones que deben realizarse en el grupo piloto.
+Ahora que se ha creado el grupo piloto y se ha combinado la información de implementación heredada con Lync Server 2013, esta sección identifica algunas configuraciones que deben realizarse en el grupo piloto.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Conecte el grupo de servidores piloto a los servidores perimetrales heredados](connect-pilot-pool-to-legacy-edge-servers_1.md)
+  - [Conectar el grupo piloto a servidores perimetrales heredados](connect-pilot-pool-to-legacy-edge-servers_1.md)
 
-  - [Autorizar la conexión a Office Communications Server 2007 R2 servidor perimetral](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
+  - [Autorizar la conexión al servidor perimetral de Office Communications Server 2007 R2](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
 
   - [Comprobación de los parámetros de configuración](verify-configuration-settings_1.md)
 
-  - [Configurar certificados y directivas de acceso por puerta de enlace XMPP](configure-xmpp-gateway-access-policies-and-certificates_1.md)
+  - [Configurar las directivas y los certificados de acceso a puertas de enlace XMPP](configure-xmpp-gateway-access-policies-and-certificates_1.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: informe actividad de conferencia'
+title: 'Lync Server 2013: informe de actividad de conferencia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c098bc3a1c8b937b72707c76a3943866ad7b9fbb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8992d4a8e6dc0933449c4ab4be4602d9707f1d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757044"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007899"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41757044"
 
 _**Última modificación del tema:** 2012-10-22_
 
-El informe de actividad de conferencia le facilita que responda a preguntas como cuántas conferencias se están celebrando cada día y cuántas se celebran. La información como esta no es solo útil por sí misma sino también como herramienta de solución de problemas. Por ejemplo, supongamos que los usuarios se están quejando de que la red parece particularmente lenta a mitad del día. Un vistazo rápido a los informes de actividad de conferencia puede sugerir una posible causa: muchas más conferencias se programan entre las horas de 10:00 AM y 2:00 PM, en cualquier otro momento.
+El informe de actividad de conferencia le facilita que responda a preguntas como cuántas conferencias se están celebrando cada día y cuántas se celebran. La información como esta no es solo útil por sí misma sino también como herramienta de solución de problemas. Por ejemplo, supongamos que los usuarios se están quejando de que la red parece particularmente lenta a mitad del día. Un vistazo rápido a los informes de actividad de conferencia puede sugerir una posible razón: muchas más conferencias se están programando entre las horas 10:00 A.M. y 2:00 P.M. después, en cualquier otro momento.
 
 Si la red lenta está causando problemas, puede animar a los usuarios a reprogramar algunas de sus conferencias durante las horas de menor tráfico del día.
 
@@ -45,7 +45,7 @@ Si la red lenta está causando problemas, puede animar a los usuarios a reprogra
 
 ## <a name="accessing-the-conference-activity-report"></a>Acceso al informe de actividad de conferencia
 
-Para obtener acceso al informe de actividad de conferencia desde el [Informe de Resumen de conferencia en Lync Server 2013](lync-server-2013-conference-summary-report.md) , haga clic en una de las siguientes métricas:
+Para obtener acceso al informe de actividad de conferencia, vaya al [Informe de Resumen de conferencia en Lync Server 2013](lync-server-2013-conference-summary-report.md) haciendo clic en una de las siguientes métricas:
 
   - Total de conferencias
 
@@ -57,7 +57,7 @@ Para obtener acceso al informe de actividad de conferencia desde el [Informe de 
 
 ## <a name="making-the-best-use-of-the-conference-activity-report"></a>Aprovechar al máximo el informe de actividad de conferencia
 
-De manera predeterminada, el informe de actividad de conferencia le muestra la cantidad total de conferencias para el período de tiempo especificado (por ejemplo, la cantidad total de conferencias por día o la cantidad total de conferencias por hora del día). Pero, puede elegir visualizar la cantidad total de participantes para ese período de tiempo o la cantidad total de minutos de participante. Para ello, haga clic en el botón Mostrar u ocultar parámetros para visualizar las opciones de filtrado y, luego, seleccione uno de los siguientes en la lista desplegable Informe por:
+De manera predeterminada, el informe de actividad de conferencia le muestra el número total de conferencias para el período de tiempo especificado (por ejemplo, el número total de conferencias por día o el número total de conferencias por hora del día). Sin embargo, puede elegir visualizar el número total de participantes para ese período de tiempo o el número total de minutos de participante. Para ello, haga clic en el botón Mostrar u ocultar parámetros para visualizar las opciones de filtrado y, a continuación, seleccione uno de los siguientes en la lista desplegable Informe por:
 
   - Recuento de participantes
 
@@ -88,27 +88,27 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
-<td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:</p>
-<p>7/7/2012 1:00 P.M.</p>
-<p>Si no escribe una hora de inicio, el informe se iniciará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<td><p><strong>From</strong></p></td>
+<td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</p>
+<p>7/7/2012 1:00 pm</p>
+<p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
-<p>Las semanas siempre van del domingo al sábado.</p></td>
+<p>Las semanas siempre empiezan en domingo y terminan en sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Hasta</strong></p></td>
-<td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización como se indica a continuación:</p>
-<p>7/7/2012 1:00 P.M.</p>
-<p>Si no escribe una hora de finalización, el informe finalizará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:</p>
+<p>7/7/2012 1:00 PM</p>
+<p>Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
 <p>Las semanas siempre van del domingo al sábado.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Intervalo</strong></p></td>
+<td><p><strong>Intervalo de</strong></p></td>
 <td><p>Intervalo de tiempo. Seleccione una de las siguientes opciones:</p>
 <ul>
 <li><p>Cada hora (se puede ver un máximo de 25 horas)</p></li>
@@ -116,14 +116,14 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 <li><p>Cada semana (se puede ver un máximo de 12 semanas)</p></li>
 <li><p>Cada mes (se puede ver un máximo de 12 meses)</p></li>
 </ul>
-<p>Si las fechas de inicio y finalización superan la cantidad máxima de valores permitidos para el intervalo seleccionado, solo se mostrará la cantidad máxima de valores (comenzando en la fecha de inicio). Por ejemplo, si selecciona el intervalo diario con una fecha de inicio de 7/7/2012 y una fecha de finalización de 2/28/2012, los datos se muestran para los días 8/7/2012 12:00 A.M. a 9/7/2012 12:00 A.M. (es decir, un total de 31 días de datos).</p></td>
+<p>Si las fecha de inicio y finalización superan la cantidad máxima de valores permitidos para el intervalo seleccionado, solo se mostrará la cantidad máxima de valores (comenzando en la fecha de inicio). Por ejemplo, si selecciona el intervalo Cada día con una fecha de inicio 7/7/2012 y una fecha de finalización 28/2/2012, se mostrarán los datos correspondientes a los días entre el 7/8/2012 a las 12:00 horas y el 7/9/2012 a las 12:00 horas (es decir, datos para un total de 31 días).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Informe por</strong></p></td>
 <td><p>Indica los valores a utilizar en el informe. Seleccione una opción de las siguientes:</p>
 <ul>
 <li><p>Recuento de participantes</p></li>
-<li><p>Minutos de participantes</p></li>
+<li><p>Minutos de participante</p></li>
 <li><p>Recuento de conferencias</p></li>
 </ul></td>
 </tr>
@@ -150,13 +150,13 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Grupo de servidores</strong></p></td>
+<td><p><strong>Pool</strong></p></td>
 <td><p>No</p></td>
 <td><p>Nombre del grupo de registradores o servidor perimetral utilizado en la conferencia.</p></td>
 </tr>
@@ -193,7 +193,7 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185844
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d5f9d112e045e753147f7fcffa875177a6feb0d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16f1e202c1d7e60202b76d42f0104f372213597f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757504"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007219"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,29 +37,29 @@ ms.locfileid: "41757504"
 
 _**Última modificación del tema:** 2012-09-21_
 
-Puede usar el panel de control de Lync Server 2013 para ver una lista de las aplicaciones de confianza que ha implementado en su entorno de Lync Server 2013. Una aplicación de confianza es una aplicación basada en el SDK de Microsoft Unified Communications Managed API (UCMA) 3,0 Core en el que se confía en Lync Server 2013. Esta relación de confianza se resume en la siguiente lista:
+Puede usar el panel de control de Lync Server 2013 para ver una lista de las aplicaciones de confianza que ha implementado en su entorno de Lync Server 2013. Una aplicación de confianza es una aplicación basada en el SDK de Microsoft Unified Communications Managed API (UCMA) 3,0 Core SDK en el que se confía en Lync Server 2013. Esta relación de confianza se resume en la lista siguiente:
 
   - Las aplicaciones de confianza no son desafiadas para la autenticación por parte de Lync Server.
 
-  - Las aplicaciones de confianza no están limitadas por Lync Server para las transacciones SIP, las conexiones o las llamadas salientes de protocolo de voz a través de Internet (VoIP).
+  - Lync Server no limita las aplicaciones de confianza para las transacciones SIP, las conexiones o las llamadas salientes del Protocolo de voz sobre Internet (VoIP).
 
-  - Las aplicaciones de confianza pueden suplantar a cualquier usuario y pueden unirse a conferencias sin aparecer en las listas.
+  - Las aplicaciones de confianza pueden suplantar a cualquier usuario y pueden unirse a conferencias sin que aparezcan en las listas.
 
-  - Las aplicaciones de confianza son altamente disponibles y resistentes.
+  - Las aplicaciones de confianza tienen alta disponibilidad y resistencia.
 
-En el panel de control de Lync Server, puede ver el nombre de las aplicaciones, el grupo donde se ejecutan y el puerto que usan.
+En el panel de control de Lync Server, puede ver el nombre de las aplicaciones, el grupo de servidores donde se ejecutan y el puerto que usan.
 
 <div>
 
 ## <a name="to-view-a-list-of-trusted-applications"></a>Para ver una lista de aplicaciones de confianza
 
-1.  Inicie sesión en cualquier equipo en la implementación interna desde una cuenta de usuario que esté asignada al rol CsServerAdministrator, CsAdministrator, CsHelpDesk o CsViewOnlyAdministrator. Para obtener más información sobre los roles administrativos predefinidos disponibles en Lync Server 2013, consulte [planificación de control de acceso basado en roles en Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+1.  Desde una cuenta de usuario asignada al rol CsServerAdministrator, CsAdministrator, CsHelpDesk, o CsViewOnlyAdministrator , inicie sesión en cualquier equipo de su implementación interna. Para obtener más información sobre los roles administrativos predefinidos disponibles en Lync Server 2013, vea [planeación del control de acceso basado en roles en Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  En la barra de navegación izquierda, haga clic en **topología** y en **aplicación de confianza**.
 
-4.  En la página de la **aplicación de confianza** , haga clic en un encabezado de columna para ordenar las aplicaciones, si es necesario.
+4.  En la página **aplicación de confianza** , haga clic en un encabezado de columna para ordenar las aplicaciones, si es necesario.
 
 </div>
 

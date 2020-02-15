@@ -12,16 +12,16 @@ ms:contentKeyID: 48184463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ae7633d638571410c93cfefe87d9e333731a4bb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f2f4897df817c4392779169c535199579ac04d9e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727590"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034656"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,25 +37,25 @@ ms.locfileid: "41727590"
 
 _**Última modificación del tema:** 2012-10-04_
 
-Antes de dar de baja un grupo, debe realizar el siguiente procedimiento para cada directorio de conferencia del grupo de Office Communications Server 2007 R2.
+Antes de retirar un grupo de servidores, debe realizar el siguiente procedimiento para cada directorio de conferencia del grupo de servidores de Office Communications Server 2007 R2.
 
 <div>
 
 ## <a name="to-move-a-conference-directory-to-lync-server-2013"></a>Para mover un directorio de conferencia a Lync Server 2013
 
-1.  Abra el shell de administración de Lync Server.
+1.  Abra el Shell de administración de Lync Server.
 
-2.  Para obtener la identidad de los directorios de conferencia de su organización, ejecute los siguientes comandos:
+2.  Para obtener la identidad de los directorios de conferencia de su organización, ejecute los comandos siguientes:
     
         Get-CsConferenceDirectory
     
-    Dado que este cmdlet devuelve todos los directorios de conferencia de su organización, es posible que desee limitar los resultados solo a la agrupación que desea retirar. Por ejemplo, si desea retirar un grupo con el nombre de dominio completo (FQDN) pool01.contoso.net:
+    Debido a que este cmdlet devuelve todos los directorios de conferencia de su organización, es posible que desee limitar los resultados solo a los grupos que desea retirar. Por ejemplo, si desea retirar un grupo con el nombre de dominio completo (FQDN) pool01.contoso.net:
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     
-    Este cmdlet devuelve todos los directorios de conferencia en los que el identificador de servicio contiene el FQDN pool01.contoso.net.
+    Este cmdlet devuelve todos los directorios de conferencia en los que el Id. de servicio contiene el FQDN pool01.contoso.net.
 
-3.  Para mover los directorios de una conferencia, ejecute lo siguiente para cada directorio de conferencia del Grupo:
+3.  Para mover directorios de conferencia, ejecute lo siguiente para cada directorio de conferencia del grupo:
     
         Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
     
@@ -67,13 +67,13 @@ Antes de dar de baja un grupo, debe realizar el siguiente procedimiento para cad
 
 
 > [!NOTE]  
-> Puede experimentar un error, que se muestra a continuación, provocado por el shell de administración de Lync Server que requiere un conjunto actualizado de permisos de Active Directory. Para resolver el error, cierre la ventana actual y abra un nuevo shell de administración de Lync Server y vuelva a ejecutar el comando.
+> Puede experimentar un error, que se muestra a continuación, debido a que el shell de administración de Lync Server requiere un conjunto actualizado de permisos de Active Directory. Para solucionar el error, cierre la ventana actual y abra un nuevo shell de administración de Lync Server y ejecute el comando de nuevo.
 
 
 
 </div>
 
-![Salida de error de movimiento-CsConferenceDirectory](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Salida de error de movimiento-CsConferenceDirectory")
+![Salida de error de Move-CsConferenceDirectory](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Salida de error de Move-CsConferenceDirectory")
 
 </div>
 

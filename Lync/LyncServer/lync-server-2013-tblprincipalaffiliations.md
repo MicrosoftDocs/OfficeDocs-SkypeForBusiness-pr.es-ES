@@ -12,16 +12,16 @@ ms:contentKeyID: 48183993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3976b98fddc96ad08f3de4413bf8f38ec3525496
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee16c492a42cb98ff3b5f326bd6f43a57c4d3f56
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764156"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034280"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41764156"
 
 _**Última modificación del tema:** 2012-09-12_
 
-tblPrincipalAffiliations contiene las afiliaciones principales que describen las pertenencias en ubicaciones, incluidos los grupos de seguridad de los servicios de dominio de Active Directory, en contenedores de Active Directory, en dominios.
+tblPrincipalAffiliations contiene las afiliaciones principales que describen las pertenencias en ubicaciones, incluidos los grupos de seguridad de servicios de dominio de Active Directory, en contenedores de Active Directory, en dominios.
 
-### <a name="columns"></a>Columnas
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,29 +57,29 @@ tblPrincipalAffiliations contiene las afiliaciones principales que describen las
 <tbody>
 <tr class="odd">
 <td><p>principalID</p></td>
-<td><p>int, not null</p></td>
-<td><p>IDENTIFICADOR de la entidad de identidad afiliada.</p></td>
+<td><p>int, no NULL</p></td>
+<td><p>Id. de la entidad de seguridad afiliada.</p></td>
 </tr>
 <tr class="even">
 <td><p>affiliationID</p></td>
-<td><p>int, not null</p></td>
-<td><p>IDENTIFICADOR de la identidad que representa la afiliación. Cada principal (excepto los tipos de usuario del sistema) tiene también una afiliación propia.</p></td>
+<td><p>int, no NULL</p></td>
+<td><p>Id. de la entidad de seguridad que representa la afiliación. Todas las entidades de seguridad (excepto system-user-types) tienen también una afiliación propia.</p></td>
 </tr>
 <tr class="odd">
-<td><p>clasificación</p></td>
-<td><p>int, not null</p></td>
-<td><p>Clasificación. El valor de las afiliaciones automáticas es de-1 y para las otras afiliaciones que aumenta secuencialmente de 1 en cada &lt;PrincipalID, affiliationId&gt; bucket.</p></td>
+<td><p>index</p></td>
+<td><p>int, no NULL</p></td>
+<td><p>TopIndex. El valor de Self-Afiliation es-1 y para las otras afiliaciones que aumenta secuencialmente de 1 en cada &lt;PrincipalID, affiliationId&gt; bucket.</p></td>
 </tr>
 <tr class="even">
 <td><p>updatedBy</p></td>
-<td><p>int, not null</p></td>
-<td><p>Principal que realizó la actualización más reciente. Esto suele ser 1, que significa sincronización de Active Directory.</p></td>
+<td><p>int, no NULL</p></td>
+<td><p>Entidad de seguridad que realizó la actualización más reciente. Suele ser 1, lo que significa sincronización de Active Directory.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Sus
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -88,22 +88,22 @@ tblPrincipalAffiliations contiene las afiliaciones principales que describen las
 </colgroup>
 <thead>
 <tr class="header">
-<th>Columnas</th>
+<th>Columns</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;principalID, Indice, affiliationID&gt;</p></td>
+<td><p>&lt;principalID, index, affiliationID&gt;</p></td>
 <td><p>Clave principal.</p></td>
 </tr>
 <tr class="even">
 <td><p>principalID</p></td>
-<td><p>Clave externa con la búsqueda en la tabla tblPrincipal. prinID.</p></td>
+<td><p>Clave externa con búsqueda en la tabla tblPrincipal.prinID.</p></td>
 </tr>
 <tr class="odd">
 <td><p>affiliationID</p></td>
-<td><p>Clave externa con la búsqueda en la tabla tblPrincipal. prinID.</p></td>
+<td><p>Clave externa con búsqueda en la tabla tblPrincipal.prinID.</p></td>
 </tr>
 </tbody>
 </table>

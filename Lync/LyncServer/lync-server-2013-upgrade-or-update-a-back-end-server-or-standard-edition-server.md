@@ -1,5 +1,5 @@
 ---
-title: Actualizar o actualizar un servidor de servicios de fondo o un servidor Standard Edition
+title: Actualizar o actualizar un servidor back-end o un servidor Standard Edition
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0526cc7ba6a6abefd066bf07d845ffed3a4107ca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 213a945d27c2c5d0ee2135fd0d96bbe1c29c1971
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744670"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42015363"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a>Actualizar o actualizar un servidor de servicios de fondo o un servidor Standard Edition en Lync Server 2013
+# <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a>Actualizar o actualizar un servidor back-end o un servidor Standard Edition en Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41744670"
 
 _**Última modificación del tema:** 2012-11-01_
 
-En este tema se explica cómo instalar una actualización en un servidor de servicios de fondo Enterprise Edition o en un servidor Standard Edition.
+En este tema se explica cómo instalar una actualización en un servidor back-end de Enterprise Edition o un servidor Standard Edition.
 
-Si un servidor back-end está desactivado durante al menos 30 minutos mientras lo está actualizando, los usuarios pueden entrar en el modo de resistencia. Cuando la actualización se ha completado y los servidores back-end se han conectado de nuevo con los servidores front-end en el grupo, los usuarios se devuelven a la funcionalidad completa. Si la actualización dura menos de 30 minutos, los usuarios no se verán afectados.
+Si un servidor back-end está inactivo al menos 30 minutos mientras se actualiza, los usuarios podrían entrar en modo de resistencia. Cuando termine la actualización y los servidores back-end se conecten de nuevo a los servidores front-end del grupo, los usuarios volverán al modo de funcionalidad total. Si la actualización dura menos de 30 minutos, los usuarios no se verán afectados.
 
 <div>
 
@@ -49,7 +49,7 @@ Si un servidor back-end está desactivado durante al menos 30 minutos mientras l
 
 2.  Descargue la actualización extráigala en el disco duro local.
 
-3.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+3.  Inicie el Shell de administración de Lync Server: Haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, a continuación, en **Shell de administración de Lync Server**.
 
 4.  Detenga los servicios de Lync Server. En la línea de comandos, escriba:
     
@@ -59,13 +59,13 @@ Si un servidor back-end está desactivado durante al menos 30 minutos mientras l
     
         net stop w3svc
 
-6.  Cierre todas las ventanas del shell de administración de Lync Server.
+6.  Cierre todas las ventanas de el Shell de administración de Lync Server.
 
 7.  Instale la actualización.
 
-8.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+8.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-9.  Detenga de nuevo los servicios de Lync Server para capturar los ensamblados de caché global de ensamblados (GAC): d. En la línea de comandos, escriba:
+9.  Vuelva a detener los servicios de Lync Server para capturar ensamblados -d de la caché global de ensamblados (GAC). En la línea de comandos, escriba:
     
         Stop-CsWindowsService
 
@@ -73,13 +73,13 @@ Si un servidor back-end está desactivado durante al menos 30 minutos mientras l
     
         net start w3svc
 
-11. Aplique los cambios realizados por LyncServerUpdateInstaller. exe a las bases de datos de SQL Server de una de las siguientes maneras:
+11. Aplique los cambios realizados por LyncServerUpdateInstaller.exe a las bases de datos de SQL Server mediante uno de los siguientes procedimientos:
     
-      - Si se trata de un servidor de servicios de fondo Enterprise Edition y no hay bases de datos colocadas en este servidor, como archivar o supervisar bases de datos, escriba lo siguiente en una línea de comandos:
+      - Si este es un servidor back-end de Enterprise Edition y no hay bases de datos combinadas en este servidor, como las bases de datos de archivado o supervisión, escriba lo siguiente en la línea de comandos:
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
     
-      - Si se trata de un servidor de servicios de fondo Enterprise Edition y hay bases de datos colocadas en este servidor, escriba lo siguiente en una línea de comandos:
+      - Si este es un servidor back-end Enterprise Edition y hay bases de datos combinadas en este servidor, escriba lo siguiente en la línea de comandos:
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     

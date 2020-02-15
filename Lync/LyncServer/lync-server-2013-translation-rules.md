@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: reglas de traducción'
+title: 'Lync Server 2013: reglas de conversión'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184460
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4ae330633acb04a35abe19356f4b00ff09ef41a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16623d863e9ca4a252ad7249ba1933cfa6934b08
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745060"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036470"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="translation-rules-in-lync-server-2013"></a>Reglas de traducción en Lync Server 2013
+# <a name="translation-rules-in-lync-server-2013"></a>Reglas de conversión en Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41745060"
 
 _**Última modificación del tema:** 2012-10-05_
 
-Lync Server 2013 Enterprise Voice requiere que todas las cadenas de marcado se normalizaran al formato E. 164 con el fin de realizar la búsqueda de números inversos (RNL). En Microsoft Lync Server 2010, las reglas de traducción solo se admiten para números llamados. En Microsoft Lync Server 2013, también se admiten las reglas de traducción para llamar a los números. El *tronco del mismo nivel* (es decir, la puerta de enlace asociada, la central de conmutación [PBX] o el tronco SIP) puede necesitar que los números estén en un formato de marcado local. Para convertir números del formato E.164 a un formato de marcado local, puede definir una o más reglas de conversión para manipular el URI de solicitud antes de redirigirlo al tronco del mismo nivel que el tronco. Por ejemplo, puede escribir una regla de conversión para quitar +44 del inicio de la cadena de marcado y cambiarlo por 0144.
+Lync Server 2013 Enterprise Voice requiere que todas las cadenas de marcado se normalizan al formato E. 164 con el propósito de realizar la búsqueda inversa de números (RNL). En Microsoft Lync Server 2010, las reglas de conversión solo se admiten para números con nombre. New in Microsoft Lync Server 2013, también se admiten las reglas de conversión para números de llamada. La *entidad del mismo nivel que el tronco* (esto es, la puerta de enlace asociada, la central de comunicación (PBX) o el tronco SIP) puede requerir que los números estén en un formato de marcado local. Para convertir números del formato E.164 a un formato de marcado local, puede definir una o más reglas de conversión para manipular el URI de solicitud antes de enrutarlo a la entidad del mismo nivel que el tronco. Por ejemplo, puede escribir una regla de conversión para quitar +44 del inicio de la cadena de marcado y sustituirlo por 0144.
 
-Con la conversión de la ruta saliente del servidor, puedes reducir los requisitos de configuración de cada tronco del mismo nivel individual para convertir los números de teléfono en un formato de marcado local. Cuando se planean las puertas de enlace y el número de puertas de enlace para asociarlas con un clúster de servidor de mediación específico, puede resultar útil agrupar los pares de troncales con requisitos de marcado local similares. Así, se puede reducir la cantidad de reglas de conversión necesarias y el tiempo necesario para escribirlas.
+Mediante la conversión de la ruta saliente del servidor, se pueden reducir los requisitos de configuración de cada entidad del mismo nivel que el tronco individual para convertir los números de teléfono en un formato de marcado local. Al planear qué puertas de enlace y cuántas puertas de enlace, para asociar con un clúster de servidor de mediación específico, puede resultar útil agrupar los pares de tronco con requisitos de marcado local similares. De este modo, se puede reducir el número de reglas de conversión requeridas y el tiempo necesario para escribirlas.
 
 <div>
 
 
 > [!IMPORTANT]  
-> La Asociación de una o más reglas de traducción con una configuración de telefonía IP empresarial debe utilizarse como alternativa a la configuración de reglas de traducción en el sistema troncal. No asociar reglas de traducción con una configuración de troncal empresarial de voz si ha configurado reglas de traducción en el sistema troncal del mismo nivel, porque las dos reglas podrían entrar en conflicto.
+> La Asociación de una o más reglas de traducción con una configuración de tronco de Enterprise Voice debe usarse como alternativa a la configuración de reglas de conversión en el tronco del mismo nivel. No asocie reglas de conversión a una configuración de tronco de telefonía IP empresarial si ha configurado reglas de conversión en el sistema de tronco del mismo nivel, ya que las dos reglas podrían entrar en conflicto.
 
 
 
@@ -55,9 +55,9 @@ Con la conversión de la ruta saliente del servidor, puedes reducir los requisit
 
 ## <a name="example-translation-rules"></a>Reglas de conversión de ejemplo
 
-Los siguientes ejemplos de reglas de conversión muestran cómo se pueden desarrollar reglas en el servidor para convertir números del formato E.164 a un formato local para el tronco del mismo nivel.
+Los siguientes ejemplos de reglas de conversión muestran cómo se pueden desarrollar reglas en el servidor para convertir números del formato E.164 a un formato local para la entidad del mismo nivel que el tronco.
 
-Para obtener más información sobre cómo implementar reglas de traducción, consulte [definición de reglas de traducción en Lync Server 2013](lync-server-2013-defining-translation-rules.md) en la documentación de implementación.
+Para obtener más información sobre cómo implementar reglas de conversión, consulte [Defining Translation Rules in Lync Server 2013](lync-server-2013-defining-translation-rules.md) en la documentación sobre implementación.
 
 
 <table>
@@ -75,35 +75,35 @@ Para obtener más información sobre cómo implementar reglas de traducción, co
 <tr class="header">
 <th>Descripción</th>
 <th>Dígitos iniciales</th>
-<th>Longitud</th>
+<th>Length</th>
 <th>Dígitos que se van a quitar</th>
 <th>Dígitos que se van a agregar</th>
 <th>Patrón de comparación</th>
-<th>Conversión</th>
+<th>Translation</th>
 <th>Ejemplo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Marcado convencional de larga distancia de EE. UU.</p>
-<p>(quita el "+")</p></td>
-<td><p>+1</p></td>
+<td><p>Marcado convencional de larga distancia en EE.UU.</p>
+<p>(quite el "+")</p></td>
+<td><p>+ 1</p></td>
 <td><p>Exactamente 12</p></td>
-<td><p>1</p></td>
-<td><p>,0</p></td>
+<td><p>1 </p></td>
+<td><p>comprendi</p></td>
 <td><p>^\+(1 \ d{10}) $</p></td>
 <td><p>$1</p></td>
 <td><p>+14255551010 se convierte en 14255551010</p></td>
 </tr>
 <tr class="even">
-<td><p>Marcado internacional de larga distancia de EE. UU.</p>
-<p>(quita el "+" y agrega 011)</p></td>
+<td><p>Marcado internacional de larga distancia de EE.UU.</p>
+<p>(quite el "+" y agregue 011)</p></td>
 <td><p>+</p></td>
 <td><p>11 como mínimo</p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>011</p></td>
 <td><p>^\+(\d{9}\d +) $</p></td>
-<td><p>011$1</p></td>
+<td><p>011 $1</p></td>
 <td><p>+441235551010 se convierte en 011441235551010</p></td>
 </tr>
 </tbody>

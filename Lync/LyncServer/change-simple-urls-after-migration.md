@@ -1,5 +1,5 @@
 ---
-title: Cambiar las direcciones URL simples tras la migración
+title: Cambiar direcciones URL sencillas después de la migración
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 49733777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a24eda274734e0c5a27fab30640a363de6653514
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: df0d6666f4ea824d59a97eb1f63b66016c75d547
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726730"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003425"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="change-simple-urls-after-migration"></a>Cambiar las direcciones URL simples tras la migración
+# <a name="change-simple-urls-after-migration"></a>Cambiar direcciones URL sencillas después de la migración
 
 </div>
 
@@ -38,39 +38,39 @@ ms.locfileid: "41726730"
 
 _**Última modificación del tema:** 2012-09-22_
 
-Lync Server admite tres direcciones URL simples:
+Lync Server admite tres direcciones URL sencillas:
 
-  - **Reunirse** se usa como la dirección URL base para todas las conferencias del sitio o la organización. Con la dirección URL simple, los vínculos a las reuniones de unirse son fáciles de comprender y se pueden comunicar y distribuir fácilmente.
+  - **Reunión** sirve como dirección URL base de todas las conferencias del sitio o la organización. Con una dirección URL simple de reunión, los vínculos para unirse a reuniones son fáciles de identificar, comunicar y distribuir.
 
-  - El acceso **telefónico** permite el acceso a la Página Web de configuración de conferencias de acceso telefónico local. La dirección URL de acceso telefónico simple está incluida en todas las invitaciones a reuniones para que los usuarios que deseen llamar a la reunión puedan tener acceso a la información del número de teléfono y del PIN necesarios.
+  - **Acceso telefónico** permite el acceso a la página web Configuración de conferencia de acceso telefónico local. La dirección URL simple de acceso telefónico aparece en todas las invitaciones a reuniones para que los usuarios que marquen para unirse a la reunión puedan tener acceso al número de teléfono e información de PIN necesarios.
 
-  - El **Administrador** permite acceder rápidamente al panel de control de Lync Server. La dirección URL simple de administración es interna de su organización.
+  - El **Administrador** habilita el acceso rápido al panel de control de Lync Server. La dirección URL simple de administración es de uso interno para la organización.
 
-Después de migrar a Lync Server 2013, debe tener en cuenta cómo afecta el cambio a los registros DNS y los certificados para las direcciones URL simples. Si el director de Lync Server 2010 heredado permanece en uso en la topología, no es necesario realizar cambios en las direcciones URL simples. Si se quita Lync Server 2010 Director de la topología después de la migración, los registros DNS de direcciones URL simples deben actualizarse para que apunten a uno de los grupos de servidores de Lync Server 2013. Sin embargo, cada vez que cambie un nombre de dirección URL simple, debe ejecutar enable-CsComputer en cada director y en el servidor front-end para registrar el cambio.
+Después de migrar a Lync Server 2013, debe tener en cuenta cómo afecta el cambio a los registros DNS y certificados para las direcciones URL sencillas. Si el director de Lync Server 2010 heredado permanece en uso en la topología, no es necesario realizar cambios en las direcciones URL simples. Si se quita el director de Lync Server 2010 de la topología después de la migración, los registros DNS de direcciones URL simples deben actualizarse para que apunten a uno de los grupos de servidores de Lync Server 2013. Sin embargo, cuando modifique el nombre de una dirección URL simple, deberá ejecutar Enable-CsComputer en cada director y servidor front-end para registrar el cambio.
 
 <div>
 
-## <a name="changing-simple-urls-after-migration"></a>Cambiar las URL simples después de la migración
+## <a name="changing-simple-urls-after-migration"></a>Cambiar las direcciones URL simples tras la migración
 
-**Para actualizar la dirección URL simple de reunirse**
+**Para actualizar las direcciones URL simples de reunión**
 
-1.  En el generador de topología, haga clic con el botón secundario en el nodo superior de **Lync Server**y, a continuación, haga clic en **Editar propiedades**.
+1.  En el generador de topologías, haga clic con el botón secundario en el nodo superior **Lync Server**y, a continuación, haga clic en **Editar propiedades**.
 
-2.  Seleccione **URL simples** en el panel izquierdo y, a continuación, debajo de **direcciones URL de reunión:** seleccione la dirección URL de la reunión y haga clic en **Editar URL**.
+2.  Seleccione **direcciones URL simples** en el panel izquierdo y, a continuación, debajo de direcciones URL de **reunión:** seleccione la dirección URL de reunirse y haga clic en **Editar dirección URL**.
 
-3.  Actualice la dirección URL con el valor que quiera y haga clic en **Aceptar** para guardar la dirección URL modificada.
+3.  Actualice la dirección URL al valor deseado y haga clic en **Aceptar** para guardar la dirección URL modificada.
 
-**Para actualizar la dirección URL simple de administración**
+**Para actualizar las direcciones URL simples de administración**
 
-1.  En el generador de topología, haga clic con el botón secundario en el nodo superior de **Lync Server**y, a continuación, haga clic en **Editar propiedades**.
+1.  En el generador de topologías, haga clic con el botón secundario en el nodo superior **Lync Server**y, a continuación, haga clic en **Editar propiedades**.
 
-2.  Seleccione **URL simples** en el panel izquierdo y, a continuación, haga clic en **dirección URL de acceso administrativo** , escriba la dirección URL simple que desee para el acceso administrativo al panel de Control de Lync Server 2013 y, a continuación, haga clic en **Aceptar**.
+2.  Seleccione **direcciones URL simples** en el panel izquierdo y, a continuación, en el cuadro **dirección URL de acceso administrativo** , escriba la dirección URL sencilla que desee para el acceso administrativo al panel de Control de Lync Server 2013 y, a continuación, haga clic en **Aceptar**.
     
     <div>
     
 
     > [!TIP]  
-    > Recomendamos usar la dirección URL más simple posible como dirección URL sencilla de administración. La opción más sencilla es <STRONG> https://admin.</STRONG> &lt;dominio&gt;.
+    > Recomendamos usar la dirección URL más simple posible para la dirección URL de administración. La opción más sencilla es <STRONG> https://admin.</STRONG> &lt;dominio&gt;.
 
     
     </div>
@@ -82,7 +82,7 @@ Después de migrar a Lync Server 2013, debe tener en cuenta cómo afecta el camb
 ## <a name="see-also"></a>Vea también
 
 
-[Planeación de las direcciones URL simples en Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)  
+[Planeación de direcciones URL sencillas en Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)  
   
 
 </div>

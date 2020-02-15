@@ -12,16 +12,16 @@ ms:contentKeyID: 48183625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb0e2db6eeff584c4d1ab08bdd293113f1394e4a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d3678414e45e556eb7092b923fab4b737bfd4842
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724830"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036680"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41724830"
 
 _**Última modificación del tema:** 2012-11-01_
 
-Lync Server le permite poner fuera de conexión un servidor (por ejemplo, para aplicar actualizaciones de software o hardware) sin ninguna pérdida de servicio para los usuarios.
+Lync Server permite desconectar un servidor (por ejemplo, para aplicar actualizaciones de software o hardware) sin que los usuarios pierdan el servicio.
 
-Cuando especifica la opción de evitar nuevas conexiones o llamadas a un servidor de un grupo, deja de tomarse cualquier conexión y llamada nuevas tan pronto como implemente esta opción. Estas nuevas conexiones y llamadas se enrutan a través de otros servidores del grupo. Un servidor que impide nuevas conexiones permite que las sesiones de las conexiones existentes continúen hasta que se desordenan de forma natural. Cuando haya finalizado todas las sesiones existentes, el servidor estará listo para desconectarse.
+Si especifica la opción para prevenir nuevas conexiones o llamadas al servidor en un grupo de servidores, dicho grupo deja de atender nuevas conexiones o llamadas en el momento en que se implementa la opción. Dichas nuevas conexiones y llamadas se redirigen a los otros servidores del grupo. Un servidor que no permite las nuevas conexiones permite que continúen las sesiones de conexiones existentes hasta su final natural. Cuando terminan todas las sesiones iniciadas, el servidor está listo para ser desconectado.
 
-Cuando impide nuevas conexiones a un servidor front-end, algunas características y servicios de Lync Server dependen del equilibrio de carga de DNS para asegurarse de que funciona correctamente. Si no usa el equilibrio de carga de DNS en el grupo, es posible que las conexiones a través de estos servicios no se redirijan a otros servidores durante el período en el que el servidor está impidiendo las conexiones nuevas y, por lo tanto, cuando el servidor se desconecta, algunas sesiones y llamadas pueden ser interrupción. Las características que dependen del equilibrio de carga de DNS para asegurarse de que esta opción funciona correctamente son las siguientes:
+Cuando evita nuevas conexiones a un servidor front-end, algunas características y servicios de Lync Server se basan en el equilibrio de carga de DNS para asegurarse de que funcionan correctamente. Si no usa el equilibrador de carga de DNS en el grupo de servidores, puede que las conexiones a través de dichos servicios no se redirijan a otros servidores durante el período en que el servidor no admite nuevas conexiones, por lo cual es posible que cuando el servidor se desconecte se vean interrumpidas algunas sesiones y llamadas. Las características que dependen del equilibrador de carga de DNS para garantizar que esta opción funciona correctamente son las siguientes:
 
-  - Operador
+  - Auxiliar
 
   - Aplicación de anuncio de conferencia
 
@@ -51,17 +51,17 @@ Cuando impide nuevas conexiones a un servidor front-end, algunas característica
 
   - Aplicación de anuncio
 
-  - Aplicación de estacionamiento de llamadas
+  - Aplicación Estacionamiento de llamadas
 
-Para obtener más información sobre el equilibrio de carga de DNS, consulte [equilibrio de carga de DNS en Lync Server 2013](lync-server-2013-dns-load-balancing.md) en la documentación de planeación.
+Para obtener más información sobre el equilibrio de carga de DNS, vea [equilibrio de carga de DNS en Lync Server 2013](lync-server-2013-dns-load-balancing.md) en la documentación referente a la planeación.
 
-Además de impedir nuevas conexiones para todos los servicios en un servidor que ejecuta Lync Server, también puede impedir nuevas conexiones para servicios individuales de Lync Server. Por ejemplo, este método es útil en una situación en la que necesita aplicar una actualización de Lync Server que no requiera que se cierre todo el servidor. Tenga en cuenta que cuando impide las conexiones para un servicio, debe seleccionar un servicio tal como está agrupado y se muestra en la lista de servicios de Windows. Por ejemplo, el servicio front-end de Lync Server y el agente de recopilación de datos para la supervisión son servicios independientes de Lync Server, pero en la lista de servicios de Windows se consolidan y se muestran como el servicio front-end de Lync Server. Puede evitar nuevas conexiones para el servicio front-end de Lync Server, pero no puede evitar nuevas conexiones por separado en estos dos servicios de Lync Server subyacentes.
+Además de impedir nuevas conexiones para todos los servicios en un servidor que ejecuta Lync Server, también puede evitar nuevas conexiones para servicios individuales de Lync Server. Por ejemplo, este método es útil en una situación en la que se debe aplicar una actualización de Lync Server que no requiera que se cierre todo el servidor. Tenga en cuenta que cuando deje de admitir conexiones para un servicio, es necesario seleccionar un servicio según está agrupado y según se muestra en la lista de servicios de Windows. Por ejemplo, el servicio front-end de Lync Server y el agente de recopilación de datos para la supervisión son servicios independientes de Lync Server, pero en la lista de servicios de Windows se consolidan y se muestran como el servicio front-end de Lync Server. Puede evitar nuevas conexiones para el servicio front-end de Lync Server, pero no puede evitar nuevas conexiones para estos dos servicios de Lync Server subyacentes por separado.
 
 <div>
 
 
 > [!IMPORTANT]
-> Al configurar un servidor para evitar nuevas conexiones y reiniciar el servidor, de forma predeterminada, el servidor comenzará a aceptar inmediatamente nuevas conexiones después de que se inicie. Para evitar esto, configure el servidor para que solo PAUSE y reanude de forma manual, antes de reiniciar el servidor.
+> Cuando se establece un servidor para impedir nuevas conexiones y después se reinicia el servidor, el servidor empezará de forma predeterminada y de inmediato a aceptar nuevas comunicaciones tras reiniciarse. Para evitar esto, establezca que el servidor solo pueda pausarse y reanudarse manualmente antes de reiniciar el servidor.
 
 
 
@@ -75,17 +75,17 @@ Además de impedir nuevas conexiones para todos los servicios en un servidor que
 
 2.  Abra la consola del complemento Servicios: haga clic en **Inicio**, seleccione **todos los programas**, seleccione **herramientas administrativas**y, a continuación, haga clic en **servicios**.
 
-3.  En la lista, haga doble clic en el servicio de Windows de Lync Server en el que desea evitar nuevas conexiones.
+3.  En la lista, haga doble clic en el servicio de Windows Lync Server en el que desea impedir que se realicen nuevas conexiones.
 
-4.  En el cuadro de diálogo Propiedades, en **Estado del servicio: iniciado**, haga clic en **pausar**.
+4.  En el cuadro de diálogo Propiedades, en **Estado del servicio: Iniciado**, haga clic en **Pausar**.
 
-5.  De forma opcional, pero recomendado, junto a **tipo de inicio**, haga clic en **manual**.
+5.  Como alternativa, y recomendación, junto a **Tipo de inicio**, haga clic en **Manual**.
     
     <div>
     
 
     > [!IMPORTANT]
-    > Al configurar un servidor para evitar nuevas conexiones y reiniciar el servidor, de forma predeterminada, el servidor comenzará a aceptar inmediatamente nuevas conexiones después de que se inicie. Para evitar esto, configure el servidor para que solo PAUSE y reanude de forma manual, antes de reiniciar el servidor.
+    > Cuando se establece un servidor para impedir nuevas conexiones y después se reinicia el servidor, el servidor empezará de forma predeterminada y de inmediato a aceptar nuevas comunicaciones tras reiniciarse. Para evitar esto, establezca que el servidor solo pueda pausarse y reanudarse manualmente antes de reiniciar el servidor.
 
     
     </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar interfaces de red para servidores perimetrales'
+title: 'Lync Server 2013: configurar interfaces de red para servidores perimetrales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185152
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfbae47a5f5e99e603e3f095a2e07dbb9b49515f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 49b363e4803d493ed5859455104945d0d1d2d23c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764646"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034240"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41764646"
 
 _**Última modificación del tema:** 2012-09-08_
 
-Cada servidor perimetral es un equipo de host múltiple con interfaces externas e internas. La configuración del sistema de nombres de dominio (DNS) del adaptador depende de si hay servidores DNS en la red perimetral. Si los servidores DNS existen en el perímetro, deben tener una zona que contenga uno o más registros A de DNS para el siguiente servidor o grupo de servidores (es decir, un director o un grupo de servidores front-end designados) y para las consultas externas que hacen referencia a otros servidores DNS públicos. Si no hay servidores DNS en el perímetro, los servidores perimetrales usan servidores DNS externos para resolver búsquedas de nombres de Internet, y cada servidor perimetral usa un HOST para resolver los nombres de servidor del próximo salto en direcciones IP.
+Cada servidor perimetral es un equipo de host múltiple con interfaces orientadas interna y externamente. La configuración del adaptador de sistema de nombres de dominio (DNS) depende de si hay servidores DNS en la red perimetral. Si existen servidores DNS en el perímetro, deben tener una zona que contenga uno o más registros A de DNS para el servidor o el grupo de servidores del próximo salto (es decir, un director o un grupo de servidores front-end designado) y para consultas externas deben hacer referencia a búsquedas de nombres a otros servidores DNS públicos. Si no existen servidores DNS en el perímetro, los servidores perimetrales usan servidores DNS externos para resolver las búsquedas de nombres en Internet y cada servidor perimetral usa un HOST para resolver los nombres de servidor del próximo salto en las direcciones IP.
 
 <div>
 
@@ -49,7 +49,7 @@ Cada servidor perimetral es un equipo de host múltiple con interfaces externas 
 </thead>
 <tbody>
 <tr class="odd">
-<td>Por razones de seguridad, le recomendamos que no tenga acceso a los servidores perimetrales a un servidor DNS ubicado en la red interna.</td>
+<td>Por razones de seguridad, es recomendable que los servidores perimetrales no tengan acceso a un servidor DNS ubicado en la red interna.</td>
 </tr>
 </tbody>
 </table>
@@ -61,7 +61,7 @@ Cada servidor perimetral es un equipo de host múltiple con interfaces externas 
 
 ## <a name="to-configure-interfaces-with-dns-servers-in-the-perimeter-network"></a>Para configurar interfaces con servidores DNS en la red perimetral
 
-1.  Instale dos adaptadores de red para cada servidor perimetral, uno para la interfaz interna y otro para la interfaz externa.
+1.  Instale dos adaptadores de red para cada servidor perimetral, uno para la interfaz orientada internamente y otro para la interfaz orientada externamente.
     
     <div>
     
@@ -72,20 +72,20 @@ Cada servidor perimetral es un equipo de host múltiple con interfaces externas 
     
     </div>
 
-2.  En la interfaz externa, configure tres direcciones IP estáticas en la red perimetral externa (también denominada subred DMZ, zona desmilitarizada y subred filtrada) y apunte la puerta de enlace predeterminada a la interfaz interna del firewall externo. Configure los parámetros DNS del adaptador para que apunten a un par de servidores DNS perimetrales.
+2.  En la interfaz externa, configure tres direcciones IP estáticas en la subred de la red perimetral externa (denominada red perimetral o subred filtrada) y apunte la puerta de enlace predeterminada a la interfaz interna del firewall externo. Configure el adaptador DNS para apuntar a un par de servidores DNS perimetrales.
     
     <div>
     
 
     > [!NOTE]  
-    > Es posible usar como mínimo una dirección IP para esta interfaz, pero para ello tendrá que cambiar las asignaciones de puertos a valores no estándar. Esto se determina al crear la topología en el generador de topología.
+    > Se puede usar solamente una dirección IP para esta interfaz, pero para hacerlo debe cambiar las asignaciones de puerto a valores no estándar. Debe determinar esto cuando cree la topología en el generador de topologías.
 
     
     </div>
 
-3.  En la interfaz interna, configure una dirección IP estática en la subred de la red perimetral interna y no establezca una puerta de enlace predeterminada. Configure los parámetros DNS del adaptador para que apunten a al menos un servidor DNS, preferiblemente un par de servidores DNS perimetrales.
+3.  En la interfaz interna, configure una dirección IP estática en la subred de red perimetral interna y no establezca una puerta de enlace predeterminada. Configure el adaptador DNS para apuntar al menos a un servidor DNS, preferiblemente a un par de servidores DNS perimetrales.
 
-4.  Cree rutas estáticas persistentes en la interfaz interna para todas las redes internas donde residen los clientes, Lync Server 2013 y los servidores de mensajería unificada de Exchange (UM).
+4.  Cree rutas estáticas persistentes en la interfaz interna para todas las redes internas en las que residen los clientes, Lync Server 2013 y los servidores de mensajería unificada (MU) de Exchange.
 
 </div>
 
@@ -93,7 +93,7 @@ Cada servidor perimetral es un equipo de host múltiple con interfaces externas 
 
 ## <a name="to-configure-interfaces-without-dns-servers-in-the-perimeter-network"></a>Para configurar interfaces sin servidores DNS en la red perimetral
 
-1.  Instale dos adaptadores de red para cada servidor perimetral, uno para la interfaz interna y otro para la interfaz externa.
+1.  Instale dos adaptadores de red para cada servidor perimetral, uno para la interfaz orientada internamente y otro para la interfaz orientada externamente.
     
     <div>
     
@@ -104,22 +104,22 @@ Cada servidor perimetral es un equipo de host múltiple con interfaces externas 
     
     </div>
 
-2.  En la interfaz externa, configure tres direcciones IP estáticas en la subred de la red perimetral externa. También puede configurar la puerta de enlace predeterminada en la interfaz externa. Por ejemplo, defina el enrutador orientado a Internet o el firewall externo como puerta de enlace predeterminada. Configure los parámetros de DNS para que apunten a un servidor DNS, preferiblemente a un par de servidores DNS externos.
+2.  En la interfaz externa, configure tres direcciones IP estáticas en la subred de red perimetral externa y apunte la puerta de enlace predeterminada a la interfaz interna del firewall externo. Configure el adaptador DNS para apuntar al menos a un servidor DNS, preferiblemente a un par de servidores DNS externos.
     
     <div>
     
 
     > [!NOTE]  
-    > Es posible, pero no recomendable, usar como mínimo una dirección IP para la interfaz externa. Para que esto funcione, debe cambiar las asignaciones de puertos a valores no estándar y fuera del puerto predeterminado 443, que suele ser "compatible con el firewall" para la comunicación de clientes. La configuración de la dirección IP y la configuración del puerto se determinan al crear la topología en el generador de topología.
+    > Es posible, pero no se recomienda, usar tan solo una dirección IP para la interfaz externa. Para permitir que esto funcione, debe cambiar las asignaciones de puerto a valores no estándar y fuera del puerto predeterminado 443 que suele ser "compatible con firewall" para la comunicación con el cliente. La configuración de la dirección IP y la configuración del puerto se determinan al crear la topología en el generador de topologías.
 
     
     </div>
 
-3.  En la interfaz interna, configure una dirección IP estática en la subred de la red perimetral interna y no establezca una puerta de enlace predeterminada. Deje vacía la configuración del DNS del adaptador.
+3.  En la interfaz interna, configure una dirección IP estática en la subred de red perimetral interna y no establezca una puerta de enlace predeterminada. Deje la configuración del adaptador DNS vacía.
 
 4.  Cree rutas estáticas persistentes en la interfaz interna para todas las redes internas donde residen los clientes o servidores de Lync que ejecutan Lync Server 2013.
 
-5.  Edite el archivo HOST en cada servidor perimetral para que contenga un registro para el servidor del próximo salto o IP virtual (VIP) (el registro será el director, el servidor Standard Edition o un grupo de servidores front-end que se haya configurado como la dirección del próximo salto del servidor perimetral en el generador de topología). Si está usando el equilibrio de carga de DNS, incluya una línea para cada miembro del grupo de próximos saltos.
+5.  Edite el archivo HOST en cada servidor perimetral para que contenga un registro para el servidor del próximo salto o IP virtual (VIP) (el registro será el director, el servidor Standard Edition o un grupo de servidores front-end que se haya configurado como la dirección del próximo salto del servidor perimetral en el generador de topologías). Si usa el equilibrio de carga de DNS, incluya una línea para cada miembro del grupo de servidores del próximo salto.
 
 </div>
 

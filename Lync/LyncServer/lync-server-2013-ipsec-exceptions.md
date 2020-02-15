@@ -12,16 +12,16 @@ ms:contentKeyID: 48183627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37d5becaab996d6fe4889086d3a68a45ffc1f6d7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db7291674485dec30211d88e2739b0da89fb334f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733460"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035062"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41733460"
 
 _**Última modificación del tema:** 2012-06-27_
 
-En el caso de redes empresariales en las que se ha implementado la seguridad de protocolo de Internet (consulte IETF RFC 4301-4309), debe deshabilitarse IPsec en el rango de puertos que se usan para la entrega de video de audio, vídeo y panorámica. Esta recomendación se fundamenta en la necesidad de evitar retrasos en la asignación de los puertos de medios por la negociación de IPsec.
+En aquellas redes empresariales donde el protocolo de seguridad de Internet o IPsec (consulte IETF RFC 4301-4309) está implementado, IPsec se debe deshabilitar en el intervalo de puertos usado para la entrega de audio, vídeo y vídeo panorámico. Esta recomendación se fundamenta en la necesidad de evitar retrasos en la asignación de los puertos de medios debido a la negociación de IPsec.
 
 En la siguiente tabla se detalla la configuración de las excepciones de IPsec recomendadas.
 
@@ -70,7 +70,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Cualquiera</p></td>
 <td><p>Servidor perimetral A/V interno</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera </p></td>
+<td><p>Cualquiera</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -79,7 +79,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Cualquiera</p></td>
 <td><p>Servidor perimetral A/V externo</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera </p></td>
+<td><p>Cualquiera</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -88,7 +88,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Servidor perimetral A/V interno</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>TCP &amp; UDP</p></td>
-<td><p>Cualquiera </p></td>
+<td><p>Cualquiera</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -97,27 +97,27 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Servidor perimetral A/V externo</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera </p></td>
+<td><p>Cualquiera</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
 <tr class="odd">
 <td><p>Servidor de mediación entrante</p></td>
 <td><p>Cualquiera</p></td>
-<td><p>Servidores</p>
-<p>de mediación</p></td>
+<td><p>Remedio</p>
+<p>Servidor (es)</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera </p></td>
+<td><p>Cualquiera</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
 <tr class="even">
 <td><p>Servidor de mediación saliente</p></td>
-<td><p>Servidores</p>
-<p>de mediación</p></td>
+<td><p>Remedio</p>
+<p>Servidor (es)</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera </p></td>
+<td><p>Cualquiera</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -126,7 +126,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Cualquiera</p></td>
 <td><p>Servidor front-end que ejecuta operador de conferencia</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera </p></td>
+<td><p>Cualquiera</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -135,7 +135,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Servidor front-end que ejecuta operador de conferencia</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera </p></td>
+<td><p>Cualquiera</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -144,7 +144,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Cualquiera</p></td>
 <td><p>Servidores front-end</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera </p></td>
+<td><p>Cualquiera</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -153,7 +153,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Servidores front-end</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera </p></td>
+<td><p>Cualquiera</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -162,7 +162,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Cualquiera</p></td>
 <td><p>Mensajería unificada de Exchange</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera </p></td>
+<td><p>Cualquiera</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -180,7 +180,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Servidores de aplicaciones compartidas</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>TCP</p></td>
-<td><p>Cualquiera </p></td>
+<td><p>Cualquiera</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -189,13 +189,13 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Mensajería unificada de Exchange</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera </p></td>
+<td><p>Cualquiera</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
 <tr class="odd">
 <td><p>Clientes</p></td>
-<td><p>Cualquiera </p></td>
+<td><p>Cualquiera</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>UDP</p></td>
 <td><p>Intervalo de puertos de medios especificado</p></td>

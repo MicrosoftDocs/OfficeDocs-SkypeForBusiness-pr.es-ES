@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: crear un filtro de transferencia de archivos para un sitio específico'
+title: 'Lync Server 2013: crear un filtro de transferencia de archivos nuevo para un sitio específico'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edaf0afabff9d212cdd3b5353a8e54840979f827
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 911f01c4ce104c3cdd641a793065c14bed43abb4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740410"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034902"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,35 +37,35 @@ ms.locfileid: "41740410"
 
 _**Última modificación del tema:** 2012-10-18_
 
-Además de modificar el filtro global de transferencia de archivos, puede configurar filtros de transferencia de archivos personalizados para sitios específicos dentro de la implementación de Lync Server 2013. Para más información sobre el filtrado de transferencia de archivos, vea [configuración de la transferencia de archivos y filtrado de URL para mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
+Además de modificar el filtro de transferencia global de archivos, puede configurar filtros de transferencia de archivos personalizados para sitios específicos dentro de la implementación de Lync Server 2013. Para obtener más información sobre el filtrado de transferencia de archivos, consulte [configuración de transferencia de archivos y filtrado de URL para la mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
 
 <div>
 
 ## <a name="to-create-a-file-transfer-filter-for-a-specific-site"></a>Para crear un filtro de transferencia de archivos para un sitio específico
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **mensajería instantánea y presencia** y, a continuación, haga clic en **filtro de archivos**.
+3.  En la barra de navegación izquierda, haga clic en **Mensajería instantánea y presencia** y, a continuación, en **Filtro de archivo**.
 
-4.  En la página **filtro de archivos** , haga clic en **nuevo**.
+4.  En la página **Filtro de archivo**, haga clic en **Nuevo**.
 
-5.  En el cuadro de diálogo **seleccionar un sitio** , haga clic en el sitio para el que desea crear el filtro de transferencia de archivos y, a continuación, haga clic en **Aceptar**.
+5.  En el cuadro de diálogo **Seleccionar un sitio**, haga clic en el sitio para el que desea crear un filtro de transferencia de archivos y, a continuación, haga clic en **Aceptar**.
 
-6.  En **filtro de archivo nuevo**, haga clic en la casilla de verificación **Habilitar filtro de archivos** .
+6.  En **Nuevo filtro de archivo**, haga clic en la casilla **Habilitar filtro de archivos**.
 
-7.  En el cuadro de lista desplegable **transferencia de archivos** , haga clic en **bloquear todo** o **bloquear tipos de archivo específicos**.
+7.  En la lista desplegable **Transferencia de archivos**, haga clic en **Bloquear todos** o en **Bloquear tipos de archivos específicos**.
 
-8.  Si hizo clic en **bloquear todo**, vaya al paso 10.
+8.  Si hizo clic en **Bloquear todos**, vaya al paso 9.
 
-9.  Si hizo clic en **bloquear tipos de archivo específicos**, siga este procedimiento:
+9.  Si hizo clic en **Bloquear tipos de archivos específicos**, haga lo siguiente:
     
-    1.  Haga clic en **seleccionar** para modificar la lista predeterminada de extensiones de tipo de archivo que desea bloquear.
+    1.  Haga clic en **Seleccionar** para modificar la lista predeterminada de las extensiones de tipo de archivo que desea bloquear.
     
-    2.  En el cuadro de diálogo **Seleccionar tipo de archivo** , seleccione los tipos de archivo que desea bloquear o permitir agregando o quitando sus extensiones de las categorías de **extensiones de tipo de archivo**.
+    2.  En el cuadro de diálogo **Seleccionar tipo de archivo**, seleccione los tipos de archivo que desea bloquear o permitir; para ello permita o quite sus extensiones de las categorías en **Extensiones de tipo de archivo**.
     
-    3.  Si no ve la extensión de un tipo de archivo que desea bloquear, escriba la extensión en el cuadro de texto en **Agregar extensiones de tipo de archivo a la lista**y, a continuación, haga clic en **Agregar**.
+    3.  Si no ve la extensión para un tipo de archivo que desea bloquear, escriba la extensión en el cuadro de texto en **Agregar extensiones de tipo de archivo a la lista** y, a continuación, haga clic en **Agregar**.
     
     4.  Haga clic en **Aceptar**.
 
@@ -78,12 +78,12 @@ Además de modificar el filtro global de transferencia de archivos, puede config
 ## <a name="see-also"></a>Vea también
 
 
-[Configuración de la transferencia de archivos y el filtrado de URL para mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
-[Crear un filtro de dirección URL en Lync Server 2013 para administrar hipervínculos en conversaciones de mensajería instantánea](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
+[Configuración de la transferencia de archivos y el filtrado de URL para la mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
+[Crear un nuevo filtro de dirección URL en Lync Server 2013 para administrar hipervínculos en conversaciones de mensajería instantánea](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
 [Modificar el filtro de transferencia de archivos predeterminado en Lync Server 2013](lync-server-2013-modify-the-default-file-transfer-filter.md)  
 
 
-[Modificar el filtro de dirección URL predeterminado en Lync Server 2013](lync-server-2013-modify-the-default-url-filter.md)  
+[Modificar el filtro de direcciones URL predeterminado en Lync Server 2013](lync-server-2013-modify-the-default-url-filter.md)  
   
 
 </div>

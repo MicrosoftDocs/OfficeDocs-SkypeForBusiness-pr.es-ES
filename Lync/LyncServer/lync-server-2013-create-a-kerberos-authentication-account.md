@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Crear una cuenta de autenticación Kerberos'
+title: 'Lync Server 2013: crear una cuenta de autenticación Kerberos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184348
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 797e9216aed5d523e39dc4827d630e0cb1b857fd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e59703328fad7c8763bc1a6cc018c2cbc585c3ed
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740430"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035092"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41740430"
 
 _**Última modificación del tema:** 2012-01-02_
 
-Para completar correctamente este procedimiento, debe haber iniciado sesión en el servidor o dominio como miembro del grupo administradores de dominio.
+Para completar correctamente este procedimiento, debe haber iniciado sesión en el servidor o dominio de forma mínima como miembro del grupo administradores del dominio.
 
-Puede crear cuentas de autenticación Kerberos para cada sitio o puede crear una sola cuenta de autenticación Kerberos y usarla para todos los sitios. Use los cmdlets de Windows PowerShell para crear y administrar las cuentas, incluida la identificación de las cuentas asignadas a cada sitio. El generador de topología y el panel de control de Lync Server 2013 no muestran cuentas de autenticación Kerberos. Use el procedimiento siguiente para crear una o más cuentas de usuario para usarlas en la autenticación Kerberos.
+Puede crear cuentas de autenticación Kerberos para cada uno de los sitios, o bien crear una sola cuenta de autenticación Kerberos y usarla para todos los sitios. Use los cmdlets de Windows PowerShell para crear y administrar las cuentas, incluida la identificación de las cuentas asignadas a cada sitio. El generador de topologías y el panel de control de Lync Server 2013 no muestran cuentas de autenticación Kerberos. Use el siguiente procedimiento para crear la(s) cuenta(s) de usuario que se usará(n) para la autenticación Kerberos.
 
 <div>
 
-## <a name="to-create-a-kerberos-account"></a>Para crear una cuenta de Kerberos
+## <a name="to-create-a-kerberos-account"></a>Para crear una cuenta Kerberos
 
 1.  Como miembro del grupo administradores de dominio, inicie sesión en un equipo del dominio que ejecute Lync Server 2013 o en un equipo en el que estén instaladas las herramientas administrativas.
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-3.  En la línea de comandos, ejecute el siguiente comando:
+3.  Desde la línea de comandos, ejecute el siguiente comando:
     
         New-CsKerberosAccount -UserAccount "Domain\UserAccount" -ContainerDN "CN=Users,DC=DomainName,DC=DomainExtension"
     
@@ -57,7 +57,7 @@ Puede crear cuentas de autenticación Kerberos para cada sitio o puede crear una
     
         New-CsKerberosAccount -UserAccount "Contoso\KerbAuth" -ContainerDN "CN=Users,DC=contoso,DC=com"
 
-4.  Confirme que el objeto de equipo se creó al abrir usuarios y equipos de Active Directory, expanda el contenedor **usuarios** y, a continuación, confirme que el objeto de equipo de la cuenta de usuario se encuentra en el contenedor.
+4.  Confirme que se ha creado el objeto Equipo al abrir el usuario y los equipos de Active Directory, expanda el contenedor **Usuarios** y, a continuación, confirme que el objeto Equipo de la cuenta de usuario se encuentra en el contenedor.
 
 </div>
 

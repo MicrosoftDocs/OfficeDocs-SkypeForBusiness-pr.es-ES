@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: probar el uso compartido de aplicaciones'
+title: 'Lync Server 2013: prueba del uso compartido de aplicaciones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969629
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab428e5bbfb5ffc58fa7b1d092cd7fc04b117226
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2797a116bddb73543a27553faa55650b9ad16e8d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745860"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036650"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-application-sharing-in-lync-server-2013"></a>Probar el uso compartido de aplicaciones en Lync Server 2013
+# <a name="testing-application-sharing-in-lync-server-2013"></a>Prueba del uso compartido de aplicaciones en Lync Server 2013
 
 </div>
 
@@ -45,8 +45,8 @@ _**Última modificación del tema:** 2014-11-01_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Programación de verificación</p></td>
-<td><p>Cada día</p></td>
+<td><p>Programación de comprobación</p></td>
+<td><p>Diario</p></td>
 </tr>
 <tr class="even">
 <td><p>Herramienta de prueba</p></td>
@@ -54,8 +54,8 @@ _**Última modificación del tema:** 2014-11-01_
 </tr>
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
-<td><p>Al ejecutarse de forma local con el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol de RBAC que tenga permiso para ejecutar el cmdlet test-CsASConference. Para ver una lista de todos los roles de RBAC que pueden usar este cmdlet, ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:</p>
+<td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsASConference. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsASConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**Última modificación del tema:** 2014-11-01_
 
 ## <a name="description"></a>Descripción
 
-El cmdlet **Test-CsASConference** comprueba que un par de usuarios de prueba pueden participar en una conferencia en línea que incluye el uso compartido de aplicaciones. Para ello, el cmdlet registra los dos usuarios con Lync Server 2013 y, a continuación, usa una de las cuentas de usuario para crear una nueva Conferencia que incluye el uso compartido de aplicaciones. El cmdlet comprueba entonces que el segundo usuario puede unirse a la Conferencia.
+El cmdlet **Test-CsASConference** comprueba que un par de usuarios de prueba puedan participar en una conferencia en línea que incluya el uso compartido de aplicaciones. Para ello, el cmdlet registra los dos usuarios con Lync Server 2013 y, a continuación, usa una de las cuentas de usuario para crear una nueva Conferencia que incluye el uso compartido de aplicaciones. Luego, el cmdlet comprueba que el segundo usuario puede unirse a esa llamada de conferencia.
 
 </div>
 
@@ -74,17 +74,17 @@ El cmdlet **Test-CsASConference** comprueba que un par de usuarios de prueba pue
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-El comando que se muestra en el ejemplo 1 verifica que se puede realizar una conferencia de uso compartido de aplicaciones en el grupo atl-cs-001.litwareinc.com. Este comando supone que ha configurado un par de usuarios de prueba para el grupo especificado. Si no existen esos usuarios de prueba, el comando fallará.
+El comando que se muestra en el ejemplo 1 comprueba que se puede llevar a cabo una conferencia de uso compartido de aplicaciones en el grupo atl-cs-001.litwareinc.com. Este comando asume que ha configurado un par de usuarios de prueba para el grupo especificado. Si los usuarios de prueba no existen, se producirá un error en el comando.
 
     Test-CsASConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-El ejemplo 2 prueba la capacidad del servicio del iniciador de Unión para participar en una conferencia de uso compartido de aplicaciones en el grupo de atl-cs-001.litwareinc.com. Ten en cuenta que este comando solo prueba el servicio en sí; no necesitas ningún dispositivo móvil para ejecutar el comando.
+El ejemplo 2 comprueba la capacidad del servicio Join Launcher para participar en una conferencia de uso compartido de aplicaciones en el grupo atl-cs-001.litwareinc.com. Tenga en cuenta que este comando comprueba solo el servicio de sí mismo; no es necesario ningún dispositivo móvil para iniciar el comando.
 
     Test-CsASConference -TargetFqdn "atl-cs-001.litwareinc.com" -TestJoinLauncher 
 
-Los comandos que se muestran en el ejemplo 2 prueban la capacidad de un par\\de usuarios (\\litwareinc Pilar y litwareinc kenmyer) para iniciar sesión en Lync Server 2013 y, a continuación, realizar una conferencia de uso compartido de aplicaciones. Para ello, el primer comando del ejemplo usa el cmdlet Get-Credential para crear un objeto de credencial de interfaz de línea de comandos de Windows PowerShell que contiene el nombre y la contraseña del usuario Pilar Ackerman. (Como el nombre de inicio de\\sesión, litwareinc pilar, se ha incluido como parámetro, el cuadro de diálogo solicitud de credenciales de Windows PowerShell solo requiere que el administrador escriba la contraseña de la cuenta de Pilar Ackerman). El objeto de credencial resultante se almacena en una variable llamada $cred 1. El segundo comando hace lo mismo, pero esta vez devuelve un objeto de credenciales para la cuenta Ken Myer.
+Los comandos que se muestran en el ejemplo 2 prueban la capacidad de un par\\de usuarios (\\litwareinc Pilar y litwareinc kenmyer) para iniciar sesión en Lync Server 2013 y, a continuación, realizar una conferencia de uso compartido de aplicaciones. Para ello, el primer comando del ejemplo usa el cmdlet Get-Credential para crear un objeto de credencial de interfaz de línea de comandos de Windows PowerShell que contiene el nombre y la contraseña del usuario Pilar Ackerman. (Como el nombre de inicio de\\sesión, litwareinc pilar, se ha incluido como parámetro, el cuadro de diálogo solicitud de credenciales de Windows PowerShell solo requiere que el administrador escriba la contraseña de la cuenta Pilar Ackerman). El objeto Credential resultante se almacena en una variable llamada $cred 1. El segundo comando realiza la misma acción pero, esta vez, devuelve un objeto de credenciales de la cuenta de Ken Myer.
 
-Con los objetos de credenciales a mano, el tercer comando determina si estos dos usuarios pueden iniciar sesión en Lync Server 2013 y realizar una conferencia de uso compartido de aplicaciones. Para llevar a cabo esta tarea, se llama al cmdlet **Test-CsASConference** , junto con los siguientes parámetros: TargetFqdn (el FQDN del grupo de servidores de registrar); SenderSipAddress (dirección SIP del primer usuario de prueba); SenderCredential (el objeto de Windows PowerShell que contiene las credenciales para este mismo usuario); ReceiverSipAddress (la dirección SIP del otro usuario de prueba); y ReceiverCredential (el objeto de Windows PowerShell que contiene las credenciales del otro usuario de prueba).
+Con los objetos de credenciales a mano, el tercer comando determina si estos dos usuarios pueden iniciar sesión en Lync Server 2013 y realizar una conferencia de uso compartido de aplicaciones. Para llevar a cabo esta tarea, se llama al cmdlet **Test-CsASConference** , junto con los siguientes parámetros: TargetFqdn (el FQDN del grupo de registrador); SenderSipAddress (la dirección SIP del primer usuario de prueba); SenderCredential (el objeto de Windows PowerShell que contiene las credenciales para este mismo usuario); ReceiverSipAddress (la dirección SIP del otro usuario de prueba); y ReceiverCredential (el objeto de Windows PowerShell que contiene las credenciales del otro usuario de prueba).
 
     $cred1 = Get-Credential "litwareinc\pilar" 
     $cred2 = Get-Credential "litwareinc\kenmyer" 
@@ -94,13 +94,13 @@ Con los objetos de credenciales a mano, el tercer comando determina si estos dos
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Determinar el éxito o el fracaso
+## <a name="determining-success-or-failure"></a>Determinar si se ha realizado correctamente o erróneo
 
-Si el uso compartido de aplicaciones está configurado correctamente, recibirá un resultado similar a este, con la propiedad result marcada como **correcta:**
+Si el uso compartido de aplicaciones está configurado correctamente, recibirá un resultado similar al siguiente, con la propiedad result marcada como **correcta:**
 
 FQDN de destino: atl-cs-001.litwareinc.com
 
-Resultado: éxito
+Resultado: correcto
 
 Latencia: 00:00:01
 
@@ -108,7 +108,7 @@ Mensaje de error:
 
 Diagnóstico
 
-Si los usuarios especificados no pueden compartir aplicaciones, el resultado se mostrará como error y la información adicional se registrará en las propiedades de diagnóstico y errores:
+Si los usuarios especificados no pueden compartir aplicaciones, el resultado se mostrará como error y la información adicional se registrará en las propiedades error y diagnosis:
 
 FQDN de destino: atl-cs-001.litwareinc.com
 
@@ -116,39 +116,39 @@ Resultado: error
 
 Latencia: 00:00:00
 
-Mensaje de error: 10060, error al intentar la conexión porque la persona conectada
+Mensaje de error: 10060, se ha producido un error en el intento de conexión porque la entidad conectada
 
-no respondió correctamente después de un período de tiempo, o
+no respondió correctamente después de un período de tiempo o
 
 error en la conexión establecida porque el host conectado tiene
 
-Error al responder 10.188.116.96:5061
+no se pudo responder 10.188.116.96:5061
 
 Excepción interna: error en el intento de conexión porque el
 
 la parte conectada no respondió correctamente después de un período de
 
-hora o error de conexión establecida porque el host conectado
+tiempo o error de conexión establecida debido a que el host conectado
 
 Error al responder 10.188.116.96:5061
 
 Diagnóstico
 
-Por ejemplo, la salida anterior incluye la nota "la persona conectada no respondió correctamente" que normalmente indica que hay un problema con el servidor perimetral.
+Por ejemplo, la salida anterior incluye la nota "la persona conectada no respondió correctamente" que normalmente indica un problema con el servidor perimetral.
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Razones por las que se ha producido un error en la prueba
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
 Estas son algunas de las razones comunes por las que **Test-CsASConference** podría fallar:
 
-  - Se proporcionó un valor de parámetro incorrecto. Si se usa, los parámetros opcionales deben estar configurados correctamente o se producirá un error en la prueba. Vuelva a ejecutar el comando sin los parámetros opcionales y vea si se realiza correctamente.
+  - Se ha suministrado un valor de parámetro incorrecto. Si se usa, los parámetros opcionales deben configurarse correctamente o se producirá un error en la prueba. Vuelva a ejecutar el comando sin los parámetros opcionales y vea si se realiza correctamente.
 
-  - Este comando producirá un error si se asignó una directiva de conferencia a los usuarios de prueba que les impide usar el uso compartido de aplicaciones.
+  - Se producirá un error en este comando si a los usuarios de prueba se les asignó una directiva de conferencia que les impida usar el uso compartido de aplicaciones.
 
-  - Este comando fallará si el servidor perimetral está mal configurado o aún no se ha implementado.
+  - Este comando producirá un error si el servidor perimetral está mal configurado o no se ha implementado todavía.
 
 </div>
 

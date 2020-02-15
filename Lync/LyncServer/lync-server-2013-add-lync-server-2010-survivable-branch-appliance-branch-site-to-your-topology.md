@@ -1,5 +1,5 @@
 ---
-title: Agregar un sitio de sucursal de aplicación de sucursal con función de supervivencia Lync Server 2010 a la topología
+title: Agregar un sitio de sucursal de aplicación de sucursal con funciones de supervivencia de Lync Server 2010 a la topología
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64f359a97f6c4bc76d5e0d6f475a037ab53afb91
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bd7b4acc877ba174be0b0d6b03368bb06200574b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735040"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033789"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology"></a>Agregar un sitio de sucursal de aplicación de sucursal con función de supervivencia Lync Server 2010 a la topología
+# <a name="add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology"></a>Agregar un sitio de sucursal de aplicación de sucursal con funciones de supervivencia de Lync Server 2010 a la topología
 
 </div>
 
@@ -37,20 +37,20 @@ ms.locfileid: "41735040"
 
 _**Última modificación del tema:** 2012-10-07_
 
-Los equipos de Microsoft Lync Server 2010 con supervivencia (SBA) se pueden asociar a un grupo front-end de Microsoft Lync Server 2013 como registrador de copias de seguridad. Para obtener instrucciones detalladas sobre cómo conectar el servidor de Microsoft Lync Server 2010 SBA a un grupo de aplicaciones para el usuario de Microsoft Lync Server 2013, consulte la sección migración, [Conecte un dispositivo de sucursal](connect-a-survivable-branch-appliance.md)que pueda ser superviviente.
+Microsoft Lync Server 2010 las aplicaciones de sucursal con funciones de supervivencia (SBA) se pueden asociar a un grupo de servidores front-end de Microsoft Lync Server 2013 como registrador de reserva. Consulte la sección migración, [conectar una aplicación de sucursal](connect-a-survivable-branch-appliance.md)con funciones de supervivencia para obtener procedimientos detallados sobre cómo conectar el SBA de Microsoft lync Server 2010 a un grupo de servidores front-end de Microsoft lync Server 2013.
 
 <div>
 
 ## <a name="see-also"></a>Vea también
 
 
-[Definir un servidor o aplicación de sucursal con funciones de supervivencia en Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)  
+[Definir una aplicación o un servidor de sucursal con funciones de supervivencia en Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)  
 [Definir una puerta de enlace RTC para un sitio de sucursal en Lync Server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)  
-[Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[Configurar un tronco con la omisión de medios en Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
 [Configurar un tronco sin omisión de medios en Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
 
 
-[Conectar una aplicación de sucursal con funciones de supervivencia](connect-a-survivable-branch-appliance.md)  
+[Conexión de una aplicación de sucursal con funciones de supervivencia](connect-a-survivable-branch-appliance.md)  
   
 
 </div>

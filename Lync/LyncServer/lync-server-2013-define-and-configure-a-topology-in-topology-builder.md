@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Definir y configurar una topología en Topology Builder'
+title: 'Lync Server 2013: definir y configurar una topología en el generador de topologías'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184953
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 876651b0d0c5ed33d4e82429822585de4a2b8579
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e3877b19bac01991856313302378c92065bacf22
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728430"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036620"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="define-and-configure-a-topology-in-topology-builder-for-lync-server-2013"></a>Definir y configurar una topología en Topology Builder para Lync Server 2013
+# <a name="define-and-configure-a-topology-in-topology-builder-for-lync-server-2013"></a>Definir y configurar una topología en el generador de topologías para Lync Server 2013
 
 </div>
 
@@ -37,31 +37,31 @@ ms.locfileid: "41728430"
 
 _**Última modificación del tema:** 2013-02-21_
 
-Al ejecutar el generador de topologías para definir una topología nueva o modificar una topología existente, no es necesario ser miembro de un grupo de dominio de administrador local o privilegiado. El generador de topología le guía a través de los pasos necesarios para definir su topología para un grupo de servidores front-end Enterprise Edition o Standard Edition, en función de los requisitos de configuración.
+Ejecutar el generador de topologías para definir una nueva topología o modificar una topología existente no requiere la pertenencia a un grupo de dominio con privilegios o de administrador local. El generador de topología le guía por los pasos necesarios para definir la topología de un grupo de servidores front-end Enterprise Edition o Standard Edition, según los requisitos de configuración.
 
-Debe usar topología Builder para completar y publicar la topología antes de poder instalar Lync Server 2013 en servidores. El procedimiento siguiente incluye los pasos necesarios para definir una nueva topología.
+Debe usar el generador de topologías para completar y publicar la topología antes de poder instalar Lync Server 2013 en los servidores. En el siguiente procedimiento se indican los pasos necesarios para definir una nueva topología.
 
 <div>
 
 ## <a name="to-define-a-topology"></a>Para definir una topología
 
-1.  Iniciar generador de topología: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topología de Lync Server**.
+1.  Inicie el generador de topologías: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topologías de Lync Server**.
 
-2.  En el generador de topologías, seleccione **nueva topología**. Se le pedirá una ubicación y un nombre de archivo para guardar la topología. Asigne al archivo de topología un nombre significativo y acepte la extensión predeterminada de. tbxml. Haga clic en **Aceptar**.
+2.  En generador de topologías, seleccione **nueva topología**. Se le pedirá que elija una ubicación y un nombre de archivo para guardar la topología. Asigne un nombre descriptivo al archivo de topología y acepte la extensión predeterminada de .tbxml. Haga clic en **Aceptar**.
 
-3.  Vaya a la ubicación donde desea guardar el nuevo archivo XML de topología, escriba un nombre para el archivo y, a continuación, haga clic en **Guardar**.
+3.  Vaya a la ubicación donde desea guardar el nuevo archivo XML de topología, especifique un nombre para el archivo y haga clic en **Guardar**.
 
-4.  En la página **definir el dominio principal** , escriba el nombre del dominio SIP principal de la organización y, a continuación, haga clic en **siguiente**.
+4.  En la página **Definir el dominio principal**, escriba el nombre del dominio SIP principal de la organización y, a continuación, haga clic en **Siguiente**.
 
-5.  En la página **especificar dominios admitidos adicionales** , escriba los nombres de los dominios adicionales, si los hay, y haga clic en **siguiente**.
+5.  En la página **Especificar dominios admitidos adicionales**, especifique el nombre de los dominios adicionales, si los hay, y haga clic en **Siguiente**.
 
-6.  En la página **definir el primer sitio** , escriba un nombre y una descripción para el primer sitio y, a continuación, haga clic en **siguiente**.
+6.  En la página **Definir el primer sitio**, escriba un nombre y una descripción para el primer sitio y haga clic en **Siguiente**.
 
-7.  En la página **especificar detalles del sitio** , escriba la información de ubicación del sitio y, a continuación, haga clic en **siguiente**.
+7.  En la página **Especificar detalles del sitio**, escriba la información de ubicación del sitio y, a continuación, haga clic en **Siguiente**.
 
-8.  En la **nueva topología se definió correctamente** como página, asegúrese de que la casilla **abrir el Asistente para el usuario nuevo al cerrar el asistente** está activada y, a continuación, haga clic en **Finalizar**.
+8.  En la página **nueva topología definida correctamente** , asegúrese de que esté activada la casilla **abrir el Asistente para nuevo front-end cuando se cierre este asistente** y, a continuación, haga clic en **Finalizar**.
 
-Una vez que haya definido y guardado la topología, use el Asistente para nuevo front-end para definir un grupo de servidores front-end o un servidor Standard Edition para el sitio. Para obtener más información, vea [definir y configurar un grupo de servidores front-end o un servidor Standard Edition en Lync server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md).
+Una vez que haya definido y guardado la topología, use el Asistente para nuevo servidor front-end con el fin de definir un grupo de servidores front-end o un servidor Standard Edition para el sitio. Para obtener más información, consulte [definir y configurar un grupo de servidores front-end o un servidor Standard Edition en Lync server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md).
 
 </div>
 

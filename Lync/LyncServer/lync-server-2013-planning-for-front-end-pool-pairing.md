@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planear la combinación de grupos de servidores front-end'
+title: 'Lync Server 2013: Planeación de la emparejamiento de grupos de servidores front-end'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d85f6e19f3aa74c09a522e737d1223095f17d7c1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4daeb3ea88570afaf9fc90c0e252466be67ed192
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725400"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036780"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-front-end-pool-pairing-in-lync-server-2013"></a>Planear la combinación de grupos de servidores front-end en Lync Server 2013
+# <a name="planning-for-front-end-pool-pairing-in-lync-server-2013"></a>Planeación de la emparejamiento de grupos de servidores front-end en Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41725400"
 
 _**Última modificación del tema:** 2012-09-28_
 
-Para obtener las mejores capacidades de recuperación ante desastres de Lync Server 2013, implemente pares de grupos de servidores front-end en dos sitios dispersos geográficamente. Cada sitio contiene un grupo front-end en el que se empareja una agrupación frontal correspondiente en el otro sitio. Ambos sitios están activos y el servicio de copia de seguridad de Lync Server proporciona replicación de datos en tiempo real para mantener las agrupaciones sincronizadas. El servicio de copia de seguridad es una característica nueva de Lync Server 2013, diseñada para admitir la solución de recuperación ante desastres. Se instala en un grupo de servidores front-end cuando se empareja el grupo con otro grupo de servidores front-end.
+Para las capacidades de recuperación ante desastres más adecuadas en Lync Server 2013, implemente pares de grupos de servidores front-end en dos sitios dispersos geográficamente. Cada sitio contiene un grupo de servidores front-end emparejado con otro grupo correspondiente en el otro sitio. Ambos sitios están activos y el servicio de copia de seguridad de Lync Server proporciona replicación de datos en tiempo real para mantener sincronizados los grupos. El servicio de copia de seguridad es una nueva característica de Lync Server 2013, diseñada para admitir la solución de recuperación ante desastres. Se instala en un grupo de servidores front-end cuando se empareja el grupo de servidores con otro grupo de servidores front-end.
 
-Si se produce un error en el grupo de un sitio, puede realizar la conmutación por error a los usuarios de ese grupo en la agrupación del otro sitio, que proporciona servicios a todos los usuarios de ambos grupos. Para fines de planeación de capacidad, cada grupo debe estar diseñado para controlar las cargas de trabajo de todos los usuarios en ambos grupos en caso de que se produzca un desastre.
+Si el grupo de servidores de un sitio falla, puede realizar una conmutación por error de los usuarios de dicho grupo de servidores al grupo de servidores del otro sitio, que proporcionará servicios a todos los servidores de ambos grupos. Para la planificación de capacidad, cada grupo de servidores debe estar diseñado para gestionar las cargas de trabajo de todos los usuarios de ambos grupos en caso de desastre.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Opciones de emparejamiento de bloque y procedimientos recomendados para Lync Server 2013](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
+  - [Opciones de emparejamiento de grupo admitidas y procedimientos recomendados para Lync Server 2013](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
 
-  - [Relaciones del registrador de copia de seguridad en Lync Server 2013](lync-server-2013-backup-registrar-relationships.md)
+  - [Relaciones de registrador de reserva en Lync Server 2013](lync-server-2013-backup-registrar-relationships.md)
 
-  - [Tiempo de recuperación para la conmutación por error y por recuperación del grupo de servidores en Lync Server 2013](lync-server-2013-recovery-time-for-pool-failover-and-pool-failback.md)
+  - [Tiempo de recuperación para la conmutación por error del grupo y la conmutación por recuperación del grupo en Lync Server 2013](lync-server-2013-recovery-time-for-pool-failover-and-pool-failback.md)
 
   - [Conmutación por error del almacén de administración central en Lync Server 2013](lync-server-2013-central-management-store-failover.md)
 
-  - [Seguridad de datos en el emparejamiento de grupos de servidores front-end en Lync Server 2013](lync-server-2013-front-end-pool-pairing-data-security.md)
+  - [Seguridad de datos de emparejamiento de grupo de servidores front-end en Lync Server 2013](lync-server-2013-front-end-pool-pairing-data-security.md)
 
 </div>
 

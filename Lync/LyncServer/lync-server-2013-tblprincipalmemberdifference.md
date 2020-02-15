@@ -12,16 +12,16 @@ ms:contentKeyID: 48183379
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: baaf336013ec09b17b8e688889fdf27aa29ef644
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ca8ccc9c60bdd608992dc3daf085568d34bee69
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764146"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034100"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41764146"
 
 _**Última modificación del tema:** 2012-09-12_
 
-tblPrincipalMemberDifference contiene cambios de pertenencia a grupos (miembros agregados y eliminados) que aún no han procesado los pasos de sincronización de servicios de dominio de Active Directory más recientes.
+tblPrincipalMemberDifference contiene cambios de pertenencia a grupos (miembros agregados y eliminados) que aún no han sido procesados por los pasos de sincronización de servicios de dominio de Active Directory posteriores.
 
-### <a name="columns"></a>Columnas
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,8 +57,8 @@ tblPrincipalMemberDifference contiene cambios de pertenencia a grupos (miembros 
 <tbody>
 <tr class="odd">
 <td><p>prinGuid</p></td>
-<td><p>GUID, not null</p></td>
-<td><p>GUID principal del grupo que cambió.</p></td>
+<td><p>GUID, no NULL</p></td>
+<td><p>GUID de entidad de seguridad del grupo modificado.</p></td>
 </tr>
 <tr class="even">
 <td><p>memberADPath</p></td>
@@ -67,14 +67,14 @@ tblPrincipalMemberDifference contiene cambios de pertenencia a grupos (miembros 
 </tr>
 <tr class="odd">
 <td><p>memberRemoved</p></td>
-<td><p>bit, not null</p></td>
-<td><p>False si se agregó el miembro. True si se ha quitado el miembro.</p></td>
+<td><p>bit, no NULL</p></td>
+<td><p>False si se agregó el miembro. True si se quitó el miembro.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Clave
+### <a name="key"></a>Key 
 
 <table>
 <colgroup>

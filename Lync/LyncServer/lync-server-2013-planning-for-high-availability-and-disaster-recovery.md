@@ -12,16 +12,16 @@ ms:contentKeyID: 48183497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79abf8b98252f3b05b899a9840e7a9c9a2e8096c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38a41585da7cb247dc955b3f4e18ee4812ef5a2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41752190"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036700"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,29 +37,29 @@ ms.locfileid: "41752190"
 
 _**Última modificación del tema:** 2013-10-31_
 
-Al igual que en Lync Server 2010, el esquema de alta disponibilidad principal para la mayoría de los roles de servidor de Lync Server 2013 se basa en la redundancia de los servidores a través de la agrupación. Si un servidor que ejecuta un determinado rol de servidor tiene errores, los demás servidores del grupo que ejecutan el mismo rol recogen la carga de ese servidor. Esto es válido en servidores front-end, servidores perimetrales, servidores de mediación y directores.
+Como en Lync Server 2010, el esquema de alta disponibilidad principal para la mayoría de roles de servidor en Lync Server 2013 se basa en la redundancia de servidores a través de la agrupación. Si se produce un error en un servidor que ejecuta un rol de servidor determinado, los demás servidores del grupo que ejecutan el mismo rol asumen la carga de dicho servidor. Esto se aplica a los servidores front-end, los servidores perimetrales, los servidores de mediación y los directores.
 
-Lync Server 2013 agrega nuevas medidas de recuperación ante desastres para grupos de servidores front-end mediante la introducción de dispersement geográficas de los servidores en dos centros de datos para ofrecer la continuación del servicio en caso de que se desconecte todo un grupo o sitio.
+Lync Server 2013 agrega nuevas medidas de recuperación ante desastres para grupos de servidores front-end mediante la introducción de dispersión geográficas de sus servidores en dos centros de datos para proporcionar la continuación del servicio en caso de que se produzca un bloqueo o un sitio completo.
 
-Lync Server 2013 también mejora la alta disponibilidad del servidor back-end, pues admite el reflejo de SQL sincrónico para las bases de datos back-end.
+Lync Server 2013 también mejora la alta disponibilidad del servidor back-end, ya que admite la creación de reflejos de SQL sincrónicos para las bases de datos back-end.
 
-En esta sección se explican estas características principales de alta disponibilidad y recuperación ante desastres, y también se describen los pasos que puede realizar para la alta disponibilidad y la recuperación ante desastres para sus otros roles de servidor.
+En esta sección se explican estas principales características de alta disponibilidad y de recuperación ante desastres, y también se describen los pasos que puede realizar para la alta disponibilidad y la recuperación ante desastres para sus otros roles de servidor también.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Grupo front-end para la recuperación ante desastres en Lync Server 2013](lync-server-2013-front-end-pool-disaster-recovery.md)
+  - [Recuperación ante desastres del grupo de servidores front-end en Lync Server 2013](lync-server-2013-front-end-pool-disaster-recovery.md)
 
   - [Recuperación ante desastres del servidor perimetral en Lync Server 2013](lync-server-2013-edge-server-disaster-recovery.md)
 
-  - [Planear la resistencia de la telefonía IP empresarial en Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
+  - [Planeación de la resistencia de la telefonía IP empresarial en Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
-  - [Características de la administración de llamadas para la recuperación ante desastres en Lync Server 2013](lync-server-2013-call-management-features-for-disaster-recovery.md)
+  - [Características de administración de llamadas para la recuperación ante desastres en Lync Server 2013](lync-server-2013-call-management-features-for-disaster-recovery.md)
 
-  - [Configurar servidores de chat persistente para la alta disponibilidad y la recuperación ante desastres en Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)
+  - [Configurar el servidor de chat persistente para la alta disponibilidad y la recuperación ante desastres en Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)
 
-  - [Resistencia de sitios de metropolitana de Lync Server 2010](lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md)
+  - [Lync Server 2010 resistencia del sitio metropolitana](lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Comprobación de la implementación perimetral'
+title: 'Lync Server 2013: comprobación de la implementación perimetral'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e6e3bf4e2fb1004c1e0312b4ef43f3f6f6ba690
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ac4c4ad1b6bddcdc44383f0be8e2c05e00de7b52
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742030"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007289"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verifying-your-edge-deployment-in-lync-server-2013"></a>Comprobación de la implementación perimetral en Lync Server 2013
+# <a name="verifying-your-edge-deployment-in-lync-server-2013"></a>Comprobar la implementación perimetral en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41742030"
 
 _**Última modificación del tema:** 2010-11-07_
 
-Después de completar la instalación y la configuración de los componentes de Edge, debe comprobar la configuración y la conectividad de los servidores y comprobar la conectividad de cada tipo de usuario externo que admita.
+Una vez finalizada la instalación y la configuración de los componentes perimetrales, deberá comprobar la configuración y la conectividad de los servidores, y comprobar la conectividad de todos los tipos de usuario externo que admita.
 
 <div>
 

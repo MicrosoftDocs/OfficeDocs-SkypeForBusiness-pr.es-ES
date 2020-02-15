@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Administrar la alta disponibilidad y la recuperación ante desastres'
+title: 'Lync Server 2013: administración de alta disponibilidad y recuperación ante desastres'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184313
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ca576b5147aaab5d0a9d72178ea29f87013d1a0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 519829c0a59bab7d726056c805dfc79f50272f84
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729280"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006948"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Administrar la alta disponibilidad y la recuperación ante desastres en Lync Server 2013
+# <a name="managing-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Administración de alta disponibilidad y recuperación ante desastres en Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41729280"
 
 _**Última modificación del tema:** 2012-08-03_
 
-En los temas siguientes se describe cómo configurar la alta disponibilidad, la recuperación ante desastres, la conmutación por error y el failback para el servidor de chat persistente.
+En los siguientes temas se describe cómo configurar la alta disponibilidad, la recuperación ante desastres, la conmutación por error y la conmutación por recuperación tras un error en el servidor de chat persistente.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Configuración de alta disponibilidad y recuperación ante desastres para chat persistente en Lync Server 2013](lync-server-2013-configuring-for-persistent-chat-high-availability-and-disaster-recovery.md)
+  - [Configuración de alta disponibilidad y recuperación ante desastres de chat persistente en Lync Server 2013](lync-server-2013-configuring-for-persistent-chat-high-availability-and-disaster-recovery.md)
 
-  - [Conmutación por recuperación y por error de servidores de chat persistente en Lync Server 2013](lync-server-2013-failing-over-and-failing-back-persistent-chat-server.md)
+  - [Conmutación por recuperación y conmutación por recuperación del servidor de chat persistente en Lync Server 2013](lync-server-2013-failing-over-and-failing-back-persistent-chat-server.md)
 
 </div>
 

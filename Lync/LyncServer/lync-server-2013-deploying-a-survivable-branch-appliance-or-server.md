@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Implementar una aplicación o servidor de sucursal con funciones de supervivencia'
+title: 'Lync Server 2013: implementación de una aplicación o un servidor de sucursal con funciones de supervivencia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185643
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca6fae79854356951701eaf6040fb436e787acd2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 445df692041e24f8a4e134836ea9f6a63561a2ca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729594"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034762"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a>Implementar una aplicación o servidor de sucursal con funciones de supervivencia con Lync Server 2013
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a>Implementación de una aplicación o un servidor de sucursal con funciones de supervivencia con Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41729594"
 
 _**Última modificación del tema:** 2014-12-10_
 
-Resiliente Enterprise Voice hace referencia a la resistencia a sitios de sucursales, es decir, la capacidad de ofrecer un servicio de telefonía empresarial continua a los usuarios de sucursales en caso de que el vínculo al sitio central deje de estar disponible.
+Resistente Enterprise Voice hace referencia a la resistencia de los sitios de sucursal, es decir, a la capacidad de proporcionar un servicio de telefonía IP empresarial continuo a los usuarios de sitios de sucursal en el caso de que el vínculo al sitio central deje de estar disponible.
 
-En el caso de sitios de sucursales pequeños y de tamaño mediano (sitios de sucursales con 25 a 1.000 usuarios), recomendamos implementar una aplicación de rama superviviente, que terminará las llamadas de la red telefónica conmutada (RTC) usando su puerta de enlace RTC integrada o un tronco SIP a un teléfono. proveedor de servicios. Un equipo de rama con la supervivencia es un dispositivo de terceros que incluye un servidor blade que ejecuta el sistema operativo Windows Server 2008 R2, el registrador de Lync Server 2013, el software de servidor de mediación y una puerta de enlace RTC, todo en un solo chasis de dispositivo.
+Para sitios de sucursal pequeños y medianos (sitios de sucursal con 25 a 1.000 usuarios), se recomienda implementar una aplicación de sucursal con funciones de supervivencia, que finalizará las llamadas de red telefónica conmutada (RTC) mediante la puerta de enlace RTC integrada o un tronco SIP a un teléfono. proveedor de servicios. Una aplicación de sucursal con funciones de supervivencia es un dispositivo de terceros que incluye un servidor blade que ejecuta el sistema operativo Windows Server 2008 R2, el registrador de Lync Server 2013, el software de servidor de mediación y una puerta de enlace RTC, todo en un solo chasis de dispositivo.
 
-En el caso de sitios de sucursales con 1.000 a usuarios de 5.000 y una WAN resistente, recomendamos que se conecte un servidor de sucursal con la supervivencia a una puerta de enlace PSTN o a un tronco SIP a un proveedor de servicios telefónicos. Un servidor de sucursal con la supervivencia es un equipo basado en Windows Server en el que se ha instalado el software de servidor de registro y mediación.
+Para los sitios de sucursal con 1.000 a 5.000 y ninguna WAN resistente, se recomienda conectar un servidor de sucursal con funciones de supervivencia a una puerta de enlace RTC o a un tronco SIP a un proveedor de servicios telefónicos. Un servidor de sucursal con funciones de supervivencia es un equipo basado en Windows Server que tiene el registrador y el software de servidor de mediación instalado.
 
 <div>
 
 
 > [!NOTE]  
-> Para los sitios de sucursales con más de 5.000 usuarios y administradores de Lync Server dedicados, recomendamos una implementación completa de Lync Server 2013, independiente de la del sitio central.<BR>Para obtener más información sobre cómo elegir la mejor solución de resistencia para los sitios de sucursales de su organización, incluidos los requisitos previos y las consideraciones de planeación, consulte <A href="lync-server-2013-branch-site-resiliency-requirements.md">requisitos de resistencia de sitio de sucursal para Lync Server 2013</A> en la documentación de planeación.
+> Para los sitios de sucursal con más de 5.000 usuarios y administradores de Lync Server dedicados, se recomienda una implementación completa de Lync Server 2013, independiente de la del sitio central.<BR>Para obtener más información sobre cómo elegir la mejor solución de resistencia para los sitios de sucursal de la organización, incluidos los requisitos previos y las consideraciones de planeación, consulte <A href="lync-server-2013-branch-site-resiliency-requirements.md">Branch-site Resiliency Requirements for Lync Server 2013</A> en la documentación referente a la planeación.
 
 
 
@@ -57,7 +57,7 @@ En el caso de sitios de sucursales con 1.000 a usuarios de 5.000 y una WAN resis
 
 
 > [!NOTE]  
-> Los usuarios que estén alojados en un equipo con la aplicación de Lync Server superviviente no pueden crear nuevos salones de chat o ver la tarjeta de la sala de las habitaciones existentes.
+> Los usuarios hospedados en una aplicación de sucursal con funciones de supervivencia de Lync Server no pueden crear salones de chat nuevos ni ver la tarjeta de la sala para las salas existentes.
 
 
 
@@ -67,15 +67,15 @@ En el caso de sitios de sucursales con 1.000 a usuarios de 5.000 y una WAN resis
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Implementación de una aplicación o un servidor de sucursal con funciones de supervivencia - Tareas de sitio central con Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md)
+  - [Implementación de una aplicación o servidor de sucursal con funciones de supervivencia con las tareas de sitio central de Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md)
 
-  - [Implementar una aplicación o servidor de sucursal con funciones de supervivencia con Lync Server 2013 - Tarea en el sitio de sucursal](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)
+  - [Implementar una aplicación o un servidor de sucursal con funciones de supervivencia con Lync Server 2013: tarea de sitio de sucursal](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)
 
-  - [Configuración de usuarios para la resistencia del sitio de sucursal en Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
+  - [Configuración de usuarios para la resistencia de sitios de sucursal en Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
 
   - [Usuarios particulares en una aplicación o un servidor de sucursal con funciones de supervivencia en Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)
 
-  - [Apéndices: Servidores y aplicaciones de sucursal con funciones de supervivencia en Lync Server 2013](lync-server-2013-appendices-survivable-branch-appliances-and-servers.md)
+  - [Apéndices: servidores y aplicaciones de sucursal con funciones de supervivencia en Lync Server 2013](lync-server-2013-appendices-survivable-branch-appliances-and-servers.md)
 
 </div>
 

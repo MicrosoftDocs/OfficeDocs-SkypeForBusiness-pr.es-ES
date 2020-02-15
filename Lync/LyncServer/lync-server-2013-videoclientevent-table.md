@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla VideoClientEvent'
+title: 'Lync Server 2013: tabla VideoClientEvent'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185891
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ff9e19288aaaa09b8c72f857f3cfcf4e5331dd7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 63a0bf66a7b09801bea94e8995757543511e298e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742010"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007269"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41742010"
 
 _**Última modificación del tema:** 2012-10-02_
 
-Cada registro contiene un evento de cliente para un punto final en una videollamada. Generalmente, una llamada tiene dos registros: uno para el autor de la llamada y otro para el destinatario.
+Cada registro contiene un evento de cliente para un punto de conexión en una videollamada. Normalmente, una llamada tiene dos registros: uno para el autor de la llamada y otro para el destinatario de la llamada.
 
 
 <table>
@@ -59,25 +59,25 @@ Cada registro contiene un evento de cliente para un punto final en una videollam
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primary</p></td>
-<td><p>Se hace referencia a ellos desde la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
+<td><p>Principal</p></td>
+<td><p>Referencia de la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>Se hace referencia a ellos desde la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
+<td><p>Principal</p></td>
+<td><p>Referencia de la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaLineLabel</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>Primary</p></td>
-<td><p>Se hace referencia a ellos desde la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
+<td><p>Principal</p></td>
+<td><p>Referencia de la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromCaller</strong></p></td>
 <td><p>bit</p></td>
-<td><p>Primary</p></td>
+<td><p>Principal</p></td>
 <td><p>0: datos del destinatario de la llamada</p>
 <p>1: datos del autor de la llamada</p></td>
 </tr>
@@ -85,14 +85,14 @@ Cada registro contiene un evento de cliente para un punto final en una videollam
 <td><p><strong>NetworkBandwidthLowEventRatio</strong></p></td>
 <td></td>
 <td><p> </p></td>
-<td><p>Porcentaje de sesión el evento LowBandwidth se activó por el estado "incorrecto". El ancho de banda disponible es insuficiente para una experiencia de voz aceptable.</p></td>
+<td><p>Porcentaje de sesión en la que se activó el evento LowBandwidth para un estado "incorrecto". El ancho de banda disponible es insuficiente para una experiencia de voz aceptable.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NetworkReceiveQualityEventRatio</strong></p></td>
 <td></td>
 <td><p> </p></td>
-<td><p>Porcentaje de sesión el evento ReceiveSendQuality se activó por el estado "incorrecto".</p>
-<p>La calidad de la red en términos de vibración o pérdida de paquetes es grave y afecta la calidad de audio que se recibe.</p></td>
+<td><p>Porcentaje de sesión en la que se activó el evento ReceiveSendQuality para un estado "incorrecto".</p>
+<p>La calidad de la red en términos de vibración o pérdida de paquetes es grave y afecta a la calidad del audio que se recibe.</p></td>
 </tr>
 </tbody>
 </table>

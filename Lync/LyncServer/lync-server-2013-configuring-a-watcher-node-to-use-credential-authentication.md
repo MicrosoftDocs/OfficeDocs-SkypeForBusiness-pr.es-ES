@@ -12,16 +12,16 @@ ms:contentKeyID: 48183255
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d0fa67c4ef2688035471d2290ead78123f73239
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d38a06c7ea40bd30f962484c8ce0d882c9633bf0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763414"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035142"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,33 +37,33 @@ ms.locfileid: "41763414"
 
 _**Última modificación del tema:** 2012-10-20_
 
-Si el equipo del nodo de observador se encuentra fuera de la red perimetral, debe seguir un procedimiento ligeramente diferente para configurar ese nodo de observador de forma que se ejecuten las transacciones sintéticas. En concreto, no debe crear un grupo de aplicaciones de confianza ni una aplicación de confianza, y debe instalar un certificado que permita al nodo de monitor enviar alertas a un equipo dentro de la red perimetral. Esto significa que tendrá que completar dos tareas independientes:
+Si el equipo del nodo del observador se encuentra fuera de la red perimetral, debe seguir un procedimiento ligeramente diferente para configurar el nodo del observador a fin de que ejecute las transacciones sintéticas. De manera específica, no debe crear un grupo de servidores de aplicaciones de confianza y una aplicación de confianza, y debe instalar un certificado que habilita el nodo del observador para que envíe alertas a un equipo dentro de la red perimetral. Esto significa que tendrá que completar dos tareas independientes:
 
-  - Actualizar la pertenencia al grupo administradores de RTC locales de solo lectura del equipo
+  - Actualizar la pertenencia al grupo Administradores de solo lectura local de RTC del equipo
 
-  - Instalar los archivos de configuración del nodo de monitor
+  - Instalar los archivos de configuración del nodo del observador
 
 <div>
 
-## <a name="updating-membership-in-the-rtc-local-read-only-administrators-group"></a>Actualización de la pertenencia al grupo de administradores RTC local de solo lectura
+## <a name="updating-membership-in-the-rtc-local-read-only-administrators-group"></a>Actualización de la pertenencia al grupo Administradores de solo lectura local de RTC
 
-Si el nodo de monitor se encuentra fuera de la red perimetral, debe agregar la cuenta de servicio de red al grupo de administradores RTC local de solo lectura en el equipo del nodo de supervisor. Para ello, complete el siguiente procedimiento en el nodo Watcher (monitor):
+Si su nodo de observador se encuentra fuera de la red perimetral, debe agregar la cuenta del servicio de red al grupo Administradores de solo lectura local de RTC al equipo del nodo de observador. Para ello, complete el siguiente procedimiento en el nodo de observador:
 
-1.  Haga clic en **Inicio**, haga clic con el botón secundario en **equipo**y, a continuación, haga clic en **administrar**.
+1.  Haga clic en  **Inicio **, haga clic con el botón secundario en  **Equipo ** y, a continuación, haga clic en  **Administrar **.
 
-2.  En Administrador del servidor, expanda **configuración**, expanda **usuarios locales y grupos**y, a continuación, haga clic en **grupos**.
+2.  En el Administrador de servidores, expanda **Configuración**, **Usuarios y grupos locales** y, a continuación, haga clic en **Grupos**.
 
-3.  En el panel grupos, haga doble clic en **RTC local-Only Administrators**.
+3.  En el panel Grupos, haga doble clic en **RTC Local Read-only Administrators**.
 
-4.  En el cuadro de diálogo **propiedades de administrador de solo lectura local de RTC** , haga clic en **Agregar**.
+4.  En el cuadro de diálogo **Propiedades de RTC Local Read-only Administrators**, haga clic en **Agregar**.
 
-5.  En el cuadro de diálogo **Seleccionar usuarios, equipos, cuentas de servicio o grupos** , haga clic en **ubicaciones**.
+5.  En el cuadro de diálogo para **seleccionar usuarios, equipos, cuentas de servicio o grupos**, haga clic en **Ubicaciones**.
 
-6.  En el cuadro de diálogo **ubicaciones** , seleccione el nombre del equipo del nodo de monitor y, a continuación, haga clic en **Aceptar**.
+6.  En el cuadro de diálogo **Ubicaciones**, seleccione el nombre del equipo del nodo de observador y, a continuación, haga clic en **Aceptar**.
 
-7.  En el cuadro **Escriba los nombres de objeto que desea seleccionar** , escriba **servicio de red**y haga clic en **Aceptar**.
+7.  En el cuadro **Escribir los nombres de objeto para seleccionar**, escriba **Servicio de red** y, a continuación, haga clic en **Aceptar**.
 
-8.  En el cuadro de diálogo **propiedades de administradores locales de solo lectura** , haga clic en **Aceptar**y, a continuación, cierre el **Administrador del servidor**.
+8.  En el cuadro de diálogo **Propiedades de RTC Local Read-only Administrators**, haga clic en **Aceptar** y, a continuación, cierre **Administrador de servidores**.
 
 Reinicie el equipo del nodo de observador.
 
@@ -71,9 +71,9 @@ Reinicie el equipo del nodo de observador.
 
 <div>
 
-## <a name="installing-the-watcher-node-configuration-files"></a>Instalar los archivos de configuración del nodo de monitor
+## <a name="installing-the-watcher-node-configuration-files"></a>Instalación de los archivos de configuración del nodo de observador
 
-Después de reiniciar el equipo del nodo de observador, el siguiente paso es ejecutar el archivo Watchernode. msi. Para ejecutar este archivo, abra el shell de administración de Lync Server 2013 haciendo clic en **Inicio**, haga clic en **todos los programas**, en **Lync Server 2013**y, por último, en el **Shell de administración de Lync Server**. En el shell de administración de Lync Server, escriba el siguiente comando y, a continuación, presione Entrar (Asegúrese de especificar la ruta de acceso real a su copia de Watchernode. msi):
+Una vez se ha iniciado el equipo del nodo de observador, el siguiente paso es ejecutar el archivo Watchernode.msi. Para ejecutar este archivo, abra el shell de administración de Lync Server 2013 haciendo clic en **Inicio**, en **todos los programas**, en **Lync Server 2013**y, a continuación, en **Shell de administración de Lync Server**. En el shell de administración de Lync Server, escriba el siguiente comando y, a continuación, presione Entrar (Asegúrese de especificar la ruta de acceso real a su copia de Watchernode. msi):
 
     C:\Tools\Watchernode.msi Authentication=Negotiate
 
@@ -81,13 +81,13 @@ Después de reiniciar el equipo del nodo de observador, el siguiente paso es eje
 
 
 > [!NOTE]  
-> Como se indicó anteriormente, Watchernode. msi también se puede ejecutar desde una ventana de comandos. Para abrir una ventana Comandos, haga clic en <STRONG>Inicio</STRONG>, haga clic con el botón secundario en <STRONG>Símbolo del sistema</STRONG> y, a continuación, haga clic en <STRONG>Ejecutar como administrador</STRONG>. Cuando se abra la ventana de comandos, escriba el mismo comando que se mostró anteriormente.
+> Como se ha descrito con anterioridad, Watchernode.msi también se puede ejecutar desde una ventana de comando. Para abrir una ventana de comando, haga clic en <STRONG>Inicio</STRONG>, haga clic con el botón secundario en <STRONG>Símbolo del sistema</STRONG> y, a continuación, haga clic en <STRONG>Ejecutar como administrador</STRONG>. Cuando se abra la ventana del comando, escriba el mismo comando que se ha mostrado anteriormente.
 
 
 
 </div>
 
-El modo Negotiate se usa en cualquier momento que el nodo de monitor no se puede configurar como un grupo de servidores de aplicaciones de confianza. En este modo, los administradores tendrán que administrar contraseñas de usuario de prueba en el nodo de monitor.
+El modo Negotiate se usa en cualquier momento que el nodo de observador no se puede configurar como un grupo de servidores de aplicaciones de confianza. En este modo, los administradores tendrá que administrar contraseñas de usuario de prueba en el nodo de observador.
 
 </div>
 

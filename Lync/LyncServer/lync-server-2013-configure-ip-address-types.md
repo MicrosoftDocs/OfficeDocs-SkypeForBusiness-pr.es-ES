@@ -12,16 +12,16 @@ ms:contentKeyID: 48183515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e1b03e7c64c15d147e09883b9d7580bacbca7be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cb04adb830e4b7207391675aeabd5f3be315724
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729770"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036228"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41729770"
 
 _**Última modificación del tema:** 2012-06-13_
 
-Para implementar los tipos de dirección IP, use la configuración de topología que configure en el generador de topología. En esta sección se describe cómo implementar los tipos de direcciones IP en servidores front-end, servidores de mediación y servidores perimetrales.
+Los tipos de direcciones IP se implementan mediante la configuración de la topología que se configura en el generador de topologías. En esta sección se describe cómo implementar los tipos de direcciones IP en servidores front-end, servidores de mediación y servidores perimetrales.
 
 <div>
 
@@ -45,9 +45,9 @@ Para implementar los tipos de dirección IP, use la configuración de topología
 
   - [Implementar tipos de direcciones IP en un servidor front-end para Lync Server 2013](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
 
-  - [Implementar tipos de dirección IP en un servidor de mediación para Lync Server 2013](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
+  - [Implementar tipos de direcciones IP en un servidor de mediación para Lync Server 2013](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
 
-  - [Implementar tipos de dirección IP en un servidor perimetral para Lync Server 2013](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
+  - [Implementar tipos de direcciones IP en un servidor perimetral para Lync Server 2013](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
 
 </div>
 

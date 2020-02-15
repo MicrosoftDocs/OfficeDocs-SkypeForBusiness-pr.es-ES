@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: especificación de la retención de datos de CDR'
+title: 'Lync Server 2013: especificar la retención de datos de CDR'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185299
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32eee413b25da3231d5633e89571bbc08deb1f38
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4043c90cffc99b0c262e9091d3cb98d15ff89818
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764456"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008192"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="specifying-retention-of-cdr-data-in-lync-server-2013"></a>Especificación de la retención de datos de CDR en Lync Server 2013
+# <a name="specifying-retention-of-cdr-data-in-lync-server-2013"></a>Especificar la retención de datos de CDR en Lync Server 2013
 
 </div>
 
@@ -53,11 +53,11 @@ Use los procedimientos siguientes para configurar la purga de los datos de CDR.
 
 <div>
 
-## <a name="to-specify-retention-of-cdr-data"></a>Para especificar la retención de los datos de CDR
+## <a name="to-specify-retention-of-cdr-data"></a>Para especificar la retención de los datos de CDR:
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo de la red en el que haya implementado Lync Server 2013.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que se implementó Lync Server 2013.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  En la barra de navegación de la izquierda, haga clic en **Supervisión y archivado** y en **Registro de detallado de llamadas**.
 
@@ -77,7 +77,7 @@ Use los procedimientos siguientes para configurar la purga de los datos de CDR.
 
 ## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>Especificar la retención de CDR mediante cmdlets de Windows PowerShell
 
-Puede crear la configuración de retención de CDR con Windows PowerShell y el cmdlet Set-CsCdrConfiguration. Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede definir la configuración de retención de CDR con Windows PowerShell y el cmdlet Set-CsCdrConfiguration. Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
 <div>
 
@@ -99,7 +99,7 @@ Puede crear la configuración de retención de CDR con Windows PowerShell y el c
 
 </div>
 
-Para obtener más información, consulte el tema de ayuda para el cmdlet [set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) .
+Para obtener más información, consulte el tema de ayuda del cmdlet [set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) .
 
 </div>
 
@@ -108,7 +108,7 @@ Para obtener más información, consulte el tema de ayuda para el cmdlet [set-Cs
 ## <a name="see-also"></a>Vea también
 
 
-[Grabación de detalles de llamadas (CDR) en Lync Server 2013](lync-server-2013-call-detail-recording-cdr.md)  
+[Registro detallado de llamadas (CDR) en Lync Server 2013](lync-server-2013-call-detail-recording-cdr.md)  
   
 
 </div>

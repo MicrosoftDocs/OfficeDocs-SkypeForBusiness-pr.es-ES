@@ -1,5 +1,5 @@
 ---
-title: Migrar la federación XMPP
+title: Migración de la Federación XMPP
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b72dabd60ea42a84fcf9b15d1d739bc063ddf1c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 64a88712d68418b6c4144c67b6583f2451fb7e10
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762878"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036006"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrating-xmpp-federation"></a>Migrar la federación XMPP
+# <a name="migrating-xmpp-federation"></a>Migración de la Federación XMPP
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41762878"
 
 _**Última modificación del tema:** 2012-10-19_
 
-Las versiones anteriores de Lync Server y Office Communications Server proporcionaban una puerta de enlace de protocolo de presencia y mensajería extensible (XMPP) que se podría implementar como una función de servidor independiente para permitir la Federación con implementaciones de XMPP. En Lync Server 2013, la funcionalidad de XMPP puede implementarse como una característica. La funcionalidad XMPP se instala en dos partes: como un proxy XMPP que se ejecuta en el servidor perimetral 2013 de Lync Server y la puerta de enlace XMPP que se ejecuta en el servidor front-end de Lync Server 2013.
+Las versiones anteriores de Lync Server y Office Communications Server proporcionaban una puerta de enlace de protocolo extensible de mensajería y presencia (XMPP) que se podía implementar como una función de servidor independiente para permitir la Federación con las implementaciones de XMPP. En Lync Server 2013, la funcionalidad de XMPP puede implementarse como una característica. La funcionalidad XMPP se instala en dos partes: como un proxy XMPP que se ejecuta en el servidor perimetral de Lync Server 2013 y la puerta de enlace XMPP que se ejecuta en el servidor front-end de Lync Server 2013.
 
-Desde el punto de vista de la migración, una cuenta de usuario de Lync Server se puede mover a un grupo de 2013 de Lync Server y seguir usando la puerta de enlace XMPP heredada. Esto solo es posible si el socio de XMPP federado no está configurado en Lync Server 2013.
+Desde el punto de vista de la migración, una cuenta de usuario de Lync Server se puede mover a un grupo de servidores de Lync Server 2013 y seguir usando la puerta de enlace XMPP heredada. Esto solo es posible si el socio federado XMPP no está configurado en Lync Server 2013.
 
-En Resumen, si se ha implementado Lync Server 2010 con la puerta de enlace XMPP de Office Communications Server 2007 R2 y se ha habilitado la Federación XMPP para los usuarios heredados de Lync Server 2010, para migrar la Federación XMPP a Lync Server 2013:
+En Resumen, si se ha implementado Lync Server 2010 con la puerta de enlace XMPP Office Communications Server 2007 R2 y la Federación XMPP se ha habilitado para los usuarios de Lync Server 2010 heredados, migrar la Federación XMPP a Lync Server 2013:
 
-1.  Implementar un grupo de 2013 de Lync Server.
+1.  Implementar un grupo de servidores de Lync Server 2013.
 
-2.  Implementar un servidor perimetral 2013 de Lync Server.
+2.  Implementar un servidor perimetral de Lync Server 2013.
 
 3.  Mover todos los usuarios al grupo de servidores de Lync 2013
 
-4.  Cree certificados y directivas de acceso XMPP para el servidor perimetral.
+4.  Cree certificados y directivas de acceso de XMPP para el servidor perimetral.
 
 5.  Habilite la Federación XMPP en Lync Server 2013. 
 
-6.  Actualice las entradas DNS para que apunten a la puerta de enlace de Lync Server 2013 XMPP.
+6.  Actualice las entradas DNS para que apunten a la puerta de enlace XMPP de Lync Server 2013.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar directivas para controlar el acceso de usuarios federados'
+title: 'Lync Server 2013: configurar directivas para controlar el acceso de usuarios federados'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184180
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1aeb1b29637fd3f4a8add770470069e8b4a6eb8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c40b2a1fa071c7dd7f93e384418679ffcead38c0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763292"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035342"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41763292"
 
 _**Última modificación del tema:** 2014-02-05_
 
-Al configurar directivas para admitir las comunicaciones con socios federados, las directivas se aplican a los usuarios de dominios federados. Puede configurar una o más directivas de acceso de usuarios externos para controlar si los usuarios de dominios federados pueden colaborar con los usuarios de Lync Server 2013. Para controlar el acceso de usuarios federados, puede configurar directivas en el nivel global, de sitio y de usuario. La configuración de directiva de Lync Server que se aplica a un nivel de Directiva puede invalidar la configuración que se aplica a otro nivel de directiva. La prioridad de la Directiva de Lync Server es: la Directiva de usuario (más influencia) reemplaza a una directiva de sitio y, después, una directiva de sitio invalida una directiva global (menor influencia). Esto significa que, cuanto más cercana es la configuración de directiva al objeto al que la directiva afecta, mayor es la influencia que ejerce sobre el objeto.
+Al configurar directivas para admitir comunicaciones con socios federados, las directivas se aplican a los usuarios de dominios federados. Puede configurar una o más directivas de acceso de usuarios externos para controlar si los usuarios de dominios federados pueden colaborar con los usuarios de Lync Server 2013. Puede configurar directivas de nivel global, de sitio y de usuario para controlar el acceso de usuarios federados. La configuración de la Directiva de Lync Server que se aplica en un nivel de Directiva puede invalidar la configuración que se aplica en otro nivel de directiva. La prioridad de la Directiva de Lync Server es: la Directiva de usuario (más influencia) reemplaza una directiva de sitio y, a continuación, una directiva de sitio invalida una directiva global (menor influencia). Esto significa que cuanto más cerca esté la configuración de la Directiva, el objeto al que afecta la Directiva, más influencia tendrá en el objeto.
 
 <div>
 
 
 > [!NOTE]  
-> Puede configurar directivas para controlar el acceso de usuarios federados, incluso si no ha habilitado la Federación de su organización. Sin embargo, las directivas que configure solo estarán vigentes cuando tenga habilitada la Federación de su organización. Para obtener más información sobre cómo habilitar la Federación, vea <A href="lync-server-2013-enable-or-disable-remote-user-access.md">habilitar o deshabilitar el acceso de usuarios remotos en Lync Server 2013</A> en la documentación de implementación o en la documentación de operaciones. Además, si especifica una directiva de usuario para controlar el acceso de usuarios federados, la Directiva solo se aplica a los usuarios que están habilitados para Lync Server 2013 y están configurados para usar la Directiva.
+> Puede configurar directivas para controlar el acceso de usuarios federados, incluso aunque no haya habilitado una federación para la organización. Sin embargo, las directivas que configure únicamente surtirán efecto cuando haya habilitado la federación en la organización. Para obtener más información sobre cómo habilitar la Federación, vea <A href="lync-server-2013-enable-or-disable-remote-user-access.md">habilitar o deshabilitar el acceso de usuarios remotos en Lync Server 2013</A> en la documentación de implementación o en la documentación de operaciones. Además, si especifica una directiva de usuario para controlar el acceso de usuarios federados, la Directiva solo se aplica a los usuarios que están habilitados para Lync Server 2013 y que están configurados para usar la Directiva.
 
 
 
@@ -51,53 +51,53 @@ Al configurar directivas para admitir las comunicaciones con socios federados, l
 
 <div>
 
-## <a name="to-configure-a-policy-to-support-access-by-users-of-federated-domains"></a>Para configurar una directiva para admitir el acceso de usuarios de dominios federados
+## <a name="to-configure-a-policy-to-support-access-by-users-of-federated-domains"></a>Para configurar una directiva para permitir el acceso de usuarios de dominios federados
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **acceso de usuarios externos**y, después, en **Directiva de acceso externo**.
+3.  En el barra de navegación izquierda, haga clic en **Acceso para usuarios externos** y, a continuación, en **Directiva de acceso externo**.
 
-4.  En la página **Directiva de acceso externo** , realice una de las siguientes acciones:
+4.  En la página **Directiva de acceso externo**, siga uno de estos procedimientos:
     
-      - Para configurar la directiva global para admitir el acceso de usuarios federados, haga clic en la directiva global, haga clic en **Editar**y, a continuación, haga clic en **Mostrar detalles**.
+      - Para configurar la directiva global para permitir el acceso de usuarios federados, haga clic en la directiva global, en **Editar** y en **Mostrar detalles**.
     
-      - Para crear una nueva Directiva de sitio, haga clic en **nueva**y, a continuación, haga clic en **Directiva del sitio**. En **seleccionar un sitio**, haga clic en el sitio adecuado de la lista y, a continuación, haga clic en **Aceptar**.
+      - Para crear una directiva de sitio nueva, haga clic en **Nuevo** y, a continuación, en **Directiva de sitio**. En **Seleccionar un sitio**, haga clic en el sitio apropiado de la lista y, a continuación, en **Aceptar**.
     
-      - Para crear una nueva Directiva de usuario, haga clic en **nueva**y, a continuación, haga clic en **Directiva de usuario**. En **nueva Directiva de acceso externo**, cree un nombre único en el campo **nombre** que indique lo que cubre la Directiva de usuario (por ejemplo, **EnableFederatedUsers** para una directiva de usuario que permita las comunicaciones de usuarios de dominios federados).
+      - Para crear una directiva de usuario nueva, haga clic en **Nuevo** y, a continuación, en **Directiva de usuario**. En **Nueva directiva de acceso externo**, cree un nombre único en el campo **Nombre** que indique lo que cubre la directiva de usuario (por ejemplo, **PermitirUsuariosFederados** para una directiva de usuario que permita comunicaciones para usuarios de dominios federados).
     
-      - Para cambiar una directiva existente, haga clic en la directiva correspondiente que aparece en la tabla, haga clic en **Editar**y, a continuación, haga clic en **Mostrar detalles**.
+      - Para cambiar una directiva existente, haga clic en la directiva correspondiente que aparece en la tabla, en **Editar** y, a continuación en **Mostrar detalles**.
 
-5.  Faculta Si desea agregar o editar una descripción, especifique la información de la Directiva en **Descripción**.
+5.  (Opcional) Si quiere agregar o editar una descripción, especifique la información para la directiva en **Descripción**.
 
-6.  Siga uno de estos pasos:
+6.  Siga uno de estos procedimientos:
     
-      - Para habilitar el acceso de usuarios federados para la Directiva, active la casilla **Habilitar comunicaciones con usuarios federados** .
+      - Para habilitar el acceso de usuarios federados para la directiva, active la casilla **Habilitar comunicaciones con usuarios federados**.
     
-      - Para deshabilitar el acceso de usuarios federados para la Directiva, desactive la casilla **Habilitar comunicaciones con usuarios federados** .
+      - Para deshabilitar el acceso de usuarios federados para la directiva, desactive la casilla **Habilitar comunicaciones con usuarios federados**.
 
 7.  Haga clic en **Confirmar**.
 
-Para habilitar el acceso de usuarios federados, también debe habilitar la compatibilidad con la Federación de su organización. Para obtener más información, vea [habilitar o deshabilitar la Federación y la conectividad de mensajería instantánea pública en Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md).
+Para habilitar el acceso de usuarios federados, también debe admitir una federación en la organización. Para obtener más información, consulte [habilitar o deshabilitar la Federación y la conectividad de mensajería instantánea pública en Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md).
 
-Si se trata de una directiva de usuario, también debe aplicar la Directiva a los usuarios que desee que puedan colaborar con los usuarios federados. Para obtener más información, consulte [asignar una directiva de acceso de usuarios externos a un usuario habilitado de Lync en Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md).
+Si se trata de una directiva de usuario, también tiene que aplicar la directiva a los usuarios que desee que puedan colaborar con usuarios federados. Para obtener más información, consulte [asignar una directiva de acceso de usuario externo a un usuario habilitado para Lync en Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md).
 
 </div>
 
 <div>
 
-## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para configurar una directiva existente mediante Windows PowerShell para admitir el acceso de usuarios de dominios federados
+## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para configurar una directiva existente mediante Windows PowerShell para permitir el acceso de usuarios de dominios federados
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
 3.  Escriba lo siguiente en el shell de administración de Lync Server:
     
         Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
     
-    Un comando de ejemplo que establecerá la directiva global de acceso de usuarios federados en habilitado, acceso de dominio XMPP a acceso de usuarios remotos habilitado a acceso de usuarios remotos a habilitado, acceso de proveedor público a habilitado y concesión de la posibilidad de usar audio y vídeo para los proveedores públicos que lo admitan:
+    Un comando de ejemplo que establecerá la directiva global para Acceso de usuarios federados en habilitado, Acceso de dominio XMPP en habilitado, Acceso de usuarios remotos en habilitado, Acceso de proveedores públicos en habilitado y conceder la capacidad de usar audio y vídeo de los proveedores públicos que lo admitan:
     
         Set-CsExternalAccessPolicy -Identity global -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     
@@ -105,7 +105,7 @@ Si se trata de una directiva de usuario, también debe aplicar la Directiva a lo
     
 
     > [!TIP]  
-    > El parámetro "EnablePublicCloudAudioVideoAccess" no tiene una selección correspondiente en el panel de control de Lync Server.
+    > El parámetro "EnablePublicCloudAudioVideoAccess" no tiene una selección correspondiente en el panel de control de Lync Server
 
     
     </div>
@@ -114,17 +114,17 @@ Si se trata de una directiva de usuario, también debe aplicar la Directiva a lo
 
 <div>
 
-## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para crear una nueva directiva con Windows PowerShell para admitir el acceso de usuarios de dominios federados
+## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para crear una nueva Directiva mediante Windows PowerShell para permitir el acceso de usuarios de dominios federados
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
 3.  Escriba lo siguiente en el shell de administración de Lync Server:
     
         New-CsExtenalAccessPolicy -Identity <name of site or user policy - you cannot create a new global policy using New-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
     
-    Un ejemplo de creación de una nueva Directiva de sitio:
+    Un ejemplo de creación de una nueva directiva de sitio:
     
         New-CsExternalAccessPolicy -Identity site:Redmond -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
 
@@ -132,15 +132,15 @@ Si se trata de una directiva de usuario, también debe aplicar la Directiva a lo
 
 <div>
 
-## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para eliminar o restablecer una directiva con Windows PowerShell para admitir el acceso de usuarios de dominios federados
+## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para eliminar o restablecer una Directiva mediante Windows PowerShell para permitir el acceso de usuarios de dominios federados
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Escriba lo siguiente en el shell de administración de Lync Server
+2.  Escriba lo siguiente en el shell de administración de Lync Server.
     
         Remove-CsExternalAccessPolicy -Identity <name of global, site or user policy> 
     
-    Un ejemplo de restablecimiento de la directiva global (la directiva global solo puede tener su configuración desinstalada). No se puede eliminar la Directiva):
+    Un ejemplo de restablecimiento de la directiva global (la directiva global solo puede tener su parámetro eliminado. La directiva no se puede eliminar):
     
         Remove-CsExternalAccessPolicy -Identity global 
     
@@ -148,7 +148,7 @@ Si se trata de una directiva de usuario, también debe aplicar la Directiva a lo
     
         Remove-CsExternalAccessPolicy -Identity site:Redmond 
     
-    Elimina la Directiva de sitio de Redmond. Para eliminar una directiva de usuario denominada UserEAPPolicy, escriba:
+    Elimina la directiva de sitio Redmond. Para eliminar una directiva de usuario denominada UserEAPPolicy, escriba:
     
         Remove-CsExternalAccessPolicy -Identity UserEAPPolicy
 
@@ -159,14 +159,14 @@ Si se trata de una directiva de usuario, también debe aplicar la Directiva a lo
 ## <a name="see-also"></a>Vea también
 
 
-[Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública en Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
+[Habilitar o deshabilitar la Federación y la conectividad de mensajería instantánea pública en Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
 [Asignar una directiva de acceso de usuario externo a un usuario habilitado para Lync en Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)  
 
 
 [Administrar dominios federados SIP para la organización en Lync Server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)  
 [Administrar proveedores federados SIP para la organización en Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)  
 [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy)  
-[Nuevo: CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsExternalAccessPolicy)  
+[New-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsExternalAccessPolicy)  
 [Get-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsExternalAccessPolicy)  
 [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy)  
 [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)  
