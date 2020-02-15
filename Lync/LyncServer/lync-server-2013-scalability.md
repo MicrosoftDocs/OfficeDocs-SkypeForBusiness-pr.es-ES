@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Escalabilidad'
+title: Lync Server 2013 escalabilidad
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183995
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6ff4828bdfddbfca7734836fdfdbe24f0b90c4a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 130b1958b418aa2b09e572f137598487dc2c3401
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765018"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049872"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41765018"
 
 _**Última modificación del tema:** 2012-06-25_
 
-Lync Server se ofrece en dos ediciones Enterprise Edition y Standard. Las diferentes ediciones están pensadas principalmente para diferentes tamaños de organizaciones. Como se muestra en la tabla siguiente, ambas ediciones admiten toda la funcionalidad de todas las cargas de trabajo, excepto para la alta disponibilidad y la recuperación ante desastres.
+Lync Server se ofrece en dos ediciones, Enterprise Edition y Standard Edition. Las diferentes ediciones están destinadas principalmente a organizaciones de distinto tamaño. Como se muestra en la tabla siguiente, ambas ediciones admiten todas las funcionalidades en todos los flujos de trabajo, excepto la alta disponibilidad y la recuperación ante desastres.
 
 
 <table>
@@ -49,43 +49,43 @@ Lync Server se ofrece en dos ediciones Enterprise Edition y Standard. Las difere
 <thead>
 <tr class="header">
 <th>Característica</th>
-<th>¿Es compatible con Enterprise Edition?</th>
-<th>¿Compatible con Standard Edition?</th>
+<th>¿Se admite en Enterprise Edition?</th>
+<th>¿Se admite en Standard Edition?</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Mensajería instantánea (mi) y presencia</p></td>
-<td><p>Sí </p></td>
+<td><p>Mensajería instantánea (MI) y presencia</p></td>
+<td><p>Sí</p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="even">
-<td><p>Conferencias</p></td>
-<td><p>Sí </p></td>
+<td><p>Conferencia</p></td>
+<td><p>Sí</p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
 <td><p>Conferencia A/V</p></td>
-<td><p>Sí </p></td>
+<td><p>Sí</p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="even">
-<td><p>Conferencia de acceso telefónico local</p></td>
-<td><p>Sí </p></td>
+<td><p>Conferencia de acceso telefónico</p></td>
+<td><p>Sí</p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
 <td><p>Telefonía IP empresarial</p></td>
-<td><p>Sí </p></td>
+<td><p>Sí</p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="even">
 <td><p>Virtualización</p></td>
-<td><p>Sí </p></td>
+<td><p>Sí</p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
-<td><p>Alta disponibilidad, failover y recuperación ante desastres</p></td>
+<td><p>Alta disponibilidad, conmutación por error y recuperación ante desastres</p></td>
 <td><p>Sí</p></td>
 <td><p>No</p></td>
 </tr>

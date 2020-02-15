@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Nuevas características de IPv6'
+title: 'Lync Server 2013: nuevas características de IPv6'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185929
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4228dd3a10924fdddcff2c23e2784740e3192039
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 682dda5cd6da569f15d209a3cc1c8a2cc943d750
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739410"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048451"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,16 +37,16 @@ ms.locfileid: "41739410"
 
 _**Última modificación del tema:** 2012-08-16_
 
-Lync Server 2013 incluye compatibilidad con direcciones IPv6. Debido al aumento en el número de dispositivos que requieren direcciones IP, el número de direcciones IPv4 disponibles, que son direcciones de 32 bits, se está agotando. IPv6 proporciona un número mucho mayor de direcciones disponibles, porque usa direcciones de 128 bits. El uso de direcciones IPv6 en su entorno depende de la compatibilidad con IPv6 en los dispositivos que usa.
+Lync Server 2013 incluye compatibilidad con direcciones IPv6. Debido al creciente número de dispositivos que requieren direcciones IP, el número de direcciones IPv4 disponibles, que son direcciones de 32 bits, se está agotando. IPv6 proporciona un número mucho mayor de direcciones disponibles, ya que usa direcciones de 128 bits. El uso de las direcciones IPv6 en un entorno depende de si los dispositivos que se usan son o no compatibles.
 
-Debido a que muchos dispositivos existentes aún no admiten IPv6, una transición completa de IPv4 a IPv6 puede demorar varios años. Por lo tanto, Lync Server 2013 incluye compatibilidad con entornos de red con solo direcciones IPv4, solo direcciones IPv6 y direcciones duales (IPv4 e IPv6).
+Como actualmente muchos dispositivos no son compatibles todavía con IPv6, es probable que la transición completa de IPv4 a IPv6 tarde algunos años. Por lo tanto, Lync Server 2013 incluye compatibilidad con entornos de red con solo direcciones IPv4, solo direcciones IPv6 y direcciones de pila dual (tanto IPv4 como IPv6).
 
 <div>
 
 ## <a name="see-also"></a>Vea también
 
 
-[Planificación y configuración de IPv6 en Lync Server 2013](lync-server-2013-planning-for-and-configuring-ipv6.md)  
+[Planeación y configuración de IPv6 en Lync Server 2013](lync-server-2013-planning-for-and-configuring-ipv6.md)  
   
 
 </div>

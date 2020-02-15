@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla Session'
+title: 'Lync Server 2013: tabla de sesiones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184626
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81b97d6a7521add62817147ae87995508b841f2d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c252ef5cd96511875fa299f44ca2a707f766f59a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732400"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048951"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41732400"
 
 _**Última modificación del tema:** 2013-09-09_
 
-Cada registro representa una sesión que incluye audio, audio y vídeo. Contiene información general sobre la sesión. Una sesión se define como un cuadro de diálogo de protocolo de inicio de sesión (SIP) de audio o vídeo entre dos puntos de conexión.
+Cada registro representa una sesión que implica audio o audio y vídeo. Contiene información general sobre la sesión. Una sesión se define como un cuadro de diálogo de protocolo de inicio de sesión (SIP) de audio o vídeo entre dos extremos.
 
 
 <table>
@@ -59,44 +59,44 @@ Cada registro representa una sesión que incluye audio, audio y vídeo. Contiene
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primary</p></td>
-<td><p>Se hace referencia a ellos desde la <a href="lync-server-2013-dialog-table.md">tabla de diálogo en Lync Server 2013</a>.</p></td>
+<td><p>Principal</p></td>
+<td><p>Se hace referencia a ella desde la <a href="lync-server-2013-dialog-table.md">tabla de cuadro de diálogo en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>Se hace referencia a ellos desde la <a href="lync-server-2013-dialog-table.md">tabla de diálogo en Lync Server 2013</a>.</p></td>
+<td><p>Principal</p></td>
+<td><p>Se hace referencia a ella desde la <a href="lync-server-2013-dialog-table.md">tabla de cuadro de diálogo en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
-<td><p>Tecla de conferencia. Se hace referencia a ellos desde la <a href="lync-server-2013-conference-table.md">tabla de conferencia en Lync Server 2013</a>.</p></td>
+<td><p>Externa</p></td>
+<td><p>Clave de conferencia. Se hace referencia a ella desde la <a href="lync-server-2013-conference-table.md">tabla de conferencia en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CorrelationKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
-<td><p>Clave de correlación. Se hace referencia a ellos desde la <a href="lync-server-2013-sessioncorrelation-table.md">tabla SessionCorrelation en Lync Server 2013</a>.</p></td>
+<td><p>Externa</p></td>
+<td><p>Clave de correlación. Referencia de la <a href="lync-server-2013-sessioncorrelation-table.md">tabla SessionCorrelation en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogCategory</strong></p></td>
 <td><p>bit</p></td>
 <td><p> </p></td>
-<td><p>Categoría de cuadro de diálogo; 0 ¿se encuentra Lync Server en la pierna del servidor de mediación; 1 es el servidor de mediación para la puerta de la puerta de enlace RTC.</p></td>
+<td><p>Categoría del cuadro de diálogo; 0 es Lync Server a la pierna del servidor de mediación; 1 es el servidor de mediación a la puerta de la puerta de enlace RTC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MediationServerBypassFlag</strong></p></td>
 <td><p>bit</p></td>
 <td></td>
-<td><p>Marcador que indica si la llamada se ha omitido o no.</p></td>
+<td><p>Marca que indica si la llamada se ha omitido o no.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaBypassWarningFlag</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Este campo, si está presente, indica por qué no se omitió una llamada, incluso si los identificadores de omisión coinciden. Para Lync Server, solo se define un valor.</p>
+<td><p>Este campo (si existe) indica por qué la llamada no se pasó, aun cuando los identificadores de omisión coincidían. Para Lync Server, solo se define un valor.</p>
 <p>0x0001: identificador de omisión desconocido para el adaptador de red predeterminado.</p></td>
 </tr>
 <tr class="even">
@@ -114,74 +114,74 @@ Cada registro representa una sesión que incluye audio, audio y vídeo. Contiene
 <tr class="even">
 <td><p><strong>CallerPool</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
-<td><p>El grupo de la persona que llama. Se hace referencia a ella desde la <a href="lync-server-2013-pool-table.md">tabla de grupos en Lync Server 2013</a>.</p></td>
+<td><p>Externa</p></td>
+<td><p>El grupo de la persona que llama. Se hace referencia a ella desde la <a href="lync-server-2013-pool-table.md">tabla Pool en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleePool</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
-<td><p>La piscina del receptor de la llamada. Se hace referencia a ella desde la <a href="lync-server-2013-pool-table.md">tabla de grupos en Lync Server 2013</a>.</p></td>
+<td><p>Externa</p></td>
+<td><p>Grupo del receptor de llamadas. Se hace referencia a ella desde la <a href="lync-server-2013-pool-table.md">tabla Pool en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleePAI</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
-<td><p>URI de SIP en la identidad declarada por SIP (PAI) del punto final de recepción. Se hace referencia a ellos desde la <a href="lync-server-2013-user-table.md">tabla de usuario en Lync Server 2013</a>.</p></td>
+<td><p>Externa</p></td>
+<td><p>URI de SIP en la identidad de SIP declarada (PAI) del extremo de recepción. Se hace referencia a ella desde la <a href="lync-server-2013-user-table.md">tabla user en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerURI</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
-<td><p>URI de la persona que llama. Se hace referencia a ellos desde la <a href="lync-server-2013-user-table.md">tabla de usuario en Lync Server 2013</a>.</p></td>
+<td><p>Externa</p></td>
+<td><p>URI del autor de la llamada. Se hace referencia a ella desde la <a href="lync-server-2013-user-table.md">tabla user en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerEndpoint</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
-<td><p>Extremo de la persona que llama. Se hace referencia a ellos desde la <a href="lync-server-2013-endpoint-table.md">tabla de extremos en Lync Server 2013</a>.</p></td>
+<td><p>Externa</p></td>
+<td><p>Extremo del autor de la llamada. Se hace referencia a ella desde la <a href="lync-server-2013-endpoint-table.md">tabla de extremos en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerUserAgent</strong></p></td>
 <td><p>bit</p></td>
-<td><p>Extranjero</p></td>
-<td><p>Agente de usuario del autor de la llamada. Se hace referencia a ella desde la <a href="lync-server-2013-useragent-table.md">tabla UserAgent en Lync Server 2013</a>.</p></td>
+<td><p>Externa</p></td>
+<td><p>Agente de usuario del autor de la llamada. Referencia de la <a href="lync-server-2013-useragent-table.md">tabla UserAgent en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallPriority</strong></p></td>
 <td><p>smallint</p></td>
 <td></td>
-<td><p>La prioridad de esta llamada.</p></td>
+<td><p>Prioridad de esta llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClassifiedPoorCall</strong></p></td>
 <td><p>bit</p></td>
 <td></td>
-<td><p>Esta columna ha quedado obsoleta y no se usa en Microsoft Lync Server 2013. En su lugar, esta información se notifica en una base de líneas por medios. Para obtener más información, consulte la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a> .</p></td>
+<td><p>Esta columna se ha dejado de usar y no se usa en Microsoft Lync Server 2013. En su lugar, esta información se indica en una base de líneas por medios. Consulte la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerPAI</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
-<td><p>P-asserted-identidad del usuario que realizó la llamada. La identidad de aserción de P (PAI) se usa para transmitir la verdadera identidad del usuario que realizó la llamada.</p></td>
+<td><p>Externa</p></td>
+<td><p>P-asserted-Identity del usuario que realizó la llamada. La identidad de aserción de P (PAI) se usa para transmitir la verdadera identidad del usuario que realizó la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeEndpoint</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
+<td><p>Externa</p></td>
 <td><p>Extremo que recibió la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeUserAgent</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
-<td><p>Agente de usuario empleado por el usuario que recibió la llamada. Los agentes de usuario representan el dispositivo de extremo cliente.</p></td>
+<td><p>Externa</p></td>
+<td><p>Agente de usuario empleado por el usuario que recibió la llamada. Los agentes de usuario representan el dispositivo de extremo de cliente.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeUri</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
-<td><p>URI SIP del usuario que recibió la llamada.</p></td>
+<td><p>Externa</p></td>
+<td><p>URI de SIP del usuario que recibió la llamada.</p></td>
 </tr>
 </tbody>
 </table>

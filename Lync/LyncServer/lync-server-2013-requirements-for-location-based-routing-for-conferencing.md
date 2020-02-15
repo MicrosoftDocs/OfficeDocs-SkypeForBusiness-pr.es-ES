@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: requisitos para el enrutamiento basado en la ubicación para conferencias'
+title: 'Lync Server 2013: requisitos para el enrutamiento basado en ubicación para conferencias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56335085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac57a32476d80ab1aca5d2ad0928e2862a4c8558
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9a5e97ed5e762b35489eac0b69fbfcad45a8e822
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723820"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="requirements-for-location-based-routing-for-conferencing-in-lync-server-2013"></a>Requisitos para el enrutamiento basado en la ubicación de las conferencias en Lync Server 2013
+# <a name="requirements-for-location-based-routing-for-conferencing-in-lync-server-2013"></a>Requisitos para el enrutamiento basado en ubicación para conferencias en Lync Server 2013
 
 </div>
 
@@ -37,31 +37,31 @@ ms.locfileid: "41723820"
 
 _**Última modificación del tema:** 2013-07-19_
 
-A continuación se indican los requisitos necesarios para la instalación y configuración de la aplicación de conferencia de enrutamiento basado en la ubicación:
+Los siguientes son los requisitos necesarios para la instalación y configuración de la aplicación de conferencia de enrutamiento basada en ubicación:
 
-  - La actualización acumulativa 2 de Lync Server 2013 debe implementarse en todos los servidores o grupos de servidores de su topología.
+  - Lync Server 2013 la actualización acumulativa 2 debe implementarse en todos los servidores o grupos de servidores de la topología.
 
 <div>
 
 
 > [!NOTE]  
-> Si un servidor de Lync o un grupo de servidores de su topología no tienen instalado la actualización acumulativa 2 de Lync Server 2013 o una versión posterior, no se puede garantizar la aplicación del enrutamiento basado en la ubicación de las reuniones de Lync.
+> Si un servidor de Lync o un grupo de servidores de la topología no tienen instalado Lync Server 2013, actualización acumulativa 2 o superior, no se podrá garantizar la aplicación del enrutamiento basado en ubicación de las reuniones de Lync.
 
 
 
 </div>
 
-  - El enrutamiento basado en la ubicación 2013 de Lync Server es un requisito previo para la aplicación de conferencia de enrutamiento basada en la ubicación. Para obtener más información sobre cómo configurar el enrutamiento basado en la ubicación 2013 de Lync Server, consulte [configurar el enrutamiento basado en la ubicación](lync-server-2013-configuring-location-based-routing.md).
+  - Lync Server 2013 el enrutamiento basado en ubicación es un requisito previo para la aplicación de conferencia de enrutamiento basada en ubicación. Para obtener más información sobre cómo configurar el enrutamiento basado en ubicación 2013 de Lync Server, consulte [Configuring location-based Routing](lync-server-2013-configuring-location-based-routing.md).
 
-  - Los requisitos de la aplicación de conferencia de enrutamiento basado en ubicación son los mismos que los requisitos para el enrutamiento basado en la ubicación 2013 de Lync Server. Para obtener más información, consulte [planificación para el enrutamiento basado en la ubicación](lync-server-2013-planning-for-location-based-routing.md).
+  - Los requisitos de la aplicación de conferencia de enrutamiento basada en ubicación son los mismos que los requisitos para el enrutamiento basado en ubicación 2013 de Lync Server. Para obtener más información, consulte [Planning for location-based Routing](lync-server-2013-planning-for-location-based-routing.md).
 
 <div>
 
 ## <a name="supported-servers"></a>Servidores compatibles
 
-La aplicación de conferencia de enrutamiento basada en la ubicación requiere que se implemente la actualización acumulativa 2 de Lync Server 2013 en todos los grupos de aplicaciones para usuario y servidores Standard Edition de su topología. Si la actualización acumulativa 2 de Lync Server 2013 no está instalada en algunos servidores de Lync de su topología, las restricciones de enrutamiento basadas en la ubicación no se pueden aplicar por completo en las reuniones de Lync ni las transferencias de llamadas Consultiva.
+La aplicación de conferencia de enrutamiento basada en ubicación requiere que se implemente la actualización acumulativa 2 de Lync Server 2013 en todos los grupos de servidores front-end y servidores Standard Edition de la topología. Si Lync Server 2013 la actualización acumulativa 2 no está instalada en algunos servidores de Lync de la topología, las restricciones de enrutamiento basadas en ubicación no se pueden aplicar completamente en las reuniones y las transferencias de llamadas de consultoría de Lync.
 
-En la siguiente tabla se identifica la combinación de las versiones y los roles de servidor que admiten el enrutamiento basado en la ubicación.
+En la siguiente tabla se identifica la combinación de roles de servidor y versiones que admiten el enrutamiento basado en ubicación.
 
 
 <table>
@@ -74,7 +74,7 @@ En la siguiente tabla se identifica la combinación de las versiones y los roles
 <tr class="odd">
 <td><p>Versión del grupo de servidores front-end</p></td>
 <td><p>Versión del servidor de mediación</p></td>
-<td><p>Compatible</p></td>
+<td><p>Admitido</p></td>
 </tr>
 <tr class="even">
 <td><p>Actualización acumulativa 2 de Lync Server 2013</p></td>
@@ -121,47 +121,47 @@ En la siguiente tabla se identifica la combinación de las versiones y los roles
 
 ## <a name="supported-clients"></a>Clientes compatibles
 
-Los clientes de Lync que admiten el enrutamiento basado en la ubicación de las reuniones de Lync son los mismos clientes que admiten el enrutamiento basado en la ubicación 2013 de Lync Server. Para obtener más información, consulte [compatibilidad de cliente y servidor para el enrutamiento basado en la ubicación](lync-server-2013-client-and-server-support-for-location-based-routing.md).
+Los clientes de Lync que admiten el enrutamiento basado en ubicación de las reuniones de Lync son los mismos clientes que admiten el enrutamiento basado en ubicación 2013 de Lync Server. Para obtener más información, consulte [compatibilidad de cliente y servidor para el enrutamiento basado en ubicación](lync-server-2013-client-and-server-support-for-location-based-routing.md).
 
 </div>
 
 <div>
 
-## <a name="mediation-server-requirements-for-consultative-call-transfers"></a>Requisitos del servidor de mediación para las transferencias de llamadas Consultiva
+## <a name="mediation-server-requirements-for-consultative-call-transfers"></a>Requisitos del servidor de mediación para las transferencias de llamadas de consultoría
 
-La aplicación de conferencia de enrutamiento basada en la ubicación requiere la implementación de servidores de mediación independientes para poder aplicar restricciones de enrutamiento basadas en la ubicación en las transferencias de llamadas Consultiva.
+La aplicación de conferencia de enrutamiento basada en ubicación requiere la implementación de servidores de mediación independientes para aplicar restricciones de enrutamiento basadas en la ubicación en las transferencias de llamadas de consultoría.
 
-Para aplicar el enrutamiento basado en la ubicación de las transferencias de llamadas Consultiva, el servidor de mediación debe estar asociado solo con un servidor de mediación del mismo nivel (es decir, PBX, puerta de enlace SIP, etc.) en las regiones de red donde se requiere el enrutamiento basado en la ubicación. Si se implementan pares de servidores de mediación adicionales en la misma región de red, el servidor de mediación del mismo nivel debe estar asociado a un servidor de mediación diferente. Este requisito se detalla de la siguiente manera:
+Para aplicar el enrutamiento basado en la ubicación de las transferencias de llamadas de consulta, el servidor de mediación debe estar asociado solamente a un servidor de mediación del mismo nivel (es decir, PBX, puerta de enlace SIP, etc.) en las regiones de red donde se requiere el enrutamiento basado en ubicación. Si se implementan más del servidor de mediación en la misma región de red, el servidor de mediación del mismo nivel debe estar asociado a un servidor de mediación diferente. Este requisito se detalla a continuación:
 
-  - Servidor de mediación único por punto de servidor de mediación cuando una transferencia de llamada Consultiva se dirige a un servidor de mediación del mismo nivel a través de un servidor de mediación que está configurado con varios troncos SIP a varios colegas (es decir, PBX y puertas de enlace), el consultoría la transferencia de llamadas está bloqueada para evitar un omisión de peaje si la transferencia de llamadas Consultiva está permitida a través de algunos troncos SIP, pero no permitido a través de otros troncos SIP.
+  - Servidor de mediación único por cada punto del servidor de mediación cuando una transferencia de llamada de consulta se enruta a un servidor de mediación del mismo nivel a través de un servidor de mediación configurado con varios troncos SIP a varios interlocutores (es decir, PBX y puertas de enlace), el consultivo la transferencia de llamadas está bloqueada para evitar el desvío de peaje de RTC si se permite la transferencia de llamada consultiva a través de algunos troncos SIP, pero no se permite a través de otros troncos SIP.
     
-    Por ejemplo, en el caso de un único servidor de mediación que atienda un servidor de mediación de puerta de enlace RTC y un servidor de mediación de PBX, se observará el siguiente comportamiento:
+    Por ejemplo, en el caso de un servidor de mediación único que atiende un servidor de mediación de puerta de enlace RTC y un servidor del mismo nivel de mediación de PBX, se observará el siguiente comportamiento:
     
-      - Cuando un usuario de Lync de un sitio determinado (por ejemplo, el sitio 1) intenta transferir una llamada con un punto final de la RTC a un usuario de Lync desde un sitio diferente (por ejemplo, el sitio 2) a través de una transferencia Consultiva, la llamada no se permitirá para evitar la omisión de llamadas RTC.
+      - Cuando un usuario de Lync de un sitio determinado (por ejemplo, el sitio 1) intenta transferir una llamada con un punto de conexión de RTC a un usuario de Lync desde un sitio diferente (por ejemplo, el sitio 2) mediante transferencia Consultiva, la llamada no se permitirá para evitar el desvío de llamadas RTC.
     
-      - Cuando un usuario de Lync de un sitio determinado (es decir, el sitio 1) intenta transferir una llamada con un extremo de PBX en el mismo sitio (sitio 1) a un usuario de Lync desde un sitio diferente (por ejemplo, el sitio 2) a través de una transferencia Consultiva, la llamada no se permitirá incluso si no tiene incurrir en la tol. l.
+      - Cuando un usuario de Lync de un sitio determinado (por ejemplo, el sitio 1) intenta transferir una llamada con un extremo de PBX en el mismo sitio (sitio 1) a un usuario de Lync desde un sitio diferente (por ejemplo, el sitio 2) mediante la transferencia Consultiva, la llamada no se permitirá incluso si no incurre en la tol posible RTC. l omitir.
 
   - Servidores de mediación independientes por servidor de mediación del mismo nivel
     
-    Cuando una transferencia Consultiva se dirige a un interlocutor de servidor de mediación, la transferencia Consultiva se evaluará en relación con el servidor de mediación que atendida el servidor de mediación. La llamada no se permitirá o se autorizará en función de su potencial de incurrir en una omisión de peaje de RTC, independientemente del resto de los servidores de mediación del sitio que sean atendidas por servidores de mediación independientes.
+    Cuando una transferencia de consulta se destina a un servidor de mediación del mismo nivel, la transferencia de consulta se evalúa en el servidor de mediación único que el servidor de mediación presta. La llamada no se permitirá o se permitirá en función de su potencial de incurrir en la omisión de peaje RTC, independientemente del resto de servidores de mediación del sitio que sean proporcionados por servidores de mediación independientes.
     
-    Por ejemplo, en el caso de un servidor de mediación independiente que está atendiendo a un servidor de mediación de puerta de enlace RTC y un servidor de mediación de PBX, se observará el siguiente comportamiento:
+    Por ejemplo, en el caso de los servidores de mediación independientes que atienden un servidor de mediación de puerta de enlace RTC y un servidor del mismo nivel del servidor de mediación de PBX, se observará el siguiente comportamiento:
     
-      - Cuando un usuario de Lync de un sitio determinado (por ejemplo, el sitio 1) intenta transferir una llamada con un punto final de la RTC a un usuario de Lync desde un sitio diferente (por ejemplo, el sitio 2) a través de una transferencia Consultiva, la llamada no se permitirá para evitar la omisión de llamadas RTC.
+      - Cuando un usuario de Lync de un sitio determinado (por ejemplo, el sitio 1) intenta transferir una llamada con un punto de conexión de RTC a un usuario de Lync desde un sitio diferente (por ejemplo, el sitio 2) mediante transferencia Consultiva, la llamada no se permitirá para evitar el desvío de llamadas RTC.
     
-      - Cuando un usuario de Lync de un sitio determinado (por ejemplo, el sitio 1) intenta transferir una llamada con un extremo de PBX en el mismo sitio (sitio 1) a un usuario de Lync desde un sitio diferente (por ejemplo, el sitio 2) a través de una transferencia Consultiva, la llamada se permitirá porque no se produce en el posible omisión de llamadas RTC. Ing.
+      - Cuando un usuario de Lync de un sitio determinado (por ejemplo, el sitio 1) intenta transferir una llamada con un extremo de PBX en el mismo sitio (sitio 1) a un usuario de Lync desde un sitio diferente (por ejemplo, el sitio 2) mediante transferencia Consultiva, la llamada se permitirá porque no incurre en posible omisión de peaje RTC. Ing.
 
 </div>
 
 <div>
 
-## <a name="capabilities-not-supported-by-the-location-based-routing-conferencing-application"></a>Funciones no compatibles con la aplicación de conferencia de enrutamiento basado en ubicación
+## <a name="capabilities-not-supported-by-the-location-based-routing-conferencing-application"></a>Capacidades no compatibles con la aplicación de conferencia de enrutamiento basada en ubicación
 
-Las siguientes características no son compatibles con la aplicación de conferencia de enrutamiento basada en ubicación:
+Las siguientes funciones no son compatibles con la aplicación de conferencia de enrutamiento basada en ubicación:
 
-  - Conferencias de acceso telefónico local. No se puede aplicar el enrutamiento basado en la ubicación para las conferencias de acceso telefónico local. Cualquier solicitud de acceso telefónico a una conferencia determinada no se verá restringida por enrutamiento basado en la ubicación, incluso si el organizador de la Conferencia es un usuario de Lync habilitado para el enrutamiento basado en la ubicación.
+  - Conferencia de acceso telefónico local. No se puede aplicar el enrutamiento basado en ubicación para las conferencias de acceso telefónico local. Cualquier solicitud de acceso telefónico a una conferencia determinada no estará restringida por el enrutamiento basado en ubicación, incluso si el organizador de la Conferencia es un usuario de Lync habilitado para el enrutamiento basado en ubicación.
 
-  - Se recomienda no suministrar números de acceso a la Conferencia en regiones donde sea necesario exigir la aplicación de restricciones de enrutamiento basadas en la ubicación.
+  - Se recomienda no proporcionar los números de acceso de conferencia en las regiones donde se deben aplicar las restricciones de enrutamiento basadas en la ubicación.
 
 </div>
 

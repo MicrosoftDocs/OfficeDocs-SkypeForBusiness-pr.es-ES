@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Característica nueva de correo de voz'
+title: 'Lync Server 2013: nueva característica de correo de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733715
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27dbea942488181eb69695f78713c9e126c32aab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2b7951b0dd9a6841d66c1782322f6c44a4e16d99
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755854"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048421"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-voice-mail-feature-in-lync-server-2013"></a>Característica nueva de correo de voz en Lync Server 2013
+# <a name="new-voice-mail-feature-in-lync-server-2013"></a>Nueva característica de correo de voz en Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41755854"
 
 _**Última modificación del tema:** 2012-10-05_
 
-Lync Server 2013 incluye escape de correo de voz, una mejora para administrar el correo de voz. Esta nueva característica puede detectar cuándo se ha enrutado la llamada al correo de voz y evitar que la llamada se enrute al correo de voz del teléfono móvil del usuario sin dar al usuario la oportunidad de contestar la llamada. Este escenario se produce cuando el usuario habilita llamadas simultáneas a su teléfono móvil y su teléfono móvil está apagado, agotada la batería o fuera de intervalo. El buzón de voz ESC detecta que la llamada fue respondida inmediatamente por el correo de voz del teléfono móvil del usuario y desconecta la llamada al correo de voz del teléfono móvil. La llamada continúa sonando en los otros puntos de conexión del usuario, lo que ofrece al usuario la oportunidad de contestar la llamada. Si el usuario no responde a la llamada, la llamada se dirige al correo de voz de la empresa.
+Lync Server 2013 introduce el escape de correo de voz, una mejora para administrar el correo de voz. Esta nueva característica puede detectar cuando se enruta una llamada al correo de voz y evitar que la llamada se enrute inmediatamente al correo de voz del teléfono móvil del usuario sin ofrecer al usuario la oportunidad de responder la llamada. Este escenario se produce cuando el usuario habilita las llamadas simultáneas en su dispositivo móvil y el teléfono móvil está apagado, no tiene batería o está fuera de intervalo. Voicemail Escape detecta que la llamada fue contestada inmediatamente por el correo de voz el usuario y desconecta la llamada del correo de voz del teléfono móvil. La llamada continúa sonando en el extremo del usuario, ofreciéndole al usuario la oportunidad de responder la llamada. Si el usuario no responde la llamada, esta llamada se enrutará al correo de voz corporativo.
 
 <div>
 
 ## <a name="see-also"></a>Vea también
 
 
-[Configurar el escape del correo de voz en Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md)  
+[Configurar el escape de correo de voz en Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md)  
 
 
-[Nuevas características de la telefonía IP empresarial en Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
+[Nuevas características de Enterprise Voice en Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

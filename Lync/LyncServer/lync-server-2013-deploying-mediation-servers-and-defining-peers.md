@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Implementar servidores de mediación y definir servidores del mismo nivel'
+title: 'Lync Server 2013: implementación de servidores de mediación y definición de homólogos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b20f5e733dddd34971ca3a5070e99364785e147a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e9ca9fa29d2646a38a9cbf94d79ba9766b21d62
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757644"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050652"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-mediation-servers-and-defining-peers-in-lync-server-2013"></a>Implementar servidores de mediación y definir servidores del mismo nivel en Lync Server 2013
+# <a name="deploying-mediation-servers-and-defining-peers-in-lync-server-2013"></a>Implementación de servidores de mediación y definición de pares en Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41757644"
 
 _**Última modificación del tema:** 2012-09-21_
 
-La carga de trabajo de telefonía empresarial, las conferencias de acceso telefónico local y las aplicaciones de voz avanzadas para empresas (aplicación de grupo de respuesta, aplicación de Parque de llamadas, control de admisión de llamadas (CAC), etc.) están disponibles en los grupos de aplicaciones para el usuario. Con Lync Server 2013, la funcionalidad del servidor de mediación está integrada en el servidor front-end. Ya no es necesario un servidor de mediación independiente independiente. Los grupos de aplicaciones para el usuario se pueden comunicar directamente con las puertas de enlace compatibles (una puerta de enlace de red de telefonía pública conmutada (RTC) o una IP-PBX), lo que elimina la necesidad de un servidor de mediación para funcionar como intermediario.
+Los grupos de servidores front-end disponen de la carga de trabajo de Enterprise Voice, la Conferencia de acceso telefónico local y las aplicaciones avanzadas de telefonía IP (aplicación de grupo de respuesta, aplicación de estacionamiento de llamadas, control de admisión de llamadas (CAC), etc.). Con Lync Server 2013, la funcionalidad del servidor de mediación está integrada en el servidor front-end. Un servidor de mediación independiente independiente ya no es necesario. Los grupos de servidores front-end se pueden comunicar directamente con puertas de enlace compatibles (una puerta de enlace de red telefónica conmutada (RTC) o una IP-PBX), lo que elimina la necesidad de que un servidor de mediación sirva como intermediario.
 
-La única excepción es si se configura un tronco SIP para conectar un controlador de borde de sesión en un proveedor de servicios de telefonía por Internet. Para conectar su infraestructura de voz empresarial con su proveedor de troncal de SIP, se debe implementar un servidor de mediación independiente.
+La única excepción es si configura un tronco SIP para conectarse a un controlador de borde de sesión para un proveedor de servicios de telefonía por Internet. Para conectar su infraestructura de telefonía IP empresarial a su proveedor de tronco SIP, se debe implementar un servidor de mediación independiente.
 
-La conexión entre Lync Server (el componente de servidor de mediación en un grupo de servidores front-end o un servidor de mediación independiente) y una puerta de enlace se define como una asociación lógica denominada *troncal*. En los temas de esta sección se describe cómo definir un tronco y cómo implementar un servidor de mediación independiente, si se conecta a un tronco de SIP.
+La conexión entre Lync Server (el componente del servidor de mediación en un grupo de servidores front-end o un servidor de mediación independiente) y una puerta de enlace se define como una asociación lógica llamada *tronco*. En los temas de esta sección se describe cómo definir un tronco y cómo implementar un servidor de mediación independiente, si se conecta a un tronco SIP.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Definir un servidor de mediación en el generador de topología en Lync Server 2013](lync-server-2013-define-a-mediation-server-in-topology-builder.md)
+  - [Definir un servidor de mediación en el generador de topologías de Lync Server 2013](lync-server-2013-define-a-mediation-server-in-topology-builder.md)
 
-  - [Definir una puerta de enlace en el generador de topología de Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md)
+  - [Definir una puerta de enlace en el generador de topologías de Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md)
 
-  - [Instalar los archivos de Media Server en Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md)
+  - [Instalar los archivos del servidor de mediación en Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md)
 
-  - [Definir más troncos en el generador de topología en Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md)
+  - [Definir troncos adicionales en el generador de topologías de Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md)
 
 </div>
 
@@ -61,7 +61,7 @@ La conexión entre Lync Server (el componente de servidor de mediación en un gr
 
 ## <a name="related-sections"></a>Secciones relacionadas
 
-[Configurar una conferencia de acceso telefónico local en Lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
+[Configurar las conferencias de acceso telefónico local en Lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
 
 </div>
 

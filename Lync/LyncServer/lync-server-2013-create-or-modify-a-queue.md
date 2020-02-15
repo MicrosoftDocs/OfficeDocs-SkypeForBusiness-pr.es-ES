@@ -12,16 +12,16 @@ ms:contentKeyID: 48185247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77bad1729c67c363dc56eaf8788e57caabd51876
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e1db2211f174c18c160262c1f62c55a178b2cda4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722430"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045923"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41722430"
 
 _**Última modificación del tema:** 2013-02-23_
 
-Use uno de los procedimientos siguientes para crear o modificar una cola.
+Use uno de los siguientes procedimientos para crear o modificar una cola.
 
 <div>
 
 ## <a name="to-use-lync-server-control-panel-to-create-or-modify-a-queue"></a>Para usar el panel de control de Lync Server para crear o modificar una cola
 
-1.  Inicie sesión como miembro del grupo RTCUniversalServerAdmins o como miembro de uno de los roles administrativos predefinidos que admiten el Grupo de respuesta.
+1.  Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
     
     <div>
     
@@ -54,74 +54,74 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
     </div>
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **Grupos de respuesta** y luego en **Cola**.
+3.  En la barra de navegación izquierda, haga clic en **Grupos de respuesta** y, a continuación, en **Cola**.
 
-4.  En la página **Cola**, lleve a cabo alguna de estas acciones:
+4.  En la página **cola** , lleve a cabo uno de los procedimientos siguientes:
     
-      - Para crear una cola nueva, haga clic en **Nuevo**. En **Seleccionar un servicio**, escriba total o parcialmente el nombre del servicio **ApplicationServer** en cuyo campo de búsqueda desea agregar la cola. En la lista de servicios que aparezca, haga clic en el servicio que desea y en **Aceptar**.
+      - Para crear una nueva cola, haga clic en **nuevo**. En **seleccionar un servicio**, escriba la parte o la totalidad del nombre del servicio **ApplicationServer** en el que desea agregar la cola en el campo de búsqueda. En la lista de resultados que aparece, haga clic en el servicio que desea y en **Aceptar**.
     
-      - Para modificar una cola actual, escriba total o parcialmente el nombre de la cola en el campo de búsqueda. En la lista de colas que aparezca, haga clic sucesivamente en la cola que desea, **Editar** y **Mostrar detalles**.
+      - Para modificar una cola existente, escriba todo o parte del nombre de la cola en el campo de búsqueda. En la lista resultante de colas, haga clic en la cola que desee, haga clic en **Editar**y, a continuación, haga clic en **Mostrar detalles**.
 
-5.  En **Nombre**, escriba un nombre de identificación para la cola.
+5.  En **nombre**, escriba un nombre de identificación para la cola.
 
-6.  En **Descripción**, escriba la descripción de la cola.
+6.  En **Descripción**, escriba una descripción para la cola.
 
-7.  En **Grupos**, especifique los grupos que desea asignar a la cola. Lleve a cabo una de estas acciones:
+7.  En **grupos**, especifique los grupos que desea asignar a la cola. Realice una de las acciones siguientes:
     
-      - Para agregar un grupo a la cola, haga clic en **Seleccionar**. En el campo de búsqueda **Seleccionar grupos**, escriba total o parcialmente el nombre del grupo de agentes que desea asignar a la cola. A continuación, haga clic en el grupo de agentes que desea y en **Aceptar**.
+      - Para agregar un grupo a la cola, haga clic en **seleccionar**. En el campo de búsqueda **seleccionar grupos** , escriba todo o parte del nombre del grupo de agentes que desee asignar a la cola, haga clic en el grupo de agentes que desee y, a continuación, haga clic en **Aceptar**.
     
-      - Para quitar un grupo de la cola, en la lista de grupos de agentes, haga clic en el grupo que desea quitar y en **Aceptar**.
+      - Para quitar un grupo de la cola, en la lista de grupos de agentes, haga clic en el grupo que desea quitar y, a continuación, haga clic en **quitar**.
     
-      - Para cambiar el orden en el que se buscan los agentes, en la lista de grupos de agentes, haga clic en un grupo y en la flecha arriba o abajo.
+      - Para cambiar el orden en el que se buscan los agentes, en la lista de grupos de agentes, haga clic en un grupo y, a continuación, haga clic en la flecha hacia arriba o hacia abajo.
         
         <div>
         
 
         > [!NOTE]  
-        > Cuando el servidor busca un agente disponible en la cola, usa el orden de grupo. Es decir, busca primero en el primer grupo de la lista, después en el segundo grupo y así sucesivamente.
+        > Cuando el servidor busca un agente disponible para la cola, utiliza el orden de grupo. Es decir, se busca primero en el primer grupo de la lista, después en el segundo grupo de la lista y así sucesivamente.
 
         
         </div>
 
-8.  Para especificar un período máximo de tiempo de espera para el autor de una llamada antes de que un agente responda, active la casilla **Habilitar tiempo de espera de cola** y haga lo siguiente:
+8.  Para especificar un período de tiempo máximo de espera para el autor de una llamada antes de que un agente le atienda, active la casilla **Habilitar tiempo de espera de la cola**.
     
-    1.  En **Período de tiempo de espera (segundos)**, especifique el número máximo de segundos que el autor de una llamada debe esperar hasta que un agente responda.
+    1.  En **Tiempo de espera (segundos)**, especifique el número máximo de segundos que va a esperar el autor de una llamada para que le atienda un agente.
     
-    2.  En **Acción de llamada**, seleccione la acción que debe producirse cuando se agote el tiempo de espera de una llamada:
+    2.  En **Acción de llamada**, seleccione la acción que va a tener lugar cuando se agota el tiempo de espera de una llamada de la forma siguiente:
     
     <!-- end list -->
     
-      - Para desconectar la llamada una vez transcurrido el tiempo de espera, haga clic en **Desconectar**.
+      - Para desconectar la llamada tras el tiempo de espera, haga clic en **Desconectar**.
     
-      - Para desviar la llamada al correo de voz, haga clic en **reenviar al correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una\<dirección\>@\<de\> correo de voz con el formato SIP: nombreusuario nombreDeDominio (por ejemplo, SIP:Bob@contoso.com).
+      - Para reenviar la llamada al correo de voz, haga clic en **desviar a correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una\<dirección\>@\<de\> correo de voz con el formato SIP: username domainname (por ejemplo, SIP:Bob@contoso.com).
     
-      - Para desviar la llamada a otro número de teléfono, haga clic en **reenviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba\<el\>@\<número\> de teléfono en el formato SIP: Number domainname (por ejemplo, SIP:+14255550121@contoso.com).
+      - Para reenviar la llamada a otro número de teléfono, haga clic en **desviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba\<el\>@\<número\> de teléfono con el formato SIP: Number domainname (por ejemplo, SIP:+14255550121@contoso.com).
     
-      - Para desviar la llamada a otro usuario, haga clic en **reenviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI para el\<usuario\>@\<con\>el formato SIP: nombreusuario nombreDeDominio.
+      - Para reenviar la llamada a otro usuario, haga clic en **desviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI del usuario\<con\>@\<el\>formato SIP: nombreusuario nombredominio.
     
-      - Para reenviar la llamada a otra cola, haga clic en **Desviar a otra cola** y busque la cola que desea usar.
+      - Para desviar la llamada a otra cola, haga clic en **Desviar a otra cola** y, a continuación, vaya a la cola que desee utilizar.
 
-9.  Para especificar el número máximo de llamadas que se pueden incluir en una cola, active la casilla **Habilitar desbordamiento de cola** y haga lo siguiente:
+9.  Para especificar un número máximo de llamadas que puede contener la cola, active la casilla **Permitir desbordamiento de cola** y siga este procedimiento:
     
-    1.  En **Número máximo de llamadas**, seleccione el número máximo de llamadas que desea incluir en la cola.
+    1.  En **Número máximo de llamadas**, seleccione el número máximo de llamadas que desea que contenga la cola.
     
-    2.  En **Desviar la llamada**, seleccione la llamada que desea reenviar cuando la cola está completa: **Llamada más reciente** o **Llamada más antigua**.
+    2.  En **Desviar la llamada**, seleccione la llamada que se va a desviar cuando la cola esté llena. **Llamada más reciente** o **Llamada más antigua**.
     
-    3.  En **Acción de llamada**, seleccione la acción que debe producirse cuando se alcance el umbral de desbordamiento conforme a lo siguiente:
+    3.  En **acción de llamada**, seleccione la acción que debe producirse cuando se alcance el umbral de desbordamiento de la siguiente manera:
     
     <!-- end list -->
     
-      - Para desconectar la llamada una vez transcurrido el tiempo de espera, haga clic en **Desconectar**.
+      - Para desconectar la llamada tras el tiempo de espera, haga clic en **Desconectar**.
     
-      - Para desviar la llamada al correo de voz, haga clic en **reenviar al correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una\<dirección\>@\<de\> correo de voz con el formato SIP: nombreusuario nombreDeDominio (por ejemplo, SIP:Bob@contoso.com).
+      - Para reenviar la llamada al correo de voz, haga clic en **desviar a correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una\<dirección\>@\<de\> correo de voz con el formato SIP: username domainname (por ejemplo, SIP:Bob@contoso.com).
     
-      - Para desviar la llamada a otro número de teléfono, haga clic en **reenviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba\<el\>@\<número\> de teléfono en el formato SIP: Number domainname (por ejemplo, SIP:+14255550121@contoso.com).
+      - Para reenviar la llamada a otro número de teléfono, haga clic en **desviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba\<el\>@\<número\> de teléfono con el formato SIP: Number domainname (por ejemplo, SIP:+14255550121@contoso.com).
     
-      - Para desviar la llamada a otro usuario, haga clic en **reenviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI para el\<usuario\>@\<con\>el formato SIP: nombreusuario nombreDeDominio.
+      - Para reenviar la llamada a otro usuario, haga clic en **desviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI del usuario\<con\>@\<el\>formato SIP: nombreusuario nombredominio.
     
-      - Para reenviar la llamada a otra cola, haga clic en **Desviar a otra cola** y busque la cola que desea usar.
+      - Para desviar la llamada a otra cola, haga clic en **Desviar a otra cola** y, a continuación, vaya a la cola que desee utilizar.
 
 10. Haga clic en **Confirmar**.
 
@@ -131,20 +131,20 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
 
 ## <a name="to-use-windows-powershell-to-create-or-modify-a-queue"></a>Para usar Windows PowerShell para crear o modificar una cola
 
-1.  Inicie sesión como miembro del grupo RTCUniversalServerAdmins o como miembro de uno de los roles administrativos predefinidos que admiten el Grupo de respuesta.
+1.  Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
     
     <div>
     
 
     > [!NOTE]  
-    > Si es uno de los administradores delegados del grupo de respuesta de un flujo de trabajo administrado, puede crear colas y grupos de agentes, y asignar estos grupos a las colas.
+    > Si es uno de los administradores del grupo de respuesta delegado de un flujo de trabajo administrado, podrá crear colas y grupos de agentes, y asignar grupos de agentes a las colas.
 
     
     </div>
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-3.  Cree el aviso que debe reproducirse cuando se alcance el umbral de tiempo de espera de la cola y guárdelo en una variable. En la línea de comandos, ejecute:
+3.  Cree el mensaje que se reproducirá cuando se alcance el umbral de tiempo de espera de la cola y guárdelo en una variable. En la línea de comandos, ejecute:
     
         $promptTO = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
@@ -161,7 +161,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
     </div>
 
-4.  Defina la acción que debe realizarse cuando se alcance el umbral de tiempo de espera de la cola y guárdela en una variable. En la línea de comandos ejecute:
+4.  Defina la acción que se llevará a cabo cuando se alcance el umbral de tiempo de espera de la cola y guárdela en una variable. En la línea de comandos, ejecute:
     
         $actionTO = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
@@ -169,7 +169,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
 
     > [!NOTE]  
-    > Para obtener detalles sobre las posibles acciones y su sintaxis, vea <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
+    > Para obtener más información sobre las posibles acciones y su sintaxis, consulte <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
 
     
     </div>
@@ -178,7 +178,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
         $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
 
-5.  Cree el aviso que debe reproducirse cuando se alcance el umbral de desbordamiento de la cola y guárdelo en una variable. En la línea de comandos, ejecute:
+5.  Cree el mensaje que se reproducirá cuando se alcance el umbral de desbordamiento de la cola y guárdelo en una variable. En la línea de comandos, ejecute:
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
@@ -195,7 +195,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
     </div>
 
-6.  Defina la acción que debe realizarse cuando se alcance el umbral de desbordamiento de la cola y guárdela en una variable. En la línea de comandos ejecute:
+6.  Defina la acción que se llevará a cabo cuando se alcance el umbral de desbordamiento de la cola y guárdelo en una variable. En la línea de comandos, ejecute:
     
         $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
@@ -203,7 +203,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
 
     > [!NOTE]  
-    > Para obtener detalles sobre las posibles acciones y su sintaxis, vea <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
+    > Para obtener más información sobre las posibles acciones y su sintaxis, consulte <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
 
     
     </div>
@@ -212,11 +212,11 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
         $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
 
-7.  Recupere el nombre de servicio del servicio Grupo de respuestas y asígnelo a una variable. En la línea de comandos, ejecute:
+7.  Recupere el nombre del servicio para el servicio del grupo de respuesta y asígnelo a una variable. En la línea de comandos, ejecute:
     
         $serviceId="service:"+(Get-CSService | ?{$_.Applications -Like "*RGS*"}).ServiceId;
 
-8.  Obtenga la identidad del grupo de agentes que debe asignarse a la cola. En la línea de comandos, ejecute:
+8.  Obtiene la identidad del grupo de agentes que se va a asignar a la cola. En la línea de comandos, ejecute:
     
         $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;
     
@@ -224,7 +224,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
 
     > [!NOTE]  
-    > Para obtener más información sobre cómo crear el grupo agente, consulte <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A>
+    > Para obtener más información sobre cómo crear el grupo de agentes, consulte <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A>
 
     
     </div>
@@ -237,7 +237,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
         $q = New-CsRgsQueue -Parent $serviceId -Name "Help Desk" -Description "Contoso Help Desk" -TimeoutThreshold 300 -TimeoutAction $actionTO -OverflowThreshold 10 -OverflowCandidate NewestCall -OverflowAction $actionOV -AgentGroupIDList($agid.Identity;
 
-10. Confirme que la cola se ha creado. Ejecute:
+10. Confirme que se ha creado la cola. Realizar
     
         Get-CsRgsQueue -Name "Help Desk"
 
@@ -248,12 +248,12 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
 ## <a name="see-also"></a>Vea también
 
 
-[Nuevo: CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)  
+[New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)  
 [Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Set-CsRgsQueue)  
 [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt)  
-[Nuevo: CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)  
+[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)  
 [Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsQueue)  
-[Importar-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
 [Remove-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Remove-CsRgsQueue)  
   
 

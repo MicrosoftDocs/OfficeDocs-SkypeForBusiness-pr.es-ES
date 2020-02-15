@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: planificación e implementación de video'
+title: 'Lync Server 2013: Planeación e implementación de vídeo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185558
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2662a6397bc096969ca73baab096bc886de65ce3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3938ca54278f71d8f51ecacfe3fdc3278ec59679
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755160"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050262"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-and-deploying-video-in-lync-server-2013"></a>Planificación e implementación de vídeo en Lync Server 2013
+# <a name="planning-and-deploying-video-in-lync-server-2013"></a>Planeación e implementación de vídeo en Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41755160"
 
 _**Última modificación del tema:** 2012-10-02_
 
-Lync Server 2013 presenta las siguientes características nuevas de vídeo:
+Lync Server 2013 presenta las siguientes características de vídeo nuevas:
 
-  - ****   Los usuarios de video de alta definición pueden experimentar resoluciones de alta definición (HD) completas (es decir, 1920 x 1080) en llamadas de dos participantes y en conferencias de varias partes.
+  - **Vídeo HD los**   usuarios pueden experimentar resoluciones de hasta alta definición completa (HD) (es decir, 1920 x 1080) en llamadas de dos participantes y conferencias con varios participantes.
 
-  - **Vista de Galería**   en las videoconferencias que tengan más de dos personas, los usuarios pueden ver vídeos de los participantes de la Conferencia. Si la Conferencia tiene más de cinco participantes, el vídeo de los participantes más activos aparecerá en la fila superior y se mostrará una foto para el resto de los participantes.
+  - **Vista de Galería**   en videoconferencias que tienen más de dos personas, los usuarios pueden ver vídeos de los participantes de la Conferencia. Si la conferencia tiene más de cinco participantes, en la fila superior aparecerán solo los vídeos de los participantes más activos, y una foto para los demás participantes.
 
-  - **Vídeo h. 264**   el códec de vídeo h. 264 es ahora el predeterminado para la codificación de video en clientes de Lync 2013. El video H. 264 soporta una mayor variedad de resoluciones y velocidades de fotogramas, y mejora la escalabilidad de video.
+  - **Vídeo h. 264**   el códec de vídeo h. 264 ahora es el predeterminado para la codificación de vídeo en clientes de Lync 2013. El vídeo H.264 admite un rango mayor de resoluciones y velocidades de fotogramas y mejora la escalabilidad del vídeo.
     
     <div>
     
 
     > [!NOTE]  
-    > Lync Server 2013 aún admite el códec VC1 para la interoperabilidad con versiones anteriores de Lync. Para obtener detalles e información general sobre el nuevo códec de vídeo, consulte el artículo del blog de Jeff Schertz, "interoperabilidad de vídeo <A class=uri href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</A>en Lync 2013", en.
+    > Lync Server 2013 todavía admite el códec VC1 para la interoperabilidad con versiones anteriores de Lync. Para obtener detalles e información general sobre el nuevo códec de vídeo, consulte el artículo del blog de Jeff Schertz, "interoperabilidad de vídeo <A class=uri href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</A>en Lync 2013," en.
 
     
     </div>
@@ -66,7 +66,7 @@ En esta sección se describe cómo administrar el ancho de banda para vídeo en 
 
   - [Configuración de escenarios de ejemplo de vídeo para Lync Server 2013](lync-server-2013-configuring-video-example-scenarios.md)
 
-  - [Consideraciones de interoperabilidad para videoconferencias en Lync Server 2013](lync-server-2013-interoperability-considerations-for-video-conferencing.md)
+  - [Consideraciones sobre interoperabilidad para la Conferencia de vídeo en Lync Server 2013](lync-server-2013-interoperability-considerations-for-video-conferencing.md)
 
 </div>
 

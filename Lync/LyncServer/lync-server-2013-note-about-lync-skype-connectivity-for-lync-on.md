@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Nota acerca de Lync: conectividad de Skype para Lync en'
+title: 'Lync Server 2013: tenga en cuenta la conectividad entre Lync y Skype para Lync en'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 57793359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 053c29573ccac6a67473db8ba46b80cf1cdf3dcc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e95feccab663798914ac054a1c6117bf3845481d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755844"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049952"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="note-about-lync-skype-connectivity-in-lync-server-2013-for-lync-online-customers"></a>Nota acerca de Lync: conectividad de Skype en Lync Server 2013 para clientes de Lync Online
+# <a name="note-about-lync-skype-connectivity-in-lync-server-2013-for-lync-online-customers"></a>Nota sobre la conectividad entre Lync y Skype en Lync Server 2013 para clientes de Lync Online
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41755844"
 
 _**Última modificación del tema:** 2013-09-23_
 
-Este documento se ha escrito para ayudar a los administradores locales de Lync Server a configurar la conectividad de Skype en Lync.Lync: la conectividad de Skype también es una característica de Lync Online, que forma parte de Office 365. Puede habilitar la característica Lync-conectividad de Skype desde el centro de administración de Lync en el portal de Office 365.
+Este documento se ha escrito para ayudar a los administradores locales de Lync Server a configurar la conectividad entre Lync y Skype.La conectividad de Lync y Skype también es una característica de Lync Online, que forma parte de Office 365. Puede habilitar la característica Lync-Skype Connectivity desde el centro de administración de Lync en el portal de Office 365.
 
-Para Office 365 mediana empresa, Office 365 Enterprise, Office 365 educación y Office 365 para administración pública: inicie sesión en el portal de Office 365 y vaya al **centro de administración de Lync**. Vaya a **comunicaciones externas**. En **proveedores de servicios de mensajería instantánea pública**, haga clic en **Habilitar**. Si desea controlar el acceso de usuarios individuales a la conectividad entre Lync y Skype, puede hacerlo modificando la configuración de comunicaciones externas de cada usuario.
+Para Office 365 mediana empresa, Office 365 Enterprise, Office 365 Education y Office 365 para administración pública: inicie sesión en el portal de Office 365 y navegue al **centro de administración de Lync**. Vaya a **comunicaciones externas**. En **proveedores de servicios de mensajería instantánea pública**, haga clic en **Habilitar**. Si desea controlar el acceso de usuarios individuales a la conectividad entre Lync y Skype, puede hacerlo si modifica la configuración de las comunicaciones externas de los usuarios individuales.
 
-Para Office 365 pequeña empresa Premium: inicie sesión en Office 365 y vaya a **configuración \> del \> servicio de administración mensajería instantánea, reuniones y conferencias**. Activar las comunicaciones externas. El conmutador de comunicaciones externo activa conectividad de Lync y comunicaciones con otras organizaciones que usan Lync. Según el momento en que comenzó a usar Lync Online, el conmutador de comunicaciones externas en un estado "activo" puede indicar inicialmente que solo se activen las comunicaciones con otras organizaciones de Lync. Para activar la conectividad de Skype en Lync, simplemente desactive el conmutador y vuelva a encenderlo.
+Para Office 365 Small Business Premium: inicie sesión en Office 365 y vaya a **configuración \> del \> servicio de administración mensajería instantánea, reuniones y conferencias**. Active las comunicaciones externas. El conmutador de comunicaciones externas activa tanto la conectividad de Lync-Skype como las comunicaciones con otras organizaciones que usan Lync. En función de Cuándo empezó a usar Lync Online, el conmutador de comunicaciones externas en un estado "ON" puede indicar inicialmente que solo se activan las comunicaciones con otras organizaciones de Lync. Para activar la conectividad de Lync y Skype, simplemente vuelva a activar el conmutador y, a continuación, vuelva a encenderlo.
 
 </div>
 

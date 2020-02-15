@@ -12,16 +12,16 @@ ms:contentKeyID: 48184663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 698686dd217bf16457e4c3f4ebe6867566dcf49d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 65620e07227581f35e5760e8665e615c6976bde2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738580"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048274"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41738580"
 
 _**Última modificación del tema:** 2012-10-19_
 
-Puede validar la replicación de la información de configuración en el servidor perimetral ejecutando el cmdlet **Get-CsManagementStoreReplicationStatus** de Lync Server 2013 en el equipo interno en el que se encuentra el almacén de administración central o en cualquier equipo de dominio Unido en el que estén instalados los componentes básicos de lync Server 2013.
+Para validar la replicación de la información de configuración en el servidor perimetral, ejecute el cmdlet **Get-CsManagementStoreReplicationStatus** de lync Server 2013 en el equipo interno en el que se encuentra el almacén de administración central o en cualquier equipo unido al dominio en el que se hayan instalado los componentes principales de Lync Server 2013.
 
-Los resultados iniciales pueden indicar que el estado es "false" en lugar de "true" para la replicación. En ese caso, ejecute el cmdlet **Invoke-CsManagementStoreReplication** y deje que se complete la replicación antes de volver a ejecutar el cmdlet **Get-CsManagementStoreReplicationStatus** .
+Los resultados iniciales pueden indicar el estado como "False" en lugar de "True" para la replicación. En ese caso, ejecute el cmdlet **Invoke-CsManagementStoreReplication** y deje tiempo para que se complete la replicación antes de ejecutar el cmdlet **Get-CsManagementStoreReplicationStatus** de nuevo .
 
 </div>
 

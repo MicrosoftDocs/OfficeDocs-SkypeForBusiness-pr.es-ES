@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: nueva característica de recogida de llamadas grupales'
+title: 'Lync Server 2013: nueva característica de recogida de llamadas de grupo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541478
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e42884d3880fa1a31c96d9a25676b5ceecd8313
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 566ef914236cfde9cb00c28c667189ebb6d1556f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758642"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048471"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a>Nueva característica de selección de llamadas grupales en Lync Server 2013
+# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a>Nueva característica de recogida de llamadas de grupo en Lync Server 2013
 
 </div>
 
@@ -37,16 +37,16 @@ ms.locfileid: "41758642"
 
 _**Última modificación del tema:** 2013-02-12_
 
-Actualizaciones acumulativas para Lync Server 2013: febrero de 2013 presenta la recogida de llamadas grupales como una nueva característica de voz empresarial. Con la recogida de llamadas grupales, puedes asignar usuarios a grupos para que otros usuarios puedan contestar las llamadas entrantes a los usuarios del grupo desde sus propios teléfonos.
+Actualizaciones acumulativas para Lync Server 2013: febrero de 2013 introduce la llamada de grupo como una nueva característica de telefonía IP empresarial. Con la atención de llamadas de grupo, puede asignar usuarios a grupos para que otros usuarios puedan responder llamadas entrantes a los usuarios que están en el grupo desde sus propios teléfonos.
 
-La recogida de llamadas grupales se basa en la aplicación de estacionamiento de llamadas. Para la recogida de llamadas grupales, al igual que en el parque de llamadas, puede configurar un intervalo de números virtuales para usar como números de grupo. Un usuario marca el número de grupo para atender una llamada que está sonando por otro usuario del grupo.
+La recogida de llamadas de grupo se basa en la aplicación de estacionamiento de llamadas. Para la atención de llamadas grupales, al igual que con el estacionamiento de llamadas, puede configurar un intervalo de números virtuales para usarlos como números de grupo. Un usuario marca el número de grupo para seleccionar una llamada que está sonando para otro usuario que se encuentra en el grupo.
 
 <div>
 
 ## <a name="see-also"></a>Vea también
 
 
-[Planificación de la recogida de llamadas grupales en Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)  
+[Planeación de la recogida de llamadas grupales en Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Nuevas funciones de las aplicaciones de grupo de respuesta'
+title: 'Lync Server 2013: nuevas características de la aplicación de grupo de respuesta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184196
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bddf1f670ef2a0a246100564962b2f69db741186
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f98261aaf40413c52598465338c9c198aca435f9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755904"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048314"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-response-group-application-features-in-lync-server-2013"></a>Nuevas funciones de las aplicaciones de grupo de respuesta en Lync Server 2013
+# <a name="new-response-group-application-features-in-lync-server-2013"></a>Nuevas características de aplicación de grupo de respuesta en Lync Server 2013
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41755904"
 
 _**Última modificación del tema:** 2012-10-29_
 
-Con la aplicación de grupo de respuesta, puede enrutar y poner en cola las llamadas entrantes a personas designadas para fines especiales, como el servicio de atención al cliente, una asistencia interna o asistencia telefónica general para un departamento.
+La aplicación de grupo de respuesta permite enrutar y poner en cola llamadas entrantes para personas designadas para fines especiales, como el servicio al cliente, un servicio de asistencia interno o un teléfono general de asistencia para un departamento.
 
 Las siguientes características de la aplicación de grupo de respuesta son nuevas en Lync Server 2013:
 
   - **Rol de administrador**
     
-    Lync Server 2013 introduce un nuevo rol de administrador de grupo de respuesta. Ahora hay dos roles de administración para los grupos de respuesta: administrador de grupo de respuesta y administrador del grupo de respuesta. Mientras que los administradores de grupos de respuesta aún pueden configurar cualquier elemento para cualquier grupo de respuesta, los administradores solo pueden configurar determinados elementos, solo para los grupos de respuesta de los que son propietarios.
+    Lync Server 2013 presenta un nuevo rol de administrador de grupo de respuesta. Ahora hay dos funciones de administración para los grupos de respuesta: administrador del grupo de respuesta y administrador del grupo de respuesta. Mientras que los administradores de grupos de respuesta pueden seguir configurando cualquier elemento para cualquier grupo de respuesta, los administradores pueden configurar únicamente determinados elementos sólo para los grupos de respuesta de los que son propietarios.
     
-    Esta mejora en el modelo de administración beneficia la escalabilidad de grupos de respuesta, especialmente para escenarios de implementación grandes.
+    Esta mejora en el modelo de administración beneficia la escalabilidad del grupo de respuesta, especialmente en los escenarios de grandes implementaciones.
 
   - **Alta disponibilidad**
     
-    La compatibilidad de alta disponibilidad para la aplicación de grupo de respuesta, en forma de reflejo de SQL Server, está habilitada como parte de la configuración general e implementación de la alta disponibilidad de Lync Server 2013. Si configura para alta disponibilidad y pierde conectividad con el servidor back-end principal, la funcionalidad de grupo de respuesta no se ve afectada por el uso del servidor de servicios de fondo reflejado.
+    La compatibilidad de alta disponibilidad para la aplicación de grupo de respuesta, en forma de reflejo de SQL Server, está habilitada como parte de la configuración general e implementación de alta disponibilidad para Lync Server 2013. Si configura para alta disponibilidad y pierde la conectividad con el servidor back-end principal, el aprovechamiento del servidor reflejado no afecta a las funciones del grupo de respuesta.
     
-    La compatibilidad con el reflejo de SQL Server para la aplicación de grupo de respuesta no se puede habilitar o configurar individualmente fuera de la configuración general de alta disponibilidad de Lync Server 2013.
+    La compatibilidad con la creación de reflejos de SQL Server para la aplicación de grupo de respuesta no se puede habilitar o configurar de forma individual fuera de la configuración general de alta disponibilidad de Lync Server 2013.
 
   - **Recuperación ante desastres**
     
-    La compatibilidad de recuperación ante desastres para la aplicación de grupo de respuesta está habilitada como parte de la configuración e implementación de las agrupaciones frontales emparejadas, que forman parte de la configuración general de recuperación ante desastres de Lync Server 2013. Además, los cmdlets de importación y exportación de grupos de respuesta admiten el proceso de conmutación por error para el grupo de copia de seguridad y el proceso de recuperación tras error al grupo principal o a un grupo nuevo. Si se produce una interrupción en el grupo principal, los grupos de respuesta pueden conmutar por error al grupo de copias de seguridad y, después, devolver el error al grupo principal o a un nuevo grupo cuando haya finalizado la interrupción.
+    La compatibilidad de recuperación ante desastres para la aplicación de grupo de respuesta está habilitada como parte de la configuración e implementación de los grupos de servidores front-end emparejados, que forman parte de la configuración general de recuperación ante desastres de Lync Server 2013. Además, los cmdlets de importación y exportación de grupos de respuesta admiten el proceso de conmutación por error al grupo de copia de seguridad y el proceso de conmutación por recuperación al grupo principal o a un nuevo grupo. Si se produce una interrupción en el grupo principal, los grupos de respuesta pueden conmutarse por error al grupo de copia de seguridad y luego conmutarse por recuperación al grupo principal o a un nuevo grupo cuando finalice la interrupción.
 
 <div id="sectionSection0" class="section">
 
@@ -66,7 +66,7 @@ Las siguientes características de la aplicación de grupo de respuesta son nuev
 ## <a name="see-also"></a>Vea también
 
 
-[Planificar para grupos de respuesta en Lync Server 2013](lync-server-2013-planning-for-response-groups.md)  
+[Planeación de grupos de respuesta en Lync Server 2013](lync-server-2013-planning-for-response-groups.md)  
   
 
 </div>

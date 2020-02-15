@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ver información de ruta de la región de red'
+title: 'Lync Server 2013: visualización de información de ruta de región de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8299bd598edf18b7ed7f06088e4bfbbcebab354
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d6acf4fbc1766adbe2c2a14a28cfbeef16f199b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757374"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046183"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-region-route-information-in-lync-server-2013"></a>Ver información de ruta de la región de red en Lync Server 2013
+# <a name="viewing-network-region-route-information-in-lync-server-2013"></a>Ver información de ruta de región de red en Lync Server 2013
 
 </div>
 
@@ -37,44 +37,44 @@ ms.locfileid: "41757374"
 
 _**Última modificación del tema:** 2013-02-23_
 
-Cada región dentro de una configuración de control de admisión de llamadas (CAC) debe tener alguna forma de tener acceso a todas las demás regiones. Aunque los vínculos de región establecen limitaciones de ancho de banda en las conexiones entre las regiones y también representan los vínculos físicos, una ruta determina qué ruta de acceso vinculada pasará la conexión de una región a otra. Use los procedimientos siguientes para ver las rutas de la región de red existente en el panel de control de Lync Server 2013 o en el shell de administración de Lync Server 2013. Para obtener detalles sobre cómo crear o modificar rutas de regiones de red, vea [crear o modificar rutas de región de red en Lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md).
+Todas las regiones dentro de una configuración de control de admisión de llamadas (CAC) deben poder obtener acceso de alguna forma a todas las demás regiones. Mientras que los vínculos regionales establecen las limitaciones de ancho de banda de las conexiones entre regiones y también representan los vínculos físicos, las rutas determinan la ruta de acceso vinculada que atravesará la conexión de una región a otra. Use los siguientes procedimientos para ver las rutas de región de red existentes en el panel de control de Lync Server 2013 o el shell de administración de Lync Server 2013. Para obtener información detallada sobre cómo crear o modificar rutas de región de red, vea [crear o modificar rutas de regiones de red en Lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md).
 
 <div>
 
-## <a name="to-view-network-region-route-information-in-lync-server-control-panel"></a>Para ver la información de ruta de la región de red en el panel de control de Lync Server
+## <a name="to-view-network-region-route-information-in-lync-server-control-panel"></a>Para ver la información de ruta de región de red en el panel de control de Lync Server
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **configuración de red** y luego en **ruta de región**.
+3.  En la barra de navegación izquierda, haga clic en  **Configuración de red ** y, a continuación, en **Ruta de región **.
 
-4.  En la página Ruta de la **región** , haga clic en la ruta de la región que desea ver.
+4.  En la página **Ruta de región**, haga clic en la ruta regional que desea ver.
     
     <div>
     
 
     > [!NOTE]  
-    > Solo puedes ver una ruta de región a la vez.
+    > Solo puede ver una ruta regional cada vez.
 
     
     </div>
 
-5.  En el menú **Editar**, haga clic en **Mostrar detalles**.
+5.  En el menú  **Editar **, haga clic en  **Mostrar detalles **.
 
 </div>
 
 <div>
 
-## <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>Ver la información de ruta de la región de red con cmdlets de Windows PowerShell
+## <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>Visualización de información de rutas de región de red mediante cmdlets de Windows PowerShell
 
-La información de ruta de la región de red se puede ver con Windows PowerShell y el cmdlet Get-CsNetworkInterRegionRoute. Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+La información de ruta de región de red se puede ver con Windows PowerShell y el cmdlet Get-CsNetworkInterRegionRoute. Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
 <div>
 
-## <a name="to-view-network-region-route-information"></a>Para ver la información de ruta de la región de red
+## <a name="to-view-network-region-route-information"></a>Para ver la información de ruta de región de red
 
-  - Para ver información sobre todas las rutas de la región de red, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:
+  - Para ver información sobre todas las rutas de región de red, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:
     
         Get-CsNetworkInterRegionRoute
     
@@ -88,7 +88,7 @@ La información de ruta de la región de red se puede ver con Windows PowerShell
 
 </div>
 
-Para obtener más información, consulte el tema de ayuda para el cmdlet [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute) .
+Para obtener más información, vea el tema de la Ayuda para el cmdlet [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute).
 
 </div>
 
@@ -97,8 +97,8 @@ Para obtener más información, consulte el tema de ayuda para el cmdlet [Get-Cs
 ## <a name="see-also"></a>Vea también
 
 
-[Crear o modificar rutas de región de red en Lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md)  
-[Eliminar las rutas de la región de red existente en Lync Server 2013](lync-server-2013-deleting-existing-network-region-routes.md)  
+[Creación o modificación de rutas de región de red en Lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md)  
+[Eliminación de rutas de región de red existentes en Lync Server 2013](lync-server-2013-deleting-existing-network-region-routes.md)  
   
 
 </div>
