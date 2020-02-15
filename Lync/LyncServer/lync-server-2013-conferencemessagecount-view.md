@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: vista ConferenceMessageCount'
+title: 'Lync Server 2013: vista de ConferenceMessageCount'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73944e1561b88301b740fcb52cf301645154c6e7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f94e824b18cab71fe1329ffcad1c836df6d46ebd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741620"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049071"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41741620"
 
 _**Última modificación del tema:** 2012-10-01_
 
-La vista ConferenceMessageCount almacena información acerca de cuántos mensajes envió un usuario a una conferencia. Esta vista se presentó en Microsoft Lync Server 2013.
+La vista ConferenceMessageCount almacena información acerca del número de mensajes enviados por un usuario a una conferencia. Esta vista se introdujo en Microsoft Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> La vista ConferenceMessageCount contiene todas las columnas de la <A href="lync-server-2013-conferencesessiondetails-view.md">vista ConferenceSessionDetails de Lync Server 2013</A> , además de las columnas que figuran a continuación.
+> La vista ConferenceMessageCount contiene todas las columnas de la <A href="lync-server-2013-conferencesessiondetails-view.md">vista ConferenceSessionDetails en Lync Server 2013</A> , además de las columnas que se enumeran a continuación.
 
 
 
@@ -67,22 +67,22 @@ La vista ConferenceMessageCount almacena información acerca de cuántos mensaje
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>Identificador URI del usuario que envió el mensaje.</p></td>
+<td><p>URI del usuario que envió el mensaje.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Tipo de URI del usuario que envió los mensajes. Para obtener más información, consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Tipo de URI del usuario que envió los mensajes. Consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserTenant</strong></p></td>
 <td><p>identificador</p></td>
-<td><p>Espacio empresarial del usuario que envió los mensajes. Para obtener más información, consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos de Lync Server 2013</a> .</p></td>
+<td><p>Inquilino del usuario que envió los mensajes. Consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserMessageCount</strong></p></td>
 <td><p>smallint</p></td>
-<td><p>Número de mensajes enviados por el usuario durante la sesión de conferencia.</p></td>
+<td><p>Número de mensajes que envió el usuario durante la sesión de conferencia.</p></td>
 </tr>
 </tbody>
 </table>

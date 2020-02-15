@@ -12,20 +12,20 @@ ms:contentKeyID: 48184508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d71d222fd6784c32ecf0228fff2f33188d2afae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 192aee50f55332a591430f30246870a7d1400b18
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728340"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050072"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-network-elements-used-to-determine-location-in-lync-server-2013"></a>Definir los elementos de red que se usan para determinar la ubicación en Lync Server 2013
+# <a name="defining-the-network-elements-used-to-determine-location-in-lync-server-2013"></a>Definición de los elementos de red que se usan para determinar la ubicación en Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41728340"
 
 _**Última modificación del tema:** 2012-10-29_
 
-Si está configurando su infraestructura de Lync Server para admitir la detección automática de la ubicación del cliente, primero debe decidir qué elementos de la red va a usar para asignar las personas que llaman a ubicaciones. En Lync Server 2013, puede asociar los siguientes elementos de red de la capa 2 y la capa 3 con ubicaciones:
+Si está configurando su infraestructura de Lync Server para admitir la detección automática de ubicaciones de clientes, primero debe decidir qué elementos de red va a usar para asignar los autores de las llamadas a las ubicaciones. En Lync Server 2013, puede asociar los siguientes elementos de red de nivel 2 y 3 con ubicaciones:
 
-  - Direcciones de identificación básica de conjunto de servicio (BSSID) con punto de acceso inalámbrico (WAP) (nivel 2)
+  - Direcciones de identificación de conjunto de servicio (BSSID) básicas de punto de acceso inalámbrico (WAP) (nivel 2)
 
   - Puerto del conmutador LLDP (nivel 2)
 
@@ -49,15 +49,15 @@ Si está configurando su infraestructura de Lync Server para admitir la detecci�
 
   - Direcciones MAC de cliente (nivel 2)
 
-Los elementos de red se enumeran en orden de prioridad. Si un cliente puede encontrarse usando más de un elemento de red, Lync Server usa el orden de prioridad para determinar qué mecanismo usar.
+Los elementos de la red se muestran en orden de prioridad. Si un cliente se puede ubicar mediante más de un elemento de red, Lync Server usa el orden de prioridad para determinar el mecanismo que se va a usar.
 
-En las siguientes secciones se proporciona más información sobre el uso de cada elemento de red.
+En las secciones siguientes se proporcionan más detalles sobre el uso de cada elemento de red.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Al usar elementos de red para asignar las personas que llaman a ubicaciones, es muy importante que mantenga actualizada la base de datos del servicio de información de ubicación. Por ejemplo, si agregas o cambias un elemento de red, como cuando agregas un WAP, necesitarás eliminar la entrada antigua y agregar la nueva a la base de datos de ubicaciones.
+> Cuando se usan elementos de red para asignar los autores de las llamadas a las ubicaciones, es fundamental tener la actualización de la base de datos del servicio de información de ubicación. Por ejemplo, si agregas o cambias un elemento de red, como agregar un WAP, deberás eliminar la entrada antigua y agregar la nueva a la base de datos de ubicaciones.
 
 
 
@@ -67,9 +67,9 @@ En las siguientes secciones se proporciona más información sobre el uso de cad
 
 ## <a name="wireless-access-point"></a>Punto de acceso inalámbrico
 
-Cuando un cliente se conecta a la red de manera inalámbrica, la solicitud de ubicación determina la ubicación al usar la dirección BSSID del WAP. Si el cliente está utilizando un perfil móvil, puede que el WAP indicado sea el más cercano y es posible, incluso, conectarse a un WAP que se encuentre en otra planta del edificio. Para indicar que la ubicación es aproximada, puedes anteponer Near o Close to al valor de ubicación del descriptor.
+Cuando un cliente se conecta a la red de manera inalámbrica, la solicitud de ubicación usa la dirección BSSID del WAP para determinar su ubicación. Si el cliente está en itinerancia, el WAP indicado puede que no sea el más próximo, y es incluso posible retomar un WAP que se encuentra en un piso diferente del edificio. Para indicar que la ubicación es aproximada, puede anteponer el valor de ubicación con un descriptor near o Close.
 
-Este método de ubicación supone que el BSSID de cada WAP es estático. Sin embargo, si su proveedor WAP usa BSSIDs asignados dinámicamente, los BSSID que se obtengan de un WAP podrían cambiar (esto puede ocurrir después de un cambio de configuración WAP), y los clientes inalámbricos podrían permanecer en una situación en la que no reciban una ubicación. Para evitar esta posibilidad, debe rellenar la base de datos de servicios de información de ubicación con ERLs para todas las direcciones BSSID posibles que cada WAP usa.
+Este método de ubicación presupone que el BSSID de cada WAP es estático. Sin embargo, si su proveedor WAP usa BSSIDs asignada dinámicamente, los BSSID que se obtienen de un WAP podrían cambiar (esto puede ocurrir después de un cambio de configuración WAP) y los clientes inalámbricos pueden quedar en una situación en la que no reciben una ubicación. Para evitar esta posibilidad, debe rellenar la base de datos del servicio de información de ubicaciones con Erl para todas las direcciones BSSID posibles usadas por cada WAP.
 
 </div>
 
@@ -77,13 +77,13 @@ Este método de ubicación supone que el BSSID de cada WAP es estático. Sin emb
 
 ## <a name="lldp-ports-and-switches"></a>Conmutadores y puertos LLDP
 
-Los conmutadores Ethernet administrados que admiten el Protocolo de detección de nivel de vínculo: detección de extremos de medios (LLDP-MED) pueden anunciar su identidad e información de puertos a los clientes compatibles con LLDP-MED. Esta información, a su vez, puede consultarse en la base de datos de ubicaciones para obtener la ubicación del dispositivo. Puedes asociar las ERL únicamente en el identificador de chasis del conmutador, o bien los puedes asignar en el puerto.
+Los conmutadores Ethernet administrados que admiten el protocolo de detección de niveles de vínculo: detección de extremos de medios (LLDP-MED) puede anunciar su identidad y la información de los puertos a los clientes compatibles con LLDP-MED, que se pueden consultar en la base de datos de ubicaciones para proporcionar el Ubicación del dispositivo. Puede asociar ERL únicamente en el identificador del chasis del conmutador, o puede asignarlos al nivel de puerto.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 admite el uso de LLDP-MED para determinar las ubicaciones de los dispositivos Lync Phone Edition y de Lync 2013 en Windows 8. Si necesita usar datos de capa 2 a nivel de conmutador para determinar la ubicación de otros clientes de Lync basados en PC con cable, debe usar el método de dirección MAC del cliente.
+> Lync Server 2013 admite el uso de LLDP-MED para determinar las ubicaciones de los dispositivos Lync Phone Edition y Lync 2013 en Windows 8. Si necesita usar datos de capa 2 a nivel de conmutador para determinar la ubicación de otros clientes de Lync basados en PC cableados, debe usar el método de dirección MAC del cliente.
 
 
 
@@ -95,29 +95,29 @@ Los conmutadores Ethernet administrados que admiten el Protocolo de detección d
 
 ## <a name="subnet"></a>Subred
 
-Las subredes IP de nivel 3 proporcionan un mecanismo compatible con todos los clientes de Lync Server que se pueden usar para detectar automáticamente la ubicación de los clientes. El uso de subredes IP es el método de ubicación más sencillo para configurar y administrar clientes cableados. Pero, antes de decidir usar subredes, necesitarás hacerte las siguientes preguntas para determinar si la ubicación de la subred es lo suficientemente específica para localizar con precisión a un cliente:
+Las subredes IP de nivel 3 proporcionan un mecanismo compatible con todos los clientes de Lync Server que se pueden usar para detectar automáticamente la ubicación del cliente. El uso de subredes IP es el método de ubicación más fácil para configurar y administrar clientes con cable. Sin embargo, antes de decidirse a usar subredes, puede usar las siguientes preguntas para determinar si la especificidad de la ubicación de la subred es lo suficientemente adecuada como para buscar un cliente de forma precisa:
 
-  - ¿Existe una o más subredes de clientes que cubran varios pisos?
+  - ¿Hay una o más subredes de clientes que cubran varios pisos?
 
-  - ¿Existe una o más subredes que cubran más de un edificio?
+  - ¿Hay una o más subredes que cubran más de un edificio?
 
-  - ¿Cuánto espacio del piso queda cubierto por cada subred de cliente?
+  - ¿Cuánto espacio de planta cubre cada subred de cliente?
 
-Si la subred cubre un área demasiado extensa, es posible que debas usar otro mecanismo para ubicar a clientes. Pero, si resulta práctico, recomendamos que los clientes reorganicen su subred IP para cumplir con los requisitos de especificidad de la ubicación ERL en lugar de incurrir en el coste y la complejidad de soluciones basadas en SNMP de terceros.
+Si la subred cubre un área demasiado amplia, es posible que deba usar otro mecanismo para localizar clientes. Sin embargo, si es posible, recomendamos que los clientes reorganicen sus subredes IP para cumplir con los requisitos de especificidad de la ubicación ERL, en lugar de incurrir en el coste y la complejidad de las soluciones basadas en SNMP de terceros.
 
 </div>
 
 <div>
 
-## <a name="client-mac-address"></a>Dirección MAC de cliente
+## <a name="client-mac-address"></a>Dirección MAC del cliente
 
-Para usar la dirección MAC de un equipo cliente para ubicar a una persona que llama, necesita conmutadores Ethernet administrados y debe implementar una solución SNMP de terceros que pueda descubrir las direcciones MAC de los clientes de Lync conectados a ellos (o a través de ellos). La solución de SNMP sondea continuamente los conmutadores administrados para obtener las asignaciones actuales de las direcciones MAC de los extremos conectadas a cada puerto y obtiene los identificadores de puerto correspondientes. Durante la solicitud de un cliente de Lync al servicio de información de ubicación, el servicio de información de ubicación consulta la aplicación de terceros usando la dirección MAC del cliente y, a continuación, devuelve las direcciones IP del modificador y los identificadores de Puerto coincidentes. El servicio de información de ubicación usa esta información para consultar sus Wiremap de capa 2 publicadas y devuelve la ubicación al cliente. Si utilizas esta opción, asegúrate de que los identificadores de puerto del conmutador son consistentes entre la aplicación SNMP y los registros de la base de datos de ubicación publicados.
+Para usar la dirección MAC de un equipo cliente para localizar a una persona que llama, necesita conmutadores Ethernet administrados y debe implementar una solución SNMP de terceros que pueda detectar las direcciones MAC de los clientes de Lync conectados a los clientes (o a través de los mismos). La solución SNMP sondea continuamente los conmutadores administrados para obtener las asignaciones actuales de las direcciones MAC de extremo conectadas a cada puerto y obtiene los identificadores de Puerto correspondientes. Durante la solicitud de un cliente de Lync al servicio de información de ubicación, el servicio de información de ubicación consulta a la aplicación de terceros usando la dirección MAC del cliente y, a continuación, devuelve las direcciones IP del conmutador y los identificadores de Puerto correspondientes. El servicio de información de ubicación usa esta información para consultar sus cableado de capa 2 publicadas para un registro que coincida y devuelve la ubicación al cliente. Si usa esta opción, asegúrese de que los identificadores de puerto del conmutador sean coherentes entre la aplicación SNMP y los registros de la base de datos de ubicación publicada.
 
 <div>
 
 
 > [!NOTE]  
-> Algunas soluciones SNMP de terceros pueden admitir modificadores de acceso no administrados; Si el modificador que ofrece servicio al cliente de Lync no está administrado pero tiene un vínculo superior a un conmutador de distribución administrada, el conmutador administrado puede informar a la aplicación SNMP de las direcciones MAC de los clientes conectados al conmutador de acceso. Esta información permite que el servicio de información de ubicación identifique la ubicación del usuario. Pero, es posible asignar solo una única ERL a todos los puertos en el conmutador no administrado, por lo que la especificidad de la ubicación está disponible solamente en el chasis del conmutador de acceso, pero no en el puerto.
+> Algunas soluciones SNMP de terceros pueden admitir conmutadores de acceso no administrados; Si el conmutador que dirige el cliente de Lync no está administrado pero tiene un vínculo superior a un conmutador de distribución administrada, el conmutador administrado puede informar a la aplicación SNMP de las direcciones MAC de los clientes conectados al conmutador de acceso. Esta información permite que el servicio de información de ubicación identifique la ubicación del usuario. Sin embargo, es posible asignar un solo ERL a todos los puertos del conmutador no administrado, por lo que la especificidad de la ubicación solo está disponible en el nivel de chasis del conmutador de acceso, no en el nivel de puerto.
 
 
 

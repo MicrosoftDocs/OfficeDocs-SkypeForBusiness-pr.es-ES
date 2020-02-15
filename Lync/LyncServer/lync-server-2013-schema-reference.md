@@ -12,16 +12,16 @@ ms:contentKeyID: 48184191
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e2d5458ca3c14af74b71dd09c4f94f6936aa27c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03d4e1c983ab06b2c1b80fb28730b91166542b83
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732576"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049392"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -41,11 +41,11 @@ _**Última modificación del tema:** 2012-06-29_
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Esquema de la base de datos de registro de detalles de llamadas (CDR) en Lync Server 2013](lync-server-2013-call-detail-recording-cdr-database-schema.md)
+  - [Esquema de la base de datos del registro detallado de llamadas (CDR) en Lync Server 2013](lync-server-2013-call-detail-recording-cdr-database-schema.md)
 
   - [Esquema de la base de datos de calidad de la experiencia (QoE) en Lync Server 2013](lync-server-2013-quality-of-experience-qoe-database-schema.md)
 
-  - [Esquema de la base de datos de chat persistente en Lync Server 2013](lync-server-2013-persistent-chat-database-schema.md)
+  - [Esquema de base de datos de chat persistente en Lync Server 2013](lync-server-2013-persistent-chat-database-schema.md)
 
   - [Extensiones de esquema, clases y atributos de Active Directory usados por Lync Server 2013](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)
 

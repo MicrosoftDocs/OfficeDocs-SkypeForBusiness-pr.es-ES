@@ -12,20 +12,20 @@ ms:contentKeyID: 49733846
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e9f0cb2eb68ed29984811f1c42a97dab4693a2f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dd9c14de1b25125e94a3019b4e3dcdbd192cbb13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739150"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049312"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-edge-servers-and-features-in-lync-server-2013"></a>Requisitos de DNS para los servidores perimetrales y las características de Lync Server 2013
+# <a name="dns-requirements-for-edge-servers-and-features-in-lync-server-2013"></a>Requisitos de DNS para servidores perimetrales y características en Lync Server 2013
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41739150"
 
 _**Última modificación del tema:** 2014-04-08_
 
-Los servidores perimetrales de Lync Server 2013, los grupos perimetrales y los proxies inversos tienen requisitos específicos para los registros del sistema de nombres de dominio (DNS). En Lync Server 2013 cuando se usan IPv4 e IPv6, debe planear los registros A y AAAA del host.
+Lync Server 2013 los servidores perimetrales, los grupos de servidores perimetrales y los proxies inversos tienen requisitos específicos para los registros del sistema de nombres de dominio (DNS). En Lync Server 2013, cuando están en uso IPv4 e IPv6, debe planear los registros A y AAAA del host.
 
-Los temas siguientes definen el uso de registros DNS para la planificación de su implementación:
+Los temas enumerados a continuación definen el uso de registros DNS para la planeación de implementación:
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Resumen DNS - Servidor perimetral consolidado simple con dirección IP privada mediante NAT en Lync Server 2013](lync-server-2013-dns-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
+  - [Resumen de DNS-servidor perimetral consolidado único con direcciones IP privadas que usan NAT en Lync Server 2013](lync-server-2013-dns-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
 
-  - [Resumen DNS - Servidor perimetral consolidado simple con direcciones IP públicas en Lync Server 2013](lync-server-2013-dns-summary-single-consolidated-edge-with-public-ip-addresses.md)
+  - [Resumen de DNS-servidor perimetral consolidado único con direcciones IP públicas en Lync Server 2013](lync-server-2013-dns-summary-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [Resumen de DNS - Topologías perimetrales consolidadas escaladas, equilibrio de carga DNS con direcciones IP privadas con NAT en Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [Resumen de DNS-servidor perimetral consolidado ampliado, equilibrio de carga de DNS con direcciones IP privadas mediante NAT en Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [Resumen de DNS - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [Resumen de DNS-servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [Resumen DNS - Servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [Resumen de DNS-servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-  - [Resumen DNS - Proxy inverso en Lync Server 2013](lync-server-2013-dns-summary-reverse-proxy.md)
+  - [Resumen de DNS-proxy inverso en Lync Server 2013](lync-server-2013-dns-summary-reverse-proxy.md)
 
-  - [Resumen DNS: SIP, Federación XMPP y mensajería instantánea pública en Lync Server 2013](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [Resumen de DNS: SIP, Federación XMPP y mensajería instantánea pública en Lync Server 2013](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
 </div>
 

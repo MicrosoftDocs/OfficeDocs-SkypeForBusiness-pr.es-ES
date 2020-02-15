@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ver detalles sobre un servicio'
+title: 'Lync Server 2013: ver detalles acerca de un servicio'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9bc8f0f9f6e0296f279cb09495a92fd9950625e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8268720754f0f34fa24a5a5c7beef9ac21b5d3e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731110"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048264"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,31 +37,31 @@ ms.locfileid: "41731110"
 
 _**Última modificación del tema:** 2012-09-21_
 
-Puede usar el panel de control de Lync Server para ver los detalles de cada servicio que se está ejecutando en un equipo específico de su topología. Puede ver el estado de cada servicio y los detalles como las bases de datos, los puertos y los servicios dependientes asociados.
+Puede usar el panel de control de Lync Server para ver los detalles de cada servicio que se está ejecutando en un equipo específico de la topología. Puede ver el estado de cada servicio y los detalles, como por ejemplo, las bases de datos asociadas, puertos y servicios dependientes.
 
 <div>
 
 ## <a name="to-view-details-for-a-service"></a>Para ver los detalles de un servicio
 
-1.  Desde una cuenta de usuario asignada a cualquiera de los roles administrativos predefinidos para Lync Server 2013, inicie sesión en cualquier equipo de su implementación interna. Para obtener más información sobre los roles administrativos predefinidos disponibles en Lync Server 2013, consulte [planificación de control de acceso basado en roles en Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+1.  Desde una cuenta de usuario asignada a cualquiera de los roles administrativos predefinidos para Lync Server 2013, inicie sesión en cualquier equipo de la implementación interna. Para obtener más información sobre los roles administrativos predefinidos disponibles en Lync Server 2013, vea [planeación del control de acceso basado en roles en Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **topología** y, a continuación, en **Estado**.
+3.  En la barra de navegación izquierda, haga clic en **Topología** y, a continuación, en **Estado**.
 
-4.  En la página **Estado** , ordene o busque en la lista y, a continuación, haga clic en el equipo que desea ver.
+4.  En la página **Estado**, clasifique o busque en la lista y, a continuación, haga clic en el equipo que desee ver.
 
-5.  Haga clic en **propiedades**.
+5.  Haga clic en **Propiedades**.
 
-6.  En la ventana **Ver detalles del equipo** , ordene la lista de servicios, si es necesario, y haga clic en el servicio que desea ver.
+6.  En la ventana **Ver detalles de equipo**, clasifique la lista de servicios, si fuera necesario, y haga clic en el servicio de desee ver.
 
-7.  Realice una de las siguientes acciones según sea necesario:
+7.  Siga uno de estos procedimientos, según sea necesario:
     
-      - Para ver el estado más reciente de ese servicio específico, haga clic en **obtener estado del servicio**.
+      - Para ver el último estado de este servicio en particular, haga clic en **Obtener estado del servicio**.
     
-      - Para ver los detalles de ese servicio específico, haga clic en **propiedades** y, a continuación, en **cerrar**.
+      - Para ver los detalles de este servicio en particular, haga clic en **Propiedades** y, a continuación, en **Cerrar**.
     
-      - Para volver a la lista de todos los equipos de su topología, haga clic en **cerrar**.
+      - Para volver a la lista de todos los equipos en la topología, haga clic en **Cerrar**.
 
 </div>
 

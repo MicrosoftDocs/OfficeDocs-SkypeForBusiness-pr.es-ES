@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Nuevas características de llamada'
+title: 'Lync Server 2013: nuevas características de llamada'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dad938bf47292b74b451cefb32b0c5345d03e284
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47482eade227c55091fd5d3ca0f7b5d58123fa91
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765831"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050002"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,16 +37,16 @@ ms.locfileid: "41765831"
 
 _**Última modificación del tema:** 2012-10-10_
 
-Lync Server 2013 proporciona una variedad significativamente más amplia de opciones de configuración para el desvío de llamadas y las llamadas simultáneas. Por ejemplo, si una organización no desea que las llamadas entrantes se desvíen externamente a la red de telefonía pública conmutada (RTC), un administrador puede aplicar una directiva de voz especial para implementar esta restricción.
+Lync Server 2013 proporciona una gama de opciones de configuración mucho más amplia para el desvío de llamadas y las llamadas simultáneas. Por ejemplo, si una organización no quiere que se puedan reenviar las llamadas entrantes fuera, a la red telefónica conmutada (RTC), un administrador puede aplicar una directiva de voz especial para implementar esta restricción.
 
-Además, los delegados ahora pueden configurar llamadas simultáneas a sus dispositivos móviles para que las llamadas entrantes a sus administradores. Esto proporciona a los delegados más flexibilidad, lo que les permite contestar llamadas en nombre de su jefe sin estar atado a un teléfono de escritorio.
+Además, los delegados pueden ahora configurar llamadas simultáneas a sus dispositivos móviles para las llamadas entrantes de sus jefes. Esta característica ofrece a los delegados mayor flexibilidad, ya que podrán responder a llamadas en nombre de sus jefes sin estar atados al teléfono fijo.
 
 <div>
 
 ## <a name="see-also"></a>Vea también
 
 
-[Nuevas características de la telefonía IP empresarial en Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
+[Nuevas características de Enterprise Voice en Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

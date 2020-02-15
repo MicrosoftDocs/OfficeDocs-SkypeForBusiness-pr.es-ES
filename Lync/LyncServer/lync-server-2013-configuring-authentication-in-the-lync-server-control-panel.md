@@ -12,16 +12,16 @@ ms:contentKeyID: 48185497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6588058527fb438af393f6eb1132e19895c0f564
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 998b3e0f2429ca32238a49f5df72973ac0f49687
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734856"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049772"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,23 +37,23 @@ ms.locfileid: "41734856"
 
 _**Última modificación del tema:** 2013-02-21_
 
-Los temas de esta sección proporcionan procedimientos paso a paso para las tareas que puede realizar con el grupo de **seguridad** en el panel de control de Lync Server 2013.
+Los temas de esta sección proporcionan procedimientos paso a paso para las tareas que puede realizar mediante el uso del grupo de **seguridad** en el panel de control de Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Crear opciones de configuración de registradores en Lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md)
+  - [Crear opciones de configuración de registrador en Lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md)
 
-  - [Modificar las opciones de configuración de registrador existentes en Lync Server 2013](lync-server-2013-modify-existing-registrar-configuration-settings.md)
+  - [Modificar las opciones de configuración existentes del registrador en Lync Server 2013](lync-server-2013-modify-existing-registrar-configuration-settings.md)
 
-  - [Eliminar las opciones de configuración de registrador existentes en Lync Server 2013](lync-server-2013-delete-existing-registrar-configuration-settings.md)
+  - [Eliminar opciones de configuración de registrador existentes en Lync Server 2013](lync-server-2013-delete-existing-registrar-configuration-settings.md)
 
-  - [Crear nuevos parámetros de configuración de servicio Web en Lync Server 2013](lync-server-2013-create-new-web-service-configuration-settings.md)
+  - [Crear nuevas opciones de configuración de servicio Web en Lync Server 2013](lync-server-2013-create-new-web-service-configuration-settings.md)
 
-  - [Modificar las opciones de configuración de un servicio web existente en Lync Server 2013](lync-server-2013-modify-existing-web-service-configuration-settings.md)
+  - [Modificación de las opciones de configuración de un servicio web existente en Lync Server 2013](lync-server-2013-modify-existing-web-service-configuration-settings.md)
 
-  - [Eliminar las opciones de configuración de servicio Web existentes en Lync Server 2013](lync-server-2013-delete-existing-web-service-configuration-settings.md)
+  - [Eliminación de las opciones de configuración de un servicio web existente en Lync Server 2013](lync-server-2013-delete-existing-web-service-configuration-settings.md)
 
 </div>
 

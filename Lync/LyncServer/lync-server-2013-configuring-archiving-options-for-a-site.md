@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configuración de las opciones de archivado de un sitio'
+title: 'Lync Server 2013: configurar opciones de archivado para un sitio'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb2b70242388ca00a7bf43ec535ae1231fb77644
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5f081cd802bc0427748244890816a7708c82e47
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734990"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049822"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-archiving-options-for-a-site-in-lync-server-2013"></a>Configuración de las opciones de archivado de un sitio en Lync Server 2013
+# <a name="configuring-archiving-options-for-a-site-in-lync-server-2013"></a>Configurar las opciones de archivado para un sitio en Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41734990"
 
 _**Última modificación del tema:** 2012-10-09_
 
-Puede especificar las opciones de archivado que se aplicarán a sitios específicos mediante la creación y la configuración de las opciones de una configuración de archivado para cada uno de esos sitios. Una configuración de sitio reemplaza la configuración global, pero solo para el sitio especificado en la configuración del sitio. Las configuraciones de grupo invalidan las configuraciones del sitio
+Puede especificar las opciones de archivado que se aplicarán a sitios específicos creando y configurando opciones en una configuración de archivado para cada uno de esos sitios. Una configuración de sitio invalida la configuración global, pero solo para el sitio especificado en la configuración del sitio. Las configuraciones de grupo invalidan las configuraciones de sitio
 
-Para obtener detalles sobre cómo funcionan las configuraciones de archivado, incluida la jerarquía para las configuraciones globales, de sitio y de grupo, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, la documentación de implementación o la documentación de operaciones.
+Para obtener más información sobre cómo funcionan las configuraciones de archivado, incluida la jerarquía para las configuraciones globales, de sitio y de grupo, consulte [how archiving Works in Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, implementación o operaciones.
 
 <div>
 
 
 > [!NOTE]  
-> Debe especificar todas las opciones apropiadas en las configuraciones de archivado antes de habilitar el archivado.
+> Antes de habilitar el archivado, debe especificar todas las opciones adecuadas en las configuraciones de archivado.
 
 
 
@@ -55,7 +55,7 @@ Para obtener detalles sobre cómo funcionan las configuraciones de archivado, in
 
 
 > [!IMPORTANT]  
-> Para habilitar el archivado, es necesario especificar directivas de archivado para controlar el archivado de comunicaciones internas y externas en el nivel global y, si es adecuado, en los niveles de sitio y usuario. Si configura directivas de nivel de usuario, también deberá asignar directivas a usuarios específicos. Para obtener más información sobre cómo crear y configurar directivas de archivado, vea <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">administrar el archivado de comunicaciones internas y externas en Lync Server 2013</A> en la documentación de operaciones.
+> Para habilitar el archivado, debe especificar las directivas de archivado para controlar el archivado de las comunicaciones internas y externas a nivel global y, si procede, en los niveles de sitio y usuario. Si configura directivas de nivel de usuario, también debe asignar las directivas de usuario a usuarios específicos. Para obtener más información sobre cómo crear y configurar las directivas de archivado, consulte <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Managing The external and external Communications in Lync Server 2013</A> en la documentación de operaciones.
 
 
 
@@ -65,35 +65,35 @@ Para obtener detalles sobre cómo funcionan las configuraciones de archivado, in
 
 ## <a name="to-configure-archiving-options-at-the-site-level"></a>Para configurar las opciones de archivado en el nivel de sitio
 
-1.  Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server 2013. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server 2013, consulte [abrir las herramientas administrativas de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server 2013. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server 2013, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Configuración de archivado**.
+3.  En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, a continuación, haga clic en **Configuración de archivado**.
 
-4.  En la página **Configuración de archivado**, haga clic en **Nuevo** y, luego, en **Configuración de sitio**.
+4.  En la página **configuración de archivado** , haga clic en **nuevo**y, a continuación, haga clic en **configuración del sitio**.
 
-5.  En **Seleccionar un sitio**, seleccione el sitio que necesita configurar para el archivado.
+5.  En **Seleccionar un sitio**, seleccione el sitio que debe configurarse para el archivado.
 
 6.  En **Nueva configuración de archivado**, vaya al cuadro de lista desplegable **Configuración de archivado** y siga uno de estos procedimientos:
     
-      - Para habilitar el archivado solo para las sesiones de mensajería instantánea (MI), haga clic en **Archivar sesiones de mensajería instantánea (MI)**.
+      - Para habilitar el archivado solo para las sesiones de mensajería instantánea, haga clic en **Archivar sesiones de mensajería instantánea**.
     
-      - Para habilitar el archivado tanto para las sesiones de mensajería instantánea (MI) y las conferencias, haga clic en **Archivar sesiones de mensajería instantánea y conferencias web**.
+      - Para habilitar el archivado de sesiones de mensajería instantánea y conferencias, haga clic en **archivar sesiones de mensajería instantánea y conferencias web**.
     
-      - A fin de deshabilitar el archivado de la directiva, haga clic en **Deshabilitar archivado**.
+      - Para deshabilitar el archivado para la directiva, haga clic en **Deshabilitar archivado**.
 
 7.  Además, en **Nueva configuración de archivado**, haga lo siguiente:
     
-      - Para bloquear la actividad cuando el archivado no está disponible, active la casilla **Bloquear sesiones de mensajería instantánea (MI) o de conferencias web si no se pueden archivar**.
+      - Para bloquear la actividad cuando el archivado no está disponible, active la casilla **Bloquear las sesiones de mensajería instantánea (MI) o conferencias web si se produce algún error en el archivado**.
     
-      - Para usar Microsoft Exchange Server para almacenar datos de archivado, haga clic en la casilla de verificación **integración con Microsoft Exchange** .
+      - Para usar Microsoft Exchange Server para almacenar datos de archivado, haga clic en la casilla de verificación **integración de Microsoft Exchange** .
     
-      - Para habilitar la purga de datos, active la casilla **Habilitar purgado de los datos de archivado** y realice una de las siguientes acciones:
+      - Para habilitar la purga de datos, active la casilla **Habilitar purga de los datos de archivado** y realice una de las siguientes acciones:
         
-          - Para especificar la purga al transcurrir una cantidad de días determinada, haga clic en **Purgar los datos de archivado exportados y los datos de archivado almacenados tras la duración máxima (días)** y especifique la cantidad de días.
+          - Para especificar la purga al transcurrir un número de días determinado, haga clic en **Purgar los datos de archivado exportados y los datos de archivado almacenados tras la duración máxima (días)** y especifique los días.
         
-          - Para limitar la purga de los datos de archivado que se han exportado, haga clic en **Purgar solo datos de archivado exportados**.
+          - Para limitar la purga de los datos archivados que se han exportado, haga clic en **Purgar solo datos archivados exportados**.
 
 8.  Haga clic en **Confirmar**.
 

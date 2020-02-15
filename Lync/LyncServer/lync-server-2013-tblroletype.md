@@ -12,16 +12,16 @@ ms:contentKeyID: 48183577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba6b5041453b0965fafc12ada2be62ec42316f89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ab96d6cd090ebaaa9e33ddf1672ab704ee371f8b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731190"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046153"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41731190"
 
 _**Última modificación del tema:** 2012-06-25_
 
-tblRoleType es una tabla de búsqueda estática con tipos de roles y sus conjuntos de permisos asociados.
+tblRoleType es una tabla de búsqueda estática con tipos de rol y sus conjuntos de permisos asociados.
 
-### <a name="columns"></a>Columnas
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -56,41 +56,41 @@ tblRoleType es una tabla de búsqueda estática con tipos de roles y sus conjunt
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>rtypeID</p></td>
-<td><p>int, not null</p></td>
-<td><p>IDENTIFICADOR de tipo de rol.</p></td>
+<td><p>Prinid</p></td>
+<td><p>int, no NULL</p></td>
+<td><p>Identificador del tipo de rol.</p></td>
 </tr>
 <tr class="even">
 <td><p>rtypeDesc</p></td>
-<td><p>nvarchar (256), not null</p></td>
-<td><p>Descripción de tipo de rol. Hay cuatro roles disponibles:</p>
+<td><p>nvarchar (256), no NULL</p></td>
+<td><p>Descripción del tipo de rol. Existen cuatro roles disponibles:</p>
 <ul>
-<li><p>Miembro: miembro del salón de chat</p></li>
-<li><p>Administrador: administrador del salón de chat</p></li>
-<li><p>Voz: moderador de un salón de chat de Auditorio</p></li>
+<li><p>Miembro: miembro de salón de chat</p></li>
+<li><p>Administrador: administrador de salón de chat</p></li>
+<li><p>Miembro con voz: moderador de un salón de chat de tipo auditorio</p></li>
 <li><p>Creador: puede crear salones de chat</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>rtypeAllowedPermSet</p></td>
-<td><p>BIGINT, not null</p></td>
-<td><p>Conjunto de permisos para el rol. Los bits utilizados son:</p>
+<td><p>bigint, no NULL</p></td>
+<td><p>Conjunto de permisos del rol. Los valores usados son:</p>
 <ul>
-<li><p>2: verdadero si el rol puede administrar nodos.</p></li>
-<li><p>4: true si el rol puede crear nodos secundarios.</p></li>
-<li><p>7: verdadero si el rol puede unirse a un salón de chat (o a salones de chat de niños de una categoría).</p></li>
-<li><p>8: verdadero si el rol puede chatear en un salón de chat (o en los salones de chat de los niños de una categoría).</p></li>
-<li><p>10: verdadero si el rol puede leer el historial de chats incluso cuando no está unido a un salón de chat.</p></li>
-<li><p>11: verdadero si el rol puede ver el salón de chat. (Esto se ha refinado con factores como el alcance y la visibilidad).</p></li>
-<li><p>12: verdadero si el rol puede chatear en un salón de chat de Auditorio.</p></li>
-<li><p>13: verdadero si el rol puede omitir las reglas de visibilidad al ver los nodos.</p></li>
+<li><p>2: True si el rol puede administrar nodos.</p></li>
+<li><p>4: True si el rol puede crear nodos secundarios.</p></li>
+<li><p>7: True si el rol puede unirse a un salón de chat (o salones de chat secundarios de una categoría).</p></li>
+<li><p>8: True si el rol puede hablar en un salón de chat (o salones de chat secundarios de una categoría).</p></li>
+<li><p>10: True si el rol puede leer el historial de chat incluso cuando no se unió a un salón de chat.</p></li>
+<li><p>11: True si el rol puede ver el salón de chat. (Restricción adicional según factores, como ámbito y visibilidad).</p></li>
+<li><p>12: True si el rol puede hablar en un salón de chat de tipo auditorio.</p></li>
+<li><p>13: True si el rol puede omitir las reglas de visibilidad al ver nodos.</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Clave
+### <a name="key"></a>Key 
 
 <table>
 <colgroup>
@@ -105,7 +105,7 @@ tblRoleType es una tabla de búsqueda estática con tipos de roles y sus conjunt
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>rtypeID</p></td>
+<td><p>Prinid</p></td>
 <td><p>Clave principal.</p></td>
 </tr>
 </tbody>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185505
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 416da390f277dfc7179a45e0b1dc989b240ab394
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 32185d1f6124109bd957b0af4440ee054e872f54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757164"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048284"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -48,33 +48,33 @@ Para crear un nuevo salón de servidor de chat persistente
 > -PersistentChatPoolFqdn no es necesario si se cumple una de las siguientes acciones: 
 > <UL>
 > <LI>
-> <P>Solo hay un grupo de servidores de chat persistente.</P>
+> <P>Hay un solo grupo de servidores de chat persistente.</P>
 > <LI>
-> <P>Proporciona un FQDN del grupo de servidores a la categoría.</P>
+> <P>Proporciona un poolFqdn a la categoría.</P>
 > <LI>
-> <P>Proporciona un FQDN del grupo de servidores para agregar el salón.</P></LI></UL>
+> <P>Proporciona un poolFqdn para agregar un salón.</P></LI></UL>
 
 
 
 </div>
 
-Para realizar cambios en una sala de servidores de chat persistente existente
+Para realizar cambios en un salón del servidor de chat persistente existente
 
     Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
     Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatRoom -Identity testCat -Presenters @{Add="sip:user1@contoso.com"}
 
-Windows PowerShell: los miembros, los administradores y los moderadores pueden establecerse de forma simultánea. Todos deben ser el subconjunto de AllowedMembers menos DeniedMembers de la categoría de host. Un salón que es Type = normal no puede incluir moderadores.
+Windows PowerShell: los miembros, los administradores y los moderadores se pueden configurar simultáneamente. Deben estar en el subconjunto de AllowedMembers menos DeniedMembers de la categoría de host. Un salón que es type=normal no puede incluir moderadores.
 
 <div>
 
-## <a name="create-get-set-clear-or-remove-a-room"></a>Crear, obtener, establecer, borrar o quitar una sala
+## <a name="create-get-set-clear-or-remove-a-room"></a>Crear, obtener, configurar, borrar o quitar un salón
 
-Para crear un nuevo salón
+Para crear un salón nuevo
 
     New-CsPersistentChatRoom -Name <String> [-PersistentChatPoolFqdn <String>]-Category <String> [-Description <String>] [-Disabled <Switch Parameter>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Switch Parameter>]
 
-Para establecer un salón
+Para configurar un salón
 
     Set-CsPersistentChatRoom -Identity <String> [-Name <String>] [-Category <String>] [-Description <String>] [-Disabled <boolean>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Enum>] [-Members <PSListModifier<String>>] [-Managers <PSListModifier<String>>] [-Presenters <PSListModifier<String>>] [-Force < Switch Parameter >] [-Confirm <Switch Parameter>][-WhatIf <Switch Parameter>]
 
@@ -86,9 +86,9 @@ o
 
     Get-CsPersistentChatRoom -filter <String> [-PersistentChatPoolFqdn <String>] [-SearchDescription] [-Member <String>] [-Manager <string>] [-Category <string>] [-Addin <string>] [-Disabled <bool>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Type <ChatRoomType> {Normal | Auditorium}] [-Invitations <ChatRoomInvitations> {False | Inherit}] [-ChatContentExceedsMB <int>] [-ResultSize <int>]
 
-Dónde: filtrar solo admite nombre y descripción, y ayuda a buscar salas cuyo nombre/Descripción coincide con la cadena de palabra clave. PoolFqdn busca en un grupo de servidores de chat persistente determinado.
+donde el filtro–solo admita el nombre y la descripción y ayude a buscar salones cuyos nombres o descripciones coincidan con la cadena de la palabra clave. PoolFqdn busca en un grupo de servidores de chat persistente determinado.
 
-Para borrar una sala y borrar los mensajes de una sala
+Para borrar un salón y borrar los mensajes de un salón
 
     Clear-CsPersistentChatRoom [-Identity] <string> -EndDate <DateTime> [-WhatIf] [-Confirm]  [<CommonParameters>]
 
@@ -96,7 +96,7 @@ o
 
     Clear-CsPersistentChatRoom [-Instance] <ChatRoomObject> -EndDate <DateTime> [-WhatIf] [-Confirm] [<CommonParameters>]
 
-Para quitar una sala
+Para quitar un salón
 
     Remove-CsPersistentChatRoom [-Identity] <string> [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
 

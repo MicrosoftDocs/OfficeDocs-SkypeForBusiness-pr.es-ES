@@ -12,16 +12,16 @@ ms:contentKeyID: 48184584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8a0d9ade3fd750f5dc89526969bad7e39ad0f35
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba3e0da5402ea93ce33e844a2f8b32d545d4811a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756894"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050032"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -39,39 +39,39 @@ _**Última modificación del tema:** 2012-11-01_
 
 Lync Server 2013 proporciona un filtro de transferencia de archivos global que bloquea determinados tipos de archivos durante las siguientes actividades relacionadas con archivos dentro de la implementación de Lync Server 2013:
 
-  - Solicitudes de transferencia de archivos durante conversaciones de mensajería instantánea (mi)
+  - Solicitudes de transferencia de archivos durante las conversaciones de mensajería instantánea (mi)
 
   - Cargas y descargas de archivos al usar la característica de documentos en el cliente de Office Live Meeting 2007
 
   - Reproducción multimedia durante las conferencias
 
-En función de los tipos de archivos que desea bloquear o permitir, puede usar el panel de control de Lync Server para modificar el filtro global. Para más información sobre el filtrado de transferencia de archivos, vea [configuración de la transferencia de archivos y filtrado de URL para mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
+En función de los tipos de archivos que quiera bloquear o permitir, puede usar el panel de control de Lync Server para modificar el filtro global. Para obtener más información sobre el filtrado de transferencia de archivos, consulte [configuración de transferencia de archivos y filtrado de URL para la mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
 
 <div>
 
 ## <a name="to-modify-the-default-file-transfer-filter"></a>Para modificar el filtro de transferencia de archivos predeterminado
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **mensajería instantánea y presencia** y, a continuación, haga clic en **filtro de archivos**.
+3.  En la barra de navegación izquierda, haga clic en **Mensajería instantánea y presencia** y, a continuación, en **Filtro de archivo**.
 
 4.  En la página **filtro de archivos** , haga doble clic en el filtro **global** .
 
-5.  En **filtro de archivo de edición**, active la casilla de verificación **Habilitar filtro de archivos** .
+5.  En **Editar filtro de archivo**, active la casilla de verificación **Habilitar filtro de archivos** .
 
-6.  En el cuadro de lista desplegable **transferencia de archivos** , haga clic en **bloquear todos** o **bloquear tipos de archivo específicos**.
+6.  En el cuadro de lista desplegable **transferencia de archivos** , haga clic en **bloquear todos** o en **bloquear tipos de archivo específicos**.
 
-7.  Si hizo clic en **bloquear todo**, vaya al paso 9.
+7.  Si hizo clic en **bloquear todos**, vaya al paso 9.
 
-8.  Si hizo clic en **bloquear tipos de archivo específicos**, siga este procedimiento:
+8.  Si hizo clic en **Bloquear tipos de archivos específicos**, haga lo siguiente:
     
-    1.  Haga clic en **seleccionar** para modificar la lista predeterminada de extensiones de tipo de archivo que desea bloquear.
+    1.  Haga clic en **Seleccionar** para modificar la lista predeterminada de las extensiones de tipo de archivo que desea bloquear.
     
     2.  En **Seleccionar tipo de archivo**, seleccione los tipos de archivo que desea bloquear o permitir agregando o quitando sus extensiones de las categorías de **extensiones de tipo de archivo**.
     
-    3.  Si no ve la extensión de un tipo de archivo que desea bloquear, escriba la extensión en el cuadro de texto en **Agregar extensiones de tipo de archivo a la lista**y, a continuación, haga clic en **Agregar**.
+    3.  Si no ve la extensión para un tipo de archivo que desea bloquear, escriba la extensión en el cuadro de texto en **Agregar extensiones de tipo de archivo a la lista** y, a continuación, haga clic en **Agregar**.
     
     4.  Haga clic en **Aceptar**.
 
@@ -84,12 +84,12 @@ En función de los tipos de archivos que desea bloquear o permitir, puede usar e
 ## <a name="see-also"></a>Vea también
 
 
-[Configuración de la transferencia de archivos y el filtrado de URL para mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
+[Configuración de la transferencia de archivos y el filtrado de URL para la mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
 [Crear un filtro de transferencia de archivos nuevo en Lync Server 2013 para un sitio específico](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
-[Crear un filtro de dirección URL en Lync Server 2013 para administrar hipervínculos en conversaciones de mensajería instantánea](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
+[Crear un nuevo filtro de dirección URL en Lync Server 2013 para administrar hipervínculos en conversaciones de mensajería instantánea](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
 
 
-[Modificar el filtro de dirección URL predeterminado en Lync Server 2013](lync-server-2013-modify-the-default-url-filter.md)  
+[Modificar el filtro de direcciones URL predeterminado en Lync Server 2013](lync-server-2013-modify-the-default-url-filter.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configuración de la calidad de servicio de voz para Lync Phone Edition'
+title: 'Lync Server 2013: configurar la calidad de servicio de voz para Lync Phone Edition'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03d2b669592d2fa50d3b47fcc45722234fe76963
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 104e74c903b673c4aa3593b8b50868306912a9a9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733890"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048113"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41733890"
 
 _**Última modificación del tema:** 2012-09-29_
 
-Puede configurar los requisitos de calidad de servicio (QoS) de voz para los dispositivos de Lync Phone Edition en un grupo al configurar el nivel de QoS para los teléfonos IP que se conectan a Lync Server 2013.
+Puede configurar los requisitos de calidad de servicio (QoS) de voz para los dispositivos de Lync Phone Edition en un grupo de servidores estableciendo el nivel de QoS para los teléfonos IP que se conectan a Lync Server 2013.
 
 <div>
 
 ## <a name="to-configure-voice-quality-of-service-for-lync-phone-edition"></a>Para configurar la calidad de servicio de voz para Lync Phone Edition
 
-1.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-2.  En la barra de navegación izquierda, haga clic en **clientes**y, después, en **configuración de dispositivo**.
+2.  En la barra de navegación izquierda, haga clic en **Clientes** y después en **Configuración de dispositivo**.
 
-3.  En la página **configuración de dispositivo** , en la lista de configuraciones de dispositivos, haga doble clic en la configuración para la que desea cambiar la configuración de QoS.
+3.  En la página **Configuración de dispositivo**, en la lista de configuraciones de dispositivos, haga doble clic en la configuración en la que desea cambiar los parámetros QoS.
 
-4.  En **Editar configuración del dispositivo**, en **calidad de servicio de voz**, especifique el nivel de QoS. El nivel predeterminado es **40**.
+4.  En **Editar configuración de dispositivo**, en **Calidad de voz del servicio**, especifique el nivel de QoS. La tecla predeterminada es **40**.
 
 </div>
 
@@ -58,7 +58,7 @@ Puede configurar los requisitos de calidad de servicio (QoS) de voz para los dis
 ## <a name="see-also"></a>Vea también
 
 
-[Administrar la infraestructura de red de Lync Server 2013](lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md)  
+[Administración de la infraestructura de red de Lync Server 2013](lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md)  
   
 
 </div>

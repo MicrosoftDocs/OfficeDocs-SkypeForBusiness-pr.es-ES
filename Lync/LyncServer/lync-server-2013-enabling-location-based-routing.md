@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: habilitar el enrutamiento basado en la ubicación'
+title: 'Lync Server 2013: habilitar el enrutamiento basado en ubicación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e21e1a285fa5b2129d4d0ed0b5d75e8dcee42f2f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b254e7e05a0ac2117b12a0004435898069059f53
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735810"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046303"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-location-based-routing-in-lync-server-2013"></a>Habilitar el enrutamiento basado en la ubicación en Lync Server 2013
+# <a name="enabling-location-based-routing-in-lync-server-2013"></a>Habilitación del enrutamiento basado en ubicación en Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41735810"
 
 _**Última modificación del tema:** 2013-04-26_
 
-Una vez que se implementa la telefonía IP empresarial y se definen las regiones, sitios y subredes de la red, puede habilitar el enrutamiento basado en la ubicación. El enrutamiento basado en la ubicación debe estar habilitado para los siguientes elementos de Enterprise Voice:
+Una vez que se haya implementado la telefonía IP empresarial y se hayan definido las regiones de red, sitios y subredes, puede habilitar el enrutamiento basado en la ubicación. El enrutamiento basado en ubicación debe estar habilitado para los siguientes elementos de Enterprise Voice:
 
   - Sitios de red
 
-  - Configuraciones troncales
+  - Configuraciones de tronco
 
   - Directivas de voz
 
@@ -51,13 +51,13 @@ Una vez que se implementa la telefonía IP empresarial y se definen las regiones
 
 ## <a name="enable-location-based-routing-to-network-sites"></a>Habilitar el enrutamiento basado en ubicación a sitios de red
 
-Una vez que haya implementado Enterprise Voice y los sitios de red configurados, estará listo para configurar el enrutamiento basado en la ubicación. En primer lugar, cree una directiva de enrutamiento de voz para asociar el sitio de red a los usos de RTC apropiados. Al asignar usos de RTC a una directiva de enrutamiento de voz, asegúrese de usar solo usos de RTC asociados a rutas de voz que usen una puerta de enlace PSTN local para el sitio o una puerta de enlace RTC que se encuentre en una región donde no se necesiten restricciones de enrutamiento basado en la ubicación. Use el comando de Windows PowerShell de Lync Server, New-CsVoiceRoutingPolicy o panel de control de Lync Server para crear directivas de enrutamiento de voz.
+Una vez que haya implementado Enterprise Voice y los sitios de red configurados, estará preparado para configurar el enrutamiento basado en ubicación. En primer lugar, cree una directiva de enrutamiento de voz para asociar el sitio de red con los usos de RTC apropiados. Al asignar usos de RTC a una directiva de enrutamiento de voz, asegúrese de usar solo los usos de RTC asociados a rutas de voz que usan una puerta de enlace RTC local al sitio o a una puerta de enlace RTC que se encuentra en una región en la que no se necesitan restricciones de enrutamiento basadas en la ubicación. Use el comando de Windows PowerShell de Lync Server, New-CsVoiceRoutingPolicy o el panel de control de Lync Server para crear directivas de enrutamiento de voz.
 
     New-CsVoiceRoutingPolicy -Identity <voice routing policy ID> -Name <voice routing policy name> -PstnUsages <usages>
 
 Para obtener más información, vea [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsVoiceRoutingPolicy).
 
-En este ejemplo, los siguientes comandos de tabla y Windows PowerShell ilustran dos directivas de enrutamiento de voz y sus usos de RTC asociados definidos en este escenario. En la tabla solo se incluyen los valores específicos del enrutamiento basado en la ubicación con fines de ilustración.
+En este ejemplo, los siguientes comandos de Windows PowerShell y tabla muestran dos directivas de enrutamiento de voz y sus usos de RTC asociados definidos en este escenario. Solo la configuración específica para el enrutamiento basado en ubicación se incluye en la tabla con fines ilustrativos.
 
     New-CsVoiceRoutingPolicy -Identity "DelhiVoiceRoutingPolicy" -Name "Delhi voice routing policy" -PstnUsages @{add="Delhi usage", "PBX Del usage", "PBX Hyd usage"}
     New-CsVoiceRoutingPolicy -Identity "HyderabadVoiceRoutingPolicy" -Name " Hyderabad voice routing policy" -PstnUsages @{add="Hyderabad usage", "PBX Del usage", "PBX Hyd usage"}
@@ -73,7 +73,7 @@ En este ejemplo, los siguientes comandos de tabla y Windows PowerShell ilustran 
 <tr class="header">
 <th></th>
 <th>Directiva de enrutamiento de voz 1</th>
-<th>Directiva de enrutamiento de voz 2</th>
+<th>Directiva 2 de enrutamiento de voz</th>
 </tr>
 </thead>
 <tbody>
@@ -84,7 +84,7 @@ En este ejemplo, los siguientes comandos de tabla y Windows PowerShell ilustran 
 </tr>
 <tr class="even">
 <td><p>Usos de RTC</p></td>
-<td><p>Uso de la Delhi, PBX del uso, uso de HYD de PBX</p></td>
+<td><p>Uso de Delhi, PBX del uso, uso de HYD de PBX</p></td>
 <td><p>Uso de Hyderabad, uso de HYD de PBX, PBX del uso</p></td>
 </tr>
 </tbody>
@@ -92,11 +92,11 @@ En este ejemplo, los siguientes comandos de tabla y Windows PowerShell ilustran 
 
   
 
-A continuación, configure el enrutamiento basado en la ubicación para los sitios de red aplicables y asocie sus directivas de enrutamiento de voz. Use el comando de Windows PowerShell de Lync Server, New-CsNetworkSite, para habilitar el enrutamiento basado en la ubicación y asociar directivas de enrutamiento de voz a los sitios de red que deban exigir restricciones de enrutamiento.
+A continuación, configure el enrutamiento basado en ubicación para los sitios de red aplicables y asocie sus directivas de enrutamiento de voz a ellos. Use el comando de Windows PowerShell de Lync Server, New-CsNetworkSite, para habilitar el enrutamiento basado en ubicación y asociar directivas de enrutamiento de voz a los sitios de red que deban exigir restricciones de enrutamiento.
 
     Set-CsNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false> -VoiceRoutingPolicy <voice routing policy ID>
 
-En este ejemplo, la tabla siguiente muestra el enrutamiento basado en la ubicación de dos sitios de red diferentes, Delhi y Hyderabad, definidos en este escenario con Windows PowerShell de Lync Server. En la tabla solo se incluyen los valores específicos del enrutamiento basado en la ubicación con fines de ilustración.
+En este ejemplo, la tabla siguiente ilustra el enrutamiento basado en ubicación para dos sitios de red diferentes, Delhi y Hyderabad, definidos en este escenario con Windows PowerShell de Lync Server. Solo la configuración específica para el enrutamiento basado en ubicación se incluye en la tabla con fines ilustrativos.
 
     Set-CsNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true -VoiceRoutingPolicy "DelhiVoiceRoutingPolicy"
     Set-CsNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true -VoiceRoutingPolicy "HyderabadVoiceRoutingPolicy"
@@ -117,7 +117,7 @@ En este ejemplo, la tabla siguiente muestra el enrutamiento basado en la ubicaci
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nombre del sitio</p></td>
+<td><p>Nombre del sitio </p></td>
 <td><p>Sitio 1 (Delhi)</p></td>
 <td><p>Sitio 2 (Hyderabad)</p></td>
 </tr>
@@ -149,43 +149,43 @@ En este ejemplo, la tabla siguiente muestra el enrutamiento basado en la ubicaci
 
 <div>
 
-## <a name="enable-location-based-routing-to-trunks"></a>Habilitar el enrutamiento basado en la ubicación a los troncos
+## <a name="enable-location-based-routing-to-trunks"></a>Habilitar el enrutamiento basado en ubicación a troncos
 
-Antes de poder habilitar una configuración de tronco para el enrutamiento basado en la ubicación, debe crear una configuración troncal para cada troncal o cada sitio de red. Use el comando de Windows PowerShell de Lync Server, New-CsTrunkConfiguration, para crear una configuración troncal. Si hay varios troncos asociados con un sistema determinado (por ejemplo, puerta de enlace o PBX), cada configuración de troncal debe modificarse para habilitar las restricciones de enrutamiento basadas en la ubicación.
+Antes de poder habilitar una configuración de tronco para el enrutamiento basado en ubicación, debe crear una configuración de tronco para cada tronco o cada sitio de red. Use el comando de Windows PowerShell de Lync Server, New-CsTrunkConfiguration, para crear una configuración de tronco. Si hay varios troncos asociados a un sistema determinado (por ejemplo, a una puerta de enlace o PBX), se debe modificar cada configuración de tronco para habilitar las restricciones de enrutamiento basadas en la ubicación.
 
     New-CsTrunkConfiguration -Identity < trunk configuration ID>
 
 Para obtener más información, vea [New-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration).
 
-En este ejemplo, los siguientes comandos de Windows PowerShell ilustran la creación de una configuración de tronco para cada tronco de la implementación definida en este escenario.
+En este ejemplo, los siguientes comandos de Windows PowerShell ilustran la creación de una configuración de tronco para cada tronco en la implementación definida en este escenario.
 
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 1 DEL-GW>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 2 HYD-GW>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 3 DEL-PBX>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 4 HYD-PBX>"
 
-Una vez configurada la configuración del tronco por tronco, puede usar el comando de Windows PowerShell de Lync Server, Set-CsTrunkConfiguration, para habilitar el enrutamiento basado en la ubicación a sus troncos que deben exigir restricciones de enrutamiento. Habilite el enrutamiento basado en la ubicación a los troncos que enruten las llamadas a puertas de enlace RTC que enruten las llamadas a la RTC y asocie el sitio de red donde se encuentra la puerta de enlace.
+Una vez configurada la configuración del tronco por tronco, puede usar el comando de Windows PowerShell de Lync Server, Set-CsTrunkConfiguration, para habilitar el enrutamiento basado en ubicación a los troncos que deben exigir restricciones de enrutamiento. Habilite el enrutamiento basado en ubicación a los troncos que enruten las llamadas a puertas de enlace RTC que enruten las llamadas a la RTC y asocien el sitio de red en el que se encuentra la puerta de enlace.
 
     Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
 Para obtener más información, vea [New-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration).
 
-En este ejemplo, el enrutamiento basado en la ubicación está habilitado para cada tronco asociado a las puertas de enlace RTC de Delhi y Hyderabad:
+En este ejemplo, el enrutamiento basado en ubicación está habilitado para todos los tronco asociados a puertas de enlace RTC en Delhi y Hyderabad:
 
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
 
   
 
-No habilite el enrutamiento basado en la ubicación para los troncos que no enruten las llamadas a la RTC; sin embargo, todavía debe asociar el tronco al sitio de red donde se encuentra el sistema, ya que es necesario exigir restricciones de enrutamiento basado en la ubicación para las llamadas RTC que llegan a los puntos de conexión conectados a través de este tronco. En este ejemplo, el enrutamiento basado en la ubicación no está habilitado para cada tronco asociado a sistemas PBX en Delhi y Hyderabad:
+No habilite el enrutamiento basado en ubicación para troncos que no enruten llamadas a la RTC; sin embargo, debe asociar el tronco al sitio de red donde se encuentra el sistema, ya que las restricciones de enrutamiento basadas en ubicación deben aplicarse para las llamadas RTC que alcanzan los extremos conectados a través de este tronco. Para este ejemplo, el enrutamiento basado en ubicación no está habilitado para todos los tronco asociados a sistemas PBX en Delhi y Hyderabad:
 
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
 
   
-Los puntos de conexión que estén conectados a sistemas que no enruten llamadas a la RTC (es decir, una PBX) tendrán restricciones similares a las de los extremos de Lync de los usuarios habilitados para el enrutamiento basado en la ubicación. Esto significa que estos usuarios podrán realizar y recibir llamadas a y desde el usuario de Lync independientemente de la ubicación del usuario. También podrán realizar llamadas recibidas a otros sistemas y desde otros sistemas que no enruten las llamadas a la red RTC (es decir, un extremo conectado a otro PBX), independientemente del sitio de red al que esté asociado el sistema. Todas las llamadas entrantes, las llamadas salientes, las transferencias de llamadas y el desvío de llamadas con puntos de conexión RTC estarán sujetos a las fuerzas de enrutamiento basadas en la ubicación. Dichas llamadas deben usar solo puertas de enlace RTC que estén definidas como locales para esos sistemas.
+Los extremos que están conectados a sistemas que no enrutan las llamadas a la RTC (es decir, una PBX) tendrán restricciones similares a las de los extremos de Lync de los usuarios habilitados para el enrutamiento basado en ubicación. Esto significa que estos usuarios podrán realizar y recibir llamadas a y desde el usuario de Lync, independientemente de la ubicación del usuario. También podrán realizar llamadas de recepción a y desde otros sistemas que no enruten las llamadas a la red RTC (es decir, un extremo conectado a otra PBX), independientemente del sitio de red al que esté asociado el sistema. Todas las llamadas entrantes, las llamadas salientes, las transferencias de llamadas y el desvío de llamadas con extremos RTC estarán sujetos a las fuerzas de enrutamiento basadas en la ubicación. Estas llamadas deben usar solo puertas de enlace RTC definidas como locales para dichos sistemas.
 
-En la tabla siguiente se muestra la configuración troncal de cuatro troncos en dos sitios de red diferentes: dos conectados a puertas de enlace RTC y dos conectados a sistemas PBX.
+En la tabla siguiente se muestra la configuración de tronco de cuatro troncos en dos sitios de red diferentes: dos conectados a puertas de enlace RTC y dos conectados a sistemas PBX.
 
 
 <table>
@@ -203,23 +203,23 @@ En la tabla siguiente se muestra la configuración troncal de cuatro troncos en 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>PstnGateway: troncal 1 DEL-GW</p></td>
-<td><p>Verdadero</p></td>
+<td><p>PstnGateway: tronco 1 DEL-GW</p></td>
+<td><p>True</p></td>
 <td><p>Sitio 1 (Delhi)</p></td>
 </tr>
 <tr class="even">
-<td><p>PstnGateway: Troncal 2 HYD-GW</p></td>
-<td><p>Verdadero</p></td>
+<td><p>PstnGateway: tronco 2 HYD-GW</p></td>
+<td><p>True</p></td>
 <td><p>Sitio 2 (Hyderabad)</p></td>
 </tr>
 <tr class="odd">
-<td><p>PstnGateway: troncal 3 DEL-PBX</p></td>
-<td><p>Falso</p></td>
+<td><p>PstnGateway: tronco 3 DEL-PBX</p></td>
+<td><p>False</p></td>
 <td><p>Sitio 1 (Delhi)</p></td>
 </tr>
 <tr class="even">
-<td><p>PstnGateway: troncal 4 HYD-PBX</p></td>
-<td><p>Falso</p></td>
+<td><p>PstnGateway: tronco 4 HYD-PBX</p></td>
+<td><p>False</p></td>
 <td><p>Sitio 2 (Hyderabad)</p></td>
 </tr>
 </tbody>
@@ -235,15 +235,15 @@ En la tabla siguiente se muestra la configuración troncal de cuatro troncos en 
 
 <div>
 
-## <a name="enable-location-based-routing-to-voice-policies"></a>Habilitar el enrutamiento basado en la ubicación a directivas de voz
+## <a name="enable-location-based-routing-to-voice-policies"></a>Habilitar el enrutamiento basado en ubicación a directivas de voz
 
-Para aplicar el enrutamiento basado en la ubicación a usuarios específicos, configure la Directiva de voz de los usuarios para evitar la omisión de llamadas RTC. Use el comando de Windows PowerShell de Lync Server, New-CsVoicePolicy, para crear una nueva Directiva de voz o set-CsVoicePolicy, si usa una directiva existente, para habilitar el enrutamiento basado en la ubicación evitando la omisión de llamadas RTC.
+Para aplicar el enrutamiento basado en ubicación a usuarios específicos, configure la Directiva de voz de los usuarios para evitar el desvío de llamadas RTC. Use el comando de Windows PowerShell de Lync Server, New-CsVoicePolicy, para crear una nueva Directiva de voz o set-CsVoicePolicy, si usa una directiva existente, para habilitar el enrutamiento basado en ubicación evitando el desvío de llamadas RTC.
 
     Set-CsVoicePolicy -Identity <voice policy ID> -PreventPSTNTollBypass <$true|$false>
 
 Para obtener más información, vea [New-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsVoicePolicy).
 
-En este ejemplo, los siguientes comandos de tabla y Windows PowerShell ilustran la prevención de la omisión de llamadas RTC en las directivas de voz de Delhi y Hyderabad definidas en este escenario. En la tabla solo se incluyen los valores específicos del enrutamiento basado en la ubicación con fines de ilustración.
+En este ejemplo, los siguientes comandos de Windows PowerShell y tabla muestran cómo evitar la omisión de peajes RTC en las directivas de voz de Delhi y Hyderabad definidas en este escenario. Solo la configuración específica para el enrutamiento basado en ubicación se incluye en la tabla con fines ilustrativos.
 
     Set-CsVoicePolicy -Identity "Delhi voice policy" -PreventPSTNTollBypass $true
     Set-CsVoicePolicy -Identity "Hyderabad voice policy" -PreventPSTNTollBypass $true
@@ -258,19 +258,19 @@ En este ejemplo, los siguientes comandos de tabla y Windows PowerShell ilustran 
 <thead>
 <tr class="header">
 <th></th>
-<th>Política de voz 1</th>
-<th>Política de voz 2</th>
+<th>Directiva de voz 1</th>
+<th>Directiva de voz 2</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>IDENTIFICADOR de la Directiva de voz</p></td>
 <td><p>Directiva de voz de Delhi</p></td>
-<td><p>Política de voz de Hyderabad</p></td>
+<td><p>Directiva de voz Hyderabad</p></td>
 </tr>
 <tr class="even">
 <td><p>Usos de RTC</p></td>
-<td><p>Uso de la Delhi, PBX del uso, uso de HYD de PBX</p></td>
+<td><p>Uso de Delhi, PBX del uso, uso de HYD de PBX</p></td>
 <td><p>Uso de Hyderabad, uso de HYD de PBX, PBX del uso</p></td>
 </tr>
 <tr class="odd">
@@ -291,19 +291,19 @@ En este ejemplo, los siguientes comandos de tabla y Windows PowerShell ilustran 
 
 <div>
 
-## <a name="enable-location-based-routing-in-the-routing-configuration"></a>Habilitar el enrutamiento basado en la ubicación en la configuración de enrutamiento
+## <a name="enable-location-based-routing-in-the-routing-configuration"></a>Habilitar el enrutamiento basado en ubicación en la configuración de enrutamiento
 
-Por último, habilite globalmente el enrutamiento basado en la ubicación a la configuración de enrutamiento. Use el comando de Windows PowerShell de Lync Server, New-CsRoutingConfiguration, para habilitar el enrutamiento basado en la ubicación.
+Por último, habilite globalmente el enrutamiento basado en ubicación a la configuración de enrutamiento. Use el comando de Windows PowerShell de Lync Server, New-CsRoutingConfiguration, para habilitar el enrutamiento basado en ubicación.
 
     Set-CsRoutingConfiguration -EnableLocationBasedRouting $true
 
-Para obtener más información, consulte [set-CsRoutingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsRoutingConfiguration).
+Para obtener más información, vea [set-CsRoutingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsRoutingConfiguration).
 
 <div>
 
 
 > [!NOTE]  
-> Si bien el enrutamiento basado en la ubicación debe habilitarse a través de una configuración global, el conjunto de reglas que se aplicará solo se aplicará a los sitios, usuarios y troncos para los que se haya configurado tal como se especifica en esta documentación.
+> Aunque el enrutamiento basado en ubicación debe habilitarse a través de una configuración global, el conjunto de reglas que se aplicará solo se aplicará a los sitios, usuarios y troncos para los que se haya configurado tal y como se especifica en esta documentación.
 
 
 
@@ -321,7 +321,7 @@ Para obtener más información, consulte [set-CsRoutingConfiguration](https://do
 ## <a name="see-also"></a>Vea también
 
 
-[Configurar el enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
+[Configuración del enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

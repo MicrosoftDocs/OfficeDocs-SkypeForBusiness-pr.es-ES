@@ -12,16 +12,16 @@ ms:contentKeyID: 50873758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 442341c51ef6477f72fb9e88cdea5fe7fc527aa8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ae209caef3910ad08d09391cb13de4e1e0ceb7a2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722450"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046003"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41722450"
 
 _**Última modificación del tema:** 2013-01-21_
 
-Las reglas de directiva de versión de cliente definen las acciones que se deben realizar cuando los usuarios intentan iniciar sesión con clientes específicos y versiones de cliente. Puede crear o modificar reglas individuales para una directiva de versión de cliente desde el panel de control de Lync Server 2013.
+Las reglas de directiva de versión de cliente definen las acciones que se deben llevar a cabo cuando los usuarios intentan iniciar sesión con clientes y versiones de cliente específicos. Puede crear o modificar reglas individuales para una directiva de versión de cliente desde el panel de control de Lync Server 2013.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Las reglas se muestran en orden de prioridad. Por ejemplo, si tiene una regla que permite a los clientes que ejecutan la versión 1,5 se conecte, seguido de una regla que bloquea los clientes que ejecutan una versión anterior a la 2,0, la primera regla tiene prioridad y los clientes que ejecutan la versión 1,5 pueden conectarse.
+> Las reglas se enumeran en orden de prioridad. Por ejemplo, si tiene una regla que permite la conexión a los clientes que ejecutan la versión 1,5, seguido de una regla que bloquea los clientes que ejecutan una versión anterior a la 2,0, la primera regla tiene prioridad y los clientes que ejecutan la versión 1,5 tienen permiso para conectarse.
 
 
 
@@ -55,32 +55,32 @@ Las reglas de directiva de versión de cliente definen las acciones que se deben
 
 1.  [Cree o modifique una nueva Directiva de versión de cliente en Lync server 2013 con el](lync-server-2013-create-or-modify-a-new-client-version-policy.md) panel de control de Lync Server.
 
-2.  En la página **Editar Directiva de versión del cliente** , realice una de las siguientes acciones:
+2.  En la página **Editar Directiva de versión de cliente** , realice una de las siguientes acciones:
     
-      - Haga clic en **nuevo** para crear una nueva regla de versión de cliente.
+      - Haga clic en **Nueva** para crear una regla nueva de versión de cliente.
     
-      - Haga clic en uno de los tipos de cliente definidos en la lista y, a continuación, haga clic en **Mostrar detalles**.
+      - Haga clic en uno de los tipos de cliente definidos en la lista y, a continuación, haga clic en **Mostrar detalles...**.
     
     <div>
     
 
     > [!NOTE]  
-    > Puede usar caracteres comodín para indicar el tipo de cliente.
+    > Puede usar comodines para indicar el tipo de cliente.
 
     
     </div>
 
-3.  En **agente de usuario**, seleccione un tipo de cliente.
+3.  En **Aplicación**, seleccione un tipo de cliente.
 
-4.  En **número de versión**, haga lo siguiente:
+4.  En **Número de versión**, siga este procedimiento:
     
-      - En **versión principal**, escriba el número que corresponde a la versión principal del cliente.
+      - En **Versión principal**, escriba el número que se corresponde con la versión principal del cliente.
     
-      - En **versión secundaria**, escriba el número que corresponde a la versión secundaria del cliente.
+      - En **Versión secundaria**, escriba el número que se corresponde con la versión secundaria del cliente.
     
-      - En **crear**, escriba el número que corresponde a la versión principal y secundaria del cliente.
+      - En **Versión**, escriba el número que se corresponde con la versión principal y secundaria del cliente.
     
-      - En **Actualizar**, escriba el número que corresponde a la versión actualizada del cliente.
+      - En **Actualización**, escriba el número que se corresponde con la versión actualizada del cliente.
     
     <div>
     
@@ -91,7 +91,7 @@ Las reglas de directiva de versión de cliente definen las acciones que se deben
     
     </div>
 
-5.  Para especificar la operación correspondiente a la versión del cliente que especificó en los pasos anteriores, en **operación de comparación**, haga clic en una de las opciones siguientes:
+5.  Para especificar la operación coincidente para la versión del cliente que haya especificado en los pasos anteriores, en **Operación de comparación**, haga clic en una de las siguientes opciones:
     
       - **Igual que**
     
@@ -105,32 +105,32 @@ Las reglas de directiva de versión de cliente definen las acciones que se deben
     
       - **Posterior a o igual que**
 
-6.  Para especificar **la acción que**se realizará cuando se cumplan los criterios de los pasos anteriores, haga clic en una de las siguientes acciones:
+6.  Para especificar la acción a realizar cuando se cumplen los criterios de los pasos anteriores, haga clic en una de las siguientes opciones en **Acción**:
     
-      - Para permitir que el cliente inicie sesión, haga clic en **permitir**.
+      - Para permitir que el usuario inicie sesión, haga clic en **Permitir**.
     
-      - Para permitir que el cliente inicie sesión y reciba actualizaciones de Windows Server Update Services o Microsoft Update, haga clic en **permitir y actualizar**. Esta acción solo está disponible cuando se selecciona **OC** como agente del usuario.
+      - Para permitir que el cliente inicie sesión y reciba actualizaciones de Windows Server Update Service o Microsoft Update, haga clic en **permitir y actualizar**. Esta acción solo está disponible cuando se selecciona **OC** del agente del usuario.
         
         <div>
         
 
         > [!NOTE]  
-        > Si selecciona esta acción, una notificación aparecerá la próxima vez que los usuarios inicien sesión en Lync 2013. La notificación comunica que hay una actualización disponible, aun cuando Windows Server Update Service o Microsoft Update todavía no la hayan publicado. Para evitar confusiones, recomendamos elegir esta acción solo cuando las actualizaciones estén disponibles.
+        > Al seleccionar esta acción, aparecerá una notificación la próxima vez que los usuarios inicien sesión en Lync 2013. La notificación comunica que hay una actualización disponible, aunque las actualizaciones aún no se hayan publicado en Windows Server Update Service o en Microsoft Update. Para evitar confusiones, se recomienda elegir esta acción solo cuando las actualizaciones estén disponibles.
 
         
         </div>
     
-      - Para permitir que el cliente inicie sesión y muestre un mensaje sobre dónde Descargar otra versión del cliente, haga clic en **permitir con la dirección URL**. La dirección URL se especifica más adelante en este procedimiento.
+      - Para permitir que un cliente inicie sesión y muestre un mensaje sobre dónde descargar otra versión de cliente, haga clic en **Permitir con dirección URL**. En este procedimiento, la dirección URL se especifica más adelante.
     
-      - Para evitar que el cliente inicie sesión, haga clic en **bloquear**.
+      - Para impedir que el cliente inicie sesión, haga clic en **Bloquear**.
     
-      - Para evitar que el cliente inicie sesión y permitir que el cliente reciba actualizaciones de Windows Server Update Services o Microsoft Update, haga clic en **bloquear y actualizar**. Esta acción solo está disponible cuando se selecciona **OC** como agente del usuario.
+      - Para evitar que el cliente inicie sesión y permitir que el cliente reciba actualizaciones de Windows Server Update Service o Microsoft Update, haga clic en **bloquear y actualizar**. Esta acción solo está disponible cuando se selecciona **OC** del agente del usuario.
     
-      - Para evitar que el cliente inicie sesión y muestre un mensaje sobre dónde Descargar otra versión del cliente, haga clic en **bloquear con dirección URL**. La dirección URL se especifica más adelante en este procedimiento.
+      - Para impedir que un cliente inicie sesión y se muestre un mensaje sobre dónde descargar otra versión de cliente, haga clic en **Bloquear con dirección URL**. En este procedimiento, la dirección URL se especifica más adelante.
 
-7.  Faculta Si hizo clic en **permitir con URL** o **bloque con dirección URL** en el paso anterior, escriba la dirección URL de descarga del cliente que se incluirá en el mensaje de la **dirección URL**.
+7.  (Opcional) Si hizo clic en **Permitir con dirección URL** o **Bloquear con dirección URL** en el paso anterior, escriba la dirección URL de descarga a incluir en el mensaje en **Dirección URL**.
 
-8.  Haga clic en **Aceptar**y, a continuación, en **Ejecutar**.
+8.  Haga clic en **Aceptar** y, a continuación, en **Confirmar**.
 
 </div>
 

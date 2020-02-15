@@ -12,16 +12,16 @@ ms:contentKeyID: 48183527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fba07f35836e6b8ac5025b887c69bea283846b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23c32967da142d48d15a8fec484134c11af9170a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725800"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046273"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,39 +37,39 @@ ms.locfileid: "41725800"
 
 _**Última modificación del tema:** 2012-06-27_
 
-Los cmdlets de interoperabilidad se usan para configurar la autenticación de servidor a servidor y la autorización entre Microsoft Lync Server 2013 y otros productos de servidor como Microsoft Exchange Server 2013. La autenticación y autorización de servidor a servidor permite a estos servidores intercambiar y compartir datos fácilmente.
+Los cmdlets de interoperabilidad se usan para configurar la autenticación de servidor a servidor y la autorización entre Microsoft Lync Server 2013 y otros productos de servidor como Microsoft Exchange Server 2013. La autenticación de servidor a servidor, así como la autorización permite a estos servidores intercambiar y compartir datos sin problemas.
 
 <div>
 
 ## <a name="interoperability-cmdlets"></a>Cmdlets de interoperabilidad
 
-A continuación se muestra una lista de cmdlets que se relacionan directamente con la configuración y la administración de la interoperabilidad entre Microsoft Lync Server 2013 y otros productos de servidor:
+A continuación se muestra una lista de cmdlets directamente relacionados con la configuración y la administración de la interoperabilidad entre Microsoft Lync Server 2013 y otros productos de servidor:
 
 **Cmdlets de interoperabilidad**
 
-  - [Get-CsOAuthConfiguration](https://technet.microsoft.com/en-us/library/JJ205155(v=OCS.15))
+  - [Get-CsOAuthConfiguration](https://technet.microsoft.com/library/JJ205155(v=OCS.15))
 
-  - [Set-CsOAuthConfiguration](https://technet.microsoft.com/en-us/library/JJ204841(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ205238(v=OCS.15))
-
-  - [New-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ205206(v=OCS.15))
-
-  - [Remove-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ205408(v=OCS.15))
-
-  - [Set-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ204896(v=OCS.15))
+  - [Set-CsOAuthConfiguration](https://technet.microsoft.com/library/JJ204841(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ205128(v=OCS.15))
+  - [Get-CsOAuthServer](https://technet.microsoft.com/library/JJ205238(v=OCS.15))
 
-  - [New-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ204628(v=OCS.15))
+  - [New-CsOAuthServer](https://technet.microsoft.com/library/JJ205206(v=OCS.15))
 
-  - [Remove-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ204820(v=OCS.15))
+  - [Remove-CsOAuthServer](https://technet.microsoft.com/library/JJ205408(v=OCS.15))
 
-  - [Set-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ204755(v=OCS.15))
+  - [Set-CsOAuthServer](https://technet.microsoft.com/library/JJ204896(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsPartnerApplication](https://technet.microsoft.com/library/JJ205128(v=OCS.15))
+
+  - [New-CsPartnerApplication](https://technet.microsoft.com/library/JJ204628(v=OCS.15))
+
+  - [Remove-CsPartnerApplication](https://technet.microsoft.com/library/JJ204820(v=OCS.15))
+
+  - [Set-CsPartnerApplication](https://technet.microsoft.com/library/JJ204755(v=OCS.15))
 
 </div>
 

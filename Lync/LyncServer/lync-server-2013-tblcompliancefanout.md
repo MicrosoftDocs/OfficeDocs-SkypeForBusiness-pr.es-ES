@@ -12,16 +12,16 @@ ms:contentKeyID: 48185828
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 196911f4fdcb7f2713ed25cca114ff9954b0c6e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c535dc860c5d1a8725d27217e8269c3d6c4902d2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764216"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049252"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41764216"
 
 _**Última modificación del tema:** 2012-09-12_
 
-tblComplianceFanout contiene todos los servidores que procesaron un evento de cumplimiento.
+La tabla ComplianceFanout contiene todos los servidores que han procesado un evento de cumplimiento.
 
-### <a name="columns"></a>Columnas
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -58,18 +58,18 @@ tblComplianceFanout contiene todos los servidores que procesaron un evento de cu
 <tr class="odd">
 <td><p>fanoutEventID</p></td>
 <td><p>int</p></td>
-<td><p>IDENTIFICADOR de evento.</p></td>
+<td><p>Id. del evento</p></td>
 </tr>
 <tr class="even">
 <td><p>fanoutServerID</p></td>
 <td><p>int</p></td>
-<td><p>Identidad del servidor (correspondiente a la tabla tblServerIdentity. serverID).</p></td>
+<td><p>Identidad del servidor (correspondiente a la tabla ServerIdentity.serverID).</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Clave
+### <a name="key"></a>Key 
 
 <table>
 <colgroup>
@@ -85,7 +85,7 @@ tblComplianceFanout contiene todos los servidores que procesaron un evento de cu
 <tbody>
 <tr class="odd">
 <td><p>fanoutEventID</p></td>
-<td><p>Clave externa con la búsqueda en la tabla tblComplianceData. cmplEventID.</p></td>
+<td><p>Clave externa con búsqueda en la tabla ComplianceData.cmplEventID.</p></td>
 </tr>
 </tbody>
 </table>

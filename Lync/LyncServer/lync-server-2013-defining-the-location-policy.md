@@ -12,20 +12,20 @@ ms:contentKeyID: 48185553
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: feb7550412fa6cdcda3a8fc4dd9b7913912c34e1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9842b5bec4b635566288998d6e8110fcc51463d7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728360"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048203"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-location-policy-for-lync-server-2013"></a>Definir la Directiva de ubicación de Lync Server 2013
+# <a name="defining-the-location-policy-for-lync-server-2013"></a>Definición de la Directiva de ubicación para Lync Server 2013
 
 </div>
 
@@ -40,34 +40,34 @@ _**Última modificación del tema:** 2012-10-29_
 Cada directiva de ubicación contiene la información siguiente:
 
   - **Servicios de emergencia habilitados**  
-    Cuando este valor es **sí**, el cliente está habilitado para E9-1-1. Cuando un cliente se registra, intenta adquirir una ubicación desde el servicio de información de ubicación e incluirá la información de ubicación como parte de una llamada de emergencia.
+    Si se define en **Sí**, se habilita al cliente para E9-1-1. Cuando un cliente se registra, intenta adquirir una ubicación del servicio de información de ubicación e incluye la información de ubicación como parte de una llamada de emergencia.
 
 <!-- end list -->
 
-  - **Ubicación requerida**  
+  - **Ubicación obligatoria**  
     Esta configuración solo se usa cuando los **servicios de emergencia habilitados** están establecidos en **sí**.
     
-    Puede configurar la configuración de **Ubicación requerida** para definir el comportamiento del cliente. Si se define el valor en **No**, no se pedirá al usuario una ubicación. Si se define en **Sí**, se pedirá al usuario una ubicación, pero este puede anular la solicitud. Si se define en **Declinación de responsabilidades**, el usuario deberá especificar una ubicación y se le mostrará una declinación de responsabilidades si intenta anular la solicitud. En todos los casos, el usuario puede seguir utilizando el cliente.
+    Configure el parámetro de **Ubicación obligatoria** para definir el comportamiento del cliente. Si se define el valor en **No**, no se pedirá al usuario una ubicación. Si se define en **Sí**, se pedirá al usuario una ubicación, pero este puede anular la solicitud. Si se define en **Declinación de responsabilidades**, el usuario deberá especificar una ubicación y no podrá anular la solicitud hasta que haya introducido una solicitud. En ambos casos el usuario puede continuar usando el cliente.
     
     <div>
     
 
     > [!NOTE]  
-    > El texto de declinación de responsabilidades no aparecerá si el usuario ha introducido manualmente una ubicación antes de ser habilitado para E9-1-1 y los usuarios que ya hayan visto la declinación de responsabilidades no recibirán las actualizaciones de dicho texto. 
+    > El texto de declinación de responsabilidades no aparecerá si el usuario ha introducido manualmente una ubicación antes de ser habilitado para E9-1-1 y los usuarios que ya hayan visto la declinación de responsabilidades no recibirán las actualizaciones de dicho texto.
 
     
     </div>
 
 <!-- end list -->
 
-  - **Declinación de responsabilidades del servicio de emergencia mejorado**  
-    En esta configuración se especifica la declinación de responsabilidad que los usuarios ven si rechazan la solicitud de una ubicación. En Lync Server 2013, puede usar la Directiva de ubicación para establecer distintas renuncias para diferentes configuraciones regionales o conjuntos de usuarios diferentes.
+  - **Declinación de responsabilidad de servicio de emergencia mejorado**  
+    En esta configuración se especifica la declinación de responsabilidad que los usuarios ven si rechazan la solicitud de una ubicación. En Lync Server 2013, puede usar la Directiva de ubicación para establecer diferentes avisos de declinación de responsabilidad para diferentes configuraciones regionales o conjuntos de usuarios diferentes.
     
     <div>
     
 
     > [!NOTE]  
-    > Esta configuración de directiva de ubicación difiere de Lync Server 2010, donde se usaba el cmdlet <STRONG>set-CsEnhancedEmergencyServiceDisclaimer</STRONG> para establecer un aviso de declinación de responsabilidades global para toda la organización. Si ya existe un aviso de declinación de responsabilidades global, debe especificar esa renuncia en la Directiva de ubicación. Es decir, Lync Server 2013 solo usa descargos de responsabilidad especificados en la Directiva de ubicación.
+    > Esta configuración de directiva difiere de Lync Server 2010, donde se usa el cmdlet <STRONG>set-CsEnhancedEmergencyServiceDisclaimer</STRONG> para establecer una declinación de responsabilidades global para toda la organización. Si ya existe una declinación de responsabilidad global, especifique la declinación de responsabilidad en la directiva de ubicación. Es decir, Lync Server 2013 solo usa avisos de declinación de responsabilidad especificados en la Directiva de ubicación.
 
     
     </div>
@@ -75,13 +75,13 @@ Cada directiva de ubicación contiene la información siguiente:
 <!-- end list -->
 
   - **Cadena de marcado de emergencia**  
-    Esta cadena de marcado (menos el "+" inicial, pero incluida la normalización que realiza el plan de marcado del usuario de Lync) significa que una llamada es una llamada de emergencia. La **cadena de marcado de emergencia** implica que el cliente incluya la información de la devolución de llamadas y de la ubicación con la llamada.
+    La cadena de marcado que indica que la llamada en cuestión es una llamada de emergencia. La **cadena de marcado de emergencia** comporta la adición a la llamada de información de ubicación y devolución de llamada por parte del cliente.
     
     <div>
     
 
     > [!NOTE]  
-    > Si su organización no usa un prefijo de acceso de línea externa, no es necesario crear una regla de normalización de plan de marcado correspondiente que agregue un signo "+" a la cadena de 911 antes de enviar la llamada al enrutamiento de salida en un servidor de grupo de Lync. el cliente de Lync agrega automáticamente el prefijo "+" como resultado de la Directiva de ubicación. Sin embargo, si su sitio utiliza un prefijo de acceso externo, debe agregar una regla de normalización a la directiva de plan de marcado correspondiente que quite el prefijo de acceso externo y agregue el signo “+”. Por ejemplo, si su ubicación usa un prefijo de acceso externo de 9 y un usuario marca&nbsp;9 911 para realizar una llamada de emergencia, el cliente usará su Directiva de plan de marcado para normalizarlo a + 911 antes de que el número marcado sea evaluado por las rutas en el perfil de ubicación de la persona que llama.
+    > Si su organización no utiliza un prefijo de acceso de línea externo, no tendrá que crear una regla de normalización de planes de marcado correspondiente que añada un signo “+” a la cadena 911 antes de enviar la llamada al enrutamiento de salida en el servidor de grupo de Lync; el signo “+” se agregará automáticamente por parte del cliente de Lync como resultado de la directiva de ubicación. Sin embargo, si su sitio utiliza un prefijo de acceso externo, agregue una regla de normalización a la directiva de plan de marcado aplicable que quite el prefijo de acceso externo y agregue el signo “+”. Por ejemplo, si su ubicación usa un prefijo de acceso externo de 9 y un usuario marca&nbsp;9 911 para realizar una llamada de emergencia, el cliente usará su Directiva de plan de marcado para normalizarlo a + 911 antes de que las rutas del perfil de ubicación del autor de la llamada evalúen el número marcado.
 
     
     </div>
@@ -89,12 +89,12 @@ Cada directiva de ubicación contiene la información siguiente:
 <!-- end list -->
 
   - **Máscaras de cadena de marcado de emergencia**  
-    Lista separada por punto y coma de cadenas de marcado que se traduce en la **cadena de marcado de emergencia**especificada. Por ejemplo, es posible que desee agregar 112, que es el número de servicio de emergencia de la mayor parte de Europa. Es posible que un usuario de Lync que visite Europa no sepa que 911 es el número de emergencia de Estados Unidos, pero sí puede marcar 112 y obtener el mismo resultado. Al igual que con la cadena de marcado de emergencia, no incluya un signo "+" antes de cada número y, si usa códigos de acceso de línea externa, asegúrese de que existen reglas de normalización en la Directiva del plan de marcado del usuario para quitar el dígito de código de acceso.
+    Una lista de cadenas de marcado separadas por caracteres de punto y coma que deben convertirse a la **cadena de marcado de emergencia** especificada. Por ejemplo, es posible que desee agregar 112, que es el número del servicio de emergencia para la mayor parte de Europa. Un usuario de Lync visitante proveniente de Europa puede que no sepa que el 911 es el número de emergencia en los Estados Unidos, pero puede marcar el 112 y obtener el mismo resultado. Al igual que con la cadena de marcado de emergencia, no incluya un signo “+” antes de cada número y, si utiliza códigos de acceso de línea externa, asegúrese de que existen reglas de normalización en la directiva del plan de marcado de los usuarios para quitar el dígito del código de acceso.
 
 <!-- end list -->
 
   - **Uso de RTC**  
-    El nombre del uso de RTC que contiene las rutas de acceso de enrutamiento que determinan a qué tronco SIP, a qué puerta de enlace RTC o a qué puerta de enlace ELIN se dirigen las llamadas de emergencia.
+    El nombre del uso de RTC que contiene las rutas de acceso que determinan en qué tronco SIP o puerta de enlace RTC se realizarán las llamadas de emergencia.
     
     <div>
     
@@ -113,17 +113,17 @@ Cada directiva de ubicación contiene la información siguiente:
 <!-- end list -->
 
   - **URI de conferencia**  
-    Especifica el número de llamada directa a la extensión (DID) (normalmente un número del servicio de seguridad) que necesita incluirse en el modo de conferencia cuando se realiza una llamada de emergencia.  
+    Especifica el número de llamada directa a la extensión (DID) (normalmente un número del departamento de seguridad) que debe incluirse en el modo de conferencia cuando se realiza una llamada de emergencia.
 
 <!-- end list -->
 
   - **Modo de conferencia**  
-    Especifica si el URI de conferencia se incluirá en la llamada de emergencia en modo de conferencia a través de una comunicación unidireccional o bidireccional. 
+    Especifica si el URI de conferencia se incluirá en la llamada de emergencia en modo conferencia mediante comunicación unidireccional o bidireccional.
 
 <!-- end list -->
 
   - **Intervalo de actualización de la ubicación**  
-    Especifica la cantidad de tiempo (en horas) entre las solicitudes de un cliente para una actualización de ubicación desde el servicio de información de ubicación. El valor puede ser cualquier número entre 1 y 12. El valor predeterminado es 4.
+    Especifica la cantidad de tiempo (en horas) entre las solicitudes de cliente para una actualización de ubicación desde el servicio de información de ubicación. El valor se puede definir en cualquier número incluido entre 1 y 12. El valor predeterminado es 4.
 
 </div>
 

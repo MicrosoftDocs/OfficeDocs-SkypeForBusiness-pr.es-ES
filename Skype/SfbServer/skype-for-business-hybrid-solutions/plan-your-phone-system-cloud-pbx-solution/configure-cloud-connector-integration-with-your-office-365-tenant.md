@@ -15,61 +15,61 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
-description: Aprenda a configurar la integración de conector de nube con su inquilino de Office 365.
-ms.openlocfilehash: 3e451757d82957987b394b67babe88dac199715b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Obtenga información sobre cómo configurar la integración de Cloud Connector con su inquilino de Office 365.
+ms.openlocfilehash: cf683743064ec377c827fe0c52a59e464f65ae19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803590"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050212"
 ---
-# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configure Cloud Connector integration with your Office 365 tenant
+# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configurar la integración de Cloud Connector con el inquilino de Office 365
  
-Aprenda a configurar la integración de conector de nube con su inquilino de Office 365.
+Obtenga información sobre cómo configurar la integración de Cloud Connector con su inquilino de Office 365.
   
-Una vez completada la instalación de Skype Empresarial Cloud Connector Edition, lleve a cabo los pasos detallados en esta sección para configurar su implementación y conectarla con el inquilino de Office 365.
+Una vez completada la instalación de Skype empresarial Cloud Connector Edition, realice los pasos de esta sección para configurar su implementación y conectarla con el inquilino de Office 365.
   
-## <a name="configure-firewall-settings"></a>Establecer la configuración del firewall
+## <a name="configure-firewall-settings"></a>Configurar las opciones del firewall
 
-Configure las opciones de Firewall para la configuración de su firewall interno y externo en la red perimetral para abrir los puertos necesarios, tal y como se describe en [puertos y protocolos](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports) en [Plan for Skype empresarial Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md).
+Configure las opciones de Firewall para la configuración del firewall interno y externo de la red perimetral para abrir los puertos necesarios, tal y como se describe en [puertos y protocolos](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports) en [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md).
   
-## <a name="set-up-public-switched-telephone-network-pstn-gateways"></a>Configurar las puertas de enlace para la red telefónica conmutada (RTC)
+## <a name="set-up-public-switched-telephone-network-pstn-gateways"></a>Configurar puertas de enlace de red telefónica conmutada (RTC)
 
-Configure los troncos en cada puerta de enlace RTC para que apunten de nuevo a los servidores de mediación de todos los dispositivos. Cada tronco debe apuntar a la dirección IP o el FQDN de un servidor de mediación en lugar de al FQDN del grupo de servidores de mediación, porque este es el mismo para todos los servidores del grupo. Debe configurarse el mismo nivel de prioridad para los troncos.
+Configure los troncos en cada puerta de enlace RTC para que apunten a los servidores de mediación de todos los dispositivos. Debido a que el FQDN del grupo de servidores es el mismo para todos los servidores del grupo, cada tronco debe apuntar a un FQDN o dirección IP del servidor de mediación en lugar del FQDN del grupo de servidores de mediación. Los troncos deben configurarse con la misma prioridad.
   
-Si está usando TLS entre los servidores de mediación y las puertas de enlace, deberá configurarlos para que admitan MTLS de la siguiente manera:
+Si usa TLS entre los servidores de mediación y las puertas de enlace, tendrá que configurar las puertas de enlace y los servidores de mediación para que admitan MTLS de la siguiente manera:
   
 1. Exporte la CA raíz del equipo de Active Directory de Cloud Connector.
     
-2. Siga las instrucciones del proveedor de la puerta de enlace RTC para importar la CA raíz.
+2. Siga las instrucciones del proveedor de la puerta de enlace RTC para importar la entidad de certificación raíz.
     
-3. Importe el certificado de la CA raíz para aquel que fuera emitido para su puerta de enlace en los servidores de mediación. Si tiene que obtener un certificado SSL para la puerta de enlace, puede hacerlo usando el servicio de entidad de certificación que se esté ejecutando en el equipo de Active Directory de Cloud Connector de la siguiente manera:
+3. Importe el certificado de CA raíz del certificado emitido a la puerta de enlace en los servidores de mediación. Si necesita obtener un certificado SSL para la puerta de enlace, puede hacerlo usando el servicio de entidad de certificación que se ejecuta en el equipo de Active Directory de Cloud Connector de la siguiente manera:
     
-   - Modifique la plantilla de servidor web existente para permitir que los usuarios autenticados inscriban o creen una nueva plantilla de servidor web para configurar otras propiedades y permitir la inscripción de usuarios autenticados. Para obtener instrucciones detalladas, consulte [plantillas de certificado](https://technet.microsoft.com/en-us/library/cc730705.aspx).
+   - Modifique la plantilla de servidor web existente para permitir a los usuarios autenticados que se inscriban o cree una nueva plantilla de servidor web para configurar otras propiedades y permitir a los usuarios autenticados que se inscriban. Para obtener instrucciones detalladas, consulte [plantillas de certificado](https://technet.microsoft.com/library/cc730705.aspx).
     
-   - Solicite un certificado con el complemento para certificados seleccionando la plantilla de servidor web que haya habilitado. Asegúrese de agregar Nombre común en Asunto y Nombre DNS en Nombre alternativo con el FQDN de la puerta de enlace, y confirme en Clave privada que Hacer exportable la clave privada esté seleccionada en las opciones de clave. 
+   - Solicite un certificado con el complemento de certificado seleccionando la plantilla de servidor Web que ha habilitado. Asegúrese de agregar un nombre común en asunto y nombre DNS en nombre alternativo con FQDN de la puerta de enlace y confirme que la clave privada que hace que la clave privada sea exportable está seleccionada en opciones de clave. 
     
-4. Exporte el certificado SSL con clave privada y siga las instrucciones del proveedor de la puerta de enlace RTC para importarlo.
+4. Exporte el certificado SSL con clave privada y siga las instrucciones del proveedor de la puerta de enlace RTC para importar el certificado.
     
-## <a name="update-the-domain-for-your-tenant"></a>Actualizar el dominio del inquilino
+## <a name="update-the-domain-for-your-tenant"></a>Actualizar el dominio de su espacio empresarial
 
-Asegúrese de haber completado los pasos para actualizar el dominio en Office 365 y de tener la capacidad para agregar registros DNS. Para obtener más información sobre cómo configurar su dominio en Office 365, vea [Agregar un dominio a office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
+Asegúrese de que ha completado los pasos para actualizar el dominio en Office 365 y tiene la capacidad de agregar registros DNS. Para obtener más información acerca de cómo configurar su dominio en Office 365, consulte [Agregar un dominio a office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
   
-## <a name="add-dns-records-in-office-365-for-your-edge"></a>Agregar registros DNS en Office 365 desde el perímetro
+## <a name="add-dns-records-in-office-365-for-your-edge"></a>Agregar registros DNS en Office 365 para su perímetro
 
-Agregue los siguientes registros DNS a su inquilino de Office 365. Para obtener información sobre cómo agregar registros DNS a su inquilino de Office 365, vea [Agregar o editar registros DNS personalizados en office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
+Agregue los siguientes registros DNS a su inquilino de Office 365. Para obtener información sobre cómo agregar registros DNS a su inquilino de Office 365, vea [Agregar o editar registros DNS personalizados en office 365](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
   
-1. Agregar un registro A de DNS para el acceso perimetral.
+1. Agregar un registro A de DNS para el servidor perimetral de acceso.
     
-2. Office 365 y los scripts de implementación crearán automáticamente registros SRV. Confirme que puede buscar los siguientes dos servicios SIP en el perímetro: _sip y _sipfederationtls.
+2. Los registros SRV se crearán automáticamente con Office 365 y los scripts de implementación. Confirme que puede buscar los siguientes dos servicios SIP en el servidor perimetral: _sip y _sipfederationtls.
     
      ![Confirmación de registros SRV](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
   
-## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-office-365"></a>Configuración de la conectividad híbrida entre Cloud Connector Edition y Office 365
+## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-office-365"></a>Configurar la conectividad híbrida entre la edición de Cloud Connector Edition y Office 365
 
-Para configurar la conectividad híbrida entre la implementación de Skype empresarial Cloud Connector Edition y su inquilino de Office 365, ejecute el siguiente cmdlet en una sesión de PowerShell remota. Para obtener información sobre cómo establecer una sesión de PowerShell remota, consulte: [configurar el equipo para Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
+Para configurar la conectividad híbrida entre su implementación de Skype empresarial Cloud Connector Edition y su inquilino de Office 365, ejecute el siguiente cmdlet en una sesión remota de PowerShell. Para obtener información sobre cómo establecer una sesión remota de PowerShell, consulte: [configurar el equipo para Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx).
   
-El cmdlet establece los FQDN externos para el servidor perimetral de acceso. En el primero de los comandos, el \<FQDN\> del perímetro de acceso externo debe ser el de la función perimetral de acceso de SIP. De forma predeterminada, debe ser AP.\<Domain Name\>.
+El cmdlet establece el FQDN externo del servidor perimetral de acceso. En el primero de los comandos, el \<FQDN\> del servidor perimetral de acceso externo debe ser el del rol perimetral de acceso SIP. De forma predeterminada, debe ser el nombre\<\>del dominio AP.
   
 ```powershell
 Set-CsTenantHybridConfiguration -PeerDestination <External Access Edge FQDN> -UseOnPremDialPlan $false
@@ -77,46 +77,46 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 ```
 
 > [!NOTE]
-> El FQDN de Edge de acceso externo usado para el destino del mismo nivel debe establecerse en un sitio RTC que solo se usará como reserva en caso de que no se haya asignado a un usuario a un sitio RTC. Para obtener más información, consulte [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) y [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
+> El FQDN del servidor perimetral de acceso externo usado para el destino del mismo nivel debe establecerse en un sitio RTC que solo se usará como reserva en caso de que un usuario no esté asignado a un sitio RTC. Para obtener más información, vea [deploy a Single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) e [deploy Multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
-## <a name="set-up-pstn-gateways"></a>Configurar las puertas de enlace RTC
+## <a name="set-up-pstn-gateways"></a>Configurar puertas de enlace RTC
 
-Configure los troncos en cada puerta de enlace RTC para que apunten de nuevo a los servidores de mediación de todos los dispositivos. Cada tronco debe apuntar a la dirección IP o al FQDN de un servidor de mediación en lugar de al FQDN del grupo de servidores de mediación, porque este es el mismo para todos los servidores del grupo. Debe configurarse el mismo nivel de prioridad para los troncos.
+Configure los troncos en cada puerta de enlace RTC para que apunten a los servidores de mediación de todos los dispositivos. Cada tronco debe apuntar a un FQDN o dirección IP del servidor de mediación en lugar del FQDN del grupo de servidores de mediación porque el FQDN del grupo de servidores es el mismo para todos los servidores del grupo. Los troncos deben configurarse con la misma prioridad.
   
-Si está usando TLS entre los servidores de mediación y las puertas de enlace, deberá configurarlos para que admitan MTLS de la siguiente manera:
+Si usa TLS entre los servidores de mediación y las puertas de enlace, tendrá que configurar las puertas de enlace y los servidores de mediación para que admitan MTLS de la siguiente manera:
   
 1. Exporte la CA raíz del equipo de Active Directory de Cloud Connector.
     
-2. Siga las instrucciones del proveedor de la puerta de enlace RTC para importar la CA raíz.
+2. Siga las instrucciones del proveedor de la puerta de enlace RTC para importar la entidad de certificación raíz.
     
-3. Importe el certificado de la CA raíz para aquel que fuera emitido para su puerta de enlace en los servidores de mediación. Si tiene que obtener un certificado SSL para la puerta de enlace, puede hacerlo usando el servicio de entidad de certificación que se esté ejecutando en el equipo de Active Directory de Cloud Connector de la siguiente manera:
+3. Importe el certificado de CA raíz del certificado emitido a la puerta de enlace en los servidores de mediación. Si necesita obtener un certificado SSL para la puerta de enlace, puede hacerlo usando el servicio de entidad de certificación que se ejecuta en el equipo de Active Directory de Cloud Connector de la siguiente manera:
     
    - Modifique la plantilla de servidor web existente para permitir a los usuarios autenticados que se inscriban o cree una nueva plantilla de servidor web para configurar otras propiedades y permitir a los usuarios autenticados que se inscriban. Para obtener instrucciones detalladas, consulte [plantillas de certificado](https://technet.microsoft.com/library/cc730705.aspx).
     
-   - Solicite un certificado con el complemento para certificados seleccionando la plantilla de servidor web que haya habilitado. Asegúrese de agregar Nombre común en Asunto y Nombre DNS en Nombre alternativo con el FQDN de la puerta de enlace, y confirme en Clave privada que Hacer exportable la clave privada esté seleccionada en las opciones de clave. 
+   - Solicite un certificado con el complemento de certificado seleccionando la plantilla de servidor Web que ha habilitado. Asegúrese de agregar un nombre común en asunto y nombre DNS en nombre alternativo con FQDN de la puerta de enlace y confirme que la clave privada que hace que la clave privada sea exportable está seleccionada en opciones de clave. 
     
-4. Exporte el certificado SSL con clave privada y siga las instrucciones del proveedor de la puerta de enlace RTC para importarlo.
+4. Exporte el certificado SSL con clave privada y siga las instrucciones del proveedor de la puerta de enlace RTC para importar el certificado.
     
-5. Las puertas de enlace RTC en cada sitio RTC deben conectarse solamente con los servidores de mediación en el mismo sitio.
+5. Las puertas de enlace RTC en un sitio RTC solo deben conectarse a los servidores de mediación en el mismo sitio.
     
-## <a name="set-up-your-users-in-office-365"></a>Configurar usuarios en Office 365
+## <a name="set-up-your-users-in-office-365"></a>Configurar los usuarios en Office 365
 
-Inicie sesión en el portal de administración de Office 365, agregue los usuarios que se habilitarán para los servicios de voz en línea y asigne una licencia o sistema telefónico de E5 en el complemento de Office 365 a la licencia E3 para estos usuarios. Para obtener información sobre cómo agregar usuarios, consulte [Agregar usuarios a Office 365 para empresas](https://support.office.com/en-US/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Inicie sesión en el portal de administración de Office 365, agregue los usuarios que se habilitarán para los servicios de voz en línea y asigne una licencia o sistema telefónico de E5 en el complemento de Office 365 a la licencia E3 para estos usuarios. Para obtener información acerca de cómo agregar usuarios, consulte [Agregar usuarios a Office 365 para empresas](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
   
-## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>Habilitar usuarios para el sistema telefónico en los servicios de voz y correo de voz de Office 365
+## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>Habilitar a los usuarios para sistema telefónico en los servicios de voz y voz de Office 365
 
-Después de agregar los usuarios a Office 365, habilite sus cuentas para el sistema telefónico en los servicios de voz de Office 365, incluido el buzón de voz. Para habilitar estas funcionalidades, debe iniciar sesión en el inquilino de Office 365 con una cuenta que sea del rol de administrador global de Office 365 y debe poder ejecutar PowerShell remoto. Para obtener más información sobre cómo establecer una sesión remota de PowerShell, consulte: [configurar el equipo para Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)
+Después de agregar los usuarios a Office 365, habilite sus cuentas para el sistema telefónico en los servicios de voz de Office 365, incluido el correo de voz. Para habilitar estas funciones, debe iniciar sesión en el inquilino de Office 365 con una cuenta de un rol de administrador global de Office 365 y poder ejecutar PowerShell remoto. Para obtener información sobre cómo establecer una sesión remota de PowerShell, consulte: [configurar el equipo para Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)
   
-- Asigne la Directiva al usuario y configure el número de teléfono de la voz empresarial del usuario, que se especifica con el valor del parámetro **Identity** :
+- Asigne la Directiva a su usuario y configure el número de teléfono de voz empresarial del usuario, que se especifica con el valor del parámetro **Identity** :
     
   ```powershell
   Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI <tel:+phonenumber>
   ```
 
     > [!NOTE]
-    > Una identidad de usuario se puede especificar mediante la dirección SIP del usuario, el nombre principal de usuario (UPN) o el nombre para mostrar de Active Directory del usuario (por ejemplo, "Bob Kelly"). El carácter asterisco\*() también se puede usar con el nombre para mostrar como la identidad del usuario. Por ejemplo, la identidad "\*Smith" devuelve todos los usuarios que tienen un nombre para mostrar que termina con el valor de cadena "Smith".
+    > Se puede especificar una identidad de usuario con la dirección SIP del usuario, el nombre principal del usuario (UPN) o el nombre para mostrar de Active Directory del usuario (por ejemplo, "Bob Kelly"). El carácter asterisco\*() también puede usarse con el nombre para mostrar como identidad del usuario. Por ejemplo, la identidad "\*Smith" devuelve todos los usuarios que tienen un nombre para mostrar que termina con el valor de cadena "Smith".
   
-Después puede comprobar si se agregaron los usuarios y si se los habilitó con el siguiente script:
+A continuación, puede comprobar que los usuarios se han agregado y habilitado mediante el siguiente script:
   
 ```powershell
 # Input the user name you want to verify
@@ -132,19 +132,19 @@ $user.HostedVoiceMail
 $user.VoicePolicy
 ```
 
-Tendrá que decidir si los usuarios deberán tener la capacidad de realizar llamadas internacionales, lo que está habilitado de manera predeterminada. Puede habilitar o deshabilitar el marcado internacional para los usuarios con el centro de administración en línea de Skype Empresarial.
+Deberá decidir si los usuarios deben poder realizar llamadas internacionales. De forma predeterminada, la llamada internacional está habilitada. Puede deshabilitar o habilitar a los usuarios para el marcado internacional mediante el centro de administración de Skype empresarial en línea.
   
-Para deshabilitar las llamadas internacionales para cada usuario en particular, ejecute el siguiente cmdlet en el PowerShell de Skype Empresarial Online:
+Para deshabilitar las llamadas internacionales en función de cada usuario, ejecute el siguiente cmdlet en PowerShell de Skype empresarial online:
   
 ```powershell
 Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $user
 ```
 
-Para volver a habilitar las llamadas internacionales por usuario, después de haberla deshabilitado, ejecute el mismo cmdlet, pero cambie el valor de **PolicyName** a *InternationalCallsAllowed* .
+Para volver a habilitar las llamadas internacionales en función de cada usuario después de que se haya deshabilitado, ejecute el mismo cmdlet, pero cambie el valor de **PolicyName** a *InternationalCallsAllowed* .
   
-## <a name="assign-users-to-pstn-sites"></a>Asignar usuarios a sitios de RTC
+## <a name="assign-users-to-pstn-sites"></a>Asignar usuarios a sitios RTC
 
-Use el PowerShell remoto del inquilino para asignar un sitio a los usuarios, aunque haya implementado solo un único sitio. Para obtener información sobre cómo establecer una sesión de PowerShell remota, consulte: [configurar el equipo para Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
+Use el PowerShell remoto del inquilino para asignar un sitio a los usuarios, incluso si solo implementó un sitio único. Para obtener información sobre cómo establecer una sesión remota de PowerShell, consulte: [configurar el equipo para Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx).
   
 ```powershell
 # Set the site to users
@@ -158,18 +158,18 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
 ```
 
 > [!NOTE]
-> Si no se asigna ningún sitio de RTC a un usuario, la conectividad híbrida entre la implementación de Skype Empresarial Cloud Connector Edition y el inquilino de Office 365 volverá a usar el valor predeterminado uno del nivel del inquilino (Peer Destination) para que puedan completarse las llamadas. 
+> Si no se ha asignado ningún sitio RTC a un usuario, la conectividad híbrida entre su implementación de Skype empresarial Cloud Connector Edition y el inquilino de Office 365 se revertirá para usar el valor predeterminado del nivel de inquilino (destino del mismo nivel) para que las llamadas se puedan completar. 
   
-## <a name="configure-online-hybrid-mediation-server-settings"></a>Configuración de las opciones del servidor de mediación híbrido en línea
+## <a name="configure-online-hybrid-mediation-server-settings"></a>Configurar las opciones del servidor de mediación híbrida en línea
 <a name="BKMK_ConfigureMediationServer"> </a>
 
-Cuando se transfiere una llamada P2P a una conferencia RTC, el servidor de conferencia de Skype empresarial online enviará una invitación al servidor de servicios de conexión en la nube. Para asegurarse de que Office 365 pueda enrutar esta invitación correctamente, debe configurar una opción de configuración en su inquilino en línea para cada servidor de mediación de conector en la nube de la siguiente manera: 
+Cuando se escala una llamada P2P a una conferencia RTC, el servidor de conferencia de Skype empresarial online enviará una invitación al servidor de mediación de Cloud Connector. Para asegurarse de que Office 365 puede redirigir esta invitación correctamente, debe configurar una opción de configuración en su inquilino en línea para cada servidor de mediación de Cloud Connector de la siguiente manera: 
   
 1. Cree un usuario en el portal de administración de Office 365. Use el nombre de usuario que desee, como "MediationServer1".
     
-    Use el dominio SIP predeterminado del conector de nube (el primer dominio SIP del archivo. ini) como dominio de usuario.
+    Use el dominio SIP predeterminado de Cloud Connector (el primer dominio SIP del archivo. ini) como dominio del usuario.
     
-    Tenga en cuenta que la asignación de licencias solo es necesaria para la propagación del usuario en el directorio de Skype empresarial online. Asigne una licencia de Office 365 (como E5) a la cuenta que cree, espere hasta una hora para que se propaguen los cambios, compruebe que las cuentas de usuario se hayan aprovisionado correctamente en el directorio de Skype empresarial online ejecutando el siguiente cmdlet y, a continuación, quite el licencia de esta cuenta.
+    Tenga en cuenta que la asignación de licencias solo es necesaria para la propagación del usuario en el directorio de Skype empresarial online. Asigne una licencia de Office 365 (como E5) a la cuenta que cree, deje hasta una hora para que los cambios se propaguen, compruebe que las cuentas de usuario se hayan aprovisionado correctamente en el directorio de Skype empresarial online ejecutando el siguiente cmdlet y, a continuación, quite el licencia de esta cuenta.
     ```powershell
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
@@ -180,17 +180,17 @@ Cuando se transfiere una llamada P2P a una conferencia RTC, el servidor de confe
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
-3. Inicie una sesión de PowerShell en un inquilino de Skype empresarial remoto con sus credenciales de administrador de inquilinos de Skype empresarial y, a continuación, ejecute el siguiente cmdlet para configurar el servidor de mediación y el FQDN del servidor perimetral a esa cuenta de usuario, sustituyendo \<DisplayName\> por el nombre para mostrar del usuario para la cuenta que creó en el paso 1:
+3. Inicie una sesión de PowerShell remoto de Skype empresarial de inquilino con sus credenciales de administrador de inquilinos de Skype empresarial y, a continuación, ejecute el siguiente cmdlet para establecer el servidor de mediación \<y\> el FQDN del servidor perimetral en esa cuenta de usuario, reemplazando DisplayName por el nombre para mostrar del usuario para la cuenta que creó en el paso 1:
     
    ```powershell
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
    ```
 
-    Para Identity, use el nombre para mostrar de la cuenta de usuario de Office 365 que haya creado para este servidor de mediación.
+    Para identidad, use el nombre para mostrar de la cuenta de usuario de Office 365 que ha creado para este servidor de mediación.
     
-    Para *MediationServerFQDN* , use el nombre completo interno definido para el servidor de mediación.
+    Para *MediationServerFQDN* , use el FQDN interno definido para el servidor de mediación.
     
-    Para *EdgeServerExternalFQDN* , use el nombre completo externo definido para el proxy de acceso del servidor perimetral. Si existen varios sitios RTC de Cloud Connector, elija el FQDN del proxy de acceso de servidor perimetral asignado al sitio donde se encuentra el servidor de mediación.
+    Para *EdgeServerExternalFQDN* , use el FQDN externo definido para el proxy de acceso del servidor perimetral. Si hay varios sitios RTC de Cloud Connector, elija el FQDN del proxy de acceso del servidor perimetral asignado al sitio donde se encuentra el servidor de mediación.
     
 4. Si hay varios servidores de mediación de Cloud Connector (varios sitios, HA), repita los pasos anteriores para cada uno de ellos.
     

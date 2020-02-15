@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Nuevas características de mensajería instantánea y de presencia'
+title: 'Lync Server 2013: nuevas características de mensajería instantánea y presencia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16144eaee77e8eebed4f3bbb7b5e37ba8ec29107
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b5a2a9183aeceacc70937cc90b30a54287361af2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758632"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-im-and-presence-features-in-lync-server-2013"></a>Nuevas características de mensajería instantánea y de presencia en Lync Server 2013
+# <a name="new-im-and-presence-features-in-lync-server-2013"></a>Nuevas características de mensajería instantánea y presencia en Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41758632"
 
 _**Última modificación del tema:** 2012-10-19_
 
-Microsoft Lync Server 2013 agrega las siguientes características nuevas de mensajería instantánea (mi) y de presencia para enriquecer la experiencia de los usuarios de Lync.
+Microsoft Lync Server 2013 agrega las siguientes características de mensajería instantánea (mi) y presencia nuevas para enriquecer la experiencia de Lync de los usuarios.
 
   - Si su organización también ejecuta Exchange 2013, los usuarios pueden aprovechar un almacén de contactos unificado. Los usuarios pueden administrar sus contactos en Outlook 2013, Outlook Web App, así como en Lync 2013.
 
-  - Los usuarios pueden intercambiar mensajes instantáneos e información de presencia con usuarios de proveedores de mensajería instantánea pública que usen la mensajería ampliable y el protocolo de presencia, como Google Talk, gracias a la característica de **integración de XMPP** de Lync Server 2013. Integración de XMPP integrada en servidores front-end y servidores perimetrales, y puede habilitarlo y configurarlo para permitir esta característica.
+  - Los usuarios pueden intercambiar mensajes instantáneos e información de presencia con usuarios de proveedores de mensajería instantánea pública que usen el protocolo extensible de mensajería y presencia, como Google Talk, debido a la característica de **integración de XMPP** de Lync Server 2013. Integración de XMPP integrada en los servidores front-end y servidores perimetrales, y puede habilitarla y configurarla para permitir esta característica.
 
 <div>
 
 ## <a name="see-also"></a>Vea también
 
 
-[Habilitar usuarios para el almacenamiento de contactos unificado en Lync Server 2013](lync-server-2013-enable-users-for-unified-contact-store.md)  
+[Habilitar a los usuarios para el almacén de contactos unificados en Lync Server 2013](lync-server-2013-enable-users-for-unified-contact-store.md)  
 
 
-[Planeamiento de la Federación de protocolo de presencia y mensajería extensible (XMPP) en Lync Server 2013](lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md)  
+[Planeación de la Federación de protocolo extensible de mensajería y presencia (XMPP) en Lync Server 2013](lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md)  
   
 
 </div>

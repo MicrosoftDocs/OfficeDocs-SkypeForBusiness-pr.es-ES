@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla Server'
+title: 'Lync Server 2013: tabla Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184890
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1d0cdb5733e6fc6e21d1dcda1fff6214332de6b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b1a400387d88637fc45bcd3342ebbadb2bec6edf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732420"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049122"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41732420"
 
 _**Última modificación del tema:** 2012-10-02_
 
-La tabla del servidor es una tabla de soporte técnico. Cada registro representa un servidor.
+La tabla Server es una tabla auxiliar. Cada registro representa a un servidor.
 
 
 <table>
@@ -59,33 +59,33 @@ La tabla del servidor es una tabla de soporte técnico. Cada registro representa
 <tr class="odd">
 <td><p><strong>ServerKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
+<td><p>Principal</p></td>
 <td><p>Número único que identifica el servidor.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FQDNOrIP</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>clasificación</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>index</p></td>
 <td><p>Cadena de dirección MAC.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ServerType</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
-<td><p>1: servidor de mediación</p>
-<p>2: Server16394 de conferencia a/V: service32769 Edge: Gateway</p></td>
+<td><p>Externa</p></td>
+<td><p>1: Servidor de mediación</p>
+<p>2: Servidor de conferencia A/V16394: Servicio perimetral A/V32769: Puerta de enlace</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nombredegrupo</strong></p></td>
 <td><p>nvarchar (512)</p></td>
 <td></td>
-<td><p>Grupo al que pertenece el servidor. Solo es aplicable para el servidor de conferencia A/V.</p></td>
+<td><p>Grupo al que pertenece el servidor. Solo aplicable para el servidor de conferencia A/V.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>NextUpdateTS</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>Solo para uso interno.</p></td>
+<td><p>Únicamente para uso interno.</p></td>
 </tr>
 </tbody>
 </table>

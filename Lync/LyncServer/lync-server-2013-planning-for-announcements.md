@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planear los anuncios'
+title: 'Lync Server 2013: Planeación de anuncios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185706
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cd5a537b31b36c7a55f19ac476bb5d4c0fde93c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d9adaeba6e26cb01a7c7aa8c2a1fb3f7ce955b6a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725630"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050762"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-announcements-in-lync-server-2013"></a>Planear los anuncios en Lync Server 2013
+# <a name="planning-for-announcements-in-lync-server-2013"></a>Planeación de anuncios en Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41725630"
 
 _**Última modificación del tema:** 2012-09-13_
 
-La aplicación de anuncios de Lync Server le permite configurar el control de las llamadas telefónicas entrantes cuando el número marcado es válido para su organización, pero no está asignado a un usuario o a un teléfono. Puedes transferir estas llamadas a un destino predeterminado (a un número de teléfono, a un URI de SIP o a un correo de voz) o reproducir un anuncio de audio, o ambas opciones. La aplicación Anuncio te ayuda a evitar situaciones en las que el autor de la llamada marca un número equivocado y oye el tono de línea ocupada o el cliente SIP recibe un mensaje de error. En esta sección se incluye información de planeación específica de la aplicación de anuncios.
+La aplicación de anuncio de Lync Server le permite configurar el control de las llamadas telefónicas entrantes cuando el número marcado es válido para su organización, pero no está asignado a un usuario o teléfono. Puede transferir estas llamadas a un destino predeterminado (número de teléfono, URI de SIP o correo de voz) o reproducir un anuncio de audio, o ambas opciones. La aplicación Anuncio contribuye a evitar situaciones en las que el autor de la llamada marca un número equivocado y oye el tono de línea ocupada o el cliente SIP recibe un mensaje de error. En esta sección se incluye información de planeación específica de la aplicación de anuncio.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Información general de la aplicación de anuncios en Lync Server 2013](lync-server-2013-overview-of-the-announcement-application.md)
+  - [Información general sobre la aplicación de anuncio en Lync Server 2013](lync-server-2013-overview-of-the-announcement-application.md)
 
-  - [Componentes que usa la aplicación Anuncio en Lync Server 2013](lync-server-2013-components-used-by-the-announcement-application.md)
+  - [Componentes usados por la aplicación de anuncio en Lync Server 2013](lync-server-2013-components-used-by-the-announcement-application.md)
 
-  - [Requisitos técnicos para la aplicación Anuncio en Lync Server 2013](lync-server-2013-technical-requirements-for-the-announcement-application.md)
+  - [Requisitos técnicos para la aplicación de anuncio en Lync Server 2013](lync-server-2013-technical-requirements-for-the-announcement-application.md)
 
-  - [Proceso de implementación para la aplicación de anuncios en Lync Server 2013](lync-server-2013-deployment-process-for-the-announcement-application.md)
+  - [Proceso de implementación de la aplicación de anuncio en Lync Server 2013](lync-server-2013-deployment-process-for-the-announcement-application.md)
 
 </div>
 

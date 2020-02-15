@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: consideraciones de interoperabilidad para videoconferencias'
+title: 'Lync Server 2013: consideraciones sobre la interoperabilidad para conferencias de vídeo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183782
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8cdfa88cf6d6f58478ff3c6b44210545e24a765
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 885768cc461b7b59c37cf83b0b422bfca6c950a2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725790"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="interoperability-considerations-for-video-conferencing-in-lync-server-2013"></a>Consideraciones de interoperabilidad para videoconferencias en Lync Server 2013
+# <a name="interoperability-considerations-for-video-conferencing-in-lync-server-2013"></a>Consideraciones sobre interoperabilidad para la Conferencia de vídeo en Lync Server 2013
 
 </div>
 
@@ -37,39 +37,39 @@ ms.locfileid: "41725790"
 
 _**Última modificación del tema:** 2012-10-02_
 
-En esta sección se describe la experiencia del usuario durante la fase de coexistencia de la migración, cuando hay interoperabilidad entre clientes heredados y un grupo de servidores de Lync Server 2013 o clientes de Lync Server 2013 y un grupo heredado.
+En esta sección se describe la experiencia del usuario durante la fase de coexistencia de la migración, cuando hay interoperabilidad entre clientes heredados y un grupo de servidores de Lync Server 2013 o clientes de Lync Server 2013 y un grupo de servidores heredados.
 
 <div>
 
-## <a name="lync-server-2013-pools"></a>Grupos de 2013 de Lync Server
+## <a name="lync-server-2013-pools"></a>Grupos de servidores 2013 de Lync Server
 
-Los usuarios experimentarán el comportamiento siguiente cuando se use un cliente heredado en un grupo de servidores de Lync Server 2013:
+Los usuarios experimentarán el siguiente comportamiento cuando se use un cliente heredado en un grupo de servidores de Lync Server 2013:
 
-  - Para las llamadas de dos participantes, la resolución de video es la misma que la del grupo heredado.
+  - Para llamadas de dos participantes, la resolución de vídeo es la misma que en el grupo de servidores heredado.
 
-  - Para las conferencias de varias partes, la resolución de video y las características de las videoconferencias son las mismas que en el grupo heredado. La vista de galería y la alta resolución no están disponibles.
+  - Para conferencias de varios participantes, las características de resolución de vídeo y conferencia de vídeo son las mismas que en el grupo de servidores heredado. La vista de galería y la alta resolución no están disponibles.
 
 </div>
 
 <div>
 
-## <a name="legacy-pools"></a>Grupos heredados
+## <a name="legacy-pools"></a>Grupos de servidores heredados
 
-Los usuarios experimentarán el comportamiento siguiente cuando se use un cliente de Lync Server 2013 en una agrupación heredada:
+Los usuarios experimentarán el siguiente comportamiento cuando se use un cliente de Lync Server 2013 en un grupo de servidores heredados:
 
-  - Para las llamadas de dos participantes, los clientes de Lync Server 2013 pueden usar las nuevas características de la siguiente manera:
+  - Para llamadas de dos participantes, los clientes de Lync Server 2013 pueden usar nuevas características de la siguiente manera:
     
       - H. 264 está disponible si ambos participantes usan clientes de Lync Server 2013.
     
       - El cliente de Lync Server 2013 usa el valor predeterminado para TotalReceiveVideoBitRateKb, ya que el servidor heredado no envía esta información con aprovisionamiento en banda.
 
-  - Para las conferencias de varias partes, las características de videoconferencias y la resolución de video son las mismas que experimenta un cliente heredado en el grupo heredado.
+  - Para conferencias de varios participantes, las características de resolución de vídeo y conferencia de vídeo son las mismas que las que tiene un cliente heredado en el grupo de servidores heredado.
 
 <div>
 
 
 > [!NOTE]  
-> Cuando un servidor heredado hospeda un cliente de Lync Server 2013, es posible configurar ancho de banda de videoconferencias para que todos los usuarios del grupo reciban solo vídeo de baja resolución, pero que envíen video de alta resolución. Un ejemplo de ello es cuando MaxVideoRateAllowed se establece en CIF-250K en la configuración de multimedia y VideoBitRateKb se establece en 2000 kbps en la Directiva de conferencia. El efecto neto en esta situación es que no es posible que los usuarios del grupo tengan una alta resolución.<BR>Como MaxVideoRateAllowed ya no se usa para los clientes de Lync Server 2013, no puede impedir que los clientes de Lync Server 2013 soliciten video de alta resolución. En su lugar, establezca VideoBitRateKb en la Directiva de conferencia para todos los usuarios del grupo al mismo valor que MaxVideoRateAllowed (es decir, CIF se establece en 250 kbps o VGA se establece en 600 Kbps, o HD se establece en 1500 kbps).
+> Cuando un servidor heredado hospeda un cliente de Lync Server 2013, es posible configurar el ancho de banda de la Conferencia de vídeo para que todos los usuarios del grupo reciban solo vídeo de baja resolución, pero que envíen vídeo de alta resolución. Un ejemplo de esto es cuando MaxVideoRateAllowed se establece en CIF-250K en la configuración multimedia y VideoBitRateKb se establece en 2000 kbps en la directiva de conferencia. El efecto neto en esta situación es que la resolución alta no es posible para usuarios del grupo de servidores.<BR>Debido a que MaxVideoRateAllowed ya no se usa para los clientes de Lync Server 2013, no puede impedir que los clientes de Lync Server 2013 soliciten vídeo de alta resolución. En su lugar, establezca VideoBitRateKb en la directiva de conferencia para todos los usuarios del grupo de servidores al mismo valor que MaxVideoRateAllowed (es decir, CIF se establece en 250 kbps, o VGA se establece en 600 kbps, o HD se establece en 1500 kbps).
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planeamiento de la supervisión'
+title: 'Lync Server 2013: Planeación de la supervisión'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183671
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c04194f84b008b741bce887a3115c1ca31fc3ec7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 728b65493fd573d4b9cb5a182284ac969bb6436b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725340"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050012"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-monitoring-in-lync-server-2013"></a>Planeamiento de la supervisión en Lync Server 2013
+# <a name="planning-for-monitoring-in-lync-server-2013"></a>Planeación de la supervisión en Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41725340"
 
 _**Última modificación del tema:** 2012-09-05_
 
-El servicio de supervisión de Microsoft Lync Server 2013 permite a los administradores recopilar datos de uso, tendencia y calidad de servicio para las sesiones de comunicación que se producen en su organización. La supervisión en Lync Server 2013 ya no requiere una función de servidor independiente; en su lugar, el servicio de supervisión está integrado en cada servidor front-end. Sin embargo, la supervisión predeterminada no está habilitada en Lync Server 2013. Este documento le ayudará a determinar si la supervisión debe habilitarse o no en su organización.
+El servicio de supervisión de Microsoft Lync Server 2013 permite a los administradores recopilar información sobre el uso, la tendencia y la calidad de servicio de las sesiones de comunicación que tienen vez en su organización. La supervisión en Lync Server 2013 ya no requiere una función de servidor independiente; en su lugar, el servicio de supervisión se integra en cada servidor front-end. Sin embargo, la supervisión predeterminada no está habilitada en Lync Server 2013. Este documento le ayudará a determinar si la supervisión debería estar o no habilitada en su organización.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Información general de la supervisión en Lync Server 2013](lync-server-2013-overview-of-monitoring.md)
+  - [Información general sobre la supervisión en Lync Server 2013](lync-server-2013-overview-of-monitoring.md)
 
-  - [Definir los requisitos para la supervisión en Lync Server 2013](lync-server-2013-defining-your-requirements-for-monitoring.md)
+  - [Definición de los requisitos para la supervisión en Lync Server 2013](lync-server-2013-defining-your-requirements-for-monitoring.md)
 
-  - [Habilitar la supervisión en Lync Server 2013](lync-server-2013-enabling-monitoring.md)
+  - [Habilitación de la supervisión en Lync Server 2013](lync-server-2013-enabling-monitoring.md)
 
-  - [Acceso a datos de supervisión en Lync Server 2013](lync-server-2013-accessing-monitoring-data.md)
+  - [Obtener acceso a los datos de supervisión en Lync Server 2013](lync-server-2013-accessing-monitoring-data.md)
 
   - [Componentes y topologías para la supervisión en Lync Server 2013](lync-server-2013-components-and-topologies-for-monitoring.md)
 
-  - [Lista de comprobación para la supervisión en Lync Server 2013](lync-server-2013-deployment-checklist-for-monitoring.md)
+  - [Lista de comprobación de implementación para la supervisión en Lync Server 2013](lync-server-2013-deployment-checklist-for-monitoring.md)
 
 </div>
 

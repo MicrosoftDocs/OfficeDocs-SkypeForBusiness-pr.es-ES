@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Colocación de un servidor en una implementación de grupo de servidores front-end Enterprise Edition'
+title: Lync Server 2013 Server combinación en una implementación de grupo de servidores front-end Enterprise Edition
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad549c614fc14b74126a7e81e0223ad584e68141
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 74afcdd9212ebced9d93f0f699b90dd7a89edefd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732490"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049382"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-collocation-in-an-enterprise-edition-front-end-pool-deployment-for-lync-server-2013"></a>Colocación de un servidor en una implementación de grupo de servidores front-end Enterprise Edition en Lync Server 2013
+# <a name="server-collocation-in-an-enterprise-edition-front-end-pool-deployment-for-lync-server-2013"></a>Servidor combinación en una implementación de grupo de servidores front-end Enterprise Edition para Lync Server 2013
 
 </div>
 
@@ -37,35 +37,35 @@ ms.locfileid: "41732490"
 
 _**Última modificación del tema:** 2013-11-11_
 
-En esta sección se describen los roles de servidor, las bases de datos y los recursos compartidos de archivos que puede Collocate en una implementación de grupo front-end de Lync Server 2013.
+En esta sección se describen los roles de servidor, las bases de datos y los recursos compartidos de archivos que puede combinar en una implementación de grupo de servidores front-end 2013 de Lync Server.
 
 <div>
 
 ## <a name="server-roles"></a>Roles de servidor
 
-En Lync Server 2013, el servicio de conferencia A/V, el servicio de mediación, la supervisión y el archivado se colocan en el servidor front-end, pero se necesita una configuración adicional para habilitarlos. Si no desea Collocate el servidor de mediación con el servidor front-end, puede implementarlo como un servidor de mediación independiente en un equipo independiente.
+En Lync Server 2013, el servicio de conferencia A/V, el servicio de mediación, la supervisión y el archivado se combinan en el servidor front-end, pero se requiere una configuración adicional para habilitarlos. Si no desea recopilar el servidor de mediación con el servidor front-end, puede implementarlo como un servidor de mediación independiente en un equipo individual.
 
-Puede Collocate un servidor de aplicaciones de confianza con el servidor front-end.
+Puede recopilar un servidor de aplicaciones de confianza con el servidor front-end.
 
-Los siguientes roles de servidor deben implementarse en un equipo independiente:
+Cada uno de los siguientes roles debe implementarse en un equipo separado:
 
-  - Director
+  - Dirección
 
   - Servidor perimetral
 
-  - Servidor de mediación (si no se ha puesto en el servidor front-end)
+  - Servidor de mediación (si no se combina con el servidor front-end)
 
   - Servidor Office Web Apps
 
-No puede Collocate rol de servidor de chat persistente con el servidor front-end.
+No puede combinar rol de servidor de chat persistente con el servidor front-end.
 
 </div>
 
 <div>
 
-## <a name="databases"></a>Bases de datos
+## <a name="databases"></a>Databases
 
-Puede Collocate cada una de las siguientes bases de datos en el mismo servidor de base de datos:
+Puede combinar cada una de las siguientes bases de datos en el mismo servidor de base de datos:
 
   - Base de datos back-end
 
@@ -77,19 +77,19 @@ Puede Collocate cada una de las siguientes bases de datos en el mismo servidor d
 
   - Base de datos de cumplimiento de chat persistente
 
-Puede Collocate cualquiera de estas bases de datos o cualquiera de ellas en una sola instancia de SQL Server o usar una instancia independiente de SQL Server para cada una, con las siguientes limitaciones:
+Puede combinar cualquiera de estas bases de datos, o todas ellas, en una sola instancia de SQL Server o usar una instancia independiente de SQL Server para cada una, con las siguientes limitaciones:
 
-  - Cada instancia de SQL Server puede contener una única base de datos back-end, una única base de datos de supervisión, una única base de datos de archivado, una única base de datos de chat persistente y una única base de datos de cumplimiento de chat persistente.
+  - Cada instancia de SQL Server puede contener una sola base de datos back-end, una sola base de datos de supervisión, una sola base de datos de archivado, una sola base de datos de chat persistente y una única base de datos de cumplimiento de chat persistente.
 
-  - El servidor de base de datos no admite más de un grupo de servidores front-end, una implementación de archivado y una implementación de supervisión, pero puede admitir una de cada uno, independientemente de si las bases de datos usan la misma instancia de SQL Server o instancias independientes de SQL Server.
+  - El servidor de base de datos no admite más de un grupo de servidores front-end, una implementación de archivado y una implementación de supervisión, pero puede admitir una de cada, independientemente de si las bases de datos usan la misma instancia de SQL Server o instancias independientes de SQL Server.
 
-Puede Collocate un recurso compartido de archivos con las bases de datos, tal y como se describe más adelante en esta sección.
+Se puede combinar un recurso compartido de archivos con las bases de datos, como se describe más adelante en este sección.
 
 <div>
 
 
 > [!NOTE]  
-> En Lync Server 2013, tiene la opción de integrar el almacenamiento de archivado con el almacenamiento de Exchange 2013 para algunos o todos los usuarios de su implementación. No se pueden implementar servidores que ejecuten servidores o componentes de Lync en los mismos servidores que el almacenamiento de Exchange.
+> En Lync Server 2013, tiene la opción de integrar el almacenamiento de archivado con el almacenamiento de Exchange 2013 para algunos o todos los usuarios de la implementación. No se pueden implementar servidores que ejecuten Lync Server o componentes en los mismos servidores que el almacenamiento de Exchange.
 
 
 
@@ -99,7 +99,7 @@ Puede Collocate un recurso compartido de archivos con las bases de datos, tal y 
 
 
 > [!IMPORTANT]  
-> Aunque se admite la collocation de bases de datos, el tamaño de las bases de datos puede crecer rápidamente. Por ejemplo, cuando considere collocating la base de datos de archivado con otras bases de datos, tenga en cuenta que si está archivando los mensajes de más de unos pocos usuarios, el espacio en disco que necesita la base de datos de archivado puede crecer muy grande. Por este motivo, no recomendamos que collocating varias bases de datos, especialmente la base de datos de archivado, la base de datos de chat persistente o la base de datos de cumplimiento de chat persistente con la base de datos back-end.
+> Aunque se admite la combinación de las bases de datos, el tamaño de estas puede crecer rápidamente. Por ejemplo, si considera la combinación de la base de datos de archivado con otras bases de datos, tenga en cuenta que si va a archivar los mensajes de más de unos pocos usuarios, el espacio en disco que necesita la base de datos de archivado puede aumentar considerablemente. Por este motivo, no se recomienda combinar varias bases de datos, especialmente la base de datos de archivado, la base de datos de chat persistente o la base de datos de cumplimiento de chat persistente con la base de datos back-end.
 
 
 
@@ -111,9 +111,9 @@ Puede Collocate un recurso compartido de archivos con las bases de datos, tal y 
 
 ## <a name="file-share"></a>Recurso compartido de archivos
 
-El recurso compartido de archivos puede ser un servidor independiente o se puede incluir en el mismo servidor que cualquiera de los siguientes:
+El recurso compartido de archivos puede estar en un servidor separado o puede combinarse en el mismo servidor que el de cualquier o todos los siguientes elementos:
 
-  - Servidor de base de datos, incluido el servidor back-end de un grupo de servidores front end Enterprise Edition
+  - Servidor de base de datos, incluido el servidor back-end de un grupo de servidores front-end de Enterprise Edition
 
   - Base de datos de archivado
 
@@ -123,7 +123,7 @@ El recurso compartido de archivos puede ser un servidor independiente o se puede
 
   - Base de datos de cumplimiento de chat persistente
 
-Un solo recurso compartido de archivos se puede usar para varios grupos front-end, servidores Standard Edition (todos en el mismo sitio).
+Un solo recurso compartido de archivos se puede usar para varios grupos de servidores front-end y servidores de Standard Edition (todos ellos en el mismo sitio).
 
 <div>
 
@@ -141,9 +141,9 @@ Un solo recurso compartido de archivos se puede usar para varios grupos front-en
 
 ## <a name="other-components"></a>Otros componentes
 
-No se puede Collocate un servidor proxy inverso, que no es un componente de 2013 de Lync Server, pero es necesario en la implementación si desea permitir el uso compartido de contenido web para usuarios federados con cualquier rol de servidor de Lync Server 2013. Sin embargo, puede implementar el soporte de proxy inverso para una implementación de Lync Server 2013 al configurar la compatibilidad en un servidor proxy inverso existente de su organización que se usa para otras aplicaciones.
+No puede combinar un servidor de proxy inverso, que no es un componente 2013 de Lync Server, pero es necesario en su implementación si desea admitir el uso compartido de contenido web para los usuarios federados con cualquier rol de servidor de Lync Server 2013. Sin embargo, puede implementar la compatibilidad con proxy inverso para una implementación de Lync Server 2013 mediante la configuración de la compatibilidad en un servidor proxy inverso existente en su organización que se usa para otras aplicaciones.
 
-No puede Collocate ningún componente de mensajería unificada (UM) de Exchange o componente de SharePoint con ningún rol de servidor de SharePoint.
+No puede combinar ningún componente de mensajería unificada (MU) de Exchange ni un componente de SharePoint con ningún rol de servidor de SharePoint.
 
 </div>
 

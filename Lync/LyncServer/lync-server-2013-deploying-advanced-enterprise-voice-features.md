@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: implementar características avanzadas de telefonía empresarial'
+title: 'Lync Server 2013: implementación de características avanzadas de telefonía IP empresarial'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5780c06fb9903075ad50631d57a738099eef15e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c29d679b047f5ccf616102c4b96c8468150fd77f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729587"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047740"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-advanced-enterprise-voice-features-in-lync-server-2013"></a>Implementación de características avanzadas de telefonía empresarial en Lync Server 2013
+# <a name="deploying-advanced-enterprise-voice-features-in-lync-server-2013"></a>Implementación de características avanzadas de telefonía IP empresarial en Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41729587"
 
 _**Última modificación del tema:** 2012-09-22_
 
-Tras haber configurado las funciones básicas de Telefonía IP empresarial en la organización, se puede optar por implementar una o más características avanzadas de Telefonía IP empresarial siguiendo los procedimientos de esta sección.
+Una vez que haya configurado las funciones básicas de Enterprise Voice para su organización, puede implementar una o más características avanzadas de telefonía IP empresarial siguiendo los procedimientos de esta sección.
 
-Para obtener más información sobre las características avanzadas de telefonía empresarial, consulte las siguientes secciones de la documentación de [planeación de Lync Server 2013](lync-server-2013-planning.md) :
+Para obtener más información sobre las características avanzadas de telefonía IP empresarial, consulte las siguientes secciones de la documentación de [planeación de Lync Server 2013](lync-server-2013-planning.md) :
 
-  - [Planear el control de admisión de llamadas en Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)
+  - [Planeación del control de admisión de llamadas en Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)
 
   - [Planeación de los servicios de emergencia (E9-1-1) en Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
-  - [Planificar la omisión de medios en Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
+  - [Planeación de la omisión de medios en Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
 
 <div>
 

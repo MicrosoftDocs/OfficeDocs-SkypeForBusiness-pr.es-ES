@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Proporcionar conectividad RTC en un sitio de sucursal'
+title: 'Lync Server 2013: suministro de conectividad RTC en un sitio de sucursal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185633
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5dfc039b0b1cd2995d0a658f1c1c78e0941d405d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a9fe25fc10da3ffc27b882b7d41aac0ad97677f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724780"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049552"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>Proporcionar conectividad RTC en un sitio de sucursal en Lync Server 2013
+# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>Suministro de conectividad RTC en un sitio de sucursal en Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41724780"
 
 _**Última modificación del tema:** 2012-10-05_
 
-Le recomendamos que use la herramienta de planeación 2013 de Microsoft Lync Server para agregar sitios de sucursales a su topología y para configurar la infraestructura de voz en sitios de sucursales.
+Se recomienda usar la herramienta de planeación 2013 de Microsoft Lync Server para agregar sitios de sucursal a la topología y configurar la infraestructura de voz en sitios de sucursal.
 
-Si no usa la herramienta de planeación, siga los procedimientos de los temas de esta sección (en primer lugar, para agregar los sitios de la sucursal) y, a continuación, para configurar su infraestructura de voz definiendo la puerta de enlace de red telefónica conmutada (RTC) IP/pública o configurando el tronco del SIP (con o sin omisión de medios). Conectar una central de conmutación (PBX) al sitio de la sucursal es otra opción.
+Si no usa la herramienta de planeación, use los procedimientos descritos en los temas de esta sección, en primer lugar, para agregar los sitios de sucursal y, a continuación, para configurar la infraestructura de voz mediante la definición de la puerta de enlace de red telefónica conmutada (RTC) o mediante la configuración del tronco SIP (con o sin desvío de medios). Otra opción consiste en conectar una central de conmutación (PBX) al sitio de sucursal.
 
 <div>
 
 
 > [!NOTE]  
-> Si desea proporcionar resistencia al sitio de la sucursal, debe implementar un equipo de sucursales con la capacidad de supervivencia, un servidor de sucursal con la capacidad de supervivencia o un servidor Standard Edition en el sitio de la sucursal. Para obtener más información, consulte <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">implementación de un dispositivo de sucursal o servidor con Lync server 2013</A> o <A href="lync-server-2013-deploying-lync-server.md">implementación de Lync Server 2013</A>, según corresponda, en la documentación de implementación.
+> Si desea proporcionar resistencia de sitios de sucursal, debe implementar una aplicación de sucursal con funciones de supervivencia, un servidor de sucursal con funciones de supervivencia o un servidor Standard Edition en el sitio de sucursal. Para obtener más información, consulte <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Deploying a funciones de aplicación de sucursal con funciones de supervivencia o servidor con Lync server 2013</A> o <A href="lync-server-2013-deploying-lync-server.md">implementar Lync Server 2013</A>, según corresponda, en la documentación sobre implementación.
 
 
 
@@ -59,7 +59,7 @@ Si no usa la herramienta de planeación, siga los procedimientos de los temas de
 
   - [Definir una puerta de enlace RTC para un sitio de sucursal en Lync Server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)
 
-  - [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)
+  - [Configurar un tronco con la omisión de medios en Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)
 
   - [Configurar un tronco sin omisión de medios en Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)
 
@@ -70,8 +70,8 @@ Si no usa la herramienta de planeación, siga los procedimientos de los temas de
 ## <a name="see-also"></a>Vea también
 
 
-[Planificar la omisión de medios en Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
-[Planificación de la conectividad RTC en Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md)  
+[Planeación de la omisión de medios en Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
+[Planeación de la conectividad con RTC en Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md)  
   
 
 </div>

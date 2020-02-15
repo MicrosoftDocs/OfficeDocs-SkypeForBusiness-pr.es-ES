@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: modificar la configuración de registrador existente'
+title: 'Lync Server 2013: modificar las opciones de configuración de registrador existente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185095
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5fe12f85f7ea8501f478d570612ad52cd350fdca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d7297ed0df352090f08b90475778f1bde788c8e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737156"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049582"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modify-existing-registrar-configuration-settings-in-lync-server-2013"></a>Modificar las opciones de configuración de registrador existentes en Lync Server 2013
+# <a name="modify-existing-registrar-configuration-settings-in-lync-server-2013"></a>Modificar las opciones de configuración existentes del registrador en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41737156"
 
 _**Última modificación del tema:** 2012-11-01_
 
-Puede usar el registrador para configurar los protocolos de autenticación del servidor proxy. Para obtener información sobre los protocolos disponibles, consulte [crear opciones de configuración de registrar en Lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md).
+Puede usar el registrador para configurar los protocolos de autenticación del servidor proxy. Para obtener información sobre los protocolos disponibles, consulte [crear opciones de configuración de registrador en Lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md).
 
 <div>
 
@@ -53,11 +53,11 @@ Siga los pasos a continuación para modificar un registrador existente.
 
 <div>
 
-## <a name="to-modify-existing-registrar-configuration-settings"></a>Para modificar las opciones de configuración de un registrador existente
+## <a name="to-modify-existing-registrar-configuration-settings"></a>Para modificar las opciones de configuración existentes del registrador
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo de la red en el que haya implementado Lync Server 2013.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que se implementó Lync Server 2013.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  En la barra de navegación izquierda, haga clic en **Seguridad** y, a continuación, en **Registrador**.
 
@@ -65,11 +65,11 @@ Siga los pasos a continuación para modificar un registrador existente.
 
 5.  En **Editar configuración de registrador**, seleccione uno o más de los siguientes elementos en función de las capacidades de los clientes y compatibilidad de su entorno:
     
-      - **Habilitar autenticación Kerberos** para que los servidores del grupo emitan desafíos mediante la autenticación Kerberos.
+      - **Habilitar autenticación Kerberos**: para que los servidores del grupo emitan desafíos mediante la autenticación Kerberos.
     
-      - **Habilitar autenticación NTLM** para que los servidores del grupo emitan desafíos mediante la autenticación NTLM.
+      - **Habilitar autenticación NTLM**: para que los servidores del grupo emitan desafíos mediante la autenticación NTLM.
     
-      - **Habilitar autenticación de certificados** para que los servidores del grupo emitan desafíos mediante la autenticación de certificados.
+      - **Habilitar autenticación de certificados**: para que los servidores del grupo emitan desafíos mediante la autenticación de certificados.
 
 6.  Haga clic en **Confirmar**.
 

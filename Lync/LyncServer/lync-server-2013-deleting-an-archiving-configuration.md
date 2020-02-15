@@ -12,20 +12,20 @@ ms:contentKeyID: 48185093
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e4a0c1acf9f605fc927d7006ff50b1f4470c68d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d01c84e3f640abb536e923624af7fe7b13bb3dfe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763124"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048871"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deleting-an-archiving-configuration-in-lync-server-2013"></a>Eliminar una configuración de archivado en Lync Server 2013
+# <a name="deleting-an-archiving-configuration-in-lync-server-2013"></a>Eliminación de una configuración de archivado en Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41763124"
 
 _**Última modificación del tema:** 2013-02-23_
 
-Puede eliminar una configuración de sitio o una configuración de grupo. No se puede quitar la configuración global. Si elimina la configuración global, esta se restablece automáticamente a sus valores predeterminados. Para obtener detalles sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que puede especificar y la jerarquía de las configuraciones de archivado, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, la documentación de implementación o la documentación de operaciones.
+Puede eliminar una configuración de sitio o de grupo. La configuración global no se puede quitar. Si elimina la configuración global, esta se restablece automáticamente a los valores predeterminados. Para obtener más información sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que puede especificar y la jerarquía de las configuraciones de archivado, consulte [how archiving Works in Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación sobre Planeación, la documentación sobre la implementación o las operaciones.
 
 <div>
 
-## <a name="to-delete-a-site-or-pool-configuration-for-archiving"></a>Para eliminar una configuración de sitio o grupo de servidores
+## <a name="to-delete-a-site-or-pool-configuration-for-archiving"></a>Para eliminar una configuración de sitio o de grupo para archivado
 
-1.  Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Configuración de archivado**.
+3.  En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, a continuación, haga clic en **Configuración de archivado**.
 
-4.  En la lista de configuraciones de archivado, haga clic en la configuración de sitio o de grupo que desea eliminar y, luego, haga clic en **Editar** y en **Eliminar**.
+4.  En la lista de configuraciones de archivado, haga clic en la configuración de sitio o de grupo que desea eliminar y, después, haga clic en **Editar** y en **Eliminar**.
 
 5.  Haga clic en **Confirmar**.
 
@@ -57,15 +57,15 @@ Puede eliminar una configuración de sitio o una configuración de grupo. No se 
 
 <div>
 
-## <a name="removing-archiving-configuration-settings-by-using-windows-powershell-cmdlets"></a>Quitar la configuración de archivado mediante cmdlets de Windows PowerShell
+## <a name="removing-archiving-configuration-settings-by-using-windows-powershell-cmdlets"></a>Quitar las opciones de configuración de archivado con los cmdlets de Windows PowerShell
 
-Los valores de configuración de archivado se pueden eliminar con Windows PowerShell y el cmdlet **Remove-CsArchivingConfiguration** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Las opciones de configuración de archivado se pueden eliminar con Windows PowerShell y el cmdlet **Remove-CsArchivingConfiguration** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-archiving-configuration-settings"></a>Para quitar una colección especificada de parámetros de configuración de archivado
+## <a name="to-remove-a-specified-collection-of-archiving-configuration-settings"></a>Para quitar una colección especificada de opciones de configuración de archivado
 
-  - El siguiente comando quita los valores de configuración de archivado que se aplican al sitio de Redmond:
+  - El siguiente comando quita las opciones de configuración de archivado aplicadas al sitio Redmond:
     
         Remove-CsArchivingConfiguration -Identity "site:Redmond"
 
@@ -73,7 +73,7 @@ Los valores de configuración de archivado se pueden eliminar con Windows PowerS
 
 <div>
 
-## <a name="to-remove-all-the-archiving-configuration-settings-applied-to-the-site-scope"></a>Para quitar todas las opciones de configuración de archivado aplicadas al ámbito del sitio
+## <a name="to-remove-all-the-archiving-configuration-settings-applied-to-the-site-scope"></a>Para quitar todas las opciones de configuración de archivado aplicadas al ámbito de sitio
 
   - Este comando quita todas las opciones de configuración de archivado aplicadas al ámbito de servicio:
     
@@ -83,15 +83,15 @@ Los valores de configuración de archivado se pueden eliminar con Windows PowerS
 
 <div>
 
-## <a name="to-remove-archiving-configuration-settings-based-on-a-specified-property-value"></a>Para quitar los valores de configuración de archivado basados en un valor de propiedad especificado
+## <a name="to-remove-archiving-configuration-settings-based-on-a-specified-property-value"></a>Para quitar las opciones de configuración de archivado en función de un valor de propiedad especificado
 
-  - Este comando quita todas las opciones de configuración de archivado donde se ha deshabilitado el archivado de Exchange:
+  - Este comando quita todas las opciones de configuración de archivado en las que se deshabilitó el archivado de Exchange:
     
         Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 
 </div>
 
-Para obtener más información, consulte el tema de ayuda para el cmdlet [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) .
+Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) .
 
 </div>
 
@@ -103,7 +103,7 @@ Para obtener más información, consulte el tema de ayuda para el cmdlet [Remove
 [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md)  
 
 
-[Administrar el archivado de comunicaciones internas y externas en Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
+[Administración del archivado de comunicaciones internas y externas en Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: vista ProgressReport'
+title: 'Lync Server 2013: vista de ProgressReport'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733790
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fa8d73981490503b26b77b79be6f42aab77703e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 916fb459e71460249b47719ab4a4c07f8d082e4d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747250"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049622"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41747250"
 
 _**Última modificación del tema:** 2012-10-01_
 
-La vista ProgressReport almacena información sobre las sesiones completadas. Los informes de progreso solo se escribirán para las llamadas y las sesiones que la 2013 determina Lync Server puede resultar útil para propósitos de diagnóstico. Esta vista se presentó en Microsoft Lync Server 2013.
+La vista ProgressReport almacena información sobre las sesiones finalizadas. Solo se escribirán informes de progreso de las llamadas y sesiones que Lync Server 2013 considere que puedan resultar útiles para realizar diagnósticos. Esta vista se introdujo en Microsoft Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> Los campos ErrorTime, ErrorReportSeq y ProgressReportSeq no hacen referencia a errores sino a mensajes que indican el estado de las llamadas o los mensajes.
+> Los campos ErrorTime, ErrorReportSeq y ProgressReportSeq no se refieren necesariamente a errores, sino a mensajes que indican el estado de las llamadas o los mensajes.
 
 
 
@@ -65,49 +65,49 @@ La vista ProgressReport almacena información sobre las sesiones completadas. Lo
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ErrorTime</strong></p></td>
+<td><p><strong>Campos errortime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Hora de error. Se usa junto con ErrorReportSeq para identificar de forma única un error.</p></td>
+<td><p>Hora en que se produjo el error. Se usa en combinación con ErrorRportSeq para identificar el error de forma exclusiva.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ErrorReportSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Número de identificación para identificar el error. Se usa junto con ErrorTime para identificar de forma única un error.</p></td>
+<td><p>Número para identificar el error. Se usa junto con ErrorTime como identificación única de un error.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ProgressReportSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>IDENTIFICADOR para identificar el informe de progreso. Se usa para distinguir los informes de progreso del mismo informe de errores.</p></td>
+<td><p>Identificador del informe de progreso. Se usa para diferenciar informes de progreso del mismo informe de errores.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MsDiagId</strong></p></td>
 <td><p>int</p></td>
-<td><p>IDENTIFICADOR de diagnóstico del informe de errores.</p></td>
+<td><p>Identificador de diagnóstico del informe de errores.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Origen</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nombre del servidor que originó el error (si el informe fue enviado desde un componente de servidor).</p></td>
+<td><p><strong>Source</strong></p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Nombre del servidor que originó el error (si el informe se envió desde un componente de servidor).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Aplicación</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nombre de la aplicación que originó el error (si el informe fue enviado desde un componente de servidor).</p></td>
+<td><p><strong>Application</strong></p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Nombre de la aplicación que generó el error (si el informe se envió desde un componente de servidor).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TelemetryId</strong></p></td>
 <td><p>identificador</p></td>
-<td><p>Identificador único que correlaciona información de tiempo de Unión para los distintos componentes implicados en una conferencia.</p></td>
+<td><p>Identificador único que correlaciona la información de la hora de unión de los componentes que participan en una conferencia.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSetupTime</strong></p></td>
 <td><p>int</p></td>
-<td><p>Tiempo (en milisegundos) necesario para que un componente específico se una a una conferencia.</p></td>
+<td><p>Tiempo (en milisegundos) necesario para que un componente específico se una a las conferencias.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MsDiagHeader</strong></p></td>
 <td><p>VARCHAR (Max)</p></td>
-<td><p>Información de error adicional.</p></td>
+<td><p>Información adicional del error.</p></td>
 </tr>
 </tbody>
 </table>

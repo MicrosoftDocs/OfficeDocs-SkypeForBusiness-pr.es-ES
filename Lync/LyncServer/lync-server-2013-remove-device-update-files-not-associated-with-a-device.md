@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: quitar archivos de actualización de dispositivos no asociados con un dispositivo'
+title: 'Lync Server 2013: quitar archivos de actualización de dispositivo no asociados con un dispositivo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803996
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42a2579360fbb4af8d6f3c491f5a56c380b593d0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c456deb3b3cb72df0bd6e8ac2dd70e926bb0769
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724250"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047963"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-device-update-files-not-associated-with-a-device-in-lync-server-2013"></a>Quitar los archivos de actualización de dispositivo que no estén asociados con un dispositivo en Lync Server 2013
+# <a name="remove-device-update-files-not-associated-with-a-device-in-lync-server-2013"></a>Quitar los archivos de actualización de dispositivos que no estén asociados con un dispositivo en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41724250"
 
 _**Última modificación del tema:** 2013-02-20_
 
-Cada vez que se carguen nuevas actualizaciones de dispositivos en el sistema, se creará una regla de actualización de dispositivo correspondiente. De forma predeterminada, estas nuevas reglas de actualización de dispositivos se asignan al estado pendiente. Esto significa que las reglas se pueden descargar e instalar en dispositivos de prueba, pero no en dispositivos de producción, lo que le permite probar las actualizaciones antes de hacerlas disponibles para los usuarios. En función de las pruebas, acepta e implementa o rechaza y elimina la actualización. Cuando rechaza una actualización, la actualización del dispositivo se anula de su regla de actualización de dispositivo.
+Cada vez que se carga una nueva actualización de dispositivo en el sistema, se crea la regla de actualización de dispositivos correspondiente. De forma predeterminada, estas nuevas reglas de actualización de dispositivos se asignan al estado pendiente. Esto significa que las reglas se pueden descargar e instalar en dispositivos de prueba, pero no en dispositivos de producción, lo que permite probar las actualizaciones antes de ponerlas a disposición de los usuarios. En función de las pruebas, puede aceptar e implementar o rechazar y eliminar la actualización. Cuando rechaza una actualización, la actualización del dispositivo no está asociada a su regla de actualización de dispositivos.
 
 <div>
 
@@ -48,7 +48,7 @@ Los archivos de actualización de dispositivos que ya no están asociados con un
 
 
 > [!NOTE]  
-> Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 mediante PowerShell remoto" en.
+> Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 mediante PowerShell remoto" en.
 
 
 
@@ -57,13 +57,13 @@ Los archivos de actualización de dispositivos que ya no están asociados con un
 <div>
 
 
-  - Por ejemplo, el siguiente comando quita todas las reglas de actualización de dispositivos en el servidor Web atl-cs-001.litwareinc.com que ya no están asociadas a un dispositivo:
+  - Por ejemplo, el siguiente comando quita las reglas de actualización de dispositivos en el servidor Web atl-cs-001.litwareinc.com que ya no están asociados con un dispositivo:
     
         Clear-CsDeviceUpdateFile -Identity "service:WebServer:atl-cs-001.litwareinc.com"
 
 </div>
 
-Para obtener más información, vea el tema de ayuda sobre el cmdlet [Clear-CsDeviceUpdateFile](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateFile) .
+Para obtener más información, consulte el tema de ayuda para el cmdlet [Clear-CsDeviceUpdateFile](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateFile) .
 
 </div>
 

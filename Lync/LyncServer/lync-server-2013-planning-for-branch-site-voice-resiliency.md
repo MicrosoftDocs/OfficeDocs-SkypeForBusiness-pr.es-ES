@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planificar la resistencia de voz en sitios de sucursal'
+title: 'Lync Server 2013: Planeación de resistencia de voz de sitio de sucursal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 004790da7562374284e11e28c6e89836a924f654
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 310197cac1f7d75d84cc7c978f9aa7a6f6c66dc9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754760"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050752"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-branch-site-voice-resiliency-in-lync-server-2013"></a>Planificar la resistencia de voz en sitios de sucursal en Lync Server 2013
+# <a name="planning-for-branch-site-voice-resiliency-in-lync-server-2013"></a>Planeación de la resistencia de voz en sitios de sucursal en Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41754760"
 
 _**Última modificación del tema:** 2012-09-21_
 
-Si desea proporcionar resistencia al sitio de la sucursal, es decir, servicio de voz empresarial de alta disponibilidad, tiene tres opciones para ello:
+Si desea proporcionar resistencia de sitios de sucursal, es decir, el servicio de telefonía IP empresarial de alta disponibilidad, tiene tres opciones para hacerlo:
 
   - Aplicación de sucursal con funciones de supervivencia
 
   - Servidor de sucursal con funciones de supervivencia
 
-  - Implementación completa de Lync Server en el sitio de la sucursal
+  - Una implementación completa de Lync Server en el sitio de sucursal
 
-Esta guía le ayudará a evaluar qué solución de resistencia es la mejor para su organización y, en función de su solución de resistencia, qué solución de conectividad RTC va a usar. También le ayudará a prepararse para implementar la solución que elija al describir los requisitos previos y otras consideraciones de planeación.
+Esta guía le ayudará a evaluar qué solución de resistencia es la más adecuada para su organización y, en función de la solución de resistencia, qué solución de conexión RTC usar. También le ayudará a preparar la implementación de la solución que elija describiendo requisitos previos y otras consideraciones referentes a la planeación.
 
 <div>
 
@@ -53,7 +53,7 @@ Esta guía le ayudará a evaluar qué solución de resistencia es la mejor para 
 
   - [Características de resistencia de sitios de sucursal en Lync Server 2013](lync-server-2013-branch-site-resiliency-features.md)
 
-  - [Soluciones de resistencia de sitios de sucursales en Lync Server 2013](lync-server-2013-branch-site-resiliency-solutions.md)
+  - [Soluciones de resistencia de sitios de sucursal en Lync Server 2013](lync-server-2013-branch-site-resiliency-solutions.md)
 
   - [Requisitos de resistencia de sitios de sucursal para Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md)
 

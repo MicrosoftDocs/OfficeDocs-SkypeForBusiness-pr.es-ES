@@ -12,20 +12,20 @@ ms:contentKeyID: 48185215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d29082fd4f2e988d586501d4d867be0dc23a0c5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1eb64fe83eb6f80c6470ba4173bcc968d44fb54a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765971"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048093"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-iis-request-tracing-log-files-in-lync-server-2013"></a>Supervisar los archivos de registro de seguimiento de solicitudes en Lync Server 2013
+# <a name="monitoring-iis-request-tracing-log-files-in-lync-server-2013"></a>Supervisión de los archivos de registro de seguimiento de solicitudes de IIS en Lync Server 2013
 
 </div>
 
@@ -39,9 +39,9 @@ _**Última modificación del tema:** 2013-02-14_
 
     This topic applies to deployments supporting Lync 2010 Lync Mobile clients only, and is intended for the Mobility Service (Mcx).
 
-Al habilitar el seguimiento de solicitudes de servicios de Internet Information Server (IIS) para el servicio de movilidad de Lync Server (MCX), los archivos de registro que se generan pueden consumir hasta tres gigabytes de espacio en el disco por día. El registro de seguimiento de IIS está habilitado de manera predeterminada. Debe supervisar los servidores front-end para asegurarse de que no se quede sin espacio en disco.
+Cuando se habilita el seguimiento de solicitudes de Internet Information Services (IIS) para Lync Server Mobility Service (MCX), los archivos de registro que se generan pueden consumir hasta tres gigabytes de espacio en disco por día. El registro de seguimiento de IIS está habilitado de forma predeterminada. Debe supervisar los servidores front-end para asegurarse de que no se quede sin espacio en disco.
 
-De forma predeterminada, IIS almacena los archivos de registro en%\\SystemDrive\\%\\Inetpub registra logfiles.
+De forma predeterminada, IIS almacena los archivos de registro en%\\SystemDrive\\%\\Inetpub logfiles registros.
 
 Para desactivar el seguimiento de solicitudes de IIS para todo un servidor, en la línea de comandos, escriba lo siguiente:
 

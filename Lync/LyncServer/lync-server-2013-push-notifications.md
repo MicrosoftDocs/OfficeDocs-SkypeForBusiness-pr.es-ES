@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: notificaciones push'
+title: 'Lync Server 2013: notificaciones de inserción'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733581
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0680332d89bb44707d89adf06dc892e5865f576f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c714741020cd399e59b095bf8780bab4f41e69b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747020"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045802"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="push-notifications-in-lync-server-2013"></a>Notificaciones Push en Lync Server 2013
+# <a name="push-notifications-in-lync-server-2013"></a>Notificaciones de inserción en Lync Server 2013
 
 </div>
 
@@ -43,9 +43,9 @@ Puede administrar las notificaciones de inserción desde la sección **clientes*
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Habilitar o deshabilitar las notificaciones push para iPhone en Lync Server 2013](lync-server-2013-enabling-or-disabling-push-notifications-for-iphones.md)
+  - [Habilitar o deshabilitar las notificaciones de inserción para iPhone en Lync Server 2013](lync-server-2013-enabling-or-disabling-push-notifications-for-iphones.md)
 
-  - [Habilitar o deshabilitar las notificaciones push para teléfonos Windows en Lync Server 2013](lync-server-2013-enabling-or-disabling-push-notifications-for-windows-phones.md)
+  - [Habilitar o deshabilitar las notificaciones de inserción para Windows Phone en Lync Server 2013](lync-server-2013-enabling-or-disabling-push-notifications-for-windows-phones.md)
 
   - [Ver información sobre la configuración de notificaciones de inserción en Lync Server 2013](lync-server-2013-viewing-information-about-push-notification-settings.md)
 
@@ -56,7 +56,7 @@ Puede administrar las notificaciones de inserción desde la sección **clientes*
 ## <a name="see-also"></a>Vea también
 
 
-[Configurar las notificaciones de inserción en Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)  
+[Configuración de notificaciones de inserción en Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)  
   
 
 </div>

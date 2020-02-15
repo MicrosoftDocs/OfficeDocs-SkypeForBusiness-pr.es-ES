@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Nueva característica de almacenamiento de contactos unificado'
+title: 'Lync Server 2013: nueva característica de almacenamiento de contactos unificado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184308
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f6ab6688a7a2d9b743843c226f2c869f18d3643
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: df0fefe912557e533daedf528d308edf5cea1e89
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755884"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048294"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,16 +37,16 @@ ms.locfileid: "41755884"
 
 _**Última modificación del tema:** 2012-09-13_
 
-Lync Server 2013 presenta un almacén de contactos unificado. El almacén de contactos unificado permite a los usuarios mantener toda la información de contacto en Microsoft Exchange Server 2013. Una vez que los contactos de Lync de los usuarios se migran a Exchange 2013, los usuarios pueden tener acceso a sus contactos y administrarlos desde Lync 2013, Outlook o Outlook Web App y sus favoritos permanecen sincronizados. Por ejemplo, si un usuario agrega un contacto a favoritos en Outlook, el contacto aparece en el grupo favoritos de Lync 2013. No es necesario que los usuarios hayan iniciado sesión en Lync para administrar sus contactos desde Outlook o Outlook Web App.
+Lync Server 2013 presenta un almacén de contactos unificado. Almacén de contactos unificado permite a los usuarios mantener toda su información de contacto en Microsoft Exchange Server 2013. Después de migrar los contactos de Lync de los usuarios a Exchange 2013, los usuarios pueden tener acceso a los contactos y administrarlos desde Lync 2013, Outlook o Outlook Web App, y sus favoritos se mantienen sincronizados. Por ejemplo, si un usuario agrega un contacto a favoritos en Outlook, el contacto aparece en el grupo favoritos en Lync 2013. No es necesario que los usuarios inicien sesión en Lync para administrar sus contactos desde Outlook o Outlook Web App.
 
-El almacén de contactos unificado está habilitado de forma predeterminada. Puede habilitar o deshabilitar a los usuarios para el almacenamiento de contactos unificado globalmente, por sitio, por inquilino o por individuos o grupos de usuarios.
+El almacén de contactos unificados está habilitado de manera predeterminada. Los usuarios del almacén de contactos unificados se pueden habilitar y deshabilitar globalmente, por sitio, por inquilino o por individuos o grupos de individuos.
 
 <div>
 
 ## <a name="see-also"></a>Vea también
 
 
-[Planear e implementar el almacén de contactos unificado en Lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)  
+[Planeación e implementación de almacén de contactos unificados en Lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)  
   
 
 </div>

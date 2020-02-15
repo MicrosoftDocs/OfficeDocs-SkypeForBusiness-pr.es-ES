@@ -12,16 +12,16 @@ ms:contentKeyID: 48184141
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75d842772c8c0e02352eacf7f80711aa79c29461
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4316e86d29013587b2302d18a840a4a1859f9ad
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731530"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047993"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41731530"
 
 _**Última modificación del tema:** 2012-06-25_
 
-tblPrincipalInvites contiene invitaciones para todos los usuarios aprovisionados para todos los nodos con la opción de autoinvitar activada.
+La tabla tblPrincipalInvites contiene invitaciones para todos los usuarios y para todos los nodos con la opción de invitación automática activada.
 
-### <a name="columns"></a>Columnas
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,29 +57,29 @@ tblPrincipalInvites contiene invitaciones para todos los usuarios aprovisionados
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>int, not null</p></td>
-<td><p>IDENTIFICADOR principal.</p></td>
+<td><p>int, no NULL</p></td>
+<td><p>Id. de la entidad de seguridad</p></td>
 </tr>
 <tr class="even">
 <td><p>invID</p></td>
-<td><p>int, not null</p></td>
-<td><p>Número secuencial único (por identificador de entidad de identidad) generado desde la tabla tblLastInviteId.</p></td>
+<td><p>int, no NULL</p></td>
+<td><p>Número secuencial único (por identificador de la entidad de seguridad) generado desde la tabla tblLastInviteId.</p></td>
 </tr>
 <tr class="odd">
 <td><p>nodeID</p></td>
-<td><p>int, not null</p></td>
-<td><p>IDENTIFICADOR de nodo (solo salón de chat).</p></td>
+<td><p>int, no NULL</p></td>
+<td><p>Identificador de nodo (solo salón de chat).</p></td>
 </tr>
 <tr class="even">
-<td><p>creado</p></td>
-<td><p>DateTime, not null</p></td>
+<td><p>created</p></td>
+<td><p>datetime, no NULL</p></td>
 <td><p>Momento de la creación.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Sus
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -99,11 +99,11 @@ tblPrincipalInvites contiene invitaciones para todos los usuarios aprovisionados
 </tr>
 <tr class="even">
 <td><p>prinID</p></td>
-<td><p>Clave externa con la búsqueda en la tabla tblPrincipal. prinID.</p></td>
+<td><p>Clave externa con búsqueda en la tabla tblPrincipal.prinID.</p></td>
 </tr>
 <tr class="odd">
 <td><p>nodeID</p></td>
-<td><p>Clave externa con la búsqueda en la tabla tblNode. nodeID.</p></td>
+<td><p>Clave externa con búsqueda en la tabla tblNode.nodeID.</p></td>
 </tr>
 </tbody>
 </table>

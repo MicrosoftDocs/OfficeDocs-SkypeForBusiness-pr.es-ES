@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla Users'
+title: 'Lync Server 2013: tabla de usuarios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2be643f8a593af01ee47ad93d3910d44ee86e48
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 67663afbd9e5b61b1b24478e003db91c5be511e3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744330"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046063"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="users-table-in-lync-server-2013"></a>Tabla Users en Lync Server 2013
+# <a name="users-table-in-lync-server-2013"></a>Tabla users en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41744330"
 
 _**Última modificación del tema:** 2012-09-28_
 
-La tabla usuarios es una tabla de soporte técnico. Cada registro de la tabla almacena información acerca de un usuario implicado en llamadas o sesiones que tienen registros en la base de datos.
+La tabla users es una tabla de apoyo. Cada registro de la tabla almacena información sobre un usuario implicado en llamadas o sesiones que tienen registros en la base de datos.
 
 
 <table>
@@ -63,28 +63,28 @@ La tabla usuarios es una tabla de soporte técnico. Cada registro de la tabla al
 <td><p>Marca de tiempo para uso interno.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Iddeusuario</strong></p></td>
+<td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
+<td><p>Principal</p></td>
 <td><p>Número único que identifica a este usuario.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
 <td><p> </p></td>
-<td><p>URI de usuario.</p></td>
+<td><p>URI del usuario.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>TenantId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
-<td><p>El identificador de inquilino de este usuario. Para obtener más información, consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos de Lync Server 2013</a> .</p></td>
+<td><p>Externa</p></td>
+<td><p>IDENTIFICADOR de inquilino de este usuario. Consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UriTypeId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
-<td><p>Tipo de URI de este usuario. Para obtener más información, consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> .</p></td>
+<td><p>Externa</p></td>
+<td><p>Tipo de URI de este usuario. Consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 </tbody>
 </table>

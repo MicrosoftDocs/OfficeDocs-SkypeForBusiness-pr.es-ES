@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Remove-CsWebServiceConfiguration para la administración de libretas de direcciones'
+title: 'Lync Server 2013: Remove-CsWebServiceConfiguration para la administración de la libreta de direcciones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184848
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f3e11219b41cc4717fc370b7f396980921e3403
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8f07520e3953676ae369478e3213d0709d329316
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746840"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050622"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Remove-CsWebServiceConfiguration para la administración de libretas de direcciones en Lync Server 2013
+# <a name="remove-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Remove-CsWebServiceConfiguration para la administración de la libreta de direcciones en Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41746840"
 
 _**Última modificación del tema:** 2012-11-01_
 
-¿Quién puede ejecutar este cmdlet? de forma predeterminada, los miembros de los siguientes grupos tienen autorización para ejecutar el cmdlet Remove-CsWebServiceConfiguration de forma local: RTCUniversalServerAdmins. Para devolver una lista de todas las funciones de control de acceso basado en roles (RBAC) a las que se ha asignado este cmdlet (incluidos los roles RBAC que haya creado usted mismo), ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:
+Quién puede ejecutar este cmdlet: De manera predeterminada, los miembros de los siguientes grupos están autorizados para ejecutar el cmdlet Remove-CsWebServiceConfiguration en forma local: RTCUniversalServerAdmins. Para devolver una lista de todos los roles de control de acceso basado en roles (RBAC) a los que se ha asignado este cmdlet (incluido cualquier otro rol RBAC personalizado que usted mismo haya creado), ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Remove-CsWebServiceConfiguration"}
 
-El cmdlet Remove-CsWebServiceConfiguration permite a un administrador quitar una configuración de servicios Web creada previamente. El cmdlet no puede quitar la configuración de los servicios web globales.
+Con el cmdlet Remove-CsWebServiceConfiguration, los administradores pueden quitar una configuración de servicios web que se hubiera creado anteriormente. El cmdlet no puede quitar la configuración global de servicios web.
 
 Por ejemplo:
 

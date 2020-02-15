@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Información general del archivado'
+title: 'Lync Server 2013: información general sobre el archivado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183570
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f718ac939fc665c0464d4986f51279d3afdee8a3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fe615b0bf434b0c87a452a35528aa565c85fe5d0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755614"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049972"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-archiving-in-lync-server-2013"></a>Información general del archivado en Lync Server 2013
+# <a name="overview-of-archiving-in-lync-server-2013"></a>Información general sobre el archivado en Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41755614"
 
 _**Última modificación del tema:** 2013-09-30_
 
-El archivado en Lync Server 2013 le proporciona una forma de archivar las comunicaciones que se envían a través de Lync Server 2013.
+El archivado en Lync Server 2013 proporciona una forma de archivar las comunicaciones que se envían a través de Lync Server 2013.
 
-Puede implementar el archivado como parte de la implementación inicial de Lync Server 2013, o bien puede agregarlo a una implementación existente. Para usar las bases de datos de archivado de Lync Server 2013 (bases de datos de SQL Server) para el almacenamiento de datos de archivado, use el generador de topología para agregar las bases de datos a la topología y, a continuación, vuelva a publicar la topología. Si todos los usuarios están alojados en Exchange 2013 y sus buzones se colocan en conservación local, no tiene que actualizar su topología, pero solo necesita habilitar la integración de Microsoft Exchange para almacenar datos archivados en Exchange 2013.
+Puede implementar el archivado como parte de la implementación inicial de Lync Server 2013 o puede agregarlo a una implementación existente. Para usar las bases de datos de archivado de Lync Server 2013 (bases de datos de SQL Server) para el almacenamiento de datos de archivado, use el generador de topologías para agregar las bases de datos a la topología y, a continuación, vuelva a publicar la topología. Si todos los usuarios están hospedados en Exchange 2013 y tienen sus buzones en conservación local, no es necesario actualizar la topología, pero solo es necesario habilitar la integración de Microsoft Exchange para almacenar datos archivados en Exchange 2013.
 
-Al implementar el archivado, se configura para especificar qué es el archivo. De forma predeterminada, no se archiva nada. Configure y administre el archivado mediante el panel de control de Lync Server 2013. Puede implementar el archivado para comunicaciones internas, comunicaciones externas o ambas. Puede configurar las opciones de archivado para toda la organización y, opcionalmente, para sitios específicos, agrupaciones específicas, y usuarios y grupos de usuarios específicos. Para obtener más información sobre cómo determinar las opciones adecuadas para su organización, vea [definir los requisitos para el archivado en Lync Server 2013](lync-server-2013-defining-your-requirements-for-archiving.md) en la documentación de planeación. Para obtener detalles sobre cómo se implementan las directivas y configuraciones de archivado, y detalles sobre qué información se puede archivar o no, vea [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, la documentación de implementación o la documentación de operaciones.
+Al implementar el archivado, debe configurarlo para especificar qué se debe archivar. De manera predeterminada, nada se archiva. Puede configurar y administrar el archivado mediante el panel de control de Lync Server 2013. Puede implementar el archivado para las comunicaciones internas, las comunicaciones externas o ambas. Puede configurar las opciones de archivado para la organización completa y, de manera opcional, para sitios específicos, grupos de servidores específicos y usuarios y grupos de usuarios específicos. Para obtener información detallada sobre cómo determinar las opciones adecuadas para su organización, consulte definición de los [requisitos para el archivado en Lync Server 2013](lync-server-2013-defining-your-requirements-for-archiving.md) en la documentación referente a la planeación. Para obtener más información sobre cómo se implementan las directivas de archivado y las configuraciones, y sobre qué información se puede archivar o no, vea [how archiving Works in Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación sobre Planeación, la documentación sobre la implementación o las operaciones.
 
 </div>
 

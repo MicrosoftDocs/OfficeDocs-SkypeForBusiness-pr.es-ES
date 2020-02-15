@@ -1,5 +1,5 @@
 ---
-title: Configurar la detección automática para movilidad con implementaciones híbridas
+title: Configuración de detección automática para movilidad con implementaciones híbridas
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706012
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0dd6c36afb89d1a8b354d072ee39ee3f6a2e7e93
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 027357579ff9ff90d82a78994696a5a2fb656188
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734854"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049762"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a>Configurar la detección automática para movilidad con implementaciones híbridas en Lync Server 2013
+# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a>Configuración de la detección automática en Lync Server 2013 para movilidad con implementaciones híbridas
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41734854"
 
 _**Última modificación del tema:** 2014-06-18_
 
-Las implementaciones híbridas son configuraciones que usan el servicio en la nube de Microsoft Lync Online y la implementación local. En este tipo de configuración, el servicio Detección automática debe poder ubicar dónde se encuentra realmente el usuario. Es decir, la detección automática ayuda a buscar la cuenta de usuario y dónde se encuentra el servidor que hospeda la cuenta del usuario, independientemente de si se encuentra en la implementación local o en la implementación de Lync Online.
+Las implementaciones híbridas son configuraciones que usan el servicio en la nube de Microsoft Lync Online y la implementación local. En este tipo de configuración, el servicio de detección automática puede determinar dónde está ubicado realmente el usuario. Es decir, detección automática ayuda a encontrar la cuenta de usuario y donde se encuentra el servidor que hospeda la cuenta del usuario, independientemente de si se encuentra en la implementación local o en la implementación de Lync Online.
 
-Por ejemplo, si la cuenta de un usuario se hospeda en un servidor de Lync Online, el intento de ubicar al usuario tendrá el siguiente aspecto, en un proceso conocido como *descubrimiento*:
+Por ejemplo, si una cuenta de usuario está hospedada en un servidor de Lync Online, el intento de ubicar al usuario ocurrirá como sigue, en un proceso conocido como *detectabilidad*:
 
-  - El usuario inicia un intento de conexión a la implementación local, **contoso.com**.
+  - El usuario inicia un intento de conexión en la implementación local, **contoso.com**.
 
-  - El intento se envía a lyncdiscover.contoso.com, el nombre DNS asociado al servicio Detección automática.
+  - Se envía el intento a lyncdiscover.contoso.com, el nombre de DNS asociado al servicio de detección automática.
 
-  - Detección automática hace referencia al grupo de registradores supuesto en la implementación local de contoso.com y se le proporciona información sobre el servidor principal real del usuario hospedado en Lync Online. La detección automática después envía al usuario una referencia al servicio de detección automática de **Lync.com** online.
+  - Detección automática hace referencia al grupo de registradores supuesto en la implementación local de contoso.com y recibe información sobre el servidor principal real del usuario hospedado en Lync Online. La detección automática envía al usuario una derivación al servicio de detección automática en línea de **lync.com**.
 
-  - El usuario inicia un intento de conexión al servicio de detección automática de lync.com online y puede ubicar la cuenta del usuario y el servidor principal del usuario.
+  - El usuario inicia un intento de conexión al servicio de detección automática en línea de lync.com y puede localizar la cuenta de usuario y el servidor principal del usuario.
 
-Para que los clientes móviles puedan descubrir la implementación donde se encuentra el servidor principal del usuario, debe configurar el servicio Detección automática con un nuevo localizador de recursos uniforme (URL). Siga este procedimiento para configurar el servicio Detección automática.
+Para que clientes móviles puedan descubrir la implementación en la que se encuentra el servidor principal del usuario, debe configurar el servicio de detección automática con un localizador de recursos uniforme (URL) nuevo. Para configurar el servicio de detección automática, haga lo siguiente:
 
 <div>
 
@@ -61,7 +61,7 @@ Para que los clientes móviles puedan descubrir la implementación donde se encu
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
     
-    Donde \[identidad\] se reemplaza con el nombre de dominio del espacio de direcciones SIP compartido.
+    Donde \[la\] identidad se reemplaza con el nombre de dominio del espacio de direcciones SIP compartido.
 
 </div>
 
@@ -70,8 +70,8 @@ Para que los clientes móviles puedan descubrir la implementación donde se encu
 ## <a name="see-also"></a>Vea también
 
 
-[Get-CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg413078(v=OCS.15))  
-[Set-CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg398532(v=OCS.15))  
+[Get-CsHostingProvider](https://technet.microsoft.com/library/Gg413078(v=OCS.15))  
+[Set-CsHostingProvider](https://technet.microsoft.com/library/Gg398532(v=OCS.15))  
   
 
 </div>

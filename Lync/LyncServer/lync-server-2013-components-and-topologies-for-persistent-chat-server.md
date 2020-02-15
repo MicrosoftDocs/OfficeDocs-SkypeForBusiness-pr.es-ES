@@ -12,16 +12,16 @@ ms:contentKeyID: 48184420
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 862635d091a216df61058c0f0ff00eaa9d32a0c2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 320605ab363ff4879811873cc9ce957520b91b29
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742580"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048234"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41742580"
 
 _**Última modificación del tema:** 2012-10-05_
 
-El servidor de chat persistente admite configuraciones de servidor único y configuraciones de varios servidores. El servidor de chat persistente también puede ejecutarse en un servidor de Lync Server 2013 Standard Edition. Estas configuraciones se componen de los siguientes componentes y topologías de servidores de chat persistentes.
+El servidor de chat persistente admite configuraciones de un solo servidor y de varios servidores. El servidor de chat persistente también puede ejecutarse en un servidor de Lync Server 2013 Standard Edition. Estas configuraciones constan de los siguientes componentes y topologías del servidor de chat persistente.
 
 <div>
 
-## <a name="persistent-chat-server-components"></a>Componentes del servidor de chat persistentes
+## <a name="persistent-chat-server-components"></a>Componentes del servidor de chat persistente
 
 La instalación de la versión más reciente del servidor de chat persistente requiere los siguientes componentes:
 
-  - Uno o más equipos que ejecutan el servidor de chat persistente y proporcionan los siguientes servicios:
+  - Uno o más equipos que ejecuten el servidor de chat persistente y proporcionen los siguientes servicios:
     
       - Servicio de chat persistente
     
@@ -55,81 +55,81 @@ La instalación de la versión más reciente del servidor de chat persistente re
     
 
     > [!IMPORTANT]  
-    > En Lync Server 2013, los servicios Web de chat persistente para carga y descarga de archivos se colocan ahora&nbsp;con el servidor front-end de lync Server 2013.<BR>Los servicios Web de chat persistentes para la administración de salones de chat también se&nbsp;colocan con el servidor front-end de Lync Server 2013.
+    > En Lync Server 2013, los servicios Web de chat persistente para la carga y descarga de archivos se encuentra ahora en&nbsp;el servidor front-end de lync Server 2013.<BR>Los servicios Web de chat persistente para la administración de salones de chat también se combinan&nbsp;con el servidor front-end de Lync Server 2013.
 
     
     </div>
 
-  - Servidores (es decir, hay más de un servidor si se usa el reflejo) que hospedan la base de datos back-end de SQL Server para hospedar la base de datos de contenido de chat persistente en la que se almacenan el contenido, las salas y las categorías del salón de chat.
+  - Servidores (es decir, más de un servidor si se usa la creación de reflejo) que hospeden la base de datos back-end de SQL Server para hospedar la base de datos de contenido de chat persistente en la que se almacenan el contenido, las salas y las categorías de los salones de chat.
     
     <div>
     
 
     > [!NOTE]  
-    > La base de datos back-end almacena los datos del historial de chats, incluida información sobre categorías y salones de chat persistentes que se crean.
+    > La base de datos back-end almacena los datos del historial de chat, incluida la información sobre categorías y salones de chat persistente que se crean.
 
     
     </div>
 
-  - Si se ha habilitado la compatibilidad, se pueden almacenar servidores (más de un servidor, si se usan reflejo) que hospedan la base de datos back-end de SQL Server para hospedar la base de datos de cumplimiento de chats persistentes, en la que se almacenan los eventos de cumplimiento y el contenido de chat para fines de cumplimiento.
+  - Si se habilitó el cumplimiento normativo, se crearán un servidor (es) (más de un servidor si se usa la creación de reflejo) que hospeden la base de datos back-end de SQL Server para hospedar la base de datos de cumplimiento de chat persistente, en la que se almacenan los eventos de cumplimiento y el contenido de chat para fines de cumplimiento.
 
-Para administrar el servidor de chat persistente desde un equipo independiente (como una consola administrativa), use el panel de control de Lync Server en el equipo. Este equipo debe implementarse en un dominio de servicios de dominio de Active Directory, con al menos un servidor de catálogo global en la raíz del bosque.
+Para administrar el servidor de chat persistente desde un equipo independiente (como una consola administrativa), use el panel de control de Lync Server en el equipo. A continuación, este equipo debe implementarse en un dominio de servicios de dominio de Active Directory, con al menos un servidor de catálogo global en la raíz del bosque.
 
-Para obtener más información sobre los requisitos de hardware y software para el servidor de chat persistente, consulte [los requisitos técnicos para el servidor de chat persistente en Lync server 2013](lync-server-2013-technical-requirements-for-persistent-chat-server.md), [hardware compatible para Lync Server 2013](lync-server-2013-supported-hardware.md), así como compatibilidad de la [infraestructura y el software de servidor en Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) en la documentación de soporte técnico.
+Para obtener más información acerca de los requisitos de hardware y software para el servidor de chat persistente, consulte [Technical Requirements for persistent chat Server in Lync server 2013](lync-server-2013-technical-requirements-for-persistent-chat-server.md), [Supported hardware for Lync Server 2013](lync-server-2013-supported-hardware.md), and [Server Software and infrastructure support in Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) en la documentación de compatibilidad.
 
 </div>
 
 <div>
 
-## <a name="supported-collocation"></a>Collocation compatibles
+## <a name="supported-collocation"></a>Escenarios de instalación compatibles
 
-Lync Server 2013 admite una gran variedad de escenarios collocation, lo que le ofrece la flexibilidad de ahorrar costos de hardware ejecutando varios componentes en un servidor (si tiene una pequeña organización) o para ejecutar componentes individuales en diferentes servidores (si tiene una organización más grande que necesita escalabilidad y rendimiento). Los factores de escalabilidad se deben considerar sin duda antes de decidir si se Collocate los componentes.
+Lync Server 2013 admite una amplia variedad de escenarios de combinación, lo que proporciona la flexibilidad necesaria para ahorrar costos de hardware mediante la ejecución de varios componentes en un servidor (si tiene una organización pequeña) o para ejecutar componentes individuales en diferentes servidores (si tiene un organización más grande que necesita escalabilidad y rendimiento). Los factores de escalabilidad se deben tener en cuenta antes de decidir si los componentes se van a combinar.
 
-El servicio de cumplimiento de chat persistente, si el cumplimiento está habilitado, se encuentra en el servidor front-end de Lync Server 2013.
+El servicio de cumplimiento de chat persistente, si el cumplimiento está habilitado, se combina con el servidor front-end de Lync Server 2013.
 
-Se puede implementar el servidor de chat persistente en el servidor Standard Edition. El servidor back-end de servidor de chat persistente y la base de datos de cumplimiento de chat persistente se pueden colocar en el servidor Standard Edition en el servidor de back-end local de SQL Server Express. Para obtener más información sobre los componentes que se pueden colocar aquí, consulte [compatibilidad de servidor collocation en Lync server 2013](lync-server-2013-supported-server-collocation.md) en la documentación de soporte técnico.
+El servidor de chat persistente se puede implementar en el servidor Standard Edition. El servidor back-end del servidor de chat persistente y la base de datos de cumplimiento de chat persistente se pueden combinar en el servidor Standard Edition en el servidor back-end local de SQL Server Express. Para obtener más información sobre los componentes que se pueden combinar allí, consulte [Supported Server combinación en Lync server 2013](lync-server-2013-supported-server-collocation.md) en la documentación sobre compatibilidad.
 
-Para Lync Server 2013 Enterprise Edition, los servidores de chat persistentes no se pueden colocar en el servidor Enterprise Edition. La base de datos de SQL Server para el servidor de chat persistente puede colocarse con la base de datos del servidor back-end de un grupo de servidores front end Enterprise Edition. La base de datos de SQL Server para el cumplimiento persistente de la conversación también puede incluirse con la base de datos servidor back-end de un grupo de servidores Enterprise Edition.
+Para Lync Server 2013 Enterprise Edition, los servidores de chat persistente no se pueden combinar en el servidor Enterprise Edition. La base de datos de SQL Server para el servidor de chat persistente se puede combinar con la base de datos del servidor back-end de un grupo de servidores front-end Enterprise Edition. La base de datos de SQL Server para el cumplimiento de chat persistente también se puede combinar con la base de datos del servidor back-end de un grupo de servidores Enterprise Edition.
 
 <div>
 
 
 > [!IMPORTANT]  
-> El servidor que hospeda la base de datos de chat persistente puede hospedar otras bases de datos. Sin embargo, cuando considere collocating la base de datos de chat persistente con otras bases de datos, tenga en cuenta que si está almacenando los mensajes de más de unos pocos usuarios, el espacio en disco necesario para la base de datos de chat persistente puede crecer muy grande. Por esta razón, no recomendamos collocating la base de datos de chat persistente con la base de datos back-end.
+> El servidor que hospeda la base de datos de chat persistente puede hospedar otras bases de datos. Sin embargo, cuando considere la posibilidad de combinar la base de datos de chat persistente con otras bases de datos, tenga en cuenta que si está almacenando los mensajes de más de unos pocos usuarios, el espacio en disco que necesita la base de datos de chat persistente puede aumentar considerablemente. Por este motivo, no se recomienda combinar la base de datos de chat persistente con la base de datos back-end.
 
 
 
 </div>
 
-Si Collocate la base de datos de chat persistente con la base de datos back-end, puede usar una única instancia de SQL Server para cualquiera de las bases de datos o todas ellas, o bien puede usar una instancia independiente de SQL Server para cada base de datos, con la siguiente limitación:
+Si combinar la base de datos de chat persistente con la base de datos back-end, puede usar una única instancia de SQL Server para cualquiera o todas las bases de datos, o puede usar una instancia independiente de SQL Server para cada base de datos, con la siguiente limitación:
 
-  - Cada instancia de SQL Server puede contener una única base de datos back-end y una única base de datos de chat persistente.
+  - Cada instancia de SQL Server puede contener una sola base de datos back-end y una sola base de datos de chat persistente.
 
-Para más información sobre collocation de todos los roles de servidor y bases de datos, consulte compatibilidad con [servidores de collocation en Lync server 2013](lync-server-2013-supported-server-collocation.md) en la documentación de soporte.
+Para obtener más información sobre la combinación de todos los roles de servidor y las bases de datos, consulte [Supported Server combinación en Lync server 2013](lync-server-2013-supported-server-collocation.md) en la documentación sobre compatibilidad.
 
 </div>
 
 <div>
 
-## <a name="persistent-chat-server-topologies"></a>Topologías de servidores de chat persistentes
+## <a name="persistent-chat-server-topologies"></a>Topologías de servidor de chat persistente
 
 El servidor de chat persistente admite las siguientes topologías:
 
-  - Servidor de servidor front-end de servidor de mensajería instantánea de servidor de Lync Server 2013 Enterprise Edition
+  - Servidor front-end de servidor de chat persistente de servidor único de Lync Server 2013 Enterprise Edition
 
-  - Servidor front-end de servidor de la mensajería instantánea de Lync Server 2013 Enterprise Edition
+  - Servidor front-end de servidor de chat persistente de varios servidores de Lync Server 2013 Enterprise Edition
 
-  - Servidor de Lync Server 2013 Standard Edition con SQL Server Express
+  - Lync Server 2013 servidor Standard Edition con SQL Server Express
 
   - Servidor de Lync Server 2013 Standard Edition y servidor de chat persistente en un servidor independiente que usa un servidor Standard Edition como servidor del próximo salto.
 
-Puede Agregar un servidor de chat persistente a la implementación de Lync Server 2013 mediante el generador de topologías. Puede Agregar un servidor único o un grupo de servidores de chat persistente de servidor múltiple a su topología.
+Puede Agregar un servidor de chat persistente a la implementación de Lync Server 2013 mediante el generador de topologías. Puede Agregar un servidor único o un grupo de servidores de chat persistente de varios servidores a la topología.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Después de crear un grupo de servidores de chat persistente con un único servidor mediante el generador de topologías, no puede agregar servidores adicionales al grupo.
+> Después de crear un grupo de servidores de chat persistente con un único servidor mediante el generador de topologías, no puede agregar más servidores al grupo.
 
 
 
@@ -137,25 +137,25 @@ Puede Agregar un servidor de chat persistente a la implementación de Lync Serve
 
 <div>
 
-## <a name="single-server-topology"></a>Topología de servidor único
+## <a name="single-server-topology"></a>Topología de un solo servidor
 
-La configuración mínima y la implementación más sencilla para el servidor de chat persistente es una topología única de servidor de chat persistente. Esta implementación requiere un único servidor que ejecute el servidor de chat persistente (que, opcionalmente, ejecuta el servicio de cumplimiento, si el cumplimiento está habilitado), un servidor que hospede tanto la base de datos de SQL Server como la de la base de datos de SQL Server para almacenar el datos de cumplimiento.
+La configuración mínima y la implementación más sencilla para el servidor de chat persistente son una única topología de servidor front-end de chat persistente. Esta implementación requiere un único servidor que ejecute el servidor de chat persistente (que, opcionalmente, ejecuta el servicio de cumplimiento, si el cumplimiento está habilitado), un servidor que hospede la base de datos de SQL Server y, si es necesario el cumplimiento normativo, la base de datos de SQL Server para almacenar el datos de cumplimiento.
 
 <div>
 
 
 > [!IMPORTANT]  
-> No puede agregar servidores adicionales a un grupo de servidores de chat persistente que se inicie como una implementación de servidor único en el generador de topología. Le recomendamos que use la topología del grupo de varios servidores, incluso si está usando un solo servidor, para que pueda agregar más servidores más adelante, si es necesario.
+> No puede agregar servidores adicionales a un grupo de servidores de chat persistente que se inicie como una implementación de un solo servidor en el generador de topologías. Recomendamos usar la topología de grupo de varios servidores (aun cuando vaya a usar un solo servidor) para que, de este modo, pueda agregar más servidores posteriormente si así lo necesita.
 
 
 
 </div>
 
-La siguiente ilustración muestra todos los componentes obligatorios y opcionales de una topología para un único servidor de usuario de chat persistente con cumplimiento normativo.
+En la siguiente figura se muestran todos los componentes necesarios y opcionales de una topología para un servidor front-end de servidor de chat persistente único con el cumplimiento normativo.
 
-**Servidor único de chat persistente**
+**Servidor de chat persistente único**
 
-![Topología de servidor único con servicio de cumplimiento](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topología de servidor único con servicio de cumplimiento")
+![Topología de un solo servidor con servicio de cumplimiento](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topología de un solo servidor con servicio de cumplimiento")
 
 </div>
 
@@ -163,17 +163,17 @@ La siguiente ilustración muestra todos los componentes obligatorios y opcionale
 
 ## <a name="multiple-server-topology"></a>Topología de varios servidores
 
-Para proporcionar mayor capacidad y confiabilidad, puede implementar una topología de varios servidores, como se describe en [planear el servidor de chat persistente en Lync server 2013](lync-server-2013-planning-for-persistent-chat-server.md). La topología de varios servidores puede incluir hasta cuatro equipos activos que ejecutan el servidor de chat persistente (la alta disponibilidad y las configuraciones de recuperación ante desastres permiten hasta ocho, pero solo cuatro pueden estar activos y los cuatro restantes en espera). Cada servidor puede admitir hasta 20.000 usuarios simultáneos, para un total de 80.000 usuarios simultáneos conectados a un grupo de servidores de chat persistente con 4 servidores. Una topología de varios servidores es la misma que la topología de servidor único, excepto en que varios servidores hospedan un servidor de chat persistente y pueden escalar más alto. Varios equipos que ejecutan el servidor de chat persistente deben residir en el mismo dominio de servicios de dominio de Active Directory que Lync Server y el servicio de cumplimiento.
+Para proporcionar mayor capacidad y confiabilidad, puede implementar una topología de varios servidores, como se describe en [Planning for persistent chat Server in Lync server 2013](lync-server-2013-planning-for-persistent-chat-server.md). La topología de varios servidores puede incluir hasta cuatro equipos activos que ejecutan el servidor de chat persistente (la alta disponibilidad y las configuraciones de recuperación ante desastres permiten hasta ocho, pero solo cuatro pueden estar activos y los cuatro restantes en espera). Cada servidor puede admitir hasta 20.000 usuarios simultáneos, para un total de 80.000 usuarios simultáneos conectados a un grupo de servidores de chat persistente con 4 servidores. Una topología de varios servidores es la misma que la topología de un único servidor, excepto en que varios servidores hospedan un servidor de chat persistente y pueden escalar más. Los distintos equipos que ejecutan el servidor de chat persistente deben residir en el mismo dominio de servicios de dominio de Active Directory que Lync Server y el servicio de cumplimiento.
 
-La siguiente ilustración muestra todos los componentes de una topología de varios servidores con varios equipos que ejecutan un servidor de chat persistente, el servicio de cumplimiento opcional y una base de datos de cumplimiento independiente.
+En la siguiente figura se muestran todos los componentes de una topología de varios servidores con varios equipos que ejecutan el servidor de chat persistente, el servicio opcional de cumplimiento y una base de datos de cumplimiento independiente.
 
-**Varios servidores de chat persistentes**
+**Varios servidores de chat persistente**
 
 ![Topología de varios servidores](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topología de varios servidores")
 
-Las topologías de varios servidores permiten agrupar las funciones de servidor. En un grupo de servidores, los servicios de chat persistentes se comunican y comparten datos. Por ejemplo, el historial de conversaciones publicado originalmente en un servicio de chat persistente está disponible desde cualquier servicio de chat persistente en el sistema. Cualquier servicio de chat persistente puede acceder a un archivo que se carga a través de un servicio de chat persistente. Los usuarios se pueden conectar a diferentes servidores de aplicaciones para el servidor de mensajería instantánea y pueden estar conversando y comunicándose entre sí.
+Las topologías de varios servidores permiten agrupar las funciones de servidor. En un grupo de servidores, los servicios de chat persistente se comunican y comparten datos. Por ejemplo, el historial de chat que se publicó originalmente en un servicio de chat persistente está disponible desde cualquier servicio de chat persistente en el sistema. Cualquier servicio de chat persistente puede acceder a un archivo que se carga a través de un servicio de chat persistente. Los usuarios pueden conectarse a diferentes servidores front-end del servidor de chat persistente y pueden estar chateando y comunicándose entre sí.
 
-El puerto predeterminado de TCP 8011 conecta un servidor a un grupo de servidores y lo usa el servicio de chat persistente para comunicarse entre sí o con fines administrativos.
+El puerto predeterminado TCP 8011 conecta un servidor a un grupo de servidores y lo usa el servicio de chat persistente para comunicarse entre ellos o con fines administrativos.
 
 </div>
 

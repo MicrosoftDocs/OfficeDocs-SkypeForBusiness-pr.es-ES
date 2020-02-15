@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Compatibilidad con protocolo IP y de red'
+title: 'Lync Server 2013: compatibilidad con IP y Protocolo de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 285ed0d383b09276979ad6e29c390e2fc22a1caf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a9792ea8365dcd8941b831c43ab0406f9e33b90
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762188"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046143"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="ip-and-networking-protocol-support-in-lync-server-2013"></a>Compatibilidad con protocolo IP y de red en Lync Server 2013
+# <a name="ip-and-networking-protocol-support-in-lync-server-2013"></a>Compatibilidad de protocolo de red e IP en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41762188"
 
 _**Última modificación del tema:** 2012-09-21_
 
-Lync Server 2013 admite los siguientes protocolos de IP y de red:
+Lync Server 2013 admite los siguientes protocolos IP y de red:
 
   - **Protocolos IP.**    Lync Server 2013 admite IP versión 4 (IPv4) o IP versión 6 (IPv6) para la red del servidor.
     
@@ -45,18 +45,18 @@ Lync Server 2013 admite los siguientes protocolos de IP y de red:
     
 
     > [!NOTE]  
-    > Lync Server 2013 puede funcionar en una red con dos pilas IP habilitadas.
+    > Lync Server 2013 puede funcionar en una red con una pila IP dual habilitada.
 
     
     </div>
 
-  - **Protocolos de transporte SIP.**    De forma genérica, SIP puede usar al menos tres tipos de transporte: Protocolo de datagrama de usuario (UDP), protocolo de control de transmisión (TCP) y seguridad de nivel de transporte (TLS). En la configuración de transporte SIP predeterminada, TLS se ejecuta sobre TCP. TLS se usa dentro de la red de Lync Server 2013. En el extremo de la red, Lync Server 2013 puede interoperar sobre TCP. Lync Server 2013 no admite UDP para el transporte SIP porque no cumple con los estándares mínimos de seguridad, confiabilidad y escalabilidad de las comunicaciones empresariales. Para obtener más información, vea el artículo del blog de NextHop, "to UDP, o not to UDP, que es la [http://go.microsoft.com/fwlink/p/?linkId=185369](http://go.microsoft.com/fwlink/p/?linkid=185369)pregunta" en.
+  - **Protocolos de transporte SIP.**    Genéricamente, SIP puede usar al menos tres tipos de transporte: Protocolo de datagramas de usuario (UDP), protocolo de control de transmisión (TCP) y seguridad de la capa de transporte (TLS). En la configuración de transporte SIP predeterminada, TLS se ejecuta sobre TCP. TLS se usa dentro de la red de Lync Server 2013. En el perímetro de la red, Lync Server 2013 puede interoperar sobre TCP. Lync Server 2013 no admite UDP para el transporte SIP porque no cumple con los estándares mínimos para la seguridad, la confiabilidad y la escalabilidad de las comunicaciones empresariales. Para obtener más información, consulte el artículo del blog NextHop, "to UDP, or Not to UDP, que es la pregunta [http://go.microsoft.com/fwlink/p/?linkId=185369](http://go.microsoft.com/fwlink/p/?linkid=185369)" en.
     
     <div>
     
 
     > [!NOTE]  
-    > El contenido de los blogs y sus URL están sujetos a cambios sin previo aviso.
+    > El contenido de cada blog y su dirección URL están sujetos a cambio sin previo aviso.
 
     
     </div>

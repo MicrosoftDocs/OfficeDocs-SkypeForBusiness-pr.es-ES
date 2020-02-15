@@ -12,16 +12,16 @@ ms:contentKeyID: 48184975
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88d75086f0532205c2897f7e86d49f50072aaa89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 770682cfed17d9b029688275469351c1cfdf9f4d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756934"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050552"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41756934"
 
 _**Última modificación del tema:** 2013-02-23_
 
-Puede cambiar la configuración de la información de actualización de dispositivos que se registra en su organización mediante el panel de control de Lync Server o el shell de administración de Lync Server. En la siguiente tabla se muestran los valores que pueden modificarse y qué herramientas se usan para modificar la configuración.
+Puede cambiar la configuración de la información de actualización de dispositivos que se registra en la organización mediante el panel de control de Lync Server o el shell de administración de Lync Server. En la siguiente tabla se muestran los valores que se pueden modificar y las herramientas que se usan para modificar la configuración.
 
-La configuración de registro se puede cambiar y aplicar globalmente o por sitio.
+La configuración del registro se puede cambiar y aplicar globalmente o por sitio.
 
 
 <table>
@@ -50,44 +50,44 @@ La configuración de registro se puede cambiar y aplicar globalmente o por sitio
 <thead>
 <tr class="header">
 <th>Para cambiar</th>
-<th>Usar</th>
+<th>Utilice</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>El tamaño máximo (en bytes) de un archivo de registro</p></td>
-<td><p>Panel de control de Lync Server</p>
-<p>ni</p>
+<td><p>Tamaño máximo (en bytes) de un archivo de registro</p></td>
+<td><p>Panel de Control de Lync Server</p>
+<p>O bien,</p>
 <p>Shell de administración de Communications Server</p></td>
 </tr>
 <tr class="even">
 <td><p>La cantidad máxima de información (en bytes) que se puede almacenar en la memoria caché</p></td>
-<td><p>Panel de control de Lync Server</p>
-<p>ni</p>
+<td><p>Panel de Control de Lync Server</p>
+<p>O bien,</p>
 <p>Shell de administración de Communications Server</p></td>
 </tr>
 <tr class="odd">
-<td><p>Con qué frecuencia (en minutos) escribir la información almacenada en caché en el archivo de registro</p></td>
-<td><p>Panel de control de Lync Server</p>
-<p>ni</p>
+<td><p>Frecuencia (en minutos) con la que se escribe la información almacenada en caché en el archivo de registro</p></td>
+<td><p>Panel de Control de Lync Server</p>
+<p>O bien,</p>
 <p>Shell de administración de Communications Server</p></td>
 </tr>
 <tr class="even">
-<td><p>Cuánto tiempo (en días) se conservan los archivos de registro</p></td>
-<td><p>Panel de control de Lync Server</p>
-<p>ni</p>
+<td><p>Tiempo (en días) que se conservarán los archivos de registro</p></td>
+<td><p>Panel de Control de Lync Server</p>
+<p>O bien,</p>
 <p>Shell de administración de Communications Server</p></td>
 </tr>
 <tr class="odd">
-<td><p>Cuando (hora del día) comprobar si hay archivos caducados que deberían eliminarse</p></td>
+<td><p>Cuándo (hora del día) para comprobar si hay archivos expirados que deben eliminarse</p></td>
 <td><p>Shell de administración de Communications Server</p></td>
 </tr>
 <tr class="even">
-<td><p>Qué extensiones de archivo de registro permitir</p></td>
+<td><p>Qué extensiones de archivo de registro se permiten</p></td>
 <td><p>Shell de administración de Communications Server</p></td>
 </tr>
 <tr class="odd">
-<td><p>Qué tipos de archivo de registro se van a conservar</p></td>
+<td><p>Qué tipos de archivos de registro se deben conservar</p></td>
 <td><p>Shell de administración de Communications Server</p></td>
 </tr>
 </tbody>
@@ -96,23 +96,23 @@ La configuración de registro se puede cambiar y aplicar globalmente o por sitio
 
 <div>
 
-## <a name="to-change-logging-settings-by-using-lync-server-control-panel"></a>Para cambiar la configuración de registro con el panel de control de Lync Server
+## <a name="to-change-logging-settings-by-using-lync-server-control-panel"></a>Para cambiar la configuración de registro mediante el panel de control de Lync Server
 
-1.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-2.  En la barra de navegación izquierda, haga clic en **clientes**y, después, en **configuración de registro del dispositivo**.
+2.  En la barra de navegación izquierda, haga clic en **Clientes** y, a continuación, en **Configuración de registros de dispositivos**.
 
-3.  En la página **configuración del registro de dispositivos** , haga doble clic en la configuración que desee cambiar.
+3.  En la página **Configuración de registros de dispositivos**, haga doble clic en la configuración que desea cambiar.
 
-4.  En el cuadro de diálogo **Editar configuración del registro** , cambie cualquiera de las siguientes opciones:
+4.  En el cuadro de diálogo **Editar configuración del registro** , cambie cualquiera de las siguientes opciones de configuración:
     
-      - **Tamaño máximo de archivo (bytes)**   especifica el tamaño máximo que puede tener un archivo de registro antes de purgarlo. El valor predeterminado es 1.024.000 bytes (1 MB).
+      - **Tamaño máximo de archivo (bytes)**   especifica el tamaño máximo que puede tener un archivo de registro antes de ser purgado. El valor predeterminado es 1.024.000 (1 MB).
     
-      - **Tamaño máximo de la caché (bytes)**   especifica la cantidad máxima de información (en bytes) que se puede mantener en la memoria caché de archivos de registro antes de que esta se borre y los datos se escriban en un archivo de registro. El valor predeterminado es 512.000 bytes (0,5 MB).
+      - **Tamaño máximo de la memoria caché (bytes)**   especifica la cantidad máxima de información (en bytes) que se puede conservar en la memoria caché de archivos de registro antes de que se borre dicha memoria caché y se escriban los datos en un archivo de registro. El valor predeterminado es 512.000 (0,5 MB).
     
-      - **Número de minutos para vaciar la caché (1-60)**   indica la frecuencia con la que se escribe la información almacenada en la caché del archivo de registro en el archivo de registro real. Una vez registrados los datos, la caché se borra. El valor predeterminado es de cinco minutos.
+      - **Número de minutos para vaciar la memoria caché (1-60)**   indica la frecuencia con la que la información almacenada en la memoria caché del archivo de registro se escribe en el archivo de registro real. Una vez se ha registrado la información, la memoria caché se borra. El valor predeterminado es cinco minutos.
     
-      - **Número de días para mantener los archivos de registro (1-365)**   especifica el número de días que se conservan los archivos de registro antes de que se purguen. El valor predeterminado es de 10 días.
+      - **Número de días que se conservarán los archivos de registro (1-365)**   especifica el número de días que se conservan los archivos de registro antes de que se purguen. El valor predeterminado es 10 días.
 
 5.  Haga clic en **Confirmar**.
 
@@ -120,27 +120,27 @@ La configuración de registro se puede cambiar y aplicar globalmente o por sitio
 
 <div>
 
-## <a name="changing-logging-settings-by-using-windows-powershell-cmdlets"></a>Cambiar la configuración de registro mediante cmdlets de Windows PowerShell
+## <a name="changing-logging-settings-by-using-windows-powershell-cmdlets"></a>Cambio de la configuración de registro mediante cmdlets de Windows PowerShell
 
-La configuración del archivo de registro de actualización de dispositivo se puede modificar mediante Windows PowerShell y el cmdlet **set-CsDeviceUpdateConfiguration** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.
+La configuración del archivo de registro de actualización de dispositivos se puede modificar mediante Windows PowerShell y el cmdlet **set-CsDeviceUpdateConfiguration** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.
 
 <div>
 
 
 > [!NOTE]  
-> Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 mediante PowerShell remoto" en.
+> Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 mediante PowerShell remoto" en.
 
 
 
 </div>
 
-Los siguientes ejemplos muestran un par de formas de usar **set-CsDeviceUpdateConfiguration** para modificar la configuración.
+En los ejemplos siguientes se muestra un par de las formas en las que puede usar **set-CsDeviceUpdateConfiguration** para modificar la configuración.
 
 <div>
 
-## <a name="to-modify-the-maximum-log-file-size-and-the-log-cleanup-interval"></a>Para modificar el tamaño máximo del archivo de registro y el intervalo de limpieza de registro
+## <a name="to-modify-the-maximum-log-file-size-and-the-log-cleanup-interval"></a>Para modificar el tamaño máximo del archivo de registro y el intervalo de limpieza del registro
 
-  - El siguiente comando modifica la configuración del registro de actualización de dispositivos que se aplica al sitio de Redmond. En este ejemplo, el tamaño máximo del archivo de registro se establece en 204800 bytes y el intervalo de limpieza de registro se establece en 14 días.
+  - El siguiente comando modifica la configuración del registro de actualización de dispositivos que se aplica al sitio de Redmond. En este ejemplo, el tamaño máximo del archivo de registro está establecido en 204800 bytes y el intervalo de limpieza de registro se establece en 14 días.
     
         Set-CsDeviceUpdateConfiguration -Identity "site:Redmond" -MaxLogFileSize 204800 -LogCleanUpInterval 14.00:00:00
 
@@ -150,13 +150,13 @@ Los siguientes ejemplos muestran un par de formas de usar **set-CsDeviceUpdateCo
 
 ## <a name="to-modify-the-log-cleanup-time-of-day"></a>Para modificar el tiempo de limpieza del registro del día
 
-  - Este comando establece el tiempo de limpieza de registro del sitio de Redmond en 3:00 A.M.
+  - Este comando establece el tiempo de limpieza de registro del sitio Redmond en 3:00 A.M.
     
         Set-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupTimeOfDay 03:00
 
 </div>
 
-Para obtener más información, vea el tema de ayuda sobre el cmdlet [set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsDeviceUpdateConfiguration) .
+Para obtener más información, consulte el tema de ayuda del cmdlet [set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsDeviceUpdateConfiguration) .
 
 </div>
 

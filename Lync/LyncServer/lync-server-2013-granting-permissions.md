@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Conceder permisos'
+title: 'Lync Server 2013: concesión de permisos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccfdf804fc9052ac69b383d0f8cd3321222e79a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 495b556254ab42270aa031861aea0c4390f17602
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763904"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048374"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="granting-permissions-in-lync-server-2013"></a>Conceder permisos en Lync Server 2013
+# <a name="granting-permissions-in-lync-server-2013"></a>Concesión de permisos en Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41763904"
 
 _**Última modificación del tema:** 2012-10-15_
 
-Para la configuración, puede conceder permisos al grupo universal RTCUniversalServerAdmins de una unidad organizativa de Active Directory específica, lo que permite a los miembros del grupo RTCUniversalServerAdmins de esa OU instalar Lync Server 2013 en el dominio especificado. Al conceder permisos para una unidad organizativa, se conceden los permisos siguientes:
+Para el programa de instalación, puede conceder permisos al grupo universal RTCUniversalServerAdmins de una unidad organizativa (OU) de Active Directory específica, habilitando a los miembros del grupo RTCUniversalServerAdmins en dicha unidad organizativa que instalen Lync Server 2013 en el dominio especificado. Cuando se conceden permisos para una unidad organizativa, se conceden los siguientes permisos:
 
-  - Consulte
+  - Leer
 
-  - Graba
+  - Escritura
 
   - ReadSPN
 
   - WriteSPN
 
-Para la administración, puede Agregar permisos a unidades organizativas específicas para que los miembros de los grupos RTC universales creados por la preparación del bosque puedan tener acceso a las unidades organizativas sin necesidad de ser miembros del grupo administradores del dominio. Los permisos agregados a la unidad organizativa especificada son los mismos permisos que el cmdlet **enable-CsAdDomain** agrega a los contenedores de ou de equipos y usuarios.
+Para la administración, puede agregar permisos a las OU especificadas, de modo que los miembros de los grupos universales RTC que se han creado durante la preparación del bosque pueden obtener acceso a las OU sin ser miembros del grupo de administradores de dominio. Los permisos agregados a la OU especificada son los mismos permisos que los que el cmdlet **Enable-CsAdDomain** agrega a los equipos y los contenedores de OU de los usuarios.
 
 <div>
 
@@ -55,7 +55,7 @@ Para la administración, puede Agregar permisos a unidades organizativas especí
 
   - [Concesión de permisos de instalación en Lync Server 2013](lync-server-2013-granting-setup-permissions.md)
 
-  - [Conceder permisos de unidad organizativa en Lync Server 2013](lync-server-2013-granting-organizational-unit-permissions.md)
+  - [Concesión de permisos de unidad organizativa en Lync Server 2013](lync-server-2013-granting-organizational-unit-permissions.md)
 
 </div>
 

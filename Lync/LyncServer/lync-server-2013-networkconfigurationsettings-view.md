@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: vista NetworkConfigurationSettings'
+title: 'Lync Server 2013: vista de NetworkConfigurationSettings'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cd85ae37b317368a1d79ed46fd3752b6a475bd5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 28ca71086b888a522869e2b273299a73df5e9cc8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765871"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050542"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41765871"
 
 _**Última modificación del tema:** 2012-10-03_
 
-La vista NetworkConfigurationSettings almacena información sobre la configuración de red. Esta vista se presentó en Microsoft Lync Server 2013.
+La vista NetworkConfigurationSettings almacena información sobre la configuración de red. Esta vista se introdujo en Microsoft Lync Server 2013.
 
 
 <table>
@@ -57,7 +57,7 @@ La vista NetworkConfigurationSettings almacena información sobre la configuraci
 <tr class="odd">
 <td><p>SubnetIP</p></td>
 <td><p>int</p></td>
-<td><p>Dirección IP de subred (solo se admiten las direcciones IPv4).</p></td>
+<td><p>Dirección IP de la subred (solo se admiten las direcciones IPv4).</p></td>
 </tr>
 <tr class="even">
 <td><p>UserSiteName</p></td>
@@ -67,7 +67,7 @@ La vista NetworkConfigurationSettings almacena información sobre la configuraci
 <tr class="odd">
 <td><p>RegionName</p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Nombre del país o de la región del usuario.</p></td>
+<td><p>Nombre del país/región del usuario.</p></td>
 </tr>
 </tbody>
 </table>

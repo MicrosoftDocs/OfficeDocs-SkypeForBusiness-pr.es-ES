@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Implementación de sitios de sucursales'
+title: 'Lync Server 2013: implementación de sitios de sucursal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: facfda5d1d7ce67ea08f71cbfb943792eeced7a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: edacf70cf4a8b899857864c400fa92f78bb0d94b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729510"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-branch-sites-in-lync-server-2013"></a>Implementación de sitios de sucursales en Lync Server 2013
+# <a name="deploying-branch-sites-in-lync-server-2013"></a>Implementación de sitios de sucursal en Lync Server 2013
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41729510"
 
 _**Última modificación del tema:** 2012-09-21_
 
-Los usuarios de un sitio de sucursal obtienen la mayor parte de su funcionalidad de 2013 de Lync Server en el servidor del sitio central al que está asociado el sitio de la sucursal. Cada sitio de sucursal está asociado con un solo sitio central. Para proporcionar llamadas a y desde la red de telefonía pública conmutada (RTC), un sitio de sucursal puede contener cualquiera de los siguientes elementos:
+Los usuarios de sitios de sucursal obtienen la mayor parte de su funcionalidad de 2013 de Lync Server del servidor en el sitio central al que está asociado el sitio de sucursal. Todas y cada una de las sucursales están asociadas a exactamente un sitio central. Para poder realizar llamadas a y desde la red telefónica conmutada pública (RTC), una sucursal puede contener cualquiera de los siguientes elementos:
 
-  - Una puerta de enlace RTC y posiblemente un servidor Meditation
+  - Una puerta de enlace RTC y, probablemente, un servidor de mediación
 
-  - Un tronco de SIP
+  - Un tronco SIP
 
   - Una infraestructura de voz existente con una central de conmutación (PBX)
 
-  - Un equipo de sucursales con la supervivencia
+  - Una aplicación de sucursal con funciones de supervivencia
 
-  - Un servidor de sucursal con la supervivencia
+  - Un servidor de sucursal con funciones de supervivencia
 
-Los sitios de sucursales con un equipo de sucursal o un servidor de sucursal con la supervivencia son más resistentes en las horas de la red de área amplia o errores de sitio central que las sucursales sin una de estas soluciones. Por ejemplo, en un sitio con una sucursal o un servidor de sucursal superviviente implementado, los usuarios pueden seguir realizando y recibiendo llamadas RTC si la red que conecta el sitio de la sucursal con el sitio central está desactivada. Otra forma de lograr la resistencia al sitio de la sucursal es usar una puerta de enlace PSTN o un tronco del SIP con una implementación de Lync Server de escala completa en el sitio de la sucursal.
+Los sitios de sucursal con una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia son más resistentes en las horas de la red de área extensa o errores de sitio central que los sitios de sucursal sin una de estas soluciones. Por ejemplo, en un sitio con una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia implementado, los usuarios aún pueden realizar y recibir llamadas RTC si la red que conecta el sitio de sucursal al sitio central no está disponible. Otra forma de lograr la resistencia del sitio de sucursal es usar una puerta de enlace RTC o un tronco SIP con una implementación de Lync Server a gran escala en el sitio de sucursal.
 
-Para obtener detalles sobre qué implementación de sitio de sucursal es adecuada para su organización, incluidos los requisitos previos y otras consideraciones de planeación, consulte [planificación de la conectividad RTC en Lync server 2013](lync-server-2013-planning-for-pstn-connectivity.md) y [planeamiento de resistencia de voz de sitio de sucursal en Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) en la documentación de planificación.
+Para obtener información detallada sobre qué implementación de sitios de sucursal es la adecuada para su organización, incluidos los requisitos previos y otras consideraciones de planeación, consulte [Planning for RTC Connectivity in Lync server 2013](lync-server-2013-planning-for-pstn-connectivity.md) y [Planning for Branch-site Voice Resiliency en Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) en la documentación referente a la planeación.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Proporcionar conectividad RTC en un sitio de sucursal en Lync Server 2013](lync-server-2013-providing-pstn-connectivity-at-a-branch-site.md)
+  - [Suministro de conectividad RTC en un sitio de sucursal en Lync Server 2013](lync-server-2013-providing-pstn-connectivity-at-a-branch-site.md)
 
-  - [Implementar una aplicación o servidor de sucursal con funciones de supervivencia con Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md)
+  - [Implementación de una aplicación o un servidor de sucursal con funciones de supervivencia con Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md)
 
 </div>
 

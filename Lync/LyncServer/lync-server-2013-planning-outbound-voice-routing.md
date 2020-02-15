@@ -12,16 +12,16 @@ ms:contentKeyID: 48183835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d33fbe8d15b78bed9dd651cd7facf35a8249f64
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1fbcb976ed4f3d1464b6b956ef60dc1d00bd6907
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747670"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050582"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41747670"
 
 _**Última modificación del tema:** 2012-09-21_
 
-El enrutamiento de llamadas salientes se aplica a las llamadas que están destinadas a una puerta de enlace de red de telefonía pública conmutada (RTC), troncal o central de conmutación (PBX). Cuando un usuario realiza una llamada, el servidor normaliza el número de teléfono al formato E. 164, si es necesario, e intenta hacerlo coincidir con el URI del SIP. Si el servidor no puede establecer la coincidencia, aplica la lógica de enrutamiento de llamadas salientes basándose en la cadena de marcado proporcionada. Esta lógica la defines con la configuración de las opciones del servidor que se describe en la siguiente tabla.
+El enrutamiento de llamadas realizadas se aplica a las llamadas destinadas a una puerta de enlace de red telefónica conmutada (RTC), un enlace troncal o una central de conmutación PBX. Cuando un usuario realiza una llamada, el servidor normaliza el número de teléfono al formato E.164, si es necesario, e intenta establecer una coincidencia con un URI de SIP. Si el servidor no puede establecer la coincidencia, aplicará la lógica de enrutamiento de llamadas realizadas basándose en la cadena de marcado proporcionada. Dicha lógica se define con la configuración de las opciones de servidor que se describe en la siguiente tabla.
 
-### <a name="lync-server-outbound-call-routing-settings"></a>Configuración de enrutamiento de llamadas salientes de Lync Server
+### <a name="lync-server-outbound-call-routing-settings"></a>Configuración del servidor de enrutamiento de llamadas realizadas de Lync Server
 
 <table>
 <colgroup>
@@ -59,11 +59,11 @@ El enrutamiento de llamadas salientes se aplica a las llamadas que están destin
 </tr>
 <tr class="even">
 <td><p>Regla de normalización</p></td>
-<td><p>Las reglas de normalización definen la forma en que los números de teléfono expresados en diversos formatos se van a redirigir en cada ubicación, usuario u objeto de contacto que se haya especificado. La misma cadena de marcado se puede interpretar y convertir de manera distinta en función de la ubicación desde la que se marque y la persona o el objeto de contacto que realice la llamada. Un conjunto de reglas de normalización asociado a una ubicación determinada constituye un plan de marcado.</p></td>
+<td><p>Las reglas de normalización definen la forma en que los números de teléfono expresados en diversos formatos se van a enrutar en cada ubicación, usuario u objeto de contacto que se haya especificado. Una misma cadena de marcado se puede interpretar y convertir de manera distinta en función de la ubicación desde la que se marque y la persona o el objeto de contacto que realice la llamada. Un conjunto de reglas de normalización asociado a una ubicación determinada constituye un plan de marcado.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Directiva de voz</p></td>
-<td><p>Una directiva de voz asocia uno o varios registros de uso de RTC a un usuario o un grupo de usuarios. Además, proporciona una lista de características de llamada que se pueden habilitar o deshabilitar.</p></td>
+<td><p>Una directiva de voz asocia uno o varios registros de uso de RTC a un usuario o un grupo de usuarios. Además proporciona una lista de características de llamada que se puede habilitar o deshabilitar.</p></td>
 </tr>
 <tr class="even">
 <td><p>Registro de uso de RTC</p></td>
@@ -71,7 +71,7 @@ El enrutamiento de llamadas salientes se aplica a las llamadas que están destin
 </tr>
 <tr class="odd">
 <td><p>Ruta de llamada</p></td>
-<td><p>Una ruta de llamada asocia los números de teléfono de destino a determinados troncos y a determinados registros de uso de RTC. Un tronco se considera una puerta de enlace RTC.</p></td>
+<td><p>Una ruta de llamada asocia los números de teléfono de destino a determinados circuitos de enlace y a determinados registros de uso de PSTN. Un circuito de enlace de PSTN se considera una puerta de enlace.</p></td>
 </tr>
 </tbody>
 </table>
@@ -81,7 +81,7 @@ El enrutamiento de llamadas salientes se aplica a las llamadas que están destin
 
 ## <a name="in-this-section"></a>En esta sección
 
-Esta sección proporciona instrucciones para configurar las siguientes opciones del servidor de enrutamiento de llamadas salientes:
+En esta sección se proporcionan instrucciones para configurar las siguientes opciones del servidor de enrutamiento de llamadas realizadas:
 
   - <span></span>  
     [Planes de marcado y reglas de normalización en Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)
@@ -102,7 +102,7 @@ Esta sección proporciona instrucciones para configurar las siguientes opciones 
 ## <a name="see-also"></a>Vea también
 
 
-[Troncalización SIP en Lync Server 2013](lync-server-2013-sip-trunking.md)  
+[Enlace troncal SIP en Lync Server 2013](lync-server-2013-sip-trunking.md)  
 [Conexiones SIP directas en Lync Server 2013](lync-server-2013-direct-sip-connections.md)  
   
 

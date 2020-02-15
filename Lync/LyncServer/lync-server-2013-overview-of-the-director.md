@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Información general sobre el director'
+title: 'Lync Server 2013: información general del Director'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185393
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51ee90020be9d23384c5ed90ca1f8095156eaf56
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55875699e2411527d9202565ae5d31cc72e776f7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755444"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046123"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-director-in-lync-server-2013"></a>Información general sobre el director en Lync Server 2013
+# <a name="overview-of-the-director-in-lync-server-2013"></a>Información general sobre el Director en Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41755444"
 
 _**Última modificación del tema:** 2012-09-08_
 
-Un director es un servidor que ejecuta Lync Server 2013 que autentica solicitudes de usuario, pero no aloja cuentas de usuario. De manera opcional, puede implementar un director en los dos escenarios siguientes:
+Un director es un servidor que ejecuta Lync Server 2013 y que autentica solicitudes de usuario, pero no aloja ninguna cuenta de usuario. Opcionalmente, puede implementar un director en los dos escenarios siguientes:
 
-  - Si habilita el acceso de usuarios externos mediante la implementación de servidores perimetrales, también debe implementar un director. En este escenario, el director autentica a los usuarios externos y, a continuación, pasa su tráfico a los servidores internos. Cuando se usa un director para autenticar usuarios externos, libera servidores de grupo de servidores front-end de la sobrecarga de realizar la autenticación de estos usuarios. También ayuda a aislar grupos internos de aplicaciones para el usuario contra tráfico malintencionado, como ataques de denegación de servicio. Si la red se inunda con tráfico externo no válido en tal ataque, este tráfico finaliza en el director.
+  - Si habilita el acceso de usuarios externos mediante la implementación de servidores perimetrales, también debe implementar un director. En este escenario, el director autentica a los usuarios externos y, a continuación, pasa su tráfico a los servidores internos. Cuando se usa un director para autenticar usuarios externos, libera los servidores del grupo de servidores front-end de la sobrecarga de realizar la autenticación de estos usuarios. También ayuda a aislar los grupos de servidores front-end internos del tráfico malintencionado, como los ataques por denegación de servicio. Si la red está saturada con tráfico externo no válido, este tráfico llega al director.
 
-  - Si implementa varios grupos front-end en un sitio central agregando un director a ese sitio, podrá optimizar las solicitudes de autenticación y mejorar el rendimiento. En este escenario, todas las solicitudes se dirigen al Director, que a su vez las enruta al grupo de servidores front-end correcto.
+  - Si implementa varios grupos de servidores front-end en un sitio central, agregando un director a ese sitio podrá simplificar las solicitudes de autenticación y mejorar el rendimiento. En este escenario, todas las solicitudes van primero al Director, que, a continuación, las enruta al grupo de servidores front-end correcto.
 
 </div>
 

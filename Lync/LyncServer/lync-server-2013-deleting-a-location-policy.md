@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: eliminar una directiva de ubicación'
+title: 'Lync Server 2013: eliminación de una directiva de ubicación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733724
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ea7f585e42164c8387853c7525cd0478eeb4db4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 34a71670bb9d4ffa9db67b594d17c330880998c3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763252"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048991"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deleting-a-location-policy-in-lync-server-2013"></a>Eliminar una directiva de ubicación en Lync Server 2013
+# <a name="deleting-a-location-policy-in-lync-server-2013"></a>Eliminación de una directiva de ubicación en Lync Server 2013
 
 </div>
 
@@ -37,32 +37,32 @@ ms.locfileid: "41763252"
 
 _**Última modificación del tema:** 2012-10-10_
 
-En Lync Server 2013, puede usar la Directiva de ubicación para aplicar la configuración relacionada con la funcionalidad mejorada de 9-1-1 (E9-1-1) y la configuración de ubicación de los usuarios o los contactos. La Directiva de ubicación determina si un usuario está habilitado para E9-1-1 y, si es así, cuál es el comportamiento de una llamada de emergencia. Por ejemplo, puede usar la política de ubicación para definir qué número constituye una llamada de emergencia (por ejemplo, 911 en los Estados Unidos), si se debe notificar automáticamente la seguridad corporativa y cómo debe dirigirse la llamada.
+En Lync Server 2013, puede usar la Directiva de ubicación para aplicar la configuración relacionada con la funcionalidad mejorada 9-1-1 (E9-1-1) y la configuración de ubicación de usuarios o contactos. La directiva de ubicación determina si un usuario está habilitado para E9-1-1 y, si es así, cuál es el comportamiento de una llamada de emergencia. Por ejemplo, puede usar la Directiva de ubicación para definir el número que constituye una llamada de emergencia (por ejemplo, 911 en Estados Unidos), si se debe notificar automáticamente a la seguridad corporativa y cómo se debe enrutar la llamada.
 
-Puede configurar directivas de ubicación desde el grupo **configuración de red** en el panel de control de Lync Server 2013. En el panel de control de Lync Server puede ver, crear, modificar o eliminar directivas de ubicación. Use los siguientes procedimientos para eliminar una política de ubicación. Para obtener más información sobre cómo crear o modificar directivas de ubicación, vea [crear o modificar una directiva de ubicación en Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md).
+Puede configurar directivas de ubicación desde el grupo de **configuración de red** en el panel de control de Lync Server 2013. En el panel de control de Lync Server, puede ver, crear, modificar o eliminar directivas de ubicación. Utilice los siguientes procedimientos para eliminar una directiva de ubicación. Para obtener más información sobre cómo crear o modificar directivas de ubicación, consulte [creación o modificación de una directiva de ubicación en Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md).
 
 <div>
 
 ## <a name="to-delete-a-location-policy"></a>Para eliminar una directiva de ubicación
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **configuración de red** y luego en **Directiva de ubicación**.
+3.  En la barra de navegación izquierda, haga clic en **Configuración de red** y, a continuación, en **Directiva de ubicación**.
 
-4.  En la página **Directiva de ubicación** , seleccione la Directiva de ubicación que desea eliminar.
+4.  En la página  **Directiva de ubicación **, seleccione la directiva de ubicación que desea eliminar.
     
     <div>
     
 
     > [!NOTE]  
-    > Puede eliminar más de una política de ubicación a la vez. Para ello, presione CTRL y seleccione varias directivas mientras mantiene presionada la tecla CTRL. O bien, para seleccionar todas las directivas, haga clic en <STRONG>seleccionar todo</STRONG> en el menú <STRONG>edición</STRONG> .
+    > Puede eliminar más de una ubicación en la misma operación. Para hacerlo, pulse CTRL y seleccione varias directivas manteniendo pulsada la tecla CTRL. O bien, para seleccionar todas las directivas, haga clic en <STRONG>Seleccionar todo</STRONG> en el menú <STRONG>Editar</STRONG>.
 
     
     </div>
 
-5.  En el menú **Editar** , haga clic en **eliminar**.
+5.  En el menú **Editar **, haga clic en **Eliminar**.
 
 6.  Haga clic en **Aceptar**.
     
@@ -70,7 +70,7 @@ Puede configurar directivas de ubicación desde el grupo **configuración de red
     
 
     > [!IMPORTANT]  
-    > No se puede eliminar la Directiva de ubicación global. Si intenta eliminar la directiva global, recibirá un mensaje de advertencia y esa Directiva se restablecerá a sus valores predeterminados.
+    > No puede eliminar la directiva de ubicación Global. Si trata de eliminar la directiva Global recibirá un mensaje de advertencia y las propiedades de dicha directiva se restablecerán a sus valores predeterminados.
 
     
     </div>
@@ -82,8 +82,8 @@ Puede configurar directivas de ubicación desde el grupo **configuración de red
 ## <a name="see-also"></a>Vea también
 
 
-[Crear o modificar una directiva de ubicación en Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md)  
-[Ver información de la Directiva de ubicación en Lync Server 2013](lync-server-2013-viewing-location-policy-information.md)  
+[Creación o modificación de una directiva de ubicación en Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md)  
+[Ver información de directiva de ubicación en Lync Server 2013](lync-server-2013-viewing-location-policy-information.md)  
   
 
 </div>

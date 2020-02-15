@@ -12,20 +12,20 @@ ms:contentKeyID: 48184453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b01181296a42f786a4739b5ec59d775212baaf5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d63f13442588a84039fee6e1147a9c29e821e14a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755424"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046103"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-response-group-application-in-lync-server-2013"></a>Información general de la aplicación de grupo de respuesta en Lync Server 2013
+# <a name="overview-of-the-response-group-application-in-lync-server-2013"></a>Información general sobre la aplicación grupo de respuesta en Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41755424"
 
 _**Última modificación del tema:** 2012-09-11_
 
-Cuando el autor de una llamada llama a un grupo de respuesta, la llamada se redirige a un agente de acuerdo con un grupo de extensiones o las respuestas del autor de la llamada frente a las preguntas de la respuesta interactiva de voz (IVR). La aplicación de grupo de respuesta usa métodos de enrutamiento de grupo de respuesta estándar para dirigir la llamada al siguiente agente disponible. Los métodos de enrutamiento de llamadas incluyen el enrutamiento en serie, más tiempo de inactividad, paralelo, Round Robin y operador (es decir, se llama a todos los agentes al mismo tiempo para todas las llamadas entrantes, independientemente de su presencia actual). Si no hay ningún agente disponible, la llamada se mantiene en una cola hasta que haya alguno. Mientras se encuentra en la cola, el autor de la llamada escucha música hasta que un agente disponible acepte la llamada. Si la cola está llena o la llamada supera el tiempo de espera mientras está en la cola, es posible que la persona que llama oiga un mensaje y, después, se desconecte o se transfiera a un destino diferente. Cuando un agente acepta la llamada, el autor de la llamada puede ver o no la identidad del agente, en función de cómo haya configurado el administrador el grupo de respuesta. Los agentes pueden ser formales, lo que significa que necesitan iniciar sesión en el grupo para poder aceptar las llamadas redirigidas al grupo, o bien informales, lo que significa que no es necesario que inicien sesión y finalicen sesión en el grupo para aceptar llamadas.
+Cuando el autor de la llamada llama a un grupo de respuesta, la llamada se enruta a un agente en función de un grupo de extensiones o de las respuestas que da el autor de la llamada a las preguntas de respuesta interactiva de voz (IVR). La aplicación grupo de respuesta utiliza métodos de enrutamiento de grupo de respuesta estándar para redirigir la llamada al siguiente agente disponible. Entre los métodos de enrutamiento de llamadas se incluye el enrutamiento en serie, el enrutamiento según agente libre por más tiempo, el enrutamiento en paralelo, el enrutamiento por round robin y el enrutamiento de operador (en el que se llama a todos los agentes al mismo tiempo para cada llamada entrante, sin importar su presencia actual). Si no hay ningún agente disponible, la llamada se mantiene en cola hasta que haya alguno. Mientras está en la cola, el autor de la llamada escucha música hasta que un agente disponible acepta la llamada. Si la cola está llena o si la llamada supera el tiempo de espera mientras está en la cola, el autor de la llamada oirá un mensaje y, a continuación, se desconectará la llamada o se transferirá a un destino diferente. Cuando un agente acepta la llamada, el autor de la llamada puede ver o no la identidad del agente, en función de cómo haya configurado el administrador el grupo de respuesta. Los agentes pueden ser formales, lo que significa que deberán iniciar sesión en el grupo para poder aceptar las llamadas enrutadas al grupo, o bien informales, lo que significa que no es necesario que inicien sesión y finalicen sesión en el grupo para aceptar llamadas.
 
 <div>
 
 
 > [!NOTE]  
-> Solo los usuarios locales pueden ser agentes. Si un agente se mueve de local a conectado, las llamadas a grupos de respuesta no se dirigirán a ese agente.
+> Solo los usuarios locales pueden ser agentes. Si un agente deja de ser local para estar en línea, las llamadas al grupo de respuesta no se enrutarán a dicho agente.
 
 
 
@@ -53,15 +53,15 @@ Cuando el autor de una llamada llama a un grupo de respuesta, la llamada se redi
 
 
 > [!NOTE]  
-> La aplicación de grupo de respuesta usa un servicio interno, denominado creación de coincidencias, para poner en cola las llamadas y buscar agentes disponibles. Cada equipo que ejecuta la aplicación de grupo de respuesta ejecuta la función coincidir con el servicio, pero solo se activa una coincidencia con el servicio por grupo de servidores de Lync. Si el servicio de contactos activo deja de estar disponible durante una interrupción no planificada, se activará uno de los servicios de contactos pasivos. La aplicación de grupo de respuesta hace todo lo posible para asegurarse de que el enrutamiento de llamadas y la cola no se interrumpan. Pero, cuando se produce la transición del servicio de contactos, todas las llamadas que se están transfiriendo en ese momento se pierden. Por ejemplo, si la transición se debe a que el servidor de aplicaciones para el usuario se baja, también se perderán las llamadas que el servicio de coincidencia activo en ese servidor de Front-End está administrando actualmente.
+> La aplicación de grupo de respuesta usa un servicio interno, denominado realización de coincidencia, para poner en cola las llamadas y buscar agentes disponibles. Cada equipo que ejecuta la aplicación de grupo de respuesta ejecuta el servicio de coincidencia, pero solo se activa un servicio de coincidencia por grupo de Lync Server a la vez que los demás son pasivos. Si el servicio de contactos activo deja de estar disponible durante una interrupción no planificada, se activará uno de los servicios de contactos pasivos. La aplicación de grupo de respuesta es la mejor opción para asegurarse de que el enrutamiento de llamadas y la puesta en cola continúen sin interrupciones. No obstante, cuando se produce la transición del servicio de contactos, todas las llamadas que se están transfiriendo en ese momento se pierden. Por ejemplo, si la transición se debe al servidor front-end en funcionamiento, también se perderán las llamadas que el servicio de coincidencia activa en ese servidor front-end esté controlando en ese momento.
 
 
 
 </div>
 
-En Lync Server 2013, hay dos roles de administración disponibles para administrar grupos de respuesta: administrador de grupos de respuesta y administrador de grupos de respuesta. Los administradores de grupos de respuesta pueden administrar cualquier aspecto de cualquier grupo de respuesta. Los administradores de grupos de respuesta solo pueden administrar determinados aspectos, y solo para los grupos de respuesta de los que son propietarios. La nueva función de administrador puede ayudar a reducir los costos de administración, ya que puede delegar responsabilidades limitadas para grupos de respuesta específicos a cualquier usuario que tenga habilitada la telefonía IP empresarial.
+En Lync Server 2013, hay disponibles dos roles de administración para administrar los grupos de respuesta: administrador del grupo de respuesta y administrador del grupo de respuesta. Los administradores de grupos de respuesta pueden administrar cualquier aspecto de cualquier grupo de respuesta. Los administradores del grupo de respuesta solo pueden administrar determinados aspectos y solo para los grupos de respuesta de los que son propietarios. El nuevo rol de administrador puede ayudar a reducir los costos de administración, ya que puede delegar responsabilidades limitadas para grupos de respuesta específicos a cualquier usuario que esté habilitado para telefonía IP empresarial.
 
-Para dar cabida a la nueva función de administrador, la aplicación de grupo de respuesta de Lync Server 2013 introduce un **tipo de flujo de trabajo** administrado o no administrado. En la tabla siguiente se describen los grupos de respuesta administrados y no administrados.
+Para acomodar el nuevo rol de administrador, la aplicación de grupo de respuesta de Lync Server 2013 introduce un **tipo de flujo de trabajo** administrado o no administrado. En la tabla siguiente se describen los grupos de respuesta administrados y no administrados.
 
 ### <a name="managed-and-unmanaged-response-groups"></a>Grupos de respuesta administrados y no administrados
 
@@ -78,7 +78,7 @@ Para dar cabida a la nueva función de administrador, la aplicación de grupo de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>No administrado</p></td>
+<td><p>No administrados</p></td>
 <td><ul>
 <li><p>Los grupos de respuesta no administrados no tienen ningún director asignado. Solo el administrador del grupo de respuesta puede configurar estos grupos de respuesta.</p></li>
 <li><p>Varios grupos de respuesta no administrados pueden compartir un grupo de agentes o una cola.</p></li>
@@ -89,8 +89,8 @@ Para dar cabida a la nueva función de administrador, la aplicación de grupo de
 <td><p>Administrado</p></td>
 <td><ul>
 <li><p>Los administradores de grupos de respuesta pueden configurar cualquier aspecto de los grupos de respuesta administrados.</p></li>
-<li><p>Los administradores de grupos de respuesta no pueden ver ni modificar grupos de respuesta que no estén asignados de forma explícita.</p></li>
-<li><p>Los administradores de grupos de respuesta solo pueden configurar algunos valores para los grupos de respuesta que se les hayan asignado explícitamente.</p></li>
+<li><p>Los administradores del grupo de respuesta no pueden ver ni modificar los grupos de respuesta que no se les haya asignado explícitamente.</p></li>
+<li><p>Los administradores del grupo de respuesta solo pueden configurar algunas opciones para los grupos de respuesta que se les haya asignado explícitamente.</p></li>
 <li><p>Los grupos de respuesta administrados no pueden compartir grupos de agentes ni colas con otros grupos de respuesta, ya sean administrados o no administrados.</p></li>
 </ul></td>
 </tr>
@@ -98,9 +98,9 @@ Para dar cabida a la nueva función de administrador, la aplicación de grupo de
 </table>
 
 
-En la siguiente tabla se describen las acciones que los administradores de grupos de respuesta pueden o no pueden realizar para los grupos de respuesta que tengan asignados.
+En la tabla siguiente se describen las acciones que los administradores del grupo de respuesta pueden y no pueden realizar para los grupos de respuesta que tienen asignados.
 
-### <a name="response-group-manager-capabilities"></a>Capacidades del director del grupo de respuesta
+### <a name="response-group-manager-capabilities"></a>Capacidad del director de grupo de respuesta
 
 <table>
 <colgroup>
@@ -112,13 +112,13 @@ En la siguiente tabla se describen las acciones que los administradores de grupo
 <tr class="header">
 <th>Puede configurar:</th>
 <th>Puede crear, eliminar o configurar:</th>
-<th>No puede:</th>
+<th>Puedan</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><ul>
-<li><p>Agentes</p></li>
+<li><p>Gelifica</p></li>
 <li><p>Mensajes de bienvenida</p></li>
 <li><p>Nombre del grupo de respuesta</p></li>
 <li><p>Descripción</p></li>
@@ -126,7 +126,7 @@ En la siguiente tabla se describen las acciones que los administradores de grupo
 <li><p>Horario comercial</p></li>
 <li><p>Música en espera</p></li>
 <li><p>Estado (activo/inactivo)</p></li>
-<li><p>Flujos de trabajo del grupo de extensiones o flujos de trabajo de la respuesta interactiva de voz (IVR)</p></li>
+<li><p>Flujos de trabajo de grupo de extensiones o flujos de trabajo de respuesta interactiva de voz (IVR)</p></li>
 </ul></td>
 <td><ul>
 <li><p>Grupos de agentes</p></li>
@@ -135,22 +135,22 @@ En la siguiente tabla se describen las acciones que los administradores de grupo
 </ul></td>
 <td><ul>
 <li><p>Crear o eliminar ningún tipo de flujo de trabajo</p></li>
-<li><p>Modificar la configuración principal de los grupos de respuesta, como el <strong>URI de SIP</strong>, el <strong>número de teléfono</strong> o el <strong>tipo de flujo de trabajo</strong>.</p></li>
+<li><p>Modificar la configuración principal de grupos de respuesta, como el <strong>URI de SIP</strong>, el <strong>número de teléfono</strong> o el <strong>tipo de flujo de trabajo</strong>.</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-Los administradores de grupos de respuesta pueden usar las siguientes herramientas para administrar los grupos de respuesta designados.
+Los administradores del grupo de respuesta pueden usar las siguientes herramientas para administrar sus grupos de respuesta designados.
 
-  - Panel de control de Lync Server
+  - Panel de Control de Lync Server
     
     <div>
     
 
     > [!NOTE]  
-    > Los administradores de grupos de respuesta solo pueden administrar la configuración del grupo de respuesta con esta herramienta. Otras opciones de configuración de Lync Server no están disponibles para los administradores.
+    > Los administradores del grupo de respuesta solo pueden administrar la configuración del grupo de respuesta con esta herramienta. Otras opciones de configuración de Lync Server no están disponibles para los administradores.
 
     
     </div>
@@ -159,9 +159,9 @@ Los administradores de grupos de respuesta pueden usar las siguientes herramient
 
   - Shell de administración de Communications Server
 
-El grupo de respuesta se adapta bien a entornos departamentales o de grupo de trabajo (para obtener información detallada, consulte [planear la capacidad de un grupo de respuesta en Lync Server 2013](lync-server-2013-capacity-planning-for-response-group.md)) y puede implementarse en instalaciones de telefonía completamente nuevas. Es compatible con las llamadas entrantes desde la implementación de telefonía IP empresarial y desde la red del operador local. Los agentes pueden usar Lync 2013, Lync 2010, operador de Lync 2010 o Lync Phone Edition para tomar las llamadas dirigidas a ellos.
+El grupo de respuesta se ajusta bien a los entornos departamentales o de grupo de trabajo (para obtener más información, consulte [Capacity Planning for Response Group in Lync Server 2013](lync-server-2013-capacity-planning-for-response-group.md)) y puede implementarse en instalaciones de telefonía completamente nuevas. Admite llamadas entrantes de la implementación de Enterprise Voice y de la red de operador local. Los agentes pueden usar Lync 2013, Lync 2010, el operador Lync 2010 o Lync Phone Edition para realizar las llamadas enrutadas a ellos.
 
-La aplicación de grupo de respuesta es un componente de telefonía IP empresarial. Al implementar la telefonía IP empresarial, la aplicación de grupo de respuesta se instala y activa automáticamente.
+La aplicación de grupo de respuesta es un componente de la telefonía IP empresarial. Al implementar la telefonía IP empresarial, la aplicación de grupo de respuesta se instala y activa automáticamente.
 
 </div>
 

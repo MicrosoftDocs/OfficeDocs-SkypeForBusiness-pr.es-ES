@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: habilitar o deshabilitar las notificaciones push para Windows Phone'
+title: 'Lync Server 2013: habilitar o deshabilitar las notificaciones de inserción para Windows Phone'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733767
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d1b4c8f1f86fa1456230ad4695de0f5b8c56d406
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 01a30a7e0effbcd9d80f30bccf68edb9804641f4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735640"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048123"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-or-disabling-push-notifications-for-windows-phones-in-lync-server-2013"></a>Habilitar o deshabilitar las notificaciones push para teléfonos Windows en Lync Server 2013
+# <a name="enabling-or-disabling-push-notifications-for-windows-phones-in-lync-server-2013"></a>Habilitar o deshabilitar las notificaciones de inserción para Windows Phone en Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41735640"
 
 _**Última modificación del tema:** 2013-02-23_
 
-Las notificaciones push, en forma de insignias, iconos o alertas, se pueden enviar a un Windows Phone incluso cuando la aplicación móvil no está activa. Las notificaciones push notifican a un usuario de eventos como una invitación o un correo de voz nuevos o perdidos. Puede habilitar o deshabilitar las notificaciones push para dispositivos Windows Phone mediante el panel de control de Lync Server 2013 o el shell de administración de Lync Server 2013.
+Las notificaciones de inserción, en forma de identificadores, iconos o alertas, se pueden enviar a un Windows Phone incluso cuando la aplicación móvil está inactiva. Las notificaciones de inserción notifican a un usuario eventos como una invitación de mensajería instantánea nueva o perdida, o el correo de voz. Puede habilitar o deshabilitar las notificaciones de inserción para dispositivos Windows Phone mediante el panel de control de Lync Server 2013 o el shell de administración de Lync Server 2013.
 
 <div>
 
-## <a name="to-enable-push-notifications-for-windows-phone-by-using-lync-server-control-panel"></a>Para habilitar las notificaciones push para Windows Phone mediante el panel de control de Lync Server
+## <a name="to-enable-push-notifications-for-windows-phone-by-using-lync-server-control-panel"></a>Para habilitar las notificaciones de inserción para Windows Phone mediante el panel de control de Lync Server
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, haga clic en el botón de navegación de **configuración de notificaciones push** .
+3.  En la barra de navegación izquierda, haga clic en **Clientes** y, a continuación, en el botón de navegación **Configuración de notificaciones de inserción**.
 
-4.  En la página **configuración de notificaciones push** , haga clic en el sitio que desea editar, haga clic en el menú **Editar** y, a continuación, haga clic en **Mostrar detalles**.
+4.  En la página **configuración de notificaciones de inserción** , haga clic en el sitio que desee editar, haga clic en el menú **Editar** y, a continuación, haga clic en **Mostrar detalles**.
 
-5.  Haga clic en la casilla de verificación **habilitar notificaciones de inserción de Microsoft** .
+5.  Haga clic en la casilla **habilitar notificaciones de inserción de Microsoft** .
 
 6.  Haga clic en **Confirmar**.
 
@@ -59,15 +59,15 @@ Las notificaciones push, en forma de insignias, iconos o alertas, se pueden envi
 
 <div>
 
-## <a name="to-disable-push-notifications-for-windows-phone-by-using-lync-server-control-panel"></a>Para deshabilitar las notificaciones push para Windows Phone mediante el panel de control de Lync Server
+## <a name="to-disable-push-notifications-for-windows-phone-by-using-lync-server-control-panel"></a>Para deshabilitar las notificaciones de inserción para Windows Phone mediante el panel de control de Lync Server
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, haga clic en el botón de navegación de **configuración de notificaciones push** .
+3.  En la barra de navegación izquierda, haga clic en **Clientes** y, a continuación, en el botón de navegación **Configuración de notificaciones de inserción**.
 
-4.  En la página **configuración de notificaciones push** , haga clic en el sitio que desea editar, haga clic en el menú **Editar** y, a continuación, haga clic en **Mostrar detalles**.
+4.  En la página **configuración de notificaciones de inserción** , haga clic en el sitio que desee editar, haga clic en el menú **Editar** y, a continuación, haga clic en **Mostrar detalles**.
 
 5.  Desactive la casilla **habilitar notificaciones de inserción de Microsoft** .
 
@@ -77,13 +77,13 @@ Las notificaciones push, en forma de insignias, iconos o alertas, se pueden envi
 
 <div>
 
-## <a name="enabling-or-disabling-push-notifications-for-windows-phone-by-using-windows-powershell-cmdlets"></a>Habilitar o deshabilitar las notificaciones push para Windows Phone mediante cmdlets de Windows PowerShell
+## <a name="enabling-or-disabling-push-notifications-for-windows-phone-by-using-windows-powershell-cmdlets"></a>Habilitación o deshabilitación de notificaciones de inserción para Windows Phone mediante cmdlets de Windows PowerShell
 
-Puede habilitar o deshabilitar las notificaciones push para Windows Phone mediante el cmdlet **set-CsPushNotificationConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede habilitar o deshabilitar las notificaciones de inserción para Windows Phone mediante el cmdlet **set-CsPushNotificationConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
 <div>
 
-## <a name="to-enable-push-notifications-for-windows-phone"></a>Para habilitar las notificaciones push para Windows Phone
+## <a name="to-enable-push-notifications-for-windows-phone"></a>Para habilitar las notificaciones de inserción para Windows Phone
 
   - Para habilitar las notificaciones de inserción para Windows Phone, establezca el valor de la propiedad EnableMicrosoftPushNotificationService en true ($True). Por ejemplo:
     
@@ -93,7 +93,7 @@ Puede habilitar o deshabilitar las notificaciones push para Windows Phone median
 
 <div>
 
-## <a name="to-disable-push-notifications-for-windows-phone"></a>Para deshabilitar las notificaciones push para Windows Phone
+## <a name="to-disable-push-notifications-for-windows-phone"></a>Para deshabilitar las notificaciones de inserción para Windows Phone
 
   - Para deshabilitar las notificaciones de inserción para Windows Phone, establezca el valor de la propiedad EnableMicrosoftPushNotificationService en false ($False). Por ejemplo:
     
@@ -101,7 +101,7 @@ Puede habilitar o deshabilitar las notificaciones push para Windows Phone median
 
 </div>
 
-Para obtener más información, consulte el tema de ayuda para el cmdlet [set-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPushNotificationConfiguration) .
+Si desea obtener más información, consulte el tema de ayuda del cmdlet [Set-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPushNotificationConfiguration).
 
 </div>
 
@@ -110,7 +110,7 @@ Para obtener más información, consulte el tema de ayuda para el cmdlet [set-Cs
 ## <a name="see-also"></a>Vea también
 
 
-[Configurar las notificaciones de inserción en Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)  
+[Configuración de notificaciones de inserción en Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)  
   
 
 </div>

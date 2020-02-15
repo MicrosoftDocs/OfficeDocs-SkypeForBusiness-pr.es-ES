@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configuración de rutas de voz para llamadas salientes'
+title: 'Lync Server 2013: configurar rutas de voz para llamadas salientes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183875
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8b425ce1e0627645f84223f36f6fc0de18b5af8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7c5c74a11adfb3785196352f3c03772028e73ec9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734400"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045852"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-routes-for-outbound-calls-in-lync-server-2013"></a>Configuración de rutas de voz para llamadas salientes en Lync Server 2013
+# <a name="configuring-voice-routes-for-outbound-calls-in-lync-server-2013"></a>Configurar rutas de voz para llamadas salientes en Lync Server 2013
 
 </div>
 
@@ -41,26 +41,26 @@ Una ruta de voz de Lync Server 2013 asocia los números de teléfono de destino 
 
 **Para ver las rutas de voz con el panel de control de Lync Server**
 
-1.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-2.  Haga clic en **enrutamiento de voz**.
+2.  Haga clic en **Enrutamiento de voz**.
 
 3.  Haga clic en **Ruta**.
 
-4.  Haga doble clic en una ruta de voz para ver propiedades adicionales de la lista de rutas de voz, o bien seleccione la ruta y haga clic en **Editar**. A continuación, haga clic en **Mostrar detalles**.
+4.  Haga doble clic en una ruta de voz para ver otras propiedades de la lista de rutas de voz o seleccione la ruta y haga clic en **Editar**. A continuación, haga clic en **Mostrar detalles**.
     
     <div>
     
 
     > [!NOTE]  
-    > Solo puede ver información detallada para una única ruta a la vez.
+    > Solamente puede ver información detallada para una única ruta a la vez.
 
     
     </div>
 
-**Para ver las rutas de voz mediante Windows PowerShell**
+**Para ver las rutas de voz con Windows PowerShell**
 
-  - Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**. Las rutas de voz se pueden ver con Windows PowerShell y el cmdlet **Get-CsVoiceRoute** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+  - Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**. Las rutas de voz se pueden ver con Windows PowerShell y el cmdlet **Get-CsVoiceRoute** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
     
     Para ver información sobre todas las rutas de voz, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:
     
@@ -82,7 +82,7 @@ Una ruta de voz de Lync Server 2013 asocia los números de teléfono de destino 
 
 
 > [!NOTE]  
-> Para obtener más información, vea <A href="lync-server-2013-voice-routes.md">rutas de voz en Lync Server 2013</A> en la documentación de planeación.
+> Para obtener más información, consulte <A href="lync-server-2013-voice-routes.md">rutas de voz en Lync Server 2013</A> en la documentación referente a la planeación.
 
 
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b4b3d0e47172af35464cbd95e56a762f3d590fa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cd27963546b45425d6ddd134ce716b475f3dd1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757634"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050612"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41757634"
 
 _**Última modificación del tema:** 2013-02-19_
 
-Las aplicaciones de Lync 2013 para clientes móviles proporcionan mensajería instantánea, presencia mejorada y telefonía a los usuarios de su organización que se conectan desde un smartphone o un teléfono con una edición profesional de Windows Mobile. Puede indicar a los usuarios que instalen Lync 2013 al dirigirlos al Marketplace de la aplicación para su teléfono móvil.
+Las aplicaciones de Lync 2013 para clientes móviles proporcionan mensajería instantánea, presencia mejorada y telefonía a los usuarios de su organización que se conectan desde un smartphone o un teléfono que ejecuta una edición profesional de Windows Mobile. Puede indicar a los usuarios que instalen Lync 2013 al dirigirlos al Marketplace de la aplicación para su teléfono móvil.
 
 <div>
 
@@ -46,9 +46,9 @@ Las aplicaciones de Lync 2013 para clientes móviles proporcionan mensajería in
 > Lync Server 2013 también admite Lync 2010 para clientes móviles. Para obtener más información, consulte los artículos siguientes en la biblioteca de TechNet de 2010 de Lync Server: 
 > <UL>
 > <LI>
-> <P>"Planificación para clientes móviles" en <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.</P>
+> <P>"Planeación de clientes móviles" <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>en.</P>
 > <LI>
-> <P>"Implementación de clientes móviles" en <A href="http://go.microsoft.com/fwlink/p/?linkid=236068">http://go.microsoft.com/fwlink/p/?LinkID=236068</A>.</P></LI></UL>
+> <P>"Deploying Mobile clients" en <A href="http://go.microsoft.com/fwlink/p/?linkid=236068">http://go.microsoft.com/fwlink/p/?LinkID=236068</A>.</P></LI></UL>
 
 
 

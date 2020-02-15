@@ -1,5 +1,5 @@
 ---
-title: Configurar un nodo de monitor para que participe en la detección de System Center
+title: Configuración de un nodo de monitor para participar en la detección de System Center
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ca3724f9b5bc8200e2ca006d9fa7445d7368ab7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7a90f07b445da792e0bc3b22967e41d8cd8d2fcc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763494"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049212"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41763494"
 
 _**Última modificación del tema:** 2012-10-22_
 
-Para asegurarse de que el nodo de monitor participe en el proceso de descubrimiento de System Center Operations Manager, debe completar el siguiente procedimiento en un equipo en el que se haya instalado la consola de System Center Operations Manager:
+Para asegurarse de que el nodo de monitor participa en el proceso de detección para System Center Operations Manager, debe completar el siguiente procedimiento en un equipo en el que se haya instalado la consola de System Center Operations Manager:
 
-1.  En la pestaña **Administración** , haga clic en **agente administrado**.
+1.  En la pestaña **Administración**, haga clic en **Agente administrado**.
 
-2.  Haga clic con el botón secundario en el nombre del equipo del nodo de monitor y, a continuación, haga clic en **propiedades**. En el cuadro de diálogo **propiedades** , en la pestaña **seguridad** , seleccione **permitir que este agente actúe como proxy y descubrir objetos administrados en otros equipos**y, a continuación, haga clic en **Aceptar**.
+2.  Haga clic con el botón secundario en el nombre del equipo del nodo de monitor y, a continuación, haga clic en **propiedades**. En el cuadro de diálogo **Propiedades**, en la pestaña **Seguridad**, seleccione **Permitir a este agente que actúe como proxy ay detecte objetos administrados en otros equipos** y luego haga clic en **Aceptar**.
 
-Después de configurar el nodo de monitor para que actúe como proxy, reinicie el equipo del nodo de monitor. Después de reiniciar el equipo, compruebe que no se graban eventos de error en el registro de eventos de Operations Manager de ese equipo. Una vez que el equipo se haya ejecutado durante 15 minutos o más, use la consola de Operations Manager para comprobar que los equipos de Lync Server aparecen en la categoría **Lync** .
+Después de configurar el nodo de monitor para que actúe como proxy, reinicie el equipo del nodo de monitor. Una vez reiniciado el equipo, compruebe que no se está grabando ningún evento de error en el registro de eventos de Operations Manager de ese equipo. Una vez que el equipo haya estado ejecutándose durante 15 minutos o más, use la consola de Operations Manager para comprobar que los equipos de Lync Server aparecen en la categoría **Lync** .
 
 </div>
 

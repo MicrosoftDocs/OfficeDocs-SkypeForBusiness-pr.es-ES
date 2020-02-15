@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: supervisión de los límites de capacidad de memoria del servidor'
+title: 'Lync Server 2013: supervisión de los límites de capacidad de la memoria del servidor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183506
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5c9746240335b1c66606da24edf6ffa2a0e7bda
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 45600ed9c822851c89b13cb776bbc58464decde0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765981"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048103"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-for-server-memory-capacity-limits-in-lync-server-2013"></a>Supervisión de los límites de capacidad de memoria del servidor en Lync Server 2013
+# <a name="monitoring-for-server-memory-capacity-limits-in-lync-server-2013"></a>Supervisión de los límites de capacidad de la memoria del servidor en Lync Server 2013
 
 </div>
 
@@ -43,39 +43,39 @@ _**Última modificación del tema:** 2016-12-08_
 
 
 > [!WARNING]  
-> La información de este tema que se refiere a la planificación de capacidad solo se aplica a los clientes móviles de Lync 2010 y al servicio de movilidad (MCX). La planificación de capacidad de la API Web de comunicaciones unificadas (UCWA), usada por los clientes móviles de Lync 2013, se proporciona en Lync Server 2013, la herramienta de planeación.
+> La información de este tema que se refiere a la planeación de la capacidad solo se aplica a los clientes móviles de Lync 2010 y al servicio de movilidad (MCX). La planeación de capacidad para la API Web de comunicaciones unificadas (UCWA), usada por los clientes móviles de Lync 2013, se proporciona en Lync Server 2013, la herramienta de planeación.
 
 
 
 </div>
 
-Dos contadores de rendimiento de movilidad pueden ayudarle a determinar su uso actual y a ayudarle a planear la capacidad del servicio de movilidad de Lync Server 2013 (MCX), así como a supervisar el uso de memoria para UCWA. Para UCWA, la categoría de contador es **LS:WEB - UCWA**. En el caso de Mobility Service (Mcx), los contadores pertenecen a la categoría **LS:WEB - Mobile Communication Service**. Los contadores que se supervisan son los siguientes:
+Hay dos contadores de rendimiento de movilidad que pueden ayudarle a determinar su uso actual y a planear la capacidad del servicio de movilidad de Lync Server 2013 (MCX), así como supervisar el uso de memoria para UCWA. Para UCWA, la categoría de contador es **LS: Web – UCWA**. En el caso del servicio de movilidad (MCX), los contadores están bajo la categoría **LS: web-Mobile Communication Service**. Los contadores que se van a supervisar son:
 
-  - **Número de sesiones actualmente activas con suscripciones de presencia activas**, que es el número actual de extremos registrados a través de UCWA o Mobility Service (Mcx) que tienen suscripciones de presencia activas (número de usuarios móviles conectados siempre)
+  - **Recuento de sesiones actualmente activas con suscripciones de presencia activa**, que es el número actual de extremos registrados a través de UCWA o el servicio de movilidad (MCX) que tienen suscripciones de presencia activas (número de usuarios móviles conectados siempre)
 
-  - **Número de sesiones actualmente activas**, que es el número actual de extremos registrados a través de UCWA o Mobility Service
+  - **Recuento de sesiones actualmente activas**, que es el número actual de extremos registrados a través de UCWA o el servicio de movilidad.
 
-Si la diferencia entre **Número de sesiones actualmente activas con suscripciones de presencia activas** y **Número de sesiones actualmente activas** es pequeña con el transcurso del tiempo, significa que la mayoría de los usuarios de dispositivos móviles tiene un dispositivo conectado siempre, como un dispositivo móvil Android o Nokia (solo para Mcx). UCWA los dispositivos siempre conectados incluyen Apple y Android que ejecutan clientes móviles de Lync 2013). Si **Número de sesiones actualmente activas** es muy superior a **Número de sesiones actualmente activas con suscripciones de presencia activas**, quiere decir que hay más usuarios que usan un dispositivo de extremo en segundo plano, como un dispositivo Apple iOS o Windows Phone con Mcx. (Windows Phone es el único cliente móvil de Lync 2013 que se registrará como this).
+Si la diferencia entre el **número de sesiones actualmente activas con suscripciones de presencia activa** y el **recuento de sesiones actualmente activas** es pequeño con el tiempo, significa que la mayoría de los usuarios de dispositivos móviles tienen un dispositivo conectado siempre, como un dispositivo móvil Android o Nokia (solo para MCX). Los dispositivos de UCWA Always-Connected incluyen los dispositivos Apple y Android que ejecutan clientes móviles de Lync 2013). Si el **recuento de sesiones actualmente activas** es mucho mayor que el **recuento de sesiones actualmente activas con suscripciones de presencia activa**, esto indica que más usuarios están usando un dispositivo de extremo en segundo plano, como un dispositivo iOS de Apple o Windows Phone en MCX. (Windows Phone es el único cliente móvil de Lync 2013 que se registrará como this).
 
-Debe establecer un límite en el **recuento de sesiones activas actualmente con suscripciones de presencia activas** y contadores de rendimiento de **recuento de sesiones actualmente activos** según el uso previsto, los resultados de la planificación de capacidad y la supervisión continua de los contadores de servicio de movilidad y otros servidores front-end. Los límites que establezca necesitan permitirle evaluar la capacidad del servidor y generar alertas cuando dicha capacidad se exceda.
+Debe establecer un límite en el **recuento de sesiones actualmente activas con suscripciones de presencia activa** y contadores de rendimiento de **recuento de sesiones actualmente** en función del uso previsto, los resultados de la planeación de la capacidad y la supervisión continua del servicio de movilidad y otros contadores de servidores front-end. Los límites que establezca deben permitirle evaluar la capacidad del servidor y generar alertas cuando se supere la capacidad.
 
-Para determinar los límites adecuados, primero debe determinar cuánta memoria está disponible en el servidor front-end para el servicio de movilidad. Supervise los contadores para determinar cuándo hay que planear la capacidad adicional según la fórmula siguiente:
+Para determinar los límites apropiados, primero debe determinar la cantidad de memoria disponible en el servidor front-end para el servicio de movilidad. Supervise los contadores para determinar cuándo es necesario planear la capacidad extra, de acuerdo con la siguiente fórmula:
 
-Memoria total usada por el servicio de movilidad de MCX (MB) = 164 + (400 + 134) \* /1024 **recuento de sesiones activas con suscripciones de presencia activas** + 400/1024 \* (recuento de**sesiones actualmente** activas; **recuento de sesiones activas actualmente con suscripciones de presencia activas**)
+Memoria total usada por el servicio de movilidad de MCX (MB) = 164 + (400 + 134)/1024 \* **recuento de sesiones actualmente activas con suscripciones de presencia activa** + 400/1024 \* (recuento de**sesiones actualmente activas** ; **número de sesiones actualmente activas con suscripciones de presencia activa**)
 
 <div>
 
 
 > [!IMPORTANT]  
-> La calculadora de capacidad 2010 de Microsoft Lync Server es una hoja de cálculo que se rellenó con todas las fórmulas que permiten a un planeador determinar cuáles serán los requisitos para los servidores, como la CPU, la memoria y el disco duro. Puede descargar la hoja de cálculo y un documento asociado en:<A href="https://go.microsoft.com/fwlink/p/?linkid=212657">https://go.microsoft.com/fwlink/p/?LinkID=212657</A>
+> La calculadora de capacidad 2010 de Microsoft Lync Server es una hoja de cálculo que se rellena previamente con todas las fórmulas que permiten a un planificador determinar cuáles serán los requisitos para los servidores, incluidos la CPU, la memoria y el disco duro. Puede descargar la hoja de cálculo y un documento asociado en:<A href="https://go.microsoft.com/fwlink/p/?linkid=212657">https://go.microsoft.com/fwlink/p/?LinkID=212657</A>
 
 
 
 </div>
 
-El servidor front-end necesita suficiente memoria disponible para admitir el servicio de movilidad en situaciones de conmutación por error. Puede supervisar la memoria disponible actual en el servidor front-end mediante el contador **memoria\\Mbytes disponibles** , o mediante la ecuación mencionada anteriormente, para planear la cantidad de memoria que espera que use el servicio de movilidad.
+El servidor front-end necesita suficiente memoria disponible para admitir el servicio de movilidad en situaciones de conmutación por error. Puede supervisar la memoria disponible actual en el servidor front-end mediante el contador **memoria\\Mbytes disponibles** o mediante la ecuación mencionada anteriormente, para planear la cantidad de memoria que espera que use el servicio de movilidad.
 
-Si la cantidad de memoria disponible en el servidor front-end es inferior a 1.500 MB cuando se planea la cantidad de usuarios de movilidad esperada, necesita agregar más hardware para admitir el servicio de movilidad. Para obtener más información, vea [supervisión de la movilidad para el rendimiento en Lync Server 2013](lync-server-2013-monitoring-mobility-for-performance.md) en la documentación de operaciones.
+Si la cantidad de memoria disponible en el servidor front-end es inferior a 1.500 MB cuando planea el número previsto de usuarios de movilidad, necesita agregar más hardware para admitir el servicio de movilidad. Para obtener más información, consulte [Monitoring Mobility for performance in Lync Server 2013](lync-server-2013-monitoring-mobility-for-performance.md) en la documentación de operaciones.
 
 <div>
 

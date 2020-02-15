@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla ConferenceMessageCount'
+title: 'Lync Server 2013: tabla ConferenceMessageCount'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184570
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 426ae4abca9f91fcabaedfb5a363703523d6aa94
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e13f45936f210085361624a0d884f507a88e0d35
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740030"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049091"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41740030"
 
 _**Última modificación del tema:** 2012-09-28_
 
-Cada registro de esta tabla representa un usuario en una conferencia de mensajería instantánea e incluye el número de mensajes enviados por el usuario. Cada conferencia está representada por varios registros en esta tabla; un registro para cada usuario.
+Cada registro de esta tabla representa un usuario en una conferencia de mi y incluye el número de mensajes enviados por el usuario. Cada conferencia se representa mediante varios registros en esta tabla; un registro para cada usuario.
 
 
 <table>
@@ -59,20 +59,20 @@ Cada registro de esta tabla representa un usuario en una conferencia de mensajer
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Principal, extranjero</p></td>
-<td><p>Hora de la instancia de conferencia. Se usa junto con <strong>SessionIdSeq</strong> para identificar de forma exclusiva una instancia de conferencia. Para obtener más información, vea la <a href="lync-server-2013-conferences-table.md">tabla conferencias en Lync Server 2013</a> .</p></td>
+<td><p>Principal, Externa</p></td>
+<td><p>Hora de la instancia de conferencia. Se usa junto con <strong>SessionIdSeq</strong> para identificar de forma única una instancia de conferencia. Consulte la <a href="lync-server-2013-conferences-table.md">tabla conferencias en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal, extranjero</p></td>
-<td><p>Número de identificación para identificar la instancia de la Conferencia. Se usa junto con <strong>SessionIdTime</strong> para identificar de forma exclusiva una instancia de conferencia. Para obtener más información, vea la <a href="lync-server-2013-conferences-table.md">tabla conferencias en Lync Server 2013</a> .</p></td>
+<td><p>Principal, Externa</p></td>
+<td><p>Número de identificación de la instancia de conferencia. Se usa junto con <strong>SessionIdTime</strong> para identificar de forma única una instancia de conferencia. Consulte la <a href="lync-server-2013-conferences-table.md">tabla conferencias en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Iddeusuario</strong></p></td>
+<td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
-<td><p>Número único que identifica a este usuario, al que se hace referencia en la <a href="lync-server-2013-users-table.md">tabla usuarios de Lync Server 2013</a>.</p></td>
+<td><p>Externa</p></td>
+<td><p>Número único que identifica a este usuario, al que se hace referencia en la <a href="lync-server-2013-users-table.md">tabla usuarios en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MessageCount</strong></p></td>

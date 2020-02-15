@@ -12,16 +12,16 @@ ms:contentKeyID: 48185575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54a3fd5f18785a649803cc6f9a0a56d7b98a2ee6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 789a6a67b1794eee5f01e8672f9aeb1076646ecf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732600"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049412"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41732600"
 
 _**Última modificación del tema:** 2012-10-18_
 
-Antes de implementar y ejecutar Lync Server 2013, debe preparar el esquema para preparar los servicios de dominio de Active Directory. Las extensiones de esquema agregan las clases y los atributos requeridos por Lync Server 2013.
+Antes de implementar y usar Lync Server 2013, debe preparar los servicios de dominio de Active Directory extendiendo el esquema. Las extensiones de esquema agregan las clases y atributos que necesita Lync Server 2013.
 
-Lync Server 2013 requiere varias clases y atributos nuevos y modifica algunas clases y atributos existentes. Además, la información de configuración para Lync Server 2013 se almacena en el almacén de administración central, en lugar de en AD DS, como en versiones anteriores. La siguiente información se almacena aún en AD DS en Lync Server 2013:
+Lync Server 2013 requiere varias clases y atributos nuevos y modifica algunas clases y atributos existentes. Además, la información de configuración de Lync Server 2013 se almacena en el almacén de administración central, en lugar de en AD DS como en versiones anteriores. La siguiente información todavía se almacena en AD DS en Lync Server 2013:
 
   - **Extensiones de esquema**:
     
@@ -51,23 +51,23 @@ Lync Server 2013 requiere varias clases y atributos nuevos y modifica algunas cl
 
   - **Datos** (almacenados en el esquema extendido de Lync Server y en las clases de esquema existentes):
     
-      - Identificador uniforme de recursos (URI) SIP de usuario y otra configuración de usuario
+      - Identificador uniforme de recursos (URI) de SIP del usuario y otros parámetros de usuario
     
-      - Objetos de contacto para aplicaciones como el operador de conferencia y el grupo de respuesta
+      - Objetos de contacto para aplicaciones como Grupo de respuesta y Operador de conferencia
     
-      - Puntero al almacén de administración central
+      - Una referencia al almacén de administración central
     
       - Cuenta de autenticación Kerberos (un objeto de equipo opcional)
 
-En este tema se describen los cambios de esquema de Active Directory que necesita Lync Server 2013. No se describen los cambios de esquema introducidos por versiones anteriores de Office Communications Server. Para obtener una lista de las clases y sus descripciones, vea [clases y descripciones de esquemas en Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md). Para obtener una lista de atributos y sus descripciones, consulte [atributos y descripciones del esquema en Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md). Para obtener una lista de las clases con los atributos que pueden contener, consulte [atributos de esquema por clase en Lync Server 2013](lync-server-2013-schema-attributes-by-class.md).
+En este tema se describen los cambios en el esquema de Active Directory que necesita Lync Server 2013. No se describen los cambios de esquema que se introdujeron en versiones anteriores de Office Communications Server. Para obtener una lista de las clases y sus descripciones, vea [clases de esquema y descripciones en Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md). Para obtener una lista de atributos y sus descripciones, consulte [atributos y descripciones del esquema en Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md). Para obtener una lista de las clases con los atributos que pueden contener, consulte [atributos de esquema por clase en Lync Server 2013](lync-server-2013-schema-attributes-by-class.md).
 
-El prefijo msRTCSIP identifica clases y atributos específicos de Lync Server.
+El prefijo msRTCSIP identifica clases y atributos que son específicos de Lync Server.
 
 <div>
 
 ## <a name="new-active-directory-attributes"></a>Nuevos atributos de Active Directory
 
-En la siguiente tabla se describen los atributos de Active Directory agregados por Lync Server 2013.
+En la tabla siguiente se describen los atributos de Active Directory que se agregan con Lync Server 2013.
 
 ### <a name="attributes-added-by-lync-server-2013"></a>Atributos agregados por Lync Server 2013
 
@@ -85,7 +85,7 @@ En la siguiente tabla se describen los atributos de Active Directory agregados p
 <tbody>
 <tr class="odd">
 <td><p>msExchUserHoldPolicies</p></td>
-<td><p>Este atributo de valor múltiple contiene los identificadores para las directivas de retención que se aplican al usuario. Las directivas de retención mantienen los elementos del buzón de correo para el usuario durante el período de espera. Este atributo se comparte con Exchange 2013.</p></td>
+<td><p>Este atributo de varios valores contiene los identificadores de las directivas de retención que se aplican al usuario. Las directivas de retención conservan los elementos del buzón del usuario durante toda la retención. Este atributo se comparte con Exchange 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-UserRoutingGroupId</p></td>
@@ -105,7 +105,7 @@ En la siguiente tabla se describen los atributos de Active Directory agregados p
 
 ## <a name="modified-active-directory-classes"></a>Clases de Active Directory modificadas
 
-En la siguiente tabla se describen las clases de Active Directory que modifica Lync Server 2013.
+En la tabla siguiente se describen las clases de Active Directory que se modifican en Lync Server 2013.
 
 ### <a name="classes-modified-by-lync-server-2013"></a>Clases modificadas por Lync Server 2013
 
@@ -117,7 +117,7 @@ En la siguiente tabla se describen las clases de Active Directory que modifica L
 </colgroup>
 <thead>
 <tr class="header">
-<th>Las</th>
+<th>Class</th>
 <th>Cambio</th>
 <th>Clase o atributo</th>
 </tr>
@@ -125,26 +125,26 @@ En la siguiente tabla se describen las clases de Active Directory que modifica L
 <tbody>
 <tr class="odd">
 <td><p>Usuario</p></td>
-<td><p>Agregar: mayContain</p>
-<p>Agregar: mayContain</p></td>
+<td><p>add: mayContain</p>
+<p>add: mayContain</p></td>
 <td><p>ProxyAddresses</p>
 <p>msRTCSIP-UserRoutingGroupId</p></td>
 </tr>
 <tr class="even">
-<td><p>Con</p></td>
-<td><p>Agregar: mayContain</p>
-<p>Agregar: mayContain</p></td>
+<td><p>Contacto</p></td>
+<td><p>add: mayContain</p>
+<p>add: mayContain</p></td>
 <td><p>ProxyAddresses</p>
 <p>msRTCSIP-UserRoutingGroupId</p></td>
 </tr>
 <tr class="odd">
-<td><p>Destinatario de correo</p></td>
-<td><p>Agregar: mayContain</p></td>
+<td><p>Mail-Recipient</p></td>
+<td><p>add: mayContain</p></td>
 <td><p>msExchUserHoldPolicies</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-GlobalTopologySetting</p></td>
-<td><p>Agregar: mayContain</p></td>
+<td><p>agregar: mayContain</p></td>
 <td><p>msRTCSIP-MirrorBackEndServer</p></td>
 </tr>
 </tbody>

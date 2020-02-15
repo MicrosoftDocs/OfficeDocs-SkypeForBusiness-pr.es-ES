@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Reducir la mensajería instantánea no solicitada'
+title: 'Lync Server 2013: reducir la mensajería instantánea no solicitada'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 62625493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0f8326d6fa9f85b202e0ea2dcbe3fed63a723aa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5574930d6474a75ca4a35219df7cd2e3e2431b15
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724459"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050132"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reducing-unsolicited-im-for-lync-server-2013"></a>Reducir la mensajería instantánea no solicitada en Lync Server 2013
+# <a name="reducing-unsolicited-im-for-lync-server-2013"></a>Reducir la mensajería instantánea no solicitada para Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41724459"
 
 _**Última modificación del tema:** 2013-12-05_
 
-La aplicación inteligente de filtro de mensajes instantáneos ayuda a proteger la implementación de Microsoft Lync Server 2013 contra los virus más comunes con una degradación mínima para la experiencia del usuario. El filtro inteligente de mensajes instantáneos proporciona lo siguiente:
+La aplicación de filtro inteligente de mensajería instantánea ayuda a proteger la implementación de Microsoft Lync Server 2013 frente a los virus más comunes con una degradación mínima para la experiencia del usuario. El filtro inteligente de mensaje instantáneo ofrece las siguientes prestaciones:
 
-  - Filtrado de URL mejorado
+  - Mejor filtrado de direcciones URL
 
-  - Filtrado mejorado de transferencia de archivos
+  - Mejor filtrado de transferencias de archivos
 
-Use el filtro inteligente de mi para configurar filtros para bloquear mensajes instantáneos no solicitados o potencialmente dañinos de puntos de conexión desconocidos fuera del firewall de la empresa. Para configurar filtros, especifique los criterios que se van a usar para determinar qué se debe bloquear, por ejemplo, los mensajes instantáneos que contengan hipervínculos y archivos con extensiones específicas.
+Use el filtro inteligente de mensaje instantáneo para configurar filtros que bloqueen los mensajes instantáneos no solicitados o potencialmente dañinos procedentes de extremos desconocidos más allá del firewall corporativo. Los filtros se configuran especificando los criterios que se van a usar para determinar lo que se va a bloquear, como mensajes instantáneos que contienen hipervínculos y archivos con extensiones específicas.
 
-Antes de implementar la aplicación inteligente de filtro de mensajes de mensajería instantánea, debe comprender cómo se aplican las opciones de filtrado cuando los mensajes se enrutan desde un servidor de Lync Server 2013 a otro. La manera en que se aplican estas opciones de filtrado es coherente, independientemente de si los servidores se encuentran en una sola organización o en los límites de la organización. Esta coherencia se aplica a la forma en que el aviso personalizado y los mensajes de advertencia se insertan en mensajes y se envían por servidores.
+Antes de implementar la aplicación de filtro inteligente de mensajes de mensajería instantánea, debe comprender cómo se aplican las opciones de filtrado cuando los mensajes se enrutan desde un servidor de 2013 de Lync Server a otro. Estas opciones de filtrado se aplican de manera coherente, independientemente de si los servidores se encuentran en una o en varias organizaciones. Esta coherencia se aplica a la forma en que los avisos y advertencias personalizados se insertan en los mensajes y se envían a través de los servidores.
 
-La opción de filtrado recomendada es permitir la mensajería instantánea con hipervínculos pero requerir el filtro inteligente de mensajes instantáneos para deshabilitar el vínculo al insertar un carácter de subrayado. Si elige esta opción, tendrá la opción adicional de redactar un aviso para los usuarios que aparece al principio de cada mensaje instantáneo que contiene un hipervínculo.
+La opción de filtrado recomendada es permitir los mensajes instantáneos con hipervínculos, pero obligar al filtro inteligente de mensaje instantáneo a que deshabilite el vínculo anteponiendo un carácter de subrayado. Si elige esta opción, tendrá además la oportunidad de redactar un aviso que va a aparecer al principio de cada mensaje instantáneo que contenga un hipervínculo.
 
-Una segunda opción de filtrado es permitir los mensajes instantáneos con hipervínculos no modificados. Si elige esta opción, tiene la opción adicional (recomendado) de redactar una advertencia para los usuarios que se insertan en cada mensaje.
+La segunda opción de filtrado consiste en permitir los mensajes instantáneos con hipervínculos no modificados. Si elige esta opción, tendrá además la oportunidad de redactar una advertencia que se va a insertar en cada mensaje (opción recomendada).
 
-Una tercera opción es bloquear todos los mensajes instantáneos que contienen hipervínculos. Si elige esta opción, el servidor envía una advertencia al usuario. Debes escribir esta advertencia.
+La tercera opción consiste en bloquear todos los mensajes instantáneos que contengan un hipervínculo. Si elige esta opción, el servidor envía una advertencia al usuario. Debe escribir esta advertencia.
 
 </div>
 

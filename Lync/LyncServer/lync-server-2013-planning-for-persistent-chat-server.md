@@ -12,16 +12,16 @@ ms:contentKeyID: 48184190
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 363008c910c53f5b1b951bf57ba8663b4d4d970d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cf28684443b93dbd6d3d1d769ca545177f6cfa0f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41750510"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049982"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41750510"
 
 _**Última modificación del tema:** 2012-10-11_
 
-Puede usar Lync Server 2013, servidor de chat persistente para permitir que varios usuarios participen en las conversaciones en las que publican y tienen acceso al contenido sobre temas específicos, como texto, vínculos y archivos. Aunque los usuarios se pueden comunicar en tiempo real durante una sesión, el contenido de cada sesión es persistente, lo que significa que sigue disponible después de que finaliza la sesión.
+Puede usar Lync Server 2013, el servidor de chat persistente para permitir que varios usuarios participen en conversaciones en las que publican y tienen acceso al contenido sobre temas específicos, incluidos texto, vínculos y archivos. Aunque todos los usuarios se pueden comunicar en tiempo real durante una sesión, el contenido de cada sesión puede ser persistente, lo que significa que sigue disponible después de que finalice una sesión.
 
-Esta sección describe las consideraciones de planeación en un servidor de Lync 2013, una implementación de servidor de chat persistente, lo que incluye la definición de requisitos, la identificación de componentes y las topologías admitidas, y recomendaciones de implementación.
+En esta sección se describen las consideraciones de planeación en una implementación de Lync Server 2013, servidor de chat persistente, lo que incluye la definición de requisitos, la identificación de componentes y las topologías admitidas, y las recomendaciones de implementación.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Información general del servidor de chat en grupo en Lync Server 2013](lync-server-2013-overview-of-persistent-chat-server.md)
+  - [Información general sobre el servidor de chat persistente en Lync Server 2013](lync-server-2013-overview-of-persistent-chat-server.md)
 
   - [Cómo funciona el servidor de chat persistente en Lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md)
 
@@ -55,9 +55,9 @@ Esta sección describe las consideraciones de planeación en un servidor de Lync
 
   - [Requisitos técnicos para el servidor de chat persistente en Lync Server 2013](lync-server-2013-technical-requirements-for-persistent-chat-server.md)
 
-  - [Configurar los sistemas y la infraestructura para servidores de chat persistente en Lync Server 2013](lync-server-2013-setting-up-systems-and-infrastructure-for-persistent-chat-server.md)
+  - [Configurar los sistemas y la infraestructura para el servidor de chat persistente en Lync Server 2013](lync-server-2013-setting-up-systems-and-infrastructure-for-persistent-chat-server.md)
 
-  - [Lista de comprobación para la implementación de servidores de chat persistente en Lync Server 2013](lync-server-2013-deployment-checklist-for-persistent-chat-server.md)
+  - [Lista de comprobación para la implementación del servidor de chat persistente en Lync Server 2013](lync-server-2013-deployment-checklist-for-persistent-chat-server.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ejecutar la ruta de voz casos de prueba'
+title: 'Lync Server 2013: ejecutar los casos de prueba de enrutamiento de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14f2df8a04c5efbf8c62bc4e17bbdd156913daae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: df0a5ea6da9fad7f6a7e242bb522c493962fc603
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732840"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050782"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="run-voice-routing-test-cases-in-lync-server-2013"></a>Ejecutar los casos de prueba de enrutamiento de voz en Lync Server 2013
+# <a name="run-voice-routing-test-cases-in-lync-server-2013"></a>Ejecutar casos de prueba de enrutamiento de voz en Lync Server 2013
 
 </div>
 
@@ -43,25 +43,25 @@ Puede ejecutar todos los casos de prueba en el conjunto de casos de prueba de en
 
 ## <a name="to-run-all-voice-routing-test-cases"></a>Para ejecutar todos los casos de prueba de enrutamiento de voz
 
-1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, consulte [permisos de configuración de delegación en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro de la función CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, consulte [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **enrutamiento de voz** y luego en **probar enrutamiento de voz**.
+3.  En la barra de navegación izquierda, haga clic en **Enrutamiento de voz** y, a continuación, en **Probar enrutamiento de voz**.
 
-4.  En la página **probar enrutamiento de voz** , haga clic en **acción** y, a continuación, en **ejecutar todo**.
+4.  En la página **Probar enrutamiento de voz**, haga clic en **Acción** y, a continuación, en **Ejecutar todo**.
     
-    El estado de paso o error de cada caso de prueba se muestra en la columna **correcto o error** . Si aún no se ha ejecutado un caso de prueba, se muestra N/A en la columna **correcto o error** .
+    El estado de superado o no superado con respecto a cada caso de prueba se muestra en la columna **Superado/no superado**. Si no se ha ejecutado aún ningún caso de prueba, aparecerá N/A en la columna **Superado/no superado**.
 
-5.  Faculta Para ver los resultados detallados de cada caso de prueba, haga doble clic en el nombre del caso de prueba. Los resultados se muestran en el área sombreada en el lado derecho de la página **Editar caso de prueba** :
+5.  (Opcional) Para ver los resultados detallados de cada caso de prueba, haga doble clic en el nombre del caso de prueba que desee. Los resultados se muestran en la zona sombreada a la derecha de la página **Editar caso de prueba**.
     
-    1.  **Resultado de la prueba:** Estado general de paso o error de la ejecución del caso de prueba.
+    1.  **Resultado de la prueba:** Estado general de Pass o Fail del caso de prueba ejecutado.
     
-    2.  **Regla de normalización:** La primera regla de normalización seleccionada en el plan de marcado para este caso de prueba que coincide con el número marcado (el valor del campo **número para probar** ).
+    2.  **Regla de normalización:** La primera regla de normalización del plan de marcado seleccionado para este caso de prueba que coincide con el número marcado (el valor del campo **número que se va a probar** ).
     
     3.  **Número normalizado:** El valor del número marcado después de que la regla de normalización la haya traducido.
     
-    4.  **Primer uso de la RTC:** El primer registro de uso de la red telefónica conmutada (RTC) en la Directiva de voz seleccionada para este caso de prueba que coincide con el número marcado.
+    4.  **Primer uso de RTC:** El primer registro de uso de RTC (red telefónica conmutada) en la Directiva de voz seleccionada para este caso de prueba que coincide con el número marcado.
     
     5.  **Primera ruta:** La primera ruta de voz del primer registro de uso de RTC que coincide con el número marcado.
         
@@ -69,7 +69,7 @@ Puede ejecutar todos los casos de prueba en el conjunto de casos de prueba de en
         
 
         > [!NOTE]  
-        > El <STRONG>registro de uso de RTC esperado</STRONG> y los campos de <STRONG>ruta previstos</STRONG> son opcionales en la configuración del caso de prueba de enrutamiento de voz. Si el caso de prueba no especifica estos valores, el campo correspondiente en los resultados de la prueba estará vacío.
+        > Los campos <STRONG>Registro de uso de RTC previsto</STRONG> y <STRONG>Ruta prevista</STRONG> son opcionales en la configuración del caso de prueba de enrutamiento de voz. Si el caso de prueba no especifica estos valores, el campo correspondiente en los resultados de la prueba estará vacío.
 
         
         </div>
@@ -80,27 +80,27 @@ Puede ejecutar todos los casos de prueba en el conjunto de casos de prueba de en
 
 ## <a name="to-run-one-or-more-selected-voice-routing-test-cases"></a>Para ejecutar uno o varios casos de prueba de enrutamiento de voz seleccionados
 
-1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, consulte [permisos de configuración de delegación en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro de la función CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, consulte [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **enrutamiento de voz**y, a continuación, en **probar enrutamiento de voz**.
+3.  En la barra de navegación izquierda, haga clic en **Enrutamiento de voz** y, a continuación, en **Probar enrutamiento de voz**.
 
-4.  En la página **probar enrutamiento de voz** , haga clic en los nombres de los casos de prueba que desee ejecutar.
+4.  En la página **Probar enrutamiento de voz**, haga clic en los nombres de los casos de prueba que desee ejecutar.
 
-5.  En el menú **acción** , haga clic en **Ejecutar seleccionado**.
+5.  En el menú **Acción**, haga clic en **Ejecutar seleccionados**.
     
-    El estado de paso o error de cada caso de prueba se muestra en la columna **correcto o error** . Si aún no se ha ejecutado un caso de prueba, se muestra N/A en la columna **correcto o error** .
+    El estado de superado o no superado con respecto a cada caso de prueba se muestra en la columna **Superado/no superado**. Si no se ha ejecutado aún ningún caso de prueba, aparecerá N/A en la columna **Superado/no superado**.
 
-6.  Faculta Para ver los resultados detallados de cada caso de prueba, haga doble clic en el nombre del caso de prueba. Los resultados se muestran en el área sombreada en el lado derecho de la página **Editar caso de prueba** :
+6.  (Opcional) Para ver los resultados detallados de cada caso de prueba, haga doble clic en el nombre del caso de prueba que desee. Los resultados se muestran en la zona sombreada a la derecha de la página **Editar caso de prueba**.
     
-    1.  **Resultado de la prueba:** Estado general de paso o error de la ejecución del caso de prueba.
+    1.  **Resultado de la prueba:** Estado general de Pass o Fail del caso de prueba ejecutado.
     
-    2.  **Regla de normalización:** La primera regla de normalización seleccionada en el plan de marcado para este caso de prueba que coincide con el número marcado (el valor del campo **número para probar** ).
+    2.  **Regla de normalización:** La primera regla de normalización del plan de marcado seleccionado para este caso de prueba que coincide con el número marcado (el valor del campo **número que se va a probar** ).
     
     3.  **Número normalizado:** El valor del número marcado después de que la regla de normalización la haya traducido.
     
-    4.  **Primer uso de la RTC:** El primer registro de uso de RTC de la Directiva de voz seleccionada para este caso de prueba que coincide con el número marcado.
+    4.  **Primer uso de RTC:** El primer registro de uso de RTC en la Directiva de voz que se ha seleccionado para este caso de prueba que coincide con el número marcado.
     
     5.  **Primera ruta:** La primera ruta de voz del primer registro de uso de RTC que coincide con el número marcado.
         
@@ -108,7 +108,7 @@ Puede ejecutar todos los casos de prueba en el conjunto de casos de prueba de en
         
 
         > [!NOTE]  
-        > El <STRONG>registro de uso de RTC esperado</STRONG> y los campos de <STRONG>ruta previstos</STRONG> son opcionales en la configuración del caso de prueba de enrutamiento de voz. Si el caso de prueba no especifica estos valores, el campo correspondiente en los resultados de la prueba estará vacío.
+        > Los campos <STRONG>Registro de uso de RTC previsto</STRONG> y <STRONG>Ruta prevista</STRONG> son opcionales en la configuración del caso de prueba de enrutamiento de voz. Si el caso de prueba no especifica estos valores, el campo correspondiente en los resultados de la prueba estará vacío.
 
         
         </div>

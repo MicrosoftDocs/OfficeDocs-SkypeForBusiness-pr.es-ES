@@ -12,16 +12,16 @@ ms:contentKeyID: 51541433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0dcb1d84392cf9f56f2996281eb53e798690ba1e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c226e3b677965db03ba4d5fcc3c3dadb37192548
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763302"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049422"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41763302"
 
 _**Última modificación del tema:** 2013-02-24_
 
-La herramienta Lync Server 2013 stress and Performance (LyncPerfTool. exe) tiene muchos contadores que puede usar para comprender lo que hace el cliente y si se están encontrando problemas.
+La herramienta stress and performance de Lync Server 2013 (LyncPerfTool. exe) tiene muchos contadores que puede usar para comprender lo que hace el cliente y si se produce algún problema.
 
 <div>
 
-## <a name="client-counters"></a>Contadores de cliente
+## <a name="client-counters"></a>Contadores del cliente
 
-Cada instancia de LyncPerfTool. exe que se está ejecutando tiene una instancia independiente de los contadores. Cada instancia se denomina mediante su identificador de proceso.
+Cada instancia de LyncPerfTool. exe que se está ejecutando tiene una instancia independiente de los contadores. Cada instancia se nombra mediante su identificador de proceso.
 
 Si los clientes están sobrecargados, pueden producirse problemas. Para evitar estos problemas, haga lo siguiente:
 
-1.  Supervise la CPU y el uso de memoria en los equipos cliente. Si la CPU es sistemática por encima del 90 por ciento, reduzca el número de usuarios.
+1.  Supervise la CPU y el uso de memoria en los equipos cliente. Si la CPU es constantemente superior al 90 por ciento, reduzca el número de usuarios.
 
-2.  Si el tamaño de la memoria es alto, puede tener problemas si el archivo de paginación no es lo suficientemente grande. Compruebe que el cargo de asignación no haya alcanzado el límite en el equipo. Si se encuentran límites de memoria, considere la posibilidad de aumentar el tamaño del archivo de paginación o reducir el número de usuarios.
+2.  Si el tamaño de la memoria es alto, puede tener problemas si el archivo de paginación no es lo suficientemente grande. Compruebe que la carga de asignación no alcanza el límite del equipo. Si está teniendo en cuenta los límites de memoria, considere la posibilidad de aumentar el tamaño del archivo de paginación o reducir el número de usuarios.
 
-En las siguientes tablas se enumeran los contadores de rendimiento de LyncPerfTool clave.
+En las tablas siguientes se enumeran los contadores de rendimiento LyncPerfTool clave.
 
 **Información general**
 
@@ -74,18 +74,18 @@ En las siguientes tablas se enumeran los contadores de rendimiento de LyncPerfTo
 </tr>
 <tr class="even">
 <td><p>Puntos de conexión activos</p></td>
-<td><p>Número de puntos finales conectados actualmente al servidor.</p></td>
+<td><p>Número de extremos conectados actualmente al servidor.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Inicios de sesión erróneos</p></td>
+<td><p>Inicios de sesión con errores</p></td>
 <td><p>Número total de errores de inicio de sesión de extremo.</p></td>
 </tr>
 <tr class="even">
 <td><p>Intentos de inicio de sesión</p></td>
-<td><p>Número total de intentos de inicio de sesión de punto final.</p></td>
+<td><p>Número total de intentos de inicio de sesión en el extremo.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Puntos de conexión desconectados</p></td>
+<td><p>Extremos desconectados</p></td>
 <td><p>Número total de puntos de conexión que se han desconectado.</p></td>
 </tr>
 <tr class="even">
@@ -112,8 +112,8 @@ En las siguientes tablas se enumeran los contadores de rendimiento de LyncPerfTo
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Llamadas de SetPresence</p></td>
-<td><p>Número total de intentos de cambio de presencia. Para los distintos tipos de cambios de presencia, vea el contador de rendimiento llamadas de SetPresence (tipo de presencia).</p></td>
+<td><p>Llamadas SetPresence</p></td>
+<td><p>Número total de intentos de cambio de presencia. Para diferentes tipos de cambios de presencia, vea el contador de rendimiento de llamadas de SetPresence (tipo de presencia).</p></td>
 </tr>
 <tr class="even">
 <td><p>NNN respuestas para SetPresence</p></td>
@@ -121,7 +121,7 @@ En las siguientes tablas se enumeran los contadores de rendimiento de LyncPerfTo
 </tr>
 <tr class="odd">
 <td><p>Llamadas a GetPresence</p></td>
-<td><p>Número total de intentos de solicitud de presencia.</p></td>
+<td><p>Número total de intentos de obtener solicitud de presencia.</p></td>
 </tr>
 <tr class="even">
 <td><p>NNN respuestas para GetPresence</p></td>
@@ -133,7 +133,7 @@ En las siguientes tablas se enumeran los contadores de rendimiento de LyncPerfTo
 
 **Información del servicio de libreta de direcciones**
 
-Esta categoría incluye los contadores usados para supervisar las solicitudes de servicio de descargas de archivos del servicio de libreta de direcciones (ABS) y la libreta de direcciones web de la libreta de direcciones.
+En esta categoría se incluyen los contadores usados para supervisar las solicitudes de servicio de descarga de archivos del servicio de libreta de direcciones (ABS) y de la libreta de direcciones web de consultas.
 
 
 <table>
@@ -149,28 +149,28 @@ Esta categoría incluye los contadores usados para supervisar las solicitudes de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Intento de descarga de archivos completo/Delta de ABS</p></td>
-<td><p>Número total de solicitudes de descarga de archivos completas o delta intentadas.</p></td>
+<td><p>Intento de descarga de archivo completo/Delta de ABS</p></td>
+<td><p>Número total de solicitudes de descarga de archivos completos o delta que se intentaron.</p></td>
 </tr>
 <tr class="even">
-<td><p>Descarga de archivo completo/Delta de ABS correctamente</p></td>
-<td><p>Número total de solicitudes de descarga de archivos completas o delta intentadas.</p></td>
+<td><p>Descargas de archivos completos/Delta de ABS correctamente</p></td>
+<td><p>Número total de solicitudes de descarga de archivos completos o delta que se intentaron.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Contadores relacionados con el servicio de la libreta de direcciones</p></td>
-<td><p>Descarga de archivos de la libreta de direcciones.</p></td>
+<td><p>Contadores relacionados con el servicio de consulta Web de libreta de direcciones</p></td>
+<td><p>Descarga de archivos de la libreta de direcciones: contadores relacionados.</p></td>
 </tr>
 <tr class="even">
 <td><p>Intentos de llamadas de ABS WS</p></td>
-<td><p>Número total de solicitudes de servicio de consulta Web de la libreta de direcciones intentadas.</p></td>
+<td><p>Número total de solicitudes de servicio de consulta Web de libreta de direcciones que se intentaron.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Llamadas ABS WS correctas</p></td>
-<td><p>Número total de solicitudes de servicio de consulta Web de la libreta de direcciones que devolvieron un código de respuesta correcto.</p></td>
+<td><p>Llamadas de ABS WS correctas</p></td>
+<td><p>Número total de solicitudes de servicio de consulta Web de libreta de direcciones que devolvieron un código de respuesta correcto.</p></td>
 </tr>
 <tr class="even">
 <td><p>Error en las llamadas de ABS WS</p></td>
-<td><p>Número total de solicitudes de servicio de consulta Web de la libreta de direcciones que devolvieron un código de respuesta de error.</p></td>
+<td><p>Número total de solicitudes de servicio de consulta Web de libreta de direcciones que devolvieron un código de respuesta de error.</p></td>
 </tr>
 </tbody>
 </table>
@@ -193,14 +193,14 @@ Esta categoría incluye los contadores usados para supervisar las solicitudes de
 <tbody>
 <tr class="odd">
 <td><p>Llamadas intentadas</p></td>
-<td><p>Número total de solicitudes de servicio Web de expansión de la lista de distribución (DLX) intentadas.</p></td>
+<td><p>Número total de solicitudes de servicio Web de expansión de la lista de distribución (DLX) que se intentaron.</p></td>
 </tr>
 <tr class="even">
 <td><p>Llamadas correctas</p></td>
-<td><p>Número total de solicitudes de servicio Web de DLX que devolvieron un código de respuesta satisfactorio.</p></td>
+<td><p>Número total de solicitudes de servicio Web de DLX que devolvieron un código de respuesta correcto.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Error en las llamadas</p></td>
+<td><p>Llamadas fallidas</p></td>
 <td><p>Número total de solicitudes de servicio Web de DLX que devolvieron un código de respuesta de error.</p></td>
 </tr>
 </tbody>
@@ -209,7 +209,7 @@ Esta categoría incluye los contadores usados para supervisar las solicitudes de
 
 **Información básica de VoIP**
 
-Los contadores de rendimiento que aparecen a continuación indican números para todas las llamadas de voz a través de IP (VoIP), incluidas las llamadas a servidor de mediación, el servidor de conferencia a/V, el servidor perimetral, la aplicación de grupo de respuesta y el operador automático de conferencia, cuando se habilitan estos escenarios.
+Los contadores de rendimiento que se enumeran a continuación para todas las llamadas de voz sobre IP (VoIP), incluidas las llamadas a servidor de mediación, el servidor de conferencia A/V, el servidor perimetral, la aplicación de grupo de respuesta y el operador automático de conferencia, cuando estos escenarios están habilitados.
 
 
 <table>
@@ -230,18 +230,18 @@ Los contadores de rendimiento que aparecen a continuación indican números para
 </tr>
 <tr class="even">
 <td><p>Llamadas finalizadas</p></td>
-<td><p>Número total de llamadas de voz entrantes y salientes que ya han finalizado.</p></td>
+<td><p>Número total de llamadas de voz entrantes y salientes ya finalizadas.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Llamadas rechazadas</p></td>
 <td><p>Número total de llamadas de voz entrantes rechazadas.</p></td>
 </tr>
 <tr class="even">
-<td><p>Intentos de llamadas entrantes y salientes</p></td>
-<td><p>Número total de llamadas de voz entrantes y salientes intentadas.</p></td>
+<td><p>Intentos de llamadas entrantes o salientes</p></td>
+<td><p>Número total de llamadas de voz entrantes y salientes que se intentaron realizar.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Llamadas entrantes y salientes establecidas</p></td>
+<td><p>Llamadas entrantes/salientes establecidas</p></td>
 <td><p>Número total de llamadas de voz entrantes y salientes establecidas.</p></td>
 </tr>
 <tr class="even">
@@ -250,7 +250,7 @@ Los contadores de rendimiento que aparecen a continuación indican números para
 </tr>
 <tr class="odd">
 <td><p>Tasa de transferencia de VoIP (%)</p></td>
-<td><p>Llamadas totales establecidas/llamadas totales realizadas.</p></td>
+<td><p>Total de llamadas establecidas/total de llamadas intentadas.</p></td>
 </tr>
 </tbody>
 </table>
@@ -273,17 +273,17 @@ Los contadores de rendimiento que aparecen a continuación indican números para
 <tbody>
 <tr class="odd">
 <td><p>Llamadas activas</p></td>
-<td><p>Número total de llamadas activas a la aplicación de grupo de respuesta.</p></td>
+<td><p>Número total de llamadas activas a la aplicación del grupo de respuesta.</p></td>
 </tr>
 <tr class="even">
 <td><p>Llamadas intentadas</p></td>
-<td><p>Número total de intentos de llamada.</p></td>
+<td><p>Número total de intentos de llamadas.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Información de la llamada de mensajería instantánea (mi)**
+**Información de llamada de la mensajería instantánea (mi)**
 
 
 <table>
@@ -300,7 +300,7 @@ Los contadores de rendimiento que aparecen a continuación indican números para
 <tbody>
 <tr class="odd">
 <td><p>Llamadas activas</p></td>
-<td><p>Número total de llamadas entrantes y salientes de mensajería instantánea en curso.</p></td>
+<td><p>Número total de llamadas entrantes o salientes de mensajería instantánea en curso.</p></td>
 </tr>
 <tr class="even">
 <td><p>Llamadas finalizadas</p></td>
@@ -311,16 +311,16 @@ Los contadores de rendimiento que aparecen a continuación indican números para
 <td><p>Número total de los códigos de respuesta nnn recibidos desde el servidor.</p></td>
 </tr>
 <tr class="even">
-<td><p>Mensajes INSTANTÁNEos recibidos/enviados</p></td>
+<td><p>Mensajes de mensajería instantánea recibidos o enviados</p></td>
 <td><p>Número total de mensajes recibidos o enviados para todas las sesiones.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Intentos de llamadas entrantes y salientes</p></td>
-<td><p>Número total de intentos de llamadas entrantes y salientes de mensajes instantáneos.</p></td>
+<td><p>Intentos de llamadas entrantes o salientes</p></td>
+<td><p>Número total de llamadas entrantes o salientes de mensajería instantánea que se intentaron.</p></td>
 </tr>
 <tr class="even">
-<td><p>Llamadas entrantes y salientes establecidas</p></td>
-<td><p>Número total de llamadas de mensajes instantáneos entrantes o salientes que se han establecido.</p></td>
+<td><p>Llamadas entrantes/salientes establecidas</p></td>
+<td><p>Número total de llamadas entrantes o salientes de mensajes instantáneos establecidas.</p></td>
 </tr>
 </tbody>
 </table>
@@ -343,23 +343,23 @@ Los contadores de rendimiento que aparecen a continuación indican números para
 <tbody>
 <tr class="odd">
 <td><p>Llamadas activas</p></td>
-<td><p>Número total de llamadas de uso compartido de aplicaciones entrantes y salientes en curso.</p></td>
+<td><p>Número total de llamadas de uso compartido de aplicaciones entrantes o salientes en curso.</p></td>
 </tr>
 <tr class="even">
 <td><p>Llamadas finalizadas</p></td>
-<td><p>Número total de llamadas de uso compartido de aplicaciones entrantes o salientes que ya se han finalizado.</p></td>
+<td><p>Número total de llamadas entrantes o salientes de uso compartido de aplicaciones ya finalizadas.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Llamadas recibidas NNN</p></td>
 <td><p>Número total de los códigos de respuesta nnn recibidos desde el servidor.</p></td>
 </tr>
 <tr class="even">
-<td><p>Intentos de llamadas entrantes y salientes</p></td>
-<td><p>Número total de llamadas de uso compartido de aplicaciones entrantes o salientes.</p></td>
+<td><p>Intentos de llamadas entrantes o salientes</p></td>
+<td><p>Número total de llamadas de uso compartido de aplicaciones entrantes o salientes que se intentaron.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Llamadas entrantes y salientes establecidas</p></td>
-<td><p>Número total de llamadas de uso compartido de aplicaciones entrantes o salientes establecidas.</p></td>
+<td><p>Llamadas entrantes/salientes establecidas</p></td>
+<td><p>Número total de llamadas de uso compartido de aplicaciones entrantes/salientes establecidas.</p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -369,7 +369,7 @@ Los contadores de rendimiento que aparecen a continuación indican números para
 </table>
 
 
-**Información de la llamada de CAA**
+**Información de llamada de CAA**
 
 
 <table>
@@ -390,21 +390,21 @@ Los contadores de rendimiento que aparecen a continuación indican números para
 </tr>
 <tr class="even">
 <td><p>Llamadas finalizadas</p></td>
-<td><p>Número total de llamadas RTC entrantes y salientes que ya se han finalizado.</p></td>
+<td><p>Número total de llamadas RTC entrantes o salientes que ya han finalizado.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Intentos de llamadas entrantes y salientes</p></td>
-<td><p>Número total de intentos de llamadas RTC entrantes y salientes.</p></td>
+<td><p>Intentos de llamadas entrantes o salientes</p></td>
+<td><p>Número total de llamadas RTC entrantes o salientes que se intentaron.</p></td>
 </tr>
 <tr class="even">
-<td><p>Llamadas entrantes y salientes establecidas</p></td>
+<td><p>Llamadas entrantes/salientes establecidas</p></td>
 <td><p>Número total de llamadas RTC entrantes y salientes establecidas.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Información sobre la Conferencia**
+**Información de conferencia**
 
 
 <table>
@@ -425,7 +425,7 @@ Los contadores de rendimiento que aparecen a continuación indican números para
 </tr>
 <tr class="even">
 <td><p>Conferencias de audio y vídeo activas</p></td>
-<td><p>Número total de conferencias de audio o vídeo (A/V) en curso.</p></td>
+<td><p>Número total de conferencias de audio/vídeo (A/V) en curso.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Conferencias de uso compartido de aplicaciones activas</p></td>
@@ -436,7 +436,7 @@ Los contadores de rendimiento que aparecen a continuación indican números para
 <td><p>Número total de participantes actualmente conectados a conferencias.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Error de programación en Conferencia</p></td>
+<td><p>Error de programación de conferencia</p></td>
 <td><p>Número total de errores al intentar programar una conferencia.</p></td>
 </tr>
 <tr class="even">
@@ -463,11 +463,11 @@ Los contadores de rendimiento que aparecen a continuación indican números para
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Número total de combinaciones de IMMCU correctas</p></td>
-<td><p>Número total de conferencias de mensajería instantánea combinadas.</p></td>
+<td><p>Número total de combinaciones IMMCU correctas</p></td>
+<td><p>Número total de conferencias de mensajería instantánea Unidas.</p></td>
 </tr>
 <tr class="even">
-<td><p>Número total de combinaciones de DMCU correctas</p></td>
+<td><p>Número total de combinaciones DMCU correctas</p></td>
 <td><p>Número total de conferencias A/V combinadas.</p></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: registradores y cmdlets de directores'
+title: 'Lync Server 2013: los cmdlets de registrador y director'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183813
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5512b80d5860c94d379c5c5d43e51cdb8ac5177
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc457a8b37f515a85ff9de32ab8922e8dd6ac93b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746860"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050742"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,47 +37,47 @@ ms.locfileid: "41746860"
 
 _**Última modificación del tema:** 2012-10-09_
 
-Los registradores y los directores se usan para autenticar solicitudes de inicio de sesión y para mantener información sobre el estado y la disponibilidad del usuario. Los cmdlets de registrador y de director le permiten administrar los parámetros de configuración de estos servidores.
+Los registradores y los directores se usan para autenticar solicitudes de inicio de sesión y para mantener la información sobre la disponibilidad y el estado del usuario. Los cmdlets de registradores y directores permiten administrar las opciones de configuración de estos servidores.
 
 <div>
 
-## <a name="registrar-and-director-cmdlets"></a>Cmdlets de registrador y director
+## <a name="registrar-and-director-cmdlets"></a>Cmdlets de registradores y directores
 
-A continuación se muestra una lista de cmdlets que se relacionan directamente con la administración de registradores y directores:
+A continuación se presenta una lista de cmdlets directamente relacionados con la administración de los registradores y directores:
 
 **Registradores y directores**
 
   - <span></span>  
-    [Set-CsDirector](https://technet.microsoft.com/en-us/library/Gg398565(v=OCS.15))
+    [Set-CsDirector](https://technet.microsoft.com/library/Gg398565(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Reset-CsPoolRegistrarState](https://technet.microsoft.com/en-us/library/JJ619172(v=OCS.15))
+    [RESET-CsPoolRegistrarState](https://technet.microsoft.com/library/JJ619172(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsRegistrar](https://technet.microsoft.com/en-us/library/Gg398993(v=OCS.15))
+    [Set-CsRegistrar](https://technet.microsoft.com/library/Gg398993(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsRegistrarConfiguration](https://technet.microsoft.com/en-us/library/Gg398483(v=OCS.15))
+    [Get-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398483(v=OCS.15))
 
   - <span></span>  
-    [Nuevo: CsRegistrarConfiguration](https://technet.microsoft.com/en-us/library/Gg425893(v=OCS.15))
+    [New-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg425893(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsRegistrarConfiguration](https://technet.microsoft.com/en-us/library/Gg398482(v=OCS.15))
+    [Remove-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398482(v=OCS.15))
 
   - <span></span>  
-    [Set-CsRegistrarConfiguration](https://technet.microsoft.com/en-us/library/Gg398764(v=OCS.15))
+    [Set-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398764(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Prueba-CsRegistration](https://technet.microsoft.com/en-us/library/Gg412737(v=OCS.15))
+    [Test-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15))
 
 </div>
 

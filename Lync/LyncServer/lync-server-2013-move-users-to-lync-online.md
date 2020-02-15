@@ -12,16 +12,16 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da56c7230f35d2f900f51b53beef98c64d1e750a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f39f28a2a642a30621e7fd3fd9d8a1beea9a4e14
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756734"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050352"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,23 +37,23 @@ ms.locfileid: "41756734"
 
 _**Última modificación del tema:** 2014-05-29_
 
-Antes de empezar a migrar usuarios a Lync Online, debe realizar una copia de seguridad de los datos de usuario asociados a las cuentas que se van a mover. No todos los datos de usuario se mueven con la cuenta de usuario. Para obtener más información, vea [requisitos de copia de seguridad y restauración en Lync Server 2013: datos](lync-server-2013-backup-and-restoration-requirements-data.md).
+Antes de iniciar la migración de usuarios a Lync Online, debe hacer una copia de seguridad de los datos de usuario asociados con las cuentas que se van a mover. No todos los datos de usuario se mueven con la cuenta de usuario. Para obtener más información, vea [requisitos de copia de seguridad y restauración en Lync Server 2013: datos](lync-server-2013-backup-and-restoration-requirements-data.md).
 
 <div>
 
-## <a name="migrate-user-settings-to-lync-online"></a>Migrar la configuración de usuario a Lync Online
+## <a name="migrate-user-settings-to-lync-online"></a>Migrar la configuración del usuario a Lync Online
 
-La configuración de usuario se mueve con la cuenta de usuario. Algunos valores de configuración locales no se mueven con la cuenta de usuario.
+La configuración de usuario se mueve con la cuenta de usuario. Algunas configuraciones locales no se mueven con la cuenta de usuario.
 
 </div>
 
 <div>
 
-## <a name="moving-pilot-users-to-lync-online"></a>Mover los usuarios piloto a Lync Online
+## <a name="moving-pilot-users-to-lync-online"></a>Mover usuarios piloto a Lync Online
 
-Antes de empezar a mover usuarios a Lync Online, es posible que desee mover unos pocos usuarios piloto para confirmar que su entorno está configurado correctamente. Después, puede comprobar que las características y los servicios de Lync funcionan de la forma esperada antes de intentar mover usuarios adicionales.
+Antes de empezar a mover usuarios a Lync Online, es posible que desee mover algunos usuarios piloto para confirmar que el entorno está configurado correctamente. A continuación, puede comprobar que las características y servicios de Lync funcionan como se esperaba antes de intentar mover otros usuarios.
 
-Para mover un usuario local a su inquilino de Lync Online, ejecute los siguientes cmdlets en el shell de administración de Lync Server, con las credenciales de administrador para su inquilino de Microsoft Office 365. Sustituya “username@contoso.com” por la información del usuario que quiera mover.
+Para mover un usuario local a su inquilino de Lync Online, ejecute los siguientes cmdlets en el shell de administración de Lync Server, con las credenciales de administrador para su inquilino de Microsoft Office 365. Reemplace "username@contoso.com" por la información del usuario que desea mover.
 
    ```PowerShell
     $creds=Get-Credential
@@ -63,27 +63,27 @@ Para mover un usuario local a su inquilino de Lync Online, ejecute los siguiente
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 
-El formato de la dirección URL especificada para el parámetro **HostedMigrationOverrideUrl** debe ser la dirección URL del grupo en el que se está ejecutando el servicio de migración hospedada,\<en el\>siguiente formato: https://Pool FQDN/HostedMigration/hostedmigrationService.SVC.
+El formato de la dirección URL especificada para el parámetro **HostedMigrationOverrideUrl** debe ser la dirección URL del grupo en el que se está ejecutando el servicio de migración hospedado,\<en el\>siguiente formato: https://Grupo de FQDN/HostedMigration/hostedmigrationService.SVC.
 
-Para determinar la dirección URL al servicio de migración hospedado, vea la dirección URL del Panel de control de Lync Online para la cuenta del inquilino de Office 365.
+Para determinar la dirección URL del servicio de migración hospedado, vea la dirección URL del panel de control de Lync Online para su cuenta de inquilino de Office 365.
 
-**Para determinar la dirección URL al servicio de migración de hospedado de su inquilino Office 365**
+**Para determinar la dirección URL del servicio de migración hospedado de su inquilino de Office 365**
 
-1.  Inicie sesión en el inquilino de Office 365 como administrador.
+1.  Inicie sesión en su inquilino de Office 365 como administrador.
 
 2.  Abra el **centro de administración de Lync**.
 
-3.  Con el **centro de administración de Lync** mostrado, seleccione y copie la dirección URL en la barra de direcciones hasta **Lync.com**. Una dirección URL de ejemplo es muy similar a la siguiente:
+3.  Con el **centro de administración de Lync** mostrado, seleccione y copie la dirección URL en la barra de direcciones hasta **Lync.com**. Una dirección URL de ejemplo tiene un aspecto similar al siguiente:
     
     `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
 
-4.  Sustituya **webdir** en la dirección URL por **admin**. Quedará como a continuación:
+4.  Reemplace **webdir** en la dirección URL con **admin**, lo que dará como resultado lo siguiente:
     
     `https://admin0a.online.lync.com`
 
-5.  Anexe la cadena siguiente a la URL: **/MigraciónHospedada/ServicioDeMigraciónHospedada.svc**.
+5.  Anexe la cadena siguiente a la dirección URL: **/HostedMigration/hostedmigrationservice.SVC**.
     
-    La dirección URL resultante, que es el valor de **HostedMigrationOverrideUrl**, necesita ser como la siguiente:
+    La dirección URL resultante, que es el valor de **HostedMigrationOverrideUrl**, debe ser similar a la siguiente:
     
     `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
 
@@ -93,11 +93,11 @@ Para determinar la dirección URL al servicio de migración hospedado, vea la di
 
 ## <a name="moving-users-to-lync-online"></a>Mover usuarios a Lync Online
 
-Puede mover varios usuarios mediante el cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) con el parámetro – filter para seleccionar los usuarios con una propiedad específica asignada a las cuentas de usuario, como RegistrarPool. Después, puede canalizar los usuarios devueltos al cmdlet [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) , tal y como se muestra en el siguiente ejemplo.
+Puede mover varios usuarios mediante el cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) con el parámetro – filter para seleccionar los usuarios con una propiedad específica asignada a las cuentas de usuario, como RegistrarPool. A continuación, puede canalizar los usuarios devueltos al cmdlet [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) , como se muestra en el ejemplo siguiente.
 
     Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 
-También puede usar el parámetro –OU para recuperar todos los usuarios del OU especificado, tal como se muestra en el ejemplo siguiente.
+También puede usar el parámetro – OU para recuperar todos los usuarios de la unidad organizativa especificada, como se muestra en el ejemplo siguiente.
 
     Get-CsUser -OU "cn=hybridusers,cn=contoso.." | Move-CsUser -Target sipfed.online.lync.com -Credentials $creds -HostedMigrationOverrideUrl <URL>
 
@@ -105,11 +105,11 @@ También puede usar el parámetro –OU para recuperar todos los usuarios del OU
 
 <div>
 
-## <a name="verify-lync-online-user-settings-and-features"></a>Comprobar las características y la configuración de usuario de Lync Online
+## <a name="verify-lync-online-user-settings-and-features"></a>Compruebe las características y configuración de usuario de Lync Online
 
-Puede comprobar que el usuario se ha movido correctamente de las siguientes maneras:
+Puede comprobar que el usuario se ha movido con éxito de las siguientes maneras:
 
-  - Vea el estado del usuario en el panel de control de Lync Online. El indicador visual de los usuarios locales y los usuarios en línea es diferente.
+  - Vea el estado del usuario en el Panel de Control de Lync Online. El indicador visual de los usuarios locales y los usuarios en línea es diferente.
 
   - Ejecute el siguiente cmdlet:
     

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Seleccionar el servidor de administración central'
+title: 'Lync Server 2013: seleccionar el servidor de administración central'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aad97b0f2009b8f90fa64abc66791d5954c637a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7fa21b154b34dbc576291c34ac5239da6fb2d63
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732480"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="select-the-central-management-server-in-lync-server-2013"></a>Seleccionar el servidor de administración central en Lync Server 2013
+# <a name="select-the-central-management-server-in-lync-server-2013"></a>Seleccione el servidor de administración central en Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41732480"
 
 _**Última modificación del tema:** 2012-01-02_
 
-Para poder definir y configurar su topología, primero debe definir la ubicación para instalar el servidor de administración central.
+Para poder definir y configurar la topología, primero debe definir la ubicación para instalar el servidor de administración central.
 
 <div>
 
 
 > [!NOTE]  
-> Esto no tendrá efecto hasta que haya publicado una topología en Topology Builder. Para configurar el servidor de administración central antes de crear y publicar la topología, ejecute <STRONG>set-CSConfigurationStoreLocation</STRONG>.
+> Esto no tendrá efecto hasta que haya publicado una topología en el generador de topologías. Para establecer el servidor de administración central antes de que se cree y publique la topología, ejecute <STRONG>set-CSConfigurationStoreLocation</STRONG>.
 
 
 
@@ -53,11 +53,11 @@ Para poder definir y configurar su topología, primero debe definir la ubicació
 
 ## <a name="to-select-the-central-management-server"></a>Para seleccionar el servidor de administración central
 
-1.  Iniciar generador de topología: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topología de Lync Server**.
+1.  Inicie el generador de topologías: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topologías de Lync Server**.
 
-2.  Haga clic con el botón derecho en el nodo Lync Server 2013 y, a continuación, haga clic en **Editar propiedades**.
+2.  Haga clic con el botón secundario en el nodo Lync Server 2013 y, a continuación, haga clic en **Editar propiedades**.
 
-3.  En el panel servidor de administración central, seleccione el servidor front-end en el que se instalará el servidor de administración central y, a continuación, haga clic en **Aceptar**.
+3.  En el panel servidor de administración central, seleccione el servidor front-end en el que se va a instalar el servidor de administración central y, a continuación, haga clic en **Aceptar**.
 
 </div>
 

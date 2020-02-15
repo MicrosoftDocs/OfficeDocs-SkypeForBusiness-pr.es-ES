@@ -12,16 +12,16 @@ ms:contentKeyID: 63969617
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42ac03f61fca5717d279d39e703a8ffa97e8c2cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a5bd837bab2ca4323dd0fb2f4d29b31d653d37c8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756794"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047702"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,29 +37,29 @@ ms.locfileid: "41756794"
 
 _**Última modificación del tema:** 2015-01-26_
 
-Debe supervisar el rendimiento de todos los servidores y componentes de Lync Server 2013. Como es obvio, uno de los componentes más importantes es el propio sistema operativo. Lync Server 2013 admite ediciones x64 de:
+Debe supervisar el rendimiento de todos los servidores y componentes en el 2013 de Lync Server. Obviamente, uno de los componentes más importantes es el propio sistema operativo. Lync Server 2013 admite ediciones x64 de:
 
   - Windows Server 2008 R2
 
   - Windows Server 2012 y Windows Server 2012 R2
 
-La manera más transparente de supervisar un sistema operativo es mediante el módulo de administración de Windows Server Operating System. Proporciona los conceptos básicos de supervisión fundamentales, como el rendimiento, la salud y la disponibilidad para equipos que ejecutan Windows Server 2012, Windows Server 2012 R2 y Windows Server 2008 R2.
+La forma más transparente de supervisar un sistema operativo es mediante el módulo de administración del sistema operativo de Windows Server. Proporciona los conceptos básicos de supervisión fundamentales, como rendimiento, estado y disponibilidad para los equipos que ejecutan Windows Server 2012, Windows Server 2012 R2 y Windows Server 2008 R2.
 
-Al detectar, alertar y responder automáticamente a los eventos importantes y a los indicadores de rendimiento, estos módulos de administración reducen los tiempos de resolución de problemas y aumentan la disponibilidad general y el rendimiento de los sistemas que ejecutan Windows Server sistemas operativos.
+Al detectar, alertar y responder automáticamente a eventos importantes y indicadores de rendimiento, estos módulos de administración reducen los tiempos de resolución de problemas y aumentan la disponibilidad y el rendimiento generales de los sistemas que ejecutan Windows Server. sistemas operativos.
 
-Aparte de los paquetes de administración de Windows Server relevantes para System Center Operations Manager, se pueden usar las siguientes herramientas y recursos del sistema para supervisar el estado del sistema operativo (según la versión del sistema operativo).
+Aparte de los paquetes de administración de Windows Server relevantes para System Center Operations Manager, se pueden usar las siguientes herramientas y recursos del sistema para supervisar el estado del sistema operativo (en función de la versión del sistema operativo).
 
 <div>
 
 ## <a name="windows-server2008r2"></a>Windows Server 2008 R2
 
-Windows Server 2008 R2 incluye las siguientes características y herramientas adicionales para ayudar a los administradores a supervisar y administrar sistemas operativos:
+Windows Server 2008 R2 incluye las siguientes características y herramientas adicionales para ayudar a los administradores con la supervisión y administración básica del sistema operativo:
 
-  - El **Monitor de recursos de Windows** es una potente herramienta para entender el uso que los procesos y servicios hacen de los recursos del sistema. Además de supervisar este uso en tiempo real, el Monitor de recursos puede ayudar a analizar procesos que no responden, identificar las aplicaciones que usan archivos y controlar los procesos y servicios.
+  - El **monitor de recursos de Windows** es una herramienta eficaz para comprender cómo los procesos y servicios usan los recursos del sistema. Además de supervisar el uso de los recursos en tiempo real, el monitor de recursos puede ayudar a analizar los procesos que no responden, identificar qué aplicaciones usan los archivos y controlar los procesos y servicios.
 
-  - El **Componente de análisis de confiabilidad** es un agente integrado que proporciona información de experiencia detallada sobre el uso y la fiabilidad del sistema. Esta información se muestra mediante una interfaz WMI para hacerla disponible en sistemas de lectura portátil. Al mostrar el Componente de análisis de confiabilidad en una interfaz WMI, los desarrolladores pueden supervisar y analizar las aplicaciones, lo que aumenta la fiabilidad y el rendimiento.
+  - El **componente de análisis de confiabilidad** es un agente en el equipo que proporciona información detallada sobre el uso y la confiabilidad del sistema. Esta información se expone a través de una interfaz WMI para que esté disponible para su consumo por parte de los lectores portátiles. Al exponer el componente de análisis de confiabilidad a través de una interfaz WMI, los desarrolladores pueden supervisar y analizar aplicaciones, lo que aumenta la confiabilidad y el rendimiento.
 
-  - **Windows Server 2008 R2** usa el componente de análisis de confiabilidad integrado para calcular un índice de confiabilidad, que proporciona información sobre el uso y la estabilidad generales del sistema a lo largo del tiempo. The Reliability Analysis Component also keeps track of any important changes to the system that are likely to influence stability, such as Windows updates and application installations.
+  - **Windows Server 2008 R2** utiliza el componente de análisis de confiabilidad integrado para calcular un índice de confiabilidad, que proporciona información sobre el uso y la estabilidad generales del sistema a lo largo del tiempo. El componente de análisis de confiabilidad también realiza un seguimiento de cualquier cambio importante en el sistema que pueda afectar a la estabilidad, como las actualizaciones de Windows y las instalaciones de aplicaciones.
 
 </div>
 
@@ -67,9 +67,9 @@ Windows Server 2008 R2 incluye las siguientes características y herramientas ad
 
 ## <a name="windows-server2008-windows-reliability-and-performance-monitor"></a>Monitor de confiabilidad y rendimiento de Windows Server 2008
 
-El Monitor de confiabilidad y rendimiento de Windows es un componente MMC que combina la funcionalidad de anteriores herramientas independientes, como Registros y alertas de rendimiento, Asesor de rendimiento de servidor y Monitor del sistema. Ofrece una interfaz gráfica para personalizar la obtención de datos y las sesiones de seguimiento de eventos.
+El monitor de confiabilidad y rendimiento de Windows es un complemento MMC que combina la funcionalidad de herramientas independientes anteriores, como registros y alertas de rendimiento, asesor de rendimiento del servidor y monitor del sistema. Proporciona una interfaz gráfica para la personalización de sesiones de seguimiento de eventos y recopilación de datos de rendimiento.
 
-También incluye el Monitor de confiabilidad, un componente MMC que hace un seguimiento de los cambios del sistema y los compara con los cambios en la estabilidad del mismo, ofreciendo una vista gráfica de la relación.
+También incluye el monitor de confiabilidad, un complemento de MMC que realiza un seguimiento de los cambios en el sistema y los compara con los cambios en la estabilidad del sistema, y proporciona una vista gráfica de su relación.
 
 </div>
 
@@ -77,7 +77,7 @@ También incluye el Monitor de confiabilidad, un componente MMC que hace un segu
 
 ## <a name="windows-reliability-and-performance-monitor"></a>Monitor de confiabilidad y rendimiento de Windows
 
-Mientras que el monitor de confiabilidad y rendimiento de Windows combina funcionalidades de algunas herramientas independientes, como registros y alertas de rendimiento, y el monitor de sistema y el rendimiento del servidor, también proporciona una nueva funcionalidad a Windows Server 2008 y Windows Server 2008 R2, como el siguiente:
+Mientras que el monitor de confiabilidad y rendimiento de Windows combina funcionalidades de algunas herramientas independientes anteriores, como registros y alertas de rendimiento, y el monitor del sistema y el asesor de rendimiento del servidor, también proporciona funcionalidad nueva a Windows Server 2008 y Windows Server 2008 R2, como el siguiente:
 
   - Conjuntos de recopiladores de datos
 
@@ -85,15 +85,15 @@ Mientras que el monitor de confiabilidad y rendimiento de Windows combina funcio
 
   - Monitor de confiabilidad
 
-  - Asistentes y plantillas de creación de registros
+  - Asistentes y plantillas para crear registros
 
-Un **conjunto de recopiladores de datos** agrupa estos recopiladores en elementos reutilizables para su uso con distintos entornos de supervisión del rendimiento. Cuando un grupo se guarda como conjunto de recopiladores de datos, con solo cambiar una propiedad es posible aplicar al conjunto entero operaciones tales como la programación. El Monitor de confiabilidad y rendimiento de Windows incluye plantillas predeterminadas de conjuntos de recopiladores de datos para ayudar a los administradores del sistema a comenzar de inmediato a recopilar datos de rendimiento de un rol de servidor o un entorno de supervisión específicos.
+El **conjunto de recopiladores de datos** agrupa los recopiladores de datos en elementos reutilizables para su uso con diferentes escenarios de supervisión de rendimiento. Una vez que se almacena un grupo de recopiladores de datos como un conjunto de recopiladores de datos, se pueden aplicar operaciones como la programación a todo el conjunto mediante un único cambio de propiedad. El monitor de confiabilidad y rendimiento de Windows incluye plantillas predeterminadas de conjunto de recopiladores de datos para ayudar a los administradores de sistema a recopilar inmediatamente datos de rendimiento específicos de un rol de servidor o un escenario de supervisión.
 
-La página de inicio del Monitor de confiabilidad y rendimiento de Windows es la nueva pantalla **Vista de recursos**, que proporciona una imagen gráfica y en tiempo real del uso de CPU, discos, red y memoria. Los administradores del sistema pueden expandir cada uno de estos elementos para identificar qué recursos emplea cada proceso. En versiones anteriores de Windows, estos datos en tiempo real de procesos concretos solo estaban disponibles, y de forma limitada, desde el Administrador de tareas.
+La Página principal del monitor de confiabilidad y rendimiento de Windows es la nueva pantalla **vista de recursos** , que proporciona una introducción gráfica en tiempo real del uso de la CPU, el disco, la red y la memoria. Expandiendo cada uno de estos elementos supervisados, los administradores del sistema pueden identificar qué recursos usan qué recursos. En versiones anteriores de Windows, estos datos en tiempo real y específicos del proceso solo estaban disponibles en un formulario limitado en el administrador de tareas.
 
-El **Monitor de confiabilidad** calcula un índice de estabilidad que refleja si alguna incidencia inesperada ha reducido la fiabilidad del sistema. Un gráfico del índice a lo largo del tiempo identifica rápidamente el momento en que comenzaron a producirse incidencias. El informe de estabilidad del sistema proporciona detalles que ayudan a determinar la causa de la pérdida de fiabilidad. Ver los cambios producidos (instalación o eliminación de aplicaciones, actualizaciones del sistema operativo o agregación o modificación de controladores) junto a los errores (errores de aplicaciones, bloqueos del sistema operativo o errores de hardware) permite desarrollar rápidamente una estrategia para abordar las incidencias.
+El **monitor de confiabilidad** calcula un índice de estabilidad del sistema que refleja si los problemas inesperados han reducido la confiabilidad del sistema. Un gráfico del índice de estabilidad a lo largo del tiempo identifica rápidamente las fechas en las que comenzaron a producirse los problemas. El informe de estabilidad del sistema adjunto proporciona detalles para ayudar a solucionar la causa de la menor confiabilidad. Mediante la visualización de los cambios en el sistema (instalación o eliminación de aplicaciones, actualizaciones del sistema operativo o adición o modificación de controladores) en paralelo con los errores (errores de aplicaciones, bloqueos del sistema operativo o errores de hardware), una estrategia para el direccionamiento de los problemas se puede desarrollar rápidamente.
 
-Una **interfaz de asistente** permite ahora agregar contadores a archivos de registro y programar su inicio, finalización y duración. Además, los administradores del sistema pueden guardar esta configuración como plantilla para recopilar el mismo registro en otro equipo sin necesidad de repetir la selección de recopiladores de datos y la programación de procesos. En el Monitor de confiabilidad y rendimiento de Windows si incorporaron características de Registros y alertas de rendimiento para su uso con cualquier conjunto de recopiladores de datos.
+La adición de contadores a los archivos de registro y la programación de inicio, detención y duración se pueden realizar ahora a través de una **interfaz de asistente**. Además, si se guarda esta configuración como una plantilla, los administradores del sistema pueden recopilar el mismo registro en otros equipos sin repetir los procesos de programación y selección del recopilador de datos. Las características de registros y alertas de rendimiento se incorporaron en el monitor de confiabilidad y rendimiento de Windows para su uso con cualquier conjunto de recopiladores de datos.
 
 </div>
 

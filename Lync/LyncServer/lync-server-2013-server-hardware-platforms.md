@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Plataformas de hardware de servidor'
+title: Plataformas de hardware de servidor de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185395
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95c8b0e9b1e13d845672cff07d30b7f2ac1a5b22
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e352153e4cc2386a159ac11f27f8ba4f5beb09f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764878"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048671"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41764878"
 
 _**Última modificación del tema:** 2016-07-28_
 
-Los roles de servidor de Lync Server 2013 y los equipos que ejecutan las herramientas administrativas de Lync Server requieren hardware de 64 bits.
+Los roles de servidor de Lync Server 2013 y los equipos que ejecutan herramientas administrativas de Lync Server requieren hardware de 64 bits.
 
 El hardware específico que se usa para la implementación de Lync Server 2013 puede variar en función de los requisitos de tamaño y uso. En esta sección se describe el hardware recomendado. Aunque se trata de recomendaciones y no de requisitos, el uso de hardware que no cumpla estas recomendaciones puede repercutir considerablemente en el rendimiento y ocasionar otros problemas.
 
@@ -45,19 +45,19 @@ El hardware específico que se usa para la implementación de Lync Server 2013 p
 
 ## <a name="recommended-hardware-platform"></a>Plataforma de hardware recomendada
 
-Para obtener un rendimiento óptimo, le recomendamos que ejecute Lync Server en servidores con hardware que cumpla los requisitos de la tabla siguiente. Si usa un hardware menos eficaz, puede tener problemas de funcionalidad o un rendimiento deficiente. Tenga en cuenta que estos requisitos de hardware son superiores a los de las versiones anteriores de Lync Server, principalmente porque en Lync Server 2013, todos los servidores front-end ejecutan SQL Server.
+Para obtener el mejor rendimiento, se recomienda ejecutar Lync Server en servidores con hardware que cumpla los requisitos de la tabla siguiente. Si usa un hardware menos eficaz, puede tener problemas de funcionalidad o un rendimiento deficiente. Tenga en cuenta que estos requisitos de hardware son superiores a los de las versiones anteriores de Lync Server, principalmente porque en Lync Server 2013, todos los servidores front-end ejecutan SQL Server.
 
 <div>
 
 
 > [!NOTE]  
-> La formación de equipos NIC es compatible y debe ser transparente para Lync Server. Para obtener más información, consulte <A href="http://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server o Lync Server y la formación de equipos de adaptadores de red</A>.
+> La formación de equipos NIC es compatible y debe ser transparente para Lync Server. Para obtener más información, consulte <A href="http://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server o Lync Server y equipos de adaptadores de red</A>.
 
 
 
 </div>
 
-### <a name="recommended-hardware-for-front-end-servers-back-end-servers-standard-edition-servers-persistent-chat-servers-and-persistent-chat-store-and-persistent-chat-compliance-store-back-end-server-roles-for-persistent-chat-server"></a>Hardware recomendado para los servidores front-end, back-end, Standard Edition, de chat persistente y para el Almacén de chat persistente y el Almacén de cumplimiento de chat persistente (roles de servidor back-end del servidor de chat persistente)
+### <a name="recommended-hardware-for-front-end-servers-back-end-servers-standard-edition-servers-persistent-chat-servers-and-persistent-chat-store-and-persistent-chat-compliance-store-back-end-server-roles-for-persistent-chat-server"></a>Hardware recomendado para los servidores front-end, los servidores back-end, los servidores Standard Edition, los servidores de chat persistentes, el almacén de chat persistente y el almacén de cumplimiento de chat persistente (roles de servidor back-end para el servidor de chat persistente)
 
 <table>
 <colgroup>
@@ -73,8 +73,8 @@ Para obtener un rendimiento óptimo, le recomendamos que ejecute Lync Server en 
 <tbody>
 <tr class="odd">
 <td><p>CPU</p></td>
-<td><p>Procesador dual de 64 bits, seis núcleos y 2,26 gigahercios (GHz) o superior.</p>
-<p>Los procesadores Intel Itanium no son compatibles con los roles de servidor de Lync Server.</p></td>
+<td><p>procesador dual de 64 bits, HEX-Core, 2,26 gigahercios (GHz) o superior.</p>
+<p>Los roles de servidor de Lync Server no admiten los procesadores Intel Itanium.</p></td>
 </tr>
 <tr class="even">
 <td><p>Memoria</p></td>
@@ -83,20 +83,20 @@ Para obtener un rendimiento óptimo, le recomendamos que ejecute Lync Server en 
 <tr class="odd">
 <td><p>Disco</p></td>
 <td><ul>
-<li><p>8 o más unidades de disco duro (HHD) de 10 000 RPM con al menos 72 GB de espacio libre en disco.</p>
+<li><p>8 o más unidades de disco duro (HHD) de 10.000 RPM con al menos 72 GB de espacio libre en disco.</p>
 <p>Dos de los discos deben usar RAID 1 y seis deben usar RAID 10.</p>
-<p>-Ni</p></li>
-<li><p>Unidades de estado sólido (SSD) con un rendimiento igual al de 8 unidades de disco duro mecánicas de 10.000 rpm.</p></li>
+<p>-O</p></li>
+<li><p>Unidades de estado sólido (SSD) con rendimiento igual al de 8 unidades de disco mecánicas de 10.000 rpm.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Red</p></td>
 <td><ul>
-<li><p>1 adaptador de red de puerto doble, 1 Gbps o superior (recomendado: 2, lo que requiere la formación de equipos con una sola dirección MAC y una sola dirección IP).</p>
+<li><p>1 adaptador de red de puerto dual, 1 Gbps o superior (2 recomendado, que requiere la formación de equipos con una sola dirección MAC y una sola dirección IP).</p>
 <div>
 
 > [!NOTE]  
-> Las configuraciones dual o multitarjeta no son compatibles con los servidores front-end, los servidores de back-end, los servidores Standard Edition y los servidores de chat persistentes.<BR>ILO/DRAC/etc. las conexiones que no se exponen al sistema operativo y se usan para supervisar y administrar el hardware del servidor no constituyen un servidor multitarjeta y, por lo tanto, son compatibles.
+> No se admiten las configuraciones dual o multitarjeta para los servidores front-end, los servidores back-end, los servidores Standard Edition y los servidores de chat persistente.<BR>ILO/DRAC/etc. las conexiones que no se exponen al sistema operativo y que se usan para supervisar y administrar el hardware del servidor no constituyen un servidor de host múltiple y, por lo tanto, son compatibles.
 
 
 </div></li>
@@ -123,11 +123,11 @@ Para obtener un rendimiento óptimo, le recomendamos que ejecute Lync Server en 
 <tr class="odd">
 <td><p>CPU</p></td>
 <td><ul>
-<li><p>procesador dual de 64 bits, núcleo cuádruple, 2,0 gigahercios (GHz) o superior.</p>
-<p>-Ni</p></li>
-<li><p>procesador de 4 bits de 64, doble núcleo, 2,0 GHz o superior.</p></li>
+<li><p>procesador dual de 64 bits, cuatro núcleos, 2,0 gigahercios (GHz) o superior.</p>
+<p>-O</p></li>
+<li><p>procesador de 4 vías de 64 bits, de doble núcleo, de 2,0 GHz o superior.</p></li>
 </ul>
-<p>Los procesadores Intel Itanium no son compatibles con los roles de servidor de Lync Server.</p></td>
+<p>Los roles de servidor de Lync Server no admiten los procesadores Intel Itanium.</p></td>
 </tr>
 <tr class="even">
 <td><p>Memoria</p></td>
@@ -136,26 +136,26 @@ Para obtener un rendimiento óptimo, le recomendamos que ejecute Lync Server en 
 <tr class="odd">
 <td><p>Disco</p></td>
 <td><ul>
-<li><p>4 unidades de disco duro de 10.000 RPM con un mínimo de 72 GB de espacio libre en disco.</p>
-<p>Los discos deben presentar una configuración de 2 unidades RAID 1.</p>
-<p>-Ni</p></li>
-<li><p>Unidades de estado sólido (SSD) con un rendimiento igual al de 4 unidades de disco duro mecánicas de 10 000 rpm.</p></li>
+<li><p>4 o más unidades de disco duro de 10.000 RPM con al menos 72 GB de espacio libre en disco.</p>
+<p>Los discos deben estar en una configuración RAID 1 2x.</p>
+<p>-O</p></li>
+<li><p>Unidades de estado sólido (SSD) con un rendimiento igual al de 4 unidades de disco duro mecánicas de 10.000 rpm.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Red</p></td>
 <td><ul>
-<li><p>1 adaptador de red de puerto doble, 1 Gbps o superior (recomendado: 2, lo que requiere la formación de equipos con una sola dirección MAC y una sola dirección IP). en los servidores perimetrales se necesitan dos interfaces de red y se admiten en servidores de mediación independientes.</p></li>
+<li><p>1 adaptador de red de puerto dual, 1 Gbps o superior (2 recomendado, que requiere la formación de equipos con una sola dirección MAC y una sola dirección IP). 2 las interfaces de red son necesarias en los servidores perimetrales y son compatibles con los servidores de mediación independientes.</p></li>
 </ul>
 <div>
 
 > [!NOTE]  
-> Las configuraciones dual o multitarjeta no son compatibles con los directores.<BR>ILO/DRAC/etc. las conexiones que no se exponen al sistema operativo y se usan para supervisar y administrar el hardware del servidor no constituyen un servidor multitarjeta y, por lo tanto, son compatibles.
+> Las configuraciones dual o multitarjeta no son compatibles con los directores.<BR>ILO/DRAC/etc. las conexiones que no se exponen al sistema operativo y que se usan para supervisar y administrar el hardware del servidor no constituyen un servidor de host múltiple y, por lo tanto, son compatibles.
 
 
 </div>
-<p>Los servidores perimetrales requerirán dos interfaces de red que sean adaptadores de red de dos puertos, 1 Gbps o superior (o dos adaptadores de red con dos pares, para un total de cuatro, cada pareja se acoplará con una única dirección MAC y una única dirección IP, para un total de dos pares).</p>
-<p>La instalación de tarjetas de interfaz de red (NICs) adicionales para permitir la configuración de una dirección IP de RTC específica es compatible con servidores de mediación independiente.</p></td>
+<p>Los servidores perimetrales requerirán dos interfaces de red que sean adaptadores de red de puerto dual, 1 Gbps o superior (o dos adaptadores de red emparejados, para un total de cuatro, cada par se integra con una sola dirección MAC y una sola dirección IP, para un total de dos pares).</p>
+<p>Se admite la instalación de tarjetas de interfaz de red (NIC) adicionales para permitir la configuración de una dirección IP de RTC específica en los servidores de mediación independientes.</p></td>
 </tr>
 </tbody>
 </table>
