@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Solucionar problemas de configuración de servidores de chat persistentes mediante los cmdlets de Windows PowerShell'
+title: 'Lync Server 2013: solución de problemas de la configuración del servidor de chat persistente mediante cmdlets de Windows PowerShell'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba5420fb06a0c69d94ec7cf5183cba61bb8e72b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dff2cf4fb11c04a59baa54db88b5cb90c738fa31
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745010"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028891"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets-in-lync-server-2013"></a><span data-ttu-id="79deb-102">Solucionar problemas de configuración de servidores de chat persistentes mediante los cmdlets de Windows PowerShell en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="79deb-102">Troubleshooting Persistent Chat Server configuration using Windows PowerShell cmdlets in Lync Server 2013</span></span>
+# <a name="troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets-in-lync-server-2013"></a><span data-ttu-id="80185-102">Solución de problemas de configuración de servidores de chat persistentes mediante los cmdlets de Windows PowerShell en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="80185-102">Troubleshooting Persistent Chat Server configuration using Windows PowerShell cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41745010"
 
 <span> </span>
 
-<span data-ttu-id="79deb-103">_**Última modificación del tema:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="79deb-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="80185-103">_**Última modificación del tema:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="80185-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="79deb-104">Use las siguientes soluciones para resolver problemas de configuración del servidor de chat persistente con cmdlets de la interfaz de línea de comandos de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="79deb-104">Use the following workarounds to resolve Persistent Chat Server configuration issues with Windows PowerShell command-line interface cmdlets.</span></span>
+<span data-ttu-id="80185-104">Use las siguientes soluciones para resolver problemas de configuración del servidor de chat persistente con cmdlets de la interfaz de línea de comandos de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="80185-104">Use the following workarounds to resolve Persistent Chat Server configuration issues with Windows PowerShell command-line interface cmdlets.</span></span>
 
-  - <span data-ttu-id="79deb-105">Si aparece el mensaje de error "principal no aprovisionado", la entidad de identidad que intentó agregar no está disponible.</span><span class="sxs-lookup"><span data-stu-id="79deb-105">If the "principal not provisioned" error message appears, the principal that you tried to add is not available.</span></span>
+  - <span data-ttu-id="80185-105">Si aparece el mensaje de error “principal not provisioned” (entidad de seguridad no aprovisionada), la entidad de seguridad que intentó añadir no está disponible.</span><span class="sxs-lookup"><span data-stu-id="80185-105">If the "principal not provisioned" error message appears, the principal that you tried to add is not available.</span></span>
     
     <div>
     
 
     > [!TIP]  
-    > <span data-ttu-id="79deb-106">Solución alternativa: no hay solución.</span><span class="sxs-lookup"><span data-stu-id="79deb-106">Workaround — No workaround.</span></span> <span data-ttu-id="79deb-107">Este mensaje de error significa que el principal no está disponible.</span><span class="sxs-lookup"><span data-stu-id="79deb-107">This error message means that the principal is not available.</span></span>
+    > <span data-ttu-id="80185-p101">Solución alternativa – Sin solución alternativa. Este mensaje de error significa que la entidad de seguridad no está disponible.</span><span class="sxs-lookup"><span data-stu-id="80185-p101">Workaround — No workaround. This error message means that the principal is not available.</span></span>
 
     
     </div>

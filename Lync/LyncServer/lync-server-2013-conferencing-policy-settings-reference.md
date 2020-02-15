@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: referencia de configuración de directiva de conferencia'
+title: 'Lync Server 2013: referencia de configuración de la Directiva de conferencia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185737
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9705a56a2167e0afc5e950c387e0f99b15deed1c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b71989b2dcc5dba8de877230d33133d88b95b221
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741440"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028841"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conferencing-policy-settings-reference-for-lync-server-2013"></a><span data-ttu-id="ec60c-102">Referencia de configuración de directiva de conferencia para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ec60c-102">Conferencing policy settings reference for Lync Server 2013</span></span>
+# <a name="conferencing-policy-settings-reference-for-lync-server-2013"></a><span data-ttu-id="a65ae-102">Referencia de configuración de directiva de conferencia para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a65ae-102">Conferencing policy settings reference for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741440"
 
 <span> </span>
 
-<span data-ttu-id="ec60c-103">_**Última modificación del tema:** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="ec60c-103">_**Topic Last Modified:** 2014-04-22_</span></span>
+<span data-ttu-id="a65ae-103">_**Última modificación del tema:** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="a65ae-103">_**Topic Last Modified:** 2014-04-22_</span></span>
 
-<span data-ttu-id="ec60c-104">Para obtener la lista más actualizada de la configuración de directiva de conferencias, vea el tema de ayuda sobre el cmdlet [set-ClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) .</span><span class="sxs-lookup"><span data-stu-id="ec60c-104">For the most up-to-date list of conferencing policy settings see the help topic for the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) cmdlet.</span></span>
+<span data-ttu-id="a65ae-104">Para obtener la lista más actualizada de la configuración de la Directiva de conferencia, consulte el tema de ayuda del cmdlet [set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) .</span><span class="sxs-lookup"><span data-stu-id="a65ae-104">For the most up-to-date list of conferencing policy settings see the help topic for the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) cmdlet.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183366
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b1b5096c087661bf5afadd2668d6d1bb7ac8330
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1f733397483693ad4c18418f3e82b9f99cfa640f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731570"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tbladcookie-in-lync-server-2013"></a><span data-ttu-id="05989-102">tblADCookie en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05989-102">tblADCookie in Lync Server 2013</span></span>
+# <a name="tbladcookie-in-lync-server-2013"></a><span data-ttu-id="a5c02-102">tblADCookie en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a5c02-102">tblADCookie in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731570"
 
 <span> </span>
 
-<span data-ttu-id="05989-103">_**Última modificación del tema:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="05989-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+<span data-ttu-id="a5c02-103">_**Última modificación del tema:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="a5c02-103">_**Topic Last Modified:** 2012-06-25_</span></span>
 
-<span data-ttu-id="05989-104">tblADCookie contiene las cookies de sincronización LDAP (Protocolo ligero de acceso a directorios) actuales.</span><span class="sxs-lookup"><span data-stu-id="05989-104">tblADCookie contains the current Lightweight Directory Access Protocol (LDAP) Sync cookies.</span></span>
+<span data-ttu-id="a5c02-104">tblADCookie contiene las cookies actuales de sincronización del Protocolo ligero de acceso a directorios (LDAP).</span><span class="sxs-lookup"><span data-stu-id="a5c02-104">tblADCookie contains the current Lightweight Directory Access Protocol (LDAP) Sync cookies.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="05989-105">Columnas</span><span class="sxs-lookup"><span data-stu-id="05989-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="a5c02-105">Columns</span><span class="sxs-lookup"><span data-stu-id="a5c02-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,42 +49,42 @@ ms.locfileid: "41731570"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="05989-106">Columna</span><span class="sxs-lookup"><span data-stu-id="05989-106">Column</span></span></th>
-<th><span data-ttu-id="05989-107">Tipo</span><span class="sxs-lookup"><span data-stu-id="05989-107">Type</span></span></th>
-<th><span data-ttu-id="05989-108">Descripción</span><span class="sxs-lookup"><span data-stu-id="05989-108">Description</span></span></th>
+<th><span data-ttu-id="a5c02-106">Columna</span><span class="sxs-lookup"><span data-stu-id="a5c02-106">Column</span></span></th>
+<th><span data-ttu-id="a5c02-107">Tipo</span><span class="sxs-lookup"><span data-stu-id="a5c02-107">Type</span></span></th>
+<th><span data-ttu-id="a5c02-108">Descripción</span><span class="sxs-lookup"><span data-stu-id="a5c02-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="05989-109">prinGuid</span><span class="sxs-lookup"><span data-stu-id="05989-109">prinGuid</span></span></p></td>
-<td><p><span data-ttu-id="05989-110">GUID, not null</span><span class="sxs-lookup"><span data-stu-id="05989-110">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="05989-111">GUID principal del dominio que se está supervisando.</span><span class="sxs-lookup"><span data-stu-id="05989-111">Principal GUID of the domain being monitored.</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-109">prinGuid</span><span class="sxs-lookup"><span data-stu-id="a5c02-109">prinGuid</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-110">GUID, no NULL</span><span class="sxs-lookup"><span data-stu-id="a5c02-110">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-111">GUID de entidad de seguridad del dominio supervisado.</span><span class="sxs-lookup"><span data-stu-id="a5c02-111">Principal GUID of the domain being monitored.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="05989-112">prinDCHost</span><span class="sxs-lookup"><span data-stu-id="05989-112">prinDCHost</span></span></p></td>
-<td><p><span data-ttu-id="05989-113">nvarchar (255)</span><span class="sxs-lookup"><span data-stu-id="05989-113">nvarchar (255)</span></span></p></td>
-<td><p><span data-ttu-id="05989-114">Nombre de dominio completo (FQDN) del controlador de dominio actual usado para la sincronización de servicios de dominio de Active Directory. Tiene valor informativo.</span><span class="sxs-lookup"><span data-stu-id="05989-114">Fully qualified domain name (FQDN) of the current domain controller used for Active Directory Domain Services Sync. Has informational value.</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-112">prinDCHost</span><span class="sxs-lookup"><span data-stu-id="a5c02-112">prinDCHost</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-113">nvarchar (255)</span><span class="sxs-lookup"><span data-stu-id="a5c02-113">nvarchar (255)</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-114">Nombre de dominio completo (FQDN) del controlador de dominio actual usado para la sincronización de servicios de dominio de Active Directory. Tiene un valor informativo.</span><span class="sxs-lookup"><span data-stu-id="a5c02-114">Fully qualified domain name (FQDN) of the current domain controller used for Active Directory Domain Services Sync. Has informational value.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="05989-115">adcContent</span><span class="sxs-lookup"><span data-stu-id="05989-115">adcContent</span></span></p></td>
-<td><p><span data-ttu-id="05989-116">imagen (binario)</span><span class="sxs-lookup"><span data-stu-id="05989-116">image (binary)</span></span></p></td>
-<td><p><span data-ttu-id="05989-117">Cookie de sincronización de Active Directory.</span><span class="sxs-lookup"><span data-stu-id="05989-117">Active Directory Sync cookie.</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-115">adcContent</span><span class="sxs-lookup"><span data-stu-id="a5c02-115">adcContent</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-116">imagen (binario)</span><span class="sxs-lookup"><span data-stu-id="a5c02-116">image (binary)</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-117">Cookie de sincronización de Active Directory.</span><span class="sxs-lookup"><span data-stu-id="a5c02-117">Active Directory Sync cookie.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="05989-118">lastUpdated</span><span class="sxs-lookup"><span data-stu-id="05989-118">lastUpdated</span></span></p></td>
-<td><p><span data-ttu-id="05989-119">datetime</span><span class="sxs-lookup"><span data-stu-id="05989-119">datetime</span></span></p></td>
-<td><p><span data-ttu-id="05989-120">Marca de tiempo con la hora de actualización de la fila.</span><span class="sxs-lookup"><span data-stu-id="05989-120">Time stamp with the row update time.</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-118">lastUpdated</span><span class="sxs-lookup"><span data-stu-id="a5c02-118">lastUpdated</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-119">datetime</span><span class="sxs-lookup"><span data-stu-id="a5c02-119">datetime</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-120">Marca de tiempo con la hora de actualización de la fila.</span><span class="sxs-lookup"><span data-stu-id="a5c02-120">Time stamp with the row update time.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="05989-121">lockedUntil</span><span class="sxs-lookup"><span data-stu-id="05989-121">lockedUntil</span></span></p></td>
-<td><p><span data-ttu-id="05989-122">datetime</span><span class="sxs-lookup"><span data-stu-id="05989-122">datetime</span></span></p></td>
-<td><p><span data-ttu-id="05989-123">Tiempo hasta que se bloquean los cambios en la fila.</span><span class="sxs-lookup"><span data-stu-id="05989-123">Time until the row is locked for changes.</span></span> <span data-ttu-id="05989-124">Esto forma parte de un mecanismo de interbloqueo de software que garantiza que solo uno de los servicios de chat realiza la sincronización de Active Directory a la vez.</span><span class="sxs-lookup"><span data-stu-id="05989-124">This is part of a software interlock mechanism that ensures that only one of the chat services does the Active Directory Sync at a time.</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-121">lockedUntil</span><span class="sxs-lookup"><span data-stu-id="a5c02-121">lockedUntil</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-122">datetime</span><span class="sxs-lookup"><span data-stu-id="a5c02-122">datetime</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-p101">Fecha/hora en que finalizará el bloqueo de la fila para efectuar cambios. Esto forma parte del mecanismo de bloqueo de software que garantiza que solo uno de los servicios de chat realice una sincronización de Active Directory por vez.</span><span class="sxs-lookup"><span data-stu-id="a5c02-p101">Time until the row is locked for changes. This is part of a software interlock mechanism that ensures that only one of the chat services does the Active Directory Sync at a time.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="05989-125">Sus</span><span class="sxs-lookup"><span data-stu-id="05989-125">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="a5c02-125">Keys</span><span class="sxs-lookup"><span data-stu-id="a5c02-125">Keys</span></span>
 
 <table>
 <colgroup>
@@ -93,18 +93,18 @@ ms.locfileid: "41731570"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="05989-126">Columna (s)</span><span class="sxs-lookup"><span data-stu-id="05989-126">Column(s)</span></span></th>
-<th><span data-ttu-id="05989-127">Descripción</span><span class="sxs-lookup"><span data-stu-id="05989-127">Description</span></span></th>
+<th><span data-ttu-id="a5c02-126">Columna (s)</span><span class="sxs-lookup"><span data-stu-id="a5c02-126">Column(s)</span></span></th>
+<th><span data-ttu-id="a5c02-127">Descripción</span><span class="sxs-lookup"><span data-stu-id="a5c02-127">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="05989-128">prinGuid</span><span class="sxs-lookup"><span data-stu-id="05989-128">prinGuid</span></span></p></td>
-<td><p><span data-ttu-id="05989-129">Clave principal.</span><span class="sxs-lookup"><span data-stu-id="05989-129">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-128">prinGuid</span><span class="sxs-lookup"><span data-stu-id="a5c02-128">prinGuid</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-129">Clave principal.</span><span class="sxs-lookup"><span data-stu-id="a5c02-129">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="05989-130">prinGuid</span><span class="sxs-lookup"><span data-stu-id="05989-130">prinGuid</span></span></p></td>
-<td><p><span data-ttu-id="05989-131">Clave externa con la búsqueda en la tabla principal. prinGuid.</span><span class="sxs-lookup"><span data-stu-id="05989-131">Foreign key with lookup in Principal.prinGuid table.</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-130">prinGuid</span><span class="sxs-lookup"><span data-stu-id="a5c02-130">prinGuid</span></span></p></td>
+<td><p><span data-ttu-id="a5c02-131">Clave externa con búsqueda en la tabla Principal.prinGuid.</span><span class="sxs-lookup"><span data-stu-id="a5c02-131">Foreign key with lookup in Principal.prinGuid table.</span></span></p></td>
 </tr>
 </tbody>
 </table>
