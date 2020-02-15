@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Habilitar a los usuarios para el correo de voz hospedado'
+title: 'Lync Server 2013: habilitar usuarios para correo de voz hospedado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185919
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e0ce9ee4da6ee0a36e5e5f0028371aab8af523f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e7287f31a4dc0e43b0108ce666e9c65f51f75f2d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736010"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046663"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-users-for-hosted-voice-mail-in-lync-server-2013"></a><span data-ttu-id="fe089-102">Habilitar a los usuarios para el correo de voz hospedado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe089-102">Enable users for hosted voice mail in Lync Server 2013</span></span>
+# <a name="enable-users-for-hosted-voice-mail-in-lync-server-2013"></a><span data-ttu-id="8f270-102">Habilitar a los usuarios para el correo de voz hospedado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8f270-102">Enable users for hosted voice mail in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41736010"
 
 <span> </span>
 
-<span data-ttu-id="fe089-103">_**Última modificación del tema:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="fe089-103">_**Topic Last Modified:** 2012-09-24_</span></span>
+<span data-ttu-id="8f270-103">_**Última modificación del tema:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="8f270-103">_**Topic Last Modified:** 2012-09-24_</span></span>
 
-<span data-ttu-id="fe089-104">Siga el procedimiento para habilitar a los usuarios de Lync Server 2013 para el correo de voz en un servicio de mensajería unificada (UM) hospedada de Exchange.</span><span class="sxs-lookup"><span data-stu-id="fe089-104">Follow the procedure to enable Lync Server 2013 users for voice mail on a hosted Exchange Unified Messaging (UM) service.</span></span>
+<span data-ttu-id="8f270-104">Siga el procedimiento para habilitar a los usuarios de Lync Server 2013 para el correo de voz en un servicio de mensajería unificada (UM) de Exchange hospedado.</span><span class="sxs-lookup"><span data-stu-id="8f270-104">Follow the procedure to enable Lync Server 2013 users for voice mail on a hosted Exchange Unified Messaging (UM) service.</span></span>
 
-<span data-ttu-id="fe089-105">Para obtener más información, vea [Administración de usuarios de Exchange hospedado en Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) en la documentación de planeación.</span><span class="sxs-lookup"><span data-stu-id="fe089-105">For details, see [Hosted Exchange user management in Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) in the Planning documentation.</span></span>
+<span data-ttu-id="8f270-105">Para obtener más información, consulte [Hosted Exchange User Management in Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) en la documentación referente a la planeación.</span><span class="sxs-lookup"><span data-stu-id="8f270-105">For details, see [Hosted Exchange user management in Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) in the Planning documentation.</span></span>
 
-<span data-ttu-id="fe089-106">Para obtener más información sobre el cmdlet [set-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) , consulte la documentación del shell de administración de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="fe089-106">For details about the [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) cmdlet, see the Lync Server Management Shell documentation.</span></span>
+<span data-ttu-id="8f270-106">Para obtener más información sobre el cmdlet [set-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) , consulte la documentación del shell de administración de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="8f270-106">For details about the [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) cmdlet, see the Lync Server Management Shell documentation.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="fe089-107">Para que un usuario de Lync Server 2013 pueda estar habilitado para el correo de voz hospedado, debe implementarse una directiva de correo de voz hospedada que se aplique a su cuenta de usuario.</span><span class="sxs-lookup"><span data-stu-id="fe089-107">Before a Lync Server 2013 user can be enabled for hosted voice mail, a hosted voice mail policy that applies to their user account must be deployed.</span></span> <span data-ttu-id="fe089-108">Para obtener más información, consulte <A href="lync-server-2013-hosted-voice-mail-policies.md">directivas de correo de voz hospedado en Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="fe089-108">For details, see <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted voice mail policies in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="8f270-107">Antes de que un usuario de Lync Server 2013 pueda estar habilitado para el correo de voz hospedado, debe implementarse una directiva de correo de voz hospedada que se aplique a su cuenta de usuario.</span><span class="sxs-lookup"><span data-stu-id="8f270-107">Before a Lync Server 2013 user can be enabled for hosted voice mail, a hosted voice mail policy that applies to their user account must be deployed.</span></span> <span data-ttu-id="8f270-108">Para obtener más información, consulte <A href="lync-server-2013-hosted-voice-mail-policies.md">directivas de correo de voz hospedado en Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="8f270-108">For details, see <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted voice mail policies in Lync Server 2013</A>.</span></span>
 
 
 
@@ -55,33 +55,33 @@ ms.locfileid: "41736010"
 
 <div>
 
-## <a name="to-enable-users-for-hosted-voice-mail"></a><span data-ttu-id="fe089-109">Para habilitar a los usuarios para el correo de voz hospedado</span><span class="sxs-lookup"><span data-stu-id="fe089-109">To enable users for hosted voice mail</span></span>
+## <a name="to-enable-users-for-hosted-voice-mail"></a><span data-ttu-id="8f270-109">Para habilitar a los usuarios para correo de voz hospedado.</span><span class="sxs-lookup"><span data-stu-id="8f270-109">To enable users for hosted voice mail</span></span>
 
-1.  <span data-ttu-id="fe089-110">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="fe089-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="8f270-110">Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="8f270-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="fe089-111">Ejecute el cmdlet Set-CsUser para configurar la cuenta de usuario para el correo de voz hospedado.</span><span class="sxs-lookup"><span data-stu-id="fe089-111">Run the Set-CsUser cmdlet to configure the user account for hosted voice mail.</span></span> <span data-ttu-id="fe089-112">Por ejemplo, ejecute lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="fe089-112">For example, run:</span></span>
+2.  <span data-ttu-id="8f270-p102">Ejecute el cmdlet Set-CsUser para configurar la cuenta del usuario para correo de voz hospedado. Por ejemplo, ejecute lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8f270-p102">Run the Set-CsUser cmdlet to configure the user account for hosted voice mail. For example, run:</span></span>
     
         Set-CsUser -HostedVoiceMail $True -Identity "contoso\kenmyer"
     
-    <span data-ttu-id="fe089-113">En el ejemplo anterior se definen los parámetros siguientes:</span><span class="sxs-lookup"><span data-stu-id="fe089-113">The preceding example sets the following parameters:</span></span>
+    <span data-ttu-id="8f270-113">En el ejemplo anterior se definen los parámetros siguientes:</span><span class="sxs-lookup"><span data-stu-id="8f270-113">The preceding example sets the following parameters:</span></span>
     
-      - <span data-ttu-id="fe089-114">**HostedVoiceMail** permite enrutar las llamadas de correo de voz de un usuario a la mensajería unificada de Exchange hospedada.</span><span class="sxs-lookup"><span data-stu-id="fe089-114">**HostedVoiceMail** enables a user’s voice mail calls to be routed to hosted Exchange UM.</span></span> <span data-ttu-id="fe089-115">También indica a Microsoft Lync 2013 que ilumine el indicador "llamar al correo de voz".</span><span class="sxs-lookup"><span data-stu-id="fe089-115">It also signals Microsoft Lync 2013 to light up the “call voice mail” indicator.</span></span>
+      - <span data-ttu-id="8f270-114">**HostedVoiceMail** permite que las llamadas de correo de voz de un usuario se enruten a una versión hospedada de mensajería instantánea de Exchange.</span><span class="sxs-lookup"><span data-stu-id="8f270-114">**HostedVoiceMail** enables a user’s voice mail calls to be routed to hosted Exchange UM.</span></span> <span data-ttu-id="8f270-115">También indica a Microsoft Lync 2013 que ilumine el indicador "llamar al correo de voz".</span><span class="sxs-lookup"><span data-stu-id="8f270-115">It also signals Microsoft Lync 2013 to light up the “call voice mail” indicator.</span></span>
     
-      - <span data-ttu-id="fe089-116">**Identity** especifica la cuenta de usuario que se va a modificar.</span><span class="sxs-lookup"><span data-stu-id="fe089-116">**Identity** specifies the user account to be modified.</span></span> <span data-ttu-id="fe089-117">El valor de identidad puede especificarse con cualquiera de los siguientes formatos:</span><span class="sxs-lookup"><span data-stu-id="fe089-117">The Identity value can be specified using any of the following formats:</span></span>
+      - <span data-ttu-id="8f270-p104">**Identity** especifica la cuenta de usuario que modificar. El valor de Identity puede especificarse con cualquiera de los formatos a continuación:</span><span class="sxs-lookup"><span data-stu-id="8f270-p104">**Identity** specifies the user account to be modified. The Identity value can be specified using any of the following formats:</span></span>
         
-          - <span data-ttu-id="fe089-118">Dirección SIP del usuario</span><span class="sxs-lookup"><span data-stu-id="fe089-118">The user's SIP address</span></span>
+          - <span data-ttu-id="8f270-118">La dirección SIP del usuario</span><span class="sxs-lookup"><span data-stu-id="8f270-118">The user's SIP address</span></span>
         
-          - <span data-ttu-id="fe089-119">Nombre principal de usuario de Active Directory del usuario</span><span class="sxs-lookup"><span data-stu-id="fe089-119">The user's Active Directory User-Principal-Name</span></span>
+          - <span data-ttu-id="8f270-119">El nombre principal de usuario de Active Directory del usuario</span><span class="sxs-lookup"><span data-stu-id="8f270-119">The user's Active Directory User-Principal-Name</span></span>
         
-          - <span data-ttu-id="fe089-120">Nombre de inicio de\\sesión de dominio del usuario (por\\ejemplo, contoso kenmyer)</span><span class="sxs-lookup"><span data-stu-id="fe089-120">The user's domain\\logon name (for example, contoso\\kenmyer)</span></span>
+          - <span data-ttu-id="8f270-120">El nombre de inicio\\de sesión del dominio del usuario (\\por ejemplo, contoso kenmyer)</span><span class="sxs-lookup"><span data-stu-id="8f270-120">The user's domain\\logon name (for example, contoso\\kenmyer)</span></span>
         
-          - <span data-ttu-id="fe089-121">El nombre para mostrar de los servicios de dominio de Active Directory del usuario (por ejemplo, Ken Myer).</span><span class="sxs-lookup"><span data-stu-id="fe089-121">The user's Active Directory Domain Services Display-Name (for example, Ken Myer).</span></span> <span data-ttu-id="fe089-122">Si usa el nombre para mostrar como valor de identidad, puede usar el carácter comodín asterisco\*().</span><span class="sxs-lookup"><span data-stu-id="fe089-122">If using the Display-Name as the Identity value, you can use the asterisk (\*) wildcard character.</span></span> <span data-ttu-id="fe089-123">Por ejemplo, la identidad "\* Smith" devuelve todos los usuarios que tienen un nombre para mostrar que termina con el valor de cadena "Smith".</span><span class="sxs-lookup"><span data-stu-id="fe089-123">For example, the Identity "\* Smith" returns all the users who have a Display-Name that ends with the string value "Smith".</span></span>
+          - <span data-ttu-id="8f270-121">El nombre para mostrar de Servicios de dominio de Active Directory (por ejemplo, Ken Myer).</span><span class="sxs-lookup"><span data-stu-id="8f270-121">The user's Active Directory Domain Services Display-Name (for example, Ken Myer).</span></span> <span data-ttu-id="8f270-122">Si usa Display-Name como valor de identidad, puede usar el carácter comodín asterisco (\*).</span><span class="sxs-lookup"><span data-stu-id="8f270-122">If using the Display-Name as the Identity value, you can use the asterisk (\*) wildcard character.</span></span> <span data-ttu-id="8f270-123">Por ejemplo, la identidad "\* Smith" devuelve todos los usuarios que tienen un nombre para mostrar que termina con el valor de cadena "Smith".</span><span class="sxs-lookup"><span data-stu-id="8f270-123">For example, the Identity "\* Smith" returns all the users who have a Display-Name that ends with the string value "Smith".</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="fe089-124">El nombre de cuenta SAM del usuario de Active Directory no se puede usar como valor de identidad porque el nombre de cuenta SAM no es necesariamente único en el bosque.</span><span class="sxs-lookup"><span data-stu-id="fe089-124">The user’s Active Directory SAM-Account-Name cannot be used as the Identity value because the SAM-Account-Name is not necessarily unique in the forest.</span></span>
+        > <span data-ttu-id="8f270-124">El nombre de cuenta SAM de Active Directory del usuario no se puede usar como valor de Identity porque puede que no sea único en el bosque.</span><span class="sxs-lookup"><span data-stu-id="8f270-124">The user’s Active Directory SAM-Account-Name cannot be used as the Identity value because the SAM-Account-Name is not necessarily unique in the forest.</span></span>
 
         
         </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configuración de IIS'
+title: 'Lync Server 2013: configuración de IIS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0cb8fe023d872ff19e29beb329488304048895b2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 65d9d4f61fabdca7a3f9cb4808efe952ec7ce3b2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729330"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037882"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="iis-configuration-in-lync-server-2013"></a><span data-ttu-id="d7afd-102">Configuración de IIS en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d7afd-102">IIS configuration in Lync Server 2013</span></span>
+# <a name="iis-configuration-in-lync-server-2013"></a><span data-ttu-id="c963a-102">Configuración de IIS en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c963a-102">IIS configuration in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41729330"
 
 <span> </span>
 
-<span data-ttu-id="d7afd-103">_**Última modificación del tema:** 2014-02-17_</span><span class="sxs-lookup"><span data-stu-id="d7afd-103">_**Topic Last Modified:** 2014-02-17_</span></span>
+<span data-ttu-id="c963a-103">_**Última modificación del tema:** 2014-02-17_</span><span class="sxs-lookup"><span data-stu-id="c963a-103">_**Topic Last Modified:** 2014-02-17_</span></span>
 
-<span data-ttu-id="d7afd-104">Para completar correctamente este procedimiento, debe haber iniciado sesión en el servidor como mínimo como administrador local y como usuario del dominio.</span><span class="sxs-lookup"><span data-stu-id="d7afd-104">To successfully complete this procedure, you should be logged on to the server minimally as a local administrator and a domain user.</span></span>
+<span data-ttu-id="c963a-104">Para completar correctamente este procedimiento, debe haber iniciado sesión en el servidor por lo menos como administrador local y usuario de dominio.</span><span class="sxs-lookup"><span data-stu-id="c963a-104">To successfully complete this procedure, you should be logged on to the server minimally as a local administrator and a domain user.</span></span>
 
-<span data-ttu-id="d7afd-105">Antes de configurar e instalar el servidor front-end para Lync Server 2013, Standard Edition o el primer servidor front-end de un grupo, instale y configure el rol de servidor y los servicios web para servicios de Internet Information Server (IIS).</span><span class="sxs-lookup"><span data-stu-id="d7afd-105">Before you configure and install the Front End Server for Lync Server 2013, Standard Edition or the first Front End Server in a pool, you install and configure the server role and Web Services for Internet Information Services (IIS).</span></span>
+<span data-ttu-id="c963a-105">Antes de configurar e instalar el servidor front-end para Lync Server 2013, Standard Edition o el primer servidor front-end en un grupo de servidores, instale y configure el rol de servidor y los servicios web para Internet Information Services (IIS).</span><span class="sxs-lookup"><span data-stu-id="c963a-105">Before you configure and install the Front End Server for Lync Server 2013, Standard Edition or the first Front End Server in a pool, you install and configure the server role and Web Services for Internet Information Services (IIS).</span></span>
 
 <div class=" ">
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="d7afd-106">Si su organización requiere que encuentre IIS y todos los servicios web en una unidad distinta de la del sistema, puede cambiar la ruta de acceso de la ubicación de instalación para los archivos de Lync Server 2013 en el cuadro de diálogo de configuración cuando instale inicialmente Lync Server 2013 Herramientas administrativas.</span><span class="sxs-lookup"><span data-stu-id="d7afd-106">If your organization requires that you locate IIS and all Web Services on a drive other than the system drive, you can change the installation location path for the Lync Server 2013 files in the Setup dialog box when you initially install the Lync Server 2013 Administrative tools.</span></span> <span data-ttu-id="d7afd-107">Instale las herramientas administrativas antes de instalar IIS.</span><span class="sxs-lookup"><span data-stu-id="d7afd-107">You install the Administrative tools before installing IIS.</span></span> <span data-ttu-id="d7afd-108">Si instala los archivos de instalación en esta ruta de acceso, incluido OCSCore. msi, el resto de los archivos de Lync Server 2013 se implementarán también en esta unidad.</span><span class="sxs-lookup"><span data-stu-id="d7afd-108">If you install the Setup files to this path, including OCSCore.msi, the rest of the Lync Server 2013 files will be deployed to this drive as well.</span></span> <span data-ttu-id="d7afd-109">Para Dtails, consulte <A href="lync-server-2013-install-lync-server-administrative-tools.md">instalar las herramientas administrativas 2013 de Lync Server</A>.</span><span class="sxs-lookup"><span data-stu-id="d7afd-109">For dtails, see <A href="lync-server-2013-install-lync-server-administrative-tools.md">Install Lync Server 2013 administrative tools</A>.</span></span> <span data-ttu-id="d7afd-110">Para más información sobre cómo cambiar la ubicación de INETPUB implementada por el administrador de Windows Server al <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>instalar IIS, consulte.</span><span class="sxs-lookup"><span data-stu-id="d7afd-110">For details about how to relocate the INETPUB deployed by Windows Server Manager when installing IIS, see <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>.</span></span>
+> <span data-ttu-id="c963a-106">Si su organización requiere que ubique IIS y todos los servicios web en una unidad que no sea la unidad del sistema, puede cambiar la ruta de acceso de la ubicación de instalación para los archivos de Lync Server 2013 en el cuadro de diálogo de configuración cuando instala inicialmente Lync Server 2013 Herramientas administrativas.</span><span class="sxs-lookup"><span data-stu-id="c963a-106">If your organization requires that you locate IIS and all Web Services on a drive other than the system drive, you can change the installation location path for the Lync Server 2013 files in the Setup dialog box when you initially install the Lync Server 2013 Administrative tools.</span></span> <span data-ttu-id="c963a-107">Las herramientas administrativas se deben instalar antes que IIS.</span><span class="sxs-lookup"><span data-stu-id="c963a-107">You install the Administrative tools before installing IIS.</span></span> <span data-ttu-id="c963a-108">Si instala los archivos de instalación en esta ruta de acceso, incluido OCSCore. msi, el resto de los archivos de Lync Server 2013 también se implementarán en esta unidad.</span><span class="sxs-lookup"><span data-stu-id="c963a-108">If you install the Setup files to this path, including OCSCore.msi, the rest of the Lync Server 2013 files will be deployed to this drive as well.</span></span> <span data-ttu-id="c963a-109">Para Dtails, consulte <A href="lync-server-2013-install-lync-server-administrative-tools.md">install Lync Server 2013 Administrative Tools</A>.</span><span class="sxs-lookup"><span data-stu-id="c963a-109">For dtails, see <A href="lync-server-2013-install-lync-server-administrative-tools.md">Install Lync Server 2013 administrative tools</A>.</span></span> <span data-ttu-id="c963a-110">Para obtener información sobre cómo reubicar la INETPUB implementada por el administrador de servidores de Windows <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>al instalar IIS, consulte.</span><span class="sxs-lookup"><span data-stu-id="c963a-110">For details about how to relocate the INETPUB deployed by Windows Server Manager when installing IIS, see <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="d7afd-111">En la tabla siguiente se indican los servicios de rol IIS 7,5 requeridos.</span><span class="sxs-lookup"><span data-stu-id="d7afd-111">The following table indicates the required IIS 7.5 role services.</span></span>
+<span data-ttu-id="c963a-111">En la tabla siguiente se indican los servicios de rol IIS 7,5 necesarios.</span><span class="sxs-lookup"><span data-stu-id="c963a-111">The following table indicates the required IIS 7.5 role services.</span></span>
 
-### <a name="iis-75-role-services"></a><span data-ttu-id="d7afd-112">Servicios de rol IIS 7,5</span><span class="sxs-lookup"><span data-stu-id="d7afd-112">IIS 7.5 Role Services</span></span>
+### <a name="iis-75-role-services"></a><span data-ttu-id="c963a-112">Servicios de rol de IIS 7,5</span><span class="sxs-lookup"><span data-stu-id="c963a-112">IIS 7.5 Role Services</span></span>
 
 <table>
 <colgroup>
@@ -62,86 +62,86 @@ ms.locfileid: "41729330"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d7afd-113">Encabezado de rol</span><span class="sxs-lookup"><span data-stu-id="d7afd-113">Role Heading</span></span></th>
-<th><span data-ttu-id="d7afd-114">Servicio de rol</span><span class="sxs-lookup"><span data-stu-id="d7afd-114">Role Service</span></span></th>
+<th><span data-ttu-id="c963a-113">Encabezado de rol</span><span class="sxs-lookup"><span data-stu-id="c963a-113">Role Heading</span></span></th>
+<th><span data-ttu-id="c963a-114">Servicio de rol</span><span class="sxs-lookup"><span data-stu-id="c963a-114">Role Service</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-115">Características HTTP comunes instaladas</span><span class="sxs-lookup"><span data-stu-id="d7afd-115">Common HTTP features installed</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-116">Contenido estático</span><span class="sxs-lookup"><span data-stu-id="d7afd-116">Static content</span></span></p></td>
+<td><p><span data-ttu-id="c963a-115">Características HTTP comunas instaladas</span><span class="sxs-lookup"><span data-stu-id="c963a-115">Common HTTP features installed</span></span></p></td>
+<td><p><span data-ttu-id="c963a-116">Contenido estático</span><span class="sxs-lookup"><span data-stu-id="c963a-116">Static content</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-117">Características HTTP comunes instaladas</span><span class="sxs-lookup"><span data-stu-id="d7afd-117">Common HTTP features installed</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-118">Documento predeterminado</span><span class="sxs-lookup"><span data-stu-id="d7afd-118">Default document</span></span></p></td>
+<td><p><span data-ttu-id="c963a-117">Características HTTP comunas instaladas</span><span class="sxs-lookup"><span data-stu-id="c963a-117">Common HTTP features installed</span></span></p></td>
+<td><p><span data-ttu-id="c963a-118">Documento predeterminado</span><span class="sxs-lookup"><span data-stu-id="c963a-118">Default document</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-119">Características HTTP comunes instaladas</span><span class="sxs-lookup"><span data-stu-id="d7afd-119">Common HTTP features installed</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-120">Errores HTTP</span><span class="sxs-lookup"><span data-stu-id="d7afd-120">HTTP errors</span></span></p></td>
+<td><p><span data-ttu-id="c963a-119">Características HTTP comunas instaladas</span><span class="sxs-lookup"><span data-stu-id="c963a-119">Common HTTP features installed</span></span></p></td>
+<td><p><span data-ttu-id="c963a-120">Errores HTTP</span><span class="sxs-lookup"><span data-stu-id="c963a-120">HTTP errors</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-121">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="d7afd-121">Application development</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-122">ASP.NET</span><span class="sxs-lookup"><span data-stu-id="d7afd-122">ASP.NET</span></span></p>
-<p><span data-ttu-id="d7afd-123">Windows Server 2012 también requiere ASP. NET 4.5</span><span class="sxs-lookup"><span data-stu-id="d7afd-123">Windows Server 2012 also requires ASP.NET4.5</span></span></p></td>
+<td><p><span data-ttu-id="c963a-121">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="c963a-121">Application development</span></span></p></td>
+<td><p><span data-ttu-id="c963a-122">ASP.NET</span><span class="sxs-lookup"><span data-stu-id="c963a-122">ASP.NET</span></span></p>
+<p><span data-ttu-id="c963a-123">Windows Server 2012 también necesita ASP. NET 4.5</span><span class="sxs-lookup"><span data-stu-id="c963a-123">Windows Server 2012 also requires ASP.NET4.5</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-124">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="d7afd-124">Application development</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-125">Extensibilidad de .NET</span><span class="sxs-lookup"><span data-stu-id="d7afd-125">.NET extensibility</span></span></p></td>
+<td><p><span data-ttu-id="c963a-124">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="c963a-124">Application development</span></span></p></td>
+<td><p><span data-ttu-id="c963a-125">Extensibilidad de .NET</span><span class="sxs-lookup"><span data-stu-id="c963a-125">.NET extensibility</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-126">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="d7afd-126">Application development</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-127">Extensiones de API de servidor de Internet (ISAPI)</span><span class="sxs-lookup"><span data-stu-id="d7afd-127">Internet Server API (ISAPI) extensions</span></span></p></td>
+<td><p><span data-ttu-id="c963a-126">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="c963a-126">Application development</span></span></p></td>
+<td><p><span data-ttu-id="c963a-127">Extensiones de Internet Server API (ISAPI)</span><span class="sxs-lookup"><span data-stu-id="c963a-127">Internet Server API (ISAPI) extensions</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-128">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="d7afd-128">Application development</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-129">Filtros ISAPI</span><span class="sxs-lookup"><span data-stu-id="d7afd-129">ISAPI filters</span></span></p></td>
+<td><p><span data-ttu-id="c963a-128">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="c963a-128">Application development</span></span></p></td>
+<td><p><span data-ttu-id="c963a-129">Filtros ISAPI</span><span class="sxs-lookup"><span data-stu-id="c963a-129">ISAPI filters</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-130">Estado y diagnóstico</span><span class="sxs-lookup"><span data-stu-id="d7afd-130">Health and diagnostics</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-131">Registro HTTP</span><span class="sxs-lookup"><span data-stu-id="d7afd-131">HTTP logging</span></span></p></td>
+<td><p><span data-ttu-id="c963a-130">Estado y diagnóstico</span><span class="sxs-lookup"><span data-stu-id="c963a-130">Health and diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="c963a-131">Registro HTTP</span><span class="sxs-lookup"><span data-stu-id="c963a-131">HTTP logging</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-132">Estado y diagnóstico</span><span class="sxs-lookup"><span data-stu-id="d7afd-132">Health and diagnostics</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-133">Herramientas de registro</span><span class="sxs-lookup"><span data-stu-id="d7afd-133">Logging tools</span></span></p></td>
+<td><p><span data-ttu-id="c963a-132">Estado y diagnóstico</span><span class="sxs-lookup"><span data-stu-id="c963a-132">Health and diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="c963a-133">Herramientas de registro</span><span class="sxs-lookup"><span data-stu-id="c963a-133">Logging tools</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-134">Estado y diagnóstico</span><span class="sxs-lookup"><span data-stu-id="d7afd-134">Health and diagnostics</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-135">Seguimiento</span><span class="sxs-lookup"><span data-stu-id="d7afd-135">Tracing</span></span></p></td>
+<td><p><span data-ttu-id="c963a-134">Estado y diagnóstico</span><span class="sxs-lookup"><span data-stu-id="c963a-134">Health and diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="c963a-135">Seguimiento</span><span class="sxs-lookup"><span data-stu-id="c963a-135">Tracing</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-136">Seguridad</span><span class="sxs-lookup"><span data-stu-id="d7afd-136">Security</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-137">Autenticación anónima (instalado y habilitado de forma predeterminada)</span><span class="sxs-lookup"><span data-stu-id="d7afd-137">Anonymous authentication (installed and enabled by default)</span></span></p></td>
+<td><p><span data-ttu-id="c963a-136">Seguridad</span><span class="sxs-lookup"><span data-stu-id="c963a-136">Security</span></span></p></td>
+<td><p><span data-ttu-id="c963a-137">Autenticación anónima (instalada y habilitada de forma predeterminada)</span><span class="sxs-lookup"><span data-stu-id="c963a-137">Anonymous authentication (installed and enabled by default)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-138">Seguridad</span><span class="sxs-lookup"><span data-stu-id="d7afd-138">Security</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-139">Autenticación de Windows</span><span class="sxs-lookup"><span data-stu-id="d7afd-139">Windows authentication</span></span></p></td>
+<td><p><span data-ttu-id="c963a-138">Seguridad</span><span class="sxs-lookup"><span data-stu-id="c963a-138">Security</span></span></p></td>
+<td><p><span data-ttu-id="c963a-139">Autenticación de Windows</span><span class="sxs-lookup"><span data-stu-id="c963a-139">Windows authentication</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-140">Seguridad</span><span class="sxs-lookup"><span data-stu-id="d7afd-140">Security</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-141">Autenticación de asignación de certificado de cliente</span><span class="sxs-lookup"><span data-stu-id="d7afd-141">Client Certificate Mapping authentication</span></span></p></td>
+<td><p><span data-ttu-id="c963a-140">Seguridad</span><span class="sxs-lookup"><span data-stu-id="c963a-140">Security</span></span></p></td>
+<td><p><span data-ttu-id="c963a-141">Autenticación por asignación de certificados de clientes</span><span class="sxs-lookup"><span data-stu-id="c963a-141">Client Certificate Mapping authentication</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-142">Seguridad</span><span class="sxs-lookup"><span data-stu-id="d7afd-142">Security</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-143">Filtrado de solicitudes</span><span class="sxs-lookup"><span data-stu-id="d7afd-143">Request filtering</span></span></p></td>
+<td><p><span data-ttu-id="c963a-142">Seguridad</span><span class="sxs-lookup"><span data-stu-id="c963a-142">Security</span></span></p></td>
+<td><p><span data-ttu-id="c963a-143">Filtrado de solicitudes</span><span class="sxs-lookup"><span data-stu-id="c963a-143">Request filtering</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-144">Rendimiento</span><span class="sxs-lookup"><span data-stu-id="d7afd-144">Performance</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-145">Compresión de contenido estático</span><span class="sxs-lookup"><span data-stu-id="d7afd-145">Static content compression</span></span></p>
-<p><span data-ttu-id="d7afd-146">Compresión de contenido dinámico</span><span class="sxs-lookup"><span data-stu-id="d7afd-146">Dynamic content compression</span></span></p></td>
+<td><p><span data-ttu-id="c963a-144">Rendimiento</span><span class="sxs-lookup"><span data-stu-id="c963a-144">Performance</span></span></p></td>
+<td><p><span data-ttu-id="c963a-145">Compresión de contenido estático</span><span class="sxs-lookup"><span data-stu-id="c963a-145">Static content compression</span></span></p>
+<p><span data-ttu-id="c963a-146">Compresión de contenido dinámico</span><span class="sxs-lookup"><span data-stu-id="c963a-146">Dynamic content compression</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-147">Herramientas de administración</span><span class="sxs-lookup"><span data-stu-id="d7afd-147">Management Tools</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-148">Consola de administración de IIS</span><span class="sxs-lookup"><span data-stu-id="d7afd-148">IIS Management Console</span></span></p></td>
+<td><p><span data-ttu-id="c963a-147">Herramientas de administración</span><span class="sxs-lookup"><span data-stu-id="c963a-147">Management Tools</span></span></p></td>
+<td><p><span data-ttu-id="c963a-148">Consola de administración de IIS</span><span class="sxs-lookup"><span data-stu-id="c963a-148">IIS Management Console</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-149">Herramientas de administración</span><span class="sxs-lookup"><span data-stu-id="d7afd-149">Management Tools</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-150">Scripts y herramientas de administración de IIS</span><span class="sxs-lookup"><span data-stu-id="d7afd-150">IIS Management Scripts and Tools</span></span></p></td>
+<td><p><span data-ttu-id="c963a-149">Herramientas de administración</span><span class="sxs-lookup"><span data-stu-id="c963a-149">Management Tools</span></span></p></td>
+<td><p><span data-ttu-id="c963a-150">Scripts y herramientas de administración de IIS</span><span class="sxs-lookup"><span data-stu-id="c963a-150">IIS Management Scripts and Tools</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="d7afd-151">En el sistema operativo Windows Server 2008 R2 SP1 x64, puede usar Windows PowerShell 2,0.</span><span class="sxs-lookup"><span data-stu-id="d7afd-151">On the Windows Server 2008 R2 SP1 x64 operating system, you can use Windows PowerShell 2.0.</span></span> <span data-ttu-id="d7afd-152">Primero debe importar el módulo de ServerManager y, a continuación, instalar el rol y los servicios de rol de IIS 7,5.</span><span class="sxs-lookup"><span data-stu-id="d7afd-152">You must first import the ServerManager module, and then install the IIS 7.5 role and role services.</span></span>
+<span data-ttu-id="c963a-151">En el sistema operativo Windows Server 2008 R2 SP1 x64, puede usar Windows PowerShell 2,0.</span><span class="sxs-lookup"><span data-stu-id="c963a-151">On the Windows Server 2008 R2 SP1 x64 operating system, you can use Windows PowerShell 2.0.</span></span> <span data-ttu-id="c963a-152">Primero debe importar el módulo ServerManager y, a continuación, instalar el rol y los servicios de rol de IIS 7.5.</span><span class="sxs-lookup"><span data-stu-id="c963a-152">You must first import the ServerManager module, and then install the IIS 7.5 role and role services.</span></span>
 
    ```PowerShell
     Import-Module ServerManager
@@ -155,25 +155,25 @@ ms.locfileid: "41729330"
 
 
 > [!NOTE]  
-> <span data-ttu-id="d7afd-153">La autenticación anónima se instala de forma predeterminada con la función de servidor IIS.</span><span class="sxs-lookup"><span data-stu-id="d7afd-153">Anonymous authentication is installed by default with the IIS server role.</span></span> <span data-ttu-id="d7afd-154">Puede administrar la autenticación anónima después de la instalación de IIS.</span><span class="sxs-lookup"><span data-stu-id="d7afd-154">You can manage anonymous authentication after the installation of IIS.</span></span> <span data-ttu-id="d7afd-155">Para obtener más información, vea "habilitar la autenticación anónima (IIS 7 <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>)" en.</span><span class="sxs-lookup"><span data-stu-id="d7afd-155">For details, see “Enable Anonymous Authentication (IIS 7)” at <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>.</span></span>
+> <span data-ttu-id="c963a-153">La autenticación anónima está instalada de forma predeterminada con el rol del servidor IIS.</span><span class="sxs-lookup"><span data-stu-id="c963a-153">Anonymous authentication is installed by default with the IIS server role.</span></span> <span data-ttu-id="c963a-154">Puede administrar la autenticación anónima después de instalar el IIS.</span><span class="sxs-lookup"><span data-stu-id="c963a-154">You can manage anonymous authentication after the installation of IIS.</span></span> <span data-ttu-id="c963a-155">Para obtener más información, consulte "habilitar la autenticación anónima (IIS 7 <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>)" en.</span><span class="sxs-lookup"><span data-stu-id="c963a-155">For details, see “Enable Anonymous Authentication (IIS 7)” at <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="d7afd-156">La tabla siguiente indica los servicios de rol IIS 8,0 e IIS 8,5 requeridos para Windows Server 2012 y Windows Server 2012 R2.</span><span class="sxs-lookup"><span data-stu-id="d7afd-156">The following table indicates the required IIS 8.0 and IIS 8.5 role services for Windows Server 2012 and Windows Server 2012 R2.</span></span>
+<span data-ttu-id="c963a-156">En la tabla siguiente se indican los servicios de rol IIS 8,0 e IIS 8,5 necesarios para Windows Server 2012 y Windows Server 2012 R2.</span><span class="sxs-lookup"><span data-stu-id="c963a-156">The following table indicates the required IIS 8.0 and IIS 8.5 role services for Windows Server 2012 and Windows Server 2012 R2.</span></span>
 
 <div class=" ">
 
 
 > [!NOTE]  
-> <span data-ttu-id="d7afd-157">Para Windows Server 2012 y Windows Server 2012 R2, el cmdlet Add-WindowsFeature ha sido reemplazado por el cmdlet install-WindowsFeature.</span><span class="sxs-lookup"><span data-stu-id="d7afd-157">For Windows Server 2012 and Windows Server 2012 R2, the Add-WindowsFeature cmdlet has been replaced by the Install-WindowsFeature cmdlet.</span></span> <span data-ttu-id="d7afd-158">Para obtener información detallada, vea <A href="http://go.microsoft.com/fwlink/p/?linkid=392274">install-WindowsFeature</A>.</span><span class="sxs-lookup"><span data-stu-id="d7afd-158">For details, see <A href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</A>.</span></span>
+> <span data-ttu-id="c963a-157">Para Windows Server 2012 y Windows Server 2012 R2, el cmdlet Add-WindowsFeature se ha reemplazado por el cmdlet install-WindowsFeature.</span><span class="sxs-lookup"><span data-stu-id="c963a-157">For Windows Server 2012 and Windows Server 2012 R2, the Add-WindowsFeature cmdlet has been replaced by the Install-WindowsFeature cmdlet.</span></span> <span data-ttu-id="c963a-158">Para obtener más información, vea <A href="http://go.microsoft.com/fwlink/p/?linkid=392274">install-WindowsFeature</A>.</span><span class="sxs-lookup"><span data-stu-id="c963a-158">For details, see <A href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</A>.</span></span>
 
 
 
 </div>
 
-### <a name="iis-80-and-iis-85-role-services"></a><span data-ttu-id="d7afd-159">Servicios de rol IIS 8,0 e IIS 8,5</span><span class="sxs-lookup"><span data-stu-id="d7afd-159">IIS 8.0 and IIS 8.5 Role Services</span></span>
+### <a name="iis-80-and-iis-85-role-services"></a><span data-ttu-id="c963a-159">Servicios de rol IIS 8,0 e IIS 8,5</span><span class="sxs-lookup"><span data-stu-id="c963a-159">IIS 8.0 and IIS 8.5 Role Services</span></span>
 
 <table>
 <colgroup>
@@ -182,168 +182,168 @@ ms.locfileid: "41729330"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d7afd-160">Encabezado de rol</span><span class="sxs-lookup"><span data-stu-id="d7afd-160">Role Heading</span></span></th>
-<th><span data-ttu-id="d7afd-161">Servicio de rol</span><span class="sxs-lookup"><span data-stu-id="d7afd-161">Role Service</span></span></th>
+<th><span data-ttu-id="c963a-160">Encabezado de rol</span><span class="sxs-lookup"><span data-stu-id="c963a-160">Role Heading</span></span></th>
+<th><span data-ttu-id="c963a-161">Servicio de rol</span><span class="sxs-lookup"><span data-stu-id="c963a-161">Role Service</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-162">Servidor Web (IIS)</span><span class="sxs-lookup"><span data-stu-id="d7afd-162">Web Server (IIS)</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-163">Servidor Web</span><span class="sxs-lookup"><span data-stu-id="d7afd-163">Web Server</span></span></p></td>
+<td><p><span data-ttu-id="c963a-162">Servidor web (IIS)</span><span class="sxs-lookup"><span data-stu-id="c963a-162">Web Server (IIS)</span></span></p></td>
+<td><p><span data-ttu-id="c963a-163">Servidor web</span><span class="sxs-lookup"><span data-stu-id="c963a-163">Web Server</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-164">Características HTTP comunes</span><span class="sxs-lookup"><span data-stu-id="d7afd-164">Common HTTP Features</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-165">Documento predeterminado</span><span class="sxs-lookup"><span data-stu-id="d7afd-165">Default Document</span></span></p></td>
+<td><p><span data-ttu-id="c963a-164">Características comunes de HTTP</span><span class="sxs-lookup"><span data-stu-id="c963a-164">Common HTTP Features</span></span></p></td>
+<td><p><span data-ttu-id="c963a-165">Documento predeterminado</span><span class="sxs-lookup"><span data-stu-id="c963a-165">Default Document</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-166">Características HTTP comunes</span><span class="sxs-lookup"><span data-stu-id="d7afd-166">Common HTTP Features</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-167">Examen de directorios</span><span class="sxs-lookup"><span data-stu-id="d7afd-167">Directory Browsing</span></span></p></td>
+<td><p><span data-ttu-id="c963a-166">Características comunes de HTTP</span><span class="sxs-lookup"><span data-stu-id="c963a-166">Common HTTP Features</span></span></p></td>
+<td><p><span data-ttu-id="c963a-167">Examen de directorios</span><span class="sxs-lookup"><span data-stu-id="c963a-167">Directory Browsing</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-168">Características HTTP comunes</span><span class="sxs-lookup"><span data-stu-id="d7afd-168">Common HTTP Features</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-169">Errores HTTP</span><span class="sxs-lookup"><span data-stu-id="d7afd-169">HTTP Errors</span></span></p></td>
+<td><p><span data-ttu-id="c963a-168">Características comunes de HTTP</span><span class="sxs-lookup"><span data-stu-id="c963a-168">Common HTTP Features</span></span></p></td>
+<td><p><span data-ttu-id="c963a-169">Errores HTTP</span><span class="sxs-lookup"><span data-stu-id="c963a-169">HTTP Errors</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-170">Características HTTP comunes</span><span class="sxs-lookup"><span data-stu-id="d7afd-170">Common HTTP Features</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-171">Contenido estático</span><span class="sxs-lookup"><span data-stu-id="d7afd-171">Static content</span></span></p></td>
+<td><p><span data-ttu-id="c963a-170">Características comunes de HTTP</span><span class="sxs-lookup"><span data-stu-id="c963a-170">Common HTTP Features</span></span></p></td>
+<td><p><span data-ttu-id="c963a-171">Contenido estático</span><span class="sxs-lookup"><span data-stu-id="c963a-171">Static content</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-172">Características HTTP comunes</span><span class="sxs-lookup"><span data-stu-id="d7afd-172">Common HTTP Features</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-173">Redireccionamiento HTTP</span><span class="sxs-lookup"><span data-stu-id="d7afd-173">HTTP Redirection</span></span></p></td>
+<td><p><span data-ttu-id="c963a-172">Características HTTP comunes</span><span class="sxs-lookup"><span data-stu-id="c963a-172">Common HTTP Features</span></span></p></td>
+<td><p><span data-ttu-id="c963a-173">Redirección HTTP</span><span class="sxs-lookup"><span data-stu-id="c963a-173">HTTP Redirection</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-174">Estado y diagnóstico</span><span class="sxs-lookup"><span data-stu-id="d7afd-174">Health and Diagnostics</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-175">Registro HTTP</span><span class="sxs-lookup"><span data-stu-id="d7afd-175">HTTP Logging</span></span></p></td>
+<td><p><span data-ttu-id="c963a-174">Estado y diagnóstico</span><span class="sxs-lookup"><span data-stu-id="c963a-174">Health and Diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="c963a-175">Registro HTTP</span><span class="sxs-lookup"><span data-stu-id="c963a-175">HTTP Logging</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-176">Estado y diagnóstico</span><span class="sxs-lookup"><span data-stu-id="d7afd-176">Health and Diagnostics</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-177">Herramientas de registro</span><span class="sxs-lookup"><span data-stu-id="d7afd-177">Logging Tools</span></span></p></td>
+<td><p><span data-ttu-id="c963a-176">Estado y diagnóstico</span><span class="sxs-lookup"><span data-stu-id="c963a-176">Health and Diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="c963a-177">Herramientas de registro</span><span class="sxs-lookup"><span data-stu-id="c963a-177">Logging Tools</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-178">Estado y diagnóstico</span><span class="sxs-lookup"><span data-stu-id="d7afd-178">Health and Diagnostics</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-179">Solicitar monitor</span><span class="sxs-lookup"><span data-stu-id="d7afd-179">Request Monitor</span></span></p></td>
+<td><p><span data-ttu-id="c963a-178">Estado y diagnóstico</span><span class="sxs-lookup"><span data-stu-id="c963a-178">Health and Diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="c963a-179">Supervisor de solicitud</span><span class="sxs-lookup"><span data-stu-id="c963a-179">Request Monitor</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-180">Estado y diagnóstico</span><span class="sxs-lookup"><span data-stu-id="d7afd-180">Health and Diagnostics</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-181">Seguimiento</span><span class="sxs-lookup"><span data-stu-id="d7afd-181">Tracing</span></span></p></td>
+<td><p><span data-ttu-id="c963a-180">Estado y diagnóstico</span><span class="sxs-lookup"><span data-stu-id="c963a-180">Health and Diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="c963a-181">Seguimiento</span><span class="sxs-lookup"><span data-stu-id="c963a-181">Tracing</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-182">Seguridad</span><span class="sxs-lookup"><span data-stu-id="d7afd-182">Security</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-183">Filtro de solicitudes</span><span class="sxs-lookup"><span data-stu-id="d7afd-183">Request Filtering</span></span></p></td>
+<td><p><span data-ttu-id="c963a-182">Seguridad</span><span class="sxs-lookup"><span data-stu-id="c963a-182">Security</span></span></p></td>
+<td><p><span data-ttu-id="c963a-183">Filtrado de solicitudes</span><span class="sxs-lookup"><span data-stu-id="c963a-183">Request Filtering</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-184">Seguridad</span><span class="sxs-lookup"><span data-stu-id="d7afd-184">Security</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-185">Autenticación básica</span><span class="sxs-lookup"><span data-stu-id="d7afd-185">Basic Authentication</span></span></p></td>
+<td><p><span data-ttu-id="c963a-184">Seguridad</span><span class="sxs-lookup"><span data-stu-id="c963a-184">Security</span></span></p></td>
+<td><p><span data-ttu-id="c963a-185">Autenticación básica</span><span class="sxs-lookup"><span data-stu-id="c963a-185">Basic Authentication</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-186">Seguridad</span><span class="sxs-lookup"><span data-stu-id="d7afd-186">Security</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-187">Autenticación por asignación de certificados de clientes</span><span class="sxs-lookup"><span data-stu-id="d7afd-187">Client Certificate Mapping Authentication</span></span></p></td>
+<td><p><span data-ttu-id="c963a-186">Seguridad</span><span class="sxs-lookup"><span data-stu-id="c963a-186">Security</span></span></p></td>
+<td><p><span data-ttu-id="c963a-187">Autenticación por asignación de certificados de clientes</span><span class="sxs-lookup"><span data-stu-id="c963a-187">Client Certificate Mapping Authentication</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-188">Seguridad</span><span class="sxs-lookup"><span data-stu-id="d7afd-188">Security</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-189">Autenticación de Windows</span><span class="sxs-lookup"><span data-stu-id="d7afd-189">Windows Authentication</span></span></p></td>
+<td><p><span data-ttu-id="c963a-188">Seguridad</span><span class="sxs-lookup"><span data-stu-id="c963a-188">Security</span></span></p></td>
+<td><p><span data-ttu-id="c963a-189">Autenticación de Windows</span><span class="sxs-lookup"><span data-stu-id="c963a-189">Windows Authentication</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-190">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="d7afd-190">Application Development</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-191">Extensibilidad de .net 3,5</span><span class="sxs-lookup"><span data-stu-id="d7afd-191">.Net Extensibility 3.5</span></span></p></td>
+<td><p><span data-ttu-id="c963a-190">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="c963a-190">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="c963a-191">Extensibilidad de .net 3,5</span><span class="sxs-lookup"><span data-stu-id="c963a-191">.Net Extensibility 3.5</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-192">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="d7afd-192">Application Development</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-193">Extensibilidad de .net 4,5</span><span class="sxs-lookup"><span data-stu-id="d7afd-193">.Net Extensibility 4.5</span></span></p></td>
+<td><p><span data-ttu-id="c963a-192">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="c963a-192">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="c963a-193">Extensibilidad de .net 4,5</span><span class="sxs-lookup"><span data-stu-id="c963a-193">.Net Extensibility 4.5</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-194">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="d7afd-194">Application Development</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-195">ASP.Net 3,5</span><span class="sxs-lookup"><span data-stu-id="d7afd-195">ASP.Net 3.5</span></span></p></td>
+<td><p><span data-ttu-id="c963a-194">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="c963a-194">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="c963a-195">ASP.Net 3,5</span><span class="sxs-lookup"><span data-stu-id="c963a-195">ASP.Net 3.5</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-196">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="d7afd-196">Application Development</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-197">ASP.Net 4,5</span><span class="sxs-lookup"><span data-stu-id="d7afd-197">ASP.Net 4.5</span></span></p></td>
+<td><p><span data-ttu-id="c963a-196">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="c963a-196">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="c963a-197">ASP.Net 4,5</span><span class="sxs-lookup"><span data-stu-id="c963a-197">ASP.Net 4.5</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-198">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="d7afd-198">Application Development</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-199">Extensiones ISAPI</span><span class="sxs-lookup"><span data-stu-id="d7afd-199">ISAPI Extensions</span></span></p></td>
+<td><p><span data-ttu-id="c963a-198">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="c963a-198">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="c963a-199">Extensiones ISAPI</span><span class="sxs-lookup"><span data-stu-id="c963a-199">ISAPI Extensions</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-200">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="d7afd-200">Application Development</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-201">Filtros ISAPI</span><span class="sxs-lookup"><span data-stu-id="d7afd-201">ISAPI Filters</span></span></p></td>
+<td><p><span data-ttu-id="c963a-200">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="c963a-200">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="c963a-201">Filtros ISAPI</span><span class="sxs-lookup"><span data-stu-id="c963a-201">ISAPI Filters</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-202">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="d7afd-202">Application Development</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-203">Inclusiones del servidor</span><span class="sxs-lookup"><span data-stu-id="d7afd-203">Server Side Includes</span></span></p></td>
+<td><p><span data-ttu-id="c963a-202">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="c963a-202">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="c963a-203">Inclusiones del servidor</span><span class="sxs-lookup"><span data-stu-id="c963a-203">Server Side Includes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-204">Herramientas de administración</span><span class="sxs-lookup"><span data-stu-id="d7afd-204">Management Tools</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-205">Consola de administración de IIS</span><span class="sxs-lookup"><span data-stu-id="d7afd-205">IIS Management Console</span></span></p></td>
+<td><p><span data-ttu-id="c963a-204">Herramientas de administración</span><span class="sxs-lookup"><span data-stu-id="c963a-204">Management Tools</span></span></p></td>
+<td><p><span data-ttu-id="c963a-205">Consola de administración de IIS</span><span class="sxs-lookup"><span data-stu-id="c963a-205">IIS Management Console</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-206">Herramientas de administración</span><span class="sxs-lookup"><span data-stu-id="d7afd-206">Management Tools</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-207">Compatibilidad de metabase de IIS 6</span><span class="sxs-lookup"><span data-stu-id="d7afd-207">IIS 6 Metabase compatibility</span></span></p></td>
+<td><p><span data-ttu-id="c963a-206">Herramientas de administración</span><span class="sxs-lookup"><span data-stu-id="c963a-206">Management Tools</span></span></p></td>
+<td><p><span data-ttu-id="c963a-207">Compatibilidad con la metabase de IIS 6</span><span class="sxs-lookup"><span data-stu-id="c963a-207">IIS 6 Metabase compatibility</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-208">Herramientas de administración</span><span class="sxs-lookup"><span data-stu-id="d7afd-208">Management Tools</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-209">Scripts y herramientas de administración de IIS</span><span class="sxs-lookup"><span data-stu-id="d7afd-209">IIS Management Scripts and Tools</span></span></p></td>
+<td><p><span data-ttu-id="c963a-208">Herramientas de administración</span><span class="sxs-lookup"><span data-stu-id="c963a-208">Management Tools</span></span></p></td>
+<td><p><span data-ttu-id="c963a-209">Scripts y herramientas de administración de IIS</span><span class="sxs-lookup"><span data-stu-id="c963a-209">IIS Management Scripts and Tools</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-210">Características de .net 3,5 Framework</span><span class="sxs-lookup"><span data-stu-id="d7afd-210">.Net 3.5 Framework Features</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-211">.Net 3,5 Framework</span><span class="sxs-lookup"><span data-stu-id="d7afd-211">.Net 3.5 Framework</span></span></p></td>
+<td><p><span data-ttu-id="c963a-210">Características de .net 3,5 Framework</span><span class="sxs-lookup"><span data-stu-id="c963a-210">.Net 3.5 Framework Features</span></span></p></td>
+<td><p><span data-ttu-id="c963a-211">.Net 3,5 Framework</span><span class="sxs-lookup"><span data-stu-id="c963a-211">.Net 3.5 Framework</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-212">Características de .net 4,5 Framework</span><span class="sxs-lookup"><span data-stu-id="d7afd-212">.Net 4.5 Framework Features</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-213">4,5 de .NET Framework</span><span class="sxs-lookup"><span data-stu-id="d7afd-213">.Net Framework 4.5</span></span></p></td>
+<td><p><span data-ttu-id="c963a-212">Características de .net 4,5 Framework</span><span class="sxs-lookup"><span data-stu-id="c963a-212">.Net 4.5 Framework Features</span></span></p></td>
+<td><p><span data-ttu-id="c963a-213">.NET Framework 4,5</span><span class="sxs-lookup"><span data-stu-id="c963a-213">.Net Framework 4.5</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-214">Características de .net 4,5 Framework</span><span class="sxs-lookup"><span data-stu-id="d7afd-214">.Net 4.5 Framework Features</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-215">ASP.Net 4,5</span><span class="sxs-lookup"><span data-stu-id="d7afd-215">ASP.Net 4.5</span></span></p></td>
+<td><p><span data-ttu-id="c963a-214">Características de .net 4,5 Framework</span><span class="sxs-lookup"><span data-stu-id="c963a-214">.Net 4.5 Framework Features</span></span></p></td>
+<td><p><span data-ttu-id="c963a-215">ASP.Net 4,5</span><span class="sxs-lookup"><span data-stu-id="c963a-215">ASP.Net 4.5</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-216">Características de .net 4,5 Framework</span><span class="sxs-lookup"><span data-stu-id="d7afd-216">.Net 4.5 Framework Features</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-217">Activación HTTP</span><span class="sxs-lookup"><span data-stu-id="d7afd-217">HTTP Activation</span></span></p></td>
+<td><p><span data-ttu-id="c963a-216">Características de .net 4,5 Framework</span><span class="sxs-lookup"><span data-stu-id="c963a-216">.Net 4.5 Framework Features</span></span></p></td>
+<td><p><span data-ttu-id="c963a-217">Activación HTTP</span><span class="sxs-lookup"><span data-stu-id="c963a-217">HTTP Activation</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-218">Características de .net 4,5 Framework</span><span class="sxs-lookup"><span data-stu-id="d7afd-218">.Net 4.5 Framework Features</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-219">Uso compartido de puertos TCP</span><span class="sxs-lookup"><span data-stu-id="d7afd-219">TCP Port Sharing</span></span></p></td>
+<td><p><span data-ttu-id="c963a-218">Características de .net 4,5 Framework</span><span class="sxs-lookup"><span data-stu-id="c963a-218">.Net 4.5 Framework Features</span></span></p></td>
+<td><p><span data-ttu-id="c963a-219">Uso compartido de puertos TCP</span><span class="sxs-lookup"><span data-stu-id="c963a-219">TCP Port Sharing</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-220">Servicio de transferencia inteligente en segundo plano</span><span class="sxs-lookup"><span data-stu-id="d7afd-220">Background Intelligent Transfer Service</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-221">Extensiones de servidor IIS</span><span class="sxs-lookup"><span data-stu-id="d7afd-221">IIS Server Extensions</span></span></p></td>
+<td><p><span data-ttu-id="c963a-220">Servicio de transferencia inteligente en segundo plano</span><span class="sxs-lookup"><span data-stu-id="c963a-220">Background Intelligent Transfer Service</span></span></p></td>
+<td><p><span data-ttu-id="c963a-221">Extensiones de servidor IIS</span><span class="sxs-lookup"><span data-stu-id="c963a-221">IIS Server Extensions</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-222">Servicios de tinta y escritura a mano</span><span class="sxs-lookup"><span data-stu-id="d7afd-222">Ink and Handwriting Services</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-223">Servicios de tinta y escritura a mano</span><span class="sxs-lookup"><span data-stu-id="d7afd-223">Ink and Handwriting Services</span></span></p></td>
+<td><p><span data-ttu-id="c963a-222">Servicios de Escritura con lápiz y Escritura a mano</span><span class="sxs-lookup"><span data-stu-id="c963a-222">Ink and Handwriting Services</span></span></p></td>
+<td><p><span data-ttu-id="c963a-223">Servicios de Escritura con lápiz y Escritura a mano</span><span class="sxs-lookup"><span data-stu-id="c963a-223">Ink and Handwriting Services</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-224">Media Foundation</span><span class="sxs-lookup"><span data-stu-id="d7afd-224">Media Foundation</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-225">Media Foundation</span><span class="sxs-lookup"><span data-stu-id="d7afd-225">Media Foundation</span></span></p></td>
+<td><p><span data-ttu-id="c963a-224">Media Foundation</span><span class="sxs-lookup"><span data-stu-id="c963a-224">Media Foundation</span></span></p></td>
+<td><p><span data-ttu-id="c963a-225">Media Foundation</span><span class="sxs-lookup"><span data-stu-id="c963a-225">Media Foundation</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-226">Infraestructura y interfaces de usuario</span><span class="sxs-lookup"><span data-stu-id="d7afd-226">User Interfaces and Infrastructure</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-227">Herramientas de administración gráfica e infraestructura</span><span class="sxs-lookup"><span data-stu-id="d7afd-227">Graphical Management Tools and Infrastructure</span></span></p></td>
+<td><p><span data-ttu-id="c963a-226">Infraestructura e interfaces de usuario</span><span class="sxs-lookup"><span data-stu-id="c963a-226">User Interfaces and Infrastructure</span></span></p></td>
+<td><p><span data-ttu-id="c963a-227">Infraestructura y herramientas de administración gráficas</span><span class="sxs-lookup"><span data-stu-id="c963a-227">Graphical Management Tools and Infrastructure</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-228">Infraestructura y interfaces de usuario</span><span class="sxs-lookup"><span data-stu-id="d7afd-228">User Interfaces and Infrastructure</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-229">Experiencia de escritorio</span><span class="sxs-lookup"><span data-stu-id="d7afd-229">Desktop Experience</span></span></p></td>
+<td><p><span data-ttu-id="c963a-228">Infraestructura e interfaces de usuario</span><span class="sxs-lookup"><span data-stu-id="c963a-228">User Interfaces and Infrastructure</span></span></p></td>
+<td><p><span data-ttu-id="c963a-229">Experiencia de escritorio</span><span class="sxs-lookup"><span data-stu-id="c963a-229">Desktop Experience</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-230">Infraestructura y interfaces de usuario</span><span class="sxs-lookup"><span data-stu-id="d7afd-230">User Interfaces and Infrastructure</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-231">Shell gráfico de servidor</span><span class="sxs-lookup"><span data-stu-id="d7afd-231">Server Graphical Shell</span></span></p></td>
+<td><p><span data-ttu-id="c963a-230">Infraestructura e interfaces de usuario</span><span class="sxs-lookup"><span data-stu-id="c963a-230">User Interfaces and Infrastructure</span></span></p></td>
+<td><p><span data-ttu-id="c963a-231">Shell gráfico del servidor</span><span class="sxs-lookup"><span data-stu-id="c963a-231">Server Graphical Shell</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-232">Windows Identity Foundation 3.5</span><span class="sxs-lookup"><span data-stu-id="d7afd-232">Windows Identity Foundation 3.5</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-233">Windows Identity Foundation 3.5</span><span class="sxs-lookup"><span data-stu-id="d7afd-233">Windows Identity Foundation 3.5</span></span></p></td>
+<td><p><span data-ttu-id="c963a-232">Windows Identity Foundation 3,5</span><span class="sxs-lookup"><span data-stu-id="c963a-232">Windows Identity Foundation 3.5</span></span></p></td>
+<td><p><span data-ttu-id="c963a-233">Windows Identity Foundation 3,5</span><span class="sxs-lookup"><span data-stu-id="c963a-233">Windows Identity Foundation 3.5</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7afd-234">Servicio de activación de procesos de Windows</span><span class="sxs-lookup"><span data-stu-id="d7afd-234">Windows Process Activation Service</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-235">Modelo de proceso</span><span class="sxs-lookup"><span data-stu-id="d7afd-235">Process Model</span></span></p></td>
+<td><p><span data-ttu-id="c963a-234">Servicio de activación de procesos de Windows</span><span class="sxs-lookup"><span data-stu-id="c963a-234">Windows Process Activation Service</span></span></p></td>
+<td><p><span data-ttu-id="c963a-235">Modelo de proceso</span><span class="sxs-lookup"><span data-stu-id="c963a-235">Process Model</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7afd-236">Servicio de activación de procesos de Windows</span><span class="sxs-lookup"><span data-stu-id="d7afd-236">Windows Process Activation Service</span></span></p></td>
-<td><p><span data-ttu-id="d7afd-237">API de configuración</span><span class="sxs-lookup"><span data-stu-id="d7afd-237">Configuration APIs</span></span></p></td>
+<td><p><span data-ttu-id="c963a-236">Servicio de activación de procesos de Windows</span><span class="sxs-lookup"><span data-stu-id="c963a-236">Windows Process Activation Service</span></span></p></td>
+<td><p><span data-ttu-id="c963a-237">API de configuración</span><span class="sxs-lookup"><span data-stu-id="c963a-237">Configuration APIs</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="d7afd-238">En Windows Server 2012 y Windows Server 2012 R2, puede usar Windows PowerShell 3,0 para instalar los requisitos de IIS.</span><span class="sxs-lookup"><span data-stu-id="d7afd-238">In Windows Server 2012 and Windows Server 2012 R2, you can use Windows PowerShell 3.0 to install the IIS Requirements.</span></span> <span data-ttu-id="d7afd-239">Usar el módulo ServerManager en Windows PowerShell 3,0, escriba:</span><span class="sxs-lookup"><span data-stu-id="d7afd-239">Using the ServerManager module in Windows PowerShell 3.0, type:</span></span>
+<span data-ttu-id="c963a-238">En Windows Server 2012 y Windows Server 2012 R2, puede usar Windows PowerShell 3,0 para instalar los requisitos de IIS.</span><span class="sxs-lookup"><span data-stu-id="c963a-238">In Windows Server 2012 and Windows Server 2012 R2, you can use Windows PowerShell 3.0 to install the IIS Requirements.</span></span> <span data-ttu-id="c963a-239">Usar el módulo ServerManager en Windows PowerShell 3,0, escriba:</span><span class="sxs-lookup"><span data-stu-id="c963a-239">Using the ServerManager module in Windows PowerShell 3.0, type:</span></span>
 
    ```PowerShell
     Import-Module ServerManager
@@ -357,7 +357,7 @@ ms.locfileid: "41729330"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="d7afd-240">Novedades de Windows Server 2012 es el parámetro – Source que define dónde se pueden encontrar los medios de origen de Windows Server 2012.</span><span class="sxs-lookup"><span data-stu-id="d7afd-240">New with Windows Server 2012 is the –Source parameter that defines where the Windows Server 2012 source media can be found.</span></span> <span data-ttu-id="d7afd-241">El medio se puede definir como una unidad de DVD (por ejemplo, D:\Sources\Sxs) o como un recurso compartido de red en el que se han copiado los archivos \\multimedia (por ejemplo, fileserver\windows2012\sources\Sxs).</span><span class="sxs-lookup"><span data-stu-id="d7afd-241">The media can be defined as a DVD drive (for example, D:\Sources\Sxs), or to a network share that the media files have been copied (for example, \\fileserver\windows2012\sources\Sxs).</span></span>
+> <span data-ttu-id="c963a-240">New with Windows Server 2012 es el parámetro – Source que define dónde se puede encontrar el medio de origen de Windows Server 2012.</span><span class="sxs-lookup"><span data-stu-id="c963a-240">New with Windows Server 2012 is the –Source parameter that defines where the Windows Server 2012 source media can be found.</span></span> <span data-ttu-id="c963a-241">El medio puede definirse como una unidad de DVD (por ejemplo, D:\Sources\Sxs) o en un recurso compartido de red en el que se han copiado los archivos \\multimedia (por ejemplo, fileserver\windows2012\sources\Sxs).</span><span class="sxs-lookup"><span data-stu-id="c963a-241">The media can be defined as a DVD drive (for example, D:\Sources\Sxs), or to a network share that the media files have been copied (for example, \\fileserver\windows2012\sources\Sxs).</span></span>
 
 
 
@@ -365,10 +365,10 @@ ms.locfileid: "41729330"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="d7afd-242">Vea también</span><span class="sxs-lookup"><span data-stu-id="d7afd-242">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c963a-242">Vea también</span><span class="sxs-lookup"><span data-stu-id="c963a-242">See Also</span></span>
 
 
-[<span data-ttu-id="d7afd-243">Requisitos de IIS para grupos de servidores front-end y servidores Standard Edition en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d7afd-243">IIS requirements for Front End pools and Standard Edition servers in Lync Server 2013</span></span>](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)  
+[<span data-ttu-id="c963a-243">Requisitos de IIS para grupos de servidores front-end y servidores Standard Edition en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c963a-243">IIS requirements for Front End pools and Standard Edition servers in Lync Server 2013</span></span>](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configuración de directivas del sitio para archivar'
+title: 'Lync Server 2013: configuración de directivas de sitio para archivado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185613
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ebb1efdfff09f51b13ada9d1e2aa571ab88c888
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2fd9e63ad6aec440c090b4303a32cba37953e1d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732110"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040829"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-site-policies-for-archiving-in-lync-server-2013"></a><span data-ttu-id="438e7-102">Configurar directivas de sitio para archivar en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="438e7-102">Setting up site policies for Archiving in Lync Server 2013</span></span>
+# <a name="setting-up-site-policies-for-archiving-in-lync-server-2013"></a><span data-ttu-id="8899a-102">Configuración de directivas de sitio para archivado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8899a-102">Setting up site policies for Archiving in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41732110"
 
 <span> </span>
 
-<span data-ttu-id="438e7-103">_**Última modificación del tema:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="438e7-103">_**Topic Last Modified:** 2012-10-09_</span></span>
+<span data-ttu-id="8899a-103">_**Última modificación del tema:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="8899a-103">_**Topic Last Modified:** 2012-10-09_</span></span>
 
-<span data-ttu-id="438e7-104">Puede habilitar o deshabilitar el archivado de sitios específicos creando y configurando una directiva de archivado para cada uno de esos sitios.</span><span class="sxs-lookup"><span data-stu-id="438e7-104">You can enable or disable Archiving for specific sites by creating and configuring an Archiving policy for each of those sites.</span></span> <span data-ttu-id="438e7-105">Las directivas de sitio invalidan las directivas globales, pero las directivas de usuario invalidan las directivas de sitio.</span><span class="sxs-lookup"><span data-stu-id="438e7-105">A site policy overrides the global policy, but user policies override site policies.</span></span> <span data-ttu-id="438e7-106">Las directivas de archivado solo se aplican si no usa la integración de Microsoft Exchange o si usa la integración de Microsoft Exchange, pero tiene algunos usuarios que no están alojados en Exchange 2013 y tienen sus buzones en conservación local.</span><span class="sxs-lookup"><span data-stu-id="438e7-106">Archiving policies only apply if you do not use Microsoft Exchange integration or, if you do use Microsoft Exchange integration, but have some users who are not homed on Exchange 2013 and have their mailboxes put on In-Place Hold.</span></span>
+<span data-ttu-id="8899a-104">Puede habilitar o deshabilitar el archivado de sitios específicos al crear y configurar una directiva de archivado para cada uno de esos sitios.</span><span class="sxs-lookup"><span data-stu-id="8899a-104">You can enable or disable Archiving for specific sites by creating and configuring an Archiving policy for each of those sites.</span></span> <span data-ttu-id="8899a-105">Las directiva de sitio anulan la directiva global pero las directivas de usuario anulan las directivas de sitio.</span><span class="sxs-lookup"><span data-stu-id="8899a-105">A site policy overrides the global policy, but user policies override site policies.</span></span> <span data-ttu-id="8899a-106">Las directivas de archivado solo se aplican si no se usa la integración de Microsoft Exchange o si se usa la integración de Microsoft Exchange, pero hay algunos usuarios que no están hospedados en Exchange 2013 y cuyos buzones se van a poner en conservación local.</span><span class="sxs-lookup"><span data-stu-id="8899a-106">Archiving policies only apply if you do not use Microsoft Exchange integration or, if you do use Microsoft Exchange integration, but have some users who are not homed on Exchange 2013 and have their mailboxes put on In-Place Hold.</span></span>
 
-<span data-ttu-id="438e7-107">Para obtener detalles sobre cómo funcionan las directivas de archivado, incluida la jerarquía para las directivas globales, de sitio y de usuario, consulte [Cómo funciona el archivado en](lync-server-2013-how-archiving-works.md) la documentación de planeamiento, la documentación de implementación o la documentación de operaciones de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="438e7-107">For details about how Archiving policies work, including the hierarchy for global, site, and user policies, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) Planning documentation, Deployment documentation, or Operations documentation.</span></span>
+<span data-ttu-id="8899a-107">Para obtener más información sobre cómo funcionan las directivas de archivado, incluida la jerarquía de las directivas globales, de sitio y de usuario, consulte [how archiving Works in Lync Server 2013](lync-server-2013-how-archiving-works.md) Planning Documentation, Deployment Documentation o Operations Documentation.</span><span class="sxs-lookup"><span data-stu-id="8899a-107">For details about how Archiving policies work, including the hierarchy for global, site, and user policies, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) Planning documentation, Deployment documentation, or Operations documentation.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="438e7-108">Si habilita la integración de Microsoft Exchange para su implementación, las directivas de retención local de Exchange controlan si el archivado está habilitado para los usuarios alojados en Exchange 2013 y si sus buzones se colocan en conservación local.</span><span class="sxs-lookup"><span data-stu-id="438e7-108">If you enable Microsoft Exchange integration for your deployment, Exchange In-Place Hold policies control whether archiving is enabled for the users who are homed on Exchange 2013 and have their mailboxes put on In-Place Hold.</span></span> <span data-ttu-id="438e7-109">Para obtener más información, consulte <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">configurar directivas para archivar en Lync Server 2013 al usar la integración de Exchange Server</A> en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="438e7-109">For details, see <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies for Archiving in Lync Server 2013 when using Exchange Server integration</A> in the Deployment documentation.</span></span><BR><span data-ttu-id="438e7-110">Es necesario que especifique todas las opciones adecuadas en las configuraciones de archivado antes de habilitar el archivado de las comunicaciones internas o externas en las directivas de archivado.</span><span class="sxs-lookup"><span data-stu-id="438e7-110">You should specify all appropriate options in the Archiving configurations before enabling Archiving of internal or external communications in the Archiving policies.</span></span> <span data-ttu-id="438e7-111">Para obtener información detallada, vea <A href="lync-server-2013-configuring-archiving-options.md">configuración de las opciones de archivado en Lync Server 2013</A> en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="438e7-111">For details, see <A href="lync-server-2013-configuring-archiving-options.md">Configuring Archiving options in Lync Server 2013</A> in the Deployment documentation.</span></span>
+> <span data-ttu-id="8899a-108">Si habilita la integración de Microsoft Exchange para su implementación, las directivas de conservación local de Exchange controlan si el archivado está habilitado para los usuarios que están hospedados en Exchange 2013 y que tienen sus buzones en conservación local.</span><span class="sxs-lookup"><span data-stu-id="8899a-108">If you enable Microsoft Exchange integration for your deployment, Exchange In-Place Hold policies control whether archiving is enabled for the users who are homed on Exchange 2013 and have their mailboxes put on In-Place Hold.</span></span> <span data-ttu-id="8899a-109">Para obtener más información, consulte <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">configuración de directivas para archivar en Lync Server 2013 al usar la integración de Exchange Server</A> en la documentación sobre implementación.</span><span class="sxs-lookup"><span data-stu-id="8899a-109">For details, see <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies for Archiving in Lync Server 2013 when using Exchange Server integration</A> in the Deployment documentation.</span></span><BR><span data-ttu-id="8899a-110">Debe especificar las opciones correctas en la configuración del archivado antes de habilitar el archivado de las comunicaciones internas o externas en las directivas de archivado.</span><span class="sxs-lookup"><span data-stu-id="8899a-110">You should specify all appropriate options in the Archiving configurations before enabling Archiving of internal or external communications in the Archiving policies.</span></span> <span data-ttu-id="8899a-111">Para obtener más información, consulte <A href="lync-server-2013-configuring-archiving-options.md">Configuring archiving Options in Lync Server 2013</A> en la documentación sobre implementación.</span><span class="sxs-lookup"><span data-stu-id="8899a-111">For details, see <A href="lync-server-2013-configuring-archiving-options.md">Configuring Archiving options in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
@@ -53,31 +53,31 @@ ms.locfileid: "41732110"
 
 <div>
 
-## <a name="to-create-an-archiving-policy-for-a-site"></a><span data-ttu-id="438e7-112">Para crear una directiva de archivado para un sitio</span><span class="sxs-lookup"><span data-stu-id="438e7-112">To create an archiving policy for a site</span></span>
+## <a name="to-create-an-archiving-policy-for-a-site"></a><span data-ttu-id="8899a-112">Para crear una directiva de archivado para un sitio</span><span class="sxs-lookup"><span data-stu-id="8899a-112">To create an archiving policy for a site</span></span>
 
-1.  <span data-ttu-id="438e7-113">Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="438e7-113">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="8899a-113">Desde una cuenta de usuario que se asigne a la función CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="8899a-113">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="438e7-114">Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="438e7-114">Open a browser window, and then enter the Admin URL to open the Lync Server 2013 Control Panel.</span></span>
+2.  <span data-ttu-id="8899a-114">Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8899a-114">Open a browser window, and then enter the Admin URL to open the Lync Server 2013 Control Panel.</span></span>
 
-3.  <span data-ttu-id="438e7-115">En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Directiva de archivado**.</span><span class="sxs-lookup"><span data-stu-id="438e7-115">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.</span></span>
+3.  <span data-ttu-id="8899a-115">En la barra de navegación izquierda, haga clic en **Configuración y archivado** y, a continuación, en **Directiva de archivado**.</span><span class="sxs-lookup"><span data-stu-id="8899a-115">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.</span></span>
     
-    <span data-ttu-id="438e7-116">Para obtener detalles sobre cómo funcionan las directivas de archivado, incluida la jerarquía para las directivas globales, de sitio y de usuario, consulte [Cómo funciona el archivado en](lync-server-2013-how-archiving-works.md) la documentación de planeamiento, la documentación de implementación o la documentación de operaciones de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="438e7-116">For details about how Archiving policies work, including the hierarchy for global, site, and user policies, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) Planning documentation, Deployment documentation, or Operations documentation.</span></span>
+    <span data-ttu-id="8899a-116">Para obtener más información sobre cómo funcionan las directivas de archivado, incluida la jerarquía de las directivas globales, de sitio y de usuario, consulte [how archiving Works in Lync Server 2013](lync-server-2013-how-archiving-works.md) Planning Documentation, Deployment Documentation o Operations Documentation.</span><span class="sxs-lookup"><span data-stu-id="8899a-116">For details about how Archiving policies work, including the hierarchy for global, site, and user policies, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) Planning documentation, Deployment documentation, or Operations documentation.</span></span>
 
-4.  <span data-ttu-id="438e7-117">Haga clic en **Nuevo** y en **Directiva de sitio**.</span><span class="sxs-lookup"><span data-stu-id="438e7-117">Click **New**, and then click **Site policy**.</span></span>
+4.  <span data-ttu-id="8899a-117">Haga clic en  \*\*Nuevo \*\* y en  \*\*Directiva de sitio \*\*.</span><span class="sxs-lookup"><span data-stu-id="8899a-117">Click **New**, and then click **Site policy**.</span></span>
 
-5.  <span data-ttu-id="438e7-118">En **Seleccionar un sitio**, haga clic en el sitio al que se aplicará la directiva.</span><span class="sxs-lookup"><span data-stu-id="438e7-118">In **Select a site**, click the site to which the policy is to be applied.</span></span>
+5.  <span data-ttu-id="8899a-118">En  \*\*Seleccionar un sitio \*\*, haga clic en el sitio al que se va a aplicar la directiva.</span><span class="sxs-lookup"><span data-stu-id="8899a-118">In **Select a site**, click the site to which the policy is to be applied.</span></span>
 
-6.  <span data-ttu-id="438e7-119">En **Directiva de archivado nueva**, haga lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="438e7-119">In **New Archiving Policy**, do the following:</span></span>
+6.  <span data-ttu-id="8899a-119">En  \*\*Directiva de archivado nueva \*\*, haga lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8899a-119">In **New Archiving Policy**, do the following:</span></span>
     
-      - <span data-ttu-id="438e7-120">En **Nombre**, especifique el nombre para la directiva de sitio.</span><span class="sxs-lookup"><span data-stu-id="438e7-120">In **Name**, specify the name for the site policy.</span></span>
+      - <span data-ttu-id="8899a-120">En  \*\*Nombre \*\*, especifique el nombre para la directiva de sitio.</span><span class="sxs-lookup"><span data-stu-id="8899a-120">In **Name**, specify the name for the site policy.</span></span>
     
-      - <span data-ttu-id="438e7-121">En **Descripción**, proporcione información sobre la directiva de sitio (por ejemplo, directiva de sitio para Redmond).</span><span class="sxs-lookup"><span data-stu-id="438e7-121">In **Description**, provide information about what the site policy is (for example, site policy for Redmond).</span></span>
+      - <span data-ttu-id="8899a-121">En **Descripción**, proporcione información sobre la función de la directiva de sitio (por ejemplo, directiva de archivado de usuarios externos para Redmond).</span><span class="sxs-lookup"><span data-stu-id="8899a-121">In **Description**, provide information about what the site policy is (for example, site policy for Redmond).</span></span>
     
-      - <span data-ttu-id="438e7-122">Para controlar el archivado de las comunicaciones internas para los sitios especificados, active o desactive la casilla **Archivar comunicaciones internas**.</span><span class="sxs-lookup"><span data-stu-id="438e7-122">To control archiving of internal communications for the specified site, select or clear the **Archive internal communications** check box.</span></span>
+      - <span data-ttu-id="8899a-122">Para controlar el archivado de comunicaciones internas para los sitios especificados, active o desactive la casilla  \*\*Archivar comunicaciones internas \*\*.</span><span class="sxs-lookup"><span data-stu-id="8899a-122">To control archiving of internal communications for the specified site, select or clear the **Archive internal communications** check box.</span></span>
     
-      - <span data-ttu-id="438e7-123">Para controlar el archivado de las comunicaciones externas para los usuarios especificados, active o desactive la casilla **Archivar comunicaciones externas**.</span><span class="sxs-lookup"><span data-stu-id="438e7-123">To control archiving of external communications for the specified site, select or clear the **Archive external communications** check box.</span></span>
+      - <span data-ttu-id="8899a-123">Para controlar el archivado de comunicaciones externas para los usuarios especificados, active o desactive la casilla  \*\*Archivar comunicaciones externas \*\*.</span><span class="sxs-lookup"><span data-stu-id="8899a-123">To control archiving of external communications for the specified site, select or clear the **Archive external communications** check box.</span></span>
 
-7.  <span data-ttu-id="438e7-124">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="438e7-124">Click **Commit**.</span></span>
+7.  <span data-ttu-id="8899a-124">Haga clic en  \*\*Confirmar \*\*.</span><span class="sxs-lookup"><span data-stu-id="8899a-124">Click **Commit**.</span></span>
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Establecer quién puede enviar mensajes en un salón de chat de tipo auditorio'
+title: 'Lync Server 2013: establecer quién puede exponer mensajes en un salón de chat de Auditorio'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48705999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 528b7ec0bc92d3281e599f6313a554c4eee0e8b2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 882e5941afdbdfb046142d38d47a458a5eb75c5c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764526"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039258"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-who-can-post-messages-in-an-auditorium-chat-room-in-lync-server-2013"></a><span data-ttu-id="5ab94-102">Establecer quién puede enviar mensajes en un salón de chat de tipo auditorio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5ab94-102">Setting who can post messages in an auditorium chat room in Lync Server 2013</span></span>
+# <a name="setting-who-can-post-messages-in-an-auditorium-chat-room-in-lync-server-2013"></a><span data-ttu-id="e616a-102">Establecer quién puede publicar mensajes en un salón de chat de auditorio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e616a-102">Setting who can post messages in an auditorium chat room in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41764526"
 
 <span> </span>
 
-<span data-ttu-id="5ab94-103">_**Última modificación del tema:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="5ab94-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="e616a-103">_**Última modificación del tema:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="e616a-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="5ab94-104">En un salón de chat de auditorio, solo los usuarios a los que se les haya otorgado el rol de moderador pueden enviar mensajes.</span><span class="sxs-lookup"><span data-stu-id="5ab94-104">In an auditorium chat room, only users who have been granted the role of Presenter can post messages.</span></span> <span data-ttu-id="5ab94-105">El resto de miembros solo puede leer mensajes.</span><span class="sxs-lookup"><span data-stu-id="5ab94-105">All other members can only read messages.</span></span> <span data-ttu-id="5ab94-106">Los moderadores de un salón de chat de Auditorio deben ser miembros del salón de chat.</span><span class="sxs-lookup"><span data-stu-id="5ab94-106">Presenters in an auditorium chat room must be members of the chat room.</span></span>
+<span data-ttu-id="e616a-p101">En un salón de chat de tipo auditorio, solo podrán publicar mensajes aquellos usuarios a los que se haya asignado el rol de moderador. Los demás miembros solo podrán leer mensajes. Los moderadores de un salón de chat de tipo auditorio deben ser miembros del salón de chat.</span><span class="sxs-lookup"><span data-stu-id="e616a-p101">In an auditorium chat room, only users who have been granted the role of Presenter can post messages. All other members can only read messages. Presenters in an auditorium chat room must be members of the chat room.</span></span>
 
-<span data-ttu-id="5ab94-107">Para obtener información detallada sobre el uso de la interfaz de línea de comandos de Windows PowerShell para administrar salones de chat de auditorio, consulte [administrar salas](manage-rooms.md) en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="5ab94-107">For details about using the Windows PowerShell command-line interface to manage auditorium chat rooms, see [Manage rooms](manage-rooms.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="e616a-107">Para obtener información detallada sobre el uso de la interfaz de línea de comandos de Windows PowerShell para administrar salones de chat de auditorio, consulte [Manage Rooms](manage-rooms.md) en la documentación sobre implementación.</span><span class="sxs-lookup"><span data-stu-id="e616a-107">For details about using the Windows PowerShell command-line interface to manage auditorium chat rooms, see [Manage rooms](manage-rooms.md) in the Deployment documentation.</span></span>
 
-<span data-ttu-id="5ab94-108">Aunque los administradores del salón de chat y los administradores del salón de chat pueden administrar la configuración del salón de chat, no pueden publicar en un salón de chat a menos que sean **moderadores**.</span><span class="sxs-lookup"><span data-stu-id="5ab94-108">Although Persistent Chat room administrators and chat room managers can manage chat room settings, they cannot post in an auditorium chat room unless they are **Presenters**.</span></span>
+<span data-ttu-id="e616a-108">Aunque los administradores de salones de chat persistente y los administradores de salones de chat pueden administrar la configuración de los salones de chat, no pueden publicar en un salón de chat de Auditorio a menos que sean **moderadores**.</span><span class="sxs-lookup"><span data-stu-id="e616a-108">Although Persistent Chat room administrators and chat room managers can manage chat room settings, they cannot post in an auditorium chat room unless they are **Presenters**.</span></span>
 
 </div>
 

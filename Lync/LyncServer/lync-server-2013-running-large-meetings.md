@@ -12,20 +12,20 @@ ms:contentKeyID: 48185603
 ms.date: 01/17/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e3dacecfcb619d9b2a7142c562572f60b121894
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efc7d3d105b09f3a917829e5610396b49f43d923
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765058"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051022"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="running-large-meetings-in-lync-server-2013"></a><span data-ttu-id="8cae6-102">Ejecutar reuniones grandes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cae6-102">Running large meetings in Lync Server 2013</span></span>
+# <a name="running-large-meetings-in-lync-server-2013"></a><span data-ttu-id="bacc3-102">Ejecutar reuniones grandes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bacc3-102">Running large meetings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765058"
 
 <span> </span>
 
-<span data-ttu-id="8cae6-103">_**Última modificación del tema:** 2019-01-17_</span><span class="sxs-lookup"><span data-stu-id="8cae6-103">_**Topic Last Modified:** 2019-01-17_</span></span>
+<span data-ttu-id="bacc3-103">_**Última modificación del tema:** 2019-01-17_</span><span class="sxs-lookup"><span data-stu-id="bacc3-103">_**Topic Last Modified:** 2019-01-17_</span></span>
 
-<span data-ttu-id="8cae6-p101">En las reuniones que tengan cientos o miles de usuarios, recomendamos dedicar a una persona a moderar la sesión en línea. Esta persona dedicada puede ser un delegado del organizador de la reunión o un miembro del personal de soporte técnico de la organización para reuniones grandes. Es importante que, en el momento de programar la reunión, agregue como moderador al encargado dedicado a moderar la reunión, aunque puede promocionar a un asistente a la reunión en línea al rol de moderador mientras la reunión se está celebrando.</span><span class="sxs-lookup"><span data-stu-id="8cae6-p101">With several hundred to a thousand users in a meeting, it is a good practice to have a dedicated person moderate the online session of a large meeting. This dedicated person can be a delegate of the meeting organizer or a member of the organization’s large-meeting support staff. It is important to add the dedicated meeting moderator as a presenter at the time that the meeting is scheduled, although it is possible to promote an online meeting attendee to the presenter role while the meeting is in progress.</span></span>
+<span data-ttu-id="bacc3-104">Con varios cientos o miles de usuarios en una reunión, se recomienda que una persona dedicada se ponga en moderada la sesión en línea de una reunión grande.</span><span class="sxs-lookup"><span data-stu-id="bacc3-104">With several hundred to a thousand users in a meeting, it is a good practice to have a dedicated person moderate the online session of a large meeting.</span></span> <span data-ttu-id="bacc3-105">Esta persona dedicada puede ser un delegado del organizador de la reunión o un miembro del personal de soporte técnico de la organización para reuniones grandes.</span><span class="sxs-lookup"><span data-stu-id="bacc3-105">This dedicated person can be a delegate of the meeting organizer or a member of the organization’s large-meeting support staff.</span></span> <span data-ttu-id="bacc3-106">Es importante que, en el momento de programar la reunión, agregue como moderador al encargado dedicado a moderar la reunión, aunque puede promocionar a un asistente a la reunión en línea al rol de moderador mientras la reunión se está celebrando.</span><span class="sxs-lookup"><span data-stu-id="bacc3-106">It is important to add the dedicated meeting moderator as a presenter at the time that the meeting is scheduled, although it is possible to promote an online meeting attendee to the presenter role while the meeting is in progress.</span></span>
 
-<span data-ttu-id="8cae6-107">El moderador de la reunión puede usar las siguientes funciones del moderador de clientes de Lync Server 2013 para administrar la reunión grande:</span><span class="sxs-lookup"><span data-stu-id="8cae6-107">The meeting moderator can use the following presenter functionalities of Lync Server 2013 clients to manage the large meeting:</span></span>
+<span data-ttu-id="bacc3-107">El moderador de la reunión puede usar las siguientes funciones presentadoras de clientes de Lync Server 2013 para administrar la reunión grande:</span><span class="sxs-lookup"><span data-stu-id="bacc3-107">The meeting moderator can use the following presenter functionalities of Lync Server 2013 clients to manage the large meeting:</span></span>
 
-- <span data-ttu-id="8cae6-108">Cambiar los tipos de acceso a la reunión.</span><span class="sxs-lookup"><span data-stu-id="8cae6-108">Change meeting access types.</span></span>
+- <span data-ttu-id="bacc3-108">Cambiar los tipos de acceso a la reunión.</span><span class="sxs-lookup"><span data-stu-id="bacc3-108">Change meeting access types.</span></span>
 
-- <span data-ttu-id="8cae6-109">Invite a otros participantes durante la reunión con la funcionalidad de arrastrar y colocar de Lync, el marcado por teléfono o el correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="8cae6-109">Invite additional participants during the meeting using Lync drag and drop functionality, phone dial out, or email.</span></span>
+- <span data-ttu-id="bacc3-109">Invite a participantes adicionales durante la reunión con la funcionalidad de arrastrar y colocar de Lync, el marcado por teléfono o el correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="bacc3-109">Invite additional participants during the meeting using Lync drag and drop functionality, phone dial out, or email.</span></span>
 
-- <span data-ttu-id="8cae6-110">Administre el contenido de la reunión, incluida la carga de contenido, la eliminación de contenido y el cambio de contenido activo.</span><span class="sxs-lookup"><span data-stu-id="8cae6-110">Manage meeting content, including uploading content, deleting content, and switching active content.</span></span>
+- <span data-ttu-id="bacc3-110">Administre el contenido de las reuniones, incluida la carga de contenido, la eliminación de contenido y el cambio de contenido activo.</span><span class="sxs-lookup"><span data-stu-id="bacc3-110">Manage meeting content, including uploading content, deleting content, and switching active content.</span></span>
 
 </div>
 
