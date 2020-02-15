@@ -12,20 +12,20 @@ ms:contentKeyID: 48185303
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59ab58cbee3479bff424e7d69d475e1d83fdd3bf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4d2bcd5265d9e8af53cb2dab608bbe08f2902330
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726520"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049802"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-archiving-options-at-the-global-level-in-lync-server-2013"></a>Configurar las opciones de archivado en el nivel global de Lync Server 2013
+# <a name="configuring-archiving-options-at-the-global-level-in-lync-server-2013"></a>Configurar las opciones de archivado en el nivel global en Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41726520"
 
 _**Última modificación del tema:** 2012-10-10_
 
-Al agregar el archivado a la topología y publicar la topología, Lync Server crea una configuración global para el archivado. De forma predeterminada, no se habilitan opciones de archivado en la configuración global. La configuración global controla qué opciones se habilitan para toda la implementación, a menos que realice configuraciones de sitio o de grupo, que omiten la configuración global.
+Cuando se agrega el archivado a la topología y se publica la topología, Lync Server crea una configuración global para el archivado. De forma predeterminada, no se habilita ninguna opción de archivado en la configuración global. La configuración global controla qué opciones se habilitan para su completa implementación, a menos que realice configuraciones de sitio o grupo de servidores, que omiten la configuración global.
 
-Para obtener detalles sobre cómo funcionan las configuraciones de archivado, incluida la jerarquía para las configuraciones globales, de sitio y de grupo, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, la documentación de implementación o la documentación de operaciones.
+Para obtener más información sobre cómo funcionan las configuraciones de archivado, incluida la jerarquía para las configuraciones globales, de sitio y de grupo, consulte [how archiving Works in Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, implementación o operaciones.
 
 <div>
 
 
 > [!NOTE]  
-> Debe especificar todas las opciones apropiadas en las configuraciones de archivado antes de habilitar el archivado.
+> Debe especificar todas las opciones adecuadas en las configuraciones de archivado antes de habilitar el archivado.
 
 
 
@@ -53,35 +53,35 @@ Para obtener detalles sobre cómo funcionan las configuraciones de archivado, in
 
 <div>
 
-## <a name="to-configure-archiving-options-at-the-global-level"></a>Para configurar las opciones de archivado en el nivel global
+## <a name="to-configure-archiving-options-at-the-global-level"></a>Procedimiento para configurar las opciones de archivado en el nivel global
 
-1.  Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server 2013. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server 2013, consulte [abrir las herramientas administrativas de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server 2013. Para obtener más información acerca de los diferentes métodos que puede usar para iniciar el panel de control de Lync Server 2013, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Configuración de archivado**.
+3.  En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, a continuación, haga clic en **Configuración de archivado**.
 
-4.  En la página **Configuración de archivado**, haga clic en **Global**, en **Editar** y, luego, en **Mostrar detalles**.
+4.  En la página **Configuración de archivado**, haga clic en **Global**, **Editar** y **Mostrar detalles**.
 
 5.  En **Editar configuración de archivado: global**, en la lista desplegable **Configuración de archivado**, seleccione una de las siguientes opciones de archivado:
     
       - **Deshabilitar archivado**
     
-      - **Archivar sesiones de mensajería instantánea (MI)**
+      - **Archivar sesiones de mensajería instantánea**
     
-      - **Archivar sesiones de mensajería instantánea (MI) y conferencias web**
+      - **Archivar mensajería instantánea y sesiones de conferencias web**
 
 6.  Además, en la página **Editar configuración de archivado: global**, haga lo siguiente:
     
-      - Para bloquear la actividad cuando el archivado no está disponible, active la casilla **Bloquear sesiones de mensajería instantánea (MI) o de conferencias web si no se pueden archivar**.
+      - Para bloquear la actividad si el archivado no está disponible, seleccione la casilla **Bloquear las sesiones de mensajería instantánea (MI) o conferencias web si se produce algún error en el archivado**.
     
-      - Para usar Microsoft Exchange Server para almacenar datos de archivado, haga clic en la casilla de verificación **integración con Microsoft Exchange** .
+      - Para usar Microsoft Exchange Server para almacenar datos de archivado, haga clic en la casilla de verificación **integración de Microsoft Exchange** .
     
-      - Para habilitar la purga de datos, active la casilla **Habilitar purgado de los datos de archivado** y realice una de las siguientes acciones:
+      - Para habilitar la purga de datos, active la casilla **Habilitar purga de los datos de archivado** y realice una de las siguientes acciones:
         
-          - Para especificar la purga al transcurrir una cantidad de días determinada, haga clic en **Purgar los datos de archivado exportados y los datos de archivado almacenados tras la duración máxima (días)** y especifique la cantidad de días.
+          - Para especificar la purga al transcurrir un número de días determinado, haga clic en **Purgar los datos de archivado exportados y los datos de archivado almacenados tras la duración máxima (días)** y especifique los días.
         
-          - Para limitar la purga de los datos de archivado que se han exportado, haga clic en **Purgar solo datos de archivado exportados**.
+          - Para limitar la purga de los datos archivados que se han exportado, haga clic en **Purgar solo datos archivados exportados**.
 
 7.  Haga clic en **Confirmar**.
 

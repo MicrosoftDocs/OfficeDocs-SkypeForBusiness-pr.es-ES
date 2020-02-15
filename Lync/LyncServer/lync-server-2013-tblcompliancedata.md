@@ -12,16 +12,16 @@ ms:contentKeyID: 48183308
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48516f307a084d30fde06a03548119e0ada34d6a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03f5a65b11c610849c5b9d031f24d236dcbcf332
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731510"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048511"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41731510"
 
 _**Última modificación del tema:** 2012-09-12_
 
-tblComplianceData contiene los eventos de conformidad que aún no ha procesado el adaptador de cumplimiento.
+La tabla tblComplianceData contiene los eventos de cumplimiento que aún no procesó el adaptador de cumplimiento.
 
-### <a name="columns"></a>Columnas
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,63 +57,63 @@ tblComplianceData contiene los eventos de conformidad que aún no ha procesado e
 <tbody>
 <tr class="odd">
 <td><p>cmplEventID</p></td>
-<td><p>BIGINT, not null</p></td>
-<td><p>IDENTIFICADOR de evento.</p></td>
+<td><p>bigint, no NULL</p></td>
+<td><p>Id. del evento.</p></td>
 </tr>
 <tr class="even">
 <td><p>entryDate</p></td>
-<td><p>smalldatetime, not null</p></td>
-<td><p>Hora de inserción (puede ser muy próxima para cmplType = 9 porque la entrada es solo un marcador de posición en ese caso).</p></td>
+<td><p>smalldatetime, no NULL</p></td>
+<td><p>Hora de inserción (puede estar lejos en el futuro para cmplType=9 porque la entrada solo es un marcador de posición en ese caso).</p></td>
 </tr>
 <tr class="odd">
 <td><p>cmplType</p></td>
-<td><p>int, not null</p></td>
-<td><p>Tipo de evento de conformidad:</p>
+<td><p>int, no NULL</p></td>
+<td><p>Tipo de evento de cumplimiento:</p>
 <ul>
-<li><p>1: chatear</p></li>
-<li><p>2: chatear</p></li>
-<li><p>3: descarga de archivos</p></li>
-<li><p>4: carga de archivos</p></li>
-<li><p>9: transferencia provisional de archivos</p></li>
-<li><p>10: eliminación de chat (con Replace)</p></li>
-<li><p>11: purgado de chat</p></li>
+<li><p>1: Chat</p></li>
+<li><p>2: Backchat</p></li>
+<li><p>3: Descarga de archivos</p></li>
+<li><p>4: Carga de archivos</p></li>
+<li><p>9: Transferencia de archivo provisional</p></li>
+<li><p>10: Eliminación de chats (con reemplazo)</p></li>
+<li><p>11: Depuración de chats</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>cmplTime</p></td>
-<td><p>BIGINT, not null</p></td>
+<td><p>bigint, no NULL</p></td>
 <td><p>Marca de tiempo del evento.</p></td>
 </tr>
 <tr class="odd">
 <td><p>cmplChannelUri</p></td>
-<td><p>nvarchar (255), not null</p></td>
+<td><p>nvarchar (255), no NULL</p></td>
 <td><p>Identificador uniforme de recursos (URI) del canal.</p></td>
 </tr>
 <tr class="even">
 <td><p>cmplChatID</p></td>
 <td><p>BIGINT</p></td>
-<td><p>IDENTIFICADOR de chat (corresponde a la tabla tblChat. chatId).</p></td>
+<td><p>Identificador de chat (correspondiente a la tabla tblChat.chatId).</p></td>
 </tr>
 <tr class="odd">
 <td><p>cmplUserID</p></td>
-<td><p>int, not null</p></td>
-<td><p>IDENTIFICADOR principal del póster (correspondiente a la tabla tblPrincipal. prinID).</p></td>
+<td><p>int, no NULL</p></td>
+<td><p>Identificador de entidad de seguridad del póster (correspondiente a la tabla tblPrincipal.prinID).</p></td>
 </tr>
 <tr class="even">
 <td><p>cmplUserUri</p></td>
-<td><p>nvarchar (255), not null</p></td>
-<td><p>URI de usuario.</p></td>
+<td><p>nvarchar (255), no NULL</p></td>
+<td><p>URI del usuario.</p></td>
 </tr>
 <tr class="odd">
 <td><p>cmplMessage</p></td>
-<td><p>nvarchar (Max)</p></td>
+<td><p>nvarchar (máx.)</p></td>
 <td><p>Mensaje (la codificación depende de cmplType).</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Clave
+### <a name="key"></a>Key 
 
 <table>
 <colgroup>

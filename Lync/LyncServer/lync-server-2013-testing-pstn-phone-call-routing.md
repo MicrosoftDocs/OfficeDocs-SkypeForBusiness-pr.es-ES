@@ -12,16 +12,16 @@ ms:contentKeyID: 63969598
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2dabe54fb2ba4df864d172015efb62ef161c77cb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 750efc8ced1dbb4c048d10c879f0bfa2dd4a4f32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745600"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050232"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -45,8 +45,8 @@ _**Última modificación del tema:** 2014-11-01_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Programación de verificación</p></td>
-<td><p>Cada día</p></td>
+<td><p>Programación de comprobación</p></td>
+<td><p>Diario</p></td>
 </tr>
 <tr class="even">
 <td><p>Herramienta de prueba</p></td>
@@ -54,8 +54,8 @@ _**Última modificación del tema:** 2014-11-01_
 </tr>
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
-<td><p>Al ejecutarse de forma local con el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol de RBAC que tenga permiso para ejecutar el cmdlet <strong>Test-CsInterTrunkRouting</strong> . Para ver una lista de todos los roles de RBAC que pueden usar este cmdlet, ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:</p>
+<td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet <strong>Test-CsInterTrunkRouting</strong> . Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsInterTrunkRouting&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**Última modificación del tema:** 2014-11-01_
 
 ## <a name="description"></a>Descripción
 
-El cmdlet **Test-CsInterTrunkRouting** verifica que las llamadas se puedan enrutar desde un SIP a otro. Para ello, el cmdlet recibe un número de teléfono y una configuración de tronco. **Prueba-CsInterTrunkRouting** notificará las rutas de coincidencia y los usos de RTC que coincidan con el número especificado. Tenga en cuenta que las llamadas pueden enrutarse entre líneas troncales solo si estas líneas tienen un patrón de número que coincide con el número telefónico especificado y solo si las líneas troncales comparten por lo menos un uso de RTC.
+El cmdlet **Test-CsInterTrunkRouting** comprueba que las llamadas se pueden enrutar desde un SIP a otro. Para ello, el cmdlet recibe un número de teléfono y una configuración de tronco. **Test-CsInterTrunkRouting** , a continuación, notificará las rutas de coincidencia y los usos de RTC coincidentes para el número especificado. Tenga en cuenta que las llamadas pueden enrutarse entre líneas troncales solo si estas líneas tienen un patrón de número que coincide con el número telefónico especificado y solo si las líneas troncales comparten por lo menos un uso de RTC.
 
 </div>
 
@@ -74,7 +74,7 @@ El cmdlet **Test-CsInterTrunkRouting** verifica que las llamadas se puedan enrut
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-Los comandos que se muestran a continuación devuelven las rutas correspondientes y los usos de teléfono coincidentes que permiten a los usuarios llamar al número de teléfono 1-206-555-1219 con la configuración del tronco para el sitio de Redmond.
+Los comandos que se muestran a continuación devuelven las rutas de coincidencia y los usos de teléfono coincidentes que permiten a los usuarios llamar al número de teléfono 1-206-555-1219 con los valores de configuración del tronco para el sitio de Redmond.
 
     $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
     
@@ -84,9 +84,9 @@ Los comandos que se muestran a continuación devuelven las rutas correspondiente
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Determinar el éxito o el fracaso
+## <a name="determining-success-or-failure"></a>Determinar si se ha realizado correctamente o erróneo
 
-Si las llamadas se pueden desviar de un SIP a otro, recibirás un resultado similar a este:
+Si las llamadas se pueden enrutar desde un SIP a otro, recibirá un resultado similar al siguiente:
 
 FirstMatchingRoute MatchingUsage MatchingRoutes
 
@@ -94,17 +94,17 @@ FirstMatchingRoute MatchingUsage MatchingRoutes
 
 RedmondRoute LocalUsage {RedmondRoute}
 
-Si la prueba no se completó correctamente, recibirá un resultado similar a este:
+Si la prueba no se realizó correctamente, recibirá un resultado similar al siguiente:
 
-Prueba-CsInterTrunkRouting: no se puede procesar la transformación de argumentos en el parámetro
+Test-CsInterTrunkRouting: no se puede procesar la transformación de argumentos en el parámetro
 
-'TrunkConfiguration'. TrunkConfigurationsetting (parámetro) no válido. Especificar un
+"TrunkConfiguration". TrunkConfigurationsetting (parámetro) no válido. Especificar un
 
-configuración válida (parámetro) y, a continuación, inténtalo de nuevo.
+valor válido (parámetro) y, a continuación, vuelva a intentarlo.
 
 En la línea: 1 carácter: 79
 
-\+Prueba-CsInterTrunkRouting-TargetNumber "Tel: + 12065551219"
+\+Test-CsInterTrunkRouting-TargetNumber "Tel: + 12065551219"
 
 \-TrunkConfiguration $t...
 
@@ -112,23 +112,23 @@ En la línea: 1 carácter: 79
 
 ~~
 
-\+CategoryInfo: InvalidData: (:) \[Prueba-CsInterTrunkRouting\], par
+\+CategoryInfo: InvalidData: (:) \[Test-CsInterTrunkRouting\], par
 
 ameterBindingArgumentTransformationException
 
 \+FullyQualifiedErrorId: ParameterArgumentTransformationError, Microsoft. R
 
-CT. Management. Voice. cmdlets. TestOcsInterTrunkRoutingCmdlet
+The. Management. Voice. cmdlets. TestOcsInterTrunkRoutingCmdlet
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Razones por las que se ha producido un error en la prueba
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
 Estas son algunas de las razones comunes por las que **Test-CsInterTrunkRouting** podría fallar:
 
-  - Ha especificado parámetros no válidos. Es posible que el tronco no esté configurado correctamente y que el número de destino especificado sea incorrecto o no válido.
+  - Ha especificado parámetros no válidos. Es posible que el tronco no se haya configurado correctamente y que el número de destino especificado sea incorrecto o no sea válido.
 
 </div>
 

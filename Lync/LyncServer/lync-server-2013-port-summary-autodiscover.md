@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Resumen de puertos-detección automática'
+title: 'Lync Server 2013: Resumen de Puerto-detección automática'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 945e3ed9d532f27676e250c29ab415646bd967ec
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 605aee0d4054c482140ae66ba460931d4658274d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747630"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049302"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---autodiscover-in-lync-server-2013"></a>Resumen de puertos-detección automática en Lync Server 2013
+# <a name="port-summary---autodiscover-in-lync-server-2013"></a>Resumen de Puerto-detección automática en Lync Server 2013
 
 </div>
 
@@ -37,24 +37,24 @@ ms.locfileid: "41747630"
 
 _**Última modificación del tema:** 2013-03-05_
 
-El servicio de detección automática de Lync Server 2013 se ejecuta en los servidores de director y de grupo de servidores front-end `lyncdiscover.<domain>` y `lyncdiscoverinternal.<domain>` , cuando se publican en DNS con los registros de host y de hospedaje, los clientes pueden usarlos para localizar las características de Lync Server. Para que los dispositivos móviles que ejecutan Lync Mobile puedan usar la detección automática, es posible que primero tenga que modificar las listas de nombres alternativos del sujeto de certificado en cualquier Director y servidor front-end que ejecute el servicio Detección automática. Además, puede que sea necesario modificar las listas de nombres alternativos del asunto en los certificados que se usan para las reglas de publicación de servicios web externos en los proxies inversos.
+El servicio Detección automática de Lync Server 2013 se ejecuta en los servidores de director y de grupo de servidores front-end y `lyncdiscover.<domain>` , `lyncdiscoverinternal.<domain>` cuando se publican en DNS con los registros de host y, pueden ser usados por los clientes para localizar las características de Lync Server. Para que los dispositivos móviles que ejecutan Lync Mobile usen la detección automática, es posible que primero necesite modificar las listas de nombres alternativos de sujeto de certificado en cualquier Director y servidor front-end que ejecute el servicio Detección automática. Además, es posible que haya que modificar las listas de nombres alternativos de sujeto en certificados usados para las reglas de publicación de servicios web en proxies inversos.
 
-La decisión sobre si usar o no las listas de nombres alternativos del sujeto en proxies inversos se basa en si publica el servicio de detección automática en el puerto 80 o en el puerto 443:
+La decisión sobre si usar listas de nombres alternativos de sujetos en servidores proxy inversos se basa en si publica el servicio Detección automática en el puerto 80 o en el puerto 443:
 
-  - **Publicado en el puerto 80**   para dispositivos móviles, no es necesario realizar cambios en los certificados si la consulta inicial para el servicio de detección automática se realiza a través del puerto 80. Esto se debe a que los dispositivos móviles que ejecutan Lync tendrán acceso al proxy inverso en el puerto 80 externamente y se redirigirá a un director o servidor front-end en el puerto 8080 de forma interna.
+  - **Publicado en el puerto 80**   para dispositivos móviles, no es necesario realizar cambios en los certificados si la consulta inicial al servicio Detección automática se produce a través del puerto 80. Esto se debe a que los dispositivos móviles que ejecutan Lync tendrán acceso al proxy inverso en el puerto 80 externamente y, a continuación, se redirigirán a un director o a un servidor front-end en el puerto 8080 de forma interna.
 
-  - **Publicado en el puerto 443**   la lista de nombres alternativos de asunto en certificados usados por la regla de publicación de servicios `lyncdiscover.<sipdomain>` web externos debe contener una entrada para cada dominio SIP de su organización.
+  - **Publicado en el puerto 443**   la lista de nombres alternativos de sujeto en los certificados usados por la regla de publicación de `lyncdiscover.<sipdomain>` servicios web externos debe contener una entrada para cada dominio SIP dentro de la organización.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > En el caso de instalaciones nuevas o actualizaciones de Lync Server 2010 donde ha implementado la movilidad, ya ha usado el puerto 80 para la detección automática del servicio de movilidad o ha reemitido certificados con el nombre de asunto y los nombres alternativos de asunto correctos. Revise los certificados de su director y del servidor front-end para confirmar qué ruta de acceso elegida.
+    > Para instalaciones nuevas o actualizaciones de Lync Server 2010 donde se implementó la movilidad, se usó el puerto 80 para la detección automática del servicio de movilidad o se volveron a emitir certificados con el nombre de sujeto y los nombres alternativos de sujeto correctos en su lugar. Revise los certificados en el director y el servidor front-end para confirmar la ruta de acceso que eligió.
 
     
     </div>
 
-### <a name="firewall-details-for-reverse-proxy-server-external-interface"></a>Detalles del firewall para el servidor proxy inverso: interfaz externa
+### <a name="firewall-details-for-reverse-proxy-server-external-interface"></a>Detalles de firewalls para servidor proxy inverso: Interfaz externa
 
 <table>
 <colgroup>
@@ -65,7 +65,7 @@ La decisión sobre si usar o no las listas de nombres alternativos del sujeto en
 </colgroup>
 <thead>
 <tr class="header">
-<th>Protocolo/TCP o UDP/puerto</th>
+<th>Protocolo/TCP o UDP/Puerto</th>
 <th>Dirección IP de origen</th>
 <th>Dirección IP de destino</th>
 <th>Notas</th>
@@ -76,19 +76,19 @@ La decisión sobre si usar o no las listas de nombres alternativos del sujeto en
 <td><p>HTTP/TCP/80</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>Escucha de proxy inverso</p></td>
-<td><p>Faculta Redireccionamiento a HTTPS si el usuario&lt;escribe&gt;http://publishedSiteFQDN. También se requiere si se usa Office Web Apps para conferencias y el servicio Detección automática para dispositivos móviles que ejecutan Lync en situaciones en las que la organización no desea modificar el certificado de regla de publicación de servicio Web externo.</p></td>
+<td><p>Opcional Redirección a HTTPS si el usuario escribe&lt;http://&gt;publishedSiteFQDN. También es necesario si usa Office Web Apps para conferencias y el servicio Detección automática para dispositivos móviles que ejecutan Lync en situaciones en las que la organización no desea modificar el certificado de la regla de publicación de servicios web externos.</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/443</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>Escucha de proxy inverso</p></td>
-<td><p>Descargas de la libreta de direcciones, servicio de consultas Web de la libreta de direcciones, detección automática, actualizaciones de cliente, contenido de la reunión, actualizaciones de dispositivos, expansión de grupos, Office Web Apps para conferencias, conferencias de acceso telefónico local y reuniones.</p></td>
+<td><p>Descargas de la libreta de direcciones, servicio de consulta Web de libreta de direcciones, detección automática, actualizaciones de cliente, contenido de reuniones, actualizaciones de dispositivos, expansión de grupos, Office Web Apps para conferencias, conferencias de acceso telefónico local y reuniones.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="firewall-details-for-reverse-proxy-server-internal-interface"></a>Detalles del firewall para el servidor proxy inverso: interfaz interna
+### <a name="firewall-details-for-reverse-proxy-server-internal-interface"></a>Detalles de firewalls para servidor proxy inverso: Interfaz interna
 
 <table>
 <colgroup>
@@ -99,7 +99,7 @@ La decisión sobre si usar o no las listas de nombres alternativos del sujeto en
 </colgroup>
 <thead>
 <tr class="header">
-<th>Protocolo/TCP o UDP/puerto</th>
+<th>Protocolo/TCP o UDP/Puerto</th>
 <th>Dirección IP de origen</th>
 <th>Dirección IP de destino</th>
 <th>Notas</th>
@@ -108,15 +108,15 @@ La decisión sobre si usar o no las listas de nombres alternativos del sujeto en
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP/8080</p></td>
-<td><p>Interfaz interna de proxy invertida</p></td>
-<td><p>Servidor front-end, grupo front-end, Director, grupo de directores, Office Web Apps para conferencias</p></td>
-<td><p>Necesario si se usa el servicio de detección automática para dispositivos móviles que ejecutan Lync, en situaciones en las que la organización no desea modificar el certificado de la regla de publicación de servicio Web externo. El tráfico enviado al puerto 80 en la interfaz externa de proxy inverso se redirige a un grupo en el puerto 8080 desde la interfaz interna de proxy invertida para que los servicios web del grupo lo diferencien del tráfico web interno.</p></td>
+<td><p>Interfaz de proxy inverso interno</p></td>
+<td><p>Servidor front-end, grupo de servidores front-end, Director, grupo de directores, Office Web Apps para conferencias</p></td>
+<td><p>Es necesario si se usa el servicio Detección automática para dispositivos móviles que ejecutan Lync en situaciones en las que la organización no desea modificar el certificado de la regla de publicación de servicios web externos. El tráfico que se envía a 80 en la interfaz externa del proxy inverso se redirige a un grupo de servidores del puerto 8080 desde la interfaz interna del proxy inverso, para que los servicios web del grupo de servidores puedan distinguirlo del tráfico web interno.</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/4443</p></td>
-<td><p>Interfaz interna de proxy invertida</p></td>
-<td><p>Servidor front-end, grupo front-end, Director, grupo de directores, Office Web Apps para conferencias</p></td>
-<td><p>El tráfico enviado al puerto 443 en la interfaz externa de proxy inverso se redirige a un grupo en el puerto 4443 desde la interfaz interna de proxy invertida para que los servicios web del grupo lo diferencien del tráfico web interno.</p></td>
+<td><p>Interfaz de proxy inverso interno</p></td>
+<td><p>Servidor front-end, grupo de servidores front-end, Director, grupo de directores, Office Web Apps para conferencias</p></td>
+<td><p>El tráfico enviado al puerto 443 de la interfaz externa del proxy inverso se redirige a un grupo de servidores del puerto 4443 desde la interfaz interna del proxy inverso para que los servicios web del grupo de servidores puedan distinguirlo del tráfico web interno.</p></td>
 </tr>
 </tbody>
 </table>

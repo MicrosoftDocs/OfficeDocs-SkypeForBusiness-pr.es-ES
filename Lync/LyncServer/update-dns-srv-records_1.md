@@ -1,5 +1,5 @@
 ---
-title: Actualizar registros SRV de DNS
+title: Actualizar registros DNS SRV
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 927bdab6721583fd744f68969a852f29ba478027
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c06bfed0fb3f8ca7e367d523f88ab7795839f817
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741930"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049011"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="update-dns-srv-records"></a>Actualizar registros SRV de DNS
+# <a name="update-dns-srv-records"></a>Actualizar registros DNS SRV
 
 </div>
 
@@ -37,33 +37,33 @@ ms.locfileid: "41741930"
 
 _**Última modificación del tema:** 2012-09-29_
 
-Para completar correctamente este procedimiento, debe haber iniciado sesión en el servidor o dominio como miembro del grupo administradores de dominio o miembro del grupo DnsAdmins.
+Para completar con éxito este procedimiento, debe iniciar sesión en el servidor o el dominio como miembro del grupo administradores del dominio o como miembro del grupo DnsAdmins.
 
-En este tema se describe cómo actualizar los registros del sistema de nombres de dominio (DNS) después de migrar a Lync Server 2013. Después de que todos los usuarios se hayan movido a Lync Server 2013, pero antes de que el director o grupo heredado de Office Communications Server 2007 R2 se haya decomisado, debe actualizar los registros SRV de DNS en el DNS interno para cada dominio SIP. En este procedimiento se supone que su DNS interno tiene zonas para sus dominios de usuario SIP.
+En este tema se describe cómo actualizar los registros del sistema de nombres de dominio (DNS) después de migrar a Lync Server 2013. Una vez que todos los usuarios se han movido a Lync Server 2013, pero antes de que el director o grupo de Office Communications Server 2007 R2 haya sido retirado, debe actualizar los registros DNS SRV en el DNS interno para cada dominio SIP. En este procedimiento, se presupone que el DNS interno tiene zonas para los dominios de usuarios SIP.
 
-**Para configurar un registro SRV de DNS**
+**Para configurar un registro DNS SRV**
 
-1.  En el servidor DNS, haga clic en **Inicio**, haga clic en **herramientas administrativas**y, a continuación, haga clic en **DNS**.
+1.  En el servidor DNS, haga clic en **Inicio**, **Herramientas administrativas** y, a continuación, **DNS**.
 
-2.  En el árbol de consola de su dominio SIP, expanda **zonas de búsqueda directa**, expanda el dominio SIP en el que está instalado Lync Server 2013 ** \_** y vaya a la configuración de TCP.
+2.  En el árbol de la consola del dominio SIP, expanda **zonas de búsqueda directa**, expanda el dominio SIP en el que Lync Server 2013 está instalado ** \_** y navegue hasta la configuración TCP.
 
-3.  En el panel derecho, haga clic con el botón derecho en ** \_sipinternaltls** y seleccione **propiedades**.
+3.  En el panel derecho, haga clic con el botón secundario en ** \_sipinternaltls** y seleccione **propiedades**.
 
-4.  En el **hospedaje que ofrece este servicio**, actualice el FQDN del host para que apunte al grupo de servidores de Lync Server 2013.
+4.  En **host que ofrece este servicio**, actualice el FQDN de host para que apunte al grupo de servidores de Lync Server 2013.
 
 5.  Haga clic en **Aceptar**.
 
 **Para comprobar que se puede resolver el FQDN del grupo de servidores front-end o del servidor Standard Edition**
 
-1.  Inicie sesión en un equipo cliente del dominio.
+1.  Inicie sesión en un equipo cliente en el dominio.
 
-2.  Haga clic en  **Inicio ** y en  **Ejecutar **.
+2.  Haga clic en **Inicio** y, a continuación, en **Ejecutar**.
 
-3.  En el cuadro **abrir** , escriba **cmd**y haga clic en **Aceptar**.
+3.  En el cuadro **Abrir**, escriba **cmd** y, a continuación, haga clic en **Aceptar**.
 
-4.  En el símbolo del sistema, escriba **nslookup** \<FQDN del grupo\> de servidores Front \<-end o FQDN del servidor\>Standard Edition y, a continuación, presione Entrar.
+4.  En el símbolo del sistema, escriba **nslookup** \<FQDN del grupo\> de servidores Front \<-end o el FQDN del\>servidor Standard Edition y, a continuación, presione Entrar.
 
-5.  Compruebe que recibe una respuesta que se resuelve en la dirección IP adecuada para el nombre de dominio completo (FQDN).
+5.  Compruebe que recibe una respuesta que resuelve la dirección IP adecuada para el FQDN.
 
 </div>
 
