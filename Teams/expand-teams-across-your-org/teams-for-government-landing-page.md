@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8dbce000bd42abc7a06c708d47c1af5a9bccbd24
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: a0511556c89751bd8145af59ada90e5c26dbaf2b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826648"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008132"
 ---
 # <a name="teams-for-government"></a>Teams para Administración Pública
 
@@ -34,7 +34,7 @@ Use estos recursos para obtener información sobre consideraciones específicas 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/list-123-teams.svg" alt="Numbered list icon representing planning"/>
+                            <img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" alt="Numbered list icon representing planning"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -52,7 +52,7 @@ Use estos recursos para obtener información sobre consideraciones específicas 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="Clipboard icon representing planning" />
+                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Clipboard icon representing planning" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -70,7 +70,7 @@ Use estos recursos para obtener información sobre consideraciones específicas 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons//task-list-planning-teams.svg" alt="Bulleted list icon representing planning" />
+                            <img src="https://docs.microsoft.com/office/media/icons//task-list-planning-teams.svg" alt="Bulleted list icon representing planning" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -88,7 +88,7 @@ Use estos recursos para obtener información sobre consideraciones específicas 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/arrow-right-2-teams.svg" alt="Right-facing arrow" />
+                            <img src="https://docs.microsoft.com/office/media/icons/arrow-right-2-teams.svg" alt="Right-facing arrow" />
                         </div>
                     </div>
                     <div class="cardText">

@@ -18,12 +18,12 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a602aef5d817e3d7aecae95491f7de559598570b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9cf627c21e98f64f14a8a925fa615f02b38fae28
+ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834473"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048811"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
@@ -90,17 +90,18 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 
 <h2>Iniciar aprendizaje técnico</h2>
 
-| Módulo | Vídeo | Presentación de PowerPoint  |
+| Módulo | Vídeo | Presentación de PowerPoint   |
 | ------------ | -------------------- | -------------------- |
 | [Aspectos prácticos de Microsoft-Teams Essentials para el canal de YouTube de ti](https://aka.ms/MicrosoftTeamsforIT) | [Vídeo: aspectos básicos de Teams](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Vídeo: implementar & configurar Teams: Introducción](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 mín)  <br>[Vídeo: seguridad y cumplimiento](https://youtu.be/91lHNKVVvQ4) (12:42 mín)<br>[Vídeo: controles de Teams para seguridad y cumplimiento](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 mín)||
 | Fundamentos: los componentes principales | [Vídeo](https://aka.ms/teams-foundations) | [Presentación de diapositivas](https://aka.ms/teams-foundations-deck) |
 | Cliente del escritorio de Windows | [Vídeo](https://aka.ms/teams-clients) | [Presentación de diapositivas](https://aka.ms/teams-clients-deck) |
 | Gobierno, administración y ciclo de vida | [Vídeo](https://aka.ms/teams-governance) | [Presentación de diapositivas](https://aka.ms/teams-governance-deck) |
 | Seguridad y cumplimiento | [Vídeo](https://aka.ms/teams-security-compliance) | [Presentación de diapositivas](https://aka.ms/teams-security-compliance-deck) |
-| Planificación de red | [Vídeo](https://aka.ms/teams-networking) | [Presentación de diapositivas](https://aka.ms/teams-networking-deck) |
 | Información general de calidad de llamadas | [Vídeo](https://aka.ms/teams-quality) | [Presentación de diapositivas](https://aka.ms/teams-quality-deck) |
 | Introducción de reuniones | [Vídeo](https://aka.ms/teams-meetings-intro) | [Presentación de diapositivas](https://aka.ms/teams-meetings-intro-deck) |
-| Medios |[Vídeo](https://aka.ms/media-in-teams)  | [Presentación de diapositivas](https://aka.ms/media-in-teams-deck)|
+| Medios: ¿por qué las reuniones son sencillas?|[Vídeo](https://aka.ms/media-in-teams)  | [Presentación de diapositivas](https://aka.ms/media-in-teams-deck)|
+| Medios: flujo de medios | [Vídeo](https://aka.ms/teams-media-flows) | [Presentación de diapositivas](https://aka.ms/teams-media-flows-deck)  |
+| Llamadas de emergencia dinámicas | [Vídeo](https://aka.ms/teams-dec) |  [Presentación de diapositivas](https://aka.ms/teams-dec-deck) |
 | Eventos en directo | [Vídeo](https://aka.ms/teams-live-events-session) | [Presentación de diapositivas](https://aka.ms/teams-live-events-deck) |
 | Introducción al Sistema telefónico | [Vídeo](https://aka.ms/teams-phone-system) | [Presentación de diapositivas](https://aka.ms/teams-phone-system-deck) |
 | Enrutamiento directo | [Vídeo](https://aka.ms/teams-direct-routing) | [Presentación de diapositivas](https://aka.ms/teams-direct-routing-deck) |

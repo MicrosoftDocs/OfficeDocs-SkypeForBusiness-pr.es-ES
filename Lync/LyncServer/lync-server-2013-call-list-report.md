@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: informe de la lista de llamadas'
+title: 'Lync Server 2013: informe de lista de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce2954f848d448676aea2931cda4dffa8ddc0c5d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53b462644e2334f428b8cd9a46c0ca07472f6ee2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743010"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044482"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-list-report-in-lync-server-2013"></a><span data-ttu-id="4156f-102">Informe de la lista de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4156f-102">Call List Report in Lync Server 2013</span></span>
+# <a name="call-list-report-in-lync-server-2013"></a><span data-ttu-id="61298-102">Informe de lista de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="61298-102">Call List Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,73 +35,73 @@ ms.locfileid: "41743010"
 
 <span> </span>
 
-<span data-ttu-id="4156f-103">_**Última modificación del tema:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="4156f-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="61298-103">_**Última modificación del tema:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="61298-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="4156f-104">El informe de lista de llamadas proporciona métricas relativas a la calidad de la experiencia para las llamadas individuales realizadas y recibidas en su organización.</span><span class="sxs-lookup"><span data-stu-id="4156f-104">The Call List Report provides Quality of Experience (QoE) metrics for individual calls made and received in your organization.</span></span> <span data-ttu-id="4156f-105">Tenga en cuenta que las métricas reales que se incluyan dependerán de cómo obtenga acceso al informe de lista de llamadas.</span><span class="sxs-lookup"><span data-stu-id="4156f-105">Note that the actual metrics reported will depend on how you access the Call List report.</span></span> <span data-ttu-id="4156f-106">Por ejemplo, si abre el informe desde el [Informe de dispositivos en Lync Server 2013](lync-server-2013-device-report.md), verá las métricas como las siguientes, métricas que también se notifican en el informe de dispositivo:</span><span class="sxs-lookup"><span data-stu-id="4156f-106">For example, if you open the report from the [Device Report in Lync Server 2013](lync-server-2013-device-report.md), you'll see metrics such as the following, metrics that are also reported on the Device Report:</span></span>
+<span data-ttu-id="61298-104">El informe de lista de llamadas proporciona métricas de la calidad de la experiencia (QoE) para las llamadas individuales realizadas y recibidas en su organización.</span><span class="sxs-lookup"><span data-stu-id="61298-104">The Call List Report provides Quality of Experience (QoE) metrics for individual calls made and received in your organization.</span></span> <span data-ttu-id="61298-105">Tenga en cuenta que las métricas reales que se notifiquen dependerán de cómo obtenga acceso al informe de lista de llamadas.</span><span class="sxs-lookup"><span data-stu-id="61298-105">Note that the actual metrics reported will depend on how you access the Call List report.</span></span> <span data-ttu-id="61298-106">Por ejemplo, si abre el informe desde el [Informe de dispositivos en Lync Server 2013](lync-server-2013-device-report.md), verá métricas como las siguientes, métricas que también se notifican en el informe de dispositivos:</span><span class="sxs-lookup"><span data-stu-id="61298-106">For example, if you open the report from the [Device Report in Lync Server 2013](lync-server-2013-device-report.md), you'll see metrics such as the following, metrics that are also reported on the Device Report:</span></span>
 
-  - <span data-ttu-id="4156f-107">Micrófono del autor de la llamada</span><span class="sxs-lookup"><span data-stu-id="4156f-107">Caller's microphone</span></span>
+  - <span data-ttu-id="61298-107">Micrófono del autor de la llamada</span><span class="sxs-lookup"><span data-stu-id="61298-107">Caller's microphone</span></span>
 
-  - <span data-ttu-id="4156f-108">Altavoz del autor de la llamada</span><span class="sxs-lookup"><span data-stu-id="4156f-108">Caller's speaker</span></span>
+  - <span data-ttu-id="61298-108">Altavoz del autor de la llamada</span><span class="sxs-lookup"><span data-stu-id="61298-108">Caller's speaker</span></span>
 
-  - <span data-ttu-id="4156f-109">Micrófono del destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="4156f-109">Callee's microphone</span></span>
+  - <span data-ttu-id="61298-109">Micrófono del destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="61298-109">Callee's microphone</span></span>
 
-  - <span data-ttu-id="4156f-110">Altavoz del destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="4156f-110">Callee's speaker</span></span>
+  - <span data-ttu-id="61298-110">Altavoz del destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="61298-110">Callee's speaker</span></span>
 
-  - <span data-ttu-id="4156f-111">Relación de tiempo de conmutación de voz</span><span class="sxs-lookup"><span data-stu-id="4156f-111">Ratio of voice switch time</span></span>
+  - <span data-ttu-id="61298-111">Relación de tiempo de conmutación de voz</span><span class="sxs-lookup"><span data-stu-id="61298-111">Ratio of voice switch time</span></span>
 
-<span data-ttu-id="4156f-112">Sin embargo, si abre el informe de la lista de llamadas desde el [Informe de ubicación en Lync Server 2013](lync-server-2013-location-report.md), no verá ninguna de esas métricas; en su lugar, verás métricas como las siguientes:</span><span class="sxs-lookup"><span data-stu-id="4156f-112">However, if you open the Call List Report from the [Location Report in Lync Server 2013](lync-server-2013-location-report.md), you won't see any of those metrics; instead, you'll see metrics like these:</span></span>
+<span data-ttu-id="61298-112">Sin embargo, si abre el informe de lista de llamadas desde el [Informe de ubicación en Lync Server 2013](lync-server-2013-location-report.md), no verá ninguna de estas métricas; en su lugar, verá métricas como estas:</span><span class="sxs-lookup"><span data-stu-id="61298-112">However, if you open the Call List Report from the [Location Report in Lync Server 2013](lync-server-2013-location-report.md), you won't see any of those metrics; instead, you'll see metrics like these:</span></span>
 
-  - <span data-ttu-id="4156f-113">Recorrido de ida y vuelta (ms)</span><span class="sxs-lookup"><span data-stu-id="4156f-113">Round trip (ms)</span></span>
+  - <span data-ttu-id="61298-113">Recorrido de ida y vuelta (ms)</span><span class="sxs-lookup"><span data-stu-id="61298-113">Round trip (ms)</span></span>
 
-  - <span data-ttu-id="4156f-114">Degradación (MOS)</span><span class="sxs-lookup"><span data-stu-id="4156f-114">Degradation (MOS)</span></span>
+  - <span data-ttu-id="61298-114">Degradación (MOS)</span><span class="sxs-lookup"><span data-stu-id="61298-114">Degradation (MOS)</span></span>
 
-  - <span data-ttu-id="4156f-115">Pérdida de paquetes</span><span class="sxs-lookup"><span data-stu-id="4156f-115">Packet loss</span></span>
+  - <span data-ttu-id="61298-115">Pérdida de paquetes</span><span class="sxs-lookup"><span data-stu-id="61298-115">Packet loss</span></span>
 
-  - <span data-ttu-id="4156f-116">Vibración (ms)</span><span class="sxs-lookup"><span data-stu-id="4156f-116">Jitter (ms)</span></span>
+  - <span data-ttu-id="61298-116">Vibración (ms)</span><span class="sxs-lookup"><span data-stu-id="61298-116">Jitter (ms)</span></span>
 
-<span data-ttu-id="4156f-p102">Esas son las métricas incluidas en el informe de ubicaciones. No obstante, siempre puede hacer clic en la métrica Detalles, en el informe de lista de llamadas, para obtener información completa sobre la calidad de la experiencia de cualquier llamada.</span><span class="sxs-lookup"><span data-stu-id="4156f-p102">Those are the metrics reported on the Location Report. However, from the Call List Report you can always click the Detail metric to provide complete QoE information for any call.</span></span>
+<span data-ttu-id="61298-117">Esas son las métricas que se indican en el informe de ubicación.</span><span class="sxs-lookup"><span data-stu-id="61298-117">Those are the metrics reported on the Location Report.</span></span> <span data-ttu-id="61298-118">Sin embargo, en el informe de lista de llamadas, siempre puede hacer clic en la métrica de detalles para proporcionar la información completa de QoE para cada llamada.</span><span class="sxs-lookup"><span data-stu-id="61298-118">However, from the Call List Report you can always click the Detail metric to provide complete QoE information for any call.</span></span>
 
 <div>
 
-## <a name="accessing-the-call-list-report"></a><span data-ttu-id="4156f-119">Acceso al informe de lista de llamadas</span><span class="sxs-lookup"><span data-stu-id="4156f-119">Accessing the Call List Report</span></span>
+## <a name="accessing-the-call-list-report"></a><span data-ttu-id="61298-119">Acceso al informe de lista de llamadas</span><span class="sxs-lookup"><span data-stu-id="61298-119">Accessing the Call List Report</span></span>
 
-<span data-ttu-id="4156f-120">El informe de lista de llamadas es accesible desde cualquiera de los siguientes informes:</span><span class="sxs-lookup"><span data-stu-id="4156f-120">The Call List Report can be accessed from any of the following reports:</span></span>
+<span data-ttu-id="61298-120">Se puede tener acceso al informe de lista de llamadas desde cualquiera de los siguientes informes:</span><span class="sxs-lookup"><span data-stu-id="61298-120">The Call List Report can be accessed from any of the following reports:</span></span>
 
-  - <span data-ttu-id="4156f-121">El [Informe de ubicación en Lync Server 2013](lync-server-2013-location-report.md) (haciendo clic en el volumen de la llamada o en la métrica de porcentaje de llamada deficiente)</span><span class="sxs-lookup"><span data-stu-id="4156f-121">The [Location Report in Lync Server 2013](lync-server-2013-location-report.md) (by clicking the Call volume or Poor call percentage metric)</span></span>
+  - <span data-ttu-id="61298-121">El [Informe de ubicación en Lync Server 2013](lync-server-2013-location-report.md) (haciendo clic en el volumen de llamadas o en la métrica de porcentaje de llamadas deficientes)</span><span class="sxs-lookup"><span data-stu-id="61298-121">The [Location Report in Lync Server 2013](lync-server-2013-location-report.md) (by clicking the Call volume or Poor call percentage metric)</span></span>
 
-  - <span data-ttu-id="4156f-122">El [Informe del dispositivo en Lync Server 2013](lync-server-2013-device-report.md) (haciendo clic en el volumen de la llamada o en la métrica de porcentaje de llamada deficiente)</span><span class="sxs-lookup"><span data-stu-id="4156f-122">The [Device Report in Lync Server 2013](lync-server-2013-device-report.md) (by clicking the Call volume or Poor call percentage metric)</span></span>
+  - <span data-ttu-id="61298-122">El [Informe de dispositivos en Lync Server 2013](lync-server-2013-device-report.md) (haciendo clic en el volumen de llamadas o en la métrica de porcentaje de llamadas deficientes)</span><span class="sxs-lookup"><span data-stu-id="61298-122">The [Device Report in Lync Server 2013](lync-server-2013-device-report.md) (by clicking the Call volume or Poor call percentage metric)</span></span>
 
-  - <span data-ttu-id="4156f-123">El [informe Resumen de calidad de medios en Lync Server 2013](lync-server-2013-media-quality-summary-report.md) (haciendo clic en el volumen de la llamada o en la métrica de porcentaje de llamada deficiente)</span><span class="sxs-lookup"><span data-stu-id="4156f-123">The [Media Quality Summary Report in Lync Server 2013](lync-server-2013-media-quality-summary-report.md) (by clicking the Call volume or Poor call percentage metric)</span></span>
+  - <span data-ttu-id="61298-123">El [Informe de Resumen de calidad de medios en Lync Server 2013](lync-server-2013-media-quality-summary-report.md) (haciendo clic en el volumen de llamadas o en la métrica de porcentaje de llamadas deficientes)</span><span class="sxs-lookup"><span data-stu-id="61298-123">The [Media Quality Summary Report in Lync Server 2013](lync-server-2013-media-quality-summary-report.md) (by clicking the Call volume or Poor call percentage metric)</span></span>
 
-  - <span data-ttu-id="4156f-124">El [Informe rendimiento del servidor de Lync Server 2013](lync-server-2013-server-performance-report.md) (haciendo clic en el volumen de la llamada o en la métrica de porcentaje de llamada deficiente)</span><span class="sxs-lookup"><span data-stu-id="4156f-124">The [Server Performance Report in Lync Server 2013](lync-server-2013-server-performance-report.md) (by clicking the Call volume or Poor call percentage metric)</span></span>
+  - <span data-ttu-id="61298-124">El [Informe de rendimiento del servidor en Lync Server 2013](lync-server-2013-server-performance-report.md) (haciendo clic en el volumen de llamadas o en la métrica de porcentaje de llamadas deficientes)</span><span class="sxs-lookup"><span data-stu-id="61298-124">The [Server Performance Report in Lync Server 2013](lync-server-2013-server-performance-report.md) (by clicking the Call volume or Poor call percentage metric)</span></span>
 
-<span data-ttu-id="4156f-125">Desde el informe de la lista de llamadas puede acceder al [Informe de detalles de llamadas en Lync Server 2013](lync-server-2013-call-detail-report.md) haciendo clic en la métrica de detalles.</span><span class="sxs-lookup"><span data-stu-id="4156f-125">From within the Call List Report you can access the [Call Detail Report in Lync Server 2013](lync-server-2013-call-detail-report.md) by clicking the Detail metric.</span></span>
+<span data-ttu-id="61298-125">Desde el informe de lista de llamadas puede tener acceso al [Informe de detalles de llamadas en Lync Server 2013](lync-server-2013-call-detail-report.md) haciendo clic en la métrica detalles.</span><span class="sxs-lookup"><span data-stu-id="61298-125">From within the Call List Report you can access the [Call Detail Report in Lync Server 2013](lync-server-2013-call-detail-report.md) by clicking the Detail metric.</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-call-list-report"></a><span data-ttu-id="4156f-126">Optimización del uso del informe de lista de llamadas</span><span class="sxs-lookup"><span data-stu-id="4156f-126">Making the Best Use of the Call List Report</span></span>
+## <a name="making-the-best-use-of-the-call-list-report"></a><span data-ttu-id="61298-126">Aprovechar al máximo el informe de lista de llamadas</span><span class="sxs-lookup"><span data-stu-id="61298-126">Making the Best Use of the Call List Report</span></span>
 
-<span data-ttu-id="4156f-127">Si no recuerda qué miden algunas de las métricas del informe de lista de llamadas (por ejemplo, Relación de tiempo de conmutación de voz), mantenga el mouse sobre la etiqueta de la métrica y aparecerá una información sobre la herramienta con una breve descripción de la métrica.</span><span class="sxs-lookup"><span data-stu-id="4156f-127">If you can't remember what some of the Call List Report metrics (such as Ratio voice switch time) actually measure, hold your mouse over the metric label; a tool tip will then appear giving you a brief description of the metric.</span></span>
-
-</div>
-
-<div>
-
-## <a name="filters"></a><span data-ttu-id="4156f-128">Filtros</span><span class="sxs-lookup"><span data-stu-id="4156f-128">Filters</span></span>
-
-<span data-ttu-id="4156f-p103">Ninguno. No se puede filtrar el informe de lista de llamadas.</span><span class="sxs-lookup"><span data-stu-id="4156f-p103">None. You cannot filter the Call List Report.</span></span>
+<span data-ttu-id="61298-127">Si no recuerda lo que algunas de las métricas del informe de lista de llamadas (por ejemplo, el tiempo de conmutación de voz de frecuencia) miden, mantenga el mouse sobre la etiqueta de la métrica; a continuación, aparecerá una información sobre herramientas que proporciona una breve descripción de la métrica.</span><span class="sxs-lookup"><span data-stu-id="61298-127">If you can't remember what some of the Call List Report metrics (such as Ratio voice switch time) actually measure, hold your mouse over the metric label; a tool tip will then appear giving you a brief description of the metric.</span></span>
 
 </div>
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="4156f-131">Métricas</span><span class="sxs-lookup"><span data-stu-id="4156f-131">Metrics</span></span>
+## <a name="filters"></a><span data-ttu-id="61298-128">Filtros</span><span class="sxs-lookup"><span data-stu-id="61298-128">Filters</span></span>
 
-<span data-ttu-id="4156f-132">En la siguiente tabla se detalla la información facilitada en el informe de lista de llamadas para cada llamada.</span><span class="sxs-lookup"><span data-stu-id="4156f-132">The following table lists the information provided in the Call List Report for each call.</span></span>
+<span data-ttu-id="61298-129">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="61298-129">None.</span></span> <span data-ttu-id="61298-130">No se puede filtrar el informe de lista de llamadas.</span><span class="sxs-lookup"><span data-stu-id="61298-130">You cannot filter the Call List Report.</span></span>
 
-### <a name="call-list-report-metrics"></a><span data-ttu-id="4156f-133">Métricas del informe de lista de llamadas</span><span class="sxs-lookup"><span data-stu-id="4156f-133">Call List Report Metrics</span></span>
+</div>
+
+<div>
+
+## <a name="metrics"></a><span data-ttu-id="61298-131">Métricas</span><span class="sxs-lookup"><span data-stu-id="61298-131">Metrics</span></span>
+
+<span data-ttu-id="61298-132">En la siguiente tabla se muestra la información proporcionada en el informe de lista de llamadas para cada llamada.</span><span class="sxs-lookup"><span data-stu-id="61298-132">The following table lists the information provided in the Call List Report for each call.</span></span>
+
+### <a name="call-list-report-metrics"></a><span data-ttu-id="61298-133">Métricas del informe de lista de llamadas</span><span class="sxs-lookup"><span data-stu-id="61298-133">Call List Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -111,91 +111,91 @@ ms.locfileid: "41743010"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="4156f-134">Nombre</span><span class="sxs-lookup"><span data-stu-id="4156f-134">Name</span></span></th>
-<th><span data-ttu-id="4156f-135">¿Se pueden ordenar los datos por este elemento?</span><span class="sxs-lookup"><span data-stu-id="4156f-135">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="4156f-136">Descripción</span><span class="sxs-lookup"><span data-stu-id="4156f-136">Description</span></span></th>
+<th><span data-ttu-id="61298-134">Nombre</span><span class="sxs-lookup"><span data-stu-id="61298-134">Name</span></span></th>
+<th><span data-ttu-id="61298-135">¿Se pueden ordenar los datos en este elemento?</span><span class="sxs-lookup"><span data-stu-id="61298-135">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="61298-136">Descripción</span><span class="sxs-lookup"><span data-stu-id="61298-136">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4156f-137"><strong>Detalles</strong></span><span class="sxs-lookup"><span data-stu-id="4156f-137"><strong>Details</strong></span></span></p></td>
-<td><p><span data-ttu-id="4156f-138">No</span><span class="sxs-lookup"><span data-stu-id="4156f-138">No</span></span></p></td>
-<td><p><span data-ttu-id="4156f-139">Al hacer clic en este elemento, el informe muestra información adicional sobre la llamada.</span><span class="sxs-lookup"><span data-stu-id="4156f-139">When you click this item, the report shows additional information on the call.</span></span></p></td>
+<td><p><span data-ttu-id="61298-137"><strong>Detalles</strong></span><span class="sxs-lookup"><span data-stu-id="61298-137"><strong>Details</strong></span></span></p></td>
+<td><p><span data-ttu-id="61298-138">No</span><span class="sxs-lookup"><span data-stu-id="61298-138">No</span></span></p></td>
+<td><p><span data-ttu-id="61298-139">Al hacer clic en este elemento, el informe muestra información adicional sobre la llamada.</span><span class="sxs-lookup"><span data-stu-id="61298-139">When you click this item, the report shows additional information on the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4156f-140"><strong>Autor de llamada</strong></span><span class="sxs-lookup"><span data-stu-id="4156f-140"><strong>Caller</strong></span></span></p></td>
-<td><p><span data-ttu-id="4156f-141">Sí</span><span class="sxs-lookup"><span data-stu-id="4156f-141">Yes</span></span></p></td>
-<td><p><span data-ttu-id="4156f-142">Dirección SIP de la persona que inició la llamada.</span><span class="sxs-lookup"><span data-stu-id="4156f-142">SIP address of the person who initiated the call.</span></span></p></td>
+<td><p><span data-ttu-id="61298-140"><strong>Caller</strong></span><span class="sxs-lookup"><span data-stu-id="61298-140"><strong>Caller</strong></span></span></p></td>
+<td><p><span data-ttu-id="61298-141">Sí</span><span class="sxs-lookup"><span data-stu-id="61298-141">Yes</span></span></p></td>
+<td><p><span data-ttu-id="61298-142">Dirección SIP de la persona que inició la llamada.</span><span class="sxs-lookup"><span data-stu-id="61298-142">SIP address of the person who initiated the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4156f-143"><strong>Destinatario de la llamada</strong></span><span class="sxs-lookup"><span data-stu-id="4156f-143"><strong>Callee</strong></span></span></p></td>
-<td><p><span data-ttu-id="4156f-144">Sí</span><span class="sxs-lookup"><span data-stu-id="4156f-144">Yes</span></span></p></td>
-<td><p><span data-ttu-id="4156f-145">Dirección SIP de la persona que recibió la llamada.</span><span class="sxs-lookup"><span data-stu-id="4156f-145">SIP address of the person who was called.</span></span></p></td>
+<td><p><span data-ttu-id="61298-143"><strong>Destinatario</strong></span><span class="sxs-lookup"><span data-stu-id="61298-143"><strong>Callee</strong></span></span></p></td>
+<td><p><span data-ttu-id="61298-144">Sí</span><span class="sxs-lookup"><span data-stu-id="61298-144">Yes</span></span></p></td>
+<td><p><span data-ttu-id="61298-145">Dirección SIP de la persona a la que se ha llamado.</span><span class="sxs-lookup"><span data-stu-id="61298-145">SIP address of the person who was called.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4156f-146"><strong>Hora de inicio</strong></span><span class="sxs-lookup"><span data-stu-id="4156f-146"><strong>Start time</strong></span></span></p></td>
-<td><p><span data-ttu-id="4156f-147">Sí</span><span class="sxs-lookup"><span data-stu-id="4156f-147">Yes</span></span></p></td>
-<td><p><span data-ttu-id="4156f-148">Fecha y hora en que se inició la llamada.</span><span class="sxs-lookup"><span data-stu-id="4156f-148">Date and time that the call started.</span></span></p></td>
+<td><p><span data-ttu-id="61298-146"><strong>Hora de inicio</strong></span><span class="sxs-lookup"><span data-stu-id="61298-146"><strong>Start time</strong></span></span></p></td>
+<td><p><span data-ttu-id="61298-147">Sí</span><span class="sxs-lookup"><span data-stu-id="61298-147">Yes</span></span></p></td>
+<td><p><span data-ttu-id="61298-148">Fecha y hora en que se inició la llamada.</span><span class="sxs-lookup"><span data-stu-id="61298-148">Date and time that the call started.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4156f-149"><strong>Hora de finalización</strong></span><span class="sxs-lookup"><span data-stu-id="4156f-149"><strong>End time</strong></span></span></p></td>
-<td><p><span data-ttu-id="4156f-150">Sí</span><span class="sxs-lookup"><span data-stu-id="4156f-150">Yes</span></span></p></td>
-<td><p><span data-ttu-id="4156f-151">Fecha y hora en que finalizó la llamada.</span><span class="sxs-lookup"><span data-stu-id="4156f-151">Date and time that the call ended.</span></span></p></td>
+<td><p><span data-ttu-id="61298-149"><strong>Hora de finalización</strong></span><span class="sxs-lookup"><span data-stu-id="61298-149"><strong>End time</strong></span></span></p></td>
+<td><p><span data-ttu-id="61298-150">Sí</span><span class="sxs-lookup"><span data-stu-id="61298-150">Yes</span></span></p></td>
+<td><p><span data-ttu-id="61298-151">Fecha y hora en que finalizó la llamada.</span><span class="sxs-lookup"><span data-stu-id="61298-151">Date and time that the call ended.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4156f-152"><strong>Agente de usuario de autor de la llamada</strong></span><span class="sxs-lookup"><span data-stu-id="4156f-152"><strong>Caller user agent</strong></span></span></p></td>
-<td><p><span data-ttu-id="4156f-153">Sí</span><span class="sxs-lookup"><span data-stu-id="4156f-153">Yes</span></span></p></td>
-<td><p><span data-ttu-id="4156f-154">Software utilizado por el extremo de la persona que inició la llamada.</span><span class="sxs-lookup"><span data-stu-id="4156f-154">Software used by the endpoint of the person who initiated the call.</span></span></p></td>
+<td><p><span data-ttu-id="61298-152"><strong>Agente de usuario de autor de la llamada</strong></span><span class="sxs-lookup"><span data-stu-id="61298-152"><strong>Caller user agent</strong></span></span></p></td>
+<td><p><span data-ttu-id="61298-153">Sí</span><span class="sxs-lookup"><span data-stu-id="61298-153">Yes</span></span></p></td>
+<td><p><span data-ttu-id="61298-154">Software usado por el extremo de la persona que inició la llamada.</span><span class="sxs-lookup"><span data-stu-id="61298-154">Software used by the endpoint of the person who initiated the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4156f-155"><strong>Agente de usuario de destinatario de la llamada</strong></span><span class="sxs-lookup"><span data-stu-id="4156f-155"><strong>Callee user agent</strong></span></span></p></td>
-<td><p><span data-ttu-id="4156f-156">Sí</span><span class="sxs-lookup"><span data-stu-id="4156f-156">Yes</span></span></p></td>
-<td><p><span data-ttu-id="4156f-157">Software utilizado por el extremo de la persona que recibió la llamada.</span><span class="sxs-lookup"><span data-stu-id="4156f-157">Software used by the endpoint of the person who was called.</span></span></p></td>
+<td><p><span data-ttu-id="61298-155"><strong>Agente de usuario de destinatario de la llamada</strong></span><span class="sxs-lookup"><span data-stu-id="61298-155"><strong>Callee user agent</strong></span></span></p></td>
+<td><p><span data-ttu-id="61298-156">Sí</span><span class="sxs-lookup"><span data-stu-id="61298-156">Yes</span></span></p></td>
+<td><p><span data-ttu-id="61298-157">Software usado por el extremo de la persona a la que se llamó.</span><span class="sxs-lookup"><span data-stu-id="61298-157">Software used by the endpoint of the person who was called.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4156f-158"><strong>Recorrido de ida y vuelta (ms)</strong></span><span class="sxs-lookup"><span data-stu-id="4156f-158"><strong>Round trip (ms)</strong></span></span></p></td>
-<td><p><span data-ttu-id="4156f-159">Sí</span><span class="sxs-lookup"><span data-stu-id="4156f-159">Yes</span></span></p></td>
-<td><p><span data-ttu-id="4156f-p104">Tiempo medio (en milisegundos) necesario para que un paquete de protocolo de transporte en tiempo real (RTP) llegue a otro extremo y vuelva. Los tiempos de ida y vuelta de 100 milisegundos o menos se consideran de calidad aceptable.</span><span class="sxs-lookup"><span data-stu-id="4156f-p104">Average amount of (in milliseconds) required for a real-time transport protocol (RTP) packet to travel to another endpoint and then back. Round-trip times of 100 milliseconds or less are considered of acceptable quality.</span></span></p>
-<p><span data-ttu-id="4156f-p105">Los valores elevados en los tiempos del recorrido de ida y vuelta pueden deberse a que se trata de enrutamientos de llamadas internacionales, una configuración incorrecta del enrutamiento o a la sobrecarga en el servidor multimedia y causan dificultades en las conversaciones de audio bidireccionales en tiempo real.</span><span class="sxs-lookup"><span data-stu-id="4156f-p105">High round-trip values can be caused by international call routing, a routing misconfiguration, or an overloaded media server. High round-trip times result in difficulties with two-way, real-time audio conversations.</span></span></p></td>
+<td><p><span data-ttu-id="61298-158"><strong>Recorrido de ida y vuelta (ms)</strong></span><span class="sxs-lookup"><span data-stu-id="61298-158"><strong>Round trip (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="61298-159">Sí</span><span class="sxs-lookup"><span data-stu-id="61298-159">Yes</span></span></p></td>
+<td><p><span data-ttu-id="61298-p104">Tiempo medio (en milisegundos) necesario para que un paquete de protocolo de transporte en tiempo real (RTP) llegue a otro extremo y vuelva. Los tiempos de ida y vuelta de 100 milisegundos o menos se consideran de calidad aceptable.</span><span class="sxs-lookup"><span data-stu-id="61298-p104">Average amount of (in milliseconds) required for a real-time transport protocol (RTP) packet to travel to another endpoint and then back. Round-trip times of 100 milliseconds or less are considered of acceptable quality.</span></span></p>
+<p><span data-ttu-id="61298-p105">Los valores elevados en los tiempos del recorrido de ida y vuelta pueden deberse a que se trata de enrutamientos de llamadas internacionales, una configuración incorrecta del enrutamiento o a la sobrecarga en el servidor multimedia y causan dificultades en las conversaciones de audio bidireccionales en tiempo real.</span><span class="sxs-lookup"><span data-stu-id="61298-p105">High round-trip values can be caused by international call routing, a routing misconfiguration, or an overloaded media server. High round-trip times result in difficulties with two-way, real-time audio conversations.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4156f-164"><strong>Degradación (MOS)</strong></span><span class="sxs-lookup"><span data-stu-id="4156f-164"><strong>Degradation (MOS)</strong></span></span></p></td>
-<td><p><span data-ttu-id="4156f-165">Sí</span><span class="sxs-lookup"><span data-stu-id="4156f-165">Yes</span></span></p></td>
-<td><p><span data-ttu-id="4156f-166">Cantidad media de degradación de la puntuación de opinión media (MOS) experimentada durante la llamada.</span><span class="sxs-lookup"><span data-stu-id="4156f-166">Average amount of mean opinion score (MOS) degradation experienced during a call.</span></span> <span data-ttu-id="4156f-167">Los valores de degradación oscilan entre un mínimo de 0,0 y un máximo de 5,0.</span><span class="sxs-lookup"><span data-stu-id="4156f-167">Degradation values can range from a low of 0.0 to a high of 5.0.</span></span> <span data-ttu-id="4156f-168">Un valor de 0,5 o menos constituye una degradación aceptable.</span><span class="sxs-lookup"><span data-stu-id="4156f-168">A value of 0.5 or less represents acceptable degradation.</span></span> <span data-ttu-id="4156f-169">Históricamente, las puntuaciones de opinión media se calculaban haciendo que los usuarios puntuaran la calidad de una llamada en una escala del 1 al 5.</span><span class="sxs-lookup"><span data-stu-id="4156f-169">Historically, mean options scores were calculated by having users rate the quality of a call on a scale of 1-to-5.</span></span> <span data-ttu-id="4156f-170">En Lync Server, Lync Server usa un conjunto de algoritmos para predecir cómo los usuarios habrían calificado una llamada.</span><span class="sxs-lookup"><span data-stu-id="4156f-170">In Lync Server, Lync Server uses a set of algorithms to predict how users would have rated a call.</span></span></p>
-<p><span data-ttu-id="4156f-p107">Los valores altos de degradación pueden ser producto de la congestión, falta de ancho de banda, congestión o interferencias en una conexión inalámbrica, o la sobrecarga de un servidor multimedia o servidor de extremo. Una degradación alta causa la distorsión o la pérdida del audio.</span><span class="sxs-lookup"><span data-stu-id="4156f-p107">High degradation values can be caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server or endpoint. High degradation results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="61298-164"><strong>Degradación (MOS)</strong></span><span class="sxs-lookup"><span data-stu-id="61298-164"><strong>Degradation (MOS)</strong></span></span></p></td>
+<td><p><span data-ttu-id="61298-165">Sí</span><span class="sxs-lookup"><span data-stu-id="61298-165">Yes</span></span></p></td>
+<td><p><span data-ttu-id="61298-166">Cantidad media de degradación de la puntuación de opinión media (MOS) experimentada durante la llamada.</span><span class="sxs-lookup"><span data-stu-id="61298-166">Average amount of mean opinion score (MOS) degradation experienced during a call.</span></span> <span data-ttu-id="61298-167">Los valores de degradación oscilan entre un mínimo de 0,0 y un máximo de 5,0.</span><span class="sxs-lookup"><span data-stu-id="61298-167">Degradation values can range from a low of 0.0 to a high of 5.0.</span></span> <span data-ttu-id="61298-168">Un valor de 0,5 o menos constituye una degradación aceptable.</span><span class="sxs-lookup"><span data-stu-id="61298-168">A value of 0.5 or less represents acceptable degradation.</span></span> <span data-ttu-id="61298-169">Históricamente, las puntuaciones de opinión media se calculaban haciendo que los usuarios puntuaran la calidad de una llamada en una escala del 1 al 5.</span><span class="sxs-lookup"><span data-stu-id="61298-169">Historically, mean options scores were calculated by having users rate the quality of a call on a scale of 1-to-5.</span></span> <span data-ttu-id="61298-170">En Lync Server, Lync Server usa un conjunto de algoritmos para predecir cómo los usuarios calificarían una llamada.</span><span class="sxs-lookup"><span data-stu-id="61298-170">In Lync Server, Lync Server uses a set of algorithms to predict how users would have rated a call.</span></span></p>
+<p><span data-ttu-id="61298-p107">Los valores altos de degradación pueden ser producto de la congestión, falta de ancho de banda, congestión o interferencias en una conexión inalámbrica, o la sobrecarga de un servidor multimedia o servidor de extremo. Una degradación alta causa la distorsión o la pérdida del audio.</span><span class="sxs-lookup"><span data-stu-id="61298-p107">High degradation values can be caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server or endpoint. High degradation results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4156f-173"><strong>Pérdida de paquetes</strong></span><span class="sxs-lookup"><span data-stu-id="4156f-173"><strong>Packet loss</strong></span></span></p></td>
-<td><p><span data-ttu-id="4156f-174">Sí</span><span class="sxs-lookup"><span data-stu-id="4156f-174">Yes</span></span></p></td>
-<td><p><span data-ttu-id="4156f-p108">Tasa media de pérdida de paquetes RTP. Se habla de pérdida de paquetes cuando los paquetes RTP, un protocolo que se usa para transmitir audio y vídeo a través de Internet, no llegan a su destino. Una tasa alta de pérdida suele deberse a la congestión, falta de ancho de banda, congestión o interferencias en una conexión inalámbrica, o la sobrecarga de un servidor multimedia. Generalmente, la pérdida de paquetes da lugar a la pérdida o la distorsión del audio.</span><span class="sxs-lookup"><span data-stu-id="4156f-p108">Average rate of RTP packet loss. (Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server. Packet loss typically results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="61298-173"><strong>Pérdida de paquetes</strong></span><span class="sxs-lookup"><span data-stu-id="61298-173"><strong>Packet loss</strong></span></span></p></td>
+<td><p><span data-ttu-id="61298-174">Sí</span><span class="sxs-lookup"><span data-stu-id="61298-174">Yes</span></span></p></td>
+<td><p><span data-ttu-id="61298-p108">Tasa media de pérdida de paquetes RTP. Se habla de pérdida de paquetes cuando los paquetes RTP, un protocolo que se usa para transmitir audio y vídeo a través de Internet, no llegan a su destino. Una tasa alta de pérdida suele deberse a la congestión, falta de ancho de banda, congestión o interferencias en una conexión inalámbrica, o la sobrecarga de un servidor multimedia. Generalmente, la pérdida de paquetes da lugar a la pérdida o la distorsión del audio.</span><span class="sxs-lookup"><span data-stu-id="61298-p108">Average rate of RTP packet loss. (Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server. Packet loss typically results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4156f-178"><strong>Vibración</strong></span><span class="sxs-lookup"><span data-stu-id="4156f-178"><strong>Jitter</strong></span></span></p></td>
-<td><p><span data-ttu-id="4156f-179">Sí</span><span class="sxs-lookup"><span data-stu-id="4156f-179">Yes</span></span></p></td>
-<td><p><span data-ttu-id="4156f-180">Valor medio de las vibraciones detectadas entre la llagada de paquetes RTP.</span><span class="sxs-lookup"><span data-stu-id="4156f-180">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="4156f-181">(La vibración es una medida de &quot;la irregularidad&quot; de una llamada). Los valores de vibración elevada suelen estar causados por una congestión o un servidor multimedia sobrecargado y tienen como resultado una distorsión o pérdida de audio.</span><span class="sxs-lookup"><span data-stu-id="4156f-181">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="61298-178"><strong>JIT</strong></span><span class="sxs-lookup"><span data-stu-id="61298-178"><strong>Jitter</strong></span></span></p></td>
+<td><p><span data-ttu-id="61298-179">Sí</span><span class="sxs-lookup"><span data-stu-id="61298-179">Yes</span></span></p></td>
+<td><p><span data-ttu-id="61298-180">Valor medio de las vibraciones detectadas entre las llegadas de paquetes RTP.</span><span class="sxs-lookup"><span data-stu-id="61298-180">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="61298-181">(La vibración es una medida de &quot;la irregularidad&quot; de una llamada). Los valores de vibración elevados suelen deberse a la congestión o a un servidor multimedia sobrecargado, lo que da como resultado una distorsión o pérdida de audio.</span><span class="sxs-lookup"><span data-stu-id="61298-181">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4156f-182"><strong>Tasa de recuperación de muestras ocultas</strong></span><span class="sxs-lookup"><span data-stu-id="4156f-182"><strong>Healer concealed ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="4156f-183">Sí</span><span class="sxs-lookup"><span data-stu-id="4156f-183">Yes</span></span></p></td>
-<td><p><span data-ttu-id="4156f-p110">Tasa media de muestras de audio ocultas respecto a la cantidad total de muestras. Una muestra de audio oculta es una técnica que se emplea para suavizar la transición brusca que normalmente supondría la pérdida de paquetes de red. Los valores elevados indican niveles igualmente elevados de aplicación de ocultación de pérdidas a causa de la pérdida de paquetes o de las vibraciones, y dan lugar a la distorsión o pérdida del audio.</span><span class="sxs-lookup"><span data-stu-id="4156f-p110">Average ratio of concealed audio samples to the total to the total number of samples. (A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.) High values indicate significant levels of loss concealment applied caused by packet loss or jitter, and results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="61298-182"><strong>Tasa de recuperación de muestras ocultas</strong></span><span class="sxs-lookup"><span data-stu-id="61298-182"><strong>Healer concealed ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="61298-183">Sí</span><span class="sxs-lookup"><span data-stu-id="61298-183">Yes</span></span></p></td>
+<td><p><span data-ttu-id="61298-p110">Tasa media de muestras de audio ocultas respecto al número total de muestras. Una muestra de audio oculta es una técnica que se emplea para suavizar la transición brusca que normalmente supondría la pérdida de paquetes de red. Los valores elevados indican niveles igualmente elevados de aplicación de ocultación de pérdidas a causa de la pérdida de paquetes o de las vibraciones, y dan lugar a la distorsión o pérdida del audio.</span><span class="sxs-lookup"><span data-stu-id="61298-p110">Average ratio of concealed audio samples to the total to the total number of samples. (A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.) High values indicate significant levels of loss concealment applied caused by packet loss or jitter, and results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4156f-186"><strong>Tasa de recuperación de muestras extendidas</strong></span><span class="sxs-lookup"><span data-stu-id="4156f-186"><strong>Healer stretched ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="4156f-187">Sí</span><span class="sxs-lookup"><span data-stu-id="4156f-187">Yes</span></span></p></td>
-<td><p><span data-ttu-id="4156f-p111">Tasa media de muestras de audio extendidas respecto a la cantidad total de muestras. El audio extendido es el audio que se expande para ayudar a mantener el nivel de calidad de la llamada cuando se detecta la pérdida de paquetes en la red. Los valores elevados indican un grado igualmente elevado de extensión de las muestras a causa de las vibraciones, y dan lugar a un audio robótico o distorsionado.</span><span class="sxs-lookup"><span data-stu-id="4156f-p111">Average ratio of stretched audio samples to the total to the total number of samples. (Stretched audio is audio that has been expanded to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample stretching caused by jitter, and result in audio sounding robotic or distorted.</span></span></p></td>
+<td><p><span data-ttu-id="61298-186"><strong>Tasa de recuperación de muestras extendidas</strong></span><span class="sxs-lookup"><span data-stu-id="61298-186"><strong>Healer stretched ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="61298-187">Sí</span><span class="sxs-lookup"><span data-stu-id="61298-187">Yes</span></span></p></td>
+<td><p><span data-ttu-id="61298-p111">Tasa media de muestras de audio extendidas respecto al número total de muestras. El audio extendido es el audio que se expande para ayudar a mantener el nivel de calidad de la llamada cuando se detecta la pérdida de paquetes en la red. Los valores elevados indican un grado igualmente elevado de extensión de las muestras a causa de las vibraciones, y dan lugar a un audio robótico o distorsionado.</span><span class="sxs-lookup"><span data-stu-id="61298-p111">Average ratio of stretched audio samples to the total to the total number of samples. (Stretched audio is audio that has been expanded to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample stretching caused by jitter, and result in audio sounding robotic or distorted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4156f-190"><strong>Tasa de recuperación de muestras comprimidas</strong></span><span class="sxs-lookup"><span data-stu-id="4156f-190"><strong>Healer compressed ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="4156f-191">Sí</span><span class="sxs-lookup"><span data-stu-id="4156f-191">Yes</span></span></p></td>
-<td><p><span data-ttu-id="4156f-p112">Tasa media de muestras de audio comprimidas respecto a la cantidad total de muestras. El audio comprimido es el audio que se comprime para ayudar a mantener el nivel de calidad de la llamada cuando se detecta la pérdida de paquetes en la red. Los valores altos indican un elevado grado de compresión de las muestras a causa de las vibraciones y las consecuencias son un audio acelerado o distorsionado.</span><span class="sxs-lookup"><span data-stu-id="4156f-p112">Average ratio of compressed audio samples to the total number of samples. (Compressed audio is audio that has been compressed to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample compression caused by jitter, and result in audio sounding accelerated or distorted.</span></span></p></td>
+<td><p><span data-ttu-id="61298-190"><strong>Tasa de recuperación de muestras comprimidas</strong></span><span class="sxs-lookup"><span data-stu-id="61298-190"><strong>Healer compressed ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="61298-191">Sí</span><span class="sxs-lookup"><span data-stu-id="61298-191">Yes</span></span></p></td>
+<td><p><span data-ttu-id="61298-p112">Tasa media de muestras de audio comprimidas respecto al número total de muestras. El audio comprimido es el audio que se comprime para ayudar a mantener el nivel de calidad de la llamada cuando se detecta la pérdida de paquetes en la red. Los valores altos indican un elevado grado de compresión de las muestras a causa de las vibraciones y las consecuencias son un audio acelerado o distorsionado.</span><span class="sxs-lookup"><span data-stu-id="61298-p112">Average ratio of compressed audio samples to the total number of samples. (Compressed audio is audio that has been compressed to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample compression caused by jitter, and result in audio sounding accelerated or distorted.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4156f-194"><strong>Conectividad</strong></span><span class="sxs-lookup"><span data-stu-id="4156f-194"><strong>Connectivity</strong></span></span></p></td>
-<td><p><span data-ttu-id="4156f-195">Sí</span><span class="sxs-lookup"><span data-stu-id="4156f-195">Yes</span></span></p></td>
-<td><p><span data-ttu-id="4156f-p113">Tipo de vínculo de comunicación inalámbrica. Normalmente es uno de los siguientes:</span><span class="sxs-lookup"><span data-stu-id="4156f-p113">Type of wireless communication link. Typically, this is one of the following:</span></span></p>
+<td><p><span data-ttu-id="61298-194"><strong>Conectividad</strong></span><span class="sxs-lookup"><span data-stu-id="61298-194"><strong>Connectivity</strong></span></span></p></td>
+<td><p><span data-ttu-id="61298-195">Sí</span><span class="sxs-lookup"><span data-stu-id="61298-195">Yes</span></span></p></td>
+<td><p><span data-ttu-id="61298-196">Tipo de vínculo de comunicación inalámbrica.</span><span class="sxs-lookup"><span data-stu-id="61298-196">Type of wireless communication link.</span></span> <span data-ttu-id="61298-197">Normalmente, es uno de los siguientes:</span><span class="sxs-lookup"><span data-stu-id="61298-197">Typically, this is one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="4156f-198">Retransmisión</span><span class="sxs-lookup"><span data-stu-id="4156f-198">Relay</span></span></p></li>
-<li><p><span data-ttu-id="4156f-199">Directo</span><span class="sxs-lookup"><span data-stu-id="4156f-199">Direct</span></span></p></li>
+<li><p><span data-ttu-id="61298-198">Emitir</span><span class="sxs-lookup"><span data-stu-id="61298-198">Relay</span></span></p></li>
+<li><p><span data-ttu-id="61298-199">Dirección</span><span class="sxs-lookup"><span data-stu-id="61298-199">Direct</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ver información de la interfaz de red'
+title: 'Lync Server 2013: visualización de información de interfaz de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733850
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0434e673955729bdfad61d6e205f47dbf7f06577
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 159cc2b5fc878534dceedb5a56ab6c007898f1e6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757304"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044812"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-interface-information-in-lync-server-2013"></a><span data-ttu-id="b49c6-102">Ver información de la interfaz de red en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b49c6-102">Viewing network interface information in Lync Server 2013</span></span>
+# <a name="viewing-network-interface-information-in-lync-server-2013"></a><span data-ttu-id="21e2b-102">Ver la información de la interfaz de red en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21e2b-102">Viewing network interface information in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41757304"
 
 <span> </span>
 
-<span data-ttu-id="b49c6-103">_**Última modificación del tema:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="b49c6-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="21e2b-103">_**Última modificación del tema:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="21e2b-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="b49c6-104">Puede ver la información de la interfaz de red con Windows PowerShell y el cmdlet **Get-CsNetworkInterface** .</span><span class="sxs-lookup"><span data-stu-id="b49c6-104">You can view network interface information by using Windows PowerShell and the **Get-CsNetworkInterface** cmdlet.</span></span> <span data-ttu-id="b49c6-105">Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b49c6-105">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="b49c6-106">Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.</span><span class="sxs-lookup"><span data-stu-id="b49c6-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="21e2b-104">Puede ver la información de la interfaz de red con Windows PowerShell y el cmdlet **Get-CsNetworkInterface** .</span><span class="sxs-lookup"><span data-stu-id="21e2b-104">You can view network interface information by using Windows PowerShell and the **Get-CsNetworkInterface** cmdlet.</span></span> <span data-ttu-id="21e2b-105">Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="21e2b-105">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="21e2b-106">Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.</span><span class="sxs-lookup"><span data-stu-id="21e2b-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-network-interface-information"></a><span data-ttu-id="b49c6-107">Para ver información sobre la interfaz de red</span><span class="sxs-lookup"><span data-stu-id="b49c6-107">To view network interface information</span></span>
+## <a name="to-view-network-interface-information"></a><span data-ttu-id="21e2b-107">Para ver la información de interfaz de red</span><span class="sxs-lookup"><span data-stu-id="21e2b-107">To view network interface information</span></span>
 
-  - <span data-ttu-id="b49c6-108">Para ver la información de la interfaz de red, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:</span><span class="sxs-lookup"><span data-stu-id="b49c6-108">To view network interface information, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="21e2b-108">Para ver la información de la interfaz de red, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:</span><span class="sxs-lookup"><span data-stu-id="21e2b-108">To view network interface information, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsNetworkInterface
     
-    <span data-ttu-id="b49c6-109">Este comando devuelve información similar a la siguiente para cada interfaz de red:</span><span class="sxs-lookup"><span data-stu-id="b49c6-109">This command returns information similar to the following for each network interface:</span></span>
+    <span data-ttu-id="21e2b-109">Este comando produce información similar a la siguiente para cada interfaz de red:</span><span class="sxs-lookup"><span data-stu-id="21e2b-109">This command returns information similar to the following for each network interface:</span></span>
     
         Identity              : dc.vdomain.com/Primary/1
         ComputerFqdn          : dc.vdomain.com
@@ -59,7 +59,7 @@ ms.locfileid: "41757304"
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
     
-    <span data-ttu-id="b49c6-110">Para obtener más información, vea [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).</span><span class="sxs-lookup"><span data-stu-id="b49c6-110">For details, see [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).</span></span>
+    <span data-ttu-id="21e2b-110">Para más información, vea [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).</span><span class="sxs-lookup"><span data-stu-id="21e2b-110">For details, see [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).</span></span>
 
 </div>
 

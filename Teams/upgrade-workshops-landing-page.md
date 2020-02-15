@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7aac21e8e6b840c234e9d65d8469607cb05a8122
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5f58815ad2f722b0409b22e05a71adc65a8772e1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836790"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045022"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -45,7 +45,7 @@ ms.locfileid: "41836790"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Pointing finger with an arrow representing get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="Pointing finger with an arrow representing get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -65,7 +65,7 @@ ms.locfileid: "41836790"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing training" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing training" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -85,7 +85,7 @@ ms.locfileid: "41836790"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid-teams.svg" alt="A grid and a cloud icon representing a hybrid deployment" />
+                            <img src="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="A grid and a cloud icon representing a hybrid deployment" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -105,7 +105,7 @@ ms.locfileid: "41836790"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/usage-report-teams.svg" alt="A graphical report icon representing usage reports" />
+                            <img src="https://docs.microsoft.com/office/media/icons/usage-report-teams.svg" alt="A graphical report icon representing usage reports" />
                         </div>
                     </div>
                     <div class="cardText">

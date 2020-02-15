@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9966c8dcf454952e1f06c3ad6e2fa65b44422881
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 0cdb9d63d6c14c6950f7066f5cb8b6fbd933703b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826658"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008142"
 ---
 # <a name="teams-for-education"></a>Microsoft Teams para el ámbito educativo
 
@@ -34,7 +34,7 @@ Con Teams, los profesores y los profesores pueden crear clases de colaboración,
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/arrow-right-2-teams.svg" alt="An arrow icon representing quick start" />
+                            <img src="https://docs.microsoft.com/office/media/icons/arrow-right-2-teams.svg" alt="An arrow icon representing quick start" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -52,7 +52,7 @@ Con Teams, los profesores y los profesores pueden crear clases de colaboración,
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-teams.svg" alt="A pencil icon representing assignments" />
+                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" alt="A pencil icon representing assignments" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -70,7 +70,7 @@ Con Teams, los profesores y los profesores pueden crear clases de colaboración,
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="A tool icon representing resources" />
+                            <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="A tool icon representing resources" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -87,7 +87,7 @@ Con Teams, los profesores y los profesores pueden crear clases de colaboración,
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon representing governance FAQ" />
+                            <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon representing governance FAQ" />
                         </div>
                     </div>
                     <div class="cardText">

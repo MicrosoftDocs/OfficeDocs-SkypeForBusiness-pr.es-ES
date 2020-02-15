@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: números de acceso a la Conferencia de acceso telefónico local'
+title: 'Lync Server 2013: números de acceso a conferencias de acceso telefónico local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1b7f10d0fb1d8c908a6cce90ece3b0ef6f0eed2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e128536bbabc4c43fd51412ea61fe0da0b86cf56
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762338"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044692"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-access-numbers-in-lync-server-2013"></a><span data-ttu-id="a6b0a-102">Números de acceso a la Conferencia de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a6b0a-102">Dial-in conferencing access numbers in Lync Server 2013</span></span>
+# <a name="dial-in-conferencing-access-numbers-in-lync-server-2013"></a><span data-ttu-id="80d67-102">Números de acceso a conferencias de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="80d67-102">Dial-in conferencing access numbers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41762338"
 
 <span> </span>
 
-<span data-ttu-id="a6b0a-103">_**Última modificación del tema:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="a6b0a-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="80d67-103">_**Última modificación del tema:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="80d67-103">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="a6b0a-104">Para permitir que los usuarios se unan a la parte de audio de las conferencias locales mediante el acceso telefónico desde la red de telefonía pública conmutada (RTC), debe configurar los números de acceso de la Conferencia de acceso telefónico local.</span><span class="sxs-lookup"><span data-stu-id="a6b0a-104">To enable users to join the audio portion of on-premises conferences by dialing in from the public switched telephone network (PSTN), you must configure dial-in conferencing access numbers.</span></span> <span data-ttu-id="a6b0a-105">Los números de acceso de la Conferencia de acceso telefónico local son los números a los que los usuarios llaman para unirse a una conferencia.</span><span class="sxs-lookup"><span data-stu-id="a6b0a-105">Dial-in conferencing access numbers are the numbers that users call to join a conference.</span></span>
+<span data-ttu-id="80d67-p101">Para que los usuarios puedan participar en la parte de audio de las conferencias locales mediante acceso telefónico desde una red telefónica conmutada (RTC), debe configurar los números de conferencias de acceso telefónico local. Los números de conferencias de acceso telefónico local son números a los que pueden llamar los usuarios para participar en una conferencia.</span><span class="sxs-lookup"><span data-stu-id="80d67-p101">To enable users to join the audio portion of on-premises conferences by dialing in from the public switched telephone network (PSTN), you must configure dial-in conferencing access numbers. Dial-in conferencing access numbers are the numbers that users call to join a conference.</span></span>
 
-<span data-ttu-id="a6b0a-106">Los números de acceso telefónico se muestran en las invitaciones a reuniones y en la Página Web de configuración de conferencias de acceso telefónico local.</span><span class="sxs-lookup"><span data-stu-id="a6b0a-106">Dial-in access numbers are displayed in meeting invitations and on the Dial-in Conferencing Settings webpage.</span></span>
+<span data-ttu-id="80d67-106">Los números de acceso telefónico se muestran en invitaciones a reuniones en la página web de configuración de conferencias de acceso telefónico.</span><span class="sxs-lookup"><span data-stu-id="80d67-106">Dial-in access numbers are displayed in meeting invitations and on the Dial-in Conferencing Settings webpage.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="a6b0a-107">No puede usar un nuevo número de acceso telefónico local hasta que se complete la replicación de Active Directory de ese número de acceso.</span><span class="sxs-lookup"><span data-stu-id="a6b0a-107">You cannot use a new dial-in access number until Active Directory replication of that access number is complete.</span></span> <span data-ttu-id="a6b0a-108">La replicación puede demorar varias horas.</span><span class="sxs-lookup"><span data-stu-id="a6b0a-108">Replication can take several hours.</span></span>
+> <span data-ttu-id="80d67-p102">No puede usar un nuevo número de acceso telefónico hasta que se complete la replicación de Active Directory de ese número de acceso telefónico. La replicación puede prolongarse durante varias horas.</span><span class="sxs-lookup"><span data-stu-id="80d67-p102">You cannot use a new dial-in access number until Active Directory replication of that access number is complete. Replication can take several hours.</span></span>
 
 
 
@@ -53,13 +53,13 @@ ms.locfileid: "41762338"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a6b0a-109">En esta sección</span><span class="sxs-lookup"><span data-stu-id="a6b0a-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="80d67-109">En esta sección</span><span class="sxs-lookup"><span data-stu-id="80d67-109">In This Section</span></span>
 
-  - [<span data-ttu-id="a6b0a-110">Ver los números de acceso a la Conferencia de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a6b0a-110">View dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
+  - [<span data-ttu-id="80d67-110">Ver los números de acceso de conferencia de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="80d67-110">View dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
 
-  - [<span data-ttu-id="a6b0a-111">Crear o modificar un número de acceso para conferencias de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a6b0a-111">Create or modify a dial-in conferencing access number in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
+  - [<span data-ttu-id="80d67-111">Crear o modificar un número de acceso de conferencia de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="80d67-111">Create or modify a dial-in conferencing access number in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
 
-  - [<span data-ttu-id="a6b0a-112">Eliminar un número de acceso de conferencia de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a6b0a-112">Delete a dial-in conferencing access number in Lync Server 2013</span></span>](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
+  - [<span data-ttu-id="80d67-112">Eliminar un número de acceso de conferencia de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="80d67-112">Delete a dial-in conferencing access number in Lync Server 2013</span></span>](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
 
 </div>
 

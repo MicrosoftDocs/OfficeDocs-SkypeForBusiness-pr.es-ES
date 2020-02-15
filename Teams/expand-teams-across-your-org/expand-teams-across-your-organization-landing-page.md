@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fdca563e731c751797f972730270f62ce490eaf0
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b163d12d0b773f271453a8024b3c0805c0e87a1c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827798"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008182"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Expandir Microsoft Teams en toda la organización
 
@@ -34,7 +34,7 @@ Estos recursos se basan en la guía de implementación estándar de equipos y es
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="An icon representing an analog clock" />
+                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="An icon representing an analog clock" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -52,7 +52,7 @@ Estos recursos se basan en la guía de implementación estándar de equipos y es
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/health-teams.svg" alt="A heart icon representing health" />
+                            <img src="https://docs.microsoft.com/office/media/icons/health-teams.svg" alt="A heart icon representing health" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -70,7 +70,7 @@ Estos recursos se basan en la guía de implementación estándar de equipos y es
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing education" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing education" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -88,7 +88,7 @@ Estos recursos se basan en la guía de implementación estándar de equipos y es
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/small-business-teams.svg" alt="A storefront icon representing retail" />
+                            <img src="https://docs.microsoft.com/office/media/icons/small-business-teams.svg" alt="A storefront icon representing retail" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -106,7 +106,7 @@ Estos recursos se basan en la guía de implementación estándar de equipos y es
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="A building blocks icon representing government" />
+                            <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" alt="A building blocks icon representing government" />
                         </div>
                     </div>
                     <div class="cardText">
