@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Requisitos de DNS'
+title: 'Lync Server 2013: requisitos de DNS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dabb05b40acc6536b57e00e6355c56bcdc3017df
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1d374c946a8093f6464b8c673d548cc4784bfede
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737360"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029591"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41737360"
 
 _**Última modificación del tema:** 2012-06-29_
 
-En los siguientes temas se describen los requisitos de DNS para un grupo de servidores front-end y un servidor Standard Edition.
+Los siguientes temas describen los requisitos de DNS para un grupo de servidores front-end y un servidor Standard Edition.
 
 <div>
 
@@ -45,7 +45,7 @@ En los siguientes temas se describen los requisitos de DNS para un grupo de serv
 
   - [Requisitos de DNS para el grupo de servidores front-end en Lync Server 2013](lync-server-2013-dns-requirements-for-front-end-pool.md)
 
-  - [Requisitos DNS para un servidor Standard Edition en Lync Server 2013](lync-server-2013-dns-requirements-for-a-standard-edition-server.md)
+  - [Requisitos de DNS para un servidor Standard Edition en Lync Server 2013](lync-server-2013-dns-requirements-for-a-standard-edition-server.md)
 
 </div>
 

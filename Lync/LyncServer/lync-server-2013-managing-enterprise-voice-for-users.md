@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: administración de telefonía IP empresarial para usuarios'
+title: 'Lync Server 2013: administración de la telefonía IP empresarial para los usuarios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d24e8447cb900349e49e868b0511a232fa22d00a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 887e5cb34917d588f6dfb59ee47e5eda07bc2e83
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729300"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029491"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-enterprise-voice-for-users-in-lync-server-2013"></a>Administración de telefonía IP empresarial para usuarios en Lync Server 2013
+# <a name="managing-enterprise-voice-for-users-in-lync-server-2013"></a>Administración de la telefonía IP empresarial para los usuarios en Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41729300"
 
 _**Última modificación del tema:** 2012-10-11_
 
-Puede habilitar la telefonía IP empresarial para cada usuario. Use los procedimientos de esta sección para administrar la telefonía IP empresarial con el panel de control de Lync Server 2013 y el shell de administración de Lync Server 2013.
+Puede habilitar la Telefonía IP empresarial para cada usuario. Use los procedimientos de esta sección para administrar la telefonía IP empresarial mediante el panel de control de Lync Server 2013 y el shell de administración de Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Habilitar usuarios para telefonía IP empresarial en Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)
+  - [Habilitar a los usuarios para la telefonía IP empresarial en Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)
 
-  - [Deshabilitar un usuario de telefonía IP empresarial en Lync Server 2013](lync-server-2013-disable-a-user-for-enterprise-voice.md)
+  - [Deshabilitar a un usuario para la telefonía IP empresarial en Lync Server 2013](lync-server-2013-disable-a-user-for-enterprise-voice.md)
 
 </div>
 

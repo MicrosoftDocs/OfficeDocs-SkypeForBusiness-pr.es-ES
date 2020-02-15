@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Finalización e implementación del diseño de la topología'
+title: 'Lync Server 2013: finalización e implementación del diseño de la topología'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 217857cf0699b68ef3a0daf63bfc0b658258c480
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88ffdc547bf0caed9b10f6555e2c56f03b50f467
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765368"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028471"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41765368"
 
 _**Última modificación del tema:** 2012-06-19_
 
-Una vez completada la preparación de su entorno, debe estar listo para finalizar e implementar el diseño de su topología. Esto incluye el uso del generador de topología para publicar su topología, lo cual es necesario para instalar los roles de servidor de Lync Server 2013.
+Una vez completada la preparación del entorno, estará listo para finalizar e implementar el diseño de la topología. Esto incluye el uso del generador de topologías para publicar la topología, lo cual es necesario para instalar los roles de servidor de Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Instalar la base de datos del servidor Standard Edition en Lync Server 2013](lync-server-2013-install-standard-edition-server-database.md)
+  - [Instalar la base de datos del servidor Standard Edition para Lync Server 2013](lync-server-2013-install-standard-edition-server-database.md)
 
   - [Comprobar el diseño de la topología en Lync Server 2013](lync-server-2013-verify-the-topology-design.md)
 

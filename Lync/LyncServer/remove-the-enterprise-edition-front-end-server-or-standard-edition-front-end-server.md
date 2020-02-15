@@ -1,5 +1,5 @@
 ---
-title: Quitar el servidor front-end de Enterprise Edition o el servidor front-end Standard Edition
+title: Quitar el servidor front-end Enterprise Edition o el servidor front-end Standard Edition
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e175b4771b9e9777f0fa162cb2a59f7a3b17cc7e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 74689dcc730874ecaea0aef31ab18cfc2e9c2c1d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727160"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008876"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server"></a>Quitar el servidor front-end de Enterprise Edition o el servidor front-end Standard Edition
+# <a name="remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server"></a>Quitar el servidor front-end Enterprise Edition o el servidor front-end Standard Edition
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41727160"
 
 _**Última modificación del tema:** 2012-10-10_
 
-Los procedimientos descritos en este tema están diseñados para guiarlo a través del proceso de quitar un grupo de servidores front-end de Microsoft Lync Server 2010 Enterprise Edition o un servidor de aplicaciones para el usuario Standard Edition. Después de migrar a Lync Server 2013, este es uno de los primeros pasos para dar de baja a su entorno de Lync Server 2010 heredado.
+Los procedimientos descritos en este tema están diseñados para guiarle a través del proceso de eliminación de un grupo de servidores front-end de Microsoft Lync Server 2010 Enterprise Edition o un servidor front-end Standard Edition. Después de migrar a Lync Server 2013, es uno de los primeros pasos para retirar el entorno de Lync Server 2010 heredado.
 
 <div>
 
@@ -51,7 +51,7 @@ Los procedimientos descritos en este tema están diseñados para guiarlo a trav�
 
   - [Quitar un servidor front-end de un grupo de servidores](remove-a-front-end-server-from-a-pool.md)
 
-  - [Quitar un grupo de servidores front-end o servidor Standard Edition](remove-front-end-pool-or-standard-edition-server.md)
+  - [Quitar un grupo de servidores front-end o un servidor Standard Edition](remove-front-end-pool-or-standard-edition-server.md)
 
 </div>
 

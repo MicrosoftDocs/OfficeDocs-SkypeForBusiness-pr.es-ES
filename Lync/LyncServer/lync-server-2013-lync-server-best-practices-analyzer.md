@@ -12,16 +12,16 @@ ms:contentKeyID: 48183768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf3161c66d522c09692e9fb7f1b124b506549ceb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6a1205ca5deb666922c723f5c6773a2aa4b5c59f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742220"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030233"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41742220"
 
 _**Última modificación del tema:** 2012-06-13_
 
-Lync Server 2013, analizador de procedimientos recomendados es una herramienta de diagnóstico que recopila información de configuración de entornos de Lync Server 2013 y determina si la configuración se establece de acuerdo con las prácticas recomendadas de Microsoft.
+Lync Server 2013, analizador de procedimientos recomendados es una herramienta de diagnóstico que recopila información de configuración de los entornos de Lync Server 2013 y determina si la configuración se establece de acuerdo con los procedimientos recomendados de Microsoft.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013, analizador de procedimientos recomendados examina e informa de problemas solo con componentes de Lync Server 2013. Si su implementación incluye componentes de Lync Server 2010 o de Office Communications Server 2007 R2, use la versión anterior del analizador de procedimientos recomendados para analizar esos componentes. Para obtener más información, consulte <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">requisitos para ejecutar el analizador de procedimientos recomendados en Lync Server 2013</A>.
+> Lync Server 2013, analizador de procedimientos recomendados examina e informa sobre problemas solo con componentes de Lync Server 2013. Si su implementación incluye componentes de Lync Server 2010 o de Office Communications Server 2007 R2, use la versión anterior del analizador de procedimientos recomendados para analizar dichos componentes. Para obtener información detallada, consulte <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requirements for Running Best Practices Analyzer in Lync Server 2013</A>.
 
 
 
@@ -53,13 +53,13 @@ Lync Server 2013, analizador de procedimientos recomendados es una herramienta d
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Información general del analizador de procedimientos recomendados de Lync Server 2013](lync-server-2013-overview-of-best-practices-analyzer.md)
+  - [Información general sobre el analizador de procedimientos recomendados en Lync Server 2013](lync-server-2013-overview-of-best-practices-analyzer.md)
 
-  - [Preparación de e instalación del analizador de procedimientos recomendados en Lync Server 2013](lync-server-2013-preparing-for-and-installing-best-practices-analyzer.md)
+  - [Preparación e instalación del analizador de procedimientos recomendados en Lync Server 2013](lync-server-2013-preparing-for-and-installing-best-practices-analyzer.md)
 
   - [Uso del analizador de procedimientos recomendados para identificar problemas potenciales en la implementación de Lync Server 2013](lync-server-2013-using-best-practices-analyzer-to-identify-potential-issues-in-your-deployment.md)
 
-  - [Usar los resultados del examen para analizar y resolver los problemas notificados por el analizador de procedimientos recomendados de Lync Server 2013](lync-server-2013-using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer.md)
+  - [Uso de los resultados del examen para analizar y resolver los problemas que ha notificado el analizador de procedimientos recomendados en Lync Server 2013](lync-server-2013-using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer.md)
 
 </div>
 

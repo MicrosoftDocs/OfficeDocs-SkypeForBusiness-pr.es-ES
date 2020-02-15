@@ -12,16 +12,16 @@ ms:contentKeyID: 48184021
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a62dce5d074b19c2bc8958715ced61bb54a4c8e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7c24c8879f967553d5bb6449f9245781f2b56e46
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745240"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -41,15 +41,15 @@ El Informe de errores principales proporciona una presentación de los errores m
 
   - **Id. de diagnóstico**. Identificador único (en forma de un encabezado de ms-diagnostics) que se adjunta a un mensaje SIP. Los Id. de diagnóstico proporcionan información útil para la solución de problemas relacionados con la llamada.
 
-  - **Código de respuesta**. Los códigos de respuesta se usan en las sesiones de comunicación SIP para responder a solicitudes SIP. Por ejemplo, supongamos que Ken envía la solicitud INVITE a Pilar Ackerman (es decir, supongamos que Ken Myer llama Pilar Ackerman). Si Pilar responde, su teléfono le enviará el código de respuesta 200 (OK), indicando al teléfono de Ken que Pilar ha respondido. El informe de errores principales solo incluye códigos de respuesta que se enviaron en respuesta a un error de llamada. Lync Server no realiza un seguimiento de todos los códigos de respuesta emitidos durante el transcurso de una llamada.
+  - **Código de respuesta**. Los códigos de respuesta se usan en las sesiones de comunicación SIP para responder a solicitudes SIP. Por ejemplo, supongamos que Ken envía la solicitud INVITE a Pilar Ackerman (es decir, supongamos que Ken Myer llama Pilar Ackerman). Si Pilar responde, su teléfono le enviará el código de respuesta 200 (OK), indicando al teléfono de Ken que Pilar ha respondido. El informe de errores principales solo incluye los códigos de respuesta que se enviaron en respuesta a un error de llamada; Lync Server no mantiene un seguimiento de todos los códigos de respuesta emitidos durante el curso de una llamada.
 
-No solo se proporciona información de la cantidad total de sesiones donde se produjo un error, sino también de la cantidad total de usuarios a los que afectó el error.
+No solo se proporciona información del número total de sesiones donde se produjo un error, sino también del número total de usuarios a los que afectó el error.
 
 <div>
 
 ## <a name="accessing-the-top-failures-report"></a>Acceso al Informe de errores principales
 
-Desde la página Informes supervisión se obtiene acceso al Informe de errores principales. Al hacer clic en la métrica de sesiones notificadas, se abrirá el [Informe de distribución de errores en Lync Server 2013](lync-server-2013-failure-distribution-report.md).
+Desde la página Informes supervisión se obtiene acceso al Informe de errores principales. Al hacer clic en la métrica sesiones notificadas irá al [Informe de distribución de errores en Lync Server 2013](lync-server-2013-failure-distribution-report.md).
 
 </div>
 
@@ -73,7 +73,7 @@ No disponible aquí.
 
 ## <a name="filters"></a>Filtros
 
-Los filtros se emplean para recuperar un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. Por ejemplo, el informe de errores más comunes le permite filtrar los datos en función de aspectos tales como el tipo de actividad (sesión punto a punto o sesión de conferencia) o por el código de respuesta SIP que acompañó a la sesión fallida. Es posible también elegir la forma en la que los datos necesitan agruparse. En este caso, los usos se agrupan por hora, día, semana o mes.
+Los filtros se emplean para recuperar un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. Por ejemplo, el informe de errores más comunes le permite filtrar los datos en función de aspectos tales como el tipo de actividad (sesión punto a punto o sesión de conferencia) o por el código de respuesta SIP que acompañó a la sesión fallida. Es posible también elegir la forma en la que los datos deben agruparse. En este caso, los usos se agrupan por hora, día, semana o mes.
 
 La siguiente tabla muestra los filtros que puede utilizar con el informe de errores más comunes.
 
@@ -92,20 +92,20 @@ La siguiente tabla muestra los filtros que puede utilizar con el informe de erro
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
-<td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:</p>
-<p>7/7/2012 1:00 P.M.</p>
-<p>Si no escribe una hora de inicio, el informe se iniciará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<td><p><strong>From</strong></p></td>
+<td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</p>
+<p>7/7/2012 1:00 pm</p>
+<p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
-<p>Las semanas siempre van del domingo al sábado.</p></td>
+<p>Las semanas siempre empiezan en domingo y terminan en sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Hasta</strong></p></td>
-<td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización como se indica a continuación:</p>
-<p>7/7/2012 1:00 P.M.</p>
-<p>Si no escribe una hora de finalización, el informe finalizará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:</p>
+<p>7/7/2012 1:00 PM</p>
+<p>Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
@@ -115,18 +115,18 @@ La siguiente tabla muestra los filtros que puede utilizar con el informe de erro
 <td><p><strong>Tipo de actividad</strong></p></td>
 <td><p>Tipo de actividad. Seleccione una de las siguientes opciones:</p>
 <ul>
-<li><p>[Todas]</p></li>
+<li><p>Todos</p></li>
 <li><p>Punto a punto</p></li>
-<li><p>Una conferencia</p></li>
+<li><p>Conversación</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>Modalidad</strong></p></td>
-<td><p>En este momento, la única opción disponible es <strong>[Todos]</strong>.</p></td>
+<td><p>En este momento, la única opción disponible es <strong>[Todas]</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Grupo de servidores</strong></p></td>
-<td><p>Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en <strong>[Todos]</strong> para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.</p></td>
+<td><p><strong>Pool</strong></p></td>
+<td><p>Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en <strong>[Todo]</strong> para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Categoría</strong></p></td>
@@ -135,7 +135,7 @@ La siguiente tabla muestra los filtros que puede utilizar con el informe de erro
 <li><p>Error esperado e inesperado</p></li>
 <li><p>Error inesperado</p></li>
 </ul>
-<p>Un &quot;error&quot; esperado es un error que se espera que suceda. Por ejemplo, si un usuario ha establecido su estado en No molestar, se espera que las llamadas a ese usuario no se realicen. Un &quot;error&quot; inesperado es un error que se produce en lo que parecería ser un sistema saludable en otro caso. Por ejemplo, una llamada no tendría que finalizarse si el autor de la llamada está en espera. De ser así, tal cosa se identificaría como un error inesperado.</p></td>
+<p>Un &quot;error esperado&quot; es un error que se espera que suceda. Por ejemplo, si un usuario ha establecido su estado en No molestar, se espera que las llamadas a ese usuario no se realicen. Un &quot;error&quot; inesperado es un error que se produce en lo que parecería ser un sistema en mal estado. Por ejemplo, una llamada no debería finalizarse si el autor de la llamada está en espera. De ser así, tal cosa se identificaría como un error inesperado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Código de respuesta</strong></p></td>
@@ -169,25 +169,25 @@ En la tabla siguiente se muestra la información que recoge el informe de errore
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Clasificación</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Sí</p></td>
-<td><p>Clasificación relativa basada en la cantidad de sesiones de las que se informa.</p></td>
+<td><p>Clasificación relativa basada en el número de sesiones de las que se informa.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Sesiones notificadas</strong></p></td>
+<td><p><strong>Sesiones de las que se informa</strong></p></td>
 <td><p>Sí</p></td>
-<td><p>Cantidad total de sesiones con error basadas en el Id. de diagnóstico y en el código de respuesta SIP.</p></td>
+<td><p>Número total de sesiones con error basadas en el Id. de diagnóstico y en el código de respuesta SIP.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Usuarios afectados</strong></p></td>
 <td><p>Sí</p></td>
-<td><p>Cantidad total de usuarios afectados por la sesión con error.</p></td>
+<td><p>Número total de usuarios afectados por la sesión con error.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Información del error</strong></p></td>

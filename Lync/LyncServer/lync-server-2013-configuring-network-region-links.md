@@ -12,20 +12,20 @@ ms:contentKeyID: 48184829
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d069bb5215fc977a35481a916f49e86fa644284
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ccafd4302897a8768164f9f085f382e2ad806c2d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743480"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030524"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-network-region-links-in-lync-server-2013"></a>Configuración de vínculos de regiones de red en Lync Server 2013
+# <a name="configuring-network-region-links-in-lync-server-2013"></a>Configuración de vínculos de región de red en Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41743480"
 
 _**Última modificación del tema:** 2012-11-01_
 
-Puede configurar vínculos entre dos regiones de red como parte de control de admisión de llamadas (CAC). Las regiones dentro de una red están vinculadas a través de la conectividad de red de área extensa (WAN). Puede usar el panel de control de Lync Server para definir un vínculo entre dos regiones de red y establecer las limitaciones de ancho de banda en las conexiones de audio y vídeo entre estas regiones. Para más información sobre cómo eliminar un vínculo de región de red existente, vea [eliminar vínculos de región de red en Lync Server 2013](lync-server-2013-deleting-network-region-links.md).
+Puede configurar vínculos entre dos regiones de red como parte del control de admisión de llamadas. Las regiones dentro de una red están vinculadas con una conectividad física de red de área extensa (WAN). Puede usar el panel de control de Lync Server para definir un vínculo entre dos regiones de red y establecer las limitaciones de ancho de banda en las conexiones de audio y vídeo entre estas regiones. Para obtener más información sobre cómo eliminar un vínculo de región de red existente, consulte [eliminar vínculos de región de red en Lync Server 2013](lync-server-2013-deleting-network-region-links.md).
 
 <div>
 
-## <a name="to-create-a-network-region-link"></a>Para crear un vínculo a región de red
+## <a name="to-create-a-network-region-link"></a>Para crear un vínculo de región de red
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **configuración de red** y, a continuación, en **vínculo de región**.
+3.  En la barra de navegación izquierda, haga clic en **Configuración de red** y luego en **Vínculo de región**.
 
-4.  En la página vínculo de la **región** , haga clic en **nuevo**.
+4.  En la página **Vínculo regional**, haga clic en **Nuevo**.
 
-5.  En el **vínculo nueva región**, escriba un valor en el campo **nombre** .
+5.  En **Vínculo regional nuevo**, escriba un valor en el campo **Nombre**.
     
     <div>
     
@@ -62,11 +62,11 @@ Puede configurar vínculos entre dos regiones de red como parte de control de ad
     
     </div>
 
-6.  En la lista desplegable ** \#región de red 1** , seleccione una de las dos regiones para vincular.
+6.  En la lista desplegable ** \#región de red 1** , seleccione una de las dos regiones que se van a vincular.
 
-7.  En la lista desplegable ** \#región de red 2** , seleccione la otra región que desea vincular. Esta región debe ser diferente de la región seleccionada para la región \#de red 1.
+7.  En la lista desplegable ** \#región de red 2** , seleccione la otra región que se va a vincular. Esta región debe ser diferente de la región seleccionada para la región \#de red 1.
 
-8.  Faculta Si desea colocar limitaciones de ancho de banda en las llamadas de audio o vídeo entre estas regiones, seleccione un perfil de directiva de ancho de banda en la lista desplegable **Directiva de ancho de banda** .
+8.  (Opcional) Si desea establecer limitaciones de ancho de banda en llamadas de audio o vídeo entre estas regiones, seleccione un perfil de directiva de ancho de banda en la lista desplegable **Directiva de ancho de banda**.
 
 9.  Haga clic en **Confirmar**.
 
@@ -76,17 +76,17 @@ Puede configurar vínculos entre dos regiones de red como parte de control de ad
 
 ## <a name="to-modify-a-network-region-link"></a>Para modificar un vínculo de región de red
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **configuración de red** y, a continuación, en **vínculo de región**.
+3.  En la barra de navegación izquierda, haga clic en **Configuración de red** y, a continuación, en **Vínculo regional**.
 
-4.  En la página vínculo de la **región** , haga clic en el vínculo de la región que desea modificar.
+4.  En la página **Vínculo regional**, haga clic en el vínculo regional que desea modificar.
 
 5.  En el menú **Editar**, haga clic en **Mostrar detalles**.
 
-6.  En el **vínculo editar región**, puede modificar las regiones vinculadas o el perfil de directiva de ancho de banda para este vínculo.
+6.  En **Editar vínculo regional** puede modificar las regiones que están vinculadas o el perfil de directiva de ancho de banda para este vínculo.
 
 7.  Haga clic en **Confirmar**.
 
@@ -97,7 +97,7 @@ Puede configurar vínculos entre dos regiones de red como parte de control de ad
 ## <a name="see-also"></a>Vea también
 
 
-[Eliminar vínculos de regiones de red en Lync Server 2013](lync-server-2013-deleting-network-region-links.md)  
+[Eliminación de vínculos de regiones de red en Lync Server 2013](lync-server-2013-deleting-network-region-links.md)  
 
 
 [New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  

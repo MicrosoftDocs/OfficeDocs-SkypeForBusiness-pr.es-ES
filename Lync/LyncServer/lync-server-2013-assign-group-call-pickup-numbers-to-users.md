@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: asignar números de llamada de grupo a los usuarios'
+title: 'Lync Server 2013: asignar números de llamada de llamadas de grupo a los usuarios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e65eef9fcf425ad8ea9f36dc57899bb6af924bf5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a27746909a5a4baa5ea6c3c6d050393e66dab05
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734060"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030083"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a>Asignar números de recogida de llamadas grupales a los usuarios de Lync Server 2013
+# <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a>Asignar números de llamada de llamada de grupo a los usuarios en Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41734060"
 
 _**Última modificación del tema:** 2013-01-30_
 
-Después de agregar los números del grupo de recogida de llamadas grupales a la tabla de llamadas en órbita, puede asignar los grupos a los usuarios. Use la herramienta del kit de recursos de activación de características de extensión secundaria (SEFAUtil) para asignar grupos de recogida de llamadas a los usuarios.
+Después de agregar los números del grupo de recogida de llamadas de grupo a la tabla de órbitas de estacionamiento de llamadas, puede asignar los grupos a los usuarios. Use la herramienta de kit de recursos de activación de característica de extensión secundaria (SEFAUtil) para asignar grupos de recogida de llamadas a los usuarios.
 
 <div>
 
 
 > [!NOTE]  
-> En una implementación híbrida, no asigne un grupo de recogida de llamadas grupal a los usuarios alojados en línea. Los usuarios alojados en Internet no pueden participar en la recogida de llamadas grupales. Es decir, otros usuarios no pueden contestar las llamadas y no pueden responder llamadas a otros usuarios.
+> En una implementación híbrida, no asigne un grupo de recogida de llamadas de grupo a los usuarios hospedados en línea. Los usuarios hospedados en línea no pueden participar en la recogida de llamadas de grupo. Es decir, otros usuarios no pueden contestar a sus llamadas y no pueden responder llamadas a otros usuarios.
 
 
 
@@ -51,9 +51,9 @@ Después de agregar los números del grupo de recogida de llamadas grupales a la
 
 <div>
 
-## <a name="to-assign-a-group-call-pickup-group-to-a-user"></a>Para asignar un grupo de recogida de llamadas grupal a un usuario
+## <a name="to-assign-a-group-call-pickup-group-to-a-user"></a>Para asignar un grupo de recogida de llamadas grupales a un usuario
 
-1.  Inicie sesión como administrador en el equipo en el que haya instalado la herramienta SEFAUtil.
+1.  Inicie sesión en el equipo donde instaló la herramienta SEFAUtil con derechos de administrador.
 
 2.  En la línea de comandos, ejecute:
     
@@ -70,8 +70,8 @@ Después de agregar los números del grupo de recogida de llamadas grupales a la
 ## <a name="see-also"></a>Vea también
 
 
-[Habilitar la recogida de llamadas grupales para los usuarios en Lync Server 2013](lync-server-2013-enable-group-call-pickup-for-users.md)  
-[Deshabilitar la recogida de llamadas grupales para los usuarios en Lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)  
+[Habilitar la atención de llamadas grupales para los usuarios en Lync Server 2013](lync-server-2013-enable-group-call-pickup-for-users.md)  
+[Deshabilitar la atención de llamadas grupales para los usuarios en Lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)  
   
 
 </div>

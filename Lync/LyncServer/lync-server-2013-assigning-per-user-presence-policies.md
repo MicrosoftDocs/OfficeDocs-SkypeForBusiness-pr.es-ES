@@ -12,20 +12,20 @@ ms:contentKeyID: 48185955
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ec15b826614afcca970989b6436d3ad94d7941f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 618ab1b18f92d19f65084d321b71219cc0fafb06
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722840"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030033"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assigning-per-user-presence-policies-in-lync-server-2013"></a>Asignar directivas de presencia por usuario en Lync Server 2013
+# <a name="assigning-per-user-presence-policies-in-lync-server-2013"></a>Asignación de directivas de presencia por usuario en Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41722840"
 
 _**Última modificación del tema:** 2012-10-11_
 
-Una directiva de presencia es un conjunto de límites y restricciones que afectan a la presencia. La siguiente tabla describe la configuración de la Directiva de presencia disponible en Lync Server 2013.
+Una directiva de presencia es un conjunto de límites y restricciones que afectan a la presencia. En la tabla siguiente se describe la configuración de la Directiva de presencia disponible en Lync Server 2013.
 
-### <a name="presence-policy-settings"></a>Configuración de la Directiva de presencia
+### <a name="presence-policy-settings"></a>Configuración de directivas de presencia
 
 <table>
 <colgroup>
@@ -61,13 +61,13 @@ Una directiva de presencia es un conjunto de límites y restricciones que afecta
 <tbody>
 <tr class="odd">
 <td><p>CategorySubscriptions</p></td>
-<td><p>Número máximo de suscripciones de categorías de suscriptores</p></td>
-<td><p>Limita la cantidad de suscripciones de categorías de abonados. Por ejemplo, cuando Communicator se suscribe a la presencia de un usuario, obtiene una suscripción de categoría para cada una de las categorías de tarjeta de contacto, datos de calendario, notas, servicios y estado.</p>
-<p>El valor 0 significa que otros usuarios no pueden suscribirse al objeto de usuario o contacto.</p>
+<td><p>Número máximo de suscripciones a categorías de suscriptores</p></td>
+<td><p>Limita el número de suscripciones a categorías de suscriptores. Por ejemplo, cuando Communicator se suscribe a la presencia de un usuario, obtiene una suscripción de categoría por cada categoría de tarjeta de contacto, datos de calendario, notas, servicios y estado.</p>
+<p>Si el valor es 0, significa que no se puede suscribir al objeto de contacto o usuario.</p>
 <div>
 
 > [!NOTE]  
-> Esta configuración puede tener un impacto significativo en el rendimiento si se establece en un número alto y el usuario promedio tiene un gran número de usuarios que se suscriben a su presencia.
+> Esta configuración puede influir en gran medida en el rendimiento si se configura con un número alto y cada usuario suele tener una gran cantidad de usuarios suscritos a su presencia.
 
 
 </div></td>
@@ -76,9 +76,9 @@ Una directiva de presencia es un conjunto de límites y restricciones que afecta
 </tr>
 <tr class="even">
 <td><p>PromptedSubscribers</p></td>
-<td><p>Número máximo de alertas de suscripción de presencia en cola</p></td>
-<td><p>Limita el número de entradas de la tabla suscriptores solicitada. Esta configuración determina el número máximo de mensajes que se pueden poner en cola para un usuario dado. Por ejemplo, cuando el usuario se suscribe a la presencia del usuario B, recibe un mensaje que indica que el usuario A ya está suscrito al usuario B y se crea un mensaje de confirmación en la tabla de suscriptores solicitada por el usuario B. Después de que el usuario B acepte o confirme la suscripción, se eliminará la solicitud de confirmación de la tabla de suscriptores solicitada por el usuario B.</p>
-<p>Un valor de 0 significa que no se le pide confirmación al usuario cuando alguien se suscribe a su presencia.</p></td>
+<td><p>Número máximo de alertas de suscripción de presencia en la cola</p></td>
+<td><p>Limita el número de entradas de la tabla de suscriptores avisados. Esta configuración determina la cantidad máxima de avisos que se pueden colocar en la cola de un usuario determinado. Por ejemplo, cuando el usuario A se suscribe a la presencia del usuario B, el usuario B recibe un aviso de que el usuario A se ha suscrito al usuario B, y un aviso de reconocimiento se crea en la tabla de suscriptores avisados del usuario B. Cuando el usuario B acepta, o reconoce, la suscripción, el aviso de reconocimiento se quita de la tabla de suscriptores avisados del usuario B.</p>
+<p>Si el valor es 0, significa que no se avisará al usuario cuando alguien se suscriba a su presencia.</p></td>
 <td><p>Entero o token</p></td>
 <td><p>0-500</p></td>
 </tr>
@@ -86,7 +86,7 @@ Una directiva de presencia es un conjunto de límites y restricciones que afecta
 </table>
 
 
-De forma predeterminada, la Directiva y el servicio **predeterminados** : las directivas de presencia **media** se instalan al implementar Lync Server. En la siguiente tabla se describen las opciones específicas de las dos directivas de presencia.
+De forma predeterminada, la **Directiva** y el servicio predeterminado: las directivas de presencia **mediana** se instalan al implementar Lync Server. En la siguiente tabla se describe la configuración concreta de estas dos directivas de presencia.
 
 ### <a name="presence-policies"></a>Directivas de presencia
 
@@ -99,7 +99,7 @@ De forma predeterminada, la Directiva y el servicio **predeterminados** : las di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de la directiva</th>
+<th>Nombre de directiva</th>
 <th>Descripción</th>
 <th>CategorySubscriptions</th>
 <th>PromptedSubscribers</th>
@@ -108,15 +108,15 @@ De forma predeterminada, la Directiva y el servicio **predeterminados** : las di
 <tbody>
 <tr class="odd">
 <td><p>Directiva predeterminada</p></td>
-<td><p>Directiva para usuarios típicos. Esta es la Directiva de presencia predeterminada.</p></td>
+<td><p>Directiva para usuarios normales. Es la directiva de presencia predeterminada.</p></td>
 <td><p>1000</p></td>
 <td><p>200</p></td>
 </tr>
 <tr class="even">
-<td><p>Servicio: medio</p></td>
-<td><p>Directiva para las aplicaciones que requieren más usuarios para suscribirse a la presencia del objeto.</p></td>
+<td><p>Service: Medium</p></td>
+<td><p>Directiva para las aplicaciones que requieren la suscripción de más usuarios a la presencia del objeto.</p></td>
 <td><p>1000</p></td>
-<td><p>,0</p></td>
+<td><p>comprendi</p></td>
 </tr>
 </tbody>
 </table>

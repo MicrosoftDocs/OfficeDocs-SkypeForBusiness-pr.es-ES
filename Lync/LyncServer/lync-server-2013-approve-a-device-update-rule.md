@@ -12,20 +12,20 @@ ms:contentKeyID: 51803964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bb464d0845f70012bdd8e70365c8a7993de6b4c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6537af434a704b23553c217bde3370d49e318f37
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738540"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029331"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="approve-a-device-update-rule-in-lync-server-2013"></a>Aprobar una regla de actualización de dispositivo en Lync Server 2013
+# <a name="approve-a-device-update-rule-in-lync-server-2013"></a>Aprobar una regla de actualización de dispositivos en Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41738540"
 
 _**Última modificación del tema:** 2013-02-23_
 
-Después de importar una regla de actualización de dispositivo, se instala en los dispositivos de prueba. Si las pruebas se realizan correctamente y desea implementar la actualización a su organización, puede aprobarla mediante el panel de control de Lync Server o Windows PowerShell.
+Después de importar una regla de actualización de dispositivos, se instala en los dispositivos de prueba. Si las pruebas se realizan correctamente y desea implementar la actualización en su organización, puede aprobarla mediante el panel de control de Lync Server o Windows PowerShell.
 
 <div>
 
-## <a name="to-approve-a-device-update-rule-by-using-lync-server-control-panel"></a>Para aprobar una regla de actualización de dispositivo con el panel de control de Lync Server
+## <a name="to-approve-a-device-update-rule-by-using-lync-server-control-panel"></a>Para aprobar una regla de actualización de dispositivos mediante el panel de control de Lync Server
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la página **actualización de dispositivo** , siga uno de estos procedimientos:
+3.  En la página **actualización de dispositivo** , realice una de las siguientes acciones:
     
-      - Para aprobar una regla, selecciónela.
+      - Para aprobar una regla, seleccione esa regla.
     
       - Para aprobar todas las reglas, haga clic en **Editar**y, a continuación, haga clic en **seleccionar todo**.
 
@@ -59,7 +59,7 @@ Después de importar una regla de actualización de dispositivo, se instala en l
 
 <div>
 
-## <a name="approving-a-device-update-rule-by-using-windows-powershell-cmdlets"></a>Aprobar una regla de actualización de dispositivo mediante cmdlets de Windows PowerShell
+## <a name="approving-a-device-update-rule-by-using-windows-powershell-cmdlets"></a>Aprobación de una regla de actualización de dispositivos mediante cmdlets de Windows PowerShell
 
 Las reglas de actualización de dispositivos también pueden aprobarse con Windows PowerShell y el cmdlet **Approven-CsDeviceUpdateRule** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.
 
@@ -67,7 +67,7 @@ Las reglas de actualización de dispositivos también pueden aprobarse con Windo
 
 
 > [!NOTE]  
-> Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 mediante PowerShell remoto" en.
+> Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 mediante PowerShell remoto" en.
 
 
 
@@ -75,9 +75,9 @@ Las reglas de actualización de dispositivos también pueden aprobarse con Windo
 
 <div>
 
-## <a name="to-approve-a-single-device-update-rule"></a>Para aprobar una regla de actualización de un único dispositivo
+## <a name="to-approve-a-single-device-update-rule"></a>Para aprobar una única regla de actualización de dispositivos
 
-  - El siguiente comando aprueba la regla de actualización de dispositivo d5ce3c10-2588-420A-82ac-dc2d9b1222ff9 se encuentra en el servidor Web atl-cs-001.litwareinc.com:
+  - El siguiente comando aprueba la regla de actualización de dispositivos d5ce3c10-2588-420A-82ac-dc2d9b1222ff9 que se encuentra en el servidor Web atl-cs-001.litwareinc.com:
     
         Approve-CsDeviceUpdateRule -Identity service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9
 
@@ -93,7 +93,7 @@ Las reglas de actualización de dispositivos también pueden aprobarse con Windo
 
 </div>
 
-Para obtener más información, vea el tema de ayuda para el cmdlet [Approven-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Approve-CsDeviceUpdateRule) .
+Para obtener más información, consulte el tema de ayuda para el cmdlet [APPROVE-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Approve-CsDeviceUpdateRule) .
 
 </div>
 
@@ -103,7 +103,7 @@ Para obtener más información, vea el tema de ayuda para el cmdlet [Approven-Cs
 
 
 [Importar reglas de actualización de dispositivos en Lync Server 2013](lync-server-2013-import-device-update-rules.md)  
-[Restaurar una regla de actualización de dispositivo en Lync Server 2013](lync-server-2013-restore-a-device-update-rule.md)  
+[Restaurar una regla de actualización de dispositivos en Lync Server 2013](lync-server-2013-restore-a-device-update-rule.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: probar el número de teléfono en una ruta de voz'
+title: 'Lync Server 2013: probar el número de teléfono con una ruta de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969631
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d4105b54c7d5b745efddeeb961960c402aaa349
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3fccdcb5dfc0fe52c2c0dcf80f7f6a374e35a39e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746180"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985075"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-telephone-number-against-a-voice-route-in-lync-server-2013"></a>Probar el número de teléfono en una ruta de voz en Lync Server 2013
+# <a name="test-telephone-number-against-a-voice-route-in-lync-server-2013"></a>Probar el número de teléfono con una ruta de voz en Lync Server 2013
 
 </div>
 
@@ -45,8 +45,8 @@ _**Última modificación del tema:** 2014-05-20_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Programación de verificación</p></td>
-<td><p>Cada mes</p></td>
+<td><p>Programación de comprobación</p></td>
+<td><p>Mensualmente</p></td>
 </tr>
 <tr class="even">
 <td><p>Herramienta de prueba</p></td>
@@ -54,8 +54,8 @@ _**Última modificación del tema:** 2014-05-20_
 </tr>
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
-<td><p>Al ejecutarse de forma local con el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol de RBAC que tenga permiso para ejecutar el cmdlet test-CsVoiceRoute. Para ver una lista de todos los roles de RBAC que pueden usar este cmdlet, ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:</p>
+<td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsVoiceRoute. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceRoute&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**Última modificación del tema:** 2014-05-20_
 
 ## <a name="description"></a>Descripción
 
-Las rutas de voz funcionan conjuntamente con directivas de voz para ayudar a dirigir llamadas de voz empresariales a la red RTC. Cada ruta de voz incluye una expresión regular (un patrón de número) que identifica los números de teléfono que se redirigirán a través de una ruta de voz determinada: la ruta podrá controlar cualquier número de teléfono que coincida con esta expresión regular. Por ejemplo, una ruta de voz puede tener una expresión regular que le permite controlar cualquier número de 10 dígitos. Eso significa que la ruta podría controlar un número de teléfono como este:
+Las rutas de voz funcionan junto con las directivas de voz para ayudar a enrutar las llamadas de telefonía IP empresarial a la red RTC. Cada ruta de voz incluye una expresión regular (un patrón de número) que identifica los números de teléfono que se redirigirán a través de una ruta de voz determinada: la ruta podrá controlar los números de teléfono que coinciden con esta expresión regular. Por ejemplo, una ruta de voz puede tener una expresión regular que permite controlar cualquier número de 10 dígitos. Eso significa que la ruta podría administrar un número de teléfono como el siguiente:
 
   - 2065551219
 
@@ -76,7 +76,7 @@ La ruta no podría controlar ninguno de los dos números siguientes, ninguno de 
 
   - 12065551219
 
-El cmdlet test-CsVoiceRoute verifica si una ruta de voz determinada puede enrutar un número de teléfono especificado.
+El cmdlet test-CsVoiceRoute comprueba si una ruta de voz determinada puede enrutar un número de teléfono especificado.
 
 </div>
 
@@ -84,17 +84,17 @@ El cmdlet test-CsVoiceRoute verifica si una ruta de voz determinada puede enruta
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-Comprobar la capacidad de una ruta de voz para enrutar un número de teléfono especificado es un proceso de dos pasos. Primero tiene que usar el cmdlet Get-CsVoiceRoute para devolver una instancia de esa ruta de voz y, a continuación, debe usar el cmdlet test-CsVoiceRoute para comprobar la capacidad de esa ruta para controlar el número de teléfono de destino. Por ejemplo, este comando comprueba si la ruta de voz RedmondVoiceRoute puede enrutar el número de teléfono 2065551219:
+Comprobar que la capacidad de una ruta de voz para enrutar un número de teléfono especificado es un proceso de dos pasos. Primero tiene que usar el cmdlet Get-CsVoiceRoute para devolver una instancia de esa ruta de voz y, a continuación, tiene que usar el cmdlet test-CsVoiceRoute para comprobar la capacidad de esa ruta para controlar el número de teléfono de destino. Por ejemplo, este comando comprueba si la ruta de voz RedmondVoiceRoute puede enrutar el número de teléfono 2065551219:
 
 `Get-CsVoiceRoute -Identity "RedmondVoiceRoute" | Test-CsVoiceRoute -TargetNumber "2065551219"`
 
-Ten en cuenta que el número de teléfono debe escribirse tal como espera que los usuarios marquen ese número. Por ejemplo, si no espera que los usuarios incluyan el prefijo internacional y el código de área al marcar, entonces use una sintaxis similar a esta:
+Tenga en cuenta que el número de teléfono debe escribirse tal como espera que los usuarios marquen ese número. Por ejemplo, si no espera que los usuarios incluyan el código de país y el código de área al marcar, use una sintaxis similar a la siguiente:
 
 `-TargetNumber "5551219"`
 
-En este caso, el número de destino deja el prefijo internacional y el código de área.
+En este caso, el número de destino deja el código de país y el código de área.
 
-Para usar un solo comando para probar todas las rutas de voz con un número de destino especificado, use una sintaxis como la siguiente:
+Para usar un único comando para probar todas las rutas de voz con un número de destino especificado, use una sintaxis como la siguiente:
 
 `Get-CsVoiceRoute | Test-CsVoiceRoute -TargetNumber "2065551219"`
 
@@ -104,7 +104,7 @@ Para obtener más información, consulte la documentación de ayuda del cmdlet t
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Determinar el éxito o el fracaso
+## <a name="determining-success-or-failure"></a>Determinar si se ha realizado correctamente o erróneo
 
 Si la ruta de voz puede enrutar el número de teléfono de destino, el cmdlet test-CsVoiceRoute solo devuelve el valor true:
 
@@ -112,23 +112,23 @@ MatchesPattern
 
 \--------------
 
-Verdadero
+True
 
-Eso significa que Route puede administrar números similares al número de destino. Si la ruta de voz no puede controlar el número de destino, test-CsVoiceRoute devolverá el valor falso:
+Esto significa que Route puede controlar números similares al número de destino. Si la ruta de voz no puede controlar el número de destino, test-CsVoiceRoute devuelve el valor false:
 
 MatchesPattern
 
 \--------------
 
-Falso
+False
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Razones por las que se ha producido un error en la prueba
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
-Al probar las rutas de voz, "error" es un término relativo. En este caso, no significa que la ruta esté de alguna manera "dañada", sino que simplemente significa que la ruta no puede controlar el número de destino. Esto puede deberse a que la ruta de voz no se ha configurado correctamente. También podría significar que la ruta nunca estaba destinada a tratar números usando este patrón. Por ejemplo, si no deseas enrutar llamadas a otros países a través de una ruta determinada, la ruta podría estar configurada para rechazar todos los números de teléfono que incluyan un prefijo internacional. Si prueba-CsVoiceRoute devuelve falso cuando se espera que devuelva el valor verdadero, compruebe que escribió correctamente el número de destino. Si lo hizo, use un comando similar a este para ver la NumberPattern configurada para la ruta:
+Al probar rutas de voz, "error" es un término relativo. En este caso, no significa que la ruta se "rompe" de algún modo, sino simplemente que la ruta no puede controlar el número de destino. Esto puede deberse a que la ruta de voz no se ha configurado correctamente. También podría significar que la ruta nunca se diseñó para controlar números con este patrón. Por ejemplo, si no desea enrutar las llamadas a otros países a través de una ruta determinada, es posible que la ruta esté configurada para rechazar todos los números de teléfono que incluyan un código de país. Si test-CsVoiceRoute devuelve false cuando esperaba que devolverse true, compruebe que escribió el número de destino correctamente. Si lo hizo, use un comando similar al siguiente para ver la NumberPattern configurada para la ruta:
 
 `Get-CsVoiceRoute -Identity "RedmondVoiceRoute" | Select-Object NumberPattern`
 

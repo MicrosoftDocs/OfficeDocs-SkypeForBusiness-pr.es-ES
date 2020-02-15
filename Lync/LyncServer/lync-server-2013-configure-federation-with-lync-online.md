@@ -12,16 +12,16 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba9179f05918504df15a18b35b9c411f23919330
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fb679f8bf0fae046bea0177daab22203bbf9aef1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726580"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028541"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -45,7 +45,7 @@ Siga los pasos de esta sección para configurar la interoperabilidad entre su im
 
 ## <a name="configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online"></a>Configurar el servicio perimetral local para la Federación con Skype empresarial online
 
-La Federación permite que los usuarios de su implementación local se comuniquen con los usuarios de Office 365 de su organización. Para configurar la Federación, ejecute los siguientes cmdlets:
+La Federación permite que los usuarios de la implementación local se comuniquen con los usuarios de Office 365 de su organización. Para configurar la Federación, ejecute los siguientes cmdlets:
 
    ```powershell
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $True
@@ -63,15 +63,15 @@ La Federación permite que los usuarios de su implementación local se comunique
 
 ## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>Configurar el inquilino de Skype empresarial online para un espacio de direcciones SIP compartido
 
-Una dirección de protocolo de inicio de sesión (SIP) es un identificador único para cada usuario de una red, parecido a un número de teléfono o a una dirección de correo electrónico. Antes de intentar mover usuarios de Lync de local a Skype empresarial online, tendrá que configurar el inquilino de Office 365 para compartir el espacio de direcciones del Protocolo de inicio de sesión (SIP) compartido con la implementación local. Si no lo configura, es probable que se le presente el siguiente mensaje de error:
+Una dirección de protocolo de inicio de sesión (SIP) es un identificador único para cada usuario de una red, similar a un número de teléfono o a una dirección de correo electrónico. Antes de intentar mover a los usuarios de Lync de forma local a Skype empresarial online, deberá configurar el inquilino de Office 365 para compartir el espacio de direcciones del Protocolo de inicio de sesión (SIP) compartido con su implementación local. Si no está configurado, es posible que vea el siguiente mensaje de error:
 
-Move-CsUser: HostedMigration fault: Error=(510), Description=(El inquilino de este usuario no está habilitado para el espacio de dirección SIP compartido).
+Move-CsUser: HostedMigration error: error = (510), descripción = (el inquilino del usuario no está habilitado para el espacio de direcciones SIP compartido).
 
-Para configurar un espacio de direcciones SIP compartido, establezca una sesión PowerShell remota con Skype empresarial online y, a continuación, ejecute el siguiente cmdlet:
+Para configurar un espacio de direcciones SIP compartido, establezca una sesión de PowerShell remota con Skype empresarial online y, a continuación, ejecute el siguiente cmdlet:
 ```powershell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 ```
-Para establecer una sesión PowerShell remota con Skype empresarial online, primero tiene que instalar el módulo Skype empresarial online para Windows PowerShell, que puede obtener aquí: [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).
+Para establecer una sesión de PowerShell remota con Skype empresarial online, primero debe instalar el módulo de Skype empresarial online para Windows PowerShell, que puede obtener aquí: [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).
 
 Después de instalar el módulo, puede establecer una sesión remota con los siguientes cmdlets:
 
@@ -91,9 +91,9 @@ Después de instalar el módulo, puede establecer una sesión remota con los sig
     Import-PSSession $CSSession -AllowClobber
    ```
 
-Para obtener más información sobre cómo establecer una sesión remota de PowerShell con Skype empresarial online, consulte [conectarse a Skype empresarial online mediante Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Para obtener más información acerca de cómo establecer una sesión de PowerShell remota con Skype empresarial online, consulte [conectarse a Skype empresarial online mediante Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
-Para obtener más información sobre el uso del módulo de PowerShell Skype empresarial online, consulte [usar Windows PowerShell para administrar Skype empresarial online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Para obtener más información sobre el uso del módulo de PowerShell de Skype empresarial online, vea [using Windows PowerShell to Manage Skype for Business online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 </div>
 
@@ -102,7 +102,7 @@ Para obtener más información sobre el uso del módulo de PowerShell Skype empr
 ## <a name="see-also"></a>Vea también
 
 
-[Nuevo: CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/New-CsHostingProvider)  
+[New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/New-CsHostingProvider)  
   
 
 </div>

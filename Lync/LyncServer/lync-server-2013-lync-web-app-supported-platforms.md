@@ -12,16 +12,16 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47a2912aae21e4bdedadabcffd7bbcba09560d64
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 713a49fc81ba388d01a790ab260adcebbd364c8b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730270"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030183"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -43,7 +43,7 @@ Para usar Lync Web App, debe disponer de una de las siguientes combinaciones de 
 
 
 > [!NOTE]  
-> Se requiere un complemento para algunas características de Lync Web App, como la voz, el vídeo, el uso compartido y la visualización de la pantalla continuada en el equipo. Puede instalar el complemento para compartir al unirse a la reunión o al iniciar una de estas características. 1<BR>
+> Un complemento es necesario para determinadas características de Lync Web App, como voz basada en el equipo, vídeo, uso compartido y visualización del uso compartido de la pantalla en curso. Puede instalar el complemento de uso compartido al unirse a la reunión o al iniciar una de estas características. 1 <BR>
 
 
 
@@ -51,7 +51,7 @@ Para usar Lync Web App, debe disponer de una de las siguientes combinaciones de 
 
 <div>
 
-## <a name="supported-operating-system-and-browser-combinations-for-lync-web-app"></a>Sistema operativo y combinaciones de exploradores compatibles con Lync Web App
+## <a name="supported-operating-system-and-browser-combinations-for-lync-web-app"></a>Combinaciones de sistema operativo y explorador compatibles con Lync Web App
 
 
 <table style="width:100%;">
@@ -71,7 +71,7 @@ Para usar Lync Web App, debe disponer de una de las siguientes combinaciones de 
 <tbody>
 <tr class="odd">
 <td><p>Sistema operativo</p></td>
-<td><p>Perimetral</p></td>
+<td><p>Microsoft Edge</p></td>
 <td><p>Internet Explorer 11</p></td>
 <td><p>Internet Explorer 10 de 32 bits</p></td>
 <td><p>Internet Explorer 10 de 64 bits</p></td>
@@ -84,7 +84,7 @@ Para usar Lync Web App, debe disponer de una de las siguientes combinaciones de 
 </tr>
 <tr class="even">
 <td><p>Windows 10</p></td>
-<td><p>Sí </p></td>
+<td><p>Sí</p></td>
 <td><p>Sí</p></td>
 <td><p>N/D</p></td>
 <td><p>N/D</p></td>
@@ -125,9 +125,9 @@ Para usar Lync Web App, debe disponer de una de las siguientes combinaciones de 
 <td><p>Windows 7 con SP1<sup>2</sup></p></td>
 <td><p>N/D</p></td>
 <td><p>Sí</p></td>
-<td><p>Sí </p></td>
-<td><p>Sí </p></td>
-<td><p>Sí </p></td>
+<td><p>Sí</p></td>
+<td><p>Sí</p></td>
+<td><p>Sí</p></td>
 <td><p>Sí</p></td>
 <td><p>No</p></td>
 <td><p>No</p></td>
@@ -138,9 +138,9 @@ Para usar Lync Web App, debe disponer de una de las siguientes combinaciones de 
 <td><p>Windows Server 2008 R2 con SP1<sup>2</sup></p></td>
 <td><p>N/D</p></td>
 <td><p>Sí</p></td>
-<td><p>Sí </p></td>
-<td><p>Sí </p></td>
-<td><p>Sí </p></td>
+<td><p>Sí</p></td>
+<td><p>Sí</p></td>
+<td><p>Sí</p></td>
 <td><p>Sí</p></td>
 <td><p>No</p></td>
 <td><p>No</p></td>
@@ -161,7 +161,7 @@ Para usar Lync Web App, debe disponer de una de las siguientes combinaciones de 
 <td><p>No</p></td>
 </tr>
 <tr class="even">
-<td><p>Mac OS X 10,7 y posteriores (basado en Intel)<sup>2</sup></p></td>
+<td><p>Mac OS X 10,7 y versiones posteriores (basadas en Intel)<sup>2</sup></p></td>
 <td><p>N/D</p></td>
 <td><p>N/D</p></td>
 <td><p>N/D</p></td>
@@ -177,13 +177,13 @@ Para usar Lync Web App, debe disponer de una de las siguientes combinaciones de 
 </table>
 
 
-<sup>1</sup> en Windows 8 y Windows 8,1, el complemento necesario para usar el audio, vídeo, visualización de aplicaciones, uso compartido de aplicaciones, visualización de escritorio y uso compartido de escritorio basado en el equipo solo se puede instalar si está ejecutando Internet Explorer 10 o Internet Explorer 11 para el escritorio. Estas características no están disponibles con versiones de Internet Explorer 10 o Internet Explorer 11 que no sean de escritorio.
+<sup>1</sup> en Windows 8 y Windows 8,1, el complemento necesario para usar audio, vídeo, visualización de aplicaciones, uso compartido de aplicaciones, visualización de escritorio y uso compartido de escritorio basados en equipos solo puede instalarse si se está ejecutando Internet Explorer 10 o Internet Explorer 11 para el escritorio. Estas características no están disponibles con versiones que no sean de escritorio de Internet Explorer 10 o Internet Explorer 11.
 
-<sup>2</sup> en sistemas operativos Windows 7, windows Server 2008 R2 y Macintosh compatibles, todas las características están disponibles, como la voz, el vídeo, la visualización de aplicaciones, el uso compartido de aplicaciones, la visualización de escritorio y el uso compartido de escritorio basados en equipos. Para usar estas características, necesita instalar un complemento cuando se le indique. Tenga en cuenta que ya no se admite Mac OS X versión 10,6.
+<sup>2</sup> en sistemas operativos compatibles con Windows 7, windows Server 2008 R2 y Macintosh, todas las características están disponibles como voz, vídeo, visualización de aplicaciones, uso compartido de aplicaciones, visualización de escritorio y uso compartido de escritorio basadas en el equipo. Para usar estas características, debe instalar un complemento cuando se le solicite. Tenga en cuenta que ya no se admite Mac OS X versión 10,6.
 
-<sup>3</sup> en los sistemas operativos Windows Server 2008 compatibles, la voz y el vídeo basados en PC no están disponibles. Las características de visualización de aplicaciones, uso compartido de aplicaciones, visualización del escritorio y uso compartido del escritorio sí están disponibles.
+<sup>3</sup> en sistemas operativos Windows Server 2008 compatibles, no hay disponibles voz y vídeo basados en el equipo. Están disponibles la visualización de aplicaciones, el uso compartido de aplicaciones, la visualización de escritorio y el uso compartido de escritorio.
 
-<sup>4</sup> el complemento requiere compatibilidad con NPAPI en el explorador. Firefox eliminó la compatibilidad con NPAPI en la versión 52,0 y la compatibilidad con Chrome quitada en la versión 45, por lo que estos exploradores ya no se admiten en sus versiones actuales.
+<sup>4</sup> el complemento requiere compatibilidad con NPAPI en el explorador. Firefox eliminó la compatibilidad con NPAPI en la versión 52,0 y la compatibilidad con Chrome eliminados en la versión 45, por lo que estos exploradores ya no son compatibles con sus versiones actuales.
 
 </div>
 
@@ -191,7 +191,7 @@ Para usar Lync Web App, debe disponer de una de las siguientes combinaciones de 
 
 ## <a name="hardware-requirements"></a>Requisitos de hardware
 
-Los requisitos de hardware del equipo los determinan el sistema operativo y el explorador. Las características de voz y telefonía requieren un micrófono y altavoces, auriculares con micrófono o un dispositivo equivalente compatible con el equipo. Las características de vídeo necesitan un dispositivo de vídeo compatible con el equipo. Para obtener información detallada sobre la compatibilidad de hardware de vídeo y la calidad de video prevista, consulte [requisitos de vídeo de cliente de Lync para Lync Server 2013](lync-server-2013-lync-client-video-requirements.md).
+Los requisitos de hardware del equipo los determinan el sistema operativo y el explorador. Las características de voz y telefonía requieren un micrófono y altavoces, auriculares con micrófono o dispositivos equivalentes compatibles con el equipo. Las características de vídeo requieren un dispositivo de vídeo compatible con el equipo. Para obtener información detallada sobre la compatibilidad de hardware de vídeo y la calidad de vídeo esperada, consulte [Lync Client video Requirements for Lync Server 2013](lync-server-2013-lync-client-video-requirements.md).
 
 </div>
 

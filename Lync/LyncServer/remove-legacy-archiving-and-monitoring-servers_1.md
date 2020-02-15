@@ -12,16 +12,16 @@ ms:contentKeyID: 48185261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 816855b2661b8834264a2ff4b573ecbfe403d9b4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 331a6f24cd2cc176679f628bc54460a6c3c7a718
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727170"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008906"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,11 +37,11 @@ ms.locfileid: "41727170"
 
 _**Última modificación del tema:** 2012-09-26_
 
-Si su implementación de Office Communications Server 2007 R2 contenía un servidor de archivado o un servidor de supervisión, después de migrar a Lync Server 2013, esos servidores se pueden quitar del entorno heredado siempre que todos los usuarios hayan eliminado de cualquier Grupos de Office Communications Server 2007 R2. Puede quitar el servidor de archivado o el servidor de supervisión en cualquier secuencia. El requisito fundamental es que todos los usuarios han sido eliminados de cualquier grupo de Office Communications Server 2007 R2 restante.
+Si la implementación de Office Communications Server 2007 R2 contenía un servidor de archivado o un servidor de supervisión, después de migrar a Lync Server 2013, estos servidores pueden quitarse del entorno heredado siempre que todos los usuarios se hayan quitado de los restantes Grupos de servidores de Office Communications Server 2007 R2. Puede quitar el servidor de archivado o de supervisión en cualquier secuencia. El requisito clave es que todos los usuarios se han quitado de los grupos de servidores de Office Communications Server 2007 R2 restantes.
 
-Puede mover usuarios de Office Communications Server 2007 R2 a Lync Server 2013 siguiendo los procedimientos descritos en la [fase 6: mover usuarios a la agrupación piloto](phase-6-move-users-to-the-pilot-pool.md).
+Puede mover usuarios de Office Communications Server 2007 R2 a Lync Server 2013 siguiendo los procedimientos descritos en [Phase 6: Move users to the Pilot Pool](phase-6-move-users-to-the-pilot-pool.md).
 
-Una vez que haya confirmado que todos los usuarios se han quitado de las agrupaciones restantes, siga el procedimiento de "quitar servidores y [http://go.microsoft.com/fwlink/p/?linkId=205887](http://go.microsoft.com/fwlink/p/?linkid=205887)roles de servidor" en.
+Una vez que haya confirmado que todos los usuarios se han quitado de los grupos restantes, siga el procedimiento descrito en la sección "quitar [http://go.microsoft.com/fwlink/p/?linkId=205887](http://go.microsoft.com/fwlink/p/?linkid=205887)servidores y roles de servidor" en.
 
 </div>
 

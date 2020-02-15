@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Administrar socios federados XMPP para su organización'
+title: 'Lync Server 2013: administrar socios federados XMPP para su organización'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48679561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 329f2621a4c1904e515f77e0cbcc17effad99bc3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ea1e2993ed168ece718864f4167815e799605d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733260"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028951"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-xmpp-federated-partners-in-lync-server-2013"></a>Administrar socios federados XMPP para su organización en Lync Server 2013
+# <a name="manage-xmpp-federated-partners-in-lync-server-2013"></a>Administrar socios federados XMPP en Lync Server 2013
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41733260"
 
 _**Última modificación del tema:** 2012-10-19_
 
-Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco que se incluyen actúan como marcadores de posición.
+Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco se incluyen para referencia futura.
 
-Para administrar la compatibilidad de los usuarios de XMPP Federated Domains, debe hacer lo siguiente:
+Para administrar la compatibilidad para usuarios de dominios federados XMPP, debe hacer lo siguiente:
 
-  - Configure una o más directivas de acceso externo para admitir usuarios de XMPP Federated Domains.
+  - Configure una o más directivas de acceso externo para admitir usuarios de dominios federados XMPP.
 
-  - Configure la Directiva de configuración perimetral de acceso para admitir la Federación.
+  - Configure la directiva de configuración de servidor perimetral de acceso para admitir la federación.
 
-  - Crear definiciones de socios federados de XMPP.
+  - Cree definiciones de socios federados XMPP.
 
-  - Comprender la configuración de negociación disponible para la Federación XMPP.
+  - Comprenda la configuración de negociación disponible para la federación XMPP.
 
-Para realizar estas tareas, siga los procedimientos de esta sección.
+Para efectuar estas tareas, use los procedimientos de esta sección.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Crear o editar la configuración de socios de XMPP en Lync Server 2013](lync-server-2013-create-or-edit-xmpp-partner-configuration.md)
+  - [Crear o editar la configuración del socio XMPP en Lync Server 2013](lync-server-2013-create-or-edit-xmpp-partner-configuration.md)
 
   - [Configuración de la negociación para socios federados XMPP en Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)
 
-  - [Configuración XMPP de ejemplo en Lync Server 2013 - Federación XMPP con Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)
+  - [Configuración XMPP de ejemplo en Lync Server 2013: Federación XMPP con Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)
 
 </div>
 

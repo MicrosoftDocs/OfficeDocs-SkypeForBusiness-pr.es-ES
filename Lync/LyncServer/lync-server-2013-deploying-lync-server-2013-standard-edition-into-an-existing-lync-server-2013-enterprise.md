@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Implementación de Lync Server 2013 Standard Edition en un Lync Server 2013 Enterprise existente'
+title: 'Lync Server 2013: implementación de Lync Server 2013 Standard Edition en un Lync Server 2013 Enterprise existente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183297
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6467ae9eb3c4d5159181a2d022c060b0b9f1fec9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4b344b3e4ffbeb5d429db2d7220be5bbca9fbed6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758024"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030443"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise"></a>Implementación de Lync Server 2013 Standard Edition en un Lync Server 2013 Enterprise existente
+# <a name="deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise"></a>Implementación de Lync Server 2013 Standard Edition en una empresa existente de Lync Server 2013
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41758024"
 
 _**Última modificación del tema:** 2012-10-01_
 
-Implementar un servidor Standard Edition en una implementación existente de Enterprise Edition es similar a implementar roles de servidor adicionales. Es posible que se implemente un servidor Standard Edition en otro sitio, lo que permite a los usuarios de ese sitio estar alojados en el servidor Standard Edition en lugar del grupo de aplicaciones front-end en una red de área extensa (WAN). Los procedimientos para instalar el nuevo sitio y los servidores de ese sitio ya están definidos en otras secciones de la documentación de [implementación de Lync Server 2013](lync-server-2013-deploying-lync-server.md) .
+La implementación de un servidor Standard Edition en una implementación de Enterprise Edition existente es similar a la implementación de roles de servidor adicionales. Es posible que se implemente un servidor Standard Edition en otro sitio, lo que permite a los usuarios de ese sitio hospedarse en el servidor Standard Edition en lugar del grupo de servidores front-end en una red de área extensa (WAN). Los procedimientos para instalar el nuevo sitio y los servidores de ese sitio ya están definidos en otras secciones de la documentación sobre la [implementación de Lync Server 2013](lync-server-2013-deploying-lync-server.md) .
 
 <div id="sectionSection0" class="section">
 
 **Para definir un sitio nuevo**
 
-1.  Iniciar generador de topología: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topología de Lync Server**.
+1.  Inicie el generador de topologías: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topologías de Lync Server**.
 
-2.  En el árbol de consola, haga clic con el botón secundario en **Lync Server 2013**y, a continuación, haga clic en **nuevo sitio central**.
+2.  En el árbol de la consola, haga clic con el botón secundario en **Lync Server 2013**y, a continuación, haga clic en **nuevo sitio central**.
 
-3.  En la página **identificar el sitio** , asigne un nombre al sitio y, opcionalmente, escriba una descripción.
+3.  En la página **Identificar el sitio**, escriba un nombre para el sitio y, opcionalmente, una descripción.
 
-4.  Siga los procedimientos para definir el resto de la topología del sitio. Para obtener más información, consulte [definir y configurar la topología en Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md).
+4.  Siga los procedimientos de definición del resto de la topología del sitio. Para obtener más información, consulte [definir y configurar la topología en Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md).
 
-5.  Publique la topología actualizada. Para obtener más información, vea [publicar la topología en Lync Server 2013](lync-server-2013-publish-the-topology.md).
+5.  Publicar la topología actualizada. Para obtener más información, consulte [publicar la topología en Lync Server 2013](lync-server-2013-publish-the-topology.md).
 
-6.  Configure e instale un servidor Standard Edition.
+6.  Configurar e instalar un servidor Standard Edition.
     
     <div>
     
 
     > [!Caution]  
-    > Si ha implementado un entorno con un servidor Standard Edition, debería haber iniciado el proceso de instalación desde el Asistente para la implementación de Lync Server mediante el vínculo <STRONG>preparar el primer servidor Standard Edition</STRONG> para instalar los archivos de base de datos iniciales en el nuevo servidor Standard Edition. <STRONG>No</STRONG> siga ese proceso cuando instale un servidor Standard Edition en una implementación existente de Lync Server 2013.
+    > Si ha implementado un entorno con un servidor Standard Edition, habría iniciado el proceso de instalación desde el Asistente para la implementación de Lync Server mediante el vínculo <STRONG>preparar el primer servidor Standard Edition</STRONG> para instalar los archivos de base de datos iniciales en el nuevo servidor Standard Edition. <STRONG>No</STRONG> siga ese proceso cuando instale un servidor Standard Edition en una implementación existente de Lync Server 2013.
 
     
     </div>

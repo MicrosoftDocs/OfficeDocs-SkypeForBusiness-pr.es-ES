@@ -12,16 +12,16 @@ ms:contentKeyID: 48184136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d2c36d99bc5af62771aabb643df1223db3a291c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 73c9a5d2ad4688f622298378c84b61574048a3b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764306"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -39,6 +39,7 @@ _**Última modificación del tema:** 2012-10-03_
 
 Las reuniones grandes no siguen el modelo de prueba descrito en la sección anterior porque tienen las siguientes características:
 
+
   - El formato de la reunión es una presentación de uno a varios.
 
   - Uno o unos pocos usuarios son presentadores y todo el mundo participa solo como asistentes.
@@ -47,25 +48,25 @@ Las reuniones grandes no siguen el modelo de prueba descrito en la sección ante
 
   - Se necesita audio y también se puede usar vídeo.
 
-  - Una persona dedicada, generalmente el organizador de la reunión o un asistente al organizador, configura la reunión con antelación.
+  - Una persona dedicada, generalmente el organizador de la reunión o un asistente del organizador, configura la reunión con suficiente antelación.
 
-  - El personal dedicado (no los presentadores) ejecuta la reunión, incluida la conexión a una reunión en línea, la comprobación de que el uso compartido de audio, vídeo y diapositivas funciona, la administración de roles de usuario y la sala de espera, la activación y desactivación del silencio de los participantes, la realización de preguntas y la administración de grabaciones, según sea lo adecuado.
+  - El personal dedicado (no los presentadores) ejecuta la reunión, incluida la conexión a una reunión en línea, la comprobación de que el uso compartido de audio, vídeo y diapositivas funciona, la administración de roles de usuario y el salón de espera, la activación y desactivación del silencio de los participantes, la realización de preguntas y la administración de grabaciones, según sea lo adecuado.
 
-La compatibilidad con reuniones de gran tamaño de hasta 1000 usuarios requiere resolver los problemas relacionados con el modelo de hardware compartido y el modelo sin reserva.
+La compatibilidad con grandes reuniones de hasta 1.000 usuarios requiere abordar problemas relacionados con el modelo de hardware compartidos y el modelo sin reserva.
 
-Para tener suficientes recursos de CPU y memoria para reuniones de hasta 1000 usuarios, los servidores front-end que hacen de host no tienen que hospedar ninguna otra carga de trabajo de mensajería instantánea (MI), de presencia o de telefonía IP empresarial. Tampoco debe hospedar otras reuniones, independientemente del tamaño de las otras. Esto significa que las reuniones de hospedaje de hasta 1000 usuarios requieren la configuración de un grupo de servidores de Lync independiente dedicado a hospedar grandes reuniones de hasta 1000 usuarios.
+Para disponer de suficientes recursos de CPU y memoria para reuniones de hasta 1000 usuarios, los servidores front-end de hospedaje no deben hospedar otras cargas de trabajo de mensajería instantánea (mi) y presencia o de telefonía IP empresarial. Tampoco debe alojar otras reuniones, independientemente de su tamaño. Esto significa que para hospedar reuniones de hasta 1000 usuarios es necesario configurar un grupo de Lync Server independiente dedicado a hospedar grandes reuniones de hasta 1000 usuarios.
 
-Un grupo de Lync Server dedicado al hospedaje de reuniones grandes debe hospedar una y solo una reunión de hasta 1000 usuarios al mismo tiempo, de modo que las horas de reunión deben reservarse por adelantado a través de un proceso de programación fuera de banda para garantizar la compatibilidad exclusiva de serv de front-end ers. Para admitir más de una reunión de gran tamaño al mismo tiempo, recomendamos configurar varias agrupaciones de reuniones dedicadas.
+Un grupo de servidores de Lync Server dedicado a hospedar reuniones grandes debe hospedar una sola reunión de hasta 1000 usuarios al mismo tiempo, por lo que las horas de reunión deben reservarse por adelantado a través de un proceso de programación fuera de banda para garantizar el soporte dedicado desde el serv front-end ers. Para admitir más de una gran reunión al mismo tiempo, recomendamos configurar varios grupos de grandes reuniones dedicados.
 
-Recomendamos que una persona dedicada ejecute y supervise la parte en línea de una reunión de gran tamaño. Esta persona podría ser el organizador, el delegado del organizador o moderador o un miembro del equipo de soporte técnico dedicado a grandes reuniones, según las preferencias de la organización.
+Recomendamos que una persona dedicada ejecute y supervise la parte en línea de una gran reunión. Esta persona podría ser el organizador, el delegado del organizador o presentador, o un miembro del equipo de soporte técnico de la gran reunión, dependiendo de las preferencias de la organización.
 
-En las siguientes secciones, se describe cómo implementar un grupo dedicado para reuniones grandes, incluidos los procedimientos recomendados para usar Lync Server 2013 para escenarios de reuniones grandes.
+En las secciones siguientes, se describe cómo implementar un grupo dedicado para reuniones grandes, incluidos los procedimientos recomendados para usar Lync Server 2013 para admitir escenarios de reuniones grandes.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Configurar la compatibilidad para reuniones grandes en Lync Server 2013](lync-server-2013-setting-up-support-for-large-meetings.md)
+  - [Configuración de la compatibilidad para reuniones grandes en Lync Server 2013](lync-server-2013-setting-up-support-for-large-meetings.md)
 
   - [Administración de reuniones grandes en Lync Server 2013](lync-server-2013-managing-large-meetings.md)
 

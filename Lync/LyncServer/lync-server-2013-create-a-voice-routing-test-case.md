@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Crear un caso de prueba de enrutamiento de voz'
+title: 'Lync Server 2013: crear un caso de prueba de enrutamiento de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c706064cbe7319d3cb485b0bb1ecf6d34902edde
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 436eab846d33546f8676ab631d258bc556af6a48
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726350"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008732"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -41,31 +41,31 @@ _**Última modificación del tema:** 2014-02-07_
 
 ## <a name="to-create-a-test-case"></a>Para crear un caso de prueba
 
-1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, consulte [permisos de configuración de delegación en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro de la función CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, consulte [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **enrutamiento de voz** y luego en **probar enrutamiento de voz**.
+3.  En la barra de navegación izquierda, haga clic en **Enrutamiento de voz** y, a continuación, en **Probar enrutamiento de voz**.
 
-4.  En la página **probar enrutamiento de voz** , haga clic en **nuevo** para crear un nuevo caso de prueba.
+4.  En la página **Probar enrutamiento de voz**, haga clic en **Nuevo** para crear un nuevo caso de prueba.
 
-5.  En **nombre**, escriba un nombre único para el caso de prueba.
+5.  En **Nombre**, escriba un nombre único para el caso de prueba.
     
-    El nombre debe ser único entre todos los casos de prueba de enrutamiento de voz en la implementación de telefonía IP empresarial. Puede tener hasta 32 caracteres de longitud y puede contener cualquier carácter alfanumérico, además de la barra invertida (\\), el punto (.) o el carácter de subrayado (\_).
+    El nombre debe ser único entre todos los casos de prueba de enrutamiento de voz en la implementación de telefonía IP empresarial. Puede tener hasta 32 caracteres de longitud y puede contener caracteres alfanuméricos, además de la barra diagonal inversa (\\), el punto (.) o el carácter de subrayado (\_).
 
-6.  En **número marcado para probar**, escriba el número marcado que desea usar para probar la configuración de enrutamiento que especifique para este caso de prueba. En función del plan de marcado, la ruta y la Directiva de voz, este número se normalizará y se mostrará como salida.
+6.  En **Número marcado para prueba**, escriba el número marcado que desea usar para probar la configuración de enrutamiento especificada para este caso de prueba. Según el plan de marcado, la ruta y la directiva de voz, este número se normalizará y se mostrará como resultado.
 
-7.  En la lista **plan de marcado** , seleccione el plan de marcado que se usará al ejecutar la prueba. El valor predeterminado es el plan de marcado global.
+7.  En la lista **Plan de marcado**, seleccione el plan de marcado que se va a usar cuando se ejecute la prueba. El plan de marcado predeterminado es el plan de marcado Global.
 
-8.  En la lista **Directiva de voz** , seleccione la Directiva de voz que se va a usar al ejecutar la prueba. El valor predeterminado es la Directiva de voz global.
+8.  En la lista **Directiva de voz**, seleccione la directiva de voz que se va a usar cuando se ejecute la prueba. La directiva de voz predeterminada es la directiva de voz Global.
 
-9.  En **traducción prevista**, escriba el número de teléfono en el formato que espera verlo después de la traducción. Este es el valor del número de teléfono que está probando después de que se haya traducido con la primera regla de normalización que coincida en el plan de marcado seleccionado. Al ejecutar el caso de prueba, si el número que está probando no da como resultado el valor de la **traducción esperada**, se producirá un error en la prueba.
+9.  En **Conversión prevista**, escriba el número de teléfono en el formato que desea que se muestre tras la conversión. Dicho número corresponde al valor del número de teléfono que se está probando tras la conversión de la primera regla de normalización que coincida con el plan de marcado seleccionado. Cuando ejecuta el caso de prueba, sabrá si ha fallo cuando el número que se está probando no se convierte en el valor especificado en **Conversión prevista**.
 
-10. Faculta En la lista de **uso de RTC esperada** , puede seleccionar el registro de uso de la red de telefonía conmutada (RTC) que espera que se use al ejecutar el caso de prueba, en función del plan de marcado y la Directiva de voz especificados. Si se usa un registro de uso de RTC diferente, se produce un error en la prueba.
+10. (Opcional) En la lista **Uso de RTC previsto**, puede seleccionar el registro de uso de la red telefónica conmutada (RTC) que espera que se use al ejecutar el caso de prueba, según el plan de marcado y la directiva de voz que se han especificado. Si se usa un registro de uso de RTC diferente significa que la prueba ha fallado.
 
-11. Faculta En la lista de **rutas esperadas** , puede seleccionar la ruta de voz que espera que se use al ejecutar el caso de prueba, en función del plan de marcado y la Directiva de voz especificados. Si se usa una ruta de voz diferente, se produce un error en la prueba.
+11. (Opcional) En la lista **Ruta prevista**, puede seleccionar la ruta de voz que espera que se use al ejecutar el caso de prueba, según el plan de marcado y la directiva de voz que se han especificado. Si se usa una ruta de voz diferente significa que la prueba ha fallado.
 
-12. Faculta Haga clic en **Ejecutar** para ejecutar el caso de prueba. Los resultados se muestran en el panel derecho de la página.
+12. (Opcional) Haga clic en **Ejecutar** para iniciar el caso de prueba. Los resultados se mostrarán en el panel que hay a la derecha de la página.
 
 13. Haga clic en **Aceptar**.
 
@@ -75,12 +75,12 @@ _**Última modificación del tema:** 2014-02-07_
     
 
     > [!NOTE]  
-    > Siempre que cree un caso de prueba de enrutamiento de voz, debe ejecutar el comando <STRONG>confirmar todo</STRONG> para publicar el cambio de configuración. Para obtener más información, vea <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">publicar cambios pendientes en la configuración de enrutamiento de voz en Lync Server 2013</A> en la documentación de operaciones.
+    > Siempre que cree un caso de prueba de enrutamiento de voz, debe ejecutar el comando <STRONG>Confirmar todo</STRONG> para publicar el cambio de configuración. Para obtener más información, consulte <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish Pending changes to the Voice Routing Configuration en Lync Server 2013</A> en la documentación de operaciones.
 
     
     </div>
     
-    Si el plan de marcado que se está usando en la prueba normaliza los números de teléfono que comienzan con un signo más (por ejemplo, + 12065551219), ese plan puede provocar errores en la prueba de enrutamiento de voz. (El plan de marcado y la ruta de voz funcionan; de hecho, test-CsDialPlan se realizará correctamente. Sin embargo, la prueba de enrutamiento de voz podría fallar.) Esto es algo que se debe tener en cuenta al probar las rutas de voz.
+    Si el plan de marcado que se usa en la prueba normaliza los números de teléfono que comienzan con un signo más (por ejemplo, + 12065551219), es posible que se produzca un error en la prueba de enrutamiento de voz. (El plan de marcado y la ruta de voz funcionarán; de hecho, test-CsDialPlan se realizará correctamente. Sin embargo, es posible que se produzca un error en la prueba de enrutamiento de voz. Esto es algo que se debe tener en cuenta al probar las rutas de voz.
 
 </div>
 
@@ -94,7 +94,7 @@ _**Última modificación del tema:** 2014-02-07_
 
 
 [Configurar planes de marcado en Lync Server 2013](lync-server-2013-configuring-dial-plans.md)  
-[Configuración de directivas de voz, registros de uso de RTC y rutas de voz en Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)  
+[Configurar directivas de voz, registros de uso de RTC y rutas de voz en Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185050
 ms.date: 01/21/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 078c3d8eed34e7fb6fd98d2d7c12014b87a0497b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a13a7d618b7d7f8883d43e6aed7ac456bb5ab6c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724020"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008846"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="add-or-remove-a-front-end-server-in-lync-server-2013"></a>Add or remove a Front End Server in Lync Server 2013
+# <a name="add-or-remove-a-front-end-server-in-lync-server-2013"></a>Agregar o quitar un servidor front-end en Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41724020"
 
 _**Última modificación del tema:** 2016-01-21_
 
-Al agregar un servidor front-end a un grupo o quitar un servidor front-end de un grupo, debe reiniciar el grupo. Para evitar que se interrumpa el servicio para los usuarios, use el siguiente procedimiento al agregar o quitar un servidor front-end.
+Cuando agrega un servidor front-end a un grupo o cuando quita un servidor front-end de un grupo, debe reiniciar el grupo. Para evitar interrupciones del servicio para los usuarios, use el siguiente procedimiento al agregar o quitar un servidor front-end.
 
 <div>
 
 
 > [!NOTE]  
-> Si agrega nuevos servidores al grupo, actualice los nuevos servidores del grupo para que estén en el mismo nivel de actualización acumulativa que los servidores existentes del grupo.
+> Si va a agregar nuevos servidores al grupo, actualice los nuevos servidores de grupo para que estén en el mismo nivel de actualización acumulativa que los servidores existentes en el grupo.
 
 
 
@@ -53,23 +53,23 @@ Al agregar un servidor front-end a un grupo o quitar un servidor front-end de un
 
 ## <a name="to-add-or-remove-front-end-servers"></a>Para agregar o quitar servidores front-end
 
-1.  Si va a quitar los servidores front-end, primero detenga las conexiones nuevas a esos servidores. Para ello, puede usar el siguiente cmdlet:
+1.  Si desea quitar servidores front-end, primero detenga las nuevas conexiones a esos servidores. Para ello, puede usar el siguiente cmdlet:
     
         Stop-CsWindowsServices -Graceful
 
-2.  Cuando los servidores que se van a quitar no tengan sesiones actuales, detenga los servicios de Lync Server en ellos.
+2.  Cuando los servidores que se quitará no tienen sesiones actuales, detenga los servicios de Lync Server en esos servidores.
 
-3.  Abra el generador de topologías y agregue o quite los servidores necesarios.
+3.  Abra el Generador de topologías, y agregue o quite los servidores necesarios.
 
 4.  Publique la topología.
 
-5.  Si el grupo ha desaparecido de dos servidores front-end a más de dos o ha ido de más de dos servidores a dos exactamente, debe escribir el siguiente cmdlet:
+5.  Si el grupo de servidores front-end ha pasado de tener dos servidores front-end a más de dos o ha ido de más de dos servidores a dos exactamente, debe escribir el siguiente cmdlet:
     
         Reset-CsPoolRegistrarState-ResetType FullReset -PoolFqdn <PoolFqdn>
     
-    Si el grupo tiene tres o más servidores, al menos tres de esos servidores deben estar ejecutándose al escribir este cmdlet.
+    Si el grupo tiene tres o más servidores, debe haber al menos tres de esos servidores en ejecución cuando escriba este cmdlet.
 
-6.  Reinicie todos los servidores front-end del grupo, uno por uno.
+6.  Reinicie todos los servidores front-end del grupo, uno por vez.
 
 </div>
 

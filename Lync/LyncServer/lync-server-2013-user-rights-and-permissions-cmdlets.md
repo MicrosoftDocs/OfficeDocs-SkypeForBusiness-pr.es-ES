@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: cmdlets de derechos y permisos de usuario'
+title: 'Lync Server 2013: cmdlets de permisos y derechos de usuario'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185178
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2412dc6af5153d431ff6d75177f405c00138fdaa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 85f99cbaf6c2a3b61e6437ec573d7e5800b73b72
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744470"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029431"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -43,51 +43,51 @@ Los cmdlets de permisos de usuario se usan principalmente para administrar el co
 
 ## <a name="user-permission-cmdlets"></a>Cmdlets de permisos de usuario
 
-A continuación se muestra una lista de cmdlets que se relacionan directamente con la administración de permisos de usuario:
+A continuación se muestra una lista de cmdlets directamente relacionados con la administración de permisos de usuario:
 
 **Permisos de usuario**
 
   - <span></span>  
-    [Get-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399050(v=OCS.15))
+    [Get-CsAdminRole](https://technet.microsoft.com/library/Gg399050(v=OCS.15))
 
   - <span></span>  
-    [Nuevo: CsAdminRole](https://technet.microsoft.com/en-us/library/Gg398271(v=OCS.15))
+    [New-CsAdminRole](https://technet.microsoft.com/library/Gg398271(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg413036(v=OCS.15))
+    [Remove-CsAdminRole](https://technet.microsoft.com/library/Gg413036(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399066(v=OCS.15))
+    [Set-CsAdminRole](https://technet.microsoft.com/library/Gg399066(v=OCS.15))
 
   - <span></span>  
-    [Update-CsAdminRole](https://technet.microsoft.com/en-us/library/JJ204851(v=OCS.15))
+    [Update-CsAdminRole](https://technet.microsoft.com/library/JJ204851(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsAdminRoleAssignment](https://technet.microsoft.com/en-us/library/Gg398434(v=OCS.15))
+    [Get-CsAdminRoleAssignment](https://technet.microsoft.com/library/Gg398434(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Grant-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg425739(v=OCS.15))
+    [Grant-CsOUPermission](https://technet.microsoft.com/library/Gg425739(v=OCS.15))
 
   - <span></span>  
-    [REVOKE-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398977(v=OCS.15))
+    [REVOKE-CsOUPermission](https://technet.microsoft.com/library/Gg398977(v=OCS.15))
 
   - <span></span>  
-    [Prueba-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398787(v=OCS.15))
+    [Test-CsOUPermission](https://technet.microsoft.com/library/Gg398787(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Grant-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398569(v=OCS.15))
+    [Grant-CsSetupPermission](https://technet.microsoft.com/library/Gg398569(v=OCS.15))
 
   - <span></span>  
-    [REVOKE-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg425834(v=OCS.15))
+    [REVOKE-CsSetupPermission](https://technet.microsoft.com/library/Gg425834(v=OCS.15))
 
   - <span></span>  
-    [Test-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398428(v=OCS.15))
+    [Test-CsSetupPermission](https://technet.microsoft.com/library/Gg398428(v=OCS.15))
 
 </div>
 

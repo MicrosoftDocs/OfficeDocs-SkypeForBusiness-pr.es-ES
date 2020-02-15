@@ -1,5 +1,5 @@
 ---
-title: Configuración de la transferencia de archivos y el filtrado de URL para mensajería instantánea (mi)
+title: Configuración de la transferencia de archivos y el filtrado de URL para la mensajería instantánea (mi)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183440
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6c5a6053118b14b68c49a7fdaa6f444aca7ad23
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b741418790c5faf11c566afb27a477a67beb71ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729030"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030614"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-file-transfer-and-url-filtering-for-instant-messaging-im-in-lync-server-2013"></a>Configuración de la transferencia de archivos y el filtrado de URL para mensajería instantánea (mi) en Lync Server 2013
+# <a name="configuring-file-transfer-and-url-filtering-for-instant-messaging-im-in-lync-server-2013"></a>Configuración de la transferencia de archivos y el filtrado de URL para la mensajería instantánea (mi) en Lync Server 2013
 
 </div>
 
@@ -37,49 +37,49 @@ ms.locfileid: "41729030"
 
 _**Última modificación del tema:** 2012-11-01_
 
-La herramienta filtro inteligente de mensajes instantáneos ayuda a proteger la implementación de Lync Server 2013 contra la propagación de las formas más comunes de virus con una degradación mínima para la experiencia del usuario. Use el filtro inteligente de mi para configurar filtros para bloquear mensajes instantáneos no solicitados o potencialmente dañinos de puntos de conexión desconocidos fuera del firewall de la empresa. Para configurar filtros, especifique los criterios que se van a usar para determinar qué se debe bloquear, por ejemplo, los mensajes instantáneos que contengan hipervínculos con determinados prefijos y archivos con extensiones específicas.
+La herramienta filtro inteligente de mensajería instantánea ayuda a proteger la implementación de Lync Server 2013 frente a la propagación de las formas más comunes de virus con una degradación mínima para la experiencia del usuario. Use el filtro inteligente de mensajería instantánea para configurar filtros que bloqueen los mensajes instantáneos no solicitados o potencialmente dañinos procedentes de extremos desconocidos más allá del firewall corporativo. Los filtros se configuran al especificar los criterios que se van a usar para determinar lo que se va a bloquear, como mensajes instantáneos que contienen hipervínculos con prefijos determinados y archivos con extensiones específicas.
 
-El filtro inteligente de mensajes instantáneos proporciona lo siguiente:
+El filtro inteligente de mensajería instantánea ofrece lo siguiente:
 
-  - Filtrado de URL mejorado.
+  - Filtrado mejorado de direcciones URL.
 
-  - Filtrado mejorado de transferencia de archivos.
+  - Filtrado mejorado de transferencias de archivos.
 
-La configuración del filtro inteligente de mensajes instantáneos incluye lo siguiente:
+La configuración del filtro inteligente de mensajería instantánea incluye lo siguiente:
 
-  - Configuración del filtrado de URL.
+  - Configuración de filtrado de direcciones URL.
 
-  - Configuración del filtrado de transferencia de archivos.
+  - Configuración de filtrado de transferencias de archivos.
 
 <div>
 
 ## <a name="how-filtering-options-are-applied-to-instant-messages"></a>Cómo se aplican las opciones de filtrado a los mensajes instantáneos
 
-Antes de implementar la herramienta inteligente de filtro de mensajes de mensajería instantánea, debe comprender cómo se aplican las opciones de filtrado a medida que los mensajes se dirigen desde un servidor de Lync Server 2013 a otro. La manera en que se aplican estas opciones de filtrado es coherente, independientemente de si los servidores se encuentran en una sola organización o en los límites de la organización. Esta coherencia se aplica a la forma en que el aviso personalizado y los mensajes de advertencia se insertan en mensajes y se envían por servidores.
+Antes de implementar la herramienta de filtro inteligente de mensajes de mensajería instantánea, debe comprender cómo se aplican las opciones de filtrado a medida que los mensajes se redirigen desde un servidor de Lync Server 2013 a otro. Estas opciones de filtrado se aplican de manera coherente, independientemente de si los servidores se encuentran en una sola organización o en varias organizaciones. Esta coherencia se aplica a la forma en que se insertan los avisos y advertencias personalizados en los mensajes y se envían a través de los servidores.
 
 <div>
 
 
 > [!NOTE]
-> El filtro de mensajes instantáneos aumenta la cantidad de recursos de CPU necesarios para procesar las direcciones URL en un mensaje. Este aumento en la demanda de la CPU también afecta al rendimiento de Lync Server.
+> El filtro de mensajes instantáneos aumenta la cantidad de recursos de CPU necesarios para procesar las direcciones URL de un mensaje. Este aumento de la demanda de la CPU también afecta al rendimiento de Lync Server.
 
 
 
 </div>
 
-Si usa la página **filtro de URL** en el grupo **presencia y mi** en el panel de control de Lync Server, puede bloquear algunos o todos los hipervínculos o configurar una advertencia. La advertencia se inserta al principio de un mensaje instantáneo que contiene un hipervínculo cuando se elige la opción **Enviar mensaje de advertencia**en el **Prefijo de hipervínculo** .
+Mediante el uso de la página **filtro de URL** en el grupo de **presencia y mensajería instantánea** del panel de control de Lync Server, puede bloquear algunos o todos los hipervínculos o configurar una advertencia. La advertencia se introduce al comienzo de un mensaje instantáneo que contiene un hipervínculo al seleccionar la opción **Prefijo de hipervínculo****Enviar mensaje de advertencia**.
 
-Cuando un mensaje instantáneo viaja de un servidor a otro, se aplican las siguientes directrices generales:
+Cuando un mensaje instantáneo pasa de un servidor a otro, se aplican las siguientes pautas generales:
 
-  - Si un servidor bloquea un mensaje instantáneo (porque ha seleccionado la casilla de verificación **bloquear direcciones URL con extensión de archivo** en la página **filtro de URL** o porque ha elegido la opción **bloquear hipervínculos del hipervínculo**), se devolverá un mensaje de error al cliente. **** Los siguientes servidores no reciben este mensaje instantáneo.
+  - Si un servidor bloquea un mensaje instantáneo (porque ha activado la casilla **Bloquear direcciones URL con extensión de archivo** de la página **Filtro para direcciones URL** o porque ha seleccionado la opción **Prefijo de hipervínculo****Bloquear hipervínculos**), el cliente recibe un mensaje de error. Los servidores subsiguientes no reciben este mensaje instantáneo.
 
-  - Si un servidor (Servidor1) agrega una advertencia a un mensaje instantáneo que contiene un hipervínculo activo, un servidor posterior (servidor2) que reciba este mensaje instantáneo aún puede tomar una acción diferente según este hipervínculo activo presente en el mensaje instantáneo y bloquear la envía mensajes instantáneos o agrega una advertencia. Si server2 está configurado únicamente para agregar una advertencia para esta dirección URL, se quitará la advertencia anterior agregada por server1 y se agregará la advertencia configurada en server2 al principio del mensaje instantáneo.
+  - Si un servidor (Server1) agrega una advertencia a un mensaje instantáneo que tiene un hipervínculo activo, un servidor subsiguiente (Server2) que reciba este mensaje instantáneo podrá emprender otra acción basándose en este hipervínculo activo presente en el mensaje instantáneo, y bloquear el mensaje o agregar una advertencia. Si Server2 está configurado de modo que solo agregue una advertencia para esta dirección URL, se quitará la advertencia anterior agregada por Server1 y se agregará al comienzo del mensaje instantáneo la advertencia configurada en Server2.
 
 <div>
 
 
 > [!NOTE]
-> Si ejecuta Lync Server 2013 en un entorno mixto, Live Communications Server 2005 con SP1 es la versión mínima requerida para usar la aplicación de filtro inteligente de mensajes instantáneos. El filtro inteligente de mensajes instantáneos no es compatible con Live Communications Server 2005 sin SP1.
+> Si ejecuta Lync Server 2013 en un entorno mixto, Live Communications Server 2005 con SP1 es la versión mínima necesaria para usar la aplicación de filtro inteligente de mensajería instantánea. El filtro inteligente de mensajería instantánea no se puede usar en Live Communications Server 2005 sin SP1.
 
 
 
@@ -87,80 +87,80 @@ Cuando un mensaje instantáneo viaja de un servidor a otro, se aplican las sigui
 
 <div>
 
-## <a name="url-filtering"></a>Filtrado de URL
+## <a name="url-filtering"></a>Filtrado para direcciones URL
 
-Las direcciones URL se filtran según su prefijo de hipervínculo. Los siguientes ejemplos son prefijos válidos:
+Las direcciones URL se filtran en función de su prefijo de hipervínculo. A continuación se muestran ejemplos de prefijos válidos:
 
   - www\*.
 
-  - FTP.
+  - Protocolo.
 
-  - Protocolo
+  - http
 
-Si no configura el filtro de mensajes instantáneos para realizar el filtrado de URL, todas las direcciones URL incluidas en los mensajes instantáneos se pasan sin modificar a través del servidor. Si configura el filtro de mensaje instantáneo para que realice el filtrado de URL, las direcciones URL de los mensajes instantáneos se filtran de acuerdo con las opciones que seleccione en el cuadro de diálogo Editar filtro de **URL** o **nuevo filtro de URL** .
+Si no se configura el filtro de mensajería instantánea para que realice algún filtrado de direcciones URL, todas las direcciones URL que aparezcan en mensajes instantáneos pasarán a través del servidor sin sufrir modificaciones. Si configura el filtro de mensajería instantánea para que realice un filtrado de direcciones URL, las URL de los mensajes instantáneos se filtrarán de acuerdo con las opciones que seleccione en el cuadro de diálogo **Editar filtro para direcciones URL** o **Nuevo filtro para direcciones URL**.
 
-  - **Habilitar filtro**   de URL esta opción habilita el filtrado de URL para la implementación global o para el sitio que seleccione.
+  - **Habilitar filtro**   de dirección URL esta opción permite el filtrado de direcciones URL para la implementación global o para el sitio que seleccione.
 
-  - **Bloquear direcciones URL con extensión**   de archivo el filtro de mensaje instantáneo bloquea cualquier dirección URL activa de la intranet o de Internet que contenga un archivo con una extensión enumerada en **extensiones de tipo de archivo que se bloquean** en el cuadro de diálogo **Editar filtro de archivos** . Cuando se bloquea una dirección URL, se muestra un mensaje de error al remitente. Cuando se selecciona, esta opción tiene prioridad sobre todas las demás opciones de filtrado para cualquier extensión de archivo definida en **extensiones de tipo de archivo que se bloquee**.
+  - **Bloquear direcciones URL con extensión**   de archivo el filtro de mensaje instantáneo bloquea cualquier dirección URL de intranet o Internet activa que contenga un archivo con una extensión enumerada en **extensiones de tipo de archivo que se bloqueen** en el cuadro de diálogo **Editar filtro de archivo** . Cuando se bloquea una dirección URL, el remitente recibe un mensaje de error. Al seleccionar dicha opción, esta tiene prioridad sobre todas las demás opciones de filtrado para cualquier extensión de archivo definida en **Extensiones de tipo de archivo a bloquear**.
     
     <div>
     
 
     > [!IMPORTANT]
-    > El filtrado de extensiones de archivo está limitado a los nombres de archivo estándar. Es posible que el filtrado no funcione con las extensiones de archivo incrustadas en otros nombres.
+    > El filtrado de las extensiones de archivo se limita a los nombres de archivo estándar. Puede que el filtrado no funcione con las extensiones de archivo insertadas en otros nombres.
 
     
     </div>
 
-Para configurar cómo se administran los hipervínculos en las conversaciones de mensajes instantáneos, seleccione una de las siguientes opciones en **Prefijo de hipervínculo**:
+Para configurar la forma en la que se administran los hipervínculos en las conversaciones de mensajes instantáneos, seleccione una de las siguientes opciones en **Prefijo de hipervínculo**:
 
-  - **No filtre**   las direcciones URL de los mensajes que se envían a través del servidor. Al elegir esta opción, aparece el cuadro de **mensaje permitir** . En el cuadro **permitir mensaje** , especifique el aviso que desea insertar al principio de cada mensaje instantáneo que contenga hipervínculos. Este aviso no puede contener más de 65535 caracteres.
+  - **No filtrar**   direcciones URL en los mensajes se envían a través del servidor. Al seleccionar esta opción se muestra el cuadro **Permitir mensaje**. En el cuadro **Permitir mensaje**, especifique el aviso que desea insertar al comienzo de cada mensaje instantáneo que contenga hipervínculos. Este aviso no puede tener más de 65.535 caracteres.
 
-  - **Bloquear hipervínculos**   la entrega de mensajes instantáneos que contienen hipervínculos activos está bloqueada por Lync Server y se muestra un mensaje de error al remitente.
+  - **Bloquear hipervínculos**   la entrega de mensajes instantáneos que contienen hipervínculos activos se bloquea en Lync Server y se muestra un mensaje de error al remitente.
 
-  - **Enviar mensaje**   de advertencia Lync Server permite hipervínculos activos en mensajes instantáneos, pero incluye una advertencia. Al elegir esta opción, aparece el cuadro de **mensaje de advertencia** . En el cuadro de **mensaje de advertencia** , debe escribir la advertencia que desea incluir con los mensajes instantáneos que contengan hipervínculos válidos. Por ejemplo, esta advertencia podría indicar los peligros potenciales de hacer clic en un vínculo desconocido o puede hacer referencia a las directivas y requisitos relevantes de su organización. La advertencia no puede tener más de 65535 caracteres.
+  - **Enviar mensaje**   de advertencia Lync Server permite hipervínculos activos en mensajes instantáneos, pero incluye una advertencia. Al seleccionar esta opción, se muestra el cuadro **Mensaje de advertencia**. En el cuadro **Mensaje de advertencia**, debe escribir la advertencia que desea incluir en los mensajes instantáneos que contengan hipervínculos válidos. Por ejemplo, esta advertencia podría indicar los posibles riesgos de hacer clic en vínculos desconocidos o hacer referencia a directivas y requisitos relevantes para la organización. La advertencia no puede tener más de 65.535 caracteres.
 
-Si selecciona **bloquear hipervínculos** o **Enviar mensaje de advertencia**, las siguientes opciones están disponibles:
+Si selecciona **Bloquear hipervínculos** o **Enviar mensaje de advertencia**, puede definir las siguientes opciones:
 
-  - **Excluir hipervínculos**   de Intranet local el filtro de mensajes instantáneos bloquea solo direcciones URL de Internet. Las direcciones URL de ubicaciones dentro de la intranet se pasan sin modificar a través del servidor. Sin embargo, las direcciones URL de intranet a las que pasan los servidores individuales que ejecutan Lync Server dependen de qué tipos de sitios web locales se consideran parte de su zona de intranet. Para comprobar la configuración de la zona Intranet de un servidor, consulte el procedimiento "para configurar la configuración de la intranet en Internet Explorer" en [modificar el filtro de URL predeterminado en Lync server 2013](lync-server-2013-modify-the-default-url-filter.md).
+  - **Excluir hipervínculos**   de Intranet local el filtro de mensajes instantáneos bloquea solo direcciones URL de Internet. Las direcciones URL de ubicaciones que se encuentran en la intranet pasan por el servidor sin sufrir modificaciones. Sin embargo, las direcciones URL de intranet que los servidores individuales que ejecutan Lync Server dependen de qué tipos de sitios web locales se consideran parte de su zona de intranet. Para comprobar la configuración de la zona Intranet de un servidor, consulte el procedimiento "para configurar la intranet en Internet Explorer" en [modificar el filtro de direcciones URL predeterminadas en Lync server 2013](lync-server-2013-modify-the-default-url-filter.md).
 
-  - **Filtre estos prefijos**   de hipervínculo para elegir los prefijos que desea bloquear, haga clic en **seleccionar**y, a continuación, en **seleccionar prefijo de hipervínculo**, agregue los prefijos a la lista de **prefijos de hipervínculos** .
+  - **Filtre estos prefijos**   de hipervínculos para elegir los prefijos que desea bloquear, haga clic en **seleccionar**y, a continuación, en **seleccionar prefijo de hipervínculo**, agregue los prefijos a la lista **prefijos de hipervínculos** .
     
-    Todos los prefijos excepto **href** deben finalizar con un punto o un signo de dos puntos, o un asterisco seguido de un punto. Los prefijos válidos pueden contener cualquier carácter del conjunto de caracteres de dirección URL válidos excepto el asterisco (\*). El conjunto de caracteres válidos de URL \# \*es: +/0123456789 =\_ \` @ABCDEFGHIJKLMNOPQRSTUVWXYZ ^ ABCDEFGHIJKLMNOPQRSTUVWXYZ | ~
+    Todos los prefijos, salvo **href**, deben terminar con un punto, un signo de dos puntos o un asterisco seguido de un punto. Los prefijos válidos pueden contener cualquier carácter del conjunto de caracteres de dirección URL válido\*excepto el asterisco (). El conjunto de caracteres válidos de dirección \# \*URL es: +/0123456789\_ \` = @ABCDEFGHIJKLMNOPQRSTUVWXYZ ^ ABCDEFGHIJKLMNOPQRSTUVWXYZ | ~
 
 </div>
 
 <div>
 
-## <a name="file-transfer-filtering"></a>Filtrado de transferencia de archivos
+## <a name="file-transfer-filtering"></a>Filtrado para transferencia de archivos
 
-Filtrar el filtrado de transferencia afecta tanto a los mensajes instantáneos como a las conferencias. Para las conferencias, esta configuración afecta a la característica de documentos de las características de reproducción multimedia y cliente de Office Live Meeting 2007.
+El filtro para transferencia afecta tanto a los mensajes instantáneos como a las conferencias. En el caso de las conferencias, esta configuración afecta a la característica de documentos en el cliente de Office Live Meeting 2007 y a las características de reproducción multimedia.
 
 <div>
 
 
 > [!NOTE]
-> Lync Server también ofrece opciones de configuración para la transferencia de archivos. Esta opción del servidor se ofrece además de los controles del cliente disponibles en Lync Server.
+> Lync Server también ofrece opciones de configuración de transferencia de archivos. Esta opción del lado servidor se ofrece además de los controles de cliente disponibles en Lync Server.
 
 
 
 </div>
 
-Puede filtrar las transferencias de archivos durante las conversaciones de mensajes instantáneos, cuando use la característica de documentos en el cliente de Office Live Meeting 2007 y las características de reproducción multimedia de todos los tipos de archivo. Puede establecer las siguientes opciones para controlar las transferencias de archivos:
+Puede filtrar transferencias de archivos durante conversaciones de mensajes instantáneos, cuando use la característica de documentos en el cliente de Office Live Meeting 2007, así como las características de reproducción multimedia para todos los tipos de archivo. Puede definir las opciones siguientes para controlar las transferencias de archivos:
 
   - **Habilitar filtro**   de archivos esta opción habilita el filtrado de archivos para la implementación global o para el sitio que seleccione.
     
-    Al habilitar el filtro de archivos, puede elegir una de las siguientes opciones en la **transferencia de archivos**:
+    Al activar el filtro de archivo, puede seleccionar una de las opciones siguientes en **Transferencia de archivos**:
     
-      - **Bloquear tipos**   de archivo específicos especifique las solicitudes de transferencia de archivos filtradas por el servidor especificando una lista de extensiones de archivo para bloquear. Las entradas de la lista pueden contener todos los caracteres estándar, pero no el carácter\*comodín (). En el cliente de Office Live Meeting 2007 la característica de documentos está habilitada, pero no se puede cargar ni descargar ningún archivo con esta extensión. Si selecciona la casilla de verificación **bloquear direcciones URL con extensión de archivo** en la configuración de un filtro de URL que aparece en la pestaña **filtro de URL** , el filtro de dirección URL usa esta misma lista para bloquear los hipervínculos activos que contienen cualquiera de estas extensiones de archivo. Para elegir qué tipos de archivo desea bloquear, haga clic en **seleccionar**y, a continuación, en **Seleccionar tipo de archivo**, agregue las extensiones de tipos de archivo a la lista Extensiones de tipos de **archivo seleccionados** .
+      - **Bloquear tipos**   de archivo específicos especifica qué solicitudes de transferencia de archivos se filtran por el servidor mediante la especificación de una lista de extensiones de archivo que se van a bloquear. Las entradas de la lista pueden contener todos los caracteres estándar, pero no el carácter\*comodín (). En el cliente de Office Live Meeting 2007, la característica de documentos está habilitada, pero no se podrán cargar ni descargar los archivos que tengan estas extensiones. Si activa la casilla **Bloquear direcciones URL con extensión de archivo** en la configuración de un filtro de direcciones URL de la ficha **Filtro para direcciones URL**, el filtro para direcciones URL usa la misma lista para bloquear hipervínculos activos que contengan cualquiera de esas extensiones de archivo. Para seleccionar los tipos de archivo que desea bloquear, haga clic en **Seleccionar** y, en **Seleccionar tipo de archivo**, agregue las extensiones de tipo de archivo a la lista **Extensiones de tipo de archivo seleccionadas**.
     
-      - **Bloquear todo**   el servidor elimina todos los mensajes instantáneos que contienen solicitudes de transferencia de archivos y devuelve un mensaje de error al remitente de la solicitud. La característica de documentos del cliente de Office Live Meeting 2007 está deshabilitada.
+      - **Bloquear todo**   el servidor elimina todos los mensajes instantáneos que contengan solicitudes de transferencia de archivos y devuelve un mensaje de error al remitente de la solicitud. Se deshabilita la característica de documentos en el cliente de Office Live Meeting 2007.
 
 <div>
 
 
 > [!IMPORTANT]
-> El filtrado de extensiones de archivo está limitado a los nombres de archivo estándar. Es posible que el filtrado no funcione con las extensiones de archivo incrustadas en otros nombres.
+> El filtrado de las extensiones de archivo se limita a los nombres de archivo estándar. Puede que el filtrado no funcione con las extensiones de archivo insertadas en otros nombres.
 
 
 
@@ -178,9 +178,9 @@ Puede filtrar las transferencias de archivos durante las conversaciones de mensa
 
   - [Crear un filtro de transferencia de archivos nuevo en Lync Server 2013 para un sitio específico](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)
 
-  - [Modificar el filtro de dirección URL predeterminado en Lync Server 2013](lync-server-2013-modify-the-default-url-filter.md)
+  - [Modificar el filtro de direcciones URL predeterminado en Lync Server 2013](lync-server-2013-modify-the-default-url-filter.md)
 
-  - [Crear un filtro de dirección URL en Lync Server 2013 para administrar hipervínculos en conversaciones de mensajería instantánea](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)
+  - [Crear un nuevo filtro de dirección URL en Lync Server 2013 para administrar hipervínculos en conversaciones de mensajería instantánea](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)
 
 </div>
 
@@ -189,7 +189,7 @@ Puede filtrar las transferencias de archivos durante las conversaciones de mensa
 ## <a name="see-also"></a>Vea también
 
 
-[Administrar la configuración de mensajería instantánea y de presencia en Lync Server 2013](lync-server-2013-managing-im-and-presence-settings.md)  
+[Administración de la configuración de mensajería instantánea y presencia en Lync Server 2013](lync-server-2013-managing-im-and-presence-settings.md)  
   
 
 </div>

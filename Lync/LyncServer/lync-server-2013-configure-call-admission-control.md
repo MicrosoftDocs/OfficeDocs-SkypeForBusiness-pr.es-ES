@@ -12,16 +12,16 @@ ms:contentKeyID: 48185464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 62f6858aa84309a268e8fc55af6cc0a63e6010a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8ebe3fbdd60409523755c865f4b4f34025acf15d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757794"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028731"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41757794"
 
 _**Última modificación del tema:** 2012-09-21_
 
-El control de admisión de llamadas (CAC) es una solución que determina si puede establecerse una sesión en tiempo real según el ancho de banda disponible para impedir que los usuarios de redes congestionadas obtengan una calidad de audio y vídeo pobre. CAC controla el tráfico en tiempo real solo para audio y vídeo, y no afecta al tráfico de datos. CAC puede enrutar la llamada a través de una ruta de Internet cuando la ruta de acceso WAN predeterminada no tiene el ancho de banda requerido. Para obtener más información, consulte [planificación de control de admisión de llamadas en Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md) en la documentación de planeación.
+El control de admisión de llamadas es una solución que determina si puede establecerse una sesión en tiempo real según el ancho de banda disponible para impedir que los usuarios de redes congestionadas obtengan una calidad de audio y vídeo pobre. Esta solución controla el tráfico en tiempo real únicamente para el audio y el vídeo, y no afecta al tráfico de datos. Puede enrutar la llamada a través de una ruta de acceso de Internet, si la ruta de acceso WAN predeterminada no dispone del ancho de banda requerido. Para obtener más información, consulte [Planning for Call Admission Control in Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md) en la documentación referente a la planeación.
 
-Esta sección proporciona un conjunto de procedimientos de ejemplo que muestran cómo implementar y administrar CAC en su red.
+En esta sección se proporciona un conjunto de procedimientos de ejemplo donde se describe cómo implementar y administrar el control de admisión de llamadas en una red.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Antes de implementar CAC, debe reunir toda la información necesaria para la topología de red de su empresa, como se describe en <A href="lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md">ejemplo: recopilación de los requisitos para el control de admisión de llamadas en Lync Server 2013</A> en la documentación de planeación. Además, asegúrese de que los componentes de CAC se han instalado y activado, tal y como se describe en <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">definir y configurar un grupo de servidores front-end o un servidor Standard Edition en Lync server 2013</A> en la documentación de implementación.
+> Antes de implementar el CAC, debe recopilar toda la información necesaria para la topología de red de la empresa, como se describe en <A href="lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md">ejemplo: reunión de los requisitos para el control de admisión de llamadas en Lync Server 2013</A> en la documentación referente a la planeación. Asegúrese también de que los componentes de CAC se hayan instalado y activado, como se describe en <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">definir y configurar un grupo de servidores front-end o un servidor Standard Edition en Lync server 2013</A> en la documentación sobre implementación.
 
 
 
@@ -55,7 +55,7 @@ Esta sección proporciona un conjunto de procedimientos de ejemplo que muestran 
 
 
 > [!NOTE]  
-> Todos los ejemplos de implementación y administración de CAC en esta sección se realizan mediante el shell de administración de Lync Server. Como alternativa, también puede usar la sección <STRONG>configuración de red</STRONG> del panel de control de Lync Server para administrar CAC.
+> Todos los ejemplos de implementación y administración de CAC en esta sección se realizan mediante el shell de administración de Lync Server. Como alternativa, también puede usar la sección <STRONG>configuración de red</STRONG> del panel de control de Lync Server para administrar el CAC.
 
 
 
@@ -71,17 +71,17 @@ Esta sección proporciona un conjunto de procedimientos de ejemplo que muestran 
 
   - [Configurar sitios de red para CAC en Lync Server 2013](lync-server-2013-configure-network-sites-for-cac.md)
 
-  - [Asociar subredes con sitios de red para CAC en Lync Server 2013](lync-server-2013-associate-subnets-with-network-sites-for-cac.md)
+  - [Asociar subredes a sitios de red para CAC en Lync Server 2013](lync-server-2013-associate-subnets-with-network-sites-for-cac.md)
 
   - [Crear vínculos de región de red en Lync Server 2013](lync-server-2013-create-network-region-links.md)
 
-  - [Crear rutas interregional de red en Lync Server 2013](lync-server-2013;-create-network-interregion-routes.md)
+  - [Crear rutas entre regiones de red en Lync Server 2013](lync-server-2013;-create-network-interregion-routes.md)
 
-  - [Crear directivas de intersitios de red en Lync Server 2013](lync-server-2013-create-network-intersite-policies.md)
+  - [Crear directivas entre sitios de red en Lync Server 2013](lync-server-2013-create-network-intersite-policies.md)
 
   - [Habilitar el control de admisión de llamadas en Lync Server 2013](lync-server-2013-enable-call-admission-control.md)
 
-  - [Lista de comprobación de la implementación de control de admisión para Lync Server 2013](lync-server-2013-call-admission-control-deployment-checklist.md)
+  - [Lista de comprobación para la implementación del control de admisión de llamadas para Lync Server 2013](lync-server-2013-call-admission-control-deployment-checklist.md)
 
 </div>
 

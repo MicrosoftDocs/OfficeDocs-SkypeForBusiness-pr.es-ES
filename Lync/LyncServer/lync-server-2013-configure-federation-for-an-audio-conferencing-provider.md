@@ -12,16 +12,16 @@ ms:contentKeyID: 60595883
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5c1ca77b2f68a2285fb15d65c19631323a03bda
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4725e80a00da46b7d446b8b8c938b65c569ef8d1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758444"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028561"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41758444"
 
 _**Última modificación del tema:** 2014-07-24_
 
-Si desea usar un proveedor de servicios de audioconferencia (ACP) en su implementación híbrida (Lync Server local con Lync Online), debe configurar la Federación entre su implementación local de Lync y el socio ACP como un servidor asociado autorizado. Para configurar la federación, agregue el dominio del asociado del ACP y el servidor perimetral (también se puede denominar servidor proxy de acceso) a la lista de dominios federados para la implementación local. Luego, su asociado del ACP tendrá que agregar el FQDN de su grupo de servidores perimetrales local a su lista de dominios federados permitidos. Póngase en contacto con su proveedor ACP para obtener un asociado adicional de detailsYour ACP, entonces necesita agregar el FQDN de su grupo de servidores perimetrales local a su lista de dominios federados permitidos.
+Si desea usar un proveedor de servicios de audioconferencia (ACP) en su implementación híbrida (Lync Server local con Lync Online), debe configurar la Federación entre su implementación local de Lync y el socio de ACP como servidor asociado permitido. Puede configurar la Federación agregando el dominio del asociado del ACP y el servidor perimetral (esto también puede llamarse servidor proxy de acceso) a la lista de dominios federados para la implementación local. A continuación, su partner ACP debe agregar el FQDN de su grupo de servidores perimetrales local a su lista de dominios federados permitidos. Póngase en contacto con su proveedor de ACP para obtener Partner adicional de detailsYour ACP y, a continuación, necesita agregar el FQDN de su grupo de servidores perimetrales local a su lista de dominios federados permitidos.
 
-  - **Cómo agregar el dominio del ACP y el servidor perimetral como un dominio federado permitido**
+  - **Adición del dominio ACP y el servidor perimetral como un dominio federado permitido**
     
-    Para agregar el dominio ACP como servidor asociado permitido (dominio federado permitido), siga los pasos que se indican en [configurar compatibilidad con dominios externos permitidos en Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md). Para el servidor perimetral, agregue el FQDN del servidor perimetral del asociado del ACP. Puede que tenga que contactar con el asociado del ACP para obtener el FQDN del servidor perimetral, que el ACP también puede denominar servidor proxy de acceso.
+    Para agregar el dominio ACP como servidor asociado permitido (dominio federado permitido), siga los pasos de [configurar la compatibilidad con dominios externos permitidos en Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md). Para el servidor perimetral, agregue el FQDN del servidor perimetral del asociado del ACP. Es posible que deba ponerse en contacto con su partner de ACP para obtener el FQDN de su servidor perimetral, al que también puede hacer referencia su ACP como su proxy de acceso.
 
   - **Proporcionar el FQDN de su grupo de servidores perimetrales al asociado del ACP**
     
-    El asociado del ACP tiene que configurar la federación para agregar su dominio local como un servidor de asociado permitido agregando el FQDN de su grupo de servidores perimetrales como un dominio federado permitido.
+    El socio de ACP debe configurar la Federación para agregar el dominio local como servidor asociado permitido agregando el FQDN de su grupo de servidores perimetrales como un dominio federado permitido.
 
 </div>
 

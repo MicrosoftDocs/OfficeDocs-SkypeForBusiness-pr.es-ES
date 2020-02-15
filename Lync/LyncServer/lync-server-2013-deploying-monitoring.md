@@ -12,16 +12,16 @@ ms:contentKeyID: 48183442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 637897bce0a160a8cc3b199ec6aee3ffd7375852
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 73b9947cf77df8d0c3baedcb27d8e13cc728e52b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763934"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,61 +37,61 @@ ms.locfileid: "41763934"
 
 _**Última modificación del tema:** 2013-12-17_
 
-Se han realizado cambios importantes en la infraestructura de supervisión de Microsoft Lync Server 2013, comenzando con el hecho de que el rol de servidor de supervisión ha quedado obsoleto. En lugar de roles de servidor de supervisión independientes (que suelen requerir que las organizaciones configuren equipos dedicados para que actúen como servidores de supervisión), los servicios de supervisión ahora se colocan en cada servidor front-end. Entre otras cosas, este cambio ayuda a:
+Se han realizado cambios importantes en la infraestructura de supervisión de Microsoft Lync Server 2013, comenzando con el hecho de que la función de servidor de supervisión está en desuso. En lugar de roles de servidor de supervisión independientes (que normalmente requerían que las organizaciones configuraran equipos dedicados para que actuaran como servidores de supervisión) se instalan ahora servicios de supervisión en cada servidor front-end. Entre otras cuestiones, este cambio ayuda a:
 
-  - Reduzca el número de roles de servidor necesarios al implementar Lync Server 2013. En este caso, disminuir la función de servidor de supervisión también ayuda a reducir los costos al eliminar la necesidad de mantener servidores dedicados para la supervisión.
+  - Reduzca el número de roles de servidor necesarios al implementar Lync Server 2013. En este caso, al dejar de usar el servidor de supervisión también se contribuye a reducir costes eliminando la necesidad de mantener servidores dedicados para supervisión.
 
-  - Reduzca la complejidad de la configuración y la administración de Lync Server. Collocating automáticamente los servicios de supervisión en cada servidor front-end que ya no necesita para instalar, configurar y administrar el rol servidor de supervisión.
-
-<div>
-
-
-> [!NOTE]  
-> El rol servidor de archivado también ha quedado obsoleto en Lync Server 2013. Al igual que los servicios de supervisión, los servicios de archivado de Lync Server 2013 ahora se colocan en cada servidor front-end. Es importante destacar simplemente porque la supervisión y el archivado comparten a menudo la misma instancia de base de datos de SQL Server.
-
-
-
-</div>
-
-Como cabría esperar, estos cambios tienen una repercusión importante en el modo en que se instalan y administran los servicios de supervisión. Por ejemplo, puesto que el rol servidor de supervisión ya no existe, el nodo servidor de supervisión se ha quitado del generador de topología de Lync Server; a su vez, esto significa que ya no usará el nuevo Asistente para servidor de supervisión de topología Builder para agregar un nuevo servidor de supervisión a su topología. (El asistente ya no existe). En su lugar, normalmente implementará servicios de supervisión dentro de su topología completando los dos pasos siguientes:
-
-1.  Habilitar la supervisión al mismo tiempo que se configura un nuevo grupo de Lync Server. (En Lync Server 2013, la supervisión está habilitada o deshabilitada para cada grupo). Tenga en cuenta que puede habilitar la supervisión de un grupo sin recopilar realmente datos de supervisión, un proceso descrito en la sección configuración de la configuración de registro de detalles de llamadas y calidad de la experiencia de esta documentación.
-
-2.  Al asociar un almacén de supervisión (es decir, una base de datos de supervisión) con el nuevo grupo de servidores. Tenga en cuenta que un único almacén de supervisión se puede asociar con varios grupos de servidores. En función de la cantidad de usuarios hospedados en los grupos de registradores, no tiene que configurar una base de datos de supervisión independiente para cada uno de los grupos. En su lugar, varios grupos de servidores pueden usar el almacén de supervisión único.
-
-Aunque a menudo es más sencillo habilitar la supervisión al mismo tiempo que crea un nuevo grupo de servidores, también es posible crear un nuevo grupo de servidores con la supervisión deshabilitada. Si lo hace, posteriormente podrá usar el Generador de topología para habilitar el servicio: el Generador de topologías ofrece una manera de habilitar o deshabilitar la supervisión para un grupo de servidores, o para asociar un grupo de servidores con un almacén de supervisión diferente. Tenga en cuenta que, aunque ya no haya un rol de servidor de supervisión, tendrá que crear uno o varios almacenes: bases de datos de back-end usadas para almacenar los datos recopilados por el servicio de supervisión. Estas bases de datos de back-end se pueden crear con Microsoft SQL Server 2008 R2 o Microsoft SQL Server 2012.
+  - Reduzca la complejidad de la configuración y la administración de Lync Server. Al instalar automáticamente los servicios de supervisión en cada servidor front-end ya no tiene que instalar, configurar y administrar el rol del servidor de supervisión.
 
 <div>
 
 
 > [!NOTE]  
-> Si se ha habilitado la supervisión para un grupo, puede deshabilitar el proceso de recopilación de datos de supervisión sin tener que cambiar su topología: el shell de administración de Lync Server le permite deshabilitar (y volver a habilitar más adelante) la grabación de detalles de llamadas (CDR) o la calidad of Experience (QoE) recopilación de datos. Para obtener más información, vea la sección de configuración del registro de detalles de llamadas y los valores de calidad de experiencia de este documento.
+> El rol de servidor de archivado también está en desuso en Lync Server 2013. Al igual que los servicios de supervisión, los servicios de archivado de Lync Server 2013 ahora se colocan en cada servidor front-end. Esto es importante tenerlo en cuenta simplemente porque la supervisión y el archivado a menudo comparten la misma instancia de base de datos de SQL Server.
 
 
 
 </div>
 
-Otra mejora importante para la supervisión en Lync Server 2013 es el hecho de que los informes de supervisión de Lync Server ahora son compatibles con IPv6: los informes que usan el campo dirección IP mostrarán direcciones IPv4 o IPv6, en función de: 1, la consulta SQL que se usa; y 2) donde la dirección IPv6 está almacenada en la base de datos de supervisión.
+Como puede esperar, estos cambios tienen un impacto principal en la manera en que se instalan y se administran los servicios de supervisión. Por ejemplo, como el rol del servidor de supervisión ya no existe, el nodo del servidor de supervisión se ha quitado del generador de topologías de Lync Server; a su vez, esto significa que ya no usa el nuevo servidor de supervisión del generador de topologías para agregar un nuevo servidor de supervisión a la topología. (El asistente ya no existe). En su lugar, normalmente implementará los servicios de supervisión en la topología completando los dos pasos siguientes:
+
+1.  Habilitación de la supervisión al mismo tiempo que configura un nuevo grupo de Lync Server. (En Lync Server 2013, la supervisión está habilitada o deshabilitada de forma agrupada por grupo). Tenga en cuenta que puede habilitar la supervisión de un grupo de servidores sin realmente recopilar datos de supervisión, un proceso que se explica en la sección configuración del registro de detalles de llamadas y de la calidad de la experiencia de esta documentación.
+
+2.  Asociando un almacén de supervisión (es decir, una base de datos de supervisión) con el nuevo grupo de servidores. Tenga en cuenta que un único almacén de supervisión se puede asociar con varios grupos de servidores. En función del número de usuarios hospedados en sus grupos de servidores del registrador, eso significa que no tiene que configurar una base de datos de supervisión independiente para cada uno de sus grupos de servidores. En su lugar, el almacén de supervisión único se puede usar por varios grupos de servidores.
+
+Aunque a menudo es más sencillo habilitar la supervisión al mismo tiempo que crea un nuevo grupo de servidores, también es posible crear un nuevo grupo de servidores con la supervisión deshabilitada. Si lo hace, posteriormente podrá usar el Generador de topología para habilitar el servicio: el Generador de topologías ofrece una manera de habilitar o deshabilitar la supervisión para un grupo de servidores, o para asociar un grupo de servidores con un almacén de supervisión diferente. Tenga en cuenta que aunque ya no hay un rol de servidor de supervisión, todavía tendrá que crear uno o más almacenes de supervisión: bases de datos back-end usadas para almacenar los datos recopilados por el servicio de supervisión. Estas bases de datos back-end se pueden crear con Microsoft SQL Server 2008 R2 o Microsoft SQL Server 2012.
 
 <div>
 
 
 > [!NOTE]  
-> Asegúrese de que el tipo de inicio del servicio del Agente SQL Server sea automático y de que el servicio del Agente SQL Server se esté ejecutando para la instancia de SQL que contiene las bases de datos de supervisión, de manera que las tareas de mantenimiento predeterminadas de supervisión de SQL Server puedan ejecutarse según se programaron, bajo el control del servicio del Agente SQL Server.
+> Si se ha habilitado la supervisión para un grupo de servidores, puede deshabilitar el proceso de recopilación de datos de supervisión sin tener que cambiar la topología: el shell de administración de Lync Server proporciona una forma de deshabilitar (y volver a habilitar) el registro detallado de llamadas (CDR) o la calidad de la experiencia (QoE) de recopilación de datos. Para obtener más información, vea la sección de configuración del registro de detalles de llamadas y los valores de calidad de experiencia de este documento.
 
 
 
 </div>
 
-Esta documentación le guiará a través del proceso de instalación y configuración de los informes de supervisión y supervisión de Lync Server 2013. En la documentación se proporcionan instrucciones detalladas que le ayudarán a:
+Otra mejora importante para la supervisión en Lync Server 2013 es que los informes de supervisión de Lync Server ahora admiten IPv6: los informes que usan el campo de dirección IP mostrarán las direcciones IPv4 o IPv6, según: 1) la consulta SQL que se usa; y 2) donde la dirección IPv6 se almacena en la base de datos de supervisión.
 
-  - Habilitar la supervisión en la topología y asociar un almacén de supervisión a un grupo de servidores front-end.
+<div>
 
-  - Instale SQL Server Reporting Services y los informes de supervisión de Lync Server. Los informes de supervisión son informes previamente configurados que ofrecen diferentes vistas sobre la información almacenada en una base de datos de supervisión.
 
-  - Configurar la recopilación de datos de grabación de detalles de llamadas (CDR) y calidad de la experiencia (QoE). La grabación de detalles de llamadas le permite realizar un seguimiento del uso de las funciones de Lync Server, como llamadas telefónicas de voz a través de IP (VoIP); mensajería instantánea (mi); transferencias de archivos; conferencias de audio y vídeo (A/V); y sesiones de uso compartido de aplicaciones. Las métricas QoE controlan la calidad de las llamadas de audio y vídeo de la organización, incluyen datos sobre el número de paquetes perdidos, el ruido de fondo y la cantidad de "vibración" (diferencias en el retraso de paquetes).
+> [!NOTE]  
+> Asegúrese de que el tipo de inicio del servicio Agente SQL Server es automático y de que el servicio del Agente SQL Server se está ejecutando para la instancia de SQL que retiene las bases de datos de supervisión, de modo que los trabajos de mantenimiento de SQL Server de supervisión predeterminada puedan ejecutarse de acuerdo a su programación. bajo el control del servicio del Agente SQL Server.
 
-  - Purgue de forma manual los registros de CDR o de QoE de la base de datos de supervisión.
+
+
+</div>
+
+Esta documentación le guiará por el proceso de instalación y configuración de los informes de supervisión y supervisión para Lync Server 2013. La documentación proporciona instrucciones detalladas que le ayudarán a:
+
+  - Habilitar la supervisión en su topología y asociar un almacén de supervisión a un grupo de servidores front-end.
+
+  - Instale SQL Server Reporting Services y los informes de supervisión de Lync Server. Los informes de supervisión son informes preconfigurados que ofrecen diferentes vistas sobre la información almacenada en una base de datos de supervisión.
+
+  - Configure el registro de detalles de llamada (CDR) y la recopilación de datos de calidad de experiencia (QoE). El registro detallado de llamadas permite realizar un seguimiento del uso de las capacidades de Lync Server, como llamadas telefónicas de voz sobre IP (VoIP); mensajería instantánea (mi); transferencias de archivos; Conferencia de audio/vídeo (A/V); y sesiones de uso compartido de aplicaciones. Las métricas QoE controlan la calidad de las llamadas de audio y vídeo de la organización, incluyen datos sobre el número de paquetes perdidos, el ruido de fondo y la cantidad de "vibración" (diferencias en el retraso de paquetes).
+
+  - Depure manualmente los registros de CDR y/o QoE de la base de datos de supervisión.
 
 </div>
 

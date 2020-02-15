@@ -12,20 +12,20 @@ ms:contentKeyID: 51541441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be77aa62f03271c198a4448f5d299f90de0d5e5a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7dbc63d5b90636ecb5a8c8dfe7971a0d862b8eff
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765951"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008682"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="navigating-the-planning-tool-in-lync-server-2013"></a>Navegar por la herramienta de planeación en Lync Server 2013
+# <a name="navigating-the-planning-tool-in-lync-server-2013"></a>Navegación por la herramienta de planeación en Lync Server 2013
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41765951"
 
 _**Última modificación del tema:** 2013-02-21_
 
-Para desplazarse por la herramienta de planeación de Microsoft Lync Server 2013, use una combinación de barra de herramientas, botones y vínculos específicos de la página, y paneles específicos del contexto. Los paneles contextuales proporcionan información de diseño sobre la planeación y la capacidad que resulta relevante para tomar las decisiones de selección en una página determinada.
+Puede navegar por la herramienta de planeación 2013 de Microsoft Lync Server con una combinación de una barra de herramientas, botones y vínculos específicos de la página y paneles específicos del contexto. Los paneles específicos del contexto proporcionan información de diseño para la planeación y la capacidad que es relevante para las opciones de selección en una página específica.
 
-Al iniciar la herramienta de planeación, un diseñador ve primero la página **de bienvenida a la herramienta de planeación de Microsoft Lync Server 2013** .
+Al iniciar la herramienta de planeación, un diseñador ve primero la página **Bienvenido a la herramienta de planeación de Microsoft Lync Server 2013** .
 
-![Página de bienvenida de la Herramienta de planeación](images/Gg558601.ff5b72e6-bcf0-49e9-8784-3636fe8187c5(OCS.15).jpg "Página de bienvenida de la Herramienta de planeación")
+![Página principal de la herramienta de planeación](images/Gg558601.ff5b72e6-bcf0-49e9-8784-3636fe8187c5(OCS.15).jpg "Página principal de la herramienta de planeación")
 
-En esta página, el diseñador podrá elegir entre **Introducción**, **Diseñar sitios** o **Mostrar**. Para obtener más información, consulte [crear el diseño de topología inicial para Lync Server 2013](lync-server-2013-create-the-initial-topology-design.md).
+En la página **principal, el**diseñador elige introducción, sitios de **diseño**o **presentación**. Para obtener más información, consulte [Create the Initial Topology Design for Lync Server 2013](lync-server-2013-create-the-initial-topology-design.md).
 
-En la parte superior de la herramienta de planeación se encuentra una barra de herramientas que proporciona fácil acceso a las funciones más usadas. Aquí se muestra la barra de herramientas, a modo de referencia, y las funciones se abordarán en los temas relacionados.
+En la parte superior de la herramienta de planeación hay una barra de herramientas que facilita el acceso a las funciones de uso más frecuente. La barra de herramientas se muestra aquí como referencia y cada función se explica en temas relacionados.
 
-![Barra de herramientas de la Herramienta de planeación](images/Gg558601.a008ddd1-b73d-4406-9d4b-df68bed9906e(OCS.15).jpg "Barra de herramientas de la Herramienta de planeación")
+![Barra de herramientas de herramienta de planeación](images/Gg558601.a008ddd1-b73d-4406-9d4b-df68bed9906e(OCS.15).jpg "Barra de herramientas de herramienta de planeación")
 
-La herramienta de planeación tiene una sección de vínculos externos en el lado izquierdo de la herramienta. Desde aquí, el diseñador puede acceder fácilmente a la información de planeación e implementación, así como a otros recursos técnicos como, por ejemplo, formación, blogs técnicos, foros y otros recursos descargables. Además, en la sección de vínculos externos se encuentra un vínculo de comentarios al equipo de la herramienta de planeación de Lync Server 2013.
+La herramienta de planeación tiene una sección de vínculos externos en la parte izquierda de la herramienta. Desde aquí, el diseñador puede acceder fácilmente a la información de planeación e implementación, así como a otros recursos técnicos como, por ejemplo, formación, blogs técnicos, foros y otros recursos descargables. También en la sección vínculos externos se encuentra un vínculo de comentarios al equipo de la herramienta de planeación de Lync Server 2013.
 
-![Cuadro de diálogo Vínculos externos de la Herramienta de planeación](images/Gg558601.76959057-8eb2-4158-b1b3-585cca80be7e(OCS.15).jpg "Cuadro de diálogo Vínculos externos de la Herramienta de planeación")
+![Cuadro de diálogo de vínculos externos de la herramienta de planeación](images/Gg558601.76959057-8eb2-4158-b1b3-585cca80be7e(OCS.15).jpg "Cuadro de diálogo de vínculos externos de la herramienta de planeación")
 
-En la herramienta planificación se muestra un panel acciones sensibles al contexto. Este panel permite al diseñador acceder con facilidad a las secciones principales de la topología. Los vínculos disponibles en el panel Acciones cambian en función del nivel de detalle de la topología. El panel estará disponible una vez que se hayan completado las preguntas de la entrevista y se haya mostrado la topología. Dentro del panel Acciones se incluye la sección Información general, donde se muestran las cifras que el diseñador ha especificado como parte del proceso de la entrevista. La información general está relacionada contextualmente con la información mostrada.
+Un panel acciones contextuales se muestra en muchas páginas de la herramienta de planeación. El panel de acciones permite que el diseñador tenga fácil acceso a las secciones principales de la topología. Los vínculos disponibles en el panel de acciones cambian en función del nivel de detalle en la topología. El panel de acciones está disponible después de completar las preguntas de la entrevista y de mostrar la topología. En el panel de acciones se incluye la sección información general, que muestra los números que ha escrito el diseñador como parte del proceso de entrevistas. La información general está relacionada contextualmente con la información mostrada.
 
 Además, se muestra información sobre el hardware en la información general del panel Acciones. En la configuración del hardware se muestra una lista de los requisitos de hardware que recomienda la topología actual.
 
-![Panel de acciones de la Herramienta de planeación](images/Gg558601.9679d8fd-4de8-4a5a-bfcf-699da9aa7283(OCS.15).jpg "Panel de acciones de la Herramienta de planeación")
+![Panel de acciones de la herramienta de planeación](images/Gg558601.9679d8fd-4de8-4a5a-bfcf-699da9aa7283(OCS.15).jpg "Panel de acciones de la herramienta de planeación")
 
 <div>
 

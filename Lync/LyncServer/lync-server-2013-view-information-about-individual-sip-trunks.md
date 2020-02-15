@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ver información sobre los troncos SIP individuales'
+title: 'Lync Server 2013: ver información sobre troncos SIP individuales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f18b65d119b917d5ba48ef3e6805e4f70ea482ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3163bb6298bef570a68f2fcfd7dec66167549b21
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765651"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029731"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-information-about-individual-sip-trunks-in-lync-server-2013"></a>Ver información sobre los troncos SIP individuales en Lync Server 2013
+# <a name="view-information-about-individual-sip-trunks-in-lync-server-2013"></a>Ver información sobre troncos SIP individuales en Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41765651"
 
 _**Última modificación del tema:** 2013-02-21_
 
-Los troncos SIP se usan para conectar Lync Server 2013 voz a través de una red telefónica IP con la red de telefonía pública conmutada. En la versión anterior del producto, los enlaces troncales se usaban para enrutar las llamadas salientes de un servidor de mediación a una puerta de enlace RTC, y cada puerta de enlace estaba limitada a un único enlace troncal. Como resultado, la puerta de enlace RTC y el enlace troncal SIP eran básicamente idénticos. Para los administradores, eso significaba que podían ver información sobre un enlace troncal SIP individual al ver información sobre la puerta de enlace RTC asociada.
+Los troncos SIP se usan para conectar la red telefónica de Lync Server 2013 Voice over IP con la red telefónica pública conmutada. En la versión anterior del producto, los enlaces troncales se usaban para enrutar las llamadas salientes de un servidor de mediación a una puerta de enlace RTC, y cada puerta de enlace estaba limitada a un único enlace troncal. Como resultado, la puerta de enlace RTC y el enlace troncal SIP eran básicamente idénticos. Para los administradores, eso significaba que podían ver información sobre un enlace troncal SIP individual al ver información sobre la puerta de enlace RTC asociada.
 
-En Lync Server 2013, sin embargo, ahora se pueden asignar varios troncos a una sola puerta de enlace PSTN; Esto significa que las puertas de enlace y los troncos ya no están en el mismo. A su vez, esto significa que los administradores deben usar el nuevo cmdlet [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk) para ver información sobre un tronco SIP individual.
+Sin embargo, en Lync Server 2013, ahora se pueden asignar varios troncos a una única puerta de enlace RTC; Esto significa que las puertas de enlace y los troncos ya no tienen una y otra. A su vez, esto significa que los administradores deben usar el nuevo cmdlet [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk) para ver información acerca de un tronco SIP individual.
 
-El cmdlet Get-CsTrunk se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+El cmdlet Get-CsTrunk se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
 <div>
 
-## <a name="to-view-information-for-all-your-sip-trunks"></a>Para ver información sobre todos los enlaces troncales SIP
+## <a name="to-view-information-for-all-your-sip-trunks"></a>Para ver la información de todos los troncos SIP
 
   - El siguiente comando devuelve información sobre todos los enlaces troncales SIP que se usan en su organización:
     
@@ -55,7 +55,7 @@ El cmdlet Get-CsTrunk se puede ejecutar desde el shell de administración de Lyn
 
 <div>
 
-## <a name="to-view-information-for-a-specific-sip-trunk"></a>Para ver información sobre un enlace troncal SIP específico
+## <a name="to-view-information-for-a-specific-sip-trunk"></a>Para ver la información de un tronco SIP específico
 
   - Este comando devuelve información solamente para el enlace troncal SIP con el valor Identity PstnGateway:192.168.0.240:
     
@@ -65,7 +65,7 @@ El cmdlet Get-CsTrunk se puede ejecutar desde el shell de administración de Lyn
 
 <div>
 
-## <a name="viewing-information-for-all-the-sip-trunks-assigned-to-a-pool"></a>Ver información de todos los troncos SIP asignados a un grupo
+## <a name="viewing-information-for-all-the-sip-trunks-assigned-to-a-pool"></a>Ver información sobre todos los enlaces troncales SIP asignados a un grupo
 
   - En este ejemplo, se devuelve información para todos los enlaces troncales SIP asignados al grupo atl-cs-001.litwareinc.com:
     

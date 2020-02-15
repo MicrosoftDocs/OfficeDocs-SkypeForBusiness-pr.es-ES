@@ -12,16 +12,16 @@ ms:contentKeyID: 48184971
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b80446d9117a37b86c386132aa80439cb568a98
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2e9b5780b17ad2ed7a057979f77e504fb1fca0db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734040"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030043"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41734040"
 
 _**Última modificación del tema:** 2012-10-14_
 
-Puede asignar determinadas directivas a un usuario o a un grupo de usuarios para especificar valores particulares que se desvíen de la configuración definida en las directivas asignadas a otros usuarios, como directivas globales. Estas directivas se denominan directivas por usuario.
+Puede asignar determinadas directivas a un usuario o a un grupo de usuarios con el fin de especificar una configuración determinada que se desvíe de la configuración definida en las directivas asignadas a otros usuarios, como las directivas globales. Estas directivas se denominan directivas por usuario.
 
 <div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad3d4a56a03d22ecf7fcef85df8b3e6e5ea4c8b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5ae37b876ec2a3cab28d778ffc2bac4682c6a66b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762022"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008692"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41762022"
 
 _**Última modificación del tema:** 2012-10-15_
 
-Puede usar el panel de control de Lync Server 2013 o el shell de administración de Lync Server 2013 para administrar subredes de red. En la mayoría de las implementaciones de Lync Server 2013 donde se implementa control de admisión de llamadas (CAC), generalmente habrá un gran número de subredes. Por ello, suele ser mejor configurar las subredes desde el shell de administración de Lync Server.
+Puede usar el panel de control de Lync Server 2013 o el shell de administración de Lync Server 2013 para administrar las subredes de la red. En la mayoría de las implementaciones de Lync Server 2013 donde se implementa el control de admisión de llamadas (CAC), normalmente habrá un gran número de subredes. Por ello, suele ser mejor configurar subredes desde el shell de administración de Lync Server.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Ver la información de subred de la red en Lync Server 2013](lync-server-2013-viewing-network-subnet-information.md)
+  - [Ver la información de subred de red en Lync Server 2013](lync-server-2013-viewing-network-subnet-information.md)
 
   - [Crear o modificar subredes de red en Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md)
 
-  - [Eliminar subredes de la red en Lync Server 2013](lync-server-2013-deleting-network-subnets.md)
+  - [Eliminación de subredes de red en Lync Server 2013](lync-server-2013-deleting-network-subnets.md)
 
 </div>
 

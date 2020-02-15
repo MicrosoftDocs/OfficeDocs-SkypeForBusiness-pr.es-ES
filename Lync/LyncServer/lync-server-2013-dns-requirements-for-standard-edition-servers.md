@@ -12,16 +12,16 @@ ms:contentKeyID: 48183920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3132ec1e18d27564f0077e83d411c5b3930c241b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2064181a7c4d60015905d5974ac01378b7d025e2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737370"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029601"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -41,9 +41,9 @@ En esta sección se describen los registros del sistema de nombres de dominio (D
 
 <div>
 
-## <a name="dns-records-for-standard-edition-servers"></a>Registros de DNS para servidores Standard Edition
+## <a name="dns-records-for-standard-edition-servers"></a>Registros DNS para servidores Standard Edition
 
-En la tabla siguiente se especifican los requisitos DNS para la implementación de Lync Server 2013 Standard Edition.
+En la tabla siguiente se especifican los requisitos de DNS para la implementación de servidor de Lync Server 2013 Standard Edition.
 
 ### <a name="dns-requirements-for-a-standard-edition-server"></a>Requisitos de DNS para un servidor Standard Edition
 
@@ -61,19 +61,19 @@ En la tabla siguiente se especifican los requisitos DNS para la implementación 
 <tbody>
 <tr class="odd">
 <td><p>Servidor Standard Edition</p></td>
-<td><p>Un registro A interno que resuelve el nombre de dominio completo (FQDN) del servidor en su dirección IP.</p></td>
+<td><p>Registro A interno que resuelve el nombre de dominio completo (FQDN) del servidor en su dirección IP.</p></td>
 </tr>
 <tr class="even">
-<td><p>Inicio de sesión de clientes automático</p></td>
-<td><p>Para cada dominio SIP admitido, un registro SRV para _sipinternaltls. _tcp. &lt;dominio&gt; sobre el puerto 5061 que se asigna al FQDN del servidor Standard Edition que autentica y redirige las solicitudes de inicio de sesión de los clientes. Para obtener más información, consulte <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">requisitos de DNS para el inicio de sesión automático de cliente en Lync Server 2013</a>.</p></td>
+<td><p>Inicio de sesión automático de clientes</p></td>
+<td><p>Para cada dominio SIP compatible, un registro SRV para _sipinternaltls. _tcp. &lt;dominio&gt; a través del puerto 5061 que se asigna al FQDN del servidor Standard Edition que autentica y redirige las solicitudes de inicio de sesión de los clientes. Para obtener más información, consulte <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">requisitos de DNS para el inicio de sesión automático de los clientes en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Detección del servicio web de actualización de dispositivos por los dispositivos de comunicaciones unificadas (UC)</p></td>
-<td><p>Un registro A interno con el nombre ucupdates-R2. &lt;Dominio&gt; SIP que se resuelve como la dirección IP del servidor Standard Edition que aloja el servicio Web de actualización de dispositivos. En una situación en la que un dispositivo de comunicaciones unificadas esté activado, pero en el que nunca un usuario inició sesión, el registro A permite al dispositivo detectar el servidor que hospeda el servicio web de actualización de dispositivos y obtener actualizaciones. De lo contrario, los dispositivos obtienen la información del servidor a través del aprovisionamiento en banda la primera vez que un usuario inicia sesión.</p></td>
+<td><p>Detección del servicio web de actualización de dispositivos mediante dispositivos de comunicaciones unificadas (UC)</p></td>
+<td><p>Un registro A interno con el nombre ucupdates-R2. &lt;Dominio&gt; SIP que se resuelve en la dirección IP del servidor Standard Edition que hospeda el servicio Web de actualización de dispositivos. En una situación en la que un dispositivo de comunicaciones unificadas esté activado, pero nunca ningún usuario se haya registrado en él, el registro A permite al dispositivo detectar el servidor que hospeda el Servicio web de actualización de dispositivos y obtener actualizaciones. En caso contrario, los dispositivos obtienen la información del servidor a través del aprovisionamiento en banda la primera vez que un usuario inicia sesión.</p></td>
 </tr>
 <tr class="even">
-<td><p>Un proxy inverso compatible con el tráfico HTTP</p></td>
-<td><p>Un registro A externo que resuelve el FQDN externo de la granja de servidores web en la dirección IP externa del proxy inverso. Los clientes y los dispositivos de UC usan este registro para conectarse al proxy inverso. Para obtener más información, consulte <a href="lync-server-2013-determine-dns-requirements.md">determinar los requisitos de DNS para Lync Server 2013</a> en la documentación de planeación.</p></td>
+<td><p>Un proxy inverso que admita tráfico HTTP</p></td>
+<td><p>Un registro A externo que resuelva el FQDN externo de la granja de servidores web en la dirección IP externa del proxy inverso. Los clientes y los dispositivos de comunicaciones unificadas usan este registro para conectarse al proxy inverso. Para obtener más información, consulte <a href="lync-server-2013-determine-dns-requirements.md">determinar los requisitos de DNS para Lync Server 2013</a> en la documentación referente a la planeación.</p></td>
 </tr>
 </tbody>
 </table>

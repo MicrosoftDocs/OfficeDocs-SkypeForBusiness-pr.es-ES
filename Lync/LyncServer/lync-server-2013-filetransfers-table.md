@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla FileTransfers'
+title: 'Lync Server 2013: tabla FileTransfers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de8a3e69c670c273bcdd91ac5895c0b1f0b15d80
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9aedca2ae840947aef4ccc6ec7bff4ba825090a0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743370"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028491"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -59,18 +59,18 @@ Cada registro representa una sesión de transferencia de archivos.
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Principal, extranjero</p></td>
-<td><p>Hora de la solicitud de sesión. Se usa en conjunción con <strong>SessionIdSeq</strong> para identificar de forma única una sesión. Para obtener más información, vea la <a href="lync-server-2013-dialogs-table.md">tabla cuadros de diálogo en Lync Server 2013</a> .</p></td>
+<td><p>Principal, Externa</p></td>
+<td><p>Hora de la solicitud de sesión. Se usa junto con <strong>SessionIdSeq</strong> para identificar una sesión de manera exclusiva. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal, extranjero</p></td>
-<td><p>Número de identificación para identificar la sesión. Se usa en conjunción con <strong>SessionIdTime</strong> para identificar de forma única una sesión. Para obtener más información, vea la <a href="lync-server-2013-dialogs-table.md">tabla cuadros de diálogo en Lync Server 2013</a> .</p></td>
+<td><p>Principal, Exterior</p></td>
+<td><p>Número del identificador para identificar la sesión. Se usa en combinación con <strong>SessionIdTime</strong> para identificar de forma única una sesión. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Nombre de archivo</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>Nombre del archivo.</p></td>
 </tr>
@@ -78,31 +78,31 @@ Cada registro representa una sesión de transferencia de archivos.
 <td><p><strong>FileIdentity</strong></p></td>
 <td><p>identificador</p></td>
 <td></td>
-<td><p>Identificador único para distinguir entre transferencias de archivos que impliquen el mismo nombre de archivo.</p></td>
+<td><p>Identificador único para distinguir entre las transferencias de archivos con el mismo nombre de archivo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Ésta</strong></p></td>
+<td><p><strong>Cookie</strong></p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Primary</p></td>
-<td><p>Se usa para identificar cada mensaje de seguimiento como asociado con este.</p></td>
+<td><p>Principal</p></td>
+<td><p>Se usa para identificar cada mensaje de seguimiento como mensaje asociado a este.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Aceptable</strong></p></td>
+<td><p><strong>Accept</strong></p></td>
 <td><p>bit</p></td>
 <td></td>
-<td><p>Puede ser TRUE o NULL. Si es verdadero, rechazar y cancelar será nulo.</p></td>
+<td><p>Puede ser TRUE o NULL. Si es TRUE, Rechazar y Cancelar serán NULL.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Rechace</strong></p></td>
+<td><p><strong>Reject</strong></p></td>
 <td><p>bit</p></td>
 <td></td>
-<td><p>Puede ser TRUE o NULL. Si es verdadero, aceptar y cancelar será nulo.</p></td>
+<td><p>Puede ser TRUE o NULL. Si es TRUE, Aceptar y Cancelar serán NULL.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Cancelar.</strong></p></td>
+<td><p><strong>Cancel</strong></p></td>
 <td><p>bit</p></td>
 <td></td>
-<td><p>Puede ser TRUE o NULL. Si es verdadero, aceptar y rechazar serán NULOs.</p></td>
+<td><p>Puede ser TRUE o NULL. Si es TRUE, Aceptar y Rechazar serán NULL.</p></td>
 </tr>
 </tbody>
 </table>

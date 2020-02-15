@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar el servidor de chat persistente'
+title: 'Lync Server 2013: configurar el servidor de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3762679b8926370b85e03d0ffac2981c5c7d13a3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 21c43bfaf3b40a746f09a000cb089509b589e39e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741350"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030814"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -41,7 +41,7 @@ Para crear una nueva configuración de chat persistente
 
     New-CsPersistentChatConfiguration -Identity <XdsIdentity> [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject>] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-Para obtener una configuración de chat persistente
+Para obtener la configuración de chat persistente
 
     Get-CsPersistentChatConfiguration [-LocalStore <Switch Parameter>] [-Identity <XdsIdentity>]
 
@@ -53,7 +53,7 @@ Para establecer la configuración de chat persistente
 
     Set-CsPersistentChatConfiguration [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject >] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-Para Lync Server 2013, el tráfico del servicio Web se admite en los servidores front-end de Lync Server 2013. Por lo tanto, la dirección de gcweb01 en el servidor de chat persistente no es necesaria. Todavía admitimos el acceso al servicio Web interno porque proporcionamos el servicio Web de carga/descarga de archivos solo al sitio Web *interno* (no al sitio Web *externo* para usuarios remotos).
+Para Lync Server 2013, el tráfico del servicio Web se admite en los servidores front-end de Lync Server 2013. Por lo tanto, la dirección gcweb01 del servidor de chat persistente no es necesaria. Aún admitimos el acceso a servicios web internos, ya que seguimos proporcionando el servicio de carga y descarga de archivos únicamente para el sitio web *interno*; (no para el sitio web *externo* para usuarios remotos).
 
 </div>
 

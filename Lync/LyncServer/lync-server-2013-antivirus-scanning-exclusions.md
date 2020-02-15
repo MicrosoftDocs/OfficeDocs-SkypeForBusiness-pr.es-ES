@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Exclusiones de la detección de virus'
+title: 'Lync Server 2013: exclusiones de detección de virus'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90847830d9f2586e0d111846f2867400c52fc940
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8faeba1d3b661110bcaf633d3c780dc2c2ad2b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737780"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029041"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Exclusiones de la detección de virus para Lync Server 2013
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Exclusiones de detección de virus para Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41737780"
 
 _**Última modificación del tema:** 2015-11-02_
 
-Para asegurarse de que el detector de virus no interfiere con el funcionamiento de Lync Server 2013, debe excluir los procesos y directorios específicos de cada rol de servidor o servidor de Lync Server 2013 en el que se ejecute un detector de virus. Es necesario excluir los siguientes procesos y directorios:
+Para asegurarse de que el detector de virus no interfiera con el funcionamiento de Lync Server 2013, debe excluir procesos y directorios específicos para cada rol de servidor o servidor de Lync Server 2013 en el que ejecute un detector de virus. Estos son los procesos y directorios en cuestión:
 
 <div>
 
 
 > [!NOTE]  
-> Las ubicaciones de carpetas y archivos que se enumeran a continuación son las ubicaciones predeterminadas de Lync Server 2013. Si no usó los valores predeterminados para algunas ubicaciones, excluya esas ubicaciones especificadas para su organización en lugar de las ubicaciones predeterminadas especificadas en este tema.
+> Las ubicaciones de archivos y carpetas que se enumeran a continuación son las ubicaciones predeterminadas de Lync Server 2013. En el caso de haya ubicaciones especificadas para la organización que no sean las predeterminadas, exclúyalas en lugar de las ubicaciones predeterminadas mencionadas en este tema.
 
 
 
@@ -53,67 +53,67 @@ Para asegurarse de que el detector de virus no interfiere con el funcionamiento 
 
 
 > [!IMPORTANT]  
-> Tenga en cuenta que es posible que algunos programas antivirus necesiten rutas de acceso absolutas (no relativas) para su lista de exclusión.
+> Tenga en cuenta que algunos programas antivirus pueden necesitar rutas de ruta absolutas, no relativas para la lista de exclusión.
 
 
 
 </div>
 
-  - Procesos de 2013 de Lync Server:
+  - Lync Server 2013 procesos de:
     
-      - ABServer.exe
+      - Abel. exe
     
       - AcpMcuSvc. exe
     
-      - ASMCUSvc.exe
+      - ASMCUSvc. exe
     
-      - AVMCUSvc.exe
+      - AVMCUSvc. exe
     
-      - ChannelService.exe
+      - ChannelService. exe
     
-      - ClsAgent.exe
+      - ClsAgent. exe
     
-      - ComplianceService.exe
+      - ComplianceService. exe
     
-      - DataMCUSvc.exe
+      - DataMCUSvc. exe
     
-      - DataProxy.exe
+      - Inproxy. exe
     
-      - FileTransferAgent.exe
+      - FileTransferAgent. exe
     
-      - IMMCUSvc.exe
+      - IMMCUSvc. exe
     
-      - LysSvc.exe
+      - LysSvc. exe
     
-      - MasterReplicatorAgent.exe
+      - MasterReplicatorAgent. exe
     
-      - MediaRelaySvc.exe
+      - MediaRelaySvc. exe
     
-      - MediationServerSvc.exe
+      - MediationServerSvc. exe
     
-      - MRASSvc.exe
+      - MRASSvc. exe
     
-      - OcsAppServerHost.exe
+      - OcsAppServerHost. exe
     
-      - ReplicaReplicatorAgent.exe
+      - ReplicaReplicatorAgent. exe
     
-      - ReplicationApp.exe
+      - ReplicationApp. exe
     
-      - RtcHost.exe
+      - RtcHost. exe
     
-      - RTCSrv.exe
+      - RTCSrv. exe
     
-      - XmppProxy.exe
+      - XmppProxy. exe
     
-      - XmppTGW.exe
+      - XmppTGW. exe
 
-  - Procesos del servicio de host de Windows Fabric:
+  - Procesos del servicio host de Windows Fabric:
     
-      - Fabric.exe
+      - Fabric. exe
     
-      - FabricDCA.exe
+      - FabricDCA. exe
     
-      - FabricHost.exe
+      - FabricHost. exe
 
   - Procesos de IIS:
     
@@ -121,15 +121,15 @@ Para asegurarse de que el detector de virus no interfiere con el funcionamiento 
     
       - % SystemRoot%\\SysWOW64\\Inetsrv\\. exe
 
-  - Procesos del back-end de SQL Server:
+  - Procesos back-end de SQL Server:
     
       - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11. MSSQLSERVER\\MSSQL\\Binn\\SQLServr. exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSRS11. \\Reporting\\Services\\ReportServer\\bin ReportingServicesService. exe
+      - % ProgramFiles%\\Microsoft SQL Server\\MSRS11. Papelera\\de Reporting Services\\ReportServer\\bin\\ReportingServicesService. exe
     
       - % ProgramFiles%\\Microsoft SQL Server\\MSAS11. Papelera\\\\OLAP\\de MSSQLServer MSMDSrv. exe
 
-  - Procesos del front-end de SQL Server:
+  - Procesos front-end de SQL Server:
     
       - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11. LYNCLOCAL\\MSSQL\\Binn\\SQLServr. exe
     
@@ -139,13 +139,13 @@ Para asegurarse de que el detector de virus no interfiere con el funcionamiento 
     
       - archivos de registro\\de\\% SystemRoot% system32
     
-      - archivos de registro\\de\\% SystemRoot% SysWow64
+      - % SystemRoot%\\archivos\\de registro SysWow64
     
-      - % SystemRoot%\\Microsoft.net\\del\\ensamblado GAC\_MSIL
+      - % SystemRoot%\\Microsoft.net\\\\ensamblado\_GAC MSIL
     
       - % programfiles%\\Microsoft Lync Server 2013
     
-      - Archivos\\\\comunes de% ProgramFiles% Microsoft Lync Server\\2013 nodo de monitor
+      - Archivos\\\\comunes de% ProgramFiles% nodo de monitor\\de Microsoft Lync Server 2013
     
       - Archivos\\comunes de\\% ProgramFiles% Microsoft Lync Server 2013
     
@@ -153,9 +153,9 @@ Para asegurarse de que el detector de virus no interfiere con el funcionamiento 
     
       - Almacén de recurso compartido de archivos (especificado en el Generador de topologías). Los almacenes de archivos se especifican en el Generador de topologías.
     
-      - Datos y archivos de registro de SQL Server, incluidos los relacionados con la base de datos back-end, el almacén de usuarios, el almacén de archivado, el almacén de supervisión y el almacén de aplicaciones. Las bases de datos y los archivos de registro se pueden especificar en el Generador de topologías. Para obtener detalles sobre los archivos de datos y de registro de cada base de datos, incluidos los nombres predeterminados, consulte ubicación de los [archivos de registro y datos de SQL Server para Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) en la documentación de implementación.
+      - Datos y archivos de registro de SQL Server, incluidos los relativos a la base de datos back-end, el almacén de usuarios, el almacén de archivado, el almacén de supervisión y el almacén de aplicaciones. Las bases de datos y los archivos de registro se pueden especificar en el Generador de topologías. Para obtener información detallada sobre los archivos de datos y de registro de cada base de datos, incluidos los nombres predeterminados, consulte [SQL Server Data and log file Placement for Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) en la documentación referente a la implementación.
     
-      - Los datos y archivos de registro de SQL Server, incluidos los de la base de datos front-end, la tienda Lync y la tienda RtcDatabase. Normalmente se encuentran debajo de% UnidadLocal\\% CSData.
+      - Archivos de registro y datos de SQL Server, incluidos los de la base de datos front-end, la tienda Lync y el almacén RtcDatabase. Normalmente se encuentran en% UnidadLocal%\\CSData.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Colocación de servidores compatibles en componentes perimetrales'
+title: 'Lync Server 2013: combinación de servidores compatibles con componentes perimetrales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc12e442be98ba1fd962634460200ce749aca3d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e52d1c630bba8c93193c2e309d4d3299f45a6388
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731670"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029791"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-server-collocation-for-edge-components-in-lync-server-2013"></a>Colocación de servidores compatibles en componentes perimetrales en Lync Server 2013
+# <a name="supported-server-collocation-for-edge-components-in-lync-server-2013"></a>Combinación de servidor compatibles para componentes perimetrales en Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41731670"
 
 _**Última modificación del tema:** 2012-09-08_
 
-El servicio perimetral de acceso, el servicio perimetral de conferencia Web, el servicio perimetral a/V y el servicio Proxy XMPP se colocan en los servidores perimetrales. Los siguientes servidores proporcionan funciones necesarias para el acceso de usuarios externos y se deben implementar como servidores dedicados:
+El servicio perimetral de acceso, el servicio perimetral de conferencia Web, el servicio perimetral A/V y el servicio Proxy XMPP se colocan en los servidores perimetrales. Los siguientes componentes perimetrales no se pueden colocar juntos ni con ningún otro rol de servidor de fea-edge-server-role-plural:
 
   - Servidor perimetral
 
-  - Director (opcional)
+  - Director (Optativo)
 
   - Proxy inverso
 
@@ -49,7 +49,7 @@ El servicio perimetral de acceso, el servicio perimetral de conferencia Web, el 
 
 
 > [!IMPORTANT]  
-> El proxy inverso no necesita estar dedicado únicamente a servir de Lync Server 2013. Por ejemplo, puede proporcionar servicios para publicar los servicios Web de Lync Server y proporcionar de forma simultánea un sitio Web publicado para otro sitio web que no tenga ningún fin en Lync Server. Si ya tiene un servidor proxy inverso en la red perimetral para admitir otros servicios, puede usarlo para Lync Server 2013.
+> No es necesario dedicar el proxy inverso para servir solo Lync Server 2013. Por ejemplo, puede proporcionar servicios para publicar los servicios Web de Lync Server y proporcionar a la vez un sitio Web publicado para otro sitio web que no tenga ningún uso en Lync Server. Si ya tiene un servidor de proxy inverso en la red perimetral para admitir otros servicios, puede usarlo para Lync Server 2013.
 
 
 

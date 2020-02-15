@@ -12,16 +12,16 @@ ms:contentKeyID: 48184280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26f825a33eeb90817685c1694a5c6579110ffcd6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e74cf4e763272f2309e358120abb12b0424aa40b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762148"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -62,60 +62,60 @@ En la siguiente tabla se muestran los filtros que se pueden usar con el informe 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
-<td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:</p>
-<p>7/7/2012 1:00 P.M.</p>
-<p>Si no escribe una hora de inicio, el informe se iniciará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<td><p><strong>From</strong></p></td>
+<td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</p>
+<p>7/7/2012 1:00 pm</p>
+<p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
-<p>Las semanas siempre van del domingo al sábado.</p></td>
+<p>Las semanas siempre empiezan en domingo y terminan en sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Hasta</strong></p></td>
-<td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización como se indica a continuación:</p>
-<p>7/7/2012 1:00 P.M.</p>
-<p>Si no escribe una hora de finalización, el informe finalizará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:</p>
+<p>7/7/2012 1:00 PM</p>
+<p>Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
 <p>Las semanas siempre van del domingo al sábado.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Intervalo</strong></p></td>
+<td><p><strong>Intervalo de</strong></p></td>
 <td><p>Intervalo de tiempo. Seleccione una de las siguientes opciones:</p>
 <ul>
 <li><p>Cada hora (se puede ver un máximo de 25 horas)</p></li>
 <li><p>Cada día (se puede ver un máximo de 31 días)</p></li>
 <li><p>Cada semana (se puede ver un máximo de 12 semanas)</p></li>
 </ul>
-<p>Si las fechas de inicio y finalización superan la cantidad máxima de valores permitidos para el intervalo seleccionado, solo se mostrará la cantidad máxima de valores (comenzando en la fecha de inicio). Por ejemplo, si selecciona el intervalo Cada día con una fecha de inicio del 01/01/2011 y una fecha de finalización del 28/02/2011, aparecerán los datos correspondientes a los días entre el 01/08/2011 a las 12:00 horas y el 01/09/2011 a las 12:00 horas (es decir, datos para un total de 31 días).</p></td>
+<p>Si las fecha de inicio y finalización superan la cantidad máxima de valores permitidos para el intervalo seleccionado, solo se mostrará la cantidad máxima de valores (comenzando por la fecha de inicio). Por ejemplo, si selecciona el intervalo Cada día con una fecha de inicio 1/1/2011 y una fecha de finalización 28/2/2011, se mostrarán los datos correspondientes a los días entre el 1/8/2011 a las 12:00 horas y el 1/9/2011 a las 12:00 horas (es decir, datos para un total de 31 días).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tipo de acceso</strong></p></td>
 <td><p>Indica si el cliente había iniciado sesión en la red interna o en la externa cuando se realizó la llamada. Seleccione una de las siguientes opciones:</p>
 <ul>
-<li><p>[Todas]</p></li>
+<li><p>Todos</p></li>
 <li><p>Interno</p></li>
-<li><p>Externo</p></li>
+<li><p>External</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Tipo de red</strong></p></td>
 <td><p>Indica el tipo de red al que estaba conectado el cliente cuando realizó la llamada. Seleccione una de las siguientes opciones:</p>
 <ul>
-<li><p>[Todas]</p></li>
+<li><p>Todos</p></li>
 <li><p>Cableada</p></li>
-<li><p>Inalámbrica</p></li>
+<li><p>Wireless</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>VPN</strong></p></td>
 <td><p>Indica si un cliente externo estaba utilizando una conexión de red privada virtual (VPN) cuando se realizó la llamada. Seleccione una de las siguientes opciones:</p>
 <ul>
-<li><p>[Todas]</p></li>
+<li><p>Todos</p></li>
 <li><p>VPN</p></li>
-<li><p>Distinto de VPN</p></li>
+<li><p>No VPN</p></li>
 </ul></td>
 </tr>
 </tbody>

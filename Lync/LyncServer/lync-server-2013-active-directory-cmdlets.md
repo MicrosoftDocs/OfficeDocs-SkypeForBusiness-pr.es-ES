@@ -12,16 +12,16 @@ ms:contentKeyID: 48183769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f77009f20cfbd3e76f5cfc3786bcd9fa9ba2be9b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 981d45cbfbb184f802c0d75973da56845338d06a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730510"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008592"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,43 +37,43 @@ ms.locfileid: "41730510"
 
 _**Última modificación del tema:** 2012-06-20_
 
-Los cmdlets de Active Directory suelen usarse en el programa de instalación y rara vez lo llama directamente un administrador. Sin embargo, los administradores pueden usar estos cmdlets para preparar (o deshacer la preparación) de un dominio o bosque para Microsoft Lync Server 2013 e instalar los archivos de esquema de Active Directory necesarios.
+El programa de instalación suele usar los cmdlets de Active Directory; los administradores los usan directamente muy pocas veces. Sin embargo, los administradores pueden usar estos cmdlets para preparar (o deshacer la preparación) un dominio o bosque para Microsoft Lync Server 2013 e instalar los archivos de esquema de Active Directory necesarios.
 
 <div>
 
 ## <a name="active-directory-cmdlets"></a>Cmdlets de Active Directory
 
-A continuación se muestra una lista de cmdlets que se relacionan directamente con la administración de la configuración de Active Directory de Lync Server 2013:
+A continuación se muestra una lista de cmdlets directamente relacionados con la administración de la configuración de Active Directory de Lync Server 2013:
 
 **Active Directory**
 
   - <span></span>  
-    [Disable-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398785(v=OCS.15))
+    [Disable-CsAdDomain](https://technet.microsoft.com/library/Gg398785(v=OCS.15))
 
   - <span></span>  
-    [Enable-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg412764(v=OCS.15))
+    [Enable-CsAdDomain](https://technet.microsoft.com/library/Gg412764(v=OCS.15))
 
   - <span></span>  
-    [Get-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398453(v=OCS.15))
+    [Get-CsAdDomain](https://technet.microsoft.com/library/Gg398453(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Disable-CsAdForest](https://technet.microsoft.com/en-us/library/Gg398122(v=OCS.15))
+    [Disable-CsAdForest](https://technet.microsoft.com/library/Gg398122(v=OCS.15))
 
   - <span></span>  
-    [Enable-CsAdForest](https://technet.microsoft.com/en-us/library/Gg425713(v=OCS.15))
+    [Enable-CsAdForest](https://technet.microsoft.com/library/Gg425713(v=OCS.15))
 
   - <span></span>  
-    [Get-CsAdForest](https://technet.microsoft.com/en-us/library/Gg412995(v=OCS.15))
+    [Get-CsAdForest](https://technet.microsoft.com/library/Gg412995(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsAdServerSchema](https://technet.microsoft.com/en-us/library/Gg413070(v=OCS.15))
+    [Get-CsAdServerSchema](https://technet.microsoft.com/library/Gg413070(v=OCS.15))
 
   - <span></span>  
-    [Install-CsAdServerSchema](https://technet.microsoft.com/en-us/library/Gg398681(v=OCS.15))
+    [Install-CsAdServerSchema](https://technet.microsoft.com/library/Gg398681(v=OCS.15))
 
 </div>
 

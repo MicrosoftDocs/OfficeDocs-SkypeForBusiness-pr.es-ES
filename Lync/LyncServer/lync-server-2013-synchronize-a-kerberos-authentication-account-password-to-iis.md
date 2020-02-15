@@ -12,16 +12,16 @@ ms:contentKeyID: 48183296
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86e71f87c20064e542aa6a8db1d9b38048c5f736
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 811134697ea04f1dab3637e648ff89455fca07d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731660"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029751"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41731660"
 
 _**Última modificación del tema:** 2010-11-08_
 
-Para completar correctamente este procedimiento, debe haber iniciado sesión como un usuario que sea miembro del grupo RTCUniversalServerAdmins.
+Para completar con éxito este procedimiento, debe iniciar sesión como usuario miembro del grupo RTCUniversalServerAdmins.
 
-En un sitio, los servidores front-end, los servidores Standard Edition y los directores pueden usar una cuenta de autenticación Kerberos para autenticar solicitudes en el servicio de servicios Web. En este procedimiento se busca cada servidor que ejecuta servicios web en un sitio al que se le ha asignado una cuenta de Kerberos y se actualizan los valores de configuración de servicios de Internet Information Server (IIS) para usar la cuenta de Kerberos. Para obtener más información, vea [establecer una contraseña de cuenta de autenticación Kerberos en un servidor de Lync server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md).
+En un sitio, los servidores front-end, los servidores Standard Edition y los directores pueden usar una cuenta de autenticación Kerberos con fines de autenticación de solicitudes al servicio de servicios Web. Este procedimiento busca cada servidor que ejecuta servicios web en un sitio al que se le ha asignado una cuenta Kerberos y actualiza las opciones de configuración de Internet Information Services (IIS) para que usen la cuenta Kerberos. Para obtener más información, consulte [establecer una contraseña de cuenta de autenticación Kerberos en un servidor en Lync server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md).
 
 <div>
 
 ## <a name="to-set-and-configure-a-kerberos-authentication-account-password"></a>Para establecer y configurar una contraseña de cuenta de autenticación Kerberos
 
-1.  Inicie sesión en un equipo de origen (como fe01.contoso.com) como miembro del grupo RTCUniversalServerAdmins.
+1.  Inicie sesión en un equipo de origen (como, por ejemplo, fe01.contoso.com) como miembro del grupo RTCUniversalServerAdmins.
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
 3.  Desde la línea de comandos del shell de administración de Lync Server, ejecute los dos comandos siguientes:
     
@@ -61,7 +61,7 @@ En un sitio, los servidores front-end, los servidores Standard Edition y los dir
     
 
     > [!IMPORTANT]
-    > El nombre del equipo de origen y del equipo de destino debe ser un nombre de dominio completo (FQDN) del servidor. No puede usar el FQDN del grupo de servidores a menos que el nombre de la sección sea el mismo que el nombre del equipo que está usando como equipo de origen o equipo de destino.
+    > El nombre del equipo de origen y del equipo de destino deben ser un nombre de dominio completo (FQDN) del servidor. No puede usar el FQDN del grupo de servidores a menos que el nombre del mismo sea igual que el nombre del equipo que está usando como equipo de origen o equipo de destino.
 
     
     </div>

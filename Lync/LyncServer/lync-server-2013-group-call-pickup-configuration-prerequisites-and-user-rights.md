@@ -1,5 +1,5 @@
 ---
-title: Requisitos previos y derechos de usuario para la configuración de la llamada grupal
+title: Requisitos previos y derechos de usuario para la configuración de llamada de grupo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ed2a44ccd1730de2ebede4b08c1a4d3d7e0da9d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d1f5387ac7c67e01e3c4473367e1256cf07181a3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763884"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030403"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="group-call-pickup-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>Requisitos previos y derechos de usuario para la configuración de la llamada grupal en Lync Server 2013
+# <a name="group-call-pickup-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>Requisitos previos de configuración de llamada de grupo y derechos de usuario en Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41763884"
 
 _**Última modificación del tema:** 2013-01-30_
 
-La recogida de llamada grupal es una característica de administración de llamadas que se instala de forma predeterminada al implementar la telefonía IP empresarial. En este tema se describe lo que debe tener en cuenta antes de poder configurar la recogida de llamadas grupales y los derechos de usuario que necesita para realizar las tareas de configuración.
+La recogida de llamadas grupales es una característica de administración de llamadas que se instala de forma predeterminada al implementar la telefonía IP empresarial. En este tema se describe lo que necesita tener en su ubicación antes de poder configurar la atención de llamadas grupales y los derechos de usuario necesarios para realizar tareas de configuración.
 
-En esta sección se presupone que ha leído la documentación de planificación relacionada con la recogida de llamadas grupales (consulte [planificación de la recogida de llamadas grupales en Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)).
+En esta sección se da por sentado que ha leído la documentación de planeación relacionada con la recogida de llamadas de grupo (consulte [Planning for Group Call pickup in Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)).
 
 <div>
 
-## <a name="group-call-pickup-configuration-prerequisites"></a>Requisitos previos de configuración de la llamada grupal
+## <a name="group-call-pickup-configuration-prerequisites"></a>Requisitos previos de configuración de llamada de grupo
 
-La recogida de llamadas grupales requiere los siguientes componentes:
+La recogida de llamadas de grupo requiere los siguientes componentes:
 
-  - Servicio de aplicaciones
+  - Servicio de aplicación
 
-  - Aplicación de estacionamiento de llamadas
+  - Aplicación Estacionamiento de llamadas
 
 Estos componentes se instalan automáticamente al implementar la telefonía IP empresarial.
 
@@ -57,31 +57,31 @@ Estos componentes se instalan automáticamente al implementar la telefonía IP e
 
 <div>
 
-## <a name="group-call-pickup-configuration-user-rights"></a>Configuración de la recogida de llamada grupal derechos de usuario
+## <a name="group-call-pickup-configuration-user-rights"></a>Derechos de usuario de configuración de llamada de grupo
 
-Use las siguientes herramientas administrativas para configurar la recogida de llamadas grupales:
+Puede usar las siguientes herramientas administrativas para configurar la recogida de llamadas de Grupo:
 
   - Shell de administración de Communications Server
 
   - Herramienta del kit de recursos de SEFAUtil
 
-Use el shell de administración de Lync Server para crear y administrar grupos de recogida de llamadas en la tabla de llamadas en órbita de estacionamiento. Use la herramienta del kit de recursos de SEFAUtil para asignar un grupo de recogida de llamadas y habilitar la recogida de llamadas grupales para los usuarios o para deshabilitar la recogida de llamadas grupales para los usuarios.
+Use el shell de administración de Lync Server para crear y administrar grupos de recogida de llamadas en la tabla de órbitas de estacionamiento de llamadas. Use la herramienta del kit de recursos de SEFAUtil para asignar un grupo de atención de llamadas y habilitar la atención de llamadas grupales para los usuarios o para deshabilitar la atención de llamadas grupales para los usuarios.
 
 La configuración de la recogida de llamadas de grupo requiere cualquiera de los siguientes roles administrativos, en función de la tarea:
 
-  - **CsVoiceAdministrator:** Esta función de administrador puede crear, configurar y administrar todas las configuraciones y directivas relacionadas con las voz.
+  - **CsVoiceAdministrator:** Este rol de administrador puede crear, configurar y administrar todas las configuraciones y directivas relacionadas con la voz.
 
-  - **CsUserAdministrator:** Este rol de administrador puede habilitar la recogida de llamadas grupales para los usuarios. Esta función de administrador también tiene acceso de vista de solo lectura a todas las configuraciones de voz.
+  - **CsUserAdministrator:** Este rol de administrador puede habilitar la recepción de llamadas grupales para los usuarios. De igual modo, permite el acceso de vista de solo lectura a todas las configuraciones de voz.
 
-  - **CsServerAdministrator:** Esta función de administrador puede administrar, supervisar y solucionar problemas de servidores y servicios.
+  - **CsServerAdministrator:** Este rol de administrador puede administrar, supervisar y solucionar problemas de servidores y servicios.
 
-  - **CsAdministrator:** Esta función de administrador puede realizar todas las tareas de CsVoiceAdministrator, CsServerAdministrator y CsUserAdministrator.
+  - **CsAdministrator:** Este rol de administrador puede realizar todas las tareas de CsVoiceAdministrator, CsServerAdministrator y CsUserAdministrator.
 
 <div>
 
 
 > [!NOTE]
-> Para obtener más información sobre los derechos administrativos, consulte <A href="lync-server-2013-planning-for-role-based-access-control.md">planificación de control de acceso basado en roles en Lync Server 2013</A> en la documentación de planeación.
+> Para obtener más información sobre los derechos administrativos, consulte <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> en la documentación referente a la planeación.
 
 
 
@@ -94,10 +94,10 @@ La configuración de la recogida de llamadas de grupo requiere cualquiera de los
 ## <a name="see-also"></a>Vea también
 
 
-[Implementación de telefonía IP empresarial en Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  
+[Implementar la telefonía IP empresarial en Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  
 
 
-[Planeamiento de las características de administración de llamadas en Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)  
+[Planeación de características de administración de llamadas en Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)  
   
 
 </div>

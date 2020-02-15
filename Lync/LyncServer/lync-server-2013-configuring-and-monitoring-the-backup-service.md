@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar y supervisar el servicio de copia de seguridad'
+title: 'Lync Server 2013: configuración y supervisión del servicio de copia de seguridad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185365
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9992f0466ceb2e01fa54cb2b2d511eeb96af755a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5f0fc9d65f1879c453c01813e09ad2ca0e8a99c2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726540"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029671"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-and-monitoring-the-backup-service-in-lync-server-2013"></a>Configurar y supervisar el servicio de copia de seguridad en Lync Server 2013
+# <a name="configuring-and-monitoring-the-backup-service-in-lync-server-2013"></a>Configuración y supervisión del servicio de copia de seguridad en Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41726540"
 
 _**Última modificación del tema:** 2012-11-01_
 
-Puede usar los siguientes comandos de Shell de administración de Lync Server para configurar y supervisar el servicio de copia de seguridad.
+Puede usar los siguientes comandos del shell de administración de Lync Server para configurar y supervisar el servicio de copia de seguridad.
 
 <div>
 
 
 > [!NOTE]  
-> El grupo RTCUniversalServerAdmins es el único grupo que tiene permisos para ejecutar <STRONG>Get-CsBackupServiceStatus</STRONG> de forma predeterminada. Para usar este cmdlet, inicia sesión como miembro de este grupo. O bien, puede conceder acceso a este comando a otros grupos (por ejemplo, CSAdministrator) mediante el cmdlet <STRONG>set-CsBackupServiceConfiguration</STRONG> .
+> El grupo RTCUniversalServerAdmins es el único grupo que tiene permisos para ejecutar <STRONG>Get-CsBackupServiceStatus</STRONG> de forma predeterminada. Para usar este cmdlet, inicie sesión como miembro de este grupo. O bien, puede conceder acceso a este comando a otros grupos (por ejemplo, CSAdministrator) mediante el uso del cmdlet <STRONG>Set-CsBackupServiceConfiguration</STRONG>.
 
 
 
@@ -69,7 +69,7 @@ Ejecute el siguiente cmdlet:
 
     Set-CsBackupServiceConfiguration -SyncInterval interval
 
-Por ejemplo, la siguiente establece el intervalo en tres minutos.
+Por ejemplo, lo siguiente establece el intervalo en tres minutos.
 
     Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
 
@@ -77,7 +77,7 @@ Por ejemplo, la siguiente establece el intervalo en tres minutos.
 
 
 > [!IMPORTANT]  
-> Aunque puede usar este cmdlet para cambiar el intervalo de sincronización predeterminado del servicio de copia de seguridad, no debe hacerlo a menos que sea absolutamente necesario, ya que el intervalo de sincronización tiene un gran impacto en el rendimiento del servicio de copia de seguridad y el objetivo de punto de recuperación (RPO).
+> Aunque puede usar este cmdlet para cambiar el intervalo de sincronización predeterminado para el servicio de copia de seguridad, no debe hacerlo a menos que sea absolutamente necesario, puesto que el intervalo de sincronización tiene un gran impacto en el rendimiento del servicio de copia de seguridad y en el objetivo del punto de recuperación (RPO).
 
 
 
@@ -87,7 +87,7 @@ Por ejemplo, la siguiente establece el intervalo en tres minutos.
 
 <div>
 
-## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>Para obtener el estado del servicio de copia de seguridad de un grupo en particular
+## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>Para obtener el estado del servicio de copia de seguridad para un determinado grupo de servidores
 
 Ejecute el siguiente cmdlet:
 
@@ -97,7 +97,7 @@ Ejecute el siguiente cmdlet:
 
 
 > [!NOTE]  
-> El estado de sincronización del servicio de copia de seguridad se define de forma unidireccional desde un grupo (P1) a su grupo de copia de seguridad (P2). El estado de sincronización de P1 a P2 puede ser diferente del de P2 a P1. Para P1 a P2, el servicio de copia de seguridad se encuentra en estado "estable" si todos los cambios realizados en P1 se replican por completo a P2 dentro del intervalo de sincronización. Está en el estado "final" si no hay más cambios para sincronizar de P1 a P2. Ambos Estados indican una instantánea del servicio de copia de seguridad en el momento en que se ejecuta el cmdlet. No implica que el estado devuelto permanecerá como está después. En concreto, el estado "final" seguirá teniendo solo si P1 no genera ningún cambio después de que se ejecute el cmdlet. Esto es cierto en el caso de que se produzca un error P1 a través de la P2 después de poner P1 en modo de solo lectura como parte de la lógica de ejecución <STRONG>Invoke-CsPoolfailover</STRONG> .
+> El estado de la sincronización del servicio de copia de seguridad se define unidireccionalmente desde un grupo de servidores (P1) hasta su grupo de servidores de copia de seguridad (P2). El estado de sincronización de P1 a P2 puede ser diferente que el de P2 a P1. Para P1 a P2, el servicio de copia de seguridad está en un estado "constante" si todos los cambios realizados en P1 se replican completamente sobre P2 dentro del intervalo de sincronización. Está en el estado "final" si no hay ningún cambio más que se vaya a sincronizar de P1 a P2. Ambos estados indican una instantánea del servicio de copia de seguridad en el momento en que se ejecuta el cmdlet. Esto no implica que el estado devuelto permanezca tal cual después. En particular, el estado "final" continuará manteniéndose solo si P1 no genera ningún cambio después de que se ejecute el cmdlet. Esto es cierto en caso de que se produzca un error de P1 sobre P2 después de que P1 se sitúe en el modo de solo lectura como parte de la lógica de ejecución de <STRONG>Invoke-CsPoolfailover</STRONG>.
 
 
 
@@ -107,7 +107,7 @@ Ejecute el siguiente cmdlet:
 
 <div>
 
-## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>Para obtener información sobre la relación de copia de seguridad de un grupo de servidores determinado
+## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>Para obtener información acerca de la relación de copia de seguridad de un determinado grupo de servidores
 
 Ejecute el siguiente cmdlet:
 
@@ -117,7 +117,7 @@ Ejecute el siguiente cmdlet:
 
 <div>
 
-## <a name="to-force-a-backup-service-sync"></a>Para forzar la sincronización del servicio de copia de seguridad
+## <a name="to-force-a-backup-service-sync"></a>Para forzar una sincronización del servicio de copia de seguridad
 
 Ejecute el siguiente cmdlet:
 

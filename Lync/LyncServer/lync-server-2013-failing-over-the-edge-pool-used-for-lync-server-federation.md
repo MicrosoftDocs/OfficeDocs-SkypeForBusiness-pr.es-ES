@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Conmutación por error para el grupo de servidores perimetrales usado para la federación Lync Server'
+title: 'Lync Server 2013: conmutación por error del grupo de servidores perimetrales usado para la Federación de Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f144def3d3a8df9cc63221342a85666eb3c28913
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f884f9e2ee822e99ebb17bd4b17717d1e147bf95
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765198"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030433"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-the-edge-pool-used-for-lync-server-federation-in-lync-server-2013"></a>Conmutación por error para el grupo de servidores perimetrales usado para la federación Lync Server en Lync Server 2013
+# <a name="failing-over-the-edge-pool-used-for-lync-server-federation-in-lync-server-2013"></a>Conmutación por error del grupo de servidores perimetrales usado para la Federación de Lync Server en Lync Server 2013
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41765198"
 
 _**Última modificación del tema:** 2012-09-17_
 
-Si el grupo perimetral donde tiene la Federación de Lync Server configurada, debe cambiar la Federación para usar un grupo de borde diferente para que la Federación funcione.
+Si el grupo de servidores perimetrales en el que se ha configurado la Federación de Lync Server está inactivo, debe cambiar la Federación para usar un grupo perimetral diferente para que la Federación funcione.
 
 <div>
 
-## <a name="failing-over-the-edge-pool-used-for-lync-server-federation"></a>Conmutación por error del grupo perimetral usado para la Federación de Lync Server
+## <a name="failing-over-the-edge-pool-used-for-lync-server-federation"></a>Conmutación por error del grupo de servidores perimetrales usado para la Federación de Lync Server
 
-1.  En un servidor front-end, abra Topology Builder. Expanda **agrupaciones perimetrales**y haga clic con el botón secundario en el servidor perimetral o en el grupo de servidores perimetrales actualmente configurados para la Federación. Seleccione **Editar propiedades**.
+1.  En un servidor front-end, abra el Generador de topologías. Expanda **Grupos de servidores perimetrales** y después haga clic con el botón secundario en el servidor perimetral o en el grupo de servidores perimetrales que está configurado actualmente para la federación. Seleccione **Editar propiedades**.
 
-2.  En **Editar propiedades** , en **General**, desactive **Habilitar Federación para este grupo perimetral (puerto 5061)**. Haga clic en **Aceptar**.
+2.  En **Editar propiedades**, en la pestaña **General**, desactive **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)**. Haga clic en **Aceptar**.
 
-3.  Expanda **agrupaciones perimetrales**y haga clic con el botón secundario en el grupo de servidores perimetrales o perimetrales que desea usar para la Federación. Seleccione **Editar propiedades**.
+3.  Expanda grupos de servidores **perimetrales**y haga clic con el botón secundario en el servidor perimetral o en el grupo de servidores perimetrales que ahora desea usar para la Federación. Seleccione **Editar propiedades**.
 
-4.  En **propiedades de edición** , en **General**, seleccione **Habilitar Federación para este grupo perimetral (puerto 5061)**. Haga clic en **Aceptar**.
+4.  En **Editar propiedades**, en **General**, seleccione **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)**. Haga clic en **Aceptar**.
 
-5.  Haga clic en **acción**, seleccione **topología**, seleccione **publicar**. Cuando se le solicite al **publicar la topología**, haga clic en **siguiente**. Una vez finalizada la publicación, haga clic en **Finalizar**.
+5.  Haga clic en **Acción**, y seleccione sucesivamente **Topología** y **Publicar**. Cuando el sistema se lo solicite, en **Publicar la topología**, haga clic en **Siguiente**. Cuando haya acabado la publicación, haga clic en **Finalizar**.
 
-6.  En el servidor perimetral, abra el Asistente para la implementación de Lync Server. Haga clic en **instalar o actualizar el sistema Lync Server**y, a continuación, haga clic en **configurar o quitar los componentes de Lync Server**. **Vuelva a**hacer clic en ejecutar.
+6.  En el servidor perimetral, abra el asistente para la implementación de Lync Server. Haga clic en **Instalar o actualizar el sistema Lync Server** y después haga clic en **Instalar o eliminar componentes de Lync Server**. Haga clic en **Ejecutar de nuevo**.
 
-7.  En instalación de los componentes de Lync Server, haga clic en **siguiente**. La pantalla resumen mostrará las acciones a medida que se ejecutan. Una vez que haya finalizado la implementación, haga clic en **Ver registro** para ver los archivos de registro disponibles. Haga clic en **Finalizar** para completar la implementación.
+7.  En Instalar componentes de Lync Server, haga clic en **Siguiente**. En la pantalla de resumen aparecerán las acciones tal como se ejecutan. Cuando haya acabado la implementación, haga clic en **Ver registro** para ver los archivos de registro disponibles. Haga clic en **Finalizar** para completar la implementación.
     
-    Si el sitio que contiene el grupo perimetral con error contiene servidores front-end que aún se están ejecutando, debe actualizar el servicio de conferencias web y el servicio de conferencia A/V en estos grupos front-end para usar un grupo perimetral en un sitio remoto que aún se esté ejecutando. Para obtener más información, vea [cambiar el grupo perimetral asociado a un grupo de servidores front-end en Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md).
+    Si el sitio que contiene el grupo de servidores perimetrales con error contiene servidores front-end que aún se están ejecutando, debe actualizar el servicio de conferencia web y el servicio de conferencia A/V en estos grupos de servidores front-end para usar un grupo de servidores perimetrales en un sitio remoto que todavía se esté ejecutando. Para obtener más información, consulte [cambiar el grupo de servidores perimetrales asociado a un grupo de servidores front-end en Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md).
 
 </div>
 
@@ -66,8 +66,8 @@ Si el grupo perimetral donde tiene la Federación de Lync Server configurada, de
 ## <a name="see-also"></a>Vea también
 
 
-[Conmutación por error para el grupo de servidores perimetrales para la federación XMPP en Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)  
-[Conmutación por recuperación para el grupo de servidores perimetrales que se usa para la federación Lync Server o la federación XMPP en Lync Server 2013](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)  
+[Conmutación por error del grupo de servidores perimetrales usado para la Federación XMPP en Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)  
+[Conmutación por recuperación del grupo de servidores perimetrales usado para la Federación de Lync Server o la Federación XMPP en Lync Server 2013](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)  
 
 
 [Recuperación ante desastres del servidor perimetral en Lync Server 2013](lync-server-2013-edge-server-disaster-recovery.md)  

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185157
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2771a7a8b29cf410f9da5155e8f379bd7efe0e4e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f6eec7971665aa8e4494ca4509c92c406458cb08
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766101"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41766101"
 
 _**Última modificación del tema:** 2012-09-24_
 
-El procedimiento de migración recomendado y admitido para Lync Server 2013 es el procedimiento de migración en paralelo. En este tema se describe por qué debería usar la migración en paralelo y también se incluye información sobre la coexistencia.
+El procedimiento de migración recomendado y admitido para Lync Server 2013 es el procedimiento de migración en paralelo. En este tema se describe por qué debe usar la migración en paralelo y también se incluye información sobre la coexistencia.
 
 <div>
 
 ## <a name="side-by-side-migration"></a>Migración en paralelo
 
-En casi todas las migraciones, debe usar la ruta de migración en paralelo. En una migración en paralelo, se implementa un nuevo servidor con Lync Server 2013 junto con un servidor correspondiente que ejecuta Office Communications Server 2007 R2 y, a continuación, se transfieren las operaciones al nuevo servidor. Si es necesario revertir a Office Communications Server 2007 R2, solo tiene que desplazar las operaciones a los servidores originales. Tenga en cuenta que, en este caso, las reuniones nuevas programadas con clientes actualizados no funcionarán y los clientes también necesitarán cambiar de versión.
+En casi todas las migraciones se debe usar la vía de la migración en paralelo. En una migración en paralelo, se implementa un nuevo servidor con Lync Server 2013 junto con un servidor correspondiente que ejecuta Office Communications Server 2007 R2 y, a continuación, se transfieren las operaciones al nuevo servidor. Si es necesario revertir a Office Communications Server 2007 R2, solo tiene que desplazar las operaciones de vuelta a los servidores originales. No olvide que, en esta situación, cualquier reunión que haya programada con clientes actualizados no funcionará, y los clientes también deberán cambiarse a la versión anterior.
 
 </div>
 
 <div>
 
-## <a name="coexistence-testing"></a>Pruebas de coexistencia
+## <a name="coexistence-testing"></a>Prueba de coexistencia
 
-Después de implementar Lync Server 2013 en paralelo con Office Communications Server 2007 R2, la topología representa un estado de prueba de coexistencia de Lync Server 2013 y Office Communications Server 2007 R2. En este estado, es importante probar y garantizar que se inician los servicios, que cada sitio se puede administrar y que los clientes pueden comunicarse con los usuarios actuales y heredados. Antes de la migración de todos los usuarios, es muy importante comprender el estado de cada implementación y asegurarse de que cada implementación es funcional y funciona correctamente. Por lo general, la fase de pruebas de coexistencia se produce durante las pruebas piloto de Lync Server 2013. Los usuarios heredados se mueven a Lync Server 2013 durante un período de tiempo para garantizar que la compatibilidad de aplicaciones y las características y funciones funcionen correctamente. Después de las pruebas piloto, los usuarios y las aplicaciones se mueven a la versión de producción de Lync Server 2013, y se retirarán las aplicaciones y los grupos heredados de Office Communications Server 2007 R2.
+Después de implementar Lync Server 2013 en paralelo con Office Communications Server 2007 R2, la topología representa un estado de prueba de coexistencia de Lync Server 2013 y Office Communications Server 2007 R2. En este estado, es importante probar y garantizar que los servicios se inicien, que se puedan administrar todos los sitios y que los clientes puedan comunicarse con los usuarios actuales y heredados. Antes de la migración de todos los usuarios, es fundamental conocer el estado de cada implementación y asegurarse de que cada una de ellas funciona como debe. Normalmente, la fase de pruebas de coexistencia existe en las pruebas piloto de Lync Server 2013. Los usuarios heredados se mueven a Lync Server 2013 durante un período de tiempo para garantizar que la compatibilidad de aplicaciones y las características y funciones funcionan correctamente. Después de las pruebas piloto, los usuarios y las aplicaciones se mueven a la versión de producción de Lync Server 2013 y se retiran las aplicaciones y los grupos de servidores heredados de Office Communications Server 2007 R2.
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80537aabe132f1b83714d42244409224ca53f72d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: deaf2b1b1962e973fe84bd6db7b8b43373bfcba4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756294"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008742"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41756294"
 
 _**Última modificación del tema:** 2012-11-01_
 
-Siga estos pasos si desea crear una nueva Directiva de voz. Si desea editar una directiva de voz, consulte [modificar una directiva de voz y configurar los registros de uso de RTC en Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md) para el procedimiento.
+Siga estos pasos para crear una nueva directiva de voz. Si desea editar una directiva de voz, consulte [modificar una directiva de voz y configurar los registros de uso de RTC en Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md) para el procedimiento.
 
 <div>
 
 
 > [!NOTE]  
-> Cada directiva de voz debe tener al menos un registro de uso de red de telefonía pública conmutada (RTC) asociado. Para ver una lista de todos los registros de uso de RTC disponibles en su implementación de telefonía IP empresarial y ver sus propiedades, consulte <A href="lync-server-2013-view-pstn-usage-records.md">ver los registros de uso de RTC en Lync Server 2013</A>.
+> Cada directiva de voz debe tener al menos un registro de uso de RTC asociado. Para ver una lista de todos los registros de uso de RTC disponibles en la implementación de telefonía IP empresarial y ver sus propiedades, consulte <A href="lync-server-2013-view-pstn-usage-records.md">Ver registros de uso de RTC en Lync Server 2013</A>.
 
 
 
@@ -53,9 +53,9 @@ Siga estos pasos si desea crear una nueva Directiva de voz. Si desea editar una 
 
 ## <a name="to-create-a-voice-policy"></a>Para crear una directiva de voz
 
-1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, consulte [permisos de configuración de delegación en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro de la función CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, consulte [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  En la barra de navegación izquierda, haga clic en **Enrutamiento de voz** y luego en **Directiva de voz**.
 
@@ -71,12 +71,12 @@ Siga estos pasos si desea crear una nueva Directiva de voz. Si desea editar una 
     
 
     > [!NOTE]  
-    > Si el ámbito de la directiva de voz es Sitio, el campo <STRONG>Nombre</STRONG> de <STRONG>Nueva directiva de voz</STRONG> se rellena automáticamente con el nombre del sitio y no se puede cambiar.
+    > Si el ámbito de la directiva de voz es Sitio, el campo <STRONG>Nombre</STRONG> de la <STRONG>Nueva directiva de voz</STRONG> se rellena automáticamente con el nombre del sitio y no se puede cambiar.
 
     
     </div>
 
-6.  (Opcional) Agregue información descriptiva sobre la directiva de voz.
+6.  (Opcional) Añada información descriptiva sobre la directiva de voz.
 
 7.  Active o desactive las siguientes casillas para habilitar o deshabilitar cada una de las **Características de llamada** de esta directiva de voz:
     
@@ -91,21 +91,21 @@ Siga estos pasos si desea crear una nueva Directiva de voz. Si desea editar una 
         
         </div>
     
-      - El **desvío de llamadas** permite que los usuarios desvíen llamadas a otros teléfonos y dispositivos de cliente. Lync Server 2013 proporciona un intervalo significativamente más amplio de opciones de configuración para el desvío de llamadas. Por ejemplo, si una organización no desea que las llamadas entrantes se desvíen externamente a la RTC, un administrador puede aplicar una directiva de voz especial para implementar esta restricción. Está habilitado de forma predeterminada.
+      - El **desvío de llamadas** permite que los usuarios desvíen llamadas a otros teléfonos y dispositivos de cliente. Lync Server 2013 proporciona una gama de opciones de configuración mucho más amplia para el desvío de llamadas. Por ejemplo, si una organización no desea que las llamadas entrantes se desvíen externamente a la Red telefónica conmutada (RTC), un administrador puede aplicar una directiva de voz especial para implementar esta restricción. Habilitado de forma predeterminada.
     
-      - La **delegación** permite a los usuarios especificar otros usuarios para que realicen y reciban llamadas en su nombre. En Lync Server 2013, un delegado puede configurar la llamada simultánea que permite que las llamadas entrantes a su jefe suenen a todos los destinos de timbre simultáneo del delegado. De esta forma, el delegado dispone de mayor flexibilidad a la hora de responder a las llamadas dirigidas administrador. Esta opción está habilitada de forma predeterminada.
+      - La **delegación** permite a los usuarios especificar otros usuarios para que realicen y reciban llamadas en su nombre. En Lync Server 2013, un delegado puede configurar las llamadas simultáneas que permite que las llamadas entrantes a su administrador puedan llamar a todos los destinos de llamadas simultáneas del delegado. Así pues, el delegado dispone de una mayor flexibilidad para responder a las llamadas dirigidas a su superior. Habilitada de forma predeterminada.
     
-      - La **transferencia de llamadas** permite a los usuarios transferir llamadas a otros usuarios. Está opción está habilitada de forma predeterminada.
+      - La **transferencia de llamadas** permite a los usuarios transferir llamadas a otros usuarios. Opción habilitada habitualmente.
     
-      - El **estacionamiento de llamadas** permite a los usuarios poner llamadas en espera y después recibir la llamada de otro teléfono o cliente. Está opción está deshabilitada de forma predeterminada.
+      - El **estacionamiento de llamadas** permite a los usuarios poner llamadas en espera y después recibir la llamada de otro teléfono o cliente. Opción deshabilitada habitualmente.
     
-      - La **función de llamadas simultáneas** permite que las llamadas entrantes suenen en más teléfonos (por ejemplo, un móvil) u otros dispositivos de extremo. Lync Server 2013 proporciona un intervalo significativamente más amplio de opciones de configuración para llamadas simultáneas. Está habilitada de forma predeterminada.
+      - **Llamadas simultáneas** permite que las llamadas entrantes suenen en otros teléfonos (por ejemplo, un teléfono móvil) o en otros dispositivos de extremo. Lync Server 2013 proporciona una gama de opciones de configuración mucho más amplia para las llamadas simultáneas. Habilitado de forma predeterminada.
     
-      - La **llamada de equipo** permite a los usuarios de un equipo determinado responder llamadas por otros miembros del equipo. Está habilitada de forma predeterminada.
+      - **Llamada de equipo** permite a los usuarios de un equipo definido responder a las llamadas en lugar de otros miembros del equipo. Habilitada de forma predeterminada.
     
-      - La **reenrutación de RTC** permite que las llamadas realizadas por los usuarios que tienen asignada esta directiva a otros usuarios de la empresa se vuelvan a enrutar en la red de telefonía pública conmutada (RTC) si la WAN está congestionada o no disponible. Está habilitado de forma predeterminada.
+      - **Volver a enrutar en RTC** permite que las llamadas realizadas por usuarios que tienen asignada esta directiva a otros usuarios de la empresa se puedan volver a redirigir en la red telefónica conmutada (RTC) si la red WAN está saturada o no disponible. Opción habilitada habitualmente.
     
-      - El **reemplazo de directiva de ancho de banda** permite a los administradores cambiar las decisiones de la directiva del servicio de control de admisión de llamadas para un usuario en concreto. Esta opción está deshabilitada de forma predeterminada.
+      - El **reemplazo de directiva de ancho de banda** permite a los administradores reemplazar las decisiones de la directiva de control de admisión de llamadas para un usuario concreto. Opción deshabilitada habitualmente.
         
         <div>
         
@@ -116,15 +116,15 @@ Siga estos pasos si desea crear una nueva Directiva de voz. Si desea editar una 
         
         </div>
     
-      - El **seguimiento de llamadas malintencionadas** permite a los usuarios denunciar llamadas malintencionadas (como amenazas de bomba) mediante la interfaz de usuario del cliente, que a su vez marca las llamadas en los registros de detalles de llamadas (CDRs). Está deshabilitada de forma predeterminada.
+      - **Seguimiento de llamadas malintencionadas** permite a los usuarios informar sobre llamadas malintencionadas (como amenazas de bomba) usando la interfaz de usuario del cliente, y hace que la llamada quede señalada en los registros de detalles de llamadas. Opción deshabilitada habitualmente.
 
 8.  Para asociar y configurar los registros de uso de RTC correspondientes a esta directiva de voz, realice una de las siguientes acciones:
     
-      - Para elegir uno o varios registros de una lista que contiene todos los registros de uso de RTC disponibles en la implementación de la Telefonía IP empresarial, haga clic en **Seleccionar**. Resalte los registros que desee asociar a esta directiva de voz y después haga clic en **Aceptar**.
+      - Para elegir uno o más registros en una lista de todos los registros de uso de RTC disponibles en la implementación de Telefonía IP empresarial, haga clic en **Seleccionar**. Resalte los registros que desee asociar a esta directiva de voz y haga clic en **Aceptar**.
     
-      - Para quitar un registro de uso de RTC de esta directiva de voz, resalte el registro y haga clic en **Quitar**.
+      - Para quitar el registro de uso de RTC de esta directiva de voz, seleccione el registro y haga clic en **Quitar**.
     
-      - Para definir un nuevo registro de uso de RTC y asociarlo a esta directiva de voz:
+      - Para definir un nuevo registro de uso de RTC y asociarlo con esta directiva de voz, haga lo siguiente:
         
         1.  Haga clic en **Nuevo**.
         
@@ -134,63 +134,63 @@ Siga estos pasos si desea crear una nueva Directiva de voz. Si desea editar una 
             
 
             > [!NOTE]  
-            > El nombre del registro de uso de RTC debe ser único dentro de la implementación de la Telefonía IP empresarial. Una vez guardado el registro, no se puede editar el campo <STRONG>Nombre</STRONG>.
+            > El nombre del registro de uso de RTC debe ser único dentro de la implementación de Telefonía IP empresarial. Una vez guardado el registro, no se puede editar el campo <STRONG>Nombre</STRONG>.
 
             
             </div>
         
-        3.  Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
+        3.  Utilice alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
             
-              - Para elegir una o más rutas de la lista de todas las rutas disponibles en la implementación de Telefonía IP empresarial, haga clic en **Seleccionar**, seleccione las rutas que desea asociar a este registro de uso de RTC y después haga clic en **Aceptar**.
+              - Para elegir una o más rutas de la lista de todas las rutas disponibles en la implementación de la Telefonía IP empresarial, haga clic en **Seleccionar**, resalte las rutas que desee asociar con este registro de uso de RTC y después haga clic en **Aceptar**.
             
               - Para quitar una ruta del registro de uso de RTC, resalte la ruta y después haga clic en **Quitar**.
             
-              - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, vea [crear una ruta de voz en Lync Server 2013](lync-server-2013-create-a-voice-route.md).
+              - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, consulte [crear una ruta de voz en Lync Server 2013](lync-server-2013-create-a-voice-route.md).
             
-              - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. Para obtener más información, vea [modificar una ruta de voz en Lync Server 2013](lync-server-2013-modify-a-voice-route.md).
+              - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. Para obtener más información, consulte [modificar una ruta de voz en Lync Server 2013](lync-server-2013-modify-a-voice-route.md).
         
         4.  Haga clic en **Aceptar**.
     
-      - Para editar un registro de uso de RTC que ya esté asociado a esta directiva de voz, haga lo siguiente:
+      - Para editar un registro de uso de RTC ya asociado a esta directiva de voz:
         
         1.  Resalte el registro de uso de RTC que desea editar y haga clic en **Mostrar detalles**.
         
-        2.  Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
+        2.  Utilice alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
             
               - Para elegir una o más rutas de la lista de todas las rutas disponibles en la implementación de Telefonía IP empresarial, haga clic en **Seleccionar**, seleccione las rutas que desea asociar a este registro de uso de RTC y después haga clic en **Aceptar**.
             
               - Para quitar una ruta de este registro de uso de RTC, resalte la ruta y después haga clic en **Quitar**.
             
-              - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, vea [crear una ruta de voz en Lync Server 2013](lync-server-2013-create-a-voice-route.md).
+              - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, consulte [crear una ruta de voz en Lync Server 2013](lync-server-2013-create-a-voice-route.md).
             
-              - Para editar una ruta que ya está asociada a este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. Para obtener más información, vea [modificar una ruta de voz en Lync Server 2013](lync-server-2013-modify-a-voice-route.md).
+              - Para editar una ruta que ya está asociado a este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. Para obtener más información, consulte [modificar una ruta de voz en Lync Server 2013](lync-server-2013-modify-a-voice-route.md).
         
         3.  Haga clic en **Aceptar**.
 
-9.  Organice los registros de uso de RTC para lograr un rendimiento óptimo. Para cambiar la posición de registro en la lista, resalte el nombre del registro y haga clic en la flecha arriba o abajo.
+9.  Organice los registros de uso de RTC para lograr un rendimiento óptimo. Para cambiar la posición de un registro de la lista, resalte el nombre del registro y haga clic en la flecha arriba o abajo.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Es importante el orden en el que aparecen en la lista de la directiva de voz los registros de uso de RTC. Lync Server recorre la lista desde arriba hacia abajo. Recomendamos ordenar la lista por frecuencia de uso, por ejemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
+    > Es importante el orden en el que aparecen en la lista de la directiva de voz los registros de uso de RTC. Lync Server recorre la lista desde arriba hacia abajo. Se recomienda ordenar la lista por frecuencia de uso, por ejemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
 
     
     </div>
 
-10. Para asociar y configurar registros de uso de RTC para el desvío de llamadas y las llamadas simultáneas en esta directiva de voz, haga una de las acciones siguientes:
+10. Para asociar y configurar los registros de uso de RTC correspondientes al desvío de llamadas y a las llamadas simultáneas de esta directiva de voz, realice una de las siguientes acciones:
     
-      - Para usar los mismos registros de uso de RTC que esta directiva de voz, para el desvío de llamadas y las llamadas simultáneas, seleccione la opción **Distribuir con los usos de la RTC de llamada** en el menú desplegable.
+      - Para usar los mismos registros de uso de RTC que esta directiva de voz, para el desvío de llamadas y las llamadas simultáneas, seleccione la opción **Redirigir con los usos de PSTN** en el menú desplegable.
     
-      - Para permitir el desvío de llamadas y las llamadas simultáneas solo a los usuarios internos de Lync, seleccione la opción **enrutar solo a los usuarios internos de Lync** desde el menú desplegable. Calls will not be forwarded to external PSTN numbers.
+      - Para permitir el desvío de llamadas y las llamadas simultáneas solo para los usuarios de Lync internos, seleccione la opción **Redirigir a usuarios de Lync internos únicamente** en el menú desplegable. Las llamadas no se desviarán a los números de RTC externos.
     
-      - Para usar unos registros de uso de RTC para el desvío de llamadas y las llamadas simultáneas que no sean los que se usan para esta directiva de voz, seleccione la opción **Distribuir con los usos de la RTC personalizados** en el menú desplegable. Esta opción muestra un control para seleccionar registros de uso de RTC o crear nuevos registros de uso de RTC destinados concretamente a desviar llamadas o a realizar llamadas simultáneas.
+      - Para usar unos registros de uso de RTC para el desvío de llamadas y las llamadas simultáneas que no sean los que se usan para esta directiva de voz, seleccione la opción **Redirigir con usos de PSTN personalizados** en el menú desplegable. Esta opción muestra un control para seleccionar registros de uso de RTC o crear nuevos registros de uso de RTC destinados concretamente a desviar llamadas o a realizar llamadas simultáneas.
         
           - Para elegir uno o más registros de una lista de registros de uso de RTC para el desvío de llamadas y las llamadas simultáneas, haga clic en **Seleccionar**. Resalte los registros que desee asociar a esta directiva de desvío de llamadas y de llamadas simultáneas y después haga clic en **Aceptar**.
         
-          - Para quitar un registro de uso de RTC de esta directiva de desvío de llamadas y de llamadas simultáneas, resalte el registro y haga clic en **Quitar**.
+          - Para quitar un registro de uso de RTC de esta directiva de desvío de llamadas y llamadas simultáneas, resalte el registro y haga clic en **Quitar**.
         
-          - Para definir un registro de uso de RTC nuevo y asociarlo a esta directiva de desvío de llamadas y de llamadas simultáneas, haga lo siguiente:
+          - Para definir un nuevo registro de uso de RTC y asociarlo a esta directiva de desvío de llamadas y llamadas simultáneas:
             
             1.  Haga clic en **Nuevo**.
             
@@ -200,20 +200,20 @@ Siga estos pasos si desea crear una nueva Directiva de voz. Si desea editar una 
                 
 
                 > [!NOTE]  
-                > El nombre del registro de uso de RTC debe ser único dentro de la implementación de la Telefonía IP empresarial. Una vez guardado el registro, no se puede editar el campo <STRONG>Nombre</STRONG>.
+                > El nombre del registro de uso de RTC debe ser único dentro de la implementación de Telefonía IP empresarial. Una vez guardado el registro, no se puede editar el campo <STRONG>Nombre</STRONG>.
 
                 
                 </div>
             
-            3.  Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
+            3.  Utilice alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
                 
-                  - Para elegir una o más rutas de la lista de todas las rutas disponibles en la implementación de Telefonía IP empresarial, haga clic en **Seleccionar**, seleccione las rutas que desea asociar a este registro de uso de RTC y después haga clic en **Aceptar**.
+                  - Para elegir una o más rutas de la lista de todas las rutas disponibles en la implementación de Telefonía IP empresarial, haga clic en **Seleccionar**, resalte las rutas que desee asociar con este registro de uso de RTC y, después, haga clic en **Aceptar**.
                 
                   - Para quitar una ruta del registro de uso de RTC, resalte la ruta y haga clic en **Quitar**.
                 
-                  - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, vea [crear una ruta de voz en Lync Server 2013](lync-server-2013-create-a-voice-route.md).
+                  - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, consulte [crear una ruta de voz en Lync Server 2013](lync-server-2013-create-a-voice-route.md).
                 
-                  - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. Para obtener más información, vea [modificar una ruta de voz en Lync Server 2013](lync-server-2013-modify-a-voice-route.md).
+                  - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. Para obtener más información, consulte [modificar una ruta de voz en Lync Server 2013](lync-server-2013-modify-a-voice-route.md).
             
             4.  Haga clic en **Aceptar**.
         
@@ -221,15 +221,15 @@ Siga estos pasos si desea crear una nueva Directiva de voz. Si desea editar una 
             
             1.  Resalte el registro de uso de RTC que desee editar y haga clic en **Mostrar detalles**.
             
-            2.  Use alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
+            2.  Utilice alguno de los métodos siguientes para asociar y configurar rutas para este registro de uso de RTC:
                 
                   - Para elegir una o más rutas de la lista de todas las rutas disponibles en la implementación de Telefonía IP empresarial, haga clic en **Seleccionar**, seleccione las rutas que desea asociar a este registro de uso de RTC y después haga clic en **Aceptar**.
                 
                   - Para quitar una ruta de este registro de uso de RTC, resalte la ruta y haga clic en **Quitar**.
                 
-                  - Para definir una nueva ruta y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, vea [crear una ruta de voz en Lync Server 2013](lync-server-2013-create-a-voice-route.md).
+                  - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, consulte [crear una ruta de voz en Lync Server 2013](lync-server-2013-create-a-voice-route.md).
                 
-                  - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. Para obtener más información, vea [modificar una ruta de voz en Lync Server 2013](lync-server-2013-modify-a-voice-route.md).
+                  - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. Para obtener más información, consulte [modificar una ruta de voz en Lync Server 2013](lync-server-2013-modify-a-voice-route.md).
             
             3.  Haga clic en **Aceptar**.
 
@@ -239,25 +239,25 @@ Siga estos pasos si desea crear una nueva Directiva de voz. Si desea editar una 
     
 
     > [!NOTE]  
-    > Puede guardar una directiva de voz que aún no pase la prueba y, a continuación, volver a configurarla más tarde. Para obtener más información, consulte <A href="lync-server-2013-test-voice-routing.md">probar el enrutamiento de voz en Lync Server 2013</A>.
+    > Puede guardar una directiva de voz que no haya pasado la prueba aún y volver a configurarla más adelante. Para obtener más información, consulte <A href="lync-server-2013-test-voice-routing.md">probar el enrutamiento de voz en Lync Server 2013</A>.
 
     
     </div>
 
 12. Haga clic en **Aceptar**.
 
-13. En la página **Directiva de voz**, haga clic en **Confirmar** y después en **Confirmar todo**.
+13. En la página **Directiva de voz**, haga clic en **Confirmar** y, a continuación, en **Confirmar todo**.
     
     <div>
     
 
     > [!NOTE]  
-    > Siempre que cree o modifique una directiva de voz, ejecute el comando <STRONG>Confirmar todo</STRONG> para publicar el cambio de configuración. Para obtener más información, vea <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">publicar cambios pendientes en la configuración de enrutamiento de voz en Lync Server 2013</A> en la documentación de operaciones.
+    > Siempre que cree o modifique una directiva de voz, ejecute el comando <STRONG>Confirmar todo</STRONG> para publicar el cambio en la configuración. Para obtener más información, consulte <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish Pending changes to the Voice Routing Configuration en Lync Server 2013</A> en la documentación de operaciones.
 
     
     </div>
 
-14. (Opcional) Voicemail Escape detecta que se ha respondido de forma inmediata a una llamada desde el correo de voz del teléfono móvil del usuario. Con esto se permite que la llamada siga sonando en los otros extremos del usuario y que el usuario pueda responder a la llamada. Para obtener más información sobre cómo configurar una directiva de correo de voz, vea [configurar la configuración de escape de correo de voz en Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md).
+14. (Opcional) El desvío de correo de voz desconecta las llamadas al correo de voz de un teléfono móvil cuando detecta que el correo de voz del teléfono del usuario responde automáticamente a la llamada. Con esto se permite que la llamada siga sonando en los otros extremos del usuario y que el usuario pueda responder a la llamada. Para obtener más información sobre cómo configurar una directiva de correo de voz, consulte [Configuring Voice Mail escape in Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md).
 
 </div>
 
@@ -271,7 +271,7 @@ Siga estos pasos si desea crear una nueva Directiva de voz. Si desea editar una 
 [Crear una ruta de voz en Lync Server 2013](lync-server-2013-create-a-voice-route.md)  
 [Modificar una ruta de voz en Lync Server 2013](lync-server-2013-modify-a-voice-route.md)  
 [Publicar los cambios pendientes en la configuración del enrutamiento de voz en Lync Server 2013](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
-[Configurar el escape del correo de voz en Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md)  
+[Configurar el escape de correo de voz en Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md)  
 
 
 [Probar el enrutamiento de voz en Lync Server 2013](lync-server-2013-test-voice-routing.md)  

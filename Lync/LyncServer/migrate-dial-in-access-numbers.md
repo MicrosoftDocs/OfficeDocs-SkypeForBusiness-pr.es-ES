@@ -12,16 +12,16 @@ ms:contentKeyID: 49733843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0638ae76a9aa1108b11c1d1ff98fdd3eef08c938
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a56dbb90c65bdbb4e26d289c289b6ccc9054d0e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762948"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029131"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,31 +37,31 @@ ms.locfileid: "41762948"
 
 _**Última modificación del tema:** 2012-10-19_
 
-La migración de números de acceso telefónico local de Lync Server 2010 a Lync Server 2013 requiere que se ejecute el cmdlet **Move-CsApplicationEndpoint** para migrar los objetos de contacto. Durante el período de coexistencia de Lync Server 2010 y Lync Server 2013, los números de acceso telefónico local creados en Lync Server 2013 se comportan de forma similar a los números de acceso telefónico local que se crean en Lync Server 2010, tal y como se describe en esta sección.
+La migración de números de acceso telefónico local de Lync Server 2010 a Lync Server 2013 requiere la ejecución del cmdlet **Move-CsApplicationEndpoint** para migrar los objetos de contacto. Durante el período de coexistencia de Lync Server 2010 y Lync Server 2013, los números de acceso telefónico que ha creado en Lync Server 2013 se comportan de forma similar a los números de acceso telefónico que crea en Lync Server 2010, tal como se describe en esta sección.
 
-Los números de acceso telefónico local que ha creado en Lync Server 2010, pero que se han movido a Lync Server 2013 o que ha creado en Lync Server 2013 antes, durante o después de la migración tienen las siguientes características:
+Los números de acceso telefónico que ha creado en Lync Server 2010, pero que se han movido a Lync Server 2013 o que ha creado en Lync Server 2013 antes, durante o después de la migración tienen las siguientes características:
 
-  - No aparecen en las invitaciones a reuniones de Office Communications Server 2007 R2 y la página de número de acceso telefónico local.
+  - No aparecen en las invitaciones a reuniones de Office Communications Server 2007 R2, ni en la página del número de acceso telefónico.
 
-  - Aparece en las invitaciones a reuniones de Lync Server 2010 y la página de número de acceso telefónico local.
+  - Aparecen en las invitaciones a reuniones de Lync Server 2010 y en la página del número de acceso telefónico.
 
-  - Aparece en las invitaciones a reuniones de Lync Server 2013 y la página de número de acceso telefónico local.
+  - Aparecen en las invitaciones a reuniones de Lync Server 2013 y en la página del número de acceso telefónico.
 
-  - No se puede ver ni modificar en la herramienta administrativa de Office Communications Server 2007 R2.
+  - No se pueden ver ni modificar en la herramienta administrativa de Office Communications Server 2007 R2.
 
-  - Se puede ver y modificar en el panel de control de Lync Server 2010 y en el shell de administración de Lync Server 2010.
+  - Se pueden ver y modificar en el panel de control de Lync Server 2010 y en el shell de administración de Lync Server 2010.
 
-  - Se puede ver y modificar en el panel de control de Lync Server 2013 y en el shell de administración de Lync Server 2013.
+  - Se pueden ver y modificar en el panel de control de Lync Server 2013 y en el shell de administración de Lync Server 2013.
 
-  - Se puede volver a secuenciar dentro de la región mediante el cmdlet Set-CsDialinConferencingAccessNumber con el parámetro Priority.
+  - Se pueden volver a secuenciar en la región con el cmdlet Set-CsDialinConferencingAccessNumber con el parámetro Priority.
 
-Debe finalizar la migración de los números de acceso telefónico local que apunten a un grupo de 2010 de Lync Server antes de retirar el grupo de Lync Server 2010. Si no completa la migración de números de acceso telefónico, como se describe en el siguiente procedimiento, se producirán errores en las llamadas entrantes a los números de acceso.
+Finalice la migración de los números de acceso telefónico que apuntan a un grupo de servidores de Lync Server 2010, para dar de baja el grupo de servidores de Lync Server 2010. Si no finaliza la migración tal como se describe en el procedimiento siguiente, las llamadas entrantes a los números de acceso serán erróneas.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Debe realizar este procedimiento antes de dar de baja al grupo de servidores de Lync Server 2010.
+> Debe realizar este procedimiento antes de retirar el grupo de servidores de Lync Server 2010.
 
 
 
@@ -71,27 +71,27 @@ Debe finalizar la migración de los números de acceso telefónico local que apu
 
 
 > [!NOTE]  
-> Le recomendamos que mueva los números de acceso telefónico cuando el uso de la red sea bajo, en caso de que haya un breve período de tiempo de servicio.
+> Se recomienda que mueva los números de acceso telefónico cuando el uso de la red sea bajo, en caso de que se produzca una breve interrupción del servicio.
 
 
 
 </div>
 
-**Para identificar y mover los números de acceso telefónico local**
+**Para identificar y mover números de acceso telefónico**
 
-1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-2.  Para mover cada número de acceso de acceso telefónico local a un grupo alojado en Lync Server 2013, en la línea de comandos ejecute:
+2.  Para mover cada número de acceso telefónico a un grupo hospedado en Lync Server 2013, en la línea de comandos, ejecute:
     
         Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
 
-3.  Abra el Panel de control de Lync Server.
+3.  Abra Panel de control de Lync Server
 
 4.  En la barra de navegación izquierda, haga clic en **Conferencia**.
 
-5.  Haga clic en la pestaña **número de acceso telefónico local** .
+5.  Haga clic en la pestaña **Número de acceso telefónico**.
 
-6.  Compruebe que no quedan números de acceso telefónico local para el grupo de servidores de Lync Server 2010 desde el que está migrando.
+6.  Compruebe que no quedan números de acceso telefónico para el grupo de servidores de Lync 2010 desde el que está migrando.
     
     <div>
     
@@ -102,27 +102,27 @@ Debe finalizar la migración de los números de acceso telefónico local que apu
     
     </div>
 
-**Comprobar la migración de números de acceso telefónico local con el panel de control de Lync Server**
+**Comprobar la migración del número de acceso telefónico con el panel de control de Lync Server**
 
-1.  Desde una cuenta de usuario que tenga asignada la función **CsUserAdministrator** o el rol **CsAdministrator** , inicie sesión en cualquier equipo de su implementación interna.
+1.  Desde una cuenta de usuario asignada al rol **CsUserAdministrator** o al rol **CsAdministrator**, inicie sesión en cualquier PC de su implementación interna.
 
-2.  Abra el Panel de control de Lync Server.
+2.  Abra Panel de control de Lync Server
 
 3.  En la barra de navegación izquierda, haga clic en **Conferencia**.
 
-4.  Haga clic en la pestaña **número de acceso telefónico local** .
+4.  Haga clic en la pestaña **Número de acceso telefónico**.
 
 5.  Compruebe que todo el número de acceso telefónico local se ha migrado al grupo hospedado en Lync Server 2013.
 
-**Comprobar la migración de números de acceso telefónico local con el shell de administración de Lync Server**
+**Comprobar la migración del número de acceso telefónico con el shell de administración de Lync Server**
 
-1.  Abra el Shell de administración de Lync Server.
+1.  Abra el shell de administración de Lync Server.
 
-2.  Para devolver todos los números de acceso de la Conferencia de acceso telefónico local migrados, desde la línea de comandos ejecute:
+2.  Para devolver todos los números de acceso de conferencias de acceso telefónico migrados, en la línea de comandos ejecute:
     
         Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
 
-3.  Compruebe que todos los números de acceso telefónico local se migran al grupo hospedado en Lync Server 2013.
+3.  Compruebe que todos los números de acceso telefónico local se migren al grupo hospedado en Lync Server 2013.
 
 </div>
 

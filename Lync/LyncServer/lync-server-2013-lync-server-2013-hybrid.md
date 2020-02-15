@@ -12,16 +12,16 @@ ms:contentKeyID: 48183839
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 105caa9a892d8bd3c6facca5c768c7e748aec824
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9ae168c2afb115ac3883938124298713af9bb264
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742300"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030253"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41742300"
 
 _**Última modificación del tema:** 2016-05-25_
 
-Con las implementaciones híbridas de Lync, puede tener algunos de sus usuarios de Lync locales y otros usuarios de Lync Online, ambos comparten el mismo dominio. Esto puede facilitar la entrega de servicios de Lync a los usuarios de su organización en ubicaciones geográficas o usuarios que se conecten de forma remota. También puede aprovechar las ventajas de las configuraciones híbridas de Lync como una ruta de migración a Office 365.
+Con las implementaciones híbridas de Lync, puede tener algunos de sus usuarios de Lync locales y otros usuarios de Lync Online, ambos compartiendo el mismo dominio. Esto puede facilitar el suministro de servicios de Lync a los usuarios de la organización en diferentes ubicaciones geográficas o usuarios que se conectan de forma remota. También puede aprovechar las ventajas de las configuraciones híbridas de Lync como una ruta de migración a Office 365.
 
-En esta sección se describen las configuraciones híbridas de Lync Server 2013.
+En esta sección se describen las configuraciones híbridas para Lync Server 2013.
 
 <div>
 
@@ -49,7 +49,7 @@ En esta sección se describen las configuraciones híbridas de Lync Server 2013.
 
 [Planeación de implementaciones híbridas de Lync Server 2013](lync-server-2013-planning-for-hybrid-deployments.md)
 
-[Configurar implementaciones híbridas para Lync Server 2013](lync-server-2013-configuring-hybrid-deployments.md)
+[Configuración de las implementaciones híbridas de Lync Server 2013](lync-server-2013-configuring-hybrid-deployments.md)
 
 </div>
 

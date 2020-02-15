@@ -12,16 +12,16 @@ ms:contentKeyID: 48184290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d1cf0db76b888b9774a16f7a6353ccf1b399eb3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c9ac0903fe3e5b5c1a3a7b97b273afb8b586351b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737590"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,39 +37,39 @@ ms.locfileid: "41737590"
 
 _**Última modificación del tema:** 2013-02-23_
 
-Si se ha habilitado un usuario para Lync Server 2013 y ha creado una o más directivas de usuario para archivar para usuarios alojados en Lync Server 2013, puede implementar la compatibilidad de archivado para usuarios específicos aplicando las directivas apropiadas a esos usuarios o grupos de usuarios. Por ejemplo, si crea una directiva para admitir el archivado de comunicaciones internas, puede aplicarla a al menos un usuario o grupo de usuarios para admitir el archivado de las comunicaciones de Lync Server 2013 del usuario.
+Si un usuario se ha habilitado para Lync Server 2013 y ha creado una o varias directivas de usuario para archivar para los usuarios hospedados en Lync Server 2013, puede implementar la compatibilidad de archivado para usuarios específicos mediante la aplicación de las directivas apropiadas a los usuarios o grupos de usuarios. Por ejemplo, si crea una directiva para admitir el archivado de comunicaciones internas, puede aplicarla al menos a un usuario o a un grupo de usuarios para que admita el archivado de las comunicaciones de Lync Server 2013 del usuario.
 
 <div>
 
 
 > [!NOTE]  
-> Si habilitó la integración de Microsoft Exchange para su implementación, las directivas de retención local de Exchange controlan si el archivado está habilitado para los usuarios alojados en Exchange 2013 y si sus buzones se colocan en conservación local. Para obtener más información, consulte <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">configurar directivas para archivar en Lync Server 2013 al usar la integración de Exchange Server</A> en la documentación de implementación.<BR>Debe especificar todas las opciones apropiadas en las configuraciones de archivado antes de habilitar el archivado. Para obtener más información, vea <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">administrar las opciones de configuración de archivado en Lync Server 2013 para su organización, sitios y grupos</A> en la documentación de operaciones.
+> Si habilitó la integración de Microsoft Exchange para su implementación, las directivas de conservación local de Exchange controlan si el archivado está habilitado para los usuarios que están hospedados en Exchange 2013 y que tienen sus buzones en conservación local. Para obtener más información, consulte <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">configuración de directivas para archivar en Lync Server 2013 al usar la integración de Exchange Server</A> en la documentación sobre implementación.<BR>Antes de habilitar el archivado, debe especificar todas las opciones adecuadas en las configuraciones de archivado. Para obtener más información, consulte <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">administrar las opciones de configuración de archivado en Lync Server 2013 para la organización, los sitios y los grupos</A> de servidores en la documentación de operaciones.
 
 
 
 </div>
 
-Use el procedimiento de este tema para aplicar una directiva de usuario de archivado creada previamente a una o más cuentas de usuario o grupos de usuarios.
+Use el procedimiento descrito en este tema para usar una directiva de usuario de archivado creada previamente en una o varias cuentas de usuario o grupos de usuarios.
 
 <div>
 
-## <a name="to-apply-an-archiving-user-policy-to-a-user-account"></a>Para aplicar una directiva de usuario de archivado a una cuenta de usuario
+## <a name="to-apply-an-archiving-user-policy-to-a-user-account"></a>Para aplicar una directiva de archivado a un usuario o grupo de usuarios
 
-1.  Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **Usuarios** y, luego, busque la cuenta de usuario que desea configurar.
+3.  En la barra de navegación izquierda, haga clic en **Usuarios** y, a continuación, busque la cuenta de usuario que quiera configurar.
 
-4.  En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, luego, en **Mostrar detalles**.
+4.  En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, a continuación, en **Mostrar detalles**.
 
-5.  En **Editar usuario de Lync Server** , en **Directiva de archivado**, seleccione la Directiva de usuario de archivado que desea aplicar.
+5.  En **Editar usuario de Lync Server** en **Directiva de archivado**, seleccione la Directiva de usuario de archivado que desea aplicar.
     
     <div>
     
 
     > [!NOTE]  
-    > La <STRONG> &lt;configuración&gt; automática</STRONG> aplica la configuración predeterminada de la instalación del servidor. El servidor aplica automáticamente esta configuración.
+    > La <STRONG> &lt;configuración&gt; automática</STRONG> aplica la configuración de la instalación del servidor predeterminada. Esta configuración se aplica automáticamente por el servidor.
 
     
     </div>
@@ -80,9 +80,9 @@ Use el procedimiento de este tema para aplicar una directiva de usuario de archi
 
 <div>
 
-## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a>Asignar una directiva de archivado por usuario mediante cmdlets de Windows PowerShell
+## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a>Asignación de una directiva de archivado por usuario mediante cmdlets de Windows PowerShell
 
-Las directivas de archivado por usuario se pueden asignar mediante Windows PowerShell y el cmdlet **Grant-CsArchivingPolicy** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Las directivas de archivado por usuario se pueden asignar mediante Windows PowerShell y el cmdlet **Grant-CsArchivingPolicy** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
 <div>
 
@@ -98,7 +98,7 @@ Las directivas de archivado por usuario se pueden asignar mediante Windows Power
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-multiple-users"></a>Para asignar una directiva de archivado por usuario a varios usuarios
 
-  - Este comando asigna el RedmondArchivingPolicy de directiva de archivado por usuario a todos los usuarios que tienen cuentas alojadas en el registro de la agrupación de atl-cs-001.litwareinc.com. Para obtener más información sobre el parámetro de filtro usado en este comando, consulte la documentación del cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) .
+  - Con este comando se asigna la directiva de archivado por usuario RedmondArchivingPolicy a todos los usuarios que tengan cuentas hospedadas en el grupo de registradores atl-cs-001.litwareinc.com. Para obtener más información sobre el parámetro filter que se usa en este comando, consulte la documentación del cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) .
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -108,7 +108,7 @@ Las directivas de archivado por usuario se pueden asignar mediante Windows Power
 
 ## <a name="to-assign-a-per-user-archiving-policy"></a>Para asignar una directiva de archivado por usuario
 
-  - El comando siguiente elimina la asignación de cualquier directiva de archivado por usuario previamente asignada a Ken Myer. Después de quitar la asignación de la directiva por usuario, se usará automáticamente la directiva global o la directiva del sitio local, si existe, para administrar a Ken Myer. La directiva de sitio tiene prioridad sobre la directiva global.
+  - Este comando desasigna cualquier directiva de archivado por usuario previamente asignada a Ken Myer. Una vez desasignada la directiva por usuario, Ken Myer pasará automáticamente a ser administrado mediante la directiva global (o, de existir, por la directiva de su sitio local). Las directivas de sitio tienen prioridad sobre la directiva global.
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
@@ -123,7 +123,7 @@ Para obtener más información, consulte la documentación del cmdlet [Grant-CsA
 ## <a name="see-also"></a>Vea también
 
 
-[Administrar el archivado de comunicaciones internas y externas en Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
+[Administración del archivado de comunicaciones internas y externas en Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
 [Asignación de directivas por usuario en Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)  
   
 

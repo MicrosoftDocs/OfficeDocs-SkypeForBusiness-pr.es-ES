@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Crear flujos de trabajo de grupo de respuesta'
+title: 'Lync Server 2013: crear flujos de trabajo de grupo de respuesta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9aa76d218564e04048a07db7592ffc5ea4046a71
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3b93b63ffbb551c7e5d9d6998a5f25f86eb6fb0b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728790"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42009393"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -39,7 +39,7 @@ _**Última modificación del tema:** 2012-09-12_
 
 Un flujo de trabajo define el comportamiento de una llamada desde el momento en que suena el teléfono hasta que alguien la atiende. El flujo de trabajo especifica la cola que se va a usar para poner la llamada en espera, así como el método de enrutamiento que se va a usar en grupos de extensiones o las preguntas y respuestas que se van a utilizar en grupos de respuesta interactivos. Un flujo de trabajo también define configuraciones como el mensaje de bienvenida, la música en espera, horario laboral y los días festivos.
 
-Use la herramienta de configuración de grupos de respuesta para crear flujos de trabajo. Puede acceder a la herramienta de configuración de grupos de respuesta desde la página grupo de respuesta del panel de control de Lync Server.
+Use la herramienta de configuración de grupos de respuesta para crear flujos de trabajo. Puede acceder a la herramienta Configuración del grupo de respuesta desde la página grupo de respuesta del panel de control de Lync Server.
 
 <div>
 
@@ -55,9 +55,9 @@ Use la herramienta de configuración de grupos de respuesta para crear flujos de
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Crear o modificar un flujo de trabajo de grupo de captura en Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
+  - [Crear o modificar un flujo de trabajo de grupo de búsqueda en Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
 
-  - [Diseñar flujos de llamada para respuestas de voz interactivas en Lync Server 2013](lync-server-2013-design-interactive-voice-response-call-flows.md)
+  - [Diseñar flujos de llamadas de respuesta de voz interactiva en Lync Server 2013](lync-server-2013-design-interactive-voice-response-call-flows.md)
 
   - [Crear o modificar un flujo de trabajo interactivo en Lync Server 2013](lync-server-2013-create-or-modify-an-interactive-workflow.md)
 
@@ -67,7 +67,7 @@ Use la herramienta de configuración de grupos de respuesta para crear flujos de
 
 ## <a name="related-sections"></a>Secciones relacionadas
 
-  - [Crear grupos de agentes de grupos de respuesta en Lync Server 2013](lync-server-2013-create-response-group-agent-groups.md)
+  - [Crear grupos de agentes de grupo de respuesta Lync Server 2013](lync-server-2013-create-response-group-agent-groups.md)
 
   - [Crear colas de grupo de respuesta en Lync Server 2013](lync-server-2013-create-response-group-queues.md)
 

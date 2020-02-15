@@ -12,16 +12,16 @@ ms:contentKeyID: 63969643
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 344512a1dd4db44b8290efdcc726275b4a6898de
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 67a0355d32e5e704d6609335c82f8cfe1fe7aa86
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738410"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029291"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,99 +37,99 @@ ms.locfileid: "41738410"
 
 _**Última modificación del tema:** 2014-08-18_
 
-Realice las siguientes tareas según sea necesario. Suelen estar cubiertos por procedimientos estándar:
+Realice las siguientes tareas según sea necesario. Con frecuencia también se incluyen en los procedimientos estándar:
 
-  - **Auditoría de seguridad completa   ** Puede realizar esta auditoría regularmente, en respuesta a una actualización o un nuevo diseño del sistema de mensajería, o en respuesta a una infracción de seguridad intentada (o exitosa). El procedimiento puede implicar recorridos de puertos en servidores y firewalls, auditorías de correcciones de seguridad y pruebas de penetración de terceros.
+  - **Auditoría de seguridad completa   ** Puede realizar esta auditoría con regularidad, en respuesta a una actualización o rediseño del sistema de mensajería, o en respuesta a una infracción de seguridad intentada (o exitosa). El procedimiento puede implicar análisis de puertos en servidores y firewalls, auditorías de revisiones de seguridad y pruebas de penetración de terceros.
 
-  - **Reemplazar certificados a punto de expirar**   la comprobación de certificados de Lync Server es una de las tareas semanales normales y, como parte del procedimiento, un administrador debe tener un registro de todas las fechas de vencimiento de los certificados. Este registro permite a un administrador crear una notificación cuando un certificado determinado va a expirar y sustituirse según sea necesario.
+  - **Reemplazar certificados a punto de expirar**   la comprobación los certificados de Lync Server son una de las tareas semanales habituales y, como parte del procedimiento, un administrador debe tener un registro de todas las fechas de expiración de los certificados. Este registro permite a un administrador crear una notificación cuando un certificado concreto está a punto de caducar y se reemplaza según sea necesario.
 
-  - ****   La actualización de líneas de base de rendimiento actualiza las líneas de rendimiento después de un cambio de configuración o actualización. Su organización puede usar líneas base para medir los cambios de rendimiento y detectar problemas que afectan al rendimiento del sistema.
+  - ****   La actualización de líneas de base de rendimiento actualiza las líneas de base de rendimiento después de una actualización o un cambio de configuración. Su organización puede usar líneas de base para medir los cambios de rendimiento y detectar problemas que afectan al rendimiento del sistema.
 
-  - **La administración**   de la configuración inicial del grupo de servidores Enterprise de grupos empresariales, servidores Standard Edition y cualquier otro servidor del entorno de la organización se realizó durante la implementación de los servidores individuales. La administración posterior a la implementación de servidores y grupos de servidores Standard Edition y grupos de servidores Enterprise incluye las siguientes tareas:
+  - **La administración**   de la configuración inicial del grupo de servidores Enterprise de los grupos de servidores Enterprise, los servidores Standard Edition y cualquier otro servidor del entorno de la organización se realizó durante la implementación de los servidores individuales. La administración posterior a la implementación de servidores y grupos de servidores Standard Edition y grupos de servidores Enterprise incluye las siguientes tareas:
     
       - Administración de servidores front-end
     
-      - Administrar conferencias web
+      - Administración de conferencias web
     
-      - Administrar conferencias
+      - Administración de conferencias
     
-      - Cambiar las credenciales de la cuenta de servicio
+      - Cambio de las credenciales de la cuenta de servicio
     
       - Administración de bases de datos
     
-      - Iniciar y detener servicios y desactivar roles de servidor
+      - Inicio y detención de servicios y desactivación de roles de servidor
     
-      - Quitar servidores y roles de servidor, quitar grupos y retirar servidores y grupos de servidores
+      - Quitar servidores y roles de servidor, quitar grupos de servidores y retirar servidores y grupos de servidores
 
-  - **Administrar el uso**   puede configurar Lync Server 2013 para proporcionar las características y funcionalidades más apropiadas para su organización. Entre estas directivas se incluyen:
+  - **Administración del uso**   puede configurar Lync Server 2013 para proporcionar las características y funciones más adecuadas para su organización. Esto incluye lo siguiente:
     
-      - Administración de la compatibilidad de las reuniones de conferencias web locales
+      - Administración de la compatibilidad con reuniones de conferencias web locales
     
-      - Administrar el uso de grupos de distribución para enviar mensajes instantáneos
+      - Administración del uso de grupos de distribución para enviar mensajes instantáneos
     
       - Administración de contactos, presencia y consultas
     
       - Configuración del filtrado de versiones de cliente
     
-      - Configuración del filtrado inteligente de mensajes instantáneos
+      - Configuración del filtrado inteligente de mensajería instantánea
     
-      - Configurar el archivado, grabación de llamadas en profundidad y cumplimiento de las reuniones
+      - Configuración del archivado, registro detallado de llamadas y cumplimiento de las reuniones
 
-  - **Administración**   de la Conectividad del servidor perimetral la administración continua de los servidores y la configuración necesaria para proporcionar conectividad externa incluye lo siguiente:
+  - ****   Administración de la Conectividad del servidor perimetral la administración continua de los servidores y la configuración necesaria para proporcionar conectividad externa incluye lo siguiente:
     
       - Administración de la conectividad entre servidores internos y servidores perimetrales
     
       - Configuración de interfaces y certificados internos y externos para servidores perimetrales
     
-      - Administrar el acceso de socios federados
+      - Administración del acceso de socios federados
 
   - **La administración de la libreta**   de direcciones con la administración de los servidores de la libreta de direcciones incluye lo siguiente:
     
       - Configuración de la normalización del teléfono del servidor de libreta de direcciones
     
-      - Administrar el servidor de la libreta de direcciones desde la línea de comandos
+      - Administración del servidor de la libreta de direcciones desde la línea de comandos
 
-  - **Administrar cuentas**   de usuario la administración de cuentas de usuario incluye lo siguiente:
+  - ****   Administración de cuentas de usuario la administración de cuentas de usuario incluye lo siguiente:
     
-      - Habilitar cuentas de usuario para Lync Server
+      - Habilitación de cuentas de usuario para Lync Server
     
       - Configuración de usuarios de Lync Server mediante el asistente
     
-      - Configuración de las propiedades de la cuenta de usuario de Lync Server
+      - Configuración de propiedades de cuenta de usuario de Lync Server individual
     
       - Buscar usuarios de Lync Server
     
       - Mover usuarios de Lync Server
     
-      - Eliminar usuarios de Lync Server
+      - Eliminación de usuarios de Lync Server
 
-  - **Analizar los archivos**   de registro de 2013 de Lync Server una herramienta muy útil para la solución de problemas, es la herramienta de registro de Lync Server 2013 que se describe en detalle en [usar la herramienta de registro de Lync Server 2013](http://technet.microsoft.com/en-us/library/gg558599.aspx).
+  - **Analizar los archivos**   de registro de Lync Server 2013 una herramienta muy útil, que se suele usar para la solución de problemas, es la herramienta de registro de Lync Server 2013 que se describe en detalle en uso de la [herramienta de registro de Lync Server 2013](http://technet.microsoft.com/library/gg558599.aspx).
 
-Como la herramienta de registro genera archivos de registro (en cada servidor), estos archivos de registro se pueden ver y analizar mediante la herramienta de supervisión, si las herramientas del kit de recursos de Microsoft Office Server 12 están instaladas en el equipo. De lo contrario, los registros también se pueden analizar con un editor de texto, que es mucho menos transparente y más complejo que el uso de la utilidad de supervisión.
+Debido a que la herramienta de registro genera archivos de registro (en función de cada servidor), estos archivos de registro se pueden ver y analizar mediante la herramienta de supervisión, si las herramientas del kit de recursos de Microsoft Office Server 12 están instaladas en el equipo. De lo contrario, los registros también se pueden analizar con un editor de texto, que es mucho menos transparente y más complejo que el uso de la utilidad de supervisión.
 
-Para ver y analizar los mensajes de protocolo
+Para ver y analizar mensajes de protocolo
 
-En la herramienta de registro, cuando haya finalizado la sesión de depuración, haga clic en analizar archivos de registro para ver los archivos de registro con la herramienta de supervisión. Puede analizar los registros de protocolo para los siguientes componentes:
+En la herramienta de registro, cuando haya finalizado la sesión de depuración, haga clic en analizar archivos de registro para ver los archivos de registro mediante la herramienta de supervisión. Puede analizar los registros de protocolo para los siguientes componentes:
 
   - Lync Server SipStack (SIP)
 
   - Lync Server S4 (SIP)
 
-  - El tráfico de señalización de conferencias de Lync Server (C3P), incluido el C3P de infrarrojos y el foco C3P
+  - Tráfico de señalización de conferencias de Lync Server (C3P), incluido el C3P de infrarrojos y el foco C3P
 
-  - Tráfico de conferencias web de Lync Server (PSOM)
+  - Tráfico de conferencia Web de Lync Server (PSOM)
 
   - Cliente de la plataforma de cliente de comunicaciones unificadas de Lync Server (UCCP)
 
   - Informes de errores de la base de datos de archivado
 
-Para ayudarle a organizar el rendimiento de las tareas necesarias, vea lista de comprobación de operaciones necesarias.
+Para ayudar a organizar el rendimiento de las tareas necesarias, vea lista de comprobación de operaciones necesarias.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Para obtener información detallada sobre la administración y los procedimientos de administración, consulte la guía de administración de Microsoft Lync Server 2013.
+> Para obtener información detallada acerca de los procedimientos de administración y administración, consulte la guía de administración de Microsoft Lync Server 2013.
 
 
 
@@ -137,19 +137,19 @@ Para ayudarle a organizar el rendimiento de las tareas necesarias, vea lista de 
 
 <div>
 
-## <a name="backup-and-restore-policies-or-configuration-settings"></a>Directivas de copia de seguridad (y restauración) o configuración
+## <a name="backup-and-restore-policies-or-configuration-settings"></a>Opciones de configuración y directivas de copia de seguridad (y restauración)
 
-Lync Server 2013 le permite realizar copias de seguridad y restaurar todo el sistema. IIF quiere hacer una copia de seguridad (y, a continuación, quizás una vez restaurada) una sola directiva o una sola recopilación de parámetros de configuración, recuperar la directiva correspondiente y, a continuación, canalizar ese objeto al cmdlet Export-Clixml, que guarda la información de la Directiva como un archivo XML:
+Lync Server 2013 permite realizar copias de seguridad y restaurar todo el sistema. IIF desea realizar una copia de seguridad (y, a continuación, una vez más) una sola directiva o una sola recopilación de opciones de configuración, recuperar la Directiva adecuada y, a continuación, canalizar el objeto al cmdlet Export-Clixml, que guarda la información de la Directiva como un archivo XML:
 
 `Get-CsClientPolicy -Identity "RedmondClientPolicy" | Export-Clixml -Path C:\Backup\RedmondClientPolicy.xml`
 
-Ahora puede experimentar con RedmondClientPolicy y cambiar la configuración. Si, en su lugar, decide restaurar la directiva anterior, escriba:
+Ahora puede experimentar con RedmondClientPolicy y cambiar una gran cantidad de opciones de configuración. Si, en su lugar, decide restaurar la directiva anterior, escriba:
 
 `$x = Import-Clixml -Path C:\Backup\RedmondClientPolicy.xml`
 
 `Set-CsClientPolicy -Instance $x`
 
-Tenga en cuenta que este enfoque funcionará para la mayoría de las directivas y la configuración, pero no funcionará con algunos de los elementos más complejos (elementos que contienen varios subobjetos, como las opciones de configuración de enrutamiento, que contienen distintas rutas de voz).
+Tenga en cuenta que este enfoque funcionará con la mayoría de las directivas y la configuración, pero no funcionará con algunos de los elementos más complejos (elementos que contienen varios subobjetos) (como las opciones de configuración de enrutamiento, que contienen varias rutas de voz independientes).
 
 </div>
 

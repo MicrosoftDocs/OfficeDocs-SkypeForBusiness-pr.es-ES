@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Requisitos previos del componente de VDI de Lync'
+title: 'Lync Server 2013: requisitos previos del complemento Lync VDI'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185552
 ms.date: 03/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51fb0081188618b6a5ea2951968effb0d55c4af7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d1e5434ed445bf19d2aaeea146ba0edb7dcac04c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765458"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030193"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Requisitos previos del componente de VDI de Lync en Lync Server 2013
+# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Requisitos previos del complemento Lync VDI en Lync Server 2013
 
 </div>
 
@@ -43,7 +43,7 @@ En un entorno de infraestructura de escritorio virtual (VDI), las máquinas virt
 
 
 > [!NOTE]  
-> Para obtener más información sobre cómo instalar e implementar el entorno virtualizado, consulte su proveedor de soluciones de virtualización. Para obtener información sobre cómo implementar un entorno virtualizado basado en Hyper-V y servicios de escritorio remoto, consulte los artículos siguientes en la biblioteca de Microsoft TechNet: 
+> Consulte al proveedor de soluciones de virtualización para obtener más información sobre la instalación y la implementación del entorno virtualizado. Para más información sobre la implementación de un entorno virtualizado en función de los servicios de Hyper-V y de escritorio remoto, consulte los artículos siguientes en la biblioteca de TechNet de Microsoft: 
 > <UL>
 > <LI>
 > <P>Hyper-V en<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></P>
@@ -54,45 +54,45 @@ En un entorno de infraestructura de escritorio virtual (VDI), las máquinas virt
 
 </div>
 
-A continuación se indican los requisitos para las máquinas virtuales que se ejecutan en el equipo del centro de datos:
+A continuación aparecen los requisitos para las máquinas virtuales que se ejecutan en el equipo del centro de datos:
 
-  - Las máquinas virtuales deben configurarse con Windows 10, Windows 8,1, Windows 8, Windows 7 o Windows Server 2008 R2 con los Service Packs más recientes.
+  - Las máquinas virtuales deben configurarse con Windows 10, Windows 8,1, Windows 8, Windows 7 o Windows Server 2008 R2 con los últimos Service Packs.
 
 A continuación se indican los requisitos para el usuario y el equipo local del usuario:
 
   - El usuario debe estar alojado en Lync Server 2013.
 
-  - El equipo local debe estar ejecutando Windows Embedded Standard 7 con SP1, Windows 7 con SP1, Windows 8, Windows 8,1 Embedded o Windows 8,1 (no incrustado).
+  - El equipo local debe ejecutar Windows Embedded Standard 7 con SP1, Windows 7 con SP1, Windows 8, Windows 8,1 Embedded o Windows 8,1 (no incrustado).
 
-  - Si está usando servicios de escritorio remoto, el bits del complemento VDI de Lync (es decir, si la aplicación es de 32 bits o 64 bits) debe coincidir con los bits del sistema operativo del equipo local. No es necesario que los bits del sistema operativo en el equipo local y en el sistema operativo de la máquina virtual coincidan. Si está usando otra solución de virtualización o plataforma, consulte la guía de su proveedor de soluciones de virtualización sobre los requisitos de bits.
+  - Si usa servicios de escritorio remoto, el bits de complemento de VDI de Lync (es decir, si la aplicación es de 32 bits o de 64 bits) debe coincidir con los bits del sistema operativo del equipo local. No es necesario que coincidan el valor de bits del sistema operativo del equipo local y del sistema operativo de la máquina virtual. Si usa otra plataforma u otra solución de virtualización, consulte a su proveedor de soluciones de virtualización para informarse de los requisitos del valor de bits.
 
-  - El equipo local debe estar ejecutando la última versión del cliente de escritorio remoto. Instale las últimas actualizaciones del cliente de los Servicios de Escritorio remoto de Microsoft o el último software de cliente de escritorio remoto del proveedor de soluciones de virtualización. Para obtener las actualizaciones más recientes de servicios de [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)escritorio remoto, consulte.
+  - El equipo local debe ejecutar la última versión del cliente de escritorio remoto. Instale las últimas actualizaciones de cliente de los servicios de escritorio remoto de Microsoft o el último software cliente de escritorio remoto del proveedor de soluciones de virtualización. Para obtener las actualizaciones más recientes de servicios de [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)escritorio remoto, consulte.
 
-  - En el equipo local, configure el cliente de escritorio remoto para que el audio se reproduzca en el equipo local y la grabación remota esté deshabilitada. Para configurar estas opciones de conexión a escritorio remoto en Windows, consulte la sección siguiente, "para configurar las opciones de conexión a escritorio remoto".
+  - En el PC local, configure el cliente de escritorio remoto para que el audio se reproduzca en el PC local y que la grabación remota esté deshabilitada. Para configurar estas opciones para conexión a escritorio remoto en Windows, consulte la sección siguiente, "para configurar las opciones de conexión a escritorio remoto".
 
 <div>
 
-## <a name="to-configure-remote-desktop-connection-settings"></a>Para configurar las opciones de conexión a escritorio remoto
+## <a name="to-configure-remote-desktop-connection-settings"></a>Configuración de los parámetros de conexión al escritorio remoto
 
-Para preparar conexión a escritorio remoto en Windows para el complemento VDI de Lync, siga estos pasos.
+Para preparar la conexión a escritorio remoto en Windows para el complemento de VDI de Lync, siga estos pasos.
 
-1.  Si el equipo local está ejecutando Windows 8, omita este paso. Si el equipo local ejecuta Windows 7 con SP1, instale la versión más reciente de Windows 8 del cliente de servicios de escritorio remoto, [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)disponible en.
+1.  Si el equipo local ejecuta Windows 8, omita este paso. Si el equipo local ejecuta Windows 7 con SP1, instale la versión más reciente de Windows 8 del cliente de servicios de escritorio remoto, [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)disponible en.
 
-2.  Inicie el cliente de Servicios de Escritorio remoto haciendo clic en **Iniciar** y después en **Conexión a Escritorio remoto**.
+2.  Inicie el cliente de servicios de escritorio remoto haciendo clic en **Iniciar** y después en **Conexión a escritorio remoto**.
 
 3.  Haga clic en **Opciones**.
 
 4.  Haga clic en la pestaña **Recursos locales**. En **Audio remoto**, haga clic en **Configuración** y haga lo siguiente:
     
-      - En **Reproducción de audio remoto**, seleccione **Reproducir en este equipo**.
+      - En **Reproducción de audio remota**, seleccione **Reproducir en este equipo**.
     
-      - En **Grabación de audio remoto**, seleccione **No grabar**.
+      - En **Grabación de audio remota**, seleccione **No grabar**.
     
       - Haga clic en **Aceptar**.
 
 5.  Haga clic en la pestaña **Experiencia**. En **Rendimiento**, desactive la casilla **Almacenamiento en caché persistente de mapas de bits**.
 
-6.  Haga clic en la pestaña **General** . En **equipo**, escriba el nombre de la máquina virtual y, a continuación, haga clic en **conectar**.
+6.  Haga clic en la pestaña **General**. En **Equipo**, escriba el nombre de la máquina virtual y haga clic en **Conectar**.
 
 </div>
 

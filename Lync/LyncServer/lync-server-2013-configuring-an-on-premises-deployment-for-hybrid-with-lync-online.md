@@ -1,5 +1,5 @@
 ---
-title: Configurar una implementación local para el entorno híbrido de Lync Online
+title: Configurar una implementación local para un entorno híbrido con Lync Online
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185321
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eda277d2be970e2495c8bb4cb1a8bd2bcb288bc9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 58fc02c6416f1a0d1b60a5c1cdcf3c91c940c82c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741180"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029701"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-an-on-premises-deployment-for-hybrid-with-lync-online"></a>Configurar una implementación local para el entorno híbrido de Lync Online
+# <a name="configuring-an-on-premises-deployment-for-hybrid-with-lync-online"></a>Configurar una implementación local para un entorno híbrido con Lync Online
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41741180"
 
 _**Última modificación del tema:** 2014-05-28_
 
-Una implementación híbrida es una implementación en la que algunos usuarios están alojados de forma local y algunos usuarios están alojados en línea, pero todos los usuarios comparten el mismo dominio, como user@contoso.com. Esta sección le guiará a través de la implementación de las aplicaciones necesarias para una implementación híbrida y, a continuación, la configuración de su implementación para habilitarla.
+Una implementación híbrida es una implementación en la que algunos usuarios están hospedados en local y algunos usuarios están alojados en línea, pero todos comparten el mismo dominio, como user@contoso.com. Esta sección le guía a lo largo de la implementación de las aplicaciones necesarias para una implementación híbrida y para configurar, a continuación, su implementación para habilitarlo.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Información general del entorno híbrido de Lync Server 2013](lync-server-2013-overview-of-the-lync-server-hybrid-environment.md)
+  - [Información general sobre el entorno híbrido de Lync Server 2013](lync-server-2013-overview-of-the-lync-server-hybrid-environment.md)
 
   - [Pasos para preparar e implementar el entorno híbrido de Lync Server 2013](lync-server-2013-steps-to-prepare-and-deploy-lync-server-hybrid-environment.md)
 

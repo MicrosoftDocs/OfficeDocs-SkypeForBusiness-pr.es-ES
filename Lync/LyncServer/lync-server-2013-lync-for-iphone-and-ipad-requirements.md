@@ -12,16 +12,16 @@ ms:contentKeyID: 51541462
 ms.date: 06/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc80d20006b63c2af50d10aa51150ebfa75b7a88
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 969674ea6e426178ecb040d9474fc8fec85395cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765488"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030894"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41765488"
 
 _**Última modificación del tema:** 2015-06-01_
 
-Para admitir Microsoft Lync 2013 para iPhone o Microsoft Lync 2013 para iPad, el dispositivo debe cumplir con los siguientes requisitos:
+Para admitir Microsoft Lync 2013 para iPhone o Microsoft Lync 2013 para iPad, el dispositivo debe cumplir los siguientes requisitos:
 
-  - dispositivo digital móvil iPhone 6 con Apple iOS 8 o la última versión.
+  - dispositivo digital móvil de iPhone 6 con Apple iOS 8 o la versión más reciente.
 
-  - dispositivo digital móvil iPhone 5 con Apple iOS 7 o la última versión.
+  - dispositivo digital móvil para iPhone 5 con Apple iOS 7 o la versión más reciente.
 
-  - dispositivo digital móvil iPhone 4 con Apple iOS 7 o la última versión.
+  - dispositivo digital móvil de iPhone 4 con Apple iOS 7 o la versión más reciente.
 
-  - iPad 2 o un dispositivo digital móvil de versión posterior con Apple iOS 7 o la última versión.
+  - iPad 2 o un dispositivo digital móvil de una versión posterior con Apple iOS 7 o la versión más reciente.
 
-  - dispositivo digital para iPad mini móvil con Apple iOS 7 o la última versión.
+  - dispositivo digital móvil mini para iPad con Apple iOS 7 o la versión más reciente.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Crear colas de grupo de respuesta'
+title: 'Lync Server 2013: crear colas de grupo de respuesta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184070
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34344654dfc8d2b26a935607111d8fd417d01c19
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 05c918d9f06bb1b22fd65bcde13e4049a0bab3c6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763594"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42009403"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41763594"
 
 _**Última modificación del tema:** 2012-01-18_
 
-Las colas contienen autores de la llamada hasta que un agente atiende la llamada. Cuando la aplicación de grupo de respuesta busca un agente disponible, busca en los grupos de agentes en el orden en que se enumeren. Puede seleccionar los grupos de agentes asignados a la cola y especificar el comportamiento de la cola, como el límite de número de llamadas que puede contener la cola y cuánto tiempo debe esperar una llamada hasta que un agente la responda.
+Las colas contienen autores de la llamada hasta que un agente atiende la llamada. Cuando la aplicación de grupo de respuesta busca un agente disponible, busca los grupos de agentes en el orden en que se enumeran. Puede seleccionar los grupos de agentes asignados a la cola y especificar el comportamiento de la cola, como el límite de número de llamadas que puede contener la cola y cuánto tiempo debe esperar una llamada hasta que un agente la responda.
 
 <div>
 

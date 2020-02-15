@@ -12,16 +12,16 @@ ms:contentKeyID: 54973687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7fe9587e85ad300a212e4a8199fa4a8a48d1877
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7054bae609b5d1a1c6fe176c1092614f5d30fa6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741200"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029711"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,38 +37,38 @@ ms.locfileid: "41741200"
 
 _**Última modificación del tema:** 2013-07-03_
 
-Hay dos tipos de autenticación posibles que se pueden configurar para permitir que AD FS 2.0 admita autenticación con tarjetas inteligentes:
+Hay dos tipos de autenticación posibles que se pueden configurar para permitir que AD FS 2,0 admita la autenticación mediante tarjetas inteligentes:
 
   - Autenticación basada en formularios (FBA)
 
   - Autenticación de cliente de seguridad de capa de transporte
 
-Al usar la autenticación basada en formularios, puede desarrollar una página web que permita a los usuarios autenticarse ya sea por medio de su nombre de usuario/contraseña o por medio de su tarjeta inteligente y PIN. Este tema se enfoca en cómo implementar la autenticación de cliente de seguridad de capa de transporte con AD FS 2.0. Para obtener más información sobre los tipos de autenticación 2,0 de AD FS, consulte AD FS 2,0: Cómo cambiar el tipo [http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384)de autenticación local en.
+Mediante el uso de la autenticación basada en formularios, puede desarrollar una página web que permita a los usuarios autenticarse con su nombre de usuario/contraseña o con su tarjeta inteligente y su PIN. Este tema se centra en cómo implementar la autenticación de cliente de seguridad de capa de transporte con AD FS 2,0. Para obtener más información acerca de los tipos de autenticación 2,0 de AD FS, consulte AD FS 2,0: Cómo cambiar el [http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384)tipo de autenticación local en.
 
 <div>
 
 
-**Para configurar AD FS 2.0 para admitir la autenticación de cliente**
+**Para configurar AD FS 2,0 para admitir la autenticación de cliente**
 
-1.  Inicie sesión en el equipo con AD FS 2.0 por medio de una cuenta de administrador de dominio.
+1.  Inicie sesión en el equipo con AD FS 2,0 con una cuenta de administrador de dominio.
 
 2.  Inicie Windows Explorer.
 
 3.  Ir a C:\\Inetpub\\ADFS\\LS
 
-4.  Haga una copia de seguridad del archivo web.config existente.
+4.  Realice una copia de seguridad del archivo Web. config existente.
 
-5.  Abra el archivo web.config existente con el Bloc de notas.
+5.  Abra el archivo Web. config existente con el Bloc de notas.
 
-6.  Desde la barra de menús, seleccione **Editar** y, luego, seleccione **Buscar**.
+6.  En la barra de menús, seleccione **Editar** y, a continuación, seleccione **Buscar**.
 
 7.  Busque ** \<localAuthenticationTypes\>**.
     
     Tenga en cuenta que hay cuatro tipos de autenticación enumerados, uno por línea.
 
-8.  Mueva la línea que contiene el tipo de autenticación TLSClient hacia la parte superior de la lista en la sección.
+8.  Mueva la línea que contiene el tipo de autenticación TLSClient a la parte superior de la lista de la sección.
 
-9.  Guarde y cierre el archivo web.config.
+9.  Guarde y cierre el archivo Web. config.
 
 10. Inicie un símbolo del sistema con privilegios elevados.
 

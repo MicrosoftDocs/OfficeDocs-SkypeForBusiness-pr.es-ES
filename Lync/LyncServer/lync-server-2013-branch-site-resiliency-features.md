@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Características de resistencia de sitios de sucursal'
+title: 'Lync Server 2013: características de resistencia de sitios de sucursal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a490de36322914235346cbc141784aab2c24f2ce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf5f477bcb5620112789a338339b6ca00bf9c3c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737570"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031044"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,50 +37,50 @@ ms.locfileid: "41737570"
 
 _**Última modificación del tema:** 2014-02-10_
 
-Si proporciona resistencia al sitio de la sucursal, si se produce un error en la conexión WAN de un sitio de sucursal con un sitio central o si el sitio central no está accesible, las siguientes características de voz deben seguir estando disponibles:
+Al proporcionar resistencia a las sucursales, si se produce un error en la conexión WAN de una sucursal a un sitio central o si no se puede alcanzar el sitio central, las siguientes características de voz deberían seguir disponibles:
 
 <div>
 
 
-  - Llamadas de red telefónica conmutada (RTC) entrantes y salientes
+  - Llamadas de red telefónica conmutada (RTC) entrantes y realizadas.
 
-  - Llamadas empresariales entre usuarios en el mismo sitio y entre dos sitios diferentes
+  - Llamadas de empresa entre usuarios del mismo sitio y entre dos sitios diferentes
 
-  - Manejo básico de llamadas, que incluye la llamada en espera, la recuperación y la transferencia
+  - Administración básica de llamadas, incluida la retención, recuperación y transferencia de llamadas.
 
-  - Mensajería instantánea de dos participantes
+  - Mensajería instantánea entre dos participantes
 
-  - Desvío de llamadas, llamadas simultáneas a puntos de conexión, Delegación de llamadas y servicios de llamada de equipo, pero solo si el delegado y el delegado (por ejemplo, un administrador y el administrador del administrador) o todos los miembros del equipo están configurados en el mismo sitio
+  - Desvío de llamadas, llamadas simultáneas a extremos, delegación de llamadas y servicios de llamada de equipo, pero solo si el delegador y el delegado (por ejemplo, un encargado y su administrador) o todos los miembros del equipo están configurados en el mismo sitio
 
-  - Registros de detalles de llamadas (CDRs)
+  - Registros de detalles de las llamadas (CDR)
 
   - Conferencias de acceso telefónico local RTC con operador automático de conferencia
 
-  - Capacidades de correo de voz, si configura la configuración de redireccionamiento del correo de voz. (Para obtener información detallada, consulte [requisitos de resistencia de sitio de sucursal para Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md)).
+  - Capacidades de correo de voz, si configura la configuración de reenrutamiento del correo de voz. (Para obtener más información, consulte [requisitos de resistencia de sitios de sucursal para Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md)).
 
-  - Autenticación y autorización de usuarios
+  - Autorización y autenticación de usuarios
 
-Las siguientes características solo estarán disponibles si la solución de resistencia es una implementación de Lync Server a escala completa en el sitio de la sucursal:
+Las siguientes características solo estarán disponibles si la solución de resistencia es una implementación de Lync Server a escala completa en el sitio de sucursal:
 
-  - Mensajería instantánea, Web y conferencias A/V
+  - Conferencia A/V, web y MI
 
-  - Enrutamiento basado en presencia y no molestar (DND) (donde se impide que las llamadas suenen en extensiones que tienen la activada DND)
+  - Enrutamiento basado en presencia y No molestar (DND) (con el que se evita que las llamadas suenen en extensiones con DND activado)
 
   - Actualización de la configuración del desvío de llamadas
 
   - Aplicación de grupo de respuesta y aplicación de estacionamiento de llamadas
 
-  - Aprovisionamiento de nuevos teléfonos y clientes, pero solo si los servicios de dominio de Active Directory están presentes en el sitio de la sucursal.
+  - Aprovisionamiento de nuevos teléfonos y clientes, pero solo si los servicios de dominio de Active Directory están presentes en el sitio de sucursal.
 
-  - Enhanced 9-1-1 (E9-1-1)
+  - 9-1-1 mejorado (E9-1-1)
     
-    Si se implementa E9-1-1 y el tronco del SIP del sitio central no está disponible debido a que el vínculo WAN está desactivado, el equipo de la sucursal con la que es posible que se enruten las llamadas de E9-1 a la puerta de enlace local. Para habilitar esta característica, las directivas de voz de los usuarios de los sitios de sucursales deberían enrutar las llamadas a la puerta de enlace local en el caso de producirse un error de WAN.
+    Si se ha implementado E9-1-1 y el tronco SIP en el sitio central no está disponible porque el vínculo WAN está inactivo, la aplicación de sucursal con funciones de supervivencia enrutará las llamadas de E9-1-1 a la puerta de enlace de sucursal local. Para habilitar esta característica, las directivas de voz de los usuarios de las sucursales deben enrutar las llamadas a la puerta de enlace local en caso de error de WAN.
 
 <div>
 
 
 > [!NOTE]  
-> SBA (sucursal superviviente) no es compatible con XMPP. Los usuarios alojados en una configuración de SBA no podrán enviar mensajes instantáneos ni ver su presencia con contactos XMPP.
+> SBA (sucursal con funciones de supervivencia) no es compatible con XMPP. Los usuarios hospedados en una configuración de SBA no podrán enviar mensajes instantáneos ni ver presencia con contactos XMPP.
 
 
 

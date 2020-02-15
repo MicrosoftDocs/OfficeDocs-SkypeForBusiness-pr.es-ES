@@ -12,16 +12,16 @@ ms:contentKeyID: 48185978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce76166c44f7b35781c6181ac37191bad784fa74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a6cd1ea107dee9a32d695bf51e7b6998542fc76
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742210"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,30 +37,30 @@ ms.locfileid: "41742210"
 
 _**Última modificación del tema:** 2012-03-21_
 
-El shell de administración de Lync Server es una implementación de la ventana de comandos de Windows PowerShell con cmdlets específicos para administrar Microsoft Lync Server 2010 previamente cargado en el entorno. Estos cmdlets permiten personalizar ese entorno.
+El shell de administración de Lync Server es una implementación de la ventana de comandos de Windows PowerShell con cmdlets específicos para la administración de Microsoft Lync Server 2010 previamente cargado en el entorno. Estos cmdlets permiten personalizar el entorno.
 
 <div>
 
-## <a name="lync-server-management-shell-configuration-cmdlets"></a>Cmdlets de configuración del shell de administración de Lync Server
+## <a name="lync-server-management-shell-configuration-cmdlets"></a>Cmdlets de configuración del Shell de administración de Lync Server
 
-Use estos cmdlets para establecer determinadas propiedades personalizadas del shell de administración de Lync Server.
-
-  - <span></span>  
-    [Get-CsUICulture](https://technet.microsoft.com/en-us/library/Gg412900(v=OCS.15))
+Use estos cmdlets para configurar determinadas propiedades personalizadas del shell de administración de Lync Server.
 
   - <span></span>  
-    [Set-CsUICulture](https://technet.microsoft.com/en-us/library/Gg398354(v=OCS.15))
+    [Get-CsUICulture](https://technet.microsoft.com/library/Gg412900(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsUICulture](https://technet.microsoft.com/library/Gg398354(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg412849(v=OCS.15))
+    [Get-CsManagementConnection](https://technet.microsoft.com/library/Gg412849(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg425803(v=OCS.15))
+    [Remove-CsManagementConnection](https://technet.microsoft.com/library/Gg425803(v=OCS.15))
 
   - <span></span>  
-    [Set-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg413045(v=OCS.15))
+    [Set-CsManagementConnection](https://technet.microsoft.com/library/Gg413045(v=OCS.15))
 
 </div>
 

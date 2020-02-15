@@ -12,16 +12,16 @@ ms:contentKeyID: 51541514
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ea0721b69ff8c7fa666a77f96123c9f605092ae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f5ea73784e025cb1270451706d5a59628020b629
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765478"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030884"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41765478"
 
 _**Última modificación del tema:** 2013-02-20_
 
-Microsoft Lync 2013 para Windows Phone proporciona mensajería instantánea (mi), presencia mejorada y telefonía a los usuarios de su organización que se conectan desde un smartphone o un dispositivo móvil Windows Professional. Los dispositivos móviles permiten a los usuarios ampliar el alcance de Lync 2013. En este tema se describen las consideraciones de planeación de Lync 2013 para Windows Phone, que incluyen identificar requisitos previos y requisitos técnicos, componentes necesarios e instrucciones de implementación.
+Microsoft Lync 2013 para Windows Phone ofrece mensajería instantánea, presencia mejorada y telefonía para los usuarios de su organización que se conectan desde un smartphone o un dispositivo móvil con Windows Professional. Los dispositivos móviles permiten a los usuarios ampliar el alcance de Lync 2013. En este tema se describen las consideraciones de planeación para Lync 2013 para Windows Phone que incluyen la identificación de requisitos previos y requisitos técnicos, los componentes necesarios y la guía de implementación.
 
 <div>
 
@@ -45,13 +45,13 @@ Microsoft Lync 2013 para Windows Phone proporciona mensajería instantánea (mi)
 
 A continuación se muestran los requisitos previos de Lync 2013 para Windows Phone.
 
-  - Windows Phone 8, con el "Apollo" o la última versión.
+  - Windows Phone 8, con el mismo número "Apollo" o la versión más reciente.
 
-  - El dispositivo Windows Phone necesita tener las últimas actualizaciones disponibles en Microsoft. Para obtener más información, vea historial de actualizaciones de [http://go.microsoft.com/fwlink/p/?LinkID=281961](http://go.microsoft.com/fwlink/p/?linkid=281961)Windows Phone 8 en.
+  - El dispositivo Windows Phone debe tener las actualizaciones más recientes disponibles en Microsoft. Para obtener más información, consulte historial de actualizaciones de [http://go.microsoft.com/fwlink/p/?LinkID=281961](http://go.microsoft.com/fwlink/p/?linkid=281961)Windows Phone 8 en.
 
-  - El dispositivo debe tener 12 MB de espacio en disco disponible.
+  - El dispositivo debe tener 12 MB de espacio disponible en disco.
 
-  - El usuario necesita tener un plan de voz y de datos de un operador.
+  - El usuario debe tener un plan de voz y de datos de un operador.
 
 </div>
 

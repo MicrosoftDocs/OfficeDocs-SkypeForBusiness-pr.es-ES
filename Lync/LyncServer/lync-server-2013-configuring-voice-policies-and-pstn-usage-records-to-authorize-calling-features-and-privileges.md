@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar directivas de voz y registros de uso de la RTC para autorizar características y privilegios de llamada'
+title: 'Lync Server 2013: configurar directivas de voz y registros de uso de RTC para autorizar características y privilegios de llamada'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b9f7da3f8560ae0a897211405d686d9ed35101e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 339eba57121b475732794b15c2c5d16dced303ba
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734420"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029907"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges-in-lync-server-2013"></a>Configurar directivas de voz y registros de uso de la RTC para autorizar características y privilegios de llamada en Lync Server 2013
+# <a name="configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges-in-lync-server-2013"></a>Configurar directivas de voz y registros de uso de RTC para autorizar características y privilegios de llamada en Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41734420"
 
 _**Última modificación del tema:** 2012-10-10_
 
-Una *Directiva de voz* habilita un conjunto de características de llamadas y asocia uno o varios registros de uso de RTC para definir las características de las llamadas y los permisos de los usuarios que tienen asignada la Directiva.
+Una *directiva de voz* habilita un conjunto de características y asocia uno o más registros de uso RTC para definir las características de llamada y los permisos para los usuarios a los que se asigna la directiva.
 
-El ámbito de la Directiva de voz puede ser cualquier *sitio* (que define las características y los permisos predeterminados de un sitio de red) o *usuario* (que define las características y permisos que se asignarán por usuario o por grupo). Los usuarios que no estén asignados a una directiva de voz se asignarán automáticamente a la directiva global, que es la Directiva de voz predeterminada que se instala con el producto.
+El ámbito de la directiva de voz puede ser *Sitio* (que define las características y permisos predeterminados para un sitio de red) o *Usuario* (que define las características y los permisos que se van a asignar a cada usuario o cada grupo). A los usuarios que no tengan asignada una directiva de voz se les asignará automáticamente una directiva global, que es la directiva de voz predeterminada que se instala con el producto.
 
 <div>
 
 
 > [!NOTE]  
-> Para obtener más información, consulte <A href="lync-server-2013-voice-policies.md">directivas de voz en Lync Server 2013</A> en la documentación de planeación.
+> Para obtener más información, consulte <A href="lync-server-2013-voice-policies.md">directivas de voz en Lync Server 2013</A> en la documentación referente a la planeación.
 
 
 
@@ -59,7 +59,7 @@ El ámbito de la Directiva de voz puede ser cualquier *sitio* (que define las ca
 
   - [Modificar una directiva de voz y configurar los registros de uso de RTC en Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)
 
-  - [Configurar el escape del correo de voz en Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md)
+  - [Configurar el escape de correo de voz en Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md)
 
 </div>
 

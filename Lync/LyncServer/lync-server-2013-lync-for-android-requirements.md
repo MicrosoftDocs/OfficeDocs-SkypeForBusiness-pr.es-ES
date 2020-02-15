@@ -12,16 +12,16 @@ ms:contentKeyID: 53312965
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c584a20df5dc2516115b4b137c0543576d5fa4d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c89439f46c98fd1f00d7cb95eb4a910b26971be0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765498"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030904"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41765498"
 
 _**Última modificación del tema:** 2014-04-24_
 
-Microsoft Lync 2013 Microsoft Lync 2013 para Android proporciona funciones de mensajería instantánea (mi), presencia mejorada y Unión de reuniones de Lync a los usuarios de su organización que se conecten desde un dispositivo Android. En este tema se describen las consideraciones para Lync 2013 para Android, incluidos los requisitos previos, los requisitos técnicos y los componentes necesarios.
+Microsoft Lync 2013 Microsoft Lync 2013 para Android proporciona funcionalidad de mensajería instantánea, presencia mejorada y participación en reuniones de Lync para los usuarios de la organización que se conectan desde un dispositivo Android. En este tema se describen las consideraciones para Lync 2013 para Android, incluidos los requisitos previos, los requisitos técnicos y los componentes necesarios.
 
 <div>
 
-## <a name="lync-for-android-prerequisite"></a>Requisito previo de Lync para Android
+## <a name="lync-for-android-prerequisite"></a>Requisitos previos de Lync para Android
 
-Para admitir Lync 2013 para Android, el dispositivo Android debe cumplir los siguientes requisitos:
+Para admitir Lync 2013 para Android, el dispositivo Android debe cumplir con los siguientes requisitos:
 
-  - El dispositivo Android debe estar ejecutando Android 4,0 o un sistema operativo orientado a teléfonos o tableta, incluidas las tabletas, excepto las que tienen el chip Tegra2.
+  - El dispositivo Android debe ejecutar Android 4,0 o un sistema operativo orientado a teléfonos o tableta posterior, incluidas las tabletas, excepto las que tienen el chip Tegra2.
 
   - El dispositivo debe tener una CPU de 1,2 GHz de doble núcleo o superior.
 
-  - La resolución de cámara de dispositivo (frontal y trasera) debe ser VGA o superior.
+  - La resolución de cámara de dispositivo (frontal/trasera) debe ser VGA o superior.
 
-  - Otros requisitos de hardware se deben alinear con el documento definición de compatibilidad de Android 4,0.
+  - Otros requisitos de hardware deben estar alineados con el documento de definición de compatibilidad de Android 4,0.
 
 </div>
 
@@ -59,7 +59,7 @@ Para admitir Lync 2013 para Android, el dispositivo Android debe cumplir los sig
 
 ## <a name="other-technical-considerations"></a>Otras consideraciones técnicas
 
-En la plataforma de dispositivos Android, la aplicación Lync puede ejecutarse en segundo plano. Por lo tanto, a diferencia de otras plataformas de dispositivos móviles, las notificaciones push no son necesarias para dispositivos Android. La única forma de salir de la aplicación de Lync en un dispositivo Android es cerrar la sesión de forma explícita de Lync. Esta versión de la aplicación Lync no se admite en dispositivos con chipsets Tegra 2.
+En la plataforma de dispositivos Android, la aplicación Lync puede ejecutarse en segundo plano. Por lo tanto, a diferencia de otras plataformas de dispositivos móviles, las notificaciones de inserción no son necesarias para dispositivos Android. La única forma de salir de la aplicación Lync en un dispositivo Android es cerrar la sesión de forma explícita en Lync. Esta versión de la aplicación Lync no es compatible con los dispositivos con conjuntos de chips Tegra 2.
 
 </div>
 

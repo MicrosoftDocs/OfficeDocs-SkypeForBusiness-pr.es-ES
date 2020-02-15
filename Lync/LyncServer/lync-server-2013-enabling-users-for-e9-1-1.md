@@ -12,20 +12,20 @@ ms:contentKeyID: 48183884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86d5032defc7322e96662dcfe6357bd30c598e45
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a5ba14f24694bf3b9485e60102007a0bfee788c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735610"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031094"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-users-for-e9-1-1-in-lync-server-2013"></a>Habilitar usuarios para E9-1-1 en Lync Server 2013
+# <a name="enabling-users-for-e9-1-1-in-lync-server-2013"></a>Habilitación de usuarios para E9-1-1 en Lync Server 2013
 
 </div>
 
@@ -37,22 +37,22 @@ ms.locfileid: "41735610"
 
 _**Última modificación del tema:** 2012-06-06_
 
-Durante el registro del cliente, Lync Server usa una directiva de ubicación para configurar las E9-1-1 para los usuarios habilitados para voz empresarial. Esta directiva contiene la configuración que define cómo se implementa E9-1-1. Por ejemplo, la Directiva de ubicación contiene información como, por ejemplo, la cadena de marcado de emergencia y si un usuario debe o no especificar manualmente una ubicación si el servicio de información de ubicación no proporciona una automáticamente. Para obtener una definición completa de una directiva de ubicación, consulte [definir la Directiva de ubicación de Lync Server 2013](lync-server-2013-defining-the-location-policy.md).
+Durante el registro de clientes, Lync Server usa una directiva de ubicación para configurar las propiedades de E9-1-1 para los usuarios habilitados para Enterprise Voice. Esta directiva contiene la configuración que define cómo se implementa E9-1-1. Por ejemplo, la Directiva de ubicación contiene información como la cadena de marcado de emergencia y si un usuario debe o no especificar manualmente una ubicación si el servicio de información de ubicación no proporciona uno automáticamente. Para obtener una definición completa de una directiva de ubicación, consulte [Defining The location Policy for Lync Server 2013](lync-server-2013-defining-the-location-policy.md).
 
-Lync Server puede asignar una directiva de ubicación a los clientes en función de la subred o a los usuarios en función de una directiva global, por sitio o por usuario. Para ayudarte a decidir cómo habilitarás los usuarios, necesitas responder primero las siguientes preguntas.
+Lync Server puede asignar una directiva de ubicación a los clientes en función de la subred o a los usuarios en función de una directiva global, por sitio o por usuario. Para ayudarle a decidir cómo habilitará los usuarios, debe responder en primer lugar las siguientes preguntas.
 
   - **¿Piensa habilitar todos los usuarios o limitar la compatibilidad a zonas geográficas específicas de la empresa?**  
-    Puede asignar una ubicación a todos los usuarios de su empresa mediante una directiva de ubicación global. Sin embargo, si asigna una directiva de ubicación a un sitio de red de Lync Server y luego agrega subredes al sitio, puede limitar la compatibilidad de E9-1-1 a ubicaciones seleccionadas dentro de la empresa y especificar el comportamiento de enrutamiento de E9-1-1 en cada sitio.
+    Puede asignar una ubicación a todos los usuarios de la empresa mediante una directiva de ubicación global. Sin embargo, al asignar una directiva de ubicación a un sitio de red de Lync Server y, a continuación, agregar subredes al sitio, puede limitar la compatibilidad con E9-1-1 a ubicaciones seleccionadas dentro de la empresa y especificar el comportamiento de enrutamiento E9-1-1 en cada sitio.
 
 <!-- end list -->
 
   - **¿Piensa habilitar usuarios individuales a través de una directiva de usuario?**  
-    Si deseas personalizar la asistencia de E9-1-1, puedes asignar directivas de ubicación directamente a usuarios o a objetos de contactos telefónicos de un área común específicos.
+    Puede asignar directivas de ubicación directamente a usuarios específicos u objetos de contactos telefónicos de un área común si desea personalizar la compatibilidad con E9-1-1.
 
 <!-- end list -->
 
-  - **Cuando los clientes se desplazan fuera de la red o se encuentran en una subred no definida en la red, ¿tienen los clientes que seguir habilitados en E9-1-1?**  
-    Si se asigna a los usuarios una directiva de ubicación global, de sitio o por usuario, se les puede requerir introducir manualmente una ubicación en el cliente si el cliente no se encuentra en una subred definida o si el servicio de información de ubicación no ha encontrado ninguna ubicación. Para obtener más información, vea [definir la experiencia de usuario para adquirir una ubicación de forma manual en Lync Server 2013](lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md).
+  - **Cuando los clientes se desplazan fuera de la red o se encuentran en una subred no definida en la red, ¿deben los clientes seguir habilitados en E9-1-1?**  
+    Si los usuarios tienen asignada una directiva de ubicación global, de sitio o por usuario, se les puede requerir especificar manualmente una ubicación en el cliente si el cliente no se encuentra en una subred definida o si el servicio de información de ubicación no ha encontrado ninguna ubicación. Para obtener más información, consulte [definir la experiencia de usuario para adquirir manualmente una ubicación en Lync Server 2013](lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md).
 
 </div>
 

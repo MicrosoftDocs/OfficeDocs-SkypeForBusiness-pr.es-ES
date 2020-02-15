@@ -12,20 +12,20 @@ ms:contentKeyID: 51541534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcd995a99514fa54a221e17f1ea556565cbebdcb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b3ff23a228710ecc934e2984f27c63351ccf6d32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729620"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030954"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-the-sefautil-tool-in-lync-server-2013"></a>Deploy the SEFAUtil tool in Lync Server 2013
+# <a name="deploy-the-sefautil-tool-in-lync-server-2013"></a>Implementar la herramienta SEFAUtil en Lync Server 2013
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41729620"
 
 _**Última modificación del tema:** 2013-01-30_
 
-Para implementar y administrar la recopilación de llamadas de grupo, necesita usar la herramienta del kit de recursos de SEFAUtil. La herramienta forma parte de las herramientas del kit de recursos de Lync Server 2013. Para poder instalar SEFAUtil, debe disponer de un grupo de aplicaciones de confianza en su topología, especificar SEFAUtil como una aplicación de confianza y habilitar la topología.
+Para implementar y administrar la recogida de llamadas de grupo, debe usar la herramienta del kit de recursos de SEFAUtil. La herramienta forma parte de las herramientas del kit de recursos de Lync Server 2013. Para poder instalar SEFAUtil, debe tener un grupo de aplicaciones de confianza en la topología, especificar SEFAUtil como aplicación de confianza y habilitar la topología.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Instale el SDK de la API administrada de comunicaciones unificadas (UCMA) de Microsoft 3.0 Core en los equipos donde planee ejecutar la herramienta SEFAUtil.
+> El SDK de la API administrada de comunicaciones unificadas (UCMA) 3,0 de Microsoft debe estar instalado en cualquier equipo en el que tenga previsto ejecutar la herramienta SEFAUtil.
 
 
 
 </div>
 
-Puede ejecutar el SEFAUtil en cualquier grupo de servidores front-end de su implementación.
+Puede ejecutar el SEFAUtil en cualquier grupo de servidores front-end en su implementación de.
 
 <div>
 
 
 > [!NOTE]  
-> Para obtener más información sobre cómo ejecutar SEFAUtil, consulte el artículo del blog de TechNet, "Cómo obtener SEFAutil en ejecución". en <A href="http://go.microsoft.com/fwlink/?linkid=278940">http://go.microsoft.com/fwlink/?LinkId=278940</A>.
+> Para obtener más información sobre cómo ejecutar SEFAUtil, vea el artículo del blog de TechNet sobre cómo obtener SEFAutil en ejecución. en <A href="http://go.microsoft.com/fwlink/?linkid=278940">http://go.microsoft.com/fwlink/?LinkId=278940</A>.
 
 
 
@@ -65,15 +65,15 @@ Puede ejecutar el SEFAUtil en cualquier grupo de servidores front-end de su impl
 
 ## <a name="to-deploy-sefautil"></a>Para implementar SEFAUtil
 
-1.  Inicie sesión en el equipo donde está instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [permisos de configuración de delegado en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Inicie sesión en el equipo donde esté instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-3.  La herramienta SEFAUtil solo se puede ejecutar en un equipo que forme parte de un grupo de aplicaciones de confianza. Si es necesario, defina un grupo de aplicaciones de confianza para el grupo de servidores front-end en el que tiene previsto ejecutar SEFAUtil. En la línea de comandos, ejecute:
+3.  La herramienta SEFAUtil solo puede ejecutarse en un equipo que forme parte de un grupo de aplicaciones de confianza. Si es necesario, defina un grupo de aplicaciones de confianza para el grupo de servidores front-end en el que planea ejecutar SEFAUtil. En la línea de comandos, ejecute:
     
         New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
 
-4.  Defina la herramienta SEFAUtil como aplicación de confianza. En la línea de comandos, ejecute:
+4.  Defina la herramienta SEFAUtil como una aplicación de confianza. En la línea de comandos, ejecute:
     
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
     
@@ -81,7 +81,7 @@ Puede ejecutar el SEFAUtil en cualquier grupo de servidores front-end de su impl
     
 
     > [!NOTE]  
-    > Si es preciso, puede usar otro puerto.
+    > Puede usar un puerto diferente si es necesario.
 
     
     </div>
@@ -92,9 +92,9 @@ Puede ejecutar el SEFAUtil en cualquier grupo de servidores front-end de su impl
 
 6.  Instale las herramientas del kit de recursos de Lync Server 2013 en un servidor front-end que se encuentra en el grupo de aplicaciones de confianza que creó en el paso 3.
 
-7.  Compruebe que la herramienta SEFAUtil funcione correctamente, tal como se indica:
+7.  Compruebe que la herramienta SEFAUtil se está ejecutando correctamente, de la siguiente manera:
     
-    1.  Ejecute la herramienta desde el símbolo del sistema de Windows con privilegios de administrador para que aparezca la configuración de reenvío de llamadas de un usuario en la implementación.
+    1.  Ejecute la herramienta desde el símbolo del sistema de Windows con privilegios de administrador para mostrar la configuración de desvío de llamadas de un usuario en la implementación.
         
         <div>
         
@@ -105,11 +105,11 @@ Puede ejecutar el SEFAUtil en cualquier grupo de servidores front-end de su impl
         
         </div>
     
-    2.  Muestre la configuración de reenvío de llamadas de un usuario. En la línea de comandos, ejecute:
+    2.  Muestra la configuración de desvío de llamadas de un usuario. En la línea de comandos, ejecute:
         
             SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
         
-        Aparecerá la configuración de reenvío de llamadas del usuario.
+        Se mostrará la configuración de desvío de llamadas para el usuario.
 
 </div>
 

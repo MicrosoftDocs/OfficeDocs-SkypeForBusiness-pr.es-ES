@@ -12,16 +12,16 @@ ms:contentKeyID: 48185346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e11d79278318c99e1c6a1db3c4609e19553ba4c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3e7dafe07796f6d93e6357a5bff9aa058fe29b85
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757824"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028751"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41757824"
 
 _**Última modificación del tema:** 2012-10-03_
 
-Lync Server 2013 incluye una interfaz de servicio web estándar que puede usar para conectar el servicio de información de ubicación con aplicaciones de Protocolo simple de administración de redes (SNMP) que coinciden con direcciones MAC con información de puertos y conmutadores.
+Lync Server 2013 incluye una interfaz de servicio web estándar que puede usar para conectar el servicio de información de ubicaciones con aplicaciones de Protocolo simple de administración de redes (SNMP) que coinciden con direcciones MAC con información de puertos y conmutadores.
 
-Si se instala una aplicación SNMP y el servicio de información de ubicación no puede encontrar una coincidencia en la base de datos de ubicación, el servicio de información de ubicación consulta automáticamente la aplicación mediante la dirección MAC proporcionada por el cliente. El servicio de información de ubicación usa la información de puerto y de cambio devuelta por la aplicación SNMP para consultar de nuevo la base de datos de ubicación.
+Si se instala una aplicación SNMP y el servicio de información de ubicación no encuentra ninguna coincidencia en la base de datos de ubicaciones, el servicio de información de ubicaciones consulta automáticamente la aplicación mediante la dirección MAC proporcionada por el cliente. A continuación, el servicio de información de ubicación usa la información de conmutadores y puertos devuelta por la aplicación SNMP para consultar la base de datos de ubicaciones.
 
 Para obtener más información, consulte [set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration).
 
@@ -47,7 +47,7 @@ Para obtener más información, consulte [set-CsWebServiceConfiguration](https:/
 
 
 > [!NOTE]  
-> Las direcciones MAC no están disponibles en equipos que ejecutan Windows 8.
+> Las direcciones MAC no están disponibles en los equipos que ejecutan Windows 8.
 
 
 
@@ -57,7 +57,7 @@ Para obtener más información, consulte [set-CsWebServiceConfiguration](https:/
 
 ## <a name="to-configure-the-snmp-application-url"></a>Para configurar la dirección URL de la aplicación SNMP:
 
-1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
 2.  Ejecute el cmdlet siguiente para configurar la dirección URL para la aplicación SNMP.
     

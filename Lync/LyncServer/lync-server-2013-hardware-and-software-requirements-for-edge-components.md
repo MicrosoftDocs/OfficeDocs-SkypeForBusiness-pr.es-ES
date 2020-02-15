@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Requisitos de hardware y software para componentes perimetrales'
+title: 'Lync Server 2013: requisitos de hardware y software para componentes perimetrales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185273
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1951d682b42cd30477b25287525b7c457c910d6e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 296aed129b590d69103c89f50a1c2965d3181f7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757884"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030343"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41757884"
 
 _**Última modificación del tema:** 2013-03-14_
 
-Los requisitos de hardware y software para los componentes de Edge incluyen los de los componentes de software de comunicaciones de Lync Server 2013, incluidos los servidores perimetrales y los directores opcionales. Para obtener más información sobre los componentes necesarios para admitir el acceso de usuarios externos y las topologías admitidas, vea [componentes necesarios para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-components-required-for-external-user-access.md).
+Los requisitos de hardware y software para los componentes perimetrales incluyen los de los componentes de software de comunicaciones de Lync Server 2013, incluidos los servidores perimetrales y los directores opcionales. Para obtener más información sobre los componentes necesarios para admitir el acceso de usuarios externos y las topologías admitidas, consulte [Components required for external User Access in Lync Server 2013](lync-server-2013-components-required-for-external-user-access.md).
 
 <div>
 
-## <a name="hardware-for-edge-servers-and-directors"></a>Hardware para servidores y directores perimetrales
+## <a name="hardware-for-edge-servers-and-directors"></a>Hardware para servidores perimetrales y directores
 
-Las recomendaciones y los requisitos de hardware se definen en la sección de capacidad de soporte. Para los servidores perimetrales y para los directores opcionales, en el siguiente tema se detallan las configuraciones de hardware recomendadas. En planificación, vea [plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md).
+Las recomendaciones y los requisitos de hardware se definen en la sección compatibilidad. Para los servidores perimetrales y para los directores opcionales, en el siguiente tema se detallan las configuraciones de hardware recomendadas. En planeación, consulte [plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md).
 
 </div>
 
@@ -51,9 +51,9 @@ Las recomendaciones y los requisitos de hardware se definen en la sección de ca
 
 ## <a name="software-requirements-for-edge-servers-and-directors"></a>Requisitos de software para servidores perimetrales y directores
 
-Los requisitos del sistema operativo para los servidores perimetrales y para los directores opcionales son coherentes con otras funciones de Lync Server 2013. Los sistemas operativos compatibles se detallan en [compatibilidad del sistema operativo de servidor y herramientas de Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md).
+Los requisitos del sistema operativo para los servidores perimetrales y los directores opcionales son coherentes con otros roles de Lync Server 2013. Los sistemas operativos compatibles se detallan en [compatibilidad con sistemas operativos de servidor y herramientas en Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md).
 
-Los requisitos de software y componentes adicionales para los servidores perimetrales y para los directores opcionales se detallan en [los requisitos de software adicionales para Lync Server 2013](lync-server-2013-additional-software-requirements.md).
+Los requisitos de software y componentes adicionales para los servidores perimetrales y los directores opcionales se detallan en [requisitos de software adicionales para Lync Server 2013](lync-server-2013-additional-software-requirements.md).
 
 </div>
 
@@ -65,7 +65,7 @@ Los requisitos de software y componentes adicionales para los servidores perimet
 [Componentes necesarios para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-components-required-for-external-user-access.md)  
 [Plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md)  
 [Compatibilidad del sistema operativo con el servidor y las herramientas en Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md)  
-[Requisitos adicionales de software para Lync Server 2013](lync-server-2013-additional-software-requirements.md)  
+[Requisitos de software adicionales para Lync Server 2013](lync-server-2013-additional-software-requirements.md)  
   
 
 </div>

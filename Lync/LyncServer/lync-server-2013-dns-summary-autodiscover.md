@@ -12,16 +12,16 @@ ms:contentKeyID: 51541504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ed7d6edb44ebca8656a50aec432fe3c0ac669d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 236a3625b755697580e57c926dd5714a44c0347f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737350"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029581"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41737350"
 
 _**Última modificación del tema:** 2013-02-13_
 
-Detección automática es un servicio flexible, ya que acepta la comunicación a través de HTTP o HTTPS. Para ello, el sistema de nombres de dominio (DNS) y los certificados usados por los servidores que hospedan el servicio Detección automática deben estar configurados correctamente. Los requisitos de certificado se tratan en [Resumen del certificado: detección automática en Lync Server 2013](lync-server-2013-certificate-summary-autodiscover.md).
+La detección automática es un servicio flexible en el que aceptará la comunicación a través de HTTP o HTTPS. Para ello, el sistema de nombres de dominio (DNS) y los certificados que usan los servidores que hospedan el servicio Detección automática deben estar configurados correctamente. Los requisitos de certificado se tratan en [Resumen de certificado-detección automática en Lync Server 2013](lync-server-2013-certificate-summary-autodiscover.md).
 
 <div>
 
 
 > [!IMPORTANT]  
-> La lógica de búsqueda DNS para los clientes de Lync Server usa un orden específico de resolución. Siempre debes incluir el lyncdiscoverinternal. &lt;dominio&gt; y el lyncdiscover. &lt;dominio&gt; en el DNS. Excluyendo la lyncdiscoverinternal. &lt;Registro&gt; de dominio hará que los clientes internos no se conecten a los servicios previstos o reciban la respuesta incorrecta de detección automática.
+> La lógica de búsqueda DNS para los clientes de Lync Server usa un orden de resolución específico. Siempre debe incluir la lyncdiscoverinternal. &lt;domain&gt; y lyncdiscover. &lt;dominio&gt; en el DNS. Excluir lyncdiscoverinternal. &lt;el&gt; registro de dominio hará que los clientes internos no puedan conectarse a los servicios previstos o reciban la respuesta de detección automática incorrecta.
 
 
 
@@ -68,18 +68,18 @@ Detección automática es un servicio flexible, ya que acepta la comunicación a
 <tr class="odd">
 <td><p>CNAME</p></td>
 <td><p>Lyncdiscoverinternal. &lt;nombre de dominio interno&gt;</p></td>
-<td><p>El FQDN de los servicios Web internos para el grupo de directores, si tiene uno, o para el grupo de servidores front-end si no tiene un director.</p></td>
+<td><p>El FQDN de servicios Web internos para el grupo de directores, si tiene uno, o para el grupo de servidores front-end si no tiene un director.</p></td>
 </tr>
 <tr class="even">
 <td><p>A (host, si IPv6, AAAA)</p></td>
 <td><p>lyncdiscoverinternal. &lt;nombre de dominio interno&gt;</p></td>
-<td><p>Dirección IP de los servicios Web internos (dirección IP virtual (VIP) si usa un equilibrador de carga) de su grupo de directores, si tiene uno o el grupo de servidores front-end, si no tiene un director.</p></td>
+<td><p>Dirección IP de servicios Web internos (dirección IP virtual (VIP) si usa un equilibrador de carga) de su grupo de directores, si tiene uno o el grupo de servidores front-end si no tiene un director.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Cree uno de los siguientes registros de DNS externos:
+Debe crear uno de los siguientes registros DNS externos:
 
 ### <a name="external-dns-records"></a>Registros DNS externos
 
@@ -115,7 +115,7 @@ Cree uno de los siguientes registros de DNS externos:
 
 
 > [!NOTE]  
-> El tráfico externo pasa por el proxy inverso.
+> El tráfico externo circula a través del proxy inverso.
 
 
 
@@ -125,7 +125,7 @@ Cree uno de los siguientes registros de DNS externos:
 
 
 > [!NOTE]  
-> Los clientes de dispositivos móviles no admiten varios certificados de capa de sockets seguros (SSL) de diferentes dominios. Por lo tanto, no se admite la redirección CNAME a dominios diferentes a través de HTTPS. Por ejemplo, un registro CNAME de DNS para lyncdiscover.contoso.com que redirige a una dirección de director.contoso.net no es compatible con HTTPS. En una topología de este tipo, un cliente de dispositivo móvil debe usar HTTP para la primera solicitud, de modo que la redirección CNAME se resuelva por HTTP. Después, las solicitudes posteriores usan HTTPS. Para admitir este escenario, debe configurar el proxy inverso con una regla de publicación web para el puerto 80 (HTTP). Para obtener más información, consulte "para crear una regla de publicación web para el puerto 80" en <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">configurar el proxy inverso para la movilidad en Lync Server 2013</A>. El redireccionamiento CNAME para el mismo dominio es compatible con HTTPS. En este caso, el certificado del dominio de destino cubre el dominio de origen.
+> Los clientes de dispositivos móviles no admiten varios certificados de capa de sockets seguros (SSL) de distintos dominios. Por lo tanto, la redirección de CNAME a distintos dominios no se admite a través de HTTPS. Por ejemplo, un registro CNAME de DNS para lyncdiscover.contoso.com que se redirige a una dirección de director.contoso.net no se admite a través de HTTPS. En una topología así, un cliente de dispositivo móvil necesita usar HTTP para la primera solicitud, de modo que la redirección de CNAME se resuelva a través de HTTP. A continuación, las solicitudes posteriores usan HTTPS. Para admitir este escenario, debe configurar el proxy inverso con una regla de publicación web para el puerto 80 (HTTP). Para obtener información detallada, consulte "para crear una regla de publicación web para el puerto 80" en <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Configuring the inverso proxy for Mobility in Lync Server 2013</A>. La redirección de CNAME al mismo dominio se admite a través de HTTPS. En este caso, el certificado del dominio de destino cubre el dominio de origen.
 
 
 
@@ -139,7 +139,7 @@ Cree uno de los siguientes registros de DNS externos:
 [Configuración del proxy inverso para movilidad en Lync Server 2013](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)  
 
 
-[Resumen del certificado: detección automática en Lync Server 2013](lync-server-2013-certificate-summary-autodiscover.md)  
+[Resumen de certificado-detección automática en Lync Server 2013](lync-server-2013-certificate-summary-autodiscover.md)  
   
 
 </div>

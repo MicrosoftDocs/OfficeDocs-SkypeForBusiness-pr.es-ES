@@ -12,16 +12,16 @@ ms:contentKeyID: 49733711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10cd31639445fab6138ea77cb40a03d727ecce12
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 74d89b14b783e2b78050b2db8e71a1009c974384
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726180"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029551"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41726180"
 
 _**Última modificación del tema:** 2012-10-22_
 
-Los agentes de System Center Operations Manager que se ejecutan en una red perimetral (como un servidor perimetral de Lync Server), fuera de la empresa (como un nodo de monitor de transacciones sintéticos externo) o a través de un límite de confianza de los servicios de dominio de Active Directory pueden requerir la configuración de un servidor de puerta de enlace de System Center Operations Manager. Este rol de servidor permite que los agentes que no tienen una relación de confianza con el servidor de administración raíz generen alertas. Para obtener más información, vea "administrar servidores de puerta de enlace en Operations Manager 2007" en la biblioteca [http://go.microsoft.com/fwlink/p/?LinkId=268703](http://go.microsoft.com/fwlink/p/?linkid=268703)de TechNet de System Center Operations Manager en.
+Los agentes de System Center Operations Manager que se ejecutan en una red perimetral (como un servidor perimetral de Lync Server), fuera de la empresa (como un nodo de monitor de transacciones sintéticas externo) o en un límite de confianza de los servicios de dominio de Active Directory, podrían requerir la configuración de un servidor de puerta de enlace de System Center Operations Manager. Este rol de servidor permite que los agentes que no tienen una relación de confianza con el servidor de administración raíz inicien alertas. Para obtener más información, vea "administrar servidores de puerta de enlace en Operations Manager 2007" en la biblioteca [http://go.microsoft.com/fwlink/p/?LinkId=268703](http://go.microsoft.com/fwlink/p/?linkid=268703)de TechNet de System Center Operations Manager en.
 
-Si implementa un agente en una de estas ubicaciones, también tendrá que solicitar y configurar un certificado que permita al nodo de monitor enviar alertas a System Center Operations Manager. Para simplificar este proceso, el equipo de Operations Manager ha creado un conjunto de utilidades que le permiten solicitar e instalar el tipo de certificado correcto en el equipo del nodo de observador. Para obtener más información y para descargar estas utilidades, consulte el artículo de blog "obtener certificados para agentes no Unidos a un dominio fácilmente con el Asistente para [http://go.microsoft.com/fwlink/p/?LinkId=267421](http://go.microsoft.com/fwlink/p/?linkid=267421)generación de certificados" en.
+Si implementa un agente en una de estas ubicaciones, también tendrá que solicitar y configurar un certificado que permita al nodo de monitor enviar alertas a System Center Operations Manager. Para simplificar este proceso, el equipo de Operations Manager creó una serie de utilidades para que pueda solicitar e instalar el tipo correcto de certificado en la PC nodo de supervisión. Para obtener más información y para descargar estas utilidades, consulte el artículo del blog "obtención de certificados para agentes no Unidos a un dominio fácilmente con el asistente [http://go.microsoft.com/fwlink/p/?LinkId=267421](http://go.microsoft.com/fwlink/p/?linkid=267421)para generación de certificados" en.
 
 </div>
 

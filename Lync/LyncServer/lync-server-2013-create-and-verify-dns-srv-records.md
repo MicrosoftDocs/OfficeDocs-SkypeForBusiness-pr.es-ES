@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Crear y comprobar registros DNS SRV'
+title: 'Lync Server 2013: crear y comprobar registros DNS SRV'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8440d2ae91d535c8c4747c923b1b17dda9bb0f46
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e6f56b2c406a14a6a1781705017d13d8b823472c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726360"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008712"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,69 +37,69 @@ ms.locfileid: "41726360"
 
 _**Última modificación del tema:** 2013-02-21_
 
-Para completar correctamente este procedimiento, debe haber iniciado sesión en el servidor o dominio como miembro del grupo administradores de dominio o en miembro del grupo DnsAdmins.
+Para completar con éxito este procedimiento, debe iniciar sesión en el servidor o dominio, al menos, como miembro del grupo administradores del dominio o como miembro del grupo DnsAdmins.
 
-En este tema se describe cómo configurar los registros del sistema de nombres de dominio (DNS) que se deben crear en implementaciones de Lync Server 2013 y los necesarios para iniciar sesión automáticamente en el cliente. Al crear un grupo de servidores front-end, el programa de instalación crea los objetos y la configuración de Active Directory para el grupo, incluido el nombre de dominio completo (FQDN) del grupo de servidores. Se crean objetos y configuraciones similares para un servidor Standard Edition. Para que los clientes puedan conectarse al servidor Standard Edition o del grupo, el FQDN del grupo o del servidor Standard Edition debe estar registrado en DNS. Debe crear registros SRV de DNS en el DNS interno para cada dominio SIP. En este procedimiento se supone que su DNS interno tiene zonas para sus dominios de usuario SIP.
+En este tema se describe cómo configurar los registros del sistema de nombres de dominio (DNS) que se deben crear en las implementaciones de Lync Server 2013 y los que se requieren para el inicio de sesión automático de los clientes. Cuando se crea un grupo de servidores front-end, el programa de instalación crea los objetos y la configuración de Active Directory para el grupo, incluido el nombre de dominio completo (FQDN) del grupo de servidores. Se crean objetos y configuraciones similares para un servidor Standard Edition. Para que los clientes puedan conectar con el servidor Standard Edition o el grupo de servidores, el FQDN del grupo de servidores o del servidor Standard Edition debe estar registrado en DNS. Debe crear registros DNS SRV en su DNS interno para cada dominio SIP. En este procedimiento, se presupone que el DNS interno tiene zonas para los dominios de usuarios SIP.
 
 <div>
 
-## <a name="to-configure-a-dns-srv-record"></a>Para configurar un registro SRV de DNS
+## <a name="to-configure-a-dns-srv-record"></a>Para configurar un registro DNS SRV
 
-1.  En el servidor DNS, haga clic en **Inicio**, haga clic en **herramientas administrativas**y, a continuación, haga clic en **DNS**.
+1.  En el servidor DNS, haga clic en **Inicio**, **Herramientas administrativas** y, a continuación, **DNS**.
 
-2.  En el árbol de consola de su dominio SIP, expanda **zonas de búsqueda directa**y, a continuación, haga clic con el botón secundario en el dominio SIP en el que se instalará Lync Server 2013.
+2.  En el árbol de la consola del dominio SIP, expanda **zonas de búsqueda directa**y, a continuación, haga clic con el botón secundario en el dominio SIP en el que se instalará Lync Server 2013.
 
-3.  Haga clic en **otros registros nuevos**.
+3.  Haga clic en **Registros nuevos**.
 
-4.  En **Seleccione el tipo de registro del recurso**, haga clic en **Ubicación de servicio (SRV)** y, luego, haga clic en **Crear registro**.
+4.  En **Seleccione el tipo de registro del recurso**, haga clic en **Ubicación de servicio (SRV)** y, a continuación, haga clic en **Crear registro**.
 
 5.  Haga clic en **servicio**y, a continuación, escriba ** \_sipinternaltls**.
 
 6.  Haga clic en **Protocolo**y, a continuación, escriba ** \_TCP**.
 
-7.  Haga clic en **Número de puerto** y, luego, escriba **5061**.
+7.  Haga clic en **Número de puerto** y escriba **5061**.
 
-8.  Haga clic en **Host que ofrece este servicio** y, luego, escriba el FQDN del grupo de servidores o del servidor Standard Edition.
+8.  Haga clic en **host que ofrece este servicio**y, a continuación, escriba el FQDN del grupo de servidores o del servidor Standard Edition.
 
-9.  Haga clic en **Aceptar** y, luego, haga clic en **Listo**.
+9.  Haga clic en **Aceptar** y, a continuación, haga clic en **Listo**.
 
 </div>
 
 <div>
 
-## <a name="to-verify-the-creation-of-a-dns-srv-record"></a>Para comprobar la creación de un registro SRV de DNS
+## <a name="to-verify-the-creation-of-a-dns-srv-record"></a>Para comprobar la creación de un registro DNS SRV
 
 1.  Inicie sesión en un equipo cliente del dominio con una cuenta que sea miembro del grupo Usuarios autenticados o que tenga permisos equivalentes.
 
-2.  Haga clic en  **Inicio ** y en  **Ejecutar **.
+2.  Haga clic en **Inicio** y, a continuación, en **Ejecutar**.
 
-3.  En el cuadro **abrir** , escriba **cmd**y haga clic en **Aceptar**.
+3.  En el cuadro **Abrir**, escriba **cmd** y, a continuación, haga clic en **Aceptar**.
 
-4.  En el símbolo del sistema, escriba **nslookup**y, a continuación, presione Entrar.
+4.  En el símbolo del sistema, escriba **nslookup** y, a continuación, presione ENTRAR.
 
-5.  Escriba **set Type = SRV**y, a continuación, presione Entrar.
+5.  Escriba **set type=srv** y, a continuación, presione ENTRAR.
 
-6.  Escriba ** \_sipinternaltls.\_ tcp.contoso.com**y, a continuación, presione Entrar. La salida mostrada para el registro de seguridad de la capa de transporte (TLS) es la siguiente:
+6.  Escriba ** \_sipinternaltls.\_ tcp.contoso.com**y, a continuación, presione Entrar. El resultado que se muestra para el registro de Seguridad de la capa de transporte (TLS) es el siguiente:
     
-    Servidor: \<DNS server\>. contoso.com
+    Servidor: \<servidor\>DNS. contoso.com
     
-    Address: \<dirección IP del servidor DNS\>
+    Dirección: \<dirección IP del servidor DNS\>
     
-    Respuesta no autoritaria:
+    Respuesta no autoritativa:
     
-    \_sipinternaltls. \_Ubicación del servicio TCP.contoso.com SRV:
+    \_sipinternaltls. \_Ubicación del servicio SRV de TCP.contoso.com:
     
     prioridad = 0
     
-    peso = 0
+    Weight = 0
     
-    puerto = 5061
+    Port = 5061
     
-    SVR hostname = poolname.contoso.com (o un registro de servidor Standard Edition A)
+    SVR hostname = poolname.contoso.com (o registro A de servidor Standard Edition)
     
-    poolname.contoso.com internet address = \<dirección IP virtual del equilibrador de carga\> o \<la dirección IP de un servidor Enterprise Edition único para grupos con un solo servidor\> Enterprise Edition \<o dirección IP del servidor Standard Edition\>
+    poolname.contoso.com internet address = \<dirección IP virtual del equilibrador de carga\> o \<dirección IP de un servidor Enterprise Edition único para grupos con un solo servidor\> Enterprise Edition o \<dirección IP del servidor Standard Edition\>
 
-7.  Cuando haya terminado, en el símbolo del sistema, escriba **Exit**y, a continuación, presione Entrar.
+7.  Cuando termine, en el símbolo del sistema, escriba **exit** y, a continuación, presione ENTRAR.
 
 </div>
 
@@ -107,15 +107,15 @@ En este tema se describe cómo configurar los registros del sistema de nombres d
 
 ## <a name="to-verify-that-the-fqdn-of-the-front-end-pool-or-standard-edition-server-can-be-resolved"></a>Para comprobar que se puede resolver el FQDN del grupo de servidores front-end o del servidor Standard Edition
 
-1.  Inicie sesión en un equipo cliente del dominio.
+1.  Inicie sesión en un equipo cliente en el dominio.
 
-2.  Haga clic en  **Inicio ** y en  **Ejecutar **.
+2.  Haga clic en **Iniciar** y, a continuación, en **Ejecutar**.
 
-3.  En el cuadro **abrir** , escriba **cmd**y haga clic en **Aceptar**.
+3.  En el cuadro **Abrir**, escriba **cmd** y, a continuación, haga clic en **Aceptar**.
 
-4.  En el símbolo del sistema, escriba **nslookup** \<FQDN del grupo\> de servidores Front \<-end o FQDN del servidor\>Standard Edition y, a continuación, presione Entrar.
+4.  En el símbolo del sistema, escriba **nslookup** \<FQDN del grupo\> de servidores Front \<-end o el FQDN del\>servidor Standard Edition y, a continuación, presione Entrar.
 
-5.  Compruebe que recibe una respuesta que se resuelve en la dirección IP adecuada para el nombre de dominio completo (FQDN).
+5.  Compruebe que recibe una respuesta que resuelve la dirección IP adecuada para el FQDN.
 
 </div>
 

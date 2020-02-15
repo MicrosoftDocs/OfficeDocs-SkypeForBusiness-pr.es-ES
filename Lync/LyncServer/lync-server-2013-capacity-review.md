@@ -12,16 +12,16 @@ ms:contentKeyID: 63969608
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d88d9872b8a03d5867897c0ac904e0ac1c46669f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3bf9aa2a8246f9f639a33381d7bcfa790df0cffb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736980"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41736980"
 
 _**Última modificación del tema:** 2014-05-20_
 
-Revise las cifras de capacidad del mes anterior y cree un plan para todas las actualizaciones que pueden ser necesarias en los próximos meses para mantener el sistema funcionando dentro de los límites especificados por los SLAs de su organización.
+Revise las cifras de capacidad del mes anterior y cree un plan para todas las actualizaciones que puedan ser necesarias en los meses venideros para mantener el sistema funcionando dentro de los límites especificados por los SLAs de la organización.
 
 <div>
 
 ## <a name="see-also"></a>Vea también
 
 
-[Usar la calculadora de planeación de capacidad para Lync Server 2013](lync-server-2013-capacity-planning-calculator.md)  
+[Uso de la calculadora de planeación de capacidad para Lync Server 2013](lync-server-2013-capacity-planning-calculator.md)  
 
 
-[Planificación de capacidad para Lync Server 2013](lync-server-2013-capacity-planning.md)  
+[Planeación de la capacidad para Lync Server 2013](lync-server-2013-capacity-planning.md)  
   
 
 </div>

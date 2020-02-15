@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Resumen del certificado-conectividad de mensajería instantánea pública'
+title: 'Lync Server 2013: Resumen de certificado-conectividad de mensajería instantánea pública'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49105657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c93e79eed643d608ac9ab04516222227fc7c1f6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8e2cce89560c885ad04e03c77d0542289221f1ec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736640"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031114"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Resumen del certificado: conectividad de mensajería instantánea pública en Lync Server 2013
+# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Resumen de certificado-conectividad de mensajería instantánea pública en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41736640"
 
 _**Última modificación del tema:** 2013-02-19_
 
-Para configurar certificados para la conectividad de mensajería instantánea pública, primero debe tener en cuenta que no hay nada diferente de otros tipos de Federación SIP o incluso los certificados de servidor perimetral estándar, excepto que America Online (AOL) requiere un único configuración de certificado. Además del uso mejorado de claves (EKU) del servidor, America Online requiere que el certificado o los certificados (en el caso de un grupo de límites) contengan también el EKU de cliente. El EKU de cliente es una adición al certificado y forma parte del certificado público externo que se asigna al servidor perimetral.
+Para configurar certificados para la conectividad de mensajería instantánea pública, debe tener en cuenta en primer lugar que no hay nada diferente de otros tipos de Federación SIP o de los certificados de servidor perimetral estándar, excepto que America Online (AOL) requiere un único configuración de certificados. Además del uso mejorado de claves (EKU) del servidor, America Online requiere que el certificado o los certificados (en el caso de un grupo de servidores perimetrales) también contengan el EKU del cliente. El EKU de cliente es una adición al certificado y forma parte del certificado público externo que se asigna a su servidor perimetral.
 
 <div>
 
@@ -54,14 +54,14 @@ Para configurar certificados para la conectividad de mensajería instantánea p�
 <thead>
 <tr class="header">
 <th>Componente</th>
-<th>Nombre del asunto</th>
-<th>Nombres alternativos de asunto (SAN)/Order</th>
+<th>Nombre de sujeto</th>
+<th>Nombres alternativos del sujeto (SAN)/orden</th>
 <th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Perimetral de acceso externo</p></td>
+<td><p>Servidor perimetral de acceso/externo</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
@@ -69,10 +69,10 @@ Para configurar certificados para la conectividad de mensajería instantánea p�
 <td><p>El certificado debe ser de una entidad de certificación pública y debe tener el EKU de servidor y el EKU de cliente si se va a implementar la conectividad de mensajería instantánea pública con AOL. El certificado se asigna a las interfaces del servidor perimetral externo para:</p>
 <ul>
 <li><p>Servicio perimetral de acceso</p></li>
-<li><p>Servicio perimetral de conferencia web</p></li>
+<li><p>Servicio perimetral de conferencias web</p></li>
 <li><p>Servicio perimetral A/V</p></li>
 </ul>
-<p>Tenga en cuenta que las redes San se agregan automáticamente al certificado según sus definiciones en el generador de topologías. Agregue las entradas de SAN según sea necesario para dominios SIP adicionales y otras entradas que necesite admitir. El nombre del asunto se replica en el SAN y debe estar presente para que funcione correctamente.</p></td>
+<p>Tenga en cuenta que las SAN se agregan automáticamente al certificado basado en las definiciones del Generador de topologías. Agregue entradas SAN según sea necesario para dominios adicionales de SIP y otras entradas que necesite admitir. El nombre del sujeto se replica en la SAN y debe estar presente para el correcto funcionamiento.</p></td>
 </tr>
 </tbody>
 </table>

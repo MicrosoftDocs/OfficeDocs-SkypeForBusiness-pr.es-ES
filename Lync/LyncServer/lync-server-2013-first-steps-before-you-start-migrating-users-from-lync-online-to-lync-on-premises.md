@@ -12,16 +12,16 @@ ms:contentKeyID: 62258123
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59ca20a994934a199504a4fb6a7dd5eec206c960
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1bf61b4e2f3e3a14d5e2434ff80bd5d6f612f267
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742500"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -39,13 +39,13 @@ _**Última modificación del tema:** 2014-05-08_
 
 Antes de empezar a mover usuarios de Lync Online a su entorno local, compruebe que se cumplen todas las condiciones siguientes:
 
-  - El entorno local de Lync Server debe implementarse y validarse por completo. Para obtener más información, consulte [implementar Lync Server 2013](lync-server-2013-deploying-lync-server.md).
+  - El entorno local de Lync Server debe implementarse y validarse por completo. Para obtener más información, consulte [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md).
 
-  - El inquilino de Lync Online debe estar configurado para el acceso remoto de PowerShell.
+  - El inquilino de Lync Online debe estar configurado para el acceso remoto a PowerShell.
     
     Para ello, primero Instale el módulo Lync Online para Windows PowerShell, que puede obtener aquí: [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).
     
-    Después de instalar el módulo, puede establecer una sesión remota escribiendo los cmdlets siguientes en el shell de administración de Lync Server:
+    Después de instalar el módulo, puede establecer una sesión remota si escribe los siguientes cmdlets en el shell de administración de Lync Server:
     
        ```PowerShell
         Import-Module LyncOnlineConnector
@@ -63,15 +63,15 @@ Antes de empezar a mover usuarios de Lync Online a su entorno local, compruebe q
         Import-PSSession $CSSession -AllowClobber
        ```
     
-    Para obtener más información sobre cómo establecer una sesión PowerShell remota con Lync Online, consulte [conectarse a Lync Online mediante Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+    Para obtener más información sobre cómo establecer una sesión de PowerShell remota con Lync Online, consulte [conectarse a Lync Online mediante Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
-    Para obtener más información sobre el uso del módulo de PowerShell Lync Online, vea [usar Windows PowerShell para administrar Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+    Para obtener más información sobre el uso del módulo Lync Online PowerShell, vea [using Windows PowerShell to Manage Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
-  - Su Lync Online debe estar configurado para el espacio de direcciones SIP compartido. Para ello, inicie en primer lugar una sesión remota de PowerShell con Lync Online. Luego, ejecute el cmdlet siguiente:
+  - Su Lync Online debe estar configurado para el espacio de direcciones SIP compartido. Para ello, inicie primero una sesión remota de PowerShell con Lync Online. A continuación, ejecute el siguiente cmdlet:
     
         Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 
-Una vez que haya terminado estos pasos, puede pasar a [migrar usuarios de Lync Online a Lync local en Lync Server 2013](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md).
+Una vez que haya terminado estos pasos, puede pasar a [migrar a los usuarios de Lync Online a Lync local en Lync Server 2013](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md).
 
 </div>
 

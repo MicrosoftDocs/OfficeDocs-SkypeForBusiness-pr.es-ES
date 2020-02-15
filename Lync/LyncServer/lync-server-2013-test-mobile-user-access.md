@@ -12,16 +12,16 @@ ms:contentKeyID: 63969624
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 628fd3aae4f66316627176c3af025eb63202bafb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d6052785bdb8e748ac657d800a630ecc76415af9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746230"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -45,8 +45,8 @@ _**Última modificación del tema:** 2014-06-07_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Programación de verificación</p></td>
-<td><p>Cada mes</p></td>
+<td><p>Programación de comprobación</p></td>
+<td><p>Mensualmente</p></td>
 </tr>
 <tr class="even">
 <td><p>Herramienta de prueba</p></td>
@@ -54,8 +54,8 @@ _**Última modificación del tema:** 2014-06-07_
 </tr>
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
-<td><p>Al ejecutarse de forma local con el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol de RBAC que tenga permiso para ejecutar el cmdlet test-CsMcxConference. Para ver una lista de todos los roles de RBAC que pueden usar este cmdlet, ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:</p>
+<td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsMcxConference. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,13 +66,13 @@ _**Última modificación del tema:** 2014-06-07_
 
 ## <a name="description"></a>Descripción
 
-El servicio de movilidad permite que los usuarios de dispositivos móviles realicen estas acciones como:
+El servicio de movilidad permite a los usuarios de dispositivos móviles realizar tareas como las siguientes:
 
-1.  Intercambia mensajes instantáneos e información de presencia.
+1.  Intercambiar mensajes instantáneos e información de presencia.
 
 2.  Almacene y recupere el correo de voz internamente en lugar de con su proveedor de telefonía móvil.
 
-3.  Aproveche las capacidades de Lync Server, como las llamadas a través del trabajo y las conferencias de acceso telefónico local. El cmdlet test-CsMcxConference ofrece una manera rápida y sencilla de comprobar que los usuarios pueden unirse a conferencias de Lync Server y participar en ellas con un dispositivo móvil.
+3.  Aproveche las ventajas de las capacidades de Lync Server, como las llamadas a través del trabajo y las conferencias de acceso telefónico local. El cmdlet test-CsMcxConference proporciona una forma rápida y sencilla de comprobar que los usuarios pueden unirse a conferencias de Lync Server y participar en ellas mediante un dispositivo móvil.
 
 </div>
 
@@ -80,7 +80,7 @@ El servicio de movilidad permite que los usuarios de dispositivos móviles reali
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-Para ejecutar esta comprobación, debe crear tres objetos de credenciales de Windows PowerShell (objetos que contengan el nombre y la contraseña de la cuenta) de cada cuenta. Después, debe incluir esos objetos de credenciales y las direcciones SIP de las dos cuentas cuando llame a test-CsMcxConference como se muestra en el siguiente ejemplo:
+Para ejecutar esta comprobación, debe crear tres objetos de credenciales de Windows PowerShell (objetos que contienen el nombre de cuenta y la contraseña) para cada cuenta. A continuación, debe incluir los objetos de credenciales y las direcciones SIP de las dos cuentas cuando llame a test-CsMcxConference como se muestra en el siguiente ejemplo:
 
     $organizerCred = Get-Credential "litwareinc\kenmyer"
     $user1Cred = Get-Credential "litwareinc\packerman"
@@ -88,21 +88,21 @@ Para ejecutar esta comprobación, debe crear tres objetos de credenciales de Win
     
     Test-CsMcxConference -TargetFqdn "atl-cs-001.litwareinc.com" -Authentication Negotiate -OrganizerSipAddress "sip:kenmyer@litwareinc.com" -OrganizerCredential $organizerCred -UserSipAddress "sip:pilar@litwareinc.com" -UserCredential $user1Cred -User2SipAddress "sip:adelaney@litwareinc.com" -User2Credential $user2Cred
 
-Para obtener más información, vea el tema de ayuda para el cmdlet [Test-CsMcxConference](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxConference) .
+Para obtener más información, consulte el tema de ayuda del cmdlet [Test-CsMcxConference](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxConference) .
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Determinar el éxito o el fracaso
+## <a name="determining-success-or-failure"></a>Determinar si se ha realizado correctamente o erróneo
 
-Si la comprobación se realiza correctamente, test-CsMcxConference notificará un resultado de prueba de éxito:
+Si la comprobación se realiza correctamente, test-CsMcxConference informará de que se ha realizado correctamente un resultado de prueba:
 
 FQDN de destino: atl-cs-001.litwareinc.com
 
 URI de destino:http://atl-cs-001.litwareinc.com:443/mcx
 
-Resultado: éxito
+Resultado: correcto
 
 Latencia: 00:00:00
 
@@ -110,7 +110,7 @@ Mensaje de error:
 
 Diagnóstico
 
-Si la comprobación es incorrecta: CsMcxConference informará de un resultado de prueba de error. Por lo general, este resultado de la prueba va acompañado de un mensaje de error y diagnóstico detallado. Por ejemplo:
+Si la comprobación es incorrecta test-CsMcxConference notificará un resultado de prueba de error. Por lo general, este resultado de la prueba irá acompañado de un mensaje de error detallado y diagnóstico. Por ejemplo:
 
 FQDN de destino: atl-cs-001.litwareinc.com
 
@@ -120,13 +120,13 @@ Resultado: error
 
 Latencia: 00:00:00
 
-Mensaje de error: no se recibió respuesta para el servicio de vales Web.
+Mensaje de error: no se recibió ninguna respuesta para el servicio de vales Web.
 
-Excepción interna: la solicitud HHTP está desautorizada con el cliente
+Excepción interna: la solicitud HHTP no está autorizada con el cliente
 
 esquema de negociación ' NTLM '. El encabezado de autenticación recibido
 
-desde el servidor fue ' Negotiate '.
+del servidor fue "Negotiate".
 
 Excepción interna: el servidor remoto devolvió un error: (401)
 
@@ -134,11 +134,11 @@ No autorizado.
 
 Diagnóstico
 
-Diagnosis interior: X-MS-Server-Fqdb: atl-cs-001.litwareinc.com
+Diagnóstico interno: X-MS-Server-Fqdb: atl-cs-001.litwareinc.com
 
-Cache-control: Private
+Cache-control: privado
 
-Tipo de contenido: text/html; charset = utf-8.
+Content-Type: text/html; charset = utf-8.
 
 Servidor: Microsoft-IIS/8.5
 
@@ -156,27 +156,27 @@ Longitud del contenido: 6305
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Razones por las que se ha producido un error en la prueba
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
-Si prueba-CsMcxConference no se ejecuta correctamente, verifique que el servicio de movilidad se esté ejecutando y que se pueda obtener acceso a él. Esto se puede realizar con un explorador Web para comprobar que se puede acceder a la dirección URL del servicio de movilidad de su grupo de Lync Server. Por ejemplo, este comando comprueba la dirección URL del grupo atl-cs-001.litwareinc.com:
+Si test-CsMcxConference produce un error, debe comprobar que el servicio de movilidad se está ejecutando y que se puede tener acceso a él. Esto se puede hacer con un explorador Web para comprobar que se puede tener acceso a la dirección URL del servicio de movilidad de su grupo de Lync Server. Por ejemplo, este comando comprueba la dirección URL del grupo atl-cs-001.litwareinc.com:
 
 `https://atl-cs-001.litwareinc.com/mcx/mcxservice.svc`
 
-Si se puede acceder al servicio de movilidad, debe comprobar que los usuarios de prueba tengan cuentas válidas de Lync Server. Puede recuperar información de la cuenta mediante un comando similar a este:
+Si se puede tener acceso al servicio de movilidad, debe comprobar que los usuarios de prueba tengan cuentas de Lync Server válidas. Puede recuperar la información de la cuenta con un comando similar al siguiente:
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 
-Si la propiedad Enabled no es igual a true o si se produce un error en el comando, significa que el usuario no tiene una cuenta válida de Lync Server. También debe comprobar que cada cuenta de usuario está habilitada para la movilidad. Para ello, primero determine la Directiva de movilidad que está asignada a la cuenta:
+Si la propiedad Enabled no es igual a true o si se produce un error en el comando, significa que el usuario no tiene una cuenta de Lync Server válida. También debe comprobar que cada cuenta de usuario esté habilitada para la movilidad. Para ello, en primer lugar, determine la Directiva de movilidad que se asigna a la cuenta:
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-Una vez que conozca el nombre de la Directiva, use el cmdlet Get-CsMobilityPolicy para comprobar que la Directiva en cuestión (por ejemplo, RedmondMobilityPolicy) tiene la propiedad EnableMobility establecida en true:
+Una vez que conoce el nombre de la Directiva, use el cmdlet Get-CsMobilityPolicy para comprobar que la Directiva en cuestión (por ejemplo, RedmondMobilityPolicy) tiene la propiedad Enablemobility configurada establecida en true:
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-Si recibe un mensaje de error "encabezado de autenticación" cuando ejecuta test-CsMcxConference que a menudo significa que no ha especificado una cuenta de usuario válida, compruebe el nombre de usuario y la contraseña y, a continuación, vuelva a intentar la prueba. Si está convencido de que la cuenta de usuario es válida, use el cmdlet Get-CsWebServiceConfiguration y compruebe el valor de la propiedad UseWindowsAuth. Que le indicará qué métodos de autenticación están habilitados en su organización.
+Si recibe un mensaje de error de "encabezado de autenticación" cuando ejecuta test-CsMcxConference que a menudo significa que no ha especificado una cuenta de usuario válida, compruebe el nombre de usuario y la contraseña y, a continuación, vuelva a intentar la prueba. Si está convencido de que la cuenta de usuario es válida, use el cmdlet Get-CsWebServiceConfiguration y compruebe el valor de la propiedad UseWindowsAuth. Esto le dirá qué métodos de autenticación están habilitados en la organización.
 
-Para obtener más información sobre cómo solucionar problemas del servicio de movilidad, vea la [solución de problemas de la conectividad de movilidad de Lync externa](http://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).
+Para obtener más información sobre cómo solucionar problemas del servicio de movilidad, vea el blog de [Troubleshooting external Lync Mobility Connectivity issues Step-by-Step](http://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).
 
 </div>
 

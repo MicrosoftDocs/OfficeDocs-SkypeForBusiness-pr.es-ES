@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configurar la configuración de estacionamiento de llamada'
+title: 'Lync Server 2013: configurar las opciones del estacionamiento de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183922
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee4f12ccf614816e27262f8b393cdc1dac4a7a5e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 644ec44d4086b0acc326e043cbf63d7ceb2c640c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757784"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028721"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-call-park-settings-in-lync-server-2013"></a>Configurar la configuración de estacionamiento de llamadas en Lync Server 2013
+# <a name="configure-call-park-settings-in-lync-server-2013"></a>Configurar las opciones del estacionamiento de llamadas en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41757784"
 
 _**Última modificación del tema:** 2012-11-01_
 
-Si no desea usar la configuración de Parque de llamadas predeterminada, puede personalizarla. Al instalar la aplicación de estacionamiento de llamadas, la configuración global se configura de forma predeterminada. Puede modificar esta configuración global y, además, puede especificar opciones de configuración específicas del sitio. Use el cmdlet **New-CsCpsConfiguration** para crear una nueva configuración específica del sitio. Use cmdlet **Set-CsCpsConfiguration** para modificar la configuración existente.
+Si no quiere usar la configuración predeterminada del estacionamiento de llamadas, puede personalizarla. Al instalar la aplicación estacionamiento de llamadas, la configuración global se configura de forma predeterminada. Puede modificar esta configuración global y, además, puede especificar opciones de configuración específicas del sitio. Use el cmdlet **New-CsCpsConfiguration** para crear una nueva configuración específica del sitio. Use cmdlet **Set-CsCpsConfiguration** para modificar la configuración existente.
 
 <div>
 
@@ -49,7 +49,7 @@ Si no desea usar la configuración de Parque de llamadas predeterminada, puede p
 
 </div>
 
-Use el cmdlet **New-CsCpsConfiguration** o el cmdlet **Set-CsCpsConfiguration** para configurar cualquiera de las opciones siguientes:
+Use el cmdlet **New-CsCpsConfiguration** o el cmdlet **Set-CsCpsConfiguration** para configurar las siguientes opciones:
 
 
 <table>
@@ -89,13 +89,13 @@ Use el cmdlet **New-CsCpsConfiguration** o el cmdlet **Set-CsCpsConfiguration** 
 
 <div>
 
-## <a name="to-configure-call-park-settings"></a>Para configurar la configuración del parque de llamadas
+## <a name="to-configure-call-park-settings"></a>Para configurar las opciones del estacionamiento de llamadas
 
-1.  Inicie sesión en el equipo donde está instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [permisos de configuración de delegado en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Inicie sesión en el equipo donde esté instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-3.  Ejecute:
+3.  Realizar
     
         New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
     
@@ -103,7 +103,7 @@ Use el cmdlet **New-CsCpsConfiguration** o el cmdlet **Set-CsCpsConfiguration** 
     
 
     > [!TIP]  
-    > Use el cmdlet <STRONG>Get-CsSite</STRONG> para identificar el sitio. Para obtener más información, consulte la documentación del shell de administración de Lync Server.
+    > Use el cmdlet <STRONG>Get-CsSite</STRONG> para identificar el sitio. Para obtener información detallada, consulte Lync Server Management Shell Documentation.
 
     
     </div>
@@ -122,7 +122,7 @@ Use el cmdlet **New-CsCpsConfiguration** o el cmdlet **Set-CsCpsConfiguration** 
 [Personalizar la música de estacionamiento de llamadas en espera en Lync Server 2013](lync-server-2013-customize-call-park-music-on-hold.md)  
 
 
-[Nuevo: CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCpsConfiguration)  
+[New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCpsConfiguration)  
 [Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCpsConfiguration)  
 [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite)  
   

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Apéndice A: Usar cmdlets para implementar una aplicación de sucursal con funciones de supervivencia'
+title: 'Lync Server 2013: Apéndice A: usar cmdlets para implementar una aplicación de sucursal con funciones de supervivencia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184569
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a2da84e03cc05607a47f1fe5af4a8b7987946df
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb77c4f22122694d928489f7d61beaa9cbae9355
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737800"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029021"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a>Apéndice A: Usar cmdlets para implementar una aplicación de sucursal con funciones de supervivencia en Lync Server 2013
+# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a>Apéndice A: uso de cmdlets para implementar una aplicación de sucursal con funciones de supervivencia en Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41737800"
 
 _**Última modificación del tema:** 2012-10-07_
 
-En este tema se describe cómo implementar una aplicación de rama superviviente con el shell de administración de Lync Server. Realice este procedimiento en el sitio central.
+En este tema se describe cómo implementar una aplicación de sucursal con funciones de supervivencia mediante el shell de administración de Lync Server. Realice este procedimiento en el sitio central.
 
 <div>
 
-## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a>Para desplegar un equipo de sucursales con la supervivencia de forma remota
+## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a>Para implementar una aplicación de sucursal con funciones de supervivencia de forma remota
 
-1.  Siga el procedimiento de [Agregar sitios de sucursal a su topología en Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) para agregar un nuevo sitio de sucursal.
+1.  Siga el procedimiento descrito en [Add Branch sites to your Topology in Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) para agregar un nuevo sitio de sucursal.
 
-2.  Únase al sitio de la sucursal en el dominio.
+2.  Unir el sitio de sucursal al dominio.
 
 3.  Agregue el grupo RTCUniversalSBATechnicians al grupo de administradores local.
 
