@@ -1,5 +1,5 @@
 ---
-title: Ver los usuarios actuales en un grupo de servidores de Lync Server 2010
+title: Ver usuarios actuales en el grupo de servidores 2010 de Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da91f6a7247f152599f740aebaa7ebea09c852bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fadc7b822fe1bdd04c170031407fe0441bfdc2f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730760"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036188"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-current-users-in-lync-server-2010-pool"></a><span data-ttu-id="25d22-102">Ver los usuarios actuales en un grupo de servidores de Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="25d22-102">View current users in Lync Server 2010 pool</span></span>
+# <a name="view-current-users-in-lync-server-2010-pool"></a><span data-ttu-id="abefa-102">Ver usuarios actuales en el grupo de servidores 2010 de Lync Server</span><span class="sxs-lookup"><span data-stu-id="abefa-102">View current users in Lync Server 2010 pool</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41730760"
 
 <span> </span>
 
-<span data-ttu-id="25d22-103">_**Última modificación del tema:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="25d22-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="abefa-103">_**Última modificación del tema:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="abefa-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="25d22-104">Antes de aprender las distintas formas de mover usuarios entre grupos, primero debemos determinar qué usuarios existen en el grupo de servidores de Lync Server 2010 heredado.</span><span class="sxs-lookup"><span data-stu-id="25d22-104">Prior to learning the various ways you can move users between pools, we must first determine what users exist in the legacy Lync Server 2010 pool.</span></span> <span data-ttu-id="25d22-105">En la imagen de abajo, la columna registrar grupo identifica seis usuarios que están configurados para el grupo de servidores de Lync Server 2010 heredado.</span><span class="sxs-lookup"><span data-stu-id="25d22-105">In the image below, the Registrar pool column identifies six users who are configured for the legacy Lync Server 2010 pool.</span></span> <span data-ttu-id="25d22-106">Estos son los usuarios de prueba que se moverán al grupo de servidores de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="25d22-106">These are the test users we will move to the Lync Server 2013 pool.</span></span>
+<span data-ttu-id="abefa-104">Antes de aprender las distintas formas de mover usuarios entre grupos de servidores, primero debemos determinar qué usuarios existen en el grupo de servidores de Lync Server 2010 heredado.</span><span class="sxs-lookup"><span data-stu-id="abefa-104">Prior to learning the various ways you can move users between pools, we must first determine what users exist in the legacy Lync Server 2010 pool.</span></span> <span data-ttu-id="abefa-105">En la imagen siguiente, la columna grupo de registrador identifica a seis usuarios que están configurados para el grupo de servidores de Lync Server 2010 heredado.</span><span class="sxs-lookup"><span data-stu-id="abefa-105">In the image below, the Registrar pool column identifies six users who are configured for the legacy Lync Server 2010 pool.</span></span> <span data-ttu-id="abefa-106">Estos son los usuarios de prueba que se moverán al grupo de servidores de Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="abefa-106">These are the test users we will move to the Lync Server 2013 pool.</span></span>
 
-<span data-ttu-id="25d22-107">**Para ver la lista de usuarios del grupo de servidores de Lync Server 2010**</span><span class="sxs-lookup"><span data-stu-id="25d22-107">**To see the list of users in the Lync Server 2010 pool**</span></span>
+<span data-ttu-id="abefa-107">**Para ver la lista de usuarios del grupo de servidores de Lync Server 2010**</span><span class="sxs-lookup"><span data-stu-id="abefa-107">**To see the list of users in the Lync Server 2010 pool**</span></span>
 
-1.  <span data-ttu-id="25d22-108">Inicie sesión en el servidor front-end de Lync Server 2010 con una cuenta que sea miembro del grupo RTCUniversalServerAdmins o de un miembro del rol administrativo CsAdministrator o CsUserAdministrator.</span><span class="sxs-lookup"><span data-stu-id="25d22-108">Log on to the Lync Server 2010 Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.</span></span>
+1.  <span data-ttu-id="abefa-108">Inicie sesión en el servidor front-end de Lync Server 2010 con una cuenta que sea miembro del grupo RTCUniversalServerAdmins o miembro del rol administrativo CsAdministrator o CsUserAdministrator.</span><span class="sxs-lookup"><span data-stu-id="abefa-108">Log on to the Lync Server 2010 Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.</span></span>
 
-2.  <span data-ttu-id="25d22-109">Abra el **Panel de control de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="25d22-109">Open **Lync Server Control Panel**.</span></span>
+2.  <span data-ttu-id="abefa-109">Abra el **Panel de control de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="abefa-109">Open **Lync Server Control Panel**.</span></span>
 
-3.  <span data-ttu-id="25d22-110">Haga clic en **Usuarios**, haga clic en Buscar y, posteriormente, haga clic en **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="25d22-110">Click **Users**, click Search, and then click **Find**.</span></span>
+3.  <span data-ttu-id="abefa-110">Haga clic en **Usuarios**, Buscar y **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="abefa-110">Click **Users**, click Search, and then click **Find**.</span></span>
 
-<span data-ttu-id="25d22-111">**Panel de control de Lync Server 15**</span><span class="sxs-lookup"><span data-stu-id="25d22-111">**The Lync Server 15 Control Panel**</span></span>
+<span data-ttu-id="abefa-111">**Panel de control de Lync Server 15**</span><span class="sxs-lookup"><span data-stu-id="abefa-111">**The Lync Server 15 Control Panel**</span></span>
 
-<span data-ttu-id="25d22-112">![Panel de control de Lync Server, cuadro de diálogo mover usuario](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Panel de control de Lync Server, cuadro de diálogo mover usuario")</span><span class="sxs-lookup"><span data-stu-id="25d22-112">![Lync Server Control Panel, Move User dialog](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Lync Server Control Panel, Move User dialog")</span></span>
+<span data-ttu-id="abefa-112">![Panel de control de Lync Server, cuadro de diálogo mover usuario](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Panel de control de Lync Server, cuadro de diálogo mover usuario")</span><span class="sxs-lookup"><span data-stu-id="abefa-112">![Lync Server Control Panel, Move User dialog](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Lync Server Control Panel, Move User dialog")</span></span>
 
 </div>
 

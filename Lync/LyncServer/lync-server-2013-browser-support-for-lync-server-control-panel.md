@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Exploradores compatibles para el Panel de control de Lync Server'
+title: 'Lync Server 2013: exploradores compatibles con el panel de control de Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43e224e878b645daa355cfa5617ff42c69b61b94
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6fbdd00adb7a71c85d35f7f3834db0bd831ec9a8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741810"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="browser-support-for-lync-server-2013-control-panel"></a><span data-ttu-id="b4602-102">Exploradores compatibles para el Panel de control de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b4602-102">Browser support for Lync Server 2013 Control Panel</span></span>
+# <a name="browser-support-for-lync-server-2013-control-panel"></a><span data-ttu-id="3cfdf-102">Explorador compatible con el panel de control 2013 de Lync Server</span><span class="sxs-lookup"><span data-stu-id="3cfdf-102">Browser support for Lync Server 2013 Control Panel</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41741810"
 
 <span> </span>
 
-<span data-ttu-id="b4602-103">_**Última modificación del tema:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="b4602-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="3cfdf-103">_**Última modificación del tema:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="3cfdf-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="b4602-104">Lync Server 2013 admite el uso de Topology Builder y Lync Server 2013 panel de control es compatible con los siguientes exploradores:</span><span class="sxs-lookup"><span data-stu-id="b4602-104">Lync Server 2013 supports the use of Topology Builder and Lync Server 2013 Control Panel is supported when using the following browsers:</span></span>
+<span data-ttu-id="3cfdf-104">Lync Server 2013 admite el uso del generador de topologías y el panel de control de Lync Server 2013 es compatible con los siguientes exploradores:</span><span class="sxs-lookup"><span data-stu-id="3cfdf-104">Lync Server 2013 supports the use of Topology Builder and Lync Server 2013 Control Panel is supported when using the following browsers:</span></span>
 
-  - <span data-ttu-id="b4602-105">Internet Explorer 10, 32 bits</span><span class="sxs-lookup"><span data-stu-id="b4602-105">Internet Explorer 10, 32-bit</span></span>
+  - <span data-ttu-id="3cfdf-105">Internet Explorer 10, de 32 bits</span><span class="sxs-lookup"><span data-stu-id="3cfdf-105">Internet Explorer 10, 32-bit</span></span>
 
-  - <span data-ttu-id="b4602-106">Internet Explorer 9, 32 bits</span><span class="sxs-lookup"><span data-stu-id="b4602-106">Internet Explorer 9, 32-bit</span></span>
+  - <span data-ttu-id="3cfdf-106">Internet Explorer 9, de 32 bits</span><span class="sxs-lookup"><span data-stu-id="3cfdf-106">Internet Explorer 9, 32-bit</span></span>
 
-  - <span data-ttu-id="b4602-107">Internet Explorer 8, 32 bits</span><span class="sxs-lookup"><span data-stu-id="b4602-107">Internet Explorer 8, 32 bit</span></span>
+  - <span data-ttu-id="3cfdf-107">Internet Explorer 8, de 32 bits</span><span class="sxs-lookup"><span data-stu-id="3cfdf-107">Internet Explorer 8, 32 bit</span></span>
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Administrar categorías, salones de chat y complementos'
+title: 'Lync Server 2013: administración de categorías, salas y complementos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185100
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89d7caadc6ccc4bd7c1030a3e7020129be14a68f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6c1fcd4422ca855e7247c57d07887b9df20ea695
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738770"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006968"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a><span data-ttu-id="bb77e-102">Administrar categorías, salones de chat y complementos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb77e-102">Managing categories, rooms, and add-ins in Lync Server 2013</span></span>
+# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a><span data-ttu-id="4ffb7-102">Administrar categorías, salones y complementos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ffb7-102">Managing categories, rooms, and add-ins in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41738770"
 
 <span> </span>
 
-<span data-ttu-id="bb77e-103">_**Última modificación del tema:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="bb77e-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="4ffb7-103">_**Última modificación del tema:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="4ffb7-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="bb77e-104">En el panel de control de Lync Server 2013 o mediante cmdlets de Windows PowerShell, los administradores de chat persistentes pueden usar la página de **chat persistente** para crear categorías y complementos. Para administrar salones de chat persistentes, los administradores pueden usar cmdlets de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="bb77e-104">In Lync Server 2013 Control Panel, or by using Windows PowerShell cmdlets, Persistent Chat Administrators can use the **Persistent Chat** page to create categories and add-ins. For managing Persistent Chat rooms, Administrators can use Windows PowerShell cmdlets.</span></span> <span data-ttu-id="bb77e-105">Como alternativa, si el administrador de chat persistente también está habilitado para SIP, puede usar el cliente de Lync para iniciar una página web para crear y administrar salones de chat.</span><span class="sxs-lookup"><span data-stu-id="bb77e-105">Alternatively, if the Persistent Chat administrator is also SIP-enabled, they can use the Lync client to launch a web page to create and manage chat rooms.</span></span>
+<span data-ttu-id="4ffb7-104">En el panel de control de Lync Server 2013 o mediante los cmdlets de Windows PowerShell, los administradores de chat persistente pueden usar la página **chat persistente** para crear categorías y complementos. Para administrar salones de chat persistente, los administradores pueden usar los cmdlets de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="4ffb7-104">In Lync Server 2013 Control Panel, or by using Windows PowerShell cmdlets, Persistent Chat Administrators can use the **Persistent Chat** page to create categories and add-ins. For managing Persistent Chat rooms, Administrators can use Windows PowerShell cmdlets.</span></span> <span data-ttu-id="4ffb7-105">Como alternativa, si el administrador de chat persistente también está habilitado para SIP, puede usar el cliente de Lync para iniciar una página web para crear y administrar salones de chat.</span><span class="sxs-lookup"><span data-stu-id="4ffb7-105">Alternatively, if the Persistent Chat administrator is also SIP-enabled, they can use the Lync client to launch a web page to create and manage chat rooms.</span></span>
 
-<span data-ttu-id="bb77e-106">En los siguientes temas se describe cómo crear y trabajar con categorías y salones de chat.</span><span class="sxs-lookup"><span data-stu-id="bb77e-106">The following topics describe how to create and work with categories and chat rooms.</span></span>
+<span data-ttu-id="4ffb7-106">En los temas siguientes se describe cómo crear y trabajar con categorías y salones de chat.</span><span class="sxs-lookup"><span data-stu-id="4ffb7-106">The following topics describe how to create and work with categories and chat rooms.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="bb77e-107">En esta sección</span><span class="sxs-lookup"><span data-stu-id="bb77e-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4ffb7-107">En esta sección</span><span class="sxs-lookup"><span data-stu-id="4ffb7-107">In This Section</span></span>
 
-  - [<span data-ttu-id="bb77e-108">Crear o editar una categoría nueva en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb77e-108">Creating or editing a new category in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-category.md)
+  - [<span data-ttu-id="4ffb7-108">Crear o editar una categoría nueva en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ffb7-108">Creating or editing a new category in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-category.md)
 
-  - [<span data-ttu-id="bb77e-109">Crear o editar un salón de chat nuevo en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb77e-109">Creating or editing a new room in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-room.md)
+  - [<span data-ttu-id="4ffb7-109">Crear o editar un salón nuevo en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ffb7-109">Creating or editing a new room in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-room.md)
 
-  - [<span data-ttu-id="bb77e-110">Creación de complementos para salones en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb77e-110">Creating new add-ins for rooms in Lync Server 2013</span></span>](lync-server-2013-creating-new-add-ins-for-rooms.md)
+  - [<span data-ttu-id="4ffb7-110">Crear nuevos complementos para salones en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ffb7-110">Creating new add-ins for rooms in Lync Server 2013</span></span>](lync-server-2013-creating-new-add-ins-for-rooms.md)
 
-  - [<span data-ttu-id="bb77e-111">Establecer quién puede enviar mensajes en un salón de chat de tipo auditorio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb77e-111">Setting who can post messages in an auditorium chat room in Lync Server 2013</span></span>](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
+  - [<span data-ttu-id="4ffb7-111">Establecer quién puede publicar mensajes en un salón de chat de auditorio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ffb7-111">Setting who can post messages in an auditorium chat room in Lync Server 2013</span></span>](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
 
-  - [<span data-ttu-id="bb77e-112">Habilitar o deshabilitar un salón de chat en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb77e-112">Disabling or enabling a chat room in Lync Server 2013</span></span>](lync-server-2013-disabling-or-enabling-a-chat-room.md)
+  - [<span data-ttu-id="4ffb7-112">Deshabilitar o habilitar un salón de chat en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ffb7-112">Disabling or enabling a chat room in Lync Server 2013</span></span>](lync-server-2013-disabling-or-enabling-a-chat-room.md)
 
-  - [<span data-ttu-id="bb77e-113">Mover un salón de chat de una categoría a otra en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb77e-113">Moving a chat room from one category to another in Lync Server 2013</span></span>](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)
+  - [<span data-ttu-id="4ffb7-113">Mover un salón de chat de una categoría a otra en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ffb7-113">Moving a chat room from one category to another in Lync Server 2013</span></span>](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)
 
-  - [<span data-ttu-id="bb77e-114">Eliminar un salón de chat o una categoría en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb77e-114">Deleting a chat room or category in Lync Server 2013</span></span>](lync-server-2013-deleting-a-chat-room-or-category.md)
+  - [<span data-ttu-id="4ffb7-114">Eliminar un salón de chat o una categoría en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ffb7-114">Deleting a chat room or category in Lync Server 2013</span></span>](lync-server-2013-deleting-a-chat-room-or-category.md)
 
-  - [<span data-ttu-id="bb77e-115">Eliminación de un mensaje o depuración de mensajes obsoletos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb77e-115">Deleting a message or purging obsolete messages in Lync Server 2013</span></span>](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
+  - [<span data-ttu-id="4ffb7-115">Eliminación de un mensaje o depuración de mensajes obsoletos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ffb7-115">Deleting a message or purging obsolete messages in Lync Server 2013</span></span>](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
 
 </div>
 

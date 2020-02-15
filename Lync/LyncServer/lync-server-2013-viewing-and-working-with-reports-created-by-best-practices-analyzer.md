@@ -12,20 +12,20 @@ ms:contentKeyID: 48184215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0447a2d252cc3a8634275cb1f89d36c2f979a468
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 69a00a0f1777c48ba09798de9323e30dd8959b8d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757354"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036358"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-and-working-with-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="868eb-102">Ver y trabajar con informes creados por Best Practices Analyzer en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="868eb-102">Viewing and working with reports created by Best Practices Analyzer in Lync Server 2013</span></span>
+# <a name="viewing-and-working-with-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="5816f-102">Ver y trabajar con informes creados por el analizador de procedimientos recomendados en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5816f-102">Viewing and working with reports created by Best Practices Analyzer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757354"
 
 <span> </span>
 
-<span data-ttu-id="868eb-103">_**Última modificación del tema:** 2012-06-14_</span><span class="sxs-lookup"><span data-stu-id="868eb-103">_**Topic Last Modified:** 2012-06-14_</span></span>
+<span data-ttu-id="5816f-103">_**Última modificación del tema:** 2012-06-14_</span><span class="sxs-lookup"><span data-stu-id="5816f-103">_**Topic Last Modified:** 2012-06-14_</span></span>
 
-<span data-ttu-id="868eb-104">Al usar el analizador de procedimientos recomendados para explorar su entorno, el analizador de procedimientos recomendados crea informes que identifican problemas y otra información sobre la implementación.</span><span class="sxs-lookup"><span data-stu-id="868eb-104">When you use Best Practices Analyzer to scan your environment, Best Practices Analyzer creates reports that identify issues and other information about your deployment.</span></span> <span data-ttu-id="868eb-105">Puede usar el analizador de procedimientos recomendados para ver los informes que contienen los resultados del examen y comprender los problemas identificados en los informes.</span><span class="sxs-lookup"><span data-stu-id="868eb-105">You can use Best Practices Analyzer to view the reports that contain the scan results and understand the issues identified in the reports.</span></span>
+<span data-ttu-id="5816f-p101">Cuando usa el Analizador de procedimientos recomendados para examinar su entorno, el Analizador de procedimientos recomendados crea informes que identifican problemas y otra información sobre su implementación. Puede usar la herramienta Analizador de procedimientos recomendados para ver los informes que contienen los resultados del examen y entender los problemas identificados en los informes.</span><span class="sxs-lookup"><span data-stu-id="5816f-p101">When you use Best Practices Analyzer to scan your environment, Best Practices Analyzer creates reports that identify issues and other information about your deployment. You can use Best Practices Analyzer to view the reports that contain the scan results and understand the issues identified in the reports.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="868eb-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="868eb-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5816f-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="5816f-106">In This Section</span></span>
 
-  - [<span data-ttu-id="868eb-107">Ver informes de Best Practices Analyzer en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="868eb-107">Viewing reports from Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-viewing-reports-from-best-practices-analyzer.md)
+  - [<span data-ttu-id="5816f-107">Ver informes desde el analizador de procedimientos recomendados en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5816f-107">Viewing reports from Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-viewing-reports-from-best-practices-analyzer.md)
 
-  - [<span data-ttu-id="868eb-108">Información sobre los informes creados por Best Practices Analyzer en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="868eb-108">Understanding reports created by Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)
+  - [<span data-ttu-id="5816f-108">Información sobre los informes creados por el analizador de procedimientos recomendados en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5816f-108">Understanding reports created by Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)
 
 </div>
 

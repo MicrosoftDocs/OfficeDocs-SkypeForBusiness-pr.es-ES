@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: crear un filtro de transferencia de archivos para un sitio específico'
+title: 'Lync Server 2013: crear un filtro de transferencia de archivos nuevo para un sitio específico'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edaf0afabff9d212cdd3b5353a8e54840979f827
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 911f01c4ce104c3cdd641a793065c14bed43abb4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740410"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034902"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-a-new-file-transfer-filter-in-lync-server-2013-for-a-specific-site"></a><span data-ttu-id="4e9a6-102">Crear un filtro de transferencia de archivos nuevo en Lync Server 2013 para un sitio específico</span><span class="sxs-lookup"><span data-stu-id="4e9a6-102">Create a new file transfer filter in Lync Server 2013 for a specific site</span></span>
+# <a name="create-a-new-file-transfer-filter-in-lync-server-2013-for-a-specific-site"></a><span data-ttu-id="8b93d-102">Crear un filtro de transferencia de archivos nuevo en Lync Server 2013 para un sitio específico</span><span class="sxs-lookup"><span data-stu-id="8b93d-102">Create a new file transfer filter in Lync Server 2013 for a specific site</span></span>
 
 </div>
 
@@ -35,55 +35,55 @@ ms.locfileid: "41740410"
 
 <span> </span>
 
-<span data-ttu-id="4e9a6-103">_**Última modificación del tema:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="4e9a6-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="8b93d-103">_**Última modificación del tema:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="8b93d-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="4e9a6-104">Además de modificar el filtro global de transferencia de archivos, puede configurar filtros de transferencia de archivos personalizados para sitios específicos dentro de la implementación de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-104">In addition to modifying the global file transfer filter, you can configure custom file transfer filters for specific sites within your Lync Server 2013 deployment.</span></span> <span data-ttu-id="4e9a6-105">Para más información sobre el filtrado de transferencia de archivos, vea [configuración de la transferencia de archivos y filtrado de URL para mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span><span class="sxs-lookup"><span data-stu-id="4e9a6-105">For details about file transfer filtering, see [Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span></span>
+<span data-ttu-id="8b93d-104">Además de modificar el filtro de transferencia global de archivos, puede configurar filtros de transferencia de archivos personalizados para sitios específicos dentro de la implementación de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8b93d-104">In addition to modifying the global file transfer filter, you can configure custom file transfer filters for specific sites within your Lync Server 2013 deployment.</span></span> <span data-ttu-id="8b93d-105">Para obtener más información sobre el filtrado de transferencia de archivos, consulte [configuración de transferencia de archivos y filtrado de URL para la mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span><span class="sxs-lookup"><span data-stu-id="8b93d-105">For details about file transfer filtering, see [Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span></span>
 
 <div>
 
-## <a name="to-create-a-file-transfer-filter-for-a-specific-site"></a><span data-ttu-id="4e9a6-106">Para crear un filtro de transferencia de archivos para un sitio específico</span><span class="sxs-lookup"><span data-stu-id="4e9a6-106">To create a file transfer filter for a specific site</span></span>
+## <a name="to-create-a-file-transfer-filter-for-a-specific-site"></a><span data-ttu-id="8b93d-106">Para crear un filtro de transferencia de archivos para un sitio específico</span><span class="sxs-lookup"><span data-stu-id="8b93d-106">To create a file transfer filter for a specific site</span></span>
 
-1.  <span data-ttu-id="4e9a6-107">Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="8b93d-107">Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.</span><span class="sxs-lookup"><span data-stu-id="8b93d-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="4e9a6-108">Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="4e9a6-109">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="4e9a6-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="8b93d-108">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="8b93d-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="8b93d-109">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="8b93d-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="4e9a6-110">En la barra de navegación izquierda, haga clic en **mensajería instantánea y presencia** y, a continuación, haga clic en **filtro de archivos**.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-110">In the left navigation bar, click **IM and Presence** and then click **File Filter**.</span></span>
+3.  <span data-ttu-id="8b93d-110">En la barra de navegación izquierda, haga clic en **Mensajería instantánea y presencia** y, a continuación, en **Filtro de archivo**.</span><span class="sxs-lookup"><span data-stu-id="8b93d-110">In the left navigation bar, click **IM and Presence** and then click **File Filter**.</span></span>
 
-4.  <span data-ttu-id="4e9a6-111">En la página **filtro de archivos** , haga clic en **nuevo**.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-111">On the **File Filter** page, click **New**.</span></span>
+4.  <span data-ttu-id="8b93d-111">En la página **Filtro de archivo**, haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="8b93d-111">On the **File Filter** page, click **New**.</span></span>
 
-5.  <span data-ttu-id="4e9a6-112">En el cuadro de diálogo **seleccionar un sitio** , haga clic en el sitio para el que desea crear el filtro de transferencia de archivos y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-112">In the **Select a Site** dialog box, click the site for which you want to create the file transfer filter, and then click **OK**.</span></span>
+5.  <span data-ttu-id="8b93d-112">En el cuadro de diálogo **Seleccionar un sitio**, haga clic en el sitio para el que desea crear un filtro de transferencia de archivos y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="8b93d-112">In the **Select a Site** dialog box, click the site for which you want to create the file transfer filter, and then click **OK**.</span></span>
 
-6.  <span data-ttu-id="4e9a6-113">En **filtro de archivo nuevo**, haga clic en la casilla de verificación **Habilitar filtro de archivos** .</span><span class="sxs-lookup"><span data-stu-id="4e9a6-113">In **New File Filter**, click the **Enable file filter** check box.</span></span>
+6.  <span data-ttu-id="8b93d-113">En **Nuevo filtro de archivo**, haga clic en la casilla **Habilitar filtro de archivos**.</span><span class="sxs-lookup"><span data-stu-id="8b93d-113">In **New File Filter**, click the **Enable file filter** check box.</span></span>
 
-7.  <span data-ttu-id="4e9a6-114">En el cuadro de lista desplegable **transferencia de archivos** , haga clic en **bloquear todo** o **bloquear tipos de archivo específicos**.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-114">In **File transfer** drop-down list box, click **Block All** or **Block specific file types**.</span></span>
+7.  <span data-ttu-id="8b93d-114">En la lista desplegable **Transferencia de archivos**, haga clic en **Bloquear todos** o en **Bloquear tipos de archivos específicos**.</span><span class="sxs-lookup"><span data-stu-id="8b93d-114">In **File transfer** drop-down list box, click **Block All** or **Block specific file types**.</span></span>
 
-8.  <span data-ttu-id="4e9a6-115">Si hizo clic en **bloquear todo**, vaya al paso 10.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-115">If you clicked **Block All**, skip to step 10.</span></span>
+8.  <span data-ttu-id="8b93d-115">Si hizo clic en **Bloquear todos**, vaya al paso 9.</span><span class="sxs-lookup"><span data-stu-id="8b93d-115">If you clicked **Block All**, skip to step 10.</span></span>
 
-9.  <span data-ttu-id="4e9a6-116">Si hizo clic en **bloquear tipos de archivo específicos**, siga este procedimiento:</span><span class="sxs-lookup"><span data-stu-id="4e9a6-116">If you clicked **Block specific file types**, do the following:</span></span>
+9.  <span data-ttu-id="8b93d-116">Si hizo clic en **Bloquear tipos de archivos específicos**, haga lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8b93d-116">If you clicked **Block specific file types**, do the following:</span></span>
     
-    1.  <span data-ttu-id="4e9a6-117">Haga clic en **seleccionar** para modificar la lista predeterminada de extensiones de tipo de archivo que desea bloquear.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-117">Click **Select** to modify the default list of file type extensions that you want to block.</span></span>
+    1.  <span data-ttu-id="8b93d-117">Haga clic en **Seleccionar** para modificar la lista predeterminada de las extensiones de tipo de archivo que desea bloquear.</span><span class="sxs-lookup"><span data-stu-id="8b93d-117">Click **Select** to modify the default list of file type extensions that you want to block.</span></span>
     
-    2.  <span data-ttu-id="4e9a6-118">En el cuadro de diálogo **Seleccionar tipo de archivo** , seleccione los tipos de archivo que desea bloquear o permitir agregando o quitando sus extensiones de las categorías de **extensiones de tipo de archivo**.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-118">In the **Select File Type** dialog box, select the file types that you want to block or allow by adding or removing their extensions from the categories under **File type extensions**.</span></span>
+    2.  <span data-ttu-id="8b93d-118">En el cuadro de diálogo **Seleccionar tipo de archivo**, seleccione los tipos de archivo que desea bloquear o permitir; para ello permita o quite sus extensiones de las categorías en **Extensiones de tipo de archivo**.</span><span class="sxs-lookup"><span data-stu-id="8b93d-118">In the **Select File Type** dialog box, select the file types that you want to block or allow by adding or removing their extensions from the categories under **File type extensions**.</span></span>
     
-    3.  <span data-ttu-id="4e9a6-119">Si no ve la extensión de un tipo de archivo que desea bloquear, escriba la extensión en el cuadro de texto en **Agregar extensiones de tipo de archivo a la lista**y, a continuación, haga clic en **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-119">If you do not see the extension for a file type that you want to block, type the extension in the text box under **Add file type extensions to the list**, and then click **Add**.</span></span>
+    3.  <span data-ttu-id="8b93d-119">Si no ve la extensión para un tipo de archivo que desea bloquear, escriba la extensión en el cuadro de texto en **Agregar extensiones de tipo de archivo a la lista** y, a continuación, haga clic en **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="8b93d-119">If you do not see the extension for a file type that you want to block, type the extension in the text box under **Add file type extensions to the list**, and then click **Add**.</span></span>
     
-    4.  <span data-ttu-id="4e9a6-120">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-120">Click **OK**.</span></span>
+    4.  <span data-ttu-id="8b93d-120">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="8b93d-120">Click **OK**.</span></span>
 
-10. <span data-ttu-id="4e9a6-121">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-121">Click **Commit**.</span></span>
+10. <span data-ttu-id="8b93d-121">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="8b93d-121">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="4e9a6-122">Vea también</span><span class="sxs-lookup"><span data-stu-id="4e9a6-122">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8b93d-122">Vea también</span><span class="sxs-lookup"><span data-stu-id="8b93d-122">See Also</span></span>
 
 
-[<span data-ttu-id="4e9a6-123">Configuración de la transferencia de archivos y el filtrado de URL para mensajería instantánea (mi) en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e9a6-123">Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013</span></span>](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
-[<span data-ttu-id="4e9a6-124">Crear un filtro de dirección URL en Lync Server 2013 para administrar hipervínculos en conversaciones de mensajería instantánea</span><span class="sxs-lookup"><span data-stu-id="4e9a6-124">Create a new URL filter in Lync Server 2013 to handle hyperlinks in IM conversations</span></span>](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
-[<span data-ttu-id="4e9a6-125">Modificar el filtro de transferencia de archivos predeterminado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e9a6-125">Modify the default file transfer filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-file-transfer-filter.md)  
+[<span data-ttu-id="8b93d-123">Configuración de la transferencia de archivos y el filtrado de URL para la mensajería instantánea (mi) en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8b93d-123">Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013</span></span>](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
+[<span data-ttu-id="8b93d-124">Crear un nuevo filtro de dirección URL en Lync Server 2013 para administrar hipervínculos en conversaciones de mensajería instantánea</span><span class="sxs-lookup"><span data-stu-id="8b93d-124">Create a new URL filter in Lync Server 2013 to handle hyperlinks in IM conversations</span></span>](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
+[<span data-ttu-id="8b93d-125">Modificar el filtro de transferencia de archivos predeterminado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8b93d-125">Modify the default file transfer filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-file-transfer-filter.md)  
 
 
-[<span data-ttu-id="4e9a6-126">Modificar el filtro de dirección URL predeterminado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e9a6-126">Modify the default URL filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-url-filter.md)  
+[<span data-ttu-id="8b93d-126">Modificar el filtro de direcciones URL predeterminado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8b93d-126">Modify the default URL filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-url-filter.md)  
   
 
 </div>

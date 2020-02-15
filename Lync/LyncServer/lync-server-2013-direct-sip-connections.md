@@ -12,20 +12,20 @@ ms:contentKeyID: 48183357
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5cd00033eeccc855cd5ff10b6a2bee6f78da1d0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: edd6c7cbcaa1789d9f37cd77123b4afd8c2416de
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762238"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036660"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="direct-sip-connections-in-lync-server-2013"></a><span data-ttu-id="819a5-102">Conexiones SIP directas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="819a5-102">Direct SIP connections in Lync Server 2013</span></span>
+# <a name="direct-sip-connections-in-lync-server-2013"></a><span data-ttu-id="4530d-102">Conexiones SIP directas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4530d-102">Direct SIP connections in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41762238"
 
 <span> </span>
 
-<span data-ttu-id="819a5-103">_**Última modificación del tema:** 2012-08-13_</span><span class="sxs-lookup"><span data-stu-id="819a5-103">_**Topic Last Modified:** 2012-08-13_</span></span>
+<span data-ttu-id="4530d-103">_**Última modificación del tema:** 2012-08-13_</span><span class="sxs-lookup"><span data-stu-id="4530d-103">_**Topic Last Modified:** 2012-08-13_</span></span>
 
-<span data-ttu-id="819a5-104">Puede usar *las conexiones SIP directas* para conectar Lync Server a cualquiera de las siguientes opciones:</span><span class="sxs-lookup"><span data-stu-id="819a5-104">You can use *direct SIP connections* to connect Lync Server to either of the following:</span></span>
+<span data-ttu-id="4530d-104">Puede usar *las conexiones SIP directas* para conectar Lync Server a cualquiera de las siguientes opciones:</span><span class="sxs-lookup"><span data-stu-id="4530d-104">You can use *direct SIP connections* to connect Lync Server to either of the following:</span></span>
 
-  - <span data-ttu-id="819a5-105">Un IP-PBX (para obtener información detallada, consulte [Opciones de implementación de SIP directo en Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)).</span><span class="sxs-lookup"><span data-stu-id="819a5-105">An IP-PBX (for details, see [Direct SIP deployment options in Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)).</span></span>
+  - <span data-ttu-id="4530d-105">Un IP-PBX (para obtener más información, consulte [Opciones de implementación SIP directa en Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)).</span><span class="sxs-lookup"><span data-stu-id="4530d-105">An IP-PBX (for details, see [Direct SIP deployment options in Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)).</span></span>
 
-  - <span data-ttu-id="819a5-106">Una puerta de enlace RTC (para obtener información detallada, consulte [Opciones de implementación de la puerta de enlace RTC en Lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)).</span><span class="sxs-lookup"><span data-stu-id="819a5-106">A PSTN gateway (for details, see [PSTN gateway deployment options in Lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)).</span></span>
+  - <span data-ttu-id="4530d-106">Una puerta de enlace RTC (para obtener más información, consulte [Opciones de implementación de la puerta de enlace RTC en Lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)).</span><span class="sxs-lookup"><span data-stu-id="4530d-106">A PSTN gateway (for details, see [PSTN gateway deployment options in Lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)).</span></span>
 
-<span data-ttu-id="819a5-107">Para implementar una conexión SIP directa, debe seguir esencialmente los mismos pasos de implementación que para implementar un tronco de SIP.</span><span class="sxs-lookup"><span data-stu-id="819a5-107">To implement a direct SIP connection, you follow essentially the same deployment steps as you would to implement a SIP trunk.</span></span> <span data-ttu-id="819a5-108">En ambos casos, la conexión se implementa con la interfaz externa de un servidor de mediación.</span><span class="sxs-lookup"><span data-stu-id="819a5-108">In both cases, you implement the connection by using the external interface of a Mediation Server.</span></span> <span data-ttu-id="819a5-109">La única diferencia es que los troncos SIP se conectan a una entidad externa, como una puerta de enlace ITSP, y se conectan conexiones SIP directas a una entidad interna de su red local, como un IP-PBX o una puerta de enlace de red telefónica conmutada (RTC).</span><span class="sxs-lookup"><span data-stu-id="819a5-109">The only difference is that you connect SIP trunks to an external entity, such as an ITSP gateway, and you connect direct SIP connections to an internal entity within your local network, such as an IP-PBX or a public switched telephone network (PSTN) gateway.</span></span>
+<span data-ttu-id="4530d-107">Para implementar una conexión SIP directa, deberá seguir básicamente los mismos pasos de implementación que seguiría para implementar un tronco SIP.</span><span class="sxs-lookup"><span data-stu-id="4530d-107">To implement a direct SIP connection, you follow essentially the same deployment steps as you would to implement a SIP trunk.</span></span> <span data-ttu-id="4530d-108">En ambos casos, la conexión se implementa mediante la interfaz externa de un servidor de mediación.</span><span class="sxs-lookup"><span data-stu-id="4530d-108">In both cases, you implement the connection by using the external interface of a Mediation Server.</span></span> <span data-ttu-id="4530d-109">La única diferencia es que los troncos SIP se conectan a una entidad externa, como, por ejemplo, una puerta de enlace del proveedor de servicios de telefonía por Internet (ITSP), mientras que las conexiones SIP se conectan a una entidad interna de la red local, como, por ejemplo, una puerta de enlace de red telefónica conmutada (RTC) o un sistema IP-PBX.</span><span class="sxs-lookup"><span data-stu-id="4530d-109">The only difference is that you connect SIP trunks to an external entity, such as an ITSP gateway, and you connect direct SIP connections to an internal entity within your local network, such as an IP-PBX or a public switched telephone network (PSTN) gateway.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="819a5-110">En esta sección</span><span class="sxs-lookup"><span data-stu-id="819a5-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4530d-110">En esta sección</span><span class="sxs-lookup"><span data-stu-id="4530d-110">In This Section</span></span>
 
-  - [<span data-ttu-id="819a5-111">Opciones de implementación SIP directa en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="819a5-111">Direct SIP deployment options in Lync Server 2013</span></span>](lync-server-2013-direct-sip-deployment-options.md)
+  - [<span data-ttu-id="4530d-111">Opciones de implementación SIP directa en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4530d-111">Direct SIP deployment options in Lync Server 2013</span></span>](lync-server-2013-direct-sip-deployment-options.md)
 
-  - [<span data-ttu-id="819a5-112">Opciones de implementación de la puerta de enlace RTC en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="819a5-112">PSTN gateway deployment options in Lync Server 2013</span></span>](lync-server-2013-pstn-gateway-deployment-options.md)
+  - [<span data-ttu-id="4530d-112">Opciones de implementación de la puerta de enlace RTC en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4530d-112">PSTN gateway deployment options in Lync Server 2013</span></span>](lync-server-2013-pstn-gateway-deployment-options.md)
 
 </div>
 

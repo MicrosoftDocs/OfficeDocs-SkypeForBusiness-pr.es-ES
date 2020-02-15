@@ -13,20 +13,20 @@ ms:contentKeyID: 48185118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3d8b50276c2e547ba5f240f429198ef0bca8303
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f31186ffda8cd6c548d83d512c0c795110d4fc4d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724140"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003845"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="back-up-systems-and-data"></a><span data-ttu-id="f116c-102">Copia de seguridad de los datos y sistemas</span><span class="sxs-lookup"><span data-stu-id="f116c-102">Back up systems and data</span></span>
+# <a name="back-up-systems-and-data"></a><span data-ttu-id="6f050-102">Copia de seguridad de los datos y sistemas</span><span class="sxs-lookup"><span data-stu-id="6f050-102">Back up systems and data</span></span>
 
 </div>
 
@@ -36,9 +36,9 @@ ms.locfileid: "41724140"
 
 <span> </span>
 
-<span data-ttu-id="f116c-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="f116c-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="6f050-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="6f050-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="f116c-104">Antes de comenzar la migración a Lync Server 2013, le recomendamos encarecidamente que realice una copia de seguridad completa del sistema y documente el sistema existente, lo que incluye un inventario de las cuentas de usuario que se encuentran en cada grupo, para que pueda volver a las comunicaciones de Office. Server 2007 R2 si es necesario.</span><span class="sxs-lookup"><span data-stu-id="f116c-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Office Communications Server 2007 R2 if it becomes necessary.</span></span> <span data-ttu-id="f116c-105">Hay varias herramientas y programas disponibles para realizar copias de seguridad y restaurar los datos, la configuración y los sistemas.</span><span class="sxs-lookup"><span data-stu-id="f116c-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span> <span data-ttu-id="f116c-106">Para obtener detalles y procedimientos, consulte "Guía de copia de seguridad y restauración de Office Communications <http://go.microsoft.com/fwlink/p/?linkid=168162>Server 2007 R2" en.</span><span class="sxs-lookup"><span data-stu-id="f116c-106">For details and procedures, see "Office Communications Server 2007 R2 Backup and Restoration Guide" at <http://go.microsoft.com/fwlink/p/?linkid=168162>.</span></span>
+<span data-ttu-id="6f050-104">Antes de comenzar la migración a Lync Server 2013, se recomienda realizar una copia de seguridad completa del sistema y documentar el sistema existente, incluido un inventario de las cuentas de usuario hospedadas en cada grupo de servidores, para que pueda volver a las comunicaciones de Office. Servidor 2007 R2 si es necesario.</span><span class="sxs-lookup"><span data-stu-id="6f050-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Office Communications Server 2007 R2 if it becomes necessary.</span></span> <span data-ttu-id="6f050-105">Existen numerosos programas y herramientas para realizar copias de seguridad y restauraciones de datos, configuraciones y sistemas.</span><span class="sxs-lookup"><span data-stu-id="6f050-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span> <span data-ttu-id="6f050-106">Para obtener detalles y procedimientos, consulte "Guía de copia de seguridad y restauración de Office Communications <http://go.microsoft.com/fwlink/p/?linkid=168162>Server 2007 R2" en.</span><span class="sxs-lookup"><span data-stu-id="6f050-106">For details and procedures, see "Office Communications Server 2007 R2 Backup and Restoration Guide" at <http://go.microsoft.com/fwlink/p/?linkid=168162>.</span></span>
 
 </div>
 
