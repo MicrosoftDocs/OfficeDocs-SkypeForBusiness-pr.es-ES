@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Omisión de medios y control de admisión de llamadas'
+title: 'Lync Server 2013: omisión de medios y control de admisión de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2034a58f686d62ab8e755c0e2c624a9a8994961e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a0a2df9eee6ee9cf0ca387c9098623d574292a27
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765671"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045222"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,30 +37,30 @@ ms.locfileid: "41765671"
 
 _**Última modificación del tema:** 2012-10-05_
 
-El servicio de control de admisión de llamadas (CAC) y la omisión de medios funcionan conjuntamente para administrar el control del ancho de banda para medios telefónicos. La omisión de medios facilita el flujo de medios a través de vínculos con buenas conexiones; el CAC administra el tráfico en vínculos con restricciones de ancho de banda. Como la omisión de medios y el CAC son mutuamente exclusivos, deberás tener en cuenta a cada uno de ellos al realizar la planificación del otro. Se admiten las siguientes combinaciones:
+El desvío de medios y el control de admisión de llamadas (CAC) funcionan juntos para administrar el control del ancho de banda para los medios de llamada. La omisión de medios facilita el flujo de medios a través de vínculos bien conectados; El CAC administra el tráfico en vínculos con restricciones de ancho de banda. Dado que la omisión de medios y el CAC son mutuamente excluyentes, debe estar atento a uno cuando Planee la otra. Se admiten las siguientes combinaciones:
 
-  - Tanto el CAC como la omisión de medios están habilitados. La omisión de medios necesita estar configurada con **Usar información de sitio y región**. La información de sitio y región es la misma que la usada para el CAC.
+  - El CAC y el desvío de medios están habilitados. La omisión de medios debe estar configurada para **usar la información de sitio y región**. Esta información de sitio y región es la misma que la usada para CAC.
     
-    Si habilitas el CAC, no podrás seleccionar **Omitir siempre**, y viceversa, ya que las dos configuraciones son mutuamente exclusivas; es decir, solo se aplicará una de las dos a una llamada RTC determinada. En primer lugar, se realiza una comprobación para determinar si se aplica la omisión de medios a la llamada. Si es así, no se usa el CAC. Es lógico, ya que si una llamada reúne las condiciones necesarias para la omisión, está usando, por definición, una conexión que no requiere el servicio de control de admisión de llamadas. Si no puede aplicarse la omisión a la llamada (es decir, si los identificadores de omisión del cliente y de la puerta de enlace no coinciden), se aplicará el CAC a la llamada.
+    Si habilita el CAC, no podrá seleccionar **omitir siempre**y viceversa, ya que las dos configuraciones se excluyen mutuamente. Es decir, solo una de las dos se aplicará a una llamada RTC determinada. En primer lugar, se realiza una comprobación para determinar si la omisión de medios se aplica a la llamada. Si es así, no se usará el CAC. Esto tiene sentido, porque si una llamada es apta para la omisión, es por definición usando una conexión donde no se necesita el CAC. Si no se puede aplicar el método bypass a la llamada (es decir, si no coinciden los identificadores de omisión del cliente y la puerta de enlace), se aplicará el CAC a la llamada.
 
-  - CAC no habilitado y la omisión de medios configurada con **Omitir siempre**.
+  - CAC no habilitado y desvío de medios configurado para **omitir siempre**.
     
-    En esta configuración, las subredes tanto del tronco como del cliente están asignadas a un solo identificador de omisión, y el sistema lo calcula.
+    En esta configuración, las subredes de cliente y de tronco están asignadas a un solo identificador de omisión, calculado por el sistema.
 
-  - CAC no habilitado y la omisión de medios configurada con **Usar información de sitio y región**.
+  - CAC no habilitado y el desvío de medios configurado para **usar la información de sitio y región**.
     
-    Cuando **Usar información de sitio y región** está habilitado, la determinación de omisión funciona básicamente del mismo modo, independientemente de si el CAC está habilitado o no. Es decir, para todas las llamadas RTC, la subred del cliente está asignada a un sitio en particular, y se extrae el identificador de omisión para dicha subred. Del mismo modo, la subred de la puerta de enlace está asignada a un sitio en particular, y se extrae el identificador de omisión para dicha subred. La omisión de la llamada solo se producirá si los dos identificadores de omisión son idénticos. Si no es así, la omisión de medios no tendrá lugar.
+    Cuando se habilita **usar información de sitio y región** , la determinación por omisión funciona esencialmente de la misma manera, independientemente de si CAC está habilitado o no. Es decir, para cualquier llamada RTC, la subred del cliente se asigna a un sitio en particular y se extrae el identificador de omisión de esa subred. De forma similar, la subred de la puerta de enlace se asigna a un sitio en particular y se extrae el identificador de omisión de dicha subred. Solo si los dos identificadores de omisión son idénticos, se omitirá la llamada. Si no son idénticos, no se producirá la omisión de medios.
     
-    Incluso aunque el CAC esté deshabilitado globalmente, es necesario definir la directiva de ancho de banda para cada uno de los sitios y vínculos si deseas usar una configuración de sitio y región para controlar la decisión de omisión. El valor real de la restricción de ancho de banda o su modalidad no es relevante. El objetivo final es hacer que el sistema calcule automáticamente diferentes identificadores de omisión para asociarse con diferentes configuraciones regionales que no tienen una buena conexión. La definición de una restricción de ancho de banda significa por definición que un vínculo no tiene una buena conexión.
+    Aunque el CAC está deshabilitado globalmente, es necesario definir la Directiva de ancho de banda para cada sitio y vínculo si desea usar la configuración de sitio y región para controlar la decisión de omisión. El valor real de la restricción de ancho de banda o su modalidad no importa. El objetivo final es hacer que el sistema calcule automáticamente distintos identificadores de omisión para asociarlos con distintas configuraciones regionales que no estén bien conectadas. Definir una restricción de ancho de banda por definición significa que un vínculo no está bien conectado.
 
-  - El CAC está habilitado y la omisión de medios no está habilitada. Esto se aplica únicamente cuando todas las puertas de enlace y las IP-PBX presentan una conexión deficiente o no reúnen otros requisitos para la omisión de medios. Para obtener más información sobre los requisitos para la omisión de multimedia, consulte [requisitos técnicos para la omisión de medios en Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md).
+  - El CAC está habilitado y la omisión de medios no está habilitada. Esto sólo se aplicará cuando todas las puertas de enlace y las PBX IP no están conectadas correctamente o no cumplen otros requisitos para la omisión de medios. Para obtener más información sobre los requisitos para la omisión de medios, consulte [Technical Requirements for Media bypass in Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md).
 
 <div>
 
 ## <a name="see-also"></a>Vea también
 
 
-[Información general sobre la omisión de elementos multimedia en Lync Server 2013](lync-server-2013-overview-of-media-bypass.md)  
+[Información general sobre la omisión de medios en Lync Server 2013](lync-server-2013-overview-of-media-bypass.md)  
 [Modos de omisión de medios en Lync Server 2013](lync-server-2013-media-bypass-modes.md)  
 [Requisitos técnicos para la omisión de medios en Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md)  
   

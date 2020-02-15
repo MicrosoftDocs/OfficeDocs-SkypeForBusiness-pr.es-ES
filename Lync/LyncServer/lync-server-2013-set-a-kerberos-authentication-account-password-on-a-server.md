@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Establecer una contraseña de cuenta de autenticación Kerberos en un servidor'
+title: 'Lync Server 2013: establecer una contraseña de cuenta de autenticación Kerberos en un servidor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97130b93052c0e14e1e4b4863be8ceea6118db05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9799be0fda2b1a3c5b7765774b1f9e3199cc61f3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764706"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41764706"
 
 _**Última modificación del tema:** 2012-01-16_
 
-Para completar correctamente este procedimiento, debe haber iniciado sesión como un usuario que sea miembro del grupo RTCUniversalServerAdmins.
+Para completar con éxito este procedimiento, debe iniciar sesión como usuario miembro del grupo RTCUniversalServerAdmins.
 
-Debe configurar una contraseña en la cuenta de Kerberos para cada sitio que tenga servidores front-end, servidores Standard Edition y directores. Puede configurar la contraseña ejecutando el cmdlet **set-CsKerberosAccountPassword** de Windows PowerShell en un servidor del sitio (por ejemplo, un servidor front-end). Para cada sitio, debe ejecutar el cmdlet **set-CsKerberosAccountPassword** . El cmdlet configura Internet Information Services (IIS) para el servicio Web Services y, a continuación, establece la contraseña en la cuenta de equipo en servicios de dominio de Active Directory. Un método alternativo, basado en el parámetro que se usa con el cmdlet, configura IIS en un servidor al tiempo que se usa otro servidor que se haya configurado como el origen de la contraseña de la cuenta de Kerberos.
+Debe configurar una contraseña en la cuenta de Kerberos por cada sitio que tenga servidores front-end, servidores Standard Edition y directores. Puede configurar la contraseña si ejecuta el cmdlet **set-CsKerberosAccountPassword** de Windows PowerShell en un servidor del sitio (por ejemplo, un servidor front-end). Para cada sitio, debe ejecutar el cmdlet **set-CsKerberosAccountPassword** . El cmdlet configura Internet Information Services (IIS) para el servicio de servicios web y, a continuación, establece la contraseña en la cuenta de equipo en servicios de dominio de Active Directory. Un método alternativo, basado en el parámetro que se usa con el cmdlet, configura IIS en un servidor mientras usa otro servidor que se ha configurado como el origen de la contraseña de la cuenta de Kerberos.
 
-Al usar el cmdlet **set-CsKerberosAccountPassword** para establecer una contraseña, Kerberos establece la contraseña en una cadena generada de forma aleatoria. Este cmdlet se pone en contacto con todas las instancias de IIS en todos los sitios centrales de Lync Server 2013 a los que está asignada esta cuenta.
+Cuando usa el cmdlet **Set-CsKerberosAccountPassword** para establecer una contraseña, Kerberos elige como contraseña una cadena generada al azar. Este cmdlet se pone en contacto con todas las instancias de IIS en todos los sitios centrales de Lync Server 2013 a los que esta cuenta está asignada.
 
 <div>
 
-## <a name="to-set-a-password-for-a-kerberos-authentication-account"></a>Para establecer una contraseña para una cuenta de autenticación Kerberos
+## <a name="to-set-a-password-for-a-kerberos-authentication-account"></a>Para establecer una contraseña de una cuenta de autenticación de Kerberos
 
-1.  Inicie sesión en cualquier equipo del dominio con el shell de administración de Lync Server instalado como miembro del grupo RTCUniversalServerAdmins.
+1.  Inicie sesión en cualquier equipo del dominio que tenga instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins.
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
 3.  En la línea de comandos, ejecute los dos comandos siguientes:
     
@@ -63,7 +63,7 @@ Al usar el cmdlet **set-CsKerberosAccountPassword** para establecer una contrase
     
 
     > [!NOTE]  
-    > Debe especificar el parámetro Cuentadeusuario con el formato Dominio\usuario. El User@Domain. el formato de extensión no es compatible para hacer referencia a los objetos de equipo creados para la autenticación Kerberos.
+    > Debe especificar el parámetro UserAccount con el formato dominio\nombre de usuario. No se admite el formato Usuario@Dominio.extensión para hacer referencia a los objetos de equipo creados para la autenticación de Kerberos.
 
     
     </div>

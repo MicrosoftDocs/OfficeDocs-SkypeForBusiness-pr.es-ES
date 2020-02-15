@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Compatibilidad con hardware cliente y de dispositivos'
+title: Soporte de hardware de clientes y dispositivos de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08c87692e169bac11c29bc1beeb61df8c6c964b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e9041f63f012f7251c51bb60d912417a2ed0494e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729840"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037720"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-and-device-hardware-support-in-lync-server-2013"></a>Compatibilidad con hardware cliente y de dispositivos en Lync Server 2013
+# <a name="client-and-device-hardware-support-in-lync-server-2013"></a>Compatibilidad de hardware de dispositivo y cliente en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41729840"
 
 _**Última modificación del tema:** 2012-10-01_
 
-Los equipos cliente deben cumplir ciertos requisitos de hardware para admitir los clientes de su implementación de Lync Server 2013. Debe haber configuraciones de hardware adicionales antes de implementar los teléfonos IP y los dispositivos analógicos.
+Los equipos cliente deben cumplir ciertos requisitos de hardware para admitir clientes en su implementación de Lync Server 2013. Es necesario realizar configuraciones adicionales del hardware antes de implementar teléfonos IP y dispositivos analógicos.
 
 <div>
 
@@ -45,9 +45,9 @@ Los equipos cliente deben cumplir ciertos requisitos de hardware para admitir lo
 
   - [Compatibilidad de hardware del cliente Lync en Lync Server 2013](lync-server-2013-lync-client-hardware-support.md)
 
-  - [Compatibilidad con hardware de dispositivos en Lync Server 2013](lync-server-2013-device-hardware-support.md)
+  - [Compatibilidad de hardware de dispositivos en Lync Server 2013](lync-server-2013-device-hardware-support.md)
 
-  - [Compatibilidad con la movilidad en Lync Server 2013](lync-server-2013-mobility-support.md)
+  - [Compatibilidad con movilidad en Lync Server 2013](lync-server-2013-mobility-support.md)
 
 </div>
 

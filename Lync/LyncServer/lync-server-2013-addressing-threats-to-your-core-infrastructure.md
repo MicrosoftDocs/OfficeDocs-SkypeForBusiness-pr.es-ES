@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: enfrentar las amenazas a su infraestructura básica'
+title: 'Lync Server 2013: enfrentarse a las amenazas a la infraestructura básica'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 60918604
 ms.date: 08/01/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ca8675fea59c34ba5bf40269387e328f357fe88
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f6c221b55cd8af2b4217b5aa1f287ae79b19d01
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737990"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="addressing-threats-to-your-core-infrastructure-for-lync-server-2013"></a>Enfrentar las amenazas a su infraestructura básica para Lync Server 2013
+# <a name="addressing-threats-to-your-core-infrastructure-for-lync-server-2013"></a>Afrontar las amenazas a su infraestructura básica para Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41737990"
 
 _**Última modificación del tema:** 2016-08-01_
 
-Además de los procedimientos recomendados para la implementación de Microsoft Lync Server 2013, puede ayudar a garantizar la seguridad mediante la revisión, la comprensión y la solución de cualquier necesidad en áreas específicas de la implementación.
+Además de los siguientes procedimientos recomendados para la implementación de Microsoft Lync Server 2013, puede ayudar a garantizar la seguridad mediante la revisión, comprensión y solución de cualquier necesidad en áreas específicas de la implementación.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Procedimientos recomendados para su infraestructura básica en Lync Server 2013](lync-server-2013-best-practices-for-your-core-infrastructure.md)
+  - [Procedimientos recomendados para la infraestructura básica en Lync Server 2013](lync-server-2013-best-practices-for-your-core-infrastructure.md)
 
-  - [Reforzar y proteger los servidores y las aplicaciones de Lync Server 2013](lync-server-2013-hardening-and-protecting-servers-and-applications.md)
+  - [Protección y protección de servidores y aplicaciones para Lync Server 2013](lync-server-2013-hardening-and-protecting-servers-and-applications.md)
 
-  - [Exclusiones de la detección de virus para Lync Server 2013](lync-server-2013-antivirus-scanning-exclusions.md)
+  - [Exclusiones de detección de virus para Lync Server 2013](lync-server-2013-antivirus-scanning-exclusions.md)
 
-  - [Proteger los datos en tránsito: bases de datos de servidor de archivado, supervisión y cumplimiento de chat en grupo en Lync Server 2013](lync-server-2013-protecting-data-in-transit-–-archiving-monitoring-group-chat-compliance-server-databases.md)
+  - [Protección de datos en tránsito: bases de datos de servidor de archivado, supervisión y cumplimiento de chat en grupo en Lync Server 2013](lync-server-2013-protecting-data-in-transit-–-archiving-monitoring-group-chat-compliance-server-databases.md)
 
-  - [Reducir la mensajería instantánea no solicitada en Lync Server 2013](lync-server-2013-reducing-unsolicited-im.md)
+  - [Reducir la mensajería instantánea no solicitada para Lync Server 2013](lync-server-2013-reducing-unsolicited-im.md)
 
   - [Proteger IIS en Lync Server 2013](lync-server-2013-protecting-iis.md)
 

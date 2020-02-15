@@ -12,16 +12,16 @@ ms:contentKeyID: 49733674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27d2afd025897df4f9b98e235d408a264d2cceb2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7fd7a9a2aa3152e64a48fb87670280259b082677
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724010"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045472"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41724010"
 
 _**Última modificación del tema:** 2012-10-20_
 
-Además de modificar las transacciones sintéticas que se ejecutan en un nodo de monitor, los administradores también pueden usar el cmdlet **set-CsWatcherNodeConfiguration** para llevar a cabo otras dos tareas importantes: habilitar y deshabilitar el nodo de supervisor, y configurar el nodo de monitor para usar direcciones URL internas o externas al ejecutar sus pruebas.
+Aparte de modificar las transacciones sintéticas que se ejecutan en un nodo de monitor, los administradores también pueden usar el cmdlet **Set-CsWatcherNodeConfiguration** para llevar a cabo otras tareas importantes, como habilitar y deshabilitar el nodo de monitor o configurarlo para que use direcciones URL internas o externas cuando ejecute sus pruebas.
 
-De forma predeterminada, los nodos de monitor están diseñadas para ejecutar periódicamente todas sus transacciones sintéticas habilitadas. Sin embargo, a veces es posible que debas suspender dichas transacciones. Por ejemplo, si el nodo de monitor está desconectado temporalmente de la red y, a continuación, no hay ningún motivo para ejecutar las transacciones sintéticas. Sin la conectividad de red, se garantizará el error de esas transacciones. Si desea deshabilitar temporalmente un nodo de monitor, ejecute un comando similar a este desde el shell de administración de Lync Server:
+De forma predeterminada, los nodos de monitor están diseñados para ejecutar periódicamente todas sus transacciones sintéticas habilitadas. Sin embargo, a veces es posible que deba suspender esas transacciones. Por ejemplo, si el nodo de monitor se desconecta temporalmente de la red, no hay ninguna razón para ejecutar las transacciones sintéticas. Sin la conectividad de red, se garantizará que se producirá un error en esas transacciones. Si desea deshabilitar temporalmente un nodo de monitor, ejecute un comando similar al siguiente desde el shell de administración de Lync Server:
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $False
 
-Este comando deshabilitará la ejecución de transacciones sintéticas en el nodo de monitor ATL-Watcher-001.litwareinc.com. Para volver a ejecutarlas, establezca la propiedad Enabled en True ($True):
+Con este comando se deshabilita la ejecución de transacciones sintéticas en el nodo de monitor atl-watcher- 001.litwareinc.com. Para volver a ejecutarlas, establezca la propiedad Enabled en True ($True):
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 
@@ -51,17 +51,17 @@ Este comando deshabilitará la ejecución de transacciones sintéticas en el nod
 
 
 > [!NOTE]  
-> La propiedad Enabled sirve para activar y desactivar nodos de monitor. En caso de que quiera eliminar un nodo de monitor permanentemente, use el cmdlet <STRONG>Remove-CsWatcherNodeConfiguration</STRONG>:<BR>Remove-CsWatcherNodeConfiguration: Identity "atl-watcher-001.litwareinc.com"<BR>Ese comando quita todos los parámetros de configuración de nodo de monitor del equipo especificado, lo que impide que el equipo ejecute automáticamente transacciones sintéticas. Sin embargo, el comando no desinstala los archivos del agente de System Center ni los archivos de sistema de Lync Server 2013.
+> La propiedad Enabled sirve para activar y desactivar nodos de monitor. En caso de que quiera eliminar un nodo de monitor permanentemente, use el cmdlet <STRONG>Remove-CsWatcherNodeConfiguration</STRONG>:<BR>Remove-CsWatcherNodeConfiguration –Identity "atl-watcher-001.litwareinc.com"<BR>Con este comando se elimina toda la configuración de nodo de monitor del equipo en cuestión, lo que evita que se ejecuten transacciones sintéticas automáticamente. Sin embargo, el comando no desinstala los archivos del agente de System Center o los archivos del sistema de Lync Server 2013.
 
 
 
 </div>
 
-De forma predeterminada, los nodos de monitor usan las direcciones URL externas de una organización al realizar sus pruebas. Sin embargo, los nodos de monitor también se pueden configurar para usar las direcciones URL internas de la organización. Esto permite a los administradores comprobar el acceso a la dirección URL para los usuarios que se encuentran dentro de la red perimetral. Para configurar un nodo de monitor para que use direcciones URL internas en lugar de direcciones URL externas, establece la propiedad UseInternalWebUrls en true ($True):
+Cuando realizan pruebas, los nodos de monitor usan de forma predeterminada las direcciones URL externas de una organización, aunque se pueden configurar para que usen las direcciones URL internas. Esto permite que los administradores comprueben el acceso a la dirección URL de los usuarios de dentro de la red perimetral. Para configurar un nodo de monitor para que use direcciones URL internas en lugar de externas, establezca la propiedad UseInternalWebUrls en True ($True):
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $True
 
-Si restablece esta propiedad en el valor predeterminado de falso ($False), el observador usará las direcciones URL externas:
+Si restablece esta propiedad a su valor predeterminado de False ($False), el monitor usará las direcciones URL externas:
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $False
 

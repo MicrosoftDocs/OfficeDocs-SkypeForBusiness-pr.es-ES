@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: revisar el informe certificados'
+title: 'Lync Server 2013: revisión del informe de certificados'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 410e9e99fccae7378b5260c9aa3a2281a3004cd5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 26a01f778e855fc5934b524c5bf4a5829a2ca31e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733040"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051564"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reviewing-the-certificates-report-in-lync-server-2013"></a>Revisar el informe de certificados en Lync Server 2013
+# <a name="reviewing-the-certificates-report-in-lync-server-2013"></a>Revisión del informe de certificados en Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41733040"
 
 _**Última modificación del tema:** 2013-02-21_
 
-El informe certificados contiene todos los certificados necesarios en la implementación recomendada de Lync Server 2013. La herramienta de planeación cuenta con los nombres de asunto y los nombres alternativos de asunto que se escriben. El texto predeterminado que se deja sin editar puede representar un posible desafío para el equipo responsable de solicitar y emitir los certificados. La información del certificado también contiene datos sobre el origen desde el cual puede emitirse normalmente el certificado. Si la infraestructura no dispone de una infraestructura de clave pública (PKI) interna, todos los certificados se pueden solicitar a través de un proveedor de certificados público. Los campos “Uso mejorado de clave (EKU)” y “Asignar a” del informe son muy útiles para comprender el objetivo y la ubicación de cada certificado.
+El informe de certificados contiene todos los certificados necesarios en la implementación de Lync Server 2013 recomendada. La herramienta de planeación cuenta con los nombres de sujeto y los nombres alternativos de sujeto que se han especificado. El texto predeterminado que queda sin editar puede representar un desafío potencial para el equipo responsable de solicitar y emitir los certificados. La información de certificados contiene también información sobre dónde puede emitirse normalmente el certificado. Si la infraestructura no dispone de una infraestructura de clave pública (PKI) interna, todos los certificados se pueden solicitar a través de un proveedor de certificados público. Los campos Uso mejorado de clave (EKU) y Asignar a del informe son muy útiles para comprender el objetivo y la ubicación en la que debe estar cada certificado.
 
 ![Informe de administración de certificados](images/Gg558651.63a29335-d9e4-41ae-97ec-3c9d9fd30d8a(OCS.15).jpg "Informe de administración de certificados")
 
-Revise con atención y comprenda completamente el uso y el propósito de cada certificado de la implementación. Si tiene alguna pregunta acerca de la función de un certificado, determine los elementos con los que se comunica un servidor o servicio. Los certificados de Lync Server 2013 se usan para dos propósitos principales:
+Revise atentamente y asegúrese de comprender el uso y el propósito de cada certificado en la implementación. Si hay una pregunta sobre lo que hace un certificado, determine qué servidor o servicio está hablando con qué. Los certificados en Lync Server 2013 se usan para dos propósitos principales:
 
-  - Seguridad de la capa de transporte mutua (MTLS): los equipos que participan en la comunicación presentan un certificado que prueba su identidad al otro equipo; esto se conoce como autenticación del servidor. La comunicación no puede comenzar hasta que ambos equipos confíen mutuamente en la identidad del otro.
+  - Seguridad de la capa de transporte mutua (MTLS): los equipos que participan en la comunicación cada uno presentan un certificado que prueba su identidad en otro equipo. Esto se conoce como autenticación de servidor. La comunicación no puede comenzar hasta que cada equipo confíe en la identidad del otro equipo.
 
   - Cifrado: el cifrado (Capa de sockets seguros, o SSL, y Seguridad de la capa de transporte, o TLS) es un medio fundamental para proteger las comunicaciones y la privacidad, así como para crear comunicaciones de confianza y un sistema de colaboración.
 

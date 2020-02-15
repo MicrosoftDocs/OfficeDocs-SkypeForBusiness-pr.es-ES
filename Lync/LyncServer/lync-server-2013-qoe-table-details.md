@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Detalles de la tabla QoE'
+title: 'Lync Server 2013: detalles de la tabla QoE'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 157335ce68713c4c54b7cd69daf1c9ae0676a0b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 31a1b776aec52f74712b458050e36142b3dc633e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747010"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045782"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41747010"
 
 _**Última modificación del tema:** 2012-10-02_
 
-Estas secciones detallan las columnas de cada una de las tablas de esquema de base de datos de la calidad de la experiencia (QoE).
+Estas secciones detallan las columnas de cada una de las tablas de esquema de base de datos de calidad de la experiencia (QoE).
 
   - [Tabla AppliedBandwidthSource en Lync Server 2013](lync-server-2013-appliedbandwidthsource-table.md)
 
@@ -53,13 +53,13 @@ Estas secciones detallan las columnas de cada una de las tablas de esquema de ba
 
   - [Tabla CodecDescription en Lync Server 2013](lync-server-2013-codecdescription-table.md)
 
-  - [Tabla Conference en Lync Server 2013](lync-server-2013-conference-table.md)
+  - [Tabla de conferencia en Lync Server 2013](lync-server-2013-conference-table.md)
 
   - [Tabla Device en Lync Server 2013](lync-server-2013-device-table.md)
 
   - [Tabla DeviceDriver en Lync Server 2013](lync-server-2013-devicedriver-table.md)
 
-  - [Tabla Dialog en Lync Server 2013](lync-server-2013-dialog-table.md)
+  - [Tabla de cuadro de diálogo en Lync Server 2013](lync-server-2013-dialog-table.md)
 
   - [Tabla Endpoint en Lync Server 2013](lync-server-2013-endpoint-table.md)
 
@@ -79,11 +79,11 @@ Estas secciones detallan las columnas de cada una de las tablas de esquema de ba
 
   - [Tabla PayloadDescription en Lync Server 2013](lync-server-2013-payloaddescription-table.md)
 
-  - [Tabla Pool en Lync Server 2013](lync-server-2013-pool-table.md)
+  - [Tabla de grupo en Lync Server 2013](lync-server-2013-pool-table.md)
 
   - [Tabla PurgeSettings (QoE) en Lync Server 2013](lync-server-2013-purgesettings-table-qoe.md)
 
-  - [Tabla Region en Lync Server 2013](lync-server-2013-region-table.md)
+  - [Tabla region en Lync Server 2013](lync-server-2013-region-table.md)
 
   - [Tabla Server en Lync Server 2013](lync-server-2013-server-table.md)
 
@@ -91,11 +91,11 @@ Estas secciones detallan las columnas de cada una de las tablas de esquema de ba
 
   - [Tabla SessionCorrelation en Lync Server 2013](lync-server-2013-sessioncorrelation-table.md)
 
-  - [Tabla Subnet en Lync Server 2013](lync-server-2013-subnet-table.md)
+  - [Tabla de subred en Lync Server 2013](lync-server-2013-subnet-table.md)
 
-  - [Tabla TraceRoute en Lync Server 2013](lync-server-2013-traceroute-table.md)
+  - [TraceRoute tabla en Lync Server 2013](lync-server-2013-traceroute-table.md)
 
-  - [Tabla User en Lync Server 2013](lync-server-2013-user-table.md)
+  - [Tabla user en Lync Server 2013](lync-server-2013-user-table.md)
 
   - [Tabla UserAgent en Lync Server 2013](lync-server-2013-useragent-table.md)
 
@@ -107,7 +107,7 @@ Estas secciones detallan las columnas de cada una de las tablas de esquema de ba
 
   - [Tabla VideoMetricsThreshold en Lync Server 2013](lync-server-2013-videometricsthreshold-table.md)
 
-  - [Tabla VideoStream en Lync Server 2013](lync-server-2013-videostream-table.md)
+  - [Tabla Videostream en Lync Server 2013](lync-server-2013-videostream-table.md)
 
 </div>
 

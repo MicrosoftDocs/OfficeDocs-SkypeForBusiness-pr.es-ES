@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: vista multimedia'
+title: 'Lync Server 2013: vista de medios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733570
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ad833bc84d488221d46822686077cfde2cda0ff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a64803642249ef4b355279337fc62d1b3f356d93
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765098"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044932"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-view-in-lync-server-2013"></a>Vista de elementos multimedia de Lync Server 2013
+# <a name="media-view-in-lync-server-2013"></a>Vista de elementos multimedia en Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41765098"
 
 _**Última modificación del tema:** 2012-10-01_
 
-La vista multimedia almacena información sobre un tipo de medio usado en una sesión de punto a punto. Una sesión estaría representada por varios registros de la tabla, si se usa más de un tipo de medio. Esta vista se presentó en Microsoft Lync Server 2013.
+La vista Medios almacena información sobre un tipo de medios utilizado en una sesión punto a punto. Una sesión estará representada por diferentes registros en la tabla, si se utilizan varios tipos de medios. Esta vista se introdujo en Microsoft Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> La vista de elementos multimedia no debe usarse para calcular la duración multimedia de una sesión. Esta vista contiene los detalles de señalización de intercambio de medios en una sesión. El intercambio de medios se realiza mediante la solicitud INVITE y StartTime indica el momento en que se envió la invitación. La hora de la invitación no significa necesariamente la hora de inicio del medio, porque los medios solo se inician una vez que se acepta la sesión.
+> La vista Medios no debería utilizarse para calcular la duración de medios de una sesión. Esta vista contiene los detalles de señalización del intercambio de medios en una sesión. El intercambio de medios se realiza mediante la solicitud INVITE, y StartTime indica la hora a la que se envió la solicitud INVITE. Esta hora no implica necesariamente la hora de inicio de los medios, ya que los medios se inician solamente después de que se acepta la sesión.
 
 
 
 </div>
 
-La vista contenido multimedia contiene todas las columnas de la [vista SessionDetails de Lync Server 2013](lync-server-2013-sessiondetails-view.md) , además de las que se muestran a continuación.
+La vista de elementos multimedia contiene todas las columnas de la [vista SessionDetails en Lync Server 2013](lync-server-2013-sessiondetails-view.md) , además de las que se enumeran a continuación.
 
 
 <table>
@@ -67,14 +67,14 @@ La vista contenido multimedia contiene todas las columnas de la [vista SessionDe
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Media</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Tipo de medio. Para obtener más información, consulte la <a href="lync-server-2013-medialist-table.md">tabla medial en Lync Server 2013</a> .</p></td>
+<td><p><strong>Medios</strong></p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Tipo de medio. Consulte la <a href="lync-server-2013-medialist-table.md">tabla de medial en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MediaStartTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Hora en que se envió una solicitud de medios.</p></td>
+<td><p>Hora a la que se envió la solicitud de medios.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaEndTime</strong></p></td>

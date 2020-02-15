@@ -12,16 +12,16 @@ ms:contentKeyID: 48184155
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27e99c56ae8c7699b3e19f18ef057b194539b75e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c0726a1c7893a2411ed1fc1ad8981349b8cc9add
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755784"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051342"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -43,7 +43,7 @@ En los temas de esta sección se explica cómo usar las herramientas de administ
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Operations Guide for Lync Server 2013](lync-server-2013-operations-guide.md)
+  - [Guía de operaciones para Lync Server 2013](lync-server-2013-operations-guide.md)
 
   - [Herramientas administrativas de Lync Server 2013](lync-server-2013-lync-server-administrative-tools.md)
 
@@ -51,39 +51,39 @@ En los temas de esta sección se explica cómo usar las herramientas de administ
 
   - [Administración de la topología de Lync Server 2013](lync-server-2013-managing-the-lync-server-topology.md)
 
-  - [Delegación del control administrativo de Microsoft Lync Server 2013](lync-server-2013-delegating-administrative-control-of-lync-server.md)
+  - [Delegación del control administrativo de Lync Server 2013](lync-server-2013-delegating-administrative-control-of-lync-server.md)
 
-  - [Administrar la configuración de mensajería instantánea y de presencia en Lync Server 2013](lync-server-2013-managing-im-and-presence-settings.md)
+  - [Administración de la configuración de mensajería instantánea y presencia en Lync Server 2013](lync-server-2013-managing-im-and-presence-settings.md)
 
-  - [Administrar el servidor de chat persistente de Lync Server 2013](managing-lync-server-2013-persistent-chat-server.md)
+  - [Administración del servidor de chat persistente de Lync Server 2013](managing-lync-server-2013-persistent-chat-server.md)
 
   - [Administrar el enrutamiento de voz en Lync Server 2013](lync-server-2013-managing-voice-routing.md)
 
-  - [Administrar características de administración de llamadas en Lync Server 2013](lync-server-2013-managing-call-management-features.md)
+  - [Administración de las características de administración de llamadas en Lync Server 2013](lync-server-2013-managing-call-management-features.md)
 
   - [Administrar reuniones y conferencias en Lync Server 2013](lync-server-2013-managing-meetings-and-conferences.md)
 
-  - [Administrar dispositivos, teléfonos y aplicaciones cliente en Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)
+  - [Administración de dispositivos, teléfonos y aplicaciones cliente en Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)
 
-  - [Administración de la federación y el acceso externo a Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)
+  - [Administración de la Federación y el acceso externo a Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)
 
   - [Administración de archivado en Lync Server 2013](lync-server-2013-managing-archiving.md)
 
   - [Administración de la autenticación de Lync Server 2013](lync-server-2013-managing-lync-server-authentication.md)
 
-  - [Administrar la infraestructura de red de Lync Server 2013](lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md)
+  - [Administración de la infraestructura de red de Lync Server 2013](lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md)
 
   - [Administración de 9-1-1 mejorado y el servicio de ubicación en Lync Server 2013](lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md)
 
-  - [Administrar los roles de servidor y los servicios de Lync Server 2013](lync-server-2013-managing-lync-server-services-and-server-roles.md)
+  - [Administración de servicios y roles de servidor de Lync Server 2013](lync-server-2013-managing-lync-server-services-and-server-roles.md)
 
   - [Administración de aplicaciones en Lync Server 2013](lync-server-2013-managing-applications.md)
 
-  - [Administrar la recuperación ante desastres, la alta disponibilidad y el servicio de copia de seguridad en Lync Server 2013](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)
+  - [Administración del servicio de copia de seguridad, alta disponibilidad y recuperación ante desastres de Lync Server 2013](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)
 
   - [Copia de seguridad y restauración de Lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)
 
-  - [Supervisión y configuración de estado en Lync Server 2013](lync-server-2013-monitoring-and-health-configuration.md)
+  - [Configuración de supervisión y mantenimiento en Lync Server 2013](lync-server-2013-monitoring-and-health-configuration.md)
 
   - [Shell de administración de Lync Server 2013](lync-server-2013-lync-server-management-shell.md)
 
@@ -97,7 +97,7 @@ En los temas de esta sección se explica cómo usar las herramientas de administ
 
 
 [Implementación de Lync Server 2013](lync-server-2013-deployment.md)  
-[Planeación de Lync Server 2013](lync-server-2013-planning.md)  
+[Planeación para Lync Server 2013](lync-server-2013-planning.md)  
   
 
 </div>

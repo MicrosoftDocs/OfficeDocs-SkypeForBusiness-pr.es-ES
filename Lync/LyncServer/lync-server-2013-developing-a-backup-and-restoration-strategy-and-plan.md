@@ -12,16 +12,16 @@ ms:contentKeyID: 51541447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87f4809b6a86312fc9dcc9527375db85dbcbb043
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d3c95873ad8b4e0852a4b5ae03f5857ba8e83fa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762448"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045012"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41762448"
 
 _**Última modificación del tema:** 2013-02-17_
 
-La eficacia de las operaciones de copia de seguridad y restauración de Lync Server depende de la estrategia y el plan de copia de seguridad y restauración. Debe establecer una estrategia para realizar copias de seguridad y restaurar el servidor de Lync que se ajuste a la estrategia general de la organización, así como un plan completo y conciso para realizar copias de seguridad de los datos y la configuración, y, en el caso de una interrupción, un plan para restaurar el servicio.
+La eficacia de las operaciones de copia de seguridad y restauración de Lync Server depende de la estrategia y el plan de copia de seguridad y restauración. Debe establecer una estrategia de copia de seguridad y restauración de Lync Server que se ajuste a la estrategia general de su organización, así como un plan completo y conciso para realizar copias de seguridad de datos y opciones y, en caso de que se produzca una interrupción, un plan de restauración del servicio.
 
-Para obtener la recuperación ante desastres más eficaz de un grupo de servidores front-end, use la topología de recuperación ante desastres de grupo emparejado introducida en Lync Server 2013. Para obtener más información, vea [planear la alta disponibilidad y la recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+Para la recuperación ante desastres más sólida de un grupo de servidores front-end, use la topología de recuperación ante desastres de grupo emparejado que se presenta en Lync Server 2013. Para obtener más información, consulte [planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Establecer una estrategia de copia de seguridad y restauración para Lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-strategy.md)
+  - [Establecimiento de una estrategia de copia de seguridad y restauración para Lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-strategy.md)
 
-  - [Establecer un plan de copia de seguridad y restauración para Lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-plan.md)
+  - [Establecimiento de un plan de copia de seguridad y restauración para Lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-plan.md)
 
   - [Configuración de una ubicación de copia de seguridad para Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md)
 

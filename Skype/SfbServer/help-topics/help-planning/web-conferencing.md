@@ -1,5 +1,5 @@
 ---
-title: Web Conferencing (Planning Tool)
+title: Conferencias web (herramienta de planeación)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -15,29 +15,29 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
-description: Las conferencias web de Skype empresarial Server 2015 incluyen la colaboración en documentos, el uso compartido de aplicaciones y el uso compartido de escritorio.
-ms.openlocfilehash: 3458f66ceda99c720201cea6bdd229bef2f81492
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La conferencia Web de Skype empresarial Server 2015 incluye colaboración en documentos, uso compartido de aplicaciones y uso compartido de escritorio.
+ms.openlocfilehash: 0c9914637ba978d6cdc3d203e9f27e2b7922e1fa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821352"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008602"
 ---
-# <a name="web-conferencing-planning-tool"></a>Web Conferencing (Planning Tool)
+# <a name="web-conferencing-planning-tool"></a>Conferencias web (herramienta de planeación)
  
-Las conferencias web de Skype empresarial Server 2015 incluyen la colaboración en documentos, el uso compartido de aplicaciones y el uso compartido de escritorio.
+La conferencia Web de Skype empresarial Server 2015 incluye colaboración en documentos, uso compartido de aplicaciones y uso compartido de escritorio.
   
 > [!NOTE]
-> Skype empresarial Server 2015 usa Office Web Apps y el servidor de Office Web Apps para controlar el uso compartido y el procesamiento de presentaciones de PowerPoint. Las características de las conferencias web funcionan exactamente igual que en Microsoft Lync 2013. Para obtener más información sobre cómo instalar y configurar el servidor de Office Web Apps, vea [configurar la integración con Office Web Apps Server y Lync server 2013](https://technet.microsoft.com/en-us/library/jj204792%28v=ocs.15%29.aspx). 
+> Skype empresarial Server 2015 usa Office Web Apps y Office Web Apps Server para controlar el uso compartido y la representación de presentaciones de PowerPoint. Las características de conferencia web funcionan exactamente igual que en Microsoft Lync 2013. Para más información sobre la instalación y la configuración del servidor de Office Web Apps, vea [Configuring Integration with Office Web Apps Server and Lync server 2013](https://technet.microsoft.com/library/jj204792%28v=ocs.15%29.aspx). 
   
-Para obtener información sobre la planeación de la habilitación de las conferencias web en la organización, consulte los siguientes temas: 
+Para obtener información sobre la planeación de la habilitación de conferencias web en la organización, consulte los siguientes temas: 
   
-- [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Planeación de conferencias en Skype empresarial Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
     
-- [Requisitos de hardware y software para conferencias en Skype Empresarial Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [Requisitos de hardware y software para conferencias en Skype empresarial Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
+- [Planeación de conferencias de acceso telefónico local en Skype empresarial Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [Planificar reuniones grandes en Skype Empresarial Server 2015](../../plan-your-deployment/conferencing/large-meetings.md)
+- [Planeación de reuniones grandes en Skype empresarial Server 2015](../../plan-your-deployment/conferencing/large-meetings.md)
     
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: informe de distribución de métricas de calidad media'
+title: 'Lync Server 2013: informe de distribución de métricas de calidad de medios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185409
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 085525063d13c60dc1702ebf169fed92707675e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38adc41aaffcccbb27d4c9105f0fecabcae3c21c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757944"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045122"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>El informe de distribución de métricas de calidad media en Lync Server 2013
+# <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>Informe de distribución de métricas de calidad de medios en Lync Server 2013
 
 </div>
 
@@ -53,52 +53,52 @@ El Informe de distribución de métricas de calidad de medios permite ver un gr�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
+<td><p>2 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>6</p></td>
+<td><p>6 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>7</p></td>
+<td><p>7 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>4,8</p></td>
+<td><p>8 </p></td>
 <td><p>4550</p></td>
 </tr>
 <tr class="odd">
-<td><p>99,999</p></td>
+<td><p>9 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>base10</p></td>
+<td><p>10 </p></td>
 <td><p>50</p></td>
 </tr>
 </tbody>
 </table>
 
 
-El promedio de esos tiempos de ida y vuelta es de 500 milisegundos (5000 dividido entre 10). 500 milisegundos es un tiempo de ida y vuelta extremadamente grande; como resultado, puede creer que tiene un problema grave con la congestión de la red. (Los tiempos de ida y vuelta largos suelen ser el resultado de las redes sobrecargadas).
+El promedio de estos tiempos de ida y vuelta es de 500 milisegundos (5000 dividido por 10). Quinientos milisegundos es un tiempo de ida y vuelta extremadamente largo, por ello, se podría llegar a creer que tiene un problema grave de congestión de la red. (Normalmente, los tiempos de ida y vuelta largos se producen por una sobrecarga de la red).
 
-En realidad, por supuesto, el 90% de tus llamadas ha sido un excelente tiempo de ida y vuelta; simplemente tenías una llamada incorrecta que sesgaba los resultados totales. Si solo miras el tiempo medio de ida y vuelta, puedes pasar a una conclusión muy incorrecta.
+En realidad, el 90% de las llamadas tiene unos tiempos de ida y vuelta excelentes. Solo tiene una llamada mala que modificó los resultados generales. Si mira únicamente el tiempo promedio de ida y vuelta, podría llegar a una conclusión errónea.
 
 Con el informe de distribución de métricas de calidad de medios le será más fácil evitar llegar a conclusiones erróneas, ya que muestra una distribución gráfica de una métrica especificada (como el tiempo de ida y vuelta). Con estos gráficos le resultará más fácil ver que tiene nueve llamadas buenas y una llamada muy mala. Probablemente querrá seguir investigando esa única llamada, pero el hecho de que 9 de las 10 llamadas fueran muy buenas sugiere que no hay ningún motivo para efectuar ningún cambio drástico en la red, al menos no en este momento.
 
@@ -123,20 +123,20 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
-<td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:</p>
-<p>7/7/2012 1:00 P.M.</p>
-<p>Si no escribe una hora de inicio, el informe se iniciará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<td><p><strong>From</strong></p></td>
+<td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</p>
+<p>7/7/2012 1:00 pm</p>
+<p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
-<p>Las semanas siempre van del domingo al sábado.</p></td>
+<p>Las semanas siempre empiezan en domingo y terminan en sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Hasta</strong></p></td>
-<td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización como se indica a continuación:</p>
-<p>7/7/2012 1:00 P.M.</p>
-<p>Si no escribe una hora de finalización, el informe finalizará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:</p>
+<p>7/7/2012 1:00 PM</p>
+<p>Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
@@ -154,27 +154,27 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 <td><p><strong>Tipo de acceso</strong></p></td>
 <td><p>Indica si el cliente había iniciado sesión en la red interna o en la externa cuando se realizó la llamada. Seleccione una de las siguientes opciones:</p>
 <ul>
-<li><p>[Todas]</p></li>
+<li><p>Todos</p></li>
 <li><p>Interno</p></li>
-<li><p>Externo</p></li>
+<li><p>External</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>VPN</strong></p></td>
 <td><p>Indica si un cliente externo estaba utilizando una conexión de red privada virtual (VPN) cuando se realizó la llamada. Seleccione una de las siguientes opciones:</p>
 <ul>
-<li><p>[Todas]</p></li>
+<li><p>Todos</p></li>
 <li><p>VPN</p></li>
-<li><p>Distinto de VPN</p></li>
+<li><p>No VPN</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Tipo de red</strong></p></td>
 <td><p>Indica el tipo de red al que estaba conectado el cliente cuando realizó la llamada. Seleccione una de las siguientes opciones:</p>
 <ul>
-<li><p>[Todas]</p></li>
+<li><p>Todos</p></li>
 <li><p>Cableada</p></li>
-<li><p>Inalámbrica</p></li>
+<li><p>Wireless</p></li>
 </ul></td>
 </tr>
 </tbody>

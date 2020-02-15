@@ -12,16 +12,16 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74d3f54ff5239bf157fa8988f8de71f9d8355790
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a6aca8c6f26f7b3079840025748e20800430554b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762498"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037620"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41762498"
 
 _**Última modificación del tema:** 2018-01-23_
 
-En las siguientes tablas se comparan las características y capacidades de los clientes de Lync 2013 en las siguientes categorías:
+En las tablas siguientes se comparan las características y capacidades de los clientes de Lync 2013 en las siguientes categorías:
 
-  - Soporte de presencia mejorada
+  - Compatibilidad con presencia mejorada
 
   - Compatibilidad con contactos y grupos de contactos
 
@@ -55,13 +55,13 @@ En las siguientes tablas se comparan las características y capacidades de los c
 
   - autenticación moderna
 
-Estas tablas indican las características que están disponibles para los usuarios de Lync en una implementación local de Lync Server 2013. Las mismas características también están disponibles para los usuarios de Skype empresarial online y Office 365, a menos que se indique lo contrario.
+Estas tablas indican las características que están disponibles para los usuarios de Lync en una implementación local de Lync Server 2013. Las mismas características también están disponibles para los usuarios de Skype empresarial online y Office 365 a menos que se indique lo contrario.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Vea <A href="lync-server-2013-mobile-client-comparison-tables.md">tablas de comparación de clientes móviles para Lync Server 2013</A> para obtener más información sobre la disponibilidad de características en clientes móviles de Lync 2013.
+> Consulte <A href="lync-server-2013-mobile-client-comparison-tables.md">Mobile Client Comparison tables for Lync Server 2013</A> para obtener más información sobre la disponibilidad de características en clientes móviles de Lync 2013.
 
 
 
@@ -73,11 +73,11 @@ Estas tablas indican las características que están disponibles para los usuari
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>Para obtener más información sobre los planes de suscripción de Skype empresarial online, consulte la descripción del servicio <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A>de Skype empresarial online en.</P>
+> <P>Para obtener más información sobre los planes de suscripción de Skype empresarial online, consulte la descripción del servicio <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A>Skype empresarial online en.</P>
 > <LI>
-> <P>Lync Server 2013 admite los siguientes clientes publicados previamente: Lync 2010, Lync 2010 Mobile, Lync Phone Edition y el operador de Lync 2010. Para obtener información sobre estos clientes, consulte la versión de Lync 2010 de las tablas de <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A>comparación de clientes en.</P>
+> <P>Lync Server 2013 admite los siguientes clientes publicados anteriormente: Lync 2010, Lync 2010 Mobile, Lync Phone Edition y Lync 2010 operador. Para obtener información sobre estos clientes, consulte la versión de Lync 2010 de las tablas de <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A>comparación de clientes en.</P>
 > <LI>
-> <P>El cliente de Lync 2013 admite audio y vídeo en un entorno de infraestructura de escritorio virtual (VDI). Para obtener más información sobre las capacidades de Lync 2013 en un entorno de VDI, consulte <A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">tecnologías de virtualización compatibles y limitaciones conocidas en Lync Server 2013</A>.</P></LI></UL>
+> <P>El cliente de Lync 2013 admite audio y vídeo en un entorno de infraestructura de escritorio virtual (VDI). Para obtener más información sobre las capacidades de Lync 2013 en un entorno de VDI, consulte <A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">tecnologías de virtualización admitidas y limitaciones conocidas en Lync Server 2013</A>.</P></LI></UL>
 
 
 
@@ -87,7 +87,7 @@ Estas tablas indican las características que están disponibles para los usuari
 
 <div>
 
-## <a name="enhanced-presence-support"></a>Soporte de presencia mejorada
+## <a name="enhanced-presence-support"></a>Compatibilidad con presencia mejorada
 
 
 <table>
@@ -107,17 +107,17 @@ Estas tablas indican las características que están disponibles para los usuari
 </colgroup>
 <thead>
 <tr class="header">
-<th>Característica/función</th>
+<th>Característica/funcionalidad</th>
 <th>Cliente de Skype empresarial 2015 y 2016</th>
 <th>Skype Empresarial en Mac</th>
 <th>Lync 2013</th>
-<th>Aplicación de la Tienda Windows de Lync</th>
+<th>Aplicación Lync de la tienda Windows</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Operador de Lync 2010</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator para Mac 2011</th>
+<th>Communicator for Mac 2011</th>
 <th>Lync para Mac 2011</th>
 </tr>
 </thead>
@@ -137,7 +137,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Publicar estado</p></td>
+<td><p>Estado de publicación</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -193,7 +193,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Usar una fotografía de cualquier sitio público para Mi imagen</p></td>
+<td><p>Usar una foto de cualquier sitio público para mi imagen</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -236,17 +236,17 @@ Estas tablas indican las características que están disponibles para los usuari
 </colgroup>
 <thead>
 <tr class="header">
-<th>Característica/función</th>
+<th>Característica/funcionalidad</th>
 <th>Cliente de Skype empresarial 2015 y 2016</th>
 <th>Skype Empresarial en Mac</th>
 <th>Lync 2013</th>
-<th>Aplicación de la Tienda Windows de Lync</th>
+<th>Aplicación Lync de la tienda Windows</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Operador de Lync 2010</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator para Mac 2011</th>
+<th>Communicator for Mac 2011</th>
 <th>Lync para Mac 2011</th>
 </tr>
 </thead>
@@ -266,7 +266,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Marcar contactos para alertas de cambio de estado</p></td>
+<td><p>Etiqueta de contacto para alertas de cambio de estado</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -280,7 +280,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Controlar relaciones de privacidad</p></td>
+<td><p>Controlar las relaciones de privacidad</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -294,7 +294,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Buscar en la libreta de direcciones corporativa</p></td>
+<td><p>Buscar en la libreta de direcciones de la compañía</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -322,7 +322,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Administrar grupos de contactos</p></td>
+<td><p>Administrar los grupos de contactos</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -350,7 +350,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Buscar grupos de respuesta</p></td>
+<td><p>Buscar los grupos de respuesta</p></td>
 <td><p>● 2</p></td>
 <td> </td>
 <td><p>● 2</p></td>
@@ -406,7 +406,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Ordenar contactos por Grupo, Relación o Nuevo (personas que lo han agregado a su lista de contactos)</p></td>
+<td><p>Ordenar contactos por grupo, relación o nuevo (personas que le agregaron a su lista de contactos)</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -420,7 +420,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Ordenar contactos por Estado (disponibilidad)</p></td>
+<td><p>Ordenar contactos por estado (disponibilidad)</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -451,9 +451,9 @@ Estas tablas indican las características que están disponibles para los usuari
 </table>
 
 
-1 para los usuarios de Skype empresarial online u Office 365, no se admite el operador de Lync 2010.
+1 para los usuarios de Skype empresarial online o Office 365, el operador de Lync 2010 no es compatible.
 
-2 para los usuarios de Skype empresarial online u Office 365, esta característica no está disponible.
+2 para los usuarios de Skype empresarial online o Office 365, esta característica no está disponible.
 
 </div>
 
@@ -481,23 +481,23 @@ Estas tablas indican las características que están disponibles para los usuari
 </colgroup>
 <thead>
 <tr class="header">
-<th>Característica/función</th>
+<th>Característica/funcionalidad</th>
 <th>Cliente de Skype empresarial 2015 y 2016</th>
 <th>Skype Empresarial en Mac</th>
 <th>Lync 2013</th>
-<th>Aplicación de la Tienda Windows de Lync</th>
+<th>Aplicación Lync de la tienda Windows</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Operador de Lync 2010</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator para Mac 2011</th>
+<th>Communicator for Mac 2011</th>
 <th>Lync para Mac 2011</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Iniciar mensajería instantánea o correo electrónico a un contacto</p></td>
+<td><p>Iniciar mensajería instantánea o correo electrónico en un contacto</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -511,7 +511,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Navegar entre varias conversaciones de mensajería instantánea o realizar un seguimiento de varias conversaciones en una ventana de única pestaña</p></td>
+<td><p>Navegar entre varias conversaciones de mensajería instantánea o realizar un seguimiento de varias conversaciones en una única ventana con pestañas</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -536,7 +536,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>● 1</p></td>
 <td></td>
 <td><p>Se guardan en Communicator para Mac</p></td>
-<td><p>Se guardan en Skype Empresarial Mac</p></td>
+<td><p>Se guardan en Lync para Mac</p></td>
 </tr>
 <tr class="even">
 <td><p>Usar las plantillas de conversación preparadas</p></td>
@@ -567,7 +567,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Búsqueda de aptitudes (con integración con SharePoint Server) </p></td>
+<td><p>Búsqueda de aptitudes (con integración de SharePoint Server)</p></td>
 <td><p>● 2</p></td>
 <td> </td>
 <td><p>● 2</p></td>
@@ -581,7 +581,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Integración de sistemas de chat en grupo o chat persistente</p></td>
+<td><p>Integración de chat persistente (chat de grupo)</p></td>
 <td><p>● 3</p></td>
 <td> </td>
 <td><p>● 3</p></td>
@@ -609,7 +609,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Imágenes entre líneas del remitente y el receptor en la ventana de mensajería instantánea</p></td>
+<td><p>Imágenes entre líneas del remitente y el receptor en la ventana de mi</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -623,7 +623,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Enviar mensajes manuscritos</p></td>
+<td><p>Enviar mensajes de tinta</p></td>
 <td> </td>
 <td> </td>
 <td></td>
@@ -651,7 +651,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Establecer mensajes de mensajería instantánea como de importancia alta</p></td>
+<td><p>Establecer los mensajes INSTANTÁNEos como de importancia alta</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -668,11 +668,11 @@ Estas tablas indican las características que están disponibles para los usuari
 </table>
 
 
-1 para los usuarios de Skype empresarial online u Office 365, no se admite el operador de Lync 2010.
+1 para los usuarios de Skype empresarial online o Office 365, el operador de Lync 2010 no es compatible.
 
-2 las instalaciones locales de Lync Server 2013 y SharePoint local 2013 son necesarias para la búsqueda de aptitudes.
+2 el servicio local de Lync Server 2013 y SharePoint local 2013 es necesario para la búsqueda de aptitudes.
 
-3 para usuarios de Skype empresarial online u Office 365, el chat persistente no está disponible.
+3 para los usuarios de Skype empresarial online o Office 365, el chat persistente no está disponible.
 
 </div>
 
@@ -690,9 +690,9 @@ Estas tablas indican las características que están disponibles para los usuari
 > <LI>
 > <P>Las características de reunión de Lync no están disponibles en el plan independiente 1 de Skype empresarial online.</P>
 > <LI>
-> <P>En las sesiones de Lync a Lync, un usuario de Skype empresarial online plan 1 puede participar en el uso compartido del escritorio y en el uso compartido de aplicaciones si lo han invitado un usuario que tiene acceso a las características de uso compartido.</P>
+> <P>En las sesiones de Lync a Lync, un usuario de Skype empresarial online (plan 1) puede participar en el uso compartido del escritorio y el uso compartido de aplicaciones si lo ha invitado un usuario que tiene acceso a las características de uso compartido.</P>
 > <LI>
-> <P>Para obtener más información, consulte la descripción del servicio de Skype <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>empresarial online en.</P></LI></UL>
+> <P>Para obtener más información, consulte la descripción del servicio Skype empresarial <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>online en.</P></LI></UL>
 
 
 
@@ -716,17 +716,17 @@ Estas tablas indican las características que están disponibles para los usuari
 </colgroup>
 <thead>
 <tr class="header">
-<th>Característica/función</th>
+<th>Característica/funcionalidad</th>
 <th>Cliente de Skype empresarial 2015 y 2016</th>
 <th>Skype Empresarial en Mac</th>
 <th>Lync 2013</th>
-<th>Aplicación de la Tienda Windows de Lync</th>
+<th>Aplicación Lync de la tienda Windows</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Operador de Lync 2010</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator para Mac 2011</th>
+<th>Communicator for Mac 2011</th>
 <th>Lync para Mac 2011</th>
 </tr>
 </thead>
@@ -739,7 +739,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p>
-<p>(necesita un complemento)</p></td>
+<p>(requiere un complemento)</p></td>
 <td><p>●</p></td>
 <td><p>● 1</p></td>
 <td><p>●</p></td>
@@ -754,7 +754,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p>
-<p>(necesita un complemento)</p></td>
+<p>(requiere un complemento)</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -762,7 +762,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Ver un vídeo entre varias partes (vista de galería)</p></td>
+<td><p>Ver vídeo entre varias partes (vista de galería)</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -776,7 +776,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Usar los controles de moderador en la reunión</p></td>
+<td><p>Usar controles de moderador de reunión</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -804,7 +804,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Participar en mensajería instantánea para varios participantes</p></td>
+<td><p>Participar en mensajería instantánea con varios participantes</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -825,7 +825,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 <td><p>●</p></td>
 <td><p>●</p>
-<p>(necesita un complemento)</p></td>
+<p>(requiere un complemento)</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -840,7 +840,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 <td><p>●</p></td>
 <td><p>●</p>
-<p>(necesita un complemento)</p></td>
+<p>(requiere un complemento)</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -876,7 +876,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Empezar una reunión de tipo Reunirse ahora</p></td>
+<td><p>Iniciar una reunión de reunirse ahora</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -894,17 +894,17 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
-<td><p>Presentar solamente</p></td>
+<td><p>Solo presente</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p>Solo ver, anotaciones no available4</p></td>
+<td><p>Ver sólo, anotaciones no disponible4</p></td>
 </tr>
 <tr class="odd">
-<td><p>Explorar archivos de Microsoft PowerPoint</p></td>
+<td><p>Navegar por los archivos de Microsoft PowerPoint</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -918,13 +918,13 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Agregar y editar las notas de reunión de OneNote</p></td>
+<td><p>Agregar y editar notas de reunión de OneNote</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
-<td><p>Solo editar (no agregar)</p></td>
+<td><p>Sólo Editar (no agregar)</p></td>
 <td> </td>
 <td></td>
 <td></td>
@@ -974,13 +974,13 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Programar una reunión o conferencia</p></td>
-<td><p>Programador web de Outlook o Lync</p></td>
-<td><p>Requiere la versión 15,28 o posterior de Outlook para Mac</p></td>
-<td><p>Programador web de Outlook o Lync</p></td>
-<td><p>Programador web de Outlook o Lync</p></td>
-<td><p>Programador web de Outlook o Lync</p></td>
-<td><p>Programador web de Skype Empresarial</p></td>
+<td><p>Programar una conferencia o reunión</p></td>
+<td><p>Programador de Outlook o Lync Web</p></td>
+<td><p>Requiere Mac Outlook versión 15,28 o posterior</p></td>
+<td><p>Programador de Outlook o Lync Web</p></td>
+<td><p>Programador de Outlook o Lync Web</p></td>
+<td><p>Programador de Outlook o Lync Web</p></td>
+<td><p>Programador web de Lync</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -988,7 +988,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>Outlook</p></td>
 </tr>
 <tr class="odd">
-<td><p>Un&amp;administrador de preguntas y respuestas</p></td>
+<td><p>T&amp;A Administrador</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td> </td>
@@ -1002,7 +1002,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>Crear reuniones públicas con identificadores de reunión estáticos de Outlook</p></td>
+<td><p>Crear reuniones públicas con identificadores de reunión estáticos desde Outlook</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1016,7 +1016,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Deshabilitar la mensajería instantánea de la reunión</p></td>
+<td><p>Deshabilitar la mensajería instantánea de reunión</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1030,7 +1030,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>Desactivar audio de la audiencia</p></td>
+<td><p>Silenciar a la audiencia</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1044,7 +1044,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>Convertir a todos en asistentes</p></td>
+<td><p>Convertir a todos en un asistente</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1058,7 +1058,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>El delegado puede programar una reunión en nombre del delegador</p></td>
+<td><p>El delegado puede programar una reunión en nombre de la persona que delega</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1086,7 +1086,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>Establecer el primer plano del vídeo (bloquear vídeo)</p></td>
+<td><p>Establecer el foco de vídeo (bloquear vídeo)</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1100,7 +1100,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Ceder/tomar el control de la pantalla compartida</p></td>
+<td><p>Dar o recibir control del uso compartido de la pantalla</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1117,13 +1117,13 @@ Estas tablas indican las características que están disponibles para los usuari
 </table>
 
 
-1 para los usuarios de Skype empresarial online u Office 365, no se admite el operador de Lync 2010.
+1 para los usuarios de Skype empresarial online o Office 365, el operador de Lync 2010 no es compatible.
 
-2 los participantes no pueden controlar los escritorios compartidos por usuarios de Skype empresarial en Mac, Lync para Mac 2011 o Communicator para Mac 2011. Los usuarios de Mac pueden controlar los escritorios compartidos por usuarios de Windows.
+2 los participantes no pueden controlar los escritorios que comparten los usuarios de Skype empresarial en Mac, Lync para Mac 2011 o Communicator para Mac 2011. Los usuarios de Mac pueden controlar los escritorios que comparten los usuarios de Windows.
 
-3 para los usuarios de Skype empresarial online u Office 365, esta característica requiere un proveedor de servicios de audioconferencia.
+3 para los usuarios de Skype empresarial online o Office 365, esta característica requiere un proveedor de servicios de audioconferencia.
 
-4 el cliente de Lync para Mac 2011 no puede ver presentaciones de PowerPoint de Microsoft Office 2013 cuando se han compartido en una conferencia por el cliente de Lync Web App 2013.
+4 el cliente de Lync para Mac 2011 no puede ver presentaciones de PowerPoint de Microsoft Office 2013 cuando se han compartido en una conferencia por parte del cliente de Lync Web App 2013.
 
 </div>
 
@@ -1137,7 +1137,7 @@ Estas tablas indican las características que están disponibles para los usuari
 
 
 > [!NOTE]  
-> Las características de voz de Lync se limitan a determinados planes de suscripción de Skype empresarial online. Para obtener más información, consulte el tema "características de voz de Lync" en la descripción del servicio <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>de Skype empresarial online en.
+> Las características de Lync Voice se limitan a determinados planes de suscripción de Skype empresarial online. Para obtener más información, consulte el tema "características de voz de Lync" en la descripción del servicio <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>Skype empresarial online en.
 
 
 
@@ -1161,17 +1161,17 @@ Estas tablas indican las características que están disponibles para los usuari
 </colgroup>
 <thead>
 <tr class="header">
-<th>Característica/función</th>
+<th>Característica/funcionalidad</th>
 <th>Cliente de Skype empresarial 2015 y 2016</th>
 <th>Skype Empresarial en Mac</th>
 <th>Lync 2013</th>
-<th>Aplicación de la Tienda Windows de Lync</th>
+<th>Aplicación Lync de la tienda Windows</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Operador de Lync 2010</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator para Mac 2011</th>
+<th>Communicator for Mac 2011</th>
 <th>Lync para Mac 2011</th>
 </tr>
 </thead>
@@ -1219,7 +1219,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Administrar el desvío de llamadas</p></td>
+<td><p>Administrar la transferencia de llamadas</p></td>
 <td><p>● 3</p></td>
 <td><p>●</p></td>
 <td><p>● 3</p></td>
@@ -1261,7 +1261,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Empezar una llamada a un grupo de respuesta</p></td>
+<td><p>Iniciar una llamada a un grupo de respuesta</p></td>
 <td><p>● 3</p></td>
 <td> </td>
 <td><p>● 3</p></td>
@@ -1275,7 +1275,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Soporte técnico de servicios de emergencia (E911)</p></td>
+<td><p>Compatibilidad con los servicios de emergencia (E911)</p></td>
 <td><p>● 3</p></td>
 <td><p>●</p>
 <p>Requiere Lync Server 2013 CU8 HF1 o posterior</p></td>
@@ -1290,7 +1290,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Notificación de mi a URI de SIP para llamada E-911</p></td>
+<td><p>Notificación de mi a URI del SIP para la llamada E-911</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1304,7 +1304,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Notificación de mensajería instantánea a la lista de distribución para llamadas E-911</p></td>
+<td><p>Notificación de mensajería instantánea a la lista de distribución para la llamada E-911</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1318,7 +1318,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Conectar a correo de voz, configurar o cambiar saludo</p></td>
+<td><p>Conectarse al correo de voz, configurar o cambiar el saludo</p></td>
 <td><p>● 3</p></td>
 <td><p>●</p></td>
 <td><p>● 3</p></td>
@@ -1332,7 +1332,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Notificación de llamada perdida</p></td>
+<td><p>Notificación de llamadas perdidas</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1360,7 +1360,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Administrar llamadas de otro usuario si se configura como delegado</p></td>
+<td><p>Administrar las llamadas de otro contacto si se está configurado como delegado</p></td>
 <td><p>● 3</p></td>
 <td> </td>
 <td><p>● 3</p></td>
@@ -1374,7 +1374,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Administrar un gran volumen de llamadas</p></td>
+<td><p>Administrar un volumen alto de llamadas</p></td>
 <td></td>
 <td> </td>
 <td></td>
@@ -1388,7 +1388,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Estacionar llamada</p></td>
+<td><p>Estacionamiento de llamadas</p></td>
 <td><p>● 3</p></td>
 <td> </td>
 <td><p>● 3</p></td>
@@ -1402,7 +1402,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Atender llamada grupal</p></td>
+<td><p>Recogida de llamada de grupo</p></td>
 <td><p>● 3</p></td>
 <td> </td>
 <td><p>● 3</p></td>
@@ -1419,11 +1419,11 @@ Estas tablas indican las características que están disponibles para los usuari
 </table>
 
 
-1 para los usuarios de Skype empresarial online u Office 365, no se admite el operador de Lync 2010.
+1 para los usuarios de Skype empresarial online o Office 365, el operador de Lync 2010 no es compatible.
 
-2 para los usuarios de Skype empresarial online u Office 365, esta característica solo está disponible para llamadas de PC a PC.
+2 para los usuarios de Skype empresarial online o Office 365, esta característica solo está disponible para llamadas de PC a PC.
 
-3 para los usuarios de Skype empresarial online u Office 365, esta característica no está disponible.
+3 en el caso de los usuarios de Skype empresarial online o Office 365, esta característica no está disponible.
 
 </div>
 
@@ -1450,16 +1450,16 @@ Estas tablas indican las características que están disponibles para los usuari
 </colgroup>
 <thead>
 <tr class="header">
-<th>Característica/función</th>
+<th>Característica/funcionalidad</th>
 <th>Cliente de Skype empresarial 2015 y 2016</th>
 <th>Skype Empresarial en Mac</th>
 <th>Lync 2013</th>
-<th>Aplicación de la Tienda Windows de Lync</th>
+<th>Aplicación Lync de la tienda Windows</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Operador de Lync 2010</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator para Mac 2011</th>
+<th>Communicator for Mac 2011</th>
 <th>Lync para Mac 2011</th>
 </tr>
 </thead>
@@ -1478,7 +1478,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Iniciar mensajería instantánea con un contacto federado</p></td>
+<td><p>Iniciar mensajería instantánea con un contacto asociado externo</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1507,15 +1507,15 @@ Estas tablas indican las características que están disponibles para los usuari
 </table>
 
 
-1 para los usuarios de Skype empresarial online u Office 365, no se admite el operador de Lync 2010.
+1 para los usuarios de Skype empresarial online o Office 365, el operador de Lync 2010 no es compatible.
 
-2 para los usuarios de Skype empresarial online u Office 365, esta característica no está disponible.
+2 para los usuarios de Skype empresarial online o Office 365, esta característica no está disponible.
 
 </div>
 
 <div>
 
-## <a name="recording"></a>Grabación
+## <a name="recording"></a>Intérprete
 
 
 <table>
@@ -1535,17 +1535,17 @@ Estas tablas indican las características que están disponibles para los usuari
 </colgroup>
 <thead>
 <tr class="header">
-<th>Característica/función</th>
+<th>Característica/funcionalidad</th>
 <th>Cliente de Skype empresarial 2015 y 2016</th>
 <th>Skype Empresarial en Mac</th>
 <th>Lync 2013</th>
-<th>Aplicación de la Tienda Windows de Lync</th>
+<th>Aplicación Lync de la tienda Windows</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Operador de Lync 2010</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator para Mac 2011</th>
+<th>Communicator for Mac 2011</th>
 <th>Lync para Mac 2011</th>
 </tr>
 </thead>
@@ -1579,7 +1579,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Seleccionar la resolución preferida para la grabación</p></td>
+<td><p>Selección de la resolución de grabación preferida</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1596,9 +1596,9 @@ Estas tablas indican las características que están disponibles para los usuari
 </table>
 
 
-1 para los usuarios de Skype empresarial online u Office 365, la grabación no está disponible en determinados planes independientes de Skype empresarial online. La grabación requiere derechos completos de cliente de Lync 2013. Para obtener más información, consulte la descripción del servicio de Skype [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)empresarial online en.
+1 para los usuarios de Skype empresarial online o Office 365, la grabación no está disponible en determinados planes independientes de Skype empresarial online. La grabación requiere derechos completos de cliente de Lync 2013. Para obtener más información, consulte la descripción del servicio Skype empresarial [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)online en.
 
-2 para los usuarios de Skype empresarial online u Office 365, la grabación de transferencias de archivos, páginas de OneNote compartidas y anotaciones de PowerPoint no está disponible.
+2 en el caso de los usuarios de Skype empresarial online o Office 365, la grabación de transferencias de archivos, páginas compartidas de OneNote y anotaciones de PowerPoint no está disponible.
 
 </div>
 
@@ -1626,23 +1626,23 @@ Estas tablas indican las características que están disponibles para los usuari
 </colgroup>
 <thead>
 <tr class="header">
-<th>Característica/función</th>
+<th>Característica/funcionalidad</th>
 <th>Cliente de Skype empresarial 2015 y 2016</th>
 <th>Skype Empresarial en Mac</th>
 <th>Lync 2013</th>
-<th>Aplicación de la Tienda Windows de Lync</th>
+<th>Aplicación Lync de la tienda Windows</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Operador de Lync 2010</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator para Mac 2011</th>
+<th>Communicator for Mac 2011</th>
 <th>Lync para Mac 2011</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Archivado de conversaciones de mensajería instantánea en el Historial de conversaciones de Outlook</p></td>
+<td><p>Archivado de conversaciones de mensajería instantánea en el historial de conversaciones de Outlook</p></td>
 <td><p>● 2</p></td>
 <td> </td>
 <td><p>● 2</p></td>
@@ -1684,7 +1684,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Acceso a registros de inicio de sesión de Lync en la barra de tareas</p></td>
+<td><p>Acceder a los registros de inicio de sesión desde Lync en la barra de tareas</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1701,11 +1701,11 @@ Estas tablas indican las características que están disponibles para los usuari
 </table>
 
 
-1 para los usuarios de Skype empresarial online u Office 365, no se admite el operador de Lync 2010.
+1 para los usuarios de Skype empresarial online o Office 365, el operador de Lync 2010 no es compatible.
 
-2 para los usuarios de Skype empresarial online u Office 365, esta característica requiere Exchange Online y está controlada por el atributo de conservación local del buzón del usuario de Exchange.
+2 para los usuarios de Skype empresarial online o Office 365, esta característica necesita Exchange Online y se controla mediante el atributo de conservación local del buzón de Exchange del usuario.
 
-3 para los usuarios de Skype empresarial online u Office 365, el archivado de las transferencias de archivos, páginas de OneNote compartidas y anotaciones de PowerPoint no está disponible.
+3 en el caso de los usuarios de Skype empresarial online o Office 365, el archivado de transferencias de archivos, páginas compartidas de OneNote y anotaciones de PowerPoint no está disponible.
 
 </div>
 
@@ -1713,15 +1713,15 @@ Estas tablas indican las características que están disponibles para los usuari
 
 <div>
 
-## <a name="client-limitations"></a>Limitaciones de cliente 
+## <a name="client-limitations"></a>Limitaciones de cliente
 
 <span id="Full_Basic"></span>
 
 <div>
 
-## <a name="basic-client-limitations"></a>Limitaciones del cliente básico
+## <a name="basic-client-limitations"></a>Limitaciones de cliente básico
 
-Las características que figuran a continuación están disponibles con el cliente completo y no con el cliente básico: 
+Las características siguientes están disponibles mediante el cliente completo y no están disponibles con el cliente básico:
 
   - Administrar la configuración de llamada de equipo
 
@@ -1729,15 +1729,15 @@ Las características que figuran a continuación están disponibles con el clien
 
   - Realizar llamadas en nombre de otro contacto (escenario de administrador/delegado)
 
-  - Administrar llamadas de otro usuario si se configura como delegado
+  - Administrar las llamadas de otro contacto si se está configurado como delegado
 
-  - Administrar un gran volumen de llamadas
+  - Administrar un volumen alto de llamadas
 
-  - Empezar una llamada a un grupo de respuesta
+  - Iniciar una llamada a un grupo de respuesta
 
-  - Estacionar llamada
+  - Estacionamiento de llamadas
 
-  - Atender llamada grupal
+  - Recogida de llamada de grupo
 
 </div>
 
@@ -1745,17 +1745,17 @@ Las características que figuran a continuación están disponibles con el clien
 
 <div>
 
-## <a name="online-or-hybrid-user-account-limitations"></a>Limitaciones de las cuentas de usuario en línea o híbridas
+## <a name="online-or-hybrid-user-account-limitations"></a>Limitaciones de la cuenta de usuario híbrido o en línea
 
-Las cuentas de usuario pueden existir en línea o en local, y esto puede influir en las características que estén disponibles para el usuario. Los usuarios con cuentas en Skype empresarial online no tendrán acceso a las siguientes características, incluso con el cliente completo:
+Las cuentas de usuario pueden existir en línea o en el entorno local y esto afectará a las características disponibles para ese usuario. Los usuarios con cuentas en Skype empresarial online no tendrán acceso a las siguientes características, incluso con el cliente completo:
 
-  - Presencia mejorada: usar una fotografía de cualquier sitio público para Mi imagen
+  - Presencia mejorada: usar una foto de cualquier sitio público para mi foto
 
   - Contactos: buscar grupos de respuesta
 
-  - Compatibilidad con la mensajería instantánea: integración de chat persistente (chat grupal)
+  - Compatibilidad con mensajería instantánea: integración de chat persistente (chat grupal)
 
-  - Soporte técnico de mensajería instantánea: escalar un salón de chat persistente a una reunión con un solo clic
+  - Compatibilidad con mensajería instantánea: escalar un salón de chat persistente a una reunión con un solo clic
 
   - Usuarios externos: realizar llamadas de dos o más participantes con usuarios externos
 

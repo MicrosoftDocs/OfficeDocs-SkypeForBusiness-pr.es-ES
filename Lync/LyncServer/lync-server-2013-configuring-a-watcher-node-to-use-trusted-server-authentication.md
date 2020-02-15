@@ -1,5 +1,5 @@
 ---
-title: Configurar un nodo de monitor para usar autenticación de servidor de confianza
+title: Configuración de un nodo de monitor para usar la autenticación de servidor de confianza
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184017
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7279e18c73ecca9340f57d40794a3e9eb2dd160b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ba69980f97e901703f51f71729c661821e70e61
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741230"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037400"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41741230"
 
 _**Última modificación del tema:** 2012-10-22_
 
-Si el equipo nodo de observador está dentro de la red perimetral, el uso de la autenticación de servidor de confianza puede reducir en gran medida los impuestos de administración para mantener un único certificado en lugar de varias contraseñas de cuentas de usuario.
+Si el PC del nodo de monitor se encuentra dentro de la red perimetral, con la autenticación de servidor de confianza puede reducir considerablemente los impuestos de administración para mantener un único certificado en lugar de varias contraseñas de cuentas de usuario.
 
-El primer paso para configurar la autenticación de servidor de confianza es crear un grupo de aplicaciones de confianza para hospedar el equipo del nodo de supervisor. Una vez creado el grupo de aplicaciones de confianza, debe configurar las transacciones sintéticas en ese nodo de observador para que se ejecuten como una aplicación de confianza.
+El primer paso para configurar la autenticación de servidor de confianza es crear un grupo de aplicaciones de confianza para alojar el PC del nodo de monitor. Después de haber creado el grupo de aplicaciones de confianza, debe configurar las transacciones sintéticas en ese nodo de monitor para que se ejecuten como una aplicación de confianza.
 
 <div>
 
 
 > [!NOTE]
-> Una aplicación de confianza es una aplicación con un estado de confianza que se asigna como parte de Lync Server 2013, pero que no es una parte integrada del producto. El estado de confianza significa que no se desafiará a la aplicación cada vez que se ejecute la autenticación.
+> Una aplicación de confianza es una aplicación a la que se le asigna el estado de confianza para que se ejecute como parte de Lync Server 2013, pero que no es una parte integrada del producto. El estado de confianza significa que no se desafiará a la aplicación cada vez que se ejecute la autenticación.
 
 
 
@@ -59,21 +59,21 @@ Para crear un grupo de aplicaciones de confianza, abra el shell de administraci�
 
 
 > [!NOTE]
-> Para más información sobre los parámetros que se usan en el comando anterior, escriba lo siguiente en el símbolo del sistema del shell de administración de Lync Server:<BR>Get-Help New-CsTrustedApplicationPool-Full | número
+> Para obtener más información sobre los parámetros utilizados en el comando anterior, escriba lo siguiente en el símbolo del sistema del shell de administración de Lync Server:<BR>Get-Help New-CsTrustedApplicationPool -Full | more
 
 
 
 </div>
 
-Después de crear el grupo de aplicaciones de confianza, configure el equipo del nodo de supervisión para que ejecute transacciones sintéticas como aplicaciones de confianza. Esto se realiza mediante el cmdlet **New-CsTrustedApplication** y un comando similar a este:
+Después de crear el grupo de aplicaciones de confianza, configure el PC del nodo de monitor para que ejecute las transacciones sintéticas como una aplicación de confianza. Esto se realiza con el cmdlet **New-CsTrustedApplication** y un comando similar a este:
 
     New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
 
-Cuando se complete el comando anterior y se haya creado la aplicación de confianza, ejecute enable-CsTopology para asegurarse de que los cambios surtan efecto:
+Cuando finaliza el comando anterior y se haya creado la aplicación de confianza, ejecute Enable-CsTopology para asegurarse de que los cambios se han realizado:
 
     Enable-CsTopology
 
-Después de ejecutar enable-CsTopology, le recomendamos que reinicie el equipo.
+Después de ejecutar Enable-CsTopology, le recomendamos que reinicie el PC.
 
 Para comprobar que se ha creado la nueva aplicación de confianza, escriba lo siguiente en el símbolo del sistema del shell de administración de Lync Server:
 
@@ -87,36 +87,36 @@ Cada nodo de monitor debe tener un certificado predeterminado asignado mediante 
 
 **Para asignar un certificado predeterminado**
 
-1.  Haga clic en **Inicio**, seleccione **todos los programas**, **Lync Server**y, a continuación, haga clic en **Asistente de implementación de Lync Server**.
+1.  Haga clic en **Inicio**, en **todos los programas**, en **Lync Server**y, a continuación, en **Asistente para la implementación de Lync Server**.
 
-2.  En el Asistente para la implementación de Lync Server, haga clic en **instalar o actualizar el sistema Lync Server** y, a continuación, haga clic en **Ejecutar** en la solicitud de encabezado **, instalar o asignar certificado**.
+2.  En el Asistente para la implementación de Lync Server, haga clic en **instalar o actualizar el sistema Lync Server** y, a continuación, haga clic en **Ejecutar** en el título **solicitud, instalar o asignar certificado**.
     
     <div>
     
 
     > [!NOTE]
-    > Si el botón <STRONG>Ejecutar</STRONG> está deshabilitado, es posible que primero tenga que hacer clic en <STRONG>Ejecutar</STRONG> en <STRONG>instalar almacén de configuración local</STRONG>.
+    > Si el botón <STRONG>Ejecutar</STRONG> está deshabilitado, puede que primero necesite hacer clic en <STRONG>Ejecutar</STRONG> en <STRONG>Instalar el almacén de configuración local</STRONG>.
 
     
     </div>
 
-3.  Siga uno de estos pasos:
+3.  Siga uno de estos procedimientos:
     
-      - Si ya tiene un certificado que se puede usar como certificado predeterminado, haga clic en **predeterminado** en el Asistente para certificados y, a continuación, haga clic en **asignar**. Siga los pasos del Asistente para asignación de certificados para asignar ese certificado.
+      - Si ya tiene un certificado que puede usarse como certificado predeterminado, haga clic en **Predeterminado** en el Asistente para certificados y luego haga clic en **Asignar**. Siga los pasos del Asistente para asignación de certificados para asignar ese certificado.
     
-      - Si necesita solicitar un certificado para usar el certificado predeterminado, haga clic en **solicitar** y, a continuación, siga los pasos del Asistente para solicitud de certificados para solicitar el certificado. Si usa los valores predeterminados para el certificado de servidor web, recibirá un certificado que puede asignar como certificado predeterminado.
+      - Si necesita solicitar un certificado para usarlo como certificado predeterminado, haga clic en **Solicitar** y luego siga los pasos del Asistente para solicitar certificados para solicitar dicho certificado. Si usa los valores predeterminados para el certificado de servidor web, recibirá un certificado que puede asignar como certificado predeterminado.
 
 </div>
 
 <div>
 
-## <a name="installing-and-configuring-a-watcher-node"></a>Instalar y configurar un nodo de monitor
+## <a name="installing-and-configuring-a-watcher-node"></a>Instalación y configuración de un nodo de monitor
 
-Una vez que haya reiniciado el equipo del nodo de supervisión y haya configurado un certificado, tendrá que ejecutar el archivo Watchernode. msi. (Debe ejecutar Watchernode. msi en un equipo donde estén instalados los dos archivos del agente de Operations Manager y los componentes principales de Lync Server 2013).
+Después de haber reiniciado el PC del nodo de monitor y haber configurado un certificado, debe ejecutar el archivo Watchernode.msi. (Debe ejecutar Watchernode. msi en un equipo en el que estén instalados tanto los archivos del agente de Operations Manager como los componentes principales de Lync Server 2013).
 
 **Para instalar y configurar un nodo de monitor**
 
-1.  Abra el shell de administración de Lync Server haciendo clic en **Inicio**, en **todos los programas**, en **Lync Server**y en **consola de administración de Lync Server**.
+1.  Abra el shell de administración de Lync Server; para ello, haga clic en **Inicio**, en **todos los programas**, en **Lync Server**y, a continuación, en **Shell de administración de Lync Server**.
 
 2.  En el shell de administración de Lync Server, escriba el siguiente comando y, a continuación, presione Entrar (especifique la ruta de acceso real a su copia de Watchernode. msi):
     
@@ -126,16 +126,16 @@ Una vez que haya reiniciado el equipo del nodo de supervisión y haya configurad
     
 
     > [!NOTE]
-    > También puede ejecutar Watchernode. msi desde una ventana de comandos. Para abrir una ventana Comandos, haga clic en <STRONG>Inicio</STRONG>, haga clic con el botón secundario en <STRONG>Símbolo del sistema</STRONG> y, a continuación, haga clic en <STRONG>Ejecutar como administrador</STRONG>. Cuando se abra la ventana de comandos, escriba el mismo comando anterior.
+    > También puede ejecutar Watchernode.msi desde una ventana de comandos. Para abrir una ventana de comandos, haga clic en <STRONG>Inicio</STRONG>, haga clic con el botón secundario en <STRONG>Símbolo del sistema</STRONG> y luego en <STRONG>Ejecutar como administrador</STRONG>. Cuando se abra la ventana de comandos, escriba el mismo comando anterior.
 
     
     </div>
 
-Tenga en cuenta que el par de nombre y valor en la autenticación de comando anterior = TrustedServer distingue mayúsculas de minúsculas. Debe escribirla exactamente como se muestra. Se produce un error en el comando siguiente porque no usa la grafía de letras correcta:
+Nota que el par nombre-valor del anterior comando Authentication=TrustedServer distingue mayúsculas y minúsculas. Debe escribirlo exactamente como aparece. El siguiente comando tiene errores porque no usa las letras mayúsculas y minúsculas correctas:
 
 C:\\herramientas\\Watchernode. msi Authentication = TrustedServer
 
-Solo puede usar el modo TrustedServer con equipos que se encuentren en la red perimetral. Cuando un nodo Monitor se ejecuta en modo TrustedServer, los administradores no tienen que mantener las contraseñas de usuario de prueba en el equipo.
+El modo TrustedServer solo se puede usar con los PC que se encuentran dentro de la red perimetral. Cuando un nodo de monitor se ejecuta en modo TrustedServer, los administradores no tienen que mantener las contraseñas de usuario de prueba en el PC.
 
 </div>
 

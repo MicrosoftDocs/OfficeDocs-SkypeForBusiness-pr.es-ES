@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: lista de comprobación de la implementación de control de admisión'
+title: 'Lync Server 2013: lista de comprobación para la implementación del control de admisión de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e768cdd11d92b3aab5ce849f91cc1a422f119407
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a8dc32eb017baf832128301b9639aefe23ae4ce
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741760"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045362"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-deployment-checklist-for-lync-server-2013"></a>Lista de comprobación de la implementación de control de admisión para Lync Server 2013
+# <a name="call-admission-control-deployment-checklist-for-lync-server-2013"></a>Lista de comprobación para la implementación del control de admisión de llamadas para Lync Server 2013
 
 </div>
 
@@ -37,24 +37,24 @@ ms.locfileid: "41741760"
 
 _**Última modificación del tema:** 2012-10-22_
 
-Use la siguiente lista de comprobación para comprobar que ha completado todas las tareas de configuración necesarias para implementar el control de admisión de llamadas (CAC).
+Use la lista de comprobación proporcionada a continuación para comprobar si ha completado todas las tareas de configuración necesarias para implementar el control de admisión de llamadas.
 
-  - Si se implementan uno o varios servidores perimetrales, cada dirección IP de la interfaz externa debe agregarse a la lista de subred en la configuración de red, con una máscara de bits de 32. También tiene que asociar esta subred (dirección IP) con el identificador de sitio de red de la ubicación geográfica donde implemente el servicio perimetral A/V.
+  - Si implementa uno o más servidores perimetrales, debe agregar cada dirección IP de interfaz externa a la lista de subredes de los parámetros de configuración de red, con una máscara de bits de 32. También debe asociar esta subred (dirección IP) con el identificador de sitio de red de la ubicación geográfica donde implemente el servicio perimetral A/V.
     
     <div>
     
 
     > [!NOTE]  
-    > No es necesario que los servidores perimetrales implementen CAC.
+    > Los servidores perimetrales no son necesarios para implementar CAC.
 
     
     </div>
 
-  - Asegúrese de que CAC está habilitado, ya sea mediante el panel de control de Lync Server o mediante la ejecución del cmdlet especificado en [Habilitar el control de admisión de llamadas en Lync Server 2013](lync-server-2013-enable-call-admission-control.md).
+  - Asegúrese de que el CAC esté habilitado, ya sea a través del panel de control de Lync Server o mediante la ejecución del cmdlet como se especifica en [Habilitar el control de admisión de llamadas en Lync Server 2013](lync-server-2013-enable-call-admission-control.md).
 
-  - Compruebe que el servicio de control de admisión de llamadas esté habilitado en todos los sitios centrales. Esto se puede hacer a través del generador de topología. Si aparece una advertencia durante la publicación, *no* la ignore.
+  - Compruebe que el servicio de control de admisión de llamadas esté habilitado en todos los sitios centrales. Esto puede realizarse a través del generador de topologías. Si aparece una advertencia durante la publicación, *no* la ignore.
 
-  - Asegúrese de que todas las subredes que se administren en la red de empresa estén configuradas en los parámetros de configuración de red. También es esencial que cada subred esté asociada a un sitio de red, como se explica en [asociar una subred con un sitio de red en Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).
+  - Asegúrese de que todas las subredes que se administren en la red de empresa estén configuradas en los parámetros de configuración de red. También es esencial que cada subred esté asociada a un sitio de red, tal como se explica en [Associate a subnet with a Network site in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).
 
   - Compruebe que la subred o las direcciones IP de todos los servidores front-end, las aplicaciones de sucursal con funciones de supervivencia, los servidores de conferencia de audio y vídeo (si se encuentran en un grupo de servidores distinto) y los servidores de mediación estén definidos en los parámetros de configuración de red.
 

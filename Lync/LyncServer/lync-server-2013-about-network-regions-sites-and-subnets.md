@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Acerca de las regiones de red, sitios y subredes'
+title: 'Lync Server 2013: acerca de regiones de red, sitios y subredes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184335
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f85d392f7d5f987bf14197fd5027c6568965ae8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d2f6de7a39b3029f1edc1252b90ec264d774632f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723430"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037932"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41723430"
 
 _**Última modificación del tema:** 2013-02-24_
 
-Las características avanzadas de voz empresarial descritas en esta sección comparten ciertos requisitos de configuración para regiones de red, sitios de red y subredes. Por ejemplo, las tres características avanzadas requieren que cada subred de su topología esté asociada a un sitio de *red*específico, y cada sitio de red debe estar asociado a una *región de red*.
+Las características avanzadas de Telefonía IP empresarial que se describen en esta sección comparten ciertos requisitos de configuración de regiones de red, sitios de red y subredes. Por ejemplo, las tres características avanzadas requieren que cada una de las subredes de la topología estén asociadas a un *sitio de red* específico, y cada uno de los sitios de red deben estar asociados a una *región de red*.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Antes de comenzar con la configuración de red de control de admisión de llamadas, E9-1-1 o omisión de medios, asegúrese de que ha revisado información adicional sobre la configuración de red en el tema <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">configuración de red para características avanzadas de telefonía por voz de Lync Server 2013</A> en la documentación de planificación. Para obtener información sobre la configuración de red principalmente sobre el control de admisión de llamadas, vea también <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">definir los requisitos para el control de admisión de llamadas en Lync Server 2013</A> en la documentación de planeación.
+> Antes de comenzar la configuración de red para el control de admisión de llamadas, E9-1-1 o el desvío de medios, asegúrese de que ha revisado información adicional acerca de la configuración de red en el tema <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">configuración de red para las características avanzadas de telefonía IP en Lync Server 2013</A> de la documentación de planeación. Para obtener más información acerca de la configuración de red principalmente sobre el control de admisión de llamadas, consulte también <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">definir los requisitos para el control de admisión de llamadas en Lync Server 2013</A> en la documentación referente a la planeación.
 
 
 
@@ -51,7 +51,7 @@ Las características avanzadas de voz empresarial descritas en esta sección com
 
 El control de admisión de llamadas y E9-1-1 tienen requisitos de configuración adicionales para los sitios de red:
 
-  - El control de admisión de llamadas requiere que se especifique un   *perfil de directiva de ancho de banda* para cada uno de los sitios restringidos con limitaciones de ancho de banda WAN. Si planea implementar el control de admisión de llamadas, debe [crear perfiles de directiva de ancho de banda en Lync Server 2013 antes de](lync-server-2013-create-bandwidth-policy-profiles.md) configurar los sitios de red.
+  - El control de admisión de llamadas requiere que se especifique un *perfil de directiva de ancho de banda* para cada uno de los sitios restringidos con limitaciones de ancho de banda WAN. Si planea implementar el control de admisión de llamadas, debe [crear perfiles de directiva de ancho de banda en Lync Server 2013 antes de](lync-server-2013-create-bandwidth-policy-profiles.md) configurar los sitios de red.
 
   - E9-1-1 requiere que se especifique una *directiva de ubicación* para cada uno de los sitios. Si tiene previsto implementar E9-1-1, debe [crear directivas de ubicación en Lync Server 2013](lync-server-2013-create-location-policies.md) antes de configurar los sitios de red.
 
@@ -59,7 +59,7 @@ El control de admisión de llamadas y E9-1-1 tienen requisitos de configuración
 
 ## <a name="create-or-modify-network-regions-network-sites-and-subnets"></a>Crear o modificar regiones de red, sitios de red y subredes
 
-En los siguientes temas se proporcionan pasos para crear o modificar regiones de red y sitios de red, y para asociar subredes a sitios de red. Estos temas no son específicos de ninguna característica avanzada empresarial de voz en particular.
+En los siguientes temas se proporcionan pasos para crear o modificar regiones de red y sitios de red, y para asociar subredes a sitios de red. Estos temas no son específicos de ninguna característica avanzada de Telefonía IP empresarial.
 
   - [Crear o modificar una región de red en Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md)
 

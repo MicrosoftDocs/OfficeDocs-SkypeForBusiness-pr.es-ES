@@ -12,16 +12,16 @@ ms:contentKeyID: 51541449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1989c399ec01ab2bbe3412a086a58c2583c0dad5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e61c9a70477d18ebdacaf9233bbbb0693bb74a2e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741040"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045002"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -41,7 +41,7 @@ La copia de seguridad de los almacenes de archivos de Lync Server incluye todos 
 
 <div>
 
-## <a name="to-back-up-file-stores"></a>Para hacer una copia de seguridad de los almacenes de archivos
+## <a name="to-back-up-file-stores"></a>Para crear copias de seguridad de almacenes de archivos
 
 1.  Para buscar las ubicaciones específicas de los almacenes de archivos de Lync Server, abra el generador de topologías y mire en el nodo **almacenes de archivos** .
 

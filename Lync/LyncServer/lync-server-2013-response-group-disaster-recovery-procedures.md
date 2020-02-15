@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Procedimientos de recuperación ante desastres del grupo de respuesta'
+title: Procedimientos de recuperación ante desastres del grupo de respuesta 2013 de Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5325f84ff5bf5a0f8d9d1a856110e0ac18b37d93
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 73b5dba010da09fb20c96ca6b14de2f881e32b60
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723630"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051704"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41723630"
 
 _**Última modificación del tema:** 2012-11-01_
 
-Durante la fase de conmutación por error de recuperación ante desastres, los grupos de respuesta residen en varios grupos: en el grupo primario (que no está disponible) y en el grupo de copias de seguridad. Los grupos de respuesta de ambos grupos tienen el mismo nombre y el mismo propietario (el grupo principal), pero tienen diferentes padres. Durante este tiempo, los cmdlets del grupo de respuesta funcionan de manera algo diferente. Asegúrese de usar parámetros según se especifica en el procedimiento siguiente. Para más información sobre cómo funcionan los cmdlets durante la fase de conmutación por error, vea el artículo del blog de NextHop "Lync Server 2013: [http://go.microsoft.com/fwlink/p/?LinkId=263957](http://go.microsoft.com/fwlink/p/?linkid=263957)recuperación de grupos de respuesta durante la recuperación ante desastres" en. Este artículo del blog también se aplica a la versión de lanzamiento de Lync Server 2013.
+Durante la fase de conmutación por error de la recuperación ante desastres, los grupos de respuesta residen en varios grupos de servidores: en el grupo de servidores principal (que no está disponible) y en el grupo de servidores de reserva. Los grupos de respuesta de ambos grupos de servidores tienen el mismo nombre y el mismo propietario (el grupo de servidores principal), pero diferentes elementos primarios. Durante este tiempo, los cmdlets del grupo de respuesta funcionan de manera ligeramente distinta. Asegúrese de usar los parámetros como se especifica en el procedimiento siguiente. Para obtener más información sobre cómo funcionan los cmdlets durante la fase de conmutación por error, vea el artículo del blog NextHop "Lync Server 2013: [http://go.microsoft.com/fwlink/p/?LinkId=263957](http://go.microsoft.com/fwlink/p/?linkid=263957)recuperación de grupos de respuesta durante la recuperación ante desastres" en. Este artículo del blog también se aplica a la versión publicada de Lync Server 2013.
 
-Siga los pasos que se indican en el siguiente procedimiento para preparar y realizar la recuperación de desastres para el servicio de grupo de respuesta de Lync Server.
+Siga los pasos descritos en el siguiente procedimiento para preparar y realizar la recuperación ante desastres para el servicio de grupo de respuesta de Lync Server.
 
 <div>
 
-## <a name="to-fail-over-and-fail-back-response-group"></a>Para deshacer la conmutación por error y el grupo de respuesta failback
+## <a name="to-fail-over-and-fail-back-response-group"></a>Para la conmutación por error y conmutación por recuperación del grupo de respuesta
 
-1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-2.  Realizar copias de seguridad rutinariamente. En la línea de comandos, escriba lo siguiente:
+2.  Haga copias de seguridad periódicamente. En la línea de comandos, escriba lo siguiente:
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<primary pool FQDN>" -FileName "<backup path and file name>"
     
@@ -55,11 +55,11 @@ Siga los pasos que se indican en el siguiente procedimiento para preparar y real
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:primary.contoso.com" -FileName "C:\RgsExportPrimary.zip"
 
-3.  Durante una interrupción, después de la conmutación por error en el grupo de copias de seguridad, importe los grupos de respuesta al grupo de copia de seguridad. En la línea de comandos, escriba:
+3.  Durante una interrupción, después de la conmutación por error en el grupo de servidores de reserva, importe los grupos de respuesta al grupo de servidores de reserva. En la línea de comandos, escriba lo siguiente:
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<backup pool FQDN>" -FileName "<backup path and file name>"
     
-    Si desea reemplazar la configuración de nivel de aplicación del grupo de copias de seguridad por la configuración del grupo principal, incluya el parámetro – ReplaceExistingSettings. Por ejemplo:
+    Si desea reemplazar la configuración de nivel de aplicación del grupo de servidores de reserva por la configuración del grupo de servidores principal, incluya el parámetro ReplaceExistingSettings. Por ejemplo:
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:backup.contoso.com" -FileName "C:\RgsExportPrimary.zip" -ReplaceExistingSettings
     
@@ -67,14 +67,14 @@ Siga los pasos que se indican en el siguiente procedimiento para preparar y real
     
 
     > [!WARNING]  
-    > Si no reemplaza la configuración del grupo de copias de seguridad y no se puede recuperar el repositorio principal, se perderá la configuración de la agrupación principal. Para obtener más información, consulte <A href="lync-server-2013-planning-for-response-group-disaster-recovery.md">planeación de la recuperación ante desastres de grupos de respuesta en Lync Server 2013</A>.
+    > Si no reemplaza la configuración del grupo de servidores de reserva y no se puede recuperar el grupo de servidores principal, se perderá la configuración del grupo de servidores principal. Para obtener más información, consulte <A href="lync-server-2013-planning-for-response-group-disaster-recovery.md">planeación de la recuperación ante desastres del grupo de respuesta en Lync Server 2013</A>.
 
     
     </div>
 
-4.  Compruebe que la importación se ha realizado correctamente; para ello, muestra los grupos de respuesta importados. Los grupos de respuesta importados siguen siendo propiedad del grupo primario. Siga este procedimiento:
+4.  Compruebe que la importación se haya realizado correctamente. Para ello, muestre los grupos de respuesta importados. Los grupos de respuesta importados siguen siendo propiedad del grupo de servidores principal. Haga lo siguiente:
     
-      - Mostrar todos los flujos de trabajo del grupo de copias de seguridad que pertenecen al grupo principal y comprobar que se incluyen todos los flujos de trabajo de grupo primario. En la línea de comandos, escriba lo siguiente:
+      - Muestre todos los flujos de trabajo del grupo de servidores de reserva que son propiedad del grupo de servidores principal y compruebe que se hayan incluido todos los flujos de trabajo del grupo de servidores principal. En la línea de comandos, escriba lo siguiente:
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
@@ -82,7 +82,7 @@ Siga los pasos que se indican en el siguiente procedimiento para preparar y real
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer:primary.contoso.com"
     
-      - Muestre todas las colas del grupo de copia de seguridad que pertenecen al grupo principal y compruebe que se incluyen todas las colas de grupo principales. En la línea de comandos, escriba lo siguiente:
+      - Muestre todas las colas del grupo de servidores de reserva que son propiedad del grupo de servidores principal y compruebe que se hayan incluido todas las colas del grupo de servidores principal. En la línea de comandos, escriba lo siguiente:
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
@@ -90,7 +90,7 @@ Siga los pasos que se indican en el siguiente procedimiento para preparar y real
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-      - Mostrar todos los grupos de agentes del grupo de copias de seguridad que pertenecen al grupo principal y comprobar que se incluyen todos los grupos de agentes de grupo principales. En la línea de comandos, escriba lo siguiente:
+      - Muestre todos los grupos de agentes del grupo de servidores de reserva que son propiedad del grupo de servidores principal y compruebe que se hayan incluido todos los grupos de agentes del grupo de servidores principal. En la línea de comandos, escriba lo siguiente:
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
@@ -98,7 +98,7 @@ Siga los pasos que se indican en el siguiente procedimiento para preparar y real
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-      - Mostrar todas las horas de actividad en el grupo de copia de seguridad que pertenecen al grupo principal y comprobar que se incluyen todos los horarios de negocio principales de la agrupación. En la línea de comandos, escriba lo siguiente:
+      - Muestre todo el horario comercial del grupo de servidores de reserva que son propiedad del grupo de servidores principal y compruebe que se haya incluido todo el horario comercial del grupo de servidores principal. En la línea de comandos, escriba lo siguiente:
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
@@ -106,7 +106,7 @@ Siga los pasos que se indican en el siguiente procedimiento para preparar y real
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-      - Mostrar todos los conjuntos de días no laborables del grupo de copias de seguridad que pertenecen al grupo principal y comprobar que se incluyen todos los conjuntos de días no laborables de la agrupación principal. En la línea de comandos, escriba lo siguiente:
+      - Muestre todos los conjuntos de vacaciones del grupo de servidores de reserva que son propiedad del grupo de servidores principal y compruebe que se hayan incluido todos los conjuntos de vacaciones del grupo de servidores principal. En la línea de comandos, escriba lo siguiente:
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
@@ -114,7 +114,7 @@ Siga los pasos que se indican en el siguiente procedimiento para preparar y real
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-    Como alternativa, puede mostrar todos los grupos de respuesta en el grupo de copias de seguridad, incluidos los que pertenecen al grupo principal y los que pertenecen al grupo de copias de seguridad, con el parámetro – ShowAll en lugar del parámetro – Owner. Por ejemplo:
+    También puede mostrar todos los grupos de respuesta del grupo de servidores de reserva, incluidos los que son propiedad del grupo de servidores principal y los que son propiedad del grupo de servidores de reserva, con el parámetro –ShowAll en lugar del parámetro –Owner. Por ejemplo:
     
         Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -ShowAll
     
@@ -122,31 +122,31 @@ Siga los pasos que se indican en el siguiente procedimiento para preparar y real
     
 
     > [!IMPORTANT]  
-    > Debe usar el parámetro – ShowAll o el parámetro-Owner. Si no usa ninguno de estos parámetros, los grupos de respuesta que importó al grupo de copias de seguridad no se mostrarán en los resultados devueltos por los cmdlets.
+    > Debe usar el parámetro –ShowAll o el parámetro –Owner. Si no usa ninguno de estos parámetros, los grupos de respuesta importados al grupo de servidores de reserva no aparecerán en los resultados que devuelven los cmdlets.
 
     
     </div>
 
-5.  Verifique que la importación se haya realizado correctamente colocando una llamada a un grupo de respuesta importado y verificando que la llamada se controla correctamente.
+5.  Compruebe que la importación se haya realizado correctamente. Para ello, realice una llamada a un grupo de respuesta importado y compruebe que la llamada se atienda correctamente.
 
-6.  Solicitar agentes que sean miembros de grupos de agentes formales para iniciar sesión en sus grupos de agentes en el grupo de copias de seguridad.
+6.  Pida a los agentes que son miembros de grupos de agentes formales que inicien sesión en sus grupos de agentes en el grupo de servidores de reserva.
 
-7.  Administrar y modificar los grupos de respuesta importados de la forma habitual.
+7.  Administre y modifique los grupos de respuesta importados de la manera habitual.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Mientras los grupos de respuesta están en el grupo de copia de seguridad, necesita usar el shell de administración de Lync Server para administrarlos. No puede usar el panel de control de Lync Server para administrar los grupos de respuesta que importó al grupo de copias de seguridad.
+    > Mientras los grupos de respuesta se encuentran en el grupo de copia de seguridad, debe usar el shell de administración de Lync Server para administrarlos. No puede usar el panel de control de Lync Server para administrar los grupos de respuesta que importó al grupo de copia de seguridad.
 
     
     </div>
 
-8.  Una vez que se haya restaurado el grupo principal y se haya completado la conmutación por recuperación, exporte los grupos de respuesta del grupo principal que se importaron al grupo de copias de seguridad. En la línea de comandos, escriba:
+8.  Una vez que se ha restaurado el grupo de servidores principal y se ha completado la conmutación por recuperación, exporte los grupos de respuesta del grupo de servidores principal que se importaron al grupo de servidores de reserva. En la línea de comandos, escriba lo siguiente:
     
         Export-CsRgsConfiguration -Source ApplicationServer:<backup pool FQDN> -Owner ApplicationServer:<primary pool FQDN> -FileName "<backup path and file name>"
 
-9.  Vuelva a importar los grupos de respuesta al grupo primario. En la línea de comandos, escriba lo siguiente:
+9.  Importe los grupos de respuesta nuevamente al grupo de servidores principal. En la línea de comandos, escriba lo siguiente:
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>"
     
@@ -158,12 +158,12 @@ Siga los pasos que se indican en el siguiente procedimiento para preparar y real
     
 
     > [!NOTE]  
-    > Si reconstruye un grupo durante la recuperación, ya sea con el mismo nombre de dominio completo (FQDN) u otro diferente, debe usar el parámetro – OverwriteOwner. Como regla general, siempre puede usar el parámetro – OverwriteOwner al importar grupos de respuesta al grupo primario.
+    > Si vuelve a generar un grupo de servidores durante la recuperación, ya sea con el mismo nombre de dominio completo (FQDN) o con uno diferente, debe usar el parámetro –OverwriteOwner. Como regla general, siempre puede usar el parámetro –OverwriteOwner al importar grupos de respuesta nuevamente al grupo de servidores principal.
 
     
     </div>
     
-    Si implementó un nuevo grupo (con el mismo FQDN u otro diferente) para reemplazar el grupo primario y desea usar la configuración de nivel de aplicación del grupo de copias de seguridad para el nuevo grupo, incluya el parámetro – ReplaceExistingSettings. En la línea de comandos, escriba lo siguiente:
+    Si implementó un nuevo grupo de servidores (con el mismo FQDN o con uno diferente) para reemplazar el grupo de servidores principal, y desea usar la configuración de nivel de aplicación del grupo de servidores de reserva para el nuevo grupo, incluya el parámetro –ReplaceExistingSettings. En la línea de comandos, escriba lo siguiente:
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<new primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>" -ReplaceExistingSettings
     
@@ -175,14 +175,14 @@ Siga los pasos que se indican en el siguiente procedimiento para preparar y real
     
 
     > [!IMPORTANT]  
-    > Si no quiere reemplazar la configuración de nivel de aplicación y el archivo de audio de música en espera predeterminado para el nuevo grupo con la configuración del grupo de copias de seguridad, el nuevo grupo usará la configuración predeterminada de nivel de aplicación.
+    > Si no desea reemplazar la configuración de nivel de aplicación ni el archivo de audio de música en espera predeterminado del nuevo grupo de servidores por la configuración del grupo de servidores de reserva, el nuevo grupo usará la configuración de nivel de aplicación predeterminada.
 
     
     </div>
 
-10. Compruebe que la importación al grupo primario se ha realizado correctamente mostrando la configuración del grupo de respuesta importado. Siga este procedimiento:
+10. Compruebe que la importación al grupo de servidores principal se haya realizado correctamente. Para ello, muestre la configuración del grupo de respuesta importado. Haga lo siguiente:
     
-      - Mostrar todos los flujos de trabajo del grupo principal y comprobar que se incluyen todos los flujos de trabajo importados. En la línea de comandos, escriba lo siguiente:
+      - Muestre todos los flujos de trabajo del grupo de servidores principal y compruebe que se hayan incluido todos los flujos de trabajo importados. En la línea de comandos, escriba lo siguiente:
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
@@ -190,7 +190,7 @@ Siga los pasos que se indican en el siguiente procedimiento para preparar y real
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer: primary.contoso.com" -ShowAll
     
-      - Muestre todas las colas del grupo principal y compruebe que todas las colas importadas están incluidas. En la línea de comandos, escriba lo siguiente:
+      - Muestre todas las colas del grupo de servidores principal y compruebe que se hayan incluido todas las colas importadas. En la línea de comandos, escriba lo siguiente:
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
@@ -198,7 +198,7 @@ Siga los pasos que se indican en el siguiente procedimiento para preparar y real
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
-      - Mostrar todos los grupos de agentes en el repositorio principal y comprobar que se incluyen todos los grupos de agentes importados. En la línea de comandos, escriba lo siguiente:
+      - Muestre todos los grupos de agentes del grupo de servidores principal y compruebe que se hayan incluido todos los grupos de agentes importados. En la línea de comandos, escriba lo siguiente:
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer: <primary pool FQDN>" -ShowAll
         
@@ -206,7 +206,7 @@ Siga los pasos que se indican en el siguiente procedimiento para preparar y real
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
-      - Mostrar todas las horas de actividad en el grupo primario y comprobar que se incluyen todos los horarios de negocios importados. En la línea de comandos, escriba lo siguiente:
+      - Muestre todo el horario comercial del grupo de servidores principal y compruebe que se haya incluido todo el horario comercial importado. En la línea de comandos, escriba lo siguiente:
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
@@ -214,7 +214,7 @@ Siga los pasos que se indican en el siguiente procedimiento para preparar y real
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
-      - Mostrar todos los conjuntos de días no laborables del repositorio principal y comprobar que están incluidos todos los conjuntos de festividades importados. En la línea de comandos, escriba lo siguiente:
+      - Muestre todos los conjuntos de vacaciones del grupo de servidores principal y compruebe que se hayan incluido todos los conjuntos de vacaciones importados. En la línea de comandos, escriba lo siguiente:
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
@@ -222,9 +222,9 @@ Siga los pasos que se indican en el siguiente procedimiento para preparar y real
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
 
-11. Verifique que la importación se haya realizado correctamente colocando una llamada a un grupo de respuesta importado y verificando que la llamada se controla correctamente.
+11. Compruebe que la importación se haya realizado correctamente. Para ello, realice una llamada a un grupo de respuesta importado y compruebe que la llamada se atienda correctamente.
 
-12. Si lo desea, puede quitar los grupos de respuesta que pertenecen al grupo principal del grupo de copias de seguridad. En la línea de comandos, escriba lo siguiente:
+12. También puede quitar del grupo de servidores de reserva los grupos de respuesta que son propiedad del grupo de servidores principal. En la línea de comandos, escriba lo siguiente:
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer:<primary pool FQDN>" -FileName "<backup path and file name>" -RemoveExportedConfiguration
     
@@ -236,7 +236,7 @@ Siga los pasos que se indican en el siguiente procedimiento para preparar y real
     
 
     > [!NOTE]  
-    > Este paso crea un nuevo archivo con la configuración exportada y, a continuación, lo quita del grupo de copia de seguridad.
+    > Este paso crea un nuevo archivo con la configuración exportada y luego lo elimina del grupo de servidores de reserva.
 
     
     </div>

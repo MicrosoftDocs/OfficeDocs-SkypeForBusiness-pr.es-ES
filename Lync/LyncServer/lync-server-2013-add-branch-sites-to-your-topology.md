@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Agregar sitios de sucursal a la topología'
+title: 'Lync Server 2013: agregar sitios de sucursal a la topología'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2df1871956b33b3781128e2b62af13bdd875d10b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9b03a612ba94733d52600af1db775e1bb0ef9b26
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735050"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037832"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,43 +37,43 @@ ms.locfileid: "41735050"
 
 _**Última modificación del tema:** 2012-10-05_
 
-Los sitios de sucursales representan sucursales físicas que están conectadas a sus oficinas principales a través de un vínculo WAN. Para agregar un sitio de sucursal a su topología de Lync, realice este procedimiento en el sitio central.
+Los sitios de sucursal representan las sucursales físicas que están conectadas a las oficinas principales a través de un vínculo WAN. Para agregar un sitio de sucursal a la topología de Lync, realice este procedimiento en el sitio central.
 
 <div>
 
-## <a name="to-add-branch-sites-to-your-topology"></a>Para agregar sitios de sucursales a su topología
+## <a name="to-add-branch-sites-to-your-topology"></a>Para agregar sitios de sucursal a la topología
 
-1.  Haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server**y, a continuación, haga clic en **generador de topología de Lync Server**.
+1.  Haga clic sucesivamente en **Inicio**, **Todos los programas**, **Microsoft Lync Server** y **Lync Server Topology Builder**.
 
-2.  En el árbol de consola, expanda el sitio central, haga clic con el botón secundario en **sitios de sucursales**y, a continuación, haga clic en **nuevo sitio de sucursal**.
+2.  En el árbol de la consola, expanda el sitio central, haga clic con el botón secundario en **sitios de sucursal**y, a continuación, haga clic en **nuevo sitio de sucursal**.
 
-3.  En el cuadro de diálogo **definir nuevo sitio de sucursal** , haga clic en **nombre**y, a continuación, escriba el nombre del sitio de la sucursal.
+3.  En el cuadro de diálogo **Definir nuevo sitio de sucursal**, haga clic en **Nombre ** y escriba el nombre del sitio de sucursal.
 
-4.  Faculta Haga clic en **Descripción**y, a continuación, escriba una descripción para el sitio de la sucursal.
+4.  (Opcional) Haga clic en **Descripción ** y escriba una descripción significativa para el sitio de sucursal.
 
 5.  Haga clic en **Siguiente**.
 
-6.  Faculta En el cuadro de diálogo **definir siguiente sitio de sucursal** , realice una de las siguientes acciones:
+6.  (Opcional) En el siguiente cuadro de diálogo **Definir nuevo sitio de sucursal**, realice una de las siguientes acciones:
     
-      - Haga clic en **ciudad**y, a continuación, escriba el nombre de la ciudad en la que se encuentra el sitio de la sucursal.
+      - Haga clic en **Ciudad** y escriba el nombre de la ciudad en la se ubica el sitio de sucursal.
     
-      - Haga clic en **Estado o región**y, a continuación, escriba el nombre del estado o la región en la que se encuentra el sitio de la sucursal.
+      - Haga clic en **Provincia o región** y escriba el nombre de la provincia o la región en la que se ubica el sitio de sucursal.
     
-      - Haga clic en **prefijo internacional**y escriba el código de la llamada de dos dígitos para el país o la región en la que se encuentra el sitio de la sucursal.
+      - Haga clic en **código de país** y escriba el código telefónico de dos dígitos del país o la región en el que se ubica el sitio de sucursal.
 
-7.  Haga clic en **siguiente**y, a continuación, siga uno de estos procedimientos:
+7.  Haga clic en **Siguiente** y, a continuación, siga uno de estos procedimientos:
     
-      - Si está usando un equipo o servidor de sucursal con la supervivencia en este sitio, asegúrese de que la casilla **abrir el nuevo asistente superviviente cuando se cierre este asistente** esté activada, haga clic en **Finalizar**y, a continuación, siga las instrucciones del asistente que se abre. Para obtener información sobre los elementos del asistente, consulte [definir un dispositivo o servidor de sucursal con la que sea reviviente en Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
+      - Si está usando una aplicación o un servidor de sucursal con funciones de supervivencia en este sitio, asegúrese de que la casilla **abrir el nuevo asistente superviviente cuando se cierre este asistente** esté activada, haga clic en **Finalizar**y, a continuación, siga las instrucciones del asistente que se abre. Para obtener información sobre los elementos del asistente, consulte [definir una aplicación o un servidor de sucursal con funciones de supervivencia en Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
     
-      - Si no usa un equipo o servidor de sucursal con la supervivencia en este sitio, desactive la casilla **abrir el nuevo asistente superviviente cuando se cierre este asistente** y, a continuación, haga clic en **Finalizar**.
+      - Si no usa una aplicación o un servidor de sucursal con funciones de supervivencia en este sitio, desactive la casilla **Abrir el Asistente con nuevas funciones de supervivencia cuando se cierre este asistente** y haga clic en **Finalizar**.
 
 8.  Repita los pasos anteriores para cada sitio de sucursal que desee agregar a la topología.
 
 **Siguiente paso:**
 
-Para equipos o servidores de sucursales que sean revivientes: [defina un servidor o un dispositivo de sucursal que sea reviviente en Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
+Para las aplicaciones o servidores de sucursal con funciones de supervivencia: [definir una aplicación o un servidor de sucursal con funciones de supervivencia en Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
 
-Para conectividad RTC no resistente: [defina una puerta de enlace RTC para un sitio de sucursal en Lync server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md), [Configure un tronco con un bypass de multimedia en Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md), o [Configure un tronco sin omisión de medios en Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)
+Para la conectividad con RTC no resistente: [defina una puerta de enlace RTC para un sitio de sucursal en Lync server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md), [Configure un tronco con omisión de medios en Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)o [Configure un tronco sin omisión de medios en Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)
 
 </div>
 

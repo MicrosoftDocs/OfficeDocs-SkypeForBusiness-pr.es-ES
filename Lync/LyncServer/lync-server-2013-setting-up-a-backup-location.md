@@ -12,16 +12,16 @@ ms:contentKeyID: 51541440
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 723bcbc2aeaae5264645d824a9b10a939b6770ab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e5b47a866b4ce1a731d282c78e09c1afb3c91af7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764636"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046603"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41764636"
 
 _**Última modificación del tema:** 2013-02-17_
 
-Antes de llevar a cabo la primera copia de seguridad de Lync Server, configure el hardware y el software que necesita para almacenar y mantener las copias de seguridad. Necesita obtener acceso a los medios y al contenido, según corresponda, y proporcionar conectividad de red entre cada servidor en el que realizar una copia de seguridad y los medios de copia de seguridad. El medio y la ubicación que use deben definirse en su estrategia de copia de seguridad y restauración. La ubicación que use para las copias de seguridad periódicas puede ser local o remota, pero debe ser segura y debe ser accesible tanto para la copia de seguridad como para la restauración. Le recomendamos que use una ubicación remota para protegerse contra un evento catastrófico en su sitio primario.
+Antes de llevar a cabo la primera copia de seguridad de Lync Server, configure el hardware y el software que necesita para poder almacenar y mantener las copias de seguridad. Debe obtener acceso a los medios y el contenido, según corresponda, y proporcionar conectividad de red entre cada servidor que se incluirá en las copias de seguridad y los medios de copia de seguridad. Los medios y la ubicación que use deben definirse en su estrategia de copia de seguridad y restauración. La ubicación que se usa para las copias de seguridad periódicas puede ser local o remota, pero debe ser segura y debe estar accesible para la copia de seguridad y la restauración. Se recomienda usar una ubicación remota para protegerse contra un evento catastrófico en el sitio primario.
 
-Después de configurar y probar los componentes individuales, Compruebe la accesibilidad a las copias de seguridad de cada servidor.
+Tras configurar y probar los componentes individuales, compruebe la accesibilidad a las copias de seguridad desde cada servidor.
 
 </div>
 

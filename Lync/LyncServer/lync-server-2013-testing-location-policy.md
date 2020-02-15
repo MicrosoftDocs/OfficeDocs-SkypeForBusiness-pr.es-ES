@@ -12,20 +12,20 @@ ms:contentKeyID: 63969591
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a954405cb8dbba842250e0545ac8661d4f3795c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2a46eecb63ed35075cb44ff840e733f781357ea6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745780"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046573"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-location-policy-in-lync-server-2013"></a>Probar la Directiva de ubicación en Lync Server 2013
+# <a name="testing-location-policy-in-lync-server-2013"></a>Directiva de ubicación de pruebas en Lync Server 2013
 
 </div>
 
@@ -45,8 +45,8 @@ _**Última modificación del tema:** 2014-06-05_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Programación de verificación</p></td>
-<td><p>Cada día</p></td>
+<td><p>Programación de comprobación</p></td>
+<td><p>Diario</p></td>
 </tr>
 <tr class="even">
 <td><p>Herramienta de prueba</p></td>
@@ -54,8 +54,8 @@ _**Última modificación del tema:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
-<td><p>Al ejecutarse de forma local con el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol de RBAC que tenga permiso para ejecutar el cmdlet test-CsLocationPolicy. Para ver una lista de todos los roles de RBAC que pueden usar este cmdlet, ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:</p>
+<td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsLocationPolicy. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLocationPolicy&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +66,9 @@ _**Última modificación del tema:** 2014-06-05_
 
 ## <a name="description"></a>Descripción
 
-El cmdlet test-CsLocationPolicy verifica que se asigne una directiva de ubicación a un usuario. La Directiva de ubicación se usa para aplicar la configuración relacionada con la funcionalidad de E9-1-1 y la ubicación del cliente. La Directiva de ubicación determina si un usuario está habilitado para E9-1-1 y, si la respuesta es "sí", cuál es el comportamiento de una llamada de emergencia. Por ejemplo, puede usar la política de ubicación para definir qué número constituye una llamada de emergencia (911 en los Estados Unidos), si se debe notificar automáticamente la seguridad corporativa y cómo se debe dirigir la llamada.
+El cmdlet test-CsLocationPolicy comprueba que una directiva de ubicación está asignada a un usuario. La Directiva de ubicación se usa para aplicar la configuración relacionada con la funcionalidad de E9-1-1 y la ubicación del cliente. La Directiva de ubicación determina si un usuario está habilitado para E9-1-1 y, si la respuesta es "sí", cuál es el comportamiento de una llamada de emergencia. Por ejemplo, puede usar la Directiva de ubicación para definir el número que constituye una llamada de emergencia (911 en Estados Unidos), si se debe notificar automáticamente a la seguridad corporativa y cómo se debe enrutar la llamada.
 
-Puede probar las directivas de ubicación en los usuarios o en las subredes de la red. Si ejecuta la prueba en una subred (especificando un valor para el parámetro de subred), el cmdlet intentará resolver la Directiva de ubicación de esa subred. Si no se asigna ninguna directiva de ubicación a la subred, se recuperará la Directiva de ubicación del usuario configurado. Si la Directiva de subred se recupera correctamente, la salida incluirá un valor LocationPolicyTagID que comienza con subnet-TagID. Si no se encontró una directiva de ubicación para la subred, el LocationPolicyTagID comenzará con el usuario-TagID.
+Puede probar directivas de ubicación en usuarios o subredes. Si ejecuta la prueba en una subred (mediante la especificación de un valor para el parámetro Subnet), el cmdlet intentará resolver la directiva de ubicación para esa subred. Si no se asigna ninguna directiva de ubicación a la subred, se recuperará la directiva de ubicación para el usuario configurado. Si la Directiva de subred se recupera correctamente, el resultado incluirá un valor de LocationPolicyTagID que empieza con subnet-TagID. Si no se encontró una directiva de ubicación para la subred, LocationPolicyTagID comenzará con el Id. de etiqueta del usuario.
 
 </div>
 
@@ -76,11 +76,11 @@ Puede probar las directivas de ubicación en los usuarios o en las subredes de l
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-El cmdlet test-CsLocationPolicy se puede ejecutar mediante una cuenta de prueba preconfigurada (consulte Configurar cuentas de prueba para ejecutar pruebas de Lync Server) o la cuenta de cualquier usuario que esté habilitado para Lync Server. Para ejecutar esta comprobación mediante una cuenta de prueba, solo tiene que especificar el FQDN del grupo de servidores de Lync que se está probando. Por ejemplo:
+El cmdlet test-CsLocationPolicy se puede ejecutar con una cuenta de prueba preconfigurada (consulte la configuración de las cuentas de prueba para ejecutar pruebas de Lync Server) o en la cuenta de cualquier usuario que esté habilitado para Lync Server. Para ejecutar esta comprobación con una cuenta de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando. Por ejemplo:
 
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Para ejecutar esta comprobación mediante una cuenta de usuario real, primero debe crear un objeto de credenciales de Windows PowerShell que contenga el nombre de la cuenta y la contraseña. Después debes incluir ese objeto de credenciales y la dirección SIP asignada a la cuenta al llamar a test-CsLocationPolicy:
+Para ejecutar esta comprobación con una cuenta de usuario real, primero debe crear un objeto de credenciales de Windows PowerShell que contenga el nombre y la contraseña de la cuenta. A continuación, debe incluir ese objeto Credentials y la dirección SIP asignada a la cuenta al llamar a test-CsLocationPolicy:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
@@ -91,25 +91,25 @@ Para obtener más información, consulte la documentación de ayuda del cmdlet [
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Determinar el éxito o el fracaso
+## <a name="determining-success-or-failure"></a>Determinar si se ha realizado correctamente o erróneo
 
-Si el usuario especificado tiene una directiva de ubicación válida, recibirá una salida similar a la siguiente, con la propiedad result marcada como **correcta:**
+Si el usuario especificado tiene una directiva de ubicación válida, recibirá un resultado similar al siguiente, con la propiedad result marcada como **correcta:**
 
-EnhancedEmergencyServicesEnabled: verdadero
+EnhancedEmergencyServicesEnabled: true
 
 LocationPolicyTagID: usuario-TagID
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
-Resultado: éxito
+Resultado: correcto
 
 Latencia: 00:00:06.8630376
 
-:
+Error
 
 Diagnóstico
 
-Si no se puede encontrar una directiva de ubicación válida para el usuario especificado, el resultado se mostrará como error y la información adicional se registrará en las propiedades de diagnóstico y errores:
+Si no se encuentra una directiva de ubicación válida para el usuario especificado, el resultado se mostrará como error y la información adicional se registrará en las propiedades error y diagnóstico:
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -117,25 +117,25 @@ Resultado: error
 
 Latencia: 00:00:00
 
-Error: 404, no se encontró
+Error: 404, no encontrado
 
-Diagnosis: ErrorCode = 4005, Source = ATL-CS-001.litwareinc.com,
+Diagnosis: ErrorCode = 4005, Source = ATL-CS-001.litwareinc.com
 
-Motivo = URI de destino no habilitado para SIP o no
+Razón = URI de destino no habilitado para SIP o no
 
-condiciones.
+haber.
 
 Microsoft. RTC. Signaling. DiagnosticHeader
 
-El resultado anterior indica que se produjo un error en la prueba porque el usuario especificado no es válido: la cuenta no existe o el usuario no se ha habilitado para Lync Server. Puede comprobar la validez de una cuenta y determinar si la cuenta se ha habilitado para nm-OCS-14-3rd ejecutando un comando similar a este:
+La salida anterior indica que se produjo un error en la prueba porque el usuario especificado no es válido: la cuenta no existe o el usuario no se ha habilitado para Lync Server. Puede comprobar la validez de una cuenta y determinar si la cuenta se ha habilitado para nm-OCS-14-3rd mediante la ejecución de un comando similar al siguiente:
 
     Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object SipAddress, Enabled
 
-Si prueba-CsLocationPolicy da error, es posible que desee volver a ejecutar la prueba, esta vez incluido el parámetro detallado:
+Si test-CsLocationPolicy produce un error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
 
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Cuando se incluye el parámetro detallado, test-CsLocationPolicy devolverá una cuenta paso a paso de cada acción que intentó realizar al comprobar la Directiva de ubicación. Por ejemplo, este resultado indica que Lync Server no pudo iniciar sesión en el usuario de prueba, probablemente porque se proporcionó una contraseña no válida:
+Cuando se incluye el parámetro verbose, test-CsLocationPolicy devolverá una cuenta paso a paso de cada acción que intentó realizar la comprobación de la Directiva de ubicación. Por ejemplo, este resultado indica que Lync Server no pudo iniciar sesión en el usuario de prueba, probablemente debido a que se ha proporcionado una contraseña no válida:
 
 Enviando solicitud de registro:
 
@@ -143,25 +143,25 @@ FQDN de destino = atl-cs-011.litwareinc.com
 
 Dirección SIP del usuario = sip:kenmyer@litwareinc.com
 
-Registrar puerto = 5061
+Puerto del registrador = 5061
 
-El tipo de autenticación ' IWA ' está seleccionado.
+El tipo de autenticación "IWA" está seleccionado.
 
-Registro de visitas contra SIP/ATL-CS-001. litwareinc. com
+Aciertos de registro en SIP/ATL-CS-001. litwareinc. com
 
-Actividad ' Register ' completada en ' 0,0601795 ' s.
+La actividad "Register" se completó en "0,0601795" segundos.
 
-Excepción ' se denegó el inicio de sesión. Compruebe que se están usando las credenciales correctas y que la cuenta está activa. durante el flujo de trabajo.
+Excepción: "se denegó el inicio de sesión. Compruebe que se usan las credenciales correctas y que la cuenta está activa. se produjo durante el flujo de trabajo.
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Razones por las que se ha producido un error en la prueba
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
 Estas son algunas de las razones comunes por las que test-CsLocationPolicy podría fallar:
 
-  - Ha especificado una cuenta de usuario que no es válida. Puede comprobar que una cuenta de usuario existe ejecutando un comando similar a este:
+  - Ha especificado una cuenta de usuario que no es válida. Puede comprobar si existe una cuenta de usuario mediante la ejecución de un comando similar al siguiente:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 

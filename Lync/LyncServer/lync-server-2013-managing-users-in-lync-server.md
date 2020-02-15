@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Administración de usuarios en Lync Server'
+title: 'Lync Server 2013: administración de usuarios en Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49344809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35517b535c515bbb0fcfd28b69c99e27d0b9b175
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb42a8504964ebbce18cc7ebad23059781f570d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756064"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41756064"
 
 _**Última modificación del tema:** 2012-10-17_
 
-Puede usar el panel de control de Lync Server 2013 y el shell de administración de Lync Server 2013 para administrar cuentas de usuario en Lync Server 2013. Los procedimientos de esta sección le guiarán por el modo de ver la información de cuenta y configurar la configuración de cuentas de usuario.
+Puede usar el panel de control de Lync Server 2013 y el shell de administración de Lync Server 2013 para administrar las cuentas de usuario en Lync Server 2013. Los procedimientos de esta sección le guían por cómo ver la información de cuenta y configurar los valores para cuentas de usuario.
 
 <div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Administrar el enrutamiento de voz'
+title: 'Lync Server 2013: administrar el enrutamiento de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185554
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 858cdaec39e61b1f18f1a97e560dfdd34a68cd20
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a89c7bb7cdd54e1d0e3d388223d0054992d35e9d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738231"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045482"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41738231"
 
 _**Última modificación del tema:** 2012-11-01_
 
-Los temas de esta sección proporcionan procedimientos paso a paso para las tareas que puede realizar con el grupo de **enrutamiento de voz** en el panel de control de Lync Server.
+Los temas de esta sección proporcionan procedimientos paso a paso para las tareas que puede realizar mediante el grupo **enrutamiento de voz** del panel de control de Lync Server.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Definición de reglas de traducción y reglas de normalización en Lync Server 2013](lync-server-2013-defining-translation-rules-and-normalization-rules.md)
+  - [Definición de reglas de conversión y reglas de normalización en Lync Server 2013](lync-server-2013-defining-translation-rules-and-normalization-rules.md)
 
   - [Configuración de troncos en Lync Server 2013](lync-server-2013-configuring-trunks.md)
 
-  - [Configuración de directivas de voz, registros de uso de RTC y rutas de voz en Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
+  - [Configurar directivas de voz, registros de uso de RTC y rutas de voz en Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
 
   - [Configurar planes de marcado en Lync Server 2013](lync-server-2013-configuring-dial-plans.md)
 
@@ -58,10 +58,10 @@ Los temas de esta sección proporcionan procedimientos paso a paso para las tare
 ## <a name="see-also"></a>Vea también
 
 
-[Planificación de telefonía IP empresarial en Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  
+[Planear la telefonía IP empresarial en Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  
 
 
-[Administrar características de administración de llamadas en Lync Server 2013](lync-server-2013-managing-call-management-features.md)  
+[Administración de las características de administración de llamadas en Lync Server 2013](lync-server-2013-managing-call-management-features.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: (opcional) definir conjuntos de días festivos de grupos de respuesta'
+title: 'Lync Server 2013: (opcional) definir conjuntos de días festivos para grupos de respuesta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e6751a5f5915e73d181efba40976640c65e0909
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 615b76657b8a7045c99d17f523aa73b0ee79a807
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755764"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051172"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a>Faculta Definir conjuntos de días festivos de grupos de respuesta en Lync Server 2013
+# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a>Opcional Definir conjuntos de días festivos para grupos de respuesta en Lync Server 2013
 
 </div>
 
@@ -53,9 +53,9 @@ La configuración de festivos define los días que un grupo de respuesta está c
 
 ## <a name="to-create-a-holiday-set"></a>Para crear un conjunto de días festivos
 
-1.  Inicie sesión como miembro del grupo RTCUniversalServerAdmins o como miembro de uno de los roles administrativos predefinidos que admiten el Grupo de respuesta.
+1.  Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
 3.  Para cada día festivo que quiera definir, ejecute el comando siguiente:
     
@@ -65,7 +65,7 @@ La configuración de festivos define los días que un grupo de respuesta está c
     
         New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
     
-    El ejemplo siguiente muestra un conjunto de días festivos que incluye dos períodos de vacaciones:
+    El ejemplo siguiente muestra un conjunto de días festivos que incluye dos periodos de vacaciones:
     
         $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2013 12:00 AM" -EndDate "1/1/2013 12:00 AM" 
         $b = New-CsRgsHoliday -Name "Independence Day" -StartDate "7/4/2013 12:00 AM" -EndDate "7/5/2013 12:00 AM" 
@@ -78,11 +78,11 @@ La configuración de festivos define los días que un grupo de respuesta está c
 ## <a name="see-also"></a>Vea también
 
 
-[Crear o modificar un flujo de trabajo de grupo de captura en Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+[Crear o modificar un flujo de trabajo de grupo de búsqueda en Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
 [Crear o modificar un flujo de trabajo interactivo en Lync Server 2013](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
 
-[Nuevo: CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoliday)  
+[New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoliday)  
 [New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHolidaySet)  
   
 

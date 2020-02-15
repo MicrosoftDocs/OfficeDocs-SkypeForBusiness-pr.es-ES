@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eb6fa4a4b8aabcc84f70d6ce33c89fe0d84df98
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 87c78839c0c6998464ed362dc8a3c2e4798a2321
+ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834960"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035242"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Administrar la configuración de Microsoft Teams para su organización
 
@@ -60,6 +60,10 @@ En **ajustes de Teams**, puede ajustar características para Teams incluyendo no
 #### <a name="notifications-and-feeds"></a>Notificaciones y fuentes
 
 Aquí, puede controlar si las fuentes sugeridas aparecen en la fuente de actividad de los usuarios en Teams. Para obtener más información sobre la fuente de actividades, consulte [Explore la fuente de actividades en Teams](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56).
+
+#### <a name="tagging"></a>Etiquetado
+
+Las etiquetas permiten que los usuarios se comuniquen con un subconjunto de personas en un equipo. Se pueden agregar etiquetas a uno o más miembros del equipo. Cuando se agrega una etiqueta, cualquiera del equipo puede usarla en @menciones en una publicación de canal para comunicarse únicamente con las personas a las que se les ha asignado esa etiqueta. Use estas opciones de configuración para controlar quién puede agregar etiquetas y cómo se usan las etiquetas en la organización. Para obtener más información, consulte [Administración de etiquetas en Teams](manage-tags.md).
 
 #### <a name="email-integration"></a>Integración de correo electrónico
 
@@ -109,7 +113,7 @@ El modo de coexistencia que elija determina el enrutamiento de las llamadas entr
 
 #### <a name="app-preferences"></a>Preferencias de la aplicación
 
-Aquí puede elegir la aplicación que utilizarán los usuarios para unirse a las reuniones de Skype Empresarial (Skype Empresarial o la [Aplicación Reuniones de Skype](https://support.office.com/es-ES/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Esta opción no depende de la configuración del modo de coexistencia.
+Aquí puede elegir la aplicación que utilizarán los usuarios para unirse a las reuniones de Skype Empresarial (Skype Empresarial o la [Aplicación Reuniones de Skype](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Esta opción no depende de la configuración del modo de coexistencia.
 
 
 #### <a name="network-planner"></a>Planificador de red
@@ -121,7 +125,7 @@ También puede seleccionar la opción «Descargar la aplicación Teams en segund
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>¿Cómo puedo saber qué características están disponibles?
 
-Lea el [Mapa de ruta de Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) para ver información sobre las nuevas características de Microsoft Teams. Para obtener más información acerca de las nuevas y las próximas características, vea la página de [Novedades](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) de Teams y el [blog de la comunidad tecnológica de Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+Lea el [Mapa de ruta de Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) para ver información sobre las nuevas características de Microsoft Teams. Para obtener más información acerca de las nuevas y las próximas características, vea la página de [Novedades](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) de Teams y el [blog de la comunidad tecnológica de Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Más información
 

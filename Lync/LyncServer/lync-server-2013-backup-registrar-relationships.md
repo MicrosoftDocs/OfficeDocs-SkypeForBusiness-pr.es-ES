@@ -1,5 +1,5 @@
 ---
-title: Relaciones del registrador de copia de seguridad en Lync Server 2013
+title: Relaciones de registrador de copia de seguridad 2013 de Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184631
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44111dbdec945e525b1ef54d910e1cf7f3b5a5d0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c2b7dbf410aaf5ab6bedd322d018abab76a8324e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730350"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041179"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backup-registrar-relationships-in-lync-server-2013"></a>Relaciones del registrador de copia de seguridad en Lync Server 2013
+# <a name="backup-registrar-relationships-in-lync-server-2013"></a>Relaciones de registrador de reserva en Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41730350"
 
 _**Última modificación del tema:** 2012-06-28_
 
-Además de proporcionar la capacidad de recuperación ante desastres, dos grupos de servidores emparejados sirven como registradores de copia de seguridad entre sí. En Lync Server 2013, las relaciones de registro de copia de seguridad entre los grupos frontales siempre son de 1:1 y recíprocas. Esto significa que si P1 es la copia de seguridad de P2, P2 debe ser la copia de seguridad de P1, y ninguno puede ser la copia de seguridad de ningún otro grupo de servidores front-end. Este es un cambio de Lync Server 2010, en el que las relaciones de copia de seguridad del grupo de servidores front-end podrían ser varias a una.
+Además de proporcionar la capacidad de recuperación ante desastres, dos grupos de servidores emparejados sirven como registradores de copia de seguridad entre sí. En Lync Server 2013, las relaciones de registrador de reserva entre grupos de servidores front-end son siempre 1:1 y recíprocas. Esto significa que, si P1 es la copia de seguridad de P2, entonces P2 deberá ser la copia de seguridad de P1, y ninguna de ellas podrá ser la copia de seguridad de ningún otro grupo de servidores front-end. Se trata de un cambio en Lync Server 2010, en el que las relaciones de copia de seguridad del grupo de servidores front-end podrían ser varias a una.
 
-A pesar de que las relaciones de copia de seguridad entre dos grupos front-end deben ser 1:1 y simétricas, cada grupo de servidores front-end también puede ser el registrador de copias de seguridad para cualquier serie de equipos de sucursales con supervivencia, al igual que en Lync Server 2010.
+Aunque las relaciones de copia de seguridad entre dos grupos de servidores front-end deben ser 1:1 y simétricas, cada grupo de servidores front-end también puede ser el registrador de reserva de cualquier número de aplicaciones de sucursal con funciones de supervivencia, al igual que en Lync Server 2010.
 
-Tenga en cuenta que Lync Server 2013 no amplía la compatibilidad de recuperación ante desastres a los usuarios alojados en un dispositivo de sucursal con la supervivencia. Si un grupo de servidores front-end que funciona como la copia de seguridad de un equipo de sucursales con la supervivencia, deja de funcionar, los usuarios que hayan iniciado sesión en el dispositivo de sucursal con la supervivencia se clasificarán en el modo de resistencia, incluso después de que los usuarios alojados en el grupo frontal no realicen la copia de seguridad del grupo frontal.
+Tenga en cuenta que Lync Server 2013 no amplía la compatibilidad con la recuperación ante desastres a los usuarios hospedados en una aplicación de sucursal con funciones de supervivencia. Si un grupo de servidores front-end que actúa como copia de seguridad de una aplicación de sucursal con funciones de supervivencia disminuye, los usuarios que iniciaron sesión en la sucursal con funciones de supervivencia entrarán en el modo de resistencia, incluso después de que los usuarios hospedados en el grupo de servidores front-end realicen una conmutación por error al grupo de servidores front-end
 
 </div>
 

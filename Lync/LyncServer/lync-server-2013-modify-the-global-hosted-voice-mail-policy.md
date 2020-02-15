@@ -12,20 +12,20 @@ ms:contentKeyID: 48185757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e930e0b1f9a6e2d246a8011c59e2c92c75ba138d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1746f622afb380f53a0109400a7d326b0b3c5de7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756884"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051282"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modify-the-global-hosted-voice-mail-policy-in-lync-server-2013"></a>Modificar la Directiva de correo de voz hospedado global en Lync Server 2013
+# <a name="modify-the-global-hosted-voice-mail-policy-in-lync-server-2013"></a>Modifique la directiva global de correo de voz hospedado en Lync Server 2013
 
 </div>
 
@@ -37,31 +37,31 @@ ms.locfileid: "41756884"
 
 _**Última modificación del tema:** 2012-09-24_
 
-La Directiva de correo de voz hospedado *global* se instala con Lync Server 2013. Puede modificarla para satisfacer sus necesidades, pero no puede cambiarle el nombre ni eliminarla. Para modificar la directiva global, use el cmdlet Set-CsHostedVoicemailPolicy para establecer los parámetros en los valores adecuados para su implementación específica.
+La Directiva de correo de voz hospedado *global* se instala con Lync Server 2013. Modifíquela para adaptarla a sus necesidades, aunque no puede cambiarle el nombre ni eliminarla. Para modificar la directiva global, use el cmdlet Set-CsHostedVoicemailPolicy para establecer los parámetros en los valores apropiados para su implementación específica.
 
 Para obtener más información sobre el cmdlet [set-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsHostedVoicemailPolicy) , consulte la documentación del shell de administración de Lync Server.
 
 <div>
 
-## <a name="to-modify-the-global-hosted-voice-mail-policy"></a>Para modificar la Directiva de correo de voz hospedado global
+## <a name="to-modify-the-global-hosted-voice-mail-policy"></a>Para modificar la directiva global de correo de voz hospedado
 
-1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-2.  Ejecute el cmdlet Set-CsHostedVoicemailPolicy para establecer los parámetros de directiva global de su entorno. Por ejemplo, ejecute lo siguiente:
+2.  Ejecute el cmdlet Set-CsHostedVoicemailPolicy para establecer los parámetros de directiva global de su entorno. Por ejemplo, ejecute:
     
         Set-CsHostedVoicemailPolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
     
-    Debido a que este comando no especifica el parámetro de identidad de la Directiva, la interfaz de línea de comandos de Windows PowerShell establece los siguientes valores en la Directiva de correo de voz hospedado global:
+    Debido a que este comando no especifica el parámetro Identity de la Directiva, la interfaz de línea de comandos de Windows PowerShell establece los valores siguientes en la Directiva de correo de voz hospedado global:
     
-      - **Destino** especifica el nombre de dominio completo (FQDN) del servicio de mensajería unificada de Exchange hospedado. Este parámetro es opcional, pero si intenta habilitar un usuario para el correo de voz hospedado y la directiva asignada al usuario no tiene un valor de destino, se producirá un error de habilitar.
+      - **Destination** especifica el nombre de dominio completo (FQDN) del servicio de mensajería unificada de Exchange hospedado. Este parámetro es opcional pero, si trata de habilitar a un usuario para el correo de voz hospedado y la directiva asignada al usuario no tiene ningún valor de Destination, no podrá habilitarlo.
     
-      - **Organización** especifica una lista separada por comas de los inquilinos de Exchange que alojan usuarios de Lync Server. Cada inquilino debe especificarse como el FQDN de ese inquilino en el servicio de mensajería unificada de Exchange hospedado.
+      - **Organization** especifica una lista separada por comas de los inquilinos de Exchange que alojan a los usuarios de Lync Server. Cada arrendatario se debe especificar como el FQDN del arrendatario en cuestión en el servicio de mensajería unificada de Exchange hospedado.
     
     <div>
     
 
     > [!NOTE]  
-    > En el cmdlet de ejemplo anterior, el valor "corp1.litwareinc.com" reemplaza cualquier valor que ya pudiera estar presente en el parámetro de organización. Por ejemplo, si la directiva ya contiene una lista de organizaciones separadas por comas, se reemplazaría la lista completa. Si desea agregar una organización a la lista en lugar de reemplazar toda la lista, ejecute un comando similar al siguiente.
+    > En el cmdlet de ejemplo anterior, el valor "corp1.litwareinc.com" reemplaza cualquier valor que ya esté presente en el parámetro Organization. Por ejemplo, si la directiva ya contiene una lista separada por comas de organizaciones, se reemplazará la lista completa. Si desea agregar una organización a la lista en lugar de reemplazar la lista completa, ejecute un comando similar al siguiente.
 
     
     </div>

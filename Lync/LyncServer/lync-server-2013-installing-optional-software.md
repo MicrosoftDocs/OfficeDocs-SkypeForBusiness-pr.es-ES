@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: instalación de software opcional'
+title: 'Lync Server 2013: instalar software opcional'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541509
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a493fed33fff897ea2cccc2a89c0d55c5b8a8097
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 080f27b1e01f86d23fd5fd7bf6fdb9e9a05c0742
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726130"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045272"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-optional-software-in-lync-server-2013"></a>Instalar software opcional en Lync Server 2013
+# <a name="installing-optional-software-in-lync-server-2013"></a>Instalación de software opcional en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41726130"
 
 _**Última modificación del tema:** 2013-02-21_
 
-La herramienta de planeación de Microsoft Lync Server 2013 está diseñada para exportar a Microsoft Excel y Microsoft Visio. Si bien estas aplicaciones no son necesarias para el funcionamiento de la herramienta de planeación, pueden agregar valor significativo a la implementación y la documentación del diseño.
+La herramienta de planeación 2013 de Microsoft Lync Server está diseñada para exportar a Microsoft Excel y Microsoft Visio. Aunque estas aplicaciones no son necesarias para el funcionamiento de la herramienta de planeación, agregan un valor significativo a la implementación y la documentación del diseño.
 
 <div>
 
@@ -47,21 +47,21 @@ La herramienta de planeación de Microsoft Lync Server 2013 está diseñada para
 
 ## <a name="microsoft-excel"></a>Microsoft Excel
 
-La exportación de su diseño a Microsoft Excel genera un informe con cuatro pestañas en la hoja de cálculo:
+La exportación de su diseño a Microsoft Excel genera un informe que muestra siete pestañas en la hoja de cálculo:
 
-  - Resumen: Muestra información sobre la configuración local, incluidos el recuento de usuario, la configuración de capacidad, los roles virtualizados e información del perfil del servidor.
+  - Resumen: muestra información sobre la configuración del sitio, incluidos el número de usuarios, la configuración de capacidad y la información de perfil del servidor.
 
-  - Perfil de hardware: Muestra un informe sobre las configuraciones de hardware recomendadas para los servidores que se especifican en la topología, incluidos la CPU, la memoria, el disco y la interfaz de red. También contempla la cantidad y las especificaciones recomendadas para los componentes de servidor. De igual modo, cada servidor está definido por el sitio para proporcionar una representación completa de los requisitos del servidor por sitio.
+  - Perfil de hardware: muestra un informe sobre las configuraciones de hardware recomendadas para los servidores que se especifican en la topología, incluida la CPU, la memoria, el disco y la interfaz de red. También se incluye la cantidad y las especificaciones recomendadas para los componentes del servidor. Además, cada servidor se define por sitio para proporcionar una representación completa de los requisitos del servidor por sitio.
 
-  - Requisitos de los puertos: Muestra un informe de todos los puertos que están habilitados y la asociación con el equilibrio de carga del Sistema de nombres de dominio (DNS LB) y los equilibradores de carga de hardware (HLB). Este informe es útil para planear las configuraciones de DNS LB y HLB y del firewall.
+  - Requisitos de puertos: muestra un informe de todos los puertos que están habilitados y la asociación con el equilibrio de carga del sistema de nombres de dominio (DNS LB) y los equilibradores de carga de hardware (HLB). Debe usar este informe para planear el firewall y las configuraciones de DNS LB y HLB.
 
-  - Informe Resumen: muestra el resumen general de la configuración necesaria para configurar la red de su servidor perimetral.
+  - Informe de Resumen: muestra el resumen general de la configuración necesaria para configurar la red del servidor perimetral.
 
-  - Informe de certificados: muestra el nombre del sujeto y los nombres alternativos de asunto necesarios para los certificados necesarios para obtener los servidores perimetrales.
+  - Informe de certificados: muestra el nombre del sujeto y los nombres alternativos de sujeto necesarios para los certificados necesarios para obtener los servidores perimetrales que ejecutan.
 
-  - Informe de firewall: Muestra los puertos de origen y de destino y direcciones IP de las interfaces tanto interna como externa.
+  - Informe de Firewall: muestra los puertos de origen y de destino, así como las direcciones IP de las interfaces externas e internas.
 
-  - Informe DNS: Muestra el nombre de dominio completo (FQDN) y direcciones IP/VIP que se necesitan para cada entrada DNS que se cree.
+  - Informe de DNS: muestra el nombre de dominio completo (FQDN) y las direcciones IP/VIP necesarias para cada entrada de DNS que cree.
 
 </div>
 
@@ -69,23 +69,23 @@ La exportación de su diseño a Microsoft Excel genera un informe con cuatro pe
 
 ## <a name="microsoft-visio"></a>Microsoft Visio
 
-La exportación del diseño a Microsoft Visio genera un diagrama para su uso en fines de documentación de la topología y la infraestructura configuradas. El diagrama importado se puede modificar y reorganizar para adaptarlo a sus necesidades de documentación. El típico diagrama de Visio incluirá:
+La exportación de su diseño a Microsoft Visio crea un diagrama para su uso en los fines de documentación de la topología y la infraestructura configuradas. El diagrama importado puede editarse y reorganizarse para satisfacer las necesidades de documentación. El diagrama típico de Visio incluirá:
 
 <div>
 
 
 > [!NOTE]  
-> Si el diseño es lo suficientemente grande para requerir más de tres servidores front-end, se creará una página adicional para el grupo front-end, los servidores front-end, el equipo con SQL Server, las direcciones IP y los FQDN.
+> Si el diseño es lo suficientemente grande como para requerir más de tres servidores front-end, se creará una página adicional para el grupo de servidores front-end, los servidores front-end, el equipo que ejecuta SQL Server, las direcciones IP y los FQDN.
 
 
 
 </div>
 
-  - Topología global: Diagrama de sitios de 2013 de Lync Server configurados.
+  - Topología global: Diagrama de sitios configurados de Lync Server 2013.
 
-  - Ficha nombre del sitio: muestra la topología de configuración del sitio con servidor perimetral, firewall, red de telefonía pública conmutada (RTC) con puertas de enlace y la implementación de servidor interno. La implementación interna consta de servidores y grupos de servidores, entre los que se incluyen las secciones front end, los servidores basados en SQL Server, los servicios de dominio de Active Directory, los directores, los servidores de mensajería unificada de Exchange (UM), los servidores de buzón de Exchange y los servidores de Office Web Apps. Servidores de mediación y servidores de chat persistentes.
+  - Ficha nombre de sitio: muestra la topología de configuración de sitio con servidor perimetral, firewall, red telefónica conmutada (RTC) con puertas de enlace y la implementación de servidor interna. La implementación interna consta de servidores y grupos de servidores configurados, incluidos los grupos de servidores front-end, los servidores basados en SQL Server, los servicios de dominio de Active Directory, los directores, los servidores de mensajería unificada de Exchange, los servidores de buzones de Exchange y los servidores de Office Web Apps. Servidores de mediación y servidores de chat persistente.
 
-  - Diagrama de red perimetral: diagrama que detalla la configuración del servidor perimetral con las direcciones IP y FQDN asociados. El equilibrio de carga de DNS y los equilibradores de carga de hardware también están incluidos. Además, se muestran los directores y el servidor front-end o el grupo front-end, con el DNS LB o HLB asociado y la dirección IP asignada (la herramienta de planeación admite direcciones IPv4 e IPv6) y FQDN.
+  - Diagrama de red perimetral: diagrama que detalla la configuración del servidor perimetral con las direcciones IP y los FQDN asociados. También se incluyen equilibrio de carga de DNS y equilibradores de carga de hardware. Además, se muestran los directores y el servidor front-end o el grupo de servidores front-end, con el DNS LB o HLB asociado y la dirección IP asignada (la herramienta de planeación admite direcciones IPv4 e IPv6) y el FQDN.
 
 </div>
 

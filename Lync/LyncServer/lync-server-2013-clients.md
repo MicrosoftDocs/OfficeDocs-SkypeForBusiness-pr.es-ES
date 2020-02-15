@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Clientes'
+title: Clientes de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b74341cca1d66309cecf405fda92ce944995ec53
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9920f00b70b0a5591787d740c2395078a3872760
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756434"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046733"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clients-for-lync-server-2013"></a>Clientes para Lync Server 2013
+# <a name="clients-for-lync-server-2013"></a>Clientes de Lync Server 2013
 
 </div>
 
@@ -37,31 +37,31 @@ ms.locfileid: "41756434"
 
 _**Última modificación del tema:** 2014-01-23_
 
-Lync Server 2013 admite varios tipos de software de cliente que puede implementar en los usuarios de su organización, incluidos el software de cliente instalado en equipo, los clientes basados en Web y los dispositivos móviles. En este tema se describen los clientes que puede usar. Para obtener una comparación detallada de las características proporcionadas por los clientes de Lync Server 2013, consulte [tablas de comparación de clientes para Lync server 2013](lync-server-2013-desktop-client-comparison-tables.md).
+Lync Server 2013 admite varios tipos de software de cliente que se pueden implementar en los usuarios de la organización, como el software de cliente instalado en el equipo, los clientes basados en Web y los dispositivos móviles. En este tema se describen los clientes que puede usar. Para obtener una comparación detallada de las características proporcionadas por los clientes de Lync Server 2013, consulte [Client Comparison tables for Lync server 2013](lync-server-2013-desktop-client-comparison-tables.md).
 
 <div>
 
 ## <a name="lync-2013"></a>Lync 2013
 
-Lync 2013 es el cliente completo para Lync Server. La interfaz de usuario de Lync 2013 se ha rediseñado completamente e incluye características recientemente integradas, como chat persistente (Lync 2010 tenía un cliente independiente para la funcionalidad de chat), conversaciones en pestañas, vista previa de vídeo y vídeo de varias partes. Para obtener un resumen de los cambios, vea [novedades para clientes en Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).
+Lync 2013 es el cliente con todas las características para Lync Server. La interfaz de usuario de Lync 2013 se ha rediseñado completamente e incluye características recién integradas, como chat persistente (Lync 2010 tiene un cliente independiente para la funcionalidad de chat), conversaciones en pestañas, vista previa de vídeo y vídeo entre varias partes. Para obtener un resumen de los cambios, consulte [what's New for clients in Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).
 
-La configuración del cliente de Lync 2013 es parte del programa de instalación de Office en el medio de instalación.
-
-</div>
-
-<div>
-
-## <a name="online-meeting-add-in-for-lync-2013"></a>Complemento para conferencia en línea para Lync 2013
-
-El complemento de reunión en línea para Lync 2013 admite la administración de reuniones desde el cliente de mensajería y colaboración de Microsoft Outlook. El complemento de reunión en línea para el software Lync 2013 se instala automáticamente con Lync 2013.
+Lync 2013 Client Setup forma parte del programa de instalación de Office en los medios de instalación.
 
 </div>
 
 <div>
 
-## <a name="lync-web-scheduler"></a>Programador web de Skype Empresarial
+## <a name="online-meeting-add-in-for-lync-2013"></a>Complemento para reunión en línea para Lync 2013
 
-El programador web de Lync es una herramienta de programación y administración de reuniones basada en web para los usuarios que no tienen acceso a Microsoft Outlook o que se encuentran en un sistema operativo que no está basado en Windows. Con el programador web de Lync, los usuarios pueden crear reuniones, modificar las reuniones existentes y enviar invitaciones mediante el programa de correo electrónico que prefiera.
+El complemento para reunión en línea para Lync 2013 admite la administración de reuniones desde el cliente de colaboración y mensajería de Microsoft Outlook. El complemento de conferencia en línea para el software Lync 2013 se instala automáticamente con Lync 2013.
+
+</div>
+
+<div>
+
+## <a name="lync-web-scheduler"></a>Programador web de Lync
+
+El programador web de Lync es una herramienta de programación y administración de reuniones basada en web para los usuarios que no tienen acceso a Microsoft Outlook o que están en un sistema operativo que no está basado en Windows. Con el programador web de Lync, los usuarios pueden crear nuevas reuniones, modificar reuniones existentes y enviar invitaciones mediante su programa de correo electrónico preferido.
 
 </div>
 
@@ -69,11 +69,11 @@ El programador web de Lync es una herramienta de programación y administración
 
 ## <a name="lync-web-app"></a>Lync Web App
 
-Lync Web App es el cliente de conferencia basado en web para reuniones de Lync Server 2013. En esta versión, la adición de audio y vídeo de PC a Lync Web App proporciona una experiencia de reunión completa para cualquier persona que no tenga un cliente de Lync instalado de forma local. Los participantes de las reuniones obtienen acceso a todas las características de uso compartido y colaboración, y a todos los controles de la reunión del moderador.
+Lync Web App es el cliente de conferencia basado en web para reuniones de Lync Server 2013. En esta versión, la adición de audio y vídeo de equipo a Lync Web App ofrece una experiencia de reunión completa para todos los usuarios que no tengan un cliente de Lync instalado de forma local. Los participantes de la reunión tienen acceso a todas las características de colaboración y uso compartido, así como a los controles de la reunión del mediador.
 
-Si Lync 2013 no está instalado en el equipo de un usuario y el usuario hace clic en un vínculo de reunión en una convocatoria de reunión, se abre Lync Web App. También puede configurar la página de unirse a la reunión para permitir que los usuarios se unan a reuniones con versiones anteriores de clientes. consulte [configurar la página de la combinación de reuniones en Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md) en la documentación de implementación.
+Si Lync 2013 no está instalado en el equipo de un usuario y el usuario hace clic en un vínculo de reunión en una convocatoria de reunión, se abrirá Lync Web App. También puede configurar la página de participación en la reunión para que los usuarios puedan unirse a las reuniones con versiones anteriores de los clientes; consulte [configurar la página de participación en la reunión en Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md) en la documentación sobre implementación.
 
-Gracias a las mejoras de Lync Web App, una versión actualizada del asistente de Lync 2010 de Microsoft no está disponible para Lync Server 2013. Lync Web App es el cliente que elige para los participantes fuera de su organización. Con Lync Web App, no es necesaria ninguna instalación de cliente local, aunque las características de audio, vídeo y uso compartido requieren la instalación de un complemento durante el primer uso.
+Debido a las mejoras realizadas en Lync Web App, no hay disponible una versión actualizada del asistente de Microsoft Lync 2010 para Lync Server 2013. Lync Web App es el cliente preferido para los participantes externos a la organización. Con Lync Web App, no se requiere la instalación de un cliente local, aunque las características de audio, vídeo y uso compartido requieren la instalación de un complemento durante el primer uso.
 
 </div>
 
@@ -81,7 +81,7 @@ Gracias a las mejoras de Lync Web App, una versión actualizada del asistente de
 
 ## <a name="lync-2013-basic"></a>Lync 2013 Basic
 
-Lync 2013 Basic es un cliente descargable para clientes que tienen una implementación de Lync Server 2013 local con licencia y clientes que se suscriben a un plan de Microsoft Office 365 que no incluye el cliente de Lync 2013 completo. El cliente de Lync Basic incluye mejoras en la presencia, los contactos, la mensajería instantánea (mi), las reuniones de Lync y la funcionalidad básica de voz. Las características no admitidas en Lync Basic incluyen vídeos de varias partes, integración de OneNote, compatibilidad con infraestructura de escritorio virtual (VDI), búsqueda de aptitudes, grabación, características de telefonía IP y administración avanzada de llamadas (por ejemplo, el desvío de llamadas y la llamada de equipo). Para obtener más información, vea [tablas de comparación de clientes para Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).
+Lync 2013 Basic es un cliente descargable para clientes que tienen una implementación de Lync Server 2013 local con licencia y clientes que se suscriben a un plan de Microsoft Office 365 que no incluye todo el cliente de Lync 2013. El cliente de Lync Basic incluye presencia mejorada, contactos, mensajería instantánea (mi), reuniones de Lync y funcionalidad básica de voz. Las características no compatibles con Lync Basic incluyen el vídeo entre varias partes, la integración de OneNote, la compatibilidad con la infraestructura de escritorio virtual (VDI), la búsqueda de aptitudes, la grabación, las características de telefonía IP empresarial y el control avanzado de llamadas (por ejemplo, desvío de llamadas y llamada de equipo). Para obtener más información, consulte [Client Comparison tables for Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).
 
 </div>
 
@@ -89,7 +89,7 @@ Lync 2013 Basic es un cliente descargable para clientes que tienen una implement
 
 ## <a name="lync-windows-store-app"></a>Aplicación Lync de la tienda Windows
 
-La aplicación de la tienda Windows de Lync es una aplicación de Lync optimizada para toque diseñada específicamente para Windows 8,1, Windows 8 y Windows RT. Los usuarios pueden descargar la aplicación a través de la tienda Windows buscando "Lync". Para obtener más información, vea [tablas de comparación de clientes para Lync server 2013](lync-server-2013-desktop-client-comparison-tables.md), requisitos de la [aplicación de la tienda Windows de Lync para Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md)e [implementación de la aplicación de la tienda Windows de Lync en Lync Server 2013](lync-server-2013-deploying-lync-windows-store-app.md).
+La aplicación Lync Windows Store es una aplicación de Lync optimizada para el tacto diseñada específicamente para Windows 8,1, Windows 8 y Windows RT. Los usuarios pueden descargar la aplicación a través de la tienda Windows buscando "Lync". Para obtener más información, vea [tablas de comparación de clientes para Lync server 2013](lync-server-2013-desktop-client-comparison-tables.md), [requisitos de aplicaciones de la tienda Windows de Lync para Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md)e [implementación de la aplicación de la tienda Windows de Lync en Lync Server 2013](lync-server-2013-deploying-lync-windows-store-app.md).
 
 </div>
 
@@ -97,23 +97,23 @@ La aplicación de la tienda Windows de Lync es una aplicación de Lync optimizad
 
 ## <a name="lync-2013-for-mobile-devices"></a>Lync 2013 para dispositivos móviles
 
-Las aplicaciones móviles de Lync 2013 ahora incluyen funciones de voz sobre IP (VoIP) y vídeo sobre IP, además de las características de contactos, presencia y mensajería instantánea. Los usuarios móviles pueden elegir comunicarse con otras personas a través de mensajería instantánea, llamadas de voz o videollamadas con Wi-Fi o con su conexión de datos de telefonía móvil. Con un solo clic en el vínculo de la reunión en un elemento de calendario, los usuarios móviles pueden unirse a reuniones de voz y vídeo. Para obtener más información sobre las aplicaciones móviles de Lync 2013, vea [planificación de clientes móviles en Lync Server 2013](lync-server-2013-planning-for-mobile-clients.md).
+Las aplicaciones móviles de Lync 2013 ahora incluyen capacidades de voz sobre IP (VoIP) y vídeo sobre IP, además de las características de contactos, presencia y mensajería instantánea. Los usuarios móviles pueden elegir comunicarse con otras personas a través de mi, llamadas de voz o videollamadas mediante Wi-Fi o su conexión de datos móviles. Con un solo clic del vínculo de la reunión en un elemento de calendario, los usuarios móviles pueden unirse a reuniones de voz y vídeo. Para obtener más información sobre las aplicaciones móviles de Lync 2013, consulte [Planning for Mobile clients in Lync Server 2013](lync-server-2013-planning-for-mobile-clients.md).
 
 </div>
 
 <div>
 
-## <a name="supported-clients-from-previous-releases"></a>Clientes compatibles de versiones anteriores
+## <a name="supported-clients-from-previous-releases"></a>Clientes admitidos de versiones anteriores
 
-Lync Server 2013 admite los siguientes clientes de versiones anteriores del servidor. Puede hacer que determinados clientes anteriores estén disponibles para los usuarios cuando se unan a las reuniones. Para obtener más información, vea [configuración de la página de combinación de reuniones en Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md) en la documentación de implementación.
+Lync Server 2013 admite los siguientes clientes de versiones anteriores del servidor. Puede hacer que determinados clientes anteriores estén disponibles para los usuarios cuando se unan a reuniones. Para obtener más información, consulte [configuración de la página de participación en la reunión en Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md) en la documentación sobre implementación.
 
-  - **Lync 2010**   Lync 2010 proporciona una experiencia de escritorio completa, como la mensajería instantánea, presencia mejorada, voz, vídeo, uso compartido y telefonía. Sin embargo, ninguna de las nuevas características introducidas en Lync Server 2013 estará disponible hasta que el cliente del usuario se actualice a Lync 2013.
+  - **Lync 2010**   Lync 2010 proporciona una experiencia de escritorio completa, que incluye mensajería instantánea, presencia mejorada, voz, vídeo, uso compartido y telefonía. Sin embargo, ninguna de las nuevas características que se incluyen en Lync Server 2013 estará disponible hasta que el cliente del usuario se actualice a Lync 2013.
 
-  - **Lync 2010 Mobile**   Lync Server 2013 es compatible con todas las aplicaciones móviles de Microsoft Lync 2010. Microsoft Lync 2010 Mobile proporciona mensajería instantánea, presencia mejorada y telefonía a los usuarios de su organización que se conectan desde un smartphone o un teléfono que ejecuta una edición profesional de Windows Mobile. Puede indicar a los usuarios que instalen Microsoft Lync 2010 Mobile enviándolos al Marketplace de la aplicación para su teléfono móvil. Para obtener más información, consulte "planes para clientes móviles" en la documentación de Lync [http://go.microsoft.com/fwlink/p/?LinkID=235955](http://go.microsoft.com/fwlink/p/?linkid=235955)Server 2010 en.
+  - **Lync 2010 Mobile**   Lync Server 2013 es compatible con todas las aplicaciones móviles móviles de Microsoft Lync 2010. Microsoft Lync 2010 Mobile proporciona mensajería instantánea, presencia mejorada y telefonía a los usuarios de su organización que se conectan desde un smartphone o un teléfono con una edición profesional de Windows Mobile. Puede indicar a los usuarios que instalen Microsoft Lync 2010 Mobile al dirigirlos al Marketplace de la aplicación para su teléfono móvil. Para obtener más información, consulte "Planeación de clientes móviles" en la documentación de [http://go.microsoft.com/fwlink/p/?LinkID=235955](http://go.microsoft.com/fwlink/p/?linkid=235955)Lync Server 2010 en.
 
-  - **Lync Phone Edition**   : el software Lync Phone Edition para teléfonos IP inteligentes (por ejemplo, teléfonos con conexión USB) no se ha actualizado para Lync Server 2013. Lync Phone Edition sigue siendo compatible con para colocar y recibir llamadas, presencia mejorada y capacidades de audio de cliente para conferencias.
+  - **Lync Phone Edition**   Lync Phone Edition para teléfonos IP inteligentes (por ejemplo, teléfonos conectados a USB) no se ha actualizado para Lync Server 2013. Lync Phone Edition sigue siendo compatible con para realizar y recibir llamadas, la presencia mejorada y las capacidades de audio de clientes para conferencias.
 
-  - **Operador de 2010 de Lync**   el operador de administración de llamadas integrado de Microsoft Lync 2010 permite a una recepcionista administrar varias conversaciones al mismo tiempo mediante una rápida administración de llamadas, mensajería instantánea y enrutamiento en pantalla.
+  - **Operador de Lync 2010**   el operador integrado de administración de llamadas de Microsoft Lync 2010 permite que un recepcionista administre varias conversaciones al mismo tiempo mediante un manejo rápido de llamadas, la mensajería instantánea y el enrutamiento en pantalla.
 
 </div>
 

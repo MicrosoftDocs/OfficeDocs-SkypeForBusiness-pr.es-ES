@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: (opcional) comprobar la implementación de la recogida de llamadas grupales'
+title: 'Lync Server 2013: (opcional) comprobar la implementación de recogida de llamadas grupales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91c449a0bafc4067b3315b659d981f7a57a023bb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5cdf1e75f950ebf155bfd21c68b860f48af8e978
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755674"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045542"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a>Faculta Comprobar la implementación de la llamada grupal en Lync Server 2013
+# <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a>Opcional Comprobar la implementación de la llamada de grupo en Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41755674"
 
 _**Última modificación del tema:** 2013-01-30_
 
-Después de habilitar la recogida de llamadas grupales para los usuarios, compruebe que la configuración funciona según lo esperado. Como mínimo, compruebe lo siguiente:
+Después de habilitar la atención de llamadas grupales para los usuarios, compruebe que la configuración funciona según lo esperado. Como mínimo, compruebe lo siguiente:
 
-  - Llame a un usuario que tenga activada la respuesta de llamadas en grupo y haga que otro usuario responda a la llamada. El otro usuario puede pertenecer al mismo grupo, a un grupo diferente, o no tener activada la respuesta de llamadas en grupo.
+  - Llamar a un usuario que esté habilitado para la atención de llamadas de grupo y que otro usuario recupere la llamada. El otro usuario puede estar en el mismo grupo, en un grupo distinto o no tener habilitada la recepción de llamadas de grupo.
 
-  - Llame a un usuario que tenga activada la respuesta de llamadas en grupo y no responda a la llamada.
+  - Llame a un usuario que esté habilitado para la atención de llamadas de grupo y no responda a la llamada.
 
 </div>
 

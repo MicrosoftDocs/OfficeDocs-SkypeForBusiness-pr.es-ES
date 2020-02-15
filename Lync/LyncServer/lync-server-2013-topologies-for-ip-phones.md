@@ -12,16 +12,16 @@ ms:contentKeyID: 48183662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e05a56d30167f2e20a383cde9fcfaaa70418e650
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 69761715846cd65a44fe34c9c8465101e9ceb681
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745210"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045452"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41745210"
 
 _**Última modificación del tema:** 2012-06-21_
 
-Esta sección proporciona una descripción general del proceso de conectividad y explica las diferencias entre el modo en que un teléfono IP se conecta en una red interna y externa.
+En este tema, se describe el proceso de conectividad y se explican las diferencias de la conexión de un teléfono IP en una red interna y en una red externa.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server proporciona compatibilidad con los siguientes teléfonos IP: el Aastra 6721ip de área común, Aastra teléfono de escritorio 6725ip, teléfono IP HP 4110 (teléfono de área común), teléfono IP HP 4120 (teléfono de escritorio), teléfono IP de escritorio Polycom, teléfono IP de escritorio Polycom CX700, IP Polycom CX500 teléfono de área común y teléfono de conferencia IP Polycom CX3000. De esos teléfonos, todos excepto el Polycom CX700 pueden ejecutar Lync Phone Edition.
+> Lync Server proporciona compatibilidad con los siguientes teléfonos IP: el Aastra 6721ip Common Area Phone, Aastra 6725ip teléfono de escritorio, HP 4110 IP Phone (teléfono de área común), HP 4120 IP Phone (teléfono de escritorio), teléfono de escritorio Polycom CX600 IP, teléfono de escritorio Polycom CX700, IP de Polycom CX500 teléfono de área común y teléfono de conferencia Polycom CX3000 IP. De esos teléfonos, todos excepto Polycom CX700 pueden ejecutar Lync Phone Edition.
 
 
 
 </div>
 
-El siguiente diagrama describe todos los componentes implicados en la conectividad de dispositivos dentro del entorno corporativo.
+En el diagrama siguiente, se describen todos los componentes utilizados en la conectividad del dispositivo dentro del entorno corporativo.
 
 **Topología interna**
 
@@ -59,13 +59,13 @@ El siguiente diagrama describe todos los componentes implicados en la conectivid
 
 
 > [!NOTE]  
-> La figura anterior es una representación lógica, no una visión general física. Por ejemplo, los servicios de dominio de Active Directory (AD DS) rara vez se encuentran en el mismo equipo que cualquier componente de Lync Server. El almacén de usuario puede encontrarse en el servidor back-end o en los servidores de archivado y supervisión. El shell de administración de Lync Server, el servidor Web y los servicios de actualización forman parte de la función de servidor front-end.
+> La figura anterior constituye una representación lógica, no una descripción física. Por ejemplo, los servicios de dominio de Active Directory (AD DS) rara vez se ubican en el mismo equipo que los componentes de Lync Server. El almacén de usuarios puede estar en el servidor back-end, o en los servidores de archivado o de supervisión. El shell de administración de Lync Server, el servidor Web y los servicios de actualización forman parte del rol de servidor front-end.
 
 
 
 </div>
 
-En el siguiente diagrama se ofrece información general sobre los componentes que se utilizan cuando el dispositivo se encuentra fuera de la red corporativa.
+En el diagrama siguiente, se muestran los componentes utilizados cuando el dispositivo se encuentra fuera de la red corporativa.
 
 **Topología externa**
 
@@ -75,7 +75,7 @@ En el siguiente diagrama se ofrece información general sobre los componentes qu
 
 
 > [!NOTE]  
-> El servicio Web de actualización de dispositivos proporciona un sitio web externo e interno, pero solo se muestra el externo.<BR>La ubicación del registrador y la dirección URL del servicio Web de actualización de dispositivos para la organización se deben publicar en DNS si se va a habilitar el acceso externo. Además, el servidor perimetral debe implementarse y configurarse correctamente para permitir las comunicaciones externas desde el dispositivo al entorno corporativo y viceversa. Esto se omite del diagrama anterior porque la implementación perimetral no es específica de la Conectividad del dispositivo.
+> El servicio web de actualización de dispositivos proporciona un sitio web externo e interno, pero aquí solo se muestra uno externo.<BR>La ubicación del registrador y la dirección URL del servicio web de actualización de dispositivos para la organización deben publicarse en DNS si se habilitará el acceso externo. Además, el servidor perimetral se debe implementar y configurar correctamente para permitir las comunicaciones externas del dispositivo al entorno corporativo, y viceversa. Esto se omite en el diagrama anterior porque la implementación perimetral no es específica de la conectividad del dispositivo.
 
 
 

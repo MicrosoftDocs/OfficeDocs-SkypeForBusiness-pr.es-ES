@@ -12,16 +12,16 @@ ms:contentKeyID: 49733548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28ebdc40c4747d0ec2c3f97a3d39d07b9366e39a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 688086f559c5b5f21891ce87f9ea1f5256280a34
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724580"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045742"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41724580"
 
 _**Última modificación del tema:** 2012-11-01_
 
-La calidad de la experiencia (QoE) registra datos numéricos que indican la calidad de los medios e información sobre los participantes, nombres de los dispositivos, controladores, direcciones IP y tipos de extremos que se usan en las llamadas y las sesiones. Al instalar Lync Server 2013, también instalará una colección predefinida de opciones de configuración global para QoE. Use los temas de esta sección para configurar los valores de QoE.
+La calidad de la experiencia (QoE) registra datos numéricos que indican la calidad de los medios e información sobre los participantes, nombres de los dispositivos, controladores, direcciones IP y tipos de extremos que se usan en las llamadas y las sesiones. Al instalar Lync Server 2013, también se instalará una colección predefinida de opciones de configuración global para QoE. Use los temas de esta sección para configurar los valores de QoE.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Crear la configuración de la calidad de la experiencia en Lync Server 2013](lync-server-2013-create-quality-of-experience-configuration-settings.md)
+  - [Crear opciones de configuración de la calidad de la experiencia en Lync Server 2013](lync-server-2013-create-quality-of-experience-configuration-settings.md)
 
   - [Habilitar la calidad de la experiencia en Lync Server 2013](lync-server-2013-enable-quality-of-experience.md)
 
   - [Modificar la configuración de la calidad de la experiencia en Lync Server 2013](lync-server-2013-modify-quality-of-experience-settings.md)
 
-  - [Eliminar la configuración de la calidad de la experiencia en Lync Server 2013](lync-server-2013-delete-quality-of-experience-configuration-settings.md)
+  - [Eliminar opciones de configuración de la calidad de la experiencia en Lync Server 2013](lync-server-2013-delete-quality-of-experience-configuration-settings.md)
 
-  - [Purgar manualmente las bases de datos de grabación de detalles de llamadas y de calidad de la experiencia en Lync Server 2013](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
+  - [Purgado manual del registro detallado de llamadas y de las bases de datos de calidad de la experiencia en Lync Server 2013](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
 
 </div>
 
@@ -60,7 +60,7 @@ La calidad de la experiencia (QoE) registra datos numéricos que indican la cali
 ## <a name="see-also"></a>Vea también
 
 
-[Configuración de la grabación de detalles de llamadas y la configuración de la calidad de la experiencia en Lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
+[Configuración de registros de detalles de llamadas y de la calidad de la experiencia en Lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
   
 
 </div>

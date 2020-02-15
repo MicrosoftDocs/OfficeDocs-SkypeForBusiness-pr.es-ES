@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Resumen: configure el servidor de administración principal, instale System Center Operations Manager e importe los paquetes de administración para Skype empresarial Server 2019.'
-ms.openlocfilehash: a4fda367307b99bb952e6673b3b4d1c2967299c6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: configure el servidor de administración principal, instale System Center Operations Manager e importe los paquetes de administración de Skype empresarial Server 2019.'
+ms.openlocfilehash: ccc522da216b98e6f18ea381a74aff19fc5cc24d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824004"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006055"
 ---
 # <a name="configure-the-primary-management-server"></a>Configurar el servidor de administración principal
 
-**Resumen:** Configurar el servidor de administración principal, instalar System Center Operations Manager e importar paquetes de administración para Skype empresarial Server 2019.
+**Resumen:** Configure el servidor de administración principal, instale System Center Operations Manager e importe los paquetes de administración de Skype empresarial Server 2019.
 
-Para aprovechar al máximo las nuevas capacidades de supervisión de estado incluidas en Skype empresarial Server 2019, primero debe designar un equipo que actúe como servidor de administración principal. Debe instalar System Center Operations Manager 2012 SP1 o R2 o System Center Operations Manager 2007 R2 en ese equipo. Además, primero debe instalar una versión compatible de SQL Server para que funcione como la base de datos back-end de Operations Manager.
+Para aprovechar todas las ventajas de las nuevas funciones de supervisión de estado incluidas en Skype empresarial Server 2019, primero debe designar un equipo para que actúe como servidor de administración principal. A continuación, debe instalar System Center Operations Manager 2012 SP1 o R2 o System Center Operations Manager 2007 R2 en ese equipo. Además, debe instalar primero una versión compatible de SQL Server para que funcione como su base de datos back-end de Operations Manager.
 
-Cuando instale System Center Operations Manager, tendrá que instalar todos los componentes de ese producto, entre los que se incluyen:
+Al instalar System Center Operations Manager, tendrá que instalar todos los componentes de ese producto, incluidos:
 
 - Base de datos operativa
 
@@ -38,76 +38,76 @@ Cuando instale System Center Operations Manager, tendrá que instalar todos los 
 
 - Consola web
 
-- Informes
+- Reporting
 
 - Almacén de datos
 
 > [!IMPORTANT]
-> El "[paquete redistribuible 2010 de Microsoft Report Viewer](https://www.microsoft.com/en-us/download/details.aspx?id=6442)" debe instalarse antes de instalar System Center Operations Manager 2012.
+> Es necesario instalar el "[paquete redistribuible de Microsoft Report Viewer 2010](https://www.microsoft.com/download/details.aspx?id=6442)" antes de instalar System Center Operations Manager 2012.
 
 Para obtener más información sobre estos productos y su instalación, consulte los siguientes vínculos:
 
 - [System Center Operations Manager 2012](https://go.microsoft.com/fwlink/p/?linkid=257527)
 
-- [System Center Operations Manager 2007](https://technet.microsoft.com/en-us/library/bb735860.aspx)
+- [System Center Operations Manager 2007](https://technet.microsoft.com/library/bb735860.aspx)
 
-Tenga en cuenta que solo puede tener un servidor de administración raíz por implementación de Skype empresarial Server.
+Tenga en cuenta que solo puede tener un servidor de administración raíz por cada implementación de Skype empresarial Server.
 
 ## <a name="importing-the-skype-for-business-server-2019-management-packs"></a>Importación de los paquetes de administración de Skype empresarial Server 2019
 
-Puede ampliar las capacidades de System Center Operations Manager mediante la instalación de paquetes de administración, es decir, el software que determina qué elementos puede supervisar System Center Operations Manager, cómo se deben supervisar esos elementos y cómo se deberían desencadenar alertas y registrados. Skype empresarial Server 2019 incluye dos módulos de administración de System Center Operations Manager que proporcionan las siguientes características:
+Puede ampliar las capacidades de System Center Operations Manager mediante la instalación de paquetes de administración: software que determina qué elementos puede supervisar System Center Operations Manager, cómo se deben supervisar esos elementos y cómo se deben desencadenar alertas y Enviado. Skype empresarial Server 2019 incluye dos módulos de administración de System Center Operations Manager que proporcionan las siguientes capacidades:
 
-- **El componente y el paquete de administración de usuario** (Microsoft.LS.2019.Monitoring.ComponentAndUser.MP) realiza un seguimiento de los problemas de Skype empresarial Server registrados en los registros de eventos, registrados por los contadores de rendimiento o registrados en las bases de datos de registros de detalles de llamadas (CDRs) o de calidad de experiencia (QoE). En el caso de problemas críticos, System Center Operations Manager se puede configurar para que notifiquen inmediatamente a los administradores por correo electrónico, mensajes instantáneos o mensajes SMS. (SMS o servicio de mensajes cortos es la tecnología que se usa para enviar mensajes de texto desde un dispositivo móvil a otro).
+- **El componente y el módulo de administración de usuarios** (Microsoft.LS.2019.Monitoring.ComponentAndUser.MP) realiza un seguimiento de los problemas de Skype empresarial Server registrados en los registros de eventos, registrados por los contadores de rendimiento o registrados en los registros de detalles de llamadas (CDR) o las bases de datos de calidad de la experiencia (QoE). Para los problemas críticos, System Center Operations Manager se puede configurar para que notifique a los administradores de forma inmediata a través del correo electrónico, los mensajes instantáneos o los mensajes SMS. (SMS, o servicio de mensajes cortos, es la tecnología que se usa para enviar mensajes de texto desde un dispositivo móvil a otro).
 
     > [!NOTE]
-    >  Para obtener más información sobre cómo configurar las notificaciones de Operations Manager, vea [configurar notificaciones](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
+    >  Para obtener más información sobre cómo configurar la notificación de Operations Manager, consulte Configuración de la [notificación](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
 
-- **El módulo de administración de supervisión activa** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.MP) prueba de forma proactiva los componentes clave de Skype empresarial, como iniciar sesión en el sistema, intercambiar mensajes instantáneos o hacer llamadas a un teléfono que se encuentra en la red de telefonía pública conmutada (RTC). Estas pruebas se realizan mediante los cmdlets de transacciones sintéticas de Skype empresarial Server. Por ejemplo, el cmdlet **Test-CsIM** se usa para simular una conversación de mensajería instantánea entre dos usuarios de prueba. Si esta conversación simulada falla, se genera una alerta.
+- **El módulo de administración de supervisión activa** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.MP) comprueba de forma proactiva los componentes clave de Skype empresarial Server, como iniciar sesión en el sistema, intercambiar mensajes instantáneos o realizar llamadas a un teléfono ubicado en la red telefónica conmutada (RTC). Estas pruebas se llevan a cabo mediante los cmdlets de transacciones sintéticas de Skype empresarial Server. Por ejemplo, el cmdlet **Test-CsIM** se usa para simular una conversación de mensajería instantánea entre dos usuarios de prueba. Si se produce un error en esta conversación simulada, se genera una alerta.
 
-Importar los paquetes de administración es un paso fundamental. Si los módulos de administración no se importan, no podrá usar Operations Manager para supervisar los eventos de Skype Empresarial Server ni para ejecutar transacciones sintéticas de Skype Empresarial Server.
+La importación de los paquetes de administración es un paso crucial. Si no se importan los paquetes de administración, no podrá usar Operations Manager para supervisar los eventos de Skype empresarial Server ni ejecutar transacciones sintéticas de Skype empresarial Server.
 
-El paquete de administración de componentes y usuarios se usa para supervisar solamente Skype empresarial Server 2019. Si se trata de un escenario de coexistencia en el que tanto Skype empresarial Server 2019 como Skype empresarial Server 2015 están instalados, debe seguir usando los paquetes de administración de Skype empresarial Server 2015 para sus equipos de Skype empresarial Server 2015.
+El módulo de componentes y administración de usuarios solo se usa para supervisar Skype empresarial Server 2019. Si está en un escenario de coexistencia donde están instalados tanto Skype empresarial Server 2019 como Skype empresarial 2015, debe seguir usando los paquetes de administración de Skype empresarial Server 2015 para los equipos de Skype empresarial Server 2015.
 
 > [!NOTE]
-> Los paquetes de administración para Skype empresarial Server 2019 incluyen el componente de Skype empresarial Server 2019 y el paquete de administración de usuarios y el módulo de administración de supervisión activa de Skype empresarial Server 2019.
+> Los módulos de administración de Skype empresarial Server 2019 incluyen el componente de Skype empresarial Server 2019 y el módulo de administración de usuario y el módulo de administración de supervisión activa de Skype empresarial Server 2019.
 
 Puede usar una de las siguientes herramientas para importar los paquetes de administración:
 
-- **System Center Operations Manager** Con este método, se usa el Operations Manager para agregar la supervisión de Skype empresarial Server.
+- **System Center Operations Manager** Con este método, se usa Operations Manager para agregar supervisión de Skype empresarial Server.
 
 - **Shell de Operations Manager** Puede usar el shell de Operations Manager para importar directamente o para solucionar cualquier problema que encuentre al importar paquetes de administración mediante la consola de System Center Operations Manager.
 
-### <a name="importing-the-management-packs-by-using-system-center-operations-manager"></a>Importación de los módulos de administración mediante System Center Operations Manager
+### <a name="importing-the-management-packs-by-using-system-center-operations-manager"></a>Importación de los paquetes de administración mediante System Center Operations Manager
 
-1. Descarga el SkypeForBusiness2019ManagementPacks. msi de las descargas de Internet de Microsoft e instala el msi.
+1. Descargue SkypeForBusiness2019ManagementPacks. msi de las descargas del Web de Microsoft e instale el msi.
 
 2. En System Center Operations Manager, haga clic en **Administración**.
 
-3. En el panel administración, haga clic con el botón secundario en **módulos**de administración y luego haga clic en **importar módulos de administración**.
+3. En el panel Administración, haga clic con el botón secundario en **Paquetes de administración** y luego haga clic en **Importar paquetes de administración**.
 
-4. En el cuadro de diálogo **Seleccionar módulos de administración**, haga clic en **Agregar** y luego en **Agregar desde el disco**.
+4. En el cuadro de diálogo **Seleccionar paquetes de administración**, haga clic en **Agregar** y luego en **Agregar desde el disco**.
 
-5. En el cuadro de diálogo **Conexión del catálogo en línea**, haga clic en **No**.
+5. En el cuadro de diálogo **conexión al catálogo en línea** , haga clic en **no**.
 
-6. En el cuadro de diálogo **seleccionar módulos de administración para importar** , busque y seleccione los archivos Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp y Microsoft.LS.2019.Monitoring.ComponentAndUser.MP y, a continuación, haga clic en **abrir**. Para seleccionar varios archivos en el cuadro de diálogo, haga clic en el primer archivo, mantenga presionada la tecla Ctrl y haga clic en el segundo archivo.
+6. En el cuadro de diálogo **seleccionar módulos de administración para importar** , busque y seleccione los archivos Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp y Microsoft.LS.2019.Monitoring.ComponentAndUser.MP y, a continuación, haga clic en **abrir**. Para seleccionar varios archivos en el cuadro de diálogo, haga clic en el primer archivo y, a continuación, mantenga presionada la tecla Ctrl y haga clic en los archivos subsiguientes.
 
-7. En el cuadro de diálogo **Seleccionar módulos de administración**, haga clic en **Instalar**. Si obtiene un mensaje de error y no se puede realizar la instalación, generalmente significa que los archivos del módulo de administración se encuentran en una carpeta protegida por el control de cuentas de usuario de Windows. En este caso, copie los archivos en otra carpeta y luego reinicie el proceso de importación e instalación.
+7. En el cuadro de diálogo **Seleccionar paquetes de administración**, haga clic en **Instalar**. Si obtiene un mensaje de error y no se puede producir la instalación, que generalmente significa que los archivos del paquete de administración se encuentran en una carpeta protegida por el control de cuentas de usuario de Windows. Si esto ocurre, copie los archivos en una carpeta diferente y, a continuación, reinicie el proceso de importación e instalación.
 
-8. En el cuadro de diálogo **Seleccionar módulos de administración**, haga clic en **Cerrar**. Tenga en cuenta que el proceso de instalación e importación puede requerir algunos minutos para completarse.
+8. En el cuadro de diálogo **Seleccionar paquetes de administración**, haga clic en **Cerrar**. El proceso de importación e instalación puede tardar varios minutos en completarse.
 
-## <a name="importing-the-management-packs-by-using-the-operations-manager-shell"></a>Importación de los módulos de administración mediante el Shell de Operations Manager
+## <a name="importing-the-management-packs-by-using-the-operations-manager-shell"></a>Importación de los paquetes de administración mediante el shell de Operations Manager
 
-En general, es más fácil importar los módulos de administración con la consola de Operations Manager. Sin embargo, si se produce un error y no es posible llevar a cabo la importación, la consola no siempre proporciona informes de errores adecuados. El Shell de Operations Manager, en cambio, proporciona información detallada. Si está usando Operations Manager y tiene problemas al importar un módulo de administración, importe el módulo con el Shell de Operations Manager. La información que proporciona el Shell de Operations Manager puede ayudarle a determinar el motivo del error de importación.
+En general, es más fácil importar los paquetes de administración mediante la consola de Operations Manager. Sin embargo, si se produce un error y se produce un error en la importación, la consola no siempre proporciona los informes de error adecuados. Por comparación, el shell de Operations Manager proporciona información detallada. Si usa Operations Manager y surgen problemas al importar un módulo de administración, importe el paquete mediante el shell de Operations Manager. La información que proporciona el shell de Operations Manager puede ayudarle a determinar por qué se produjo un error en la importación.
 
-1. Haga clic sucesivamente en **Inicio**, **Todos los programas**, **Microsoft System Center 2012**, **Operations Manager** y **Shell de Operations Manager**.
+1. Haga clic en **Inicio**, en **todos los programas**, en **Microsoft System Center 2012**, haga clic en **Operations Manager**y, a continuación, haga clic en **Shell de Operations Manager**.
 
-2. En el shell de Operations Manager, escriba el siguiente comando en el símbolo del sistema, utilizando la ruta de acceso real a la copia del archivo Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp y, a continuación, presione ENTRAR:
+2. En el shell de Operations Manager, escriba el siguiente comando en el símbolo del sistema, usando la ruta de acceso real a su copia del archivo Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp y, a continuación, presione ENTRAR:
 
    ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp"
    ```
 
-3. Una vez que haya importado el primer módulo de administración, repita el proceso con la ruta de acceso a la copia del archivo Microsoft.LS.2019.Monitoring.ComponentAndUser.mp:
+3. Una vez que haya importado el primer módulo de administración, repita el proceso usando la ruta de acceso a su copia del archivo Microsoft.LS.2019.Monitoring.ComponentAndUser.mp:
 
    ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2019.Monitoring.ComponentAndUser.mp"

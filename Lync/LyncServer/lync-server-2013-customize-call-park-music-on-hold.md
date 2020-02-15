@@ -12,16 +12,16 @@ ms:contentKeyID: 49733621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 301625a36d23c69d02dfdcde8c4985def53630af
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: feebc353b48b3a6b8f9adb17c08ab9af778bb1ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728760"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047537"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41728760"
 
 _**Última modificación del tema:** 2012-09-10_
 
-Puede especificar su propio archivo de música para que use la música en espera, en lugar del archivo de música predeterminado que se incluye con Lync Server 2013. Para personalizar la música en espera, utilice el cmdlet **Set-CsCallParkServiceMusicOnHoldFile**.
+Puede especificar su propio archivo de música para usarlo para música en espera, en lugar del archivo de música predeterminado que se incluye con Lync Server 2013. Para personalizar la música en espera, utilice el cmdlet **Set-CsCallParkServiceMusicOnHoldFile**.
 
 <div>
 
 
 > [!NOTE]  
-> Si personaliza la música en espera y quiere la misma música para varios sitios, debe configurar el archivo de música para cada sitio que ejecute la aplicación estacionamiento de llamadas.
+> Si personaliza la música en espera y desea la misma música para varios sitios, debe configurar el archivo de música para cada sitio que ejecute la aplicación estacionamiento de llamadas.
 
 
 
@@ -53,11 +53,11 @@ Puede especificar su propio archivo de música para que use la música en espera
 
 ## <a name="to-customize-the-music-file"></a>Para personalizar el archivo de música
 
-1.  Inicie sesión en el equipo donde está instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [permisos de configuración de delegado en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Inicie sesión en el equipo donde esté instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-3.  Ejecute:
+3.  Realizar
     
         Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte[]>
     
@@ -65,7 +65,7 @@ Puede especificar su propio archivo de música para que use la música en espera
     
 
     > [!TIP]  
-    > Use el cmdlet <STRONG>Get-CsService</STRONG> para identificar el servicio. Para obtener más información, vea <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">Get-CsService</A>.
+    > Use el cmdlet <STRONG>Get-CsService</STRONG> para identificar el servicio. Para obtener más información, consulte <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">Get-CsService</A>.
 
     
     </div>

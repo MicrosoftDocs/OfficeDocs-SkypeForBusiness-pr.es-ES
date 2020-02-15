@@ -12,20 +12,20 @@ ms:contentKeyID: 63969601
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9eead17e9cd08267f941d80cb25460f4d456d896
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 958c67b1b10b25e44805d2582ffe2e9fab575568
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724600"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045792"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="qoe-reports-in-lync-server-2013"></a>Informes de calidad de la calidad en Lync Server 2013
+# <a name="qoe-reports-in-lync-server-2013"></a>Informes de QoE en Lync Server 2013
 
 </div>
 
@@ -39,17 +39,17 @@ _**Última modificación del tema:** 2014-05-01_
 
 <div>
 
-## <a name="qoe-summarytrend-reports"></a>Resumen/informes de tendencias de QoE
+## <a name="qoe-summarytrend-reports"></a>Informe de tendencias/Resumen de QoE
 
-Los informes de tendencias y de Resumen de la QoE son útiles para encontrar las horas de uso máxima del día y examinar la calidad de los medios para asegurarse de que los recursos de red de la organización son suficientes. Su organización también puede usar los muchos filtros disponibles en el informe para aislar los números de rendimiento para determinadas ubicaciones, tipos de dispositivos y clientes, y servidores.
+Los informes de Resumen/tendencias de QoE son útiles para encontrar los tiempos de uso máximo del día y para examinar la calidad de los medios en esas horas para asegurarse de que los recursos de red de la organización son suficientes. La organización también puede usar los numerosos filtros disponibles en el informe para aislar los números de rendimiento de determinadas ubicaciones, tipos de dispositivos y clientes, y servidores.
 
 Los informes de tendencias y de Resumen de QoE constan de:
 
-  - Resumen/Informe de tendencias de UC a UC
+  - Informe de tendencias/Resumen de UC a UC
 
   - Informe de tendencias o Resumen de RTC
 
-  - Resumen de la Conferencia/informe de tendencias
+  - Informe de tendencias/Resumen de conferencia
 
 </div>
 
@@ -57,7 +57,7 @@ Los informes de tendencias y de Resumen de QoE constan de:
 
 ## <a name="qoe-performance-reports"></a>Informes de rendimiento de QoE
 
-Los informes de rendimiento de QoE proporcionan detalles sobre los tres informes que se concentran en el rendimiento de QoE de los servidores de mediación, servidores de conferencia A/V y ubicaciones de puntos de conexión.
+Los informes de rendimiento de QoE proporcionan información detallada sobre los tres informes que se centran en el rendimiento de los servidores de mediación, los servidores de conferencia A/V y las ubicaciones de los extremos.
 
 </div>
 
@@ -65,9 +65,9 @@ Los informes de rendimiento de QoE proporcionan detalles sobre los tres informes
 
 ## <a name="mediation-server-performance-report"></a>Informe de rendimiento del servidor de mediación
 
-El informe de rendimiento del servidor de mediación enumera las métricas logradas por una o más mediación durante el período de tiempo especificado. Se informa por separado de las métricas de la pierna de las comunicaciones unificadas (UC) y la pierna del servidor a la puerta de enlace de cada llamada. Use este informe para comparar el volumen y el rendimiento de los diversos servidores de mediación de su organización.
+El informe de rendimiento del servidor de mediación enumera las métricas logradas por una o más mediación durante el período de tiempo especificado. Las métricas de la sección del servidor de comunicaciones unificadas (UC) y la sección del servidor de mediación a la puerta de enlace de cada llamada se notifican por separado. Use este informe para comparar el volumen y el rendimiento de los diversos servidores de mediación de su organización.
 
-Para cada servidor de mediación (y para cada una de las llamadas), el informe muestra lo siguiente:
+Por cada servidor de mediación (y por cada pierna de llamada), el informe muestra lo siguiente:
 
   - Número de llamadas
 
@@ -75,19 +75,19 @@ Para cada servidor de mediación (y para cada una de las llamadas), el informe m
 
   - Tiempo de ida y vuelta
 
-  - Vibración
+  - JIT
 
-  - Puntuación de la media de conversación (MOS)
+  - Puntuación de opinión media a la conversación (MOS)
 
   - Envío de MOS
 
-  - Escuchando MOS
+  - Escuchar MOS
 
   - MOS de red
 
   - Degradación de MOS de red
 
-  - Retorno de eco
+  - Devolución de eco
 
   - Nivel de señal
 
@@ -97,7 +97,7 @@ Para cada servidor de mediación (y para cada una de las llamadas), el informe m
 
 ## <a name="av-conferencing-server-performance-report"></a>Informe de rendimiento del servidor de conferencia A/V
 
-El informe de rendimiento del servidor de conferencia A/V proporciona listas de métricas realizadas por uno o varios servidores de conferencia A/V durante el período de tiempo especificado. Este informe se puede usar para comparar el volumen y el rendimiento de varios servidores de conferencia A/V de su organización. Su organización también puede aislar el informe para que muestre solo la experiencia de tipos de clientes específicos, como clientes de Lync o clientes RTC.
+El informe de rendimiento del servidor de conferencia A/V proporciona listas de métricas realizadas por uno o varios servidores de conferencia A/V durante el período de tiempo especificado. Este informe se puede usar para comparar el volumen y el rendimiento de los diversos servidores de conferencia A/V de la organización. La organización también puede aislar el informe para mostrar solo la experiencia de determinados tipos de clientes, como clientes de Lync o RTC.
 
 Para cada servidor de conferencia A/V, el informe muestra lo siguiente:
 
@@ -107,19 +107,19 @@ Para cada servidor de conferencia A/V, el informe muestra lo siguiente:
 
   - Tiempo de ida y vuelta
 
-  - Vibración
+  - JIT
 
-  - Puntuación de la media de conversación (MOS)
+  - Puntuación de opinión media a la conversación (MOS)
 
   - Envío de MOS
 
-  - Escuchando MOS
+  - Escuchar MOS
 
   - MOS de red
 
   - Degradación de MOS de red
 
-  - Retorno de eco
+  - Devolución de eco
 
   - Nivel de señal
 
@@ -127,13 +127,13 @@ Para cada servidor de conferencia A/V, el informe muestra lo siguiente:
 
 <div>
 
-## <a name="location-based-performance-report"></a>Informe de rendimiento basado en la ubicación
+## <a name="location-based-performance-report"></a>Informe de rendimiento basado en ubicación
 
-El informe de rendimiento basado en la ubicación proporciona una lista de ubicaciones de red y de cada ubicación muestra el número de llamadas en cada rango predeterminado de calidad. El objetivo de este informe es proporcionar una perspectiva de la calidad de los medios de la mayor parte de las llamadas telefónicas de la organización para las diversas ubicaciones, de modo que pueda identificar las ubicaciones con un bajo rendimiento y ver los diferentes grados de calidad de los medios de su organización ubicaciones diferentes.
+El informe de rendimiento basado en ubicación proporciona una lista de ubicaciones de red y para cada ubicación muestra el número de llamadas en cada rango de calidad predeterminado. El objetivo de este informe es proporcionar información sobre la calidad de los medios de la mayor parte de las llamadas telefónicas de la organización en varias ubicaciones, de modo que pueda identificar las ubicaciones con un rendimiento deficiente y ver los diferentes grados de calidad de los medios en la organización. distintas ubicaciones.
 
-Al mostrar el informe, aparecen tablas de métricas diferentes: una tabla por cada métrica en la que la organización decide informar. Puede elegir entre las siguientes métricas para este informe:
+Cuando se muestra el informe, aparecen diferentes tablas de métricas: una tabla para cada métrica a la que la organización decide informar. Puede elegir entre las siguientes métricas para este informe:
 
-  - Puntuación de la media de conversación (MOS)
+  - Puntuación de opinión media a la conversación (MOS)
 
   - MOS de red
 
@@ -141,11 +141,11 @@ Al mostrar el informe, aparecen tablas de métricas diferentes: una tabla por ca
 
   - Envío de MOS
 
-  - Escuchando MOS
+  - Escuchar MOS
 
   - Pérdida de paquetes
 
-  - Vibración
+  - JIT
 
   - Latencia
 

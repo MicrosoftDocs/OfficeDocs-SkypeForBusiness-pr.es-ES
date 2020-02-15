@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configuración de directivas de usuario para archivar en Lync Server'
+title: 'Lync Server 2013: configuración de directivas de usuario para archivado en Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183626
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa8f377c2a78275419c7d4906a51a9550864b8ba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4e6a04f976022ea4f3026c7be5caa3ce186efa77
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764536"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039623"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-user-policies-for-archiving-in-lync-server-2013"></a>Configurar directivas de usuario para archivar en Lync Server 2013
+# <a name="setting-up-user-policies-for-archiving-in-lync-server-2013"></a>Configuración de directivas de usuario para archivado en Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41764536"
 
 _**Última modificación del tema:** 2012-10-10_
 
-Habilitar o deshabilitar el archivado para usuarios específicos alojados en Lync Server 2013 requiere la creación y configuración de una o más directivas de usuario y, después, la aplicación de la directiva correspondiente a usuarios específicos o grupos de usuarios. Las directivas de usuario invalidan las directivas globales y de sitio, pero solo para usuarios alojados en Lync Server 2013.
+La habilitación o deshabilitación del archivado para usuarios específicos hospedados en Lync Server 2013 requiere la creación y configuración de una o varias directivas de usuario y, a continuación, la aplicación de la directiva correspondiente a usuarios o grupos de usuarios específicos. Las directivas de usuario invalidan las directivas globales y de sitio, pero solo para los usuarios hospedados en Lync Server 2013.
 
-Los usuarios siempre se encuentran alojados en Lync Server. Si la integración de Microsoft Exchange está habilitada, los usuarios cuyos buzones estén en Microsoft Exchange Server 2013 no necesitan tener las directivas de archivado en Lync Server administrado. Estos usuarios con archivado serán administrados por la conservación local de Exchange.
+Los usuarios siempre se hospedan en Lync Server. Si la integración de Microsoft Exchange está habilitada, los usuarios cuyos buzones estén en Microsoft Exchange Server 2013 no necesitan tener las directivas de archivado en Lync Server administradas. Estos usuarios con archivado se administrarán mediante la conservación local de Exchange.
 
-Para obtener detalles sobre cómo funcionan las directivas de archivado, incluida la jerarquía para las directivas globales, de sitio y de usuario, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, la documentación de implementación o la documentación de operaciones.
+Para obtener más información sobre cómo funcionan las directivas de archivado, incluida la jerarquía de las directivas globales, de sitio y de usuario, consulte [how archiving Works in Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación referente a la planeación, la documentación sobre la implementación o las operaciones.
 
 <div>
 
 
 > [!NOTE]  
-> Si habilitó la integración de Microsoft Exchange para su implementación, las directivas de retención local de Exchange controlan si el archivado está habilitado para los usuarios alojados en Exchange 2013. El archivado de estos usuarios requiere que sus buzones se coloquen en la retención local. Para obtener más información, consulte <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">configurar directivas para archivar en Lync Server 2013 al usar la integración de Exchange Server</A> en la documentación de implementación.<BR>Debe especificar todas las opciones apropiadas en las configuraciones de archivado antes de habilitar el archivado. Para obtener información detallada, vea <A href="lync-server-2013-configuring-archiving-options.md">configuración de las opciones de archivado en Lync Server 2013</A> en la documentación de implementación.
+> Si habilitó la integración de Microsoft Exchange para su implementación, las directivas de conservación local de Exchange controlan si el archivado está habilitado para los usuarios hospedados en Exchange 2013. El archivado para estos usuarios requiere que tengan sus buzones colocados en conservación local. Para obtener más información, consulte <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">configuración de directivas para archivar en Lync Server 2013 al usar la integración de Exchange Server</A> en la documentación sobre implementación.<BR>Antes de habilitar el archivado, debe especificar todas las opciones adecuadas en las configuraciones de archivado. Para obtener más información, consulte <A href="lync-server-2013-configuring-archiving-options.md">Configuring archiving Options in Lync Server 2013</A> en la documentación sobre implementación.
 
 
 
@@ -57,7 +57,7 @@ Para obtener detalles sobre cómo funcionan las directivas de archivado, incluid
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Crear y configurar directivas de usuario para archivar en Lync Server 2013](lync-server-2013-creating-and-configuring-user-policies-for-archiving-in-lync-server.md)
+  - [Creación y configuración de directivas de usuario para archivado en Lync Server 2013](lync-server-2013-creating-and-configuring-user-policies-for-archiving-in-lync-server.md)
 
   - [Aplicar una directiva de archivado de Lync Server a un usuario en Lync Server 2013](lync-server-2013-applying-a-lync-server-archiving-policy-to-a-user.md)
 

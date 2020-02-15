@@ -12,16 +12,16 @@ ms:contentKeyID: 49733725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de9fa28ca10e1b9971875980cc0f3c96b6359ccb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8fe983f12dd01c9cb46b27fdb5dffc3cd41c6671
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765681"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045302"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41765681"
 
 _**Última modificación del tema:** 2012-10-01_
 
-La vista MCU almacena información sobre los MCU que participaron en sesiones de conferencia. Esta vista se presentó en Microsoft Lync Server 2013.
+La vista de MCU almacena información sobre las MCU que han participado en sesiones de conferencia. Esta vista se introdujo en Microsoft Lync Server 2013.
 
 
 <table>
@@ -57,17 +57,17 @@ La vista MCU almacena información sobre los MCU que participaron en sesiones de
 <tr class="odd">
 <td><p><strong>McuId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Número único que identifica al MCU.</p></td>
+<td><p>Número único que identifica la MCU.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>McuUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI del MCU.</p></td>
+<td><p>URI de la MCU.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>McuUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Tipo de URI MCU. Para obtener más información, consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Tipo de URI de la MCU. Consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 </tbody>
 </table>

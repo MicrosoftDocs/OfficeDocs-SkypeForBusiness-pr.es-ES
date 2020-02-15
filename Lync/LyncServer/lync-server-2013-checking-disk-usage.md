@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: comprobar el uso del disco'
+title: 'Lync Server 2013: comprobación del uso de disco'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969578
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 554b493ba7ca837a8ea5c80f6751ddb91061c374
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8532b15ac45033d966c772e6ab23403d709ed790
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726700"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045682"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="checking-disk-usage-in-lync-server-2013"></a>Comprobar el uso del disco en Lync Server 2013
+# <a name="checking-disk-usage-in-lync-server-2013"></a>Comprobar el uso de disco en Lync Server 2013
 
 </div>
 
@@ -37,41 +37,41 @@ ms.locfileid: "41726700"
 
 _**Última modificación del tema:** 2014-04-30_
 
-Las unidades de discos duros son un componente importante de la implementación de Lync Server 2013. Sin suficiente volumen de disco libre, ni el sistema operativo ni las bases de datos de Lync Server 2013 pueden funcionar correctamente. Debe supervisar diariamente las estadísticas de la base de datos back-end de Lync Server 2013 para asegurarse de que los servidores no se queden sin espacio en el disco y para prepararse para agregar recursos de almacenamiento según sea necesario.
+Las unidades de disco duro son un componente importante de la implementación de Lync Server 2013. Sin un volumen de disco libre suficiente, ni el sistema operativo ni las bases de datos de Lync Server 2013 pueden funcionar correctamente. Debe supervisar diariamente las estadísticas de la base de datos back-end de Lync Server 2013 para garantizar que los servidores no se queden sin espacio en disco y para prepararse para agregar recursos de almacenamiento según sea necesario.
 
-Además de comprobar el espacio en los discos que hospedan el sistema operativo, los archivos de programa, la base de datos y los registros de transacciones (back-end de Lync Server 2013), también debe supervisar el uso del sistema de archivos que incluye espacio en el disco para los archivos compartidos que contienen lo siguiente importante datos
+Además de comprobar el espacio en discos que hospedan el sistema operativo, archivos de programa, bases de datos y registros de transacciones (back-end 2013 de Lync Server), también debe supervisar el uso del sistema de archivos que incluya espacio en disco para recursos compartidos de archivos que contengan lo siguiente importante datos
 
-  - Contenido de la reunión
+  - Contenido de reuniones
 
   - Metadatos de contenido de reunión
 
-  - Registros de cumplimiento de las reuniones
+  - Registros de cumplimiento de reuniones
 
-  - Archivos de datos de la aplicación (utilizado de forma interna por el componente de servidor de aplicaciones)
+  - Archivos de datos de aplicación (lo utiliza internamente el componente del servidor de aplicaciones)
 
-  - Servicio Web del servidor de chats grupales y carpetas de cumplimiento (para almacenar archivos cargados en el servicio Web de chat grupal)
+  - Servicio Web del servidor de chat en grupo y carpetas de cumplimiento (para almacenar los archivos cargados en el servicio Web de chat en grupo)
 
-  - Archivos XML de cumplimiento de chats grupales (que contienen registros de cumplimiento de chats grupales)
+  - Archivos XML de cumplimiento de chat en grupo (que contienen registros de cumplimiento de chat de grupo)
 
   - Archivos de actualización (para el servicio de actualización de dispositivos)
 
-  - Archivos de libreta de direcciones
+  - Archivos de la libreta de direcciones
 
-Lync Server 2013 necesita espacio en el disco duro para almacenar sus bases de datos y registros de transacciones, además de los archivos en los recursos compartidos de archivos mencionados anteriormente.
+Lync Server 2013 necesita espacio en el disco duro para almacenar sus bases de datos y registros de transacciones, además de los archivos en los recursos compartidos de archivos enumerados anteriormente.
 
-Debe supervisar el espacio en disco de forma regular para asegurarse de que la implementación de Lync Server 2013 no se ve afectada negativamente debido a que no hay suficientes recursos de almacenamiento.
+Debe supervisar el espacio en disco de forma regular para asegurarse de que la implementación de Lync Server 2013 no se ve afectada negativamente debido a recursos de almacenamiento insuficientes.
 
-Compare y mantenga información estadística sobre el espacio disponible en disco en cada volumen de Lync Server 2013 y el crecimiento esperado de las bases de datos y los archivos de registro de transacciones. Esto ayuda con la planificación de capacidad y la adición de almacenamiento cuando se necesitan los recursos de almacenamiento.
+Compare y mantenga la información estadística sobre el espacio disponible en disco en cada volumen de Lync Server 2013 y el crecimiento esperado de las bases de datos y los archivos de registro de transacciones. Esto le ayuda a planear la capacidad y a agregar almacenamiento cuando se necesitan los recursos de almacenamiento.
 
-Para dar cabida a situaciones de solución de problemas y recuperación de desastres, recomendamos que el espacio de volumen disponible sea igual o superior al 110 por ciento del tamaño de la base de datos.
+Para dar cabida a situaciones de solución de problemas y recuperación ante desastres, se recomienda que el espacio de volumen disponible sea igual o mayor que el 110 por ciento del tamaño de la base de datos.
 
-Para comprobar el espacio libre en el disco, use los métodos siguientes:
+Puede comprobar el espacio libre en disco con los métodos siguientes:
 
-1.  **System Center Operations Manager**   System Center Operations Manager se puede usar para avisar a los administradores cuando el espacio de volumen está restringido.
+1.  **System Center Operations Manager**   se puede usar System Center Operations Manager para avisar a los administradores cuando se restringe el espacio en el volumen.
 
-2.  **Ejecute**   un espacio de disco de monitor de script ejecutando una secuencia de comandos que le envíe un mensaje si el espacio disponible en el disco duro está por debajo del 20 por ciento. Puede encontrar una secuencia de comandos de ejemplo en Microsoft Script Center en TechNet, examinar:[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
+2.  **Ejecutar un**   espacio en disco de monitor de script mediante la ejecución de un script que le envía un mensaje si el espacio disponible en el disco duro cae por debajo del 20 por ciento. Puede encontrar un script de ejemplo en el centro de scripts de Microsoft en TechNet, examine:[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
 
-3.  **Explorador de Windows**   use el explorador de Windows para comprobar el espacio en disco de los volúmenes que almacenan los registros y las bases de datos de Lync Server 2013.
+3.  **El explorador**   de Windows usa el explorador de Windows para comprobar el espacio en disco en los volúmenes que almacenan las bases de datos y los registros de Lync Server 2013.
 
 </div>
 

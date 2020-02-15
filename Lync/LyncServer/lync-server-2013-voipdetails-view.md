@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: vista VoIPDetails'
+title: 'Lync Server 2013: vista de VoIPDetails'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db65da0af7c34d1121e97436af47750186706b68
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4222ad7251c17501b1d9edec8cbdd8bafc015773
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758552"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038532"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41758552"
 
 _**Última modificación del tema:** 2012-10-18_
 
-La vista VoIPDetails almacena información sobre sesiones de punto a punto, donde al menos un usuario es un usuario de VoIP. Esta vista se presentó en Microsoft Lync Server 2013.
+La vista VoIPDetails almacena información sobre las sesiones punto a punto, donde al menos un usuario es un usuario de VoIP. Esta vista se introdujo en Microsoft Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> La vista VoIPDetails contiene todas las columnas de la <A href="lync-server-2013-sessiondetails-view.md">vista SessionDetails de Lync Server 2013</A> , además de las columnas que figuran a continuación.
+> La vista VoIPDetails contiene todas las columnas de la <A href="lync-server-2013-sessiondetails-view.md">vista SessionDetails en Lync Server 2013</A> , además de las columnas que se enumeran a continuación.
 
 
 
@@ -70,48 +70,48 @@ La vista VoIPDetails almacena información sobre sesiones de punto a punto, dond
 <td><p>URI de teléfono del usuario que inició la sesión.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Teléfono</strong></p></td>
+<td><p><strong>El perfeccionamiento</strong></p></td>
 <td><p>nvarchar (450)</p></td>
 <td><p>URI de teléfono del usuario que se unió a la sesión.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DisconnectedByUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI del usuario que desconectó la sesión.</p></td>
+<td><p>URI del usuario que ha desconectado la sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DisconnectedByUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Tipo de URI del usuario que ha desconectado la sesión. Para obtener más información, consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Tipo de URI del usuario que ha desconectado la sesión. Consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DisconnectedByTenant</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Espacio empresarial del usuario que desconectó la sesión.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Inquilino del usuario que ha desconectado la sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DisconnectedByPhone</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI de teléfono del usuario que desconectó la sesión.</p></td>
+<td><p>URI de teléfono del usuario que ha desconectado la sesión.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromMediationServer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Servidor de mediación usado por el usuario que inició la sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToMediationServer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Servidor de mediación usado por el usuario que se unió a la sesión.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromGateway</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Puerta de enlace usada por el usuario que inició la sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToGateway</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Puerta de enlace usada por el usuario que se unió a la sesión.</p></td>
 </tr>
 </tbody>

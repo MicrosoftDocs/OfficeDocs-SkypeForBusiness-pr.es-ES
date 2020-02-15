@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: administración de la configuración de grupo de respuesta de nivel de aplicación'
+title: 'Lync Server 2013: administrar la configuración del grupo de respuesta de nivel de aplicación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733776
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffce659c2c4dc6c91ba4e4935b72c15e4cef4da5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a1dccc404350e10b61ea0917c0bd6b6d7e44b333
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733250"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045352"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-application-level-response-group-settings-in-lync-server-2013"></a>Administrar la configuración de grupo de respuesta de nivel de aplicación en Lync Server 2013
+# <a name="managing-application-level-response-group-settings-in-lync-server-2013"></a>Administración de la configuración del grupo de respuesta de nivel de aplicación en Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41733250"
 
 _**Última modificación del tema:** 2012-11-01_
 
-La configuración de nivel de aplicación para la aplicación de grupo de respuesta incluye la configuración predeterminada de música en espera, el archivo de audio de música activada predeterminada, el período de gracia de timbre de agente y la configuración de contexto de llamada. Solo puede definir un conjunto de opciones de configuración de la aplicación por grupo. Para ver la configuración de la aplicación, use el cmdlet **Get-CsRgsConfiguration**. Para modificar la configuración de la aplicación, use el cmdlet **Set-CsRgsConfiguration**.
+La configuración de nivel de aplicación para la aplicación de grupo de respuesta incluye la configuración predeterminada de la música en espera, el archivo de audio de música en espera predeterminado, el período de gracia de timbre del agente y la configuración del contexto de llamada. Solo puede definir un conjunto de opciones de configuración de nivel de aplicación por grupo. Para ver la configuración de nivel de aplicación, use el cmdlet **Get-CsRgsConfiguration**. Para modificar la configuración de nivel de aplicación, use el cmdlet **Set-CsRgsConfiguration**.
 
 La música en espera predeterminada se reproduce cuando se pone una llamada en espera solo si no se definió ninguna música en espera personalizada. El contexto de llamada está disponible solo para las colas asignadas a flujos de trabajo interactivos. Si se habilitó el contexto de llamada, un agente puede ver información como tiempo de espera del autor de la llamada, o preguntas y respuestas del flujo de trabajo, cuando se recibe la llamada.
 
 <div>
 
-## <a name="to-modify-response-group-application-level-settings"></a>Para modificar la configuración del nivel de aplicación de un grupo de respuesta
+## <a name="to-modify-response-group-application-level-settings"></a>Para modificar la configuración de nivel de aplicación de grupo de respuesta
 
-1.  Inicie sesión como miembro del grupo RTCUniversalServerAdmins o como miembro de uno de los roles administrativos predefinidos que admiten el Grupo de respuesta.
+1.  Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
 3.  En la línea de comandos, ejecute:
     
@@ -71,7 +71,7 @@ La música en espera predeterminada se reproduce cuando se pone una llamada en e
 
 [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration)  
 [Set-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsRgsConfiguration)  
-[Importar-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
   
 
 </div>

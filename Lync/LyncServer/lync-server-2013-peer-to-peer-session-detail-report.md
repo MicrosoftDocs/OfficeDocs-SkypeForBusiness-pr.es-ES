@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: informe detallado de la sesión de punto a punto'
+title: 'Lync Server 2013: informe de detalles de sesiones punto a punto'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184416
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bff140db52a98e0b442ca65bbbb8b148282c5755
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c977b2f9f9a6248ab7ba5d5391397d4cd4326a18
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755300"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050892"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-session-detail-report-in-lync-server-2013"></a>Informe detallado de sesión de punto a punto en Lync Server 2013
+# <a name="peer-to-peer-session-detail-report-in-lync-server-2013"></a>Informe de detalles de sesiones punto a punto en Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41755300"
 
 _**Última modificación del tema:** 2012-06-06_
 
-El informe de detalles de sesiones punto a punto devuelve información detallada sobre una sesión punto a punto. Por ejemplo, si selecciona una sesión de mensajería instantánea, el informe reflejará la cantidad de mensajes enviados por cada usuario durante la sesión.
+El informe de detalles de sesiones punto a punto devuelve información detallada sobre una sesión punto a punto. Por ejemplo, si selecciona una sesión de mensajería instantánea, el informe reflejará el número de mensajes enviado por cada usuario durante la sesión.
 
 <div>
 
 ## <a name="accessing-the-peer-to-peer-session-detail-report"></a>Acceso al informe de detalles de sesiones punto a punto
 
-Se puede obtener acceso al informe de detalles de sesiones punto a punto desde cualquiera de los siguientes informes (todos se encuentran en la página principal de informes de supervisión):
+Se puede acceder al informe de detalles de sesiones punto a punto desde cualquiera de los siguientes informes (todos se encuentran en la página principal de informes de supervisión):
 
   - Informe de inventario de teléfono IP
 
@@ -53,7 +53,7 @@ Se puede obtener acceso al informe de detalles de sesiones punto a punto desde c
 
   - Informe de lista de errores
 
-En el informe detallado de sesión de punto a punto, puede obtener acceso al [Informe de diagnóstico en Lync Server 2013](lync-server-2013-diagnostic-report.md) haciendo clic en la métrica de informe de diagnóstico (detalles). También se puede obtener acceso al informe de errores principales haciendo clic en cualquiera de estas dos métricas:
+Desde dentro del informe de detalles de sesiones punto a punto, puede tener acceso al [Informe de diagnósticos en Lync Server 2013](lync-server-2013-diagnostic-report.md) haciendo clic en la métrica informe de diagnósticos (detalles). También se puede acceder al informe de errores principales haciendo clic en cualquiera de estas dos métricas:
 
   - Respuesta
 
@@ -65,7 +65,7 @@ En el informe detallado de sesión de punto a punto, puede obtener acceso al [In
 
 ## <a name="making-the-best-use-of-the-peer-to-peer-session-detail-report"></a>Usar el informe de detalles de sesiones punto a punto de la mejor forma posible
 
-El informe de detalles de sesiones punto a punto condensa un gran número de métricas, de las cuales probablemente muchas no sean muy conocidas para los administradores de sistema. Pero, muchas veces se puede obtener acceso a información sobre herramientas en la que se ofrece una breve descripción de la métrica; para ello, basta con mantener el mouse encima de la etiqueta de la métrica.
+El informe de detalles de sesiones punto a punto condensa un gran número de métricas, de las cuales probablemente muchas no sean muy conocidas para los administradores de sistema. No obstante, muchas veces se puede acceder a información sobre herramientas en la que se ofrece una breve descripción de la métrica; para ello, basta con mantener el mouse encima de la etiqueta de la métrica.
 
 Recuerde que las métricas reales que aparecen reflejadas en un informe determinado dependerán del tipo de sesión punto a punto seleccionado. Así, las métricas de una sesión de audio/vídeo serán distintas de las de una sesión de mensajería instantánea.
 
@@ -119,7 +119,7 @@ En la siguiente tabla se recoge la información que el informe de detalles de se
 </tr>
 <tr class="odd">
 <td><p><strong>Agente de remitente</strong></p></td>
-<td><p>Software usado por el extremo del usuario que inició la sesión.</p></td>
+<td><p>Software que utiliza el extremo del usuario que inició la sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>¿Es el remitente interno?</strong></p></td>
@@ -196,7 +196,7 @@ En la siguiente tabla se recoge la información que el informe de detalles de se
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
@@ -209,12 +209,12 @@ En la siguiente tabla se recoge la información que el informe de detalles de se
 <tr class="even">
 <td><p><strong>Mensajes del remitente</strong></p></td>
 <td><p>No</p></td>
-<td><p>Cantidad de mensajes que envió el usuario que inició la sesión.</p></td>
+<td><p>Número de mensajes que envió el usuario que inició la sesión.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Mensajes del destinatario</strong></p></td>
 <td><p>No</p></td>
-<td><p>Cantidad de mensajes que envió el usuario invitado a unirse a la sesión.</p></td>
+<td><p>Número de mensajes que envió el usuario invitado a unirse a la sesión.</p></td>
 </tr>
 </tbody>
 </table>
@@ -239,7 +239,7 @@ En la siguiente tabla se recoge la información que el informe de detalles de se
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
@@ -262,7 +262,7 @@ En la siguiente tabla se recoge la información que el informe de detalles de se
 <tr class="even">
 <td><p><strong>Id. de diagnóstico</strong></p></td>
 <td><p>No</p></td>
-<td><p>Identificador único (con formato de encabezado de ms-diagnostics) adjunto a un mensaje SIP que a menudo aporta información útil para solucionar errores.</p></td>
+<td><p>Identificador único (en forma de encabezado de tipo ms-diagnostics) que se adjunta a un mensaje SIP y que suele ofrecer información de utilidad para resolver errores.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Tipo de contenido</strong></p></td>

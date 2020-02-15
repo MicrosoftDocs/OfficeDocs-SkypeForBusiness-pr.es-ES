@@ -12,16 +12,16 @@ ms:contentKeyID: 49733552
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 502193873b4dd80ae7d8698a98ecaad2df8a5b52
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 869ee1cf5e37225e662cd8a2f9f4656dce169697
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727780"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045572"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41727780"
 
 _**Última modificación del tema:** 2012-11-01_
 
-Use los procedimientos de esta sección para ver una lista de aplicaciones de confianza o para ver información sobre una aplicación de confianza en Lync Server 2013. Puede realizar estos procedimientos en el panel de control de Lync Server 2013 o en el shell de administración de Lync Server.
+Use los procedimientos de esta sección para ver una lista de aplicaciones de confianza o ver información acerca de una aplicación de confianza en Lync Server 2013. Puede realizar estos procedimientos en el panel de control de Lync Server 2013 o en el shell de administración de Lync Server.
 
 <div>
 
@@ -45,7 +45,7 @@ Use los procedimientos de esta sección para ver una lista de aplicaciones de co
 
   - [Ver una lista de aplicaciones de confianza en Lync Server 2013](lync-server-2013-view-a-list-of-trusted-applications.md)
 
-  - [Ver la información de la aplicación de confianza en Lync Server 2013](lync-server-2013-view-trusted-application-information.md)
+  - [Ver información de aplicaciones de confianza en Lync Server 2013](lync-server-2013-view-trusted-application-information.md)
 
 </div>
 

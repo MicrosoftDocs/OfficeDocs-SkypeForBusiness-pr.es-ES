@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: cmdlets de omisión de multimedia'
+title: 'Lync Server 2013: cmdlets de omisión de medios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185334
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84906a5d68893e89c3ad48d739754f89bf38cbf3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8f694b2c6065e4800dadf2fb5389429748ab4078
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41761966"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045192"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-bypass-cmdlets-in-lync-server-2013"></a>Cmdlets de omisión de multimedia en Lync Server 2013
+# <a name="media-bypass-cmdlets-in-lync-server-2013"></a>Cmdlets de desvío de medios en Lync Server 2013
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41761966"
 
 _**Última modificación del tema:** 2012-03-21_
 
-La omisión de elementos multimedia hace referencia a quitar el servidor de mediación de la ruta multimedia siempre que sea posible para las llamadas cuya señalización atraviese el servidor de mediación.
+El desvío de medios consiste en quitar el servidor de mediación de la ruta de acceso a medios siempre que sea posible, en las llamadas cuya señalización atraviese el servidor de mediación.
 
 <div>
 
-## <a name="media-bypass-cmdlets"></a>Cmdlets de omisión de multimedia
+## <a name="media-bypass-cmdlets"></a>Cmdlets de desvío de medios
 
-Use los siguientes cmdlets para configurar la omisión de medios.
+Use los cmdlets siguientes para la configurar el desvío de medios.
 
 **Desvío de medios**
 
   - <span></span>  
-    [New-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/en-us/library/Gg425718(v=OCS.15))
+    [New-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/library/Gg425718(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkConfiguration](https://technet.microsoft.com/en-us/library/Gg398140(v=OCS.15))
+    [Get-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsNetworkConfiguration](https://technet.microsoft.com/en-us/library/Gg398938(v=OCS.15))
+    [Remove-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398938(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkConfiguration](https://technet.microsoft.com/en-us/library/Gg398927(v=OCS.15))
+    [Set-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))
 
 </div>
 
@@ -68,7 +68,7 @@ Use los siguientes cmdlets para configurar la omisión de medios.
 ## <a name="see-also"></a>Vea también
 
 
-[Planificar la omisión de medios en Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
+[Planeación de la omisión de medios en Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
 [Blog de Lync Server PowerShell](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 

@@ -1,5 +1,5 @@
 ---
-title: Implementación de una aplicación o un servidor de sucursal con funciones de supervivencia - Tareas de sitio central
+title: Implementación de una aplicación de sucursal con funciones de supervivencia o tareas de sitio central de servidor
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9aa6d38ec873652feae6ef6a374ee5b771520b1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4756da7db87504e8b8c700cea1abb171b594543e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729630"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047554"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>Implementación de una aplicación o un servidor de sucursal con funciones de supervivencia - Tareas de sitio central con Lync Server 2013
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>Implementación de una aplicación o servidor de sucursal con funciones de supervivencia con las tareas de sitio central de Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41729630"
 
 _**Última modificación del tema:** 2012-10-18_
 
-Complete las tareas de esta sección en el sitio central. Si va a implementar un servidor de sucursal con la supervivencia, omita la primera tarea.
+Complete las tareas de esta sección en el sitio central. Si está implementando un servidor de sucursal con funciones de supervivencia, omita la primera tarea.
 
 <div>
 
 
 > [!IMPORTANT]
-> Antes de realizar las tareas de esta sección, deben cumplirse las condiciones siguientes: 
+> Antes de realizar las tareas de esta sección, deberán cumplirse las siguientes condiciones: 
 > <UL>
 > <LI>
-> <P>Lync Server debe estar configurado en el sitio central.</P>
+> <P>Lync Server debe configurarse en el sitio central.</P>
 > <LI>
-> <P>Un técnico de instalación del sitio de la sucursal debe agregarse al grupo RTCUniversalSBATechnicians.</P></LI></UL>Además, le recomendamos que haga lo siguiente:
+> <P>Debe agregarse un técnico de instalación de la sucursal al grupo RTCUniversalSBATechnicians.</P></LI></UL>Además, se recomienda que haga lo siguiente:
 > <UL>
 > <LI>
-> <P>Implemente un servidor DHCP en cada sitio de sucursal para que los clientes puedan obtener direcciones IP.</P>
+> <P>Implementar un servidor DHCP en cada una de las sucursales para permitir que los clientes obtengan direcciones IP.</P>
 > <LI>
-> <P>Como alternativa a la implementación de un servidor DHCP en cada sitio de sucursal, habilite el servicio DHCP de Lync Server en la sucursal o el servidor de sucursal superviviente con el cmdlet del shell <STRONG>de administración de Lync Server CsRegistrarConfiguration-EnableDHCPServer $true</STRONG>. Para obtener más información, consulte la sección "requisitos de hardware y software" de <A href="lync-server-2013-branch-site-resiliency-requirements.md">requisitos de resistencia de sitios de sucursales para Lync Server 2013</A> en la documentación de planeación.</P></LI></UL>
+> <P>Como alternativa a la implementación de un servidor DHCP en cada sitio de sucursal, habilite el DHCP de Lync Server en la aplicación de sucursal con funciones de supervivencia o con el servidor de sucursal con funciones de supervivencia mediante el cmdlet <STRONG>set-CsRegistrarConfiguration – EnableDHCPServer $true de</STRONG>Lync Server Management Shell. Para obtener más información, consulte la sección "requisitos de hardware y software" de <A href="lync-server-2013-branch-site-resiliency-requirements.md">requisitos de resistencia de sitios de sucursal para Lync Server 2013</A> en la documentación referente a la planeación.</P></LI></UL>
 
 
 
@@ -67,7 +67,7 @@ Complete las tareas de esta sección en el sitio central. Si va a implementar un
 
   - [Agregar sitios de sucursal a la topología en Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)
 
-  - [Definir un servidor o aplicación de sucursal con funciones de supervivencia en Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
+  - [Definir una aplicación o un servidor de sucursal con funciones de supervivencia en Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
 
 </div>
 

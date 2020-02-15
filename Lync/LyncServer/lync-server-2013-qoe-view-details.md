@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: detalles de la vista de QoE'
+title: 'Lync Server 2013: detalles de la vista QoE'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733677
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d47fb90b7ffb9eb0cb7fcd1631a0f00ca249276a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c5195067fcd02db0be6dd1838af44f5ed51ddb6a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724610"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045772"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="qoe-view-details-in-lync-server-2013"></a>Información general de la vista de calidad en Lync Server 2013
+# <a name="qoe-view-details-in-lync-server-2013"></a>Detalles de la vista QoE en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41724610"
 
 _**Última modificación del tema:** 2012-10-03_
 
-Las vistas cubren los escenarios más comunes para devolver datos desde la base de datos SQL de calidad. Se recomienda usar vistas para crear informes personalizados en lugar de obtener acceso directamente a las tablas de la base de datos; Esto se debe a que las vistas tienen más probabilidades de mantener la compatibilidad con versiones futuras.
+Las vistas abarcan la mayoría de los escenarios en los que se recuperan datos de la base de datos de SQL de calidad de la experiencia. Se recomienda usar vistas para crear informes personalizados en lugar de acceder directamente a las tablas de la base de datos, ya que, en futuras versiones de producto, es más probable que las vistas conserven la compatibilidad con versiones anteriores.
 
 
 <table>
@@ -54,27 +54,27 @@ Las vistas cubren los escenarios más comunes para devolver datos desde la base 
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-audiostreamdetail-view.md">Vista AudioStreamDetail en Lync Server 2013</a></p></td>
-<td><p>Almacena información sobre cada secuencia de audio de la base de datos.</p></td>
+<td><p>Almacena información sobre cada transmisión de audio en la base de datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-medialine-view.md">Vista MediaLine en Lync Server 2013</a></p></td>
-<td><p>Almacena información sobre cada línea de medios de la base de datos. Una sesión de audio normalmente contiene una línea multimedia de audio. Una sesión de audio y vídeo (A/V) normalmente contiene una línea de medio de audio y una línea de medio de vídeo; sin embargo, la sesión podría contener dos líneas multimedia de vídeo si se usa un dispositivo de conferencia o si se usa la vista de galería.</p></td>
+<td><p>Almacena información sobre cada línea de medios de la base de datos. Una sesión de audio normalmente contiene una línea de medios de audio. Una sesión de audio y vídeo (A/V) suele contener una línea de medios de audio y una línea de medios de vídeo, aunque la sesión podría contener dos líneas de medios de vídeo si se usa un dispositivo de conferencias o si se usa la vista de galería.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-networkconfigurationsettings-view.md">Vista NetworkConfigurationSettings en Lync Server 2013</a></p></td>
 <td><p>Almacena información sobre la configuración de red.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-session-view.md">Vista de sesión de Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-session-view.md">Vista de sesión en Lync Server 2013</a></p></td>
 <td><p>Almacena información sobre las sesiones que tienen registros en la base de datos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-useragent-view.md">Vista UserAgent en Lync Server 2013</a></p></td>
-<td><p>Almacena información sobre los agentes de usuario implicados en las sesiones que tienen registros en la base de datos.</p></td>
+<td><p>Almacena información sobre los agentes de usuario que han participado en las sesiones que tienen registros en la base de datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-videostreamdetail-view.md">Vista VideoStreamDetail en Lync Server 2013</a></p></td>
-<td><p>Almacena información sobre cada secuencia de vídeo de la base de datos.</p></td>
+<td><p>Almacena información sobre cada transmisión de vídeo en la base de datos.</p></td>
 </tr>
 </tbody>
 </table>

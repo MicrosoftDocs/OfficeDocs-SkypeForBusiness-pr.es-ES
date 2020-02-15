@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Habilitar la directiva de servidor de chat persistente'
+title: 'Lync Server 2013: habilitar la Directiva del servidor de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184718
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27d87277c813c24ae36de14430bc711d991d7181
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f1f98275ee911d1abecbc60907653ad8de0a4222
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735990"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046703"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-persistent-chat-server-policy-in-lync-server-2013"></a>Habilitar la directiva de servidor de chat persistente en Lync Server 2013
+# <a name="enable-persistent-chat-server-policy-in-lync-server-2013"></a>Habilitar la Directiva de servidor de chat persistente en Lync Server 2013
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41735990"
 
 _**Última modificación del tema:** 2012-10-06_
 
-En el panel de control de Lync Server 2013, puede usar la página de la **Directiva de chat** persistente del grupo **chat persistente** para administrar directivas a nivel global, de grupo, de sitio o de usuario, incluida la configuración de la directiva global predeterminada y la creación de una o más directivas de usuario y de sitio adicionales para su implementación. Si un usuario está habilitado para el servidor de chat persistente por directiva, el entorno del servidor de chat persistente aparece en el cliente de Lync 2013.
+En el panel de control de Lync Server 2013, puede usar la página **Directiva de chat persistente** del grupo **chat persistente** para administrar directivas a nivel global, de grupo, de sitio o de usuario, incluida la configuración de la directiva global predeterminada y la creación de una o varias directivas de usuario y de sitio adicionales para la implementación. Si un usuario está habilitado para el servidor de chat persistente por directiva, el entorno del servidor de chat persistente aparece en el cliente de Lync 2013.
 
 <div>
 
 
 > [!NOTE]  
-> En la topología, se aplican globalmente las directivas del sitio servidor de chat persistentes, por grupo de usuarios o por sitio o por usuario.
+> En la topología, las directivas de sitio del servidor de chat persistente se aplican de forma global, por grupo de usuarios o por sitio de usuario o por usuario.
 
 
 
 </div>
 
-La directiva global se crea automáticamente al implementar un servidor de chat persistente, y puede configurarse, pero no eliminarse. Debido a que la política global se aplica a todos los usuarios, no hay que configurarla para cada usuario.
+La directiva global se crea automáticamente al implementar el servidor de chat persistente y se puede configurar, pero no eliminar. Debido a que la política global se aplica a todos los usuarios, no debe configurarse para cada usuario.
 
-Puede crear y configurar varias directivas de sitio y de usuario que, junto con la directiva global, permitan a los usuarios usar el servidor de chat persistente. Las directivas del servidor de chat persistente del sitio y del grupo invalidan la Directiva del servidor de chat persistente global, pero solo para los usuarios de ese sitio. Las directivas de usuario reemplazan a las directivas globales, de grupo y de sitio para los usuarios que tengan asignada esa directiva de usuario.
+Puede crear y configurar varias directivas de sitio y de usuario que, junto con la directiva global, habilitan a los usuarios para el servidor de chat persistente. Las directivas del servidor de chat persistente del sitio y del grupo invalidan la Directiva del servidor de chat persistente global, pero solo para los usuarios de ese sitio. Las directivas de usuario anulan las directivas globales, de grupo y de sitio para los usuarios a los que se asigna la directiva de usuario.
 
 <div>
 
 
 > [!NOTE]  
-> Para configurar y usar el servidor de chat persistente, primero debe usar topología Builder para agregar la compatibilidad con el servidor de chat persistente a la topología y, a continuación, publicar la topología. Para obtener más información, vea <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Agregar un servidor de chat persistente a su implementación en Lync Server 2013</A> en la documentación de implementación.
+> Para configurar y usar el servidor de chat persistente, primero debe usar el generador de topologías para agregar compatibilidad con el servidor de chat persistente a la topología y, a continuación, publicar la topología. Para obtener más información, consulte <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Agregar un servidor de chat persistente a la implementación en Lync Server 2013</A> en la documentación sobre implementación.
 
 
 
@@ -67,13 +67,13 @@ Puede crear y configurar varias directivas de sitio y de usuario que, junto con 
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Configurar la directiva global para chat persistente en Lync Server 2013](lync-server-2013-configure-the-global-policy-for-persistent-chat.md)
+  - [Configure la directiva global para chat persistente en Lync Server 2013](lync-server-2013-configure-the-global-policy-for-persistent-chat.md)
 
   - [Crear una directiva de sitio para chat persistente en Lync Server 2013](lync-server-2013-create-a-site-policy-for-persistent-chat.md)
 
   - [Crear una directiva de usuario para chat persistente en Lync Server 2013](lync-server-2013-create-a-user-policy-for-persistent-chat.md)
 
-  - [Aplicar una directiva de chat persistente a un usuario o grupo de usuarios en Lync Server 2013](lync-server-2013-apply-a-persistent-chat-policy-to-a-user-or-user-group.md)
+  - [Aplicar una directiva de chat persistente a un usuario o a un grupo de usuarios en Lync Server 2013](lync-server-2013-apply-a-persistent-chat-policy-to-a-user-or-user-group.md)
 
 </div>
 

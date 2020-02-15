@@ -1,5 +1,5 @@
 ---
-title: Preparar la instalación de los servidores en la red del perímetro
+title: Preparación de la instalación de los servidores en la red perimetral
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a28fc1e77a98e2a6123537ec5c062dca5d0c6ffb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c7168c1e32bd4ceb1466678d08a3d7ca9e6dc69e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724940"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045502"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-for-installation-of-servers-in-the-perimeter-network-for-lync-server-2013"></a>Preparar la instalación de los servidores en la red del perímetro para Lync Server 2013
+# <a name="preparing-for-installation-of-servers-in-the-perimeter-network-for-lync-server-2013"></a>Preparación de la instalación de los servidores en la red perimetral para Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41724940"
 
 _**Última modificación del tema:** 2012-09-08_
 
-Antes de configurar los componentes del servidor perimetral, debe asegurarse de que los equipos que está configurando cumplan los requisitos del sistema y completar otros pasos previos necesarios para la implementación de los componentes del servidor EDGE.
+Antes de instalar componentes del servidor perimetral, tiene que asegurarse de que los equipos que está configurando cumplen los requisitos del sistema y cumplir otros requisitos previos necesarios para la implementación de componentes del servidor perimetral.
 
-Antes de empezar, revise los detalles de los temas siguientes en la documentación de planeación de la arquitectura de referencia que desea implementar:
+Antes de comenzar, revise los detalles de los temas que se indican a continuación en la documentación de planeación para la arquitectura de referencia que desee implementar:
 
-  - [Servidor perimetral consolidado simple con direcciones IP privadas y NAT en Lync Server 2013](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
+  - [Servidor perimetral consolidado único con direcciones IP privadas y NAT en Lync Server 2013](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
 
-  - [Topología perimetral consolidada de un solo equipo con direcciones IP públicas en Lync Server 2013](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
+  - [Servidor perimetral consolidado único con direcciones IP públicas en Lync Server 2013](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
 
   - [Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [Perímetro consolidado escalado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [Servidor perimetral consolidado escalado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
   - [Servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
@@ -59,9 +59,9 @@ Antes de empezar, revise los detalles de los temas siguientes en la documentaci�
 
   - [Configurar equilibradores de carga de hardware para topologías perimetrales escaladas en Lync Server 2013](lync-server-2013-set-up-hardware-load-balancers-for-scaled-edge-topologies.md)
 
-  - [Configurar los firewall y puertos para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-configure-firewalls-and-ports-for-external-user-access.md)
+  - [Configurar firewalls y puertos para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-configure-firewalls-and-ports-for-external-user-access.md)
 
-  - [Determinar los requisitos de los puertos y el firewall de A/V externos en Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
+  - [Determinación de los requisitos de los puertos y el Firewall de A/V externos para Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
 
   - [Solicitar certificados para componentes perimetrales en Lync Server 2013](lync-server-2013-request-certificates-for-edge-components.md)
 

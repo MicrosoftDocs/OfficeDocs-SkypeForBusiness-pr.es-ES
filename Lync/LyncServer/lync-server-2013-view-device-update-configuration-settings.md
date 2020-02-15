@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Ver las opciones de configuración de la actualización de dispositivos'
+title: 'Lync Server 2013: ver las opciones de configuración de actualización de dispositivos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01edeb2d40fae7b82ac35fb5561a1332f67c9e11
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7cf34d5f8241735263547fe64dc0f3e3b124bb10
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731100"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051062"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>Ver las opciones de configuración de la actualización de dispositivos en Lync Server 2013
+# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>Ver las opciones de configuración de actualización de dispositivos en Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41731100"
 
 _**Última modificación del tema:** 2013-02-20_
 
-Puede ver las opciones de configuración del servicio de actualización de dispositivos mediante el shell de administración de Lync Server y el cmdlet **Get-CsDeviceUpdateConfiguration** , que puede ejecutar desde el shell de administración de lync Server 2013 o desde una sesión remota de Windows PowerShell
+Puede ver las opciones de configuración del servicio de actualización de dispositivos mediante el shell de administración de Lync Server y el cmdlet **Get-CsDeviceUpdateConfiguration** , que puede ejecutar desde el shell de administración de lync Server 2013 o desde una sesión remota de Windows PowerShell.
 
 <div>
 
 
 > [!NOTE]  
-> Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 mediante PowerShell remoto" en.
+> Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 mediante PowerShell remoto" en.
 
 
 
@@ -59,7 +59,7 @@ Puede ver las opciones de configuración del servicio de actualización de dispo
     
         Get-CsDeviceUpdateConfiguration
     
-    Este comando devolverá información similar a la siguiente:
+    Este comando devuelve información similar a la siguiente:
     
         Identity               : Global
         ValidLogFileTypes      : {Watson, Config, Diaglog, CELog}
@@ -72,7 +72,7 @@ Puede ver las opciones de configuración del servicio de actualización de dispo
 
 </div>
 
-Para obtener más información sobre este cmdlet, consulte el tema de ayuda en [obtener-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration).
+Para obtener más información sobre este cmdlet, vea el tema de ayuda en [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration).
 
 </div>
 

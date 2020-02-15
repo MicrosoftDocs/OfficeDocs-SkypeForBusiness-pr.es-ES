@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Compatibilidad con hardware de dispositivos'
+title: Soporte de hardware para dispositivos de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea720eda982ab20333e56de268085a706ab2cdc7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e0b4b0f24523044169ae3274ae4d0ff16ae9ff67
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762438"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044992"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="device-hardware-support-in-lync-server-2013"></a>Compatibilidad con hardware de dispositivos en Lync Server 2013
+# <a name="device-hardware-support-in-lync-server-2013"></a>Compatibilidad de hardware de dispositivos en Lync Server 2013
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41762438"
 
 _**Última modificación del tema:** 2012-12-14_
 
-Las configuraciones de hardware específicas deben estar vigentes antes de implementar los teléfonos IP y los dispositivos analógicos.
+Las configuraciones de hardware específicas deben estar en su ubicación antes de implementar los teléfonos IP y los dispositivos analógicos.
 
-Teléfonos IP que ejecutan Lync Phone Edition compatibilidad con el protocolo de descubrimiento de nivel de vínculo: detección de puntos de conexión de medios (LLDP-MED) y alimentación a través de Ethernet (PoE).Para aprovechar LLDP-MED, el switch debe ser compatible con IEEE 802.1 AB y ANSI/and-1057. Para aprovechar las ventajas de PoE, el conmutador debe ser compatible con PoE 802.3 AF o 802.3 en.
+Los teléfonos IP que ejecutan Lync Phone Edition admiten el protocolo de detección de niveles de vínculos: detección de extremos de medios (LLDP-MED) y Power over Ethernet (PoE).Para usar el protocolo LLDP-MED, el conmutador debe admitir IEEE802.1AB y ANSI/TIA-1057. Para usar PoE, el conmutador debe admitir PoE802.3AF o 802.3at.
 
-Para habilitar LLDP-MED, el administrador debe habilitar LLDP mediante la ventana cambiar consola y configurar la Directiva de red LLDP-MED con la identificación de voz VLAN correcta.
+Para habilitar LLDP-MED, el administrador debe habilitar LLDP mediante la ventana de la consola del conmutador y establecer la directiva de red LLDP-MED con el Id. de VLAN de voz correcto.
 
-Además, si su implementación incluye dispositivos analógicos, debe configurar la puerta de enlace analógica para usar Lync Server, y la puerta de enlace debe ser una de las siguientes:
+Además, si la implementación incluye dispositivos analógicos, debe configurar la puerta de enlace analógica para que use Lync Server, y la puerta de enlace debe ser una de las siguientes:
 
   - Un adaptador de teléfono analógico (ATA)
 
-  - Una puerta de enlace analógica RTC
+  - Una puerta de enlace analógica de RTC
 
-  - Un dispositivo de sucursal con la que se incluye una puerta de enlace analógica RTC
+  - Una aplicación de sucursal con funciones de supervivencia que incluya una puerta de enlace analógica de RTC
 
-  - Un dispositivo de sucursal con la que se incluye una puerta de enlace RTC que se comunica con un ATA
+  - Una aplicación de sucursal con funciones de supervivencia que incluya una puerta de enlace RTC que se comunique con un ATA
 
-Para obtener información sobre cómo configurar una puerta de enlace analógica, consulte "planear la implementación de [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537) dispositivos analógicos" en la biblioteca de TechNet de 2010 de Lync Server. (Los dispositivos analógicos funcionan de la misma manera en Lync Server 2013 que en Lync Server 2010).
+Para obtener información sobre cómo configurar una puerta [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537) de enlace analógica, vea "planeación para implementar dispositivos analógicos" en la biblioteca de TechNet de 2010 de Lync Server. (Los dispositivos analógicos funcionan del mismo modo en Lync Server 2013 que en Lync Server 2010).
 
 <div>
 
 
 > [!IMPORTANT]  
-> Puede configurar el modificador para una 9-1-1 mejorada (E9-1-1), si el modificador lo admite.
+> Puede configurar el conmutador para Enhanced 9-1-1 (E9-1-1), si el conmutador lo admite.
 
 
 

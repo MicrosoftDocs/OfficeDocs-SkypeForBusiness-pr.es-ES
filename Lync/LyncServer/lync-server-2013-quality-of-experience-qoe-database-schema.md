@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Esquema de la base de datos de calidad de la experiencia (QoE)'
+title: 'Lync Server 2013: esquema de la base de datos de calidad de la experiencia (QoE)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cdff416379d26391ca817f242104a433612a011
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7ba219bcf473287879f8c198938506749262b726
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746980"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045762"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -47,7 +47,7 @@ En este documento se documenta el esquema de la base de datos de calidad de la e
 
   - [Detalles de la tabla QoE en Lync Server 2013](lync-server-2013-qoe-table-details.md)
 
-  - [Información general de la vista de calidad en Lync Server 2013](lync-server-2013-qoe-view-details.md)
+  - [Detalles de la vista QoE en Lync Server 2013](lync-server-2013-qoe-view-details.md)
 
   - [Consultas de base de datos de QoE de ejemplo en Lync Server 2013](lync-server-2013-sample-qoe-database-queries.md)
 

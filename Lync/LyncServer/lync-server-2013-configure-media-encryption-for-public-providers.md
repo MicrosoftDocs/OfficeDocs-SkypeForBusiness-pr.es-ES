@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar el cifrado de medios para proveedores públicos'
+title: 'Lync Server 2013: configurar el cifrado de medios para proveedores públicos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185036
 ms.date: 12/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d4ab36d19726a6092f978a2ac2a119b248cd0f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8f1775a845c10797d145c7ee1ad5def3af729f4f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758398"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038252"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41758398"
 
 _**Última modificación del tema:** 2014-12-12_
 
-Si está implementando la Federación de audio y vídeo (A/V) con Windows Live Messenger, hay dos parámetros que debe modificar: el nivel de cifrado de Lync Server y la Directiva EnablePublicCloudAccess. De forma predeterminada, el nivel de cifrado se establece en requerido. Debe cambiar esta configuración a compatible. Si la Directiva EnablePublicCloudAccess se establece en false, debe establecerse en **true**. Puede hacerlo desde el shell de administración de Lync Server.
+Si va a implementar la Federación de audio y vídeo (A/V) con Windows Live Messenger, hay dos parámetros que debe modificar: el nivel de cifrado de Lync Server y la Directiva EnablePublicCloudAccess. De forma predeterminada, el nivel de cifrado está configurado en Requerido. Debe cambiar esta opción a Compatible. Si la directiva EnablePublicCloudAccess está definida en falso, debe definirse en **Verdadero**. Puede hacerlo desde el shell de administración de Lync Server.
 
 <div>
 
-## <a name="configure-federation-for-windows-live"></a>Configurar la Federación para Windows Live
+## <a name="configure-federation-for-windows-live"></a>Configurar la federación para Windows Live
 
-1.  Inicie el shell de administración de Lync Server en el servidor front-end: haga clic en **Inicio**, haga clic en **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+1.  Inicie el shell de administración de Lync Server en el servidor front-end: haga clic en **Inicio**, en **todos los programas**, en **Microsoft Lync Server 2013**y, a continuación, en **Shell de administración de Lync Server**.
 
-2.  En el símbolo del sistema, escriba los siguientes comandos:
+2.  Desde el símbolo del sistema, escriba los siguientes comandos:
     
        ```powershell
         Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
@@ -59,7 +59,7 @@ Si está implementando la Federación de audio y vídeo (A/V) con Windows Live M
     
 
     > [!NOTE]  
-    > Este es un paso obligatorio porque Windows Live Messenger no admite el cifrado de audio y vídeo. El comando establece la directiva global en una configuración de cifrado compatible en lugar de requerir el cifrado de los datos de audio y vídeo. Los clientes que admiten el cifrado seguirán usando el cifrado, como Lync 2013.
+    > Este es un paso necesario porque Windows Live Messenger no admite el cifrado de audio/vídeo. El comando configura su directiva global en una configuración de cifrado compatible en lugar de requerir el cifrado de los datos de audio y vídeo. Los clientes que admiten el cifrado seguirán usando el cifrado, como Lync 2013.
 
     
     </div>
