@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Implementación de grupos front-end emparejados para recuperación ante desastres'
+title: 'Lync Server 2013: implementación de grupos de servidores front-end emparejados para la recuperación ante desastres'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d264128a7fef38fd220d2527772d6065dca7c964
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a18b92dde9b6ca48ffe8912f216331c39ef9cc9d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740920"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a>Implementación de grupos front-end emparejados para recuperación ante desastres en Lync Server 2013
+# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a>Implementación de grupos de servidores front-end emparejados para la recuperación ante desastres en Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41740920"
 
 _**Última modificación del tema:** 2013-02-21_
 
-Puede implementar fácilmente la topología de recuperación ante desastres de las agrupaciones de front-end emparejadas con el generador de topologías.
+Puede implementar fácilmente la topología de recuperación ante desastres de grupos de servidores front-end emparejados con el generador de topologías.
 
 <div>
 
 ## <a name="to-deploy-a-pair-of-front-end-pools"></a>Para implementar un par de grupos de servidores front-end
 
-1.  Si los grupos son nuevos y aún no se han definido, use el generador de topología para crear los grupos.
+1.  Si los grupos son nuevos y aún no están definidos, use el generador de topologías para crear los grupos.
 
-2.  En el generador de topología, haga clic con el botón secundario en uno de los dos grupos y, a continuación, haga clic en **Editar propiedades**.
+2.  En el generador de topologías, haga clic con el botón secundario en uno de los dos grupos y, a continuación, haga clic en **Editar propiedades**.
 
 3.  Haga clic en **Resistencia** en el panel izquierdo y, a continuación, seleccione **Grupo de servidores de copia de seguridad asociado** en el panel derecho.
 
@@ -53,11 +53,11 @@ Puede implementar fácilmente la topología de recuperación ante desastres de l
     
     ![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")  
 
-5.  Seleccione **Conmutación por error y conmutación por recuperación automática para voz** y después haga clic en **Aceptar**.
+5.  Seleccione **Conmutación por error y conmutación por recuperación automática para voz** y haga clic en **Aceptar**.
     
-    Cuando vea los detalles de este grupo, el grupo asociado aparecerá en el panel derecho debajo de **Resistencia**. 
+    Cuando visualice los detalles sobre este grupo, el grupo asociado aparecerá en el panel derecho bajo **Resistencia**.
 
-6.  Use el generador de topología para publicar la topología.
+6.  Use el generador de topologías para publicar la topología.
 
 7.  Si los dos grupos aún no se han implementado, impleméntelos ahora y se completará la configuración. Puede omitir los dos últimos pasos de este procedimiento.
     
@@ -69,7 +69,7 @@ Puede implementar fácilmente la topología de recuperación ante desastres de l
     ```
     Esto configura otros servicios necesarios para que el emparejamiento de copia de seguridad funcione correctamente.
 
-9.  Desde un símbolo del sistema del shell de administración de Lync Server, ejecute lo siguiente:
+9.  Desde el símbolo del sistema del shell de administración de Lync Server, ejecute lo siguiente:
     ```powershell
     Start-CsWindowsService -Name LYNCBACKUP
     ```
@@ -83,7 +83,7 @@ Puede implementar fácilmente la topología de recuperación ante desastres de l
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
        ```
     
-    La sincronización de datos podría llevar unos minutos. Puede utilizar los siguientes cmdlets para ver el estado. Asegúrese de que el estado de ambas direcciones sea parejo
+    La sincronización de los datos puede tardar algún tiempo. Puede usar los siguientes cmdlets para comprobar el estado. Asegúrese de que el estado en ambas direcciones está en estado estable.
     
        ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
@@ -97,7 +97,7 @@ Puede implementar fácilmente la topología de recuperación ante desastres de l
 
 
 > [!NOTE]  
-> El <STRONG>failover automático y el failback para la opción de voz</STRONG> y los intervalos de tiempo asociados en el generador de topología se aplican solo a las características de resistencia de voz que se introdujeron en Lync Server 2010. La selección de esta opción no implica que la conmutación por error de grupos de servidores tratada en este documento sea automática. La conmutación por error y la conmutación por recuperación de los grupos de servidores siempre requieren que un administrador invoque manualmente los cmdlets de conmutación por error y de conmutación por recuperación, respectivamente.
+> La opción <STRONG>conmutación por error automática y conmutación por recuperación para la opción de voz</STRONG> y los intervalos de tiempo asociados en el generador de topologías solo se aplican a las características de resistencia de voz que se introdujeron en Lync Server 2010. La selección de esta opción no implica que la conmutación por error de grupos de servidores tratada en este documento sea automática. La conmutación por error y la conmutación por recuperación de grupos de servidores siempre requieren que un administrador invoque manualmente los cmdlets de conmutación por error y de conmutación por recuperación, respectivamente.
 
 
 

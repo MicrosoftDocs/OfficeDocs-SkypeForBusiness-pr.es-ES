@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Transferencia y desvío de llamadas'
+title: 'Lync Server 2013: transferencias de llamadas y desvío de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803962
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 512deaf8af03f112e35443c25e46685c42a2f2e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 46b16ad2faac58a5999b803c75d02e01da0da2dd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742960"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044302"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-transfers-and-call-forwarding-in-lync-server-2013"></a>Transferencia y desvío de llamadas en Lync Server 2013
+# <a name="call-transfers-and-call-forwarding-in-lync-server-2013"></a>Transferencias de llamadas y desvío de llamadas en Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41742960"
 
 _**Última modificación del tema:** 2013-03-09_
 
-Cuando se trata de un punto final de RTC, el enrutamiento basado en la ubicación analiza la ubicación del extremo de la calle y el punto final al que se transferirá o desviará la llamada (es decir, el destino de transferencia/reenvío). El enrutamiento basado en la ubicación determina si la llamada se debe transferir o desviar dependiendo de la ubicación de ambos puntos de conexión.
+Cuando se usa un punto de conexión de RTC, el enrutamiento basado en ubicación analiza la ubicación del punto de conexión de calle y el extremo al que se transferirá o reenviará la llamada (es decir, el destino de transferencia o reenvío). El enrutamiento basado en ubicación determina si la llamada debe transferirse o reenviarse en función de la ubicación de ambos puntos de conexión.
 
-En la tabla siguiente se muestra el escenario de un usuario de Lync en una llamada con un punto final de RTC, y el usuario de Lync transfiere la llamada a otro usuario de Lync. En función de la ubicación del sitio de red del extremo del cesionario, el enrutamiento basado en la ubicación afecta al enrutamiento de la transferencia de la llamada o hacia adelante.
+En la tabla siguiente se muestra el escenario de un usuario de Lync en una llamada con un punto de conexión RTC y el usuario de Lync transfiere la llamada a otro usuario de Lync. En función de la ubicación del sitio de red del extremo del cesionario, el enrutamiento basado en ubicación afecta al enrutamiento de la transferencia de llamadas o hacia delante.
 
-### <a name="initiating-call-transfer-or-forward"></a>Inicio de la transferencia o el desvío de la llamada
+### <a name="initiating-call-transfer-or-forward"></a>Inicio de transferencia o reenvío de llamadas
 
 <table>
 <colgroup>
@@ -53,28 +53,28 @@ En la tabla siguiente se muestra el escenario de un usuario de Lync en una llama
 <thead>
 <tr class="header">
 <th>Usuario que inicia la transferencia o el desvío de la llamada</th>
-<th>El extremo de destino está en el mismo sitio de red que el usuario que inicia la transferencia o el desvío de la llamada</th>
-<th>El extremo de destino está en un sitio de red diferente del sitio del usuario que inicia la transferencia o el desvío de la llamada</th>
-<th>El extremo de destino está en un sitio de red desconocido o el sitio de red no está habilitado para el enrutamiento basado en la ubicación</th>
+<th>El extremo de destino está en el mismo sitio de red que el usuario que inicia la transferencia de llamadas o el reenvío</th>
+<th>El extremo de destino está en un sitio de red diferente a medida que el usuario inicia la transferencia de llamadas o reenvía</th>
+<th>El extremo de destino está en un sitio de red desconocido o un sitio de red no está habilitado para el enrutamiento basado en ubicación</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Usuario de Lync</p></td>
-<td><p>Se permite el desvío o la transferencia de la llamada</p></td>
-<td><p>No se permite el desvío ni la transferencia de la llamada</p></td>
-<td><p>No se permite el desvío ni la transferencia de la llamada</p></td>
+<td><p>Se permite la transferencia o el desvío de llamadas</p></td>
+<td><p>No se permite el desvío o la transferencia de llamadas</p></td>
+<td><p>No se permite el desvío o la transferencia de llamadas</p></td>
 </tr>
 </tbody>
 </table>
 
   
 
-Por ejemplo: un usuario de Lync en una llamada con un punto final de la RTC transfiere la llamada a otro usuario de Lync que se encuentra en el mismo sitio de red. En este caso, se permite la transferencia de la llamada.
+Por ejemplo: un usuario de Lync en una llamada con un punto de conexión RTC transfiere la llamada a otro usuario de Lync que se encuentra en el mismo sitio de red. En este caso, se permite la transferencia de llamadas.
 
-En la tabla siguiente se muestra el escenario de un usuario de Lync en una llamada con otro usuario de Lync, y uno de los usuarios transfiere la llamada a un punto final de la RTC. La tabla recoge los detalles de cómo el enrutamiento basado en ubicación afecta a la llamada en función de la ubicación del usuario al que se transfiere la llamada.
+En la tabla siguiente se muestra el escenario de un usuario de Lync en una llamada con otro usuario de Lync y uno de los usuarios transfiere la llamada a un extremo de RTC. En función de la ubicación del usuario al que se transfiere la llamada, la tabla detalla cómo afecta el enrutamiento basado en ubicación a la llamada.
 
-### <a name="call-transfer-or-forward-to-pstn-endpoint"></a>Transferencia o desvío de la llamada al extremo de RTC
+### <a name="call-transfer-or-forward-to-pstn-endpoint"></a>Transferencia de llamadas o reenviar a extremo de RTC
 
 <table>
 <colgroup>
@@ -85,24 +85,24 @@ En la tabla siguiente se muestra el escenario de un usuario de Lync en una llama
 </colgroup>
 <thead>
 <tr class="header">
-<th>Destino del extremo de la transferencia o el desvío de la llamada</th>
+<th>Destino de extremo de transferencia/reenvío de llamadas</th>
 <th>Usuarios de Lync en el mismo sitio de red</th>
-<th>Usuarios de Lync en diferentes sitios de red</th>
-<th>Uno o ambos usuarios de Lync en un sitio de red o sitio de red desconocidos no están habilitados para el enrutamiento basado en la ubicación</th>
+<th>Usuarios de Lync en sitios de red diferentes</th>
+<th>Uno o ambos usuarios de Lync en un sitio de red o sitio de red desconocido no están habilitados para el enrutamiento basado en ubicación</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Extremo de RTC</p></td>
-<td><p>Desvío o transferencia de llamada permitido por la directiva de enrutamiento de voz del sitio del usuario al que se transfiere la llamada</p></td>
-<td><p>Desvío o transferencia de llamada permitido por la directiva de enrutamiento de voz del sitio del usuario al que se transfiere la llamada</p></td>
-<td><p>Desvío o transferencia de llamada permitido por la directiva de voz del usuario al que se transfiere la llamada únicamente a través de troncos no habilitados para el enrutamiento basado en ubicación</p></td>
+<td><p>La Directiva de enrutamiento de voz del sitio del usuario transferido permite desviar o transferir las llamadas permitidas.</p></td>
+<td><p>La Directiva de enrutamiento de voz del sitio del usuario transferido permite desviar o transferir las llamadas permitidas.</p></td>
+<td><p>La Directiva de voz del usuario transferido permite desviar o transferir las llamadas solo a través de troncos no habilitados para el enrutamiento basado en ubicación</p></td>
 </tr>
 </tbody>
 </table>
 
   
-Por ejemplo: un usuario de Lync en una llamada con otro usuario de Lync que se encuentra en el mismo sitio de red transfiere la llamada a un punto final de RTC y se permite la transferencia de llamadas.
+Por ejemplo: un usuario de Lync en una llamada con otro usuario de Lync que se encuentra en el mismo sitio de red transfiere la llamada a un punto de conexión de RTC y se permite la transferencia de llamadas.
 
 <div>
 

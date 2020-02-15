@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: exigir bloqueo de teléfono'
+title: 'Lync Server 2013: forzar el bloqueo del teléfono'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183594
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c781c09db1834d85a1df4532d1484e43d74ca48
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 61042ebd21786513c482f1286cd9120711d1cfb9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735480"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042197"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enforce-phone-locking-in-lync-server-2013"></a>Exigir el bloqueo de teléfono en Lync Server 2013
+# <a name="enforce-phone-locking-in-lync-server-2013"></a>Aplicar el bloqueo de teléfono en Lync Server 2013
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41735480"
 
 _**Última modificación del tema:** 2013-02-23_
 
-Los dispositivos Lync Phone Edition se pueden bloquear por razones de seguridad. Si aplica el bloqueo de teléfono, el dispositivo que ejecuta Lync Phone Edition se bloquea después de un período de tiempo configurado. Cuando un teléfono está bloqueado, un usuario puede hacer llamadas pero no puede acceder a la información del calendario y los contactos, al correo de voz o a los registros de llamadas o al usar la búsqueda. Para desbloquear el teléfono, el usuario escribe un PIN.
+Los dispositivos Lync Phone Edition pueden bloquearse por motivos de seguridad. Si aplica el bloqueo telefónico, el dispositivo que ejecuta Lync Phone Edition se bloquea después de un período de tiempo que configure. Cuando un teléfono está bloqueado, un usuario puede realizar llamadas pero no puede tener acceso al calendario y a la información de contacto, el correo de voz o los registros de llamadas, ni usar la búsqueda. Para desbloquear el teléfono, el usuario escribe un PIN.
 
-Para aplicar el bloqueo de teléfono, habilítelo y configúrelo con el panel de control de Lync Server o los cmdlets de PowerShell de Lync Server. Puede exigir el bloqueo de teléfono en todo el mundo o solo en el sitio para el que está configurado.
+Para aplicar el bloqueo telefónico, habilítelo y configúrelo mediante el panel de control de Lync Server o los cmdlets de Lync Server PowerShell. Puede aplicar el bloqueo telefónico globalmente o solo en el sitio para el que está configurado.
 
 <div>
 
-## <a name="to-configure-and-enforce-the-phone-lock"></a>Para configurar y exigir el bloqueo de teléfono
+## <a name="to-configure-and-enforce-the-phone-lock"></a>Para configurar y aplicar el bloqueo de teléfono
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Haga clic en **clientes**y, a continuación, en **configuración del dispositivo**.
+3.  Haga clic en **Clientes** y después en **Configuración de dispositivo**.
 
-4.  En la pestaña **configuración de dispositivo** , en la lista de configuraciones de dispositivos, haga doble clic en la configuración para la que desea cambiar la configuración de bloqueo de teléfono.
+4.  En la pestaña **Configuración de dispositivo**, en la lista de configuraciones de dispositivos, haga doble clic en la configuración en la que desea cambiar los parámetros de bloqueo del teléfono.
 
-5.  En el cuadro de diálogo **Editar configuración de dispositivo** , compruebe que la casilla **exigir bloqueo de dispositivo** está activada.
+5.  En el cuadro de diálogo **Editar configuración de dispositivo**, compruebe que la casilla **Exigir bloqueo de dispositivo** esté activada.
 
-6.  En **longitud mínima de PIN**, acepte el valor predeterminado para el número mínimo de dígitos que el PIN de desbloqueo debe contener o especifique un nuevo valor. El intervalo para la longitud del PIN es de cuatro a 15 dígitos, y el valor predeterminado es seis.
+6.  En **longitud mínima del PIN**, acepte el valor predeterminado para el número mínimo de dígitos que el PIN de desbloqueo debe contener o especifique un nuevo valor. El intervalo para la longitud del PIN es de cuatro a 15 dígitos y el valor predeterminado es seis.
 
-7.  En el **tiempo de espera de bloqueo telefónico**, acepte el valor predeterminado de la cantidad mínima de tiempo antes de que el teléfono se bloquee por sí mismo o especifique un nuevo valor. El intervalo para el tiempo de espera es de 0 a 60 minutos y el valor predeterminado es 10. Especifique el valor con el formato HH:MM:SS.
+7.  En **tiempo de espera de bloqueo por teléfono**, acepte el valor predeterminado para el período de tiempo mínimo antes de que se bloquee el teléfono o especifique un nuevo valor. El intervalo para el tiempo de espera es de 0 a 60 minutos y el valor predeterminado es 10. Especifique el valor en el formato HH:MM:SS.
 
 8.  Haga clic en **Confirmar**.
 
@@ -65,15 +65,15 @@ Para aplicar el bloqueo de teléfono, habilítelo y configúrelo con el panel de
 
 <div>
 
-## <a name="enforcing-phone-locking-by-using-windows-powershell-cmdlets"></a>Exigir el bloqueo de teléfono con los cmdlets de Windows PowerShell
+## <a name="enforcing-phone-locking-by-using-windows-powershell-cmdlets"></a>Aplicación de bloqueo de teléfono mediante cmdlets de Windows PowerShell
 
-El bloqueo de teléfono se puede exigir mediante el cmdlet Set-CsUCPhoneConfiguration. Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+El bloqueo del teléfono se puede forzar mediante el cmdlet Set-CsUCPhoneConfiguration. Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
 <div>
 
 ## <a name="to-enable-phone-locking"></a>Para habilitar el bloqueo de teléfono
 
-  - El siguiente comando habilita el bloqueo de teléfono para el sitio de Redmond. Para deshabilitar el bloqueo de teléfono, establece la propiedad EnforcePhoneLock en false ($False).
+  - El siguiente comando habilita el bloqueo del teléfono para el sitio de Redmond. Para deshabilitar el bloqueo del teléfono, configure la propiedad EnforcePhoneLock como False ($False).
     
         Set-CsUCPhoneConfiguration -Identity" site:Redmond" -EnforcePhoneLock $True
 
@@ -81,9 +81,9 @@ El bloqueo de teléfono se puede exigir mediante el cmdlet Set-CsUCPhoneConfigur
 
 <div>
 
-## <a name="to-enable-phone-locking-and-modify-the-phone-lock-timeout"></a>Para habilitar el bloqueo de teléfono y modificar el tiempo de espera de bloqueo de teléfono
+## <a name="to-enable-phone-locking-and-modify-the-phone-lock-timeout"></a>Para habilitar el bloqueo del teléfono y modificar el tiempo de espera de bloqueo del teléfono
 
-  - Este comando habilita el bloqueo de teléfono y también establece el tiempo de espera de bloqueo telefónico en 30 minutos.
+  - Este comando permite el bloqueo del teléfono y también define el tiempo de espera para el bloqueo del teléfono en 30 minutos.
     
         Set-CsUCPhoneConfiguration -Identity" site:Redmond" -EnforcePhoneLock $True -PhoneLockTimeout "00:30:00"
 
@@ -91,15 +91,15 @@ El bloqueo de teléfono se puede exigir mediante el cmdlet Set-CsUCPhoneConfigur
 
 <div>
 
-## <a name="to-enable-phone-locking-throughout-the-organization"></a>Para habilitar el bloqueo de teléfono en toda la organización
+## <a name="to-enable-phone-locking-throughout-the-organization"></a>Para habilitar el bloqueo del teléfono en toda la organización
 
-  - En este ejemplo, el bloqueo de teléfono está habilitado en todas las opciones de configuración de teléfono UC en uso en la organización.
+  - En este ejemplo, el bloqueo del teléfono está habilitado en todas las opciones de configuración del teléfono de comunicaciones unificadas (UC) en uso en la organización.
     
         Get-CsUCPhoneConfiguration | Set-CsUCPhoneConfiguration  -EnforcePhoneLock $True
 
 </div>
 
-Para obtener más información, consulte el tema de ayuda para el cmdlet [set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsUCPhoneConfiguration) .
+Para obtener más información, consulte el tema de ayuda del cmdlet [set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsUCPhoneConfiguration) .
 
 </div>
 
@@ -111,7 +111,7 @@ Para obtener más información, consulte el tema de ayuda para el cmdlet [set-Cs
 [Administración de la autenticación de Lync Server 2013](lync-server-2013-managing-lync-server-authentication.md)  
 
 
-[Administrar dispositivos, teléfonos y aplicaciones cliente en Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)  
+[Administración de dispositivos, teléfonos y aplicaciones cliente en Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Información general sobre el proceso de implementación para telefonía IP empresarial'
+title: 'Lync Server 2013: información general sobre el proceso de implementación para telefonía IP empresarial'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ed85bb49ed48c247c67392d2cf44bd9a9029bf3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 28eef2990d9f8a43dc594302e6c4d1678f7c3d17
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762568"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042227"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,43 +37,43 @@ ms.locfileid: "41762568"
 
 _**Última modificación del tema:** 2012-09-22_
 
-Los pasos de implementación y configuración que necesita seguir dependen de la característica de telefonía IP empresarial o de la funcionalidad que va a agregar a su entorno de Lync Server 2013.
+Los pasos de implementación y configuración que debe seguir dependen de la característica de Enterprise Voice o de la funcionalidad que agregue a su entorno de Lync Server 2013.
 
 <div>
 
 ## <a name="feature-deployment-overviews"></a>Información general sobre la implementación de características
 
-Para obtener información general sobre la implementación de conectividad RTC, consulte lo siguiente:
+Para obtener información general sobre la implementación de la conectividad con RTC, consulte:
 
-  - [Lista de comprobaciones para la implementación del enlace troncal SIP para Lync Server 2013](lync-server-2013-sip-trunk-deployment-checklist.md)
+  - [Lista de comprobación para la implementación del tronco SIP para Lync Server 2013](lync-server-2013-sip-trunk-deployment-checklist.md)
 
   - [Opciones de implementación SIP directa en Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)
 
   - [Planeación del enrutamiento de voz saliente en Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md)
 
-Para obtener información general sobre la implementación de la mensajería unificada de Exchange (UM), vea lo siguiente:
+Para obtener información general sobre la implementación de la mensajería unificada (MU) de Exchange, vea lo siguiente:
 
-  - [Proceso de implementación de la integración de la mensajería unificada local y Lync Server 2013](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)
+  - [Proceso de implementación para la integración de la mensajería unificada local y Lync Server 2013](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)
 
-Para obtener información general sobre la implementación de control de admisión de llamadas, vea los siguientes temas:
+Para obtener información general sobre la implementación del control de admisión de llamadas, consulte los temas siguientes:
 
   - [Lista de comprobación para la implementación del control de admisión de llamadas en Lync Server 2013](lync-server-2013-deployment-checklist-for-call-admission-control.md)
 
-Para obtener información general sobre el proceso de implementación de los servicios de emergencia, vea lo siguiente:
+Para obtener información general sobre el proceso de implementación de servicios de emergencia, consulte:
 
-  - [Definición de los requisitos para llamadas de emergencia en Lync Server 2013](lync-server-2013-defining-your-requirements-for-emergency-calls.md)
+  - [Definición de los requisitos para las llamadas de emergencia en Lync Server 2013](lync-server-2013-defining-your-requirements-for-emergency-calls.md)
 
-  - [Elección de un proveedor de servicios de E9-1-1 para Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md)
+  - [Selección de un proveedor de servicios E9-1-1 para Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md)
 
-  - [Lista de comprobación de implementación para E9-1-1 en Lync Server 2013](lync-server-2013-deployment-checklist-for-e9-1-1.md)
+  - [Lista de comprobación para la implementación de E9-1-1 en Lync Server 2013](lync-server-2013-deployment-checklist-for-e9-1-1.md)
 
-Para obtener información general sobre la implementación de líneas telefónicas privadas, consulte la sección "telefonía privada en implementaciones mixtas" de [planificación de líneas telefónicas privadas con Lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md).
+Para obtener información general sobre la implementación de líneas de teléfono privadas, consulte la sección "líneas de teléfono privadas en implementaciones mixtas" de [planeación de líneas telefónicas privadas con Lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md).
 
-Para obtener información general sobre la implementación de las características de administración de llamadas (estacionamiento de llamadas, aplicación de anuncios y grupos de respuesta), vea lo siguiente:
+Para obtener información general sobre la implementación de características de administración de llamadas (estacionamiento de llamadas, aplicación de anuncios y grupos de respuesta), consulte:
 
-  - [Proceso de implementación para el parque de llamadas en Lync Server 2013](lync-server-2013-deployment-process-for-call-park.md)
+  - [Proceso de implementación del estacionamiento de llamadas en Lync Server 2013](lync-server-2013-deployment-process-for-call-park.md)
 
-  - [Proceso de implementación para la aplicación de anuncios en Lync Server 2013](lync-server-2013-deployment-process-for-the-announcement-application.md)
+  - [Proceso de implementación de la aplicación de anuncio en Lync Server 2013](lync-server-2013-deployment-process-for-the-announcement-application.md)
 
 </div>
 

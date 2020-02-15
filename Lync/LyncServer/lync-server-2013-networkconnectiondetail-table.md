@@ -12,16 +12,16 @@ ms:contentKeyID: 48185170
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2035fff89437c10732c704eee47c145b45d9db96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 784e229ee16bfee0e9e828f1df7f06a98e898eb4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765861"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043862"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41765861"
 
 _**Última modificación del tema:** 2012-10-02_
 
-La tabla NetworkConnectionDetail se asigna a los identificadores de conexión de red que se usan en otras partes de la base de datos de la calidad de la experiencia. Esta tabla se introdujo en Microsoft Lync Server 2013.
+La tabla NetworkConnectionDetail asigna los tipos de conexión de red a los identificadores de conexión de red usados en otra parte de la base de datos de calidad de la experiencia. Esta tabla se introdujo en Microsoft Lync Server 2013.
 
 
 <table>
@@ -59,18 +59,18 @@ La tabla NetworkConnectionDetail se asigna a los identificadores de conexión de
 <tr class="odd">
 <td><p><strong>NetworkConnectionDetailKey</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>Primary</p></td>
+<td><p>Principal</p></td>
 <td><p>Identificador único del tipo de conexión de red.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NetworkConnectionDetail</strong></p></td>
 <td><p>VARCHAR (256)</p></td>
-<td><p>Solo</p></td>
-<td><p>Tipo de conexión de red que corresponde a la NetworkConnectionDetailKey. Los valores permitidos son:</p>
+<td><p>Única</p></td>
+<td><p>Tipo de conexión de red que se corresponde con NetworkConnectionDetailKey. Los valores permitidos son:</p>
 <ol>
-<li><p>0: conectado</p></li>
-<li><p>1--WiFi</p></li>
-<li><p>2--Ethernet</p></li>
+<li><p>0: cableada</p></li>
+<li><p>1: Wi-Fi</p></li>
+<li><p>2: Ethernet</p></li>
 </ol></td>
 </tr>
 </tbody>

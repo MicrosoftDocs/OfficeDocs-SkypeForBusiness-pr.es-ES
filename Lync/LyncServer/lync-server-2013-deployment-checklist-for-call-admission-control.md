@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lista de comprobación para la implementación del control de admisión de llamadas'
+title: 'Lync Server 2013: lista de comprobación para la implementación del control de admisión de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0bf88529734530e70c4d0536d5337395ff0742d2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d68f13c636b24729db989f25da7055333968cbbd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740750"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043282"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41740750"
 
 _**Última modificación del tema:** 2012-10-08_
 
-Para planear de forma eficaz el control de admisión de llamadas (CAC), debe tener en cuenta lo siguiente:
+Para planear de forma eficaz el servicio de control de admisión de llamadas (CAC), debe tener en cuenta lo siguiente:
 
-  - Requisitos previos para implementar CAC.
+  - Requisitos previos para implementar el CAC.
 
-  - Información necesaria para el CAC y las decisiones de configuración que debe realizar antes de la implementación.
+  - Información necesaria para el CAC y las decisiones de configuración que debe tomar antes de la implementación.
 
 <div>
 
-## <a name="deployment-prerequisites-for-call-admission-control"></a>Requisitos previos de implementación para el control de admisión de llamadas
+## <a name="deployment-prerequisites-for-call-admission-control"></a>Requisitos previos del control de admisión de llamadas
 
-Antes de implementar el control de admisión de llamadas, debe haber implementado los servidores internos de Lync Server 2013, incluido un grupo de servidores front-end o un servidor Standard Edition.
+Antes de implementar el control de admisión de llamadas, debe haber implementado ya los servidores internos de Lync Server 2013, incluido un grupo de servidores front-end o un servidor Standard Edition.
 
 </div>
 
@@ -55,9 +55,9 @@ Antes de implementar el control de admisión de llamadas, debe haber implementad
 
 ## <a name="information-requirements-for-call-admission-control"></a>Requisitos de información para el control de admisión de llamadas
 
-En la tabla siguiente se resume la información necesaria para implementar el control de admisión de llamadas.
+La siguiente tabla resume la información requerida para implementar el control de admisión de llamadas.
 
-### <a name="information-requirements-for-call-admission-control-deployment"></a>Requisitos de información para la implementación de control de admisión de llamadas
+### <a name="information-requirements-for-call-admission-control-deployment"></a>Requisitos de información para implementar el control de admisión de llamadas
 
 <table>
 <colgroup>
@@ -74,41 +74,41 @@ En la tabla siguiente se resume la información necesaria para implementar el co
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Capacidades de Lync Server requeridas por su organización</p></td>
+<td><p>Capacidades de Lync Server que necesita su organización</p></td>
 <td><ul>
-<li><p>Capacidades que la organización debe admitir</p></li>
-<li><p>Capacidades que se deben habilitar para usuarios individuales</p></li>
+<li><p>Funcionalidades que admitirá su organización</p></li>
+<li><p>Funcionalidades que se habilitarán para usuarios individuales</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Definición de los requisitos de la organización para el servicio de control de admisión de llamadas en Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Definición de los requisitos para el control de admisión de llamadas en Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Topologías y componentes que se van a implementar</p></td>
+<td><p>Topologías y componentes que se implementarán</p></td>
 <td><ul>
 <li><p>Los componentes relacionados con CAC se instalan automáticamente como parte de Lync Server 2013</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Definición de los requisitos de la organización para el servicio de control de admisión de llamadas en Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Definición de los requisitos para el control de admisión de llamadas en Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Requisitos del sistema</p></td>
 <td><ul>
 <li><p>Requisitos de hardware</p></li>
 <li><p>Requisitos de software</p></li>
-<li><p>Requisitos de collocation</p></li>
+<li><p>Requisitos de combinación</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-determining-your-system-requirements.md">Determinar los requisitos del sistema para Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-determining-your-system-requirements.md">Determinación de los requisitos del sistema para Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Requisitos de infraestructura</p></td>
 <td><ul>
-<li><p>No se necesitan requisitos de infraestructura específicos para CAC</p></li>
+<li><p>No se necesitan requisitos específicos de infraestructura para el CAC</p></li>
 </ul></td>
 <td><p><a href="lync-server-2013-infrastructure-requirements-for-call-admission-control.md">Requisitos de infraestructura para el control de admisión de llamadas en Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Requisitos de interfaz de red</p></td>
+<td><p>Requisitos de la interfaz de red</p></td>
 <td><ul>
 <li><p>Información de la interfaz interna y externa</p></li>
-<li><p>Información de enrutamiento (incluida información sobre el blog de <a href="http://go.microsoft.com/fwlink/p/?linkid=203149">http://go.microsoft.com/fwlink/p/?LinkId=203149</a>NextHop en, canal de respuesta para clientes del equipo de Microsoft Lync Server)</p></li>
+<li><p>Información de enrutamiento (incluida información sobre el blog de <a href="http://go.microsoft.com/fwlink/p/?linkid=203149">http://go.microsoft.com/fwlink/p/?LinkId=203149</a>NextHop, en el canal de respuesta del cliente del equipo de Microsoft Lync Server)</p></li>
 </ul></td>
 <td><p><a href="lync-server-2013-deploying-external-user-access.md">Implementar el acceso de usuarios externos en Lync Server 2013</a></p></td>
 </tr>
@@ -121,14 +121,14 @@ En la tabla siguiente se resume la información necesaria para implementar el co
 <li><p>Supervisión y auditoría</p></li>
 <li><p>Consideraciones de hardware</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-best-practices-for-call-admission-control.md">Procedimientos recomendados para el servicio de control de admisión de llamadas en Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-best-practices-for-call-admission-control.md">Procedimientos recomendados para el control de admisión de llamadas en Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Proceso de implementación</p></td>
 <td><ul>
 <li><p>Requisitos previos</p></li>
 <li><p>Requisitos de información</p></li>
-<li><p>Procesos y procedimientos</p></li>
+<li><p>Proceso y procedimientos</p></li>
 </ul></td>
 <td><p><a href="lync-server-2013-configure-call-admission-control.md">Configurar el control de admisión de llamadas en Lync Server 2013</a></p></td>
 </tr>

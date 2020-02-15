@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Directivas de correo de voz hospedado'
+title: 'Lync Server 2013: directivas de correo de voz hospedado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185506
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 811f975868dad7bc0fcf6d5a2867ca2f3b81cd59
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 01e844e62934a697b12afa76d2e9c9405a30a4a4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738980"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043182"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41738980"
 
 _**Última modificación del tema:** 2012-10-01_
 
-Una *Directiva de correo de voz hospedada* proporciona información a la aplicación de enrutamiento de 2013 ExUM de Lync Server acerca de dónde enrutar las llamadas de los usuarios cuyos buzones se encuentran en un servicio de Exchange hospedado.
+Una *Directiva de correo de voz hospedada* proporciona información a la aplicación de enrutamiento ExUM de Lync Server 2013 sobre dónde enrutar las llamadas de los usuarios cuyos buzones se encuentran en un servicio de Exchange hospedado.
 
 <div>
 
 
 > [!NOTE]  
-> Las directivas de correo de voz hospedado solo son necesarias para la integración de Lync Server 2013 con mensajería unificada de Exchange hospedado. No son necesarios para la integración con la mensajería unificada de Exchange local.
+> Las directivas de correo de voz hospedado solo son necesarias para la integración de Lync Server 2013 con mensajería unificada de Exchange hospedada. No son necesarias para la integración con la mensajería unificada local de Exchange.
 
 
 
@@ -53,19 +53,19 @@ Una *Directiva de correo de voz hospedada* proporciona información a la aplicac
 
 ## <a name="hosted-voice-mail-policy-scope"></a>Ámbito de directiva de correo de voz hospedado
 
-El ámbito de la Directiva de correo de voz hospedado determina el nivel jerárquico al que se aplica la Directiva. Puede configurar directivas de correo de voz hospedado con los siguientes niveles de ámbito:
+El ámbito de directiva de correo de voz hospedado determina el nivel jerárquico en que se aplica la directiva. Configure directivas de correo de voz hospedado con los niveles de ámbito siguientes:
 
-  - La directiva *global* puede afectar potencialmente a todos los usuarios de la implementación de Lync Server 2013. Si un usuario está habilitado para el acceso a la mensajería unificada de Exchange hospedado y no se le ha asignado una directiva por usuario, y si no se ha asignado una directiva de sitio al sitio del usuario, se aplicará la directiva global. La directiva global se instala con Lync Server 2013. Puede modificarla para satisfacer sus necesidades, pero no puede cambiarle el nombre ni eliminarla.
+  - La directiva *global* puede afectar potencialmente a todos los usuarios de la implementación de Lync Server 2013. Si un usuario está habilitado para el acceso a la mensajería unificada hospedada de Exchange y no se le ha asignado una directiva por usuario, y si no se ha asignado una directiva de sitio al sitio del usuario, se aplicará la directiva global. La directiva global se instala con Lync Server 2013. Modifíquela para adaptarla a sus necesidades, aunque no puede cambiarle el nombre ni eliminarla.
 
-  - Una directiva de *sitio* puede afectar a todos los usuarios alojados en el sitio para el que se define la Directiva. Si un usuario está configurado para el acceso a mensajería unificada de Exchange hospedado y no se le ha asignado una directiva por usuario, se aplicará la Directiva de sitio.
+  - Una directiva de *sitio* puede afectar a todos los usuarios que están hospedados en el sitio para el que se ha definido la directiva. Si un usuario está configurado para el acceso a la mensajería unificada hospedada de Exchange y no se le ha asignado una directiva por usuario, se aplicará la directiva de sitio.
 
-  - Una directiva *por usuario* solo puede afectar a usuarios individuales o grupos. Para exigir una directiva por usuario, debe asignarla explícitamente a usuarios individuales, grupos y objetos de contacto.
+  - Una directiva *por usuario* solo afecta a grupos o usuarios individuales. Para aplicar una directiva por usuario, debe asignar de forma explícita la directiva a objetos de contacto, usuarios y grupos.
 
 <div>
 
 
 > [!NOTE]  
-> En la mayoría de los casos, solo se necesita una directiva de correo de voz hospedado. A menudo puede modificar la directiva global para satisfacer todas sus necesidades. Si implementa varias directivas de correo de voz hospedado, todas las directivas tienen ámbito por usuario.
+> En la mayoría de los casos, solo es necesaria una directiva de correo de voz hospedado. Por lo general, es posible modificar la directiva global para adaptarla a nuestras necesidades específicas. Si implementa varias directivas de correo de voz hospedado, todas estas directivas serán de ámbito por usuario.
 
 
 
@@ -77,32 +77,32 @@ El ámbito de la Directiva de correo de voz hospedado determina el nivel jerárq
 
 ## <a name="hosted-voice-mail-policy-attributes"></a>Atributos de directiva de correo de voz hospedado
 
-Una directiva de correo de voz define dos atributos que la aplicación de enrutamiento ExUM de Lync Server 2013 inserta en el URI de la solicitud de un mensaje de invitación que se envía a la implementación de mensajería unificada de Exchange hospedada:
+Una directiva de correo de voz define dos atributos que la aplicación de enrutamiento ExUM de Lync Server 2013 inserta en el URI de solicitud de un mensaje INVITE que se envía a la implementación de la mensajería unificada de Exchange hospedada:
 
-  - **Destino:** El nombre de dominio completo (FQDN) del servicio de mensajería unificada de Exchange hospedado. Este valor lo usa el servidor perimetral local de Lync Server para fines de enrutamiento.
+  - **Destino:** El nombre de dominio completo (FQDN) del servicio de mensajería unificada de Exchange hospedado. Este valor se usa en el servidor perimetral de Lync Server local para fines de enrutamiento.
     
     <div>
     
 
     > [!NOTE]  
-    > El FQDN de Exchange Online es exap.um.outlook.com.
+    > El FQDN para Exchange Online es exap.um.outlook.com.
 
     
     </div>
 
-  - **Organización:** El FQDN del inquilino en el servicio hospedado de mensajería unificada de Exchange que aloja los buzones de los usuarios de Lync Server 2013. Una directiva de correo de voz puede contener varias organizaciones. Si se incluye más de una organización en la Directiva, este atributo debe ser una lista separada por comas de los inquilinos de Exchange Server que alojan los buzones de usuario de Lync Server 2013.
+  - **Organización:** El FQDN del inquilino en el servicio de mensajería unificada de Exchange hospedado que aloja los buzones de correo de los usuarios de Lync Server 2013. Una directiva de correo de voz puede contener varias organizaciones. Si se incluye más de una organización en la Directiva, este atributo debe ser una lista separada por comas de los inquilinos de Exchange Server que hospedan los buzones de usuario de Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> El administrador de inquilinos del servicio de mensajería unificada de Exchange hospedado proporcionará los valores necesarios para la configuración de los atributos de destino y organización. Para configurar la Directiva, debe ejecutar el cmdlet New-CsHostedVoicemailPolicy o usar el cmdlet Set-CsHostedVoicemailPolicy para modificar una que exista (por ejemplo, la directiva global).
+> El administrador de arrendatarios del servicio de mensajería unificada hospedada de Exchange proporcionará los valores necesarios para la configuración de los atributos Destination y Organization. Para configurar su directiva, ejecute el cmdlet New-CsHostedVoicemailPolicy o use el cmdlet Set-CsHostedVoicemailPolicy para modificar una que ya exista (por ejemplo, la directiva global).
 
 
 
 </div>
 
-Para obtener detalles sobre la administración de directivas de correo de voz hospedado, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:
+Para obtener información detallada sobre la administración de directivas de correo de voz hospedado, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:
 
   - New-CsHostedVoicemailPolicy
 
@@ -114,11 +114,11 @@ Para obtener detalles sobre la administración de directivas de correo de voz ho
 
 <div>
 
-## <a name="per-user-voice-mail-policy-assignment"></a>Asignación de directiva de correo de voz por usuario
+## <a name="per-user-voice-mail-policy-assignment"></a>Asignación de directivas de correo de voz por usuario
 
-Si su Directiva de correo de voz hospedada se define con ámbito por usuario, debe asignarla de forma explícita. Puede ejecutar el cmdlet Grant-CsHostedVoicemailPolicy para asignar la Directiva a usuarios individuales o a grupos.
+Si su directiva de correo de voz hospedado se ha definido con el ámbito por usuario, asígnela de forma explícita. Puede ejecutar el cmdlet Grant-CsHostedVoicemailPolicy para asignar la directiva a grupos o usuarios individuales.
 
-Para obtener información detallada sobre cómo asignar o quitar una directiva de correo de voz hospedado por usuario, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:
+Para obtener más información sobre cómo asignar o quitar una directiva de correo de voz hospedado por usuario, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:
 
   - Grant-CsHostedVoicemailPolicy
 

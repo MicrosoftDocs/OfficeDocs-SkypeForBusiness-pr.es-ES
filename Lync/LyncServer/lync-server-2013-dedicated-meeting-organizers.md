@@ -12,16 +12,16 @@ ms:contentKeyID: 48183730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 429c68ad96d4738b835f549a5f355e6c133ead74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4609f588eec8d68ec163abd8a15a44f5f88a7620
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728540"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044092"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41728540"
 
 _**Última modificación del tema:** 2012-10-01_
 
-Para minimizar el tráfico de comunicaciones en tiempo real en el grupo de reuniones de gran tamaño, no se recomienda el hospedaje de usuarios que inicien sesión regularmente con clientes de Lync y participen en sesiones de mensajería instantánea (mi), presencia, Conferencia y voz. En su lugar, le recomendamos que siga uno de estos procedimientos:
+Para minimizar el tráfico de comunicaciones en tiempo real en el grupo de servidores de grandes conferencias, no recomendamos hospedar usuarios que a menudo inician sesión a través de clientes de Lync y participan en mensajería instantánea (IM), presencia, conferencias y sesiones de voz. En cambio, recomendamos realizar alguna de las siguientes opciones:
 
-  - Crear una o más cuentas de usuario dedicadas solo para programar reuniones de gran tamaño o
+  - Cree una o más cuentas de usuarios dedicados solo para programar grandes conferencias, o
 
-  - Alojar las cuentas de usuario del personal responsable de programar reuniones grandes en un grupo de reuniones de gran tamaño.
+  - Hospede las cuentas de usuario del personal responsable de programar grandes conferencias en un grupo de servidores de grandes conferencias.
 
-En cualquiera de los casos, las cuentas de usuario que se alojan en un grupo de reuniones de gran tamaño no se deben usar para iniciar sesión regularmente en Lync, excepto para programar reuniones.
+En cualquier caso, las cuentas de usuario que no están hospedadas en el grupo de servidores de grandes conferencias no deben usarse para iniciar sesión regularmente en Lync, salvo que sea para programar conferencias.
 
 </div>
 

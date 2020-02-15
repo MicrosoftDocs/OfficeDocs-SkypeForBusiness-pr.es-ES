@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla UserSite'
+title: 'Lync Server 2013: tabla UserSite'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183552
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e316fe33ac77784a681a71b9cabd0613bb1cc1b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47d416017afdc36eefaffd3269359bcd0192a0c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744270"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044372"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41744270"
 
 _**Última modificación del tema:** 2010-11-09_
 
-La tabla UserSite es una tabla de soporte. Cada registro representa un sitio de usuario definido en la configuración de red.
+La tabla UserSite es una tabla de apoyo. Cada registro representa un sitio de usuario definido en la configuración de red.
 
 
 <table>
@@ -59,20 +59,20 @@ La tabla UserSite es una tabla de soporte. Cada registro representa un sitio de 
 <tr class="odd">
 <td><p><strong>UserSiteKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
+<td><p>Principal</p></td>
 <td><p>Número único que identifica el sitio del usuario.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserSiteName</strong></p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Solo</p></td>
+<td><p>Única</p></td>
 <td><p>Nombre del sitio del usuario.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RegionKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
-<td><p>Tabla de la tabla a la que se hace referencia <a href="lync-server-2013-region-table.md">en Lync Server 2013</a>.</p></td>
+<td><p>Externa</p></td>
+<td><p>Referencia de la <a href="lync-server-2013-region-table.md">tabla region en Lync Server 2013</a>.</p></td>
 </tr>
 </tbody>
 </table>

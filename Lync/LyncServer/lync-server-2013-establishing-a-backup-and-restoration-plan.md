@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: establecimiento de un plan de copia de seguridad y restauración'
+title: 'Lync Server 2013: establecer un plan de copia de seguridad y restauración'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541499
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cee1c4571dafa4e513f42613de13205ecec9de42
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bbe142d697fc3d95772fb2d4ca758b8550054a8e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735267"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042527"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="establishing-a-backup-and-restoration-plan-for-lync-server-2013"></a>Establecer un plan de copia de seguridad y restauración para Lync Server 2013
+# <a name="establishing-a-backup-and-restoration-plan-for-lync-server-2013"></a>Establecimiento de un plan de copia de seguridad y restauración para Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41735267"
 
 _**Última modificación del tema:** 2013-02-17_
 
-Para crear un plan de copia de seguridad y restauración, siga estos pasos:
+Para crear un plan de copia de seguridad y restauración deberá seguir estos pasos:
 
   - Desarrollar el plan.
 
@@ -49,53 +49,53 @@ Para crear un plan de copia de seguridad y restauración, siga estos pasos:
 
 ## <a name="developing-a-backup-and-restoration-plan"></a>Desarrollar un plan de copia de seguridad y restauración
 
-Después de desarrollar la estrategia de copia de seguridad y restauración de Lync Server, Úsela para documentar un plan detallado de copia de seguridad y restauración. Su plan debe transmitir claramente las prioridades y los requisitos para realizar copias de seguridad de los datos y la configuración. Puede usar la información contenida en [establecer una estrategia de copia de seguridad y restauración para Lync server 2013](lync-server-2013-establishing-a-backup-and-restoration-strategy.md) y las hojas de cálculo de [copia de seguridad y restauración de Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md) para facilitar la documentación de su estrategia. Su plan debe contener también criterios para decidir cuándo y cómo restaurar el servicio.
+Después de desarrollar su estrategia de copia de seguridad y restauración para Lync Server, Úsela para documentar un plan de copia de seguridad y restauración detallado. Su plan debe explicar en detalle las prioridades y requisitos para hacer copias de seguridad de datos y configuraciones. Puede usar la información contenida en [establecer una estrategia de copia de seguridad y restauración para Lync server 2013](lync-server-2013-establishing-a-backup-and-restoration-strategy.md) y las hojas de [cálculo de copia de seguridad y restauración de Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md) para facilitar la documentación de su estrategia. Su plan deberá incluir también criterios para decidir cuándo y cómo restaurar el servicio.
 
-A medida que desarrolla su plan, debe tener en cuenta lo siguiente:
+A medida que desarrolla el plan, debe tener en cuenta lo siguiente:
 
-  - Cómo se recuperan los servidores en el nuevo hardware.
+  - Cómo se recuperarán los servidores en nuevo hardware.
 
-  - Cómo se recuperan los servicios que requieren una acción en la parte de varias áreas o departamentos empresariales.
+  - Cómo se recuperarán los servicios que requieran acciones por parte de varios departamentos o áreas de negocio.
 
-  - Cómo puede adquirir servidores de repuesto rápidamente.
+  - Cómo adquirir servidores de repuesto rápidamente.
 
-  - El tiempo que se tarda en recuperarse con su estrategia. Considere los requisitos de la organización para el objetivo de tiempo de recuperación (RTO).
+  - El tiempo que se tarda en completar la recuperación utilizando su estrategia. Considere los requisitos de la organización para el objetivo de tiempo de recuperación (RTO).
 
-Modifique los procedimientos de copia de seguridad y restauración de este tema, agregando y eliminando procedimientos según corresponda, para reflejar los servidores y componentes de su implementación. También puede agregar detalles apropiados, como la programación de la copia de seguridad, a los procedimientos apropiados para asegurarse de que la información no se ha descargado.
+Modifique los procedimientos de copia de seguridad y restauración en este tema, agregando y eliminando procedimientos según corresponda, para reflejar los servidores y los componentes de la implementación. También puede Agregar los detalles apropiados, como la programación de copia de seguridad, a los procedimientos apropiados para asegurarse de que la información no se ha desactivado.
 
 <div>
 
 
 > [!NOTE]  
-> Es recomendable crear scripts para tantos pasos como sea posible para garantizar la calidad y la reproducibilidad de los procedimientos.
+> Se recomienda crear scripts para tantos pasos como sea posible, para ayudar a garantizar la calidad y la reproducibilidad de los procedimientos.
 
 
 
 </div>
 
-En su plan, especifique quién es el responsable de revisar el plan, quién es el responsable de probar y validar los nuevos procedimientos o herramientas, y quién debe aprobar los cambios en el plan y los procedimientos relacionados.
+En su plan, especifique quién es responsable de revisar el plan, quién es responsable de probar y validar los nuevos procedimientos o herramientas, y quién debe aprobar los cambios en el plan y los procedimientos relacionados.
 
-Para asegurarse de que el plan de copia de seguridad y restauración cumple todos los objetivos y las prioridades establecidos, obtenga la aprobación de los responsables de la toma de decisiones empresariales y los responsables de las decisiones técnicas correspondientes de la organización antes de implementar el plan.
+Para asegurarse de que el plan de copia de seguridad y restauración cumple completamente todos los objetivos y las prioridades establecidos, obtenga la aprobación de los responsables de la toma de decisiones empresariales y los responsables de las decisiones técnicas de su organización antes de implementar el plan.
 
 </div>
 
 <div>
 
-## <a name="implementing-the-backup-and-restoration-plan"></a>Implementación del plan de copia de seguridad y restauración
+## <a name="implementing-the-backup-and-restoration-plan"></a>Implementar el plan de copia de seguridad y restauración
 
-Para implementar un plan de copia de seguridad y restauración, debe seguir estos pasos:
+Para implementar un plan de copia de seguridad y restauración es necesario seguir estos pasos:
 
   - Probar y validar el plan.
 
   - Comunicar el plan.
 
-  - Validación de las operaciones de copia de seguridad y restauración.
+  - Validar las operaciones de copia de seguridad y restauración.
 
 <div>
 
 ## <a name="testing-and-validating-the-plan"></a>Probar y validar el plan
 
-Los procedimientos descritos aquí se han probado y validado en un entorno de laboratorio. Para asegurarse de que estos u otros procedimientos funcionan en su entorno, debe probar y validar cada procedimiento que desee implementar. Complete las pruebas y la validación antes de enviar su plan para la aprobación final.
+Los procedimientos descritos aquí se han probado y validado en un entorno de laboratorio. Para asegurarse de que estos u otros procedimientos funcionan en su entorno, debe probar y validar cada procedimiento que pretenda implementar. Complete las pruebas y la validación antes de enviar el plan para la aprobación final.
 
 </div>
 
@@ -103,39 +103,39 @@ Los procedimientos descritos aquí se han probado y validado en un entorno de la
 
 ## <a name="communicating-the-plan"></a>Comunicar el plan
 
-El plan de copia de seguridad y restauración debería describir claramente quién implementa procedimientos e instrucciones paso a paso para llevar a cabo los procedimientos. Debe asegurarse de que todos los responsables de cualquier aspecto de la copia de seguridad y restauración entienden el plan, cómo se va a implementar y cuál es su función. Esto incluye todos los requisitos de implementación para lo siguiente:
+Su plan de copia de seguridad y restauración debe describir claramente quién implementa los procedimientos e incluir instrucciones paso por paso para llevar a cabo dichos procedimientos. Debe asegurarse de que todos los responsables de cualquier aspecto de la copia de seguridad y restauración comprenden el plan, cómo se va a implementar y cuál es su rol. Tenga en cuenta todos los requisitos de implementación para los siguientes aspectos:
 
-  - Copia de seguridad del servidor y del grupo.
+  - Copia de seguridad del grupo y del servidor.
 
-  - Restauración de servicio.
+  - Restauración del servicio.
 
-**Copia de seguridad del servidor y del grupo**
+**Copias de seguridad de servidores y grupos de servidores**
 
-El plan de copia de seguridad y restauración debe incluir toda la información necesaria para completar procedimientos de copia de seguridad de manera continua. La información principal que se debe transmitir a los miembros del equipo responsable incluye lo siguiente:
+El plan de copia de seguridad y restauración debe incluir toda la información necesaria para completar los procedimientos de copia de seguridad de forma continuada. Deberá comunicar a los miembros del equipo responsable una serie de informaciones básicas, entre ellas las siguientes:
 
-  - Equipo o persona (especificada como una persona o rol) responsable de realizar la copia de seguridad de cada servidor.
+  - Equipo o persona (especificado como una persona o rol) responsable de realizar la copia de seguridad de cada servidor.
 
-  - Programaciones específicas para realizar copias de seguridad de cada servidor.
+  - Programaciones específicas para hacer copias de seguridad de cada servidor.
 
   - Ubicaciones de copia de seguridad para cada tipo de datos (configuración, base de datos y recursos compartidos de archivos).
 
-  - Procedimientos de copia de seguridad que se deben usar, incluidas las herramientas necesarias para completar cada procedimiento.
+  - Procedimientos de copia de seguridad que se van a usar, incluidas las herramientas necesarias para completar cada procedimiento.
 
-  - Información necesaria para completar las copias de seguridad, como se explica en las [hojas de cálculo de copia de seguridad y restauración de Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).
+  - Información necesaria para completar las copias de seguridad, tal como se describe en las [hojas de cálculo de copia de seguridad y restauración de Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).
 
-  - Métodos de validación que se van a usar para ayudar a garantizar que se realicen copias de seguridad de los datos y la configuración correctamente y que estén disponibles para la restauración, que pueden incluir auditorías periódicas y restauraciones de prueba.
+  - Métodos de validación que se usan para ayudar a garantizar que se realicen copias de seguridad de los datos y la configuración correctamente y que estén disponibles para la restauración, lo que puede incluir auditorías periódicas y restauraciones de prueba.
 
-**Restauración del servicio**
+**Restauración de servicio**
 
-El plan de copia de seguridad y restauración debe incluir toda la información necesaria para restaurar el servicio, en caso de que uno o varios servidores experimenten una pérdida que hace que el servicio no esté disponible. La información principal que se debe transmitir a los miembros del equipo responsable incluye lo siguiente:
+El plan de copia de seguridad y restauración debe incluir toda la información necesaria para restaurar el servicio, en caso de que uno o varios servidores experimenten una pérdida que permita que el servicio no esté disponible. Deberá comunicar a los miembros del equipo responsable una serie de informaciones básicas, entre ellas las siguientes:
 
-  - Equipo o persona (especificada como una persona o un rol) responsable de determinar cuándo se necesita la restauración del servicio y los procedimientos que se deben usar para restaurar el servicio, así como el equipo o la persona responsable de implementar procedimientos para cada uno de los escenario de restauración.
+  - Equipo o persona (especificados como persona individual o rol) responsable de determinar cuándo se necesita restaurar el servicio, así como los procedimientos que se utilizarán para restaurarlo y el equipo o persona responsable de implementar los procedimientos para cada escenario de restauración.
 
-  - Criterios para determinar qué procedimientos de restauración son los más adecuados para una situación específica.
+  - Criterios para determinar qué procedimientos de restauración son los más apropiados para una situación concreta.
 
-  - Tiempo estimado para la restauración del objetivo de servicio y tiempo de recuperación (RTO) en cada escenario de restauración.
+  - Tiempo estimado para la restauración del servicio y el objetivo de tiempo de recuperación (RTO) en cada escenario de restauración.
 
-  - Procedimientos de restauración que se deben usar, incluidas las herramientas necesarias para completar cada procedimiento.
+  - Procedimientos de restauración que se utilizarán, incluyendo las herramientas necesarias para completar cada procedimiento
 
   - Información necesaria para restaurar los datos y la configuración. Las hojas de cálculo se proporcionan en las [hojas de cálculo de copia de seguridad y restauración de Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).
 
@@ -143,19 +143,19 @@ El plan de copia de seguridad y restauración debe incluir toda la información 
 
 <div>
 
-## <a name="validating-backup-and-restoration-operations"></a>Validación de las operaciones de copia de seguridad y restauración
+## <a name="validating-backup-and-restoration-operations"></a>Validar operaciones de copia de seguridad y restauración
 
-Después de completar los esfuerzos de copia de seguridad inicial en el entorno de producción y en intervalos especificados (según se cubre en el plan de copia de seguridad y restauración), debe comprobar lo siguiente:
+Tras completar las tareas iniciales de copia de seguridad en su entorno de producción y a intervalos especificados (conforme a su plan de copia de seguridad y restauración), deberá verificar lo siguiente:
 
-  - Las copias de seguridad se producen según sea necesario.
+  - Las copias de seguridad se están haciendo según lo requerido.
 
-  - Los datos y la configuración de la copia de seguridad son accesibles.
+  - Se puede tener acceso a los datos y la configuración de la copia de seguridad.
 
-  - Los procedimientos de restauración se pueden realizar en las horas de objetivo de tiempo de recuperación (RTO) especificadas en el plan de copia de seguridad y restauración, y los resultados cumplen todos los requisitos empresariales.
+  - Los procedimientos de restauración pueden realizarse dentro de las horas de objetivo de tiempo de recuperación (RTO) especificadas en el plan de copia de seguridad y restauración, y los resultados cumplen todos los requisitos empresariales.
 
-  - Las hojas de cálculo de copia de seguridad se han completado y verificado, y se almacenan en un lugar seguro. Estas hojas de cálculo se proporcionan en las [hojas de cálculo de copia de seguridad y restauración de Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).
+  - Las copias de seguridad de las hojas se han completado, verificado y almacenado en una ubicación segura. Estas hojas de cálculo se proporcionan en las [hojas de cálculo de copia de seguridad y restauración de Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).
 
-  - Los procedimientos de restauración han sido probados y verificados para funcionar según lo esperado, según lo especificado en el plan de copia de seguridad y restauración.
+  - Los procedimientos de restauración se han probado y se ha verificado que funciona según lo esperado y conforme al plan de copia de seguridad y restauración.
 
 </div>
 
@@ -163,9 +163,9 @@ Después de completar los esfuerzos de copia de seguridad inicial en el entorno 
 
 <div>
 
-## <a name="maintaining-the-backup-and-restoration-plan"></a>Mantenimiento del plan de copia de seguridad y restauración
+## <a name="maintaining-the-backup-and-restoration-plan"></a>Mantener el plan de copia de seguridad y restauración
 
-Una topología de Lync Server es un entorno dinámico que cambia con su organización. Reevalúe el plan de copia de seguridad y restauración a medida que su organización cambie y revise periódicamente para asegurarse de que continúa satisfaciendo las necesidades de su empresa.
+Una topología de Lync Server es un entorno dinámico que cambia con la organización. Reevalúe el plan de copia de seguridad y restauración a medida que su organización cambie y revise periódicamente para asegurarse de que sigue cumpliendo las necesidades de su empresa.
 
 </div>
 

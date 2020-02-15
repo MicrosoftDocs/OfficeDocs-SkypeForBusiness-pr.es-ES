@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Definir una puerta de enlace RTC para un sitio de sucursal'
+title: 'Lync Server 2013: definir una puerta de enlace RTC para un sitio de sucursal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184724
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4445647e6ffcbfc2cfc137bd120d0aced6a9908
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ae74ead7eb481a6551156fc0ce228c743fdf1b6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728530"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043672"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41728530"
 
 _**Última modificación del tema:** 2012-09-21_
 
-Realice este procedimiento en el sitio central, que contiene al menos un grupo de servidores front-end o un servidor Standard Edition.
+Lleve a cabo este procedimiento en el sitio central, que contiene al menos un grupo de servidores front-end o un servidor Standard Edition.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Antes de llevar a cabo el procedimiento, deben cumplirse las condiciones siguientes: 
+> Antes de llevar a cabo el procedimiento, se deben cumplir las siguientes condiciones: 
 > <UL>
 > <LI>
 > <P>El software de&nbsp;comunicaciones de Lync Server 2013 debe estar configurado en el sitio central.</P>
@@ -58,23 +58,23 @@ Realice este procedimiento en el sitio central, que contiene al menos un grupo d
 
 ## <a name="to-define-a-pstn-gateway"></a>Para definir una puerta de enlace RTC
 
-1.  Haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server**y, a continuación, haga clic en **generador de topología de Lync Server**.
+1.  Haga clic sucesivamente en **Inicio**, **Todos los programas**, **Microsoft Lync Server** y **Lync Server Topology Builder**.
 
-2.  En el árbol de consola, expanda el sitio central, expanda **sitios de sucursal**, expanda el nombre del sitio de la sucursal para el que desea definir una puerta de enlace de red telefónica conmutada (RTC) y, a continuación, expanda **componentes compartidos**.
+2.  En el árbol de consola, expanda el sitio central, expanda **Sucursales**, expanda el nombre de la sucursal para la que desee definir una puerta de enlace de la red telefónica conmutada (RTC) y, a continuación, expanda **Componentes compartidos**.
 
-3.  Haga clic con el botón secundario en **puertas de enlace RTC**y luego haga clic en **nueva puerta de enlace IP/PSTN**.
+3.  Haga clic con el botón secundario en **Puertas de enlace RTC** y, a continuación, en **Nueva puerta de enlace RTC/IP**.
 
-4.  En el cuadro de diálogo **definir nueva puerta de enlace IP/RTC** , haga clic en **FQDN o dirección IP**de la puerta de enlace y, a continuación, escriba el nombre de dominio completo (FQDN) o la dirección IP de la puerta de enlace que está implementando en el sitio de la sucursal.
+4.  En el cuadro de diálogo **Definir la nueva puerta de enlace RTC/IP**, haga clic en **Dirección IP o FQDN de la puerta de enlace** y, a continuación, escriba el nombre de dominio completo (FQDN) o la dirección IP de la puerta de enlace que está implementando en la sucursal.
 
-5.  Haga clic en **Puerto de escucha para la puerta de enlace IP/RTC**y, a continuación, acepte los valores predeterminados.
+5.  Haga clic en **Puerto de escucha de la puerta de enlace RTC/IP** y acepte los valores predeterminados.
 
-6.  En la lista **Protocolo de transporte SIP** , haga clic en el protocolo de transporte que usa la puerta de enlace y, después, haga clic en **Aceptar**.
+6.  En la lista **Protocolo de transporte SIP**, haga clic en el protocolo de transporte que usa la puerta de enlace y, a continuación, haga clic en **Aceptar**.
     
     <div>
     
 
     > [!NOTE]  
-    > Por razones de seguridad, le recomendamos encarecidamente que use una puerta de enlace PSTN que admita la seguridad de la capa de transporte (TLS).
+    > Por motivos de seguridad, se recomienda encarecidamente usar una puerta de enlace RTC compatible con Seguridad de la capa de transporte (TLS).
 
     
     </div>
@@ -83,13 +83,13 @@ Realice este procedimiento en el sitio central, que contiene al menos un grupo d
 
 
 > [!TIP]  
-> Use el cmdlet <STRONG>set-CsPstnGateway</STRONG> para modificar las propiedades de una puerta de enlace RTC. Para obtener más información, vea <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsPstnGateway">set-CsPstnGateway</A>en la ayuda del shell de administración de Lync Server.
+> Use el cmdlet Set-<STRONG>Set-CsPstnGateway</STRONG> para modificar las propiedades de una puerta de enlace RTC. Para obtener más información, vea <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsPstnGateway">set-CsPstnGateway</A>en la ayuda del shell de administración de Lync Server.
 
 
 
 </div>
 
-**Paso siguiente** para la resistencia del sitio de sucursal: [configuración de usuarios para la resistencia de sitios de sucursal en Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
+**Siguiente paso** para la resistencia de sitios de sucursal: [configuración de usuarios para la resistencia de sitios de sucursal en Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
 
 </div>
 

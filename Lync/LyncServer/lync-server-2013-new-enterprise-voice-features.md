@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Nuevas características de la telefonía IP empresarial'
+title: 'Lync Server 2013: nuevas características de Enterprise Voice'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 92c1c264b9ffa5459962b2b6e915ea0fef2cf775
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 14f3f2429183e76a120fed1ef7437f18bdb8639f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757514"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042367"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-enterprise-voice-features-in-lync-server-2013"></a>Nuevas características de la telefonía IP empresarial en Lync Server 2013
+# <a name="new-enterprise-voice-features-in-lync-server-2013"></a>Nuevas características de Enterprise Voice en Lync Server 2013
 
 </div>
 
@@ -39,21 +39,21 @@ _**Última modificación del tema:** 2013-05-01_
 
 Lync Server 2013 presenta varias características nuevas de administración de llamadas y enrutamiento que mejoran la telefonía IP empresarial.
 
-Lync Server 2013 admite varios troncos entre servidores de mediación y puertas de enlace. Un *tronco* es una asociación lógica entre un número de puerto y un servidor de mediación con un número de puerto y una puerta de enlace. Esto significa que un servidor de mediación puede tener varios troncos en diferentes puertas de enlace y un Gateway puede tener varios troncos en diferentes servidores de mediación. El enrutamiento de interconexión permite que Lync Server 2013 pueda interconectar un IP-PBX con una puerta de enlace de red telefónica conmutada (RTC) o para interconectar varios sistemas IP-PBX. Lync Server 2013 actúa como el pegamento (es decir, la interconexión) entre diferentes sistemas de telefonía.
+Lync Server 2013 admite varios troncos entre servidores de mediación y puertas de enlace. Un *tronco* es una asociación lógica entre un número de puerto y un servidor de mediación con un número de puerto y una puerta de enlace. Esto significa que un servidor de mediación puede tener varios troncos en puertas de enlace diferentes y una puerta de enlace puede tener varios troncos en diferentes servidores de mediación. El enrutamiento entre tronco permite que Lync Server 2013 pueda interconectar un IP-PBX con una puerta de enlace de red telefónica conmutada (RTC) o interconectar varios sistemas IP-PBX. Lync Server 2013 actúa como el pegamento (es decir, la interconexión) entre diferentes sistemas de telefonía.
 
-Microsoft Lync Server 2013 realiza mejoras en las áreas de desvío de llamadas, llamadas simultáneas, administración de correo de voz y presentación de identificación de llamadas. Estas características enriquecen la experiencia de llamada de voz empresarial.
+Microsoft Lync Server 2013 realiza mejoras en las áreas del desvío de llamadas, las llamadas simultáneas, la administración del correo de voz y la presentación del identificador de llamada. Estas características enriquecen la experiencia de llamadas de telefonía IP empresarial.
 
-Lync Server 2013 incorpora las siguientes mejoras nuevas para telefonía IP empresarial:
+Lync Server 2013 presenta las siguientes mejoras nuevas para la telefonía IP empresarial:
 
   - [Nuevas características de llamada en Lync Server 2013](lync-server-2013-new-call-features.md)
 
-  - [Nueva característica Id. de autor de llamada en Lync Server 2013](lync-server-2013-new-caller-id-feature.md)
+  - [Nueva característica del identificador de llamada en Lync Server 2013](lync-server-2013-new-caller-id-feature.md)
 
-  - [Característica nueva de correo de voz en Lync Server 2013](lync-server-2013-new-voice-mail-feature.md)
+  - [Nueva característica de correo de voz en Lync Server 2013](lync-server-2013-new-voice-mail-feature.md)
 
   - [Nueva característica de tronco en Lync Server 2013](lync-server-2013-new-trunk-feature.md)
 
-  - [Nueva característica de troncos cruzados en Lync Server 2013](lync-server-2013-new-intertrunk-feature.md)
+  - [Nueva característica de tronco cruzado en Lync Server 2013](lync-server-2013-new-intertrunk-feature.md)
 
   - [Nuevas características de administración de llamadas en Lync Server 2013](lync-server-2013-new-call-management-features.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: uso de informes de supervisión'
+title: 'Lync Server 2013: usar informes de supervisión'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5662ba6df2f270355a3c7f7532c3283cc033d73d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c37cd0f96ea0dd8e3fa63a851c3c93caf5988c7d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744070"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044282"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-monitoring-reports-in-lync-server-2013"></a>Usar informes de supervisión en Lync Server 2013
+# <a name="using-monitoring-reports-in-lync-server-2013"></a>Uso de informes de supervisión en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41744070"
 
 _**Última modificación del tema:** 2012-10-21_
 
-Lync Server 2013 incluye un conjunto de informes estándar publicados por Microsoft SQL Server Reporting Services. Estos informes, a los que se puede obtener acceso con un explorador web, proporcionan información de uso, diagnóstico de llamadas y calidad de medios, basada en la información del registro detallado de llamadas (CDR) y la calidad de la experiencia (QoE) almacenada en las bases de datos de CDR y QoE.
+Lync Server 2013 incluye un conjunto de informes estándar que publica Microsoft SQL Server Reporting Service. Estos informes, a los que se puede acceder con un explorador web, proporcionan información de uso, diagnóstico de llamadas y calidad de medios, basada en la información del registro detallado de llamadas (CDR) y la calidad de la experiencia (QoE) almacenada en las bases de datos de CDR y QoE.
 
 Para poder usar estos informes, debe instalar los informes de supervisión en un equipo que ejecute una instancia de SQL Server.
 
@@ -45,15 +45,15 @@ Para poder usar estos informes, debe instalar los informes de supervisión en un
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Usar el panel de supervisión de Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)   proporciona a los administradores una breve descripción general de su estado del sistema y el uso del sistema.
+  - [El uso del panel de supervisión en Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)   proporciona a los administradores una introducción rápida al estado del sistema y al uso del sistema.
 
-  - [Los informes de uso del sistema de Lync Server 2013](lync-server-2013-system-usage-reports.md)   proporcionan información de uso del sistema basada en datos CDR recopilados por Lync Server.
+  - [Los informes de uso del sistema en Lync Server 2013](lync-server-2013-system-usage-reports.md)   proporcionan información sobre el uso del sistema según los datos CDR recopilados por Lync Server.
 
-  - [Los informes de diagnósticos de llamadas (por usuario) en Lync Server 2013](lync-server-2013-call-diagnostic-reports-per-user.md)   proporcionan información por usuario acerca de sesiones de punto a punto con errores y conferencias.
+  - [Los informes de diagnósticos de llamadas (por usuario) en Lync Server 2013](lync-server-2013-call-diagnostic-reports-per-user.md)   proporcionan información por usuario sobre sesiones de conferencia y de punto a punto con errores.
 
-  - [Los informes de diagnósticos de llamadas en Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)   proporcionan información de Resumen y datos de diagnóstico para sesiones de punto a punto con errores.
+  - [Los informes de diagnósticos de llamadas en Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)   proporcionan información de Resumen y datos de diagnóstico para sesiones de conferencia y de punto a punto con errores.
 
-  - [Los informes de diagnóstico de calidad multimedia de Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)   proporcionan información sobre la calidad de las llamadas, así como información de diagnóstico y solución de problemas para las llamadas fallidas.
+  - [Los informes de diagnóstico de calidad de medios en Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)   proporcionan información sobre la calidad de las llamadas, así como información de diagnóstico y solución de problemas para las llamadas con error.
 
 </div>
 
@@ -65,7 +65,7 @@ Los informes de supervisión muestran únicamente un número limitado de registr
 
 Además de estos controles, también se puede ir a cualquier página del conjunto de datos escribiendo el número de página en el cuadro **Página actual** y presionando la tecla ENTRAR.
 
-Además de poder avanzar por los datos de página en página, todos los informes incluyen también la capacidad limitada de buscar registros. Para buscar registros según un valor determinado, escriba dicho valor en el cuadro **Buscar** y haga clic en **Buscar**. El informe empieza a buscar en los datos y se detiene la primera vez que aparezca el valor escrito en **Buscar**. Para buscar el siguiente registro que cumpla los criterios de búsqueda, haga clic en **Siguiente**.
+Además de poder avanzar por los datos de página en página, todos los informes incluyen también la capacidad limitada de buscar registros. Para buscar registros según un valor determinado, escriba dicho valor en el cuadro **Buscar** y haga clic en **Buscar**. El informe empieza a buscar en los datos y se detiene la primera vez que aparezca el valor escrito en **Buscar**. Para encontrar el siguiente registro que cumpla con los criterios de búsqueda, haga clic en **Siguiente**.
 
 Tal y como se ha mencionado, los informes de supervisión ofrecen únicamente las funciones de búsqueda más básicas; así, por ejemplo, no se puede especificar el campo en el que buscar el valor, sino que se buscan automáticamente los valores coincidentes en todos los campos de todos los registros. Tampoco se pueden usar caracteres comodín en las búsquedas y en todos los casos se buscarán valores parciales. Esto quiere decir que, si se busca 111, la búsqueda detectará no solo el valor 111, sino también los valores 11100, 811, 3112, 611A5B y cualquier otro campo que incluya el valor 111.
 
@@ -77,7 +77,7 @@ Cada informe está configurado para mostrar un número de registros predetermina
 
 ## <a name="filtering-data"></a>Filtrado de datos
 
-Probablemente en alguna ocasión quiera buscar en un subconjunto de registros únicamente (por ejemplo, solo las sesiones punto a punto frente a las sesiones punto a punto y las sesiones de conferencia juntas). De igual forma, otras veces necesitará reducir el número de registros que la búsqueda devuelve. Un informe solo puede mostrar 1.000 registros en un conjunto de datos de manera predeterminada. Para abordar esta situación, la mayoría de los informes incluye una serie de opciones de filtrado. Por ejemplo, si quiere ver únicamente los registros correspondientes al período de tiempo comprendido entre el 1 y el 15 de enero de 2011, puede especificar la fecha 1 de enero de 2011 en el cuadro **Desde** y la fecha 15 de enero de 2011 en el cuadro **Hasta**. Si después hace clic en **Ver informe**, los datos obtenidos se limitarán a las actividades que ocurrieron entre el 1 y el 15 de enero de 2011.
+Probablemente en alguna ocasión quiera buscar en un subconjunto de registros únicamente (por ejemplo, solo las sesiones punto a punto frente a las sesiones punto a punto y las sesiones de conferencia juntas). De igual forma, otras veces necesitará reducir el número de registros que la búsqueda devuelve. Un informe solo puede mostrar 1.000 registros en un conjunto de datos de manera predeterminada. Para abordar esta situación, la mayoría de los informes incluye una serie de opciones de filtrado. Por ejemplo, si quiere ver únicamente los registros correspondientes al período de tiempo comprendido entre el 1 y el 15 de de enero de 2011, puede especificar la fecha 1 de enero de 2011 en el cuadro **Desde** y la fecha 15 de enero de 2011 en el cuadro **Hasta**. Si después hace clic en **Ver informe**, los datos obtenidos se limitarán a las actividades que ocurrieron entre el 1 y el 15 de enero de 2011.
 
 Los filtros de que disponga variarán en función del informe que esté viendo. Para obtener información detallada sobre un informe en particular, consulte el tema de ayuda correspondiente.
 
@@ -97,15 +97,15 @@ Los informes de supervisión ofrecen al menos dos modos distintos de exportar lo
 
   - Archivo MHTML (archivo web)
 
-  - Archivo de Excel
+  - Excel
 
   - Archivo TIFF
 
-  - Archivo de Word
+  - Word
 
 Una vez seleccionado el formato, haga clic en **Exportar**. Cuando se abra el cuadro de diálogo **Descarga de archivos**, haga clic en **Guardar**. En el cuadro de diálogo **Guardar como**, seleccione una carpeta de destino, escriba un nombre de archivo y haga clic en **Guardar**.
 
-Si tiene Microsoft OneNote instalado, también puede optar por copiar los datos del informe a OneNote. Para ello, haga clic con el botón secundario en el botón **Ver informe** en la barra de tareas. En el cuadro de diálogo **Seleccionar la ubicación en OneNote**, seleccione la sección de OneNote en la que quiera copiar los datos y, luego, haga clic en **Aceptar**.
+Si tiene Microsoft OneNote instalado, también puede optar por copiar los datos del informe a OneNote. Para ello, haga clic con el botón secundario en el botón **Ver informe** en la barra de tareas. En el cuadro de diálogo **Seleccionar la ubicación en OneNote**, seleccione la sección de OneNote en la que quiera copiar los datos y, a continuación, haga clic en **Aceptar**.
 
 </div>
 

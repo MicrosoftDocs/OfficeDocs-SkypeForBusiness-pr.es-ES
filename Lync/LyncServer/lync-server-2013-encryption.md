@@ -12,16 +12,16 @@ ms:contentKeyID: 59893874
 ms.date: 09/14/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f4b655ff632a50d2c28451a577f5be03bfabc82
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5cc25c66ce807e796cf7e510d89a5a623f98eb49
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735620"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042247"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41735620"
 
 _**Última modificación del tema:** 2017-09-14_
 
-Microsoft Lync Server 2013 usa TLS y MTLS para cifrar los mensajes instantáneos. Todo el tráfico de servidor a servidor requiere MTLS, independientemente de si el tráfico se limita a la red interna o de si cruza el perímetro de la red interna. TLS es opcional, pero se recomienda encarecidamente entre el servidor de mediación y la puerta de enlace multimedia. Si en este vínculo está configurado TLS, se requiere MTLS. Por lo tanto, la puerta de enlace debe estar configurada con un certificado de una entidad emisora de confianza en el servidor de mediación.
+Microsoft Lync Server 2013 usa TLS y MTLS para cifrar los mensajes instantáneos. Todo el tráfico de servidor a servidor requiere MTLS, independientemente de si el tráfico se limita a la red interna o atraviesa el perímetro de la red interna. TLS es opcional, pero se recomienda encarecidamente entre el servidor de mediación y la puerta de enlace multimedia. Si se configura TLS en este vínculo, se requiere MTLS. Por lo tanto, la puerta de enlace debe estar configurada con un certificado de una entidad de certificación que sea de confianza para el servidor de mediación.
 
 <div>
 
 
 > [!NOTE]  
-> En 2014 se publicó un aviso de seguridad sobre SSL 3.0. La opción de deshabilitar SSL 3,0 en Lync Server 2013 es una opción admitida. Para obtener más información sobre el asesoramiento de seguridad <A class=uri href="https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/">https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/</A>, consulte.
+> Se publicó un aviso de seguridad sobre SSL 3,0 en 2014. La deshabilitación de SSL 3,0 en Lync Server 2013 es una opción admitida. Para obtener más información sobre el aviso de seguridad <A class=uri href="https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/">https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/</A>, consulte.
 
 
 
@@ -59,7 +59,7 @@ Microsoft Lync Server 2013 usa TLS y MTLS para cifrar los mensajes instantáneos
 </thead>
 <tbody>
 <tr class="odd">
-<td>Para asegurarse de que se usa el protocolo criptográfico más sólido, Lync Server 2013 ofrecerá protocolos de cifrado TLS en el siguiente orden a los clientes: <strong>tls 1,2</strong> , <strong>TLS 1,1</strong>, <strong>TLS 1,0</strong>. TLS es un aspecto crítico de Lync Server 2013 y, por lo tanto, es necesario para mantener un entorno compatible.</td>
+<td>Para asegurarse de que se usa el protocolo criptográfico más seguro, Lync Server 2013 ofrecerá protocolos de cifrado TLS en el siguiente orden a los clientes: <strong>tls 1,2</strong> , <strong>TLS 1,1</strong>, <strong>TLS 1,0</strong>. TLS es un aspecto crítico de Lync Server 2013 y, por lo tanto, es necesario para mantener un entorno compatible.</td>
 </tr>
 </tbody>
 </table>
@@ -67,9 +67,9 @@ Microsoft Lync Server 2013 usa TLS y MTLS para cifrar los mensajes instantáneos
 
 </div>
 
-Los requisitos para el tráfico de cliente a cliente dependen de si ese tráfico atraviesa el firewall interno de la empresa. El tráfico estrictamente interno puede usar TLS, en cuyo caso el mensaje instantáneo se cifra, o TCP, en cuyo caso no lo es.
+Los requisitos para el tráfico entre clientes dependen de si el tráfico atraviesa el firewall interno de la empresa. El tráfico estrictamente interno puede utilizar TLS, en cuyo caso se cifran los mensajes instantáneos, o TCP, en cuyo caso no se cifran.
 
-En la tabla siguiente se resumen los requisitos de protocolo para cada tipo de tráfico.
+En la tabla siguiente, se resumen los requisitos de protocolo para cada tipo de tráfico.
 
 ### <a name="traffic-protection"></a>Protección de tráfico
 
@@ -86,7 +86,7 @@ En la tabla siguiente se resumen los requisitos de protocolo para cada tipo de t
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Servidor a servidor</p></td>
+<td><p>De servidor a servidor</p></td>
 <td><p>MTLS</p></td>
 </tr>
 <tr class="even">
@@ -95,7 +95,7 @@ En la tabla siguiente se resumen los requisitos de protocolo para cada tipo de t
 </tr>
 <tr class="odd">
 <td><p>Mensajería instantánea y presencia</p></td>
-<td><p>TLS (si está configurado para TLS)</p></td>
+<td><p>TLS (si se ha configurado para TLS)</p></td>
 </tr>
 <tr class="even">
 <td><p>Audio, vídeo y uso compartido de escritorio</p></td>
@@ -121,19 +121,19 @@ En la tabla siguiente se resumen los requisitos de protocolo para cada tipo de t
 
 ## <a name="media-encryption"></a>Cifrado de medios
 
-El tráfico de medios se cifra mediante RTP seguro (SRTP), que es un perfil de protocolo de transporte en tiempo real (RTP) que proporciona al tráfico RTP confidencialidad, autenticación y protección contra los ataques de reproducción. Además, los medios que fluyen en ambas direcciones entre el servidor de mediación y el servidor interno del próximo salto también se cifran mediante SRTP. Los medios que fluyen en las dos direcciones entre el servidor de mediación y una puerta de enlace multimedia no están cifrados de forma predeterminada. El servidor de mediación puede admitir el cifrado hacia la puerta de enlace multimedia, pero la puerta de enlace debe admitir MTLS y el almacenamiento de un certificado.
+El tráfico de medios se cifra mediante RTP seguro (SRTP), que es un protocolo de transporte en tiempo real (RTP) que proporciona al tráfico RTP confidencialidad, autenticación y protección contra los ataques de reproducción. Además, los medios que fluyen en ambas direcciones entre el servidor de mediación y el servidor interno del próximo salto también se cifran mediante SRTP. Los medios que fluyen en ambas direcciones entre el servidor de mediación y una puerta de enlace multimedia no están cifrados de forma predeterminada. El servidor de mediación puede admitir el cifrado de los medios que fluyen hacia la puerta de enlace multimedia, pero la puerta de enlace debe admitir MTLS y el almacenamiento de un certificado.
 
 <div>
 
 
 > [!NOTE]  
-> El audio/vídeo (A/V) es compatible con la nueva versión de Windows Live Messenger. Si está implementando la Federación de A/V con Windows Live Messenger, también debe modificar el nivel de cifrado de Lync Server. De manera predeterminada, el nivel de cifrado es obligatorio. Debe cambiar esta configuración para que sea compatible con el shell de administración de Lync Server. Para obtener más información, vea <A href="lync-server-2013-deploying-external-user-access.md">implementar el acceso de usuarios externos en Lync Server 2013</A> en la documentación de implementación.
+> El audio y vídeo (A/V) es compatible con la nueva versión de Windows Live Messenger. Si va a implementar la Federación de A/V con Windows Live Messenger, también debe modificar el nivel de cifrado de Lync Server. De forma predeterminada, el nivel de cifrado es Requerido. Debe cambiar esta configuración a compatible con el shell de administración de Lync Server. Para obtener más información, consulte <A href="lync-server-2013-deploying-external-user-access.md">Deploying external User Access in Lync Server 2013</A> en la documentación sobre implementación.
 
 
 
 </div>
 
-El tráfico de audio y vídeo no se cifra entre Microsoft Lync 2013 y los clientes de Windows Live.
+El tráfico de medios de audio y vídeo no está cifrado entre los clientes de Microsoft Lync 2013 y Windows Live.
 
 </div>
 
@@ -141,7 +141,7 @@ El tráfico de audio y vídeo no se cifra entre Microsoft Lync 2013 y los client
 
 ## <a name="fips"></a>FIPS
 
-Lync Server 2013 y Microsoft Exchange Server 2013 funcionan con los algoritmos estándar federal de procesamiento de información (FIPS) 140-2 si los sistemas operativos Windows Server están configurados para usar los algoritmos FIPS 140-2 para el cifrado de sistema. Para implementar la compatibilidad con FIPS, debe configurar cada servidor que ejecute Lync Server 2013 de soporte técnico. Para obtener más información sobre el uso de los algoritmos compatibles con FIPS y cómo implementar la compatibilidad con FIPS, consulte el artículo 811833 de Microsoft Knowledge base, los efectos de habilitar la configuración de seguridad "criptografía de sistema: usar algoritmos compatibles con FIPS para cifrado, hash y firma" en Windows XP [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)y en versiones posteriores de Windows en. Para obtener más información sobre las limitaciones y la compatibilidad de FIPS 140-2 en Exchange 2010, consulte Exchange 2010 SP1 y la compatibilidad [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)con los algoritmos compatibles con FIPS en.
+Lync Server 2013 y Microsoft Exchange Server 2013 operan con compatibilidad con algoritmos estándar federal de procesamiento de información (FIPS) 140-2 si los sistemas operativos Windows Server están configurados para usar los algoritmos FIPS 140-2 para la criptografía de sistema. Para implementar la compatibilidad con FIPS, debe configurar todos los servidores que ejecuten Lync Server 2013 para que lo admitan. Para obtener más información sobre el uso de los algoritmos compatibles con FIPS y cómo implementar la compatibilidad con FIPS, consulte el artículo 811833 de Microsoft Knowledge base, los efectos de habilitar la configuración de seguridad "criptografía de sistema: usar algoritmos compatibles FIPS para cifrado, hash y firma" en Windows XP y [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)en versiones posteriores de Windows en. Para obtener más información sobre las limitaciones y la compatibilidad de FIPS 140-2 en Exchange 2010, consulte Exchange 2010 SP1 y la compatibilidad [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)con algoritmos compatibles con FIPS en.
 
 </div>
 

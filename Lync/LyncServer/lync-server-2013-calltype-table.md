@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla CallType'
+title: 'Lync Server 2013: tabla CallType'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185019
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98fd74831b90d88c7adc473c51ca88940eb34f18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f90be73c63921ebe9971abae85b2da22e76a560
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743200"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044212"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41743200"
 
 _**Última modificación del tema:** 2012-09-28_
 
-La tabla CallType es una tabla estática que almacena la lista de posibles tipos de llamadas.
+La tabla CallType es una tabla estática donde se almacena la lista de posibles tipos de llamada.
 
 
 <table>
@@ -59,7 +59,7 @@ La tabla CallType es una tabla estática que almacena la lista de posibles tipos
 <tr class="odd">
 <td><p><strong>CallTypeId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
+<td><p>Principal</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -68,12 +68,12 @@ La tabla CallType es una tabla estática que almacena la lista de posibles tipos
 <td></td>
 <td><p>Valores permitidos:</p>
 <ul>
-<li><p>0--desconocido</p></li>
-<li><p>1: mensajería instantánea</p></li>
-<li><p>2: uso compartido de aplicaciones</p></li>
-<li><p>3: audio</p></li>
-<li><p>4: audio y vídeo</p></li>
-<li><p>5: transferencia de archivos</p></li>
+<li><p>0 -- Desconocido</p></li>
+<li><p>1 – Mensajería instantánea</p></li>
+<li><p>2--uso compartido de aplicaciones</p></li>
+<li><p>3 -- Audio</p></li>
+<li><p>4 – Audio y vídeo</p></li>
+<li><p>5 – Transferencia de archivos</p></li>
 </ul></td>
 </tr>
 </tbody>

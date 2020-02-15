@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: nuevo-CsAddressBookConfiguration para la administración de libretas de direcciones'
+title: 'Lync Server 2013: New-CsAddressBookConfiguration para la administración de la libreta de direcciones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184985
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e69c1ea9c68dfacb68ada70d4f7643b2777f062f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aa0098d3a92649031077fed5110d501316370379
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765771"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043012"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>Nuevo: CsAddressBookConfiguration para la administración de libretas de direcciones en Lync Server 2013
+# <a name="new-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>New-CsAddressBookConfiguration para la administración de la libreta de direcciones en Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41765771"
 
 _**Última modificación del tema:** 2012-11-01_
 
-¿Quién puede ejecutar este cmdlet? de forma predeterminada, los miembros de los siguientes grupos tienen autorización para ejecutar el cmdlet New-CsAddressBookConfiguration de forma local: RTCUniversalServerAdmins. Para devolver una lista de todas las funciones de control de acceso basado en roles (RBAC) a las que se ha asignado este cmdlet (incluidos los roles RBAC que haya creado usted mismo), ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:
+Quiénes pueden ejecutar este cmdlet: De forma predeterminada, los miembros de los siguientes grupos tienen autorización para ejecutar el cmdlet New-CsAddressBookConfiguration localmente: RTCUniversalServerAdmins. Para devolver una lista de todos los roles de control de acceso basado en roles (RBAC) a los que se asignó este cmdlet (incluido cualquier otro rol RBAC personalizado que usted mismo haya creado), inicie el siguiente comando en el símbolo del sistema de Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsAddressBookConfiguration"}
 
-El cmdlet New-CsAddressBookConfiguration crea una nueva configuración para administrar el comportamiento de la libreta de direcciones. Específico de este cmdlet es la capacidad de definir si el servicio de libreta de direcciones crea los archivos de descarga del cliente, cómo y si se usan las reglas de normalización, cuánto tiempo se conservan los archivos Delta y Delta compactos, el tamaño de archivo Delta antes de incorporar una nueva creación completa de archivos, qué hora del día en que se crea la libreta completa de direcciones del archivo y qué debe ser el interno para la sincronización de la información de la base de datos de usuario.
+El cmdlet New-CsAddressBookConfiguration crea una nueva configuración para administrar el comportamiento de la libreta de direcciones. Específico de este cmdlet es la capacidad de definir si el servicio de libreta de direcciones crea los archivos de descarga del cliente, cómo y si se usan las reglas de normalización, cuánto tiempo deben conservarse los archivos Delta y Delta compactos, el tamaño del archivo Delta antes de incorporar una nueva creación completa de archivos, qué hora del día en que se crea la libreta de direcciones completa del archivo y cuál es el elemento interno que debe estar destinado a la sincronización de la información de la base de datos de usuario.
 
 Por ejemplo:
 

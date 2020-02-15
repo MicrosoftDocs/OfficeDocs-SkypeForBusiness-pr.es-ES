@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Nuevas características de archivado'
+title: 'Lync Server 2013: nuevas características de archivado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1509a0857b54673ab20783f69b34b59c6d2afde8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf8c632fa5858eaf35464e9885e65343bc699e54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765841"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043812"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -39,27 +39,27 @@ _**Última modificación del tema:** 2012-10-09_
 
 El archivado en Lync Server 2013 puede archivar los siguientes tipos de contenido:
 
-  - Mensajes instantáneos de punto a punto
+  - Mensajes instantáneos de punto a punto.
 
-  - Conferencias (reuniones) que son mensajes instantáneos de varios participantes
+  - Conferencias (reuniones) que incluyen mensajes instantáneos de varios participantes.
 
-  - Contenido de conferencias, como contenido que se carga (por ejemplo, documentos de la reunión) y contenido relacionado con el evento (por ejemplo, los usuarios que se unen o abandonan el evento, la carga de recursos compartidos y los cambios en la visibilidad)
+  - Contenido de conferencias, incluido el contenido que se ha cargado (por ejemplo, documentos) y el contenido relacionado con los eventos (por ejemplo, usuarios que se unen o abandonan la conferencia, la carga de recursos compartidos y los cambios de visibilidad).
 
-Además, el archivado en Lync Server 2013 ofrece nuevas características que mejoran la implementación y la eficacia de las operaciones. Estas nuevas características constan de:
+Además, el archivado en Lync Server 2013 proporciona nuevas características que mejoran la eficacia de la implementación y las operaciones. Estas nuevas características son:
 
-  - **Collocation de archivo en los servidores frontales.**    Lync Server 2013 no tiene un rol de servidor de archivado independiente. El archivado es una característica opcional disponible en todos los servidores front-end de una implementación de Enterprise Edition, y en servidores Standard Edition, que se puede implementar en un grupo o sitio.
+  - **Combinación de archivado en los servidores front-end.**    Lync Server 2013 no tiene un rol de servidor de archivado independiente. El archivado es una característica opcional disponible en todos los servidores front-end de una implementación Enterprise Edition y en servidores Standard Edition, que pueden implementarse configurados para un grupo o un sitio.
 
-  - **Integración con Microsoft Exchange.**    Al implementar el archivado, puede integrar el almacenamiento de datos para archivar con el almacenamiento existente de Exchange 2013 para todos los usuarios alojados en Exchange 2013 y para que sus buzones se coloquen en la retención local, por lo que no es necesario implementar bases de datos de SQL Server independientes para archivar datos de Lync. Si no tiene una implementación de Exchange 2013, o si prefiere no integrarlo, o si tiene algún usuario de Lync 2013 que no está alojado en Exchange 2013 y sus buzones se colocan en conservación local, puede implementar bases de datos de archivado independientes con SQL Server a Stor e datos archivados de Lync Communications. Puede usar las bases de datos de integración de Microsoft Exchange y de archivo de Lync Server 2013 si desea usar la integración de Microsoft Exchange para algunos, pero no todos los usuarios de su implementación. Para obtener más información sobre la conservación local, vea "conservación local" en [http://go.microsoft.com/fwlink/p/?LinkId=267500](http://go.microsoft.com/fwlink/p/?linkid=267500).
+  - **Integración de Microsoft Exchange.**    Al implementar el archivado, puede integrar el almacenamiento de datos para archivado con el almacenamiento de Exchange 2013 existente para todos los usuarios hospedados en Exchange 2013 y cuyos buzones se colocan en conservación local, por lo que no es necesario implementar bases de datos de SQL Server independientes para archivar datos de Lync. Si no dispone de una implementación de Exchange 2013, o si prefiere no integrarlo, o si tiene algún usuario de Lync 2013 que no esté hospedado en Exchange 2013 con sus buzones en conservación local, puede implementar bases de datos de archivado independientes mediante SQL Server para Stor e datos archivados desde comunicaciones de Lync. Puede usar las bases de datos de archivado de Microsoft Exchange Integration y Lync Server 2013 si desea usar la integración de Microsoft Exchange para algunos, pero no para todos los usuarios de la implementación. Para obtener más información sobre la conservación local, vea "conservación local" en [http://go.microsoft.com/fwlink/p/?LinkId=267500](http://go.microsoft.com/fwlink/p/?linkid=267500).
 
-  - **Reflejo de la tienda SQL.**    Al implementar el archivado, puede habilitar la creación de reflejo de la base de datos de SQL Server para la base de datos de archivado.
+  - **Creación de reflejo del almacén de SQL.**    Al implementar el archivado, puede habilitar la creación de reflejo de la base de datos de SQL Server para la base de datos de archivado.
 
-  - **Archivo de pizarras y sondeos.**    El contenido de conferencia archivado ahora incluye pizarras y sondeos compartidos durante la reunión.
+  - **Archivado de pizarras y sondeos.**    El contenido de conferencia archivado ahora incluye pizarras y sondeos compartidos durante la reunión.
 
-Los siguientes tipos de contenido no se archivan:
+No se archivan los tipos de contenido siguientes:
 
   - Transferencias de archivos de punto a punto
 
-  - Audio o vídeo para conferencias y mensajes instantáneos de punto a punto
+  - Audio y vídeo para conferencias y mensajes instantáneos de punto a punto
 
   - Uso compartido de aplicaciones para conferencias y mensajes instantáneos de punto a punto
 
@@ -68,7 +68,7 @@ Los siguientes tipos de contenido no se archivan:
 ## <a name="see-also"></a>Vea también
 
 
-[Planificar el archivado en Lync Server 2013](lync-server-2013-planning-for-archiving.md)  
+[Planeación del archivado en Lync Server 2013](lync-server-2013-planning-for-archiving.md)  
   
 
 </div>

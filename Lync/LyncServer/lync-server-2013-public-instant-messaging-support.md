@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Compatibilidad de mensajería instantánea pública'
+title: 'Lync Server 2013: compatibilidad con mensajería instantánea pública'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3e3207d1a7a12f4db379e4d58615cffdfb45036
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 590fa404e614ce02832239879353e22fd95ff47f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724640"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042027"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="public-instant-messaging-support-in-lync-server-2013"></a>Compatibilidad de mensajería instantánea pública en Lync Server 2013
+# <a name="public-instant-messaging-support-in-lync-server-2013"></a>Compatibilidad con mensajería instantánea pública en Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41724640"
 
 _**Última modificación del tema:** 2013-10-07_
 
-Lync Server 2013 admite el uso de proveedores de conectividad de mensajería instantánea pública (mi) con licencia, así como el uso de protocolo de presencia y mensajería extensible (XMPP) con el fin de implementar un tipo especial de Federación que permita a un Lync Server acceder a la configuración XMPP socios de dominio con el cliente de Lync 2013.
+Lync Server 2013 admite el uso de proveedores de conectividad de mensajería instantánea pública con licencia (mi), así como el uso del protocolo extensible de mensajería y presencia (XMPP) para implementar un tipo especial de Federación que permite que Lync Server obtenga acceso a un XMPP configurado socios de dominio mediante el cliente de Lync 2013.
 
 <div>
 
-## <a name="public-im-connectivity-provider-support"></a>Compatibilidad con el proveedor de conectividad de mensajería instantánea pública
+## <a name="public-im-connectivity-provider-support"></a>Soporte de proveedor de conectividad de mensajería instantánea pública
 
-Los partners de conectividad de mensajería instantánea actualmente compatibles son los siguientes:
+Los socios de conectividad de mensajería instantánea pública admitidos actualmente son:
 
   - America Online
 
   - Windows Live
 
-  - Yahoo\!
+  - Toolbar\!
 
-Para las comunicaciones con usuarios de Windows Live, Lync Server 2013 admite la mensajería instantánea de punto a punto y las llamadas de audio y vídeo. Para las comunicaciones con AOL y\!Yahoo, Lync Server 2013 admite la mensajería instantánea de punto a punto. Es posible que se necesite una licencia por separado.
+Para las comunicaciones con los usuarios de Windows Live, Lync Server 2013 admite la mensajería instantánea de punto a punto y las llamadas de audio y vídeo. Para las comunicaciones con AOL y\!Yahoo, Lync Server 2013 admite la mensajería instantánea punto a punto. Podrá exigirse una licencia independiente.
 
 <div>
 
@@ -59,11 +59,11 @@ Para las comunicaciones con usuarios de Windows Live, Lync Server 2013 admite la
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>A partir del 1 de septiembre de 2012, la licencia de suscripción de usuario de conectividad de mensajería instantánea pública de Microsoft Lync ("PIC USL") ya no está disponible para la compra de contratos nuevos o de renovación. Los clientes con licencias activas podrán seguir federando a Yahoo! Messenger hasta que se cierre la fecha del servicio. Una fecha de fin de vida de junio de 2014 para AOL y Yahoo! ha sido anunciado. Para obtener más información, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">compatibilidad de la conectividad de mensajería instantánea pública en Lync Server 2013</A>.</P>
+> <P>A partir del 1 de septiembre de 2012, la licencia de suscripción de usuario de conectividad de mensajería instantánea pública de Microsoft Lync ("PIC USL") ya no está disponible para la compra de contratos nuevos o de renovación. Los clientes con licencias activas podrán seguir federando a Yahoo! Messenger hasta que se cierre la fecha del servicio. Una fecha de finalización del ciclo de vida de junio de 2014 para AOL y Yahoo! se ha anunciado. Para obtener más información, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">compatibilidad con la conectividad de mensajería instantánea pública en Lync Server 2013</A>.</P>
 > <LI>
-> <P>El PIC USL es una licencia por usuario por mes de suscripción que es necesaria para que Lync Server o Office Communications Server se federe con Yahoo! Mensajería. La capacidad de Microsoft para proporcionar este servicio está supeditada al soporte de Yahoo!, el contrato subyacente para el que se está pospuesto.</P>
+> <P>La capa de PIC es una licencia por usuario por mes que es necesaria para que Lync Server u Office Communications Server se federe con Yahoo! Service. La capacidad de Microsoft para proporcionar este servicio ha estado supeditada al soporte de Yahoo!, el acuerdo subyacente para el que se liquida.</P>
 > <LI>
-> <P>Más que nunca, Lync es una herramienta eficaz para la conexión entre organizaciones y con personas de todo el mundo. La Federación con Windows Live Messenger no requiere licencias adicionales para usuarios y dispositivos más allá de la CAL de Lync Standard. La Federación de Skype se agrega a esta lista, lo que permite a los usuarios de Lync llegar a cientos de millones de personas con la mensajería instantánea y la voz.</P></LI></UL>
+> <P>Más que nunca, Lync es una herramienta eficaz para la conexión entre organizaciones y con personas de todo el mundo. La Federación con Windows Live Messenger no requiere licencias de usuario o de dispositivo adicionales aparte de la CAL de Lync Standard. La Federación de Skype se agregará a esta lista, lo que permite a los usuarios de Lync llegar a cientos de millones de personas con mi y voz.</P></LI></UL>
 
 
 
@@ -73,13 +73,13 @@ Para las comunicaciones con usuarios de Windows Live, Lync Server 2013 admite la
 
 <div>
 
-## <a name="xmpp-federation-support"></a>Compatibilidad con la Federación de XMPP
+## <a name="xmpp-federation-support"></a>Compatibilidad con la federación XMPP
 
-La Federación XMPP admite la comunicación entre usuarios de Lync con usuarios del dominio XMPP configurados que usan un proveedor público, como GTalk. Las comunicaciones con estos usuarios pueden incluir lo siguiente:
+La federación XMPP admite la comunicación de los usuarios de Lync con usuarios del dominio XMPP configurados que usan un proveedor público, como GTalk. Las comunicaciones con estos usuarios pueden incluir lo siguiente:
 
-  - Mensajería instantánea y presencia de punto a punto
+  - Presencia y mensajería instantánea punto a punto
 
-  - Creación de los contactos de XMPP federados en el cliente de Lync
+  - Creación de contactos federados XMPP en el cliente de Lync
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40f77a307b516874449a86f42f84a3053e5f5914
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56d0ce8ddd96ec0e77136e95cf7d415acec7a96b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762548"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042187"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41762548"
 
 _**Última modificación del tema:** 2012-10-18_
 
-La implementación del software de comunicaciones de Lync Server 2013 incluye la preparación de los servicios de dominio de Active Directory, la implementación de los servidores front-end y otros componentes internos de Lync Server 2013 y, a continuación, la implementación de los roles de servidor y características adicionales que su organización puede requerir, como acceso de usuarios externos y telefonía IP empresarial.
+La implementación del software de comunicaciones de Lync Server 2013 incluye la preparación de los servicios de dominio de Active Directory, la implementación de los servidores front-end y otros componentes internos de Lync Server 2013 principales y la implementación de los roles de servidor adicionales y las características que su organización puede necesitar, como el acceso de usuarios externos y la telefonía IP empresarial.
 
 En esta documentación se describen tres escenarios para implementar Lync Server 2013:
 
@@ -47,7 +47,7 @@ En esta documentación se describen tres escenarios para implementar Lync Server
 
   - Nueva implementación de Lync Server 2013 Standard Edition o Enterprise Edition en una implementación existente de Lync Server 2010 Standard Edition o Enterprise Edition
 
-Para obtener información sobre cómo implementar Lync Server 2013 en un entorno existente de Microsoft Office Communications Server 2007 o Microsoft Office Communications Server 2007 R2, consulte la documentación de la [migración](migration.md) .
+Para obtener información acerca de la implementación de Lync Server 2013 en un entorno de Microsoft Office Communications Server 2007 o Microsoft Office Communications Server 2007 R2 existente, consulte la documentación de [migración](migration.md) .
 
 <div>
 
@@ -57,35 +57,35 @@ Para obtener información sobre cómo implementar Lync Server 2013 en un entorno
 
   - [Implementar el acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md)
 
-  - [Implementación de telefonía IP empresarial en Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)
+  - [Implementar la telefonía IP empresarial en Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)
 
   - [Implementación de la supervisión en Lync Server 2013](lync-server-2013-deploying-monitoring.md)
 
-  - [Implementar archivado en Lync Server 2013](lync-server-2013-deploying-archiving.md)
+  - [Implementación del archivado en Lync Server 2013](lync-server-2013-deploying-archiving.md)
 
-  - [Configurar una conferencia de acceso telefónico local en Lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
+  - [Configurar las conferencias de acceso telefónico local en Lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
 
-  - [Planificación e implementación de vídeo en Lync Server 2013](lync-server-2013-planning-and-deploying-video.md)
+  - [Planeación e implementación de vídeo en Lync Server 2013](lync-server-2013-planning-and-deploying-video.md)
 
-  - [Implementación de sitios de sucursales en Lync Server 2013](lync-server-2013-deploying-branch-sites.md)
+  - [Implementación de sitios de sucursal en Lync Server 2013](lync-server-2013-deploying-branch-sites.md)
 
-  - [Implementar el servidor de chat persistente en Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md)
+  - [Implementación del servidor de chat persistente en Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md)
 
   - [Implementación de clientes y dispositivos en Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md)
 
-  - [Planear e implementar el almacén de contactos unificado en Lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)
+  - [Planeación e implementación de almacén de contactos unificados en Lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)
 
   - [Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones de socio en Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
 
   - [Actualización de la versión de evaluación de Lync Server 2013](lync-server-2013-updating-from-the-evaluation-version.md)
 
-  - [Implementar el control remoto de llamadas en Lync Server 2013](lync-server-2013-deploying-remote-call-control.md)
+  - [Implementación del control remoto de llamadas en Lync Server 2013](lync-server-2013-deploying-remote-call-control.md)
 
-  - [Implementar la movilidad en Lync Server 2013](lync-server-2013-deploying-mobility.md)
+  - [Implementación de la movilidad en Lync Server 2013](lync-server-2013-deploying-mobility.md)
 
-  - [Configuración de la integración de Office Web Apps Server y Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
+  - [Configuración de la integración con Office Web Apps Server y Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
 
-  - [Configuración de mantenimiento de Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md)
+  - [Configuración de mantenimiento en Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md)
 
 </div>
 

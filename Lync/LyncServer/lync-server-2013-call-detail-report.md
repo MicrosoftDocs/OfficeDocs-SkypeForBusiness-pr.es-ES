@@ -12,16 +12,16 @@ ms:contentKeyID: 48183843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffbfa8c3553b33f75b0f014265f93cccf46e7de6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1e14ca8565216efbdeaae3060587d5d18d919876
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743160"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044532"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41743160"
 
 _**Última modificación del tema:** 2014-02-05_
 
-El informe de detalles de llamadas proporciona un aspecto detallado de una llamada individual. el informe incluye casi toda la calidad de la evaluación de la experiencia y las estadísticas recopiladas por Lync Server, divididas en secciones de informes como:
+El informe de detalles de llamadas proporciona un aspecto detallado de una llamada individual; el informe incluye casi todas las métricas de calidad de la experiencia y las estadísticas recopiladas por Lync Server, divididas en secciones de informes como:
 
   - Información de llamada
 
@@ -57,7 +57,7 @@ El informe de detalles de llamadas proporciona un aspecto detallado de una llama
 
   - Secuencia de vídeo (del destinatario al autor de la llamada)
 
-Tenga en cuenta que las categorías y las métricas que se muestran en los informes depende de dos cosas: el tipo de sesión y el tipo de extremo utilizado en la sesión. Por ejemplo, no se mostrarán métricas de secuencias de vídeos en llamadas solo de audio, ya que la llamada no tiene ninguna secuencia de vídeo. Del mismo modo, puede que tenga un informe en el que solo se muestren estadísticas del autor de la llamada y no del destinatario. Ello se debe a que el destinatario de la llamada no estaba utilizando ningún dispositivo compatible con SIP. Los extremos son responsables de informar de las estadísticas al final de la llamada; pero, un teléfono móvil (que no usa SIP ni estadísticas SIP) no puede informar de este tipo de información. Por ello, si llama a alguien que responde con un teléfono móvil, obtendrá un informe de dicho teléfono móvil cuando finalice la llamada.
+Tenga en cuenta que las categorías y las métricas que se muestran en los informes depende de dos cosas: el tipo de sesión y el tipo de extremo utilizado en la sesión. Por ejemplo, no se mostrarán métricas de secuencias de vídeos en llamadas solo de audio, ya que la llamada no tiene ninguna secuencia de vídeo. Del mismo modo, puede que tenga un informe en el que solo se muestren estadísticas del autor de la llamada y no del destinatario. Ello se debe a que el destinatario de la llamada no estaba utilizando ningún dispositivo compatible con SIP. Los extremos son responsables de informar de las estadísticas al final de la llamada; sin embargo, un teléfono móvil (que no usa SIP ni estadísticas SIP) no puede informar de este tipo de información. Por ello, si llama a alguien que responde con un teléfono móvil, obtendrá un informe de dicho teléfono móvil cuando finalice la llamada.
 
 El Informe de detalles de llamadas resulta de gran utilidad para determinar exactamente por qué se han registrado problemas de calidad multimedia en una llamada determinada.
 
@@ -67,17 +67,17 @@ El Informe de detalles de llamadas resulta de gran utilidad para determinar exac
 
 Es posible tener acceso al Informe de detalles de llamadas desde cualquiera de los informes siguientes:
 
-  - El [Informe de ubicación en Lync Server 2013](lync-server-2013-location-report.md) (haciendo clic en el volumen de la llamada o en la métrica de porcentaje de llamada deficiente)
+  - El [Informe de ubicación en Lync Server 2013](lync-server-2013-location-report.md) (haciendo clic en el volumen de llamadas o en la métrica de porcentaje de llamadas deficientes)
 
-  - El [informe Resumen de calidad de medios en Lync Server 2013](lync-server-2013-media-quality-summary-report.md) (haciendo clic en el volumen de la llamada o en una métrica de porcentaje de llamada deficiente)
+  - El [Informe de Resumen de calidad de medios en Lync Server 2013](lync-server-2013-media-quality-summary-report.md) (haciendo clic en la métrica porcentaje de llamadas defectuosas o volumen de llamadas)
 
-  - El [Informe de comparación de calidad multimedia en Lync server 2013](lync-server-2013-media-quality-comparison-report.md) (haciendo clic en el [Informe de la lista de llamadas en Lync Server 2013](lync-server-2013-call-list-report.md) y luego en la métrica de detalles).
+  - El [Informe de comparación de calidad de medios en Lync server 2013](lync-server-2013-media-quality-comparison-report.md) (haciendo clic en el [Informe de lista de llamadas en Lync Server 2013](lync-server-2013-call-list-report.md) y, a continuación, haciendo clic en la métrica detalles).
 
-  - El [Informe rendimiento del servidor de Lync Server 2013](lync-server-2013-server-performance-report.md) (haciendo clic en el volumen de la llamada o en una métrica de porcentaje de llamada deficiente)
+  - El [Informe de rendimiento del servidor en Lync Server 2013](lync-server-2013-server-performance-report.md) (haciendo clic en la métrica porcentaje de llamadas defectuosas o volumen de llamadas)
 
-  - [Informe de la lista de llamadas en Lync Server 2013](lync-server-2013-call-list-report.md) (al hacer clic en la métrica de detalles)
+  - El [Informe de lista de llamadas en Lync Server 2013](lync-server-2013-call-list-report.md) (haciendo clic en la métrica detalles)
 
-Desde el informe de detalles de llamadas puede acceder al [Informe de dispositivos en Lync Server 2013](lync-server-2013-device-report.md) haciendo clic en cualquiera de las siguientes métricas:
+Desde el informe de detalles de llamadas, puede acceder al [Informe de dispositivos en Lync Server 2013](lync-server-2013-device-report.md) haciendo clic en cualquiera de las métricas siguientes:
 
   - Dispositivo de captura
 
@@ -93,9 +93,9 @@ También se puede tener acceso al Informe de tendencias de calidad de medios de 
 
 El Informe de detalles de llamadas incluye más de 250 métricas distintas e incluye elementos como, por ejemplo, el Desfase de marca de tiempo de micrófono, el Tiempo de SNR bajo y el Tiempo de extremo próximo a eco. Si no recuerda qué miden todas estas métricas, coloque el mouse sobre la etiqueta de la métrica para que se muestre información de descripción.
 
-Si tiene problemas para encontrar una métrica, escriba parte de la etiqueta de métrica en el cuadro de búsqueda y, a continuación, haga clic en buscar. Por ejemplo, si no encuentra la métrica de tiempo de SNR bajo, escriba SNR en el cuadro de búsqueda y, a continuación, haga clic en buscar.
+Si tiene problemas para encontrar una métrica, escriba una parte del nombre de la métrica en el cuadro de búsqueda y haga clic en Buscar. Por ejemplo, si no encuentra la métrica Tiempo de SNR bajo, escriba SNR en el cuadro de búsqueda y, a continuación, haga clic en Buscar.
 
-Tenga en cuenta que el informe solo sigue la información de una llamada. La llamada propiamente dicha no queda registrada.
+Tenga en cuenta que el informe solo realiza un seguimiento de la información sobre una llamada. No se registra la propia llamada.
 
 </div>
 
@@ -124,7 +124,7 @@ En la tabla siguiente se muestra la información que recoge el informe de detall
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>

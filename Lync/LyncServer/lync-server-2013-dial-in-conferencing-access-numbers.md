@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: números de acceso a la Conferencia de acceso telefónico local'
+title: 'Lync Server 2013: números de acceso a conferencias de acceso telefónico local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1b7f10d0fb1d8c908a6cce90ece3b0ef6f0eed2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e128536bbabc4c43fd51412ea61fe0da0b86cf56
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762338"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044692"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Números de acceso a la Conferencia de acceso telefónico local en Lync Server 2013
+# <a name="dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Números de acceso a conferencias de acceso telefónico local en Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41762338"
 
 _**Última modificación del tema:** 2012-09-18_
 
-Para permitir que los usuarios se unan a la parte de audio de las conferencias locales mediante el acceso telefónico desde la red de telefonía pública conmutada (RTC), debe configurar los números de acceso de la Conferencia de acceso telefónico local. Los números de acceso de la Conferencia de acceso telefónico local son los números a los que los usuarios llaman para unirse a una conferencia.
+Para que los usuarios puedan participar en la parte de audio de las conferencias locales mediante acceso telefónico desde una red telefónica conmutada (RTC), debe configurar los números de conferencias de acceso telefónico local. Los números de conferencias de acceso telefónico local son números a los que pueden llamar los usuarios para participar en una conferencia.
 
-Los números de acceso telefónico se muestran en las invitaciones a reuniones y en la Página Web de configuración de conferencias de acceso telefónico local.
+Los números de acceso telefónico se muestran en invitaciones a reuniones en la página web de configuración de conferencias de acceso telefónico.
 
 <div>
 
 
 > [!NOTE]  
-> No puede usar un nuevo número de acceso telefónico local hasta que se complete la replicación de Active Directory de ese número de acceso. La replicación puede demorar varias horas.
+> No puede usar un nuevo número de acceso telefónico hasta que se complete la replicación de Active Directory de ese número de acceso telefónico. La replicación puede prolongarse durante varias horas.
 
 
 
@@ -55,9 +55,9 @@ Los números de acceso telefónico se muestran en las invitaciones a reuniones y
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Ver los números de acceso a la Conferencia de acceso telefónico local en Lync Server 2013](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
+  - [Ver los números de acceso de conferencia de acceso telefónico local en Lync Server 2013](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
 
-  - [Crear o modificar un número de acceso para conferencias de acceso telefónico local en Lync Server 2013](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
+  - [Crear o modificar un número de acceso de conferencia de acceso telefónico local en Lync Server 2013](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
 
   - [Eliminar un número de acceso de conferencia de acceso telefónico local en Lync Server 2013](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
 

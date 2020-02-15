@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Resumen DNS - Director único'
+title: 'Lync Server 2013: Resumen de DNS-Director único'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71fb3052de36a92afb4ed9076820f7fcb2b54997
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44bcd52c2e7d13ef57e96e4ae5dc8841a58bc3d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757584"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043792"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---single-director-in-lync-server-2013"></a>Resumen DNS - Director único en Lync Server 2013
+# <a name="dns-summary---single-director-in-lync-server-2013"></a>Resumen de DNS-Director único en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41757584"
 
 _**Última modificación del tema:** 2012-10-20_
 
-La tabla siguiente contiene un resumen de los registros DNS necesarios para admitir un único Director. La función del Director requiere registros DNS similares como servidor front-end. El número de registros necesarios se refleja en el asunto nombres alternativos requeridos en el certificado de director. Diferente del servidor front-end, el director no hospeda cuentas de usuario ni hospeda los servicios de movilidad.
+La siguiente tabla contiene un resumen de los registros DNS necesarios para admitir el director único. El rol del Director requiere registros DNS similares como servidor front-end. El número de registros necesarios se refleja en los nombres alternativos de sujeto necesarios en el certificado de director. Diferente del servidor front-end, el director no hospeda cuentas de usuario ni hospeda los servicios de movilidad.
 
 ### <a name="dns-records-required-for-the-director"></a>Registros DNS necesarios para el director
 
@@ -51,41 +51,41 @@ La tabla siguiente contiene un resumen de los registros DNS necesarios para admi
 <thead>
 <tr class="header">
 <th>Ubicación/tipo/puerto</th>
-<th>FQDN/registro DNS</th>
+<th>FQDN/Registro DNS</th>
 <th>Dirección IP/FQDN</th>
-<th>Se asigna a/comentarios</th>
+<th>Asignado a/Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DNS/A interno</p></td>
+<td><p>DNS interno/A</p></td>
 <td><p>dir01.contoso.net</p></td>
-<td><p>Director</p></td>
+<td><p>Dirección</p></td>
 <td><p>Registro de host de Director usado para la replicación y el servidor a servidor</p></td>
 </tr>
 <tr class="even">
-<td><p>DNS/A interno</p></td>
+<td><p>DNS interno/A</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Director</p></td>
-<td><p>Protocolo de inicio de sesión (SIP) entrante de la interfaz de borde interno del servidor perimetral</p></td>
+<td><p>Dirección</p></td>
+<td><p>Protocolo de inicio de sesión (SIP) entrante de la interfaz perimetral interna del servidor perimetral</p></td>
 </tr>
 <tr class="odd">
-<td><p>DNS/A interno</p></td>
+<td><p>DNS interno/A</p></td>
 <td><p>dialin.contoso.com</p></td>
-<td><p>Director</p></td>
-<td><p>Servicios Web de marcado publicados desde proxy inverso</p></td>
+<td><p>Dirección</p></td>
+<td><p>Servicios Web de marcado publicados desde el proxy inverso</p></td>
 </tr>
 <tr class="even">
-<td><p>DNS/A interno</p></td>
+<td><p>DNS interno/A</p></td>
 <td><p>meet.contoso.com</p></td>
-<td><p>Director</p></td>
-<td><p>Se han publicado los servicios web desde un proxy inverso</p></td>
+<td><p>Dirección</p></td>
+<td><p>Se publicaron los servicios web desde el proxy inverso</p></td>
 </tr>
 <tr class="odd">
-<td><p>DNS/A interno</p></td>
+<td><p>DNS interno/A</p></td>
 <td><p>webdirexternal.contoso.com</p></td>
-<td><p>Director</p></td>
-<td><p>Publicado y definido por el vale Web de proxy inverso servicios web externos para el director</p></td>
+<td><p>Dirección</p></td>
+<td><p>Publicado y definido por los servicios web externos de vale Web de proxy inverso para el director</p></td>
 </tr>
 </tbody>
 </table>

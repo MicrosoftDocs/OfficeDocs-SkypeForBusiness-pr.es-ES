@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar la tabla de órbitas de estacionamiento de llamadas'
+title: 'Lync Server 2013: configurar la tabla de órbitas de estacionamiento de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 417fb90feb9f12f8c2776518fa8fefffae7ff003
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dbeb465bd9ac4e62a51ab562238db9a6c0828f99
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740000"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043242"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41740000"
 
 _**Última modificación del tema:** 2012-09-10_
 
-El parque de llamadas usa órbitas para hacer llamadas de aparcamiento. Para que los usuarios puedan detener y recuperar llamadas, debe configurar la tabla de llamadas de la órbita de estacionamiento. Debe especificar los intervalos de números de extensión (órbitas) que la organización reservará para las llamadas de aparcamiento y definir la distribución de esos intervalos especificando qué grupo de estacionamiento de llamadas controla cada rango. A la hora de definir intervalos de órbitas, el objetivo es tener una cantidad suficiente de órbitas, de modo que ninguna de las órbitas vuelva a usarse en seguida; con todo, tampoco se deben tener demasiadas órbitas porque esto limitaría el número de extensiones disponibles para los usuarios u otros servicios. Puede crear varios intervalos órbitas de estacionamiento de llamadas para cada grupo de servidores de Lync en el que se implemente la aplicación de estacionamiento de llamadas. Cada intervalo de estacionamiento de llamadas debe tener un nombre único global y un conjunto único de extensiones.
+El estacionamiento de llamadas usa órbitas para las llamadas de estacionamiento. Antes de que los usuarios puedan estacionar y recuperar llamadas, debe configurar la tabla de órbitas de estacionamiento de llamadas. Debe especificar los intervalos de números de extensión (órbitas) que la organización reservará para las llamadas de estacionamiento y definir la distribución para los intervalos especificando qué grupo de estacionamiento de llamadas administra cada intervalo. A la hora de definir intervalos de órbitas, el objetivo es tener una cantidad suficiente de órbitas, de modo que ninguna de las órbitas vuelva a usarse en seguida, pero tampoco se deben tener demasiadas órbitas porque esto limitaría el número de extensiones disponibles para los usuarios u otros servicios. Puede crear varios intervalos de órbitas de estacionamiento de llamadas para cada grupo de Lync Server en el que se implemente la aplicación de estacionamiento de llamadas. Cada intervalo de órbitas de estacionamiento de llamadas debe tener un nombre único global y un conjunto único de extensiones.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Un intervalo de órbitas suele estar formado por 100 órbitas o menos, pero puede ser mucho mayor, siempre que tenga menos de 10 000 órbitas (número máximo) por intervalo y que usted tenga menos de 50 000 órbitas por grupo de servidores. Si un intervalo es demasiado pequeño, las órbitas se volverán a usar con mayor rapidez.
+> Un intervalo de órbitas suele estar formado por 100 órbitas o menos, pero puede ser mucho mayor, siempre que tenga menos de 10.000 órbitas (número máximo) por intervalo y que usted tenga menos de 50.000 órbitas por grupo de servidores. Si un intervalo es demasiado pequeño, las órbitas se volverán a usar con mayor rapidez.
 
 
 
@@ -55,7 +55,7 @@ Use bloques de extensiones virtuales (extensiones que no tengan asignado ningún
 
 
 > [!NOTE]  
-> No se admite la asignación de números de marcación directa (hecho) como números en órbita en la tabla de llamadas en órbita de estacionamiento.
+> No se admite la asignación de números de llamada directa (DID) como números de órbita en la tabla de órbitas de estacionamiento de llamadas.
 
 
 
@@ -65,7 +65,7 @@ Use bloques de extensiones virtuales (extensiones que no tengan asignado ningún
 
 ## <a name="in-this-section"></a>En esta sección
 
-[Crear o modificar un intervalo orbitar de llamadas en Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
+[Crear o modificar un intervalo de órbitas de estacionamiento de llamadas en Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
 
 </div>
 

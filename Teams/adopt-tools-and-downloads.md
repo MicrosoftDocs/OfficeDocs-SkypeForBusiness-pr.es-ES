@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4de926de9fe56bb4ca5c5068a3b5dcb335e09f2
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 55e4ec98d6e54dba88a417d9631605859962c9c1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827138"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033027"
 ---
 # <a name="tools-for-driving-adoption"></a>Herramientas para conducir la adopción 
 
@@ -39,7 +39,7 @@ Use las siguientes herramientas para apoyar cada una de las fases de su plan de 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock" />
+                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -59,7 +59,7 @@ Use las siguientes herramientas para apoyar cada una de las fases de su plan de 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Chat" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Chat" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -79,7 +79,7 @@ Use las siguientes herramientas para apoyar cada una de las fases de su plan de 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
+                            <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -98,7 +98,7 @@ Use las siguientes herramientas para apoyar cada una de las fases de su plan de 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us//office/media/icons/best-practices-teams.svg" alt="Best practices" />
+                            <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="Best practices" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -116,7 +116,7 @@ Use las siguientes herramientas para apoyar cada una de las fases de su plan de 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="Training" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -135,7 +135,7 @@ Use las siguientes herramientas para apoyar cada una de las fases de su plan de 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="Checklist" />
+                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="Checklist" />
                         </div>
                     </div>
                     <div class="cardText">

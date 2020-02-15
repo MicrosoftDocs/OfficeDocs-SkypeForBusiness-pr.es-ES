@@ -17,12 +17,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: 80a9bb8ef8fa50671c0a8227f822eb6ac4674857
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0706419c7804929469334f7357e8eed5b5f1b527
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834410"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028281"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -42,7 +42,7 @@ ms.locfileid: "41834410"
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="What's new" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-teams.svg" alt="What's new" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -61,7 +61,7 @@ ms.locfileid: "41834410"
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="Migration" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -80,7 +80,7 @@ ms.locfileid: "41834410"
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/best-practices-teams.svg" alt="Best practices" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/best-practices-teams.svg" alt="Best practices" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -99,7 +99,7 @@ ms.locfileid: "41834410"
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="Training" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -112,13 +112,13 @@ ms.locfileid: "41834410"
                             </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/en-us/microsoftteams/teams-architecture-solutions-posters">
+                                <a href="https://docs.microsoft.com/microsoftteams/teams-architecture-solutions-posters">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/cloud-architecture2.svg" alt="Cloud architecture" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg" alt="Cloud architecture" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -136,7 +136,7 @@ ms.locfileid: "41834410"
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="Blocks" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" alt="Blocks" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -159,7 +159,7 @@ ms.locfileid: "41834410"
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Community">
+                                                <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Community">
                                             </div>
                                         </div>
                                         <div class="cardText">
@@ -178,7 +178,7 @@ ms.locfileid: "41834410"
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help">
+                                                <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Help">
                                             </div>
                                         </div>
                                         <div class="cardText">
@@ -196,7 +196,7 @@ ms.locfileid: "41834410"
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/developer-teams.svg" alt="Developer" data-linktype="external">
+                                                <img src="https://docs.microsoft.com/office/media/icons/developer-teams.svg" alt="Developer" data-linktype="external">
                                             </div>
                                         </div>
                                         <div class="cardText">

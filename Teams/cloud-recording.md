@@ -16,12 +16,12 @@ f1.keywords:
 description: Guía práctica para implementar características de voz en la nube en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38981774af168c978371b06d8de6eeedd4b16644
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5041b35822a04dc98aa6c07d3731ad8c6791af98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825608"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030724"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -112,7 +112,7 @@ En el caso de inquilinos nuevos y existentes que aún no han activado la grabaci
 
 Para buscar la región en la que se almacenan los datos de Microsoft Stream, en Microsoft Stream, haga clic en **?** en la esquina superior derecha, haga clic en **acerca de Microsoft Stream**y, a continuación, haga clic en **los datos almacenados en**.  Para obtener más información sobre las regiones donde Microsoft Stream almacena los datos, consulte [preguntas más frecuentes sobre Microsoft Stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 
-Para obtener más información sobre dónde se almacenan los datos en los servicios en Office 365, consulte [¿dónde se encuentran los datos?](https://products.office.com/en-us/where-is-your-data-located?rtc=1)
+Para obtener más información sobre dónde se almacenan los datos en los servicios en Office 365, consulte [¿dónde se encuentran los datos?](https://products.office.com/where-is-your-data-located?rtc=1)
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>Activar o desactivar la transcripción de la grabación
 

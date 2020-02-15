@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Características de la mensajería unificada integrada'
+title: 'Lync Server 2013: características de la mensajería unificada integrada'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69726c614df344c76b06cf68e4d844c0514af7dd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c70df997e0ed42f77451287cccbae23ae93d14e6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765148"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042794"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41765148"
 
 _**Última modificación del tema:** 2012-10-01_
 
-Lync Server 2013, Enterprise Voice usa la infraestructura de mensajería unificada (UM) de Exchange para proporcionar contestación de llamadas, notificaciones de llamadas, acceso por voz (incluido el correo de voz) y servicios de operador automático.
+Lync Server 2013, Enterprise Voice usa la infraestructura de mensajería unificada (MU) de Exchange para proporcionar servicios de contestador automático, notificación de llamadas, acceso de voz (incluido el correo de voz) y operador automático.
 
 <div>
 
-## <a name="call-answering"></a>Respuesta de llamada
+## <a name="call-answering"></a>Contestador automático
 
-El contestador automático es la recepción de mensajes de voz en nombre de los usuarios cuyas llamadas no están respondidas o están ocupadas. Incluye la reproducción de un saludo personal, la grabación de un mensaje y el envío del mensaje que se va a poner en la cola para su entrega al buzón del usuario, que se almacena en el servidor de buzones de Exchange.
+La contestación de llamadas es la recepción de mensajes de voz en nombre de los usuarios cuyas llamadas no se responden o están no disponibles. Incluye la reproducción de un saludo personal, la grabación de un mensaje y el envío del mensaje que se va a poner en cola para su entrega al buzón del usuario, que se almacena en el servidor de buzones de Exchange.
 
 Si el autor de la llamada deja un mensaje, el mensaje se trasfiere a la bandeja de entrada del usuario. Si decide no dejar un mensaje, se almacena una notificación de llamada perdida en el buzón del usuario. Los usuarios pueden acceder a sus bandejas de entrada mediante el cliente de mensajería y colaboración de Microsoft Outlook, Outlook Web Access, la tecnología Exchange ActiveSync o Outlook Voice Access. Se pueden mostrar el asunto y la prioridad de las llamadas de manera similar al correo electrónico.
 
@@ -53,15 +53,15 @@ Si el autor de la llamada deja un mensaje, el mensaje se trasfiere a la bandeja 
 
 ## <a name="outlook-voice-access"></a>Outlook Voice Access
 
-Outlook Voice Access permite a un usuario de telefonía IP obtener acceso no solo al correo de voz, sino también a la bandeja de entrada de Exchange, que incluye el correo electrónico, el calendario y los contactos de una interfaz de telefonía. El número de acceso de suscriptor es asignado por un administrador de mensajería unificada de Exchange.
+Outlook Voice Access permite a un usuario de Enterprise Voice tener acceso no solo al correo de voz, sino también a la bandeja de entrada de Exchange, incluidos el correo electrónico, el calendario y los contactos de una interfaz de telefonía. El número de acceso del suscriptor lo asigna un administrador de mensajería unificada de Exchange.
 
 </div>
 
 <div>
 
-## <a name="auto-attendant"></a>Operador automático
+## <a name="auto-attendant"></a>Operadores automáticos
 
-El operador automático es una característica de mensajería unificada de Exchange que se puede usar para configurar un número de teléfono que no pertenezca a los usuarios para que puedan comunicarse con los representantes de la empresa. En particular, proporciona una serie de mensajes de voz que ayudan a una persona que llama externa a navegar por un sistema de menús. La lista de opciones disponibles está configurada en el servidor de mensajería unificada de Exchange por el administrador de mensajería unificada de Exchange.
+Operador automático es una característica de mensajería unificada de Exchange que se puede usar para configurar un número de teléfono que los usuarios externos puedan marcar para llegar a los representantes de la compañía. Concretamente, proporciona una serie de indicadores de voz que ayudan al autor de una llamada externa a usar un sistema de menús. La lista de opciones disponibles está configurada en el servidor de mensajería unificada de Exchange por el administrador de mensajería unificada de Exchange.
 
 </div>
 

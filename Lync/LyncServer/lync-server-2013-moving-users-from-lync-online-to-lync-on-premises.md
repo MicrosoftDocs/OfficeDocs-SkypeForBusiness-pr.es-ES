@@ -12,16 +12,16 @@ ms:contentKeyID: 62258122
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bea1463660e420edbf296be3d47aaca6d8545feb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5e390bfbd327bf8823b66a180ce17dcb54ad0349
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756704"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043872"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41756704"
 
 _**Última modificación del tema:** 2014-05-08_
 
-¿Su organización ha implementado Lync Online antes de implementar Lync Server local? ¿Y ahora desea mover las cuentas de usuario que se habilitaron originalmente para Lync en Lync Online a su implementación local de Lync Server? Esta sección le puede ayudar a hacerlo.
+¿La organización ha implementado Lync Online antes de implementar Lync Server local jamás? ¿Y ahora desea mover las cuentas de usuario habilitadas originalmente para Lync en Lync Online a su implementación local de Lync Server? Esta sección puede ayudarle a hacerlo.
 
 <div>
 
 
 > [!NOTE]  
-> Esta sección solo está relacionada con el traslado de usuarios que se habilitaron originalmente para Lync en Lync Online. Es posible que tenga cuentas de usuario que haya habilitado por primera vez en Lync local y haya movido a Lync Online. Si es así y desea moverlos de nuevo a local, el proceso es fácil: <A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administración de usuarios en una implementación híbrida de Lync Server 2013</A>.
+> Esta sección solo está desplazando a los usuarios que se habilitaron originalmente para Lync en Lync Online. ¿Es posible que tenga cuentas de usuario que haya habilitado primero para Lync local y que se haya movido a Lync Online? Si es así y quiere volver a moverlos a local, el proceso es sencillo: <A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">administrar usuarios en una implementación híbrida de Lync Server 2013</A>.
 
 
 

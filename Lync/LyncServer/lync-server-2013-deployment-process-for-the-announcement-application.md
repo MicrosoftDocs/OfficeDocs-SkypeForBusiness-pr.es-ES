@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: proceso de implementación para la aplicación de anuncios'
+title: 'Lync Server 2013: proceso de implementación de la aplicación de anuncio'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcb56f197a32403d1207cf0a15d47e0459fc41bf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55e0c65bfbbed55a8d7f9c3be4f7a586581c2307
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762578"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042257"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a>Proceso de implementación para la aplicación de anuncios en Lync Server 2013
+# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a>Proceso de implementación de la aplicación de anuncio en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41762578"
 
 _**Última modificación del tema:** 2012-09-12_
 
-Esta sección proporciona una descripción general de los pasos necesarios para implementar la aplicación de anuncios. Debe implementar la telefonía IP empresarial antes de configurar los anuncios. Los componentes requeridos por la aplicación de anuncios se instalan y se habilitan al implementar la telefonía IP empresarial.
+En esta sección se proporciona información general sobre los pasos necesarios para implementar la aplicación de anuncio. Debe implementar la telefonía IP empresarial antes de configurar los anuncios. Los componentes requeridos por la aplicación de anuncio se instalan y habilitan al implementar la telefonía IP empresarial.
 
 ### <a name="announcement-deployment-process"></a>Proceso de implementación de anuncios
 
@@ -75,7 +75,7 @@ Esta sección proporciona una descripción general de los pasos necesarios para 
 <td><p>Comprobar la implementación de anuncios</p></td>
 <td><p>Escuche los anuncios para comprobar que la configuración funciona correctamente.</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-optional-verify-announcement-deployment.md">Faculta Comprobar la implementación de la presentación en Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-announcement-deployment.md">Opcional Comprobar la implementación del anuncio en Lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>

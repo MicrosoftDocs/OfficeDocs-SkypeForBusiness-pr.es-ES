@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla Endpoint'
+title: 'Lync Server 2013: tabla de extremos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184098
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11da225da1a8120f5de7ac21b3beb318326601f9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 201e2ae3b44f59f0edb128f58af6c18e18e51931
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735590"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042237"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41735590"
 
 _**Última modificación del tema:** 2012-10-02_
 
-La tabla de extremos es una tabla de soporte que almacena información sobre los puntos de conexión que participaron en sesiones registradas en la base de datos. Cada registro de la tabla representa un punto final.
+La tabla de extremos es una tabla de apoyo que almacena información sobre los puntos de conexión que participaron en sesiones registradas en la base de datos. Cada registro de la tabla representa un punto de conexión.
 
 
 <table>
@@ -59,20 +59,20 @@ La tabla de extremos es una tabla de soporte que almacena información sobre los
 <tr class="odd">
 <td><p><strong>EndpointKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>Número único que identifica este punto final.</p></td>
+<td><p>Principal</p></td>
+<td><p>Número único que identifica este extremo.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nombre.</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Solo</p></td>
+<td><p><strong>Nombre</strong></p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Única</p></td>
 <td><p>Nombre del extremo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Sistema operativo</strong></p></td>
+<td><p><strong>MacOS</strong></p></td>
 <td><p>nvarchar(128</p></td>
 <td><p> </p></td>
-<td><p>Sistema operativo (SO) del punto de conexión.</p></td>
+<td><p>Sistema operativo (SO) del extremo.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CPUName</strong></p></td>
@@ -90,19 +90,19 @@ La tabla de extremos es una tabla de soporte que almacena información sobre los
 <td><p><strong>CPUProcessorSpeed</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Velocidad del procesador de la CPU del punto de conexión.</p></td>
+<td><p>Velocidad del procesador de la CPU del extremo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VirtualizationFlag</strong></p></td>
 <td><p>tinyint</p></td>
 <td></td>
-<td><p>Marcador de bits que indica si el sistema se está ejecutando en un entorno virtualizado:</p>
+<td><p>Marca de bits que indica si el sistema se está ejecutando en un entorno virtualizado:</p>
 <ul>
-<li><p>0x0000: ninguna</p></li>
+<li><p>0x0000 – ninguno</p></li>
 <li><p>0x0001: HyperV</p></li>
 <li><p>0x0002: VMWare</p></li>
 <li><p>0x0004: Virtual PC</p></li>
-<li><p>0x0008: Xen PC</p></li>
+<li><p>0x0008 – equipo de Xen</p></li>
 </ul></td>
 </tr>
 </tbody>

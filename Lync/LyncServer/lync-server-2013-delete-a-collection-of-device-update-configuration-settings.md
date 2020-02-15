@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: eliminar una colección de parámetros de configuración de actualización de dispositivos'
+title: 'Lync Server 2013: eliminar una colección de opciones de configuración de actualización de dispositivos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803928
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 936a591ea46c6b599a9a72f06a9287be35e66cce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 345e1ad4c621ce6330b1b1a34c97664d080d6575
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728200"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044072"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-collection-of-device-update-configuration-settings-in-lync-server-2013"></a>Eliminar una colección de parámetros de configuración de actualización de dispositivos en Lync Server 2013
+# <a name="delete-a-collection-of-device-update-configuration-settings-in-lync-server-2013"></a>Eliminar una colección de opciones de configuración de actualización de dispositivos en Lync Server 2013
 
 </div>
 
@@ -37,16 +37,16 @@ ms.locfileid: "41728200"
 
 _**Última modificación del tema:** 2013-02-20_
 
-La configuración de la actualización de dispositivos también se puede eliminar con Windows PowerShell y el cmdlet **Remove-CsdeviceUpdateConfiguration** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Las opciones de configuración de actualización de dispositivos también se pueden eliminar con Windows PowerShell y el cmdlet **Remove-CsdeviceUpdateConfiguration** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
 <div>
 
 
 <div>
 
-## <a name="to-remove-a-specific-collection-of-device-update-configuration-settings"></a>Para quitar una colección específica de parámetros de configuración de actualización de dispositivos
+## <a name="to-remove-a-specific-collection-of-device-update-configuration-settings"></a>Para quitar una colección específica de opciones de configuración de actualización de dispositivos
 
-  - Este comando elimina la configuración de actualización de dispositivo aplicada al sitio de Redmond:
+  - Este comando elimina las opciones de configuración de actualización de dispositivos que se aplican al sitio de Redmond:
     
         Remove-CsDeviceUpdateConfiguration -Identity "site:Redmond"
 
@@ -56,7 +56,7 @@ La configuración de la actualización de dispositivos también se puede elimina
 
 ## <a name="to-remove-all-the-device-update-configuration-settings-applied-to-the-site-scope"></a>Para quitar todas las opciones de configuración de actualización de dispositivos que se aplican al ámbito del sitio
 
-  - Este comando elimina todas las opciones de configuración de la actualización de dispositivos que se aplican al ámbito del sitio:
+  - Este comando elimina todas las opciones de configuración de actualización de dispositivos que se aplican al ámbito del sitio:
     
         Get-CsDeviceUpdateConfiguration -Filter "site:*" | Remove-CsDeviceUpdateConfiguration
 
@@ -64,15 +64,15 @@ La configuración de la actualización de dispositivos también se puede elimina
 
 <div>
 
-## <a name="to-remove-device-update-configuration-settings-based-on-the-value-of-the-logcleanupinterval-property"></a>Para quitar la configuración de actualización de dispositivos según el valor de la propiedad LogCleanUpInterval
+## <a name="to-remove-device-update-configuration-settings-based-on-the-value-of-the-logcleanupinterval-property"></a>Para quitar las opciones de configuración de actualización de dispositivos en función del valor de la propiedad LogCleanUpInterval
 
-  - El siguiente comando elimina todos los parámetros de configuración de actualización de dispositivos en los que el intervalo de limpieza de registro es superior a 10 días (10,00:00:00):
+  - El siguiente comando elimina todas las opciones de configuración de actualización de dispositivos en las que el intervalo de limpieza de registros es superior a 10 días (10,00:00:00):
     
         Get-CsDeviceUpdateConfiguration | Where-Object {$_.LogCleanUpInterval -gt "10.00:00:00" | Remove-CsDeviceUpdateConfiguration
 
 </div>
 
-Para obtener más información, vea el tema de ayuda sobre el cmdlet [Remove-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsDeviceUpdateConfiguration) .
+Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsDeviceUpdateConfiguration) .
 
 </div>
 

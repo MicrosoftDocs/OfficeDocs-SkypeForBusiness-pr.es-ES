@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9986355905cb40e26182368dec8f53d796432fe
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: faaed56f9b150104fba93683b37b7551b828ce80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837950"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029401"
 ---
 # <a name="skype-for-business-online-retirement"></a>Retirada de Skype Empresarial Online
 
@@ -34,7 +34,7 @@ Skype empresarial online se retirará el 31 de julio de 2021 y, después de esa 
 
 ## <a name="why-are-we-making-this-announcement-now"></a>¿Por qué hacemos este anuncio ahora?
 
-En 2017, lanzamos Microsoft Teams como "el hub para el trabajo en equipo" en Microsoft 365. Teams combina conversaciones, videollamadas, llamadas y colaboración de documentos en una sola aplicación integrada, y permite una forma completamente nueva de trabajar. En los últimos dos años, hemos trabajado estrechamente con los clientes para refinar los equipos y creemos que estamos en el punto en que podemos recomendarle la seguridad como un upgrade para todos los clientes de Skype empresarial online. Los clientes que ya han realizado el movimiento nos dicen que Teams no solo les ha ayudado a mejorar la colaboración generalmente, también ha brindado una oportunidad poco habitual de reconsiderar la manera en que se realiza el trabajo en sus organizaciones. Con Teams, las empresas de todo el mundo son cada vez más ágiles, acortan los tiempos de los ciclos, mejoran la eficacia de los flujos de trabajo clave y reducen los gastos innecesarios. Teams no es solo una actualización de Skype empresarial online, es una eficaz herramienta que abre la puerta a una forma completamente nueva de hacer negocios. Pero no te detendremos la palabra. Obtenga más información sobre los beneficios potenciales de Teams para su organización con el libro blanco de Forrester publicado recientemente "[el impacto económico total de Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf)".
+En 2017, lanzamos Microsoft Teams como "el hub para el trabajo en equipo" en Microsoft 365. Teams combina conversaciones, videollamadas, llamadas y colaboración de documentos en una sola aplicación integrada, y permite una forma completamente nueva de trabajar. En los últimos dos años, hemos trabajado estrechamente con los clientes para refinar los equipos y creemos que estamos en el punto en que podemos recomendarle la seguridad como un upgrade para todos los clientes de Skype empresarial online. Los clientes que ya han realizado el movimiento nos dicen que Teams no solo les ha ayudado a mejorar la colaboración generalmente, también ha brindado una oportunidad poco habitual de reconsiderar la manera en que se realiza el trabajo en sus organizaciones. Con Teams, las empresas de todo el mundo son cada vez más ágiles, acortan los tiempos de los ciclos, mejoran la eficacia de los flujos de trabajo clave y reducen los gastos innecesarios. Teams no es solo una actualización de Skype empresarial online, es una eficaz herramienta que abre la puerta a una forma completamente nueva de hacer negocios. Pero no te detendremos la palabra. Obtenga más información sobre los beneficios potenciales de Teams para su organización con el libro blanco de Forrester publicado recientemente "[el impacto económico total de Microsoft Teams](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf)".
 
 ## <a name="what-is-microsoft-doing-to-help-customers-migrate-to-teams"></a>¿Qué hace Microsoft para ayudar a los clientes a migrar a teams?
 

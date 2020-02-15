@@ -15,12 +15,12 @@ f1.keywords:
 description: Aprenda a usar los controles de PowerShell para administrar Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d22eb0b14d25bec57949bb804e8bb8098ee33510
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5b211493bb5b0bfa3dea1abfc0c9b59eadcb4206
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836960"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035362"
 ---
 # <a name="teams-powershell-overview"></a>Descripción de PowerShell para Teams
 
@@ -30,7 +30,7 @@ Microsoft Teams tiene un amplio conjunto de herramientas para que los administra
 
 Los controles de PowerShell para administrar equipos se encuentran en dos módulos de PowerShell diferentes: 
 - [Módulo Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) : el módulo de Teams PowerShell contiene todos los cmdlets que necesita para crear y administrar Teams.  
-- [Módulo de PowerShell de Skype empresarial](https://www.microsoft.com/en-us/download/details.aspx?id=39366): el módulo de PowerShell de Skype empresarial contiene los cmdlets para administrar directivas, configuraciones y otras herramientas de Teams. 
+- [Módulo de PowerShell de Skype empresarial](https://www.microsoft.com/download/details.aspx?id=39366): el módulo de PowerShell de Skype empresarial contiene los cmdlets para administrar directivas, configuraciones y otras herramientas de Teams. 
 
 La documentación de referencia para los controles de PowerShell le indicará qué módulo contiene el cmdlet que está investigando. (Al final, los dos módulos se combinarán).
 
@@ -79,7 +79,7 @@ Cuando publicamos nuestra versión general disponible de nuestro módulo de Powe
 
 ## <a name="managing-policies-via-powershell"></a>Administración de directivas a través de PowerShell
 
-Los cmdlets para administrar directivas se encuentran en el [módulo de cmdlet de Skype empresarial](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Los cmdlets para administrar directivas se encuentran en el [módulo de cmdlet de Skype empresarial](https://www.microsoft.com/download/details.aspx?id=39366).
 
 > [!NOTE]
 > Los cmdlets estarán disponibles en la sesión de PowerShell una vez que se conecte a Skype empresarial online. Para obtener más información, vea [administrar Skype empresarial online con Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
@@ -111,7 +111,7 @@ Parámetros comunes:
 
 ## <a name="managing-configurations-via-powershell"></a>Administración de configuraciones a través de PowerShell
 
-Los cmdlets para administrar la configuración están en el [módulo de cmdlet de Skype empresarial](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Los cmdlets para administrar la configuración están en el [módulo de cmdlet de Skype empresarial](https://www.microsoft.com/download/details.aspx?id=39366).
 
 Las configuraciones son cubos de configuración mantenidos en el servicio que no se pueden especificar en un nivel de usuario. La configuración siempre se aplica en toda la organización. Su configuración global es la única configuración eficaz de su organización. Cada tipo de configuración incluye dos cmdlets principales:
 

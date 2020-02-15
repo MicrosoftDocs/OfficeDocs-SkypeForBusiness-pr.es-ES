@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: implementar regiones, sitios y subredes de la red'
+title: 'Lync Server 2013: implementación de regiones de red, sitios y subredes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04c39a18147bad3f84bd345ec0a56b606db4cae4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 46e4db701dc3d43ed30b8101ef2af5ff2e4a2ad0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736280"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043552"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-network-regions-sites-and-subnets-in-lync-server-2013"></a>Implementar regiones, sitios y subredes de la red en Lync Server 2013
+# <a name="deploying-network-regions-sites-and-subnets-in-lync-server-2013"></a>Implementar regiones de red, sitios y subredes en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41736280"
 
 _**Última modificación del tema:** 2013-03-12_
 
-Una vez implementada la voz de la empresa, debe configurar:
+Una vez implementada la telefonía IP empresarial, debe configurar:
 
   - Regiones de red
 
@@ -49,13 +49,13 @@ Una vez implementada la voz de la empresa, debe configurar:
 
 ## <a name="define-network-regions"></a>Definir regiones de red
 
-Use el comando de Windows PowerShell de Lync Server, New-CsNetworkRegion o panel de control de Lync Server para definir las regiones de red.
+Use el comando de Windows PowerShell de Lync Server, New-CsNetworkRegion o el panel de control de Lync Server para definir las regiones de red.
 
     New-CsNetworkRegion -NetworkRegionID <region ID> -CentralSite <site ID>
 
 Para obtener más información, vea [New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion).
 
-En este ejemplo, el siguiente comando de Windows PowerShell muestra la región de red, región 1 (India), definida en este escenario.
+Para este ejemplo, el siguiente comando de Windows PowerShell ilustra la región de red, región 1 (India), definida en este escenario.
 
     New-CsNetworkRegion -NetworkRegionID "India" -CentralSite "India Central Site"
 
@@ -76,7 +76,7 @@ Use el comando de Windows PowerShell de Lync Server, New-CsNetworkSite o el pane
 
 Para obtener más información, vea [New-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite).
 
-En este ejemplo, la siguiente tabla y el comando de Windows PowerShell de Lync Server muestran los sitios de red definidos en este escenario. En la tabla solo se incluyen los valores específicos del enrutamiento basado en la ubicación con fines de ilustración.
+Para este ejemplo, la siguiente tabla y el comando de Lync Server Windows PowerShell ilustran los sitios de red definidos en este escenario. Solo la configuración específica para el enrutamiento basado en ubicación se incluye en la tabla con fines ilustrativos.
 
     New-CsNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
     New-CsNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
@@ -121,13 +121,13 @@ En este ejemplo, la siguiente tabla y el comando de Windows PowerShell de Lync S
 
 ## <a name="define-network-subnets"></a>Definir subredes de red
 
-Use el comando de Windows PowerShell de Lync Server, New-CsNetworkSubnet o el panel de control de Lync Server para definir subredes de red y asignarlas a sitios de red.
+Use el comando de Windows PowerShell de Lync Server, New-CsNetworkSubnet o el panel de control de Lync Server para definir las subredes de red y asignarlas a los sitios de red.
 
     New-CsNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 
 Para obtener más información, vea [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).
 
-En este ejemplo, los siguientes comandos de tabla y Windows PowerShell ilustran la asignación de subredes de red a los sitios de red, Delhi y Hyderabad, definidas en este escenario. En la tabla solo se incluyen los valores específicos del enrutamiento basado en la ubicación con fines de ilustración.
+En este ejemplo, los siguientes comandos de Windows PowerShell y tabla ilustran la asignación de subredes de red a los sitios de red, Delhi y Hyderabad, definidos en este escenario. Solo la configuración específica para el enrutamiento basado en ubicación se incluye en la tabla con fines ilustrativos.
 
     New-CsNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
     New-CsNetworkSubnet -SubnetID "192.168.1.0" -MaskBits "24" -NetworkSiteID "Hyderabad"
@@ -153,9 +153,9 @@ En este ejemplo, los siguientes comandos de tabla y Windows PowerShell ilustran 
 <td><p>192.168.1.0</p></td>
 </tr>
 <tr class="even">
-<td><p>Sin</p></td>
-<td><p>veinticuatro</p></td>
-<td><p>veinticuatro</p></td>
+<td><p>Mask</p></td>
+<td><p>apartado</p></td>
+<td><p>apartado</p></td>
 </tr>
 <tr class="odd">
 <td><p>IDENTIFICADOR de sitio</p></td>
@@ -178,7 +178,7 @@ En este ejemplo, los siguientes comandos de tabla y Windows PowerShell ilustran 
 ## <a name="see-also"></a>Vea también
 
 
-[Configurar el enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
+[Configuración del enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

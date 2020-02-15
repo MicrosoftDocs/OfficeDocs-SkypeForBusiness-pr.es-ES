@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga más información sobre las características, la disponibilidad y cómo planificar y configurar el sistema telefónico de Microsoft para su empresa. '
-ms.openlocfilehash: ec41a7ac88c6c7c1a99c7c547b45ef1b95c25cc8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b1ba96143c62b829ef9461c1429a83a8b3cfe51e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836322"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045172"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo obtiene con el Sistema telefónico de Office 365
 
@@ -56,13 +56,13 @@ El sistema telefónico proporciona las siguientes características. A menos que 
 |[Identificador de llamada](how-can-caller-id-be-used-in-your-organization.md)  <br/> |Las llamadas desde dentro de la compañía muestran una identificación detallada de llamadas que extrae información del directorio corporativo, que muestra el identificador de la imagen y el puesto, en lugar de un número de teléfono. Para las llamadas de números de teléfono externos, se muestra la identificación de llamadas que proporciona el proveedor de servicios telefónicos. Si los números de teléfono externos son números secundarios en el directorio corporativo, se mostrará la información del directorio corporativo.  <br/> |
 |Cambio de dispositivo  <br/> |Permite a los usuarios reproducir una llamada o una reunión en otro dispositivo HID que está conectado a teams. por ejemplo, si cambias de sus altavoces de PC a auriculares con micrófono.   <br/> |
 |Enrutamiento de llamadas basado en presencia <br/> |Controla las comunicaciones entrantes con presencia, lo que permite al usuario bloquear todas las comunicaciones entrantes excepto las indicadas específicamente.  <br/> |
-|[Teclado de marcado integrado](https://support.office.com/en-us/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | Permite a los usuarios marcar por nombre o por número en cualquier lugar de la barra de búsqueda y en el teclado de marcado, lo que acelera el proceso de realizar llamadas salientes. <br/> |
+|[Teclado de marcado integrado](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | Permite a los usuarios marcar por nombre o por número en cualquier lugar de la barra de búsqueda y en el teclado de marcado, lo que acelera el proceso de realizar llamadas salientes. <br/> |
 |Llamadas federadas  <br/> |Permite a los usuarios conectarse, comunicarse y colaborar con usuarios de forma segura en inquilinos federados.  <br/> |
 |[Realizar y recibir una videollamada](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Si la cuenta del usuario está habilitada para las videollamadas, el usuario puede hacer videollamadas cara a cara con sus contactos. Todo lo que necesitan es una cámara, los altavoces y el micrófono de su equipo informático. Los usuarios también pueden usar auriculares con micrófono si su equipo no tiene un dispositivo de audio integrado.<br/> |
 |[Buzón de voz de nube](set-up-phone-system-voicemail.md) <br/> | Cuando un usuario recibe un mensaje de voz, se envía a su buzón de Exchange como un correo electrónico con el mensaje de voz como datos adjuntos. Los usuarios pueden escuchar sus mensajes en sus teléfonos de escritorio certificados y en todos los equipos o aplicaciones de Skype empresarial. Se ha agregado la ayuda para la transcripción del buzón de voz a partir del 2017 de marzo y está habilitada de forma predeterminada para todas las organizaciones y todos los usuarios.   <br/> |
 |[Configuración de usuario del buzón de voz en la nube](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Permite a los usuarios configurar la configuración de sus clientes para los saludos del buzón de voz, reglas de contestador automático y idioma de saludo, incluidos los saludos fuera de la oficina.   |
 |[Timbre secundario](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | Los usuarios con varios dispositivos de altavoces conectados a su equipo pueden configurar un dispositivo secundario para que suene además de su altavoz predeterminado. Por ejemplo, un usuario con auriculares con micrófono conectados a los altavoces de escritorio y de PC puede elegir entre auriculares con micrófono y altavoces de escritorio cuando se recibe una llamada, de modo que no pierdan una llamada.  |
-|[Alertas de timbre distintivo](https://support.office.com/en-us/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (solo para equipos)<br/> |Permite que los usuarios elijan tonos de timbre por separado para las llamadas normales, las llamadas desviadas y las llamadas delegadas para que puedan distinguir el tipo de llamada.  <br/> |
+|[Alertas de timbre distintivo](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (solo para equipos)<br/> |Permite que los usuarios elijan tonos de timbre por separado para las llamadas normales, las llamadas desviadas y las llamadas delegadas para que puedan distinguir el tipo de llamada.  <br/> |
 |[Apariencia de línea compartida](shared-line-appearance.md) <br/> | Permite que los usuarios compartan su línea de teléfono para que otro usuario pueda hacer y recibir llamadas en su nombre.|
 |[Ocupado en ocupado](teams-calling-policy.md) (solo en Teams) <br/> | Una directiva de llamadas que le permite configurar cómo se administran las llamadas entrantes cuando un usuario ya está en una llamada o conferencia o se hace una llamada en espera. La persona que llama escuchará una señal de ocupado cuando el destinatario de la llamada esté en el teléfono. El destinatario de la llamada recibe una notificación de llamada perdida, pero no puede contestar las llamadas entrantes. Esta característica está deshabilitada de forma predeterminada, pero puede activarla el administrador de inquilinos. |
 |[Bloqueo de llamadas](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Permite a los usuarios agregar números de teléfono (RTC) a una lista de bloqueados para que la siguiente llamada de ese número esté bloqueada para que no suene al usuario.|

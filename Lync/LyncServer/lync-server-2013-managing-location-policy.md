@@ -12,20 +12,20 @@ ms:contentKeyID: 49733663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 229f5db57a4e61306dec541b402a545b8df0e77a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7addcd213fd351154ad2b3d55360cbdb6dad6286
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762118"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043102"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-location-policy-in-lync-server-2013"></a>Administrar la Directiva de ubicación en Lync Server 2013
+# <a name="managing-location-policy-in-lync-server-2013"></a>Administración de la Directiva de ubicación en Lync Server 2013
 
 </div>
 
@@ -43,11 +43,11 @@ Use los procedimientos de esta sección para administrar la Directiva de ubicaci
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Ver información de la Directiva de ubicación en Lync Server 2013](lync-server-2013-viewing-location-policy-information.md)
+  - [Ver información de directiva de ubicación en Lync Server 2013](lync-server-2013-viewing-location-policy-information.md)
 
-  - [Crear o modificar una directiva de ubicación en Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md)
+  - [Creación o modificación de una directiva de ubicación en Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md)
 
-  - [Eliminar una directiva de ubicación en Lync Server 2013](lync-server-2013-deleting-a-location-policy.md)
+  - [Eliminación de una directiva de ubicación en Lync Server 2013](lync-server-2013-deleting-a-location-policy.md)
 
 </div>
 
@@ -64,7 +64,7 @@ Use los procedimientos de esta sección para administrar la Directiva de ubicaci
 ## <a name="see-also"></a>Vea también
 
 
-[Definir la Directiva de ubicación de Lync Server 2013](lync-server-2013-defining-the-location-policy.md)  
+[Definición de la Directiva de ubicación para Lync Server 2013](lync-server-2013-defining-the-location-policy.md)  
   
 
 </div>

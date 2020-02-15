@@ -12,16 +12,16 @@ ms:contentKeyID: 49733705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f17db6a855bb7c890f5218213e66986830e8badf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fe34ff7d4d0c31c282ee308f1dd389e124cb652b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758722"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044892"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41758722"
 
 _**Última modificación del tema:** 2012-10-15_
 
-Puede configurar las directivas de movilidad y las notificaciones de inserción para Lync Server 2013 desde la sección **clientes** del panel de control de lync Server 2013. Use los procedimientos de esta sección para configurar las opciones de su teléfono móvil.
+Puede configurar directivas de movilidad y notificaciones de inserción para Lync Server 2013 desde la sección **clientes** del panel de control de lync Server 2013. Use los procedimientos en esta sección para configurar su configuración de teléfono móvil.
 
 <div>
 
@@ -45,7 +45,7 @@ Puede configurar las directivas de movilidad y las notificaciones de inserción 
 
   - [Directivas de movilidad en Lync Server 2013](lync-server-2013-mobility-policies.md)
 
-  - [Notificaciones Push en Lync Server 2013](lync-server-2013-push-notifications.md)
+  - [Notificaciones de inserción en Lync Server 2013](lync-server-2013-push-notifications.md)
 
 </div>
 

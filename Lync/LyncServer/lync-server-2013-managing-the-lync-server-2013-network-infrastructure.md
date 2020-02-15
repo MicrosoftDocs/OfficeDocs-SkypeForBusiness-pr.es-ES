@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Administrar la infraestructura de red de Lync Server 2013'
+title: 'Lync Server 2013: administración de la infraestructura de red de Lync Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185638
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8663c5837b118bc35c889dac34196a05a76dd63
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a228ccf207a0197e1eb74c1f8f733df1f7912f6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727760"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042447"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-the-lync-server-2013-network-infrastructure"></a>Administrar la infraestructura de red de Lync Server 2013
+# <a name="managing-the-lync-server-2013-network-infrastructure"></a>Administración de la infraestructura de red de Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41727760"
 
 _**Última modificación del tema:** 2014-02-11_
 
-Microsoft Lync Server 2013 incluye compatibilidad con control de admisión de llamadas (CAC) y omisión de medios. Para implementar estas características, debe configurar una red de regiones, sitios, subredes, etc. que le permitan administrar el ancho de banda en situaciones en las que es necesario restringir las transmisiones de audio y vídeo. También puede usar la tecnología de red de calidad de servicio (QoS) para ofrecer una experiencia de usuario final óptima para las comunicaciones de audio y vídeo.
+Microsoft Lync Server 2013 incluye compatibilidad con el control de admisión de llamadas (CAC) y la omisión de medios. Para implementar estas características, debe configurar una red de regiones, sitios, subredes, etc., que le permitan administrar el ancho de banda en situaciones en las que las transmisiones de audio y vídeo deban restringirse. También puede usar la tecnología de red Calidad de servicio (QoS) para ayudar a proporcionar una experiencia de usuario final óptima en las comunicaciones de audio y vídeo.
 
-Puede usar el panel de control de Lync Server para configurar y administrar CAC, archivos de omisión y QoS. En los siguientes temas se proporcionan los pasos para realizar esta tarea.
+Puede usar el panel de control de Lync Server para configurar y administrar el CAC, el desvío de medios y la QoS. En los temas siguientes se indican los pasos para hacerlo.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Administración de calidad de servicio (QoS) en Lync Server 2013](lync-server-2013-managing-quality-of-service-qos.md)
+  - [Administración de la calidad de servicio (QoS) en Lync Server 2013](lync-server-2013-managing-quality-of-service-qos.md)
 
   - [Administración del control de admisión de llamadas en Lync Server 2013](lync-server-2013-managing-call-admission-control.md)
 
@@ -55,7 +55,7 @@ Puede usar el panel de control de Lync Server para configurar y administrar CAC,
 
   - [Metodología de calidad de llamadas de Lync en Lync Server 2013](lync-server-2013-poster-lync-call-quality-methodology.md)
 
-  - [Indicadores clave de estado en Lync Server 2013](lync-server-2013-poster-key-health-indicators.md)
+  - [Indicadores de estado clave en Lync Server 2013](lync-server-2013-poster-key-health-indicators.md)
 
 </div>
 

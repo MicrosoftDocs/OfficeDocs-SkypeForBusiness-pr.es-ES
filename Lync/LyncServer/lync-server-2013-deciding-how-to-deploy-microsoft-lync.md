@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Decidir cómo implementar Microsoft Lync'
+title: 'Lync Server 2013: decidir cómo implementar Microsoft Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aef6ac76b6c0e8a6fb3c0444ab219acf78119ecd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a731b4385dbe46da39fc195e1de6be13057e649d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728560"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044112"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,31 +37,31 @@ ms.locfileid: "41728560"
 
 _**Última modificación del tema:** 2012-10-03_
 
-Al planear Lync, la primera decisión importante es cómo implementar Microsoft Lync: como local de Lync Server 2013 o Lync Online con Microsoft Office 365 en la nube.
+Al planear Lync, la primera decisión importante es cómo implementar Microsoft Lync: como Lync Server 2013 local o Lync Online con Microsoft Office 365 en la nube.
 
-  - **Lync Server 2013 local** : esta opción proporciona el conjunto completo de características de Lync y proporciona la máxima flexibilidad a la hora de configurar, personalizar y trabajar con la implementación. Todos los servidores se instalan en el sitio y los mantiene la organización. Una implementación local proporciona la gama completa de características de Lync Server.
+  - **Lync Server 2013 local** : esta opción proporciona el conjunto completo de características de Lync y proporciona la máxima flexibilidad para la configuración, personalización y funcionamiento de la implementación. La organización se encarga de instalar todos los servidores en el sitio y de su mantenimiento. Una implementación local proporciona el conjunto completo de características de Lync Server.
 
-  - **Lync Online en la nube** Lync Online está diseñado para organizaciones que desean beneficiarse de los beneficios de la mensajería instantánea, la presencia y las reuniones de la nube sin sacrificar las capacidades de clase empresarial de Lync Server basadas en la nube. Con Lync Online, Microsoft implementa y mantiene la infraestructura de servidor necesaria, y administra el mantenimiento, las revisiones y las actualizaciones en curso. Algunas de las características disponibles en una implementación local no están disponibles en Lync Online.
+  - **Lync Online en la nube** Lync Online está diseñado para organizaciones que quieren obtener el costo y la agilidad de las reuniones de mensajería instantánea, presencia y reuniones basadas en la nube sin sacrificar las capacidades de clase empresarial de Lync Server. Con Lync Online, Microsoft implementa y mantiene la infraestructura de servidor necesaria y controla el mantenimiento continuo, las revisiones y las actualizaciones. Algunas de las características disponibles en una implementación local no están disponibles en Lync Online.
 
-El tipo de implementación más conveniente depende de las cargas de trabajo que desee implementar y del estado geográfico y comercial de su organización.
+El tipo de implementación que más le convenga dependerá de las cargas de trabajo que desee implementar y de la situación financiera y geográfica de su organización.
 
 <div>
 
 ## <a name="lync-server"></a>Lync Server
 
-Una implementación local de Lync Server es la mejor para los siguientes escenarios:
+Se recomienda implementar Lync Server si se necesitan las características siguientes:
 
-  - **Capacidades completas de voz**   si piensa implementar una solución de voz empresarial completa para reemplazar su PBX o usa características avanzadas de llamada, se requiere una implementación de Lync Server local. Local admite conectividad directa con sistemas PBX y troncos, y características de teléfono avanzadas, como grupos de respuesta y estacionamiento de llamadas. En este momento, Lync Online no admite estas características.
+  - **Capacidades completas de la telefonía IP empresarial**   si tiene previsto implementar una solución de telefonía IP completa para reemplazar su PBX o usa características avanzadas de llamada, se necesita una implementación de Lync Server local. La implementación local admite la conectividad directa con troncos y sistemas PBX, además de características telefónicas avanzadas como los grupos de respuesta y el Estacionamiento de llamadas. Lync Online no admite estas características en este momento.
 
-  - **Controles de calidad multimedia**   si desea la gama completa de características de garantía de calidad multimedia, como el control de admisión de llamadas (CAC) y las características de calidad de servicio (QoS), necesitará una implementación local.
+  - **Controles de calidad de medios**   si desea disponer de la gama completa de características de seguridad de calidad de medios, como el control de admisión de llamadas (CAC) y las características de calidad de servicio (QoS), necesitará una implementación local.
 
-  - **Chat persistente si**   necesita implementar una conversación persistente para su organización, debe elegir una implementación local.
+  - **Chat persistente si**   necesita implementar chat persistente en su organización, debe elegir una implementación local.
 
-  - **las aplicaciones**   de servidor de terceros solo pueden funcionar con aplicaciones de terceros de confianza que usen la API administrada de comunicaciones unificadas de Microsoft (UCMA).
+  - **aplicaciones de servidor**   de terceros solo las implementaciones locales pueden funcionar con aplicaciones de terceros de confianza que usen la API administrada de comunicaciones unificadas de Microsoft (UCMA).
 
-  - **Empresas multinacionales o multiregional que necesitan asistencia**   regional si tiene centros de información en varios países o regiones y necesita que se implementen y administren servidores de forma regional, la implementación local es la mejor, ya que proporciona este tipo de capacidades de administración regional.
+  - **Empresas multinacionales y multiregionales que necesitan soporte**   regional si tiene centros de información en varios países o regiones y necesita que los servidores se implementen y administren de manera regional, una implementación local es mejor, ya que proporciona este tipo de capacidades de administración regional.
 
-  - **Control completo de las directivas, informes y actualizaciones**   con una implementación local de Lync Server, tendrá acceso al conjunto completo de directivas de servidor y de cliente, la supervisión y otros informes, y los intervalos de actualizaciones. Lync Online proporciona un subconjunto de los informes y la configuración de directivas, y ofrece una ventana limitada, aunque importante, para aceptar actualizaciones.
+  - **Control completo de las directivas, informes y actualizaciones**   con una implementación local de Lync Server, tiene acceso a todo el conjunto de directivas de servidor y de cliente, a la supervisión y a otros informes y a los tiempos de las actualizaciones. Lync Online proporciona un subconjunto de los informes y la configuración de directivas, y proporciona una ventana limitada, aunque significativa, para aceptar actualizaciones.
 
 </div>
 
@@ -69,7 +69,7 @@ Una implementación local de Lync Server es la mejor para los siguientes escenar
 
 ## <a name="lync-online"></a>Lync Online
 
-Si ninguno de los factores de la lista anterior es crítico para usted, es posible que desee elegir Lync Online, para una implementación y administración más sencillas. Lync Online ofrece un sólido conjunto de características de mensajería instantánea, presencia y Conferencia, y también permite llamadas de voz y vídeo a través de IP entre los usuarios de su organización.
+Si ninguno de los aspectos enumerados en la lista anterior le resulta fundamental, puede que desee escoger Lync Online para una administración e implementación más sencillas. Lync Online proporciona un conjunto de características de mensajería instantánea, presencia y Conferencia sólidas, y también habilita las llamadas de voz y vídeo a través de IP entre los usuarios de la organización.
 
 </div>
 

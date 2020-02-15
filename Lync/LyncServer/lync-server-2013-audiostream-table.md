@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla AudioStream'
+title: 'Lync Server 2013: tabla AudioStream'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97a8015bce118991b21b541faf588dd4d76ac784
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44f41dc95e1c7c39a0c9c2cc4dd0a3a2462083e7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738350"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044582"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41738350"
 
 _**Última modificación del tema:** 2012-10-02_
 
-Cada registro representa una secuencia de audio. Una línea de medios de audio normalmente contiene dos secuencias de audio.
+Cada registro representa una secuencia de audio. Una línea de medios de audio suele contener dos secuencias de audio.
 
 
 <table>
@@ -59,32 +59,32 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio n
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primary</p></td>
-<td><p>Se hace referencia a ellos desde la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
+<td><p>Principal</p></td>
+<td><p>Referencia de la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>Se hace referencia a ellos desde la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
+<td><p>Principal</p></td>
+<td><p>Referencia de la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaLineLabel</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>Primary</p></td>
-<td><p>Se hace referencia a ellos desde la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
+<td><p>Principal</p></td>
+<td><p>Referencia de la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>StreamID</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>IDENTIFICADOR exclusivo dentro de una línea de medios.</p></td>
+<td><p>Principal</p></td>
+<td><p>Identificador único de una línea de medios.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>JitterInterArrival</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Vibración de red media de las estadísticas del Protocolo de control de tiempo real (RTCP).</p></td>
+<td><p>Promedio de vibración de red de las estadísticas de Protocolo de control en tiempo real (RTCP).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalMax</strong></p></td>
@@ -94,81 +94,81 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio n
 </tr>
 <tr class="odd">
 <td><p><strong>PacketLossRate</strong></p></td>
-<td><p>decimal (4,5)</p></td>
+<td><p>decimal (5, 4)</p></td>
 <td><p> </p></td>
-<td><p>Tasa promedio de pérdida de paquetes durante la llamada.</p></td>
+<td><p>Promedio de frecuencia de pérdida de paquetes durante la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PacketLossRateMax</strong></p></td>
-<td><p>decimal (4,5)</p></td>
+<td><p>decimal (5, 4)</p></td>
 <td><p> </p></td>
-<td><p>Pérdida máxima de paquetes observadas durante la llamada.</p></td>
+<td><p>Pérdida máxima de paquetes observada durante la llamada.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>BurstDensity</strong></p></td>
+<td><p><strong>Densidad</strong></p></td>
 <td><p>decimal (9, 4)</p></td>
 <td><p> </p></td>
-<td><p>Densidad promedio de pérdida de paquetes durante las ráfagas de pérdidas durante la llamada.</p></td>
+<td><p>Densidad media de pérdida de paquetes durante las ráfagas de pérdidas durante la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BurstDuration</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Duración media de pérdida de paquetes durante ráfagas de pérdidas durante la llamada.</p></td>
+<td><p>Duración media de la pérdida de paquetes durante las ráfagas de pérdidas durante la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BurstGapDensity</strong></p></td>
 <td><p>decimal (9, 4)</p></td>
 <td><p> </p></td>
-<td><p>Densidad media de pérdida de paquetes entre ráfagas de pérdida de paquetes.</p></td>
+<td><p>Densidad media de pérdida de paquetes durante brechas entre ráfagas de pérdida de paquetes.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BurstGapDuration</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Duración media de los huecos entre las ráfagas de pérdida de paquetes.</p></td>
+<td><p>Duración media de brechas entre ráfagas de pérdida de paquetes.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PacketUtilization</strong></p></td>
-<td><p>ENT</p></td>
+<td><p>Int</p></td>
 <td><p> </p></td>
-<td><p>Recuento de paquetes de la secuencia de audio.</p></td>
+<td><p>Número de paquetes de la secuencia de audio.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Ancho de banda más</strong></p></td>
-<td><p>ENT</p></td>
+<td><p>Int</p></td>
 <td><p> </p></td>
-<td><p>Cálculo de ancho de banda para la secuencia de audio.</p></td>
+<td><p>Previsiones de ancho de banda de la secuencia de audio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DegradationAvg</strong></p></td>
 <td><p>decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>Degradación de MOS de red para toda la llamada. El intervalo está comprendido entre 0,0 y 5,0. Esta métrica muestra el monto que se redujo en el MOS de red debido a la vibración y a la pérdida de paquetes. Para una calidad aceptable, debe ser menor que 0,5.</p></td>
+<td><p>Degradación de MOS de red para toda la llamada. El intervalo es de 0,0 a 5,0. Esta métrica muestra la cantidad de MOS de red que se redujo debido a la vibración y pérdida de paquetes. Para una calidad aceptable, debe ser inferior a 0,5.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DegradationMax</strong></p></td>
 <td><p>decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>La degradación de OP máxima de red durante la llamada.</p></td>
+<td><p>Degradación de MOS de red máxima durante la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DegradationJitterAvg</strong></p></td>
 <td><p>decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>Degradación de MOS de red causada por vibración.</p></td>
+<td><p>Degradación de MOS de red causada por la vibración.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DegradationPacketLossAvg</strong></p></td>
 <td><p>decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>Degradación de MOS de red causada por pérdida de paquetes.</p></td>
+<td><p>Degradación de MOS de red causada por la pérdida de paquetes.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AudioPayloadDescription</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
-<td><p>El códec de audio usado para la llamada, al que se hace referencia desde la tabla PayloadDescription.</p></td>
+<td><p>Externa</p></td>
+<td><p>El códec de audio usado para la llamada, a la que se hace referencia desde la tabla PayloadDescription.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AudioSampleRate</strong></p></td>
@@ -177,22 +177,22 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio n
 <td><p>Frecuencia de muestreo de la secuencia de audio.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>RoundTrip</strong></p></td>
+<td><p><strong>Vuelta</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Tiempo de ida y vuelta de las estadísticas de RTCP. Para obtener una calidad aceptable, debe ser inferior a 100 $.</p></td>
+<td><p>Tiempo de ida y vuelta de las estadísticas de RTCP. Para obtener una calidad aceptable, debe ser inferior a 100 ms.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RoundTripMax</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Tiempo máximo de ida y vuelta para la secuencia de audio.</p></td>
+<td><p>Tiempo de ida y vuelta máximo de la secuencia de audio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OverallAvgNetworkMOS</strong></p></td>
 <td><p>decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>MOS de red de banda ancha promedio para la llamada. Esta métrica depende de la pérdida del paquete, de la vibración y del códec usado. El rango es de [1,0 a 5,0].</p></td>
+<td><p>MOS de red de banda ancha promedio para la llamada. Esta métrica depende de la pérdida de paquetes, la vibración y el códec que se usan. El intervalo es de [1,0 a 5,0].</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OverallMinNetworkMOS</strong></p></td>
@@ -204,7 +204,7 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio n
 <td><p><strong>SendListenMOS</strong></p></td>
 <td><p>decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>La puntuación media de escucha de banda ancha prevista para el audio enviado, incluyendo el nivel de voz, el nivel de ruido y las características del dispositivo de captura.</p></td>
+<td><p>La puntuación de MOS de escucha de banda ancha prevista para el audio enviado, incluido el nivel de voz, el nivel de ruido y las características del dispositivo de captura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SendListenMOSMin</strong></p></td>
@@ -216,7 +216,7 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio n
 <td><p><strong>RecvListenMOS</strong></p></td>
 <td><p>decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>La puntuación media de escucha de banda ancha prevista para el audio recibido de la red, incluido el nivel de voz, el nivel de ruido, el códec, las condiciones de la red y las características del dispositivo de captura.</p></td>
+<td><p>La puntuación de MOS de escucha de banda ancha prevista para el audio recibido de la red, incluidos el nivel de voz, el nivel de ruido, el códec, las condiciones de red y la captura de las características del dispositivo.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvListenMOSMin</strong></p></td>
@@ -228,50 +228,50 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio n
 <td><p><strong>AudioFECUsed</strong></p></td>
 <td><p>bit</p></td>
 <td></td>
-<td><p>Marca que indica si se usó el audio FEC para la llamada.</p></td>
+<td><p>Marca que indica si se usó FEC de audio para la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RatioConcealedSamplesAvg</strong></p></td>
-<td><p>decimal (4,5)</p></td>
+<td><p>decimal (5, 2)</p></td>
 <td></td>
-<td><p>Relación media entre las muestras ocultas generadas por la corrección de audio a muestras típicas.</p></td>
+<td><p>Relación media de muestras ocultas generadas por la recuperación de audio en muestras típicas.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RatioStretchedSamplesAvg</strong></p></td>
-<td><p>decimal (4,5)</p></td>
+<td><p>decimal (5, 2)</p></td>
 <td></td>
-<td><p>Relación media de muestras extendidas generadas por la recuperación de audio a muestras típicas.</p></td>
+<td><p>Relación media de muestras extendidas generadas por la recuperación de audio en muestras típicas.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RatioCompressedSamplesAvg</strong></p></td>
-<td><p>decimal (4,5)</p></td>
+<td><p>decimal (5, 2)</p></td>
 <td></td>
-<td><p>Relación media de muestras comprimidas generadas por la corrección de audio a muestras típicas.</p></td>
+<td><p>Relación media de muestras comprimidas generadas por la recuperación de audio en muestras típicas.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Entrada</strong></p></td>
 <td><p>bit</p></td>
 <td><p> </p></td>
-<td><p>Se reciben los datos de la secuencia del lado del destinatario.</p></td>
+<td><p>Se reciben datos de secuencia en el lado del receptor.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Saliente</strong></p></td>
+<td><p><strong>Salida</strong></p></td>
 <td><p>bit</p></td>
 <td><p> </p></td>
-<td><p>Se reciben los datos de la secuencia en el lado del remitente.</p></td>
+<td><p>Se reciben datos de secuencia en el lado del remitente.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SenderIsCallerPAI</strong></p></td>
 <td><p>bit</p></td>
 <td><p> </p></td>
-<td><p>1 significa que la dirección de la transmisión es de la persona que llama al destinatario de la llamada.</p>
-<p>0 significa que la dirección de la transmisión es de la persona que llama a la persona que llama.</p></td>
+<td><p>1 significa que la dirección de la secuencia va desde el autor de la llamada al destinatario de la llamada.</p>
+<p>0 indica que la dirección de la secuencia va del destinatario de la llamada al autor de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalSD</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Desviación estándar para las horas de llegada de la vibración.</p>
+<td><p>Desviación estándar para las horas de llegada de vibración.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
@@ -285,49 +285,49 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio n
 <td><p><strong>ConcealRatioSD</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Desviación estándar para la proporción de paquetes ocultos por el Healer.</p>
+<td><p>Desviación estándar de la proporción de paquetes ocultos por el Healer.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>HealerPacketDropRatio</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Proporción de paquetes descartados por el healro comparado con el número total de paquetes recibidos.</p>
+<td><p>Proporción de paquetes descartados por la restauración en comparación con el número total de paquetes recibidos.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>HealerFECPacketUsedRatio</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Relación entre los paquetes de corrección de errores de reenvío en comparación con el número total de paquetes recibidos.</p>
+<td><p>Relación de los paquetes de corrección de errores de reenvío utilizados en comparación con el número total de paquetes recibidos.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MaxCompressedSamples</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Número máximo de paquetes de audio que el Healer ha comprimido.</p>
+<td><p>Número máximo de paquetes de audio comprimidos por el Healer.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LossCongestionPercent</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Indica el porcentaje de la hora en que la llamada se encontraba en un estado de congestión de pérdida.</p>
+<td><p>Indica el porcentaje de tiempo que la llamada estuvo en estado de congestión de pérdida.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DelayCongestionPercent</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Indica el porcentaje de la llamada durante el cual la congestión fue causada por la llegada demorada de los paquetes de red.</p>
+<td><p>Indica el porcentaje de la llamada durante el cual la congestión se debió a la llegada retrasada de paquetes de red.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContentionDetectedPercent</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Indica el porcentaje de la hora en que la llamada compite en los recursos de red.</p>
+<td><p>Indica el porcentaje de tiempo que la llamada estaba compitiendo por los recursos de red.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
@@ -348,7 +348,7 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio n
 <td><p><strong>BandwidthEstStdDev</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Desviación estándar de la estimación del ancho de banda medida durante la llamada.</p>
+<td><p>Desviación estándar de la estimación del ancho de banda medido durante la llamada.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
@@ -362,63 +362,63 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio n
 <td><p><strong>RelativeOneWayTotal</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Cantidad total de latencia unidireccional. Latencia unidireccional relativa mide el retraso entre el cliente y el servidor.</p>
+<td><p>Cantidad total de latencia unidireccional. La latencia unidireccional relativa mide el retraso entre el cliente y el servidor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayAverage</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Cantidad promedio de latencia unidireccional. Latencia unidireccional relativa mide el retraso entre el cliente y el servidor.</p>
+<td><p>Cantidad media de latencia unidireccional. La latencia unidireccional relativa mide el retraso entre el cliente y el servidor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayMax</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Cantidad máxima de latencia unidireccional. Latencia unidireccional relativa mide el retraso entre el cliente y el servidor.</p>
+<td><p>Cantidad máxima de latencia unidireccional. La latencia unidireccional relativa mide el retraso entre el cliente y el servidor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Total de repeticiones de ráfagas unidireccionales. Una transmisión "por ráfagas" es una transmisión en la que los datos fluyen en ráfagas imprevisibles en lugar de un flujo constante. Esta medida mide el flujo de datos entre el cliente y el servidor.</p>
+<td><p>Cantidad total de ráfagas unidireccionales. Una transmisión “con ráfagas” es una transmisión en la que los datos fluyen con ráfagas impredecibles de forma totalmente opuesta a los flujos estables. Esta métrica mide el modo en que los datos fluyen entre el cliente y el servidor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstDensity</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Densidad de ráfaga unidireccional total. Una transmisión "por ráfagas" es una transmisión en la que los datos fluyen en ráfagas imprevisibles en lugar de un flujo constante. Esta medida mide el flujo de datos entre el cliente y el servidor.</p>
+<td><p>Densidad total de ráfagas unidireccionales. Una transmisión “con ráfagas” es una transmisión en la que los datos fluyen con ráfagas impredecibles de forma totalmente opuesta a los flujos estables. Esta métrica mide el modo en que los datos fluyen entre el cliente y el servidor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Total de duración de ráfaga unidireccional. Una transmisión "por ráfagas" es una transmisión en la que los datos fluyen en ráfagas imprevisibles en lugar de un flujo constante. Esta medida mide el flujo de datos entre el cliente y el servidor.</p>
+<td><p>Duración total de ráfagas unidireccionales. Una transmisión “con ráfagas” es una transmisión en la que los datos fluyen con ráfagas impredecibles de forma totalmente opuesta a los flujos estables. Esta métrica mide el modo en que los datos fluyen entre el cliente y el servidor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Total de repeticiones de intervalos unidireccionales. Una transmisión "por ráfagas" es una transmisión en la que los datos fluyen en ráfagas imprevisibles en lugar de un flujo constante; los huecos indican retrasos entre estas ráfagas. Esta medida mide el flujo de datos entre el cliente y el servidor.</p>
+<td><p>Cantidad total de intervalos unidireccionales. Una transmisión “con ráfagas” es una transmisión en la que los datos fluyen con ráfagas impredecibles de forma totalmente opuesta a los flujos estables. Esta métrica mide el modo en que los datos fluyen entre el cliente y el servidor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapDensity</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Densidad de brechas en un camino total. Una transmisión "por ráfagas" es una transmisión en la que los datos fluyen en ráfagas imprevisibles en lugar de un flujo constante; los huecos indican retrasos entre estas ráfagas. Esta medida mide el flujo de datos entre el cliente y el servidor.</p>
+<td><p>Densidad total de intervalos unidireccionales. Una transmisión “con ráfagas” es una transmisión en la que los datos fluyen con ráfagas impredecibles de forma totalmente opuesta a los flujos estables. Esta métrica mide el modo en que los datos fluyen entre el cliente y el servidor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Duración del intervalo unidireccional total. Una transmisión "por ráfagas" es una transmisión en la que los datos fluyen en ráfagas imprevisibles en lugar de un flujo constante; los huecos indican retrasos entre estas ráfagas. Esta medida mide el flujo de datos entre el cliente y el servidor.</p>
+<td><p>Duración total de intervalos unidireccionales. Una transmisión “con ráfagas” es una transmisión en la que los datos fluyen con ráfagas impredecibles de forma totalmente opuesta a los flujos estables. Esta métrica mide el modo en que los datos fluyen entre el cliente y el servidor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
@@ -439,7 +439,7 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio n
 <td><p><strong>AudioPostFECPLR</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Tasa de pérdida de paquetes después de aplicar la corrección de errores de reenvío.</p>
+<td><p>Tasa de pérdida de paquetes tras aplicar la corrección de errores de reenvío.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
@@ -453,7 +453,7 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio n
 <td><p><strong>AecCaptureStereoPercent</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Porcentaje de la llamada capturada como estéreo por el cancelador de eco acústico.</p>
+<td><p>Porcentaje de la llamada capturado como estéreo por el cancelador de eco acústico.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 </tbody>

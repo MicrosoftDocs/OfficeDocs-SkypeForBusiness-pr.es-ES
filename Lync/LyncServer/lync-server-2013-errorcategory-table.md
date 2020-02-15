@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tabla ErrorCategory'
+title: 'Lync Server 2013: tabla categoría'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183425
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5da1da6f54fa9099cc455040a71fb11c4fe070e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 407b7efd00a521e0eec7a6d573368d2f971ce3bc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735430"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042107"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="errorcategory-table-in-lync-server-2013"></a>Tabla ErrorCategory en Lync Server 2013
+# <a name="errorcategory-table-in-lync-server-2013"></a>Tabla categoría en Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41735430"
 
 _**Última modificación del tema:** 2012-08-20_
 
-La tabla ErrorCategory contiene el nombre descriptivo de cada clasificación de diagnóstico de Microsoft Lync Server 2013. De forma predeterminada, Lync Server 2013 usa las siguientes clasificaciones:
+La tabla categoría contiene el nombre descriptivo para cada clasificación de diagnóstico de Microsoft Lync Server 2013. De forma predeterminada, Lync Server 2013 usa las siguientes clasificaciones:
 
-  - 0---correcto
+  - 0 -- Éxito
 
-  - 1: error esperado
+  - 1--error esperado
 
-  - 2: error inesperado
+  - 2 – Error inesperado
 
 Esta tabla se introdujo en Microsoft Lync Server 2013.
 
@@ -65,20 +65,20 @@ Esta tabla se introdujo en Microsoft Lync Server 2013.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>IdCategoría</strong></p></td>
+<td><p><strong>CategoryId</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>Primary</p></td>
+<td><p>Principal</p></td>
 <td><p>Identificador único de la clasificación.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nombre.</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>Nombre</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>Valor y nombre descriptivo asignados a la clasificación. Los valores permitidos son:</p>
 <ul>
-<li><p>0---correcto</p></li>
-<li><p>1: error esperado</p></li>
-<li><p>2: error inesperado</p></li>
+<li><p>0 -- Éxito</p></li>
+<li><p>1--error esperado</p></li>
+<li><p>2 – Error inesperado</p></li>
 </ul></td>
 </tr>
 </tbody>

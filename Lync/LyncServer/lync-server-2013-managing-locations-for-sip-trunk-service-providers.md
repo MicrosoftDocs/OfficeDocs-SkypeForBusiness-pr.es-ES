@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: administración de ubicaciones para proveedores de servicios de tronco de SIP'
+title: 'Lync Server 2013: administración de ubicaciones para proveedores de servicio de tronco SIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9ebc471459c8e406914f5a075d7e4cf8b69fadd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d2ffa9b16a2c582af2de990eab52b55c175121bc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762098"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042557"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-locations-for-sip-trunk-service-providers-in-lync-server-2013"></a>Administración de ubicaciones para proveedores de servicios de tronco de SIP en Lync Server 2013
+# <a name="managing-locations-for-sip-trunk-service-providers-in-lync-server-2013"></a>Administración de ubicaciones para proveedores de servicio de tronco de SIP en Lync Server 2013
 
 </div>
 
@@ -37,45 +37,45 @@ ms.locfileid: "41762098"
 
 _**Última modificación del tema:** 2012-10-02_
 
-Para configurar Lync Server para ubicar automáticamente clientes dentro de una red, debe rellenar la base de datos del servicio de información de ubicación con un Wiremap de red y publicar las ubicaciones, o vincular a una base de datos externa que ya contenga la configuración correcta asignaciones. Como parte de este proceso, necesitas validar las direcciones postales con el proveedor de servicios de E9-1-1. Para obtener más información, vea [configurar la base de datos de ubicaciones en Lync Server 2013](lync-server-2013-configure-the-location-database.md) en la documentación de implementación.
+Para configurar Lync Server para ubicar automáticamente los clientes dentro de una red, debe rellenar la base de datos del servicio de información de ubicación con un cableado de red y publicar las ubicaciones o un vínculo a una base de datos externa que ya contenga la configuración correcta. asignaciones. Como parte de este proceso, valide las direcciones con el proveedor de servicios de E9-1-1. Para obtener más información, consulte [configurar la base de datos de ubicaciones en Lync Server 2013](lync-server-2013-configure-the-location-database.md) en la documentación sobre implementación.
 
-Rellena la base de datos del servicio de información de ubicaciones con una ubicación de respuesta de emergencia (ERL), formada por una dirección postal y la dirección específica en un edificio. El campo **Ubicación** del servicio de información de ubicación, que es la ubicación específica dentro de un edificio, tiene una longitud máxima de 20 caracteres (incluidos los espacios). Dentro de esa longitud limitada, intenta incluir lo siguiente:
+Rellene la base de datos del servicio de información de ubicaciones con una ubicación de respuesta de emergencia (ERL), formada por una dirección postal y la dirección específica en un edificio. El campo **Ubicación** del servicio de información de ubicación, que es la ubicación específica dentro de un edificio, tiene una longitud máxima de 20 caracteres (espacios incluidos). Dentro de esa longitud limitada, intente incluir lo siguiente:
 
-  - Un nombre fácil de comprender que identifique la ubicación del autor de la llamada al 911 para que a los encargados de emergencias les resulte más fácil encontrar rápidamente la ubicación específica cuando lleguen a la dirección postal. Este nombre de ubicación puede incluir un número de edificio, la planta, la escalera, la puerta, etc. Evita los apodos que solo conozcan los empleados, ya que los encargados de emergencias podrían equivocarse de ubicación.
+  - Un nombre fácil de entender que identifique la ubicación del autor de la llamada al 911 para garantizar que los servicios de emergencias encuentren la ubicación específica rápidamente una vez que estos lleguen a la dirección postal. Este nombre de ubicación puede incluir un número de edificio, un número de piso, un indicador de ala, un número de habitación, entre otros elementos. Evite nombres conocidos solo por los empleados, ya que podrían causar que los servicios de emergencia se dirijan a una ubicación equivocada.
 
-  - Un identificador de ubicación que permite a los usuarios ver fácilmente que el cliente de Lync ha recogido la ubicación correcta. El cliente de Lync concatena y muestra automáticamente los campos **Ubicación** detectada y **ciudad** en el encabezado. Una buena práctica es agregar la dirección del edificio a cada identificador de ubicación (por ejemplo, "número \<\>de calle del primer piso"). Sin la calle, un identificador genérico como "1.ª planta" podría referirse a cualquier edificio de la ciudad.
+  - Un identificador de ubicación para que a los usuarios les resulte más fácil ver que su cliente de Lync eligió la ubicación correcta. El cliente de Lync concatena y muestra automáticamente los campos **Location** y **City** en el encabezado. Un procedimiento recomendado es agregar la dirección de la calle del edificio a cada identificador de ubicación (por ejemplo, "número \<\>de calle del 1 piso"). Si no se indica la calle, un identificador de ubicación genérico como "1ª planta" se podría aplicar a cualquier edificio de la ciudad.
 
-  - Si la ubicación es aproximada, porque se determina por un punto de acceso inalámbrico, puedes agregar la palabra Near (por ejemplo, "Cerca" 1.ª planta 1234).
+  - Si la ubicación es aproximada porque está determinada por un punto de acceso inalámbrico, añada la palabra Near, por ejemplo, Cerca del 1r piso 1234.
 
 <div>
 
 
 > [!NOTE]  
-> Las ubicaciones que se agreguen a la base de datos de ubicación central no estarán disponibles para el cliente hasta que se publiquen mediante un comando del shell de administración de Lync Server y se repliquen en las tiendas locales del grupo. Para obtener más información, vea <A href="lync-server-2013-publish-the-location-database.md">publicar la base de datos de ubicaciones de Lync Server 2013</A> en la documentación de implementación.
+> Las ubicaciones que se agregan a la base de datos de ubicaciones centrales no están disponibles para el cliente hasta que se publican mediante un comando del shell de administración de Lync Server y se replican en los almacenes locales del grupo. Para obtener más información, consulte <A href="lync-server-2013-publish-the-location-database.md">publicar la base de datos de ubicaciones en Lync Server 2013</A> en la documentación sobre implementación.
 
 
 
 </div>
 
-En las secciones siguientes se describen consideraciones que necesitas tener en cuenta a la hora de rellenar y mantener la base de datos de ubicaciones.
+En las secciones siguientes se describen consideraciones que debe tener en cuenta a la hora de rellenar y mantener la base de datos de ubicaciones.
 
 <div>
 
 ## <a name="populating-the-location-database"></a>Rellenar la base de datos de ubicaciones
 
-Con las siguientes preguntas te será fácil determinar cómo rellenar la base de datos de ubicaciones.
+Con las siguientes preguntas le será fácil determinar cómo rellenar la base de datos de ubicaciones.
 
   - **¿Qué proceso usará para rellenar la base de datos de ubicaciones?**  
-    ¿Dónde se encuentran los datos y qué pasos necesitas realizar para convertirlos al formato que necesita la base de datos de ubicaciones? ¿Agregarás las ubicaciones una por una o en bloque con un archivo CSV?
+    ¿Dónde se encuentran los datos y qué pasos debe realizar para convertirlos al formato que necesita la base de datos de ubicaciones? ¿Agregará las ubicaciones una por una o en bloque con un archivo CSV?
 
 <!-- end list -->
 
   - **¿Dispone de una base de datos de otros fabricantes que ya contenga una asignación de ubicaciones?**  
-    Al usar la opción de servicio de información de ubicación secundaria de Lync Server para conectarse a una base de datos de terceros, puede agrupar y administrar ubicaciones mediante una plataforma sin conexión. La ventaja es que además de asociar las ubicaciones a identificadores de red, puedes asociar las ubicaciones a un usuario. Esto significa que el servicio de información de ubicación puede devolver varias direcciones, que se originan en el servicio de información de ubicación secundaria, en un cliente de Lync Server. Luego, el usuario podrá elegir la ubicación más adecuada.
+    Mediante el uso de la opción servicio de información de ubicación secundaria de Lync Server para conectarse a una base de datos de terceros, puede agrupar y administrar las ubicaciones mediante una plataforma sin conexión. La ventana es que además de asociar las ubicaciones a identificadores de red, puede asociar las ubicaciones a un usuario. Esto significa que el servicio de información de ubicación puede devolver varias direcciones, que se originan del servicio de información de ubicación secundario, a un cliente de Lync Server. Y el usuario puede elegir la ubicación más adecuada.
     
-    Para integrar con el servicio de información de ubicación, la base de datos de terceros debe seguir el esquema de solicitud/respuesta de la ubicación de Lync Server. Para obtener más información,\[consulte "MS\]-E911WS: servicio web para la especificación de protocolo <http://go.microsoft.com/fwlink/p/?linkid=213819>de compatibilidad de E911" en. Para obtener detalles sobre cómo implementar un servicio de información de ubicación secundaria, vea [configurar un servicio de información de ubicación secundaria en Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) en la documentación de implementación.
+    Para integrarse con el servicio de información de ubicaciones, la base de datos de terceros debe seguir el esquema de solicitud y respuesta de la ubicación de Lync Server. Para obtener más información,\[consulte "MS\]-E911WS: servicio web para la especificación del protocolo <http://go.microsoft.com/fwlink/p/?linkid=213819>de soporte de E911" en. Para obtener más información sobre cómo implementar un servicio de información de ubicaciones secundarias, vea [configurar un servicio de información de ubicaciones secundarias en Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) en la documentación sobre implementación.
 
-Para obtener detalles sobre cómo rellenar la base de datos de ubicación, vea [configurar la base de datos de ubicaciones en Lync Server 2013](lync-server-2013-configure-the-location-database.md) en la documentación de implementación.
+Para obtener información detallada sobre cómo rellenar la base de datos de ubicaciones, consulte [Configure The location Database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) en la documentación sobre implementación.
 
 </div>
 
@@ -83,15 +83,15 @@ Para obtener detalles sobre cómo rellenar la base de datos de ubicación, vea [
 
 ## <a name="maintaining-the-location-database"></a>Mantener la base de datos de ubicaciones
 
-Una vez rellenada la base de datos de ubicaciones, desarrolla una estrategia para actualizar la base de datos a medida que se produzcan cambios en la configuración de red. Con las siguientes preguntas te será fácil determinar cómo mantener la base de datos de ubicaciones.
+Una vez rellenada la base de datos de ubicaciones, desarrolle una estrategia para actualizar la base de datos a medida que se produzcan cambios en la configuración de red. Con las siguientes preguntas le será fácil determinar cómo mantener la base de datos de ubicaciones.
 
   - **¿Cómo actualizará la base de datos de ubicaciones?**  
-    Existen diversos escenarios que requieren una actualización de la base de datos de ubicaciones, como agregar WAP, cambiar el cableado de una oficina (lo que da lugar a asignaciones de conmutador nuevas) y la expansión de subredes. ¿Actualizarás directamente cada ubicación o llevarás a cabo una actualización en bloque de todas las ubicaciones con un archivo CSV?
+    Existen diversos escenarios que requieren una actualización de la base de datos de ubicaciones, como agregar WAP, cambiar el cableado de una oficina (lo que da lugar a asignaciones de conmutador nuevas) y la expansión de subredes. ¿Actualizará directamente cada ubicación o llevará a cabo una actualización en bloque de todas las ubicaciones con un archivo CSV?
 
 <!-- end list -->
 
-  - **¿Usará una aplicación SNMP para hacer coincidir las direcciones MAC del cliente Lync con los identificadores de conmutadores y puertos?**  
-    Si usas una aplicación SNMP, necesitas desarrollar un proceso manual para mantener sincronizada la información de conmutadores y puertos entre la aplicación SNMP y la base de datos de ubicaciones. Si la aplicación SNMP devuelve una dirección IP del chasis o un identificador de puerto que no está incluido en la base de datos, el servicio de información de ubicación no podrá devolver una ubicación al cliente.
+  - **¿Usará una aplicación SNMP para hacer coincidir las direcciones MAC con la información de conmutadores y puertos?**  
+    Si usa una aplicación SNMP, desarrolle un proceso manual para que la información de chasis de conmutador y de puerto sea coherente entre la aplicación SNMP y la base de datos de ubicaciones. Si la aplicación SNMP devuelve una dirección IP o identificador de puerto del chasis que no está incluido en la base de datos, el servicio de información de ubicación no podrá devolver una ubicación al cliente.
 
 </div>
 

@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c3a32b49b6b95a2feea222d880a0e943c7189d0
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 23d0aac3fd5697b8e06c727acb3138a878e38bea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827008"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008092"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
@@ -48,7 +48,7 @@ Los eventos en directo de Teams permiten a varias funciones (organizador, produc
 Puede ver en la imagen de arriba que hay cuatro componentes clave que se usan con eventos en directo de Teams.
 
 > [!NOTE]
-> Para obtener información general sobre cómo configurar los eventos en directo y la experiencia de los asistentes, consulte estos [vídeos](https://support.office.com/en-us/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)breves.
+> Para obtener información general sobre cómo configurar los eventos en directo y la experiencia de los asistentes, consulte estos [vídeos](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)breves.
 
 ### <a name="scheduling"></a>Programación
 Teams permite a los organizadores crear un evento con los permisos de asistente apropiados, designar miembros del equipo del evento, seleccionar un método de producción e invitar a los asistentes. Si el evento en directo se creó desde un grupo de Yammer, los asistentes del evento en directo podrán usar la conversación de Yammer para interactuar con las personas en el evento. 

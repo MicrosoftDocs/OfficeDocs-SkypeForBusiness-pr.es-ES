@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a38198d2c551b7202bcf47122039365b98525ef7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: d350812598737215521db8e675fb884336c7ee37
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827528"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008112"
 ---
 # <a name="teams-for-retail"></a>Teams para el comercio
 
@@ -35,7 +35,7 @@ Use los recursos de administración aquí para administrar y sacar el máximo pa
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="Icon depicting a map, representing getting started"/>
+                            <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" alt="Icon depicting a map, representing getting started"/>
                         </div>
                     </div>
                     <div class="cardText">

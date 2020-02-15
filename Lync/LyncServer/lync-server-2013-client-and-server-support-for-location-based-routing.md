@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Compatibilidad de cliente y servidor para el enrutamiento basado en ubicación'
+title: 'Lync Server 2013: compatibilidad del cliente y el servidor con el enrutamiento basado en ubicación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51803933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ad7ead20eb9961180fec9204a84b3392b7fa96f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efdb03adbdf1392e27c3107eef4aaf97f3708e66
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729860"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043842"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41729860"
 
 _**Última modificación del tema:** 2013-06-18_
 
-El enrutamiento basado en la ubicación es exigido por Lync Server. Lync Server puede identificar los sitios de red desde los que se conectan los usuarios dentro de la red corporativa. Dado que los usuarios remotos están fuera de la red corporativa, su ubicación se considera como desconocida.
+El enrutamiento basado en ubicación es aplicado por Lync Server. Lync Server puede identificar los sitios de red desde los que se conectan los usuarios de la red corporativa. Como los usuarios remotos están fuera de la red corporativa, se considera que su ubicación es desconocida.
 
 <div>
 
-## <a name="lync-server-support"></a>Soporte técnico de Lync Server
+## <a name="lync-server-support"></a>Compatibilidad con Lync Server
 
-El enrutamiento basado en la ubicación requiere que Lync Server 2013 CU1 se implemente en todas las agrupaciones front end y servidores Standard Edition en una topología determinada. Si Lync Server 2013 CU1 no está instalado en ciertos componentes de Lync en la topología, las restricciones de enrutamiento basadas en la ubicación no se pueden aplicar por completo.
+El enrutamiento basado en ubicación requiere que Lync Server 2013 CU1 se implemente en todos los grupos de servidores front-end y servidores Standard Edition en una topología determinada. Si Lync Server 2013 CU1 no está instalado en determinados componentes de Lync en la topología, las restricciones de enrutamiento basadas en ubicación no se pueden aplicar completamente.
 
-En la siguiente tabla se identifica la combinación de las versiones y los roles de servidor que se admiten para el enrutamiento basado en la ubicación.
+En la siguiente tabla se identifica la combinación de roles de servidor y versiones que se admiten para el enrutamiento basado en ubicación.
 
 
 <table>
@@ -58,27 +58,27 @@ En la siguiente tabla se identifica la combinación de las versiones y los roles
 <tr class="header">
 <th>Versión del grupo</th>
 <th>Versión del servidor de mediación</th>
-<th>Compatible</th>
+<th>Admitido</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync Server 2013, actualización acumulativa de febrero 2013</p></td>
-<td><p>Lync Server 2013, actualización acumulativa de febrero 2013</p></td>
+<td><p>Lync Server 2013 a la actualización acumulativa de febrero de 2013</p></td>
+<td><p>Lync Server 2013 a la actualización acumulativa de febrero de 2013</p></td>
 <td><p>sí</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2013, actualización acumulativa de febrero 2013</p></td>
+<td><p>Lync Server 2013 a la actualización acumulativa de febrero de 2013</p></td>
 <td><p>Lync Server 2013</p></td>
 <td><p>no</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Server 2013, actualización acumulativa de febrero 2013</p></td>
+<td><p>Lync Server 2013 a la actualización acumulativa de febrero de 2013</p></td>
 <td><p>Lync Server 2010</p></td>
 <td><p>no</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2013, actualización acumulativa de febrero 2013</p></td>
+<td><p>Lync Server 2013 a la actualización acumulativa de febrero de 2013</p></td>
 <td><p>Office Communications Server 2007 R2</p></td>
 <td><p>no</p></td>
 </tr>
@@ -107,7 +107,7 @@ En la siguiente tabla se identifica la combinación de las versiones y los roles
 
 ## <a name="lync-client-support"></a>Compatibilidad con clientes de Lync
 
-La siguiente tabla identifica los clientes que admite el enrutamiento basado en la ubicación.
+En la siguiente tabla se identifican los clientes compatibles con el enrutamiento basado en ubicación.
 
 
 <table>
@@ -119,7 +119,7 @@ La siguiente tabla identifica los clientes que admite el enrutamiento basado en 
 <thead>
 <tr class="header">
 <th>Tipo de cliente</th>
-<th>Compatible</th>
+<th>Admitido</th>
 <th>Detalles</th>
 </tr>
 </thead>
@@ -127,7 +127,7 @@ La siguiente tabla identifica los clientes que admite el enrutamiento basado en 
 <tr class="odd">
 <td><p>Lync 2013</p></td>
 <td><p>sí</p></td>
-<td><p>Incluidas las actualizaciones acumulativas de Lync 2013 de febrero de 2013</p></td>
+<td><p>Inclusión de la actualización acumulativa de Lync 2013 febrero de 2013</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010</p></td>
@@ -145,7 +145,7 @@ La siguiente tabla identifica los clientes que admite el enrutamiento basado en 
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>Lync Attendant</p></td>
+<td><p>Operador de Lync</p></td>
 <td><p>sí</p></td>
 <td> </td>
 </tr>
@@ -157,7 +157,7 @@ La siguiente tabla identifica los clientes que admite el enrutamiento basado en 
 <tr class="odd">
 <td><p>Lync Mobile 2013</p></td>
 <td><p>no</p></td>
-<td><p>El VoIP debe estar deshabilitado para los clientes de Lync Mobile 2013 si lo usan los usuarios con el enrutamiento basado en la ubicación habilitado.</p></td>
+<td><p>VoIP debe estar deshabilitado para los clientes de Lync Mobile 2013 si lo usan los usuarios con el enrutamiento basado en ubicación habilitado.</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Mobile 2010</p></td>
@@ -173,7 +173,7 @@ La siguiente tabla identifica los clientes que admite el enrutamiento basado en 
 
 
 > [!NOTE]  
-> Para deshabilitar VoIP para Lync Mobile 2013 clientes, asigne una directiva de movilidad con la configuración, audio/vídeo IP, deshabilitado para todos los usuarios habilitados para el enrutamiento basado en la ubicación. Para obtener más detalles sobre la directiva de movilidad, mira <A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>.
+> Para deshabilitar VoIP para los clientes de Lync Mobile 2013, asigne una directiva de movilidad con la configuración, audio/vídeo IP, deshabilitado para todos los usuarios habilitados para el enrutamiento basado en ubicación. Para obtener más información sobre la Directiva de movilidad, vea <A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>.
 
 
 
@@ -186,7 +186,7 @@ La siguiente tabla identifica los clientes que admite el enrutamiento basado en 
 ## <a name="see-also"></a>Vea también
 
 
-[Planificar el enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Planeación del enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

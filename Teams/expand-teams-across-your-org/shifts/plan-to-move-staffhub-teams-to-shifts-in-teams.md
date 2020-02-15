@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5a6079924803f7dbdde0c49bb5bd5d1f1aa2c4b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ad0043b1599ac7ce90599a03d786d756cf16e684
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825711"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008152"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Planear la transición de los equipos de StaffHub a turnos en Microsoft Teams
 
@@ -49,7 +49,7 @@ Use la escala de tiempo como guía para planear el desplazamiento de StaffHub a 
 |base10    |Comunicarse con los usuarios de StaffHub acerca de la transición a los cambios en Teams         |[De StaffHub a teams ejemplo de comunicación de correo electrónico a usuarios](staffhub-to-teams-email-template.md)         |
 |once     |Instalar clientes de Teams         |[Obtener clientes para Microsoft Teams](../../get-clients.md) |
 |2007    |Asignar la Directiva de configuración de la aplicación FirstLineWorker a los usuarios (o crear y asignar una directiva de configuración de aplicación personalizada) para anclar la aplicación turnos a clientes de Teams  |[Asignar la Directiva de configuración de la aplicación de FirstlineWorker a los usuarios](move-staffhub-teams-to-shifts-in-teams.md#assign-the-firstlineworker-app-setup-policy-to-users)         |
-|13     |Enseñar a los usuarios a usar turnos y equipos         |[Usuarios incorporados a teams](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[Desplaza la documentación de ayuda](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Documentación de Ayuda de Teams](https://support.office.com/teams)<br><br>[Vídeos de aprendizaje de Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |
+|13     |Enseñar a los usuarios a usar turnos y equipos         |[Usuarios incorporados a teams](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[Desplaza la documentación de ayuda](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Documentación de Ayuda de Teams](https://support.office.com/teams)<br><br>[Vídeos de aprendizaje de Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |
 |14     |Revise la lista de equipos de StaffHub para asegurarse de que todos los usuarios de esos equipos se deben mover a teams. Quitar usuarios que no deberían estar en la programación. |         |
 
 ## <a name="move-your-organizations-staffhub-teams-to-teams"></a>Mover los equipos de StaffHub de su organización a teams

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar certificados para el proxy inverso'
+title: 'Lync Server 2013: configurar certificados para el proxy inverso'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185291
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe45f9e7d422da53e9dc531721d4b678685eb2b1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e854009dc376157ab4e61bbb3ba76fbde508b046
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764666"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043772"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41764666"
 
 _**Última modificación del tema:** 2012-09-08_
 
-Cada servidor proxy inverso requiere un certificado de servidor web para que lo use el servicio de escucha. El certificado de servidor Web debe ser emitido por una entidad de certificación (CA) pública.
+Todos los servidores proxy inversos requieren un certificado de servidor web para usarlos en el servicio de escucha. El certificado de servidor web debe ser emitido por una entidad de certificación (CA) pública.
 
 Para obtener más información sobre este y otros requisitos de certificado, consulte [requisitos de certificados para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
 <div>
 
-## <a name="to-set-up-a-web-services-certificate-for-the-reverse-proxy"></a>Para configurar un certificado de servicios web para el proxy inverso
+## <a name="to-set-up-a-web-services-certificate-for-the-reverse-proxy"></a>Para configurar un certificado de servicios web para el servidor proxy inverso
 
-  - Ya debe haber configurado su proxy inverso, incluyendo la configuración del certificado de servicios Web. Si no lo hizo antes de empezar la implementación de los servidores perimetrales, use los procedimientos de [configuración de los servidores proxy inversos para Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) para crear solicitudes e instalar el certificado de servicios web y, después, cree cada regla de publicación web y configúrela para usar el certificado.
+  - Debe haber configurado previamente el servidor proxy inverso, incluida la configuración del certificado de servicios web. Si no lo hizo antes de iniciar la implementación de los servidores perimetrales, use los procedimientos descritos en Configuring [Reverse proxy servers for Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) para crear una solicitud e instalar el certificado de servicios web y, a continuación, cree cada regla de publicación web y configúrela para usar el certificado.
 
 </div>
 

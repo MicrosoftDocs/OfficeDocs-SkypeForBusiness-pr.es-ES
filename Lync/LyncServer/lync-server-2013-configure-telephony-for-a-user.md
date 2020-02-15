@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configurar telefonía para un usuario'
+title: 'Lync Server 2013: configurar la telefonía para un usuario'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d57c4799c0fe9bb9dc698c3e0e74a9d73cbde524
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cac7f13d7ba46b9affee1f4d44dd56b167597b80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740010"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043262"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-telephony-for-a-user-in-lync-server-2013"></a>Configurar la telefonía de un usuario en Lync Server 2013
+# <a name="configure-telephony-for-a-user-in-lync-server-2013"></a>Configurar la telefonía para un usuario en Lync Server 2013
 
 </div>
 
@@ -37,45 +37,45 @@ ms.locfileid: "41740010"
 
 _**Última modificación del tema:** 2012-11-01_
 
-La configuración de telefonía es una parte de la configuración individual de una cuenta de usuario que se puede configurar en el panel de control de Lync Server para el usuario (es decir, si el usuario individual se ha habilitado para Lync Server 2013 y la organización admite telefonía).
+La configuración de telefonía es una de las configuraciones individuales de una cuenta de usuario que se puede configurar en el panel de control de Lync Server para el usuario (es decir, si el usuario individual se ha habilitado para Lync Server 2013 y la organización admite telefonía).
 
 Entre las opciones de telefonía de usuario de Lync Server se incluyen las siguientes:
 
-  - **Audio/vídeo deshabilitado**   el usuario no puede hacer llamadas con audio y vídeo.
+  - **Audio/vídeo deshabilitado**   el usuario no puede realizar llamadas con audio y vídeo.
 
-  - **Solo de PC a PC**   el usuario solo puede hacer videollamadas o videollamadas de PC a PC.
+  - **Solo de PC a PC**   el usuario solo puede realizar llamadas de audio o vídeo de PC a PC.
 
-  - **Telefonía IP**   empresarial el usuario puede usar la infraestructura de Lync Server 2013 para enrutar todas las llamadas entrantes y salientes. El usuario también puede hacer llamadas de PC a PC.
+  - **Telefonía IP**   empresarial el usuario puede usar la infraestructura de Lync Server 2013 para enrutar todas las llamadas entrantes y salientes. También puede realizar llamadas de equipo a equipo.
 
-  - **Control de llamada remota**   el usuario puede usar Lync Server 2013 para controlar el teléfono de escritorio y también puede hacer llamadas entre equipos.
+  - **Control remoto de llamadas**   el usuario puede usar Lync Server 2013 para controlar el teléfono de escritorio y también puede realizar llamadas de equipo a equipo.
 
-Para obtener detalles sobre la configuración de telefonía para una organización, vea [configurar la telefonía de un usuario en Lync server 2013](lync-server-2013-configure-telephony-for-a-user.md) e implementar la telefonía [IP empresarial en Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) en la documentación de implementación.
+Para obtener más información sobre cómo configurar la telefonía para una organización, vea [Configure Telephony for a User in Lync server 2013](lync-server-2013-configure-telephony-for-a-user.md) e [Deploying Enterprise Voice in Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) en la documentación sobre implementación.
 
 <div>
 
-## <a name="to-configure-telephony-for-a-specific-user-account"></a>Para configurar telefonía para una cuenta de usuario específica
+## <a name="to-configure-telephony-for-a-specific-user-account"></a>Para configurar la telefonía para una cuenta de usuario específica
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  En la barra de navegación izquierda, haga clic en **Usuarios**.
 
-4.  En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desee y, a continuación, haga clic en **Buscar**.
+4.  En el cuadro **Buscar usuarios**, escriba la primera parte del nombre para mostrar, el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desee y, a continuación, haga clic en **Buscar**.
 
-5.  En la tabla, haga clic en la cuenta de usuario que desea modificar.
+5.  En la tabla, haga clic en la cuenta de usuario que desee modificar.
 
-6.  En el menú **Editar** , haga clic en **modificar**.
+6.  En el menú **Editar**, haga clic en **Modificar**.
 
-7.  En **telefonía**, haga lo siguiente:
+7.  En **Telefonía**, siga este procedimiento:
     
-      - Para deshabilitar las llamadas de audio y vídeo para el usuario, haga clic en **audio/vídeo deshabilitado**.
+      - Para deshabilitar las llamadas de audio y vídeo del usuario, haga clic en **Audio y vídeo deshabilitados**.
     
-      - Para habilitar las comunicaciones de audio de PC a PC para el usuario, pero no para el control remoto de llamadas ni para la telefonía IP empresarial, haga clic en **solo de PC a PC**. Especifique un valor para el **URI de línea** del teléfono que usa el usuario para las comunicaciones de audio de PC a PC.
+      - Para habilitar las comunicaciones de audio de equipo a equipo para el usuario, pero no el control remoto de llamadas ni la Telefonía IP empresarial, haga clic en **Solo de equipo a equipo**. Especifique un valor para **URI de línea** para el teléfono que usa el usuario para comunicaciones de audio de equipo a equipo.
     
-      - Para enrutar las llamadas telefónicas del usuario mediante la infraestructura de Lync Server 2010 de acuerdo con la Directiva de clase de servicio, incluida la comunicación de audio de PC a PC, haga clic en **telefonía IP empresarial**. En **URI de línea**, especifique el número de teléfono de la telefonía IP empresarial. En **Directiva de plan de marcado** y **Directiva de voz**, especifique las directivas apropiadas para el usuario. Para especificar las reglas de normalización para traducir números de teléfono marcados por el usuario al formato E. 164, seleccione el perfil de ubicación adecuado en la **política de ubicación**.
+      - Para enrutar las llamadas de teléfono del usuario mediante la infraestructura de Lync Server 2010 de acuerdo con la Directiva de clase de servicio, incluida la comunicación de audio de PC a PC, haga clic en **telefonía IP empresarial**. En **URI de línea**, especifique el número de teléfono para la Telefonía IP empresarial. En **Directiva de plan de marcado** y **Directiva de voz**, especifique las directivas adecuadas para el usuario. Para especificar las reglas de normalización para convertir los números de teléfono que marque el usuario a formato E.164, seleccione el perfil de ubicación apropiado en **Directiva de ubicación**.
     
-      - Para habilitar el control remoto de llamadas, que permite a los usuarios controlar la línea telefónica de escritorio de Lync Server 2013 para hacer llamadas de PC a PC y llamadas de PC a teléfono, haga clic en **control remoto de llamadas**. En **URI de línea**, especifique el número de teléfono para el control de llamada remota. El usuario debe tener una conexión de teléfono de escritorio y de central de conmutación (PBX) para el enrutamiento de llamadas.
+      - Para habilitar el control remoto de llamadas, que permite a los usuarios controlar su línea telefónica de escritorio desde Lync Server 2013 para realizar llamadas de equipo a equipo y llamadas de equipo a teléfono, haga clic en **control remoto de llamadas**. En **URI de línea**, especifique el número de teléfono para el control remoto de llamadas. El usuario debe tener un teléfono de escritorio y una conexión de central de conmutación (PBX) para el enrutamiento de llamadas.
 
 </div>
 
@@ -84,7 +84,7 @@ Para obtener detalles sobre la configuración de telefonía para una organizaci�
 ## <a name="see-also"></a>Vea también
 
 
-[Modificar las propiedades de la cuenta de usuario en Lync Server 2013](lync-server-2013-modifying-user-account-properties.md)  
+[Modificación de las propiedades de la cuenta de usuario en Lync Server 2013](lync-server-2013-modifying-user-account-properties.md)  
   
 
 </div>

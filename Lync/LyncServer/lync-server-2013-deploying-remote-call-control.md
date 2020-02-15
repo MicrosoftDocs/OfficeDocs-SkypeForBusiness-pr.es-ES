@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Implementar el control remoto de llamadas'
+title: 'Lync Server 2013: implementación del control remoto de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6651c9cb15322498d68fa9b6cd705b68dc601c6d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4c2cb64b3ca2d8e7d0c520e1d8ff4ee896895e13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740840"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043422"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-remote-call-control-in-lync-server-2013"></a>Implementar el control remoto de llamadas en Lync Server 2013
+# <a name="deploying-remote-call-control-in-lync-server-2013"></a>Implementación del control remoto de llamadas en Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41740840"
 
 _**Última modificación del tema:** 2012-10-20_
 
-Esta sección le guiará a través del proceso de implementación de la funcionalidad de control de llamadas remotas a los usuarios de su organización.
+En esta sección se le guiará a través del proceso de implementación de la funcionalidad de control remoto de llamadas para usuarios de la organización.
 
 <div>
 
 
 > [!NOTE]  
-> Aunque las características de control remoto de llamadas están disponibles para los usuarios remotos mientras están fuera del firewall de la organización, los detalles sobre la implementación de escenarios de acceso externo están fuera del ámbito de esta documentación. Para obtener detalles sobre cómo implementar el acceso de usuarios externos, vea <A href="lync-server-2013-deploying-external-user-access.md">implementar el acceso de usuarios externos en Lync Server 2013</A> en la documentación de implementación.
+> Aunque las características de control remoto de llamadas están disponibles para los usuarios remotos que se encuentran fuera del firewall de su organización, los detalles sobre la implementación de escenarios de acceso externo no se abordan en esta documentación. Para obtener más información sobre cómo implementar el acceso de usuarios externos, consulte <A href="lync-server-2013-deploying-external-user-access.md">Deploying external User Access in Lync Server 2013</A> en la documentación sobre implementación.
 
 
 
@@ -53,11 +53,11 @@ Esta sección le guiará a través del proceso de implementación de la funciona
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Configurar Lync Server 2013 para enrutar a una puerta de enlace SIP/CSTA](lync-server-2013-configuring-lync-server-to-route-to-a-sip-csta-gateway.md)
+  - [Configuración de Lync Server 2013 para enrutar a una puerta de enlace SIP/CSTA](lync-server-2013-configuring-lync-server-to-route-to-a-sip-csta-gateway.md)
 
   - [Configurar una ruta estática para el control remoto de llamadas en Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)
 
-  - [Configurar una entrada de aplicación de confianza para control remoto de llamadas en Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
+  - [Configurar una entrada de aplicación de confianza para el control remoto de llamadas en Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
 
   - [Definir una dirección IP de puerta de enlace SIP/CSTA en Lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md) (solo si la puerta de enlace está configurada para usar TCP)
 
@@ -73,7 +73,7 @@ Esta sección le guiará a través del proceso de implementación de la funciona
 
 ## <a name="related-sections"></a>Secciones relacionadas
 
-[Planear el control remoto de llamadas en Lync Server 2013](lync-server-2013-planning-for-remote-call-control.md)
+[Planeación del control remoto de llamadas en Lync Server 2013](lync-server-2013-planning-for-remote-call-control.md)
 
 </div>
 

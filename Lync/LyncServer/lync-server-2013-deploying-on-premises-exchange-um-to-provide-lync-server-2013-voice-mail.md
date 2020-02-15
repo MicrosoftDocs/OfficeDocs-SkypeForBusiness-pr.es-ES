@@ -1,5 +1,5 @@
 ---
-title: Implementar la mensajería unificada de Exchange local para proporcionar correo de voz de Lync Server 2013
+title: Implementación de la mensajería unificada de Exchange local para proporcionar correo de voz de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c836c579571645a7717ee54b697081104f90986d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3742b747a9dee55d02cbc261cbcbebce1f3c2591
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740960"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043412"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail"></a>Implementar la mensajería unificada de Exchange local para proporcionar correo de voz de Lync Server 2013
+# <a name="deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail"></a>Implementación de la mensajería unificada de Exchange local para proporcionar correo de voz de Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41740960"
 
 _**Última modificación del tema:** 2012-09-26_
 
-Si ha implementado o tiene previsto implementar Microsoft Exchange Server en su organización, puede usar las características de mensajería unificada (UM) de Exchange para proporcionar correo de voz a los usuarios de telefonía IP empresarial.
+Si ha implementado o tiene previsto implementar Microsoft Exchange Server en su organización, puede usar las características de mensajería unificada (MU) de Exchange para proporcionar correo de voz a los usuarios de telefonía IP empresarial.
 
 <div>
 

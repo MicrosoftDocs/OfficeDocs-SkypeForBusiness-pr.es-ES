@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Definir una dirección IP de puerta de enlace SIP/CSTA'
+title: 'Lync Server 2013: definir una dirección IP de puerta de enlace SIP/CSTA'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c50958f2c7c44045e25ff4ac9619f3ad73a5f302
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 60541799a66365275207ea998fa2d4dd218a7bc3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728520"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043652"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,29 +37,29 @@ ms.locfileid: "41728520"
 
 _**Última modificación del tema:** 2012-09-21_
 
-Si Lync Server se conecta a la puerta de enlace SIP/CSTA que ha implementado para el control remoto de llamadas mediante una conexión de protocolo de control de transmisión (TCP), debe definir la dirección IP de la puerta de enlace en el generador de topología. Este paso no es necesario para las puertas de enlace que admiten conexiones de seguridad de la capa de transporte (TLS). Para cualquier puerta de enlace que admita conexiones TLS, puede omitir este procedimiento y continuar con la implementación de control de llamada remota siguiendo los pasos de [Habilitar usuarios de Lync para el control remoto de llamadas en Lync Server 2013](lync-server-2013-enable-lync-users-for-remote-call-control.md).
+Si Lync Server se conectará a la puerta de enlace SIP/CSTA que implementó para el control remoto de llamadas mediante una conexión de protocolo de control de transmisión (TCP), debe definir la dirección IP de la puerta de enlace en el generador de topologías. Este paso no es necesario para puertas de enlace compatibles con conexiones de Seguridad de la capa de transporte (TLS). Para cualquier puerta de enlace que admita conexiones TLS, puede omitir este procedimiento y continuar con la implementación del control remoto de llamadas siguiendo los pasos descritos en [Habilitar usuarios de Lync para el control remoto de llamadas en Lync Server 2013](lync-server-2013-enable-lync-users-for-remote-call-control.md).
 
 <div>
 
-## <a name="to-define-the-sipcsta-gateway-ip-address-by-using-topology-builder"></a>Para definir la dirección IP de la puerta de enlace SIP/CSTA con el generador de topología
+## <a name="to-define-the-sipcsta-gateway-ip-address-by-using-topology-builder"></a>Para definir la dirección IP de la puerta de enlace SIP/CSTA con el Generador de topologías
 
-1.  Inicie sesión en el equipo donde se encuentre instalado el Generador de topologías como miembro del grupo Administradores del dominio y el grupo RTCUniversalServerAdmins.
+1.  Inicie sesión en el equipo en el que Topology Builder esté instalado como miembro del grupo Admins. del dominio y el grupo RTCUniversalServerAdmins.
 
-2.  Iniciar generador de topología: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topología de Lync Server**.
+2.  Inicie el generador de topologías: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topologías de Lync Server**.
 
 3.  Elija la opción para descargar una topología existente.
 
-4.  Expanda el nodo **servidores de aplicaciones de confianza** .
+4.  Expanda el nodo **Servidores de aplicaciones de confianza**.
 
 5.  Haga clic con el botón secundario en el grupo de aplicaciones de confianza que ha creado, como se describe en [configurar una entrada de aplicación de confianza para control remoto de llamadas en Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)y, a continuación, haga clic en **Editar propiedades**.
 
-6.  Desactive la casilla **Habilitar la replicación de datos de configuración en este grupo** .
+6.  Desactive la casilla **Habilitar replicación de datos de configuración en este grupo de servidores**.
 
-7.  Haga clic en **limitar el uso del servicio a las direcciones IP seleccionadas**. La configuración predeterminada es **usar todas las direcciones IP configuradas**.
+7.  Haga clic en **Limitar el uso del servicio a las direcciones IP seleccionadas**. La configuración predeterminada es **Usar todas las direcciones IP configuradas**.
 
-8.  En el cuadro de texto **dirección IP principal** , escriba la dirección IP de la puerta de enlace SIP/CSTA.
+8.  En el cuadro de texto **Dirección IP principal**, escriba la dirección IP de la puerta de enlace SIP/CSTA.
 
-9.  Para actualizar la topología en el almacén central de administración, en el árbol de consola, haga clic en **Lync Server**y, a continuación, en el panel **acciones** , haga clic en **publicar**.
+9.  Para actualizar la topología en el almacén de administración central, en el árbol de la consola, haga clic en **Lync Server** y, desde el panel **Acciones**, haga clic en **Publicar**.
 
 </div>
 
@@ -69,7 +69,7 @@ Si Lync Server se conecta a la puerta de enlace SIP/CSTA que ha implementado par
 
 
 [Configurar una ruta estática para el control remoto de llamadas en Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  
-[Configurar una entrada de aplicación de confianza para control remoto de llamadas en Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
+[Configurar una entrada de aplicación de confianza para el control remoto de llamadas en Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
   
 
 </div>

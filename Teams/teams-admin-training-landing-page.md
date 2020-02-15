@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.topic: landing-page
 ms.author: v-lanac
-ms.openlocfilehash: 483b8d6d3770f37bdac5c28f35b2f34ccf5043e8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6ca85b886ee7bec06dbcc948108e4b06334507d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837890"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029351"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
@@ -48,7 +48,7 @@ Obtenga información sobre cómo administrar equipos de su organización.
         </a>
     </li>
     <li>
-        <a href="https://support.office.com/en-us/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b">
+        <a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

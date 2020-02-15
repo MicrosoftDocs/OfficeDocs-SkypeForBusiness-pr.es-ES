@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planificar la capacidad para el estacionamiento de llamadas'
+title: 'Lync Server 2013: Planeación de la capacidad para el estacionamiento de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd4cc9d10a3a3562c035c7bc2f64f551b70cc5da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f1192ef9b5b30c722a4f62973cf4992da3ca7300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743430"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044182"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a>Planificar la capacidad para el estacionamiento de llamadas en Lync Server 2013
+# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a>Planeación de la capacidad para el estacionamiento de llamadas en Lync Server 2013
 
 </div>
 
@@ -39,13 +39,13 @@ _**Última modificación del tema:** 2012-09-13_
 
 <div id="sectionSection0" class="section">
 
-En la siguiente tabla se describe el modelo de usuario de estacionamiento de llamadas que puede usar como base para los requisitos de planes de capacidad.
+En la tabla siguiente se describe el modelo de usuario de estacionamiento de llamadas que puede usar como base para los requisitos de planeación de capacidad.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Tenga en cuenta que, para la planeación de la capacidad de recuperación ante desastres, cada grupo de un grupo emparejado debería poder administrar las cargas de trabajo de los servicios de estacionamiento de llamadas en ambos grupos.
+> Tenga en cuenta que, para la planeación de la capacidad de recuperación ante desastres, cada grupo de servidores emparejados debe poder administrar las cargas de trabajo para los servicios de estacionamiento de llamadas en ambos grupos.
 
 
 
@@ -61,8 +61,8 @@ En la siguiente tabla se describe el modelo de usuario de estacionamiento de lla
 </colgroup>
 <thead>
 <tr class="header">
-<th>Métrica</th>
-<th>Por grupo front-end (con 8 servidores frontales)</th>
+<th>Biometría</th>
+<th>Por grupo de servidores front-end (con 8 servidores front-end)</th>
 <th>Por servidor Standard Edition</th>
 </tr>
 </thead>
@@ -73,12 +73,12 @@ En la siguiente tabla se describe el modelo de usuario de estacionamiento de lla
 <td><p>1 por minuto</p></td>
 </tr>
 <tr class="even">
-<td><p>Tasa de recuperación de llamadas estacionadas</p></td>
+<td><p>Recuperar la tasa de llamadas estacionadas</p></td>
 <td><p>8 por minuto</p></td>
 <td><p>1 por minuto</p></td>
 </tr>
 <tr class="odd">
-<td><p>Promedio de duración del estacionamiento</p></td>
+<td><p>Duración media del estacionamiento</p></td>
 <td><p>60 segundos</p></td>
 <td><p>60 segundos</p></td>
 </tr>

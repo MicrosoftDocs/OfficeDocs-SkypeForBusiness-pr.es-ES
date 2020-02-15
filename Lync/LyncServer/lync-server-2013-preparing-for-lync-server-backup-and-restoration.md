@@ -12,20 +12,20 @@ ms:contentKeyID: 51541442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fd0262e769cbcfb140f0cdceb21a1297bae0a58
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f28d1bbc1b0879da04755840af3aa2d15dabb5b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747430"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042437"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-for-lync-server-2013-backup-and-restoration"></a>Prepararse para la copia de seguridad y restauración de Lync Server 2013
+# <a name="preparing-for-lync-server-2013-backup-and-restoration"></a>Preparación para la copia de seguridad y restauración de Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41747430"
 
 _**Última modificación del tema:** 2013-02-17_
 
-En los siguientes temas se describen la configuración, la configuración y otros datos de los que necesita hacer una copia de seguridad para poder restaurar servidores y bases de datos en caso de que se produzca un error o una interrupción.
+Los siguientes temas describen la configuración, la configuración y otros datos de los que necesita hacer una copia de seguridad para poder restaurar servidores y bases de datos en caso de que se produzca un error o una interrupción.
 
 <div>
 
@@ -47,11 +47,11 @@ En los siguientes temas se describen la configuración, la configuración y otro
 
   - [Requisitos de copia de seguridad y restauración en Lync Server 2013: herramientas y permisos](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)
 
-  - [Descripción general del proceso de copia de seguridad y restauración de Lync Server 2013](lync-server-2013-backup-and-restoration-process-overview.md)
+  - [Información general sobre el proceso de copia de seguridad y restauración para Lync Server 2013](lync-server-2013-backup-and-restoration-process-overview.md)
 
   - [Desarrollar una estrategia de copia de seguridad y restauración y planear Lync Server 2013](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)
 
-  - [Procedimientos recomendados para copias de seguridad y restauración de Lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md)
+  - [Procedimientos recomendados para copias de seguridad y restauración para Lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md)
 
 </div>
 

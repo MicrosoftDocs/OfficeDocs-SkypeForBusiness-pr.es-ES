@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3f569cfc225c1933b978e9a0a7d9e9bf95be783
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6d7d0b1cf23b94f33c66218eaacdfdeda5aaab19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837140"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048601"
 ---
 ![Actualizar el diagrama de viaje, enfatizando la fase de preparación del usuario](media/upgrade-banner-user-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación del usuario")
 
@@ -107,7 +107,7 @@ Para sacar el máximo provecho de Teams, cree una estrategia de trabajo en equip
 | | |
 |---|---|
 | ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>¿Qué relatable escenarios de trabajo en equipo para ayudar a acelerar la adopción de equipos por parte de los usuarios y facilitar la actualización de Skype empresarial?</li></ul> |
-| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Use los siguientes ejemplos para ayudarle a diseñar sus propios escenarios de trabajo en equipo. Documente la actualización en el [libro](https://aka.ms/upgradesuccesskit).</li><li>Para escenarios y ejemplos adicionales, vaya a la [biblioteca de productividad](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
+| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Use los siguientes ejemplos para ayudarle a diseñar sus propios escenarios de trabajo en equipo. Documente la actualización en el [libro](https://aka.ms/upgradesuccesskit).</li><li>Para escenarios y ejemplos adicionales, vaya a la [biblioteca de productividad](https://www.microsoft.com/microsoft-365/success/)</li></ul>|
 
 ### <a name="examples"></a>Ejemplos
 

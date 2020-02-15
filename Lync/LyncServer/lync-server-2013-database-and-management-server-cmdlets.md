@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: cmdlets del servidor de base de datos y administración'
+title: 'Lync Server 2013: cmdlets de bases de datos y servidores de administración'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 770107bb4f7fafc4b1d43db8a5bdfcd3efef63e0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 25bf5b464b8bda91d2374811d3c727154d1ceccc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728600"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044152"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="database-and-management-server-cmdlets-in-lync-server-2013"></a>Cmdlets de servidores de administración y bases de datos en Lync Server 2013
+# <a name="database-and-management-server-cmdlets-in-lync-server-2013"></a>Cmdlets de bases de datos y servidores de administración en Lync Server 2013
 
 </div>
 
@@ -37,74 +37,74 @@ ms.locfileid: "41728600"
 
 _**Última modificación del tema:** 2012-10-09_
 
-Los cmdlets del servidor de base de datos y de administración se usan para administrar las bases de datos back-end de Microsoft Lync Server 2013 y los servicios de administración de aplicaciones para el usuario. Puede usar estos cmdlets para instalar o desinstalar cualquiera de las bases de datos que usa Lync Server 2013, además de configurar el punto de control del servicio Active Directory para el almacén de administración central.
+Los cmdlets de bases de datos y servidores de administración se usan para administrar las bases de datos back-end de Microsoft Lync Server 2013 y los servicios de administración front-end. Puede usar estos cmdlets para instalar o desinstalar cualquiera de las bases de datos que usa Lync Server 2013, además de configurar el punto de control del servicio Active Directory para el almacén de administración central.
 
 <div>
 
-## <a name="database-and-management-server-cmdlets"></a>Cmdlets de servidores de administración y bases de datos
+## <a name="database-and-management-server-cmdlets"></a>Cmdlets de bases de datos y servidores de administración
 
-A continuación se muestra una lista de cmdlets que se relacionan directamente con la administración de bases de datos y el servidor de administración:
+A continuación se presenta una lista de cmdlets específicamente ideados para administrar bases de datos y servidores de administración:
 
-**Bases de datos y servidor de administración**
-
-  - <span></span>  
-    [Get-CsConfigurationStoreLocation](https://technet.microsoft.com/en-us/library/Gg412814(v=OCS.15))
+**Bases de datos y servidores de administración**
 
   - <span></span>  
-    [Remove-CsConfigurationStoreLocation](https://technet.microsoft.com/en-us/library/Gg398214(v=OCS.15))
+    [Get-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg412814(v=OCS.15))
 
   - <span></span>  
-    [Set-CsConfigurationStoreLocation](https://technet.microsoft.com/en-us/library/Gg398258(v=OCS.15))
+    [Remove-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398214(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398258(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Install-CsDatabase](https://technet.microsoft.com/en-us/library/Gg399044(v=OCS.15))
+    [Install-CsDatabase](https://technet.microsoft.com/library/Gg399044(v=OCS.15))
 
   - <span></span>  
-    [Test-CsDatabase](https://technet.microsoft.com/en-us/library/JJ204839(v=OCS.15))
+    [Test-CsDatabase](https://technet.microsoft.com/library/JJ204839(v=OCS.15))
 
   - <span></span>  
-    [Uninstall-CsDatabase](unhttps://technet.microsoft.com/en-us/library/Gg399044(v=OCS.15))
+    [Uninstall-CsDatabase](unhttps://technet.microsoft.com/library/Gg399044(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsDatabaseFailover](https://technet.microsoft.com/en-us/library/JJ204744(v=OCS.15))
+  - [Invoke-CsDatabaseFailover](https://technet.microsoft.com/library/JJ204744(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsDatabaseMirrorState](https://technet.microsoft.com/en-us/library/JJ204845(v=OCS.15))
+  - [Get-CsDatabaseMirrorState](https://technet.microsoft.com/library/JJ204845(v=OCS.15))
 
 <!-- end list -->
 
-  - [Install-CsMirrorDatabase](https://technet.microsoft.com/en-us/library/JJ204986(v=OCS.15))
+  - [Install-CsMirrorDatabase](https://technet.microsoft.com/library/JJ204986(v=OCS.15))
 
-  - [Uninstall-CsMirrorDatabase](unhttps://technet.microsoft.com/en-us/library/JJ204986(v=OCS.15))
-
-<!-- end list -->
-
-  - <span></span>  
-    [Get-CsUserDatabaseState](https://technet.microsoft.com/en-us/library/Gg398831(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsUserDatabaseState](https://technet.microsoft.com/en-us/library/Gg412973(v=OCS.15))
+  - [Uninstall-CsMirrorDatabase](unhttps://technet.microsoft.com/library/JJ204986(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Update-CsUserDatabase](https://technet.microsoft.com/en-us/library/Gg398682(v=OCS.15))
+    [Get-CsUserDatabaseState](https://technet.microsoft.com/library/Gg398831(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsUserDatabaseState](https://technet.microsoft.com/library/Gg412973(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Move-CsManagementServer](https://technet.microsoft.com/en-us/library/Gg412921(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsManagementServer](https://technet.microsoft.com/en-us/library/Gg398465(v=OCS.15))
+    [Update-CsUserDatabase](https://technet.microsoft.com/library/Gg398682(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsManagementServerFailover](https://technet.microsoft.com/en-us/library/JJ204647(v=OCS.15))
+  - <span></span>  
+    [Move-CsManagementServer](https://technet.microsoft.com/library/Gg412921(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsManagementServer](https://technet.microsoft.com/library/Gg398465(v=OCS.15))
+
+<!-- end list -->
+
+  - [Invoke-CsManagementServerFailover](https://technet.microsoft.com/library/JJ204647(v=OCS.15))
 
 </div>
 

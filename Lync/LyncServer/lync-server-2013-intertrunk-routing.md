@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Enrutamiento entre troncos'
+title: 'Lync Server 2013: enrutamiento intertroncal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eaa41fe229e9246506fd92eb9f48767994997e4e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23aab6df352b162f7f389ef56fb2300f01654edb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725680"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042327"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="intertrunk-routing-in-lync-server-2013"></a>Enrutamiento entre troncos en Lync Server 2013
+# <a name="intertrunk-routing-in-lync-server-2013"></a>Enrutamiento intertroncal en Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41725680"
 
 _**Última modificación del tema:** 2012-10-20_
 
-Lync Server 2013 puede interconectar un IP-PBX con una puerta de enlace de red telefónica conmutada (RTC) para que las llamadas desde un teléfono PBX se puedan enrutar a la RTC y las llamadas RTC entrantes se puedan enrutar a un teléfono de la central de conmutación (PBX). De forma similar, Lync Server 2013 puede interconectar dos o más sistemas IP-PBX para que las llamadas se puedan realizar y recibir entre teléfonos PBX desde los diferentes sistemas IP-PBX.
+Lync Server 2013 puede interconectar un IP-PBX con una puerta de enlace de red telefónica conmutada (RTC) para que las llamadas de un teléfono PBX se puedan enrutar a la RTC y las llamadas RTC entrantes se puedan enrutar a un teléfono de central de conmutación (PBX). De forma similar, Lync Server 2013 puede interconectar dos o más sistemas de IP-PBX para que las llamadas se puedan realizar y recibir entre los teléfonos PBX desde los diferentes sistemas IP-PBX.
 
-Esta característica de enrutamiento de intertroncalización se puede configurar mediante el cmdlet del shell de administración de Lync Server, **set-CsTrunkConfiguration**, con el nuevo parámetro, PstnUsages. Este parámetro especifica el conjunto de registros de uso de RTC que se va a usar. Un tronco usa este uso de RTC para determinar una ruta y para enrutar todas las llamadas entrantes.
+Esta característica de enrutamiento entre tronco se puede configurar con el cmdlet del shell de administración de Lync Server, **set-CsTrunkConfiguration**, con el nuevo parámetro, PstnUsages. Este parámetro especifica el conjunto de registros de uso RTC que usar. Un tronco usa esta RTC para determinar una ruta y para enrutar todas las llamadas entrantes como corresponda.
 
     Set-CsTrunkConfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
 
-En el siguiente diagrama se muestra cómo Lync Server 2013 ofrece interconectividad entre una puerta de enlace PSTN y una IP-PBX.
+El siguiente diagrama ilustra el 2013 de Lync Server, que proporciona interconectividad entre una puerta de enlace RTC y una IP-PBX.
 
-**Enrutamiento de intertroncalización entre puerta de enlace y IP PBX**
+**Enrutamiento entre troncos entre puerta de enlace e IP PBX**
 
-![Diagrama de conexión puerta de enlace RTC/IP-PBX en Lync Server](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Diagrama de conexión puerta de enlace RTC/IP-PBX en Lync Server")
+![Diagrama de la puerta de enlace RTC/IP-PBX que conecta Lync Server](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Diagrama de la puerta de enlace RTC/IP-PBX que conecta Lync Server")
 
-En el siguiente diagrama se muestra cómo Lync Server 2013 interconectando dos sistemas IP-PBX.
+El siguiente diagrama ilustra cómo Lync Server 2013 interconectando dos sistemas IP-PBX.
 
-**Enrutamiento de intertroncalización entre dos IP PBX**
+**Enrutamiento entre troncos entre dos IP PBX**
 
-![Diagrama de interconexión de los sistemas IP-PAX en Lync Server](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Diagrama de interconexión de los sistemas IP-PAX en Lync Server")
+![El diagrama de sistemas de IP-PAX que interconectan con Lync Server](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "El diagrama de sistemas de IP-PAX que interconectan con Lync Server")
 
 </div>
 

@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3849a3e4601c6af48e5a848774708d6c66a761e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 346ef795f8432154d74610e4d061d00fc6039f2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827538"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008162"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Se retirará Microsoft StaffHub
 
@@ -70,7 +70,7 @@ Turnos está disponible en todas las SKU de Enterprise donde está disponible Te
 
 #### <a name="how-do-i-get-shifts"></a>¿Cómo obtengo turnos? 
 
-Si ya está en un plan que incluye turnos, puede empezar a usar turnos hoy mismo como parte de Teams. Consulte [Introducción en turnos](https://support.office.com/en-us/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6).
+Si ya está en un plan que incluye turnos, puede empezar a usar turnos hoy mismo como parte de Teams. Consulte [Introducción en turnos](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6).
 
 #### <a name="which-devices-or-platforms-is-shifts-available-on"></a>¿En qué dispositivos o plataformas está disponible el turno?
 

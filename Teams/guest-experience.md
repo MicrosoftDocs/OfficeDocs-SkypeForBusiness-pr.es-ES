@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c700ed6fb4f95f3cc9a4ecfc6d66c7791aabb74
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 20fd9372c34fd189868aa32882115bee3f6c6f8f
+ms.sourcegitcommit: 346b58b5d5ea0d2ec68891275628dfde32c074fe
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833240"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41977532"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
@@ -56,6 +56,7 @@ En la siguiente tabla se compara la funcionalidad de Teams disponible para los m
 |Descubrir un equipo público y unirse a él  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Ver el organigrama  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Usar traducción en línea  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Convertirse en propietario del equipo  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 En la tabla siguiente se muestran las características de llamadas y reuniones disponibles para los invitados, en comparación con otros tipos de usuarios.
 

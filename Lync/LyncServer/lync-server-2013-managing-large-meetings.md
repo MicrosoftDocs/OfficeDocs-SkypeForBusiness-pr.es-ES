@@ -12,16 +12,16 @@ ms:contentKeyID: 48185146
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb8a83edc6dc049d5c333a2c1b4bec19f60afd45
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 451bc37811f0c591ad067bf57432ac70fec7edb2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729270"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043112"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41729270"
 
 _**Última modificación del tema:** 2012-10-01_
 
-Después de configurar un grupo dedicado para las conferencias grandes, puede tomar medidas para asegurarse de que las reuniones grandes hospedadas en el grupo ofrezcan la mejor experiencia para el usuario. En los temas de esta sección se proporcionan detalles sobre cómo organizar y administrar reuniones de gran tamaño.
+Después de configurar un grupo de servidores dedicado para conferencias de gran tamaño, puede realizar ciertos pasos para garantizar que las reuniones grandes hospedadas en el grupo proporcionen la mejor experiencia de usuario posible. Los temas de esta sección proporcionan detalles sobre cómo organizar y administrar reuniones grandes.
 
 <div>
 
@@ -45,7 +45,7 @@ Después de configurar un grupo dedicado para las conferencias grandes, puede to
 
   - [Organizadores de reuniones dedicados en Lync Server 2013](lync-server-2013-dedicated-meeting-organizers.md)
 
-  - [Calendario de reunión grande independiente en Lync Server 2013](lync-server-2013-separate-large-meeting-calendar.md)
+  - [Calendario de reuniones grandes independiente en Lync Server 2013](lync-server-2013-separate-large-meeting-calendar.md)
 
   - [Proceso de programación de reuniones grandes en Lync Server 2013](lync-server-2013-large-meeting-scheduling-process.md)
 

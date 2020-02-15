@@ -12,16 +12,16 @@ ms:contentKeyID: 48184222
 ms.date: 02/01/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 210debb3c3879d6895b127b960139970bf73d020
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 59a9e05c828f78dc3d34321833c634f6bd437503
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756074"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043072"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,37 +37,37 @@ ms.locfileid: "41756074"
 
 _**Última modificación del tema:** 2018-02-01_
 
-Los grupos de respuesta son una característica de administración de llamadas que le permite poner en cola las llamadas realizadas a un área específica, como un servicio de asistencia y, a continuación, enrutar las llamadas a un grupo designado de personas, denominado *agentes*.
+Los grupos de respuesta son una característica para la administración de llamadas que habilitan poner en cola las llamadas que se realizan a un área específica, como el servicio de asistencia técnica, y de ahí se enrutan a un grupo designado de personas, que se denominan *agentes*.
 
-Para administrar grupos de respuesta, puede configurar grupos de agentes, colas y flujos de trabajo, que determinan qué sucede con una llamada desde el momento en que se coloca hasta que un agente la responde.
+Para administrar grupos de respuesta, deberá configurar grupos de agentes, colas y flujos de trabajo, que definen lo que ocurre con una llamada desde el momento que se realiza hasta que es atendida por un agente.
 
 <div>
 
 
 > [!NOTE]  
-> Si tiene más de 300 flujos de trabajo en un solo grupo de la implementación de grupos de respuesta, es mejor usar los cmdlets del shell de administración de Lync Server para crear los flujos de trabajo. Si usa la herramienta de configuración de grupos de respuesta para crear flujos de trabajo para un grupo que tiene más de 300 flujos de trabajo, la página web tarda mucho tiempo en cargarse. El número de agentes que se asocian indirectamente a flujos de trabajo a través de las colas también tiene un efecto proporcional en la carga de páginas.
+> Si tiene más de 300 flujos de trabajo en un único grupo de servidores de la implementación del grupo de respuesta, es mejor usar los cmdlets del shell de administración de Lync Server para crear los flujos de trabajo. Si usa la herramienta de configuración de grupos de respuesta para crear flujos de trabajo para un grupo de servidores con más de 300 flujos de trabajo, la página web tardará mucho tiempo en cargarse. El número de agentes que se asocian de forma indirecta con flujos de trabajo a través de las colas también tiene un efecto proporcional en la carga de la página.
 
 
 
 </div>
 
-Los temas de esta sección proporcionan procedimientos paso a paso para las tareas que puede realizar para personalizar y mantener la aplicación de grupo de respuesta en su implementación.
+Los temas de esta sección proporcionan procedimientos paso a paso para las tareas que puede realizar para personalizar y mantener la aplicación de grupo de respuesta en su implementación
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Administrar grupos de agentes de grupo de respuesta en Lync Server 2013](lync-server-2013-managing-response-group-agent-groups.md)
+  - [Administración de grupos de agentes de grupo de respuesta en Lync Server 2013](lync-server-2013-managing-response-group-agent-groups.md)
 
-  - [Administrar colas de grupo de respuesta en Lync Server 2013](lync-server-2013-managing-response-group-queues.md)
+  - [Administración de colas de grupo de respuesta en Lync Server 2013](lync-server-2013-managing-response-group-queues.md)
 
   - [Administración de flujos de trabajo de grupos de respuesta en Lync Server 2013](lync-server-2013-managing-response-group-workflows.md)
 
-  - [Administrar la configuración de grupo de respuesta de nivel de aplicación en Lync Server 2013](lync-server-2013-managing-application-level-response-group-settings.md)
+  - [Administración de la configuración del grupo de respuesta de nivel de aplicación en Lync Server 2013](lync-server-2013-managing-application-level-response-group-settings.md)
 
-  - [Mover grupos de respuesta a un grupo nuevo en Lync Server 2013](lync-server-2013-moving-response-groups-to-a-new-pool.md)
+  - [Mover grupos de respuesta a un nuevo grupo de servidores en Lync Server 2013](lync-server-2013-moving-response-groups-to-a-new-pool.md)
 
-  - [Administrar grupos de respuesta durante un desastre en Lync Server 2013](lync-server-2013-managing-response-groups-during-a-disaster.md)
+  - [Administración de grupos de respuesta en Lync Server 2013 durante un desastre](lync-server-2013-managing-response-groups-during-a-disaster.md)
 
 </div>
 

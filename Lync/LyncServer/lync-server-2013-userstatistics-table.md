@@ -12,16 +12,16 @@ ms:contentKeyID: 49733827
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7609747848e1943a08eff2fa77b87f0168710f81
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 98c24093f332f568daadfb0cd336f0d5fde3eb35
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744260"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044352"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41744260"
 
 _**Última modificación del tema:** 2012-09-28_
 
-La tabla UserStatistics es una tabla de soporte. Cada registro de la tabla almacena información sobre el uso del sistema por un usuario individual. Esta tabla se introdujo en Microsoft Lync Server 2013.
+La tabla UserStatistics es una tabla auxiliar. Cada registro de la tabla almacena información sobre el uso del sistema por parte de un usuario individual. Esta tabla se introdujo en Microsoft Lync Server 2013.
 
 
 <table>
@@ -57,34 +57,34 @@ La tabla UserStatistics es una tabla de soporte. Cada registro de la tabla almac
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Iddeusuario</strong></p></td>
+<td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
+<td><p>Principal</p></td>
 <td><p>Número único que identifica a este usuario.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LastLogInTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>La última vez que el usuario inició sesión.</p></td>
+<td><p>Hora de la última vez que el usuario inició sesión.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizedTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>La última vez que el usuario organizó una conferencia.</p></td>
+<td><p>Última vez que el usuario organizó una conferencia.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LastCallOrganizerCallFailureTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>La última vez que el usuario experimentó un error de llamada.</p></td>
+<td><p>Última vez que el usuario tuvo un error de llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizerCallFailureTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>La última vez que el usuario experimentó un error de llamada como organizador de la Conferencia.</p></td>
+<td><p>Última vez que el usuario tuvo un error de llamada como organizador de conferencia.</p></td>
 </tr>
 </tbody>
 </table>

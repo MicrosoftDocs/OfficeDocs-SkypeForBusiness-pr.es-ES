@@ -17,12 +17,12 @@ ms.collection:
 description: Conozca los diferentes modelos de identidad de Microsoft Teams, como Nube, Sincronizada y Federada. Aprenda también sobre la autenticación multifactor.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11bf92cc2801d67d9b19d3c54f4c878e0913ffc3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5c09702700cf62505bbe0016d44545a02596f6b8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835930"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42022291"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Modelos de identidad y autenticación en Microsoft Teams
 ==========================================
@@ -63,4 +63,4 @@ Una vez que los usuarios se hayan inscrito para MFA, la próxima vez que un usua
 |Tipo de inquilino  |Opciones disponibles de segundo factor de MFA  |Notas  |
 |---------|---------|---------|
 |**Solo nube**     |MFA para Office 365 <ul><li>Llamada telefónica</li><li>Mensaje de texto</li><li>Notificación en la aplicación móvil</li><li>Código de verificación de la aplicación móvil</li></ul>        |[Planificar la autenticación multifactor para implementaciones de Office 365](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**Configuración híbrida (modelo de identidad sincronizada o federada)**     |<ul><li>MFA para Office 365</li><li>Módulo de Azure MFA (integrado con ADFS)</li><li>Tarjeta inteligente física o virtual (integrada con ADFS)</li></ul>         |Nota: hay soluciones MFA adicionales disponibles con [documentos de compatibilidad del proveedor de identidades de Azure ad](https://www.microsoft.com/en-us/download/details.aspx?id=56843)         |
+|**Configuración híbrida (modelo de identidad sincronizada o federada)**     |<ul><li>MFA para Office 365</li><li>Módulo de Azure MFA (integrado con ADFS)</li><li>Tarjeta inteligente física o virtual (integrada con ADFS)</li></ul>         |Nota: hay soluciones MFA adicionales disponibles con [documentos de compatibilidad del proveedor de identidades de Azure ad](https://www.microsoft.com/download/details.aspx?id=56843)         |

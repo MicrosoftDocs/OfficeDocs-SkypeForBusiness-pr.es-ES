@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: habilitar o deshabilitar una aplicación de servidor de Microsoft SIP Processing language (MSPL)'
+title: 'Lync Server 2013: habilitar o deshabilitar una aplicación de servidor de lenguaje de procesamiento de SIP de Microsoft (MSPL)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185145
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12fb1160742898b65b14ea17bc10a9c6ed56c780
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5e8aac965a375520ac46534846a65b67e6d9f92c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736210"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042577"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application-in-lync-server-2013"></a>Habilitar o deshabilitar una aplicación de servidor de Microsoft SIP Processing language (MSPL) en Lync Server 2013
+# <a name="enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application-in-lync-server-2013"></a>Habilitar o deshabilitar una aplicación de servidor de lenguaje de procesamiento de SIP de Microsoft (MSPL) en Lync Server 2013
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41736210"
 
 _**Última modificación del tema:** 2012-09-21_
 
-Puede usar el panel de control de Lync Server para habilitar o deshabilitar aplicaciones de servidor de Microsoft SIP Processing language (MSPL) que se ejecutan en su entorno de Lync Server 2013. Estas aplicaciones solo son aplicaciones de script que usan un lenguaje de scripting en lugar de la API de Microsoft Lync 2013 Preview.
+Puede usar el panel de control de Lync Server para habilitar o deshabilitar las aplicaciones de servidor del lenguaje de procesamiento de SIP de Microsoft (MSPL) que se ejecutan en el entorno de Lync Server 2013. Estas aplicaciones son solo de script y usan lenguaje de scripting en lugar de la API de Microsoft Lync 2013 Preview.
 
 No todos los scripts se pueden habilitar o deshabilitar. Por ejemplo, el script DefaultRouting está habilitado y esta opción no se puede cambiar para DefaultRouting.
 
 <div>
 
-## <a name="to-enable-or-disable-an-mspl-server-application"></a>Para habilitar o deshabilitar una aplicación de servidor MSPL
+## <a name="to-enable-or-disable-an-mspl-server-application"></a>Para habilitar o deshabilitar una aplicación de servidor de MSPL
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo de la red en el que haya implementado Lync Server 2013.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que se implementó Lync Server 2013.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **topología** y después haga clic en **aplicación de servidor**.
+3.  En la barra de navegación izquierda, haga clic en **Topología** y, a continuación, en **Aplicación de servidor**.
 
-4.  En la página de la **aplicación servidor** , haga clic en un encabezado de columna para ordenar las aplicaciones, si es necesario, y, a continuación, haga clic en la aplicación de servidor que desea modificar.
+4.  En la página **Aplicación de servidor**, haga clic en un encabezado de columna para ordenar las aplicaciones, si fuera necesario, y, a continuación, haga clic en la aplicación de servidor que desee modificar.
 
-5.  Haga clic en **acción**.
+5.  Haga clic en **Acción**.
 
-6.  Haga clic en **Habilitar aplicación** o **deshabilitar aplicación** (es decir, si el script admite esta opción).
+6.  Haga clic en **Habilitar aplicación** o en **Deshabilitar aplicación** (es decir, si el script admite esta opción).
 
 </div>
 
@@ -64,10 +64,10 @@ No todos los scripts se pueden habilitar o deshabilitar. Por ejemplo, el script 
 ## <a name="see-also"></a>Vea también
 
 
-[Marcar una aplicación de Microsoft SIP Processing language (MSPL) como crítica o incrítica en Lync Server 2013](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)  
+[Marcar una aplicación de lenguaje de procesamiento de SIP de Microsoft (MSPL) como crítica o no crítica en Lync Server 2013](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)  
 
 
-[Ver las aplicaciones de servidor del lenguaje de procesamiento de SIP de Microsoft (MSPL) de Lync Server 2013](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)  
+[Ver aplicaciones de servidor del lenguaje de procesamiento de SIP de Microsoft (MSPL) en Lync Server 2013](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)  
 
 
 [Administración de la topología de Lync Server 2013](lync-server-2013-managing-the-lync-server-topology.md)  

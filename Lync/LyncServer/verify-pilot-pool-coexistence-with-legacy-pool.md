@@ -1,5 +1,5 @@
 ---
-title: Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredado
+title: Comprobar la coexistencia del grupo piloto con el grupo heredado
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe3b3e04940c90cba4e46fc165c2494f77105667
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7f361882d0994b8e3add5447dbcaaffe2b75127d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730900"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043692"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredado
+# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Comprobar la coexistencia del grupo piloto con el grupo heredado
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41730900"
 
 _**Última modificación del tema:** 2012-09-29_
 
-Después de implementar el grupo piloto, debe comprobar la coexistencia de las dos agrupaciones mediante las herramientas administrativas para ver la información del grupo. Para los grupos de 2013 y los grupos heredados de Lync Server, debe usar las herramientas del panel de control y del generador de topologías de Lync Server 2013.
+Después de implementar el grupo piloto, verifique la coexistencia de los dos grupos de servidores con las herramientas administrativas para ver la información del grupo. En el caso de los grupos de servidores de Lync Server 2013 y los grupos de servidores heredados, debe usar las herramientas del panel de control de Lync Server 2013 y el generador de topologías.
 
 <div>
 
-## <a name="verify-that-lync-server-2013-services-have-started"></a>Comprobar que los servicios de Lync Server 2013 se han iniciado
+## <a name="verify-that-lync-server-2013-services-have-started"></a>Compruebe que se han iniciado los servicios de Lync Server 2013
 
-1.  En el servidor front-end de Lync Server 2013, vaya al subprograma Servicios de herramientas\\administrativas.
+1.  Desde el servidor front-end de Lync Server 2013, vaya al subprograma Servicios de herramientas\\administrativas.
 
-2.  Compruebe que se están ejecutando los siguientes servicios en el servidor front-end:
+2.  Compruebe que los servicios siguientes se están ejecutando en el servidor front-end:
 
 **Servicios de Lync Server 2013**
 
@@ -55,11 +55,11 @@ Después de implementar el grupo piloto, debe comprobar la coexistencia de las d
 
 <div>
 
-## <a name="open-the-lync-server-2013-control-panel"></a>Abrir el panel de control de Lync Server 2013
+## <a name="open-the-lync-server-2013-control-panel"></a>Abrir el panel de control de 2013 de Lync Server
 
-Desde el servidor front-end de su implementación de Lync Server 2013, abra el panel de control de Lync Server 2013 y seleccione el grupo de servidores de Lync Server 2010. Repita el procedimiento para abrir el grupo de servidores de Lync Server 2013.
+Desde el servidor front-end en su implementación de Lync Server 2013, abra el panel de control de Lync Server 2013 y seleccione el grupo de servidores de Lync Server 2010. Repita el procedimiento para abrir el grupo de servidores de Lync Server 2013.
 
-**Abrir el panel de control de Lync Server 2013**
+**Abra el panel de control de Lync Server 2013.**
 
 ![Cuadro de diálogo Seleccionar dirección URL](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Cuadro de diálogo Seleccionar dirección URL")
 
@@ -67,15 +67,15 @@ Desde el servidor front-end de su implementación de Lync Server 2013, abra el p
 
 
 > [!IMPORTANT]  
-> En Lync Server 2013, debe actualizar Silverlight a la versión 5 antes de usar el panel de control de Lync Server.
+> En Lync Server 2013, debe actualizar Silverlight a Silverlight versión 5 antes de usar el panel de control de Lync Server.
 
 
 
 </div>
 
-Esta topología incluye ahora los roles de servidor de Lync Server 2010 y Lync Server 2013.
+Esta topología incluye ahora los roles de servidor Lync Server 2010 y Lync Server 2013.
 
-**Página de topología del panel de control 2013 de Lync Server**
+**Página Topología del panel de control de Lync Server 2013**
 
 ![Panel de control de Lync Server-página de topología](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Panel de control de Lync Server-página de topología")
 
@@ -83,13 +83,13 @@ Esta topología incluye ahora los roles de servidor de Lync Server 2010 y Lync S
 
 <div>
 
-## <a name="dont-attempt-to-open-the-topology-in-lync-server-2010-topology-builder"></a>No intente abrir la topología en el generador de topología de Lync Server 2010
+## <a name="dont-attempt-to-open-the-topology-in-lync-server-2010-topology-builder"></a>No intente abrir la topología en el generador de topologías de Lync Server 2010
 
-Si intenta abrir la topología con el generador de topología de Lync Server 2010, encontrará el error siguiente. La topología solo se puede ver con el generador de topología de Lync Server 2013. El generador de topología de Lync Server 2013 debe usarse para crear grupos para Lync Server 2013 y Lync Server 2010.
+Si intenta abrir la topología con el generador de topologías de Lync Server 2010, encontrará el siguiente error. La topología solo se puede ver con el generador de topologías de Lync Server 2013. El generador de topologías de Lync Server 2013 debe usarse para crear grupos para Lync Server 2013 y Lync Server 2010.
 
-**Mensaje de error del generador de topología 2010 de Lync Server**
+**Mensaje de error del Generador de topologías de Lync Server 2010**
 
-![Error de acoplamiento de MMC del generador de topología de Lync Server](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Error de acoplamiento de MMC del generador de topología de Lync Server")
+![Error de instantánea de MMC del generador de topologías de Lync Server](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Error de instantánea de MMC del generador de topologías de Lync Server")
 
 </div>
 

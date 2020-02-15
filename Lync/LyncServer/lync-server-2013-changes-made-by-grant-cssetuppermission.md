@@ -12,16 +12,16 @@ ms:contentKeyID: 48185360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d82b896f1d6d1da1184bfa61d7352c9b4803a03
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23547ebc7faf594ee3ea72ef7d0c094846ac94b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742360"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043922"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,11 +37,11 @@ ms.locfileid: "41742360"
 
 _**Última modificación del tema:** 2012-06-20_
 
-Para delegar la configuración, puede conceder permisos al grupo universal RTCUniversalServerAdmins de una unidad organizativa de Active Directory específica, lo que permite a los miembros del grupo RTCUniversalServerAdmins de esa OU instalar Lync Server 2013 de la el dominio no es miembro del grupo de administradores de dominio.
+Para delegar la configuración, puede conceder permisos al grupo universal RTCUniversalServerAdmins de una unidad organizativa (OU) de Active Directory específica, habilitando a los miembros del grupo RTCUniversalServerAdmins en dicha unidad organizativa que instalen Lync Server 2013 en el directorio especificado. dominio sin ser miembros del grupo administradores del dominio.
 
-El cmdlet **Grant-CsSetupPermission** concede los permisos de grupo RTCUniversalServerAdmins en una unidad organizativa, como se especifica en la tabla siguiente:
+El cmdlet **Grant-CsSetupPermission** otorga los permisos del grupo RTCUniversalServerAdmins en una unidad organizativa, como se especifica en la siguiente tabla:
 
-### <a name="permissions-granted-to-objects-in-the-ou"></a>Permisos otorgados a objetos de la OU
+### <a name="permissions-granted-to-objects-in-the-ou"></a>Permisos otorgados a los objetos en la unidad organizativa
 
 <table>
 <colgroup>
@@ -51,7 +51,7 @@ El cmdlet **Grant-CsSetupPermission** concede los permisos de grupo RTCUniversal
 <thead>
 <tr class="header">
 <th>Los permisos se aplican a:</th>
-<th>Los permisos concedidos son los siguientes:</th>
+<th>Los permisos otorgados son:</th>
 </tr>
 </thead>
 <tbody>
@@ -62,74 +62,74 @@ El cmdlet **Grant-CsSetupPermission** concede los permisos de grupo RTCUniversal
 <li><p>Leer servicePrincipalName</p></li>
 <li><p>Escribir servicePrincipalName</p></li>
 <li><p>Eliminar árbol</p></li>
-<li><p>Replicar cambios de directorio</p></li>
+<li><p>Cambios de directorio de replicación</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Objetos serviceConnectionPoint descendientes</p></td>
 <td><p>Acceso especial:</p>
 <ul>
-<li><p>Permisos de lectura</p></li>
-<li><p>Permisos de escritura</p></li>
+<li><p>Leer permisos</p></li>
+<li><p>Escribir permisos</p></li>
 <li><p>Crear elemento secundario</p></li>
-<li><p>Eliminar hijo</p></li>
-<li><p>Contenido de la lista</p></li>
-<li><p>Write (propiedad)</p></li>
-<li><p>Propiedad de lectura</p></li>
+<li><p>Eliminar elemento secundario</p></li>
+<li><p>Mostrar contenido</p></li>
+<li><p>Escribir propiedad</p></li>
+<li><p>Leer propiedad</p></li>
 <li><p>Eliminar árbol</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Objetos descendientes msRTCSIP-Server</p></td>
+<td><p>Objetos msRTCSIP-Server descendientes</p></td>
 <td><p>Acceso especial:</p>
 <ul>
-<li><p>Write (propiedad)</p></li>
-<li><p>Propiedad de lectura</p></li>
+<li><p>Escribir propiedad</p></li>
+<li><p>Leer propiedad</p></li>
 <li><p>Eliminar árbol</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Objetos descendientes msRTCSIP-webcomponents</p></td>
+<td><p>Objetos msRTCSIP-WebComponents descendientes</p></td>
 <td><p>Acceso especial:</p>
 <ul>
-<li><p>Write (propiedad)</p></li>
-<li><p>Propiedad de lectura</p></li>
+<li><p>Escribir propiedad</p></li>
+<li><p>Leer propiedad</p></li>
 <li><p>Eliminar árbol</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Objetos descendientes msRTCSIP-MCU</p></td>
+<td><p>Objetos msRTCSIP-MCU descendientes</p></td>
 <td><p>Acceso especial:</p>
 <ul>
-<li><p>Write (propiedad)</p></li>
-<li><p>Propiedad de lectura</p></li>
+<li><p>Escribir propiedad</p></li>
+<li><p>Leer propiedad</p></li>
 <li><p>Eliminar árbol</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Objetos descendientes msRTCSIP-MediationServer</p></td>
+<td><p>Objetos msRTCSIP-MediationServer descendientes</p></td>
 <td><p>Acceso especial:</p>
 <ul>
-<li><p>Write (propiedad)</p></li>
-<li><p>Propiedad de lectura</p></li>
+<li><p>Escribir propiedad</p></li>
+<li><p>Leer propiedad</p></li>
 <li><p>Eliminar árbol</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Objetos descendientes msRTCSIP-ApplicationServer</p></td>
+<td><p>Objetos msRTCSIP-ApplicationServer descendientes</p></td>
 <td><p>Acceso especial:</p>
 <ul>
-<li><p>Write (propiedad)</p></li>
-<li><p>Propiedad de lectura</p></li>
+<li><p>Escribir propiedad</p></li>
+<li><p>Leer propiedad</p></li>
 <li><p>Eliminar árbol</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Objetos descendientes msRTCSIP-punto de la</p></td>
+<td><p>Objetos msRTCSIP-ConnectionPoint descendientes</p></td>
 <td><p>Acceso especial:</p>
 <ul>
-<li><p>Write (propiedad)</p></li>
-<li><p>Propiedad de lectura</p></li>
+<li><p>Escribir propiedad</p></li>
+<li><p>Leer propiedad</p></li>
 <li><p>Eliminar árbol</p></li>
 </ul></td>
 </tr>
@@ -141,13 +141,13 @@ El cmdlet **Grant-CsSetupPermission** concede los permisos de grupo RTCUniversal
 <li><p>Eliminar objetos secundarios</p></li>
 <li><p>Eliminar árbol</p></li>
 </ul>
-<p>Acceso especial para información pública:</p>
+<p>Acceso especial a la información pública:</p>
 <ul>
-<li><p>Propiedad de lectura</p></li>
+<li><p>Leer propiedad</p></li>
 </ul>
 <p>Acceso especial para el nombre de host DNS:</p>
 <ul>
-<li><p>Propiedad de lectura</p></li>
+<li><p>Leer propiedad</p></li>
 </ul></td>
 </tr>
 </tbody>

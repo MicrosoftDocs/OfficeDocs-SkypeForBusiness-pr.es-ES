@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: servidores perimetrales de audio/vídeo (A/V)'
+title: 'Lync Server 2013: servidores perimetrales de audio y vídeo (A/V)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733785
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c99cc3522c13ece937c6e2a0ba06f995431e08d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1262ee1a2db12569538f499731de53a9da133c98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722650"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044742"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,20 @@ ms.locfileid: "41722650"
 
 _**Última modificación del tema:** 2012-11-01_
 
-El servicio perimetral A/V proporciona a los usuarios internos (los usuarios que han iniciado sesión en la red de la organización) una forma de compartir audio y vídeo con usuarios externos (usuarios que no han iniciado sesión en la red de su organización). Además de audio y vídeo, el servicio perimetral A/V también proporciona soporte técnico para el uso compartido del escritorio y la transferencia de archivos.
+El servicio perimetral A/V permite que los usuarios internos (usuarios conectados a la red de la organización) compartan audio y vídeo con usuarios externos (usuarios no conectados a la red de la organización). Además de audio y vídeo, el servicio perimetral A/V permite compartir el escritorio y transferir archivos, entre otras tareas.
 
-El servicio perimetral A/V se administra principalmente mediante la configuración A/V Edge; Esta configuración le permite administrar la cantidad máxima de ancho de banda que se va a asignar por puerto y por usuario, y especificar la cantidad de tiempo que se puede usar un token de autenticación antes de que se renueve ese token. La configuración del borde a/V puede aplicarse a sitios o a servidores perimetrales individuales a/V. Cuando determine qué colección de configuraciones tendrá prioridad, use la siguiente guía:
+El servicio perimetral A/V se administra principalmente con la configuración del servidor perimetral A/V. Estas opciones permiten administrar la cantidad máxima de ancho de banda que se asignará por puerto y por usuario, y especificar el tiempo durante el que se puede usar un token de autenticación antes de que se deba renovar. Las opciones de configuración del servidor perimetral A/V se pueden aplicar a sitios o a servidores perimetrales A/V individuales. Cuando determine qué colección de opciones tendrá prioridad, use la siguiente guía:
 
-  - La configuración establecida en el ámbito del servicio (es decir, en un servidor individual) tiene prioridad sobre todo.
+  - 
+Las opciones configuradas en el ámbito de servicio (es decir, en un servidor individual) tienen prioridad sobre todo lo demás.
 
-  - La configuración establecida en el ámbito del sitio tiene prioridad sobre la configuración establecida en el ámbito global. Sin embargo, la configuración del ámbito del servicio también reemplaza la configuración del ámbito del sitio.
+  - 
+Las opciones configuradas en el ámbito de sitio tienen prioridad sobre las opciones configuradas en el ámbito global. Pero las opciones del ámbito de servicio tienen prioridad sobre las opciones del ámbito de sitio.
 
-  - La configuración del ámbito global se usará solo si no hay ninguna configuración de servicio establecida en el servidor individual y no hay configuración de sitio para el sitio en el que se encuentra el servidor.
+  - 
+Las opciones configuradas en el ámbito global se usarán solo si no hay opciones de servicio configuradas en el servidor individual y si no hay opciones de sitio configuradas para el sitio en el que se encuentra el servidor.
 
-El servicio perimetral de A/V solo se puede administrar con Lync Server PowerShell y los cmdlets CsAVEdgeConfiguration.
+El servicio perimetral A/V solo se puede administrar con Lync Server PowerShell y los cmdlets CsAVEdgeConfiguration.
 
 <div>
 
@@ -55,9 +58,9 @@ El servicio perimetral de A/V solo se puede administrar con Lync Server PowerShe
 
   - [Devolver información de configuración del servidor perimetral A/V en Lync Server 2013](lync-server-2013-return-a-v-edge-server-configuration-information.md)
 
-  - [Crear o modificar una colección de valores de configuración del servidor perimetral A/V en Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)
+  - [Crear o modificar una colección de opciones de configuración del servidor perimetral A/V en Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)
 
-  - [Eliminar una colección existente de valores de configuración del servidor perimetral A/V en Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)
+  - [Eliminar una colección existente de opciones de configuración del servidor perimetral A/V en Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: cmdlets de aplicaciones de Parque de llamadas'
+title: 'Lync Server 2013: cmdlets de aplicación de estacionamiento de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ebd91f563348575e7498cd3441ffdadb35fec15
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1fb129114962a6f530ad1d52f6b0314d439d9c5d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742990"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044462"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-park-application-cmdlets-in-lync-server-2013"></a>Cmdlets de aplicaciones de estacionamiento de llamadas en Lync Server 2013
+# <a name="call-park-application-cmdlets-in-lync-server-2013"></a>Cmdlets de aplicación de estacionamiento de llamadas en Lync Server 2013
 
 </div>
 
@@ -37,46 +37,46 @@ ms.locfileid: "41742990"
 
 _**Última modificación del tema:** 2012-03-21_
 
-La aplicación de estacionamiento de llamadas permite al usuario poner una llamada en espera y, a continuación, recuperar esa llamada desde otro teléfono. Use estos cmdlets para establecer la configuración de la aplicación de estacionamiento y la aplicación de estacionamiento de llamadas.
+La aplicación estacionamiento de llamadas permite al usuario poner una llamada en espera y, a continuación, recuperar esa llamada desde un teléfono diferente. Use estos cmdlets para establecer la configuración de las órbitas de estacionamiento de llamadas y la aplicación estacionamiento de llamadas.
 
 <div>
 
-## <a name="call-park-application-cmdlets"></a>Cmdlets de la aplicación Parque de llamadas
+## <a name="call-park-application-cmdlets"></a>Cmdlets de la aplicación Estacionamiento de llamadas
 
-Puede usar los siguientes cmdlets para administrar la aplicación de estacionamiento de llamadas.
+Los cmdlets siguientes pueden usarse para administrar la aplicación de estacionamiento de llamadas.
 
-**Aplicación de estacionamiento de llamadas**
-
-  - <span></span>  
-    [Get-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398554(v=OCS.15))
+**Aplicación Estacionamiento de llamadas**
 
   - <span></span>  
-    [Nuevo: CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398936(v=OCS.15))
+    [Get-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398554(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg412901(v=OCS.15))
+    [New-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398936(v=OCS.15))
 
   - <span></span>  
-    [Set-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398796(v=OCS.15))
+    [Remove-CsCallParkOrbit](https://technet.microsoft.com/library/Gg412901(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398796(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/en-us/library/Gg412836(v=OCS.15))
+    [Set-CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/library/Gg412836(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398948(v=OCS.15))
+    [Get-CsCpsConfiguration](https://technet.microsoft.com/library/Gg398948(v=OCS.15))
 
   - <span></span>  
-    [Nuevo: CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412919(v=OCS.15))
+    [New-CsCpsConfiguration](https://technet.microsoft.com/library/Gg412919(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398358(v=OCS.15))
+    [Remove-CsCpsConfiguration](https://technet.microsoft.com/library/Gg398358(v=OCS.15))
 
   - <span></span>  
-    [Set-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412721(v=OCS.15))
+    [Set-CsCpsConfiguration](https://technet.microsoft.com/library/Gg412721(v=OCS.15))
 
 </div>
 

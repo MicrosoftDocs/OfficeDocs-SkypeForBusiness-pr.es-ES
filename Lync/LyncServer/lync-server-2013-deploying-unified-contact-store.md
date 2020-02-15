@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Implementar el almacenamiento de contactos unificado'
+title: 'Lync Server 2013: implementación de almacén de contactos unificados'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184373
 ms.date: 06/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d224ec7a9c452c45f9f3471403301460a2a31cc8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d0e8fe5aaac47ce98cfae1376e83cdea89a4a1af
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740800"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043342"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-unified-contact-store-in-lync-server-2013"></a>Implementar el almacenamiento de contactos unificado en Lync Server 2013
+# <a name="deploying-unified-contact-store-in-lync-server-2013"></a>Implementar el almacén de contactos unificados en Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41740800"
 
 _**Última modificación del tema:** 2016-06-06_
 
-Habilitar el almacén de contactos unificado en Lync Server 2013 no requiere ninguna configuración de topología. Para habilitar el almacén de contactos unificado para los usuarios, necesita lo siguiente:
+La habilitación del almacén de contactos unificados en Lync Server 2013 no requiere ninguna configuración de topología. Para habilitar el almacén de contactos unificados para los usuarios, se debe cumplir lo siguiente:
 
-  - La directiva del almacén de contactos unificado está habilitada (que es el comportamiento predeterminado).
+  - La directiva de almacén de contactos unificados está habilitada (que es el comportamiento predeterminado).
 
-  - Los usuarios inician sesión en Lync 2013 al menos una vez.
+  - Los usuarios inician sesión con Lync 2013 al menos una vez.
 
-Después de migrar los contactos de un usuario, lo cual sucede automáticamente cuando un usuario inicia sesión con Lync 2013, el usuario puede tener acceso y administrar sus contactos de Lync desde Lync 2013, Outlook 2013 o Outlook Web Access. El usuario no tiene que haber iniciado sesión en Lync para administrar sus contactos desde Outlook o Outlook Web Access.
+Una vez que se han migrado los contactos de un usuario, lo que ocurre automáticamente cuando un usuario inicia sesión con Lync 2013, puede tener acceso y administrar los contactos de Lync desde Lync 2013, Outlook 2013 o Outlook Web Access. No es necesario que el usuario haya iniciado sesión en Lync para administrar sus contactos desde Outlook o Outlook Web Access.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Si un usuario inicia sesión desde Lync 2010 después de la migración, los contactos y grupos están disponibles y actualizados, pero el usuario no puede administrarlos (es decir, agregar, eliminar, mover, etiquetar, quitar o modificar) esos contactos.
+> Si un usuario inicia sesión desde Lync 2010 después de la migración, los contactos y los grupos están disponibles y actualizados, pero el usuario no puede administrarlos (es decir, agregar, eliminar, mover, etiquetar, quitar o modificar) dichos contactos.
 
 
 
@@ -59,9 +59,9 @@ Después de migrar los contactos de un usuario, lo cual sucede automáticamente 
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Habilitar usuarios para el almacenamiento de contactos unificado en Lync Server 2013](lync-server-2013-enable-users-for-unified-contact-store.md)
+  - [Habilitar a los usuarios para el almacén de contactos unificados en Lync Server 2013](lync-server-2013-enable-users-for-unified-contact-store.md)
 
-  - [Realizar la migración de usuarios a almacén de contactos unificados en Lync Server 2013](lync-server-2013-migrate-users-to-unified-contact-store.md)
+  - [Migrar usuarios a almacén de contactos unificados en Lync Server 2013](lync-server-2013-migrate-users-to-unified-contact-store.md)
 
   - [Revertir usuarios migrados en Lync Server 2013](lync-server-2013-roll-back-migrated-users.md)
 

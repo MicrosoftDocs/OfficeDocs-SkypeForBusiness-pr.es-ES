@@ -16,12 +16,12 @@ f1.keywords:
 description: Use PowerShell para permitir el acceso de invitado a los equipos de Microsoft Teams o bloquearlo.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c91d64973c97ce358741874ba45c1d6338915264
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 73fba41958711b533f541bf382be0496276f850b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834030"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42012523"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Usar PowerShell para controlar el acceso de invitado a un equipo
 ================================================
@@ -43,7 +43,7 @@ Si desea bloquear invitados en Teams y aún desea permitirles el acceso a sitios
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Usar PowerShell para activar o desactivar el acceso de invitados
 
-1.  Descargue el módulo de PowerShell de Skype Empresarial Online en https://www.microsoft.com/en-us/download/details.aspx?id=39366
+1.  Descargue el módulo de PowerShell de Skype Empresarial Online en https://www.microsoft.com/download/details.aspx?id=39366
  
 2.  Conecte una sesión de PowerShell al punto de conexión de Skype Empresarial Online.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Administración de usuarios de Hosted Exchange'
+title: 'Lync Server 2013: administración de usuarios hospedados de Exchange'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23289399e4eee4a654b41f2978191a6329739b4e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16b2716bee52902f55160e770df36801d18f1b78
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738990"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043252"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-user-management-in-lync-server-2013"></a>Administración de usuarios de Hosted Exchange en Lync Server 2013
+# <a name="hosted-exchange-user-management-in-lync-server-2013"></a>Administración de usuarios de Exchange hospedada en Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41738990"
 
 _**Última modificación del tema:** 2012-10-18_
 
-Para proporcionar servicios de correo de voz para los usuarios de Lync Server 2013 cuyos buzones se encuentran en un servicio de Exchange hospedado, debe habilitar sus cuentas de usuario para el correo de voz hospedado.
+Para proporcionar servicios de correo de voz para Lync Server 2013 usuarios cuyos buzones se encuentran en un servicio de Exchange hospedado, debe habilitar sus cuentas de usuario para el correo de voz hospedado.
 
 <div>
 
 
 > [!NOTE]  
-> Para que un usuario de Lync Server 2013 pueda estar habilitado para el correo de voz hospedado, debe implementarse una directiva de correo de voz hospedada que se aplique a la cuenta de usuario correspondiente. La Directiva puede ser global, de sitio o por usuario en ámbito, siempre que se aplique al usuario que desea habilitar. Para obtener más información, consulte <A href="lync-server-2013-hosted-voice-mail-policies.md">directivas de correo de voz hospedado en Lync Server 2013</A>.
+> Antes de que un usuario de Lync Server 2013 pueda estar habilitado para el correo de voz hospedado, debe implementarse una directiva de correo de voz hospedada que se aplique a la cuenta de usuario correspondiente. La directiva puede ser de ámbito global, de sitio o de usuario, siempre y cuando se aplique al usuario que desea habilitar. Para obtener más información, consulte <A href="lync-server-2013-hosted-voice-mail-policies.md">directivas de correo de voz hospedado en Lync Server 2013</A>.
 
 
 
@@ -53,13 +53,13 @@ Para proporcionar servicios de correo de voz para los usuarios de Lync Server 20
 
 ## <a name="the-msexchucvoicemailsettings-attribute"></a>El atributo msExchUCVoiceMailSettings
 
-Lync Server 2013 introduce un nuevo atributo de usuario denominado **msExchUCVoiceMailSettings**, que se crea como parte de la preparación del esquema de Active Directory de Lync Server 2013. Este atributo multivalor tiene la configuración del correo de voz compartida por Lync Server 2013 y el servicio hospedado de Exchange.
+Lync Server 2013 presenta un nuevo atributo de usuario denominado **msExchUCVoiceMailSettings**, que se crea como parte de la preparación del esquema de Active Directory de Lync Server 2013. Este atributo multivalor contiene la configuración del correo de voz que se comparte con Lync Server 2013 y el servicio de Exchange hospedado.
 
-En algunos casos, el servicio hospedado de Exchange puede establecer el valor del atributo msExchUCVoiceMailSettings en el proceso de habilitar la mensajería unificada de Exchange o durante el proceso de transferencia de buzones a un servidor de Exchange hospedado. Si Exchange no establece este atributo, el administrador de Lync Server 2013 debe establecerlo ejecutando el cmdlet Set-CsUser, tal y como se describió anteriormente en este tema.
+En algunos casos, el servicio de Exchange hospedado puede definir el valor del atributo msExchUCVoiceMailSettings durante el proceso de habilitación de la mensajería unificada de Exchange, o bien durante el proceso de transferencia de buzones de correo a un servidor hospedado de Exchange Server. Si Exchange no establece este atributo, el administrador de Lync Server 2013 debe establecerlo ejecutando el cmdlet Set-CsUser, tal y como se ha descrito anteriormente en este tema.
 
-En la tabla siguiente se muestran los pares de clave y valor del atributo y sus autores.
+En la tabla a continuación se muestran los pares clave/valor del atributo y sus autores.
 
-### <a name="the-msexchucvoicemailsettings-attribute-keyvalue-pairs"></a>Pares clave/valor de atributo msExchUCVoiceMailSettings
+### <a name="the-msexchucvoicemailsettings-attribute-keyvalue-pairs"></a>Los pares clave/valor del atributo msExchUCVoiceMailSettings
 
 <table>
 <colgroup>
@@ -70,7 +70,7 @@ En la tabla siguiente se muestran los pares de clave y valor del atributo y sus 
 <thead>
 <tr class="header">
 <th>Valor</th>
-<th>Autorización</th>
+<th>Autor</th>
 <th>Significado</th>
 </tr>
 </thead>
@@ -78,22 +78,22 @@ En la tabla siguiente se muestran los pares de clave y valor del atributo y sus 
 <tr class="odd">
 <td><p>ExchangeHostedVoiceMail = 1</p></td>
 <td><p>Exchange</p></td>
-<td><p>El usuario ha habilitado el acceso a UM hospedado en el servidor de Exchange. La aplicación de enrutamiento de mensajería unificada de Exchange verificará la Directiva de correo de voz hospedada del usuario para ver los detalles de enrutamiento.</p></td>
+<td><p>Exchange Server ha habilitado al usuario para el acceso a la mensajería unificada hospedada. La aplicación de enrutamiento de mensajería unificada de Exchange comprobará la Directiva de correo de voz hospedado del usuario para ver los detalles de enrutamiento.</p></td>
 </tr>
 <tr class="even">
 <td><p>ExchangeHostedVoiceMail = 0</p></td>
 <td><p>Exchange</p></td>
-<td><p>El usuario ha deshabilitado el acceso a UM hospedado por parte de Exchange Server.</p></td>
+<td><p>Exchange Server ha deshabilitado al usuario para el acceso a la mensajería unificada hospedada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CsHostedVoiceMail = 1</p></td>
 <td><p>Lync Server</p></td>
-<td><p>El usuario ha sido habilitado para el acceso a UM hospedado por Lync Server 2013. La aplicación de enrutamiento ExUM de Lync Server 2013 verificará la Directiva de correo de voz hospedada del usuario para ver los detalles de enrutamiento.</p></td>
+<td><p>Lync Server 2013 ha habilitado al usuario para el acceso a la mensajería unificada hospedada. La aplicación Lync Server 2013 ExUM Routing comprobará la Directiva de correo de voz hospedado del usuario para obtener detalles de enrutamiento.</p></td>
 </tr>
 <tr class="even">
 <td><p>CsHostedVoiceMail = 0</p></td>
 <td><p>Lync Server</p></td>
-<td><p>Lync Server 2013 ha deshabilitado al usuario para el acceso a mensajería unificada hospedada.</p></td>
+<td><p>Lync Server 2013 ha deshabilitado al usuario para el acceso a la mensajería unificada hospedada.</p></td>
 </tr>
 </tbody>
 </table>
@@ -103,7 +103,7 @@ En la tabla siguiente se muestran los pares de clave y valor del atributo y sus 
 
 
 > [!NOTE]  
-> Si el atributo ya tiene valores distintos de uno de los pares de clave y valor de Lync Server 2013 (CSHostedVoiceMail = 0 o CSHostedVoiceMail = 1), una advertencia indicará que el atributo puede ser administrado por otra aplicación distinta. Por ejemplo, se muestra una advertencia si el par clave/valor ExchangeHostedVoiceMail = 0 o ExchangeHostedVoiceMail = 1 ya está presente. En ese caso, puede cambiar el valor editándolo en Active Directory o ejecutar el cmdlet siguiente para establecer el valor en NULL:<BR>Set-CsUser-Identity User-HostedVoicemail $null
+> Si el atributo ya tiene valores distintos de uno de los pares de clave/valor de Lync Server 2013 (CSHostedVoiceMail = 0 o CSHostedVoiceMail = 1), una advertencia indicará que el atributo puede ser administrado por una aplicación diferente. Por ejemplo, se muestra una advertencia si el par clave/valor ExchangeHostedVoiceMail=0 o ExchangeHostedVoiceMail=1 ya está presente. En tal caso, puede cambiar el valor editándolo en Active Directory, o bien ejecute el cmdlet siguiente para definir el valor como nulo:<BR>Set-CsUser –identity user –HostedVoicemail $null
 
 
 
@@ -113,23 +113,23 @@ En la tabla siguiente se muestran los pares de clave y valor del atributo y sus 
 
 <div>
 
-## <a name="enabling-users-for-hosted-voice-mail"></a>Habilitar usuarios para el correo de voz hospedado
+## <a name="enabling-users-for-hosted-voice-mail"></a>Habilitación de usuarios para correo de voz hospedado
 
-Para permitir que las llamadas de correo de voz de un usuario se enruten a la mensajería unificada de Exchange hospedada, debe ejecutar el cmdlet Set-CsUser para establecer el valor del parámetro *HostedVoiceMail* . Este parámetro también indica Lync Server 2013 para que se ilumine el indicador "llamar al correo de voz".
+Para habilitar las llamadas de correo de voz de un usuario para que se redirijan a la mensajería unificada hospedada de Exchange, ejecute el cmdlet Set-CsUser para definir el valor del parámetro *HostedVoiceMail*. Este parámetro también indica a Lync Server 2013 que debe aclarar el indicador "llamar al correo de voz".
 
-  - En el siguiente ejemplo se habilita la cuenta de usuario de Pilar Ackerman para el correo de voz hospedado:
+  - En el ejemplo siguiente se habilita la cuenta de usuario de Pilar Ackerman para correo de voz hospedado:
     
         Set-CsUser -Identity "Pilar Ackerman" -HostedVoiceMail $True
     
-    El cmdlet verifica que se aplica una directiva de correo de voz hospedada (global, de sitio o por usuario) a este usuario. Si no se aplica ninguna directiva, se produce un error en el cmdlet.
+    El cmdlet comprueba que una directiva de correo de voz hospedado (global, de nivel de sitio o por usuario) se aplique al usuario. Si no se aplica ninguna directiva, el cmdlet no se completará correctamente.
 
-  - En el ejemplo siguiente se deshabilita la cuenta de usuario de Pilar Ackerman para el correo de voz hospedado:
+  - En el ejemplo siguiente se deshabilita la cuenta de usuario de Pilar Ackerman para correo de voz hospedado:
     
         Set-CsUser -Identity "Pilar Ackerman" -HostedVoiceMail $False
     
-    El cmdlet verifica que no se aplica ninguna directiva de correo de voz hospedada (global, de sitio o por usuario) a este usuario. Si se aplica una directiva, se produce un error en el cmdlet.
+    El cmdlet comprueba que ninguna directiva de correo de voz hospedado (global, de nivel de sitio o por usuario) se aplique al usuario. Si se aplica alguna directiva, el cmdlet no se completará correctamente.
 
-Para obtener más información sobre cómo usar el cmdlet Set-CsUser, consulte la documentación del shell de administración de Lync Server.
+Para obtener información detallada sobre cómo usar el cmdlet Set-CsUser, consulte la documentación del shell de administración de Lync Server.
 
 </div>
 

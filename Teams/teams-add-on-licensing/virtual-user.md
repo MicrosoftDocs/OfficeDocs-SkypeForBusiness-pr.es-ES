@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Obtenga más información sobre las licencias de usuario virtual gratuitas.
-ms.openlocfilehash: 0b580a396dedfab81ab207fa0b1d6fee5caa705b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5b31c9edaf42508e59000257a33b9ddeba4c6fb5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826518"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029361"
 ---
 # <a name="phone-systemvirtual-user-license"></a>Sistema telefónico: licencia de usuario virtual 
 
@@ -67,7 +67,7 @@ Contoso debe considerar rediseñar el operador automático y el sistema de la co
 Si decide cambiar la licencia de su cuenta de recursos de una licencia de sistema telefónico a un sistema telefónico: licencia de usuario virtual: 
 
 1. Obtener la nueva licencia de usuario virtual del sistema telefónico. 
-2. Siga los pasos vinculados en el centro de administración de Microsoft 365 para [mover usuarios a un plan diferente](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+2. Siga los pasos vinculados en el centro de administración de Microsoft 365 para [mover usuarios a un plan diferente](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
 
 > [!WARNING]
 > Elimine siempre una licencia de sistema telefónico completo y asigne la licencia de usuario virtual y sistema telefónico en la misma actividad de licencia. Si quita la licencia anterior, guarda los cambios de la cuenta, agrega la nueva licencia y, a continuación, vuelve a guardar la configuración de la cuenta, es posible que la cuenta de recursos ya no funcione según lo esperado. Si esto sucede, le recomendamos que cree una nueva cuenta de recursos para el sistema telefónico: licencia de usuario virtual y quite la cuenta de recursos dañados. 

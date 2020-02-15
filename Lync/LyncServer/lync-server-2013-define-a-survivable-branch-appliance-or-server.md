@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Definir un servidor o aplicación de sucursal con funciones de supervivencia'
+title: 'Lync Server 2013: definir una aplicación o un servidor de sucursal con funciones de supervivencia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df5577ff0211afd005feb8fea4788598a03d536e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9006aa3a54a2aa38cecb4b49ef56094eb24494fc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728510"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043562"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="define-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a>Definir un servidor o aplicación de sucursal con funciones de supervivencia en Lync Server 2013
+# <a name="define-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a>Definir una aplicación o un servidor de sucursal con funciones de supervivencia en Lync Server 2013
 
 </div>
 
@@ -37,69 +37,69 @@ ms.locfileid: "41728510"
 
 _**Última modificación del tema:** 2012-10-07_
 
-Lleve a cabo este procedimiento en el sitio central si no definió el equipo o servidor de rama que funciona bien cuando lo agregó a su topología.
+Lleve a cabo este procedimiento en el sitio central en caso de que no haya definido la aplicación o el servidor de sucursal con funciones de supervivencia tras agregarlos a la topología.
 
 <div>
 
-## <a name="to-define-a-survivable-branch-appliance-or-survivable-branch-server"></a>Para definir un equipo de sucursal o un servidor de sucursal con la supervivencia
+## <a name="to-define-a-survivable-branch-appliance-or-survivable-branch-server"></a>Para definir una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia
 
-1.  Haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topología de Lync Server**.
+1.  Haga clic en **Inicio**, en **todos los programas**, en **Microsoft Lync Server 2013**y, a continuación, en **generador de topologías de Lync Server**.
 
-2.  En el árbol de consola, expanda el sitio central, expanda **sitios de sucursal**y, a continuación, expanda el nombre del sitio de la sucursal donde planea implementar el equipo con la sucursal o el servidor de sucursal que pueda superviviente.
+2.  En el árbol de la consola, expanda el sitio central, expanda **sitios de sucursal**y, a continuación, expanda el nombre del sitio de sucursal en el que va a implementar la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia.
 
-3.  Haga clic con el botón derecho en **dispositivos de sucursales supervivientes**y, a continuación, haga clic en **nuevo dispositivo de sucursal**.
+3.  Haga clic con el botón secundario en **aplicaciones de sucursal**con funciones de supervivencia y haga clic en **nueva aplicación de sucursal**con funciones de supervivencia.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Los equipos de las <STRONG>sucursales</STRONG> con las que son supervivientes son los que definen servidores de sucursal y las aplicaciones de la que son supervivientes.
+    > Las <STRONG>aplicaciones de sucursal</STRONG> con funciones de supervivencia son donde define servidores de sucursal con funciones de supervivencia y aplicaciones de sucursal con funciones de supervivencia.
 
     
     </div>
 
-4.  En el cuadro de diálogo **definir aplicación de aplicación** reinstalable, haga clic en **FQDN**, escriba el nombre de dominio completo (FQDN) de la aplicación de la rama que funcionará con la supervivencia o el servidor de sucursal con la supervivencia que va a implementar en este sitio de la sucursal y haga clic en **siguiente**.
+4.  En el cuadro de diálogo **definir aplicación de sucursal** con funciones de supervivencia, haga clic en **FQDN**, escriba el nombre de dominio completo (FQDN) de la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia que se implementará en este sitio de sucursal y, a continuación, haga clic en **siguiente**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Si está definiendo una aplicación de un equipo que pueda ser superviviente, el nombre que escriba en <STRONG>FQDN</STRONG> debe ser el mismo que el FQDN de la aplicación de rama superviviente que asignó al atributo <STRONG>ServicePrincipalName</STRONG> . Para obtener más información, vea <A href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">Agregar una aplicación de rama que se puede hacer a Active Directory en Lync Server 2013</A>.
+    > Si está definiendo una aplicación de sucursal con funciones de supervivencia, el nombre que escriba en el <STRONG>FQDN</STRONG> debe ser el mismo que el FQDN de aplicación de sucursal con funciones de supervivencia asignado al atributo <STRONG>ServicePrincipalName</STRONG> . Para obtener más información, consulte <A href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">Agregar una aplicación de sucursal con funciones de supervivencia a Active Directory en Lync Server 2013</A>.
 
     
     </div>
 
-5.  Haga clic en **grupo de servidores front-end**, haga clic en el servidor front-end (grupo de servicios de usuario) en el sitio central al que se conectará este equipo con la sucursal o el servidor de sucursal supervivientes y, a continuación, haga clic en **siguiente**.
+5.  Haga clic en **grupo de servidores front-end**, haga clic en el servidor front-end (grupo de servicios de usuario) en el sitio central al que se conectará esta aplicación de sucursal con funciones de supervivencia o con un servidor de sucursal con funciones de supervivencia y haga clic en **siguiente**.
 
-6.  Haga clic en **servidor perimetral**, haga clic en el grupo perimetral al que se conectará esta aplicación de sucursal o servidor de sucursal supervivientes para proporcionar conectividad RTC a los usuarios remotos del sitio de la sucursal y, a continuación, haga clic en **siguiente**.
+6.  Haga clic en **servidor perimetral**, haga clic en el grupo de servidores perimetrales al que se conectará esta aplicación de sucursal con funciones de supervivencia o servidor de sucursal con funciones de supervivencia para proporcionar conectividad RTC a usuarios remotos del sitio de sucursal y, a continuación, haga clic en **siguiente**
 
-7.  Haga clic en **FQDN de la puerta de enlace o dirección IP**y, a continuación, escriba el FQDN o la dirección IP de la puerta de enlace del mismo nivel a la que la sucursal o el servidor de sucursal superviviente está asociado para enrutar llamadas RTC entrantes o salientes.
+7.  Haga clic en **dirección IP o FQDN de puerta de enlace**y, a continuación, escriba el FQDN o la dirección IP de la puerta de enlace del mismo nivel a la que la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia tienen asociado el enrutamiento de llamadas RTC de entrada o de salida.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Si está definiendo un dispositivo de sucursal que funciona bien, esta es la puerta de enlace a la que se conectará el servidor de mediación de la aplicación de la sucursal con la que se puede obtener conectividad RTC.
+    > Si está definiendo una aplicación de sucursal con funciones de supervivencia, esta es la puerta de enlace a la que se conectará el servidor de mediación de dicha aplicación para conectividad de red telefónica conmutada (RTC).
 
     
     </div>
 
-8.  Haga clic en **Puerto de escucha para la puerta de enlace IP/RTC**y, a continuación, acepte el puerto predeterminado.
+8.  Haga clic en **Puerto de escucha para puerta de enlace IP/RTC** y acepte el puerto predeterminado.
 
-9.  En **Protocolo de transporte SIP**, haga clic en el protocolo de transporte que usará el equipo de la sucursal o el servidor de sucursal supervivientes y, a continuación, haga clic en **Finalizar**.
+9.  En **Protocolo de transporte SIP**, haga clic en el protocolo de transporte que usará la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia y, a continuación, haga clic en **Finalizar**.
     
     <div>
     
 
     > [!NOTE]  
-    > Por razones de seguridad, le recomendamos encarecidamente que use la seguridad de la capa de transporte (TLS). Si está definiendo un dispositivo de sucursal que es reviviente, consulte la documentación del proveedor de su equipo de sucursales que sea superviviente para verificar que su equipo de sucursales con la supervivencia es compatible con el protocolo TLS.
+    > Por motivos de seguridad, se recomienda encarecidamente usar Seguridad de la capa de transporte (TLS). Si está definiendo una aplicación de sucursal con funciones de supervivencia, consulte la documentación del proveedor para verificar que dicha aplicación admita el protocolo de Seguridad de la capa de transporte (TLS).
 
     
     </div>
 
-10. En el árbol de consola, haga clic con el botón derecho en el nuevo dispositivo de sucursal o servidor que sea reviviente, haga clic en **topología**y luego en **publicar**.
+10. En el árbol de la consola, haga clic con el botón secundario en la nueva aplicación o servidor de sucursal con funciones de supervivencia, haga clic en **Topología** y después haga clic en **Publicar**.
 
-**Siguiente paso**: [implementar un equipo o servidor de rama con la supervivencia con Lync Server 2013: tarea de sitio de sucursal](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)
+**Siguiente paso**: [implementar una aplicación o un servidor de sucursal con funciones de supervivencia con Lync Server 2013: tarea de sitio de sucursal](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)
 
 </div>
 

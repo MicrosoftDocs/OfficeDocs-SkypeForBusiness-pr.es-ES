@@ -12,20 +12,20 @@ ms:contentKeyID: 48185664
 ms.date: 12/09/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cc68ad4e3200a268a2a6ea901167f211942c015
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c16e33197ed28744df126d672385359f5eb8781b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736450"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042992"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a>Configuración del modo de privacidad de presencia mejorada en Lync Server 2013
+# <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a>Configurar el modo de privacidad de presencia mejorada en Lync Server 2013
 
 </div>
 
@@ -37,18 +37,18 @@ ms.locfileid: "41736450"
 
 _**Última modificación del tema:** 2014-12-08_
 
-Con el modo de privacidad de presencia mejorado, los usuarios pueden restringir la información de presencia para que solo esté visible para los contactos que aparecen en la lista de contactos de Lync 2013. Los cmdlets **New-CsPrivacyConfiguration** y **set-CsPrivacyConfiguration** tienen un parámetro EnablePrivacyMode controle esta opción. Cuando EnablePrivacyMode se establece en true, la opción para restringir la información de presencia a los contactos está disponible en las opciones de estado de Lync 2013. Cuando EnablePrivacyMode se establece en false, los usuarios pueden elegir permitir que todos vean la información de presencia o adherirse a los cambios futuros que realice el administrador en el modo de privacidad.
+Con el modo de privacidad de presencia mejorada, los usuarios pueden restringir la información de presencia para que esté visible solo para los contactos que aparecen en la lista de contactos de Lync 2013. Los cmdlets **New-CsPrivacyConfiguration** y **set-CsPrivacyConfiguration** tienen un parámetro EnablePrivacyMode controla esta opción. Cuando EnablePrivacyMode se establece en true, la opción para restringir la información de presencia a los contactos está disponible en las opciones de estado de Lync 2013. Si EnablePrivacyMode está definido en False, los usuarios pueden elegir si quieren permitir que todo el mundo vea siempre su información de presencia o adaptarse a los posibles cambios que el administrador realice en el modo de privacidad.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Las configuraciones de privacidad de Lync 2013 y Lync 2010 no se admiten en versiones anteriores (Microsoft Office Communicator 2007 R2 o Microsoft Office Communicator 2007). Si se permite que las versiones anteriores de Office Communicator puedan iniciar sesión, alguien que no haya recibido autorización puede ver el estado, la información de contacto o la imagen de un usuario de Lync 2013. Además, la configuración de privacidad de un usuario de Lync 2013 se restablece si inicia sesión con una versión anterior de Communicator.<BR>Por estos motivos, en un escenario de migración, antes de habilitar el modo de privacidad de presencia mejorado: 
+> Las versiones anteriores no respetan la configuración de privacidad de Lync 2013 y Lync 2010 (Microsoft Office Communicator 2007 R2 o Microsoft Office Communicator 2007). Si se permite iniciar sesión en versiones anteriores de Office Communicator, una persona a la que no se le haya autorizado ver el estado, la información de contacto o la imagen del usuario de Lync 2013 puede verla. Además, la configuración de privacidad de un usuario de Lync 2013 se restablece si inicia sesión con una versión anterior de Communicator.<BR>Por estas razones, en un escenario de migración, antes de habilitar el modo de privacidad de presencia mejorada: 
 > <UL>
 > <LI>
 > <P>Asegúrese de que todos los usuarios tienen instalado Lync 2013.</P>
 > <LI>
-> <P>Defina una regla de directiva de versión de cliente para evitar que versiones anteriores de Communicator inicien sesión.</P></LI></UL>
+> <P>Defina una regla de directiva de versiones de cliente para impedir que versiones anteriores de Communicator inicien sesión.</P></LI></UL>
 
 
 
@@ -56,15 +56,15 @@ Con el modo de privacidad de presencia mejorado, los usuarios pueden restringir 
 
 <div>
 
-## <a name="to-enable-enhanced-presence-privacy-mode"></a>Para habilitar el modo de privacidad de presencia mejorado
+## <a name="to-enable-enhanced-presence-privacy-mode"></a>Para habilitar el modo de privacidad de presencia mejorada
 
-1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
 2.  Ejecute el siguiente comando:
     
         Get-CsPrivacyConfiguration | Set-CsPrivacyConfiguration -EnablePrivacyMode $True
     
-    Este comando habilita el modo de privacidad para todas las opciones de configuración de privacidad actualmente en uso en la organización. Para obtener más información sobre cómo la configuración de directiva de modo de privacidad de presencia mejorada de Lync Server administra la presencia del contacto para el cliente de Lync 2013, consulte el artículo de Microsoft KB [habilitando Lync Server el modo de privacidad de presencia mejorada actualiza el estado de presencia de algunos contactos de Lync a "no disponible"](http://support.microsoft.com/kb/3020057).
+    Este comando habilita el modo de privacidad para todos los parámetros de privacidad que se encuentran actualmente en uso en la organización. Para obtener más información sobre cómo la Directiva de modo de privacidad de presencia mejorada de Lync Server administra la presencia de contactos para el cliente de Lync 2013, consulte el artículo de Microsoft Knowledge base [que habilita Lync Server Enhanced Presence el modo de privacidad actualiza el estado de presencia de algunos contactos de Lync a "no disponible"](http://support.microsoft.com/kb/3020057).
 
 </div>
 
@@ -74,7 +74,7 @@ Con el modo de privacidad de presencia mejorado, los usuarios pueden restringir 
 
 
 [Get-CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsPrivacyConfiguration)  
-[Nuevo: CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsPrivacyConfiguration)  
+[New-CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsPrivacyConfiguration)  
 [Set-CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPrivacyConfiguration)  
   
 

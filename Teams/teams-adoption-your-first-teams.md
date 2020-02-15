@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8cf33a5ac4c498e6d6996f6096fbf9599b5ad2e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1a62bc73e7dc2496a9fedc94ad7fc38f2ebecd65
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837720"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030774"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Crear sus primeros equipos en Microsoft Teams
 
@@ -36,7 +36,7 @@ La mejor manera de impulsar la adopción de equipos es usar el producto. Le reco
 | Implementación de Microsoft Teams | General <br/> Conocimiento y adopción <br/> Compromiso empresarial <br/> Programa de adopción anticipada <br/> Comentarios y sugerencias <br/> Seguridad y cumplimiento <br/> Estrategia y planificación <br/> Estado del servicio e incidentes <br/> Aprendizaje <br/> Watercooler chat |
 | Campeones de trabajo en equipo | General <br/> Procedimientos recomendados, aprendizaje y procedimientos <br/> Rincón del campeón <br/> Comentarios y soporte técnico <br/> Clientes potenciales <br/> Concentrador social |
 
-En Microsoft Teams, la [Galería de pestañas](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview) le proporciona acceso a todas las aplicaciones de Office 365 y de terceros que haya activado el administrador. Para obtener el máximo valor de su producto, sugerimos anclar recursos clave como pestañas en cada uno de los canales correspondientes. Vea el ejemplo siguiente.
+En Microsoft Teams, la [Galería de pestañas](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview) le proporciona acceso a todas las aplicaciones de Office 365 y de terceros que haya activado el administrador. Para obtener el máximo valor de su producto, sugerimos anclar recursos clave como pestañas en cada uno de los canales correspondientes. Vea el ejemplo siguiente.
 
 ![Captura de pantalla que muestra pestañas predeterminadas y personalizadas](media/teams-adoption-tab-example.png)
 
@@ -50,7 +50,7 @@ En sus equipos iniciales, se recomienda anclar los siguientes elementos para fac
 | Compromiso empresarial | Wiki: Guía de compromiso<br/>Formulario: solicitud de consulta de Teams<br/>Lista: solicitudes de compromiso |
 |Pioneros | Comunidad de comentarios anclados <br/> OneNote para preguntas más frecuentes y temas comunes |
 | Comentarios e informes | Informe de uso de Office 365 anclado (solo para administradores de Office 365) |
-| Seguridad y cumplimiento | Portal de confianza de Microsoft <br/> [Documentación de seguridad y cumplimiento](https://docs.microsoft.com/en-us/office365/securitycompliance/index)<br/> [Mapa de ruta (Roadmap)](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
+| Seguridad y cumplimiento | Portal de confianza de Microsoft <br/> [Documentación de seguridad y cumplimiento](https://docs.microsoft.com/office365/securitycompliance/index)<br/> [Mapa de ruta (Roadmap)](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
 | Estrategia y planificación | Colaboración en Norteamérica Star PowerPoint <br/> Plan de proyecto de adopción de servicios |
 | Aprendizaje | Portal de aprendizaje de aprendizaje personalizado <br/> [Aprendizaje en línea de Teams](https://aka.ms/TeamsTraining) |
 | **Campeones de trabajo en equipo**|  |

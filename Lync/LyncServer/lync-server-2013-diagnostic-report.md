@@ -12,20 +12,20 @@ ms:contentKeyID: 48185159
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a2fa69e0e2397b970850a91042f0241060f839
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a906e131329df1b59c4ac6067a4696871f0bebfc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762348"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044842"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="diagnostic-report-in-lync-server-2013"></a>Informe de diagnóstico en Lync Server 2013
+# <a name="diagnostic-report-in-lync-server-2013"></a>Informe de diagnósticos en Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41762348"
 
 _**Última modificación del tema:** 2014-02-07_
 
-El informe de diagnóstico ofrece información de diagnóstico y solución de problemas para las sesiones con errores. Esta información incluye el identificador de diagnóstico y el encabezado de diagnóstico que se notificaron cuando se produjo el error en la sesión. El identificador de diagnóstico es un identificador único (con formato de encabezado ms-diagnostics) que se adjunta a un mensaje SIP, mientras que el encabezado de diagnóstico proporciona una descripción que acompaña al identificador de diagnóstico. El informe también puede contener detalles valiosos sobre la solución de problemas conocidos por el componente del informe. Por ejemplo:
+El informe de diagnóstico ofrece información de diagnóstico y solución de problemas para una sesión con error. Esta información incluye el identificador de diagnóstico y el encabezado de diagnóstico que se notificaron cuando se produjo un error en la sesión. El identificador de diagnóstico es un identificador único (en forma de un encabezado MS-Diagnostics) que se adjunta a un mensaje SIP, mientras que el encabezado de diagnóstico proporciona una descripción complementaria del identificador de diagnóstico. El informe también puede contener detalles de solución de problemas valiosos que el componente de informes conoce. Por ejemplo:
 
-  - El código de causa proporcionado por la puerta de enlace RTC que generó el error. Cuando una llamada saliente presenta errores en la red RTC, se genera automáticamente un código de causa ISUP (ISDN User Part). Por ejemplo, una puerta de enlace RTC puede enviar un código de causa 34 para indicar que no hay ningún canal o circuito disponible para completar la llamada.
+  - El código de causa proporcionado por la puerta de enlace RTC que generó el error. Cuando se produce un error en una llamada realizada en la red RTC, se genera automáticamente un código de causa de parte del usuario RDSI (ISUP). Por ejemplo, una puerta de enlace RTC podría enviar el código de causa 34 para indicar que no se disponía de ningún circuito ni canal para completar la llamada.
 
-  - Errores de Winsock, puerto y FQDN del mismo nivel para detectar errores de conectividad.
+  - Errores de conectividad, puerto y FQDN del mismo nivel para errores de conectividad.
 
-  - Comprobación de nombres para detectar errores de resolución DNS. La resolución DNS tiene lugar cada vez que un cliente establece contacto con un servidor de nombres y solicita la dirección IP correspondiente al nombre de dispositivo especificado.
+  - Nombres que se buscan en busca de errores de resolución DNS. La resolución DNS tiene su comportamiento cada vez que un cliente se pone en contacto con un servidor de nombres y solicita la dirección IP que corresponde al nombre de dispositivo especificado.
 
 <div>
 
-## <a name="accessing-the-diagnostic-report"></a>Obtener acceso al informe de diagnóstico
+## <a name="accessing-the-diagnostic-report"></a>Acceso al informe de diagnósticos
 
-Para acceder al informe de diagnóstico, haga clic en la métrica informe de diagnóstico (detalles) en el [informe detallado de sesión de punto a punto de Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) o en el informe detalles de la Conferencia.
+Para obtener acceso al informe de diagnóstico, haga clic en la métrica informe de diagnóstico (detalle) en el [Informe de detalles de sesiones punto a punto en Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) o en el informe de detalles de conferencia.
 
 </div>
 
@@ -65,7 +65,7 @@ Ninguno. No se puede filtrar el informe de diagnóstico.
 
 ## <a name="metrics"></a>Métricas
 
-En la siguiente tabla se detalla la información proporcionada en el informe de diagnóstico para cada sesión.
+En la siguiente tabla se muestra la información proporcionada en el informe de diagnóstico para cada sesión.
 
 ### <a name="diagnostic-report-metrics"></a>Métricas del informe de diagnóstico
 
@@ -78,7 +78,7 @@ En la siguiente tabla se detalla la información proporcionada en el informe de 
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
@@ -96,47 +96,47 @@ En la siguiente tabla se detalla la información proporcionada en el informe de 
 <tr class="odd">
 <td><p><strong>Tipo de solicitud</strong></p></td>
 <td><p>No</p></td>
-<td><p>Tipo de solicitud SIP que presentó errores. Por ejemplo, INVITE, BYE o SERVICE.</p></td>
+<td><p>Tipo de solicitud SIP fallida. Por ejemplo, INVITE, BYE o SERVICE.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Origen</strong></p></td>
+<td><p><strong>Source</strong></p></td>
 <td><p>No</p></td>
 <td><p>Origen del error.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>URI de remitente</strong></p></td>
+<td><p><strong>URI de usuario de remitente</strong></p></td>
 <td><p>No</p></td>
 <td><p>Dirección SIP del usuario que inició la sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Agente de remitente</strong></p></td>
 <td><p>No</p></td>
-<td><p>Software usado por el extremo del usuario que inició la sesión.</p></td>
+<td><p>Software que utiliza el extremo del usuario que inició la sesión.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Id. de diagnóstico</strong></p></td>
 <td><p>No</p></td>
-<td><p>Identificador único (con formato de encabezado de ms-diagnostics) adjunto a un mensaje SIP que a menudo aporta información útil para solucionar errores.</p></td>
+<td><p>Identificador único (en forma de encabezado de tipo ms-diagnostics) que se adjunta a un mensaje SIP y que suele ofrecer información de utilidad para resolver errores.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tipo de contenido</strong></p></td>
 <td><p>No</p></td>
-<td><p>Tipo de contenido multimedia que presentó errores. Un ejemplo de tipo de contenido habitual es Application/sdp. Session Description Protocol (SDP) es un protocolo estándar de Internet que se usa para anuncios e invitaciones de sesiones, y otras formas de iniciar sesiones multimedia.</p></td>
+<td><p>Tipo de contenido multimedia con errores. Por ejemplo, un tipo de contenido común es Application/SDP. Session Description Protocol (SDP) es un protocolo estándar de Internet que se usa para anuncios de sesiones, invitaciones a sesiones y otras formas de inicio de sesión multimedia.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Aplicación</strong></p></td>
+<td><p><strong>Application</strong></p></td>
 <td><p>No</p></td>
-<td><p>Aplicación a la que corresponde el error.</p></td>
+<td><p>Aplicación implicada en el error.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>URI de destinatario</strong></p></td>
+<td><p><strong>URI de usuario</strong></p></td>
 <td><p>No</p></td>
 <td><p>Dirección SIP del usuario invitado a la sesión.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Tiempo en unirse a conferencia (ms)</p></td>
+<td><p>Tiempos de combinación de conferencia (MS)</p></td>
 <td><p>No</p></td>
-<td><p>Cantidad de tiempo (en milisegundos) que tardó el usuario en unirse a la conferencia.</p></td>
+<td><p>Cantidad de tiempo (en milisegundos) que tardó el usuario en unirse a la Conferencia.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Encabezado de diagnóstico</strong></p></td>
@@ -147,7 +147,7 @@ En la siguiente tabla se detalla la información proporcionada en el informe de 
 </table>
 
 
-Puede encontrar una lista de errores de diagnóstico en la [Página de encabezado de MS-Diagnostics](http://msdn.microsoft.com/en-us/library/gg132446\(v=office.12\).aspx).
+Se puede encontrar una lista de errores de diagnóstico en la [Página de encabezado de MS-Diagnostics](http://msdn.microsoft.com/library/gg132446\(v=office.12\).aspx).
 
 </div>
 

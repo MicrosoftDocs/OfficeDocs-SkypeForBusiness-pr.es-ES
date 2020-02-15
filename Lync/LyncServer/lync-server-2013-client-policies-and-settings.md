@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configuración y directivas del cliente'
+title: 'Lync Server 2013: configuración y directivas de cliente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185330
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc306e97c3325ce4cfc11110665bd2f23781cf89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 72708219dcb6df3b0a0185cb9c59bcbd84c5c19a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742900"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044432"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-policies-and-settings-in-lync-server-2013"></a>Directivas y configuración de cliente en Lync Server 2013
+# <a name="client-policies-and-settings-in-lync-server-2013"></a>Configuración y directivas de cliente en Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41742900"
 
 _**Última modificación del tema:** 2012-06-18_
 
-Este tema proporciona una descripción general de la configuración y las directivas relacionadas con el cliente que puede configurar en Lync Server 2013. Lync Server 2013 incluye las siguientes herramientas para administrar y configurar clientes:
+En este tema se proporciona información general sobre la configuración y las directivas relacionadas con el cliente que se pueden configurar en Lync Server 2013. Lync Server 2013 incluye las siguientes herramientas para administrar y configurar los clientes:
 
-  - **Panel de control de 2013 de Lync Server**   una interfaz gráfica de usuario basada en web para administrar y configurar servidores, usuarios, clientes y dispositivos.
+  - **Panel de control de Lync Server 2013**   una interfaz gráfica de usuario basada en web para la administración y la configuración de servidores, usuarios, clientes y dispositivos.
 
-  - **Shell de administración de Lync Server**   interfaz de administración con un amplio conjunto de cmdlets de la interfaz de línea de comandos de Windows PowerShell y una serie de scripts predefinidos.
+  - **Shell de administración de Lync Server**   interfaz de administración con un amplio conjunto de cmdlets de interfaz de línea de comandos de Windows PowerShell y una serie de scripts predefinidos.
 
-  - **Directiva de grupo de Lync 2013**     un conjunto de directivas que puede configurar para los clientes con la plantilla administrativa de la Directiva de grupo de Office. Es necesario configurar determinadas directivas de inicio del cliente antes de implementar los clientes de Lync 2013. Otras configuraciones opcionales de Lync 2010 siguen siendo de aplicación en Lync 2013.
+  - **Directiva de grupo de Lync 2013**     un conjunto de directivas que se pueden configurar para los clientes mediante la plantilla administrativa de directiva de grupo de Office. Algunas directivas de arranque de cliente deben configurarse antes de implementar los clientes de Lync 2013. Otras opciones opcionales de Lync 2010 siguen siendo admitidas en Lync 2013.
 
 En esta sección se describen los cambios en la configuración relacionada con el cliente en Lync Server 2013.
 

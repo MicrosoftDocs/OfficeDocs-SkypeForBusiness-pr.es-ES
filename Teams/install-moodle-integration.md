@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 128e476447898e659961a27e071b992b6b802ebf
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: efb53e9b3299f45cd1abfabe508a55ca081a0b92
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836620"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045132"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Instalación de la integración de Moodle con Microsoft Teams
 
@@ -173,7 +173,7 @@ Una vez que los recursos terminen de implementarse en Azure, tendrá que configu
 
 Ahora que ya ha implementado su bot en Azure y configurado para hablar con su servidor de Moodle, es el momento de implementar la aplicación Microsoft Teams. Para ello, deberá cargar el archivo de manifiesto que descargó desde la página de configuración del equipo del complemento de Office 365 Moodle en el paso anterior.
 
-Antes de poder instalar la aplicación, tendrá que asegurarse de que las aplicaciones externas y la instalación de prueba de aplicaciones están habilitadas. Para ello, puede seguir [estos pasos](https://docs.microsoft.com/en-us/MicrosoftTeams/admin-settings). Una vez que se haya asegurado de que las aplicaciones externas estén habilitadas, puede seguir los pasos que se indican a continuación para implementar la aplicación.
+Antes de poder instalar la aplicación, tendrá que asegurarse de que las aplicaciones externas y la instalación de prueba de aplicaciones están habilitadas. Para ello, puede seguir [estos pasos](https://docs.microsoft.com/MicrosoftTeams/admin-settings). Una vez que se haya asegurado de que las aplicaciones externas estén habilitadas, puede seguir los pasos que se indican a continuación para implementar la aplicación.
 
 1. Abra Microsoft Teams.
 2. Haga clic en el icono de **tienda** en la esquina inferior izquierda de la barra de navegación.

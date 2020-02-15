@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: informes de diagnóstico de llamadas (por usuario)'
+title: 'Lync Server 2013: informes de diagnósticos de llamadas (por usuario)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184916
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f1d9c1b504ac3b38948e04ed10cfe6d6e2b2744
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 961c6f70c5ca115824c71cf5366cb5f3610fd1fb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743120"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41743120"
 
 _**Última modificación del tema:** 2012-10-21_
 
-Los informes de diagnósticos de llamadas ofrecen información por usuario sobre sesiones de conferencia y de punto a punto con errores.
+Los informes de diagnósticos de llamadas ofrecen información usuario por usuario sobre sesiones de conferencia y punto a punto con errores.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Informe de actividad de usuario en Lync Server 2013](lync-server-2013-user-activity-report.md)   proporciona información sobre actividades de punto a punto y de conferencia para cada uno de los usuarios.
+  - [El informe de actividad de usuario en Lync Server 2013](lync-server-2013-user-activity-report.md)   proporciona información sobre actividades de conferencia y punto a punto para cada uno de los usuarios.
 
 </div>
 

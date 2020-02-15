@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9ad590f61b63aad1208fb2ad04f4aa3b80a3ddb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 806a96db63ca0bbb44eb92ed6e84f8451069e725
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836980"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035464"
 ---
 # <a name="teams-only-mode-considerations"></a>Consideraciones del modo Teams solo
 
@@ -55,7 +55,7 @@ Aunque miles de clientes se han actualizado correctamente a Microsoft Teams, hay
  - Office 365 Germany
  - El inquilino de Skype empresarial se hospeda en Corea del Sur **y** la organización requiere que los datos de Teams se almacenen en Corea del sur. Actualmente, las organizaciones con datos de Skype empresarial almacenados en Corea del sur que actualicen a teams tendrán sus datos de equipo almacenados en la región de Asia Datacenter, no en la región del centro de datos de Corea del sur.
 
-**Consideraciones específicas del usuario**: algunos escenarios de usuario siguen evolucionando, y los administradores pueden decidir aplazar temporalmente la actualización de determinados usuarios al actualizar otros usuarios de la organización. En particular, seguimos trabajando en situaciones de direccionamiento para usuarios cuyo dispositivo principal está basado en VDI. Consulte el sitio de la [Guía básica de Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para obtener anuncios.
+**Consideraciones específicas del usuario**: algunos escenarios de usuario siguen evolucionando, y los administradores pueden decidir aplazar temporalmente la actualización de determinados usuarios al actualizar otros usuarios de la organización. En particular, seguimos trabajando en situaciones de direccionamiento para usuarios cuyo dispositivo principal está basado en VDI. Consulte el sitio de la [Guía básica de Office 365](https://www.microsoft.com/microsoft-365/roadmap) para obtener anuncios.
 
 > [!NOTE]
 > Antes de pasar al modo solo para equipos, necesita reemplazar o actualizar los dispositivos que no son compatibles con Teams. 

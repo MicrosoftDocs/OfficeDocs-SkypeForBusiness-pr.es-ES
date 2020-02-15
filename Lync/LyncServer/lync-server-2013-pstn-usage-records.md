@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Registros de uso de RTC'
+title: 'Lync Server 2013: registros de uso de RTC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5909494b4e4b6901964a7642481302ca221fe086
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 60700070c5426d4df4d1957367ccfd743a5ba44b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724680"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042037"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41724680"
 
 _**Última modificación del tema:** 2012-09-23_
 
-Planificar los registros de uso de RTC consiste principalmente en elaborar una lista de todos los permisos de llamada vigentes actualmente en la organización, desde los permisos del presidente hasta los de los empleados temporales, consultores y personal contingente. Este proceso también brinda la oportunidad de volver a examinar los permisos de llamada existentes y modificarlos. Puede crear registros de uso de RTC solo para los permisos de llamada que se aplican a los usuarios de voz de empresa previstos, pero una mejor solución de larga duración podría ser crear registros de uso de RTC para todos los permisos de llamadas, independientemente de si algunos usuarios no pueden aplicar al grupo de usuarios que desea habilitar para la telefonía IP empresarial. Si cambian los permisos de llamada o se agregan usuarios nuevos con permisos de llamada diferentes, ya estarán creados los registros de uso de RTC necesarios.
+La planeación de los registros de uso de RTC consiste principalmente en enumerar todos los permisos de llamada que hay actualmente en vigor en la organización, desde el CEO hasta trabajadores temporales, consultores y personal contingente. Este proceso también ofrece la oportunidad de volver a examinar los permisos de llamada existentes y revisarlos. Puede crear registros de uso de RTC solo para los permisos de llamada que se aplican a los usuarios de voz de empresa que se prevén, pero una mejor solución de largo alcance puede ser crear registros de uso de RTC para todos los permisos de llamadas, independientemente de si algunos no se encuentran se aplican al grupo de usuarios que se van a habilitar para la telefonía IP empresarial. Si los permisos de llamada cambian o se agregan nuevos usuarios con permisos de llamada diferentes, ya habrá creado los registros de uso de RTC necesarios.
 
-A continuación se muestra una tabla del uso de RTC típico.
+En la tabla siguiente se muestra una tabla típica de uso de RTC.
 
 ### <a name="pstn-usage-records"></a>Registros de uso de RTC
 
@@ -60,7 +60,7 @@ A continuación se muestra una tabla del uso de RTC típico.
 <td><p>Llamadas locales</p></td>
 </tr>
 <tr class="even">
-<td><p>Long-Distance</p></td>
+<td><p>A larga distancia</p></td>
 <td><p>Llamadas de larga distancia</p></td>
 </tr>
 <tr class="odd">
@@ -80,20 +80,20 @@ A continuación se muestra una tabla del uso de RTC típico.
 <td><p>Empleados temporales de Redmond</p></td>
 </tr>
 <tr class="odd">
-<td><p>Zurich</p></td>
-<td><p>Empleados de jornada completa de Zúrich</p></td>
+<td><p>Zúrich</p></td>
+<td><p>Zurich empleados a tiempo completo</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Por sí mismos, los registros de uso de RTC no hacen nada. Para que funcionen, hay que asociarlos a:
+Por sí mismos, los registros de uso de RTC no hacen nada. Para que funcionen, debe asociarlos con lo siguiente:
 
   - Directivas de voz, que se asignan a los usuarios.
 
-  - Rutas, que se asignan a los números de teléfono.
+  - Rutas, que se asignan a números de teléfono.
 
-Para obtener más información sobre las rutas y directivas de voz, vea [directivas de voz en Lync server 2013](lync-server-2013-voice-policies.md) y [rutas de voz en Lync Server 2013](lync-server-2013-voice-routes.md). Para obtener más información sobre cómo crear y configurar estos, vea [configurar rutas de voz para llamadas salientes en Lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
+Para obtener más información sobre las rutas y directivas de voz, consulte [directivas de voz en Lync server 2013](lync-server-2013-voice-policies.md) y [rutas de voz en Lync Server 2013](lync-server-2013-voice-routes.md). Para obtener más información sobre cómo crear y configurar estas rutas de voz, consulte [Configuring Voice Routes for Outbound calls in Lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 59893870
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b205699e9efd896a157654f5c1fb200e34087fc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9878cf6d6de482e2319cfd3cddf15e6d0e6ecb6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724630"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044412"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41724630"
 
 _**Última modificación del tema:** 2013-11-13_
 
-Microsoft Lync Server 2013 se basa en certificados para la autenticación de servidores y para establecer una cadena de confianza entre clientes y servidores, así como entre los diferentes roles de servidor. Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 y Windows Server 2003 infraestructura de clave pública (PKI) proporciona la infraestructura para establecer y validar esta cadena de confianza.
+Microsoft Lync Server 2013 se basa en certificados para la autenticación de servidores y para establecer una cadena de confianza entre clientes y servidores, así como entre los diferentes roles de servidor. Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 y la infraestructura de clave pública (PKI) de Windows Server 2003 proporcionan la infraestructura para establecer y validar esta cadena de confianza.
 
-Los certificados son identificadores digitales. Identifican un servidor por nombre y especifican sus propiedades. Para garantizar la validez de la información incluida en un certificado, este debe proceder de una entidad de certificación (CA) que sea de confianza para los clientes u otros servidores que se conectan al servidor. Si el servidor se conecta únicamente a otros clientes y servidores de una red privada, la CA puede ser una CA de empresa. Si el servidor interactúa con entidades ubicadas fuera de la red privada, es posible que se requiera una CA pública.
+Los certificados son identificadores digitales. Identifican un servidor por su nombre y especifican sus propiedades. Para asegurarse de que la información de un certificado es válida, el certificado debe ser emitido por una entidad de certificación en la que confían los clientes u otros servidores que se conectan al servidor. Si el servidor se conecta sólo con otros clientes y servidores de una red privada, la entidad de certificación puede ser una entidad de certificación empresarial. Si el servidor interactúa con entidades fuera de la red privada, es posible que se requiera una entidad de certificación pública.
 
 Incluso si la información incluida en el certificado es válida, es preciso comprobar de alguna manera que el servidor que presenta el certificado es realmente el servidor representado por el certificado. Ahí es donde entra en juego la PKI de Windows.
 
@@ -49,7 +49,7 @@ Cada certificado está asociado a una clave pública. El servidor indicado en el
 
 
 > [!NOTE]  
-> No todas las entidades emisoras públicas cumplen con los requisitos de los certificados de 2013 de Lync Server. Para los certificados públicos, se recomienda consultar la lista de proveedores autorizados de CA públicas. Para obtener más información, vea socios de certificados <A href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</A>de comunicaciones unificadas en.
+> No todas las entidades de certificación públicas cumplen con los requisitos de los certificados 2013 de Lync Server. Para los certificados públicos, se recomienda consultar la lista de proveedores autorizados de CA públicas. Para obtener más información, vea asociados de certificados <A href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</A>de comunicaciones unificadas en.
 
 
 
@@ -59,7 +59,7 @@ Cada certificado está asociado a una clave pública. El servidor indicado en el
 
 ## <a name="crl-distribution-points"></a>Puntos de distribución CRL
 
-Lync Server 2013 requiere que todos los certificados de servidor contengan uno o varios puntos de distribución de la lista de revocación de certificados (CRL). Los puntos de distribución CRL (CDP) son ubicaciones desde las que se pueden descargar CRL para comprobar si un certificado no ha sido revocado después de su emisión y todavía se encuentra dentro del período de validez. Un punto de distribución CRL se anota en las propiedades del certificado como una dirección URL y suele ser HTTPS.
+Lync Server 2013 requiere que todos los certificados de servidor contengan uno o más puntos de distribución de listas de revocación de certificados (CRL). Los puntos de distribución CRL son ubicaciones desde las que se pueden descargar listas de revocación de certificados para comprobar si un certificado no ha sido revocado después de su emisión. Un punto de distribución CRL se anota en las propiedades del certificado como una dirección URL y suele ser HTTPS.
 
 </div>
 
@@ -67,13 +67,13 @@ Lync Server 2013 requiere que todos los certificados de servidor contengan uno o
 
 ## <a name="enhanced-key-usage"></a>Uso mejorado de clave
 
-Lync Server 2013 requiere que todos los certificados de servidor admitan el uso mejorado de claves (EKU) para la autenticación del servidor. La configuración del campo EKU para la autenticación de los servidores significa que el certificado es válido para la autenticación de los servidores. Este EKU es esencial para MTLS. Puede haber varias entradas en el EKU; de este modo, se habilita el certificado para varios propósitos.
+Lync Server 2013 requiere que todos los certificados de servidor sean compatibles con el uso mejorado de clave (EKU) para fines de autenticación de servidor. La configuración del campo EKU para la autenticación de los servidores significa que el certificado es válido para la autenticación de los servidores. Este EKU es esencial para MTLS. Puede haber varias entradas en el EKU; de este modo, se habilita el certificado para varios propósitos.
 
 <div>
 
 
 > [!NOTE]  
-> El EKU de autenticación de cliente es necesario para las conexiones MTLS de salida de Live Communications Server 2003 y Live Communications Server 2005, pero ya no es necesario. Sin embargo, este EKU debe estar presente en los servidores perimetrales que se conectan a AOL por medio de la conectividad de mensajería instantánea pública.
+> El EKU para la autenticación de clientes se requería para las conexiones MTLS salientes de Live Communications Server 2003 y Live Communications Server 2005, pero ya no se requiere. Sin embargo, este EKU debe estar presente en los servidores perimetrales que se conectan a AOL a través de la conectividad de mensajería instantánea pública.
 
 
 

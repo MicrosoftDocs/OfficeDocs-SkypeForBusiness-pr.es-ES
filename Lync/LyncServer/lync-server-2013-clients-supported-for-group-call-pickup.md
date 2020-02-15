@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: clientes compatibles con la recogida de llamadas grupales'
+title: 'Lync Server 2013: clientes admitidos para la recogida de llamadas de grupo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b924741e6dc733f167368f88faa24e6d56b362e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 723877737bd358ab4b364191c4e799bcc73eddc8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756454"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044192"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a>Clientes compatibles con la recogida de llamadas en Lync Server 2013
+# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a>Clientes compatibles con la recogida de llamadas en grupo en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41756454"
 
 _**Última modificación del tema:** 2013-02-12_
 
-Puede usar cualquiera de los siguientes clientes para responder a los miembros de la recogida de llamadas grupales:
+Puede usar cualquiera de los siguientes clientes para responder a las llamadas a los miembros de llamada de Group Call:
 
   - Lync 2013
 
@@ -49,13 +49,13 @@ Puede usar cualquiera de los siguientes clientes para responder a los miembros d
 
 
 > [!NOTE]  
-> Los usuarios pueden usar cualquiera de estos clientes para responder a los miembros de la recogida de llamadas grupales, pero los usuarios deben estar alojados en un grupo de 2013 de Lync Server con actualizaciones acumulativas para Lync Server 2013: febrero de 2013.
+> Los usuarios pueden usar cualquiera de estos clientes para responder a las llamadas a los miembros de llamada de grupo, pero los usuarios deben estar hospedados en un grupo de servidores de Lync Server 2013 con actualizaciones acumulativas para Lync Server 2013: febrero de 2013.
 
 
 
 </div>
 
-En las actualizaciones acumulativas para Lync Server 2013: el 2013 de febrero, los siguientes clientes y dispositivos no son compatibles con la recopilación de llamadas a miembros de la llamada grupal del Grupo:
+En las actualizaciones acumulativas de Lync Server 2013: febrero de 2013, los siguientes clientes y dispositivos no son compatibles con la recopilación de llamadas a los miembros de la llamada de Grupo:
 
   - Lync Mobile
 
@@ -65,7 +65,7 @@ En las actualizaciones acumulativas para Lync Server 2013: el 2013 de febrero, l
 
   - Teléfonos analógicos
 
-  - Teléfonos con números de la red telefónica conmutada (RTC)
+  - Teléfonos con números de red telefónica conmutada (RTC)
 
 </div>
 

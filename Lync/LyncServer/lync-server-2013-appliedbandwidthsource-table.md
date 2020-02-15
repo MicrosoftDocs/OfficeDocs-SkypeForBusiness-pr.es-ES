@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla AppliedBandwidthSource'
+title: 'Lync Server 2013: tabla AppliedBandwidthSource'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183638
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6978802893b2c4af4f4d4199c3e35452200d8d4a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3fcbcad9c69731d2a39d990f2342b7427f98fb74
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737610"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042287"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41737610"
 
 _**Última modificación del tema:** 2012-10-02_
 
-La tabla AppliedBandwidthSource es una tabla de soporte. Cada registro representa un origen.
+La tabla AppliedBandwidthSource es una tabla auxiliar. Cada registro representa un origen.
 
 
 <table>
@@ -59,14 +59,14 @@ La tabla AppliedBandwidthSource es una tabla de soporte. Cada registro represent
 <tr class="odd">
 <td><p><strong>AppliedBandwidthSourceKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
+<td><p>Principal</p></td>
 <td><p>Número único que identifica el origen.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AppliedBandwidthSource</strong></p></td>
 <td><p>VARCHAR (256)</p></td>
-<td><p>Solo</p></td>
-<td><p>Este es el origen del límite de ancho de banda que se impone. Describe de dónde viene el límite de ancho de banda (por ejemplo, "servidor de directivas", "convertir servidor" o "modalidad de moda").</p></td>
+<td><p>Única</p></td>
+<td><p>Origen del límite de ancho de banda impuesto. Describe de dónde proviene el límite de ancho de banda (por ejemplo, “Servidor de directivas”, “Servidor TURN” o “Modalidad”).</p></td>
 </tr>
 </tbody>
 </table>

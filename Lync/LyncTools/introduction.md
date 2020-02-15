@@ -12,16 +12,16 @@ ms:contentKeyID: 51541414
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 893205127b6b1ccba958a0882c3aa0d1360a7c06
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a3674742cedbdfb267326e0170703f3fbc3ba3b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730570"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044272"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41730570"
 
 _**Última modificación del tema:** 2013-02-24_
 
-La herramienta Lync Server 2013 stress and Performance (denominada LyncPerfTool) puede simular la carga de usuarios de los siguientes tipos:
+La herramienta stress and performance de Lync Server 2013 (denominada LyncPerfTool) puede simular la carga de usuarios de los siguientes tipos:
 
 
 <table>
@@ -47,7 +47,7 @@ La herramienta Lync Server 2013 stress and Performance (denominada LyncPerfTool)
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Mensajería instantánea (mi) y presencia</p></td>
+<td><p>Mensajería instantánea (MI) y presencia</p></td>
 <td><p>Audioconferencia</p></td>
 </tr>
 <tr class="even">
@@ -56,19 +56,19 @@ La herramienta Lync Server 2013 stress and Performance (denominada LyncPerfTool)
 </tr>
 <tr class="odd">
 <td><p>Conferencia de cliente de Web Access</p></td>
-<td><p>Operador de 2013 de Microsoft Lync</p></td>
+<td><p>Operador 2013 de Microsoft Lync</p></td>
 </tr>
 <tr class="even">
 <td><p>Grupos de respuesta</p></td>
 <td><p>Expansión de la lista de distribución</p></td>
 </tr>
 <tr class="odd">
-<td><p>Consulta de la libreta de direcciones y descarga de la libreta de direcciones</p></td>
-<td><p>Las llamadas y el perfil de ubicación de 9-1-1 (E9-1-1) mejorado (plan de marcado)</p></td>
+<td><p>Consulta de la libreta de direcciones y de descarga de la libreta de direcciones</p></td>
+<td><p>Llamadas mejoradas 9-1-1 (E9-1-1) y Perfil de ubicación (plan de marcado)</p></td>
 </tr>
 <tr class="even">
-<td><p>Multivista</p></td>
-<td><p>Ver varias transmisiones desde una conferencia</p></td>
+<td><p>Vídeo</p></td>
+<td><p>Ver varias secuencias desde una conferencia</p></td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -78,25 +78,25 @@ La herramienta Lync Server 2013 stress and Performance (denominada LyncPerfTool)
 </table>
 
 
-La herramienta Lync Server 2013 stress and Performance admite la generación de carga entre grupos y la Federación solo a través de una configuración avanzada.
+La herramienta de esfuerzo y rendimiento de Lync Server 2013 admite la generación de carga entre grupos de servidores y la Federación solo a través de la configuración avanzada.
 
 La herramienta tampoco simula la carga de usuarios para los siguientes clientes:
 
   - Office Live Meeting 2007
 
-  - Lync 2013 chat persistente
+  - Chat persistente de Lync 2013
 
-Como resultado, la herramienta de rendimiento y estrés de Lync Server 2013 no admite la prueba de los siguientes componentes:
+Como resultado, la herramienta stress and performance de Lync Server 2013 no permitirá probar los siguientes componentes:
 
-  - Lync 2013 chat persistente
+  - Chat persistente de Lync 2013
 
   - Escenarios de integración de Exchange
 
 <div>
 
-## <a name="applications-and-files-included-with-the-lync-server-2013-stress-and-performance-tool"></a>Aplicaciones y archivos incluidos con la herramienta Lync Server 2013 stress and Performance
+## <a name="applications-and-files-included-with-the-lync-server-2013-stress-and-performance-tool"></a>Aplicaciones y archivos incluidos con la herramienta de esfuerzo y rendimiento de Lync Server 2013
 
-Las siguientes aplicaciones están incluidas en la herramienta Lync Server 2013 stress and Performance:
+Las siguientes aplicaciones se incluyen en la herramienta de esfuerzo y rendimiento de Lync Server 2013:
 
 
 <table>
@@ -106,7 +106,7 @@ Las siguientes aplicaciones están incluidas en la herramienta Lync Server 2013 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Utilidad</th>
+<th>Herramienta</th>
 <th>Descripción</th>
 </tr>
 </thead>
@@ -117,18 +117,18 @@ Las siguientes aplicaciones están incluidas en la herramienta Lync Server 2013 
 </tr>
 <tr class="even">
 <td><p>UserProfileGenerator. exe</p></td>
-<td><p>La herramienta de configuración de carga de Lync Server 2013. Esta herramienta se usa para configurar las características de la carga de usuarios para simular.</p></td>
+<td><p>Herramienta de configuración de carga de Lync Server 2013. Esta herramienta se usa para configurar las características de la carga de usuarios que se van a simular.</p></td>
 </tr>
 <tr class="odd">
 <td><p>LyncPerfTool. exe</p></td>
-<td><p>La herramienta Lync Server 2013 de estrés y rendimiento. LyncPerfTool es la herramienta que simula la carga de usuarios.</p></td>
+<td><p>La herramienta de esfuerzo y rendimiento de Lync Server 2013. LyncPerfTool es la herramienta que simula la carga de usuarios.</p></td>
 </tr>
 <tr class="even">
 <td><p>Default. TMX</p></td>
-<td><p>Default. TMX es necesario para usar la herramienta de registro de 2013 de Lync Server.</p></td>
+<td><p>El valor predeterminado. TMX es necesario para usar la herramienta de registro de Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Ejemplos de scripts de aprovisionamiento</p></td>
+<td><p>Scripts de aprovisionamiento de ejemplo</p></td>
 <td><p>Estos ejemplos se usan para configurar la topología para ejecutar pruebas de carga, en función de escenarios específicos.</p></td>
 </tr>
 </tbody>
