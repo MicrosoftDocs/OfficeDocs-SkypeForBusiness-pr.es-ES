@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar los valores para volver a enrutar el correo de voz'
+title: 'Lync Server 2013: configurar las opciones de redireccionamiento del correo de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4ea243e87490bcabd48c866cce525d6bbd17077
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5fa98050e026c90438b1df0811daa4b5235c9732
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733850"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048143"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-voice-mail-rerouting-settings-in-lync-server-2013"></a><span data-ttu-id="f9fd6-102">Configurar los valores para volver a enrutar el correo de voz en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f9fd6-102">Configure voice mail rerouting settings in Lync Server 2013</span></span>
+# <a name="configure-voice-mail-rerouting-settings-in-lync-server-2013"></a><span data-ttu-id="b6f36-102">Configurar la configuración de reenrutamiento del correo de voz en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b6f36-102">Configure voice mail rerouting settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41733850"
 
 <span> </span>
 
-<span data-ttu-id="f9fd6-103">_**Última modificación del tema:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="f9fd6-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="b6f36-103">_**Última modificación del tema:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="b6f36-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="f9fd6-104">Las aplicaciones de sucursales y los servidores de sucursales supervivientes pueden ofrecer una supervivencia en el correo de voz durante una interrupción de la WAN, si la mensajería unificada de Exchange se instala en el sitio central y se implementa un operador automático de mensajes de mensajería unificada de Exchange (AA).</span><span class="sxs-lookup"><span data-stu-id="f9fd6-104">Survivable Branch Appliances and Survivable Branch Servers can provide voice mail survivability for branch users during a WAN outage, if Exchange Unified Messaging (UM) is installed at the central site and an Exchange UM Message Auto Attendant (AA) is deployed.</span></span> <span data-ttu-id="f9fd6-105">Le recomendamos que el administrador de Exchange configure el AA para que acepte solo los mensajes, lo que deshabilita otras funciones genéricas, como la transferencia a un usuario o la transferencia a un operador.</span><span class="sxs-lookup"><span data-stu-id="f9fd6-105">We recommend that your Exchange administrator configure the AA to accept messages only, which disables other generic functionality, such as transfer to a user or transfer to an operator.</span></span> <span data-ttu-id="f9fd6-106">También puede usar un AA genérico o un AA personalizado para enrutar la llamada.</span><span class="sxs-lookup"><span data-stu-id="f9fd6-106">Alternatively, you might use a generic AA or an AA customized to route the call.</span></span>
+<span data-ttu-id="b6f36-104">Las aplicaciones de sucursal con funciones de supervivencia y los servidores de sucursal con funciones de supervivencia pueden proporcionar supervivencia de correo de voz para usuarios de sucursal durante una interrupción de la WAN, si la mensajería unificada (UM) de Exchange está instalada en el sitio central y se implementa un operador automático de mensajes de mensajería unificada (AA) de Exchange.</span><span class="sxs-lookup"><span data-stu-id="b6f36-104">Survivable Branch Appliances and Survivable Branch Servers can provide voice mail survivability for branch users during a WAN outage, if Exchange Unified Messaging (UM) is installed at the central site and an Exchange UM Message Auto Attendant (AA) is deployed.</span></span> <span data-ttu-id="b6f36-105">Recomendamos que su administrador de Exchange configure el Operador automático para que acepte solo mensajes, con lo cual se deshabilita el resto de la funcionalidad general como, por ejemplo, las transferencias a un usuario o a un operador.</span><span class="sxs-lookup"><span data-stu-id="b6f36-105">We recommend that your Exchange administrator configure the AA to accept messages only, which disables other generic functionality, such as transfer to a user or transfer to an operator.</span></span> <span data-ttu-id="b6f36-106">También puede usar un AA genérico o un AA personalizado para enrutar la llamada.</span><span class="sxs-lookup"><span data-stu-id="b6f36-106">Alternatively, you might use a generic AA or an AA customized to route the call.</span></span>
 
-<span data-ttu-id="f9fd6-107">Para obtener más información, consulte la sección "prepararse para la supervivencia del correo de voz" de los [requisitos de resistencia de sitios de sucursales para Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md) en la documentación de planeación.</span><span class="sxs-lookup"><span data-stu-id="f9fd6-107">For details, see the “Preparing for Voice Mail Survivability” section of [Branch-site resiliency requirements for Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md) in the Planning documentation.</span></span>
+<span data-ttu-id="b6f36-107">Para obtener más información, consulte la sección "preparación para la supervivencia del correo de voz" de [Branch-site Resiliency Requirements for Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md) en la documentación referente a la planeación.</span><span class="sxs-lookup"><span data-stu-id="b6f36-107">For details, see the “Preparing for Voice Mail Survivability” section of [Branch-site resiliency requirements for Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md) in the Planning documentation.</span></span>
 
 <div>
 
-## <a name="to-configure-voice-mail-survivability"></a><span data-ttu-id="f9fd6-108">Para configurar la supervivencia del correo de voz</span><span class="sxs-lookup"><span data-stu-id="f9fd6-108">To configure voice mail survivability</span></span>
+## <a name="to-configure-voice-mail-survivability"></a><span data-ttu-id="b6f36-108">Para configurar las funciones de supervivencia del correo de voz</span><span class="sxs-lookup"><span data-stu-id="b6f36-108">To configure voice mail survivability</span></span>
 
-1.  <span data-ttu-id="f9fd6-109">Pida a su administrador de Exchange que configure el AA para aceptar solo los mensajes (en el shell de Exchange use el cmdlet siguiente: **set-UMAutoAttendant \<AA nombre\> -CallSomeoneEnabled $false**.</span><span class="sxs-lookup"><span data-stu-id="f9fd6-109">Ask your Exchange administrator to configure the AA to accept messages only (in the Exchange Shell use the following cmdlet: **Set-UMAutoAttendant \<AA name\> -CallSomeoneEnabled $false**.</span></span> <span data-ttu-id="f9fd6-110">El parámetro que especifica que se permite dejar mensajes (*SendVoiceMsgEnabled*) es verdadero de forma predeterminada.</span><span class="sxs-lookup"><span data-stu-id="f9fd6-110">The parameter that specifies to allow leaving messages (*SendVoiceMsgEnabled*) is true by default.</span></span>
+1.  <span data-ttu-id="b6f36-109">Pida al administrador de Exchange que configure el AA para que acepte sólo mensajes (en el shell de Exchange, use el siguiente cmdlet: **set-UMAutoAttendant \<AA nombre\> -CallSomeoneEnabled $false**.</span><span class="sxs-lookup"><span data-stu-id="b6f36-109">Ask your Exchange administrator to configure the AA to accept messages only (in the Exchange Shell use the following cmdlet: **Set-UMAutoAttendant \<AA name\> -CallSomeoneEnabled $false**.</span></span> <span data-ttu-id="b6f36-110">El parámetro que especifica que se debe permitir dejar mensajes (*SendVoiceMsgEnabled*) es "true" de forma predeterminada.</span><span class="sxs-lookup"><span data-stu-id="b6f36-110">The parameter that specifies to allow leaving messages (*SendVoiceMsgEnabled*) is true by default.</span></span>
 
-2.  <span data-ttu-id="f9fd6-111">En el shell de administración de Lync Server, use el cmdlet **New-CSVoiceMailReroutingConfiguration** para establecer el número de teléfono AA como el número de teléfono del operador automático de mensajería unificada de Exchange en la configuración de redireccionamiento del correo de voz en la sucursal superviviente o en el servidor de sucursal superviviente.</span><span class="sxs-lookup"><span data-stu-id="f9fd6-111">In the Lync Server Management Shell, use the **New-CSVoiceMailReroutingConfiguration** cmdlet to set the AA phone number as the Exchange UM Auto Attendant phone number in the voice mail rerouting configuration on the Survivable Branch Appliance or Survivable Branch Server.</span></span>
+2.  <span data-ttu-id="b6f36-111">En el shell de administración de Lync Server, use el cmdlet **New-CSVoiceMailReroutingConfiguration** para establecer el número de teléfono AA como el número de teléfono del operador automático de mensajería unificada de Exchange en la configuración de reenrutamiento del correo de voz en la aplicación de sucursal con funciones de supervivencia o con el servidor de sucursal con funciones de supervivencia.</span><span class="sxs-lookup"><span data-stu-id="b6f36-111">In the Lync Server Management Shell, use the **New-CSVoiceMailReroutingConfiguration** cmdlet to set the AA phone number as the Exchange UM Auto Attendant phone number in the voice mail rerouting configuration on the Survivable Branch Appliance or Survivable Branch Server.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="f9fd6-112">Si más adelante necesita modificar la configuración de redireccionamiento del correo de voz, use el cmdlet <STRONG>set-CsVoiceMailReRoutingConfiguration</STRONG> para hacerlo.</span><span class="sxs-lookup"><span data-stu-id="f9fd6-112">If you need to modify the voice mail rerouting setting later, use the <STRONG>Set-CsVoiceMailReRoutingConfiguration</STRONG> cmdlet to do so.</span></span> <span data-ttu-id="f9fd6-113">Para obtener más información sobre <STRONG>New-</STRONG> and <STRONG>set-CSVoiceMailReroutingConfiguration</STRONG>, vaya a los temas de ayuda de Shell.</span><span class="sxs-lookup"><span data-stu-id="f9fd6-113">For details, about <STRONG>New-</STRONG> and <STRONG>Set-CSVoiceMailReroutingConfiguration</STRONG>, in the Shell Help topics.</span></span>
+    > <span data-ttu-id="b6f36-112">Si, más tarde, necesita modificar la configuración de reenrutamiento del correo de voz, use para ello el cmdlet <STRONG>Set-CsVoiceMailReRoutingConfiguration</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="b6f36-112">If you need to modify the voice mail rerouting setting later, use the <STRONG>Set-CsVoiceMailReRoutingConfiguration</STRONG> cmdlet to do so.</span></span> <span data-ttu-id="b6f36-113">Para ver más detalles acerca de <STRONG>New-</STRONG> y <STRONG>Set-CSVoiceMailReroutingConfiguration</STRONG>, consulte los temas de ayuda del shell.</span><span class="sxs-lookup"><span data-stu-id="b6f36-113">For details, about <STRONG>New-</STRONG> and <STRONG>Set-CSVoiceMailReroutingConfiguration</STRONG>, in the Shell Help topics.</span></span>
 
     
     </div>
 
-3.  <span data-ttu-id="f9fd6-114">Establezca el número de acceso de suscriptor de mensajería unificada de Exchange que corresponda al plan de marcado de mensajería unificada de Exchange del usuario de la sucursal como número de acceso de suscriptor de mensajería unificada de Exchange en la configuración de redireccionamiento del correo de voz en el equipo con la sucursal o el servidor de sucursal</span><span class="sxs-lookup"><span data-stu-id="f9fd6-114">Set the Exchange UM subscriber access number that corresponds to the branch user’s Exchange UM dial plan as the Exchange UM subscriber access number in the voice mail rerouting configuration on the Survivable Branch Appliance or Survivable Branch Server.</span></span>
+3.  <span data-ttu-id="b6f36-114">Establezca el número de acceso de suscriptor de mensajería unificada de Exchange que corresponda al plan de marcado de mensajería unificada de Exchange del usuario de sucursal como el número de acceso de suscriptor de mensajería unificada de Exchange en la configuración de reenrutamiento del correo de voz de la aplicación de sucursal con funciones de supervivencia o servidor de sucursal</span><span class="sxs-lookup"><span data-stu-id="b6f36-114">Set the Exchange UM subscriber access number that corresponds to the branch user’s Exchange UM dial plan as the Exchange UM subscriber access number in the voice mail rerouting configuration on the Survivable Branch Appliance or Survivable Branch Server.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="f9fd6-115">Configure el plan de marcado de los usuarios de mensajería unificada de Exchange de modo que solo haya un plan de marcado asociado con todos los usuarios de la sucursal que necesiten acceder a la funcionalidad obtener correo de voz durante una interrupción de WAN.</span><span class="sxs-lookup"><span data-stu-id="f9fd6-115">Configure the Exchange UM users’ dial plan so that there is only one dial plan associated with all branch users who need access to the Get Voice Mail functionality during a WAN outage.</span></span>
+    > <span data-ttu-id="b6f36-115">Configure el plan de marcado de los usuarios de mensajería unificada de Exchange para que solo haya un plan de marcado asociado a todos los usuarios de la sucursal que necesiten tener acceso a la funcionalidad obtener correo de voz durante una interrupción de la WAN.</span><span class="sxs-lookup"><span data-stu-id="b6f36-115">Configure the Exchange UM users’ dial plan so that there is only one dial plan associated with all branch users who need access to the Get Voice Mail functionality during a WAN outage.</span></span>
 
     
     </div>
 
-<span data-ttu-id="f9fd6-116">**Paso siguiente** para los equipos de sucursales que sean revivientes o los servidores de sucursal supervivientes: [usuarios domésticos en un dispositivo o servidor de sucursal con la supervivencia en Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).</span><span class="sxs-lookup"><span data-stu-id="f9fd6-116">**Next step** for Survivable Branch Appliances or Survivable Branch Servers: [Home users on a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).</span></span>
+<span data-ttu-id="b6f36-116">**Paso siguiente** para las aplicaciones de sucursal con funciones de supervivencia o servidores de sucursal con funciones de supervivencia: [usuarios particulares en una aplicación o un servidor de sucursal con funciones de supervivencia en Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).</span><span class="sxs-lookup"><span data-stu-id="b6f36-116">**Next step** for Survivable Branch Appliances or Survivable Branch Servers: [Home users on a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).</span></span>
 
 </div>
 

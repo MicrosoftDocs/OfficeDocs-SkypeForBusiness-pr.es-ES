@@ -12,20 +12,20 @@ ms:contentKeyID: 48185915
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20a28df76c87df01ab39e3c3113c3c4beaa09347
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e405ef520af5533f89475eeaf53d2fd35eaad87
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729450"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049362"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-clients-and-devices-in-lync-server-2013"></a><span data-ttu-id="5cc2f-102">Implementación de clientes y dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5cc2f-102">Deploying clients and devices in Lync Server 2013</span></span>
+# <a name="deploying-clients-and-devices-in-lync-server-2013"></a><span data-ttu-id="e5c44-102">Implementación de clientes y dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5c44-102">Deploying clients and devices in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41729450"
 
 <span> </span>
 
-<span data-ttu-id="5cc2f-103">_**Última modificación del tema:** 2015-04-03_</span><span class="sxs-lookup"><span data-stu-id="5cc2f-103">_**Topic Last Modified:** 2015-04-03_</span></span>
+<span data-ttu-id="e5c44-103">_**Última modificación del tema:** 2015-04-03_</span><span class="sxs-lookup"><span data-stu-id="e5c44-103">_**Topic Last Modified:** 2015-04-03_</span></span>
 
-<span data-ttu-id="5cc2f-104">En esta sección se describen los procedimientos para implementar clientes y dispositivos de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5cc2f-104">This section outlines the procedures for deploying Lync Server 2013 clients and devices.</span></span>
+<span data-ttu-id="e5c44-104">En esta sección se describen los procedimientos para implementar clientes y dispositivos de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e5c44-104">This section outlines the procedures for deploying Lync Server 2013 clients and devices.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="5cc2f-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="5cc2f-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e5c44-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="e5c44-105">In This Section</span></span>
 
-  - [<span data-ttu-id="5cc2f-106">Implementar clientes de Lync en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5cc2f-106">Deploying Lync clients in Lync Server 2013</span></span>](lync-server-2013-deploying-lync-clients.md)
+  - [<span data-ttu-id="e5c44-106">Implementar clientes de Lync en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5c44-106">Deploying Lync clients in Lync Server 2013</span></span>](lync-server-2013-deploying-lync-clients.md)
 
-  - [<span data-ttu-id="5cc2f-107">Configure the client experience with Skype for Business</span><span class="sxs-lookup"><span data-stu-id="5cc2f-107">Configure the client experience with Skype for Business</span></span>](configure-the-skype-for-business-client-in-lync-server-2013.md)
+  - [<span data-ttu-id="e5c44-107">Configurar la experiencia de cliente con Skype empresarial</span><span class="sxs-lookup"><span data-stu-id="e5c44-107">Configure the client experience with Skype for Business</span></span>](configure-the-skype-for-business-client-in-lync-server-2013.md)
 
-  - [<span data-ttu-id="5cc2f-108">Implementación del complemento VDI de Lync en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5cc2f-108">Deploying the Lync VDI plug-in in Lync Server 2013</span></span>](lync-server-2013-deploying-the-lync-vdi-plug-in.md)
+  - [<span data-ttu-id="e5c44-108">Implementación del complemento Lync VDI en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5c44-108">Deploying the Lync VDI plug-in in Lync Server 2013</span></span>](lync-server-2013-deploying-the-lync-vdi-plug-in.md)
 
-  - [<span data-ttu-id="5cc2f-109">Implementar Lync Web App en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5cc2f-109">Deploying Lync Web App in Lync Server 2013</span></span>](lync-server-2013-deploying-lync-web-app.md)
+  - [<span data-ttu-id="e5c44-109">Implementación de Lync Web App en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5c44-109">Deploying Lync Web App in Lync Server 2013</span></span>](lync-server-2013-deploying-lync-web-app.md)
 
-  - [<span data-ttu-id="5cc2f-110">Implementación de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5cc2f-110">Deploying devices in Lync Server 2013</span></span>](lync-server-2013-deploying-devices.md)
+  - [<span data-ttu-id="e5c44-110">Implementación de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5c44-110">Deploying devices in Lync Server 2013</span></span>](lync-server-2013-deploying-devices.md)
 
-  - [<span data-ttu-id="5cc2f-111">Implementación de clientes móviles en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5cc2f-111">Deploying mobile clients in Lync Server 2013</span></span>](lync-server-2013-deploying-mobile-clients.md)
+  - [<span data-ttu-id="e5c44-111">Implementación de clientes móviles en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5c44-111">Deploying mobile clients in Lync Server 2013</span></span>](lync-server-2013-deploying-mobile-clients.md)
 
-  - [<span data-ttu-id="5cc2f-112">Implementación de la aplicación de la tienda Windows de Lync en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5cc2f-112">Deploying Lync Windows Store app in Lync Server 2013</span></span>](lync-server-2013-deploying-lync-windows-store-app.md)
+  - [<span data-ttu-id="e5c44-112">Implementación de la aplicación Lync de la tienda Windows en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5c44-112">Deploying Lync Windows Store app in Lync Server 2013</span></span>](lync-server-2013-deploying-lync-windows-store-app.md)
 
  </div>
 

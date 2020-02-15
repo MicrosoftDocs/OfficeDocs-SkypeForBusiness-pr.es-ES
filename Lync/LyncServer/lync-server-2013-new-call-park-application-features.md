@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Nuevas características de aplicación de estacionamiento de llamadas'
+title: 'Lync Server 2013: nuevas características de aplicación de estacionamiento de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185277
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed681497eee3033ea18cdac0487257f02052491c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38053645858c2fcec52f94259485184801236240
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765811"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049992"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-call-park-application-features-in-lync-server-2013"></a><span data-ttu-id="9aa7e-102">Nuevas características de aplicación de estacionamiento de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9aa7e-102">New Call Park application features in Lync Server 2013</span></span>
+# <a name="new-call-park-application-features-in-lync-server-2013"></a><span data-ttu-id="85c33-102">Nuevas características de aplicación de estacionamiento de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="85c33-102">New Call Park application features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "41765811"
 
 <span> </span>
 
-<span data-ttu-id="9aa7e-103">_**Última modificación del tema:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="9aa7e-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="85c33-103">_**Última modificación del tema:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="85c33-103">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="9aa7e-104">La aplicación de estacionamiento de llamadas permite a los usuarios de telefonía IP poner una llamada en espera y, a continuación, recuperarla más tarde desde cualquier teléfono.</span><span class="sxs-lookup"><span data-stu-id="9aa7e-104">The Call Park application makes it possible for Enterprise Voice users to put a call on hold and then retrieve it later from any phone.</span></span> <span data-ttu-id="9aa7e-105">El usuario que ha aparcado la llamada puede marcar el número de órbita que proporciona la llamada a Park para recuperar la llamada estacionada o usar un mecanismo externo, como la mensajería instantánea (mi) o un sistema de paginación, para pedir a otra persona que recupere la llamada.</span><span class="sxs-lookup"><span data-stu-id="9aa7e-105">The user who parked the call can either dial the orbit number provided by Call Park to retrieve the parked call or use an external mechanism, such as instant messaging (IM) or a paging system, to ask someone else to retrieve the call.</span></span>
+<span data-ttu-id="85c33-104">La aplicación de estacionamiento de llamadas permite a los usuarios de Enterprise Voice poner una llamada en espera y, a continuación, recuperarla más adelante desde cualquier teléfono.</span><span class="sxs-lookup"><span data-stu-id="85c33-104">The Call Park application makes it possible for Enterprise Voice users to put a call on hold and then retrieve it later from any phone.</span></span> <span data-ttu-id="85c33-105">El usuario que ha estacionado la llamada puede marcar el número de órbita que proporciona el parque de llamadas para recuperar la llamada estacionada o usar un mecanismo externo, como la mensajería instantánea (mi) o un sistema de paginación, para pedir a otra persona que recupere la llamada.</span><span class="sxs-lookup"><span data-stu-id="85c33-105">The user who parked the call can either dial the orbit number provided by Call Park to retrieve the parked call or use an external mechanism, such as instant messaging (IM) or a paging system, to ask someone else to retrieve the call.</span></span>
 
-<span data-ttu-id="9aa7e-106">Lync Server 2013 proporciona nuevos mecanismos de recuperación ante desastres en forma de procesos de conmutación por error y conmutación por recuperación.</span><span class="sxs-lookup"><span data-stu-id="9aa7e-106">Lync Server 2013 provides new disaster recovery mechanisms in the form of failover and failback processes.</span></span> <span data-ttu-id="9aa7e-107">Estos procesos de conmutación por error y conmutación por recuperación admiten la recuperación de la funcionalidad de estacionamiento de llamadas al permitir que los usuarios alojados en el grupo primario aprovechen la aplicación de estacionamiento de llamadas del grupo de copias de seguridad cuando se produce una interrupción en el grupo primario.</span><span class="sxs-lookup"><span data-stu-id="9aa7e-107">These failover and failback processes support recovery of Call Park functionality by allowing users who are homed in the primary pool to leverage the Call Park application of the backup pool when an outage occurs in the primary pool.</span></span> <span data-ttu-id="9aa7e-108">La compatibilidad con la recuperación ante desastres de la aplicación de estacionamiento de llamadas está habilitada como parte de la configuración e implementación de las agrupaciones frontales emparejadas.</span><span class="sxs-lookup"><span data-stu-id="9aa7e-108">Support for disaster recovery of the Call Park application is enabled as part of the configuration and deployment of paired Front End pools.</span></span>
+<span data-ttu-id="85c33-106">Lync Server 2013 proporciona nuevos mecanismos de recuperación ante desastres en forma de procesos de conmutación por error y conmutación por recuperación.</span><span class="sxs-lookup"><span data-stu-id="85c33-106">Lync Server 2013 provides new disaster recovery mechanisms in the form of failover and failback processes.</span></span> <span data-ttu-id="85c33-107">Estos procesos de conmutación por error y conmutación por recuperación admiten la recuperación de la funcionalidad de estacionamiento de llamadas al permitir a los usuarios hospedados en el grupo principal aprovechar la aplicación de estacionamiento de llamadas del grupo de copia de seguridad cuando se produce una interrupción en el grupo principal.</span><span class="sxs-lookup"><span data-stu-id="85c33-107">These failover and failback processes support recovery of Call Park functionality by allowing users who are homed in the primary pool to leverage the Call Park application of the backup pool when an outage occurs in the primary pool.</span></span> <span data-ttu-id="85c33-108">La compatibilidad con la recuperación ante desastres de la aplicación de estacionamiento de llamadas está habilitada como parte de la configuración y la implementación de grupos de servidores front-end emparejados.</span><span class="sxs-lookup"><span data-stu-id="85c33-108">Support for disaster recovery of the Call Park application is enabled as part of the configuration and deployment of paired Front End pools.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9aa7e-109">Vea también</span><span class="sxs-lookup"><span data-stu-id="9aa7e-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="85c33-109">Vea también</span><span class="sxs-lookup"><span data-stu-id="85c33-109">See Also</span></span>
 
 
-[<span data-ttu-id="9aa7e-110">Planear el estacionamiento de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9aa7e-110">Planning for Call Park in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-park.md)  
+[<span data-ttu-id="85c33-110">Planeación del estacionamiento de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="85c33-110">Planning for Call Park in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-park.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planificar para grupos de respuesta'
+title: 'Lync Server 2013: Planeación de grupos de respuesta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 087c6fa4518f90fdfca6b752386e0eed3b5162bb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a627da511dcaf82512e2fd41f9cb434ab4d476c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725200"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050632"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-response-groups-in-lync-server-2013"></a><span data-ttu-id="3496b-102">Planificar para grupos de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3496b-102">Planning for response groups in Lync Server 2013</span></span>
+# <a name="planning-for-response-groups-in-lync-server-2013"></a><span data-ttu-id="c14a2-102">Planeación de grupos de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c14a2-102">Planning for response groups in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41725200"
 
 <span> </span>
 
-<span data-ttu-id="3496b-103">_**Última modificación del tema:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="3496b-103">_**Topic Last Modified:** 2012-06-19_</span></span>
+<span data-ttu-id="c14a2-103">_**Última modificación del tema:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="c14a2-103">_**Topic Last Modified:** 2012-06-19_</span></span>
 
-<span data-ttu-id="3496b-104">Si su organización tiene grupos de personas que responden y administran determinados tipos de llamadas, como el servicio de atención al cliente, un departamento de soporte técnico interno o un soporte técnico telefónico general para un departamento, puede implementar la aplicación de grupo de respuesta de Lync Server para administrar estos tipos de llamadas.</span><span class="sxs-lookup"><span data-stu-id="3496b-104">If your organization has groups of people who answer and manage certain types of calls, such as for customer service, an internal help desk, or general telephone support for a department, you can deploy the Lync Server Response Group application to manage these types of calls.</span></span> <span data-ttu-id="3496b-105">La aplicación de grupo de respuesta dirige y pone en cola las llamadas entrantes a personas designadas, que reciben el nombre de agentes.</span><span class="sxs-lookup"><span data-stu-id="3496b-105">The Response Group application routes and queues incoming calls to designated persons, who are known as agents.</span></span> <span data-ttu-id="3496b-106">Puedes aumentar el uso de los servicios de asistencia telefónica y reducir la sobrecarga de ejecutar dichos servicios con un grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="3496b-106">You can increase the use of telephone support services and reduce the overhead of running these services by using response groups.</span></span> <span data-ttu-id="3496b-107">En esta sección se describen las consideraciones de planeación para el grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="3496b-107">This section describes planning considerations for Response Group.</span></span>
+<span data-ttu-id="c14a2-104">Si su organización tiene grupos de personas que responden y administran determinados tipos de llamadas, como el servicio de atención al cliente, una asistencia técnica interna o el soporte técnico telefónico general de un departamento, puede implementar la aplicación del grupo de respuesta de Lync Server para administrar estos tipos. de llamadas.</span><span class="sxs-lookup"><span data-stu-id="c14a2-104">If your organization has groups of people who answer and manage certain types of calls, such as for customer service, an internal help desk, or general telephone support for a department, you can deploy the Lync Server Response Group application to manage these types of calls.</span></span> <span data-ttu-id="c14a2-105">La aplicación de grupo de respuesta dirige y pone en cola llamadas entrantes para personas designadas, conocidas como agentes.</span><span class="sxs-lookup"><span data-stu-id="c14a2-105">The Response Group application routes and queues incoming calls to designated persons, who are known as agents.</span></span> <span data-ttu-id="c14a2-106">Puede aumentar el uso de los servicios de asistencia telefónica y reducir los gastos de estos servicios por medio de estos grupos de respuesta.</span><span class="sxs-lookup"><span data-stu-id="c14a2-106">You can increase the use of telephone support services and reduce the overhead of running these services by using response groups.</span></span> <span data-ttu-id="c14a2-107">En esta sección se describen las consideraciones de planeación para el grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="c14a2-107">This section describes planning considerations for Response Group.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="3496b-108">En esta sección</span><span class="sxs-lookup"><span data-stu-id="3496b-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c14a2-108">En esta sección</span><span class="sxs-lookup"><span data-stu-id="c14a2-108">In This Section</span></span>
 
-  - [<span data-ttu-id="3496b-109">Información general de la aplicación de grupo de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3496b-109">Overview of the Response Group application in Lync Server 2013</span></span>](lync-server-2013-overview-of-the-response-group-application.md)
+  - [<span data-ttu-id="c14a2-109">Información general sobre la aplicación grupo de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c14a2-109">Overview of the Response Group application in Lync Server 2013</span></span>](lync-server-2013-overview-of-the-response-group-application.md)
 
-  - [<span data-ttu-id="3496b-110">Componentes usados por el grupo de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3496b-110">Components used by Response Group in Lync Server 2013</span></span>](lync-server-2013-components-used-by-response-group.md)
+  - [<span data-ttu-id="c14a2-110">Componentes usados por el grupo de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c14a2-110">Components used by Response Group in Lync Server 2013</span></span>](lync-server-2013-components-used-by-response-group.md)
 
-  - [<span data-ttu-id="3496b-111">Requisitos técnicos para grupos de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3496b-111">Technical requirements for Response Group in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-response-group.md)
+  - [<span data-ttu-id="c14a2-111">Requisitos técnicos para el grupo de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c14a2-111">Technical requirements for Response Group in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-response-group.md)
 
-  - [<span data-ttu-id="3496b-112">Clientes compatibles con el grupo de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3496b-112">Clients supported for Response Group in Lync Server 2013</span></span>](lync-server-2013-clients-supported-for-response-group.md)
+  - [<span data-ttu-id="c14a2-112">Clientes compatibles con el grupo de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c14a2-112">Clients supported for Response Group in Lync Server 2013</span></span>](lync-server-2013-clients-supported-for-response-group.md)
 
-  - [<span data-ttu-id="3496b-113">Planificar la capacidad para el grupo de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3496b-113">Capacity planning for Response Group in Lync Server 2013</span></span>](lync-server-2013-capacity-planning-for-response-group.md)
+  - [<span data-ttu-id="c14a2-113">Planeación de la capacidad para el grupo de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c14a2-113">Capacity planning for Response Group in Lync Server 2013</span></span>](lync-server-2013-capacity-planning-for-response-group.md)
 
-  - [<span data-ttu-id="3496b-114">Proceso de implementación para un grupo de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3496b-114">Deployment process for Response Group in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-response-group.md)
+  - [<span data-ttu-id="c14a2-114">Proceso de implementación del grupo de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c14a2-114">Deployment process for Response Group in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-response-group.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: crear o modificar un intervalo de números de recogida de llamadas grupales'
+title: 'Lync Server 2013: crear o modificar un intervalo de números de llamada de llamada de grupo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5a644cb6008976894c88de570aa9cb6530e10c3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dd323e609a811a9735c966645c5176fb8784bb4c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758074"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048921"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a><span data-ttu-id="5fbb2-102">Create or modify a Group Call Pickup number range in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5fbb2-102">Create or modify a Group Call Pickup number range in Lync Server 2013</span></span>
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a><span data-ttu-id="9005e-102">Crear o modificar un intervalo de números de atención de llamadas grupales en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9005e-102">Create or modify a Group Call Pickup number range in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758074"
 
 <span> </span>
 
-<span data-ttu-id="5fbb2-103">_**Última modificación del tema:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="5fbb2-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="9005e-103">_**Última modificación del tema:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="9005e-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="5fbb2-104">Use el siguiente procedimiento para crear o modificar un intervalo de números del grupo de atención de llamadas en la tabla de órbitas de estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="5fbb2-104">Use the following procedure to create or modify a call pickup group number range in the call park orbit table.</span></span>
+<span data-ttu-id="9005e-104">Use el siguiente procedimiento para crear o modificar un intervalo de números del grupo de atención de llamadas en la tabla de órbitas de estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="9005e-104">Use the following procedure to create or modify a call pickup group number range in the call park orbit table.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="5fbb2-105">Debe usar el shell de administración de Lync Server para crear, modificar, quitar y ver los intervalos de números de recogida de llamadas grupales en la tabla de llamadas en órbita de estacionamiento.</span><span class="sxs-lookup"><span data-stu-id="5fbb2-105">You must use Lync Server Management Shell to create, modify, remove, and view Group Call Pickup number ranges in the call park orbit table.</span></span> <span data-ttu-id="5fbb2-106">Los intervalos de números de recogida de llamadas grupales no están disponibles en el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="5fbb2-106">Group Call Pickup number ranges are not available in Lync Server Control Panel.</span></span>
+> <span data-ttu-id="9005e-105">Debe usar el shell de administración de Lync Server para crear, modificar, quitar y ver intervalos de números de llamada de llamadas de grupo en la tabla de órbitas de estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="9005e-105">You must use Lync Server Management Shell to create, modify, remove, and view Group Call Pickup number ranges in the call park orbit table.</span></span> <span data-ttu-id="9005e-106">Los intervalos de números de llamada de grupo no están disponibles en el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="9005e-106">Group Call Pickup number ranges are not available in Lync Server Control Panel.</span></span>
 
 
 
@@ -53,43 +53,43 @@ ms.locfileid: "41758074"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="5fbb2-107">El intervalo de números del grupo de recogida de llamadas debe asignarse a un tipo de GroupPickup.</span><span class="sxs-lookup"><span data-stu-id="5fbb2-107">The call pickup group number range must be assigned a type of GroupPickup.</span></span> <span data-ttu-id="5fbb2-108">Los usuarios solo tienen habilitada la recogida de llamadas de grupo si el número de grupo asignado es de tipo GroupPickup.</span><span class="sxs-lookup"><span data-stu-id="5fbb2-108">Users are enabled for Group Call Pickup only if the group number that they are assigned is type GroupPickup.</span></span>
+> <span data-ttu-id="9005e-107">El intervalo de números del grupo de atención a llamadas debe asignarse a un tipo de GroupPickup.</span><span class="sxs-lookup"><span data-stu-id="9005e-107">The call pickup group number range must be assigned a type of GroupPickup.</span></span> <span data-ttu-id="9005e-108">Los usuarios solo están habilitados para la recogida de llamadas de grupo si el número de grupo al que se asignan es de tipo GroupPickup.</span><span class="sxs-lookup"><span data-stu-id="9005e-108">Users are enabled for Group Call Pickup only if the group number that they are assigned is type GroupPickup.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="5fbb2-109">Los intervalos de números del grupo de atención de llamadas deben cumplir con las siguientes reglas:</span><span class="sxs-lookup"><span data-stu-id="5fbb2-109">The call pickup group number ranges must comply with the following rules:</span></span>
+<span data-ttu-id="9005e-109">Los intervalos de números del grupo de recogida de llamadas deben cumplir con las siguientes reglas:</span><span class="sxs-lookup"><span data-stu-id="9005e-109">The call pickup group number ranges must comply with the following rules:</span></span>
 
-  - <span data-ttu-id="5fbb2-110">El número inicial del intervalo debe ser menor o igual al número final.</span><span class="sxs-lookup"><span data-stu-id="5fbb2-110">The beginning number of the range must be less than or equal to the ending number of the range.</span></span>
+  - <span data-ttu-id="9005e-110">El número inicial del intervalo debe ser menor o igual al número final del intervalo.</span><span class="sxs-lookup"><span data-stu-id="9005e-110">The beginning number of the range must be less than or equal to the ending number of the range.</span></span>
 
-  - <span data-ttu-id="5fbb2-111">El valor del número inicial del intervalo debe tener la misma longitud que el número final.</span><span class="sxs-lookup"><span data-stu-id="5fbb2-111">The value of the beginning number of the range must be the same length as the ending number of the range.</span></span>
+  - <span data-ttu-id="9005e-111">El valor del número inicial del intervalo debe tener la misma longitud que el número final del intervalo.</span><span class="sxs-lookup"><span data-stu-id="9005e-111">The value of the beginning number of the range must be the same length as the ending number of the range.</span></span>
 
-  - <span data-ttu-id="5fbb2-p103">El intervalo de números debe ser único. Este intervalo no se puede superponer a ningún otro.</span><span class="sxs-lookup"><span data-stu-id="5fbb2-p103">The number range must be unique. This range cannot overlap with any other range.</span></span>
+  - <span data-ttu-id="9005e-p103">El intervalo numérico debe ser único. Este intervalo no se puede superponer con ningún otro.</span><span class="sxs-lookup"><span data-stu-id="9005e-p103">The number range must be unique. This range cannot overlap with any other range.</span></span>
 
-  - <span data-ttu-id="5fbb2-114">Si el intervalo de números comienza con el \* carácter \#o, el intervalo debe ser mayor que 100.</span><span class="sxs-lookup"><span data-stu-id="5fbb2-114">If the number range begins with the character \* or \#, the range must be greater than 100.</span></span>
+  - <span data-ttu-id="9005e-114">Si el intervalo de números comienza por el \* carácter \#o, el intervalo debe ser mayor que 100.</span><span class="sxs-lookup"><span data-stu-id="9005e-114">If the number range begins with the character \* or \#, the range must be greater than 100.</span></span>
 
-  - <span data-ttu-id="5fbb2-115">Valores válidos: deben coincidir con la cadena\[\\\*|\#\]de\[ expresión regular (? 1-9\]\\d{0,7}) | (\[1-9\]\\d{0,8}).</span><span class="sxs-lookup"><span data-stu-id="5fbb2-115">Valid values: Must match the regular expression string (\[\\\*|\#\]?\[1-9\]\\d{0,7})|(\[1-9\]\\d{0,8}).</span></span> <span data-ttu-id="5fbb2-116">Esto significa que el valor debe ser una cadena que comienza con el \* carácter \# o o un número 1 a 9 (el primer carácter no puede ser un cero).</span><span class="sxs-lookup"><span data-stu-id="5fbb2-116">This means the value must be a string beginning with either the character \* or \# or a number 1 through 9 (the first character cannot be a zero).</span></span> <span data-ttu-id="5fbb2-117">Si el primer carácter es \* o \#, el siguiente carácter debe ser un número del 1 al 9 (no puede ser un cero).</span><span class="sxs-lookup"><span data-stu-id="5fbb2-117">If the first character is \* or \#, the following character must be a number 1 through 9 (it cannot be a zero).</span></span> <span data-ttu-id="5fbb2-118">Los siguientes caracteres pueden ser del 0 al 9 hasta siete caracteres adicionales (por ejemplo, "\#6000", "\*92000", "\*95551212" y "915551212").</span><span class="sxs-lookup"><span data-stu-id="5fbb2-118">Subsequent characters can be any number 0 through 9 up to seven additional characters (for example, "\#6000", "\*92000", "\*95551212", and "915551212").</span></span> <span data-ttu-id="5fbb2-119">Si el primer carácter no \* es o \#, el primer carácter debe ser un número del 1 al 9 (no puede ser cero), seguido de hasta ocho caracteres, cada uno con un número del 0 al 9 (por ejemplo, "915551212", "41212", "300").</span><span class="sxs-lookup"><span data-stu-id="5fbb2-119">If the first character is not \* or \#, the first character must be a number 1 through 9 (it cannot be zero), followed by up to eight characters, each a number 0 through 9 (for example, "915551212", "41212", "300").</span></span>
+  - <span data-ttu-id="9005e-115">Valores válidos: deben coincidir con la cadena\[\\\*|\#\]de\[ expresión regular (? 1-9\]\\d{0,7}) | (\[1-9\]\\d{0,8}).</span><span class="sxs-lookup"><span data-stu-id="9005e-115">Valid values: Must match the regular expression string (\[\\\*|\#\]?\[1-9\]\\d{0,7})|(\[1-9\]\\d{0,8}).</span></span> <span data-ttu-id="9005e-116">Esto significa que el valor debe ser una cadena que comience por el \* carácter \# o o un número del 1 al 9 (el primer carácter no puede ser un cero).</span><span class="sxs-lookup"><span data-stu-id="9005e-116">This means the value must be a string beginning with either the character \* or \# or a number 1 through 9 (the first character cannot be a zero).</span></span> <span data-ttu-id="9005e-117">Si el primer carácter es \* o \#, el siguiente carácter debe ser un número del 1 al 9 (no puede ser un cero).</span><span class="sxs-lookup"><span data-stu-id="9005e-117">If the first character is \* or \#, the following character must be a number 1 through 9 (it cannot be a zero).</span></span> <span data-ttu-id="9005e-118">Los siguientes caracteres pueden ser cualquier número del 0 al 9, hasta un máximo de siete caracteres adicionales\#(por ejemplo,\*"6000",\*"92000", "95551212" y "915551212").</span><span class="sxs-lookup"><span data-stu-id="9005e-118">Subsequent characters can be any number 0 through 9 up to seven additional characters (for example, "\#6000", "\*92000", "\*95551212", and "915551212").</span></span> <span data-ttu-id="9005e-119">Si el primer carácter no \* es o \#, el primer carácter debe ser un número del 1 al 9 (no puede ser cero), seguido de hasta ocho caracteres, cada uno de los números del 0 al 9 (por ejemplo, "915551212", "41212", "300").</span><span class="sxs-lookup"><span data-stu-id="9005e-119">If the first character is not \* or \#, the first character must be a number 1 through 9 (it cannot be zero), followed by up to eight characters, each a number 0 through 9 (for example, "915551212", "41212", "300").</span></span>
 
 <div>
 
-## <a name="to-create-or-modify-a-call-pickup-group-range"></a><span data-ttu-id="5fbb2-120">Para crear o modificar un intervalo del grupo de atención de llamadas</span><span class="sxs-lookup"><span data-stu-id="5fbb2-120">To create or modify a call pickup group range</span></span>
+## <a name="to-create-or-modify-a-call-pickup-group-range"></a><span data-ttu-id="9005e-120">Para crear o modificar un intervalo de grupo de recogida de llamadas</span><span class="sxs-lookup"><span data-stu-id="9005e-120">To create or modify a call pickup group range</span></span>
 
-1.  <span data-ttu-id="5fbb2-121">Inicie sesión en el equipo donde está instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [permisos de configuración de delegado en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="5fbb2-121">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="9005e-121">Inicie sesión en el equipo donde esté instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="9005e-121">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="5fbb2-122">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="5fbb2-122">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="9005e-122">Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="9005e-122">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="5fbb2-123">Use **New-CsCallParkOrbit** para crear un nuevo intervalo de números del grupo de atención de llamadas.</span><span class="sxs-lookup"><span data-stu-id="5fbb2-123">Use **New-CsCallParkOrbit** to create a new range of call pickup group numbers.</span></span> <span data-ttu-id="5fbb2-124">Use **Set-CsCallParkOrbit** para modificar un intervalo de números del grupo de atención de llamadas existente.</span><span class="sxs-lookup"><span data-stu-id="5fbb2-124">Use **Set-CsCallParkOrbit** to modify an existing range of call pickup numbers.</span></span>
+3.  <span data-ttu-id="9005e-123">Use **New-CsCallParkOrbit** para crear un nuevo intervalo de números de grupo de recogida de llamadas.</span><span class="sxs-lookup"><span data-stu-id="9005e-123">Use **New-CsCallParkOrbit** to create a new range of call pickup group numbers.</span></span> <span data-ttu-id="9005e-124">Use **set-CsCallParkOrbit** para modificar un intervalo existente de números de atención de llamadas.</span><span class="sxs-lookup"><span data-stu-id="9005e-124">Use **Set-CsCallParkOrbit** to modify an existing range of call pickup numbers.</span></span>
     
-    <span data-ttu-id="5fbb2-125">En la línea de comandos, ejecute:</span><span class="sxs-lookup"><span data-stu-id="5fbb2-125">At the command line, run:</span></span>
+    <span data-ttu-id="9005e-125">En la línea de comandos, ejecute:</span><span class="sxs-lookup"><span data-stu-id="9005e-125">At the command line, run:</span></span>
     
         New-CsCallParkOrbit -Identity <name of call pickup group range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -CallParkService <FQDN or service ID of the Application service that hosts the Call Park application> -Type GroupPickup
     
-    <span data-ttu-id="5fbb2-126">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="5fbb2-126">For example:</span></span>
+    <span data-ttu-id="9005e-126">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="9005e-126">For example:</span></span>
     
         New-CsCallParkOrbit -Identity "Redmond call pickup" -NumberRangeStart 100 -NumberRangeEnd 199 -CallParkService redmond-applicationserver-1 -Type GroupPickup
     
-    <span data-ttu-id="5fbb2-127">En el siguiente ejemplo, se muestra cómo modificar un intervalo de números de órbitas de estacionamiento de llamadas a grupos de atención de llamadas.</span><span class="sxs-lookup"><span data-stu-id="5fbb2-127">The following example shows how to change a range of numbers from call park orbits to call pickup groups.</span></span>
+    <span data-ttu-id="9005e-127">En el ejemplo siguiente se muestra cómo cambiar un intervalo de números de las órbitas de estacionamiento de llamadas a grupos de RECALL.</span><span class="sxs-lookup"><span data-stu-id="9005e-127">The following example shows how to change a range of numbers from call park orbits to call pickup groups.</span></span>
     
         Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
     
@@ -97,7 +97,7 @@ ms.locfileid: "41758074"
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="5fbb2-128">Use este cmdlet para cambiar el tipo asignado a los intervalos de números únicamente si especificó el tipo incorrecto y el intervalo de números aún no se encuentra en uso.</span><span class="sxs-lookup"><span data-stu-id="5fbb2-128">Use this cmdlet to change the type assigned to number ranges only if you initially specified the incorrect type and the group range is not yet in use.</span></span> <span data-ttu-id="5fbb2-129">Si cambia el intervalo de números de CallPark a GroupPickup, o viceversa, y este ya se encuentra en uso, el estacionamiento de llamadas o la atención de llamadas grupales dejará de funcionar para ese intervalo de números.</span><span class="sxs-lookup"><span data-stu-id="5fbb2-129">If you change the number range from CallPark to GroupPickup or vice versa and the number range is already in use, either Call Park or Group Call Pickup will stop working for that number range.</span></span> <span data-ttu-id="5fbb2-130">Por ejemplo, si cambia un intervalo de números de CallPark a GroupPick, la aplicación estacionamiento de llamadas ya no podrá usar ese rango de órbitas para detener llamadas.</span><span class="sxs-lookup"><span data-stu-id="5fbb2-130">For example, if you change a number range from CallPark to GroupPick, the Call Park application can no longer use that range of orbits to park calls.</span></span>
+    > <span data-ttu-id="9005e-128">Use este cmdlet para cambiar el tipo asignado a los intervalos de números solo si especificó inicialmente el tipo incorrecto y el intervalo de grupo todavía no está en uso.</span><span class="sxs-lookup"><span data-stu-id="9005e-128">Use this cmdlet to change the type assigned to number ranges only if you initially specified the incorrect type and the group range is not yet in use.</span></span> <span data-ttu-id="9005e-129">Si cambia el intervalo de números de CallPark a GroupPickup o viceversa y el intervalo de números ya está en uso, ya no podrá trabajar para ese intervalo de llamadas.</span><span class="sxs-lookup"><span data-stu-id="9005e-129">If you change the number range from CallPark to GroupPickup or vice versa and the number range is already in use, either Call Park or Group Call Pickup will stop working for that number range.</span></span> <span data-ttu-id="9005e-130">Por ejemplo, si cambia un intervalo de números de CallPark a GroupPick, la aplicación estacionamiento de llamadas ya no podrá usar ese intervalo de órbitas para estacionar llamadas.</span><span class="sxs-lookup"><span data-stu-id="9005e-130">For example, if you change a number range from CallPark to GroupPick, the Call Park application can no longer use that range of orbits to park calls.</span></span>
 
     
     </div>
@@ -106,14 +106,14 @@ ms.locfileid: "41758074"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5fbb2-131">Vea también</span><span class="sxs-lookup"><span data-stu-id="5fbb2-131">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9005e-131">Vea también</span><span class="sxs-lookup"><span data-stu-id="9005e-131">See Also</span></span>
 
 
-[<span data-ttu-id="5fbb2-132">Eliminar un intervalo orbitar de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5fbb2-132">Delete a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-delete-a-call-park-orbit-range.md)  
+[<span data-ttu-id="9005e-132">Eliminar un intervalo de órbitas de estacionamiento de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9005e-132">Delete a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-delete-a-call-park-orbit-range.md)  
 
 
-[<span data-ttu-id="5fbb2-133">Nuevo: CsCallParkOrbit</span><span class="sxs-lookup"><span data-stu-id="5fbb2-133">New-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsCallParkOrbit)  
-[<span data-ttu-id="5fbb2-134">Set-CsCallParkOrbit</span><span class="sxs-lookup"><span data-stu-id="5fbb2-134">Set-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)  
+[<span data-ttu-id="9005e-133">New-CsCallParkOrbit</span><span class="sxs-lookup"><span data-stu-id="9005e-133">New-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsCallParkOrbit)  
+[<span data-ttu-id="9005e-134">Set-CsCallParkOrbit</span><span class="sxs-lookup"><span data-stu-id="9005e-134">Set-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)  
   
 
 </div>

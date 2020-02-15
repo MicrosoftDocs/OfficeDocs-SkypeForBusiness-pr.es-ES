@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Nuevas características de vídeo'
+title: 'Lync Server 2013: nuevas características de vídeo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185355
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46172b2996905b763f4b646a52c2c0ea95fc30b4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bbff93abc864acee730b0d31cc4b05a84915573f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755874"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048431"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-video-features-in-lync-server-2013"></a><span data-ttu-id="3a3f7-102">Nuevas características de vídeo en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a3f7-102">New video features in Lync Server 2013</span></span>
+# <a name="new-video-features-in-lync-server-2013"></a><span data-ttu-id="bd811-102">Nuevas características de vídeo en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bd811-102">New video features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "41755874"
 
 <span> </span>
 
-<span data-ttu-id="3a3f7-103">_**Última modificación del tema:** 2012-08-16_</span><span class="sxs-lookup"><span data-stu-id="3a3f7-103">_**Topic Last Modified:** 2012-08-16_</span></span>
+<span data-ttu-id="bd811-103">_**Última modificación del tema:** 2012-08-16_</span><span class="sxs-lookup"><span data-stu-id="bd811-103">_**Topic Last Modified:** 2012-08-16_</span></span>
 
-<span data-ttu-id="3a3f7-104">Lync Server 2013 presenta las siguientes características nuevas de vídeo:</span><span class="sxs-lookup"><span data-stu-id="3a3f7-104">Lync Server 2013 introduces the following new video features:</span></span>
+<span data-ttu-id="bd811-104">Lync Server 2013 presenta las siguientes características de vídeo nuevas:</span><span class="sxs-lookup"><span data-stu-id="bd811-104">Lync Server 2013 introduces the following new video features:</span></span>
 
-  - <span data-ttu-id="3a3f7-105">\*\*\*\*   Los usuarios de video de alta definición pueden experimentar resoluciones de hasta 1080p HD en llamadas de dos participantes y en conferencias de varias partes.</span><span class="sxs-lookup"><span data-stu-id="3a3f7-105">**HD video**   Users can experience resolutions up to HD 1080P in two-party calls and multiparty conferences.</span></span>
+  - <span data-ttu-id="bd811-105">**Vídeo HD los**   usuarios pueden experimentar resoluciones de hasta HD 1080p en llamadas de dos participantes y conferencias con varios participantes.</span><span class="sxs-lookup"><span data-stu-id="bd811-105">**HD video**   Users can experience resolutions up to HD 1080P in two-party calls and multiparty conferences.</span></span>
 
-  - <span data-ttu-id="3a3f7-106">**Vista de Galería**   en las videoconferencias que tengan más de dos personas, los usuarios pueden ver vídeos de los participantes de la Conferencia.</span><span class="sxs-lookup"><span data-stu-id="3a3f7-106">**Gallery View**   In video conferences that have more than two people, users can see videos of participants in the conference.</span></span> <span data-ttu-id="3a3f7-107">Si la Conferencia tiene más de cinco participantes, el vídeo de los participantes más activos aparecerá en la fila superior y se mostrará una foto para el resto de los participantes.</span><span class="sxs-lookup"><span data-stu-id="3a3f7-107">If the conference has more than five participants, video of only the most active participants appear in the top row, and a photo appears for the other participants.</span></span>
+  - <span data-ttu-id="bd811-106">**Vista de Galería**   en videoconferencias que tienen más de dos personas, los usuarios pueden ver vídeos de los participantes de la Conferencia.</span><span class="sxs-lookup"><span data-stu-id="bd811-106">**Gallery View**   In video conferences that have more than two people, users can see videos of participants in the conference.</span></span> <span data-ttu-id="bd811-107">Si la conferencia cuenta con más de cinco participantes, solo aparece el vídeo de los participantes más activos en la fila superior y una foto del resto de los participantes.</span><span class="sxs-lookup"><span data-stu-id="bd811-107">If the conference has more than five participants, video of only the most active participants appear in the top row, and a photo appears for the other participants.</span></span>
 
-  - <span data-ttu-id="3a3f7-108">**Vídeo h. 264**   el códec de vídeo h. 264 es ahora el predeterminado para la codificación de video en clientes de Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="3a3f7-108">**H.264 video**   The H.264 video codec is now the default for encoding video on Lync 2013 clients.</span></span> <span data-ttu-id="3a3f7-109">El video H. 264 soporta una mayor variedad de resoluciones y velocidades de fotogramas, y mejora la escalabilidad de video.</span><span class="sxs-lookup"><span data-stu-id="3a3f7-109">H.264 video supports a greater range of resolutions and frame rates, and improves video scalability.</span></span>
+  - <span data-ttu-id="bd811-108">**Vídeo h. 264**   el códec de vídeo h. 264 ahora es el predeterminado para la codificación de vídeo en clientes de Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="bd811-108">**H.264 video**   The H.264 video codec is now the default for encoding video on Lync 2013 clients.</span></span> <span data-ttu-id="bd811-109">El vídeo H.264 admite un rango mayor de resoluciones y velocidades de fotogramas y mejora la escalabilidad del vídeo.</span><span class="sxs-lookup"><span data-stu-id="bd811-109">H.264 video supports a greater range of resolutions and frame rates, and improves video scalability.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="3a3f7-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="3a3f7-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bd811-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="bd811-110">See Also</span></span>
 
 
-[<span data-ttu-id="3a3f7-111">Planificación e implementación de vídeo en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a3f7-111">Planning and deploying video in Lync Server 2013</span></span>](lync-server-2013-planning-and-deploying-video.md)  
+[<span data-ttu-id="bd811-111">Planeación e implementación de vídeo en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bd811-111">Planning and deploying video in Lync Server 2013</span></span>](lync-server-2013-planning-and-deploying-video.md)  
   
 
 </div>
