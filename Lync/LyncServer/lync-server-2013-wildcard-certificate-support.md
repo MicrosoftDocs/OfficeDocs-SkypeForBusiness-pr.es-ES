@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Compatibilidad de certificado de comodín'
+title: Compatibilidad con certificados comodín 2013 de Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183382
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a3e64dcfd16212e618a8ebe152bd2516a25b26d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 18b1313432cac09f03cd414b90d9a068f271edef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727500"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041209"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="wildcard-certificate-support-in-lync-server-2013"></a><span data-ttu-id="fe743-102">Compatibilidad de certificado de comodín en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe743-102">Wildcard certificate support in Lync Server 2013</span></span>
+# <a name="wildcard-certificate-support-in-lync-server-2013"></a><span data-ttu-id="c79bc-102">Compatibilidad con certificados comodín en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c79bc-102">Wildcard certificate support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,77 +35,77 @@ ms.locfileid: "41727500"
 
 <span> </span>
 
-<span data-ttu-id="fe743-103">_**Última modificación del tema:** 2013-03-21_</span><span class="sxs-lookup"><span data-stu-id="fe743-103">_**Topic Last Modified:** 2013-03-21_</span></span>
+<span data-ttu-id="c79bc-103">_**Última modificación del tema:** 2013-03-21_</span><span class="sxs-lookup"><span data-stu-id="c79bc-103">_**Topic Last Modified:** 2013-03-21_</span></span>
 
-<span data-ttu-id="fe743-104">Lync Server 2013 usa certificados para proporcionar cifrado de comunicaciones y autenticación de identidades de servidor.</span><span class="sxs-lookup"><span data-stu-id="fe743-104">Lync Server 2013 uses certificates to provide communications encryption and server identity authentication.</span></span> <span data-ttu-id="fe743-105">En algunos casos, como la publicación web a través del proxy inverso, la coincidencia de entrada de nombre alternativo de asunto (SAN) con el nombre de dominio completo (FQDN) del servidor que presenta el servicio no es necesaria.</span><span class="sxs-lookup"><span data-stu-id="fe743-105">In some cases, such as web publishing through the reverse proxy, strong subject alternative name (SAN) entry matching to the fully qualified domain name (FQDN) of the server presenting the service is not required.</span></span> <span data-ttu-id="fe743-106">En estos casos, puede usar certificados con entradas SAN con comodín (comúnmente conocidos como "certificados comodín") para reducir el costo de un certificado solicitado por una autoridad de certificación pública y para reducir la complejidad del proceso de planeación de certificados .</span><span class="sxs-lookup"><span data-stu-id="fe743-106">In these cases, you can use certificates with wildcard SAN entries (commonly known as “wildcard certificates”) to reduce the cost of a certificate requested from a public certification authority and to reduce the complexity of the planning process for certificates.</span></span>
+<span data-ttu-id="c79bc-104">Lync Server 2013 usa certificados para proporcionar cifrado de comunicaciones y autenticación de identidad de servidor.</span><span class="sxs-lookup"><span data-stu-id="c79bc-104">Lync Server 2013 uses certificates to provide communications encryption and server identity authentication.</span></span> <span data-ttu-id="c79bc-105">En algunos casos, como la publicación web mediante proxy inverso, no es  necesaria la coincidencia sólida de entradas de nombre alternativo de sujeto (SAN) con el nombre de dominio completo (FQDN) del servidor que presenta el servicio.</span><span class="sxs-lookup"><span data-stu-id="c79bc-105">In some cases, such as web publishing through the reverse proxy, strong subject alternative name (SAN) entry matching to the fully qualified domain name (FQDN) of the server presenting the service is not required.</span></span> <span data-ttu-id="c79bc-106">En estos casos, puede usar certificados con entradas de SAN de comodín (conocidas generalmente como “certificados de comodín”) para reducir el costo de un certificado solicitado de una entidad de certificación pública y para reducir la complejidad del proceso de planeamiento para certificados.</span><span class="sxs-lookup"><span data-stu-id="c79bc-106">In these cases, you can use certificates with wildcard SAN entries (commonly known as “wildcard certificates”) to reduce the cost of a certificate requested from a public certification authority and to reduce the complexity of the planning process for certificates.</span></span>
 
 <div>
 
 
 > [!WARNING]  
-> <span data-ttu-id="fe743-107">Para conservar la funcionalidad de los dispositivos de comunicaciones unificadas (por ejemplo, los teléfonos de escritorio), debe probar el certificado implementado con cuidado para asegurarse de que los dispositivos funcionan correctamente después de implementar un certificado de comodín.</span><span class="sxs-lookup"><span data-stu-id="fe743-107">To retain the functionality of unified communications (UC) devices (for example, desk phones), you should test the deployed certificate carefully to ensure that devices function properly after you implement a wildcard certificate.</span></span>
+> <span data-ttu-id="c79bc-107">Para retener la funcionalidad de los dispositivos de comunicaciones unificadas (UC) (por ejemplo, teléfonos de escritorio), debe probar el certificado implementado con cuidado para garantizar que los dispositivos funcionan correctamente después de implementar un certificado de comodín.</span><span class="sxs-lookup"><span data-stu-id="c79bc-107">To retain the functionality of unified communications (UC) devices (for example, desk phones), you should test the deployed certificate carefully to ensure that devices function properly after you implement a wildcard certificate.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="fe743-108">No se admite una entrada de comodín como nombre de asunto (también denominado nombre común o CN) para cualquier rol.</span><span class="sxs-lookup"><span data-stu-id="fe743-108">There is no support for a wildcard entry as the subject name (also referred to as the common name or CN) for any role.</span></span> <span data-ttu-id="fe743-109">Los siguientes roles de servidor se admiten al usar entradas con comodín en el SAN:</span><span class="sxs-lookup"><span data-stu-id="fe743-109">The following server roles are supported when using wildcard entries in the SAN:</span></span>
+<span data-ttu-id="c79bc-p102">No hay compatibilidad para una entrada de comodín como nombre de sujeto (también denominado nombre común o CN) para ninguna función. Las siguientes funciones de servidor son compatibles al usar entradas de comodín en el SAN:</span><span class="sxs-lookup"><span data-stu-id="c79bc-p102">There is no support for a wildcard entry as the subject name (also referred to as the common name or CN) for any role. The following server roles are supported when using wildcard entries in the SAN:</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fe743-110">**Proxy inverso.**    La entrada San con comodín es compatible con el certificado de publicación de URL simple (reunirse y llamar).</span><span class="sxs-lookup"><span data-stu-id="fe743-110">**Reverse proxy.**   Wildcard SAN entry is supported for Simple URL (meet and dialin) publishing certificate.</span></span>
+    <span data-ttu-id="c79bc-110">**Proxy inverso.**    La entrada San comodín se admite para el certificado de publicación de dirección URL sencilla (reunirse y llamar).</span><span class="sxs-lookup"><span data-stu-id="c79bc-110">**Reverse proxy.**   Wildcard SAN entry is supported for Simple URL (meet and dialin) publishing certificate.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fe743-111">**Proxy inverso.**    La entrada San con comodín es compatible con las entradas San para LyncDiscover en el certificado de publicación.</span><span class="sxs-lookup"><span data-stu-id="fe743-111">**Reverse proxy.**   Wildcard SAN entry is supported for the SAN entries for LyncDiscover on the publishing certificate.</span></span>
+    <span data-ttu-id="c79bc-111">**Proxy inverso.**    La entrada San comodín es compatible con las entradas de San para LyncDiscover en el certificado de publicación.</span><span class="sxs-lookup"><span data-stu-id="c79bc-111">**Reverse proxy.**   Wildcard SAN entry is supported for the SAN entries for LyncDiscover on the publishing certificate.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fe743-112">**Director.**    La entrada San con comodín es compatible con las direcciones URL simples (reunirse y llamar) y para las entradas de San para LyncDiscover y LyncDiscoverInternal en los componentes Web de director.</span><span class="sxs-lookup"><span data-stu-id="fe743-112">**Director.**   Wildcard SAN entry is supported for Simple URLs (meet and dialin) and for SAN entries for LyncDiscover and LyncDiscoverInternal in Director web components.</span></span>
+    <span data-ttu-id="c79bc-112">**Director.**    La entrada de San comodín se admite para las direcciones URL sencillas (reunirse y llamar) y para las entradas de San para LyncDiscover y LyncDiscoverInternal en componentes Web de director.</span><span class="sxs-lookup"><span data-stu-id="c79bc-112">**Director.**   Wildcard SAN entry is supported for Simple URLs (meet and dialin) and for SAN entries for LyncDiscover and LyncDiscoverInternal in Director web components.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fe743-113">**Servidor front end (Standard Edition) y grupo de servidores front-end (Enterprise Edition).**</span><span class="sxs-lookup"><span data-stu-id="fe743-113">**Front End Server (Standard Edition) and Front End pool (Enterprise Edition).**</span></span> <span data-ttu-id="fe743-114">La entrada SAN con comodín es compatible con las direcciones URL simples (reunirse y llamar) y para las entradas de SAN para LyncDiscover y LyncDiscoverInternal en los componentes Web front-end.</span><span class="sxs-lookup"><span data-stu-id="fe743-114">Wildcard SAN entry is supported for Simple URLs (meet and dialin) and for SAN entries for LyncDiscover and LyncDiscoverInternal in Front End web components.</span></span>
+    <span data-ttu-id="c79bc-113">**Servidor front-end (Standard Edition) y grupo de servidores front-end (Enterprise Edition).**</span><span class="sxs-lookup"><span data-stu-id="c79bc-113">**Front End Server (Standard Edition) and Front End pool (Enterprise Edition).**</span></span> <span data-ttu-id="c79bc-114">La entrada SAN comodín se admite para las direcciones URL sencillas (reunirse y llamar) y para las entradas de SAN para LyncDiscover y LyncDiscoverInternal en los componentes Web front-end.</span><span class="sxs-lookup"><span data-stu-id="c79bc-114">Wildcard SAN entry is supported for Simple URLs (meet and dialin) and for SAN entries for LyncDiscover and LyncDiscoverInternal in Front End web components.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fe743-115">**Mensajería unificada de Exchange (UM).**    El servidor no usa entradas San cuando se implementa como un servidor independiente.</span><span class="sxs-lookup"><span data-stu-id="fe743-115">**Exchange Unified Messaging (UM).**   The server does not use SAN entries when deployed as a stand-alone server.</span></span>
+    <span data-ttu-id="c79bc-115">**Mensajería unificada (MU) de Exchange.**    El servidor no usa entradas de San cuando se implementa como un servidor independiente.</span><span class="sxs-lookup"><span data-stu-id="c79bc-115">**Exchange Unified Messaging (UM).**   The server does not use SAN entries when deployed as a stand-alone server.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fe743-116">**Servidor de acceso de cliente de Microsoft Exchange Server.**    Las entradas con comodín en el San son compatibles con los clientes internos y externos.</span><span class="sxs-lookup"><span data-stu-id="fe743-116">**Microsoft Exchange Server Client Access server.**   Wildcard entries in the SAN are supported for internal and external clients.</span></span>
+    <span data-ttu-id="c79bc-116">**Servidor de acceso de cliente de Microsoft Exchange Server.**    Las entradas de comodín en el San son compatibles con los clientes internos y externos.</span><span class="sxs-lookup"><span data-stu-id="c79bc-116">**Microsoft Exchange Server Client Access server.**   Wildcard entries in the SAN are supported for internal and external clients.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fe743-117">**Mensajería unificada de Exchange y servidor de acceso de cliente de Microsoft Exchange Server en el mismo servidor.**    Se admiten entradas San con comodín.</span><span class="sxs-lookup"><span data-stu-id="fe743-117">**Exchange Unified Messaging (UM) and Microsoft Exchange Server Client Access server on same server.**   Wildcard SAN entries are supported.</span></span>
+    <span data-ttu-id="c79bc-117">**Mensajería unificada (MU) de Exchange y servidor de acceso de cliente de Microsoft Exchange Server en el mismo servidor.**    Se admiten las entradas San de comodín.</span><span class="sxs-lookup"><span data-stu-id="c79bc-117">**Exchange Unified Messaging (UM) and Microsoft Exchange Server Client Access server on same server.**   Wildcard SAN entries are supported.</span></span>
 
-<span data-ttu-id="fe743-118">Roles de servidor que no se tratan en este tema:</span><span class="sxs-lookup"><span data-stu-id="fe743-118">Server roles that are not addressed in this topic:</span></span>
+<span data-ttu-id="c79bc-118">Funciones de servidor que no se abordan en este tema:</span><span class="sxs-lookup"><span data-stu-id="c79bc-118">Server roles that are not addressed in this topic:</span></span>
 
-  - <span data-ttu-id="fe743-119">Roles de servidor interno (incluidos, entre otros, el servidor de mediación, el servidor de archivado y el servidor de supervisión, el dispositivo de sucursal con supervivencia o el servidor de sucursal superviviente)</span><span class="sxs-lookup"><span data-stu-id="fe743-119">Internal server roles (including, but not limited to the Mediation Server, Archiving and Monitoring Server, Survivable Branch Appliance, or Survivable Branch Server)</span></span>
+  - <span data-ttu-id="c79bc-119">Roles de servidor interno (incluidos, entre otros, el servidor de mediación, el servidor de archivado y de supervisión, una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia)</span><span class="sxs-lookup"><span data-stu-id="c79bc-119">Internal server roles (including, but not limited to the Mediation Server, Archiving and Monitoring Server, Survivable Branch Appliance, or Survivable Branch Server)</span></span>
 
-  - <span data-ttu-id="fe743-120">Interfaces de servidor perimetral externo</span><span class="sxs-lookup"><span data-stu-id="fe743-120">External Edge Server interfaces</span></span>
+  - <span data-ttu-id="c79bc-120">Interfaces del servidor perimetral externo</span><span class="sxs-lookup"><span data-stu-id="c79bc-120">External Edge Server interfaces</span></span>
 
-  - <span data-ttu-id="fe743-121">Servidor perimetral interno</span><span class="sxs-lookup"><span data-stu-id="fe743-121">Internal Edge Server</span></span>
+  - <span data-ttu-id="c79bc-121">Servidor perimetral interno</span><span class="sxs-lookup"><span data-stu-id="c79bc-121">Internal Edge Server</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="fe743-122">Para la interfaz de servidor perimetral interno, se puede asignar una entrada comodín a la SAN y es compatible.</span><span class="sxs-lookup"><span data-stu-id="fe743-122">For the internal Edge Server interface, a wildcard entry can be assigned to the SAN, and is supported.</span></span> <span data-ttu-id="fe743-123">No se consulta la SAN en el servidor perimetral interno y una entrada SAN con comodín tiene un valor limitado.</span><span class="sxs-lookup"><span data-stu-id="fe743-123">The SAN on the internal Edge Server is not queried, and a wildcard SAN entry is of limited value.</span></span>
+    > <span data-ttu-id="c79bc-122">Para la interfaz del servidor perimetral interno, se puede asignar una entrada de comodín al SAN y es compatible.</span><span class="sxs-lookup"><span data-stu-id="c79bc-122">For the internal Edge Server interface, a wildcard entry can be assigned to the SAN, and is supported.</span></span> <span data-ttu-id="c79bc-123">No se consulta la SAN del servidor perimetral interno y una entrada de SAN comodín es de valor limitado.</span><span class="sxs-lookup"><span data-stu-id="c79bc-123">The SAN on the internal Edge Server is not queried, and a wildcard SAN entry is of limited value.</span></span>
 
     
     </div>
 
-<span data-ttu-id="fe743-124">Para obtener más información sobre la configuración de certificados, incluido el uso de caracteres comodín en los certificados, consulte los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="fe743-124">For details about certificate configurations, including the use of wildcards in certificates, see the following topics:</span></span>
+<span data-ttu-id="c79bc-124">Para obtener más información acerca de la configuración de certificados, incluido el uso de caracteres comodín en los certificados, consulte los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="c79bc-124">For details about certificate configurations, including the use of wildcards in certificates, see the following topics:</span></span>
 
-  - [<span data-ttu-id="fe743-125">Requisitos de certificado para Servidores internos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe743-125">Certificate requirements for internal servers in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-internal-servers.md)
+  - [<span data-ttu-id="c79bc-125">Requisitos de certificado para servidores internos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c79bc-125">Certificate requirements for internal servers in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-internal-servers.md)
 
-  - [<span data-ttu-id="fe743-126">Requisitos de certificado para el acceso de usuarios externos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe743-126">Certificate requirements for external user access in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-external-user-access.md)
+  - [<span data-ttu-id="c79bc-126">Requisitos de certificado para el acceso de usuarios externos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c79bc-126">Certificate requirements for external user access in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-external-user-access.md)
 
-  - [<span data-ttu-id="fe743-127">Resumen de certificado - Carga equilibrada DNS y HLB en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe743-127">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
+  - [<span data-ttu-id="c79bc-127">Resumen de certificado-carga equilibrada DNS y HLB en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c79bc-127">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
 
-  - [<span data-ttu-id="fe743-128">Resumen de certificado - Director único en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe743-128">Certificate summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-single-director.md)
+  - [<span data-ttu-id="c79bc-128">Resumen del certificado-Director único en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c79bc-128">Certificate summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-single-director.md)
 
-  - [<span data-ttu-id="fe743-129">Resumen de certificado - Grupo de director escalado, equilibrador de carga de hardware en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe743-129">Certificate summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
+  - [<span data-ttu-id="c79bc-129">Resumen de certificado-grupo de Director escalado, equilibrador de carga de hardware en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c79bc-129">Certificate summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
 
-  - [<span data-ttu-id="fe743-130">Resumen de certificado - Proxy inverso en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe743-130">Certificate summary - Reverse proxy in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-reverse-proxy.md)
+  - [<span data-ttu-id="c79bc-130">Resumen de certificado-proxy inverso en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c79bc-130">Certificate summary - Reverse proxy in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-reverse-proxy.md)
 
-  - [<span data-ttu-id="fe743-131">Instrucciones para integrar mensajería unificada local y Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe743-131">Guidelines for integrating on-premises Unified Messaging and Lync Server 2013</span></span>](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
+  - [<span data-ttu-id="c79bc-131">Directrices para la integración de la mensajería unificada local y Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c79bc-131">Guidelines for integrating on-premises Unified Messaging and Lync Server 2013</span></span>](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
 
-<span data-ttu-id="fe743-132">Para obtener detalles sobre la configuración de certificados para Exchange, incluido el uso de caracteres comodín, consulte la documentación del producto Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="fe743-132">For details about configuring certificates for Exchange, including the use of wildcards, see the Exchange 2013 product documentation.</span></span>
+<span data-ttu-id="c79bc-132">Para obtener más información acerca de la configuración de certificados para Exchange, incluido el uso de caracteres comodín, consulte la documentación del producto de Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="c79bc-132">For details about configuring certificates for Exchange, including the use of wildcards, see the Exchange 2013 product documentation.</span></span>
 
 </div>
 

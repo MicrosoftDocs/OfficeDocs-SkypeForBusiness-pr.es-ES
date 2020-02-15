@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Agregar un servidor de chat persistente a la implementación'
+title: 'Lync Server 2013: agregar un servidor de chat persistente a la implementación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184919
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7a41e89193f4871197ab9b429eb6ab9a9078a7e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71d354449c02a0b57b737f01841a0f5841aa80c9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738040"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038542"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-persistent-chat-server-to-your-deployment-in-lync-server-2013"></a><span data-ttu-id="2eec4-102">Agregar un servidor de chat persistente a la implementación en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eec4-102">Adding Persistent Chat Server to your deployment in Lync Server 2013</span></span>
+# <a name="adding-persistent-chat-server-to-your-deployment-in-lync-server-2013"></a><span data-ttu-id="2588b-102">Adición de un servidor de chat persistente a la implementación en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2588b-102">Adding Persistent Chat Server to your deployment in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41738040"
 
 <span> </span>
 
-<span data-ttu-id="2eec4-103">_**Última modificación del tema:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="2eec4-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="2588b-103">_**Última modificación del tema:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="2588b-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="2eec4-104">Después de instalar el software necesario en cada servidor en el que tiene previsto implementar Lync Server 2013, servidor de chat persistente, debe usar el generador de topología para agregar la compatibilidad con el servidor de chat persistente a su topología y, después, publicar la topología.</span><span class="sxs-lookup"><span data-stu-id="2eec4-104">After you install the prerequisite software on each server on which you plan to deploy Lync Server 2013, Persistent Chat Server, you must use Topology Builder to add Persistent Chat Server support to your topology, and then publish the topology.</span></span>
+<span data-ttu-id="2588b-104">Después de instalar el software necesario como requisito previo en cada servidor en el que tenga previsto implementar Lync Server 2013, servidor de chat persistente, debe usar el generador de topologías para agregar compatibilidad con el servidor de chat persistente a la topología y, a continuación, publicar la topología.</span><span class="sxs-lookup"><span data-stu-id="2588b-104">After you install the prerequisite software on each server on which you plan to deploy Lync Server 2013, Persistent Chat Server, you must use Topology Builder to add Persistent Chat Server support to your topology, and then publish the topology.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2eec4-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="2eec4-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2588b-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="2588b-105">In This Section</span></span>
 
-  - [<span data-ttu-id="2eec4-106">Agregar un servidor de chat persistente a la topología en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eec4-106">Add Persistent Chat Server to the topology in Lync Server 2013</span></span>](lync-server-2013-add-persistent-chat-server-to-the-topology.md)
+  - [<span data-ttu-id="2588b-106">Agregar un servidor de chat persistente a la topología en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2588b-106">Add Persistent Chat Server to the topology in Lync Server 2013</span></span>](lync-server-2013-add-persistent-chat-server-to-the-topology.md)
 
-  - [<span data-ttu-id="2eec4-107">Publicar la topología actualizada en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eec4-107">Publish the updated topology in Lync Server 2013</span></span>](lync-server-2013-publish-the-updated-topology.md)
+  - [<span data-ttu-id="2588b-107">Publicar la topología actualizada en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2588b-107">Publish the updated topology in Lync Server 2013</span></span>](lync-server-2013-publish-the-updated-topology.md)
 
 </div>
 

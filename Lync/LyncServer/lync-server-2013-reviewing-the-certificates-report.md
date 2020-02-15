@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: revisar el informe certificados'
+title: 'Lync Server 2013: revisión del informe de certificados'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 410e9e99fccae7378b5260c9aa3a2281a3004cd5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 26a01f778e855fc5934b524c5bf4a5829a2ca31e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733040"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051564"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reviewing-the-certificates-report-in-lync-server-2013"></a><span data-ttu-id="913a9-102">Revisar el informe de certificados en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="913a9-102">Reviewing the Certificates Report in Lync Server 2013</span></span>
+# <a name="reviewing-the-certificates-report-in-lync-server-2013"></a><span data-ttu-id="f554f-102">Revisión del informe de certificados en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f554f-102">Reviewing the Certificates Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "41733040"
 
 <span> </span>
 
-<span data-ttu-id="913a9-103">_**Última modificación del tema:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="913a9-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="f554f-103">_**Última modificación del tema:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="f554f-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="913a9-104">El informe certificados contiene todos los certificados necesarios en la implementación recomendada de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="913a9-104">The Certificates Report contains all certificates that are required in the recommended Lync Server 2013 deployment.</span></span> <span data-ttu-id="913a9-105">La herramienta de planeación cuenta con los nombres de asunto y los nombres alternativos de asunto que se escriben.</span><span class="sxs-lookup"><span data-stu-id="913a9-105">The Planning Tool accounts for the subject names and subject alternative names that are entered.</span></span> <span data-ttu-id="913a9-106">El texto predeterminado que se deja sin editar puede representar un posible desafío para el equipo responsable de solicitar y emitir los certificados.</span><span class="sxs-lookup"><span data-stu-id="913a9-106">Default text that is left unedited may represent a potential challenge for the team responsible for requesting and issuing the certificates.</span></span> <span data-ttu-id="913a9-107">La información del certificado también contiene datos sobre el origen desde el cual puede emitirse normalmente el certificado.</span><span class="sxs-lookup"><span data-stu-id="913a9-107">Certificate information also contains information about where the certificate can typically be issued from.</span></span> <span data-ttu-id="913a9-108">Si la infraestructura no dispone de una infraestructura de clave pública (PKI) interna, todos los certificados se pueden solicitar a través de un proveedor de certificados público.</span><span class="sxs-lookup"><span data-stu-id="913a9-108">If the infrastructure does not have an internal public key infrastructure (PKI) in place, all certificates can be requested through a public certificate provider.</span></span> <span data-ttu-id="913a9-109">Los campos “Uso mejorado de clave (EKU)” y “Asignar a” del informe son muy útiles para comprender el objetivo y la ubicación de cada certificado.</span><span class="sxs-lookup"><span data-stu-id="913a9-109">Extended key usages (EKU) and Assign To fields in the report are very helpful in understanding what the purpose and location for each certificate should be.</span></span>
+<span data-ttu-id="f554f-104">El informe de certificados contiene todos los certificados necesarios en la implementación de Lync Server 2013 recomendada.</span><span class="sxs-lookup"><span data-stu-id="f554f-104">The Certificates Report contains all certificates that are required in the recommended Lync Server 2013 deployment.</span></span> <span data-ttu-id="f554f-105">La herramienta de planeación cuenta con los nombres de sujeto y los nombres alternativos de sujeto que se han especificado.</span><span class="sxs-lookup"><span data-stu-id="f554f-105">The Planning Tool accounts for the subject names and subject alternative names that are entered.</span></span> <span data-ttu-id="f554f-106">El texto predeterminado que queda sin editar puede representar un desafío potencial para el equipo responsable de solicitar y emitir los certificados.</span><span class="sxs-lookup"><span data-stu-id="f554f-106">Default text that is left unedited may represent a potential challenge for the team responsible for requesting and issuing the certificates.</span></span> <span data-ttu-id="f554f-107">La información de certificados contiene también información sobre dónde puede emitirse normalmente el certificado.</span><span class="sxs-lookup"><span data-stu-id="f554f-107">Certificate information also contains information about where the certificate can typically be issued from.</span></span> <span data-ttu-id="f554f-108">Si la infraestructura no dispone de una infraestructura de clave pública (PKI) interna, todos los certificados se pueden solicitar a través de un proveedor de certificados público.</span><span class="sxs-lookup"><span data-stu-id="f554f-108">If the infrastructure does not have an internal public key infrastructure (PKI) in place, all certificates can be requested through a public certificate provider.</span></span> <span data-ttu-id="f554f-109">Los campos Uso mejorado de clave (EKU) y Asignar a del informe son muy útiles para comprender el objetivo y la ubicación en la que debe estar cada certificado.</span><span class="sxs-lookup"><span data-stu-id="f554f-109">Extended key usages (EKU) and Assign To fields in the report are very helpful in understanding what the purpose and location for each certificate should be.</span></span>
 
-<span data-ttu-id="913a9-110">![Informe de administración de certificados](images/Gg558651.63a29335-d9e4-41ae-97ec-3c9d9fd30d8a(OCS.15).jpg "Informe de administración de certificados")</span><span class="sxs-lookup"><span data-stu-id="913a9-110">![Certificates Admin Report](images/Gg558651.63a29335-d9e4-41ae-97ec-3c9d9fd30d8a(OCS.15).jpg "Certificates Admin Report")</span></span>
+<span data-ttu-id="f554f-110">![Informe de administración de certificados](images/Gg558651.63a29335-d9e4-41ae-97ec-3c9d9fd30d8a(OCS.15).jpg "Informe de administración de certificados")</span><span class="sxs-lookup"><span data-stu-id="f554f-110">![Certificates Admin Report](images/Gg558651.63a29335-d9e4-41ae-97ec-3c9d9fd30d8a(OCS.15).jpg "Certificates Admin Report")</span></span>
 
-<span data-ttu-id="913a9-111">Revise con atención y comprenda completamente el uso y el propósito de cada certificado de la implementación.</span><span class="sxs-lookup"><span data-stu-id="913a9-111">Carefully review, and be sure to understand, the use and purpose of each certificate in the deployment.</span></span> <span data-ttu-id="913a9-112">Si tiene alguna pregunta acerca de la función de un certificado, determine los elementos con los que se comunica un servidor o servicio.</span><span class="sxs-lookup"><span data-stu-id="913a9-112">If there is a question about what a certificate does, determine which server or service is talking to what.</span></span> <span data-ttu-id="913a9-113">Los certificados de Lync Server 2013 se usan para dos propósitos principales:</span><span class="sxs-lookup"><span data-stu-id="913a9-113">Certificates in Lync Server 2013 are used for two primary purposes:</span></span>
+<span data-ttu-id="f554f-111">Revise atentamente y asegúrese de comprender el uso y el propósito de cada certificado en la implementación.</span><span class="sxs-lookup"><span data-stu-id="f554f-111">Carefully review, and be sure to understand, the use and purpose of each certificate in the deployment.</span></span> <span data-ttu-id="f554f-112">Si hay una pregunta sobre lo que hace un certificado, determine qué servidor o servicio está hablando con qué.</span><span class="sxs-lookup"><span data-stu-id="f554f-112">If there is a question about what a certificate does, determine which server or service is talking to what.</span></span> <span data-ttu-id="f554f-113">Los certificados en Lync Server 2013 se usan para dos propósitos principales:</span><span class="sxs-lookup"><span data-stu-id="f554f-113">Certificates in Lync Server 2013 are used for two primary purposes:</span></span>
 
-  - <span data-ttu-id="913a9-p103">Seguridad de la capa de transporte mutua (MTLS): los equipos que participan en la comunicación presentan un certificado que prueba su identidad al otro equipo; esto se conoce como autenticación del servidor. La comunicación no puede comenzar hasta que ambos equipos confíen mutuamente en la identidad del otro.</span><span class="sxs-lookup"><span data-stu-id="913a9-p103">Mutual Transport Layer Security (MTLS) – The computers involved in the communication each present a certificate that proves their identity to another computer. This is known as server authentication. Communication cannot begin until each computer trusts the other computer’s identity.</span></span>
+  - <span data-ttu-id="f554f-114">Seguridad de la capa de transporte mutua (MTLS): los equipos que participan en la comunicación cada uno presentan un certificado que prueba su identidad en otro equipo.</span><span class="sxs-lookup"><span data-stu-id="f554f-114">Mutual Transport Layer Security (MTLS) – The computers involved in the communication each present a certificate that proves their identity to another computer.</span></span> <span data-ttu-id="f554f-115">Esto se conoce como autenticación de servidor.</span><span class="sxs-lookup"><span data-stu-id="f554f-115">This is known as server authentication.</span></span> <span data-ttu-id="f554f-116">La comunicación no puede comenzar hasta que cada equipo confíe en la identidad del otro equipo.</span><span class="sxs-lookup"><span data-stu-id="f554f-116">Communication cannot begin until each computer trusts the other computer’s identity.</span></span>
 
-  - <span data-ttu-id="913a9-117">Cifrado: el cifrado (Capa de sockets seguros, o SSL, y Seguridad de la capa de transporte, o TLS) es un medio fundamental para proteger las comunicaciones y la privacidad, así como para crear comunicaciones de confianza y un sistema de colaboración.</span><span class="sxs-lookup"><span data-stu-id="913a9-117">Encryption – Encryption (Secure Sockets Layer, or SSL, and Transport Layer Security, or TLS) is a critical means to help secure communications, help ensure privacy, and to create a trusted communications and collaboration system.</span></span>
+  - <span data-ttu-id="f554f-117">Cifrado: el cifrado (Capa de sockets seguros, o SSL, y Seguridad de la capa de transporte, o TLS) es un medio fundamental para proteger las comunicaciones y la privacidad, así como para crear comunicaciones de confianza y un sistema de colaboración.</span><span class="sxs-lookup"><span data-stu-id="f554f-117">Encryption – Encryption (Secure Sockets Layer, or SSL, and Transport Layer Security, or TLS) is a critical means to help secure communications, help ensure privacy, and to create a trusted communications and collaboration system.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="913a9-118">Vea también</span><span class="sxs-lookup"><span data-stu-id="913a9-118">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f554f-118">Vea también</span><span class="sxs-lookup"><span data-stu-id="f554f-118">See Also</span></span>
 
 
-[<span data-ttu-id="913a9-119">Revisión de los informes del administrador en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="913a9-119">Reviewing the Administrator Reports in Lync Server 2013</span></span>](lync-server-2013-reviewing-the-administrator-reports.md)  
+[<span data-ttu-id="f554f-119">Revisión de los informes del administrador en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f554f-119">Reviewing the Administrator Reports in Lync Server 2013</span></span>](lync-server-2013-reviewing-the-administrator-reports.md)  
   
 
 </div>

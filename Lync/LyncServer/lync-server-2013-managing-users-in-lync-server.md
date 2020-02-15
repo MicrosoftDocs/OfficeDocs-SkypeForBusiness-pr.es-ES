@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Administración de usuarios en Lync Server'
+title: 'Lync Server 2013: administración de usuarios en Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49344809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35517b535c515bbb0fcfd28b69c99e27d0b9b175
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb42a8504964ebbce18cc7ebad23059781f570d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756064"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-users-in-lync-server-2013"></a><span data-ttu-id="ff719-102">Administración de usuarios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff719-102">Managing users in Lync Server 2013</span></span>
+# <a name="managing-users-in-lync-server-2013"></a><span data-ttu-id="d481b-102">Administración de usuarios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d481b-102">Managing users in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "41756064"
 
 <span> </span>
 
-<span data-ttu-id="ff719-103">_**Última modificación del tema:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="ff719-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="d481b-103">_**Última modificación del tema:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="d481b-103">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="ff719-104">Puede usar el panel de control de Lync Server 2013 y el shell de administración de Lync Server 2013 para administrar cuentas de usuario en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ff719-104">You can use the Lync Server 2013 Control Panel and Lync Server 2013 Management Shell to manage user accounts in Lync Server 2013.</span></span> <span data-ttu-id="ff719-105">Los procedimientos de esta sección le guiarán por el modo de ver la información de cuenta y configurar la configuración de cuentas de usuario.</span><span class="sxs-lookup"><span data-stu-id="ff719-105">The procedures in this section guide you through how to view account information and configure setting for user accounts.</span></span>
+<span data-ttu-id="d481b-104">Puede usar el panel de control de Lync Server 2013 y el shell de administración de Lync Server 2013 para administrar las cuentas de usuario en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d481b-104">You can use the Lync Server 2013 Control Panel and Lync Server 2013 Management Shell to manage user accounts in Lync Server 2013.</span></span> <span data-ttu-id="d481b-105">Los procedimientos de esta sección le guían por cómo ver la información de cuenta y configurar los valores para cuentas de usuario.</span><span class="sxs-lookup"><span data-stu-id="d481b-105">The procedures in this section guide you through how to view account information and configure setting for user accounts.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ff719-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="ff719-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d481b-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="d481b-106">In This Section</span></span>
 
-  - [<span data-ttu-id="ff719-107">Cuentas de usuario habilitadas para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff719-107">User accounts enabled for Lync Server 2013</span></span>](lync-server-2013-user-accounts-enabled-for-lync-server.md)
+  - [<span data-ttu-id="d481b-107">Cuentas de usuario habilitadas para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d481b-107">User accounts enabled for Lync Server 2013</span></span>](lync-server-2013-user-accounts-enabled-for-lync-server.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="ff719-108">Vea también</span><span class="sxs-lookup"><span data-stu-id="ff719-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d481b-108">Vea también</span><span class="sxs-lookup"><span data-stu-id="d481b-108">See Also</span></span>
 
 
-[<span data-ttu-id="ff719-109">Operaciones en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff719-109">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
+[<span data-ttu-id="d481b-109">Operaciones en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d481b-109">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
   
 
 </div>

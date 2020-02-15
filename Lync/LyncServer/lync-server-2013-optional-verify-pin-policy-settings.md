@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: (Opcional) Comprobar la configuración de la directiva de PIN'
+title: 'Lync Server 2013: (opcional) comprobar la configuración de la Directiva de PIN'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185415
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0932eb97ee276368ee7b4479d17100b00af29d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cccae79c64205ece3256851a19e54dce8582f9fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755694"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051072"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-pin-policy-settings-in-lync-server-2013"></a><span data-ttu-id="c87ea-102">(Opcional) Comprobar la configuración de la directiva de PIN en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c87ea-102">(Optional) Verify PIN policy settings in Lync Server 2013</span></span>
+# <a name="optional-verify-pin-policy-settings-in-lync-server-2013"></a><span data-ttu-id="ff01f-102">Opcional Comprobar la configuración de la Directiva de PIN en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff01f-102">(Optional) Verify PIN policy settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755694"
 
 <span> </span>
 
-<span data-ttu-id="c87ea-103">_**Última modificación del tema:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="c87ea-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+<span data-ttu-id="ff01f-103">_**Última modificación del tema:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="ff01f-103">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-<span data-ttu-id="c87ea-104">Los usuarios de Lync Server 2013 que tienen credenciales de servicios de dominio de Active Directory pueden especificar un número de identificación personal (PIN) para unirse a conferencias de acceso telefónico local como usuarios autenticados.</span><span class="sxs-lookup"><span data-stu-id="c87ea-104">Lync Server 2013 users who have Active Directory Domain Services credentials can enter a personal identification number (PIN) to join dial-in conferences as authenticated users.</span></span> <span data-ttu-id="c87ea-105">Una directiva de PIN define las reglas de funcionamiento de los pin de conferencias de acceso telefónico local.</span><span class="sxs-lookup"><span data-stu-id="c87ea-105">A PIN policy defines the rules for how dial-in conferencing PINs work.</span></span>
+<span data-ttu-id="ff01f-104">Lync Server 2013 los usuarios que tienen credenciales de servicios de dominio de Active Directory pueden escribir un número de identificación personal (PIN) para unirse a conferencias de acceso telefónico local como usuarios autenticados.</span><span class="sxs-lookup"><span data-stu-id="ff01f-104">Lync Server 2013 users who have Active Directory Domain Services credentials can enter a personal identification number (PIN) to join dial-in conferences as authenticated users.</span></span> <span data-ttu-id="ff01f-105">Una directiva de PIN define las reglas de funcionamiento de los PIN de conferencias de acceso telefónico.</span><span class="sxs-lookup"><span data-stu-id="ff01f-105">A PIN policy defines the rules for how dial-in conferencing PINs work.</span></span>
 
-<span data-ttu-id="c87ea-106">Al implementar conferencias de acceso telefónico local, debe comprobar que la Directiva de PIN global predeterminada cumple con sus requisitos.</span><span class="sxs-lookup"><span data-stu-id="c87ea-106">When you deploy dial-in conferencing, you should verify that the default global PIN policy meets your requirements.</span></span> <span data-ttu-id="c87ea-107">Si necesita realizar cambios, puede modificar la directiva global predeterminada o puede crear una nueva.</span><span class="sxs-lookup"><span data-stu-id="c87ea-107">If you need to make changes, you can modify the default global policy or you can create a new PIN policy.</span></span> <span data-ttu-id="c87ea-108">Puede crear directivas de PIN que se apliquen a un sitio específico, a un usuario específico o a un grupo de usuarios específico.</span><span class="sxs-lookup"><span data-stu-id="c87ea-108">You can create PIN policies that apply to a specific site, a specific user, or a specific group of users.</span></span>
+<span data-ttu-id="ff01f-p102">Al implementar la característica de conferencia de acceso telefónico local, debe comprobar que la directiva de PIN global predeterminada cumpla sus requisitos. Si necesita realizar cambios, puede modificar la directiva global predeterminada o crear una directiva de PIN. Puede crear directivas de PIN que se apliquen a un sitio, a un usuario o a un grupo de usuarios específicos.</span><span class="sxs-lookup"><span data-stu-id="ff01f-p102">When you deploy dial-in conferencing, you should verify that the default global PIN policy meets your requirements. If you need to make changes, you can modify the default global policy or you can create a new PIN policy. You can create PIN policies that apply to a specific site, a specific user, or a specific group of users.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c87ea-109">En esta sección</span><span class="sxs-lookup"><span data-stu-id="c87ea-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ff01f-109">En esta sección</span><span class="sxs-lookup"><span data-stu-id="ff01f-109">In This Section</span></span>
 
-  - [<span data-ttu-id="c87ea-110">Modificar la configuración del PIN de la conferencia de acceso telefónico local predeterminada en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c87ea-110">Modify the default dial-in conferencing PIN settings in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md)
+  - [<span data-ttu-id="ff01f-110">Modificar la configuración de PIN de conferencia de acceso telefónico local predeterminada en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff01f-110">Modify the default dial-in conferencing PIN settings in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md)
 
-  - [<span data-ttu-id="c87ea-111">Crear o modificar la configuración de PIN de conferencia de acceso telefónico local para un sitio o grupo de usuarios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c87ea-111">Create or modify dial-in conferencing PIN settings in Lync Server 2013 for a site or group of users</span></span>](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
+  - [<span data-ttu-id="ff01f-111">Crear o modificar la configuración de PIN de conferencia de acceso telefónico local en Lync Server 2013 para un sitio o grupo de usuarios</span><span class="sxs-lookup"><span data-stu-id="ff01f-111">Create or modify dial-in conferencing PIN settings in Lync Server 2013 for a site or group of users</span></span>](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
 
 </div>
 
