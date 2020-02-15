@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: acuerdos de nivel de servicio'
+title: 'Lync Server 2013: contratos de nivel de servicio'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969580
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8c4b827cf2b82eb315ec166bcabb2452e7d8bdc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e96edf9fe2fefb54e608ee6840cfb2717c92d136
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732392"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049001"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="service-level-agreements-in-lync-server-2013"></a><span data-ttu-id="d8e68-102">Acuerdos de nivel de servicio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d8e68-102">Service level agreements in Lync Server 2013</span></span>
+# <a name="service-level-agreements-in-lync-server-2013"></a><span data-ttu-id="f6bc1-102">Acuerdos de nivel de servicio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6bc1-102">Service level agreements in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41732392"
 
 <span> </span>
 
-<span data-ttu-id="d8e68-103">_**Última modificación del tema:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="d8e68-103">_**Topic Last Modified:** 2014-08-18_</span></span>
+<span data-ttu-id="f6bc1-103">_**Última modificación del tema:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="f6bc1-103">_**Topic Last Modified:** 2014-08-18_</span></span>
 
-<span data-ttu-id="d8e68-104">El SLA es un documento que define los servicios que su cliente espera de usted.</span><span class="sxs-lookup"><span data-stu-id="d8e68-104">The SLA is a document that defines the services that your customer expects from you.</span></span> <span data-ttu-id="d8e68-105">La complejidad y el contenido de este documento depende en gran medida de si los clientes son internos (dentro de su entorno) o externos.</span><span class="sxs-lookup"><span data-stu-id="d8e68-105">The complexity and content of this document depends largely on whether customers are internal (within your environment) or external.</span></span>
+<span data-ttu-id="f6bc1-104">El SLA es un documento que define los servicios que el cliente espera de usted.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-104">The SLA is a document that defines the services that your customer expects from you.</span></span> <span data-ttu-id="f6bc1-105">La complejidad y el contenido de este documento dependen en gran medida de si los clientes son internos (dentro del entorno) o externos.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-105">The complexity and content of this document depends largely on whether customers are internal (within your environment) or external.</span></span>
 
 <div>
 
-## <a name="external-customers"></a><span data-ttu-id="d8e68-106">Clientes externos</span><span class="sxs-lookup"><span data-stu-id="d8e68-106">External Customers</span></span>
+## <a name="external-customers"></a><span data-ttu-id="f6bc1-106">Clientes externos</span><span class="sxs-lookup"><span data-stu-id="f6bc1-106">External Customers</span></span>
 
-<span data-ttu-id="d8e68-107">Si su cliente es externo, el SLA puede formar parte de un contrato legal con incentivos financieros y sanciones por el rendimiento dentro o fuera de los niveles de servicio definidos.</span><span class="sxs-lookup"><span data-stu-id="d8e68-107">If your customer is external, the SLA may be part of a legal contract with financial incentives and penalties for performance that falls inside or outside defined levels of service.</span></span> <span data-ttu-id="d8e68-108">La definición de estos niveles de servicio debe formar parte de la negociación general del contrato.</span><span class="sxs-lookup"><span data-stu-id="d8e68-108">Defining these levels of service should be part of the overall contract negotiation.</span></span>
+<span data-ttu-id="f6bc1-107">Si su cliente es externo, el acuerdo de nivel de servicio puede formar parte de un contrato legal con incentivos financieros y sanciones por rendimiento dentro o fuera de los niveles de servicio definidos.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-107">If your customer is external, the SLA may be part of a legal contract with financial incentives and penalties for performance that falls inside or outside defined levels of service.</span></span> <span data-ttu-id="f6bc1-108">La definición de estos niveles de servicio debe formar parte de la negociación general de contratos.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-108">Defining these levels of service should be part of the overall contract negotiation.</span></span>
 
-<span data-ttu-id="d8e68-109">Al igual que con todos los contratos, es importante que ambas partes entiendan las expectativas.</span><span class="sxs-lookup"><span data-stu-id="d8e68-109">As with all contracts, it’s important that both parties understand expectations.</span></span> <span data-ttu-id="d8e68-110">El SLA define estas expectativas.</span><span class="sxs-lookup"><span data-stu-id="d8e68-110">The SLA defines these expectations.</span></span> <span data-ttu-id="d8e68-111">El contenido del documento debe cambiar con poca frecuencia y solo por las negociaciones con el cliente.</span><span class="sxs-lookup"><span data-stu-id="d8e68-111">The contents of the document should change infrequently and only because of negotiations with the customer.</span></span>
+<span data-ttu-id="f6bc1-109">Como con todos los contratos, es importante que ambas partes comprendan las expectativas.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-109">As with all contracts, it’s important that both parties understand expectations.</span></span> <span data-ttu-id="f6bc1-110">El SLA define estas expectativas.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-110">The SLA defines these expectations.</span></span> <span data-ttu-id="f6bc1-111">El contenido del documento debería cambiar con poca frecuencia y solo debido a las negociaciones con el cliente.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-111">The contents of the document should change infrequently and only because of negotiations with the customer.</span></span>
 
 </div>
 
 <div>
 
-## <a name="internal-customers"></a><span data-ttu-id="d8e68-112">Clientes internos</span><span class="sxs-lookup"><span data-stu-id="d8e68-112">Internal Customers</span></span>
+## <a name="internal-customers"></a><span data-ttu-id="f6bc1-112">Clientes internos</span><span class="sxs-lookup"><span data-stu-id="f6bc1-112">Internal Customers</span></span>
 
-<span data-ttu-id="d8e68-113">Si su cliente es interno, es posible que aún desee definir los servicios que se esperan de los equipos de operaciones y de los sistemas de ti.</span><span class="sxs-lookup"><span data-stu-id="d8e68-113">If your customer is internal, you may still want to define the services that are expected of operations teams and of IT systems.</span></span> <span data-ttu-id="d8e68-114">El SLA puede ser creado por el personal de operaciones y pensado como un conjunto de objetivos para la disponibilidad de los servicios de ti dentro de su organización.</span><span class="sxs-lookup"><span data-stu-id="d8e68-114">The SLA may be created by the operations staff and intended as a set of goals for the availability of IT services within your organization.</span></span> <span data-ttu-id="d8e68-115">O bien, los niveles de rendimiento pueden establecerse mediante la administración y utilizarse como referencia para evaluar el rendimiento del personal.</span><span class="sxs-lookup"><span data-stu-id="d8e68-115">Or, performance levels may be set by management and used as benchmarks when assessing staff performance.</span></span>
+<span data-ttu-id="f6bc1-113">Si su cliente es interno, es posible que desee definir los servicios que se esperarán de los equipos de operaciones y de los sistemas de ti.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-113">If your customer is internal, you may still want to define the services that are expected of operations teams and of IT systems.</span></span> <span data-ttu-id="f6bc1-114">El SLA puede ser creado por el personal de operaciones y pensado como un conjunto de objetivos para la disponibilidad de los servicios de ti dentro de la organización.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-114">The SLA may be created by the operations staff and intended as a set of goals for the availability of IT services within your organization.</span></span> <span data-ttu-id="f6bc1-115">O bien, los niveles de rendimiento se pueden establecer mediante la administración y se usan como pruebas de referencia al evaluar el rendimiento del personal.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-115">Or, performance levels may be set by management and used as benchmarks when assessing staff performance.</span></span>
 
 </div>
 
 <div>
 
-## <a name="typical-criteria"></a><span data-ttu-id="d8e68-116">Criterios típicos</span><span class="sxs-lookup"><span data-stu-id="d8e68-116">Typical Criteria</span></span>
+## <a name="typical-criteria"></a><span data-ttu-id="f6bc1-116">Criterios típicos</span><span class="sxs-lookup"><span data-stu-id="f6bc1-116">Typical Criteria</span></span>
 
-<span data-ttu-id="d8e68-117">Los SLA incluyen secciones que definen criterios de niveles mínimos de disponibilidad, soporte y capacidad.</span><span class="sxs-lookup"><span data-stu-id="d8e68-117">SLAs include sections that define criteria of minimum levels of availability, support, and capacity.</span></span>
+<span data-ttu-id="f6bc1-117">Los SLAs incluyen secciones que definen los criterios de niveles mínimos de disponibilidad, soporte técnico y capacidad.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-117">SLAs include sections that define criteria of minimum levels of availability, support, and capacity.</span></span>
 
-  - <span data-ttu-id="d8e68-118">**Disponibilidad**   defina las horas y los sistemas operativos en los que los sitios y otros servicios de Lync estarán disponibles.</span><span class="sxs-lookup"><span data-stu-id="d8e68-118">**Availability**   Define the hours and the operating systems on which sites and other Lync services will be available.</span></span> <span data-ttu-id="d8e68-119">Debe definirse cualquier mantenimiento rutinario que afecte a la disponibilidad del servicio.</span><span class="sxs-lookup"><span data-stu-id="d8e68-119">Any routine maintenance that affects service availability should be defined.</span></span> <span data-ttu-id="d8e68-120">Definir factores externos que afectan al servicio, por ejemplo, la pérdida de conectividad a Internet.</span><span class="sxs-lookup"><span data-stu-id="d8e68-120">Define external factors that affect service, for example, the loss of Internet connectivity.</span></span>
+  - <span data-ttu-id="f6bc1-118">**La disponibilidad**   define las horas y los sistemas operativos en los que estarán disponibles los sitios y otros servicios de Lync.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-118">**Availability**   Define the hours and the operating systems on which sites and other Lync services will be available.</span></span> <span data-ttu-id="f6bc1-119">Debe definirse cualquier mantenimiento rutinario que afecte a la disponibilidad del servicio.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-119">Any routine maintenance that affects service availability should be defined.</span></span> <span data-ttu-id="f6bc1-120">Definir los factores externos que afectan al servicio, por ejemplo, la pérdida de conectividad a Internet.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-120">Define external factors that affect service, for example, the loss of Internet connectivity.</span></span>
 
-  - <span data-ttu-id="d8e68-121">**El soporte técnico**   define las horas en las que estará disponible el soporte técnico para un sistema.</span><span class="sxs-lookup"><span data-stu-id="d8e68-121">**Support**   Define the hours when support for a system will be available.</span></span> <span data-ttu-id="d8e68-122">Especifique métodos para que los clientes se pongan en contacto con el personal de soporte técnico, la manera en que se agrupan los incidentes y el tiempo de destino para responder y resolver el incidente.</span><span class="sxs-lookup"><span data-stu-id="d8e68-122">Specify methods for customers to contact support staff, how incidents are grouped, and target time to respond and to resolve the incident.</span></span> <span data-ttu-id="d8e68-123">Definir la frecuencia y el contenido de los comentarios para el cliente.</span><span class="sxs-lookup"><span data-stu-id="d8e68-123">Define frequency and content of feedback to the customer.</span></span>
+  - <span data-ttu-id="f6bc1-121">**Soporte técnico**   defina las horas en las que estará disponible el soporte para un sistema.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-121">**Support**   Define the hours when support for a system will be available.</span></span> <span data-ttu-id="f6bc1-122">Especifique los métodos para que los clientes se pongan en contacto con el personal de soporte técnico, la manera en que se agrupan los incidentes y el tiempo de respuesta y para resolver el incidente.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-122">Specify methods for customers to contact support staff, how incidents are grouped, and target time to respond and to resolve the incident.</span></span> <span data-ttu-id="f6bc1-123">Definir la frecuencia y el contenido de los comentarios para el cliente.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-123">Define frequency and content of feedback to the customer.</span></span>
 
-  - <span data-ttu-id="d8e68-124">**Capacidad**   defina el tamaño máximo habilitado de los sitios de Lync y los pasos que hay que llevar a cabo si se supera el límite.</span><span class="sxs-lookup"><span data-stu-id="d8e68-124">**Capacity**   Define the maximum enabled size of Lync sites and the steps to take if the limit is exceeded.</span></span> <span data-ttu-id="d8e68-125">Defina el tiempo máximo habilitado para realizar tareas estándar, como el tiempo para recuperar un documento de una biblioteca de documentos.</span><span class="sxs-lookup"><span data-stu-id="d8e68-125">Define the maximum enabled time to do standard tasks, such as the time to retrieve a document from a document library.</span></span> <span data-ttu-id="d8e68-126">Defina el número máximo de usuarios por grupo de Lync y acepte un proceso para aumentar la capacidad si se agregan más usuarios.</span><span class="sxs-lookup"><span data-stu-id="d8e68-126">Define the maximum number of users per Lync pool and agree to a process to increase capacity if more users are added.</span></span>
+  - <span data-ttu-id="f6bc1-124">**La capacidad**   define el tamaño máximo habilitado de los sitios de Lync y los pasos que se deben tomar si se supera el límite.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-124">**Capacity**   Define the maximum enabled size of Lync sites and the steps to take if the limit is exceeded.</span></span> <span data-ttu-id="f6bc1-125">Definir el tiempo máximo habilitado para realizar tareas estándar, como el tiempo para recuperar un documento de una biblioteca de documentos.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-125">Define the maximum enabled time to do standard tasks, such as the time to retrieve a document from a document library.</span></span> <span data-ttu-id="f6bc1-126">Definir el número máximo de usuarios por grupo de Lync y aceptar un proceso para aumentar la capacidad si se agregan más usuarios.</span><span class="sxs-lookup"><span data-stu-id="f6bc1-126">Define the maximum number of users per Lync pool and agree to a process to increase capacity if more users are added.</span></span>
 
 </div>
 
