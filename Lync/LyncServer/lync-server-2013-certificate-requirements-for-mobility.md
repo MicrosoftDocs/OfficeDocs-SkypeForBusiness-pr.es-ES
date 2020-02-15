@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Requisitos de certificado para movilidad'
+title: 'Lync Server 2013: requisitos de certificado para movilidad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185251
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 680eaf205959b67d8fef93ff56d379ae8cd293bf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bbf7dd0f3ce9868fbeac5c757fce5371ad77fba4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736780"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038422"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-mobility-in-lync-server-2013"></a>Requisitos de certificado para movilidad en Lync Server 2013
+# <a name="certificate-requirements-for-mobility-in-lync-server-2013"></a>Requisitos de certificados para movilidad en Lync Server 2013
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41736780"
 
 _**Última modificación del tema:** 2012-06-24_
 
-Si implementa la característica de movilidad y admite el descubrimiento automático para clientes móviles, debe incluir determinadas entradas de nombre alternativo de sujeto en certificados para admitir conexiones seguras desde los clientes móviles.
+Si implementa la característica de movilidad y admite la detección automática para clientes móviles, debe incluir algunas entradas de nombre alternativo del sujeto en certificados para admitir conexiones seguras desde clientes móviles.
 
-Debe incluir las entradas de nombre alternativo de asunto para el descubrimiento automático en los siguientes certificados:
+Debe incluir entradas de nombre alternativo del sujeto para la detección automática en los siguientes certificados:
 
-  - Grupo de directores
+  - Grupo de servidores Director
 
   - Grupo de servidores front-end
 
   - Proxy inverso
 
-En esta sección se describen las entradas de nombre alternativo de asunto necesarias en los certificados para la detección automática.
+En esta sección se describen las entradas de nombre alternativo del sujeto necesarias en los certificados para la detección automática.
 
 <div>
 
 
 > [!NOTE]  
-> La reemisión de certificados mediante una entidad emisora de certificados interna suele ser un proceso simple, pero la adición de varias entradas de nombre alternativo de asunto a certificados públicos que usa el proxy inverso puede ser costosa. Si tiene muchos dominios SIP, lo que hace que la adición de nombres alternativos del sujeto sea muy costosa, puede configurar el proxy inverso para usar HTTP en la solicitud de servicio de detección automática inicial, en lugar de usar HTTPS (la configuración predeterminada). Para obtener más información, consulte <A href="lync-server-2013-technical-requirements-for-mobility.md">requisitos técnicos para la movilidad en Lync Server 2013</A>.
+> La reemisión de certificados usando una entidad de certificación interna suele ser un proceso sencillo, pero agregar varias entradas de nombre alternativo del sujeto a certificados públicos usados por el proxy inverso puede resultar caro. Si tiene muchos dominios SIP, lo que provoca que agregar nombres alternativos del sujeto sea caro, puede configurar el proxy inverso para usar HTTP para la solicitud inicial del servicio Detección automática, en lugar de usar HTTPS (la configuración predeterminada). Para obtener más información, consulte <A href="lync-server-2013-technical-requirements-for-mobility.md">Technical Requirements for Mobility in Lync Server 2013</A>.
 
 
 
 </div>
 
-### <a name="director-pool-certificate-requirements"></a>Requisitos de certificados del grupo de directores
+### <a name="director-pool-certificate-requirements"></a>Requisitos de certificado de grupo de directores
 
 <table>
 <colgroup>
@@ -69,16 +69,16 @@ En esta sección se describen las entradas de nombre alternativo de asunto neces
 <thead>
 <tr class="header">
 <th>Descripción</th>
-<th>Entrada de nombre alternativo de asunto</th>
+<th>Entrada de nombre alternativo del sujeto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Dirección URL del servicio de detección automática interna</p></td>
+<td><p>URL de servicio Detección automática interna</p></td>
 <td><p>SAN = lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>Dirección URL del servicio de detección automática externa</p></td>
+<td><p>URL de servicio Detección automática externa</p></td>
 <td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
 </tr>
 </tbody>
@@ -89,13 +89,13 @@ En esta sección se describen las entradas de nombre alternativo de asunto neces
 
 
 > [!NOTE]  
-> También puede usar SAN = *. &lt;sipdomain&gt;
+> Como alternativa, puede usar SAN = *. &lt;sipdomain&gt;
 
 
 
 </div>
 
-### <a name="front-end-pool-certificate-requirements"></a>Requisitos del certificado del grupo de servidores front-end
+### <a name="front-end-pool-certificate-requirements"></a>Requisitos de certificado de grupo de servidores front-end
 
 <table>
 <colgroup>
@@ -105,16 +105,16 @@ En esta sección se describen las entradas de nombre alternativo de asunto neces
 <thead>
 <tr class="header">
 <th>Descripción</th>
-<th>Entrada de nombre alternativo de asunto</th>
+<th>Entrada de nombre alternativo del sujeto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Dirección URL del servicio de detección automática interna</p></td>
+<td><p>URL de servicio Detección automática interna</p></td>
 <td><p>SAN = lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>Dirección URL del servicio de detección automática externa</p></td>
+<td><p>URL de servicio Detección automática externa</p></td>
 <td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
 </tr>
 </tbody>
@@ -125,13 +125,13 @@ En esta sección se describen las entradas de nombre alternativo de asunto neces
 
 
 > [!NOTE]  
-> También puede usar SAN = *. &lt;sipdomain&gt;
+> Como alternativa, puede usar SAN = *. &lt;sipdomain&gt;
 
 
 
 </div>
 
-### <a name="reverse-proxy-public-ca-certificate-requirements"></a>Requisitos de los certificados de proxy inverso (CA pública)
+### <a name="reverse-proxy-public-ca-certificate-requirements"></a>Requisitos de certificado (CA pública) de proxy inverso
 
 <table>
 <colgroup>
@@ -141,12 +141,12 @@ En esta sección se describen las entradas de nombre alternativo de asunto neces
 <thead>
 <tr class="header">
 <th>Descripción</th>
-<th>Entrada de nombre alternativo de asunto</th>
+<th>Entrada de nombre alternativo del sujeto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Dirección URL del servicio de detección automática externa</p></td>
+<td><p>URL de servicio Detección automática externa</p></td>
 <td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
 </tr>
 </tbody>
@@ -157,7 +157,7 @@ En esta sección se describen las entradas de nombre alternativo de asunto neces
 
 
 > [!NOTE]  
-> Asigna este SAN al certificado asignado a la escucha SSL en el proxy inverso.
+> Debe asignar este SAN al certificado asignado a la escucha de SSL en el proxy inverso.
 
 
 
@@ -167,7 +167,7 @@ En esta sección se describen las entradas de nombre alternativo de asunto neces
 
 
 > [!NOTE]  
-> Su agente de escucha de proxy inverso tendrá nombres alternativos de asunto para las URL de los servicios web externos (por ejemplo, SAN = lyncwebextpool01. contoso. com y dirwebexternal.contoso.com si ha implementado el director opcional).
+> La escucha de proxy inverso tendrá nombres alternativos de sujeto para las direcciones URL de los servicios web externos (por ejemplo, SAN = lyncwebextpool01. contoso. com y dirwebexternal.contoso.com si ha implementado el director opcional).
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: vista ClientVersions'
+title: 'Lync Server 2013: vista de ClientVersions'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8fd25da49e8a3b6ad7838ff27a4472e711b97421
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a7e62fbf56d270c6d2d0c65415dc28dd30e4449
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756414"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046673"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41756414"
 
 _**Última modificación del tema:** 2012-10-01_
 
-La vista ClientVersions almacena información sobre los diversos tipos y versiones de los clientes que participaron en sesiones registradas en la base de datos. Cada registro de la vista representa una versión de cliente. Esta vista se presentó en Microsoft Lync Server 2013.
+La vista ClientVersions almacena información sobre los diversos tipos de clientes y versiones que han participado en las sesiones registradas en la base de datos. Cada registro de la vista representa una versión de cliente. Esta vista se introdujo en Microsoft Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> Es posible que haya varios registros para determinadas columnas.
+> Puede haber varios registros para determinadas columnas.
 
 
 
@@ -67,22 +67,22 @@ La vista ClientVersions almacena información sobre los diversos tipos y version
 <tr class="odd">
 <td><p><strong>VersionId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Número único que identifica este tipo de cliente y versión.</p></td>
+<td><p>Número único de identificación de esta versión y este tipo de cliente.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Versión</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>Version</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Representa el agente de usuario.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Tipocliente</strong></p></td>
+<td><p><strong>ClientType</strong></p></td>
 <td><p>int</p></td>
 <td><p>Tipo de cliente.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ClientCategory</strong></p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Categoría a la que pertenece el cliente. Por ejemplo, el cliente Conferencing_Attendant_1.0 pertenece a la CAA de ClientCategory.</p></td>
+<td><p>Categoría a la que pertenece el cliente. Por ejemplo, el cliente Conferencing_Attendant_1.0 pertenece a ClientCategory CAA.</p></td>
 </tr>
 </tbody>
 </table>

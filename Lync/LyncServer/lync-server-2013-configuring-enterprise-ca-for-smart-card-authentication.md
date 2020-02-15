@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configuración de la CA de empresa para la autenticación de tarjetas inteligentes'
+title: 'Lync Server 2013: configuración de la entidad de certificación empresarial para la autenticación de tarjetas inteligentes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 54973692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44df62031e679c641b4c7dbe6b5c205e1ae899e8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a49fb76019fbb3bc3356fed5de7a67b0e3a10350
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728970"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046383"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enterprise-ca-for-smart-card-authentication-in-lync-server-2013"></a>Configuración de CA de empresa para la autenticación de tarjetas inteligentes en Lync Server 2013
+# <a name="configuring-enterprise-ca-for-smart-card-authentication-in-lync-server-2013"></a>Configuración de la entidad de certificación empresarial para la autenticación de tarjetas inteligentes en Lync Server 2013
 
 </div>
 
@@ -37,43 +37,43 @@ ms.locfileid: "41728970"
 
 _**Última modificación del tema:** 2013-07-03_
 
-En la sección siguiente se describe cómo configurar una entidad de certificación (CA) raíz de empresa para admitir la autenticación de tarjetas inteligentes. Para obtener información sobre cómo instalar una entidad emisora de certificados raíz de empresa, vea instalar una [http://go.microsoft.com/fwlink/p/?LinkID=313364](http://go.microsoft.com/fwlink/p/?linkid=313364)entidad de certificación raíz de empresa en.
+En la siguiente sección se describe cómo configurar una entidad de certificación (CA) raíz de empresa para que admita la autenticación de tarjeta inteligente. Para obtener información sobre cómo instalar una entidad de certificación raíz de empresa, consulte install a Enterprise root [http://go.microsoft.com/fwlink/p/?LinkID=313364](http://go.microsoft.com/fwlink/p/?linkid=313364)Certification Authority en.
 
 <div>
 
-## <a name="configuring-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>Configurar una entidad emisora de certificados raíz de empresa para admitir la autenticación de tarjetas inteligentes
+## <a name="configuring-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>Configuración de una entidad de certificación raíz empresarial para admitir la autenticación de tarjeta inteligente
 
-En los siguientes pasos, se describe cómo configurar una CA raíz empresarial para admitir la autenticación de tarjeta inteligente:
+Los pasos siguientes describen cómo configurar una CA raíz de empresa para admitir la autenticación de tarjeta inteligente:
 
-1.  Inicie sesión en el equipo de la CA empresarial usando una cuenta de administrador de dominio.
+1.  Inicie sesión en el equipo de la entidad de certificación empresarial con una cuenta de administrador de dominio.
 
-2.  Inicie el Administrador del sistema y compruebe que está instalado el rol Inscripción web de entidad de certificación.
+2.  Inicie el administrador del sistema y compruebe que está instalado el rol de inscripción Web de la entidad de certificación.
 
-3.  En el menú **Herramientas administrativas**, abra la consola de administración de **Entidad de certificación**.
+3.  En el menú **herramientas administrativas** , abra la consola de administración de la **entidad de certificación** .
 
-4.  En el panel de navegación, expanda **Entidad de certificación**.
+4.  En el panel de navegación, expanda **entidad de certificación**.
 
-5.  Haga clic con el botón derecho en **Plantillas de certificado**, elija **Nueva** y, luego, elija **Plantilla de certificado que se va a emitir**.
+5.  Haga clic con el botón secundario en **plantillas de certificado**, seleccione **nuevo**y, a continuación, seleccione **plantilla de certificado para emitir**.
 
-6.  Elija **Enrollment Agent**, **Usuario de tarjeta inteligente** e **Inicio de sesión de Tarjeta inteligente**.
+6.  Seleccione **agente de inscripción**, **usuario de tarjeta inteligente**e **Inicio de sesión de tarjeta inteligente**.
 
 7.  Haga clic en **Aceptar**.
 
-8.  Haga clic con el botón derecho en **Plantillas de certificado**.
+8.  Haga clic con el botón secundario en **plantillas de certificado**.
 
-9.  Elija **Administrar**.
+9.  Seleccione **administrar**.
 
-10. Abra las propiedades de la plantilla Usuario de tarjeta inteligente.
+10. Abra las propiedades de la plantilla usuario de tarjeta inteligente.
 
-11. Haga clic en la pestaña **Seguridad**.
+11. Haga clic en la pestaña **seguridad** .
 
-12. Cambie los permisos como se indica a continuación:
+12. Cambie los permisos de la siguiente manera:
     
-      - Agregue cuentas de usuario individuales de AD con los permisos Leer/Inscribir (permitir), o
+      - Agregar cuentas de AD de usuario individuales con permisos de lectura/inscripción (permitir), o
     
-      - Agregue un grupo de seguridad que contenga los usuarios de tarjeta inteligente con permisos Leer/Inscribir (permitir), o
+      - Agregue un grupo de seguridad que contenga usuarios de tarjetas inteligentes con permisos de lectura/inscripción (permitir), o
     
-      - Agregue el grupo Usuarios del dominio con los permisos Leer/Inscribir (permitir)
+      - Adición del grupo de usuarios de dominio con permisos de lectura e inscripción (permitir)
 
 </div>
 

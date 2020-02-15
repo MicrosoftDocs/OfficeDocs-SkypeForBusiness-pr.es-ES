@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planear el estacionamiento de llamadas'
+title: 'Lync Server 2013: Planeación del estacionamiento de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 068c574cc21a3f81d91491da521911aa56c5ce83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0f42d4b61302b17d8d6247d7a9a1dcc5dbe6b218
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754390"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037042"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-call-park-in-lync-server-2013"></a>Planear el estacionamiento de llamadas en Lync Server 2013
+# <a name="planning-for-call-park-in-lync-server-2013"></a>Planeación del estacionamiento de llamadas en Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41754390"
 
 _**Última modificación del tema:** 2012-09-07_
 
-La aplicación de estacionamiento de llamadas de Lync Server permite a los usuarios de Enterprise Voice poner una llamada en espera y, a continuación, recuperarla más tarde desde cualquier teléfono. El usuario que ha aparcado la llamada puede marcar el número de órbita que proporciona la llamada a Park para recuperar la llamada estacionada o usar un mecanismo externo, como la mensajería instantánea o un sistema de paginación, para pedir a otra persona que recupere la llamada. En esta sección se incluye información de planificación específica de Call Park.
+La aplicación de estacionamiento de llamadas de Lync Server permite a los usuarios de Enterprise Voice poner una llamada en espera y, a continuación, recuperarla más adelante desde cualquier teléfono. El usuario que estacionó la llamada puede marcar el número de órbita que proporcionó el estacionamiento de llamadas para recuperar la llamada estacionada o usar un mecanismo externo, como un mensaje instantáneo o un sistema de paginación, para solicitar a otra persona que recupere la llamada. En esta sección se incluye información de planeación específica para el estacionamiento de llamadas.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Información general sobre el parque de llamadas en Lync Server 2013](lync-server-2013-overview-of-call-park.md)
+  - [Información general sobre el estacionamiento de llamadas en Lync Server 2013](lync-server-2013-overview-of-call-park.md)
 
   - [Componentes que usa el estacionamiento de llamadas en Lync Server 2013](lync-server-2013-components-used-by-call-park.md)
 
   - [Requisitos técnicos para el estacionamiento de llamadas en Lync Server 2013](lync-server-2013-technical-requirements-for-call-park.md)
 
-  - [Clientes admitidos para el estacionamiento de llamadas en Lync Server 2013](lync-server-2013-clients-supported-for-call-park.md)
+  - [Clientes compatibles con el estacionamiento de llamadas en Lync Server 2013](lync-server-2013-clients-supported-for-call-park.md)
 
-  - [Planificar la capacidad para el estacionamiento de llamadas en Lync Server 2013](lync-server-2013-capacity-planning-for-call-park.md)
+  - [Planeación de la capacidad para el estacionamiento de llamadas en Lync Server 2013](lync-server-2013-capacity-planning-for-call-park.md)
 
-  - [Proceso de implementación para el parque de llamadas en Lync Server 2013](lync-server-2013-deployment-process-for-call-park.md)
+  - [Proceso de implementación del estacionamiento de llamadas en Lync Server 2013](lync-server-2013-deployment-process-for-call-park.md)
 
 </div>
 

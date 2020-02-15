@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Solicitar certificados para componentes perimetrales'
+title: 'Lync Server 2013: solicitar certificados para componentes perimetrales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 096603b48e6a3636a397c4abf7c19c2b4237f132
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 10e7a724edd6e68602e4655a783f953ad1e2bc2c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763322"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046923"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,29 +37,29 @@ ms.locfileid: "41763322"
 
 _**Última modificación del tema:** 2013-11-07_
 
-Los certificados necesarios para admitir el acceso de usuarios externos incluyen certificados emitidos por una entidad de certificación (CA) pública y certificados emitidos por una entidad de certificación empresarial interna:
+Los certificados requeridos para admitir el acceso de usuarios externos incluyen los certificados emitidos por una entidad de certificación (CA) pública y los certificados emitidos por una CA empresarial interna:
 
   - Los certificados necesarios para la interfaz externa del servidor perimetral y el proxy inverso deben ser emitidos por una entidad de certificación pública.
 
-  - Los certificados necesarios para la interfaz interna pueden ser emitidos por una entidad de certificación pública o por una entidad de certificación empresarial interna. Recomendamos usar una CA interna de Windows Server 2008, Windows Server 2008 R2 CA, Windows Server 2012 CA o Windows Server 2012 R2 CA para crear estos certificados y ahorrar al gasto de usar certificados públicos.
+  - Los certificados requeridos para la interfaz interna puede emitirlos tanto una CA pública como una CA empresarial interna. Se recomienda usar una CA interna de Windows Server 2008, una CA de Windows Server 2008 R2, una CA de Windows Server 2012 o una CA de Windows Server 2012 R2 para crear estos certificados y ahorrarse en el gasto del uso de certificados públicos.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Puede demorar el proceso de procesar las solicitudes de certificado, especialmente las de las entidades de certificación públicas, por lo que debe solicitar certificados para los servidores perimetrales lo suficientemente pronto como para asegurarse de que estén disponibles al iniciar la implementación de los componentes del servidor perimetral. Para obtener un resumen de los requisitos de certificado para servidores perimetrales, consulte <A href="lync-server-2013-certificate-requirements-for-external-user-access.md">requisitos de certificados para el acceso de usuarios externos en Lync Server 2013</A>.
+> El procesamiento de las solicitudes de certificado pueden tardar, en especial las solicitudes a CA públicas, por lo que deberá solicitar los certificados para sus servidores perimetrales con la suficiente anterioridad para que estén disponibles al iniciar la implementación de los componentes de servidor perimetral. Para obtener un resumen de los requisitos de certificado para servidores perimetrales, consulte <A href="lync-server-2013-certificate-requirements-for-external-user-access.md">requisitos de certificados para el acceso de usuarios externos en Lync Server 2013</A>.
 
 
 
 </div>
 
-Aunque puede elegir usar una CA pública para el certificado de contorno interno, le recomendamos que use una CA de empresa interna para esos otros certificados para minimizar el costo de los certificados. Para obtener un resumen de los requisitos de certificado para servidores perimetrales, consulte [requisitos de certificados para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
+Aunque puede optar por usar una CA pública para el certificado perimetral interno, se recomienda usar una CA empresarial interna para esos otros certificados, para minimizar el coste de los certificados. Para obtener un resumen de los requisitos de certificado para servidores perimetrales, consulte [requisitos de certificados para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
 <div>
 
 
 > [!NOTE]  
-> Al instalar un servidor perimetral, el programa de instalación incluye un asistente de certificados que facilita las tareas de solicitar, asignar e instalar certificados, como se describe en la sección <A href="lync-server-2013-set-up-edge-certificates.md">configurar certificados perimetrales para Lync Server 2013</A> . Si desea solicitar certificados antes de instalar un servidor perimetral (por ejemplo, para ahorrar tiempo durante la implementación real de los componentes del servidor perimetral), puede hacerlo con servidores internos siempre que se asegure de que los certificados son exportables y contienen todos los se necesitan nombres alternativos de asunto. En esta documentación no se proporcionan procedimientos para usar servidores internos con el fin de solicitar certificados.
+> Al instalar un servidor perimetral, el programa de instalación incluye un asistente para certificados que facilita las tareas de solicitud, asignación e instalación de certificados, tal como se describe en la sección <A href="lync-server-2013-set-up-edge-certificates.md">configurar certificados perimetrales para Lync Server 2013</A> . Si desea solicitar certificados antes de instalar un servidor perimetral (por ejemplo, para ahorrar tiempo durante la implementación real de los componentes del servidor perimetral), puede hacerlo con servidores internos siempre que garantice que los certificados son exportables y contienen todos los se requieren nombres alternativos de sujeto. Esta documentación no indica los procedimientos de uso de los servidores internos para solicitar certificados.
 
 
 
@@ -67,19 +67,19 @@ Aunque puede elegir usar una CA pública para el certificado de contorno interno
 
 <div>
 
-## <a name="request-certificates-from-a-public-ca"></a>Solicitar certificados de una entidad de certificación pública
+## <a name="request-certificates-from-a-public-ca"></a>Solicitar certificados a una CA pública
 
-La implementación de su servidor perimetral requiere un único certificado público para las interfaces externas de los servidores perimetrales, que se usa para el servicio perimetral de acceso, el servicio perimetral de conferencias web y para el servicio de autenticación A/V. Este certificado debe tener una clave privada exportable para asegurarse de que el servicio de autenticación A/V use las mismas claves en todos los servidores perimetrales de un grupo. El proxy inverso, que se usa con Microsoft Internet Security and Acceleration (ISA) Server 2006 o Microsoft Forefront Threat Management Gateway 2010, también requiere un certificado público.
+La implementación del servidor perimetral requiere un único certificado público para las interfaces externas de los servidores perimetrales, que se usa para el servicio perimetral de acceso, el servicio perimetral de conferencia web y para el servicio de autenticación A/V. Este certificado debe tener una clave privada exportable para asegurarse de que el servicio de autenticación A/V usa las mismas claves en todos los servidores perimetrales de un grupo. El proxy inverso, que se usa con Microsoft Internet Security and Acceleration (ISA) Server 2006 o Microsoft Forefront Threat Management Gateway 2010, también requiere un certificado público.
 
 </div>
 
 <div>
 
-## <a name="request-certificates-from-an-internal-enterprise-ca"></a>Solicitar certificados de una CA de empresa interna
+## <a name="request-certificates-from-an-internal-enterprise-ca"></a>Solicitar certificados a una CA empresarial interna
 
-Los certificados necesarios para la interfaz de borde interno pueden ser emitidos por una entidad de certificación pública (CA) o una CA interna. Puede usar una entidad de certificación empresarial interna para ayudar a minimizar el costo de los certificados. Si su organización tiene una CA interna implementada, la entidad de certificación interna debe emitir los certificados para el contorno interno. El uso de una CA de empresa interna para certificados internos puede reducir el costo de los certificados.
+Los certificados necesarios para la interfaz perimetral interna pueden proceder de una entidad de certificación pública o de una entidad de certificación interna. Se puede usar una entidad de certificación empresarial interna para que el costo de los certificados sea menor. Si la organización tiene implementada una entidad de certificación interna, es la que debe emitir los certificados para la red perimetral interna. Si se recurre a una entidad de certificación empresarial interna para obtener los certificados internos, el costo de los certificados se verá reducido.
 
-Para obtener un resumen de los requisitos de certificado para los componentes de Edge, consulte [requisitos de certificados para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md). Para obtener más información sobre cómo usar una CA pública para obtener certificados, consulte [solicitar certificados para componentes de Edge en Lync Server 2013](lync-server-2013-request-certificates-for-edge-components.md). Para obtener más información sobre cómo solicitar, instalar y asignar certificados, consulte [configurar certificados perimetrales para Lync Server 2013](lync-server-2013-set-up-edge-certificates.md).
+Para obtener un resumen de los requisitos de certificado para los componentes perimetrales, consulte [Certificate Requirements for external User Access in Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md). Para obtener información detallada sobre cómo usar una CA pública para obtener certificados, consulte [solicitar certificados para componentes perimetrales en Lync Server 2013](lync-server-2013-request-certificates-for-edge-components.md). Para obtener más información sobre cómo solicitar, instalar y asignar certificados, consulte [configurar los certificados perimetrales para Lync Server 2013](lync-server-2013-set-up-edge-certificates.md).
 
 </div>
 

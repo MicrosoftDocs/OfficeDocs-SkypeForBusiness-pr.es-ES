@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: habilitar o deshabilitar la recogida de llamadas grupales para los usuarios'
+title: 'Lync Server 2013: habilitar o deshabilitar la recepción de llamadas de grupo para los usuarios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bec90c71a10c0064f7c2b9bb95bce1dfe6afa54
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 46bc1bb958fae23f4e8c66587d358004e7b6cf3d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736031"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040149"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-group-call-pickup-for-users-in-lync-server-2013"></a>Habilitar o deshabilitar la recogida de llamadas de grupo para los usuarios en Lync Server 2013
+# <a name="enable-or-disable-group-call-pickup-for-users-in-lync-server-2013"></a>Habilitar o deshabilitar la atención de llamadas grupales para los usuarios en Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41736031"
 
 _**Última modificación del tema:** 2013-02-22_
 
-Cuando se agrega un rango de recogida de llamadas grupales a la tabla de llamadas en órbita, puede habilitar y deshabilitar la recogida de llamadas de grupo para el usuario según sea necesario. En esta sección se describe cómo usar la herramienta del kit de recursos de SEFAUtil para habilitar y deshabilitar la recogida de llamadas grupales para los usuarios.
+Cuando se agrega un intervalo de recogida de llamadas grupales a la tabla de órbitas de estacionamiento de llamadas, puede habilitar y deshabilitar la atención de llamadas de grupo para el usuario, según sea necesario. En esta sección se describe cómo usar la herramienta del kit de recursos de SEFAUtil para habilitar y deshabilitar la recogida de llamadas de grupo para los usuarios.
 
 <div>
 
 
 > [!NOTE]  
-> El parámetro SEFAUtil,/enablegrouppickup, habilita la recopilación de llamadas grupales y asigna el número de grupo.
+> El parámetro SEFAUtil,/enablegrouppickup, habilita la atención de llamadas grupales y asigna el número de grupo.
 
 
 
@@ -53,9 +53,9 @@ Cuando se agrega un rango de recogida de llamadas grupales a la tabla de llamada
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Habilitar la recogida de llamadas grupales para los usuarios en Lync Server 2013](lync-server-2013-enable-group-call-pickup-for-users.md)
+  - [Habilitar la atención de llamadas grupales para los usuarios en Lync Server 2013](lync-server-2013-enable-group-call-pickup-for-users.md)
 
-  - [Deshabilitar la recogida de llamadas grupales para los usuarios en Lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)
+  - [Deshabilitar la atención de llamadas grupales para los usuarios en Lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)
 
 </div>
 

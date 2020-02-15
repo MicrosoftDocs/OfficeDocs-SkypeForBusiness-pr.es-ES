@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: solución de problemas de cmdlets de telefonía IP empresarial'
+title: 'Lync Server 2013: cmdlets de solución de problemas de Enterprise Voice'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 499da8c727237a581af55e56aec3517a7a427e44
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8ef88ac7a55480df050719fa1a85a056df8a02ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745040"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046513"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-enterprise-voice-cmdlets-in-lync-server-2013"></a>Solución de problemas de cmdlets de telefonía IP empresarial en Lync Server 2013
+# <a name="troubleshooting-enterprise-voice-cmdlets-in-lync-server-2013"></a>Solución de problemas de cmdlets de Enterprise Voice en Lync Server 2013
 
 </div>
 
@@ -37,66 +37,66 @@ ms.locfileid: "41745040"
 
 _**Última modificación del tema:** 2012-06-20_
 
-Configurar la voz de empresa como parte de la implementación de Microsoft Lync Server 2013 implica la creación de rutas, directivas y reglas que deben funcionar conjuntamente para garantizar que las llamadas entrantes y salientes se completen de la forma esperada. El shell de administración de Lync Server incluye cmdlets que se pueden usar para probar conexiones y rutas y para solucionar problemas que puedan surgir durante la implementación.
+La configuración de la telefonía IP empresarial como parte de su implementación de Microsoft Lync Server 2013 implica la creación de rutas, directivas y reglas que deben funcionar conjuntamente para garantizar que las llamadas entrantes y salientes se completen de la manera esperada. El shell de administración de Lync Server incluye cmdlets que se pueden usar para probar conexiones y rutas y para solucionar problemas que pueden surgir durante la implementación.
 
 <div>
 
-## <a name="troubleshooting-enterprise-voice-cmdlets"></a>Solución de problemas de cmdlets de telefonía IP empresarial
+## <a name="troubleshooting-enterprise-voice-cmdlets"></a>Troubleshooting Enterprise Voice Cmdlets
 
-Los cmdlets siguientes se pueden usar para probar y solucionar problemas de las conexiones de telefonía IP empresarial.
+Los cmdlets siguientes pueden usarse para probar y solucionar problemas de las conexiones de Enterprise Voice.
 
-**Solución de problemas de cmdlets de telefonía IP empresarial**
-
-  - <span></span>  
-    [Get-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398815(v=OCS.15))
+**Troubleshooting Enterprise Voice Cmdlets**
 
   - <span></span>  
-    [Remove-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398804(v=OCS.15))
+    [Get-CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398815(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398967(v=OCS.15))
+    [Remove-CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398804(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398967(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412957(v=OCS.15))
+    [Get-CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg412957(v=OCS.15))
 
   - <span></span>  
-    [Nuevo: CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398961(v=OCS.15))
+    [New-CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg398961(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412813(v=OCS.15))
+    [Remove-CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg412813(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398614(v=OCS.15))
+    [Set-CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg398614(v=OCS.15))
 
   - <span></span>  
-    [Prueba-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398260(v=OCS.15))
+    [Test-CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg398260(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg399024(v=OCS.15))
+    [Test-CsDialPlan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Prueba-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))
+    [Test-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Prueba-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398310(v=OCS.15))
+    [Test-CsVoicePolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Prueba-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425873(v=OCS.15))
+    [Test-CsVoiceRoute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Prueba-CsVoiceUser](https://technet.microsoft.com/en-us/library/Gg413013(v=OCS.15))
+    [Test-CsVoiceUser](https://technet.microsoft.com/library/Gg413013(v=OCS.15))
 
 </div>
 

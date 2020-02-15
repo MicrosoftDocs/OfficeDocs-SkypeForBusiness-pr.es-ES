@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Iniciar los servidores perimetrales'
+title: 'Lync Server 2013: Inicio de servidores perimetrales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185963
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2488e81c0512e8698337209161558b2789cd2f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 948529b62e9752010b9b4ad808f681dd1797f2d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764426"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038802"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41764426"
 
 _**Última modificación del tema:** 2012-01-16_
 
-Después de completar la configuración de los servidores perimetrales y los equilibradores de carga, debe iniciar los servicios en cada servidor perimetral.
+Una vez finalizada la instalación de los servidores perimetrales y los equilibradores de carga, deberá iniciar los servicios en cada servidor perimetral.
 
 <div>
 
 ## <a name="to-start-the-services"></a>Para iniciar los servicios
 
-1.  En cada servidor perimetral, en el Asistente para la implementación, junto al **paso 4: iniciar servicios**, haga clic en **Ejecutar**.
+1.  En cada servidor perimetral, en el Asistente para la implementación, junto a **Paso 4: Iniciar servicios**, haga clic en **Ejecutar**.
 
-2.  En la página **iniciar servicios de Lync Server 15** , revise la lista de servicios y, a continuación, haga clic en **siguiente** para iniciar los servicios.
+2.  En la página **Servicios de Office Lync Server 2010**, revise la lista de servicios y, a continuación, haga clic en **Siguiente** para iniciarlos.
 
-3.  Una vez iniciados los servicios, haga clic en **Finalizar** para cerrar el asistente.
+3.  Una vez iniciados los servicios, haga clic en **Finalizar** para cerrar el Asistente.
 
-4.  En el **paso 4: iniciar servicios**, haga clic en **Estado de servicios (opcional)**.
+4.  En **Paso 4: Iniciar servicios**, haga clic en **Estado de los servicios (opcional)**.
 
-5.  En los **servicios** Microsoft Management Console (MMC) en el servidor, compruebe que todos los servicios de Lync Server 2013 se estén ejecutando.
+5.  En Microsoft Management Console (MMC) de **servicios** en el servidor, compruebe que todos los servicios de Lync Server 2013 se están ejecutando.
 
 </div>
 

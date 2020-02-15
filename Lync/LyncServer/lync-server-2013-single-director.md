@@ -12,20 +12,20 @@ ms:contentKeyID: 48183705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6060048101bba9d4095adf08c176e8c2a944a19
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2732545b807e29f6bda7d7dc931648dc7f759d67
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732000"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037470"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="single-director-in-lync-server-2013"></a>Director único en Lync Server 2013
+# <a name="single-director-in-lync-server-2013"></a>Un solo Director en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41732000"
 
 _**Última modificación del tema:** 2012-10-22_
 
-El director puede implementarse en una única configuración de director o como un grupo de directores. En esta sección se define una topología y una configuración para un solo Director. Si planea implementar un grupo de directores con el fin de controlar la mayor capacidad y para obtener una alta disponibilidad, consulte el tema [grupo de directores con escala en Lync Server 2013](lync-server-2013-scaled-director-pool.md) para planear las consideraciones de esta topología.
+El director puede implementarse en una configuración de un solo Director o como un grupo de directores. En esta sección se define una topología y una configuración para un solo Director. Si tiene previsto implementar un grupo de directores con el fin de controlar la mayor capacidad y la alta disponibilidad, consulte el tema Grupo de directores [escalados en Lync Server 2013](lync-server-2013-scaled-director-pool.md) para planear las consideraciones de la topología.
 
 ![092967f2-3ad8-419b-9a7f-9714f4ebf8a3](images/JJ204763.092967f2-3ad8-419b-9a7f-9714f4ebf8a3(OCS.15).jpg "092967f2-3ad8-419b-9a7f-9714f4ebf8a3")
 
@@ -45,11 +45,11 @@ El director puede implementarse en una única configuración de director o como 
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Resumen de certificado - Director único en Lync Server 2013](lync-server-2013-certificate-summary-single-director.md)
+  - [Resumen del certificado-Director único en Lync Server 2013](lync-server-2013-certificate-summary-single-director.md)
 
-  - [Resumen del puerto - Director único en Lync Server 2013](lync-server-2013-port-summary-single-director.md)
+  - [Resumen de Puerto-Director único en Lync Server 2013](lync-server-2013-port-summary-single-director.md)
 
-  - [Resumen DNS - Director único en Lync Server 2013](lync-server-2013-dns-summary-single-director.md)
+  - [Resumen de DNS-Director único en Lync Server 2013](lync-server-2013-dns-summary-single-director.md)
 
 </div>
 

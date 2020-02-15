@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: supervisar el rendimiento de almacenamiento de back end de Lync Server'
+title: 'Lync Server 2013: supervisar el rendimiento del almacenamiento de back-end de Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969619
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c4d3741564cd0228213400d7ee1fbb7271c4ddd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 760e66403fd1da2b5a45cf0db065dc201e1fd02a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756864"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051162"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>Supervisar el rendimiento de almacenamiento de back end de Lync Server 2013
+# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>Supervisar el rendimiento del almacenamiento back-end de Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41756864"
 
 _**Última modificación del tema:** 2014-05-02_
 
-Las bases de datos back-end de Lync Server 2013 son una parte muy importante de la implementación de Lync Server 2013. Recomendamos supervisar constantemente las bases de datos y los registros de transacciones respectivos para asegurarse de que el back-end de 2013 de Lync Server está funcionando de manera óptima.
+Las bases de datos back-end de Lync Server 2013 son una parte muy importante de la implementación de Lync Server 2013. Le recomendamos que supervise constantemente las bases de datos y los registros de transacciones respectivos para asegurarse de que el back-end de 2013 de Lync Server se ejecuta de forma óptima.
 
-La siguiente tabla identifica los contadores de rendimiento que deben supervisarse para obtener información sobre el rendimiento del almacenamiento. Los valores de línea base de estos contadores deben determinarse en primer lugar (cuando el sistema tiene la carga normal, esperada) para comprender los cambios de rendimiento cuando el sistema está estresado.
+En la siguiente tabla se identifican los contadores de rendimiento que deben supervisarse para obtener información sobre el rendimiento del almacenamiento. Los valores de línea base de estos contadores deben determinarse en primer lugar (cuando el sistema está en su estado normal y previsto) para conocer los cambios de rendimiento cuando el sistema está sobrecargado.
 
 ### <a name="performance-counters-to-be-monitored"></a>Contadores de rendimiento que se van a supervisar
 
@@ -56,7 +56,7 @@ La siguiente tabla identifica los contadores de rendimiento que deben supervisar
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Transacciones/s (RTC)</p></td>
+<td><p>Transacciones/seg (RTC)</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -64,27 +64,27 @@ La siguiente tabla identifica los contadores de rendimiento que deben supervisar
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Transacciones/s (tempdb)</p></td>
+<td><p>Transacciones por segundo (tempdb)</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Vaciados del registro/s (RTC)</p></td>
+<td><p>Vaciados del registro/seg (RTC)</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Vaciados del registro/seg (RTCDyn)</p></td>
+<td><p>Vaciados de registro/seg (RTCDyn)</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Vaciados de registro/sec (tempdb)</p></td>
+<td><p>Vaciados de registro/seg (tempdb)</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Transferencias de disco/seg (lectura y escritura): base de BD de RTC</p></td>
+<td><p>Transferencias de disco/seg (lectura y escritura)-base de datos RTC</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Transferencias de disco/seg.</p></td>
+<td><p>Transferencias de disco/seg: registro RTC</p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -92,7 +92,7 @@ La siguiente tabla identifica los contadores de rendimiento que deben supervisar
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Transferencias de disco/seg: registro de RTCDyn</p></td>
+<td><p>Transferencias de disco/seg.: registro de RTCDyn</p></td>
 <td></td>
 </tr>
 </tbody>

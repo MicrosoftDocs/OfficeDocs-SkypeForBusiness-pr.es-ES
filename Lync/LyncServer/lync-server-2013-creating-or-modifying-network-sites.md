@@ -12,16 +12,16 @@ ms:contentKeyID: 48183801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c77c343bff92e25ffc1678bc06e7a0ef05d3f96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1e7c3db5b37cba514a0c07e11a907628dcc7823f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728770"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047613"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,56 +37,56 @@ ms.locfileid: "41728770"
 
 _**Última modificación del tema:** 2012-10-08_
 
-Los sitios de red son las oficinas o ubicaciones configuradas dentro de cada región de control de admisión de llamadas (CAC) o implementación mejorada de 9-1-1. Puede usar el panel de control de Microsoft Lync Server 2013 para configurar sitios y asociarlos con regiones. Por ejemplo, una región de red para Norteamérica puede estar asociada a sitios de redes como Chicago, Redmond y Vancouver. Es necesario crear un sitio de red CAC para cada sitio dentro de una organización, incluso si ese sitio no tiene limitaciones de ancho de banda. En el panel de control de Lync Server puede crear, modificar y eliminar sitios de red. Use los procedimientos siguientes para crear o modificar un sitio de red. Para obtener más información sobre cómo eliminar un sitio de red existente, consulte [eliminar un sitio de red existente en Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md).
+Los sitios de red son las oficinas o ubicaciones configuradas dentro de cada región de una implementación de Enhanced 9-1-1 o control de admisión de llamadas (CAC). Puede usar el panel de control de Microsoft Lync Server 2013 para configurar sitios y asociarlos con regiones. Por ejemplo, una región de red para Norteamérica se podría asociar con sitios de red como Chicago, Redmond y Vancouver. Debe crearse un sitio de red CAC para cada sitio de una organización, incluso aunque no tenga limitaciones de ancho de banda. En el panel de control de Lync Server, puede crear, modificar y eliminar sitios de red. Utilice los procedimientos siguientes para crear o modificar un sitio de red. Para obtener más información sobre cómo eliminar un sitio de red existente, consulte [eliminar un sitio de red existente en Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md).
 
 <div>
 
 ## <a name="to-create-a-network-site"></a>Para crear un sitio de red
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **configuración de red** y, después, en **sitio**.
+3.  En la barra de navegación izquierda, haga clic en **Configuración de red** y, a continuación, en **Sitio**.
 
-4.  En la página **sitio** , haga clic en **nuevo**.
+4.  En la página **Sitio**, haga clic en **Nuevo**.
 
-5.  En **nuevo sitio**, escriba un nombre para este sitio en el campo **nombre** .
+5.  En **Sitio nuevo**, escriba un nombre para este sitio en el campo **Nombre**.
     
     <div>
     
 
     > [!NOTE]  
-    > Los nombres de los sitios deben ser únicos en la implementación de Lync Server 2013.
+    > Los nombres de sitio deben ser únicos dentro de la implementación de Lync Server 2013.
 
     
     </div>
 
-6.  En la lista desplegable **región** , seleccione la región de red que se va a asociar con este sitio.
+6.  En la lista desplegable **Región**, seleccione una región de red para asociarla con este sitio.
 
-7.  Faculta Si desea colocar limitaciones de ancho de banda en las llamadas de audio o vídeo a este sitio, seleccione el perfil de directiva de ancho de banda con la configuración adecuada de la lista desplegable **Directiva de ancho de banda** .
+7.  (Opcional) Si desea definir limitaciones de ancho de banda en las llamadas de audio o vídeo para este sitio, seleccione el perfil de directiva de ancho de banda con la configuración adecuada en la lista desplegable **Directiva de ancho de banda**.
     
     <div>
     
 
     > [!NOTE]  
-    > Puede ver los detalles de los perfiles de directiva de ancho de banda disponibles o crear un nuevo perfil de directiva de ancho de banda en la página <STRONG>Perfil de directiva</STRONG> del grupo <STRONG>configuración de red</STRONG> . Para obtener más información, vea <A href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">crear o modificar perfiles de directiva de ancho de banda en Lync Server 2013</A>.
+    > Puede ver la información detallada de los perfiles de directivas de ancho de banda disponibles o crear uno nuevo en la página <STRONG>Perfil de directiva</STRONG> del grupo <STRONG>Configuración de red</STRONG>. Para obtener más información, consulte <A href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">creación o modificación de perfiles de directiva de ancho de banda en Lync Server 2013</A>.
 
     
     </div>
 
-8.  Faculta Si desea proporcionar la configuración de ubicación para este sitio, seleccione una directiva de ubicación en la lista desplegable **Directiva de ubicación** .
+8.  (Opcional) Si desea proporcionar parámetros de ubicación para este sitio, seleccione una directiva de ubicación de la lista desplegable **Directiva de ubicación**.
     
     <div>
     
 
     > [!NOTE]  
-    > La Directiva de ubicación asigna una configuración de ubicación de cliente, 9-1-1 (E9-1-1) específica y mejorada al sitio. Puede ver los detalles de las directivas de ubicación disponibles o crear una nueva Directiva de ubicación desde la página de <STRONG>directivas</STRONG> de ubicación del grupo <STRONG>configuración de red</STRONG> . Para obtener más información, consulte <A href="lync-server-2013-viewing-location-policy-information.md">ver información de directivas de ubicación en Lync Server 2013</A>.
+    > La directiva de ubicación asigna al sitio un Enhanced 9-1-1 (E9-1-1) específico y parámetros de ubicación de cliente. Puede ver la información detallada de las directivas de ubicación disponibles o crear una nueva desde la página <STRONG>Directiva de ubicación</STRONG> del grupo <STRONG>Configuración de red</STRONG>. Para obtener más información, consulte <A href="lync-server-2013-viewing-location-policy-information.md">ver información de directivas de ubicación en Lync Server 2013</A>.
 
     
     </div>
 
-9.  Faculta Escriba un valor en el campo **Descripción** para proporcionar más información sobre este sitio que no puede expresarse solo por el nombre.
+9.  (Opcional) Escriba un valor en el campo **Descripción** para proporcionar más información acerca de este sitio más allá de lo que se pueda deducir de su nombre.
 
 10. Haga clic en **Confirmar**.
     
@@ -94,7 +94,7 @@ Los sitios de red son las oficinas o ubicaciones configuradas dentro de cada reg
     
 
     > [!NOTE]  
-    > No use la tabla de <STRONG>subredes asociada</STRONG> cuando cree un nuevo sitio de red. Al crear o modificar la subred, se asocia una subred con un sitio. Para obtener más información, consulte <A href="lync-server-2013-create-or-modify-network-subnets.md">crear o modificar subredes de red en Lync Server 2013</A>.
+    > No use la tabla <STRONG>Subredes asociadas</STRONG> al crear un sitio de red nuevo. Al crear o modificar la subred, asocie una subred con un sitio. Para obtener más información, consulte <A href="lync-server-2013-create-or-modify-network-subnets.md">crear o modificar subredes de red en Lync Server 2013</A>.
 
     
     </div>
@@ -105,21 +105,21 @@ Los sitios de red son las oficinas o ubicaciones configuradas dentro de cada reg
 
 ## <a name="to-modify-a-network-site"></a>Para modificar un sitio de red
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **configuración de red** y, después, en **sitio**.
+3.  En la barra de navegación izquierda, haga clic en **Configuración de red** y, a continuación, en **Sitio**.
 
-4.  En la página del **sitio** , haga clic en el sitio que desea modificar.
+4.  En la página **Sitio**, haga clic en el sitio que desea modificar.
 
 5.  En el menú **Editar**, haga clic en **Mostrar detalles**.
 
-6.  En la página **Editar sitio** , puede modificar la descripción, la región, el perfil de la Directiva de ancho de banda y la Directiva de ubicación asociada al sitio. Para obtener más información, vea la sección "para crear un sitio de red" anteriormente en este tema.
+6.  En la página **Editar sitio**, puede modificar la descripción, la región, el perfil de directiva de ancho de banda y la directiva de ubicación asociados con el sitio. Para obtener más información, consulte la sección "Para crear un sitio de red" que aparece anteriormente en este tema.
 
 7.  Haga clic en **Confirmar**.
 
-No puede modificar la tabla de **subredes asociada** en esta página. La lista de subredes asociadas se proporciona para que sea consciente de las subredes que se verán afectadas al modificar la configuración del sitio.
+No es posible modificar la tabla **Subredes asociadas** de esta página. La lista de subredes asociadas solo es de referencia, por lo que debe conocer qué subredes se verán afectadas cuando modifique la configuración del sitio.
 
 </div>
 
@@ -127,24 +127,24 @@ No puede modificar la tabla de **subredes asociada** en esta página. La lista d
 
 ## <a name="to-delete-a-network-site"></a>Para eliminar un sitio de red
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **configuración de red** y, después, en **sitio**.
+3.  En la barra de navegación izquierda, haga clic en **Configuración de red** y, a continuación, en **Sitio**.
 
-4.  En la página del **sitio** , haga clic en el sitio que desea eliminar.
+4.  En la página **Sitio**, haga clic en el sitio que desea eliminar.
     
     <div>
     
 
     > [!NOTE]  
-    > Puede eliminar más de un sitio a la vez. Para ello, presione CTRL y seleccione varios sitios mientras mantiene presionada la tecla CTRL. O bien, para seleccionar todos los sitios, haga clic en <STRONG>seleccionar todo</STRONG> en el menú <STRONG>edición</STRONG> .
+    > Puede eliminar más de un sitio en la misma operación. Para hacerlo, pulse CTRL y seleccione varios sitios manteniendo pulsada la tecla CTRL. O bien, para seleccionar todos los sitios, haga clic en <STRONG>Seleccionar todo</STRONG> en el menú <STRONG>Editar</STRONG>.
 
     
     </div>
 
-5.  En el menú **Editar** , haga clic en **eliminar**.
+5.  En el menú **Editar**, haga clic en **Eliminar**.
 
 6.  Haga clic en **Aceptar**.
     
@@ -152,7 +152,7 @@ No puede modificar la tabla de **subredes asociada** en esta página. La lista d
     
 
     > [!WARNING]  
-    > No puede quitar un sitio de red si está asociado con una subred de red. Si intenta quitar un sitio asociado a una subred, recibirá un mensaje de error. Para ver si un sitio está asociado con cualquier subred, haga clic en el sitio y, a continuación, haga clic en <STRONG>Mostrar detalles</STRONG> en el menú <STRONG>edición</STRONG> .
+    > No se puede eliminar un sitio de red si está asociado con la subred de una red. Si intenta quitar un sitio asociado a una subred, recibirá un mensaje de error. Para ver si un sitio está asociado con alguna subred, haga clic en el sitio y, a continuación, haga clic en <STRONG>Mostrar detalles</STRONG> en el menú <STRONG>Editar</STRONG>.
 
     
     </div>
@@ -164,7 +164,7 @@ No puede modificar la tabla de **subredes asociada** en esta página. La lista d
 ## <a name="see-also"></a>Vea también
 
 
-[Eliminar un sitio de red existente en Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md)  
+[Eliminación de un sitio de red existente en Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md)  
 
 
 [New-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)  

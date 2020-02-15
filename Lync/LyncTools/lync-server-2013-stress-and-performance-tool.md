@@ -1,5 +1,5 @@
 ---
-title: Herramienta de esfuerzo y de rendimiento de Lync Server 2013
+title: Herramienta de esfuerzo y rendimiento de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1dd1aff9eda1d40ba231a5c23e47e77c1c19858
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6b98c2d8b45db16880f22ed3a26fc61774db2213
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723420"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038352"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-stress-and-performance-tool"></a>Herramienta de esfuerzo y de rendimiento de Lync Server 2013
+# <a name="lync-server-2013-stress-and-performance-tool"></a>Herramienta de esfuerzo y rendimiento de Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41723420"
 
 _**Última modificación del tema:** 2013-01-25_
 
-La herramienta Lync Server 2013 stress and Performance incluye herramientas que simplifican la planificación de la capacidad de Lync Server 2013. La herramienta de estrés y rendimiento de Lync Server 2013 le ayudará a:
+La herramienta stress and performance de Lync Server 2013 incluye herramientas que simplifican la planeación de la capacidad para Lync Server 2013. La herramienta stress and performance de Lync Server 2013 le ayudará a:
 
-  - Simplificar la planificación de hardware para Lync Server 2013.
+  - Simplifique la planeación de hardware para Lync Server 2013.
 
-  - Proporcionarle más conocimientos y procedimientos recomendados para ajustar el rendimiento.
+  - Proporcionarle un mayor conocimiento y procedimientos recomendados para ajustar el rendimiento.
 
-  - Mida el rendimiento de las implementaciones de Lync Server 2013.
+  - Mida el rendimiento de las implementaciones de Lync Server 2013 previstas.
 
 <div>
 
@@ -55,17 +55,17 @@ La herramienta Lync Server 2013 stress and Performance incluye herramientas que 
 
 3.  [Instalación](setup.md)
 
-4.  [Configurar escenarios de 2013 de Lync Server](configure-lync-server-2013-scenarios.md)
+4.  [Configuración de escenarios de 2013 de Lync Server](configure-lync-server-2013-scenarios.md)
 
 5.  [Crear usuarios y contactos](create-users-and-contacts.md)
 
-6.  [Configurar Perfil de usuario](configure-user-profile.md)
+6.  [Configurar el perfil de usuario](configure-user-profile.md)
 
 7.  [Ejecutar LyncPerfTool](run-lyncperftool.md)
 
 8.  [Interpretación de los resultados](interpreting-the-results.md)
 
-9.  [Preguntas más frecuentes sobre la herramienta de estrés y rendimiento de Lync Server 2013](lync-server-2013-stress-and-performance-tool-faq.md)
+9.  [Preguntas más frecuentes de la herramienta stress and performance de Lync Server 2013](lync-server-2013-stress-and-performance-tool-faq.md)
 
 </div>
 

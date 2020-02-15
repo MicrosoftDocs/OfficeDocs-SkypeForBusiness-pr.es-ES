@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Integración de herramientas de administración de chat persistente'
+title: 'Lync Server 2013: integración de herramientas de administración de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e35f9bcd1238141aada9bc5bfd9b802c10ffc6ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 29d283b7c935cb41f14b2a7048eedd369d378f44
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725820"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040979"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41725820"
 
 _**Última modificación del tema:** 2012-08-16_
 
-Lync Server 2013 simplifica la administración de servidores de chat persistentes mediante la integración de sus herramientas de administración con las herramientas usadas para el resto de Lync Server.
+Lync Server 2013 simplifica la administración del servidor de chat persistente integrando sus herramientas de administración con las herramientas usadas para el resto de Lync Server.
 
-El servidor de chat persistente incluye una experiencia de interfaz de usuario administrativa integrada con el panel de control de Lync Server. Además, el servidor de chat persistente incluye una colección de cmdlets de Windows PowerShell para administrar y administrar las categorías de servidores de chat persistentes, salones (como eliminar salas y purgado de contenido obsoleto) y complementos.
+El servidor de chat persistente incluye una experiencia de interfaz de usuario administrativa integrada con el panel de control de Lync Server. Además, el servidor de chat persistente incluye una colección de cmdlets de Windows PowerShell para administrar y administrar categorías de servidores de chat persistente, salones (incluidos la eliminación de salas y la depuración de contenido obsoleto) y complementos.
 
 <div>
 
 ## <a name="see-also"></a>Vea también
 
 
-[Información general del servidor de chat en grupo en Lync Server 2013](lync-server-2013-overview-of-persistent-chat-server.md)  
+[Información general sobre el servidor de chat persistente en Lync Server 2013](lync-server-2013-overview-of-persistent-chat-server.md)  
 
 
-[Administrar el servidor de chat persistente de Lync Server 2013](managing-lync-server-2013-persistent-chat-server.md)  
+[Administración del servidor de chat persistente de Lync Server 2013](managing-lync-server-2013-persistent-chat-server.md)  
   
 
 </div>

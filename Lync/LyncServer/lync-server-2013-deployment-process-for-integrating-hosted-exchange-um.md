@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Proceso de implementación para la integración de la mensajería unificada de Exchange hospedada'
+title: 'Lync Server 2013: proceso de implementación para integrar la mensajería unificada de Exchange hospedada'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b314ea3bd7a88264a72c804c7c67ed3baa819972
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cdab3e470037780d871f9ac6a5eba549497cd23a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762628"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038132"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-integrating-hosted-exchange-um-with-lync-server-2013"></a>Proceso de implementación para la integración de la mensajería unificada de Exchange hospedada con Lync Server 2013
+# <a name="deployment-process-for-integrating-hosted-exchange-um-with-lync-server-2013"></a>Proceso de implementación para integrar la mensajería unificada de Exchange hospedada con Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41762628"
 
 _**Última modificación del tema:** 2012-09-25_
 
-Una planeación eficaz para integrar Lync Server 2013 con mensajería unificada de Exchange hospedado (UM) requiere tener en cuenta lo siguiente:
+La planeación eficaz para la integración de Lync Server 2013 con mensajería unificada (UM) hospedada de Exchange requiere que tenga en cuenta lo siguiente:
 
-  - Requisitos previos para integrar Lync Server 2013 con mensajería unificada de Exchange hospedado
+  - Requisitos previos para integrar Lync Server 2013 con mensajería unificada de Exchange hospedada
 
-  - Pasos necesarios durante el proceso de integración
+  - Los pasos necesarios durante el proceso de integración
 
 <div>
 
-## <a name="deployment-prerequisites-for-integrating-with-hosted-exchange-um"></a>Requisitos previos de implementación para la integración con mensajería unificada de Exchange hospedado
+## <a name="deployment-prerequisites-for-integrating-with-hosted-exchange-um"></a>Requisitos previos de implementación para la integración con la mensajería unificada hospedada de Exchange
 
-Antes de que pueda comenzar el proceso de integración, debe haber implementado ya Lync Server 2013 (como mínimo, un grupo de servidores front-end o un servidor Standard Edition), un servidor perimetral y clientes de Lync 2013 o Lync 2010.
+Para poder iniciar el proceso de integración, debe haber implementado ya Lync Server 2013 (como mínimo, un grupo de servidores front-end o un servidor Standard Edition), un servidor perimetral y clientes de Lync 2013 o Lync 2010.
 
 </div>
 
@@ -55,7 +55,7 @@ Antes de que pueda comenzar el proceso de integración, debe haber implementado 
 
 ## <a name="integration-process"></a>Proceso de integración
 
-En la tabla siguiente se ofrece información general sobre el proceso de integración de mensajería unificada de Exchange hospedado. Para obtener más información sobre los pasos de implementación, consulte [proporcionar a los usuarios de Lync Server 2013 correo de voz en la mensajería unificada de Exchange hospedada](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md) en la documentación de implementación.
+En la tabla siguiente se proporciona información general del proceso de integración de mensajería unificada hospedada de Exchange. Para obtener más información sobre los pasos de implementación, vea el documento sobre cómo [suministrar Lync Server 2013 usuarios de voz en la mensajería unificada de Exchange hospedada](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md) en la documentación de implementación.
 
 
 <table>
@@ -78,25 +78,25 @@ En la tabla siguiente se ofrece información general sobre el proceso de integra
 <td><p>Configurar el servidor perimetral.</p></td>
 <td><ol>
 <li><p>Configure el servidor perimetral para la federación.</p></li>
-<li><p>Replicar manualmente los datos en el servidor perimetral.</p></li>
+<li><p>Replique manualmente los datos al servidor perimetral.</p></li>
 <li><p>Configure el proveedor de hospedaje en el servidor perimetral.</p></li>
 </ol></td>
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md">Configurar el servidor perimetral para la integración con la mensajería unificada de Exchange hospedada</a></p></td>
+<td><p><a href="lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md">Configurar el servidor perimetral para la integración con mensajería unificada de Exchange hospedada</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Configurar la Directiva de correo de voz hospedado.</p></td>
+<td><p>Configurar la directiva de correo de voz hospedado.</p></td>
 <td><ol>
-<li><p>Modifique la Directiva de correo de voz hospedado global o cree una nueva Directiva de correo de voz hospedada con ámbito de sitio o por usuario.</p></li>
-<li><p>Para las directivas con ámbito por usuario, asigne la Directiva a los usuarios o grupos.</p></li>
+<li><p>Modifique la directiva global de correo de voz hospedado o cree una directiva de correo de voz hospedado con ámbito de sitio o por usuario.</p></li>
+<li><p>Para las directivas con ámbito por usuario, asigne la directiva a usuarios o grupos.</p></li>
 </ol></td>
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-manage-hosted-voice-mail-policies.md">Administrar directivas de correo de voz hospedado en Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Habilitar a los usuarios para el correo de voz hospedado.</p></td>
+<td><p>Habilitar a los usuarios para correo de voz hospedado.</p></td>
 <td><ul>
-<li><p>Configure cuentas de usuario para los usuarios cuyos buzones estén en un servicio de Exchange hospedado.</p></li>
+<li><p>Configure cuentas de usuario para los usuarios cuyos buzones de correo se encuentren en un servicio de Exchange hospedado.</p></li>
 </ul></td>
 <td><p>RTCUniversalUserAdmins</p></td>
 <td><p><a href="lync-server-2013-enable-users-for-hosted-voice-mail.md">Habilitar a los usuarios para el correo de voz hospedado en Lync Server 2013</a></p></td>
@@ -104,14 +104,14 @@ En la tabla siguiente se ofrece información general sobre el proceso de integra
 <tr class="even">
 <td><p>Configurar objetos de contacto hospedados.</p></td>
 <td><ol>
-<li><p>Crear objetos de contacto de operador automático para mensajería unificada de Exchange hospedado.</p></li>
-<li><p>Crear objetos de contacto de acceso de suscriptores para mensajería unificada de Exchange hospedado.</p></li>
+<li><p>Cree objetos de contacto de operador automático para la mensajería unificada hospedada de Exchange.</p></li>
+<li><p>Cree objetos de contacto de acceso de suscriptor para la mensajería unificada hospedada de Exchange.</p></li>
 </ol></td>
 <td><p>RTCUniversalUserAdmins</p>
 <div>
 
 > [!NOTE]  
-> Para crear, modificar o quitar objetos de contacto, el usuario que ejecuta el cmdlet New-CsExUmContact, Set-CsExUmContact o Remove-CsExUmContact debe tener el permiso correcto para la unidad organizativa de Active Directory donde se almacenan los nuevos objetos de contacto. Este permiso se puede conceder si se ejecuta el cmdlet Grant-CsOUPermission. Para obtener más información, consulte la documentación del shell de administración de Lync Server.
+> Para crear, modificar o quitar objetos de contacto, el usuario que ejecuta el cmdlet New-CsExUmContact, Set-CsExUmContact o Remove-CsExUmContact debe tener el permiso correcto para la unidad organizativa de Active Directory donde están almacenados los nuevos objetos de contacto. Este permiso se obtiene si se ejecuta el cmdlet Grant-CsOUPermission. Para obtener más información, vea la documentación referente a Lync Server Management Shell.
 
 
 </div></td>

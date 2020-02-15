@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Establecer quién puede enviar mensajes en un salón de chat de tipo auditorio'
+title: 'Lync Server 2013: establecer quién puede exponer mensajes en un salón de chat de Auditorio'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48705999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 528b7ec0bc92d3281e599f6313a554c4eee0e8b2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 882e5941afdbdfb046142d38d47a458a5eb75c5c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764526"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039258"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-who-can-post-messages-in-an-auditorium-chat-room-in-lync-server-2013"></a>Establecer quién puede enviar mensajes en un salón de chat de tipo auditorio en Lync Server 2013
+# <a name="setting-who-can-post-messages-in-an-auditorium-chat-room-in-lync-server-2013"></a>Establecer quién puede publicar mensajes en un salón de chat de auditorio en Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41764526"
 
 _**Última modificación del tema:** 2012-10-06_
 
-En un salón de chat de auditorio, solo los usuarios a los que se les haya otorgado el rol de moderador pueden enviar mensajes. El resto de miembros solo puede leer mensajes. Los moderadores de un salón de chat de Auditorio deben ser miembros del salón de chat.
+En un salón de chat de tipo auditorio, solo podrán publicar mensajes aquellos usuarios a los que se haya asignado el rol de moderador. Los demás miembros solo podrán leer mensajes. Los moderadores de un salón de chat de tipo auditorio deben ser miembros del salón de chat.
 
-Para obtener información detallada sobre el uso de la interfaz de línea de comandos de Windows PowerShell para administrar salones de chat de auditorio, consulte [administrar salas](manage-rooms.md) en la documentación de implementación.
+Para obtener información detallada sobre el uso de la interfaz de línea de comandos de Windows PowerShell para administrar salones de chat de auditorio, consulte [Manage Rooms](manage-rooms.md) en la documentación sobre implementación.
 
-Aunque los administradores del salón de chat y los administradores del salón de chat pueden administrar la configuración del salón de chat, no pueden publicar en un salón de chat a menos que sean **moderadores**.
+Aunque los administradores de salones de chat persistente y los administradores de salones de chat pueden administrar la configuración de los salones de chat, no pueden publicar en un salón de chat de Auditorio a menos que sean **moderadores**.
 
 </div>
 

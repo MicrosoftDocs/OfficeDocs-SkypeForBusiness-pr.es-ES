@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar registro de transacciones de SQL Server para base de datos principal del servidor de chat persistente'
+title: 'Lync Server 2013: configuración del trasvase de registros de SQL Server para la base de datos principal del servidor de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183337
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae44d410ef165cdd4f77b877afcfb9349dd0ec00
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4da247e50975ecbed5e64a6e4bebc31d531218b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764576"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040809"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-sql-server-log-shipping-in-lync-server-2013-for-the-persistent-chat-server-primary-database"></a>Configurar registro de transacciones de SQL Server para base de datos principal del servidor de chat persistente en Lync Server 2013
+# <a name="setting-up-sql-server-log-shipping-in-lync-server-2013-for-the-persistent-chat-server-primary-database"></a>Configurar el trasvase de registros de SQL Server en Lync Server 2013 para la base de datos principal del servidor de chat persistente
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41764576"
 
 _**Última modificación del tema:** 2012-11-12_
 
-Con SQL Server Management Studio, conéctese a la instancia de base de datos de trasvase de registros secundaria del servidor de chat persistente y asegúrese de que el Agente SQL Server se esté ejecutando.
+Mediante SQL Server Management Studio, conéctese a la instancia de base de datos de trasvase de registros secundaria del servidor de chat persistente y asegúrese de que el Agente SQL Server se está ejecutando.
 
-Con SQL Server Management Studio conectado a la instancia de base de datos principal de chat persistente, realice los siguientes pasos:
+Mediante SQL Server Management Studio conectado a la instancia de base de datos principal de chat persistente, siga estos pasos:
 
-1.  Asegúrese de que el Agente SQL Server se esté ejecutando.
+1.  Asegúrese de que el Agente SQL Server se está ejecutando.
 
-2.  Haga clic con el botón secundario en la base de datos mgc y, luego, haga clic en **Propiedades**.
+2.  Haga clic con el botón secundario en la base de datos de CGM y, a continuación, haga clic en **Propiedades**.
 
 3.  En **Seleccionar una página**, haga clic en **Trasvase de registros de transacciones**.
 
 4.  Seleccione la casilla **Habilitar esta como base de datos principal en una configuración de trasvase de registros**.
 
-5.  En **Copias de seguridad de registros de transacciones**, haga clic en **Configuración de la copia de seguridad**.
+5.  En **Copias de seguridad de registro de transacciones**, haga clic en **Configuración de copia de seguridad**.
 
-6.  En el cuadro **Ruta de acceso de red a la carpeta de copia de seguridad**, escriba la ruta de acceso de red al recurso compartido que creó para la carpeta de copia de seguridad del registro de las transacciones.
+6.  En el cuadro **Ruta de acceso de red a la carpeta de copia de seguridad**, escriba la ruta de acceso de red al recurso compartido que creó para la carpeta de copia de seguridad de registro de las transacciones.
 
 7.  Si la carpeta de copia de seguridad se encuentra en el servidor principal, escriba la ruta de acceso local a la carpeta de copia de seguridad en el cuadro **si la carpeta de copia de seguridad se encuentra en el servidor principal,\\escriba una ruta de acceso local a la carpeta (ejemplo: c: copia de seguridad)** . (Si la carpeta de copia de seguridad no está ubicada en el servidor principal, puede dejar vacío este cuadro).
     
@@ -59,28 +59,28 @@ Con SQL Server Management Studio conectado a la instancia de base de datos princ
     
 
     > [!IMPORTANT]  
-    > Si la cuenta de servicio de SQL Server del servidor principal se ejecuta en la cuenta del sistema local, debe crear la carpeta de copia de seguridad en el servidor principal y especificar una ruta de acceso local a esa carpeta.
+    > Si la cuenta de servicio de SQL Server en el servidor principal se ejecuta con la cuenta de sistema local, debe crear la carpeta de copia de seguridad en el servidor principal y especificar una ruta de acceso local a esa carpeta.
 
     
     </div>
 
 8.  Configure los parámetros **Eliminar archivos con más de** y **Mostrar una alerta si no se produce una copia de seguridad tras**.
 
-9.  Consulte la programación de copia de seguridad incluida en el cuadro **Programación** en **Trabajo de copia de seguridad**. Para personalizar la programación de la instalación, haga clic en **programación**y ajuste la programación del Agente SQL Server según sea necesario.
+9.  Observe la programación de copia de seguridad incluida en el cuadro **Programación** en **Trabajo de copia de seguridad**. Para personalizar la programación de la instalación, haga clic en **programación**y ajuste la programación del Agente SQL Server según sea necesario.
 
-10. En **Compresión**, seleccione **Usar la configuración de servidor predeterminada** y, luego, haga clic en **Aceptar**.
+10. En **Compresión**, seleccione **Usar la configuración de servidor predeterminada** y, a continuación, haga clic en **Aceptar**.
 
 11. En **Instancias de servidores secundarios y bases de datos**, haga clic en **Agregar**.
 
-12. Haga clic en **conectar** y conéctese a la instancia de SQL Server que haya configurado como servidor secundario.
+12. Haga clic en **conectar** y conéctese a la instancia de SQL Server que ha configurado como servidor secundario.
 
-13. En el cuadro **Base de datos secundaria**, seleccione la base de datos de **mgc** de la lista.
+13. En el cuadro **Base de datos secundaria**, seleccione la base de datos de **CGM** de la lista.
 
-14. En la pestaña **Inicializar base de datos secundaria**, elija la opción **Sí, generar una copia de seguridad completa de la base de datos principal y restaurarla en la base de datos secundaria (y crear la base de datos secundaria si no existe)**.
+14. En la pestaña **inicializar base de datos secundaria** , elija la opción **sí, genere una copia de seguridad completa de la base de datos principal y restáurela en la base de datos secundaria (y cree la base de datos secundaria si no existe)**.
 
-15. En la pestaña **Copiar archivos**, en el cuadro **Carpeta de destino de los archivos copiados**, escriba la ruta de acceso de la carpeta en la que es preciso copiar las copias de seguridad de los registros de transacciones. Esa carpeta suele encontrarse en el servidor secundario.
+15. En la pestaña **Copiar archivos**, en el cuadro **Carpeta de destino de los archivos copiados **, escriba la ruta de acceso de la carpeta en la que deben copiarse las copias de seguridad de los registros de transacciones. Esa carpeta suele encontrarse en el servidor secundario.
 
-16. Tenga en cuenta la programación de copia enumerada en el cuadro **Programación** en **Trabajo de copia**. Para personalizar la programación de la instalación, haga clic en **programación**y ajuste la programación del Agente SQL Server según sea necesario. Esta programación necesita ser aproximadamente la misma que la programación de copia de seguridad.
+16. Tenga en cuenta la programación de copia enumerada en el cuadro **Programación** en **Trabajo de copia**. Para personalizar la programación de la instalación, haga clic en **programación**y ajuste la programación del Agente SQL Server según sea necesario. Esta programación debe ser aproximadamente la misma que la programación de copia de seguridad.
 
 17. En la pestaña **Restaurar**, en **Estado de la base de datos al restaurar copias de seguridad**, elija la opción **Modo sin recuperación**.
 
@@ -88,9 +88,9 @@ Con SQL Server Management Studio conectado a la instancia de base de datos princ
 
 19. Elija un umbral de alerta en **Mostrar una alerta si no se produce una restauración tras**.
 
-20. Observe la programación de restauración incluida en el cuadro **Programación** en **Trabajo de restauración**. Para personalizar la programación de la instalación, haga clic en **programación**, ajuste la programación del Agente SQL Server según sea necesario y haga clic en **Aceptar**. Esta programación necesita ser aproximadamente la misma que la programación de copia de seguridad.
+20. Observe la programación de copia de seguridad incluido en el cuadro **Programación** en **Trabajo de restauración**. Para personalizar la programación de la instalación, haga clic en **programación**, ajuste la programación del Agente SQL Server según sea necesario y haga clic en **Aceptar**. Esta programación debe ser aproximadamente la misma que la programación de copia de seguridad.
 
-21. En el cuadro de diálogo **Propiedades de la base de datos**, haga clic en **Aceptar** para empezar el proceso de configuración.
+21. En el cuadro de diálogo **Propiedades de base de datos**, haga clic en **Aceptar** para empezar el proceso de configuración.
 
 </div>
 

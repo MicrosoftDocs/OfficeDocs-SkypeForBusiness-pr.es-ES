@@ -12,16 +12,16 @@ ms:contentKeyID: 62625495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57949b051468241e18d8a121e9d79bc1fdb378f7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e70ac17e27508a7922d8353e6142b3b5f05b34e9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727400"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041149"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41727400"
 
 _**Última modificación del tema:** 2013-12-05_
 
-Compruebe y aplique con frecuencia actualizaciones de seguridad y actualizaciones con Windows Update Services. De este modo, se evitan las vulnerabilidades en otros componentes del sistema que pueden conducir a intrusos que pueden obtener acceso a servidores que ejecutan Microsoft Lync Server 2013 con derechos de administrador y, por lo tanto, poner en peligro Lync Server 2013.
+Utilice el servicio Windows Update para comprobar con frecuencia si hay actualizaciones y actualizaciones de seguridad y aplicarlas. De este modo, se evitan las vulnerabilidades de otros componentes del sistema que puedan provocar que los atacantes puedan obtener acceso a los servidores que ejecutan Microsoft Lync Server 2013 con derechos de administrador y, por lo tanto, poner en peligro Lync Server 2013.
 
-Las actualizaciones para Microsoft SQL Server 2008 Express (64-bit Edition) se ejecuta en cada servidor de Lync Server 2013 Standard Edition (para la base de datos back-end) y en todos los demás roles de servidor de Lync Server 2013 (para el almacén de configuración local), a menos que haya actualizado estos bases de datos a SQL Server 2008 R2 Express. Debe considerar estas bases de datos como parte del mantenimiento rutinario de la actualización de seguridad, así como SQL Server en la base de datos back-end de un grupo de servidores front-end, la base de datos de supervisión y la base de datos de archivado.
+Las actualizaciones de Microsoft SQL Server 2008 Express (edición de 64 bits) se ejecutan en cada servidor de Lync Server 2013 Standard Edition (para la base de datos back-end) y en todos los demás roles de servidor de Lync Server 2013 (para el almacén de configuración local), a menos que haya actualizado estos bases de datos a SQL Server 2008 R2 Express. Debe considerar estas bases de datos como parte del mantenimiento rutinario de las actualizaciones de seguridad, al igual que SQL Server en la base de datos back-end de un grupo de servidores front-end, la base de datos de supervisión y la base de datos de archivado.
 
 <div>
 
 ## <a name="best-practice"></a>Procedimiento recomendado
 
-  - Mantente al tanto de Windows Update.
+  - Mantenga el equipo actualizado a través del servicio Windows Update.
 
 </div>
 

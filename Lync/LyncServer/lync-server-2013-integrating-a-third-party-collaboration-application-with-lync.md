@@ -1,5 +1,5 @@
 ---
-title: Integrar una aplicación de colaboración de terceros con Lync
+title: Integración de una aplicación de colaboración de terceros con Lync
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82b95f79202cbf96568b98dcb802e97bf4ca2d32
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 075c8289a55683b18b0a006319b426c94796f9cd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725870"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040989"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="integrating-a-third-party-collaboration-application-with-lync-server-2013"></a>Integrar una aplicación de colaboración de terceros con Lync Server 2013
+# <a name="integrating-a-third-party-collaboration-application-with-lync-server-2013"></a>Integración de una aplicación de colaboración de terceros con Lync Server 2013
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41725870"
 
 _**Última modificación del tema:** 2013-02-20_
 
-Puede integrar Lync 2013 con cualquier aplicación de colaboración en línea de terceros agregando información sobre la aplicación al registro. Puede usar Lync 2013 para iniciar sesiones de conferencia de datos hospedadas en un servidor interno, en un servicio basado en Internet o en ambos. La sesión de colaboración o conferencia de datos se puede iniciar desde la lista de contactos o desde una sesión de mensajería instantánea, voz o vídeo existente. Lync 2013 solo actúa como vehículo para iniciar la aplicación. Las conversaciones existentes de Lync 2013 permanecen activas después de que la sesión de colaboración en línea haya comenzado.
+Puede integrar Lync 2013 con cualquier aplicación de colaboración en línea de terceros agregando información sobre la aplicación al registro. Puede usar Lync 2013 para iniciar sesiones de conferencia de datos hospedadas en un servidor interno, un servicio basado en Internet o ambos. Las sesiones de colaboración o de conferencia de datos se pueden iniciar desde la lista de contactos o desde una sesión de mensajería instantánea, voz o vídeo existente. Lync 2013 solo actúa como vehículo para iniciar la aplicación. Las conversaciones existentes de Lync 2013 permanecen activas una vez iniciada la sesión de colaboración en línea.
 
 En las siguientes secciones se describe cómo integrar Lync 2013 con aplicaciones de colaboración basadas en Internet y en servidor.
 
 <div>
 
-## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a>Integrar una aplicación de colaboración basada en Internet con Lync 2013
+## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a>Integración de una aplicación de colaboración basada en Internet con Lync 2013
 
-Por lo general, los pasos necesarios para integrar una aplicación de colaboración de terceros son los siguientes:
+En general, los pasos necesarios para integrar una aplicación de colaboración de otro fabricante son los siguientes:
 
-1.  La información sobre la aplicación se agrega al registro.
+1.  La información acerca de la aplicación se agrega al Registro.
 
-2.  El organizador inicia sesión en Lync 2013 y selecciona contactos para compartir datos y colaborar. O bien, es posible que el organizador ya esté en una conversación y decida agregar conferencias de datos.
+2.  El organizador inicia sesión en Lync 2013 y selecciona contactos para uso compartido y colaboración de datos. Es posible también que el organizador ya esté participando en una conversación y decida agregar la conferencia de datos.
 
 3.  Lync 2013 lee el registro, inicia la aplicación de colaboración y, a continuación, envía un mensaje SIP personalizado (un appINVITE) a los participantes seleccionados.
 
-4.  Los participantes aceptan la invitación y la aplicación de colaboración se inicia en el equipo de cada usuario. Lync 2013 usa el registro para determinar qué aplicación de colaboración se debe usar y, a continuación, inicia esa aplicación con los parámetros incluidos en el mensaje appINVITE.
+4.  Los participantes aceptan la invitación y la aplicación de colaboración se inicia en el equipo de cada una de las personas. Lync 2013 usa el registro para determinar la aplicación de colaboración que se va a usar y, a continuación, inicia esa aplicación con los parámetros incluidos en el mensaje appINVITE.
 
-En la siguiente tabla se describen las entradas del registro necesarias para integrar una aplicación de colaboración basada en Internet con Lync 2013. Estas entradas se colocan en el registro en la siguiente ubicación:
+En la tabla siguiente se describen las entradas del registro necesarias para integrar una aplicación de colaboración basada en Internet con Lync 2013. Estas entradas se colocan en el registro en la siguiente ubicación:
 
-  - HKEY\_local\_MACHINE\\software\\Microsoft\\Office\\15,0\\Lync\\SessionManager\\,\\parámetros de aplicaciones
+  - HKEY\_local\_MACHINE\\software\\Microsoft\\Office\\15,0\\Lync\\SessionManager\\de\\aplicaciones de Lync
 
-### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>Entradas del registro para una aplicación de colaboración basada en Internet
+### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>Entradas del Registro para una aplicación de colaboración basada en Internet
 
 <table>
 <colgroup>
@@ -81,31 +81,31 @@ En la siguiente tabla se describen las entradas del registro necesarias para int
 <td><p>El nombre de la aplicación para los menús de Lync 2013.</p></td>
 </tr>
 <tr class="even">
-<td><p>Vistas</p></td>
+<td><p>SmallIcon</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Ruta de acceso a los iconos de 16 píxeles x 16 píxeles, BMP o PNG.</p></td>
+<td><p>Ruta de acceso al icono de 16 x 16 píxeles, BMP o PNG.</p></td>
 </tr>
 <tr class="odd">
-<td><p> Ruta de acceso</p></td>
+<td><p>Path</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Ruta de participante para iniciar la aplicación de colaboración en línea.</p></td>
+<td><p>Ruta de acceso de los participantes para iniciar la aplicación de colaboración en línea.</p></td>
 </tr>
 <tr class="even">
 <td><p>OriginatorPath</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Ruta del organizador para iniciar la aplicación de colaboración en línea. Esta ruta de acceso puede contener uno o varios parámetros personalizados, tal y como se define en la subclave Parameters. Por ejemplo,<code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code></p></td>
+<td><p>Ruta de acceso del organizador para iniciar la aplicación de colaboración en línea. Esta ruta puede contener uno o varios parámetros personalizados definidos en la subclave Parameters. Por ejemplo: <code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code></p></td>
 </tr>
 <tr class="odd">
 <td><p>SessionType</p></td>
 <td><p>ÚLTIMAS</p></td>
-<td><p>0 = sesión local. La aplicación se inicia en el equipo local.</p>
-<p>1 = sesión de dos partes (predeterminado). Lync 2013 inicia la aplicación de forma local y, a continuación, envía una notificación del sistema al otro usuario. El otro usuario hace clic en la notificación e inicia la aplicación especificada en su equipo.</p>
-<p>2 = sesión de varias partes. Lync 2013 inicia la aplicación de forma local y, a continuación, envía notificaciones del sistema al resto de los usuarios, pidiéndoles que inicien la aplicación especificada en su propio equipo.</p></td>
+<td><p>0 = Sesión local. La aplicación se inicia en el equipo local.</p>
+<p>1 = Sesión entre dos participantes (valor predeterminado). Lync 2013 inicia la aplicación de forma local y, a continuación, envía una notificación del sistema al otro usuario. El otro usuario hace clic en la notificación e inicia la aplicación especificada en su equipo.</p>
+<p>2 = Sesión de varios participantes. Lync 2013 inicia la aplicación de forma local y, a continuación, envía notificaciones del sistema a los demás usuarios, solicitándole que inicien la aplicación especificada en su propio equipo.</p></td>
 </tr>
 <tr class="even">
 <td><p>ExensibleMenu</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Una lista de los menús en los que aparecerá este comando, separados por punto y coma. Los valores posibles son:</p>
+<td><p>Lista de menús en los que aparecerá este comando, separados con caracteres de punto y coma. Los valores posibles son:</p>
 <ul>
 <li><p>MainWindowActions</p></li>
 <li><p>MainWindowRightClick</p></li>
@@ -113,15 +113,15 @@ En la siguiente tabla se describen las entradas del registro necesarias para int
 <li><p>ConversationWindowButton</p></li>
 <li><p>ConversationWindowRightClick</p></li>
 </ul>
-<p>Si no se define ExtensibleMenu, se usan los valores predeterminados de MainWindowRightClick y ConversationWindowActions.</p></td>
+<p>Si no se define ExtensibleMenu, se utilizan los valores predeterminados de MainWindowRightClick y ConversationWindowActions.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-En la tabla siguiente se describen las entradas del registro para parámetros. Estas entradas se colocan\_en\_el\\software\\del\\usuario\\actual\\de\\Microsoft\\Office\\15,0 Lync SessionManager de las aplicaciones.
+En la siguiente tabla se describen las entradas del Registro para los parámetros. Estas entradas se colocan\_en\_el\\software\\de\\usuario\\actual\\de\\los\\parámetros\\de las aplicaciones de Lync SessionManager de Microsoft Office 15,0 Lync.
 
-### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>Entradas del registro para una aplicación de colaboración basada en Internet
+### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>Entradas del Registro para una aplicación de colaboración basada en Internet
 
 <table>
 <colgroup>
@@ -140,23 +140,23 @@ En la tabla siguiente se describen las entradas del registro para parámetros. E
 <tr class="odd">
 <td><p>Parámetro1</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Se usa en formato con símbolo<code>%Parm1%</code>() para agregar valores específicos del usuario a la clave de registro OriginatorPath.</p></td>
+<td><p>Se usa en formato con tokens (<code>%Parm1%</code>) para agregar valores específicos del usuario a la clave del registro OriginatorPath.</p></td>
 </tr>
 <tr class="even">
 <td><p>Parámetro2</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Vea Param1.</p></td>
+<td><p>Consulte Param1.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Param3</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Vea Param1.</p></td>
+<td><p>Consulte Param1.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-El siguiente ejemplo de configuración del registro integra el cliente de colaboración Adatum con Lync 2013:
+La siguiente configuración del registro de ejemplo integra el cliente de colaboración Adatum con Lync 2013:
 
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Lync\SessionManager]
@@ -182,13 +182,13 @@ El siguiente ejemplo de configuración del registro integra el cliente de colabo
 
 <div>
 
-## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a>Integrar una aplicación de colaboración basada en servidor con Lync 2013
+## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a>Integración de una aplicación de colaboración basada en servidor con Lync 2013
 
-La configuración para agregar comandos para iniciar una aplicación de colaboración basada en servidor desde Lync 2013 es similar a la que se describe en la sección anterior, al integrar una aplicación de colaboración basada en Internet con Lync 2013. Sin embargo, la OriginatorPath no es obligatoria y se modifican algunos valores. Las entradas del registro se colocan en la siguiente ubicación:
+La configuración para agregar comandos para iniciar una aplicación de colaboración basada en servidor desde dentro de Lync 2013 es similar a la descrita en la sección anterior, lo que integra una aplicación de colaboración basada en Internet con Lync 2013. No obstante, el parámetro OriginatorPath no es necesario y algunos valores varían. Las entradas del registro se colocan en la siguiente ubicación:
 
-  - HKEY\_local\_MACHINE\\software\\Microsoft\\Office\\15,0\\Lync\\SessionManager\\,\\parámetros de aplicaciones
+  - HKEY\_local\_MACHINE\\software\\Microsoft\\Office\\15,0\\Lync\\SessionManager\\de\\aplicaciones de Lync
 
-### <a name="registry-entries-for-a-server-based-collaboration-application"></a>Entradas del registro para una aplicación de colaboración basada en servidor
+### <a name="registry-entries-for-a-server-based-collaboration-application"></a>Entradas del Registro para una aplicación de colaboración basada en servidor
 
 <table>
 <colgroup>
@@ -207,34 +207,34 @@ La configuración para agregar comandos para iniciar una aplicación de colabora
 <tr class="odd">
 <td><p>Nombre</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Nombre de la aplicación tal y como aparece en el menú.</p></td>
+<td><p>Nombre de la aplicación tal como aparece en el menú.</p></td>
 </tr>
 <tr class="even">
 <td><p>ApplicationType</p></td>
 <td><p>ÚLTIMAS</p></td>
-<td><p>Valor = 1. Establece el tipo de aplicación en protocolo. Los otros valores posibles no se aplican en este caso. Si no está presente, ApplicationType se establece en 0 (ejecutable).</p></td>
+<td><p>Valor =1. Establece el tipo de aplicación en protocolo. Los otros valores posibles no se aplican en este caso. Si no está presente, ApplicationType se establece en 0 (ejecutable).</p></td>
 </tr>
 <tr class="odd">
-<td><p> Ruta de acceso</p></td>
+<td><p>Path</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Protocolo usado para iniciar la aplicación de colaboración. En Live Meeting 2007, el valor de path se establece en <code>meet:%conf-uri%</code>.</p></td>
+<td><p>Protocolo usado para iniciar la aplicación de colaboración. Para Live Meeting 2007, el valor de path se establece en <code>meet:%conf-uri%</code>.</p></td>
 </tr>
 <tr class="even">
 <td><p>SessionType</p></td>
 <td><p>ÚLTIMAS</p></td>
-<td><p>0 = sesión local. La aplicación se inicia en el equipo local.</p>
-<p>1 = sesión de dos partes (predeterminado). Lync 2013 inicia la aplicación de forma local y, a continuación, envía una notificación del sistema al otro usuario. El otro usuario hace clic en la notificación e inicia la aplicación especificada en su equipo.</p>
-<p>2 = sesión de varias partes. Lync 2013 inicia la aplicación de forma local y, a continuación, envía notificaciones del sistema al resto de los usuarios, pidiéndoles que inicien la aplicación especificada en su equipo.</p></td>
+<td><p>0 = Sesión local. La aplicación se inicia en el equipo local.</p>
+<p>1 = Sesión entre dos participantes (valor predeterminado). Lync 2013 inicia la aplicación de forma local y, a continuación, envía una notificación del sistema al otro usuario. El otro usuario hace clic en la notificación e inicia la aplicación especificada en su equipo.</p>
+<p>2 = Sesión de varios participantes. Lync 2013 inicia la aplicación de forma local y, a continuación, envía notificaciones del sistema a los demás usuarios, solicitándole que inicien la aplicación especificada en su equipo.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MCUType</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>DATA = el tipo de servidor.</p></td>
+<td><p>DATOS = El tipo de servidor.</p></td>
 </tr>
 <tr class="even">
 <td><p>ExtensibleMenu</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Una lista de los menús en los que aparecerá este comando, separados por puntos y comas. Los valores posibles son:</p>
+<td><p>Una lista de los menús en los que aparecerá este comando, separados por punto y coma. Los valores posibles son:</p>
 <ul>
 <li><p>MainWindowActions</p></li>
 <li><p>MainWindowRightClick</p></li>
@@ -242,13 +242,13 @@ La configuración para agregar comandos para iniciar una aplicación de colabora
 <li><p>ConversationWindowButton</p></li>
 <li><p>ConversationWindowRightClick</p></li>
 </ul>
-<p>Si no se define ExtensibleMenu, se usan los valores predeterminados de MainWindowRightClick y ConversationWindowActions.</p></td>
+<p>Si no se define ExtensibleMenu, se utilizan los valores predeterminados de MainWindowRightClick y ConversationWindowActions.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-En el siguiente ejemplo se agregan comandos para iniciar el cliente de colaboración de Adatum desde Lync 2013:
+En el siguiente ejemplo, se agregan comandos para iniciar el cliente de colaboración Adatum desde Lync 2013:
 
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Lync\SessionManager]

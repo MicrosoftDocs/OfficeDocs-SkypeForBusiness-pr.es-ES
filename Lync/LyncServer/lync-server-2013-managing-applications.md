@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Administración de aplicaciones'
+title: 'Lync Server 2013: administración de aplicaciones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733610
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: debb82de758d8ab585a6fb7e56d7af6eb2f05c62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e044f1153f1b7837c2658a64373db6c84e7807d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738960"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037230"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41738960"
 
 _**Última modificación del tema:** 2012-11-01_
 
-Use los procedimientos de esta sección para administrar las aplicaciones de Lync Server 2013.
+Use los procedimientos de esta sección para administrar aplicaciones para Lync Server 2013.
 
 <div>
 
@@ -54,7 +54,7 @@ Use los procedimientos de esta sección para administrar las aplicaciones de Lyn
 ## <a name="see-also"></a>Vea también
 
 
-[Administrar los roles de servidor y los servicios de Lync Server 2013](lync-server-2013-managing-lync-server-services-and-server-roles.md)  
+[Administración de servicios y roles de servidor de Lync Server 2013](lync-server-2013-managing-lync-server-services-and-server-roles.md)  
   
 
 </div>

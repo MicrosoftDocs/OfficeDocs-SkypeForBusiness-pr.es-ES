@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: vista SessionDetails'
+title: 'Lync Server 2013: vista de SessionDetails'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fabf7ae963240f6a2b14ac8c3db272e0cb06091c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fb7b664761aa8506b01e114366016b98637eb30e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764716"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051674"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41764716"
 
 _**Última modificación del tema:** 2012-10-01_
 
-La vista SessionDetails almacena información sobre sesiones de punto a punto, que podrían ser una llamada de teléfono VoIP-VoIP, una sesión de mensajería instantánea de dos proveedores u otro tipo de sesión. Esta vista se presentó en Microsoft Lync Server 2013.
+La vista SessionDetails almacena información sobre sesiones punto a punto, que podrían ser una llamada telefónica VoIP-VoIP, una sesión de mensajería instantánea (MI) entre dos partes o cualquier otro tipo de sesión. Esta vista se introdujo en Microsoft Lync Server 2013.
 
 
 <table>
@@ -57,47 +57,47 @@ La vista SessionDetails almacena información sobre sesiones de punto a punto, q
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Hora de la solicitud de sesión. Se usa en conjunción con SessionIdSeq para identificar de forma única una sesión. Para obtener más información, vea la <a href="lync-server-2013-dialogs-table.md">tabla cuadros de diálogo en</a> la tabla de 2013 de Lync Server.</p></td>
+<td><p>Hora de la solicitud de sesión. Se usa de forma conjunta con SessionIdSeq para identificar de forma exclusiva una sesión. Consulte la tabla de <a href="lync-server-2013-dialogs-table.md">cuadros de diálogo en la tabla de Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Número de identificación para identificar la sesión. Se usa en conjunción con SessionIdTime para identificar de forma única una sesión. Para obtener más información, vea la <a href="lync-server-2013-dialogs-table.md">tabla cuadros de diálogo en Lync Server 2013</a> .</p></td>
+<td><p>Número de identificador para identificar la sesión. Se usa de forma conjunta con SessionIdTime para identificar de forma exclusiva una sesión. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>InviteTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Hora de la primera solicitud de invitación. Por lo general, este campo se rellena con los datos generados desde el mensaje de invitación inicial de la sesión. Si no hay ningún mensaje de invitación, el campo se rellena con la fecha y la hora del primer mensaje SIP pertinente (BYE, cancelar, mensaje o información). Por lo general, este campo se rellena con los datos generados desde el mensaje de invitación inicial de la sesión. Si no hay ningún mensaje de invitación, el campo se rellena con la fecha y la hora del primer mensaje SIP pertinente (BYE, cancelar, mensaje o información).</p></td>
+<td><p>Fecha y hora de la primera solicitud INVITE. Este campo se suele rellenar con datos generados a partir del mensaje INVITE inicial de la sesión. Si no existe el mensaje INVITE, el campo se rellenará con la fecha y hora del primer mensaje SIP relevante (BYE, CANCEL, MESSAGE o INFO). Este campo se suele rellenar con datos generados a partir del mensaje INVITE inicial de la sesión. Si no existe el mensaje INVITE, el campo se rellenará con la fecha y hora del primer mensaje SIP relevante (BYE, CANCEL, MESSAGE o INFO).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>Identificador URI del usuario que inició la sesión.</p></td>
+<td><p>URI del usuario que inició la sesión.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ToUr</strong></p></td>
+<td><p><strong>ToUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>Identificador URI del usuario que se unió a la sesión.</p></td>
+<td><p>URI del usuario que se unió a la sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Tipo de URI del usuario que inició la sesión. Para obtener más información, consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Tipo de URI del usuario que inició la sesión. Consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ToUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Tipo de URI del usuario que se unió a la sesión. Para obtener más información, consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Tipo de URI del usuario que se unió a la sesión. Consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromTenant</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>Espacio empresarial del usuario que inició la sesión. Para obtener más información, consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos de Lync Server 2013</a> .</p></td>
+<td><p>Inquilino del usuario que inició la sesión. Consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ToTenant</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>El inquilino del usuario que se unió a la sesión. Para obtener más información, consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos de Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Inquilino del usuario que se unió a la sesión. Consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromEndpointId</strong></p></td>
@@ -112,57 +112,57 @@ La vista SessionDetails almacena información sobre sesiones de punto a punto, q
 <tr class="even">
 <td><p><strong>EndTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Hora de finalización de la sesión.</p></td>
+<td><p>Fecha y hora de finalización de la sesión.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromMessageCount</strong></p></td>
 <td><p>int</p></td>
-<td><p>Número de mensajes enviados por el usuario que inició la sesión.</p></td>
+<td><p>Número de mensajes que envió el usuario que inició la sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToMessageCount</strong></p></td>
 <td><p>int</p></td>
-<td><p>Número de mensajes enviados por el usuario que se unió a la sesión.</p></td>
+<td><p>Número de mensajes que envió el usuario que se unió a la sesión.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromClientVersion</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Versión del cliente usada por el usuario que inició la sesión.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Versión de cliente que usa el usuario que inició la sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>Cliente usado por el usuario que inició la sesión. Para obtener más información, consulte la <a href="lync-server-2013-useragentdef-table.md">tabla UserAgentDef en Lync Server 2013</a> .</p></td>
+<td><p>Cliente que usa el usuario que inició la sesión. Consulte la <a href="lync-server-2013-useragentdef-table.md">tabla UserAgentDef en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromClientCategory</strong></p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Nombre de la categoría del cliente que ha usado el usuario que inició la sesión.</p></td>
+<td><p>Nombre de la categoría del cliente que usa el usuario que inició la sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToClientVersion</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Versión de cliente usada por el usuario que se unió a la sesión</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Versión de cliente que usa el usuario que se unió a la sesión</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ToClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>Cliente usado por el usuario que se unió a la sesión. Para obtener más información, consulte la <a href="lync-server-2013-useragentdef-table.md">tabla UserAgentDef en Lync Server 2013</a> .</p></td>
+<td><p>Cliente que usa el usuario que se unió a la sesión. Consulte la <a href="lync-server-2013-useragentdef-table.md">tabla UserAgentDef en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToClientCategory</strong></p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Nombre de la categoría del cliente que ha usado el usuario que se unió a la sesión.</p></td>
+<td><p>Nombre de la categoría del cliente que usa el usuario que se unió a la sesión.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TargetUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI del usuario de destino de la sesión.</p></td>
+<td><p>URI del usuario destinatario de la sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>TargetUriType</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>Tipo de URI del usuario de destino de la sesión. Para obtener más información, consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> .</p></td>
+<td><p>Tipo de URI del usuario destinatario de la sesión. Consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OnBehalfOfUri</strong></p></td>
@@ -171,134 +171,134 @@ La vista SessionDetails almacena información sobre sesiones de punto a punto, q
 </tr>
 <tr class="even">
 <td><p><strong>OnnnBehalfOfUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Tipo de URI del usuario en cuyo nombre se inició la sesión. Para obtener más información, consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Tipo de URI del usuario en cuyo nombre se inició la sesión. Consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OnBehalfOfTenant</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Inquilino del usuario cuyo en nombre se ha iniciado la sesión. Para obtener más información, consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos de Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Inquilino del usuario en cuyo nombre se inició la sesión. Consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ReferredByUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>Identificador URI del usuario que remitió la sesión.</p></td>
+<td><p>URI del usuario que hizo referencia a la sesión.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ReferredByUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Tipo de URI del usuario que ha remitido la sesión. Para obtener más información, consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Tipo de URI del usuario que hizo referencia a la sesión. Consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ReferredByTenant</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Espacio empresarial del usuario que remitió la sesión. Para obtener más información, consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos de Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Inquilino del usuario que hizo referencia a la sesión. Consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DialogId</strong></p></td>
+<td><p><strong>Identificador</strong></p></td>
 <td><p>VARCHAR (775)</p></td>
-<td><p>IDENTIFICACIÓN del cuadro de diálogo SIP. El formato es:</p>
-<p>cuadro de diálogo; desde: etiqueta; to-Tag</p></td>
+<td><p>Identificador del diálogo SIP. El formato es:</p>
+<p>Dialog; from-Tag; to-Tag</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CorrelationId</strong></p></td>
 <td><p>identificador</p></td>
-<td><p>GUID que se usa para correlacionar varias sesiones.</p></td>
+<td><p>Identificador único global usado para correlacionar varias sesiones.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ReplaceDialogIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Hora del cuadro de diálogo que se ha sustituido por la sesión. Se usa junto con ReplaceDialogIdSeq para identificar de forma exclusiva un cuadro de diálogo que se reemplaza por la sesión. Para obtener más información, vea la <a href="lync-server-2013-dialogs-table.md">tabla cuadros de diálogo en Lync Server 2013</a> .</p></td>
+<td><p>Fecha y hora del diálogo que se sustituyó por la sesión. Se usa en combinación con ReplaceDialogIdSeq para identificar de forma exclusiva un diálogo que se sustituye con la sesión. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ReplaceDialogIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Número de identificación para identificar la sesión. Se usa junto con ReplaceDialogIdTime para identificar de forma exclusiva un cuadro de diálogo que se reemplaza por la sesión. Para obtener más información, vea la <a href="lync-server-2013-dialogs-table.md">tabla cuadros de diálogo en Lync Server 2013</a> .</p></td>
+<td><p>Número de identificador de la sesión. Se usa en combinación con ReplaceDialogIdTime para identificar de forma exclusiva un diálogo que se sustituye con la sesión. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ReplacesDialogId</strong></p></td>
 <td><p>VARCHAR (775)</p></td>
-<td><p>IDENTIFICACIÓN del cuadro de diálogo SIP que reemplaza la sesión. El formato es:</p>
-<p>cuadro de diálogo; desde: etiqueta; to-Tag</p></td>
+<td><p>El identificador de diálogo SIP que sustituye la sesión. El formato es:</p>
+<p>Dialog; from-Tag; to-Tag</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ResponseTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Hora de la respuesta al primer mensaje de invitación. Por lo general, este campo se rellena con los datos generados desde el mensaje de invitación inicial de la sesión. Si no hay ningún mensaje de invitación, el campo se rellena con la fecha y la hora del primer mensaje SIP pertinente (BYE, cancelar, mensaje o información).</p></td>
+<td><p>Fecha y hora de la respuesta al primer mensaje INVITE. Este campo se suele rellenar con los datos generados a partir del mensaje INVITE inicial. Si no hay un mensaje INVITE, el campo se rellenará con la fecha y hora del primer mensaje SIP relevante (BYE, CANCEL, MESSAGE o INFO).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ResponseCode</strong></p></td>
 <td><p>int</p></td>
-<td><p>Código de respuesta SIP a la invitación de la sesión. Por lo general, este campo se rellena con los datos generados desde el mensaje de invitación inicial de la sesión. Si no hay ningún mensaje de invitación, el campo se rellena con la fecha y la hora del primer mensaje SIP pertinente (BYE, cancelar, mensaje o información).</p></td>
+<td><p>Código de respuesta SIP a la invitación a la sesión. Este campo se suele rellenar con datos generados a partir del mensaje INVITE inicial de la sesión. Si no hay ningún mensaje INVITE, el campo se rellena con la hora y la fecha del primer mensaje SIP correspondiente (BYE, CANCEL, MESSAGE o INFO).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DiagnosticId</strong></p></td>
 <td><p>int</p></td>
-<td><p>IDENTIFICACIÓN de diagnóstico capturada de encabezados SIP.</p></td>
+<td><p>Identificador de diagnóstico capturado de los encabezados SIP.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ContentType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Tipo de contenido de la sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FrontEnd</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>FQDN del servidor front-end que capturó los datos para la sesión.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>FQDN del servidor front-end que capturó los datos de la sesión.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Grupo</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>FQDN del grupo de servidores que ha capturado los datos de la sesión.</p></td>
+<td><p><strong>Pool</strong></p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>FQDN del grupo que capturó los datos de la sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromEdgeServer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>FQDN del servidor perimetral usado por el usuario que inició la sesión.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>FQDN del servidor perimetral que usa el usuario que inició la sesión.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ToEdgeServer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>FQDN del servidor perimetral usado por el usuario que inició la sesión</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>FQDN del servidor perimetral que usa el usuario que inició la sesión</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IsFromInternal</strong></p></td>
 <td><p>bit</p></td>
-<td><p>Indica si el usuario que inició la sesión inició sesión en la red interna.</p></td>
+<td><p>Indica si el usuario que inició la sesión se conectó desde la red interna.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsToInternal</strong></p></td>
 <td><p>bit</p></td>
-<td><p>Indica si el usuario que se unió a la sesión ha iniciado sesión en la red interna.</p></td>
+<td><p>Indica si el usuario que se unió a la sesión se conectó desde la red interna.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallPriority</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Prioridad de la llamada de la sesión.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Prioridad de llamada de la sesión.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromUserFlag</strong></p></td>
 <td><p>smallint</p></td>
-<td><p>Indica los atributos del usuario que inició la sesión. Se permiten las siguientes definiciones de atributo:</p>
-<p>0x01: integrado con un teléfono de escritorio</p></td>
+<td><p>Indica los atributos del usuario que inició la sesión. Las definiciones de atributos permitidas son las siguientes:</p>
+<p>0x01 - Integrado en teléfono de escritorio</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToUserFlag</strong></p></td>
 <td><p>smallint</p></td>
-<td><p>Indica los atributos del usuario que inició la sesión. Se permiten las siguientes definiciones de atributo:</p>
-<p>0x01: integrado con un teléfono de escritorio</p></td>
+<td><p>Indica los atributos del usuario que inició la sesión. Las definiciones de atributos permitidas son las siguientes:</p>
+<p>0x01 - Integrado en teléfono de escritorio</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallFlag</strong></p></td>
 <td><p>smallint</p></td>
-<td><p>Indica los atributos de la llamada. Se permiten las siguientes definiciones de atributo:</p>
-<p>0x01-reintento de sesión</p>
-<p>0x02: una llamada realizada por el agente en nombre de un grupo de respuesta</p></td>
+<td><p>Indica los atributos de llamada. Se permiten las siguientes definiciones de atributo:</p>
+<p>0x01 - Reintento de sesión</p>
+<p>0x02 - Una llamada realizada por un agente en nombre de un Grupo de respuesta</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Ubicación</strong></p></td>
 <td><p>VARCHAR (Max)</p></td>
-<td><p>Ubicación de la llamada de emergencia.</p></td>
+<td><p>Ubicación de una llamada de emergencia.</p></td>
 </tr>
 </tbody>
 </table>

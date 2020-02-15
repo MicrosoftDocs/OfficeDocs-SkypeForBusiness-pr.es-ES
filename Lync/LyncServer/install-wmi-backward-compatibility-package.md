@@ -12,16 +12,16 @@ ms:contentKeyID: 48183893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c3b8d474ff451a488124ebfbae0ff0872a6cca1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2497fb60c4eeb0ef9bba499bd131ef6bba10f3ff
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730560"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41730560"
 
 _**Última modificación del tema:** 2012-10-02_
 
-Si intenta ejecutar el Asistente para la combinación del generador de topología sin instalar el paquete de compatibilidad con versiones anteriores de WMI, verá el siguiente error:
+Si intenta ejecutar el asistente de combinación del asistente para combinaciones del Generador de topologías sin instalar el paquete de compatibilidad con versiones anteriores de WMI, verá el siguiente error:
 
 ![Mensaje de error de WMI](images/JJ204816.a007d2f2-fc85-430c-91eb-382b032469af(OCS.15).jpg "Mensaje de error de WMI")
 
@@ -47,15 +47,15 @@ Si intenta ejecutar el cmdlet **Merge-CsLegacytopology** sin instalar el paquete
 
 Para instalar el paquete de compatibilidad con versiones anteriores de WMI
 
-1.  Desde los medios de instalación, vaya \\a\\configuración\\de\\instalación de AMD64 OCSWMIBC. MS.
+1.  Desde los medios de instalación, vaya \\a\\Setup\\AMD64\\Setup OCSWMIBC. MS.
 
-2.  Instale OCSWMIBC. MS.
+2.  Instale OCSWMIBC.MSI.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > OCSWMIBC. msi debe instalarse en el equipo en el que se ejecuta el Asistente para la combinación del generador de topología. Sin embargo, recomendamos instalar OCSWMIBC. msi en todos los servidores front-end de su topología.
+    > OCSWMIBC.msi debe instalarse en el equipo donde se ejecute el asistente de combinación del generador de topologías. Sin embargo, se recomienda instalar OCSWMIBC.msi en todos los servidores front-end de la topología.
 
     
     </div>
@@ -64,7 +64,7 @@ Para instalar el paquete de compatibilidad con versiones anteriores de WMI
     
 
     > [!IMPORTANT]  
-    > OCSWMIBC. msi puede instalarse en cualquier equipo del dominio que tenga instalados los componentes principales de Lync Server 2013 y el shell de administración de Lync Server 2013, y tiene acceso a la topología de Office Communications Server 2007 R2 (proveedor WMI a dominio de Active Directory). Servicios (AD DS) y SQL Server).
+    > OCSWMIBC. msi puede instalarse en cualquier equipo del dominio que tenga instalados los componentes principales de Lync Server 2013 y el shell de administración de Lync Server 2013, y que tenga acceso a la topología de Office Communications Server 2007 R2 (proveedor de WMI al dominio de Active Directory). Servicios (AD DS) y SQL Server).
 
     
     </div>

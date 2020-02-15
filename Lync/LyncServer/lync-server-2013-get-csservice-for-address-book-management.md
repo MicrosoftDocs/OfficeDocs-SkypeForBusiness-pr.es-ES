@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: get-CsService para la administración de libretas de direcciones'
+title: 'Lync Server 2013: get-CsService para la administración de la libreta de direcciones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 656c1aa545a1f10e49c5ff60b51c20386854d146
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d41d0d3fe8960f286cfe9bed1f27ae08d43c9fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763584"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037952"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Get-CsService para la administración de libretas de direcciones en Lync Server 2013
+# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Get-CsService para la administración de la libreta de direcciones en Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41763584"
 
 _**Última modificación del tema:** 2012-11-01_
 
-¿Quién puede ejecutar este cmdlet? de forma predeterminada, los miembros de los siguientes grupos tienen autorización para ejecutar el cmdlet Get-CsService de forma local: RTCUniversalUserAdmins, RTCUniversalServerAdmins. Para devolver una lista de todas las funciones de control de acceso basado en roles (RBAC) a las que se ha asignado este cmdlet (incluidos los roles RBAC que haya creado usted mismo), ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:
+Quién puede ejecutar este cmdlet: De forma predeterminada, los miembros de los siguientes grupos tienen autorización para ejecutar el cmdlet Get-CsService de manera local: RTCUniversalUserAdmins, RTCUniversalServerAdmins. Para devolver una lista de todos los roles de control de acceso basado en roles (RBAC) a los que se ha asignado este cmdlet (incluido cualquier otro rol RBAC personalizado que usted mismo haya creado), ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsService"}
 
-Get-CsService es útil para recuperar y mostrar la configuración actual de los servicios web definidos de su infraestructura. Al definir el nombre de dominio completo (FQDN) de la agrupación y el parámetro webserver, el cmdlet devuelve los servicios basados en web ofrecidos por su servidor, incluidos los URI de expansión de la lista de distribución y el controlador de la libreta de direcciones.
+Get-CsService es útil para recuperar y mostrar la configuración actual de los servicios web definidos de la infraestructura. Al definir el nombre de dominio completo (FQDN) del grupo y el parámetro WebServer, el cmdlet devuelve los servicios basados en web que ofrece el servidor, incluido el controlador de libreta de direcciones y los URI de expansión de la lista de distribución.
 
 Por ejemplo:
 
@@ -51,7 +51,7 @@ Este cmdlet devuelve lo siguiente:
 
 Identidad: WebServer:pool01. contoso. net
 
-Almacén de almacén::DC01. contoso. net
+Almacén de elementos: almacén de:DC01. contoso. net
 
 UserServer: UserServer:pool01. contoso. net
 
@@ -139,7 +139,7 @@ PoolFqdn: pool01.contoso.net
 
 Versión: 5
 
-Rol: servidor WebServer
+Rol: servidor de WebServer
 
 <div>
 

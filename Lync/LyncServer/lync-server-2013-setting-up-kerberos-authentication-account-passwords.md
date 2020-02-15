@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar las contraseñas de cuenta de autenticación Kerberos'
+title: 'Lync Server 2013: configuración de contraseñas de cuentas de autenticación Kerberos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c156e26a54e9762b1b57d1513f37cb7d7088cee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0342c83090dee6cbe021a400acd87e557860518b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764616"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-kerberos-authentication-account-passwords-in-lync-server-2013"></a>Configurar las contraseñas de cuenta de autenticación Kerberos en Lync Server 2013
+# <a name="setting-up-kerberos-authentication-account-passwords-in-lync-server-2013"></a>Configuración de contraseñas de cuentas de autenticación Kerberos en Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41764616"
 
 _**Última modificación del tema:** 2010-11-03_
 
-Después de crear el objeto de equipo para la cuenta de autenticación Kerberos, puede configurar la contraseña de la cuenta. Ejecute el cmdlet de Windows PowerShell para establecer la contraseña de la cuenta Kerberos en un servidor. Puede establecer la contraseña en el objeto que ha creado para la autenticación Kerberos. La contraseña puede establecerse en un valor conocido pero, de forma predeterminada, es una contraseña aleatoria. La contraseña está disponible para todos los orígenes de autenticación Kerberos que usan la cuenta. Use los cmdlets de Windows PowerShell para configurar y administrar las contraseñas de las cuentas de Kerberos.
+Una vez creado el objeto de equipo para la cuenta de autenticación Kerberos, puede configurar la contraseña para la cuenta. Ejecute el cmdlet de Windows PowerShell para establecer la contraseña de la cuenta Kerberos en un servidor. Puede definir la contraseña en el objeto que ha creado para la autenticación Kerberos. La contraseña puede tener un valor conocido, pero de forma predeterminada es una contraseña aleatoria. La contraseña está disponible para todas las fuentes de autenticación Kerberos que usan la cuenta. Use los cmdlets de Windows PowerShell para configurar y administrar las contraseñas de las cuentas Kerberos.
 
 <div>
 
 
 > [!NOTE]  
-> El objeto de cuenta Kerberos es un objeto de equipo, pero usa el parámetro Cuentadeusuario para las operaciones de los cmdlets de Windows PowerShell a los que se hace referencia. Tenga en cuenta que no se trata de un error, pero el comportamiento previsto para el cmdlet cuando se usa con la creación y el mantenimiento de la cuenta de Kerberos.
+> El objeto de cuenta Kerberos es un objeto de equipo, pero usa el parámetro Cuentadeusuario para las operaciones en los cmdlets de Windows PowerShell a los que se hace referencia. Tenga en cuenta que esto no es un error, sino el comportamiento previsto del cmdlet cuando se usa con la creación y el mantenimiento de la cuenta Kerberos.
 
 
 

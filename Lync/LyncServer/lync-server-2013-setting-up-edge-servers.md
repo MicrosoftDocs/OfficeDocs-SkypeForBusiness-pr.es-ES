@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configuración de servidores perimetrales'
+title: 'Lync Server 2013: configuración de servidores perimetrales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183354
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7621d8d8cfb22e774bd13f767c37e49321d3e0a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a3702038781010ce56887ba39c89d09c23bffdbd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764626"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037610"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41764626"
 
 _**Última modificación del tema:** 2012-09-08_
 
-Las tareas principales necesarias para configurar servidores perimetrales son las mismas para instalar un solo servidor perimetral o un grupo de servidores perimetrales con equilibrio de carga, excepto en el caso de que un grupo de servidores perimetrales con equilibrio de carga de hardware requiere la implementación de los equilibradores de carga y otros pasos adicionales para Cómo replicar la configuración en varios servidores perimetrales.
+Las tareas principales requeridas para configurar servidores perimetrales son las mismas que para instalar un solo servidor perimetral o un grupo de servidores perimetrales con equilibrio de carga, con la excepción de que un grupo de servidores perimetrales con equilibrio de carga de hardware requiere la implementación de equilibradores de carga y pasos adicionales para la replicación de la configuración en varios servidores perimetrales.
 
 <div>
 
@@ -45,7 +45,7 @@ Las tareas principales necesarias para configurar servidores perimetrales son la
 
   - [Configurar interfaces de red para servidores perimetrales en Lync Server 2013](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
 
-  - [Instalar el software necesario como requisito previo en servidores perimetrales para Lync Server 2013](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
+  - [Instalar el software necesario como requisito previo en los servidores perimetrales para Lync Server 2013](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
 
   - [Exportar la topología de Lync Server 2013 y copiarla en un medio externo para la instalación perimetral](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
 
@@ -55,7 +55,7 @@ Las tareas principales necesarias para configurar servidores perimetrales son la
 
   - [Iniciar los servidores perimetrales en Lync Server 2013](lync-server-2013-start-edge-servers.md)
 
-  - [Configuración de los servidores proxy inversos para Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md)
+  - [Configuración de servidores proxy inversos para Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md)
 
 </div>
 

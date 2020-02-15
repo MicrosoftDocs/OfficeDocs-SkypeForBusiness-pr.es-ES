@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar servidor de chat persistente'
+title: 'Lync Server 2013: configurar el servidor de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5afdd0a77cdba7c770a15adc549758db2a07af8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f2908cd36d7b40cf2fc041b77305ca83bc197b17
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756314"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041099"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-persistent-chat-server-in-lync-server-2013"></a>Configurar servidor de chat persistente en Lync Server 2013
+# <a name="configuring-persistent-chat-server-in-lync-server-2013"></a>Configurar el servidor de chat persistente en Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41756314"
 
 _**Última modificación del tema:** 2012-04-12_
 
-Después de implementar la compatibilidad de Lync Server 2013, servidor de chat persistente en el generador de topologías, use el panel de control de Lync Server 2013 para configurar cómo se implementa el servidor de chat persistente en su implementación.
+Después de implementar la compatibilidad con Lync Server 2013, el servidor de chat persistente en el generador de topologías, use el panel de control de Lync Server 2013 para configurar el modo en que se implementa el servidor de chat persistente en su implementación.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Habilitar la directiva de servidor de chat persistente en Lync Server 2013](lync-server-2013-enable-persistent-chat-server-policy.md)
+  - [Habilitar la Directiva de servidor de chat persistente en Lync Server 2013](lync-server-2013-enable-persistent-chat-server-policy.md)
 
-  - [Configurar opciones de servidor de chat persistentes a escala global o para grupos de servidores de chat persistentes en Lync Server 2013](lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md)
+  - [Configure las opciones del servidor de chat persistente de forma global o para el grupo de servidores de chat persistente en Lync Server 2013](lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md)
 
   - [Configurar categorías en Lync Server 2013](lync-server-2013-configure-categories.md)
 
-  - [Configurar salones en Lync Server 2013](lync-server-2013-configure-rooms.md)
+  - [Configurar salas en Lync Server 2013](lync-server-2013-configure-rooms.md)
 
   - [Configurar complementos para salones en Lync Server 2013](lync-server-2013-configure-add-ins-for-rooms.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lista de comprobaciones para la implementación del enlace troncal SIP'
+title: 'Lync Server 2013: lista de comprobación para la implementación del tronco SIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184891
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef670fc4ae9e8a9acba3277a00fc0daf6ff766b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7260397f219ad3dac8e666431693f59caf51729c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764496"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037460"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="sip-trunk-deployment-checklist-for-lync-server-2013"></a>Lista de comprobaciones para la implementación del enlace troncal SIP para Lync Server 2013
+# <a name="sip-trunk-deployment-checklist-for-lync-server-2013"></a>Lista de comprobación para la implementación del tronco SIP para Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41764496"
 
 _**Última modificación del tema:** 2012-09-21_
 
-Antes de que puedas implementar un tronco de SIP, tú y tu proveedor de servicios deben intercambiar información básica sobre los puntos de conexión de tu troncal de SIP.
+Para poder implementar un tronco SIP, primero debe intercambiar alguna información de conexión básica con su proveedor de servicios relacionada con sus respectivos extremos de tronco SIP.
 
-Obtenga la siguiente información para cada puerta de enlace de ITSP a la que se conectará:
+Obtenga la información siguiente de cada una de las puertas de enlace del proveedor de servicios de telefonía por Internet a las que se vaya a conectar:
 
   - Dirección IP
 
@@ -49,33 +49,33 @@ Obtenga la siguiente información para cada puerta de enlace de ITSP a la que se
 
 
 > [!NOTE]  
-> Es posible que el proveedor de servicios le pida que se conecte a más de una puerta de enlace de ITSP. En ese caso, debe configurar una conexión entre cada una de las puertas de enlace de ITSP y cada servidor de mediación de su grupo.
+> Es posible que el proveedor de servicios le pida que se conecte a más de una puerta de enlace del proveedor de servicios de telefonía por Internet. En ese caso, debe configurar una conexión entre cada puerta de enlace de ITSP y cada uno de los servidores de mediación del grupo.
 
 
 
 </div>
 
-La información que asignes a tu proveedor de servicios depende de tu tipo de conexión troncal de SIP:
+La información que facilita al proveedor de servicios depende del tipo de conexión del tronco SIP:
 
-  - En el caso de las conexiones de red privada o de cambio multiprotocolo (MPLS), asigne a la ITSP la dirección IP de enrutamiento pública del enrutador en la red perimetral (también conocida como DMZ, zona desmilitarizada y subred filtrada). Compruebe que la puerta de enlace o el controlador de borde de sesión (SBC) en el ITSP puede comunicarse con esta dirección. Además, da al ITSP el FQDN de tu servidor de mediación.
+  - En el caso de conexiones de red privadas o de conmutación multiprotocolo mediante etiquetas (MPLS, Multiprotocol Label Switching) facilite al proveedor de servicios de telefonía por Internet la dirección IP enrutable públicamente del enrutador de su red perimetral (también conocida como extranet o subred filtrada). Compruebe que la puerta de enlace o el controlador de borde de sesión (SBC) del proveedor de servicios de telefonía por Internet pueda obtener acceso a esta dirección. Proporcione también al ITSP el FQDN del servidor de mediación.
 
-  - En el caso de las conexiones de red privada virtual (VPN), asigne a la ITSP la dirección IP de su servidor VPN.
+  - Para conexiones de red privada virtual (VPN), facilítele también la dirección IP del servidor VPN.
 
 <div>
 
 ## <a name="certificate-considerations"></a>Consideraciones de certificados
 
-Para determinar si necesita un certificado para la Troncalización SIP, consulte a su ITSP acerca de la compatibilidad con el protocolo:
+Para determinar si necesita un certificado para el enlace troncal SIP, infórmese con su proveedor de servicios de telefonía por Internet acerca de la compatibilidad con protocolos:
 
-1.  Si su ITSP es compatible con el protocolo de control de transmisión (TCP), no necesita un certificado.
+1.  Si solo admite el protocolo de control de transmisión (TCP), no necesita ningún certificado.
 
-2.  Si su ITSP es compatible con la seguridad de la capa de transporte (TLS), ITSP debe proporcionarle un certificado.
+2.  Si admite el protocolo de seguridad de la capa de transporte (TLS), el proveedor de servicios de telefonía por Internet deberá proporcionarle un certificado.
 
 <div>
 
 
 > [!NOTE]  
-> SIP funciona junto con el protocolo de transporte en tiempo real (RTP) o el protocolo de transporte seguro en tiempo real (SRTP), los protocolos que administran los datos de voz reales en las llamadas de voz a través del Protocolo de Internet (VoIP).
+> El protocolo SIP trabaja junto con el protocolo de transporte en tiempo real (RTP) o el protocolo de transporte seguro en tiempo real (SRTP), que son los encargados de administrar los datos de voz reales en las llamadas del protocolo de Voz sobre Protocolo de Internet (VoIP).
 
 
 
@@ -87,13 +87,13 @@ Para determinar si necesita un certificado para la Troncalización SIP, consulte
 
 ## <a name="deployment-process"></a>Proceso de implementación
 
-Para implementar el lado servidor de Lync de la conexión de troncal de SIP, siga estos pasos:
+Para implementar el lado de Lync Server de la conexión de tronco SIP, siga estos pasos:
 
-1.  Con el generador de topologías de Lync Server, cree y configure la topología de dominio SIP. Para obtener más información, vea [definir y configurar una topología en el generador de topología para Lync Server 2013](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md) en la documentación de implementación.
+1.  Mediante el generador de topologías de Lync Server, cree y configure la topología de dominio SIP. Para obtener información detallada, consulte [definir y configurar una topología en Topology Builder for Lync Server 2013](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md) en la documentación sobre implementación.
 
-2.  Use el panel de control de Lync Server para configurar el enrutamiento de voz para el nuevo dominio SIP. Para obtener más información, vea [configuración de troncos en Lync Server 2013](lync-server-2013-configuring-trunks.md) en la documentación de implementación.
+2.  Mediante el panel de control de Lync Server, configure el enrutamiento de voz para el nuevo dominio SIP. Para obtener más información, consulte [configuración de troncos en Lync Server 2013](lync-server-2013-configuring-trunks.md) en la documentación sobre implementación.
 
-3.  Pruebe la conectividad mediante el cmdlet **Test-CsPstnOutboundCall** . Para obtener más información, vea la documentación del shell de administración de Lync Server o la ayuda del shell de administración de Lync Server.
+3.  Pruebe la conectividad con el cmdlet **Test-CsPstnOutboundCall**. Para obtener más información, consulte la documentación o la ayuda del shell de administración de Lync Server para el shell de administración de Lync Server.
 
 </div>
 

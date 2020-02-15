@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla Phones'
+title: 'Lync Server 2013: tabla de teléfonos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cddf5eac7cc85852f4a7f61f4b746091158257e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53c3a67381a101bd9aecc4872d4e08b4fb8daea3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755190"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050842"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phones-table-in-lync-server-2013"></a>Tabla Phones en Lync Server 2013
+# <a name="phones-table-in-lync-server-2013"></a>Tabla teléfonos en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41755190"
 
 _**Última modificación del tema:** 2012-08-20_
 
-La tabla teléfonos es una tabla de soporte técnico. Cada registro de la tabla almacena información acerca de un número de teléfono implicado en llamadas VoIP que tienen registros en la base de datos.
+La tabla teléfonos es una tabla de apoyo. Cada registro de la tabla almacena información sobre un número de teléfono implicado en llamadas de VoIP que tienen registros en la base de datos.
 
 
 <table>
@@ -59,7 +59,7 @@ La tabla teléfonos es una tabla de soporte técnico. Cada registro de la tabla 
 <tr class="odd">
 <td><p><strong>PhoneId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
+<td><p>Principal</p></td>
 <td><p>Número único que identifica este teléfono.</p></td>
 </tr>
 <tr class="even">
@@ -70,7 +70,7 @@ La tabla teléfonos es una tabla de soporte técnico. Cada registro de la tabla 
 </tr>
 <tr class="odd">
 <td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>Fechas</p></td>
+<td><p>dateTime</p></td>
 <td></td>
 <td><p>Marca de tiempo (solo para uso interno).</p>
 <p>Este campo se introdujo en Microsoft Lync Server 2013.</p></td>

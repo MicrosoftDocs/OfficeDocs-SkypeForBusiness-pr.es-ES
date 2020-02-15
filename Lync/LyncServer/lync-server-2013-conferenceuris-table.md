@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabla ConferenceUris'
+title: 'Lync Server 2013: tabla ConferenceUris'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185160
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cacbaf4e8c7c826ae2e00e9c86b44cc8387f315
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 143e2b44c5b5ddd9cbf630ac17267e0747029aed
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741580"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040859"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41741580"
 
 _**Última modificación del tema:** 2012-05-25_
 
-La tabla ConfereneUris es una tabla de soporte que almacena una lista de los distintos URI de conferencia que participaron en sesiones de conferencia registradas en la base de datos. Cada registro de la tabla representa un URI de conferencia.
+La tabla ConferenceUris es una tabla auxiliar donde se guarda una lista de las diversas URI de conferencia que han participado en sesiones de conferencia registradas en la base de datos. Cada registro de la tabla corresponde a una URI de conferencia.
 
 
 <table>
@@ -59,32 +59,32 @@ La tabla ConfereneUris es una tabla de soporte que almacena una lista de los dis
 <tr class="odd">
 <td><p><strong>NextUpdateTS</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primary</p></td>
-<td><p>Marca de tiempo, usada internamente.</p></td>
+<td><p>Principal</p></td>
+<td><p>Marca de tiempo, interna utilizada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceUriId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>Número único que identifica este URI de conferencia.</p></td>
+<td><p>Principal</p></td>
+<td><p>Número único que identifica esta URI de conferencia.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ConferenceUri</strong></p></td>
+<td><p><strong>Uri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
 <td></td>
-<td><p>URI de la Conferencia.</p></td>
+<td><p>URI de conferencia.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Comprobación</strong></p></td>
+<td><p><strong>Suma de comprobación</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Suma de comprobación de ConferenceUri. Se usa para aumentar la velocidad de las búsquedas de bases de datos.</p></td>
+<td><p>Suma de comprobación de ConferenceUri. Se utiliza para acelerar las búsquedas en bases de datos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UriTypeId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Extranjero</p></td>
-<td><p>Tipo de URI, como conf: chat para conferencias de mensajería instantánea o conf: audio-video para conferencias de audio y vídeo. Para obtener más información, consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en la tabla de 2013 de Lync Server</a> .</p></td>
+<td><p>Externa</p></td>
+<td><p>Tipo de URI, como por ejemplo conf:chat para conferencia de mensajería instantánea, o conf:audio-video para conferencia A/V. Consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en la tabla de Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 </tbody>
 </table>

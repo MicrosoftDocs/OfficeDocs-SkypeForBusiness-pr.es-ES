@@ -12,16 +12,16 @@ ms:contentKeyID: 63969654
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d4a7ae6009c7e34c49d0e49bea131b6cc03fd15
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c2ced4d5d61a51ff3e25422ba9486887b72470a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756774"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047468"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,41 +37,41 @@ ms.locfileid: "41756774"
 
 _**Última modificación del tema:** 2014-08-18_
 
-Las tareas mensuales se centran en garantizar la salud a largo plazo de un sistema.
+Las tareas mensuales se centran en garantizar el mantenimiento a largo plazo de un sistema.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-Las siguientes tareas deben realizarse mensualmente:
+Las siguientes tareas deben realizarse cada mes:
 
   - [Ver el estado de la configuración global de un bosque en Lync Server 2013](lync-server-2013-viewing-status-of-global-settings-for-a-forest.md)
 
   - [Ver la configuración del servidor perimetral en Lync Server 2013](lync-server-2013-view-edge-server-settings.md)
 
-  - [Comprobar certificados de servidor de Lync Server 2013](lync-server-2013-check-lync-server-2013-server-certificates.md)
+  - [Comprobar los certificados de servidor de Lync Server 2013](lync-server-2013-check-lync-server-2013-server-certificates.md)
 
-  - [Comprobar la configuración troncal de un número de teléfono en Lync Server 2013](lync-server-2013-check-trunk-configuration-against-a-phone-number.md)
+  - [Comprobar la configuración del tronco con un número de teléfono en Lync Server 2013](lync-server-2013-check-trunk-configuration-against-a-phone-number.md)
 
   - [Comprobar las reglas de normalización de voz en Lync Server 2013](lync-server-2013-check-voice-normalization-rules.md)
 
-  - [Probar el número de teléfono en una directiva de voz en Lync Server 2013](lync-server-2013-test-telephone-number-against-a-voice-policy.md)
+  - [Probar el número de teléfono con una directiva de voz en Lync Server 2013](lync-server-2013-test-telephone-number-against-a-voice-policy.md)
 
-  - [Probar el número de teléfono en una ruta de voz en Lync Server 2013](lync-server-2013-test-telephone-number-against-a-voice-route.md)
+  - [Probar el número de teléfono con una ruta de voz en Lync Server 2013](lync-server-2013-test-telephone-number-against-a-voice-route.md)
 
   - [Probar la configuración de voz en Lync Server 2013](lync-server-2013-test-voice-configuration.md)
 
-  - [Probar reglas, rutas y directivas de voz en Lync Server 2013](lync-server-2013-test-voice-rules-routes-and-policies.md)
+  - [Probar reglas de voz, rutas y directivas en Lync Server 2013](lync-server-2013-test-voice-rules-routes-and-policies.md)
 
-  - [Probar el acceso a aplicaciones web en Lync Server 2013](lync-server-2013-test-web-app-access.md)
+  - [Probar el acceso a la aplicación web en Lync Server 2013](lync-server-2013-test-web-app-access.md)
 
-  - [Probar el acceso anónimo a aplicaciones web en Lync Server 2013](lync-server-2013-test-anonymous-web-app-access.md)
+  - [Probar el acceso anónimo a una aplicación web en Lync Server 2013](lync-server-2013-test-anonymous-web-app-access.md)
 
   - [Probar el acceso de usuarios móviles en Lync Server 2013](lync-server-2013-test-mobile-user-access.md)
 
   - [Probar la capacidad de los usuarios móviles para intercambiar mensajes instantáneos en Lync Server 2013](lync-server-2013-test-mobile-users-ability-to-exchange-instant-messages.md)
 
-  - [Probar las notificaciones Push a Smart Phone en Lync Server 2013](lync-server-2013-test-push-notifications-to-smart-phones.md)
+  - [Probar las notificaciones de inserción con teléfonos inteligentes en Lync Server 2013](lync-server-2013-test-push-notifications-to-smart-phones.md)
 
   - [Comprobaciones de seguridad en Lync Server 2013](lync-server-2013-security-checks.md)
 
@@ -86,7 +86,7 @@ Las siguientes tareas deben realizarse mensualmente:
 ## <a name="see-also"></a>Vea también
 
 
-[Lista de comprobación mensual de tareas](lync-server-2013-operations-checklists.md)  
+[Lista de comprobación de tareas mensuales](lync-server-2013-operations-checklists.md)  
   
 
 </div>

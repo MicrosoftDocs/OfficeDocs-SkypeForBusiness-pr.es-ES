@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: compatibilidad con múltiples troncales'
+title: 'Lync Server 2013: compatibilidad con varios tronco'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d13ca1a28fd28a6d280ddf3a18e57e09376e668
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a2f8e9bea40532486d75e76887e35b496df8631
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765961"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039133"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="multiple-trunk-support-in-lync-server-2013"></a>Compatibilidad con varios troncales en Lync Server 2013
+# <a name="multiple-trunk-support-in-lync-server-2013"></a>Compatibilidad con varios tronco en Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41765961"
 
 _**Última modificación del tema:** 2012-11-01_
 
-La funcionalidad de Lync Server 2013 admite varias asociaciones entre puertas de enlace y servidores de mediación. Estas asociaciones se realizan mediante la definición de un tronco, que es una asociación lógica entre un grupo de servidores de mediación y una puerta de enlace de red de telefonía pública conmutada (RTC), controlador de borde de sesión (SBC) o IP-PBX. Use el generador de topología para asociar puertas de enlace con servidores de mediación (es decir, troncos).
+La funcionalidad de Lync Server 2013 admite varias asociaciones entre puertas de enlace y servidores de mediación. Estas asociaciones se realizan mediante la definición de un tronco, que es una asociación lógica entre un grupo de servidores de mediación y una puerta de enlace de red telefónica conmutada (RTC), un controlador de borde de sesión (SBC) o un IP-PBX. Use el generador de topologías para asociar puertas de enlace con servidores de mediación (es decir, troncos).
 
-  - Para asignar o quitar un tronco en Lync Server 2013, primero debe definir un tronco en el generador de topología. Un tronco consiste en la siguiente Asociación: nombre de dominio completo (FQDN) de Media Server, el puerto de escucha del servidor de mediación, el FQDN de la puerta de enlace y el puerto de escucha de la puerta de enlace.
+  - Para asignar o quitar un tronco en Lync Server 2013, primero debe definir un tronco en el generador de topologías. Un tronco se compone de la siguiente Asociación: nombre de dominio completo (FQDN) del servidor de mediación, el puerto de escucha del servidor de mediación, el FQDN de la puerta de enlace y el puerto de escucha de la puerta de enlace.
 
-  - Para configurar varios troncos, puede crear varias asociaciones entre la misma puerta de enlace y el servidor de mediación. Esto proporciona resistencia adicional a la infraestructura de telefonía IP empresarial, que es especialmente útil en escenarios de interoperabilidad de la intercambiación privada (PBX).
+  - Para configurar varios troncos, puede crear varias asociaciones entre la misma puerta de enlace y el servidor de mediación. Esto proporciona resistencia adicional a la infraestructura de Enterprise Voice, lo que es especialmente útil en escenarios de interoperabilidad de central de conmutación (PBX).
 
-Cuando se define un tronco, debe estar asociado con una ruta. Para asociar un tronco a una ruta, defina un nombre simple para el tronco en el generador de topología. Este nombre simple se usa como el nombre del tronco en el panel de control de Lync Server, donde los troncos se pueden asociar a rutas. El nombre de tronco simple se usa como nombre de la puerta de enlace desde el shell de administración de Lync Server.
+Cuando se define un tronco, debe estar asociado con una ruta. Para asociar un tronco a una ruta, defina un nombre sencillo para el tronco en el generador de topologías. Este nombre sencillo se usa como nombre del tronco en el panel de control de Lync Server, donde los troncos pueden asociarse con rutas. El nombre de tronco simple se usa como nombre de puerta de enlace desde el shell de administración de Lync Server.
 
     New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}
 
-El administrador debe seleccionar un tronco predeterminado asociado a un servidor de mediación. En el generador de topología, haga clic con el botón secundario en el servidor de mediación asociado y luego haga clic en **propiedades**. Especificar la puerta de enlace predeterminada para el servidor de mediación.
+El administrador debe seleccionar un tronco predeterminado asociado a un servidor de mediación. En el generador de topologías, haga clic con el botón secundario en el servidor de mediación asociado y, a continuación, haga clic en **propiedades**. Especifique la puerta de enlace predeterminada para el servidor de mediación.
 
-En el siguiente diagrama se muestran los diversos troncos que se definen para cada servidor de mediación y puerta de enlace.
+En el siguiente diagrama se ilustran los distintos troncos definidos para cada servidor de mediación y puerta de enlace.
 
-**Enrutamiento de troncal M-N**
+**Enrutamiento de troncos M-N**
 
 ![Varias asignaciones de tronco.](images/JJ205127.c61cd9a7-d8d9-4e02-83b9-ab62519a48c4(OCS.15).jpg "Varias asignaciones de tronco.")
 

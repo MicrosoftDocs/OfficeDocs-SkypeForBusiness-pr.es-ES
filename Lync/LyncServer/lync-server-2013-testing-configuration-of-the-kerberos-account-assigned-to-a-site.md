@@ -12,20 +12,20 @@ ms:contentKeyID: 63969637
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c096edc0267501bb17870a5c018e4b6b0c513422
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d916ba2123f6a34150a9fe5c9c3977d75743dae0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745850"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037052"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-configuration-of-the-kerberos-account-assigned-to-a-site-in-lync-server-2013"></a>Prueba de la configuración de la cuenta Kerberos asignada a un sitio en Lync Server 2013
+# <a name="testing-configuration-of-the-kerberos-account-assigned-to-a-site-in-lync-server-2013"></a>Probar la configuración de la cuenta Kerberos asignada a un sitio en Lync Server 2013
 
 </div>
 
@@ -45,8 +45,8 @@ _**Última modificación del tema:** 2014-06-05_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Programación de verificación</p></td>
-<td><p>Cada día</p></td>
+<td><p>Programación de comprobación</p></td>
+<td><p>Diario</p></td>
 </tr>
 <tr class="even">
 <td><p>Herramienta de prueba</p></td>
@@ -54,8 +54,8 @@ _**Última modificación del tema:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
-<td><p>Al ejecutarse de forma local con el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol de RBAC que tenga permiso para ejecutar el cmdlet test-CsKerberosAccountAssignment. Para ver una lista de todos los roles de RBAC que pueden usar este cmdlet, ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:</p>
+<td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsKerberosAccountAssignment. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsKerberosAccountAssignment&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +66,9 @@ _**Última modificación del tema:** 2014-06-05_
 
 ## <a name="description"></a>Descripción
 
-El cmdlet test-CsKerberosAccountAssignment le permite comprobar que una cuenta Kerberos está asociada con un sitio determinado, que esta cuenta está configurada correctamente y que la cuenta funciona como se espera. Las cuentas de Kerberos son cuentas de equipo que pueden servir como entidad principal de autenticación para todos los equipos de un sitio que ejecutan Internet Information Server (IIS). Debido a que estas cuentas usan el protocolo de autenticación Kerberos, las cuentas se conocen como cuentas Kerberos y el nuevo proceso de autenticación se conoce como autenticación Web Kerberos. Esto le permite administrar todos los servidores IIS mediante una sola cuenta.
+El cmdlet test-CsKerberosAccountAssignment permite comprobar que una cuenta Kerberos está asociada a un sitio determinado, que esta cuenta está configurada correctamente y que la cuenta funciona como se esperaba. Las cuentas Kerberos son cuentas de equipo que pueden servir como entidad de autenticación para todos los equipos de un sitio que ejecutan Internet Information Server (IIS). Como estas cuentas usan el protocolo de autenticación Kerberos, las cuentas se denominan cuentas Kerberos y el nuevo proceso de autenticación se conoce como autenticación Web Kerberos. Esto le permite administrar todos los servidores IIS con una sola cuenta.
 
-Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg425938(v=OCS.15)) .
+Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15)) .
 
 </div>
 
@@ -76,29 +76,29 @@ Para obtener más información, consulte la documentación de ayuda del cmdlet [
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-De forma predeterminada, prueba-CsKerberosAccountAssignment muestra muy pocos resultados en pantalla. En su lugar, la información devuelta por el cmdlet se escribe en un archivo HTML. Por eso, le recomendamos que incluya el parámetro verbose y el parámetro de informe en cualquier momento que ejecute test-CsKerberosAccountAssignment. El parámetro verbose proporcionará una salida ligeramente más detallada en pantalla mientras se ejecuta el cmdlet. El parámetro de informe le permite especificar una ruta de acceso y un nombre de archivo para el archivo HTML generado por test-CsKerberosAccountAssignment. Si no incluye el parámetro de informe, el archivo HTML se guardará automáticamente en la carpeta usuarios y recibirá un nombre similar a este: ce84964a-c4da-4622-Ad34-c54ff3ed361f. html.
+De forma predeterminada, test-CsKerberosAccountAssignment muestra muy poco resultados en pantalla. En su lugar, la información devuelta por el cmdlet se escribe en un archivo HTML. Por ello, se recomienda incluir el parámetro verbose y el parámetro Report en cualquier momento que se ejecute test-CsKerberosAccountAssignment. El parámetro verbose proporcionará un resultado ligeramente más detallado en pantalla mientras se ejecuta el cmdlet. El parámetro Report permite especificar una ruta de acceso de archivo y un nombre de archivo para el archivo HTML generado por test-CsKerberosAccountAssignment. Si no incluye el parámetro de informe, el archivo HTML se guardará automáticamente en la carpeta de usuarios y se le asignará un nombre similar al siguiente: ce84964a-c4da-4622-Ad34-c54ff3ed361f. html.
 
-También debe especificar una identidad de sitio al ejecutar test-CsKerberosAccountAssignment. Las cuentas de Kerberos se asignan en el ámbito del sitio.
+También debe especificar una identidad de sitio al ejecutar test-CsKerberosAccountAssignment. Las cuentas Kerberos se asignan en el ámbito de sitio.
 
 El siguiente comando ejecuta test-CsKerberosAccountAssignment y guarda el resultado en un archivo denominado C:\\logs\\KerberosTest. html:
 
     Test-CsKerberosAccountAssignment -Identity "site:Redmond" -Report "C:\Logs\KerberosTest.html" -Verbose
 
-Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg425938(v=OCS.15)) .
+Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15)) .
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Determinar el éxito o el fracaso
+## <a name="determining-success-or-failure"></a>Determinar si se ha realizado correctamente o erróneo
 
-El cmdlet test-CsKerberosAccountAssignment no devuelve una indicación simple de éxito o error. En su lugar, debe ver el archivo HTML generado usando Internet Explorer.
+El cmdlet test-CsKerberosAccountAssignment no devuelve una indicación sencilla de éxito o error. En su lugar, debe ver el archivo HTML generado con Internet Explorer.
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Razones por las que se ha producido un error en la prueba
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
 Estas son algunas de las razones comunes por las que test-CsKerberosAccountAssignment podría fallar:
 
@@ -110,17 +110,17 @@ Estas son algunas de las razones comunes por las que test-CsKerberosAccountAssig
     
     sitio: Redmond
 
-  - Es posible que el sitio especificado no tenga una cuenta de Kerberos asignada. Puede determinar si se asigna o no una cuenta Kerberos a un sitio ejecutando un comando similar a este:
+  - Es posible que el sitio especificado no tenga asignada una cuenta Kerberos. Puede determinar si una cuenta Kerberos está asignada a un sitio mediante la ejecución de un comando similar al siguiente:
     
         Get-CsKerberosAccountAssignment -Identity "site:Redmond"
 
-  - Es posible que su cuenta de Kerberos tenga una contraseña que no es válida. Si recibe el siguiente mensaje de error en el informe, es probable que tenga que restablecer la contraseña de la cuenta Kerberos:
+  - Es posible que la cuenta Kerberos tenga una contraseña no válida. Si recibe el siguiente mensaje de error en el informe, probablemente tendrá que restablecer la contraseña de la cuenta Kerberos:
     
     InvalidKerberosConfiguration: la configuración de Kerberos no es válida.
     
-    InvalidKerberosConfiguration: la configuración de Kerberos en atl-cs001.litwareinc.com no es válida. La cuenta asignada esperada\\es litwareinc kerberostest. Asegúrese de que la cuenta no haya expirado y de que la contraseña configurada en el equipo coincida con la contraseña de Active Directory de la cuenta.
+    InvalidKerberosConfiguration: la configuración de Kerberos en atl-cs001.litwareinc.com no es válida. La cuenta asignada esperada\\es litwareinc kerberostest. Asegúrese de que la cuenta no ha expirado y de que la contraseña configurada en el equipo coincida con la contraseña de Active Directory de la cuenta.
     
-    Puede establecer la contraseña con el cmdlet [set-CsKerberosAccountPassword](https://technet.microsoft.com/en-us/library/Gg398659(v=OCS.15)) .
+    Puede establecer la contraseña con el cmdlet [set-CsKerberosAccountPassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15)) .
 
 </div>
 

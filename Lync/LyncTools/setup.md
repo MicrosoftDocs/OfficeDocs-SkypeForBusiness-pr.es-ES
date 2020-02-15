@@ -1,5 +1,5 @@
 ---
-title: Configuración
+title: Instalación
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16a23ab96b25fa3ba5da846fc5967053fdac041b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d09980e7a34e5c565fe8282a665cede654a725a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763990"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038262"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setup"></a>Configuración
+# <a name="setup"></a>Instalación
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41763990"
 
 _**Última modificación del tema:** 2014-04-22_
 
-Para instalar las herramientas proporcionadas como parte de la herramienta de estrés y rendimiento de Lync Server 2013, siga estas instrucciones.
+Para instalar las herramientas proporcionadas como parte de la herramienta stress and performance de Lync Server 2013, siga estas instrucciones.
 
 <div>
 
-## <a name="installing-the-stress-and-performance-tool"></a>Instalar la herramienta estrés and Performance
+## <a name="installing-the-stress-and-performance-tool"></a>Instalación de la herramienta stress and Performance
 
-Ejecute el archivo de Windows Installer, **CapacityPlanningTool. msi**, en cada equipo cliente que va a usar para simular el tráfico de usuario. Estos equipos cliente no deben ejecutar ningún componente de Lync Server.
+Ejecute el archivo de Windows Installer, **CapacityPlanningTool. msi**, en cada equipo cliente que va a usar para simular el tráfico de usuarios. Estos equipos cliente no deben ejecutar ningún componente de Lync Server.
 
 </div>
 

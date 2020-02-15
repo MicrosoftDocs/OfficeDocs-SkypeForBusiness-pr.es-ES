@@ -1,5 +1,5 @@
 ---
-title: Configurar directivas para archivar al usar la integración de Exchange Server
+title: Configuración de directivas para el archivado al usar la integración de Exchange Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184742
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6eccac54e75dff4ba0c4af29e0f14d6e48068ae1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eac425f08e3522c4ed885036c144c4c0f12e37b9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764596"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040879"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-policies-for-archiving-in-lync-server-2013-when-using-exchange-server-integration"></a>Configurar directivas para archivar en Lync Server 2013 al usar la integración de Exchange Server
+# <a name="setting-up-policies-for-archiving-in-lync-server-2013-when-using-exchange-server-integration"></a>Configuración de directivas para el archivado en Lync Server 2013 al usar la integración de Exchange Server
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41764596"
 
 _**Última modificación del tema:** 2012-10-09_
 
-Si los usuarios alojados en Exchange 2013 tienen sus buzones en conservación local, las directivas de retención en contexto de Exchange controlan el archivado para esos usuarios. Si usa la integración de Microsoft Exchange para su implementación, las directivas de Exchange 2013 invalidan las directivas de archivado de Lync Server para los usuarios que están alojados en los 2013 de Exchange. Para obtener más información sobre cómo configurar las directivas de archivado de Exchange, consulte la documentación de Exchange 2013. Para obtener detalles sobre cómo configurar directivas de usuario para usuarios alojados en Lync Server 2013, vea [configurar directivas de usuario para archivar en Lync server 2013](lync-server-2013-setting-up-user-policies-for-archiving-in-lync-server.md) en la documentación de implementación. Para obtener más información sobre cómo funcionan las directivas, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, documentación de implementación u operaciones.
+Si los usuarios hospedados en Exchange 2013 tienen sus buzones en conservación local, las directivas de conservación local de Exchange controlan el archivado para esos usuarios. Si usa la integración de Microsoft Exchange para su implementación, las directivas de Exchange 2013 invalidan las directivas de archivado de Lync Server para los usuarios hospedados en Exchange 2013. Para obtener información acerca de cómo configurar las directivas de archivado de Exchange, consulte la documentación de Exchange 2013. Para obtener información detallada sobre cómo configurar las directivas de usuario para los usuarios hospedados en Lync Server 2013, consulte [configuración de directivas de usuario para archivado en Lync server 2013](lync-server-2013-setting-up-user-policies-for-archiving-in-lync-server.md) en la documentación sobre implementación. Para obtener más información sobre cómo funcionan las directivas, consulte [how archiving Works in Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación sobre Planeación, la documentación sobre la implementación o las operaciones.
 
 <div>
 
 
 > [!NOTE]
-> Si implementa Exchange 2013 y Lync Server 2013 en el mismo bosque, las directivas de retención en contexto de Exchange 2013 controlan el archivado. Si implementa Exchange 2013 y Lync Server 2013 en bosques independientes, consulte "implementar Lync Server y Microsoft Exchange en bosques diferentes" en la <A href="lync-server-2013-deployment-checklist-for-archiving.md">lista de comprobación de la implementación para archivar en Lync Server 2013</A>.
+> Si implementa Exchange 2013 y Lync Server 2013 en el mismo bosque, las directivas de conservación local de Exchange 2013 controlan el archivado. Si implementa Exchange 2013 y Lync Server 2013 en bosques independientes, vea "implementación de Lync Server y Microsoft Exchange en bosques diferentes" en la <A href="lync-server-2013-deployment-checklist-for-archiving.md">lista de comprobación de la implementación para el archivado en Lync Server 2013</A>.
 
 
 

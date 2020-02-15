@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: eliminar una intervalo orbitar de llamada'
+title: 'Lync Server 2013: eliminar un intervalo de órbitas de estacionamiento de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184713
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 934559f1b67c1325684ee5b477be18ed112224df
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: caabdfd258bf6f1cc2e30eeed0ac2cdd56f7502e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726220"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037660"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-call-park-orbit-range-in-lync-server-2013"></a>Eliminar un intervalo orbitar de llamadas en Lync Server 2013
+# <a name="delete-a-call-park-orbit-range-in-lync-server-2013"></a>Eliminar un intervalo de órbitas de estacionamiento de llamadas en Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41726220"
 
 _**Última modificación del tema:** 2013-02-20_
 
-Use uno de los procedimientos siguientes para eliminar un intervalo de llamada en órbita.
+Use uno de los siguientes procedimientos para eliminar un intervalo de órbitas de estacionamiento de llamadas.
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-to-delete-a-call-park-orbit-range"></a>Para usar el panel de control de Lync Server para eliminar un intervalo orbitar de llamadas
+## <a name="to-use-lync-server-control-panel-to-delete-a-call-park-orbit-range"></a>Para usar el panel de control de Lync Server para eliminar un intervalo de órbitas de estacionamiento de llamadas
 
-1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, consulte [permisos de configuración de delegación en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro de la función CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, consulte [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  En la barra de navegación izquierda, haga clic en **Características de voz** y, a continuación, en **Estacionamiento de llamadas**.
 
-4.  En la página de **llamada estacionamiento** , en el campo de búsqueda, escriba todo o parte del nombre del rango de órbita que desea eliminar.
+4.  En la página **Estacionamiento de llamadas**, en el campo de búsqueda, escriba la totalidad o parte del nombre de intervalo de órbitas que desea eliminar.
 
-5.  En la lista resultante de órbitas, haga clic en la órbita, haga clic en **Editar**y, a continuación, haga clic en **eliminar**.
+5.  En la lista de órbitas resultante, haga clic en la órbita, en **Editar** y, a continuación, en **Eliminar**.
 
 6.  Haga clic en **Aceptar**.
 
@@ -59,11 +59,11 @@ Use uno de los procedimientos siguientes para eliminar un intervalo de llamada e
 
 <div>
 
-## <a name="to-use-windows-powershell-to-delete-a-call-park-orbit-range"></a>Para usar Windows PowerShell para eliminar un intervalo de llamada de Parque orbital
+## <a name="to-use-windows-powershell-to-delete-a-call-park-orbit-range"></a>Para usar Windows PowerShell para eliminar un intervalo de órbitas de estacionamiento de llamadas
 
-1.  Inicie sesión en el equipo donde está instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [permisos de configuración de delegado en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Inicie sesión en el equipo donde esté instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
 3.  En la línea de comandos, escriba lo siguiente:
     
@@ -89,7 +89,7 @@ Use uno de los procedimientos siguientes para eliminar un intervalo de llamada e
 ## <a name="see-also"></a>Vea también
 
 
-[Crear o modificar un intervalo orbitar de llamadas en Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
+[Crear o modificar un intervalo de órbitas de estacionamiento de llamadas en Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
 
 
 [Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit)  

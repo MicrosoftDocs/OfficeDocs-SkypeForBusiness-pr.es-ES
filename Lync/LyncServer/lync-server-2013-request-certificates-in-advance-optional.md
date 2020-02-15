@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Solicitar los certificados con anterioridad (opcional)'
+title: 'Lync Server 2013: solicitar certificados de antemano (opcional)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184915
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ee4598f35bb607a9262bfeb7931e2c88e27920c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7c2df4d328154133df91503877a22234e6a05aa3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723840"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046906"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="request-certificates-in-advance-optional-for-lync-server-2013"></a>Solicitar los certificados con anterioridad (opcional) para Lync Server 2013
+# <a name="request-certificates-in-advance-optional-for-lync-server-2013"></a>Solicitar certificados de antemano (opcional) para Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41723840"
 
 _**Última modificación del tema:** 2013-02-21_
 
-Los certificados son necesarios para todos los servidores internos que ejecutan Lync Server 2013, incluidos los servidores front-end Enterprise Edition, el servidor Standard Edition, el director, el servidor perimetral y el servidor de mediación independiente. Aunque se recomienda una entidad de certificación (CA) interna de empresa para los servidores internos, también puede usar una CA pública. Para obtener más información sobre los requisitos de certificado y sobre el uso de una CA pública, consulte [requisitos de certificados para servidores internos en Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) en la documentación de planeación.
+Los certificados son necesarios para todos los servidores internos que ejecutan Lync Server 2013, incluidos cada servidor front-end Enterprise Edition, un servidor Standard Edition, un director, un servidor perimetral y un servidor de mediación independiente. Aunque para los servidores internos se recomienda una entidad de certificación (CA) empresarial interna, también puede usar una pública. Para obtener más información sobre los requisitos de certificado y el uso de una entidad de certificación pública, consulte [requisitos de certificados para servidores internos en Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) en la documentación referente a la planeación.
 
-La instalación de Lync Server 2013 incluye el Asistente para certificados, que facilita las tareas de solicitar, asignar e instalar certificados durante la implementación. Si desea solicitar certificados antes de instalar servidores (por ejemplo, para ahorrar tiempo durante la implementación real de servidores), puede hacerlo usando un equipo en el que estén instaladas las herramientas administrativas de Lync Server 2013 o mediante una solicitud de certificado procedimiento definido en la organización, siempre que se asegure de que los certificados son exportables y contienen todos los nombres alternativos de asunto necesarios. Solicitar certificados de antemano es opcional. Si no los solicita por adelantado, debe solicitarlos como parte de la configuración de cada servidor que requiera un certificado.
+El programa de instalación de Lync Server 2013 incluye el Asistente para certificados, que facilita las tareas de solicitar, asignar e instalar certificados durante la implementación. Si desea solicitar certificados antes de instalar servidores (por ejemplo, para ahorrar tiempo durante la implementación real de servidores), puede hacerlo con un equipo en el que estén instaladas las herramientas administrativas de Lync Server 2013 o mediante una solicitud de certificado. procedimiento definido en la organización, siempre que se asegure de que los certificados son exportables y contienen todos los nombres alternativos de sujeto necesarios. Solicitar certificados por adelantado es opcional. Si no los solicita por adelantado, debe solicitarlos como parte de la configuración de cada servidor que requiera un certificado.
 
-Esta documentación de implementación proporciona procedimientos para usar el Asistente para certificados con el fin de solicitar certificados como parte del proceso de configuración, como se describe en [configurar certificados para servidores en Lync server 2013](lync-server-2013-configure-certificates-for-servers.md), [configurar certificados para el Director en Lync Server 2013](lync-server-2013-configure-certificates-for-the-director.md)e [instalar los archivos para mediar en Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) secciones de esta documentación de implementación. Si solicita certificados por adelantado, debe modificar los procedimientos de implementación de certificados en las secciones según corresponda para importar y asignar los certificados en lugar de solicitarlos en el momento de la implementación.
+Esta documentación sobre la implementación proporciona procedimientos para usar el Asistente para certificados para solicitar certificados como parte del proceso de instalación, como se describe en [configurar certificados para servidores en Lync server 2013](lync-server-2013-configure-certificates-for-servers.md), [configurar certificados para el Director en Lync Server 2013](lync-server-2013-configure-certificates-for-the-director.md)e [instalar los archivos para el servidor de mediación en las secciones de Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) de esta documentación de implementación. Si solicita certificados por adelantado, deberá modificar los procedimientos de implementación de certificados en estas secciones según convenga para importar y asignar los certificados, en lugar de solicitarlos durante la implementación.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 incluye compatibilidad con certificados SHA-256 para conexiones de clientes que ejecutan los sistemas operativos Windows&nbsp;vista, windows Server&nbsp;2008&nbsp;, Windows Server 2008 R2 y Windows 7, y Lync Phone Edition. Para admitir el acceso externo mediante SHA-256, un certificado externo es emitido por una entidad de certificación pública con SHA-256.
+> Lync Server 2013 incluye compatibilidad con certificados SHA-256 para conexiones de clientes que ejecutan los sistemas operativos Windows&nbsp;vista, windows Server&nbsp;2008&nbsp;, Windows Server 2008 R2 y Windows 7, y Lync Phone Edition. Para permitir el acceso externo mediante SHA-256, el certificado externo lo emite una CA pública que usa SHA-256.
 
 
 

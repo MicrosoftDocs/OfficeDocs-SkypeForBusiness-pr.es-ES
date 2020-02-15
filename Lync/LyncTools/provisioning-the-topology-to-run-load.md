@@ -12,16 +12,16 @@ ms:contentKeyID: 51541424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf4c296068e2bd0deea9470dd84d8fd0c0c9d451
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6a913dc678b2f5e929ad22e09e1d8350f667ce39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763604"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038292"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -41,9 +41,9 @@ _**Última modificación del tema:** 2013-02-04_
 
 ## <a name="provisioning-the-topology-to-run-load"></a>Aprovisionamiento de la topología para ejecutar la carga
 
-Según la configuración actual y la configuración de Lync Server 2013, es posible que tenga que realizar los siguientes cambios en su entorno:
+Según la configuración existente y la configuración de Lync Server 2013, es posible que deba realizar los siguientes cambios en su entorno:
 
-1.  Establezca la Directiva de ejecución de Windows PowerShell en no restringido. Para comprobar la configuración de la Directiva de ejecución, abra el shell de administración de Lync Server y ejecute el siguiente comando:
+1.  Establezca la Directiva de ejecución de Windows PowerShell en irrestricto. Para comprobar la configuración de la Directiva de ejecución, abra el shell de administración de Lync Server y ejecute el siguiente comando:
 
     ``` powershell
         Get-ExecutionPolicy
@@ -55,11 +55,11 @@ Según la configuración actual y la configuración de Lync Server 2013, es posi
         Set-ExecutionPolicy -Unrestricted
     ```
 
-2.  Para configurar eficazmente Lync Server 2013, tendrá que:
+2.  Para configurar eficazmente Lync Server 2013, necesitará:
     
-      - Familiarícese con la topología de Lync Server 2013 (por ejemplo, nombres de equipos, instancias de servicios, nombres de sitio y directivas).
+      - Familiarícese con la topología de Lync Server 2013 (por ejemplo, nombres de equipo, instancias de servicio, nombres de sitio y directivas).
     
-      - Asigne algunos de los usuarios que se han creado a grupos, por ejemplo, grupos de captura de grupo de respuesta (por ejemplo, URI de SIP).
+      - Asigne algunos de los usuarios que se crearon a grupos, como grupos de respuesta de grupo de respuesta (por ejemplo, URI de SIP).
 
 3.  Para ejecutar el script desde la línea de comandos, puede usar:
 
@@ -67,9 +67,9 @@ Según la configuración actual y la configuración de Lync Server 2013, es posi
         Powershell.exe -file <path to the file>
     ```
     
-4.  Normalmente, después de que se ejecute una de las secuencias de comandos de este paquete, los rastros generados desde el script se almacenarán en un archivo en la misma ruta desde la \<que\>se invocó la secuencia de comandos, denominada scriptName $h $ m $ s. txt. Por ejemplo, ejecutar ArchivingPolicy. PS1 a las 12:15 P.M. generará un archivo de registro como ArchivingPolicy121500. txt.
+4.  Normalmente, una vez que se ejecuta uno de los scripts de este paquete, el seguimiento resultante del script se almacenará en un archivo en la misma ruta de acceso desde la que se \<invocó el script, denominado scriptName\>$h $ m $ s. txt. Por ejemplo, la ejecución de ArchivingPolicy. PS1 a las 12:15 P.M. se generará un archivo de registro como ArchivingPolicy121500. txt.
 
-5.  Por último, tenga en cuenta que, aunque hemos proporcionado ejemplos para configurar el servidor, usted es responsable de modificar o eliminar la configuración una vez que haya terminado de ejecutar la carga.
+5.  Por último, tenga en cuenta que, aunque se han proporcionado ejemplos para configurar el servidor, usted es responsable de modificar o eliminar la configuración una vez que haya terminado de ejecutar la carga.
 
 </div>
 

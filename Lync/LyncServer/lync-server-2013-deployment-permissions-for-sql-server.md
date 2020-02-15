@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Permisos de implementación para SQL Server'
+title: 'Lync Server 2013: permisos de implementación para SQL Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184197
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 393e293dfc7e20fa1e990d9f87c17c6e72776be3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b38466bb3be6e03b8b434f4382b3b1d65cc05901
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762658"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038202"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41762658"
 
 _**Última modificación del tema:** 2012-10-01_
 
-Microsoft SQL Server 2012 tiene requisitos específicos al instalar e implementar Lync Server 2013. Puesto que Windows y SQL Server definen su seguridad de manera diferente, iniciar sesión como administrador en el dominio de Active Directory no concede permisos de forma implícita para SQL Server. También debe ser miembro de la entidad sysadmin en el servidor basado en SQL Server que está configurando.
+Microsoft SQL Server 2012 tiene requisitos específicos al instalar e implementar Lync Server 2013. Como Windows y SQL Server definen su seguridad de manera diferente, al iniciar sesión como administrador en el dominio de Active Directory no se conceden permisos implícitamente para SQL Server. También debe ser miembro de la entidad sysadmin del servidor basado en SQL Server que se está configurando:
 
 <div>
 
-## <a name="permissions-required-for-database-and-lync-server-installation"></a>Permisos necesarios para la instalación de base de datos y Lync Server
+## <a name="permissions-required-for-database-and-lync-server-installation"></a>Permisos necesarios para la instalación de Lync Server y base de datos
 
-Las siguientes opciones detallan tres permisos y asociaciones de pertenencia a grupos para la instalación de archivos de Lync Server 2013 y bases de datos de SQL Server. Elija el escenario que mejor se adapte a los requisitos de su organización.
+Las siguientes opciones detallan tres permisos y asociaciones de pertenencia a grupos para la instalación de archivos de Lync Server 2013 y bases de datos de SQL Server. Seleccione el escenario que mejor cumpla los requisitos de su organización.
 
-### <a name="permissions-and-group-membership-associations"></a>Permisos y asociaciones de pertenencia a grupos
+### <a name="permissions-and-group-membership-associations"></a>Permisos y asociaciones de pertenencia a grupo
 
 <table>
 <colgroup>
@@ -56,28 +56,28 @@ Las siguientes opciones detallan tres permisos y asociaciones de pertenencia a g
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rol de 2013 de SQL Server o Lync Server</th>
-<th>Rol: permisos típicos de SQL Server y pertenencia a grupos</th>
-<th>Rol: permisos típicos de Lync Server 2013 y pertenencia a grupos</th>
-<th>Resultado de los permisos</th>
+<th>Rol de SQL Server o Lync Server 2013</th>
+<th>Pertenencia a grupo y permisos de SQL Server típicos del rol</th>
+<th>Función: permisos típicos de Lync Server 2013 y pertenencia a grupos</th>
+<th>Resultado de permisos</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Administrador de 2013 de Lync Server</p></td>
-<td><p>Se debe conceder la pertenencia a sysadmins del grupo de seguridad de SQL Server y miembro del grupo de administradores local de SQL Server</p></td>
-<td><p>Debe ser miembro del grupo RTCUniversalServerAdmins</p></td>
-<td><p>El administrador de Lync Server 2013 tiene los permisos adecuados para instalar las bases de datos de Lync Server 2013 y SQL Server.</p></td>
+<td><p>Administrador de Lync Server 2013</p></td>
+<td><p>Debe haber obtenido la pertenencia al grupo de seguridad de SQL Server sysadmins y ser miembro del grupo de administradores local de SQL Server</p></td>
+<td><p>Debe ser miembro del grupo RTCUniversalServerAdmins.</p></td>
+<td><p>Lync Server 2013 el administrador tiene los permisos adecuados para instalar las bases de datos de Lync Server 2013 y SQL Server.</p></td>
 </tr>
 <tr class="even">
 <td><p>Administrador de SQL Server</p></td>
-<td><p>Miembro del grupo sysadmin de SQL Server (o equivalente) y miembro del grupo de administradores locales de SQL Server</p></td>
+<td><p>Miembro del grupo sysadmin de SQL Server (o equivalente) y miembro del grupo de administradores local de SQL Server</p></td>
 <td><p>Debe ser miembro del grupo RTCUniversalServerReadOnly</p></td>
-<td><p>El administrador de SQL Server tiene los permisos adecuados para instalar las bases de datos de Lync Server 2013 y de SQL Server.</p></td>
+<td><p>El administrador de SQL Server tiene los permisos adecuados para instalar las bases de datos de Lync Server 2013 y SQL Server.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Ambos administradores comparten deberes de instalación</p></td>
-<td><p>El administrador de SQL Server es miembro del grupo sysadmins (o equivalente) y miembro del grupo de administradores locales de SQL Server</p></td>
+<td><p>Ambos administradores comparten tareas de instalación</p></td>
+<td><p>Un administrador de SQL Server es miembro del grupo sysadmins (o equivalente) y miembro del grupo de administradores local de SQL Server</p></td>
 <td><p>El administrador de Lync Server 2013 es miembro de RTCUniversalServerAdmins</p></td>
 <td><p>El administrador de Lync Server 2013 puede instalar Lync Server 2013, pero no puede instalar las bases de datos. El administrador de SQL Server usa el shell de administración de Lync Server y los cmdlets de Windows PowerShell proporcionados por el administrador de Lync Server 2013 para instalar las bases de datos. El shell de administración de Lync Server 2013 que usa el administrador de SQL Server está instalado en el servidor front-end. Esto elimina la necesidad de instalar las herramientas administrativas de Lync Server 2013 en el servidor basado en SQL Server.</p></td>
 </tr>

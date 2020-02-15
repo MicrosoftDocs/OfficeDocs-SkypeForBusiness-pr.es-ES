@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tono de llamada simultáneo'
+title: 'Lync Server 2013: llamadas simultáneas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bcdb0d30bccfe628fd02861d257d79268046b77
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4e3104da5e7d351bda26698087e97106cafbdff4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764516"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037510"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="simultaneous-ringing-in-lync-server-2013"></a>Tono de llamada simultáneo en Lync Server 2013
+# <a name="simultaneous-ringing-in-lync-server-2013"></a>Llamadas simultáneas en Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41764516"
 
 _**Última modificación del tema:** 2013-03-09_
 
-Cuando la persona a la que se llama tiene habilitado el timbre simultáneo, el enrutamiento basado en la ubicación analiza la ubicación de la persona que llama y los puntos finales de las partes a las que se llama para determinar si se debe distribuir la llamada.
+Cuando la persona llamada tiene habilitado el timbre simultáneo, el enrutamiento basado en ubicación analiza la ubicación del interlocutor que realiza la llamada y los puntos de conexión de las partes a las que se llama para determinar si se debe enrutar la llamada.
 
-En la siguiente tabla se muestra un usuario con la configuración de llamadas simultáneas habilitada y el destino de llamadas simultáneas es un usuario en el mismo sitio de red, en un sitio de red diferente o en un sitio de red desconocido.
+En la tabla siguiente se muestra un usuario configurado con llamadas simultáneas y el destino de llamadas simultáneas es un usuario en el mismo sitio de red, en un sitio de red diferente o en un sitio de red desconocido.
 
 
 <table>
@@ -52,9 +52,9 @@ En la siguiente tabla se muestra un usuario con la configuración de llamadas si
 <thead>
 <tr class="header">
 <th>Llamada RTC entrante para</th>
-<th>Ubicado en el mismo sitio de red que el destinatario</th>
-<th>Ubicado en un sitio de red distinto del sitio del destinatario</th>
-<th>Se encuentra en un sitio de red desconocido o no está habilitado para el enrutamiento basado en la ubicación</th>
+<th>Ubicado en el mismo sitio de red que el destinatario de la llamada</th>
+<th>Ubicado en un sitio de red diferente del destinatario de la llamada</th>
+<th>Ubicado en un sitio de red desconocido o no habilitado para el enrutamiento basado en ubicación</th>
 </tr>
 </thead>
 <tbody>
@@ -68,7 +68,7 @@ En la siguiente tabla se muestra un usuario con la configuración de llamadas si
 </table>
 
   
-En la tabla siguiente se muestra una llamada de un usuario de Lync (es decir, el autor de la llamada de Lync) en el mismo sitio de red, en un sitio de red diferente o desde un sitio de red desconocido. El destinatario de la llamada tiene un punto final de la RTC (por ejemplo, teléfono móvil) configurado como un objetivo de llamada simultánea. En este escenario, el enrutamiento basado en la ubicación determinará si la llamada debe dirigirse al destino simultáneo (por ejemplo, teléfono móvil) del destinatario de la llamada.
+En la tabla siguiente se muestra una llamada de un usuario de Lync (por ejemplo, llamador de Lync) en el mismo sitio de red, en un sitio de red diferente o en un sitio de red desconocido. El destinatario de la llamada tiene un punto de conexión de RTC (por ejemplo, un teléfono móvil) configurado como un destino de llamadas simultáneas. En este escenario, el enrutamiento basado en ubicación determinará si la llamada se debe enrutar al destino de llamada simultáneo (por ejemplo, un teléfono móvil) del destinatario de la llamada.
 
 
 <table>
@@ -80,18 +80,18 @@ En la tabla siguiente se muestra una llamada de un usuario de Lync (es decir, el
 </colgroup>
 <thead>
 <tr class="header">
-<th>Destino de llamadas simultáneas</th>
-<th>Ubicado en el mismo sitio de red que el destinatario</th>
-<th>Ubicado en un sitio de red distinto del sitio del destinatario</th>
-<th>Se encuentra en un sitio de red desconocido o no está habilitado para el enrutamiento basado en la ubicación</th>
+<th>Destino de llamada simultánea</th>
+<th>Ubicado en el mismo sitio de red que el destinatario de la llamada</th>
+<th>Ubicado en un sitio de red diferente del destinatario de la llamada</th>
+<th>Ubicado en un sitio de red desconocido o no habilitado para el enrutamiento basado en ubicación</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Extremo de RTC</p></td>
-<td><p>Llamadas simultáneas permitidas a través de la directiva del enrutamiento de voz del sitio del autor de la llamada</p></td>
-<td><p>Llamadas simultáneas permitidas a través de la directiva del enrutamiento de voz del sitio del autor de la llamada</p></td>
-<td><p>Llamadas simultáneas permitidas a través de la directiva del enrutamiento de voz del autor de la llamada para troncos no habilitados para el enrutamiento basado en ubicación</p></td>
+<td><p>Llamadas simultáneas permitidas a través de la Directiva de enrutamiento de voz del sitio del autor de la llamada</p></td>
+<td><p>Llamadas simultáneas permitidas a través de la Directiva de enrutamiento de voz del sitio del autor de la llamada</p></td>
+<td><p>Se permiten las llamadas simultáneas a través de la Directiva de voz del autor de la llamada a troncos que no están habilitados para el enrutamiento basado en ubicación</p></td>
 </tr>
 </tbody>
 </table>

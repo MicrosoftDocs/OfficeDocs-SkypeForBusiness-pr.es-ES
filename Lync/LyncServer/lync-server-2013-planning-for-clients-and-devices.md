@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: planificación de clientes y dispositivos'
+title: 'Lync Server 2013: Planeación de clientes y dispositivos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89ddf40f5f713481ddda36a072c2fd5b91e3f80f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f4a35eb8d388a42bb15a5ea71a1016ac355bf0ff
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725450"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037022"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-clients-and-devices-in-lync-server-2013"></a>Planificación de clientes y dispositivos en Lync Server 2013
+# <a name="planning-for-clients-and-devices-in-lync-server-2013"></a>Planeación de clientes y dispositivos en Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41725450"
 
 _**Última modificación del tema:** 2012-06-04_
 
-En los temas de esta sección se describe cómo planear los clientes y dispositivos de Lync Server 2013 de su organización.
+En los temas de esta sección se describe cómo planear los clientes y dispositivos de Lync Server 2013 en su organización.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Planificación de clientes en Lync Server 2013](lync-server-2013-planning-for-clients.md)
+  - [Planeación de clientes en Lync Server 2013](lync-server-2013-planning-for-clients.md)
 
-  - [Planificación de clientes móviles en Lync Server 2013](lync-server-2013-planning-for-mobile-clients.md)
+  - [Planeación de clientes móviles en Lync Server 2013](lync-server-2013-planning-for-mobile-clients.md)
 
-  - [Planificación de dispositivos en Lync Server 2013](lync-server-2013-planning-for-devices.md)
+  - [Planeación de dispositivos en Lync Server 2013](lync-server-2013-planning-for-devices.md)
 
 </div>
 

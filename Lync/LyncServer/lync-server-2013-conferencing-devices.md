@@ -12,16 +12,16 @@ ms:contentKeyID: 51803961
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1fbe13b788b8add2f609cc59ed832e6bd67dc1d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a6af847b13a073a8135cf9c54ea0f503c6e1af71
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741540"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040799"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41741540"
 
 _**Última modificación del tema:** 2014-02-05_
 
-Los dispositivos de conferencia proporcionan las características de Lync Phone Edition en salas de conferencia, lo que permite a los usuarios del salón escuchar y, según el dispositivo, ver personas de otras ubicaciones.
+Los dispositivos de conferencia aportan las características de Lync Phone Edition a salas de conferencias, lo que permite a los usuarios de la sala escuchar y, según el dispositivo, ver las personas de otras ubicaciones.
 
 Use los temas de esta sección para obtener información sobre cómo configurar y administrar los dispositivos de conferencia.
 
@@ -45,7 +45,7 @@ Use los temas de esta sección para obtener información sobre cómo configurar 
 
 
 > [!NOTE]  
-> Para obtener más información sobre los dispositivos de conferencia que se pueden usar con Lync Server 2013, visite la Página Web <A href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">teléfonos y dispositivos calificados para Microsoft Lync</A>.
+> Para obtener más información acerca de los dispositivos de conferencia admitidos para su uso con Lync Server 2013, vea la Página Web de <A href="http://technet.microsoft.com/lync/gg278164.aspx">teléfonos y dispositivos cualificados para Microsoft Lync</A>.
 
 
 
@@ -57,11 +57,11 @@ Use los temas de esta sección para obtener información sobre cómo configurar 
 
   - [Ver información de dispositivos de conferencia en Lync Server 2013](lync-server-2013-view-conferencing-device-information.md)
 
-  - [Crear o modificar un objeto de contacto de dispositivo de conferencia en Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-device-contact-object.md)
+  - [Crear o modificar un objeto de contacto de dispositivos de conferencia en Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-device-contact-object.md)
 
   - [Habilitar o deshabilitar un dispositivo de conferencia en Lync Server 2013](lync-server-2013-enable-or-disable-a-conferencing-device.md)
 
-  - [Mover un dispositivo de conferencia a un nuevo grupo de registradores en Lync Server 2013](lync-server-2013-move-a-conferencing-device-to-a-new-registrar-pool.md)
+  - [Mover un dispositivo de conferencia a un nuevo grupo de registrador en Lync Server 2013](lync-server-2013-move-a-conferencing-device-to-a-new-registrar-pool.md)
 
 </div>
 
@@ -74,4 +74,3 @@ Use los temas de esta sección para obtener información sobre cómo configurar 
 </div>
 
 </div>
-

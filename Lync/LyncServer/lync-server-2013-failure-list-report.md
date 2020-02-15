@@ -12,20 +12,20 @@ ms:contentKeyID: 48185194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 370008a5b33cc7eb45802fb02bdd9a873184ed5a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f9cd8d15e81a54085624fab2dc751759d8196c48
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765168"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041049"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failure-list-report-in-lync-server-2013"></a>Informe lista de errores en Lync Server 2013
+# <a name="failure-list-report-in-lync-server-2013"></a>Informe de lista de errores en Lync Server 2013
 
 </div>
 
@@ -37,48 +37,48 @@ ms.locfileid: "41765168"
 
 _**Última modificación del tema:** 2012-07-02_
 
-El informe de lista de errores proporciona información sobre los usuarios que participaron de una sesión punto a punto o de conferencia con errores. Esta información incluye el URI del usuario que experimentó el problema, además del código de respuesta SIP y el identificador de diagnóstico asociado al error.
+El informe de lista de errores proporciona información sobre los participantes individuales que participaron en una sesión de punto a punto o de conferencia en la que se han producido errores. Esta información incluye el URI del usuario que experimentó el problema, así como el código de respuesta SIP y el identificador de diagnóstico asociado con el error.
 
 <div>
 
-## <a name="accessing-the-failure-list-report"></a>Obtener acceso al informe de lista de errores
+## <a name="accessing-the-failure-list-report"></a>Acceso al informe de lista de errores
 
-Para obtener acceso al informe de la lista de errores, haga clic en cualquiera de las siguientes métricas del [Informe de distribución de errores en Lync Server 2013](lync-server-2013-failure-distribution-report.md):
+Para obtener acceso al informe de lista de errores, haga clic en cualquiera de las métricas siguientes en el [Informe de distribución de errores en Lync Server 2013](lync-server-2013-failure-distribution-report.md):
 
-  - Principales motivos del diagnóstico (sesiones)
+  - Motivos del diagnóstico principales (sesiones)
 
-  - Principales modalidades (sesiones)
+  - Modalidades principales (sesiones)
 
-  - Principales grupos de servidores (sesiones)
+  - Grupos principales (sesiones)
 
-  - Principales orígenes (sesiones)
+  - Fuentes principales (sesiones)
 
-  - Principales componentes (sesiones)
+  - Componentes principales (sesiones)
 
-  - Principales remitentes (sesiones)
+  - Usuarios de origen principales (sesiones)
 
-  - Principales destinatarios (sesiones)
+  - Usuarios de destino principales (sesiones)
 
-  - Principales agentes de remitente (sesiones)
+  - Agentes de usuarios de origen principales (sesiones)
 
-En el informe de la lista de errores, puede obtener acceso al [informe detallado de la sesión de punto a punto en Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) haciendo clic en la métrica de detalle de la sesión para una sesión de punto a punto. También puede tener acceso al informe de detalles de conferencia si hace clic en la métrica Conferencia para una conferencia.
+En el informe de lista de errores, puede obtener acceso al [Informe de detalles de sesiones punto a punto en Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) haciendo clic en la métrica detalle de sesión para una sesión punto a punto. También puede obtener acceso al informe de detalles de conferencia haciendo clic en la métrica de conferencia de una conferencia.
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-failure-list-report"></a>Aprovechar al máximo el informe de lista de errores
+## <a name="making-the-best-use-of-the-failure-list-report"></a>Cómo hacer el mejor uso del informe de lista de errores
 
-En el informe de lista de errores, puede ver una descripción de cada código de respuesta o cada identificador de diagnóstico. Para ello, simplemente mantenga el mouse sobre ese valor. Por ejemplo, si coloca el mouse sobre el identificador de diagnóstico 7025, verá un mensaje similar al siguiente como información sobre herramientas:
+En el informe de lista de errores, puede ver una descripción de cada código de respuesta o de cada identificador de diagnóstico simplemente manteniendo el mouse sobre ese valor. Por ejemplo, si mantiene el mouse sobre el identificador de diagnóstico 7025, verá lo siguiente en una información sobre herramientas:
 
 Error interno del servidor al crear medios para el usuario.
 
-Es importante tener en cuenta que el informe de lista de errores no ofrece una manera directa de recuperar una lista de todos los usuarios que participaron de al menos una sesión con errores, ni tampoco permite determinar qué usuarios participaron con más frecuencia en sesiones con errores. (Por un elemento, el informe de la lista de errores no tiene funciones de filtrado). Sin embargo, si exporta los datos y, a continuación, los convierte en un archivo de valores separados por comas, puede usar Windows PowerShell para buscar las respuestas a preguntas como estas. Por ejemplo, supongamos que guarda los datos en un. Archivo CSV denominado C:\\Data\\Failure\_List. csv. De acuerdo con los datos guardados en ese archivo, este comando muestra todos los usuarios que participaron de al menos una sesión con errores:
+Es importante tener en cuenta que el informe de lista de errores no ofrece una forma sencilla de recuperar directamente una lista de todos los usuarios que participaron en al menos una sesión con errores, ni tampoco proporciona una forma de determinar qué usuarios han participado con mayor frecuencia en un error sesión. (Por un lado, el informe de lista de errores no tiene funciones de filtrado). Sin embargo, si exporta los datos y, a continuación, los convierte en un archivo de valores separados por comas, puede usar Windows PowerShell para buscar las respuestas a preguntas como esas. Por ejemplo, supongamos que guarda los datos en un. Archivo CSV denominado C:\\Data\\Failure\_List. csv. En función de los datos guardados en ese archivo, este comando enumera todos los usuarios que participaron en al menos una sesión con errores:
 
     $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
     $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 
-Ese comando devolverá una lista similar a esta:
+Ese comando devolverá una lista similar a la siguiente:
 
     From user
     ----
@@ -88,12 +88,12 @@ Ese comando devolverá una lista similar a esta:
     David.Ahs@litwareinc.com
     Ken.Myer@litwareinc.com
 
-Estos dos comandos ofrecen información sobre el número total de sesiones con errores de las que participó cada usuario:
+Estos dos comandos devuelven el número total de sesiones con errores en las que cada usuario participó:
 
     $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
     $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -Property Count -Descending
 
-Se devolverán datos similares a estos:
+Devolverá unos datos similares a estos:
 
     Count    Name
      -----    ----
@@ -117,7 +117,7 @@ Ninguno. No se puede filtrar el informe de lista de errores.
 
 ## <a name="metrics"></a>Métricas
 
-En la siguiente tabla se detalla la información proporcionada en el informe de lista de errores para cada llamada con errores.
+En la siguiente tabla se muestra la información proporcionada en el informe de lista de errores para cada llamada con errores.
 
 ### <a name="failure-list-report-metrics"></a>Métricas del informe de lista de errores
 
@@ -130,7 +130,7 @@ En la siguiente tabla se detalla la información proporcionada en el informe de 
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
@@ -143,12 +143,12 @@ En la siguiente tabla se detalla la información proporcionada en el informe de 
 <tr class="even">
 <td><p><strong>Solicitud</strong></p></td>
 <td><p>No</p></td>
-<td><p>Tipo de solicitud SIP que presentó errores. Por ejemplo, INVITE o BYE.</p></td>
+<td><p>Tipo de solicitud SIP fallida. Por ejemplo, INVITE o BYE.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Código de respuesta</strong></p></td>
 <td><p>No</p></td>
-<td><p>Código de respuesta SIP enviado cuando se produjo un error en la conferencia.</p></td>
+<td><p>Código de respuesta SIP enviado cuando la conferencia ha fallado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Id. de diagnóstico</strong></p></td>
@@ -156,9 +156,9 @@ En la siguiente tabla se detalla la información proporcionada en el informe de 
 <td><p>Identificador único (con formato de encabezado de ms-diagnostics) adjunto a un mensaje SIP que a menudo aporta información útil para solucionar errores.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Tiempo coste de conexión (ms)</strong></p></td>
+<td><p><strong>Tiempo de costo de combinación (MS)</strong></p></td>
 <td><p>No</p></td>
-<td><p>Cantidad de tiempo (en milisegundos) que necesitó el usuario para unirse a la conferencia.</p></td>
+<td><p>Cantidad de tiempo (en milisegundos) que necesita el usuario para unirse a la Conferencia.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Remitente</strong></p></td>

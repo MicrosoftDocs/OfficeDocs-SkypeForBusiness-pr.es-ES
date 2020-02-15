@@ -12,20 +12,20 @@ ms:contentKeyID: 51541481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56539fd8afcfe934aa6a3850ae6869cf08d64802
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a7b3e2592c088c03b0a597bf285ae04891d8a07
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765088"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051534"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reviewing-the-firewall-report-in-lync-server-2013"></a>Revisar el informe de firewall en Lync Server 2013
+# <a name="reviewing-the-firewall-report-in-lync-server-2013"></a>Revisión del informe de firewall en Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41765088"
 
 _**Última modificación del tema:** 2013-02-21_
 
-Lync Server 2013 tiene un conjunto de reglas de Firewall posiblemente complejo. La herramienta de planeación reduce esta complejidad generando un informe que define en detalle todos los requisitos de firewall, basándose en los criterios de entrada del diseñador. El administrador de firewall de TI podrá usar este informe para configurar y definir las reglas necesarias.
+Lync Server 2013 tiene un conjunto potencialmente complejo de reglas de Firewall. La herramienta de planeación reduce esta complejidad al generar un informe que define en detalle todos los requisitos de firewall, en función de los criterios de entrada del diseñador. El administrador de Firewall de ti podrá usar este informe para configurar y definir las reglas necesarias.
 
-Desde el punto de vista de la administración del firewall, el informe deberá revisarse atentamente para garantizar que no haya conflictos con reglas de firewall existentes y que no haya directivas ni procedimientos infringidos.
+Desde el punto de vista de la administración del firewall, el informe debe revisarse con cuidado para asegurarse de que no haya conflictos con las reglas de salida de firewall y que no haya directivas o procedimientos que se puedan infringir.
 
-![Informe de administración de firewall](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Informe de administración de firewall")
+![Informe de administración de Firewall](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Informe de administración de Firewall")
 
 <div>
 

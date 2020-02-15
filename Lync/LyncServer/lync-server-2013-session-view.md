@@ -12,20 +12,20 @@ ms:contentKeyID: 49733641
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a153899fd484da861088a8e7672a69707e46a59
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7d20d748f9c9754efab768a702f1272bc70d889e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764818"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051302"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="session-view-in-lync-server-2013"></a>Vista de sesión de Lync Server 2013
+# <a name="session-view-in-lync-server-2013"></a>Vista de sesión en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41764818"
 
 _**Última modificación del tema:** 2012-10-03_
 
-La vista de sesión almacena información sobre las sesiones que tienen registros en la base de datos. Esta vista se presentó en Microsoft Lync Server 2013.
+La vista de sesión almacena información sobre las sesiones que tienen registros en la base de datos. Esta vista se introdujo en Microsoft Lync Server 2013.
 
 
 <table>
@@ -57,33 +57,33 @@ La vista de sesión almacena información sobre las sesiones que tienen registro
 <tr class="odd">
 <td><p>ConferenceDateTime</p></td>
 <td><p>datetime</p></td>
-<td><p>Se hace referencia a ella desde la tabla MediaLine.</p></td>
+<td><p>Se obtiene de la tabla MediaLine.</p></td>
 </tr>
 <tr class="even">
-<td><p>ConferenceURI</p></td>
+<td><p>Uri</p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI de conferencia si se trata de una conferencia o DialogID si se trata de una sesión de punto a punto.</p></td>
+<td><p>ConferenceURI, si se trata de una conferencia, o DialogID, si es una sesión punto a punto.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Correlación</p></td>
+<td><p>Correlation</p></td>
 <td><p>VARCHAR (Max)</p></td>
-<td><p>IDENTIFICADOR de correlación de la sesión.</p></td>
+<td><p>Id. de correlación de la sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p>DialogCategory</p></td>
 <td><p>bit</p></td>
-<td><p>Categoría de cuadro de diálogo; 0 ¿se encuentra Lync Server en la pierna del servidor de mediación; 1 es el servidor de mediación para la puerta de la puerta de enlace RTC.</p></td>
+<td><p>Categoría del cuadro de diálogo; 0 es Lync Server a la pierna del servidor de mediación; 1 es el servidor de mediación a la puerta de la puerta de enlace RTC.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MediationServerBypassFlag</p></td>
 <td><p>bit</p></td>
-<td><p>Indica si se ha omitido la llamada.</p></td>
+<td><p>Indica si la llamada se pasó o no.</p></td>
 </tr>
 <tr class="even">
 <td><p>MediaBypassWarningFlag</p></td>
 <td><p>int</p></td>
-<td><p>Este campo, si está presente, indica por qué no se omitió una llamada, incluso si los identificadores de omisión coinciden. Para Lync Server, solo se define un valor:</p>
-<p>0x0001: identificador de omisión desconocido para el adaptador de red predeterminado</p></td>
+<td><p>Este campo (si existe) indica por qué la llamada no se pasó, aun cuando los identificadores de omisión coincidían. Para Lync Server, solo se define un valor:</p>
+<p>0x0001: identificador de omisión desconocido del adaptador de red predeterminado</p></td>
 </tr>
 <tr class="odd">
 <td><p>StartTime</p></td>
@@ -97,73 +97,73 @@ La vista de sesión almacena información sobre las sesiones que tienen registro
 </tr>
 <tr class="odd">
 <td><p>CallerPool</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>FQDN del grupo de llamadas.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>FQDN del grupo de autores de llamadas.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleePool</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>FQDN del grupo de destinatarios de la llamada.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>FQDN del grupo de destinatarios de la llamada</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerPAI</p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI de identidad afirmada de la persona que llama.</p></td>
+<td><p>URI de la identidad afirmada del autor de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleePAI</p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI de identidad afirmada de la persona que llama.</p></td>
+<td><p>URI de la identidad afirmada del destinatario de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerEndpoint</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nombre del punto de conexión de la llamada.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Nombre del extremo del autor de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeEndpoint</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nombre del punto de conexión de la llamada.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Nombre del extremo del autor de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerUserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Cadena de agente de usuario de la llamada.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Cadena de agente de usuario del autor de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerUserAgentType</p></td>
 <td><p>smallint</p></td>
-<td><p>Tipo de agente de usuario de la llamada. Para obtener más información, vea la <a href="lync-server-2013-useragent-table.md">tabla UserAgent en Lync Server 2013</a> .</p></td>
+<td><p>Tipo de agente de usuario del autor de la llamada. Consulte la <a href="lync-server-2013-useragent-table.md">tabla UserAgent en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerUserAgentCategory</p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Categoría del agente de usuario de la llamada. Para obtener más información, consulte la <a href="lync-server-2013-useragentdef-table-qoe.md">tabla UserAgentDef (QoE) en Lync Server 2013</a> .</p></td>
+<td><p>Categoría del agente de usuario del autor de la llamada. Consulte la <a href="lync-server-2013-useragentdef-table-qoe.md">tabla UserAgentDef (QoE) en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeUserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Cadena de agente de usuario de la persona que llama.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Cadena del agente de usuario del destinatario de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeUserAgentType</p></td>
 <td><p>smallint</p></td>
-<td><p>Tipo de agente de usuario para el destinatario de la llamada. Para obtener más información, vea la <a href="lync-server-2013-useragent-table.md">tabla UserAgent en Lync Server 2013</a> .</p></td>
+<td><p>Tipo del agente de usuario del destinatario de la llamada. Consulte la <a href="lync-server-2013-useragent-table.md">tabla UserAgent en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeUserAgentCategory</p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Categoría de agente de usuario para el destinatario de la llamada. Para obtener más información, consulte la <a href="lync-server-2013-useragentdef-table-qoe.md">tabla UserAgentDef (QoE) en Lync Server 2013</a> .</p></td>
+<td><p>Categoría del agente de usuario del destinatario de la llamada. Consulte la <a href="lync-server-2013-useragentdef-table-qoe.md">tabla UserAgentDef (QoE) en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerURI</p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI de la persona que llama.</p></td>
+<td><p>URI del autor de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeURI</p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI de la persona que llama.</p></td>
+<td><p>URI del destinatario de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallPrioirty</p></td>

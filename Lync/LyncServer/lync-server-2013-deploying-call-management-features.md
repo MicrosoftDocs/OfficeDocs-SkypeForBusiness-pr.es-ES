@@ -12,20 +12,20 @@ ms:contentKeyID: 48183504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d67e0fdae8c8936df615640e3d641a5794c7350b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 33d3c659e90f2e6603cc114f27b7d800f20a0be4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729440"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038242"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-call-management-features-in-lync-server-2013"></a>Implementar características de administración de llamadas en Lync Server 2013
+# <a name="deploying-call-management-features-in-lync-server-2013"></a>Implementación de características de administración de llamadas en Lync Server 2013
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41729440"
 
 _**Última modificación del tema:** 2012-12-18_
 
-Las características de administración de llamadas de telefonía de empresa controlan cómo se enrutan y responden las llamadas entrantes. Lync Server 2013 ofrece las siguientes características de administración de llamadas:
+Las características de administración de llamadas de Telefonía IP empresarial controlan el modo en el que las llamadas se enrutan y contestan. Lync Server 2013 proporciona las siguientes características de administración de llamadas:
 
-  - **Parque de llamadas:** Permite a los usuarios de voz detener temporalmente una llamada y, a continuación, recogerla desde el mismo teléfono u otro teléfono.
+  - **Estacionamiento de llamadas:** Permite a los usuarios de voz estacionar temporalmente una llamada y, a continuación, seleccionarla desde el mismo teléfono o desde otro teléfono.
 
-  - **Recogida de grupos:** Permite a los usuarios contestar las llamadas hechas a otro usuario que se asigna a un grupo de recogida marcando el número de grupo de recogida de llamadas.
+  - **Recogida de Grupo:** Permite a los usuarios responder a otro usuario asignado a un grupo de recogida marcando el número del grupo de atención de llamadas.
 
   - **Grupo de respuesta:** Enruta las llamadas entrantes a grupos de agentes mediante el uso de grupos de extensiones o preguntas y respuestas interactivas de respuesta de voz (IVR).
 
-  - **Anuncio:** Reproduce un mensaje para las llamadas realizadas a un número no asignado o enruta la llamada en otro lugar, o ambas.
+  - **Anuncio:** Reproduce un mensaje para las llamadas realizadas a un número sin asignar o enruta la llamada a otro lugar, o ambas.
 
-En esta sección se describe cómo configurar estas características de administración de llamadas durante una implementación de telefonía IP empresarial.
+En esta sección se describe cómo configurar estas características de administración de llamadas durante una implementación de Enterprise Voice.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Configurar el estacionamiento de llamadas en Lync Server 2013](lync-server-2013-configuring-call-park.md)
+  - [Configuración del estacionamiento de llamadas en Lync Server 2013](lync-server-2013-configuring-call-park.md)
 
-  - [Configuración de la recogida de llamadas grupales en Lync Server 2013](lync-server-2013-configuring-group-call-pickup.md)
+  - [Configuración de la recogida de llamadas de grupo en Lync Server 2013](lync-server-2013-configuring-group-call-pickup.md)
 
-  - [Configurar grupos de respuesta en Lync Server 2013](lync-server-2013-configuring-response-group.md)
+  - [Configuración del grupo de respuesta en Lync Server 2013](lync-server-2013-configuring-response-group.md)
 
   - [Configuración de anuncios para números sin asignar en Lync Server 2013](lync-server-2013-configuring-announcements-for-unassigned-numbers.md)
 

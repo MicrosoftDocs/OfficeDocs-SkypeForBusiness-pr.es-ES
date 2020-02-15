@@ -12,16 +12,16 @@ ms:contentKeyID: 48184927
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68dccef2e9451e4c077f5292398bb663f1acb514
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0568f13cb977fad78e8d0e704c158039165ea78a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734660"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040919"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41734660"
 
 _**Última modificación del tema:** 2012-10-20_
 
-Puesto que Lync Server 2013 no usa el proceso de detección central que se usa en Microsoft Lync Server 2010, cada equipo de Lync Server 2013 que desee supervisar debe poder autoinformar sobre su existencia en el servidor de administración. Para que esto sea posible, debe instalar los archivos del agente Operations Manager en cada uno de los equipos que se van a supervisar. Después de instalar los archivos del agente, debe configurar el equipo para que funcione como un proxy de System Center. Tenga en cuenta que estos procedimientos deben llevarse a cabo después de haber instalado y configurado Lync Server en estos equipos.
+Dado que Lync Server 2013 no usa el proceso de detección central que se usa en Microsoft Lync Server 2010, cada equipo de Lync Server 2013 que desee supervisar debe ser capaz de informar a sí mismo de su existencia al servidor de administración. Para hacerlo posible, debe instalar los archivos del agente Operations Manager en cada uno de los equipos que vaya a supervisar. Una vez instalados los archivos del agente, deberá configurar el equipo para que actúe como proxy de System Center. Tenga en cuenta que estos procedimientos deben realizarse después de haber instalado y configurado Lync Server en estos equipos.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Nuevas funciones de conferencia'
+title: 'Lync Server 2013: nuevas características de conferencia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7f1214cc4296e01e5cd9018c5dedb0141ca0365
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 493700372ce7cf2b27b40ff67896767425fd36b9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765781"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050992"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-conferencing-features-in-lync-server-2013"></a>Nuevas funciones de conferencia en Lync Server 2013
+# <a name="new-conferencing-features-in-lync-server-2013"></a>Nuevas características de conferencia en Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41765781"
 
 _**Última modificación del tema:** 2012-11-08_
 
-Lync Server 2013 presenta varias características nuevas que mejoran las conferencias, como se describe en la siguiente lista.
+Lync Server 2013 presenta varias características nuevas que mejoran las conferencias, tal como se describe en la siguiente lista.
 
   - **Join Launcher**
     
-    Lync Server 2013 actualiza el iniciador de la combinación para validar cada reunión antes de iniciar un cliente y para poder abrir una reunión en los siguientes clientes:
+    Lync Server 2013 actualiza el iniciador de Unión para validar cada reunión antes de iniciar un cliente y para poder abrir una reunión en los siguientes clientes:
     
       - Windows Phone 7
     
-      - Dispositivos Android
+      - dispositivos Android
     
-      - Dispositivos Apple iOS
+      - dispositivos Apple iOS
     
       - Windows 8
     
@@ -55,51 +55,51 @@ Lync Server 2013 presenta varias características nuevas que mejoran las confere
 
   - **Uso compartido de PowerPoint actualizado**
     
-    Lync Server 2013 ahora usa Office Web Apps y Office Web Apps Server (anteriormente conocido como servidor WAC) para controlar presentaciones de PowerPoint. El uso de Office Web Apps Server permite mostrar una resolución superior y una mejor compatibilidad con las características de PowerPoint, obtener acceso a más tipos de dispositivos móviles (Lync Server 2013 usa DHTML y JavaScript estándar para difundir presentaciones de PowerPoint) y el posibilidad de que los usuarios con los privilegios apropiados puedan desplazarse por una presentación de PowerPoint independientemente de la presentación.
+    Lync Server 2013 ahora usa Office Web Apps y el servidor de Office Web Apps (anteriormente conocido como servidor WAC) para controlar las presentaciones de PowerPoint. El uso de Office Web Apps Server permite pantallas de mayor resolución y mejor compatibilidad con las capacidades de PowerPoint, acceso a más tipos de dispositivos móviles (Lync Server 2013 usa DHTML y JavaScript estándar para difundir presentaciones de PowerPoint) y el capacidad para los usuarios con los privilegios adecuados para desplazarse por una presentación de PowerPoint independientemente de la propia presentación.
 
-  - **Vista de galería y videoconferencia de alta definición**
+  - **Vista de galería y conferencias de vídeo HD**
     
-    En las videoconferencias, los usuarios pueden ver vídeos de hasta cinco participantes de la Conferencia al mismo tiempo.
+    En las conferencias de vídeo, los usuarios pueden utilizar simultáneamente vídeos de hasta cinco participantes en la conferencia.
     
     <div>
     
 
     > [!NOTE]  
-    > La vista de galería se ha producido en conferencias con hasta 75 participantes. Cuando la Conferencia llega más allá de los participantes de 75, la experiencia vuelve a la vista única.
+    > La vista de galería se puede emplear en conferencias de hasta 75 participantes. Cuando la conferencia supera los 75 participantes, la experiencia vuelve a una vista única.
 
     
     </div>
 
-  - **Video de alta definición**
+  - **Vídeo HD**
     
-    Los usuarios pueden experimentar resoluciones de hasta 1080P HD en llamadas de dos participantes y en conferencias de varias partes.
+    Los usuarios pueden disfrutar de resoluciones de hasta HD 1080P en llamadas de dos y conferencias con varios participantes.
 
-  - **Modo de vídeo solo para el moderador**
+  - **Modo Vídeo solo del presentador**
     
-    Los moderadores pueden configurar la Conferencia para que solo se muestre el vídeo del moderador. Este modo evita las distracciones en conferencias grandes cuando hay disponibles varias secuencias de vídeo y bloquea las distintas fuentes. Este modo también se aplica a los vídeos capturados y proporcionados por los dispositivos de conferencia.
+    Los presentadores pueden configurar la conferencia para que solo se muestre el vídeo del presentador. Este modo evita distracciones cuando hay disponibles varias secuencias de vídeo y bloquea fuentes diferentes. Además, se aplica al vídeo capturado y proporcionado por dispositivos de conferencia.
 
   - **Foco de vídeo**
     
-    Los moderadores pueden configurar la Conferencia para que todos los usuarios de la Conferencia solo vean el vídeo de un participante seleccionado que sea una fuente de video. Este modo también se aplica a video capturado y proporcionado por dispositivos de conferencia para videos panorámicos.
+    Los presentadores pueden configurar la conferencia para que todos los participantes en la conferencia vean solo el vídeo de un participante seleccionado. Este modo se aplica al vídeo capturado y proporcionado por dispositivos de conferencia con vídeo panorámico.
 
-  - **Conferencias de acceso telefónico saliente para usuarios de voz ajenos a la empresa**
+  - **Conferencias de llamadas salientes para usuarios de voz ajenos a la empresa**
     
-    Lync Server 2013 ahora permite a los participantes que no tienen habilitada la telefonía IP empresarial iniciar llamadas de acceso telefónico desde una conferencia de reunión. El administrador puede configurar esta característica.
+    Lync Server 2013 ahora permite a los participantes que no tienen habilitada la telefonía IP empresarial iniciar llamadas de llamada saliente desde una conferencia de reunión. Esta característica la puede configurar el administrador.
 
   - **Archivado**
     
-    Cualquier documento compartido durante una conferencia se archiva en el almacenamiento de datos de Exchange 2013 si la integración de Exchange Server está habilitada con el archivado. Esto incluye presentaciones de PowerPoint, datos adjuntos, pizarras y sondeos.
+    Cualquier documento compartido durante una conferencia se archiva en el almacenamiento de datos de Exchange 2013 si la integración de Exchange Server está habilitada con el archivado. Esto incluye presentaciones de PowerPoint, archivos adjuntos, pizarras y sondeos.
 
-  - **Personalización de invitaciones a reuniones**
+  - **Personalización de las invitaciones a reuniones**
     
-    Los administradores pueden personalizar las invitaciones de correo electrónico para las reuniones en línea con el panel de control de Lync Server o el shell de administración de Lync Server. Las personalizaciones pueden incluir direcciones URL para logotipos, texto de ayuda, texto legal y texto de pie de página. Todas las invitaciones siguientes incluirán las personalizaciones.
+    Los administradores pueden personalizar invitaciones de correo electrónico para reuniones en línea con el panel de control de Lync Server o el shell de administración de Lync Server. Las personalizaciones pueden incluir la dirección URL de logotipos, texto de ayuda, texto legal y texto al pie de página. Todas las invitaciones siguientes incluirán las opciones personalizadas.
 
 <div>
 
 ## <a name="see-also"></a>Vea también
 
 
-[Planificar conferencias en Lync Server 2013](lync-server-2013-planning-for-conferencing.md)  
+[Planeación de conferencias en Lync Server 2013](lync-server-2013-planning-for-conferencing.md)  
   
 
 </div>

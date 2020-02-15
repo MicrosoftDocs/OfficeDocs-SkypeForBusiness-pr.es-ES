@@ -12,16 +12,16 @@ ms:contentKeyID: 48184009
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72c6f15b2f0a219871436fe4451984abfddc947a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ab3faccea0ba914ca17c9aefcd0ea112e5b58a96
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764080"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037480"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41764080"
 
 _**Última modificación del tema:** 2012-09-12_
 
-tblScopePrincipal contiene ámbitos asignados a los nodos.
+La tabla tblScopePrincipal contiene ámbitos asignados a nodos.
 
-### <a name="columns"></a>Columnas
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,29 +57,29 @@ tblScopePrincipal contiene ámbitos asignados a los nodos.
 <tbody>
 <tr class="odd">
 <td><p>scopeNodeID</p></td>
-<td><p>int, not null</p></td>
-<td><p>IDENTIFICADOR de nodo al que se aplica el ámbito.</p></td>
+<td><p>int, no NULL</p></td>
+<td><p>Id. de nodo al que se aplica el ámbito.</p></td>
 </tr>
 <tr class="even">
 <td><p>scopePrinID</p></td>
-<td><p>int, not null</p></td>
-<td><p>IDENTIFICADOR principal.</p></td>
+<td><p>int, no NULL</p></td>
+<td><p>Id. de entidad</p></td>
 </tr>
 <tr class="odd">
 <td><p>scopeIsDenied</p></td>
-<td><p>bit, not null</p></td>
-<td><p>Verdadero si el tipo de ámbito es denegar; False si la opción permitir.</p></td>
+<td><p>bit, no NULL</p></td>
+<td><p>True si el tipo de ámbito es Denegar; False si es Permitir.</p></td>
 </tr>
 <tr class="even">
 <td><p>scopeUpdatedBy</p></td>
-<td><p>int, not null</p></td>
-<td><p>IDENTIFICADOR de la entidad de identidad que actualizó por última vez esta entrada.</p></td>
+<td><p>int, no NULL</p></td>
+<td><p>Id. de la entidad que actualizó esta entrada por última vez.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Sus
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -99,11 +99,11 @@ tblScopePrincipal contiene ámbitos asignados a los nodos.
 </tr>
 <tr class="even">
 <td><p>scopeNodeID</p></td>
-<td><p>Clave externa con la búsqueda en la tabla tblNode. nodeID.</p></td>
+<td><p>Clave externa con búsqueda en la tabla tblNode.nodeID.</p></td>
 </tr>
 <tr class="odd">
 <td><p>scopePrinID</p></td>
-<td><p>Clave externa con la búsqueda en la tabla tblPrincipal. prinID.</p></td>
+<td><p>Clave externa con búsqueda en la tabla tblPrincipal.prinID.</p></td>
 </tr>
 </tbody>
 </table>

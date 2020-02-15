@@ -12,20 +12,20 @@ ms:contentKeyID: 63969581
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5160e67d13b7ff3ea1502c093a0ed010d176568f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e59c3c4a1b76b7f3549f53721e29aa1e34085334
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731870"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038822"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="standard-procedures-in-lync-server-2013"></a>Procedimientos estándar de Lync Server 2013
+# <a name="standard-procedures-in-lync-server-2013"></a>Procedimientos estándar en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41731870"
 
 _**Última modificación del tema:** 2014-08-18_
 
-Varios recursos pueden ayudarle a definir qué procedimientos estándar son obligatorios en la organización y cómo realizarlos. Como cada organización es única, es posible que tenga que personalizar y adaptar estos recursos para adaptarlos a los requisitos de cada día. Cambian los procedimientos operativos estándar y la documentación se debe revisar ocasionalmente. A medida que se realizan cambios, el proceso de administración de cambios, según se define en las funciones de administración de servicios del marco operativo de Microsoft, debe identificar la forma en que es probable que cada cambio afecte a cómo y cuándo se realizan las tareas administrativas. Use la función de administración de cambios para actualizar y controlar la documentación de procedimientos. Recomendamos que las tareas operativas se separen en cargas de trabajo manejables, donde las tareas se realizan de forma diaria, semanal, mensual y según sea necesario. Las tareas diarias podrían centrar esfuerzos en aspectos muy importantes para el funcionamiento de un sistema y las tareas mensuales se centrarían más en asegurar la salud a largo plazo de un sistema. Las tareas que deben realizarse pueden dividirse en las siguientes categorías:
+Varios recursos pueden ayudarle a definir qué procedimientos estándar son necesarios en la organización y cómo realizarlos. Como cada organización es única, es posible que tenga que personalizar y adaptar estos recursos para adaptarlos a los requisitos cotidianos. Los procedimientos operativos estándar cambian y es necesario revisar la documentación en ocasiones. A medida que se realizan cambios, el proceso de administración de cambios, tal y como se define en las funciones de administración de servicios del marco operativo de Microsoft, debe identificar la forma en que es probable que cada cambio afecte cómo y cuándo se realizan las tareas administrativas. Use la función de administración de cambios para actualizar y controlar la documentación de procedimientos. Se recomienda que las tareas operativas se separen en cargas de trabajo manejables, donde las tareas se realizan de forma diaria, semanal, mensual y según sea necesario. Las tareas diarias podrían centrar esfuerzos en aspectos muy importantes para el funcionamiento de un sistema, y las tareas mensuales se centrarían más en asegurar el mantenimiento a largo plazo de un sistema. Las tareas que deben realizarse pueden dividirse en las siguientes categorías:
 
   - [Tareas diarias en Lync Server 2013](lync-server-2013-daily-tasks.md)
 
@@ -47,9 +47,9 @@ Varios recursos pueden ayudarle a definir qué procedimientos estándar son obli
 
   - [Tareas necesarias en Lync Server 2013](lync-server-2013-as-needed-tasks.md)
 
-Cuando prepare la documentación de administración de operaciones, use las listas de comprobación para asegurarse de que las tareas necesarias se realicen en el momento adecuado. Para obtener información detallada sobre cómo preparar las listas de comprobación de operaciones, consulte las listas de comprobación de las acciones que se encuentran en las listas de comprobación de operaciones.
+Al preparar la documentación para la administración de operaciones, use las listas de comprobación para asegurarse de que las tareas necesarias se realizan en el momento adecuado. Para obtener información detallada sobre cómo preparar listas de comprobación de operaciones, consulte las listas de comprobación de muestra que se encuentran en listas de comprobación de operaciones.
 
-Frecuentemente, la administración de cambios se ocupa de dónde termina la administración del sistema. Si una tarea está cubierta por un procedimiento estándar, forma parte de la función de administración del sistema. Si no hay ningún procedimiento estándar para una tarea, se debe administrar mediante la función de administración de cambios.
+Con frecuencia, la administración de cambios se lleva a cabo cuando finaliza la administración del sistema. Si una tarea está cubierta por un procedimiento estándar, formará parte de la función de administración del sistema. Si no hay un procedimiento estándar para una tarea, debe controlarse mediante la función de administración de cambios.
 
 <div>
 
@@ -57,8 +57,8 @@ Frecuentemente, la administración de cambios se ocupa de dónde termina la admi
 
 
 [Lista de comprobación de tareas diarias](lync-server-2013-operations-checklists.md)  
-[Lista de comprobación semanal de tareas](lync-server-2013-operations-checklists.md)  
-[Lista de comprobación mensual de tareas](lync-server-2013-operations-checklists.md)  
+[Lista de comprobación de tareas semanales](lync-server-2013-operations-checklists.md)  
+[Lista de comprobación de tareas mensuales](lync-server-2013-operations-checklists.md)  
   
 
 </div>

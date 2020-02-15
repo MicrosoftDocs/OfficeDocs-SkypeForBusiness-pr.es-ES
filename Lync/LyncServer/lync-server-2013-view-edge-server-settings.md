@@ -12,16 +12,16 @@ ms:contentKeyID: 63969612
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6eaab70f2f6d651d6446aaa4a569277494b7a9ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e978e28ea2c9d64a842c40237f1e5943c30d0a41
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738749"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051614"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41738749"
 
 _**Última modificación del tema:** 2014-05-20_
 
-Las configuraciones de servidor de borde general se deben revisar según los datos de la base de datos de administración de la configuración, para ayudar a garantizar que todos los cambios se documentaron según los procedimientos de control de cambios definidos.
+Las configuraciones de servidor perimetral general deben revisarse en función de los datos de la base de datos de administración de configuración, para ayudar a garantizar que todos los cambios se documentaron según los procedimientos de control de cambios definidos.
 
-Las comprobaciones adicionales podrían incluir las que se describen en las siguientes secciones:
+Las comprobaciones adicionales podrían incluir las que se describen en las secciones siguientes:
 
 <div>
 
-## <a name="verify-the-allow-and-block-lists"></a>Comprobar las listas permitir o bloquear
+## <a name="verify-the-allow-and-block-lists"></a>Comprobar las listas de permitidos y bloqueados
 
-Comprobar el URI del SIP las listas "permitir" y "bloquear" de los dominios federados, para determinar si los espacios de nombres en la lista siguen siendo válidos.
+Compruebe las listas de URI de SIP "permitir" y "bloquear" para los dominios federados, para determinar si los espacios de nombres enumerados siguen siendo válidos.
 
-Puede usar Windows PowerShell para ver las listas permitidas y bloqueadas. Para revisar los dominios en la lista dominios permitidos, ejecute el siguiente comando de Windows PowerShell:
+Puede usar Windows PowerShell para ver las listas permitidas y bloqueadas. Para revisar los dominios en la lista de dominios permitidos, ejecute el siguiente comando de Windows PowerShell:
 
 `Get-CsAllowedDomain`
 
@@ -57,13 +57,13 @@ Identidad: contoso.com
 
 Dominio: contoso.com
 
-ProxyFqdn :
+ProxyFqdn
 
-Lín
+Sin
 
-MarkForMonitoring: falso
+MarkForMonitoring: false
 
-Lín
+Sin
 
 Para revisar los dominios de la lista de dominios bloqueados, use este comando:
 
@@ -75,7 +75,7 @@ Identidad: tailspintoys.com
 
 Dominio: tailspintoys.com
 
-Windows PowerShell también le permite comprobar si puede conectarse a los dominios de su lista de dominios permitidos. Por ejemplo, este comando comprueba la conexión entre el servidor perimetral (el TargetFqdn) y el dominio federado contoso.com:
+Windows PowerShell también le permite comprobar si puede conectarse a los dominios de la lista de dominios permitidos. Por ejemplo, este comando comprueba la conexión entre el servidor perimetral (el TargetFqdn) y el dominio federado contoso.com:
 
 `Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"`
 
@@ -87,11 +87,11 @@ Y este comando comprueba la conexión entre el servidor perimetral y todos los d
 
 <div>
 
-## <a name="verify-multiple-edge-servers-are-identical"></a>Comprobar si hay varios servidores perimetrales idénticos
+## <a name="verify-multiple-edge-servers-are-identical"></a>Comprobar que hay varios servidores perimetrales idénticos
 
-Si se implementan varios servidores perimetrales en una matriz de equilibrio de carga, le recomendamos verificar que todos los servidores perimetrales de la matriz estén configurados de la misma manera.
+Si se implementan varios servidores perimetrales en una matriz con equilibrio de carga, se recomienda comprobar que todos los servidores perimetrales de la matriz se configuran de la misma manera.
 
-Puede ver la configuración de los servidores perimetrales en el panel de detalles de la extensión 2013 de Lync Server para el complemento Administración de equipos.
+Puede ver la configuración de servidores perimetrales en el panel de detalles de la extensión Lync Server 2013 para el complemento Administración de equipos.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Compatibilidad con voz'
+title: Lync Server 2013 voz admitido
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa45aef591c7a8b1ab76c42fa7791adbefee13b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a696d0ad9ece8d807011c4ff40463b2c574ef81d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758572"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038582"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41758572"
 
 _**Última modificación del tema:** 2012-06-29_
 
-Si su implementación incluye un grupo front-end, puede implementar soporte técnico para telefonía IP empresarial, la solución de voz sobre IP (VoIP) ofrecida por Microsoft. Voz sobre IP (VoIP) es una alternativa basada en software a la telefonía tradicional basada en PBX. Aunque la experiencia de llamada de VoIP es similar a la de telefonía tradicional, la telefonía IP empresarial incluye características que permiten una comunicación y una colaboración más ricas. Por ejemplo, su implementación de telefonía IP empresarial se puede configurar para que los usuarios de Lync 2013 y Lync Phone Edition puedan ver la información de presencia mejorada o la información de ubicación de los contactos de la libreta de direcciones de la organización. Algunas características de Lync Server 2013 se habilitan mediante la integración con otras cargas de trabajo de Lync Server 2013 y con la mensajería unificada de Exchange (UM). Para obtener más información sobre las características y funcionalidades disponibles con la telefonía IP empresarial y sobre cómo planear la implementación, consulte [planificación de telefonía empresarial en Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md) en la documentación de planificación.
+Si la implementación incluye un grupo front-end, puede implementar la compatibilidad para la Telefonía IP empresarial, la solución de voz a través de IP (VoIP) que ofrece Microsoft. La solución de voz a través de IP (VoIP) es una alternativa basada en software a la telefonía tradicional basada en PBX. Pese a que las llamadas de VoIP son similares a las de telefonía tradicional, la Telefonía IP empresarial incluye características que hacen posible que la comunicación y la colaboración sean más enriquecidas. Por ejemplo, la implementación de Enterprise Voice se puede configurar para que los usuarios de Lync 2013 y Lync Phone Edition puedan ver información de presencia mejorada o información de ubicación de los contactos de la libreta de direcciones de la organización. Algunas características de Lync Server 2013 están habilitadas a través de la integración con otras cargas de trabajo de Lync Server 2013 y con mensajería unificada de Exchange (UM). Para obtener más información sobre las características y funciones disponibles con Enterprise Voice y sobre cómo planear la implementación, consulte [Planning for Enterprise Voice in Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md) en la documentación de planeación.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Compatibilidad con conexiones de enlace troncal SIP en Lync Server 2013](lync-server-2013-sip-trunking-support.md)
+  - [Compatibilidad con enlaces troncales SIP en Lync Server 2013](lync-server-2013-sip-trunking-support.md)
 
-  - [Compatibilidad de conexiones SIP directas en Lync Server 2013](lync-server-2013-direct-sip-connections-support.md)
+  - [Compatibilidad con conexiones SIP directas en Lync Server 2013](lync-server-2013-direct-sip-connections-support.md)
 
-  - [Compatibilidad de mensajería unificada (UM) de Exchange en Lync Server 2013](lync-server-2013-exchange-unified-messaging-um-support.md)
+  - [Compatibilidad con mensajería unificada (MU) de Exchange en Lync Server 2013](lync-server-2013-exchange-unified-messaging-um-support.md)
 
   - [Compatibilidad con E9-1-1 en Lync Server 2013](lync-server-2013-e9-1-1-support.md)
 

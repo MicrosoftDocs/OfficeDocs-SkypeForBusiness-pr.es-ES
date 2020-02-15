@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar una conferencia de acceso telefónico local'
+title: 'Lync Server 2013: configurar conferencias de acceso telefónico local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184587
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d722abaf76ef915b7587039cb7732cb281a06308
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ef825aa799cdcdec66903e002791f30d9b4cac00
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758144"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046423"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a>Configurar una conferencia de acceso telefónico local en Lync Server 2013
+# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a>Configurar las conferencias de acceso telefónico local en Lync Server 2013
 
 </div>
 
@@ -37,41 +37,41 @@ ms.locfileid: "41758144"
 
 _**Última modificación del tema:** 2014-10-03_
 
-Esta sección le guiará a través de la configuración de las conferencias de acceso telefónico local de Lync Server 2013.
+Esta sección le guiará a través de la configuración de la Conferencia de acceso telefónico local 2013 de Lync Server.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Requisitos previos y permisos de configuración para conferencias de acceso telefónico en Lync Server 2013](lync-server-2013-dial-in-conferencing-configuration-prerequisites-and-permissions.md)
+  - [Requisitos previos y permisos de configuración para conferencias de acceso telefónico local en Lync Server 2013](lync-server-2013-dial-in-conferencing-configuration-prerequisites-and-permissions.md)
 
-  - [Lista de comprobación para la implementación de las conferencias de acceso telefónico local en Lync Server 2013](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
+  - [Lista de comprobación para la implementación de la Conferencia de acceso telefónico local en Lync Server 2013](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
 
   - [Configurar planes de marcado para las conferencias de acceso telefónico local en Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
 
-  - [Asegúrese de que los planes de marcado de Lync Server 2013 tienen regiones asignadas](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
+  - [Asegurarse de que los planes de marcado Lync Server 2013 tienen regiones asignadas](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
 
-  - [(Opcional) Comprobar la configuración de la directiva de PIN en Lync Server 2013](lync-server-2013-optional-verify-pin-policy-settings.md)
+  - [Opcional Comprobar la configuración de la Directiva de PIN en Lync Server 2013](lync-server-2013-optional-verify-pin-policy-settings.md)
 
-  - [Configurar la directiva de conferencias para el acceso telefónico local en Lync Server 2013](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
+  - [Configurar la Directiva de conferencias para el acceso telefónico en Lync Server 2013](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
 
-  - [Configurar números de conferencia de acceso telefónico en Lync Server 2013](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
+  - [Configurar los números de acceso de conferencia de acceso telefónico local en Lync Server 2013](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
 
-  - [(Opcional) Comprobar la configuración de conferencia de acceso telefónico local en Lync Server 2013](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
+  - [Opcional Comprobar la configuración de conferencia de acceso telefónico local en Lync Server 2013](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
 
-  - [(Opcional) Modificar la asignación de teclas para comandos DTMF en Lync Server 2013](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
+  - [Opcional Modificar la asignación de teclas para comandos DTMF en Lync Server 2013](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
 
-  - [(Opcional) Habilitar y deshabilitar los anuncios de participación y abandono de conferencias en Lync Server 2013](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
+  - [Opcional Habilitar y deshabilitar la Unión a Conferencia y dejar anuncios en Lync Server 2013](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
 
-  - [(Opcional) Comprobar la conferencia de acceso telefónico local en Lync Server 2013](lync-server-2013-optional-verify-dial-in-conferencing.md)
+  - [Opcional Comprobar la Conferencia de acceso telefónico local en Lync Server 2013](lync-server-2013-optional-verify-dial-in-conferencing.md)
 
-  - [Implementar el complemento de conferencia en línea para Lync 2013](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
+  - [Implementación del complemento de conferencia en línea para Lync 2013](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
 
-  - [Configurar la cuenta de usuario en Lync Server 2013](lync-server-2013-configure-user-account-settings.md)
+  - [Configurar las opciones de cuenta de usuario en Lync Server 2013](lync-server-2013-configure-user-account-settings.md)
 
-  - [(Recommended) Create Conference Directories](recommended-create-conference-directories.md)
+  - [Recomenda Crear directorios de conferencia](recommended-create-conference-directories.md)
 
-  - [(Opcional) Dar la bienvenida a los usuarios de la conferencia de acceso telefónico local en Lync Server 2013](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
+  - [Opcional Le damos la bienvenida a los usuarios a conferencias de acceso telefónico local en Lync Server 2013](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
 
 </div>
 

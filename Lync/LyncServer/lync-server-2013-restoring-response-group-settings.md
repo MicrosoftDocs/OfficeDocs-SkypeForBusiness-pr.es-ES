@@ -12,20 +12,20 @@ ms:contentKeyID: 51541473
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64bc766cf970e95ad03be65c490882dd3471955b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1557640fa021faf7313af834eb06f94f1c7432a2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733060"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051484"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="restoring-response-group-settings-in-lync-server-2013"></a>Restauración de la configuración de grupos de respuesta en Lync Server 2013
+# <a name="restoring-response-group-settings-in-lync-server-2013"></a>Restauración de la configuración del grupo de respuesta en Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41733060"
 
 _**Última modificación del tema:** 2013-02-18_
 
-Si ha implementado la aplicación de grupo de respuesta y necesita restaurar un servidor de servicios de fondo o un servidor Standard Edition, también tendrá que restaurar los valores de configuración del grupo de respuesta.
+Si ha implementado la aplicación de grupo de respuesta y necesita restaurar un servidor back-end o un servidor Standard Edition, también deberá restaurar los valores de configuración del grupo de respuesta.
 
 <div>
 
-## <a name="to-restore-response-group-configuration-settings"></a>Para restaurar las opciones de configuración de grupo de respuesta
+## <a name="to-restore-response-group-configuration-settings"></a>Para restaurar las opciones de configuración del grupo de respuesta
 
 1.  En la línea de comandos, escriba lo siguiente:
     

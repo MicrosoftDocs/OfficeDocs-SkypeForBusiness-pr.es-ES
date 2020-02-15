@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configuración de supervisión y estado'
+title: 'Lync Server 2013: configuración de supervisión y mantenimiento'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99b554b419a1f0b672caac867a1e3d4caabdae1e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 91d8826a777e8e5f59ffda8cf1004c10c8cc6437
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765991"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051182"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-and-health-configuration-in-lync-server-2013"></a>Supervisión y configuración de estado en Lync Server 2013
+# <a name="monitoring-and-health-configuration-in-lync-server-2013"></a>Configuración de supervisión y mantenimiento en Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41765991"
 
 _**Última modificación del tema:** 2013-02-22_
 
-Los temas de esta sección proporcionan procedimientos paso a paso para supervisar y realizar tareas de configuración de mantenimiento en Lync Server 2013 y en el shell de administración de Lync Server 2013.
+Los temas de esta sección proporcionan procedimientos paso a paso para las tareas de configuración de mantenimiento y supervisión que puede realizar en el panel de control 2013 de Lync Server y el shell de administración de Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Grabación de detalles de llamadas (CDR) en Lync Server 2013](lync-server-2013-call-detail-recording-cdr.md)
+  - [Registro detallado de llamadas (CDR) en Lync Server 2013](lync-server-2013-call-detail-recording-cdr.md)
 
   - [Calidad de la experiencia (QoE) en Lync Server 2013](lync-server-2013-quality-of-experience-qoe.md)
 
   - [Supervisión de la movilidad para el rendimiento en Lync Server 2013](lync-server-2013-monitoring-mobility-for-performance.md)
 
-  - [Usar informes de supervisión en Lync Server 2013](lync-server-2013-using-monitoring-reports.md)
+  - [Uso de informes de supervisión en Lync Server 2013](lync-server-2013-using-monitoring-reports.md)
 
 </div>
 

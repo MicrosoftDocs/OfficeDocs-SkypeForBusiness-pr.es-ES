@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Usuarios particulares en una aplicación o un servidor de sucursal con funciones de supervivencia'
+title: 'Lync Server 2013: usuarios particulares en una aplicación o un servidor de sucursal con funciones de supervivencia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185926
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c6cca9528e884807f6180d8c99b143eb0041211
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c6efd5991260ffeec3c6279857625eadfe34eca4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739140"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047458"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41739140"
 
 _**Última modificación del tema:** 2014-12-10_
 
-El proceso de alojamiento de usuarios en un dispositivo de sucursal con la supervivencia o con el reviviente es similar al proceso de alojamiento de usuarios en un grupo de servidores front-end. Lleve a cabo el procedimiento de servidor de sucursal o de servidor de sucursal superviviente en el sitio central.
+El proceso de alojamiento de usuarios en una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia es similar al de los usuarios que se retienen en un grupo de servidores front-end. Realice la aplicación de sucursal con funciones de supervivencia o el procedimiento de servidor de sucursal con funciones de supervivencia en el sitio central.
 
 <div>
 
-## <a name="to-home-users-on-survivable-branch-appliance-or-survivable-branch-server"></a>Para usuarios domésticos en un equipo de sucursal o servidor de sucursal con la supervivencia
+## <a name="to-home-users-on-survivable-branch-appliance-or-survivable-branch-server"></a>Para hospedar a usuarios en un servidor o una aplicación de sucursal con funciones de supervivencia
 
-1.  Antes de mover usuarios al servidor de sucursal con la supervivencia o el servidor de sucursal superviviente, abra el shell de administración de Lync Server y, a continuación, realice todas las acciones siguientes:
+1.  Antes de mover usuarios al servidor de sucursal con funciones de supervivencia o servidor de sucursal con funciones de supervivencia, abra el shell de administración de Lync Server y, a continuación, haga lo siguiente:
     
-      - Ejecute el cmdlet **Test-CsPstnOutboundCall** para comprobar que el servidor de sucursal con la supervivencia está en ejecución y que la conectividad de la red telefónica conmutada (RTC) está configurada. Si necesita modificar las propiedades de la puerta de enlace RTC, use el cmdlet **set-CsPstnGateway**.
+      - Ejecute el cmdlet **Test-CsPstnOutboundCall** para comprobar que el servidor de sucursal con funciones de supervivencia se está ejecutando y que se ha configurado la conectividad de la red telefónica conmutada (RTC). Si tiene que modificar las propiedades de la puerta de enlace RTC, use el cmdlet **set-CsPstnGateway**.
     
-      - Ejecute el cmdlet **Get-CsVoicePolicy** para comprobar que los usuarios que van a estar alojados en el servidor de sucursal con la supervivencia tienen la Directiva de enrutamiento de VoIP adecuada. Si necesita modificar la Directiva VoIP, use el cmdlet **set-CsVoicePolicy**.
+      - Ejecute el cmdlet **Get-CsVoicePolicy** para comprobar que los usuarios que van a estar hospedados en el servidor de sucursal con funciones de supervivencia tienen la Directiva de enrutamiento de VoIP adecuada. Si necesita modificar la Directiva de VoIP, use el cmdlet **set-CsVoicePolicy**.
     
-      - Ejecute el cmdlet **Get-CsVoicemailReroutingConfiguration** para comprobar que la configuración de redireccionamiento del correo de voz está configurada. Si necesita modificar la configuración de redireccionamiento del correo de voz, use el cmdlet **set-CsVoicemailReroutingConfiguration**.
+      - Ejecute el cmdlet **Get-CsVoicemailReroutingConfiguration** para comprobar que la configuración de reenrutamiento del correo de voz está configurada. Si necesita modificar la configuración de reenrutamiento del correo de voz, use el cmdlet **set-CsVoicemailReroutingConfiguration**.
 
 2.  En el shell de administración de Lync Server, ejecute el cmdlet **Move-CsUser** para mover usuarios domésticos.
 
@@ -67,7 +67,7 @@ El proceso de alojamiento de usuarios en un dispositivo de sucursal con la super
 
 
 > [!NOTE]  
-> Los usuarios que estén alojados en un equipo con la aplicación de Lync Server superviviente no pueden crear nuevos salones de chat o ver la tarjeta de la sala de las habitaciones existentes.
+> Los usuarios hospedados en una aplicación de sucursal con funciones de supervivencia de Lync Server no pueden crear salones de chat nuevos ni ver la tarjeta de la sala para las salas existentes.
 
 
 
@@ -80,7 +80,7 @@ El proceso de alojamiento de usuarios en un dispositivo de sucursal con la super
 ## <a name="see-also"></a>Vea también
 
 
-[Prueba-CsPstnOutboundCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnOutboundCall)  
+[Test-CsPstnOutboundCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnOutboundCall)  
 [Get-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsVoicePolicy)  
 [Get-CsVoicemailReroutingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsVoicemailReroutingConfiguration)  
 [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)  

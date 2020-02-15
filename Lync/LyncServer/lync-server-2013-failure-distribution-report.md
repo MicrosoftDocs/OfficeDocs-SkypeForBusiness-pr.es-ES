@@ -12,16 +12,16 @@ ms:contentKeyID: 48183849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5250b03aef3fb77de2cbeefa4688a150c9b4a302
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 291097d645884d4c5146b48a69e5355db71e2193
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765178"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046613"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -39,19 +39,19 @@ _**Última modificación del tema:** 2012-10-21_
 
 El Informe de distribución de errores clasifica las sesiones con error en las categorías siguientes:
 
-  - Principales motivos de diagnóstico
+  - Motivos del diagnóstico principales
 
-  - Principales modalidades
+  - Modalidades principales
 
-  - Principales grupos de servidores
+  - Grupos principales
 
-  - Principales fuentes
+  - Fuentes principales
 
-  - Principales componentes
+  - Componentes principales
 
-  - Principales remitentes
+  - Usuarios de origen principales
 
-  - Principales destinatarios
+  - Usuarios de destino principales
 
   - Agentes de usuarios de origen principales
 
@@ -65,27 +65,27 @@ Puede tener acceso al Informe de distribución de errores desde cualquiera de lo
 
   - [Informe de errores principales en Lync Server 2013](lync-server-2013-top-failures-report.md)
 
-  - [Informe de diagnóstico de conferencia en Lync Server 2013](lync-server-2013-conference-diagnostic-report.md)
+  - [Informe de diagnósticos de conferencia en Lync Server 2013](lync-server-2013-conference-diagnostic-report.md)
 
-  - [Informe de diagnóstico de actividad de punto a punto en Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)
+  - [Informe de diagnósticos de actividad punto a punto en Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)
 
-En el informe de distribución de errores, puede hacer clic en cualquiera de las siguientes métricas para ver el [Informe de la lista de errores en Lync Server 2013](lync-server-2013-failure-list-report.md):
+Desde el informe de distribución de errores, puede hacer clic en cualquiera de las métricas siguientes para ver el [Informe de lista de errores en Lync Server 2013](lync-server-2013-failure-list-report.md):
 
-  - Principales motivos del diagnóstico (sesiones)
+  - Motivos del diagnóstico principales (sesiones)
 
-  - Principales modalidades (sesiones)
+  - Modalidades principales (sesiones)
 
-  - Principales grupos de servidores (sesiones)
+  - Grupos principales (sesiones)
 
-  - Principales orígenes (sesiones)
+  - Fuentes principales (sesiones)
 
-  - Principales componentes (sesiones)
+  - Componentes principales (sesiones)
 
-  - Principales remitentes (sesiones)
+  - Usuarios de origen principales (sesiones)
 
-  - Principales destinatarios (sesiones)
+  - Usuarios de destino principales (sesiones)
 
-  - Principales agentes de remitente (sesiones)
+  - Agentes de usuarios de origen principales (sesiones)
 
 </div>
 
@@ -126,48 +126,48 @@ La siguiente tabla muestra los filtros que puede utilizar con el informe de resu
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
-<td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:</p>
-<p>7/7/2012 1:00 P.M.</p>
-<p>Si no escribe una hora de inicio, el informe se iniciará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<td><p><strong>From</strong></p></td>
+<td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</p>
+<p>7/7/2012 1:00 pm</p>
+<p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
-<p>Las semanas siempre van del domingo al sábado.</p></td>
+<p>Las semanas siempre empiezan en domingo y terminan en sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Hasta</strong></p></td>
-<td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización como se indica a continuación:</p>
-<p>7/7/2012 1:00 P.M.</p>
-<p>Si no escribe una hora de finalización, el informe finalizará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:</p>
+<p>7/7/2012 1:00 PM</p>
+<p>Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
 <p>Las semanas siempre van del domingo al sábado.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Grupo de servidores</strong></p></td>
-<td><p>Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en <strong>[Todos]</strong> para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.</p></td>
+<td><p><strong>Pool</strong></p></td>
+<td><p>Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en <strong>[Todo]</strong> para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tipo de actividad</strong></p></td>
 <td><p>Tipo de actividad para filtrar. Seleccione una de las siguientes opciones:</p>
 <ul>
-<li><p>[Todas]</p></li>
+<li><p>Todos</p></li>
 <li><p>Punto a punto</p></li>
-<li><p>Una conferencia</p></li>
+<li><p>Conversación</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Categoría de sesión</strong></p></td>
 <td><p>Indica si la actividad correspondiente se desarrolló correctamente o causó errores. Seleccione una de las siguientes opciones:</p>
 <ul>
-<li><p>[Todas]</p></li>
-<li><p>Correcto</p></li>
+<li><p>Todos</p></li>
+<li><p>Success</p></li>
 <li><p>Error esperado</p></li>
 <li><p>Error inesperado</p></li>
 </ul>
-<p>Un &quot;error&quot; esperado es un error que se espera que suceda. Por ejemplo, si un usuario ha establecido su estado en No molestar, se espera que las llamadas a ese usuario no se realicen. Un &quot;error&quot; inesperado es un error que se produce en lo que parecería ser un sistema saludable en otro caso. Por ejemplo, una llamada no tendría que finalizarse si el autor de la llamada está en espera. De ser así, tal cosa se identificaría como un error inesperado.</p></td>
+<p>Un &quot;error esperado&quot; es un error que se espera que suceda. Por ejemplo, si un usuario ha establecido su estado en No molestar, se espera que las llamadas a ese usuario no se realicen. Un &quot;error&quot; inesperado es un error que se produce en lo que parecería ser un sistema en mal estado. Por ejemplo, una llamada no debería finalizarse si el autor de la llamada está en espera. De ser así, tal cosa se identificaría como un error inesperado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Id. de diagnóstico</strong></p></td>
@@ -196,13 +196,13 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Clasificación</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>No</p></td>
 <td><p>Clasificación relativa de sesiones con errores basándose en los Id. de diagnóstico. El Id. de diagnóstico es un identificador único (con el formato de un encabezado de diagnóstico MS) adjunto a un mensaje SIP que suele proporcionar información útil para resolver errores.</p></td>
 </tr>
@@ -214,7 +214,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 <tr class="odd">
 <td><p><strong>Sesiones</strong></p></td>
 <td><p>No</p></td>
-<td><p>Cantidad total de sesiones con errores en las que generó el Id. de diagnóstico especificado.</p></td>
+<td><p>Número total de sesiones con errores en las que generó el Id. de diagnóstico especificado.</p></td>
 </tr>
 </tbody>
 </table>
@@ -239,13 +239,13 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Clasificación</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>No</p></td>
 <td><p>Clasificación relativa de sesiones con errores basándose en los tipos de sesiones (por ejemplo, una conferencia de audio o vídeo o una sesión de transferencia de archivos de punto a punto).</p></td>
 </tr>
@@ -257,7 +257,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 <tr class="odd">
 <td><p><strong>Sesiones</strong></p></td>
 <td><p>No</p></td>
-<td><p>Cantidad total de sesiones con errores en las que aparece la modalidad especificada.</p></td>
+<td><p>Número total de sesiones con errores en las que aparece la modalidad especificada.</p></td>
 </tr>
 </tbody>
 </table>
@@ -282,25 +282,25 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Clasificación</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>No</p></td>
-<td><p>Clasificación relativa de las sesiones erróneas basadas en el grupo de registradores o el servidor perimetral donde se realizó la sesión.</p></td>
+<td><p>Clasificación relativa de sesiones con errores basándose en el grupo de registradores o servidor perimetral en el que se realizó la sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Principales grupos de servidores</strong></p></td>
 <td><p>No</p></td>
-<td><p>Nombre del grupo de registradores o del servidor perimetral.</p></td>
+<td><p>Nombre del grupo de registrador o servidor perimetral.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Sesiones</strong></p></td>
 <td><p>No</p></td>
-<td><p>Número total de sesiones erróneas por grupo de registradores o servidor perimetral.</p></td>
+<td><p>Número total de sesiones con errores por grupo de registrador o servidor perimetral.</p></td>
 </tr>
 </tbody>
 </table>
@@ -325,13 +325,13 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Clasificación</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>No</p></td>
 <td><p>Clasificación relativa de sesiones con errores por equipo.</p></td>
 </tr>
@@ -343,7 +343,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 <tr class="odd">
 <td><p><strong>Sesiones</strong></p></td>
 <td><p>No</p></td>
-<td><p>Cantidad total de sesiones con errores por equipo.</p></td>
+<td><p>Número total de sesiones con errores por equipo.</p></td>
 </tr>
 </tbody>
 </table>
@@ -355,7 +355,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 
 ## <a name="metrics-for-top-components"></a>Métricas para componentes destacados
 
-En la tabla siguiente se enumera la información proporcionada en el informe de distribución de errores en función de los componentes de Microsoft Lync Server 2010 que experimentaron la mayoría de los errores.
+En la siguiente tabla se muestra la información proporcionada en el informe de distribución de errores en función de los componentes de Microsoft Lync Server 2010 que experimentaron más errores.
 
 ### <a name="metrics-for-top-components"></a>Métricas para componentes destacados
 
@@ -368,15 +368,15 @@ En la tabla siguiente se enumera la información proporcionada en el informe de 
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Clasificación</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>No</p></td>
-<td><p>Clasificación relativa de las sesiones fallidas basadas en el componente de Lync Server 2010 (por ejemplo, ExumRouting, GroupChat o MediationServer).</p></td>
+<td><p>Clasificación relativa de sesiones con errores basadas en el componente 2010 de Lync Server (por ejemplo, ExumRouting, GroupChat o MediationServer).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Principales componentes</strong></p></td>
@@ -386,7 +386,7 @@ En la tabla siguiente se enumera la información proporcionada en el informe de 
 <tr class="odd">
 <td><p><strong>Sesiones</strong></p></td>
 <td><p>No</p></td>
-<td><p>Cantidad total de sesiones con errores por componente.</p></td>
+<td><p>Número total de sesiones con errores por componente.</p></td>
 </tr>
 </tbody>
 </table>
@@ -411,13 +411,13 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Clasificación</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>No</p></td>
 <td><p>Clasificación relativa de sesiones con errores basándose en el usuario invitado a unirse a la sesión.</p></td>
 </tr>
@@ -453,13 +453,13 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Clasificación</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>No</p></td>
 <td><p>Clasificación relativa de sesiones con errores basándose en el usuario que inició la sesión.</p></td>
 </tr>
@@ -496,13 +496,13 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 <thead>
 <tr class="header">
 <th>Nombre</th>
-<th>¿Se pueden ordenar los datos por este elemento?</th>
+<th>¿Se pueden ordenar los datos en este elemento?</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Clasificación</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>No</p></td>
 <td><p>Clasificación relativa de sesiones con errores basándose en el agente de usuario (software) que participa en la sesión. Por ejemplo: RTCC/4.0.0.0 Enrutamiento de entrada/4.0.0.0.</p></td>
 </tr>
@@ -514,7 +514,7 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 <tr class="odd">
 <td><p><strong>Sesiones</strong></p></td>
 <td><p>No</p></td>
-<td><p>Cantidad total de sesiones con errores por agente de usuario.</p></td>
+<td><p>Número total de sesiones con errores por agente de usuario.</p></td>
 </tr>
 </tbody>
 </table>

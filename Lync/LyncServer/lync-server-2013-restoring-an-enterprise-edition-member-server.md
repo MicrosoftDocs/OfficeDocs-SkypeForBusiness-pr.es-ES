@@ -12,20 +12,20 @@ ms:contentKeyID: 51541523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e870b68d1252ea5a203b3c334299fb65b6a56512
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c0643cf250e00b447bfac8a1b32c2a3038cff139
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733220"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051092"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a>Restaurar un servidor miembro de Enterprise Edition en Lync Server 2013
+# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a>Restauración de un servidor miembro de Enterprise Edition en Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41733220"
 
 _**Última modificación del tema:** 2013-02-18_
 
-Si se produce un error en un servidor que ejecuta uno de los siguientes roles de servidor, siga el procedimiento de este tema para restaurar el servidor. Si varios servidores fallan de forma independiente, siga el procedimiento para cada servidor.
+Si se produce un error en un servidor que ejecuta uno de los siguientes roles de servidor, siga el procedimiento de este tema para restaurar el servidor. Si se producen errores en varios servidores de forma independiente, siga el procedimiento en cada servidor.
 
   - Servidor front-end
 
   - Servidor de mediación
 
-  - Director
+  - Dirección
 
   - Servidor de chat persistente
 
@@ -53,7 +53,7 @@ Si se produce un error en un servidor que ejecuta uno de los siguientes roles de
 
 
 > [!TIP]  
-> Le recomendamos que tome una copia de la imagen del sistema antes de comenzar la restauración. Puede usar esta imagen como punto de reversión, en caso de que algo falle durante la restauración. Es posible que desee tomar la copia de la imagen después de instalar el sistema operativo y SQL Server, y restaurar o volver a inscribir los certificados.
+> Le recomendamos que tome una copia de imagen del sistema antes de comenzar la restauración. Puede usar esta imagen como un punto de reversión, en caso de que algo salga mal durante la restauración. Es posible que desee tomar la copia de la imagen después de instalar el sistema operativo y SQL Server, y restaurar o volver a inscribir los certificados.
 
 
 
@@ -63,30 +63,30 @@ Si se produce un error en un servidor que ejecuta uno de los siguientes roles de
 
 ## <a name="to-restore-a-member-server"></a>Para restaurar un servidor miembro
 
-1.  Empiece con un servidor limpio o nuevo que tenga el mismo nombre de dominio completo (FQDN) que el servidor que ha fallado, instale el sistema operativo y, a continuación, restaure o vuelva a inscribir los certificados.
+1.  Empiece con un servidor nuevo o limpio que tenga el mismo nombre de dominio completo (FQDN) que el servidor con el error, instale el sistema operativo y, a continuación, restaure o vuelva a inscribir los certificados.
     
     <div>
     
 
     > [!NOTE]  
-    > Siga los procedimientos de implementación de servidores de su organización para realizar este paso.
+    > Siga los procedimientos de implementación de servidores de la organización para realizar este paso.
 
     
     </div>
 
 2.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins, inicie sesión en el servidor que va a restaurar.
 
-3.  Vaya a la carpeta o los elementos multimedia de instalación de Lync Server e inicie el Asistente para la \\implementación\\de\\Lync Server que se encuentra en la instalación de AMD64 Setup. exe.
+3.  Vaya a la carpeta o los medios de instalación de Lync Server e inicie el Asistente para la implementación \\de\\Lync\\Server que se encuentra en Setup AMD64 Setup. exe.
 
-4.  Siga los pasos que se indican en el Asistente para la implementación:
+4.  Siga el asistente para la implementación para hacer lo siguiente:
     
-    1.  Ejecute el **paso 1: instalar el almacén de configuración local** para instalar los archivos de configuración local.
+    1.  Ejecute el **Paso 1: Instalar el almacén de configuración local** para instalar los archivos de configuración local.
     
-    2.  Ejecute el **paso 2: configurar o quitar los componentes de Lync Server** para instalar el rol de servidor de Lync Server.
+    2.  Ejecute el **paso 2: configurar o quitar componentes de Lync Server** para instalar el rol de servidor de Lync Server.
     
-    3.  Ejecute el **paso 3: solicitar, instalar o asignar certificados** para asignar los certificados.
+    3.  Ejecute el **Paso 3: Solicitar, instalar o asignar certificados** para asignar los certificados.
     
-    4.  Ejecute el **paso 4: iniciar servicios** para iniciar servicios en el servidor.
+    4.  Ejecute el **Paso 4: Iniciar servicios** para iniciar los servicios en el servidor.
     
     Para obtener más información sobre cómo ejecutar el Asistente para la implementación, consulte la documentación de implementación del rol de servidor que va a restaurar.
 

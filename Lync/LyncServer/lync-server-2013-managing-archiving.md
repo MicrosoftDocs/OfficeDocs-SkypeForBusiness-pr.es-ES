@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Administración de archivado'
+title: 'Lync Server 2013: administración de archivado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3bb7ecac5204fc42b44e919dbbab8e9b720acc7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16c9b901575e844954b9dd3454c4ecc7c86e7c3b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738870"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41738870"
 
 _**Última modificación del tema:** 2012-10-10_
 
-Al implementar el archivado de la organización, se especifica la configuración inicial durante la implementación. Sin embargo, puede haber ocasiones en las que desee cambiar el modo en que implementa la compatibilidad de archivado para la administración diaria o para cumplir los nuevos requisitos de la organización. Por ejemplo, es posible que tenga que configurar el soporte de archivo de forma diferente para un sitio, grupo de servidores o usuarios específicos de la organización. Para los usuarios alojados en Lync Server 2013, lo que debe hacer es crear y personalizar las directivas y configuraciones de archivado. Si usa la integración de Microsoft Exchange, también debe configurar las opciones de Exchange 2013. Esta sección proporciona información y procedimientos para que pueda realizar cambios en la implementación de archivado.
+Al implementar el archivado para su organización, se especifica la configuración inicial durante la implementación. Sin embargo, puede que haya ocasiones en que desea cambiar la manera de implementar la compatibilidad del archivado para la administración diaria o para satisfacer los nuevos requisitos de su organización. Por ejemplo, puede que tenga que configurar la compatibilidad del archivado de manera diferente para un sitio, grupo o usuarios específicos dentro de su organización. Para los usuarios hospedados en Lync Server 2013, es necesario crear y personalizar las directivas y configuraciones de archivado. Si usa la integración de Microsoft Exchange, también debe configurar las opciones de Exchange 2013. En esta sección se proporcionan información y procedimientos que le permiten realizar cambios en su implementación de archivado.
 
 <div>
 
@@ -45,9 +45,9 @@ Al implementar el archivado de la organización, se especifica la configuración
 
   - [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md)
 
-  - [Administrar el archivado de comunicaciones internas y externas en Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)
+  - [Administración del archivado de comunicaciones internas y externas en Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)
 
-  - [Administrar las opciones de configuración de archivado en Lync Server 2013 para su organización, sitios y grupos](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
+  - [Administración de las opciones de configuración de archivado en Lync Server 2013 para la organización, los sitios y los grupos de servidores](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
 
   - [Cambiar las opciones de base de datos de archivado en Lync Server 2013](lync-server-2013-changing-archiving-database-options.md)
 

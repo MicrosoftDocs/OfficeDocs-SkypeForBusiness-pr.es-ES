@@ -1,5 +1,5 @@
 ---
-title: 'Lync Online: Cmdlets de Lync Online'
+title: 'Lync Online: cmdlets de Lync Online'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,16 +12,16 @@ ms:contentKeyID: 51803930
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc8a5c1868620446af3fe574db7af10aa8b34785
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 775878ca8460abec2c948e2d744150762b6cb7fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730540"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037992"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,43 +37,43 @@ ms.locfileid: "41730540"
 
 _**Última modificación del tema:** 2014-02-07_
 
-Esta página muestra todos los cmdlets de Windows PowerShell disponibles para los administradores de inquilinos de Microsoft Lync Online.
+En esta página se enumeran todos los cmdlets de Windows PowerShell disponibles para los administradores de inquilinos de Microsoft Lync Online.
 
 <div>
 
 ## <a name="cmdlets-available-only-to-lync-online-administrators"></a>Cmdlets disponibles solo para administradores de Lync Online
 
-Los siguientes cmdlets solo se pueden usar con Lync Online:
+Los siguientes cmdlets solo pueden usarse con Lync Online:
 
-  - [Get-CsAudioConferencingProvider](https://technet.microsoft.com/en-us/library/JJ994030(v=OCS.15))
+  - [Get-CsAudioConferencingProvider](https://technet.microsoft.com/library/JJ994030(v=OCS.15))
 
-  - [Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/JJ994026(v=OCS.15))
+  - [Get-CsOnlineUser](https://technet.microsoft.com/library/JJ994026(v=OCS.15))
 
-  - [Get-CsTenant](https://technet.microsoft.com/en-us/library/JJ994044(v=OCS.15))
+  - [Get-CsTenant](https://technet.microsoft.com/library/JJ994044(v=OCS.15))
 
-  - [Get-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/JJ994072(v=OCS.15))
+  - [Get-CsTenantFederationConfiguration](https://technet.microsoft.com/library/JJ994072(v=OCS.15))
 
-  - [Get-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/JJ994034(v=OCS.15))
+  - [Get-CsTenantHybridConfiguration](https://technet.microsoft.com/library/JJ994034(v=OCS.15))
 
-  - [Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/en-us/library/Dn362770(v=OCS.15))
+  - [Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/library/Dn362770(v=OCS.15))
 
-  - [Get-CsTenantPublicProvider](https://technet.microsoft.com/en-us/library/JJ994016(v=OCS.15))
+  - [Get-CsTenantPublicProvider](https://technet.microsoft.com/library/JJ994016(v=OCS.15))
 
-  - [New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/en-us/library/JJ994088(v=OCS.15))
+  - [New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/library/JJ994088(v=OCS.15))
 
-  - [New-CsEdgeAllowList](https://technet.microsoft.com/en-us/library/JJ994023(v=OCS.15))
+  - [New-CsEdgeAllowList](https://technet.microsoft.com/library/JJ994023(v=OCS.15))
 
-  - [New-CsEdgeDomainPattern](https://technet.microsoft.com/en-us/library/JJ994040(v=OCS.15))
+  - [New-CsEdgeDomainPattern](https://technet.microsoft.com/library/JJ994040(v=OCS.15))
 
-  - [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/JJ994080(v=OCS.15))
+  - [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/library/JJ994080(v=OCS.15))
 
-  - [Set-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/JJ994046(v=OCS.15))
+  - [Set-CsTenantHybridConfiguration](https://technet.microsoft.com/library/JJ994046(v=OCS.15))
 
-  - [Set-CsTenantPublicProvider](https://technet.microsoft.com/en-us/library/JJ994047(v=OCS.15))
+  - [Set-CsTenantPublicProvider](https://technet.microsoft.com/library/JJ994047(v=OCS.15))
 
-  - [Update-CsTenantMeetingUrl](https://technet.microsoft.com/en-us/library/Dn424754(v=OCS.15))
+  - [Update-CsTenantMeetingUrl](https://technet.microsoft.com/library/Dn424754(v=OCS.15))
 
-Para obtener más información sobre cómo configurar el equipo para usar Windows PowerShell para administrarlo con Lync Online, vea el tema de ayuda [usar Windows PowerShell para administrar Lync Online](https://technet.microsoft.com/en-us/library/Dn362831(v=OCS.15)).
+Para obtener información sobre cómo configurar el equipo para usar Windows PowerShell para administrar con Lync Online, consulte el tema de ayuda [using Windows PowerShell to Manage Lync Online](https://technet.microsoft.com/library/Dn362831(v=OCS.15)).
 
 </div>
 
@@ -83,67 +83,67 @@ Para obtener más información sobre cómo configurar el equipo para usar Window
 
 Estos cmdlets se pueden usar con Lync Online o con la versión local de Lync Server 2013:
 
-  - [Disable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ204723(v=OCS.15))
+  - [Disable-CsMeetingRoom](https://technet.microsoft.com/library/JJ204723(v=OCS.15))
 
-  - [Enable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ205062(v=OCS.15))
+  - [Enable-CsMeetingRoom](https://technet.microsoft.com/library/JJ205062(v=OCS.15))
 
-  - [Get-ClientPolicy](https://technet.microsoft.com/en-us/library/Gg398830(v=OCS.15))
+  - [Get-CsClientPolicy](https://technet.microsoft.com/library/Gg398830(v=OCS.15))
 
-  - [Get-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg398293(v=OCS.15))
+  - [Get-CsConferencingPolicy](https://technet.microsoft.com/library/Gg398293(v=OCS.15))
 
-  - [Get-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/Gg425805(v=OCS.15))
+  - [Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425805(v=OCS.15))
 
-  - [Get-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412725(v=OCS.15))
+  - [Get-CsExUmContact](https://technet.microsoft.com/library/Gg412725(v=OCS.15))
 
-  - [Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398348(v=OCS.15))
+  - [Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398348(v=OCS.15))
 
-  - [Get-CsImFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg398980(v=OCS.15))
+  - [Get-CsImFilterConfiguration](https://technet.microsoft.com/library/Gg398980(v=OCS.15))
 
-  - [Get-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg425875(v=OCS.15))
+  - [Get-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg425875(v=OCS.15))
 
-  - [Get-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ205277(v=OCS.15))
+  - [Get-CsMeetingRoom](https://technet.microsoft.com/library/JJ205277(v=OCS.15))
 
-  - [Get-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg398463(v=OCS.15))
+  - [Get-CsPresencePolicy](https://technet.microsoft.com/library/Gg398463(v=OCS.15))
 
-  - [Get-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/Gg413002(v=OCS.15))
+  - [Get-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg413002(v=OCS.15))
 
-  - [Get-CsPushNotificationConfiguration](https://technet.microsoft.com/en-us/library/Hh690049(v=OCS.15))
+  - [Get-CsPushNotificationConfiguration](https://technet.microsoft.com/library/Hh690049(v=OCS.15))
 
-  - [Get-CsUserAcp](https://technet.microsoft.com/en-us/library/Gg398978(v=OCS.15))
+  - [Get-CsUserAcp](https://technet.microsoft.com/library/Gg398978(v=OCS.15))
 
-  - [Get-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398101(v=OCS.15))
+  - [Get-CsVoicePolicy](https://technet.microsoft.com/library/Gg398101(v=OCS.15))
 
-  - [Grant-ClientPolicy](https://technet.microsoft.com/en-us/library/Gg412942(v=OCS.15))
+  - [Grant-CsClientPolicy](https://technet.microsoft.com/library/Gg412942(v=OCS.15))
 
-  - [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg425937(v=OCS.15))
+  - [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/Gg425937(v=OCS.15))
 
-  - [Grant-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/Gg425942(v=OCS.15))
+  - [Grant-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425942(v=OCS.15))
 
-  - [Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412829(v=OCS.15))
+  - [Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg412829(v=OCS.15))
 
-  - [Grant-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398828(v=OCS.15))
+  - [Grant-CsVoicePolicy](https://technet.microsoft.com/library/Gg398828(v=OCS.15))
 
-  - [New-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))
+  - [New-CsExUmContact](https://technet.microsoft.com/library/Gg398139(v=OCS.15))
 
-  - [Remove-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
+  - [Remove-CsExUmContact](rehttps://technet.microsoft.com/library/Gg425842(v=OCS.15))
 
-  - [Remove-CsUserAcp](https://technet.microsoft.com/en-us/library/Gg398982(v=OCS.15))
+  - [Remove-CsUserAcp](https://technet.microsoft.com/library/Gg398982(v=OCS.15))
 
-  - [Remove-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398309(v=OCS.15))
+  - [Remove-CsVoicePolicy](https://technet.microsoft.com/library/Gg398309(v=OCS.15))
 
-  - [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412944(v=OCS.15))
+  - [Set-CsExUmContact](https://technet.microsoft.com/library/Gg412944(v=OCS.15))
 
-  - [Set-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg398648(v=OCS.15))
+  - [Set-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg398648(v=OCS.15))
 
-  - [Set-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ204831(v=OCS.15))
+  - [Set-CsMeetingRoom](https://technet.microsoft.com/library/JJ204831(v=OCS.15))
 
-  - [Set-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/Gg398484(v=OCS.15))
+  - [Set-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg398484(v=OCS.15))
 
-  - [Set-CsPushNotificationConfiguration](https://technet.microsoft.com/en-us/library/Hh690013(v=OCS.15))
+  - [Set-CsPushNotificationConfiguration](https://technet.microsoft.com/library/Hh690013(v=OCS.15))
 
-  - [Set-CsUser](https://technet.microsoft.com/en-us/library/Gg398510(v=OCS.15))
+  - [Set-CsUser](https://technet.microsoft.com/library/Gg398510(v=OCS.15))
 
-  - [Set-CsUserAcp](https://technet.microsoft.com/en-us/library/Gg413018(v=OCS.15))
+  - [Set-CsUserAcp](https://technet.microsoft.com/library/Gg413018(v=OCS.15))
 
 </div>
 

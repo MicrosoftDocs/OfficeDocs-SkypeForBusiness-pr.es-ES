@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Información general sobre los tipos de direcciones IP'
+title: 'Lync Server 2013: información general sobre los tipos de direcciones IP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d1172fc7da9600de036312adb05548b51dea6b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: feb900c6f3d2ac426c184048986a7a751a205874
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755534"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051052"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Información general sobre los tipos de direcciones IP en Lync Server para Lync Server 2013
+# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Información general sobre los tipos de direcciones IP para Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41755534"
 
 _**Última modificación del tema:** 2013-01-29_
 
-Tiene tres opciones para configurar las direcciones IP en Lync Server 2013. Puede configurar Lync Server 2013 para que admita solo IP versión 4 (IPv4), solo IP versión 6 (IPv6) o una combinación de ambos (conocido como una *pila doble*). Cada tipo de configuración entraña varios aspectos que necesita tener en cuenta:
+Tiene tres opciones para configurar las direcciones IP en Lync Server 2013. Puede configurar Lync Server 2013 para que admita solo IP versión 4 (IPv4), solo IP versión 6 (IPv6) o una combinación de ambas (conocidas como *pila dual*). Cada tipo de configuración entraña varios aspectos que debe tener en cuenta:
 
-  - **IPv4 solo**   se creó IPv6 porque el mundo se está quedando sin direcciones IPv4. En última instancia, IPv6 será totalmente compatible en todo el mundo, pero en este momento, muchas de las compañías y dispositivos que su empresa podría necesitar para comunicarse aún no son compatibles con IPv6, y es posible que no lo hagan durante algún tiempo. Una configuración de solo IPv4 le ayudará a asegurarse de que su implementación de Lync Server pueda comunicarse con la mayoría de los dispositivos existentes.
+  - **Solo**   se creó IPv6 de IPv4 porque el mundo se está quedando sin direcciones IPv4. En última instancia, IPv6 será totalmente compatible en todo el mundo, pero en este momento, muchas compañías y dispositivos que su empresa puede que necesiten comunicarse con no son compatibles con IPv6, y es posible que no lo hagan durante algún tiempo. Una configuración de solo IPv4 le ayudará a asegurarse de que la implementación de Lync Server se puede comunicar con la mayoría de los dispositivos existentes.
 
-  - **Solo IPv6 a**   la inversa, una implementación de IPv6 completa, en este momento, excluirá la comunicación con muchos dispositivos existentes.
+  - **Solo IPv6 por**   el contrario, una implementación completa de IPv6, en este momento, excluirá la comunicación con muchos dispositivos existentes.
 
-  - **Pila Dual Stack**es una red en la que se habilitan las direcciones IPv4 e IPv6.    Esta configuración es compatible con Lync Server 2013 porque, en la mayoría de los casos, la transición de IPv4 completa a Full-IPv6 llevará varios años.
+  - **Stack dual**stack es una red donde están habilitadas las direcciones IPv4 e IPv6.    Esta configuración se admite en Lync Server 2013 porque, en la mayoría de los casos, la transición de Full-IPv4 a Full-IPv6 tardará varios años.
 
-En las secciones siguientes se describe la compatibilidad entre estas tres configuraciones para varias características de Lync Server.
+En las secciones siguientes se resume la compatibilidad entre estas tres configuraciones para varias características de Lync Server.
 
 <div>
 
 
 > [!NOTE]  
-> La configuración de tipo solo IPv6 en el cliente o el servidor solo se admite en entornos de laboratorio y con fines de validación, no se admite en implementaciones de producción.
+> La configuración de tipo solo IPv6 en el cliente o el servidor solo se admite en entornos de ensayo y con fines de validación, no se admite en implementaciones de producción.
 
 
 
@@ -69,7 +69,7 @@ En las secciones siguientes se describe la compatibilidad entre estas tres confi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Red de extremo de cliente</th>
+<th>Red de extremo de clientes</th>
 <th>Red del servidor</th>
 </tr>
 </thead>
@@ -157,7 +157,7 @@ Las comunicaciones de punto a punto incluyen audio, audio y vídeo, uso comparti
 
 ## <a name="conferencing"></a>Conferencia
 
-Las conferencias incluyen audio/vídeo, uso compartido de aplicaciones y colaboración de datos (pizarras y uso compartido de archivos).
+Las conferencias incluyen audio y vídeo, uso compartido de aplicaciones y colaboración de datos (pizarra y uso compartido de archivos).
 
 
 <table>
@@ -210,7 +210,7 @@ Las conferencias incluyen audio/vídeo, uso compartido de aplicaciones y colabor
 
 ## <a name="mediation-serverpstn"></a>Servidor de mediación/RTC
 
-Lync Server 2013 no admite omisión de multimedia para llamadas de red telefónica conmutada (RTC) si el tráfico se realiza a través de una interfaz de IPv6. Si se requiere la omisión de medios, recomendamos que la puerta de enlace RTC se configure con IPv4.
+Lync Server 2013 no admite el desvío de medios para llamadas de red telefónica conmutada (RTC) si el tráfico se realiza a través de una interfaz IPv6. Si se requiere la omisión de medios, se recomienda que la puerta de enlace RTC se configure con IPv4.
 
 
 <table>
@@ -299,7 +299,7 @@ Las comunicaciones de punto a punto con usuarios remotos incluyen mensajería in
 
 ## <a name="front-end-pool-and-edge-pool-configuration"></a>Configuración del grupo de servidores front-end y del grupo de servidores perimetrales
 
-En la tabla siguiente se muestra la matriz de soporte técnico entre el grupo de servidores front-end y el grupo de servidores perimetrales internos.
+En la siguiente tabla se muestra la matriz de compatibilidad entre el grupo de servidores front-end y el grupo de servidores perimetrales internos.
 
 ### <a name="front-end-pool-and-edge-pool-internal-edge-matrix"></a>Matriz del grupo de servidores front-end y del grupo de servidores perimetrales (perímetro interno)
 
@@ -325,21 +325,21 @@ En la tabla siguiente se muestra la matriz de soporte técnico entre el grupo de
 </tr>
 <tr class="odd">
 <td><p><strong>Grupo de servidores front-end: pila dual</strong></p></td>
-<td><p>Sí </p></td>
+<td><p>Sí</p></td>
 <td><p>Sí</p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Grupo de servidores front-end: IPv6</strong></p></td>
 <td><p>No</p></td>
-<td><p>Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados</p></td>
+<td><p>No</p></td>
 <td><p>Sí*</p></td>
 </tr>
 </tbody>
 </table>
 
 
-\*Use esta combinación solo en un entorno de laboratorio.
+\*Use esta combinación únicamente en un entorno de laboratorio.
 
 La tabla siguiente es una matriz de combinaciones admitidas de las interfaces perimetrales interna y externa.
 
@@ -374,20 +374,20 @@ La tabla siguiente es una matriz de combinaciones admitidas de las interfaces pe
 <tr class="even">
 <td><p><strong>Grupo de servidores perimetrales (perímetro interno): IPv6</strong></p></td>
 <td><p>No</p></td>
-<td><p>Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados</p></td>
+<td><p>No</p></td>
 <td><p>Sí*</p></td>
 </tr>
 </tbody>
 </table>
 
 
-\*Use esta combinación solo en un entorno de laboratorio.
+\*Use esta combinación únicamente en un entorno de laboratorio.
 
 </div>
 
 <div>
 
-## <a name="advanced-enterprise-voice-support-for-ipv6"></a>Compatibilidad avanzada de Telefonía IP empresarial para IPv6
+## <a name="advanced-enterprise-voice-support-for-ipv6"></a>Compatibilidad avanzada de Enterprise Voice para IPv6
 
 Las implementaciones que incluyen el control de admisión de llamadas (CAC), Enhanced 9-1-1 (E9-1-1) o la omisión de medios se deben configurar como implementaciones de solo IPv4 o de pila dual.
 
@@ -395,7 +395,7 @@ Las implementaciones que incluyen el control de admisión de llamadas (CAC), Enh
 
 
 > [!NOTE]  
-> En una implementación con dos pilas, incluso si un cliente de Lync se conecta a un servidor de Lync mediante IPv6, Lync hará todo lo posible para asignar una dirección IPv4 adecuada para admitir E9-1-1.
+> En una implementación de pila dual, incluso si un cliente de Lync se conecta a un Lync Server mediante IPv6, Lync hará un mejor esfuerzo para asignar una dirección IPv4 adecuada para admitir E9-1-1.
 
 
 
@@ -411,13 +411,13 @@ La mensajería unificada (MU) de Exchange no admite IPv6. Para la MU de Exchange
 
 ## <a name="other-lync-server-2013-feature-support-for-ipv6"></a>Otra compatibilidad con características de Lync Server 2013 para IPv6
 
-Además de las características y componentes mencionados anteriormente, Lync Server 2013 admite IPv6 para las siguientes características:
+Además de las características y los componentes mencionados anteriormente, Lync Server 2013 admite IPv6 para las siguientes características:
 
   - **Chat persistente**
     
-    Para configurar IPv6 para la conversación persistente, use el generador de topología. Para obtener más información sobre cómo configurar una conversación persistente, consulte la documentación de implementación del servidor de chat persistente.
+    Configure IPv6 para chat persistente mediante el generador de topologías. Para obtener más información sobre cómo configurar chat persistente, consulte la documentación de implementación del servidor de chat persistente.
 
-  - **Informes de Calidad de la experiencia (QoE) y registro detallado de llamadas (CDR)**
+  - **Informes de Calidad de la experiencia (QoE) y registro de detalles de llamadas (CDR)**
     
     Los informes de supervisión incluyen la dirección IP cuando se guarda en la base de datos del servidor de supervisión, tanto del tipo IPv4 como IPv6.
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183793
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5117b7a17d607ec995df371fd0cd80fd7c05aeab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1782dbc22b94ed492878c545df70fa1bdaaeeeb3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738000"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038452"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="address-book-server-cmdlets-in-lync-server-2013"></a>Cmdlets del servidor de la libreta de direcciones en Lync Server 2013
+# <a name="address-book-server-cmdlets-in-lync-server-2013"></a>Cmdlets del servidor de libreta de direcciones en Lync Server 2013
 
 </div>
 
@@ -37,47 +37,47 @@ ms.locfileid: "41738000"
 
 _**Última modificación del tema:** 2012-06-26_
 
-Los servidores de la libreta de direcciones son intermediarios entre los servicios de dominio de Active Directory y Microsoft Lync Server 2013. El servidor de la libreta de direcciones garantiza que la información del usuario almacenada en Lync Server 2013 está sincronizada con la información de usuario almacenada en Active Directory. Esto se realiza mediante la sincronización periódica de archivos de libreta de direcciones con información almacenada en la base de datos de usuario. A su vez, Lync Server incluye varios cmdlets para administrar servidores de libreta de direcciones.
+Los servidores de la libreta de direcciones son intermediarios entre los servicios de dominio de Active Directory y Microsoft Lync Server 2013. El servidor de libreta de direcciones garantiza que la información de usuario almacenada en Lync Server 2013 está sincronizada con la información de usuario almacenada en Active Directory. Con este fin, sincroniza periódicamente los archivos de libreta de direcciones con la información almacenada en la base de datos de usuarios. A su vez, Lync Server incluye una serie de cmdlets para administrar los servidores de la libreta de direcciones.
 
 <div>
 
-## <a name="address-book-server-cmdlets"></a>Cmdlets del servidor de la libreta de direcciones
+## <a name="address-book-server-cmdlets"></a>Address Book Server Cmdlets
 
-No puede configurar la configuración del servidor de la libreta de direcciones en el panel de control de Lync Server. Windows PowerShell es la herramienta principal para administrar esta configuración. A continuación se muestra una lista de cmdlets que se relacionan directamente con la administración del servidor de la libreta de direcciones:
+No puede configurar la configuración del servidor de la libreta de direcciones en el panel de control de Lync Server. Windows PowerShell es la herramienta principal para administrar esta configuración. A continuación se presenta una lista de cmdlets directamente relacionados con el servidor de libreta de direcciones:
 
 **Servidor de libreta de direcciones**
 
   - <span></span>  
-    [Get-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg398132(v=OCS.15))
+    [Get-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398132(v=OCS.15))
 
   - <span></span>  
-    [Nuevo: CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg398395(v=OCS.15))
+    [New-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398395(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg398934(v=OCS.15))
+    [Remove-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg412784(v=OCS.15))
+    [Set-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg412784(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Update-CsAddressBook](https://technet.microsoft.com/en-us/library/Gg398194(v=OCS.15))
+    [Update-CsAddressBook](https://technet.microsoft.com/library/Gg398194(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Debug-CsAddressBookReplication](https://technet.microsoft.com/en-us/library/JJ205232(v=OCS.15))
+    [Debug-CsAddressBookReplication](https://technet.microsoft.com/library/JJ205232(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Prueba-CsAddressBookService](https://technet.microsoft.com/en-us/library/Gg398661(v=OCS.15))
+    [Test-CsAddressBookService](https://technet.microsoft.com/library/Gg398661(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsAddressBookWebQuery](https://technet.microsoft.com/en-us/library/Gg398773(v=OCS.15))
+    [Test-CsAddressBookWebQuery](https://technet.microsoft.com/library/Gg398773(v=OCS.15))
 
 </div>
 

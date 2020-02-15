@@ -12,16 +12,16 @@ ms:contentKeyID: 63969666
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d63aff308b23e52284988a184e5e9d72beaca26
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc14c72f614e6e062afc089236182def0d86e634
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728680"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041059"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41728680"
 
 _**Última modificación del tema:** 2015-01-26_
 
-Para garantizar la disponibilidad y confiabilidad de la implementación de Lync Server 2013, debe formar parte de los elementos de prueba y de supervisión diaria de rutinas que son muy importantes para el funcionamiento del sistema, lo que incluye la plataforma física, el sistema operativo y todos los servicios importantes de Lync Server 2013. El mantenimiento preventivo y la supervisión proactiva le ayudarán a identificar posibles errores y problemas que puedan afectar negativamente a la implementación de Lync Server 2013.
+Para ayudar a garantizar la disponibilidad y confiabilidad de la implementación de Lync Server 2013, debe formar parte de los elementos de prueba y de supervisión de rutina diaria que son muy importantes para el funcionamiento del sistema, que incluye la plataforma física, el sistema operativo y todos los servicios importantes de Lync Server 2013. El mantenimiento preventivo y la supervisión proactiva le ayudarán a identificar posibles errores y problemas que puedan afectar negativamente a la implementación de Lync Server 2013.
 
-La supervisión de la implementación de Lync Server 2013 implica comprobar si hay problemas con las conexiones, los servicios, los recursos del servidor y los recursos del sistema. Los sistemas operativos de Windows Server, junto con System Center Operations Manager, y Lync Server le ofrecen muchas herramientas y servicios de supervisión para ayudarle a garantizar que la organización de Lync Server funcione sin problemas. Cuando estas tecnologías se implementan juntas, los administradores pueden recibir alertas antes de que se produzca una incidencia.
+La supervisión de la implementación de Lync Server 2013 implica la comprobación de problemas con conexiones, servicios, recursos del servidor y recursos del sistema. Los sistemas operativos Windows Server, junto con System Center Operations Manager, y Lync Server le proporcionan muchas herramientas y servicios de supervisión para ayudarle a garantizar que la organización de Lync Server funciona sin problemas. Cuando se implementan estas tecnologías juntas, los administradores podrán recibir alertas cuando se produzcan problemas o antes de que ocurran.
 
 Las ventajas principales de la supervisión diaria son las siguientes:
 
-  - Cumplimiento de los requisitos de rendimiento y disponibilidad de los contratos de nivel de servicio definidos.
+  - Cumplimiento de los requisitos de rendimiento y disponibilidad de los SLAs definidos.
 
-  - Correcta realización de tareas administrativas específicas, como las tareas diarias de copia de seguridad y la comprobación del estado de los servidores.
+  - Completar correctamente tareas administrativas específicas, como operaciones de copia de seguridad diarias, y comprobar el estado del servidor.
 
-  - Detección y resolución de incidencias tales como cuellos de botella en el rendimiento del servidor, o determinación de la necesidad de contar con recursos adicionales antes de que la productividad se vea afectada.
+  - Detección y solución de problemas, como cuellos de botella en el rendimiento del servidor o necesidad de recursos adicionales antes de que afecten a la productividad.
 
-Las tareas de mantenimiento diarias ayudan al equipo de administración a definir o establecer unos criterios o bases para la operación normal de los sistemas dentro de la organización, y a detectar cualquier actividad anormal. Es importante implementar estas tareas de mantenimiento diario para que el equipo administrativo pueda capturar y mantener datos sobre la infraestructura de Lync Server 2013, por ejemplo, los niveles de uso, los posibles cuellos de botella de rendimiento y los cambios administrativos.
+Las tareas de mantenimiento diario ayudan al equipo administrativo a definir o establecer criterios o líneas de base para las operaciones normales de los sistemas dentro de la organización, así como para detectar cualquier actividad anormal. Es importante implementar estas tareas de mantenimiento diario para que el equipo administrativo pueda capturar y mantener datos sobre la infraestructura de Lync Server 2013, como los niveles de uso, posibles cuellos de botella de rendimiento y cambios administrativos.
 
-Para organizar más fácilmente las tareas de rendimiento diarias, use la [lista de comprobación de tareas diarias](lync-server-2013-operations-checklists.md).
+Para ayudar a organizar el rendimiento de las tareas diarias, use la [lista de comprobación de tareas diarias](lync-server-2013-operations-checklists.md).
 
 <div>
 

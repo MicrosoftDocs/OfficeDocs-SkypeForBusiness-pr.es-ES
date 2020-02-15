@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013; Crear rutas interregional de red
+title: Lync Server 2013; Crear rutas entre regiones de red
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3909c41328e18302ef1104ac05d9a7c7987f57d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2259f47608b09ad7cff54ee0dc9b6be57502ee10
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727390"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041139"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-network-interregion-routes-in-lync-server-2013"></a>Crear rutas interregional de red en Lync Server 2013
+# <a name="create-network-interregion-routes-in-lync-server-2013"></a>Crear rutas entre regiones de red en Lync Server 2013
 
 </div>
 
@@ -38,11 +38,11 @@ ms.locfileid: "41727390"
 
 _**Última modificación del tema:** 2012-10-20_
 
-Una *ruta interregión de red* define la ruta entre un par de regiones de red. Cada pareja de regiones de red en la implementación de control de admisión de llamadas requiere una ruta entre regiones de red. Esto permite que todas las regiones de red de la implementación obtengan acceso a cualquier otra región.
+Una *ruta entre regiones de red* define la ruta entre un par de regiones de red. Cada par de regiones de red de la implementación del servicio de control de admisión de llamadas precisa una ruta entre regiones de red. Esto permite que todas las regiones de red de la implementación obtengan acceso a cualquier otra región.
 
-Aunque los vínculos de región establecen limitaciones de ancho de banda en las conexiones entre regiones, una ruta interregion determina qué ruta de acceso vinculada atravesará la conexión de una región a otra.
+Mientras que los vínculos regionales establecen las limitaciones de ancho de banda de las conexiones entre regiones, una ruta entre regiones determina la ruta de acceso vinculada que atravesará la conexión de una región a otra.
 
-Para obtener más información sobre cómo trabajar con rutas entre regiones de red, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:
+Para obtener información detallada sobre cómo trabajar con rutas entre regiones de red, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:
 
   - [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
@@ -52,13 +52,13 @@ Para obtener más información sobre cómo trabajar con rutas entre regiones de 
 
   - [Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
 
-En la topología de ejemplo, las rutas interregións de red deben definirse para cada uno de los tres pares de regiones: Norteamérica/EMEA, EMEA/APAC y Norteamérica/APAC.
+En el ejemplo de topología, hay que definir rutas entre regiones de red para cada uno de los tres pares de regiones: Norteamérica/EMEA, EMEA/APAC y Norteamérica/APAC.
 
 <div>
 
-## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a>Para crear rutas interregional de red con el shell de administración de Lync Server
+## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a>Para crear rutas entre regiones de red mediante el shell de administración de Lync Server
 
-1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
 2.  Ejecute el cmdlet **New-CsNetworkInterRegionRoute** para definir las rutas necesarias. Por ejemplo, ejecute lo siguiente:
     
@@ -78,7 +78,7 @@ En la topología de ejemplo, las rutas interregións de red deben definirse para
     
 
     > [!NOTE]  
-    > La ruta interregional de la red de Norteamérica/APAC requiere dos vínculos de región de red porque no hay un vínculo de región de red directa entre ellos.
+    > La ruta entre regiones de red Norteamérica/APAC requiere dos vínculos de región de red debido a que no hay un vínculo de región de red directo entre ellas.
 
     
     </div>
@@ -87,9 +87,9 @@ En la topología de ejemplo, las rutas interregións de red deben definirse para
 
 <div>
 
-## <a name="to-create-network-interregion-routes-by-using-lync-server-control-panel"></a>Para crear rutas interregional de red con el panel de control de Lync Server
+## <a name="to-create-network-interregion-routes-by-using-lync-server-control-panel"></a>Para crear rutas entre regiones de red mediante el panel de control de Lync Server
 
-1.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 2.  En la barra de navegación izquierda, haga clic en **Configuración de red**.
 
@@ -97,26 +97,26 @@ En la topología de ejemplo, las rutas interregións de red deben definirse para
 
 4.  Haga clic en **Nuevo**.
 
-5.  En la página **nueva ruta** de la región, haga clic en **nombre** y, a continuación, escriba un nombre para la ruta interregión de red.
+5.  En la página **Nueva ruta regional**, haga clic en **Nombre** y escriba un nombre para la ruta entre regiones de red.
 
-6.  Haga clic en **región \#de red 1**y, a continuación, haga clic en una región de red de la lista \#que quiera enrutar a la región de red 2.
+6.  Haga clic en **región \#de red 1**y, a continuación, haga clic en una región de red de la lista \#que desee enrutar a la región de red 2.
 
-7.  Haga clic en **región \#de red 2**y, a continuación, haga clic en una región de red en la lista \#que quiera enrutar a la región de red 1.
+7.  Haga clic en **región \#de red 2**y, a continuación, haga clic en una región de red de la lista \#que desee enrutar a la región de red 1.
 
-8.  Haga clic en **Agregar** junto al campo **vínculos de región de red** y, a continuación, agregue un vínculo región de red que se usará en la ruta interregión de red.
+8.  Haga clic en **Agregar** junto al campo **Vínculos de región de red** y luego agregue un vínculo de región de red que se usará en la ruta entre regiones de red.
     
     <div class=" ">
     
 
     > [!NOTE]  
-    > Si está creando una ruta para dos regiones de red que no tengan ningún vínculo de región de red directo entre ellas, tendrá que agregar todos los vínculos necesarios para completar la ruta. Por ejemplo, la ruta interregional de red de Norteamérica/APAC requiere dos vínculos de región de red porque no hay ningún vínculo de región de red directa entre ellos.
+    > Si está creando una ruta para dos regiones de red que no tengan ningún vínculo de región de red directo entre ellas, tendrá que agregar todos los vínculos necesarios para completar la ruta. Por ejemplo, la ruta entre regiones de red Norteamérica/APAC requiere dos vínculos de región de red, debido a que no hay un vínculo de región de red directo entre ellas.
 
     
     </div>
 
 9.  Haga clic en **Confirmar**.
 
-10. Para terminar de crear rutas interregional de red para su topología, repita los pasos 4 a 9 con la configuración de otras rutas interregional de red.
+10. Para finalizar la creación de rutas entre regiones de red de la topología, repita los pasos del 4 al 9 con la configuración para otras rutas entre regiones de red.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: realizar copias de seguridad y restaurar hojas de cálculo'
+title: 'Lync Server 2013: hojas de cálculo de copia de seguridad y restauración'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541460
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 390d6289daf8075c873e90319642f0e74b61d835
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7f767a2c94e797ab43e3b5ace6b553b05bafd81f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730370"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041229"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-worksheets-for-lync-server-2013"></a>Copias de seguridad y restauración de hojas de cálculo para Lync Server 2013
+# <a name="backup-and-restoration-worksheets-for-lync-server-2013"></a>Hojas de cálculo de copia de seguridad y restauración para Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41730370"
 
 _**Última modificación del tema:** 2013-02-18_
 
-El plan de copia de seguridad y restauración de la organización debe contener detalles sobre cómo y cuándo se realiza la copia de seguridad de los datos y la configuración. Puede usar las hojas de cálculo que se presentan aquí para ayudarle a documentar esta información para su implementación específica y los requisitos de copia de seguridad y restauración de su organización.
+El plan de copia de seguridad y restauración de la organización debe contener detalles sobre cómo y cuándo se realiza la copia de seguridad de los datos y la configuración. Puede usar las hojas de cálculo que se presentan aquí para ayudarle a documentar esta información para su implementación específica y para los requisitos de restauración y copia de seguridad de su organización.
 
-Use las siguientes hojas de cálculo para registrar la información que necesita para realizar copias de seguridad y restaurar la información de la base de datos, el almacén de archivos y la configuración de un grupo de servidores de Lync o un servidor Standard Edition. Mantenga una o más copias de estas hojas de cálculo en un lugar seguro para que sean accesibles si necesita restaurar Lync Server.
+Use las siguientes hojas de trabajo para registrar la información necesaria para realizar copias de seguridad y restaurar la información de configuración de la base de datos, el almacén de archivos y la configuración de un grupo de servidores de Lync Server o un servidor Standard Edition. Conserve una o más copias de estas hojas de cálculo en una ubicación segura para que sean accesibles fácilmente si necesita restaurar Lync Server.
 
 <div>
 
 
 > [!NOTE]  
-> Las hojas de cálculo de esta sección cubren solo la información necesaria para restaurar los datos y la configuración de las bases de datos y los servidores de Lync Server. Si necesita documentar otra información de restauración, como la información para reinstalar sistemas operativos y otro software, use los planes de implementación de su organización y los planes de copia de seguridad y restauración para cumplir esos requisitos.
+> Las hojas de cálculo de esta sección cubren solo la información necesaria para restaurar los datos y la configuración de las bases de datos y los servidores de Lync Server. Si necesita documentar otra información de restauración, como la información para volver a instalar sistemas operativos y otro software, use los planes de implementación de su organización y los planes de copia de seguridad y restauración para cumplir dichos requisitos.
 
 
 
@@ -53,11 +53,11 @@ Use las siguientes hojas de cálculo para registrar la información que necesita
 
 <div>
 
-## <a name="database-backup-and-restoration-worksheet"></a>Hoja de cálculo de copia de seguridad y restauración
+## <a name="database-backup-and-restoration-worksheet"></a>Hoja de copia de seguridad y restauración de base de datos
 
-Use la tabla siguiente para registrar la información que necesita para realizar copias de seguridad y restaurar las bases de datos de Lync Server.
+Use la tabla siguiente para registrar la información necesaria para realizar una copia de seguridad de las bases de datos de Lync Server y restaurarlas.
 
-### <a name="database-information-for-backup-and-restoration"></a>Información de la base de datos para copia de seguridad y restauración
+### <a name="database-information-for-backup-and-restoration"></a>Información de base de datos para copia de seguridad y restauración
 
 <table style="width:100%;">
 <colgroup>
@@ -71,7 +71,7 @@ Use la tabla siguiente para registrar la información que necesita para realizar
 </colgroup>
 <thead>
 <tr class="header">
-<th>Database</th>
+<th>Base de datos</th>
 <th>Nombre del servidor (FQDN)</th>
 <th>Programación de copia de seguridad</th>
 <th>Herramienta copia de seguridad de base de datos</th>
@@ -85,40 +85,40 @@ Use la tabla siguiente para registrar la información que necesita para realizar
 <td><p>Base de datos RTC en el servidor back-end para datos de usuario</p></td>
 <td><p>                    </p></td>
 <td><p>                    </p></td>
-<td><p>Cmdlet <strong>Export-CsUserData</strong></p></td>
+<td><p><strong>Export-CsUserData</strong> cmdlet</p></td>
 <td><p>Denomina</p>
-<p>Currido</p>
+<p>Expiración</p>
 <p>                   </p></td>
 <td><p>                    </p></td>
 <td><p>                    </p></td>
 </tr>
 <tr class="even">
-<td><p>LcsLog (nombre predeterminado) base de datos en el servidor de base de datos de archivado</p></td>
+<td><p>Base de datos de LcsLog (nombre predeterminado) en el servidor de base de datos de archivado</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>Herramienta de administración de SQL Server</p></td>
 <td><p>Denomina</p>
-<p>Currido</p></td>
+<p>Expiración</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p>Base de datos de LcsCdr al supervisar el servidor de base de datos para registros de detalles de llamadas (CDRs)</p></td>
+<td><p>Base de datos de LcsCdr en servidor de base de datos de supervisión para registros de detalles de llamadas (CDR)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>Herramienta de administración de SQL Server</p></td>
 <td><p>Denomina</p>
-<p>Currido</p></td>
+<p>Expiración</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p>QoEMetrics base de datos de supervisión del servidor de base de datos para los datos de la calidad de la experiencia (QoE)</p></td>
+<td><p>Base de datos de QoEMetrics en el servidor de base de datos de supervisión para datos de calidad de la experiencia (QoE)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>Herramienta de administración de SQL Server</p></td>
 <td><p>Denomina</p>
-<p>Currido</p></td>
+<p>Expiración</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
@@ -128,7 +128,7 @@ Use la tabla siguiente para registrar la información que necesita para realizar
 <td></td>
 <td><p>Herramienta de administración de SQL Server o cmdlet <strong>Export-CsPersistentChatData</strong></p></td>
 <td><p>Denomina</p>
-<p>Currido</p></td>
+<p>Expiración</p></td>
 <td></td>
 <td></td>
 </tr>
@@ -136,17 +136,17 @@ Use la tabla siguiente para registrar la información que necesita para realizar
 </table>
 
 
-No es necesario realizar copias de seguridad ni restauración de las siguientes bases de datos:
+No es necesaria ninguna copia de seguridad ni restauración de las siguientes bases de datos:
 
-  - Rtcdyn. Los datos de usuario transitorios de esta base de datos no son necesarios para la restauración de servicio.
+  - RTCDyn. Los datos de usuario transitorios de esta base de datos no son necesarios para la restauración del servicio.
 
-  - Rtcab. La base de datos de la libreta de direcciones se vuelve a crear automáticamente desde la lista global de direcciones (GAL) en los servicios de dominio de Active Directory.
+  - Rtcab. La base de datos de la libreta de direcciones se vuelve a crear automáticamente a partir de la lista global de direcciones (GAL) de los servicios de dominio de Active Directory.
 
-  - Rgsdyn. Los datos transitorios del servicio de grupo de respuesta de esta base de datos no son necesarios para la restauración de servicio.
+  - Rgsdyn. Los datos transitorios del servicio de grupo de respuesta de esta base de datos no son necesarios para la restauración del servicio.
 
-  - Cpsdyn. La información dinámica para la aplicación de estacionamiento de llamadas no es necesaria para la restauración del servicio.
+  - Cpsdyn. La información dinámica para la aplicación estacionamiento de llamadas no es necesaria para la restauración del servicio.
 
-  - MgcComp. La base de datos de cumplimiento de la conversación persistente no es necesaria para la restauración de servicio.
+  - MgcComp. La base de datos de cumplimiento de chat persistente no es necesaria para la restauración del servicio.
 
 </div>
 
@@ -154,9 +154,9 @@ No es necesario realizar copias de seguridad ni restauración de las siguientes 
 
 ## <a name="file-store-backup-and-restoration-worksheet"></a>Hoja de cálculo de copia de seguridad y restauración del almacén de archivos
 
-Use la tabla siguiente para registrar la información que necesita para hacer una copia de seguridad de los almacenes de archivos y restaurarlos. Los almacenes de archivos contienen datos como metadatos de contenido de la reunión, registros de cumplimiento de actualizaciones, registros de actualización de dispositivos y archivos de audio para el grupo de respuesta, las llamadas de estacionamiento y las aplicaciones de anuncios.
+Use la tabla siguiente para registrar la información necesaria para realizar una copia de seguridad de los almacenes de archivos y restaurarlos. Los almacenes de archivos contienen datos como los metadatos de contenido de reuniones, los registros de cumplimiento de actualizaciones, los registros de actualización de dispositivos y los archivos de audio para el grupo de respuesta, estacionamiento de llamadas y aplicaciones de anuncio.
 
-### <a name="file-store-information-for-backup-and-restoration"></a>Información del almacén de archivos para copia de seguridad y restauración
+### <a name="file-store-information-for-backup-and-restoration"></a>Información del almacén de archivos para la copia de seguridad y restauración
 
 <table style="width:100%;">
 <colgroup>
@@ -174,7 +174,7 @@ Use la tabla siguiente para registrar la información que necesita para hacer un
 <th>Nombre del servidor (FQDN)</th>
 <th>Programación de copia de seguridad</th>
 <th>Herramienta de copia de seguridad del sistema de archivos</th>
-<th>Compartir archivos para realizar una copia de seguridad *</th>
+<th>Copia de seguridad del recurso compartido de archivos *</th>
 <th>Destino de copia de seguridad</th>
 <th>Notas</th>
 </tr>
@@ -185,9 +185,9 @@ Use la tabla siguiente para registrar la información que necesita para hacer un
 <td></td>
 <td></td>
 <td><p>Herramienta de copia de seguridad estándar, como Robocopy</p></td>
-<td><p>Servidor de archivos para Enterprise Edition. En Standard Edition de forma predeterminada, para la implementación de Standard Edition. Normalmente, uno por sitio.</p></td>
+<td><p>Servidor de archivos para Enterprise Edition. De forma predeterminada en Standard Edition, para la implementación de Standard Edition. Normalmente, una por sitio.</p></td>
 <td></td>
-<td><p>No se debe realizar una copia de seguridad de los archivos llamados <strong>Meeting. Active</strong> . Estos archivos están en uso y se bloquean durante la reunión.</p></td>
+<td><p>No se deben hacer copias de seguridad de los archivos con el nombre <strong>Meeting.Active</strong>. Estos archivos están en uso y se bloquean mientras se realiza una reunión.</p></td>
 </tr>
 </tbody>
 </table>
@@ -197,11 +197,11 @@ Use la tabla siguiente para registrar la información que necesita para hacer un
 
 <div>
 
-## <a name="settings-backup-and-restoration-worksheet"></a>Hoja de cálculo de copia de seguridad y restauración
+## <a name="settings-backup-and-restoration-worksheet"></a>Hoja de cálculo de copia de seguridad y restauración de configuración
 
-Use la tabla siguiente para registrar la información que necesita para realizar copias de seguridad y restaurar la configuración.
+Use la tabla siguiente para registrar la información necesaria para realizar una copia de seguridad de la configuración y restaurarla.
 
-### <a name="settings-information-for-backup-and-restoration"></a>Información de configuración de copia de seguridad y restauración
+### <a name="settings-information-for-backup-and-restoration"></a>Información de configuración para copia de seguridad y restauración
 
 <table style="width:100%;">
 <colgroup>
@@ -215,7 +215,7 @@ Use la tabla siguiente para registrar la información que necesita para realizar
 </colgroup>
 <thead>
 <tr class="header">
-<th>Database</th>
+<th>Base de datos</th>
 <th>Nombre del servidor (FQDN)</th>
 <th>Programación de copia de seguridad</th>
 <th>Herramienta de copia de seguridad</th>
@@ -226,28 +226,28 @@ Use la tabla siguiente para registrar la información que necesita para realizar
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Base de datos XDS en el almacén de administración central para configuración de topología (global)</p></td>
+<td><p>Base de datos XDS en el almacén de administración central para la configuración de la topología (global)</p></td>
 <td><p>                    </p></td>
 <td><p>                    </p></td>
-<td><p>Cmdlet <strong>Export-CsConfiguration</strong></p></td>
+<td><p><strong>Export-CsConfiguration</strong> cmdlet</p></td>
 <td><p>                   </p></td>
 <td><p>                    </p></td>
 <td><p>                   </p></td>
 </tr>
 <tr class="even">
-<td><p>Base de datos de lis en el almacén central de administración para información de la ubicación E9-1-1 (global)</p></td>
+<td><p>Base de datos de lis en el almacén de administración central para información de ubicación E9-1-1 (global)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
-<td><p>Cmdlet <strong>Export-CsLisConfiguration</strong></p></td>
+<td><p><strong>Export-CsLisConfiguration</strong> cmdlet</p></td>
 <td></td>
 <td><p> </p></td>
 <td><p>                    </p></td>
 </tr>
 <tr class="odd">
-<td><p>Base de datos RgsConfig en el servidor back-end para la configuración de grupo de respuesta (grupo)</p></td>
+<td><p>Base de datos de RgsConfig en el servidor back-end para la configuración del grupo de respuesta (grupo)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
-<td><p>Cmdlet <strong>Export-CsRgsConfiguration</strong></p></td>
+<td><p><strong>Export-CsRgsConfiguration</strong> cmdlet</p></td>
 <td></td>
 <td><p> </p></td>
 <td><p>                    </p></td>

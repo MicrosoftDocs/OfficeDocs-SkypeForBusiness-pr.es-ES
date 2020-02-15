@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: nuevo-ClientPolicy para la administración de libretas de direcciones'
+title: 'Lync Server 2013: New-CsClientPolicy para la administración de la libreta de direcciones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185771
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f68f6cfa2fde4d1e5a2bc58a36478a60060dd5e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f84ef03f782263ed9f82b1667418c907087f5d5c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765761"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051398"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>Nuevo: ClientPolicy para la administración de libretas de direcciones en Lync Server 2013
+# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>New-CsClientPolicy para la administración de la libreta de direcciones en Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41765761"
 
 _**Última modificación del tema:** 2012-11-01_
 
-¿Quién puede ejecutar este cmdlet? de forma predeterminada, los miembros de los siguientes grupos tienen autorización para ejecutar el cmdlet New-ClientPolicy: RTCUniversalServerAdmins. Para devolver una lista de todas las funciones de control de acceso basado en roles (RBAC) a las que se ha asignado este cmdlet (incluidos los roles RBAC que haya creado usted mismo), ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:
+Quién puede ejecutar este cmdlet: Generalmente, los miembros de los siguientes grupos tienen autorización para ejecutar el cmdlet New-CsClientPolicy: RTCUniversalServerAdmins. Para devolver una lista de todos los roles de control de acceso basado en roles (RBAC) a los que se asignó este cmdlet (incluido cualquier otro rol RBAC personalizado que usted mismo haya creado), inicie el siguiente comando en el símbolo del sistema de Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsClientPolicy"}
 
-El cmdlet New-ClientPolicy define un gran número de opciones para aprovisionar los clientes de las características que están disponibles en Lync Server 2013. Para el servicio de libreta de direcciones, el parámetro AddressBookAvailability es de interés. Este parámetro, que afecta directamente a las opciones disponibles para los clientes, tiene tres opciones posibles:
+El cmdlet New-CsClientPolicy define un gran número de opciones de configuración para aprovisionar clientes para las características que están disponibles en Lync Server 2013. El parámetro AddressBookAvailability es relevante para el servicio de Libreta de direcciones. Este parámetro, que repercute directamente en las opciones disponibles para los clientes, presenta tres opciones:
 
   - WebSearchAndFileDownload
 
@@ -49,7 +49,7 @@ El cmdlet New-ClientPolicy define un gran número de opciones para aprovisionar 
 
   - FileDownloadOnly
 
-Cuando se define, determina cómo se obtiene acceso a la libreta de direcciones por parte de los clientes. Si define este parámetro, debe definir una de las opciones. Si no modifica esta configuración, el WebSearchAndFileDownload predeterminado permanece en vigor.
+Cuando se define, determina cómo acceden los clientes a la Libreta de direcciones. Si define este parámetro, defina una de las opciones. Si no modifica esta configuración, permanecerá en vigor la opción predeterminada, WebSearchAndFileDownload.
 
 Por ejemplo:
 

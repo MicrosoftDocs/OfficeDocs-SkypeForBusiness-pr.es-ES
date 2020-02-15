@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Agregar dominios de usuarios y grupos de usuarios a la categoría de salón'
+title: 'Lync Server 2013: agregar dominios de usuarios y grupos de usuarios a la categoría de salón'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48706013
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f9fbbc7ad4fd5279cea1116607193817078a04e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 505702a656fd838fa9ba23b65487ff57963abb30
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738150"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038552"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41738150"
 
 _**Última modificación del tema:** 2014-02-07_
 
-Para agregar grupos de usuarios más grandes a un salón de chat, vea [configurar categorías en Lync Server 2013](lync-server-2013-configure-categories.md) y [administrar categorías](manage-categories.md) en la documentación de implementación. Por ejemplo, este comando agrega todos los usuarios de la uo NorthAmericaUsers en Active Directory al salón de chat de Norteamérica:
+Para agregar grupos de usuarios más grandes a un salón de chat, vea [Configure Categories in Lync Server 2013](lync-server-2013-configure-categories.md) y [Manage Categories](manage-categories.md) en la documentación sobre implementación. Por ejemplo, este comando agrega todos los usuarios de la unidad organizativa NorthAmericaUsers en Active Directory al salón de chat Norteamérica:
 
     Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.litwareinc.com\NorthAmerica" -Members @{Add="OU=NorthAmericaUsers,DC=litwareinc,DC=com"}
 

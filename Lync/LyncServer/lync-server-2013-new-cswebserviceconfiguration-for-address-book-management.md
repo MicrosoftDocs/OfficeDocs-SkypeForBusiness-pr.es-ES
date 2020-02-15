@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: nuevo-CsWebServiceConfiguration para la administración de libretas de direcciones'
+title: 'Lync Server 2013: New-CsWebServiceConfiguration para la administración de la libreta de direcciones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184067
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 434c9a7c4ded9516cd930bbaa9bba72873b15a4f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ccc4eafd9fd7db6173b14c17b44218c122ad01b8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738780"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051388"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Nuevo: CsWebServiceConfiguration para la administración de libretas de direcciones en Lync Server 2013
+# <a name="new-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>New-CsWebServiceConfiguration para la administración de la libreta de direcciones en Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41738780"
 
 _**Última modificación del tema:** 2012-11-01_
 
-¿Quién puede ejecutar este cmdlet? de forma predeterminada, los miembros de los siguientes grupos tienen autorización para ejecutar el cmdlet New-CsWebServiceConfiguration de forma local: RTCUniversalServerAdmins. Para devolver una lista de todas las funciones de control de acceso basado en roles (RBAC) a las que se ha asignado este cmdlet (incluidos los roles RBAC que haya creado usted mismo), ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:
+Quién puede ejecutar este cmdlet: De forma predeterminada, los miembros de los siguientes grupos tienen autorización para ejecutar el cmdlet New-CsWebServiceConfiguration localmente: RTCUniversalServerAdmins. Para devolver una lista de todos los roles de control de acceso basado en roles (RBAC) a los que se ha asignado este cmdlet (incluido cualquier otro rol RBAC personalizado que usted mismo haya creado), ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsWebServiceConfiguration"}
 
-El cmdlet New-CsWebServiceConfiguration define una nueva configuración para los servicios Web de su organización. El ámbito de la configuración de los servicios web solo puede encontrarse en el nivel de sitio o de servicio. No puede crear una nueva configuración de servicios web en el nivel global. Específicamente de interés para la libreta de direcciones es el atributo EnableGroupExansion. Si se establece en true, los servicios Web pueden responder a las solicitudes de expansión de grupo.
+El cmdlet New-CsWebServiceConfiguration define una nueva configuración de los servicios web de su organización. El ámbito de la configuración de los servicios web solo puede ser de nivel de sitio o de nivel de servicio. No puede crear una configuración de servicios web de nivel global. El atributo EnableGroupExansion resulta de especial interés para la libreta de direcciones. Si se establece en True, los servicios web pueden responder a solicitudes de expansión de grupo.
 
 Por ejemplo:
 

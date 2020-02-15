@@ -1,5 +1,5 @@
 ---
-title: (Opcional) Habilitar y deshabilitar los anuncios de participación y abandono de conferencias
+title: Opcional Habilitar y deshabilitar la Unión de conferencia y dejar anuncios
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b8e75a0d2ed81a515540f2a8a1811998a85d44c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6b18dadbb4b7dc5a35f8688c46f2836b46cb55a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755754"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051152"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>(Opcional) Habilitar y deshabilitar los anuncios de participación y abandono de conferencias en Lync Server 2013
+# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>Opcional Habilitar y deshabilitar la Unión a Conferencia y dejar anuncios en Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41755754"
 
 _**Última modificación del tema:** 2012-09-30_
 
-Cuando los usuarios de acceso telefónico se unen o salen de una conferencia, la aplicación de anuncio de conferencia puede anunciar su entrada o salida reproduciendo un tono o diciendo sus nombres. Puede cambiar la forma en que funcionan los anuncios ejecutando cmdlets. Este paso es opcional.
+Cuando los usuarios de acceso telefónico local se unen a una conferencia o la abandonan, la aplicación de anuncio de conferencia puede anunciar su entrada o salida reproduciendo un tono o diciendo sus nombres. Puede cambiar el funcionamiento de los anuncios ejecutando cmdlets. Este paso es opcional.
 
 <div>
 
 ## <a name="to-modify-the-conference-join-and-leave-announcement-behavior"></a>Para modificar el comportamiento de los anuncios al unirse y abandonar conferencias
 
-1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol **CS-ServerAdministrator** o **CsAdministrator** .
+1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol **Cs-ServerAdministrator** o **CsAdministrator**.
 
-2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
 3.  Ejecute los siguientes comandos en símbolo del sistema:
     
         Get-CsDialinConferencingConfiguration
     
-    Este cmdlet recupera información sobre si los participantes deben grabar su nombre al unirse a una conferencia y cómo responde Lync Server cuando los participantes se unen o salen de la Conferencia de acceso telefónico local.
+    Este cmdlet recupera información sobre si los participantes deben grabar su nombre al unirse a una conferencia y cómo responde Lync Server cuando los participantes se unen a una conferencia de acceso telefónico local o la abandonan.
 
 4.  Ejecute los siguientes comandos en símbolo del sistema:
     
@@ -60,11 +60,11 @@ Cuando los usuarios de acceso telefónico se unen o salen de una conferencia, la
         [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
         [-EntryExitAnnouncementsType <UseNames | ToneOnly]
     
-    **EnableNameRecording**   determina si se pide a los participantes anónimos que registren su nombre antes de entrar en la Conferencia. El valor predeterminado es "$true," lo que significa que se pide a los participantes anónimos que indiquen su nombre cuando se unen a una conferencia. (Los participantes autenticados no graban su nombre porque se usa el nombre para mostrar).
+    **EnableNameRecording**   determina si se pide a los participantes anónimos que registren su nombre antes de entrar en la Conferencia. El valor predeterminado es "$true," lo que significa que se pide a los participantes anónimos que indiquen su nombre cuando se unan a una conferencia. (Los participantes autenticados no graban su nombre porque se usa el nombre para mostrar).
     
     **EntryExitAnnouncementsEnabledByDefault**   indica si los anuncios están activados o desactivados de forma predeterminada. El valor predeterminado es "$false," lo que significa que no hay anuncios de forma predeterminada cuando los participantes se unen a una conferencia o la abandonan. El organizador de la reunión puede invalidar esta opción cuando programa una reunión.
     
-    **EntryExitAnnouncementsType**   indica la acción que se realiza cuando un participante se une a una conferencia o sale de ella para la cual se han habilitado los anuncios. El valor predeterminado es "UseNames," lo que significa que hay un anuncio parecido al siguiente: "Ken Myer se ha unido a la conferencia" cuando los anuncios están activados.
+    **EntryExitAnnouncementsType**   indica la acción que se realiza siempre que un participante se une a una conferencia en la que los anuncios están habilitados o sale de la misma. El valor predeterminado es "UseNames," lo que significa que hay un anuncio parecido al siguiente: "Ken Myer se ha unido a la conferencia" cuando los anuncios están activados.
     
     Puede configurar estas opciones en el ámbito global o en el ámbito del sitio. Las opciones configuradas en el ámbito del sitio tienen precedencia sobre las opciones configuradas en el ámbito global.
     
@@ -75,7 +75,7 @@ Cuando los usuarios de acceso telefónico se unen o salen de una conferencia, la
         -EntryExitAnnouncementsEnabledByDefault $true
         -EntryExitAnnouncementsType ToneOnly
     
-    En este ejemplo, la configuración se establece en el ámbito del sitio de Redmond. Los anuncios están activados, pero no se pide a los participantes que digan su nombre cuando se unen a una conferencia. Un tono se reproduce cuando los participantes entran o salen de una conferencia.
+    En este ejemplo, las opciones están configuradas en el ámbito del sitio de Redmond. Los anuncios están activados, pero no se pide a los participantes que digan su nombre cuando se unen a una conferencia. Suena un tono cuando los participantes se unen a una conferencia o la abandonan.
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183973
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2e1f5339f2c47a611fa29d9511d4d73148afcda
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88343e0e430f28e7661c18072bad799c46d84f3f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758712"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037640"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,84 +37,84 @@ ms.locfileid: "41758712"
 
 _**Última modificación del tema:** 2012-06-20_
 
-Se introdujeron cmdlets de movilidad para administrar la característica de movilidad agregada en la actualización acumulativa para Lync Server 2010:2011 de noviembre. Use estos cmdlets para administrar la configuración de las características de movilidad, como las directivas de usuario y la configuración del servicio de movilidad.
+Los cmdlets de movilidad se introdujeron para administrar la característica de movilidad agregada en la actualización acumulativa para Lync Server 2010:2011 de noviembre de. Use estos cmdlets para administrar los parámetros de características de movilidad como la configuración y las directivas de usuario del servicio de movilidad.
 
 <div>
 
 ## <a name="mobility-cmdlets"></a>Cmdlets de movilidad
 
-Los cmdlets que configuran las características de movilidad le permiten ejecutar comandos desde el shell de administración de Lync Server o escribir scripts para configurar y probar diversas configuraciones de movilidad.
+Los cmdlets que configuran las características de movilidad le permiten ejecutar comandos desde el shell de administración de Lync Server o escribir scripts para configurar y probar varias configuraciones de movilidad.
 
   - <span></span>  
-    [Get-CsAutodiscoverConfiguration](https://technet.microsoft.com/en-us/library/Hh690014(v=OCS.15))
+    [Get-CsAutodiscoverConfiguration](https://technet.microsoft.com/library/Hh690014(v=OCS.15))
 
   - <span></span>  
-    [New-CsAutodiscoverConfiguration](https://technet.microsoft.com/en-us/library/Hh690022(v=OCS.15))
+    [New-CsAutodiscoverConfiguration](https://technet.microsoft.com/library/Hh690022(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsAutodiscoverConfiguration](https://technet.microsoft.com/en-us/library/Hh690054(v=OCS.15))
+    [Remove-CsAutodiscoverConfiguration](https://technet.microsoft.com/library/Hh690054(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAutodiscoverConfiguration](https://technet.microsoft.com/en-us/library/Hh689980(v=OCS.15))
+    [Set-CsAutodiscoverConfiguration](https://technet.microsoft.com/library/Hh689980(v=OCS.15))
 
   - <span></span>  
-    [New-CsWebLink](https://technet.microsoft.com/en-us/library/Hh690053(v=OCS.15))
+    [New-CsWebLink](https://technet.microsoft.com/library/Hh690053(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsMcxConfiguration](https://technet.microsoft.com/en-us/library/Hh690031(v=OCS.15))
+    [Get-CsMcxConfiguration](https://technet.microsoft.com/library/Hh690031(v=OCS.15))
 
   - <span></span>  
-    [New-CsMcxConfiguration](https://technet.microsoft.com/en-us/library/Hh690035(v=OCS.15))
+    [New-CsMcxConfiguration](https://technet.microsoft.com/library/Hh690035(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsMcxConfiguration](https://technet.microsoft.com/en-us/library/Hh690026(v=OCS.15))
+    [Remove-CsMcxConfiguration](https://technet.microsoft.com/library/Hh690026(v=OCS.15))
 
   - <span></span>  
-    [Set-CsMcxConfiguration](https://technet.microsoft.com/en-us/library/Hh690050(v=OCS.15))
+    [Set-CsMcxConfiguration](https://technet.microsoft.com/library/Hh690050(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/Hh690017(v=OCS.15))
+    [Get-CsMobilityPolicy](https://technet.microsoft.com/library/Hh690017(v=OCS.15))
 
   - <span></span>  
-    [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/Hh690038(v=OCS.15))
+    [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/Hh690038(v=OCS.15))
 
   - <span></span>  
-    [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/Hh689987(v=OCS.15))
+    [New-CsMobilityPolicy](https://technet.microsoft.com/library/Hh689987(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/Hh690048(v=OCS.15))
+    [Remove-CsMobilityPolicy](https://technet.microsoft.com/library/Hh690048(v=OCS.15))
 
   - <span></span>  
-    [Set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/Hh690021(v=OCS.15))
+    [Set-CsMobilityPolicy](https://technet.microsoft.com/library/Hh690021(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsPushNotificationConfiguration](https://technet.microsoft.com/en-us/library/Hh690049(v=OCS.15))
+    [Get-CsPushNotificationConfiguration](https://technet.microsoft.com/library/Hh690049(v=OCS.15))
 
   - <span></span>  
-    [New-CsPushNotificationConfiguration](https://technet.microsoft.com/en-us/library/Hh690027(v=OCS.15))
+    [New-CsPushNotificationConfiguration](https://technet.microsoft.com/library/Hh690027(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsPushNotificationConfiguration](https://technet.microsoft.com/en-us/library/Hh690028(v=OCS.15))
+    [Remove-CsPushNotificationConfiguration](https://technet.microsoft.com/library/Hh690028(v=OCS.15))
 
   - <span></span>  
-    [Set-CsPushNotificationConfiguration](https://technet.microsoft.com/en-us/library/Hh690013(v=OCS.15))
+    [Set-CsPushNotificationConfiguration](https://technet.microsoft.com/library/Hh690013(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsMcxConference](https://technet.microsoft.com/en-us/library/Hh690045(v=OCS.15))
+    [Test-CsMcxConference](https://technet.microsoft.com/library/Hh690045(v=OCS.15))
 
   - <span></span>  
-    [Test-CsMcxP2PIM](https://technet.microsoft.com/en-us/library/Hh690020(v=OCS.15))
+    [Test-CsMcxP2PIM](https://technet.microsoft.com/library/Hh690020(v=OCS.15))
 
   - <span></span>  
-    [Test-CsMcxPushNotification](https://technet.microsoft.com/en-us/library/Hh690043(v=OCS.15))
+    [Test-CsMcxPushNotification](https://technet.microsoft.com/library/Hh690043(v=OCS.15))
 
 </div>
 

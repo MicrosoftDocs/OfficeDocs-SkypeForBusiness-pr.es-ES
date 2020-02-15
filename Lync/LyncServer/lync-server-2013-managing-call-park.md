@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: administración de estacionamiento de llamadas'
+title: 'Lync Server 2013: administración del estacionamiento de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1188f80c5dc8555b53f54e7a13c60f97817eaba2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f5d0a9b1141688ad5c524090999d6277eb8a733b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738809"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037530"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-call-park-in-lync-server-2013"></a>Administración del parque de llamadas en Lync Server 2013
+# <a name="managing-call-park-in-lync-server-2013"></a>Administración del estacionamiento de llamadas en Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41738809"
 
 _**Última modificación del tema:** 2012-09-10_
 
-La aplicación de estacionamiento de llamadas permite a un usuario de telefonía empresarial poner una llamada en espera desde un teléfono y, a continuación, recuperar la llamada más tarde desde cualquier teléfono. Cuando el usuario detiene una llamada, Lync Server transfiere la llamada a un número temporal, denominado *órbita*, en el que se retiene la llamada hasta que alguien la recupere o agote el tiempo de espera.
+La aplicación de estacionamiento de llamadas permite a los usuarios de Enterprise Voice poner una llamada en espera desde un teléfono y, después, recuperar la llamada más adelante desde cualquier teléfono. Cuando el usuario detiene una llamada, Lync Server la transfiere a un número temporal, denominado *órbita*, en el que se mantiene la llamada hasta que alguien la recupera o agota el tiempo de espera.
 
 Los temas de esta sección proporcionan procedimientos paso a paso para las tareas que puede realizar para personalizar y mantener la aplicación de estacionamiento de llamadas en su implementación.
 
@@ -45,9 +45,9 @@ Los temas de esta sección proporcionan procedimientos paso a paso para las tare
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Configurar extensiones de números de teléfono para llamadas de aparcamiento en Lync Server 2013](lync-server-2013-configure-phone-number-extensions-for-parking-calls.md)
+  - [Configurar extensiones de números de teléfono para las llamadas de estacionamiento en Lync Server 2013](lync-server-2013-configure-phone-number-extensions-for-parking-calls.md)
 
-  - [Configurar la configuración de estacionamiento de llamadas en Lync Server 2013](lync-server-2013-configure-call-park-settings.md)
+  - [Configurar las opciones del estacionamiento de llamadas en Lync Server 2013](lync-server-2013-configure-call-park-settings.md)
 
   - [Personalizar la música de estacionamiento de llamadas en espera en Lync Server 2013](lync-server-2013-customize-call-park-music-on-hold.md)
 

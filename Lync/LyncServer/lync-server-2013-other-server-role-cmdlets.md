@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: cmdlets de otros roles de servidor'
+title: 'Lync Server 2013: otros cmdlets de roles de servidor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa633bb9a1d5abcf34feb027b3fd364c5ad6b4cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 43a4c63851e45ea1763650d8e908427672bd7fbf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755654"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047344"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,23 +37,23 @@ ms.locfileid: "41755654"
 
 _**Última modificación del tema:** 2012-03-21_
 
-Estos cmdlets proporcionan formas de administrar roles de servidor "de un lado" (como el servidor de conferencia) que no se ajustan a las categorías de roles de servidor, como servidores perimetrales o servidores de libreta de direcciones.
+Estos cmdlets proporcionan formas de administrar roles de servidor excepcionales (por ejemplo, el servidor de conferencias) que no se inscriben en categorías de roles de servidor como los del servidor perimetral o de la libreta de direcciones.
 
 <div>
 
 ## <a name="other-server-role-and-cmdlets"></a>Otros cmdlets y roles de servidor
 
-A continuación se muestra una lista de cmdlets que se relacionan directamente con la administración de otros roles y servicios del servidor:
+A continuación se presenta una lista de cmdlets específicamente ideados para administrar otros servicios y roles de servidor:
 
 **Otros roles de servidor**
 
   - <span></span>  
-    [Set-CsConferenceServer](https://technet.microsoft.com/en-us/library/Gg398738(v=OCS.15))
+    [Set-CsConferenceServer](https://technet.microsoft.com/library/Gg398738(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsUserServer](https://technet.microsoft.com/en-us/library/Gg413026(v=OCS.15))
+    [Set-CsUserServer](https://technet.microsoft.com/library/Gg413026(v=OCS.15))
 
 </div>
 

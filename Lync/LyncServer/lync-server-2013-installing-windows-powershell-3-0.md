@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Instalar Windows PowerShell 3.0'
+title: 'Lync Server 2013: instalación de Windows PowerShell 3,0'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185621
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7cd8b4b48f2ff5a50ef7cafc1ec39671f672670f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 35ab12cc2e00bf81bc17552253eb56417dde2c6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725836"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041009"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-windows-powershell-30-for-lync-server-2013"></a>Instalar Windows PowerShell 3.0 para Lync Server 2013
+# <a name="installing-windows-powershell-30-for-lync-server-2013"></a>Instalación de Windows PowerShell 3,0 para Lync Server 2013
 
 </div>
 
@@ -39,27 +39,27 @@ _**Última modificación del tema:** 2014-06-27_
 
 Para implementar Lync Server 2013 correctamente, necesitará Windows PowerShell 3,0 en cada equipo que forme parte de la topología de Lync Server.
 
-Ahora, para sistemas con Windows Server 2012 o Windows Server 2012 R2, no tiene que hacer nada aquí, y puede continuar con la siguiente fase de implementación, porque PowerShell 3,0 se incluye con esos sistemas operativos.
+Ahora, para sistemas que ejecutan Windows Server 2012 o Windows Server 2012 R2, no es necesario que haga nada aquí y puede continuar con la siguiente fase de la implementación, ya que PowerShell 3,0 se incluye con esos sistemas operativos.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Pero para los sistemas que ejecutan Windows Server 2008 R2 SP1, tendrá que instalar PowerShell 3,0 como requisito previo antes de instalar Lync Server 2013, o lo que no funcionará. Para instalar PowerShell 3,0, vea <A href="http://go.microsoft.com/fwlink/p/?linkid=329800">Windows Management Framework 3,0</A>. Este es un vínculo directo a la página de descarga de PowerShell 3,0, junto con información relacionada con la instalación correcta.
+> Pero para los sistemas que ejecutan Windows Server 2008 R2 SP1, tendrá que instalar PowerShell 3,0 como requisito previo antes de instalar Lync Server 2013, o no funcionará nada. Para instalar PowerShell 3,0, vea <A href="http://go.microsoft.com/fwlink/p/?linkid=329800">Windows Management Framework 3,0</A>. Se trata de un vínculo directo a la página de descarga de PowerShell 3,0, junto con información relacionada con la instalación correcta.
 
 
 
 </div>
 
-Una vez que haya realizado la instalación, o si solo desea comprobar la implementación de Lync Server y asegurarse de que no va a hacerlo, es muy sencillo que confirme que PowerShell 3,0 está en un servidor:
+Una vez que haya realizado la instalación, o si solo quiere comprobar y está seguro antes de continuar con la implementación de Lync Server, la confirmación de que PowerShell 3,0 está en un servidor es bastante sencillo si hace lo siguiente:
 
-1.  En el servidor que desea comprobar, elija **Inicio**, haga clic en **todos los programas**, en **accesorios**, en **Windows PowerShell**y, por último, en **Windows PowerShell**.
+1.  En el servidor que desea comprobar, elija **Inicio**, **todos los programas**, **accesorios**, **Windows PowerShell**y, a continuación, haga clic en **Windows PowerShell**.
 
 2.  En la consola de Windows PowerShell, escriba el siguiente comando en el símbolo del sistema y, a continuación, presione ENTRAR:
     
         Get-Host | Select-Object Version
 
-3.  Si Windows PowerShell 3,0 está instalado, verá el resultado que tiene el siguiente aspecto:
+3.  Si Windows PowerShell 3,0 está instalado, verá un resultado similar al siguiente:
     
         Version
         -------

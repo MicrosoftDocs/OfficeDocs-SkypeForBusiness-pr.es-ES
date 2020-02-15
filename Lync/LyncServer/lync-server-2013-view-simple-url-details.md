@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ver detalles de direcciones URL simples'
+title: 'Lync Server 2013: ver detalles de direcciones URL sencillas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f77c860d58ecc391298b88f4e1855ddd80199d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71f507f35d8fe616617a2782840cfcf41719ed45
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757434"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038032"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-simple-url-details-in-lync-server-2013"></a>Ver detalles de direcciones URL simples en Lync Server 2013
+# <a name="view-simple-url-details-in-lync-server-2013"></a>Ver detalles de direcciones URL sencillas en Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41757434"
 
 _**Última modificación del tema:** 2012-10-11_
 
-Puede usar el panel de control de Lync Server 2013 para ver detalles simples de direcciones URL para el entorno de Lync Server 2013. Las direcciones URL simples facilitan la participación de los usuarios en las reuniones y hacen que sea más fácil para los administradores llegar a las herramientas administrativas. Para obtener más información, vea [planificación de las direcciones URL simples en Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).
+Puede usar el panel de control de Lync Server 2013 para ver detalles de direcciones URL sencillas para su entorno de Lync Server 2013. Las direcciones URL sencillas permiten a los usuarios unirse a las reuniones con mayor facilidad, como también simplifican el acceso de los administradores a las herramientas administrativas. Para obtener más información, consulte [Planning for simple URLs in Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).
 
 <div>
 
-## <a name="to-view-simple-url-details"></a>Para ver detalles de direcciones URL simples
+## <a name="to-view-simple-url-details"></a>Para ver los detalles de direcciones URL sencillas
 
-1.  Inicie sesión en cualquier equipo en la implementación interna desde una cuenta de usuario que esté asignada al rol CsServerAdministrator, CsAdministrator, CsHelpDesk o CsViewOnlyAdministrator. Para obtener más información sobre los roles administrativos predefinidos disponibles en Lync Server 2013, consulte [planificación de control de acceso basado en roles en Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+1.  Desde una cuenta de usuario asignada al rol CsServerAdministrator, CsAdministrator, CsHelpDesk, o CsViewOnlyAdministrator , inicie sesión en cualquier equipo de su implementación interna. Para obtener más información sobre los roles administrativos predefinidos disponibles en Lync Server 2013, vea [planeación del control de acceso basado en roles en Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **topología** y luego en **dirección URL simple**.
+3.  En la barra de navegación izquierda, haga clic en **Topología** y, a continuación, en **URL sencilla**.
 
-4.  En la página **dirección URL simple** , haga clic en un encabezado de columna para ordenar la lista, si es necesario.
+4.  En la página **URL sencilla**, haga clic en el encabezado de columna para ordenar la lista, si lo considera necesario.
 
-5.  Seleccione el nombre para el que desea ver detalles simples de la dirección URL y, a continuación, haga clic en **propiedades**.
+5.  Seleccione el nombre del que desea ver los detalles de URL sencilla y, a continuación, haga clic en **Propiedades**.
 
-6.  Cuando haya terminado de ver los detalles, haga clic en **cerrar**.
+6.  Cuando termine de ver la información, haga clic en **Cerrar**.
 
 </div>
 

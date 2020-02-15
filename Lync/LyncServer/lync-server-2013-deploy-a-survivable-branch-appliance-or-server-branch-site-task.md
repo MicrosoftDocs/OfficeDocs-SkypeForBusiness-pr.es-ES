@@ -1,5 +1,5 @@
 ---
-title: Implementar una aplicación o servidor de sucursal con funciones de supervivencia - Tarea en el sitio de sucursal
+title: Implementar una aplicación de sucursal con funciones de supervivencia o una tarea de sitio de sucursal de servidor
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184586
 ms.date: 10/29/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2edf70ccbc4817942775d953b7d43313d96e25c7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a06cbb4322a1e25b24e94140ceeaa4d89a9cd826
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739790"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046373"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-a-survivable-branch-appliance-or-server-with-lync-server-2013---branch-site-task"></a>Implementar una aplicación o servidor de sucursal con funciones de supervivencia con Lync Server 2013 - Tarea en el sitio de sucursal
+# <a name="deploy-a-survivable-branch-appliance-or-server-with-lync-server-2013---branch-site-task"></a>Implementar una aplicación o un servidor de sucursal con funciones de supervivencia con Lync Server 2013: tarea de sitio de sucursal
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41739790"
 
 _**Última modificación del tema:** 2014-10-28_
 
-Realice uno de los dos procedimientos descritos en este tema en el sitio de la sucursal, después de completar correctamente las tareas de [implementación de un equipo o servidor de sucursal con las tareas más Revivientes de Lync Server 2013-tareas del sitio central](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md).
+Realice uno de los dos procedimientos descritos en este tema en el sitio de sucursal, después de completar correctamente las tareas de [implementación de una aplicación o servidor de sucursal con funciones de supervivencia con las tareas de sitio central de Lync Server 2013-central](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md).
 
 <div>
 
@@ -51,23 +51,23 @@ Realice uno de los dos procedimientos descritos en este tema en el sitio de la s
 
 <div>
 
-## <a name="to-deploy-the-survivable-branch-appliance"></a>Para implementar la aplicación de rama superviviente
+## <a name="to-deploy-the-survivable-branch-appliance"></a>Para implementar la aplicación de sucursal con funciones de supervivencia
 
-  - El proveedor de equipos de sucursales con la que se ha habilitado la implementación de equipos con la supervivencia Para obtener información sobre la implementación de la aplicación de sucursales con la que es más reviviente, consulte la documentación del fabricante de su equipo.
+  - El proveedor de aplicación de sucursal con funciones de supervivencia habilita la implementación de aplicaciones de sucursal con funciones de supervivencia mediante una interfaz de usuario (UI) Web. Para obtener información acerca de la implementación de la aplicación de sucursal con funciones de supervivencia, consulte la documentación del proveedor de la aplicación de sucursal con funciones de supervivencia.
 
 </div>
 
 <div>
 
-## <a name="to-deploy-the-survivable-branch-server"></a>Para implementar el servidor de sucursal con la supervivencia
+## <a name="to-deploy-the-survivable-branch-server"></a>Para implementar el servidor de sucursal con funciones de supervivencia
 
-  - Instale Lync Server 2013 en un equipo con Windows Server 2008 R2, Windows Server 2012 o Windows Server 2012 R2, de la misma manera en que se instala cualquier otro rol de servidor de Lync Server 2013.
+  - Instale Lync Server 2013 en un equipo que ejecute Windows Server 2008 R2, Windows Server 2012 o Windows Server 2012 R2, del mismo modo que se instala cualquier otro rol de servidor de Lync Server 2013.
     
     <div>
     
 
     > [!NOTE]
-    > Para obtener información acerca de la instalación de Lync Server, consulte <A href="lync-server-2013-deploying-lync-server.md">implementar Lync server 2013</A> en la documentación de implementación.
+    > Para obtener información acerca de la instalación de Lync Server, consulte <A href="lync-server-2013-deploying-lync-server.md">Deploying Lync server 2013</A> en la documentación sobre implementación.
 
     
     </div>
@@ -81,7 +81,7 @@ Realice uno de los dos procedimientos descritos en este tema en el sitio de la s
 ## <a name="see-also"></a>Vea también
 
 
-[Apéndice A: Usar cmdlets para implementar una aplicación de sucursal con funciones de supervivencia en Lync Server 2013](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)  
+[Apéndice A: uso de cmdlets para implementar una aplicación de sucursal con funciones de supervivencia en Lync Server 2013](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)  
   
 
 </div>
