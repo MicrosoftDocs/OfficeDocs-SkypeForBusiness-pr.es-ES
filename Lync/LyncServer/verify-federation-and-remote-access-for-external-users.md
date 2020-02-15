@@ -12,16 +12,16 @@ ms:contentKeyID: 49733768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61ad994eb7769dff067195520c2c6fde955910f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 382c3e892f7e4d46b5c584e7efc0c03cc89531ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738550"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983065"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41738550"
 
 _**Última modificación del tema:** 2012-09-18_
 
-Después de la transición de la ruta de Federación al servidor perimetral de Lync Server 2013, debe realizar algunas pruebas funcionales para comprobar que la Federación se ejecuta según lo esperado. Las pruebas de acceso de usuarios externos deben incluir cada tipo de usuario externo que admita su organización, incluidos algunos de los siguientes elementos o todos ellos.
+Después de realizar la transición de la ruta de Federación al servidor perimetral de Lync Server 2013, debe realizar algunas pruebas funcionales para comprobar que la Federación funciona como se esperaba. Las comprobaciones de acceso de usuarios externos deben abarcar todos los tipos de usuario externo que la organización admita, incluido todos o cualquiera de los indicados a continuación.
 
 <div>
 
-## <a name="test-connectivity-of-external-users-and-external-access"></a>Probar la conectividad de usuarios externos y acceso externo
+## <a name="test-connectivity-of-external-users-and-external-access"></a>Comprobación de conectividad de los usuarios externos y el acceso externo
 
-  - Usuarios de al menos un dominio federado, un usuario interno de Lync Server 2013 y un usuario en Lync Server 2010. Prueba la mensajería instantánea (mi), la presencia, el audio/vídeo (A/V) y el uso compartido del escritorio.
+  - Usuarios de al menos un dominio federado, un usuario interno en Lync Server 2013 y un usuario en Lync Server 2010. Compruebe la mensajería instantánea (MI), la presencia, el audio/vídeo (A/V) y el uso compartido de escritorio.
 
-  - Usuarios de cada proveedor de servicios de mensajería instantánea pública que admita su organización (y para el que se haya completado el aprovisionamiento) comunicándose con un usuario en Lync Server 2013 y un usuario en Lync Server 2010.
+  - Usuarios de cada proveedor de servicios de mensajería instantánea pública que admita su organización (y para los que se haya completado el aprovisionamiento) que se comuniquen con un usuario en Lync Server 2013 y un usuario en Lync Server 2010.
 
-  - Comprobar que los usuarios anónimos pueden unirse a conferencias.
+  - Compruebe que los usuarios anónimos pueden unirse a conferencias.
 
-  - Un usuario hospedado en Lync Server 2010 con acceso de usuario remoto (iniciar sesión en Lync Server 2010 desde fuera de la intranet pero sin conexión VPN) con un usuario en Lync Server 2013 y un usuario en Lync Server 2010. Prueba la mensajería instantánea, la presencia, la A/V y el uso compartido del escritorio.
+  - Un usuario hospedado en Lync Server 2010 con acceso de usuarios remotos (iniciando sesión en Lync Server 2010 desde fuera de la intranet pero sin VPN) con un usuario en Lync Server 2013 y un usuario en Lync Server 2010. Compruebe la mensajería instantánea, la presencia, A/V y el uso compartido de escritorio.
 
-  - Un usuario hospedado en Lync Server 2013 con acceso de usuario remoto (iniciar sesión en Lync Server 2013 desde fuera de la intranet pero sin conexión VPN) con un usuario en Lync Server 2013 y un usuario en Lync Server 2010. Prueba la mensajería instantánea, la presencia, la A/V y el uso compartido del escritorio.
+  - Un usuario hospedado en Lync Server 2013 con acceso de usuarios remotos (iniciando sesión en Lync Server 2013 desde fuera de la intranet pero sin VPN) con un usuario en Lync Server 2013 y un usuario en Lync Server 2010. Compruebe la mensajería instantánea, la presencia, A/V y el uso compartido de escritorio.
 
 </div>
 
