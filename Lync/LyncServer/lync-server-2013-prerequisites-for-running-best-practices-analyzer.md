@@ -12,20 +12,20 @@ ms:contentKeyID: 48183283
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a720a9bc1245146d816fe3c42bbf8e24020a134
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e0795e29fb52171af32ecbde62a6ecddcfa00931
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747260"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050332"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="prerequisites-for-running-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="d9291-102">Requisitos previos para ejecutar el analizador de procedimientos recomendados en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d9291-102">Prerequisites for running Best Practices Analyzer in Lync Server 2013</span></span>
+# <a name="prerequisites-for-running-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="21b4b-102">Requisitos previos para la ejecución del analizador de procedimientos recomendados en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21b4b-102">Prerequisites for running Best Practices Analyzer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41747260"
 
 <span> </span>
 
-<span data-ttu-id="d9291-103">_**Última modificación del tema:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="d9291-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+<span data-ttu-id="21b4b-103">_**Última modificación del tema:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="21b4b-103">_**Topic Last Modified:** 2012-06-25_</span></span>
 
-<span data-ttu-id="d9291-104">Puede usar el analizador de procedimientos recomendados para examinar los problemas del entorno de Lync Server 2013 y crear informes, y para ver los resultados de un examen actual o anterior.</span><span class="sxs-lookup"><span data-stu-id="d9291-104">You can use Best Practices Analyzer to scan your Lync Server 2013 environment for issues and create reports, and to view results of a current or previous scan.</span></span> <span data-ttu-id="d9291-105">Antes de ejecutar el analizador de procedimientos recomendados para analizar su entorno, debe comprobar que la cuenta que va a usar para ejecutar el examen tiene los derechos y permisos necesarios y que se cumplen todos los requisitos previos de instalación.</span><span class="sxs-lookup"><span data-stu-id="d9291-105">Prior to running Best Practices Analyzer to scan your environment, you need to verify that the account that you plan to use to run the scan has the required rights and permissions and that all installation prerequisites have been met.</span></span>
+<span data-ttu-id="21b4b-104">Puede usar el analizador de procedimientos recomendados para examinar los problemas del entorno de Lync Server 2013 y para crear informes, así como para ver los resultados de un análisis actual o anterior.</span><span class="sxs-lookup"><span data-stu-id="21b4b-104">You can use Best Practices Analyzer to scan your Lync Server 2013 environment for issues and create reports, and to view results of a current or previous scan.</span></span> <span data-ttu-id="21b4b-105">Antes de ejecutar el Analizador de procedimientos recomendados para analizar el entorno, debe comprobar que la cuenta que utiliza para ejecutar el análisis dispone de los permisos y derechos adecuados y de que se cumplen todos los requisitos previos de instalación.</span><span class="sxs-lookup"><span data-stu-id="21b4b-105">Prior to running Best Practices Analyzer to scan your environment, you need to verify that the account that you plan to use to run the scan has the required rights and permissions and that all installation prerequisites have been met.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d9291-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="d9291-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="21b4b-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="21b4b-106">In This Section</span></span>
 
-  - [<span data-ttu-id="d9291-107">Pertenencias a grupos y requisitos de derechos de usuario para el analizador de procedimientos recomendados de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d9291-107">Group memberships and user rights requirements for Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md)
+  - [<span data-ttu-id="21b4b-107">Pertenencias a grupos y requisitos de derechos de usuario para el analizador de procedimientos recomendados en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21b4b-107">Group memberships and user rights requirements for Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md)
 
-  - [<span data-ttu-id="d9291-108">Requisitos para ejecutar el analizador de procedimientos recomendados en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d9291-108">Requirements for running Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-requirements-for-running-best-practices-analyzer.md)
+  - [<span data-ttu-id="21b4b-108">Requisitos para la ejecución del analizador de procedimientos recomendados en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21b4b-108">Requirements for running Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-requirements-for-running-best-practices-analyzer.md)
 
 </div>
 
