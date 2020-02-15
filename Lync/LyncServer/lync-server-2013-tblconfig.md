@@ -12,16 +12,16 @@ ms:contentKeyID: 48184515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b0e383791eafbe017e5163156ba53cdad581cb0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 399d4e794b45f549aed86838463091db437b286f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731501"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41731501"
 
 _**Última modificación del tema:** 2012-09-12_
 
-tblConfig contiene la configuración no admitida de un servidor de chat persistente, en una fila.
+tblConfig contiene una configuración no compatible con el servidor de chat persistente, en una fila.
 
-### <a name="columns"></a>Columnas
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,24 +57,24 @@ tblConfig contiene la configuración no admitida de un servidor de chat persiste
 <tbody>
 <tr class="odd">
 <td><p>configLabel</p></td>
-<td><p>nvarchar (255), not null</p></td>
-<td><p>Contiene &quot;el grupo.&quot;</p></td>
+<td><p>nvarchar (255), no NULL</p></td>
+<td><p>Contiene &quot;el grupo de servidores.&quot;</p></td>
 </tr>
 <tr class="even">
 <td><p>configContent</p></td>
-<td><p>nvarchar (Max)</p></td>
-<td><p>Contenido de configuración.</p></td>
+<td><p>nvarchar (máx.)</p></td>
+<td><p>Contenido de la configuración.</p></td>
 </tr>
 <tr class="odd">
 <td><p>configPoolID</p></td>
-<td><p>GUID, not null</p></td>
-<td><p>IDENTIFICADOR único de la instancia de la base de datos.</p></td>
+<td><p>GUID, no NULL</p></td>
+<td><p>Identificador único de la instancia de base de datos.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Clave
+### <a name="key"></a>Key 
 
 <table>
 <colgroup>

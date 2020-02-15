@@ -12,16 +12,16 @@ ms:contentKeyID: 48183513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0fc42a3151b5863885fdb3853ea529503e18a6b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: be10514a933cb6a311d115fbbb011398f2758ef9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731550"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42025581"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41731550"
 
 _**Última modificación del tema:** 2012-09-12_
 
-tblLastChatId contiene el último identificador de chat generado (y usado en la tabla tblChat) para cada usuario.
+tblLastChatId contiene el último id. de chat generado (y usado en la tabla tblChat) para cada usuario.
 
-### <a name="columns"></a>Columnas
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,19 +57,19 @@ tblLastChatId contiene el último identificador de chat generado (y usado en la 
 <tbody>
 <tr class="odd">
 <td><p>nodeID</p></td>
-<td><p>int, not null</p></td>
-<td><p>IDENTIFICADOR de nodo (solo tipo salón de chat).</p></td>
+<td><p>int, no NULL</p></td>
+<td><p>Identificador de nodo (tipo de salón de chat únicamente).</p></td>
 </tr>
 <tr class="even">
 <td><p>lastChatID</p></td>
-<td><p>BIGINT, not null</p></td>
-<td><p>Último ID de chat usado.</p></td>
+<td><p>bigint, no NULL</p></td>
+<td><p>Identificador de chat usado por última vez.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Sus
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -85,11 +85,11 @@ tblLastChatId contiene el último identificador de chat generado (y usado en la 
 <tbody>
 <tr class="odd">
 <td><p>&lt;nodeID, lastChatID&gt;</p></td>
-<td><p>Clave principal (solo nodeID es suficiente para procesar).</p></td>
+<td><p>Clave principal (nodeID es suficiente para el procesamiento).</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeID</p></td>
-<td><p>Clave externa con la búsqueda en la tabla tblNode. nodeID.</p></td>
+<td><p>Clave externa con búsqueda en la tabla tblNode.nodeID.</p></td>
 </tr>
 </tbody>
 </table>

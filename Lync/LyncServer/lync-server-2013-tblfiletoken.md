@@ -12,16 +12,16 @@ ms:contentKeyID: 48184073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b469b79e680c202654024d1ac20a55b9929e4b10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 839086521c6e9054d1759943134b305c8205f59f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764186"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42025721"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41764186"
 
 _**Última modificación del tema:** 2012-09-12_
 
-tblFileToken contiene tokens temporales para la transferencia de archivos.
+La tabla tblFileToken contiene símbolos temporales con fines de transferencia de archivos.
 
-### <a name="columns"></a>Columnas
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,54 +57,54 @@ tblFileToken contiene tokens temporales para la transferencia de archivos.
 <tbody>
 <tr class="odd">
 <td><p>fileToken</p></td>
-<td><p>nvarchar (50), not null</p></td>
-<td><p>Identificador exclusivo (un GUID).</p></td>
+<td><p>nvarchar (50), no NULL</p></td>
+<td><p>Símbolo único (un GUID).</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenUserID</p></td>
-<td><p>int, not null</p></td>
-<td><p>IDENTIFICADOR de la entidad de identidad que está transfiriendo el archivo.</p></td>
+<td><p>int, no NULL</p></td>
+<td><p>Id. de la entidad de seguridad que está transfiriendo el archivo.</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenChannelID</p></td>
-<td><p>GUID, not null</p></td>
-<td><p>GUID del nodo del salón de chat.</p></td>
+<td><p>GUID, no NULL</p></td>
+<td><p>GUID del nodo de la sala de chat.</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenExpireDate</p></td>
-<td><p>DateTime, not null</p></td>
-<td><p>Fecha de expiración. (Los tokens vencen después de 30 minutos, a menos que se hayan anclado (vea las siguientes descripciones en esta columna).</p></td>
+<td><p>datetime, no NULL</p></td>
+<td><p>Tiempo de expiración; los tokens caducan después de 30 minutos, a menos que esté anclado (vea las siguientes descripciones en esta columna).</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenComplianceFileUrl</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Dirección URL del archivo transferido (para el uso del servicio de cumplimiento).</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>URL del archivo transferido (para el uso del Servicio de cumplimiento).</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenComplianceThumbnailUrl</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Dirección URL de la miniatura del archivo transferido (para el uso del servicio de cumplimiento).</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>URL de la miniatura del archivo transferido (para el uso del Servicio de cumplimiento).</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenComplianceTime</p></td>
 <td><p>datetime2</p></td>
-<td><p>Marca de hora para la operación de transferencia de archivos real (para el uso del servicio de cumplimiento).</p></td>
+<td><p>Marca de tiempo para la operación de transferencia de archivo real (para el uso del Servicio de cumplimiento).</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenComplianceIsUpload</p></td>
 <td><p>bit</p></td>
-<td><p>Es verdadero si se carga; Falso si descargar (para uso del servicio de cumplimiento).</p></td>
+<td><p>True si se carga; False si se descarga (para el uso del Servicio de cumplimiento).</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenCompliancePinned</p></td>
-<td><p>bit, not null</p></td>
-<td><p>True si el símbolo está anclado. Se usa para mantener el token en la tabla hasta que el servicio de cumplimiento tiene la posibilidad de recuperar los campos correspondientes de él.</p></td>
+<td><p>bit, no NULL</p></td>
+<td><p>True si el token está anclado. Se usa para mantener el token en la tabla hasta que el Servicio de cumplimiento tenga la oportunidad de recuperar los campos relevantes de él.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Sus
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -124,7 +124,7 @@ tblFileToken contiene tokens temporales para la transferencia de archivos.
 </tr>
 <tr class="even">
 <td><p>fileTokenChannelID</p></td>
-<td><p>Clave externa con la búsqueda en la tabla tblNode. nodeGuid.</p></td>
+<td><p>Clave externa con búsqueda en la tabla tblNode.nodeGuid.</p></td>
 </tr>
 </tbody>
 </table>

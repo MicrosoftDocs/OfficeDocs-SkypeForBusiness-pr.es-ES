@@ -12,16 +12,16 @@ ms:contentKeyID: 48183529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a349a9816f11b73d942598f0141df497fb0294c0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bacfc69c0b587ad613382f48359123ed9e0d0443
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764256"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028421"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41764256"
 
 _**Última modificación del tema:** 2012-10-21_
 
-Los informes de uso del sistema proporcionan información de uso del sistema según los datos de grabación de detalles de llamadas (CDR) recopilados por el servidor de Lync.
+Los informes de uso del sistema proporcionan información sobre el uso del sistema según los datos de registro de detalles de llamadas (CDR) recopilados por el servidor de Lync.
 
 <div>
 
@@ -45,9 +45,9 @@ Los informes de uso del sistema proporcionan información de uso del sistema seg
 
   - [Informe de registro de usuario en Lync Server 2013](lync-server-2013-user-registration-report.md)
     
-    Proporciona un resumen de la conectividad de usuario a la implementación de Lync Server 2013 en función de eventos de registro, como inicios de sesión de usuario. El informe proporciona una forma de ver los inicios de sesión internos y externos, y comparar el número de usuarios que han iniciado sesión en Lync Server 2013 con el número de usuarios que realmente usaron el servicio durante el inicio de sesión.
+    Proporciona un resumen de la conectividad de usuarios a la implementación de Lync Server 2013 basándose en eventos de registro como los inicios de sesión de usuario. El informe proporciona una forma de ver los inicios de sesión internos y externos y comparar el número de usuarios que iniciaron sesión en Lync Server 2013 con el número de usuarios que usaron el servicio en realidad mientras iniciaban sesión.
 
-  - [Informe de Resumen de actividad de punto a punto en Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md)
+  - [Informe de Resumen de actividad punto a punto en Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md)
     
     Proporciona un resumen de las sesiones punto a punto de mensajería instantánea (MI), audio, vídeo, transferencia de archivos y uso compartido de aplicaciones. Las sesiones punto a punto son sesiones en las que hay solamente dos usuarios.
 
@@ -55,17 +55,17 @@ Los informes de uso del sistema proporcionan información de uso del sistema seg
     
     Proporciona un resumen de todas las actividades de conferencia. Las conferencias son sesiones en las que hay tres o más usuarios.
 
-  - [Informe Resumen de la Conferencia RTC en Lync Server 2013](lync-server-2013-pstn-conference-summary-report.md)
+  - [Informe de Resumen de conferencia RTC en Lync Server 2013](lync-server-2013-pstn-conference-summary-report.md)
     
-    Proporciona un resumen de todas las conferencias RTC. En estas conferencias, al menos un usuario llama con la red telefónica conmutada (RTC), lo que también se conoce como *conferencia de acceso telefónico local*.
+    Proporciona un resumen de todas las conferencias RTC. En estas conferencias, al menos un usuario llama mediante la red telefónica conmutada (RTC), lo que también se conoce como *conferencia de acceso telefónico local*.
 
-  - [Informe de uso de grupo de respuesta en Lync Server 2013](lync-server-2013-response-group-usage-report.md)
+  - [Informe de uso del grupo de respuesta en Lync Server 2013](lync-server-2013-response-group-usage-report.md)
     
-    Proporciona un resumen del uso del grupo de respuesta. La aplicación de grupo de respuesta le permite enrutar automáticamente llamadas telefónicas a entidades como un servicio de asistencia al cliente o una línea de asistencia al cliente.
+    Proporciona un resumen del uso del grupo de respuesta. La aplicación de grupo de respuesta ofrece una forma de enrutar automáticamente las llamadas telefónicas a entidades, como una línea de asistencia técnica o atención al cliente.
 
-  - [Informe de inventario telefónico de IP en Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md)
+  - [Informe de inventario de teléfono IP en Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md)
     
-    Proporciona información sobre los teléfonos IP que actualmente se usan en la organización. El informe se basa en los inicios de sesión y los registros del teléfono. No se tiene que tratar como un inventario completo. Por ejemplo, es posible que ya no utilice teléfonos que aún se mencionan en el informe (porque iniciaron sesión al menos una vez). Del mismo modo, es posible que también tenga teléfonos nuevos que no aparecen en el informe, simplemente porque los usuarios no han iniciado sesión en Lync Server con sus nuevos teléfonos.
+    Proporciona información acerca de los teléfonos IP que actualmente se usan en la organización. El informe se basa en los inicios de sesión y los registros del teléfono. No se debe tratar como un inventario completo. Por ejemplo, es posible que ya no utilice teléfonos que aún se mencionan en el informe (porque iniciaron sesión al menos una vez). Del mismo modo, es posible que también tenga teléfonos nuevos que no aparezcan en el informe simplemente porque los usuarios no han iniciado sesión en Lync Server con sus nuevos teléfonos todavía.
 
   - [Informe de control de admisión de llamadas en Lync Server 2013](lync-server-2013-call-admission-control-report.md)
     

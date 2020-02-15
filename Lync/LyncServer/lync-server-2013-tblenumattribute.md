@@ -12,16 +12,16 @@ ms:contentKeyID: 48183523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73ac5a7cf26c97b31daf5785a90fac102c50e480
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d7078c36763fb5c582f62c5b4ff7ddedf9cd100
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764196"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41764196"
 
 _**Última modificación del tema:** 2012-09-12_
 
-tblEnumAttribute es una tabla codificada que contiene los atributos de visibilidad y comportamiento que se usan en la tabla de nodos.
+tblEnumAttribute es una tabla codificada de forma rígida que contiene los atributos Visibility y Behavior que se utilizan en la tabla Node.
 
-### <a name="columns"></a>Columnas
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,19 +57,19 @@ tblEnumAttribute es una tabla codificada que contiene los atributos de visibilid
 <tbody>
 <tr class="odd">
 <td><p>attributeID</p></td>
-<td><p>smallint, not null</p></td>
-<td><p>IDENTIFICADOR del atributo.</p></td>
+<td><p>smallint, no NULL</p></td>
+<td><p>Identificador del atributo.</p></td>
 </tr>
 <tr class="even">
 <td><p>attributeName</p></td>
-<td><p>nvarchar (256), not null</p></td>
+<td><p>nvarchar (256), no NULL</p></td>
 <td><p>Nombre del atributo.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Clave
+### <a name="key"></a>Key 
 
 <table>
 <colgroup>
@@ -106,12 +106,12 @@ tblEnumAttribute es una tabla codificada que contiene los atributos de visibilid
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
-<td><p>Visión.</p></td>
+<td><p>1 </p></td>
+<td><p>Notoriedad.</p></td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
-<td><p>Problema.</p></td>
+<td><p>2 </p></td>
+<td><p>Comportamiento.</p></td>
 </tr>
 </tbody>
 </table>

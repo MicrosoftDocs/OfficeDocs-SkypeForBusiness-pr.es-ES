@@ -12,16 +12,16 @@ ms:contentKeyID: 48183608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c92a51ed9b775990d048bf45bfa54a893ba15856
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b58f43c696a6218d0dd9b670615cc0f73b0b7ae3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764176"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42024731"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41764176"
 
 _**Última modificación del tema:** 2012-09-12_
 
-tblLastInviteId contiene el último identificador de invitación generado (y usado en la tabla tblPrincipalInvites) para cada usuario.
+tblLastInviteId contiene el último identificador de invitación generado (y utilizado en la tabla tblPrincipalInvites) para cada usuario.
 
-### <a name="columns"></a>Columnas
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,19 +57,19 @@ tblLastInviteId contiene el último identificador de invitación generado (y usa
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>int, not null</p></td>
-<td><p>IDENTIFICADOR principal.</p></td>
+<td><p>int, no NULL</p></td>
+<td><p>Id. de la entidad de seguridad.</p></td>
 </tr>
 <tr class="even">
 <td><p>lastInviteID</p></td>
-<td><p>int, not null</p></td>
-<td><p>Último ID de invitación usado.</p></td>
+<td><p>int, no NULL</p></td>
+<td><p>Identificador de invitación usado por última vez.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Sus
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -89,7 +89,7 @@ tblLastInviteId contiene el último identificador de invitación generado (y usa
 </tr>
 <tr class="even">
 <td><p>prinID</p></td>
-<td><p>Clave externa con la búsqueda en la tabla tblPrincipal. prinID.</p></td>
+<td><p>Clave externa con búsqueda en la tabla tblPrincipal.prinID.</p></td>
 </tr>
 </tbody>
 </table>
