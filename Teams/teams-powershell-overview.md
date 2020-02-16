@@ -15,12 +15,12 @@ f1.keywords:
 description: Aprenda a usar los controles de PowerShell para administrar Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b211493bb5b0bfa3dea1abfc0c9b59eadcb4206
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c5eaf04a0244e35e7d9f7deb7d8afb135b3acb2c
+ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035362"
+ms.locfileid: "42052527"
 ---
 # <a name="teams-powershell-overview"></a>Descripción de PowerShell para Teams
 
@@ -79,7 +79,7 @@ Cuando publicamos nuestra versión general disponible de nuestro módulo de Powe
 
 ## <a name="managing-policies-via-powershell"></a>Administración de directivas a través de PowerShell
 
-Los cmdlets para administrar directivas se encuentran en el [módulo de cmdlet de Skype empresarial](https://www.microsoft.com/download/details.aspx?id=39366).
+Use los cmdlets del [módulo de cmdlet de Skype empresarial](https://www.microsoft.com/download/details.aspx?id=39366) para administrar directivas para usuarios individuales.
 
 > [!NOTE]
 > Los cmdlets estarán disponibles en la sesión de PowerShell una vez que se conecte a Skype empresarial online. Para obtener más información, vea [administrar Skype empresarial online con Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 

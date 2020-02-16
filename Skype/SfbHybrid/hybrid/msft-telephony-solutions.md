@@ -18,12 +18,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Describe las soluciones de telefonía de Microsoft.
-ms.openlocfilehash: 350f7ed0ba2606e34af711bbdd3189c7a0bd1a02
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ab2feb1a7cc650bc9dbb35d3205a6f9de2de7b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765248"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048631"
 ---
 # <a name="microsoft-telephony-solutions"></a>Soluciones de telefonía de Microsoft
 
@@ -46,13 +46,13 @@ Sistema telefónico es la tecnología de Microsoft para habilitar el control de 
 
 Sistema telefónico funciona con los clientes de Microsoft Teams o Skype empresarial online y los dispositivos certificados. El sistema telefónico le permite reemplazar su sistema PBX existente por un conjunto de características que se entregan directamente desde Office 365 y que están estrechamente integradas en la experiencia de productividad en la nube de la compañía. Para conectar el sistema telefónico a la red telefónica conmutada (RTC), puede elegir el plan de llamadas de Microsoft o su propio operador de telefonía.
 
-Para obtener más información, consulte [What is Phone System in Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365).
+Para obtener más información, consulte [What is Phone System in Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365).
 
 ### <a name="enterprise-voice-skype-for-business-server"></a>Telefonía IP empresarial (Skype empresarial Server)
 
 La telefonía IP empresarial es la tecnología de Microsoft para habilitar el control de llamadas y las capacidades de central de conmutación (PBX) en el servidor local de Skype empresarial Server. Esta opción solo se puede conectar a la red telefónica conmutada pública mediante su propio operador de telefonía. 
 
-Para obtener más información, consulte [Plan for Enterprise Voice in Skype for Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
+Para obtener más información, consulte [Plan for Enterprise Voice in Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
 
 ## <a name="connection-to-the-public-switched-telephone-network-pstn-options"></a>Conexión a las opciones de la red telefónica conmutada (RTC)
 
@@ -65,7 +65,7 @@ Puede elegir conectarse a la red telefónica conmutada (RTC) de la siguiente man
 
 Esta opción conecta el sistema telefónico de Office 365 de Microsoft con la red telefónica conmutada (RTC) para habilitar las llamadas a teléfonos fijos y móviles en todo el mundo. Con el plan de llamadas, Microsoft es su operador de RTC.
 
-Para obtener más información, consulte [planes de llamada para Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/calling-plans-for-office-365).
+Para obtener más información, consulte [planes de llamada para Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365).
 
 ### <a name="connect-your-own-telephony-carrier-office-365-and-skype-for-business-on-premises"></a>Conectar su propio operador de telefonía (Office 365 y Skype empresarial local)
 
@@ -126,7 +126,7 @@ Sistema telefónico con plan de llamadas es una opción todo en la nube para los
 | Requiere contrato con un proveedor de terceros      | No   |
 | Requiere la implementación y el mantenimiento de Skype empresarial Server o Cloud Connector Edition | No |
 
-\*Para obtener más información acerca de los países en los que está disponible el plan de llamadas, consulte [disponibilidad de países y regiones para audioconferencia y planes de llamada](https://docs.microsoft.com/en-us/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+\*Para obtener más información acerca de los países en los que está disponible el plan de llamadas, consulte [disponibilidad de países y regiones para audioconferencia y planes de llamada](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
 
 
 Si responde afirmativamente a las siguientes preguntas, esta es la solución adecuada para usted:
@@ -137,7 +137,7 @@ Si responde afirmativamente a las siguientes preguntas, esta es la solución ade
 - No desea administrar los controladores de borde de sesión por su cuenta.
 - Teams o Skype empresarial online tiene todas las características que necesita su organización.
 
-Para obtener más información, consulte [What is Phone System in Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365) y [planes de llamadas para Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/calling-plans-for-office-365).
+Para obtener más información, consulte [What is Phone System in Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) y [planes de llamadas para Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365).
 
 ## <a name="phone-system-with-own-carrier-via-direct-routing"></a>Sistema telefónico con operador propio a través del enrutamiento directo
 
@@ -168,7 +168,7 @@ Si responde afirmativamente a las siguientes preguntas, esta es la solución ade
 - Debe interoperar con PBX de terceros o con equipamientos como por ejemplo, los dispositivos analógicos y buscapersonas
 - Microsoft Teams tiene todas las características que requiere su organización.
 
-Para obtener más información, consulte [What is Phone System in Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365) y [plan Direct Routing](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan).
+Para obtener más información, consulte [What is Phone System in Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) y [plan Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan).
 
 
 ## <a name="phone-system-with-own-carrier-via-skype-for-business-server-or-cloud-connector-edition"></a>Sistema telefónico con operador propio a través de Skype empresarial Server o Cloud Connector Edition
@@ -198,7 +198,7 @@ Si responde afirmativamente a las siguientes preguntas, esta es la solución ade
 - El plan de llamadas RTC no está disponible en su región.
 - Necesita mantener su operador de RTC actual.
 
-Para obtener más información, consulte [What is Phone System in Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365), [Skype for Business Server 2019](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-server-2019)y [Plan for Skype for Business Cloud Connector Edition](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition).
+Para obtener más información, consulte [What is Phone System in Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365), [Skype for Business Server 2019](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2019)y [Plan for Skype for Business Cloud Connector Edition](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition).
 
 Recomendación: cuando cambien las condiciones empresariales (por ejemplo, ya no necesita mantener su operador de RTC), considere la posibilidad de migrar a Microsoft Teams con las opciones 1 o 2 para:
 - Minimizar los costos de mantenimiento
@@ -223,7 +223,7 @@ Esta opción proporciona la telefonía IP empresarial local con conectividad a u
 | Requiere contrato con un proveedor de terceros      | Sí   |
 | Requiere la implementación y el mantenimiento de Skype empresarial Server | Sí |
 
-Para obtener más información, consulte [Plan for Enterprise Voice in Skype for Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
+Para obtener más información, consulte [Plan for Enterprise Voice in Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
 
 Recomendación: cuando cambien las condiciones empresariales (por ejemplo, ya no necesita mantener su operador de RTC), considere la posibilidad de migrar a Microsoft Teams con las opciones 1 o 2 para:
 - Minimizar los costos de mantenimiento

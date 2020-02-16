@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Solución de problemas de creación de una sesión de PowerShell remota para conectarse a Skype empresarial online, incluidos los errores de módulo de importación, de Shell simultáneo, de Live ID y de permisos.
-ms.openlocfilehash: 5e35925b77ebc4d68f293568fe758b934c4a33e1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e86ec24e47bf6e8ea8d3e6b4ea66ab9da89457fd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692695"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010633"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexión con el conector de Skype Empresarial Online
 
@@ -77,7 +77,7 @@ El módulo conector de Skype empresarial online solo puede ejecutarse en Windows
   
   - **Error**: *Import-Module: la versión de PowerShell cargada es "2,0". El módulo:\\\\archivos comunes de programa archivos\\de Microsoft Lync Server\\2013\\LyncOnlineConnector\\LyncOnlineConnector. psd1 ' requiere una versión mínima de PowerShell de ' 3,0 ' para ejecutar. Verifica la instalación de PowerShell e inténtalo de nuevo.*
 
-- **Resolución**: la única forma de corregir este problema es instalar Windows PowerShell 3,0, que está disponible en el centro de descarga de Microsoft [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)en.
+- **Resolución**: la única forma de corregir este problema es instalar Windows PowerShell 3,0, que está disponible en el centro de descarga de Microsoft [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595)en.
   
 ## <a name="modern-authentication-fails-when-winrm-basic-authentication-has-been-disabled"></a>No se puede realizar la autenticación moderna cuando se ha deshabilitado la autenticación básica de WinRM
 <a name="BKMKWinRMBasicAuth"> </a>
@@ -113,7 +113,7 @@ Uno de los requisitos previos para usar PowerShell para administrar Skype empres
 
 - **Error**: *Get-CsWebTicket: no se puede cargar el módulo Live ID. Asegúrese de que está instalada la versión correcta del Asistente para inicio de sesión de Live ID.*
 
-- **Solución**: el ayudante para el inicio de sesión de Microsoft Online Services está disponible en el centro de descarga de Microsoft en [Microsoft Online Services-ayudante para el inicio de sesión para profesionales de ti RTW](https://www.microsoft.com/en-us/download/details.aspx?id=28177)
+- **Solución**: el ayudante para el inicio de sesión de Microsoft Online Services está disponible en el centro de descarga de Microsoft en [Microsoft Online Services-ayudante para el inicio de sesión para profesionales de ti RTW](https://www.microsoft.com/download/details.aspx?id=28177)
 
 ## <a name="logon-failed-for-the-user"></a>Error al iniciar sesión para el usuario
 <a name="BKMKLogonFailed"> </a>

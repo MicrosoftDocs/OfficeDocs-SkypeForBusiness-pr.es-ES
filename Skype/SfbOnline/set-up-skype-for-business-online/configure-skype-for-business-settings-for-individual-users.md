@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: d6054db4bfdd8b161dca427237a10d70ba558fcb
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 756de9829194139f39c7618e0c8bbd74f3418264
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769693"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010893"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administradores: Configurar Skype Empresarial para usuarios individuales
 
@@ -43,7 +43,7 @@ Para permitir (o impedir) que todos en la empresa puedan comunicarse con persona
 ## <a name="configure-general-settings-for-one-user"></a>Establecer la configuración general de un usuario
 <a name="__toc325019204"> </a>
 
-Debe tener [permisos de administrador](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para poder realizar estos pasos.
+Debe tener [permisos de administrador](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para poder realizar estos pasos.
 
 ![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
   
@@ -67,7 +67,7 @@ Debe tener [permisos de administrador](https://support.office.com/en-us/article/
 |:-----|:-----|
 |Audio y vídeo HD  <br/> |Permitir que esta persona grabe reuniones de audio, reuniones de audio y vídeo, o no les permita programar ninguna reunión (ninguna).  <br/> |
 |Registrar conversaciones y reuniones  <br/> |Elija lo que puede grabar esta persona.  <br/> Esta opción no está disponible en Skype empresarial Basic.  <br/> |
-|Para cumplir con las normativas, desactive las características no archivadas  <br/> | Elija esta opción si tiene la obligación legal de conservar la información almacenada por medios electrónicos. <br/>  Al seleccionar esta opción, se desactivan las características que no se capturan cuando tiene configurada una [retención local](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) en el centro de administración de Exchange. Desactiva las siguientes características: <br/>  Transferencia de archivos por mensajería instantánea <br/>  Páginas de OneNote compartidas <br/>  Anotaciones de PowerPoint <br/> |
+|Para cumplir con las normativas, desactive las características no archivadas  <br/> | Elija esta opción si tiene la obligación legal de conservar la información almacenada por medios electrónicos. <br/>  Al seleccionar esta opción, se desactivan las características que no se capturan cuando tiene configurada una [retención local](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29.aspx) en el centro de administración de Exchange. Desactiva las siguientes características: <br/>  Transferencia de archivos por mensajería instantánea <br/>  Páginas de OneNote compartidas <br/>  Anotaciones de PowerPoint <br/> |
    
 Para configurar estas opciones en masa, use PowerShell. Consulte [configurar el equipo para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   

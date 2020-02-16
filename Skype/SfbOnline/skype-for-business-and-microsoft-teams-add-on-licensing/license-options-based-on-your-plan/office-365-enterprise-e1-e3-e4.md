@@ -21,16 +21,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre características y licencias adicionales, y cómo comprar planes de Office 365 Enterprise, E1, E3 y E4. '
-ms.openlocfilehash: fa51f8ff6e785009be5392aef8b137a6ff57430b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 79a803061acfd4550c75871c08f40b16ee2f8e2b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692475"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010593"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 y E4
 
-Si ya ha comprado el plan [Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software) o E4, estas son las licencias de complementos que debe comprar para obtener más características de Skype Empresarial.
+Si ya ha comprado el plan [Office 365 Enterprise E1](https://products.office.com/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/business/office-365-enterprise-e3-business-software) o E4, estas son las licencias de complementos que debe comprar para obtener más características de Skype Empresarial.
 
 |||
 |:-----|:-----|

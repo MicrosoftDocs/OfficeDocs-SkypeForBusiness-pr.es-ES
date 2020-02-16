@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: "How to turn on recording for audio and video conferences, and learn what is and isn't included in recordings. "
-ms.openlocfilehash: 7e06d2bddc95b8ab57a2a4a5c47fb4b86837d161
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 956d1eb4e3ad57e2d801a8f08842d646be742a97
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769613"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010823"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Permitir a los usuarios grabar sus conferencias de audio y vídeo
 
@@ -45,7 +45,7 @@ Cuando la grabación está activada, los organizadores o presentadores pueden gr
 |:-----|:-----|
 |Audio y vídeo HD  <br/> Presentaciones de pizarra y PowerPoint  <br/> Sesiones de uso compartido de programas y escritorio  <br/> |Páginas de OneNote compartidas  <br/> Anotaciones de PowerPoint  <br/> Archivos compartidos (datos adjuntos)  <br/> |
    
-Para obtener más información, vea [Guardar y publicar registros de Lync](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) y [Administrador de grabaciones de Lync](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b). 
+Para obtener más información, vea [Guardar y publicar registros de Lync](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e) y [Administrador de grabaciones de Lync](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b). 
   
 ## <a name="related-topics"></a>Temas relacionados
 [Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: En este artículo se explica cómo configurar y solucionar problemas de delegación de Skype empresarial online. Este artículo le ofrece instrucciones para las recomendaciones de configuración, procedimientos recomendados y pasos de solución de problemas.
-ms.openlocfilehash: fac2b68deec94825d57fd06b436d00feaa924a5c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6774fe36760e6a9c53808f33f7a842d5460e0f4c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706485"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010803"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Configurar y solucionar problemas relacionados con la delegación de Skype Empresarial Online
 
@@ -140,7 +140,7 @@ Si la configuración se ha realizado correctamente, el delegado debería ver el 
   
 - No se admite la creación de un grupo de seguridad ni la adición de permisos de delegación para ese grupo de seguridad.
     
-- MAPI no está disponible. Consulte el [error "MAPI unavailable" en el cliente de Skype empresarial 2016](https://support.microsoft.com/en-us/help/3147130).
+- MAPI no está disponible. Consulte el [error "MAPI unavailable" en el cliente de Skype empresarial 2016](https://support.microsoft.com/help/3147130).
     
 - No se puede obtener acceso al buzón de Exchange Online a través del cliente de Skype empresarial. Si esto sucede, ejecute la [prueba de conectividad de Outlook](https://testconnectivity.microsoft.com/) para asegurarse de que pasa.
     

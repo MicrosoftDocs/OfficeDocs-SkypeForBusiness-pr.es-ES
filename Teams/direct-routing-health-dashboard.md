@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Aprenda a usar el panel de estado para supervisar la conexión entre el controlador de borde de sesión y el enrutamiento directo.
-ms.openlocfilehash: a1644eb94cc18bf149a5e866aae0faf4b41d1d67
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a89377c798295267b1e75f3ffa6efc19b8c4c37d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836080"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051806"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Panel de estado para enrutamiento directo
 
@@ -102,7 +102,7 @@ La vista detallada muestra los siguientes parámetros adicionales:
 
 - **Llamada simultánea**: muestra el número de llamadas simultáneas que controla el SBC. Esta información es útil para predecir la cantidad de canales simultáneos que necesita y ver la tendencia. Puede deslizar los datos por número de días y dirección de llamada (entrante o saliente/todas las transmisiones).
 
-- **Parámetros de red** : todos los parámetros de red se miden desde la interfaz de enrutamiento directo hasta el controlador de borde de la sesión. Para obtener más información sobre los valores recomendados, consulte [preparar la red de su organización para Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/prepare-network)y mire los valores recomendados de borde del cliente a Microsoft Edge.
+- **Parámetros de red** : todos los parámetros de red se miden desde la interfaz de enrutamiento directo hasta el controlador de borde de la sesión. Para obtener más información sobre los valores recomendados, consulte [preparar la red de su organización para Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network)y mire los valores recomendados de borde del cliente a Microsoft Edge.
 
    - Vibración: es la medición de milisegundos de variación en el tiempo de retraso de propagación de red calculado entre dos puntos de conexión con RTCP (el protocolo de control RTP).
 

@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instrucciones para implementar el correo de voz basado en la nube para los usuarios alojados en Skype empresarial Server.
-ms.openlocfilehash: f99286d4a3495d0214c46d28b105ad9076d238b2
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 8fab0cf237137d87a8b7e49be65232dc0595de6d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888539"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041249"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurar el servicio de correo de voz en la nube para los usuarios locales
 
@@ -86,7 +86,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
     El nombre de la organización también es el nombre de dominio predeterminado en Office 365.
 
-- El **inquilino** se usa para identificar a su inquilino en Office 365. Para obtener más información, vea [Buscar el identificador de inquilino de Office 365](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
+- El **inquilino** se usa para identificar a su inquilino en Office 365. Para obtener más información, vea [Buscar el identificador de inquilino de Office 365](https://support.office.com/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
 
 Para asegurarse de que una directiva de correo de voz hospedado se haya creado correctamente, ejecute el siguiente comando:
 

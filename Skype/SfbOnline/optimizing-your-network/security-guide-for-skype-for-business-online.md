@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Security
 description: Guía de seguridad para Skype Empresarial Online <add description>
-ms.openlocfilehash: 268a9859439ca91b5ad7cd8d5e32edf707860cde
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e1cb2c51e688c460f86b1ee4956155bbaa2ea293
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706815"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006015"
 ---
 # <a name="security-and-skype-for-business-online"></a>Seguridad y Skype empresarial online
 
 Skype empresarial online (SfBO), como parte del servicio de Office 365, sigue todos los procedimientos recomendados de seguridad y procedimientos, como seguridad de nivel de servicio mediante defensa en profundidad, controles de cliente dentro del servicio, refuerzo de la seguridad y procedimientos recomendados operativos. Para obtener más información, visite el centro de confianza dehttps://microsoft.com/trustcenter)Microsoft (.
 
 ## <a name="trustworthy-by-design"></a>Fiabilidad basada en el diseño
-Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/en-us/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
+Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
 
 ## <a name="trustworthy-by-default"></a>Confiable de forma predeterminada
 Network communications in Skype for Business Online are encrypted by default. By requiring all servers to use certificates and by using OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP), and other industry-standard encryption techniques, including 256-bit Advanced Encryption Standard (AES) encryption, all Skype for Business Online data is protected on the network.
@@ -207,7 +207,7 @@ Los certificados de cliente proporcionan una manera alternativa para que los usu
 En SfBO, los administradores de TI pueden administrar su servicio a través del portal de administración de O365 o mediante el PowerShell remoto de inquilinos (TRPS). Los administradores de inquilinos usan la autenticación moderna para autenticar a TRPS.
 
 ### <a name="configuring-access-to-sfbo-at-your-internet-boundary"></a>Configurar el acceso a SfBO en su límite de Internet
-Para que SfBO funcione correctamente (los usuarios pueden unirse a las reuniones, etc.), los clientes necesitan configurar su acceso a Internet de modo que se permita el tráfico TCP y UDP saliente a los servicios de la nube de SfBO. Para obtener más información, consulta aquí:https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
+Para que SfBO funcione correctamente (los usuarios pueden unirse a las reuniones, etc.), los clientes necesitan configurar su acceso a Internet de modo que se permita el tráfico TCP y UDP saliente a los servicios de la nube de SfBO. Para obtener más información, consulta aquí:https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
 
 ### <a name="udp-3478-3481-and-tcp-443"></a>UDP 3478-3481 y TCP 443
 

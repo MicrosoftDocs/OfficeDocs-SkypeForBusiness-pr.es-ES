@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información acerca de qué información se envía automáticamente a los usuarios por correo electrónico cuando cambia la configuración de la Conferencia de acceso telefónico local en Skype empresarial online. '
-ms.openlocfilehash: 167b083c1cc212a6d301b0cfb2012ef9d639727d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 12904c6485a422c7df314767b58ac485c38816ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707235"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41986555"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Correos electrónicos enviados a los usuarios cuando cambia la configuración en Skype empresarial online
 
@@ -76,7 +76,7 @@ De forma predeterminada, hay cuatro tipos de mensajes de correo electrónico que
     
     Esto sucede cuando se quita la licencia de **Conferencia de audio** de un usuario o cuando se cambia el proveedor de audioconferencias de un usuario de Microsoft a un proveedor de servicios de audioconferencia de terceros o cuando se establece el proveedor en **ninguno**. Este mensaje de correo electrónico contiene las instrucciones e información para que el usuario Use la herramienta de actualización de reuniones de Skype empresarial online para quitar la información específica de la Conferencia de audio, como el número de teléfono predeterminado de la Conferencia o el identificador de la Conferencia.
     
-    Consulte [Asignar o cancelar licencia para Office 365 para empresas](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc).
+    Consulte [Asignar o cancelar licencia para Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
     
     Este es un ejemplo de este correo electrónico:
     

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general sobre el uso de un operador automático de la nube con Skype empresarial Server 2019
-ms.openlocfilehash: d34e298db9cdd8f1bbd0378e37c6d9aae2b02726
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7a3799df083d1404a2d635ee38403cc2653b9ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724230"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037822"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planeación de operadores automáticos en la nube
 
@@ -98,7 +98,7 @@ En el tutorial titulado [Small Business example-set up an operador automático](
 Cuando tenga una estructura sólida que satisfaga sus necesidades y un script que guíe a los clientes con eficacia, continúe con la [configuración de las cuentas de recursos](configure-onprem-ra.md).
 
 > [!CAUTION]
-> Como se mencionó en [KB4480742](https://support.microsoft.com/en-us/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019), no se recomienda mover los operadores automáticos de mensajería unificada de Exchange creados en el servidor 2015 a los servidores que ejecutan el servidor 2019. Por el momento, tendría que mantenerlas en un grupo de servidores de Skype empresarial Server 2015 que se ejecuten en el modo de coexistencia.
+> Como se mencionó en [KB4480742](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019), no se recomienda mover los operadores automáticos de mensajería unificada de Exchange creados en el servidor 2015 a los servidores que ejecutan el servidor 2019. Por el momento, tendría que mantenerlas en un grupo de servidores de Skype empresarial Server 2015 que se ejecuten en el modo de coexistencia.
 
 ## <a name="see-also"></a>Vea también
 

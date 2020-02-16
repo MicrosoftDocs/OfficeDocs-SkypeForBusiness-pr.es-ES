@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Use Windows PowerShell y los cmdlets Get-CsTenant y Get-CsTenantLicensingConfiguration para obtener información sobre su inquilino de Skype empresarial online.
-ms.openlocfilehash: 3c4a8f72caca634b208de5cf4aa555b88518f4da
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e4765fbbe8c705300bb93c09651034e080a8132e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706255"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010623"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Administrar las organizaciones de Skype empresarial online
 
@@ -44,7 +44,7 @@ Para devolver solo el identificador y el nombre de inquilino, use este comando.
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
-El valor del parámetro _TenantID_ es necesario cuando se ejecutan cmdlets como [set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) y [set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx).
+El valor del parámetro _TenantID_ es necesario cuando se ejecutan cmdlets como [set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) y [set-CsTenantFederationConfiguration](https://technet.microsoft.com/library/jj994080.aspx).
   
 Para buscar información sobre si la información de licencias del inquilino especificado está disponible en el centro de administración de Skype empresarial online, use el cmdlet [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) .
   

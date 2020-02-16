@@ -20,18 +20,18 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: d6251e8e86527172e6818d11b1e07da892b4b0ef
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ffefa664845f5dbe06b064e0a197a28d8df2c3da
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692885"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010813"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype
 
 Con Skype Empresarial, los usuarios pueden buscar a todos los que usen la aplicación gratuita de Skype (la aplicación gratuita) y comunicarse con ellos con mensajería instantánea. En este artículo se explica lo que necesita hacer para que puedan agregar contactos de Skype. 
   
-Para ello, debe tener [permisos de administrador](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) en Office 365.
+Para ello, debe tener [permisos de administrador](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) en Office 365.
 
 ![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
   
@@ -55,11 +55,11 @@ Para ello, debe tener [permisos de administrador](https://support.office.com/en-
     
 6.  Si usa el Firewall de Windows, Skype Empresarial abre automáticamente los puertos solicitados.
     
-    Si su organización usa otra solución para impedir que los equipos de su red se conecten a Internet, asegúrese de que los equipos cliente pueden acceder a todas las [direcciones IP y direcciones URL](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) para conectividad de Skype y búsqueda en el directorio de Skype. Esto puede requerir agregar estas direcciones a la lista de permitidos de salida en la configuración de infraestructura de proxy o firewall.
+    Si su organización usa otra solución para impedir que los equipos de su red se conecten a Internet, asegúrese de que los equipos cliente pueden acceder a todas las [direcciones IP y direcciones URL](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) para conectividad de Skype y búsqueda en el directorio de Skype. Esto puede requerir agregar estas direcciones a la lista de permitidos de salida en la configuración de infraestructura de proxy o firewall.
     
 7. **AGUARDE HASTA 24 HORAS PARA LA PRUEBA**. Cada vez que modifica la configuración de comunicaciones externas, los cambios pueden demorar hasta 24 horas en completarse en todos los centros de datos.
     
-8. Muestre a los usuarios cómo encontrar y agregar contactos de Skype a la lista de contactos de Skype Empresarial. Pídales que lean [Buscar contactos en Skype Empresarial](https://support.office.com/en-us/article/b12500ef-e37f-4d22-aade-c11277e53f19).
+8. Muestre a los usuarios cómo encontrar y agregar contactos de Skype a la lista de contactos de Skype Empresarial. Pídales que lean [Buscar contactos en Skype Empresarial](https://support.office.com/article/b12500ef-e37f-4d22-aade-c11277e53f19).
     
 ## <a name="test-and-troubleshoot"></a>Probar y solucionar problemas
 
@@ -73,7 +73,7 @@ Para probar su instalación, necesita un contacto en Skype que no esté bloquead
   
 3. En Skype Empresarial, busque su contacto en Skype y envíe una solicitud para chatear. 
     
-    Si recibes el mensaje no se pudo enviar debido a la Directiva de la empresa, deberás comprobar la [configuración del firewall](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). 
+    Si recibes el mensaje no se pudo enviar debido a la Directiva de la empresa, deberás comprobar la [configuración del firewall](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). 
     
 4. Otro método para comprobar si el problema es del firewall consiste en ir a un lugar que tenga una conexión WiFi que no esté bloqueada por este, como una cafetería, y utilizar Skype Empresarial para enviar una solicitud para chatear a su contacto de Skype. 
     

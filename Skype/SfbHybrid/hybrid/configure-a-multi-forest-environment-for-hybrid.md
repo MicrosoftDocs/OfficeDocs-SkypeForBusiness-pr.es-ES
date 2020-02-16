@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: En las secciones siguientes se proporcionan instrucciones sobre cómo configurar un entorno con varios bosques en un modelo de bosque de recursos y usuarios para proporcionar funcionalidad de Skype empresarial en un escenario híbrido.
-ms.openlocfilehash: f018699040fc202cbe827a2b8b05bd1f4371e190
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 33945b245009a221d709e13d587f435aa4c054d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726950"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983045"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Implementación de una topología de bosque de recursos
  
@@ -48,7 +48,7 @@ Los usuarios de Skype empresarial hospedados en local pueden tener Exchange hosp
   
 ## <a name="configure-forest-trusts"></a>Configurar confianzas de bosque
 
-En una topología de bosque de recursos, los bosques de recursos que hospedan Skype empresarial Server deben confiar en cada bosque de cuentas que contiene las cuentas de los usuarios que tendrán acceso a ella. Si tiene varios bosques de usuarios, para habilitar la autenticación entre bosques es importante que el enrutamiento de sufijo de nombre esté habilitado para cada una de estas confianzas de bosque. Para obtener instrucciones, consulte [Managing Forest trusts](https://technet.microsoft.com/en-us/library/cc772440.aspx). Si tiene Exchange Server implementado en otro bosque y proporciona funcionalidad para los usuarios de Skype empresarial, el bosque que hospeda a Exchange debe confiar en el bosque que hospeda Skype empresarial Server. Por ejemplo, si se implementó Exchange en el bosque de cuentas, esto implicaría que sería necesaria una confianza bidireccional entre la cuenta y los bosques de Skype empresarial en esa configuración.
+En una topología de bosque de recursos, los bosques de recursos que hospedan Skype empresarial Server deben confiar en cada bosque de cuentas que contiene las cuentas de los usuarios que tendrán acceso a ella. Si tiene varios bosques de usuarios, para habilitar la autenticación entre bosques es importante que el enrutamiento de sufijo de nombre esté habilitado para cada una de estas confianzas de bosque. Para obtener instrucciones, consulte [Managing Forest trusts](https://technet.microsoft.com/library/cc772440.aspx). Si tiene Exchange Server implementado en otro bosque y proporciona funcionalidad para los usuarios de Skype empresarial, el bosque que hospeda a Exchange debe confiar en el bosque que hospeda Skype empresarial Server. Por ejemplo, si se implementó Exchange en el bosque de cuentas, esto implicaría que sería necesaria una confianza bidireccional entre la cuenta y los bosques de Skype empresarial en esa configuración.
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Sincronizar cuentas en el bosque que hospeda Skype empresarial
 
@@ -140,6 +140,6 @@ Siga los procedimientos recomendados para configurar el entorno híbrido de Skyp
   
 ## <a name="configure-hybrid-connectivity-for-exchange-server"></a>Configurar la conectividad híbrida para Exchange Server
 
-Si es necesario, siga los procedimientos recomendados para configurar la implementación híbrida de Exchange. Para obtener más información, consulte [implementaciones híbridas de Exchange Server](https://docs.microsoft.com/en-us/exchange/exchange-hybrid). 
+Si es necesario, siga los procedimientos recomendados para configurar la implementación híbrida de Exchange. Para obtener más información, consulte [implementaciones híbridas de Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid). 
   
 

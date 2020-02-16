@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: 75294b62e516ef5e39a498f91ff6284c0a26cac5
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 80d0edfc5ba192f86d64d45d34116b55d43a5a25
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769733"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010903"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Configurar la presencia en Skype Empresarial Online
 
@@ -50,9 +50,9 @@ Como **[Administrador](https://support.office.com/article/eac4d046-1afd-4f1a-85f
 
 Para obtener información sobre lo que los usuarios pueden cambiar en Skype empresarial, consulte estos artículos:
 
-- [Controlar el acceso a la información de presencia en Skype empresarial](https://support.office.com/en-us/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
+- [Controlar el acceso a la información de presencia en Skype empresarial](https://support.office.com/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
 
-- [Establecer las opciones de estado en Skype empresarial](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
+- [Establecer las opciones de estado en Skype empresarial](https://support.office.com/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
 ## <a name="related-topics"></a>Temas relacionados
 

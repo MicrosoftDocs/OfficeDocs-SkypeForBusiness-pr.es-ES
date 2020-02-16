@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Descubra cómo probar o comprar licencias de audioconferencia (conferencia RTC) para Office 365 con el fin de configurar llamadas de conferencia a las que la gente pueda acceder. '
-ms.openlocfilehash: 5a2c797b1e31dd98d09ee8773396f599f070c3c2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d2ae202cbed7c59876ea04c9d3a5760d6495898d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680337"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010963"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Probar o comprar audioconferencias en Office 365 para Skype for Business Online
 
@@ -38,7 +38,7 @@ Sometimes people in your organization will need to use a phone to call in to a m
 
 You only need to set up audio conferencing for people who plan to schedule or lead meetings. Meeting attendees who call in to the meeting don't need any licenses assigned to them and don't need other setup.
 
-Para obtener información sobre precios, consulte [Precios de audioconferencias](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+Para obtener información sobre precios, consulte [Precios de audioconferencias](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Paso 1: comprar y asignar licencias de audioconferencia
 

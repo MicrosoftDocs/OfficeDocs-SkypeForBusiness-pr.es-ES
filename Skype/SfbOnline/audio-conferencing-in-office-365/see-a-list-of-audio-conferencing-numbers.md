@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre cómo buscar sus números de conferencias de acceso telefónico local desde Skype empresarial online. '
-ms.openlocfilehash: 6cfbc79ff4e282c1b7f8f3f6b19483aa9347f646
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6c9c9633f99edf42c3016b90f3b52c6c4c54b0d6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680517"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42011023"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Ver una lista de números de Audioconferencia de Skype for Business Online
 
@@ -35,7 +35,7 @@ ms.locfileid: "41680517"
 
 Cuando establece una Audioconferencia para usuarios de Skype for Business, puede ver los números de teléfono que están a su disposición para audioconferencias. Esta lista tendrá todos los números de teléfono de audioconferencia que están disponibles para su organización.
   
- **¿Busca los precios?** Consulta los [precios de las conferencias de audio](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+ **¿Busca los precios?** Consulta los [precios de las conferencias de audio](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
 > [!IMPORTANT]
 > **No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia.** Si desea ver si hay números de teléfono de acceso telefónico local disponibles en su zona o país o región, vaya a > **números de teléfono****de telefonía del**centro > de **Administración de Skype empresarial**, haga clic en **Agregar**y, a continuación, haga clic en **nuevos números de servicio**. Use las listas de **País o región**, **Estado o región** y **Ciudad** para filtrar la búsqueda. Además, si estás buscando **números de servicio gratuitos, selecciona gratis** en la lista **Estado o región** .
