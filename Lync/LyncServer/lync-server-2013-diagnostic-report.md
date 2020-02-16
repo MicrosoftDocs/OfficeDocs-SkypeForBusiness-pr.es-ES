@@ -124,7 +124,7 @@ En la siguiente tabla se muestra la información proporcionada en el informe de 
 <td><p>Tipo de contenido multimedia con errores. Por ejemplo, un tipo de contenido común es Application/SDP. Session Description Protocol (SDP) es un protocolo estándar de Internet que se usa para anuncios de sesiones, invitaciones a sesiones y otras formas de inicio de sesión multimedia.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Application</strong></p></td>
+<td><p><strong>Aplicación</strong></p></td>
 <td><p>No</p></td>
 <td><p>Aplicación implicada en el error.</p></td>
 </tr>

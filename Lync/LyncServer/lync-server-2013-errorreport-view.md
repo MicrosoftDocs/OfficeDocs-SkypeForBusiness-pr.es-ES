@@ -148,7 +148,7 @@ La vista ErrorReport almacena información sobre los errores que se notifican. C
 <td><p>Nombre del servidor que originó el error (si el informe se envió desde un componente de servidor).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Application</strong></p></td>
+<td><p><strong>Aplicación</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td><p>Nombre de la aplicación que originó el error (si el informe se envió desde un componente de servidor).</p></td>
 </tr>
