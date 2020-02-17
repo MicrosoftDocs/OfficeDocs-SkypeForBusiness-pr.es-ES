@@ -41,6 +41,7 @@
 ## [Configurar la moderación de canales en Teams](manage-channel-moderation-in-teams.md)
 ## [Administrar directivas de mensajería](messaging-policies-in-teams.md)
 ## [La presencia del usuario en Teams](presence-admins.md)
+## [Administrar etiquetas en Teams](manage-tags.md)
 ## [Ver análisis entre equipos y por equipo en Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Renovación y expiración del equipo](team-expiration-renewal.md)
 ## [Archivar o eliminar un equipo](archive-or-delete-a-team.md)
@@ -95,6 +96,7 @@
 ### [Administrar la versión gratuita de Microsoft Teams](manage-freemium.md)
 ### [Asignar miembros y propietarios de equipo en Teams](assign-roles-permissions.md)
 ### [Editar la configuración de usuario de Teams de forma masiva](edit-user-settings-in-bulk.md)
+### [Asignar directivas a los usuarios](assign-policies.md)
 ### [Administrar directivas de permisos de aplicación en Teams](teams-app-permission-policies.md)
 ### [Administrar directivas de configuración de aplicación en Teams](teams-app-setup-policies.md)
 ### [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md)
@@ -636,7 +638,6 @@
 ## [Directivas de control de aplicaciones de AppLocker en Teams](applocker-in-teams.md)
 ## Directivas de retención en Teams
 ### [Información general](retention-policies.md)
-### [Preguntas frecuentes sobre las directivas de retención](retention-policies-FAQ.md)
 ### [Problemas conocidos de las directivas de retención](retention-policies-known-issues.md)
 ## [Ubicación de los datos en Teams](location-of-data-in-teams.md)
 ## [Declaración de accesibilidad de cumplimiento para Microsoft Teams en Francia](accessibility-declaration-of-conformance-in-france-for-teams.md)
