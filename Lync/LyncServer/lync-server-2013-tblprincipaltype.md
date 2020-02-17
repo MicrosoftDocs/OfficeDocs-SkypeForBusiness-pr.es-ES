@@ -120,19 +120,19 @@ tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan pa
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>Entidad de seguridad genérica sin tipo conocido. No se utiliza en la tabla tblPrincipal.</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>segundo</p></td>
 <td><p>AnyUser</p></td>
 <td><p>Entidad de seguridad genérica de tipo de usuario. No se utiliza en la tabla tblPrincipal.</p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>AnyGroup</p></td>
 <td><p>Entidad de seguridad genérica con semántica de grupo. No se utiliza en la tabla tblPrincipal.</p></td>
 <td></td>

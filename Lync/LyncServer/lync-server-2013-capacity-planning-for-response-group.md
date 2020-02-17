@@ -80,7 +80,7 @@ En la tabla siguiente se describe el modelo de usuario del grupo de respuesta qu
 <tr class="odd">
 <td><p>Llamadas entrantes por segundo</p></td>
 <td><p>16 </p></td>
-<td><p>2 </p></td>
+<td><p>segundo</p></td>
 </tr>
 <tr class="even">
 <td><p>Llamadas simultáneas conectadas a IVR o música</p></td>

@@ -53,15 +53,15 @@ El Informe de distribución de métricas de calidad de medios permite ver un gr�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>segundo</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
