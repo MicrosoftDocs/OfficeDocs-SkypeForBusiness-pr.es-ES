@@ -17,18 +17,20 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 53c17cdd3a1b6726e0219147e4dadd1cba7b25ff
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 0f846029002529d221b079140cf7de8ae618f26c
+ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827938"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42089743"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de teléfono a Microsoft Teams
 
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+
 Use el Asistente de migración en el centro de administración de Microsoft Teams para transferir los números de teléfono de su proveedor de servicios actual a teams. Después de trasladar los números de teléfono a Teams, Microsoft se convertirá en su proveedor de servicios y le facturará los números de teléfono.
 
-Antes de empezar, le recomendamos que revise la información de la [solicitud de portabilidad](port-order-overview.md). Si tiene números de servicio para puentes de conferencias de acceso telefónico local, operadores automáticos u otros números de servicio, números de teléfono gratuitos o más de 999 números de teléfono de usuario (suscriptor) que necesita transferir a Teams, vea [administrar números de teléfono de su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para descargar los formularios correctos y enviarlos.
+Antes de empezar, le recomendamos que revise la información en [¿Qué es un pedido de portabilidad?](port-order-overview.md) Si tiene números de servicio para puentes de conferencias de acceso telefónico local, operadores automáticos u otros números de servicio, números de teléfono gratuitos o más de 999 números de teléfono de usuario (suscriptor) que necesita transferir a Teams, vea [administrar números de teléfono de su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para descargar los formularios correctos y enviarlos.
 
   > [!NOTE]
   > Procesamos los pedidos de los puertos para la transferencia de números de teléfono solo en días hábiles de Estados Unidos y no en días festivos ni fines de semana.
@@ -36,7 +38,7 @@ Antes de empezar, le recomendamos que revise la información de la [solicitud de
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Crear una solicitud de portabilidad y transferir los números de teléfono a teams
 
 > [!NOTE]
-> Si su país o región no aparecen en la lista del Asistente para la migración en el centro de administración de Microsoft Teams, puede [enviar manualmente una solicitud de portabilidad](manually-submit-port-order.md).
+> **En este momento, puede usar este asistente para obtener números de teléfono para el Reino Unido y Canadá**. Para obtener números de teléfono para otros países y regiones, puede [enviar manualmente una solicitud de portabilidad](manually-submit-port-order.md). Para obtener el formulario necesario para enviar manualmente una solicitud de portabilidad, seleccione su país o región en la lista desplegable [administrar los números de teléfono de su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**números de teléfono**de **voz** > . Haga clic en **números**y, a continuación, haga clic en **Puerto** para iniciar el Asistente para la migración.
 2. Revise la información de la **Página INTRODUCCIÓN** y, después, cuando esté listo, haga clic en **siguiente**.
@@ -87,7 +89,7 @@ Antes de empezar, le recomendamos que revise la información de la [solicitud de
 
 Cuando recibamos tu solicitud de portabilidad, recibirás un mensaje de correo electrónico para verificar tu solicitud. Tu solicitud se ha verificado y actualizado diariamente y se te notificará su progreso y estado en el correo electrónico. Si su solicitud es rechazada, se le pedirá que abra un vale de soporte técnico.
 
-Para ver el estado de la solicitud de portabilidad, en el navegación izquierdo del centro de administración de Microsoft Teams, vaya a >**pedidos**de **voz** > y, a continuación, haga clic en **historial de pedidos**. Cada estado de pedido de puerto se muestra en la columna **Estado** . Para obtener más información, consulte [¿cuál es el estado de sus solicitudes de portabilidad?](port-order-status.md).
+Para ver el estado de la solicitud de portabilidad, en el navegación izquierdo del centro de administración de Microsoft Teams, vaya a >**pedidos**de **voz** > y, a continuación, haga clic en **historial de pedidos**. Cada estado de pedido de puerto se muestra en la columna **Estado** . Para obtener más información, consulte [¿cuál es el estado de sus solicitudes de portabilidad?](port-order-status.md)
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Más información sobre cómo configurar teléfonos de área común para salas, áreas de recepción y salas de conferencias '
-ms.openlocfilehash: dff06d43e196b999d06c9fa78e7d66ad7a162998
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5997137420a9cac0517f67a81c7dedc7b779b715
+ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838040"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42089733"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configuración de la licencia de teléfono de área común de Microsoft Teams
 > [!NOTE]
@@ -50,7 +50,10 @@ En primer lugar, debe comprar una licencia de teléfono de área común (CAP) y 
 4. Expanda **suscripciones de complementos** y, a continuación, haga clic para comprar un plan de llamadas. Elige el **plan de llamadas nacionales** o el **plan de llamadas nacionales e internacionales**.
 
 > [!NOTE]
-> No necesita una licencia de sistema telefónico. Está incluida en la licencia del teléfono de área común.
+> Si está usando el enrutamiento directo de Microsoft Phone System, no necesita una licencia de plan de llamadas.
+
+> [!NOTE]
+> No es necesario agregar una licencia de sistema telefónico. Está incluida en la licencia del teléfono de área común.
 
 Para obtener más información sobre las licencias, vea [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -89,6 +92,9 @@ La licencia de telefonía por área común admite:
 6. Asigne las licencias al usuario. En la misma página, haga clic para expandir las **Licencias de producto**. Enciende el teléfono de área común y elige un plan de **llamadas nacionales** o un **plan de llamadas nacionales e internacionales**. 
 
     ![Captura de pantalla que muestra la asignación de licencias](media/set-up-common-area-phone-image2.png)
+
+> [!NOTE]
+> Si está usando el enrutamiento directo de Microsoft Phone System, no es necesario que asigne una licencia de plan de llamadas.
 
 Para obtener más información, vea [Agregar un usuario](https://docs.microsoft.com/office365/admin/add-users/add-users?redirectSourcePath=%252farticle%252f1970f7d6-03b5-442f-b385-5880b9c256ec&view=o365-worldwide).
 
