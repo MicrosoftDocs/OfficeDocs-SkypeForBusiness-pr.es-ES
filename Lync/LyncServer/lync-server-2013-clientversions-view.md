@@ -70,7 +70,7 @@ La vista ClientVersions almacena información sobre los diversos tipos de client
 <td><p>Número único de identificación de esta versión y este tipo de cliente.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Version</strong></p></td>
+<td><p><strong>Versión</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td><p>Representa el agente de usuario.</p></td>
 </tr>

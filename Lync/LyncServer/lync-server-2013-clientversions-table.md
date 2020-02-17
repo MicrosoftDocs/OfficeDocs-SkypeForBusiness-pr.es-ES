@@ -63,7 +63,7 @@ La tabla ClientVersions es una tabla de apoyo que almacena una lista de los dist
 <td><p>Número único que identifica esta versión y este tipo de cliente.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Version</strong></p></td>
+<td><p><strong>Versión</strong></p></td>
 <td><p><strong>nvarchar (256)</strong></p></td>
 <td></td>
 <td><p>Nombre de la versión.</p></td>

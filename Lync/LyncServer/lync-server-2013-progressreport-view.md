@@ -90,7 +90,7 @@ La vista ProgressReport almacena información sobre las sesiones finalizadas. So
 <td><p>Nombre del servidor que originó el error (si el informe se envió desde un componente de servidor).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Application</strong></p></td>
+<td><p><strong>Aplicación</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td><p>Nombre de la aplicación que generó el error (si el informe se envió desde un componente de servidor).</p></td>
 </tr>
