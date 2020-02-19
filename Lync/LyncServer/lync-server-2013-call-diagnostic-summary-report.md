@@ -12,20 +12,20 @@ ms:contentKeyID: 48184789
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 112a21dbb131e0bd34729584b8fb58399b192f70
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0ebd3da761fe9923f05c2ddd5dfced852b4b27e6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044492"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134246"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-diagnostic-summary-report-in-lync-server-2013"></a><span data-ttu-id="d4785-102">Informe de Resumen de diagnósticos de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d4785-102">Call Diagnostic Summary Report in Lync Server 2013</span></span>
+# <a name="call-diagnostic-summary-report-in-lync-server-2013"></a><span data-ttu-id="d29a9-102">Informe de Resumen de diagnósticos de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d29a9-102">Call Diagnostic Summary Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,51 +35,51 @@ ms.locfileid: "42044492"
 
 <span> </span>
 
-<span data-ttu-id="d4785-103">_**Última modificación del tema:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="d4785-103">_**Topic Last Modified:** 2012-06-06_</span></span>
+<span data-ttu-id="d29a9-103">_**Última modificación del tema:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="d29a9-103">_**Topic Last Modified:** 2012-06-06_</span></span>
 
-<span data-ttu-id="d4785-p101">El informe de resumen de diagnósticos de llamadas proporciona un resumen general de las sesiones de punto a punto y las sesiones de conferencia con errores. El informe muestra el porcentaje general de errores para ambos tipos de sesiones y desglosa la información sobre los errores por tipo de modalidad de sesión:</span><span class="sxs-lookup"><span data-stu-id="d4785-p101">The Call Diagnostic Summary Report provides an overall look at failed peer-to-peer and conferencing sessions. The report shows the overall failure rate for both types of sessions, and further breaks the failure information down by session modality type:</span></span>
+<span data-ttu-id="d29a9-p101">El informe de resumen de diagnósticos de llamadas proporciona un resumen general de las sesiones de punto a punto y las sesiones de conferencia con errores. El informe muestra el porcentaje general de errores para ambos tipos de sesiones y desglosa la información sobre los errores por tipo de modalidad de sesión:</span><span class="sxs-lookup"><span data-stu-id="d29a9-p101">The Call Diagnostic Summary Report provides an overall look at failed peer-to-peer and conferencing sessions. The report shows the overall failure rate for both types of sessions, and further breaks the failure information down by session modality type:</span></span>
 
-  - <span data-ttu-id="d4785-106">Mensajería instantánea</span><span class="sxs-lookup"><span data-stu-id="d4785-106">Instant messaging</span></span>
+  - <span data-ttu-id="d29a9-106">Mensajería instantánea</span><span class="sxs-lookup"><span data-stu-id="d29a9-106">Instant messaging</span></span>
 
-  - <span data-ttu-id="d4785-107">Uso compartido de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="d4785-107">Application sharing</span></span>
+  - <span data-ttu-id="d29a9-107">Uso compartido de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="d29a9-107">Application sharing</span></span>
 
-  - <span data-ttu-id="d4785-108">Transferencia de archivos</span><span class="sxs-lookup"><span data-stu-id="d4785-108">File transfer</span></span>
+  - <span data-ttu-id="d29a9-108">Transferencia de archivos</span><span class="sxs-lookup"><span data-stu-id="d29a9-108">File transfer</span></span>
 
-  - <span data-ttu-id="d4785-109">Audio</span><span class="sxs-lookup"><span data-stu-id="d4785-109">Audio</span></span>
+  - <span data-ttu-id="d29a9-109">Audio</span><span class="sxs-lookup"><span data-stu-id="d29a9-109">Audio</span></span>
 
-  - <span data-ttu-id="d4785-110">Vídeo</span><span class="sxs-lookup"><span data-stu-id="d4785-110">Video</span></span>
+  - <span data-ttu-id="d29a9-110">Vídeo</span><span class="sxs-lookup"><span data-stu-id="d29a9-110">Video</span></span>
 
 <div>
 
-## <a name="accessing-the-call-diagnostic-summary-report"></a><span data-ttu-id="d4785-111">Acceso al informe de resumen de diagnósticos de llamadas</span><span class="sxs-lookup"><span data-stu-id="d4785-111">Accessing the Call Diagnostic Summary Report</span></span>
+## <a name="accessing-the-call-diagnostic-summary-report"></a><span data-ttu-id="d29a9-111">Acceso al informe de resumen de diagnósticos de llamadas</span><span class="sxs-lookup"><span data-stu-id="d29a9-111">Accessing the Call Diagnostic Summary Report</span></span>
 
-<span data-ttu-id="d4785-112">El informe de resumen de diagnósticos de llamadas es accesible desde la página principal de informes de supervisión.</span><span class="sxs-lookup"><span data-stu-id="d4785-112">The Call Diagnostic Summary Report is accessed from the Monitoring Reports Home page.</span></span> <span data-ttu-id="d4785-113">Desde el informe de Resumen de diagnósticos de llamadas puede obtener acceso al [Informe de diagnósticos de actividad punto a punto en Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) haciendo clic en la métrica tasa de errores en la sección Resumen de sesiones punto a punto del informe.</span><span class="sxs-lookup"><span data-stu-id="d4785-113">From the Call Diagnostic Summary Report you can access the [Peer-to-Peer Activity Diagnostic Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) by clicking the Failure rate metric under the Peer-to-Peer Session Summary section of the report.</span></span> <span data-ttu-id="d4785-114">También puede tener acceso al [Informe de diagnósticos de conferencia en Lync Server 2013](lync-server-2013-conference-diagnostic-report.md) haciendo clic en cualquiera de las siguientes métricas de Conferencia:</span><span class="sxs-lookup"><span data-stu-id="d4785-114">You can also access the [Conference Diagnostic Report in Lync Server 2013](lync-server-2013-conference-diagnostic-report.md) by clicking any of the following conference metrics:</span></span>
+<span data-ttu-id="d29a9-112">El informe de resumen de diagnósticos de llamadas es accesible desde la página principal de informes de supervisión.</span><span class="sxs-lookup"><span data-stu-id="d29a9-112">The Call Diagnostic Summary Report is accessed from the Monitoring Reports Home page.</span></span> <span data-ttu-id="d29a9-113">Desde el informe de Resumen de diagnósticos de llamadas puede obtener acceso al [Informe de diagnósticos de actividad punto a punto en Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) haciendo clic en la métrica tasa de errores en la sección Resumen de sesiones punto a punto del informe.</span><span class="sxs-lookup"><span data-stu-id="d29a9-113">From the Call Diagnostic Summary Report you can access the [Peer-to-Peer Activity Diagnostic Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) by clicking the Failure rate metric under the Peer-to-Peer Session Summary section of the report.</span></span> <span data-ttu-id="d29a9-114">También puede tener acceso al [Informe de diagnósticos de conferencia en Lync Server 2013](lync-server-2013-conference-diagnostic-report.md) haciendo clic en cualquiera de las siguientes métricas de Conferencia:</span><span class="sxs-lookup"><span data-stu-id="d29a9-114">You can also access the [Conference Diagnostic Report in Lync Server 2013](lync-server-2013-conference-diagnostic-report.md) by clicking any of the following conference metrics:</span></span>
 
-  - <span data-ttu-id="d4785-115">Porcentaje de errores de sesión generales</span><span class="sxs-lookup"><span data-stu-id="d4785-115">Overall session failure rate</span></span>
+  - <span data-ttu-id="d29a9-115">Porcentaje de errores de sesión generales</span><span class="sxs-lookup"><span data-stu-id="d29a9-115">Overall session failure rate</span></span>
 
-  - <span data-ttu-id="d4785-116">Porcentaje de errores de foco</span><span class="sxs-lookup"><span data-stu-id="d4785-116">Focus failure rate</span></span>
+  - <span data-ttu-id="d29a9-116">Porcentaje de errores de foco</span><span class="sxs-lookup"><span data-stu-id="d29a9-116">Focus failure rate</span></span>
 
-  - <span data-ttu-id="d4785-117">Porcentaje de errores de MCU</span><span class="sxs-lookup"><span data-stu-id="d4785-117">MCU failure rate</span></span>
+  - <span data-ttu-id="d29a9-117">Porcentaje de errores de MCU</span><span class="sxs-lookup"><span data-stu-id="d29a9-117">MCU failure rate</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a><span data-ttu-id="d4785-118">Optimización del uso del informe de resumen de diagnósticos de llamadas</span><span class="sxs-lookup"><span data-stu-id="d4785-118">Making the Best Use of the Call Diagnostic Summary Report</span></span>
+## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a><span data-ttu-id="d29a9-118">Optimización del uso del informe de resumen de diagnósticos de llamadas</span><span class="sxs-lookup"><span data-stu-id="d29a9-118">Making the Best Use of the Call Diagnostic Summary Report</span></span>
 
-<span data-ttu-id="d4785-119">El informe de Resumen de diagnósticos de llamadas incluye gráficos que comparan las tasas de errores para las distintas modalidades usadas en Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d4785-119">The Call Diagnostic Summary Report includes graphs that compare failure rates for the various modalities used in Microsoft Lync Server 2013.</span></span> <span data-ttu-id="d4785-120">Las columnas de estos gráficos son realmente hotlinks; por ejemplo, si hace clic en la columna mensajería instantánea para sesiones punto a punto, profundizará en una instancia del [Informe de diagnósticos de actividad punto a punto en Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md), un informe que proporciona detalles adicionales sobre todas las sesiones de mensajería instantánea incluidas en el informe de Resumen de diagnósticos de llamadas.</span><span class="sxs-lookup"><span data-stu-id="d4785-120">The columns in these graphs are actually hotlinks; for example, if you click the Instant messaging column for peer-to-peer sessions, you'll drill down to an instance of the [Peer-to-Peer Activity Diagnostic Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md), a report that provides additional details about all the instant messaging sessions included in the Call Diagnostic Summary Report.</span></span>
+<span data-ttu-id="d29a9-119">El informe de Resumen de diagnósticos de llamadas incluye gráficos que comparan las tasas de errores para las distintas modalidades usadas en Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d29a9-119">The Call Diagnostic Summary Report includes graphs that compare failure rates for the various modalities used in Microsoft Lync Server 2013.</span></span> <span data-ttu-id="d29a9-120">Las columnas de estos gráficos son realmente hotlinks; por ejemplo, si hace clic en la columna mensajería instantánea para sesiones punto a punto, profundizará en una instancia del [Informe de diagnósticos de actividad punto a punto en Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md), un informe que proporciona detalles adicionales sobre todas las sesiones de mensajería instantánea incluidas en el informe de Resumen de diagnósticos de llamadas.</span><span class="sxs-lookup"><span data-stu-id="d29a9-120">The columns in these graphs are actually hotlinks; for example, if you click the Instant messaging column for peer-to-peer sessions, you'll drill down to an instance of the [Peer-to-Peer Activity Diagnostic Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md), a report that provides additional details about all the instant messaging sessions included in the Call Diagnostic Summary Report.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="d4785-121">Filtros</span><span class="sxs-lookup"><span data-stu-id="d4785-121">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="d29a9-121">Filtros</span><span class="sxs-lookup"><span data-stu-id="d29a9-121">Filters</span></span>
 
-<span data-ttu-id="d4785-p104">Los filtros constituyen un modo de obtener un conjunto de datos más acorde con lo que se busca o de ver los datos devueltos de diversas formas. Por ejemplo, el informe de resumen de diagnósticos de llamadas permite filtrar por elementos como el grupo de registradores o el servidor perimetral empleado en la sesión. También puede elegir el modo en que los datos deben agruparse (en este caso, las llamadas se agrupan por hora, día, semana o mes).</span><span class="sxs-lookup"><span data-stu-id="d4785-p104">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Call Diagnostic Summary Report enables you to filter on such things as the Registrar pool or Edge Server used in the session. You can also choose how data should be grouped. In this case, calls are grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="d29a9-p104">Los filtros constituyen un modo de obtener un conjunto de datos más acorde con lo que se busca o de ver los datos devueltos de diversas formas. Por ejemplo, el informe de resumen de diagnósticos de llamadas permite filtrar por elementos como el grupo de registradores o el servidor perimetral empleado en la sesión. También puede elegir el modo en que los datos deben agruparse (en este caso, las llamadas se agrupan por hora, día, semana o mes).</span><span class="sxs-lookup"><span data-stu-id="d29a9-p104">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Call Diagnostic Summary Report enables you to filter on such things as the Registrar pool or Edge Server used in the session. You can also choose how data should be grouped. In this case, calls are grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="d4785-126">En la siguiente tabla se muestran los filtros que se pueden usar en el informe de resumen de diagnósticos de llamadas.</span><span class="sxs-lookup"><span data-stu-id="d4785-126">The following table lists the filters that you can use with the Call Diagnostic Summary Report.</span></span>
+<span data-ttu-id="d29a9-126">En la siguiente tabla se muestran los filtros que se pueden usar en el informe de resumen de diagnósticos de llamadas.</span><span class="sxs-lookup"><span data-stu-id="d29a9-126">The following table lists the filters that you can use with the Call Diagnostic Summary Report.</span></span>
 
-### <a name="call-diagnostic-summary-report-filters"></a><span data-ttu-id="d4785-127">Filtros del informe de resumen de diagnósticos de llamadas</span><span class="sxs-lookup"><span data-stu-id="d4785-127">Call Diagnostic Summary Report Filters</span></span>
+### <a name="call-diagnostic-summary-report-filters"></a><span data-ttu-id="d29a9-127">Filtros del informe de resumen de diagnósticos de llamadas</span><span class="sxs-lookup"><span data-stu-id="d29a9-127">Call Diagnostic Summary Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -88,45 +88,45 @@ ms.locfileid: "42044492"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d4785-128">Nombre</span><span class="sxs-lookup"><span data-stu-id="d4785-128">Name</span></span></th>
-<th><span data-ttu-id="d4785-129">Descripción</span><span class="sxs-lookup"><span data-stu-id="d4785-129">Description</span></span></th>
+<th><span data-ttu-id="d29a9-128">Nombre</span><span class="sxs-lookup"><span data-stu-id="d29a9-128">Name</span></span></th>
+<th><span data-ttu-id="d29a9-129">Descripción</span><span class="sxs-lookup"><span data-stu-id="d29a9-129">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d4785-130"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="d4785-130"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="d4785-p105">Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="d4785-p105">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="d4785-133">7/7/2012 1:00 pm</span><span class="sxs-lookup"><span data-stu-id="d4785-133">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="d4785-p106">Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</span><span class="sxs-lookup"><span data-stu-id="d4785-p106">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="d4785-136">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="d4785-136">7/7/2012</span></span></p>
-<p><span data-ttu-id="d4785-137">Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</span><span class="sxs-lookup"><span data-stu-id="d4785-137">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="d4785-138">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="d4785-138">7/3/2012</span></span></p>
-<p><span data-ttu-id="d4785-139">Las semanas siempre empiezan en domingo y terminan en sábado.</span><span class="sxs-lookup"><span data-stu-id="d4785-139">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-130"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="d29a9-130"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="d29a9-p105">Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="d29a9-p105">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="d29a9-133">7/7/2012 1:00 pm</span><span class="sxs-lookup"><span data-stu-id="d29a9-133">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="d29a9-p106">Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</span><span class="sxs-lookup"><span data-stu-id="d29a9-p106">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="d29a9-136">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="d29a9-136">7/7/2012</span></span></p>
+<p><span data-ttu-id="d29a9-137">Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</span><span class="sxs-lookup"><span data-stu-id="d29a9-137">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="d29a9-138">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="d29a9-138">7/3/2012</span></span></p>
+<p><span data-ttu-id="d29a9-139">Las semanas siempre empiezan en domingo y terminan en sábado.</span><span class="sxs-lookup"><span data-stu-id="d29a9-139">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d4785-140"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="d4785-140"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="d4785-p107">Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="d4785-p107">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="d4785-143">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="d4785-143">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="d4785-p108">Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</span><span class="sxs-lookup"><span data-stu-id="d4785-p108">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="d4785-146">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="d4785-146">7/7/2012</span></span></p>
-<p><span data-ttu-id="d4785-147">Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</span><span class="sxs-lookup"><span data-stu-id="d4785-147">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="d4785-148">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="d4785-148">7/3/2012</span></span></p>
-<p><span data-ttu-id="d4785-149">Las semanas siempre van del domingo al sábado.</span><span class="sxs-lookup"><span data-stu-id="d4785-149">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-140"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="d29a9-140"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="d29a9-p107">Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="d29a9-p107">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="d29a9-143">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="d29a9-143">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="d29a9-p108">Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</span><span class="sxs-lookup"><span data-stu-id="d29a9-p108">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="d29a9-146">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="d29a9-146">7/7/2012</span></span></p>
+<p><span data-ttu-id="d29a9-147">Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</span><span class="sxs-lookup"><span data-stu-id="d29a9-147">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="d29a9-148">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="d29a9-148">7/3/2012</span></span></p>
+<p><span data-ttu-id="d29a9-149">Las semanas siempre van del domingo al sábado.</span><span class="sxs-lookup"><span data-stu-id="d29a9-149">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d4785-150"><strong>Intervalo de</strong></span><span class="sxs-lookup"><span data-stu-id="d4785-150"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="d4785-p109">Intervalo de tiempo. Seleccione una de las siguientes opciones:</span><span class="sxs-lookup"><span data-stu-id="d4785-p109">Time interval. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="d29a9-150"><strong>Intervalo de</strong></span><span class="sxs-lookup"><span data-stu-id="d29a9-150"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="d29a9-p109">Intervalo de tiempo. Seleccione una de las siguientes opciones:</span><span class="sxs-lookup"><span data-stu-id="d29a9-p109">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="d4785-153">Cada hora (se puede ver un máximo de 25 horas)</span><span class="sxs-lookup"><span data-stu-id="d4785-153">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="d4785-154">Cada día (se puede ver un máximo de 31 días)</span><span class="sxs-lookup"><span data-stu-id="d4785-154">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="d4785-155">Cada semana (se puede ver un máximo de 12 semanas)</span><span class="sxs-lookup"><span data-stu-id="d4785-155">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="d4785-156">Cada mes (se puede ver un máximo de 12 meses)</span><span class="sxs-lookup"><span data-stu-id="d4785-156">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="d29a9-153">Cada hora (se puede ver un máximo de 25 horas)</span><span class="sxs-lookup"><span data-stu-id="d29a9-153">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="d29a9-154">Cada día (se puede ver un máximo de 31 días)</span><span class="sxs-lookup"><span data-stu-id="d29a9-154">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="d29a9-155">Cada semana (se puede ver un máximo de 12 semanas)</span><span class="sxs-lookup"><span data-stu-id="d29a9-155">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="d29a9-156">Cada mes (se puede ver un máximo de 12 meses)</span><span class="sxs-lookup"><span data-stu-id="d29a9-156">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="d4785-p110">Si las fecha de inicio y finalización superan la cantidad máxima de valores permitidos para el intervalo seleccionado, solo se mostrará la cantidad máxima de valores (comenzando en la fecha de inicio). Por ejemplo, si selecciona el intervalo Cada día con una fecha de inicio del 7/8/2012 y una fecha de finalización del 28/9/2012, aparecerán los datos correspondientes a los días entre el 7/8/2012 a las 12:00 horas y el 7/9/2012 a las 12:00 horas (es decir, datos para un total de 31 días).</span><span class="sxs-lookup"><span data-stu-id="d4785-p110">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="d29a9-p110">Si las fecha de inicio y finalización superan la cantidad máxima de valores permitidos para el intervalo seleccionado, solo se mostrará la cantidad máxima de valores (comenzando en la fecha de inicio). Por ejemplo, si selecciona el intervalo Cada día con una fecha de inicio del 7/8/2012 y una fecha de finalización del 28/9/2012, aparecerán los datos correspondientes a los días entre el 7/8/2012 a las 12:00 horas y el 7/9/2012 a las 12:00 horas (es decir, datos para un total de 31 días).</span><span class="sxs-lookup"><span data-stu-id="d29a9-p110">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d4785-159"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="d4785-159"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="d4785-p111">Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en <strong>[Todo]</strong> para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="d4785-p111">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-159"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="d29a9-159"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="d29a9-p111">Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en <strong>[Todo]</strong> para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="d29a9-p111">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -136,11 +136,11 @@ ms.locfileid: "42044492"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="d4785-163">Métricas de las sesiones punto a punto</span><span class="sxs-lookup"><span data-stu-id="d4785-163">Metrics for Peer-to-Peer Sessions</span></span>
+## <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="d29a9-163">Métricas de las sesiones punto a punto</span><span class="sxs-lookup"><span data-stu-id="d29a9-163">Metrics for Peer-to-Peer Sessions</span></span>
 
-<span data-ttu-id="d4785-164">En la siguiente tabla se muestra la información recogida el informe de resumen de diagnósticos de llamadas de las sesiones punto a punto (esto es, sesiones en las que solo participan dos usuarios).</span><span class="sxs-lookup"><span data-stu-id="d4785-164">The following table lists the information provided in the Call Diagnostic Summary Report for peer-to-peer sessions (that is, sessions involving just two participants).</span></span>
+<span data-ttu-id="d29a9-164">En la siguiente tabla se muestra la información recogida el informe de resumen de diagnósticos de llamadas de las sesiones punto a punto (esto es, sesiones en las que solo participan dos usuarios).</span><span class="sxs-lookup"><span data-stu-id="d29a9-164">The following table lists the information provided in the Call Diagnostic Summary Report for peer-to-peer sessions (that is, sessions involving just two participants).</span></span>
 
-### <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="d4785-165">Métricas de las sesiones punto a punto</span><span class="sxs-lookup"><span data-stu-id="d4785-165">Metrics for Peer-to-Peer Sessions</span></span>
+### <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="d29a9-165">Métricas de las sesiones punto a punto</span><span class="sxs-lookup"><span data-stu-id="d29a9-165">Metrics for Peer-to-Peer Sessions</span></span>
 
 <table>
 <colgroup>
@@ -150,21 +150,21 @@ ms.locfileid: "42044492"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d4785-166">Nombre</span><span class="sxs-lookup"><span data-stu-id="d4785-166">Name</span></span></th>
-<th><span data-ttu-id="d4785-167">¿Se pueden ordenar los datos en este elemento?</span><span class="sxs-lookup"><span data-stu-id="d4785-167">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="d4785-168">Descripción</span><span class="sxs-lookup"><span data-stu-id="d4785-168">Description</span></span></th>
+<th><span data-ttu-id="d29a9-166">Nombre</span><span class="sxs-lookup"><span data-stu-id="d29a9-166">Name</span></span></th>
+<th><span data-ttu-id="d29a9-167">¿Se pueden ordenar los datos en este elemento?</span><span class="sxs-lookup"><span data-stu-id="d29a9-167">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="d29a9-168">Descripción</span><span class="sxs-lookup"><span data-stu-id="d29a9-168">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d4785-169"><strong>Total de sesiones</strong></span><span class="sxs-lookup"><span data-stu-id="d4785-169"><strong>Total sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="d4785-170">No</span><span class="sxs-lookup"><span data-stu-id="d4785-170">No</span></span></p></td>
-<td><p><span data-ttu-id="d4785-171">Número total de sesiones punto a punto que ha tenido lugar.</span><span class="sxs-lookup"><span data-stu-id="d4785-171">Total number of peer-to-peer sessions conducted.</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-169"><strong>Total de sesiones</strong></span><span class="sxs-lookup"><span data-stu-id="d29a9-169"><strong>Total sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="d29a9-170">No</span><span class="sxs-lookup"><span data-stu-id="d29a9-170">No</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-171">Número total de sesiones punto a punto que ha tenido lugar.</span><span class="sxs-lookup"><span data-stu-id="d29a9-171">Total number of peer-to-peer sessions conducted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d4785-172"><strong>Porcentaje de errores</strong></span><span class="sxs-lookup"><span data-stu-id="d4785-172"><strong>Failure rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="d4785-173">No</span><span class="sxs-lookup"><span data-stu-id="d4785-173">No</span></span></p></td>
-<td><p><span data-ttu-id="d4785-p112">Porcentaje de las sesiones punto a punto con errores. Al hacer clic en este elemento, el informe muestra el informe de diagnósticos de actividad punto a punto, que contiene información más detallada sobre las sesiones punto a punto con errores.</span><span class="sxs-lookup"><span data-stu-id="d4785-p112">Percentage of peer-to-peer sessions that failed. When you click this item, the report shows the Peer-to-Peer Activity Diagnostic report, which displays more detailed information about the failed peer-to-peer sessions.</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-172"><strong>Porcentaje de errores</strong></span><span class="sxs-lookup"><span data-stu-id="d29a9-172"><strong>Failure rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="d29a9-173">No</span><span class="sxs-lookup"><span data-stu-id="d29a9-173">No</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-p112">Porcentaje de las sesiones punto a punto con errores. Al hacer clic en este elemento, el informe muestra el informe de diagnósticos de actividad punto a punto, que contiene información más detallada sobre las sesiones punto a punto con errores.</span><span class="sxs-lookup"><span data-stu-id="d29a9-p112">Percentage of peer-to-peer sessions that failed. When you click this item, the report shows the Peer-to-Peer Activity Diagnostic report, which displays more detailed information about the failed peer-to-peer sessions.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -174,11 +174,11 @@ ms.locfileid: "42044492"
 
 <div>
 
-## <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="d4785-176">Métricas de las sesiones de conferencia</span><span class="sxs-lookup"><span data-stu-id="d4785-176">Metrics for Conferencing Sessions</span></span>
+## <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="d29a9-176">Métricas de las sesiones de conferencia</span><span class="sxs-lookup"><span data-stu-id="d29a9-176">Metrics for Conferencing Sessions</span></span>
 
-<span data-ttu-id="d4785-177">En la siguiente tabla se muestra la información recogida el informe de resumen de diagnósticos de llamadas de las sesiones de conferencia (esto es, sesiones en las que participan tres o más usuarios).</span><span class="sxs-lookup"><span data-stu-id="d4785-177">The following table lists the information provided in the Call Diagnostic Report for conferencing sessions (that is, sessions involving three or more participants).</span></span>
+<span data-ttu-id="d29a9-177">En la siguiente tabla se muestra la información recogida el informe de resumen de diagnósticos de llamadas de las sesiones de conferencia (esto es, sesiones en las que participan tres o más usuarios).</span><span class="sxs-lookup"><span data-stu-id="d29a9-177">The following table lists the information provided in the Call Diagnostic Report for conferencing sessions (that is, sessions involving three or more participants).</span></span>
 
-### <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="d4785-178">Métricas de las sesiones de conferencia</span><span class="sxs-lookup"><span data-stu-id="d4785-178">Metrics for Conferencing Sessions</span></span>
+### <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="d29a9-178">Métricas de las sesiones de conferencia</span><span class="sxs-lookup"><span data-stu-id="d29a9-178">Metrics for Conferencing Sessions</span></span>
 
 <table>
 <colgroup>
@@ -188,46 +188,46 @@ ms.locfileid: "42044492"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d4785-179">Nombre</span><span class="sxs-lookup"><span data-stu-id="d4785-179">Name</span></span></th>
-<th><span data-ttu-id="d4785-180">¿Se pueden ordenar los datos en este elemento?</span><span class="sxs-lookup"><span data-stu-id="d4785-180">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="d4785-181">Descripción</span><span class="sxs-lookup"><span data-stu-id="d4785-181">Description</span></span></th>
+<th><span data-ttu-id="d29a9-179">Nombre</span><span class="sxs-lookup"><span data-stu-id="d29a9-179">Name</span></span></th>
+<th><span data-ttu-id="d29a9-180">¿Se pueden ordenar los datos en este elemento?</span><span class="sxs-lookup"><span data-stu-id="d29a9-180">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="d29a9-181">Descripción</span><span class="sxs-lookup"><span data-stu-id="d29a9-181">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d4785-182"><strong>Total de conferencias</strong></span><span class="sxs-lookup"><span data-stu-id="d4785-182"><strong>Total conferences</strong></span></span></p></td>
-<td><p><span data-ttu-id="d4785-183">No</span><span class="sxs-lookup"><span data-stu-id="d4785-183">No</span></span></p></td>
-<td><p><span data-ttu-id="d4785-184">Número total de conferencias que ha tenido lugar.</span><span class="sxs-lookup"><span data-stu-id="d4785-184">Total number of conferences conducted.</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-182"><strong>Total de conferencias</strong></span><span class="sxs-lookup"><span data-stu-id="d29a9-182"><strong>Total conferences</strong></span></span></p></td>
+<td><p><span data-ttu-id="d29a9-183">No</span><span class="sxs-lookup"><span data-stu-id="d29a9-183">No</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-184">Número total de conferencias que ha tenido lugar.</span><span class="sxs-lookup"><span data-stu-id="d29a9-184">Total number of conferences conducted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d4785-185"><strong>Total de sesiones de conferencias</strong></span><span class="sxs-lookup"><span data-stu-id="d4785-185"><strong>Total conference sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="d4785-186">No</span><span class="sxs-lookup"><span data-stu-id="d4785-186">No</span></span></p></td>
-<td><p><span data-ttu-id="d4785-187">Número total de sesiones de conferencia que ha tenido lugar.</span><span class="sxs-lookup"><span data-stu-id="d4785-187">Total number of conferencing sessions conducted.</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-185"><strong>Total de sesiones de conferencias</strong></span><span class="sxs-lookup"><span data-stu-id="d29a9-185"><strong>Total conference sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="d29a9-186">No</span><span class="sxs-lookup"><span data-stu-id="d29a9-186">No</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-187">Número total de sesiones de conferencia que ha tenido lugar.</span><span class="sxs-lookup"><span data-stu-id="d29a9-187">Total number of conferencing sessions conducted.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d4785-188"><strong>Porcentaje de errores de sesión generales</strong></span><span class="sxs-lookup"><span data-stu-id="d4785-188"><strong>Overall session failure rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="d4785-189">No</span><span class="sxs-lookup"><span data-stu-id="d4785-189">No</span></span></p></td>
-<td><p><span data-ttu-id="d4785-190">Porcentaje del total de sesiones de conferencia con errores.</span><span class="sxs-lookup"><span data-stu-id="d4785-190">Percentage of the total conferencing sessions that failed.</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-188"><strong>Porcentaje de errores de sesión generales</strong></span><span class="sxs-lookup"><span data-stu-id="d29a9-188"><strong>Overall session failure rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="d29a9-189">No</span><span class="sxs-lookup"><span data-stu-id="d29a9-189">No</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-190">Porcentaje del total de sesiones de conferencia con errores.</span><span class="sxs-lookup"><span data-stu-id="d29a9-190">Percentage of the total conferencing sessions that failed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d4785-191"><strong>Sesiones de foco</strong></span><span class="sxs-lookup"><span data-stu-id="d4785-191"><strong>Focus sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="d4785-192">No</span><span class="sxs-lookup"><span data-stu-id="d4785-192">No</span></span></p></td>
-<td><p><span data-ttu-id="d4785-193">Número total de las sesiones de conferencia basadas en foco con errores.</span><span class="sxs-lookup"><span data-stu-id="d4785-193">Total number of Focus-based conferencing sessions that failed.</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-191"><strong>Sesiones de foco</strong></span><span class="sxs-lookup"><span data-stu-id="d29a9-191"><strong>Focus sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="d29a9-192">No</span><span class="sxs-lookup"><span data-stu-id="d29a9-192">No</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-193">Número total de las sesiones de conferencia basadas en foco con errores.</span><span class="sxs-lookup"><span data-stu-id="d29a9-193">Total number of Focus-based conferencing sessions that failed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d4785-194"><strong>Porcentaje de errores de foco</strong></span><span class="sxs-lookup"><span data-stu-id="d4785-194"><strong>Focus failure rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="d4785-195">No</span><span class="sxs-lookup"><span data-stu-id="d4785-195">No</span></span></p></td>
-<td><p><span data-ttu-id="d4785-196">Porcentaje de las sesiones de conferencia basadas en foco con errores.</span><span class="sxs-lookup"><span data-stu-id="d4785-196">Percentage of the Focus-based conferencing sessions that failed.</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-194"><strong>Porcentaje de errores de foco</strong></span><span class="sxs-lookup"><span data-stu-id="d29a9-194"><strong>Focus failure rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="d29a9-195">No</span><span class="sxs-lookup"><span data-stu-id="d29a9-195">No</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-196">Porcentaje de las sesiones de conferencia basadas en foco con errores.</span><span class="sxs-lookup"><span data-stu-id="d29a9-196">Percentage of the Focus-based conferencing sessions that failed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d4785-197"><strong>Sesiones MCU</strong></span><span class="sxs-lookup"><span data-stu-id="d4785-197"><strong>MCU sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="d4785-198">No</span><span class="sxs-lookup"><span data-stu-id="d4785-198">No</span></span></p></td>
-<td><p><span data-ttu-id="d4785-199">Número total de conferencias basadas en servidor de conferencia (antes denominadas unidades de control multipunto o MCU) con errores.</span><span class="sxs-lookup"><span data-stu-id="d4785-199">Total number of conferencing server-based (formerly known as Multipoint Control Unit or MCU) conferences that failed.</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-197"><strong>Sesiones MCU</strong></span><span class="sxs-lookup"><span data-stu-id="d29a9-197"><strong>MCU sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="d29a9-198">No</span><span class="sxs-lookup"><span data-stu-id="d29a9-198">No</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-199">Número total de conferencias basadas en servidor de conferencia (antes denominadas unidades de control multipunto o MCU) con errores.</span><span class="sxs-lookup"><span data-stu-id="d29a9-199">Total number of conferencing server-based (formerly known as Multipoint Control Unit or MCU) conferences that failed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d4785-200"><strong>Porcentaje de errores de MCU</strong></span><span class="sxs-lookup"><span data-stu-id="d4785-200"><strong>MCU failure rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="d4785-201">No</span><span class="sxs-lookup"><span data-stu-id="d4785-201">No</span></span></p></td>
-<td><p><span data-ttu-id="d4785-202">Porcentaje de las conferencias basadas en servidor de conferencia (antes denominadas unidades de control multipunto o MCU) con errores.</span><span class="sxs-lookup"><span data-stu-id="d4785-202">Percentage of the conferencing server-based (formerly known as Multipoint Control Unit or MCU) conferences that failed.</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-200"><strong>Porcentaje de errores de MCU</strong></span><span class="sxs-lookup"><span data-stu-id="d29a9-200"><strong>MCU failure rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="d29a9-201">No</span><span class="sxs-lookup"><span data-stu-id="d29a9-201">No</span></span></p></td>
+<td><p><span data-ttu-id="d29a9-202">Porcentaje de las conferencias basadas en servidor de conferencia (antes denominadas unidades de control multipunto o MCU) con errores.</span><span class="sxs-lookup"><span data-stu-id="d29a9-202">Percentage of the conferencing server-based (formerly known as Multipoint Control Unit or MCU) conferences that failed.</span></span></p></td>
 </tr>
 </tbody>
 </table>

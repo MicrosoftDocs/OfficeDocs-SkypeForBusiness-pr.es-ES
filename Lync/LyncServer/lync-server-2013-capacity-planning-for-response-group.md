@@ -12,20 +12,20 @@ ms:contentKeyID: 48184951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e5724978347b50db2790e4d5798aace8489acbb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bc7c17146c3cd5913ae82c84b8d7ae292db990f7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046263"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135557"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a><span data-ttu-id="d88db-102">Planeación de la capacidad para el grupo de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d88db-102">Capacity planning for Response Group in Lync Server 2013</span></span>
+# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a><span data-ttu-id="31959-102">Planeación de la capacidad para el grupo de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="31959-102">Capacity planning for Response Group in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42046263"
 
 <span> </span>
 
-<span data-ttu-id="d88db-103">_**Última modificación del tema:** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="d88db-103">_**Topic Last Modified:** 2012-10-29_</span></span>
+<span data-ttu-id="31959-103">_**Última modificación del tema:** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="31959-103">_**Topic Last Modified:** 2012-10-29_</span></span>
 
 <div id="sectionSection0" class="section">
 
-<span data-ttu-id="d88db-104">En la tabla siguiente se describe el modelo de usuario del grupo de respuesta que puede usar como base para los requisitos de planeación de capacidad.</span><span class="sxs-lookup"><span data-stu-id="d88db-104">The following table describes the Response Group user model that you can use as the basis for capacity planning requirements.</span></span>
+<span data-ttu-id="31959-104">En la tabla siguiente se describe el modelo de usuario del grupo de respuesta que puede usar como base para los requisitos de planeación de capacidad.</span><span class="sxs-lookup"><span data-stu-id="31959-104">The following table describes the Response Group user model that you can use as the basis for capacity planning requirements.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="d88db-105">Los números de la tabla siguiente suponen que usa archivos de onda de 16 bits (. wav) de 16 kHz para todos los archivos de audio del grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="d88db-105">The numbers in the following table assume that you use 16 kHz, mono, 16-bit Wave (.wav) files for all response group audio files.</span></span> <span data-ttu-id="d88db-106">Si usa otros formatos de archivo, como audio de Windows Media (. WMA), los números pueden variar.</span><span class="sxs-lookup"><span data-stu-id="d88db-106">If you use other file formats, such as Windows Media Audio (.wma), the numbers may vary.</span></span>
+> <span data-ttu-id="31959-105">Los números de la tabla siguiente suponen que usa archivos de onda de 16 bits (. wav) de 16 kHz para todos los archivos de audio del grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="31959-105">The numbers in the following table assume that you use 16 kHz, mono, 16-bit Wave (.wav) files for all response group audio files.</span></span> <span data-ttu-id="31959-106">Si usa otros formatos de archivo, como audio de Windows Media (. WMA), los números pueden variar.</span><span class="sxs-lookup"><span data-stu-id="31959-106">If you use other file formats, such as Windows Media Audio (.wma), the numbers may vary.</span></span>
 
 
 
@@ -55,13 +55,13 @@ ms.locfileid: "42046263"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="d88db-107">Tenga en cuenta que para la planeación de la capacidad de recuperación ante desastres, cada grupo de servidores emparejados debe poder administrar las cargas de trabajo de todos los grupos de respuesta en ambos grupos.</span><span class="sxs-lookup"><span data-stu-id="d88db-107">Keep in mind that for disaster recovery capacity planning, each pool of a paired pool should be able to handle the workloads for all the response groups in both pools.</span></span>
+> <span data-ttu-id="31959-107">Tenga en cuenta que para la planeación de la capacidad de recuperación ante desastres, cada grupo de servidores emparejados debe poder administrar las cargas de trabajo de todos los grupos de respuesta en ambos grupos.</span><span class="sxs-lookup"><span data-stu-id="31959-107">Keep in mind that for disaster recovery capacity planning, each pool of a paired pool should be able to handle the workloads for all the response groups in both pools.</span></span>
 
 
 
 </div>
 
-### <a name="response-group-user-model"></a><span data-ttu-id="d88db-108">Modelo de usuario del grupo de respuesta</span><span class="sxs-lookup"><span data-stu-id="d88db-108">Response Group User Model</span></span>
+### <a name="response-group-user-model"></a><span data-ttu-id="31959-108">Modelo de usuario del grupo de respuesta</span><span class="sxs-lookup"><span data-stu-id="31959-108">Response Group User Model</span></span>
 
 <table>
 <colgroup>
@@ -71,46 +71,46 @@ ms.locfileid: "42046263"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d88db-109">Biometría</span><span class="sxs-lookup"><span data-stu-id="d88db-109">Metric</span></span></th>
-<th><span data-ttu-id="d88db-110">Por grupo de servidores Enterprise Edition (con 8 servidores front-end)</span><span class="sxs-lookup"><span data-stu-id="d88db-110">Per Enterprise Edition pool (With 8 Front End Servers)</span></span></th>
-<th><span data-ttu-id="d88db-111">Por servidor Standard Edition</span><span class="sxs-lookup"><span data-stu-id="d88db-111">Per Standard Edition server</span></span></th>
+<th><span data-ttu-id="31959-109">Biometría</span><span class="sxs-lookup"><span data-stu-id="31959-109">Metric</span></span></th>
+<th><span data-ttu-id="31959-110">Por grupo de servidores Enterprise Edition (con 8 servidores front-end)</span><span class="sxs-lookup"><span data-stu-id="31959-110">Per Enterprise Edition pool (With 8 Front End Servers)</span></span></th>
+<th><span data-ttu-id="31959-111">Por servidor Standard Edition</span><span class="sxs-lookup"><span data-stu-id="31959-111">Per Standard Edition server</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d88db-112">Llamadas entrantes por segundo</span><span class="sxs-lookup"><span data-stu-id="d88db-112">Incoming calls per second</span></span></p></td>
-<td><p><span data-ttu-id="d88db-113">16 </span><span class="sxs-lookup"><span data-stu-id="d88db-113">16</span></span></p></td>
-<td><p><span data-ttu-id="d88db-114">segundo</span><span class="sxs-lookup"><span data-stu-id="d88db-114">2</span></span></p></td>
+<td><p><span data-ttu-id="31959-112">Llamadas entrantes por segundo</span><span class="sxs-lookup"><span data-stu-id="31959-112">Incoming calls per second</span></span></p></td>
+<td><p><span data-ttu-id="31959-113">16 </span><span class="sxs-lookup"><span data-stu-id="31959-113">16</span></span></p></td>
+<td><p><span data-ttu-id="31959-114">segundo</span><span class="sxs-lookup"><span data-stu-id="31959-114">2</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d88db-115">Llamadas simultáneas conectadas a IVR o música</span><span class="sxs-lookup"><span data-stu-id="d88db-115">Concurrent calls connected to IVR or MoH</span></span></p></td>
-<td><p><span data-ttu-id="d88db-116">480</span><span class="sxs-lookup"><span data-stu-id="d88db-116">480</span></span></p></td>
-<td><p><span data-ttu-id="d88db-117">60</span><span class="sxs-lookup"><span data-stu-id="d88db-117">60</span></span></p></td>
+<td><p><span data-ttu-id="31959-115">Llamadas simultáneas conectadas a IVR o música</span><span class="sxs-lookup"><span data-stu-id="31959-115">Concurrent calls connected to IVR or MoH</span></span></p></td>
+<td><p><span data-ttu-id="31959-116">480</span><span class="sxs-lookup"><span data-stu-id="31959-116">480</span></span></p></td>
+<td><p><span data-ttu-id="31959-117">60</span><span class="sxs-lookup"><span data-stu-id="31959-117">60</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d88db-118">Sesiones anónimas simultáneas (sin mi)</span><span class="sxs-lookup"><span data-stu-id="d88db-118">Concurrent anonymous sessions (without IM)</span></span></p></td>
-<td><p><span data-ttu-id="d88db-119">224</span><span class="sxs-lookup"><span data-stu-id="d88db-119">224</span></span></p></td>
-<td><p><span data-ttu-id="d88db-120">28</span><span class="sxs-lookup"><span data-stu-id="d88db-120">28</span></span></p></td>
+<td><p><span data-ttu-id="31959-118">Sesiones anónimas simultáneas (sin mi)</span><span class="sxs-lookup"><span data-stu-id="31959-118">Concurrent anonymous sessions (without IM)</span></span></p></td>
+<td><p><span data-ttu-id="31959-119">224</span><span class="sxs-lookup"><span data-stu-id="31959-119">224</span></span></p></td>
+<td><p><span data-ttu-id="31959-120">28</span><span class="sxs-lookup"><span data-stu-id="31959-120">28</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d88db-121">Sesiones anónimas simultáneas (con mi)</span><span class="sxs-lookup"><span data-stu-id="d88db-121">Concurrent anonymous sessions (with IM)</span></span></p></td>
-<td><p><span data-ttu-id="d88db-122">64</span><span class="sxs-lookup"><span data-stu-id="d88db-122">64</span></span></p></td>
-<td><p><span data-ttu-id="d88db-123">8 </span><span class="sxs-lookup"><span data-stu-id="d88db-123">8</span></span></p></td>
+<td><p><span data-ttu-id="31959-121">Sesiones anónimas simultáneas (con mi)</span><span class="sxs-lookup"><span data-stu-id="31959-121">Concurrent anonymous sessions (with IM)</span></span></p></td>
+<td><p><span data-ttu-id="31959-122">64</span><span class="sxs-lookup"><span data-stu-id="31959-122">64</span></span></p></td>
+<td><p><span data-ttu-id="31959-123">8 </span><span class="sxs-lookup"><span data-stu-id="31959-123">8</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d88db-124">Agentes activos (formales e informales)</span><span class="sxs-lookup"><span data-stu-id="d88db-124">Active agents (formal and informal)</span></span></p></td>
-<td><p><span data-ttu-id="d88db-125">1200</span><span class="sxs-lookup"><span data-stu-id="d88db-125">1200</span></span></p></td>
-<td><p><span data-ttu-id="d88db-126">1200</span><span class="sxs-lookup"><span data-stu-id="d88db-126">1200</span></span></p></td>
+<td><p><span data-ttu-id="31959-124">Agentes activos (formales e informales)</span><span class="sxs-lookup"><span data-stu-id="31959-124">Active agents (formal and informal)</span></span></p></td>
+<td><p><span data-ttu-id="31959-125">1200</span><span class="sxs-lookup"><span data-stu-id="31959-125">1200</span></span></p></td>
+<td><p><span data-ttu-id="31959-126">1200</span><span class="sxs-lookup"><span data-stu-id="31959-126">1200</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d88db-127">Número de grupos de extensiones</span><span class="sxs-lookup"><span data-stu-id="d88db-127">Number of hunt groups</span></span></p></td>
-<td><p><span data-ttu-id="d88db-128">400</span><span class="sxs-lookup"><span data-stu-id="d88db-128">400</span></span></p></td>
-<td><p><span data-ttu-id="d88db-129">400</span><span class="sxs-lookup"><span data-stu-id="d88db-129">400</span></span></p></td>
+<td><p><span data-ttu-id="31959-127">Número de grupos de extensiones</span><span class="sxs-lookup"><span data-stu-id="31959-127">Number of hunt groups</span></span></p></td>
+<td><p><span data-ttu-id="31959-128">400</span><span class="sxs-lookup"><span data-stu-id="31959-128">400</span></span></p></td>
+<td><p><span data-ttu-id="31959-129">400</span><span class="sxs-lookup"><span data-stu-id="31959-129">400</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d88db-130">Número de grupos IVR (usar el reconocimiento de voz)</span><span class="sxs-lookup"><span data-stu-id="d88db-130">Number of IVR groups (use speech recognition)</span></span></p></td>
-<td><p><span data-ttu-id="d88db-131">200</span><span class="sxs-lookup"><span data-stu-id="d88db-131">200</span></span></p></td>
-<td><p><span data-ttu-id="d88db-132">200</span><span class="sxs-lookup"><span data-stu-id="d88db-132">200</span></span></p></td>
+<td><p><span data-ttu-id="31959-130">Número de grupos IVR (usar el reconocimiento de voz)</span><span class="sxs-lookup"><span data-stu-id="31959-130">Number of IVR groups (use speech recognition)</span></span></p></td>
+<td><p><span data-ttu-id="31959-131">200</span><span class="sxs-lookup"><span data-stu-id="31959-131">200</span></span></p></td>
+<td><p><span data-ttu-id="31959-132">200</span><span class="sxs-lookup"><span data-stu-id="31959-132">200</span></span></p></td>
 </tr>
 </tbody>
 </table>
