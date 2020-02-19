@@ -12,20 +12,20 @@ ms:contentKeyID: 48184799
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d0ec31823f4fe7fc5872f9d4266306186703aa2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 63d755f7ae971aae2fcab941876e0b53dd5ebd22
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036750"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139473"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a><span data-ttu-id="667e4-102">Planeación de los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="667e4-102">Planning for Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>
+# <a name="planning-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a><span data-ttu-id="d7e32-102">Planeación de los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d7e32-102">Planning for Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42036750"
 
 <span> </span>
 
-<span data-ttu-id="667e4-103">_**Última modificación del tema:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="667e4-103">_**Topic Last Modified:** 2012-09-13_</span></span>
+<span data-ttu-id="d7e32-103">_**Última modificación del tema:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="d7e32-103">_**Topic Last Modified:** 2012-09-13_</span></span>
 
-<span data-ttu-id="667e4-104">Los servidores front-end proporcionan gran parte de la funcionalidad de Lync Server y se incluyen en todas las implementaciones de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="667e4-104">Front End Servers provide much of the Lync Server functionality and are included in every Lync Server deployment.</span></span> <span data-ttu-id="667e4-105">La mensajería instantánea (mi) y la presencia son funciones principales de Lync Server y se implementan y habilitan automáticamente en cada instalación de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="667e4-105">Instant messaging (IM) and presence are core capabilities of Lync Server and are automatically deployed and enabled in every Lync Server installation.</span></span> <span data-ttu-id="667e4-106">Las siguientes secciones ofrecen más detalles acerca de los servidores front-end, la MI y la presencia.</span><span class="sxs-lookup"><span data-stu-id="667e4-106">The following sections provide more details about Front End Servers, IM and presence.</span></span>
+<span data-ttu-id="d7e32-104">Los servidores front-end proporcionan gran parte de la funcionalidad de Lync Server y se incluyen en todas las implementaciones de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d7e32-104">Front End Servers provide much of the Lync Server functionality and are included in every Lync Server deployment.</span></span> <span data-ttu-id="d7e32-105">La mensajería instantánea (mi) y la presencia son funciones principales de Lync Server y se implementan y habilitan automáticamente en cada instalación de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d7e32-105">Instant messaging (IM) and presence are core capabilities of Lync Server and are automatically deployed and enabled in every Lync Server installation.</span></span> <span data-ttu-id="d7e32-106">Las siguientes secciones ofrecen más detalles acerca de los servidores front-end, la MI y la presencia.</span><span class="sxs-lookup"><span data-stu-id="d7e32-106">The following sections provide more details about Front End Servers, IM and presence.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="667e4-107">En esta sección</span><span class="sxs-lookup"><span data-stu-id="667e4-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d7e32-107">En esta sección</span><span class="sxs-lookup"><span data-stu-id="d7e32-107">In This Section</span></span>
 
-  - [<span data-ttu-id="667e4-108">Características y funciones de los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="667e4-108">Features and functionality of Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>](lync-server-2013-features-and-functionality-of-front-end-servers-instant-messaging-and-presence.md)
+  - [<span data-ttu-id="d7e32-108">Características y funciones de los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d7e32-108">Features and functionality of Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>](lync-server-2013-features-and-functionality-of-front-end-servers-instant-messaging-and-presence.md)
 
-  - [<span data-ttu-id="667e4-109">Definición de los requisitos para los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="667e4-109">Defining your requirements for Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>](lync-server-2013-defining-your-requirements-for-front-end-servers-instant-messaging-and-presence.md)
+  - [<span data-ttu-id="d7e32-109">Definición de los requisitos para los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d7e32-109">Defining your requirements for Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>](lync-server-2013-defining-your-requirements-for-front-end-servers-instant-messaging-and-presence.md)
 
-  - [<span data-ttu-id="667e4-110">Topologías y componentes para los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="667e4-110">Topologies and components for Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)
+  - [<span data-ttu-id="d7e32-110">Topologías y componentes para los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d7e32-110">Topologies and components for Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)
 
-  - [<span data-ttu-id="667e4-111">Requisitos técnicos para los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="667e4-111">Technical requirements for Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-front-end-servers-instant-messaging-and-presence.md)
+  - [<span data-ttu-id="d7e32-111">Requisitos técnicos para los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d7e32-111">Technical requirements for Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-front-end-servers-instant-messaging-and-presence.md)
 
 </div>
 

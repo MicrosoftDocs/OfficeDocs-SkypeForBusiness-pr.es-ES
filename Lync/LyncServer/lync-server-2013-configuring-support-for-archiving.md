@@ -12,20 +12,20 @@ ms:contentKeyID: 48184187
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2543f587ad4e545f55a6cb643531cb941ad26622
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 515dedc5ce67ce4c1f84c4987ba73f32e8bf9dfc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040999"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-support-for-archiving-in-lync-server-2013"></a><span data-ttu-id="ae7f4-102">Configuración de la compatibilidad con el archivado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ae7f4-102">Configuring support for Archiving in Lync Server 2013</span></span>
+# <a name="configuring-support-for-archiving-in-lync-server-2013"></a><span data-ttu-id="3c6a8-102">Configuración de la compatibilidad con el archivado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3c6a8-102">Configuring support for Archiving in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42040999"
 
 <span> </span>
 
-<span data-ttu-id="ae7f4-103">_**Última modificación del tema:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="ae7f4-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="3c6a8-103">_**Última modificación del tema:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="3c6a8-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="ae7f4-104">Después de agregar el archivado a la topología y de publicar la topología nueva, debe configurar las opciones sobre cómo se implementa el archivado inicialmente en su implementación y, a continuación, configurar una o más directivas de archivado para habilitar el archivado en su implementación y, de manera opcional, en usuarios o sitios específicos.</span><span class="sxs-lookup"><span data-stu-id="ae7f4-104">After adding Archiving to your topology and publishing the new topology, you need to configure options for how Archiving is initially implemented in your deployment, and then configure one or more Archiving policies to enable Archiving for your deployment and, optionally, for specific sites and users.</span></span> <span data-ttu-id="ae7f4-105">Puede usar el panel de control de Lync Server 2013 para hacerlo.</span><span class="sxs-lookup"><span data-stu-id="ae7f4-105">You can use Lync Server 2013 Control Panel to do this.</span></span>
+<span data-ttu-id="3c6a8-104">Después de agregar el archivado a la topología y de publicar la topología nueva, debe configurar las opciones sobre cómo se implementa el archivado inicialmente en su implementación y, a continuación, configurar una o más directivas de archivado para habilitar el archivado en su implementación y, de manera opcional, en usuarios o sitios específicos.</span><span class="sxs-lookup"><span data-stu-id="3c6a8-104">After adding Archiving to your topology and publishing the new topology, you need to configure options for how Archiving is initially implemented in your deployment, and then configure one or more Archiving policies to enable Archiving for your deployment and, optionally, for specific sites and users.</span></span> <span data-ttu-id="3c6a8-105">Puede usar el panel de control de Lync Server 2013 para hacerlo.</span><span class="sxs-lookup"><span data-stu-id="3c6a8-105">You can use Lync Server 2013 Control Panel to do this.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="ae7f4-106">Después de la implementación, puede cambiar la configuración para habilitar y deshabilitar el archivado.</span><span class="sxs-lookup"><span data-stu-id="ae7f4-106">After deployment, you can change Archiving settings to disable or enable Archiving.</span></span> <span data-ttu-id="ae7f4-107">Para obtener más información sobre cómo implementar la compatibilidad de archivado para la administración cotidiana o para cumplir nuevos requisitos de la organización tras la implementación, consulte <A href="lync-server-2013-managing-archiving.md">Managing Lync Server 2013 archiving</A> en la documentación de operaciones.</span><span class="sxs-lookup"><span data-stu-id="ae7f4-107">For details about how to implement archiving support for day-to-day management or to meet new requirements in your organization after deployment, see <A href="lync-server-2013-managing-archiving.md">Managing Lync Server 2013 Archiving</A> in the Operations documentation.</span></span>
+> <span data-ttu-id="3c6a8-106">Después de la implementación, puede cambiar la configuración para habilitar y deshabilitar el archivado.</span><span class="sxs-lookup"><span data-stu-id="3c6a8-106">After deployment, you can change Archiving settings to disable or enable Archiving.</span></span> <span data-ttu-id="3c6a8-107">Para obtener más información sobre cómo implementar la compatibilidad de archivado para la administración cotidiana o para cumplir nuevos requisitos de la organización tras la implementación, consulte <A href="lync-server-2013-managing-archiving.md">Managing Lync Server 2013 archiving</A> en la documentación de operaciones.</span><span class="sxs-lookup"><span data-stu-id="3c6a8-107">For details about how to implement archiving support for day-to-day management or to meet new requirements in your organization after deployment, see <A href="lync-server-2013-managing-archiving.md">Managing Lync Server 2013 Archiving</A> in the Operations documentation.</span></span>
 
 
 
@@ -51,13 +51,13 @@ ms.locfileid: "42040999"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ae7f4-108">En esta sección</span><span class="sxs-lookup"><span data-stu-id="ae7f4-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3c6a8-108">En esta sección</span><span class="sxs-lookup"><span data-stu-id="3c6a8-108">In This Section</span></span>
 
-  - [<span data-ttu-id="ae7f4-109">Configurar las opciones de archivado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ae7f4-109">Configuring Archiving options in Lync Server 2013</span></span>](lync-server-2013-configuring-archiving-options.md)
+  - [<span data-ttu-id="3c6a8-109">Configurar las opciones de archivado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3c6a8-109">Configuring Archiving options in Lync Server 2013</span></span>](lync-server-2013-configuring-archiving-options.md)
 
-  - [<span data-ttu-id="ae7f4-110">Configuración y asignación de directivas de archivado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ae7f4-110">Configuring and assigning Archiving policies in Lync Server 2013</span></span>](lync-server-2013-configuring-and-assigning-archiving-policies.md)
+  - [<span data-ttu-id="3c6a8-110">Configuración y asignación de directivas de archivado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3c6a8-110">Configuring and assigning Archiving policies in Lync Server 2013</span></span>](lync-server-2013-configuring-and-assigning-archiving-policies.md)
 
-  - [<span data-ttu-id="ae7f4-111">Habilitar o deshabilitar el envío de una declinación de responsabilidades de archivado a socios federados en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ae7f4-111">Enable or disable sending an Archiving disclaimer to federated partners in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
+  - [<span data-ttu-id="3c6a8-111">Habilitar o deshabilitar el envío de una declinación de responsabilidades de archivado a socios federados en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3c6a8-111">Enable or disable sending an Archiving disclaimer to federated partners in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
 
 </div>
 

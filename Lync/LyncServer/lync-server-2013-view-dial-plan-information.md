@@ -12,20 +12,20 @@ ms:contentKeyID: 49733587
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c63aead21441cb972cce2b6fb26391efc43969bb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5a90af8cdeffafa587f4dad87dd2b08573647df5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42009563"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136758"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-dial-plan-information-in-lync-server-2013"></a><span data-ttu-id="a8bdd-102">Ver información de plan de marcado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8bdd-102">View dial plan information in Lync Server 2013</span></span>
+# <a name="view-dial-plan-information-in-lync-server-2013"></a><span data-ttu-id="a90c1-102">Ver información de plan de marcado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a90c1-102">View dial plan information in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42009563"
 
 <span> </span>
 
-<span data-ttu-id="a8bdd-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="a8bdd-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="a90c1-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="a90c1-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="a8bdd-104">Para ver información para un plan de marcado existente, lleve a cabo los pasos del siguiente procedimiento.</span><span class="sxs-lookup"><span data-stu-id="a8bdd-104">To view information for an existing dial plan, perform the steps in the following procedure.</span></span> <span data-ttu-id="a8bdd-105">Si desea crear un nuevo plan de marcado, consulte [crear un plan de marcado en Lync Server 2013](lync-server-2013-create-a-dial-plan.md).</span><span class="sxs-lookup"><span data-stu-id="a8bdd-105">If you want to create a new dial plan, see [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md).</span></span>
+<span data-ttu-id="a90c1-104">Para ver información para un plan de marcado existente, lleve a cabo los pasos del siguiente procedimiento.</span><span class="sxs-lookup"><span data-stu-id="a90c1-104">To view information for an existing dial plan, perform the steps in the following procedure.</span></span> <span data-ttu-id="a90c1-105">Si desea crear un nuevo plan de marcado, consulte [crear un plan de marcado en Lync Server 2013](lync-server-2013-create-a-dial-plan.md).</span><span class="sxs-lookup"><span data-stu-id="a90c1-105">If you want to create a new dial plan, see [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md).</span></span>
 
 <div>
 
-## <a name="to-view-information-about-a-dial-plan-from-lync-server-control-panel"></a><span data-ttu-id="a8bdd-106">Para ver información sobre un plan de marcado desde el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="a8bdd-106">To view information about a dial plan from Lync Server Control Panel</span></span>
+## <a name="to-view-information-about-a-dial-plan-from-lync-server-control-panel"></a><span data-ttu-id="a90c1-106">Para ver información sobre un plan de marcado desde el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="a90c1-106">To view information about a dial plan from Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="a8bdd-107">Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro de la función CsVoiceAdministrator, CsServerAdministrator o CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="a8bdd-107">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="a8bdd-108">Para obtener más información, consulte [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="a8bdd-108">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="a90c1-107">Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro de la función CsVoiceAdministrator, CsServerAdministrator o CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="a90c1-107">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="a90c1-108">Para obtener más información, consulte [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="a90c1-108">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="a8bdd-109">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a8bdd-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="a8bdd-110">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="a8bdd-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="a90c1-109">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a90c1-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="a90c1-110">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="a90c1-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="a8bdd-111">En la barra de navegación izquierda, haga clic en  \*\*Enrutamiento de voz \*\* y, a continuación, en  \*\*Plan de marcado \*\*.</span><span class="sxs-lookup"><span data-stu-id="a8bdd-111">In the left navigation bar, click **Voice Routing** and then click **Dial Plan**.</span></span>
+3.  <span data-ttu-id="a90c1-111">En la barra de navegación izquierda, haga clic en  \*\*Enrutamiento de voz \*\* y, a continuación, en  \*\*Plan de marcado \*\*.</span><span class="sxs-lookup"><span data-stu-id="a90c1-111">In the left navigation bar, click **Voice Routing** and then click **Dial Plan**.</span></span>
 
-4.  <span data-ttu-id="a8bdd-112">En la página  \*\*Plan de marcado \*\*, haga doble clic en el nombre del plan de marcado.</span><span class="sxs-lookup"><span data-stu-id="a8bdd-112">On the **Dial Plan** page, double-click a dial plan name.</span></span>
+4.  <span data-ttu-id="a90c1-112">En la página  \*\*Plan de marcado \*\*, haga doble clic en el nombre del plan de marcado.</span><span class="sxs-lookup"><span data-stu-id="a90c1-112">On the **Dial Plan** page, double-click a dial plan name.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="a8bdd-113">Puede ver información para un plan de marcado cada vez.</span><span class="sxs-lookup"><span data-stu-id="a8bdd-113">You can view information for only one dial plan at a time.</span></span>
+    > <span data-ttu-id="a90c1-113">Puede ver información para un plan de marcado cada vez.</span><span class="sxs-lookup"><span data-stu-id="a90c1-113">You can view information for only one dial plan at a time.</span></span>
 
     
     </div>
@@ -64,15 +64,15 @@ ms.locfileid: "42009563"
 
 <div>
 
-## <a name="to-view-dial-plans-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="a8bdd-114">Para ver planes de marcado mediante cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="a8bdd-114">To view dial plans by using Windows PowerShell cmdlets</span></span>
+## <a name="to-view-dial-plans-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="a90c1-114">Para ver planes de marcado mediante cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="a90c1-114">To view dial plans by using Windows PowerShell cmdlets</span></span>
 
-  - <span data-ttu-id="a8bdd-115">Los planes de marcado se pueden ver mediante la interfaz de línea de comandos de Windows PowerShell y el cmdlet **Get-CsDialPlan** .</span><span class="sxs-lookup"><span data-stu-id="a8bdd-115">Dial plans can be viewed by using the Windows PowerShell command-line interface and the **Get-CsDialPlan** cmdlet.</span></span> <span data-ttu-id="a8bdd-116">Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a8bdd-116">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="a8bdd-117">Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.</span><span class="sxs-lookup"><span data-stu-id="a8bdd-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+  - <span data-ttu-id="a90c1-115">Los planes de marcado se pueden ver mediante la interfaz de línea de comandos de Windows PowerShell y el cmdlet **Get-CsDialPlan** .</span><span class="sxs-lookup"><span data-stu-id="a90c1-115">Dial plans can be viewed by using the Windows PowerShell command-line interface and the **Get-CsDialPlan** cmdlet.</span></span> <span data-ttu-id="a90c1-116">Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a90c1-116">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="a90c1-117">Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.</span><span class="sxs-lookup"><span data-stu-id="a90c1-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
     
-    <span data-ttu-id="a8bdd-118">Para ver información sobre todos los planes de marcado, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:</span><span class="sxs-lookup"><span data-stu-id="a8bdd-118">To view information about all your dial plans, type the following command in the Lync Server Management Shell, and then press ENTER:</span></span>
+    <span data-ttu-id="a90c1-118">Para ver información sobre todos los planes de marcado, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:</span><span class="sxs-lookup"><span data-stu-id="a90c1-118">To view information about all your dial plans, type the following command in the Lync Server Management Shell, and then press ENTER:</span></span>
     
         Get-CsDialPlan
     
-    <span data-ttu-id="a8bdd-119">Ese comando devolverá información similar a la siguiente:</span><span class="sxs-lookup"><span data-stu-id="a8bdd-119">That command will return information similar to this:</span></span>
+    <span data-ttu-id="a90c1-119">Ese comando devolverá información similar a la siguiente:</span><span class="sxs-lookup"><span data-stu-id="a90c1-119">That command will return information similar to this:</span></span>
     
         Identity                 : Global
         Description              :
@@ -91,11 +91,11 @@ ms.locfileid: "42009563"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="a8bdd-120">Vea también</span><span class="sxs-lookup"><span data-stu-id="a8bdd-120">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a90c1-120">Vea también</span><span class="sxs-lookup"><span data-stu-id="a90c1-120">See Also</span></span>
 
 
-[<span data-ttu-id="a8bdd-121">Crear un plan de marcado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8bdd-121">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)  
-[<span data-ttu-id="a8bdd-122">Modificar un plan de marcado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8bdd-122">Modify a dial plan in Lync Server 2013</span></span>](lync-server-2013-modify-a-dial-plan.md)  
+[<span data-ttu-id="a90c1-121">Crear un plan de marcado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a90c1-121">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)  
+[<span data-ttu-id="a90c1-122">Modificar un plan de marcado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a90c1-122">Modify a dial plan in Lync Server 2013</span></span>](lync-server-2013-modify-a-dial-plan.md)  
   
 
 </div>

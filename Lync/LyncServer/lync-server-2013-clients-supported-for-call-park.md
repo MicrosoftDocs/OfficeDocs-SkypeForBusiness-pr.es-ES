@@ -12,20 +12,20 @@ ms:contentKeyID: 48185320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee3916e74a68121b027061429bacb44e2dafacdb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d98f8a5e0f2b02bc8c0d6e0ef0d8c38f34f8fd5c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044222"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138581"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-call-park-in-lync-server-2013"></a><span data-ttu-id="37628-102">Clientes compatibles con el estacionamiento de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="37628-102">Clients supported for Call Park in Lync Server 2013</span></span>
+# <a name="clients-supported-for-call-park-in-lync-server-2013"></a><span data-ttu-id="cfa36-102">Clientes compatibles con el estacionamiento de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cfa36-102">Clients supported for Call Park in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "42044222"
 
 <span> </span>
 
-<span data-ttu-id="37628-103">_**Última modificación del tema:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="37628-103">_**Topic Last Modified:** 2012-09-13_</span></span>
+<span data-ttu-id="cfa36-103">_**Última modificación del tema:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="cfa36-103">_**Topic Last Modified:** 2012-09-13_</span></span>
 
-<span data-ttu-id="37628-104">En esta sección se indican los clientes que se pueden usar para estacionar llamadas y los clientes que se pueden usar para recuperar llamadas estacionadas.</span><span class="sxs-lookup"><span data-stu-id="37628-104">This section identifies the clients that can be used to park calls and the clients that can be used to retrieve parked calls.</span></span>
-
-<div>
-
-## <a name="clients-supported-for-parking-calls"></a><span data-ttu-id="37628-105">Clientes admitidos para el estacionamiento de llamadas</span><span class="sxs-lookup"><span data-stu-id="37628-105">Clients Supported for Parking Calls</span></span>
-
-<span data-ttu-id="37628-106">Se pueden estacionar las llamadas de cualquier IP, PBX, RTC o teléfono móvil.</span><span class="sxs-lookup"><span data-stu-id="37628-106">Calls from any IP, private branch exchange (PBX), public switched telephone network (PSTN), or mobile phone can be parked.</span></span>
+<span data-ttu-id="cfa36-104">En esta sección se indican los clientes que se pueden usar para estacionar llamadas y los clientes que se pueden usar para recuperar llamadas estacionadas.</span><span class="sxs-lookup"><span data-stu-id="cfa36-104">This section identifies the clients that can be used to park calls and the clients that can be used to retrieve parked calls.</span></span>
 
 <div>
 
+## <a name="clients-supported-for-parking-calls"></a><span data-ttu-id="cfa36-105">Clientes admitidos para el estacionamiento de llamadas</span><span class="sxs-lookup"><span data-stu-id="cfa36-105">Clients Supported for Parking Calls</span></span>
 
-> [!NOTE]  
-> <span data-ttu-id="37628-p101">Únicamente se pueden estacionar las llamadas de audio. No se pueden estacionar los mensajes instantáneos ni las conferencias.</span><span class="sxs-lookup"><span data-stu-id="37628-p101">Only audio calls can be parked. Instant messages and conferences cannot be parked.</span></span>
-
-
-
-</div>
-
-<span data-ttu-id="37628-109">Los siguientes clientes pueden usar el estacionamiento de llamadas para estacionar llamadas:</span><span class="sxs-lookup"><span data-stu-id="37628-109">The following clients can use Call Park to park calls:</span></span>
-
-  - <span data-ttu-id="37628-110">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="37628-110">Lync 2013</span></span>
-
-  - <span data-ttu-id="37628-111">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="37628-111">Lync 2010</span></span>
-
-  - <span data-ttu-id="37628-112">Lync 2010 Attendant</span><span class="sxs-lookup"><span data-stu-id="37628-112">Lync 2010 Attendant</span></span>
-
-  - <span data-ttu-id="37628-113">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="37628-113">Lync Phone Edition</span></span>
+<span data-ttu-id="cfa36-106">Se pueden estacionar las llamadas de cualquier IP, PBX, RTC o teléfono móvil.</span><span class="sxs-lookup"><span data-stu-id="cfa36-106">Calls from any IP, private branch exchange (PBX), public switched telephone network (PSTN), or mobile phone can be parked.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="37628-114">Los teléfonos móviles no pueden usar el estacionamiento de llamadas para estacionar llamadas.</span><span class="sxs-lookup"><span data-stu-id="37628-114">Mobile phones cannot use Call Park to park calls.</span></span>
+> <span data-ttu-id="cfa36-p101">Únicamente se pueden estacionar las llamadas de audio. No se pueden estacionar los mensajes instantáneos ni las conferencias.</span><span class="sxs-lookup"><span data-stu-id="cfa36-p101">Only audio calls can be parked. Instant messages and conferences cannot be parked.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="cfa36-109">Los siguientes clientes pueden usar el estacionamiento de llamadas para estacionar llamadas:</span><span class="sxs-lookup"><span data-stu-id="cfa36-109">The following clients can use Call Park to park calls:</span></span>
+
+  - <span data-ttu-id="cfa36-110">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="cfa36-110">Lync 2013</span></span>
+
+  - <span data-ttu-id="cfa36-111">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="cfa36-111">Lync 2010</span></span>
+
+  - <span data-ttu-id="cfa36-112">Lync 2010 Attendant</span><span class="sxs-lookup"><span data-stu-id="cfa36-112">Lync 2010 Attendant</span></span>
+
+  - <span data-ttu-id="cfa36-113">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="cfa36-113">Lync Phone Edition</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="cfa36-114">Los teléfonos móviles no pueden usar el estacionamiento de llamadas para estacionar llamadas.</span><span class="sxs-lookup"><span data-stu-id="cfa36-114">Mobile phones cannot use Call Park to park calls.</span></span>
 
 
 
@@ -79,25 +79,25 @@ ms.locfileid: "42044222"
 
 <div>
 
-## <a name="clients-supported-for-retrieving-calls"></a><span data-ttu-id="37628-115">Clientes admitidos para la recuperación de llamadas</span><span class="sxs-lookup"><span data-stu-id="37628-115">Clients Supported for Retrieving Calls</span></span>
+## <a name="clients-supported-for-retrieving-calls"></a><span data-ttu-id="cfa36-115">Clientes admitidos para la recuperación de llamadas</span><span class="sxs-lookup"><span data-stu-id="cfa36-115">Clients Supported for Retrieving Calls</span></span>
 
-<span data-ttu-id="37628-p102">Los intervalos de órbitas están configurados como bloques de extensiones virtuales (extensiones sin ningún usuario ni teléfono asignado). Cuando configura órbitas como extensiones virtuales, teléfonos móviles y teléfono RTC, no puede recuperar llamadas estacionadas.</span><span class="sxs-lookup"><span data-stu-id="37628-p102">Orbit ranges are configured as blocks of virtual extensions (extensions without an assigned user or phone). When you configure orbits as virtual extensions, mobile phones and PSTN phones cannot retrieve parked calls.</span></span>
+<span data-ttu-id="cfa36-p102">Los intervalos de órbitas están configurados como bloques de extensiones virtuales (extensiones sin ningún usuario ni teléfono asignado). Cuando configura órbitas como extensiones virtuales, teléfonos móviles y teléfono RTC, no puede recuperar llamadas estacionadas.</span><span class="sxs-lookup"><span data-stu-id="cfa36-p102">Orbit ranges are configured as blocks of virtual extensions (extensions without an assigned user or phone). When you configure orbits as virtual extensions, mobile phones and PSTN phones cannot retrieve parked calls.</span></span>
 
-<span data-ttu-id="37628-118">Los usuarios asociados no pueden recuperar llamadas estacionadas.</span><span class="sxs-lookup"><span data-stu-id="37628-118">Federated users cannot retrieve parked calls.</span></span>
+<span data-ttu-id="cfa36-118">Los usuarios asociados no pueden recuperar llamadas estacionadas.</span><span class="sxs-lookup"><span data-stu-id="cfa36-118">Federated users cannot retrieve parked calls.</span></span>
 
-<span data-ttu-id="37628-119">Los siguientes clientes pueden recuperar llamadas estacionadas en el estacionamiento de llamadas:</span><span class="sxs-lookup"><span data-stu-id="37628-119">The following clients can retrieve calls that are parked on Call Park:</span></span>
+<span data-ttu-id="cfa36-119">Los siguientes clientes pueden recuperar llamadas estacionadas en el estacionamiento de llamadas:</span><span class="sxs-lookup"><span data-stu-id="cfa36-119">The following clients can retrieve calls that are parked on Call Park:</span></span>
 
-  - <span data-ttu-id="37628-120">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="37628-120">Lync 2013</span></span>
+  - <span data-ttu-id="cfa36-120">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="cfa36-120">Lync 2013</span></span>
 
-  - <span data-ttu-id="37628-121">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="37628-121">Lync 2010</span></span>
+  - <span data-ttu-id="cfa36-121">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="cfa36-121">Lync 2010</span></span>
 
-  - <span data-ttu-id="37628-122">Lync 2010 Attendant</span><span class="sxs-lookup"><span data-stu-id="37628-122">Lync 2010 Attendant</span></span>
+  - <span data-ttu-id="cfa36-122">Lync 2010 Attendant</span><span class="sxs-lookup"><span data-stu-id="cfa36-122">Lync 2010 Attendant</span></span>
 
-  - <span data-ttu-id="37628-123">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="37628-123">Lync Phone Edition</span></span>
+  - <span data-ttu-id="cfa36-123">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="cfa36-123">Lync Phone Edition</span></span>
 
-  - <span data-ttu-id="37628-124">Teléfonos IP de área común</span><span class="sxs-lookup"><span data-stu-id="37628-124">IP common area phones</span></span>
+  - <span data-ttu-id="cfa36-124">Teléfonos IP de área común</span><span class="sxs-lookup"><span data-stu-id="cfa36-124">IP common area phones</span></span>
 
-  - <span data-ttu-id="37628-125">Teléfonos no IP que están conectados a la infraestructura de Lync Server 2013, incluidos los teléfonos de área común y los teléfonos de central de conmutación (PBX)</span><span class="sxs-lookup"><span data-stu-id="37628-125">Non-IP phones that are connected to the Lync Server 2013 infrastructure, including common area phones and private branch exchange (PBX) phones</span></span>
+  - <span data-ttu-id="cfa36-125">Teléfonos no IP que están conectados a la infraestructura de Lync Server 2013, incluidos los teléfonos de área común y los teléfonos de central de conmutación (PBX)</span><span class="sxs-lookup"><span data-stu-id="cfa36-125">Non-IP phones that are connected to the Lync Server 2013 infrastructure, including common area phones and private branch exchange (PBX) phones</span></span>
 
 </div>
 

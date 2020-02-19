@@ -12,20 +12,20 @@ ms:contentKeyID: 51541445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7607fb2f31107e3368fa52167dc5015eb1b71f15
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bb643fdbcee35a8b24533bed17d003427a8a0ea8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034050"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136327"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="editing-the-design-in-lync-server-2013"></a><span data-ttu-id="71a09-102">Edición del diseño en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="71a09-102">Editing the design in Lync Server 2013</span></span>
+# <a name="editing-the-design-in-lync-server-2013"></a><span data-ttu-id="7ad34-102">Edición del diseño en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7ad34-102">Editing the design in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "42034050"
 
 <span> </span>
 
-<span data-ttu-id="71a09-103">_**Última modificación del tema:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="71a09-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="7ad34-103">_**Última modificación del tema:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="7ad34-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="71a09-104">Después de completar las preguntas de la entrevista inicial, puede editar el nombre de dominio completo (FQDN) y las direcciones IP del sitio.</span><span class="sxs-lookup"><span data-stu-id="71a09-104">After completing the initial interview questions, you can edit the fully qualified domain name (FQDN) and IP addresses for the site.</span></span> <span data-ttu-id="71a09-105">Para ello, en la página **Topología global**, haga clic con el botón secundario en el sitio que desea editar.</span><span class="sxs-lookup"><span data-stu-id="71a09-105">To do this, on the **Global Topology** page, double-click the site that you want to edit.</span></span>
+<span data-ttu-id="7ad34-104">Después de completar las preguntas de la entrevista inicial, puede editar el nombre de dominio completo (FQDN) y las direcciones IP del sitio.</span><span class="sxs-lookup"><span data-stu-id="7ad34-104">After completing the initial interview questions, you can edit the fully qualified domain name (FQDN) and IP addresses for the site.</span></span> <span data-ttu-id="7ad34-105">Para ello, en la página **Topología global**, haga clic con el botón secundario en el sitio que desea editar.</span><span class="sxs-lookup"><span data-stu-id="7ad34-105">To do this, on the **Global Topology** page, double-click the site that you want to edit.</span></span>
 
-<span data-ttu-id="71a09-106">La herramienta de planeación muestra la topología del sitio seleccionado.</span><span class="sxs-lookup"><span data-stu-id="71a09-106">The Planning Tool displays the site topology for the selected site.</span></span> <span data-ttu-id="71a09-107">En la parte inferior de la página del sitio hay cuatro pestañas:</span><span class="sxs-lookup"><span data-stu-id="71a09-107">At the bottom of the site page are four tabs:</span></span>
+<span data-ttu-id="7ad34-106">La herramienta de planeación muestra la topología del sitio seleccionado.</span><span class="sxs-lookup"><span data-stu-id="7ad34-106">The Planning Tool displays the site topology for the selected site.</span></span> <span data-ttu-id="7ad34-107">En la parte inferior de la página del sitio hay cuatro pestañas:</span><span class="sxs-lookup"><span data-stu-id="7ad34-107">At the bottom of the site page are four tabs:</span></span>
 
-<span data-ttu-id="71a09-108">![Topología de sitio de la herramienta de planeación](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "Topología de sitio de la herramienta de planeación")</span><span class="sxs-lookup"><span data-stu-id="71a09-108">![Planning Tool Site Topology](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "Planning Tool Site Topology")</span></span>
+<span data-ttu-id="7ad34-108">![Topología de sitio de la herramienta de planeación](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "Topología de sitio de la herramienta de planeación")</span><span class="sxs-lookup"><span data-stu-id="7ad34-108">![Planning Tool Site Topology](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "Planning Tool Site Topology")</span></span>
 
-  - <span data-ttu-id="71a09-109">Topología del sitio: La página que se muestra actualmente con información general visual de la topología recomendada.</span><span class="sxs-lookup"><span data-stu-id="71a09-109">Site Topology – The currently displayed page with a visual overview of the topology as recommended.</span></span>
+  - <span data-ttu-id="7ad34-109">Topología del sitio: La página que se muestra actualmente con información general visual de la topología recomendada.</span><span class="sxs-lookup"><span data-stu-id="7ad34-109">Site Topology – The currently displayed page with a visual overview of the topology as recommended.</span></span>
 
-  - <span data-ttu-id="71a09-110">Diagrama de red perimetral: la página de diagrama de red perimetral es donde el diseñador realiza la mayor parte del trabajo en la herramienta de planeación.</span><span class="sxs-lookup"><span data-stu-id="71a09-110">Edge Network Diagram – The Edge Network Diagram page is where the designer does most of the work in the Planning Tool.</span></span> <span data-ttu-id="71a09-111">El diagrama muestra la configuración de red para una topología de Lync Server 2013 recomendada, con entradas editables para direcciones IP y FQDN para servidores, grupo y equilibradores de carga de hardware y de sistema de nombres de dominio (DNS).</span><span class="sxs-lookup"><span data-stu-id="71a09-111">The diagram displays the network configuration for a recommended Lync Server 2013 topology, with editable entries for IP addresses and FQDNs for servers, pool, and both hardware and Domain Name System (DNS) load balancers.</span></span>
+  - <span data-ttu-id="7ad34-110">Diagrama de red perimetral: la página de diagrama de red perimetral es donde el diseñador realiza la mayor parte del trabajo en la herramienta de planeación.</span><span class="sxs-lookup"><span data-stu-id="7ad34-110">Edge Network Diagram – The Edge Network Diagram page is where the designer does most of the work in the Planning Tool.</span></span> <span data-ttu-id="7ad34-111">El diagrama muestra la configuración de red para una topología de Lync Server 2013 recomendada, con entradas editables para direcciones IP y FQDN para servidores, grupo y equilibradores de carga de hardware y de sistema de nombres de dominio (DNS).</span><span class="sxs-lookup"><span data-stu-id="7ad34-111">The diagram displays the network configuration for a recommended Lync Server 2013 topology, with editable entries for IP addresses and FQDNs for servers, pool, and both hardware and Domain Name System (DNS) load balancers.</span></span>
 
-  - <span data-ttu-id="71a09-112">Informe de administración perimetral: El informe de administración perimetral contiene un total de cuatro informes:</span><span class="sxs-lookup"><span data-stu-id="71a09-112">Edge Admin Report – The Edge Admin Report contains a total of four reports:</span></span>
+  - <span data-ttu-id="7ad34-112">Informe de administración perimetral: El informe de administración perimetral contiene un total de cuatro informes:</span><span class="sxs-lookup"><span data-stu-id="7ad34-112">Edge Admin Report – The Edge Admin Report contains a total of four reports:</span></span>
     
-    <span data-ttu-id="71a09-113">![Página Informe de administración perimetral](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "Página Informe de administración perimetral")</span><span class="sxs-lookup"><span data-stu-id="71a09-113">![Edge Admin Report page](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "Edge Admin Report page")</span></span>  
+    <span data-ttu-id="7ad34-113">![Página Informe de administración perimetral](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "Página Informe de administración perimetral")</span><span class="sxs-lookup"><span data-stu-id="7ad34-113">![Edge Admin Report page](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "Edge Admin Report page")</span></span>  
     
-      - <span data-ttu-id="71a09-114">Informe de resumen: Un informe general de las opciones de configuración de la red perimetral.</span><span class="sxs-lookup"><span data-stu-id="71a09-114">Summary Report – A general report of settings for the Edge network configuration.</span></span> <span data-ttu-id="71a09-115">Si edita los valores de la página de **Diagrama de red perimetral** con los valores de la topología TCP/IP y FQDN de que se usarán en la implementación real, esas direcciones y nombres se representarán aquí.</span><span class="sxs-lookup"><span data-stu-id="71a09-115">If you edit the values on the **Edge Network Diagram** page to the topology TCP/IP and FQDN values of that will be used in the actual deployment, those addresses and names will be represented here.</span></span> <span data-ttu-id="71a09-116">De lo contrario, aparecerá el texto predeterminado.</span><span class="sxs-lookup"><span data-stu-id="71a09-116">Otherwise, the default text will appear.</span></span>
+      - <span data-ttu-id="7ad34-114">Informe de resumen: Un informe general de las opciones de configuración de la red perimetral.</span><span class="sxs-lookup"><span data-stu-id="7ad34-114">Summary Report – A general report of settings for the Edge network configuration.</span></span> <span data-ttu-id="7ad34-115">Si edita los valores de la página de **Diagrama de red perimetral** con los valores de la topología TCP/IP y FQDN de que se usarán en la implementación real, esas direcciones y nombres se representarán aquí.</span><span class="sxs-lookup"><span data-stu-id="7ad34-115">If you edit the values on the **Edge Network Diagram** page to the topology TCP/IP and FQDN values of that will be used in the actual deployment, those addresses and names will be represented here.</span></span> <span data-ttu-id="7ad34-116">De lo contrario, aparecerá el texto predeterminado.</span><span class="sxs-lookup"><span data-stu-id="7ad34-116">Otherwise, the default text will appear.</span></span>
     
-      - <span data-ttu-id="71a09-117">Informe de certificado: En el informe de certificado se enumerará el nombre de sujeto y los nombres alternativos de sujeto para los certificados que la topología requiere.</span><span class="sxs-lookup"><span data-stu-id="71a09-117">Certificate Report – The certificate report will list the subject name and subject alternative names for the certificates that are required for the topology.</span></span>
+      - <span data-ttu-id="7ad34-117">Informe de certificado: En el informe de certificado se enumerará el nombre de sujeto y los nombres alternativos de sujeto para los certificados que la topología requiere.</span><span class="sxs-lookup"><span data-stu-id="7ad34-117">Certificate Report – The certificate report will list the subject name and subject alternative names for the certificates that are required for the topology.</span></span>
     
-      - <span data-ttu-id="71a09-118">Informe de firewall: En el informe de firewall se indicará la información necesaria para configurar firewalls perimetrales en la infraestructura.</span><span class="sxs-lookup"><span data-stu-id="71a09-118">Firewall Report – The firewall report lists information necessary to configure perimeter firewalls in the infrastructure.</span></span> <span data-ttu-id="71a09-119">Esto incluye las direcciones IP (los valores predeterminados o modificados), el rol del servidor, el puerto y la IP de origen, el puerto y la IP de destino, el protocolo de transporte, el protocolo de la aplicación y las notas relevantes.</span><span class="sxs-lookup"><span data-stu-id="71a09-119">This includes the IP addresses (either the default or edited values), server role, source IP and port, destination IP and port, transport protocol, application protocol, and relevant notes.</span></span>
+      - <span data-ttu-id="7ad34-118">Informe de firewall: En el informe de firewall se indicará la información necesaria para configurar firewalls perimetrales en la infraestructura.</span><span class="sxs-lookup"><span data-stu-id="7ad34-118">Firewall Report – The firewall report lists information necessary to configure perimeter firewalls in the infrastructure.</span></span> <span data-ttu-id="7ad34-119">Esto incluye las direcciones IP (los valores predeterminados o modificados), el rol del servidor, el puerto y la IP de origen, el puerto y la IP de destino, el protocolo de transporte, el protocolo de la aplicación y las notas relevantes.</span><span class="sxs-lookup"><span data-stu-id="7ad34-119">This includes the IP addresses (either the default or edited values), server role, source IP and port, destination IP and port, transport protocol, application protocol, and relevant notes.</span></span>
     
-      - <span data-ttu-id="71a09-120">Informe de DNS: el informe de DNS muestra la información relevante para las entradas de DNS que debe crear.</span><span class="sxs-lookup"><span data-stu-id="71a09-120">DNS Report – The DNS Report lists relevant information for the DNS entries that you must create.</span></span> <span data-ttu-id="71a09-121">También se incluye el tipo de registro, el FQDN, la dirección IP y los comentarios necesarios para que obtener un funcionamiento correcto.</span><span class="sxs-lookup"><span data-stu-id="71a09-121">The record type, FQDN, IP address, and comments necessary for the proper operation are included.</span></span>
+      - <span data-ttu-id="7ad34-120">Informe de DNS: el informe de DNS muestra la información relevante para las entradas de DNS que debe crear.</span><span class="sxs-lookup"><span data-stu-id="7ad34-120">DNS Report – The DNS Report lists relevant information for the DNS entries that you must create.</span></span> <span data-ttu-id="7ad34-121">También se incluye el tipo de registro, el FQDN, la dirección IP y los comentarios necesarios para que obtener un funcionamiento correcto.</span><span class="sxs-lookup"><span data-stu-id="7ad34-121">The record type, FQDN, IP address, and comments necessary for the proper operation are included.</span></span>
 
-  - <span data-ttu-id="71a09-122">Resumen del sitio: el resumen del sitio presenta una descripción general de las selecciones realizadas al responder a las preguntas de la entrevista inicial o al rellenar los valores en **diseñar sitios**.</span><span class="sxs-lookup"><span data-stu-id="71a09-122">Site Summary – The site summary presents an overview of the selections that you made by either answering the initial interview questions or filling in the values in **Design Sites**.</span></span> <span data-ttu-id="71a09-123">También se presenta información sobre la capacidad.</span><span class="sxs-lookup"><span data-stu-id="71a09-123">Capacity information is also presented.</span></span>
+  - <span data-ttu-id="7ad34-122">Resumen del sitio: el resumen del sitio presenta una descripción general de las selecciones realizadas al responder a las preguntas de la entrevista inicial o al rellenar los valores en **diseñar sitios**.</span><span class="sxs-lookup"><span data-stu-id="7ad34-122">Site Summary – The site summary presents an overview of the selections that you made by either answering the initial interview questions or filling in the values in **Design Sites**.</span></span> <span data-ttu-id="7ad34-123">También se presenta información sobre la capacidad.</span><span class="sxs-lookup"><span data-stu-id="7ad34-123">Capacity information is also presented.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="71a09-124">La información de la página Resumen del sitio está personalizada para cada diseño y puede que no contenga todas las secciones o toda la información que se indica aquí.</span><span class="sxs-lookup"><span data-stu-id="71a09-124">The information on the Site Summary page is customized for each design and may not contain all sections or information detailed here.</span></span>
+    > <span data-ttu-id="7ad34-124">La información de la página Resumen del sitio está personalizada para cada diseño y puede que no contenga todas las secciones o toda la información que se indica aquí.</span><span class="sxs-lookup"><span data-stu-id="7ad34-124">The information on the Site Summary page is customized for each design and may not contain all sections or information detailed here.</span></span>
 
     
     </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="71a09-125">Vea también</span><span class="sxs-lookup"><span data-stu-id="71a09-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7ad34-125">Vea también</span><span class="sxs-lookup"><span data-stu-id="7ad34-125">See Also</span></span>
 
 
-[<span data-ttu-id="71a09-126">Editar el diagrama de configuración de red en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="71a09-126">Editing the network configuration diagram in Lync Server 2013</span></span>](lync-server-2013-editing-the-network-configuration-diagram.md)  
+[<span data-ttu-id="7ad34-126">Editar el diagrama de configuración de red en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7ad34-126">Editing the network configuration diagram in Lync Server 2013</span></span>](lync-server-2013-editing-the-network-configuration-diagram.md)  
   
 
 </div>

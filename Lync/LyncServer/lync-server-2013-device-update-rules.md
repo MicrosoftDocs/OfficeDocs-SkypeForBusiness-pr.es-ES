@@ -12,20 +12,20 @@ ms:contentKeyID: 51803973
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b52fa2f2aefae05f713972df5c3b15e6db7c0b57
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4fcf73c80279f075ce4c6126c5d7bcf564c18624
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42031254"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135817"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-update-rules-in-lync-server-2013"></a><span data-ttu-id="d8567-102">Reglas de actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d8567-102">Device Update rules in Lync Server 2013</span></span>
+# <a name="device-update-rules-in-lync-server-2013"></a><span data-ttu-id="32eae-102">Reglas de actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="32eae-102">Device Update rules in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42031254"
 
 <span> </span>
 
-<span data-ttu-id="d8567-103">_**Última modificación del tema:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="d8567-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="32eae-103">_**Última modificación del tema:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="32eae-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="d8567-104">Periódicamente, Microsoft publica un nuevo conjunto de actualizaciones de firmware de dispositivo para Lync Phone Edition.</span><span class="sxs-lookup"><span data-stu-id="d8567-104">Periodically, Microsoft releases a new set of device firmware updates for Lync Phone Edition.</span></span> <span data-ttu-id="d8567-105">*Las reglas de actualización de dispositivos* asocian actualizaciones de firmware con dispositivos de hardware (teléfonos y otros dispositivos que ejecutan Lync Phone Edition).</span><span class="sxs-lookup"><span data-stu-id="d8567-105">*Device update rules* associate firmware updates with hardware devices—phones and other devices running Lync Phone Edition.</span></span>
+<span data-ttu-id="32eae-104">Periódicamente, Microsoft publica un nuevo conjunto de actualizaciones de firmware de dispositivo para Lync Phone Edition.</span><span class="sxs-lookup"><span data-stu-id="32eae-104">Periodically, Microsoft releases a new set of device firmware updates for Lync Phone Edition.</span></span> <span data-ttu-id="32eae-105">*Las reglas de actualización de dispositivos* asocian actualizaciones de firmware con dispositivos de hardware (teléfonos y otros dispositivos que ejecutan Lync Phone Edition).</span><span class="sxs-lookup"><span data-stu-id="32eae-105">*Device update rules* associate firmware updates with hardware devices—phones and other devices running Lync Phone Edition.</span></span>
 
-<span data-ttu-id="d8567-106">Para obtener el último conjunto de reglas de actualización de dispositivos, vaya a la página ayuda y soporte técnico en el sitio web de Microsoft y busque "Phone Edition".</span><span class="sxs-lookup"><span data-stu-id="d8567-106">To get the latest set of device update rules, go to the Help and Support page on the Microsoft website, and search for "Phone Edition."</span></span> <span data-ttu-id="d8567-107">Descargue el paquete de actualización y extraiga los archivos en una carpeta en el equipo en el que se van a cargar las actualizaciones.</span><span class="sxs-lookup"><span data-stu-id="d8567-107">Download the update package, and extract the files to a folder on the computer where the updates are to be uploaded.</span></span> <span data-ttu-id="d8567-108">Una vez extraídos los archivos, importe las reglas de actualización de dispositivos que se encuentran en el extraído. Archivo CAB (que tiene el nombre UCUpdates. cab).</span><span class="sxs-lookup"><span data-stu-id="d8567-108">After the files have been extracted, import the device update rules found in the extracted .CAB file (which have the name UCUpdates.cab).</span></span> <span data-ttu-id="d8567-109">A continuación, use el panel de control de Lync Server o los cmdlets de Windows PowerShell para ver y administrar estas reglas para los dispositivos de su organización.</span><span class="sxs-lookup"><span data-stu-id="d8567-109">Then, use the Lync Server Control Panel or Windows PowerShell cmdlets to view and manage these rules for your organization’s devices.</span></span>
+<span data-ttu-id="32eae-106">Para obtener el último conjunto de reglas de actualización de dispositivos, vaya a la página ayuda y soporte técnico en el sitio web de Microsoft y busque "Phone Edition".</span><span class="sxs-lookup"><span data-stu-id="32eae-106">To get the latest set of device update rules, go to the Help and Support page on the Microsoft website, and search for "Phone Edition."</span></span> <span data-ttu-id="32eae-107">Descargue el paquete de actualización y extraiga los archivos en una carpeta en el equipo en el que se van a cargar las actualizaciones.</span><span class="sxs-lookup"><span data-stu-id="32eae-107">Download the update package, and extract the files to a folder on the computer where the updates are to be uploaded.</span></span> <span data-ttu-id="32eae-108">Una vez extraídos los archivos, importe las reglas de actualización de dispositivos que se encuentran en el extraído. Archivo CAB (que tiene el nombre UCUpdates. cab).</span><span class="sxs-lookup"><span data-stu-id="32eae-108">After the files have been extracted, import the device update rules found in the extracted .CAB file (which have the name UCUpdates.cab).</span></span> <span data-ttu-id="32eae-109">A continuación, use el panel de control de Lync Server o los cmdlets de Windows PowerShell para ver y administrar estas reglas para los dispositivos de su organización.</span><span class="sxs-lookup"><span data-stu-id="32eae-109">Then, use the Lync Server Control Panel or Windows PowerShell cmdlets to view and manage these rules for your organization’s devices.</span></span>
 
-<span data-ttu-id="d8567-110">En los siguientes temas se explica cómo importar, ver y administrar las reglas de actualización de dispositivos.</span><span class="sxs-lookup"><span data-stu-id="d8567-110">The following topics tell you how to import, view, and manage device update rules.</span></span>
+<span data-ttu-id="32eae-110">En los siguientes temas se explica cómo importar, ver y administrar las reglas de actualización de dispositivos.</span><span class="sxs-lookup"><span data-stu-id="32eae-110">The following topics tell you how to import, view, and manage device update rules.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d8567-111">En esta sección</span><span class="sxs-lookup"><span data-stu-id="d8567-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="32eae-111">En esta sección</span><span class="sxs-lookup"><span data-stu-id="32eae-111">In This Section</span></span>
 
-  - [<span data-ttu-id="d8567-112">Ver información sobre las reglas de actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d8567-112">View information about Device Update rules in Lync Server 2013</span></span>](lync-server-2013-view-information-about-device-update-rules.md)
+  - [<span data-ttu-id="32eae-112">Ver información sobre las reglas de actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="32eae-112">View information about Device Update rules in Lync Server 2013</span></span>](lync-server-2013-view-information-about-device-update-rules.md)
 
-  - [<span data-ttu-id="d8567-113">Importar reglas de actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d8567-113">Import Device Update rules in Lync Server 2013</span></span>](lync-server-2013-import-device-update-rules.md)
+  - [<span data-ttu-id="32eae-113">Importar reglas de actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="32eae-113">Import Device Update rules in Lync Server 2013</span></span>](lync-server-2013-import-device-update-rules.md)
 
-  - [<span data-ttu-id="d8567-114">Aprobar una regla de actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d8567-114">Approve a Device Update rule in Lync Server 2013</span></span>](lync-server-2013-approve-a-device-update-rule.md)
+  - [<span data-ttu-id="32eae-114">Aprobar una regla de actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="32eae-114">Approve a Device Update rule in Lync Server 2013</span></span>](lync-server-2013-approve-a-device-update-rule.md)
 
-  - [<span data-ttu-id="d8567-115">Quitar una regla de actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d8567-115">Remove a Device Update rule in Lync Server 2013</span></span>](lync-server-2013-remove-a-device-update-rule.md)
+  - [<span data-ttu-id="32eae-115">Quitar una regla de actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="32eae-115">Remove a Device Update rule in Lync Server 2013</span></span>](lync-server-2013-remove-a-device-update-rule.md)
 
-  - [<span data-ttu-id="d8567-116">Restablecer una regla de actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d8567-116">Reset a Device Update rule in Lync Server 2013</span></span>](lync-server-2013-reset-a-device-update-rule.md)
+  - [<span data-ttu-id="32eae-116">Restablecer una regla de actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="32eae-116">Reset a Device Update rule in Lync Server 2013</span></span>](lync-server-2013-reset-a-device-update-rule.md)
 
-  - [<span data-ttu-id="d8567-117">Restaurar una regla de actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d8567-117">Restore a Device Update rule in Lync Server 2013</span></span>](lync-server-2013-restore-a-device-update-rule.md)
+  - [<span data-ttu-id="32eae-117">Restaurar una regla de actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="32eae-117">Restore a Device Update rule in Lync Server 2013</span></span>](lync-server-2013-restore-a-device-update-rule.md)
 
 </div>
 

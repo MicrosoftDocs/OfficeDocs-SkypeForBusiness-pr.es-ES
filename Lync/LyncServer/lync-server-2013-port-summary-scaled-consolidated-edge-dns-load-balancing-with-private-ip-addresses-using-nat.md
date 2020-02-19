@@ -12,20 +12,20 @@ ms:contentKeyID: 48184955
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96bf91dfaf4d231ec64ce1b385983f63b15ee0b6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8a90da0679fb48396cf3441464646a27bd2e0caa
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034722"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139211"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a><span data-ttu-id="83223-102">Resumen de Puerto-servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83223-102">Port summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>
+# <a name="port-summary---scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a><span data-ttu-id="49e1a-102">Resumen de Puerto-servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="49e1a-102">Port summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42034722"
 
 <span> </span>
 
-<span data-ttu-id="83223-103">_**Última modificación del tema:** 2012-12-04_</span><span class="sxs-lookup"><span data-stu-id="83223-103">_**Topic Last Modified:** 2012-12-04_</span></span>
+<span data-ttu-id="49e1a-103">_**Última modificación del tema:** 2012-12-04_</span><span class="sxs-lookup"><span data-stu-id="49e1a-103">_**Topic Last Modified:** 2012-12-04_</span></span>
 
-<span data-ttu-id="83223-104">La funcionalidad de servidor perimetral de Lync Server 2013, que se describe en esta arquitectura de escenario, es muy similar a la que se implementó en Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="83223-104">The Lync Server 2013, Edge Server functionality described in this scenario architecture is very similar to what was implemented in Lync Server 2010.</span></span> <span data-ttu-id="83223-105">La adición más llamativa es la entrada del puerto **5269 sobre TCP** para el protocolo extensible de mensajería y presencia (XMPP).</span><span class="sxs-lookup"><span data-stu-id="83223-105">The most noticeable addition is the port **5269 over TCP** entry for the extensible messaging and presence protocol (XMPP).</span></span> <span data-ttu-id="83223-106">Lync Server 2013 puede implementar opcionalmente un proxy XMPP en el servidor perimetral o en el grupo de servidores perimetrales y en el servidor de puerta de enlace XMPP en el servidor front-end o en el grupo de servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="83223-106">Lync Server 2013 optionally deploys an XMPP proxy on the Edge Server or Edge pool and the XMPP gateway server on the Front End Server or Front End pool.</span></span>
+<span data-ttu-id="49e1a-104">La funcionalidad de servidor perimetral de Lync Server 2013, que se describe en esta arquitectura de escenario, es muy similar a la que se implementó en Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="49e1a-104">The Lync Server 2013, Edge Server functionality described in this scenario architecture is very similar to what was implemented in Lync Server 2010.</span></span> <span data-ttu-id="49e1a-105">La adición más llamativa es la entrada del puerto **5269 sobre TCP** para el protocolo extensible de mensajería y presencia (XMPP).</span><span class="sxs-lookup"><span data-stu-id="49e1a-105">The most noticeable addition is the port **5269 over TCP** entry for the extensible messaging and presence protocol (XMPP).</span></span> <span data-ttu-id="49e1a-106">Lync Server 2013 puede implementar opcionalmente un proxy XMPP en el servidor perimetral o en el grupo de servidores perimetrales y en el servidor de puerta de enlace XMPP en el servidor front-end o en el grupo de servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="49e1a-106">Lync Server 2013 optionally deploys an XMPP proxy on the Edge Server or Edge pool and the XMPP gateway server on the Front End Server or Front End pool.</span></span>
 
-<span data-ttu-id="83223-107">Además de IPv4, el servidor perimetral ahora es compatible con IPv6.</span><span class="sxs-lookup"><span data-stu-id="83223-107">In addition to IPv4, the Edge Server now supports IPv6.</span></span> <span data-ttu-id="83223-108">En aras de la claridad, en los escenarios de ejemplo solo se usa IPv4.</span><span class="sxs-lookup"><span data-stu-id="83223-108">For clarity, only IPv4 is used in the scenarios.</span></span>
+<span data-ttu-id="49e1a-107">Además de IPv4, el servidor perimetral ahora es compatible con IPv6.</span><span class="sxs-lookup"><span data-stu-id="49e1a-107">In addition to IPv4, the Edge Server now supports IPv6.</span></span> <span data-ttu-id="49e1a-108">En aras de la claridad, en los escenarios de ejemplo solo se usa IPv4.</span><span class="sxs-lookup"><span data-stu-id="49e1a-108">For clarity, only IPv4 is used in the scenarios.</span></span>
 
-<span data-ttu-id="83223-109">**Red perimetral empresarial para servidor perimetral consolidado escalado con direcciones IP privadas mediante NAT**</span><span class="sxs-lookup"><span data-stu-id="83223-109">**Enterprise perimeter network for scaled consolidated edge with private IP addresses using NAT**</span></span>
+<span data-ttu-id="49e1a-109">**Red perimetral empresarial para servidor perimetral consolidado escalado con direcciones IP privadas mediante NAT**</span><span class="sxs-lookup"><span data-stu-id="49e1a-109">**Enterprise perimeter network for scaled consolidated edge with private IP addresses using NAT**</span></span>
 
-<span data-ttu-id="83223-110">![96f5a8f5-16d2-464d-b86e-7c7ecfc89ead](images/JJ205394.96f5a8f5-16d2-464d-b86e-7c7ecfc89ead(OCS.15).jpg "96f5a8f5-16d2-464d-b86e-7c7ecfc89ead")</span><span class="sxs-lookup"><span data-stu-id="83223-110">![96f5a8f5-16d2-464d-b86e-7c7ecfc89ead](images/JJ205394.96f5a8f5-16d2-464d-b86e-7c7ecfc89ead(OCS.15).jpg "96f5a8f5-16d2-464d-b86e-7c7ecfc89ead")</span></span>
+<span data-ttu-id="49e1a-110">![96f5a8f5-16d2-464d-b86e-7c7ecfc89ead](images/JJ205394.96f5a8f5-16d2-464d-b86e-7c7ecfc89ead(OCS.15).jpg "96f5a8f5-16d2-464d-b86e-7c7ecfc89ead")</span><span class="sxs-lookup"><span data-stu-id="49e1a-110">![96f5a8f5-16d2-464d-b86e-7c7ecfc89ead](images/JJ205394.96f5a8f5-16d2-464d-b86e-7c7ecfc89ead(OCS.15).jpg "96f5a8f5-16d2-464d-b86e-7c7ecfc89ead")</span></span>
 
 <div>
 
-## <a name="port-and-protocol-details"></a><span data-ttu-id="83223-111">Detalles de puerto y protocolo</span><span class="sxs-lookup"><span data-stu-id="83223-111">Port and Protocol Details</span></span>
+## <a name="port-and-protocol-details"></a><span data-ttu-id="49e1a-111">Detalles de puerto y protocolo</span><span class="sxs-lookup"><span data-stu-id="49e1a-111">Port and Protocol Details</span></span>
 
-<span data-ttu-id="83223-112">Se recomienda abrir solamente los puertos necesarios para admitir la funcionalidad para la que proporcione acceso externo.</span><span class="sxs-lookup"><span data-stu-id="83223-112">It is recommended that you open only the ports required to support the functionality for which you are providing external access.</span></span>
+<span data-ttu-id="49e1a-112">Se recomienda abrir solamente los puertos necesarios para admitir la funcionalidad para la que proporcione acceso externo.</span><span class="sxs-lookup"><span data-stu-id="49e1a-112">It is recommended that you open only the ports required to support the functionality for which you are providing external access.</span></span>
 
-<span data-ttu-id="83223-p103">Para que el acceso remoto funcione para cualquier servicio perimetral, es obligatorio que el tráfico SIP pueda fluir de forma bidireccional, tal como se muestra en la figura Tráfico perimetral entrante/saliente. Dicho de otra forma, la mensajería SIP hacia y desde el servicio perimetral de acceso interviene en mensajería instantánea, presencia, conferencia web, audio y vídeo (A/V) y federación.</span><span class="sxs-lookup"><span data-stu-id="83223-p103">For remote access to work for any edge service, it is mandatory that SIP traffic is allowed to flow bi-directionally as shown in the Inbound/Outbound edge traffic figure. Stated another way, the SIP messaging to and from the Access Edge service is involved in instant messaging (IM), presence, web conferencing, audio/video (A/V) and federation.</span></span>
+<span data-ttu-id="49e1a-p103">Para que el acceso remoto funcione para cualquier servicio perimetral, es obligatorio que el tráfico SIP pueda fluir de forma bidireccional, tal como se muestra en la figura Tráfico perimetral entrante/saliente. Dicho de otra forma, la mensajería SIP hacia y desde el servicio perimetral de acceso interviene en mensajería instantánea, presencia, conferencia web, audio y vídeo (A/V) y federación.</span><span class="sxs-lookup"><span data-stu-id="49e1a-p103">For remote access to work for any edge service, it is mandatory that SIP traffic is allowed to flow bi-directionally as shown in the Inbound/Outbound edge traffic figure. Stated another way, the SIP messaging to and from the Access Edge service is involved in instant messaging (IM), presence, web conferencing, audio/video (A/V) and federation.</span></span>
 
-### <a name="firewall-summary-for-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-external-interface--node-1-and-node-2-example"></a><span data-ttu-id="83223-115">Resumen de Firewall para servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT: interfaz externa – nodo 1 y nodo 2 (ejemplo)</span><span class="sxs-lookup"><span data-stu-id="83223-115">Firewall Summary for Scaled Consolidated Edge, DNS Load Balancing with Private IP Addresses Using NAT: External Interface – Node 1 and Node 2 (Example)</span></span>
+### <a name="firewall-summary-for-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-external-interface--node-1-and-node-2-example"></a><span data-ttu-id="49e1a-115">Resumen de Firewall para servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT: interfaz externa – nodo 1 y nodo 2 (ejemplo)</span><span class="sxs-lookup"><span data-stu-id="49e1a-115">Firewall Summary for Scaled Consolidated Edge, DNS Load Balancing with Private IP Addresses Using NAT: External Interface – Node 1 and Node 2 (Example)</span></span>
 
 <table>
 <colgroup>
@@ -64,120 +64,120 @@ ms.locfileid: "42034722"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="83223-116">Rol/Protocolo/TCP o UDP/Puerto</span><span class="sxs-lookup"><span data-stu-id="83223-116">Role/Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="83223-117">Dirección IP de origen</span><span class="sxs-lookup"><span data-stu-id="83223-117">Source IP address</span></span></th>
-<th><span data-ttu-id="83223-118">Dirección IP de destino</span><span class="sxs-lookup"><span data-stu-id="83223-118">Destination IP address</span></span></th>
-<th><span data-ttu-id="83223-119">Notas</span><span class="sxs-lookup"><span data-stu-id="83223-119">Notes</span></span></th>
+<th><span data-ttu-id="49e1a-116">Rol/Protocolo/TCP o UDP/Puerto</span><span class="sxs-lookup"><span data-stu-id="49e1a-116">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="49e1a-117">Dirección IP de origen</span><span class="sxs-lookup"><span data-stu-id="49e1a-117">Source IP address</span></span></th>
+<th><span data-ttu-id="49e1a-118">Dirección IP de destino</span><span class="sxs-lookup"><span data-stu-id="49e1a-118">Destination IP address</span></span></th>
+<th><span data-ttu-id="49e1a-119">Notas</span><span class="sxs-lookup"><span data-stu-id="49e1a-119">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-120">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="83223-120">XMPP/TCP/5269</span></span></p></td>
-<td><p><span data-ttu-id="83223-121">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-121">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-122">Servicio de proxy XMPP (comparte la dirección IP con el servicio perimetral de acceso)</span><span class="sxs-lookup"><span data-stu-id="83223-122">XMPP Proxy service (shares IP address with Access Edge service)</span></span></p></td>
-<td><p><span data-ttu-id="83223-123">El servicio proxy XMPP acepta tráfico desde contactos XMPP definidos en las federaciones XMPP</span><span class="sxs-lookup"><span data-stu-id="83223-123">XMPP Proxy service accepts traffic from XMPP contacts in defined XMPP federations</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-120">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="49e1a-120">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-121">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-121">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-122">Servicio de proxy XMPP (comparte la dirección IP con el servicio perimetral de acceso)</span><span class="sxs-lookup"><span data-stu-id="49e1a-122">XMPP Proxy service (shares IP address with Access Edge service)</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-123">El servicio proxy XMPP acepta tráfico desde contactos XMPP definidos en las federaciones XMPP</span><span class="sxs-lookup"><span data-stu-id="49e1a-123">XMPP Proxy service accepts traffic from XMPP contacts in defined XMPP federations</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="83223-124">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="83223-124">XMPP/TCP/5269</span></span></p></td>
-<td><p><span data-ttu-id="83223-125">Servicio de proxy XMPP (comparte la dirección IP con el servicio perimetral de acceso)</span><span class="sxs-lookup"><span data-stu-id="83223-125">XMPP Proxy service (shares IP address with Access Edge service)</span></span></p></td>
-<td><p><span data-ttu-id="83223-126">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-126">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-127">El servicio Proxy XMPP envía tráfico a los contactos XMPP en las federaciones XMPP definidas</span><span class="sxs-lookup"><span data-stu-id="83223-127">XMPP Proxy service sends traffic to XMPP contacts in defined XMPP federations</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-124">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="49e1a-124">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-125">Servicio de proxy XMPP (comparte la dirección IP con el servicio perimetral de acceso)</span><span class="sxs-lookup"><span data-stu-id="49e1a-125">XMPP Proxy service (shares IP address with Access Edge service)</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-126">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-126">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-127">El servicio Proxy XMPP envía tráfico a los contactos XMPP en las federaciones XMPP definidas</span><span class="sxs-lookup"><span data-stu-id="49e1a-127">XMPP Proxy service sends traffic to XMPP contacts in defined XMPP federations</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-128">Acceso/HTTP/TCP/80</span><span class="sxs-lookup"><span data-stu-id="83223-128">Access/HTTP/TCP/80</span></span></p></td>
-<td><p><span data-ttu-id="83223-129">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-129">Edge Server Access Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-130">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-130">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-131">Revocación de certificados/Comprobación y recuperación de CRL</span><span class="sxs-lookup"><span data-stu-id="83223-131">Certificate revocation/CRL check and retrieval</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-128">Acceso/HTTP/TCP/80</span><span class="sxs-lookup"><span data-stu-id="49e1a-128">Access/HTTP/TCP/80</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-129">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-129">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-130">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-130">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-131">Revocación de certificados/Comprobación y recuperación de CRL</span><span class="sxs-lookup"><span data-stu-id="49e1a-131">Certificate revocation/CRL check and retrieval</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="83223-132">Acceso/DNS/TCP/53</span><span class="sxs-lookup"><span data-stu-id="83223-132">Access/DNS/TCP/53</span></span></p></td>
-<td><p><span data-ttu-id="83223-133">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-133">Edge Server Access Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-134">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-134">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-135">Consulta de DNS sobre TCP</span><span class="sxs-lookup"><span data-stu-id="83223-135">DNS query over TCP</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-132">Acceso/DNS/TCP/53</span><span class="sxs-lookup"><span data-stu-id="49e1a-132">Access/DNS/TCP/53</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-133">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-133">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-134">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-134">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-135">Consulta de DNS sobre TCP</span><span class="sxs-lookup"><span data-stu-id="49e1a-135">DNS query over TCP</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-136">Acceso/DNS/UDP/53</span><span class="sxs-lookup"><span data-stu-id="83223-136">Access/DNS/UDP/53</span></span></p></td>
-<td><p><span data-ttu-id="83223-137">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-137">Edge Server Access Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-138">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-138">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-139">Consulta de DNS sobre UDP</span><span class="sxs-lookup"><span data-stu-id="83223-139">DNS query over UDP</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-136">Acceso/DNS/UDP/53</span><span class="sxs-lookup"><span data-stu-id="49e1a-136">Access/DNS/UDP/53</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-137">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-137">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-138">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-138">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-139">Consulta de DNS sobre UDP</span><span class="sxs-lookup"><span data-stu-id="49e1a-139">DNS query over UDP</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="83223-140">Acceso/SIP (TLS)/TCP/443</span><span class="sxs-lookup"><span data-stu-id="83223-140">Access/SIP(TLS)/TCP/443</span></span></p></td>
-<td><p><span data-ttu-id="83223-141">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-141">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-142">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-142">Edge Server Access Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-143">Tráfico SIP de cliente a servidor para acceso de usuarios externos</span><span class="sxs-lookup"><span data-stu-id="83223-143">Client-to-server SIP traffic for external user access</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-140">Acceso/SIP (TLS)/TCP/443</span><span class="sxs-lookup"><span data-stu-id="49e1a-140">Access/SIP(TLS)/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-141">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-141">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-142">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-142">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-143">Tráfico SIP de cliente a servidor para acceso de usuarios externos</span><span class="sxs-lookup"><span data-stu-id="49e1a-143">Client-to-server SIP traffic for external user access</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-144">Acceso/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="83223-144">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
-<td><p><span data-ttu-id="83223-145">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-145">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-146">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-146">Edge Server Access Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-147">Para conectividad de mensajería instantánea pública y federada mediante SIP</span><span class="sxs-lookup"><span data-stu-id="83223-147">For federated and public IM connectivity using SIP</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-144">Acceso/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="49e1a-144">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-145">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-145">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-146">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-146">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-147">Para conectividad de mensajería instantánea pública y federada mediante SIP</span><span class="sxs-lookup"><span data-stu-id="49e1a-147">For federated and public IM connectivity using SIP</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="83223-148">Acceso/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="83223-148">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
-<td><p><span data-ttu-id="83223-149">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-149">Edge Server Access Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-150">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-150">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-151">Para la conectividad de MI pública y federada mediante SIP</span><span class="sxs-lookup"><span data-stu-id="83223-151">For federated and public IM connectivity using SIP</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-148">Acceso/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="49e1a-148">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-149">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-149">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-150">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-150">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-151">Para la conectividad de MI pública y federada mediante SIP</span><span class="sxs-lookup"><span data-stu-id="49e1a-151">For federated and public IM connectivity using SIP</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-152">Conferencia web/PSOM (TLS)/TCP/443</span><span class="sxs-lookup"><span data-stu-id="83223-152">Web Conferencing/PSOM(TLS)/TCP/443</span></span></p></td>
-<td><p><span data-ttu-id="83223-153">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-153">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-154">Servicio perimetral de conferencia web del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-154">Edge Server Web Conferencing Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-155">Medios de conferencia web</span><span class="sxs-lookup"><span data-stu-id="83223-155">Web Conferencing media</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-152">Conferencia web/PSOM (TLS)/TCP/443</span><span class="sxs-lookup"><span data-stu-id="49e1a-152">Web Conferencing/PSOM(TLS)/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-153">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-153">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-154">Servicio perimetral de conferencia web del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-154">Edge Server Web Conferencing Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-155">Medios de conferencia web</span><span class="sxs-lookup"><span data-stu-id="49e1a-155">Web Conferencing media</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="83223-156">A/V/RTP/TCP/50000-59.999</span><span class="sxs-lookup"><span data-stu-id="83223-156">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
-<td><p><span data-ttu-id="83223-157">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-157">Edge Server A/V Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-158">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-158">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-159">Necesario para la Federación con socios que ejecuten Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010 y Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="83223-159">Required for federating with partners running Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010 and Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-156">A/V/RTP/TCP/50000-59.999</span><span class="sxs-lookup"><span data-stu-id="49e1a-156">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-157">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-157">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-158">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-158">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-159">Necesario para la Federación con socios que ejecuten Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010 y Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="49e1a-159">Required for federating with partners running Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010 and Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-160">A/V/RTP/UDP/50000-59.999</span><span class="sxs-lookup"><span data-stu-id="83223-160">A/V/RTP/UDP/50,000-59,999</span></span></p></td>
-<td><p><span data-ttu-id="83223-161">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-161">Edge Server A/V Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-162">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-162">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-163">Solo es necesario para la Federación con socios que ejecutan Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="83223-163">Required only for federation with partners running Office Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-160">A/V/RTP/UDP/50000-59.999</span><span class="sxs-lookup"><span data-stu-id="49e1a-160">A/V/RTP/UDP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-161">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-161">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-162">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-162">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-163">Solo es necesario para la Federación con socios que ejecutan Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="49e1a-163">Required only for federation with partners running Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="83223-164">A/V/RTP/TCP/50000-59.999</span><span class="sxs-lookup"><span data-stu-id="83223-164">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
-<td><p><span data-ttu-id="83223-165">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-165">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-166">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-166">Edge Server A/V Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-167">Solo es necesario para la Federación con socios que ejecutan Office Communications Server 2007</span><span class="sxs-lookup"><span data-stu-id="83223-167">Required only for federation with partners running Office Communications Server 2007</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-164">A/V/RTP/TCP/50000-59.999</span><span class="sxs-lookup"><span data-stu-id="49e1a-164">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-165">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-165">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-166">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-166">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-167">Solo es necesario para la Federación con socios que ejecutan Office Communications Server 2007</span><span class="sxs-lookup"><span data-stu-id="49e1a-167">Required only for federation with partners running Office Communications Server 2007</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-168">A/V/RTP/UDP/50000-59.999</span><span class="sxs-lookup"><span data-stu-id="83223-168">A/V/RTP/UDP/50,000-59,999</span></span></p></td>
-<td><p><span data-ttu-id="83223-169">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-169">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-170">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-170">Edge Server A/V Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-171">Solo es necesario para la Federación con socios que ejecutan Office Communications Server 2007</span><span class="sxs-lookup"><span data-stu-id="83223-171">Required only for federation with partners running Office Communications Server 2007</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-168">A/V/RTP/UDP/50000-59.999</span><span class="sxs-lookup"><span data-stu-id="49e1a-168">A/V/RTP/UDP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-169">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-169">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-170">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-170">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-171">Solo es necesario para la Federación con socios que ejecutan Office Communications Server 2007</span><span class="sxs-lookup"><span data-stu-id="49e1a-171">Required only for federation with partners running Office Communications Server 2007</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="83223-172">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="83223-172">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
-<td><p><span data-ttu-id="83223-173">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-173">Edge Server A/V Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-174">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-174">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-175">3478 saliente se usa para determinar la versión del servidor perimetral con el que Lync Server se comunica y también para el tráfico de medios de un servidor perimetral a un servidor perimetral.</span><span class="sxs-lookup"><span data-stu-id="83223-175">3478 outbound is used to determine the version of Edge Server that Lync Server is communicating with and also for media traffic from Edge Server-to-Edge Server.</span></span> <span data-ttu-id="83223-176">Necesario para la Federación con Lync Server 2010, Windows Live Messenger y Office Communications Server 2007 R2, y también si hay varios grupos de servidores perimetrales implementados dentro de una empresa.</span><span class="sxs-lookup"><span data-stu-id="83223-176">Required for federation with Lync Server 2010, Windows Live Messenger, and Office Communications Server 2007 R2, and also if multiple Edge pools are deployed within a company.</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-172">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="49e1a-172">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-173">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-173">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-174">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-174">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-175">3478 saliente se usa para determinar la versión del servidor perimetral con el que Lync Server se comunica y también para el tráfico de medios de un servidor perimetral a un servidor perimetral.</span><span class="sxs-lookup"><span data-stu-id="49e1a-175">3478 outbound is used to determine the version of Edge Server that Lync Server is communicating with and also for media traffic from Edge Server-to-Edge Server.</span></span> <span data-ttu-id="49e1a-176">Necesario para la Federación con Lync Server 2010, Windows Live Messenger y Office Communications Server 2007 R2, y también si hay varios grupos de servidores perimetrales implementados dentro de una empresa.</span><span class="sxs-lookup"><span data-stu-id="49e1a-176">Required for federation with Lync Server 2010, Windows Live Messenger, and Office Communications Server 2007 R2, and also if multiple Edge pools are deployed within a company.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-177">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="83223-177">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
-<td><p><span data-ttu-id="83223-178">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-178">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-179">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-179">Edge Server A/V Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-180">Negociación STUN/TURN de candidatos sobre UDP/3478</span><span class="sxs-lookup"><span data-stu-id="83223-180">STUN/TURN negotiation of candidates over UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-177">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="49e1a-177">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-178">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-178">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-179">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-179">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-180">Negociación STUN/TURN de candidatos sobre UDP/3478</span><span class="sxs-lookup"><span data-stu-id="49e1a-180">STUN/TURN negotiation of candidates over UDP/3478</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="83223-181">A/V/STUN, MSTURN/TCP/443</span><span class="sxs-lookup"><span data-stu-id="83223-181">A/V/STUN,MSTURN/TCP/443</span></span></p></td>
-<td><p><span data-ttu-id="83223-182">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-182">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-183">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-183">Edge Server A/V Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-184">Negociación STUN/TURN de candidatos sobre TCP/443</span><span class="sxs-lookup"><span data-stu-id="83223-184">STUN/TURN negotiation of candidates over TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-181">A/V/STUN, MSTURN/TCP/443</span><span class="sxs-lookup"><span data-stu-id="49e1a-181">A/V/STUN,MSTURN/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-182">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-182">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-183">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-183">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-184">Negociación STUN/TURN de candidatos sobre TCP/443</span><span class="sxs-lookup"><span data-stu-id="49e1a-184">STUN/TURN negotiation of candidates over TCP/443</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-185">A/V/STUN, MSTURN/TCP/443</span><span class="sxs-lookup"><span data-stu-id="83223-185">A/V/STUN,MSTURN/TCP/443</span></span></p></td>
-<td><p><span data-ttu-id="83223-186">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-186">Edge Server A/V Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-187">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-187">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-188">Negociación STUN/TURN de candidatos sobre TCP/443</span><span class="sxs-lookup"><span data-stu-id="83223-188">STUN/TURN negotiation of candidates over TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-185">A/V/STUN, MSTURN/TCP/443</span><span class="sxs-lookup"><span data-stu-id="49e1a-185">A/V/STUN,MSTURN/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-186">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-186">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-187">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-187">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-188">Negociación STUN/TURN de candidatos sobre TCP/443</span><span class="sxs-lookup"><span data-stu-id="49e1a-188">STUN/TURN negotiation of candidates over TCP/443</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="firewall-summary-for-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-internal-interface--node-1-and-node-2-example"></a><span data-ttu-id="83223-189">Resumen de Firewall para servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT: interfaz interna – nodo 1 y nodo 2 (ejemplo)</span><span class="sxs-lookup"><span data-stu-id="83223-189">Firewall Summary for Scaled Consolidated Edge, DNS Load Balancing with Private IP Addresses Using NAT: Internal Interface – Node 1 and Node 2 (Example)</span></span>
+### <a name="firewall-summary-for-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-internal-interface--node-1-and-node-2-example"></a><span data-ttu-id="49e1a-189">Resumen de Firewall para servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT: interfaz interna – nodo 1 y nodo 2 (ejemplo)</span><span class="sxs-lookup"><span data-stu-id="49e1a-189">Firewall Summary for Scaled Consolidated Edge, DNS Load Balancing with Private IP Addresses Using NAT: Internal Interface – Node 1 and Node 2 (Example)</span></span>
 
 <table>
 <colgroup>
@@ -188,111 +188,78 @@ ms.locfileid: "42034722"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="83223-190">Protocolo/TCP o UDP/Puerto</span><span class="sxs-lookup"><span data-stu-id="83223-190">Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="83223-191">Dirección IP de origen</span><span class="sxs-lookup"><span data-stu-id="83223-191">Source IP address</span></span></th>
-<th><span data-ttu-id="83223-192">Dirección IP de destino</span><span class="sxs-lookup"><span data-stu-id="83223-192">Destination IP address</span></span></th>
-<th><span data-ttu-id="83223-193">Comentarios</span><span class="sxs-lookup"><span data-stu-id="83223-193">Comments</span></span></th>
+<th><span data-ttu-id="49e1a-190">Protocolo/TCP o UDP/Puerto</span><span class="sxs-lookup"><span data-stu-id="49e1a-190">Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="49e1a-191">Dirección IP de origen</span><span class="sxs-lookup"><span data-stu-id="49e1a-191">Source IP address</span></span></th>
+<th><span data-ttu-id="49e1a-192">Dirección IP de destino</span><span class="sxs-lookup"><span data-stu-id="49e1a-192">Destination IP address</span></span></th>
+<th><span data-ttu-id="49e1a-193">Comentarios</span><span class="sxs-lookup"><span data-stu-id="49e1a-193">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-194">XMPP/MTLS/TCP/23456</span><span class="sxs-lookup"><span data-stu-id="83223-194">XMPP/MTLS/TCP/23456</span></span></p></td>
-<td><p><span data-ttu-id="83223-195">Cualquiera (puede definirse como dirección del servidor front-end o dirección IP del grupo de servidores front-end que ejecuta el servicio de puerta de enlace XMPP)</span><span class="sxs-lookup"><span data-stu-id="83223-195">Any (can be defined as Front End Server address, or Front End pool IP address running the XMPP Gateway service)</span></span></p></td>
-<td><p><span data-ttu-id="83223-196">Dirección IP de la interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-196">Edge Server internal interface IP address</span></span></p></td>
-<td><p><span data-ttu-id="83223-197">Tráfico XMPP saliente desde el servicio de puerta de enlace XMPP que se ejecuta en el servidor front-end o grupo de servidores front-end</span><span class="sxs-lookup"><span data-stu-id="83223-197">Outbound XMPP traffic from XMPP Gateway service running on Front End Server or Front End pool</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-194">XMPP/MTLS/TCP/23456</span><span class="sxs-lookup"><span data-stu-id="49e1a-194">XMPP/MTLS/TCP/23456</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-195">Cualquiera (puede definirse como dirección del servidor front-end o dirección IP del grupo de servidores front-end que ejecuta el servicio de puerta de enlace XMPP)</span><span class="sxs-lookup"><span data-stu-id="49e1a-195">Any (can be defined as Front End Server address, or Front End pool IP address running the XMPP Gateway service)</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-196">Dirección IP de la interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-196">Edge Server internal interface IP address</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-197">Tráfico XMPP saliente desde el servicio de puerta de enlace XMPP que se ejecuta en el servidor front-end o grupo de servidores front-end</span><span class="sxs-lookup"><span data-stu-id="49e1a-197">Outbound XMPP traffic from XMPP Gateway service running on Front End Server or Front End pool</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="83223-198">SIP/MTLS/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="83223-198">SIP/MTLS/TCP/5061</span></span></p></td>
-<td><p><span data-ttu-id="83223-199">Cualquiera (puede definirse como director, dirección IP del grupo de directores, servidor front-end o dirección IP del grupo de servidores front-end)</span><span class="sxs-lookup"><span data-stu-id="83223-199">Any (can be defined as Director, Director pool IP address, Front End Server or Front End pool IP address)</span></span></p></td>
-<td><p><span data-ttu-id="83223-200">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-200">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="83223-201">Tráfico SIP saliente (del Director, la dirección IP del grupo de directores, el servidor front-end o la dirección IP del grupo de servidores front-end) a la interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-201">Outbound SIP traffic (from Director, Director pool IP address, Front End Server or Front End pool IP address) to Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-198">SIP/MTLS/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="49e1a-198">SIP/MTLS/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-199">Cualquiera (puede definirse como director, dirección IP del grupo de directores, servidor front-end o dirección IP del grupo de servidores front-end)</span><span class="sxs-lookup"><span data-stu-id="49e1a-199">Any (can be defined as Director, Director pool IP address, Front End Server or Front End pool IP address)</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-200">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-200">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-201">Tráfico SIP saliente (del Director, la dirección IP del grupo de directores, el servidor front-end o la dirección IP del grupo de servidores front-end) a la interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-201">Outbound SIP traffic (from Director, Director pool IP address, Front End Server or Front End pool IP address) to Edge Server internal interface</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-202">SIP/MTLS/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="83223-202">SIP/MTLS/TCP/5061</span></span></p></td>
-<td><p><span data-ttu-id="83223-203">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-203">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="83223-204">Cualquiera (puede definirse como director, dirección IP del grupo de directores, servidor front-end o dirección IP del grupo de servidores front-end)</span><span class="sxs-lookup"><span data-stu-id="83223-204">Any (can be defined as Director, Director pool IP address, Front End Server or Front End pool IP address)</span></span></p></td>
-<td><p><span data-ttu-id="83223-205">Tráfico SIP entrante (Director, dirección IP del grupo de directores, servidor front-end o dirección IP del grupo de servidores front-end) de la interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-205">Inbound SIP traffic (to Director, Director pool IP address, Front End Server or Front End pool IP address) from Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-202">SIP/MTLS/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="49e1a-202">SIP/MTLS/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-203">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-203">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-204">Cualquiera (puede definirse como director, dirección IP del grupo de directores, servidor front-end o dirección IP del grupo de servidores front-end)</span><span class="sxs-lookup"><span data-stu-id="49e1a-204">Any (can be defined as Director, Director pool IP address, Front End Server or Front End pool IP address)</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-205">Tráfico SIP entrante (Director, dirección IP del grupo de directores, servidor front-end o dirección IP del grupo de servidores front-end) de la interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-205">Inbound SIP traffic (to Director, Director pool IP address, Front End Server or Front End pool IP address) from Edge Server internal interface</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="83223-206">PSOM/MTLS/TCP/8057</span><span class="sxs-lookup"><span data-stu-id="83223-206">PSOM/MTLS/TCP/8057</span></span></p></td>
-<td><p><span data-ttu-id="83223-207">Cualquiera (puede definirse como una dirección IP de servidor front-end o cada dirección IP de servidor front-end en un grupo de servidores front-end)</span><span class="sxs-lookup"><span data-stu-id="83223-207">Any (can be defined as Front End Server IP address, or each Front End Server IP address in a Front End pool)</span></span></p></td>
-<td><p><span data-ttu-id="83223-208">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-208">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="83223-209">Tráfico de conferencia web desde el servidor front-end o cada servidor front-end si en un grupo de servidores, a la interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-209">Web conferencing traffic from Front End Server or each Front End Server if in a pool, to Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-206">PSOM/MTLS/TCP/8057</span><span class="sxs-lookup"><span data-stu-id="49e1a-206">PSOM/MTLS/TCP/8057</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-207">Cualquiera (puede definirse como una dirección IP de servidor front-end o cada dirección IP de servidor front-end en un grupo de servidores front-end)</span><span class="sxs-lookup"><span data-stu-id="49e1a-207">Any (can be defined as Front End Server IP address, or each Front End Server IP address in a Front End pool)</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-208">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-208">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-209">Tráfico de conferencia web desde el servidor front-end o cada servidor front-end si en un grupo de servidores, a la interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-209">Web conferencing traffic from Front End Server or each Front End Server if in a pool, to Edge Server internal interface</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-210">SIP/MTLS/TCP/5062</span><span class="sxs-lookup"><span data-stu-id="83223-210">SIP/MTLS/TCP/5062</span></span></p></td>
-<td><p><span data-ttu-id="83223-211">Cualquiera (puede definirse como una dirección IP de servidor front-end, una dirección IP de grupo de servidores front-end o cualquier aplicación de sucursal con funciones de supervivencia o servidor de sucursal con funciones de supervivencia que usen este servidor perimetral)</span><span class="sxs-lookup"><span data-stu-id="83223-211">Any (can be defined as Front End Server IP address, or Front End pool IP address or any Survivable Branch Appliance or Survivable Branch Server using this Edge Server)</span></span></p></td>
-<td><p><span data-ttu-id="83223-212">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-212">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="83223-213">Autenticación de usuarios de A/V (servicio de autenticación A/V) desde el servidor front-end o la dirección IP del grupo de servidores front-end o cualquier aplicación de sucursal con funciones de supervivencia o servidor de sucursal con funciones de supervivencia mediante este servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-213">Authentication of A/V users (A/V authentication service) from Front End Server or Front End pool IP address or any Survivable Branch Appliance or Survivable Branch Server using this Edge Server</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-210">SIP/MTLS/TCP/5062</span><span class="sxs-lookup"><span data-stu-id="49e1a-210">SIP/MTLS/TCP/5062</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-211">Cualquiera (puede definirse como una dirección IP de servidor front-end, una dirección IP de grupo de servidores front-end o cualquier aplicación de sucursal con funciones de supervivencia o servidor de sucursal con funciones de supervivencia que usen este servidor perimetral)</span><span class="sxs-lookup"><span data-stu-id="49e1a-211">Any (can be defined as Front End Server IP address, or Front End pool IP address or any Survivable Branch Appliance or Survivable Branch Server using this Edge Server)</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-212">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-212">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-213">Autenticación de usuarios de A/V (servicio de autenticación A/V) desde el servidor front-end o la dirección IP del grupo de servidores front-end o cualquier aplicación de sucursal con funciones de supervivencia o servidor de sucursal con funciones de supervivencia mediante este servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-213">Authentication of A/V users (A/V authentication service) from Front End Server or Front End pool IP address or any Survivable Branch Appliance or Survivable Branch Server using this Edge Server</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="83223-214">STUN/MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="83223-214">STUN/MSTURN/UDP/3478</span></span></p></td>
-<td><p><span data-ttu-id="83223-215">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-215">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-216">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-216">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="83223-217">Ruta de acceso preferida para la transferencia de medios de A/V entre usuarios internos y externos, aplicación de sucursal con funciones de supervivencia o servidor de sucursal con funciones de supervivencia</span><span class="sxs-lookup"><span data-stu-id="83223-217">Preferred path for A/V media transfer between internal and external users, Survivable Branch Appliance or Survivable Branch Server</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-214">STUN/MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="49e1a-214">STUN/MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-215">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-215">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-216">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-216">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-217">Ruta de acceso preferida para la transferencia de medios de A/V entre usuarios internos y externos, aplicación de sucursal con funciones de supervivencia o servidor de sucursal con funciones de supervivencia</span><span class="sxs-lookup"><span data-stu-id="49e1a-217">Preferred path for A/V media transfer between internal and external users, Survivable Branch Appliance or Survivable Branch Server</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-218">STUN/MSTURN/TCP/443</span><span class="sxs-lookup"><span data-stu-id="83223-218">STUN/MSTURN/TCP/443</span></span></p></td>
-<td><p><span data-ttu-id="83223-219">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-219">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-220">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-220">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="83223-221">Ruta de acceso de reserva para la transferencia de medios de A/V entre usuarios internos y externos, aplicación de sucursal con funciones de supervivencia o servidor de sucursal con funciones de supervivencia si no se puede establecer la comunicación UDP, se usa TCP para la transferencia de archivos y el uso compartido de escritorio</span><span class="sxs-lookup"><span data-stu-id="83223-221">Fallback path for A/V media transfer between internal and external users, Survivable Branch Appliance or Survivable Branch Server if UDP communication cannot be established, TCP is used for file transfer and desktop sharing</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-218">STUN/MSTURN/TCP/443</span><span class="sxs-lookup"><span data-stu-id="49e1a-218">STUN/MSTURN/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-219">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-219">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-220">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-220">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-221">Ruta de acceso de reserva para la transferencia de medios de A/V entre usuarios internos y externos, aplicación de sucursal con funciones de supervivencia o servidor de sucursal con funciones de supervivencia si no se puede establecer la comunicación UDP, se usa TCP para la transferencia de archivos y el uso compartido de escritorio</span><span class="sxs-lookup"><span data-stu-id="49e1a-221">Fallback path for A/V media transfer between internal and external users, Survivable Branch Appliance or Survivable Branch Server if UDP communication cannot be established, TCP is used for file transfer and desktop sharing</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="83223-222">HTTPS/TCP/4443</span><span class="sxs-lookup"><span data-stu-id="83223-222">HTTPS/TCP/4443</span></span></p></td>
-<td><p><span data-ttu-id="83223-223">Cualquiera (puede definirse como la dirección IP del servidor front-end o el grupo de servidores que contiene el almacén de administración central)</span><span class="sxs-lookup"><span data-stu-id="83223-223">Any (can be defined as the Front End Server IP address, or pool that holds the Central Management store)</span></span></p></td>
-<td><p><span data-ttu-id="83223-224">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-224">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="83223-225">Replicación de los cambios del almacén de Administración central al servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-225">Replication of changes from the Central Management store to the Edge Server</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-222">HTTPS/TCP/4443</span><span class="sxs-lookup"><span data-stu-id="49e1a-222">HTTPS/TCP/4443</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-223">Cualquiera (puede definirse como la dirección IP del servidor front-end o el grupo de servidores que contiene el almacén de administración central)</span><span class="sxs-lookup"><span data-stu-id="49e1a-223">Any (can be defined as the Front End Server IP address, or pool that holds the Central Management store)</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-224">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-224">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-225">Replicación de los cambios del almacén de Administración central al servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-225">Replication of changes from the Central Management store to the Edge Server</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-226">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="83223-226">MTLS/TCP/50001</span></span></p></td>
-<td><p><span data-ttu-id="83223-227">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-227">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-228">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-228">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="83223-229">Controlador del servicio de registro centralizado con los cmdlets del shell de administración de Lync Server y el servicio de registro centralizado, la línea de comandos de ClsController (ClsController. exe) o los comandos y la colección de registros del agente (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="83223-229">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-226">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="49e1a-226">MTLS/TCP/50001</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-227">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-227">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-228">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-228">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-229">Controlador del servicio de registro centralizado con los cmdlets del shell de administración de Lync Server y el servicio de registro centralizado, la línea de comandos de ClsController (ClsController. exe) o los comandos y la colección de registros del agente (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="49e1a-229">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="83223-230">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="83223-230">MTLS/TCP/50002</span></span></p></td>
-<td><p><span data-ttu-id="83223-231">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-231">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-232">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-232">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="83223-233">Controlador del servicio de registro centralizado con los cmdlets del shell de administración de Lync Server y el servicio de registro centralizado, la línea de comandos de ClsController (ClsController. exe) o los comandos y la colección de registros del agente (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="83223-233">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-230">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="49e1a-230">MTLS/TCP/50002</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-231">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-231">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-232">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-232">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-233">Controlador del servicio de registro centralizado con los cmdlets del shell de administración de Lync Server y el servicio de registro centralizado, la línea de comandos de ClsController (ClsController. exe) o los comandos y la colección de registros del agente (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="49e1a-233">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-234">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="83223-234">MTLS/TCP/50003</span></span></p></td>
-<td><p><span data-ttu-id="83223-235">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-235">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-236">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-236">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="83223-237">Controlador del servicio de registro centralizado con los cmdlets del shell de administración de Lync Server y el servicio de registro centralizado, la línea de comandos de ClsController (ClsController. exe) o los comandos y la colección de registros del agente (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="83223-237">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
-</tr>
-</tbody>
-</table>
-
-
-</div>
-
-<div>
-
-## <a name="firewall-summary-for-federation"></a><span data-ttu-id="83223-238">Resumen del firewall para federación</span><span class="sxs-lookup"><span data-stu-id="83223-238">Firewall Summary for Federation</span></span>
-
-
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><span data-ttu-id="83223-239">Rol/Protocolo/TCP o UDP/Puerto</span><span class="sxs-lookup"><span data-stu-id="83223-239">Role/Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="83223-240">Dirección IP de origen</span><span class="sxs-lookup"><span data-stu-id="83223-240">Source IP address</span></span></th>
-<th><span data-ttu-id="83223-241">Dirección IP de destino</span><span class="sxs-lookup"><span data-stu-id="83223-241">Destination IP address</span></span></th>
-<th><span data-ttu-id="83223-242">Notas</span><span class="sxs-lookup"><span data-stu-id="83223-242">Notes</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><span data-ttu-id="83223-243">Acceso/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="83223-243">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
-<td><p><span data-ttu-id="83223-244">Dirección IP pública del servicio perimetral de acceso</span><span class="sxs-lookup"><span data-stu-id="83223-244">Access Edge service public IP address</span></span></p></td>
-<td><p><span data-ttu-id="83223-245">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-245">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-246">Para conectividad de mensajería instantánea pública y federada mediante SIP</span><span class="sxs-lookup"><span data-stu-id="83223-246">For federated and public IM connectivity using SIP</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-234">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="49e1a-234">MTLS/TCP/50003</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-235">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-235">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-236">Interfaz interna del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-236">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-237">Controlador del servicio de registro centralizado con los cmdlets del shell de administración de Lync Server y el servicio de registro centralizado, la línea de comandos de ClsController (ClsController. exe) o los comandos y la colección de registros del agente (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="49e1a-237">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -302,7 +269,7 @@ ms.locfileid: "42034722"
 
 <div>
 
-## <a name="firewall-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="83223-247">Resumen de firewall: Conectividad de mensajería instantánea pública</span><span class="sxs-lookup"><span data-stu-id="83223-247">Firewall Summary – Public Instant Messaging Connectivity</span></span>
+## <a name="firewall-summary-for-federation"></a><span data-ttu-id="49e1a-238">Resumen del firewall para federación</span><span class="sxs-lookup"><span data-stu-id="49e1a-238">Firewall Summary for Federation</span></span>
 
 
 <table>
@@ -314,48 +281,18 @@ ms.locfileid: "42034722"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="83223-248">Rol/Protocolo/TCP o UDP/Puerto</span><span class="sxs-lookup"><span data-stu-id="83223-248">Role/Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="83223-249">Dirección IP de origen</span><span class="sxs-lookup"><span data-stu-id="83223-249">Source IP address</span></span></th>
-<th><span data-ttu-id="83223-250">Dirección IP de destino</span><span class="sxs-lookup"><span data-stu-id="83223-250">Destination IP address</span></span></th>
-<th><span data-ttu-id="83223-251">Notas</span><span class="sxs-lookup"><span data-stu-id="83223-251">Notes</span></span></th>
+<th><span data-ttu-id="49e1a-239">Rol/Protocolo/TCP o UDP/Puerto</span><span class="sxs-lookup"><span data-stu-id="49e1a-239">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="49e1a-240">Dirección IP de origen</span><span class="sxs-lookup"><span data-stu-id="49e1a-240">Source IP address</span></span></th>
+<th><span data-ttu-id="49e1a-241">Dirección IP de destino</span><span class="sxs-lookup"><span data-stu-id="49e1a-241">Destination IP address</span></span></th>
+<th><span data-ttu-id="49e1a-242">Notas</span><span class="sxs-lookup"><span data-stu-id="49e1a-242">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-252">Acceso/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="83223-252">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
-<td><p><span data-ttu-id="83223-253">Socios de conectividad de MI pública</span><span class="sxs-lookup"><span data-stu-id="83223-253">Public IM connectivity partners</span></span></p></td>
-<td><p><span data-ttu-id="83223-254">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-254">Edge Server Access Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-255">Para conectividad de mensajería instantánea pública y federada mediante SIP</span><span class="sxs-lookup"><span data-stu-id="83223-255">For federated and public IM connectivity using SIP</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="83223-256">Acceso/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="83223-256">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
-<td><p><span data-ttu-id="83223-257">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-257">Edge Server Access Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-258">Socios de conectividad de MI pública</span><span class="sxs-lookup"><span data-stu-id="83223-258">Public IM connectivity partners</span></span></p></td>
-<td><p><span data-ttu-id="83223-259">Para conectividad de mensajería instantánea pública y federada mediante SIP</span><span class="sxs-lookup"><span data-stu-id="83223-259">For federated and public IM connectivity using SIP</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="83223-260">Acceso/SIP (TLS)/TCP/443</span><span class="sxs-lookup"><span data-stu-id="83223-260">Access/SIP(TLS)/TCP/443</span></span></p></td>
-<td><p><span data-ttu-id="83223-261">Clientes</span><span class="sxs-lookup"><span data-stu-id="83223-261">Clients</span></span></p></td>
-<td><p><span data-ttu-id="83223-262">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-262">Edge Server Access Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-263">Tráfico SIP de cliente a servidor para acceso de usuarios externos</span><span class="sxs-lookup"><span data-stu-id="83223-263">Client-to-server SIP traffic for external user access</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="83223-264">A/V/RTP/TCP/50000-59.999</span><span class="sxs-lookup"><span data-stu-id="83223-264">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
-<td><p><span data-ttu-id="83223-265">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-265">Edge Server A/V Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-266">Clientes de Live Messenger</span><span class="sxs-lookup"><span data-stu-id="83223-266">Live Messenger clients</span></span></p></td>
-<td><p><span data-ttu-id="83223-267">Usado para sesiones de A/V con Windows Live Messenger si se ha configurado la conectividad de MI.</span><span class="sxs-lookup"><span data-stu-id="83223-267">Used for A/V sessions with Windows Live Messenger if public IM connectivity is configured.</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="83223-268">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="83223-268">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
-<td><p><span data-ttu-id="83223-269">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-269">Edge Server A/V Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-270">Clientes de Live Messenger</span><span class="sxs-lookup"><span data-stu-id="83223-270">Live Messenger clients</span></span></p></td>
-<td><p><span data-ttu-id="83223-271">Obligatorio para la conectividad de MI pública con Windows Live Messenger</span><span class="sxs-lookup"><span data-stu-id="83223-271">Required for public IM connectivity with Windows Live Messenger</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="83223-272">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="83223-272">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
-<td><p><span data-ttu-id="83223-273">Clientes de Live Messenger</span><span class="sxs-lookup"><span data-stu-id="83223-273">Live Messenger clients</span></span></p></td>
-<td><p><span data-ttu-id="83223-274">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-274">Edge Server A/V Edge service</span></span></p></td>
-<td><p><span data-ttu-id="83223-275">Obligatorio para la conectividad de MI pública con Windows Live Messenger</span><span class="sxs-lookup"><span data-stu-id="83223-275">Required for public IM connectivity with Windows Live Messenger</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-243">Acceso/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="49e1a-243">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-244">Dirección IP pública del servicio perimetral de acceso</span><span class="sxs-lookup"><span data-stu-id="49e1a-244">Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-245">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-245">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-246">Para conectividad de mensajería instantánea pública y federada mediante SIP</span><span class="sxs-lookup"><span data-stu-id="49e1a-246">For federated and public IM connectivity using SIP</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -365,7 +302,7 @@ ms.locfileid: "42034722"
 
 <div>
 
-## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="83223-276">Resumen de firewall para el protocolo extensible de mensajería y presencia</span><span class="sxs-lookup"><span data-stu-id="83223-276">Firewall Summary for Extensible Messaging and Presence Protocol</span></span>
+## <a name="firewall-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="49e1a-247">Resumen de firewall: Conectividad de mensajería instantánea pública</span><span class="sxs-lookup"><span data-stu-id="49e1a-247">Firewall Summary – Public Instant Messaging Connectivity</span></span>
 
 
 <table>
@@ -377,30 +314,93 @@ ms.locfileid: "42034722"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="83223-277">Protocolo/TCP o UDP/Puerto</span><span class="sxs-lookup"><span data-stu-id="83223-277">Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="83223-278">Origen (Dirección IP)</span><span class="sxs-lookup"><span data-stu-id="83223-278">Source (IP address)</span></span></th>
-<th><span data-ttu-id="83223-279">Destino (Dirección IP)</span><span class="sxs-lookup"><span data-stu-id="83223-279">Destination (IP address)</span></span></th>
-<th><span data-ttu-id="83223-280">Comentarios</span><span class="sxs-lookup"><span data-stu-id="83223-280">Comments</span></span></th>
+<th><span data-ttu-id="49e1a-248">Rol/Protocolo/TCP o UDP/Puerto</span><span class="sxs-lookup"><span data-stu-id="49e1a-248">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="49e1a-249">Dirección IP de origen</span><span class="sxs-lookup"><span data-stu-id="49e1a-249">Source IP address</span></span></th>
+<th><span data-ttu-id="49e1a-250">Dirección IP de destino</span><span class="sxs-lookup"><span data-stu-id="49e1a-250">Destination IP address</span></span></th>
+<th><span data-ttu-id="49e1a-251">Notas</span><span class="sxs-lookup"><span data-stu-id="49e1a-251">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-281">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="83223-281">XMPP/TCP/5269</span></span></p></td>
-<td><p><span data-ttu-id="83223-282">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-282">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-283">Dirección IP de la interfaz del servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-283">Edge Server Access Edge service interface IP address</span></span></p></td>
-<td><p><span data-ttu-id="83223-284">Puerto de comunicación estándar de servidor a servidor para XMPP.</span><span class="sxs-lookup"><span data-stu-id="83223-284">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="83223-285">Permite la comunicación con el proxy XMPP del servidor perimetral desde socios XMPP federados.</span><span class="sxs-lookup"><span data-stu-id="83223-285">Allows communication to the Edge Server XMPP proxy from federated XMPP partners</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-252">Acceso/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="49e1a-252">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-253">Socios de conectividad de MI pública</span><span class="sxs-lookup"><span data-stu-id="49e1a-253">Public IM connectivity partners</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-254">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-254">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-255">Para conectividad de mensajería instantánea pública y federada mediante SIP</span><span class="sxs-lookup"><span data-stu-id="49e1a-255">For federated and public IM connectivity using SIP</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="83223-286">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="83223-286">XMPP/TCP/5269</span></span></p></td>
-<td><p><span data-ttu-id="83223-287">Dirección IP de la interfaz del servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-287">Edge Server Access Edge service interface IP address</span></span></p></td>
-<td><p><span data-ttu-id="83223-288">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-288">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-289">Puerto de comunicación estándar de servidor a servidor para XMPP.</span><span class="sxs-lookup"><span data-stu-id="83223-289">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="83223-290">Permite la comunicación desde el proxy XMPP del servidor perimetral a asociados de XMPP federados.</span><span class="sxs-lookup"><span data-stu-id="83223-290">Allows communication from the Edge Server XMPP proxy to federated XMPP partners</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-256">Acceso/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="49e1a-256">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-257">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-257">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-258">Socios de conectividad de MI pública</span><span class="sxs-lookup"><span data-stu-id="49e1a-258">Public IM connectivity partners</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-259">Para conectividad de mensajería instantánea pública y federada mediante SIP</span><span class="sxs-lookup"><span data-stu-id="49e1a-259">For federated and public IM connectivity using SIP</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="83223-291">XMPP/MTLS/TCP/23456</span><span class="sxs-lookup"><span data-stu-id="83223-291">XMPP/MTLS/TCP/23456</span></span></p></td>
-<td><p><span data-ttu-id="83223-292">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="83223-292">Any</span></span></p></td>
-<td><p><span data-ttu-id="83223-293">Cada IP de la interfaz del servidor perimetral interno</span><span class="sxs-lookup"><span data-stu-id="83223-293">Each internal Edge Server interface IP</span></span></p></td>
-<td><p><span data-ttu-id="83223-294">Tráfico XMPP interno de la puerta de enlace XMPP del servidor front-end o del grupo de servidores front-end a la dirección IP interna del servidor perimetral o la dirección IP interna de cada miembro del grupo perimetral</span><span class="sxs-lookup"><span data-stu-id="83223-294">Internal XMPP traffic from the XMPP Gateway on the Front End Server or Front End pool to the Edge Server internal IP address or each Edge pool member’s internal IP address</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-260">Acceso/SIP (TLS)/TCP/443</span><span class="sxs-lookup"><span data-stu-id="49e1a-260">Access/SIP(TLS)/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-261">Clientes</span><span class="sxs-lookup"><span data-stu-id="49e1a-261">Clients</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-262">Servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-262">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-263">Tráfico SIP de cliente a servidor para acceso de usuarios externos</span><span class="sxs-lookup"><span data-stu-id="49e1a-263">Client-to-server SIP traffic for external user access</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="49e1a-264">A/V/RTP/TCP/50000-59.999</span><span class="sxs-lookup"><span data-stu-id="49e1a-264">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-265">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-265">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-266">Clientes de Live Messenger</span><span class="sxs-lookup"><span data-stu-id="49e1a-266">Live Messenger clients</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-267">Usado para sesiones de A/V con Windows Live Messenger si se ha configurado la conectividad de MI.</span><span class="sxs-lookup"><span data-stu-id="49e1a-267">Used for A/V sessions with Windows Live Messenger if public IM connectivity is configured.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="49e1a-268">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="49e1a-268">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-269">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-269">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-270">Clientes de Live Messenger</span><span class="sxs-lookup"><span data-stu-id="49e1a-270">Live Messenger clients</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-271">Obligatorio para la conectividad de MI pública con Windows Live Messenger</span><span class="sxs-lookup"><span data-stu-id="49e1a-271">Required for public IM connectivity with Windows Live Messenger</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="49e1a-272">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="49e1a-272">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-273">Clientes de Live Messenger</span><span class="sxs-lookup"><span data-stu-id="49e1a-273">Live Messenger clients</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-274">Servicio perimetral A/V del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-274">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-275">Obligatorio para la conectividad de MI pública con Windows Live Messenger</span><span class="sxs-lookup"><span data-stu-id="49e1a-275">Required for public IM connectivity with Windows Live Messenger</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+<div>
+
+## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="49e1a-276">Resumen de firewall para el protocolo extensible de mensajería y presencia</span><span class="sxs-lookup"><span data-stu-id="49e1a-276">Firewall Summary for Extensible Messaging and Presence Protocol</span></span>
+
+
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="49e1a-277">Protocolo/TCP o UDP/Puerto</span><span class="sxs-lookup"><span data-stu-id="49e1a-277">Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="49e1a-278">Origen (Dirección IP)</span><span class="sxs-lookup"><span data-stu-id="49e1a-278">Source (IP address)</span></span></th>
+<th><span data-ttu-id="49e1a-279">Destino (Dirección IP)</span><span class="sxs-lookup"><span data-stu-id="49e1a-279">Destination (IP address)</span></span></th>
+<th><span data-ttu-id="49e1a-280">Comentarios</span><span class="sxs-lookup"><span data-stu-id="49e1a-280">Comments</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="49e1a-281">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="49e1a-281">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-282">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-282">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-283">Dirección IP de la interfaz del servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-283">Edge Server Access Edge service interface IP address</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-284">Puerto de comunicación estándar de servidor a servidor para XMPP.</span><span class="sxs-lookup"><span data-stu-id="49e1a-284">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="49e1a-285">Permite la comunicación con el proxy XMPP del servidor perimetral desde socios XMPP federados.</span><span class="sxs-lookup"><span data-stu-id="49e1a-285">Allows communication to the Edge Server XMPP proxy from federated XMPP partners</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="49e1a-286">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="49e1a-286">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-287">Dirección IP de la interfaz del servicio perimetral de acceso del servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-287">Edge Server Access Edge service interface IP address</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-288">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-288">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-289">Puerto de comunicación estándar de servidor a servidor para XMPP.</span><span class="sxs-lookup"><span data-stu-id="49e1a-289">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="49e1a-290">Permite la comunicación desde el proxy XMPP del servidor perimetral a asociados de XMPP federados.</span><span class="sxs-lookup"><span data-stu-id="49e1a-290">Allows communication from the Edge Server XMPP proxy to federated XMPP partners</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="49e1a-291">XMPP/MTLS/TCP/23456</span><span class="sxs-lookup"><span data-stu-id="49e1a-291">XMPP/MTLS/TCP/23456</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-292">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="49e1a-292">Any</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-293">Cada IP de la interfaz del servidor perimetral interno</span><span class="sxs-lookup"><span data-stu-id="49e1a-293">Each internal Edge Server interface IP</span></span></p></td>
+<td><p><span data-ttu-id="49e1a-294">Tráfico XMPP interno de la puerta de enlace XMPP del servidor front-end o del grupo de servidores front-end a la dirección IP interna del servidor perimetral o la dirección IP interna de cada miembro del grupo perimetral</span><span class="sxs-lookup"><span data-stu-id="49e1a-294">Internal XMPP traffic from the XMPP Gateway on the Front End Server or Front End pool to the Edge Server internal IP address or each Edge pool member’s internal IP address</span></span></p></td>
 </tr>
 </tbody>
 </table>

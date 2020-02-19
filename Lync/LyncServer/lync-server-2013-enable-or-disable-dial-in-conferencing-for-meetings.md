@@ -12,20 +12,20 @@ ms:contentKeyID: 49733627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d3ec3a148710c3195eef0670f6c533801fb264f6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fa1b18d2d146a56695bc22ea4e6e87e2826c7c8a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040357"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137729"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-dial-in-conferencing-for-meetings-in-lync-server-2013"></a><span data-ttu-id="0ade5-102">Habilitar o deshabilitar las conferencias de acceso telefónico local para reuniones en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0ade5-102">Enable or disable dial-in conferencing for meetings in Lync Server 2013</span></span>
+# <a name="enable-or-disable-dial-in-conferencing-for-meetings-in-lync-server-2013"></a><span data-ttu-id="f9034-102">Habilitar o deshabilitar las conferencias de acceso telefónico local para reuniones en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f9034-102">Enable or disable dial-in conferencing for meetings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42040357"
 
 <span> </span>
 
-<span data-ttu-id="0ade5-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="0ade5-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="f9034-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="f9034-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="0ade5-104">El siguiente procedimiento describe cómo permitir que los usuarios se unan a una reunión con acceso telefónico.</span><span class="sxs-lookup"><span data-stu-id="0ade5-104">The following procedure describes how to allow user to join a meeting using dial-in.</span></span>
+<span data-ttu-id="f9034-104">El siguiente procedimiento describe cómo permitir que los usuarios se unan a una reunión con acceso telefónico.</span><span class="sxs-lookup"><span data-stu-id="f9034-104">The following procedure describes how to allow user to join a meeting using dial-in.</span></span>
 
 <div>
 
-## <a name="to-enable-or-disable-dial-in-conferencing"></a><span data-ttu-id="0ade5-105">Para habilitar o deshabilitar las conferencias de acceso telefónico local</span><span class="sxs-lookup"><span data-stu-id="0ade5-105">To enable or disable dial-in conferencing</span></span>
+## <a name="to-enable-or-disable-dial-in-conferencing"></a><span data-ttu-id="f9034-105">Para habilitar o deshabilitar las conferencias de acceso telefónico local</span><span class="sxs-lookup"><span data-stu-id="f9034-105">To enable or disable dial-in conferencing</span></span>
 
-1.  <span data-ttu-id="0ade5-106">Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.</span><span class="sxs-lookup"><span data-stu-id="0ade5-106">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="f9034-106">Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.</span><span class="sxs-lookup"><span data-stu-id="f9034-106">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="0ade5-107">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0ade5-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="0ade5-108">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="0ade5-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="f9034-107">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="f9034-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="f9034-108">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="f9034-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="0ade5-109">En la barra de navegación izquierda, haga clic en **Conferencia** y, a continuación, en **Directiva de conferencia**.</span><span class="sxs-lookup"><span data-stu-id="0ade5-109">In the left navigation bar, click **Conferencing** and then click **Conferencing Policy**.</span></span>
+3.  <span data-ttu-id="f9034-109">En la barra de navegación izquierda, haga clic en **Conferencia** y, a continuación, en **Directiva de conferencia**.</span><span class="sxs-lookup"><span data-stu-id="f9034-109">In the left navigation bar, click **Conferencing** and then click **Conferencing Policy**.</span></span>
 
-4.  <span data-ttu-id="0ade5-110">En la lista de directivas de conferencia, seleccione la directiva para la que desea habilitar la conferencia con acceso telefónico, haga clic en **Editar** y luego en **Mostrar detalles**.</span><span class="sxs-lookup"><span data-stu-id="0ade5-110">In the list of conferencing policies, select the policy for which you want to enable dial-in conferencing, click **Edit**, and then click **Show details**.</span></span>
+4.  <span data-ttu-id="f9034-110">En la lista de directivas de conferencia, seleccione la directiva para la que desea habilitar la conferencia con acceso telefónico, haga clic en **Editar** y luego en **Mostrar detalles**.</span><span class="sxs-lookup"><span data-stu-id="f9034-110">In the list of conferencing policies, select the policy for which you want to enable dial-in conferencing, click **Edit**, and then click **Show details**.</span></span>
 
-5.  <span data-ttu-id="0ade5-p102">Para permitir que los usuarios se unan a la reunión con acceso telefónico, active la casilla **Habilitar conferencia de acceso telefónico local por RTC**. De forma predeterminada, los usuarios pueden acceder telefónicamente a las reuniones mediante la red telefónica conmutada (RTC).</span><span class="sxs-lookup"><span data-stu-id="0ade5-p102">To allow users to join meeting by dialing in, check the **Enable PSTN dial-in conferencing** check box. By default, users can dial in to meetings by using the public switched telephone network (PSTN).</span></span>
+5.  <span data-ttu-id="f9034-p102">Para permitir que los usuarios se unan a la reunión con acceso telefónico, active la casilla **Habilitar conferencia de acceso telefónico local por RTC**. De forma predeterminada, los usuarios pueden acceder telefónicamente a las reuniones mediante la red telefónica conmutada (RTC).</span><span class="sxs-lookup"><span data-stu-id="f9034-p102">To allow users to join meeting by dialing in, check the **Enable PSTN dial-in conferencing** check box. By default, users can dial in to meetings by using the public switched telephone network (PSTN).</span></span>
 
-6.  <span data-ttu-id="0ade5-113">Haga clic en \*\*Confirmar \*\*.</span><span class="sxs-lookup"><span data-stu-id="0ade5-113">Click **Commit**.</span></span>
+6.  <span data-ttu-id="f9034-113">Haga clic en \*\*Confirmar \*\*.</span><span class="sxs-lookup"><span data-stu-id="f9034-113">Click **Commit**.</span></span>
 
 </div>
 
