@@ -12,20 +12,20 @@ ms:contentKeyID: 48185444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b45f52a07713973d8f642389513d0e34b5236de
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: eff0d59de7822f738cc7e2253cf728690dd45b50
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018041"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141566"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-voice-routing-in-lync-server-2013"></a><span data-ttu-id="8d37f-102">Probar el enrutamiento de voz en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8d37f-102">Test voice routing in Lync Server 2013</span></span>
+# <a name="test-voice-routing-in-lync-server-2013"></a><span data-ttu-id="ef7a4-102">Probar el enrutamiento de voz en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ef7a4-102">Test voice routing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42018041"
 
 <span> </span>
 
-<span data-ttu-id="8d37f-103">_**Última modificación del tema:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="8d37f-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="ef7a4-103">_**Última modificación del tema:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="ef7a4-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="8d37f-104">Puede usar la ficha probar el enrutamiento de **voz** del panel de control de Lync Server para configurar escenarios de casos de prueba.</span><span class="sxs-lookup"><span data-stu-id="8d37f-104">You can use the Lync Server Control Panel **Test Voice Routing** tab to configure test case scenarios.</span></span> <span data-ttu-id="8d37f-105">Para definir un caso de prueba, se especifica el plan de marcado, la directiva de voz, el uso de la RTC y la ruta de voz que se van a usar para probar un número de teléfono específico.</span><span class="sxs-lookup"><span data-stu-id="8d37f-105">To define a test case, you specify the dial plan, voice policy, PSTN usage, and voice route against which to test a specified phone number.</span></span>
+<span data-ttu-id="ef7a4-104">Puede usar la ficha probar el enrutamiento de **voz** del panel de control de Lync Server para configurar escenarios de casos de prueba.</span><span class="sxs-lookup"><span data-stu-id="ef7a4-104">You can use the Lync Server Control Panel **Test Voice Routing** tab to configure test case scenarios.</span></span> <span data-ttu-id="ef7a4-105">Para definir un caso de prueba, se especifica el plan de marcado, la directiva de voz, el uso de la RTC y la ruta de voz que se van a usar para probar un número de teléfono específico.</span><span class="sxs-lookup"><span data-stu-id="ef7a4-105">To define a test case, you specify the dial plan, voice policy, PSTN usage, and voice route against which to test a specified phone number.</span></span>
 
-<span data-ttu-id="8d37f-106">Antes de implementar realmente la configuración de enrutamiento de voz, le recomendamos que la pruebe con varios números de teléfono para asegurarse de que los resultados son lo que esperaba.</span><span class="sxs-lookup"><span data-stu-id="8d37f-106">Before you actually deploy your voice routing configuration, we recommend that you test it on various phone numbers to make sure that the results are what you're expecting.</span></span>
+<span data-ttu-id="ef7a4-106">Antes de implementar realmente la configuración de enrutamiento de voz, le recomendamos que la pruebe con varios números de teléfono para asegurarse de que los resultados son lo que esperaba.</span><span class="sxs-lookup"><span data-stu-id="ef7a4-106">Before you actually deploy your voice routing configuration, we recommend that you test it on various phone numbers to make sure that the results are what you're expecting.</span></span>
 
 <div>
 
 
 > [!TIP]  
-> <span data-ttu-id="8d37f-107">Puede usar los comandos <STRONG>Exportar casos de prueba</STRONG> e <STRONG>Importar casos de prueba</STRONG> para guardar los casos de prueba de enrutamiento de voz e importarlos para su uso en otro equipo.</span><span class="sxs-lookup"><span data-stu-id="8d37f-107">You can use the <STRONG>Export test cases</STRONG> and <STRONG>Import test cases</STRONG> commands to save voice routing test cases and import them for use on another computer.</span></span>
+> <span data-ttu-id="ef7a4-107">Puede usar los comandos <STRONG>Exportar casos de prueba</STRONG> e <STRONG>Importar casos de prueba</STRONG> para guardar los casos de prueba de enrutamiento de voz e importarlos para su uso en otro equipo.</span><span class="sxs-lookup"><span data-stu-id="ef7a4-107">You can use the <STRONG>Export test cases</STRONG> and <STRONG>Import test cases</STRONG> commands to save voice routing test cases and import them for use on another computer.</span></span>
 
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "42018041"
 
 
 > [!WARNING]  
-> <span data-ttu-id="8d37f-108">Si ha eliminado cualquier parte de la configuración del enrutamiento de voz, como un plan de marcado, directiva de voz, ruta de voz o uso de un teléfono, debe comprobar y actualizar los casos de prueba del enrutamiento de voz.</span><span class="sxs-lookup"><span data-stu-id="8d37f-108">If you delete any part of your voice routing configuration, such as a dial plan, voice policy, voice route, or phone usage, you should review and update your voice routing test cases.</span></span> <span data-ttu-id="8d37f-109">El panel de control de Lync Server no le avisará de los casos de prueba que ya no son válidos debido a configuraciones modificadas.</span><span class="sxs-lookup"><span data-stu-id="8d37f-109">The Lync Server Control Panel will not alert you to test cases that are no longer valid due to changed configurations.</span></span>
+> <span data-ttu-id="ef7a4-108">Si ha eliminado cualquier parte de la configuración del enrutamiento de voz, como un plan de marcado, directiva de voz, ruta de voz o uso de un teléfono, debe comprobar y actualizar los casos de prueba del enrutamiento de voz.</span><span class="sxs-lookup"><span data-stu-id="ef7a4-108">If you delete any part of your voice routing configuration, such as a dial plan, voice policy, voice route, or phone usage, you should review and update your voice routing test cases.</span></span> <span data-ttu-id="ef7a4-109">El panel de control de Lync Server no le avisará de los casos de prueba que ya no son válidos debido a configuraciones modificadas.</span><span class="sxs-lookup"><span data-stu-id="ef7a4-109">The Lync Server Control Panel will not alert you to test cases that are no longer valid due to changed configurations.</span></span>
 
 
 
@@ -63,15 +63,15 @@ ms.locfileid: "42018041"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="8d37f-110">En esta sección</span><span class="sxs-lookup"><span data-stu-id="8d37f-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ef7a4-110">En esta sección</span><span class="sxs-lookup"><span data-stu-id="ef7a4-110">In This Section</span></span>
 
-  - [<span data-ttu-id="8d37f-111">Crear un caso de prueba de enrutamiento de voz en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8d37f-111">Create a voice routing test case in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-routing-test-case.md)
+  - [<span data-ttu-id="ef7a4-111">Crear un caso de prueba de enrutamiento de voz en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ef7a4-111">Create a voice routing test case in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-routing-test-case.md)
 
-  - [<span data-ttu-id="8d37f-112">Exportar casos de prueba de enrutamiento de voz en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8d37f-112">Export voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-export-voice-routing-test-cases.md)
+  - [<span data-ttu-id="ef7a4-112">Exportar casos de prueba de enrutamiento de voz en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ef7a4-112">Export voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-export-voice-routing-test-cases.md)
 
-  - [<span data-ttu-id="8d37f-113">Importar casos de prueba de enrutamiento de voz en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8d37f-113">Import voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-import-voice-routing-test-cases.md)
+  - [<span data-ttu-id="ef7a4-113">Importar casos de prueba de enrutamiento de voz en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ef7a4-113">Import voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-import-voice-routing-test-cases.md)
 
-  - [<span data-ttu-id="8d37f-114">Ejecución de pruebas de enrutamiento de voz en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8d37f-114">Running voice routing tests in Lync Server 2013</span></span>](lync-server-2013-running-voice-routing-tests.md)
+  - [<span data-ttu-id="ef7a4-114">Ejecución de pruebas de enrutamiento de voz en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ef7a4-114">Running voice routing tests in Lync Server 2013</span></span>](lync-server-2013-running-voice-routing-tests.md)
 
 </div>
 
