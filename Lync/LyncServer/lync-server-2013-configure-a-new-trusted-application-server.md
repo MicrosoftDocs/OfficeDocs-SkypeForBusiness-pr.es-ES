@@ -12,18 +12,18 @@ ms:contentKeyID: 48185085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e370c229442d90d6e962f0d73efbf4b94038926a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5878c1375c5efb650e29b70a645c48dac6d920f4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048163"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42133975"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a>Configurar un nuevo servidor de aplicaciones de confianza en Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42048163"
 
 _**Última modificación del tema:** 2012-11-01_
 
-Una aplicación de confianza es una aplicación basada en el SDK de Microsoft Unified Communications Managed API (UCMA) 3,0 Core SDK en el que confía Microsoft Lync Server 2013. Para obtener más información acerca de las aplicaciones de UCMA, consulte la documentación de Unified Communications Managed API 3,0 Core SDK en [http://go.microsoft.com/fwlink/p/?linkId=210320](http://go.microsoft.com/fwlink/p/?linkid=210320).
+Una aplicación de confianza es una aplicación basada en el SDK de Microsoft Unified Communications Managed API (UCMA) 3,0 Core SDK en el que confía Microsoft Lync Server 2013. Para obtener más información acerca de las aplicaciones de UCMA, consulte la documentación de Unified Communications Managed API 3,0 Core SDK en [https://go.microsoft.com/fwlink/p/?linkId=210320](https://go.microsoft.com/fwlink/p/?linkid=210320).
 
 Para obtener información acerca de la configuración de Microsoft Outlook Web Access (OWA) y Lync Server 2013, consulte "configure Outlook Web App and Lync Server 2010 Integration" en la documentación de Microsoft Exchange Server 2013.
 

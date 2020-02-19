@@ -12,18 +12,18 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc807d65c76a1307ccd8532e644f9f9d23ffc69e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 69a4616cbe9519a8196ce78e35f21c673a0d2c95
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046743"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134076"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="client-interoperability-in-lync-2013"></a>Interoperabilidad de clientes en Lync 2013
 
@@ -64,32 +64,32 @@ En la siguiente tabla se muestran las combinaciones compatibles de versiones de 
 <tbody>
 <tr class="odd">
 <td><p>Lync 2013</p></td>
-<td><p>Admitido</p></td>
+<td><p>Compatible.</p></td>
 <td><p>Supported5</p></td>
 <td><p>No compatible</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2013 Basic</p></td>
-<td><p>Compatible</p></td>
-<td><p>Compatible</p></td>
+<td><p>Compatible.</p></td>
+<td><p>Compatible.</p></td>
 <td><p>No compatible</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Web App 2013</p></td>
-<td><p>Admitido</p></td>
+<td><p>Compatible.</p></td>
 <td><p>No compatible</p></td>
 <td><p>No se admite</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010</p></td>
-<td><p>Compatible</p></td>
-<td><p>Compatible</p></td>
+<td><p>Compatible.</p></td>
+<td><p>Compatible.</p></td>
 <td><p>No compatible</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2010 Attendant</p></td>
-<td><p>Compatible</p></td>
-<td><p>Compatible</p></td>
+<td><p>Compatible.</p></td>
+<td><p>Compatible.</p></td>
 <td><p>No compatible</p></td>
 </tr>
 <tr class="even">
@@ -101,43 +101,43 @@ En la siguiente tabla se muestran las combinaciones compatibles de versiones de 
 <tr class="odd">
 <td><p>Lync Web App 2010</p></td>
 <td><p>No se admite</p></td>
-<td><p>Admitido</p></td>
+<td><p>Compatible.</p></td>
 <td><p>No compatible</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010 Attendee</p></td>
 <td><p>No Supported3</p></td>
-<td><p>Admitido</p></td>
+<td><p>Compatible.</p></td>
 <td><p>No compatible</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007 R2</p></td>
 <td><p>Interoperable4</p></td>
-<td><p>Compatible</p></td>
-<td><p>Compatible</p></td>
+<td><p>Compatible.</p></td>
+<td><p>Compatible.</p></td>
 </tr>
 <tr class="even">
 <td><p>Operador de Microsoft Office Communications Server 2007 R2</p></td>
 <td><p>No se admite</p></td>
-<td><p>Compatible</p></td>
-<td><p>Compatible</p></td>
+<td><p>Compatible.</p></td>
+<td><p>Compatible.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007</p></td>
 <td><p>No se admite</p></td>
-<td><p>Compatible</p></td>
-<td><p>Compatible</p></td>
+<td><p>Compatible.</p></td>
+<td><p>Compatible.</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Live Meeting 2007</p></td>
 <td><p>No se admite</p></td>
-<td><p>Compatible</p></td>
-<td><p>Compatible</p></td>
+<td><p>Compatible.</p></td>
+<td><p>Compatible.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Aplicación Lync de la tienda Windows</p></td>
-<td><p>Compatible</p></td>
-<td><p>Compatible</p></td>
+<td><p>Compatible.</p></td>
+<td><p>Compatible.</p></td>
 <td><p>No compatible</p></td>
 </tr>
 </tbody>
@@ -485,27 +485,27 @@ La compatibilidad del servidor con varios complementos de programación es consi
 <tbody>
 <tr class="odd">
 <td><p>Complemento para reunión en línea para Lync 2013 (se puede usar con Office 2013, Outlook 2010 y Outlook 2007)</p></td>
-<td><p>Admitido</p></td>
+<td><p>Compatible.</p></td>
 <td><p>Compatible (nuevas características del complemento no disponibles)</p></td>
 <td><p>No se admite</p></td>
 </tr>
 <tr class="even">
 <td><p>Programador web de Lync 2013</p></td>
-<td><p>Admitido</p></td>
+<td><p>Compatible.</p></td>
 <td><p>No compatible</p></td>
 <td><p>No compatible</p></td>
 </tr>
 <tr class="odd">
 <td><p>Complemento de conferencia en línea para Lync 2010</p></td>
-<td><p>Compatible</p></td>
-<td><p>Compatible</p></td>
+<td><p>Compatible.</p></td>
+<td><p>Compatible.</p></td>
 <td><p>No se admite</p></td>
 </tr>
 <tr class="even">
 <td><p>Complemento para conferencias de Office Communicator 2007 R2</p></td>
 <td><p>No compatible</p></td>
-<td><p>Compatible</p></td>
-<td><p>Compatible</p></td>
+<td><p>Compatible.</p></td>
+<td><p>Compatible.</p></td>
 </tr>
 </tbody>
 </table>

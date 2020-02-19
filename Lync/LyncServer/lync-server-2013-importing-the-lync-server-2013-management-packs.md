@@ -12,18 +12,18 @@ ms:contentKeyID: 48184690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: adaf9fe1c6d5d4cc0769810aece05bcb46681e79
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a2c6dd42056fe665c0d4ec53d28103745ace2c84
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038712"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42131183"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="importing-the-lync-server-2013-management-packs"></a>Importación de los paquetes de administración de Lync Server 2013
 
@@ -45,7 +45,7 @@ Puede ampliar las capacidades de System Center Operations Manager mediante la in
     
 
     > [!NOTE]  
-    > Para obtener más información sobre cómo configurar la notificación de Operations Manager, vea la notificación <A href="http://go.microsoft.com/fwlink/p/?linkid=268785">http://go.microsoft.com/fwlink/p/?LinkId=268785</A>de configuración en la biblioteca de TechNet en.
+    > Para obtener más información sobre cómo configurar la notificación de Operations Manager, vea la notificación <A href="https://go.microsoft.com/fwlink/p/?linkid=268785">https://go.microsoft.com/fwlink/p/?LinkId=268785</A>de configuración en la biblioteca de TechNet en.
 
     
     </div>

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aada74d1cc96d0dfd7396231ccd96e6ed0d13a6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b200fb122f436e7afa5587e56a9e62edd0d3fa5e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008562"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135577"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Compatibilidad de servicios de dominio de Active Directory en Lync Server 2013
 
@@ -103,7 +103,7 @@ Lync Server 2013 admite implementaciones de servicios de dominio de Active Direc
 
 ## <a name="domain-names"></a>Nombres de dominio
 
-Lync Server no admite dominios con una sola etiqueta. Por ejemplo, se admitiría un bosque con un dominio raíz denominado **contoso.local**, pero no un dominio raíz denominado **local**. Para obtener más información, consulte el artículo 300684 de Microsoft Knowledge base, "información sobre la configuración de Windows para dominios con nombres DNS [http://go.microsoft.com/fwlink/p/?linkId=143752](http://go.microsoft.com/fwlink/p/?linkid=143752)de etiqueta única" en.
+Lync Server no admite dominios con una sola etiqueta. Por ejemplo, se admitiría un bosque con un dominio raíz denominado **contoso.local**, pero no un dominio raíz denominado **local**. Para obtener más información, consulte el artículo 300684 de Microsoft Knowledge base, "información sobre la configuración de Windows para dominios con nombres DNS [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752)de etiqueta única" en.
 
 <div>
 

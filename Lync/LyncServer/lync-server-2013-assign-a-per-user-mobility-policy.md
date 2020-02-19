@@ -12,12 +12,12 @@ ms:contentKeyID: 49733836
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1014bce74e0e7dcd789c9b2948c029f4b40ecb9a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7b9a5a1bf5132fb78086fdd424714e03af2caab5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030143"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134426"
 ---
 # <a name="assign-a-per-user-mobility-policy-in-lync-server-2013"></a>Asignar una directiva de movilidad por usuario en Lync Server 2013
 
@@ -86,7 +86,7 @@ La Directiva de movilidad es una de las configuraciones individuales de una cuen
 
 ## <a name="assigning-a-per-user-mobility-policy-by-using-windows-powershell-cmdlets"></a>Asignación de una directiva de movilidad por usuario mediante cmdlets de Windows PowerShell
 
-Puede asignar directivas de movilidad por usuario con Windows PowerShell y el cmdlet **Grant-CsMobilityPolicy** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede asignar directivas de movilidad por usuario con Windows PowerShell y el cmdlet **Grant-CsMobilityPolicy** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
 ## <a name="to-assign-a-per-user-mobility-policy-to-a-single-user"></a>Para asignar una directiva de movilidad por usuario a un solo usuario
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79f1c27f48beddd0c1fd3260193a71bb79b034bd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 97f27f9bf669db874ae276c2c2dff93bda451754
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049352"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42132743"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="determine-dns-requirements-for-lync-server-2013"></a>Determinación de los requisitos de DNS para Lync Server 2013
 
@@ -262,7 +262,7 @@ Si la configuración automática es necesaria para los clientes que ejecutan Lyn
 
 </div>
 
-Para obtener más información, consulte el artículo del blog de DMTF "configuración automática de Communicator y DNS de cerebro [http://go.microsoft.com/fwlink/p/?linkId=200707](http://go.microsoft.com/fwlink/p/?linkid=200707)dividido" en.
+Para obtener más información, consulte el artículo del blog de DMTF "configuración automática de Communicator y DNS de cerebro [https://go.microsoft.com/fwlink/p/?linkId=200707](https://go.microsoft.com/fwlink/p/?linkid=200707)dividido" en.
 
 <div>
 

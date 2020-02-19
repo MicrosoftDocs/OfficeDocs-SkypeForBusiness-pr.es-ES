@@ -12,18 +12,18 @@ ms:contentKeyID: 48184031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3827bf913c4108c1105376a6f178598a2fb45a06
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 457702a4b237493beb8ca5dfe1e2d7ce9b3d2654
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41996655"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135537"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a>Configuración de directivas de arranque de cliente en Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "41996655"
 
 _**Última modificación del tema:** 2013-02-21_
 
-La consola de administración de directivas de grupo (GPMC) y el editor de objetos de directiva de grupo son herramientas que se usan para administrar la Directiva de grupo. En la plantilla administrativa de la Directiva de grupo de Office se incluyen plantillas administrativas de Lync 2013. ADMX (ADMX) y. ADML (ADML), que contienen las opciones de directiva basadas en el registro que se configuran para los objetos de directiva de grupo en el dominio. Los archivos ADML son complementos específicos de idioma para archivos ADMX. Cada archivo ADMX y ADML contiene la configuración de directiva para una sola aplicación de Office. Para obtener más información, consulte "Office 2013 Administrative template files (ADMX, ADML)" en la documentación de <http://go.microsoft.com/fwlink/p/?linkid=267516>Office 2013 en.
+La consola de administración de directivas de grupo (GPMC) y el editor de objetos de directiva de grupo son herramientas que se usan para administrar la Directiva de grupo. En la plantilla administrativa de la Directiva de grupo de Office se incluyen plantillas administrativas de Lync 2013. ADMX (ADMX) y. ADML (ADML), que contienen las opciones de directiva basadas en el registro que se configuran para los objetos de directiva de grupo en el dominio. Los archivos ADML son complementos específicos de idioma para archivos ADMX. Cada archivo ADMX y ADML contiene la configuración de directiva para una sola aplicación de Office. Para obtener más información, consulte "Office 2013 Administrative template files (ADMX, ADML)" en la documentación de <https://go.microsoft.com/fwlink/p/?linkid=267516>Office 2013 en.
 
 Para Lync 2013, hay varias directivas de arranque de cliente que debe considerar configurar antes de que los usuarios inicien sesión en el servidor por primera vez. Por ejemplo, el modo de seguridad y los servidores predeterminados que el cliente debe usar hasta que se complete el inicio de sesión. Puede usar la Directiva de grupo para establecer estas opciones en los registros del equipo de los usuarios antes de iniciar sesión y comenzar a recibir la configuración de aprovisionamiento en banda del servidor. En la siguiente tabla se enumeran las opciones de configuración de directiva de grupo que están disponibles para Lync 2013.
 
@@ -155,19 +155,19 @@ Las directivas configuradas en el servidor tienen prioridad frente a la configur
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Aprovisionamiento en banda de Lync Server 2013</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>segundo</p></td>
 <td><p>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>HKEY_CURRENT_USER \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="even">
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>El cuadro de diálogo Lync-opciones en Lync 2013</p></td>
 </tr>
 </tbody>

@@ -12,18 +12,18 @@ ms:contentKeyID: 56335088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a959addbcd98e04d336ba380676399dbff2f586b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 237799a84d0230bf55737779921dd66b23c27130
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040789"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42133995"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuration-of-location-based-routing-for-conferencing-in-lync-server-2013"></a>Configuración del enrutamiento basado en ubicación para conferencias en Lync Server 2013
 
@@ -63,11 +63,11 @@ Por ejemplo, si la aplicación "UdcAgent" tiene un valor de prioridad de "2", la
 
 Una vez que haya encontrado el valor de prioridad correcto para la aplicación de conferencia de enrutamiento basada en ubicación, escriba el siguiente cmdlet para cada grupo de servidores front-end o servidor Standard Edition que aloje a los usuarios habilitados para el enrutamiento basado en ubicación:
 
-New-CsServerApplication-Identity Service: registrar:\<FQDN\>del grupo de/LBRouting \<-priority Application priority\> Enabled $true-URI $true-URIhttp://www.microsoft.com/LCS/LBRouting
+New-CsServerApplication-Identity Service: registrar:\<FQDN\>del grupo de/LBRouting \<-priority Application priority\> Enabled $true-URI $true-URIhttps://www.microsoft.com/LCS/LBRouting
 
 Por ejemplo:
 
-New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool. contoso. com/LBRouting-Priority 3-Enabled $true-URI $true-URIhttp://www.microsoft.com/LCS/LBRouting
+New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool. contoso. com/LBRouting-Priority 3-Enabled $true-URI $true-URIhttps://www.microsoft.com/LCS/LBRouting
 
 Después de usar este cmdlet, reinicie todos los servidores front-end en el grupo o los servidores Standard Edition donde se haya habilitado la aplicación de conferencia de enrutamiento basada en ubicación.
 

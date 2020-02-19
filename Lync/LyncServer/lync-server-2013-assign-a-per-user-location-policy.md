@@ -12,12 +12,12 @@ ms:contentKeyID: 48183794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ec78fd434706ec3e1c5f28c256b38a5f4463ac7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1d66df7f2d0c8a2b8603f7c08312f5b8b6aaad56
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044032"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134436"
 ---
 # <a name="assign-a-per-user-location-policy-in-lync-server-2013"></a>Asignar una directiva de ubicación por usuario en Lync Server 2013
 
@@ -94,7 +94,7 @@ Para obtener información detallada sobre cómo crear directivas de ubicación, 
 
 ## <a name="assigning-a-per-user-location-policy-by-using-lync-server-management-shell-cmdlets"></a>Asignación de una directiva de ubicación por usuario mediante el uso de cmdlets del shell de administración de Lync Server
 
-Puede asignar directivas de ubicación por usuario con el cmdlet Grant-CsLocationPolicy. Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede asignar directivas de ubicación por usuario con el cmdlet Grant-CsLocationPolicy. Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
 ## <a name="to-assign-a-per-user-location-policy-to-a-single-user"></a>Para asignar una directiva de ubicación por usuario a un único usuario
 

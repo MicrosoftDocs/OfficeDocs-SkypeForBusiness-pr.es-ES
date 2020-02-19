@@ -12,18 +12,18 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b53b878d7f41a5eb83eb67d98fc69d68709a603
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f05832a3390101aad7acb1c9d25f532288ca020a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008582"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135597"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="active-directory-domain-services-for-lync-server-2013"></a>Servicios de dominio de Active Directory para Lync Server 2013
 
@@ -71,7 +71,7 @@ Para obtener más información, consulte [Active Directory Infrastructure Requir
 
 
 > [!NOTE]  
-> Se recomienda implementar la configuración global en el contenedor de configuración en lugar del contenedor del sistema. Esto no mejora la seguridad, pero puede dar como resultado mejoras de escalabilidad para algunas topologías de servicios de dominio de Active Directory. Si va a migrar desde Microsoft Office Communications Server 2007 y ha usado el contenedor del sistema pero tiene previsto usar el contenedor de configuración, debe mover la configuración del contenedor del sistema antes de realizar los preparativos de actualización. Para migrar la configuración del contenedor del sistema al contenedor de configuración, vea Office Communications Server 2007 global Settings <A href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</A>Migration Tool en.
+> Se recomienda implementar la configuración global en el contenedor de configuración en lugar del contenedor del sistema. Esto no mejora la seguridad, pero puede dar como resultado mejoras de escalabilidad para algunas topologías de servicios de dominio de Active Directory. Si va a migrar desde Microsoft Office Communications Server 2007 y ha usado el contenedor del sistema pero tiene previsto usar el contenedor de configuración, debe mover la configuración del contenedor del sistema antes de realizar los preparativos de actualización. Para migrar la configuración del contenedor del sistema al contenedor de configuración, vea Office Communications Server 2007 global Settings <A href="https://go.microsoft.com/fwlink/p/?linkid=145236">https://go.microsoft.com/fwlink/p/?LinkId=145236</A>Migration Tool en.
 
 
 
@@ -219,7 +219,7 @@ Además, para habilitar las implementaciones de Microsoft Office Communications 
 </table>
 
 
-Para admitir servidores de confianza de versiones anteriores, debe ejecutar la herramienta Best Practices Analyzer. Para obtener más información sobre cómo ejecutar el analizador de [http://go.microsoft.com/fwlink/p/?LinkId=330633](http://go.microsoft.com/fwlink/p/?linkid=330633)procedimientos recomendados, consulte.
+Para admitir servidores de confianza de versiones anteriores, debe ejecutar la herramienta Best Practices Analyzer. Para obtener más información sobre cómo ejecutar el analizador de [https://go.microsoft.com/fwlink/p/?LinkId=330633](https://go.microsoft.com/fwlink/p/?linkid=330633)procedimientos recomendados, consulte.
 
 </div>
 

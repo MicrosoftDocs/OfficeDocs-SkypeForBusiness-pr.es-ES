@@ -12,18 +12,18 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab2b7026ca49f8e12a5f8b67aa0780996feaebe1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 664091baee67d0ddf953d8a114370fdb875eef29
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036490"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135547"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>Planeación de la capacidad para Lync Server 2013 mediante los modelos de usuario
 
@@ -220,7 +220,7 @@ En la tabla siguiente se muestra el ancho de banda medio para mensajería instan
 
 
 > [!NOTE]  
-> Para mejorar el rendimiento de los medios en los servidores front-end de conferencias A/V y servidores de mediación colocalizados, debe habilitar el ajuste de escala en el lado de recepción (RSS) en los adaptadores de red de los servidores front-end. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, vea "mejoras en el ajuste de escala en lado de recepción <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>en Windows Server 2008" en. Para obtener más información sobre cómo habilitar RSS, consulte la documentación de su adaptador de red.
+> Para mejorar el rendimiento de los medios en los servidores front-end de conferencias A/V y servidores de mediación colocalizados, debe habilitar el ajuste de escala en el lado de recepción (RSS) en los adaptadores de red de los servidores front-end. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, vea "mejoras en el ajuste de escala en lado de recepción <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>en Windows Server 2008" en. Para obtener más información sobre cómo habilitar RSS, consulte la documentación de su adaptador de red.
 
 
 
@@ -266,7 +266,7 @@ Cuando calcule el número de usuarios de los servidores perimetrales, incluya lo
 
 
 > [!NOTE]  
-> Para mejorar el rendimiento del servicio de conferencia A/V en los servidores perimetrales, debe habilitar el ajuste de escala en lado de recepción (RSS) en los adaptadores de red de los servidores perimetrales. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, vea "mejoras en el ajuste de escala en lado de recepción <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>en Windows Server 2008" en. Para obtener más información sobre cómo habilitar RSS, consulte la documentación de su adaptador de red.
+> Para mejorar el rendimiento del servicio de conferencia A/V en los servidores perimetrales, debe habilitar el ajuste de escala en lado de recepción (RSS) en los adaptadores de red de los servidores perimetrales. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, vea "mejoras en el ajuste de escala en lado de recepción <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>en Windows Server 2008" en. Para obtener más información sobre cómo habilitar RSS, consulte la documentación de su adaptador de red.
 
 
 
@@ -396,7 +396,7 @@ En las tablas siguientes se supone que el uso se resume en los [modelos de usuar
 
 
 > [!NOTE]  
-> Para mejorar el rendimiento del servidor de mediación, debe habilitar el ajuste de escala en el lado de recepción (RSS) en los adaptadores de red de los servidores de mediación. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, vea "mejoras en el ajuste de escala en lado de recepción <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>en Windows Server 2008" en. Para obtener más información sobre cómo habilitar RSS, consulte la documentación de su adaptador de red.
+> Para mejorar el rendimiento del servidor de mediación, debe habilitar el ajuste de escala en el lado de recepción (RSS) en los adaptadores de red de los servidores de mediación. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, vea "mejoras en el ajuste de escala en lado de recepción <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>en Windows Server 2008" en. Para obtener más información sobre cómo habilitar RSS, consulte la documentación de su adaptador de red.
 
 
 
@@ -495,18 +495,18 @@ Microsoft usó el hardware de la siguiente tabla para el servidor de bases de da
 </tr>
 <tr class="odd">
 <td><p>El archivo de registro de la base de datos CDR</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>1</p></td>
+<td><p>segundo</p></td>
 </tr>
 <tr class="even">
 <td><p>El archivo de registro de la base de datos QoE</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>1</p></td>
+<td><p>segundo</p></td>
 </tr>
 <tr class="odd">
 <td><p>Archivo de registro de la base de datos de archivado</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>1</p></td>
+<td><p>segundo</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184821
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aeb6d01708bef791e5d91d98893dd4051a93e6dc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1ba23b8f081dc6e56995b8c93db43772f731ef6c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008632"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42120073"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="voice-routing-cmdlets-in-lync-server-2013"></a>Cmdlets de enrutamiento de voz en Lync Server 2013
 
@@ -107,7 +107,7 @@ Use los cmdlets siguientes para configurar rutas de voz.
 [Cmdlets de conectividad RTC en Lync Server 2013](lync-server-2013-pstn-connectivity-cmdlets.md)  
 
 
-[Blog de Lync Server PowerShell](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Blog de Lync Server PowerShell](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
