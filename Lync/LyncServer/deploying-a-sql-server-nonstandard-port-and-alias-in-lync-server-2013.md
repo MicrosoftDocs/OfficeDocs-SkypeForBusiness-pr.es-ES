@@ -12,18 +12,18 @@ ms:contentKeyID: 62634609
 ms.date: 09/17/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ef6082c4d2df6936557cf6f6c82a1d495888f55
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f1134422c8c55a60858a9fd8c28be2e6ff159d48
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006426"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137961"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013"></a>Implementación de un puerto y alias no estándar de SQL Server en Lync Server 2013
 
@@ -77,7 +77,7 @@ Para configurar un puerto y un alias no estándar de SQL Server para su uso con 
 
 ## <a name="confirm-that-lync-server-2013-has-the-latest-updates-applied"></a>Confirmar que Lync Server 2013 tiene las actualizaciones más recientes aplicadas
 
-Es importante mantener Lync Server 2013 al día. Para consultar las actualizaciones más recientes e información sobre cómo aplicarlas, consulte [actualizaciones para Lync Server 2013](http://support.microsoft.com/kb/2809243).
+Es importante mantener Lync Server 2013 al día. Para consultar las actualizaciones más recientes e información sobre cómo aplicarlas, consulte [actualizaciones para Lync Server 2013](https://support.microsoft.com/kb/2809243).
 
 </div>
 

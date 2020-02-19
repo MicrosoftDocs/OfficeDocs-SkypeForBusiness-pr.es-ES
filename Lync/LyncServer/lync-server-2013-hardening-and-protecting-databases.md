@@ -12,18 +12,18 @@ ms:contentKeyID: 62625490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e1ef045253f6733ea3356baa6254a6c90926762
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f222e92da686792a48ccceeaf1686d96f0406e50
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006216"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140263"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="hardening-and-protecting-the-databases-of-lync-server-2013"></a>Refuerzo y protección de las bases de datos de Lync Server 2013
 
@@ -80,7 +80,7 @@ En cualquier servidor de Lync Server 2013 excepto en el servidor Standard Editio
 
 </div>
 
-Para obtener más información sobre las configuraciones personalizadas y consolidar las bases de datos de SQL Server, vea el artículo del blog NextHop, "Using Lync Server 2010 con una configuración de red [http://go.microsoft.com/fwlink/p/?LinkId=214008](http://go.microsoft.com/fwlink/p/?linkid=214008)de SQL Server personalizada", en.
+Para obtener más información sobre las configuraciones personalizadas y consolidar las bases de datos de SQL Server, vea el artículo del blog NextHop, "Using Lync Server 2010 con una configuración de red [https://go.microsoft.com/fwlink/p/?LinkId=214008](https://go.microsoft.com/fwlink/p/?linkid=214008)de SQL Server personalizada", en.
 
 <div>
 

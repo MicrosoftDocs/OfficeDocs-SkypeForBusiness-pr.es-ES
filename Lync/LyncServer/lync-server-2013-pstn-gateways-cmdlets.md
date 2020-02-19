@@ -12,18 +12,18 @@ ms:contentKeyID: 48184397
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37e64fe903f873fd1d350007ee3b02601416797a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 75e78b921b5d8a7d174d5b939398f3f85ae26b77
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042047"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139001"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="pstn-gateways-cmdlets-in-lync-server-2013"></a>Cmdlets de puertas de enlace RTC en Lync Server 2013
 
@@ -72,7 +72,7 @@ Los cmdlets [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg39
 ## <a name="see-also"></a>Vea también
 
 
-[Blog de Lync Server PowerShell](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Blog de Lync Server PowerShell](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

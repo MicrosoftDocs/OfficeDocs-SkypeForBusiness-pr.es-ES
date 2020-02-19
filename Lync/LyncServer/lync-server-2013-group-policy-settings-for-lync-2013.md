@@ -12,18 +12,18 @@ ms:contentKeyID: 48184235
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba88fdce88280597e9e621c13267de2b9b76d0fb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8cae5fdb813f7f58889dd1305b117f0e07ff294e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030363"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140283"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="group-policy-settings-for-lync-2013"></a>Configuración de directiva de grupo para Lync 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42030363"
 
 _**Última modificación del tema:** 2012-10-03_
 
-En versiones anteriores de Lync y Office Communicator, una plantilla administrativa independiente Communicator. adm estaba disponible para configurar las opciones de directiva de grupo de cliente. Para Lync 2013, los nuevos archivos de plantilla administrativa (archivos. ADMX y. ADML) se incluyen junto con la plantilla administrativa de directiva de grupo de Office. La disponibilidad de los archivos. ADMX y. ADML de 2013 Lync permite descargar plantillas y administrar la configuración de la Directiva de grupo de forma centralizada para todos los programas de Office y los paquetes de idioma. Para obtener más información, consulte "Office 2013 Administrative template files (ADMX, ADML)" en la documentación <http://go.microsoft.com/fwlink/p/?linkid=267516>de Office 2013 en.
+En versiones anteriores de Lync y Office Communicator, una plantilla administrativa independiente Communicator. adm estaba disponible para configurar las opciones de directiva de grupo de cliente. Para Lync 2013, los nuevos archivos de plantilla administrativa (archivos. ADMX y. ADML) se incluyen junto con la plantilla administrativa de directiva de grupo de Office. La disponibilidad de los archivos. ADMX y. ADML de 2013 Lync permite descargar plantillas y administrar la configuración de la Directiva de grupo de forma centralizada para todos los programas de Office y los paquetes de idioma. Para obtener más información, consulte "Office 2013 Administrative template files (ADMX, ADML)" en la documentación <https://go.microsoft.com/fwlink/p/?linkid=267516>de Office 2013 en.
 
 <div>
 

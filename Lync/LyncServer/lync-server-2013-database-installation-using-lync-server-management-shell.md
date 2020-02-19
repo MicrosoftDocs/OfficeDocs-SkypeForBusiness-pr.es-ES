@@ -12,18 +12,18 @@ ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d46d3bc2ce881edc183e4996c0c71d6a90af4e6a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0797ed44663f8a7b8baab7c3dbe5a3099ceac5fe
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044142"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138321"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>Instalación de bases de datos mediante el shell de administración de Lync Server en Lync Server 2013
 
@@ -77,7 +77,7 @@ Para instalar bases de datos, **install-CsDatabase** usa tres métodos principal
 
 1.  Inicie sesión en cualquier equipo con credenciales administrativas para la creación de bases de datos en el servidor de SQL Server. Para obtener información detallada, consulte [permisos de implementación para SQL Server en Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-2.  Abra el shell de administración de Lync Server 2013. Si no ha ajustado la Directiva de ejecución de Windows PowerShell, debe ajustar la Directiva para permitir que se ejecuten los scripts de Windows PowerShell. Para obtener más información, consulte "examen de la Directiva de [http://go.microsoft.com/fwlink/p/?linkId=203093](http://go.microsoft.com/fwlink/p/?linkid=203093)ejecución" en.
+2.  Abra el shell de administración de Lync Server 2013. Si no ha ajustado la Directiva de ejecución de Windows PowerShell, debe ajustar la Directiva para permitir que se ejecuten los scripts de Windows PowerShell. Para obtener más información, consulte "examen de la Directiva de [https://go.microsoft.com/fwlink/p/?linkId=203093](https://go.microsoft.com/fwlink/p/?linkid=203093)ejecución" en.
 
 3.  Use el cmdlet **install-CsDatabase** para instalar el almacén de administración central.
     

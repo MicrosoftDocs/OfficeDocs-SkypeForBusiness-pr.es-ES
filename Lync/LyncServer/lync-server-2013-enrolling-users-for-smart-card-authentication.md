@@ -12,18 +12,18 @@ ms:contentKeyID: 54973691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1d60a29eff876ef362d15c90e2615fd70bc8774
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 635565936712fe542c807ea4d4c65f584e836bdc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41993815"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137429"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>Inscripción de usuarios para la autenticación de tarjeta inteligente en Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Última modificación del tema:** 2013-07-03_
 
 Generalmente hay dos métodos para inscribir a los usuarios para la autenticación de tarjeta inteligente. El método más sencillo implica que los usuarios se inscriban directamente en la autenticación de tarjetas inteligentes mediante la inscripción Web, mientras que el método más complejo implica el uso de un agente de inscripción. Este tema se centra en la inscripción automática de certificados de tarjetas inteligentes.
 
-Para obtener más información sobre la inscripción en nombre de usuarios como agente de inscripción, consulte inscribirse para certificados en nombre de otros usuarios en [http://go.microsoft.com/fwlink/p/?LinkID=313367](http://go.microsoft.com/fwlink/p/?linkid=313367).
+Para obtener más información sobre la inscripción en nombre de usuarios como agente de inscripción, consulte inscribirse para certificados en nombre de otros usuarios en [https://go.microsoft.com/fwlink/p/?LinkID=313367](https://go.microsoft.com/fwlink/p/?linkid=313367).
 
 <div>
 

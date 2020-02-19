@@ -12,18 +12,18 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 713a49fc81ba388d01a790ab260adcebbd364c8b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7070dbf25357d886b2e82e4da0140a724cbec853
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030183"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137699"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Plataformas compatibles con Lync Web App para Lync Server 2013
 
@@ -43,7 +43,7 @@ Para usar Lync Web App, debe disponer de una de las siguientes combinaciones de 
 
 
 > [!NOTE]  
-> Un complemento es necesario para determinadas características de Lync Web App, como voz basada en el equipo, vídeo, uso compartido y visualización del uso compartido de la pantalla en curso. Puede instalar el complemento de uso compartido al unirse a la reunión o al iniciar una de estas características. 1 <BR>
+> Un complemento es necesario para determinadas características de Lync Web App, como voz basada en el equipo, vídeo, uso compartido y visualización del uso compartido de la pantalla en curso. Puede instalar el complemento de uso compartido al unirse a la reunión o al iniciar una de estas características. 1<BR>
 
 
 

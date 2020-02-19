@@ -12,18 +12,18 @@ ms:contentKeyID: 48183288
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 24441af263d9ebd73f61d350f898e26fa89e6f48
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 69ad97d578073e2b0f9ed08d929007c33e59b8fd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008282"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135717"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="install-operating-systems-and-prerequisite-software-on-servers-for-lync-server-2013"></a>Instalar los sistemas operativos y el software necesario como requisito previo en los servidores para Lync Server 2013
 
@@ -57,13 +57,13 @@ En cada servidor que vaya a implementar, instale el sistema operativo Windows ad
 
   - **Servidores que ejecutan Lync Server 2013**   para obtener más información sobre los requisitos del sistema operativo para servidores que ejecutan Lync Server 2013, consulte [compatibilidad con sistemas operativos de servidor y herramientas en Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) en la documentación sobre compatibilidad.
 
-  - **Servidores de bases de datos**   para obtener información sobre los requisitos del sistema operativo para servidores de bases de datos, incluida la base de datos back-end, la base de datos de archivado y la base de datos de supervisión, consulte la documentación de SQL Server Para SQL Server 2012, consulte los libros en pantalla de SQL Server [http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015)2012 en.
+  - **Servidores de bases de datos**   para obtener información sobre los requisitos del sistema operativo para servidores de bases de datos, incluida la base de datos back-end, la base de datos de archivado y la base de datos de supervisión, consulte la documentación de SQL Server Para SQL Server 2012, consulte los libros en pantalla de SQL Server [https://go.microsoft.com/fwlink/p/?linkId=218015](https://go.microsoft.com/fwlink/p/?linkid=218015)2012 en.
 
 <div>
 
 
 > [!NOTE]
-> Si va a instalar Lync Server 2013 en Windows Server&nbsp;2008&nbsp;R2 con SP1, debe instalar primero la actualización que se describe en el artículo 2646886 de Microsoft Knowledge base, "Fix: los daños en el montón se producen cuando un módulo llama al método al InsertEntityBody en IIS 7,5", en <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886"> http://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 2646886</A>.<BR>También debe modificar el registro como se describe en el artículo de KB, <A href="http://go.microsoft.com/fwlink/p/?linkid=506893">se registran los identificadores de evento 32402 y 61045 en los servidores front-end de Lync Server 2013 que están instalados en Windows server 2012 R2</A>.
+> Si va a instalar Lync Server 2013 en Windows Server&nbsp;2008&nbsp;R2 con SP1, debe instalar primero la actualización que se describe en el artículo 2646886 de Microsoft Knowledge base, "Fix: los daños en el montón se producen cuando un módulo llama al método al InsertEntityBody en IIS 7,5", en <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 2646886</A>.<BR>También debe modificar el registro como se describe en el artículo de KB, <A href="https://go.microsoft.com/fwlink/p/?linkid=506893">se registran los identificadores de evento 32402 y 61045 en los servidores front-end de Lync Server 2013 que están instalados en Windows server 2012 R2</A>.
 
 
 
@@ -79,7 +79,7 @@ Instale las siguientes actualizaciones desde Windows Update en cada servidor:
 
   - **Windows Update para los servidores que ejecutan Lync Server 2013**   para obtener más información sobre las actualizaciones de Windows Update que son necesarias para los servidores que ejecutan Lync Server 2013, consulte [Additional software Requirements for Lync Server 2013](lync-server-2013-additional-software-requirements.md) en la documentación referente a la planeación.
 
-  - **Servidores de bases de datos**   para obtener información detallada sobre las actualizaciones de Windows Update que son necesarias para los servidores de bases de datos, incluida la base de datos back-end, la base de datos de archivado y la base de datos de supervisión, consulte la documentación de SQL Server 2012. Para SQL Server 2012, consulte los libros en pantalla de SQL Server [http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015)2012 en.
+  - **Servidores de bases de datos**   para obtener información detallada sobre las actualizaciones de Windows Update que son necesarias para los servidores de bases de datos, incluida la base de datos back-end, la base de datos de archivado y la base de datos de supervisión, consulte la documentación de SQL Server 2012. Para SQL Server 2012, consulte los libros en pantalla de SQL Server [https://go.microsoft.com/fwlink/p/?linkId=218015](https://go.microsoft.com/fwlink/p/?linkid=218015)2012 en.
 
 </div>
 
@@ -91,11 +91,11 @@ Lync Server 2013 requiere la instalación del siguiente software adicional en lo
 
   - **Requisitos previos de software para servidores que ejecutan Lync Server 2013**   los requisitos previos de software adicionales para los servidores que ejecutan Lync Server 2013 dependen de la función del servidor que se está implementando. Para obtener más información sobre los requisitos de software específicos para cada servidor, consulte [requisitos de software adicionales para Lync server 2013](lync-server-2013-additional-software-requirements.md) en la documentación referente a la planeación.
 
-  - **Windows Identity Foundation**   Lync Server 2013 requiere la instalación de Windows Identity Foundation para poder admitir escenarios de autenticación de servidor a servidor. Para comprobar que ya se ha instalado en el equipo, vaya al panel de control, haga clic en **programas y características**, **vea actualizaciones instaladas**y busque en **Microsoft Windows**. Para obtener más información sobre cómo instalar Windows Identity [http://go.microsoft.com/fwlink/p/?linkId=204657](http://go.microsoft.com/fwlink/p/?linkid=204657)Foundation, consulte.
+  - **Windows Identity Foundation**   Lync Server 2013 requiere la instalación de Windows Identity Foundation para poder admitir escenarios de autenticación de servidor a servidor. Para comprobar que ya se ha instalado en el equipo, vaya al panel de control, haga clic en **programas y características**, **vea actualizaciones instaladas**y busque en **Microsoft Windows**. Para obtener más información sobre cómo instalar Windows Identity [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)Foundation, consulte.
 
   - **Microsoft .NET Framework 4,5**   la edición de 64 bits de Microsoft .NET Framework 4,5 es necesaria para Lync Server 2013.
 
-  - **Requisitos previos de software para servidores**   de bases de datos para obtener información sobre la actualización de Windows necesaria para los servidores de bases de datos, incluida la base de datos back-end, la base [http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015)de datos de archivado y la base de datos de supervisión, consulte la documentación de SQL Server 2012 en
+  - **Requisitos previos de software para servidores**   de bases de datos para obtener información sobre la actualización de Windows necesaria para los servidores de bases de datos, incluida la base de datos back-end, la base [https://go.microsoft.com/fwlink/p/?linkId=218015](https://go.microsoft.com/fwlink/p/?linkid=218015)de datos de archivado y la base de datos de supervisión, consulte la documentación de SQL Server 2012 en
     
     <div>
     

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be5a7fc7fba086130775a3f394af435c0d823f04
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 099ca6da5a23c8c2bf936c7067cfc40cf323ebfb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036710"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136387"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="direct-sip-connections-support-in-lync-server-2013"></a>Compatibilidad con conexiones SIP directas en Lync Server 2013
 
@@ -45,7 +45,7 @@ Lync Server 2013 admite el uso de conexiones SIP directas para conectar Lync Ser
 
 Los servidores de mediación de un grupo de servidores de Lync Server 2013 pueden controlar varias puertas de enlace, controladores de borde de sesión (SBCs) proporcionados por proveedores de servicios de telefonía o una combinación de ambos. Además, varios servidores de mediación del grupo pueden interactuar con una única puerta de enlace.
 
-Use el Programa de interoperabilidad abierta de Comunicaciones unificadas de Microsoft para una infraestructura telefónica de empresa, con el fin de encontrar puertas de enlace RTC cualificadas, sistemas IP-PBX y servicios de enlace troncal SIP. Para obtener más información, consulte el sitio web del programa de interoperabilidad abierta de comunicaciones unificadas de Microsoft en [http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309).
+Use el Programa de interoperabilidad abierta de Comunicaciones unificadas de Microsoft para una infraestructura telefónica de empresa, con el fin de encontrar puertas de enlace RTC cualificadas, sistemas IP-PBX y servicios de enlace troncal SIP. Para obtener más información, consulte el sitio web del programa de interoperabilidad abierta de comunicaciones unificadas de Microsoft en [https://go.microsoft.com/fwlink/p/?linkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309).
 
 Para obtener información detallada sobre la topología y las opciones de implementación de las conexiones SIP directas, consulte [conexiones SIP directas en Lync Server 2013](lync-server-2013-direct-sip-connections.md) en la documentación referente a la planeación.
 

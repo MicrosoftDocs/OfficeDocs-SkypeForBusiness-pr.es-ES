@@ -12,18 +12,18 @@ ms:contentKeyID: 48185406
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a242f7ac01f89978ad4692f2e36374c52e92bc94
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 123b6405e676464dafba1e147fe98d6076f1d468
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030303"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138011"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="hardwareversions-table-in-lync-server-2013"></a>Tabla HardwareVersions en Lync Server 2013
 
@@ -63,7 +63,7 @@ La tabla HardwareVersions es una tabla de apoyo. Cada registro almacena informac
 <td><p>Número único que identifica esta versión de hardware.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Version</strong></p></td>
+<td><p><strong>Versión</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td><p> </p></td>
 <td><p>Versión de hardware.</p></td>

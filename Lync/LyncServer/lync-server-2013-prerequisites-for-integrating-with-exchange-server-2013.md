@@ -12,18 +12,18 @@ ms:contentKeyID: 49733853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c92f88d35e573f0914698db28ddcf1fa54967f97
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 686d7d5d65af28127ad95b2911962d707887029a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049862"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139091"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="prerequisites-for-integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Requisitos previos para integrar Microsoft Lync Server 2013 y Microsoft Exchange Server 2013
 
@@ -37,9 +37,9 @@ ms.locfileid: "42049862"
 
 _**Última modificación del tema:** 2014-04-22_
 
-Para poder integrar Microsoft Lync Server 2013 y Microsoft Exchange Server 2013, debe asegurarse de que se han completado todos los pasos de requisitos previos. Como cabría esperar, la integración no puede llevarse a cabo hasta que Exchange 2013 y Lync Server 2013 estén completamente instalados y en funcionamiento. Para más información sobre la instalación de Exchange, consulte la documentación de planeación [http://go.microsoft.com/fwlink/p/?LinkId=268539](http://go.microsoft.com/fwlink/p/?linkid=268539)e implementación de Exchange 2013 en. Para obtener más información sobre la instalación de Lync Server 2013, consulte la documentación [http://go.microsoft.com/fwlink/p/?LinkId=254806](http://go.microsoft.com/fwlink/p/?linkid=254806)de planeación e implementación en.
+Para poder integrar Microsoft Lync Server 2013 y Microsoft Exchange Server 2013, debe asegurarse de que se han completado todos los pasos de requisitos previos. Como cabría esperar, la integración no puede llevarse a cabo hasta que Exchange 2013 y Lync Server 2013 estén completamente instalados y en funcionamiento. Para más información sobre la instalación de Exchange, consulte la documentación de planeación [https://go.microsoft.com/fwlink/p/?LinkId=268539](https://go.microsoft.com/fwlink/p/?linkid=268539)e implementación de Exchange 2013 en. Para obtener más información sobre la instalación de Lync Server 2013, consulte la documentación [https://go.microsoft.com/fwlink/p/?LinkId=254806](https://go.microsoft.com/fwlink/p/?linkid=254806)de planeación e implementación en.
 
-Una vez que los servidores estén en funcionamiento, debe asignar certificados de autenticación de servidor a servidor tanto en Lync Server 2013 como en Exchange 2013; Estos certificados permiten que Lync Server y Exchange puedan intercambiar información y comunicarse entre sí. Al instalar Exchange 2013, se creará automáticamente un certificado autofirmado con el nombre certificado de autenticación de Microsoft Exchange Server. Este certificado, que puede encontrarse en el almacén de certificados del equipo local, debe usarse para la autenticación de servidor a servidor en Exchange 2013. Para obtener más información acerca de la asignación de certificados en Exchange 2013, consulte "configurar el flujo de correo [http://go.microsoft.com/fwlink/p/?LinkId=268540](http://go.microsoft.com/fwlink/p/?linkid=268540)y el acceso de cliente" en.
+Una vez que los servidores estén en funcionamiento, debe asignar certificados de autenticación de servidor a servidor tanto en Lync Server 2013 como en Exchange 2013; Estos certificados permiten que Lync Server y Exchange puedan intercambiar información y comunicarse entre sí. Al instalar Exchange 2013, se creará automáticamente un certificado autofirmado con el nombre certificado de autenticación de Microsoft Exchange Server. Este certificado, que puede encontrarse en el almacén de certificados del equipo local, debe usarse para la autenticación de servidor a servidor en Exchange 2013. Para obtener más información acerca de la asignación de certificados en Exchange 2013, consulte "configurar el flujo de correo [https://go.microsoft.com/fwlink/p/?LinkId=268540](https://go.microsoft.com/fwlink/p/?linkid=268540)y el acceso de cliente" en.
 
 Para Lync Server 2013 puede usar un certificado de Lync Server existente como certificado de autenticación de servidor a servidor; por ejemplo, el certificado predeterminado también puede usarse como certificado OAuthTokenIssuer. Lync Server 2013 permite usar cualquier certificado de servidor web como certificado para la autenticación de servidor a servidor, siempre que:
 
@@ -73,7 +73,7 @@ Puede asignar el URI de detección automática ejecutando un comando similar al 
 
     Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 
-Para obtener más información sobre el servicio de detección automática, consulte "Descripción del servicio detección [http://go.microsoft.com/fwlink/p/?LinkId=268542](http://go.microsoft.com/fwlink/p/?linkid=268542)automática" en.
+Para obtener más información sobre el servicio de detección automática, consulte "Descripción del servicio detección [https://go.microsoft.com/fwlink/p/?LinkId=268542](https://go.microsoft.com/fwlink/p/?linkid=268542)automática" en.
 
 Una vez configurado el servicio de detección automática, debe modificar las opciones de configuración de OAuth de Lync Server; Esto garantiza que Lync Server sepa dónde encontrar el servicio Detección automática. Para modificar las opciones de configuración de OAuth en Lync Server 2013, ejecute el siguiente comando desde el shell de administración de Lync Server. Al ejecutar este comando, asegúrese de especificar el URI para el servicio de detección automática que se está ejecutando en el servidor de Exchange y de que usa **Autodiscover. SVC** para apuntar a la ubicación del servicio en lugar de **Autodiscover. XML** (que apunta al archivo XML usado por el servicio):
 

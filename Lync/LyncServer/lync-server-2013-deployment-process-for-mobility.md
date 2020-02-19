@@ -12,18 +12,18 @@ ms:contentKeyID: 48184220
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 337e85520cb2a285f4e4743837aafa4136c89f27
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 59b6d6854c628a7f1077c0954d84ea9d82c4f715
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035322"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137149"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deployment-process-for-mobility-in-lync-server-2013"></a>Proceso de implementación para movilidad en Lync Server 2013
 
@@ -87,7 +87,7 @@ En esta sección se describe la secuencia de pasos necesarios para implementar l
 <li><p>Vuelva a configurar la regla de publicación web para la dirección URL externa del servicio Detección automática.</p></li>
 <li><p>Asegúrese de que existe una regla de publicación web para la URL externa de servicios Web de Lync Server 2013 en el grupo de servidores front-end.</p></li>
 </ul>
-<p>O bien</p>
+<p>O bien:</p>
 <ul>
 <li><p>Si decide usar HTTP para la solicitud de detección automática inicial y no actualiza las listas de nombres alternativos del sujeto en los certificados, configure una nueva regla de publicación web o vuelva a configurar una regla de publicación existente para el puerto 80 HTTP.</p></li>
 </ul></td>

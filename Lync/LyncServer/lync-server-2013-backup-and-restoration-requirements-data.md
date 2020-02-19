@@ -12,18 +12,18 @@ ms:contentKeyID: 51541526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4688c143a16ffd7113a03172274436f7c1371694
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5ca6823c1f3e8265f7b06ea0d175b58d42ef4a08
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029231"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135747"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="backup-and-restoration-requirements-in-lync-server-2013-data"></a>Requisitos de copia de seguridad y restauración en Lync Server 2013: datos
 
@@ -213,7 +213,7 @@ Para ayudar a garantizar la posibilidad de restaurar los servicios de Lync Serve
     
       - Cuenta de autenticación Kerberos (un objeto de equipo opcional) y grupos de seguridad de Lync Server.
     
-    Para obtener información detallada sobre cómo realizar copias de seguridad y restaurar AD DS en Windows Server 2008, consulte la guía paso a paso de copia de seguridad y [http://go.microsoft.com/fwlink/p/?linkId=209105](http://go.microsoft.com/fwlink/p/?linkid=209105)recuperación de AD DS en.
+    Para obtener información detallada sobre cómo realizar copias de seguridad y restaurar AD DS en Windows Server 2008, consulte la guía paso a paso de copia de seguridad y [https://go.microsoft.com/fwlink/p/?linkId=209105](https://go.microsoft.com/fwlink/p/?linkid=209105)recuperación de AD DS en.
 
   - **La entidad de certificación y los certificados**   usan la Directiva de la organización para hacer una copia de seguridad de la entidad de certificación (CA) y los certificados. Si usa claves privadas exportables, puede hacer una copia de seguridad del certificado y la clave privada y, a continuación, exportarlos si usa los procedimientos de este documento para restaurar Lync Server. Si usa una CA interna, puede volver a inscribirse si necesita restaurar Lync Server. Es importante que conserve la clave privada en un lugar seguro donde esté disponible en caso de que se produzca un error en un equipo.
 
@@ -221,11 +221,11 @@ Para ayudar a garantizar la posibilidad de restaurar los servicios de Lync Serve
 
   - **Configuración de puerta de enlace de red telefónica conmutada (RTC)**   si usa dispositivos de telefonía IP empresarial o de sucursal con funciones de supervivencia, debe realizar una copia de seguridad de la configuración de la puerta de enlace RTC. Consulte con su proveedor para obtener más detalles sobre cómo hacer una copia de seguridad y restaurar configuraciones de puerta de enlace RTC.
 
-  - **Versiones coexistentes de Lync Server u Office Communications Server**   si su implementación de Lync Server 2013 coexiste con Lync Server 2010 o con una versión anterior de Office Communications Server, no puede usar los procedimientos de este documento para realizar copias de seguridad o restaurar la versión anterior. En lugar de ello, debe seguir los procedimientos de copias de seguridad y restauración documentados específicamente para la versión anterior. Para más detalles sobre cómo realizar copias de seguridad y restaurar Lync Server [http://go.microsoft.com/fwlink/p/?linkId=265417](http://go.microsoft.com/fwlink/p/?linkid=265417) 2010, consulte. Para obtener más información sobre cómo realizar copias de seguridad y restaurar Microsoft Office Communications Server [http://go.microsoft.com/fwlink/p/?linkId=168162](http://go.microsoft.com/fwlink/p/?linkid=168162)2007 R2, consulte.
+  - **Versiones coexistentes de Lync Server u Office Communications Server**   si su implementación de Lync Server 2013 coexiste con Lync Server 2010 o con una versión anterior de Office Communications Server, no puede usar los procedimientos de este documento para realizar copias de seguridad o restaurar la versión anterior. En lugar de ello, debe seguir los procedimientos de copias de seguridad y restauración documentados específicamente para la versión anterior. Para más detalles sobre cómo realizar copias de seguridad y restaurar Lync Server [https://go.microsoft.com/fwlink/p/?linkId=265417](https://go.microsoft.com/fwlink/p/?linkid=265417) 2010, consulte. Para obtener más información sobre cómo realizar copias de seguridad y restaurar Microsoft Office Communications Server [https://go.microsoft.com/fwlink/p/?linkId=168162](https://go.microsoft.com/fwlink/p/?linkid=168162)2007 R2, consulte.
 
   - **Información de infraestructura**   que necesita para hacer una copia de seguridad de la infraestructura, como la configuración del firewall, la configuración del equilibrio de carga, la configuración de Internet Information Services (IIS), los registros del sistema de nombres de dominio (DNS) y las direcciones IP, y la configuración del Protocolo de configuración dinámica de host (DHCP). Para más información detallada sobre cómo hacer una copia de seguridad de estos componentes, consulte con los proveedores correspondientes.
 
-  - **Copia de seguridad de mensajería unificada (MU)**   de Microsoft Exchange y de Exchange y restaurar Microsoft Exchange y Exchange um tal como se describe en la documentación de Microsoft Exchange. Para más detalles sobre cómo realizar copias de seguridad y restaurar Exchange Server [http://go.microsoft.com/fwlink/?LinkId=285384](http://go.microsoft.com/fwlink/?linkid=285384)2013, consulte. Para más detalles sobre cómo realizar copias de seguridad y restaurar Exchange Server [http://go.microsoft.com/fwlink/p/?linkId=209179](http://go.microsoft.com/fwlink/p/?linkid=209179)2010, consulte.
+  - **Copia de seguridad de mensajería unificada (MU)**   de Microsoft Exchange y de Exchange y restaurar Microsoft Exchange y Exchange um tal como se describe en la documentación de Microsoft Exchange. Para más detalles sobre cómo realizar copias de seguridad y restaurar Exchange Server [https://go.microsoft.com/fwlink/?LinkId=285384](https://go.microsoft.com/fwlink/?linkid=285384)2013, consulte. Para más detalles sobre cómo realizar copias de seguridad y restaurar Exchange Server [https://go.microsoft.com/fwlink/p/?linkId=209179](https://go.microsoft.com/fwlink/p/?linkid=209179)2010, consulte.
     
     Tenga en cuenta que Lync Server 2013 presenta la capacidad de tener listas de contactos de usuarios, fotos de usuarios de alta definición y datos de archivado almacenados en Exchange 2013. Consulte la lista siguiente para ver cómo realizar una copia de seguridad de estos tipos de datos:
     

@@ -12,18 +12,18 @@ ms:contentKeyID: 62625493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5574930d6474a75ca4a35219df7cd2e3e2431b15
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9c8aaf86eca6751dbf16ae67d39d0bccd341422e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050132"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138871"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="reducing-unsolicited-im-for-lync-server-2013"></a>Reducir la mensajería instantánea no solicitada para Lync Server 2013
 

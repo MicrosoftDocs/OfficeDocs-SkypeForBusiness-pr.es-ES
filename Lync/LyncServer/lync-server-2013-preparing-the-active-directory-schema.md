@@ -12,18 +12,18 @@ ms:contentKeyID: 48183300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d98f7ba4ac0f2efe8a78ebcaacdc966ac5fdf3a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d92527ce109e68c932a9875020aab647bb6a723b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050502"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139121"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a>Preparar el esquema de Active Directory en Lync Server 2013
 
@@ -55,7 +55,7 @@ Las extensiones de esquema de Lync Server se replican en todos los dominios, lo 
 
 
 > [!NOTE]  
-> Si necesita agregar compatibilidad con los clientes móviles de Microsoft® Office Communicator Mobile 2007 R2 para Java y Microsoft® Office Communicator Mobile para Nokia 1,0 a su implementación de Lync Server 2013, debe preparar el esquema de Active Directory para Microsoft Office Communications Server 2007 R2 durante la instalación de Lync Server 2013. Para consultar la documentación y el software necesario <A href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</A>, consulte.
+> Si necesita agregar compatibilidad con los clientes móviles de Microsoft® Office Communicator Mobile 2007 R2 para Java y Microsoft® Office Communicator Mobile para Nokia 1,0 a su implementación de Lync Server 2013, debe preparar el esquema de Active Directory para Microsoft Office Communications Server 2007 R2 durante la instalación de Lync Server 2013. Para consultar la documentación y el software necesario <A href="https://go.microsoft.com/fwlink/p/?linkid=207172">https://go.microsoft.com/fwlink/p/?linkId=207172</A>, consulte.
 
 
 
@@ -69,7 +69,7 @@ El editor de interfaces de servicio de Active Directory (ADSI Edit) es una herra
 
 ADSI Edit se instala de forma predeterminada al instalar el rol AD DS para hacer del servidor un controlador de dominios. Para Windows Server 2008 y Windows Server 2008 R2, ADSI Edit (AdsiEdit. msc) se incluye con las herramientas de administración remota del servidor (RSAT). También puede instalar las RSAT en servidores de miembros de domino o en servidores independientes. El paquete de RSAT se copia de forma predeterminada en estos servidores al instalar Windows, pero no se instala de forma predeterminada. Las herramientas individuales se instalan con el Administrador de servidores. El editor ADSI se incluye en **Herramientas de administración de roles**, **Herramientas de los Servicios de dominio de Active Directory**, **Herramientas del controlador de dominio de Active Directory**.
 
-Para Windows Server 2003, el editor ADSI se incluye con las herramientas de soporte técnico. Las herramientas de soporte están disponibles en el CD de Windows Server 2003 \\,\\en la carpeta Support Tools, o puede descargarlas desde "herramientas de soporte técnico de Windows server 2003 Service [http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770)Pack 2 32-bit" en. Las instrucciones para instalar las herramientas de soporte desde el CD del producto están disponibles en "instalar herramientas de [http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771)soporte de Windows" en. Adsiedit. dll se registra automáticamente al instalar las herramientas de soporte técnico. Sin embargo, si copió los archivos en el equipo, debe ejecutar el comando **regsvr32** para registrar el archivo ADSIEdit. dll antes de poder ejecutar la herramienta.
+Para Windows Server 2003, el editor ADSI se incluye con las herramientas de soporte técnico. Las herramientas de soporte están disponibles en el CD de Windows Server 2003 \\,\\en la carpeta Support Tools, o puede descargarlas desde "herramientas de soporte técnico de Windows server 2003 Service [https://go.microsoft.com/fwlink/p/?linkId=125770](https://go.microsoft.com/fwlink/p/?linkid=125770)Pack 2 32-bit" en. Las instrucciones para instalar las herramientas de soporte desde el CD del producto están disponibles en "instalar herramientas de [https://go.microsoft.com/fwlink/p/?linkId=125771](https://go.microsoft.com/fwlink/p/?linkid=125771)soporte de Windows" en. Adsiedit. dll se registra automáticamente al instalar las herramientas de soporte técnico. Sin embargo, si copió los archivos en el equipo, debe ejecutar el comando **regsvr32** para registrar el archivo ADSIEdit. dll antes de poder ejecutar la herramienta.
 
 </div>
 

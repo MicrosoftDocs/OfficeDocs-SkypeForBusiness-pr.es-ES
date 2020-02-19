@@ -12,18 +12,18 @@ ms:contentKeyID: 48184934
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed3a616fb9bcf7d33819c3bee68dbe375954d02b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bf3d85b7e3eae8839e3e65e02dde5955c8145c64
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038832"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140093"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-external-user-access-in-lync-server-2013"></a>Información general sobre el acceso de usuarios externos en Lync Server 2013
 
@@ -54,7 +54,7 @@ En esta documentación, usamos el término *usuario externo* para definir una ca
 
   - **Usuarios de conectividad de mensajería instantánea pública**   contactos que los usuarios establecen a través de servicios de conectividad de mensajería instantánea pública (Windows Live, Yahoo\! y AOL).
 
-  - **Usuarios móviles usuarios**   que son miembros de su organización que usan un teléfono o una tableta inteligentes que ejecutan un cliente móvil de Lync inicie sesión en su implementación interna y puedan comunicarse con las demás clases de usuarios. El usuario móvil usa los servicios de movilidad que se publican a través del proxy inverso para obtener acceso a la implementación interna. Para obtener más información sobre las características y capacidades disponibles para Lync Mobile, consulte las tablas de [http://go.microsoft.com/fwlink/p/?LinkID=234777](http://go.microsoft.com/fwlink/p/?linkid=234777)comparación de clientes móviles en.
+  - **Usuarios móviles usuarios**   que son miembros de su organización que usan un teléfono o una tableta inteligentes que ejecutan un cliente móvil de Lync inicie sesión en su implementación interna y puedan comunicarse con las demás clases de usuarios. El usuario móvil usa los servicios de movilidad que se publican a través del proxy inverso para obtener acceso a la implementación interna. Para obtener más información sobre las características y capacidades disponibles para Lync Mobile, consulte las tablas de [https://go.microsoft.com/fwlink/p/?LinkID=234777](https://go.microsoft.com/fwlink/p/?linkid=234777)comparación de clientes móviles en.
 
   - **Usuarios anónimos**   usuarios que no tienen una cuenta de usuario en los servicios de dominio de Active Directory de la organización o en un dominio federado admitido, pero que recibieron invitaciones para participar remotamente en una conferencia local.
 

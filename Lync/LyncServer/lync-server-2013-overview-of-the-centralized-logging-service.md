@@ -12,18 +12,18 @@ ms:contentKeyID: 49733746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c485293fe747a16cc9c2b392d053137105306da4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7802a3c69d895f87fbcf1553a1d2e737bf2d8f30
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049712"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140073"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-the-centralized-logging-service-in-lync-server-2013"></a>Información general sobre el servicio de registro centralizado en Lync Server 2013
 
@@ -61,7 +61,7 @@ ClsAgent mantiene un archivo de índice de ALL. Archivos de caché que tiene en 
 
 </div>
 
-Los archivos de registro resultantes se pueden leer y analizar con una amplia variedad de herramientas, entre las que se incluyen **Snooper. exe** y cualquier otra herramienta que pueda leer un archivo de texto, como **Notepad. exe**. Snooper. exe forma parte de las herramientas de depuración de Lync Server 2013 y está disponible como [http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)descarga desde el Web.
+Los archivos de registro resultantes se pueden leer y analizar con una amplia variedad de herramientas, entre las que se incluyen **Snooper. exe** y cualquier otra herramienta que pueda leer un archivo de texto, como **Notepad. exe**. Snooper. exe forma parte de las herramientas de depuración de Lync Server 2013 y está disponible como [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)descarga desde el Web.
 
 Al igual que OCSLogger, el servicio de registro centralizado tiene varios componentes de los que se realiza el seguimiento y proporciona opciones para\_seleccionar marcas,\_como TF Component y TF diag. El servicio de registro centralizado también conserva las opciones de nivel de registro de OCSLogger.
 

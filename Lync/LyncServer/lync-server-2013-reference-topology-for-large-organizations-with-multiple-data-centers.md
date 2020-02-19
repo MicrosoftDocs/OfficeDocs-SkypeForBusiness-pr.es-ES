@@ -12,18 +12,18 @@ ms:contentKeyID: 48184887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a0be5b144b7476ecdca2a2cf3c4694a81910092
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8c2f7f6ed91298e0f6abb8361876a12500903a73
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050912"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="reference-topology-for-lync-server-2013-in-large-organizations-with-multiple-data-centers"></a>Topología de referencia para Lync Server 2013 en grandes organizaciones con varios centros de datos
 

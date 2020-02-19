@@ -12,18 +12,18 @@ ms:contentKeyID: 51541454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bca2871acdaf67e318e7e402d78f34748de4b722
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 848ff87194d6a8a6c6cf23b42fcab4d05e41942d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051524"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137058"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a>Diseño de la topología para Lync Server 2013 mediante la herramienta de planeación
 
@@ -37,7 +37,7 @@ ms.locfileid: "42051524"
 
 _**Última modificación del tema:** 2013-03-04_
 
-La herramienta de planeación de Microsoft Lync Server 2013 es una herramienta guiada por un asistente y como una entrevista que plantea preguntas sobre la topología de Lync Server 2013 que se está diseñando. La herramienta de planeación usa la información suministrada, junto con las prácticas recomendadas para el diseño y la capacidad de la topología, para presentar una topología recomendada en función de las respuestas proporcionadas. Puede descargar la herramienta de planeación desde el centro de descargas[http://go.microsoft.com/fwlink/?LinkID=282725](http://go.microsoft.com/fwlink/?linkid=282725)de Microsoft ().
+La herramienta de planeación de Microsoft Lync Server 2013 es una herramienta guiada por un asistente y como una entrevista que plantea preguntas sobre la topología de Lync Server 2013 que se está diseñando. La herramienta de planeación usa la información suministrada, junto con las prácticas recomendadas para el diseño y la capacidad de la topología, para presentar una topología recomendada en función de las respuestas proporcionadas. Puede descargar la herramienta de planeación desde el centro de descargas[https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725)de Microsoft ().
 
 En última instancia, el objetivo de la herramienta de planeación es facilitar la complejidad del diseño de una topología completa de Lync Server 2013. De igual modo, esta herramienta proporciona referencias contextuales a la documentación de planeación e implementación de la propia herramienta, siempre y cuando haya una conexión a Internet disponible que permita conectarse al sitio web de Microsoft TechNet.
 

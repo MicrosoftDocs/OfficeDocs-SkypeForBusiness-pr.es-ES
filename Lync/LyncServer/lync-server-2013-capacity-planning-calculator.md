@@ -12,18 +12,18 @@ ms:contentKeyID: 56280894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce5ece90e8db4240eaef00f39a827e6779663dcc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0caac7e07d83658fd1b39192a6d9792ae6b17c0e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006366"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137229"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="using-the-capacity-planning-calculator-for-lync-server-2013"></a>Uso de la calculadora de planeación de capacidad para Lync Server 2013
 
@@ -37,13 +37,13 @@ ms.locfileid: "42006366"
 
 _**Última modificación del tema:** 2013-11-21_
 
-La calculadora de planeación de capacidad de Microsoft® Lync™ Server 2013 está <http://www.microsoft.com/download/details.aspx?id=36828>disponible para su descarga en. Está diseñado para ayudarle a determinar los requisitos del servidor en función de las cantidades de usuarios y las modalidades de comunicación que están habilitadas en su organización. Escriba el perfil de su organización y la calculadora le proporcionará recomendaciones que le ayudarán a planear la topología.
+La calculadora de planeación de capacidad de Microsoft® Lync™ Server 2013 está <https://www.microsoft.com/download/details.aspx?id=36828>disponible para su descarga en. Está diseñado para ayudarle a determinar los requisitos del servidor en función de las cantidades de usuarios y las modalidades de comunicación que están habilitadas en su organización. Escriba el perfil de su organización y la calculadora le proporcionará recomendaciones que le ayudarán a planear la topología.
 
-Las recomendaciones creadas por la calculadora son solo para fines de planeación. La simulación de carga real es necesaria para garantizar que Lync Server 2013 se haya aprovisionado correctamente. Para realizar pruebas de esfuerzo con una carga simulada, use la [herramienta de esfuerzo y rendimiento de Lync Server 2013](http://go.microsoft.com/fwlink/?linkid=282724).
+Las recomendaciones creadas por la calculadora son solo para fines de planeación. La simulación de carga real es necesaria para garantizar que Lync Server 2013 se haya aprovisionado correctamente. Para realizar pruebas de esfuerzo con una carga simulada, use la [herramienta de esfuerzo y rendimiento de Lync Server 2013](https://go.microsoft.com/fwlink/?linkid=282724).
 
 Una vez que haya determinado el perfil de usuario y las modalidades que desea habilitar para los usuarios, es el momento de usar la calculadora para planear el número de servidores, la memoria y el ancho de banda que necesita. Esta versión de la calculadora no proporciona instrucciones sobre los requisitos de e/s de disco.
 
-Esta calculadora complementa a [Microsoft Lync Server](http://go.microsoft.com/fwlink/?linkid=282725) y [Microsoft Lync Server](lync-server-2013-planning.md). Use la calculadora una vez que haya revisado la guía y haya creado una topología recomendada mediante la herramienta de planeación.
+Esta calculadora complementa a [Microsoft Lync Server](https://go.microsoft.com/fwlink/?linkid=282725) y [Microsoft Lync Server](lync-server-2013-planning.md). Use la calculadora una vez que haya revisado la guía y haya creado una topología recomendada mediante la herramienta de planeación.
 
 Puede beneficiarse de la calculadora si tiene información precisa y detallada sobre su perfil de usuario específico. Por ejemplo, el porcentaje de usuarios habilitados para voz, promedio de llamadas por usuario y hora, duración de las llamadas y el porcentaje de usuarios simultáneos en conferencias puede hacer una gran diferencia en los requisitos del servidor. La precisión de las recomendaciones que crea la calculadora depende de la exactitud de la información proporcionada.
 
