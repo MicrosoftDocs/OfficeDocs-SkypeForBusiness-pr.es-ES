@@ -12,18 +12,18 @@ ms:contentKeyID: 48183697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ef88ac7a55480df050719fa1a85a056df8a02ea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9a9445ad47b26f0e3a15b9d70afbd350d9783d08
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046513"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141063"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="troubleshooting-enterprise-voice-cmdlets-in-lync-server-2013"></a>Solución de problemas de cmdlets de Enterprise Voice en Lync Server 2013
 
@@ -108,7 +108,7 @@ Los cmdlets siguientes pueden usarse para probar y solucionar problemas de las c
 [Cmdlets de telefonía IP empresarial en Lync Server 2013](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
-[Blog de Lync Server PowerShell](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Blog de Lync Server PowerShell](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

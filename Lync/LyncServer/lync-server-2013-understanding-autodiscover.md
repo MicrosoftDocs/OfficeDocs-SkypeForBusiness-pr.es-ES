@@ -12,18 +12,18 @@ ms:contentKeyID: 51541522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f57dd0158f4a9b6c798d1b968353e5f84b55d46e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 033f3a12ccbe0817f586aa7eb868679fa44541fd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046113"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140963"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="understanding-autodiscover-in-lync-server-2013"></a>Descripción de la detección automática en Lync Server 2013
 
@@ -59,7 +59,7 @@ La mejor manera de comprender el documento de respuesta de detección automátic
 
 
 > [!NOTE]  
-> El servicio Web de detección automática de Lync se define en los <STRONG>protocolos de Microsoft Office</STRONG> en la sección de <STRONG>Especificaciones abiertas</STRONG> de la biblioteca de <STRONG>Microsoft Developer Network</STRONG> (MSDN). Para obtener más información, consulte el documento de especificación completa, "Protocolo del servicio Web de detección automática <A href="http://go.microsoft.com/fwlink/?linkid=273839">http://go.microsoft.com/fwlink/?LinkId=273839</A>de Lync" en:. Para obtener más información acerca de la autenticación, consulte "Protocolo de servicio <A href="http://go.microsoft.com/fwlink/?linkid=279015">http://go.microsoft.com/fwlink/?LinkId=279015</A>Web de autenticación de OC" en.
+> El servicio Web de detección automática de Lync se define en los <STRONG>protocolos de Microsoft Office</STRONG> en la sección de <STRONG>Especificaciones abiertas</STRONG> de la biblioteca de <STRONG>Microsoft Developer Network</STRONG> (MSDN). Para obtener más información, consulte el documento de especificación completa, "Protocolo del servicio Web de detección automática <A href="https://go.microsoft.com/fwlink/?linkid=273839">https://go.microsoft.com/fwlink/?LinkId=273839</A>de Lync" en:. Para obtener más información acerca de la autenticación, consulte "Protocolo de servicio <A href="https://go.microsoft.com/fwlink/?linkid=279015">https://go.microsoft.com/fwlink/?LinkId=279015</A>Web de autenticación de OC" en.
 
 
 

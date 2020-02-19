@@ -12,18 +12,18 @@ ms:contentKeyID: 48183268
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af0e5048b02720755c7f4ab65cddb1e9fa47b0bb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 01ec759581a690602aa083e64f14aa64b78e0664
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028881"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141033"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="troubleshooting-server-roles-and-services-cmdlets-in-lync-server-2013"></a>Solución de problemas de los cmdlets de servicios y roles de servidor en Lync Server 2013
 
@@ -43,7 +43,7 @@ Los cmdlets de solución de problemas proporcionan distintas formas de comprobar
 
 
 > [!NOTE]
-> Para obtener más información acerca de los cmdlets, vea&nbsp;el blog de Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>Server Windows PowerShell en. El contenido de cada blog y su dirección URL están sujetos a cambio sin previo aviso.
+> Para obtener más información acerca de los cmdlets, vea&nbsp;el blog de Lync <A href="https://go.microsoft.com/fwlink/p/?linkid=263432">https://go.microsoft.com/fwlink/p/?linkId=263432</A>Server Windows PowerShell en. El contenido de cada blog y su dirección URL están sujetos a cambio sin previo aviso.
 
 
 

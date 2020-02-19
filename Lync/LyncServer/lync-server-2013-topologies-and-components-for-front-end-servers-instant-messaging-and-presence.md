@@ -12,18 +12,18 @@ ms:contentKeyID: 48185763
 ms.date: 10/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e8e53116879e194bca7d0ea4066bc5f10de38f7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2865d1a4169491751643e7b16601a5ed3efcded
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029451"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141166"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Topologías y componentes para los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013
 
@@ -91,28 +91,28 @@ La primera vez que inicie un nuevo grupo de servidores front-end, es esencial qu
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
-<td><p>1 </p></td>
+<td><p>segundo</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
 </tr>
 <tr class="odd">
-<td><p>4 </p></td>
-<td><p>3 </p></td>
+<td><p>4</p></td>
+<td><p>3</p></td>
 </tr>
 <tr class="even">
-<td><p>5 </p></td>
-<td><p>4 </p></td>
+<td><p>2,5</p></td>
+<td><p>4</p></td>
 </tr>
 <tr class="odd">
 <td><p>6 </p></td>
-<td><p>5 </p></td>
+<td><p>2,5</p></td>
 </tr>
 <tr class="even">
 <td><p>7 </p></td>
-<td><p>5 </p></td>
+<td><p>2,5</p></td>
 </tr>
 <tr class="odd">
 <td><p>8 </p></td>
@@ -127,7 +127,7 @@ La primera vez que inicie un nuevo grupo de servidores front-end, es esencial qu
 <td><p>8 </p></td>
 </tr>
 <tr class="even">
-<td><p>12</p></td>
+<td><p>11 </p></td>
 <td><p>9 </p></td>
 </tr>
 <tr class="odd">
@@ -144,7 +144,7 @@ Cada vez que se inicia el grupo, se debe iniciar el 85% de los servidores (como 
 
 
 > [!NOTE]  
-> Debido a que Lync Server usa la base de datos SQL principal como testigo, si apaga la base de datos principal y cambia a la copia reflejada, y apaga los servidores front-end suficientes para que no haya suficiente de acuerdo con la tabla anterior, se producirá todo el grupo. Para obtener más información, consulte <A href="http://go.microsoft.com/fwlink/?linkid=393672">testigo de creación de reflejo</A>de la base de datos.
+> Debido a que Lync Server usa la base de datos SQL principal como testigo, si apaga la base de datos principal y cambia a la copia reflejada, y apaga los servidores front-end suficientes para que no haya suficiente de acuerdo con la tabla anterior, se producirá todo el grupo. Para obtener más información, consulte <A href="https://go.microsoft.com/fwlink/?linkid=393672">testigo de creación de reflejo</A>de la base de datos.
 
 
 
@@ -172,8 +172,8 @@ Para que un grupo de servidores front-end funcione, no puede estar en pérdida d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
-<td><p>1 </p></td>
+<td><p>segundo</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="even">
 <td><p>3-4</p></td>
