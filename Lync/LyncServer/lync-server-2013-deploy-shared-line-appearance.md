@@ -12,20 +12,20 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1523a48b5d9056b1cca532a7edb1c826af841b8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9e8833c94968f266ddc5c9b218b2097068341e25
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036902"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147603"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a><span data-ttu-id="5bdff-102">Implementar la apariencia de línea compartida en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5bdff-102">Deploy Shared Line Appearance in Lync Server 2013</span></span>
+# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a><span data-ttu-id="804d6-102">Implementar la apariencia de línea compartida en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="804d6-102">Deploy Shared Line Appearance in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "42036902"
 
 <span> </span>
 
-<span data-ttu-id="5bdff-103">_**Última modificación del tema:** 2016-06-13_</span><span class="sxs-lookup"><span data-stu-id="5bdff-103">_**Topic Last Modified:** 2016-06-13_</span></span>
+<span data-ttu-id="804d6-103">_**Última modificación del tema:** 2016-06-13_</span><span class="sxs-lookup"><span data-stu-id="804d6-103">_**Topic Last Modified:** 2016-06-13_</span></span>
 
-<span data-ttu-id="5bdff-104">Lea este tema para obtener información sobre cómo implementar la apariencia de línea compartida (SLA) en Lync Server 2013, actualización acumulativa de abril de 2016.</span><span class="sxs-lookup"><span data-stu-id="5bdff-104">Read this topic to learn how to deploy Shared Line Appearance (SLA) in Lync Server 2013, Cumulative Update April 2016.</span></span> <span data-ttu-id="5bdff-105">SLA es una característica para controlar varias llamadas en un número específico denominado número compartido.</span><span class="sxs-lookup"><span data-stu-id="5bdff-105">SLA is a feature for handling multiple calls on a specific number called a shared number.</span></span>
+<span data-ttu-id="804d6-104">Lea este tema para obtener información sobre cómo implementar la apariencia de línea compartida (SLA) en Lync Server 2013, actualización acumulativa de abril de 2016.</span><span class="sxs-lookup"><span data-stu-id="804d6-104">Read this topic to learn how to deploy Shared Line Appearance (SLA) in Lync Server 2013, Cumulative Update April 2016.</span></span> <span data-ttu-id="804d6-105">SLA es una característica para controlar varias llamadas en un número específico denominado número compartido.</span><span class="sxs-lookup"><span data-stu-id="804d6-105">SLA is a feature for handling multiple calls on a specific number called a shared number.</span></span>
 
-<span data-ttu-id="5bdff-106">Para obtener más información sobre esta característica, vea [Plan for shared line Appearance in Lync Server 2013](lync-server-2013-plan-for-shared-line-appearance.md).</span><span class="sxs-lookup"><span data-stu-id="5bdff-106">For more information about this feature, see [Plan for Shared Line Appearance in Lync Server 2013](lync-server-2013-plan-for-shared-line-appearance.md).</span></span>
+<span data-ttu-id="804d6-106">Para obtener más información sobre esta característica, vea [Plan for shared line Appearance in Lync Server 2013](lync-server-2013-plan-for-shared-line-appearance.md).</span><span class="sxs-lookup"><span data-stu-id="804d6-106">For more information about this feature, see [Plan for Shared Line Appearance in Lync Server 2013](lync-server-2013-plan-for-shared-line-appearance.md).</span></span>
 
-<span data-ttu-id="5bdff-107">Apariencia de línea compartida (SLA) es una nueva característica de Lync Server 2013, actualización acumulativa de abril de 2016.</span><span class="sxs-lookup"><span data-stu-id="5bdff-107">Shared Line Appearance (SLA) is a new feature in Lync Server 2013, Cumulative Update April 2016.</span></span> <span data-ttu-id="5bdff-108">Para habilitar esta característica, primero debe implementar esta actualización acumulativa.</span><span class="sxs-lookup"><span data-stu-id="5bdff-108">To enable this feature, you must have first deployed this cumulative update.</span></span>
+<span data-ttu-id="804d6-107">Apariencia de línea compartida (SLA) es una nueva característica de Lync Server 2013, actualización acumulativa de abril de 2016.</span><span class="sxs-lookup"><span data-stu-id="804d6-107">Shared Line Appearance (SLA) is a new feature in Lync Server 2013, Cumulative Update April 2016.</span></span> <span data-ttu-id="804d6-108">Para habilitar esta característica, primero debe implementar esta actualización acumulativa.</span><span class="sxs-lookup"><span data-stu-id="804d6-108">To enable this feature, you must have first deployed this cumulative update.</span></span>
 
 <div>
 
-## <a name="install-shared-line-appearance"></a><span data-ttu-id="5bdff-109">Instalación de apariencia de línea compartida</span><span class="sxs-lookup"><span data-stu-id="5bdff-109">Install Shared Line Appearance</span></span>
+## <a name="install-shared-line-appearance"></a><span data-ttu-id="804d6-109">Instalación de apariencia de línea compartida</span><span class="sxs-lookup"><span data-stu-id="804d6-109">Install Shared Line Appearance</span></span>
 
-1.  <span data-ttu-id="5bdff-110">Una vez implementado Lync Server 2013, la actualización acumulativa de abril de 2016, la aplicación de SLA no está habilitada de forma predeterminada.</span><span class="sxs-lookup"><span data-stu-id="5bdff-110">After Lync Server 2013, Cumulative Update April 2016 is deployed, the SLA application is not enabled by default.</span></span> <span data-ttu-id="5bdff-111">Para habilitar la aplicación, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="5bdff-111">To enable the application, follow the steps below:</span></span>
+1.  <span data-ttu-id="804d6-110">Una vez implementado Lync Server 2013, la actualización acumulativa de abril de 2016, la aplicación de SLA no está habilitada de forma predeterminada.</span><span class="sxs-lookup"><span data-stu-id="804d6-110">After Lync Server 2013, Cumulative Update April 2016 is deployed, the SLA application is not enabled by default.</span></span> <span data-ttu-id="804d6-111">Para habilitar la aplicación, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="804d6-111">To enable the application, follow the steps below:</span></span>
     
-    1.  <span data-ttu-id="5bdff-112">Registre el SLA como una aplicación de servidor mediante la ejecución del siguiente comando para cada grupo de servidores:</span><span class="sxs-lookup"><span data-stu-id="5bdff-112">Register SLA as a server application by running the following command for each pool:</span></span>
+    1.  <span data-ttu-id="804d6-112">Registre el SLA como una aplicación de servidor mediante la ejecución del siguiente comando para cada grupo de servidores:</span><span class="sxs-lookup"><span data-stu-id="804d6-112">Register SLA as a server application by running the following command for each pool:</span></span>
         ```powershell
         New-CsServerApplication -Identity
                         'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri
-                        http://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled
+                        https://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled
                         $true -Priority (Get-CsServerApplication -Identity
                         'Service:Registrar:%FQDN%/UserServices').Priority 
         ```
-        <span data-ttu-id="5bdff-113">donde% FQDN% es el nombre de dominio completo del grupo de servidores.</span><span class="sxs-lookup"><span data-stu-id="5bdff-113">where %FQDN% is the fully qualified domain name of the pool.</span></span>
+        <span data-ttu-id="804d6-113">donde% FQDN% es el nombre de dominio completo del grupo de servidores.</span><span class="sxs-lookup"><span data-stu-id="804d6-113">where %FQDN% is the fully qualified domain name of the pool.</span></span>
     
-    2.  <span data-ttu-id="5bdff-114">Ejecute el siguiente comando para actualizar los roles RBAC para los cmdlets de SLA:</span><span class="sxs-lookup"><span data-stu-id="5bdff-114">Run the following command to update the RBAC roles for the SLA cmdlets:</span></span>
+    2.  <span data-ttu-id="804d6-114">Ejecute el siguiente comando para actualizar los roles RBAC para los cmdlets de SLA:</span><span class="sxs-lookup"><span data-stu-id="804d6-114">Run the following command to update the RBAC roles for the SLA cmdlets:</span></span>
         ```powershell
         Update-CsAdminRole 
         ```
-    3.  <span data-ttu-id="5bdff-115">Reinicie todos los servidores front-end (servicio RTCSRV) en todos los grupos donde se instaló y habilitó el SLA:</span><span class="sxs-lookup"><span data-stu-id="5bdff-115">Restart all the Front End Servers (RTCSRV service) in all the pools where SLA was installed and enabled:</span></span>
+    3.  <span data-ttu-id="804d6-115">Reinicie todos los servidores front-end (servicio RTCSRV) en todos los grupos donde se instaló y habilitó el SLA:</span><span class="sxs-lookup"><span data-stu-id="804d6-115">Restart all the Front End Servers (RTCSRV service) in all the pools where SLA was installed and enabled:</span></span>
         
         ```powershell 
         Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
@@ -74,59 +74,59 @@ ms.locfileid: "42036902"
 
 <div>
 
-## <a name="create-an-sla-group-and-add-users-to-it"></a><span data-ttu-id="5bdff-116">Crear un grupo de SLA y agregar usuarios a él</span><span class="sxs-lookup"><span data-stu-id="5bdff-116">Create an SLA group and add users to it</span></span>
+## <a name="create-an-sla-group-and-add-users-to-it"></a><span data-ttu-id="804d6-116">Crear un grupo de SLA y agregar usuarios a él</span><span class="sxs-lookup"><span data-stu-id="804d6-116">Create an SLA group and add users to it</span></span>
 
-1.  <span data-ttu-id="5bdff-117">Cree el grupo SLA mediante el cmdlet [set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) :</span><span class="sxs-lookup"><span data-stu-id="5bdff-117">Create the SLA group by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) cmdlet:</span></span>
+1.  <span data-ttu-id="804d6-117">Cree el grupo SLA mediante el cmdlet [set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) :</span><span class="sxs-lookup"><span data-stu-id="804d6-117">Create the SLA group by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) cmdlet:</span></span>
     ```powershell
     Set-CsSlaConfiguration -Identity <IdentityOfGroup>
                 -MaxNumberOfCalls <Number> -BusyOption
                 <BusyOnBusy|Voicemail|Forward> [-Target
                 <TargetUserOrPhoneNumber>]
     ```
-    <span data-ttu-id="5bdff-118">El cmdlet Set-CsSlaConfiguration marca la cuenta de Enterprise Voice Slagrupo1 como una entidad de SLA y el número de Slagrupo1 se convierte en el número del grupo de SLA.</span><span class="sxs-lookup"><span data-stu-id="5bdff-118">The Set-CsSlaConfiguration cmdlet marks the Enterprise Voice account SLAGroup1 as an SLA entity, and the number of SLAGroup1 becomes the number for the SLA group.</span></span> <span data-ttu-id="5bdff-119">Todas las llamadas a Slagrupo1 sonarán a todo el grupo de SLA.</span><span class="sxs-lookup"><span data-stu-id="5bdff-119">All calls to SLAGroup1 will ring the entire SLA group.</span></span>
+    <span data-ttu-id="804d6-118">El cmdlet Set-CsSlaConfiguration marca la cuenta de Enterprise Voice Slagrupo1 como una entidad de SLA y el número de Slagrupo1 se convierte en el número del grupo de SLA.</span><span class="sxs-lookup"><span data-stu-id="804d6-118">The Set-CsSlaConfiguration cmdlet marks the Enterprise Voice account SLAGroup1 as an SLA entity, and the number of SLAGroup1 becomes the number for the SLA group.</span></span> <span data-ttu-id="804d6-119">Todas las llamadas a Slagrupo1 sonarán a todo el grupo de SLA.</span><span class="sxs-lookup"><span data-stu-id="804d6-119">All calls to SLAGroup1 will ring the entire SLA group.</span></span>
     
-    <span data-ttu-id="5bdff-120">En el ejemplo siguiente se crea un grupo de SLA para un usuario existente de Enterprise Voice, Slagrupo1, y se usa el número asignado para Slagrupo1 como el número de la principal de SLA.</span><span class="sxs-lookup"><span data-stu-id="5bdff-120">The following example creates an SLA group for an existing Enterprise Voice user, SLAGroup1, and uses the number assigned for SLAGroup1 as the SLA mainline number.</span></span>
+    <span data-ttu-id="804d6-120">En el ejemplo siguiente se crea un grupo de SLA para un usuario existente de Enterprise Voice, Slagrupo1, y se usa el número asignado para Slagrupo1 como el número de la principal de SLA.</span><span class="sxs-lookup"><span data-stu-id="804d6-120">The following example creates an SLA group for an existing Enterprise Voice user, SLAGroup1, and uses the number assigned for SLAGroup1 as the SLA mainline number.</span></span>
     
-    <span data-ttu-id="5bdff-121">El comando establece el número máximo de llamadas simultáneas para el nuevo grupo de SLA en 3, y para las llamadas que superen eso para oír una señal de ocupado:</span><span class="sxs-lookup"><span data-stu-id="5bdff-121">The command sets the maximum number of concurrent calls for the new SLA group to 3, and for calls in excess of that to hear a busy signal:</span></span>
+    <span data-ttu-id="804d6-121">El comando establece el número máximo de llamadas simultáneas para el nuevo grupo de SLA en 3, y para las llamadas que superen eso para oír una señal de ocupado:</span><span class="sxs-lookup"><span data-stu-id="804d6-121">The command sets the maximum number of concurrent calls for the new SLA group to 3, and for calls in excess of that to hear a busy signal:</span></span>
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3
                 -BusyOption BusyOnBusy
     ```
-    <span data-ttu-id="5bdff-122">Puede usar Set-CsSlaConfiguration para crear un nuevo grupo de SLA o modificar uno existente.</span><span class="sxs-lookup"><span data-stu-id="5bdff-122">You can use Set-CsSlaConfiguration to create a new SLA group or modify an existing one.</span></span>
+    <span data-ttu-id="804d6-122">Puede usar Set-CsSlaConfiguration para crear un nuevo grupo de SLA o modificar uno existente.</span><span class="sxs-lookup"><span data-stu-id="804d6-122">You can use Set-CsSlaConfiguration to create a new SLA group or modify an existing one.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="5bdff-123">Tenga en <CODE>-Identity</CODE> cuenta que lo que especifique debe ser una cuenta de usuario habilitada de Enterprise Voice existente válida.</span><span class="sxs-lookup"><span data-stu-id="5bdff-123">Note that what you specify for <CODE>-Identity</CODE> must be a valid existing Enterprise Voice-enabled user account.</span></span>
+    > <span data-ttu-id="804d6-123">Tenga en <CODE>-Identity</CODE> cuenta que lo que especifique debe ser una cuenta de usuario habilitada de Enterprise Voice existente válida.</span><span class="sxs-lookup"><span data-stu-id="804d6-123">Note that what you specify for <CODE>-Identity</CODE> must be a valid existing Enterprise Voice-enabled user account.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="5bdff-124">Agregue delegados al grupo con el cmdlet [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates) :</span><span class="sxs-lookup"><span data-stu-id="5bdff-124">Add delegates to the group by using the [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates) cmdlet:</span></span>
+2.  <span data-ttu-id="804d6-124">Agregue delegados al grupo con el cmdlet [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates) :</span><span class="sxs-lookup"><span data-stu-id="804d6-124">Add delegates to the group by using the [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates) cmdlet:</span></span>
     ```powershell
     Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
               <NameOfDelegate@domain>
     ```
-    <span data-ttu-id="5bdff-125">En el ejemplo siguiente se agrega un usuario al grupo de SLA.</span><span class="sxs-lookup"><span data-stu-id="5bdff-125">The following example adds a user to the SLA group.</span></span> <span data-ttu-id="5bdff-126">Cada usuario agregado al grupo debe ser un usuario válido habilitado para telefonía IP empresarial:</span><span class="sxs-lookup"><span data-stu-id="5bdff-126">Each user added to the group must be a valid Enterprise Voice-enabled user:</span></span>
+    <span data-ttu-id="804d6-125">En el ejemplo siguiente se agrega un usuario al grupo de SLA.</span><span class="sxs-lookup"><span data-stu-id="804d6-125">The following example adds a user to the SLA group.</span></span> <span data-ttu-id="804d6-126">Cada usuario agregado al grupo debe ser un usuario válido habilitado para telefonía IP empresarial:</span><span class="sxs-lookup"><span data-stu-id="804d6-126">Each user added to the group must be a valid Enterprise Voice-enabled user:</span></span>
     ```powershell
     Add-CsSlaDelegates -Identity SLAGroup1 -Delegate
               sip:SLA_Delegate1@contoso.com
     ```
-    <span data-ttu-id="5bdff-127">Repita el cmdlet para cada usuario que desee agregar al grupo.</span><span class="sxs-lookup"><span data-stu-id="5bdff-127">Repeat the cmdlet for each user you want to add to the group.</span></span> <span data-ttu-id="5bdff-128">Los usuarios solo pueden pertenecer a un único grupo de SLA.</span><span class="sxs-lookup"><span data-stu-id="5bdff-128">Users can only belong to a single SLA group.</span></span>
+    <span data-ttu-id="804d6-127">Repita el cmdlet para cada usuario que desee agregar al grupo.</span><span class="sxs-lookup"><span data-stu-id="804d6-127">Repeat the cmdlet for each user you want to add to the group.</span></span> <span data-ttu-id="804d6-128">Los usuarios solo pueden pertenecer a un único grupo de SLA.</span><span class="sxs-lookup"><span data-stu-id="804d6-128">Users can only belong to a single SLA group.</span></span>
 
 </div>
 
 <div>
 
-## <a name="configure-the-sla-group-busy-option"></a><span data-ttu-id="5bdff-129">Configurar la opción de ocupado del grupo de SLA</span><span class="sxs-lookup"><span data-stu-id="5bdff-129">Configure the SLA group Busy Option</span></span>
+## <a name="configure-the-sla-group-busy-option"></a><span data-ttu-id="804d6-129">Configurar la opción de ocupado del grupo de SLA</span><span class="sxs-lookup"><span data-stu-id="804d6-129">Configure the SLA group Busy Option</span></span>
 
-1.  <span data-ttu-id="5bdff-130">Configure la opción ocupado del grupo de SLA con el cmdlet [set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) :</span><span class="sxs-lookup"><span data-stu-id="5bdff-130">Configure the SLA group Busy Option by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) cmdlet:</span></span>
+1.  <span data-ttu-id="804d6-130">Configure la opción ocupado del grupo de SLA con el cmdlet [set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) :</span><span class="sxs-lookup"><span data-stu-id="804d6-130">Configure the SLA group Busy Option by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) cmdlet:</span></span>
     ```powershell
     Set-CsSlaConfiguration -Identity <IdentityOfGroup>
               -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
     ```
-    <span data-ttu-id="5bdff-131">En el siguiente ejemplo se establecen llamadas que superan el número máximo de llamadas simultáneas que se van a reenviar al número de teléfono 202-555-1234.</span><span class="sxs-lookup"><span data-stu-id="5bdff-131">The following example sets calls that exceed the maximum number of concurrent calls to be forwarded to the telephone number 202-555-1234.</span></span> <span data-ttu-id="5bdff-132">El destino puede ser un usuario de la organización en lugar de un número de teléfono; en ese caso, la sintaxis de la persona que va a recibir las llamadas enviadas es la misma que cuando se especifica un `sip:<NameofDelegate@domain>`delegado:.</span><span class="sxs-lookup"><span data-stu-id="5bdff-132">The target could be a user in your organization instead of a phone number; in that case, the syntax for the person to receive the forwarded calls is the same as when you specify a delegate: `sip:<NameofDelegate@domain>`.</span></span> <span data-ttu-id="5bdff-133">El otro parámetro posible `BusyOption` es: `Voicemail`</span><span class="sxs-lookup"><span data-stu-id="5bdff-133">The other possible parameter for `BusyOption` is `Voicemail`:</span></span>
+    <span data-ttu-id="804d6-131">En el siguiente ejemplo se establecen llamadas que superan el número máximo de llamadas simultáneas que se van a reenviar al número de teléfono 202-555-1234.</span><span class="sxs-lookup"><span data-stu-id="804d6-131">The following example sets calls that exceed the maximum number of concurrent calls to be forwarded to the telephone number 202-555-1234.</span></span> <span data-ttu-id="804d6-132">El destino puede ser un usuario de la organización en lugar de un número de teléfono; en ese caso, la sintaxis de la persona que va a recibir las llamadas enviadas es la misma que cuando se especifica un `sip:<NameofDelegate@domain>`delegado:.</span><span class="sxs-lookup"><span data-stu-id="804d6-132">The target could be a user in your organization instead of a phone number; in that case, the syntax for the person to receive the forwarded calls is the same as when you specify a delegate: `sip:<NameofDelegate@domain>`.</span></span> <span data-ttu-id="804d6-133">El otro parámetro posible `BusyOption` es: `Voicemail`</span><span class="sxs-lookup"><span data-stu-id="804d6-133">The other possible parameter for `BusyOption` is `Voicemail`:</span></span>
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward
               -Target tel:+2025551234]
@@ -135,15 +135,15 @@ ms.locfileid: "42036902"
 
 <div>
 
-## <a name="configure-the-sla-group-missed-call-option"></a><span data-ttu-id="5bdff-134">Configuración de la opción de llamada perdida del grupo SLA</span><span class="sxs-lookup"><span data-stu-id="5bdff-134">Configure the SLA group Missed Call Option</span></span>
+## <a name="configure-the-sla-group-missed-call-option"></a><span data-ttu-id="804d6-134">Configuración de la opción de llamada perdida del grupo SLA</span><span class="sxs-lookup"><span data-stu-id="804d6-134">Configure the SLA group Missed Call Option</span></span>
 
-1.  <span data-ttu-id="5bdff-135">Configure la opción de llamada perdida del grupo SLA mediante el cmdlet [set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) :</span><span class="sxs-lookup"><span data-stu-id="5bdff-135">Configure the SLA group Missed Call Option by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) cmdlet:</span></span>
+1.  <span data-ttu-id="804d6-135">Configure la opción de llamada perdida del grupo SLA mediante el cmdlet [set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) :</span><span class="sxs-lookup"><span data-stu-id="804d6-135">Configure the SLA group Missed Call Option by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) cmdlet:</span></span>
     ```powershell
     Set-CsSlaConfiguration -Identity <IdentityOfGroup> 
               -MissedCallOption <Option> -MissedCallForwardTarget
               <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
     ```
-    <span data-ttu-id="5bdff-136">En el siguiente ejemplo se especifica que las llamadas perdidas se reenviarán al `sla_forward_number`usuario denominado.</span><span class="sxs-lookup"><span data-stu-id="5bdff-136">The following example specifies that missed calls are to be forwarded to the user named `sla_forward_number`.</span></span> <span data-ttu-id="5bdff-137">Las opciones válidas para `-MissedCallOption` el parámetro `Forward`son `BusySignal`, o `Disconnect`.</span><span class="sxs-lookup"><span data-stu-id="5bdff-137">The valid options for the `-MissedCallOption` parameter are `Forward`, `BusySignal`, or `Disconnect`.</span></span> <span data-ttu-id="5bdff-138">Si lo prefiere `Forward`, también debe incluir el `-MissedCallForwardTarget` parámetro, con un usuario o número de teléfono como destino:</span><span class="sxs-lookup"><span data-stu-id="5bdff-138">If you choose `Forward`, you must also include the `-MissedCallForwardTarget` parameter, with a user or phone number as the target:</span></span>
+    <span data-ttu-id="804d6-136">En el siguiente ejemplo se especifica que las llamadas perdidas se reenviarán al `sla_forward_number`usuario denominado.</span><span class="sxs-lookup"><span data-stu-id="804d6-136">The following example specifies that missed calls are to be forwarded to the user named `sla_forward_number`.</span></span> <span data-ttu-id="804d6-137">Las opciones válidas para `-MissedCallOption` el parámetro `Forward`son `BusySignal`, o `Disconnect`.</span><span class="sxs-lookup"><span data-stu-id="804d6-137">The valid options for the `-MissedCallOption` parameter are `Forward`, `BusySignal`, or `Disconnect`.</span></span> <span data-ttu-id="804d6-138">Si lo prefiere `Forward`, también debe incluir el `-MissedCallForwardTarget` parámetro, con un usuario o número de teléfono como destino:</span><span class="sxs-lookup"><span data-stu-id="804d6-138">If you choose `Forward`, you must also include the `-MissedCallForwardTarget` parameter, with a user or phone number as the target:</span></span>
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
               Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 
@@ -153,14 +153,14 @@ ms.locfileid: "42036902"
 
 <div>
 
-## <a name="remove-a-delegate-from-a-group"></a><span data-ttu-id="5bdff-139">Quitar un delegado de un grupo</span><span class="sxs-lookup"><span data-stu-id="5bdff-139">Remove a delegate from a group</span></span>
+## <a name="remove-a-delegate-from-a-group"></a><span data-ttu-id="804d6-139">Quitar un delegado de un grupo</span><span class="sxs-lookup"><span data-stu-id="804d6-139">Remove a delegate from a group</span></span>
 
-1.  <span data-ttu-id="5bdff-140">Quite un delegado de un grupo mediante el cmdlet [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates) :</span><span class="sxs-lookup"><span data-stu-id="5bdff-140">Remove a delegate from a group by using the [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates) cmdlet:</span></span>
+1.  <span data-ttu-id="804d6-140">Quite un delegado de un grupo mediante el cmdlet [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates) :</span><span class="sxs-lookup"><span data-stu-id="804d6-140">Remove a delegate from a group by using the [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates) cmdlet:</span></span>
     ```powershell
     Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
               <NameOfDelegate@domain>
     ```
-    <span data-ttu-id="5bdff-141">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="5bdff-141">For example:</span></span>
+    <span data-ttu-id="804d6-141">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="804d6-141">For example:</span></span>
     ```powershell
     Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate
               sip:SLA_Delegate3@contoso.com
@@ -169,16 +169,16 @@ ms.locfileid: "42036902"
 
 <div>
 
-## <a name="delete-an-sla-group"></a><span data-ttu-id="5bdff-142">Eliminar un grupo de SLA</span><span class="sxs-lookup"><span data-stu-id="5bdff-142">Delete an SLA group</span></span>
+## <a name="delete-an-sla-group"></a><span data-ttu-id="804d6-142">Eliminar un grupo de SLA</span><span class="sxs-lookup"><span data-stu-id="804d6-142">Delete an SLA group</span></span>
 
-1.  <span data-ttu-id="5bdff-143">Elimine un grupo de SLA mediante el cmdlet [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) :</span><span class="sxs-lookup"><span data-stu-id="5bdff-143">Delete an SLA group by using the [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) cmdlet:</span></span>
+1.  <span data-ttu-id="804d6-143">Elimine un grupo de SLA mediante el cmdlet [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) :</span><span class="sxs-lookup"><span data-stu-id="804d6-143">Delete an SLA group by using the [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) cmdlet:</span></span>
     
     ```powershell
     Remove-CsSlaConfiguration -Identity <IdentityOfGroup>
               
     ```
     
-    <span data-ttu-id="5bdff-144">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="5bdff-144">For example:</span></span>
+    <span data-ttu-id="804d6-144">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="804d6-144">For example:</span></span>
     ```powershell
     Remove-CsSlaConfiguration -Identity SLAGroup1 
     ```

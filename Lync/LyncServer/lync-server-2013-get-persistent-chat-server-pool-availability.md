@@ -12,20 +12,20 @@ ms:contentKeyID: 48184322
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efc7758e46a0d05d0e543def60486e2ef48d3dcb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 091d9eda5798ca5fcbc7217c3a2ce16898fb6e86
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037922"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147423"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="get-persistent-chat-server-pool-availability-in-lync-server-2013"></a><span data-ttu-id="4624b-102">Obtener disponibilidad del grupo de servidores de chat persistente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4624b-102">Get Persistent Chat Server pool availability in Lync Server 2013</span></span>
+# <a name="get-persistent-chat-server-pool-availability-in-lync-server-2013"></a><span data-ttu-id="a280b-102">Obtener disponibilidad del grupo de servidores de chat persistente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a280b-102">Get Persistent Chat Server pool availability in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42037922"
 
 <span> </span>
 
-<span data-ttu-id="4624b-103">_**Última modificación del tema:** 2012-03-23_</span><span class="sxs-lookup"><span data-stu-id="4624b-103">_**Topic Last Modified:** 2012-03-23_</span></span>
+<span data-ttu-id="a280b-103">_**Última modificación del tema:** 2012-03-23_</span><span class="sxs-lookup"><span data-stu-id="a280b-103">_**Topic Last Modified:** 2012-03-23_</span></span>
 
-<span data-ttu-id="4624b-104">Para obtener la disponibilidad del grupo de servidores de chat persistente</span><span class="sxs-lookup"><span data-stu-id="4624b-104">To get Persistent Chat Server pool availability</span></span>
+<span data-ttu-id="a280b-104">Para obtener la disponibilidad del grupo de servidores de chat persistente</span><span class="sxs-lookup"><span data-stu-id="a280b-104">To get Persistent Chat Server pool availability</span></span>
 
     Get-CsService -PersistentChatServer
 

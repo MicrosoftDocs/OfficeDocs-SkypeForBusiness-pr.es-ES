@@ -12,20 +12,20 @@ ms:contentKeyID: 48184494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0aa69ce085c3d60e71f2bf465c91143dd812010
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0a7ea827304d91eeec0822e825b4e02c49f1f67c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030694"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148759"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-phases"></a><span data-ttu-id="32eff-102">Fases de la migración</span><span class="sxs-lookup"><span data-stu-id="32eff-102">Migration phases</span></span>
+# <a name="migration-phases"></a><span data-ttu-id="c32d4-102">Fases de la migración</span><span class="sxs-lookup"><span data-stu-id="c32d4-102">Migration phases</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42030694"
 
 <span> </span>
 
-<span data-ttu-id="32eff-103">_**Última modificación del tema:** 2012-08-29_</span><span class="sxs-lookup"><span data-stu-id="32eff-103">_**Topic Last Modified:** 2012-08-29_</span></span>
+<span data-ttu-id="c32d4-103">_**Última modificación del tema:** 2012-08-29_</span><span class="sxs-lookup"><span data-stu-id="c32d4-103">_**Topic Last Modified:** 2012-08-29_</span></span>
 
-<span data-ttu-id="32eff-104">Las siguientes fases describen el proceso de una migración de grupo de Office Communications Server 2007 R2 a Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="32eff-104">The following phases describe the process of a pool migration from Office Communications Server 2007 R2 to Lync Server 2013.</span></span>
+<span data-ttu-id="c32d4-104">Las siguientes fases describen el proceso de una migración de grupo de Office Communications Server 2007 R2 a Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c32d4-104">The following phases describe the process of a pool migration from Office Communications Server 2007 R2 to Lync Server 2013.</span></span>
 
-  - [<span data-ttu-id="32eff-105">Fase 1: planear la migración desde Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="32eff-105">Phase 1: Plan your migration from Office Communications Server 2007 R2</span></span>](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
+  - [<span data-ttu-id="c32d4-105">Fase 1: planear la migración desde Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="c32d4-105">Phase 1: Plan your migration from Office Communications Server 2007 R2</span></span>](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [<span data-ttu-id="32eff-106">Fase 2: preparar la migración</span><span class="sxs-lookup"><span data-stu-id="32eff-106">Phase 2: Prepare for migration</span></span>](phase-2-prepare-for-migration_1.md)
+  - [<span data-ttu-id="c32d4-106">Fase 2: preparar la migración</span><span class="sxs-lookup"><span data-stu-id="c32d4-106">Phase 2: Prepare for migration</span></span>](phase-2-prepare-for-migration_1.md)
 
-  - [<span data-ttu-id="32eff-107">Fase 3: implementar el grupo piloto de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="32eff-107">Phase 3: Deploy Lync Server 2013 pilot pool</span></span>](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
+  - [<span data-ttu-id="c32d4-107">Fase 3: implementar el grupo piloto de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32d4-107">Phase 3: Deploy Lync Server 2013 pilot pool</span></span>](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
 
-  - [<span data-ttu-id="32eff-108">Fase 4: combinar topologías</span><span class="sxs-lookup"><span data-stu-id="32eff-108">Phase 4: Merge topologies</span></span>](phase-4-merge-topologies.md)
+  - [<span data-ttu-id="c32d4-108">Fase 4: combinar topologías</span><span class="sxs-lookup"><span data-stu-id="c32d4-108">Phase 4: Merge topologies</span></span>](phase-4-merge-topologies.md)
 
-  - [<span data-ttu-id="32eff-109">Fase 5: configurar el grupo piloto</span><span class="sxs-lookup"><span data-stu-id="32eff-109">Phase 5: Configure the pilot pool</span></span>](phase-5-configure-the-pilot-pool.md)
+  - [<span data-ttu-id="c32d4-109">Fase 5: configurar el grupo piloto</span><span class="sxs-lookup"><span data-stu-id="c32d4-109">Phase 5: Configure the pilot pool</span></span>](phase-5-configure-the-pilot-pool.md)
 
-  - [<span data-ttu-id="32eff-110">Fase 6: mover usuarios al grupo piloto</span><span class="sxs-lookup"><span data-stu-id="32eff-110">Phase 6: Move users to the pilot pool</span></span>](phase-6-move-users-to-the-pilot-pool.md)
+  - [<span data-ttu-id="c32d4-110">Fase 6: mover usuarios al grupo piloto</span><span class="sxs-lookup"><span data-stu-id="c32d4-110">Phase 6: Move users to the pilot pool</span></span>](phase-6-move-users-to-the-pilot-pool.md)
 
-  - [<span data-ttu-id="32eff-111">Fase 7: agregar un servidor perimetral de Lync Server 2013 a un grupo piloto</span><span class="sxs-lookup"><span data-stu-id="32eff-111">Phase 7: Add Lync Server 2013 Edge Server to pilot pool</span></span>](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
+  - [<span data-ttu-id="c32d4-111">Fase 7: agregar un servidor perimetral de Lync Server 2013 a un grupo piloto</span><span class="sxs-lookup"><span data-stu-id="c32d4-111">Phase 7: Add Lync Server 2013 Edge Server to pilot pool</span></span>](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [<span data-ttu-id="32eff-112">Fase 8: pasar de la implementación piloto a la producción</span><span class="sxs-lookup"><span data-stu-id="32eff-112">Phase 8: Move from pilot deployment into production</span></span>](phase-8-move-from-pilot-deployment-into-production.md)
+  - [<span data-ttu-id="c32d4-112">Fase 8: pasar de la implementación piloto a la producción</span><span class="sxs-lookup"><span data-stu-id="c32d4-112">Phase 8: Move from pilot deployment into production</span></span>](phase-8-move-from-pilot-deployment-into-production.md)
 
-  - [<span data-ttu-id="32eff-113">Fase 9: completar las tareas posteriores a la migración</span><span class="sxs-lookup"><span data-stu-id="32eff-113">Phase 9: Complete post-migration tasks</span></span>](phase-9-complete-post-migration-tasks.md)
+  - [<span data-ttu-id="c32d4-113">Fase 9: completar las tareas posteriores a la migración</span><span class="sxs-lookup"><span data-stu-id="c32d4-113">Phase 9: Complete post-migration tasks</span></span>](phase-9-complete-post-migration-tasks.md)
 
-  - [<span data-ttu-id="32eff-114">Fase 10: retirar el sitio heredado</span><span class="sxs-lookup"><span data-stu-id="32eff-114">Phase 10: Decommission legacy site</span></span>](phase-10-decommission-legacy-site.md)
+  - [<span data-ttu-id="c32d4-114">Fase 10: retirar el sitio heredado</span><span class="sxs-lookup"><span data-stu-id="c32d4-114">Phase 10: Decommission legacy site</span></span>](phase-10-decommission-legacy-site.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733604
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7abaa29d2383f80a6f822eaa5d524197996500b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 69b34458f9bfc11f25cc204104b43b2b01bb59f0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047828"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148929"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-common-area-phones"></a><span data-ttu-id="3f5e6-102">Migrar teléfonos de área común</span><span class="sxs-lookup"><span data-stu-id="3f5e6-102">Migrate Common Area Phones</span></span>
+# <a name="migrate-common-area-phones"></a><span data-ttu-id="a2da3-102">Migrar teléfonos de área común</span><span class="sxs-lookup"><span data-stu-id="a2da3-102">Migrate Common Area Phones</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42047828"
 
 <span> </span>
 
-<span data-ttu-id="3f5e6-103">_**Última modificación del tema:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="3f5e6-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="a2da3-103">_**Última modificación del tema:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="a2da3-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="3f5e6-104">Los teléfonos de área común son teléfonos IP que a menudo se encuentran en un espacio de trabajo compartido o un área común, como una sala de espera, cocina o una fábrica.</span><span class="sxs-lookup"><span data-stu-id="3f5e6-104">Common Area Phones are IP phones that most often reside in a shared workspace or common area, like a lobby, kitchen, or factory floor.</span></span> <span data-ttu-id="3f5e6-105">No es necesario que los teléfonos de área común estén conectados a un equipo para proporcionar la funcionalidad de comunicaciones unificadas de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3f5e6-105">Common Area Phones do not need to be connected to a computer to provide Lync Server UC functionality.</span></span> <span data-ttu-id="3f5e6-106">Después de migrar una implementación de Lync Server 2010 a Lync Server 2013, también debe migrar los objetos de contacto asociados con el teléfono de área común heredado.</span><span class="sxs-lookup"><span data-stu-id="3f5e6-106">After migrating an Lync Server 2010 deployment to Lync Server 2013, you must also migrate the contact objects associated with the legacy Common Area Phone.</span></span> <span data-ttu-id="3f5e6-107">Mediante el shell de administración de Lync Server, primero se recuperarán todos los objetos de contacto asociados con los teléfonos de área común de Lync Server 2010 y, a continuación, se mueven dichos objetos al grupo de servidores de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3f5e6-107">Using Lync Server Management Shell you will first retrieve all contact objects associated with the Lync Server 2010 Common Area Phones, and then move those objects to the Lync Server 2013 pool.</span></span>
+<span data-ttu-id="a2da3-104">Los teléfonos de área común son teléfonos IP que a menudo se encuentran en un espacio de trabajo compartido o un área común, como una sala de espera, cocina o una fábrica.</span><span class="sxs-lookup"><span data-stu-id="a2da3-104">Common Area Phones are IP phones that most often reside in a shared workspace or common area, like a lobby, kitchen, or factory floor.</span></span> <span data-ttu-id="a2da3-105">No es necesario que los teléfonos de área común estén conectados a un equipo para proporcionar la funcionalidad de comunicaciones unificadas de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a2da3-105">Common Area Phones do not need to be connected to a computer to provide Lync Server UC functionality.</span></span> <span data-ttu-id="a2da3-106">Después de migrar una implementación de Lync Server 2010 a Lync Server 2013, también debe migrar los objetos de contacto asociados con el teléfono de área común heredado.</span><span class="sxs-lookup"><span data-stu-id="a2da3-106">After migrating an Lync Server 2010 deployment to Lync Server 2013, you must also migrate the contact objects associated with the legacy Common Area Phone.</span></span> <span data-ttu-id="a2da3-107">Mediante el shell de administración de Lync Server, primero se recuperarán todos los objetos de contacto asociados con los teléfonos de área común de Lync Server 2010 y, a continuación, se mueven dichos objetos al grupo de servidores de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a2da3-107">Using Lync Server Management Shell you will first retrieve all contact objects associated with the Lync Server 2010 Common Area Phones, and then move those objects to the Lync Server 2013 pool.</span></span>
 
-<span data-ttu-id="3f5e6-108">**Migrar teléfonos de área común**</span><span class="sxs-lookup"><span data-stu-id="3f5e6-108">**Migrate Common Area Phones**</span></span>
+<span data-ttu-id="a2da3-108">**Migrar teléfonos de área común**</span><span class="sxs-lookup"><span data-stu-id="a2da3-108">**Migrate Common Area Phones**</span></span>
 
-1.  <span data-ttu-id="3f5e6-109">En el servidor front-end de Lync Server 2013, abra Shell de administración de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3f5e6-109">From the Lync Server 2013 Front End server, open Lync Server Management Shell.</span></span>
+1.  <span data-ttu-id="a2da3-109">En el servidor front-end de Lync Server 2013, abra Shell de administración de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a2da3-109">From the Lync Server 2013 Front End server, open Lync Server Management Shell.</span></span>
 
-2.  <span data-ttu-id="3f5e6-110">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="3f5e6-110">From the command line, type the following:</span></span>
+2.  <span data-ttu-id="a2da3-110">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="a2da3-110">From the command line, type the following:</span></span>
     
         Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsCommonAreaPhone -Target pool02.contoso.net
 
-3.  <span data-ttu-id="3f5e6-111">Para comprobar que todos los objetos de contacto se han movido al grupo de servidores de Lync Server 2013, desde el shell de administración de Lync Server, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="3f5e6-111">To verify all contact objects have been moved to the Lync Server 2013 pool, from the Lync Server Management Shell type the following:</span></span>
+3.  <span data-ttu-id="a2da3-111">Para comprobar que todos los objetos de contacto se han movido al grupo de servidores de Lync Server 2013, desde el shell de administración de Lync Server, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="a2da3-111">To verify all contact objects have been moved to the Lync Server 2013 pool, from the Lync Server Management Shell type the following:</span></span>
     
         Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool02.contoso.net"}
     
-    <span data-ttu-id="3f5e6-112">Compruebe que todos los objetos de contacto están ahora asociados con el grupo de servidores de Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="3f5e6-112">Verify all contact objects are now associated with the Lync Server 2013 pool.</span></span>
+    <span data-ttu-id="a2da3-112">Compruebe que todos los objetos de contacto están ahora asociados con el grupo de servidores de Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="a2da3-112">Verify all contact objects are now associated with the Lync Server 2013 pool.</span></span>
 
 </div>
 

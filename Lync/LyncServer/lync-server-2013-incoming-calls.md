@@ -12,20 +12,20 @@ ms:contentKeyID: 51803948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c153af6e14c291189f714f7054f72301d6859a88
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: cb8be496e863058ddec27dd92b994d94b86a26e2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036840"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147253"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="incoming-calls-in-lync-server-2013"></a><span data-ttu-id="06606-102">Llamadas entrantes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06606-102">Incoming calls in Lync Server 2013</span></span>
+# <a name="incoming-calls-in-lync-server-2013"></a><span data-ttu-id="1c175-102">Llamadas entrantes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1c175-102">Incoming calls in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42036840"
 
 <span> </span>
 
-<span data-ttu-id="06606-103">_**Última modificación del tema:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="06606-103">_**Topic Last Modified:** 2013-03-09_</span></span>
+<span data-ttu-id="1c175-103">_**Última modificación del tema:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="1c175-103">_**Topic Last Modified:** 2013-03-09_</span></span>
 
-<span data-ttu-id="06606-104">El enrutamiento de llamadas entrantes a los usuarios habilitados para el enrutamiento basado en ubicación depende de la ubicación del extremo del usuario.</span><span class="sxs-lookup"><span data-stu-id="06606-104">The routing of incoming calls to users enabled for Location-Based Routing depends on the location of the user’s endpoint.</span></span> <span data-ttu-id="06606-105">El enrutamiento de las llamadas entrantes se ve afectado de la siguiente manera.</span><span class="sxs-lookup"><span data-stu-id="06606-105">The routing of incoming calls is affected in the following way.</span></span> <span data-ttu-id="06606-106">Si un usuario tiene una llamada entrante a un punto de conexión que se encuentra en un sitio de red habilitado para enrutamiento basado en ubicación y el extremo se encuentra en el mismo sitio de red que la puerta de enlace RTC, la llamada se redirigirá.</span><span class="sxs-lookup"><span data-stu-id="06606-106">If a user has an incoming call to an endpoint located in a Location-Based Routing enabled network site, and the endpoint is located in the same network site as the PSTN gateway, the call will be routed.</span></span> <span data-ttu-id="06606-107">Si un usuario tiene una llamada entrante a un punto de conexión que se encuentra en un sitio de red habilitado para enrutamiento basado en ubicación y el extremo se encuentra en un sitio de red diferente de la puerta de enlace RTC, la llamada no se enrutará.</span><span class="sxs-lookup"><span data-stu-id="06606-107">If a user has an incoming call to an endpoint located in a Location-Based Routing enabled network site, and the endpoint is located in a different network site than the PSTN gateway, the call will not be routed.</span></span> <span data-ttu-id="06606-108">Cuando un usuario no tiene extremos ubicados en el mismo sitio de red que la puerta de enlace RTC desde la que se origina la llamada entrante, la llamada entrante se redirigirá directamente al correo de voz del usuario y se enviará una notificación de llamada perdida a la persona que ha recibido la llamada.</span><span class="sxs-lookup"><span data-stu-id="06606-108">When a user has no endpoints located in the same network site as the PSTN gateway where the incoming call is originating from, the incoming call will be routed directly to the user’s voicemail and a missed call notification will be sent to the called party.</span></span>
+<span data-ttu-id="1c175-104">El enrutamiento de llamadas entrantes a los usuarios habilitados para el enrutamiento basado en ubicación depende de la ubicación del extremo del usuario.</span><span class="sxs-lookup"><span data-stu-id="1c175-104">The routing of incoming calls to users enabled for Location-Based Routing depends on the location of the user’s endpoint.</span></span> <span data-ttu-id="1c175-105">El enrutamiento de las llamadas entrantes se ve afectado de la siguiente manera.</span><span class="sxs-lookup"><span data-stu-id="1c175-105">The routing of incoming calls is affected in the following way.</span></span> <span data-ttu-id="1c175-106">Si un usuario tiene una llamada entrante a un punto de conexión que se encuentra en un sitio de red habilitado para enrutamiento basado en ubicación y el extremo se encuentra en el mismo sitio de red que la puerta de enlace RTC, la llamada se redirigirá.</span><span class="sxs-lookup"><span data-stu-id="1c175-106">If a user has an incoming call to an endpoint located in a Location-Based Routing enabled network site, and the endpoint is located in the same network site as the PSTN gateway, the call will be routed.</span></span> <span data-ttu-id="1c175-107">Si un usuario tiene una llamada entrante a un punto de conexión que se encuentra en un sitio de red habilitado para enrutamiento basado en ubicación y el extremo se encuentra en un sitio de red diferente de la puerta de enlace RTC, la llamada no se enrutará.</span><span class="sxs-lookup"><span data-stu-id="1c175-107">If a user has an incoming call to an endpoint located in a Location-Based Routing enabled network site, and the endpoint is located in a different network site than the PSTN gateway, the call will not be routed.</span></span> <span data-ttu-id="1c175-108">Cuando un usuario no tiene extremos ubicados en el mismo sitio de red que la puerta de enlace RTC desde la que se origina la llamada entrante, la llamada entrante se redirigirá directamente al correo de voz del usuario y se enviará una notificación de llamada perdida a la persona que ha recibido la llamada.</span><span class="sxs-lookup"><span data-stu-id="1c175-108">When a user has no endpoints located in the same network site as the PSTN gateway where the incoming call is originating from, the incoming call will be routed directly to the user’s voicemail and a missed call notification will be sent to the called party.</span></span>
 
-<span data-ttu-id="06606-109">La configuración del desvío de llamadas de un usuario que está habilitado para el enrutamiento basado en ubicación seguirá aplicándose, pero las llamadas reenviadas estarán sujetas a las restricciones de enrutamiento del usuario en función de la ubicación.</span><span class="sxs-lookup"><span data-stu-id="06606-109">The call forwarding settings of a user that is enabled for Location-Based Routing will continue to be enforced, however, calls forwarded will be subject to Location-Based Routing restrictions of the user.</span></span>
+<span data-ttu-id="1c175-109">La configuración del desvío de llamadas de un usuario que está habilitado para el enrutamiento basado en ubicación seguirá aplicándose, pero las llamadas reenviadas estarán sujetas a las restricciones de enrutamiento del usuario en función de la ubicación.</span><span class="sxs-lookup"><span data-stu-id="1c175-109">The call forwarding settings of a user that is enabled for Location-Based Routing will continue to be enforced, however, calls forwarded will be subject to Location-Based Routing restrictions of the user.</span></span>
 
-<span data-ttu-id="06606-110">En la tabla siguiente se muestra cómo el enrutamiento basado en ubicación afecta al enrutamiento de las llamadas entrantes en función de la ubicación del extremo del destinatario de la llamada.</span><span class="sxs-lookup"><span data-stu-id="06606-110">The following table illustrates how Location-Based Routing affects the routing of inbound calls depending on the location of the callee’s endpoint.</span></span> <span data-ttu-id="06606-111">El sitio de red de la puerta de enlace RTC está habilitado para el enrutamiento basado en ubicación y el enrutamiento basado en ubicación solo permite el enrutamiento de llamadas RTC a extremos dentro del mismo sitio de red.</span><span class="sxs-lookup"><span data-stu-id="06606-111">The network site of the PSTN gateway is enabled for Location-Based Routing, and Location-Based Routing only permits routing of PSTN calls to endpoints within the same network site.</span></span>
+<span data-ttu-id="1c175-110">En la tabla siguiente se muestra cómo el enrutamiento basado en ubicación afecta al enrutamiento de las llamadas entrantes en función de la ubicación del extremo del destinatario de la llamada.</span><span class="sxs-lookup"><span data-stu-id="1c175-110">The following table illustrates how Location-Based Routing affects the routing of inbound calls depending on the location of the callee’s endpoint.</span></span> <span data-ttu-id="1c175-111">El sitio de red de la puerta de enlace RTC está habilitado para el enrutamiento basado en ubicación y el enrutamiento basado en ubicación solo permite el enrutamiento de llamadas RTC a extremos dentro del mismo sitio de red.</span><span class="sxs-lookup"><span data-stu-id="1c175-111">The network site of the PSTN gateway is enabled for Location-Based Routing, and Location-Based Routing only permits routing of PSTN calls to endpoints within the same network site.</span></span>
 
-### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a><span data-ttu-id="06606-112">Destinatario de la llamada que recibe una llamada entrante de la RTC</span><span class="sxs-lookup"><span data-stu-id="06606-112">Callee receiving an inbound call from the PSTN</span></span>
+### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a><span data-ttu-id="1c175-112">Destinatario de la llamada que recibe una llamada entrante de la RTC</span><span class="sxs-lookup"><span data-stu-id="1c175-112">Callee receiving an inbound call from the PSTN</span></span>
 
 <table>
 <colgroup>
@@ -55,17 +55,17 @@ ms.locfileid: "42036840"
 <thead>
 <tr class="header">
 <th></th>
-<th><span data-ttu-id="06606-113">Extremo del destinatario de la llamada que se encuentra en el mismo sitio de red que la puerta de enlace RTC</span><span class="sxs-lookup"><span data-stu-id="06606-113">Callee’s endpoint located in the same network site as PSTN gateway</span></span></th>
-<th><span data-ttu-id="06606-114">Extremo del destinatario de la llamada no ubicado en el mismo sitio de red que la puerta de enlace RTC</span><span class="sxs-lookup"><span data-stu-id="06606-114">Callee’s endpoint not located in the same network site as PSTN gateway</span></span></th>
-<th><span data-ttu-id="06606-115">Extremo del destinatario de la llamada ubicado en un sitio de red desconocido o no habilitado para el enrutamiento basado en ubicación</span><span class="sxs-lookup"><span data-stu-id="06606-115">Callee’s endpoint located in unknown network site or not enabled for Location-Based Routing</span></span></th>
+<th><span data-ttu-id="1c175-113">Extremo del destinatario de la llamada que se encuentra en el mismo sitio de red que la puerta de enlace RTC</span><span class="sxs-lookup"><span data-stu-id="1c175-113">Callee’s endpoint located in the same network site as PSTN gateway</span></span></th>
+<th><span data-ttu-id="1c175-114">Extremo del destinatario de la llamada no ubicado en el mismo sitio de red que la puerta de enlace RTC</span><span class="sxs-lookup"><span data-stu-id="1c175-114">Callee’s endpoint not located in the same network site as PSTN gateway</span></span></th>
+<th><span data-ttu-id="1c175-115">Extremo del destinatario de la llamada ubicado en un sitio de red desconocido o no habilitado para el enrutamiento basado en ubicación</span><span class="sxs-lookup"><span data-stu-id="1c175-115">Callee’s endpoint located in unknown network site or not enabled for Location-Based Routing</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="06606-116">Enrutamiento de llamadas RTC entrantes</span><span class="sxs-lookup"><span data-stu-id="06606-116">Routing of inbound PSTN call</span></span></p></td>
-<td><p><span data-ttu-id="06606-117">La llamada entrante se redirige a los extremos del destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="06606-117">Incoming call is routed to callee’s endpoints</span></span></p></td>
-<td><p><span data-ttu-id="06606-118">La llamada entrante no se enruta a los extremos del destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="06606-118">Incoming call is not routed to callee’s endpoints</span></span></p></td>
-<td><p><span data-ttu-id="06606-119">La llamada entrante no se enruta a los extremos del destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="06606-119">Incoming call is not routed to callee’s endpoints</span></span></p></td>
+<td><p><span data-ttu-id="1c175-116">Enrutamiento de llamadas RTC entrantes</span><span class="sxs-lookup"><span data-stu-id="1c175-116">Routing of inbound PSTN call</span></span></p></td>
+<td><p><span data-ttu-id="1c175-117">La llamada entrante se redirige a los extremos del destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="1c175-117">Incoming call is routed to callee’s endpoints</span></span></p></td>
+<td><p><span data-ttu-id="1c175-118">La llamada entrante no se enruta a los extremos del destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="1c175-118">Incoming call is not routed to callee’s endpoints</span></span></p></td>
+<td><p><span data-ttu-id="1c175-119">La llamada entrante no se enruta a los extremos del destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="1c175-119">Incoming call is not routed to callee’s endpoints</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -74,10 +74,10 @@ ms.locfileid: "42036840"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="06606-120">Vea también</span><span class="sxs-lookup"><span data-stu-id="06606-120">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1c175-120">Vea también</span><span class="sxs-lookup"><span data-stu-id="1c175-120">See Also</span></span>
 
 
-[<span data-ttu-id="06606-121">Escenarios para el enrutamiento basado en ubicación en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06606-121">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
+[<span data-ttu-id="1c175-121">Escenarios para el enrutamiento basado en ubicación en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1c175-121">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185189
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4508c9c499b0219f754bf9815063f4b1210b811
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 16a7a78c67b94084c59ebad63baa12c3a7aa3df2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029621"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147553"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-web-app-in-lync-server-2013"></a><span data-ttu-id="b54d7-102">Implementación de Lync Web App en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b54d7-102">Deploying Lync Web App in Lync Server 2013</span></span>
+# <a name="deploying-lync-web-app-in-lync-server-2013"></a><span data-ttu-id="bdc3a-102">Implementación de Lync Web App en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bdc3a-102">Deploying Lync Web App in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42029621"
 
 <span> </span>
 
-<span data-ttu-id="b54d7-103">_**Última modificación del tema:** 2013-07-18_</span><span class="sxs-lookup"><span data-stu-id="b54d7-103">_**Topic Last Modified:** 2013-07-18_</span></span>
+<span data-ttu-id="bdc3a-103">_**Última modificación del tema:** 2013-07-18_</span><span class="sxs-lookup"><span data-stu-id="bdc3a-103">_**Topic Last Modified:** 2013-07-18_</span></span>
 
-<span data-ttu-id="b54d7-104">Lync Web App es un cliente web de Internet Information Services (IIS) que se instala con Lync Server 2013 y está habilitado de forma predeterminada.</span><span class="sxs-lookup"><span data-stu-id="b54d7-104">Lync Web App is an Internet Information Services (IIS) web client that installs with Lync Server 2013 and is enabled by default.</span></span> <span data-ttu-id="b54d7-105">No es necesario realizar ningún paso adicional para habilitar Lync Web App en el servidor o para implementar el cliente web en los usuarios.</span><span class="sxs-lookup"><span data-stu-id="b54d7-105">No additional steps are necessary to either enable Lync Web App on the server or deploy the web client to users.</span></span> <span data-ttu-id="b54d7-106">Cada vez que un usuario hace clic en una dirección URL de una reunión pero no tiene instalado el cliente de Lync 2013, se le presenta la opción de unirse a la reunión con la versión más reciente de Lync Web App.</span><span class="sxs-lookup"><span data-stu-id="b54d7-106">Whenever a user clicks a meeting URL but does not have the Lync 2013 client installed, the user is presented with the option to join the meeting by using the latest version of Lync Web App.</span></span>
+<span data-ttu-id="bdc3a-104">Lync Web App es un cliente web de Internet Information Services (IIS) que se instala con Lync Server 2013 y está habilitado de forma predeterminada.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-104">Lync Web App is an Internet Information Services (IIS) web client that installs with Lync Server 2013 and is enabled by default.</span></span> <span data-ttu-id="bdc3a-105">No es necesario realizar ningún paso adicional para habilitar Lync Web App en el servidor o para implementar el cliente web en los usuarios.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-105">No additional steps are necessary to either enable Lync Web App on the server or deploy the web client to users.</span></span> <span data-ttu-id="bdc3a-106">Cada vez que un usuario hace clic en una dirección URL de una reunión pero no tiene instalado el cliente de Lync 2013, se le presenta la opción de unirse a la reunión con la versión más reciente de Lync Web App.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-106">Whenever a user clicks a meeting URL but does not have the Lync 2013 client installed, the user is presented with the option to join the meeting by using the latest version of Lync Web App.</span></span>
 
-<span data-ttu-id="b54d7-107">Las características de voz, vídeo y uso compartido de Lync Web App requieren un control ActiveX de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="b54d7-107">The voice, video, and sharing features in Lync Web App require a Microsoft ActiveX control.</span></span> <span data-ttu-id="b54d7-108">Puede instalar el control ActiveX con antelación o permitir a los usuarios que lo instalen cuando se le solicite, lo que ocurre la primera vez que usan Lync Web App o la primera vez que tienen acceso a una característica que requiere el control ActiveX.</span><span class="sxs-lookup"><span data-stu-id="b54d7-108">You can either install the ActiveX control in advance or allow users to install it when prompted, which happens the first time they use Lync Web App or the first time they access a feature that requires the ActiveX control.</span></span>
+<span data-ttu-id="bdc3a-107">Las características de voz, vídeo y uso compartido de Lync Web App requieren un control ActiveX de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-107">The voice, video, and sharing features in Lync Web App require a Microsoft ActiveX control.</span></span> <span data-ttu-id="bdc3a-108">Puede instalar el control ActiveX con antelación o permitir a los usuarios que lo instalen cuando se le solicite, lo que ocurre la primera vez que usan Lync Web App o la primera vez que tienen acceso a una característica que requiere el control ActiveX.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-108">You can either install the ActiveX control in advance or allow users to install it when prompted, which happens the first time they use Lync Web App or the first time they access a feature that requires the ActiveX control.</span></span>
 
 <div class=" ">
 
 
 > [!NOTE]  
-> <span data-ttu-id="b54d7-109">En las implementaciones del servidor perimetral 2013 de Lync Server, se requiere un proxy inverso HTTPS en la red perimetral para el acceso de cliente de Lync Web App.</span><span class="sxs-lookup"><span data-stu-id="b54d7-109">In Lync Server 2013 Edge Server deployments, an HTTPS reverse proxy in the perimeter network is required for Lync Web App client access.</span></span> <span data-ttu-id="b54d7-110">También debe publicar direcciones URL sencillas.</span><span class="sxs-lookup"><span data-stu-id="b54d7-110">You must also publish simple URLs.</span></span> <span data-ttu-id="b54d7-111">Para obtener más información, consulte <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">configuración de servidores proxy inversos para Lync server 2013</A> y <A href="lync-server-2013-planning-for-simple-urls.md">planeación de direcciones URL sencillas en Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="b54d7-111">For details, see <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Setting up reverse proxy servers for Lync Server 2013</A> and <A href="lync-server-2013-planning-for-simple-urls.md">Planning for simple URLs in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="bdc3a-109">En las implementaciones del servidor perimetral 2013 de Lync Server, se requiere un proxy inverso HTTPS en la red perimetral para el acceso de cliente de Lync Web App.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-109">In Lync Server 2013 Edge Server deployments, an HTTPS reverse proxy in the perimeter network is required for Lync Web App client access.</span></span> <span data-ttu-id="bdc3a-110">También debe publicar direcciones URL sencillas.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-110">You must also publish simple URLs.</span></span> <span data-ttu-id="bdc3a-111">Para obtener más información, consulte <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">configuración de servidores proxy inversos para Lync server 2013</A> y <A href="lync-server-2013-planning-for-simple-urls.md">planeación de direcciones URL sencillas en Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-111">For details, see <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Setting up reverse proxy servers for Lync Server 2013</A> and <A href="lync-server-2013-planning-for-simple-urls.md">Planning for simple URLs in Lync Server 2013</A>.</span></span>
 
 
 
@@ -53,44 +53,44 @@ ms.locfileid: "42029621"
 
 <div>
 
-## <a name="enabling-multi-factor-authentication-for-lync-web-app"></a><span data-ttu-id="b54d7-112">Habilitación de multi-factor Authentication para Lync Web App</span><span class="sxs-lookup"><span data-stu-id="b54d7-112">Enabling Multi-Factor Authentication for Lync Web App</span></span>
+## <a name="enabling-multi-factor-authentication-for-lync-web-app"></a><span data-ttu-id="bdc3a-112">Habilitación de multi-factor Authentication para Lync Web App</span><span class="sxs-lookup"><span data-stu-id="bdc3a-112">Enabling Multi-Factor Authentication for Lync Web App</span></span>
 
-<span data-ttu-id="b54d7-113">La versión de Lync Server 2013 de Lync Web App admite la autenticación de varios factores.</span><span class="sxs-lookup"><span data-stu-id="b54d7-113">The Lync Server 2013 version of Lync Web App supports multi-factor authentication.</span></span> <span data-ttu-id="b54d7-114">Además del nombre de usuario y la contraseña, puede requerir métodos de autenticación adicionales, como tarjetas inteligentes o PIN, para autenticar a los usuarios que se unen desde redes externas cuando inician sesión en reuniones de Lync.</span><span class="sxs-lookup"><span data-stu-id="b54d7-114">In addition to user name and password, you can require additional authentication methods, such as smart cards or PINs, to authenticate users who are joining from external networks when they sign in to Lync meetings.</span></span> <span data-ttu-id="b54d7-115">Puede habilitar la autenticación multifactor mediante la implementación del servidor de Federación del servicio de Federación de Active Directory (AD FS) y la habilitación de la autenticación pasiva en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b54d7-115">You can enable multi-factor authentication by deploying Active Directory Federation Service (AD FS) federation server and enabling passive authentication in Lync Server 2013.</span></span> <span data-ttu-id="b54d7-116">Una vez configurado AD FS, los usuarios externos que intenten unirse a reuniones de Lync reciben una página web de autenticación multifactor de AD FS con el nombre de usuario y la contraseña, junto con los métodos de autenticación adicionales que haya configurado. .</span><span class="sxs-lookup"><span data-stu-id="b54d7-116">After AD FS is configured, external users who attempt to join Lync meetings are presented with an AD FS multi-factor authentication webpage that contains the user name and password challenge along with any additional authentication methods that you have configured.</span></span>
+<span data-ttu-id="bdc3a-113">La versión de Lync Server 2013 de Lync Web App admite la autenticación de varios factores.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-113">The Lync Server 2013 version of Lync Web App supports multi-factor authentication.</span></span> <span data-ttu-id="bdc3a-114">Además del nombre de usuario y la contraseña, puede requerir métodos de autenticación adicionales, como tarjetas inteligentes o PIN, para autenticar a los usuarios que se unen desde redes externas cuando inician sesión en reuniones de Lync.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-114">In addition to user name and password, you can require additional authentication methods, such as smart cards or PINs, to authenticate users who are joining from external networks when they sign in to Lync meetings.</span></span> <span data-ttu-id="bdc3a-115">Puede habilitar la autenticación multifactor mediante la implementación del servidor de Federación del servicio de Federación de Active Directory (AD FS) y la habilitación de la autenticación pasiva en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-115">You can enable multi-factor authentication by deploying Active Directory Federation Service (AD FS) federation server and enabling passive authentication in Lync Server 2013.</span></span> <span data-ttu-id="bdc3a-116">Una vez configurado AD FS, los usuarios externos que intenten unirse a reuniones de Lync reciben una página web de autenticación multifactor de AD FS con el nombre de usuario y la contraseña, junto con los métodos de autenticación adicionales que haya configurado. .</span><span class="sxs-lookup"><span data-stu-id="bdc3a-116">After AD FS is configured, external users who attempt to join Lync meetings are presented with an AD FS multi-factor authentication webpage that contains the user name and password challenge along with any additional authentication methods that you have configured.</span></span>
 
 <div class=" ">
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="b54d7-117">A continuación, se indican algunas consideraciones importantes que debe tener en cuenta si tiene previsto configurar AD FS para la autenticación multifactor:</span><span class="sxs-lookup"><span data-stu-id="b54d7-117">The following are important considerations if you plan to configure AD FS for multi-factor authentication:</span></span> 
+> <span data-ttu-id="bdc3a-117">A continuación, se indican algunas consideraciones importantes que debe tener en cuenta si tiene previsto configurar AD FS para la autenticación multifactor:</span><span class="sxs-lookup"><span data-stu-id="bdc3a-117">The following are important considerations if you plan to configure AD FS for multi-factor authentication:</span></span> 
 > <UL>
 > <LI>
-> <P><span data-ttu-id="b54d7-118">La autenticación multifactor de ADFS funciona si el participante de la reunión y el organizador están en la misma organización o son de una organización federada de AD FS.</span><span class="sxs-lookup"><span data-stu-id="b54d7-118">Multi-factor ADFS authentication works if the meeting participant and organizer are both in the same organization or are both from an AD FS federated organization.</span></span> <span data-ttu-id="b54d7-119">La autenticación multifactor de ADFS no funciona para los usuarios federados de Lync porque la infraestructura Web de Lync Server no lo admite en este momento.</span><span class="sxs-lookup"><span data-stu-id="b54d7-119">Multi-factor ADFS authentication does not work for Lync federated users because the Lync server web infrastructure does not currently support it.</span></span></P>
+> <P><span data-ttu-id="bdc3a-118">La autenticación multifactor de ADFS funciona si el participante de la reunión y el organizador están en la misma organización o son de una organización federada de AD FS.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-118">Multi-factor ADFS authentication works if the meeting participant and organizer are both in the same organization or are both from an AD FS federated organization.</span></span> <span data-ttu-id="bdc3a-119">La autenticación multifactor de ADFS no funciona para los usuarios federados de Lync porque la infraestructura Web de Lync Server no lo admite en este momento.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-119">Multi-factor ADFS authentication does not work for Lync federated users because the Lync server web infrastructure does not currently support it.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="b54d7-120">Si usa equilibradores de carga de hardware, habilite la persistencia de las cookies en los equilibradores de carga para que todas las solicitudes del cliente de Lync Web App se controlen con el mismo servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="b54d7-120">If you use hardware load balancers, enable cookie persistence on the load balancers so that all requests from the Lync Web App client are handled by the same Front End Server.</span></span></P>
+> <P><span data-ttu-id="bdc3a-120">Si usa equilibradores de carga de hardware, habilite la persistencia de las cookies en los equilibradores de carga para que todas las solicitudes del cliente de Lync Web App se controlen con el mismo servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-120">If you use hardware load balancers, enable cookie persistence on the load balancers so that all requests from the Lync Web App client are handled by the same Front End Server.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="b54d7-121">Cuando establezca una relación de confianza para usuario autenticado entre los servidores de Lync Server y AD FS, asigne una duración de tokens lo suficientemente larga como para extender la longitud máxima de las reuniones de Lync.</span><span class="sxs-lookup"><span data-stu-id="b54d7-121">When you establish a relying party trust between Lync Server and AD FS servers, assign a token life that is long enough to span the maximum length of your Lync meetings.</span></span> <span data-ttu-id="b54d7-122">Normalmente, una duración de token de 240 minutos es suficiente.</span><span class="sxs-lookup"><span data-stu-id="b54d7-122">Typically, a token life of 240 minutes is sufficient.</span></span></P>
+> <P><span data-ttu-id="bdc3a-121">Cuando establezca una relación de confianza para usuario autenticado entre los servidores de Lync Server y AD FS, asigne una duración de tokens lo suficientemente larga como para extender la longitud máxima de las reuniones de Lync.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-121">When you establish a relying party trust between Lync Server and AD FS servers, assign a token life that is long enough to span the maximum length of your Lync meetings.</span></span> <span data-ttu-id="bdc3a-122">Normalmente, una duración de token de 240 minutos es suficiente.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-122">Typically, a token life of 240 minutes is sufficient.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="b54d7-123">Esta configuración no se aplica a los clientes móviles de Lync.</span><span class="sxs-lookup"><span data-stu-id="b54d7-123">This configuration does not apply to Lync mobile clients.</span></span></P></LI></UL>
+> <P><span data-ttu-id="bdc3a-123">Esta configuración no se aplica a los clientes móviles de Lync.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-123">This configuration does not apply to Lync mobile clients.</span></span></P></LI></UL>
 
 
 
 </div>
 
-<span data-ttu-id="b54d7-124">**Para configurar la autenticación multifactor**</span><span class="sxs-lookup"><span data-stu-id="b54d7-124">**To Configure Multi-Factor Authentication**</span></span>
+<span data-ttu-id="bdc3a-124">**Para configurar la autenticación multifactor**</span><span class="sxs-lookup"><span data-stu-id="bdc3a-124">**To Configure Multi-Factor Authentication**</span></span>
 
-1.  <span data-ttu-id="b54d7-125">Instale un rol de servidor de Federación de AD FS.</span><span class="sxs-lookup"><span data-stu-id="b54d7-125">Install an AD FS federation server role.</span></span> <span data-ttu-id="b54d7-126">Para obtener más información, consulte la guía de implementación de los servicios de Federación de Active Directory 2,0 en<http://go.microsoft.com/fwlink/p/?linkid=267511></span><span class="sxs-lookup"><span data-stu-id="b54d7-126">For details, see the Active Directory Federation Services 2.0 Deployment Guide at <http://go.microsoft.com/fwlink/p/?linkid=267511></span></span>
+1.  <span data-ttu-id="bdc3a-125">Instale un rol de servidor de Federación de AD FS.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-125">Install an AD FS federation server role.</span></span> <span data-ttu-id="bdc3a-126">Para obtener más información, consulte la guía de implementación de los servicios de Federación de Active Directory 2,0 en<https://go.microsoft.com/fwlink/p/?linkid=267511></span><span class="sxs-lookup"><span data-stu-id="bdc3a-126">For details, see the Active Directory Federation Services 2.0 Deployment Guide at <https://go.microsoft.com/fwlink/p/?linkid=267511></span></span>
 
-2.  <span data-ttu-id="b54d7-127">Crear certificados para AD FS.</span><span class="sxs-lookup"><span data-stu-id="b54d7-127">Create certificates for AD FS.</span></span> <span data-ttu-id="b54d7-128">Para obtener más información, consulte la sección "certificados de servidor de Federación" del tema Plan for and Deploy AD FS for use with Single Sign- [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)on.</span><span class="sxs-lookup"><span data-stu-id="b54d7-128">For more information, see the "Federation server certificates" section of the Plan for and deploy AD FS for use with single sign-on topic at [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376).</span></span>
+2.  <span data-ttu-id="bdc3a-127">Crear certificados para AD FS.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-127">Create certificates for AD FS.</span></span> <span data-ttu-id="bdc3a-128">Para obtener más información, consulte la sección "certificados de servidor de Federación" del tema Plan for and Deploy AD FS for use with Single Sign- [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376)on.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-128">For more information, see the "Federation server certificates" section of the Plan for and deploy AD FS for use with single sign-on topic at [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376).</span></span>
 
-3.  <span data-ttu-id="b54d7-129">Desde la interfaz de línea de comandos de Windows PowerShell, ejecute el siguiente comando:</span><span class="sxs-lookup"><span data-stu-id="b54d7-129">From the Windows PowerShell command-line interface, run the following command:</span></span>
+3.  <span data-ttu-id="bdc3a-129">Desde la interfaz de línea de comandos de Windows PowerShell, ejecute el siguiente comando:</span><span class="sxs-lookup"><span data-stu-id="bdc3a-129">From the Windows PowerShell command-line interface, run the following command:</span></span>
     ```powershell
     add-pssnapin Microsoft.Adfs.powershell
     ```
-4.  <span data-ttu-id="b54d7-130">Establezca una asociación mediante la ejecución del siguiente comando:</span><span class="sxs-lookup"><span data-stu-id="b54d7-130">Establish a partnership by running the following command:</span></span>
+4.  <span data-ttu-id="bdc3a-130">Establezca una asociación mediante la ejecución del siguiente comando:</span><span class="sxs-lookup"><span data-stu-id="bdc3a-130">Establish a partnership by running the following command:</span></span>
     ```powershell
     Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
      ```
-5.  <span data-ttu-id="b54d7-131">Establezca las siguientes reglas de usuario de confianza:</span><span class="sxs-lookup"><span data-stu-id="b54d7-131">Set the following relying party rules:</span></span>
+5.  <span data-ttu-id="bdc3a-131">Establezca las siguientes reglas de usuario de confianza:</span><span class="sxs-lookup"><span data-stu-id="bdc3a-131">Set the following relying party rules:</span></span>
     
        ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'
@@ -109,70 +109,70 @@ ms.locfileid: "42029621"
 
 <div>
 
-## <a name="branchcache-configuration"></a><span data-ttu-id="b54d7-132">Configuración de BranchCache</span><span class="sxs-lookup"><span data-stu-id="b54d7-132">BranchCache Configuration</span></span>
+## <a name="branchcache-configuration"></a><span data-ttu-id="bdc3a-132">Configuración de BranchCache</span><span class="sxs-lookup"><span data-stu-id="bdc3a-132">BranchCache Configuration</span></span>
 
-<span data-ttu-id="b54d7-133">La característica BranchCache en Windows 7 y Windows Server 2008 R2 puede interferir con los componentes Web de Lync Web App.</span><span class="sxs-lookup"><span data-stu-id="b54d7-133">The BranchCache feature in Windows 7 and Windows Server 2008 R2 can interfere with Lync Web App web components.</span></span> <span data-ttu-id="b54d7-134">Para evitar problemas con los usuarios de Lync Web App, asegúrese de que BranchCache no esté habilitado.</span><span class="sxs-lookup"><span data-stu-id="b54d7-134">To prevent issues for Lync Web App users, make sure that BranchCache is not enabled.</span></span>
+<span data-ttu-id="bdc3a-133">La característica BranchCache en Windows 7 y Windows Server 2008 R2 puede interferir con los componentes Web de Lync Web App.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-133">The BranchCache feature in Windows 7 and Windows Server 2008 R2 can interfere with Lync Web App web components.</span></span> <span data-ttu-id="bdc3a-134">Para evitar problemas con los usuarios de Lync Web App, asegúrese de que BranchCache no esté habilitado.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-134">To prevent issues for Lync Web App users, make sure that BranchCache is not enabled.</span></span>
 
-<span data-ttu-id="b54d7-135">Para obtener más información acerca de cómo deshabilitar BranchCache, consulte la guía de implementación de BranchCache, que está disponible en formato de [http://go.microsoft.com/fwlink/p/?LinkId=268788](http://go.microsoft.com/fwlink/p/?linkid=268788) Word en el centro de descarga de Microsoft, en formato HTML en [http://go.microsoft.com/fwlink/p/?LinkId=268789](http://go.microsoft.com/fwlink/p/?linkid=268789)la biblioteca técnica de Windows Server 2008 R2, en.</span><span class="sxs-lookup"><span data-stu-id="b54d7-135">For details about disabling BranchCache, see the BranchCache Deployment Guide, which is available in Word format at the Microsoft Download Center at [http://go.microsoft.com/fwlink/p/?LinkId=268788](http://go.microsoft.com/fwlink/p/?linkid=268788) and in HTML format in the Windows Server 2008 R2 Technical Library at [http://go.microsoft.com/fwlink/p/?LinkId=268789](http://go.microsoft.com/fwlink/p/?linkid=268789).</span></span>
-
-</div>
-
-<div>
-
-## <a name="verifying-lync-web-app-deployment"></a><span data-ttu-id="b54d7-136">Comprobación de la implementación de Lync Web App</span><span class="sxs-lookup"><span data-stu-id="b54d7-136">Verifying Lync Web App Deployment</span></span>
-
-<span data-ttu-id="b54d7-137">Puede usar el cmdlet test-CsUcwaConference para comprobar que un par de usuarios de prueba pueden participar en una conferencia mediante la API Web de comunicaciones unificadas (UCWA).</span><span class="sxs-lookup"><span data-stu-id="b54d7-137">You can use the Test-CsUcwaConference cmdlet to verify that a pair of test users can participate in a conference using the Unified Communications Web API (UCWA).</span></span> <span data-ttu-id="b54d7-138">Para obtener más información sobre este cmdlet, vea [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference) en la documentación del shell de administración de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b54d7-138">For details about this cmdlet, see [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference) in the Lync Server Management Shell documentation.</span></span>
+<span data-ttu-id="bdc3a-135">Para obtener más información acerca de cómo deshabilitar BranchCache, consulte la guía de implementación de BranchCache, que está disponible en formato de [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) Word en el centro de descarga de Microsoft, en formato HTML en [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789)la biblioteca técnica de Windows Server 2008 R2, en.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-135">For details about disabling BranchCache, see the BranchCache Deployment Guide, which is available in Word format at the Microsoft Download Center at [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) and in HTML format in the Windows Server 2008 R2 Technical Library at [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789).</span></span>
 
 </div>
 
 <div>
 
-## <a name="troubleshooting-plug-in-installation-on-windows-server2008r2"></a><span data-ttu-id="b54d7-139">Solución de problemas de instalación de complementos en Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="b54d7-139">Troubleshooting Plug-in Installation on Windows Server 2008 R2</span></span>
+## <a name="verifying-lync-web-app-deployment"></a><span data-ttu-id="bdc3a-136">Comprobación de la implementación de Lync Web App</span><span class="sxs-lookup"><span data-stu-id="bdc3a-136">Verifying Lync Web App Deployment</span></span>
 
-<span data-ttu-id="b54d7-140">Si se produce un error en la instalación del complemento en un equipo que ejecuta Windows Server 2008 R2, es posible que deba modificar la configuración de seguridad de Internet Explorer o la configuración de la clave del registro DisableMSI.</span><span class="sxs-lookup"><span data-stu-id="b54d7-140">If installation of the plug-in fails on a computer running Windows Server 2008 R2, you may need to modify the Internet Explorer security setting or the DisableMSI registry key setting.</span></span>
+<span data-ttu-id="bdc3a-137">Puede usar el cmdlet test-CsUcwaConference para comprobar que un par de usuarios de prueba pueden participar en una conferencia mediante la API Web de comunicaciones unificadas (UCWA).</span><span class="sxs-lookup"><span data-stu-id="bdc3a-137">You can use the Test-CsUcwaConference cmdlet to verify that a pair of test users can participate in a conference using the Unified Communications Web API (UCWA).</span></span> <span data-ttu-id="bdc3a-138">Para obtener más información sobre este cmdlet, vea [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference) en la documentación del shell de administración de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-138">For details about this cmdlet, see [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference) in the Lync Server Management Shell documentation.</span></span>
 
-<span data-ttu-id="b54d7-141">**Para modificar la configuración de seguridad en Internet Explorer**</span><span class="sxs-lookup"><span data-stu-id="b54d7-141">**To modify the security setting in Internet Explorer**</span></span>
+</div>
 
-1.  <span data-ttu-id="b54d7-142">Abra Internet Explorer.</span><span class="sxs-lookup"><span data-stu-id="b54d7-142">Open Internet Explorer.</span></span>
+<div>
 
-2.  <span data-ttu-id="b54d7-143">Haga clic en **herramientas**, en **Opciones de Internet**y, a continuación, en **avanzadas**.</span><span class="sxs-lookup"><span data-stu-id="b54d7-143">Click **Tools**, click **Internet Options**, and then click **Advanced**.</span></span>
+## <a name="troubleshooting-plug-in-installation-on-windows-server2008r2"></a><span data-ttu-id="bdc3a-139">Solución de problemas de instalación de complementos en Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="bdc3a-139">Troubleshooting Plug-in Installation on Windows Server 2008 R2</span></span>
 
-3.  <span data-ttu-id="b54d7-144">Desplácese hacia abajo hasta la sección **seguridad** .</span><span class="sxs-lookup"><span data-stu-id="b54d7-144">Scroll down to the **Security** section.</span></span>
+<span data-ttu-id="bdc3a-140">Si se produce un error en la instalación del complemento en un equipo que ejecuta Windows Server 2008 R2, es posible que deba modificar la configuración de seguridad de Internet Explorer o la configuración de la clave del registro DisableMSI.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-140">If installation of the plug-in fails on a computer running Windows Server 2008 R2, you may need to modify the Internet Explorer security setting or the DisableMSI registry key setting.</span></span>
 
-4.  <span data-ttu-id="b54d7-145">Desactive no **guardar las páginas cifradas en el disco**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="b54d7-145">Clear **Do not save encrypted pages to disk**, and then click **OK**.</span></span>
+<span data-ttu-id="bdc3a-141">**Para modificar la configuración de seguridad en Internet Explorer**</span><span class="sxs-lookup"><span data-stu-id="bdc3a-141">**To modify the security setting in Internet Explorer**</span></span>
+
+1.  <span data-ttu-id="bdc3a-142">Abra Internet Explorer.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-142">Open Internet Explorer.</span></span>
+
+2.  <span data-ttu-id="bdc3a-143">Haga clic en **herramientas**, en **Opciones de Internet**y, a continuación, en **avanzadas**.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-143">Click **Tools**, click **Internet Options**, and then click **Advanced**.</span></span>
+
+3.  <span data-ttu-id="bdc3a-144">Desplácese hacia abajo hasta la sección **seguridad** .</span><span class="sxs-lookup"><span data-stu-id="bdc3a-144">Scroll down to the **Security** section.</span></span>
+
+4.  <span data-ttu-id="bdc3a-145">Desactive no **guardar las páginas cifradas en el disco**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-145">Clear **Do not save encrypted pages to disk**, and then click **OK**.</span></span>
     
     <div class=" ">
     
 
     > [!NOTE]  
-    > <span data-ttu-id="b54d7-146">Si esta opción está activada, también se producirá un error al intentar descargar datos adjuntos de Lync Web App.</span><span class="sxs-lookup"><span data-stu-id="b54d7-146">If selected, this setting will also cause an error when trying to download an attachment from Lync Web App.</span></span>
+    > <span data-ttu-id="bdc3a-146">Si esta opción está activada, también se producirá un error al intentar descargar datos adjuntos de Lync Web App.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-146">If selected, this setting will also cause an error when trying to download an attachment from Lync Web App.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="b54d7-147">Vuelva a unirse a la reunión.</span><span class="sxs-lookup"><span data-stu-id="b54d7-147">Rejoin the meeting.</span></span> <span data-ttu-id="b54d7-148">El complemento debe descargarse sin errores.</span><span class="sxs-lookup"><span data-stu-id="b54d7-148">The plug-in should download without errors.</span></span>
+5.  <span data-ttu-id="bdc3a-147">Vuelva a unirse a la reunión.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-147">Rejoin the meeting.</span></span> <span data-ttu-id="bdc3a-148">El complemento debe descargarse sin errores.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-148">The plug-in should download without errors.</span></span>
 
-<span data-ttu-id="b54d7-149">**Para modificar la configuración del registro DisableMSI**</span><span class="sxs-lookup"><span data-stu-id="b54d7-149">**To modify the DisableMSI Registry setting**</span></span>
+<span data-ttu-id="bdc3a-149">**Para modificar la configuración del registro DisableMSI**</span><span class="sxs-lookup"><span data-stu-id="bdc3a-149">**To modify the DisableMSI Registry setting**</span></span>
 
-1.  <span data-ttu-id="b54d7-150">Haga clic en **Inicio** y, a continuación, haga clic en **Ejecutar**.</span><span class="sxs-lookup"><span data-stu-id="b54d7-150">Click **Start**, and then click **Run**.</span></span>
+1.  <span data-ttu-id="bdc3a-150">Haga clic en **Inicio** y, a continuación, haga clic en **Ejecutar**.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-150">Click **Start**, and then click **Run**.</span></span>
 
-2.  <span data-ttu-id="b54d7-151">Para obtener acceso al editor del registro, escriba **regedit**.</span><span class="sxs-lookup"><span data-stu-id="b54d7-151">To access the Registry Editor, type **regedit**.</span></span>
+2.  <span data-ttu-id="bdc3a-151">Para obtener acceso al editor del registro, escriba **regedit**.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-151">To access the Registry Editor, type **regedit**.</span></span>
 
-3.  <span data-ttu-id="b54d7-152">Vaya a HKEY\_local\_Machine\\software\\\\Policies\\Microsoft\\Windows Installer.</span><span class="sxs-lookup"><span data-stu-id="b54d7-152">Navigate to HKEY\_LOCAL\_MACHINE\\Software\\Policies\\Microsoft\\Windows\\Installer.</span></span>
+3.  <span data-ttu-id="bdc3a-152">Vaya a HKEY\_local\_Machine\\software\\\\Policies\\Microsoft\\Windows Installer.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-152">Navigate to HKEY\_LOCAL\_MACHINE\\Software\\Policies\\Microsoft\\Windows\\Installer.</span></span>
 
-4.  <span data-ttu-id="b54d7-153">Edite o agregue la clave del registro DisableMSI de\_tipo REG DWORD y establézcalo en 0.</span><span class="sxs-lookup"><span data-stu-id="b54d7-153">Edit or add the DisableMSI registry key of type REG\_DWORD and set it to 0.</span></span>
+4.  <span data-ttu-id="bdc3a-153">Edite o agregue la clave del registro DisableMSI de\_tipo REG DWORD y establézcalo en 0.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-153">Edit or add the DisableMSI registry key of type REG\_DWORD and set it to 0.</span></span>
 
-5.  <span data-ttu-id="b54d7-154">Vuelva a unirse a la reunión.</span><span class="sxs-lookup"><span data-stu-id="b54d7-154">Rejoin the meeting.</span></span>
+5.  <span data-ttu-id="bdc3a-154">Vuelva a unirse a la reunión.</span><span class="sxs-lookup"><span data-stu-id="bdc3a-154">Rejoin the meeting.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="b54d7-155">Vea también</span><span class="sxs-lookup"><span data-stu-id="b54d7-155">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bdc3a-155">Vea también</span><span class="sxs-lookup"><span data-stu-id="bdc3a-155">See Also</span></span>
 
 
-[<span data-ttu-id="b54d7-156">Configuración de la página de participación en la reunión en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b54d7-156">Configuring the meeting join page in Lync Server 2013</span></span>](lync-server-2013-configuring-the-meeting-join-page.md)  
-[<span data-ttu-id="b54d7-157">Plataformas compatibles con Lync Web App para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b54d7-157">Lync Web App supported platforms for Lync Server 2013</span></span>](lync-server-2013-lync-web-app-supported-platforms.md)  
+[<span data-ttu-id="bdc3a-156">Configuración de la página de participación en la reunión en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bdc3a-156">Configuring the meeting join page in Lync Server 2013</span></span>](lync-server-2013-configuring-the-meeting-join-page.md)  
+[<span data-ttu-id="bdc3a-157">Plataformas compatibles con Lync Web App para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bdc3a-157">Lync Web App supported platforms for Lync Server 2013</span></span>](lync-server-2013-lync-web-app-supported-platforms.md)  
   
 
 </div>

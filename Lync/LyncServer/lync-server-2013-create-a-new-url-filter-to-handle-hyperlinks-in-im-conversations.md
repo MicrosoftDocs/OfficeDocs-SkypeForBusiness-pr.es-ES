@@ -12,20 +12,20 @@ ms:contentKeyID: 48185426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88aa97d270448208170e463370774e6279ea9bf9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 250533f8de89eb1cd5aaa72d8f66cfd0800a1bc2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034892"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150709"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-new-url-filter-in-lync-server-2013-to-handle-hyperlinks-in-im-conversations"></a><span data-ttu-id="8829d-102">Crear un nuevo filtro de dirección URL en Lync Server 2013 para administrar hipervínculos en conversaciones de mensajería instantánea</span><span class="sxs-lookup"><span data-stu-id="8829d-102">Create a new URL filter in Lync Server 2013 to handle hyperlinks in IM conversations</span></span>
+# <a name="create-a-new-url-filter-in-lync-server-2013-to-handle-hyperlinks-in-im-conversations"></a><span data-ttu-id="21c63-102">Crear un nuevo filtro de dirección URL en Lync Server 2013 para administrar hipervínculos en conversaciones de mensajería instantánea</span><span class="sxs-lookup"><span data-stu-id="21c63-102">Create a new URL filter in Lync Server 2013 to handle hyperlinks in IM conversations</span></span>
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "42034892"
 
 <span> </span>
 
-<span data-ttu-id="8829d-103">_**Última modificación del tema:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="8829d-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="21c63-103">_**Última modificación del tema:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="21c63-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="8829d-104">Además de modificar el filtro de dirección URL global, puede configurar filtros de URL personalizados para sitios individuales dentro de la implementación de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8829d-104">In addition to modifying the global URL filter, you can configure custom URL filters for individual sites within your Lync Server 2013 deployment.</span></span> <span data-ttu-id="8829d-105">Para obtener más información sobre el filtrado de URL, consulte [configuración de transferencia de archivos y filtrado de URL para la mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span><span class="sxs-lookup"><span data-stu-id="8829d-105">For details about URL filtering, see [Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span></span>
+<span data-ttu-id="21c63-104">Además de modificar el filtro de dirección URL global, puede configurar filtros de URL personalizados para sitios individuales dentro de la implementación de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21c63-104">In addition to modifying the global URL filter, you can configure custom URL filters for individual sites within your Lync Server 2013 deployment.</span></span> <span data-ttu-id="21c63-105">Para obtener más información sobre el filtrado de URL, consulte [configuración de transferencia de archivos y filtrado de URL para la mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span><span class="sxs-lookup"><span data-stu-id="21c63-105">For details about URL filtering, see [Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span></span>
 
 <div>
 
-## <a name="to-create-a-new-url-filter"></a><span data-ttu-id="8829d-106">Para crear un filtro nuevo para direcciones URL</span><span class="sxs-lookup"><span data-stu-id="8829d-106">To create a new URL filter</span></span>
+## <a name="to-create-a-new-url-filter"></a><span data-ttu-id="21c63-106">Para crear un filtro nuevo para direcciones URL</span><span class="sxs-lookup"><span data-stu-id="21c63-106">To create a new URL filter</span></span>
 
-1.  <span data-ttu-id="8829d-107">Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.</span><span class="sxs-lookup"><span data-stu-id="8829d-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="21c63-107">Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.</span><span class="sxs-lookup"><span data-stu-id="21c63-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="8829d-108">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="8829d-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="8829d-109">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="8829d-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="21c63-108">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="21c63-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="21c63-109">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="21c63-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="8829d-110">En la barra de navegación izquierda, haga clic en **Mensajería instantánea y presencia** y, a continuación, en **Filtro para direcciones URL**.</span><span class="sxs-lookup"><span data-stu-id="8829d-110">In the left navigation bar, click **IM and Presence**, and then click **URL Filter**.</span></span>
+3.  <span data-ttu-id="21c63-110">En la barra de navegación izquierda, haga clic en **Mensajería instantánea y presencia** y, a continuación, en **Filtro para direcciones URL**.</span><span class="sxs-lookup"><span data-stu-id="21c63-110">In the left navigation bar, click **IM and Presence**, and then click **URL Filter**.</span></span>
 
-4.  <span data-ttu-id="8829d-111">En la página **Filtro para direcciones URL**, haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="8829d-111">On the **URL Filter** page, click **New**.</span></span>
+4.  <span data-ttu-id="21c63-111">En la página **Filtro para direcciones URL**, haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="21c63-111">On the **URL Filter** page, click **New**.</span></span>
 
-5.  <span data-ttu-id="8829d-112">En el cuadro de diálogo **Seleccionar un sitio**, haga clic en el sitio para el que desea crear un filtro para direcciones URL y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="8829d-112">In **Select a Site**, click the site for which you want to create the URL filter, and then click **OK**.</span></span>
+5.  <span data-ttu-id="21c63-112">En el cuadro de diálogo **Seleccionar un sitio**, haga clic en el sitio para el que desea crear un filtro para direcciones URL y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="21c63-112">In **Select a Site**, click the site for which you want to create the URL filter, and then click **OK**.</span></span>
 
-6.  <span data-ttu-id="8829d-113">En el cuadro **Filtro para direcciones URL nuevo**, active la casilla **Habilitar filtro para direcciones URL** para habilitar el filtrado para direcciones URL del sitio.</span><span class="sxs-lookup"><span data-stu-id="8829d-113">In the **New URL Filter** dialog box, select the **Enable URL Filter** check box to enable URL filtering for the site.</span></span>
+6.  <span data-ttu-id="21c63-113">En el cuadro **Filtro para direcciones URL nuevo**, active la casilla **Habilitar filtro para direcciones URL** para habilitar el filtrado para direcciones URL del sitio.</span><span class="sxs-lookup"><span data-stu-id="21c63-113">In the **New URL Filter** dialog box, select the **Enable URL Filter** check box to enable URL filtering for the site.</span></span>
 
-7.  <span data-ttu-id="8829d-114">Para bloquear cualquier URL activa que contenga un archivo con una extensión que aparezca en **Extensiones de tipo de archivo a bloquear**, en **Editar filtro de archivo**, active la casilla **Bloquear direcciones URL con extensión de archivo**.</span><span class="sxs-lookup"><span data-stu-id="8829d-114">To block any active URL that contains a file with an extension listed under **File type extensions to block** in **Edit File Filter**, select the **Block URLs with file extension** check box.</span></span>
+7.  <span data-ttu-id="21c63-114">Para bloquear cualquier URL activa que contenga un archivo con una extensión que aparezca en **Extensiones de tipo de archivo a bloquear**, en **Editar filtro de archivo**, active la casilla **Bloquear direcciones URL con extensión de archivo**.</span><span class="sxs-lookup"><span data-stu-id="21c63-114">To block any active URL that contains a file with an extension listed under **File type extensions to block** in **Edit File Filter**, select the **Block URLs with file extension** check box.</span></span>
 
-8.  <span data-ttu-id="8829d-115">En la lista desplegable **Prefijo de hipervínculo**, haga clic en la opción que corresponde a cómo desea administrar direcciones URL en conversaciones de mensajería instantánea.</span><span class="sxs-lookup"><span data-stu-id="8829d-115">In the **Hyperlink prefix** drop-down list box, click the option that corresponds to how you want to handle URLs in instant message conversations.</span></span>
+8.  <span data-ttu-id="21c63-115">En la lista desplegable **Prefijo de hipervínculo**, haga clic en la opción que corresponde a cómo desea administrar direcciones URL en conversaciones de mensajería instantánea.</span><span class="sxs-lookup"><span data-stu-id="21c63-115">In the **Hyperlink prefix** drop-down list box, click the option that corresponds to how you want to handle URLs in instant message conversations.</span></span>
     
-    <span data-ttu-id="8829d-116">Con el cuadro **Permitir mensaje**, puede enviar un mensaje de advertencia al usuario cuando se envíen hipervínculos permitidos.</span><span class="sxs-lookup"><span data-stu-id="8829d-116">The **Allow message** box enables a warning message to be sent to the user when sending hyperlinks that are allowed to be sent.</span></span>
+    <span data-ttu-id="21c63-116">Con el cuadro **Permitir mensaje**, puede enviar un mensaje de advertencia al usuario cuando se envíen hipervínculos permitidos.</span><span class="sxs-lookup"><span data-stu-id="21c63-116">The **Allow message** box enables a warning message to be sent to the user when sending hyperlinks that are allowed to be sent.</span></span>
 
-9.  <span data-ttu-id="8829d-117">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="8829d-117">Click **Commit**.</span></span>
+9.  <span data-ttu-id="21c63-117">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="21c63-117">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="8829d-118">Vea también</span><span class="sxs-lookup"><span data-stu-id="8829d-118">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="21c63-118">Vea también</span><span class="sxs-lookup"><span data-stu-id="21c63-118">See Also</span></span>
 
 
-[<span data-ttu-id="8829d-119">Configuración de la transferencia de archivos y el filtrado de URL para la mensajería instantánea (mi) en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8829d-119">Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013</span></span>](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
-[<span data-ttu-id="8829d-120">Crear un filtro de transferencia de archivos nuevo en Lync Server 2013 para un sitio específico</span><span class="sxs-lookup"><span data-stu-id="8829d-120">Create a new file transfer filter in Lync Server 2013 for a specific site</span></span>](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
-[<span data-ttu-id="8829d-121">Modificar el filtro de transferencia de archivos predeterminado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8829d-121">Modify the default file transfer filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-file-transfer-filter.md)  
+[<span data-ttu-id="21c63-119">Configuración de la transferencia de archivos y el filtrado de URL para la mensajería instantánea (mi) en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21c63-119">Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013</span></span>](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
+[<span data-ttu-id="21c63-120">Crear un filtro de transferencia de archivos nuevo en Lync Server 2013 para un sitio específico</span><span class="sxs-lookup"><span data-stu-id="21c63-120">Create a new file transfer filter in Lync Server 2013 for a specific site</span></span>](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
+[<span data-ttu-id="21c63-121">Modificar el filtro de transferencia de archivos predeterminado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21c63-121">Modify the default file transfer filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-file-transfer-filter.md)  
 
 
-[<span data-ttu-id="8829d-122">Modificar el filtro de direcciones URL predeterminado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8829d-122">Modify the default URL filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-url-filter.md)  
+[<span data-ttu-id="21c63-122">Modificar el filtro de direcciones URL predeterminado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21c63-122">Modify the default URL filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-url-filter.md)  
   
 
 </div>

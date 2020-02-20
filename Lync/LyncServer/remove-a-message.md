@@ -12,20 +12,20 @@ ms:contentKeyID: 48184790
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 484d865ead73d52d867dded3a12b07e1f4a6d20f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b7513c2c2cbe44b4ea9cf8adf5a57c4c5ec7cdc1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035826"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148277"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-a-message"></a><span data-ttu-id="c9a64-102">Quitar un mensaje</span><span class="sxs-lookup"><span data-stu-id="c9a64-102">Remove a message</span></span>
+# <a name="remove-a-message"></a><span data-ttu-id="d2141-102">Quitar un mensaje</span><span class="sxs-lookup"><span data-stu-id="d2141-102">Remove a message</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42035826"
 
 <span> </span>
 
-<span data-ttu-id="c9a64-103">_**Última modificación del tema:** 2012-04-04_</span><span class="sxs-lookup"><span data-stu-id="c9a64-103">_**Topic Last Modified:** 2012-04-04_</span></span>
+<span data-ttu-id="d2141-103">_**Última modificación del tema:** 2012-04-04_</span><span class="sxs-lookup"><span data-stu-id="d2141-103">_**Topic Last Modified:** 2012-04-04_</span></span>
 
-<span data-ttu-id="c9a64-104">Para quitar un mensaje</span><span class="sxs-lookup"><span data-stu-id="c9a64-104">To remove a message</span></span>
+<span data-ttu-id="d2141-104">Para quitar un mensaje</span><span class="sxs-lookup"><span data-stu-id="d2141-104">To remove a message</span></span>
 
     Remove-CsPersistentChatMessage -Identity <string> [-UserUri <string>] [-StartDate <DateTime>] [-EndDate <DateTime>] [-Filter <string>] [-MatchClause <AndOr> {And | Or | Exact}] [-CaseSensitive <bool>] [-ReplaceMessage <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
 

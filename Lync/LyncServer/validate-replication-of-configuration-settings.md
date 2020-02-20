@@ -12,20 +12,20 @@ ms:contentKeyID: 48184663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65620e07227581f35e5760e8665e615c6976bde2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0c379ec1d617dcb6920f83f68f857839a8f5439b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048274"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147923"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validate-replication-of-configuration-settings"></a><span data-ttu-id="67898-102">Validar la replicación de las opciones de configuración</span><span class="sxs-lookup"><span data-stu-id="67898-102">Validate replication of configuration settings</span></span>
+# <a name="validate-replication-of-configuration-settings"></a><span data-ttu-id="30a65-102">Validar la replicación de las opciones de configuración</span><span class="sxs-lookup"><span data-stu-id="30a65-102">Validate replication of configuration settings</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42048274"
 
 <span> </span>
 
-<span data-ttu-id="67898-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="67898-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="30a65-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="30a65-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="67898-104">Para validar la replicación de la información de configuración en el servidor perimetral, ejecute el cmdlet **Get-CsManagementStoreReplicationStatus** de lync Server 2013 en el equipo interno en el que se encuentra el almacén de administración central o en cualquier equipo unido al dominio en el que se hayan instalado los componentes principales de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="67898-104">You can validate the replication of configuration information to the Edge Server by running the Lync Server 2013 **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located or any domain joined computer on which Lync Server 2013 Core Components is installed.</span></span>
+<span data-ttu-id="30a65-104">Para validar la replicación de la información de configuración en el servidor perimetral, ejecute el cmdlet **Get-CsManagementStoreReplicationStatus** de lync Server 2013 en el equipo interno en el que se encuentra el almacén de administración central o en cualquier equipo unido al dominio en el que se hayan instalado los componentes principales de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="30a65-104">You can validate the replication of configuration information to the Edge Server by running the Lync Server 2013 **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located or any domain joined computer on which Lync Server 2013 Core Components is installed.</span></span>
 
-<span data-ttu-id="67898-105">Los resultados iniciales pueden indicar el estado como "False" en lugar de "True" para la replicación.</span><span class="sxs-lookup"><span data-stu-id="67898-105">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="67898-106">En ese caso, ejecute el cmdlet **Invoke-CsManagementStoreReplication** y deje tiempo para que se complete la replicación antes de ejecutar el cmdlet **Get-CsManagementStoreReplicationStatus** de nuevo .</span><span class="sxs-lookup"><span data-stu-id="67898-106">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** cmdlet again.</span></span>
+<span data-ttu-id="30a65-105">Los resultados iniciales pueden indicar el estado como "False" en lugar de "True" para la replicación.</span><span class="sxs-lookup"><span data-stu-id="30a65-105">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="30a65-106">En ese caso, ejecute el cmdlet **Invoke-CsManagementStoreReplication** y deje tiempo para que se complete la replicación antes de ejecutar el cmdlet **Get-CsManagementStoreReplicationStatus** de nuevo .</span><span class="sxs-lookup"><span data-stu-id="30a65-106">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** cmdlet again.</span></span>
 
 </div>
 
