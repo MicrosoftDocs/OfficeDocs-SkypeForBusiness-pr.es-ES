@@ -12,18 +12,18 @@ ms:contentKeyID: 48183814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 487120d76e64229779e7f73725545eaad3da7e4a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f62bedc76c98742c5e2e3fc8b4feb8c309da50f2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029983"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154162"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-users-for-branch-site-resiliency-in-lync-server-2013"></a>Configuración de usuarios para la resistencia de sitios de sucursal en Lync Server 2013
 

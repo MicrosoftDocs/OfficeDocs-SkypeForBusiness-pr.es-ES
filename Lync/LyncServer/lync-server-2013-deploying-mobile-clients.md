@@ -12,18 +12,18 @@ ms:contentKeyID: 48185854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4cd27963546b45425d6ddd134ce716b475f3dd1b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 44d9e631b967a4b47fd17157f422ec471cb4624d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050612"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154032"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-mobile-clients-in-lync-server-2013"></a>Implementación de clientes móviles en Lync Server 2013
 
@@ -46,9 +46,9 @@ Las aplicaciones de Lync 2013 para clientes móviles proporcionan mensajería in
 > Lync Server 2013 también admite Lync 2010 para clientes móviles. Para obtener más información, consulte los artículos siguientes en la biblioteca de TechNet de 2010 de Lync Server: 
 > <UL>
 > <LI>
-> <P>"Planeación de clientes móviles" <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>en.</P>
+> <P>"Planeación de clientes móviles" <A href="https://go.microsoft.com/fwlink/p/?linkid=235955">https://go.microsoft.com/fwlink/p/?LinkID=235955</A>en.</P>
 > <LI>
-> <P>"Deploying Mobile clients" en <A href="http://go.microsoft.com/fwlink/p/?linkid=236068">http://go.microsoft.com/fwlink/p/?LinkID=236068</A>.</P></LI></UL>
+> <P>"Deploying Mobile clients" en <A href="https://go.microsoft.com/fwlink/p/?linkid=236068">https://go.microsoft.com/fwlink/p/?LinkID=236068</A>.</P></LI></UL>
 
 
 

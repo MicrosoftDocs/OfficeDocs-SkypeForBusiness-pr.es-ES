@@ -12,18 +12,18 @@ ms:contentKeyID: 49733753
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7d73970bd30aa72294369eac1d8206d19664230
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ec832d3795fc1b83c6a838b15c04be9f2e48d6d0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41996455"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154202"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-the-use-of-high-resolution-photos-in-microsoft-lync-server-2013"></a>Configuración del uso de fotos de alta resolución en Microsoft Lync Server 2013
 
@@ -69,7 +69,7 @@ El primer comando del ejemplo anterior utiliza el cmdlet Get-Content para leer e
 
 
 > [!NOTE]  
-> En este ejemplo, el nombre para mostrar de Active Directory de Ken Myer se usa como identidad de la cuenta. También puede hacer referencia a una cuenta de usuario usando otros identificadores como la dirección SMTP del usuario o su nombre principal de usuario. Consulte la documentación del cmdlet Set-UserPhoto en <A href="http://go.microsoft.com/fwlink/p/?linkid=268536">http://go.microsoft.com/fwlink/p/?LinkId=268536</A> para obtener más información
+> En este ejemplo, el nombre para mostrar de Active Directory de Ken Myer se usa como identidad de la cuenta. También puede hacer referencia a una cuenta de usuario usando otros identificadores como la dirección SMTP del usuario o su nombre principal de usuario. Consulte la documentación del cmdlet Set-UserPhoto en <A href="https://go.microsoft.com/fwlink/p/?linkid=268536">https://go.microsoft.com/fwlink/p/?LinkId=268536</A> para obtener más información
 
 
 

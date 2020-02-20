@@ -12,18 +12,18 @@ ms:contentKeyID: 48185443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ab4f4a7882c40095017d2678549edf618b78e29
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d3a949d1de2c3237e1cd432297a1ce1e1a7f3543
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045512"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153340"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="optional-welcome-users-to-dial-in-conferencing-in-lync-server-2013"></a>Opcional Le damos la bienvenida a los usuarios a conferencias de acceso telefónico local en Lync Server 2013
 

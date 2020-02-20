@@ -12,18 +12,18 @@ ms:contentKeyID: 48184927
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0568f13cb977fad78e8d0e704c158039165ea78a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 71188be470d6f2d561a068840c3cfee9e3e5ad9d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040919"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154262"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-the-lync-server-computers-that-will-be-monitored-in-lync-server-2013"></a>Configurar los equipos de Lync Server que se supervisarán en Lync Server 2013
 

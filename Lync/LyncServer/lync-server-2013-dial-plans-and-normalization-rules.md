@@ -12,18 +12,18 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4adcd2cd6bebfb0797427d15819399c9b2b9f86d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3e9f42d2467a77e35eb9f5a158967357534e86da
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036760"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153862"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Planes de marcado y reglas de normalización en Lync Server 2013
 
@@ -175,7 +175,7 @@ Los siguientes campos numéricos están entre los que deben tener en cuenta las 
 
 Las reglas de normalización utilizan expresiones regulares de .NET Framework para especificar patrones de coincidencia numérica que el servidor usa para traducir cadenas de marcado al formato E. 164 con el fin de realizar la búsqueda inversa de números. Puede crear reglas de normalización en el panel de control de Lync Server si escribe las expresiones manualmente o si escribe los dígitos iniciales y la longitud de las cadenas de marcado para coincidir y permite que el panel de control de Lync Server genere el correspondiente. expresión regular para usted. En cualquier caso, cuando termine, puede escribir un número de prueba para comprobar que la regla de normalización funciona según lo esperado.
 
-Para obtener información detallada sobre el uso de expresiones regulares de .NET Framework, vea "expresiones [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)regulares de .NET Framework" en.
+Para obtener información detallada sobre el uso de expresiones regulares de .NET Framework, vea "expresiones [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)regulares de .NET Framework" en.
 
 </div>
 

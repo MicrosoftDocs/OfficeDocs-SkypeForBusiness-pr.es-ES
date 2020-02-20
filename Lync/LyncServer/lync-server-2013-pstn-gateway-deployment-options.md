@@ -12,18 +12,18 @@ ms:contentKeyID: 48185445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e4d8f35ecf2b384ad51482547b22baad63fcf31
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d90fdcb368bf6ed9d610f214122900add5b15547
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042087"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139011"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="pstn-gateway-deployment-options-in-lync-server-2013"></a>Opciones de implementación de la puerta de enlace RTC en Lync Server 2013
 

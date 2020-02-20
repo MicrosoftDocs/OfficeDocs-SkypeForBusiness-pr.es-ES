@@ -12,18 +12,18 @@ ms:contentKeyID: 48706002
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bfa07380a5c6e73b8112cd0a421ed05c33bc1b9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: dcac14856d2d217645d87a2a1b15a49c31ecc799
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034792"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154882"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions-in-lync-server-2013"></a>Habilitar a un usuario para administrar categorías, salones de chat y derechos y permisos de usuario en Lync Server 2013
 

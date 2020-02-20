@@ -12,18 +12,18 @@ ms:contentKeyID: 48184451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0202b41c5da45513ccd4e08aa2ed054c3d20acbe
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 582de419e2c92ce5d158cb979147db5a94715322
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043732"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153972"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-sql-mirroring-for-back-end-server-high-availability-in-lync-server-2013"></a>Implementación de la creación de reflejos de SQL para la alta disponibilidad del servidor back-end en Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42043732"
 
 _**Última modificación del tema:** 2014-01-08_
 
-Para poder implementar la creación de reflejo de SQL, los servidores deben ejecutar un mínimo de SQL Server 2008 R2. Esta versión debe ejecutarse en todos los servidores implicados: principal, reflejo y testigo. Para obtener más información [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921), consulte.
+Para poder implementar la creación de reflejo de SQL, los servidores deben ejecutar un mínimo de SQL Server 2008 R2. Esta versión debe ejecutarse en todos los servidores implicados: principal, reflejo y testigo. Para obtener más información [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921), consulte.
 
 En general, la configuración de creación de reflejo de SQL entre los dos servidores back-end con un testigo requiere lo siguiente:
 
@@ -47,19 +47,19 @@ En general, la configuración de creación de reflejo de SQL entre los dos servi
 
   - El servidor principal y el reflejo deben tener la misma edición de SQL Server. El testigo puede tener una edición diferente.
 
-Para conocer los procedimientos recomendados de SQL en relación con las versiones de SQL compatibles con un rol de testigo, consulte "testigo de creación de reflejo de [http://go.microsoft.com/fwlink/p/?LinkId=247345](http://go.microsoft.com/fwlink/p/?linkid=247345)la base de datos" en MSDN Library, en.
+Para conocer los procedimientos recomendados de SQL en relación con las versiones de SQL compatibles con un rol de testigo, consulte "testigo de creación de reflejo de [https://go.microsoft.com/fwlink/p/?LinkId=247345](https://go.microsoft.com/fwlink/p/?linkid=247345)la base de datos" en MSDN Library, en.
 
 El generador de topologías se usa para implementar la creación de reflejos de SQL. Seleccione una opción en el generador de topologías para reflejar las bases de datos y el generador de topologías configura la creación de reflejos (incluida la configuración de un testigo, si lo desea) cuando publique la topología. Tenga en cuenta que puede configurar o quitar el testigo al mismo tiempo que configura o quita el reflejo. No hay ningún comando independiente para implementar o quitar un solo testigo.
 
-Para configurar la creación de reflejo de servidor, es necesario que primero configure los permisos de base de datos SQL correctamente. Para obtener más información, consulte "configurar cuentas de inicio de sesión para la creación de reflejo de la base de datos o [http://go.microsoft.com/fwlink/p/?LinkId=268454](http://go.microsoft.com/fwlink/p/?linkid=268454)grupos de disponibilidad AlwaysOn (SQL Server)" en.
+Para configurar la creación de reflejo de servidor, es necesario que primero configure los permisos de base de datos SQL correctamente. Para obtener más información, consulte "configurar cuentas de inicio de sesión para la creación de reflejo de la base de datos o [https://go.microsoft.com/fwlink/p/?LinkId=268454](https://go.microsoft.com/fwlink/p/?linkid=268454)grupos de disponibilidad AlwaysOn (SQL Server)" en.
 
 Con el reflejo de SQL, el modo de recuperación de bases de datos siempre está configurado como **Completa**. Esto significa que deberá controlar atentamente el tamaño del registro de transacciones y crear copias de seguridad de los registros de transacciones periódicamente para evitar que los servidores back-end se queden sin espacio en disco. La frecuencia con que se deben crear copias de seguridad de los registros de transacciones depende de la tasa de crecimiento del registro, que, a su vez, depende de las transacciones de la base de datos producidas por las actividades del usuario en el grupo de servidores front-end. Le recomendamos que determine el crecimiento estimado del registro de transacciones que se necesitará para la carga de trabajo de su implementación de Lync, de modo que pueda realizar la planeación en consonancia. En los artículos siguientes encontrará información adicional sobre la administración del registro y la copia de seguridad de SQL:
 
-  - Modelos de recuperación de bases de datos: "modelos de recuperación (SQL Server)" en[http://go.microsoft.com/fwlink/p/?LinkId=268446](http://go.microsoft.com/fwlink/p/?linkid=268446)
+  - Modelos de recuperación de bases de datos: "modelos de recuperación (SQL Server)" en[https://go.microsoft.com/fwlink/p/?LinkId=268446](https://go.microsoft.com/fwlink/p/?linkid=268446)
 
-  - Información general sobre copia de seguridad: "información general de copia de seguridad (SQL Server)" en[http://go.microsoft.com/fwlink/p/?LinkId=268449](http://go.microsoft.com/fwlink/p/?linkid=268449)
+  - Información general sobre copia de seguridad: "información general de copia de seguridad (SQL Server)" en[https://go.microsoft.com/fwlink/p/?LinkId=268449](https://go.microsoft.com/fwlink/p/?linkid=268449)
 
-  - Registro de transacciones de copia de seguridad: "copia de seguridad de un registro de transacciones (SQL Server)" en[http://go.microsoft.com/fwlink/p/?LinkId=268452](http://go.microsoft.com/fwlink/p/?linkid=268452)
+  - Registro de transacciones de copia de seguridad: "copia de seguridad de un registro de transacciones (SQL Server)" en[https://go.microsoft.com/fwlink/p/?LinkId=268452](https://go.microsoft.com/fwlink/p/?linkid=268452)
 
 Con el reflejo de SQL, puede configurar la topología de creación de reflejos al crear los grupos o después de que ya se hayan creado los grupos.
 
@@ -151,9 +151,9 @@ Debe tener en cuenta lo siguiente al configurar la creación de reflejos de SQL:
 
   - Cualquier puerto que ya haya sido asignado a otras aplicaciones en el mismo servidor, incluidos aquellos para otras instancias de SQL, no deben utilizarse para las instancias de SQL instaladas a mano. Esto implica que si tiene más de una instancia de SQL instalada en el mismo servidor, no deben usar el mismo puerto para la creación de reflejos. Para obtener más información, consulte los artículos siguientes:
     
-      - "Especificar una dirección de red de servidor (creación de reflejo de la base de datos)" en MSDN Library, en[http://go.microsoft.com/fwlink/p/?LinkId=247346](http://go.microsoft.com/fwlink/p/?linkid=247346)
+      - "Especificar una dirección de red de servidor (creación de reflejo de la base de datos)" en MSDN Library, en[https://go.microsoft.com/fwlink/p/?LinkId=247346](https://go.microsoft.com/fwlink/p/?linkid=247346)
     
-      - "El punto de conexión de creación de reflejo de la base de datos (SQL Server)" en[http://go.microsoft.com/fwlink/p/?LinkId=247347](http://go.microsoft.com/fwlink/p/?linkid=247347)
+      - "El punto de conexión de creación de reflejo de la base de datos (SQL Server)" en[https://go.microsoft.com/fwlink/p/?LinkId=247347](https://go.microsoft.com/fwlink/p/?linkid=247347)
 
 </div>
 
@@ -321,7 +321,7 @@ Use este procedimiento si necesita quitar el testigo de una configuración de cr
     
     Sin embargo, no siga este paso y no escriba `Uninstall-CsMirrorDatabase` como eso que desinstalaría toda la configuración de creación de reflejos.
 
-4.  Para quitar solo el testigo de la configuración de SQL Server, siga las instrucciones que se indican en "quitar el testigo de una sesión de creación de reflejo de [http://go.microsoft.com/fwlink/p/?LinkId=268456](http://go.microsoft.com/fwlink/p/?linkid=268456)la base de datos (SQL Server)" en.
+4.  Para quitar solo el testigo de la configuración de SQL Server, siga las instrucciones que se indican en "quitar el testigo de una sesión de creación de reflejo de [https://go.microsoft.com/fwlink/p/?LinkId=268456](https://go.microsoft.com/fwlink/p/?linkid=268456)la base de datos (SQL Server)" en.
 
 </div>
 

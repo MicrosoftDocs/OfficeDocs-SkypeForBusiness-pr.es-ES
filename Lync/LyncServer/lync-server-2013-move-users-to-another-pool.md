@@ -12,18 +12,18 @@ ms:contentKeyID: 48185879
 ms.date: 02/09/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1feda518b1a15ce5b4622659b9e5df45044bcefa
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7d2702e744fbadc5d51ea42095d7bd3d60f6f010
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050362"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153632"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="move-users-to-another-pool-in-lync-server-2013"></a>Mover usuarios a otro grupo de servidores en Lync Server 2013
 

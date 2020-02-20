@@ -12,18 +12,18 @@ ms:contentKeyID: 56737623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c42b5541fb28646e4c01d9d070b67f6fe103234
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 739e440765feb07d70b7f5a8d1490a85a938701d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035002"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154072"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-your-lync-server-2013-environment-for-the-lync-room-system-administrative-web-portal"></a>Configuración del entorno de Lync Server 2013 para el portal web administrativo del sistema Lync Room
 
@@ -51,7 +51,7 @@ Para usar el portal web administrativo de Lync Room System (LRS), tendrá que in
 
 1.  Instale las actualizaciones acumulativas de Lync Server 2013:2013 de julio de en la topología de Lync Server.
     
-    Para obtener la actualización o ver lo que se incluye con ella, consulte [actualizaciones para Lync Server 2013](http://go.microsoft.com/fwlink/p/?linkid=323959).
+    Para obtener la actualización o ver lo que se incluye con ella, consulte [actualizaciones para Lync Server 2013](https://go.microsoft.com/fwlink/p/?linkid=323959).
 
 2.  Cree un usuario de Active Directory habilitado para SIP.
     
@@ -83,7 +83,7 @@ Para usar el portal web administrativo de Lync Room System (LRS), tendrá que in
     
      
 
-7.  Install ASP.NET MVC 4 for Visual Studio 2010 SP1 y Visual Web Developer 2010 SP1, disponible en el centro de descarga de [http://go.microsoft.com/fwlink/p/?LinkId=323967](http://go.microsoft.com/fwlink/p/?linkid=323967)Microsoft en.
+7.  Install ASP.NET MVC 4 for Visual Studio 2010 SP1 y Visual Web Developer 2010 SP1, disponible en el centro de descarga de [https://go.microsoft.com/fwlink/p/?LinkId=323967](https://go.microsoft.com/fwlink/p/?linkid=323967)Microsoft en.
 
 </div>
 

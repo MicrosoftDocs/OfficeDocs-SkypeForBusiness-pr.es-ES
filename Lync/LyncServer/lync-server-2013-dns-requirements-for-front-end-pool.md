@@ -12,18 +12,18 @@ ms:contentKeyID: 48183249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 078b8dc63e630487e13f1d187896bcf0617c0d15
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 882ffb0597b0dbd4f4be5b25a86facdda4367734
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051102"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154332"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>Requisitos de DNS para el grupo de servidores front-end en Lync Server 2013
 
@@ -45,7 +45,7 @@ Debe configurar los registros del sistema de nombres de dominio (DNS) necesarios
 
 
 > [!WARNING]  
-> Lync Server 2013 no admite dominios con una sola etiqueta. Por ejemplo, se admitiría un bosque con un dominio raíz denominado <STRONG>contoso.local</STRONG>, pero no un dominio raíz denominado <STRONG>local</STRONG>. Para obtener más información, consulte el artículo 300684 de Microsoft Knowledge base, "información sobre la configuración de Windows para dominios con nombres DNS de etiqueta única", at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> http://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 300684</A>.
+> Lync Server 2013 no admite dominios con una sola etiqueta. Por ejemplo, se admitiría un bosque con un dominio raíz denominado <STRONG>contoso.local</STRONG>, pero no un dominio raíz denominado <STRONG>local</STRONG>. Para obtener más información, consulte el artículo 300684 de Microsoft Knowledge base, "información sobre la configuración de Windows para dominios con nombres DNS de etiqueta única", at <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 300684</A>.
 
 
 

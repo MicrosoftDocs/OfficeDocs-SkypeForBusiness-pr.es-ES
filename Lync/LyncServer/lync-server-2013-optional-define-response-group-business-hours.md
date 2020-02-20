@@ -12,18 +12,18 @@ ms:contentKeyID: 48185504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 62fe312c08c639293dbd35623d10b58f3e51fe14
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ac232fa40e4fd9a276dd7e96e8565e0dcf0b3940
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051192"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153450"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a>Opcional Definir el horario comercial del grupo de respuesta en Lync Server 2013
 

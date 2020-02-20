@@ -12,18 +12,18 @@ ms:contentKeyID: 48706004
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40077d8092f8b0b78b6e9ce78cd16c6f1e0812f0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5bde33220c13b5a484f66131ce6090d57d3b9bae
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008242"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153612"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="moving-a-chat-room-from-one-category-to-another-in-lync-server-2013"></a>Mover un salón de chat de una categoría a otra en Lync Server 2013
 

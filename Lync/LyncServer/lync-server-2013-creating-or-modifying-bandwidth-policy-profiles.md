@@ -12,18 +12,18 @@ ms:contentKeyID: 48183336
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e884a564859396dab19ad8b18c6cf33a54a626e3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b40b4a397ffe3eeeaade138542e5634bf8f7afd7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048621"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154382"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="creating-or-modifying-bandwidth-policy-profiles-in-lync-server-2013"></a>Creación o modificación de perfiles de directiva de ancho de banda en Lync Server 2013
 
