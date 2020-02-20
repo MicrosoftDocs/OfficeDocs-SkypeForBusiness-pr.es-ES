@@ -12,20 +12,20 @@ ms:contentKeyID: 49733659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3957f3fc5a315c5b661ddeec4ea83b8e7f0eab0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 182bc427c7b4faf3bd937bd58af8ca1d4d9c7d77
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030423"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145829"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-the-edge-pool-used-for-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="21a05-102">Conmutación por error del grupo de servidores perimetrales usado para la Federación XMPP en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21a05-102">Failing over the Edge pool used for XMPP federation in Lync Server 2013</span></span>
+# <a name="failing-over-the-edge-pool-used-for-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="7cb48-102">Conmutación por error del grupo de servidores perimetrales usado para la Federación XMPP en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7cb48-102">Failing over the Edge pool used for XMPP federation in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "42030423"
 
 <span> </span>
 
-<span data-ttu-id="21a05-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="21a05-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="7cb48-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="7cb48-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="21a05-p101">En su organización, hay un grupo perimetral designada como el grupo para la federación XMPP. Si este grupo se desactiva, debe conmutar por error la federación XMPP para que use otro grupo perimetral antes de que la federación XMPP pueda volver a trabajar.</span><span class="sxs-lookup"><span data-stu-id="21a05-p101">In your organization, there is one Edge pool designated as the pool to use for XMPP federation. If this pool goes down, you must fail over XMPP federation to use a different Edge pool before XMPP federation can work again.</span></span>
+<span data-ttu-id="7cb48-p101">En su organización, hay un grupo perimetral designada como el grupo para la federación XMPP. Si este grupo se desactiva, debe conmutar por error la federación XMPP para que use otro grupo perimetral antes de que la federación XMPP pueda volver a trabajar.</span><span class="sxs-lookup"><span data-stu-id="7cb48-p101">In your organization, there is one Edge pool designated as the pool to use for XMPP federation. If this pool goes down, you must fail over XMPP federation to use a different Edge pool before XMPP federation can work again.</span></span>
 
-<span data-ttu-id="21a05-106">Al instalar primero los grupos perimetrales y habilitar la federación XMPP, puede simplificar el proceso de recuperación ante desastres estableciendo registros SRV de DNS externos para todos los grupos perimetrales para la federación XMPP, en lugar de solo uno.</span><span class="sxs-lookup"><span data-stu-id="21a05-106">When you first install Edge pools and enable XMPP Federation, you can simplify the disaster recovery process by setting up external DNS SRV records for all of your Edge pools for XMPP federation, instead of just one.</span></span> <span data-ttu-id="21a05-107">Cada uno de estos registros SRV debe tener establecida una prioridad diferente.</span><span class="sxs-lookup"><span data-stu-id="21a05-107">Each of these SRV records must have a different priority set.</span></span> <span data-ttu-id="21a05-108">Todo el tráfico de la federación XMPP atraviesa el grupo con el registro SRV con la prioridad más alta.</span><span class="sxs-lookup"><span data-stu-id="21a05-108">All XMPP federation traffic goes through the pool with the SRV record with the highest priority.</span></span> <span data-ttu-id="21a05-109">Para obtener más información sobre cómo habilitar y configurar la Federación XMPP, consulte Configuración de la [Federación XMPP en Lync Server 2013](lync-server-2013-setting-up-xmpp-federation.md).</span><span class="sxs-lookup"><span data-stu-id="21a05-109">For more information on enabling and setting up XMPP federation, see [Setting up XMPP federation in Lync Server 2013](lync-server-2013-setting-up-xmpp-federation.md).</span></span>
+<span data-ttu-id="7cb48-106">Al instalar primero los grupos perimetrales y habilitar la federación XMPP, puede simplificar el proceso de recuperación ante desastres estableciendo registros SRV de DNS externos para todos los grupos perimetrales para la federación XMPP, en lugar de solo uno.</span><span class="sxs-lookup"><span data-stu-id="7cb48-106">When you first install Edge pools and enable XMPP Federation, you can simplify the disaster recovery process by setting up external DNS SRV records for all of your Edge pools for XMPP federation, instead of just one.</span></span> <span data-ttu-id="7cb48-107">Cada uno de estos registros SRV debe tener establecida una prioridad diferente.</span><span class="sxs-lookup"><span data-stu-id="7cb48-107">Each of these SRV records must have a different priority set.</span></span> <span data-ttu-id="7cb48-108">Todo el tráfico de la federación XMPP atraviesa el grupo con el registro SRV con la prioridad más alta.</span><span class="sxs-lookup"><span data-stu-id="7cb48-108">All XMPP federation traffic goes through the pool with the SRV record with the highest priority.</span></span> <span data-ttu-id="7cb48-109">Para obtener más información sobre cómo habilitar y configurar la Federación XMPP, consulte Configuración de la [Federación XMPP en Lync Server 2013](lync-server-2013-setting-up-xmpp-federation.md).</span><span class="sxs-lookup"><span data-stu-id="7cb48-109">For more information on enabling and setting up XMPP federation, see [Setting up XMPP federation in Lync Server 2013](lync-server-2013-setting-up-xmpp-federation.md).</span></span>
 
-<span data-ttu-id="21a05-110">En el procedimiento siguiente, EdgePool1 es el grupo que originalmente alojó la federación XMPP y EdgePool2 es el grupo que alojará ahora la federación de XMPP.</span><span class="sxs-lookup"><span data-stu-id="21a05-110">In the following procedure, EdgePool1 is the pool which originally hosted XMPP federation, and EdgePool2 is the pool which will now host XMPP federation.</span></span>
+<span data-ttu-id="7cb48-110">En el procedimiento siguiente, EdgePool1 es el grupo que originalmente alojó la federación XMPP y EdgePool2 es el grupo que alojará ahora la federación de XMPP.</span><span class="sxs-lookup"><span data-stu-id="7cb48-110">In the following procedure, EdgePool1 is the pool which originally hosted XMPP federation, and EdgePool2 is the pool which will now host XMPP federation.</span></span>
 
 <div>
 
-## <a name="failing-over-the-edge-pool-used-for-xmpp-federation"></a><span data-ttu-id="21a05-111">Conmutación por error del grupo perimetral usado para la federación XMPP</span><span class="sxs-lookup"><span data-stu-id="21a05-111">Failing Over the Edge Pool Used for XMPP Federation</span></span>
+## <a name="failing-over-the-edge-pool-used-for-xmpp-federation"></a><span data-ttu-id="7cb48-111">Conmutación por error del grupo perimetral usado para la federación XMPP</span><span class="sxs-lookup"><span data-stu-id="7cb48-111">Failing Over the Edge Pool Used for XMPP Federation</span></span>
 
-1.  <span data-ttu-id="21a05-112">Si no tiene implementado otro grupo perimetral (además del que está desactivado), implemente dicha grupo.</span><span class="sxs-lookup"><span data-stu-id="21a05-112">If you don’t already have another Edge pool deployed (besides the one which is currently down), deploy that pool.</span></span> <span data-ttu-id="21a05-113">Para obtener más información, consulte [Deploying external User Access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md).</span><span class="sxs-lookup"><span data-stu-id="21a05-113">For details, see [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md).</span></span>
+1.  <span data-ttu-id="7cb48-112">Si no tiene implementado otro grupo perimetral (además del que está desactivado), implemente dicha grupo.</span><span class="sxs-lookup"><span data-stu-id="7cb48-112">If you don’t already have another Edge pool deployed (besides the one which is currently down), deploy that pool.</span></span> <span data-ttu-id="7cb48-113">Para obtener más información, consulte [Deploying external User Access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md).</span><span class="sxs-lookup"><span data-stu-id="7cb48-113">For details, see [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md).</span></span>
 
-2.  <span data-ttu-id="21a05-114">En cada servidor perimetral del nuevo grupo perimetral que alojará ahora la federación XMPP (EdgePool2), ejecute el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="21a05-114">On each Edge Server in the new Edge pool which will now host XMPP federation (EdgePool2), run the following cmdlet:</span></span>
+2.  <span data-ttu-id="7cb48-114">En cada servidor perimetral del nuevo grupo perimetral que alojará ahora la federación XMPP (EdgePool2), ejecute el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="7cb48-114">On each Edge Server in the new Edge pool which will now host XMPP federation (EdgePool2), run the following cmdlet:</span></span>
     
         Stop-CsWindowsService
 
-3.  <span data-ttu-id="21a05-115">Ejecute el siguiente cmdlet para cambiar la ruta de la federación XMPP a EdgePool2:</span><span class="sxs-lookup"><span data-stu-id="21a05-115">Run the following cmdlet to repoint the XMPP federation route to EdgePool2:</span></span>
+3.  <span data-ttu-id="7cb48-115">Ejecute el siguiente cmdlet para cambiar la ruta de la federación XMPP a EdgePool2:</span><span class="sxs-lookup"><span data-stu-id="7cb48-115">Run the following cmdlet to repoint the XMPP federation route to EdgePool2:</span></span>
     
         Set-CsSite Site2 -XmppExternalFederationRoute EdgeServer2.contoso.com
     
-    <span data-ttu-id="21a05-116">En este ejemplo, Site2 es el sitio que contiene el grupo perimetral que alojará ahora la federación XMPP y EdgeServer2.contoso.com es el FQDN de un servidor perimetral del grupo.</span><span class="sxs-lookup"><span data-stu-id="21a05-116">In this example, Site2 is the site containing the Edge pool which will now host the XMPP federation route, and EdgeServer2.contoso.com is the FQDN of an Edge Server in that pool.</span></span>
+    <span data-ttu-id="7cb48-116">En este ejemplo, Site2 es el sitio que contiene el grupo perimetral que alojará ahora la federación XMPP y EdgeServer2.contoso.com es el FQDN de un servidor perimetral del grupo.</span><span class="sxs-lookup"><span data-stu-id="7cb48-116">In this example, Site2 is the site containing the Edge pool which will now host the XMPP federation route, and EdgeServer2.contoso.com is the FQDN of an Edge Server in that pool.</span></span>
 
-4.  <span data-ttu-id="21a05-117">En el servidor DNS externo, cambie el registro de DNS A de la federación XMPP para que apunte a EdgeServer2.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="21a05-117">On the external DNS server, change the DNS A record for XMPP federation to point to EdgeServer2.contoso.com.</span></span>
+4.  <span data-ttu-id="7cb48-117">En el servidor DNS externo, cambie el registro de DNS A de la federación XMPP para que apunte a EdgeServer2.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="7cb48-117">On the external DNS server, change the DNS A record for XMPP federation to point to EdgeServer2.contoso.com.</span></span>
 
-5.  <span data-ttu-id="21a05-p104">Si aún no tiene un registro SRV de DNS para la federación XMPP que resuelva al grupo perimetral que alojará ahora la federación de XMPP, debe agregarlo, como en el ejemplo siguiente. Este registro SRV debe tener un valor de puerto de 5269.</span><span class="sxs-lookup"><span data-stu-id="21a05-p104">If you do not already have a DNS SRV record for XMPP federation which resolves to the Edge pool which will now host XMPP federation, you must add it, as in the following example. This SRV record must have a port value of 5269.</span></span>
+5.  <span data-ttu-id="7cb48-p104">Si aún no tiene un registro SRV de DNS para la federación XMPP que resuelva al grupo perimetral que alojará ahora la federación de XMPP, debe agregarlo, como en el ejemplo siguiente. Este registro SRV debe tener un valor de puerto de 5269.</span><span class="sxs-lookup"><span data-stu-id="7cb48-p104">If you do not already have a DNS SRV record for XMPP federation which resolves to the Edge pool which will now host XMPP federation, you must add it, as in the following example. This SRV record must have a port value of 5269.</span></span>
     
         _xmpp-server._tcp.contoso.com
 
-6.  <span data-ttu-id="21a05-120">Compruebe que el grupo perimetral que alojará ahora la federación XMPP tiene abierto el puerto 5269 externamente.</span><span class="sxs-lookup"><span data-stu-id="21a05-120">Verify that the Edge pool which will now host XMPP federation has port 5269 open externally.</span></span>
+6.  <span data-ttu-id="7cb48-120">Compruebe que el grupo perimetral que alojará ahora la federación XMPP tiene abierto el puerto 5269 externamente.</span><span class="sxs-lookup"><span data-stu-id="7cb48-120">Verify that the Edge pool which will now host XMPP federation has port 5269 open externally.</span></span>
 
-7.  <span data-ttu-id="21a05-121">Inicie los servicios en todos los servidores perimetrales del grupo perimetral que alojará ahora la federación XMPP:</span><span class="sxs-lookup"><span data-stu-id="21a05-121">Start the services on all Edge Servers in the Edge pool which will now host XMPP federation:</span></span>
+7.  <span data-ttu-id="7cb48-121">Inicie los servicios en todos los servidores perimetrales del grupo perimetral que alojará ahora la federación XMPP:</span><span class="sxs-lookup"><span data-stu-id="7cb48-121">Start the services on all Edge Servers in the Edge pool which will now host XMPP federation:</span></span>
     
         Start-CsWindowsService
 

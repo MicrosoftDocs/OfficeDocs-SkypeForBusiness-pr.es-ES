@@ -12,20 +12,20 @@ ms:contentKeyID: 48183224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 075c8289a55683b18b0a006319b426c94796f9cd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9ae021735f5fec25cfaba625bd61460e9f58abb4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040989"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145419"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="integrating-a-third-party-collaboration-application-with-lync-server-2013"></a><span data-ttu-id="beb71-102">Integración de una aplicación de colaboración de terceros con Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="beb71-102">Integrating a third-party collaboration application with Lync Server 2013</span></span>
+# <a name="integrating-a-third-party-collaboration-application-with-lync-server-2013"></a><span data-ttu-id="e652d-102">Integración de una aplicación de colaboración de terceros con Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e652d-102">Integrating a third-party collaboration application with Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "42040989"
 
 <span> </span>
 
-<span data-ttu-id="beb71-103">_**Última modificación del tema:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="beb71-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="e652d-103">_**Última modificación del tema:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="e652d-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="beb71-104">Puede integrar Lync 2013 con cualquier aplicación de colaboración en línea de terceros agregando información sobre la aplicación al registro.</span><span class="sxs-lookup"><span data-stu-id="beb71-104">You can integrate Lync 2013 with any third-party online collaboration application by adding information about the application to the registry.</span></span> <span data-ttu-id="beb71-105">Puede usar Lync 2013 para iniciar sesiones de conferencia de datos hospedadas en un servidor interno, un servicio basado en Internet o ambos.</span><span class="sxs-lookup"><span data-stu-id="beb71-105">You can use Lync 2013 to start data conferencing sessions hosted on an in-house server, an Internet-based service, or both.</span></span> <span data-ttu-id="beb71-106">Las sesiones de colaboración o de conferencia de datos se pueden iniciar desde la lista de contactos o desde una sesión de mensajería instantánea, voz o vídeo existente.</span><span class="sxs-lookup"><span data-stu-id="beb71-106">The collaboration or data conferencing session can be started from the Contacts list or from an existing instant messaging, voice, or video session.</span></span> <span data-ttu-id="beb71-107">Lync 2013 solo actúa como vehículo para iniciar la aplicación.</span><span class="sxs-lookup"><span data-stu-id="beb71-107">Lync 2013 acts only as the vehicle for starting the application.</span></span> <span data-ttu-id="beb71-108">Las conversaciones existentes de Lync 2013 permanecen activas una vez iniciada la sesión de colaboración en línea.</span><span class="sxs-lookup"><span data-stu-id="beb71-108">Any existing Lync 2013 conversations remain active after the online collaboration session has begun.</span></span>
+<span data-ttu-id="e652d-104">Puede integrar Lync 2013 con cualquier aplicación de colaboración en línea de terceros agregando información sobre la aplicación al registro.</span><span class="sxs-lookup"><span data-stu-id="e652d-104">You can integrate Lync 2013 with any third-party online collaboration application by adding information about the application to the registry.</span></span> <span data-ttu-id="e652d-105">Puede usar Lync 2013 para iniciar sesiones de conferencia de datos hospedadas en un servidor interno, un servicio basado en Internet o ambos.</span><span class="sxs-lookup"><span data-stu-id="e652d-105">You can use Lync 2013 to start data conferencing sessions hosted on an in-house server, an Internet-based service, or both.</span></span> <span data-ttu-id="e652d-106">Las sesiones de colaboración o de conferencia de datos se pueden iniciar desde la lista de contactos o desde una sesión de mensajería instantánea, voz o vídeo existente.</span><span class="sxs-lookup"><span data-stu-id="e652d-106">The collaboration or data conferencing session can be started from the Contacts list or from an existing instant messaging, voice, or video session.</span></span> <span data-ttu-id="e652d-107">Lync 2013 solo actúa como vehículo para iniciar la aplicación.</span><span class="sxs-lookup"><span data-stu-id="e652d-107">Lync 2013 acts only as the vehicle for starting the application.</span></span> <span data-ttu-id="e652d-108">Las conversaciones existentes de Lync 2013 permanecen activas una vez iniciada la sesión de colaboración en línea.</span><span class="sxs-lookup"><span data-stu-id="e652d-108">Any existing Lync 2013 conversations remain active after the online collaboration session has begun.</span></span>
 
-<span data-ttu-id="beb71-109">En las siguientes secciones se describe cómo integrar Lync 2013 con aplicaciones de colaboración basadas en Internet y en servidor.</span><span class="sxs-lookup"><span data-stu-id="beb71-109">The following sections describe how to integrate Lync 2013 with Internet-based and server-based collaboration applications.</span></span>
+<span data-ttu-id="e652d-109">En las siguientes secciones se describe cómo integrar Lync 2013 con aplicaciones de colaboración basadas en Internet y en servidor.</span><span class="sxs-lookup"><span data-stu-id="e652d-109">The following sections describe how to integrate Lync 2013 with Internet-based and server-based collaboration applications.</span></span>
 
 <div>
 
-## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a><span data-ttu-id="beb71-110">Integración de una aplicación de colaboración basada en Internet con Lync 2013</span><span class="sxs-lookup"><span data-stu-id="beb71-110">Integrating an Internet-Based Collaboration Application with Lync 2013</span></span>
+## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a><span data-ttu-id="e652d-110">Integración de una aplicación de colaboración basada en Internet con Lync 2013</span><span class="sxs-lookup"><span data-stu-id="e652d-110">Integrating an Internet-Based Collaboration Application with Lync 2013</span></span>
 
-<span data-ttu-id="beb71-111">En general, los pasos necesarios para integrar una aplicación de colaboración de otro fabricante son los siguientes:</span><span class="sxs-lookup"><span data-stu-id="beb71-111">Generally, the steps involved in integrating a third-party collaboration application are as follows:</span></span>
+<span data-ttu-id="e652d-111">En general, los pasos necesarios para integrar una aplicación de colaboración de otro fabricante son los siguientes:</span><span class="sxs-lookup"><span data-stu-id="e652d-111">Generally, the steps involved in integrating a third-party collaboration application are as follows:</span></span>
 
-1.  <span data-ttu-id="beb71-112">La información acerca de la aplicación se agrega al Registro.</span><span class="sxs-lookup"><span data-stu-id="beb71-112">Information about the application is added to the registry.</span></span>
+1.  <span data-ttu-id="e652d-112">La información acerca de la aplicación se agrega al Registro.</span><span class="sxs-lookup"><span data-stu-id="e652d-112">Information about the application is added to the registry.</span></span>
 
-2.  <span data-ttu-id="beb71-113">El organizador inicia sesión en Lync 2013 y selecciona contactos para uso compartido y colaboración de datos.</span><span class="sxs-lookup"><span data-stu-id="beb71-113">The organizer signs in to Lync 2013 and selects contacts for data sharing and collaboration.</span></span> <span data-ttu-id="beb71-114">Es posible también que el organizador ya esté participando en una conversación y decida agregar la conferencia de datos.</span><span class="sxs-lookup"><span data-stu-id="beb71-114">Or, the organizer may already be in a conversation and decide to add data conferencing.</span></span>
+2.  <span data-ttu-id="e652d-113">El organizador inicia sesión en Lync 2013 y selecciona contactos para uso compartido y colaboración de datos.</span><span class="sxs-lookup"><span data-stu-id="e652d-113">The organizer signs in to Lync 2013 and selects contacts for data sharing and collaboration.</span></span> <span data-ttu-id="e652d-114">Es posible también que el organizador ya esté participando en una conversación y decida agregar la conferencia de datos.</span><span class="sxs-lookup"><span data-stu-id="e652d-114">Or, the organizer may already be in a conversation and decide to add data conferencing.</span></span>
 
-3.  <span data-ttu-id="beb71-115">Lync 2013 lee el registro, inicia la aplicación de colaboración y, a continuación, envía un mensaje SIP personalizado (un appINVITE) a los participantes seleccionados.</span><span class="sxs-lookup"><span data-stu-id="beb71-115">Lync 2013 reads the registry, starts the collaboration application, and then sends a custom SIP message—an appINVITE—to the selected participants.</span></span>
+3.  <span data-ttu-id="e652d-115">Lync 2013 lee el registro, inicia la aplicación de colaboración y, a continuación, envía un mensaje SIP personalizado (un appINVITE) a los participantes seleccionados.</span><span class="sxs-lookup"><span data-stu-id="e652d-115">Lync 2013 reads the registry, starts the collaboration application, and then sends a custom SIP message—an appINVITE—to the selected participants.</span></span>
 
-4.  <span data-ttu-id="beb71-116">Los participantes aceptan la invitación y la aplicación de colaboración se inicia en el equipo de cada una de las personas.</span><span class="sxs-lookup"><span data-stu-id="beb71-116">Participants accept the invitation, and the collaboration application is started on each person’s computer.</span></span> <span data-ttu-id="beb71-117">Lync 2013 usa el registro para determinar la aplicación de colaboración que se va a usar y, a continuación, inicia esa aplicación con los parámetros incluidos en el mensaje appINVITE.</span><span class="sxs-lookup"><span data-stu-id="beb71-117">Lync 2013 uses the registry to determine which collaboration application to use, and then starts that application by using the parameters included in the appINVITE message.</span></span>
+4.  <span data-ttu-id="e652d-116">Los participantes aceptan la invitación y la aplicación de colaboración se inicia en el equipo de cada una de las personas.</span><span class="sxs-lookup"><span data-stu-id="e652d-116">Participants accept the invitation, and the collaboration application is started on each person’s computer.</span></span> <span data-ttu-id="e652d-117">Lync 2013 usa el registro para determinar la aplicación de colaboración que se va a usar y, a continuación, inicia esa aplicación con los parámetros incluidos en el mensaje appINVITE.</span><span class="sxs-lookup"><span data-stu-id="e652d-117">Lync 2013 uses the registry to determine which collaboration application to use, and then starts that application by using the parameters included in the appINVITE message.</span></span>
 
-<span data-ttu-id="beb71-118">En la tabla siguiente se describen las entradas del registro necesarias para integrar una aplicación de colaboración basada en Internet con Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="beb71-118">The following table describes the registry entries required to integrate an Internet-based collaboration application with Lync 2013.</span></span> <span data-ttu-id="beb71-119">Estas entradas se colocan en el registro en la siguiente ubicación:</span><span class="sxs-lookup"><span data-stu-id="beb71-119">These entries are placed in the registry in the following location:</span></span>
+<span data-ttu-id="e652d-118">En la tabla siguiente se describen las entradas del registro necesarias para integrar una aplicación de colaboración basada en Internet con Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="e652d-118">The following table describes the registry entries required to integrate an Internet-based collaboration application with Lync 2013.</span></span> <span data-ttu-id="e652d-119">Estas entradas se colocan en el registro en la siguiente ubicación:</span><span class="sxs-lookup"><span data-stu-id="e652d-119">These entries are placed in the registry in the following location:</span></span>
 
-  - <span data-ttu-id="beb71-120">HKEY\_local\_MACHINE\\software\\Microsoft\\Office\\15,0\\Lync\\SessionManager\\de\\aplicaciones de Lync</span><span class="sxs-lookup"><span data-stu-id="beb71-120">HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\Parameters</span></span>
+  - <span data-ttu-id="e652d-120">HKEY\_local\_MACHINE\\software\\Microsoft\\Office\\15,0\\Lync\\SessionManager\\de\\aplicaciones de Lync</span><span class="sxs-lookup"><span data-stu-id="e652d-120">HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\Parameters</span></span>
 
-### <a name="registry-entries-for-an-internet-based-collaboration-application"></a><span data-ttu-id="beb71-121">Entradas del Registro para una aplicación de colaboración basada en Internet</span><span class="sxs-lookup"><span data-stu-id="beb71-121">Registry Entries for an Internet-based Collaboration Application</span></span>
+### <a name="registry-entries-for-an-internet-based-collaboration-application"></a><span data-ttu-id="e652d-121">Entradas del Registro para una aplicación de colaboración basada en Internet</span><span class="sxs-lookup"><span data-stu-id="e652d-121">Registry Entries for an Internet-based Collaboration Application</span></span>
 
 <table>
 <colgroup>
@@ -69,59 +69,59 @@ ms.locfileid: "42040989"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="beb71-122">Nombre</span><span class="sxs-lookup"><span data-stu-id="beb71-122">Name</span></span></th>
-<th><span data-ttu-id="beb71-123">Tipo</span><span class="sxs-lookup"><span data-stu-id="beb71-123">Type</span></span></th>
-<th><span data-ttu-id="beb71-124">Datos</span><span class="sxs-lookup"><span data-stu-id="beb71-124">Data</span></span></th>
+<th><span data-ttu-id="e652d-122">Nombre</span><span class="sxs-lookup"><span data-stu-id="e652d-122">Name</span></span></th>
+<th><span data-ttu-id="e652d-123">Tipo</span><span class="sxs-lookup"><span data-stu-id="e652d-123">Type</span></span></th>
+<th><span data-ttu-id="e652d-124">Datos</span><span class="sxs-lookup"><span data-stu-id="e652d-124">Data</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="beb71-125">Nombre</span><span class="sxs-lookup"><span data-stu-id="beb71-125">Name</span></span></p></td>
-<td><p><span data-ttu-id="beb71-126">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="beb71-126">REG_SZ</span></span></p></td>
-<td><p><span data-ttu-id="beb71-127">El nombre de la aplicación para los menús de Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="beb71-127">The application name for Lync 2013 menus.</span></span></p></td>
+<td><p><span data-ttu-id="e652d-125">Nombre</span><span class="sxs-lookup"><span data-stu-id="e652d-125">Name</span></span></p></td>
+<td><p><span data-ttu-id="e652d-126">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="e652d-126">REG_SZ</span></span></p></td>
+<td><p><span data-ttu-id="e652d-127">El nombre de la aplicación para los menús de Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="e652d-127">The application name for Lync 2013 menus.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="beb71-128">SmallIcon</span><span class="sxs-lookup"><span data-stu-id="beb71-128">SmallIcon</span></span></p></td>
-<td><p><span data-ttu-id="beb71-129">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="beb71-129">REG_SZ</span></span></p></td>
-<td><p><span data-ttu-id="beb71-130">Ruta de acceso al icono de 16 x 16 píxeles, BMP o PNG.</span><span class="sxs-lookup"><span data-stu-id="beb71-130">Path to 16-pixel x 16-pixel icon, BMP or PNG.</span></span></p></td>
+<td><p><span data-ttu-id="e652d-128">SmallIcon</span><span class="sxs-lookup"><span data-stu-id="e652d-128">SmallIcon</span></span></p></td>
+<td><p><span data-ttu-id="e652d-129">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="e652d-129">REG_SZ</span></span></p></td>
+<td><p><span data-ttu-id="e652d-130">Ruta de acceso al icono de 16 x 16 píxeles, BMP o PNG.</span><span class="sxs-lookup"><span data-stu-id="e652d-130">Path to 16-pixel x 16-pixel icon, BMP or PNG.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="beb71-131">Path</span><span class="sxs-lookup"><span data-stu-id="beb71-131">Path</span></span></p></td>
-<td><p><span data-ttu-id="beb71-132">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="beb71-132">REG_SZ</span></span></p></td>
-<td><p><span data-ttu-id="beb71-133">Ruta de acceso de los participantes para iniciar la aplicación de colaboración en línea.</span><span class="sxs-lookup"><span data-stu-id="beb71-133">Participant path for starting the online collaboration application.</span></span></p></td>
+<td><p><span data-ttu-id="e652d-131">Path</span><span class="sxs-lookup"><span data-stu-id="e652d-131">Path</span></span></p></td>
+<td><p><span data-ttu-id="e652d-132">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="e652d-132">REG_SZ</span></span></p></td>
+<td><p><span data-ttu-id="e652d-133">Ruta de acceso de los participantes para iniciar la aplicación de colaboración en línea.</span><span class="sxs-lookup"><span data-stu-id="e652d-133">Participant path for starting the online collaboration application.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="beb71-134">OriginatorPath</span><span class="sxs-lookup"><span data-stu-id="beb71-134">OriginatorPath</span></span></p></td>
-<td><p><span data-ttu-id="beb71-135">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="beb71-135">REG_SZ</span></span></p></td>
-<td><p><span data-ttu-id="beb71-136">Ruta de acceso del organizador para iniciar la aplicación de colaboración en línea.</span><span class="sxs-lookup"><span data-stu-id="beb71-136">Organizer path for starting the online collaboration application.</span></span> <span data-ttu-id="beb71-137">Esta ruta puede contener uno o varios parámetros personalizados definidos en la subclave Parameters.</span><span class="sxs-lookup"><span data-stu-id="beb71-137">This path can contain one or more custom parameters as defined in the Parameters subkey.</span></span> <span data-ttu-id="beb71-138">Por ejemplo: <code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code></span><span class="sxs-lookup"><span data-stu-id="beb71-138">For example, <code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code></span></span></p></td>
+<td><p><span data-ttu-id="e652d-134">OriginatorPath</span><span class="sxs-lookup"><span data-stu-id="e652d-134">OriginatorPath</span></span></p></td>
+<td><p><span data-ttu-id="e652d-135">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="e652d-135">REG_SZ</span></span></p></td>
+<td><p><span data-ttu-id="e652d-136">Ruta de acceso del organizador para iniciar la aplicación de colaboración en línea.</span><span class="sxs-lookup"><span data-stu-id="e652d-136">Organizer path for starting the online collaboration application.</span></span> <span data-ttu-id="e652d-137">Esta ruta puede contener uno o varios parámetros personalizados definidos en la subclave Parameters.</span><span class="sxs-lookup"><span data-stu-id="e652d-137">This path can contain one or more custom parameters as defined in the Parameters subkey.</span></span> <span data-ttu-id="e652d-138">Por ejemplo: <code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code></span><span class="sxs-lookup"><span data-stu-id="e652d-138">For example, <code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="beb71-139">SessionType</span><span class="sxs-lookup"><span data-stu-id="beb71-139">SessionType</span></span></p></td>
-<td><p><span data-ttu-id="beb71-140">ÚLTIMAS</span><span class="sxs-lookup"><span data-stu-id="beb71-140">DWORD</span></span></p></td>
-<td><p><span data-ttu-id="beb71-p106">0 = Sesión local. La aplicación se inicia en el equipo local.</span><span class="sxs-lookup"><span data-stu-id="beb71-p106">0 = Local session. The application is started on the local computer.</span></span></p>
-<p><span data-ttu-id="beb71-143">1 = Sesión entre dos participantes (valor predeterminado).</span><span class="sxs-lookup"><span data-stu-id="beb71-143">1 = Two-party session (default).</span></span> <span data-ttu-id="beb71-144">Lync 2013 inicia la aplicación de forma local y, a continuación, envía una notificación del sistema al otro usuario.</span><span class="sxs-lookup"><span data-stu-id="beb71-144">Lync 2013 starts the application locally, and then sends a system notification to the other user.</span></span> <span data-ttu-id="beb71-145">El otro usuario hace clic en la notificación e inicia la aplicación especificada en su equipo.</span><span class="sxs-lookup"><span data-stu-id="beb71-145">The other user clicks the notification and starts the specified application on their computer.</span></span></p>
-<p><span data-ttu-id="beb71-146">2 = Sesión de varios participantes.</span><span class="sxs-lookup"><span data-stu-id="beb71-146">2 = Multiparty session.</span></span> <span data-ttu-id="beb71-147">Lync 2013 inicia la aplicación de forma local y, a continuación, envía notificaciones del sistema a los demás usuarios, solicitándole que inicien la aplicación especificada en su propio equipo.</span><span class="sxs-lookup"><span data-stu-id="beb71-147">Lync 2013 starts the application locally, and then sends system notifications to the other users, prompting them to start the specified application on their own computer.</span></span></p></td>
+<td><p><span data-ttu-id="e652d-139">SessionType</span><span class="sxs-lookup"><span data-stu-id="e652d-139">SessionType</span></span></p></td>
+<td><p><span data-ttu-id="e652d-140">ÚLTIMAS</span><span class="sxs-lookup"><span data-stu-id="e652d-140">DWORD</span></span></p></td>
+<td><p><span data-ttu-id="e652d-p106">0 = Sesión local. La aplicación se inicia en el equipo local.</span><span class="sxs-lookup"><span data-stu-id="e652d-p106">0 = Local session. The application is started on the local computer.</span></span></p>
+<p><span data-ttu-id="e652d-143">1 = Sesión entre dos participantes (valor predeterminado).</span><span class="sxs-lookup"><span data-stu-id="e652d-143">1 = Two-party session (default).</span></span> <span data-ttu-id="e652d-144">Lync 2013 inicia la aplicación de forma local y, a continuación, envía una notificación del sistema al otro usuario.</span><span class="sxs-lookup"><span data-stu-id="e652d-144">Lync 2013 starts the application locally, and then sends a system notification to the other user.</span></span> <span data-ttu-id="e652d-145">El otro usuario hace clic en la notificación e inicia la aplicación especificada en su equipo.</span><span class="sxs-lookup"><span data-stu-id="e652d-145">The other user clicks the notification and starts the specified application on their computer.</span></span></p>
+<p><span data-ttu-id="e652d-146">2 = Sesión de varios participantes.</span><span class="sxs-lookup"><span data-stu-id="e652d-146">2 = Multiparty session.</span></span> <span data-ttu-id="e652d-147">Lync 2013 inicia la aplicación de forma local y, a continuación, envía notificaciones del sistema a los demás usuarios, solicitándole que inicien la aplicación especificada en su propio equipo.</span><span class="sxs-lookup"><span data-stu-id="e652d-147">Lync 2013 starts the application locally, and then sends system notifications to the other users, prompting them to start the specified application on their own computer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="beb71-148">ExensibleMenu</span><span class="sxs-lookup"><span data-stu-id="beb71-148">ExensibleMenu</span></span></p></td>
-<td><p><span data-ttu-id="beb71-149">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="beb71-149">REG_SZ</span></span></p></td>
-<td><p><span data-ttu-id="beb71-p109">Lista de menús en los que aparecerá este comando, separados con caracteres de punto y coma. Los valores posibles son:</span><span class="sxs-lookup"><span data-stu-id="beb71-p109">A list of the menus where this command will appear, separated by semi-colons. Possible values are:</span></span></p>
+<td><p><span data-ttu-id="e652d-148">ExensibleMenu</span><span class="sxs-lookup"><span data-stu-id="e652d-148">ExensibleMenu</span></span></p></td>
+<td><p><span data-ttu-id="e652d-149">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="e652d-149">REG_SZ</span></span></p></td>
+<td><p><span data-ttu-id="e652d-p109">Lista de menús en los que aparecerá este comando, separados con caracteres de punto y coma. Los valores posibles son:</span><span class="sxs-lookup"><span data-stu-id="e652d-p109">A list of the menus where this command will appear, separated by semi-colons. Possible values are:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="beb71-152">MainWindowActions</span><span class="sxs-lookup"><span data-stu-id="beb71-152">MainWindowActions</span></span></p></li>
-<li><p><span data-ttu-id="beb71-153">MainWindowRightClick</span><span class="sxs-lookup"><span data-stu-id="beb71-153">MainWindowRightClick</span></span></p></li>
-<li><p><span data-ttu-id="beb71-154">ConversationWindowActions</span><span class="sxs-lookup"><span data-stu-id="beb71-154">ConversationWindowActions</span></span></p></li>
-<li><p><span data-ttu-id="beb71-155">ConversationWindowButton</span><span class="sxs-lookup"><span data-stu-id="beb71-155">ConversationWindowButton</span></span></p></li>
-<li><p><span data-ttu-id="beb71-156">ConversationWindowRightClick</span><span class="sxs-lookup"><span data-stu-id="beb71-156">ConversationWindowRightClick</span></span></p></li>
+<li><p><span data-ttu-id="e652d-152">MainWindowActions</span><span class="sxs-lookup"><span data-stu-id="e652d-152">MainWindowActions</span></span></p></li>
+<li><p><span data-ttu-id="e652d-153">MainWindowRightClick</span><span class="sxs-lookup"><span data-stu-id="e652d-153">MainWindowRightClick</span></span></p></li>
+<li><p><span data-ttu-id="e652d-154">ConversationWindowActions</span><span class="sxs-lookup"><span data-stu-id="e652d-154">ConversationWindowActions</span></span></p></li>
+<li><p><span data-ttu-id="e652d-155">ConversationWindowButton</span><span class="sxs-lookup"><span data-stu-id="e652d-155">ConversationWindowButton</span></span></p></li>
+<li><p><span data-ttu-id="e652d-156">ConversationWindowRightClick</span><span class="sxs-lookup"><span data-stu-id="e652d-156">ConversationWindowRightClick</span></span></p></li>
 </ul>
-<p><span data-ttu-id="beb71-157">Si no se define ExtensibleMenu, se utilizan los valores predeterminados de MainWindowRightClick y ConversationWindowActions.</span><span class="sxs-lookup"><span data-stu-id="beb71-157">If ExtensibleMenu is not defined, the default values of MainWindowRightClick and ConversationWindowActions are used.</span></span></p></td>
+<p><span data-ttu-id="e652d-157">Si no se define ExtensibleMenu, se utilizan los valores predeterminados de MainWindowRightClick y ConversationWindowActions.</span><span class="sxs-lookup"><span data-stu-id="e652d-157">If ExtensibleMenu is not defined, the default values of MainWindowRightClick and ConversationWindowActions are used.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="beb71-158">En la siguiente tabla se describen las entradas del Registro para los parámetros.</span><span class="sxs-lookup"><span data-stu-id="beb71-158">The following table describes the registry entries for parameters.</span></span> <span data-ttu-id="beb71-159">Estas entradas se colocan\_en\_el\\software\\de\\usuario\\actual\\de\\los\\parámetros\\de las aplicaciones de Lync SessionManager de Microsoft Office 15,0 Lync.</span><span class="sxs-lookup"><span data-stu-id="beb71-159">These entries are place at HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\Parameters.</span></span>
+<span data-ttu-id="e652d-158">En la siguiente tabla se describen las entradas del Registro para los parámetros.</span><span class="sxs-lookup"><span data-stu-id="e652d-158">The following table describes the registry entries for parameters.</span></span> <span data-ttu-id="e652d-159">Estas entradas se colocan\_en\_el\\software\\de\\usuario\\actual\\de\\los\\parámetros\\de las aplicaciones de Lync SessionManager de Microsoft Office 15,0 Lync.</span><span class="sxs-lookup"><span data-stu-id="e652d-159">These entries are place at HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\Parameters.</span></span>
 
-### <a name="registry-entries-for-an-internet-based-collaboration-application"></a><span data-ttu-id="beb71-160">Entradas del Registro para una aplicación de colaboración basada en Internet</span><span class="sxs-lookup"><span data-stu-id="beb71-160">Registry Entries for an Internet-based Collaboration Application</span></span>
+### <a name="registry-entries-for-an-internet-based-collaboration-application"></a><span data-ttu-id="e652d-160">Entradas del Registro para una aplicación de colaboración basada en Internet</span><span class="sxs-lookup"><span data-stu-id="e652d-160">Registry Entries for an Internet-based Collaboration Application</span></span>
 
 <table>
 <colgroup>
@@ -131,32 +131,32 @@ ms.locfileid: "42040989"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="beb71-161">Nombre</span><span class="sxs-lookup"><span data-stu-id="beb71-161">Name</span></span></th>
-<th><span data-ttu-id="beb71-162">Tipo</span><span class="sxs-lookup"><span data-stu-id="beb71-162">Type</span></span></th>
-<th><span data-ttu-id="beb71-163">Datos</span><span class="sxs-lookup"><span data-stu-id="beb71-163">Data</span></span></th>
+<th><span data-ttu-id="e652d-161">Nombre</span><span class="sxs-lookup"><span data-stu-id="e652d-161">Name</span></span></th>
+<th><span data-ttu-id="e652d-162">Tipo</span><span class="sxs-lookup"><span data-stu-id="e652d-162">Type</span></span></th>
+<th><span data-ttu-id="e652d-163">Datos</span><span class="sxs-lookup"><span data-stu-id="e652d-163">Data</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="beb71-164">Parámetro1</span><span class="sxs-lookup"><span data-stu-id="beb71-164">Param1</span></span></p></td>
-<td><p><span data-ttu-id="beb71-165">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="beb71-165">REG_SZ</span></span></p></td>
-<td><p><span data-ttu-id="beb71-166">Se usa en formato con tokens (<code>%Parm1%</code>) para agregar valores específicos del usuario a la clave del registro OriginatorPath.</span><span class="sxs-lookup"><span data-stu-id="beb71-166">Used in tokenized format (<code>%Parm1%</code>) to add user-specific values to the OriginatorPath registry key.</span></span></p></td>
+<td><p><span data-ttu-id="e652d-164">Parámetro1</span><span class="sxs-lookup"><span data-stu-id="e652d-164">Param1</span></span></p></td>
+<td><p><span data-ttu-id="e652d-165">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="e652d-165">REG_SZ</span></span></p></td>
+<td><p><span data-ttu-id="e652d-166">Se usa en formato con tokens (<code>%Parm1%</code>) para agregar valores específicos del usuario a la clave del registro OriginatorPath.</span><span class="sxs-lookup"><span data-stu-id="e652d-166">Used in tokenized format (<code>%Parm1%</code>) to add user-specific values to the OriginatorPath registry key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="beb71-167">Parámetro2</span><span class="sxs-lookup"><span data-stu-id="beb71-167">Param2</span></span></p></td>
-<td><p><span data-ttu-id="beb71-168">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="beb71-168">REG_SZ</span></span></p></td>
-<td><p><span data-ttu-id="beb71-169">Consulte Param1.</span><span class="sxs-lookup"><span data-stu-id="beb71-169">See Param1.</span></span></p></td>
+<td><p><span data-ttu-id="e652d-167">Parámetro2</span><span class="sxs-lookup"><span data-stu-id="e652d-167">Param2</span></span></p></td>
+<td><p><span data-ttu-id="e652d-168">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="e652d-168">REG_SZ</span></span></p></td>
+<td><p><span data-ttu-id="e652d-169">Consulte Param1.</span><span class="sxs-lookup"><span data-stu-id="e652d-169">See Param1.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="beb71-170">Param3</span><span class="sxs-lookup"><span data-stu-id="beb71-170">Param3</span></span></p></td>
-<td><p><span data-ttu-id="beb71-171">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="beb71-171">REG_SZ</span></span></p></td>
-<td><p><span data-ttu-id="beb71-172">Consulte Param1.</span><span class="sxs-lookup"><span data-stu-id="beb71-172">See Param1.</span></span></p></td>
+<td><p><span data-ttu-id="e652d-170">Param3</span><span class="sxs-lookup"><span data-stu-id="e652d-170">Param3</span></span></p></td>
+<td><p><span data-ttu-id="e652d-171">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="e652d-171">REG_SZ</span></span></p></td>
+<td><p><span data-ttu-id="e652d-172">Consulte Param1.</span><span class="sxs-lookup"><span data-stu-id="e652d-172">See Param1.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="beb71-173">La siguiente configuración del registro de ejemplo integra el cliente de colaboración Adatum con Lync 2013:</span><span class="sxs-lookup"><span data-stu-id="beb71-173">The following example registry settings integrate ADatum Collaboration Client with Lync 2013:</span></span>
+<span data-ttu-id="e652d-173">La siguiente configuración del registro de ejemplo integra el cliente de colaboración Adatum con Lync 2013:</span><span class="sxs-lookup"><span data-stu-id="e652d-173">The following example registry settings integrate ADatum Collaboration Client with Lync 2013:</span></span>
 
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Lync\SessionManager]
@@ -182,13 +182,13 @@ ms.locfileid: "42040989"
 
 <div>
 
-## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a><span data-ttu-id="beb71-174">Integración de una aplicación de colaboración basada en servidor con Lync 2013</span><span class="sxs-lookup"><span data-stu-id="beb71-174">Integrating a Server-Based Collaboration Application with Lync 2013</span></span>
+## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a><span data-ttu-id="e652d-174">Integración de una aplicación de colaboración basada en servidor con Lync 2013</span><span class="sxs-lookup"><span data-stu-id="e652d-174">Integrating a Server-Based Collaboration Application with Lync 2013</span></span>
 
-<span data-ttu-id="beb71-175">La configuración para agregar comandos para iniciar una aplicación de colaboración basada en servidor desde dentro de Lync 2013 es similar a la descrita en la sección anterior, lo que integra una aplicación de colaboración basada en Internet con Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="beb71-175">The settings to add commands for starting a server-based collaboration application from within Lync 2013 are similar to those described in the previous section, Integrating an Internet-Based Collaboration Application with Lync 2013.</span></span> <span data-ttu-id="beb71-176">No obstante, el parámetro OriginatorPath no es necesario y algunos valores varían.</span><span class="sxs-lookup"><span data-stu-id="beb71-176">However, the OriginatorPath is not required, and some values are changed.</span></span> <span data-ttu-id="beb71-177">Las entradas del registro se colocan en la siguiente ubicación:</span><span class="sxs-lookup"><span data-stu-id="beb71-177">Registry entries are placed in the following location:</span></span>
+<span data-ttu-id="e652d-175">La configuración para agregar comandos para iniciar una aplicación de colaboración basada en servidor desde dentro de Lync 2013 es similar a la descrita en la sección anterior, lo que integra una aplicación de colaboración basada en Internet con Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="e652d-175">The settings to add commands for starting a server-based collaboration application from within Lync 2013 are similar to those described in the previous section, Integrating an Internet-Based Collaboration Application with Lync 2013.</span></span> <span data-ttu-id="e652d-176">No obstante, el parámetro OriginatorPath no es necesario y algunos valores varían.</span><span class="sxs-lookup"><span data-stu-id="e652d-176">However, the OriginatorPath is not required, and some values are changed.</span></span> <span data-ttu-id="e652d-177">Las entradas del registro se colocan en la siguiente ubicación:</span><span class="sxs-lookup"><span data-stu-id="e652d-177">Registry entries are placed in the following location:</span></span>
 
-  - <span data-ttu-id="beb71-178">HKEY\_local\_MACHINE\\software\\Microsoft\\Office\\15,0\\Lync\\SessionManager\\de\\aplicaciones de Lync</span><span class="sxs-lookup"><span data-stu-id="beb71-178">HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\Parameters</span></span>
+  - <span data-ttu-id="e652d-178">HKEY\_local\_MACHINE\\software\\Microsoft\\Office\\15,0\\Lync\\SessionManager\\de\\aplicaciones de Lync</span><span class="sxs-lookup"><span data-stu-id="e652d-178">HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\Parameters</span></span>
 
-### <a name="registry-entries-for-a-server-based-collaboration-application"></a><span data-ttu-id="beb71-179">Entradas del Registro para una aplicación de colaboración basada en servidor</span><span class="sxs-lookup"><span data-stu-id="beb71-179">Registry Entries for a Server-based Collaboration Application</span></span>
+### <a name="registry-entries-for-a-server-based-collaboration-application"></a><span data-ttu-id="e652d-179">Entradas del Registro para una aplicación de colaboración basada en servidor</span><span class="sxs-lookup"><span data-stu-id="e652d-179">Registry Entries for a Server-based Collaboration Application</span></span>
 
 <table>
 <colgroup>
@@ -198,57 +198,57 @@ ms.locfileid: "42040989"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="beb71-180">Nombre</span><span class="sxs-lookup"><span data-stu-id="beb71-180">Name</span></span></th>
-<th><span data-ttu-id="beb71-181">Tipo</span><span class="sxs-lookup"><span data-stu-id="beb71-181">Type</span></span></th>
-<th><span data-ttu-id="beb71-182">Datos</span><span class="sxs-lookup"><span data-stu-id="beb71-182">Data</span></span></th>
+<th><span data-ttu-id="e652d-180">Nombre</span><span class="sxs-lookup"><span data-stu-id="e652d-180">Name</span></span></th>
+<th><span data-ttu-id="e652d-181">Tipo</span><span class="sxs-lookup"><span data-stu-id="e652d-181">Type</span></span></th>
+<th><span data-ttu-id="e652d-182">Datos</span><span class="sxs-lookup"><span data-stu-id="e652d-182">Data</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="beb71-183">Nombre</span><span class="sxs-lookup"><span data-stu-id="beb71-183">Name</span></span></p></td>
-<td><p><span data-ttu-id="beb71-184">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="beb71-184">REG_SZ</span></span></p></td>
-<td><p><span data-ttu-id="beb71-185">Nombre de la aplicación tal como aparece en el menú.</span><span class="sxs-lookup"><span data-stu-id="beb71-185">Name of the application as it appears on the menu.</span></span></p></td>
+<td><p><span data-ttu-id="e652d-183">Nombre</span><span class="sxs-lookup"><span data-stu-id="e652d-183">Name</span></span></p></td>
+<td><p><span data-ttu-id="e652d-184">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="e652d-184">REG_SZ</span></span></p></td>
+<td><p><span data-ttu-id="e652d-185">Nombre de la aplicación tal como aparece en el menú.</span><span class="sxs-lookup"><span data-stu-id="e652d-185">Name of the application as it appears on the menu.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="beb71-186">ApplicationType</span><span class="sxs-lookup"><span data-stu-id="beb71-186">ApplicationType</span></span></p></td>
-<td><p><span data-ttu-id="beb71-187">ÚLTIMAS</span><span class="sxs-lookup"><span data-stu-id="beb71-187">DWORD</span></span></p></td>
-<td><p><span data-ttu-id="beb71-188">Valor =1.</span><span class="sxs-lookup"><span data-stu-id="beb71-188">Value = 1.</span></span> <span data-ttu-id="beb71-189">Establece el tipo de aplicación en protocolo.</span><span class="sxs-lookup"><span data-stu-id="beb71-189">Sets the application type to protocol.</span></span> <span data-ttu-id="beb71-190">Los otros valores posibles no se aplican en este caso.</span><span class="sxs-lookup"><span data-stu-id="beb71-190">The other possible values do not apply in this case.</span></span> <span data-ttu-id="beb71-191">Si no está presente, ApplicationType se establece en 0 (ejecutable).</span><span class="sxs-lookup"><span data-stu-id="beb71-191">If not present, ApplicationType is set to 0 (executable).</span></span></p></td>
+<td><p><span data-ttu-id="e652d-186">ApplicationType</span><span class="sxs-lookup"><span data-stu-id="e652d-186">ApplicationType</span></span></p></td>
+<td><p><span data-ttu-id="e652d-187">ÚLTIMAS</span><span class="sxs-lookup"><span data-stu-id="e652d-187">DWORD</span></span></p></td>
+<td><p><span data-ttu-id="e652d-188">Valor =1.</span><span class="sxs-lookup"><span data-stu-id="e652d-188">Value = 1.</span></span> <span data-ttu-id="e652d-189">Establece el tipo de aplicación en protocolo.</span><span class="sxs-lookup"><span data-stu-id="e652d-189">Sets the application type to protocol.</span></span> <span data-ttu-id="e652d-190">Los otros valores posibles no se aplican en este caso.</span><span class="sxs-lookup"><span data-stu-id="e652d-190">The other possible values do not apply in this case.</span></span> <span data-ttu-id="e652d-191">Si no está presente, ApplicationType se establece en 0 (ejecutable).</span><span class="sxs-lookup"><span data-stu-id="e652d-191">If not present, ApplicationType is set to 0 (executable).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="beb71-192">Path</span><span class="sxs-lookup"><span data-stu-id="beb71-192">Path</span></span></p></td>
-<td><p><span data-ttu-id="beb71-193">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="beb71-193">REG_SZ</span></span></p></td>
-<td><p><span data-ttu-id="beb71-194">Protocolo usado para iniciar la aplicación de colaboración.</span><span class="sxs-lookup"><span data-stu-id="beb71-194">Protocol used to start the collaboration application.</span></span> <span data-ttu-id="beb71-195">Para Live Meeting 2007, el valor de path se establece en <code>meet:%conf-uri%</code>.</span><span class="sxs-lookup"><span data-stu-id="beb71-195">For Live Meeting 2007, the value of Path is set to <code>meet:%conf-uri%</code>.</span></span></p></td>
+<td><p><span data-ttu-id="e652d-192">Path</span><span class="sxs-lookup"><span data-stu-id="e652d-192">Path</span></span></p></td>
+<td><p><span data-ttu-id="e652d-193">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="e652d-193">REG_SZ</span></span></p></td>
+<td><p><span data-ttu-id="e652d-194">Protocolo usado para iniciar la aplicación de colaboración.</span><span class="sxs-lookup"><span data-stu-id="e652d-194">Protocol used to start the collaboration application.</span></span> <span data-ttu-id="e652d-195">Para Live Meeting 2007, el valor de path se establece en <code>meet:%conf-uri%</code>.</span><span class="sxs-lookup"><span data-stu-id="e652d-195">For Live Meeting 2007, the value of Path is set to <code>meet:%conf-uri%</code>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="beb71-196">SessionType</span><span class="sxs-lookup"><span data-stu-id="beb71-196">SessionType</span></span></p></td>
-<td><p><span data-ttu-id="beb71-197">ÚLTIMAS</span><span class="sxs-lookup"><span data-stu-id="beb71-197">DWORD</span></span></p></td>
-<td><p><span data-ttu-id="beb71-p114">0 = Sesión local. La aplicación se inicia en el equipo local.</span><span class="sxs-lookup"><span data-stu-id="beb71-p114">0 = Local session. The application is started on the local computer.</span></span></p>
-<p><span data-ttu-id="beb71-200">1 = Sesión entre dos participantes (valor predeterminado).</span><span class="sxs-lookup"><span data-stu-id="beb71-200">1 = Two-party session (default).</span></span> <span data-ttu-id="beb71-201">Lync 2013 inicia la aplicación de forma local y, a continuación, envía una notificación del sistema al otro usuario.</span><span class="sxs-lookup"><span data-stu-id="beb71-201">Lync 2013 starts the application locally, and then sends a system notification to the other user.</span></span> <span data-ttu-id="beb71-202">El otro usuario hace clic en la notificación e inicia la aplicación especificada en su equipo.</span><span class="sxs-lookup"><span data-stu-id="beb71-202">The other user clicks the notification and starts the specified application on their computer.</span></span></p>
-<p><span data-ttu-id="beb71-203">2 = Sesión de varios participantes.</span><span class="sxs-lookup"><span data-stu-id="beb71-203">2 = Multiparty session.</span></span> <span data-ttu-id="beb71-204">Lync 2013 inicia la aplicación de forma local y, a continuación, envía notificaciones del sistema a los demás usuarios, solicitándole que inicien la aplicación especificada en su equipo.</span><span class="sxs-lookup"><span data-stu-id="beb71-204">Lync 2013 starts the application locally, and then sends system notifications to the other users, prompting them to start the specified application on their computer.</span></span></p></td>
+<td><p><span data-ttu-id="e652d-196">SessionType</span><span class="sxs-lookup"><span data-stu-id="e652d-196">SessionType</span></span></p></td>
+<td><p><span data-ttu-id="e652d-197">ÚLTIMAS</span><span class="sxs-lookup"><span data-stu-id="e652d-197">DWORD</span></span></p></td>
+<td><p><span data-ttu-id="e652d-p114">0 = Sesión local. La aplicación se inicia en el equipo local.</span><span class="sxs-lookup"><span data-stu-id="e652d-p114">0 = Local session. The application is started on the local computer.</span></span></p>
+<p><span data-ttu-id="e652d-200">1 = Sesión entre dos participantes (valor predeterminado).</span><span class="sxs-lookup"><span data-stu-id="e652d-200">1 = Two-party session (default).</span></span> <span data-ttu-id="e652d-201">Lync 2013 inicia la aplicación de forma local y, a continuación, envía una notificación del sistema al otro usuario.</span><span class="sxs-lookup"><span data-stu-id="e652d-201">Lync 2013 starts the application locally, and then sends a system notification to the other user.</span></span> <span data-ttu-id="e652d-202">El otro usuario hace clic en la notificación e inicia la aplicación especificada en su equipo.</span><span class="sxs-lookup"><span data-stu-id="e652d-202">The other user clicks the notification and starts the specified application on their computer.</span></span></p>
+<p><span data-ttu-id="e652d-203">2 = Sesión de varios participantes.</span><span class="sxs-lookup"><span data-stu-id="e652d-203">2 = Multiparty session.</span></span> <span data-ttu-id="e652d-204">Lync 2013 inicia la aplicación de forma local y, a continuación, envía notificaciones del sistema a los demás usuarios, solicitándole que inicien la aplicación especificada en su equipo.</span><span class="sxs-lookup"><span data-stu-id="e652d-204">Lync 2013 starts the application locally, and then sends system notifications to the other users, prompting them to start the specified application on their computer.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="beb71-205">MCUType</span><span class="sxs-lookup"><span data-stu-id="beb71-205">MCUType</span></span></p></td>
-<td><p><span data-ttu-id="beb71-206">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="beb71-206">REG_SZ</span></span></p></td>
-<td><p><span data-ttu-id="beb71-207">DATOS = El tipo de servidor.</span><span class="sxs-lookup"><span data-stu-id="beb71-207">DATA = The type of server.</span></span></p></td>
+<td><p><span data-ttu-id="e652d-205">MCUType</span><span class="sxs-lookup"><span data-stu-id="e652d-205">MCUType</span></span></p></td>
+<td><p><span data-ttu-id="e652d-206">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="e652d-206">REG_SZ</span></span></p></td>
+<td><p><span data-ttu-id="e652d-207">DATOS = El tipo de servidor.</span><span class="sxs-lookup"><span data-stu-id="e652d-207">DATA = The type of server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="beb71-208">ExtensibleMenu</span><span class="sxs-lookup"><span data-stu-id="beb71-208">ExtensibleMenu</span></span></p></td>
-<td><p><span data-ttu-id="beb71-209">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="beb71-209">REG_SZ</span></span></p></td>
-<td><p><span data-ttu-id="beb71-210">Una lista de los menús en los que aparecerá este comando, separados por punto y coma.</span><span class="sxs-lookup"><span data-stu-id="beb71-210">A list of the menus where this command will appear, separated by semicolons.</span></span> <span data-ttu-id="beb71-211">Los valores posibles son:</span><span class="sxs-lookup"><span data-stu-id="beb71-211">Possible values are:</span></span></p>
+<td><p><span data-ttu-id="e652d-208">ExtensibleMenu</span><span class="sxs-lookup"><span data-stu-id="e652d-208">ExtensibleMenu</span></span></p></td>
+<td><p><span data-ttu-id="e652d-209">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="e652d-209">REG_SZ</span></span></p></td>
+<td><p><span data-ttu-id="e652d-210">Una lista de los menús en los que aparecerá este comando, separados por punto y coma.</span><span class="sxs-lookup"><span data-stu-id="e652d-210">A list of the menus where this command will appear, separated by semicolons.</span></span> <span data-ttu-id="e652d-211">Los valores posibles son:</span><span class="sxs-lookup"><span data-stu-id="e652d-211">Possible values are:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="beb71-212">MainWindowActions</span><span class="sxs-lookup"><span data-stu-id="beb71-212">MainWindowActions</span></span></p></li>
-<li><p><span data-ttu-id="beb71-213">MainWindowRightClick</span><span class="sxs-lookup"><span data-stu-id="beb71-213">MainWindowRightClick</span></span></p></li>
-<li><p><span data-ttu-id="beb71-214">ConversationWindowActions</span><span class="sxs-lookup"><span data-stu-id="beb71-214">ConversationWindowActions</span></span></p></li>
-<li><p><span data-ttu-id="beb71-215">ConversationWindowButton</span><span class="sxs-lookup"><span data-stu-id="beb71-215">ConversationWindowButton</span></span></p></li>
-<li><p><span data-ttu-id="beb71-216">ConversationWindowRightClick</span><span class="sxs-lookup"><span data-stu-id="beb71-216">ConversationWindowRightClick</span></span></p></li>
+<li><p><span data-ttu-id="e652d-212">MainWindowActions</span><span class="sxs-lookup"><span data-stu-id="e652d-212">MainWindowActions</span></span></p></li>
+<li><p><span data-ttu-id="e652d-213">MainWindowRightClick</span><span class="sxs-lookup"><span data-stu-id="e652d-213">MainWindowRightClick</span></span></p></li>
+<li><p><span data-ttu-id="e652d-214">ConversationWindowActions</span><span class="sxs-lookup"><span data-stu-id="e652d-214">ConversationWindowActions</span></span></p></li>
+<li><p><span data-ttu-id="e652d-215">ConversationWindowButton</span><span class="sxs-lookup"><span data-stu-id="e652d-215">ConversationWindowButton</span></span></p></li>
+<li><p><span data-ttu-id="e652d-216">ConversationWindowRightClick</span><span class="sxs-lookup"><span data-stu-id="e652d-216">ConversationWindowRightClick</span></span></p></li>
 </ul>
-<p><span data-ttu-id="beb71-217">Si no se define ExtensibleMenu, se utilizan los valores predeterminados de MainWindowRightClick y ConversationWindowActions.</span><span class="sxs-lookup"><span data-stu-id="beb71-217">If ExtensibleMenu is not defined, the default values of MainWindowRightClick and ConversationWindowActions are used.</span></span></p></td>
+<p><span data-ttu-id="e652d-217">Si no se define ExtensibleMenu, se utilizan los valores predeterminados de MainWindowRightClick y ConversationWindowActions.</span><span class="sxs-lookup"><span data-stu-id="e652d-217">If ExtensibleMenu is not defined, the default values of MainWindowRightClick and ConversationWindowActions are used.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="beb71-218">En el siguiente ejemplo, se agregan comandos para iniciar el cliente de colaboración Adatum desde Lync 2013:</span><span class="sxs-lookup"><span data-stu-id="beb71-218">The following example adds commands to start ADatum Collaboration Client from within Lync 2013:</span></span>
+<span data-ttu-id="e652d-218">En el siguiente ejemplo, se agregan comandos para iniciar el cliente de colaboración Adatum desde Lync 2013:</span><span class="sxs-lookup"><span data-stu-id="e652d-218">The following example adds commands to start ADatum Collaboration Client from within Lync 2013:</span></span>
 
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Lync\SessionManager]

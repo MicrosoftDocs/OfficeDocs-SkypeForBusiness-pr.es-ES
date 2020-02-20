@@ -12,20 +12,20 @@ ms:contentKeyID: 51803990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e3104da5e7d351bda26698087e97106cafbdff4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9c05122bb2d6f8f0c9b21aeb12c6e889e3f98750
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037510"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142746"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="simultaneous-ringing-in-lync-server-2013"></a><span data-ttu-id="05962-102">Llamadas simultáneas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05962-102">Simultaneous ringing in Lync Server 2013</span></span>
+# <a name="simultaneous-ringing-in-lync-server-2013"></a><span data-ttu-id="54b53-102">Llamadas simultáneas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54b53-102">Simultaneous ringing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42037510"
 
 <span> </span>
 
-<span data-ttu-id="05962-103">_**Última modificación del tema:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="05962-103">_**Topic Last Modified:** 2013-03-09_</span></span>
+<span data-ttu-id="54b53-103">_**Última modificación del tema:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="54b53-103">_**Topic Last Modified:** 2013-03-09_</span></span>
 
-<span data-ttu-id="05962-104">Cuando la persona llamada tiene habilitado el timbre simultáneo, el enrutamiento basado en ubicación analiza la ubicación del interlocutor que realiza la llamada y los puntos de conexión de las partes a las que se llama para determinar si se debe enrutar la llamada.</span><span class="sxs-lookup"><span data-stu-id="05962-104">When the called party has simultaneous ringing enabled, Location-Based Routing analyzes the location of the calling party and the endpoints of the called parties to determine whether the call should be routed.</span></span>
+<span data-ttu-id="54b53-104">Cuando la persona llamada tiene habilitado el timbre simultáneo, el enrutamiento basado en ubicación analiza la ubicación del interlocutor que realiza la llamada y los puntos de conexión de las partes a las que se llama para determinar si se debe enrutar la llamada.</span><span class="sxs-lookup"><span data-stu-id="54b53-104">When the called party has simultaneous ringing enabled, Location-Based Routing analyzes the location of the calling party and the endpoints of the called parties to determine whether the call should be routed.</span></span>
 
-<span data-ttu-id="05962-105">En la tabla siguiente se muestra un usuario configurado con llamadas simultáneas y el destino de llamadas simultáneas es un usuario en el mismo sitio de red, en un sitio de red diferente o en un sitio de red desconocido.</span><span class="sxs-lookup"><span data-stu-id="05962-105">The following table illustrates a user configured with simultaneous ringing, and the simultaneous ringing target is a user in the same network site, in a different network site, or in an unknown network site.</span></span>
+<span data-ttu-id="54b53-105">En la tabla siguiente se muestra un usuario configurado con llamadas simultáneas y el destino de llamadas simultáneas es un usuario en el mismo sitio de red, en un sitio de red diferente o en un sitio de red desconocido.</span><span class="sxs-lookup"><span data-stu-id="54b53-105">The following table illustrates a user configured with simultaneous ringing, and the simultaneous ringing target is a user in the same network site, in a different network site, or in an unknown network site.</span></span>
 
 
 <table>
@@ -51,24 +51,24 @@ ms.locfileid: "42037510"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="05962-106">Llamada RTC entrante para</span><span class="sxs-lookup"><span data-stu-id="05962-106">Incoming PSTN call for</span></span></th>
-<th><span data-ttu-id="05962-107">Ubicado en el mismo sitio de red que el destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="05962-107">Located in the same network site as callee</span></span></th>
-<th><span data-ttu-id="05962-108">Ubicado en un sitio de red diferente del destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="05962-108">Located in different network site than callee</span></span></th>
-<th><span data-ttu-id="05962-109">Ubicado en un sitio de red desconocido o no habilitado para el enrutamiento basado en ubicación</span><span class="sxs-lookup"><span data-stu-id="05962-109">Located in unknown network site or not enabled for Location-Based Routing</span></span></th>
+<th><span data-ttu-id="54b53-106">Llamada RTC entrante para</span><span class="sxs-lookup"><span data-stu-id="54b53-106">Incoming PSTN call for</span></span></th>
+<th><span data-ttu-id="54b53-107">Ubicado en el mismo sitio de red que el destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="54b53-107">Located in the same network site as callee</span></span></th>
+<th><span data-ttu-id="54b53-108">Ubicado en un sitio de red diferente del destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="54b53-108">Located in different network site than callee</span></span></th>
+<th><span data-ttu-id="54b53-109">Ubicado en un sitio de red desconocido o no habilitado para el enrutamiento basado en ubicación</span><span class="sxs-lookup"><span data-stu-id="54b53-109">Located in unknown network site or not enabled for Location-Based Routing</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="05962-110">Usuario de Lync</span><span class="sxs-lookup"><span data-stu-id="05962-110">Lync user</span></span></p></td>
-<td><p><span data-ttu-id="05962-111">Llamadas simultáneas permitidas</span><span class="sxs-lookup"><span data-stu-id="05962-111">Simultaneous ring allowed</span></span></p></td>
-<td><p><span data-ttu-id="05962-112">Llamadas simultáneas no permitidas</span><span class="sxs-lookup"><span data-stu-id="05962-112">Simultaneous ring not allowed</span></span></p></td>
-<td><p><span data-ttu-id="05962-113">Llamadas simultáneas no permitidas</span><span class="sxs-lookup"><span data-stu-id="05962-113">Simultaneous ring not allowed</span></span></p></td>
+<td><p><span data-ttu-id="54b53-110">Usuario de Lync</span><span class="sxs-lookup"><span data-stu-id="54b53-110">Lync user</span></span></p></td>
+<td><p><span data-ttu-id="54b53-111">Llamadas simultáneas permitidas</span><span class="sxs-lookup"><span data-stu-id="54b53-111">Simultaneous ring allowed</span></span></p></td>
+<td><p><span data-ttu-id="54b53-112">Llamadas simultáneas no permitidas</span><span class="sxs-lookup"><span data-stu-id="54b53-112">Simultaneous ring not allowed</span></span></p></td>
+<td><p><span data-ttu-id="54b53-113">Llamadas simultáneas no permitidas</span><span class="sxs-lookup"><span data-stu-id="54b53-113">Simultaneous ring not allowed</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
   
-<span data-ttu-id="05962-114">En la tabla siguiente se muestra una llamada de un usuario de Lync (por ejemplo, llamador de Lync) en el mismo sitio de red, en un sitio de red diferente o en un sitio de red desconocido.</span><span class="sxs-lookup"><span data-stu-id="05962-114">The following table illustrates a call from a Lync user (i.e. Lync caller) in the same network site, in a different network site, or from an unknown network site.</span></span> <span data-ttu-id="05962-115">El destinatario de la llamada tiene un punto de conexión de RTC (por ejemplo, un teléfono móvil) configurado como un destino de llamadas simultáneas.</span><span class="sxs-lookup"><span data-stu-id="05962-115">The callee has a PSTN endpoint (i.e. cellphone) configured as a simultaneous ring target.</span></span> <span data-ttu-id="05962-116">En este escenario, el enrutamiento basado en ubicación determinará si la llamada se debe enrutar al destino de llamada simultáneo (por ejemplo, un teléfono móvil) del destinatario de la llamada.</span><span class="sxs-lookup"><span data-stu-id="05962-116">In this scenario, Location-Based Routing will determine whether the call should be routed to the simultaneous ring target (i.e. cellphone) of the callee or not.</span></span>
+<span data-ttu-id="54b53-114">En la tabla siguiente se muestra una llamada de un usuario de Lync (por ejemplo, llamador de Lync) en el mismo sitio de red, en un sitio de red diferente o en un sitio de red desconocido.</span><span class="sxs-lookup"><span data-stu-id="54b53-114">The following table illustrates a call from a Lync user (i.e. Lync caller) in the same network site, in a different network site, or from an unknown network site.</span></span> <span data-ttu-id="54b53-115">El destinatario de la llamada tiene un punto de conexión de RTC (por ejemplo, un teléfono móvil) configurado como un destino de llamadas simultáneas.</span><span class="sxs-lookup"><span data-stu-id="54b53-115">The callee has a PSTN endpoint (i.e. cellphone) configured as a simultaneous ring target.</span></span> <span data-ttu-id="54b53-116">En este escenario, el enrutamiento basado en ubicación determinará si la llamada se debe enrutar al destino de llamada simultáneo (por ejemplo, un teléfono móvil) del destinatario de la llamada.</span><span class="sxs-lookup"><span data-stu-id="54b53-116">In this scenario, Location-Based Routing will determine whether the call should be routed to the simultaneous ring target (i.e. cellphone) of the callee or not.</span></span>
 
 
 <table>
@@ -80,18 +80,18 @@ ms.locfileid: "42037510"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="05962-117">Destino de llamada simultánea</span><span class="sxs-lookup"><span data-stu-id="05962-117">Simultaneous ring target</span></span></th>
-<th><span data-ttu-id="05962-118">Ubicado en el mismo sitio de red que el destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="05962-118">Located in the same network site as callee</span></span></th>
-<th><span data-ttu-id="05962-119">Ubicado en un sitio de red diferente del destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="05962-119">Located in different network site than callee</span></span></th>
-<th><span data-ttu-id="05962-120">Ubicado en un sitio de red desconocido o no habilitado para el enrutamiento basado en ubicación</span><span class="sxs-lookup"><span data-stu-id="05962-120">Located in unknown network site or not enabled for Location-Based Routing</span></span></th>
+<th><span data-ttu-id="54b53-117">Destino de llamada simultánea</span><span class="sxs-lookup"><span data-stu-id="54b53-117">Simultaneous ring target</span></span></th>
+<th><span data-ttu-id="54b53-118">Ubicado en el mismo sitio de red que el destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="54b53-118">Located in the same network site as callee</span></span></th>
+<th><span data-ttu-id="54b53-119">Ubicado en un sitio de red diferente del destinatario de la llamada</span><span class="sxs-lookup"><span data-stu-id="54b53-119">Located in different network site than callee</span></span></th>
+<th><span data-ttu-id="54b53-120">Ubicado en un sitio de red desconocido o no habilitado para el enrutamiento basado en ubicación</span><span class="sxs-lookup"><span data-stu-id="54b53-120">Located in unknown network site or not enabled for Location-Based Routing</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="05962-121">Extremo de RTC</span><span class="sxs-lookup"><span data-stu-id="05962-121">PSTN endpoint</span></span></p></td>
-<td><p><span data-ttu-id="05962-122">Llamadas simultáneas permitidas a través de la Directiva de enrutamiento de voz del sitio del autor de la llamada</span><span class="sxs-lookup"><span data-stu-id="05962-122">Simultaneous ring allowed through the caller’s site voice routing policy</span></span></p></td>
-<td><p><span data-ttu-id="05962-123">Llamadas simultáneas permitidas a través de la Directiva de enrutamiento de voz del sitio del autor de la llamada</span><span class="sxs-lookup"><span data-stu-id="05962-123">Simultaneous ring allowed through the caller’s site voice routing policy</span></span></p></td>
-<td><p><span data-ttu-id="05962-124">Se permiten las llamadas simultáneas a través de la Directiva de voz del autor de la llamada a troncos que no están habilitados para el enrutamiento basado en ubicación</span><span class="sxs-lookup"><span data-stu-id="05962-124">Simultaneous ring allowed through the caller’s voice policy to trunks not enabled for Location-Based Routing</span></span></p></td>
+<td><p><span data-ttu-id="54b53-121">Extremo de RTC</span><span class="sxs-lookup"><span data-stu-id="54b53-121">PSTN endpoint</span></span></p></td>
+<td><p><span data-ttu-id="54b53-122">Llamadas simultáneas permitidas a través de la Directiva de enrutamiento de voz del sitio del autor de la llamada</span><span class="sxs-lookup"><span data-stu-id="54b53-122">Simultaneous ring allowed through the caller’s site voice routing policy</span></span></p></td>
+<td><p><span data-ttu-id="54b53-123">Llamadas simultáneas permitidas a través de la Directiva de enrutamiento de voz del sitio del autor de la llamada</span><span class="sxs-lookup"><span data-stu-id="54b53-123">Simultaneous ring allowed through the caller’s site voice routing policy</span></span></p></td>
+<td><p><span data-ttu-id="54b53-124">Se permiten las llamadas simultáneas a través de la Directiva de voz del autor de la llamada a troncos que no están habilitados para el enrutamiento basado en ubicación</span><span class="sxs-lookup"><span data-stu-id="54b53-124">Simultaneous ring allowed through the caller’s voice policy to trunks not enabled for Location-Based Routing</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -99,10 +99,10 @@ ms.locfileid: "42037510"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="05962-125">Vea también</span><span class="sxs-lookup"><span data-stu-id="05962-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="54b53-125">Vea también</span><span class="sxs-lookup"><span data-stu-id="54b53-125">See Also</span></span>
 
 
-[<span data-ttu-id="05962-126">Escenarios para el enrutamiento basado en ubicación en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05962-126">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
+[<span data-ttu-id="54b53-126">Escenarios para el enrutamiento basado en ubicación en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54b53-126">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

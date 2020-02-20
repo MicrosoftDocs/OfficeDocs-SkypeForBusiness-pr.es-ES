@@ -12,20 +12,20 @@ ms:contentKeyID: 48184017
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ba69980f97e901703f51f71729c661821e70e61
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a50f095fef5e99a02b464babd30af69a94bbd660
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037400"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146253"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-in-lync-server-2013-to-use-trusted-server-authentication"></a><span data-ttu-id="7ed67-102">Configuración de un nodo de monitor en Lync Server 2013 para usar la autenticación de servidor de confianza</span><span class="sxs-lookup"><span data-stu-id="7ed67-102">Configuring a watcher node in Lync Server 2013 to use Trusted Server authentication</span></span>
+# <a name="configuring-a-watcher-node-in-lync-server-2013-to-use-trusted-server-authentication"></a><span data-ttu-id="d3bec-102">Configuración de un nodo de monitor en Lync Server 2013 para usar la autenticación de servidor de confianza</span><span class="sxs-lookup"><span data-stu-id="d3bec-102">Configuring a watcher node in Lync Server 2013 to use Trusted Server authentication</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42037400"
 
 <span> </span>
 
-<span data-ttu-id="7ed67-103">_**Última modificación del tema:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="7ed67-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="d3bec-103">_**Última modificación del tema:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="d3bec-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="7ed67-104">Si el PC del nodo de monitor se encuentra dentro de la red perimetral, con la autenticación de servidor de confianza puede reducir considerablemente los impuestos de administración para mantener un único certificado en lugar de varias contraseñas de cuentas de usuario.</span><span class="sxs-lookup"><span data-stu-id="7ed67-104">If your watcher node computer lies inside the perimeter network, using Trusted Server authentication can greatly reduce administration taxes to maintaining a single certificate rather than numerous user account passwords.</span></span>
+<span data-ttu-id="d3bec-104">Si el PC del nodo de monitor se encuentra dentro de la red perimetral, con la autenticación de servidor de confianza puede reducir considerablemente los impuestos de administración para mantener un único certificado en lugar de varias contraseñas de cuentas de usuario.</span><span class="sxs-lookup"><span data-stu-id="d3bec-104">If your watcher node computer lies inside the perimeter network, using Trusted Server authentication can greatly reduce administration taxes to maintaining a single certificate rather than numerous user account passwords.</span></span>
 
-<span data-ttu-id="7ed67-p101">El primer paso para configurar la autenticación de servidor de confianza es crear un grupo de aplicaciones de confianza para alojar el PC del nodo de monitor. Después de haber creado el grupo de aplicaciones de confianza, debe configurar las transacciones sintéticas en ese nodo de monitor para que se ejecuten como una aplicación de confianza.</span><span class="sxs-lookup"><span data-stu-id="7ed67-p101">The first step in configuring Trusted Server authentication is to create a trusted application pool to host the watcher node computer. After the trusted application pool has been created, you must then configure synthetic transactions on that watcher node to run as a trusted application.</span></span>
+<span data-ttu-id="d3bec-p101">El primer paso para configurar la autenticación de servidor de confianza es crear un grupo de aplicaciones de confianza para alojar el PC del nodo de monitor. Después de haber creado el grupo de aplicaciones de confianza, debe configurar las transacciones sintéticas en ese nodo de monitor para que se ejecuten como una aplicación de confianza.</span><span class="sxs-lookup"><span data-stu-id="d3bec-p101">The first step in configuring Trusted Server authentication is to create a trusted application pool to host the watcher node computer. After the trusted application pool has been created, you must then configure synthetic transactions on that watcher node to run as a trusted application.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="7ed67-107">Una aplicación de confianza es una aplicación a la que se le asigna el estado de confianza para que se ejecute como parte de Lync Server 2013, pero que no es una parte integrada del producto.</span><span class="sxs-lookup"><span data-stu-id="7ed67-107">A trusted application is an application that is given trusted status to run as part of Lync Server 2013, but that is not a built-in part of the product.</span></span> <span data-ttu-id="7ed67-108">El estado de confianza significa que no se desafiará a la aplicación cada vez que se ejecute la autenticación.</span><span class="sxs-lookup"><span data-stu-id="7ed67-108">Trusted status means that the application will not be challenged for authentication each time it runs.</span></span>
+> <span data-ttu-id="d3bec-107">Una aplicación de confianza es una aplicación a la que se le asigna el estado de confianza para que se ejecute como parte de Lync Server 2013, pero que no es una parte integrada del producto.</span><span class="sxs-lookup"><span data-stu-id="d3bec-107">A trusted application is an application that is given trusted status to run as part of Lync Server 2013, but that is not a built-in part of the product.</span></span> <span data-ttu-id="d3bec-108">El estado de confianza significa que no se desafiará a la aplicación cada vez que se ejecute la autenticación.</span><span class="sxs-lookup"><span data-stu-id="d3bec-108">Trusted status means that the application will not be challenged for authentication each time it runs.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="7ed67-109">Para crear un grupo de aplicaciones de confianza, abra el shell de administración de Lync Server 2013 y ejecute un comando similar a este:</span><span class="sxs-lookup"><span data-stu-id="7ed67-109">To create a trusted application pool, open the Lync Server 2013 Management Shell and run a command similar to this:</span></span>
+<span data-ttu-id="d3bec-109">Para crear un grupo de aplicaciones de confianza, abra el shell de administración de Lync Server 2013 y ejecute un comando similar a este:</span><span class="sxs-lookup"><span data-stu-id="d3bec-109">To create a trusted application pool, open the Lync Server 2013 Management Shell and run a command similar to this:</span></span>
 
     New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
 
@@ -59,66 +59,66 @@ ms.locfileid: "42037400"
 
 
 > [!NOTE]
-> <span data-ttu-id="7ed67-110">Para obtener más información sobre los parámetros utilizados en el comando anterior, escriba lo siguiente en el símbolo del sistema del shell de administración de Lync Server:</span><span class="sxs-lookup"><span data-stu-id="7ed67-110">For details about the parameters used in the preceding command, type the following at the Lync Server Management Shell prompt:</span></span><BR><span data-ttu-id="7ed67-111">Get-Help New-CsTrustedApplicationPool -Full | more</span><span class="sxs-lookup"><span data-stu-id="7ed67-111">Get-Help New-CsTrustedApplicationPool -Full | more</span></span>
+> <span data-ttu-id="d3bec-110">Para obtener más información sobre los parámetros utilizados en el comando anterior, escriba lo siguiente en el símbolo del sistema del shell de administración de Lync Server:</span><span class="sxs-lookup"><span data-stu-id="d3bec-110">For details about the parameters used in the preceding command, type the following at the Lync Server Management Shell prompt:</span></span><BR><span data-ttu-id="d3bec-111">Get-Help New-CsTrustedApplicationPool -Full | more</span><span class="sxs-lookup"><span data-stu-id="d3bec-111">Get-Help New-CsTrustedApplicationPool -Full | more</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="7ed67-112">Después de crear el grupo de aplicaciones de confianza, configure el PC del nodo de monitor para que ejecute las transacciones sintéticas como una aplicación de confianza.</span><span class="sxs-lookup"><span data-stu-id="7ed67-112">After creating the trusted application pool, configure the watcher node computer to run synthetic transactions as a trusted application.</span></span> <span data-ttu-id="7ed67-113">Esto se realiza con el cmdlet **New-CsTrustedApplication** y un comando similar a este:</span><span class="sxs-lookup"><span data-stu-id="7ed67-113">This is done by using the **New-CsTrustedApplication** cmdlet and a command similar to this:</span></span>
+<span data-ttu-id="d3bec-112">Después de crear el grupo de aplicaciones de confianza, configure el PC del nodo de monitor para que ejecute las transacciones sintéticas como una aplicación de confianza.</span><span class="sxs-lookup"><span data-stu-id="d3bec-112">After creating the trusted application pool, configure the watcher node computer to run synthetic transactions as a trusted application.</span></span> <span data-ttu-id="d3bec-113">Esto se realiza con el cmdlet **New-CsTrustedApplication** y un comando similar a este:</span><span class="sxs-lookup"><span data-stu-id="d3bec-113">This is done by using the **New-CsTrustedApplication** cmdlet and a command similar to this:</span></span>
 
     New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
 
-<span data-ttu-id="7ed67-114">Cuando finaliza el comando anterior y se haya creado la aplicación de confianza, ejecute Enable-CsTopology para asegurarse de que los cambios se han realizado:</span><span class="sxs-lookup"><span data-stu-id="7ed67-114">When the preceding command completes and the trusted application has been created, run Enable-CsTopology to make sure that the changes take effect:</span></span>
+<span data-ttu-id="d3bec-114">Cuando finaliza el comando anterior y se haya creado la aplicación de confianza, ejecute Enable-CsTopology para asegurarse de que los cambios se han realizado:</span><span class="sxs-lookup"><span data-stu-id="d3bec-114">When the preceding command completes and the trusted application has been created, run Enable-CsTopology to make sure that the changes take effect:</span></span>
 
     Enable-CsTopology
 
-<span data-ttu-id="7ed67-115">Después de ejecutar Enable-CsTopology, le recomendamos que reinicie el PC.</span><span class="sxs-lookup"><span data-stu-id="7ed67-115">After running Enable-CsTopology, we recommend that you restart the computer.</span></span>
+<span data-ttu-id="d3bec-115">Después de ejecutar Enable-CsTopology, le recomendamos que reinicie el PC.</span><span class="sxs-lookup"><span data-stu-id="d3bec-115">After running Enable-CsTopology, we recommend that you restart the computer.</span></span>
 
-<span data-ttu-id="7ed67-116">Para comprobar que se ha creado la nueva aplicación de confianza, escriba lo siguiente en el símbolo del sistema del shell de administración de Lync Server:</span><span class="sxs-lookup"><span data-stu-id="7ed67-116">To verify that the new trusted application has been created, type the following at the Lync Server Management Shell prompt:</span></span>
+<span data-ttu-id="d3bec-116">Para comprobar que se ha creado la nueva aplicación de confianza, escriba lo siguiente en el símbolo del sistema del shell de administración de Lync Server:</span><span class="sxs-lookup"><span data-stu-id="d3bec-116">To verify that the new trusted application has been created, type the following at the Lync Server Management Shell prompt:</span></span>
 
     Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:application:STWatcherNode"
 
 <div>
 
-## <a name="configuring-a-default-certificate-on-the-watcher-node"></a><span data-ttu-id="7ed67-117">Configuración de un certificado predeterminado en el nodo de monitor</span><span class="sxs-lookup"><span data-stu-id="7ed67-117">Configuring a Default Certificate on the Watcher Node</span></span>
+## <a name="configuring-a-default-certificate-on-the-watcher-node"></a><span data-ttu-id="d3bec-117">Configuración de un certificado predeterminado en el nodo de monitor</span><span class="sxs-lookup"><span data-stu-id="d3bec-117">Configuring a Default Certificate on the Watcher Node</span></span>
 
-<span data-ttu-id="7ed67-118">Cada nodo de monitor debe tener un certificado predeterminado asignado mediante el Asistente para la implementación de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="7ed67-118">Each watcher node must have a Default certificate assigned by using the Lync Server Deployment Wizard.</span></span>
+<span data-ttu-id="d3bec-118">Cada nodo de monitor debe tener un certificado predeterminado asignado mediante el Asistente para la implementación de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d3bec-118">Each watcher node must have a Default certificate assigned by using the Lync Server Deployment Wizard.</span></span>
 
-<span data-ttu-id="7ed67-119">**Para asignar un certificado predeterminado**</span><span class="sxs-lookup"><span data-stu-id="7ed67-119">**To assign a Default certificate**</span></span>
+<span data-ttu-id="d3bec-119">**Para asignar un certificado predeterminado**</span><span class="sxs-lookup"><span data-stu-id="d3bec-119">**To assign a Default certificate**</span></span>
 
-1.  <span data-ttu-id="7ed67-120">Haga clic en **Inicio**, en **todos los programas**, en **Lync Server**y, a continuación, en **Asistente para la implementación de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="7ed67-120">Click **Start**, click **All Programs**, click **Lync Server**, and then click **Lync Server Deployment Wizard**.</span></span>
+1.  <span data-ttu-id="d3bec-120">Haga clic en **Inicio**, en **todos los programas**, en **Lync Server**y, a continuación, en **Asistente para la implementación de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="d3bec-120">Click **Start**, click **All Programs**, click **Lync Server**, and then click **Lync Server Deployment Wizard**.</span></span>
 
-2.  <span data-ttu-id="7ed67-121">En el Asistente para la implementación de Lync Server, haga clic en **instalar o actualizar el sistema Lync Server** y, a continuación, haga clic en **Ejecutar** en el título **solicitud, instalar o asignar certificado**.</span><span class="sxs-lookup"><span data-stu-id="7ed67-121">In the Lync Server Deployment Wizard, click **Install or Update Lync Server System** and then click **Run** under the heading **Request, Install, or Assign Certificate**.</span></span>
+2.  <span data-ttu-id="d3bec-121">En el Asistente para la implementación de Lync Server, haga clic en **instalar o actualizar el sistema Lync Server** y, a continuación, haga clic en **Ejecutar** en el título **solicitud, instalar o asignar certificado**.</span><span class="sxs-lookup"><span data-stu-id="d3bec-121">In the Lync Server Deployment Wizard, click **Install or Update Lync Server System** and then click **Run** under the heading **Request, Install, or Assign Certificate**.</span></span>
     
     <div>
     
 
     > [!NOTE]
-    > <span data-ttu-id="7ed67-122">Si el botón <STRONG>Ejecutar</STRONG> está deshabilitado, puede que primero necesite hacer clic en <STRONG>Ejecutar</STRONG> en <STRONG>Instalar el almacén de configuración local</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="7ed67-122">If the <STRONG>Run</STRONG> button is disabled, you may need to first click <STRONG>Run</STRONG> under <STRONG>Install Local Configuration Store</STRONG>.</span></span>
+    > <span data-ttu-id="d3bec-122">Si el botón <STRONG>Ejecutar</STRONG> está deshabilitado, puede que primero necesite hacer clic en <STRONG>Ejecutar</STRONG> en <STRONG>Instalar el almacén de configuración local</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="d3bec-122">If the <STRONG>Run</STRONG> button is disabled, you may need to first click <STRONG>Run</STRONG> under <STRONG>Install Local Configuration Store</STRONG>.</span></span>
 
     
     </div>
 
-3.  <span data-ttu-id="7ed67-123">Siga uno de estos procedimientos:</span><span class="sxs-lookup"><span data-stu-id="7ed67-123">Do one of the following:</span></span>
+3.  <span data-ttu-id="d3bec-123">Siga uno de estos procedimientos:</span><span class="sxs-lookup"><span data-stu-id="d3bec-123">Do one of the following:</span></span>
     
-      - <span data-ttu-id="7ed67-p104">Si ya tiene un certificado que puede usarse como certificado predeterminado, haga clic en **Predeterminado** en el Asistente para certificados y luego haga clic en **Asignar**. Siga los pasos del Asistente para asignación de certificados para asignar ese certificado.</span><span class="sxs-lookup"><span data-stu-id="7ed67-p104">If you already have a certificate that can be used as the Default certificate, click **Default** in the Certificate wizard and then click **Assign**. Follow the steps in the Certificate Assignment wizard to assign that certificate.</span></span>
+      - <span data-ttu-id="d3bec-p104">Si ya tiene un certificado que puede usarse como certificado predeterminado, haga clic en **Predeterminado** en el Asistente para certificados y luego haga clic en **Asignar**. Siga los pasos del Asistente para asignación de certificados para asignar ese certificado.</span><span class="sxs-lookup"><span data-stu-id="d3bec-p104">If you already have a certificate that can be used as the Default certificate, click **Default** in the Certificate wizard and then click **Assign**. Follow the steps in the Certificate Assignment wizard to assign that certificate.</span></span>
     
-      - <span data-ttu-id="7ed67-p105">Si necesita solicitar un certificado para usarlo como certificado predeterminado, haga clic en **Solicitar** y luego siga los pasos del Asistente para solicitar certificados para solicitar dicho certificado. Si usa los valores predeterminados para el certificado de servidor web, recibirá un certificado que puede asignar como certificado predeterminado.</span><span class="sxs-lookup"><span data-stu-id="7ed67-p105">If you need to request a certificate for use the Default certificate, click **Request** and then follow the steps in the Certificate Request wizard to request that certificate. If you use the default values for the Web Server certificate, you get a certificate that you can assign as the Default certificate.</span></span>
+      - <span data-ttu-id="d3bec-p105">Si necesita solicitar un certificado para usarlo como certificado predeterminado, haga clic en **Solicitar** y luego siga los pasos del Asistente para solicitar certificados para solicitar dicho certificado. Si usa los valores predeterminados para el certificado de servidor web, recibirá un certificado que puede asignar como certificado predeterminado.</span><span class="sxs-lookup"><span data-stu-id="d3bec-p105">If you need to request a certificate for use the Default certificate, click **Request** and then follow the steps in the Certificate Request wizard to request that certificate. If you use the default values for the Web Server certificate, you get a certificate that you can assign as the Default certificate.</span></span>
 
 </div>
 
 <div>
 
-## <a name="installing-and-configuring-a-watcher-node"></a><span data-ttu-id="7ed67-128">Instalación y configuración de un nodo de monitor</span><span class="sxs-lookup"><span data-stu-id="7ed67-128">Installing and Configuring a Watcher Node</span></span>
+## <a name="installing-and-configuring-a-watcher-node"></a><span data-ttu-id="d3bec-128">Instalación y configuración de un nodo de monitor</span><span class="sxs-lookup"><span data-stu-id="d3bec-128">Installing and Configuring a Watcher Node</span></span>
 
-<span data-ttu-id="7ed67-129">Después de haber reiniciado el PC del nodo de monitor y haber configurado un certificado, debe ejecutar el archivo Watchernode.msi.</span><span class="sxs-lookup"><span data-stu-id="7ed67-129">After you have restarted the watcher node computer and configured a certificate, you need to run the file Watchernode.msi.</span></span> <span data-ttu-id="7ed67-130">(Debe ejecutar Watchernode. msi en un equipo en el que estén instalados tanto los archivos del agente de Operations Manager como los componentes principales de Lync Server 2013).</span><span class="sxs-lookup"><span data-stu-id="7ed67-130">(You must run Watchernode.msi on a computer where both the Operations Manager agent files and the Lync Server 2013 core components are installed.)</span></span>
+<span data-ttu-id="d3bec-129">Después de haber reiniciado el PC del nodo de monitor y haber configurado un certificado, debe ejecutar el archivo Watchernode.msi.</span><span class="sxs-lookup"><span data-stu-id="d3bec-129">After you have restarted the watcher node computer and configured a certificate, you need to run the file Watchernode.msi.</span></span> <span data-ttu-id="d3bec-130">(Debe ejecutar Watchernode. msi en un equipo en el que estén instalados tanto los archivos del agente de Operations Manager como los componentes principales de Lync Server 2013).</span><span class="sxs-lookup"><span data-stu-id="d3bec-130">(You must run Watchernode.msi on a computer where both the Operations Manager agent files and the Lync Server 2013 core components are installed.)</span></span>
 
-<span data-ttu-id="7ed67-131">**Para instalar y configurar un nodo de monitor**</span><span class="sxs-lookup"><span data-stu-id="7ed67-131">**To install and configure a watcher node**</span></span>
+<span data-ttu-id="d3bec-131">**Para instalar y configurar un nodo de monitor**</span><span class="sxs-lookup"><span data-stu-id="d3bec-131">**To install and configure a watcher node**</span></span>
 
-1.  <span data-ttu-id="7ed67-132">Abra el shell de administración de Lync Server; para ello, haga clic en **Inicio**, en **todos los programas**, en **Lync Server**y, a continuación, en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="7ed67-132">Open the Lync Server Management Shell by clicking **Start**, clicking **All Programs**, clicking **Lync Server**, and then clicking **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="d3bec-132">Abra el shell de administración de Lync Server; para ello, haga clic en **Inicio**, en **todos los programas**, en **Lync Server**y, a continuación, en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="d3bec-132">Open the Lync Server Management Shell by clicking **Start**, clicking **All Programs**, clicking **Lync Server**, and then clicking **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="7ed67-133">En el shell de administración de Lync Server, escriba el siguiente comando y, a continuación, presione Entrar (especifique la ruta de acceso real a su copia de Watchernode. msi):</span><span class="sxs-lookup"><span data-stu-id="7ed67-133">In the Lync Server Management Shell, type the following command and then press ENTER (specify the actual path to your copy of Watchernode.msi):</span></span>
+2.  <span data-ttu-id="d3bec-133">En el shell de administración de Lync Server, escriba el siguiente comando y, a continuación, presione Entrar (especifique la ruta de acceso real a su copia de Watchernode. msi):</span><span class="sxs-lookup"><span data-stu-id="d3bec-133">In the Lync Server Management Shell, type the following command and then press ENTER (specify the actual path to your copy of Watchernode.msi):</span></span>
     
         C:\Tools\Watchernode.msi Authentication=TrustedServer
     
@@ -126,16 +126,16 @@ ms.locfileid: "42037400"
     
 
     > [!NOTE]
-    > <span data-ttu-id="7ed67-p107">También puede ejecutar Watchernode.msi desde una ventana de comandos. Para abrir una ventana de comandos, haga clic en <STRONG>Inicio</STRONG>, haga clic con el botón secundario en <STRONG>Símbolo del sistema</STRONG> y luego en <STRONG>Ejecutar como administrador</STRONG>. Cuando se abra la ventana de comandos, escriba el mismo comando anterior.</span><span class="sxs-lookup"><span data-stu-id="7ed67-p107">You can also run Watchernode.msi from a command window. To open a command window, click <STRONG>Start</STRONG>, right-click <STRONG>Command Prompt</STRONG>, and then click <STRONG>Run as administrator</STRONG>. When the command window opens, type the same preceding command.</span></span>
+    > <span data-ttu-id="d3bec-p107">También puede ejecutar Watchernode.msi desde una ventana de comandos. Para abrir una ventana de comandos, haga clic en <STRONG>Inicio</STRONG>, haga clic con el botón secundario en <STRONG>Símbolo del sistema</STRONG> y luego en <STRONG>Ejecutar como administrador</STRONG>. Cuando se abra la ventana de comandos, escriba el mismo comando anterior.</span><span class="sxs-lookup"><span data-stu-id="d3bec-p107">You can also run Watchernode.msi from a command window. To open a command window, click <STRONG>Start</STRONG>, right-click <STRONG>Command Prompt</STRONG>, and then click <STRONG>Run as administrator</STRONG>. When the command window opens, type the same preceding command.</span></span>
 
     
     </div>
 
-<span data-ttu-id="7ed67-p108">Nota que el par nombre-valor del anterior comando Authentication=TrustedServer distingue mayúsculas y minúsculas. Debe escribirlo exactamente como aparece. El siguiente comando tiene errores porque no usa las letras mayúsculas y minúsculas correctas:</span><span class="sxs-lookup"><span data-stu-id="7ed67-p108">Note that the name/value pair in the preceding command Authentication=TrustedServer is case-sensitive. You must type it exactly as shown. The following command fails because it does not use the correct letter casing:</span></span>
+<span data-ttu-id="d3bec-p108">Nota que el par nombre-valor del anterior comando Authentication=TrustedServer distingue mayúsculas y minúsculas. Debe escribirlo exactamente como aparece. El siguiente comando tiene errores porque no usa las letras mayúsculas y minúsculas correctas:</span><span class="sxs-lookup"><span data-stu-id="d3bec-p108">Note that the name/value pair in the preceding command Authentication=TrustedServer is case-sensitive. You must type it exactly as shown. The following command fails because it does not use the correct letter casing:</span></span>
 
-<span data-ttu-id="7ed67-140">C:\\herramientas\\Watchernode. msi Authentication = TrustedServer</span><span class="sxs-lookup"><span data-stu-id="7ed67-140">C:\\Tools\\Watchernode.msi authentication=trustedserver</span></span>
+<span data-ttu-id="d3bec-140">C:\\herramientas\\Watchernode. msi Authentication = TrustedServer</span><span class="sxs-lookup"><span data-stu-id="d3bec-140">C:\\Tools\\Watchernode.msi authentication=trustedserver</span></span>
 
-<span data-ttu-id="7ed67-p109">El modo TrustedServer solo se puede usar con los PC que se encuentran dentro de la red perimetral. Cuando un nodo de monitor se ejecuta en modo TrustedServer, los administradores no tienen que mantener las contraseñas de usuario de prueba en el PC.</span><span class="sxs-lookup"><span data-stu-id="7ed67-p109">You can use TrustedServer mode only with computers that are located within the perimeter network. When a watcher node is running in TrustedServer mode, administrators do not have to maintain test user passwords on the computer.</span></span>
+<span data-ttu-id="d3bec-p109">El modo TrustedServer solo se puede usar con los PC que se encuentran dentro de la red perimetral. Cuando un nodo de monitor se ejecuta en modo TrustedServer, los administradores no tienen que mantener las contraseñas de usuario de prueba en el PC.</span><span class="sxs-lookup"><span data-stu-id="d3bec-p109">You can use TrustedServer mode only with computers that are located within the perimeter network. When a watcher node is running in TrustedServer mode, administrators do not have to maintain test user passwords on the computer.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0b4b0f24523044169ae3274ae4d0ff16ae9ff67
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b5b2d730181426d5b23463816d13a6f3b0e502b0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044992"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146923"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-hardware-support-in-lync-server-2013"></a><span data-ttu-id="0afa5-102">Compatibilidad de hardware de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0afa5-102">Device hardware support in Lync Server 2013</span></span>
+# <a name="device-hardware-support-in-lync-server-2013"></a><span data-ttu-id="1116f-102">Compatibilidad de hardware de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1116f-102">Device hardware support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "42044992"
 
 <span> </span>
 
-<span data-ttu-id="0afa5-103">_**Última modificación del tema:** 2012-12-14_</span><span class="sxs-lookup"><span data-stu-id="0afa5-103">_**Topic Last Modified:** 2012-12-14_</span></span>
+<span data-ttu-id="1116f-103">_**Última modificación del tema:** 2012-12-14_</span><span class="sxs-lookup"><span data-stu-id="1116f-103">_**Topic Last Modified:** 2012-12-14_</span></span>
 
-<span data-ttu-id="0afa5-104">Las configuraciones de hardware específicas deben estar en su ubicación antes de implementar los teléfonos IP y los dispositivos analógicos.</span><span class="sxs-lookup"><span data-stu-id="0afa5-104">Specific hardware configurations must be in place before you deploy IP phones and analog devices.</span></span>
+<span data-ttu-id="1116f-104">Las configuraciones de hardware específicas deben estar en su ubicación antes de implementar los teléfonos IP y los dispositivos analógicos.</span><span class="sxs-lookup"><span data-stu-id="1116f-104">Specific hardware configurations must be in place before you deploy IP phones and analog devices.</span></span>
 
-<span data-ttu-id="0afa5-105">Los teléfonos IP que ejecutan Lync Phone Edition admiten el protocolo de detección de niveles de vínculos: detección de extremos de medios (LLDP-MED) y Power over Ethernet (PoE).</span><span class="sxs-lookup"><span data-stu-id="0afa5-105">IP phones running Lync Phone Edition support Link Layer Discovery Protocol-Media Endpoint Discovery (LLDP-MED) and Power over Ethernet (PoE).</span></span><span data-ttu-id="0afa5-106">Para usar el protocolo LLDP-MED, el conmutador debe admitir IEEE802.1AB y ANSI/TIA-1057.</span><span class="sxs-lookup"><span data-stu-id="0afa5-106"> To take advantage of LLDP-MED, the switch must support IEEE802.1AB and ANSI/TIA-1057.</span></span> <span data-ttu-id="0afa5-107">Para usar PoE, el conmutador debe admitir PoE802.3AF o 802.3at.</span><span class="sxs-lookup"><span data-stu-id="0afa5-107">To take advantage of PoE, the switch must support PoE802.3AF or 802.3at.</span></span>
+<span data-ttu-id="1116f-105">Los teléfonos IP que ejecutan Lync Phone Edition admiten el protocolo de detección de niveles de vínculos: detección de extremos de medios (LLDP-MED) y Power over Ethernet (PoE).</span><span class="sxs-lookup"><span data-stu-id="1116f-105">IP phones running Lync Phone Edition support Link Layer Discovery Protocol-Media Endpoint Discovery (LLDP-MED) and Power over Ethernet (PoE).</span></span><span data-ttu-id="1116f-106">Para usar el protocolo LLDP-MED, el conmutador debe admitir IEEE802.1AB y ANSI/TIA-1057.</span><span class="sxs-lookup"><span data-stu-id="1116f-106"> To take advantage of LLDP-MED, the switch must support IEEE802.1AB and ANSI/TIA-1057.</span></span> <span data-ttu-id="1116f-107">Para usar PoE, el conmutador debe admitir PoE802.3AF o 802.3at.</span><span class="sxs-lookup"><span data-stu-id="1116f-107">To take advantage of PoE, the switch must support PoE802.3AF or 802.3at.</span></span>
 
-<span data-ttu-id="0afa5-108">Para habilitar LLDP-MED, el administrador debe habilitar LLDP mediante la ventana de la consola del conmutador y establecer la directiva de red LLDP-MED con el Id. de VLAN de voz correcto.</span><span class="sxs-lookup"><span data-stu-id="0afa5-108">To enable LLDP-MED, the administrator must enable LLDP by using the switch console window and set the LLDP-MED network policy with the correct voice VLAN ID.</span></span>
+<span data-ttu-id="1116f-108">Para habilitar LLDP-MED, el administrador debe habilitar LLDP mediante la ventana de la consola del conmutador y establecer la directiva de red LLDP-MED con el Id. de VLAN de voz correcto.</span><span class="sxs-lookup"><span data-stu-id="1116f-108">To enable LLDP-MED, the administrator must enable LLDP by using the switch console window and set the LLDP-MED network policy with the correct voice VLAN ID.</span></span>
 
-<span data-ttu-id="0afa5-109">Además, si la implementación incluye dispositivos analógicos, debe configurar la puerta de enlace analógica para que use Lync Server, y la puerta de enlace debe ser una de las siguientes:</span><span class="sxs-lookup"><span data-stu-id="0afa5-109">In addition, if your deployment includes analog devices, you must configure the analog gateway to use Lync Server, and the gateway must be one of the following:</span></span>
+<span data-ttu-id="1116f-109">Además, si la implementación incluye dispositivos analógicos, debe configurar la puerta de enlace analógica para que use Lync Server, y la puerta de enlace debe ser una de las siguientes:</span><span class="sxs-lookup"><span data-stu-id="1116f-109">In addition, if your deployment includes analog devices, you must configure the analog gateway to use Lync Server, and the gateway must be one of the following:</span></span>
 
-  - <span data-ttu-id="0afa5-110">Un adaptador de teléfono analógico (ATA)</span><span class="sxs-lookup"><span data-stu-id="0afa5-110">An analog telephone adapter (ATA)</span></span>
+  - <span data-ttu-id="1116f-110">Un adaptador de teléfono analógico (ATA)</span><span class="sxs-lookup"><span data-stu-id="1116f-110">An analog telephone adapter (ATA)</span></span>
 
-  - <span data-ttu-id="0afa5-111">Una puerta de enlace analógica de RTC</span><span class="sxs-lookup"><span data-stu-id="0afa5-111">A PSTN analog gateway</span></span>
+  - <span data-ttu-id="1116f-111">Una puerta de enlace analógica de RTC</span><span class="sxs-lookup"><span data-stu-id="1116f-111">A PSTN analog gateway</span></span>
 
-  - <span data-ttu-id="0afa5-112">Una aplicación de sucursal con funciones de supervivencia que incluya una puerta de enlace analógica de RTC</span><span class="sxs-lookup"><span data-stu-id="0afa5-112">A Survivable Branch Appliance that includes a PSTN analog gateway</span></span>
+  - <span data-ttu-id="1116f-112">Una aplicación de sucursal con funciones de supervivencia que incluya una puerta de enlace analógica de RTC</span><span class="sxs-lookup"><span data-stu-id="1116f-112">A Survivable Branch Appliance that includes a PSTN analog gateway</span></span>
 
-  - <span data-ttu-id="0afa5-113">Una aplicación de sucursal con funciones de supervivencia que incluya una puerta de enlace RTC que se comunique con un ATA</span><span class="sxs-lookup"><span data-stu-id="0afa5-113">A Survivable Branch Appliance that includes a PSTN gateway that communicates with an ATA</span></span>
+  - <span data-ttu-id="1116f-113">Una aplicación de sucursal con funciones de supervivencia que incluya una puerta de enlace RTC que se comunique con un ATA</span><span class="sxs-lookup"><span data-stu-id="1116f-113">A Survivable Branch Appliance that includes a PSTN gateway that communicates with an ATA</span></span>
 
-<span data-ttu-id="0afa5-114">Para obtener información sobre cómo configurar una puerta [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537) de enlace analógica, vea "planeación para implementar dispositivos analógicos" en la biblioteca de TechNet de 2010 de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0afa5-114">To learn how to configure an analog gateway, see "Planning to Deploy Analog Devices" at [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537) in the Lync Server 2010 TechNet Library.</span></span> <span data-ttu-id="0afa5-115">(Los dispositivos analógicos funcionan del mismo modo en Lync Server 2013 que en Lync Server 2010).</span><span class="sxs-lookup"><span data-stu-id="0afa5-115">(Analog devices work the same way in Lync Server 2013 as they do in Lync Server 2010.)</span></span>
+<span data-ttu-id="1116f-114">Para obtener información sobre cómo configurar una puerta [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) de enlace analógica, vea "planeación para implementar dispositivos analógicos" en la biblioteca de TechNet de 2010 de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="1116f-114">To learn how to configure an analog gateway, see "Planning to Deploy Analog Devices" at [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) in the Lync Server 2010 TechNet Library.</span></span> <span data-ttu-id="1116f-115">(Los dispositivos analógicos funcionan del mismo modo en Lync Server 2013 que en Lync Server 2010).</span><span class="sxs-lookup"><span data-stu-id="1116f-115">(Analog devices work the same way in Lync Server 2013 as they do in Lync Server 2010.)</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="0afa5-116">Puede configurar el conmutador para Enhanced 9-1-1 (E9-1-1), si el conmutador lo admite.</span><span class="sxs-lookup"><span data-stu-id="0afa5-116">You can configure the switch for Enhanced 9-1-1 (E9-1-1), if the switch supports this.</span></span>
+> <span data-ttu-id="1116f-116">Puede configurar el conmutador para Enhanced 9-1-1 (E9-1-1), si el conmutador lo admite.</span><span class="sxs-lookup"><span data-stu-id="1116f-116">You can configure the switch for Enhanced 9-1-1 (E9-1-1), if the switch supports this.</span></span>
 
 
 

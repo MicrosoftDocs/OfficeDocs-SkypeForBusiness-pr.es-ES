@@ -12,20 +12,20 @@ ms:contentKeyID: 48184904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95c4e57d6376928b99346a9c9de5017e41df9b81
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7c00754afb91f4d97747b0ea70d830c225aa92e3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006792"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142256"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="system-requirements-for-sql-server-in-lync-server-2013"></a><span data-ttu-id="f6256-102">Requisitos del sistema para SQL Server en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6256-102">System requirements for SQL Server in Lync Server 2013</span></span>
+# <a name="system-requirements-for-sql-server-in-lync-server-2013"></a><span data-ttu-id="ff073-102">Requisitos del sistema para SQL Server en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff073-102">System requirements for SQL Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42006792"
 
 <span> </span>
 
-<span data-ttu-id="f6256-103">_**Última modificación del tema:** 2013-10-25_</span><span class="sxs-lookup"><span data-stu-id="f6256-103">_**Topic Last Modified:** 2013-10-25_</span></span>
+<span data-ttu-id="ff073-103">_**Última modificación del tema:** 2013-10-25_</span><span class="sxs-lookup"><span data-stu-id="ff073-103">_**Topic Last Modified:** 2013-10-25_</span></span>
 
-<span data-ttu-id="f6256-104">Antes de implementar el servidor Enterprise Edition, instale Microsoft SQL Server 2008 R2 o Microsoft SQL Server 2012 en un equipo dedicado que cumpla los requisitos de hardware.</span><span class="sxs-lookup"><span data-stu-id="f6256-104">Before you deploy Enterprise Edition server, install Microsoft SQL Server 2008 R2 or Microsoft SQL Server 2012 on a dedicated computer that meets the hardware requirements.</span></span> <span data-ttu-id="f6256-105">Para obtener más información sobre los requisitos de hardware, vea [plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md) en la documentación sobre compatibilidad.</span><span class="sxs-lookup"><span data-stu-id="f6256-105">For details about hardware requirements, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in the Supportability documentation.</span></span> <span data-ttu-id="f6256-106">Para obtener más información sobre los requisitos de software, consulte [compatibilidad de software de base de datos en Lync Server 2013](lync-server-2013-database-software-support.md) en la documentación sobre compatibilidad.</span><span class="sxs-lookup"><span data-stu-id="f6256-106">For details about software requirements, see [Database software support in Lync Server 2013](lync-server-2013-database-software-support.md) in the Supportability documentation.</span></span> <span data-ttu-id="f6256-107">Para obtener información acerca de los permisos necesarios para la implementación, consulte [permisos de implementación para SQL Server en Lync server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).</span><span class="sxs-lookup"><span data-stu-id="f6256-107">For information about the permissions necessary for deployment, see [Deployment permissions for SQL Server in Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).</span></span>
+<span data-ttu-id="ff073-104">Antes de implementar el servidor Enterprise Edition, instale Microsoft SQL Server 2008 R2 o Microsoft SQL Server 2012 en un equipo dedicado que cumpla los requisitos de hardware.</span><span class="sxs-lookup"><span data-stu-id="ff073-104">Before you deploy Enterprise Edition server, install Microsoft SQL Server 2008 R2 or Microsoft SQL Server 2012 on a dedicated computer that meets the hardware requirements.</span></span> <span data-ttu-id="ff073-105">Para obtener más información sobre los requisitos de hardware, vea [plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md) en la documentación sobre compatibilidad.</span><span class="sxs-lookup"><span data-stu-id="ff073-105">For details about hardware requirements, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in the Supportability documentation.</span></span> <span data-ttu-id="ff073-106">Para obtener más información sobre los requisitos de software, consulte [compatibilidad de software de base de datos en Lync Server 2013](lync-server-2013-database-software-support.md) en la documentación sobre compatibilidad.</span><span class="sxs-lookup"><span data-stu-id="ff073-106">For details about software requirements, see [Database software support in Lync Server 2013](lync-server-2013-database-software-support.md) in the Supportability documentation.</span></span> <span data-ttu-id="ff073-107">Para obtener información acerca de los permisos necesarios para la implementación, consulte [permisos de implementación para SQL Server en Lync server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).</span><span class="sxs-lookup"><span data-stu-id="ff073-107">For information about the permissions necessary for deployment, see [Deployment permissions for SQL Server in Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).</span></span>
 
-<span data-ttu-id="f6256-108">Antes de crear el grupo de servidores front-end, también debe configurar Firewall de Windows para permitir el acceso de Lync Server 2013 a SQL Server a través de puertos específicos mediante la definición de puertos para el servidor mediante el administrador de configuración de SQL Server y la apertura de puertos en firewall de Windows con Seguridad avanzada.</span><span class="sxs-lookup"><span data-stu-id="f6256-108">Before you create the Front End pool, you must also configure Windows Firewall to allow Lync Server 2013 access to SQL Server over specific ports by defining ports for the server using SQL Server Configuration Manager and opening ports in Windows Firewall with Advanced Security.</span></span>
+<span data-ttu-id="ff073-108">Antes de crear el grupo de servidores front-end, también debe configurar Firewall de Windows para permitir el acceso de Lync Server 2013 a SQL Server a través de puertos específicos mediante la definición de puertos para el servidor mediante el administrador de configuración de SQL Server y la apertura de puertos en firewall de Windows con Seguridad avanzada.</span><span class="sxs-lookup"><span data-stu-id="ff073-108">Before you create the Front End pool, you must also configure Windows Firewall to allow Lync Server 2013 access to SQL Server over specific ports by defining ports for the server using SQL Server Configuration Manager and opening ports in Windows Firewall with Advanced Security.</span></span>
 
 </div>
 

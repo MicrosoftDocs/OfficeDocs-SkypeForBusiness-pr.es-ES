@@ -12,20 +12,20 @@ ms:contentKeyID: 48706012
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 027357579ff9ff90d82a78994696a5a2fb656188
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b7ecf62a26ed13b2e0cf33b9d29fb45be8d71d74
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049762"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147003"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a><span data-ttu-id="56b86-102">Configuración de la detección automática en Lync Server 2013 para movilidad con implementaciones híbridas</span><span class="sxs-lookup"><span data-stu-id="56b86-102">Configuring Autodiscover in Lync Server 2013 for mobility with hybrid deployments</span></span>
+# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a><span data-ttu-id="7e40a-102">Configuración de la detección automática en Lync Server 2013 para movilidad con implementaciones híbridas</span><span class="sxs-lookup"><span data-stu-id="7e40a-102">Configuring Autodiscover in Lync Server 2013 for mobility with hybrid deployments</span></span>
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "42049762"
 
 <span> </span>
 
-<span data-ttu-id="56b86-103">_**Última modificación del tema:** 2014-06-18_</span><span class="sxs-lookup"><span data-stu-id="56b86-103">_**Topic Last Modified:** 2014-06-18_</span></span>
+<span data-ttu-id="7e40a-103">_**Última modificación del tema:** 2014-06-18_</span><span class="sxs-lookup"><span data-stu-id="7e40a-103">_**Topic Last Modified:** 2014-06-18_</span></span>
 
-<span data-ttu-id="56b86-104">Las implementaciones híbridas son configuraciones que usan el servicio en la nube de Microsoft Lync Online y la implementación local.</span><span class="sxs-lookup"><span data-stu-id="56b86-104">Hybrid Deployments are configurations that use both the Microsoft Lync Online cloud service and the on premises deployment.</span></span> <span data-ttu-id="56b86-105">En este tipo de configuración, el servicio de detección automática puede determinar dónde está ubicado realmente el usuario.</span><span class="sxs-lookup"><span data-stu-id="56b86-105">In this type of configuration, the Autodiscover service must be able to locate where the user is actually located.</span></span> <span data-ttu-id="56b86-106">Es decir, detección automática ayuda a encontrar la cuenta de usuario y donde se encuentra el servidor que hospeda la cuenta del usuario, independientemente de si se encuentra en la implementación local o en la implementación de Lync Online.</span><span class="sxs-lookup"><span data-stu-id="56b86-106">That is to say, Autodiscover aids in finding the user account and where the server that hosts the user’s account is, regardless if it is in the on premises deployment or in the Lync Online deployment.</span></span>
+<span data-ttu-id="7e40a-104">Las implementaciones híbridas son configuraciones que usan el servicio en la nube de Microsoft Lync Online y la implementación local.</span><span class="sxs-lookup"><span data-stu-id="7e40a-104">Hybrid Deployments are configurations that use both the Microsoft Lync Online cloud service and the on premises deployment.</span></span> <span data-ttu-id="7e40a-105">En este tipo de configuración, el servicio de detección automática puede determinar dónde está ubicado realmente el usuario.</span><span class="sxs-lookup"><span data-stu-id="7e40a-105">In this type of configuration, the Autodiscover service must be able to locate where the user is actually located.</span></span> <span data-ttu-id="7e40a-106">Es decir, detección automática ayuda a encontrar la cuenta de usuario y donde se encuentra el servidor que hospeda la cuenta del usuario, independientemente de si se encuentra en la implementación local o en la implementación de Lync Online.</span><span class="sxs-lookup"><span data-stu-id="7e40a-106">That is to say, Autodiscover aids in finding the user account and where the server that hosts the user’s account is, regardless if it is in the on premises deployment or in the Lync Online deployment.</span></span>
 
-<span data-ttu-id="56b86-107">Por ejemplo, si una cuenta de usuario está hospedada en un servidor de Lync Online, el intento de ubicar al usuario ocurrirá como sigue, en un proceso conocido como *detectabilidad*:</span><span class="sxs-lookup"><span data-stu-id="56b86-107">For example, if a user’s account is hosted on a server in Lync Online, the attempt to locate the user will happen as follows, in a process known as *discoverability*:</span></span>
+<span data-ttu-id="7e40a-107">Por ejemplo, si una cuenta de usuario está hospedada en un servidor de Lync Online, el intento de ubicar al usuario ocurrirá como sigue, en un proceso conocido como *detectabilidad*:</span><span class="sxs-lookup"><span data-stu-id="7e40a-107">For example, if a user’s account is hosted on a server in Lync Online, the attempt to locate the user will happen as follows, in a process known as *discoverability*:</span></span>
 
-  - <span data-ttu-id="56b86-108">El usuario inicia un intento de conexión en la implementación local, **contoso.com**.</span><span class="sxs-lookup"><span data-stu-id="56b86-108">User initiates a connection attempt to the on premises deployment, **contoso.com**.</span></span>
+  - <span data-ttu-id="7e40a-108">El usuario inicia un intento de conexión en la implementación local, **contoso.com**.</span><span class="sxs-lookup"><span data-stu-id="7e40a-108">User initiates a connection attempt to the on premises deployment, **contoso.com**.</span></span>
 
-  - <span data-ttu-id="56b86-109">Se envía el intento a lyncdiscover.contoso.com, el nombre de DNS asociado al servicio de detección automática.</span><span class="sxs-lookup"><span data-stu-id="56b86-109">The attempt is sent to lyncdiscover.contoso.com, the DNS name associated with the Autodiscover service.</span></span>
+  - <span data-ttu-id="7e40a-109">Se envía el intento a lyncdiscover.contoso.com, el nombre de DNS asociado al servicio de detección automática.</span><span class="sxs-lookup"><span data-stu-id="7e40a-109">The attempt is sent to lyncdiscover.contoso.com, the DNS name associated with the Autodiscover service.</span></span>
 
-  - <span data-ttu-id="56b86-110">Detección automática hace referencia al grupo de registradores supuesto en la implementación local de contoso.com y recibe información sobre el servidor principal real del usuario hospedado en Lync Online.</span><span class="sxs-lookup"><span data-stu-id="56b86-110">Autodiscover refers to the assumed registrar pool at the contoso.com on premises deployment and is given information on the user’s actual home server hosted in Lync Online.</span></span> <span data-ttu-id="56b86-111">La detección automática envía al usuario una derivación al servicio de detección automática en línea de **lync.com**.</span><span class="sxs-lookup"><span data-stu-id="56b86-111">Autodiscover then sends the user a referral to the **lync.com** online Autodiscover service.</span></span>
+  - <span data-ttu-id="7e40a-110">Detección automática hace referencia al grupo de registradores supuesto en la implementación local de contoso.com y recibe información sobre el servidor principal real del usuario hospedado en Lync Online.</span><span class="sxs-lookup"><span data-stu-id="7e40a-110">Autodiscover refers to the assumed registrar pool at the contoso.com on premises deployment and is given information on the user’s actual home server hosted in Lync Online.</span></span> <span data-ttu-id="7e40a-111">La detección automática envía al usuario una derivación al servicio de detección automática en línea de **lync.com**.</span><span class="sxs-lookup"><span data-stu-id="7e40a-111">Autodiscover then sends the user a referral to the **lync.com** online Autodiscover service.</span></span>
 
-  - <span data-ttu-id="56b86-112">El usuario inicia un intento de conexión al servicio de detección automática en línea de lync.com y puede localizar la cuenta de usuario y el servidor principal del usuario.</span><span class="sxs-lookup"><span data-stu-id="56b86-112">The user initiates a connection attempt to the lync.com online Autodiscover service and is able to locate the user’s account and the user’s home server.</span></span>
+  - <span data-ttu-id="7e40a-112">El usuario inicia un intento de conexión al servicio de detección automática en línea de lync.com y puede localizar la cuenta de usuario y el servidor principal del usuario.</span><span class="sxs-lookup"><span data-stu-id="7e40a-112">The user initiates a connection attempt to the lync.com online Autodiscover service and is able to locate the user’s account and the user’s home server.</span></span>
 
-<span data-ttu-id="56b86-p103">Para que clientes móviles puedan descubrir la implementación en la que se encuentra el servidor principal del usuario, debe configurar el servicio de detección automática con un localizador de recursos uniforme (URL) nuevo. Para configurar el servicio de detección automática, haga lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="56b86-p103">To enable mobile clients to discover the deployment where the user home server is located, you must configure the Autodiscover service with a new uniform resource locator (URL). Do the following to configure the Autodiscover service.</span></span>
+<span data-ttu-id="7e40a-p103">Para que clientes móviles puedan descubrir la implementación en la que se encuentra el servidor principal del usuario, debe configurar el servicio de detección automática con un localizador de recursos uniforme (URL) nuevo. Para configurar el servicio de detección automática, haga lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="7e40a-p103">To enable mobile clients to discover the deployment where the user home server is located, you must configure the Autodiscover service with a new uniform resource locator (URL). Do the following to configure the Autodiscover service.</span></span>
 
 <div>
 
-## <a name="configuring-autodiscover-for-hybrid-deployments"></a><span data-ttu-id="56b86-115">Configuración de detección automática para implementaciones híbridas</span><span class="sxs-lookup"><span data-stu-id="56b86-115">Configuring Autodiscover for Hybrid Deployments</span></span>
+## <a name="configuring-autodiscover-for-hybrid-deployments"></a><span data-ttu-id="7e40a-115">Configuración de detección automática para implementaciones híbridas</span><span class="sxs-lookup"><span data-stu-id="7e40a-115">Configuring Autodiscover for Hybrid Deployments</span></span>
 
-1.  <span data-ttu-id="56b86-116">Use Get-CsHostingProvider para recuperar el valor del atributo ProxyFQDN.</span><span class="sxs-lookup"><span data-stu-id="56b86-116">You use Get-CsHostingProvider to retrieve the value of the attribute ProxyFQDN.</span></span>
+1.  <span data-ttu-id="7e40a-116">Use Get-CsHostingProvider para recuperar el valor del atributo ProxyFQDN.</span><span class="sxs-lookup"><span data-stu-id="7e40a-116">You use Get-CsHostingProvider to retrieve the value of the attribute ProxyFQDN.</span></span>
 
-2.  <span data-ttu-id="56b86-117">Desde el shell de administración de Lync Server, escriba</span><span class="sxs-lookup"><span data-stu-id="56b86-117">From the Lync Server Management Shell, type</span></span>
+2.  <span data-ttu-id="7e40a-117">Desde el shell de administración de Lync Server, escriba</span><span class="sxs-lookup"><span data-stu-id="7e40a-117">From the Lync Server Management Shell, type</span></span>
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
     
-    <span data-ttu-id="56b86-118">Donde \[la\] identidad se reemplaza con el nombre de dominio del espacio de direcciones SIP compartido.</span><span class="sxs-lookup"><span data-stu-id="56b86-118">Where \[identity\] is replaced with the domain name of the shared SIP address space.</span></span>
+    <span data-ttu-id="7e40a-118">Donde \[la\] identidad se reemplaza con el nombre de dominio del espacio de direcciones SIP compartido.</span><span class="sxs-lookup"><span data-stu-id="7e40a-118">Where \[identity\] is replaced with the domain name of the shared SIP address space.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="56b86-119">Vea también</span><span class="sxs-lookup"><span data-stu-id="56b86-119">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7e40a-119">Vea también</span><span class="sxs-lookup"><span data-stu-id="7e40a-119">See Also</span></span>
 
 
-<span data-ttu-id="56b86-120">[Get-CsHostingProvider](https://technet.microsoft.com/library/Gg413078(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="56b86-120">[Get-CsHostingProvider](https://technet.microsoft.com/library/Gg413078(v=OCS.15))</span></span>  
-<span data-ttu-id="56b86-121">[Set-CsHostingProvider](https://technet.microsoft.com/library/Gg398532(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="56b86-121">[Set-CsHostingProvider](https://technet.microsoft.com/library/Gg398532(v=OCS.15))</span></span>  
+<span data-ttu-id="7e40a-120">[Get-CsHostingProvider](https://technet.microsoft.com/library/Gg413078(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="7e40a-120">[Get-CsHostingProvider](https://technet.microsoft.com/library/Gg413078(v=OCS.15))</span></span>  
+<span data-ttu-id="7e40a-121">[Set-CsHostingProvider](https://technet.microsoft.com/library/Gg398532(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="7e40a-121">[Set-CsHostingProvider](https://technet.microsoft.com/library/Gg398532(v=OCS.15))</span></span>  
   
 
 </div>

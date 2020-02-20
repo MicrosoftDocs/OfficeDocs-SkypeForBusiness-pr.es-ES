@@ -12,20 +12,20 @@ ms:contentKeyID: 49733877
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 587b908cbbff1b69f04fa285fd60a18c28992efb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b73e4b7588c7f267a5fe4abc2db48661755dea03
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040959"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145389"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="inter-trunk-routing-in-lync-server-2013"></a><span data-ttu-id="4ac3c-102">Enrutamiento entre tronco en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ac3c-102">Inter-trunk routing in Lync Server 2013</span></span>
+# <a name="inter-trunk-routing-in-lync-server-2013"></a><span data-ttu-id="1e620-102">Enrutamiento entre tronco en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1e620-102">Inter-trunk routing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42040959"
 
 <span> </span>
 
-<span data-ttu-id="4ac3c-103">_**Última modificación del tema:** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="4ac3c-103">_**Topic Last Modified:** 2012-10-08_</span></span>
+<span data-ttu-id="1e620-103">_**Última modificación del tema:** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="1e620-103">_**Topic Last Modified:** 2012-10-08_</span></span>
 
-<span data-ttu-id="4ac3c-104">Lync Server 2013 proporciona administración de sesiones básicas mediante la compatibilidad con el enrutamiento de intertroncales.</span><span class="sxs-lookup"><span data-stu-id="4ac3c-104">Lync Server 2013 provides basic session management through the support of intertrunk routing.</span></span> <span data-ttu-id="4ac3c-105">Esta nueva función permite que Lync Server ofrezca funcionalidades de control de llamadas a sistemas de telefonía descendentes.</span><span class="sxs-lookup"><span data-stu-id="4ac3c-105">This new capability enables Lync Server to provide call control functionalities to downstream telephony systems.</span></span> <span data-ttu-id="4ac3c-106">El enrutamiento entre troncos puede interconectar sistemas IP-PBX con una puerta de enlace de red de telefonía conmutada (RTC) pública para que las llamadas realizadas desde un teléfono de central de conmutación PBX se puedan enrutan a la RTC y las llamadas RTC entrantes se puedan enrutar a un teléfono PBX.</span><span class="sxs-lookup"><span data-stu-id="4ac3c-106">Intertrunk routing can interconnect an IP-PBX to a public switched telephone network (PSTN) gateway so that calls from a private branch exchange (PBX) phone can be routed to the PSTN, and incoming PSTN calls can be routed to a PBX phone.</span></span> <span data-ttu-id="4ac3c-107">De forma similar, Lync Server puede interconectar dos o más sistemas IP-PBX para que las llamadas se puedan realizar y recibir entre los teléfonos PBX desde los diferentes sistemas IP-PBX.</span><span class="sxs-lookup"><span data-stu-id="4ac3c-107">Similarly, Lync Server can interconnect two or more IP-PBX systems so that calls can be placed and received between PBX phones from the different IP-PBX systems.</span></span>
+<span data-ttu-id="1e620-104">Lync Server 2013 proporciona administración de sesiones básicas mediante la compatibilidad con el enrutamiento de intertroncales.</span><span class="sxs-lookup"><span data-stu-id="1e620-104">Lync Server 2013 provides basic session management through the support of intertrunk routing.</span></span> <span data-ttu-id="1e620-105">Esta nueva función permite que Lync Server ofrezca funcionalidades de control de llamadas a sistemas de telefonía descendentes.</span><span class="sxs-lookup"><span data-stu-id="1e620-105">This new capability enables Lync Server to provide call control functionalities to downstream telephony systems.</span></span> <span data-ttu-id="1e620-106">El enrutamiento entre troncos puede interconectar sistemas IP-PBX con una puerta de enlace de red de telefonía conmutada (RTC) pública para que las llamadas realizadas desde un teléfono de central de conmutación PBX se puedan enrutan a la RTC y las llamadas RTC entrantes se puedan enrutar a un teléfono PBX.</span><span class="sxs-lookup"><span data-stu-id="1e620-106">Intertrunk routing can interconnect an IP-PBX to a public switched telephone network (PSTN) gateway so that calls from a private branch exchange (PBX) phone can be routed to the PSTN, and incoming PSTN calls can be routed to a PBX phone.</span></span> <span data-ttu-id="1e620-107">De forma similar, Lync Server puede interconectar dos o más sistemas IP-PBX para que las llamadas se puedan realizar y recibir entre los teléfonos PBX desde los diferentes sistemas IP-PBX.</span><span class="sxs-lookup"><span data-stu-id="1e620-107">Similarly, Lync Server can interconnect two or more IP-PBX systems so that calls can be placed and received between PBX phones from the different IP-PBX systems.</span></span>
 
-<span data-ttu-id="4ac3c-108">La siguiente figura ilustra Lync Server 2013, que proporciona interconectividad entre una puerta de enlace RTC y una IP-PBX.</span><span class="sxs-lookup"><span data-stu-id="4ac3c-108">The following figure illustrates Lync Server 2013 providing interconnectivity between a PSTN gateway and an IP-PBX.</span></span>
+<span data-ttu-id="1e620-108">La siguiente figura ilustra Lync Server 2013, que proporciona interconectividad entre una puerta de enlace RTC y una IP-PBX.</span><span class="sxs-lookup"><span data-stu-id="1e620-108">The following figure illustrates Lync Server 2013 providing interconnectivity between a PSTN gateway and an IP-PBX.</span></span>
 
-<span data-ttu-id="4ac3c-109">![Diagrama de la puerta de enlace RTC/IP-PBX que conecta Lync Server](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Diagrama de la puerta de enlace RTC/IP-PBX que conecta Lync Server")</span><span class="sxs-lookup"><span data-stu-id="4ac3c-109">![Lync Server connecting PSTN gateway/IP-PBX diagram](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Lync Server connecting PSTN gateway/IP-PBX diagram")</span></span>
+<span data-ttu-id="1e620-109">![Diagrama de la puerta de enlace RTC/IP-PBX que conecta Lync Server](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Diagrama de la puerta de enlace RTC/IP-PBX que conecta Lync Server")</span><span class="sxs-lookup"><span data-stu-id="1e620-109">![Lync Server connecting PSTN gateway/IP-PBX diagram](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Lync Server connecting PSTN gateway/IP-PBX diagram")</span></span>
 
-<span data-ttu-id="4ac3c-110">La siguiente figura ilustra el servicio Lync Server 2013 que conecta dos sistemas IP-PBX.</span><span class="sxs-lookup"><span data-stu-id="4ac3c-110">The next figure illustrates Lync Server 2013 connecting two IP-PBX systems.</span></span>
+<span data-ttu-id="1e620-110">La siguiente figura ilustra el servicio Lync Server 2013 que conecta dos sistemas IP-PBX.</span><span class="sxs-lookup"><span data-stu-id="1e620-110">The next figure illustrates Lync Server 2013 connecting two IP-PBX systems.</span></span>
 
-<span data-ttu-id="4ac3c-111">![El diagrama de sistemas de IP-PAX que interconectan con Lync Server](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "El diagrama de sistemas de IP-PAX que interconectan con Lync Server")</span><span class="sxs-lookup"><span data-stu-id="4ac3c-111">![Lync Server interconnecting IP-PAX systems diagram](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Lync Server interconnecting IP-PAX systems diagram")</span></span>
+<span data-ttu-id="1e620-111">![El diagrama de sistemas de IP-PAX que interconectan con Lync Server](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "El diagrama de sistemas de IP-PAX que interconectan con Lync Server")</span><span class="sxs-lookup"><span data-stu-id="1e620-111">![Lync Server interconnecting IP-PAX systems diagram](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Lync Server interconnecting IP-PAX systems diagram")</span></span>
 
 </div>
 
