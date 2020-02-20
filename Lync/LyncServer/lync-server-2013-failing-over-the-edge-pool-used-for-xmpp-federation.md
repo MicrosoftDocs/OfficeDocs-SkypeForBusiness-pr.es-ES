@@ -12,18 +12,18 @@ ms:contentKeyID: 49733659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3957f3fc5a315c5b661ddeec4ea83b8e7f0eab0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 182bc427c7b4faf3bd937bd58af8ca1d4d9c7d77
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030423"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145829"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="failing-over-the-edge-pool-used-for-xmpp-federation-in-lync-server-2013"></a>Conmutación por error del grupo de servidores perimetrales usado para la Federación XMPP en Lync Server 2013
 

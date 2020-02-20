@@ -12,18 +12,18 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b0a6179e77e4688693fe277748a8933a9dbe911
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 50bd8d3fb538a7450d2129691ec523dbcb6dd208
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006206"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146793"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>Protección y protección de servidores y aplicaciones para Lync Server 2013
 
@@ -61,7 +61,7 @@ En el caso de los servidores de aplicaciones, deben protegerse el sistema operat
 
 ## <a name="securing-virtual-servers"></a>Proteger los servidores virtuales
 
-Las instantáneas del servidor virtual contienen copias de los discos de datos del servidor y también contienen volcados de datos en memoria, que pueden contener datos criptográficos confidenciales que podrían dar lugar a ataques. Para los servidores de producción implementados mediante la virtualización, debe deshabilitar todas las instantáneas del servidor o administrarlas de manera controlada. Para obtener más información sobre cómo proteger los servidores virtuales Hyper-V, consulte la guía de seguridad de [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)Hyper-v en:.
+Las instantáneas del servidor virtual contienen copias de los discos de datos del servidor y también contienen volcados de datos en memoria, que pueden contener datos criptográficos confidenciales que podrían dar lugar a ataques. Para los servidores de producción implementados mediante la virtualización, debe deshabilitar todas las instantáneas del servidor o administrarlas de manera controlada. Para obtener más información sobre cómo proteger los servidores virtuales Hyper-V, consulte la guía de seguridad de [https://go.microsoft.com/fwlink/p/?LinkId=214176](https://go.microsoft.com/fwlink/p/?linkid=214176)Hyper-v en:.
 
 </div>
 
@@ -95,7 +95,7 @@ Se puede obtener acceso a esta configuración desde GPedit.dll, que está dispon
 
 ## <a name="group-policy-security-settings"></a>Configuración de seguridad de la directiva de grupo
 
-La directiva de grupo contiene una configuración de seguridad para un GPO en Configuración del equipo/Configuración de Windows/Configuración de seguridad si se obtiene acceso desde GPedit.dll. Puede importar plantillas de seguridad para definir la configuración de seguridad del GPO. La guía de seguridad de Windows Server [http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186) 2008 en y el kit de herramientas de administración de cumplimiento [http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882) de seguridad de Windows Server 2008 R2 incluyen una serie de plantillas de ejemplo que puede modificar para satisfacer sus necesidades.
+La directiva de grupo contiene una configuración de seguridad para un GPO en Configuración del equipo/Configuración de Windows/Configuración de seguridad si se obtiene acceso desde GPedit.dll. Puede importar plantillas de seguridad para definir la configuración de seguridad del GPO. La guía de seguridad de Windows Server [https://go.microsoft.com/fwlink/p/?LinkId=145186](https://go.microsoft.com/fwlink/p/?linkid=145186) 2008 en y el kit de herramientas de administración de cumplimiento [https://go.microsoft.com/fwlink/p/?LinkId=211882](https://go.microsoft.com/fwlink/p/?linkid=211882) de seguridad de Windows Server 2008 R2 incluyen una serie de plantillas de ejemplo que puede modificar para satisfacer sus necesidades.
 
 </div>
 

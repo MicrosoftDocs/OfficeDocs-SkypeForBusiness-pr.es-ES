@@ -12,18 +12,18 @@ ms:contentKeyID: 63969577
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61285a73ba7fd3689842f15967286c4393b8e927
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5e910da744bf88b485fc693c02544ad8a7093ead
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030794"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142286"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="system-administration-in-lync-server-2013"></a>Administración del sistema en Lync Server 2013
 
@@ -75,7 +75,7 @@ En el siguiente diagrama se muestra el proceso de solución de problemas del sis
 
 Las herramientas del servicio de asistencia al cliente permiten que el personal registre, clasifique y priorice los nuevos problemas. A continuación, las herramientas proporcionan los procesos de flujo de trabajo para administrar la solicitud del servicio Issue a través de investigación y diagnóstico, a menudo por más de un equipo de soporte técnico. Las herramientas, que a menudo proporcionarán informes sobre los tiempos de resolución y las tendencias históricas, también pueden incluir una base de datos de Knowledge base, que se puede usar para buscar en problemas anteriores.
 
-Microsoft Knowledge base es un registro útil de los problemas de soporte técnico que ha encontrado Microsoft. Para obtener más información, vea el sitio web de<http://go.microsoft.com/fwlink/?linkid=14898>soporte técnico de Microsoft ().
+Microsoft Knowledge base es un registro útil de los problemas de soporte técnico que ha encontrado Microsoft. Para obtener más información, vea el sitio web de<https://go.microsoft.com/fwlink/?linkid=14898>soporte técnico de Microsoft ().
 
 El software de terceros suele requerir personalización para satisfacer las necesidades de la organización, como la organización de los equipos, los requisitos de informes y las medidas que requiere el SLA.
 

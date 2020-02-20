@@ -12,18 +12,18 @@ ms:contentKeyID: 48185531
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e2fd3ce8c229fad2f990d5f295e4c4454ef153e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 562ec9c39d179eb1044c273a0eed0a2ccfa072a7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028691"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146483"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-certificates-for-servers-in-lync-server-2013"></a>Configurar certificados para servidores en Lync Server 2013
 
@@ -53,7 +53,7 @@ Para completar correctamente este procedimiento, debe haber iniciado sesión com
 
 
 > [!WARNING]  
-> La selección de qué algoritmo de firma y Resumen de hash depende de los clientes y los servidores que usarán el certificado, y de otros equipos y dispositivos con los que los clientes y servidores se comunicarán con quién también debe saber cómo usar los algoritmos que se usan en el emisor. Para obtener información sobre qué longitudes de síntesis son compatibles en el sistema operativo y en algunas<A href="http://go.microsoft.com/fwlink/?linkid=287002">http://go.microsoft.com/fwlink/?LinkId=287002</A>aplicaciones cliente, consulte.
+> La selección de qué algoritmo de firma y Resumen de hash depende de los clientes y los servidores que usarán el certificado, y de otros equipos y dispositivos con los que los clientes y servidores se comunicarán con quién también debe saber cómo usar los algoritmos que se usan en el emisor. Para obtener información sobre qué longitudes de síntesis son compatibles en el sistema operativo y en algunas<A href="https://go.microsoft.com/fwlink/?linkid=287002">https://go.microsoft.com/fwlink/?LinkId=287002</A>aplicaciones cliente, consulte.
 
 
 

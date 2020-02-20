@@ -12,18 +12,18 @@ ms:contentKeyID: 48183430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65908f1b142c72f584c48493023803e5dfd56208
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 043015fb30ca21a697a9758a5fbb4d916b006046
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42031004"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146453"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Configurar Lync Server 2013 para trabajar con la mensajería unificada en Microsoft Exchange Server
 
@@ -57,8 +57,8 @@ Al ejecutar la utilidad de integración de Mensajería unificada de Exchange, se
 > Antes de ejecutar la utilidad de integración de mensajería unificada de Exchange, asegúrese de que ha hecho lo siguiente:
 > <ul>
 > <li><p>Cree uno o más planes de marcado de mensajería unificada de Exchange, como se describe en la documentación del producto de Exchange.</p>
-> <p>Para Microsoft Exchange Server 2010, vea &quot;crear un plan&quot; de marcado de <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>mensajería unificada en.</p>
-> <p>Para Microsoft Exchange Server 2007 Service Pack 1 (SP1), vea &quot;cómo crear un plan&quot; de marcado de URI de SIP de <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>mensajería unificada en.</p></li>
+> <p>Para Microsoft Exchange Server 2010, vea &quot;crear un plan&quot; de marcado de <a href="https://go.microsoft.com/fwlink/p/?linkid=186177">https://go.microsoft.com/fwlink/p/?linkId=186177</a>mensajería unificada en.</p>
+> <p>Para Microsoft Exchange Server 2007 Service Pack 1 (SP1), vea &quot;cómo crear un plan&quot; de marcado de URI de SIP de <a href="https://go.microsoft.com/fwlink/p/?linkid=185771">https://go.microsoft.com/fwlink/p/?linkId=185771</a>mensajería unificada en.</p></li>
 > <li><p>Cree uno o varios planes de marcado de Lync Server correspondiente, tal y como se describe en <a href="lync-server-2013-create-a-dial-plan.md">Create a Dial plan in Lync Server 2013</a>.</p></li>
 > <ul><li>Si usa una versión de Exchange anterior a Microsoft Exchange Server 2010 SP1, debe escribir el nombre de dominio completo (FQDN) del plan de marcado SIP de mensajería unificada de Exchange correspondiente en el campo <STRONG>nombre sencillo</STRONG> del plan de marcado de Lync Server 2013. Si usa Microsoft Exchange Server 2010 SP1 o el último Service Pack, esta coincidencia de nombres de plan de marcado no es necesaria.</li></ul>
 > <li>Crear un operador automático y asegurarse de que tanto el número de acceso del suscriptor y el número del operador automático están en formato E.164.</li></ul>

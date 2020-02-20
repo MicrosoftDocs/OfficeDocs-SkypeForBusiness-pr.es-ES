@@ -12,18 +12,18 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc548446120ae4088d90acb45c258f3f736063d0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f3b397e242a6188f9054810a2ce08521a9940717
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006736"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141856"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Requisitos técnicos para conferencias en Lync Server 2013
 
@@ -194,9 +194,9 @@ La página de configuración de la Conferencia de acceso telefónico local admit
 
 ## <a name="audio-file-requirements-for-dial-in-conferencing"></a>Requisitos de archivo de audio para conferencias de acceso telefónico local
 
-Lync Server 2013 no admite la personalización de mensajes de voz y la música para conferencias de acceso telefónico local. Sin embargo, si tiene una gran necesidad empresarial que requiera cambiar los archivos de audio predeterminados, consulte el artículo de Microsoft Knowledge Base 961177, [How to Customize Voice prompts or files Music for Dial-in audioconferencia in Microsoft Office Communications Server 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
+Lync Server 2013 no admite la personalización de mensajes de voz y la música para conferencias de acceso telefónico local. Sin embargo, si tiene una gran necesidad empresarial que requiera cambiar los archivos de audio predeterminados, consulte el artículo de Microsoft Knowledge Base 961177, [How to Customize Voice prompts or files Music for Dial-in audioconferencia in Microsoft Office Communications Server 2007 R2](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
 
-También puede usar la herramienta de administración de [mensajes de voz personalizados del operador de conferencia de Microsoft Lync Server](http://go.microsoft.com/fwlink/p/?linkid=396880) , que permite a los administradores reemplazar los mensajes de voz predeterminados que se usan cuando un autor de llamada de teléfono se une a una reunión de Lync con mensajes personalizados para proporcionar una experiencia de entrada de reunión diferente. Los mensajes de voz personalizados pueden instalarse en un servidor que ejecute Lync Server 2010 o Lync Server 2013, ya sea Enterprise o Standard Edition.
+También puede usar la herramienta de administración de [mensajes de voz personalizados del operador de conferencia de Microsoft Lync Server](https://go.microsoft.com/fwlink/p/?linkid=396880) , que permite a los administradores reemplazar los mensajes de voz predeterminados que se usan cuando un autor de llamada de teléfono se une a una reunión de Lync con mensajes personalizados para proporcionar una experiencia de entrada de reunión diferente. Los mensajes de voz personalizados pueden instalarse en un servidor que ejecute Lync Server 2010 o Lync Server 2013, ya sea Enterprise o Standard Edition.
 
 La aplicación operador de conferencia y la aplicación anuncio de Conferencia tienen los siguientes requisitos para los archivos de música en espera, nombre grabado y mensajes de audio:
 

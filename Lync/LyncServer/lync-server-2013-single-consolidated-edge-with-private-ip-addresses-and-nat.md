@@ -12,18 +12,18 @@ ms:contentKeyID: 48185691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a798269bf2cd261b6304b5379bfe4fb0852b3716
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 60beb67ec6d2aca79210f06b9a4dabe8370649cb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037500"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142736"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="single-consolidated-edge-with-private-ip-addresses-and-nat-in-lync-server-2013"></a>Servidor perimetral consolidado único con direcciones IP privadas y NAT en Lync Server 2013
 
@@ -107,9 +107,9 @@ Existen tecnologías de traducción de direcciones de red (NAT) para IPv6 que ha
 ## <a name="see-also"></a>Vea también
 
 
-[Arquitectura de direcciones de IP versión 6](http://tools.ietf.org/html/rfc4291)  
-[Formato de dirección de unidifusión global IPv6](http://tools.ietf.org/html/rfc3587)  
-[Direcciones de unidifusión IPv6 locales únicas](http://tools.ietf.org/html/rfc4193)  
+[Arquitectura de direcciones de IP versión 6](https://tools.ietf.org/html/rfc4291)  
+[Formato de dirección de unidifusión global IPv6](https://tools.ietf.org/html/rfc3587)  
+[Direcciones de unidifusión IPv6 locales únicas](https://tools.ietf.org/html/rfc4193)  
   
 
 </div>

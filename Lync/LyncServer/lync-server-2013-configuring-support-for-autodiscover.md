@@ -12,18 +12,18 @@ ms:contentKeyID: 51541463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79511202ddc9e413e313d12f881e7079f088c473
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ee85d984f0d60d4275972982e4ff65b380f0f9b2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046073"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145919"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-support-for-autodiscover-in-lync-server-2013"></a>Configuración de la compatibilidad con detección automática en Lync Server 2013
 
@@ -51,7 +51,7 @@ El servicio Detección automática actúa como una única ubicación para que to
 
 </div>
 
-La siguiente información y tablas definen, por escenario, qué configuraciones debe implementar (si las hay) para proporcionar el uso eficaz y completo del servicio de detección automática. La información de los siguientes temas es específica de Microsoft Lync Server 2013. Si está buscando instrucciones sobre cómo planear la movilidad para Lync Server 2010, consulte [http://go.microsoft.com/fwlink/?LinkId=275113](http://go.microsoft.com/fwlink/?linkid=275113). Para implementar Mobility para Lync Server 2010, consulte[http://go.microsoft.com/fwlink/?LinkId=275114](http://go.microsoft.com/fwlink/?linkid=275114)
+La siguiente información y tablas definen, por escenario, qué configuraciones debe implementar (si las hay) para proporcionar el uso eficaz y completo del servicio de detección automática. La información de los siguientes temas es específica de Microsoft Lync Server 2013. Si está buscando instrucciones sobre cómo planear la movilidad para Lync Server 2010, consulte [https://go.microsoft.com/fwlink/?LinkId=275113](https://go.microsoft.com/fwlink/?linkid=275113). Para implementar Mobility para Lync Server 2010, consulte[https://go.microsoft.com/fwlink/?LinkId=275114](https://go.microsoft.com/fwlink/?linkid=275114)
 
 <div>
 

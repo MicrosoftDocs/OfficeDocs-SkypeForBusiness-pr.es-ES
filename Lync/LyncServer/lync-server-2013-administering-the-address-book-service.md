@@ -12,18 +12,18 @@ ms:contentKeyID: 48184649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ea7a68d77acd7bbaf3de43fce38c0e85c02dad4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 45dbc2c71cf34515f8f6176e4f579e6683ad319e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037280"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146263"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="administering-the-address-book-service-in-lync-server-2013"></a>Administración del servicio de libreta de direcciones en Lync Server 2013
 
@@ -43,7 +43,7 @@ Como parte de la implementación de Lync Server, Enterprise Edition o Standard E
 
 
 > [!NOTE]  
-> Para obtener información acerca del uso del editor <STRONG>ADSI</STRONG> para editar atributos de objeto de servicios de dominio de Active Directory, consulte <A href="http://go.microsoft.com/fwlink/?linkid=330427">edición de ADSI</A>. Para obtener información sobre una herramienta del kit de recursos específica para el servicio de libreta de direcciones, consulte <A href="http://go.microsoft.com/fwlink/?linkid=330429">las herramientas del kit de recursos de Microsoft Lync Server 2013</A>.
+> Para obtener información acerca del uso del editor <STRONG>ADSI</STRONG> para editar atributos de objeto de servicios de dominio de Active Directory, consulte <A href="https://go.microsoft.com/fwlink/?linkid=330427">edición de ADSI</A>. Para obtener información sobre una herramienta del kit de recursos específica para el servicio de libreta de direcciones, consulte <A href="https://go.microsoft.com/fwlink/?linkid=330429">las herramientas del kit de recursos de Microsoft Lync Server 2013</A>.
 
 
 
@@ -100,12 +100,12 @@ La activación del servidor de la libreta de direcciones rellena la tabla ABAttr
 <td><p>0x03420000</p></td>
 </tr>
 <tr class="even">
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Título</p></td>
 <td><p>0x04000000</p></td>
 </tr>
 <tr class="odd">
-<td><p>5 </p></td>
+<td><p>2,5</p></td>
 <td><p>mailNickname</p></td>
 <td><p>0x05400000</p></td>
 </tr>
@@ -298,7 +298,7 @@ Puede usar ciertos bits de indicador para definir un filtro que se vaya a usar e
 
 
 > [!WARNING]  
-> Para obtener más información acerca de cómo filtrar la libreta de direcciones, consulte <A href="https://technet.microsoft.com/library/gg415643(v=ocs.15)">cmdlets del servidor de libreta de direcciones en Lync Server 2013</A>y <A href="http://go.microsoft.com/fwlink/?linkid=330430">filtrar la libreta de direcciones de Lync 2013</A>
+> Para obtener más información acerca de cómo filtrar la libreta de direcciones, consulte <A href="https://technet.microsoft.com/library/gg415643(v=ocs.15)">cmdlets del servidor de libreta de direcciones en Lync Server 2013</A>y <A href="https://go.microsoft.com/fwlink/?linkid=330430">filtrar la libreta de direcciones de Lync 2013</A>
 
 
 

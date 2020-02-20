@@ -12,18 +12,18 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57e48e0ee3e7ef2b9a755ecbd64afaa0f2ce3c2e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9f69d243079d0a2b2a6a9fc4a233e3c9854de158
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043022"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145619"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>Configurar la mensajería unificada en Microsoft Exchange para Lync Server 2013
 
@@ -70,11 +70,11 @@ En este tema se describe cómo configurar la mensajería unificada (MU) de Excha
     ```
     Para más información, vea:
     
-      - Para Office Communications Server 2007, consulte "cómo crear un plan de marcado de URI de SIP de mensajería [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) unificada" en y "New-UMDialplan: Exchange [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666)2007 Help" en.
+      - Para Office Communications Server 2007, consulte "cómo crear un plan de marcado de URI de SIP de mensajería [https://go.microsoft.com/fwlink/p/?LinkId=268632](https://go.microsoft.com/fwlink/p/?linkid=268632) unificada" en y "New-UMDialplan: Exchange [https://go.microsoft.com/fwlink/p/?LinkId=268666](https://go.microsoft.com/fwlink/p/?linkid=268666)2007 Help" en.
     
-      - Para Exchange 2010, consulte "crear un plan de marcado de mensajería [http://go.microsoft.com/fwlink/p/?LinkId=268674](http://go.microsoft.com/fwlink/p/?linkid=268674) unificada" en y "New-UMDialplan: Exchange [http://go.microsoft.com/fwlink/p/?LinkId=268680](http://go.microsoft.com/fwlink/p/?linkid=268680)2010 Help" en.
+      - Para Exchange 2010, consulte "crear un plan de marcado de mensajería [https://go.microsoft.com/fwlink/p/?LinkId=268674](https://go.microsoft.com/fwlink/p/?linkid=268674) unificada" en y "New-UMDialplan: Exchange [https://go.microsoft.com/fwlink/p/?LinkId=268680](https://go.microsoft.com/fwlink/p/?linkid=268680)2010 Help" en.
     
-      - Para Exchange 2013, consulte "mensajería unificada" [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)en.
+      - Para Exchange 2013, consulte "mensajería unificada" [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)en.
     
     <div>
     
@@ -93,11 +93,11 @@ En este tema se describe cómo configurar la mensajería unificada (MU) de Excha
     
     Para más información, vea:
     
-      - Para Exchange 2007, consulte "Get-UMDialplan: Exchange 2007 Help" en [http://go.microsoft.com/fwlink/p/?LinkId=268678](http://go.microsoft.com/fwlink/p/?linkid=268678).
+      - Para Exchange 2007, consulte "Get-UMDialplan: Exchange 2007 Help" en [https://go.microsoft.com/fwlink/p/?LinkId=268678](https://go.microsoft.com/fwlink/p/?linkid=268678).
     
-      - Para Exchange 2010, consulte "Get-UMDialplan: Exchange 2010 Help" en [http://go.microsoft.com/fwlink/p/?LinkId=268679](http://go.microsoft.com/fwlink/p/?linkid=268679).
+      - Para Exchange 2010, consulte "Get-UMDialplan: Exchange 2010 Help" en [https://go.microsoft.com/fwlink/p/?LinkId=268679](https://go.microsoft.com/fwlink/p/?linkid=268679).
     
-      - Para Exchange 2013, consulte "mensajería unificada" [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)en.
+      - Para Exchange 2013, consulte "mensajería unificada" [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)en.
 
 3.  Registre el nombre de plan de marcado de cada uno de los planes de marcado de Mensajería unificada. En función de la versión de Exchange Server, es posible que deba usar el FQDN de cada nombre de plan de marcado más adelante como nombre del plan de marcado de Lync Server correspondiente a cada plan de marcado de MU para que los nombres del plan de marcado sean coincidentes.
     
@@ -114,11 +114,11 @@ En este tema se describe cómo configurar la mensajería unificada (MU) de Excha
     
       - Si decide usar la Consola de administración de Exchange, puede agregar el plan de marcado desde la hoja de propiedades del servidor. Para obtener instrucciones específicas, consulte la documentación de producto de Exchange Server.
         
-        Para Exchange 2007, consulte "cómo agregar un servidor de mensajería unificada a un plan de [http://go.microsoft.com/fwlink/p/?LinkId=268681](http://go.microsoft.com/fwlink/p/?linkid=268681)marcado" en.
+        Para Exchange 2007, consulte "cómo agregar un servidor de mensajería unificada a un plan de [https://go.microsoft.com/fwlink/p/?LinkId=268681](https://go.microsoft.com/fwlink/p/?linkid=268681)marcado" en.
         
-        Para Exchange 2010, consulte "ver o configurar las propiedades de un servidor de mensajería unificada" en [http://go.microsoft.com/fwlink/p/?LinkId=268682](http://go.microsoft.com/fwlink/p/?linkid=268682).
+        Para Exchange 2010, consulte "ver o configurar las propiedades de un servidor de mensajería unificada" en [https://go.microsoft.com/fwlink/p/?LinkId=268682](https://go.microsoft.com/fwlink/p/?linkid=268682).
         
-        Para Exchange 2013, consulte "mensajería unificada" [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)en.
+        Para Exchange 2013, consulte "mensajería unificada" [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)en.
     
       - Si usa el Shell de administración de Exchange, ejecute lo siguiente para cada uno de los servidores de mensajería unificada de Exchange:
         ```powershell
@@ -131,7 +131,7 @@ En este tema se describe cómo configurar la mensajería unificada (MU) de Excha
     
 
     > [!NOTE]  
-    > Antes de realizar el siguiente paso, asegúrese de que todos los usuarios de Enterprise Voice se hayan configurado con un buzón de correo de Exchange Server.<BR>Para Exchange 2007, consulte la biblioteca de TechNet de Exchange Server <A href="http://go.microsoft.com/fwlink/p/?linkid=268685">http://go.microsoft.com/fwlink/p/?LinkId=268685</A>2007 en.<BR>Para Exchange 2010, consulte la biblioteca de TechNet de Exchange Server <A href="http://go.microsoft.com/fwlink/p/?linkid=268686">http://go.microsoft.com/fwlink/p/?LinkId=268686</A>2010 en.<BR>A la hora de especificar una directiva de buzón de correo para cada plan de marcado creado en el paso 1, seleccione la directiva predeterminada o una que haya creado.
+    > Antes de realizar el siguiente paso, asegúrese de que todos los usuarios de Enterprise Voice se hayan configurado con un buzón de correo de Exchange Server.<BR>Para Exchange 2007, consulte la biblioteca de TechNet de Exchange Server <A href="https://go.microsoft.com/fwlink/p/?linkid=268685">https://go.microsoft.com/fwlink/p/?LinkId=268685</A>2007 en.<BR>Para Exchange 2010, consulte la biblioteca de TechNet de Exchange Server <A href="https://go.microsoft.com/fwlink/p/?linkid=268686">https://go.microsoft.com/fwlink/p/?LinkId=268686</A>2010 en.<BR>A la hora de especificar una directiva de buzón de correo para cada plan de marcado creado en el paso 1, seleccione la directiva predeterminada o una que haya creado.
 
     
     </div>
@@ -181,9 +181,9 @@ En este tema se describe cómo configurar la mensajería unificada (MU) de Excha
         ```powershell
         Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
         ```
-        Para Exchange 2007, consulte "Set-UMIPGateway: ayuda de Exchange 2007" [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687)en.
+        Para Exchange 2007, consulte "Set-UMIPGateway: ayuda de Exchange 2007" [https://go.microsoft.com/fwlink/p/?LinkId=268687](https://go.microsoft.com/fwlink/p/?linkid=268687)en.
         
-        Para Exchange 2010, consulte "Set-UMIPGateway: ayuda de Exchange 2010" [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688)en.
+        Para Exchange 2010, consulte "Set-UMIPGateway: ayuda de Exchange 2010" [https://go.microsoft.com/fwlink/p/?LinkId=268688](https://go.microsoft.com/fwlink/p/?linkid=268688)en.
     
       - Si utiliza la Consola de administración de Exchange, desactive la casilla **Permitir llamadas realizadas a través de esta puerta de enlace IP de MU**.
     
@@ -212,9 +212,9 @@ En este tema se describe cómo configurar la mensajería unificada (MU) de Excha
     ```
     Para obtener más información, consulte:
     
-      - Para Exchange 2007, consulte "New-UMAutoAttendant: Exchange 2007 Help" en [http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689).
+      - Para Exchange 2007, consulte "New-UMAutoAttendant: Exchange 2007 Help" en [https://go.microsoft.com/fwlink/p/?LinkId=268689](https://go.microsoft.com/fwlink/p/?linkid=268689).
     
-      - Para Exchange 2010, consulte "New-UMAutoAttendant: Exchange 2010 Help" en [http://go.microsoft.com/fwlink/p/?LinkId=268690](http://go.microsoft.com/fwlink/p/?linkid=268690).
+      - Para Exchange 2010, consulte "New-UMAutoAttendant: Exchange 2010 Help" en [https://go.microsoft.com/fwlink/p/?LinkId=268690](https://go.microsoft.com/fwlink/p/?linkid=268690).
     
     El siguiente paso debe realizarse para cada usuario después de haber habilitado a los usuarios de Lync Server para la telefonía IP empresarial y conocer sus URI de SIP.
 
@@ -234,9 +234,9 @@ En este tema se describe cómo configurar la mensajería unificada (MU) de Excha
     ```
     Para más información, vea:
     
-      - Para Exchange 2007, consulte "Enable-UMMailbox: Exchange 2007 Help" [http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691)en.
+      - Para Exchange 2007, consulte "Enable-UMMailbox: Exchange 2007 Help" [https://go.microsoft.com/fwlink/p/?LinkId=268691](https://go.microsoft.com/fwlink/p/?linkid=268691)en.
     
-      - Para Exchange 2010, consulte "Enable-UMMailbox: Exchange 2010 Help" [http://go.microsoft.com/fwlink/p/?LinkId=268692](http://go.microsoft.com/fwlink/p/?linkid=268692)en.
+      - Para Exchange 2010, consulte "Enable-UMMailbox: Exchange 2010 Help" [https://go.microsoft.com/fwlink/p/?LinkId=268692](https://go.microsoft.com/fwlink/p/?linkid=268692)en.
 
 </div>
 

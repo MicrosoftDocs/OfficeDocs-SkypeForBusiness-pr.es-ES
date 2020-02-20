@@ -12,18 +12,18 @@ ms:contentKeyID: 48183938
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da38ead0e1d27ef1024d8aac2ea030d2815e6cad
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fca31c97e0d059cda9f6b39a0e17e8350a37cf52
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037852"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145028"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a>Agregar una aplicación de sucursal con funciones de supervivencia a Active Directory en Lync Server 2013
 

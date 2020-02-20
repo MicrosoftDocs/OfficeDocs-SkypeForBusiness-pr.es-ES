@@ -12,18 +12,18 @@ ms:contentKeyID: 48183972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9712d196f485c51d720245903739387befb49dd3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c8787327b386157211e4d83317520358edfec7b5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051826"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144817"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a>Permisos y requisitos previos de configuración de grupos de respuesta en Lync Server 2013
 
@@ -186,7 +186,7 @@ El primer paso para configurar el grupo de respuesta es crear grupos de agentes.
 
 Solo debe tener en cuenta esta sección si su organización necesita cumplir los Estándares federales de procesamiento de información (FIPS).
 
-Para cumplir los FIPS, modifique el archivo Web.config del nivel de aplicación para usar otro algoritmo de criptografía diferente después de instalar los servicios web. Especifique que ASP.NET usa el algoritmo Triple Data Encryption Standard (3DES) para procesar los datos de ver estado. Para la aplicación de grupo de respuesta, este requisito se aplica a la herramienta de configuración del grupo de respuesta y a la consola de inicio y cierre de sesión del agente. Para obtener más información acerca de este requisito, consulte el artículo 911722 de Microsoft Knowledge base, "puede recibir un mensaje de error cuando obtiene acceso a páginas web de ASP.NET que tienen habilitado ViewState después de la actualización de [http://go.microsoft.com/fwlink/p/?linkId=196183](http://go.microsoft.com/fwlink/p/?linkid=196183)ASP.net 1,1 a ASP.net 2,0" en.
+Para cumplir los FIPS, modifique el archivo Web.config del nivel de aplicación para usar otro algoritmo de criptografía diferente después de instalar los servicios web. Especifique que ASP.NET usa el algoritmo Triple Data Encryption Standard (3DES) para procesar los datos de ver estado. Para la aplicación de grupo de respuesta, este requisito se aplica a la herramienta de configuración del grupo de respuesta y a la consola de inicio y cierre de sesión del agente. Para obtener más información acerca de este requisito, consulte el artículo 911722 de Microsoft Knowledge base, "puede recibir un mensaje de error cuando obtiene acceso a páginas web de ASP.NET que tienen habilitado ViewState después de la actualización de [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183)ASP.net 1,1 a ASP.net 2,0" en.
 
 Para modificar el archivo Web.config:
 
@@ -216,7 +216,7 @@ Solo debe tener en cuenta esta sección si su organización necesita admitir car
 
 
 > [!NOTE]  
-> Para obtener información sobre los caracteres Yi, Meng y Zang y por qué son importantes para la implementación, consulte la información de los juegos <A href="http://go.microsoft.com/fwlink/p/?linkid=240223">http://go.microsoft.com/fwlink/p/?linkId=240223</A>de caracteres GB18030.
+> Para obtener información sobre los caracteres Yi, Meng y Zang y por qué son importantes para la implementación, consulte la información de los juegos <A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A>de caracteres GB18030.
 
 
 
@@ -236,9 +236,9 @@ Para permitir la compatibilidad con caracteres Yi, Meng o Zang, debe modificar l
 
 Para SQL Server 2008 R2 y SQL Server 2012, use la intercalación de Latin\_general\_100 (sensible a la marca de acento). Si usa esta intercalación, los nombres de objetos no distinguirán entre mayúsculas y minúsculas.
 
-Puede cambiar la intercalación usando Microsoft SQL Server Management Studio. Para obtener más información acerca del uso de esta herramienta, consulte "uso de SQL [http://go.microsoft.com/fwlink/p/?linkId=196184](http://go.microsoft.com/fwlink/p/?linkid=196184)Server Management Studio" en. Siga estos pasos para cambiar la intercalación:
+Puede cambiar la intercalación usando Microsoft SQL Server Management Studio. Para obtener más información acerca del uso de esta herramienta, consulte "uso de SQL [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184)Server Management Studio" en. Siga estos pasos para cambiar la intercalación:
 
-1.  Asegúrese de que SQL Server Management Studio está configurado para permitir los cambios que requieren que las tablas se vuelvan a crear. Para obtener más información, vea "cuadro de diálogo Guardar (no permitido [http://go.microsoft.com/fwlink/p/?linkId=196186](http://go.microsoft.com/fwlink/p/?linkid=196186))" en. Para obtener información detallada sobre cómo establecer una intercalación de columna, vea "Cómo: establecer la intercalación de columnas [http://go.microsoft.com/fwlink/p/?linkId=196185](http://go.microsoft.com/fwlink/p/?linkid=196185)(Visual Database Tools)" en.
+1.  Asegúrese de que SQL Server Management Studio está configurado para permitir los cambios que requieren que las tablas se vuelvan a crear. Para obtener más información, vea "cuadro de diálogo Guardar (no permitido [https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186))" en. Para obtener información detallada sobre cómo establecer una intercalación de columna, vea "Cómo: establecer la intercalación de columnas [https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185)(Visual Database Tools)" en.
 
 2.  Usando Microsoft SQL Server Management Studio, conéctese a la base de datos de Rgsconfig.
 

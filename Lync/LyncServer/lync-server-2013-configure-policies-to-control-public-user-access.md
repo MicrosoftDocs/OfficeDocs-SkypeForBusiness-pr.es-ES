@@ -12,18 +12,18 @@ ms:contentKeyID: 48183343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e3993c2259d42bfa632394cb3c9acaf70f26cdc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 12a6e5d94cef7c9f25bb1c4091a981603f66da82
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035302"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145939"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-policies-to-control-public-user-access-in-lync-server-2013"></a>Configurar directivas para controlar el acceso de usuarios públicos en Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42035302"
 
 _**Última modificación del tema:** 2013-10-07_
 
-La conectividad de mensajería instantánea pública permite a los usuarios de su organización usar la mensajería instantánea para comunicarse con los usuarios de los servicios de mensajería instantánea proporcionados por los proveedores de servicios de mensajería instantánea pública\!, incluida la red de Windows Live de servicios de Internet, Yahoo y AOL. Configure una o más directivas de acceso de usuarios externos para controlar si los usuarios públicos pueden colaborar con usuarios internos de Lync Server. La conectividad de mensajería instantánea pública es una característica agregada que se basa en la configuración de la implementación y los usuarios. También depende del aprovisionamiento del servicio en el proveedor de mi pública. Para obtener información sobre cómo aprovisionar la implementación para usar los proveedores públicos, consulte la guía de aprovisionamiento de la conectividad de mensajería instantánea pública para Microsoft Lync Server, Office Communications Server y Live Communications Server.[http://go.microsoft.com/fwlink/?LinkId=269821](http://go.microsoft.com/fwlink/?linkid=269821)
+La conectividad de mensajería instantánea pública permite a los usuarios de su organización usar la mensajería instantánea para comunicarse con los usuarios de los servicios de mensajería instantánea proporcionados por los proveedores de servicios de mensajería instantánea pública\!, incluida la red de Windows Live de servicios de Internet, Yahoo y AOL. Configure una o más directivas de acceso de usuarios externos para controlar si los usuarios públicos pueden colaborar con usuarios internos de Lync Server. La conectividad de mensajería instantánea pública es una característica agregada que se basa en la configuración de la implementación y los usuarios. También depende del aprovisionamiento del servicio en el proveedor de mi pública. Para obtener información sobre cómo aprovisionar la implementación para usar los proveedores públicos, consulte la guía de aprovisionamiento de la conectividad de mensajería instantánea pública para Microsoft Lync Server, Office Communications Server y Live Communications Server.[https://go.microsoft.com/fwlink/?LinkId=269821](https://go.microsoft.com/fwlink/?linkid=269821)
 
 <div>
 
@@ -55,7 +55,7 @@ La conectividad de mensajería instantánea pública permite a los usuarios de s
 
 </div>
 
-Para obtener acceso al sitio de aprovisionamiento de conectividad de mensajería instantánea pública de Microsoft Lync Server, use el siguiente vínculo:[http://go.microsoft.com/fwlink/p/?linkId=212638](http://go.microsoft.com/fwlink/p/?linkid=212638)
+Para obtener acceso al sitio de aprovisionamiento de conectividad de mensajería instantánea pública de Microsoft Lync Server, use el siguiente vínculo:[https://go.microsoft.com/fwlink/p/?linkId=212638](https://go.microsoft.com/fwlink/p/?linkid=212638)
 
 Puede configurar directivas de nivel global, de sitio y de usuario para controlar el acceso de usuarios públicos. Para obtener más información sobre los tipos de directivas que puede configurar, consulte [Configuring Support for external User Access in Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) en la documentación sobre implementación o la documentación referente a la planeación. La configuración de la Directiva de Lync Server que se aplica en un nivel de Directiva puede invalidar la configuración que se aplica en otro nivel de directiva. La prioridad de la Directiva de Lync Server es: la Directiva de usuario (más influencia) reemplaza una directiva de sitio y, a continuación, una directiva de sitio invalida una directiva global (menor influencia). Esto significa que cuanto más cerca esté la configuración de la Directiva, el objeto al que afecta la Directiva, más influencia tendrá en el objeto.
 

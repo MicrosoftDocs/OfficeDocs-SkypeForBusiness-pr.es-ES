@@ -12,18 +12,18 @@ ms:contentKeyID: 63969638
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84e4a79f511247b3c335872b7a1ec31fb9f2201e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f5885ed34fd28f06b9a7d8c4f95abc29d3b5e147
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42021331"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141666"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>Probar la capacidad de los usuarios móviles para intercambiar mensajes instantáneos en Lync Server 2013
 
@@ -179,7 +179,7 @@ Una vez que conoce el nombre de la Directiva, use el cmdlet Get-CsMobilityPolicy
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-Si recibe un mensaje de error con encabezados de autenticación, a menudo significa que no ha especificado una cuenta de usuario válida. Compruebe el nombre de usuario y la contraseña y, a continuación, vuelva a intentar la prueba. Si está convencido de que la cuenta de usuario es válida, use el cmdlet Get-CsWebServiceConfiguration y compruebe el valor de la propiedad UseWindowsAuth. Esto le dirá qué métodos de autenticación están habilitados en la organización. Para obtener más información sobre cómo solucionar problemas del servicio de movilidad, vea el blog de [Troubleshooting external Lync Mobility Connectivity issues Step-by-Step](http://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).
+Si recibe un mensaje de error con encabezados de autenticación, a menudo significa que no ha especificado una cuenta de usuario válida. Compruebe el nombre de usuario y la contraseña y, a continuación, vuelva a intentar la prueba. Si está convencido de que la cuenta de usuario es válida, use el cmdlet Get-CsWebServiceConfiguration y compruebe el valor de la propiedad UseWindowsAuth. Esto le dirá qué métodos de autenticación están habilitados en la organización. Para obtener más información sobre cómo solucionar problemas del servicio de movilidad, vea el blog de [Troubleshooting external Lync Mobility Connectivity issues Step-by-Step](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 199191b8e87ba7f46956ff92fcda7239ff27dc5c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c6eb9a3db2f9b3a14726fb7ffbec05b96b15ec81
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029851"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142446"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Topologías de Active Directory admitidas en Lync Server 2013
 
@@ -159,7 +159,7 @@ El siguiente diagrama ilustra una topología de bosque de recursos.
 
 En esta topología, uno o más bosques se encuentran en local y se dedican a hospedar cuentas de usuario de Active Directory. El bosque de recursos se encuentra fuera de la organización y lo mantiene un proveedor de hospedaje de terceros. El bosque de recursos contiene solo la implementación de Lync Server y una replicación sincronizada de las cuentas de usuario desde el bosque o las cuentas de usuario locales. No contiene cuentas de usuario habilitadas para inicio de sesión. Exchange se implementa en los bosques de cuentas de usuario locales integrados junto con Exchange Online (híbrido), o los servicios de correo electrónico para las cuentas de usuario locales se proporcionan exclusivamente por parte de Exchange Online.
 
-El bosque de recursos actúa como un entorno de servicios compartidos para el bosque o los bosques de Active Directory locales donde residen los objetos de usuario. Los bosques de cuentas de usuario tienen una relación de confianza de nivel de bosque unidireccional con el bosque de recursos. Al implementar Lync Server en este tipo de topología, se crea un objeto de usuario deshabilitado en el bosque de recursos para cada cuenta de usuario en los bosques de usuarios. Un producto de sincronización de directorios, como MIIS, Microsoft Forefront Identity Manager (FIM) 2010 o Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), administra el ciclo de vida de las cuentas de usuario. Cuando se crea una nueva cuenta de usuario en uno de los bosques de usuarios o se elimina una cuenta de usuario de un bosque, el producto de sincronización de directorios sincroniza la representación de usuario correspondiente en el bosque de recursos. Para obtener más información acerca de la configuración de una implementación de varios bosques, vea [Deploying Lync in a multi-Forest Architecture (Partner Hosted Lync with Exchange Hybrid)](http://go.microsoft.com/fwlink/p/?linkid=513216).
+El bosque de recursos actúa como un entorno de servicios compartidos para el bosque o los bosques de Active Directory locales donde residen los objetos de usuario. Los bosques de cuentas de usuario tienen una relación de confianza de nivel de bosque unidireccional con el bosque de recursos. Al implementar Lync Server en este tipo de topología, se crea un objeto de usuario deshabilitado en el bosque de recursos para cada cuenta de usuario en los bosques de usuarios. Un producto de sincronización de directorios, como MIIS, Microsoft Forefront Identity Manager (FIM) 2010 o Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), administra el ciclo de vida de las cuentas de usuario. Cuando se crea una nueva cuenta de usuario en uno de los bosques de usuarios o se elimina una cuenta de usuario de un bosque, el producto de sincronización de directorios sincroniza la representación de usuario correspondiente en el bosque de recursos. Para obtener más información acerca de la configuración de una implementación de varios bosques, vea [Deploying Lync in a multi-Forest Architecture (Partner Hosted Lync with Exchange Hybrid)](https://go.microsoft.com/fwlink/p/?linkid=513216).
 
 </div>
 

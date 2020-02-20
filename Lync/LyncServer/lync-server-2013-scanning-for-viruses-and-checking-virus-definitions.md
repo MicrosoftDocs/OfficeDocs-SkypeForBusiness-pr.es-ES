@@ -12,18 +12,18 @@ ms:contentKeyID: 63969589
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1825b96cc4ef2c0c71e04b369f1cf116b8070eb4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1bc6704329dbc124bb61f779bf773a1f55bd72d2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049602"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144218"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a>Detección de virus y comprobación de definiciones de virus en Lync Server 2013
 
@@ -47,7 +47,7 @@ Es muy importante mantener actualizados los motores de análisis y las definicio
 
 
 > [!IMPORTANT]  
-> Cuando se usa un software antivirus de nivel de archivo de un tercero en un servidor que ejecuta Lync Server 2013 y Forefront Security para Lync Server, asegúrese de que no se analizan las carpetas en las que Forefront Security para Lync Server y Lync Server están instalados, para evitar que sus daños. Para obtener una lista completa de las exclusiones <A class=uri href="http://support.microsoft.com/kb/943620">http://support.microsoft.com/kb/943620</A>, consulte.
+> Cuando se usa un software antivirus de nivel de archivo de un tercero en un servidor que ejecuta Lync Server 2013 y Forefront Security para Lync Server, asegúrese de que no se analizan las carpetas en las que Forefront Security para Lync Server y Lync Server están instalados, para evitar que sus daños. Para obtener una lista completa de las exclusiones <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A>, consulte.
 
 
 

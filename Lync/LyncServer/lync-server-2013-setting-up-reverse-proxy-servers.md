@@ -12,18 +12,18 @@ ms:contentKeyID: 48183225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cd5b57c29a622b7c0f051b00bb0ef30e265743e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f0d00b30100b9203c82df0a2fc8ed8c4c593dfb0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040839"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143004"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>Configuración de servidores proxy inversos para Lync Server 2013
 
@@ -65,7 +65,7 @@ Puede usar Microsoft Forefront Threat Management Gateway 2010, Microsoft Interne
 
 
 > [!IMPORTANT]  
-> El enrutamiento de solicitudes de aplicaciones de Internet Information Server (IIS ARR) es una opción completamente probada y admitida para implementar un proxy inverso para Lync Server 2010 y Lync Server 2013. En noviembre de 2012, Microsoft ha cesado las ventas de licencias de ForeFront Threat Management Gateway 2010 o TMG. TMG sigue siendo un producto totalmente compatible y sigue disponible para la venta en los dispositivos que venden otros fabricantes. Además, muchos equilibradores de carga de hardware y firewalls de terceros proporcionan compatibilidad con proxy inverso. Para los equilibradores de carga de hardware y los firewalls que proporcionan características de proxy inverso, consulte al proveedor para obtener instrucciones específicas sobre cómo configurar su producto para proporcionar compatibilidad con un proxy inverso para Lync Server. También puede ver a Microsoft otros fabricantes que han enviado documentación sobre su producto. El soporte técnico es proporcionado por el tercero para su soluci? a. Para ver los terceros que están activos en la oferta de soluciones, consulte <A href="http://go.microsoft.com/fwlink/?linkid=268730">infraestructura apta para Microsoft Lync</A>.
+> El enrutamiento de solicitudes de aplicaciones de Internet Information Server (IIS ARR) es una opción completamente probada y admitida para implementar un proxy inverso para Lync Server 2010 y Lync Server 2013. En noviembre de 2012, Microsoft ha cesado las ventas de licencias de ForeFront Threat Management Gateway 2010 o TMG. TMG sigue siendo un producto totalmente compatible y sigue disponible para la venta en los dispositivos que venden otros fabricantes. Además, muchos equilibradores de carga de hardware y firewalls de terceros proporcionan compatibilidad con proxy inverso. Para los equilibradores de carga de hardware y los firewalls que proporcionan características de proxy inverso, consulte al proveedor para obtener instrucciones específicas sobre cómo configurar su producto para proporcionar compatibilidad con un proxy inverso para Lync Server. También puede ver a Microsoft otros fabricantes que han enviado documentación sobre su producto. El soporte técnico es proporcionado por el tercero para su soluci? a. Para ver los terceros que están activos en la oferta de soluciones, consulte <A href="https://go.microsoft.com/fwlink/?linkid=268730">infraestructura apta para Microsoft Lync</A>.
 
 
 
@@ -94,27 +94,27 @@ Los siguientes temas y procedimientos usan Forefront Threat Management Gateway 2
 Para implementar correctamente Forefront Threat Management Gateway 2010 como su proxy inverso, debe instalar y configurar un servidor, usando los requisitos previos y los requisitos de hardware definidos en la documentación de Forefront Threat Management Gateway 2010. Consulte el siguiente tema establecido para configurar correctamente el hardware e instalar Forefront Threat Management Gateway 2010 en el servidor antes de continuar.
 
   - <span></span>  
-    [Forefront Threat Management Gateway (TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
+    [Forefront Threat Management Gateway (TMG) 2010](https://go.microsoft.com/fwlink/?linkid=291292)
 
   - <span></span>  
-    [Recomendaciones de hardware de Forefront TMG 2010](http://go.microsoft.com/fwlink/?linkid=291293)
+    [Recomendaciones de hardware de Forefront TMG 2010](https://go.microsoft.com/fwlink/?linkid=291293)
 
 Para implementar correctamente IIS ARR como su proxy inverso, revise los siguientes temas para configurar el hardware y el software necesario como requisito previo.
 
   - <span></span>  
-    Para instalar IIS en Windows Server 2008 o Windows Server 2008 R2, vea [instalación de IIS 7 en Windows server 2008 o Windows server 2008 R2](http://go.microsoft.com/fwlink/?linkid=291296)
+    Para instalar IIS en Windows Server 2008 o Windows Server 2008 R2, vea [instalación de IIS 7 en Windows server 2008 o Windows server 2008 R2](https://go.microsoft.com/fwlink/?linkid=291296)
 
   - <span></span>  
-    Para instalar IIS en Windows Server 2012, vea [instalar IIS 8 en Windows server 2012](http://go.microsoft.com/fwlink/?linkid=291297)
+    Para instalar IIS en Windows Server 2012, vea [instalar IIS 8 en Windows server 2012](https://go.microsoft.com/fwlink/?linkid=291297)
 
   - <span></span>  
-    Para instalar IIS en Windows Server 2012 R2, vea [Installing iis 8,5 on Windows server 2012 R2](http://go.microsoft.com/fwlink/?linkid=330687)
+    Para instalar IIS en Windows Server 2012 R2, vea [Installing iis 8,5 on Windows server 2012 R2](https://go.microsoft.com/fwlink/?linkid=330687)
 
   - <span></span>  
-    Para descargar la extensión de enrutamiento de solicitudes de aplicación para IIS, siga las instrucciones que se indican en [descarga de enrutamiento de solicitud de aplicación v 2.5](http://go.microsoft.com/fwlink/?linkid=291298)
+    Para descargar la extensión de enrutamiento de solicitudes de aplicación para IIS, siga las instrucciones que se indican en [descarga de enrutamiento de solicitud de aplicación v 2.5](https://go.microsoft.com/fwlink/?linkid=291298)
 
   - <span></span>  
-    Para instalar ARR, siga las instrucciones de [install Application request Routing Routing version 2](http://go.microsoft.com/fwlink/?linkid=291299) .
+    Para instalar ARR, siga las instrucciones de [install Application request Routing Routing version 2](https://go.microsoft.com/fwlink/?linkid=291299) .
     
     <div>
     

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0b4b0f24523044169ae3274ae4d0ff16ae9ff67
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b5b2d730181426d5b23463816d13a6f3b0e502b0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044992"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146923"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="device-hardware-support-in-lync-server-2013"></a>Compatibilidad de hardware de dispositivos en Lync Server 2013
 
@@ -53,7 +53,7 @@ Además, si la implementación incluye dispositivos analógicos, debe configurar
 
   - Una aplicación de sucursal con funciones de supervivencia que incluya una puerta de enlace RTC que se comunique con un ATA
 
-Para obtener información sobre cómo configurar una puerta [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537) de enlace analógica, vea "planeación para implementar dispositivos analógicos" en la biblioteca de TechNet de 2010 de Lync Server. (Los dispositivos analógicos funcionan del mismo modo en Lync Server 2013 que en Lync Server 2010).
+Para obtener información sobre cómo configurar una puerta [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) de enlace analógica, vea "planeación para implementar dispositivos analógicos" en la biblioteca de TechNet de 2010 de Lync Server. (Los dispositivos analógicos funcionan del mismo modo en Lync Server 2013 que en Lync Server 2010).
 
 <div>
 

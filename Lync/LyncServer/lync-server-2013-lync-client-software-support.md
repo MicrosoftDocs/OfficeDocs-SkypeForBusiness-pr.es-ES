@@ -12,18 +12,18 @@ ms:contentKeyID: 48184994
 ms.date: 02/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 913a484262d9e1b3a899aeda42c5f23049d8c73c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2bdc3ee4b25e6e60dfb22ae7a1abe3c6bf7b2cb0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030924"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145789"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-client-software-support-in-lync-server-2013"></a>Compatibilidad de software de cliente de Lync en Lync Server 2013
 
@@ -124,9 +124,9 @@ En esta sección se resume la compatibilidad de software para Lync 2013 y el com
 
 Lync 2013 solo está disponible para Windows. Sin embargo, Lync Server 2013 admite los siguientes clientes en equipos que ejecutan Mac OS 10.5.8 o sistemas operativos más recientes de Service Pack o versiones (basados en Intel) (no se admite actualmente el sistema operativo Mac OS 10,9). Para obtener más información sobre las características admitidas, consulte [Client Comparison tables for Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).
 
-  - Microsoft Lync para Mac 2011 (consulte la "Guía de implementación de Lync para Mac [http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786)2011" en la)
+  - Microsoft Lync para Mac 2011 (consulte la "Guía de implementación de Lync para Mac [https://go.microsoft.com/fwlink/p/?LinkId=268786](https://go.microsoft.com/fwlink/p/?linkid=268786)2011" en la)
 
-  - Microsoft Communicator para Mac 2011 (consulte la "Guía de implementación de Communicator para Mac [http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787)2011" en)
+  - Microsoft Communicator para Mac 2011 (consulte la "Guía de implementación de Communicator para Mac [https://go.microsoft.com/fwlink/p/?LinkId=268787](https://go.microsoft.com/fwlink/p/?linkid=268787)2011" en)
 
 </div>
 
@@ -156,7 +156,7 @@ Los clientes de Lync Server 2013 admiten la integración con diversas versiones 
 
 ## <a name="using-mandatory-profiles"></a>Uso de perfiles obligatorios
 
-Si los usuarios planean usar las características de conferencia de Lync 2013, no deben usar los perfiles obligatorios de servicios de dominio de Active Directory para iniciar sesión en el cliente de Lync 2013. Debido a que los perfiles obligatorios son de solo lectura, las claves de infraestructura de clave pública (PKI) necesarias para la Conferencia de Lync 2013 no se pueden guardar en el perfil. Para obtener más información, consulte el artículo 2552221 de Microsoft Knowledge base, "error en la característica de conferencia de Lync 2010 cuando el usuario ha iniciado sesión [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)con un perfil de usuario obligatorio", en.
+Si los usuarios planean usar las características de conferencia de Lync 2013, no deben usar los perfiles obligatorios de servicios de dominio de Active Directory para iniciar sesión en el cliente de Lync 2013. Debido a que los perfiles obligatorios son de solo lectura, las claves de infraestructura de clave pública (PKI) necesarias para la Conferencia de Lync 2013 no se pueden guardar en el perfil. Para obtener más información, consulte el artículo 2552221 de Microsoft Knowledge base, "error en la característica de conferencia de Lync 2010 cuando el usuario ha iniciado sesión [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)con un perfil de usuario obligatorio", en.
 
 </div>
 

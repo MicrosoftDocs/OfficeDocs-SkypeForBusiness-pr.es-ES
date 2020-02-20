@@ -12,18 +12,18 @@ ms:contentKeyID: 56737622
 ms.date: 04/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6af0f52b940e9bcfb78048ef3a2c60f09d265073
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 24757a87279f64dd903ed4fdfb26169b606f899c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045242"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146763"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Instalación del portal web administrativo del sistema Lync Room en Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42045242"
 
 _**Última modificación del tema:** 2015-04-09_
 
-Puede descargar el portal web administrativo del sistema Microsoft Lync Room del centro de descarga de Microsoft [http://go.microsoft.com/fwlink/p/?LinkId=324044](http://go.microsoft.com/fwlink/p/?linkid=324044)en.
+Puede descargar el portal web administrativo del sistema Microsoft Lync Room del centro de descarga de Microsoft [https://go.microsoft.com/fwlink/p/?LinkId=324044](https://go.microsoft.com/fwlink/p/?linkid=324044)en.
 
 Para instalar el portal web administrativo del sistema Lync Room, siga estos pasos.
 
@@ -82,7 +82,7 @@ Para comprobar la instalación del portal web administrativo del sistema Lync Ro
     
     https://\<fe-servidor\>/LRS
     
-    Para obtener acceso a la página, deberá agregar los registros DNS como se describe en la sección "registros DNS necesarios para el inicio de sesión automático [http://go.microsoft.com/fwlink/p/?LinkId=318056](http://go.microsoft.com/fwlink/p/?linkid=318056)de cliente" en.
+    Para obtener acceso a la página, deberá agregar los registros DNS como se describe en la sección "registros DNS necesarios para el inicio de sesión automático [https://go.microsoft.com/fwlink/p/?LinkId=318056](https://go.microsoft.com/fwlink/p/?linkid=318056)de cliente" en.
 
 </div>
 

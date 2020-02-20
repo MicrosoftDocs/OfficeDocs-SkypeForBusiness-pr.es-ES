@@ -12,18 +12,18 @@ ms:contentKeyID: 48185450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea0083a28253f5b79e6124dc7733a3ea096f4509
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b5167a2f8b4c9d82be979d7699c621cd3cb7a5ab
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006125"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142616"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013"></a>Especificación de las aplicaciones cliente que se pueden usar para iniciar sesión en Lync Server 2013
 

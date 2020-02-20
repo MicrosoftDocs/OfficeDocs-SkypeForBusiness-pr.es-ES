@@ -12,18 +12,18 @@ ms:contentKeyID: 48183829
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43921fcdeb5ca6e5c74e2c7a82b36bf830cbaa15
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: aac1ca9cd79206ddd26a5bc139d40b1df8337dab
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028791"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146603"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-a-trusted-application-entry-for-remote-call-control-in-lync-server-2013"></a>Configurar una entrada de aplicación de confianza para el control remoto de llamadas en Lync Server 2013
 

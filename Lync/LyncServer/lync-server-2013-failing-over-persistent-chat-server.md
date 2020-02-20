@@ -12,18 +12,18 @@ ms:contentKeyID: 48183726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0d5ac758c1e4c87fd5559da1c2a9cf388dc8834
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 91c4d5092fc12ac374b57872b7cda2d6f88d9e33
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043822"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145849"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Conmutación por error del servidor de chat persistente en Lync Server 2013
 
@@ -69,7 +69,7 @@ La base de datos de cumplimiento de chat persistente (mgccomp) no se conmuta por
 
 2.  Copie cualquier archivo de copia de seguridad no copiado desde el recurso compartido de copia de seguridad a la carpeta de destino de copias del servidor de copias de seguridad.
 
-3.  Aplique cualquier copia de seguridad de registro de transacciones no aplicadas en secuencia con la base de datos secundaria. Para obtener más información, consulte "Cómo: aplicar una copia de seguridad del registro de transacciones (Transact http://go.microsoft.com/fwlink/p/?linkid=247428-SQL)" en.
+3.  Aplique cualquier copia de seguridad de registro de transacciones no aplicadas en secuencia con la base de datos secundaria. Para obtener más información, consulte "Cómo: aplicar una copia de seguridad del registro de transacciones (Transact https://go.microsoft.com/fwlink/p/?linkid=247428-SQL)" en.
 
 4.  Publique en línea la base de datos mgc de copia de seguridad. Utilizando la ventana de consultas que se abre en el paso 1b, realice lo siguiente:
     

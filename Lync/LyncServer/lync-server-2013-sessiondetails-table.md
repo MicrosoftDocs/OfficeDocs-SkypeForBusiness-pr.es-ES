@@ -12,18 +12,18 @@ ms:contentKeyID: 48184559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fee9a2f2b59fc523224a778004b5c0beb041a12d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b27721923e265bbb687b5df42b32e0fb6f25e92e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007749"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143804"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="sessiondetails-table-in-lync-server-2013"></a>Tabla SessionDetails en Lync Server 2013
 
@@ -255,15 +255,15 @@ Tenga en cuenta que los campos IsUser1IntegratedWithDeskPhone y IsUser2Integrate
 <tbody>
 <tr class="odd">
 <td><p>Mensajería instantánea</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="even">
 <td><p>FILE_TRANSFER</p></td>
-<td><p>2 </p></td>
+<td><p>segundo</p></td>
 </tr>
 <tr class="odd">
 <td><p>REMOTE_ASSISTANCE</p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 </tr>
 <tr class="even">
 <td><p>APP_SHARING</p></td>

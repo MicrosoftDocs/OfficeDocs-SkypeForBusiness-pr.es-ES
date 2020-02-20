@@ -12,18 +12,18 @@ ms:contentKeyID: 48183698
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55568c76b9565402a09eb69bf0401a7bb4fd35cc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07d8e46ce5f4e8a6295b3b2ee09451646ed77847
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049852"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144376"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Servidor perimetral consolidado escalado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013
 
@@ -98,9 +98,9 @@ Existen tecnologías de traducción de direcciones de red (NAT) para IPv6 que ha
 ## <a name="see-also"></a>Vea también
 
 
-[Arquitectura de direcciones de IP versión 6](http://tools.ietf.org/html/rfc4291)  
-[Formato de dirección de unidifusión global IPv6](http://tools.ietf.org/html/rfc3587)  
-[Direcciones de unidifusión IPv6 locales únicas](http://tools.ietf.org/html/rfc4193)  
+[Arquitectura de direcciones de IP versión 6](https://tools.ietf.org/html/rfc4291)  
+[Formato de dirección de unidifusión global IPv6](https://tools.ietf.org/html/rfc3587)  
+[Direcciones de unidifusión IPv6 locales únicas](https://tools.ietf.org/html/rfc4193)  
   
 
 </div>
