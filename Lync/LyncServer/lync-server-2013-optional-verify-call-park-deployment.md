@@ -12,20 +12,20 @@ ms:contentKeyID: 48185952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05b18de4af492fb45ef37e64cca45cc2d3d2b965
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0e0389e729f91da7cb91dff9426e38c1dcf20024
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044632"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153400"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-call-park-deployment-in-lync-server-2013"></a><span data-ttu-id="7d80a-102">Opcional Comprobar la implementación del estacionamiento de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d80a-102">(Optional) Verify Call Park deployment in Lync Server 2013</span></span>
+# <a name="optional-verify-call-park-deployment-in-lync-server-2013"></a><span data-ttu-id="a390a-102">Opcional Comprobar la implementación del estacionamiento de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a390a-102">(Optional) Verify Call Park deployment in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "42044632"
 
 <span> </span>
 
-<span data-ttu-id="7d80a-103">_**Última modificación del tema:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="7d80a-103">_**Topic Last Modified:** 2012-09-11_</span></span>
+<span data-ttu-id="a390a-103">_**Última modificación del tema:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="a390a-103">_**Topic Last Modified:** 2012-09-11_</span></span>
 
-<span data-ttu-id="7d80a-104">Después de instalar y configurar el estacionamiento de llamadas, debe comprobar la configuración para asegurarse de que el estacionamiento y la recuperación de llamadas funciona según lo esperado.</span><span class="sxs-lookup"><span data-stu-id="7d80a-104">After you install and configure Call Park, you need to verify the configuration to make sure that parking and retrieving calls works as expected.</span></span> <span data-ttu-id="7d80a-105">Como mínimo, compruebe los elementos siguientes:</span><span class="sxs-lookup"><span data-stu-id="7d80a-105">At minimum, verify the following:</span></span>
+<span data-ttu-id="a390a-104">Después de instalar y configurar el estacionamiento de llamadas, debe comprobar la configuración para asegurarse de que el estacionamiento y la recuperación de llamadas funciona según lo esperado.</span><span class="sxs-lookup"><span data-stu-id="a390a-104">After you install and configure Call Park, you need to verify the configuration to make sure that parking and retrieving calls works as expected.</span></span> <span data-ttu-id="a390a-105">Como mínimo, compruebe los elementos siguientes:</span><span class="sxs-lookup"><span data-stu-id="a390a-105">At minimum, verify the following:</span></span>
 
-  - <span data-ttu-id="7d80a-106">Llamar a un usuario con el estacionamiento de llamadas habilitado y hacer que el usuario estacione la llamada.</span><span class="sxs-lookup"><span data-stu-id="7d80a-106">Call a user who has Call Park enabled and have the user park the call.</span></span>
+  - <span data-ttu-id="a390a-106">Llamar a un usuario con el estacionamiento de llamadas habilitado y hacer que el usuario estacione la llamada.</span><span class="sxs-lookup"><span data-stu-id="a390a-106">Call a user who has Call Park enabled and have the user park the call.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="7d80a-107">Si habilitó el estacionamiento de llamadas en la Directiva de voz justo antes de realizar esta prueba, el usuario que estaciona la llamada tiene que cerrar sesión en Lync Server y, a continuación, volver a iniciarla, para poder ver la opción estacionamiento de llamadas en la lista de llamadas de transferencia.</span><span class="sxs-lookup"><span data-stu-id="7d80a-107">If you enabled Call Park in voice policy just before performing this test, the user who is parking the call needs to sign out of Lync Server, and then sign back in, to be able to see the Call Park option in the transfer call list.</span></span>
+    > <span data-ttu-id="a390a-107">Si habilitó el estacionamiento de llamadas en la Directiva de voz justo antes de realizar esta prueba, el usuario que estaciona la llamada tiene que cerrar sesión en Lync Server y, a continuación, volver a iniciarla, para poder ver la opción estacionamiento de llamadas en la lista de llamadas de transferencia.</span><span class="sxs-lookup"><span data-stu-id="a390a-107">If you enabled Call Park in voice policy just before performing this test, the user who is parking the call needs to sign out of Lync Server, and then sign back in, to be able to see the Call Park option in the transfer call list.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="7d80a-108">Marque el número de órbita para recuperar la llamada.</span><span class="sxs-lookup"><span data-stu-id="7d80a-108">Dial the orbit number to retrieve the call.</span></span>
+  - <span data-ttu-id="a390a-108">Marque el número de órbita para recuperar la llamada.</span><span class="sxs-lookup"><span data-stu-id="a390a-108">Dial the orbit number to retrieve the call.</span></span>
 
-  - <span data-ttu-id="7d80a-p102">Estacione otra llamada, deje que finalice el tiempo de espera de la llamada estacionada y no recupere la señal de llamada. Compruebe que la llamada con el tiempo de espera agotado se enrute correctamente al destino de reserva que se especifica en **OnTimeoutURI**.</span><span class="sxs-lookup"><span data-stu-id="7d80a-p102">Park another call, let the parked call time out, and do not pick up the ringback. Verify that the timed-out call is correctly routed to the fallback destination that is specified for **OnTimeoutURI**.</span></span>
+  - <span data-ttu-id="a390a-p102">Estacione otra llamada, deje que finalice el tiempo de espera de la llamada estacionada y no recupere la señal de llamada. Compruebe que la llamada con el tiempo de espera agotado se enrute correctamente al destino de reserva que se especifica en **OnTimeoutURI**.</span><span class="sxs-lookup"><span data-stu-id="a390a-p102">Park another call, let the parked call time out, and do not pick up the ringback. Verify that the timed-out call is correctly routed to the fallback destination that is specified for **OnTimeoutURI**.</span></span>
 
 </div>
 
