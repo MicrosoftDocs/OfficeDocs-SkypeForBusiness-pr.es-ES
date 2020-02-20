@@ -12,18 +12,18 @@ ms:contentKeyID: 48184729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8efe04d7cb59cc8e8c1d719c9db4ba0e30e75f50
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 922853c7fe3ce41d969d6a0af5428a4c1a13f8c3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038402"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151150"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Resumen de certificado-servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Última modificación del tema:** 2012-10-22_
 
 Microsoft Lync Server 2013 usa certificados para autenticar mutuamente otros servidores y cifrar los datos del servidor al servidor y del servidor al cliente. Los certificados requieren que el nombre coincida con los registros del sistema de nombre de dominio (DNS) asociados con los servidores, el nombre de sujeto (SN) y el nombre alternativo del sujeto (SAN) en el certificado. Para asignar servidores, registros de DNS y entradas de certificado correctamente, debe planificar con atención los nombres de dominio completo creados para el servidor tal como se registraron en las entradas de DNS, SN y SAN en el certificado.
 
-El certificado asignado a las interfaces externas del servidor perimetral se solicita desde una entidad de certificación (CA) pública. En el siguiente artículo se enumeran las entidades de certificación públicas que han demostrado su éxito en el suministro de certificados [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)para las comunicaciones unificadas:. Al solicitar el certificado, puede usar la solicitud de certificado generada por el Asistente para la implementación de Lync Server o bien crear la solicitud de forma manual o mediante un proceso proporcionado por la entidad de certificación pública. Al asignar el certificado, el certificado se asigna a la interfaz del servicio perimetral de acceso, la interfaz del servicio perimetral de conferencia web y el servicio de autenticación de audio y vídeo. El servicio de autenticación de audio y vídeo no debe confundirse con el servicio perimetral a/V, que no usa un certificado para cifrar las secuencias de audio y vídeo. La interfaz del servidor perimetral interno puede usar un certificado de una entidad de certificación interna (para su organización) o un certificado de una entidad de certificación pública. El certificado de la interfaz interna solamente usa el SN y no necesita ni utiliza entradas de SAN.
+El certificado asignado a las interfaces externas del servidor perimetral se solicita desde una entidad de certificación (CA) pública. En el siguiente artículo se enumeran las entidades de certificación públicas que han demostrado su éxito en el suministro de certificados [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)para las comunicaciones unificadas:. Al solicitar el certificado, puede usar la solicitud de certificado generada por el Asistente para la implementación de Lync Server o bien crear la solicitud de forma manual o mediante un proceso proporcionado por la entidad de certificación pública. Al asignar el certificado, el certificado se asigna a la interfaz del servicio perimetral de acceso, la interfaz del servicio perimetral de conferencia web y el servicio de autenticación de audio y vídeo. El servicio de autenticación de audio y vídeo no debe confundirse con el servicio perimetral a/V, que no usa un certificado para cifrar las secuencias de audio y vídeo. La interfaz del servidor perimetral interno puede usar un certificado de una entidad de certificación interna (para su organización) o un certificado de una entidad de certificación pública. El certificado de la interfaz interna solamente usa el SN y no necesita ni utiliza entradas de SAN.
 
 <div>
 

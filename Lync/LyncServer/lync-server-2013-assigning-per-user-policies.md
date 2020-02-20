@@ -12,18 +12,18 @@ ms:contentKeyID: 48184971
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e9b5780b17ad2ed7a057979f77e504fb1fca0db
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: acee046ebe05d87e17cd72ef1c5d8d19830d4ee8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030043"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149239"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="assigning-per-user-policies-in-lync-server-2013"></a>Asignación de directivas por usuario en Lync Server 2013
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48706010
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e7fd1b65e11d6aa933fcd0ae24b6eb5c7f2698c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1e026d6167c5c01008ffe44d99d6bc92116d62b2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034832"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151632"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="disabling-uploading-and-downloading-files-in-chat-rooms-in-lync-server-2013"></a>Deshabilitar la carga y descarga de archivos en salones de chat en Lync Server 2013
 

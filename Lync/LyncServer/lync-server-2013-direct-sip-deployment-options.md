@@ -12,18 +12,18 @@ ms:contentKeyID: 48184692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4bbacbbb6f1a420e989f4bed02ba2fc0db6f85f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 03d3d51c8323ab448951255ac9f7cf8d284896ba
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036630"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147533"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Opciones de implementación SIP directa en Lync Server 2013
 
@@ -71,7 +71,7 @@ En la siguiente figura se muestra la topología genérica para la implementació
 
 
 > [!NOTE]  
-> Si va a conectar su implementación de Lync Server a un socio de SIP directo certificado, no se requiere una puerta de enlace de red telefónica conmutada (RTC) entre el servidor de mediación y la PBX. Para obtener una lista de asociados de SIP directos certificados, consulte el sitio web del programa de interoperabilidad abierta de comunicaciones unificadas de Microsoft en <A href="http://go.microsoft.com/fwlink/p/?linkid=203309">http://go.microsoft.com/fwlink/p/?linkId=203309</A>.
+> Si va a conectar su implementación de Lync Server a un socio de SIP directo certificado, no se requiere una puerta de enlace de red telefónica conmutada (RTC) entre el servidor de mediación y la PBX. Para obtener una lista de asociados de SIP directos certificados, consulte el sitio web del programa de interoperabilidad abierta de comunicaciones unificadas de Microsoft en <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A>.
 
 
 

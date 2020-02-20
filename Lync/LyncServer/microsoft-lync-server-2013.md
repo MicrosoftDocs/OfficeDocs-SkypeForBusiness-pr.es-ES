@@ -12,18 +12,18 @@ ms:contentKeyID: 48184592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 442d94cbaf9ad7c3352cbd17ad88f3d84e716b61
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7b70b6d6475c7b8ee4f5588ffe4975648588cae5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050412"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148979"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="microsoft-lync-server-2013"></a>Microsoft Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Última modificación del tema:** 2014-03-14_
 
 El software de comunicaciones Microsoft Lync Server 2013 ofrece mensajería instantánea (mi), presencia, conferencias y soluciones de telefonía que admiten los requisitos de colaboración en el nivel empresarial.
 
-¿Quiere descargar una copia de la documentación de Lync Server 2013? Puede descargar el archivo de ayuda compilada (. chm) **LyncServer2013\_de itpro** desde el centro [http://go.microsoft.com/fwlink/p/?LinkID=331103](http://go.microsoft.com/fwlink/p/?linkid=331103)de descarga de Microsoft en.
+¿Quiere descargar una copia de la documentación de Lync Server 2013? Puede descargar el archivo de ayuda compilada (. chm) **LyncServer2013\_de itpro** desde el centro [https://go.microsoft.com/fwlink/p/?LinkID=331103](https://go.microsoft.com/fwlink/p/?linkid=331103)de descarga de Microsoft en.
 
 En las tablas siguientes se enumeran los temas de la biblioteca de documentación de Lync Server 2013.
 

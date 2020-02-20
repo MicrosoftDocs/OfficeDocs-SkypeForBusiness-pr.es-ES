@@ -12,18 +12,18 @@ ms:contentKeyID: 48183435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 308c4ad3a7371c9a27f668b79623a512227623b4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c55f52c104c4a9e49abb8b4989cfa4901dfe02dc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046723"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151682"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-the-voip-routing-policy-for-branch-users-in-lync-server-2013"></a>Crear la Directiva de enrutamiento VoIP para usuarios de sucursal en Lync Server 2013
 

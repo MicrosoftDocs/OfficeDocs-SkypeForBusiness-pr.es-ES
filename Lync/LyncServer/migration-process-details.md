@@ -12,18 +12,18 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a8a5e0ec0ab94dcba48917338f130b5de1a98f91
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 79db601ccf6f87f19526f68d0e20521985092937
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030684"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148749"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="migration-process---details"></a>Proceso de migración: detalles
 
@@ -66,7 +66,7 @@ Asegúrese de que ha cumplido los siguientes requisitos previos antes de migrar 
 
 Haga lo siguiente para preparar correctamente los datos de origen para la migración.
 
-1.  Realice una copia de seguridad de las bases de datos de origen para Lync Server 2010, grupo de chat o para el chat en grupo de Office Communications Server 2007 R2. Para obtener más información sobre cómo realizar copias de seguridad de SQL Server, vea "Introducción a <http://go.microsoft.com/fwlink/p/?linkid=254851>la copia de seguridad (SQL Server)" en.
+1.  Realice una copia de seguridad de las bases de datos de origen para Lync Server 2010, grupo de chat o para el chat en grupo de Office Communications Server 2007 R2. Para obtener más información sobre cómo realizar copias de seguridad de SQL Server, vea "Introducción a <https://go.microsoft.com/fwlink/p/?linkid=254851>la copia de seguridad (SQL Server)" en.
     
     <div>
     

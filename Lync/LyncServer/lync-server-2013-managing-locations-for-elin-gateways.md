@@ -12,18 +12,18 @@ ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35c470b704e7467f573cd5e1fec03d63cf1f4b4e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 17fa27b82260a05ded5ca025d56005c864247844
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043092"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150321"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a>Administración de ubicaciones para puertas de enlace de ELIN en Lync Server 2013
 
@@ -103,17 +103,17 @@ Después de decidir cómo va a dividir el espacio del edificio en ubicaciones, d
 <tbody>
 <tr class="odd">
 <td><p>Primera planta</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>425-555-0100</p></td>
 </tr>
 <tr class="even">
 <td><p>Segunda planta</p></td>
-<td><p>2 </p></td>
+<td><p>segundo</p></td>
 <td><p>425-555-0111</p></td>
 </tr>
 <tr class="odd">
 <td><p>Tercera planta</p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>425-555-0123</p></td>
 </tr>
 </tbody>
@@ -144,7 +144,7 @@ Con las siguientes preguntas le será más fácil determinar cómo rellenar la b
   - **¿Dispone de una base de datos de otros fabricantes que ya contenga una asignación de ubicaciones?**  
     Mediante el uso de la opción servicio de información de ubicación secundaria de Lync Server para conectarse a una base de datos de terceros, puede agrupar y administrar las ubicaciones mediante una plataforma sin conexión. La ventana es que además de asociar las ubicaciones a identificadores de red, puede asociar las ubicaciones a un usuario. Esto significa que el servicio de información de ubicación puede devolver varias direcciones, que se originan del servicio de información de ubicación secundario, a un cliente de Lync Server. Y el usuario puede elegir la ubicación más adecuada.
     
-    Para integrarse con el servicio de información de ubicaciones, la base de datos de terceros debe seguir el esquema de solicitud y respuesta de la ubicación de Lync Server. Para obtener más información <http://go.microsoft.com/fwlink/p/?linkid=213819>, consulte. Para obtener más información sobre cómo implementar un servicio de información de ubicaciones secundarias, vea [configurar un servicio de información de ubicaciones secundarias en Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) en la documentación sobre implementación.
+    Para integrarse con el servicio de información de ubicaciones, la base de datos de terceros debe seguir el esquema de solicitud y respuesta de la ubicación de Lync Server. Para obtener más información <https://go.microsoft.com/fwlink/p/?linkid=213819>, consulte. Para obtener más información sobre cómo implementar un servicio de información de ubicaciones secundarias, vea [configurar un servicio de información de ubicaciones secundarias en Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) en la documentación sobre implementación.
 
 Para obtener información detallada sobre cómo rellenar la base de datos de ubicaciones, consulte [Configure The location Database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) en la documentación sobre implementación.
 

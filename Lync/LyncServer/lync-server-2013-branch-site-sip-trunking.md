@@ -12,18 +12,18 @@ ms:contentKeyID: 48185350
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 161964bc7a183672323ac277eae4f3a7ce0d2b82
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4b0e24a0260e6be0bea8d23158f07ffcffcb53cd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008082"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="branch-site-sip-trunking-in-lync-server-2013"></a>Enlace troncal SIP de sitios de sucursal en Lync Server 2013
 

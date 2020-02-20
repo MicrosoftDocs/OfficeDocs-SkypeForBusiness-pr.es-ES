@@ -12,18 +12,18 @@ ms:contentKeyID: 56472032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 984e7d7e287e9177fff5798c9cb20ab476591f46
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0cb7db93813bdc7ed06398ce73d00f51ce5a60fe
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035202"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147653"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-sql-server-clustering-for-lync-server-2013"></a>Configurar la organización en clústeres de SQL Server para Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Última modificación del tema:** 2014-01-10_
 
 Microsoft Lync Server 2013 admite clústeres para SQL Server 2012 y SQL Server 2008 R2. Para obtener más información sobre lo que se admite, consulte [compatibilidad de software de base de datos en Lync Server 2013](lync-server-2013-database-software-support.md).
 
-Debe configurar y configurar el clúster de SQL Server antes de instalar e implementar la base de datos back-end y el servidor front-end Enterprise Edition. Para conocer los procedimientos recomendados y las instrucciones de configuración de los clústeres de conmutación <http://technet.microsoft.com/library/hh231721.aspx>por error en SQL Server 2012, consulte. Para clústeres de conmutación por error en SQL Server <http://technet.microsoft.com/library/ms189134(v=sql.105).aspx>2008, consulte.
+Debe configurar y configurar el clúster de SQL Server antes de instalar e implementar la base de datos back-end y el servidor front-end Enterprise Edition. Para conocer los procedimientos recomendados y las instrucciones de configuración de los clústeres de conmutación <https://technet.microsoft.com/library/hh231721.aspx>por error en SQL Server 2012, consulte. Para clústeres de conmutación por error en SQL Server <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>2008, consulte.
 
 Cuando instale SQL Server, instale también SQL Server Management Studio para administrar las ubicaciones de la base de datos y las ubicaciones de archivo de registro. SQL Server Management Studio se instala como componente adicional al instalar SQL Server.
 

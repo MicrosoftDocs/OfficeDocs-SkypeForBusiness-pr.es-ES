@@ -12,18 +12,18 @@ ms:contentKeyID: 48183974
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a01005e9c6d78f521c3987bb36813e2d7eadb11
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a4249486bc9116dd713b539ed61c3d846a77c3fd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41991985"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150080"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="managing-response-group-workflows-in-lync-server-2013"></a>Administración de flujos de trabajo de grupos de respuesta en Lync Server 2013
 

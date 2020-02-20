@@ -12,18 +12,18 @@ ms:contentKeyID: 48185664
 ms.date: 12/09/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c16e33197ed28744df126d672385359f5eb8781b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 91326778777e6ddd1db2f8938cfb78e96ed8c7f5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042992"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151572"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a>Configurar el modo de privacidad de presencia mejorada en Lync Server 2013
 
@@ -64,7 +64,7 @@ Con el modo de privacidad de presencia mejorada, los usuarios pueden restringir 
     
         Get-CsPrivacyConfiguration | Set-CsPrivacyConfiguration -EnablePrivacyMode $True
     
-    Este comando habilita el modo de privacidad para todos los parámetros de privacidad que se encuentran actualmente en uso en la organización. Para obtener más información sobre cómo la Directiva de modo de privacidad de presencia mejorada de Lync Server administra la presencia de contactos para el cliente de Lync 2013, consulte el artículo de Microsoft Knowledge base [que habilita Lync Server Enhanced Presence el modo de privacidad actualiza el estado de presencia de algunos contactos de Lync a "no disponible"](http://support.microsoft.com/kb/3020057).
+    Este comando habilita el modo de privacidad para todos los parámetros de privacidad que se encuentran actualmente en uso en la organización. Para obtener más información sobre cómo la Directiva de modo de privacidad de presencia mejorada de Lync Server administra la presencia de contactos para el cliente de Lync 2013, consulte el artículo de Microsoft Knowledge base [que habilita Lync Server Enhanced Presence el modo de privacidad actualiza el estado de presencia de algunos contactos de Lync a "no disponible"](https://support.microsoft.com/kb/3020057).
 
 </div>
 

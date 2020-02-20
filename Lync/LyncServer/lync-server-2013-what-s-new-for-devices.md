@@ -12,18 +12,18 @@ ms:contentKeyID: 48185477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4365862f1c093622fa447bdceb3a326c9e18d11c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 26bfdebb055325ad7e248638a897bf334035d702
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983095"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149099"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="whats-new-for-devices-in-lync-server-2013"></a>Novedades para dispositivos en Lync Server 2013
 
@@ -37,15 +37,15 @@ ms.locfileid: "41983095"
 
 _**Última modificación del tema:** 2012-06-22_
 
-Lync Server 2013 incluye Lync Phone Edition, software que se ejecuta en dispositivos cualificados y proporciona características de telefonía tradicionales y avanzadas, seguridad integrada, facilidad de administración y más. Lync Phone Edition funciona de la misma manera con Lync Server 2013 como lo hace con Lync Server 2010. Para obtener más información sobre las características más recientes relacionadas con los dispositivos, vea [What's New for Devices](http://go.microsoft.com/fwlink/p/?linkid=256490) en la biblioteca de TechNet de 2010 de Lync Server.
+Lync Server 2013 incluye Lync Phone Edition, software que se ejecuta en dispositivos cualificados y proporciona características de telefonía tradicionales y avanzadas, seguridad integrada, facilidad de administración y más. Lync Phone Edition funciona de la misma manera con Lync Server 2013 como lo hace con Lync Server 2010. Para obtener más información sobre las características más recientes relacionadas con los dispositivos, vea [What's New for Devices](https://go.microsoft.com/fwlink/p/?linkid=256490) en la biblioteca de TechNet de 2010 de Lync Server.
 
 <div>
 
 ## <a name="see-also"></a>Vea también
 
 
-[Planeación de dispositivos](http://go.microsoft.com/fwlink/p/?linkid=256483)  
-[Implementación de dispositivos](http://go.microsoft.com/fwlink/p/?linkid=256484)  
+[Planeación de dispositivos](https://go.microsoft.com/fwlink/p/?linkid=256483)  
+[Implementación de dispositivos](https://go.microsoft.com/fwlink/p/?linkid=256484)  
   
 
 </div>

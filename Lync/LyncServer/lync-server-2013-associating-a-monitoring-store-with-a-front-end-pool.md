@@ -12,18 +12,18 @@ ms:contentKeyID: 48185439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1228f3108b00a6af1d53b08c67f1fa723fcde8b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f889179c5302a0ff8d59b5cf438c7ba0ab3c489f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044772"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149179"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="associating-a-monitoring-store-with-a-front-end-pool-in-lync-server-2013"></a>Asociar un almacén de supervisión a un grupo de servidores front-end en Lync Server 2013
 

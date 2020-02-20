@@ -12,18 +12,18 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba3a74f59bc996defcd9baee9162d034ab2178eb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c82c1ad2072f5f8611660efc44a502249f26d21b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029721"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150879"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a>Configuración de los servicios de Federación de Active Directory (AD FS 2,0) para Lync Server 2013
 
@@ -37,13 +37,13 @@ ms.locfileid: "42029721"
 
 _**Última modificación del tema:** 2013-07-03_
 
-En la siguiente sección se describe cómo configurar los servicios de Federación de Active Directory (AD FS 2,0) para que admitan la autenticación multifactor. Para obtener información sobre cómo instalar AD FS 2,0, consulte las guías paso a paso y de procedimientos de AD FS 2,0 en [http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374).
+En la siguiente sección se describe cómo configurar los servicios de Federación de Active Directory (AD FS 2,0) para que admitan la autenticación multifactor. Para obtener información sobre cómo instalar AD FS 2,0, consulte las guías paso a paso y de procedimientos de AD FS 2,0 en [https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374).
 
 <div class="">
 
 
 > [!NOTE]  
-> Al instalar AD FS 2,0, no use el administrador de servidores de Windows para agregar el rol de los servicios de Federación de Active Directory. En su lugar, descargue e instale el paquete 2,0 RTW de los servicios de <A href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</A>Federación de Active Directory en.
+> Al instalar AD FS 2,0, no use el administrador de servidores de Windows para agregar el rol de los servicios de Federación de Active Directory. En su lugar, descargue e instale el paquete 2,0 RTW de los servicios de <A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A>Federación de Active Directory en.
 
 
 

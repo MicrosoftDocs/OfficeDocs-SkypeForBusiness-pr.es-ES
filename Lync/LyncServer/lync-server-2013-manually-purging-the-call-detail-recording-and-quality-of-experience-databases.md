@@ -12,18 +12,18 @@ ms:contentKeyID: 48183859
 ms.date: 07/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f14485465e44b089e5002a04d3ed5e5a392ad4d8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f46bd37cefd164c989363d91a1a5629ba1a82934
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41991865"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149940"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>Purgado manual del registro detallado de llamadas y de las bases de datos de calidad de la experiencia en Lync Server 2013
 

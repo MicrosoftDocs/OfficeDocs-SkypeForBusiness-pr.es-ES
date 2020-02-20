@@ -12,18 +12,18 @@ ms:contentKeyID: 51541521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f97ed9c5346252782b8105bf1de9f76bf3522155
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2ec2e0653d9b9d6c8f5412c58895b7ec805c82db
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049732"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151592"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-autodiscover-in-lync-server-2013-for-hybrid-deployments"></a>Configuración de detección automática en Lync Server 2013 para implementaciones híbridas
 

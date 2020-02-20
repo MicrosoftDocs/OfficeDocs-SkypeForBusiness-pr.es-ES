@@ -12,18 +12,18 @@ ms:contentKeyID: 48184408
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b307e88bbf85b43a6997d46c5a822684e0421752
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 08764f432eb90f1b16a0c91ed810d394e94c6193
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043452"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152324"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="pstn-connectivity-components-in-lync-server-2013"></a>Componentes de conectividad con RTC en Lync Server 2013
 
@@ -59,7 +59,7 @@ El uso de esta solución de implementación requiere un proveedor de servicios d
 
 ## <a name="pstn-gateways"></a>Puertas de enlace RTC
 
-Las puertas de enlace RTC son dispositivos de otro fabricante que convierten la señalización y los medios entre la infraestructura de Enterprise Voice y una red telefónica conmutada (RTC) o una central de conmutación (PBX). Las puertas de enlace RTC trabajan con el servidor de mediación para presentar una llamada de RTC o de PBX a un cliente de Enterprise Voice. El servidor de mediación también presenta llamadas de los clientes de Enterprise Voice a la puerta de enlace RTC para redirigir las llamadas a la RTC o a la PBX. Para obtener una lista de los socios que trabajan con Microsoft para proporcionar dispositivos que funcionan con Lync Server, vea el sitio web de asociados [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836)de comunicaciones unificadas de Microsoft en.
+Las puertas de enlace RTC son dispositivos de otro fabricante que convierten la señalización y los medios entre la infraestructura de Enterprise Voice y una red telefónica conmutada (RTC) o una central de conmutación (PBX). Las puertas de enlace RTC trabajan con el servidor de mediación para presentar una llamada de RTC o de PBX a un cliente de Enterprise Voice. El servidor de mediación también presenta llamadas de los clientes de Enterprise Voice a la puerta de enlace RTC para redirigir las llamadas a la RTC o a la PBX. Para obtener una lista de los socios que trabajan con Microsoft para proporcionar dispositivos que funcionan con Lync Server, vea el sitio web de asociados [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836)de comunicaciones unificadas de Microsoft en.
 
 </div>
 
@@ -81,15 +81,15 @@ Los escenarios de integración de Enterprise Voice y PBX admitidos son los sigui
 
 
 > [!NOTE]  
-> El desvío de medios no interactuará con todas las puertas de RTC, los sistemas IP-PBX y las SBC. Microsoft ha probado un conjunto de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con la IP-PBX de Cisco. La omisión de medios solo se admite con productos y versiones que se enumeran en el programa de interoperabilidad abierto de comunicaciones unificadas – Lync Server en <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>.
+> El desvío de medios no interactuará con todas las puertas de RTC, los sistemas IP-PBX y las SBC. Microsoft ha probado un conjunto de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con la IP-PBX de Cisco. La omisión de medios solo se admite con productos y versiones que se enumeran en el programa de interoperabilidad abierto de comunicaciones unificadas – Lync Server en <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A>.
 
 
 
 </div>
 
-Para obtener más información sobre los socios que ofrecen soluciones de telefonía IP empresarial, consulte el sitio [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836)Web de asociados de comunicaciones unificadas de Microsoft en.
+Para obtener más información sobre los socios que ofrecen soluciones de telefonía IP empresarial, consulte el sitio [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836)Web de asociados de comunicaciones unificadas de Microsoft en.
 
-Para obtener más información sobre los socios que ofrecen soluciones de hardware de telefonía IP empresarial, incluidas las puertas de enlace RTC [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836), consulte el sitio web de asociados de comunicaciones unificadas de Microsoft.
+Para obtener más información sobre los socios que ofrecen soluciones de hardware de telefonía IP empresarial, incluidas las puertas de enlace RTC [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836), consulte el sitio web de asociados de comunicaciones unificadas de Microsoft.
 
 </div>
 

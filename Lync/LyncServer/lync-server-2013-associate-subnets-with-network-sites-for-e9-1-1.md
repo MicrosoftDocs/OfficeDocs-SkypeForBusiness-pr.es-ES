@@ -12,18 +12,18 @@ ms:contentKeyID: 48185787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1883dc76953e7adb632a3abed38501c14e8a8c97
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 811c2758cbf7673c8242c84025b1c92d2ce24a52
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044792"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149199"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="associate-subnets-with-network-sites-for-e9-1-1-in-lync-server-2013"></a>Asociar subredes a sitios de red para E9-1-1 en Lync Server 2013
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 56563409
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9046bb075fba832f0ba7c83697c96a285988fcf7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0476b90659ced152a4d24fbb3890ac224bdf0d91
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035586"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148003"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="the-skype-for-business-online-reporting-cmdlets-and-rest-web-service"></a>Los cmdlets de informes de Skype empresarial online y el servicio Web REST
 
@@ -67,7 +67,7 @@ Los administradores con un fondo de desarrollo pueden usar el servicio Web REST 
 
 [El servicio Web de informes de Office 365](http://msdn.microsoft.com/library/office/jj984325.aspx)  
 [Información sobre el servicio Web de informes de Office 365](http://msdn.microsoft.com/library/office/jj984321.aspx)  
-[Cmdlets de informes de Exchange Online](http://technet.microsoft.com/library/jj200780\(v=exchg.150\).aspx)  
+[Cmdlets de informes de Exchange Online](https://technet.microsoft.com/library/jj200780\(v=exchg.150\).aspx)  
 [Uso de Excel para recuperar datos de informes de Office 365](http://msdn.microsoft.com/library/dn781442.aspx)  
   
 

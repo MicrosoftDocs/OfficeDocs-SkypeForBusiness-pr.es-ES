@@ -12,18 +12,18 @@ ms:contentKeyID: 48184005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03e1d3c052b92ef61881b43e3ef3246b36c31f8f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3356c81999003cac9a9d778fa3b281b27c048b61
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034300"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148519"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>Fase 3: implementar el grupo piloto de Lync Server 2013
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 63969650
 ms.date: 08/20/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87d3f87b37b8c0fe29c4dee76467a9e07931551a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: da6e0eb7c4377941992dfba9dd11312a12ee29a5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041219"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149119"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="weekly-tasks-in-lync-server-2013"></a>Tareas semanales en Lync Server 2013
 
@@ -81,7 +81,7 @@ Dado que el sistema de seguimiento de incidentes de su organización es una elec
 
 ## <a name="check-iis-logs-and-performance"></a>Comprobar el rendimiento y los registros de IIS
 
-Realizar una revisión semanal de los registros y el rendimiento de Internet Information Services (IIS). Para obtener más información acerca de cómo supervisar los registros y el rendimiento de IIS, vea [información general del registro de eventos de Windows Server 2003 Internet Information Services (IIS)](http://go.microsoft.com/fwlink/?linkid=36077). La revisión debe incluir lo siguiente:
+Realizar una revisión semanal de los registros y el rendimiento de Internet Information Services (IIS). Para obtener más información acerca de cómo supervisar los registros y el rendimiento de IIS, vea [información general del registro de eventos de Windows Server 2003 Internet Information Services (IIS)](https://go.microsoft.com/fwlink/?linkid=36077). La revisión debe incluir lo siguiente:
 
   - Contadores de memoria caché de servicio web para supervisar la memoria caché del servicio WWW.
 
@@ -258,7 +258,7 @@ El analizador de uso de ancho de banda puede generar trazados gráficos de capac
 
   - Filtrados por región de red
 
-La documentación de esta herramienta está disponible en la [documentación de las herramientas del kit de recursos de Lync Server 2013](http://go.microsoft.com/fwlink/?linkid=623245).
+La documentación de esta herramienta está disponible en la [documentación de las herramientas del kit de recursos de Lync Server 2013](https://go.microsoft.com/fwlink/?linkid=623245).
 
 </div>
 

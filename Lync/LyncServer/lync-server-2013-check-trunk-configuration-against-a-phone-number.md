@@ -12,18 +12,18 @@ ms:contentKeyID: 63969574
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b67831b6dbcd7dae12f9b19dd71f2512a8807189
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2832af2c038383e0cca9f8cb931ce4b675b44f2b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043492"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150969"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a>Comprobar la configuración del tronco con un número de teléfono en Lync Server 2013
 
@@ -136,7 +136,7 @@ Patrón: ^\\+ (\\d\*) $
 
 Nombre: NoAreaCode
 
-En ese momento, debe comprobar el valor de la propiedad Pattern (que es una cadena de [expresión regular](http://go.microsoft.com/fwlink/?linkid=400464) ) para ver si alguna de las reglas de conversión está configurada para controlar el número marcado. Si no es así, tendrá que cambiar una de las reglas existentes (Set-CsOutboundTranslationRule) o usar el cmdlet New-CsOutboundTranslationRule para agregar una nueva regla a la colección.
+En ese momento, debe comprobar el valor de la propiedad Pattern (que es una cadena de [expresión regular](https://go.microsoft.com/fwlink/?linkid=400464) ) para ver si alguna de las reglas de conversión está configurada para controlar el número marcado. Si no es así, tendrá que cambiar una de las reglas existentes (Set-CsOutboundTranslationRule) o usar el cmdlet New-CsOutboundTranslationRule para agregar una nueva regla a la colección.
 
 </div>
 

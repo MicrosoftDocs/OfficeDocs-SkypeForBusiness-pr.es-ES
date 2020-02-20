@@ -12,18 +12,18 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e32132faee3b52140d20a7f01e6a0bad0e88c620
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 443dcfc17849e34aa711f657726fed9c86fa566d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049612"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153120"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-the-lync-server-2013-hybrid-environment"></a>Información general sobre el entorno híbrido de Lync Server 2013
 
@@ -53,11 +53,11 @@ En esta guía se describen las tareas necesarias para configurar el entorno de L
 
 Tendrá que tener instaladas las siguientes aplicaciones y utilidades para completar las tareas de configuración de una implementación de híbrido. Los programas de instalación para estos archivos se incluyen en los medios de instalación proporcionados para su implementación, así como en los vínculos incluidos en la lista siguiente.
 
-  - [Servicios de federación de Active Directory (ADFS) 2.0](http://go.microsoft.com/fwlink/p/?linkid=257305)
+  - [Servicios de federación de Active Directory (ADFS) 2.0](https://go.microsoft.com/fwlink/p/?linkid=257305)
 
-  - [Herramienta de sincronización de directorios de Microsoft 9,1](http://go.microsoft.com/fwlink/p/?linkid=257307)
+  - [Herramienta de sincronización de directorios de Microsoft 9,1](https://go.microsoft.com/fwlink/p/?linkid=257307)
 
-  - [Instalar Windows PowerShell para el inicio de sesión único con AD FS](http://go.microsoft.com/fwlink/p/?linkid=398710)
+  - [Instalar Windows PowerShell para el inicio de sesión único con AD FS](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
   - El Asistente para el inicio de sesión de Microsoft Online Services (msoidcli-7.0. msi) se incluye en la configuración de escritorio de Office 365, que se puede obtener en la página de descargas a la que se vincula desde el portal de administración de Office 365.
 
@@ -75,7 +75,7 @@ Cuando se le pida que proporcione sus credenciales de administrador, use el nomb
 
 ## <a name="connecting-to-lync-online-powershell"></a>Conectarse a Lync Online PowerShell
 
-Los administradores ahora pueden usar Windows PowerShell para administrar Lync Online y sus cuentas de usuario de Lync Online. Para ello, primero debe descargar e instalar el módulo Lync Online Connector desde el centro de descarga de Microsoft (http://go.microsoft.com/fwlink/?LinkId=294688). Para obtener más información sobre cómo descargar, instalar y usar el módulo Lync Online Connector y para obtener información detallada sobre cómo usar Windows PowerShell para administrar Lync Online, consulte [using Windows PowerShell to Manage Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Los administradores ahora pueden usar Windows PowerShell para administrar Lync Online y sus cuentas de usuario de Lync Online. Para ello, primero debe descargar e instalar el módulo Lync Online Connector desde el centro de descarga de Microsoft (https://go.microsoft.com/fwlink/?LinkId=294688). Para obtener más información sobre cómo descargar, instalar y usar el módulo Lync Online Connector y para obtener información detallada sobre cómo usar Windows PowerShell para administrar Lync Online, consulte [using Windows PowerShell to Manage Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 51541429
 ms.date: 02/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b1cb9d5f72d03d9c4899c16e35968109819b09d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 046e29fcec697a1ac073833e6b73c7bfe15fb8ba
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038372"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147393"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-server-2013-resource-kit-tools-documentation"></a>Documentación de las herramientas del kit de recursos de Lync Server 2013
 
@@ -43,7 +43,7 @@ En este tema se describen las herramientas que forman parte del kit de recursos 
 
 ## <a name="installation-of-the-resource-kit-tools"></a>Instalación de las herramientas del kit de recursos
 
-Para instalar las herramientas del kit de recursos de Lync Server 2013, descargue **OCSReskit. msi**. Puede descargar el instalador de las herramientas del kit de recursos desde el [http://go.microsoft.com/fwlink/p/?LinkID=330429](http://go.microsoft.com/fwlink/p/?linkid=330429)centro de descarga en.
+Para instalar las herramientas del kit de recursos de Lync Server 2013, descargue **OCSReskit. msi**. Puede descargar el instalador de las herramientas del kit de recursos desde el [https://go.microsoft.com/fwlink/p/?LinkID=330429](https://go.microsoft.com/fwlink/p/?linkid=330429)centro de descarga en.
 
 Ejecute **OCSResKit. msi** para realizar una instalación sencilla. El archivo. msi instala todas las herramientas en la siguiente ruta de acceso: **% Program\\files% Microsoft\\Lync Server 2013 reskit**. Las herramientas que son ejecutables independientes se encuentran en esta carpeta. Las herramientas que también tienen archivos se encuentran en sus propias subcarpetas.
 
@@ -2012,23 +2012,23 @@ Antes de ejecutar el script SYSPrep. ps1, debe copiar los archivos de requisitos
 </tr>
 <tr class="even">
 <td><p>Microsoft SQL Server Express 2008 R2</p></td>
-<td><p>http://www.microsoft.com/download/details.aspx?id=23650</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=23650</p></td>
 </tr>
 <tr class="odd">
 <td><p>Windows PowerShell versión 3,0</p></td>
-<td><p>http://www.microsoft.com/download/details.aspx?id=34595</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=34595</p></td>
 </tr>
 <tr class="even">
 <td><p>Paquete redistribuible de Visual C++ 2010</p></td>
-<td><p>http://www.microsoft.com/download/details.aspx?id=5555</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=5555</p></td>
 </tr>
 <tr class="odd">
 <td><p>Actualizaciones de Internet Information Server</p></td>
-<td><p>http://www.microsoft.com/download/details.aspx?id=34869</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=34869</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows Identity Foundation</p></td>
-<td><p>http://www.microsoft.com/download/details.aspx?id=17331</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=17331</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2013 Setup. exe</p></td>

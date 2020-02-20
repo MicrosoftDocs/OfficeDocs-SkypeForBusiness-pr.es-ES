@@ -12,18 +12,18 @@ ms:contentKeyID: 49733721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74689dcc730874ecaea0aef31ab18cfc2e9c2c1d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 27a7ae9604a3f5ce7d8129e7f83283649ddcb445
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008876"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148197"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server"></a>Quitar el servidor front-end Enterprise Edition o el servidor front-end Standard Edition
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183579
 ms.date: 07/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fe16e903a1dfbc958336dca68903ca80770995d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7d36b399ca6071d8c4d057d02c0814cd03629a5e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42039494"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149730"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="medialist-table-in-lync-server-2013"></a>Tabla de MediaL en Lync Server 2013
 

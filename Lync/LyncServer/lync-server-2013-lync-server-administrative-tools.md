@@ -12,18 +12,18 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6de54e91129351a153c9cf4e08925d62eeb342c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 85ba9b1d9848fa51d798dd93b9cbc53daf69a6b7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030243"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150431"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-server-2013-administrative-tools"></a>Herramientas administrativas de Lync Server 2013
 
@@ -113,7 +113,7 @@ En Lync Server, el shell de administración de Lync Server proporciona un nuevo 
 
 ## <a name="logging-tool"></a>Herramienta de registro
 
-La herramienta de registro de Lync Server facilita la solución de problemas al capturar el registro y la información de seguimiento del producto mientras se ejecuta el producto. Puede usar la herramienta para ejecutar sesiones de depuración en cualquier rol de servidor de Lync Server. Para obtener más información sobre la herramienta de registro, vea la documentación de la herramienta de registro de Lync [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265)Server 2010 en la biblioteca de TechNet en.
+La herramienta de registro de Lync Server facilita la solución de problemas al capturar el registro y la información de seguimiento del producto mientras se ejecuta el producto. Puede usar la herramienta para ejecutar sesiones de depuración en cualquier rol de servidor de Lync Server. Para obtener más información sobre la herramienta de registro, vea la documentación de la herramienta de registro de Lync [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265)Server 2010 en la biblioteca de TechNet en.
 
 <div>
 

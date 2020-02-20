@@ -12,18 +12,18 @@ ms:contentKeyID: 54973687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7054bae609b5d1a1c6fe176c1092614f5d30fa6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8729ca803f3e3897aa9383f28a486229bf5ce33f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029711"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150869"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>Configuración de AD FS 2,0 para admitir la autenticación de cliente en Lync Server 2013
 
@@ -43,7 +43,7 @@ Hay dos tipos de autenticación posibles que se pueden configurar para permitir 
 
   - Autenticación de cliente de seguridad de capa de transporte
 
-Mediante el uso de la autenticación basada en formularios, puede desarrollar una página web que permita a los usuarios autenticarse con su nombre de usuario/contraseña o con su tarjeta inteligente y su PIN. Este tema se centra en cómo implementar la autenticación de cliente de seguridad de capa de transporte con AD FS 2,0. Para obtener más información acerca de los tipos de autenticación 2,0 de AD FS, consulte AD FS 2,0: Cómo cambiar el [http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384)tipo de autenticación local en.
+Mediante el uso de la autenticación basada en formularios, puede desarrollar una página web que permita a los usuarios autenticarse con su nombre de usuario/contraseña o con su tarjeta inteligente y su PIN. Este tema se centra en cómo implementar la autenticación de cliente de seguridad de capa de transporte con AD FS 2,0. Para obtener más información acerca de los tipos de autenticación 2,0 de AD FS, consulte AD FS 2,0: Cómo cambiar el [https://go.microsoft.com/fwlink/p/?LinkId=313384](https://go.microsoft.com/fwlink/p/?linkid=313384)tipo de autenticación local en.
 
 <div>
 

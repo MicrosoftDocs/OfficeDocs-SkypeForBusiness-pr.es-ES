@@ -12,18 +12,18 @@ ms:contentKeyID: 48184434
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18c0957d66d9b877a67819b8fd8d46d4e614cdad
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 72d059cc32015409377ab0b12bbe8c3ebc7da7d3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034060"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152628"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="port-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Resumen de Puerto-grupo de Director escalado, equilibrador de carga de hardware en Lync Server 2013
 

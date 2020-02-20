@@ -12,18 +12,18 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15dae97f0c6c507c8e6645ea96e538dba42c29c2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07a333eeb794a27ca78b1f6d8c9bf71c386c8a92
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033339"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a>Migrar usuarios de Lync Online a Lync local en Lync Server 2013
 
@@ -53,9 +53,9 @@ _**Última modificación del tema:** 2015-11-13_
 
 1.  En primer lugar, asegúrese de que su organización está configurada para entornos híbridos.
     
-      - Instale la herramienta de sincronización de Azure Active Directory. Para más información, vea <http://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>.
+      - Instale la herramienta de sincronización de Azure Active Directory. Para más información, vea <https://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>.
     
-      - Para permitir que los usuarios usen el inicio de sesión único para Lync Online, instale los servicios <http://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>de Federación de Active Directory.
+      - Para permitir que los usuarios usen el inicio de sesión único para Lync Online, instale los servicios <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>de Federación de Active Directory.
     
       - En la implementación local, en Shell de administración de Lync Server, escriba los siguientes cmdlets para crear el proveedor de hospedaje para Lync Online:
         
@@ -173,7 +173,7 @@ _**Última modificación del tema:** 2015-11-13_
     
 
     > [!NOTE]  
-    > El tamaño máximo predeterminado para los archivos de registro de transacciones de la base de datos rtcxds es de 16 GB. Es posible que esto no sea lo suficientemente grande como para mover un gran número de usuarios a la vez, especialmente si está habilitada la creación de reflejo. Para solucionarlo, puede aumentar el tamaño del archivo o hacer una copia de seguridad de los archivos de registro con regularidad. Para obtener más información, <A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>consulte.
+    > El tamaño máximo predeterminado para los archivos de registro de transacciones de la base de datos rtcxds es de 16 GB. Es posible que esto no sea lo suficientemente grande como para mover un gran número de usuarios a la vez, especialmente si está habilitada la creación de reflejo. Para solucionarlo, puede aumentar el tamaño del archivo o hacer una copia de seguridad de los archivos de registro con regularidad. Para obtener más información, <A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A>consulte.
 
     
     </div>

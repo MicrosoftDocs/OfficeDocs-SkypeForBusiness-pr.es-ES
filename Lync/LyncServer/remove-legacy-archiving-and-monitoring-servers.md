@@ -12,18 +12,18 @@ ms:contentKeyID: 48185278
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 144d2d1861b9e1dc75aaf740eca1a35e2d384a7b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0447305ce1ed5486c6b8d83ae99d905ea1e74362
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008916"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148237"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>Quitar los servidores de archivado y supervisión heredados
 
@@ -41,7 +41,7 @@ Si la implementación heredada contenía un servidor de archivado o un servidor 
 
 Puede mover usuarios de Lync Server 2010 a Lync Server 2013 siguiendo los procedimientos descritos en la [fase 4: mover usuarios de prueba al grupo piloto](phase-4-move-test-users-to-the-pilot-pool.md).
 
-Una vez que haya confirmado que todos los usuarios se han quitado de los grupos restantes, siga el procedimiento descrito en "desinstalar Microsoft Lync Server 2010 y quitar roles de servidor", que [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)se pueden descargar en.
+Una vez que haya confirmado que todos los usuarios se han quitado de los grupos restantes, siga el procedimiento descrito en "desinstalar Microsoft Lync Server 2010 y quitar roles de servidor", que [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)se pueden descargar en.
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3a77a37cb9f9c4f92f344988082086834ab3489
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b91fc332c5eff86cd23393492bcd760bbda18db3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046533"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151400"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="choosing-a-topology-in-lync-server-2013"></a>Elección de una topología en Lync Server 2013
 
@@ -172,22 +172,22 @@ El uso de NAT para todas las interfaces externas perimetrales requiere el uso de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
+<td><p>segundo</p></td>
 <td><p>6 </p></td>
 <td><p>3 (1 por VIP) + 6</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>9 </p></td>
 <td><p>3 (1 por VIP) + 9</p></td>
 </tr>
 <tr class="odd">
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>12</p></td>
 <td><p>3 (1 por VIP) + 12</p></td>
 </tr>
 <tr class="even">
-<td><p>5 </p></td>
+<td><p>2,5</p></td>
 <td><p>15 </p></td>
 <td><p>3 (1 por VIP) + 15</p></td>
 </tr>
@@ -212,22 +212,22 @@ El uso de NAT para todas las interfaces externas perimetrales requiere el uso de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
-<td><p>2 </p></td>
+<td><p>segundo</p></td>
+<td><p>segundo</p></td>
 <td><p>1 (1 por VIP) + 2</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
 <td><p>1 (1 por VIP) + 3</p></td>
 </tr>
 <tr class="odd">
-<td><p>4 </p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
 <td><p>1 (1 por VIP) + 4</p></td>
 </tr>
 <tr class="even">
-<td><p>5 </p></td>
+<td><p>2,5</p></td>
 <td><p>2,5</p></td>
 <td><p>1 (1 por VIP) + 5</p></td>
 </tr>

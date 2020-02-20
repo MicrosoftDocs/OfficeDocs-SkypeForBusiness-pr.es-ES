@@ -12,18 +12,18 @@ ms:contentKeyID: 48183454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0a2df9eee6ee9cf0ca387c9098623d574292a27
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 49de294605372b4b407f0ee16a3fd5661822074f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045222"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149870"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="media-bypass-and-call-admission-control-in-lync-server-2013"></a>Omisión de medios y control de admisión de llamadas en Lync Server 2013
 

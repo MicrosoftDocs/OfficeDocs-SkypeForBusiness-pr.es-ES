@@ -12,18 +12,18 @@ ms:contentKeyID: 48185669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81af0b98fdcc39396ca3f0afc27f4b57d42b7582
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f25a2ba7735c8ccf135d2030e7853940ef545ac2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030624"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151470"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a>Configuración de la compatibilidad de Federación para un cliente de Lync Online en Lync Server 2013
 
@@ -49,7 +49,7 @@ Si implementa Lync 2013 en su organización, puede federar a los dominios de uno
 
 
 > [!NOTE]  
-> En esta documentación solo se describen los procedimientos para configurar su organización para que admitan la Federación con un cliente de Lync Online 2010. En esta documentación no se describen los procedimientos para configurar el cliente de Lync Online 2010 para que admita la Federación. Para obtener más información sobre los servicios de Lync Online, <A href="http://go.microsoft.com/fwlink/p/?linkid=218941">http://go.microsoft.com/fwlink/p/?linkId=218941</A>consulte Lync Online en.
+> En esta documentación solo se describen los procedimientos para configurar su organización para que admitan la Federación con un cliente de Lync Online 2010. En esta documentación no se describen los procedimientos para configurar el cliente de Lync Online 2010 para que admita la Federación. Para obtener más información sobre los servicios de Lync Online, <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A>consulte Lync Online en.
 
 
 

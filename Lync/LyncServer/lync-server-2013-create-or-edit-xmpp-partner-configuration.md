@@ -12,18 +12,18 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4410444d1565e61fa80ef8b8db29aad63b4401de
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 609729c65240a17b70f7ef7115bd4901f37c687a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42032496"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151942"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Crear o editar la configuración del socio XMPP en Lync Server 2013
 
@@ -75,7 +75,7 @@ Microsoft Lync Server 2013 integra un proxy de protocolo extensible de mensajer�
     
     Consulte el documento XEP-0178 de XSF para obtener más información sobre los requisitos de XMPP. Para obtener información detallada, consulte “XEP-0178: Procedimientos recomendados para el uso de SASL EXTERNO con certificados”. <http://xmpp.org/extensions/xep-0178.html>
     
-    Consulte el documento IETF "extensible Messaging and Presence Protocol (XMPP): Core", sección 5,0, negociación <http://tools.ietf.org/html/rfc6120>de STARTTLS.
+    Consulte el documento IETF "extensible Messaging and Presence Protocol (XMPP): Core", sección 5,0, negociación <https://tools.ietf.org/html/rfc6120>de STARTTLS.
     
       - **Negociación TLS**. Define las reglas de negociación de TLS. Un servicio de XMPP puede requerir TLS, determinar que TLS es opcional o definir que TLS no se admite. Si se opta por la posibilidad opcional, es el servicio de XMPP quien decide si la negociación es obligatoria. Para ver todos los valores y detalles posibles para la negociación de SASL, TLS y devolución, incluidas las configuraciones de error conocidas y no válidas, vea [configuración de la negociación para socios federados XMPP en Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         
