@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Skype empresarial Server Enterprise Voice enruta las llamadas en función de los números de teléfono normalizados al formato E. 164. Esto significa que todas las cadenas marcadas deben normalizarse al formato E. 164 para realizar búsquedas inversas de números (RNL), de modo que se puedan traducir al URI del SIP correspondiente. Skype empresarial Server proporciona la capacidad de manipular el identificador llamado y la presentación del identificador de llamada.
-ms.openlocfilehash: dddeee5ef7784d9c2c433763da4c8b6145611e49
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 49598c2ef6b1a145c206bece3e06068067b0a0e0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045072"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151210"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Definición de reglas de conversión en Skype empresarial Server
 
@@ -55,7 +55,7 @@ Puede usar cualquiera de los métodos siguientes para crear o modificar una regl
 - [Escriba manualmente las expresiones regulares](#create-or-modify-a-translation-rule-manually) para definir el patrón de coincidencia y la regla de conversión.
 
 > [!Note]
-> Para obtener información sobre cómo escribir expresiones regulares, vea [expresiones regulares de .NET Framework](http://go.microsoft.com/fwlink/p/?linkId=140927). 
+> Para obtener información sobre cómo escribir expresiones regulares, vea [expresiones regulares de .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927). 
 
 ### <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool"></a>Creación o modificación de una regla de conversión mediante la herramienta generar una regla de conversión
 

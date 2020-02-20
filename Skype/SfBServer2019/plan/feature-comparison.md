@@ -1,7 +1,7 @@
 ---
 title: Comparación de características de cliente de escritorio para Skype empresarial Server 2019
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 ms.reviewer: PhillipGarding
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumen: los administradores de Skype empresarial Server 2019 o Skype empresarial online pueden usar estas tablas para comprender qué características se admiten en cada cliente.'
-ms.openlocfilehash: 34ef16a31e6b8eb21ded0dbad80bd1a0a738d849
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f8b50614d663104e1307b233449ccffc0e26adb5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010373"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42129493"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparación de características de cliente de escritorio para Skype empresarial Server 2019
 

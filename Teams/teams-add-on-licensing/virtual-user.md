@@ -1,7 +1,7 @@
 ---
 title: 'Sistema telefónico: licencias de usuario virtual '
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: reference
@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Obtenga más información sobre las licencias de usuario virtual gratuitas.
-ms.openlocfilehash: 5b31c9edaf42508e59000257a33b9ddeba4c6fb5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 43406bdb105ac293dafd714fa94b75d031c6e99e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029361"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155062"
 ---
 # <a name="phone-systemvirtual-user-license"></a>Sistema telefónico: licencia de usuario virtual 
 

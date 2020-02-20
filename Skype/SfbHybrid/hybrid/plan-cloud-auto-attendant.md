@@ -1,7 +1,7 @@
 ---
 title: Planeación de un operador automático de la nube
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general sobre el uso de un operador automático de la nube con Skype empresarial Server 2019
-ms.openlocfilehash: f7a3799df083d1404a2d635ee38403cc2653b9ea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2cb4c54e4c70e9187e44c5de3cb70fac85be30a6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037822"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150481"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planeación de operadores automáticos en la nube
 
@@ -40,7 +40,7 @@ Una llamada entrante a un operador automático de la nube puede tomar una de var
 
 Consulte también:
 
-- [Configurar un operador automático de la nube](/microsoftteams/create-a-phone-system-auto-attendant)
+- [Configurar un operador automático en la nube](/microsoftteams/create-a-phone-system-auto-attendant)
 - [Contestar y enrutar automáticamente las llamadas entrantes](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
 ## <a name="requirements"></a>Requisitos
@@ -110,7 +110,7 @@ Cuando tenga una estructura sólida que satisfaga sus necesidades y un script qu
 
 [¿Qué son los operadores automáticos de la nube?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
-[Configurar un operador automático de la nube](/microsoftteams/create-a-phone-system-auto-attendant)
+[Configurar un operador automático en la nube](/microsoftteams/create-a-phone-system-auto-attendant)
 
 Mensajería unificada [de Exchange: responder y enrutar automáticamente las llamadas entrantes](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 

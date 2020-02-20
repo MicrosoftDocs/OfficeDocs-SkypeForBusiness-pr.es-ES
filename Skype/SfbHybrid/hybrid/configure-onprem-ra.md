@@ -1,7 +1,7 @@
 ---
 title: Configurar una cuenta de recursos en Skype empresarial Server 2019
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configure una cuenta de recursos para Skype empresarial Server 2019.
-ms.openlocfilehash: e16f75063cfbe794ff0257cb9cccdf44065a5448
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9acd9df1d9c5372915ea51ff1b3b94e1f89c3311
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726780"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113263"
 ---
 # <a name="configure-resource-accounts"></a>Configurar cuentas de recursos
 
@@ -112,7 +112,7 @@ La cuenta de recurso necesitará un número de teléfono asignado si se va a asi
 
 7. Cree el operador automático o la cola de llamadas del sistema telefónico. Vea una de las opciones siguientes:
 
-   - [Configurar un operador automático de la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant)
+   - [Configurar un operador automático en la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant)
    - [Crear una cola de llamadas en la nube](/MicrosoftTeams/create-a-phone-system-call-queue)  
 
 8. Asocie la cuenta de recurso con el operador automático de sistema telefónico o la cola de llamadas que eligió anteriormente.
@@ -144,7 +144,7 @@ Inicie sesión en el servidor front-end de Skype empresarial y ejecute los sigui
     Consulte [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) para obtener más información sobre este comando.
 
 3. Cree el operador automático o la cola de llamadas del sistema telefónico. Vea una de las opciones siguientes:
-   - [Configurar un operador automático de la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant)
+   - [Configurar un operador automático en la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant)
    - [Crear una cola de llamadas en la nube](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. Asocie la cuenta de recurso y el operador automático o la cola de llamadas del sistema telefónico que eligió anteriormente.
 
@@ -197,7 +197,7 @@ La migración de la mensajería unificada de Exchange al sistema telefónico nec
 
 [¿Qué son los operadores automáticos de la nube?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
 
-[Configurar un operador automático de la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
+[Configurar un operador automático en la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
 [Planeación de operadores automáticos en la nube](plan-cloud-auto-attendant.md)
 

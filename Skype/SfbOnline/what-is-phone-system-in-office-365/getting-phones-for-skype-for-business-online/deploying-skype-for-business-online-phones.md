@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Aprenda los pasos de implementación para obtener el firmware correcto, actualizarlo si es necesario, asignar licencias y establecer la configuración de los teléfonos de Skype empresarial online.
-ms.openlocfilehash: efcea04a454d846c0140e9d1dba561da228df1de
-ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
+ms.openlocfilehash: f4f1a36e5a2e98c4566a81b41bc6e6c281ac9a3b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784757"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113153"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Implementación de teléfonos de Skype Empresarial Online
 
@@ -208,7 +208,7 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
   
 2. Descarga e instala el software más reciente de BToE desde el sitio web del fabricante de los siguientes vínculos. Para una mejor experiencia de usuario, puede distribuir e instalar el software BToE mediante una solución de distribución de administrador, como Microsoft Endpoint Configuration Manager. Para obtener ayuda sobre el uso de Configuration Manager, vea [paquetes y programas en Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs).
     
-   - [Sitio de descarga del software BToE de Polycom](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
+   - [Sitio de descarga del software BToE de Polycom](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
    - [Descarga del software BToE de Yealink](http://www.yealink.com/products_list_10.html)
     

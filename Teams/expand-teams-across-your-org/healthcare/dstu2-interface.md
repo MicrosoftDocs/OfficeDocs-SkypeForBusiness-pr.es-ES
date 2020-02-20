@@ -1,7 +1,7 @@
 ---
 title: Interfaz de DSTU2 y integración de EHR de la aplicación para pacientes
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Integración de la EHR de la aplicación pacientes de Microsoft Teams
-ms.openlocfilehash: d7acea1002d80a397469d242cfbbb1adfba07a24
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 10a6b21e583b5fdd3e70857c4cfc5e7e21a7e988
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827808"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153822"
 ---
 # <a name="dstu2-interface-specification"></a>Especificación de la interfaz DSTU2
 
@@ -54,7 +54,7 @@ Todos los siguientes recursos de FHIR deben ser accesibles mediante la referenci
    1. Modo
    2. MOV
    3. Recurso: tipo
-   4. Seguridad: [extensión para URI de OAuth](http://hl7.org/fhir/extension-oauth-uris.html)
+   4. Seguridad: [extensión para URI de OAuth](https://hl7.org/fhir/extension-oauth-uris.html)
 2. FhirVersion (nuestro código requiere esto para comprender a qué versión debemos dinamizar, ya que admitimos varias versiones).
 
 Consulte [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) para obtener más información sobre este conjunto de campos.
@@ -82,7 +82,7 @@ Además de los campos Argonaut, para una experiencia de usuario excelente, la ap
     Respuesta: {"resourceType": "patient", "ID": "<ID de paciente>",.
       .
       .
-      "nombre": [{"use": "funcionario", "prefijo": ["Mr"], "familia": ["Chau"], "dado": ["Hugh"]}], "identificador": [{"use": "oficial", "tipo": {"código": [{"System": "http://hl7.org/fhir/v2/0203", "": ",". ",", ",", ".", ".", ",", ",": [{"careProvider": "Juana Pérez"}],} 1957-06-05 1234567
+      "nombre": [{"use": "funcionario", "prefijo": ["Mr"], "familia": ["Chau"], "dado": ["Hugh"]}], "identificador": [{"use": "oficial", "tipo": {"código": [{"System": "https://hl7.org/fhir/v2/0203", "": ",". ",", ",", ".", ".", ",", ",": [{"careProvider": "Juana Pérez"}],} 1957-06-05 1234567
 
 * * *
 

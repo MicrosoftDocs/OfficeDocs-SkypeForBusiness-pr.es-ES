@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: En este artículo se describen las mejoras acumulativas de las salas de Microsoft Teams.
-ms.openlocfilehash: ace96ae0cc8094c1daa7d74f76790e6316ee9411
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fc83efc2b3b72be532d29b2698370c655a1da9ac
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825808"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155092"
 ---
 # <a name="release-notes"></a>Notas de la versión
 
@@ -248,7 +248,7 @@ Introdujo en esta actualización:
 
 Introdujo en esta actualización:
 
-- Compatibilidad con el hardware Dock [serie MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
+- Compatibilidad con el hardware Dock [serie MSR](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
 - Compatibilidad con [Logitech Brio](https://www.logitech.com/product/brio)
 - Resuelve un problema por el que muestra (consola y delante del salón) no puede entrar en el modo de suspensión cuando no hay actividad en el salón
 
@@ -258,7 +258,7 @@ Introdujo en esta actualización:
 
 - Se ejecuta en una tableta Surface Pro (2017) 
 - Es compatible con la actualización de Windows 10 Enterprise Creator (idioma inglés, compilación 1703)
-- Compatibilidad con hardware de acoplamiento de [Crestron Sr](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
+- Compatibilidad con hardware de acoplamiento de [Crestron Sr](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
 - Compatibilidad con OEM para controles de entorno (Crestron)
 
 La versión de 64 bits de la edición de aniversario de Windows 10 Enterprise (idioma inglés, versión 1607) ya no se admite en la versión de Microsoft Team Rooms Release 3.0.12.0 (actualización 3).

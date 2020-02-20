@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Las reglas de normalización de Skype empresarial Server usan expresiones regulares de .NET Framework para traducir números de teléfono marcados al formato E. 164; es decir, las reglas de normalización toman el número de teléfono marcado por un usuario y convierten ese número al formato usado internamente por Skype empresarial Server. Cada plan de marcado debe tener asignadas una o más reglas de normalización.
-ms.openlocfilehash: 42ec43a08d1c155f61869bdfebf07e94ac040e56
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2fd7f59bcebcfe676a03ce5a6a897336551ddbad
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028851"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151220"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Definición de reglas de normalización en Skype empresarial Server
 
@@ -24,7 +24,7 @@ Las reglas de normalización de Skype empresarial Server usan expresiones regula
 
 Para obtener más información acerca de las reglas de normalización, consulte [planes de marcado y reglas de normalización](https://technet.microsoft.com/library/gg413082(v=ocs.15).aspx).
 
-Para obtener información detallada sobre cómo escribir expresiones regulares, vea [expresiones regulares de .NET Framework](http://go.microsoft.com/fwlink/p/?linkId=140927).
+Para obtener información detallada sobre cómo escribir expresiones regulares, vea [expresiones regulares de .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
 Puede usar cualquiera de los siguientes métodos para definir o editar una regla de normalización:
 - [Use la herramienta **crear una regla de normalización** ](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) para especificar valores para los dígitos iniciales, la longitud, los dígitos que se van a quitar y los dígitos que se van a agregar y, a continuación, deje que el panel de control de Skype empresarial Server genere el patrón de coincidencia y la regla de conversión correspondientes.
