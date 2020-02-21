@@ -12,16 +12,16 @@ ms:contentKeyID: 56563409
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0476b90659ced152a4d24fbb3890ac224bdf0d91
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 63cbce4dda006bb45606a09eef29d8c47946ad2a
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42148003"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42189183"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -53,22 +53,22 @@ Los cmdlets de informes disponibles para los administradores incluyen:
 
 La mayoría de los administradores usarán los informes disponibles en el centro de administración de 365 de Microsoft: no solo esos informes se generan automáticamente, sino que también proporcionan una representación gráfica de los datos que a menudo es más fácil de interpretar que los valores de número sin formato devueltos por el cmdlets de informes. Sin embargo, los administradores familiarizados con Windows PowerShell pueden usar los cmdlets de informes para devolver datos que no están disponibles de forma legible desde los informes de Lync Online. Por ejemplo, los cmdlets de informes devuelven información sobre la duración de la sesión (la cantidad de tiempo, en minutos, que duró cada sesión). Las duraciones de sesión individuales no están disponibles mediante los informes de Lync Online. Del mismo modo, en vista diaria los informes de Lync Online solo muestran información para los 14 días anteriores. Si desea revisar los totales diarios de un día diferente (por ejemplo, una fecha de hace cuatro meses), puede hacerlo con los cmdlets de informes.
 
-Los administradores también pueden estar interesados en el artículo [usar Excel para recuperar datos de informes de office 365](http://msdn.microsoft.com/library/dn781442.aspx), donde se explica cómo usar la característica de consulta de datos de oData en Microsoft Excel para crear un informe personalizado de Office 365. Los informes personalizados le proporcionan la capacidad de dictar qué datos (y cuántos datos) se devuelven del servicio de informes de Office 365. Los informes personalizados también le permiten especificar cómo deben ordenarse y agruparse los datos, así como proporcionar acceso a la información que no se muestra en el centro de administración.
+Los administradores también pueden estar interesados en el artículo [usar Excel para recuperar datos de informes de office 365](https://msdn.microsoft.com/library/dn781442.aspx), donde se explica cómo usar la característica de consulta de datos de oData en Microsoft Excel para crear un informe personalizado de Office 365. Los informes personalizados le proporcionan la capacidad de dictar qué datos (y cuántos datos) se devuelven del servicio de informes de Office 365. Los informes personalizados también le permiten especificar cómo deben ordenarse y agruparse los datos, así como proporcionar acceso a la información que no se muestra en el centro de administración.
 
 Los administradores con un fondo de desarrollo pueden usar el servicio Web REST para obtener información que no se muestra en el centro de administración de Skype empresarial online. El servicio REST es similar al servicio SOAP, en el que cada tecnología proporciona una forma de transferir datos XML entre un cliente y un servidor. Sin embargo, el servicio REST tiene al menos dos ventajas sobre el servicio SOAP. Para uno, REST realiza transferencias de datos XML con un formato estandarizado conocido como formato de sindicación ATOM. Por el contrario, SOAP usa un formato no estándar al transferir datos. Además, REST puede transferir datos a través de redes que bloquean verbos HTTP distintos de GET y POST.
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 
 [Informes de Lync Online](https://technet.microsoft.com/library/dn362827\(v=ocs.15\))  
 
 
-[El servicio Web de informes de Office 365](http://msdn.microsoft.com/library/office/jj984325.aspx)  
-[Información sobre el servicio Web de informes de Office 365](http://msdn.microsoft.com/library/office/jj984321.aspx)  
+[El servicio Web de informes de Office 365](https://msdn.microsoft.com/library/office/jj984325.aspx)  
+[Información sobre el servicio Web de informes de Office 365](https://msdn.microsoft.com/library/office/jj984321.aspx)  
 [Cmdlets de informes de Exchange Online](https://technet.microsoft.com/library/jj200780\(v=exchg.150\).aspx)  
-[Uso de Excel para recuperar datos de informes de Office 365](http://msdn.microsoft.com/library/dn781442.aspx)  
+[Uso de Excel para recuperar datos de informes de Office 365](https://msdn.microsoft.com/library/dn781442.aspx)  
   
 
 </div>
