@@ -12,16 +12,16 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e35627633839f294cebced6df47a90919e7fc5ef
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: caff54dd2919bacfda02fceff138650f90bae650
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42139161"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42208789"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -103,7 +103,7 @@ Después de elegir un camino para empezar, defina un objetivo para cada área (a
 
 ## <a name="pcd"></a>PCD
 
-La herramienta de diagnóstico de llamada anterior (PCD) le ayudará a identificar y diagnosticar problemas en la red perimetral (la base de datos de QoE no recopila información en su periferia o en la red perimetral) y también para solucionar problemas de conexiones en el último kilómetro. La herramienta está disponible como aplicación moderna de Windows 8 o en una aplicación de escritorio de http://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88Windows en.
+La herramienta de diagnóstico de llamada anterior (PCD) le ayudará a identificar y diagnosticar problemas en la red perimetral (la base de datos de QoE no recopila información en su periferia o en la red perimetral) y también para solucionar problemas de conexiones en el último kilómetro. La herramienta está disponible como aplicación moderna de Windows 8 o en una aplicación de escritorio de https://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88Windows en.
 
 </div>
 
@@ -201,7 +201,7 @@ Para **mantenerlo** en el juego, indique en alto el plan de administración de s
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 
 [Guía de redes de Lync Server](https://go.microsoft.com/fwlink/p/?linkid=390677)  

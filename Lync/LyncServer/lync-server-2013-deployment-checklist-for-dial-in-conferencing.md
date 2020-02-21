@@ -12,16 +12,16 @@ ms:contentKeyID: 48184987
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc1cbf5d732cbd30ac7d59e3bcedafadb0759ce2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 084686c33482e4828378db76c2a5ca1c834bacf3
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135927"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205857"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ Todos los pasos indicados en la tabla siguiente deben realizarse antes de que lo
 <tr class="header">
 <th>Fase</th>
 <th>Pasos</th>
-<th>Permisos</th>
+<th>Permissions</th>
 <th>Documentación de implementación</th>
 </tr>
 </thead>

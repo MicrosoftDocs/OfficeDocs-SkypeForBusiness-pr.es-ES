@@ -12,16 +12,16 @@ ms:contentKeyID: 51541429
 ms.date: 02/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 046e29fcec697a1ac073833e6b73c7bfe15fb8ba
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 496d1c5e420ab20787d526f1a9fa93070e9eafb1
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147393"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206506"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -159,7 +159,7 @@ ABSConfig proporciona una forma rápida y sencilla de personalizar el servicio d
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 <div>
 
@@ -285,7 +285,7 @@ La finalidad de la herramienta de supervisión del servicio de directiva de anch
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 La herramienta de supervisión del servicio de directiva de ancho de banda debe ejecutarse en un equipo que forme parte de la topología de Lync Server.
 
@@ -540,7 +540,7 @@ Filtrar por **región**. Seleccione una lista de regiones cuyos vínculos se deb
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
   - .NET Framework 3,5
 
@@ -626,7 +626,7 @@ La finalidad de la herramienta CPS es proporcionar acceso desde la línea de com
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 No hay requisitos si esta herramienta se ejecuta en el mismo equipo que ejecuta CPS. Si esta herramienta se ejecuta en un equipo remoto, la base de datos de SQL Server que usa Lync Server 2013 debe estar configurada para permitir el acceso remoto. Llamar a Parkometer debe configurarse con una cadena de conexión de base de datos de SQL Server para conectarse al servidor SQL Server del grupo. Esta cadena de conexión de base de datos de SQL Server se define en el archivo de configuración, **parkometer. exe. config**. Debe colocarse en el mismo directorio donde se encuentra parkometer. exe. El siguiente archivo XML es un ejemplo de parkometer. exe. config. Los parámetros que deben configurarse son el nombre de usuario (por ejemplo\\, administrador de dominio), la contraseña (por ejemplo, contraseña) y el nombre de host (por ejemplo, mi servidor).
 
@@ -697,7 +697,7 @@ Para admitir la alta disponibilidad, LYSS acepta y guarda copias de los datos en
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Instale las herramientas del kit de recursos de Lync Server 2013. La herramienta se ejecuta en equipos Unidos a un dominio en los que se han instalado Lync Server y Lync Server 2013 Management Shell. La herramienta usa un cmdlet desde el shell de administración para identificar todos los servidores front-end del grupo. En segundo lugar, la herramienta debe ejecutarse desde un equipo en el grupo de servidores que tenga instalada la base de datos **RtcLocal** . Esta base de datos se usa con la herramienta CleanupStorageServiceData para obtener los detalles de conexión necesarios para comunicarse con el servicio de enrutamiento de Lync Server. por último, la cuenta o credencial que invoca la herramienta debe tener permiso de lectura y escritura en el recurso compartido de archivos en el que desea escribir el registro de salida. Además, esta herramienta depende de que el grupo esté en un estado estable. En esencia, esto significa que cada servidor front-end debe estar activo y en funcionamiento, la instancia de SQL Server LYNCLOCAL y la base de datos de LYSS deben poder conectarse a y cada grupo de enrutamiento debe tener un conjunto completo de 1 servidor front-end principal y 2 servidores front-end secundarios ervers.
 
@@ -826,7 +826,7 @@ Para instalar Dbanalyze. exe, cópielo en una carpeta local y, a continuación, 
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 **Equipo** DBAnalyze solo puede ejecutarse desde un equipo unido a un dominio que tenga instalado Lync Server 2013.
 
@@ -901,7 +901,7 @@ Esta herramienta aumentará la carga de la CPU y de e/s en el front-end en el qu
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Instale las herramientas del kit de recursos de Lync Server 2013. La herramienta se ejecuta en equipos Unidos a un dominio donde se instalan Lync Server y Lync Server Management Shell. La herramienta usa un cmdlet desde el shell de administración para identificar todos los servidores front-end del grupo. En segundo lugar, la herramienta debe ejecutarse desde un equipo en el grupo de servidores que tenga instalada la base de datos **RtcLocal** . Esta base de datos la usa la herramienta para recuperar la ubicación del recurso compartido de archivos WebService para el grupo de servidores. Además, antes de usar la herramienta, cada servidor front-end debe habilitar la comunicación remota de Windows PowerShell con **enable-PSRemoting** en cada servidor front-end, así como el equipo desde el que se ejecuta la herramienta. De lo contrario, se producirá un error en los comandos remotos de Windows PowerShell de esta herramienta. La comunicación remota de Windows PowerShell puede desactivarse en todos los servidores front-end del grupo una vez finalizado. Por último, la cuenta o credencial que invoca la herramienta debe tener permiso de lectura y escritura en el recurso compartido de archivos WebService para el grupo en el que está ejecutando esta herramienta. De lo contrario, la herramienta producirá errores de permiso de e/s.
 
@@ -1122,7 +1122,7 @@ Al ejecutar LookupUserConsole. exe se abrirá un símbolo del sistema que acepta
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Instale las herramientas del kit de recursos de Lync Server 2013. La herramienta se ejecuta en equipos Unidos a un dominio donde Lync Server está instalado
 
@@ -1226,7 +1226,7 @@ La herramienta genera los resultados de cada una de las operaciones.
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
   - Esta herramienta debe ejecutarse desde un equipo que esté en la topología y que tenga el almacén local.
 
@@ -1392,7 +1392,7 @@ Las siguientes tres características principales están disponibles para los age
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Response Group Agent Live requiere .NET Framework 4,0. Además, para aprovechar las características de presencia y tarjeta de contacto, Lync 2013 debe estar instalado de forma local (y estar en ejecución).
 
@@ -1533,7 +1533,7 @@ A continuación se muestran algunos de los escenarios clave en los que se puede 
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 La herramienta SEFAUtil solo puede ejecutarse en un equipo que forme parte de un grupo de aplicaciones de confianza. UCMA 3,0 debe estar instalado en el equipo. Para ejecutar la herramienta, se debe crear una nueva aplicación de confianza con el identificador de la aplicación SEFAUtil en ese grupo de servidores.
 
@@ -1989,7 +1989,7 @@ Aunque el nombre del script es similar a la herramienta de preparación del sist
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Antes de ejecutar el script SYSPrep. ps1, debe copiar los archivos de requisitos previos en una carpeta local del equipo del sistema operativo Windows Server 2008 (por ejemplo, **D:\\Setup)**. Esta carpeta también debe incluir una copia de los archivos de Lync Server 2013, en concreto **setup. exe.** Los archivos de requisitos previos se pueden descargar desde las siguientes ubicaciones:
 
@@ -2008,7 +2008,7 @@ Antes de ejecutar el script SYSPrep. ps1, debe copiar los archivos de requisitos
 <tbody>
 <tr class="odd">
 <td><p>Microsoft .NET Framework 4,5</p></td>
-<td><p>http://go.microsoft.com/?linkid=9816306</p></td>
+<td><p>https://go.microsoft.com/?linkid=9816306</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft SQL Server Express 2008 R2</p></td>
@@ -2117,7 +2117,7 @@ Se puede usar el script de migración de anuncios de números sin asignar en los
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Los siguientes son los requisitos principales necesarios para ejecutar correctamente la herramienta:
 
@@ -2217,7 +2217,7 @@ Esta herramienta genera los resultados de cada una de las operaciones:
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 La herramienta debe ejecutarse en el mismo grupo de servidores donde está hospedada actualmente el organizador.
 

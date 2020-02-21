@@ -12,16 +12,16 @@ ms:contentKeyID: 63969578
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55d8881bc8b8a55351cc088c230574b958718a63
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: d0cb167d2a7aed3f5c107d4beba568c00ac501e0
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150939"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206736"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -69,7 +69,7 @@ Puede comprobar el espacio libre en disco con los métodos siguientes:
 
 1.  **System Center Operations Manager**   se puede usar System Center Operations Manager para avisar a los administradores cuando se restringe el espacio en el volumen.
 
-2.  **Ejecutar un**   espacio en disco de monitor de script mediante la ejecución de un script que le envía un mensaje si el espacio disponible en el disco duro cae por debajo del 20 por ciento. Puede encontrar un script de ejemplo en el centro de scripts de Microsoft en TechNet, examine:[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
+2.  **Ejecutar un**   espacio en disco de monitor de script mediante la ejecución de un script que le envía un mensaje si el espacio disponible en el disco duro cae por debajo del 20 por ciento. Puede encontrar un script de ejemplo en el centro de scripts de Microsoft en TechNet, examine:[https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
 
 3.  **El explorador**   de Windows usa el explorador de Windows para comprobar el espacio en disco en los volúmenes que almacenan las bases de datos y los registros de Lync Server 2013.
 

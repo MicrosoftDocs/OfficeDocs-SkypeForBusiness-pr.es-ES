@@ -12,16 +12,16 @@ ms:contentKeyID: 49733719
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9af351e2d5710d3263faf0afeb6ab8aa36d5e568
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 28820bacf3208d8918e18e3bbb9904f762cfdd21
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42146393"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42207884"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -107,7 +107,7 @@ Si desea obtener más información, consulte el tema de ayuda del cmdlet [Set-Cs
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 
 [Configuración de notificaciones de inserción en Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)  

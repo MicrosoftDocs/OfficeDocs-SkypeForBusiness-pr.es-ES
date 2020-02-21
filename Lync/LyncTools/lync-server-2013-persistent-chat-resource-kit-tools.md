@@ -12,16 +12,16 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 726e6bb537a16ece5c2955f005e91872f11f6a79
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: ffd95611f3033dff992092e3be93815bd0e01915
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147733"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206176"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -99,7 +99,7 @@ La herramienta AffCheck confirma que los registros de afiliación de grupo y usu
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 La herramienta se instala con el instalador de PersistentChatResKit en un equipo unido a un dominio.
 
@@ -169,7 +169,7 @@ El archivo CSV contendrá un desglose de las sesiones de chat persistentes por n
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Instale las herramientas del kit de recursos de chat persistente en un equipo unido a un dominio que tenga acceso a la base de datos de supervisión.
 
@@ -228,7 +228,7 @@ La herramienta de estrés de chat persistente ofrece una forma sencilla de simul
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Instale las herramientas del kit de recursos de chat persistente en un equipo unido a un dominio que tenga acceso a la base de datos back-end de chat persistente.
 
@@ -311,7 +311,7 @@ La herramienta comprobará, una por una, cada categoría, un salón de chat pers
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Instale las herramientas del kit de recursos de chat persistente en un equipo unido a un dominio que tenga acceso a las bases de datos de back-end de chat persistente (versiones anteriores y actuales para el chat persistente).
 
@@ -353,7 +353,7 @@ La herramienta ChatUsageReport genera un informe HTML del uso del servicio de ch
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Instale las herramientas del kit de recursos de chat persistente en un equipo unido a un dominio que tenga acceso a la base de datos back-end de chat persistente.
 
@@ -467,7 +467,7 @@ ScheduleADSyncForPrincipal es un script de Microsoft SQL Server 2012 que debe ej
 
 <div>
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 La cuenta de usuario con la que se ejecuta el script debe tener acceso de propietario a la base de datos back-end de chat persistente.
 
