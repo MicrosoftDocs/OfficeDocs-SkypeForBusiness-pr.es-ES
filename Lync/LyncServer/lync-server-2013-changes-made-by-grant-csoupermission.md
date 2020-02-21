@@ -12,16 +12,16 @@ ms:contentKeyID: 48185564
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c64c11ba999763a44105a68502e53fc4889af305
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 6143310797c7372a30665cd380d7fb07340ebaf9
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42151180"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42191573"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -57,7 +57,7 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos de usuario en una un
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo</th>
+<th>Group</th>
 <th>Permiso</th>
 <th>Se aplica a</th>
 </tr>
@@ -123,7 +123,7 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos de equipo en una uni
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo</th>
+<th>Group</th>
 <th>Permiso</th>
 <th>Se aplica a</th>
 </tr>
@@ -182,7 +182,7 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos Contact u objetos Ap
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo</th>
+<th>Group</th>
 <th>Permiso</th>
 <th>Se aplica a</th>
 </tr>
@@ -253,7 +253,7 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos de dispositivo en un
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo</th>
+<th>Group</th>
 <th>Permiso</th>
 <th>Se aplica a</th>
 </tr>
@@ -338,7 +338,7 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos InetOrgPerson en una
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo</th>
+<th>Group</th>
 <th>Permiso</th>
 <th>Se aplica a</th>
 </tr>
