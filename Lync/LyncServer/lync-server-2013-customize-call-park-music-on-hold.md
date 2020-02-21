@@ -12,20 +12,20 @@ ms:contentKeyID: 49733621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f46bfe084bd063fc97b36f8055e3aaccc40faaed
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3ec182619bca0cf6e52093a28a72f1f8bca077d5
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135487"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42200153"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a><span data-ttu-id="71542-102">Personalizar la música de estacionamiento de llamadas en espera en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="71542-102">Customize Call Park music on hold in Lync Server 2013</span></span>
+# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a><span data-ttu-id="60ed3-102">Personalizar la música de estacionamiento de llamadas en espera en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="60ed3-102">Customize Call Park music on hold in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42135487"
 
 <span> </span>
 
-<span data-ttu-id="71542-103">_**Última modificación del tema:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="71542-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="60ed3-103">_**Última modificación del tema:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="60ed3-103">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="71542-104">Puede especificar su propio archivo de música para usarlo para música en espera, en lugar del archivo de música predeterminado que se incluye con Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="71542-104">You can specify your own music file to use for music on hold, instead of the default music file that ships with Lync Server 2013.</span></span> <span data-ttu-id="71542-105">Para personalizar la música en espera, utilice el cmdlet **Set-CsCallParkServiceMusicOnHoldFile**.</span><span class="sxs-lookup"><span data-stu-id="71542-105">To customize music on hold, use the **Set-CsCallParkServiceMusicOnHoldFile** cmdlet.</span></span>
+<span data-ttu-id="60ed3-104">Puede especificar su propio archivo de música para usarlo para música en espera, en lugar del archivo de música predeterminado que se incluye con Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="60ed3-104">You can specify your own music file to use for music on hold, instead of the default music file that ships with Lync Server 2013.</span></span> <span data-ttu-id="60ed3-105">Para personalizar la música en espera, utilice el cmdlet **Set-CsCallParkServiceMusicOnHoldFile**.</span><span class="sxs-lookup"><span data-stu-id="60ed3-105">To customize music on hold, use the **Set-CsCallParkServiceMusicOnHoldFile** cmdlet.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="71542-106">Si personaliza la música en espera y desea la misma música para varios sitios, debe configurar el archivo de música para cada sitio que ejecute la aplicación estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="71542-106">If you customize music on hold and want the same music for multiple sites, you must configure the music file for each site that runs the Call Park application.</span></span>
+> <span data-ttu-id="60ed3-106">Si personaliza la música en espera y desea la misma música para varios sitios, debe configurar el archivo de música para cada sitio que ejecute la aplicación estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="60ed3-106">If you customize music on hold and want the same music for multiple sites, you must configure the music file for each site that runs the Call Park application.</span></span>
 
 
 
@@ -51,13 +51,13 @@ ms.locfileid: "42135487"
 
 <div>
 
-## <a name="to-customize-the-music-file"></a><span data-ttu-id="71542-107">Para personalizar el archivo de música</span><span class="sxs-lookup"><span data-stu-id="71542-107">To customize the music file</span></span>
+## <a name="to-customize-the-music-file"></a><span data-ttu-id="60ed3-107">Para personalizar el archivo de música</span><span class="sxs-lookup"><span data-stu-id="60ed3-107">To customize the music file</span></span>
 
-1.  <span data-ttu-id="71542-108">Inicie sesión en el equipo donde esté instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="71542-108">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="60ed3-108">Inicie sesión en el equipo donde esté instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="60ed3-108">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="71542-109">Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="71542-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="60ed3-109">Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="60ed3-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="71542-110">Realizar</span><span class="sxs-lookup"><span data-stu-id="71542-110">Run:</span></span>
+3.  <span data-ttu-id="60ed3-110">Realizar</span><span class="sxs-lookup"><span data-stu-id="60ed3-110">Run:</span></span>
     
         Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte[]>
     
@@ -65,12 +65,12 @@ ms.locfileid: "42135487"
     
 
     > [!TIP]  
-    > <span data-ttu-id="71542-111">Use el cmdlet <STRONG>Get-CsService</STRONG> para identificar el servicio.</span><span class="sxs-lookup"><span data-stu-id="71542-111">Use the <STRONG>Get-CsService</STRONG> cmdlet to identify the service.</span></span> <span data-ttu-id="71542-112">Para obtener más información, consulte <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">Get-CsService</A>.</span><span class="sxs-lookup"><span data-stu-id="71542-112">For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">Get-CsService</A>.</span></span>
+    > <span data-ttu-id="60ed3-111">Use el cmdlet <STRONG>Get-CsService</STRONG> para identificar el servicio.</span><span class="sxs-lookup"><span data-stu-id="60ed3-111">Use the <STRONG>Get-CsService</STRONG> cmdlet to identify the service.</span></span> <span data-ttu-id="60ed3-112">Para obtener más información, consulte <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">Get-CsService</A>.</span><span class="sxs-lookup"><span data-stu-id="60ed3-112">For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">Get-CsService</A>.</span></span>
 
     
     </div>
     
-    <span data-ttu-id="71542-113">En el ejemplo siguiente se muestra cómo obtener el contenido de un archivo, soothingmusic.wma, como matriz de bytes y asignarlo a una variable.</span><span class="sxs-lookup"><span data-stu-id="71542-113">The following example shows how to obtain the contents of a file, soothingmusic.wma, as a byte array and assign it to a variable.</span></span> <span data-ttu-id="71542-114">A continuación, el archivo de audio se asigna como el archivo de música en espera en Estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="71542-114">Then the audio file is assigned as the music-on-hold file for Call Park.</span></span> <span data-ttu-id="71542-115">Para obtener más información, consulte [set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile).</span><span class="sxs-lookup"><span data-stu-id="71542-115">For details, see [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile).</span></span>
+    <span data-ttu-id="60ed3-113">En el ejemplo siguiente se muestra cómo obtener el contenido de un archivo, soothingmusic.wma, como matriz de bytes y asignarlo a una variable.</span><span class="sxs-lookup"><span data-stu-id="60ed3-113">The following example shows how to obtain the contents of a file, soothingmusic.wma, as a byte array and assign it to a variable.</span></span> <span data-ttu-id="60ed3-114">A continuación, el archivo de audio se asigna como el archivo de música en espera en Estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="60ed3-114">Then the audio file is assigned as the music-on-hold file for Call Park.</span></span> <span data-ttu-id="60ed3-115">Para obtener más información, consulte [set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile).</span><span class="sxs-lookup"><span data-stu-id="60ed3-115">For details, see [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile).</span></span>
     
         $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
         Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
@@ -79,11 +79,11 @@ ms.locfileid: "42135487"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="71542-116">Vea también</span><span class="sxs-lookup"><span data-stu-id="71542-116">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="60ed3-116">Consulta también</span><span class="sxs-lookup"><span data-stu-id="60ed3-116">See Also</span></span>
 
 
-[<span data-ttu-id="71542-117">Set-CsCallParkServiceMusicOnHoldFile</span><span class="sxs-lookup"><span data-stu-id="71542-117">Set-CsCallParkServiceMusicOnHoldFile</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
-[<span data-ttu-id="71542-118">Get-CsService</span><span class="sxs-lookup"><span data-stu-id="71542-118">Get-CsService</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[<span data-ttu-id="60ed3-117">Set-CsCallParkServiceMusicOnHoldFile</span><span class="sxs-lookup"><span data-stu-id="60ed3-117">Set-CsCallParkServiceMusicOnHoldFile</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
+[<span data-ttu-id="60ed3-118">Get-CsService</span><span class="sxs-lookup"><span data-stu-id="60ed3-118">Get-CsService</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a8de52d7472e6be409ea7cc628ad5f334d048a09
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 11ca47596106a3c2a6395f90ccaab2905c1a4599
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42140433"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42204906"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dial-in-conferencing-access-numbers-in-lync-server-2013"></a><span data-ttu-id="4d1ed-102">Configurar los números de acceso de conferencia de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4d1ed-102">Configure dial-in conferencing access numbers in Lync Server 2013</span></span>
+# <a name="configure-dial-in-conferencing-access-numbers-in-lync-server-2013"></a><span data-ttu-id="2bc57-102">Configurar los números de acceso de conferencia de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2bc57-102">Configure dial-in conferencing access numbers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,17 @@ ms.locfileid: "42140433"
 
 <span> </span>
 
-<span data-ttu-id="4d1ed-103">_**Última modificación del tema:** 2011-07-17_</span><span class="sxs-lookup"><span data-stu-id="4d1ed-103">_**Topic Last Modified:** 2011-07-17_</span></span>
+<span data-ttu-id="2bc57-103">_**Última modificación del tema:** 2011-07-17_</span><span class="sxs-lookup"><span data-stu-id="2bc57-103">_**Topic Last Modified:** 2011-07-17_</span></span>
 
-<span data-ttu-id="4d1ed-104">Al implementar la Conferencia de acceso telefónico local, debe configurar los números de teléfono que los usuarios pueden marcar desde la red telefónica conmutada (RTC) para unirse a la parte de audio de las conferencias.</span><span class="sxs-lookup"><span data-stu-id="4d1ed-104">When you deploy dial-in conferencing, you need to set up phone numbers that users can dial from the public switched telephone network (PSTN) to join the audio portion of conferences.</span></span> <span data-ttu-id="4d1ed-105">Estos números de acceso telefónico aparecen en las invitaciones a reuniones y en la Página Web de configuración de conferencia de acceso telefónico local.</span><span class="sxs-lookup"><span data-stu-id="4d1ed-105">These dial-in access numbers appear in meeting invitations and on the Dial-in Conferencing Settings webpage.</span></span>
+<span data-ttu-id="2bc57-104">Al implementar la Conferencia de acceso telefónico local, debe configurar los números de teléfono que los usuarios pueden marcar desde la red telefónica conmutada (RTC) para unirse a la parte de audio de las conferencias.</span><span class="sxs-lookup"><span data-stu-id="2bc57-104">When you deploy dial-in conferencing, you need to set up phone numbers that users can dial from the public switched telephone network (PSTN) to join the audio portion of conferences.</span></span> <span data-ttu-id="2bc57-105">Estos números de acceso telefónico aparecen en las invitaciones a reuniones y en la Página Web de configuración de conferencia de acceso telefónico local.</span><span class="sxs-lookup"><span data-stu-id="2bc57-105">These dial-in access numbers appear in meeting invitations and on the Dial-in Conferencing Settings webpage.</span></span>
 
-<span data-ttu-id="4d1ed-106">Antes de poder crear números de acceso telefónico local, primero debe planear las regiones de conferencia de acceso telefónico local y, a continuación, configurar los planes de marcado con las regiones.</span><span class="sxs-lookup"><span data-stu-id="4d1ed-106">Before you can create dial-in access numbers, you must first plan your dial-in conferencing regions and then configure dial plans with the regions.</span></span> <span data-ttu-id="4d1ed-107">Para obtener más información sobre las regiones, consulte [requisitos de conferencias de acceso telefónico local en Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md) en la documentación referente a la planeación.</span><span class="sxs-lookup"><span data-stu-id="4d1ed-107">For details about regions, see [Dial-in conferencing requirements in Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md) in the Planning documentation.</span></span> <span data-ttu-id="4d1ed-108">Para obtener más información sobre cómo configurar planes de marcado para las conferencias de acceso telefónico local, consulte [configurar planes de marcado para las conferencias de acceso telefónico local en Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md).</span><span class="sxs-lookup"><span data-stu-id="4d1ed-108">For details about configuring dial plans for dial-in conferencing, see [Configure dial plans for dial-in conferencing in Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md).</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="4d1ed-109">No se puede usar un nuevo número de acceso telefónico hasta que se complete la replicación de&nbsp;servicios de dominio de Active Directory (AD DS) de ese número de acceso.</span><span class="sxs-lookup"><span data-stu-id="4d1ed-109">You cannot use a new dial-in access number until Active Directory Domain Services (AD&nbsp;DS) replication of that access number is complete.</span></span> <span data-ttu-id="4d1ed-110">La replicación puede tardar varias horas en completarse.</span><span class="sxs-lookup"><span data-stu-id="4d1ed-110">Replication can take several hours to complete.</span></span>
-
-
-
-</div>
+<span data-ttu-id="2bc57-106">Antes de poder crear números de acceso telefónico local, primero debe planear las regiones de conferencia de acceso telefónico local y, a continuación, configurar los planes de marcado con las regiones.</span><span class="sxs-lookup"><span data-stu-id="2bc57-106">Before you can create dial-in access numbers, you must first plan your dial-in conferencing regions and then configure dial plans with the regions.</span></span> <span data-ttu-id="2bc57-107">Para obtener más información sobre las regiones, consulte [requisitos de conferencias de acceso telefónico local en Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md) en la documentación referente a la planeación.</span><span class="sxs-lookup"><span data-stu-id="2bc57-107">For details about regions, see [Dial-in conferencing requirements in Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md) in the Planning documentation.</span></span> <span data-ttu-id="2bc57-108">Para obtener más información sobre cómo configurar planes de marcado para las conferencias de acceso telefónico local, consulte [configurar planes de marcado para las conferencias de acceso telefónico local en Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md).</span><span class="sxs-lookup"><span data-stu-id="2bc57-108">For details about configuring dial plans for dial-in conferencing, see [Configure dial plans for dial-in conferencing in Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="4d1ed-111">Después de crear los números de acceso telefónico local, puede modificar el nombre para mostrar de los objetos de contacto de Active Directory para que los usuarios puedan identificar más fácilmente el número de acceso correcto.</span><span class="sxs-lookup"><span data-stu-id="4d1ed-111">After you create dial-in access numbers, you can modify the display name for the Active Directory contact objects so that users can more easily identify the correct access number.</span></span> <span data-ttu-id="4d1ed-112">Use el cmdlet <STRONG>set-CsDialInConferencingAccessNumber</STRONG> para modificar el nombre para mostrar.</span><span class="sxs-lookup"><span data-stu-id="4d1ed-112">Use the <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> cmdlet to modify the display name.</span></span> <span data-ttu-id="4d1ed-113">No debe modificar los objetos de Active Directory de forma manual.</span><span class="sxs-lookup"><span data-stu-id="4d1ed-113">You should not modify Active Directory objects manually.</span></span> <span data-ttu-id="4d1ed-114">Para obtener información detallada sobre cómo modificar un número de acceso, consulte Lync Server Management Shell Documentation for the <STRONG>set-CsDialInConferencingAccessNumber</STRONG> cmdlet.</span><span class="sxs-lookup"><span data-stu-id="4d1ed-114">For details about modifying an access number, see Lync Server Management Shell documentation for the <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> cmdlet.</span></span>
+> <span data-ttu-id="2bc57-109">No se puede usar un nuevo número de acceso telefónico hasta que se complete la replicación de&nbsp;servicios de dominio de Active Directory (AD DS) de ese número de acceso.</span><span class="sxs-lookup"><span data-stu-id="2bc57-109">You cannot use a new dial-in access number until Active Directory Domain Services (AD&nbsp;DS) replication of that access number is complete.</span></span> <span data-ttu-id="2bc57-110">La replicación puede tardar varias horas en completarse.</span><span class="sxs-lookup"><span data-stu-id="2bc57-110">Replication can take several hours to complete.</span></span>
 
 
 
@@ -63,21 +53,31 @@ ms.locfileid: "42140433"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="4d1ed-115">En esta sección</span><span class="sxs-lookup"><span data-stu-id="4d1ed-115">In This Section</span></span>
 
-[<span data-ttu-id="4d1ed-116">Crear o modificar un número de acceso de conferencia de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4d1ed-116">Create or modify a dial-in conferencing access number in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
+> [!NOTE]  
+> <span data-ttu-id="2bc57-111">Después de crear los números de acceso telefónico local, puede modificar el nombre para mostrar de los objetos de contacto de Active Directory para que los usuarios puedan identificar más fácilmente el número de acceso correcto.</span><span class="sxs-lookup"><span data-stu-id="2bc57-111">After you create dial-in access numbers, you can modify the display name for the Active Directory contact objects so that users can more easily identify the correct access number.</span></span> <span data-ttu-id="2bc57-112">Use el cmdlet <STRONG>set-CsDialInConferencingAccessNumber</STRONG> para modificar el nombre para mostrar.</span><span class="sxs-lookup"><span data-stu-id="2bc57-112">Use the <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> cmdlet to modify the display name.</span></span> <span data-ttu-id="2bc57-113">No debe modificar los objetos de Active Directory de forma manual.</span><span class="sxs-lookup"><span data-stu-id="2bc57-113">You should not modify Active Directory objects manually.</span></span> <span data-ttu-id="2bc57-114">Para obtener información detallada sobre cómo modificar un número de acceso, consulte Lync Server Management Shell Documentation for the <STRONG>set-CsDialInConferencingAccessNumber</STRONG> cmdlet.</span><span class="sxs-lookup"><span data-stu-id="2bc57-114">For details about modifying an access number, see Lync Server Management Shell documentation for the <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> cmdlet.</span></span>
+
+
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="4d1ed-117">Vea también</span><span class="sxs-lookup"><span data-stu-id="4d1ed-117">See Also</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2bc57-115">En esta sección</span><span class="sxs-lookup"><span data-stu-id="2bc57-115">In This Section</span></span>
+
+[<span data-ttu-id="2bc57-116">Crear o modificar un número de acceso de conferencia de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2bc57-116">Create or modify a dial-in conferencing access number in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="2bc57-117">Consulta también</span><span class="sxs-lookup"><span data-stu-id="2bc57-117">See Also</span></span>
 
 
-[<span data-ttu-id="4d1ed-118">Requisitos de conferencia de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4d1ed-118">Dial-in conferencing requirements in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-requirements.md)  
+[<span data-ttu-id="2bc57-118">Requisitos de conferencia de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2bc57-118">Dial-in conferencing requirements in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-requirements.md)  
 
 
-[<span data-ttu-id="4d1ed-119">Configurar planes de marcado para las conferencias de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4d1ed-119">Configure dial plans for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)  
+[<span data-ttu-id="2bc57-119">Configurar planes de marcado para las conferencias de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2bc57-119">Configure dial plans for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31f220ca823d739fa95ad6edb3aec97b13d6242b
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 252b6ec99d19b88259aacc2fc5681b585ae1bef2
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42146553"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205296"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-an-snmp-application-in-lync-server-2013"></a><span data-ttu-id="f55c3-102">Configurar una aplicación SNMP en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f55c3-102">Configure an SNMP application in Lync Server 2013</span></span>
+# <a name="configure-an-snmp-application-in-lync-server-2013"></a><span data-ttu-id="5df73-102">Configurar una aplicación SNMP en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5df73-102">Configure an SNMP application in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42146553"
 
 <span> </span>
 
-<span data-ttu-id="f55c3-103">_**Última modificación del tema:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="f55c3-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="5df73-103">_**Última modificación del tema:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="5df73-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="f55c3-104">Lync Server 2013 incluye una interfaz de servicio web estándar que puede usar para conectar el servicio de información de ubicaciones con aplicaciones de Protocolo simple de administración de redes (SNMP) que coinciden con direcciones MAC con información de puertos y conmutadores.</span><span class="sxs-lookup"><span data-stu-id="f55c3-104">Lync Server 2013 includes a standard web service interface that you can use to connect the Location Information service to Simple Network Management Protocol (SNMP) applications that match MAC addresses with port and switch information.</span></span>
+<span data-ttu-id="5df73-104">Lync Server 2013 incluye una interfaz de servicio web estándar que puede usar para conectar el servicio de información de ubicaciones con aplicaciones de Protocolo simple de administración de redes (SNMP) que coinciden con direcciones MAC con información de puertos y conmutadores.</span><span class="sxs-lookup"><span data-stu-id="5df73-104">Lync Server 2013 includes a standard web service interface that you can use to connect the Location Information service to Simple Network Management Protocol (SNMP) applications that match MAC addresses with port and switch information.</span></span>
 
-<span data-ttu-id="f55c3-105">Si se instala una aplicación SNMP y el servicio de información de ubicación no encuentra ninguna coincidencia en la base de datos de ubicaciones, el servicio de información de ubicaciones consulta automáticamente la aplicación mediante la dirección MAC proporcionada por el cliente.</span><span class="sxs-lookup"><span data-stu-id="f55c3-105">If an SNMP application is installed and the Location Information service fails to find a match in the location database, the Location Information service automatically queries the application by using the MAC address provided by the client.</span></span> <span data-ttu-id="f55c3-106">A continuación, el servicio de información de ubicación usa la información de conmutadores y puertos devuelta por la aplicación SNMP para consultar la base de datos de ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="f55c3-106">The Location Information service then uses the port and switch information returned by the SNMP application to query the location database again.</span></span>
+<span data-ttu-id="5df73-105">Si se instala una aplicación SNMP y el servicio de información de ubicación no encuentra ninguna coincidencia en la base de datos de ubicaciones, el servicio de información de ubicaciones consulta automáticamente la aplicación mediante la dirección MAC proporcionada por el cliente.</span><span class="sxs-lookup"><span data-stu-id="5df73-105">If an SNMP application is installed and the Location Information service fails to find a match in the location database, the Location Information service automatically queries the application by using the MAC address provided by the client.</span></span> <span data-ttu-id="5df73-106">A continuación, el servicio de información de ubicación usa la información de conmutadores y puertos devuelta por la aplicación SNMP para consultar la base de datos de ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="5df73-106">The Location Information service then uses the port and switch information returned by the SNMP application to query the location database again.</span></span>
 
-<span data-ttu-id="f55c3-107">Para obtener más información, consulte [set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration).</span><span class="sxs-lookup"><span data-stu-id="f55c3-107">For details, see [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration).</span></span>
+<span data-ttu-id="5df73-107">Para obtener más información, consulte [set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration).</span><span class="sxs-lookup"><span data-stu-id="5df73-107">For details, see [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="f55c3-108">Las direcciones MAC no están disponibles en los equipos que ejecutan Windows 8.</span><span class="sxs-lookup"><span data-stu-id="f55c3-108">MAC addresses are not available on computers running Windows 8.</span></span>
+> <span data-ttu-id="5df73-108">Las direcciones MAC no están disponibles en los equipos que ejecutan Windows 8.</span><span class="sxs-lookup"><span data-stu-id="5df73-108">MAC addresses are not available on computers running Windows 8.</span></span>
 
 
 
@@ -55,11 +55,11 @@ ms.locfileid: "42146553"
 
 <div>
 
-## <a name="to-configure-the-snmp-application-url"></a><span data-ttu-id="f55c3-109">Para configurar la dirección URL de la aplicación SNMP:</span><span class="sxs-lookup"><span data-stu-id="f55c3-109">To configure the SNMP application URL</span></span>
+## <a name="to-configure-the-snmp-application-url"></a><span data-ttu-id="5df73-109">Para configurar la dirección URL de la aplicación SNMP:</span><span class="sxs-lookup"><span data-stu-id="5df73-109">To configure the SNMP application URL</span></span>
 
-1.  <span data-ttu-id="f55c3-110">Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="f55c3-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="5df73-110">Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="5df73-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="f55c3-111">Ejecute el cmdlet siguiente para configurar la dirección URL para la aplicación SNMP.</span><span class="sxs-lookup"><span data-stu-id="f55c3-111">Run the following cmdlet to configure the URL for the SNMP application.</span></span>
+2.  <span data-ttu-id="5df73-111">Ejecute el cmdlet siguiente para configurar la dirección URL para la aplicación SNMP.</span><span class="sxs-lookup"><span data-stu-id="5df73-111">Run the following cmdlet to configure the URL for the SNMP application.</span></span>
     
         Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>" 
 

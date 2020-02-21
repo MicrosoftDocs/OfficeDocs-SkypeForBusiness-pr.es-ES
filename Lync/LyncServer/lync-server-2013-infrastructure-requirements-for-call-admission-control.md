@@ -12,20 +12,20 @@ ms:contentKeyID: 48184157
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c4636905a175dcdc927ed6517828e226cef17e6
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 41e95443e1de200fddd5f3aeb4876132d8963c8d
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147233"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42204216"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="infrastructure-requirements-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="cc9f2-102">Requisitos de infraestructura para el control de admisión de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cc9f2-102">Infrastructure requirements for call admission control in Lync Server 2013</span></span>
+# <a name="infrastructure-requirements-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="8bc49-102">Requisitos de infraestructura para el control de admisión de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8bc49-102">Infrastructure requirements for call admission control in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42147233"
 
 <span> </span>
 
-<span data-ttu-id="cc9f2-103">_**Última modificación del tema:** 2012-08-21_</span><span class="sxs-lookup"><span data-stu-id="cc9f2-103">_**Topic Last Modified:** 2012-08-21_</span></span>
+<span data-ttu-id="8bc49-103">_**Última modificación del tema:** 2012-08-21_</span><span class="sxs-lookup"><span data-stu-id="8bc49-103">_**Topic Last Modified:** 2012-08-21_</span></span>
 
-<span data-ttu-id="cc9f2-104">No se necesita ningún otro requisito de infraestructura como, por ejemplo, enrutadores de red especiales.</span><span class="sxs-lookup"><span data-stu-id="cc9f2-104">No additional infrastructure requirements, such as special network routers, are necessary.</span></span> <span data-ttu-id="cc9f2-105">La implementación de Lync Server 2013 instalará automáticamente el servicio de directivas de ancho de banda que se usa para exigir directivas de control de admisión de llamadas (CAC).</span><span class="sxs-lookup"><span data-stu-id="cc9f2-105">Deploying Lync Server 2013 will automatically install the Bandwidth Policy Service used to enforce call admission control (CAC) policies.</span></span> <span data-ttu-id="cc9f2-106">El control de admisión de llamadas solo funciona con clientes que ejecutan Lync.</span><span class="sxs-lookup"><span data-stu-id="cc9f2-106">Call admission control works only with clients running Lync.</span></span>
+<span data-ttu-id="8bc49-104">No se necesita ningún otro requisito de infraestructura como, por ejemplo, enrutadores de red especiales.</span><span class="sxs-lookup"><span data-stu-id="8bc49-104">No additional infrastructure requirements, such as special network routers, are necessary.</span></span> <span data-ttu-id="8bc49-105">La implementación de Lync Server 2013 instalará automáticamente el servicio de directivas de ancho de banda que se usa para exigir directivas de control de admisión de llamadas (CAC).</span><span class="sxs-lookup"><span data-stu-id="8bc49-105">Deploying Lync Server 2013 will automatically install the Bandwidth Policy Service used to enforce call admission control (CAC) policies.</span></span> <span data-ttu-id="8bc49-106">El control de admisión de llamadas solo funciona con clientes que ejecutan Lync.</span><span class="sxs-lookup"><span data-stu-id="8bc49-106">Call admission control works only with clients running Lync.</span></span>
 
 </div>
 
