@@ -12,20 +12,20 @@ ms:contentKeyID: 49733607
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a7ab2756770182237a4d3d93b4622a8e781c70a
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f1cbdb0e253d5f9747b403ad765bded608f30698
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134946"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42185793"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-certificates-for-operational-processes-in-lync-server-2013"></a><span data-ttu-id="eb7e9-102">Administración de certificados para procesos operativos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eb7e9-102">Managing certificates for operational processes in Lync Server 2013</span></span>
+# <a name="managing-certificates-for-operational-processes-in-lync-server-2013"></a><span data-ttu-id="7ff01-102">Administración de certificados para procesos operativos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7ff01-102">Managing certificates for operational processes in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42134946"
 
 <span> </span>
 
-<span data-ttu-id="eb7e9-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="eb7e9-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="7ff01-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="7ff01-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="eb7e9-104">Use los procedimientos siguientes para administrar certificados con los cmdlets del shell de administración de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="eb7e9-104">Use the following procedures to manage certificates by using the Lync Server Management Shell cmdlets.</span></span>
+<span data-ttu-id="7ff01-104">Use los procedimientos siguientes para administrar certificados con los cmdlets del shell de administración de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="7ff01-104">Use the following procedures to manage certificates by using the Lync Server Management Shell cmdlets.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="eb7e9-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="eb7e9-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="7ff01-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="7ff01-105">In This Section</span></span>
 
-  - [<span data-ttu-id="eb7e9-106">Almacenamiento provisional de certificados AV y OAuth en Lync Server 2013 usando-Roll en Set-CsCertificate</span><span class="sxs-lookup"><span data-stu-id="eb7e9-106">Staging AV and OAuth certificates in Lync Server 2013 using -Roll in Set-CsCertificate</span></span>](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)
+  - [<span data-ttu-id="7ff01-106">Almacenamiento provisional de certificados AV y OAuth en Lync Server 2013 usando-Roll en Set-CsCertificate</span><span class="sxs-lookup"><span data-stu-id="7ff01-106">Staging AV and OAuth certificates in Lync Server 2013 using -Roll in Set-CsCertificate</span></span>](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)
 
 </div>
 

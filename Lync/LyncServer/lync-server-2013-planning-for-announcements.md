@@ -12,20 +12,20 @@ ms:contentKeyID: 48185706
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b927667644f6e849a6fae20a85631a12915fb4d
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: e5122966b716d371fb60a8d3f8f26706a7f761fc
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42139933"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42184546"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-announcements-in-lync-server-2013"></a><span data-ttu-id="5c622-102">Planeación de anuncios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c622-102">Planning for announcements in Lync Server 2013</span></span>
+# <a name="planning-for-announcements-in-lync-server-2013"></a><span data-ttu-id="c53a6-102">Planeación de anuncios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c53a6-102">Planning for announcements in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42139933"
 
 <span> </span>
 
-<span data-ttu-id="5c622-103">_**Última modificación del tema:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="5c622-103">_**Topic Last Modified:** 2012-09-13_</span></span>
+<span data-ttu-id="c53a6-103">_**Última modificación del tema:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="c53a6-103">_**Topic Last Modified:** 2012-09-13_</span></span>
 
-<span data-ttu-id="5c622-104">La aplicación de anuncio de Lync Server le permite configurar el control de las llamadas telefónicas entrantes cuando el número marcado es válido para su organización, pero no está asignado a un usuario o teléfono.</span><span class="sxs-lookup"><span data-stu-id="5c622-104">The Lync Server Announcement application lets you configure the handling of incoming phone calls when the dialed number is valid for your organization, but is not assigned to a user or a phone.</span></span> <span data-ttu-id="5c622-105">Puede transferir estas llamadas a un destino predeterminado (número de teléfono, URI de SIP o correo de voz) o reproducir un anuncio de audio, o ambas opciones.</span><span class="sxs-lookup"><span data-stu-id="5c622-105">You can transfer these calls to a predetermined destination (phone number, SIP URI, or voice mail), or play an audio announcement, or both.</span></span> <span data-ttu-id="5c622-106">La aplicación Anuncio contribuye a evitar situaciones en las que el autor de la llamada marca un número equivocado y oye el tono de línea ocupada o el cliente SIP recibe un mensaje de error.</span><span class="sxs-lookup"><span data-stu-id="5c622-106">The Announcement application helps you avoid the situations in which a caller misdials and hears a busy tone or the SIP client receives an error message.</span></span> <span data-ttu-id="5c622-107">En esta sección se incluye información de planeación específica de la aplicación de anuncio.</span><span class="sxs-lookup"><span data-stu-id="5c622-107">This section includes planning information that is specific to the Announcement application.</span></span>
+<span data-ttu-id="c53a6-104">La aplicación de anuncio de Lync Server le permite configurar el control de las llamadas telefónicas entrantes cuando el número marcado es válido para su organización, pero no está asignado a un usuario o teléfono.</span><span class="sxs-lookup"><span data-stu-id="c53a6-104">The Lync Server Announcement application lets you configure the handling of incoming phone calls when the dialed number is valid for your organization, but is not assigned to a user or a phone.</span></span> <span data-ttu-id="c53a6-105">Puede transferir estas llamadas a un destino predeterminado (número de teléfono, URI de SIP o correo de voz) o reproducir un anuncio de audio, o ambas opciones.</span><span class="sxs-lookup"><span data-stu-id="c53a6-105">You can transfer these calls to a predetermined destination (phone number, SIP URI, or voice mail), or play an audio announcement, or both.</span></span> <span data-ttu-id="c53a6-106">La aplicación Anuncio contribuye a evitar situaciones en las que el autor de la llamada marca un número equivocado y oye el tono de línea ocupada o el cliente SIP recibe un mensaje de error.</span><span class="sxs-lookup"><span data-stu-id="c53a6-106">The Announcement application helps you avoid the situations in which a caller misdials and hears a busy tone or the SIP client receives an error message.</span></span> <span data-ttu-id="c53a6-107">En esta sección se incluye información de planeación específica de la aplicación de anuncio.</span><span class="sxs-lookup"><span data-stu-id="c53a6-107">This section includes planning information that is specific to the Announcement application.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="5c622-108">En esta sección</span><span class="sxs-lookup"><span data-stu-id="5c622-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c53a6-108">En esta sección</span><span class="sxs-lookup"><span data-stu-id="c53a6-108">In This Section</span></span>
 
-  - [<span data-ttu-id="5c622-109">Información general sobre la aplicación de anuncio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c622-109">Overview of the Announcement application in Lync Server 2013</span></span>](lync-server-2013-overview-of-the-announcement-application.md)
+  - [<span data-ttu-id="c53a6-109">Información general sobre la aplicación de anuncio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c53a6-109">Overview of the Announcement application in Lync Server 2013</span></span>](lync-server-2013-overview-of-the-announcement-application.md)
 
-  - [<span data-ttu-id="5c622-110">Componentes usados por la aplicación de anuncio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c622-110">Components used by the Announcement application in Lync Server 2013</span></span>](lync-server-2013-components-used-by-the-announcement-application.md)
+  - [<span data-ttu-id="c53a6-110">Componentes usados por la aplicación de anuncio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c53a6-110">Components used by the Announcement application in Lync Server 2013</span></span>](lync-server-2013-components-used-by-the-announcement-application.md)
 
-  - [<span data-ttu-id="5c622-111">Requisitos técnicos para la aplicación de anuncio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c622-111">Technical requirements for the Announcement application in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-the-announcement-application.md)
+  - [<span data-ttu-id="c53a6-111">Requisitos técnicos para la aplicación de anuncio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c53a6-111">Technical requirements for the Announcement application in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-the-announcement-application.md)
 
-  - [<span data-ttu-id="5c622-112">Proceso de implementación de la aplicación de anuncio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c622-112">Deployment process for the Announcement application in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-the-announcement-application.md)
+  - [<span data-ttu-id="c53a6-112">Proceso de implementación de la aplicación de anuncio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c53a6-112">Deployment process for the Announcement application in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-the-announcement-application.md)
 
 </div>
 

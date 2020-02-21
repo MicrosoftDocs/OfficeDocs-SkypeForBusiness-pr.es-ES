@@ -12,20 +12,20 @@ ms:contentKeyID: 63969648
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a42589db677132170e9456c998d96fd2eb1de5d2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 8c8d2a544c9a20e16e9a9f6510002ef5dd3e695e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42149339"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42184753"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-group-chat-in-lync-server-2013"></a><span data-ttu-id="eeded-102">Supervisión del chat en grupo en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eeded-102">Monitoring group chat in Lync Server 2013</span></span>
+# <a name="monitoring-group-chat-in-lync-server-2013"></a><span data-ttu-id="2b7bc-102">Supervisión del chat en grupo en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b7bc-102">Monitoring group chat in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42149339"
 
 <span> </span>
 
-<span data-ttu-id="eeded-103">_**Última modificación del tema:** 2014-08-04_</span><span class="sxs-lookup"><span data-stu-id="eeded-103">_**Topic Last Modified:** 2014-08-04_</span></span>
+<span data-ttu-id="2b7bc-103">_**Última modificación del tema:** 2014-08-04_</span><span class="sxs-lookup"><span data-stu-id="2b7bc-103">_**Topic Last Modified:** 2014-08-04_</span></span>
 
-<span data-ttu-id="eeded-104">Se recomienda ejecutar el [programa de instalación de actualización de servidor acumulativa](https://support.microsoft.com/kb/968802) más reciente disponible en el centro de descarga de Microsoft para mejorar el rendimiento.</span><span class="sxs-lookup"><span data-stu-id="eeded-104">We highly recommend running the most recent [Cumulative Server Update Installer](https://support.microsoft.com/kb/968802) available on the Microsoft Download Center for performance improvements.</span></span>
+<span data-ttu-id="2b7bc-104">Se recomienda ejecutar el [programa de instalación de actualización de servidor acumulativa](https://support.microsoft.com/kb/968802) más reciente disponible en el centro de descarga de Microsoft para mejorar el rendimiento.</span><span class="sxs-lookup"><span data-stu-id="2b7bc-104">We highly recommend running the most recent [Cumulative Server Update Installer](https://support.microsoft.com/kb/968802) available on the Microsoft Download Center for performance improvements.</span></span>
 
-<span data-ttu-id="eeded-105">Suponiendo que ejecuta la actualización acumulativa más reciente, use la siguiente tabla de pruebas de esfuerzo para obtener información sobre las métricas para comprender si los servidores de chat en grupo se ejecutan con un estado óptimo.</span><span class="sxs-lookup"><span data-stu-id="eeded-105">Assuming you are running latest cumulative update, use the following stress test table for metrics to understand if your Group Chat Servers are running at optimal health.</span></span>
+<span data-ttu-id="2b7bc-105">Suponiendo que ejecuta la actualización acumulativa más reciente, use la siguiente tabla de pruebas de esfuerzo para obtener información sobre las métricas para comprender si los servidores de chat en grupo se ejecutan con un estado óptimo.</span><span class="sxs-lookup"><span data-stu-id="2b7bc-105">Assuming you are running latest cumulative update, use the following stress test table for metrics to understand if your Group Chat Servers are running at optimal health.</span></span>
 
-### <a name="test-environment-and-user-model"></a><span data-ttu-id="eeded-106">Entorno de prueba y modelo de usuario</span><span class="sxs-lookup"><span data-stu-id="eeded-106">Test environment and user model</span></span>
+### <a name="test-environment-and-user-model"></a><span data-ttu-id="2b7bc-106">Entorno de prueba y modelo de usuario</span><span class="sxs-lookup"><span data-stu-id="2b7bc-106">Test environment and user model</span></span>
 
 <table>
 <colgroup>
@@ -54,64 +54,64 @@ ms.locfileid: "42149339"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="eeded-107">Tres servidores de chat en grupo en un grupo de chats en grupo, cada uno con 8 GB de memoria y 8 procesadores.</span><span class="sxs-lookup"><span data-stu-id="eeded-107">Three Group Chat Servers in a Group Chat pool, each with 8 GB memory and 8 processors.</span></span></p></td>
+<td><p><span data-ttu-id="2b7bc-107">Tres servidores de chat en grupo en un grupo de chats en grupo, cada uno con 8 GB de memoria y 8 procesadores.</span><span class="sxs-lookup"><span data-stu-id="2b7bc-107">Three Group Chat Servers in a Group Chat pool, each with 8 GB memory and 8 processors.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="eeded-108">Dos front-ends de Lync Server 2013 en Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="eeded-108">Two Lync Server 2013 Front Ends in Enterprise Edition.</span></span></p></td>
+<td><p><span data-ttu-id="2b7bc-108">Dos front-ends de Lync Server 2013 en Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="2b7bc-108">Two Lync Server 2013 Front Ends in Enterprise Edition.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="eeded-109">60.000 usuarios simultáneos en tres servidores de chat en grupo.</span><span class="sxs-lookup"><span data-stu-id="eeded-109">60,000 concurrent users across three Group Chat Servers.</span></span></p></td>
+<td><p><span data-ttu-id="2b7bc-109">60.000 usuarios simultáneos en tres servidores de chat en grupo.</span><span class="sxs-lookup"><span data-stu-id="2b7bc-109">60,000 concurrent users across three Group Chat Servers.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="eeded-110">25.000 canales hospedados por un grupo de servidores de chat.</span><span class="sxs-lookup"><span data-stu-id="eeded-110">25,000 channels hosted by Group Chat Pool.</span></span></p></td>
+<td><p><span data-ttu-id="2b7bc-110">25.000 canales hospedados por un grupo de servidores de chat.</span><span class="sxs-lookup"><span data-stu-id="2b7bc-110">25,000 channels hosted by Group Chat Pool.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="eeded-111">Tamaño de canal:</span><span class="sxs-lookup"><span data-stu-id="eeded-111">Channel Size:</span></span></p>
+<td><p><span data-ttu-id="2b7bc-111">Tamaño de canal:</span><span class="sxs-lookup"><span data-stu-id="2b7bc-111">Channel Size:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="eeded-112">Tamaño de canal pequeño: 30</span><span class="sxs-lookup"><span data-stu-id="eeded-112">Small Channel Size: 30</span></span></p></li>
-<li><p><span data-ttu-id="eeded-113">Tamaño de canal medio: 150</span><span class="sxs-lookup"><span data-stu-id="eeded-113">Medium Channel Size: 150</span></span></p></li>
-<li><p><span data-ttu-id="eeded-114">Tamaño de canal grande: 2500</span><span class="sxs-lookup"><span data-stu-id="eeded-114">Large Channel Size: 2500</span></span></p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="eeded-115">Número de canales:</span><span class="sxs-lookup"><span data-stu-id="eeded-115">Channel Count:</span></span></p>
-<ul>
-<li><p><span data-ttu-id="eeded-116">Número de canales pequeños: 24.000</span><span class="sxs-lookup"><span data-stu-id="eeded-116">Number small channels: 24,000</span></span></p></li>
-<li><p><span data-ttu-id="eeded-117">Número medio canales 800</span><span class="sxs-lookup"><span data-stu-id="eeded-117">Number medium channels 800</span></span></p></li>
-<li><p><span data-ttu-id="eeded-118">Número de canales grandes 24</span><span class="sxs-lookup"><span data-stu-id="eeded-118">Number large channels 24</span></span></p></li>
-<li><p><span data-ttu-id="eeded-119">Número total de canales 24.824</span><span class="sxs-lookup"><span data-stu-id="eeded-119">Total Channels 24,824</span></span></p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="eeded-120">Canales de invitación:</span><span class="sxs-lookup"><span data-stu-id="eeded-120">Invite channels:</span></span></p>
-<ul>
-<li><p><span data-ttu-id="eeded-121">La mitad de los canales fueron invitaciones a canales</span><span class="sxs-lookup"><span data-stu-id="eeded-121">Half the channels were invite channels</span></span></p></li>
+<li><p><span data-ttu-id="2b7bc-112">Tamaño de canal pequeño: 30</span><span class="sxs-lookup"><span data-stu-id="2b7bc-112">Small Channel Size: 30</span></span></p></li>
+<li><p><span data-ttu-id="2b7bc-113">Tamaño de canal medio: 150</span><span class="sxs-lookup"><span data-stu-id="2b7bc-113">Medium Channel Size: 150</span></span></p></li>
+<li><p><span data-ttu-id="2b7bc-114">Tamaño de canal grande: 2500</span><span class="sxs-lookup"><span data-stu-id="2b7bc-114">Large Channel Size: 2500</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="eeded-122">Número de canales que un usuario ha incorporado:</span><span class="sxs-lookup"><span data-stu-id="eeded-122">Number of channels a user joins:</span></span></p>
+<td><p><span data-ttu-id="2b7bc-115">Número de canales:</span><span class="sxs-lookup"><span data-stu-id="2b7bc-115">Channel Count:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="eeded-123">Pequeño: 12</span><span class="sxs-lookup"><span data-stu-id="eeded-123">Small: 12</span></span></p></li>
-<li><p><span data-ttu-id="eeded-124">Medio: 2</span><span class="sxs-lookup"><span data-stu-id="eeded-124">Medium: 2</span></span></p></li>
-<li><p><span data-ttu-id="eeded-125">Grande: 1</span><span class="sxs-lookup"><span data-stu-id="eeded-125">Large: 1</span></span></p></li>
+<li><p><span data-ttu-id="2b7bc-116">Número de canales pequeños: 24.000</span><span class="sxs-lookup"><span data-stu-id="2b7bc-116">Number small channels: 24,000</span></span></p></li>
+<li><p><span data-ttu-id="2b7bc-117">Número medio canales 800</span><span class="sxs-lookup"><span data-stu-id="2b7bc-117">Number medium channels 800</span></span></p></li>
+<li><p><span data-ttu-id="2b7bc-118">Número de canales grandes 24</span><span class="sxs-lookup"><span data-stu-id="2b7bc-118">Number large channels 24</span></span></p></li>
+<li><p><span data-ttu-id="2b7bc-119">Número total de canales 24.824</span><span class="sxs-lookup"><span data-stu-id="2b7bc-119">Total Channels 24,824</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="eeded-126">Tasa de combinaciones:</span><span class="sxs-lookup"><span data-stu-id="eeded-126">Join rate:</span></span></p>
+<td><p><span data-ttu-id="2b7bc-120">Canales de invitación:</span><span class="sxs-lookup"><span data-stu-id="2b7bc-120">Invite channels:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="eeded-127">10 en total/segundo, 3,33/segundo por servidor</span><span class="sxs-lookup"><span data-stu-id="eeded-127">10 total/second, 3.33/second per server</span></span></p></li>
+<li><p><span data-ttu-id="2b7bc-121">La mitad de los canales fueron invitaciones a canales</span><span class="sxs-lookup"><span data-stu-id="2b7bc-121">Half the channels were invite channels</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="eeded-128">Tasa de cierre de sesión:</span><span class="sxs-lookup"><span data-stu-id="eeded-128">Logout rate:</span></span></p>
+<td><p><span data-ttu-id="2b7bc-122">Número de canales que un usuario ha incorporado:</span><span class="sxs-lookup"><span data-stu-id="2b7bc-122">Number of channels a user joins:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="eeded-129">10 en total/segundo, 3,33/segundo por servidor</span><span class="sxs-lookup"><span data-stu-id="eeded-129">10 total/second, 3.33/second per server</span></span></p></li>
+<li><p><span data-ttu-id="2b7bc-123">Pequeño: 12</span><span class="sxs-lookup"><span data-stu-id="2b7bc-123">Small: 12</span></span></p></li>
+<li><p><span data-ttu-id="2b7bc-124">Medio: 2</span><span class="sxs-lookup"><span data-stu-id="2b7bc-124">Medium: 2</span></span></p></li>
+<li><p><span data-ttu-id="2b7bc-125">Grande: 1</span><span class="sxs-lookup"><span data-stu-id="2b7bc-125">Large: 1</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="eeded-130">Tasa de chat:</span><span class="sxs-lookup"><span data-stu-id="eeded-130">Chat rate:</span></span></p>
+<td><p><span data-ttu-id="2b7bc-126">Tasa de combinaciones:</span><span class="sxs-lookup"><span data-stu-id="2b7bc-126">Join rate:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="eeded-131">20 en total/segundo, 6.66/segundo por servidor</span><span class="sxs-lookup"><span data-stu-id="eeded-131">20 total/second, 6.66/second per server</span></span></p></li>
+<li><p><span data-ttu-id="2b7bc-127">10 en total/segundo, 3,33/segundo por servidor</span><span class="sxs-lookup"><span data-stu-id="2b7bc-127">10 total/second, 3.33/second per server</span></span></p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="2b7bc-128">Tasa de cierre de sesión:</span><span class="sxs-lookup"><span data-stu-id="2b7bc-128">Logout rate:</span></span></p>
+<ul>
+<li><p><span data-ttu-id="2b7bc-129">10 en total/segundo, 3,33/segundo por servidor</span><span class="sxs-lookup"><span data-stu-id="2b7bc-129">10 total/second, 3.33/second per server</span></span></p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="2b7bc-130">Tasa de chat:</span><span class="sxs-lookup"><span data-stu-id="2b7bc-130">Chat rate:</span></span></p>
+<ul>
+<li><p><span data-ttu-id="2b7bc-131">20 en total/segundo, 6.66/segundo por servidor</span><span class="sxs-lookup"><span data-stu-id="2b7bc-131">20 total/second, 6.66/second per server</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -122,13 +122,13 @@ ms.locfileid: "42149339"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="eeded-132">Los siguientes números de contadores de rendimiento probablemente variarán cuando se usen diferentes especificaciones de hardware o perfiles de usuario.</span><span class="sxs-lookup"><span data-stu-id="eeded-132">The following performance counter numbers will likely vary when different hardware specifications or user profiles are used.</span></span>
+> <span data-ttu-id="2b7bc-132">Los siguientes números de contadores de rendimiento probablemente variarán cuando se usen diferentes especificaciones de hardware o perfiles de usuario.</span><span class="sxs-lookup"><span data-stu-id="2b7bc-132">The following performance counter numbers will likely vary when different hardware specifications or user profiles are used.</span></span>
 
 
 
 </div>
 
-### <a name="performance-counter-to-be-monitored"></a><span data-ttu-id="eeded-133">Contador de rendimiento que se va a supervisar</span><span class="sxs-lookup"><span data-stu-id="eeded-133">Performance counter to be monitored</span></span>
+### <a name="performance-counter-to-be-monitored"></a><span data-ttu-id="2b7bc-133">Contador de rendimiento que se va a supervisar</span><span class="sxs-lookup"><span data-stu-id="2b7bc-133">Performance counter to be monitored</span></span>
 
 <table>
 <colgroup>
@@ -137,14 +137,14 @@ ms.locfileid: "42149339"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="eeded-134">Contador de rendimiento</span><span class="sxs-lookup"><span data-stu-id="eeded-134">Performance Counter</span></span></th>
-<th><span data-ttu-id="eeded-135">Umbrales</span><span class="sxs-lookup"><span data-stu-id="eeded-135">Thresholds</span></span></th>
+<th><span data-ttu-id="2b7bc-134">Contador de rendimiento</span><span class="sxs-lookup"><span data-stu-id="2b7bc-134">Performance Counter</span></span></th>
+<th><span data-ttu-id="2b7bc-135">Umbrales</span><span class="sxs-lookup"><span data-stu-id="2b7bc-135">Thresholds</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="eeded-136">Proceso (ChannelService)-&gt;% de tiempo de procesador</span><span class="sxs-lookup"><span data-stu-id="eeded-136">Process(ChannelService)-&gt;%Processor Time</span></span></p></td>
-<td><p><span data-ttu-id="eeded-137">Min: 0</span><span class="sxs-lookup"><span data-stu-id="eeded-137">Min: 0</span></span></p></td>
+<td><p><span data-ttu-id="2b7bc-136">Proceso (ChannelService)-&gt;% de tiempo de procesador</span><span class="sxs-lookup"><span data-stu-id="2b7bc-136">Process(ChannelService)-&gt;%Processor Time</span></span></p></td>
+<td><p><span data-ttu-id="2b7bc-137">Min: 0</span><span class="sxs-lookup"><span data-stu-id="2b7bc-137">Min: 0</span></span></p></td>
 </tr>
 </tbody>
 </table>
