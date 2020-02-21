@@ -12,20 +12,20 @@ ms:contentKeyID: 49733808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1eea7d203638e891dbda1b91c53967a4632cc1df
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 02ceb7ecc6a80daf767ed6f675bdd4a92dcae9db
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135947"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42180573"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a><span data-ttu-id="16c7f-102">Conectar el grupo piloto a servidores perimetrales heredados</span><span class="sxs-lookup"><span data-stu-id="16c7f-102">Connect pilot pool to legacy Edge Servers</span></span>
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a><span data-ttu-id="5a244-102">Conectar el grupo piloto a servidores perimetrales heredados</span><span class="sxs-lookup"><span data-stu-id="5a244-102">Connect pilot pool to legacy Edge Servers</span></span>
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "42135947"
 
 <span> </span>
 
-<span data-ttu-id="16c7f-103">_**Última modificación del tema:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="16c7f-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="5a244-103">_**Última modificación del tema:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="5a244-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="16c7f-104">Después de implementar Lync Server 2013, debe configurar una ruta de Federación para el sitio.</span><span class="sxs-lookup"><span data-stu-id="16c7f-104">After deploying Lync Server 2013, you need to configure a federation route for your site.</span></span> <span data-ttu-id="16c7f-105">Para poder usar la ruta federada que usa Lync Server 2010, Lync Server 2013 debe estar configurado para usar esta ruta.</span><span class="sxs-lookup"><span data-stu-id="16c7f-105">In order to use the federated route that is being used by Lync Server 2010, Lync Server 2013 must be configured to use this route.</span></span>
+<span data-ttu-id="5a244-104">Después de implementar Lync Server 2013, debe configurar una ruta de Federación para el sitio.</span><span class="sxs-lookup"><span data-stu-id="5a244-104">After deploying Lync Server 2013, you need to configure a federation route for your site.</span></span> <span data-ttu-id="5a244-105">Para poder usar la ruta federada que usa Lync Server 2010, Lync Server 2013 debe estar configurado para usar esta ruta.</span><span class="sxs-lookup"><span data-stu-id="5a244-105">In order to use the federated route that is being used by Lync Server 2010, Lync Server 2013 must be configured to use this route.</span></span>
 
-<span data-ttu-id="16c7f-106">Para habilitar el sitio de Lync Server 2013 para usar el director y el servidor perimetral de la implementación de Lync Server 2010, use el generador de topologías para asociar el grupo de servidores perimetrales heredados.</span><span class="sxs-lookup"><span data-stu-id="16c7f-106">To enable the Lync Server 2013 site to use the Director and Edge Server of the Lync Server 2010 deployment, use Topology Builder to associate the legacy Edge pool.</span></span>
+<span data-ttu-id="5a244-106">Para habilitar el sitio de Lync Server 2013 para usar el director y el servidor perimetral de la implementación de Lync Server 2010, use el generador de topologías para asociar el grupo de servidores perimetrales heredados.</span><span class="sxs-lookup"><span data-stu-id="5a244-106">To enable the Lync Server 2013 site to use the Director and Edge Server of the Lync Server 2010 deployment, use Topology Builder to associate the legacy Edge pool.</span></span>
 
 <div>
 
-## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a><span data-ttu-id="16c7f-107">Para asociar el grupo de servidores perimetrales heredado con el Generador de topologías:</span><span class="sxs-lookup"><span data-stu-id="16c7f-107">To associate the legacy Edge pool by using Topology Builder</span></span>
+## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a><span data-ttu-id="5a244-107">Para asociar el grupo de servidores perimetrales heredado con el Generador de topologías:</span><span class="sxs-lookup"><span data-stu-id="5a244-107">To associate the legacy Edge pool by using Topology Builder</span></span>
 
-1.  <span data-ttu-id="16c7f-108">Abra el **Generador de topologías**.</span><span class="sxs-lookup"><span data-stu-id="16c7f-108">Open **Topology Builder**.</span></span>
+1.  <span data-ttu-id="5a244-108">Abra el **Generador de topologías**.</span><span class="sxs-lookup"><span data-stu-id="5a244-108">Open **Topology Builder**.</span></span>
 
-2.  <span data-ttu-id="16c7f-109">Seleccione el sitio, que se encuentra justo debajo del nodo **Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="16c7f-109">Select your site, which is directly below the **Lync Server** node.</span></span>
+2.  <span data-ttu-id="5a244-109">Seleccione el sitio, que se encuentra justo debajo del nodo **Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="5a244-109">Select your site, which is directly below the **Lync Server** node.</span></span>
 
-3.  <span data-ttu-id="16c7f-110">En el menú **Acciones**, haga clic en **Editar propiedades**.</span><span class="sxs-lookup"><span data-stu-id="16c7f-110">On the **Actions** menu, click **Edit Properties**.</span></span>
+3.  <span data-ttu-id="5a244-110">En el menú **Acciones**, haga clic en **Editar propiedades**.</span><span class="sxs-lookup"><span data-stu-id="5a244-110">On the **Actions** menu, click **Edit Properties**.</span></span>
 
-4.  <span data-ttu-id="16c7f-111">En el panel izquierdo, seleccione **Ruta de federación**.</span><span class="sxs-lookup"><span data-stu-id="16c7f-111">In the left pane, select **Federation route**.</span></span>
+4.  <span data-ttu-id="5a244-111">En el panel izquierdo, seleccione **Ruta de federación**.</span><span class="sxs-lookup"><span data-stu-id="5a244-111">In the left pane, select **Federation route**.</span></span>
 
-5.  <span data-ttu-id="16c7f-112">En **asignación de ruta de Federación del sitio**, seleccione **Habilitar Federación SIP**y, a continuación, seleccione el Director de Lync Server 2010 o el servidor perimetral de Lync Server 2010 si no aparece ningún director.</span><span class="sxs-lookup"><span data-stu-id="16c7f-112">Under **Site federation route assignment**, select **Enable SIP federation**, and then select the Lync Server 2010 Director, or the Lync Server 2010 Edge Server if no Director is listed.</span></span>
+5.  <span data-ttu-id="5a244-112">En **asignación de ruta de Federación del sitio**, seleccione **Habilitar Federación SIP**y, a continuación, seleccione el Director de Lync Server 2010 o el servidor perimetral de Lync Server 2010 si no aparece ningún director.</span><span class="sxs-lookup"><span data-stu-id="5a244-112">Under **Site federation route assignment**, select **Enable SIP federation**, and then select the Lync Server 2010 Director, or the Lync Server 2010 Edge Server if no Director is listed.</span></span>
     
-    <span data-ttu-id="16c7f-113">![Editar propiedades, página Ruta de Federación](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "Editar propiedades, página Ruta de Federación")</span><span class="sxs-lookup"><span data-stu-id="16c7f-113">![Edit Properties, Federation route page](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "Edit Properties, Federation route page")</span></span>  
+    <span data-ttu-id="5a244-113">![Editar propiedades, página Ruta de Federación](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "Editar propiedades, página Ruta de Federación")</span><span class="sxs-lookup"><span data-stu-id="5a244-113">![Edit Properties, Federation route page](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "Edit Properties, Federation route page")</span></span>  
 
-6.  <span data-ttu-id="16c7f-114">Haga clic en **Aceptar** para cerrar la página **Editar propiedades**.</span><span class="sxs-lookup"><span data-stu-id="16c7f-114">Click **OK** to close the **Edit Properties** page.</span></span>
+6.  <span data-ttu-id="5a244-114">Haga clic en **Aceptar** para cerrar la página **Editar propiedades**.</span><span class="sxs-lookup"><span data-stu-id="5a244-114">Click **OK** to close the **Edit Properties** page.</span></span>
 
-7.  <span data-ttu-id="16c7f-115">En el generador de topologías, en el nodo Lync Server 2013, vaya a los grupos de servidores **front-end** **Standard Edition** o Enterprise Edition, haga clic con el botón secundario en el grupo y, a continuación, haga clic en **Editar propiedades**.</span><span class="sxs-lookup"><span data-stu-id="16c7f-115">In Topology Builder, under the Lync Server 2013 node, navigate to the **Standard Edition server** or **Enterprise Edition Front End pools**, right-click the pool, and then click **Edit Properties**.</span></span>
+7.  <span data-ttu-id="5a244-115">En el generador de topologías, en el nodo Lync Server 2013, vaya a los grupos de servidores **front-end** **Standard Edition** o Enterprise Edition, haga clic con el botón secundario en el grupo y, a continuación, haga clic en **Editar propiedades**.</span><span class="sxs-lookup"><span data-stu-id="5a244-115">In Topology Builder, under the Lync Server 2013 node, navigate to the **Standard Edition server** or **Enterprise Edition Front End pools**, right-click the pool, and then click **Edit Properties**.</span></span>
 
-8.  <span data-ttu-id="16c7f-116">En **Asociaciones**, active la casilla situada junto a **Grupo de servidores perimetrales asociados (para componentes multimedia)**.</span><span class="sxs-lookup"><span data-stu-id="16c7f-116">Under **Associations**, select the check box next to **Associate Edge pool (for media components)**.</span></span>
+8.  <span data-ttu-id="5a244-116">En **Asociaciones**, active la casilla situada junto a **Grupo de servidores perimetrales asociados (para componentes multimedia)**.</span><span class="sxs-lookup"><span data-stu-id="5a244-116">Under **Associations**, select the check box next to **Associate Edge pool (for media components)**.</span></span>
 
-9.  <span data-ttu-id="16c7f-117">En la lista, seleccione el servidor perimetral heredado.</span><span class="sxs-lookup"><span data-stu-id="16c7f-117">From the list, select the legacy Edge Server.</span></span>
+9.  <span data-ttu-id="5a244-117">En la lista, seleccione el servidor perimetral heredado.</span><span class="sxs-lookup"><span data-stu-id="5a244-117">From the list, select the legacy Edge Server.</span></span>
     
-    <span data-ttu-id="16c7f-118">![Cuadro de diálogo Editar propiedades, selección del perímetro heredado](images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "Cuadro de diálogo Editar propiedades, selección del perímetro heredado")</span><span class="sxs-lookup"><span data-stu-id="16c7f-118">![Edit Properties dialog, selecting the legacy Edge](images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "Edit Properties dialog, selecting the legacy Edge")</span></span>  
+    <span data-ttu-id="5a244-118">![Cuadro de diálogo Editar propiedades, selección del perímetro heredado](images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "Cuadro de diálogo Editar propiedades, selección del perímetro heredado")</span><span class="sxs-lookup"><span data-stu-id="5a244-118">![Edit Properties dialog, selecting the legacy Edge](images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "Edit Properties dialog, selecting the legacy Edge")</span></span>  
 
-10. <span data-ttu-id="16c7f-119">Haga clic en **Aceptar** para cerrar la página **Editar propiedades**.</span><span class="sxs-lookup"><span data-stu-id="16c7f-119">Click **OK** to close the **Edit Properties** page.</span></span>
+10. <span data-ttu-id="5a244-119">Haga clic en **Aceptar** para cerrar la página **Editar propiedades**.</span><span class="sxs-lookup"><span data-stu-id="5a244-119">Click **OK** to close the **Edit Properties** page.</span></span>
 
-11. <span data-ttu-id="16c7f-120">En el **Generador de topologías**, seleccione el nodo superior, **Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="16c7f-120">In **Topology Builder**, select the top-most node, **Lync Server**.</span></span>
+11. <span data-ttu-id="5a244-120">En el **Generador de topologías**, seleccione el nodo superior, **Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="5a244-120">In **Topology Builder**, select the top-most node, **Lync Server**.</span></span>
 
-12. <span data-ttu-id="16c7f-121">En el menú **Acciones**, haga clic en **Publicar topología** y en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="16c7f-121">From the **Action** menu, click **Publish Topology**, and then click **Next**.</span></span>
+12. <span data-ttu-id="5a244-121">En el menú **Acciones**, haga clic en **Publicar topología** y en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="5a244-121">From the **Action** menu, click **Publish Topology**, and then click **Next**.</span></span>
 
-13. <span data-ttu-id="16c7f-122">Cuando el **Asistente para publicación** haya finalizado, haga clic en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="16c7f-122">When the **Publishing wizard** completes, click **Finish**.</span></span>
+13. <span data-ttu-id="5a244-122">Cuando el **Asistente para publicación** haya finalizado, haga clic en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="5a244-122">When the **Publishing wizard** completes, click **Finish**.</span></span>
 
 </div>
 

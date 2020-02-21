@@ -12,20 +12,20 @@ ms:contentKeyID: 48185023
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e36cb2036a15dd18263e8714a10122b76aaebace
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 9dc2d23fb2dac39ed568fb4aab6ab49f9e6213cf
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42144356"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42182753"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scaled-director-pool---dns-load-balancing-and-hardware-load-balancer-in-lync-server-2013"></a><span data-ttu-id="09af4-102">Grupo de Director escalado-equilibrio de carga de DNS y equilibrador de carga de hardware en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09af4-102">Scaled Director pool - DNS load balancing and hardware load balancer in Lync Server 2013</span></span>
+# <a name="scaled-director-pool---dns-load-balancing-and-hardware-load-balancer-in-lync-server-2013"></a><span data-ttu-id="7b407-102">Grupo de Director escalado-equilibrio de carga de DNS y equilibrador de carga de hardware en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b407-102">Scaled Director pool - DNS load balancing and hardware load balancer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42144356"
 
 <span> </span>
 
-<span data-ttu-id="09af4-103">_**Última modificación del tema:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="09af4-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="7b407-103">_**Última modificación del tema:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="7b407-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="09af4-104">Un grupo de servidores de Director escalado, donde hay más de un director implementado para controlar la capacidad adicional y proporcionar una alta disponibilidad, requiere equilibrio de carga para distribuir la comunicación entre el cliente y el servidor a todos los miembros del grupo.</span><span class="sxs-lookup"><span data-stu-id="09af4-104">A scaled Director pool, where there are more than one Director deployed to handle additional capacity and to provide high availability, requires load balancing to distribute client and server communication to all members of the pool.</span></span> <span data-ttu-id="09af4-105">Un director hospeda servicios web muy similares a un grupo de servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="09af4-105">A Director hosts web services much like a Front End pool.</span></span> <span data-ttu-id="09af4-106">Para proporcionar el equilibrio de carga, puede usar el equilibrio de carga de hardware o equilibrio de carga del sistema de nombres de dominio (DNS) y equilibrio de carga de hardware.</span><span class="sxs-lookup"><span data-stu-id="09af4-106">To provide the load balancing, you can use either hardware load balancing or domain name system (DNS) load balancing and hardware load balancing.</span></span> <span data-ttu-id="09af4-107">El equilibrio de carga de hardware se requiere para los servicios web y el equilibrio de carga de DNS independiente no proporciona las capacidades requeridas para los servicios web.</span><span class="sxs-lookup"><span data-stu-id="09af4-107">Hardware load balancing is required for the web services, and DNS load balancing alone does not provide the capabilities required for the web services.</span></span>
+<span data-ttu-id="7b407-104">Un grupo de servidores de Director escalado, donde hay más de un director implementado para controlar la capacidad adicional y proporcionar una alta disponibilidad, requiere equilibrio de carga para distribuir la comunicación entre el cliente y el servidor a todos los miembros del grupo.</span><span class="sxs-lookup"><span data-stu-id="7b407-104">A scaled Director pool, where there are more than one Director deployed to handle additional capacity and to provide high availability, requires load balancing to distribute client and server communication to all members of the pool.</span></span> <span data-ttu-id="7b407-105">Un director hospeda servicios web muy similares a un grupo de servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="7b407-105">A Director hosts web services much like a Front End pool.</span></span> <span data-ttu-id="7b407-106">Para proporcionar el equilibrio de carga, puede usar el equilibrio de carga de hardware o equilibrio de carga del sistema de nombres de dominio (DNS) y equilibrio de carga de hardware.</span><span class="sxs-lookup"><span data-stu-id="7b407-106">To provide the load balancing, you can use either hardware load balancing or domain name system (DNS) load balancing and hardware load balancing.</span></span> <span data-ttu-id="7b407-107">El equilibrio de carga de hardware se requiere para los servicios web y el equilibrio de carga de DNS independiente no proporciona las capacidades requeridas para los servicios web.</span><span class="sxs-lookup"><span data-stu-id="7b407-107">Hardware load balancing is required for the web services, and DNS load balancing alone does not provide the capabilities required for the web services.</span></span>
 
-<span data-ttu-id="09af4-108">Los siguientes temas describen las consideraciones de planeación para implementar un grupo de directores mediante el equilibrio de carga de DNS junto con el equilibrio de carga de hardware.</span><span class="sxs-lookup"><span data-stu-id="09af4-108">The following topics describe the planning considerations for deploying a Director pool using DNS load balancing in conjunction with hardware load balancing.</span></span> <span data-ttu-id="09af4-109">Si tiene previsto usar el equilibrio de carga de hardware, pero no el equilibrio de carga de DNS para el grupo de directores, consulte el tema [grupo de Director escalado-equilibrador de carga de hardware en Lync Server 2013](lync-server-2013-scaled-director-pool-hardware-load-balancer.md) que describe los requisitos de planeación para esa topología.</span><span class="sxs-lookup"><span data-stu-id="09af4-109">If you intend to use hardware load balancing, but not DNS load balancing for the Director pool, see the topic [Scaled Director pool - hardware load balancer in Lync Server 2013](lync-server-2013-scaled-director-pool-hardware-load-balancer.md) that describes the planning requirements for that topology.</span></span>
+<span data-ttu-id="7b407-108">Los siguientes temas describen las consideraciones de planeación para implementar un grupo de directores mediante el equilibrio de carga de DNS junto con el equilibrio de carga de hardware.</span><span class="sxs-lookup"><span data-stu-id="7b407-108">The following topics describe the planning considerations for deploying a Director pool using DNS load balancing in conjunction with hardware load balancing.</span></span> <span data-ttu-id="7b407-109">Si tiene previsto usar el equilibrio de carga de hardware, pero no el equilibrio de carga de DNS para el grupo de directores, consulte el tema [grupo de Director escalado-equilibrador de carga de hardware en Lync Server 2013](lync-server-2013-scaled-director-pool-hardware-load-balancer.md) que describe los requisitos de planeación para esa topología.</span><span class="sxs-lookup"><span data-stu-id="7b407-109">If you intend to use hardware load balancing, but not DNS load balancing for the Director pool, see the topic [Scaled Director pool - hardware load balancer in Lync Server 2013](lync-server-2013-scaled-director-pool-hardware-load-balancer.md) that describes the planning requirements for that topology.</span></span>
 
-<span data-ttu-id="09af4-110">![Grupo de director escalado](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "Grupo de director escalado")</span><span class="sxs-lookup"><span data-stu-id="09af4-110">![Scaled Director Pool](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "Scaled Director Pool")</span></span>
+<span data-ttu-id="7b407-110">![Grupo de director escalado](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "Grupo de director escalado")</span><span class="sxs-lookup"><span data-stu-id="7b407-110">![Scaled Director Pool](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "Scaled Director Pool")</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="09af4-111">En esta sección</span><span class="sxs-lookup"><span data-stu-id="09af4-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="7b407-111">En esta sección</span><span class="sxs-lookup"><span data-stu-id="7b407-111">In This Section</span></span>
 
-  - [<span data-ttu-id="09af4-112">Resumen de certificado-carga equilibrada DNS y HLB en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09af4-112">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
+  - [<span data-ttu-id="7b407-112">Resumen de certificado-carga equilibrada DNS y HLB en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b407-112">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
 
-  - [<span data-ttu-id="09af4-113">Resumen de Puerto-carga equilibrada DNS y HLB en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09af4-113">Port summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-port-summary-dns-and-hlb-load-balanced.md)
+  - [<span data-ttu-id="7b407-113">Resumen de Puerto-carga equilibrada DNS y HLB en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b407-113">Port summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-port-summary-dns-and-hlb-load-balanced.md)
 
-  - [<span data-ttu-id="09af4-114">Resumen de DNS-carga equilibrada DNS y HLB en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09af4-114">DNS summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-dns-summary-dns-and-hlb-load-balanced.md)
+  - [<span data-ttu-id="7b407-114">Resumen de DNS-carga equilibrada DNS y HLB en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b407-114">DNS summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-dns-summary-dns-and-hlb-load-balanced.md)
 
 </div>
 
