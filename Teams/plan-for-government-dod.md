@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e5031c804242f2927a5fe9f2521682d736d034a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 12d9350437867b04a181e62e8b23bb6ed78d8fbc
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038122"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161741"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan para implementaciones de Microsoft 365 administración pública
 
@@ -79,6 +79,7 @@ Para cumplir con los requisitos de nuestros clientes gubernamentales de la nube,
 | Básica | Inicio de sesión | Disponible |
 | | Presence | Disponible |
 | | Presencia unificada (Skype empresarial y equipos unificados) | En el trabajo pendiente del gobierno |
+| | Cliente Linux | En el trabajo pendiente del gobierno |
 | Actividades | Suministros | Disponible |
 |  | Mi actividad | Disponible |
 | Chat | Llamada | Disponible |

@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo llevar las aplicaciones personalizadas de su equipo del desarrollo a la implementación.
-ms.openlocfilehash: 3369371de34cd1346e81be8ea57bb3f5675864c5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 070b0ecbf0ccc9af798e1d3a3c689ce4d4ff4da2
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837510"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161846"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>Administrar las aplicaciones de línea de negocio en Microsoft Teams
 
@@ -49,11 +49,11 @@ Para proporcionar a los desarrolladores el acceso que necesitan para realizar la
 
 Para permitir que los usuarios carguen aplicaciones personalizadas, siga estos pasos:
 
-1. Active la opción **permitir la interacción con aplicaciones personalizadas** de toda la organización. Para ello, haga lo siguiente:
-    1. En el centro de navegación izquierdo <a href="https://admin.teams.microsoft.com/" target="_blank">del centro de administración de Microsoft Teams</a>, vaya a**directivas de permisos**de las **aplicaciones** > de Teams y, después, haga clic en **configuración de toda la organización**.
+1. Active la opción de aplicación **permitir la interacción con aplicaciones personalizadas** de la organización. Para ello, haga lo siguiente:
+    1. En el centro de navegación izquierdo <a href="https://admin.teams.microsoft.com/" target="_blank">del centro de administración de Microsoft Teams</a>, vaya a **aplicaciones** > de Teams**Manage apps**y, a continuación, haga clic en **configuración de aplicaciones en toda la organización**.
     2. En **aplicaciones personalizadas**, Active **permitir la interacción con aplicaciones personalizadas**y, a continuación, haga clic en **Guardar**.
 
-    ![Captura de pantalla de la configuración "permitir la interacción con aplicaciones personalizadas" de toda la organización](media/manage-your-lob-apps-org-wide-custom-apps.png)
+    ![Captura de pantalla de la configuración de la aplicación "permitir la interacción con aplicaciones personalizadas" de toda la organización](media/manage-your-lob-apps-org-wide-custom-apps.png)
 
 2. Active la opción **cargar aplicaciones personalizadas** en la Directiva configuración global de la aplicación. Para ello, haga lo siguiente:
     1. En el centro de navegación izquierdo <a href="https://admin.teams.microsoft.com/" target="_blank">del centro de administración de Microsoft Teams</a>, vaya a**directivas de configuración**de las aplicaciones > de **Teams**y, a continuación, haga clic en la directiva **global (valor predeterminado de toda la organización)** .
@@ -85,8 +85,8 @@ Para comprobar que la aplicación está funcionando correctamente en su inquilin
 
 Para permitir que los usuarios de confianza carguen aplicaciones personalizadas, siga estos pasos:
 
-1. Active la opción **permitir la interacción con aplicaciones personalizadas** de toda la organización. Para ello, haga lo siguiente:
-    1. En el centro de navegación izquierdo <a href="https://admin.teams.microsoft.com/" target="_blank">del centro de administración de Microsoft Teams</a>, vaya a**directivas de permisos**de las **aplicaciones** > de Teams y, después, haga clic en **configuración de toda la organización**.
+1. Active la opción de aplicación **permitir la interacción con aplicaciones personalizadas** de la organización. Para ello, haga lo siguiente:
+    1. En el centro de navegación izquierdo <a href="https://admin.teams.microsoft.com/" target="_blank">del centro de administración de Microsoft Teams</a>, vaya a **aplicaciones** > de Teams**Manage apps**y, a continuación, haga clic en **configuración de aplicaciones en toda la organización**.
     2. En **aplicaciones personalizadas**, Active **permitir la interacción con aplicaciones personalizadas**y, a continuación, haga clic en **Guardar**.
 2. Desactive la opción **cargar aplicaciones personalizadas** en la Directiva configuración global de la aplicación. Para ello, haga lo siguiente:
     1. En el centro de navegación izquierdo <a href="https://admin.teams.microsoft.com/" target="_blank">del centro de administración de Microsoft Teams</a>, vaya a**directivas de configuración**de las aplicaciones > de **Teams**y, a continuación, haga clic en la directiva **global (valor predeterminado de toda la organización)** .
@@ -99,11 +99,17 @@ Para permitir que los usuarios de confianza carguen aplicaciones personalizadas,
 
     Estos usuarios ahora pueden cargar el manifiesto de la aplicación para validar que la aplicación está funcionando correctamente en el inquilino de producción.
 
-## <a name="step-3-upload-to-the-tenant-apps-catalog"></a>Paso 3: cargar en el catálogo de aplicaciones de inquilino
+## <a name="step-3-upload-to-the-tenant-app-catalog"></a>Paso 3: cargar en el catálogo de aplicaciones de inquilino
 
-Para que la aplicación esté disponible para los usuarios en el almacén de aplicaciones de inquilino, cargue la aplicación. Puede hacerlo usando el cliente de escritorio de Teams. Siga los pasos que se indican <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">aquí</a>.
+Para que la aplicación esté disponible para los usuarios en la tienda de aplicaciones de inquilino, cargue la aplicación. Puede hacerlo <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">usando el cliente de escritorio de Teams</a> o en la página [Manage apps](manage-apps.md) del centro de administración de Microsoft Teams.
+
+Esta es una captura de pantalla de la opción de carga en el cliente de escritorio de Teams.
 
 ![Captura de pantalla de la página aplicaciones](media/manage-your-lob-apps-store.png)
+
+Esta es una captura de pantalla de la opción cargar en la página **Manage apps** en el centro de administración de Microsoft Teams.
+
+![Captura de pantalla de la página Administrar aplicaciones en el centro de administración](media/manage-your-lob-apps-upload-new-app.png)
 
 ## <a name="step-4-configure-and-assign-permissions"></a>Paso 4: configurar y asignar permisos
 

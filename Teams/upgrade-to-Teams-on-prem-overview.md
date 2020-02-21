@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9bac6ee38c166250746b6ce9f4fb48afe3cbfe2
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: 47abe9934c92ce83ab0874a10b2c04ef238b428a
+ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852107"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42157898"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Actualizar de Skype empresarial a teams &mdash; para administradores de ti
 
@@ -423,7 +423,7 @@ A continuación se enumeran los pasos básicos.Los pasos 1-5 se enumeran en la s
 
 1. Para asegurarse de que el controlador de borde de sesión (SBC) es compatible con el enrutamiento directo, revisamos [esta lista](direct-routing-border-controllers.md). También debe asegurarse de que tiene la versión correcta del firmware.  
 
-2. Empareje su SBC local con el servicio de enrutamiento directo de Teams. Para obtener más información, consulte [emparejar la SBC al servicio de enrutamiento directo del sistema telefónico](direct-routing-configure.md#pair-the-sbc-to-the-direct-routing-service-of-phone-system). 
+2. Empareje su SBC local con el servicio de enrutamiento directo de Teams. Para obtener más información, consulte [emparejar la SBC al servicio de enrutamiento directo del sistema telefónico](direct-routing-configure.md). 
 
 3. Esta configuración es esencialmente un reflejo de la configuración local. La configuración electrónica consiste en: 
    - OnlineVoiceRoutingPolicy (basado en la VoiceRoutingPolicy local si migra usuarios de Skype empresarial online y se basa en VoicePolicy Si migra usuarios de local con Enterprise Voice).

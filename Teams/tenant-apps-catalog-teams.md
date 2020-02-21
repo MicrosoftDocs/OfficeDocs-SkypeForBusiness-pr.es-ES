@@ -3,12 +3,11 @@ title: Publicar aplicaciones en el catálogo de aplicaciones de inquilino de Mic
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
 audience: admin
-description: Guía para la publicación de aplicaciones en el catálogo de aplicaciones de inquilino de Microsoft Teams.
+description: Instrucciones para la publicación de aplicaciones en el catálogo de aplicaciones de inquilino de Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,38 +19,38 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1b2fb38dcca7142cad82d290b1225e69f035bae
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1f3d4f5937c766c1c4f6f54a6a38872e793a3825
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836920"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161619"
 ---
-<a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicaciones en el catálogo de aplicaciones de inquilino de Microsoft Teams
+<a name="publish-apps-in-the-microsoft-teams-tenant-app-catalog"></a>Publicar aplicaciones en el catálogo de aplicaciones de inquilino de Microsoft Teams
 =======================================================
 
 Puede usar el catálogo de aplicaciones de inquilino de Microsoft Teams para probar y distribuir aplicaciones de línea de negocio a su organización.
 
 El catálogo de aplicaciones de inquilino de Teams le permite distribuir aplicaciones de línea de negocio que se han creado específicamente para su organización y en las que confía para completar las funciones críticas de la empresa.
 
-Para publicar aplicaciones para su organización, inicie sesión en el cliente de Teams mediante una cuenta con los roles de administrador global o de servicio de Teams y, a continuación, siga las instrucciones a continuación.
+Para publicar aplicaciones para su organización, inicie sesión en el cliente de Teams mediante una cuenta con el rol de administrador global o de administrador de servicios de equipo y, a continuación, siga los pasos que se indican a continuación.
 
-## <a name="publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client"></a>Publicar una aplicación en el catálogo de aplicaciones de inquilino del cliente de Teams
+## <a name="publish-an-app-in-the-tenant-app-catalog-from-the-teams-client"></a>Publicar una aplicación en el catálogo de aplicaciones de inquilino del cliente de Teams
 
 > [!NOTE]
-> Debe haber iniciado sesión en el cliente de Microsoft Teams con una cuenta que tenga habilitada la función de administrador global o de administrador de servicios de equipo para publicar aplicaciones para su organización. Obtenga más información sobre el [uso de roles de administrador para administrar equipos](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles).
+> Estos pasos describen cómo publicar una aplicación con el cliente de Teams. También puede publicar una aplicación en la página **Manage apps** en el centro de administración de Microsoft Teams. Para obtener más información, consulte [Administrar aplicaciones en Teams](manage-apps.md).
 
 ### <a name="get-a-teams-app-package"></a>Obtener un paquete de la aplicación Teams
 
-Un paquete de la aplicación de Teams se crea con [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Una vez que tenga el paquete de la aplicación, puede agregarlo al catálogo de aplicaciones empresarial. Mientras todos los usuarios del inquilino pueden ver el catálogo de aplicaciones, solo los administradores globales y los administradores de servicios de equipos tienen la capacidad de publicarlos y administrarlos.
+Un paquete de la aplicación de Teams se crea con [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Una vez que tenga el paquete de la aplicación, puede agregarlo al catálogo de aplicaciones del inquilino. Mientras todos los usuarios de su organización pueden ver el catálogo de aplicaciones, solo los administradores globales y los administradores de servicios de equipos tienen la capacidad de publicarlos y administrarlos.
 
-### <a name="go-to-the-tenant-apps-catalog"></a>Ir al catálogo de aplicaciones de inquilino
+### <a name="go-to-the-tenant-app-catalog"></a>Ir al catálogo de aplicaciones de inquilino
 
-Inicie el cliente de Microsoft Teams e inicie sesión con las credenciales de administrador del servicio global o de Teams. Seleccione **aplicaciones** en la parte izquierda de la aplicación y, a continuación, seleccione la nueva sección nombrada para su organización específica (en este ejemplo, contoso). Los usuarios de su organización pueden ver las aplicaciones en el catálogo e instalarlas para los equipos de los que son miembros.
+Inicie Teams e inicie sesión con sus credenciales de administrador de servicio global o Teams. Seleccione **aplicaciones** en la parte izquierda de la aplicación y, a continuación, seleccione la nueva sección nombrada para su organización específica (en este ejemplo, contoso). Los usuarios de su organización pueden ver las aplicaciones en el catálogo e instalarlas para los equipos de los que son miembros.
 
 ![Captura de pantalla de la tienda de aplicaciones de teams que muestra el catálogo de aplicaciones.](media/private-app-store-teams-image01.png)
 
-### <a name="add-an-app-to-the-tenant-apps-catalog"></a>Agregar una aplicación al catálogo de aplicaciones de inquilino
+### <a name="add-an-app-to-the-tenant-app-catalog"></a>Agregar una aplicación al catálogo de aplicaciones de inquilino
 
 1. En la página **aplicaciones** , seleccione **cargar una aplicación** > **de carga personalizada para contoso**.
 
@@ -65,7 +64,7 @@ Inicie el cliente de Microsoft Teams e inicie sesión con las credenciales de ad
 
 Cuando vuelva al catálogo de aplicaciones de inquilino, la nueva aplicación de empresa estará allí. Recuerde que solo usted y los miembros de su organización tienen acceso a este catálogo de aplicaciones.
 
-### <a name="update-an-app-in-the-tenant-apps-catalog"></a>Actualizar una aplicación en el catálogo de aplicaciones de inquilino
+### <a name="update-an-app-in-the-tenant-app-catalog"></a>Actualizar una aplicación en el catálogo de aplicaciones de inquilino
 
 1. Desde el catálogo de aplicaciones de inquilino, seleccione "**...**" en la parte superior derecha de la aplicación que desea actualizar.
 
@@ -75,10 +74,14 @@ Cuando vuelva al catálogo de aplicaciones de inquilino, la nueva aplicación de
 
 La aplicación se revisará como versión 2,0. También puede eliminar la aplicación de toda la empresa desde este menú.
 
-## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>Usar el portal de administración de Office 365 para administrar el catálogo de aplicaciones de inquilino
+## <a name="use-the-microsoft-teams-admin-center-to-manage-the-tenant-app-catalog"></a>Usar el centro de administración de Microsoft Teams para administrar el catálogo de aplicaciones de inquilino
 
-Si tiene aplicaciones que necesitan correcciones de errores, puede deshabilitar temporalmente las aplicaciones a través del centro de administración de Microsoft 365 > **Teams centro** > **** > de administración de Teams**directivas de permisos** > <nombre de la Directiva, por ejemplo, "global (valor predeterminado de toda la organización)" > **aplicaciones de inquilino** > bloquear aplicaciones específicas y permitir a todos los demás y agregar la aplicación a la lista.
+Si tiene aplicaciones que necesitan correcciones de errores, puede deshabilitar temporalmente las aplicaciones para los usuarios en una directiva de permisos de la aplicación.
 
-![Captura de pantalla de la tienda de aplicaciones de teams que muestra el catálogo de aplicaciones.](media/private-app-store-teams-image05.png)
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a > **directivas de permisos**de las **aplicaciones de Teams**.
+2. Seleccione la Directiva de permisos de la aplicación que desea editar y, a continuación, haga clic en **Editar**.
+3. En **aplicaciones de inquilino**, seleccione **bloquear aplicaciones específicas y permitir a todos los demás**y, a continuación, agregue las aplicaciones que quiera bloquear.
 
-Deshabilitar una aplicación evitará que los usuarios interactúen con la aplicación, sin eliminarla por completo. Estos controles ofrecen flexibilidad y control adicionales al administrar aplicaciones de su empresa.
+Deshabilitar una aplicación impide que los usuarios interactúen con la aplicación, sin eliminarla por completo. Estos controles ofrecen flexibilidad y control adicionales al administrar aplicaciones de su organización.
+
+Para obtener más información, vea [Administrar directivas de permisos de aplicaciones en Teams](teams-app-permission-policies.md).

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Aprenda a configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos.
-ms.openlocfilehash: 7bd313c1b0c6d8078ee3ce80b2a08697dc6040e7
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e0027df53edcec54cbeaef560182ffddc451ecbd
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837280"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160734"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -37,7 +37,7 @@ Un transportista:
 - Administra la calidad de las llamadas de un extremo a otro.
 - Cargos por separado para los servicios RTC.
 
-Microsoft no administra transportistas. Microsoft ofrece un sistema PBX (Microsoft Phone System) y un cliente de equipo, certifica teléfonos y certifica SBCs, que puede usarse con el sistema telefónico de Microsoft. Antes de elegir un operador, asegúrese de que su elección tiene un SBC certificado y puede administrar la calidad de voz de un extremo a otro.
+Microsoft no administra transportistas. Microsoft ofrece un sistema PBX (Microsoft Phone System) y un cliente de equipos. Microsoft también certifica los teléfonos y certifica SBCs que puede usarse con el sistema telefónico de Microsoft. Antes de elegir un operador, asegúrese de que su elección tiene un SBC certificado y puede administrar la calidad de voz de un extremo a otro.
 
 Estos son los pasos técnicos de implementación para configurar el escenario.
 
@@ -215,7 +215,6 @@ Sin embargo, esto no ha sido óptimo por dos razones:
 
 -  **Procesamiento de gastos generales**. Recopilar y supervisar los datos de estado de troncal: las opciones de SIP recopiladas de varios troncos lógicos, que son en realidad, el mismo SBC y el mismo tronco físico, ralentiza el procesamiento de los datos de enrutamiento.
  
-
 Basándose en estos comentarios, Microsoft trae una nueva lógica para aprovisionar los troncos de los inquilinos de cliente.
 
 Se introdujeron dos nuevas entidades:
@@ -245,4 +244,22 @@ Recomendamos encarecidamente migrar a la nueva solución tan pronto como sea pos
  
 
 Consulte las instrucciones de [proveedor de SBC](#deploy-and-configure-the-sbc) para configurar el envío del nombre de dominio completo de los subdominios en el encabezado de contacto.
+
+## <a name="considerations-for-setting-up-muti-tenant-failover"></a>Consideraciones para configurar la conmutación por error de Muti-tenant 
+
+Para configurar la conmutación por error en un entorno multiinquilino, tendrá que hacer lo siguiente:
+
+- Para cada inquilino, agregue los FQDN de dos diferentes SBCs.  Por ejemplo:
+
+   customer1.sbc1.contoso.com <br>
+   customer2.sbc2.contoso.com <br>
+
+- En las directivas de enrutamiento de voz en línea de los usuarios, especifique SBCs.  Si se produce un error en un SBC, la Directiva de enrutamiento enrutará las llamadas al segundo SBC.
+
+
+## <a name="see-also"></a>Vea también
+
+[Planear el enrutamiento directo](direct-routing-plan.md)
+
+[Configurar el enrutamiento directo](direct-routing-configure.md)
 

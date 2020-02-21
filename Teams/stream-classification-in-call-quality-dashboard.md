@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Descubra cómo se clasifica la calidad de la transmisión en el panel de calidad de llamadas para Microsoft Teams y Skype for Business Online.
-ms.openlocfilehash: bb1c96f92ae683f02d5972f8fa11afe15e3c5a92
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2c70126c86a6e9f0a8bc48c8fffa90142fe5928f
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837910"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160744"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Clasificación de la transmisión en el panel de calidad de llamadas
 
@@ -48,14 +48,23 @@ Si se cumplen una o varias de las siguientes condiciones, una secuencia de audio
 |Ratio Concealed Samples Avg|> 0,07|Relación media entre el número de marcos de audio con muestras ocultas generada por la recuperación de pérdida de paquetes para el número total de marcos de audio.|
 ||||
 
-### <a name="video-classifier"></a>Clasificador de vídeo
+### <a name="video-classifier-due-to-freeze"></a>Clasificador de vídeos por inmovilizar
 
+La secuencia de vídeo se marca como _buena_ o _mala_ según el valor de una puntuación de clasificador generada para estimar que el usuario final experimentó un vídeo congelado. Este clasificador solo está disponible para los productos de Microsoft Teams.
+
+|Paso N. º|Métrica|Escenario|Condición |Clasificación si la condición es verdadera |Clasificación si la condición es falsa |Clasificación si la métrica no está disponible |Explicación |
+|:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
+|1|Vídeo de mala calidad debido al clasificador de inmovilizado |¿Es el par de servidores el cliente: servidor?|>0,246|_Poor_|_Good_|_Unclassified_|Una puntuación entre 0 y 1 que se genera en función de una combinación de experiencia del usuario, inmovilizar estadísticas de duración y realizar llamadas generales. |
+|2|Vídeo de mala calidad debido al clasificador de inmovilizado |Is el par de servidores es cliente: cliente|>0,524|_Poor_|_Good_|_Unclassified_|Una puntuación entre 0 y 1 que se genera en función de una combinación de experiencia del usuario, inmovilizar estadísticas de duración y realizar llamadas generales. |
+|  |  |  |  |  |  |  |
+
+### <a name="video-classifier"></a>Clasificador de vídeo
 Una secuencia de vídeo se marca como _buena_ o _mala_ según el valor de la primera métrica disponible en el siguiente orden:
 
 |Paso N. º|Métrica|Condición |Clasificación si la condición es verdadera |Clasificación si la condición es falsa |Clasificación si la métrica no está disponible |Explicación |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 |1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|Continúe con el paso 2|Porcentaje medio de fotogramas de vídeo perdidos cuando se muestran al usuario. El promedio incluye las imágenes recuperadas de pérdidas de red.|
-|1|Video Frame Rate Avg|< 7|_Poor_|_Good_|Continúe con el paso 3|Media de fotogramas por segundo que se reciben en una transmisión de vídeo, calculada a lo largo de la sesión.|
+|2|Video Frame Rate Avg|< 7|_Poor_|_Good_|Continúe con el paso 3|Media de fotogramas por segundo que se reciben en una transmisión de vídeo, calculada a lo largo de la sesión.|
 |3|Video Post FECPLR|>  0.15|_Poor_|_Good_|_Unclassified_|La tasa de pérdida de paquetes después de que se haya aplicado FEC en todas las transmisiones y códecs de vídeo.|
 |  |  |  |  |  |  |  |
 
@@ -66,7 +75,7 @@ Una secuencia VBSS se marca como _buena_ o _mala_ según el valor de la primera 
 |Paso N. º |Métrica |Condición |Clasificación si la condición es verdadera |Clasificación si la condición es falsa |Clasificación si la métrica no está disponible |Explicación |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|Continúe con el paso 2|Porcentaje medio de fotogramas de vídeo perdidos cuando se muestran al usuario. El promedio incluye las imágenes recuperadas de pérdidas de red.|
-|1|Video Frame Rate Avg|<2|_Poor_|_Good_|Continúe con el paso 3|Media de fotogramas por segundo que se reciben en una transmisión de vídeo, calculada a lo largo de la sesión.|
+|2|Video Frame Rate Avg|<2|_Poor_|_Good_|Continúe con el paso 3|Media de fotogramas por segundo que se reciben en una transmisión de vídeo, calculada a lo largo de la sesión.|
 |3|Video Post FECPLR|>  0.15|_Poor_|_Good_|_Unclassified_|La tasa de pérdida de paquetes después de que se haya aplicado FEC en todas las transmisiones y códecs de vídeo.|
 | |  | | | |  ||
 
@@ -112,3 +121,4 @@ Si la conectividad de ICE se realizó correctamente para una transmisión sin _c
 [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
 [Usar el Análisis de llamadas para solucionar problemas de mala calidad en las llamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+ 

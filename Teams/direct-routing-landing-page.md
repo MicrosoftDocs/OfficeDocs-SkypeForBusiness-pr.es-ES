@@ -16,12 +16,12 @@ f1.keywords:
 description: Página de aterrizaje para enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d146c2188f57dbee3887dd2fd595c1b06a86c30e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d643c137145649c0843296300a909c520ba653a6
+ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836070"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42157908"
 ---
 # <a name="phone-system-direct-routing"></a>Enrutamiento directo del Sistema telefónico
 
@@ -51,7 +51,7 @@ Estas son las decisiones básicas para considerar el enrutamiento directo.
 
 |Pregúntese lo siguiente:|Acción |
 | :------------|:-------|
-|¿Para qué usuarios habilitaría el enrutamiento directo? | Para obtener más información, vea [Habilitar usuarios para el servicio de enrutamiento directo](direct-routing-configure.md#enable-users-for-direct-routing-service). |
+|¿Para qué usuarios habilitaría el enrutamiento directo? | Para obtener más información, vea [Habilitar usuarios para el servicio de enrutamiento directo](direct-routing-configure.md). |
 ¿Tengo las licencias necesarias para el enrutamiento directo? | Para obtener más información, consulte [licencias y otros requisitos](direct-routing-plan.md#licensing-and-other-requirements).
 |||
 
@@ -71,8 +71,8 @@ Tendrá que configurar el sistema telefónico para enrutar las llamadas al SBCs 
 
 |Pregúntese lo siguiente:|Acción |
 |:------------|:-------|
-| ¿Qué directivas de enrutamiento de voz, uso de RTC y rutas de voz necesito crear? | Para obtener información sobre el enrutamiento de voz, vea [configurar el enrutamiento de voz](direct-routing-configure.md#configure-voice-routing).
-| ¿Qué usuarios se asignarán a la Directiva de enrutamiento de voz que definio? | Consulte los ejemplos de [configurar el enrutamiento de voz](direct-routing-configure.md#configure-voice-routing). |
+| ¿Qué directivas de enrutamiento de voz, uso de RTC y rutas de voz necesito crear? | Para obtener información sobre el enrutamiento de voz, vea [configurar el enrutamiento de voz](direct-routing-configure.md).
+| ¿Qué usuarios se asignarán a la Directiva de enrutamiento de voz que definio? | Consulte los ejemplos de [configurar el enrutamiento de voz](direct-routing-configure.md). |
 |||
 
 ### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>Asegurarse de que las llamadas entrantes estén en el cliente de Teams mediante TeamsUpgradePolicy

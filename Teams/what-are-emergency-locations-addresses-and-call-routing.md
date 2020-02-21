@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - Direct Routing
 description: Más información sobre las llamadas de emergencia, incluida información sobre las direcciones de emergencia, el enrutamiento de llamadas de emergencia y las llamadas de emergencia dinámicas.
-ms.openlocfilehash: 010a1d3afd6ea1fa490b506b82c46c31bf3a4fa2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 85a09880c1eec83851208197c008c8aaafac88f6
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836680"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161693"
 ---
 # <a name="manage-emergency-calling"></a>Administrar las llamadas de emergencia
 
@@ -157,9 +157,9 @@ Los clientes de Team para usuarios con enrutamiento directo pueden adquirir una 
 
 ### <a name="emergency-call-routing"></a>Enrutamiento de llamadas de emergencia
 
-El TeamsEmergencyCallRoutingPolicy hace referencia a un uso de RTC en línea, que debe tener la configuración de enrutamiento directa adecuada para enrutar correctamente las llamadas de emergencia a las puertas de enlace o gateways PSTN correspondientes. En particular, debes asegurarte de que haya un OnlineVoiceRoute para la cadena de marcado de emergencia. Para obtener más información, vea [configurar el enrutamiento directo](direct-routing-configure.md#configure-voice-routing). 
+El TeamsEmergencyCallRoutingPolicy hace referencia a un uso de RTC en línea, que debe tener la configuración de enrutamiento directa adecuada para enrutar correctamente las llamadas de emergencia a las puertas de enlace o gateways PSTN correspondientes. En particular, debes asegurarte de que haya un OnlineVoiceRoute para la cadena de marcado de emergencia. Para obtener más información, vea [configurar el enrutamiento directo](direct-routing-configure.md). 
 
-(Nota: en Skype empresarial Server, el número de emergencia ha prefijo "+", lo que requiere que se defina una ruta de voz para que coincida con "+ 911" por ejemplo. Los clientes de Teams no anteponen "+" a los números de emergencia).
+(Nota: los clientes de equipos encierran el inicio de sesión "+" delante de los números de emergencia de forma similar a como lo hace el cliente de Skype empresarial, es decir, + 911. Este comportamiento se modificará en los próximos meses, de modo que las llamadas de emergencia de Teams ya no enviarán "+" antes del número; es decir, 911.)
 
 La capacidad de enrutar de manera dinámica llamadas de emergencia para usuarios de enrutamiento directo varía según la red de llamadas de emergencia dentro de un país determinado. Hay dos soluciones disponibles:
 

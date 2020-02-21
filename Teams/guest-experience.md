@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20fd9372c34fd189868aa32882115bee3f6c6f8f
-ms.sourcegitcommit: 346b58b5d5ea0d2ec68891275628dfde32c074fe
+ms.openlocfilehash: ed0ea94910e9b3b5499a1f23a6c1c081590957c7
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41977532"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160574"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
@@ -41,22 +41,23 @@ En la siguiente tabla se compara la funcionalidad de Teams disponible para los m
 
 |**Funcionalidad en Microsoft Teams**|**Usuario de Microsoft Teams de la organización**|**Usuario invitado**|
 |:-----|:-----|:-----|
-|Crear un canal  <br/>  *Los propietarios del equipo controlan este parámetro.*  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Participar en un chat privado  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Participar en una conversión del canal  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Publicar, eliminar y editar mensajes  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Compartir un archivo del canal  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Compartir un archivo del chat  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Agregar aplicaciones (fichas, bots o conectores)  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Crear reuniones o programaciones de Access  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Obtener acceso al almacenamiento de OneDrive para la empresa  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Crear directivas de acceso de invitados a equipos y canales para todos los inquilinos  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Invitar a un usuario que no pertenece al dominio de inquilino de Office 365 <br/>  *Los propietarios del equipo controlan este parámetro.*  <br/> <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Crear un equipo  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Descubrir un equipo público y unirse a él  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Ver el organigrama  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Usar traducción en línea  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Convertirse en propietario del equipo  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Crear un canal  <br/>  *Los propietarios del equipo controlan este parámetro.*  <br/> |&#x2713;|&#x2713;|
+|Participar en un chat privado  <br/> |&#x2713;|&#x2713;|
+|Participar en una conversión del canal  <br/> |&#x2713;|&#x2713;|
+|Publicar, eliminar y editar mensajes  <br/> |&#x2713;|&#x2713;|
+|Compartir un archivo del canal  <br/> |&#x2713;|&#x2713;|
+|Compartir un archivo del chat  <br/> |&#x2713;||
+|Agregar aplicaciones (fichas, bots o conectores)  <br/> |&#x2713;||
+|Crear reuniones o programaciones de Access  <br/> |&#x2713;||
+|Obtener acceso al almacenamiento de OneDrive para la empresa  <br/> |&#x2713;||
+|Crear directivas de acceso de invitados a equipos y canales para todos los inquilinos  <br/> |&#x2713;||
+|Invitar a un usuario que no pertenece al dominio de inquilino de Office 365 <br/>  *Los propietarios del equipo controlan este parámetro.*  <br/> <br/> |&#x2713;||
+|Crear un equipo  <br/> |&#x2713;||
+|Descubrir un equipo público y unirse a él  <br/> |&#x2713;||
+|Ver el organigrama  <br/> |&#x2713;||
+|Usar traducción en línea  <br/> |&#x2713;||
+|Convertirse en propietario del equipo  <br/> |&#x2713;||
+
    
 En la tabla siguiente se muestran las características de llamadas y reuniones disponibles para los invitados, en comparación con otros tipos de usuarios.
 

@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre las diferentes formas de asignar directivas a los usuarios en Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: a4d50f6182441e97f5d7290610e254bd82e91e96
-ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
+ms.openlocfilehash: cb1c5fd43379388327de5e517409f01f7f52ed1b
+ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42052574"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170766"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Asignar directivas a los usuarios en Microsoft Teams
 
 > [!NOTE]
-> **Dos de las características de Microsoft Teams descritas en este artículo, [asignación de Directiva por lotes](#assign-a-policy-to-a-batch-of-users) y [asignación de directiva de grupo](#assign-a-policy-to-a-group), están actualmente en versión preliminar.**
+> **Dos de las características de Microsoft Teams descritas en este artículo, [asignación de Directiva por lotes](#assign-a-policy-to-a-batch-of-users) y [asignación de directiva a grupos](#assign-a-policy-to-a-group), actualmente están en versión preliminar.**
 
 Como administrador, use directivas para controlar las características de teams que están disponibles para los usuarios de su organización. Por ejemplo, hay directivas de llamadas, directivas de reunión y directivas de mensajería, por citar algunas.
 
@@ -213,18 +213,18 @@ Para obtener más información, vea [Get-CsBatchPolicyAssignmentOperation](https
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-La asignación de directiva de grupo le permite asignar una directiva a un grupo de usuarios, como un grupo de seguridad o una unidad organizativa. La asignación de Directiva se propaga a los miembros del grupo según las reglas de prioridad. A medida que se agregan o quitan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan según corresponda.
+La asignación de directivas a grupos le permite asignar una directiva a un grupo de usuarios, como un grupo de seguridad o una unidad organizativa. La asignación de Directiva se propaga a los miembros del grupo según las reglas de prioridad. A medida que se agregan o quitan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan según corresponda.
 
 Use el ```New-CsGroupPolicyAssignment``` cmdlet para asignar una directiva a un grupo. Puede especificar un grupo mediante el identificador de objeto, la dirección SIP o la dirección de correo electrónico.
 
 Al asignar la Directiva, se asigna inmediatamente al grupo. Sin embargo, ten en cuenta que la propagación de la asignación de directiva a miembros del grupo se realiza como una operación en segundo plano y puede llevar algún tiempo, según el tamaño del grupo. Lo mismo sucede cuando se elimina la asignación de una directiva de un grupo, o cuando se agregan miembros a un grupo o se quitan de él.
 
 > [!NOTE]
-> Por el momento, la asignación de directivas de grupo no está disponible para todos los tipos de directivas de Teams. Vea [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) para obtener la lista de tipos de directiva admitidos.
+> Por el momento, la asignación de directivas a grupos no está disponible para todos los tipos de directivas de Teams. Vea [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) para obtener la lista de tipos de directiva admitidos.
 
-### <a name="what-you-need-to-know-about-group-policy-assignment"></a>Lo que debe saber sobre la asignación de directivas de grupo
+### <a name="what-you-need-to-know-about-policy-assignment-to-groups"></a>Lo que debe saber sobre la asignación de directivas a grupos
 
-Antes de empezar, es importante comprender las reglas de prioridad y la clasificación de asignación de directiva de grupo.
+Antes de empezar, es importante comprender las reglas de prioridad y la clasificación de asignación de grupo.
 
 #### <a name="precedence-rules"></a>Reglas de prioridad
 
@@ -240,14 +240,14 @@ La Directiva efectiva de un usuario se actualiza de acuerdo con estas reglas cua
  
 Cuando se asigna una directiva a un grupo, se especifica una clasificación para la asignación de grupo. Se usa para determinar qué directiva debe heredar un usuario como su Directiva efectiva si el usuario es miembro de dos o más grupos y se le asigna una directiva del mismo tipo.
 
-La clasificación de la asignación de grupo es relativa a otras asignaciones de directivas de grupo del mismo tipo. Por ejemplo, si va a asignar una directiva de llamadas a dos grupos, establezca la jerarquía de una asignación en 1 y la otra en 2, siendo 1 el ranking más alto. La clasificación de la asignación de grupo indica qué pertenencia de grupo es más importante o más relevante que otras pertenencias a grupos en relación con la herencia.
+La clasificación de la asignación de grupo es relativa a otras asignaciones de grupo del mismo tipo. Por ejemplo, si va a asignar una directiva de llamadas a dos grupos, establezca la jerarquía de una asignación en 1 y la otra en 2, siendo 1 el ranking más alto. La clasificación de la asignación de grupo indica qué pertenencia de grupo es más importante o más relevante que otras pertenencias a grupos en relación con la herencia.
  
 Por ejemplo, supongamos que tiene dos grupos, guarda empleados y administradores de la tienda. Ambos grupos tienen asignada una directiva de llamadas de equipo, almacenan empleados que llaman a la Directiva de llamadas y a los jefes de tienda, respectivamente. En el caso de un administrador de tienda que esté en ambos grupos, su rol como director es más relevante que su rol como empleado, por lo que la política de llamadas que se asigna al grupo de administradores de la tienda debería tener una clasificación más alta.
 
 |Mesa |Nombre de directiva de llamadas de equipo  |Clasificación|
 |---------|---------|---|
 |Administradores de tienda   |Directiva de llamadas a administradores de tienda         |1|
-|Almacenar empleados    |Almacenar la política de llamadas      |1|
+|Almacenar empleados    |Almacenar la política de llamadas      |2|
 
 Si no especifica una clasificación, la asignación de directiva recibe la clasificación más baja.
 
@@ -319,7 +319,7 @@ A continuación se ofrece una lista de las asignaciones de directivas y las prio
 |Nombre del grupo  |Nombre de la directiva  |Clasificación|
 |---------|---------|---------|
 |Ventas    |Política de ventas       | 1        |
-|Región occidental     |Política de la región occidental         |1         |
+|Región occidental     |Política de la región occidental         |2         |
 |Departamentos    |Política de división         |3         |
 |Secundaria   |Directiva subsidiaria        |4         |
 
@@ -328,7 +328,7 @@ Si quitamos la política de región occidental del grupo región oeste, las asig
 |Nombre del grupo  |Nombre de la directiva  |Clasificación|
 |---------|---------|---------|
 |Ventas    |Política de ventas       | 1        |
-|Departamentos    |Política de división         |1         |
+|Departamentos    |Política de división         |2         |
 |Secundaria   |Directiva subsidiaria        |3        |
 
 En este ejemplo, quitamos la política de reuniones de Teams de un grupo.

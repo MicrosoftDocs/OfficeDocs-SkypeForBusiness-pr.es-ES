@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: c071ebf297714e81cdb8a508ebf313d0054fe633
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 682d2d9fb89c0cee46ca6fb0e856a6000e4c6386
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051574"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161731"
 ---
 # <a name="what-are-communications-credits"></a>¿Qué son los Créditos de comunicaciones?
 
@@ -68,7 +68,7 @@ Puede configurar la facturación del consumo mediante una **financiación única
 > [!NOTE]
 > Puede ver los planes y los precios [iniciando sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a**suscripciones** > de **facturación** > para**Agregar suscripciones**. 
   
-En los planes de > **facturación** > del **centro de administración de Microsoft 365****, puede**Agregar crédito manualmente en cualquier momento. Además, puede habilitar la opción de **recarga automática** para rellenar la cuenta de forma automática cuando el saldo sea inferior al límite fijado. Si opta por financiar el saldo de su crédito de comunicaciones con un monto de una sola vez y, a continuación, el saldo es cero, los escenarios de llamadas adicionales anteriores ya no funcionarán, incluidos los números de teléfono gratuitos. Por lo tanto, te recomendamos que uses la configuración de la **recarga automática** para evitar que se interrumpa el servicio porque el saldo del crédito de las comunicaciones alcanza el valor 0 (cero). Se le enviará un mensaje de correo electrónico cuando se realicen transacciones de recarga, se producirá un error de recarga (como una tarjeta de crédito vencida) y o el saldo de sus créditos de comunicaciones alcance 0 (cero).
+En el **Centro** > de administración de Microsoft 365**Complementos** de**facturación** > de**servicios** > de compra, puede seleccionar créditos de comunicación para agregar los créditos, y puede Agregar crédito manualmente en cualquier momento. Además, puede habilitar la opción de **recarga automática** para rellenar la cuenta de forma automática cuando el saldo sea inferior al límite fijado. Si opta por financiar el saldo de su crédito de comunicaciones con un monto de una sola vez y, a continuación, el saldo es cero, los escenarios de llamadas adicionales anteriores ya no funcionarán, incluidos los números de teléfono gratuitos. Por lo tanto, te recomendamos que uses la configuración de la **recarga automática** para evitar que se interrumpa el servicio porque el saldo del crédito de las comunicaciones alcanza el valor 0 (cero). Se le enviará un mensaje de correo electrónico cuando se realicen transacciones de recarga, se producirá un error de recarga (como una tarjeta de crédito vencida) y o el saldo de sus créditos de comunicaciones alcance 0 (cero).
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 

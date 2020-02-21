@@ -16,18 +16,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4661239db682f1cbdc174460db803a01b553d292
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 41f586a9561a55a759768d719d751c98d2c6a975
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826178"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160377"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Prácticas recomendadas para organizar equipos en Microsoft Teams
 ======================================================
-
-> [!TIP]
-> ¿Tiene un procedimiento recomendado o algún consejo acerca del uso de Microsoft Teams? Compártalo con nosotros a través de la sección **Comentarios** al final de este artículo.
 
 Los equipos son colecciones de personas que reúnen un objetivo común. Este grupo de personas puede estar dentro de un departamento o de toda la organización. Lo que los reúne es el resultado de la conducción. Los miembros de un equipo pueden trabajar a un ritmo diferente o crear activos de forma diferente, pero en nuestra experiencia suelen colaborar rápidamente entre sí, un proceso que llamamos "alta velocidad de trabajo en equipo".  
 
