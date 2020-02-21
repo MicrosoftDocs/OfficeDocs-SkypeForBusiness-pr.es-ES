@@ -12,16 +12,16 @@ ms:contentKeyID: 49733557
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60196805cccc13c35d4a4db1aa2ea7ac8e6a9fef
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 6a2f2d5575bee6e6b29b6a5c289cfa589a33c411
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42151672"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213206"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -142,7 +142,7 @@ En Lync Server 2013, puede invalidar la cantidad de tiempo predeterminada entre 
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 
 [Eliminación de una directiva de ubicación en Lync Server 2013](lync-server-2013-deleting-a-location-policy.md)  

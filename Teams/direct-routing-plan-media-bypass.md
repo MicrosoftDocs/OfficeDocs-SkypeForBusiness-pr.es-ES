@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lea este tema para obtener información sobre cómo planear la omisión de medios con enrutamiento directo de sistema telefónico.
-ms.openlocfilehash: 98f09d00960615c09dca8dcd78275a418d650f3e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7c7d82d1ac13ec1612403ba5fd20471e72173122
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835980"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214496"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -317,28 +317,28 @@ El intervalo de puertos de los procesadores de medios (aplicables a todos los en
 UDP/SRTP | Procesador de medios | SBC | 49 152 – 53 247    | Definido en la SBC |
 | UDP/SRTP | SBC | Procesador de medios | Definido en la SBC | 49 152 – 53 247     |
 
-## <a name="considerations-if-you-have-skype-for-business-phones-in-your-network"></a>Consideraciones si tiene teléfonos de Skype empresarial en su red  
+## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Configurar troncos independientes para la omisión de medios y no multimedia  
 
-Si tiene algún punto final de Skype empresarial en su red que usa enrutamiento directo, por ejemplo, un usuario de equipos puede tener un teléfono 3PIP basado en el cliente de Skype empresarial, la omisión de medios en el tronco que sirve a estos usuarios debe estar desactivada.
-
-Puede crear un tronco separado para estos usuarios y asignarle una directiva de enrutamiento de voz en línea.
+Si va a migrar a elementos multimedia de omisión de medios y desea confirmar la funcionalidad antes de migrar todo el uso a los medios omitidos, puede crear un tronco separado y una directiva de enrutamiento de voz en línea separada para enrutar a los medios de derivación de medios y asignarlos a determinados User. 
 
 Pasos de configuración de alto nivel:
 
-- Divida los usuarios por tipo (dependiendo de si el usuario tiene un teléfono de 3PIP o no).
+- Identifique a los usuarios para probar la omisión de medios.
 
 - Cree dos troncos independientes con diferentes FQDN: uno habilitado para la omisión de medios; el otro no. 
 
   Ambos troncos apuntan a la misma SBC. Los puertos para la señalización TLS SIP deben ser diferentes. Los puertos para los medios deben ser los mismos.
 
-- Asigne el tronco correcto según el tipo de usuario de la Directiva de enrutamiento de voz en línea.
+- Cree una nueva Directiva de enrutamiento de voz en línea y asigne el tronco de omisión de medios a las rutas correspondientes asociadas con el uso de RTC para esta Directiva.
+
+- Asigne la nueva Directiva de enrutamiento de voz en línea a los usuarios que haya identificado para probar la omisión de medios.
 
 En el ejemplo siguiente se muestra esta lógica.
 
 | Conjunto de usuarios | Número de usuarios | FQDN de tronco asignado en OVRP | Omisión de medios habilitado |
 | :------------ |:----------------- |:--------------|:--------------|
-Usuarios con clientes de equipos y teléfonos 3PIP | veinte | sbc1.contoso.com:5061 | falso | 
-Usuarios con solo los puntos finales de los equipos (incluidos los nuevos teléfonos certificados para Teams) | 980 | sbc2.contoso.com:5060 | verdadero
+Usuarios con tronco de omisión de medios no multimedia | 980 | sbc1.contoso.com:5060 | verdadero
+Los usuarios con medios omiten el tronco | veinte | sbc2.contoso.com:5061 | falso | 
 
 Ambos troncos pueden apuntar al mismo SBC con la misma dirección IP pública. Los puertos de señalización TLS en la SBC deben ser diferentes, tal como se muestra en el siguiente diagrama. Nota tendrá que asegurarse de que su certificado admite ambos troncos. En SAN, debe tener dos nombres (**sbc1.contoso.com** y **sbc2.contoso.com**) o tener un certificado comodín.
 
@@ -354,9 +354,9 @@ Para obtener más información sobre cómo configurar dos troncos en el mismo SB
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>Extremos de cliente compatibles con la omisión de medios
 
-La omisión de elementos multimedia es compatible con todos los puntos de conexión de Teams.
+La omisión de elementos multimedia es compatible con todos los clientes de escritorio y equipos móviles de equipos. 
 
-Nota para los clientes Web (Teams Web App en Microsoft Edge, Google Chrome o Mozilla Firefox) se hará la llamada a no omitir aunque se haya iniciado como una llamada de omisión. Esto sucede automáticamente y no requiere ninguna acción del administrador. 
+Para todos los demás puntos de conexión que no admitan la omisión de elementos multimedia, se rescribirá la llamada en el modo no omitido aunque se haya iniciado como una llamada de omisión. Esto sucede automáticamente y no requiere ninguna acción del administrador. Esto incluye los teléfonos de Skype empresarial 3PIP y los clientes Web de teams que admiten las llamadas de enrutamiento directo (nuevo Microsoft Edge basado en cromo, Google Chrome, Mozilla Firefox). 
  
 ## <a name="see-also"></a>Vea también
 

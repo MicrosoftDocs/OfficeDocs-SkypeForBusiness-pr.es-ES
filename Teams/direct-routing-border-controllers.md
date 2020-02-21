@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: Microsoft se asocia con proveedores SBC seleccionados para certificar que sus SBC pueden usarse con el Enrutamiento directo.
-ms.openlocfilehash: b574911c2d819e665f088ec8be12f24e1830daf2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 3e442a2afd61c3d5c39ac8edc89fa128131ac468
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837590"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214416"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 
@@ -53,21 +53,27 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                                                                                                                     | SBC Mediant 1000B  |     &#10004;     |   Pending     |  7.20 a. 250  |    |    |    
 |                                                                                                                     | SBC 9000  |     &#10004;     |   &#10004;     |  7.20 a. 250   |    |    |                                                                       
 |                                                                                                                     | SBC Virtual Edition |     &#10004;     |   &#10004;     |  7.20 a. 250 |    |    |    
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 7.2       |  Entrada ERS <br>Entrada EGW |   No |    
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 7.2       |   Entrada ERS <br>Entrada EGW  | No   |    
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  Entrada ERS <br>Entrada EGW    |No|    
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   Entrada ERS <br>Entrada EGW  |  No  |    
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   Entrada ERS <br>Entrada EGW |   No |    
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.3 (compilación 537)     |  Entrada ERS <br>Entrada EGW   |  Pending  |    
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (compilación 537)     |  Entrada ERS <br>Entrada EGW  |  Pending  |    
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.3 (compilación 216)    |  Entrada ERS <br>Entrada EGW   |  Pending  |    
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    SBC Think 365    |     &#10004;     |   Pending    |       V1.4       |     |    |    
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   Entrada ERS <br>Entrada EGW  |    |    
-|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |   Entrada ERS <br>Entrada EGW  |    |    
-|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   Entrada ERS <br>Entrada EGW |    |    
-|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  Entrada ERS <br>Entrada EGW  |    |    
-|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   Entrada ERS <br>Entrada EGW |    |                                            
-|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   Entrada ERS <br>Entrada EGW  |    |    
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 7.2       | <ul> <li>Entrada ERS </li> <li>Entrada EGW</li> <li> Movilidad del horizonte de cielo rojo </li> </ul> |   No |    
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 7.2       |  <ul> <li>Entrada ERS </li> <li>Entrada EGW</li> <li> Movilidad del horizonte de cielo rojo </li> </ul> | No   |    
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  <ul> <li>Entrada ERS </li> <li>Entrada EGW</li> <li> Movilidad del horizonte de cielo rojo </li> </ul>  |No|    
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   <ul> <li>Entrada ERS </li> <li>Entrada EGW</li> <li> Movilidad del horizonte de cielo rojo </li> </ul> |  No  |    
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   <ul> <li>Entrada ERS </li> <li>Entrada EGW</li> <li> Movilidad del horizonte de cielo rojo </li> </ul> |   No |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.3 (compilación 537)     |  <ul> <li> Entrada ERS </li> <li>Entrada EGW </li> </ul>   |         |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (compilación 537)     |  <ul> <li> Entrada ERS </li> <li>Entrada EGW </li> </ul>   |           |    
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.3 (compilación 216)    |  <ul> <li> Entrada ERS </li> <li>Entrada EGW </li> </ul>    |           |    
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    SBC Think 365    |     &#10004;     |           |       V1.4       |     |    |    
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> Entrada ERS </li> <li>Entrada EGW </li> </ul>   |    |    
+|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> Entrada ERS </li> <li>Entrada EGW </li> </ul>  |    |    
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   <ul> <li> Entrada ERS </li> <li>Entrada EGW </li> </ul>  |    |    
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> Entrada ERS </li> <li>Entrada EGW </li> </ul>   |    |    
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> Entrada ERS </li> <li>Entrada EGW </li> </ul>  |    |                                            
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> Entrada ERS </li> <li>Entrada EGW </li> </ul>   |    |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
+
+En la siguiente tabla se enumeran los dispositivos verificados para la interoperabilidad entre el enrutamiento directo y los dispositivos analógicos.
+
+|                                                       Proveedor                                                        |       Producto       | Probado
+|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
 
 Para enviarnos comentarios sobre los equipos, como ideas para nuevas características, vea [uservoice](https://microsoftteams.uservoice.com) Anote la certificación concedida a una versión principal. Eso significa que se admite el firmware con cualquier número en el firmware de SBC siguiendo la versión principal.
