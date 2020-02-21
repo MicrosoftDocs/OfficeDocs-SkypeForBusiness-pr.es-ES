@@ -12,20 +12,20 @@ ms:contentKeyID: 48185950
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffa28f05ae8059244f53575c01f02551cbaffc95
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 345a659d3edfe8542391719ed4b90717b45a3c35
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42140043"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42215786"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="p2p-summary-subreport-in-lync-server-2013"></a><span data-ttu-id="52fcc-102">Subinforme de Resumen de P2P en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="52fcc-102">P2P Summary Subreport in Lync Server 2013</span></span>
+# <a name="p2p-summary-subreport-in-lync-server-2013"></a><span data-ttu-id="78784-102">Subinforme de Resumen de P2P en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="78784-102">P2P Summary Subreport in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42140043"
 
 <span> </span>
 
-<span data-ttu-id="52fcc-103">_**Última modificación del tema:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="52fcc-103">_**Topic Last Modified:** 2012-10-21_</span></span>
+<span data-ttu-id="78784-103">_**Última modificación del tema:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="78784-103">_**Topic Last Modified:** 2012-10-21_</span></span>
 
-<span data-ttu-id="52fcc-104">El Subinforme de resumen de P2P ofrecer una vista general de todas las sesiones de comunicación de punto a punto que han presentado error.</span><span class="sxs-lookup"><span data-stu-id="52fcc-104">The P2P Summary Subreport provides an overall view of your failed peer-to-peer communication sessions.</span></span>
+<span data-ttu-id="78784-104">El Subinforme de resumen de P2P ofrecer una vista general de todas las sesiones de comunicación de punto a punto que han presentado error.</span><span class="sxs-lookup"><span data-stu-id="78784-104">The P2P Summary Subreport provides an overall view of your failed peer-to-peer communication sessions.</span></span>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="52fcc-105">Filtros</span><span class="sxs-lookup"><span data-stu-id="52fcc-105">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="78784-105">Filtros</span><span class="sxs-lookup"><span data-stu-id="78784-105">Filters</span></span>
 
-<span data-ttu-id="52fcc-p101">Los filtros ofrecen el medio para devolver un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. La tabla siguiente muestra los filtros que se pueden utilizar con el Subinforme de resumen de P2P.</span><span class="sxs-lookup"><span data-stu-id="52fcc-p101">Filters provide a way for you to return a more finely targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the P2P Summary Subreport.</span></span>
+<span data-ttu-id="78784-p101">Los filtros ofrecen el medio para devolver un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. La tabla siguiente muestra los filtros que se pueden utilizar con el Subinforme de resumen de P2P.</span><span class="sxs-lookup"><span data-stu-id="78784-p101">Filters provide a way for you to return a more finely targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the P2P Summary Subreport.</span></span>
 
-### <a name="p2p-summary-subreport-filters"></a><span data-ttu-id="52fcc-108">Filtros del Subinforme de resumen de P2P</span><span class="sxs-lookup"><span data-stu-id="52fcc-108">P2P Summary Subreport Filters</span></span>
+### <a name="p2p-summary-subreport-filters"></a><span data-ttu-id="78784-108">Filtros del Subinforme de resumen de P2P</span><span class="sxs-lookup"><span data-stu-id="78784-108">P2P Summary Subreport Filters</span></span>
 
 <table>
 <colgroup>
@@ -54,34 +54,34 @@ ms.locfileid: "42140043"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="52fcc-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="52fcc-109">Name</span></span></th>
-<th><span data-ttu-id="52fcc-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="52fcc-110">Description</span></span></th>
+<th><span data-ttu-id="78784-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="78784-109">Name</span></span></th>
+<th><span data-ttu-id="78784-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="78784-110">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="52fcc-111"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="52fcc-111"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="52fcc-p102">Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="52fcc-p102">Start date and time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="52fcc-114">7/7/2012 1:00 pm</span><span class="sxs-lookup"><span data-stu-id="52fcc-114">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="52fcc-p103">Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</span><span class="sxs-lookup"><span data-stu-id="52fcc-p103">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="52fcc-117">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="52fcc-117">7/7/2012</span></span></p>
-<p><span data-ttu-id="52fcc-118">Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</span><span class="sxs-lookup"><span data-stu-id="52fcc-118">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="52fcc-119">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="52fcc-119">7/3/2012</span></span></p>
-<p><span data-ttu-id="52fcc-120">Las semanas siempre empiezan en domingo y terminan en sábado.</span><span class="sxs-lookup"><span data-stu-id="52fcc-120">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="78784-111"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="78784-111"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="78784-p102">Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="78784-p102">Start date and time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="78784-114">7/7/2012 1:00 pm</span><span class="sxs-lookup"><span data-stu-id="78784-114">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="78784-p103">Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</span><span class="sxs-lookup"><span data-stu-id="78784-p103">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="78784-117">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="78784-117">7/7/2012</span></span></p>
+<p><span data-ttu-id="78784-118">Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</span><span class="sxs-lookup"><span data-stu-id="78784-118">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="78784-119">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="78784-119">7/3/2012</span></span></p>
+<p><span data-ttu-id="78784-120">Las semanas siempre empiezan en domingo y terminan en sábado.</span><span class="sxs-lookup"><span data-stu-id="78784-120">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="52fcc-121"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="52fcc-121"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="52fcc-p104">Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="52fcc-p104">End date and time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="52fcc-124">7/7/2012 13:00</span><span class="sxs-lookup"><span data-stu-id="52fcc-124">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="52fcc-p105">Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</span><span class="sxs-lookup"><span data-stu-id="52fcc-p105">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="52fcc-127">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="52fcc-127">7/7/2012</span></span></p>
-<p><span data-ttu-id="52fcc-128">Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</span><span class="sxs-lookup"><span data-stu-id="52fcc-128">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="52fcc-129">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="52fcc-129">7/3/2012</span></span></p>
-<p><span data-ttu-id="52fcc-130">Las semanas siempre van del domingo al sábado.</span><span class="sxs-lookup"><span data-stu-id="52fcc-130">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="78784-121"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="78784-121"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="78784-p104">Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="78784-p104">End date and time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="78784-124">7/7/2012 13:00</span><span class="sxs-lookup"><span data-stu-id="78784-124">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="78784-p105">Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</span><span class="sxs-lookup"><span data-stu-id="78784-p105">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="78784-127">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="78784-127">7/7/2012</span></span></p>
+<p><span data-ttu-id="78784-128">Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</span><span class="sxs-lookup"><span data-stu-id="78784-128">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="78784-129">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="78784-129">7/3/2012</span></span></p>
+<p><span data-ttu-id="78784-130">Las semanas siempre van del domingo al sábado.</span><span class="sxs-lookup"><span data-stu-id="78784-130">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="52fcc-131"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="52fcc-131"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="52fcc-p106">Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en <strong>[Todo]</strong> para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="52fcc-p106">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="78784-131"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="78784-131"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="78784-p106">Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en <strong>[Todo]</strong> para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="78784-p106">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -91,11 +91,11 @@ ms.locfileid: "42140043"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="52fcc-135">Métricas</span><span class="sxs-lookup"><span data-stu-id="52fcc-135">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="78784-135">Métricas</span><span class="sxs-lookup"><span data-stu-id="78784-135">Metrics</span></span>
 
-<span data-ttu-id="52fcc-136">En la tabla siguiente se muestra la información recogida en el Subinforme de resumen de P2P.</span><span class="sxs-lookup"><span data-stu-id="52fcc-136">The following table lists the information provided in the P2P Summary Subreport.</span></span>
+<span data-ttu-id="78784-136">En la tabla siguiente se muestra la información recogida en el Subinforme de resumen de P2P.</span><span class="sxs-lookup"><span data-stu-id="78784-136">The following table lists the information provided in the P2P Summary Subreport.</span></span>
 
-### <a name="p2p-summary-subreport-metrics"></a><span data-ttu-id="52fcc-137">Métricas del Subinforme de resumen de P2P</span><span class="sxs-lookup"><span data-stu-id="52fcc-137">P2P Summary Subreport Metrics</span></span>
+### <a name="p2p-summary-subreport-metrics"></a><span data-ttu-id="78784-137">Métricas del Subinforme de resumen de P2P</span><span class="sxs-lookup"><span data-stu-id="78784-137">P2P Summary Subreport Metrics</span></span>
 
 <table>
 <colgroup>
@@ -105,31 +105,31 @@ ms.locfileid: "42140043"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="52fcc-138">Nombre</span><span class="sxs-lookup"><span data-stu-id="52fcc-138">Name</span></span></th>
-<th><span data-ttu-id="52fcc-139">¿Se pueden ordenar los datos en este elemento?</span><span class="sxs-lookup"><span data-stu-id="52fcc-139">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="52fcc-140">Descripción</span><span class="sxs-lookup"><span data-stu-id="52fcc-140">Description</span></span></th>
+<th><span data-ttu-id="78784-138">Nombre</span><span class="sxs-lookup"><span data-stu-id="78784-138">Name</span></span></th>
+<th><span data-ttu-id="78784-139">¿Se pueden ordenar los datos en este elemento?</span><span class="sxs-lookup"><span data-stu-id="78784-139">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="78784-140">Descripción</span><span class="sxs-lookup"><span data-stu-id="78784-140">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="52fcc-141"><strong>Total de sesiones</strong></span><span class="sxs-lookup"><span data-stu-id="52fcc-141"><strong>Total sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="52fcc-142">No</span><span class="sxs-lookup"><span data-stu-id="52fcc-142">No</span></span></p></td>
-<td><p><span data-ttu-id="52fcc-143">Número total de sesiones, incluidas las sesiones correctas, las sesiones con errores (tanto esperados como inesperados) y las sesiones sin categoría.</span><span class="sxs-lookup"><span data-stu-id="52fcc-143">Total number of sessions, including successful sessions, failed sessions (both expected failures and unexpected failures), and uncategorized sessions.</span></span></p></td>
+<td><p><span data-ttu-id="78784-141"><strong>Total de sesiones</strong></span><span class="sxs-lookup"><span data-stu-id="78784-141"><strong>Total sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="78784-142">No</span><span class="sxs-lookup"><span data-stu-id="78784-142">No</span></span></p></td>
+<td><p><span data-ttu-id="78784-143">Número total de sesiones, incluidas las sesiones correctas, las sesiones con errores (tanto esperados como inesperados) y las sesiones sin categoría.</span><span class="sxs-lookup"><span data-stu-id="78784-143">Total number of sessions, including successful sessions, failed sessions (both expected failures and unexpected failures), and uncategorized sessions.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="52fcc-144"><strong>Porcentaje de errores</strong></span><span class="sxs-lookup"><span data-stu-id="52fcc-144"><strong>Failure rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="52fcc-145">No</span><span class="sxs-lookup"><span data-stu-id="52fcc-145">No</span></span></p></td>
-<td><p><span data-ttu-id="52fcc-146">Porcentaje de las sesiones punto a punto con errores.</span><span class="sxs-lookup"><span data-stu-id="52fcc-146">Percentage of peer-to-peer sessions that failed.</span></span></p></td>
+<td><p><span data-ttu-id="78784-144"><strong>Porcentaje de errores</strong></span><span class="sxs-lookup"><span data-stu-id="78784-144"><strong>Failure rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="78784-145">No</span><span class="sxs-lookup"><span data-stu-id="78784-145">No</span></span></p></td>
+<td><p><span data-ttu-id="78784-146">Porcentaje de las sesiones punto a punto con errores.</span><span class="sxs-lookup"><span data-stu-id="78784-146">Percentage of peer-to-peer sessions that failed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="52fcc-147"><strong>Sesiones por modalidad</strong></span><span class="sxs-lookup"><span data-stu-id="52fcc-147"><strong>Sessions by Modality</strong></span></span></p></td>
-<td><p><span data-ttu-id="52fcc-148">No</span><span class="sxs-lookup"><span data-stu-id="52fcc-148">No</span></span></p></td>
-<td><p><span data-ttu-id="52fcc-149">Número total de sesiones agrupadas por modalidad (por ejemplo, mensajería instantánea).</span><span class="sxs-lookup"><span data-stu-id="52fcc-149">Total number of sessions grouped by modality (for example, instant messaging).</span></span></p></td>
+<td><p><span data-ttu-id="78784-147"><strong>Sesiones por modalidad</strong></span><span class="sxs-lookup"><span data-stu-id="78784-147"><strong>Sessions by Modality</strong></span></span></p></td>
+<td><p><span data-ttu-id="78784-148">No</span><span class="sxs-lookup"><span data-stu-id="78784-148">No</span></span></p></td>
+<td><p><span data-ttu-id="78784-149">Número total de sesiones agrupadas por modalidad (por ejemplo, mensajería instantánea).</span><span class="sxs-lookup"><span data-stu-id="78784-149">Total number of sessions grouped by modality (for example, instant messaging).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="52fcc-150"><strong>Porcentaje de errores por modalidad</strong></span><span class="sxs-lookup"><span data-stu-id="52fcc-150"><strong>Failure rate by modality</strong></span></span></p></td>
-<td><p><span data-ttu-id="52fcc-151">No</span><span class="sxs-lookup"><span data-stu-id="52fcc-151">No</span></span></p></td>
-<td><p><span data-ttu-id="52fcc-152">Número total de sesiones con error agrupadas por modalidad (por ejemplo, mensajería instantánea).</span><span class="sxs-lookup"><span data-stu-id="52fcc-152">Total number of failed sessions grouped by modality (for example, instant messaging).</span></span></p></td>
+<td><p><span data-ttu-id="78784-150"><strong>Porcentaje de errores por modalidad</strong></span><span class="sxs-lookup"><span data-stu-id="78784-150"><strong>Failure rate by modality</strong></span></span></p></td>
+<td><p><span data-ttu-id="78784-151">No</span><span class="sxs-lookup"><span data-stu-id="78784-151">No</span></span></p></td>
+<td><p><span data-ttu-id="78784-152">Número total de sesiones con error agrupadas por modalidad (por ejemplo, mensajería instantánea).</span><span class="sxs-lookup"><span data-stu-id="78784-152">Total number of failed sessions grouped by modality (for example, instant messaging).</span></span></p></td>
 </tr>
 </tbody>
 </table>
