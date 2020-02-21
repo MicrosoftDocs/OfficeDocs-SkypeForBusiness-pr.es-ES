@@ -12,20 +12,20 @@ ms:contentKeyID: 48185017
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f325554d644282953d89fc46c183eed3756d2a07
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: ebfe2b41293d58223817a06eef82f5c03d0909a6
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42149209"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205212"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="associate-subnets-with-network-sites-for-cac-in-lync-server-2013"></a><span data-ttu-id="01027-102">Asociar subredes a sitios de red para CAC en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="01027-102">Associate subnets with network sites for CAC in Lync Server 2013</span></span>
+# <a name="associate-subnets-with-network-sites-for-cac-in-lync-server-2013"></a><span data-ttu-id="8853f-102">Asociar subredes a sitios de red para CAC en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8853f-102">Associate subnets with network sites for CAC in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42149209"
 
 <span> </span>
 
-<span data-ttu-id="01027-103">_**Última modificación del tema:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="01027-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="8853f-103">_**Última modificación del tema:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="8853f-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="01027-p101">Todas las subredes de la red deben estar asociadas con un sitio de red específico. Por este motivo la información de las subredes se usa para determinar el sitio de red en el que se encuentra un extremo. Cuando se conoce la ubicación de ambas partes en una sesión, el control de admisión de llamadas puede determinar si hay suficiente ancho de banda para establecer una llamada.</span><span class="sxs-lookup"><span data-stu-id="01027-p101">Every subnet in your network must be associated with a specific network site. This is because subnet information is used to determine the network site on which an endpoint is located. When the locations of both parties in a session are known, call admission control (CAC) can determine if there is sufficient bandwidth to establish a call.</span></span>
+<span data-ttu-id="8853f-p101">Todas las subredes de la red deben estar asociadas con un sitio de red específico. Por este motivo la información de las subredes se usa para determinar el sitio de red en el que se encuentra un extremo. Cuando se conoce la ubicación de ambas partes en una sesión, el control de admisión de llamadas puede determinar si hay suficiente ancho de banda para establecer una llamada.</span><span class="sxs-lookup"><span data-stu-id="8853f-p101">Every subnet in your network must be associated with a specific network site. This is because subnet information is used to determine the network site on which an endpoint is located. When the locations of both parties in a session are known, call admission control (CAC) can determine if there is sufficient bandwidth to establish a call.</span></span>
 
-<span data-ttu-id="01027-107">El control de admisión de llamadas no tiene requisitos especiales para la asociación de subredes con sitios de red.</span><span class="sxs-lookup"><span data-stu-id="01027-107">Call admission control does not have any special requirements for associating subnets with network sites.</span></span> <span data-ttu-id="01027-108">Para crear una asociación entre las subredes y los sitios de red de la topología, siga los procedimientos que se indican en [asociar una subred a un sitio de red en Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span><span class="sxs-lookup"><span data-stu-id="01027-108">To create an association between the subnets and network sites in your topology, follow the procedures in [Associate a subnet with a network site in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span></span> <span data-ttu-id="01027-109">Para ver los sitios de red (y sus subredes respectivas) en la topología de red de ejemplo para el control de admisión de llamadas, consulte [ejemplo: recopilar los requisitos para el control de admisión de llamadas en Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) en la documentación referente a la planeación.</span><span class="sxs-lookup"><span data-stu-id="01027-109">To view the network sites (and their respective subnets) in the example network topology for call admission control, see [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in the Planning documentation.</span></span>
+<span data-ttu-id="8853f-107">El control de admisión de llamadas no tiene requisitos especiales para la asociación de subredes con sitios de red.</span><span class="sxs-lookup"><span data-stu-id="8853f-107">Call admission control does not have any special requirements for associating subnets with network sites.</span></span> <span data-ttu-id="8853f-108">Para crear una asociación entre las subredes y los sitios de red de la topología, siga los procedimientos que se indican en [asociar una subred a un sitio de red en Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span><span class="sxs-lookup"><span data-stu-id="8853f-108">To create an association between the subnets and network sites in your topology, follow the procedures in [Associate a subnet with a network site in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span></span> <span data-ttu-id="8853f-109">Para ver los sitios de red (y sus subredes respectivas) en la topología de red de ejemplo para el control de admisión de llamadas, consulte [ejemplo: recopilar los requisitos para el control de admisión de llamadas en Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) en la documentación referente a la planeación.</span><span class="sxs-lookup"><span data-stu-id="8853f-109">To view the network sites (and their respective subnets) in the example network topology for call admission control, see [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in the Planning documentation.</span></span>
 
 </div>
 
