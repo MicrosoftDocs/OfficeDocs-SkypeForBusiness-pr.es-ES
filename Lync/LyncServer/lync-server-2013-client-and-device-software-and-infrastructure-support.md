@@ -12,20 +12,20 @@ ms:contentKeyID: 48184265
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ee280cabe9df1ad720f1007f1dc787db9f32aab
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 6eec46250d138e6b97dfe6a12da9d57f43ca2458
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134096"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42197903"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="c5e34-102">Compatibilidad con infraestructura y software de dispositivo y cliente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c5e34-102">Client and device software and infrastructure support in Lync Server 2013</span></span>
+# <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="4e7c9-102">Compatibilidad con infraestructura y software de dispositivo y cliente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e7c9-102">Client and device software and infrastructure support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "42134096"
 
 <span> </span>
 
-<span data-ttu-id="c5e34-103">_**Última modificación del tema:** 2014-08-27_</span><span class="sxs-lookup"><span data-stu-id="c5e34-103">_**Topic Last Modified:** 2014-08-27_</span></span>
+<span data-ttu-id="4e7c9-103">_**Última modificación del tema:** 2014-08-27_</span><span class="sxs-lookup"><span data-stu-id="4e7c9-103">_**Topic Last Modified:** 2014-08-27_</span></span>
 
-<span data-ttu-id="c5e34-104">La compatibilidad de software para clientes y dispositivos de una implementación de Lync Server 2013 incluye los sistemas operativos compatibles, el software de infraestructura y otro software adicional necesario para admitir características de cliente y dispositivo.</span><span class="sxs-lookup"><span data-stu-id="c5e34-104">Software support for clients and devices of a Lync Server 2013 deployment includes the supported operating systems, infrastructure software, and other additional software required to support client and device features.</span></span>
+<span data-ttu-id="4e7c9-104">La compatibilidad de software para clientes y dispositivos de una implementación de Lync Server 2013 incluye los sistemas operativos compatibles, el software de infraestructura y otro software adicional necesario para admitir características de cliente y dispositivo.</span><span class="sxs-lookup"><span data-stu-id="4e7c9-104">Software support for clients and devices of a Lync Server 2013 deployment includes the supported operating systems, infrastructure software, and other additional software required to support client and device features.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c5e34-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="c5e34-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4e7c9-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="4e7c9-105">In This Section</span></span>
 
   - <span></span>  
-    [<span data-ttu-id="c5e34-106">Compatibilidad de software de cliente de Lync en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c5e34-106">Lync client software support in Lync Server 2013</span></span>](lync-server-2013-lync-client-software-support.md)
+    [<span data-ttu-id="4e7c9-106">Compatibilidad de software de cliente de Lync en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e7c9-106">Lync client software support in Lync Server 2013</span></span>](lync-server-2013-lync-client-software-support.md)
 
   - <span></span>  
-    [<span data-ttu-id="c5e34-107">Compatibilidad con la conectividad de mensajería instantánea pública en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c5e34-107">Support for public instant messenger connectivity in Lync Server 2013</span></span>](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
+    [<span data-ttu-id="4e7c9-107">Compatibilidad con la conectividad de mensajería instantánea pública en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e7c9-107">Support for public instant messenger connectivity in Lync Server 2013</span></span>](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
 
   - <span></span>  
-    [<span data-ttu-id="c5e34-108">Cómo se muestran las fotos de los usuarios en Lync</span><span class="sxs-lookup"><span data-stu-id="c5e34-108">How user photos are displayed in Lync</span></span>](how-user-photos-are-displayed-in-lync.md)
+    [<span data-ttu-id="4e7c9-108">Cómo se muestran las fotos de los usuarios en Lync</span><span class="sxs-lookup"><span data-stu-id="4e7c9-108">How user photos are displayed in Lync</span></span>](how-user-photos-are-displayed-in-lync.md)
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="c5e34-109">Lync Phone Edition funciona de la misma manera con Lync Server 2013 como lo hace con Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="c5e34-109">Lync Phone Edition works the same way with Lync Server 2013 as it does with Lync Server 2010.</span></span> <span data-ttu-id="c5e34-110">Para obtener más información sobre la compatibilidad de software para dispositivos, vea los siguientes temas en la biblioteca de TechNet de 2010 de Lync Server:</span><span class="sxs-lookup"><span data-stu-id="c5e34-110">For details about software support for devices, see the following topics in the Lync Server 2010 TechNet Library:</span></span> 
+> <span data-ttu-id="4e7c9-109">Lync Phone Edition funciona de la misma manera con Lync Server 2013 como lo hace con Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="4e7c9-109">Lync Phone Edition works the same way with Lync Server 2013 as it does with Lync Server 2010.</span></span> <span data-ttu-id="4e7c9-110">Para obtener más información sobre la compatibilidad de software para dispositivos, vea los siguientes temas en la biblioteca de TechNet de 2010 de Lync Server:</span><span class="sxs-lookup"><span data-stu-id="4e7c9-110">For details about software support for devices, see the following topics in the Lync Server 2010 TechNet Library:</span></span> 
 > <UL>
 > <LI>
-> <P><span data-ttu-id="c5e34-111">Se requieren componentes de Lync Server 2010 para dispositivos en<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256488">https://go.microsoft.com/fwlink/p/?linkid=256488</A></span><span class="sxs-lookup"><span data-stu-id="c5e34-111">Required Lync Server 2010 Components for Devices at <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256488">https://go.microsoft.com/fwlink/p/?linkid=256488</A></span></span></P>
+> <P><span data-ttu-id="4e7c9-111">Se requieren componentes de Lync Server 2010 para dispositivos en<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256488">https://go.microsoft.com/fwlink/p/?linkid=256488</A></span><span class="sxs-lookup"><span data-stu-id="4e7c9-111">Required Lync Server 2010 Components for Devices at <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256488">https://go.microsoft.com/fwlink/p/?linkid=256488</A></span></span></P>
 > <LI>
-> <P><span data-ttu-id="c5e34-112">Compatibilidad con la infraestructura y el sistema de dispositivos en<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256489">https://go.microsoft.com/fwlink/p/?linkid=256489</A></span><span class="sxs-lookup"><span data-stu-id="c5e34-112">Device System and Infrastructure Support at <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256489">https://go.microsoft.com/fwlink/p/?linkid=256489</A></span></span></P></LI></UL>
+> <P><span data-ttu-id="4e7c9-112">Compatibilidad con la infraestructura y el sistema de dispositivos en<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256489">https://go.microsoft.com/fwlink/p/?linkid=256489</A></span><span class="sxs-lookup"><span data-stu-id="4e7c9-112">Device System and Infrastructure Support at <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256489">https://go.microsoft.com/fwlink/p/?linkid=256489</A></span></span></P></LI></UL>
 
 
 
