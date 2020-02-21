@@ -12,20 +12,20 @@ ms:contentKeyID: 48184550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c52bf0791a149625732d3f700a09a92017fa87ca
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 4edd989985c4ed65027ed8d19725ec1f93c2bdc4
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42149039"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42190103"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-archiving-and-monitoring-servers"></a><span data-ttu-id="e6b38-102">Migración de servidores de archivado y supervisión</span><span class="sxs-lookup"><span data-stu-id="e6b38-102">Migrating Archiving and Monitoring servers</span></span>
+# <a name="migrating-archiving-and-monitoring-servers"></a><span data-ttu-id="c531e-102">Migración de servidores de archivado y supervisión</span><span class="sxs-lookup"><span data-stu-id="c531e-102">Migrating Archiving and Monitoring servers</span></span>
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "42149039"
 
 <span> </span>
 
-<span data-ttu-id="e6b38-103">_**Última modificación del tema:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="e6b38-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="c531e-103">_**Última modificación del tema:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="c531e-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="e6b38-104">Si ha implementado el servidor de archivado y el servidor de supervisión en su entorno de Lync Server 2010, puede implementar estos servidores en su entorno de Lync Server 2013 después de migrar los grupos de servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="e6b38-104">If you deployed Archiving Server and Monitoring Server in your Lync Server 2010 environment, you can deploy these servers in your Lync Server 2013 environment after you migrate your Front End pools.</span></span> <span data-ttu-id="e6b38-105">Sin embargo, si la funcionalidad de archivado y supervisión es fundamental para su organización, debe agregar el archivado y la supervisión al grupo piloto de Lync Server 2013 antes de migrar para que la funcionalidad esté disponible durante el proceso de migración.</span><span class="sxs-lookup"><span data-stu-id="e6b38-105">If archiving and monitoring functionality are critical to your organization, however, you should add archiving and monitoring to your Lync Server 2013 pilot pool before you migrate so that the functionality is available during the migration process.</span></span>
+<span data-ttu-id="c531e-104">Si ha implementado el servidor de archivado y el servidor de supervisión en su entorno de Lync Server 2010, puede implementar estos servidores en su entorno de Lync Server 2013 después de migrar los grupos de servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="c531e-104">If you deployed Archiving Server and Monitoring Server in your Lync Server 2010 environment, you can deploy these servers in your Lync Server 2013 environment after you migrate your Front End pools.</span></span> <span data-ttu-id="c531e-105">Sin embargo, si la funcionalidad de archivado y supervisión es fundamental para su organización, debe agregar el archivado y la supervisión al grupo piloto de Lync Server 2013 antes de migrar para que la funcionalidad esté disponible durante el proceso de migración.</span><span class="sxs-lookup"><span data-stu-id="c531e-105">If archiving and monitoring functionality are critical to your organization, however, you should add archiving and monitoring to your Lync Server 2013 pilot pool before you migrate so that the functionality is available during the migration process.</span></span>
 
-<span data-ttu-id="e6b38-106">Si desea contar con la funcionalidad de archivado y de supervisión durante la el proceso de migración, tenga en cuenta lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="e6b38-106">If you want archiving and monitoring functionality during the migration process, keep the following considerations in mind:</span></span>
+<span data-ttu-id="c531e-106">Si desea contar con la funcionalidad de archivado y de supervisión durante la el proceso de migración, tenga en cuenta lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="c531e-106">If you want archiving and monitoring functionality during the migration process, keep the following considerations in mind:</span></span>
 
-  - <span data-ttu-id="e6b38-107">Los datos de archivado y supervisión no se mueven a la implementación de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e6b38-107">Archiving data and monitoring data are not moved to the Lync Server 2013 deployment.</span></span> <span data-ttu-id="e6b38-108">Los datos de los que realice una copia de seguridad antes de retirar el entorno heredado serán su historial de actividades en el entorno de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="e6b38-108">The data you back up prior to decommissioning the legacy environment will be your history of activity in the Lync Server 2010 environment.</span></span>
+  - <span data-ttu-id="c531e-107">Los datos de archivado y supervisión no se mueven a la implementación de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c531e-107">Archiving data and monitoring data are not moved to the Lync Server 2013 deployment.</span></span> <span data-ttu-id="c531e-108">Los datos de los que realice una copia de seguridad antes de retirar el entorno heredado serán su historial de actividades en el entorno de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="c531e-108">The data you back up prior to decommissioning the legacy environment will be your history of activity in the Lync Server 2010 environment.</span></span>
 
-  - <span data-ttu-id="e6b38-109">La versión 2010 de Lync Server del servidor de archivado y el servidor de supervisión solo pueden asociarse con un grupo de servidores front-end de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="e6b38-109">The Lync Server 2010 version of Archiving Server and Monitoring Server can be associated only with a Lync Server 2010 Front End pool.</span></span> <span data-ttu-id="e6b38-110">En Lync Server 2013, el archivado y la supervisión ya no tienen roles de servidor, sino que están integrados en el grupo de servidores front-end de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e6b38-110">In Lync Server 2013, Archiving and Monitoring are no longer server roles, but services integrated into the Lync Server 2013 Front End pool.</span></span>
+  - <span data-ttu-id="c531e-109">La versión 2010 de Lync Server del servidor de archivado y el servidor de supervisión solo pueden asociarse con un grupo de servidores front-end de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="c531e-109">The Lync Server 2010 version of Archiving Server and Monitoring Server can be associated only with a Lync Server 2010 Front End pool.</span></span> <span data-ttu-id="c531e-110">En Lync Server 2013, el archivado y la supervisión ya no tienen roles de servidor, sino que están integrados en el grupo de servidores front-end de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c531e-110">In Lync Server 2013, Archiving and Monitoring are no longer server roles, but services integrated into the Lync Server 2013 Front End pool.</span></span>
 
-  - <span data-ttu-id="e6b38-111">Durante el tiempo que coexisten las implementaciones heredadas de Lync Server 2013, la versión de Lync Server 2010 del servidor de archivado y el servidor de supervisión recopilan datos para los usuarios hospedados en los grupos de servidores de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="e6b38-111">During the time that your legacy and Lync Server 2013 deployments coexist, the Lync Server 2010 version of Archiving Server and Monitoring Server gather data for users homed on Lync Server 2010 pools.</span></span> <span data-ttu-id="e6b38-112">Archivado y supervisión en Lync Server 2013 recopilar datos para los usuarios alojados en los grupos de servidores de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e6b38-112">Archiving and Monitoring in Lync Server 2013 gather data for users homed on Lync Server 2013 pools.</span></span>
+  - <span data-ttu-id="c531e-111">Durante el tiempo que coexisten las implementaciones heredadas de Lync Server 2013, la versión de Lync Server 2010 del servidor de archivado y el servidor de supervisión recopilan datos para los usuarios hospedados en los grupos de servidores de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="c531e-111">During the time that your legacy and Lync Server 2013 deployments coexist, the Lync Server 2010 version of Archiving Server and Monitoring Server gather data for users homed on Lync Server 2010 pools.</span></span> <span data-ttu-id="c531e-112">Archivado y supervisión en Lync Server 2013 recopilar datos para los usuarios alojados en los grupos de servidores de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c531e-112">Archiving and Monitoring in Lync Server 2013 gather data for users homed on Lync Server 2013 pools.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="e6b38-113">Durante la fase de migración, cuando sigue usando el servidor perimetral heredado con el nuevo grupo piloto de Lync Server 2013, la versión de Lync Server 2010 del servidor de archivado continúa recopilando datos para los usuarios hospedados en los grupos de servidores de Lync Server 2010 y el archivado en Lync Server 2013 recopila datos para los usuarios hospedados en los grupos de servidores de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e6b38-113">During the phase of migration when you are still using your legacy Edge server with the new Lync Server 2013 pilot pool, the Lync Server 2010 version of Archiving Server continues to gather data for users homed on Lync Server 2010 pools and Archiving in Lync Server 2013 gathers data for users homed on Lync Server 2013 pools.</span></span>
+    > <span data-ttu-id="c531e-113">Durante la fase de migración, cuando sigue usando el servidor perimetral heredado con el nuevo grupo piloto de Lync Server 2013, la versión de Lync Server 2010 del servidor de archivado continúa recopilando datos para los usuarios hospedados en los grupos de servidores de Lync Server 2010 y el archivado en Lync Server 2013 recopila datos para los usuarios hospedados en los grupos de servidores de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c531e-113">During the phase of migration when you are still using your legacy Edge server with the new Lync Server 2013 pilot pool, the Lync Server 2010 version of Archiving Server continues to gather data for users homed on Lync Server 2010 pools and Archiving in Lync Server 2013 gathers data for users homed on Lync Server 2013 pools.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="e6b38-114">Si usa una solución de archivado y supervisión de terceros junto con el archivado y la supervisión en Lync Server 2013, consulte al proveedor Cuándo y cómo debe integrar la solución de terceros con Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e6b38-114">If you use a third-party archiving and monitoring solution in conjunction with Archiving and Monitoring in Lync Server 2013, consult with your vendor about when and how you need to integrate the third-party solution with Lync Server 2013.</span></span>
+  - <span data-ttu-id="c531e-114">Si usa una solución de archivado y supervisión de terceros junto con el archivado y la supervisión en Lync Server 2013, consulte al proveedor Cuándo y cómo debe integrar la solución de terceros con Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c531e-114">If you use a third-party archiving and monitoring solution in conjunction with Archiving and Monitoring in Lync Server 2013, consult with your vendor about when and how you need to integrate the third-party solution with Lync Server 2013.</span></span>
 
 </div>
 

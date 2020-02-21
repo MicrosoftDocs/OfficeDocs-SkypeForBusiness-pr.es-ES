@@ -12,20 +12,20 @@ ms:contentKeyID: 63969635
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0573e668915737ea09cfb660ac7c7b72f237ed83
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 810a49a35f9b2597e8a84427e513217ff35efefb
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141506"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42194283"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a><span data-ttu-id="d69f8-102">Probar la capacidad de mensajería instantánea entre dos usuarios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d69f8-102">Testing ability to IM between two users in Lync Server 2013</span></span>
+# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a><span data-ttu-id="3f92f-102">Probar la capacidad de mensajería instantánea entre dos usuarios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3f92f-102">Testing ability to IM between two users in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "42141506"
 
 <span> </span>
 
-<span data-ttu-id="d69f8-103">_**Última modificación del tema:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="d69f8-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="3f92f-103">_**Última modificación del tema:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="3f92f-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "42141506"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d69f8-104">Programación de comprobación</span><span class="sxs-lookup"><span data-stu-id="d69f8-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="d69f8-105">Diario</span><span class="sxs-lookup"><span data-stu-id="d69f8-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="3f92f-104">Programación de comprobación</span><span class="sxs-lookup"><span data-stu-id="3f92f-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="3f92f-105">Diario</span><span class="sxs-lookup"><span data-stu-id="3f92f-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d69f8-106">Herramienta de prueba</span><span class="sxs-lookup"><span data-stu-id="d69f8-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="d69f8-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="d69f8-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="3f92f-106">Herramienta de prueba</span><span class="sxs-lookup"><span data-stu-id="3f92f-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="3f92f-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="3f92f-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d69f8-108">Permisos necesarios</span><span class="sxs-lookup"><span data-stu-id="d69f8-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="d69f8-109">Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="d69f8-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="d69f8-110">Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsIM.</span><span class="sxs-lookup"><span data-stu-id="d69f8-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsIM cmdlet.</span></span> <span data-ttu-id="d69f8-111">Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="d69f8-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="3f92f-108">Permisos necesarios</span><span class="sxs-lookup"><span data-stu-id="3f92f-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="3f92f-109">Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="3f92f-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="3f92f-110">Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsIM.</span><span class="sxs-lookup"><span data-stu-id="3f92f-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsIM cmdlet.</span></span> <span data-ttu-id="3f92f-111">Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="3f92f-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,121 +64,121 @@ ms.locfileid: "42141506"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="d69f8-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="d69f8-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="3f92f-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="3f92f-112">Description</span></span>
 
-<span data-ttu-id="d69f8-113">El cmdlet test-CsIM comprueba que un par de usuarios de prueba puedan intercambiar mensajes instantáneos.</span><span class="sxs-lookup"><span data-stu-id="d69f8-113">The Test-CsIM cmdlet verifies that a pair of test users can exchange instant messages.</span></span> <span data-ttu-id="d69f8-114">Cuando se llama, el cmdlet test-CsIM se inicia intentando iniciar sesión en un par de usuarios de prueba en Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d69f8-114">When called, the Test-CsIM cmdlet starts off by trying to log on a pair of test users to Lync Server.</span></span> <span data-ttu-id="d69f8-115">Si los dos inicios de sesión son correctos, el cmdlet inicia una sesión de mi entre los dos usuarios de prueba.</span><span class="sxs-lookup"><span data-stu-id="d69f8-115">Assuming the two logons are successful, the cmdlet then starts an IM session between the two test users.</span></span> <span data-ttu-id="d69f8-116">(El usuario 1 invita al usuario 2 a una sesión de mi y el usuario 2 acepta la invitación). Después de comprobar que se pueden intercambiar mensajes entre los dos usuarios, test-CsIM finaliza la sesión de mensajería instantánea y registra a ambos usuarios fuera del sistema.</span><span class="sxs-lookup"><span data-stu-id="d69f8-116">(User 1 invites User 2 to an IM session, and User 2 accepts the invitation.) After verifying that messages can be exchanged between the two users, Test-CsIM then ends the IM session and logs both users off the system.</span></span>
+<span data-ttu-id="3f92f-113">El cmdlet test-CsIM comprueba que un par de usuarios de prueba puedan intercambiar mensajes instantáneos.</span><span class="sxs-lookup"><span data-stu-id="3f92f-113">The Test-CsIM cmdlet verifies that a pair of test users can exchange instant messages.</span></span> <span data-ttu-id="3f92f-114">Cuando se llama, el cmdlet test-CsIM se inicia intentando iniciar sesión en un par de usuarios de prueba en Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3f92f-114">When called, the Test-CsIM cmdlet starts off by trying to log on a pair of test users to Lync Server.</span></span> <span data-ttu-id="3f92f-115">Si los dos inicios de sesión son correctos, el cmdlet inicia una sesión de mi entre los dos usuarios de prueba.</span><span class="sxs-lookup"><span data-stu-id="3f92f-115">Assuming the two logons are successful, the cmdlet then starts an IM session between the two test users.</span></span> <span data-ttu-id="3f92f-116">(El usuario 1 invita al usuario 2 a una sesión de mi y el usuario 2 acepta la invitación). Después de comprobar que se pueden intercambiar mensajes entre los dos usuarios, test-CsIM finaliza la sesión de mensajería instantánea y registra a ambos usuarios fuera del sistema.</span><span class="sxs-lookup"><span data-stu-id="3f92f-116">(User 1 invites User 2 to an IM session, and User 2 accepts the invitation.) After verifying that messages can be exchanged between the two users, Test-CsIM then ends the IM session and logs both users off the system.</span></span>
 
-<span data-ttu-id="d69f8-117">Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) .</span><span class="sxs-lookup"><span data-stu-id="d69f8-117">For more information, see the Help documentation for the [Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) cmdlet.</span></span>
+<span data-ttu-id="3f92f-117">Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) .</span><span class="sxs-lookup"><span data-stu-id="3f92f-117">For more information, see the Help documentation for the [Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="d69f8-118">Ejecutar la prueba</span><span class="sxs-lookup"><span data-stu-id="d69f8-118">Running the Test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="3f92f-118">Ejecutar la prueba</span><span class="sxs-lookup"><span data-stu-id="3f92f-118">Running the Test</span></span>
 
-<span data-ttu-id="d69f8-119">El cmdlet test-CsIM se puede ejecutar usando un par de cuentas de prueba preconfiguradas (consulte Setting up test accounts for Running Lync Server test) o las cuentas de dos usuarios que están habilitados para Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d69f8-119">The Test-CsIM cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server.</span></span> <span data-ttu-id="d69f8-120">Para ejecutar esta comprobación mediante cuentas de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando.</span><span class="sxs-lookup"><span data-stu-id="d69f8-120">To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="d69f8-121">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="d69f8-121">For example:</span></span>
+<span data-ttu-id="3f92f-119">El cmdlet test-CsIM se puede ejecutar usando un par de cuentas de prueba preconfiguradas (consulte Setting up test accounts for Running Lync Server test) o las cuentas de dos usuarios que están habilitados para Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3f92f-119">The Test-CsIM cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server.</span></span> <span data-ttu-id="3f92f-120">Para ejecutar esta comprobación mediante cuentas de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando.</span><span class="sxs-lookup"><span data-stu-id="3f92f-120">To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="3f92f-121">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="3f92f-121">For example:</span></span>
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com"
 
-<span data-ttu-id="d69f8-122">Para ejecutar esta comprobación con las cuentas de usuario reales, debe crear dos objetos de credenciales de Windows PowerShell (objetos que contienen el nombre de cuenta y la contraseña) para cada cuenta.</span><span class="sxs-lookup"><span data-stu-id="d69f8-122">To run this check using actual user accounts, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="d69f8-123">A continuación, debe incluir dichos objetos de credenciales y las direcciones SIP de las dos cuentas cuando llame a test-CsIM:</span><span class="sxs-lookup"><span data-stu-id="d69f8-123">You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsIM:</span></span>
+<span data-ttu-id="3f92f-122">Para ejecutar esta comprobación con las cuentas de usuario reales, debe crear dos objetos de credenciales de Windows PowerShell (objetos que contienen el nombre de cuenta y la contraseña) para cada cuenta.</span><span class="sxs-lookup"><span data-stu-id="3f92f-122">To run this check using actual user accounts, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="3f92f-123">A continuación, debe incluir dichos objetos de credenciales y las direcciones SIP de las dos cuentas cuando llame a test-CsIM:</span><span class="sxs-lookup"><span data-stu-id="3f92f-123">You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsIM:</span></span>
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsIm -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-<span data-ttu-id="d69f8-124">Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) .</span><span class="sxs-lookup"><span data-stu-id="d69f8-124">For more information, see the Help documentation for the [Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) cmdlet.</span></span>
+<span data-ttu-id="3f92f-124">Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) .</span><span class="sxs-lookup"><span data-stu-id="3f92f-124">For more information, see the Help documentation for the [Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="d69f8-125">Determinar si se ha realizado correctamente o erróneo</span><span class="sxs-lookup"><span data-stu-id="d69f8-125">Determining Success or Failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="3f92f-125">Determinar si se ha realizado correctamente o erróneo</span><span class="sxs-lookup"><span data-stu-id="3f92f-125">Determining Success or Failure</span></span>
 
-<span data-ttu-id="d69f8-126">Si los dos usuarios pueden completar una sesión de mensajería instantánea, recibirá una salida similar a la siguiente, con la propiedad result marcada como **correcta:**</span><span class="sxs-lookup"><span data-stu-id="d69f8-126">If the two users can complete an instant messaging session, you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
+<span data-ttu-id="3f92f-126">Si los dos usuarios pueden completar una sesión de mensajería instantánea, recibirá una salida similar a la siguiente, con la propiedad result marcada como **correcta:**</span><span class="sxs-lookup"><span data-stu-id="3f92f-126">If the two users can complete an instant messaging session, you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
 
-<span data-ttu-id="d69f8-127">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="d69f8-127">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="3f92f-127">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="3f92f-127">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="d69f8-128">Resultado: correcto</span><span class="sxs-lookup"><span data-stu-id="d69f8-128">Result : Success</span></span>
+<span data-ttu-id="3f92f-128">Resultado: correcto</span><span class="sxs-lookup"><span data-stu-id="3f92f-128">Result : Success</span></span>
 
-<span data-ttu-id="d69f8-129">Latencia: 00:00:06.6630911</span><span class="sxs-lookup"><span data-stu-id="d69f8-129">Latency : 00:00:06.6630911</span></span>
+<span data-ttu-id="3f92f-129">Latencia: 00:00:06.6630911</span><span class="sxs-lookup"><span data-stu-id="3f92f-129">Latency : 00:00:06.6630911</span></span>
 
-<span data-ttu-id="d69f8-130">Error</span><span class="sxs-lookup"><span data-stu-id="d69f8-130">Error :</span></span>
+<span data-ttu-id="3f92f-130">Error</span><span class="sxs-lookup"><span data-stu-id="3f92f-130">Error :</span></span>
 
-<span data-ttu-id="d69f8-131">Diagnóstico</span><span class="sxs-lookup"><span data-stu-id="d69f8-131">Diagnosis :</span></span>
+<span data-ttu-id="3f92f-131">Diagnóstico</span><span class="sxs-lookup"><span data-stu-id="3f92f-131">Diagnosis :</span></span>
 
-<span data-ttu-id="d69f8-132">Si los usuarios de prueba no pueden completar la sesión, el resultado se mostrará como error y la información adicional se registrará en las propiedades error y diagnosis:</span><span class="sxs-lookup"><span data-stu-id="d69f8-132">If the test users can't complete the session, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="3f92f-132">Si los usuarios de prueba no pueden completar la sesión, el resultado se mostrará como error y la información adicional se registrará en las propiedades error y diagnosis:</span><span class="sxs-lookup"><span data-stu-id="3f92f-132">If the test users can't complete the session, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="d69f8-133">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="d69f8-133">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="3f92f-133">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="3f92f-133">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="d69f8-134">Resultado: error</span><span class="sxs-lookup"><span data-stu-id="d69f8-134">Result : Failure</span></span>
+<span data-ttu-id="3f92f-134">Resultado: error</span><span class="sxs-lookup"><span data-stu-id="3f92f-134">Result : Failure</span></span>
 
-<span data-ttu-id="d69f8-135">Latencia: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="d69f8-135">Latency : 00:00:00</span></span>
+<span data-ttu-id="3f92f-135">Latencia: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="3f92f-135">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="d69f8-136">Error: 504, tiempo de espera del servidor</span><span class="sxs-lookup"><span data-stu-id="d69f8-136">Error : 504, Server time-out</span></span>
+<span data-ttu-id="3f92f-136">Error: 504, tiempo de espera del servidor</span><span class="sxs-lookup"><span data-stu-id="3f92f-136">Error : 504, Server time-out</span></span>
 
-<span data-ttu-id="d69f8-137">Diagnosis: ErrorCode = 2, Source = ATL-CS-001. litwareinc. com, Reason = vea</span><span class="sxs-lookup"><span data-stu-id="d69f8-137">Diagnosis : ErrorCode=2, Source=atl-cs-001.litwareinc.com,Reason=See</span></span>
+<span data-ttu-id="3f92f-137">Diagnosis: ErrorCode = 2, Source = ATL-CS-001. litwareinc. com, Reason = vea</span><span class="sxs-lookup"><span data-stu-id="3f92f-137">Diagnosis : ErrorCode=2, Source=atl-cs-001.litwareinc.com,Reason=See</span></span>
 
-<span data-ttu-id="d69f8-138">código de respuesta y frase de motivo.</span><span class="sxs-lookup"><span data-stu-id="d69f8-138">response code and reason phrase.</span></span>
+<span data-ttu-id="3f92f-138">código de respuesta y frase de motivo.</span><span class="sxs-lookup"><span data-stu-id="3f92f-138">response code and reason phrase.</span></span>
 
-<span data-ttu-id="d69f8-139">Microsoft. RTC. Signaling. DiagnosticHeader</span><span class="sxs-lookup"><span data-stu-id="d69f8-139">Microsoft.Rtc.Signaling.DiagnosticHeader</span></span>
+<span data-ttu-id="3f92f-139">Microsoft. RTC. Signaling. DiagnosticHeader</span><span class="sxs-lookup"><span data-stu-id="3f92f-139">Microsoft.Rtc.Signaling.DiagnosticHeader</span></span>
 
-<span data-ttu-id="d69f8-140">Por ejemplo, la salida anterior indica que se produjo un error en la prueba porque no se encontró el usuario especificado.</span><span class="sxs-lookup"><span data-stu-id="d69f8-140">For example, the previous output states that the test failed because the specified user couldn't be found.</span></span> <span data-ttu-id="d69f8-141">Puede determinar si una dirección SIP es válida (y si el usuario asignado a esa dirección SIP está habilitado para Lync Server) ejecutando este comando:</span><span class="sxs-lookup"><span data-stu-id="d69f8-141">You can determine whether a SIP address is valid (and whether the user assigned that SIP address was enabled for Lync Server) by running this command:</span></span>
+<span data-ttu-id="3f92f-140">Por ejemplo, la salida anterior indica que se produjo un error en la prueba porque no se encontró el usuario especificado.</span><span class="sxs-lookup"><span data-stu-id="3f92f-140">For example, the previous output states that the test failed because the specified user couldn't be found.</span></span> <span data-ttu-id="3f92f-141">Puede determinar si una dirección SIP es válida (y si el usuario asignado a esa dirección SIP está habilitado para Lync Server) ejecutando este comando:</span><span class="sxs-lookup"><span data-stu-id="3f92f-141">You can determine whether a SIP address is valid (and whether the user assigned that SIP address was enabled for Lync Server) by running this command:</span></span>
 
     Get-CsUser "Ken Myer" | Select-Object SipAddress, Enabled
 
-<span data-ttu-id="d69f8-142">Si test-CsIM produce un error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:</span><span class="sxs-lookup"><span data-stu-id="d69f8-142">If Test-CsIM fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
+<span data-ttu-id="3f92f-142">Si test-CsIM produce un error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:</span><span class="sxs-lookup"><span data-stu-id="3f92f-142">If Test-CsIM fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-<span data-ttu-id="d69f8-143">Cuando se incluye el parámetro verbose, test-CsIM devolverá una cuenta paso a paso de cada acción que se intentó realizar cuando se comprobó la capacidad de los dos usuarios de prueba para participar en una sesión de mensajería instantánea.</span><span class="sxs-lookup"><span data-stu-id="d69f8-143">When the Verbose parameter is included, Test-CsIM will return a step-by-step account of each action it tried when it checked the ability of the two test users to take part in an IM session.</span></span> <span data-ttu-id="d69f8-144">Por ejemplo, aquí se muestran los resultados de ejemplo que se producen cuando se proporciona un conjunto incorrecto de credenciales de usuario (en este caso, una contraseña incorrecta) para test-CsIM:</span><span class="sxs-lookup"><span data-stu-id="d69f8-144">For example, here’s sample output that occurs when an incorrect set of user credentials (in this case, an incorrect password) is supplied to Test-CsIM:</span></span>
+<span data-ttu-id="3f92f-143">Cuando se incluye el parámetro verbose, test-CsIM devolverá una cuenta paso a paso de cada acción que se intentó realizar cuando se comprobó la capacidad de los dos usuarios de prueba para participar en una sesión de mensajería instantánea.</span><span class="sxs-lookup"><span data-stu-id="3f92f-143">When the Verbose parameter is included, Test-CsIM will return a step-by-step account of each action it tried when it checked the ability of the two test users to take part in an IM session.</span></span> <span data-ttu-id="3f92f-144">Por ejemplo, aquí se muestran los resultados de ejemplo que se producen cuando se proporciona un conjunto incorrecto de credenciales de usuario (en este caso, una contraseña incorrecta) para test-CsIM:</span><span class="sxs-lookup"><span data-stu-id="3f92f-144">For example, here’s sample output that occurs when an incorrect set of user credentials (in this case, an incorrect password) is supplied to Test-CsIM:</span></span>
 
-<span data-ttu-id="d69f8-145">Enviando solicitud de registro:</span><span class="sxs-lookup"><span data-stu-id="d69f8-145">Sending Registration request :</span></span>
+<span data-ttu-id="3f92f-145">Enviando solicitud de registro:</span><span class="sxs-lookup"><span data-stu-id="3f92f-145">Sending Registration request :</span></span>
 
-<span data-ttu-id="d69f8-146">FQDN de destino = atl-cs-011.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="d69f8-146">Target Fqdn = atl-cs-011.litwareinc.com</span></span>
+<span data-ttu-id="3f92f-146">FQDN de destino = atl-cs-011.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="3f92f-146">Target Fqdn = atl-cs-011.litwareinc.com</span></span>
 
-<span data-ttu-id="d69f8-147">Dirección SIP del usuario = sip:kenmyer@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="d69f8-147">User Sip Address = sip:kenmyer@litwareinc.com</span></span>
+<span data-ttu-id="3f92f-147">Dirección SIP del usuario = sip:kenmyer@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="3f92f-147">User Sip Address = sip:kenmyer@litwareinc.com</span></span>
 
-<span data-ttu-id="d69f8-148">Puerto del registrador = 5061</span><span class="sxs-lookup"><span data-stu-id="d69f8-148">Registrar Port = 5061</span></span>
+<span data-ttu-id="3f92f-148">Puerto del registrador = 5061</span><span class="sxs-lookup"><span data-stu-id="3f92f-148">Registrar Port = 5061</span></span>
 
-<span data-ttu-id="d69f8-149">El tipo de autenticación "IWA" está seleccionado.</span><span class="sxs-lookup"><span data-stu-id="d69f8-149">Auth Type 'IWA' is selected.</span></span>
+<span data-ttu-id="3f92f-149">El tipo de autenticación "IWA" está seleccionado.</span><span class="sxs-lookup"><span data-stu-id="3f92f-149">Auth Type 'IWA' is selected.</span></span>
 
-<span data-ttu-id="d69f8-150">Aciertos de registro en SIP/ATL-CS-001. litwareinc. com</span><span class="sxs-lookup"><span data-stu-id="d69f8-150">Registration hit against sip/atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="3f92f-150">Aciertos de registro en SIP/ATL-CS-001. litwareinc. com</span><span class="sxs-lookup"><span data-stu-id="3f92f-150">Registration hit against sip/atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="d69f8-151">La actividad "Register" se completó en "0,0601795" segundos.</span><span class="sxs-lookup"><span data-stu-id="d69f8-151">'Register' activity completed in '0.0601795' secs.</span></span>
+<span data-ttu-id="3f92f-151">La actividad "Register" se completó en "0,0601795" segundos.</span><span class="sxs-lookup"><span data-stu-id="3f92f-151">'Register' activity completed in '0.0601795' secs.</span></span>
 
-<span data-ttu-id="d69f8-152">Excepción: "se denegó el inicio de sesión.</span><span class="sxs-lookup"><span data-stu-id="d69f8-152">An exception 'The log on was denied.</span></span> <span data-ttu-id="d69f8-153">Compruebe que se usan las credenciales correctas y que la cuenta está activa.</span><span class="sxs-lookup"><span data-stu-id="d69f8-153">Check that the correct credentials are being used and the account is active.'</span></span> <span data-ttu-id="d69f8-154">se produjo durante el flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="d69f8-154">occurred during the Workflow.</span></span>
+<span data-ttu-id="3f92f-152">Excepción: "se denegó el inicio de sesión.</span><span class="sxs-lookup"><span data-stu-id="3f92f-152">An exception 'The log on was denied.</span></span> <span data-ttu-id="3f92f-153">Compruebe que se usan las credenciales correctas y que la cuenta está activa.</span><span class="sxs-lookup"><span data-stu-id="3f92f-153">Check that the correct credentials are being used and the account is active.'</span></span> <span data-ttu-id="3f92f-154">se produjo durante el flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="3f92f-154">occurred during the Workflow.</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="d69f8-155">Motivos por los que se ha producido un error en la prueba</span><span class="sxs-lookup"><span data-stu-id="d69f8-155">Reasons Why the Test Might Have Failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="3f92f-155">Motivos por los que se ha producido un error en la prueba</span><span class="sxs-lookup"><span data-stu-id="3f92f-155">Reasons Why the Test Might Have Failed</span></span>
 
-<span data-ttu-id="d69f8-156">Estas son algunas de las razones comunes por las que test-CsIM podría fallar:</span><span class="sxs-lookup"><span data-stu-id="d69f8-156">Here are some common reasons why Test-CsIM might fail:</span></span>
+<span data-ttu-id="3f92f-156">Estas son algunas de las razones comunes por las que test-CsIM podría fallar:</span><span class="sxs-lookup"><span data-stu-id="3f92f-156">Here are some common reasons why Test-CsIM might fail:</span></span>
 
-  - <span data-ttu-id="d69f8-157">Ha especificado una cuenta de usuario que no es válida.</span><span class="sxs-lookup"><span data-stu-id="d69f8-157">You specified a user account that is not valid.</span></span> <span data-ttu-id="d69f8-158">Puede comprobar si existe una cuenta de usuario mediante la ejecución de un comando similar al siguiente:</span><span class="sxs-lookup"><span data-stu-id="d69f8-158">You can verify that a user account exists by running a command similar to this:</span></span>
+  - <span data-ttu-id="3f92f-157">Ha especificado una cuenta de usuario que no es válida.</span><span class="sxs-lookup"><span data-stu-id="3f92f-157">You specified a user account that is not valid.</span></span> <span data-ttu-id="3f92f-158">Puede comprobar si existe una cuenta de usuario mediante la ejecución de un comando similar al siguiente:</span><span class="sxs-lookup"><span data-stu-id="3f92f-158">You can verify that a user account exists by running a command similar to this:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - <span data-ttu-id="d69f8-159">La cuenta de usuario es válida, pero la cuenta no está habilitada actualmente para Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d69f8-159">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="d69f8-160">Para comprobar que una cuenta de usuario está habilitada para Lync Server, ejecute un comando similar al siguiente:</span><span class="sxs-lookup"><span data-stu-id="d69f8-160">To verify that a user account is enabled for Lync Server, run a command similar to the following:</span></span>
+  - <span data-ttu-id="3f92f-159">La cuenta de usuario es válida, pero la cuenta no está habilitada actualmente para Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3f92f-159">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="3f92f-160">Para comprobar que una cuenta de usuario está habilitada para Lync Server, ejecute un comando similar al siguiente:</span><span class="sxs-lookup"><span data-stu-id="3f92f-160">To verify that a user account is enabled for Lync Server, run a command similar to the following:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    <span data-ttu-id="d69f8-161">Si la propiedad Enabled se establece en false, significa que el usuario no está habilitado actualmente para Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d69f8-161">If the Enabled property is set to False that means that the user is currently not enabled for Lync Server.</span></span>
+    <span data-ttu-id="3f92f-161">Si la propiedad Enabled se establece en false, significa que el usuario no está habilitado actualmente para Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3f92f-161">If the Enabled property is set to False that means that the user is currently not enabled for Lync Server.</span></span>
 
-  - <span data-ttu-id="d69f8-162">Es posible que el servicio de mensajería instantánea no esté disponible.</span><span class="sxs-lookup"><span data-stu-id="d69f8-162">The instant messaging service might not be available.</span></span> <span data-ttu-id="d69f8-163">Con Lync Server, puede configurar el sistema para que mi no esté disponible si no se puede tener acceso a la base de datos de archivado.</span><span class="sxs-lookup"><span data-stu-id="d69f8-163">With Lync Server, you can configure the system so that IM is not available if the archiving database cannot be accessed.</span></span> <span data-ttu-id="d69f8-164">Puede comprobar si ejecuta un comando similar al siguiente:</span><span class="sxs-lookup"><span data-stu-id="d69f8-164">You can verify that by running a command similar to the following:</span></span>
+  - <span data-ttu-id="3f92f-162">Es posible que el servicio de mensajería instantánea no esté disponible.</span><span class="sxs-lookup"><span data-stu-id="3f92f-162">The instant messaging service might not be available.</span></span> <span data-ttu-id="3f92f-163">Con Lync Server, puede configurar el sistema para que mi no esté disponible si no se puede tener acceso a la base de datos de archivado.</span><span class="sxs-lookup"><span data-stu-id="3f92f-163">With Lync Server, you can configure the system so that IM is not available if the archiving database cannot be accessed.</span></span> <span data-ttu-id="3f92f-164">Puede comprobar si ejecuta un comando similar al siguiente:</span><span class="sxs-lookup"><span data-stu-id="3f92f-164">You can verify that by running a command similar to the following:</span></span>
     
         Get-CsArchivingConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object BlockOnArchiveFailure
     
-    <span data-ttu-id="d69f8-165">Si BlockOnArchiveFailure se establece en true, debe determinar si la base de datos de archivado está disponible o no.</span><span class="sxs-lookup"><span data-stu-id="d69f8-165">If BlockOnArchiveFailure is set to True, then you should determine whether or not the archiving database is available.</span></span> <span data-ttu-id="d69f8-166">Puede devolver las ubicaciones de las bases de datos de archivado con el siguiente comando:</span><span class="sxs-lookup"><span data-stu-id="d69f8-166">You can return the locations of your archiving databases by using the following command:</span></span>
+    <span data-ttu-id="3f92f-165">Si BlockOnArchiveFailure se establece en true, debe determinar si la base de datos de archivado está disponible o no.</span><span class="sxs-lookup"><span data-stu-id="3f92f-165">If BlockOnArchiveFailure is set to True, then you should determine whether or not the archiving database is available.</span></span> <span data-ttu-id="3f92f-166">Puede devolver las ubicaciones de las bases de datos de archivado con el siguiente comando:</span><span class="sxs-lookup"><span data-stu-id="3f92f-166">You can return the locations of your archiving databases by using the following command:</span></span>
     
         Get-CsService -ArchivingDatabase
 
-  - <span data-ttu-id="d69f8-167">Es posible que el servidor de archivado no esté disponible.</span><span class="sxs-lookup"><span data-stu-id="d69f8-167">The Archiving server might not be available.</span></span> <span data-ttu-id="d69f8-168">Puede recuperar el FQDN de los servidores de archivado con este comando:</span><span class="sxs-lookup"><span data-stu-id="d69f8-168">You can retrieve the FQDN of your Archiving servers by using this command:</span></span>
+  - <span data-ttu-id="3f92f-167">Es posible que el servidor de archivado no esté disponible.</span><span class="sxs-lookup"><span data-stu-id="3f92f-167">The Archiving server might not be available.</span></span> <span data-ttu-id="3f92f-168">Puede recuperar el FQDN de los servidores de archivado con este comando:</span><span class="sxs-lookup"><span data-stu-id="3f92f-168">You can retrieve the FQDN of your Archiving servers by using this command:</span></span>
     
         Get-CsService -ArchivingServer
     
-    <span data-ttu-id="d69f8-169">A continuación, puede hacer ping en el servidor adecuado para comprobar que está disponible.</span><span class="sxs-lookup"><span data-stu-id="d69f8-169">You can then ping the appropriate server to verify that it is available.</span></span> <span data-ttu-id="d69f8-170">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="d69f8-170">For example:</span></span>
+    <span data-ttu-id="3f92f-169">A continuación, puede hacer ping en el servidor adecuado para comprobar que está disponible.</span><span class="sxs-lookup"><span data-stu-id="3f92f-169">You can then ping the appropriate server to verify that it is available.</span></span> <span data-ttu-id="3f92f-170">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="3f92f-170">For example:</span></span>
     
         ping atl-archiving-001.litwareinc.com
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185470
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da26789f782ff70b1c1296eac66524333ecb712e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3ae78a3cf32768771fe836e62e58ac41066f6836
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42130523"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42192573"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="msmqprocessing-table-in-lync-server-2013"></a><span data-ttu-id="d9442-102">Tabla MSMQProcessing en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d9442-102">MSMQProcessing table in Lync Server 2013</span></span>
+# <a name="msmqprocessing-table-in-lync-server-2013"></a><span data-ttu-id="2ac2b-102">Tabla MSMQProcessing en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2ac2b-102">MSMQProcessing table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42130523"
 
 <span> </span>
 
-<span data-ttu-id="d9442-103">_**Última modificación del tema:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="d9442-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="2ac2b-103">_**Última modificación del tema:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="2ac2b-103">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="d9442-104">La tabla MSMQProcessing es solo para uso interno.</span><span class="sxs-lookup"><span data-stu-id="d9442-104">The MSMQProcessing table is for internal use only.</span></span> <span data-ttu-id="d9442-105">Esta tabla se introdujo en Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d9442-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="2ac2b-104">La tabla MSMQProcessing es solo para uso interno.</span><span class="sxs-lookup"><span data-stu-id="2ac2b-104">The MSMQProcessing table is for internal use only.</span></span> <span data-ttu-id="2ac2b-105">Esta tabla se introdujo en Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2ac2b-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48242739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e1f71d1ef0ebcb6bc5f8aee8875c013a24a4de0
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f7b4bc93f78ed72515270557e3224195df7ecd81
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42140903"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42193123"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a><span data-ttu-id="ffca9-102">Actualizar la lista de habilitación de Outlook en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ffca9-102">Updating the Outlook enable list in Lync Server 2013</span></span>
+# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a><span data-ttu-id="49148-102">Actualizar la lista de habilitación de Outlook en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="49148-102">Updating the Outlook enable list in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42140903"
 
 <span> </span>
 
-<span data-ttu-id="ffca9-103">_**Última modificación del tema:** 2013-01-07_</span><span class="sxs-lookup"><span data-stu-id="ffca9-103">_**Topic Last Modified:** 2013-01-07_</span></span>
+<span data-ttu-id="49148-103">_**Última modificación del tema:** 2013-01-07_</span><span class="sxs-lookup"><span data-stu-id="49148-103">_**Topic Last Modified:** 2013-01-07_</span></span>
 
-<span data-ttu-id="ffca9-104">Puede asegurarse de que el complemento de conferencia en línea para Microsoft Lync 2013 siempre sigue habilitado para los usuarios mediante la creación de una directiva que lo incluya en la lista de administración de complementos de Outlook.</span><span class="sxs-lookup"><span data-stu-id="ffca9-104">You can ensure that Online Meeting Add-in for Microsoft Lync 2013 always remains enabled for users by creating a policy that includes it in the Add-in Management List for Outlook.</span></span> <span data-ttu-id="ffca9-105">Esta directiva forma parte de los archivos de plantilla administrativa de Office de la Consola de administración de directivas de grupo.</span><span class="sxs-lookup"><span data-stu-id="ffca9-105">The Add-in Management List policy is included in the Office administrative template files for the Group Policy Management Console.</span></span> <span data-ttu-id="ffca9-106">Crea una clave del registro en HKCU\\software\\\\Policies\\Microsoft\\Office\\15,0\\Outlook15 Resiliency\\AddinList.</span><span class="sxs-lookup"><span data-stu-id="ffca9-106">It creates a registry key under HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList.</span></span> <span data-ttu-id="ffca9-107">Puede Agregar un valor para ucaddin. dll a esta clave y configurar el valor de ucaddin. dll para que esté siempre habilitado y para que los usuarios no puedan deshabilitarlo manualmente</span><span class="sxs-lookup"><span data-stu-id="ffca9-107">You can add a value for the ucaddin.dll to this key, and configure the ucaddin.dll value so that it is always enabled and so that users cannot manually disable it</span></span>
+<span data-ttu-id="49148-104">Puede asegurarse de que el complemento de conferencia en línea para Microsoft Lync 2013 siempre sigue habilitado para los usuarios mediante la creación de una directiva que lo incluya en la lista de administración de complementos de Outlook.</span><span class="sxs-lookup"><span data-stu-id="49148-104">You can ensure that Online Meeting Add-in for Microsoft Lync 2013 always remains enabled for users by creating a policy that includes it in the Add-in Management List for Outlook.</span></span> <span data-ttu-id="49148-105">Esta directiva forma parte de los archivos de plantilla administrativa de Office de la Consola de administración de directivas de grupo.</span><span class="sxs-lookup"><span data-stu-id="49148-105">The Add-in Management List policy is included in the Office administrative template files for the Group Policy Management Console.</span></span> <span data-ttu-id="49148-106">Crea una clave del registro en HKCU\\software\\\\Policies\\Microsoft\\Office\\15,0\\Outlook15 Resiliency\\AddinList.</span><span class="sxs-lookup"><span data-stu-id="49148-106">It creates a registry key under HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList.</span></span> <span data-ttu-id="49148-107">Puede Agregar un valor para ucaddin. dll a esta clave y configurar el valor de ucaddin. dll para que esté siempre habilitado y para que los usuarios no puedan deshabilitarlo manualmente</span><span class="sxs-lookup"><span data-stu-id="49148-107">You can add a value for the ucaddin.dll to this key, and configure the ucaddin.dll value so that it is always enabled and so that users cannot manually disable it</span></span>
 
 <div>
 
-## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a><span data-ttu-id="ffca9-108">Para agregar ucaddin. dll a la lista de complementos de Outlook</span><span class="sxs-lookup"><span data-stu-id="ffca9-108">To Add ucaddin.dll to the Outlook Add-in List</span></span>
+## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a><span data-ttu-id="49148-108">Para agregar ucaddin. dll a la lista de complementos de Outlook</span><span class="sxs-lookup"><span data-stu-id="49148-108">To Add ucaddin.dll to the Outlook Add-in List</span></span>
 
-  - <span data-ttu-id="ffca9-109">En la clave del registro AddinList, que se\\encuentra\\en\\la\\página\\directivas\\de\\software HKCU\\Microsoft Office 15,0 Outlook15 Resiliency AddinList, agregue el siguiente valor:</span><span class="sxs-lookup"><span data-stu-id="ffca9-109">To the AddinList registry key, located under HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList, add the following value:</span></span>
+  - <span data-ttu-id="49148-109">En la clave del registro AddinList, que se\\encuentra\\en\\la\\página\\directivas\\de\\software HKCU\\Microsoft Office 15,0 Outlook15 Resiliency AddinList, agregue el siguiente valor:</span><span class="sxs-lookup"><span data-stu-id="49148-109">To the AddinList registry key, located under HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList, add the following value:</span></span>
     
-      - <span data-ttu-id="ffca9-110">Tipo de registro =\_reg SZ</span><span class="sxs-lookup"><span data-stu-id="ffca9-110">Registry Type = REG\_SZ</span></span>
+      - <span data-ttu-id="49148-110">Tipo de registro =\_reg SZ</span><span class="sxs-lookup"><span data-stu-id="49148-110">Registry Type = REG\_SZ</span></span>
     
-      - <span data-ttu-id="ffca9-111">Nombre = ucaddin.dll</span><span class="sxs-lookup"><span data-stu-id="ffca9-111">Name = ucaddin.dll</span></span>
+      - <span data-ttu-id="49148-111">Nombre = ucaddin.dll</span><span class="sxs-lookup"><span data-stu-id="49148-111">Name = ucaddin.dll</span></span>
     
-      - <span data-ttu-id="ffca9-112">Valor = 1 (significa que el complemento siempre está habilitado y que el usuario final no puede administrarlo)</span><span class="sxs-lookup"><span data-stu-id="ffca9-112">Value = 1 (specifies that the add-in is always enabled and cannot be managed by the end user)</span></span>
+      - <span data-ttu-id="49148-112">Valor = 1 (significa que el complemento siempre está habilitado y que el usuario final no puede administrarlo)</span><span class="sxs-lookup"><span data-stu-id="49148-112">Value = 1 (specifies that the add-in is always enabled and cannot be managed by the end user)</span></span>
 
 </div>
 

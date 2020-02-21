@@ -12,20 +12,20 @@ ms:contentKeyID: 48184136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d1ba298ea35c177eb51191c230ea51a50d6c3e9
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 949e5fb209722d8a0d8476d017bba1b7144561a4
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142326"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42192343"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supporting-large-meetings-using-lync-server-2013"></a><span data-ttu-id="d307c-102">Compatibilidad con reuniones grandes con Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d307c-102">Supporting large meetings using Lync Server 2013</span></span>
+# <a name="supporting-large-meetings-using-lync-server-2013"></a><span data-ttu-id="2d352-102">Compatibilidad con reuniones grandes con Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d352-102">Supporting large meetings using Lync Server 2013</span></span>
 
 </div>
 
@@ -35,40 +35,40 @@ ms.locfileid: "42142326"
 
 <span> </span>
 
-<span data-ttu-id="d307c-103">_**Última modificación del tema:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="d307c-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="2d352-103">_**Última modificación del tema:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="2d352-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="d307c-104">Las reuniones grandes no siguen el modelo de prueba descrito en la sección anterior porque tienen las siguientes características:
-</span><span class="sxs-lookup"><span data-stu-id="d307c-104">Large meetings do not follow the test model described in the previous section because they have the following characteristics:</span></span>
+<span data-ttu-id="2d352-104">Las reuniones grandes no siguen el modelo de prueba descrito en la sección anterior porque tienen las siguientes características:
+</span><span class="sxs-lookup"><span data-stu-id="2d352-104">Large meetings do not follow the test model described in the previous section because they have the following characteristics:</span></span>
 
-  - <span data-ttu-id="d307c-105">El formato de la reunión es una presentación de uno a varios.</span><span class="sxs-lookup"><span data-stu-id="d307c-105">The meeting format is a one-to-many presentation.</span></span>
+  - <span data-ttu-id="2d352-105">El formato de la reunión es una presentación de uno a varios.</span><span class="sxs-lookup"><span data-stu-id="2d352-105">The meeting format is a one-to-many presentation.</span></span>
 
-  - <span data-ttu-id="d307c-106">Uno o unos pocos usuarios son presentadores y todo el mundo participa solo como asistentes.</span><span class="sxs-lookup"><span data-stu-id="d307c-106">One or a few users are presenters, and everyone else participates only as attendees.</span></span>
+  - <span data-ttu-id="2d352-106">Uno o unos pocos usuarios son presentadores y todo el mundo participa solo como asistentes.</span><span class="sxs-lookup"><span data-stu-id="2d352-106">One or a few users are presenters, and everyone else participates only as attendees.</span></span>
 
-  - <span data-ttu-id="d307c-107">El uso compartido de una presentación de PowerPoint es la actividad principal de colaboración de datos.</span><span class="sxs-lookup"><span data-stu-id="d307c-107">PowerPoint presentation sharing is the main data collaboration activity.</span></span>
+  - <span data-ttu-id="2d352-107">El uso compartido de una presentación de PowerPoint es la actividad principal de colaboración de datos.</span><span class="sxs-lookup"><span data-stu-id="2d352-107">PowerPoint presentation sharing is the main data collaboration activity.</span></span>
 
-  - <span data-ttu-id="d307c-108">Se necesita audio y también se puede usar vídeo.</span><span class="sxs-lookup"><span data-stu-id="d307c-108">Audio is required and video may also be used.</span></span>
+  - <span data-ttu-id="2d352-108">Se necesita audio y también se puede usar vídeo.</span><span class="sxs-lookup"><span data-stu-id="2d352-108">Audio is required and video may also be used.</span></span>
 
-  - <span data-ttu-id="d307c-109">Una persona dedicada, generalmente el organizador de la reunión o un asistente del organizador, configura la reunión con suficiente antelación.</span><span class="sxs-lookup"><span data-stu-id="d307c-109">A dedicated person, generally either the meeting organizer or an assistant to the organizer sets up the meeting well in advance.</span></span>
+  - <span data-ttu-id="2d352-109">Una persona dedicada, generalmente el organizador de la reunión o un asistente del organizador, configura la reunión con suficiente antelación.</span><span class="sxs-lookup"><span data-stu-id="2d352-109">A dedicated person, generally either the meeting organizer or an assistant to the organizer sets up the meeting well in advance.</span></span>
 
-  - <span data-ttu-id="d307c-110">El personal dedicado (no los presentadores) ejecuta la reunión, incluida la conexión a una reunión en línea, la comprobación de que el uso compartido de audio, vídeo y diapositivas funciona, la administración de roles de usuario y el salón de espera, la activación y desactivación del silencio de los participantes, la realización de preguntas y la administración de grabaciones, según sea lo adecuado.</span><span class="sxs-lookup"><span data-stu-id="d307c-110">Dedicated staff (not the presenters) runs the meeting, including connecting to an online meeting, verifying that audio, video, and slide sharing work, managing lobby and user roles, muting and unmuting participants, taking questions, and managing recordings, as appropriate.</span></span>
+  - <span data-ttu-id="2d352-110">El personal dedicado (no los presentadores) ejecuta la reunión, incluida la conexión a una reunión en línea, la comprobación de que el uso compartido de audio, vídeo y diapositivas funciona, la administración de roles de usuario y el salón de espera, la activación y desactivación del silencio de los participantes, la realización de preguntas y la administración de grabaciones, según sea lo adecuado.</span><span class="sxs-lookup"><span data-stu-id="2d352-110">Dedicated staff (not the presenters) runs the meeting, including connecting to an online meeting, verifying that audio, video, and slide sharing work, managing lobby and user roles, muting and unmuting participants, taking questions, and managing recordings, as appropriate.</span></span>
 
-<span data-ttu-id="d307c-111">La compatibilidad con grandes reuniones de hasta 1.000 usuarios requiere abordar problemas relacionados con el modelo de hardware compartidos y el modelo sin reserva.</span><span class="sxs-lookup"><span data-stu-id="d307c-111">Supporting large meetings of up to 1000 users requires addressing the issues related to both the shared hardware model and the no-reservation model.</span></span>
+<span data-ttu-id="2d352-111">La compatibilidad con grandes reuniones de hasta 1.000 usuarios requiere abordar problemas relacionados con el modelo de hardware compartidos y el modelo sin reserva.</span><span class="sxs-lookup"><span data-stu-id="2d352-111">Supporting large meetings of up to 1000 users requires addressing the issues related to both the shared hardware model and the no-reservation model.</span></span>
 
-<span data-ttu-id="d307c-112">Para disponer de suficientes recursos de CPU y memoria para reuniones de hasta 1000 usuarios, los servidores front-end de hospedaje no deben hospedar otras cargas de trabajo de mensajería instantánea (mi) y presencia o de telefonía IP empresarial.</span><span class="sxs-lookup"><span data-stu-id="d307c-112">To have sufficient CPU and memory resources for meetings of up to 1000 users, the hosting Front End Servers should not host any other instant messaging (IM) and presence or Enterprise Voice workloads.</span></span> <span data-ttu-id="d307c-113">Tampoco debe alojar otras reuniones, independientemente de su tamaño.</span><span class="sxs-lookup"><span data-stu-id="d307c-113">It should also not host any other meetings, regardless of the size of the other meetings.</span></span> <span data-ttu-id="d307c-114">Esto significa que para hospedar reuniones de hasta 1000 usuarios es necesario configurar un grupo de Lync Server independiente dedicado a hospedar grandes reuniones de hasta 1000 usuarios.</span><span class="sxs-lookup"><span data-stu-id="d307c-114">This means that hosting meetings of up to 1000 users requires setting up a separate Lync Server pool that is dedicated to hosting large meetings of up to 1000 users.</span></span>
+<span data-ttu-id="2d352-112">Para disponer de suficientes recursos de CPU y memoria para reuniones de hasta 1000 usuarios, los servidores front-end de hospedaje no deben hospedar otras cargas de trabajo de mensajería instantánea (mi) y presencia o de telefonía IP empresarial.</span><span class="sxs-lookup"><span data-stu-id="2d352-112">To have sufficient CPU and memory resources for meetings of up to 1000 users, the hosting Front End Servers should not host any other instant messaging (IM) and presence or Enterprise Voice workloads.</span></span> <span data-ttu-id="2d352-113">Tampoco debe alojar otras reuniones, independientemente de su tamaño.</span><span class="sxs-lookup"><span data-stu-id="2d352-113">It should also not host any other meetings, regardless of the size of the other meetings.</span></span> <span data-ttu-id="2d352-114">Esto significa que para hospedar reuniones de hasta 1000 usuarios es necesario configurar un grupo de Lync Server independiente dedicado a hospedar grandes reuniones de hasta 1000 usuarios.</span><span class="sxs-lookup"><span data-stu-id="2d352-114">This means that hosting meetings of up to 1000 users requires setting up a separate Lync Server pool that is dedicated to hosting large meetings of up to 1000 users.</span></span>
 
-<span data-ttu-id="d307c-115">Un grupo de servidores de Lync Server dedicado a hospedar reuniones grandes debe hospedar una sola reunión de hasta 1000 usuarios al mismo tiempo, por lo que las horas de reunión deben reservarse por adelantado a través de un proceso de programación fuera de banda para garantizar el soporte dedicado desde el serv front-end ers.</span><span class="sxs-lookup"><span data-stu-id="d307c-115">A Lync Server pool that is dedicated to hosting large meetings should host one and only one meeting of up to 1000 users at the same time, so meeting times need to be reserved in advance via an out of band scheduling process to ensure dedicated support from the Front End Servers.</span></span> <span data-ttu-id="d307c-116">Para admitir más de una gran reunión al mismo tiempo, recomendamos configurar varios grupos de grandes reuniones dedicados.</span><span class="sxs-lookup"><span data-stu-id="d307c-116">To support more than one large meeting at the same time, we recommend setting up multiple dedicated large-meeting pools.</span></span>
+<span data-ttu-id="2d352-115">Un grupo de servidores de Lync Server dedicado a hospedar reuniones grandes debe hospedar una sola reunión de hasta 1000 usuarios al mismo tiempo, por lo que las horas de reunión deben reservarse por adelantado a través de un proceso de programación fuera de banda para garantizar el soporte dedicado desde el serv front-end ers.</span><span class="sxs-lookup"><span data-stu-id="2d352-115">A Lync Server pool that is dedicated to hosting large meetings should host one and only one meeting of up to 1000 users at the same time, so meeting times need to be reserved in advance via an out of band scheduling process to ensure dedicated support from the Front End Servers.</span></span> <span data-ttu-id="2d352-116">Para admitir más de una gran reunión al mismo tiempo, recomendamos configurar varios grupos de grandes reuniones dedicados.</span><span class="sxs-lookup"><span data-stu-id="2d352-116">To support more than one large meeting at the same time, we recommend setting up multiple dedicated large-meeting pools.</span></span>
 
-<span data-ttu-id="d307c-p103">Recomendamos que una persona dedicada ejecute y supervise la parte en línea de una gran reunión. Esta persona podría ser el organizador, el delegado del organizador o presentador, o un miembro del equipo de soporte técnico de la gran reunión, dependiendo de las preferencias de la organización.</span><span class="sxs-lookup"><span data-stu-id="d307c-p103">We recommend that a dedicated person run and monitor the online portion of a large meeting. This person might be the organizer, delegate of the organizer or presenter, or a member of the dedicated large meeting support team, depending on the organization’s preferences.</span></span>
+<span data-ttu-id="2d352-p103">Recomendamos que una persona dedicada ejecute y supervise la parte en línea de una gran reunión. Esta persona podría ser el organizador, el delegado del organizador o presentador, o un miembro del equipo de soporte técnico de la gran reunión, dependiendo de las preferencias de la organización.</span><span class="sxs-lookup"><span data-stu-id="2d352-p103">We recommend that a dedicated person run and monitor the online portion of a large meeting. This person might be the organizer, delegate of the organizer or presenter, or a member of the dedicated large meeting support team, depending on the organization’s preferences.</span></span>
 
-<span data-ttu-id="d307c-119">En las secciones siguientes, se describe cómo implementar un grupo dedicado para reuniones grandes, incluidos los procedimientos recomendados para usar Lync Server 2013 para admitir escenarios de reuniones grandes.</span><span class="sxs-lookup"><span data-stu-id="d307c-119">In the following sections, we describe how to implement a dedicated pool for large meetings, including best practices for using Lync Server 2013 to support large meeting scenarios.</span></span>
+<span data-ttu-id="2d352-119">En las secciones siguientes, se describe cómo implementar un grupo dedicado para reuniones grandes, incluidos los procedimientos recomendados para usar Lync Server 2013 para admitir escenarios de reuniones grandes.</span><span class="sxs-lookup"><span data-stu-id="2d352-119">In the following sections, we describe how to implement a dedicated pool for large meetings, including best practices for using Lync Server 2013 to support large meeting scenarios.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d307c-120">En esta sección</span><span class="sxs-lookup"><span data-stu-id="d307c-120">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2d352-120">En esta sección</span><span class="sxs-lookup"><span data-stu-id="2d352-120">In This Section</span></span>
 
-  - [<span data-ttu-id="d307c-121">Configuración de la compatibilidad para reuniones grandes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d307c-121">Setting up support for large meetings in Lync Server 2013</span></span>](lync-server-2013-setting-up-support-for-large-meetings.md)
+  - [<span data-ttu-id="2d352-121">Configuración de la compatibilidad para reuniones grandes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d352-121">Setting up support for large meetings in Lync Server 2013</span></span>](lync-server-2013-setting-up-support-for-large-meetings.md)
 
-  - [<span data-ttu-id="d307c-122">Administración de reuniones grandes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d307c-122">Managing large meetings in Lync Server 2013</span></span>](lync-server-2013-managing-large-meetings.md)
+  - [<span data-ttu-id="2d352-122">Administración de reuniones grandes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d352-122">Managing large meetings in Lync Server 2013</span></span>](lync-server-2013-managing-large-meetings.md)
 
 </div>
 

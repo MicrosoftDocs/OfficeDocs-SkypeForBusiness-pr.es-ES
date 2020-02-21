@@ -12,20 +12,20 @@ ms:contentKeyID: 48185300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ecc2a9f6d9cf638e33425543367326f3b288aa72
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: ee9b82c14704c83f6d95d02635ce4f414ff1a156
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42137901"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42191363"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a><span data-ttu-id="91beb-102">Adición de un administrador de chat persistente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="91beb-102">Adding a Persistent Chat administrator in Lync Server 2013</span></span>
+# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a><span data-ttu-id="2c9b7-102">Adición de un administrador de chat persistente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2c9b7-102">Adding a Persistent Chat administrator in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42137901"
 
 <span> </span>
 
-<span data-ttu-id="91beb-103">_**Última modificación del tema:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="91beb-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="2c9b7-103">_**Última modificación del tema:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="2c9b7-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="91beb-104">En Lync Server 2013, los usuarios que realizan tareas específicas deben asignarse como miembros de uno o más grupos específicos.</span><span class="sxs-lookup"><span data-stu-id="91beb-104">In Lync Server 2013, users who perform specific tasks must be assigned as members of one or more specific groups.</span></span> <span data-ttu-id="91beb-105">El control de acceso basado en roles (RBAC) también se puede usar para conceder privilegios asignando usuarios a roles administrativos predefinidos de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="91beb-105">Role-based access control (RBAC) can also be used to grant privileges by assigning users to predefined Lync Server 2013 administrative roles.</span></span>
+<span data-ttu-id="2c9b7-104">En Lync Server 2013, los usuarios que realizan tareas específicas deben asignarse como miembros de uno o más grupos específicos.</span><span class="sxs-lookup"><span data-stu-id="2c9b7-104">In Lync Server 2013, users who perform specific tasks must be assigned as members of one or more specific groups.</span></span> <span data-ttu-id="2c9b7-105">El control de acceso basado en roles (RBAC) también se puede usar para conceder privilegios asignando usuarios a roles administrativos predefinidos de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2c9b7-105">Role-based access control (RBAC) can also be used to grant privileges by assigning users to predefined Lync Server 2013 administrative roles.</span></span>
 
-<span data-ttu-id="91beb-106">Antes de configurar y administrar el servidor de chat persistente, asegúrese de que los permisos y derechos de usuario adecuados estén en vigor y de que los usuarios que se vayan a clasificar como administradores de chat persistente se agreguen a la seguridad de CsPersistentChatAdministrator Grupo.</span><span class="sxs-lookup"><span data-stu-id="91beb-106">Before configuring and administering Persistent Chat Server, be sure that the appropriate user rights and permissions are in place, and that any users to be classified as Persistent Chat administrators are added to the CsPersistentChatAdministrator security group.</span></span>
+<span data-ttu-id="2c9b7-106">Antes de configurar y administrar el servidor de chat persistente, asegúrese de que los permisos y derechos de usuario adecuados estén en vigor y de que los usuarios que se vayan a clasificar como administradores de chat persistente se agreguen a la seguridad de CsPersistentChatAdministrator Grupo.</span><span class="sxs-lookup"><span data-stu-id="2c9b7-106">Before configuring and administering Persistent Chat Server, be sure that the appropriate user rights and permissions are in place, and that any users to be classified as Persistent Chat administrators are added to the CsPersistentChatAdministrator security group.</span></span>
 
 </div>
 
