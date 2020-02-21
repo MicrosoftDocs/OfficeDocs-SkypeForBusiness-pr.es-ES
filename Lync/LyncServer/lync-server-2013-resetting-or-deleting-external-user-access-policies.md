@@ -12,20 +12,20 @@ ms:contentKeyID: 48184300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ec1c6daba9d7d8c4d38b6c567c051a3d1f1ee69
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 1de7dc52331a384131d6d88185c2e7619d924a25
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42144847"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214946"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="resetting-or-deleting-external-user-access-policies-in-lync-server-2013"></a><span data-ttu-id="afd22-102">Restablecimiento o eliminación de directivas de acceso de usuarios externos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="afd22-102">Resetting or deleting external user access policies in Lync Server 2013</span></span>
+# <a name="resetting-or-deleting-external-user-access-policies-in-lync-server-2013"></a><span data-ttu-id="a3816-102">Restablecimiento o eliminación de directivas de acceso de usuarios externos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a3816-102">Resetting or deleting external user access policies in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42144847"
 
 <span> </span>
 
-<span data-ttu-id="afd22-103">_**Última modificación del tema:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="afd22-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="a3816-103">_**Última modificación del tema:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="a3816-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="afd22-104">Si ha creado o configurado directivas de acceso de usuarios externos que ya no desea usar, puede hacer lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="afd22-104">If you have created or configured external user access policies that you no longer want to use, you can do the following:</span></span>
+<span data-ttu-id="a3816-104">Si ha creado o configurado directivas de acceso de usuarios externos que ya no desea usar, puede hacer lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="a3816-104">If you have created or configured external user access policies that you no longer want to use, you can do the following:</span></span>
 
-  - <span data-ttu-id="afd22-105">Elimine cualquier directiva de usuario o sitio que haya creado.</span><span class="sxs-lookup"><span data-stu-id="afd22-105">Delete any site or user policy that you created.</span></span>
+  - <span data-ttu-id="a3816-105">Elimine cualquier directiva de usuario o sitio que haya creado.</span><span class="sxs-lookup"><span data-stu-id="a3816-105">Delete any site or user policy that you created.</span></span>
 
-  - <span data-ttu-id="afd22-p101">Restablezca la configuración predeterminada de la directiva global. La configuración global predeterminada deniega cualquier tipo de acceso de usuarios externos. La directiva global no puede eliminarse.</span><span class="sxs-lookup"><span data-stu-id="afd22-p101">Reset the global policy to the default settings. The default global policy settings deny any external user access. The global policy cannot be deleted.</span></span>
+  - <span data-ttu-id="a3816-p101">Restablezca la configuración predeterminada de la directiva global. La configuración global predeterminada deniega cualquier tipo de acceso de usuarios externos. La directiva global no puede eliminarse.</span><span class="sxs-lookup"><span data-stu-id="a3816-p101">Reset the global policy to the default settings. The default global policy settings deny any external user access. The global policy cannot be deleted.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="afd22-109">En esta sección</span><span class="sxs-lookup"><span data-stu-id="afd22-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a3816-109">En esta sección</span><span class="sxs-lookup"><span data-stu-id="a3816-109">In This Section</span></span>
 
-  - [<span data-ttu-id="afd22-110">Eliminar un sitio o una directiva de usuario para el acceso de usuarios externos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="afd22-110">Delete a site or user policy for external user access in Lync Server 2013</span></span>](lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md)
+  - [<span data-ttu-id="a3816-110">Eliminar un sitio o una directiva de usuario para el acceso de usuarios externos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a3816-110">Delete a site or user policy for external user access in Lync Server 2013</span></span>](lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md)
 
-  - [<span data-ttu-id="afd22-111">Restablecer la directiva global para el acceso de usuarios externos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="afd22-111">Reset the global policy for external user access in Lync Server 2013</span></span>](lync-server-2013-reset-the-global-policy-for-external-user-access.md)
+  - [<span data-ttu-id="a3816-111">Restablecer la directiva global para el acceso de usuarios externos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a3816-111">Reset the global policy for external user access in Lync Server 2013</span></span>](lync-server-2013-reset-the-global-policy-for-external-user-access.md)
 
 </div>
 

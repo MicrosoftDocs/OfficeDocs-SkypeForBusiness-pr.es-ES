@@ -12,20 +12,20 @@ ms:contentKeyID: 49733828
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac2af6e82546e44e0d10084e5878cef0e1a6b6f5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 076c3a13f1cbc6519a0af4c0ee8b587a7f5d83ca
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136708"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211396"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-meeting-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="537b4-102">Ver las opciones de configuración de reuniones en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="537b4-102">View meeting configuration settings in Lync Server 2013</span></span>
+# <a name="view-meeting-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="cf6da-102">Ver las opciones de configuración de reuniones en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cf6da-102">View meeting configuration settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "42136708"
 
 <span> </span>
 
-<span data-ttu-id="537b4-103">_**Última modificación del tema:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="537b4-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="cf6da-103">_**Última modificación del tema:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="cf6da-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="537b4-104">En el panel de control de Lync Server 2013, use la opción Configuración de reunión para controlar cómo se implementan las reuniones en su implementación.</span><span class="sxs-lookup"><span data-stu-id="537b4-104">In Lync Server 2013 Control Panel, you use meeting configuration setting to control how meetings are implemented in your deployment.</span></span> <span data-ttu-id="537b4-105">Esto incluye las configuraciones de reuniones siguientes:</span><span class="sxs-lookup"><span data-stu-id="537b4-105">This includes the following meeting configurations:</span></span>
+<span data-ttu-id="cf6da-104">En el panel de control de Lync Server 2013, use la opción Configuración de reunión para controlar cómo se implementan las reuniones en su implementación.</span><span class="sxs-lookup"><span data-stu-id="cf6da-104">In Lync Server 2013 Control Panel, you use meeting configuration setting to control how meetings are implemented in your deployment.</span></span> <span data-ttu-id="cf6da-105">Esto incluye las configuraciones de reuniones siguientes:</span><span class="sxs-lookup"><span data-stu-id="cf6da-105">This includes the following meeting configurations:</span></span>
 
-  - <span data-ttu-id="537b4-106">Una configuración global que se crea de forma predeterminada al implementar Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="537b4-106">A global configuration that is created by default when you deploy Lync Server 2013.</span></span>
+  - <span data-ttu-id="cf6da-106">Una configuración global que se crea de forma predeterminada al implementar Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cf6da-106">A global configuration that is created by default when you deploy Lync Server 2013.</span></span>
 
-  - <span data-ttu-id="537b4-107">Configuraciones de nivel de sitio y de nivel de usuario que se crean y usan para especificar cómo se implementan las reuniones en sitios o usuarios específicos.</span><span class="sxs-lookup"><span data-stu-id="537b4-107">Optional site-level and user-level configurations that you can create and use to specify how meetings are implemented for specific sites or users.</span></span>
+  - <span data-ttu-id="cf6da-107">Configuraciones de nivel de sitio y de nivel de usuario que se crean y usan para especificar cómo se implementan las reuniones en sitios o usuarios específicos.</span><span class="sxs-lookup"><span data-stu-id="cf6da-107">Optional site-level and user-level configurations that you can create and use to specify how meetings are implemented for specific sites or users.</span></span>
 
 <div>
 
-## <a name="to-view-meeting-configuration-settings"></a><span data-ttu-id="537b4-108">Para ver la configuración de reuniones</span><span class="sxs-lookup"><span data-stu-id="537b4-108">To view meeting configuration settings</span></span>
+## <a name="to-view-meeting-configuration-settings"></a><span data-ttu-id="cf6da-108">Para ver la configuración de reuniones</span><span class="sxs-lookup"><span data-stu-id="cf6da-108">To view meeting configuration settings</span></span>
 
-1.  <span data-ttu-id="537b4-109">Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.</span><span class="sxs-lookup"><span data-stu-id="537b4-109">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="cf6da-109">Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.</span><span class="sxs-lookup"><span data-stu-id="cf6da-109">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="537b4-110">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="537b4-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="537b4-111">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="537b4-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="cf6da-110">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="cf6da-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="cf6da-111">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="cf6da-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="537b4-112">En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Configuración de reunión**.</span><span class="sxs-lookup"><span data-stu-id="537b4-112">In the left navigation bar, click **Conferencing** and then click **Meeting Configuration**.</span></span>
+3.  <span data-ttu-id="cf6da-112">En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Configuración de reunión**.</span><span class="sxs-lookup"><span data-stu-id="cf6da-112">In the left navigation bar, click **Conferencing** and then click **Meeting Configuration**.</span></span>
 
-4.  <span data-ttu-id="537b4-113">En la página **Configuración de reunión**, haga clic en la configuración de reunión que desee ver.</span><span class="sxs-lookup"><span data-stu-id="537b4-113">On the **Meeting Configuration** page, click the meeting configuration that you would like to view.</span></span>
+4.  <span data-ttu-id="cf6da-113">En la página **Configuración de reunión**, haga clic en la configuración de reunión que desee ver.</span><span class="sxs-lookup"><span data-stu-id="cf6da-113">On the **Meeting Configuration** page, click the meeting configuration that you would like to view.</span></span>
 
-5.  <span data-ttu-id="537b4-p103">En **Modificar filtro de archivo**, active la casilla **Mostrar detalles…**.</span><span class="sxs-lookup"><span data-stu-id="537b4-p103">In **Edit File Filter**, select the **Show Details…** check box.</span></span>
+5.  <span data-ttu-id="cf6da-p103">En **Modificar filtro de archivo**, active la casilla **Mostrar detalles…**.</span><span class="sxs-lookup"><span data-stu-id="cf6da-p103">In **Edit File Filter**, select the **Show Details…** check box.</span></span>
     
-    <span data-ttu-id="537b4-116">**Editar configuración de reunión \<:\> se abre una directiva** que muestra la configuración de la Directiva seleccionada.</span><span class="sxs-lookup"><span data-stu-id="537b4-116">**Edit Meeting Configuration - \<policy\>** opens displaying the settings for the selected policy.</span></span> <span data-ttu-id="537b4-117">Para obtener más información sobre cómo configurar las opciones, consulte [crear o modificar una colección de opciones de configuración de reuniones en Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md).</span><span class="sxs-lookup"><span data-stu-id="537b4-117">For details about configuring the settings, see [Create or modify a collection of meeting configuration settings in Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md).</span></span>
+    <span data-ttu-id="cf6da-116">**Editar configuración de reunión \<:\> se abre una directiva** que muestra la configuración de la Directiva seleccionada.</span><span class="sxs-lookup"><span data-stu-id="cf6da-116">**Edit Meeting Configuration - \<policy\>** opens displaying the settings for the selected policy.</span></span> <span data-ttu-id="cf6da-117">Para obtener más información sobre cómo configurar las opciones, consulte [crear o modificar una colección de opciones de configuración de reuniones en Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md).</span><span class="sxs-lookup"><span data-stu-id="cf6da-117">For details about configuring the settings, see [Create or modify a collection of meeting configuration settings in Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="viewing-meeting-configuration-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="537b4-118">Visualización de información de configuración de reuniones mediante cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="537b4-118">Viewing Meeting Configuration Information by Using Windows PowerShell Cmdlets</span></span>
+## <a name="viewing-meeting-configuration-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="cf6da-118">Visualización de información de configuración de reuniones mediante cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="cf6da-118">Viewing Meeting Configuration Information by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="537b4-119">Las opciones de configuración de reuniones se pueden ver con Windows PowerShell y el cmdlet Get-CsMeetingConfiguration.</span><span class="sxs-lookup"><span data-stu-id="537b4-119">Meeting configuration settings can be viewed by using Windows PowerShell and the Get-CsMeetingConfiguration cmdlet.</span></span> <span data-ttu-id="537b4-120">Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="537b4-120">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="537b4-121">Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.</span><span class="sxs-lookup"><span data-stu-id="537b4-121">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="cf6da-119">Las opciones de configuración de reuniones se pueden ver con Windows PowerShell y el cmdlet Get-CsMeetingConfiguration.</span><span class="sxs-lookup"><span data-stu-id="cf6da-119">Meeting configuration settings can be viewed by using Windows PowerShell and the Get-CsMeetingConfiguration cmdlet.</span></span> <span data-ttu-id="cf6da-120">Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="cf6da-120">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="cf6da-121">Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.</span><span class="sxs-lookup"><span data-stu-id="cf6da-121">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-meeting-configuration-information"></a><span data-ttu-id="537b4-122">Para ver la información de configuración de reuniones</span><span class="sxs-lookup"><span data-stu-id="537b4-122">To view meeting configuration information</span></span>
+## <a name="to-view-meeting-configuration-information"></a><span data-ttu-id="cf6da-122">Para ver la información de configuración de reuniones</span><span class="sxs-lookup"><span data-stu-id="cf6da-122">To view meeting configuration information</span></span>
 
-  - <span data-ttu-id="537b4-123">Para ver información sobre todas las opciones de configuración de reuniones, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:</span><span class="sxs-lookup"><span data-stu-id="537b4-123">To view information about all your meeting configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="cf6da-123">Para ver información sobre todas las opciones de configuración de reuniones, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:</span><span class="sxs-lookup"><span data-stu-id="cf6da-123">To view information about all your meeting configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsMeetingConfiguration
     
-    <span data-ttu-id="537b4-124">Devolverá información similar a la siguiente:</span><span class="sxs-lookup"><span data-stu-id="537b4-124">That will return information similar to this:</span></span>
+    <span data-ttu-id="cf6da-124">Devolverá información similar a la siguiente:</span><span class="sxs-lookup"><span data-stu-id="cf6da-124">That will return information similar to this:</span></span>
     
         Identity                        : Global
         PstnCallersBypassLobby          : True
@@ -92,7 +92,7 @@ ms.locfileid: "42136708"
 
 </div>
 
-<span data-ttu-id="537b4-125">Para obtener más información, consulte el tema de ayuda para el cmdlet [Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="537b4-125">For more information, see the help topic for the [Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingConfiguration) cmdlet.</span></span>
+<span data-ttu-id="cf6da-125">Para obtener más información, consulte el tema de ayuda para el cmdlet [Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="cf6da-125">For more information, see the help topic for the [Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingConfiguration) cmdlet.</span></span>
 
 </div>
 

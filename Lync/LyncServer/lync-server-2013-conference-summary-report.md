@@ -12,20 +12,20 @@ ms:contentKeyID: 48184299
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5092bb6e2ae1a76ad878a28365515b470df031d2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 772ece86803f9fc499b38299621ccd491221f84b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42145178"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213076"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-summary-report-in-lync-server-2013"></a><span data-ttu-id="76e04-102">Informe de Resumen de conferencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="76e04-102">Conference Summary Report in Lync Server 2013</span></span>
+# <a name="conference-summary-report-in-lync-server-2013"></a><span data-ttu-id="aa611-102">Informe de Resumen de conferencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aa611-102">Conference Summary Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42145178"
 
 <span> </span>
 
-<span data-ttu-id="76e04-103">_**Última modificación del tema:** 2014-09-03_</span><span class="sxs-lookup"><span data-stu-id="76e04-103">_**Topic Last Modified:** 2014-09-03_</span></span>
+<span data-ttu-id="aa611-103">_**Última modificación del tema:** 2014-09-03_</span><span class="sxs-lookup"><span data-stu-id="aa611-103">_**Topic Last Modified:** 2014-09-03_</span></span>
 
-<span data-ttu-id="76e04-104">El informe de resumen de conferencia ofrece una vista general de las sesiones de conferencia en línea.</span><span class="sxs-lookup"><span data-stu-id="76e04-104">The Conference Summary Report provides an overall view of your online conferencing sessions.</span></span> <span data-ttu-id="76e04-105">Una conferencia suele implicar a más de 2 usuarios y requiere el uso de los servicios de conferencia de Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="76e04-105">A conference typically involves more than 2 users and requires the use of Microsoft Lync Server 2013 conferencing services.</span></span> <span data-ttu-id="76e04-106">Por su parte, una sesión punto a punto suele implicar a solo dos usuarios y no precisa del uso de los servicios de conferencia de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="76e04-106">By comparison, a peer-to-peer session typically involves just 2 users and does not require the use of Lync Server's conferencing services.</span></span> <span data-ttu-id="76e04-107">Las actividades punto a punto se indican en el [Informe de Resumen de actividad punto a punto en Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md).</span><span class="sxs-lookup"><span data-stu-id="76e04-107">Peer-to-peer activities are reported on the [Peer-to-Peer Activity Summary Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md).</span></span>
+<span data-ttu-id="aa611-104">El informe de resumen de conferencia ofrece una vista general de las sesiones de conferencia en línea.</span><span class="sxs-lookup"><span data-stu-id="aa611-104">The Conference Summary Report provides an overall view of your online conferencing sessions.</span></span> <span data-ttu-id="aa611-105">Una conferencia suele implicar a más de 2 usuarios y requiere el uso de los servicios de conferencia de Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="aa611-105">A conference typically involves more than 2 users and requires the use of Microsoft Lync Server 2013 conferencing services.</span></span> <span data-ttu-id="aa611-106">Por su parte, una sesión punto a punto suele implicar a solo dos usuarios y no precisa del uso de los servicios de conferencia de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="aa611-106">By comparison, a peer-to-peer session typically involves just 2 users and does not require the use of Lync Server's conferencing services.</span></span> <span data-ttu-id="aa611-107">Las actividades punto a punto se indican en el [Informe de Resumen de actividad punto a punto en Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md).</span><span class="sxs-lookup"><span data-stu-id="aa611-107">Peer-to-peer activities are reported on the [Peer-to-Peer Activity Summary Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md).</span></span>
 
-<span data-ttu-id="76e04-108">El informe de Resumen de conferencia no solo indica el número de conferencias que se realizaron durante un período de tiempo determinado (cada hora, diariamente, semanalmente, mensualmente), sino que también indica el número total de personas que participaron en esas conferencias y el número total de conferencias únicas organizadores.</span><span class="sxs-lookup"><span data-stu-id="76e04-108">The Conference Summary Report not only tells you how many conferences were held during a given time period (hourly, daily, weekly, monthly) but also tells you the total number of people who took part in those conferences, and the total number of unique conference organizers.</span></span>
+<span data-ttu-id="aa611-108">El informe de Resumen de conferencia no solo indica el número de conferencias que se realizaron durante un período de tiempo determinado (cada hora, diariamente, semanalmente, mensualmente), sino que también indica el número total de personas que participaron en esas conferencias y el número total de conferencias únicas organizadores.</span><span class="sxs-lookup"><span data-stu-id="aa611-108">The Conference Summary Report not only tells you how many conferences were held during a given time period (hourly, daily, weekly, monthly) but also tells you the total number of people who took part in those conferences, and the total number of unique conference organizers.</span></span>
 
-<span data-ttu-id="76e04-p102">Un organizador "único” es alguien que programa al menos una conferencia. Así, por ejemplo, si Pilar Ackerman programa una conferencia, se contabilizará como una organizadora única y, si Ken Myer programa 148 conferencias, también se considerará como organizador único. En la siguiente tabla se recogen ocho conferencias programadas, pero solo tres organizadores únicos (Ken Myer, Pilar Ackerman y David Ahs).</span><span class="sxs-lookup"><span data-stu-id="76e04-p102">A "unique” organizer is anyone who schedules at least one conference. For example, if Pilar Ackerman schedules one conference she counts as one unique organizer. If Ken Myer schedules 148 conferences he, too counts as one unique organizer. For example, the table below shows 8 conferences scheduled, but just three unique organizers (Ken Myer, Pilar Ackerman, and David Ahs).</span></span>
+<span data-ttu-id="aa611-p102">Un organizador "único” es alguien que programa al menos una conferencia. Así, por ejemplo, si Pilar Ackerman programa una conferencia, se contabilizará como una organizadora única y, si Ken Myer programa 148 conferencias, también se considerará como organizador único. En la siguiente tabla se recogen ocho conferencias programadas, pero solo tres organizadores únicos (Ken Myer, Pilar Ackerman y David Ahs).</span><span class="sxs-lookup"><span data-stu-id="aa611-p102">A "unique” organizer is anyone who schedules at least one conference. For example, if Pilar Ackerman schedules one conference she counts as one unique organizer. If Ken Myer schedules 148 conferences he, too counts as one unique organizer. For example, the table below shows 8 conferences scheduled, but just three unique organizers (Ken Myer, Pilar Ackerman, and David Ahs).</span></span>
 
 
 <table>
@@ -51,66 +51,66 @@ ms.locfileid: "42145178"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="76e04-113">Organizador de la conferencia</span><span class="sxs-lookup"><span data-stu-id="76e04-113">Conference Organizer</span></span></th>
-<th><span data-ttu-id="76e04-114">Fecha de la conferencia</span><span class="sxs-lookup"><span data-stu-id="76e04-114">Conference Date</span></span></th>
+<th><span data-ttu-id="aa611-113">Organizador de la conferencia</span><span class="sxs-lookup"><span data-stu-id="aa611-113">Conference Organizer</span></span></th>
+<th><span data-ttu-id="aa611-114">Fecha de la conferencia</span><span class="sxs-lookup"><span data-stu-id="aa611-114">Conference Date</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="76e04-115">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="76e04-115">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="76e04-116">7/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="76e04-116">7/7/2012 10:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="aa611-115">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="aa611-115">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="aa611-116">7/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="aa611-116">7/7/2012 10:00 AM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76e04-117">David Ahs</span><span class="sxs-lookup"><span data-stu-id="76e04-117">David Ahs</span></span></p></td>
-<td><p><span data-ttu-id="76e04-118">7/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="76e04-118">7/7/2012 10:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="aa611-117">David Ahs</span><span class="sxs-lookup"><span data-stu-id="aa611-117">David Ahs</span></span></p></td>
+<td><p><span data-ttu-id="aa611-118">7/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="aa611-118">7/7/2012 10:00 AM</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76e04-119">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="76e04-119">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="76e04-120">7/7/2012 11:00 AM</span><span class="sxs-lookup"><span data-stu-id="76e04-120">7/7/2012 11:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="aa611-119">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="aa611-119">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="aa611-120">7/7/2012 11:00 AM</span><span class="sxs-lookup"><span data-stu-id="aa611-120">7/7/2012 11:00 AM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76e04-121">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="76e04-121">Pilar Ackerman</span></span></p></td>
-<td><p><span data-ttu-id="76e04-122">7/7/2012 11:00 AM</span><span class="sxs-lookup"><span data-stu-id="76e04-122">7/7/2012 11:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="aa611-121">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="aa611-121">Pilar Ackerman</span></span></p></td>
+<td><p><span data-ttu-id="aa611-122">7/7/2012 11:00 AM</span><span class="sxs-lookup"><span data-stu-id="aa611-122">7/7/2012 11:00 AM</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76e04-123">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="76e04-123">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="76e04-124">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="76e04-124">7/7/2012 1:00 PM</span></span></p></td>
+<td><p><span data-ttu-id="aa611-123">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="aa611-123">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="aa611-124">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="aa611-124">7/7/2012 1:00 PM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76e04-125">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="76e04-125">Pilar Ackerman</span></span></p></td>
-<td><p><span data-ttu-id="76e04-126">7/7/2012 2:00 PM</span><span class="sxs-lookup"><span data-stu-id="76e04-126">7/7/2012 2:00 PM</span></span></p></td>
+<td><p><span data-ttu-id="aa611-125">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="aa611-125">Pilar Ackerman</span></span></p></td>
+<td><p><span data-ttu-id="aa611-126">7/7/2012 2:00 PM</span><span class="sxs-lookup"><span data-stu-id="aa611-126">7/7/2012 2:00 PM</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76e04-127">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="76e04-127">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="76e04-128">2/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="76e04-128">7/2/2012 10:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="aa611-127">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="aa611-127">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="aa611-128">2/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="aa611-128">7/2/2012 10:00 AM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76e04-129">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="76e04-129">Pilar Ackerman</span></span></p></td>
-<td><p><span data-ttu-id="76e04-130">2/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="76e04-130">7/2/2012 10:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="aa611-129">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="aa611-129">Pilar Ackerman</span></span></p></td>
+<td><p><span data-ttu-id="aa611-130">2/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="aa611-130">7/2/2012 10:00 AM</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="76e04-131">El informe de resumen de conferencia también indica el número de conferencias que incluyeron audio y/o vídeo.</span><span class="sxs-lookup"><span data-stu-id="76e04-131">The Conference Summary Report also indicates how many conferences included audio and/or video.</span></span>
+<span data-ttu-id="aa611-131">El informe de resumen de conferencia también indica el número de conferencias que incluyeron audio y/o vídeo.</span><span class="sxs-lookup"><span data-stu-id="aa611-131">The Conference Summary Report also indicates how many conferences included audio and/or video.</span></span>
 
 <div>
 
-## <a name="accessing-the-conference-summary-report"></a><span data-ttu-id="76e04-132">Acceso al informe de resumen de conferencia</span><span class="sxs-lookup"><span data-stu-id="76e04-132">Accessing the Conference Summary Report</span></span>
+## <a name="accessing-the-conference-summary-report"></a><span data-ttu-id="aa611-132">Acceso al informe de resumen de conferencia</span><span class="sxs-lookup"><span data-stu-id="aa611-132">Accessing the Conference Summary Report</span></span>
 
-<span data-ttu-id="76e04-p103">Puede acceder al informe de resumen de conferencia desde la página principal de informes de supervisión. Para llegar hasta dicho informe, deberá hacer clic en las siguientes métricas:</span><span class="sxs-lookup"><span data-stu-id="76e04-p103">The Conference Summary Report is accessed from the Monitoring Reports home page. You can drill down to the Conference Activity report by clicking either of the following metrics:</span></span>
+<span data-ttu-id="aa611-p103">Puede acceder al informe de resumen de conferencia desde la página principal de informes de supervisión. Para llegar hasta dicho informe, deberá hacer clic en las siguientes métricas:</span><span class="sxs-lookup"><span data-stu-id="aa611-p103">The Conference Summary Report is accessed from the Monitoring Reports home page. You can drill down to the Conference Activity report by clicking either of the following metrics:</span></span>
 
-  - <span data-ttu-id="76e04-135">Total de conferencias</span><span class="sxs-lookup"><span data-stu-id="76e04-135">Total conferences</span></span>
+  - <span data-ttu-id="aa611-135">Total de conferencias</span><span class="sxs-lookup"><span data-stu-id="aa611-135">Total conferences</span></span>
 
-  - <span data-ttu-id="76e04-136">Total de participantes</span><span class="sxs-lookup"><span data-stu-id="76e04-136">Total participants</span></span>
+  - <span data-ttu-id="aa611-136">Total de participantes</span><span class="sxs-lookup"><span data-stu-id="aa611-136">Total participants</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-conference-summary-report"></a><span data-ttu-id="76e04-137">Usar el informe de resumen de conferencia de la mejor forma posible</span><span class="sxs-lookup"><span data-stu-id="76e04-137">Making the Best Use of the Conference Summary Report</span></span>
+## <a name="making-the-best-use-of-the-conference-summary-report"></a><span data-ttu-id="aa611-137">Usar el informe de resumen de conferencia de la mejor forma posible</span><span class="sxs-lookup"><span data-stu-id="aa611-137">Making the Best Use of the Conference Summary Report</span></span>
 
-<span data-ttu-id="76e04-p104">En la parte inferior del informe de resumen de conferencia se plasman los valores totales de la mayor parte de las métricas que se usan en este informe. Desplácese hacia abajo para conocer valores como el número total de conferencias celebrado durante el periodo de tiempo especificado y el número total de personas que participaron en ellas. Una métrica cuyo valor total no se recoge ahí es Total de organizadores de conferencia distintos. Esto responde a un motivo: imagine que está consultando los datos de un mes entero. En el día 1 hubo 34 organizadores distintos y en el día 2, 27. Esto no tiene por qué significar que hubo 61 organizadores distintos esos días, ya que las 27 personas que organizaron conferencias durante el día 2 podrían encontrarse entre las 34 que organizaron conferencias en el día 1. Vea en este sencillo informe cómo Ken Myer y Pilar Ackerman programaron conferencias en los días 7/7/2012 y 2/7/2012:</span><span class="sxs-lookup"><span data-stu-id="76e04-p104">Total values for most of the metrics used on the Conference Summary Report can be found at the bottom of the report; scroll down to see values such as the total number of conferences held during the specified time period, and the total number of people who participated in those conferences. One metric that is not totaled at the bottom of the report is Total unique conference organizers. Why not? Here’s one reason. Suppose you are looking at a month's worth of data. On day 1 you had 34 unique conference organizers; on day 2 you had 27 unique conference organizers. Does that mean you had 61 unique conference organizers for those two days? Not necessarily. After all, all 27 people who organized conferences on day 2 might be among the 34 people who organized conferences on day 1. For example, in this simple report, note that Ken Myer and Pilar Ackerman scheduled conferences both on 7/7/2012 and on 7/2/2012:</span></span>
+<span data-ttu-id="aa611-p104">En la parte inferior del informe de resumen de conferencia se plasman los valores totales de la mayor parte de las métricas que se usan en este informe. Desplácese hacia abajo para conocer valores como el número total de conferencias celebrado durante el periodo de tiempo especificado y el número total de personas que participaron en ellas. Una métrica cuyo valor total no se recoge ahí es Total de organizadores de conferencia distintos. Esto responde a un motivo: imagine que está consultando los datos de un mes entero. En el día 1 hubo 34 organizadores distintos y en el día 2, 27. Esto no tiene por qué significar que hubo 61 organizadores distintos esos días, ya que las 27 personas que organizaron conferencias durante el día 2 podrían encontrarse entre las 34 que organizaron conferencias en el día 1. Vea en este sencillo informe cómo Ken Myer y Pilar Ackerman programaron conferencias en los días 7/7/2012 y 2/7/2012:</span><span class="sxs-lookup"><span data-stu-id="aa611-p104">Total values for most of the metrics used on the Conference Summary Report can be found at the bottom of the report; scroll down to see values such as the total number of conferences held during the specified time period, and the total number of people who participated in those conferences. One metric that is not totaled at the bottom of the report is Total unique conference organizers. Why not? Here’s one reason. Suppose you are looking at a month's worth of data. On day 1 you had 34 unique conference organizers; on day 2 you had 27 unique conference organizers. Does that mean you had 61 unique conference organizers for those two days? Not necessarily. After all, all 27 people who organized conferences on day 2 might be among the 34 people who organized conferences on day 1. For example, in this simple report, note that Ken Myer and Pilar Ackerman scheduled conferences both on 7/7/2012 and on 7/2/2012:</span></span>
 
 
 <table>
@@ -120,60 +120,60 @@ ms.locfileid: "42145178"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="76e04-148">Organizador de la conferencia</span><span class="sxs-lookup"><span data-stu-id="76e04-148">Conference Organizer</span></span></th>
-<th><span data-ttu-id="76e04-149">Fecha de la conferencia</span><span class="sxs-lookup"><span data-stu-id="76e04-149">Conference Date</span></span></th>
+<th><span data-ttu-id="aa611-148">Organizador de la conferencia</span><span class="sxs-lookup"><span data-stu-id="aa611-148">Conference Organizer</span></span></th>
+<th><span data-ttu-id="aa611-149">Fecha de la conferencia</span><span class="sxs-lookup"><span data-stu-id="aa611-149">Conference Date</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="76e04-150">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="76e04-150">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="76e04-151">7/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="76e04-151">7/7/2012 10:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="aa611-150">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="aa611-150">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="aa611-151">7/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="aa611-151">7/7/2012 10:00 AM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76e04-152">David Ahs</span><span class="sxs-lookup"><span data-stu-id="76e04-152">David Ahs</span></span></p></td>
-<td><p><span data-ttu-id="76e04-153">7/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="76e04-153">7/7/2012 10:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="aa611-152">David Ahs</span><span class="sxs-lookup"><span data-stu-id="aa611-152">David Ahs</span></span></p></td>
+<td><p><span data-ttu-id="aa611-153">7/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="aa611-153">7/7/2012 10:00 AM</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76e04-154">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="76e04-154">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="76e04-155">7/7/2012 11:00 AM</span><span class="sxs-lookup"><span data-stu-id="76e04-155">7/7/2012 11:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="aa611-154">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="aa611-154">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="aa611-155">7/7/2012 11:00 AM</span><span class="sxs-lookup"><span data-stu-id="aa611-155">7/7/2012 11:00 AM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76e04-156">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="76e04-156">Pilar Ackerman</span></span></p></td>
-<td><p><span data-ttu-id="76e04-157">7/7/2012 11:00 AM</span><span class="sxs-lookup"><span data-stu-id="76e04-157">7/7/2012 11:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="aa611-156">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="aa611-156">Pilar Ackerman</span></span></p></td>
+<td><p><span data-ttu-id="aa611-157">7/7/2012 11:00 AM</span><span class="sxs-lookup"><span data-stu-id="aa611-157">7/7/2012 11:00 AM</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76e04-158">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="76e04-158">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="76e04-159">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="76e04-159">7/7/2012 1:00 PM</span></span></p></td>
+<td><p><span data-ttu-id="aa611-158">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="aa611-158">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="aa611-159">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="aa611-159">7/7/2012 1:00 PM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76e04-160">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="76e04-160">Pilar Ackerman</span></span></p></td>
-<td><p><span data-ttu-id="76e04-161">7/7/2012 2:00 PM</span><span class="sxs-lookup"><span data-stu-id="76e04-161">7/7/2012 2:00 PM</span></span></p></td>
+<td><p><span data-ttu-id="aa611-160">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="aa611-160">Pilar Ackerman</span></span></p></td>
+<td><p><span data-ttu-id="aa611-161">7/7/2012 2:00 PM</span><span class="sxs-lookup"><span data-stu-id="aa611-161">7/7/2012 2:00 PM</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76e04-162">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="76e04-162">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="76e04-163">2/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="76e04-163">7/2/2012 10:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="aa611-162">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="aa611-162">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="aa611-163">2/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="aa611-163">7/2/2012 10:00 AM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76e04-164">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="76e04-164">Pilar Ackerman</span></span></p></td>
-<td><p><span data-ttu-id="76e04-165">2/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="76e04-165">7/2/2012 10:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="aa611-164">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="aa611-164">Pilar Ackerman</span></span></p></td>
+<td><p><span data-ttu-id="aa611-165">2/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="aa611-165">7/2/2012 10:00 AM</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="76e04-166">Para componerse una mejor idea del número total de usuarios distintos que ha organizado conferencias, cambie el intervalo temporal (por ejemplo, consulte los datos por mes en lugar de por día).</span><span class="sxs-lookup"><span data-stu-id="76e04-166">To get a better idea of the total number of unique users who organized conferences, change your time interval; for example, look at the data by month instead of by day.</span></span>
+<span data-ttu-id="aa611-166">Para componerse una mejor idea del número total de usuarios distintos que ha organizado conferencias, cambie el intervalo temporal (por ejemplo, consulte los datos por mes en lugar de por día).</span><span class="sxs-lookup"><span data-stu-id="aa611-166">To get a better idea of the total number of unique users who organized conferences, change your time interval; for example, look at the data by month instead of by day.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="76e04-167">Filtros</span><span class="sxs-lookup"><span data-stu-id="76e04-167">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="aa611-167">Filtros</span><span class="sxs-lookup"><span data-stu-id="aa611-167">Filters</span></span>
 
-<span data-ttu-id="76e04-p105">Los filtros se emplean para recuperar un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. Por ejemplo, el informe de resumen de conferencia le permite elegir cómo agrupar los datos. En este caso, las conferencias se agrupan por hora, día, semana o mes.</span><span class="sxs-lookup"><span data-stu-id="76e04-p105">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Conference Summary Report enables you to choose how data should be grouped. In this case, conferences grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="aa611-p105">Los filtros se emplean para recuperar un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. Por ejemplo, el informe de resumen de conferencia le permite elegir cómo agrupar los datos. En este caso, las conferencias se agrupan por hora, día, semana o mes.</span><span class="sxs-lookup"><span data-stu-id="aa611-p105">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Conference Summary Report enables you to choose how data should be grouped. In this case, conferences grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="76e04-171">La siguiente tabla muestra los filtros que puede utilizar con el informe de resumen de conferencia.</span><span class="sxs-lookup"><span data-stu-id="76e04-171">The following table lists the filters that you can use with the Conference Summary Report.</span></span>
+<span data-ttu-id="aa611-171">La siguiente tabla muestra los filtros que puede utilizar con el informe de resumen de conferencia.</span><span class="sxs-lookup"><span data-stu-id="aa611-171">The following table lists the filters that you can use with the Conference Summary Report.</span></span>
 
-### <a name="conference-summary-report-filters"></a><span data-ttu-id="76e04-172">Filtros del informe de resumen de conferencia</span><span class="sxs-lookup"><span data-stu-id="76e04-172">Conference Summary Report Filters</span></span>
+### <a name="conference-summary-report-filters"></a><span data-ttu-id="aa611-172">Filtros del informe de resumen de conferencia</span><span class="sxs-lookup"><span data-stu-id="aa611-172">Conference Summary Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -182,41 +182,41 @@ ms.locfileid: "42145178"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="76e04-173">Nombre</span><span class="sxs-lookup"><span data-stu-id="76e04-173">Name</span></span></th>
-<th><span data-ttu-id="76e04-174">Descripción</span><span class="sxs-lookup"><span data-stu-id="76e04-174">Description</span></span></th>
+<th><span data-ttu-id="aa611-173">Nombre</span><span class="sxs-lookup"><span data-stu-id="aa611-173">Name</span></span></th>
+<th><span data-ttu-id="aa611-174">Descripción</span><span class="sxs-lookup"><span data-stu-id="aa611-174">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="76e04-175"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="76e04-175"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="76e04-p106">Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="76e04-p106">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="76e04-178">7/7/2012 1:00 pm</span><span class="sxs-lookup"><span data-stu-id="76e04-178">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="76e04-p107">Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</span><span class="sxs-lookup"><span data-stu-id="76e04-p107">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="76e04-181">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="76e04-181">7/7/2012</span></span></p>
-<p><span data-ttu-id="76e04-182">Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</span><span class="sxs-lookup"><span data-stu-id="76e04-182">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="76e04-183">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="76e04-183">7/3/2012</span></span></p>
-<p><span data-ttu-id="76e04-184">Las semanas siempre empiezan en domingo y terminan en sábado.</span><span class="sxs-lookup"><span data-stu-id="76e04-184">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="aa611-175"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="aa611-175"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="aa611-p106">Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="aa611-p106">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="aa611-178">7/7/2012 1:00 pm</span><span class="sxs-lookup"><span data-stu-id="aa611-178">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="aa611-p107">Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</span><span class="sxs-lookup"><span data-stu-id="aa611-p107">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="aa611-181">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="aa611-181">7/7/2012</span></span></p>
+<p><span data-ttu-id="aa611-182">Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</span><span class="sxs-lookup"><span data-stu-id="aa611-182">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="aa611-183">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="aa611-183">7/3/2012</span></span></p>
+<p><span data-ttu-id="aa611-184">Las semanas siempre empiezan en domingo y terminan en sábado.</span><span class="sxs-lookup"><span data-stu-id="aa611-184">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76e04-185"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="76e04-185"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="76e04-p108">Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="76e04-p108">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="76e04-188">07.07.12 13:00</span><span class="sxs-lookup"><span data-stu-id="76e04-188">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="76e04-p109">Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</span><span class="sxs-lookup"><span data-stu-id="76e04-p109">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="76e04-191">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="76e04-191">7/7/2012</span></span></p>
-<p><span data-ttu-id="76e04-192">Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</span><span class="sxs-lookup"><span data-stu-id="76e04-192">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="76e04-193">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="76e04-193">7/3/2012</span></span></p>
-<p><span data-ttu-id="76e04-194">Las semanas siempre van del domingo al sábado.</span><span class="sxs-lookup"><span data-stu-id="76e04-194">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="aa611-185"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="aa611-185"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="aa611-p108">Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="aa611-p108">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="aa611-188">07.07.12 13:00</span><span class="sxs-lookup"><span data-stu-id="aa611-188">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="aa611-p109">Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</span><span class="sxs-lookup"><span data-stu-id="aa611-p109">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="aa611-191">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="aa611-191">7/7/2012</span></span></p>
+<p><span data-ttu-id="aa611-192">Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</span><span class="sxs-lookup"><span data-stu-id="aa611-192">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="aa611-193">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="aa611-193">7/3/2012</span></span></p>
+<p><span data-ttu-id="aa611-194">Las semanas siempre van del domingo al sábado.</span><span class="sxs-lookup"><span data-stu-id="aa611-194">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76e04-195"><strong>Intervalo de</strong></span><span class="sxs-lookup"><span data-stu-id="76e04-195"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="76e04-p110">Intervalo de tiempo. Seleccione una de las siguientes opciones:</span><span class="sxs-lookup"><span data-stu-id="76e04-p110">Time interval. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="aa611-195"><strong>Intervalo de</strong></span><span class="sxs-lookup"><span data-stu-id="aa611-195"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="aa611-p110">Intervalo de tiempo. Seleccione una de las siguientes opciones:</span><span class="sxs-lookup"><span data-stu-id="aa611-p110">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="76e04-198">Cada hora (se puede ver un máximo de 25 horas)</span><span class="sxs-lookup"><span data-stu-id="76e04-198">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="76e04-199">Cada día (se puede ver un máximo de 31 días)</span><span class="sxs-lookup"><span data-stu-id="76e04-199">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="76e04-200">Cada semana (se puede ver un máximo de 12 semanas)</span><span class="sxs-lookup"><span data-stu-id="76e04-200">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="76e04-201">Cada mes (se puede ver un máximo de 12 meses)</span><span class="sxs-lookup"><span data-stu-id="76e04-201">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="aa611-198">Cada hora (se puede ver un máximo de 25 horas)</span><span class="sxs-lookup"><span data-stu-id="aa611-198">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="aa611-199">Cada día (se puede ver un máximo de 31 días)</span><span class="sxs-lookup"><span data-stu-id="aa611-199">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="aa611-200">Cada semana (se puede ver un máximo de 12 semanas)</span><span class="sxs-lookup"><span data-stu-id="aa611-200">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="aa611-201">Cada mes (se puede ver un máximo de 12 meses)</span><span class="sxs-lookup"><span data-stu-id="aa611-201">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="76e04-p111">Si las fecha de inicio y finalización superan la cantidad máxima de valores permitidos para el intervalo seleccionado, solamente se mostrará la cantidad máxima de valores (empezando por la fecha de inicio). Por ejemplo, si selecciona el intervalo Cada día con una fecha de inicio del 7/8/2012 y una fecha de finalización del 28/9/2012, aparecerán los datos correspondientes a los días entre el 7/8/2012 a las 12:00 horas y el 7/9/2012 a las 12:00 horas (es decir, los datos de un total de 31 días).</span><span class="sxs-lookup"><span data-stu-id="76e04-p111">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) are displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="aa611-p111">Si las fecha de inicio y finalización superan la cantidad máxima de valores permitidos para el intervalo seleccionado, solamente se mostrará la cantidad máxima de valores (empezando por la fecha de inicio). Por ejemplo, si selecciona el intervalo Cada día con una fecha de inicio del 7/8/2012 y una fecha de finalización del 28/9/2012, aparecerán los datos correspondientes a los días entre el 7/8/2012 a las 12:00 horas y el 7/9/2012 a las 12:00 horas (es decir, los datos de un total de 31 días).</span><span class="sxs-lookup"><span data-stu-id="aa611-p111">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) are displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -226,11 +226,11 @@ ms.locfileid: "42145178"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="76e04-204">Métricas</span><span class="sxs-lookup"><span data-stu-id="76e04-204">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="aa611-204">Métricas</span><span class="sxs-lookup"><span data-stu-id="aa611-204">Metrics</span></span>
 
-<span data-ttu-id="76e04-205">La siguiente tabla incluye la información que ofrece el informe de resumen de conferencia.</span><span class="sxs-lookup"><span data-stu-id="76e04-205">The following table the information provided by the Conferences Summary Report.</span></span>
+<span data-ttu-id="aa611-205">La siguiente tabla incluye la información que ofrece el informe de resumen de conferencia.</span><span class="sxs-lookup"><span data-stu-id="aa611-205">The following table the information provided by the Conferences Summary Report.</span></span>
 
-### <a name="conference-summary-report-metrics"></a><span data-ttu-id="76e04-206">Métricas del informe de resumen de conferencia</span><span class="sxs-lookup"><span data-stu-id="76e04-206">Conference Summary Report Metrics</span></span>
+### <a name="conference-summary-report-metrics"></a><span data-ttu-id="aa611-206">Métricas del informe de resumen de conferencia</span><span class="sxs-lookup"><span data-stu-id="aa611-206">Conference Summary Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -240,65 +240,65 @@ ms.locfileid: "42145178"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="76e04-207">Nombre</span><span class="sxs-lookup"><span data-stu-id="76e04-207">Name</span></span></th>
-<th><span data-ttu-id="76e04-208">¿Se pueden ordenar los datos en este elemento?</span><span class="sxs-lookup"><span data-stu-id="76e04-208">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="76e04-209">Descripción</span><span class="sxs-lookup"><span data-stu-id="76e04-209">Description</span></span></th>
+<th><span data-ttu-id="aa611-207">Nombre</span><span class="sxs-lookup"><span data-stu-id="aa611-207">Name</span></span></th>
+<th><span data-ttu-id="aa611-208">¿Se pueden ordenar los datos en este elemento?</span><span class="sxs-lookup"><span data-stu-id="aa611-208">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="aa611-209">Descripción</span><span class="sxs-lookup"><span data-stu-id="aa611-209">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="76e04-210"><strong>Cada hora</strong></span><span class="sxs-lookup"><span data-stu-id="76e04-210"><strong>Hourly</strong></span></span></p>
-<p><span data-ttu-id="76e04-211"><strong>Diario</strong></span><span class="sxs-lookup"><span data-stu-id="76e04-211"><strong>Daily</strong></span></span></p>
-<p><span data-ttu-id="76e04-212"><strong>Semanal</strong></span><span class="sxs-lookup"><span data-stu-id="76e04-212"><strong>Weekly</strong></span></span></p>
-<p><span data-ttu-id="76e04-213"><strong>Mensualmente</strong></span><span class="sxs-lookup"><span data-stu-id="76e04-213"><strong>Monthly</strong></span></span></p></td>
-<td><p><span data-ttu-id="76e04-214">No</span><span class="sxs-lookup"><span data-stu-id="76e04-214">No</span></span></p></td>
-<td><p><span data-ttu-id="76e04-p112">Indica el intervalo temporal que ha seleccionado en la barra de herramientas de filtro. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada al respecto. Por ejemplo, si está usando el intervalo de Cada día y hace clic en 7/7/2012, verá un desglose por horas de la actividad de registro del usuario correspondiente a esa fecha.</span><span class="sxs-lookup"><span data-stu-id="76e04-p112">Indicates the time interval that you selected on the filter toolbar. Where applicable, you can click a given time interval to view detailed information for that interval. For example, if you are using the Daily interval and you click 7/7/2012, you see an hourly breakdown of user registration activity for that date.</span></span></p></td>
+<td><p><span data-ttu-id="aa611-210"><strong>Cada hora</strong></span><span class="sxs-lookup"><span data-stu-id="aa611-210"><strong>Hourly</strong></span></span></p>
+<p><span data-ttu-id="aa611-211"><strong>Diario</strong></span><span class="sxs-lookup"><span data-stu-id="aa611-211"><strong>Daily</strong></span></span></p>
+<p><span data-ttu-id="aa611-212"><strong>Semanal</strong></span><span class="sxs-lookup"><span data-stu-id="aa611-212"><strong>Weekly</strong></span></span></p>
+<p><span data-ttu-id="aa611-213"><strong>Mensualmente</strong></span><span class="sxs-lookup"><span data-stu-id="aa611-213"><strong>Monthly</strong></span></span></p></td>
+<td><p><span data-ttu-id="aa611-214">No</span><span class="sxs-lookup"><span data-stu-id="aa611-214">No</span></span></p></td>
+<td><p><span data-ttu-id="aa611-p112">Indica el intervalo temporal que ha seleccionado en la barra de herramientas de filtro. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada al respecto. Por ejemplo, si está usando el intervalo de Cada día y hace clic en 7/7/2012, verá un desglose por horas de la actividad de registro del usuario correspondiente a esa fecha.</span><span class="sxs-lookup"><span data-stu-id="aa611-p112">Indicates the time interval that you selected on the filter toolbar. Where applicable, you can click a given time interval to view detailed information for that interval. For example, if you are using the Daily interval and you click 7/7/2012, you see an hourly breakdown of user registration activity for that date.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76e04-218"><strong>Total de conferencias</strong></span><span class="sxs-lookup"><span data-stu-id="76e04-218"><strong>Total conferences</strong></span></span></p></td>
-<td><p><span data-ttu-id="76e04-219">No</span><span class="sxs-lookup"><span data-stu-id="76e04-219">No</span></span></p></td>
-<td><p><span data-ttu-id="76e04-p113">Número total de conferencias (independientemente del tipo de conferencia) celebradas. Al hacer clic en este elemento, el informe le muestra el informe de actividad de conferencia del periodo de tiempo seleccionado.</span><span class="sxs-lookup"><span data-stu-id="76e04-p113">Total number of conferences (regardless of conference type) that were held. When you click this item, the report shows you the Conference Activity Report for the selected time period.</span></span></p></td>
+<td><p><span data-ttu-id="aa611-218"><strong>Total de conferencias</strong></span><span class="sxs-lookup"><span data-stu-id="aa611-218"><strong>Total conferences</strong></span></span></p></td>
+<td><p><span data-ttu-id="aa611-219">No</span><span class="sxs-lookup"><span data-stu-id="aa611-219">No</span></span></p></td>
+<td><p><span data-ttu-id="aa611-p113">Número total de conferencias (independientemente del tipo de conferencia) celebradas. Al hacer clic en este elemento, el informe le muestra el informe de actividad de conferencia del periodo de tiempo seleccionado.</span><span class="sxs-lookup"><span data-stu-id="aa611-p113">Total number of conferences (regardless of conference type) that were held. When you click this item, the report shows you the Conference Activity Report for the selected time period.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76e04-222"><strong>Total de participantes</strong></span><span class="sxs-lookup"><span data-stu-id="76e04-222"><strong>Total participants</strong></span></span></p></td>
-<td><p><span data-ttu-id="76e04-223">No</span><span class="sxs-lookup"><span data-stu-id="76e04-223">No</span></span></p></td>
-<td><p><span data-ttu-id="76e04-p114">Número total de personas que participaron en las conferencias. Al hacer clic en este elemento, el informe le muestra el informe de actividad de conferencia del periodo de tiempo seleccionado.</span><span class="sxs-lookup"><span data-stu-id="76e04-p114">Total number of people who took part in the conferences. When you click this item, the report shows you the Conference Activity Report for the selected time period.</span></span></p></td>
+<td><p><span data-ttu-id="aa611-222"><strong>Total de participantes</strong></span><span class="sxs-lookup"><span data-stu-id="aa611-222"><strong>Total participants</strong></span></span></p></td>
+<td><p><span data-ttu-id="aa611-223">No</span><span class="sxs-lookup"><span data-stu-id="aa611-223">No</span></span></p></td>
+<td><p><span data-ttu-id="aa611-p114">Número total de personas que participaron en las conferencias. Al hacer clic en este elemento, el informe le muestra el informe de actividad de conferencia del periodo de tiempo seleccionado.</span><span class="sxs-lookup"><span data-stu-id="aa611-p114">Total number of people who took part in the conferences. When you click this item, the report shows you the Conference Activity Report for the selected time period.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76e04-226"><strong>Media de participantes por conferencia</strong></span><span class="sxs-lookup"><span data-stu-id="76e04-226"><strong>Average participants per conference</strong></span></span></p></td>
-<td><p><span data-ttu-id="76e04-227">No</span><span class="sxs-lookup"><span data-stu-id="76e04-227">No</span></span></p></td>
-<td><p><span data-ttu-id="76e04-p115">Número medio de participantes que participaron en una conferencia en concreto. Se calcula dividiendo el número total de conferencias por el número total de participantes.</span><span class="sxs-lookup"><span data-stu-id="76e04-p115">Average number of people who took part in a given conference. Determined by dividing the total conferences by the total participants.</span></span></p></td>
+<td><p><span data-ttu-id="aa611-226"><strong>Media de participantes por conferencia</strong></span><span class="sxs-lookup"><span data-stu-id="aa611-226"><strong>Average participants per conference</strong></span></span></p></td>
+<td><p><span data-ttu-id="aa611-227">No</span><span class="sxs-lookup"><span data-stu-id="aa611-227">No</span></span></p></td>
+<td><p><span data-ttu-id="aa611-p115">Número medio de participantes que participaron en una conferencia en concreto. Se calcula dividiendo el número total de conferencias por el número total de participantes.</span><span class="sxs-lookup"><span data-stu-id="aa611-p115">Average number of people who took part in a given conference. Determined by dividing the total conferences by the total participants.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76e04-230"><strong>Número total de conferencias A/V</strong></span><span class="sxs-lookup"><span data-stu-id="76e04-230"><strong>Total A/V conferences</strong></span></span></p></td>
-<td><p><span data-ttu-id="76e04-231">No</span><span class="sxs-lookup"><span data-stu-id="76e04-231">No</span></span></p></td>
-<td><p><span data-ttu-id="76e04-232">Número total de conferencias que incluían audio o vídeo.</span><span class="sxs-lookup"><span data-stu-id="76e04-232">Total number of conferences that included audio or video.</span></span></p></td>
+<td><p><span data-ttu-id="aa611-230"><strong>Número total de conferencias A/V</strong></span><span class="sxs-lookup"><span data-stu-id="aa611-230"><strong>Total A/V conferences</strong></span></span></p></td>
+<td><p><span data-ttu-id="aa611-231">No</span><span class="sxs-lookup"><span data-stu-id="aa611-231">No</span></span></p></td>
+<td><p><span data-ttu-id="aa611-232">Número total de conferencias que incluían audio o vídeo.</span><span class="sxs-lookup"><span data-stu-id="aa611-232">Total number of conferences that included audio or video.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76e04-233"><strong>	Total de minutos de conferencia A/V</strong></span><span class="sxs-lookup"><span data-stu-id="76e04-233"><strong>Total A/V conference minutes</strong></span></span></p></td>
-<td><p><span data-ttu-id="76e04-234">No</span><span class="sxs-lookup"><span data-stu-id="76e04-234">No</span></span></p></td>
-<td><p><span data-ttu-id="76e04-235">Número total de minutos dedicados a conferencias de audio/vídeo.</span><span class="sxs-lookup"><span data-stu-id="76e04-235">Total number of minutes devoted to audio/video conferencing.</span></span></p>
-<p><span data-ttu-id="76e04-236">La métrica total de minutos de conferencia A/V resume todos los tipos de conferencia de audio y vídeo, entre los que se incluyen: conferencias A/V; Conferencias de mensajería instantánea; conferencias de uso compartido de aplicaciones; conferencias de datos; y conferencias RTC.</span><span class="sxs-lookup"><span data-stu-id="76e04-236">The Total A/V conference minutes metric summarizes all the audio/visual conference types, including: A/V conferences; IM conferences; app sharing conferences; data conferences; and PSTN conferences.</span></span></p></td>
+<td><p><span data-ttu-id="aa611-233"><strong>	Total de minutos de conferencia A/V</strong></span><span class="sxs-lookup"><span data-stu-id="aa611-233"><strong>Total A/V conference minutes</strong></span></span></p></td>
+<td><p><span data-ttu-id="aa611-234">No</span><span class="sxs-lookup"><span data-stu-id="aa611-234">No</span></span></p></td>
+<td><p><span data-ttu-id="aa611-235">Número total de minutos dedicados a conferencias de audio/vídeo.</span><span class="sxs-lookup"><span data-stu-id="aa611-235">Total number of minutes devoted to audio/video conferencing.</span></span></p>
+<p><span data-ttu-id="aa611-236">La métrica total de minutos de conferencia A/V resume todos los tipos de conferencia de audio y vídeo, entre los que se incluyen: conferencias A/V; Conferencias de mensajería instantánea; conferencias de uso compartido de aplicaciones; conferencias de datos; y conferencias RTC.</span><span class="sxs-lookup"><span data-stu-id="aa611-236">The Total A/V conference minutes metric summarizes all the audio/visual conference types, including: A/V conferences; IM conferences; app sharing conferences; data conferences; and PSTN conferences.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76e04-237"><strong>Total de minutos de participantes en conferencia A/V</strong></span><span class="sxs-lookup"><span data-stu-id="76e04-237"><strong>Total A/V conference participant minutes</strong></span></span></p></td>
-<td><p><span data-ttu-id="76e04-238">No</span><span class="sxs-lookup"><span data-stu-id="76e04-238">No</span></span></p></td>
-<td><p><span data-ttu-id="76e04-p116">Número total de minutos de los participantes dedicados a conferencias de audio/vídeo. Por ejemplo, supongamos que un usuario participa 5 minutos en una conferencia de audio/vídeo y un segundo usuario participa 3 minutos en la misma conferencia. Esto hace un total de 8 minutos de los participantes: 5 minutos más 3 minutos.</span><span class="sxs-lookup"><span data-stu-id="76e04-p116">Total number of participant minutes devoted to audio/video conferencing. For example, suppose one user spends 5 minutes in an audio/video conference and a second user spends 3 minutes in that same conference. That makes a total of 8 participant minutes: 5 minutes plus 3 minutes.</span></span></p></td>
+<td><p><span data-ttu-id="aa611-237"><strong>Total de minutos de participantes en conferencia A/V</strong></span><span class="sxs-lookup"><span data-stu-id="aa611-237"><strong>Total A/V conference participant minutes</strong></span></span></p></td>
+<td><p><span data-ttu-id="aa611-238">No</span><span class="sxs-lookup"><span data-stu-id="aa611-238">No</span></span></p></td>
+<td><p><span data-ttu-id="aa611-p116">Número total de minutos de los participantes dedicados a conferencias de audio/vídeo. Por ejemplo, supongamos que un usuario participa 5 minutos en una conferencia de audio/vídeo y un segundo usuario participa 3 minutos en la misma conferencia. Esto hace un total de 8 minutos de los participantes: 5 minutos más 3 minutos.</span><span class="sxs-lookup"><span data-stu-id="aa611-p116">Total number of participant minutes devoted to audio/video conferencing. For example, suppose one user spends 5 minutes in an audio/video conference and a second user spends 3 minutes in that same conference. That makes a total of 8 participant minutes: 5 minutes plus 3 minutes.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76e04-242"><strong>Número medio de minutos en conferencias A/V</strong></span><span class="sxs-lookup"><span data-stu-id="76e04-242"><strong>Average A/V conference minutes</strong></span></span></p></td>
-<td><p><span data-ttu-id="76e04-243">No</span><span class="sxs-lookup"><span data-stu-id="76e04-243">No</span></span></p></td>
-<td><p><span data-ttu-id="76e04-244">Número medio de minutos por conferencia de audio/vídeo.</span><span class="sxs-lookup"><span data-stu-id="76e04-244">Average number of minutes per audio/video conference.</span></span></p></td>
+<td><p><span data-ttu-id="aa611-242"><strong>Número medio de minutos en conferencias A/V</strong></span><span class="sxs-lookup"><span data-stu-id="aa611-242"><strong>Average A/V conference minutes</strong></span></span></p></td>
+<td><p><span data-ttu-id="aa611-243">No</span><span class="sxs-lookup"><span data-stu-id="aa611-243">No</span></span></p></td>
+<td><p><span data-ttu-id="aa611-244">Número medio de minutos por conferencia de audio/vídeo.</span><span class="sxs-lookup"><span data-stu-id="aa611-244">Average number of minutes per audio/video conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76e04-245"><strong>Número total de organizadores únicos de conferencias</strong></span><span class="sxs-lookup"><span data-stu-id="76e04-245"><strong>Total number of unique organizers of conferences</strong></span></span></p></td>
-<td><p><span data-ttu-id="76e04-246">No</span><span class="sxs-lookup"><span data-stu-id="76e04-246">No</span></span></p></td>
-<td><p><span data-ttu-id="76e04-p117">Número total de usuarios que organizaron al menos una conferencia. Los usuarios que organizaron más de una conferencia se cuentan como un único organizador, al igual que ocurre con los usuarios que solo organizaron una única conferencia.</span><span class="sxs-lookup"><span data-stu-id="76e04-p117">Total number of users who organized at least one conference. Users who organized more than one conference are counted as one unique organizer, just like users who only organized a single conference.</span></span></p></td>
+<td><p><span data-ttu-id="aa611-245"><strong>Número total de organizadores únicos de conferencias</strong></span><span class="sxs-lookup"><span data-stu-id="aa611-245"><strong>Total number of unique organizers of conferences</strong></span></span></p></td>
+<td><p><span data-ttu-id="aa611-246">No</span><span class="sxs-lookup"><span data-stu-id="aa611-246">No</span></span></p></td>
+<td><p><span data-ttu-id="aa611-p117">Número total de usuarios que organizaron al menos una conferencia. Los usuarios que organizaron más de una conferencia se cuentan como un único organizador, al igual que ocurre con los usuarios que solo organizaron una única conferencia.</span><span class="sxs-lookup"><span data-stu-id="aa611-p117">Total number of users who organized at least one conference. Users who organized more than one conference are counted as one unique organizer, just like users who only organized a single conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76e04-249"><strong>Número total de mensajes de conferencias</strong></span><span class="sxs-lookup"><span data-stu-id="76e04-249"><strong>Total conference messages</strong></span></span></p></td>
-<td><p><span data-ttu-id="76e04-250">No</span><span class="sxs-lookup"><span data-stu-id="76e04-250">No</span></span></p></td>
-<td><p><span data-ttu-id="76e04-251">Número total de mensajes instantáneos enviados durante las conferencias.</span><span class="sxs-lookup"><span data-stu-id="76e04-251">Total number of instant messages sent during the conferences.</span></span></p></td>
+<td><p><span data-ttu-id="aa611-249"><strong>Número total de mensajes de conferencias</strong></span><span class="sxs-lookup"><span data-stu-id="aa611-249"><strong>Total conference messages</strong></span></span></p></td>
+<td><p><span data-ttu-id="aa611-250">No</span><span class="sxs-lookup"><span data-stu-id="aa611-250">No</span></span></p></td>
+<td><p><span data-ttu-id="aa611-251">Número total de mensajes instantáneos enviados durante las conferencias.</span><span class="sxs-lookup"><span data-stu-id="aa611-251">Total number of instant messages sent during the conferences.</span></span></p></td>
 </tr>
 </tbody>
 </table>
