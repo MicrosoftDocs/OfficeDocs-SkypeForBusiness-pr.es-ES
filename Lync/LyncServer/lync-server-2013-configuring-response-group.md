@@ -12,16 +12,16 @@ ms:contentKeyID: 48185359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60c224e83bc3d86dca647258540aee2551656d05
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: c40f48b52759bfc12441a558b85de89d149f4bf1
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134366"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42196493"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -79,7 +79,7 @@ Esta sección le guiará a través de la configuración del grupo de respuesta 2
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 
 [Planeación de características de administración de llamadas en Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)  

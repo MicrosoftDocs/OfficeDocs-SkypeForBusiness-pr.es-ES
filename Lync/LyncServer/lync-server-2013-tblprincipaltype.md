@@ -12,16 +12,16 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f1c43c0e000e0c8adc3516304b931a68111072d
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 0de18da521bd4dadc63d5be592009bd60b643e7b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141976"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42195163"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -157,7 +157,7 @@ tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan pa
 </tr>
 <tr class="odd">
 <td><p>9 </p></td>
-<td><p>Grupo</p></td>
+<td><p>Group</p></td>
 <td><p>Grupo de seguridad de Active Directory.</p></td>
 <td></td>
 </tr>
@@ -173,7 +173,7 @@ tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan pa
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 
 [tblPrincipal en Lync Server 2013](lync-server-2013-tblprincipal.md)  

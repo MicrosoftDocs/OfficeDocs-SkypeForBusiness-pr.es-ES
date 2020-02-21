@@ -12,16 +12,16 @@ ms:contentKeyID: 48185643
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 835a12cb49c8474389b8ae3cc26773fcea2e4157
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 63e3379e2c703df1d4ce66eda0942befb1569c7e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42140143"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42197403"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -81,7 +81,7 @@ Para los sitios de sucursal con 1.000 a 5.000 y ninguna WAN resistente, se recom
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 
 [Implementar Lync Server 2013](lync-server-2013-deploying-lync-server.md)  

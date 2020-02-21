@@ -12,16 +12,16 @@ ms:contentKeyID: 48184640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5399b2ee928cddf12575e99965729b373288d647
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: bbf77a99b1f8bbe374a6bb1a5129c6fa1fab84d4
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42140523"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42199153"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -208,7 +208,7 @@ Los cmdlets **CsDialInConferencing** se usan para configurar propiedades de conf
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 
 [Blog de Lync Server PowerShell](https://go.microsoft.com/fwlink/p/?linkid=203150)  

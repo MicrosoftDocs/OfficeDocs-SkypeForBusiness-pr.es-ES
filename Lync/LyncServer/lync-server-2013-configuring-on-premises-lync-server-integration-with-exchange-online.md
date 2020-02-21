@@ -12,16 +12,16 @@ ms:contentKeyID: 48184900
 ms.date: 03/30/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17d3673cde1351a98d709749403cd3a572bfef04
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 8c4900beab738f9aa792919cceec015bb0c3ad0f
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134716"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42199703"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -121,7 +121,7 @@ Para comprobar que se han aplicado los cambios, ejecute el siguiente cmdlet en e
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 
 [Suministro de correo de voz de los usuarios de Lync Server 2013 en mensajería unificada de Exchange hospedada](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)  

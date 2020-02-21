@@ -12,16 +12,16 @@ ms:contentKeyID: 48183455
 ms.date: 04/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 502b4cc9c6ed70d0a418dbed7e844064939809d9
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: a1e8203d7ca76ed6bb6e9caab33d633af97c21ec
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153852"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42197553"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -103,7 +103,7 @@ Para obtener más información, consulte el tema de ayuda del cmdlet [set-CsUser
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 
 [Agregar y habilitar la cuenta de usuario para Lync Server 2013](lync-server-2013-add-and-enable-user-account-for-lync-server.md)  

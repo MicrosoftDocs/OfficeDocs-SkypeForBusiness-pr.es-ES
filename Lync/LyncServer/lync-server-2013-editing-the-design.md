@@ -12,16 +12,16 @@ ms:contentKeyID: 51541445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb643fdbcee35a8b24533bed17d003427a8a0ea8
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f1f6fa93dbb7ab1ad33b8972b8f09a025dec58c9
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136327"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42196793"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -72,7 +72,7 @@ La herramienta de planeación muestra la topología del sitio seleccionado. En l
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 
 [Editar el diagrama de configuración de red en Lync Server 2013](lync-server-2013-editing-the-network-configuration-diagram.md)  
