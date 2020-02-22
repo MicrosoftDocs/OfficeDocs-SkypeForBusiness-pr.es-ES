@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo llevar las aplicaciones personalizadas de su equipo del desarrollo a la implementación.
-ms.openlocfilehash: 070b0ecbf0ccc9af798e1d3a3c689ce4d4ff4da2
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: f8c5a7dcc12bc9b3823285138d15a0ccdf11c52a
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161846"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229940"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>Administrar las aplicaciones de línea de negocio en Microsoft Teams
 
@@ -101,13 +101,7 @@ Para permitir que los usuarios de confianza carguen aplicaciones personalizadas,
 
 ## <a name="step-3-upload-to-the-tenant-app-catalog"></a>Paso 3: cargar en el catálogo de aplicaciones de inquilino
 
-Para que la aplicación esté disponible para los usuarios en la tienda de aplicaciones de inquilino, cargue la aplicación. Puede hacerlo <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">usando el cliente de escritorio de Teams</a> o en la página [Manage apps](manage-apps.md) del centro de administración de Microsoft Teams.
-
-Esta es una captura de pantalla de la opción de carga en el cliente de escritorio de Teams.
-
-![Captura de pantalla de la página aplicaciones](media/manage-your-lob-apps-store.png)
-
-Esta es una captura de pantalla de la opción cargar en la página **Manage apps** en el centro de administración de Microsoft Teams.
+Para que la aplicación esté disponible para los usuarios en la tienda de aplicaciones de inquilino, cargue la aplicación. Puede hacerlo en la página [Administrar aplicaciones](manage-apps.md) del centro de administración de Microsoft Teams.
 
 ![Captura de pantalla de la página Administrar aplicaciones en el centro de administración](media/manage-your-lob-apps-upload-new-app.png)
 
@@ -131,6 +125,8 @@ De forma predeterminada, para que los usuarios encuentren esta aplicación, debe
 
 Para actualizar una aplicación, los desarrolladores deben seguir los [pasos 1](#step-1-develop-and-test) y [2](#step-2-validate-in-production).
 
-Puede actualizar la aplicación a través del catálogo de aplicaciones de inquilino. Para ello, en el cliente de escritorio de Teams, vaya a **aplicaciones** > **creadas para &lt;el&gt;nombre de su inquilino**, haga clic en **...** en la esquina superior derecha de la aplicación y, a continuación, haga clic en **Actualizar**. Esto reemplaza la aplicación existente en el catálogo de aplicaciones de inquilino, y todas las directivas de permisos y directivas de configuración siguen aplicándose para la aplicación actualizada. 
+Puede actualizar la aplicación a través del catálogo de aplicaciones de inquilino. Para ello, en el centro de administración de Microsoft Teams, vaya a **aplicaciones** > de Teams**Manage apps**. En la lista de aplicaciones, haga clic en el nombre de la aplicación y, a continuación, en **Actualizar**. De esta manera, se reemplaza la aplicación existente en el catálogo de aplicaciones de inquilino y todas las directivas de permisos de aplicaciones y directivas de configuración de la aplicación siguen aplicándose para la aplicación actualizada.
 
-![Captura de pantalla de la actualización de una aplicación en la página aplicaciones](media/manage-your-lob-apps-update-app.png)
+## <a name="related-apps"></a>Aplicaciones relacionadas
+
+- [Administrar las aplicaciones en el centro de administración de Microsoft Teams](manage-apps.md)

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ccea644ba1f1221d412d73e6488e8610ca02857
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a2b051efa327a014bc719753e7aecae81f78e0f4
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834500"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160387"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Preguntas frecuentes: actualizar Skype Empresarial a Microsoft Teams
 
@@ -82,7 +82,7 @@ Pensando en cómo prestar soporte a los clientes más pequeños que no cuentan c
 
 ### <a name="how-does-the-skype-for-business-online-retirement-announcement-affect-organizations-with-hybrid-configurations-skype-for-business-online-and-skype-for-business-server"></a>¿Cómo afecta el anuncio de retirada de Skype Empresarial Online a las organizaciones con configuraciones híbridas (Skype Empresarial Online y Skype Empresarial Server)?
 
-Los clientes híbridos con configuraciones locales y en línea tendrán que pasar a los usuarios de Skype Empresarial Online a Microsoft Teams antes de la fecha de retiro del 31 de julio de 2021. Las rutas de actualización para configuraciones híbridas creadas en torno a los principios de coexistencia e interoperabilidad se conservarán después de la retirada de Skype Empresarial Online. 
+Los clientes híbridos con configuraciones locales y en línea tendrán que pasar a los usuarios de Skype Empresarial Online a Microsoft Teams antes de la fecha de retiro del 31 de julio de 2021. Las rutas de actualización para configuraciones híbridas creadas en torno a los principios de coexistencia e interoperabilidad se conservarán después de la retirada de Skype Empresarial Online. Para más información, consulte[Coexistencia con Skype empresarial](coexistence-chat-calls-presence.md) y [Comprender la coexistencia e interoperabilidad de Microsoft Teams y Skype empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 Se recomienda a los clientes con suscripciones para ello que participen en [FastTrack](https://fasttrack.microsoft.com/) para recibir asistencia en la incorporación a Teams.
 

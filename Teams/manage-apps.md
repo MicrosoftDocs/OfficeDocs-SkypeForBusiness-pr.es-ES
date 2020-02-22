@@ -17,12 +17,12 @@ description: Obtener información sobre cómo administrar las aplicaciones de Te
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: ab00f4ee445a5711a272ed5b4e2eea104012a7bd
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 41d75d492cf8351f1f925713054ccf4be4d8725d
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161930"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229920"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el centro de administración de Microsoft Teams
 ======================================================
@@ -53,9 +53,13 @@ Para ver la información que desea en la tabla, haga clic en **Editar columna** 
 
 ## <a name="upload-a-new-app"></a>Cargar una nueva aplicación
 
-Para cargar una nueva aplicación personalizada en el catálogo de aplicaciones de inquilino, haga clic en **cargar nueva aplicación** para cargar el paquete de la aplicación en formato. zip. La aplicación no se resalta después de cargarse, por lo que necesitará buscar en el catálogo de inquilino para encontrarla.
+Puede usar el catálogo de aplicaciones para probar y distribuir aplicaciones de línea de negocio que se hayan creado específicamente para su organización. Un paquete de la aplicación de Teams se crea con [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Cuando tenga el paquete de la aplicación, puede agregarlo al catálogo de aplicaciones. Mientras todos los usuarios de su organización pueden ver el catálogo de aplicaciones, solo los administradores globales y los administradores de servicios de equipos pueden publicar y administrarlo.
 
-También puede cargar aplicaciones [con el cliente de escritorio de Teams](tenant-apps-catalog-teams.md#go-to-the-tenant-app-catalog). Para obtener más información, vea [administrar las aplicaciones de línea de negocio en Teams](manage-your-lob-apps.md).
+Para cargar una nueva aplicación personalizada en el catálogo de aplicaciones de inquilino, haga clic en **cargar nueva aplicación** para cargar el paquete de la aplicación en formato. zip. La aplicación no se resalta después de cargarse, por lo que necesitará buscar en el catálogo de la aplicación para encontrarla.
+
+Para actualizar una aplicación después de que se cargue, en la lista de aplicaciones de la página **Administrar aplicaciones** , haga clic en el nombre de la aplicación y, a continuación, haga clic en **Actualizar**. Esto reemplaza la aplicación existente en el catálogo de aplicaciones y todas las directivas de permisos de aplicaciones y directivas de configuración de la aplicación siguen aplicándose para la aplicación actualizada.
+
+Para obtener más información, vea [administrar las aplicaciones de línea de negocio en Teams](manage-your-lob-apps.md).
 
 ## <a name="allow-and-block-apps"></a>Permitir y bloquear aplicaciones
 

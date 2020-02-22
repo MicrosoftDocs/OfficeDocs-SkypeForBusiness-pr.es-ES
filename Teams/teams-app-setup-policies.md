@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 82af710d8c3cb89171085f9053ed1708d7f568ca
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 171192353227e7e0d14d59ca36b632f90aeb9941
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161653"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229930"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -167,7 +167,7 @@ Con los clientes móviles de Teams, los usuarios verán las principales aplicaci
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>¿Los usuarios pueden cambiar el orden de las aplicaciones ancladas a través de una directiva?
 
-En la actualidad, los usuarios pueden cambiar el orden de las aplicaciones ancladas en los clientes móviles de Teams, pero no en los equipos de escritorio ni en los clientes Web. 
+En la actualidad, los usuarios pueden cambiar el orden de las aplicaciones ancladas en los clientes móviles de Teams, pero no en los equipos de escritorio ni en los clientes Web.
 
 ### <a name="custom-teams-apps"></a>Aplicaciones personalizadas de Teams
 
@@ -178,4 +178,3 @@ Asegúrese de seguir las pautas del logotipo antes de enviar la aplicación. Par
  ## <a name="related-topics"></a>Temas relacionados
 
 - [Configurar la administración para aplicaciones en Teams](admin-settings.md)
-- [Publicar una aplicación en el catálogo de aplicaciones de inquilino del cliente de Teams](tenant-apps-catalog-teams.md)
