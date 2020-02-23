@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 535c34bd19a2f019d1b9dc07718cf20d5da2f98e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9c2ef9f509f64e044567d9286704458b4dc91596
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826958"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229905"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Conectores, bots y aplicaciones en Microsoft Teams
 
@@ -57,7 +57,7 @@ Los usuarios tienen que dar su consentimiento a las aplicaciones y el administra
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
-|<br>¿A qué aplicaciones deseo permitir el acceso? ¿A cuáles no quiero permitir el acceso?  | <ul><li>Vea [Consideraciones y permisos de las aplicaciones de Microsoft Teams](app-permissions.md) para ver una serie de aspectos que debe considerar al permitir el acceso a una aplicación, bot, pestaña o conector.</li><li>Vea [Publicar aplicaciones en el catálogo de aplicaciones de inquilinos de Teams](tenant-apps-catalog-teams.md) para obtener información acerca de cómo hacer que una aplicación esté disponible para los usuarios de su organización.</li></ul>|
+|<br>¿A qué aplicaciones deseo permitir el acceso? ¿A cuáles no quiero permitir el acceso?  | <ul><li>Vea [Consideraciones y permisos de las aplicaciones de Microsoft Teams](app-permissions.md) para ver una serie de aspectos que debe considerar al permitir el acceso a una aplicación, bot, pestaña o conector.</li><li>Para obtener más información sobre cómo hacer que una aplicación esté disponible para los usuarios de su organización, consulte [administrar sus aplicaciones en el centro de administración de Microsoft Teams](manage-apps.md).</li></ul>|
 |||
 
 ### <a name="bots-for-private-chats-and-channels"></a>Bots para conversaciones privadas y canales
