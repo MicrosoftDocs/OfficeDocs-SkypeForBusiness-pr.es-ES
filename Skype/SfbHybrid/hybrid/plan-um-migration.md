@@ -11,16 +11,16 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: Este tema cubre lo que debe tener en cuenta cuando decida migrar las implementaciones existentes de Skype empresarial Server o Exchange Server a la versión más reciente o a Skype empresarial online o Exchange Online.
-ms.openlocfilehash: 072720499ac91942d5f1fdbdbe05fffe2de4db05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ce2e0712c75e5aa052c7eff7667f09ff34c3908a
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756004"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265615"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planeación de la migración de Skype empresarial Server y Exchange Server
 
-Este tema cubre lo que debe tener en cuenta cuando decida migrar las implementaciones existentes de Skype empresarial Server o Exchange Server a la versión más reciente o a Skype empresarial online o Exchange Online. Qué puede migrar y cuándo, depende en gran medida de lo que ya ha configurado en su organización. Algunas características, como el operador automático de la organización, no están disponibles en la disponibilidad general (GA), pero estarán disponibles más adelante en 2018.
+Este tema cubre lo que debe tener en cuenta cuando decida migrar las implementaciones existentes de Skype empresarial Server o Exchange Server a la versión más reciente o a Skype empresarial online o Exchange Online. Qué puede migrar y cuándo, depende en gran medida de lo que ya ha configurado en su organización.
 
 ## <a name="feature-changes-in-exchange-2019-and-skype-for-business-server-2019"></a>Cambios de características en Exchange 2019 y Skype empresarial Server 2019
 
@@ -45,12 +45,12 @@ El correo de voz de nube no proporciona la funcionalidad de mensajería de voz a
 
 Con Skype empresarial Server 2019, estamos cambiando de la mensajería unificada de Exchange Online al correo de voz de la nube. Cuando un usuario se mueve a un servidor de Skype empresarial 2019, se iniciará automáticamente con el correo de voz de nube cuando se configure para el correo de voz hospedado. Si actualmente usa la mensajería unificada de Exchange Online, no tiene que hacer nada más que mover un usuario a Skype empresarial Server 2019 para empezar a usar el correo de voz en la nube. Sin embargo, hay algunos cambios en la funcionalidad que debe tener en cuenta:
 
-- El operador automático de la organización (el reemplazo del operador automático en la mensajería unificada de Exchange Online) no está disponible en disponibilidad general, pero estará disponible más adelante en 2018.
+- Operador automático de organización es el reemplazo del operador automático en la mensajería unificada de Exchange Online.
 - La configuración del correo de voz de usuario en Outlook en la web no se aplica al correo de voz de nube.
 
 ## <a name="on-premises-um-migration-scenarios"></a>Escenarios de migración de mensajería unificada locales
 
-Se admiten los siguientes escenarios que le permitirán migrar usuarios a Exchange 2019 y al correo de voz de la nube. Más adelante en 2018, se proporcionarán escenarios adicionales que le permitirán migrar desde versiones adicionales de Exchange y Skype empresarial Server. También proporcionaremos características adicionales, como operador automático de organización.
+Se admiten los siguientes escenarios que le permitirán migrar usuarios a Exchange 2019 y al correo de voz de la nube.
 
 - Exchange 2013/Exchange 2016 y Skype empresarial Server 2015 a Exchange 2019 y Skype empresarial Server 2019
 - Skype empresarial Server 2015 a Skype empresarial Server 2019 con Exchange 2013/Exchange 2016
@@ -68,7 +68,7 @@ El orden en que se mueven los usuarios a Exchange 2019 y Skype empresarial Serve
 | Buzón ubicado en:            | Usuario ubicado en Skype empresarial Server 2015 | Usuario ubicado en Skype empresarial Server 2019  |
 |--------------------------------|-----------------------------------------|------------------------------------------|
 | Exchange 2013/Exchange 2016    | UM de Exchange                             | UM de Exchange                              |
-| Exchange 2019                  | No admitido                           | Correo de voz de nube                          |
+| Exchange 2019                  | No admitido                           | Correo de voz en la nube                          |
 
 Antes de iniciar la migración a Skype empresarial Server 2019 y Exchange 2019, tenga en cuenta lo siguiente:
 

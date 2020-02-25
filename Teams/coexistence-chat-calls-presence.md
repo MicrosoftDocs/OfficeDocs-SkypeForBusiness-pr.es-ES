@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Este documento describe el comportamiento de la conversación, el enrutamiento de llamadas y la presencia entre los usuarios de Teams y Skype empresarial, tanto en el inquilino como en el federado, en función de los modos de TeamsUpgrade asignados. Incluye optimizaciones de enrutamiento, comportamiento de presencia, así como el cambio de modo de TeamsUpgrade predeterminado de *heredado* a *islas* y la jubilación inminente de la *herencia*.
-ms.openlocfilehash: 1a4a9f4c08da3e89324eb44551c0002931cee714
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 442b4b68b9739d9d17d02e298b53c5d9ecec3c8f
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050122"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236830"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 
@@ -58,9 +58,9 @@ Los parámetros que determinan el método de enrutamiento de subprocesos son:
 > [!NOTE]
 > En la actualidad, toda Federación que incluye equipos aprovecha la canalización de Federación de Skype empresarial, así como los equipos, la interoperabilidad de Skype empresarial. Planeamos equipos nativos: Federación de equipos. El presente documento se actualizará al liberar la Federación nativa.
 
-# <a name="chat-and-call-routing"></a>Enrutamiento de llamadas y chats
+## <a name="chat-and-call-routing"></a>Enrutamiento de llamadas y chats
 
-## <a name="in-tenant-routing-for-new-chats-or-calls"></a>Enrutamiento en el inquilino para nuevos chats o llamadas 
+### <a name="in-tenant-routing-for-new-chats-or-calls"></a>Enrutamiento en el inquilino para nuevos chats o llamadas 
 
 Las tablas siguientes capturan el enrutamiento de llamadas y chats en inquilino y son válidos para llamadas nuevas o chats que no se inician desde un subproceso ya existente. Describe qué cliente recibirá una nueva llamada o un chat, si ha sido originado por un usuario de la izquierda, para un usuario de ese inquilino a la derecha.
 
@@ -102,7 +102,7 @@ En las siguientes tablas:
 |TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |
 
-## <a name="federated-routing-for-new-chats-or-calls"></a>Enrutamiento federado para nuevos chats o llamadas
+### <a name="federated-routing-for-new-chats-or-calls"></a>Enrutamiento federado para nuevos chats o llamadas
   
 Las tablas siguientes capturan el enrutamiento de llamadas federadas y chats, y son válidas para nuevas llamadas o chats. Describen qué cliente recibirá una nueva llamada o un chat, si ha sido originado por un usuario de la izquierda, a un usuario de destino federado a la derecha.
 
@@ -157,14 +157,14 @@ Si el subproceso persistente preexistente de Teams era un subproceso nativo (es 
 
 Los subprocesos de Skype empresarial no persisten más allá del tiempo de espera de sesión SIP de 10 minutos. Los chats y las llamadas desde un subproceso existente en Skype empresarial antes del vencimiento de la sesión SIP se redirigirán de la misma manera que el hilo. Las llamadas y los chats de un subproceso existente en Skype empresarial más allá del tiempo de espera de la sesión SIP se enrutarán a la Skype empresarial de la parte remota, independientemente del cliente del que provenga la conversación original.
 
-## <a name="availability"></a>Disponibilidad
+### <a name="availability"></a>Disponibilidad
 
 Los comportamientos en el inquilino y en el inquilino descritos anteriormente están disponibles, con las siguientes limitaciones:
 
 - Los asistentes externos cuyos inquilinos residen en una implementación o geografía diferente de GoLocal no verán la conversación de mensajes instantáneos en una reunión "federada".
 - No se admite la Federación y la interoperabilidad entre O365 y nubes soberanos multiinquilino.
 
-# <a name="presence"></a>Presence
+## <a name="presence"></a>Presence
 
 Cuando tiene una situación en la que algunos de los usuarios usan el cliente de Teams y otros siguen usando el cliente de Skype empresarial, es posible que tenga un número de usuarios que están usando ambos clientes. Aún quiere que los Estados de presencia se compartan con todos los usuarios sin tener en cuenta qué cliente tiene un usuario individual. Cuando se comparte en toda la organización, los usuarios pueden determinar mejor si es adecuado iniciar una conversación o hacer una llamada.
 
@@ -180,7 +180,7 @@ Para saber qué comportamiento esperar, necesitará comprender que la presencia 
     * Desde Skype empresarial, cualquier otro usuario verá la presencia de Skype empresarial del usuario de islas (tanto en el inquilino como en el servicio federado). Esto se ha alineado con las tablas de enrutamiento anteriores
 
 
-## <a name="in-tenant-presence"></a>Presencia en el inquilino
+### <a name="in-tenant-presence"></a>Presencia en el inquilino
 
 Los mensajes enviados a los usuarios de TeamsOnly siempre estarán en el equipo. Los mensajes enviados a\* los usuarios de SfB siempre estarán en Skype para empresas, si la conversación es posible según se describe anteriormente. Los mensajes enviados a los usuarios de las islas siempre se encontrarán en el cliente desde el que se han originado.
 
@@ -194,7 +194,7 @@ En la tabla se describe la presencia del editor que verá un monitor, según el 
 |Teams |&boxv; |Teams |Skype Empresarial |Teams |
 | | | | |
 
-## <a name="federated-presence"></a>Presencia federada
+### <a name="federated-presence"></a>Presencia federada
 
 La presencia federada se basa en la disponibilidad federada que se muestra en la tabla 2.
 
@@ -208,7 +208,7 @@ En la tabla siguiente se describe la presencia del editor que verá un monitor, 
 |Teams | &boxv;|Skype Empresarial |Skype Empresarial |Teams|
 | | | | ||
 
-## <a name="presence-in-pre-existing-threads"></a>Presencia en subprocesos preexistentes
+### <a name="presence-in-pre-existing-threads"></a>Presencia en subprocesos preexistentes
 
 Para alinear la presencia y la disponibilidad en subprocesos ya existentes, la presencia de destino expuesta en ese subproceso debe estar alineada con el enrutamiento del subproceso, siempre que sea posible el enrutamiento.
 

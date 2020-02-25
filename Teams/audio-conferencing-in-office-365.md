@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
-ms.openlocfilehash: 1a9863f1566b06c46b2788bb484d8a4672b6cdbf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9a92715af20e2e27a4b5051bfeab461a61efdacf
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826298"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236820"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audioconferencia en Office 365
 Las conferencias de audio en Office 365 permiten a los usuarios llamar a reuniones desde sus teléfonos. La Conferencia de audio permite hasta 250 asistentes telefónicos.
@@ -47,7 +47,7 @@ Solo debe configurar las audioconferencias para los usuarios que van a programar
 Una vez que los asistentes se hayan unido a la reunión, también podrán marcar e invitar a otras personas que llamen a una reunión de Skype empresarial o Microsoft Teams. Vea [llamar desde una reunión de Teams para que otras personas puedan unirse a ella](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) o [llamar desde una reunión de Skype empresarial para que otras personas puedan unirse](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)a ella.
 
 ## <a name="what-does-it-cost"></a>¿Cuánto cuesta?
-Para obtener información sobre precios, consulte [Precios de audioconferencias](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Para obtener información sobre precios, consulte [Precios de audioconferencias](https://products.office.com/microsoft-teams/online-meeting-solutions#customerstoryregion2).
 
 ## <a name="where-is-it-available"></a>¿Dónde está disponible?
 Con las conferencias de audio, los usuarios pueden usar números de teléfono de pago y gratuitos para llamar a reuniones. Los números de teléfono de pago (servicio) se asignan automáticamente como números de conferencias de audio compartidas a las organizaciones cuando están habilitadas para conferencias de audio. Se pueden asignar a su organización números gratuitos y de pago dedicados de otras ciudades.

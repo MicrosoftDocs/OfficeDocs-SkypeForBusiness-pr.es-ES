@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre las licencias de complemento, las características y cómo comprar planes de Office 365 Enterprise (sin Audioconferencia). '
-ms.openlocfilehash: e8d9c0bce382194318ae9e9330e55900c931026e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 5f309cff63fb0e055d07329e276050cf5f1db4c0
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42155072"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236800"
 ---
 # <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 Enterprise E5 (sin conferencias de audio)
 
@@ -32,6 +32,6 @@ Si ya ha comprado el plan Office 365 Enterprise E5 (sin conferencias de audio), 
 
 |Para agregar esta característica|Esto es lo que debe hacer |
 |:------------------|:--------------------------|
-|Audioconferencia <br/> | Para obtener este complemento, siga este procedimiento: <ol><li>Si ya ha comprado un plan E5 pero la característica audioconferencia no está disponible en su país o región, tendrá que usar un proveedor de servicios de audioconferencia de terceros. Busque un proveedor de servicios de audioconferencia de terceros en [Microsoft Pinpoint](https://go.microsoft.com/fwlink/?LinkId=797530).<br/>Consulte este artículo para ver si la Audioconferencia está disponible en su país o región: [Países y regiones con disponibilidad para las Audioconferencias y los Planes de llamada](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) </li><li/>Si está disponible, use el [botón cambiar de plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a) para desplazarse al plan de Office 365 Enterprise E5 que incluye audioconferencia. También obtendrás más características.</li></ol> |
+|Audioconferencia <br/> | Para obtener este complemento, use el [botón cambiar de plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a), si está disponible, para desplazarse al plan Office 365 Enterprise E5 que incluye audioconferencia. Además, obtendrá otras características. </li></ol> |
 |¡Sistema telefónico incluido! <br/> | Compre un [plan de llamadas](../calling-plans-for-office-365.md) para Office 365. <br/>  O bien, use el [servicio telefónico de su proveedor existente](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |Se incluye el buzón de voz de nube. <br/> |No es necesario hacer nada más.  <br/> |

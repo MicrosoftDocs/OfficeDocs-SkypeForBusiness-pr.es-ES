@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Obtenga información sobre cómo asignar licencias de características como audioconferencia, sistema telefónico y planes de llamadas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46ae5952d79f3f0ef0a6137b240661550ecead00
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 9d75201b7be82337898d4e9fe4feafb4de1155a9
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888689"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236840"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Asignar licencias de Microsoft Teams
 
@@ -107,14 +107,6 @@ for each ($user in $users)
 | Plan de llamadas nacionales (120 minutos por usuario/mes por país) </br>*Nota: este plan no está disponible en nosotros*. | MCOPSTN5 |
 | Plan de llamadas nacionales (240 minutos por usuario/mes por país) </br>*Nota: este plan no está disponible en nosotros*. | MCOPSTN6 |
 | Créditos de comunicaciones | MCOPSTNPP | 
-
-## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>Audioconferencias: sugerencias y scripts para asignar licencias
-
-Esto es lo que debe saber antes de asignar licencias de audioconferencia.
-
-- **Proveedor de servicios de audioconferencia de terceros**: si alguien ya está configurado para usar un proveedor de servicios de audioconferencia de terceros, cuando le asigne una licencia de audioconferencia, se cambiará para usar Microsoft como el proveedor de servicios de audioconferencia. Puede volver a cambiar al usuario al proveedor de terceros.
-
-- **Pasos siguientes**: después de asignar las licencias de audioconferencia, debe asignar un proveedor de servicios de audioconferencia. Consulte [asignar Microsoft como el proveedor de servicios de audioconferencia](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
 ## <a name="assign-an-audio-conferencing-license-to-one-user"></a>Asignar una licencia de audioconferencia a un usuario
 

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lea este tema para obtener información sobre cómo planear la omisión de medios con enrutamiento directo de sistema telefónico.
-ms.openlocfilehash: 7c7d82d1ac13ec1612403ba5fd20471e72173122
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c40840e2169a67172f006a0f0910c715feb40253
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214496"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265645"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -137,7 +137,7 @@ En la ruta multimedia de las llamadas no omitidas para usuarios finales | Consta
 En la ruta multimedia de las llamadas omitidas para usuarios finales | Sin | Si el cliente no puede alcanzar la SBC en la dirección IP pública | 
 En la ruta multimedia de las aplicaciones de voz | Constantemente | Sin | 
 Puede realizar transcodificación (B2BUA)\* | Sí | No, solo retransmite audio entre puntos de conexión | 
-Cantidad de instancias en todo el mundo y ubicación | 8 total: 2 en Oriente de EE. UU. y oeste; 2 en Amsterdam y Dublín; 2 en Hong Kong y Singapur; 2 en Japón (se agrega en Q1CY2019)  | Multiple
+Cantidad de instancias en todo el mundo y ubicación | 8 total: 2 en Oriente de EE. UU. y oeste; 2 en Amsterdam y Dublín; 2 en Hong Kong y Singapur; 2 en Japón  | Multiple
 
 El intervalo IP es 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254). 
 

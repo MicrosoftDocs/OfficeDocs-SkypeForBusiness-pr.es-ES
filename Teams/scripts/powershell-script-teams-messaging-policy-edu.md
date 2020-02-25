@@ -15,15 +15,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b45eef7792ce9c0930c9e78249259caedb325c5
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 07efc7b86045de9e76669d4ffbf185aba9d94d1f
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888749"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236810"
 ---
-<a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Ejemplo de script de PowerShell: Crear un equipo y asignar una directiva de mensajería.
--------------------------------------------------------------------------
+# <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Ejemplo de script de PowerShell: Crear un equipo y asignar una directiva de mensajería.
 
 Use este script de PowerShell para crear una directiva de mensajería en Microsoft Teams y asignarla a los usuarios. 
 
