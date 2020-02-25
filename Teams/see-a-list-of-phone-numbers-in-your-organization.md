@@ -22,97 +22,99 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo usar el centro de administración de Microsoft Teams para ver una lista de todos los números de teléfono de su organización y todos los números que se asignan a los usuarios o que no están asignados.
-ms.openlocfilehash: 7b2ae1d2cf008b3f824f3d3837b7023766571ec1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 029f5f15e4d414ed2f6bc4e06d39b3456b32ee62
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838160"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236860"
 ---
-# <a name="see-a-list-of-phone-numbers-in-your-organization"></a><span data-ttu-id="0cbfc-103">Ver una lista de números de teléfono de su organización</span><span class="sxs-lookup"><span data-stu-id="0cbfc-103">See a list of phone numbers in your organization</span></span>
+# <a name="see-a-list-of-phone-numbers-in-your-organization"></a><span data-ttu-id="5c778-103">Ver una lista de números de teléfono de su organización</span><span class="sxs-lookup"><span data-stu-id="5c778-103">See a list of phone numbers in your organization</span></span>
 
-<span data-ttu-id="0cbfc-104">Existen diferentes tipos de números de teléfono que puede asignar a los usuarios u otros servicios (números de servicio), como las conferencias de audio en Office 365.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-104">There are different types of phone numbers that you can assign to users or other services (service numbers), such as for Audio Conferencing in Office 365.</span></span>
+<span data-ttu-id="5c778-104">Existen diferentes tipos de números de teléfono que puede asignar a los usuarios u otros servicios (números de servicio), como las conferencias de audio en Office 365.</span><span class="sxs-lookup"><span data-stu-id="5c778-104">There are different types of phone numbers that you can assign to users or other services (service numbers), such as for Audio Conferencing in Office 365.</span></span>
   
-## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a><span data-ttu-id="0cbfc-105">Para ver una lista de todos los números de teléfono de los que dispone para su organización</span><span class="sxs-lookup"><span data-stu-id="0cbfc-105">To see a list of all phone numbers that you have for your organization</span></span>
+## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a><span data-ttu-id="5c778-105">Para ver una lista de todos los números de teléfono de los que dispone para su organización</span><span class="sxs-lookup"><span data-stu-id="5c778-105">To see a list of all phone numbers that you have for your organization</span></span>
 
-<span data-ttu-id="0cbfc-106">![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Teams **con el centro de administración de Microsoft Teams**</span><span class="sxs-lookup"><span data-stu-id="0cbfc-106">![An icon showing the Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="5c778-106">![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Teams **con el centro de administración de Microsoft Teams**</span><span class="sxs-lookup"><span data-stu-id="5c778-106">![An icon showing the Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="0cbfc-107">Vaya al **centro de administración de Microsoft Teams**.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-107">Go to the **Microsoft Teams admin center**.</span></span>
+1. <span data-ttu-id="5c778-107">Vaya al **centro de administración de Microsoft Teams**.</span><span class="sxs-lookup"><span data-stu-id="5c778-107">Go to the **Microsoft Teams admin center**.</span></span>
 
-2. <span data-ttu-id="0cbfc-108">En el panel de navegación izquierdo, vaya a **Voz** > **Números de teléfono**.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-108">In the left navigation, go to **Voice** > **Phone numbers**.</span></span>
+2. <span data-ttu-id="5c778-108">En el panel de navegación izquierdo, vaya a **Voz** > **Números de teléfono**.</span><span class="sxs-lookup"><span data-stu-id="5c778-108">In the left navigation, go to **Voice** > **Phone numbers**.</span></span>
 
     > [!IMPORTANT]
-    > <span data-ttu-id="0cbfc-109">Para ver la opción de **voz** en el navegación izquierdo en el centro de administración de Skype empresarial, primero debe comprar al menos una **licencia de Enterprise E5**, una licencia de complemento de **sistema de teléfono** o una licencia de complemento de **audioconferencia** .</span><span class="sxs-lookup"><span data-stu-id="0cbfc-109">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
+    > <span data-ttu-id="5c778-109">Para ver la opción de **voz** en el navegación izquierdo en el centro de administración de Skype empresarial, primero debe comprar al menos una **licencia de Enterprise E5**, una licencia de complemento de **sistema de teléfono** o una licencia de complemento de **audioconferencia** .</span><span class="sxs-lookup"><span data-stu-id="5c778-109">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
 
-3. <span data-ttu-id="0cbfc-110">Para ver los números de teléfono asignados, vea la columna **Estado** .</span><span class="sxs-lookup"><span data-stu-id="0cbfc-110">To view the phone numbers that are assigned, see the **Status** column.</span></span>
+3. <span data-ttu-id="5c778-110">Para ver los números de teléfono asignados, vea la columna **Estado** .</span><span class="sxs-lookup"><span data-stu-id="5c778-110">To view the phone numbers that are assigned, see the **Status** column.</span></span>
 
-4. <span data-ttu-id="0cbfc-111">Para filtrar la vista, haga clic en el icono de filtro.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-111">To filter your view, click the filter icon.</span></span> <span data-ttu-id="0cbfc-112">En el panel de **filtro** , puede usar la lista desplegable para filtrar la vista por:</span><span class="sxs-lookup"><span data-stu-id="0cbfc-112">On the **Filter** pane, you can use the drop-down list to filter your view by:</span></span>
+4. <span data-ttu-id="5c778-111">Para filtrar la vista, haga clic en el icono de filtro.</span><span class="sxs-lookup"><span data-stu-id="5c778-111">To filter your view, click the filter icon.</span></span> <span data-ttu-id="5c778-112">En el panel de **filtro** , puede usar la lista desplegable para filtrar la vista por:</span><span class="sxs-lookup"><span data-stu-id="5c778-112">On the **Filter** pane, you can use the drop-down list to filter your view by:</span></span>
 
-   - <span data-ttu-id="0cbfc-113">**Intervalo de números** que haya establecido.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-113">**Number range** that you set.</span></span> <span data-ttu-id="0cbfc-114">Puede buscar por el número más bajo o el número más alto.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-114">You can search by lowest number or highest number.</span></span>
+   - <span data-ttu-id="5c778-113">**Intervalo de números** que haya establecido.</span><span class="sxs-lookup"><span data-stu-id="5c778-113">**Number range** that you set.</span></span> <span data-ttu-id="5c778-114">Puede buscar por el número más bajo o el número más alto.</span><span class="sxs-lookup"><span data-stu-id="5c778-114">You can search by lowest number or highest number.</span></span>
 
-   - <span data-ttu-id="0cbfc-115">Números que comienzan con el número que especifique.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-115">Numbers that start with a number that you specify.</span></span>
+   - <span data-ttu-id="5c778-115">Números que comienzan con el número que especifique.</span><span class="sxs-lookup"><span data-stu-id="5c778-115">Numbers that start with a number that you specify.</span></span>
 
-   - <span data-ttu-id="0cbfc-116">**Estado de activación**del número.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-116">Number **activation state**.</span></span>
+   - <span data-ttu-id="5c778-116">**Estado de activación**del número.</span><span class="sxs-lookup"><span data-stu-id="5c778-116">Number **activation state**.</span></span>
 
-   - <span data-ttu-id="0cbfc-117">**Tipo**numérico.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-117">Number **type**.</span></span>
+   - <span data-ttu-id="5c778-117">**Tipo**numérico.</span><span class="sxs-lookup"><span data-stu-id="5c778-117">Number **type**.</span></span>
 
-   - <span data-ttu-id="0cbfc-118">**Estado**del número de teléfono.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-118">Phone number **status**.</span></span>
+   - <span data-ttu-id="5c778-118">**Estado**del número de teléfono.</span><span class="sxs-lookup"><span data-stu-id="5c778-118">Phone number **status**.</span></span>
 
-## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a><span data-ttu-id="0cbfc-119">Para ver todos los números de teléfono asignados a los usuarios</span><span class="sxs-lookup"><span data-stu-id="0cbfc-119">To see all of the phone numbers that are assigned to users</span></span>
+## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a><span data-ttu-id="5c778-119">Para ver todos los números de teléfono asignados a los usuarios</span><span class="sxs-lookup"><span data-stu-id="5c778-119">To see all of the phone numbers that are assigned to users</span></span>
 
-<span data-ttu-id="0cbfc-120">Al configurar usuarios, es posible que solo desee ver la lista de los números de teléfono que ya están asignados a los usuarios y los números de teléfono disponibles para que se les asignen.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-120">When you are setting up users, you might just want to see the list of the phone numbers that are already assigned to users and which phone numbers are available to be assigned to them.</span></span>
+<span data-ttu-id="5c778-120">Al configurar usuarios, es posible que solo desee ver la lista de los números de teléfono que ya están asignados a los usuarios y los números de teléfono disponibles para que se les asignen.</span><span class="sxs-lookup"><span data-stu-id="5c778-120">When you are setting up users, you might just want to see the list of the phone numbers that are already assigned to users and which phone numbers are available to be assigned to them.</span></span>
   
-<span data-ttu-id="0cbfc-121">![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Teams **con el centro de administración de Microsoft Teams**</span><span class="sxs-lookup"><span data-stu-id="0cbfc-121">![An icon showing the Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="5c778-121">![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Teams **con el centro de administración de Microsoft Teams**</span><span class="sxs-lookup"><span data-stu-id="5c778-121">![An icon showing the Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="0cbfc-122">Vaya al **centro de administración de Microsoft Teams**.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-122">Go to the **Microsoft Teams admin center**.</span></span>
+1. <span data-ttu-id="5c778-122">Vaya al **centro de administración de Microsoft Teams**.</span><span class="sxs-lookup"><span data-stu-id="5c778-122">Go to the **Microsoft Teams admin center**.</span></span>
 
-2. <span data-ttu-id="0cbfc-123">En el panel de navegación izquierdo, vaya a **Voz** > **Números de teléfono**.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-123">In the left navigation, go to **Voice** > **Phone numbers**.</span></span>
+2. <span data-ttu-id="5c778-123">En el panel de navegación izquierdo, vaya a **Voz** > **Números de teléfono**.</span><span class="sxs-lookup"><span data-stu-id="5c778-123">In the left navigation, go to **Voice** > **Phone numbers**.</span></span>
 
     > [!IMPORTANT]
-    > <span data-ttu-id="0cbfc-124">Para ver la opción de **voz** en el navegación izquierdo en el centro de administración de Microsoft Teams, primero debe comprar al menos una **licencia de Enterprise E5**, una licencia de complemento de **sistema de teléfono** o una licencia de complemento de **audioconferencia** .</span><span class="sxs-lookup"><span data-stu-id="0cbfc-124">For you to see the **Voice** option in the left navigation in the Microsoft Teams admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
+    > <span data-ttu-id="5c778-124">Para ver la opción de **voz** en el navegación izquierdo en el centro de administración de Microsoft Teams, primero debe comprar al menos una **licencia de Enterprise E5**, una licencia de complemento de **sistema de teléfono** o una licencia de complemento de **audioconferencia** .</span><span class="sxs-lookup"><span data-stu-id="5c778-124">For you to see the **Voice** option in the left navigation in the Microsoft Teams admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
 
-3. <span data-ttu-id="0cbfc-125">Para ordenar rápidamente los números de modo que pueda ver cuáles están asignados, haga clic en el encabezado de la columna **Estado** .</span><span class="sxs-lookup"><span data-stu-id="0cbfc-125">To quickly sort the numbers so that you can see which are assigned, click the **Status** column heading.</span></span> <span data-ttu-id="0cbfc-126">O bien, puede hacer clic en el icono de filtro y, a continuación, filtrar la vista para ver los números de teléfono que ya están asignados a los usuarios o los números no asignados que puede asignar a un usuario.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-126">Or, you can click the filter icon and then filter your view to see phone numbers that are already assigned to users or unassigned numbers that you can assign to a user.</span></span> <span data-ttu-id="0cbfc-127">Puede filtrar por:</span><span class="sxs-lookup"><span data-stu-id="0cbfc-127">You can filter by:</span></span>
+3. <span data-ttu-id="5c778-125">Para ordenar rápidamente los números de modo que pueda ver cuáles están asignados, haga clic en el encabezado de la columna **Estado** .</span><span class="sxs-lookup"><span data-stu-id="5c778-125">To quickly sort the numbers so that you can see which are assigned, click the **Status** column heading.</span></span> <span data-ttu-id="5c778-126">O bien, puede hacer clic en el icono de filtro y, a continuación, filtrar la vista para ver los números de teléfono que ya están asignados a los usuarios o los números no asignados que puede asignar a un usuario.</span><span class="sxs-lookup"><span data-stu-id="5c778-126">Or, you can click the filter icon and then filter your view to see phone numbers that are already assigned to users or unassigned numbers that you can assign to a user.</span></span> <span data-ttu-id="5c778-127">Puede filtrar por:</span><span class="sxs-lookup"><span data-stu-id="5c778-127">You can filter by:</span></span>
 
-   - <span data-ttu-id="0cbfc-128">**Asignado a usuario**</span><span class="sxs-lookup"><span data-stu-id="0cbfc-128">**Assigned to user**</span></span>
+   - <span data-ttu-id="5c778-128">**Asignado a usuario**</span><span class="sxs-lookup"><span data-stu-id="5c778-128">**Assigned to user**</span></span>
 
-   - <span data-ttu-id="0cbfc-129">**Asignado a puente de conferencia**</span><span class="sxs-lookup"><span data-stu-id="0cbfc-129">**Assigned to conference bridge**</span></span> 
+   - <span data-ttu-id="5c778-129">**Asignado a puente de conferencia**</span><span class="sxs-lookup"><span data-stu-id="5c778-129">**Assigned to conference bridge**</span></span> 
 
-   - <span data-ttu-id="0cbfc-130">**Sin asignar**</span><span class="sxs-lookup"><span data-stu-id="0cbfc-130">**Unassigned**</span></span>
+   - <span data-ttu-id="5c778-130">**Sin asignar**</span><span class="sxs-lookup"><span data-stu-id="5c778-130">**Unassigned**</span></span>
 
-## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a><span data-ttu-id="0cbfc-131">Para ver los números de teléfono asignados a los usuarios de voz</span><span class="sxs-lookup"><span data-stu-id="0cbfc-131">To see the phone numbers that are assigned to voice users</span></span>
+## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a><span data-ttu-id="5c778-131">Para ver los números de teléfono asignados a los usuarios de voz</span><span class="sxs-lookup"><span data-stu-id="5c778-131">To see the phone numbers that are assigned to voice users</span></span>
 
-<span data-ttu-id="0cbfc-132">Al configurar los usuarios de su organización para realizar y recibir llamadas telefónicas, deberá obtener primero los números de teléfono y después asignarlos a los usuarios.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-132">When you are setting up users in your organization to make and receive phone calls, you must first get the phone numbers and then assign them to your users.</span></span> <span data-ttu-id="0cbfc-133">Una vez que haya recibido los números de teléfono, es posible que solo desee ver el estado de activación de las asignaciones de números.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-133">After you've gotten your phone numbers, you might just want to see the activation status of the number assignments.</span></span>
+<span data-ttu-id="5c778-132">Al configurar los usuarios de su organización para realizar y recibir llamadas telefónicas, deberá obtener primero los números de teléfono y después asignarlos a los usuarios.</span><span class="sxs-lookup"><span data-stu-id="5c778-132">When you are setting up users in your organization to make and receive phone calls, you must first get the phone numbers and then assign them to your users.</span></span> <span data-ttu-id="5c778-133">Una vez que haya recibido los números de teléfono, es posible que solo desee ver el estado de activación de las asignaciones de números.</span><span class="sxs-lookup"><span data-stu-id="5c778-133">After you've gotten your phone numbers, you might just want to see the activation status of the number assignments.</span></span>
 
-<span data-ttu-id="0cbfc-134">![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Teams **con el centro de administración de Microsoft Teams** .</span><span class="sxs-lookup"><span data-stu-id="0cbfc-134">![An icon showing the Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center** !</span></span>
+<span data-ttu-id="5c778-134">![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Teams **con el centro de administración de Microsoft Teams** .</span><span class="sxs-lookup"><span data-stu-id="5c778-134">![An icon showing the Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center** !</span></span>
   
-1. <span data-ttu-id="0cbfc-135">Vaya al **centro de administración de Microsoft Teams**.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-135">Go to the **Microsoft Teams admin center**.</span></span>
+1. <span data-ttu-id="5c778-135">Vaya al **centro de administración de Microsoft Teams**.</span><span class="sxs-lookup"><span data-stu-id="5c778-135">Go to the **Microsoft Teams admin center**.</span></span>
 
-2. <span data-ttu-id="0cbfc-136">En el panel de navegación izquierdo, vaya a **Voz** > **Números de teléfono**.</span><span class="sxs-lookup"><span data-stu-id="0cbfc-136">In the left navigation, go to **Voice** > **Phone numbers**.</span></span>
+2. <span data-ttu-id="5c778-136">En el panel de navegación izquierdo, vaya a **Voz** > **Números de teléfono**.</span><span class="sxs-lookup"><span data-stu-id="5c778-136">In the left navigation, go to **Voice** > **Phone numbers**.</span></span>
 
     > [!IMPORTANT]
-    > <span data-ttu-id="0cbfc-137">Para ver la opción de **voz** en el navegación izquierdo en el centro de administración de Microsoft Teams, primero debe comprar al menos una **licencia de Enterprise E5**, una licencia de complemento de **sistema de teléfono** o una licencia de complemento de **audioconferencia** .</span><span class="sxs-lookup"><span data-stu-id="0cbfc-137">For you to see the **Voice** option in the left navigation in the Microsoft Teams admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
+    > <span data-ttu-id="5c778-137">Para ver la opción de **voz** en el navegación izquierdo en el centro de administración de Microsoft Teams, primero debe comprar al menos una **licencia de Enterprise E5**, una licencia de complemento de **sistema de teléfono** o una licencia de complemento de **audioconferencia** .</span><span class="sxs-lookup"><span data-stu-id="5c778-137">For you to see the **Voice** option in the left navigation in the Microsoft Teams admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
 
-3. <span data-ttu-id="0cbfc-138">Haga clic en el icono de filtro para filtrar la vista por **Estado de activación** , que puede filtrar por:</span><span class="sxs-lookup"><span data-stu-id="0cbfc-138">Click the filter icon to filter your view by **Activation state** You can filter by:</span></span>
+3. <span data-ttu-id="5c778-138">Haga clic en el icono de filtro para filtrar la vista por **Estado de activación** , que puede filtrar por:</span><span class="sxs-lookup"><span data-stu-id="5c778-138">Click the filter icon to filter your view by **Activation state** You can filter by:</span></span>
 
-   - <span data-ttu-id="0cbfc-139">**Activas**</span><span class="sxs-lookup"><span data-stu-id="0cbfc-139">**Activated**</span></span>
+   - <span data-ttu-id="5c778-139">**Activas**</span><span class="sxs-lookup"><span data-stu-id="5c778-139">**Activated**</span></span>
 
-   - <span data-ttu-id="0cbfc-140">**Tarea pendiente**</span><span class="sxs-lookup"><span data-stu-id="0cbfc-140">**Assignment pending**</span></span>
+   - <span data-ttu-id="5c778-140">**Tarea pendiente**</span><span class="sxs-lookup"><span data-stu-id="5c778-140">**Assignment pending**</span></span>
 
-   - <span data-ttu-id="0cbfc-141">**Error en la asignación**</span><span class="sxs-lookup"><span data-stu-id="0cbfc-141">**Assignment failed**</span></span>
+   - <span data-ttu-id="5c778-141">**Error en la asignación**</span><span class="sxs-lookup"><span data-stu-id="5c778-141">**Assignment failed**</span></span>
 
-   - <span data-ttu-id="0cbfc-142">**Actualización pendiente**</span><span class="sxs-lookup"><span data-stu-id="0cbfc-142">**Update pending**</span></span>
+   - <span data-ttu-id="5c778-142">**Actualización pendiente**</span><span class="sxs-lookup"><span data-stu-id="5c778-142">**Update pending**</span></span>
 
-   - <span data-ttu-id="0cbfc-143">**Error al actualizar**</span><span class="sxs-lookup"><span data-stu-id="0cbfc-143">**Update failed**</span></span>
+   - <span data-ttu-id="5c778-143">**Error al actualizar**</span><span class="sxs-lookup"><span data-stu-id="5c778-143">**Update failed**</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="0cbfc-144">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="0cbfc-144">Related topics</span></span>
-[<span data-ttu-id="0cbfc-145">Preguntas comunes sobre la transferencia de números de teléfono</span><span class="sxs-lookup"><span data-stu-id="0cbfc-145">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="5c778-144">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="5c778-144">Related topics</span></span>
+[<span data-ttu-id="5c778-145">Preguntas comunes sobre la transferencia de números de teléfono</span><span class="sxs-lookup"><span data-stu-id="5c778-145">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="0cbfc-146">Diferentes tipos de números de teléfono que se usan para Planes de llamada</span><span class="sxs-lookup"><span data-stu-id="0cbfc-146">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="5c778-146">Diferentes tipos de números de teléfono que se usan para Planes de llamada</span><span class="sxs-lookup"><span data-stu-id="5c778-146">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="0cbfc-147">Administrar los números de teléfono para su organización</span><span class="sxs-lookup"><span data-stu-id="0cbfc-147">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+[<span data-ttu-id="5c778-147">Administrar los números de teléfono para su organización</span><span class="sxs-lookup"><span data-stu-id="5c778-147">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="0cbfc-148">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="0cbfc-148">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="5c778-148">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="5c778-148">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="0cbfc-149">[Etiqueta de renuncia para llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="0cbfc-149">[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="5c778-149">[Etiqueta de renuncia para llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="5c778-149">[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+
+[<span data-ttu-id="5c778-150">Get-CsOnlineTelephoneNumber</span><span class="sxs-lookup"><span data-stu-id="5c778-150">Get-CsOnlineTelephoneNumber</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber)
   
  
