@@ -18,12 +18,12 @@ f1.keywords:
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0aafe4bcceca731825726d084e41fab37bb9931
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: 6a80e9a360b28ed5d00fb02be3d34aab21fb0e2e
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962099"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265525"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -51,7 +51,7 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Es posible que [Acceso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) no funcione cuando use la pestaña "Sitio Web" en la aplicación de escritorio<br/> |Si un sitio web, por ejemplo, un portal de intranet, cuenta con directivas de acceso condicional (como restricciones en el explorador o las direcciones IP), ese sitio web puede no parecer como una pestaña dentro de Teams en la aplicación de escritorio <br/> |Usar Teams en un explorador en lugar de en la aplicación de escritorio.  <br/> |1/7/18  <br/> |
+|Es posible que el [Acceso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) no funcione cuando use la pestaña "Sitio Web" o "Azure DevOps" en la aplicación de escritorio.<br/> |Si un sitio web, por ejemplo, un portal de intranet, cuenta con directivas de acceso condicional (como restricciones en el explorador, restricciones en las direcciones IP o cumplimiento de dispositivos), ese sitio web puede no aparecer como una pestaña dentro de Teams en la aplicación de escritorio. <br/> |Usar Teams en un explorador en lugar de en la aplicación de escritorio.  <br/> |1/7/18  <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
@@ -82,12 +82,16 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
+|Después de cambiar la contraseña de la cuenta de usuario aparece un mensaje de error. Es posible que la contraseña se haya modificado o que el servidor necesite de nuevo la información de inicio de sesión. Este proceso también continúa con la nueva contraseña. <br/> | Teams está implementando una solución para este problema. <br/> | Cierre sesión e intente iniciar sesión con unas credenciales incorrectas. Cuando surja el mensaje de error, escriba sus credenciales correctas. <br/> |09/01/20  <br/> |
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
 |Cuando intenta unirse a Teams desde Internet Explorer o Microsoft Edge, el programa lo intenta constantemente o se bloquea y no consigue iniciar sesión.
    <br/> | Su organización utiliza los sitios de confianza de Internet Explorer y la aplicación basada en web de Teams no logra iniciar sesión correctamente porque los sitios de confianza de Teams no están permitidos. <br/>|Haga los siguientes cambios en la configuración de IE o desde el Panel de control, ya sea con derechos de administrador o con un objeto de directiva de grupo:<br/><ol><li>En **Opciones de Internet** &gt; **Privacidad** &gt; **Avanzada**, acepte las cookies de origen y de terceros, y active la casilla **Aceptar siempre las cookies de sesión**.</li><li>Haga clic en **Opciones de Internet** &gt; **Seguridad** &gt; **Sitios de confianza** &gt; **Sitios** y agregue lo siguiente:<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>NOTA</b>: Valide y permita siempre todas las direcciones URL de confianza de Teams y los requisitos del siguiente documento: [URL de Office 365 e intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |01/11/2017  <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Microsoft Teams siempre iniciará sesión en la cuenta de PC unida a un dominio.   <br/> |Si un usuario tiene dos cuentas diferentes de Microsoft Teams y tiene un equipo con la opción de unido a dominio habilitada, Teams usará el perfil unido a un dominio en el equipo para iniciar sesión automáticamente en Teams. Para cambiar a la otra cuenta de Teams, el usuario deberá cerrar la sesión de la aplicación manualmente y especificar las credenciales de la segunda cuenta para iniciar sesión. Si el usuario cierra la sesión de Teams y reinicia el equipo, después de reiniciar, Teams iniciará sesión automáticamente con el perfil unido a dominio. <br/> | No hay ninguna solución. <br/> |02/08/2017  <br/> |
+|Microsoft Teams siempre iniciará sesión en la cuenta de PC unida a un dominio.   <br/> |Si un usuario tiene dos cuentas diferentes de Microsoft Teams y tiene un equipo con la opción de unido a dominio habilitada, Teams usará el perfil unido a un dominio en el equipo para iniciar sesión automáticamente en Teams. Para cambiar a la otra cuenta de Teams, el usuario deberá cerrar la sesión de la aplicación manualmente y especificar las credenciales de la segunda cuenta para iniciar sesión. Si el usuario cierra la sesión de Teams y reinicia el equipo, después de reiniciar, Teams iniciará sesión automáticamente con el perfil unido a dominio. <br/> | Si los usuarios han iniciado sesión en un equipo unido a un dominio y no quieren que su nombre de usuario se rellene previamente en la pantalla de inicio de sesión de Teams, los administradores pueden configurar el registro de Windows siguiente para desactivar el rellenado previo del nombre de usuario (UPN) Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams SkipUpnPrefill(REG_DWORD) 0x00000001 (1). Nota: El rellenado previo para los nombres de usuario que terminan en ".local" o ".corp" está desactivado de forma predeterminada, por lo que no es necesario establecer una clave del registro para desactivarlo. Referencia https://docs.microsoft.com/microsoftteams/sign-in-teams. <br/> |02/08/2017  <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
