@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f57eeb44fd728d1b656ce13f56cf2c5997805b9
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: bc57222f56235c71c676f952cb0dd5aa149dc4e3
+ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888369"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42277983"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar Microsoft Teams mediante el administrador de configuración de Microsoft Endpoint
 
@@ -80,9 +80,6 @@ Si un usuario desinstala equipos de su perfil de usuario, el instalador MSI real
 1. Desinstalar la aplicación de Teams instalada para todos los perfiles de usuario.
 2. Después de la desinstalación, eliminar el directorio de forma recursiva en%localappdata%\Microsoft\Teams\.
 3. Vuelva a implementar el paquete MSI en ese equipo.
-
-> [!TIP]
-> Puede usar nuestro script de limpieza de la [implementación de Microsoft Teams](scripts/Powershell-script-teams-deployment-clean-up.md) para llevar a cabo los pasos 1 y 2 a través de Configuration Manager.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Impedir que los equipos se inicien automáticamente después de la instalación
 
