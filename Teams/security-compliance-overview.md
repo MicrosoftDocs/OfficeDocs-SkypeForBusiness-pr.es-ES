@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27c46949391ec37178985ab3ed4a08aebc7e5747
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: 45e4c49824df9a098af5251d13234eae48db5619
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285742"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288628"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Seguridad y cumplimiento en Microsoft Teams
 
@@ -111,8 +111,8 @@ Los clientes pueden aprovechar eDiscovery local o [Advanced eDiscovery] según s
 
 Durante los litigios, es posible que necesite que todos los datos asociados con un usuario (custodia) o un equipo se conserven como inmutables, de modo que pueda usarlos como prueba para el caso. Puede hacerlo colocando un usuario (buzón de usuario) o un equipo en retención legal. Para una retención legal de un equipo, el buzón del equipo se puede poner en las siguientes suspensiones:
 
-- Conservación local (un subconjunto del buzón o de la colección de sitios a través de consultas de destino o contenido filtrado se pone en espera) o
-- Retención por juicio (el buzón completo o la colección de sitios se coloca en espera)
+- Conservación local (un subconjunto del buzón o de la colección de sitios a través de consultas de destino o contenido filtrado se pone en espera), o bien
+- Retención por juicio (el buzón de correo o la colección de sitios completos se coloca en espera).
 
 En cualquiera de los casos, una vez configurada la espera, se asegurará de que, aunque los usuarios finales eliminen o editen los mensajes de canal que se encuentren en el buzón del grupo, se mantengan copias inmutables de ese contenido y estarán disponibles a través de la búsqueda de exhibición Las retenciones legales generalmente se aplican en el contexto de un caso de exhibición.
 
@@ -148,14 +148,14 @@ La siguiente ilustración indica el flujo de recopilación de las reuniones de T
 
 Cuando se trate de capacidades de protección de información, los planes de Office 365 y las licencias independientes asociadas determinarán el conjunto de características disponibles.
 
-Para obtener información sobre cómo determinar las licencias que necesita para implementar características de seguridad y cumplimiento, consulte: [licencias de Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
+Para obtener información sobre cómo determinar las licencias que deben implementar las características de seguridad y cumplimiento, revise: [licencias de Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center).
 
 > [!NOTE]
 > No es necesario habilitar la búsqueda de contenido y la exhibición de mensajes en el centro de cumplimiento de seguridad & para que funcione.
 
 ## <a name="location-of-data-in-teams"></a>Ubicación de los datos en Teams
 
-Los datos de Teams residen en la región geográfica asociada con su inquilino de Office 365. Para ver qué regiones se admiten actualmente, revise la [Ubicación de los datos en Microsoft Teams](location-of-data-in-teams.md) .
+Los datos de Teams residen en la región geográfica asociada con su inquilino de Office 365. Para ver qué regiones se admiten actualmente, revise la [Ubicación de los datos en Microsoft Teams](location-of-data-in-teams.md).
 
 Si necesita ver la región que hospeda los datos de su inquilino, vaya al perfil de la**** > **organización**del [Centro](https://portal.office.com/adminportal/home) > de administración de 365 de Microsoft. Desplácese hasta **Data location** (Ubicación de datos).
 
