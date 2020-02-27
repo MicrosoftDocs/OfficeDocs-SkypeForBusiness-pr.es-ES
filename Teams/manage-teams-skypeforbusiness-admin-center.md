@@ -20,12 +20,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: f1aba8c461ca2cbdd827fe071d5e0486ac24b5f4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 31d39b1c65afad3bdbb000ff779b590d9f82ac38
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833130"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288638"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams
 ======================================================
@@ -104,12 +104,12 @@ En la tabla siguiente se muestra dónde puede administrar características duran
 |Configuración de acceso externo     |    X    |      |       |
 |Administración de usuarios    |         |         |    X     |    
 |Audioconferencia     |    X     |    X     |         |
-|Planes de llamada     |         |    X     |         |
-|Sistema telefónico    |         |     X    |         |
-|Administración de números de teléfono     |         |   X      |         |
+|Planes de llamada     |    X    |    X     |         |
+|Sistema telefónico    |    X    |     X    |         |
+|Administración de números de teléfono     |    X    |   X      |         |
 |Licencias para características de voz en la nube     |         |         |    X     |
-|Operadores automáticos     |         |    X     |         |
-|Colas de llamadas     |         |    X     |         |
+|Operadores automáticos     |    X    |          |         |
+|Colas de llamadas     |    X    |          |         |
 
 ## <a name="manage-settings-after-the-migration"></a>Administrar la configuración después de la migración
 

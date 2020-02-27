@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga más información sobre las características, la disponibilidad y cómo planificar y configurar el sistema telefónico de Microsoft para su empresa. '
-ms.openlocfilehash: b1ba96143c62b829ef9461c1429a83a8b3cfe51e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 27ec4803a33f524d1c260c27c1af3c71210b33d2
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045172"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288708"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo obtiene con el Sistema telefónico de Office 365
 
@@ -45,11 +45,11 @@ El sistema telefónico proporciona las siguientes características. A menos que 
 |**Sistema telefónico en la característica 365 de Office** <br/> |**Descripción** <br/> |
 |[Operadores automáticos en la nube](what-are-phone-system-auto-attendants.md) <br/> |Le permite crear un sistema de menús que permite a los autores de llamadas externos e internos ubicar y realizar o transferir llamadas a usuarios o departamentos de la empresa en su organización.  <br/> |
 |[Colas de llamadas en la nube](create-a-phone-system-call-queue.md) <br/> |Le permite configurar cómo se administran las colas de llamadas para su organización: por ejemplo, configurar los saludos y la música en espera, busque el siguiente agente de llamada disponible para controlar la llamada y así sucesivamente.  <br/> |
-|Música en espera | Reproduce la música predeterminada definida por el servicio cuando se coloca en espera una llamada externa de la red de telefonía pública conmutada (RTC). Esta característica funciona para las llamadas entre usuarios de RTC y entre equipos, además de las llamadas hechas a una cola de llamadas. Esta característica proporciona paridad de notificaciones en espera con otras plataformas. En la primera versión, el administrador no puede configurar esta característica. La retención de música tampoco se admite en la transferencia Consultiva de una llamada RTC.|
+|Música en espera | Reproduce la música predeterminada definida por el servicio cuando se coloca en espera una llamada externa de la red de telefonía pública conmutada (RTC). Esta característica funciona para las llamadas entre usuarios de RTC y entre equipos, además de las llamadas hechas a una cola de llamadas. Esta característica proporciona paridad de notificaciones en espera con otras plataformas. El administrador puede configurar esta característica, pero [actualmente solo mediante PowerShell](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). La retención de música tampoco se admite en la transferencia Consultiva de una llamada RTC.|
 |Iniciar/responder llamadas (por nombre y número)  <br/> |Permite a los usuarios contestar las llamadas entrantes con un toque y realizar llamadas salientes, ya sea marcando el número de teléfono completo o haciendo clic en un nombre en el cliente.  <br/> |
 |[Opciones de desvío de llamadas y llamadas simultáneas](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |Permite a los usuarios configurar reglas de reenvío para que las llamadas puedan llevarse a cabo en cualquier lugar, o desviar las llamadas a colegas o al buzón de voz.  <br/> |
 |[Recoger la llamada grupal y reenviar al grupo](call-sharing-and-group-call-pickup.md) <br/> | Permite a los usuarios compartir llamadas entrantes con colegas para que los compañeros puedan responder llamadas que se produzcan mientras el usuario no está disponible. Menos interrupciones para los destinatarios que otras formas de uso compartido de llamadas (como el desvío de llamadas o las llamadas simultáneas), ya que los usuarios pueden configurar cómo desean recibir una notificación de una llamada compartida entrante. |
-|[Transferir una llamada y una transferencia de consulta](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |Permite a los usuarios transferir llamadas a otra persona. O bien, si necesitan abandonar su oficina pero quiere continuar con la conversación, pueden transferir las llamadas desde su equipo o teléfono IP a su teléfono móvil.  <br/> |
+|[Transferir una llamada y una transferencia Consultiva](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |Permite a los usuarios transferir llamadas a otra persona. O bien, si necesitan abandonar su oficina pero quiere continuar con la conversación, pueden transferir las llamadas desde su equipo o teléfono IP a su teléfono móvil.  <br/> |
 |[Transferir al buzón de voz llamada MID](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | Permite que los usuarios se transfieran al buzón de voz durante una llamada. |
 |[Estacionar llamadas y recuperar](call-park-and-retrieve.md)  <br/> | Permite a los usuarios poner una llamada en espera en el servicio de Teams en la nube. Cuando se aparca una llamada, el servicio genera un código único para la recuperación de la llamada. El usuario que ha aparcado la llamada u otra persona puede usar ese código y una aplicación o dispositivo admitido para recuperar la llamada. <br/> |
 |Llamar a un número de teléfono desde la búsqueda  <br/> | Permite a los usuarios llamar desde el cuadro de búsqueda usando el comando/call y especificando un nombre o un número. <br/> |
