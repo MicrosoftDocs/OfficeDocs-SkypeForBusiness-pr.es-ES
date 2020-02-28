@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3054c961faa2587b203bd1522c266a55e0c34174
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1cdd071dfe19c50650d6f18605a5aeed5b39300
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834670"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327852"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -39,7 +39,6 @@ El complemento de reunión de Teams se instala automáticamente para los usuario
 > [!NOTE]
 > - Los permisos de usuario para ejecutar el archivo regsvr32. exe son un requisito mínimo para el complemento de reuniones de teams que se instalará en el equipo.
 > - Si los usuarios no pueden ver el complemento de Microsoft Teams, pídales que cierren Outlook y Microsoft Teams, y que luego reinicien en primer lugar el cliente de Microsoft Teams y luego el de Outlook, específicamente en ese orden.
-> - Los usuarios de Windows 7 deben instalar la [actualización de tiempo de ejecución de C universal en Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para que funcione el complemento de reunión de equipos.
 > - Si está usando una instalación de Office Outlook desde Microsoft Store, no se admite el complemento de reunión de Teams. Se recomienda a los usuarios que necesiten este complemento instalar la versión de hacer clic y ejecutar de Office, tal como se indica en el artículo [modo de Office en Windows 10 en modo S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) .
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Complemento de reunión de Teams en Outlook para Mac

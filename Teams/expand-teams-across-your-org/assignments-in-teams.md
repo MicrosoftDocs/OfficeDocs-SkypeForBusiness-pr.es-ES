@@ -21,12 +21,12 @@ description: Aprenda a administrar tareas en el centro de administración de Mic
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fb811540fc4e79c65d93eefb993fa7523a39aff
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ad9e3f8b0f2f3800c7394a9d4dc21fe7a2058426
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827828"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42328002"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tareas en Teams para educación
 
@@ -40,7 +40,6 @@ Con la configuración de administrador del centro de administración de Microsof
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>Resumen de correo electrónico de tutor semanal
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Los mensajes de correo electrónico de tutor son mensajes semanales enviados a padres o tutores. Los mensajes de correo electrónico contendrán información sobre tareas de la semana anterior y de la semana que viene, y se enviarán durante el fin de semana. Los administradores deben actualizar los mensajes de correo electrónico con la característica School Data Sync.
 
@@ -58,7 +57,6 @@ Esta opción está desactivada de forma predeterminada.
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Turnitin es un servicio de detección de plagiarism. Este es un producto o servicio de terceros sujeto a sus propios términos y política de privacidad. Usted es responsable de su uso de productos y servicios de terceros.
 

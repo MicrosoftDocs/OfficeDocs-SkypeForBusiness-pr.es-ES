@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc57222f56235c71c676f952cb0dd5aa149dc4e3
-ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
+ms.openlocfilehash: c048e321241f4403fbb69f71e56b3fc179346951
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42277983"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327832"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar Microsoft Teams mediante el administrador de configuración de Microsoft Endpoint
 
@@ -55,9 +55,9 @@ Los equipos también pueden incluirse con una implementación de Office 365 ProP
 
 ### <a name="pc-installation"></a>Instalación de PC
 
-El MSI de Teams colocará un instalador en archivos de programa. Cada vez que un usuario inicie sesión en un nuevo perfil de usuario de Windows, se iniciará el instalador y se instalará una copia de la aplicación de Teams en la carpeta appdata del usuario. Si un usuario ya tiene la aplicación de Teams instalada en la carpeta appdata, el instalador MSI omitirá el proceso para ese usuario.
+El MSI de Teams colocará un instalador en archivos de programa. Cada vez que un usuario inicie sesión en un nuevo perfil de usuario de Windows, se iniciará el instalador y se instalará una copia de la aplicación `AppData` de Teams en la carpeta del usuario. Si un usuario ya tiene la aplicación Teams instalada en `AppData` la carpeta, el instalador MSI omitirá el proceso para ese usuario.
 
-No use el MSI para implementar actualizaciones, ya que el cliente se actualizará automáticamente cuando detecte que hay una nueva versión disponible en el servicio. Para volver a implementar el último instalador, use el proceso de reimplementación de MSI que se describe a continuación.Si implementa una versión anterior del paquete MSI, el cliente se actualizará automáticamente (excepto en entornos de VDI) cuando sea posible para el usuario. Si se implementa una versión muy antigua, el MSI desencadenará una actualización de la aplicación antes de que el usuario pueda usar Teams.
+No use el MSI para implementar actualizaciones, ya que el cliente se actualizará automáticamente cuando detecte que hay una nueva versión disponible en el servicio. Para volver a implementar el último instalador, use el proceso de reimplementación de MSI que se describe a continuación. Si implementa una versión anterior del paquete MSI, el cliente se actualizará automáticamente (excepto en entornos de VDI) cuando sea posible para el usuario. Si se implementa una versión muy antigua, el MSI desencadenará una actualización de la aplicación antes de que el usuario pueda usar Teams.
 
 > [!Important]
 > No recomendamos que cambie las ubicaciones de instalación predeterminadas, ya que esto podría interrumpir el flujo de actualización. Tener una versión demasiado antigua impedirá que los usuarios tengan acceso al servicio.
@@ -65,7 +65,7 @@ No use el MSI para implementar actualizaciones, ya que el cliente se actualizar�
 #### <a name="target-computer-requirements"></a>Requisitos del equipo de destino
 
 - .NET Framework 4,5 o posterior
-- Windows 7 o posterior
+- Windows 8,1 o posterior
 - Windows Server 2012 R2 o posterior
 - 3 GB de espacio en disco para cada perfil de usuario (recomendado)
 
@@ -78,7 +78,7 @@ Para obtener instrucciones completas sobre cómo implementar la aplicación de e
 Si un usuario desinstala equipos de su perfil de usuario, el instalador MSI realizará un seguimiento de que el usuario ha desinstalado la aplicación de Teams y ya no instalará Teams para ese perfil de usuario. Para volver a implementar Teams para este usuario en un equipo determinado en el que se ha desinstalado, haga lo siguiente:
 
 1. Desinstalar la aplicación de Teams instalada para todos los perfiles de usuario.
-2. Después de la desinstalación, eliminar el directorio de forma recursiva en%localappdata%\Microsoft\Teams\.
+2. Después de la desinstalación, eliminar el directorio de `%localappdata%\Microsoft\Teams\`forma recursiva.
 3. Vuelva a implementar el paquete MSI en ese equipo.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Impedir que los equipos se inicien automáticamente después de la instalación

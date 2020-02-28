@@ -1,10 +1,9 @@
 ---
-title: Requisitos de hardware de la aplicación de Microsoft Teams
+title: Requisitos de hardware para Microsoft Teams
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/04/2019
 audience: Admin
 ms.topic: reference
 ms.service: msteams
@@ -19,18 +18,18 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64fc1698b4eda804825342708d430bd4b9dbcff9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 65de6266af5d7b17234cd3b77d867176338d35fa
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833170"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327862"
 ---
-# <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware de la aplicación de Microsoft Teams
+# <a name="hardware-requirements-for-microsoft-teams"></a>Requisitos de hardware para Microsoft Teams
 
-Todos los requisitos de las secciones siguientes se aplican a la aplicación de escritorio de Teams y a teams Web App.
+Todos los requisitos de las secciones siguientes se aplican a la aplicación de escritorio de Microsoft Teams y a teams Web App.
 
-## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-windows-pc"></a>Requisitos de hardware para la aplicación de escritorio de Teams en un equipo con Windows
+## <a name="hardware-requirements-for-teams-on-a-windows-pc"></a>Requisitos de hardware para Teams en un equipo PC con Windows
 
 |**Componente**|**Requisito**  |
 |---------|---------|
@@ -39,14 +38,14 @@ Todos los requisitos de las secciones siguientes se aplican a la aplicación de 
 |Disco duro    | 3,0 GB de espacio en disco disponible        |
 |Pantalla    |   resolución de pantalla de 1024 x 768 |
 |Hardware de gráficos |  Mínimo de 128 MB de memoria de gráficos
-|Sistema operativo  |    Windows Server 2012 R2 +, Windows 10, Windows 8,1 o Windows 7 Service Pack 1 en 32 bits y 64 bits. Para obtener la mejor experiencia, use la última versión de cualquier sistema operativo.|
+|Sistema operativo  |    Windows Server 2012 R2 +, Windows 10 o Windows 8,1 en 32 bits y 64 bits. Para obtener la mejor experiencia, use la última versión del sistema operativo.|
 |Versión de .NET    |  Requiere .NET 4,5 CLR o posterior       |
 |Vídeo    |  Cámara USB 2,0       |
 |Dispositivos    |   Cámara para equipos portátiles, micrófono y altavoces estándar    | 
 |Videollamadas y reuniones | <ul><li>Para una mejor experiencia con las videollamadas y las reuniones en línea, recomendamos usar un equipo que tenga un procesador de 2,0 GHz y 4,0 GB de RAM (o superior). </li><li>El efecto de **difuminar mi** vídeo de fondo opcional requiere un procesador con compatibilidad con Advanced vector Extensions 2 (AVX2). Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos.</li><li>Unirse a una reunión mediante la detección de proximidad en una sala de Microsoft Teams requiere Bluetooth LE, que requiere que el Bluetooth esté habilitado en el dispositivo cliente, y para los clientes de Windows se requiere el cliente de equipo de 64 bits. No está disponible en los clientes de equipos de 32 de bits.</li></ul> |
 |Eventos en directo en Teams | Si está generando un evento de Teams Live, le recomendamos que use un equipo con un procesador Core i5 Kaby Lake, 4,0 GB de RAM (o superior) y codificador de hardware. Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos. |
 
-## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Requisitos de hardware para la aplicación de escritorio de Teams en un equipo Mac
+## <a name="hardware-requirements-for-teams-on-a-mac"></a>Requisitos de hardware para Teams en un equipo Mac
 
 |**Componente**|**Requisito**  |
 |---------|---------|
@@ -59,7 +58,7 @@ Todos los requisitos de las secciones siguientes se aplican a la aplicación de 
 |Voz    |  Micrófono y altavoces compatibles, auriculares con micrófono o dispositivo equivalente       |
 |Videollamadas y reuniones | Para una mejor experiencia con las videollamadas y las reuniones en línea, recomendamos usar un equipo que tenga un procesador de 2,0 GHz y 4,0 GB de RAM (o superior).  <ul><li>El efecto de **difuminar mi** vídeo de fondo opcional requiere un procesador con compatibilidad con Advanced vector Extensions 2 (AVX2), compatible con la mayoría de los dispositivos Mac de 2013 última versión y posterior. Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos.</li><li>Unirse a una reunión mediante la detección de proximidad en una sala de Microsoft Teams no está disponible en Mac OS.</li></ul> |
 
-## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-linux"></a>Requisitos de hardware para la aplicación de escritorio de Teams en un Linux
+## <a name="hardware-requirements-for-teams-on-linux"></a>Requisitos de hardware para Teams en Linux
 
 |**Componente**|**Requisito**  |
 |---------|---------|
@@ -75,8 +74,7 @@ Todos los requisitos de las secciones siguientes se aplican a la aplicación de 
 |Videollamadas y reuniones | <ul><li>Para una mejor experiencia con las videollamadas y las reuniones en línea, recomendamos usar un equipo que tenga un procesador de 2,0 GHz y 4,0 GB de RAM (o superior). </li><li>El efecto de difuminar mi vídeo de fondo opcional requiere un procesador con compatibilidad con Advanced vector Extensions 2 (AVX2), compatible con la mayoría de los dispositivos Mac de 2013 última versión y posterior. Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos.</li><li>Unirse a una reunión mediante la detección de proximidad en un salón de Microsoft Teams no está disponible en Linux.</li></ul>
 |Distribuciones de Linux compatibles | Ubuntu 16,04 LTS, 18,04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, 8
 
-
-## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Requisitos de hardware para la aplicación de Teams en dispositivos móviles
+## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Requisitos de hardware para Teams en dispositivos móviles
 
 Puede usar Teams en estas plataformas móviles:
 
@@ -84,17 +82,18 @@ Puede usar Teams en estas plataformas móviles:
 
   El soporte técnico está limitado a las últimas cuatro versiones principales de Android. Cuando se publica una nueva versión principal de Android, la nueva versión y las tres versiones anteriores son oficialmente compatibles.
 
-- iOS: compatible con iPhone, iPad y iPod Touch. 
+- iOS: compatible con iPhone, iPad y iPod Touch.
 
   El soporte técnico está limitado a las dos versiones principales más recientes de iOS. Cuando se publica una nueva versión principal de iOS, se admite oficialmente la nueva versión de iOS y la versión anterior.
 
 Para obtener la mejor experiencia con los equipos, use la última versión de iOS y Android.
 
-## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Requisitos de hardware para la aplicación de Teams en un entorno de infraestructura de escritorio virtual (VDI)
+## <a name="hardware-requirements-for-teams-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Requisitos de hardware para Teams en un entorno de infraestructura de escritorio virtual (VDI)
 
-Vea [Teams para la infraestructura de escritorio virtualizada](teams-for-vdi.md) para conocer los requisitos para ejecutar Teams en un entorno virtualizado. 
+Vea [Teams para la infraestructura de escritorio virtualizada](teams-for-vdi.md) para conocer los requisitos para ejecutar Teams en un entorno virtualizado.
 
 ### <a name="related-topics"></a>Temas relacionados
 - [Obtener las aplicaciones de Teams](get-clients.md)
 - [Microsoft Teams en dispositivos móviles](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [Instalar la aplicación Microsoft Teams con un MSI](msi-deployment.md)
+- [Límites y especificaciones para Microsoft Teams](limits-specifications-teams.md)

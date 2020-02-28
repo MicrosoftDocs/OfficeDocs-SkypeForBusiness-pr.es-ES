@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Este documento describe el comportamiento de la conversación, el enrutamiento de llamadas y la presencia entre los usuarios de Teams y Skype empresarial, tanto en el inquilino como en el federado, en función de los modos de TeamsUpgrade asignados. Incluye optimizaciones de enrutamiento, comportamiento de presencia, así como el cambio de modo de TeamsUpgrade predeterminado de *heredado* a *islas* y la jubilación inminente de la *herencia*.
-ms.openlocfilehash: 442b4b68b9739d9d17d02e298b53c5d9ecec3c8f
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: 64889ae11b4ce8665fb4a6bdbb98ff95aaf777fc
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236830"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42328022"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 
@@ -56,7 +56,7 @@ Los parámetros que determinan el método de enrutamiento de subprocesos son:
     - La comunicación entre equipos siempre es posible en el inquilino.
 
 > [!NOTE]
-> En la actualidad, toda Federación que incluye equipos aprovecha la canalización de Federación de Skype empresarial, así como los equipos, la interoperabilidad de Skype empresarial. Planeamos equipos nativos: Federación de equipos. El presente documento se actualizará al liberar la Federación nativa.
+> Si el receptor y el remitente están en modo de actualización de TeamsOnly, la conversación será una experiencia de chat nativa que incluye todas las capacidades enriquecidas de mensajería y llamada. Para obtener más información, lea [experiencia de chats nativos para usuarios externos (federados) en Teams](native-chat-for-external-users.md). Si alguno de los participantes de la conversación no está en el modo de actualización de TeamsOnly, la conversación seguirá siendo una experiencia de interoperabilidad con los mensajes de solo texto.
 
 ## <a name="chat-and-call-routing"></a>Enrutamiento de llamadas y chats
 
