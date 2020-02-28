@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: fcf6ee6bbf0f9d485a84007a01cd9ce0dfee9500
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 958ca112e52cefa31e122c02b47c76a68537d284
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836610"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288728"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -174,7 +174,7 @@ En Microsoft estamos encantados de ofrecer una serie de clases en línea y en di
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -184,9 +184,9 @@ En Microsoft estamos encantados de ofrecer una serie de clases en línea y en di
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams para los trabajadores de primera línea</h3>
-                        <p>Aprenda sobre las capacidades de trabajadores de primera línea en Teams.</p>
-                        <p><i>Público: usuarios finales</i></p>
+                        <h3>Fortalezca su Firstline Workers con Teams</h3>
+                        <p>Descubra cómo Teams permite la transformación digital que brinda un potencial ilimitado a toda su fuerza laboral.</p>
+                        <p><i>Audiencia: responsables de la toma de decisiones empresariales, responsables de la toma de decisiones de TI</i></p>
                     </div>
                 </div>
             </div>
