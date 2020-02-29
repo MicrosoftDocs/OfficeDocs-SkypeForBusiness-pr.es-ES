@@ -23,27 +23,36 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cuando reciba números de teléfono o transfiera (transfiriendo) números para su organización, es posible que necesite obtener ayuda y soporte técnico en el servicio de asistencia al cliente de RTC.
-ms.openlocfilehash: 819baa319fb0cd8d53e163560c6de888ecd177c9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6d400e51270b411054802240216d9e957a68f054
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825718"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341784"
 ---
-# <a name="pstn-service-desk-help"></a><span data-ttu-id="829e3-103">Ayuda del servicio de asistencia al cliente RTC</span><span class="sxs-lookup"><span data-stu-id="829e3-103">PSTN service desk help</span></span>
+# <a name="pstn-service-desk-contact"></a><span data-ttu-id="20b70-103">Contacto del servicio de asistencia al cliente RTC</span><span class="sxs-lookup"><span data-stu-id="20b70-103">PSTN Service Desk Contact</span></span>
 
-<span data-ttu-id="829e3-104">Si necesitas ayuda para obtener o transferir números pero necesitas ayuda, cuéntanos cómo podemos ayudarte en un mensaje de correo electrónico y enviarlo a nosotros.</span><span class="sxs-lookup"><span data-stu-id="829e3-104">If you need help with getting or transferring numbers to us but need help please let us know how we can help you in an email and send it to us.</span></span> <span data-ttu-id="829e3-105">En la solicitud de ayuda por correo electrónico, incluya tantos detalles como sea posible e incluya detalles como el identificador de su organización, los dominios, el tipo de números sobre los que necesita ayuda, el número de números que desea, la autorización de la persona en la cuenta y otros detalles importantes sobre su problema.</span><span class="sxs-lookup"><span data-stu-id="829e3-105">In your email Help request, include as many details as you can and include details such as your organization ID, domains, what types of numbers you need help with, how many numbers you want, authorizing person on the account and other important details about your issue.</span></span>
+<span data-ttu-id="20b70-104">Si necesita ayuda con la adquisición de números de teléfono de Microsoft o el traslado de números de teléfono existentes a Microsoft, envíe una solicitud de correo electrónico con la siguiente información:</span><span class="sxs-lookup"><span data-stu-id="20b70-104">If you need help with acquiring phone numbers from Microsoft or with porting existing phone numbers to Microsoft, send an email request with the following information:</span></span>
 
-<span data-ttu-id="829e3-106">A continuación, envía tu solicitud a una de las siguientes direcciones de correo electrónico:</span><span class="sxs-lookup"><span data-stu-id="829e3-106">Then send your request to one of the following email addresses:</span></span>
+  - <span data-ttu-id="20b70-105">Su identificador de organización (ID de inquilino) o dominios activos.</span><span class="sxs-lookup"><span data-stu-id="20b70-105">Your Organization ID (Tenant ID) or active domains.</span></span>
+  - <span data-ttu-id="20b70-106">Qué tipos de números necesita ayuda (usuario/suscriptor, servicio/gratuito o gratuito).</span><span class="sxs-lookup"><span data-stu-id="20b70-106">What types of numbers you need help with (User/Subscriber, Service/Toll, or Toll-Free).</span></span>
+  - <span data-ttu-id="20b70-107">Cuántos números necesita (si se trata de una adquisición numérica).</span><span class="sxs-lookup"><span data-stu-id="20b70-107">How many numbers you require (if this is for number acquisition).</span></span>
+  - <span data-ttu-id="20b70-108">Autorizar a una persona en la cuenta y a otros detalles importantes en función de su solicitud.</span><span class="sxs-lookup"><span data-stu-id="20b70-108">Authorizing person on the account and other important details based on your request.</span></span>
 
-- <span data-ttu-id="829e3-107">Para obtener ayuda con números de teléfono de dentro de Estados Unidos, [envíe la solicitud](mailto:ptn@microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="829e3-107">For help with phone numbers inside the U.S., [send your request](mailto:ptn@microsoft.com).</span></span>
-- <span data-ttu-id="829e3-108">Para obtener ayuda con números de teléfono de fuera de Estados Unidos, [envíe la solicitud](mailto:ptneu@microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="829e3-108">For help with phone numbers outside the U.S., [send your request](mailto:ptneu@microsoft.com).</span></span>
+<span data-ttu-id="20b70-109">Una vez que tenga toda la información, envíenos su solicitud a una de las siguientes direcciones de correo electrónico que se aplica a su solicitud:</span><span class="sxs-lookup"><span data-stu-id="20b70-109">Once you have all the information, send us your request to one the following email addresses that is applicable to your request:</span></span>
+- <span data-ttu-id="20b70-110">**Portabilidad de números**</span><span class="sxs-lookup"><span data-stu-id="20b70-110">**Number Porting**</span></span>
+    - <span data-ttu-id="20b70-111">Cómo migrar números de teléfono en **Estados Unidos o Canadá**, [envíenos un mensaje de correo electrónico a PTN@microsoft.com](mailto:ptn@microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="20b70-111">Porting telephone numbers **inside the United States or Canada**, [please send us an email at ptn@microsoft.com](mailto:ptn@microsoft.com).</span></span>
+    - <span data-ttu-id="20b70-112">Cómo transportar números de teléfono **fuera de los Estados Unidos o Canadá**, [envíenos un mensaje de correo electrónico a ptneu@microsoft.com](mailto:ptneu@microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="20b70-112">Porting telephone numbers **outside the United States or Canada**, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com).</span></span>
+    
+- <span data-ttu-id="20b70-113">**Adquisición de número**</span><span class="sxs-lookup"><span data-stu-id="20b70-113">**Number Acquisition**</span></span>
+    - <span data-ttu-id="20b70-114">Adquisición de nuevos números de teléfono para cualquiera de los siguientes países: **Bélgica, Francia, Alemania, Reino Unido, Irlanda, Países Bajos, España, Suecia y Suiza**, [envíenos un mensaje de correo electrónico a ptneu@microsoft.com](mailto:ptneu@microsoft.com)</span><span class="sxs-lookup"><span data-stu-id="20b70-114">Acquiring new telephone numbers for any of the following countries: **Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com)</span></span>
+    - <span data-ttu-id="20b70-115">Si compras nuevos números de teléfono para el **resto del mundo** , [envíanos un mensaje de correo electrónico a gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="20b70-115">Acquiring new telephone numbers for the **Rest of the World** , [please send us an email at gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="829e3-109">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="829e3-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="20b70-116">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="20b70-116">Related topics</span></span>
 
-[<span data-ttu-id="829e3-110">Diferentes tipos de números de teléfono que se usan para Planes de llamada</span><span class="sxs-lookup"><span data-stu-id="829e3-110">Different kinds of phone numbers used for Calling Plans</span></span>](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="20b70-117">Diferentes tipos de números de teléfono que se usan para Planes de llamada</span><span class="sxs-lookup"><span data-stu-id="20b70-117">Different kinds of phone numbers used for Calling Plans</span></span>](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="829e3-111">Administrar los números de teléfono para su organización</span><span class="sxs-lookup"><span data-stu-id="829e3-111">Manage phone numbers for your organization</span></span>](manage-phone-numbers-for-your-organization.md)
+[<span data-ttu-id="20b70-118">Administrar los números de teléfono para su organización</span><span class="sxs-lookup"><span data-stu-id="20b70-118">Manage phone numbers for your organization</span></span>](manage-phone-numbers-for-your-organization.md)
 
-[<span data-ttu-id="829e3-112">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="829e3-112">Emergency calling terms and conditions</span></span>](../emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="20b70-119">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="20b70-119">Emergency calling terms and conditions</span></span>](../emergency-calling-terms-and-conditions.md)
   
