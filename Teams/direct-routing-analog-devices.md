@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lea este artículo para aprender a usar dispositivos analógicos con el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: c1720a7f702babbf677ab8f1de75014c629e6d76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 525e898bd0eafe88d6893249465734d7c33a10b2
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192173"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341792"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Cómo usar dispositivos analógicos con enrutamiento directo de sistema telefónico
 
@@ -45,7 +45,7 @@ Este ejemplo le guía por los siguientes pasos:
 4. Asignar la ruta de voz al uso de RTC
 5. Habilitar el usuario en línea
 6. Asignar la Directiva de la ruta de voz al usuario
-7. Asignar una directiva de ruta de voz a un dispositivo analógico
+7. Crear una ruta de voz para un dispositivo analógico
 
 Para obtener información sobre cómo conectar un ATA a un SBC y configurar el SBC, consulte la guía de configuración del fabricante de SBC:
 - [Documentación de configuración de AudioCodes](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
@@ -104,7 +104,7 @@ Este comando asigna la Directiva de enrutamiento de voz en línea de AnalogInter
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
 ```
 
-## <a name="step-7--assign-a-voice-route-to-an-analog-device"></a>Paso 7: asignar una ruta de voz a un dispositivo analógico
+## <a name="step-7--create-a-voice-route-for-an-analog-device"></a>Paso 7: crear una ruta de voz para un dispositivo analógico
 
 Este comando crea una ruta de voz en línea con la identidad "red de interoperabilidad analógica" para el intervalo de números + 1425 4XX XX XX aplicable a una lista de puertas de enlace en línea sbc.contoso.com y la asocia a la "interoperabilidad" de uso de RTC en línea.  Este comando debe ejecutarse para cada dispositivo analógico con el patrón de número de teléfono adecuado. Como alternativa, se puede usar un patrón de número adecuado para dispositivos analógicos al configurar la ruta de voz en línea durante uno de los pasos anteriores.
 

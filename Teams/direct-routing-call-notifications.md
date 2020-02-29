@@ -18,12 +18,12 @@ description: Notificación de llamada de enrutamiento directo
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 3d53245d241435e869dbdbeb15dcb1c81e18ff96
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0320ebc6abfc0e3f3d720fbab03abc698b26849c
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837600"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341805"
 ---
 # <a name="manage-call-notifications"></a>Administrar notificaciones perdidas
 
@@ -45,7 +45,7 @@ Puede evitar la notificación "llamada perdida" configurando SBC para que envíe
 
 MOTIVO: SIP; causa = 200; texto "llamada completada en otro lugar" 
 
-Tenga en cuenta que la llamada no se registrará en los registros de detalles de llamadas de Microsoft Phone System como una llamada correcta. La llamada se registrará como un "intento" con el código SIP final "487", el subcódigo final de Microsoft "540200" y la frase de código SIP final "llamada completada en otro lugar".   (Para ver los registros de detalles de llamadas, vaya al portal de administración de Teams, análisis e informes, informes de uso y seleccione el uso de RTC).
+Tenga en cuenta que la llamada no se registrará en los registros de detalles de llamadas de Microsoft Phone System como una llamada correcta. La llamada se registrará como un "intento" con el código SIP final "487", el subcódigo final de Microsoft "540200" y la frase de código SIP final "llamada completada en otro lugar".  (Para ver los registros de detalles de llamadas, vaya al portal de administración de Teams, análisis e informes, informes de uso y seleccione el uso de RTC).
 
 
 El diagrama siguiente muestra la escalera de SIP para la horquilla 1, explica el flujo de llamadas y el motivo esperado en el mensaje de cancelación. 

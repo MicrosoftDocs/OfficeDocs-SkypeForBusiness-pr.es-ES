@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: En este artículo se describen las ventajas, las consideraciones de planeación y los requisitos para implementar el servicio de correo de voz en la nube de Microsoft. Para obtener información sobre cómo configurar el correo de voz de nube, consulte Configurar el correo de voz de nube.
-ms.openlocfilehash: 82d9473e35b5c10fd2c50b783a89df64aed62cbe
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07448ab8232115e19c01261dc487c04b5a2dd4f9
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006025"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341766"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planear el servicio de correo de voz en la nube para usuarios locales
 
@@ -59,7 +59,7 @@ Las llamadas no respondidas se administran de la siguiente manera:
 3. A continuación, el servicio deposita el correo de voz en el buzón de correo de Exchange del usuario, independientemente de si el buzón de correo es local o en línea.  
 4. Los usuarios pueden obtener acceso al correo de voz desde el cliente de Skype empresarial o de Outlook.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 En los siguientes requisitos se da por supuesto que ya ha implementado Skype empresarial Server en una topología compatible.  Sus requisitos dependen de su escenario:
 
@@ -88,18 +88,13 @@ Si tiene previsto implementar Skype empresarial Server 2019 o Exchange Server 20
 - Exchange Server 2019 ya no proporciona funcionalidad de mensajería unificada de Exchange
 - Skype empresarial Server 2019 ya no se integra con la mensajería unificada de Exchange Online
 
-La interoperabilidad de versiones y las topologías admitidas para el correo de voz de la nube se enumeran en la siguiente tabla, que compara las versiones de Skype empresarial Server en las que el usuario puede estar alojado, con la versión posible que proporciona el buzón de Exchange. El correo de voz de nube solo funciona con Skype empresarial Server y Exchange Server 2019 o Exchange Online.
+La interoperabilidad de versiones y las topologías admitidas para el correo de voz de la nube se enumeran en la siguiente tabla, que compara las versiones de Skype empresarial Server en las que el usuario puede estar alojado, con la versión posible que proporciona el buzón de Exchange. Debe usar el correo de voz de nube si desea usar Skype empresarial 2019 con Exchange online o Exchange Server 2019.
 
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
-| Skype empresarial Server 2019 | Mensajería unificada de Exchange Server | Mensajería unificada de Exchange Server | Correo de voz de nube | Correo de voz de nube |
-| Skype Empresarial Server 2015 | Mensajería unificada de Exchange Server | Mensajería unificada de Exchange Server | Correo de voz de nube<sup>1</sup> | Correo de voz de nube <br> Mensajería unificada de Exchange Online<sup>2</sup> |
-| Lync Server 2013 <br>  | Mensajería unificada de Exchange Server | Mensajería unificada de Exchange Server | No compatible | Correo de voz de nube <br> Mensajería unificada de Exchange Online<sup>2</sup> |
-
-<sup>1</sup> ¿no ve esta opción todavía? Actualmente se está implementando y es posible que aún no esté disponible en la organización. Consulte el paso 6, considerar la posibilidad de optar, en el [soporte técnico de migración en línea de mensajería unificada de Exchange](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support
-) para optar por la conectividad planeada para el correo de voz de nube.
-
-<sup>2</sup> hasta que se haya dejado de estar en desuso. Consulte [compatibilidad con la migración en línea de mensajería unificada de Exchange](../../sfbserver2019/plan/exchange-unified-messaging-online-migration-support.md) para obtener más información. 
+| Skype empresarial Server 2019 | Mensajería unificada de Exchange Server | Mensajería unificada de Exchange Server | Correo de voz en la nube | Correo de voz en la nube |
+| Skype Empresarial Server 2015 | Mensajería unificada de Exchange Server | Mensajería unificada de Exchange Server | Correo de voz en la nube | Correo de voz en la nube |
+| Lync Server 2013 <br>  | Mensajería unificada de Exchange Server | Mensajería unificada de Exchange Server | No compatible | Correo de voz en la nube |
 
 Microsoft recomienda las siguientes rutas de migración:
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Resumen: Obtenga información sobre qué se debe tener en cuenta al planear el panel de calidad de llamadas.'
-ms.openlocfilehash: 25342998332a596abce9ecd02e63e153be6e6d94
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 63b69d64624d13253badf1d3e6f44535afdc0993
+ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029421"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42339445"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planeación del panel de calidad de llamadas para Skype empresarial Server 
  
@@ -193,11 +193,11 @@ En esta sección se asume que hay una sola base de datos de QoEMetrics en el ent
   
 **Perfiles de equipo**
 
-|**Equipo**|**Núcleos de CPU**|**RAM**|**Archivo de QoE y cubo en el mismo disco**|**Archivo de QoE y base de datos Temp SQL en el mismo disco**|
+|**Equipo**|**Núcleos de CPU**|**Memoria RAM**|**Archivo de QoE y cubo en el mismo disco**|**Archivo de QoE y base de datos Temp SQL en el mismo disco**|
 |:-----|:-----|:-----|:-----|:-----|
-|Máquina virtual  <br/> |4   <br/> |7 GB  <br/> |Sí  <br/> |Sí  <br/> |
-|4 núcleos  <br/> |4   <br/> |20 GB  <br/> |Sí  <br/> |No  <br/> |
-|8 núcleos  <br/> |8   <br/> |32 GB  <br/> |Sí  <br/> |No  <br/> |
+|Máquina virtual  <br/> |4  <br/> |7 GB  <br/> |Sí  <br/> |Sí  <br/> |
+|4 núcleos  <br/> |4  <br/> |20 GB  <br/> |Sí  <br/> |No  <br/> |
+|8 núcleos  <br/> |8,5  <br/> |32 GB  <br/> |Sí  <br/> |No  <br/> |
 |16 núcleos  <br/> |16   <br/> |128 GB  <br/> |No  <br/> |No  <br/> |
    
 **Resultados de rendimiento**
@@ -296,15 +296,10 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 
 Se admiten las siguientes versiones de SQL Server:
   
-- SQL Server 2012
-    
-- SQL Server 2014
-
-- SQL Server 2016
-
-- SQL Server 2017
-
-- SQL Server 2019 (solo para el CQD de Skype empresarial Server 2019)
+|||
+|:-----|:-----|
+| CQD 2015 <br/> |  SQL Server 2012, SQL Server 2014, SQL Server 2016  |
+|CQD 2019 <br/> |  SQL Server 2017, SQL Server 2019  |
     
 Se recomienda usar Business Intelligence o Enterprise Edition por motivos de rendimiento. Estas ediciones permiten el uso de varios archivos de partición que se pueden procesar en paralelo, lo que resulta ventajoso para procesar datos que abarcan varios meses o más. 
   

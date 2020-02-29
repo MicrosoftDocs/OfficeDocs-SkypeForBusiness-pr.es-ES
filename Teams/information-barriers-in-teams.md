@@ -15,12 +15,12 @@ f1.keywords:
 description: Obtenga más información sobre las barreras de información y cómo afectan a teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d5b5964f3fcf0f4d24fee44121f868d573eb6e9
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: a3f4f7f256be21b9b3f8063ed34a25afb4af6971
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962139"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341851"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de la información en Microsoft Teams
 
@@ -38,14 +38,21 @@ Las directivas de barrera de información también evitan búsquedas y descubrim
 
 El impulsor principal para las barreras de la información viene de la industria de servicios financieros. La autoridad legal del sector financiero ([FINRA]( http://www.finra.org)) revisa las barreras de la información y los conflictos de intereses en las empresas miembros y proporciona instrucciones sobre cómo administrar dichos conflictos (FINRA 2241, [aviso normativo de investigación de deudas 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf).  
 
-## <a name="when-should-i-use-information-barriers"></a>¿Cuándo debo usar las barreras de la información?
+Sin embargo, dado que la introducción de las barreras de la información, muchas otras áreas han descubierto que son útiles. Otros escenarios comunes son:
+
+- Educación: los alumnos de una escuela no pueden buscar detalles de contacto de estudiantes de otros centros escolares.
+- Oficio: mantenimiento de la confidencialidad de los datos obtenidos por el abogado de un cliente, desde el acceso a un abogado por la misma empresa que representa a un cliente diferente.
+- Administración pública: el acceso a la información y el control están limitados en todos los departamentos y grupos.
+- Servicios profesionales: un grupo de personas de una empresa solo puede chatear con un cliente o cliente específico a través de la Federación o el acceso de invitados durante el compromiso de un cliente.
+
+## <a name="when-to-use-information-barriers"></a>Cuándo usar barreras de la información
 
 Es posible que desee usar barreras de información en situaciones como estas:
 
 - Debe evitarse que un equipo pueda comunicarse o compartir datos con otro equipo específico.
 - Un equipo no debe comunicarse ni compartir datos con nadie fuera del equipo.
 
-El servicio de evaluación de directivas de Information barrera determina si una comunicación cumple con las directivas de la barrera de información. 
+El servicio de evaluación de directivas de Information barrera determina si una comunicación cumple con las directivas de la barrera de información.
 
 ## <a name="managing-information-barrier-policies"></a>Administración de directivas de la barrera de información
 
@@ -58,29 +65,28 @@ Las directivas de barrera de información se administran en el centro de cumplim
 
 El rol de administración de cumplimiento de IB es el responsable de administrar las políticas de la barrera de información. Para obtener más información sobre este rol, consulte [permisos en el centro de cumplimiento de la & de seguridad de Office 365](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
-## <a name="when-are-information-barrier-policies-checked"></a>¿Cuándo se verifican las directivas de barrera de información?
+## <a name="information-barrier-triggers"></a>Desencadenadores de barrera de información
 
-Las directivas de barrera de información se comprueban cuando se producen los siguientes eventos de Teams:
+Las directivas de barrera de información se activan cuando se producen los siguientes eventos de Teams:
 
 - **Se agregan miembros a un equipo** siempre que agregue un usuario a un equipo, la Directiva del usuario debe evaluarse contra las directivas de la barrera de información de otros miembros del equipo. Después de que el usuario se haya agregado correctamente, el usuario puede realizar todas las funciones del equipo sin más comprobaciones. Si la Directiva del usuario impide que se agreguen al equipo, el usuario no se mostrará en la búsqueda.
 - **Se solicita una nueva conversación** : cada vez que se solicita una nueva conversación entre dos o más usuarios, se evalúa la conversación para asegurarse de que no infrinja ninguna política de barrera de la información. Si la conversación infringe una directiva de barrera de información, la conversación no se inicia.
 - **Un usuario ha recibido una invitación para unirse a una reunión** : cuando un usuario está invitado a unirse a una reunión, la Directiva del usuario se evalúa según las directivas de otros miembros del equipo y, si se produce una infracción, el usuario no podrá unirse a la reunión.
 - **Una pantalla se comparte entre dos o más usuarios** , siempre que una pantalla se comparta entre dos o más usuarios, se debe evaluar el uso compartido de pantalla para asegurarse de que no infrinja las directivas de la barrera de información de otros usuarios. Si se infringe una directiva de barrera de información, no se permitirá el uso compartido de pantalla.
 - **Un usuario realiza una llamada de teléfono (VoIP) en Teams** , siempre que un usuario inicie una llamada de voz a otro usuario o grupo de usuarios, la llamada se evalúa para asegurarse de que no infrinja las directivas de la barrera de información de otros miembros del equipo. Si hay alguna infracción, la llamada se bloquea.
-- **Los usuarios invitados en Teams** : las directivas de barrera de información se aplican también a los usuarios invitados de Teams. Si los usuarios invitados necesitan ser detectados en la lista global de direcciones de la organización, consulte [administrar el acceso de invitados en los grupos de Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list). Una vez que los usuarios invitados sean detectados, puede [definir las políticas](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)de la barrera de información. 
+- **Los usuarios invitados en Teams** : las directivas de barrera de información se aplican también a los usuarios invitados de Teams. Si los usuarios invitados necesitan ser detectados en la lista global de direcciones de la organización, consulte [administrar el acceso de invitados en los grupos de Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list). Una vez que los usuarios invitados sean detectados, puede [definir las políticas](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)de la barrera de información.
 
-## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>¿Qué pasa con los subprocesos de chat existentes cuando se cambia una directiva?
+## <a name="how-policy-changes-impact-existing-chats"></a>Impacto de los cambios de directiva en los chats existentes
 
 Cuando el administrador de la Directiva de la barrera de información realiza cambios en una directiva o se activa un cambio de directiva debido a un cambio en el perfil de un usuario (por ejemplo, un cambio en el trabajo o un motivo similar), el servicio de evaluación de la Directiva de información de la barrera automáticamente busca los miembros para asegurarse de que los miembros del equipo no infrinjan las directivas.
 
-Si hay una conversación u otra comunicación entre usuarios, se establece una nueva Directiva o se modifica una directiva existente, el servicio evalúa las comunicaciones existentes para asegurarse de que se permitan las comunicaciones. 
+Si hay una conversación u otra comunicación entre usuarios, se establece una nueva Directiva o se modifica una directiva existente, el servicio evalúa las comunicaciones existentes para asegurarse de que se permitan las comunicaciones.
 
 - **1:1 chat** : Si ya no se permite la comunicación entre los dos usuarios (si se aplica una directiva que bloquea la comunicación a uno o ambos usuarios), se bloquea la comunicación adicional y la conversación de chat se convertirá en solo lectura.
-- **Conversación grupal** : Si ya no se permite la comunicación de un usuario al grupo (por ejemplo, si un usuario cambia de trabajo), el usuario, junto con el resto de los usuarios que infrinjan la Directiva, se puede quitar de la conversación grupal y no se permitirá la comunicación posterior con el grupo. El usuario puede seguir viendo conversaciones antiguas (que serán de solo lectura), pero no podrá ver ni participar en ninguna conversación nueva con el grupo. Si la directiva nueva o modificada que evita la comunicación se aplica a más de un usuario, los usuarios afectados por la Directiva se pueden quitar de la conversación grupal. Aún puede ver conversaciones antiguas. 
+- **Conversación grupal** : Si ya no se permite la comunicación de un usuario al grupo (por ejemplo, si un usuario cambia de trabajo), el usuario, junto con el resto de los usuarios que infrinjan la Directiva, se puede quitar de la conversación grupal y no se permitirá la comunicación posterior con el grupo. El usuario puede seguir viendo conversaciones antiguas (que serán de solo lectura), pero no podrá ver ni participar en ninguna conversación nueva con el grupo. Si la directiva nueva o modificada que evita la comunicación se aplica a más de un usuario, los usuarios afectados por la Directiva se pueden quitar de la conversación grupal. Aún puede ver conversaciones antiguas.
 - **Equipo** : todos los usuarios que se han quitado del grupo se quitan del equipo y no podrán ver ni participar en conversaciones nuevas o existentes.
 
-
-## <a name="what-will-users-experience-if-another-user-is-blocked"></a>¿Qué experimentarán los usuarios si otro usuario está bloqueado?
+## <a name="scenario-a-user-in-an-existing-chat-becomes-blocked"></a>Escenario: un usuario de un chat existente se bloquea
 
 En la actualidad, los usuarios experimentan lo siguiente si una directiva de barrera de información bloquea a otro usuario:
 
@@ -94,11 +100,12 @@ En la actualidad, los usuarios experimentan lo siguiente si una directiva de bar
 - **Llama a contactos** : un usuario puede ver usuarios bloqueados en la lista de contactos de llamadas, pero los usuarios bloqueados se identificarán y la única acción que el usuario puede realizar es eliminarlos.
 - **Migración de Skype a teams** : durante una migración de Skype empresarial a Teams, todos los usuarios, incluso los que están bloqueados por las directivas de la barrera de información, se migrarán a teams y se administrarán según se describe anteriormente.
 
-## <a name="will-files-and-sharepoint-site-experiences-connected-to-teams-honor-ib-policy"></a>¿Los archivos y las experiencias de sitios de SharePoint se conectan a Teams, respete la política IB?
- 
+## <a name="teams-policies-and-sharepoint-sites"></a>Directivas de Teams y sitios de SharePoint
+
 Cuando se crea un equipo, se aprovisiona un sitio de SharePoint y se asocia al equipo para la experiencia de los archivos. El acceso a este sitio de SharePoint y los archivos reconoce la IB de la organización, es decir, solo los usuarios cuya coincidencia con el segmento IB coinciden con el acceso a la Directiva IB. Incluso en el momento del uso compartido de archivos, se respeta la política IB.
 
-Por ejemplo: en Contoso Bank Corporation, el usuario ' Sesha@contosobank.onmicrosoft.com ' pertenece a un segmento de banca de inversiones y el usuario ' Nikita@contosobank.onmicrosoft.com ' pertenece a un asesoramiento de segmentos. La Directiva IB de la organización bloquea la comunicación y la colaboración entre estos dos segmentos. Cuando la Sesha de usuario crea un equipo para el segmento de banca de inversiones, el equipo y el sitio de SharePoint que los respalda solo serán accesibles para los usuarios del segmento de banca de inversión. Los usuarios no pueden acceder a ese sitio, incluso si tiene el vínculo a Nikita.
+Por ejemplo: en Contoso Bank Corporation, el usuario ' Sesha@contosobank.onmicrosoft.com ' pertenece a un segmento de banca de inversiones y el usuario ' Nikita@contosobank.onmicrosoft.com ' pertenece a un asesoramiento de segmentos. La Directiva IB de la organización bloquea la comunicación y la colaboración entre estos dos segmentos.
+Cuando la Sesha de usuario crea un equipo para el segmento de banca de inversiones, el equipo y el sitio de SharePoint que los respalda solo serán accesibles para los usuarios del segmento de banca de inversión. Los usuarios no pueden acceder a ese sitio, incluso si tiene el vínculo a Nikita.
 
 ## <a name="required-licenses-and-permissions"></a>Licencias y permisos necesarios
 
@@ -111,4 +118,3 @@ Para obtener más información, incluidos planes y precios, consulte [Guía de l
 - Para configurar las políticas de la barrera de información, consulte [definir políticas para las barreras de la información](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 - Para editar o quitar directivas de la barrera de la información, consulte [Editar o quitar directivas](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies.md) de la barrera de información
-

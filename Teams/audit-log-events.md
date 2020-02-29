@@ -16,15 +16,15 @@ search.appverid: MET150
 description: Aprenda a recuperar datos de Microsoft Teams del registro de auditoría de Office 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c1f82a7688e3fdde7be85004c717293cc5777fa
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 3f53d1a0b5e600de9d38233b243dba3486b88bf1
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826278"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341628"
 ---
-<a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
-==================================================
+# <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
+
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
@@ -52,20 +52,43 @@ Para poder consultar los datos de auditoría, primero debe activar la auditoría
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>Recuperar datos de Microsoft Teams del registro de auditoría
 
-
-1.  Para recuperar los registros de auditoría, vaya al [Centro de seguridad y cumplimiento](https://go.microsoft.com/fwlink/?linkid=855775). En **Buscar**, seleccione **búsqueda de registros de auditoría**.
-
-
-
-2. Use **Buscar** para filtrar por las actividades, las fechas y los usuarios que desee auditar.
-
-3. Exporte los resultados a Excel para continuar el análisis.
+1. Para recuperar los registros de auditoría, vaya al [Centro de seguridad y cumplimiento](https://go.microsoft.com/fwlink/?linkid=855775). En **Buscar**, seleccione **búsqueda de registros de auditoría**.
+1. Use **Buscar** para filtrar por las actividades, las fechas y los usuarios que desee auditar.
+1. Exporte los resultados a Excel para continuar el análisis.
 
 > [!IMPORTANT]
 > Los datos de auditoría solo están visibles en el registro de auditoría si está activada la auditoría.
 
+## <a name="external-user-scenario"></a>Escenario de usuario externo
+
+Un escenario que quizás desee mantener a la vista desde una perspectiva empresarial es la adición de usuarios externos a su entorno de equipos. Si los usuarios externos están habilitados, la supervisión de su presencia es una buena idea.
+
+![Captura de pantalla de una lista de eventos desencadenada por eliminaciones masivas](media/TeamsExternalUserAddPolicy.png)
+
+La captura de pantalla de esta directiva para supervisar adiciones de usuarios externos le permite asignar un nombre a la Directiva, establecer la gravedad según sus necesidades empresariales, establecerla como (en este caso) una sola actividad y, a continuación, establecer los parámetros que solo supervisarán específicamente la adición. de usuarios no internos y limitar esta actividad a Microsoft Teams.
+
+Entonces, los resultados de esta directiva podrán verse en el registro de actividades:
+
+![Captura de pantalla de una lista de eventos desencadenada por eliminaciones masivas](media/TeamsExternalUserList.png)
+
+Aquí puede revisar las coincidencias con la Directiva que ha establecido, realizar los ajustes necesarios, o exportar los resultados para usarlos en otro lugar.
+
+## <a name="mass-delete-scenario"></a>Escenario de eliminación masiva
+
+Como se mencionó anteriormente, puede supervisar los escenarios de eliminación. Es posible crear una directiva que supervisará la eliminación masiva de sitios de Teams:
+
+![Captura de pantalla de la página creación de directiva que muestra la configuración de una directiva para la detección masiva de la eliminación de equipos](media/TeamsMassDeletePolicy.png)
+
+Como se muestra en la captura de pantalla, puede establecer muchos parámetros diferentes para que esta directiva supervise las eliminaciones de Teams, incluyendo la gravedad, una acción única o repetida, y los parámetros que limitan esta posibilidad a los equipos y la eliminación de sitios. Esto puede hacerse independientemente de una plantilla o puede tener una plantilla creada para basar esta directiva en función de las necesidades de la organización.
+
+Una vez que haya establecido una directiva que funcione para su empresa, podrá revisar los resultados en el registro de actividades a medida que se activen los eventos:
+
+![Captura de pantalla de una lista de eventos desencadenada por eliminaciones masivas](media/TeamsMassDeleteList.png)
+
+Puede filtrar hasta la Directiva que haya establecido para ver los resultados de esa Directiva. Si los resultados que está recibiendo en el registro de actividades no son satisfactorios (quizá esté viendo un gran número de resultados o nada), esto puede ayudarle a ajustar la consulta para hacerla más relevante para lo que necesita.
+
 ## <a name="video-techtip-using-audit-log-search-in-teams"></a>Vídeo: TechTip: Usar la búsqueda en el registro de auditoría en Microsoft Teams
 
-Observe cómo Ansuman Acharya, un director de proyectos de Microsoft Teams, realiza una búsqueda en el registro de auditoría para Microsoft Teams en el Centro de seguridad y cumplimiento de Office 365. 
+Observe cómo Ansuman Acharya, un director de proyectos de Microsoft Teams, realiza una búsqueda en el registro de auditoría para Microsoft Teams en el Centro de seguridad y cumplimiento de Office 365.
 
 > [!VIDEO https://www.youtube.com/embed/UBxaRySAxyE]

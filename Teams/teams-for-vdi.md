@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 479f272f45c4ac7c8f84f0aa26fe923ea16ff3d7
-ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
+ms.openlocfilehash: c5bc574fc760929d416ce3f62c921bc522c2997c
+ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42278013"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42339465"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -351,7 +351,8 @@ Para obtener más información sobre cómo usar PowerShell para administrar dire
     - El uso compartido de aplicaciones no es compatible.
 - Ceder el control y tomar el control:  
     - No se admite durante una sesión compartida de pantalla o de uso compartido de aplicaciones.
-    - Compatible durante una sesión de uso compartido de PowerPoint.  
+    - Compatible durante una sesión de uso compartido de PowerPoint.
+- Cuando se comparte la pantalla en una configuración de varios monitores, solo se comparte el monitor principal.
 - No se admite el escalado de PPP alto en CWA.
 
 Para los problemas conocidos de teams que no se relacionan con VDI, consulte [problemas conocidos para Teams](Known-issues.md).
