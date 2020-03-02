@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 2c141bab63990c39ef7fd08837eb4ad99d72682d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 67a69ff2a86a57e16d157fa1a0b4b36ca3c2e036
+ms.sourcegitcommit: c4f13aa4947df606d38694a7e544b08be7ce20d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827958"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42370409"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>¿Cuál es el estado de mis solicitudes de portabilidad?
 
@@ -36,13 +36,13 @@ En la tabla siguiente se enumeran los Estados de los pedidos de los puertos, as�
 |**Contactando con el operador** <br/> |Sí  <br/> |No  <br/> |Sí  <br/> |No  <br/> |El pedido ha sido recibido y aprobado por Microsoft, y estamos trabajando con el operador que ha perdido para obtenerlo.  <br/> |
 |**Transferencia aprobada** <br/> |Sí  <br/> |Compromiso de pedido firme (FOC)  <br/> |Sí  <br/> |No  <br/> |El pedido ha sido aceptado por el operador perdido y se ha establecido la fecha de FOC.  <br/> |
 |**Transferencia pendiente** <br/> |Sí  <br/> |No  <br/> |No  <br/> |No  <br/> |La transferencia está fuera de las 24 horas, por lo que el pedido ya no se puede editar ni cancelar.  <br/> |
-|**Error** <br/> |No  <br/> |Sí  <br/> |Sí   <br/> |Sí (en este momento, no puede eliminar la solicitud de portabilidad si se produce un error. Es necesario volver a crear la solicitud de portabilidad o debe ponerse en contacto con la [ayuda del servicio de asistencia al cliente PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).  <br/> |El operador perdido rechazó el pedido.  <br/> |
+|**Error** <br/> |No  <br/> |Sí  <br/> |Sí   <br/> |Sí (en este momento, no puede eliminar la solicitud de portabilidad si se produce un error. Es necesario volver a crear el pedido de puerto o ponerse en contacto con el [servicio de asistencia al cliente RTC](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).  <br/> |El operador perdido rechazó el pedido.  <br/> |
 |**Llena** <br/> |Sí  <br/> |No  <br/> |No  <br/> |No  <br/> |Los números se han transferido correctamente.  <br/> |
 |**Cancelar** <br/> |No  <br/> |Sí  <br/> |No  <br/> |No  <br/> |El administrador ha cancelado el pedido.  <br/> |
 
 Para obtener instrucciones detalladas, consulte [transferir números de teléfono a teams](transfer-phone-numbers-to-teams.md).
 
-Si necesita ayuda o si necesita obtener más números de teléfono, póngase en contacto con la [ayuda del servicio de asistencia al cliente RTC](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+Si necesita ayuda o si necesita obtener más números de teléfono, póngase en contacto con el [servicio de asistencia al cliente de RTC](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
 ## <a name="related-topics"></a>Temas relacionados
 
