@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: En este artículo se describen las mejoras acumulativas de las salas de Microsoft Teams.
-ms.openlocfilehash: fc83efc2b3b72be532d29b2698370c655a1da9ac
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 6ecc038658b8178530833ae4f8964bdfc733be84
+ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42155092"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42398198"
 ---
 # <a name="release-notes"></a>Notas de la versión
 
@@ -28,6 +28,7 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 
 |Prensa |Publicado en <br/> Microsoft Store |
 |--- |--- |
+|4.3.42.0 |03/02/2020 |
 |4.3.33.0 |1/10/2020 |
 |4.3.23.0 |12/13/2019 |
 |4.2.4.0 |10/07/2019 |
@@ -59,6 +60,12 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introducción a la característica salas de Microsoft Teams y problemas
+### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
+
+Introdujo en esta actualización:
+
+- Actualizaciones de directivas para "actualizaciones de Windows para empresas" 
+- Solución para informes de eventos de dispositivos que muestran errores en Azure monitor
 
 ### <a name="43330-1102020"></a>4.3.33.0 (1/10/2020)
 
