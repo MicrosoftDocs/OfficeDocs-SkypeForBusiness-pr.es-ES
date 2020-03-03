@@ -4,7 +4,6 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 11/26/2018
 ms.topic: landing-page
 ms.service: msteams
 audience: admin
@@ -20,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 106be5636d37df64b9a047dd6ff692cc445e7a2b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fb9de199cb02ee278b0e7bb1227ac41172d1a3e1
+ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203896"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42374227"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Formación del usuario final para Microsoft Teams
 
