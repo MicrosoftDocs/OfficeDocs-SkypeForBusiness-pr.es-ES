@@ -18,25 +18,25 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a administrar el ciclo de vida de los canales privados de su organización.
-ms.openlocfilehash: 527e6421160eefa72b2a9c21e8e8f25303534320
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7cd7701a66c03dfc71d89f007eae4addaed0c89a
+ms.sourcegitcommit: f23c428043bb0b37c9a8600e64691bc2a1f2e874
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837330"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42403749"
 ---
-# <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a><span data-ttu-id="7027a-103">Administrar el ciclo de vida de canales privados en Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7027a-103">Manage the life cycle of private channels in Microsoft Teams</span></span>
+# <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a><span data-ttu-id="ba099-103">Administrar el ciclo de vida de canales privados en Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ba099-103">Manage the life cycle of private channels in Microsoft Teams</span></span>
 
-<span data-ttu-id="7027a-104">Aquí encontrará las instrucciones que necesita para administrar el ciclo de vida de los [canales privados](private-channels.md) de su organización.</span><span class="sxs-lookup"><span data-stu-id="7027a-104">Here you'll find the guidance you need to manage the life cycle of [private channels](private-channels.md) in your organization.</span></span>
+<span data-ttu-id="ba099-104">Aquí encontrará las instrucciones que necesita para administrar el ciclo de vida de los [canales privados](private-channels.md) de su organización.</span><span class="sxs-lookup"><span data-stu-id="ba099-104">Here you'll find the guidance you need to manage the life cycle of [private channels](private-channels.md) in your organization.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="7027a-105">Si está usando los pasos de PowerShell de este artículo para administrar canales privados, debe instalar y usar la última versión del módulo Teams PowerShell de la galería de pruebas de PowerShell.</span><span class="sxs-lookup"><span data-stu-id="7027a-105">If you're using the PowerShell steps in this article to manage private channels, you must install and use the latest version of the Teams PowerShell module from the PowerShell Test Gallery.</span></span> <span data-ttu-id="7027a-106">Para conocer los pasos para realizar esto, consulte [instalar el módulo de PowerShell más reciente de la galería de pruebas de PowerShell](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery).</span><span class="sxs-lookup"><span data-stu-id="7027a-106">For steps on how to do this, see [Install the latest Teams PowerShell module from the PowerShell Test Gallery](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery).</span></span> <span data-ttu-id="7027a-107">La última versión disponible públicamente del módulo de PowerShell de Teams (actualmente [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) no admite la administración de canales privados.</span><span class="sxs-lookup"><span data-stu-id="7027a-107">The latest publicly available version of the Teams PowerShell module (currently [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) doesn't support managing private channels.</span></span>
+> <span data-ttu-id="ba099-105">Si está usando los pasos de PowerShell de este artículo para administrar canales privados, debe instalar y usar la última versión del módulo Teams PowerShell de la galería de pruebas de PowerShell.</span><span class="sxs-lookup"><span data-stu-id="ba099-105">If you're using the PowerShell steps in this article to manage private channels, you must install and use the latest version of the Teams PowerShell module from the PowerShell Test Gallery.</span></span> <span data-ttu-id="ba099-106">Para conocer los pasos para realizar esto, consulte [instalar el módulo de PowerShell más reciente de la galería de pruebas de PowerShell](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery).</span><span class="sxs-lookup"><span data-stu-id="ba099-106">For steps on how to do this, see [Install the latest Teams PowerShell module from the PowerShell Test Gallery](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery).</span></span> <span data-ttu-id="ba099-107">La última versión disponible públicamente del módulo de PowerShell de Teams (actualmente [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) no admite la administración de canales privados.</span><span class="sxs-lookup"><span data-stu-id="ba099-107">The latest publicly available version of the Teams PowerShell module (currently [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) doesn't support managing private channels.</span></span>
 
-## <a name="set-whether-team-members-can-create-private-channels"></a><span data-ttu-id="7027a-108">Establecer si los miembros del equipo pueden crear canales privados</span><span class="sxs-lookup"><span data-stu-id="7027a-108">Set whether team members can create private channels</span></span>
+## <a name="set-whether-team-members-can-create-private-channels"></a><span data-ttu-id="ba099-108">Establecer si los miembros del equipo pueden crear canales privados</span><span class="sxs-lookup"><span data-stu-id="ba099-108">Set whether team members can create private channels</span></span>
 
-<span data-ttu-id="7027a-109">Los propietarios del equipo pueden desactivar o activar la posibilidad de que los miembros creen canales privados en la configuración del equipo.</span><span class="sxs-lookup"><span data-stu-id="7027a-109">Team owners can turn off or turn on the ability for members to create private channels in team settings.</span></span> <span data-ttu-id="7027a-110">Para ello, en la pestaña **configuración** del equipo, desactive o desactive **permitir que los miembros creen canales privados**.</span><span class="sxs-lookup"><span data-stu-id="7027a-110">To do this, on the **Settings** tab for the team, turn off or turn on **Allow members to create private channels**.</span></span>
+<span data-ttu-id="ba099-109">Los propietarios del equipo pueden desactivar o activar la posibilidad de que los miembros creen canales privados en la configuración del equipo.</span><span class="sxs-lookup"><span data-stu-id="ba099-109">Team owners can turn off or turn on the ability for members to create private channels in team settings.</span></span> <span data-ttu-id="ba099-110">Para ello, en la pestaña **configuración** del equipo, desactive o desactive **permitir que los miembros creen canales privados**.</span><span class="sxs-lookup"><span data-stu-id="ba099-110">To do this, on the **Settings** tab for the team, turn off or turn on **Allow members to create private channels**.</span></span>
 
-<span data-ttu-id="7027a-111">Como administrador, puede usar la API de Graph para controlar si los miembros pueden crear canales privados en determinados equipos.</span><span class="sxs-lookup"><span data-stu-id="7027a-111">As an admin, you can use Graph API to control whether members can create private channels in specific teams.</span></span> <span data-ttu-id="7027a-112">Este es un ejemplo.</span><span class="sxs-lookup"><span data-stu-id="7027a-112">Here's an example.</span></span>
+<span data-ttu-id="ba099-111">Como administrador, puede usar la API de Graph para controlar si los miembros pueden crear canales privados en determinados equipos.</span><span class="sxs-lookup"><span data-stu-id="ba099-111">As an admin, you can use Graph API to control whether members can create private channels in specific teams.</span></span> <span data-ttu-id="ba099-112">Este es un ejemplo.</span><span class="sxs-lookup"><span data-stu-id="ba099-112">Here's an example.</span></span>
 
 ```Graph API
 PATCH /teams/<team_id>
@@ -47,31 +47,31 @@ PATCH /teams/<team_id>
 }
 ```
 
-## <a name="set-whether-users-in-your-organization-can-create-private-channels"></a><span data-ttu-id="7027a-113">Establecer si los usuarios de su organización pueden crear canales privados</span><span class="sxs-lookup"><span data-stu-id="7027a-113">Set whether users in your organization can create private channels</span></span>
+## <a name="set-whether-users-in-your-organization-can-create-private-channels"></a><span data-ttu-id="ba099-113">Establecer si los usuarios de su organización pueden crear canales privados</span><span class="sxs-lookup"><span data-stu-id="ba099-113">Set whether users in your organization can create private channels</span></span>
 
-<span data-ttu-id="7027a-114">Como administrador, puede establecer directivas con el centro de administración de Microsoft Teams o PowerShell para controlar los usuarios de su organización que pueden crear canales privados.</span><span class="sxs-lookup"><span data-stu-id="7027a-114">As an admin, you can set policies by using the Microsoft Teams admin center or PowerShell to control which users in your organization are allowed to create private channels.</span></span>
+<span data-ttu-id="ba099-114">Como administrador, puede establecer directivas con el centro de administración de Microsoft Teams o PowerShell para controlar los usuarios de su organización que pueden crear canales privados.</span><span class="sxs-lookup"><span data-stu-id="ba099-114">As an admin, you can set policies by using the Microsoft Teams admin center or PowerShell to control which users in your organization are allowed to create private channels.</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="7027a-115">Usar el centro de administración de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7027a-115">Using the Microsoft Teams admin center</span></span>
+### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="ba099-115">Usar el centro de administración de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ba099-115">Using the Microsoft Teams admin center</span></span>
 
-<span data-ttu-id="7027a-116">Use directivas de Teams para establecer los usuarios de su organización que pueden crear canales privados.</span><span class="sxs-lookup"><span data-stu-id="7027a-116">Use teams policies to set which users in your organization are allowed to create private channels.</span></span> <span data-ttu-id="7027a-117">Para obtener más información, vea [Administrar directivas de Teams en Teams](teams-policies.md).</span><span class="sxs-lookup"><span data-stu-id="7027a-117">To learn more, see [Manage teams policies in Teams](teams-policies.md).</span></span>
+<span data-ttu-id="ba099-116">Use directivas de Teams para establecer los usuarios de su organización que pueden crear canales privados.</span><span class="sxs-lookup"><span data-stu-id="ba099-116">Use teams policies to set which users in your organization are allowed to create private channels.</span></span> <span data-ttu-id="ba099-117">Para obtener más información, vea [Administrar directivas de Teams en Teams](teams-policies.md).</span><span class="sxs-lookup"><span data-stu-id="ba099-117">To learn more, see [Manage teams policies in Teams](teams-policies.md).</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="7027a-118">Usar PowerShell</span><span class="sxs-lookup"><span data-stu-id="7027a-118">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="ba099-118">Usar PowerShell</span><span class="sxs-lookup"><span data-stu-id="ba099-118">Using PowerShell</span></span>
 
-<span data-ttu-id="7027a-119">Use **CsTeamsChannelsPolicy** para establecer qué usuarios de su organización pueden crear canales privados.</span><span class="sxs-lookup"><span data-stu-id="7027a-119">Use **CsTeamsChannelsPolicy** to set which users in your organization are allowed to create private channels.</span></span> <span data-ttu-id="7027a-120">Establezca el parámetro **AllowPrivateChannelCreation** en **true** para permitir a los usuarios a quienes les asignan la Directiva crear canales privados.</span><span class="sxs-lookup"><span data-stu-id="7027a-120">Set the **AllowPrivateChannelCreation** parameter to **true** to allow users who are assigned the policy to create private channels.</span></span> <span data-ttu-id="7027a-121">Establecer el parámetro en **false** desactiva la capacidad de crear canales privados para los usuarios que tienen asignada la Directiva.</span><span class="sxs-lookup"><span data-stu-id="7027a-121">Setting the parameter to **false** turns off the ability to create private channels for users who are assigned the policy.</span></span>
+<span data-ttu-id="ba099-119">Use **CsTeamsChannelsPolicy** para establecer qué usuarios de su organización pueden crear canales privados.</span><span class="sxs-lookup"><span data-stu-id="ba099-119">Use **CsTeamsChannelsPolicy** to set which users in your organization are allowed to create private channels.</span></span> <span data-ttu-id="ba099-120">Establezca el parámetro **AllowPrivateChannelCreation** en **true** para permitir a los usuarios a quienes les asignan la Directiva crear canales privados.</span><span class="sxs-lookup"><span data-stu-id="ba099-120">Set the **AllowPrivateChannelCreation** parameter to **true** to allow users who are assigned the policy to create private channels.</span></span> <span data-ttu-id="ba099-121">Establecer el parámetro en **false** desactiva la capacidad de crear canales privados para los usuarios que tienen asignada la Directiva.</span><span class="sxs-lookup"><span data-stu-id="ba099-121">Setting the parameter to **false** turns off the ability to create private channels for users who are assigned the policy.</span></span>
 
-<span data-ttu-id="7027a-122">Para obtener más información, vea [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="7027a-122">To learn more, see [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps).</span></span>
+<span data-ttu-id="ba099-122">Para obtener más información, vea [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="ba099-122">To learn more, see [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps).</span></span>
 
-## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a><span data-ttu-id="7027a-123">Crear un canal privado en nombre de un propietario del equipo</span><span class="sxs-lookup"><span data-stu-id="7027a-123">Create a private channel on behalf of a team owner</span></span>
+## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a><span data-ttu-id="ba099-123">Crear un canal privado en nombre de un propietario del equipo</span><span class="sxs-lookup"><span data-stu-id="ba099-123">Create a private channel on behalf of a team owner</span></span>
 
-<span data-ttu-id="7027a-124">Como administrador, puede usar la API de PowerShell o Graph para crear un canal privado en nombre de un propietario del equipo.</span><span class="sxs-lookup"><span data-stu-id="7027a-124">As an admin, you can use PowerShell or Graph API to create a private channel on behalf of a team owner.</span></span> <span data-ttu-id="7027a-125">Por ejemplo, es posible que desee hacerlo si su organización desea centralizar la creación de canales privados.</span><span class="sxs-lookup"><span data-stu-id="7027a-125">For example, you may want to do this if your organization wants to centralize creation of private channels.</span></span>
+<span data-ttu-id="ba099-124">Como administrador, puede usar la API de PowerShell o Graph para crear un canal privado en nombre de un propietario del equipo.</span><span class="sxs-lookup"><span data-stu-id="ba099-124">As an admin, you can use PowerShell or Graph API to create a private channel on behalf of a team owner.</span></span> <span data-ttu-id="ba099-125">Por ejemplo, es posible que desee hacerlo si su organización desea centralizar la creación de canales privados.</span><span class="sxs-lookup"><span data-stu-id="ba099-125">For example, you may want to do this if your organization wants to centralize creation of private channels.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="7027a-126">Usar PowerShell</span><span class="sxs-lookup"><span data-stu-id="7027a-126">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="ba099-126">Usar PowerShell</span><span class="sxs-lookup"><span data-stu-id="ba099-126">Using PowerShell</span></span>
 
 ```PowerShell
 New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName “<Channel_Name>” –Owner <Owner_UPN>
 ```
 
-### <a name="using-graph-api"></a><span data-ttu-id="7027a-127">Usar la API Graph</span><span class="sxs-lookup"><span data-stu-id="7027a-127">Using Graph API</span></span>
+### <a name="using-graph-api"></a><span data-ttu-id="ba099-127">Usar la API Graph</span><span class="sxs-lookup"><span data-stu-id="ba099-127">Using Graph API</span></span>
 
 ```Graph API
 POST /teams/{id}/channels
@@ -84,25 +84,25 @@ POST /teams/{id}/channels
             }]
 ```
 
-## <a name="get-a-list-of-all-private-channel-messages"></a><span data-ttu-id="7027a-128">Obtener una lista de todos los mensajes de canal privado</span><span class="sxs-lookup"><span data-stu-id="7027a-128">Get a list of all private channel messages</span></span>
+## <a name="get-a-list-of-all-private-channel-messages"></a><span data-ttu-id="ba099-128">Obtener una lista de todos los mensajes de canal privado</span><span class="sxs-lookup"><span data-stu-id="ba099-128">Get a list of all private channel messages</span></span>
 
-<span data-ttu-id="7027a-129">Es posible que desee obtener una lista de todos los mensajes y respuestas publicados en un canal privado para archivar y auditar.</span><span class="sxs-lookup"><span data-stu-id="7027a-129">You may want to get a list of all messages and replies posted in a private channel for archiving and auditing purposes.</span></span>  <span data-ttu-id="7027a-130">A continuación se explica cómo usar la API de Graph para hacerlo.</span><span class="sxs-lookup"><span data-stu-id="7027a-130">Here's how to use Graph API to do this.</span></span>
+<span data-ttu-id="ba099-129">Es posible que desee obtener una lista de todos los mensajes y respuestas publicados en un canal privado para archivar y auditar.</span><span class="sxs-lookup"><span data-stu-id="ba099-129">You may want to get a list of all messages and replies posted in a private channel for archiving and auditing purposes.</span></span>  <span data-ttu-id="ba099-130">A continuación se explica cómo usar la API de Graph para hacerlo.</span><span class="sxs-lookup"><span data-stu-id="ba099-130">Here's how to use Graph API to do this.</span></span>
 
 ```Graph API
 GET /teams/{id}/channels/{id}/messages
 GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ```
 
-## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a><span data-ttu-id="7027a-131">Buscar direcciones URL de SharePoint para todos los canales privados de un equipo</span><span class="sxs-lookup"><span data-stu-id="7027a-131">Find SharePoint URLs for all private channels in a team</span></span>
+## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a><span data-ttu-id="ba099-131">Buscar direcciones URL de SharePoint para todos los canales privados de un equipo</span><span class="sxs-lookup"><span data-stu-id="ba099-131">Find SharePoint URLs for all private channels in a team</span></span>
 
-<span data-ttu-id="7027a-132">Tanto si desea realizar una búsqueda de exhibición de sitios web o una retención legal en archivos de un canal privado o en crear una aplicación de línea de negocio que coloca los archivos en canales privados específicos, querrá una manera de consultar las colecciones de sitios de SharePoint exclusivas que se crean para cada canal privado.</span><span class="sxs-lookup"><span data-stu-id="7027a-132">Whether you're looking to perform eDiscovery or legal hold on files in a private channel or looking to build a line-of-business app that places files in specific private channels, you'll want a way to query the unique SharePoint site collections that are created for each private channel.</span></span>
+<span data-ttu-id="ba099-132">Tanto si desea realizar una búsqueda de exhibición de sitios web o una retención legal en archivos de un canal privado o en crear una aplicación de línea de negocio que coloca los archivos en canales privados específicos, querrá una manera de consultar las colecciones de sitios de SharePoint exclusivas que se crean para cada canal privado.</span><span class="sxs-lookup"><span data-stu-id="ba099-132">Whether you're looking to perform eDiscovery or legal hold on files in a private channel or looking to build a line-of-business app that places files in specific private channels, you'll want a way to query the unique SharePoint site collections that are created for each private channel.</span></span>
 
-<span data-ttu-id="7027a-133">Como administrador, puede usar los comandos de las API de PowerShell o Graph para consultar estas direcciones URL.</span><span class="sxs-lookup"><span data-stu-id="7027a-133">As an admin, you can use PowerShell or Graph APIs commands to query these URLs.</span></span>
+<span data-ttu-id="ba099-133">Como administrador, puede usar los comandos de las API de PowerShell o Graph para consultar estas direcciones URL.</span><span class="sxs-lookup"><span data-stu-id="ba099-133">As an admin, you can use PowerShell or Graph APIs commands to query these URLs.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="7027a-134">Usar PowerShell</span><span class="sxs-lookup"><span data-stu-id="7027a-134">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="ba099-134">Usar PowerShell</span><span class="sxs-lookup"><span data-stu-id="ba099-134">Using PowerShell</span></span>
 
-1. <span data-ttu-id="7027a-135">Instale y conéctese al [Shell de administración de SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) con su cuenta de administrador.</span><span class="sxs-lookup"><span data-stu-id="7027a-135">Install and connect to the [SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) with your admin account.</span></span>
-2. <span data-ttu-id="7027a-136">Ejecute lo siguiente, donde &lt;group_id&gt; es el identificador de grupo del equipo.</span><span class="sxs-lookup"><span data-stu-id="7027a-136">Run the following, where &lt;group_id&gt; is the group Id of the team.</span></span> <span data-ttu-id="7027a-137">(Puede encontrar fácilmente el identificador de grupo en el vínculo al equipo).</span><span class="sxs-lookup"><span data-stu-id="7027a-137">(You can easily find the group Id in the link to the team.)</span></span>
+1. <span data-ttu-id="ba099-135">Instale y conéctese al [Shell de administración de SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) con su cuenta de administrador.</span><span class="sxs-lookup"><span data-stu-id="ba099-135">Install and connect to the [SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) with your admin account.</span></span>
+2. <span data-ttu-id="ba099-136">Ejecute lo siguiente, donde &lt;group_id&gt; es el identificador de grupo del equipo.</span><span class="sxs-lookup"><span data-stu-id="ba099-136">Run the following, where &lt;group_id&gt; is the group ID of the team.</span></span> <span data-ttu-id="ba099-137">(Puede encontrar fácilmente el identificador de grupo en el vínculo al equipo).</span><span class="sxs-lookup"><span data-stu-id="ba099-137">(You can easily find the group ID in the link to the team.)</span></span>
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -112,19 +112,19 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     {$x.RelatedGroupId;$x.url}}
     ```
 
-### <a name="using-graph-api"></a><span data-ttu-id="7027a-138">Usar la API Graph</span><span class="sxs-lookup"><span data-stu-id="7027a-138">Using Graph API</span></span>
+### <a name="using-graph-api"></a><span data-ttu-id="ba099-138">Usar la API Graph</span><span class="sxs-lookup"><span data-stu-id="ba099-138">Using Graph API</span></span>
 
-<span data-ttu-id="7027a-139">Puede probar estos comandos en el [Explorador de gráficos](https://developer.microsoft.com/graph/graph-explorer).</span><span class="sxs-lookup"><span data-stu-id="7027a-139">You can try these commands through [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).</span></span>
+<span data-ttu-id="ba099-139">Puede probar estos comandos en el [Explorador de gráficos](https://developer.microsoft.com/graph/graph-explorer).</span><span class="sxs-lookup"><span data-stu-id="ba099-139">You can try these commands through [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).</span></span>
 
-1. <span data-ttu-id="7027a-140">Use el siguiente procedimiento para obtener la lista de identificadores de canal privado para un equipo determinado, donde <group_id> es el identificador de grupo del equipo.</span><span class="sxs-lookup"><span data-stu-id="7027a-140">Use the following to get the list of private channel Ids for a given team, where <group_id> is the group Id of the team.</span></span> <span data-ttu-id="7027a-141">La necesitarás en llamadas posteriores.</span><span class="sxs-lookup"><span data-stu-id="7027a-141">You'll need this in subsequent calls.</span></span> <span data-ttu-id="7027a-142">(Puede encontrar fácilmente el identificador de grupo en el vínculo al equipo).</span><span class="sxs-lookup"><span data-stu-id="7027a-142">(You can easily find the group Id in the link to the team).</span></span>
+1. <span data-ttu-id="ba099-140">Use el siguiente procedimiento para obtener la lista de identificadores de canal privado para un equipo determinado, donde <group_id> es el identificador de grupo del equipo.</span><span class="sxs-lookup"><span data-stu-id="ba099-140">Use the following to get the list of private channel IDs for a given team, where <group_id> is the group ID of the team.</span></span> <span data-ttu-id="ba099-141">La necesitarás en llamadas posteriores.</span><span class="sxs-lookup"><span data-stu-id="ba099-141">You'll need this in subsequent calls.</span></span> <span data-ttu-id="ba099-142">(Puede encontrar fácilmente el identificador de grupo en el vínculo al equipo).</span><span class="sxs-lookup"><span data-stu-id="ba099-142">(You can easily find the group ID in the link to the team).</span></span>
 
-    <span data-ttu-id="7027a-143">**Solicitud**</span><span class="sxs-lookup"><span data-stu-id="7027a-143">**Request**</span></span>
+    <span data-ttu-id="ba099-143">**Solicitud**</span><span class="sxs-lookup"><span data-stu-id="ba099-143">**Request**</span></span>
 
     ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels?$filter=membershipType eq 'private'
     ```
 
-    <span data-ttu-id="7027a-144">**Respuesta**</span><span class="sxs-lookup"><span data-stu-id="7027a-144">**Response**</span></span>
+    <span data-ttu-id="ba099-144">**Respuesta**</span><span class="sxs-lookup"><span data-stu-id="ba099-144">**Response**</span></span>
 
     ```Graph API
     HTTP/1.1 200 OK
@@ -146,15 +146,15 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     }
     ```
 
-2. <span data-ttu-id="7027a-145">Para cada canal privado para el que desee obtener la dirección URL de SharePoint, realice la siguiente solicitud &lt;,&gt; donde channel_id es el identificador de canal.</span><span class="sxs-lookup"><span data-stu-id="7027a-145">For each private channel which you want to get the SharePoint URL, make the following request, where &lt;channel_id&gt; is the channel Id.</span></span>
+2. <span data-ttu-id="ba099-145">Para cada canal privado para el que desee obtener la dirección URL de SharePoint, realice la siguiente solicitud &lt;,&gt; donde channel_id es el identificador de canal.</span><span class="sxs-lookup"><span data-stu-id="ba099-145">For each private channel which you want to get the SharePoint URL, make the following request, where &lt;channel_id&gt; is the channel ID.</span></span>
 
-    <span data-ttu-id="7027a-146">**Solicitud**</span><span class="sxs-lookup"><span data-stu-id="7027a-146">**Request**</span></span>
+    <span data-ttu-id="ba099-146">**Solicitud**</span><span class="sxs-lookup"><span data-stu-id="ba099-146">**Request**</span></span>
 
     ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
     ```
 
-    <span data-ttu-id="7027a-147">**Respuesta**</span><span class="sxs-lookup"><span data-stu-id="7027a-147">**Response**</span></span>
+    <span data-ttu-id="ba099-147">**Respuesta**</span><span class="sxs-lookup"><span data-stu-id="ba099-147">**Response**</span></span>
 
     ```Graph API
     HTTP/1.1 200 OK
@@ -176,62 +176,39 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     }
     ```
 
-## <a name="list-and-update-roles-of-owners-and-members-in-a-private-channel"></a><span data-ttu-id="7027a-148">Enumerar y actualizar los roles de propietarios y miembros en un canal privado</span><span class="sxs-lookup"><span data-stu-id="7027a-148">List and update roles of owners and members in a private channel</span></span>
+## <a name="list-and-update-roles-of-owners-and-members-in-a-private-channel"></a><span data-ttu-id="ba099-148">Enumerar y actualizar los roles de propietarios y miembros en un canal privado</span><span class="sxs-lookup"><span data-stu-id="ba099-148">List and update roles of owners and members in a private channel</span></span>
 
-<span data-ttu-id="7027a-149">Es posible que desee enumerar los propietarios y miembros de un canal privado para decidir si necesita promover a un propietario a determinados miembros del canal privado.</span><span class="sxs-lookup"><span data-stu-id="7027a-149">You may want to list out the owners and members of a private channel to decide whether you need to promote certain members of the private channel to an owner.</span></span> <span data-ttu-id="7027a-150">Esto puede ocurrir cuando tiene propietarios de canales privados que han abandonado la organización y el canal privado requiere ayuda del administrador para reclamar la propiedad del canal.</span><span class="sxs-lookup"><span data-stu-id="7027a-150">This can happen when you have owners of private channels who have left the organization and the private channel requires admin help to claim ownership of the channel.</span></span>
+<span data-ttu-id="ba099-149">Es posible que desee enumerar los propietarios y miembros de un canal privado para decidir si necesita promover a un propietario a determinados miembros del canal privado.</span><span class="sxs-lookup"><span data-stu-id="ba099-149">You may want to list out the owners and members of a private channel to decide whether you need to promote certain members of the private channel to an owner.</span></span> <span data-ttu-id="ba099-150">Esto puede ocurrir cuando tiene propietarios de canales privados que han abandonado la organización y el canal privado requiere ayuda del administrador para reclamar la propiedad del canal.</span><span class="sxs-lookup"><span data-stu-id="ba099-150">This can happen when you have owners of private channels who have left the organization and the private channel requires admin help to claim ownership of the channel.</span></span>
 
-<span data-ttu-id="7027a-151">Como administrador, puede usar los comandos de las API de PowerShell o Graph para consultar estas direcciones URL.</span><span class="sxs-lookup"><span data-stu-id="7027a-151">As an admin, you can use PowerShell or Graph APIs commands to query these URLs.</span></span>
+<span data-ttu-id="ba099-151">Como administrador, puede usar los comandos de las API de PowerShell o Graph para consultar estas direcciones URL.</span><span class="sxs-lookup"><span data-stu-id="ba099-151">As an admin, you can use PowerShell or Graph APIs commands to query these URLs.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="7027a-152">Usar PowerShell</span><span class="sxs-lookup"><span data-stu-id="7027a-152">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="ba099-152">Usar PowerShell</span><span class="sxs-lookup"><span data-stu-id="ba099-152">Using PowerShell</span></span>
 
-1. <span data-ttu-id="7027a-153">Instale y conéctese al [módulo de Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) con su cuenta de administrador.</span><span class="sxs-lookup"><span data-stu-id="7027a-153">Install and connect to the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams) with your admin account.</span></span>
-2. <span data-ttu-id="7027a-154">Ejecute lo siguiente, donde &lt;group_id&gt; es el identificador de grupo del equipo y &lt;channel_id&gt; es el identificador de canal.</span><span class="sxs-lookup"><span data-stu-id="7027a-154">Run the following, where &lt;group_id&gt; is the group Id of the team and &lt;channel_id&gt; is the channel Id.</span></span>
-
-    <span data-ttu-id="7027a-155">**Solicitud**</span><span class="sxs-lookup"><span data-stu-id="7027a-155">**Request**</span></span>
+1. <span data-ttu-id="ba099-153">Ejecute lo siguiente, donde &lt;group_id&gt; es el identificador de grupo del equipo y &lt;channel_name&gt; es el nombre de canal.</span><span class="sxs-lookup"><span data-stu-id="ba099-153">Run the following, where &lt;group_id&gt; is the group ID of the team and &lt;channel_name&gt; is the channel name.</span></span>
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" 
+    Get-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" 
     ```
-    
-    <span data-ttu-id="7027a-156">**Respuesta**</span><span class="sxs-lookup"><span data-stu-id="7027a-156">**Response**</span></span>
+
+2. <span data-ttu-id="ba099-154">Promociona un miembro a un propietario.</span><span class="sxs-lookup"><span data-stu-id="ba099-154">Promote a member to an owner.</span></span>
 
     ```PowerShell
-    HTTP/1.1 200 OK Content-type: application/json
-    Content-length:
-    {
-      "value": [
-      {
-          "description": "description-value",
-          "displayName": "display-name-value",
-          "id": "channel_id",
-          "membershipType": "membership-type-value",
-          "isFavoriteByDefault": false,
-          "webUrl": "webUrl-value",
-          "email": "email-value"
-          }
-        ]
-    }
+    Add-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
-3. <span data-ttu-id="7027a-157">Promociona un miembro a un propietario.</span><span class="sxs-lookup"><span data-stu-id="7027a-157">Promote a member to an owner.</span></span>
+### <a name="using-graph-api"></a><span data-ttu-id="ba099-155">Usar la API Graph</span><span class="sxs-lookup"><span data-stu-id="ba099-155">Using Graph API</span></span>
 
-    ```PowerShell
-    Add-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
-    ```
+<span data-ttu-id="ba099-156">Puede probar estos comandos en el [Explorador de gráficos](https://developer.microsoft.com/graph/graph-explorer).</span><span class="sxs-lookup"><span data-stu-id="ba099-156">You can try these commands through [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).</span></span>
 
-### <a name="using-graph-api"></a><span data-ttu-id="7027a-158">Usar la API Graph</span><span class="sxs-lookup"><span data-stu-id="7027a-158">Using Graph API</span></span>
+1. <span data-ttu-id="ba099-157">Use lo siguiente, donde &lt;group_id&gt; es el identificador de grupo del equipo y &lt;channel_id&gt; es el identificador de canal.</span><span class="sxs-lookup"><span data-stu-id="ba099-157">Use the following, where &lt;group_id&gt; is the group ID of the team and &lt;channel_id&gt; is the channel ID.</span></span>
 
-<span data-ttu-id="7027a-159">Puede probar estos comandos en el [Explorador de gráficos](https://developer.microsoft.com/graph/graph-explorer).</span><span class="sxs-lookup"><span data-stu-id="7027a-159">You can try these commands through [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).</span></span>
-
-1. <span data-ttu-id="7027a-160">Use lo siguiente, donde &lt;group_id&gt; es el identificador de grupo del equipo y &lt;channel_id&gt; es el identificador de canal.</span><span class="sxs-lookup"><span data-stu-id="7027a-160">Use the following, where &lt;group_id&gt; is the group Id of the team and &lt;channel_id&gt; is the channel Id.</span></span>
-
-    <span data-ttu-id="7027a-161">**Solicitud**</span><span class="sxs-lookup"><span data-stu-id="7027a-161">**Request**</span></span>
+    <span data-ttu-id="ba099-158">**Solicitud**</span><span class="sxs-lookup"><span data-stu-id="ba099-158">**Request**</span></span>
 
     ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
     ```
     
-    <span data-ttu-id="7027a-162">**Respuesta**</span><span class="sxs-lookup"><span data-stu-id="7027a-162">**Response**</span></span>
+    <span data-ttu-id="ba099-159">**Respuesta**</span><span class="sxs-lookup"><span data-stu-id="ba099-159">**Response**</span></span>
 
     ```Graph API
     HTTP/1.1 200 OK Content-type: application/json
@@ -259,9 +236,9 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
           ]
     }
     ```    
-2.  <span data-ttu-id="7027a-163">Use el siguiente procedimiento para promocionar el miembro a propietario, &lt;donde&gt;group_id &lt;,&gt;channel_id e &lt;ID&gt; se devuelven desde la llamada anterior.</span><span class="sxs-lookup"><span data-stu-id="7027a-163">Use the following to promote the member to an owner, where &lt;group_id&gt;, &lt;channel_id&gt;, and &lt;id&gt; are returned from the previous call.</span></span> <span data-ttu-id="7027a-164">Ten en &lt;cuenta&gt; que &lt;el&gt; identificador y el userId devueltos por la llamada anterior no son iguales y no son intercambiables.</span><span class="sxs-lookup"><span data-stu-id="7027a-164">Note that &lt;id&gt; and &lt;userId&gt; returned from the previous call aren't the same and aren't interchangeable.</span></span> <span data-ttu-id="7027a-165">Asegúrate de usar &lt;el identificador&gt;.</span><span class="sxs-lookup"><span data-stu-id="7027a-165">Make sure you use &lt;id&gt;.</span></span>
+2.  <span data-ttu-id="ba099-160">Use el siguiente procedimiento para promocionar el miembro a propietario, &lt;donde&gt;group_id &lt;,&gt;channel_id e &lt;ID&gt; se devuelven desde la llamada anterior.</span><span class="sxs-lookup"><span data-stu-id="ba099-160">Use the following to promote the member to an owner, where &lt;group_id&gt;, &lt;channel_id&gt;, and &lt;id&gt; are returned from the previous call.</span></span> <span data-ttu-id="ba099-161">Ten en &lt;cuenta&gt; que &lt;el&gt; identificador y el userId devueltos por la llamada anterior no son iguales y no son intercambiables.</span><span class="sxs-lookup"><span data-stu-id="ba099-161">Note that &lt;id&gt; and &lt;userId&gt; returned from the previous call aren't the same and aren't interchangeable.</span></span> <span data-ttu-id="ba099-162">Asegúrate de usar &lt;el identificador&gt;.</span><span class="sxs-lookup"><span data-stu-id="ba099-162">Make sure you use &lt;id&gt;.</span></span>
 
-    <span data-ttu-id="7027a-166">**Solicitud**</span><span class="sxs-lookup"><span data-stu-id="7027a-166">**Request**</span></span>
+    <span data-ttu-id="ba099-163">**Solicitud**</span><span class="sxs-lookup"><span data-stu-id="ba099-163">**Request**</span></span>
 
     ```Graph API
     PATCH 
@@ -273,7 +250,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     }
     ```
 
-    <span data-ttu-id="7027a-167">**Respuesta**</span><span class="sxs-lookup"><span data-stu-id="7027a-167">**Response**</span></span>
+    <span data-ttu-id="ba099-164">**Respuesta**</span><span class="sxs-lookup"><span data-stu-id="ba099-164">**Response**</span></span>
 
     ```Graph API
     HTTP/1.1 200 OK
@@ -290,66 +267,66 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
      }
     ```
 
-## <a name="teams-powershell-module"></a><span data-ttu-id="7027a-168">Módulo de PowerShell de Teams</span><span class="sxs-lookup"><span data-stu-id="7027a-168">Teams Powershell module</span></span>
+## <a name="teams-powershell-module"></a><span data-ttu-id="ba099-165">Módulo de PowerShell de Teams</span><span class="sxs-lookup"><span data-stu-id="ba099-165">Teams Powershell module</span></span>
 
-### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a><span data-ttu-id="7027a-169">Instale el módulo de PowerShell más reciente de la galería de pruebas de PowerShell</span><span class="sxs-lookup"><span data-stu-id="7027a-169">Install the latest Teams PowerShell module from the PowerShell Test Gallery</span></span>
+### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a><span data-ttu-id="ba099-166">Instale el módulo de PowerShell más reciente de la galería de pruebas de PowerShell</span><span class="sxs-lookup"><span data-stu-id="ba099-166">Install the latest Teams PowerShell module from the PowerShell Test Gallery</span></span>
 
-<span data-ttu-id="7027a-170">La última versión disponible públicamente del módulo de PowerShell de Teams (actualmente [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) no admite la administración de canales privados.</span><span class="sxs-lookup"><span data-stu-id="7027a-170">The latest publicly available version of the Teams PowerShell module (currently [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) doesn't support managing private channels.</span></span> <span data-ttu-id="7027a-171">Siga estos pasos para instalar la última versión del módulo de PowerShell de Teams con compatibilidad de canal privado (actualmente 1.0.18) de la galería de pruebas de PowerShell.</span><span class="sxs-lookup"><span data-stu-id="7027a-171">Use these steps to install the latest version of the Teams PowerShell module with private channel support (currently 1.0.18) from the PowerShell Test Gallery.</span></span>
+<span data-ttu-id="ba099-167">La última versión disponible públicamente del módulo de PowerShell de Teams (actualmente [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) no admite la administración de canales privados.</span><span class="sxs-lookup"><span data-stu-id="ba099-167">The latest publicly available version of the Teams PowerShell module (currently [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) doesn't support managing private channels.</span></span> <span data-ttu-id="ba099-168">Siga estos pasos para instalar la última versión del módulo de PowerShell de Teams con compatibilidad de canal privado (actualmente 1.0.18) de la galería de pruebas de PowerShell.</span><span class="sxs-lookup"><span data-stu-id="ba099-168">Use these steps to install the latest version of the Teams PowerShell module with private channel support (currently 1.0.18) from the PowerShell Test Gallery.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="7027a-172">No instale el módulo de Teams PowerShell desde la galería de pruebas de PowerShell en paralelo con una versión del módulo de la galería de PowerShell pública.</span><span class="sxs-lookup"><span data-stu-id="7027a-172">Don't install the Teams PowerShell module from the PowerShell Test Gallery side-by-side with a version of the module from the public PowerShell Gallery.</span></span> <span data-ttu-id="7027a-173">Siga estos pasos para desinstalar primero el módulo de PowerShell de Teams de la galería de PowerShell pública y, a continuación, instale la última versión del módulo desde la galería de pruebas de PowerShell.</span><span class="sxs-lookup"><span data-stu-id="7027a-173">Follow these steps to first uninstall the Teams PowerShell module from the public PowerShell Gallery, and then install the latest version of the module from the PowerShell Test Gallery.</span></span>
+> <span data-ttu-id="ba099-169">No instale el módulo de Teams PowerShell desde la galería de pruebas de PowerShell en paralelo con una versión del módulo de la galería de PowerShell pública.</span><span class="sxs-lookup"><span data-stu-id="ba099-169">Don't install the Teams PowerShell module from the PowerShell Test Gallery side-by-side with a version of the module from the public PowerShell Gallery.</span></span> <span data-ttu-id="ba099-170">Siga estos pasos para desinstalar primero el módulo de PowerShell de Teams de la galería de PowerShell pública y, a continuación, instale la última versión del módulo desde la galería de pruebas de PowerShell.</span><span class="sxs-lookup"><span data-stu-id="ba099-170">Follow these steps to first uninstall the Teams PowerShell module from the public PowerShell Gallery, and then install the latest version of the module from the PowerShell Test Gallery.</span></span>
 
-1. <span data-ttu-id="7027a-174">Cierre todas las sesiones de PowerShell existentes.</span><span class="sxs-lookup"><span data-stu-id="7027a-174">Close all existing PowerShell sessions.</span></span>
-2. <span data-ttu-id="7027a-175">Inicie una nueva instancia del módulo de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="7027a-175">Start a new instance of the Windows PowerShell module.</span></span>
-3. <span data-ttu-id="7027a-176">Ejecute lo siguiente para desinstalar el módulo de PowerShell de Teams de la galería pública de PowerShell:</span><span class="sxs-lookup"><span data-stu-id="7027a-176">Run the following to uninstall the Teams PowerShell module from the public PowerShell Gallery:</span></span>
+1. <span data-ttu-id="ba099-171">Cierre todas las sesiones de PowerShell existentes.</span><span class="sxs-lookup"><span data-stu-id="ba099-171">Close all existing PowerShell sessions.</span></span>
+2. <span data-ttu-id="ba099-172">Inicie una nueva instancia del módulo de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="ba099-172">Start a new instance of the Windows PowerShell module.</span></span>
+3. <span data-ttu-id="ba099-173">Ejecute lo siguiente para desinstalar el módulo de PowerShell de Teams de la galería pública de PowerShell:</span><span class="sxs-lookup"><span data-stu-id="ba099-173">Run the following to uninstall the Teams PowerShell module from the public PowerShell Gallery:</span></span>
 
     ```PowerShell
     Uninstall-Module -Name MicrosoftTeams
     ```
 
-4. <span data-ttu-id="7027a-177">Cierre todas las sesiones de PowerShell existentes.</span><span class="sxs-lookup"><span data-stu-id="7027a-177">Close all existing PowerShell sessions.</span></span>
-5. <span data-ttu-id="7027a-178">Inicie el módulo de Windows PowerShell de nuevo y, a continuación, ejecute lo siguiente para registrar la galería de pruebas de PowerShell como una fuente de confianza:</span><span class="sxs-lookup"><span data-stu-id="7027a-178">Start the Windows PowerShell module again, and then run the following to register the PowerShell Test Gallery as a trusted source:</span></span>
+4. <span data-ttu-id="ba099-174">Cierre todas las sesiones de PowerShell existentes.</span><span class="sxs-lookup"><span data-stu-id="ba099-174">Close all existing PowerShell sessions.</span></span>
+5. <span data-ttu-id="ba099-175">Inicie el módulo de Windows PowerShell de nuevo y, a continuación, ejecute lo siguiente para registrar la galería de pruebas de PowerShell como una fuente de confianza:</span><span class="sxs-lookup"><span data-stu-id="ba099-175">Start the Windows PowerShell module again, and then run the following to register the PowerShell Test Gallery as a trusted source:</span></span>
 
     ```PowerShell
     Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
     ```
 
-6. <span data-ttu-id="7027a-179">Ejecute lo siguiente para instalar el módulo de PowerShell más reciente de la galería de pruebas de PowerShell:</span><span class="sxs-lookup"><span data-stu-id="7027a-179">Run the following to install the latest Teams PowerShell module from the PowerShell Test Gallery:</span></span>
+6. <span data-ttu-id="ba099-176">Ejecute lo siguiente para instalar el módulo de PowerShell más reciente de la galería de pruebas de PowerShell:</span><span class="sxs-lookup"><span data-stu-id="ba099-176">Run the following to install the latest Teams PowerShell module from the PowerShell Test Gallery:</span></span>
 
     ```PowerShell
     Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
     ```
 
-7. <span data-ttu-id="7027a-180">Ejecute lo siguiente para comprobar que se ha instalado correctamente la última versión del módulo Teams PowerShell de la galería de pruebas de PowerShell:</span><span class="sxs-lookup"><span data-stu-id="7027a-180">Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:</span></span>
+7. <span data-ttu-id="ba099-177">Ejecute lo siguiente para comprobar que se ha instalado correctamente la última versión del módulo Teams PowerShell de la galería de pruebas de PowerShell:</span><span class="sxs-lookup"><span data-stu-id="ba099-177">Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:</span></span>
 
     ```PowerShell
     Get-Module -Name MicrosoftTeams
     ```
 
-#### <a name="update-to-the-latest-version-of-the-teams-powershell-module-from-the-powershell-test-gallery"></a><span data-ttu-id="7027a-181">Actualice a la última versión del módulo de PowerShell de Teams desde la galería de pruebas de PowerShell</span><span class="sxs-lookup"><span data-stu-id="7027a-181">Update to the latest version of the Teams PowerShell module from the PowerShell Test Gallery</span></span>
+#### <a name="update-to-the-latest-version-of-the-teams-powershell-module-from-the-powershell-test-gallery"></a><span data-ttu-id="ba099-178">Actualice a la última versión del módulo de PowerShell de Teams desde la galería de pruebas de PowerShell</span><span class="sxs-lookup"><span data-stu-id="ba099-178">Update to the latest version of the Teams PowerShell module from the PowerShell Test Gallery</span></span>
 
-<span data-ttu-id="7027a-182">Si ya ha instalado el módulo de Teams PowerShell desde la galería de pruebas de PowerShell, siga estos pasos para actualizar a la última versión.</span><span class="sxs-lookup"><span data-stu-id="7027a-182">If you already installed the Teams PowerShell module from the PowerShell Test Gallery, use the following steps to update to the latest version.</span></span>
+<span data-ttu-id="ba099-179">Si ya ha instalado el módulo de Teams PowerShell desde la galería de pruebas de PowerShell, siga estos pasos para actualizar a la última versión.</span><span class="sxs-lookup"><span data-stu-id="ba099-179">If you already installed the Teams PowerShell module from the PowerShell Test Gallery, use the following steps to update to the latest version.</span></span>
 
-1. <span data-ttu-id="7027a-183">Cierre todas las sesiones de PowerShell existentes.</span><span class="sxs-lookup"><span data-stu-id="7027a-183">Close all existing PowerShell sessions.</span></span>
-2. <span data-ttu-id="7027a-184">Inicie una nueva instancia del módulo de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="7027a-184">Start a new instance of the Windows PowerShell module.</span></span>
-3. <span data-ttu-id="7027a-185">Ejecute lo siguiente para actualizar la versión del módulo de PowerShell instalada actualmente desde la galería de pruebas de PowerShell:</span><span class="sxs-lookup"><span data-stu-id="7027a-185">Run the following to update the currently installed version of the Teams PowerShell module from the PowerShell Test Gallery:</span></span>
+1. <span data-ttu-id="ba099-180">Cierre todas las sesiones de PowerShell existentes.</span><span class="sxs-lookup"><span data-stu-id="ba099-180">Close all existing PowerShell sessions.</span></span>
+2. <span data-ttu-id="ba099-181">Inicie una nueva instancia del módulo de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="ba099-181">Start a new instance of the Windows PowerShell module.</span></span>
+3. <span data-ttu-id="ba099-182">Ejecute lo siguiente para actualizar la versión del módulo de PowerShell instalada actualmente desde la galería de pruebas de PowerShell:</span><span class="sxs-lookup"><span data-stu-id="ba099-182">Run the following to update the currently installed version of the Teams PowerShell module from the PowerShell Test Gallery:</span></span>
 
     ```PowerShell
     Update-Module -Name MicrosoftTeams -Force
     ```
 
-4. <span data-ttu-id="7027a-186">Ejecute lo siguiente para comprobar que se ha instalado correctamente la última versión del módulo Teams PowerShell de la galería de pruebas de PowerShell:</span><span class="sxs-lookup"><span data-stu-id="7027a-186">Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:</span></span>
+4. <span data-ttu-id="ba099-183">Ejecute lo siguiente para comprobar que se ha instalado correctamente la última versión del módulo Teams PowerShell de la galería de pruebas de PowerShell:</span><span class="sxs-lookup"><span data-stu-id="ba099-183">Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:</span></span>
 
     ```PowerShell
     Get-Module -Name MicrosoftTeams
     ```
 
-## <a name="related-topics"></a><span data-ttu-id="7027a-187">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="7027a-187">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ba099-184">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="ba099-184">Related topics</span></span>
 
-- [<span data-ttu-id="7027a-188">Descripción de PowerShell para Teams</span><span class="sxs-lookup"><span data-stu-id="7027a-188">Teams PowerShell overview</span></span>](teams-powershell-overview.md)
-- [<span data-ttu-id="7027a-189">Usar la API de Microsoft Graph para trabajar con equipos</span><span class="sxs-lookup"><span data-stu-id="7027a-189">Use the Microsoft Graph API to work with Teams</span></span>](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
-    - [<span data-ttu-id="7027a-190">Lista de canales</span><span class="sxs-lookup"><span data-stu-id="7027a-190">List channels</span></span>](https://docs.microsoft.com/graph/api/channel-list)
-    - [<span data-ttu-id="7027a-191">Crear canal</span><span class="sxs-lookup"><span data-stu-id="7027a-191">Create channel</span></span>](https://docs.microsoft.com/graph/api/channel-post)
-    - [<span data-ttu-id="7027a-192">Agregar miembro al canal</span><span class="sxs-lookup"><span data-stu-id="7027a-192">Add member to channel</span></span>](https://docs.microsoft.com/graph/api/conversationmember-add)
-    - [<span data-ttu-id="7027a-193">Actualizar miembro en el canal</span><span class="sxs-lookup"><span data-stu-id="7027a-193">Update member in channel</span></span>](https://docs.microsoft.com/graph/api/conversationmember-update)
-    - [<span data-ttu-id="7027a-194">Quitar miembro de un canal</span><span class="sxs-lookup"><span data-stu-id="7027a-194">Remove member from channel</span></span>](https://docs.microsoft.com/graph/api/conversationmember-delete)
+- [<span data-ttu-id="ba099-185">Descripción de PowerShell para Teams</span><span class="sxs-lookup"><span data-stu-id="ba099-185">Teams PowerShell overview</span></span>](teams-powershell-overview.md)
+- [<span data-ttu-id="ba099-186">Usar la API de Microsoft Graph para trabajar con equipos</span><span class="sxs-lookup"><span data-stu-id="ba099-186">Use the Microsoft Graph API to work with Teams</span></span>](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+    - [<span data-ttu-id="ba099-187">Lista de canales</span><span class="sxs-lookup"><span data-stu-id="ba099-187">List channels</span></span>](https://docs.microsoft.com/graph/api/channel-list)
+    - [<span data-ttu-id="ba099-188">Crear canal</span><span class="sxs-lookup"><span data-stu-id="ba099-188">Create channel</span></span>](https://docs.microsoft.com/graph/api/channel-post)
+    - [<span data-ttu-id="ba099-189">Agregar miembro al canal</span><span class="sxs-lookup"><span data-stu-id="ba099-189">Add member to channel</span></span>](https://docs.microsoft.com/graph/api/conversationmember-add)
+    - [<span data-ttu-id="ba099-190">Actualizar miembro en el canal</span><span class="sxs-lookup"><span data-stu-id="ba099-190">Update member in channel</span></span>](https://docs.microsoft.com/graph/api/conversationmember-update)
+    - [<span data-ttu-id="ba099-191">Quitar miembro de un canal</span><span class="sxs-lookup"><span data-stu-id="ba099-191">Remove member from channel</span></span>](https://docs.microsoft.com/graph/api/conversationmember-delete)
