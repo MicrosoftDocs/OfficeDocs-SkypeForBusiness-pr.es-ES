@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft retira el servicio en línea de mensajería unificada (ExchUMO) de Exchange antes del 28 de febrero de 2020. En este artículo se resumen lo que los clientes afectados deben conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: f6adb1636d6a40e41b006c3981dc4d21ba503289
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: c39485de1acceef0dc340f039a1586b3e6014522
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374307"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417625"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de mensajería unificada de Exchange
 
@@ -235,6 +235,8 @@ Los nuevos usuarios de Skype empresarial se aprovisionarán automáticamente par
 Para obtener más información sobre los operadores automáticos, consulte [configurar un operador automático de la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).
 
 #### <a name="known-issues"></a>Problemas conocidos
+
+**Deshabilitar el acceso de suscriptores tras la migración para evitar la incoherencia del saludo** El acceso de suscriptor puede seguir funcionando en su inquilino hasta que el servicio se retire completamente, incluso después de que todos los usuarios se hayan migrado al correo de voz de la nube. Para evitar confusiones a los usuarios y experiencias incoherentes, deshabilite el acceso de los suscriptores, ya que los saludos cambiados después de la migración desde no se aplicarán. Para ello, quite el contacto EXUM de cada línea de acceso de suscriptor mediante Get-CsExUmContact |? {$_. IsSubscriberAccess-EQ $true} | Remove-CsExUmContact 
 
 **Transferencia de llamadas de operador automático a RTC** Se recomienda a los clientes configurar una solución temporal para cumplir los requisitos de transferencia de una llamada de operador automático a un número de RTC externo o a una instancia de RGS. 
  

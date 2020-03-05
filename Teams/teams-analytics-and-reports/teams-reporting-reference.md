@@ -15,12 +15,12 @@ ms.collection:
 description: Obtenga más información sobre los informes de teams que están disponibles en el centro de administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc5c3c3c5588abe0c3ee748bdcd8a5ba3a2bf302
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 080ddb1455a204b7dc96ddcac8d414a1d1b77228
+ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827228"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42507968"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análisis e informes de Microsoft Teams
 
@@ -28,7 +28,7 @@ En el centro de administración de Microsoft Teams está disponible una nueva ex
 
 ## <a name="how-to-access-the-reports"></a>Cómo acceder a los informes
 
-Para acceder a los informes, debe ser un administrador global en Office 365, administrador de servicios de equipo o administrador de Skype empresarial.  Vaya al centro de administración de Microsoft Teams, en el navegación de la izquierda, seleccione **análisis & informes**y, a continuación, en **Informe**, elija el informe que desea ejecutar.
+Para acceder a los informes, debe ser un administrador global de Office 365, el administrador de servicios de equipos, el administrador de comunicaciones de equipos o el administrador de Skype empresarial.  Vaya al centro de administración de Microsoft Teams, en el navegación de la izquierda, seleccione **análisis & informes**y, a continuación, en **Informe**, elija el informe que desea ejecutar.
 
 > [!NOTE]
 > Los informes del centro de administración de Microsoft Teams son independientes de los informes de actividades de los equipos que forman parte de los informes de Office 365 en el centro de administración de Microsoft 365. Para obtener más información sobre los informes de actividades en el centro de administración de Microsoft 365, consulte [informes de actividades de Teams en el centro de administración de microsoft 365](../teams-activity-reports.md)
