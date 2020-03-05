@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 025bd70c79cdc0547f86514521fd1e565265d4f8
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 13c3267378d4e8fbc5b3d3631606cf0824ea7a44
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160784"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417855"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad
 
@@ -379,7 +379,7 @@ Para filtrar todos los informes detallados, en la barra del explorador, agregue 
 
 **Ejemplo**
 
-```https://cqd.lync.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
 Para obtener más información sobre los filtros de URL, consulte [filtrar informes](#filtering-reports) más adelante en esta sección.
 
@@ -472,7 +472,7 @@ Para obtener recursos y aprendizajes más detallados, consulte el [Apéndice](#o
 
 Puede obtener acceso al CQD de tres maneras:
 
--   Vaya a <https://cqd.lync.com>.
+-   Vaya a <https://cqd.teams.microsoft.com>.
 
 -   Vaya al **centro de administración de Microsoft Teams** y seleccione el vínculo al CQD, como se muestra en la siguiente ilustración.
 
@@ -497,7 +497,7 @@ _Ilustración 9: desplazarse a informes detallados_
 
 La página informes detallados del CQD es similar a la siguiente ilustración.
 
-![captura de pantalla que ilustra elementos que conforman un informe detallado](media/qerguide-image-detailedreportspage.png)
+![captura de pantalla que ilustra los elementos que componen un informe detallado](media/qerguide-image-detailedreportspage.png)
 
 |             |           |
 | ------------|-----------|
@@ -514,7 +514,7 @@ Seleccione gráficos de barras y líneas de tendencia en el informe para mostrar
 
 Al seleccionar **Editar** en el menú de acciones de un informe, abrirá el editor de consultas. Cada informe está respaldado por una consulta al CQD. Un informe es una visualización de los datos devueltos por su consulta. El editor de consultas es una interfaz de usuario para editar estas consultas, además de las opciones de presentación del informe, como se muestra en la siguiente ilustración.
 
-![Captura de pantalla que ilustra elementos que conforman un informe que se está editando.](media/qerguide-image-queryeditor.png)
+![Captura de pantalla que ilustra los elementos que componen un informe que se está editando.](media/qerguide-image-queryeditor.png)
 
 |             |           |
 | ------------|-----------|
@@ -543,7 +543,7 @@ Para implementar un filtro de URL, en la barra de direcciones del explorador, ag
 
 Ejemplo  
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
 
 Para filtrar los informes de Teams o Skype empresarial, agregue lo siguiente al final de la dirección URL:
 
@@ -553,11 +553,11 @@ Para filtrar los informes de Teams o Skype empresarial, agregue lo siguiente al 
 
 Ejemplo
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
 
 
 > [!NOTE]
-> Los ejemplos de direcciones URL anteriores son solo para representación visual. Usa el vínculo predeterminado del CQD de <https://cqd.lync.com>.
+> Los ejemplos de direcciones URL anteriores son solo para representación visual. Usa el vínculo predeterminado del CQD de <https://cqd.teams.microsoft.com>.
 
 
 #### <a name="query-filters"></a>Filtros de consulta
@@ -591,7 +591,7 @@ Esta guía incluye [dos plantillas de CQD de protegida](https://aka.ms/qertempla
 
 **Para importar las plantillas (. CQDX) en Internet de CQD**
 
-1. Vaya a <https://cqd.lync.com>.
+1. Vaya a <https://cqd.teams.microsoft.com>.
 
 2. Autenticar con sus credenciales administrativas de Office 365.
 
@@ -690,13 +690,13 @@ Los datos de la calidad de la experiencia (QoE) que los clientes envían a Offic
 
 - Defina un **nombre de red** con el texto "VPN" en este campo para subredes VPN.
 
-  ![Captura de pantalla de informe de QCD que muestra una VPN con el nombre de red](media/qerguide-image-vpnnetworkname.png)
+  ![Captura de pantalla de informe QCD que muestra VPN con nombre de red](media/qerguide-image-vpnnetworkname.png)
 
   _Ilustración 12: VPN con nombre de red_
 
 - Defina un **nombre de edificio** usando el texto "VPN" en este campo para subredes VPN.
 
-  ![Captura de pantalla de informe de QCD que muestra una VPN con el nombre de creación](media/qerguide-image-vpnbuildingname.png)
+  ![Captura de pantalla de informe QCD que muestra VPN con el nombre de creación](media/qerguide-image-vpnbuildingname.png)
 
   _Figura 13-red privada virtual (VPN) con nombre de creación_
 
@@ -711,7 +711,7 @@ Los datos de la calidad de la experiencia (QoE) que los clientes envían a Offic
 
 El panel informes de resumen del CQD incluye una página de **carga de datos de inquilino** , a la que se tiene acceso seleccionando la etiqueta de vínculo de carga de datos de **inquilino** en la esquina superior derecha (busque el icono de engranaje). Esta página se usa para que los administradores carguen su propia información, como la asignación de la dirección IP y la información geográfica, la asignación de cada punto de acceso inalámbrico y su dirección MAC, etc.
 
-1. Vaya a el CQD en línea buscando en <https://cqd.lync.com>.
+1. Vaya a el CQD en línea buscando en <https://cqd.teams.microsoft.com>.
 
 2. Seleccione el icono de engranaje en la esquina superior derecha y elija **carga de datos de inquilino** en la página informes de **Resumen** .
 
@@ -721,7 +721,7 @@ El panel informes de resumen del CQD incluye una página de **carga de datos de 
 
 3. Como alternativa, si esta es la primera vez que visita el CQD, se le pedirá que cargue los datos de compilación. Puede seleccionar **cargar ahora** para desplazarse rápidamente a la página de **carga de datos de inquilino** .
 
-   ![Captura de pantalla de un banner que notifica a un usuario que debe cargar datos de compilación](media/qerguide-image-buildingdatauploadbanner.png)
+   ![Captura de pantalla de banner que notifica a un usuario que debe cargar datos de compilación](media/qerguide-image-buildingdatauploadbanner.png)
 
    _Ilustración 15: crear una pancarta de carga de datos_
 
@@ -778,7 +778,7 @@ Vaya a la página **informes detallados** del CQD en línea y navegue hasta el *
 > [!NOTE] 
 > Asegúrese de ajustar el filtro de informe de año mensual al mes en curso. Seleccione **Editar**y ajuste el filtro de informe **mes de año** para guardar el nuevo mes predeterminado.
 
-![Captura de pantalla que muestra el informe de subred que falta](media/qerguide-image-missingbuildingreport.png)
+![Captura de pantalla que muestra el informe de subred perdido](media/qerguide-image-missingbuildingreport.png)
 
 _Ilustración 17: falta el informe de compilación_
 
@@ -1130,7 +1130,7 @@ Este informe identifica los edificios y subredes específicos que están contrib
 > [!NOTE]
 > Asegúrese de ajustar el filtro de año mensual al mes en curso. Seleccione **Editar**y ajustar **mes del año** para guardar el nuevo mes predeterminado.
 
-![Sreen captura de un informe de uso de proxy HTTP por construcción y subred](media/qerguide-image-httpproxyusage.png)
+![Captura de pantalla del informe de uso de proxy HTTP por construcción y subred](media/qerguide-image-httpproxyusage.png)
 
 _Ilustración 29: uso de proxy HTTP por construcción y subred_
 
