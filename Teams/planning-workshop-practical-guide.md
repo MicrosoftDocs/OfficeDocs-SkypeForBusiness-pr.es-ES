@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5d7423dfd0493af0e780b81f96d840f422d4833
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 356ff815fe05a91f203778c0f6af255182ace35c
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834660"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550907"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Herramientas y talleres: planificar, entregar y adoptar Microsoft Teams
 
 Descargue estas herramientas que le ayudarán en la planificación, la entrega y la adopción de Microsoft Teams en su organización.
 
 
-- [Kit para el éxito del cliente de Microsoft Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)
+- [Kit para el éxito del cliente de Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)
 
     Este kit contiene una amplia variedad de presentaciones, plantillas de correo electrónico, sugerencias & trucos y pósters que puede usar para implementar y impulsar la adopción de equipos de su organización. Incluye dos guías de inicio rápido para administradores y responsables del equipo, y ejemplos de casos de uso para cada departamento. Use estos recursos para sacar el máximo partido de Teams para las distintas funciones de su organización, como marketing, ventas, finanzas, recursos humanos, ti, ingeniería y administración de proyectos.
 

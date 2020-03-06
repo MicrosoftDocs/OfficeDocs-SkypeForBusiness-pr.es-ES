@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55e4ec98d6e54dba88a417d9631605859962c9c1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 78531cfad01051e4a9d7493384a18f4c0a4e1dc4
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033027"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551008"
 ---
 # <a name="tools-for-driving-adoption"></a>Herramientas para conducir la adopción 
 
@@ -155,4 +155,4 @@ El programa Office 365 Champions es un programa gratuito que permite a las perso
 Consulte el [libreto animado](https://aka.ms/teamstoolkit)para la adopción de equipos, una guía en pantalla que le ayudará a implementar los equipos de su empresa. Incluye muchas herramientas descargables, plantillas y otros recursos para ayudarle en el viaje de adopción de su equipo.
 
 ### <a name="teams-customer-success-kit"></a>Kit de éxito de los clientes de Teams
-El [Kit de éxito de los clientes de Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) proporciona herramientas para ayudarle a implementar los equipos de su organización. Incluye plantillas de correo electrónico para anuncios, pósteres, cuenta atrás y sugerencias & trucos. También incluye guías de introducción para los jefes de equipo y los administradores de ti.
+El [Kit de éxito de los clientes de Teams](https://aka.ms/TeamsCustomerSuccess) proporciona herramientas para ayudarle a implementar los equipos de su organización. Incluye plantillas de correo electrónico para anuncios, pósteres, cuenta atrás y sugerencias & trucos. También incluye guías de introducción para los jefes de equipo y los administradores de ti.
