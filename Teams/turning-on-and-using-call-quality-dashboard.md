@@ -16,18 +16,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
-- ms.teamsadmincenter.directrouting.cqd
-- ms.lync.lac.ToolsCallQualityDashboard
+f1.keywords:
+- CSH
 ms.custom:
 - Reporting
+- ms.teamsadmincenter.directrouting.cqd
+- ms.lync.lac.ToolsCallQualityDashboard
 description: 'Consulta cómo activar y usar el panel de calidad de llamadas y obtener informes de Resumen de la calidad de las llamadas. '
-ms.openlocfilehash: e29bced13fd4bad900c349efc07219e4edebc9d3
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: 9e9c70c88aec9fcdf898d94a17f46f76bd2c608a
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41636838"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42559894"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y usar el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online
 
@@ -36,6 +37,13 @@ Aprenda a configurar su organización de Office 365 para usar el panel de calida
 El panel de calidad de llamadas (CQD) proporciona una perspectiva de la calidad de las llamadas hechas con Microsoft Teams y los servicios de Skype empresarial online. En este tema se describen los pasos para empezar a recopilar datos que puede usar para solucionar problemas de calidad de la llamada.
 
 Actualmente, el CQD y el CQD de avanzada están disponibles para su uso. El CQD avanzado está disponible <span>https://cqd.teams.microsoft.com</span>en. Nueva dirección URL, pero el mismo inicio de sesión con las credenciales de administrador.
+
+## <a name="use-power-bi-to-analyze-cqd-data"></a>Usar Power BI para analizar los datos del CQD
+
+Novedades de enero de 2020: [Descargue las plantillas de consulta de Power BI para el CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Plantillas de Power BI personalizables que puede usar para analizar y notificar los datos de CQD.
+
+Leer [use Power BI para analizar los datos del CQD](CQD-Power-BI-query-templates.md) y obtener más información.
+
 
 ## <a name="latest-changes-and-updates"></a>Últimos cambios y actualizaciones
 
@@ -355,7 +363,7 @@ Puede descargar una plantilla de ejemplo [aquí](https://github.com/MicrosoftDoc
 - El archivo de datos no incluye una fila de encabezado de tabla. Se espera que la primera línea del archivo de datos sea datos reales, no etiquetas de encabezado como "Network".
 - Los tipos de datos en el archivo solo pueden ser de cadena, entero o booleano. Para el tipo de datos Integer, el valor debe ser un valor numérico. Los valores booleanos deben ser 0 o 1.
 - Si una columna usa el tipo de datos String, un campo de datos puede estar vacío, pero aún debe estar separado por una tabulación o una coma. Un campo de datos vacío simplemente asigna un valor de cadena vacía.
-- Debe haber 14 columnas por cada fila, cada columna debe tener el tipo de datos adecuado y las columnas deben estar en el orden que se indica en la tabla siguiente:
+- Debe haber 14 columnas por cada fila (o 15 si desea agregar la columna opcional), cada columna debe tener el tipo de datos adecuado y las columnas deben estar en el orden que se indica en la tabla siguiente:
 
 ||||||||||||||||
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |:---|
@@ -423,6 +431,33 @@ En la lista desplegable de informes en la parte superior de la pantalla que se m
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
+### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>¿Por qué el CQD marca una llamada como "buena" si uno o más participantes de la reunión tuvieran una experiencia deficiente?
+
+Consulta las reglas que usa el CQD para la [clasificación de secuencias](stream-classification-in-call-quality-dashboard.md).
+ 
+En el caso de las transmisiones de audio, cualquiera de los cinco clasificadores, que se calculan para el promedio en función de la duración de la llamada, pueden estar dentro de los parámetros "buenos". No significa que los usuarios no tengan algo que haya contribuido a un problema de salida de audio, como estático o en un problema. 
+
+Para determinar si ha habido un problema de red, mire la diferencia entre los valores promedio de la sesión y los valores máximos. Los valores máximos son los máximos detectados y notificados durante la sesión.
+ 
+Este es un ejemplo de cómo solucionar esta situación. Supongamos que realiza un seguimiento de la red durante una llamada y los primeros 20 minutos no se pierden paquetes, pero después tiene un intervalo de 1,5 segundos de paquetes y, después, bueno durante el resto de la llamada. El promedio se va a <pérdida de paquetes del 10% (0,1) incluso en un análisis RTP de seguimiento de Wireshark. ¿Cuál fue la pérdida máxima de paquetes? 1,5 segundos en un período de 5 segundos sería el 30% (0,3). ¿Eso se produjo dentro del período de muestreo de cinco segundos (tal vez o podría dividirse durante el período de muestreo)?
+ 
+Si la métrica de red se ve bien en los valores máximos y promedio, busque otros datos de telemetría: 
+- Compruebe la proporción insuficiente de eventos de CPU para ver si los recursos de la CPU detectados no eran suficientes y producían una mala calidad. 
+- Era el dispositivo de audio en modo dúplex medio para evitar recibir comentarios causados por micrófonos que se encuentran cerca de los altavoces. 
+- Compruebe la proporción de eventos de AEC dúplex medio de un dispositivo. Fue el problema del dispositivo o el problema de micrófono introdujo ruido o estático debido a las desprotecciones de audio USB al estar conectado a un concentrador o una estación de acoplamiento:  
+- Verifique las relaciones de los problemas del dispositivo y los problemas del micrófono. ¿El dispositivo funcionaba correctamente?  
+- Compruebe que las relaciones de eventos de la captura y el dispositivo de representación no funcionan.
+
+
+Para obtener más información sobre las dimensiones y medidas disponibles en la telemetría del CQD, lea [dimensiones y medidas disponibles en el panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md).
+
+En ruido de fondo, Compruebe la proporción de eventos de silencio para ver la cantidad de tiempo que los participantes estaban silenciados.
+ 
+Cree informes detallados en el CQD y filtre por el identificador de la reunión para ver todos los usuarios y las secuencias de una reunión y agregue los campos que le interesen. Es posible que un usuario que informa del problema no sea el que tenía el problema. Se reportan únicamente a la experiencia.
+ 
+La telemetría no reconocerá el problema, pero puede ayudarlo a comprender mejor dónde mirar e informar de las decisiones. ¿Hay actualizaciones, uso o usuario de la red, el dispositivo, el controlador o el firmware?
+
+
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>¿Por qué la apariencia de los datos del informe de CQD V2 es diferente de la de los datos del informe del CQD V3? 
 
 Si ve diferencias de datos entre el CQD versión 2 y el V3, asegúrese de que la comparación o validación de datos se realiza en un nivel de "Apple to-manzanas" y en un nivel estrecho, no en un nivel agregado. Por ejemplo, si filtra los informes de MSIT ' crear 30 ' datos de cliente de escritorio de WiFi Teams, el porcentaje de mala calidad debe ser el mismo entre V2 y V3.
@@ -481,3 +516,4 @@ Al filtrar por equipos solo en informes de CQD (isTeams = 1), está filtrando to
 [Usar el Análisis de llamadas para solucionar problemas de mala calidad en las llamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Análisis de llamadas y Panel de calidad de llamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
+ 
