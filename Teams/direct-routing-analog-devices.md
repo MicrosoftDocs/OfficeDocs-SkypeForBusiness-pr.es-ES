@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lea este artículo para aprender a usar dispositivos analógicos con el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: 525e898bd0eafe88d6893249465734d7c33a10b2
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 45128b8806644e4399687787bcce251ccb807d85
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341792"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558520"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Cómo usar dispositivos analógicos con enrutamiento directo de sistema telefónico
 
@@ -39,16 +39,17 @@ Para configurar el uso de dispositivos analógicos con enrutamiento directo, deb
 
 Este ejemplo le guía por los siguientes pasos:
 
-1. Conectar la SBC al enrutamiento directo
-2. Crear el uso de RTC
-3. Crear una ruta de voz y asociarla con el uso de RTC
-4. Asignar la ruta de voz al uso de RTC
-5. Habilitar el usuario en línea
-6. Asignar la Directiva de la ruta de voz al usuario
-7. Crear una ruta de voz para un dispositivo analógico
+1. Conecte el SBC al enrutamiento directo.
+2. Crear el uso de RTC.
+3. Crear una ruta de voz y asociarla con el uso de RTC.
+4. Asigne la ruta de voz al uso de RTC.
+5. Habilitar el usuario en línea.
+6. Asigne la Directiva de la ruta de voz al usuario.
+7. Crear una ruta de voz para un dispositivo analógico.
 
 Para obtener información sobre cómo conectar un ATA a un SBC y configurar el SBC, consulte la guía de configuración del fabricante de SBC:
 - [Documentación de configuración de AudioCodes](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
+- [Documentación de configuración de la cinta](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 
 ## <a name="step-1--connect-the-sbc-to-direct-routing"></a>Paso 1.  Conectar la SBC al enrutamiento directo
 

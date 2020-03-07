@@ -1,7 +1,7 @@
 ---
 title: Plan para eventos en directo en Microsoft Teams
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 08/19/2019
 ms.topic: article
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga más información sobre los factores que hay que tener en cuenta antes de configurar eventos en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eaa9e00ea3491b66eedbcf8f00e3108b582d7aa9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6f0c141751a9b67a47640ba5210c3cb7aeeadbb2
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827128"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558570"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 

@@ -19,12 +19,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Escritorio IP y teléfonos de conferencia certificados para Microsoft Teams
-ms.openlocfilehash: a02082719e509ed38646915a8ce5388837ceca26
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.openlocfilehash: bca9cc1180febf4d3d218548f83705879bb852ec
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327972"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558560"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Teléfonos IP certificados para Microsoft Teams
 
@@ -52,12 +52,18 @@ Los siguientes teléfonos están certificados para Microsoft Teams:
 |CCX400 de poli | 1.0.0.0200 | 2020 de enero|
 |CCX600 de poli | 5.9.12.1111| 2020 de enero|
 |CCX500 de poli | 5.9.12.1111| 2019 de diciembre|
-|Yealink VC210| 118.15.0.14|2020 de febrero|
 |Yealink VP59 | 91.15.0.16 |2019 de junio|
 |Yealink T55 | 58.15.0.36 |2019 de mayo|
 |Yealink CP 960 |73.15.0.20|2018 de diciembre|
 |Yealink T58 & T56 serie |58.15.0.20|2018 de diciembre|
 
+## <a name="certified-collaboration-bars"></a>Barras de colaboración certificadas
+
+Las siguientes barras de colaboración están certificadas para Microsoft Teams:
+
+|Modelo de barra de colaboración|Versión de firmware|Fecha de lanzamiento |
+|:---|:---|:---|
+|Yealink VC210| 118.15.0.14|2020 de febrero|
 
 Para obtener información sobre las características compatibles con estos dispositivos, vea [conjunto de características de Microsoft Teams Phone](/MicrosoftTeams/phones-for-teams#microsoft-teams-phones-feature-set) .
 

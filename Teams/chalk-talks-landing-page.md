@@ -16,17 +16,19 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: adead862907c29c066df8b2541c260045f19db95
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 7d41218e75b24432e1f67ae1dc8344f8a76b8a50
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417605"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558660"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Habla de tiza de Microsoft Teams</h1>
-Diseñado para profesionales de ti y responsables de la toma de decisiones, las conversaciones de tiza para equipos proporcionan una oportunidad única de aprender las mejores prácticas y la orientación práctica en algunos de los escenarios más populares y atractivos de Teams. Estos talleres interactivos en línea, facilitados por expertos en la materia, presentarán información para mejorar la implementación de sus equipos y proporcionar valor adicional a los usuarios finales.<br><br><i>Haga clic en el título de cualquier taller a continuación para ver las fechas y horas disponibles, y regístrese hoy.</i>
+Diseñado para profesionales de ti y responsables de la toma de decisiones, las conversaciones de tiza para equipos proporcionan una oportunidad única de aprender las mejores prácticas y la orientación práctica en algunos de los escenarios más populares y atractivos de Teams. Estos talleres interactivos en línea, facilitados por expertos en la materia, presentarán información para mejorar la implementación de sus equipos y proporcionar valor adicional a los usuarios finales.<br><br>
+           <strong>Requisito previo</strong>: asista primero a los <a href="https://aka.ms/Teamsin30"target="_blank">equipos de 30</a> talleres.<br><br>
+           <i>Haga clic en el título de cualquier taller a continuación para ver las fechas y horas disponibles, y regístrese hoy.</i>
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a> 
