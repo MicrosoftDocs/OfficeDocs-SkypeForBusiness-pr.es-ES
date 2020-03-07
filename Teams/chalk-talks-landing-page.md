@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 7d41218e75b24432e1f67ae1dc8344f8a76b8a50
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 4a66451a760e6d9e07c374e4ea900af4b0d78b36
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558660"
+ms.locfileid: "42559340"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -75,6 +75,7 @@ Diseñado para profesionales de ti y responsables de la toma de decisiones, las 
         </a>
     </li>
     <li>
+        <a href="https://aka.ms/ChalkTalkAppTemplates"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -85,11 +86,12 @@ Diseñado para profesionales de ti y responsables de la toma de decisiones, las 
                     </div>
                     <div class="cardText">
                         <h3>Implementar una aplicación de Teams en 60 minutos</h3>
-                        <p><font color="red"><i>¡Próximamente!</i></font> Amplíe Teams con plantillas de aplicaciones para crear herramientas que use todos los días directamente en Teams, de modo que pueda realizar su trabajo con una sola experiencia.</p>
+                        <p>Amplíe Teams con plantillas de aplicaciones para crear herramientas que use todos los días directamente en Teams, de modo que pueda realizar su trabajo con una sola experiencia.</p>
                     </div>
                 </div>
             </div>
         </div>
+        </a>
     </li>
     <li>
         <div class="cardSize">
