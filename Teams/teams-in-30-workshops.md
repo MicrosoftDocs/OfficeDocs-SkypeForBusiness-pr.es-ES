@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc72976fd7aa2ff03d305b5edaeff0d18c1f2a61
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 182b7178cf24b786e81afd9181c9275541857486
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417875"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558610"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -50,9 +50,9 @@ ms.locfileid: "42417875"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Introducción a teams en 30</h3>
+                        <h3>Introducción a teams en el 30 (empezar aquí)</h3>
                         <P>Inicia los equipos en 30 metros en el pie de la derecha. Comprender el programa, quién debe participar y qué recursos puede usar para garantizar su éxito.</P>
-                        <p>*Público: patrocinadores empresariales, administradores de ti, adopción y cambio de propietarios*</p>
+                        <p><i>Público: patrocinadores empresariales, administradores de ti, adopción y cambio de propietarios</i></p>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ ms.locfileid: "42417875"
                     </div>
                     <div class="cardText">
                         <h3>Listos sus usuarios finales:</h3>
-                    <p>Descubra estrategias y recursos para preparar a los usuarios, crear un contingente de campeones y garantizar la aceptación del usuario como componente fundamental de la implementación de sus equipos.</p><p>*Público: adopción y cambio de propietarios*</p>
+                    <p>Descubra estrategias y recursos para preparar a los usuarios, crear un contingente de campeones y garantizar la aceptación del usuario como componente fundamental de la implementación de sus equipos.</p><p><i>Público: adopción y cambio de propietarios</i></p>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@ ms.locfileid: "42417875"
                     </div>
                     <div class="cardText">
                     <h3>Preparar su entorno-parte I</h3>
-                    <p>Establezca la base para el lanzamiento de Teams. Identifique los requisitos previos de Teams, procedimientos recomendados de seguridad y redes, directivas de coexistencia, análisis y creación de informes y recomendaciones de distribución de clientes.</p><p>*Público: administradores de IT*</p>
+                    <p>Establezca la base para el lanzamiento de Teams. Identifique los requisitos previos de Teams, procedimientos recomendados de seguridad y redes, directivas de coexistencia, análisis y creación de informes y recomendaciones de distribución de clientes.</p><p><i>Público: administradores de IT</i></p>
 </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@ ms.locfileid: "42417875"
                     </div>
                     <div class="cardText">
                         <h3>Preparar su entorno: parte II</h3>
-                    <p>Ahora que tiene la base, comprenda los procedimientos recomendados para implementar el cumplimiento, la retención, el gobierno y las conferencias de audio de Teams.</p><p>*Público: administradores de IT*</p>
+                    <p>Ahora que tiene la base, comprenda los procedimientos recomendados para implementar el cumplimiento, la retención, el gobierno y las conferencias de audio de Teams.</p><p><i>Público: administradores de IT</i></p>
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@ ms.locfileid: "42417875"
                     <div class="cardText">
                     <h3>Optimizar y expandir</h3>
                     <p>Diseñar un plan que incluya rendimiento del servicio de optimización, las capacidades de los equipos y la incorporación de nuevos usuarios.</p>
-                    <p>*Público: patrocinadores empresariales, administradores de ti, adopción y cambio de propietarios*</p>
+                    <p><i>Público: patrocinadores empresariales, administradores de ti, adopción y cambio de propietarios</i></p>
                     </div>
                 </div>
             </div>
@@ -146,8 +146,10 @@ ms.locfileid: "42417875"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Habla de los equipos de tiza</h3>
-                    <p>Estos talleres interactivos en línea, facilitados por expertos en la materia, proporcionan una oportunidad única de aprender las mejores prácticas y la orientación práctica en algunos de los escenarios más populares y atractivos de Teams.</p><p>*Público: administradores de IT*</p>
+                    <h3>Habla de los equipos de tiza</h3>
+                    <p>Estos talleres interactivos en línea, facilitados por expertos en la materia, proporcionan una oportunidad única de aprender las mejores prácticas y la orientación práctica en algunos de los escenarios más populares y atractivos de Teams.</p>
+                    <p><strong>Requisito previo</strong>: Teams en 30 talleres. Tiza habla sobre lo que aprenderá en los talleres que encontrará en esta página.</p>
+                    <p><i>Público: administradores de IT</i></p>
                     </div>
                 </div>
             </div>
