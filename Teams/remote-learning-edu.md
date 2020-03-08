@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28ba6f96355847eed0149dddba07fa9704f39052
-ms.sourcegitcommit: ac811017d54a55f39ecc0e3a66a883d9e027ce68
+ms.openlocfilehash: 9e0259a47f72caa441d0f7d4b13ccf00345b1a3d
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42547901"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551017"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introducción a Microsoft Teams para el aprendizaje remoto
 
@@ -50,7 +50,7 @@ Obtenga más información sobre los escenarios de uso de Teams en la [serie de s
 
 Teams aprovecha las capacidades de Microsoft 365 para autenticar usuarios y proporcionar servicios. El personal, los instructores y los alumnos deben tener identidades establecidas para facilitar la colaboración. Si las identidades aún no existen, siga este proceso para establecerlas.
 
-Para que los usuarios puedan empezar a usar la funcionalidad de Teams, es necesario habilitar las [licencias de Teams para los usuarios](teams-edu-licensing.md). Teams se basa en las capacidades adicionales de Microsoft 365 como [grupos de Office 365](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint y OneDrive](SharePoint-OneDrive-interact.md) para habilitar escenarios de colaboración. Los usuarios obtienen mejor experiencia de Teams si todos estos servicios también están habilitados. [Teams es compatible con usuarios que tienen un correo electrónico hospedado por Google](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
+Para que los usuarios puedan usar las funciones de Teams, [deben estar habilitadas las licencias](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams) y, a continuación, [se deben asignar las licencias a los usuarios](teams-edu-licensing.md). Teams se basa en las capacidades adicionales de Microsoft 365 como [grupos de Office 365](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint y OneDrive](SharePoint-OneDrive-interact.md) para habilitar escenarios de colaboración. Los usuarios obtienen mejor experiencia de Teams si todos estos servicios también están habilitados. [Teams es compatible con usuarios que tienen un correo electrónico hospedado por Google](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
 
 Microsoft Teams está incluido en Office 365 A1, que es gratuito para las instituciones educativas. Para obtener instrucciones sobre cómo implementar Office 365 y cómo lograr que toda la escuela se inicie en Teams, consulte [esta página](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). Para obtener soporte técnico, puede archivar un tique [aquí](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) y si desea obtener cursos de aprendizaje de Teams, visite la Microsoft Store local para conversar con un especialista.
 
@@ -138,7 +138,7 @@ Puede obtener más información sobre cómo usar Teams para la educación en: [M
 
 ## <a name="adoption-content"></a>Contenido de adopción
 
-Microsoft ha desarrollado [contenido de adopción](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) y una guía estratégica para la implementación de Teams. La [guía de adopción de Teams](https://teamworktools.azurewebsites.net/tft/index.html) ofrece información general sobre el contenido disponible y el [kit de éxito de los clientes de Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) ofrece muchas plantillas que se pueden usar para generar conocimiento de Teams. El Centro para formadores de Microsoft ofrece formación específica sobre cómo se usan [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) y [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) en el aula.
+Microsoft ha desarrollado [contenido de adopción](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) y una guía estratégica para la implementación de Teams. La [guía de adopción de Teams](https://teamworktools.azurewebsites.net/tft/index.html) ofrece información general sobre el contenido disponible y el [kit de éxito de los clientes de Teams](https://aka.ms/TeamsCustomerSuccess) ofrece muchas plantillas que se pueden usar para generar conocimiento de Teams. El Centro para formadores de Microsoft ofrece formación específica sobre cómo se usan [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) y [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) en el aula.
 
 Otros recursos de adopción incluyen:
 
