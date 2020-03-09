@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e0259a47f72caa441d0f7d4b13ccf00345b1a3d
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 2fc4439b6e40aa29f538be461e75f672bcd82e41
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551017"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42559355"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introducción a Microsoft Teams para el aprendizaje remoto
 
@@ -31,6 +31,8 @@ ms.locfileid: "42551017"
 > - Una colección de artículos para profesores incluyendo tutoriales detallados sobre [**los primeros pasos para enseñar en Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - Un curso en línea de 1 hora en el Centro de Formación de Microsoft que muestra cómo los profesores usan Teams en el ámbito profesional educativo. [**Trasformar el aprendizaje con Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview)
 > - Un curso en línea de 1 hora en el Centro de Formación de Microsoft que demuestra a los profesores el uso de Teams para enseñar en clase. [**Crear un entorno de aprendizaje colaborativo con Teams en clase**](https://education.microsoft.com/course/b1e15cfc/overview).
+> - Si es un profesor, un estudiante, o un padre o tutor, obtenga más información sobre [**la enseñanza y el aprendizaje remotos con Office 365**](https://aka.ms/RemoteLearningHelp).
+> - Los padres y tutores también pueden ir a nuestra [página de soporte técnico para padres](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588?ui=en-US&rs=en-US&ad=US) a fin de obtener ayuda con el aprendizaje remoto.
 
 No se pierda el blog del 4 de marzo de 2020, [Cómo las escuelas pueden incrementar rápidamente los programas de aprendizaje remoto con Microsoft Teams](https://aka.ms/teamseduremoteblog).
 
@@ -153,7 +155,11 @@ Los profesionales de TI y el personal de soporte técnico pueden ponerse al día
 Otros recursos de soporte para TI incluyen:
 
 - [Solución de problemas de instalación y actualización de Microsoft Teams](troubleshoot-installation.md)
+- [Abra un vale de soporte técnico (puede ser usado por profesores y miembros del personal)](https://aka.ms/edusupport)
+- [Centro de ayuda y soporte técnico para formadores que usan Teams](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)
+- [Centro de ayuda para estudiantes](https://support.office.com/article/student-help-center-395ab230-55bf-44c6-b265-e832d729b694)
 - [Teams para la infraestructura de escritorio virtualizada](https://docs.microsoft.com/microsoftteams/teams-for-vdi)
+- [Cómo optimizar rápidamente el tráfico de Office 365 para el personal remoto](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
 - [Supervisar y administrar la calidad de las llamadas](monitor-call-quality-qos.md)
 - [Comprobar el estado del servicio para Microsoft Teams](service-health.md)
 - [Recursos de soporte técnico para Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
