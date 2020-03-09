@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos de su organización a ser productivos con Microsoft Teams, especialmente cuando trabajan desde casa (WFH) en respuesta al ataque COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26a6c739212b4f1b8564dfe0b8e412d4e8f0e615
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 011522533a5a1a0641afb3da4421a8ae8e6c6715
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551057"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558640"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Dar soporte para trabajadores remotos con Microsoft Teams
 
@@ -93,7 +93,9 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
 
       - [Colaborar con Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
-      - [9 Consejos para trabajar de forma remota](https://www.microsoft.com/tips/home/working-remotely)
+      - [ Trabajar a distancia con Office 365 ](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
+
+      - [9 consejos para trabajar a distancia](https://www.microsoft.com/tips/home/working-remotely)
 
 
 3.  Anime a todos los usuarios a [instalar](get-clients.md#mobile-clients) y usar la aplicación móvil:[iOS](https://go.microsoft.com/fwlink/?LinkId=835758) o [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168).
