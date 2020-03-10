@@ -16,18 +16,17 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 4a66451a760e6d9e07c374e4ea900af4b0d78b36
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: cde69bd588c7262e5ed6f0274b091fee29b27030
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559340"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574007"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Habla de tiza de Microsoft Teams</h1>
 Diseñado para profesionales de ti y responsables de la toma de decisiones, las conversaciones de tiza para equipos proporcionan una oportunidad única de aprender las mejores prácticas y la orientación práctica en algunos de los escenarios más populares y atractivos de Teams. Estos talleres interactivos en línea, facilitados por expertos en la materia, presentarán información para mejorar la implementación de sus equipos y proporcionar valor adicional a los usuarios finales.<br><br>
-           <strong>Requisito previo</strong>: asista primero a los <a href="https://aka.ms/Teamsin30"target="_blank">equipos de 30</a> talleres.<br><br>
            <i>Haga clic en el título de cualquier taller a continuación para ver las fechas y horas disponibles, y regístrese hoy.</i>
         <ul class="pivots">
             <li>

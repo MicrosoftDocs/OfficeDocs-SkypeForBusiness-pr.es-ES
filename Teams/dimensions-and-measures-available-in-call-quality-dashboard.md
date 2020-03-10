@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: Obtenga información detallada sobre las dimensiones y medidas usadas por el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online.
-ms.openlocfilehash: 99013a4919dac1312564ab3f4d935fb2628d5da5
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 1bc3fc7e62b234d0679531d48a656c71c54db113
+ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161751"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574423"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensiones y medidas disponibles en el panel de calidad de llamadas
 
@@ -426,6 +426,23 @@ La información de dimensiones se basa en parte en los datos que se cargan en el
 | Pareja de nombre de edificio  | Pareja enumerada  | Par del nombre del edificio para el primer punto de conexión y el segundo.  | &bull;No se pudo determinar el nombre de compilación de un extremo. Esto puede deberse a que el punto de conexión se encuentra fuera de la red corporativa o a la red desde un sitio sin una asignación de subred. <br/> **Valor de ejemplo:** Edificio principal: edificio de sitios de sucursales |
 | Pareja de dentro de la Corporación  | Pareja enumerada <br/>**Valores posibles:** <br/> Internos: dentro <br/> Internos: fuera <br/> Fuera de: | Par que muestra si los puntos de conexión se encontraban dentro o fuera de la red corporativa según la asignación de subred.   |   |
 | Pareja de escenario  | Pareja enumerada  | Par que muestra si los puntos de conexión se encontraban dentro o fuera de la red corporativa según la asignación de subred y el detalle de conexión de red. <br/> **Nota:** Los pares están separados por '--'. <br/> **Valor de ejemplo:** Cliente-interno--cliente-Inside-WiFi  | &bull;Se desconocía el tipo de conectividad de red para uno de los puntos de conexión o para ambos.  |
+|**RTC**|||
+|Motivo de finalización de la llamada RTC (código de respuesta SIP)|ENT|Un código de respuesta entero de tres dígitos muestra el estado final de la llamada. <br/> Para obtener más información sobre la explicación de SIP, consulta la [lista de códigos de respuesta SIP](https://www.wikipedia.org/wiki/List_of_SIP_response_codes). <br/>**Ejemplo:** 404||
+|FQDN de tronco de RTC|String|FQDN es el nombre de dominio completo (FQDN) del controlador de borde de sesión (SBC).<br/>**Ejemplo:** sbcgw.contoso.com||
+|Nombre de la portadora RTC|String|La empresa autorizada por organismos normativos para operar un sistema de telecomunicaciones.<br/>**Ejemplo:** Colt|El enrutamiento directo no tiene un operador. Solo un plan de llamadas tiene un operador.|
+|Tipo de llamada RTC|String|Esta cadena combina el tipo de servicio y el tipo de llamada.<br/><br/>Tipo de servicio:<br/>Plan de llamadas > al usuario<br/>transacciones manuales: enrutamiento > directo<br/>conf-> audioconferencia<br/>UCAP: aplicación de voz ><br/>emergencia: > número de emergencia<br/><br/>Tipo de llamada:<br/>Llamada entrante en ><br/>Salida: > llamada saliente<br/>Out_transfer: > llamada saliente se transfiere a la tercera persona<br/>Out_forward: > llamada saliente se desvía a terceros<br/>Out_conf: > llamada saliente con un participante con RTC ad-hoc<br/><br/>**Ejemplo:** ByotIn||
+|Tipo de conectividad RTC|String|El tipo de conectividad RTC incluye enrutamiento directo, plan de llamadas o audioconferencia. En este momento, solo está disponible el enrutamiento directo en el panel de calidad de llamadas (CQD).<br/>**Ejemplo:** Enrutamiento directo||
+|Frase de código SIP final de RTC|String|La frase de motivo correspondiente al código de respuesta SIP y al código de respuesta de Microsoft.<br/>**Ejemplo:** Adiós||
+|Submotivo de finalización de llamada RTC|ENT|Un código de respuesta enviado desde el componente de Microsoft que indica acciones específicas que se produjeron.<br/>**Ejemplo:** 540000||
+|Tipo de evento RTC|String|Un tipo de evento que proporciona telemetría.<br/>**Ejemplo:** Gama||
+|Hora de información de evento RTC|Fecha|La hora en formato UTC cuando se inicia una llamada saliente desde la red de Microsoft o una llamada entrante llega a la red de Microsoft.<br/>**Ejemplo:** 2020-02-06 20:57:53.1750000||
+|Ubicación de MP de RTC|String|La ubicación del procesador multimedia mostrará la ruta de medios cuando esté en modo de no omisión.<br/>**Ejemplo:** CONTACTOREALMENTE||
+|Región del primer país de la RTC|String|Si FirstIsCaller es verdadero, la primera región del país de la RTC es el país de la persona que llama. Si es falsa, la segunda región del país de la RTC es el país de la persona que llama.<br/>**Ejemplo:** DÉJEN||
+|Vibración|Milisegundos|Variación de la hora de llegada de los paquetes RTP. Para obtener más información, consulta [clasificación de secuencias en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md) .<br/>**Ejemplo:** 5,982||
+|Packet Loss Rate|Porcentaje|El porcentaje de transmisiones entre el servidor de mediación y SBC o la puerta de enlace, si está disponible.
+Para obtener más información, consulta [clasificación de secuencias en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md) .<br/>**Ejemplo:** 1,2%||
+|Latencia (tiempo de ida y vuelta)|Milisegundos|El tiempo medio de ida y vuelta en la propagación de red por Stream calculado.
+Para obtener más información, consulta [clasificación de secuencias en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md) .<br/>**Ejemplo:** 3,49||
 ||||
 
 ### <a name="notes-on-dimension-data-typeunits"></a>Notas sobre el tipo de datos/unidades de dimensión
@@ -580,7 +597,7 @@ Muchos valores de medida también se pueden usar como filtros. En la tabla sigui
 | Promedio del segundo nivel de la señal de RxAGC|Rango (decibelios) |Nivel de señal promedio recibido en el control de ganancia automática para la segunda secuencia de audio de entrada.| |
 | Primer nivel de ruido RxAGC promedio|Rango (decibelios) |Promedio de nivel de ruido recibido en el control de ganancia automática para la primera secuencia de audio de entrada.||
 | Promedio del segundo nivel de ruido RxAGC|Rango (decibelios) |Promedio de nivel de ruido recibido en el control de ganancia automática para la segunda secuencia de audio de entrada.| |
-| Nivel medio de señal de bucle invertido en primer lugar|Rango (decibelios) | Nivel medio de señal de bucle invertido del primer altavoz (después de que se hayan aplicado los efectos de descarga del dispositivo).|   Nivel medio de señal de bucle invertido de altavoz (después de aplicar los efectos de descarga de dispositivos).|
+| Nivel medio de señal de bucle invertido en primer lugar|Rango (decibelios) | Nivel medio de señal de bucle invertido del primer altavoz (después de que se hayan aplicado los efectos de descarga del dispositivo).|
 | Nivel medio de la señal de bucle invertido en segundo|Rango (decibelios) | Nivel medio de señal de bucle invertido del segundo altavoz (después de que se hayan aplicado los efectos de descarga del dispositivo).|
 |Promedio del primer nivel de señal de envío de audio |Decibelios |Promedio de nivel de energía de audio enviado para el audio que se ha clasificado como voz en mono o canal izquierdo de voz en estéreo enviado por los primeros puntos de conexión. |
 |Promedio del segundo nivel de señal de envío de audio |Decibelios |Promedio de nivel de energía de audio enviado para el audio que se ha clasificado como voz en mono o canal izquierdo de voz en estéreo enviado por segundo punto de conexión. |
@@ -617,7 +634,7 @@ Muchos valores de medida también se pueden usar como filtros. En la tabla sigui
 |Promedio de recorrido de ida y vuelta |Milisegundos |Promedio del tiempo medio de ida y vuelta en la propagación de red que se calcula como se especifica en RFC3550 en milisegundos durante las transmisiones. |
 |Promedio de recorrido de ida y vuelta máximo |Milisegundos |Promedio del tiempo máximo de ida y vuelta en la propagación de red que se calcula como se especifica en RFC3550 en milisegundos durante las transmisiones. |
  Promedio de uso de paquetes|Cantidad de paquetes|Número medio de paquetes de protocolo de transporte en tiempo real (RTP) enviados por segundo en la sesión.|
-|Vibración media de red |Milisegundos | Promedio de vibración de red calculada en más de 20 segundos durante la sesión. |
+|Vibración media de red |Milisegundos |   Promedio de vibración de red calculada en más de 20 segundos durante la sesión. |
 | Promedio de vibración máxima de red|Milisegundos |Promedio de la vibración de red máxima en milisegundos calculada en más de 20 segundos durante la sesión.  ||
 | Promedio mínimo de vibración de red|Milisegundos|Promedio de los valores mínimos de vibración de red en milisegundos que se calculan en más de 20 segundos durante la sesión de transmisiones.| |
 | Tamaño máximo de búfer de vibración promedio|Milisegundos|Tamaño máximo del búfer de vibración durante la sesión.| |
@@ -651,6 +668,25 @@ Muchos valores de medida también se pueden usar como filtros. En la tabla sigui
 | Relación de eventos de problemas en dispositivos promedio de segundos|Porcentaje|Fracción media de la llamada en la que el segundo punto de conexión ha detectado problemas o brechas en los medios reproducidos o capturados que provocaron una calidad deficiente de los medios que se envían o se recibieron.|
 | Recuento de eventos de problemas en dispositivos del primero|Número de transmisiones en las que el primer punto de conexión ha detectado problemas significativos o brechas en los medios reproducidos o capturados que provocaban una calidad deficiente de los medios que se enviaban o recibieron.||
 | Recuento de eventos de problemas en dispositivos del segundo|Número de transmisiones en las que el segundo punto de conexión ha detectado problemas significativos o brechas en los medios reproducidos o capturados que provocaban una calidad deficiente de los medios que se enviaban o recibieron.||
+| Recuento total de intentos de RTC | Número de llamadas | Llamadas totales, incluidas las llamadas correctas y las llamadas fallidas en el intervalo de tiempo seleccionado.|
+|Recuento total de conexiones RTC | Número de llamadas | Total de llamadas conectadas correctamente en el intervalo de tiempo seleccionado.|
+|Número de intentos entrantes de RTC | Número de llamadas | Total de llamadas entrantes intentadas, incluidas las llamadas correctas y las llamadas fallidas en el intervalo de tiempo Select.|
+|Recuento de conexiones entrantes de RTC | Número de llamadas | Total de llamadas entrantes conectadas correctamente en el intervalo de tiempo seleccionado.|
+|Número de intentos de salida de RTC | Número de llamadas | Total de llamadas salientes intentadas, incluidas las llamadas correctas y las llamadas fallidas en el intervalo de tiempo seleccionado.|
+|Recuento de conexiones salientes de RTC | Número de llamadas | Total de llamadas salientes conectadas correctamente en el intervalo de tiempo seleccionado.|
+|Total de minutos de RTC | Minute | Minutos totales | Uso total de minutos en el intervalo de tiempo seleccionado.|
+|Minutos totales de entrada RTC | Minute | Número total de minutos de entrada en el intervalo de tiempo seleccionado.|
+|Minutos totales de salida de RTC | Minute | Número total de minutos de salida en el intervalo de tiempo seleccionado.|
+|Número de usuarios activos de RTC | Número de usuarios | El número de usuarios que realizaron al menos una llamada conectada durante ese día.|
+|Duración media de la llamada de RTC | Minute | La duración promedio de todas las llamadas conectadas en el intervalo de tiempo seleccionado. Normalmente, una llamada RTC de 1:1 es de cuatro a cinco minutos. Sin embargo, este promedio puede variar para cada empresa.|
+|Número total de llamadas simultáneas entrantes de RTC | Número de llamadas | Número máximo de llamadas entrantes activas simultáneas en un minuto.|
+|Número total de llamadas simultáneas salientes de RTC | Número de llamadas | Número máximo de llamadas salientes activas simultáneas en un minuto.|
+|Latencia de P50 | Milisegundos | el 50% de las solicitudes debe ser más rápido que una latencia determinada.|
+|Vibración de P50 | Milisegundos | el 50% de las solicitudes debe ser más rápido que la vibración.|
+|Tasa de pérdida de paquetes de P50 | Porcentaje | el 50% de las solicitudes debe tener menos de la tasa de pérdida de paquetes proporcionada.|
+|Retraso de marcado de mensajes salientes de RTC| Milisegundos | El retraso que se produce en las llamadas salientes medida desde el momento en que se ha marcado un número hasta que la persona que llama o la parte llamada escucha el timbre.|
+|Retraso de marcado de entrada entrante de RTC | Milisegundos | El tiempo o retraso que se produce en las llamadas entrantes medido desde el momento en que se ha marcado un número hasta que el autor de la llamada o la parte llamada escuchan el timbre.|
+|Porcentaje bueno de NER de RTC | Porcentaje | El NER mide la capacidad de una red de entregar llamadas midiendo el número de llamadas enviadas en comparación con el número de llamadas enviadas a un destinatario.<br/>NER = (llamadas con respuesta + timbre ocupado + timbre no responde + ataques de rechazo de terminal)/llamadas totales de intento x 100|
 ||||
 
 ## <a name="filters"></a>Filtros

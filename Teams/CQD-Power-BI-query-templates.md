@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Use Power BI para analizar los datos del CQD para Microsoft Teams.
-ms.openlocfilehash: d737f321ea8684ffe99b50575b1b2e8d044804d0
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 155bde0373880befc770d745ca246b76d4c63eec
+ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559620"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42572898"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Usar Power BI para analizar los datos del CQD para Microsoft Teams
 
@@ -38,7 +38,7 @@ Antes de poder usar estos archivos PBIX, tendrá que [instalar el conector de Po
 |Informe de dispositivos móviles CQD. pbix     | Proporciona información adaptada específicamente a usuarios de dispositivos móviles, como la calidad de las llamadas, la confiabilidad y la tarifa de mi llamada. Ver los informes de red móvil, red WiFi y sistema operativo móvil (Android, iOS).        |
 |Informe de enrutamiento directo RTC de CQD. pbix     |Proporciona información específica de las llamadas RTC que pasan por el enrutamiento directo. Para obtener más información, lea [con el informe de enrutamiento directo de CQD de CQD](CQD-PSTN-report.md).         |
 |Informe de Resumen de CQD. pbix     |Mejores visualizaciones, presentación mejorada, mayor densidad de la información y fechas de rodadura. Estos informes hacen que sea más fácil identificar los valores atípicos. Profundizar la calidad de las llamadas por ubicación con un mapa interactivo fácil de usar. 9 nuevos informes:</p>General de calidad<br>-Fiabilidad general<br>-RMC (calificar mi llamada) general<br>-Calidad de la Conferencia<br>-Calidad de P2P<br>-Fiabilidad de la Conferencia<br>-Fiabilidad P2P<br>-RMC de conferencia<br>-P2P RMC         |
-|**(¡ Nuevo!)** Informe de uso de equipos CQD. pbix     | Muestra cómo los usuarios de su organización usan Teams y cuánto. Para obtener más información, lea [usar el informe de Power BI de CQD para ver la utilización de Microsoft Teams](CQD-teams-utilization-report.md).        |
+|<strong>(¡ Nuevo!)</strong> Informe de uso de equipos CQD. pbix     | Muestra cómo los usuarios de su organización usan Teams y cuánto. Para obtener más información, lea [usar el informe de Power BI de CQD para ver la utilización de Microsoft Teams](CQD-teams-utilization-report.md).        |
 |Comentarios del usuario del CQD (calificar mi llamada) Report. pbix     | Muestra la clasificación de los datos de la llamada de una manera fácil de usar para ayudar a admitir las llamadas de su organización. Referencia cruzada con literales para identificar las oportunidades de educación para el usuario final.        |
 
 
