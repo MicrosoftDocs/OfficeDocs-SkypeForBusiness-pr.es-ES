@@ -3,17 +3,64 @@
 
 
 
-## <a name="week-of-february-17-2020"></a>Semana del 17 de febrero de 2020
+## <a name="week-of-march-02-2020"></a>Semana del 2 de marzo de 2020
 
 
 | Fecha de publicación |Título del tema | Change |
+|------|------------|--------|
+| 3/3/2020 | [Administrar la Prueba gratuita de Office 365 E1](/MicrosoftTeams/e1-trial-license) | modificado |
+| 3/3/2020 | [Notas de la versión](/MicrosoftTeams/rooms/rooms-release-note) | modificado |
+| 3/3/2020 | [Administrar la experiencia de Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | modificado |
+| 3/3/2020 | [Administrar el ciclo de vida de canales privados en Microsoft Teams](/MicrosoftTeams/private-channels-life-cycle-management) | modificado |
+| 3/3/2020 | [Formación del usuario final para Microsoft Teams](/MicrosoftTeams/enduser-training) | modificado |
+| 3/4/2020 | [Administrar configuración de reuniones](/MicrosoftTeams/meeting-settings-in-teams) | modificado |
+| 3/4/2020 | [Recursos de Microsoft Teams para administradores de educación](/MicrosoftTeams/remote-learning-edu) | modificado |
+| 3/4/2020 | [Dar soporte para trabajadores remotos con Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modificado |
+| 3/4/2020 | [Habla de tiza de Microsoft Teams](/MicrosoftTeams/chalk-talks-landing-page) | modificado |
+| 3/4/2020 | [Configurar las llamadas de emergencia dinámicas](/MicrosoftTeams/configure-dynamic-emergency-calling) | modificado |
+| 3/4/2020 | [Lista de controladores de borde de sesión certificados para el enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 3/4/2020 | [Administración de números de teléfono para EE. UU.](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | modificado |
+| 3/4/2020 | [Administrar el ciclo de vida de canales privados en Microsoft Teams](/MicrosoftTeams/private-channels-life-cycle-management) | modificado |
+| 3/4/2020 | [Guía de revisión de la experiencia de calidad de Microsoft Teams](/MicrosoftTeams/quality-of-experience-review-guide) | modificado |
+| 3/4/2020 | [Implementar la administración de salas de Microsoft Teams con Azure monitor](/MicrosoftTeams/rooms/azure-monitor-deploy) | modificado |
+| 3/4/2020 | [Teams para la infraestructura de escritorio virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
+| 3/4/2020 | [Teams en 30](/MicrosoftTeams/teams-in-30-workshops) | modificado |
+| 3/5/2020 | [Lista de controladores de borde de sesión certificados para el enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 3/5/2020 | [Administrar el acceso externo (federación) en Microsoft Teams](/MicrosoftTeams/manage-external-access) | modificado |
+| 3/5/2020 | [Recursos de Microsoft Teams para administradores de educación](/MicrosoftTeams/remote-learning-edu) | modificado |
+| 3/5/2020 | [Dar soporte para trabajadores remotos con Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modificado |
+| 3/5/2020 | [Usar los roles de administrador de Microsoft Teams para administrar equipos](/MicrosoftTeams/using-admin-roles) | modificado |
+| 3/5/2020 | [Herramientas y descargas para la adopción](/MicrosoftTeams/adopt-tools-and-downloads) | modificado |
+| 3/5/2020 | [Plan para la adopción de usuarios de Microsoft Teams \| Procedimientos recomendados ](/MicrosoftTeams/continue-journey) | modificado |
+| 3/5/2020 | [Administrar etiquetas en Microsoft Teams](/MicrosoftTeams/manage-tags) | modificado |
+| 3/5/2020 | [Herramientas y talleres: planificar, entregar y adoptar Microsoft Teams](/MicrosoftTeams/planning-workshop-practical-guide) | modificado |
+| 3/5/2020 | [Crear sus primeros equipos en Microsoft Teams](/MicrosoftTeams/teams-adoption-your-first-teams) | modificado |
+| 3/6/2020 | [Recursos de Microsoft Teams para administradores de educación](/MicrosoftTeams/remote-learning-edu) | modificado |
+| 3/6/2020 | [Preguntas más frecuentes: Soporte para los trabajadores remotos](/MicrosoftTeams/faq-support-remote-workforce) | modificado |
+| 3/6/2020 | [Habla de tiza de Microsoft Teams](/MicrosoftTeams/chalk-talks-landing-page) | modificado |
+| 3/6/2020 | [Enrutamiento directo: conexión de dispositivos analógicos](/MicrosoftTeams/direct-routing-analog-devices) | modificado |
+| 3/6/2020 | [Dar soporte para trabajadores remotos con Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modificado |
+| 3/6/2020 | [Teams en 30](/MicrosoftTeams/teams-in-30-workshops) | modificado |
+| 3/6/2020 | [Teléfonos y dispositivos para equipos](/MicrosoftTeams/teams-ip-phones) | modificado |
+| 3/6/2020 | [Configurar eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modificado |
+| 3/6/2020 | [Plan para eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modificado |
+| 3/6/2020 | [Usar PowerShell para establecer directivas de eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | modificado |
+| 3/6/2020 | [Definir eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modificado  |
+| 3/6/2020 | [¿Qué son los eventos en directo de Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modificado |
+| 3/6/2020 | [Activar y usar el panel de calidad de llamadas](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | modificado |
+
+
+## <a name="week-of-february-17-2020"></a>Semana del 17 de febrero de 2020
+
+
+| Fecha de publicación |Título del tema | Cambio |
 |------|------------|--------|
 | 2/21/2020 | [Usar la herramienta de recuperación de Sala de Microsoft Teams](/MicrosoftTeams/rooms/recovery-tool) | modificado |
 | 2/21/2020 | [Conectores, bots y aplicaciones en Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modificado |
 | 2/21/2020 | [Lista de controladores de borde de sesión certificados para el enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
 | 2/21/2020 | [Administrar las aplicaciones en el centro de administración de Microsoft Teams](/MicrosoftTeams/manage-apps) | modificado |
 | 2/21/2020 | [Administrar las aplicaciones de línea de negocio en Microsoft Teams](/MicrosoftTeams/manage-your-lob-apps) | modificado |
-| 2/21/2020 | [Administrar directivas de configuración de aplicación en Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modificado |
+| 2/21/2020 | [Administrar directivas de configuración de aplicación en Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modificado  |
 | 2/21/2020 | Publicar aplicaciones en el catálogo de aplicaciones de inquilino de Microsoft Teams | eliminado |
 | 2/21/2020 | [Usar los roles de administrador de Microsoft Teams para administrar equipos](/MicrosoftTeams/using-admin-roles) | modificado |
 
@@ -34,7 +81,7 @@
 | 2/26/2020 | [Recursos de Microsoft Teams para administradores de educación](/MicrosoftTeams/resources-teams-edu) | modificado |
 | 2/26/2020 | [Información general de seguridad y cumplimiento en Microsoft Teams](/MicrosoftTeams/security-compliance-overview) | modificado |
 | 2/26/2020 | [Crear un equipo que abarque toda la organización en Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | modificado |
-| 2/26/2020 | [Esto es lo obtiene con el Sistema telefónico de Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | modificado  |
+| 2/26/2020 | [Esto es lo obtiene con el Sistema telefónico de Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | modificado |
 | 2/26/2020 | [Formación dirigida por un instructor y vídeos para usuarios de Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modificado |
 | 2/26/2020 | [Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | modificado |
 | 2/26/2020 | [Obtener clientes para Microsoft Teams](/MicrosoftTeams/get-clients) | modificado |
