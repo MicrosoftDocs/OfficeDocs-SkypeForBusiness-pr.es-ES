@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 182b7178cf24b786e81afd9181c9275541857486
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 094f3db845109538df4652c3f1e990465c670918
+ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558610"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574433"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -147,8 +147,8 @@ ms.locfileid: "42558610"
                     </div>
                     <div class="cardText">
                     <h3>Habla de los equipos de tiza</h3>
-                    <p>Estos talleres interactivos en línea, facilitados por expertos en la materia, proporcionan una oportunidad única de aprender las mejores prácticas y la orientación práctica en algunos de los escenarios más populares y atractivos de Teams.</p>
-                    <p><strong>Requisito previo</strong>: Teams en 30 talleres. Tiza habla sobre lo que aprenderá en los talleres que encontrará en esta página.</p>
+                    <p>Estos talleres interactivos en línea, facilitados por expertos en la materia, proporcionan una oportunidad única de aprender las mejores prácticas y la orientación práctica en algunos de los escenarios más populares y atractivos de Teams. Tiza habla Imagine que ha completado un lanzamiento de equipos básicos.</p>
+                    <p><strong>Requisito previo</strong>: equipos con 30 personas de asistencia o que ya están habilitados para los equipos de toda la organización.</p>
                     <p><i>Público: administradores de IT</i></p>
                     </div>
                 </div>
