@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: Obtenga información detallada sobre las dimensiones y medidas usadas por el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online.
-ms.openlocfilehash: 1bc3fc7e62b234d0679531d48a656c71c54db113
-ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
+ms.openlocfilehash: b23b87ee7cf0f28fca59a3dee13113dcf28a141a
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574423"
+ms.locfileid: "42583087"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensiones y medidas disponibles en el panel de calidad de llamadas
 
@@ -439,10 +439,8 @@ La información de dimensiones se basa en parte en los datos que se cargan en el
 |Ubicación de MP de RTC|String|La ubicación del procesador multimedia mostrará la ruta de medios cuando esté en modo de no omisión.<br/>**Ejemplo:** CONTACTOREALMENTE||
 |Región del primer país de la RTC|String|Si FirstIsCaller es verdadero, la primera región del país de la RTC es el país de la persona que llama. Si es falsa, la segunda región del país de la RTC es el país de la persona que llama.<br/>**Ejemplo:** DÉJEN||
 |Vibración|Milisegundos|Variación de la hora de llegada de los paquetes RTP. Para obtener más información, consulta [clasificación de secuencias en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md) .<br/>**Ejemplo:** 5,982||
-|Packet Loss Rate|Porcentaje|El porcentaje de transmisiones entre el servidor de mediación y SBC o la puerta de enlace, si está disponible.
-Para obtener más información, consulta [clasificación de secuencias en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md) .<br/>**Ejemplo:** 1,2%||
-|Latencia (tiempo de ida y vuelta)|Milisegundos|El tiempo medio de ida y vuelta en la propagación de red por Stream calculado.
-Para obtener más información, consulta [clasificación de secuencias en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md) .<br/>**Ejemplo:** 3,49||
+|Packet Loss Rate|Porcentaje|El porcentaje de transmisiones entre el servidor de mediación y SBC o la puerta de enlace, si está disponible. Para obtener más información, consulta [clasificación de secuencias en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md) .<br/>**Ejemplo:** 1,2%||
+|Latencia (tiempo de ida y vuelta)|Milisegundos|El tiempo medio de ida y vuelta en la propagación de red por Stream calculado. Para obtener más información, consulta [clasificación de secuencias en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md) .<br/>**Ejemplo:** 3,49||
 ||||
 
 ### <a name="notes-on-dimension-data-typeunits"></a>Notas sobre el tipo de datos/unidades de dimensión

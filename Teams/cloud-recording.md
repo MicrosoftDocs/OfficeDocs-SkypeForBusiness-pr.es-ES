@@ -16,12 +16,12 @@ f1.keywords:
 description: Guía práctica para implementar características de voz en la nube en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5041b35822a04dc98aa6c07d3731ad8c6791af98
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 678e17ed92c0f269e134ac6c23dce29169c0d36d
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030724"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583007"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -151,6 +151,10 @@ El tamaño de una grabación de 1 hora es de 400 MB. Asegúrese de comprender la
 ## <a name="manage-meeting-recordings"></a>Administrar las grabaciones de la reunión
 
 Las grabaciones de la reunión se consideran contenido de propiedad del inquilino. Si el propietario de la grabación abandona la empresa, el administrador puede abrir la dirección URL de grabación de video en Microsoft stream en modo de administración. El administrador puede eliminar la grabación, actualizar cualquier metadato de grabación o cambiar los permisos para el vídeo de grabación. Obtenga más información sobre las [capacidades de administración en Stream](https://docs.microsoft.com/stream/manage-content-permissions).
+
+> [!NOTE]
+> Para obtener más información sobre cómo administrar las grabaciones y el acceso de los usuarios, vea [administrar datos de usuario en Microsoft Stream](https://docs.microsoft.com/stream/managing-user-data) y [permisos y privacidad en Microsoft Stream](https://docs.microsoft.com/stream/portal-permissions) .
+
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Cumplimiento y eDiscovery para las grabaciones de reuniones
 

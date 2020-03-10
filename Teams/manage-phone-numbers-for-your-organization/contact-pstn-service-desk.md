@@ -23,16 +23,16 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cuando reciba números de teléfono o transfiera (transfiriendo) números para su organización, es posible que necesite obtener ayuda y soporte técnico en el servicio de asistencia al cliente de RTC.
-ms.openlocfilehash: 6d400e51270b411054802240216d9e957a68f054
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 3fe6353deb52911a4e0f0249f500a2a562e29ac1
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341784"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583084"
 ---
 # <a name="pstn-service-desk-contact"></a>Contacto del servicio de asistencia al cliente RTC
 
-Si necesita ayuda con la adquisición de números de teléfono de Microsoft o el traslado de números de teléfono existentes a Microsoft, envíe una solicitud de correo electrónico con la siguiente información:
+Si necesitas ayuda para obtener o transferir números pero necesitas ayuda, cuéntanos cómo podemos ayudarte en un mensaje de correo electrónico y enviarlo a nosotros. En la solicitud de ayuda por correo electrónico, incluya tantos detalles como sea posible e incluya detalles como el identificador de su organización (ID de inquilino), los dominios, los tipos de números que necesita ayuda, el número de números que desea, la persona que autoriza a la cuenta y otros detalles importantes sobre su problema.
 
   - Su identificador de organización (ID de inquilino) o dominios activos.
   - Qué tipos de números necesita ayuda (usuario/suscriptor, servicio/gratuito o gratuito).

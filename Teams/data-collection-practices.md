@@ -22,12 +22,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft recopila datos de recuento, uso y error para comprender cómo se usa Skype empresarial y dónde se encuentran los problemas. Los datos se usan para planear mejoras del producto.
-ms.openlocfilehash: ec443c54041e77d419e4b387029be0f5b06c9177
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1c88086038c3874ae95f6151c1d04d13e0b9ccaf
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826768"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583107"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Prácticas de recopilación de datos de Skype empresarial y Microsoft Teams
 
@@ -117,6 +117,4 @@ Puede ver [configurar su red de Skype empresarial online](https://support.office
 Si está usando Office 365 ofrecido por 21Vianet en China, consulte [configurar su red para Skype empresarial online a través de 21Vianet](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
 
 ## <a name="related-topics"></a>Temas relacionados
-[Programa para la mejora de la experiencia del usuario](https://www.microsoft.com/products/ceip/default.mspx)
-
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
