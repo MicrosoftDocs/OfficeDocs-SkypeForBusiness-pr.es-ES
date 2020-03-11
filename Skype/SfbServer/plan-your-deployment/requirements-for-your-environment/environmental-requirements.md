@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumen: Configure los requisitos que no son de servidor para Skype empresarial Server 2015. Hay varias cosas que querrá configurar antes de realizar la implementación, como Active Directory, DNS, Certs y Fileshares.'
-ms.openlocfilehash: 0d1f2ff87189cd7fd88f37429fb2ebf6805f6810
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 164f4b8037c972907eb6d1375f77b3cc350959e5
+ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42012592"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42572808"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Requisitos del entorno para Skype empresarial Server 2015
  
@@ -85,7 +85,7 @@ Ahora, el nivel funcional del dominio de cualquier dominio en el que implemente 
     
 - Windows Server 2003
     
-¿Puede tener controladores de dominio de solo lectura en estos entornos? Seguro, siempre y cuando también haya disponible un controlador de dominio de escritura.
+¿Puede tener controladores de dominio de solo lectura en estos entornos? Seguro, siempre y cuando también haya controladores de dominio grabables disponibles en el mismo sitio que Skype empresarial Server.
   
 Ahora, es importante saber que Skype empresarial Server 2015 no admite dominios de etiqueta única. ¿Qué son? Si tiene un dominio raíz con la etiqueta contoso. local, eso será correcto. Si tiene un dominio raíz que acaba de denominarse local, eso no va a funcionar y no se admite como resultado. Un poco más sobre esto se ha escrito [en este artículo de Knowledge Base](https://support.microsoft.com/kb/300684/en-us).
   
@@ -374,4 +374,3 @@ Skype empresarial Server 2015 puede usar el mismo recurso compartido de archivos
 > [!CAUTION] 
 > Debe saber que no se admite el uso de almacenamiento conectado a la red (NAS) como un recurso compartido de archivos; por ello, use una de las opciones enumeradas anteriormente. 
   
-

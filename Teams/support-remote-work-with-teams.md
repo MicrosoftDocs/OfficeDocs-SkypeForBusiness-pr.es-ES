@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos de su organización a ser productivos con Microsoft Teams, especialmente cuando trabajan desde casa (WFH) en respuesta al ataque COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 011522533a5a1a0641afb3da4421a8ae8e6c6715
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: cdd4338a157869d6e0453910a29514d6dc7ed0c9
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558640"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574087"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Dar soporte para trabajadores remotos con Microsoft Teams
 
@@ -65,6 +65,8 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
 
 2. Además de la [Prueba de Office 365 E1](e1-trial-license.md) y [Teams gratuito](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c), [Teams Exploratory](teams-exploratory.md) también puede ser una buena opción si necesita licencias de Teams gratuitas.
 
+1. Si trabaja en el ámbito educativo y quiere configurar profesores, alumnos y administradores en Teams, use Office 365 A1. Esta es la versión gratuita de Office 365 que está disponible para las instituciones educativas. Regístrese en [Obtener Office 365 de forma gratuita para todo un centro educativo](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)
+
 1. Asegúrese de que sus empleados tengan acceso a Internet y ancho de banda apropiados para Teams Use las instrucciones de [ Prepare la red de su organización para los Teams](prepare-network.md) para obtener más información sobre cómo hacerlo.
 
    - El ancho de banda limitado puede afectar a la calidad de audio en las reuniones de Teams. Para garantizar una mejor experiencia de reunión en condiciones de poco ancho de banda, Anime a los usuarios a limitar el vídeo y usar PSTN para las llamadas y el audio de la reunión. 
@@ -89,6 +91,8 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
     
 3. Lea nuestro nuevo contenido sobre el trabajo remoto y cómo compartirlo con los usuarios:
         
+      - *Nuevo 9 de marzo de 2020*: [trabajar de forma remota con Microsoft Teams](https://products.office.com/microsoft-teams/work-remotely)
+
       - Blog de los Teams (28 de febrero de 2020): [4 sugerencias para trabajar desde casa con Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
       - [Colaborar con Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
@@ -107,9 +111,9 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
 
    - [Equipos de la organización](create-an-org-wide-team.md) y plantilla de aplicación [Comunicador de la empresa](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator)
     
-   - Envíe información acerca de las directivas de trabajo desde casa, salud y seguridad de su organización
+   - Envíe información acerca de las directivas de trabajo desde casa, salud y seguridad de su organización.
     
-   - Use [Eventos en directo](teams-live-events/what-are-teams-live-events.md) para reuniones y la divulgación en toda la empresa Para las reuniones de más de 250 participantes, haga que se convierta en un evento en directo. 
+   - Use [Eventos en directo](teams-live-events/what-are-teams-live-events.md) para reuniones y la divulgación en toda la empresa Para las reuniones de más de 250 participantes, haga que se convierta en un evento en directo. Active la transcripción para [reuniones](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260) y [eventos en directo](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a). Además, puede activar los subtítulos en directo. Estas características aumentan la inclusión, productividad y comprensión. 
 
 4.  Dote de personal al [servicio de asistencia](troubleshoot-installation.md) para tratar las consultas de los usuarios.
 

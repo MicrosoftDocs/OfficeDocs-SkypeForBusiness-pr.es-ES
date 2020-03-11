@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: El nuevo área informes del centro de administración de Skype empresarial muestra la actividad de llamadas y audioconferencias en su organización. Le permite profundizar en los informes para proporcionarle información más detallada sobre las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver los detalles de uso de RTC de conferencias de audio, incluido el costo de la llamada, para que pueda comprender su uso y los detalles de facturación para determinar el uso dentro de su organización.
-ms.openlocfilehash: b76bd2f752b03e59143162261b37f311f1b38b64
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a489277eceaab533fc03ac7017dcc217b4071bc6
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706055"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42582887"
 ---
 # <a name="pstn-usage-report"></a>Informe de uso de RTC
 
@@ -71,8 +71,8 @@ Este es el aspecto del informe.
      *    **user_out_forwarding** (el usuario ha desviado la llamada a un número RTC)
 
      **Tipos de llamadas de audioconferencia**
-     *    **conf_in** (una llamada entrante al puente de audioconferencia) 
-     *    **conf_out** (por lo general, una llamada saliente del puente de conferencias de audio agrega un número RTC a la Conferencia)
+     *    **conf_in** (una llamada entrante al puente de audioconferencia). Para los registros de este tipo de llamada, el usuario especificado en la columna **identificador de usuario** corresponde al organizador de la reunión.
+     *    **conf_out** (una llamada saliente del puente de conferencias de audio, generalmente para agregar un número RTC a la Conferencia). Para los registros de este tipo de llamada, el usuario especificado en la columna **identificador de usuario** corresponde al organizador de la reunión.
 
      **Aplicaciones de comunicaciones unificadas (UCAP)** 
      *    **ucap_in** (una llamada RTC entrante a la aplicación de comunicaciones unificadas, como el operador automático o la cola de llamadas) 
@@ -94,12 +94,13 @@ Este es el aspecto del informe.
      *    Plan de llamadas **MCOPSTN6** -nacionales (240 plan de llamadas mín) Nota: disponibilidad limitada
      *    **MCOMEETADD** : audioconferencia
      *    Videoconferencias por minuto de **MCOMEETACPEA**
+     
 > [!NOTE]
 > Si desea ejecutar un informe para incluir solo las llamadas de pago por minuto que no están incluidas en su suscripción de llamadas o conferencias, filtre el informe con la capacidad de "MCOPSTNPP". Si lo haces, proporcionarás un artículo de todas las llamadas de pago por minuto.  Para las conferencias de audio por minuto de pago, filtrar por "MCOMEETACPEA" en lugar de "MCOPSTNPP".  
-***
+
 > [!NOTE]
 > También puede ver "sin datos" en algunos campos. "Sin datos" significa que el campo no es aplicable al tipo o la función de la llamada. 
-***
+
 > [!NOTE]
 > Si tiene un plan de llamadas de Telstra, no verá ningún registro de detalles de llamadas en el informe de uso de RTC. Comunícate con Telstra para tus necesidades de informes. 
 ***
