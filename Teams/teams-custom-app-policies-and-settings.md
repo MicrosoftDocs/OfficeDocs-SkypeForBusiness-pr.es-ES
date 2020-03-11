@@ -22,19 +22,19 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: 86bf441f6dfa74b243f1a6e64139a32b8b94d7fa
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: a3435d0a6be9e9ef6642fe84404cb54d4ebaf8e4
+ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161636"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42601427"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Administrar configuración y directivas de aplicación personalizadas en Microsoft Teams
 
 > [!NOTE]
 > Para usar App Studio [, consulte Introducción a la plataforma de Microsoft Teams con C#/.net y app Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio) el último paso no funciona aún, por lo que tendrá que descargar el código postal de la forma más antigua de [cargar un paquete de la aplicación a Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload).
 
-Como administrador, puede usar la configuración y las directivas de la aplicación personalizadas para controlar qué usuarios de su organización pueden cargar aplicaciones personalizadas en Microsoft Teams. Los administradores deciden qué usuarios pueden cargar aplicaciones personalizadas, y los administradores y los propietarios del equipo pueden determinar si determinados equipos de su organización permiten agregar aplicaciones personalizadas a ellas.  Después de editar la Directiva de aplicación personalizada, los cambios pueden tardar hasta 24 horas en surtir efecto.
+Como administrador, puede usar la configuración y las directivas de la aplicación personalizadas para controlar qué usuarios de su organización pueden cargar aplicaciones personalizadas en Microsoft Teams. Los administradores deciden qué usuarios pueden cargar aplicaciones personalizadas, y los administradores y los propietarios del equipo pueden determinar si determinados equipos de su organización permiten agregar aplicaciones personalizadas a ellas.  Después de editar la Directiva de aplicación personalizada, los cambios pueden tardar hasta 24 horas en surtir efecto. Debe ser administrador global o administrador de servicios de equipo para poder administrar estas directivas.
 
 ## <a name="overview-of-custom-apps"></a>Información general sobre aplicaciones personalizadas
 

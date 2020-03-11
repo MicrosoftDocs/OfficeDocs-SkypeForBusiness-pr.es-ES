@@ -19,19 +19,19 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 171192353227e7e0d14d59ca36b632f90aeb9941
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: 7ee649cff23ee569b284ecf8873205524eb2e838
+ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229930"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42601437"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
 > [!NOTE]
 > Si ha habilitado la configuración de la aplicación en toda la organización, **permitir la interacción con aplicaciones personalizadas**, es posible que no vea las directivas de configuración de la aplicación aún en el centro de administración de Microsoft Teams. Se está implementando en este momento y estará disponible muy pronto en la organización.
 
-Como administrador, puede usar las directivas de configuración de la aplicación para personalizar Microsoft Teams y resaltar las aplicaciones más importantes para los usuarios. Elija las aplicaciones que quiere anclar y establezca el orden en que aparecen. Las directivas de configuración de la aplicación le permiten mostrar las aplicaciones que los usuarios de su organización necesitan, incluidos los creados por terceros o por los programadores de su organización. También puede usar las directivas de configuración de la aplicación para controlar si los usuarios pueden anclar aplicaciones a los equipos y administrar cómo aparecen las características integradas.
+Como administrador, puede usar las directivas de configuración de la aplicación para personalizar Microsoft Teams y resaltar las aplicaciones más importantes para los usuarios. Elija las aplicaciones que quiere anclar y establezca el orden en que aparecen. Las directivas de configuración de la aplicación le permiten mostrar las aplicaciones que los usuarios de su organización necesitan, incluidos los creados por terceros o por los programadores de su organización. También puede usar las directivas de configuración de la aplicación para controlar si los usuarios pueden anclar aplicaciones a los equipos y administrar cómo aparecen las características integradas. Debe ser administrador global o administrador de servicios de equipo para poder administrar estas directivas.
 
 Las aplicaciones se anclan a la barra de la aplicación. Esta es la barra en el lateral del cliente de escritorio de Teams y en la parte inferior de los clientes móviles de Teams (iOS y Android).
 

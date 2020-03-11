@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ab5f85e7ea6239a5b56471ed0a378af3bc1c4c9f
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: baf3f025dd9b2340f59aee18d72d3707e4cab8fd
+ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161683"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42601417"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Administrar directivas de permisos de aplicación en Microsoft Teams
 
-Como administrador, puede usar las directivas de permisos de aplicaciones para controlar qué aplicaciones están disponibles para los usuarios de Microsoft Teams de su organización. Puede permitir o bloquear todas las aplicaciones o aplicaciones específicas publicadas por Microsoft, terceros y su organización. Cuando bloquea una aplicación, los usuarios que tienen la Directiva no pueden instalarla desde la tienda de aplicaciones de Teams.
+Como administrador, puede usar las directivas de permisos de aplicaciones para controlar qué aplicaciones están disponibles para los usuarios de Microsoft Teams de su organización. Puede permitir o bloquear todas las aplicaciones o aplicaciones específicas publicadas por Microsoft, terceros y su organización. Cuando bloquea una aplicación, los usuarios que tienen la Directiva no pueden instalarla desde la tienda de aplicaciones de Teams. Debe ser administrador global o administrador de servicios de equipo para poder administrar estas directivas.
 
 Administre las directivas de permisos de aplicaciones en el centro de administración de Microsoft Teams. Puede usar la directiva global (predeterminada para toda la organización) o crear y asignar directivas personalizadas a usuarios individuales o a usuarios de un grupo.  
 
