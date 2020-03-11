@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae9315c172bc88cb96d5071e4bddf7f2e82a0d9f
-ms.sourcegitcommit: a597b1572f1eca095144288446a2c038e5daa5f7
+ms.openlocfilehash: e7d0f4a38194f80329c34cab73d61a99d4d4d03b
+ms.sourcegitcommit: 90066455ea2f982cdeabd9bff7944718bc7895c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42586707"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42592550"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introducción a Microsoft Teams para el aprendizaje remoto
 
@@ -32,7 +32,7 @@ ms.locfileid: "42586707"
 > - Un curso en línea de 1 hora en el Centro de Formación de Microsoft que muestra cómo los profesores usan Teams en el ámbito profesional educativo. [**Trasformar el aprendizaje con Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview)
 > - Un curso en línea de 1 hora en el Centro de Formación de Microsoft que demuestra a los profesores el uso de Teams para enseñar en clase. [**Crear un entorno de aprendizaje colaborativo con Teams en clase**](https://education.microsoft.com/course/b1e15cfc/overview).
 > - Si es un profesor, un estudiante, o un padre o tutor, obtenga más información sobre [**la enseñanza y el aprendizaje remotos con Office 365**](https://aka.ms/RemoteLearningHelp).
-> - Los padres y tutores también pueden ir a nuestra [página de soporte técnico para padres](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) a fin de obtener ayuda con el aprendizaje remoto.
+> - Los padres y tutores también pueden ir a nuestra [**página de soporte técnico para padres**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) a fin de obtener ayuda con el aprendizaje remoto.
 
 No se pierda el blog del 4 de marzo de 2020, [Cómo las escuelas pueden incrementar rápidamente los programas de aprendizaje remoto con Microsoft Teams](https://aka.ms/teamseduremoteblog).
 
@@ -104,7 +104,7 @@ Aquí tiene un conjunto de configuraciones comunes, no predeterminadas, de direc
 
 - Crear canales privados establecida en "desactivado"
 
-**Los formadores y el personal de las escuelas primarias** deben tener asignadas directivas que otorguen las funciones fundamentales que pueden estar restringidas para los alumnos. Cree nuevas directivas que permitan el chat privado y la programación de reuniones (la configuración predeterminada de una nueva directiva). [Asigne estas directivas a los miembros del personal y los formadores mediante la pertenencia a grupos de seguridad](batch-policy-assignment-edu).
+**Los formadores y el personal de las escuelas primarias** deben tener asignadas directivas que otorguen las funciones fundamentales que pueden estar restringidas para los alumnos. Cree nuevas directivas que permitan el chat privado y la programación de reuniones (la configuración predeterminada de una nueva directiva). [Asigne estas directivas en bloque al personal y los formadores mediante la asignación de directivas por lotes](batch-policy-assignment-edu.md).
 
 ## <a name="start-using-teams"></a>Empezar a usar equipos
 
