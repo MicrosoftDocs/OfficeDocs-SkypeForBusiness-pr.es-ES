@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre las diferentes formas de asignar directivas a los usuarios en Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: cb1c5fd43379388327de5e517409f01f7f52ed1b
-ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
+ms.openlocfilehash: e9f31f9bf9d08497b58490ddc7a7bea9e0496539
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170766"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604297"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Asignar directivas a los usuarios en Microsoft Teams
 
 > [!NOTE]
-> **Dos de las características de Microsoft Teams descritas en este artículo, [asignación de Directiva por lotes](#assign-a-policy-to-a-batch-of-users) y [asignación de directiva a grupos](#assign-a-policy-to-a-group), actualmente están en versión preliminar.**
+> **Una de las características de Microsoft Teams descritas en este artículo, [asignación de directiva a grupos](#assign-a-policy-to-a-group), está actualmente en versión preliminar.**
 
 Como administrador, use directivas para controlar las características de teams que están disponibles para los usuarios de su organización. Por ejemplo, hay directivas de llamadas, directivas de reunión y directivas de mensajería, por citar algunas.
 
@@ -64,7 +64,7 @@ A continuación se ofrece una descripción general de las formas en que puede as
 |---------|---------|----|
 |[Asignar una directiva a usuarios individuales](#assign-a-policy-to-individual-users)    | Ya está familiarizado con Teams y solo necesita asignar una o dos directivas a un pequeño número de usuarios. |El centro de administración de Microsoft Teams o los cmdlets de PowerShell en el módulo de PowerShell de Skype empresarial online
 | [Asignar un paquete de directivas](#assign-a-policy-package)   | Debe asignar varias directivas a conjuntos específicos de usuarios de su organización que tengan roles iguales o similares. Por ejemplo, asigne el paquete de directivas Educación (profesor) a los profesores de su escuela para proporcionarles acceso completo a chats, llamadas y reuniones y al paquete de directivas Educación (estudiante secundario escolar) a los estudiantes secundarios para limitar ciertas capacidades como llamadas privadas.  |El centro de administración de Microsoft Teams o los cmdlets de PowerShell en el módulo de PowerShell de Teams|
-|[Asignar una directiva a un lote de usuarios](#assign-a-policy-to-a-batch-of-users) (en versión preliminar)   | Debe asignar directivas a grandes conjuntos de usuarios. Por ejemplo, desea asignar una directiva a cientos o miles de usuarios de su organización al mismo tiempo.  |Cmdlets de PowerShell en el módulo de PowerShell de Teams|
+|[Asignar una directiva a un lote de usuarios](#assign-a-policy-to-a-batch-of-users)   | Debe asignar directivas a grandes conjuntos de usuarios. Por ejemplo, desea asignar una directiva a cientos o miles de usuarios de su organización al mismo tiempo.  |Cmdlets de PowerShell en el módulo de PowerShell de Teams|
 |[Asignar una directiva a un grupo](#assign-a-policy-to-a-group) (en versión preliminar)   |Debe asignar directivas en función de la pertenencia a grupos de un usuario. Por ejemplo, desea asignar una directiva a todos los usuarios de un grupo de seguridad o de una unidad de organización.| Cmdlets de PowerShell en el módulo de PowerShell de Teams|
 | Asignar un paquete de directivas a un lote de usuarios (próximamente) |||
 | Asignar un paquete de directivas a un grupo (próximamente)   | ||
@@ -121,8 +121,6 @@ Cuando se asigna un paquete de directivas a los usuarios, se crean las directiva
 Para obtener más información sobre los paquetes de directivas, incluidas las instrucciones paso a paso sobre cómo asignarlos y administrarlos, consulte [administrar paquetes de directivas en Teams](manage-policy-packages.md).
 
 ## <a name="assign-a-policy-to-a-batch-of-users"></a>Asignar una directiva a un lote de usuarios
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
  
 Con la asignación de directivas por lotes, puede asignar una directiva a grandes conjuntos de usuarios a la vez sin tener que usar un script. Use el ```New-CsBatchPolicyAssignmentOperationd``` cmdlet para enviar un lote de usuarios y la Directiva que desea asignar. Las asignaciones se procesan como una operación en segundo plano y se genera un identificador de operación para cada lote. Después, puede usar el ```Get-CsBatchPolicyAssignmentOperation``` cmdlet para realizar un seguimiento del progreso y el estado de las asignaciones de un lote.
 
@@ -133,25 +131,10 @@ Un lote puede contener hasta 20.000 usuarios. Puede especificar los usuarios por
 
 ### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar y conectarse al módulo de PowerShell de Microsoft Teams
 
-> [!NOTE]
-> Los cmdlets se encuentran en la versión preliminar del módulo de PowerShell de Teams. Siga estos pasos para desinstalar primero la versión disponible general del módulo de PowerShell de Teams (si está instalada) y, a continuación, instale la última versión preliminar del módulo de la galería de pruebas de PowerShell.
-
-Si todavía no lo ha hecho, ejecute lo siguiente para registrar la galería de pruebas de PowerShell como fuente de confianza.
+Ejecute lo siguiente para instalar el [Módulo Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams). Asegúrese de instalar la versión 1.0.5 o posterior.
 
 ```powershell
-Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
-```
-
-Si tiene instalada la versión general del módulo de PowerShell de Teams, ejecute lo siguiente para desinstalarla.
-
-```powershell
-Uninstall-Module MicrosoftTeams -AllVersions
-```
-
-Ejecute lo siguiente para instalar el módulo de PowerShell más reciente de Microsoft Teams desde la galería de pruebas de PowerShell.
-
-```powershell
-Install-Module MicrosoftTeams -Repository PSTestGallery
+Install-Module -Name MicrosoftTeams
 ```
 
 Ejecute lo siguiente para conectarse a teams e iniciar una sesión.
@@ -247,7 +230,7 @@ Por ejemplo, supongamos que tiene dos grupos, guarda empleados y administradores
 |Mesa |Nombre de directiva de llamadas de equipo  |Clasificación|
 |---------|---------|---|
 |Administradores de tienda   |Directiva de llamadas a administradores de tienda         |1|
-|Almacenar empleados    |Almacenar la política de llamadas      |2|
+|Almacenar empleados    |Almacenar la política de llamadas      |1|
 
 Si no especifica una clasificación, la asignación de directiva recibe la clasificación más baja.
 
@@ -319,7 +302,7 @@ A continuación se ofrece una lista de las asignaciones de directivas y las prio
 |Nombre del grupo  |Nombre de la directiva  |Clasificación|
 |---------|---------|---------|
 |Ventas    |Política de ventas       | 1        |
-|Región occidental     |Política de la región occidental         |2         |
+|Región occidental     |Política de la región occidental         |1         |
 |Departamentos    |Política de división         |3         |
 |Secundaria   |Directiva subsidiaria        |4         |
 
@@ -328,7 +311,7 @@ Si quitamos la política de región occidental del grupo región oeste, las asig
 |Nombre del grupo  |Nombre de la directiva  |Clasificación|
 |---------|---------|---------|
 |Ventas    |Política de ventas       | 1        |
-|Departamentos    |Política de división         |2         |
+|Departamentos    |Política de división         |1         |
 |Secundaria   |Directiva subsidiaria        |3        |
 
 En este ejemplo, quitamos la política de reuniones de Teams de un grupo.

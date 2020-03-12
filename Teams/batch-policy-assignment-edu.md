@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar la asignación de directivas por lotes para asignar directivas a grandes conjuntos de usuarios de su centro educativo en masa para fines escolares (teleschool, tele-School).
 f1keywords: ''
-ms.openlocfilehash: e95c6b035298ce583a0ad34a030f2086b7c12ff3
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 79c36aa0e2a7a2d310756d052b8962daeaa38634
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583356"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604307"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Asignar directivas a grandes conjuntos de usuarios de la escuela
 
@@ -42,14 +42,14 @@ Siga estos pasos para asignar una directiva de reunión personalizada al persona
 
 ## <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>Conectarse al módulo de Azure AD PowerShell para Graph y al módulo de PowerShell de Teams
 
-Antes de realizar los pasos de este artículo, tendrá que instalar y conectarse al módulo Azure AD PowerShell for Graph (para identificar a los usuarios por sus licencias asignadas) y la versión preliminar del módulo Microsoft Teams PowerShell (para asignar las directivas a esos usuarios).
+Antes de realizar los pasos de este artículo, tendrá que instalar y conectarse con el módulo Azure AD PowerShell for Graph (para identificar a los usuarios por sus licencias asignadas) y el módulo Microsoft Teams PowerShell (para asignar las directivas a esos usuarios).
 
 ### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>Instalar y conectarse al módulo de Azure AD PowerShell para Graph
 
 Abra un símbolo del sistema de Windows PowerShell con privilegios elevados (ejecute Windows PowerShell como administrador) y, a continuación, ejecute lo siguiente para instalar el módulo Azure Active Directory PowerShell para Graph.
 
 ```powershell
-Install-Module AzureAD
+Install-Module -Name AzureAD
 ```
 
 Ejecute lo siguiente para conectarse a Azure AD.
@@ -60,11 +60,15 @@ Connect-AzureAD
 
 Cuando se le solicite, inicie sesión con sus credenciales de administrador.
 
-Para obtener más información, vea [conectarse con el módulo Azure Active Directory PowerShell para Graph](https://docs.microsoft.com/eoffice365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Para obtener más información, vea [conectarse con el módulo Azure Active Directory PowerShell para Graph](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
 
-### <a name="install-and-connect-to-the-pre-release-version-of-the-teams-powershell-module"></a>Instalar y conectarse a la versión preliminar del módulo de PowerShell de Teams
+### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar y conectarse al módulo de PowerShell de Microsoft Teams
 
-Los cmdlets que necesitará se encuentran en la versión preliminar del módulo de PowerShell de Teams. Siga los pasos que se indican en [instalar y conectarse al módulo Microsoft Teams PowerShell](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module) para desinstalar primero la versión disponible general del módulo de PowerShell de Teams (si está instalado) y, a continuación, instale la última versión preliminar del módulo de la galería de pruebas de PowerShell.
+Ejecute lo siguiente para instalar el [Módulo Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams). Asegúrese de instalar la versión 1.0.5 o posterior.
+
+```powershell
+Install-Module -Name MicrosoftTeams
+```
 
 Ejecute lo siguiente para conectarse a teams e iniciar una sesión.
 
@@ -102,7 +106,7 @@ En este ejemplo, la salida muestra que el SkuId de la licencia del profesorado e
 A continuación, ejecutamos lo siguiente para identificar los usuarios que tienen esta licencia y recopilar todas ellas.
 
 ```powershell
-$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains “e97c048c-37a4-45fb-ab50-922fbf07a370”)
+$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370")
 ```
 
 ## <a name="assign-a-policy-in-bulk"></a>Asignar una directiva en masa

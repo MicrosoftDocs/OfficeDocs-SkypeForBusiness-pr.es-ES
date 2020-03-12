@@ -12,12 +12,12 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3be8c6610d27040d608070ca1e7dfb50a29a0cf1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 80c58b532c36e74aecd4d7ecb758afee1e2c2bdd
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181303"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604287"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ Apariencia de línea compartida (SLA) es una nueva característica de Lync Serve
         ```powershell
         New-CsServerApplication -Identity
                         'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri
-                        https://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled
+                        http://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled
                         $true -Priority (Get-CsServerApplication -Identity
                         'Service:Registrar:%FQDN%/UserServices').Priority 
         ```
