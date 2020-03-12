@@ -15,17 +15,17 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 958ca112e52cefa31e122c02b47c76a68537d284
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: 9fe712b484c20f5a7a8a1b1df5c4720788ac877a
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288728"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583067"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Formación dirigida por un instructor para Microsoft Teams</h1>
-En Microsoft estamos encantados de ofrecer una serie de clases en línea y en directo totalmente gratuitas diseñadas para empezar a trabajar con Teams.Si es un encargado, administrador, profesional de TI o usuario final, encontrará la clase perfecta. ¿No sabe por dónde empezar? Realice la <a href="https://aka.ms/TeamsKnowledgeCheck">comprobación de conocimientos de Teams</a>. Únase a nosotros para ver Teams en acción, obtener respuestas a sus preguntas e interactuar con los profesores en directo. Para ver nuestras clases de formación cuando lo desee, visite nuestra <a href="https://aka.ms/TeamsOnDemand">formación a petición para usuarios finales</a>.<br><br>Haga clic en una de las siguientes sesiones para registrarse.
+En Microsoft estamos encantados de ofrecer una serie de clases en línea y en directo totalmente gratuitas diseñadas para empezar a trabajar con Teams.  Si es un encargado, administrador, profesional de TI o usuario final, encontrará la clase perfecta. ¿No sabe por dónde empezar? Realice la <a href="https://aka.ms/TeamsKnowledgeCheck">comprobación de conocimientos de Teams</a>. Únase a nosotros para ver Teams en acción, obtener respuestas a sus preguntas e interactuar con los profesores en directo. Para ver nuestras clases de formación cuando lo desee, visite nuestra <a href="https://aka.ms/TeamsOnDemand">formación a petición para usuarios finales</a>.<br><br>Haga clic en una de las siguientes sesiones para registrarse.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
@@ -192,7 +192,28 @@ En Microsoft estamos encantados de ofrecer una serie de clases en línea y en di
             </div>
         </div>
         </a>
-    </li>        </ul>
+    </li>
+    <li>
+        <a href="https://aka.ms/TeamsAtHome"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/headset.svg" alt="Headset" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Domine el trabajo desde casa con Teams</h3>
+                        <p><strong><font color="#4B53BC">¡NUEVO!</font></strong> Obtenga más información sobre los procedimientos recomendados para permanecer conectado con su equipo y mantener la productividad.</p>
+                        <p><i>Público: usuarios finales, jefes de equipo y de departamento</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>  
+        </ul>
         </li>
     </ul>
     </div>
