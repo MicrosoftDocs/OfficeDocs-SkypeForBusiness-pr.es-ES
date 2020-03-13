@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9c8f0fe24cfb94be368fb2afa6446f311f2f790
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 4e009ccfb70e307e4a67f8331deabce51e229c0f
+ms.sourcegitcommit: 511238a3550ad0ff8d4bbd4600a252651ab6a654
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417885"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42615372"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -132,8 +132,8 @@ Para obtener más información sobre los equipos y Office 365 ProPlus, consulte 
 
 1. Descargue el paquete MSI de teams que coincida con el sistema operativo de la VM de VDI mediante uno de los siguientes vínculos:
 
-    - [versión de 32 bits](https://statics.teams.cdn.office.net/production-windows/1.2.00.32462/Teams_windows.msi)
-    - [versión de 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
+    - [versión de 32 bits](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
+    - [versión de 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
 
     La versión mínima de la aplicación de escritorio de Teams requerida es la versión 1.2.00.31357. (La retención de RTC no es compatible con versiones anteriores).
 
@@ -254,7 +254,7 @@ Para asignar una directiva a varios usuarios a la vez, vea [editar la configurac
 También puede hacer lo siguiente:
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la Directiva que desea asignar. Por ejemplo:
-    - Vaya a **** > **directivas de llamadas**de voz y, a continuación, haga clic en **DisallowCalling**.
+    - Vaya a **Voice** > **directivas de llamadas**de voz y, a continuación, haga clic en **DisallowCalling**.
     - Vaya a **reuniones** > **Meeting Policies**y, a continuación, haga clic en **AllOff**.
 3. Seleccione **administrar usuarios**.
 4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, a continuación, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
@@ -265,7 +265,7 @@ También puede hacer lo siguiente:
 En el ejemplo siguiente se muestra cómo usar [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) para asignar la Directiva de llamadas de DisallowCalling a un usuario.
 
 ```PowerShell
-Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
+Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 ```
 
 Para obtener más información sobre cómo usar PowerShell para administrar directivas de llamadas, consulte [set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
@@ -273,7 +273,7 @@ Para obtener más información sobre cómo usar PowerShell para administrar dire
 En el ejemplo siguiente se muestra cómo usar la [concesión-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) para asignar la Directiva de reunión de AllOff a un usuario.
 
 ```PowerShell
-Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
+Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 ```
 
 Para obtener más información sobre cómo usar PowerShell para administrar directivas de reuniones, consulte [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
@@ -306,7 +306,7 @@ Para asignar una directiva a varios usuarios a la vez, vea [editar la configurac
 También puede hacer lo siguiente:
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la Directiva que desea asignar. Por ejemplo:
-    - Vaya a **** > **directivas de llamadas**de voz y, a continuación, haga clic en **AllowCalling**.
+    - Vaya a **Voice** > **directivas de llamadas**de voz y, a continuación, haga clic en **AllowCalling**.
     - Vaya a **reuniones** > **Meeting Policies**y, a continuación, haga clic en **AllOn**.
 3. Seleccione **administrar usuarios**.
 4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, a continuación, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
@@ -317,7 +317,7 @@ También puede hacer lo siguiente:
 En el ejemplo siguiente se muestra cómo usar [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) para asignar la Directiva de llamadas de AllowCalling a un usuario.
 
 ```PowerShell
-Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id”
+Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity "user email id"
 ```
 
 Para obtener más información sobre cómo usar PowerShell para administrar directivas de llamadas, consulte [set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
@@ -325,7 +325,7 @@ Para obtener más información sobre cómo usar PowerShell para administrar dire
 En el ejemplo siguiente se muestra cómo usar la [concesión-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) para asignar la Directiva de reunión de AllOn a un usuario.
 
 ```PowerShell
-Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
+Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 ```
 
 Para obtener más información sobre cómo usar PowerShell para administrar directivas de reuniones, consulte [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
