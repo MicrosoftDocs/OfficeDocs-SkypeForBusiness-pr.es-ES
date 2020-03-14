@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para la India.
-ms.openlocfilehash: 459579824f7f1c25b98e33029699c6e8635c46da
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: 7fbd64ee3f00fdad0898c8dd6ea67bce224f8548
+ms.sourcegitcommit: 79572b3cb270c77ba7d78a06af02547ed9b7a7ea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853285"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42632765"
 ---
 # <a name="availability-in-india"></a>Disponibilidad en India
 
@@ -42,7 +42,7 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿La audioconferencia está disponible para la compra?  <br/> |No  <br/> |
+|¿La audioconferencia está disponible para la compra?  <br/> |Microsoft no vende audioconferencias en India. TATA Communications ofrece un servicio de acceso telefónico y saliente compatible con las reuniones de Microsoft Teams. Para obtener más información, visita el [sitio web de Tata Communications](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/).   <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, por:<br/><ul><li> Chennai<li> Bombay</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
    

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: El nuevo área informes del centro de administración de Skype empresarial muestra la actividad de llamadas y audioconferencias en su organización. Le permite profundizar en los informes para proporcionarle información más detallada sobre las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver los detalles de uso de RTC de conferencias de audio, incluido el costo de la llamada, para que pueda comprender su uso y los detalles de facturación para determinar el uso dentro de su organización.
-ms.openlocfilehash: a489277eceaab533fc03ac7017dcc217b4071bc6
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 7050334a390188f47f5d201b3fa541d337601400
+ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42582887"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637147"
 ---
 # <a name="pstn-usage-report"></a>Informe de uso de RTC
 
@@ -56,7 +56,7 @@ Este es el aspecto del informe.
 
 ***
 ![Número 1](../images/sfbcallout1.png)<br/>La tabla muestra un desglose de todo el uso de RTC por usuario. Se muestran todos los usuarios que tienen Skype empresarial asignado y su uso de RTC. Puede agregar o quitar columnas en la tabla.
-*    El **identificador de llamada** es el identificador de llamada de una llamada. Es un identificador único para la llamada que se usa al llamar a soporte técnico de servicios de Microsoft.
+*    El **identificador de llamada** es el identificador de llamada de una llamada. Es un identificador de la llamada que se usa al llamar a soporte técnico de servicios de Microsoft.
 *    **Identificador de usuario** es el nombre de inicio de sesión del usuario.
 *    **Número de teléfono** es el número de teléfono de Skype para empresas que recibió la llamada para llamadas entrantes o el número marcado para llamadas salientes.
 *    **Ubicación del usuario** es el país o la región donde se encuentra el usuario.
@@ -106,7 +106,48 @@ Este es el aspecto del informe.
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas.
  ***
-![Número 3](../images/sfbcallout3.png)<br/>También puede exportar los datos del informe a un archivo de Excel delimitado por coma haciendo clic o pulsando el botón **exportar a Excel** . Puede exportar datos hasta un año a partir de la fecha actual, a menos que la normativa específica del país prohíba la retención de los datos por 12 meses.<br/><br/> De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el mismo informe. 
+
+## <a name="exporting-pstn-usage-report"></a>Exportar informe de uso de RTC
+
+Hacer clic o pulsar el botón **exportar a Excel** le permite descargar el informe de uso de RTC. Puede exportar datos hasta un año a partir de la fecha actual, a menos que las regulaciones específicas del país prohíban la retención de los datos por 12 meses.
+
+De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis.
+
+El proceso de exportación puede tardar entre unos segundos y varios minutos en completarse, dependiendo de la cantidad de datos. Cuando el servidor complete la exportación, recibirá un archivo zip denominado "**calls. Export. [ ] `identifier`. zip**", donde el identificador es un identificador único para la exportación, que se puede usar para la solución de problemas.
+
+Si tiene tanto planes de llamadas como enrutamiento directo, el archivo exportado puede contener datos para ambos productos. El archivo de informe de uso de RTC tendrá el nombre de archivo "**RTC. calls. [ ] `UTC date`. csv**". Además de los archivos RTC y de enrutamiento directo, el archivo contiene "**Parameters. JSON**", con el intervalo de tiempo de exportación seleccionado y las funcionalidades (si las hay).
+
+Archivo exportado es un archivo de valores separados por comas (CSV), compatible con el estándar [RFC 4180](https://tools.ietf.org/html/rfc4180) . El archivo se puede abrir en Excel o en cualquier otro editor conforme a los estándares sin necesidad de ninguna transformación.
+
+La primera fila del archivo CSV contiene nombres de columna.
+
+### <a name="fields-in-the-export"></a>Campos en la exportación
+
+Archivo exportado contiene campos adicionales que no están disponibles en el informe en línea. Se pueden usar para la solución de problemas y los flujos de trabajo automatizados.
+
+| #  | Nombre | [Tipo de datos (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Descripción |
+| :-: | :-: | :-: |:------------------- |
+| ,0 | UsageId | `uniqueidentifier` | Identificador de llamada único |
+| 1 | Id. de llamada | `nvarchar(64)` | Identificador de llamada. No se garantiza que sea único |
+| 1 | Id. de conferencia | `nvarchar(64)` | IDENTIFICADOR de la Conferencia de audio |
+| 3 | Ubicación del usuario | `nvarchar(2)` | Prefijo internacional del usuario, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+| 4 | ObjectId de AAD | `uniqueidentifier` | Llamando al identificador de usuario en Azure Active Directory.<br/> Esta y otra información de usuario serán nulas o vacías para los tipos de llamada de Bot (ucap_in, ucap_out) |
+| 5 | PRINCIPAL | `nvarchar(128)` | UserPrincipalName (nombre de inicio de sesión) en Azure Active Directory.<br/>Normalmente es el mismo que la dirección SIP del usuario y puede ser igual a la dirección de correo electrónico del usuario. |
+| 6 | Nombre para mostrar del usuario | `nvarchar(128)` | Nombre para mostrar del usuario |
+| 7 | Identificador de llamada | `nvarchar(128)` | Número que recibió la llamada de llamadas entrantes o el número marcado para llamadas salientes. Formato [E. 164](https://en.wikipedia.org/wiki/E.164) |
+| 4,8 | Tipo de llamada | `nvarchar(32)` | Si la llamada fue una llamada entrante o saliente de RTC y el tipo de llamada, como una llamada realizada por un usuario o una conferencia de audio |
+| 99,999 | Tipo de número | `nvarchar(16)` | Tipo de número de teléfono del usuario, como un servicio de número gratuito |
+| base10 | Nacional o internacional | `nvarchar(16)` | Si la llamada era nacional (dentro de un país o región) o internacional (fuera de un país o región) en función de la ubicación del usuario |
+| once | Destino marcado | `nvarchar(64)` | País o región marcados |
+| 2007 | Número de destino | `nvarchar(32)` | Número marcado en formato [E. 164](https://en.wikipedia.org/wiki/E.164) |
+| 13 | Hora de inicio | `datetimeoffset` | Hora de inicio de la llamada (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+| 14 | Hora de finalización | `datetimeoffset` | Hora de finalización de la llamada (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+| 4,5 | Segundos de duración | `int` | Cuánto tiempo se conectó la llamada |
+| apartado | Cargo por conexión | `numeric(16, 2)` | Precio de la tarifa por conexión |
+| apartado | Cargas | `numeric(16, 2)` | Cantidad de dinero o coste de la llamada que se cobra a tu cuenta |
+| 18 | Moneda | `nvarchar(3)` | Tipo de moneda que se usa para calcular el costo de la llamada ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
+| 19 | Capacidades | `nvarchar(32)` | La licencia usada para la llamada |
+
     
 ## <a name="want-to-see-other-skype-for-business-reports"></a>¿Desea ver otros informes de Skype Empresarial?
 

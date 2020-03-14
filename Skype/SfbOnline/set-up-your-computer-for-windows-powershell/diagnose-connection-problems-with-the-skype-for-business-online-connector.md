@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Solución de problemas de creación de una sesión de PowerShell remota para conectarse a Skype empresarial online, incluidos los errores de módulo de importación, de Shell simultáneo, de Live ID y de permisos.
-ms.openlocfilehash: f3de8d67079aaf4afeffdc63588f6806413383fc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: be3500ea5573dab6daa3d8ff72a8de4f60566ee2
+ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010693"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637137"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexión con el conector de Skype Empresarial Online
 
@@ -140,7 +140,7 @@ Cada administrador puede tener un máximo de tres conexiones remotas simultánea
 ## <a name="the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded"></a>Se ha superado el número máximo de shells simultáneos para este inquilino en Skype empresarial online
 <a name="BKMKMaxNumberShellsTenant"> </a>
 
-Aunque cada administrador puede tener hasta tres conexiones simultáneas a un inquilino de Skype empresarial online, ningún inquilino puede tener más de nueve conexiones simultáneas. Por ejemplo, tres administradores pueden tener tres sesiones abiertas cada una. Si un cuarto administrador intenta realizar una conexión (lo que da como resultado un total de 10 conexiones simultáneas), se producirá un error en este intento, con el siguiente mensaje de error:
+Aunque cada administrador puede tener hasta tres conexiones simultáneas a un inquilino de Skype empresarial online, ningún inquilino puede tener más de veinte conexiones simultáneas. Por ejemplo, seis administradores pueden tener tres sesiones abiertas cada una. Si un séptimo administrador intenta abrir más de dos conexiones (lo que da como resultado un total de 21 conexiones simultáneas), se producirá un error en este intento, con el siguiente mensaje de error:
   
 - **Error**: *New-PSSession: [admin.vdomain.com] error al conectar con el servidor remoto admin.vdomain.com con el siguiente mensaje de error: el servicio WS-Management no puede procesar la solicitud. Se ha superado el número máximo de shells simultáneos para este inquilino. Cierre las shells existentes o aumente la cuota de este inquilino. Para obtener más información, consulte la [solución de problemas remotos] (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
