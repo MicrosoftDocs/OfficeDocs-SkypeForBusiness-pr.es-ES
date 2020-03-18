@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Use el Asesor de Teams (versión preliminar) para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: c1da173ffbdb150d032b11e0d70ba85e3e4f308b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ef78352df9d678d9f14dff246c3a363de755b539
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836780"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795853"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
@@ -165,6 +165,8 @@ Vaya al [Centro de ayuda de Forms](https://support.office.com/forms).
 ## <a name="related-topics"></a>Temas relacionados
 
 [Cómo implementar Teams](How-to-roll-out-teams.md)
+
+[Procedimientos recomendados para organizar los equipos en Teams](best-practices-organizing.md)
 
 [Nombres de productos e identificadores de planes de servicio para licencias](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
 ) 
