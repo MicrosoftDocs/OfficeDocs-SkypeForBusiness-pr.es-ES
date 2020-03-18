@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87de516afbd94a0d1784edd52efbcc5b10e262dd
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: f8259b8a06a4601ff7feebca53c06f268bdc08c5
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285832"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796023"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipos, canales y aplicaciones en Microsoft Teams
 
@@ -38,18 +38,11 @@ Para empezar, vea nuestro breve vídeo sobre el chat, los equipos y los canales 
  - [Conceptos básicos de Microsoft Teams para TI](https://aka.ms/MicrosoftTeamsforIT), incluidos vídeos breves (8-10 minutos) que muestran cómo implementar, configurar y administrar Teams.
 
 > [!TIP]
-> Le recomendamos que incluya nuestras aplicaciones destacadas, como Planner, en despliegue inicial de Teams. Añada otras [aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) a medida que maneja la adopción de Teams.
+> Le recomendamos que incluya nuestras aplicaciones destacadas, como Planner, en la implementación inicial de Teams. Añada otras [aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) a medida que maneja la adopción de Teams.
 
 ## <a name="chat-deployment-prerequisites"></a>Requisitos previos a la implementación del chat
 
-Antes de implementar Teams en toda la organización, dedique un tiempo para confirmar que el entorno está listo para Teams. Revise la información siguiente y realice los cambios necesarios en su entorno.
-
-- Para obtener la experiencia completa de Teams, su organización debe haber implementado [Exchange Online y SharePoint Online](#exchange-and-sharepoint-interoperability), y debe tener un dominio verificado para Office 365 (por ejemplo, contoso.com).
-
-- Para implementar el chat, equipos y canales en toda la organización, asegúrese de que todas las ubicaciones tienen acceso a internet para que puedan conectarse a Office 365. Como mínimo, asegúrese de que los siguientes puertos comunes están abiertos a internet en todas las ubicaciones:
-
-    - Puertos **TCP** 80 y 443 abiertos para el tráfico saliente de clientes que usarán Teams
-    - Puertos **UDP** 3478 - 3481 abiertos para el tráfico saliente de clientes que usarán Teams
+Antes de implementar Teams en toda la organización, dedique un tiempo para confirmar que el entorno está listo para Teams. Revise [Preparar la red de la organización para Teams](prepare-network.md) y realice los cambios necesarios en el entorno.
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
