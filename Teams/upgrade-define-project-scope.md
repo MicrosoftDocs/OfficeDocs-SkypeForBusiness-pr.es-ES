@@ -18,20 +18,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13da1a583d5aa0abaad4e981e5fc68d3aa913ce9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4084bc58d98aa05af14511869fc44c6db85343b8
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837250"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42707020"
 ---
+# <a name="define-your-project-scope"></a>Definir el ámbito del proyecto
+
 ![Diagrama de viaje de actualización, resaltado de la fase de definición del proyecto](media/upgrade-banner-project-definition.png "Fases del itinerario de la actualización, con énfasis en la fase de definición del proyecto")
 
-Este artículo forma parte de la etapa de definición de proyecto del viaje de actualización, una actividad completada después de crear un Coalition de patrocinio y un equipo de proyecto de las partes que identificó son fundamentales para el éxito del proyecto. Antes de continuar, confirme que ha completado las actividades siguientes:
+Este artículo forma parte de la etapa de definición de proyecto del viaje de actualización, una actividad completada después de crear un Coalition de patrocinio y un equipo de proyecto de las partes que identificó son fundamentales para el éxito del proyecto. Antes de continuar, confirme que ha completado las siguientes actividades:
 
 - [Participantes inlistados en el proyecto](upgrade-enlist-stakeholders.md)
-
-# <a name="define-your-project-scope"></a>Definir el ámbito del proyecto
 
 Tomarse el tiempo para definir la visión, el ámbito, los objetivos y el gobierno del proyecto le ayudará a asegurarse de que todas las partes interesadas del proyecto estén alineadas y estén trabajando con los mismos resultados finales. Esto es especialmente importante, ya que el equipo de preparación técnica y el equipo de preparación para el usuario trabajarán de forma independiente para reunir sus respectivas piezas. Una vez completada esta sección, haga referencia a ella en todo el proyecto para asegurarse de que está al tanto de el estado final deseado. Use los objetivos que usted identifica a continuación para medirlos con sus resultados y mitigarlos según sea necesario.
 

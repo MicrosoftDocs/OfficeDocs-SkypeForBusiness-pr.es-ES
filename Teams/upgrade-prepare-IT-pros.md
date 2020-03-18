@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c11b7fa80940ad45d4462510e8fa46531f10f1e9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6c3813b5d79f1362ff30ff15fa6fd2aff38b25a9
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836130"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706900"
 ---
+# <a name="prepare-your-it-staff-for-microsoft-teams"></a>Preparar el personal de TI para Microsoft Teams
+
 ![Actualizar el diagrama de viaje, enfatizando la fase de preparación técnica](media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación técnica")
 
 Este artículo forma parte de la fase de preparación técnica de su viaje de actualización, una actividad que ha completado en paralelo con la fase de preparación del usuario. Antes de continuar, confirme que ha completado estas actividades desde fases anteriores:
@@ -33,8 +35,6 @@ Este artículo forma parte de la fase de preparación técnica de su viaje de ac
 - [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
 - [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-it-staff-for-microsoft-teams"></a>Preparar el personal de TI para Microsoft Teams
 
 Los administradores de inquilinos de Office 365, los clientes técnicos y el escritorio de soporte son responsables de conducir una experiencia de usuario de alta calidad. Esto incluye asegurarse de que su red está lista para admitir equipos, configurar equipos para los usuarios y ser capaz de solucionar y resolver los problemas que puedan surgir.
 

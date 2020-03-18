@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82b9418f2e87550667cbc163f8f37a0989ec2b30
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: afbcc5721d55983e19970e6c2fbc60e5a7467cba
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863441"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706800"
 ---
+# <a name="prepare-your-environment-for-upgrading-to-teams"></a>Preparar el entorno para la actualización a teams
+
 ![Actualizar el diagrama de viaje, enfatizando la fase de preparación técnica](media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación técnica")
 
 Este artículo forma parte de la fase de preparación técnica de su viaje de actualización, una actividad que ha completado en paralelo con la fase de preparación del usuario. Antes de continuar, confirme que ha completado estas actividades desde fases anteriores:
@@ -33,8 +35,6 @@ Este artículo forma parte de la fase de preparación técnica de su viaje de ac
 - [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
 - [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-environment-for-upgrading-to-teams"></a>Preparar el entorno para la actualización a teams
 
 Para impulsar una actualización correcta de los equipos de su organización, es importante que valide su entorno actual de Skype empresarial y su disponibilidad en la red. Preparar el entorno actual le ayudará a garantizar una experiencia de usuario de alta calidad ahora, además de mejorar la calidad de la experiencia de usuario en Teams. Tomarse el tiempo para planificar pasos individuales puede ayudarle a acelerar la implementación y a asegurarse de que no haya omitido ningún elemento importante de acción.
 

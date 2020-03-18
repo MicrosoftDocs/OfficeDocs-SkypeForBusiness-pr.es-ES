@@ -1,5 +1,5 @@
 ---
-title: Crear un equipo que abarque toda la organización en Microsoft Teams
+title: Crear un equipo de la organización en Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: phlouie
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Aprenda a crear y administrar un equipo de toda la organización en Teams.
+description: Aprenda como crear y gestionar un equipo de la organización en Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -18,73 +18,73 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 99acc2e1756c0915f404f6bf6b1bfab1e30fcaf6
 ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/27/2020
 ms.locfileid: "42288738"
 ---
-# <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo que abarque toda la organización en Microsoft Teams
+# <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo de la organización en Microsoft Teams
 
-Los equipos de toda la organización ofrecen una manera automática de que todos los usuarios de una organización pequeña o mediana formen parte de un único equipo para la colaboración.
+Los equipos de la organización proporcionan una forma automática para que todos los miembros de una organización de tamaño pequeño o mediano formen parte de un único equipo de colaboración.
 
-Con los equipos de toda la organización, los administradores globales pueden crear fácilmente un equipo público que extrae a todos los usuarios de la organización y mantener la pertenencia actualizada con Active Directory a la vez que los usuarios se unen y salen de la organización. Solo los administradores globales pueden crear equipos de toda la organización y actualmente el equipo de toda la organización está limitado a organizaciones con un máximo de 5.000 usuarios. También hay un límite de cinco equipos de toda la organización por cada inquilino. Si se cumplen estos requisitos, los administradores globales verán **toda la organización** como una opción cuando seleccionen **crear un equipo desde cero** al crear un equipo. 
+Con los equipos de la organización, los administradores globales pueden crear fácilmente un equipo público que atraiga a todos los usuarios de la organización y mantenga a los miembros al día con el Active Directory a medida que los usuarios entran y salen de la organización. Sólo los administradores globales pueden crear equipos de la organización y actualmente un equipo de toda la organización está limitado a organizaciones con no más de 5 000 usuarios. También hay un límite de cinco equipos de la organización por inquilino. Si se cumplen estos requisitos, los administradores globales verán la opción **toda la organización** cuando seleccione **Construir un equipo desde cero** al crear un equipo. 
 
-![Captura de pantalla de la opción de toda la organización para crear un equipo para toda la organización](media/create-org-wide-team.png "Captura de pantalla de la opción de toda la organización para crear un equipo para toda la organización")
+![Captura de pantalla de la opción de crear un equipo de la organización](media/create-org-wide-team.png "Captura de pantalla de la opción Toda la organización para crear un equipo de la organización")
 
-Cuando se crea un equipo de toda la organización, todos los administradores globales se agregan como propietarios del equipo y todos los usuarios activos se agregan como miembros del equipo. Los usuarios sin licencia también se agregan al equipo. La primera vez que un usuario sin licencia inicia sesión en Teams, se asigna al usuario una licencia de prueba de la nube comercial de Microsoft Teams. Para obtener más información sobre la licencia de prueba, consulte [administrar la oferta de evaluación de la nube comercial](iw-trial-teams.md). 
+Cuando se crea un equipo a nivel de la organización, todos los administradores globales se añaden como propietarios del equipo y todos los usuarios activos se añaden como miembros del equipo. Los usuarios sin licencia también se agregan al equipo. La primera vez que un usuario sin licencia inicia sesión en Teams, se le asigna una licencia de prueba de nube comercial de Microsoft Teams. Para obtener más información sobre la licencia de prueba, revise [oferta de prueba de la administración de la Nube comercial de Teams](iw-trial-teams.md). 
 
-Estos tipos de cuentas no se agregarán al equipo de su organización:
+Este tipo de cuentas no se añadirán a su equipo de la organización:
 
-- Cuentas que están bloqueadas para iniciar sesión
+- Las cuentas que están bloqueadas para iniciar sesión
 - Usuarios invitados
-- Cuentas de servicio
-- Cuentas de sala o de equipo
-- Cuentas respaldadas por un buzón de correo compartido
+- Cuentas de servicio 
+- Cuentas de sala o equipamiento
+- Cuentas respaldadas por un buzón compartido
 
-Puesto que el directorio de su organización se actualiza para incluir nuevos usuarios activos o si los usuarios ya no trabajan en su empresa y su cuenta está deshabilitada, los cambios se sincronizan automáticamente y los usuarios se agregan o quitan del equipo. Los miembros del equipo no pueden abandonar el equipo de toda la organización. Como propietario de un equipo, puede Agregar o quitar usuarios de forma manual si es necesario.
+A medida que el directorio de su organización se actualiza para incluir nuevos usuarios activos o si los usuarios ya no trabajan en su empresa y su cuenta está desactivada, los cambios se sincronizan automáticamente y los usuarios se agregan o eliminan del equipo. Los miembros del equipo no pueden dejar un equipo de la organización. Como propietario del equipo, puede añadir o eliminar usuarios manualmente si es necesario.
 
 > [!NOTE]
-> - Si no ve la opción **en toda la organización** al crear un equipo y es un administrador global, es posible que la característica aún esté implementada, que haya alcanzado el límite de los cinco equipos en toda la organización o que su organización tenga más del límite de tamaño actual de miembros de 5.000. Estamos buscando aumentar este límite en el futuro. Los equipos de toda la organización aún no están disponibles para Teams para el ámbito educativo.
-> - Las salas que no forman parte de una lista de salas, equipos y cuentas de recursos se pueden agregar o sincronizar con el equipo de la organización. Los propietarios del equipo pueden quitar fácilmente estas cuentas del equipo.
-> - Todas las acciones del sistema para agregar o quitar miembros se publican en el canal general. El canal también se marcará como teniendo actividad nueva en el cliente de Teams.
-> - Crearemos automáticamente un equipo de empresa para su organización si su organización es nueva en Teams y no tiene más de 5.000 usuarios. El nombre del equipo reflejará el nombre del inquilino y tendrá un canal general. Los administradores globales pueden editar este equipo como cualquier otro equipo. 
+> - Si no ve la opción **Toda la organización** cuando cree un equipo y es un administrador global, la característica podría seguir desplegándose, ha alcanzado el límite de cinco equipos de la organización, o su organización podría tener más del límite de tamaño actual de 5 000 miembros. Buscamos aumentar este límite en el futuro. Los equipos de toda la organización aún no están disponibles para Teams educativo.
+> - Las habitaciones que no son parte de una lista de habitaciones, equipo, y cuentas de recursos pueden ser agregadas o sincronizadas con el equipo de toda la organización. Los dueños de los equipos pueden eliminar fácilmente estas cuentas del equipo.
+> - Todas las acciones del sistema para añadir o eliminar miembros se publican en el Canal general. El canal también será marcado como con nueva actividad en el cliente de Teams.
+> - Crearemos automáticamente un equipo de la organización, si su organización es nueva en Teams y no tiene más de 5 000 usuarios. El nombre del equipo reflejará el nombre del inquilino y tendrá un Canal general. Los administradores globales pueden editar este equipo como cualquier otro equipo. 
 
 ## <a name="best-practices"></a>Procedimientos recomendados
 
-Para sacar el máximo provecho del equipo de su organización, recomendamos que los propietarios del equipo hagan lo siguiente.
+Para sacar el máximo provecho de su equipo de toda la organización, recomendamos a los propietarios de los equipos que hagan lo siguiente.
 
-### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Permitir que solo los propietarios del equipo publiquen en el canal general
+### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Permitir que sólo los propietarios de los equipos publiquen en el canal general
 
-Reduzca el ruido del canal haciendo que solo los propietarios del equipo publiquen en el canal general. Vaya al equipo y haga clic en **̇ ̇ ̇ más opciones** > **administrar equipo**. En la pestaña **configuración** , haga clic en **permisos de miembro** > seleccione **solo los propietarios pueden publicar mensajes**.
+Reducir el ruido del canal haciendo que sólo los propietarios de los equipos publiquen en el canal general. Diríjase al equipo y haga clic en **˙˙˙ Más opciones** > ** Administrar equipo**. En la pestaña **Configuración**, haga clic en **Permisos de miembros** > seleccione **Sólo los propietarios pueden publicar mensajes**.
 
-### <a name="turn-off-team-and-team-name-mentions"></a>Desactivar las menciones @team y @ [nombre del equipo]
+### <a name="turn-off-team-and-team-name-mentions"></a>Desactivar menciones @equipo y @[nombre del equipo]
 
- Reduzca @mentions para evitar que se sobrecargue toda la organización. Vaya al equipo y haga clic en **̇ ̇ ̇ más opciones** > **administrar equipo**. En la pestaña **configuración** , haga clic en <strong>@mentions</strong> > desactivar **Mostrar miembros la opción @team o @ [nombre del equipo]**. 
+ Reducir las @menciones para evitar que sobrecarguen toda la organización. Diríjase al equipo y haga clic en **˙˙˙ Más opciones** > ** Administrar equipo**. En la pestaña **Configuración**, haga clic en <strong>@menciones</strong> > desactivar **Mostrar a los miembros la opción de @equipo o @[nombre del equipo]**. 
 
-### <a name="automatically-show-important-channels"></a>Mostrar automáticamente canales importantes
+### <a name="automatically-show-important-channels"></a>Mostrar automáticamente los canales importantes
 
-Mostrar canales importantes para asegurarse de que todos los miembros de la organización participen en conversaciones específicas. Para obtener más información, consulte [la opción canales de favoritos automáticos para todo el equipo](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6). 
+Muestre canales importantes para asegurarse de que todos los miembros de su organización participen en conversaciones específicas. Para obtener más información, consulte [Canales favoritos automáticos para todo el equipo](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6). 
 
-### <a name="set-up-channel-moderation"></a>Configurar la moderación de canales
+### <a name="set-up-channel-moderation"></a>Configurar la moderación del canal
 
-Considere la posibilidad de configurar la moderación de canales y proporcionar capacidades de moderador a determinados miembros del equipo. (Cuando la moderación está configurada, los propietarios del equipo reciben capacidades de moderador automáticamente). Los moderadores pueden controlar quién puede iniciar una nueva publicación en un canal, agregar y quitar moderadores, controlar si los miembros del equipo pueden responder a los mensajes de canal existentes y controlar si los bots y los conectores pueden enviar mensajes de canal. Para obtener más información, vea [configuración y administración de la moderación de canales en Microsoft Teams](manage-channel-moderation-in-teams.md).
+Considere la posibilidad de establecer la moderación del canal y dar capacidad de moderación a ciertos miembros del equipo. (Cuando se establece la moderación, los dueños de los equipos reciben automáticamente la capacidad de moderar.) Los moderadores pueden controlar quién puede iniciar un nuevo mensaje en un canal, añadir y eliminar moderadores, controlar si los miembros del equipo pueden responder a los mensajes existentes del canal y controlar si los bots y conectores pueden enviar mensajes del canal. Parara más información, consulte[Configurar y administrar la moderación de canales en Microsoft Teams](manage-channel-moderation-in-teams.md).
 
-### <a name="remove-accounts-that-might-not-belong"></a>Quitar cuentas que podrían no pertenecer
+### <a name="remove-accounts-that-might-not-belong"></a>Eliminar las cuentas que podrían no pertenecer
 
-Aunque los miembros no pueden abandonar un equipo de organización en toda la organización, como propietario de un equipo, puede administrar la lista de equipos eliminando las cuentas que no pertenecen. Asegúrese **de usar Teams para quitar usuarios del equipo de su organización**. Si usa otra forma de quitar un usuario, como el centro de administración de Microsoft 365 o un grupo en Outlook, el usuario podría volver a agregarse al equipo de toda la organización.
+Aunque los miembros no pueden dejar un equipo de toda la organización, como propietario del equipo, puede manejar la lista del equipo quitando las cuentas que no pertenecen ** Asegúrese de usar Teams para eliminar a los usuarios de su equipo de la organización**. Si usa otra forma de eliminar un usuario, como el Centro de administración de Microsoft 365 o de un grupo en Outlook, el usuario puede ser añadido de nuevo al equipo de la organización.
 
-## <a name="faq"></a>Preguntas frecuentes
+## <a name="faq"></a>Preguntas más frecuentes
 
-### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>¿Hay alguna forma de crear un equipo para toda la organización que no sea usar el cliente de Teams?
+### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>¿Hay alguna manera de crear un equipo de toda la organización aparte de usar el cliente de Teams?
 
-Los administradores globales solo pueden crear un equipo de organización a través del cliente de Teams. Si su organización limita la creación de Teams para usar PowerShell, la solución recomendada es agregar los administradores globales al grupo de seguridad de los usuarios que pueden crear un equipo. Si desea más información, consulte [Administrar quién puede crear grupos de Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups).
+Los administradores globales sólo pueden crear un equipo de toda la organización usando el cliente de Teams. Si su organización limita la creación de equipos al uso de PowerShell, la solución recomendada es agregar sus administradores globales al grupo de seguridad de usuarios que pueden crear un equipo. Para más información, consulte [Administrar quién puede crear Grupos de Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups).
 
-Si esta opción no es una opción, puede usar PowerShell para crear un equipo público y agregar un administrador global como propietario del equipo. Después, haga clic en el administrador global y en **más opciones** junto al nombre del equipo, haga clic en **Editar equipo**y cambie la privacidad a **toda la organización; todos los usuarios de la organización se agregarán automáticamente**. Tenga en cuenta que solo los propietarios del equipo pueden tener acceso a la opción **Editar equipo** y solo los administradores globales pueden ver la opción **en toda la organización** .
+Si esto no es una opción, puede usar PowerShell para crear un equipo público y agregar un administrador global como propietario del equipo. Luego, haga que el administrador global haga clic en **Más opciones** junto al nombre del equipo, haga clic en **Editar equipo**, y luego cambie la privacidad a **Toda la organización - Todos en su organización serán agregados automáticamente**. Tenga en cuenta que sólo los propietarios de los equipos pueden acceder a la opción **Editar equipo** y sólo los administradores globales pueden ver la opción **Toda la organización**.
 
-### <a name="is-there-a-way-to-convert-an-existing-team-to-an-org-wide-team"></a>¿Hay alguna forma de convertir un equipo existente en un equipo de toda la organización?
+### <a name="is-there-a-way-to-convert-an-existing-team-to-an-org-wide-team"></a>¿Hay alguna manera de convertir un equipo existente en un equipo de toda la organización?
 
-Los administradores globales pueden convertir un equipo existente en un equipo de organización mediante su edición en el cliente de Teams. Vaya al nombre del equipo y haga clic en **más opciones** > **Editar equipo**.
+Los administradores globales pueden convertir un equipo existente en un equipo de toda la organización editándolo en el cliente de Teams. Vaya al nombre del equipo, haga clic en**más opciones** > **Editar equipo**.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
-Vea un vídeo sobre cómo [crear un equipo de toda la empresa en Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
+Vea un video sobre la [creación de un equipo de toda la empresa en Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).

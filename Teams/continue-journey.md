@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ffbf676a86320fe3003d26dc94161d9e9e58c4d
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 41976649dec2509a9adfd472e7c382389250a4b4
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550917"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706450"
 ---
+# <a name="how-to-use-microsoft-teams-effectively"></a>Cómo usar Microsoft Teams de forma eficaz
+
 ![Diagrama de viaje de actualización, énfasis en la fase de excelencia operativa](media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa")
 
 Este artículo forma parte de la fase de excelencia operativa de su viaje de actualización, que comienza tan pronto como haya completado la actualización de Skype empresarial a teams.
-
-# <a name="how-to-use-microsoft-teams-effectively"></a>Cómo usar Microsoft Teams de forma eficaz
 
 La tecnología está innovando a un ritmo sin precedentes. Mantener la actualidad y habilitar un entorno de trabajo moderno se ha convertido en un estándar de funcionamiento de las organizaciones. Puesto que Microsoft Teams, Microsoft 365 y la visión inteligente de la comunicación de Microsoft continúan unfolding, disponer de un plan operativo le ayudará a asegurarse de que su organización está configurada para el éxito a largo plazo. Un plan operativo óptimo incluye la supervisión de su entorno para la salud y la calidad, el continuo impulso del usuario para optimizar la adopción y la planificación de nuevas funcionalidades que continuarán conectando a través del tiempo.
 

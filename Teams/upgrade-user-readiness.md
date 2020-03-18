@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad51dd4b269652ec1899b2af6ace6a9b7b9f713a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d52c9d670c81e0fcbdcf31012ec08a008b082459
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836800"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706690"
 ---
+# <a name="prepare-a-user-readiness-plan"></a>Preparar un plan de preparación del usuario
+
 ![Fases del viaje de actualización, resaltando la fase de preparación del usuario](media/upgrade-banner-user-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación del usuario")
 
 Este artículo forma parte de la fase de preparación del usuario de su viaje de actualización, una actividad que ha completado en paralelo con la fase de preparación técnica. Antes de continuar, confirme que ha completado estas actividades desde fases anteriores:
@@ -33,8 +35,6 @@ Este artículo forma parte de la fase de preparación del usuario de su viaje de
 - [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
 - [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-a-user-readiness-plan"></a>Preparar un plan de preparación del usuario
 
 Un plan de preparación de usuario óptimo incluye cómo comunicarse, entrenar y dar soporte técnico a los usuarios durante la fase piloto, la incorporación y la actualización a teams. Como descubriste en la evaluación de la disponibilidad de los [cambios de organización](https://aka.ms/OrgReadiness), la disponibilidad no se ajusta a todos. Para garantizar la integración óptima de la nueva tecnología, use una combinación de mensajería de alcance general (con los casos de mensajería de visión/valor y de uso universal) y mensajería, formación y soporte adaptados a los roles y cohorts que haya definido y también a su laggards, según corresponda. Este plan personalizado le ayudará a facilitar la adopción por parte de los usuarios al permitir que los usuarios se relacionen más rápidamente con los equipos, a la vez que demuestran sus necesidades.
 

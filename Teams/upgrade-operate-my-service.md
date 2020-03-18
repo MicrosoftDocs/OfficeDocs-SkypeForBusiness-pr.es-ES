@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e3ef345df2696cd0d450f8b16d93508d0eed545
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 6d9bcc5e00b9892bf8405eddb2ac24291a485d19
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863521"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706970"
 ---
+# <a name="operate-your-service"></a>Ejecutar los servicios
+
 ![Diagrama de viaje de actualización, énfasis en la fase de excelencia operativa](media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa")
 
 Este artículo forma parte de la fase de excelencia operativa de su viaje de actualización, que comienza tan pronto como haya completado la actualización de Skype empresarial a teams.
-
-# <a name="operate-your-service"></a>Ejecutar los servicios
 
 Este artículo proporciona una descripción general de los requisitos para que los equipos de su organización funcionen correctamente después de la actualización. Al funcionar correctamente los servicios de Teams, puede asegurarse de que está proporcionando una experiencia de alta calidad y confiable para su organización.
 

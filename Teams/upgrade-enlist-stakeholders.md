@@ -18,19 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b271dbfbb99508c26feb86cb7803b8eacdf73910
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5244bd063caae9b0fab1411f4644e3adbd337431
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837200"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42707000"
 ---
+# <a name="enlist-your-project-stakeholders"></a>Incorporar a las partes interesadas del proyecto
+
 ![Ilustración que muestra el estado de la parte interesada del viaje de actualización](media/upgrade-banner-stakeholders.png "Etapas del viaje de actualización, con énfasis en la recopilación del grupo de participantes del proyecto")
 
 Este artículo forma parte de la fase de participantes del proyecto de su viaje de actualización, la primera y más importante actividad que completa para el éxito del proyecto.
-
-
-# <a name="enlist-your-project-stakeholders"></a>Incorporar a las partes interesadas del proyecto
 
 Desde la implementación de las entregas del proyecto hasta el impulso de la responsabilidad, las partes interesadas mantienen la clave para el éxito de su proyecto. Existen dos grupos de participantes que desea asignar: (1) una Junta de _patrocinio_ que incluye patrocinadores ejecutivos y de proyecto que tienen un interés irrevocable e influirán en el éxito del proyecto, y (2) el _equipo del proyecto_, que consta de las personas responsables de garantizar la disponibilidad técnica y del usuario, que completarán las distintas tareas en el plan del proyecto. El subproceso común entre estos dos grupos es el _jefe de proyecto_, que funciona para garantizar que las tareas de Project se completan según lo programado y notifica el estado del proyecto a la Coalition.
 

@@ -18,16 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec60beb606224a5b202a03187027b8e3e002dfd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 52721d40e36dc017d9ba76473367d1c9c5e5b4e7
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833900"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706460"
 ---
+# <a name="conduct-a-user-pilot"></a>Llevar a cabo un piloto del usuario
+
 ![Diagrama de viaje de actualización, resaltado implementación e implementación](media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e implementación")
 
-Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización y comparte información para ejecutar un plan piloto eficaz. Antes de continuar, confirme que ha completado las actividades siguientes:
+Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización y comparte información para ejecutar un plan piloto eficaz. Antes de continuar, confirme que ha completado las siguientes actividades:
 
 - [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
 - [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
@@ -35,8 +37,6 @@ Este artículo forma parte de la fase de implementación e implementación de su
 - [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Preparado su entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Preparado para su organización](https://aka.ms/SkypeToTeams-UserReadiness)
-
-# <a name="conduct-a-user-pilot"></a>Llevar a cabo un piloto del usuario
 
 Al implementar nuevas tecnologías, su organización puede obtener valor para el negocio, como ahorro de costos, cumplimiento de seguridad, satisfacción de los empleados y eficacia operativa, pero también puede afectar la productividad y la infraestructura de la organización de sus usuarios ( su red). Antes de habilitar una nueva tecnología en toda la organización, lleve a cabo un proyecto piloto formal. Tal y como lo harías con un pequeño parche de color en una pared antes de pintar toda la habitación, probaría una amplia distribución a una escala menor llevando a cabo un plan piloto para validar la preparación técnica y del usuario, identificar y mitigar problemas y ayudar a garantizar una exitosa implementación en toda la organización.
 

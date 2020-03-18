@@ -19,16 +19,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c467fe63cee4681f2b758b264949cd931e3f901
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4957b22b7fe00ed756c1e81c6bb7c8e2e982720f
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045032"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706680"
 ---
+# <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Actualizar de Skype empresarial local a teams
+
 ![Actualizar diagrama de viaje, enfatizar implementación e implementación](media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e implementación")
 
-Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización. Antes de continuar, confirme que ha completado las actividades siguientes:
+Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización. Antes de continuar, confirme que ha completado las siguientes actividades:
 
 -   [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
 -   [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
@@ -37,8 +39,6 @@ Este artículo forma parte de la fase de implementación e implementación de su
 -   [Preparado su entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 -   [Preparado para su organización](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [Ha realizado una prueba piloto](https://aka.ms/SkypeToTeams-Pilot)
-
-# <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Actualizar de Skype empresarial local a teams
 
 Si ha implementado Skype empresarial Server o Microsoft Lync local y su organización quiere actualizar a Teams, siga las instrucciones de este artículo. Debe configurar la conectividad híbrida con el inquilino de Office 365 y determinar los requisitos de coexistencia si va a mover a los usuarios a Teams por fases. 
 
