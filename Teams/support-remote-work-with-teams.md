@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos de su organización a ser productivos con Microsoft Teams, especialmente cuando trabajan desde casa (WFH) en respuesta al ataque COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0786f7dac4339a5cfa83773010aa9a95ee957f51
-ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
+ms.openlocfilehash: a92d5b7eb75519f8123223fb1820e05d63c8f17a
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "42639437"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795983"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Dar soporte para trabajadores remotos con Microsoft Teams
 
@@ -100,7 +100,7 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
       - [Colaborar con Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
       - [ Trabajar a distancia con Office 365 ](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
-
+      
       - [9 consejos para trabajar a distancia](https://www.microsoft.com/tips/home/working-remotely)
 
       - [Sugerencias principales para trabajar de forma más segura desde casa](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
