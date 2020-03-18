@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 806a96db63ca0bbb44eb92ed6e84f8451069e725
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7ec2d9ede5fdd31070228995cefaa16a60ad6224
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035464"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796003"
 ---
 # <a name="teams-only-mode-considerations"></a>Consideraciones del modo Teams solo
 
@@ -49,8 +49,6 @@ Aunque miles de clientes se han actualizado correctamente a Microsoft Teams, hay
 
 **Consideraciones para todo el inquilino**: estamos trabajando en la habilitación de equipos en los siguientes entornos; sin embargo, por ahora, los administradores no deberían actualizar los usuarios de su organización si su inquilino de Skype empresarial está hospedado en uno de los siguientes entornos:
 
- - Nube de la comunidad de administración pública alta
- - La nube de la comunidad de administración pública DoD
  - Office 365 operado por 21Vianet
  - Office 365 Germany
  - El inquilino de Skype empresarial se hospeda en Corea del Sur **y** la organización requiere que los datos de Teams se almacenen en Corea del sur. Actualmente, las organizaciones con datos de Skype empresarial almacenados en Corea del sur que actualicen a teams tendrán sus datos de equipo almacenados en la región de Asia Datacenter, no en la región del centro de datos de Corea del sur.

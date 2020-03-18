@@ -3,7 +3,6 @@ title: Introducción a las plantillas de Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -19,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fef3357f938be0e9261d0b5459c9f6aa16942329
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 585d3241506dacf60eb02b1d7a3e97cb80357026
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837020"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796033"
 ---
 # <a name="get-started-with-teams-templates"></a>Introducción a las plantillas de Teams
 
@@ -77,9 +76,6 @@ De forma predeterminada, la plantilla base se establece en **estándar** , que n
 | Healthcare<br>Hacia |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canales <ul><li>Anuncios\*</li><li>Huddles\*</li><li>Hacia</li><li>Personal\*</li><li>Aprendizaje\*</li></ul>\*Canales favoritos automáticos |
 |Healthcare<br>Hospitales | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canales<ul><li>Anuncios\*</li><li>Respeto\*</li><li>Private</li><li>Recursos humanos</li></li><li>Pertenecie</li></ul>\*Canal de favoritos automáticos|
 |||
-
-> [!NOTE]
-> Agregaremos más tipos de plantillas base en las futuras versiones de Microsoft Teams, así que vuelva a consultar la información más actualizada sobre las propiedades admitidas.
 
 ## <a name="related-topics"></a>Temas relacionados
 
