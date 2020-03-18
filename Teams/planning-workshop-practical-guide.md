@@ -3,11 +3,10 @@ title: 'Herramientas y talleres: planificar, entregar y adoptar Microsoft Teams'
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/17/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: lolaj, rowille
+ms.reviewer: karuanag
 description: Herramientas de planificación, talleres y kits de introducción para ayudar a las organizaciones en sus primeros pasos con Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
@@ -15,12 +14,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 356ff815fe05a91f203778c0f6af255182ace35c
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 1ac7c61675c04d6d184a3b7fe14b4088f43bd2ef
+ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550907"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42840114"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Herramientas y talleres: planificar, entregar y adoptar Microsoft Teams
 
@@ -31,20 +30,25 @@ Descargue estas herramientas que le ayudarán en la planificación, la entrega y
 
     Este kit contiene una amplia variedad de presentaciones, plantillas de correo electrónico, sugerencias & trucos y pósters que puede usar para implementar y impulsar la adopción de equipos de su organización. Incluye dos guías de inicio rápido para administradores y responsables del equipo, y ejemplos de casos de uso para cada departamento. Use estos recursos para sacar el máximo partido de Teams para las distintas funciones de su organización, como marketing, ventas, finanzas, recursos humanos, ti, ingeniería y administración de proyectos.
 
+- [Cómo implementar Teams](How-to-roll-out-teams.md)
 
-- [Guía de inicio rápido para administradores](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
+    Siga nuestra ruta recomendada para distribuir Teams.
 
-    Este documento le guía por las cinco fases de la implementación para ayudarle a habilitar correctamente Microsoft Teams. Incluye un cuestionario técnico de planificación que captura información sobre el entorno actual de Office 365 de su organización. El Coordinador del taller puede usar esta información para personalizar la presentación del taller. El cuestionario también recoge información sobre sus decisiones y los pasos que se seguirán después del taller.
+- [Obtener formación técnica de Teams](https://aka.ms/TeamsAcademy)
 
-- [Taller: Planificar, entregar y usar Microsoft Teams](https://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)
-
-    Use esta presentación de PowerPoint para liderar un taller con su organización para planear el lanzamiento de Teams. El taller presenta Teams y guía a su equipo a través de los puntos de decisión y los pasos siguientes.
+    Use estos recursos de formación técnica para educarse, enseñar a otras personas o ejecutar talleres.
 
 - [Clientes gubernamentales de Office 365](plan-for-government-gcc.md)
 
-   Tu viaje a equipos es muy parecido a la experiencia de nuestros clientes empresariales. Puesto que Microsoft Teams está disponible para el público en general para sus inquilinos, le recomendamos que comience con nuestro [plan para el artículo de implementaciones de microsoft 365 Government-GCC](plan-for-government-gcc.md) y la [Guía de inicio rápido del administrador](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx). Nuestra visión general de [seguridad y cumplimiento](security-compliance-overview.md) le ayudará a sentirse seguro de los equipos de su entorno.
+   Tu viaje a equipos es muy parecido a la experiencia de nuestros clientes empresariales. A medida que los equipos estén disponibles para los inquilinos, le recomendamos que comience con nuestro [plan para el artículo de implementaciones de Microsoft 365 Government-GCC](plan-for-government-gcc.md) y la [Guía de inicio rápido del administrador](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx). Nuestra visión general de [seguridad y cumplimiento](security-compliance-overview.md) le ayudará a sentirse seguro de los equipos de su entorno.
 
-### <a name="see-also"></a>Vea también
+- [Teams para el ámbito educativo: Inicio rápido para administradores](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu)
+
+    Use este tutorial para guiarlo por un lanzamiento de Teams para su organización de educación.
+
+### <a name="see-also"></a>Consulte también
+
+[Formación de equipos](training-microsoft-teams-landing-page.md)
 
 [Preparación de administradores de TI para Microsoft Teams](ITAdmin-readiness.md)
 
@@ -54,6 +58,6 @@ Descargue estas herramientas que le ayudarán en la planificación, la entrega y
 
 [Mover usuarios locales a Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 
-[Administrar la configuración de Microsoft Teams para su organización](enable-features-office-365.md)
+[Administrar la configuración de Teams para la organización](enable-features-office-365.md)
 
 
