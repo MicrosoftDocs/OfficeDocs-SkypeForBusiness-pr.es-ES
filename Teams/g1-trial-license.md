@@ -12,14 +12,15 @@ localization_priority: Priority
 description: Para el gobierno de Estados Unidos, si no tiene Microsoft Teams y lo necesita urgentemente, implemente la Prueba de Office 365 G1 para los usuarios que necesiten trabajar de forma remota o desde casa (WFH) en respuesta al brote de COVID-19 (coronavirus).
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 388c3c30e9b4db2db6a21179829ca6ac40e00da0
-ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
+ms.openlocfilehash: a6ae8079ba3ccd498936c5d17740ea2e5bafb514
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42508205"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858725"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>Administrar la Prueba de Office 365 G1 para el gobierno de Estados Unidos 
 ==============================

@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b653acbe18d2247ccbf64a523fd237ca1415414
-ms.sourcegitcommit: ac811017d54a55f39ecc0e3a66a883d9e027ce68
+ms.openlocfilehash: b7d5ebd0552aafffe2eb2330e6945f99dd788b2f
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42547988"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858635"
 ---
 # <a name="assign-microsoft-teams-licenses-for-edu"></a>Asignar licencias de Microsoft Teams para EDU
 

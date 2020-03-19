@@ -15,12 +15,13 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: c8723236dd159101f953f7d63724403246f69407
-ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
+- Teams_ITAdmin_RemoteWorkers
+ms.openlocfilehash: 4f929e67ccf4c09caed23a751f0e547314af82f2
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "42639381"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858785"
 ---
 <div id="main" class="v2">
     <div class="container">
