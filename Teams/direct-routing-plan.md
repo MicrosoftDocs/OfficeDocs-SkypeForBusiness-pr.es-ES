@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lea este tema para obtener información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión compatible suministrado por el cliente (SBC) a Microsoft Phone System.
-ms.openlocfilehash: 347a8a7dd64831281c1c9e2f94f2bea24fb18555
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 0e15f8e76bc9512a28311764c39e34b45131b9d3
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160714"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858585"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -303,6 +303,25 @@ El intervalo de puertos de los procesadores multimedia se muestra en la tabla si
   > [!NOTE]
   > Microsoft recomienda al menos dos puertos por llamada simultánea en la SBC.
 
+
+## <a name="media-traffic-media-processors-geography"></a>Tráfico de medios: Geografía de los procesadores multimedia
+
+El tráfico multimedia fluye a través de componentes llamados procesadores multimedia. Los procesadores multimedia se colocan en los mismos centros de copia de los servidores SIP. Además, hay procesadores multimedia adicionales para optimizar el flujo de medios. Por ejemplo, no tenemos un componente de proxy SIP en Australia (SIP fluye a través de Singapur o Hong Kong), pero tenemos el procesador de medios de forma local en Australia. La necesidad de los procesadores de medios localmente viene determinada por la latencia que experimentamos enviando tráfico de larga distancia, por ejemplo, de Australia a Singapur o a Hong Kong. Aunque la latencia en el ejemplo de tráfico que fluye de Australia a Hong Kong o Singapur es aceptable para preservar una buena calidad de llamada para el tráfico SIP, no lo es para el tráfico de medios en tiempo real.
+
+Ubicación de los procesadores multimedia:
+
+Ubicaciones en las que se han implementado los componentes SIP y el procesador de medios:
+- Estados Unidos (dos en los centros de TI de oeste y Estados Unidos de EE. UU.)
+- Europa (Amsterdam y centros de TI de Dublin)
+- Centros de TI de Asia (Singapur y Hong Kong)
+
+Ubicaciones en las que solo se implementan los procesadores multimedia (el flujo SIP se realiza a través del centro de centros de recursos más cercano):
+- Japón (centro de recursos de JP Oriente y oeste)
+- Australia (centros de TI de AU Oriente y oeste)
+
+
+
+
 ## <a name="media-traffic-codecs"></a>Tráfico de medios: códecs
 
 ### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Segmento entre el procesador multimedia de la nube y la SBC entre el cliente de Microsoft Teams.
@@ -330,9 +349,6 @@ Los dispositivos que se han validado se enumeran como certificados para el enrut
 Para obtener más información sobre SBCs admitido, vea [lista de controladores de borde de sesión certificados para enrutamiento directo](direct-routing-border-controllers.md).
 
  
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Configurar el enrutamiento directo](direct-routing-configure.md)
-
-
-

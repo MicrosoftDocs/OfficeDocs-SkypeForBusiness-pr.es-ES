@@ -12,22 +12,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-f1.keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas en Microsoft Teams.
-ms.openlocfilehash: d73cd22cc0a98cd772ba3823fffa3649602010bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d7c0ded990225b969579f50ea5f87a32efebe388
+ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41772754"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42857987"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Administrar paquetes de directivas en Microsoft Teams
 
 Un paquete de directivas de Microsoft Teams es una colección de directivas y opciones de directiva predefinidas que puede asignar a los usuarios que tienen roles similares en su organización. Hemos creado paquetes de directivas para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios de toda la organización.  
 
 Cuando se asigna un paquete de directivas a los usuarios, se crean las directivas del paquete y, después, se puede personalizar la configuración de las directivas en el paquete para satisfacer las necesidades de la organización.
+
+Los paquetes de directivas no están disponibles para organizaciones de la comunidad de la nube de Estados Unidos (GCC).
 
 ## <a name="what-is-a-policy-package"></a>¿Qué es un paquete de directivas?
 
