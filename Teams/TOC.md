@@ -37,6 +37,7 @@
 ## [Información general sobre la pertenencia dinámica para los equipos](dynamic-memberships.md)
 ## [Procedimientos recomendados para organizar los equipos en Teams](best-practices-organizing.md)
 ## [Crear un equipo que abarque toda la organización en Teams](create-an-org-wide-team.md)
+## [Crear equipos de administrador de personas](create-manager-directs-teams.md)
 ## [Administrar las directivas de los equipos y los canales](teams-policies.md)
 ## [Etiquetas de confidencialidad de Teams](sensitivity-labels.md)
 ## [Administrar la detección de equipos privados en Teams](manage-discovery-of-private-teams.md)

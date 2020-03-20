@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a12be097d0609f3631b6761f31350603b283faa2
 ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41825358"
@@ -26,7 +26,7 @@ ms.locfileid: "41825358"
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Solucionar problemas de conectividad con el cliente de Microsoft Teams
 ==============================================================
 
-Es posible que la mayoría de los problemas detectados con el cliente de Microsoft Teams vuelvan a la conectividad de proxy o firewall. Comprobando que las direcciones URL, direcciones IP y puertos necesarios se abren en el firewall o proxy minimizará la solución de problemas. Para obtener información específica sobre las direcciones URL e IPs necesarias para Microsoft Teams, consulte el artículo [Office 365 URLs e](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) información sobre la compatibilidad con direcciones IP. Los siguientes escenarios requieren que se abran direcciones URL y puertos específicos en el firewall.
+La mayoría de los problemas detectados con el cliente de Microsoft Teams pueden estar relacionados con la conectividad del proxy o el firewall. Compruebe que las direcciones IP, URL y los puertos necesarios están abiertos en el firewall o el proxy. De esta forma evitará tener que resolver problemas innecesarios. Para obtener información específica sobre las direcciones IP y URL necesarias para Microsoft Teams, vea el artículo de soporte técnico [Dirección IP y URL de Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). En los escenarios siguientes es necesario abrir determinados puertos y direcciones URL en el firewall.
 
 -   Autenticación
 
@@ -34,7 +34,7 @@ Es posible que la mayoría de los problemas detectados con el cliente de Microso
 
 -   Colaboración
 
--   Medios
+-   Elementos multimedia
 
 -   Servicios compartidos
 

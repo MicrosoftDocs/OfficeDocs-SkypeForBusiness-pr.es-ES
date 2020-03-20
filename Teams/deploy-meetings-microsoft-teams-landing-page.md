@@ -12,16 +12,17 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77a935041cd0cdcb35a28e315ab48eadf6263273
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 00dab47ce695d542dcd9b7a30a1b289d0a804dea
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826888"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858605"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 
@@ -46,7 +47,7 @@ Antes de continuar con la implementación de reuniones en toda la organización,
 
 Para obtener la mejor experiencia en Teams, su organización debe haber implementado Exchange Online y SharePoint Online, y debe tener un dominio verificado para O365 (por ejemplo, *contoso.com*).
 
-Para implementar las reuniones en toda la organización, asegúrese de que todas las ubicaciones tienen acceso a internet para conectarse a los servicios de Office 365. Como mínimo, debería asegurarse de que los siguientes puertos comunes están abiertos a internet en todas las ubicaciones de usuarios:
+Para implementar las reuniones en toda la organización, asegúrese de que todas las ubicaciones tienen acceso a internet para conectarse a los servicios de Office 365. Como mínimo, debería asegurarse de que los siguientes puertos comunes están abiertos a Internet en todas las ubicaciones de usuarios:
 
 - Puertos TCP 80 y 443 salientes de los clientes que usarán Teams.
 - Puertos UDP de 3478 a 3481 salientes de los clientes que usarán Teams.
@@ -196,7 +197,7 @@ Teams ofrece dos formas para supervisar y solucionar problemas de calidad de lla
 
 ### <a name="operate-your-meetings-service"></a>Operar el servicio de reuniones
 
-Es importante que comprenda el estado general del servicio de Teams para que pueda avisar proactivamente a otros usuarios de su organización sobre cualquier evento que afecte al servicio. Los artículos [Operar mi servicio](1-drive-value-operate-my-service.md) proporcionan instrucciones detalladas para las operaciones de servicio.
+Es importante que comprenda el estado general del servicio de Teams para que pueda avisar proactivamente a otros usuarios de la organización sobre cualquier evento que afecte al servicio. Los artículos [Operar mi servicio](1-drive-value-operate-my-service.md) proporcionan instrucciones detalladas para las operaciones de servicio.
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
