@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c048e321241f4403fbb69f71e56b3fc179346951
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: a17b9ed78f484f593715a551fd11fa158bd6262a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327832"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892210"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar Microsoft Teams con Microsoft Endpoint Configuration Manager
 
@@ -75,17 +75,17 @@ Para obtener instrucciones detalladas sobre cómo implementar la aplicación de 
 
 ## <a name="clean-up-and-redeployment-procedure"></a>Procedimiento de limpieza y reimplementación
 
-Si un usuario desinstala Teams de su Perfil de usuario, el instalador MSI realizará un seguimiento para comprobar que el usuario ha desinstalado la aplicación Teams y que no vuelve a instalar Teams para ese Perfil de usuario. Para volver a implementar Teams para este usuario en un equipo concreto en el que se desinstaló, haga lo siguiente:
+Si un usuario desinstala equipos de su perfil de usuario, el instalador MSI realizará un seguimiento de que el usuario ha desinstalado la aplicación de Teams y ya no instalará Teams para ese perfil de usuario. Para volver a implementar Teams para este usuario en un equipo concreto en el que se desinstaló, haga lo siguiente:
 
-1. Desinstale la aplicación Teams instalada para todos los perfiles de usuario.
-2. Después de la desinstalación, elimine de forma recursiva el directorio `%localappdata%\Microsoft\Teams\`
+1. Desinstale la aplicación de Teams instalada para cada perfil de usuario.
+2. Después de la desinstalación, elimine el directorio de `%localappdata%\Microsoft\Teams\`forma recursiva.
 3. Vuelva a implementar el paquete MSI en ese equipo concreto.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Evite que Microsoft Teams se inicie automáticamente después de la instalación
 
 El comportamiento predeterminado del MSI es instalar la aplicación Teams en cuanto un usuario inicia sesión y, después, iniciar Teams automáticamente. Si no desea que Teams se inicie automáticamente para los usuarios una vez que se haya instalado, puede usar Directiva de grupo para establecer la configuración de una directiva o deshabilitar el inicio automático para el instalador MSI.
 
-#### <a name="use-group-policy-recommended"></a>Usar Directiva de grupo (recomendado)
+### <a name="use-group-policy-recommended"></a>Usar Directiva de grupo (recomendado)
 
 Habilite la opción de Directiva de Grupo **Evitar que Microsoft Teams se inicie automáticamente después de la instalación**. Puede encontrar esta opción de directiva en Configuración de usuario\Directivas\Plantillas administrativas\Microsoft Teams. Este es el método recomendado, ya que puede activar o desactivar la opción de directiva según las necesidades de su organización.
 
@@ -103,16 +103,18 @@ Puede deshabilitar el inicio automático para el instalador MSI mediante el par�
 Para la versión de 32 bits
 
 ```console
-msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 Para la versión de 64 bits
 
 ```console
-msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 Cuando un usuario inicia sesión en Windows, Teams se instala con el MSI y se añade un acceso directo para iniciar Teams en el escritorio del usuario. Teams no se iniciará hasta que el usuario inicie manualmente Teams. Después de que el usuario haya iniciado manualmente Teams, Teams se iniciará automáticamente cada vez que el usuario inicie sesión.
+
+Tenga en cuenta que estos ejemplos también usan el parámetro **ALLUSERS = 1** . Al establecer este parámetro, el instalador para todo el equipo se muestra en programas y características en el panel de control y en aplicaciones & características de configuración de Windows para todos los usuarios del equipo. Todos los usuarios pueden desinstalar Teams si disponen de credenciales de administrador en el equipo.
 
 > [!Note]
 > Si ejecuta el MSI manualmente, asegúrese de ejecutarlo con permisos elevados. Incluso si lo ejecuta como administrador, sin ejecutarlo con permisos elevados, el instalador no podrá configurar la opción de deshabilitar el inicio automático.

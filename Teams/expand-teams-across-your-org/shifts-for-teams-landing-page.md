@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 885d6e702a17e8254516a09fe8e26a89b6884a17
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9c548886eafede9ba4525fd9a17d2d7655f8c5a8
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008172"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892270"
 ---
 # <a name="shifts-for-teams"></a>Turnos para Teams
 
@@ -109,7 +109,7 @@ Teams proporciona a los trabajadores de los Firstline de su organización las he
         </a>
     </li>
     <li>
-        <a href="https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b">
+        <a href="https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
