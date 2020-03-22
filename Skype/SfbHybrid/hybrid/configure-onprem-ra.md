@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configure una cuenta de recursos para Skype empresarial Server 2019.
-ms.openlocfilehash: 9acd9df1d9c5372915ea51ff1b3b94e1f89c3311
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 14d2f161be54ac61c866597bdad141cf31138fbd
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113263"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892310"
 ---
 # <a name="configure-resource-accounts"></a>Configurar cuentas de recursos
 
@@ -32,7 +32,7 @@ Si tiene un operador automático de mensajería unificada de Exchange y un siste
 
 Si el operador automático del sistema telefónico o la cola de llamadas van a necesitar un número de servicio, se pueden cumplir las distintas dependencias en la secuencia siguiente:
 
-1. Obtener un número de servicio
+1. Obtener un número de servicio.
 2. Obtenga una licencia de sistema telefónico gratuita para el [usuario](/MicrosoftTeams/teams-add-on-licensing/virtual-user) o una licencia de sistema telefónico de pago para usarla con la cuenta de recursos.
 3. Cree la cuenta de recurso. Un operador automático o cola de llamadas debe tener una cuenta de recurso asociada.
 4. Espere a que se sincronice Active Directory entre las instalaciones en línea y locales.
@@ -71,7 +71,7 @@ La creación de una cuenta de recursos que use un número de teléfono requerir�
 3. Cree una cuenta de recursos local mediante la ejecución del `New-CsHybridApplicationEndpoint` cmdlet para cada operador automático del sistema telefónico o cola de llamadas, y asigne a cada uno de ellos un nombre, una dirección SIP, etc.
 
     ``` Powershell
-    New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+    New-CsHybridApplicationEndpoint -ApplicationID <GUID> -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
     Vea [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) para obtener más información sobre este comando.
@@ -103,12 +103,12 @@ La creación de una cuenta de recursos que use un número de teléfono requerir�
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
-La cuenta de recurso necesitará un número de teléfono asignado si se va a asignar a un operador automático de nivel superior o a una cola de llamadas. Los números de teléfono de usuario (suscriptor) no se pueden asignar a una cuenta de recursos; solo se pueden usar números de teléfono de servicio de pago o gratuitos.
+   La cuenta de recurso necesitará un número de teléfono asignado si se va a asignar a un operador automático de nivel superior o a una cola de llamadas. Los números de teléfono de usuario (suscriptor) no se pueden asignar a una cuenta de recursos; solo se pueden usar números de teléfono de servicio de pago o gratuitos.
 
-  Puede asignar un número híbrido de enrutamiento directo a su cuenta de recursos.  Consulte [plan Direct Routing](/MicrosoftTeams/direct-routing-plan) para obtener más información.
+     Puede asignar un número híbrido de enrutamiento directo a su cuenta de recursos. Para obtener información detallada, consulte [plan Direct Routing](/MicrosoftTeams/direct-routing-plan).
 
-  > [!NOTE]
-  > Los números del servicio de enrutamiento directo asignados a las cuentas de recursos para el operador automático y las colas de llamadas solo se admiten para los usuarios y agentes de Microsoft Teams.
+     > [!NOTE]
+     > Los números del servicio de enrutamiento directo asignados a las cuentas de recursos para el operador automático y las colas de llamadas solo se admiten para los usuarios y agentes de Microsoft Teams.
 
 7. Cree el operador automático o la cola de llamadas del sistema telefónico. Vea una de las opciones siguientes:
 
@@ -191,11 +191,11 @@ La migración de la mensajería unificada de Exchange al sistema telefónico nec
 
    En este punto, si ya ha migrado el correo de voz de mensajería unificada, debe estar en una ubicación para migrar a Exchange Server 2019.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 [Crear una cola de llamadas en la nube](/MicrosoftTeams/create-a-phone-system-call-queue)
 
-[¿Qué son los operadores automáticos de la nube?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
+[¿Qué son los operadores automáticos en la nube?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
 
 [Configurar un operador automático en la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 

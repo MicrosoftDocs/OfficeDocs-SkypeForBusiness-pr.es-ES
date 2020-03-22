@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos de su organización a ser productivos con Microsoft Teams, especialmente cuando trabajan desde casa (WFH) en respuesta al ataque COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7476328c6f0acfcaf812e2f4f75bc9c59f51b21
-ms.sourcegitcommit: 45bbec77370ed44ba069790086541a914800ae5a
+ms.openlocfilehash: 85fc97c801495c05a4b5a8f68fe508ef7a7b08af
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42866585"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892340"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Dar soporte para trabajadores remotos con Microsoft Teams
 
@@ -62,7 +62,9 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
 
 ## <a name="additional-resources-for-supporting-remote-workers"></a>Recursos adicionales para dar soporte a los trabajadores remotos
 
-1. Lea las [Preguntas más frecuentes: soporte técnico para los empleados remotos](FAQ-support-remote-workforce.md) que actualizamos periódicamente.
+1. Lea las [preguntas más frecuentes: soporte técnico para los empleados remotos](FAQ-support-remote-workforce.md), que se actualizan de forma periódica.
+
+1. Lea nuestra entrada del blog del 6 de marzo de 2020, [Cómo Microsoft permite a sus empleados trabajar de forma remota con Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/).
 
 1. Microsoft Teams para el ámbito educativo
    - Si trabaja en el ámbito educativo y quiere configurar profesores, alumnos y administradores en Teams, use Office 365 A1. Esta es la versión gratuita de Office 365 que está disponible para las instituciones educativas. Regístrese en [Obtener Office 365 de forma gratuita para todo un centro educativo](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)
@@ -108,6 +110,8 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
       - [9 consejos para trabajar a distancia](https://www.microsoft.com/tips/home/working-remotely)
 
       - [Sugerencias principales para trabajar de forma más segura desde casa](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
+
+      - Satya Nadella y Teams Directora de Marketing de Aya el vídeo de la espiga información acerca de [usar Teams para trabajar](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1) de forma remota (20 de marzo de 2020)
 
 
 3.  Anime a todos los usuarios a [instalar](get-clients.md#mobile-clients) y usar la aplicación móvil:[iOS](https://go.microsoft.com/fwlink/?LinkId=835758) o [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168).

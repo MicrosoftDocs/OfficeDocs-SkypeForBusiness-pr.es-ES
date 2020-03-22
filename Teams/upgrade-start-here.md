@@ -28,47 +28,47 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d9f45ba60aeaff37f77769966ed97f50aec2950a
 ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/15/2020
 ms.locfileid: "42045052"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Introducción a su actualización de Microsoft Teams
 
-Enhorabuena por la actualización pendiente de Skype Empresarial a Microsoft Teams. Ya sea que recién comienza o que ya está usando Teams junto con Skype Empresarial o listo para mejorar, queremos asegurarle de que tiene todo lo necesario navegar por un existoso viaje a Teams.
+Enhorabuena por la actualización pendiente de Skype Empresarial a Microsoft Teams. Ya sea que recién esté comenzando con Teams, que ya esté usando Teams junto con Skype Empresarial, o que esté listo para actualizar, queremos asegurarnos de que tenga todo lo que necesita para un exitoso viaje a Teams.
 
-Si va a actualizar de Skype empresarial online a teams o de un entorno local de Skype empresarial a Teams, el marco de actualización le guiará a través del proceso en función de su situación empresarial.
+Si está actualizando Skype Empresarial online a Teams o de un entorno local de Skype Empresarial a Teams, el marco de actualización le guiará a través del proceso basado en su escenario empresarial.
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>¿Por qué actualizar a Microsoft Teams?
 
-Microsoft Teams amplía las capacidades de Skype empresarial y reúne chats, reuniones, llamadas, colaboración, integración de aplicaciones y almacenamiento de archivos en una sola interfaz. Este nuevo concentrador central para el trabajo en equipo puede ayudar a simplificar la manera en que los usuarios hacen las cosas, mejorar la satisfacción del usuario y acelerar los resultados del negocio. Continuamente ampliamos las capacidades de los equipos para permitirle comunicarse y colaborar de nuevas maneras, dividir las barreras geográficas y organizacionales, y impulsar la eficacia en el proceso y la toma de decisiones. Obtenga más información sobre las ventajas de la actualización a teams en el informe de Forrester: [impacto económico total de Microsoft Teams](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf).  
+Microsoft Teams amplía las funciones de Skype empresarial, al reunir chat, reuniones, llamadas, colaboración, integración de aplicaciones y almacenamiento de archivos en una sola interfaz. Este nuevo eje central para trabajo en equipo puede ayudar a simplificar la forma en que los usuarios hacen las cosas, mejorando la satisfacción del usuario y acelerando los resultados de la empresa. Continuamente ampliamos las capacidades de los equipos para que puedan comunicarse y colaborar de nuevas maneras, romper las barreras organizativas y geográficas, e impulsar la eficiencia en los procedimientos y la toma de decisiones. Obtenga más información sobre las ventajas de actualizar a equipos en el informe de Forrester: [impacto económico total de Microsoft Teams](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf).  
 
-## <a name="when-should-my-organization-upgrade-to-teams"></a>¿Cuándo debería mi organización actualizar a teams?
+## <a name="when-should-my-organization-upgrade-to-teams"></a>¿Cuándo debo actualizar mi organización a los equipos?
 
-Skype Empresarial Online se retirará el 31 de julio de 2021, momento a partir del cual ya no será posible obtener acceso a este soporte. Aunque el servicio de Skype empresarial online funcionará completamente el 31 de julio de 2021, Microsoft recomienda a los clientes que comiencen el viaje de actualización hoy, lo que permite completar la actualización antes de la fecha de retiro.  Para obtener más información, consulta nuestro [anuncio de jubilación](https://aka.ms/sfboannounce) .
+Skype Empresarial Online se retirará el 31 de julio de 2021, momento a partir del cual ya no será posible obtener acceso a este soporte. Aunque el servicio de Skype empresarial online funcionará en su totalidad hasta el 31 de julio de 2021, Microsoft recomienda a los clientes que empiecen el trayecto actual, lo que permite llevar a cabo el tiempo suficiente para completar la actualización anterior a la fecha de retiro.  Lea nuestro [anuncio de jubilación](https://aka.ms/sfboannounce) para obtener más información.
 
-## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>¿Podemos seguir usando Skype empresarial online a medida que preparamos y ejecutamos nuestra actualización a teams?
+## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>¿Podemos seguir usando Skype empresarial online a medida que preparemos y ejecutemos nuestra actualización para los equipos?
 
-Sí, Microsoft ofrece varias opciones para ejecutar Skype empresarial online y Teams a la vez. Estos modos de coexistencia permiten a los usuarios familiarizarse con Teams hoy mismo mientras ayudan a acelerar la actualización a teams. Para obtener más información, [https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist)consulte.
+Sí, Microsoft ofrece varias opciones para ejecutar Skype empresarial online y equipos conjuntamente. Estos modos de coexistencia permiten a los usuarios familiarizarse con Teams actuales mientras se acelera la actualización solo a Teams. Para obtener más información, consulte [https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist).
  
-## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>¿Cómo ayuda Microsoft a los clientes a actualizar a teams? 
+## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>¿Cómo ayuda Microsoft a los clientes con la actualización a los equipos? 
 
-Microsoft se compromete a ayudar a mejorar la transición de Skype empresarial a los equipos. Microsoft proporciona una orientación sólida creada a partir de un marco de trabajo de actualización completo, completo, diseñado para ayudarle a planear y ejecutar la actualización a teams. Nuestra guía está diseñada para cada etapa del viaje de actualización, ya sea para empezar a planificar, ya está ejecutando equipos con Skype empresarial o listo para actualizar a teams.
+Microsoft se compromete a ayudar a que la transición de Skype empresarial a Teams sea un éxito. Microsoft está ofreciendo una guía robusta basada en un marco de éxito de actualización de extremo a extremo diseñado para ayudarle a planificar y ejecutar la actualización a Teams. Nuestra guía se ha diseñado para cada etapa del trayecto de la actualización, tanto si está empezando por la planificación, ya en ejecución de Teams con Skype empresarial, o bien si está preparado para actualizar a Teams.
 
-Para facilitar la planeación y la implementación de la actualización, Microsoft está alojando talleres de planeación de actualizaciones interactivas y complementarios, diseñados para familiarizarse con nuestro marco de actualización, compartir perspectivas para preparar a los usuarios para el Actualice e identifique la ruta adecuada para su organización en su viaje a teams. Únase a nosotros en una sesión de información general [https://aka.ms/SkypeToTeamsPlanning](https://aka.ms/SkypeToTeamsPlanning)sobre planes de actualización:.
+Para facilitar la planeación de la actualización y la implementación, Microsoft aloja talleres de planificación de actualización interactivos gratuitas, diseñados para familiarizarse con nuestro marco de actualización, compartir información en la preparación de los usuarios para el Actualice e identifique la ruta adecuada para su organización en el trayecto para los equipos. Únase a nosotros en una actualización de la sesión de información general de planificación: [https://aka.ms/SkypeToTeamsPlanning](https://aka.ms/SkypeToTeamsPlanning).
  
-## <a name="why-do-i-need-upgrade-guidance-cant-i-just-deletedecommission-skype-for-business"></a>¿Por qué necesito la guía de actualización? ¿No puedo simplemente eliminar o retirar Skype empresarial? 
+## <a name="why-do-i-need-upgrade-guidance-cant-i-just-deletedecommission-skype-for-business"></a>¿Por qué necesito instrucciones de actualización? ¿Solo puedo eliminar o retirar Skype empresarial? 
 
-La actualización de Skype empresarial a teams es algo más que una migración técnica. Representa una transformación de cómo los usuarios se comunican y colaboran, y cambiar no es siempre fácil. El enfoque de actualización ideal debe abordar los aspectos técnicos de su actualización, así como alentar la aceptación y la adopción de equipos, impulsar una experiencia de usuario y un resultado de la actividad positivos. 
+Actualizar de Skype empresarial a equipos es más que una migración técnica. Representa una transformación en la forma en que los usuarios se comunican y colaboran, y los cambios no siempre son fáciles. El método de actualización ideal debe dirigirse a los aspectos técnicos de la actualización y animar a los usuarios a obtener una experiencia de usuario y resultados de la empresa. 
 
-## <a name="where-do-i-start-planning-for-teamsmy-upgrade-to-teams"></a>¿Dónde puedo empezar a planear Teams/mi actualización a teams? 
+## <a name="where-do-i-start-planning-for-teamsmy-upgrade-to-teams"></a>¿Dónde puedo empezar a planear equipos y mi actualización a Teams? 
 
-Para comenzar el viaje, familiarícese con nuestro marco de actualización correcta y los recursos relacionados. Esta guía constituye la piedra angular para navegar por el viaje de Skype empresarial a teams.
+Empiece su viaje y familiarícese con la estructura de la actualización y los recursos asociados. Esta guía sirve como piedra angular para navegar por el trayecto de Skype empresarial a Teams.
 
-[Obtenga más información sobre el marco de actualización](upgrade-framework.md) y únase a nosotros en una sesión de [información general](https://aka.ms/SkypeToTeamsPlanning) sobre el planeamiento de actualizaciones en vivo.
+[Obtenga más información sobre la estructura de actualización ](upgrade-framework.md) y únase a nosotros en la [sesión de información general de planificación de actualización dinámica](https://aka.ms/SkypeToTeamsPlanning).
 
 > [!IMPORTANT]
-> Recuerde que una actualización correcta asegura la disponibilidad técnica y para el usuario, así que asegúrese de aprovechar las instrucciones de este documento a medida que navega por Microsoft Teams.
+> Recuerde que una actualización correcta garantiza el uso técnico y el de los usuarios, así que asegúrese de que aprovecha las instrucciones que se muestran en este documento mientras navega por Microsoft Teams.
 
 > [!Tip]
 > Vea las siguientes sesiones para obtener información sobre la Actualización de Skype Empresarial a Microsoft Teams:

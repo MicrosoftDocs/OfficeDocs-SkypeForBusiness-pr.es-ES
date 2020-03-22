@@ -1,5 +1,5 @@
 ---
-title: Usar el Asesor de Teams (versión preliminar) para ayudar a implementar Microsoft Teams
+title: Usar el Asesor de Teams (versión preliminar pública) para ayudar a implementar Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 ms.reviewer: brandber
@@ -17,19 +17,19 @@ localization_priority: Priority
 f1.keywords:
 - CSH
 ms.custom: ''
-description: Use el Asesor de Teams (versión preliminar) para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: ef78352df9d678d9f14dff246c3a363de755b539
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+description: Use el Asesor de Teams (versión preliminar pública) para ayudar a planear y completar la implementación de Microsoft Teams.
+ms.openlocfilehash: 17fac0b4f4c974f72eccc7d0c11ae6b27337afef
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795853"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892290"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-El Asesor de Teams (versión preliminar) le guiará a través de la implementación de Microsoft Teams. Evalúa el entorno del inquilino de Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente Teams. Después, el Asesor de Teams crea un Equipo de implementación (en Teams), con canales para cada una de las cargas de trabajo que desea implementar. Cada carga de trabajo en el Equipo de implementación viene con un plan de Planner completo que incluye todas las tareas de implementación para cada carga de trabajo.  Con este plan de Planner, podrá asignar las tareas a las personas responsables de cada fase del lanzamiento, (incluyendo el jefe de proyecto, administradores de Teams y Office 365, personal de soporte técnico, y su equipo de adopción y preparación del usuario). Cada tarea de implementación contiene todos los recursos e instrucciones que necesita para completar la tarea con éxito.
+El Asesor de Teams (versión preliminar pública) le guiará a través de la implementación de Microsoft Teams. Evalúa el entorno del inquilino de Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente Teams. Después, el Asesor de Teams crea un Equipo de implementación (en Teams), con canales para cada una de las cargas de trabajo que desea implementar. Cada carga de trabajo en el Equipo de implementación viene con un plan de Planner completo que incluye todas las tareas de implementación para cada carga de trabajo.  Con este plan de Planner, podrá asignar las tareas a las personas responsables de cada fase del lanzamiento, (incluyendo el jefe de proyecto, administradores de Teams y Office 365, personal de soporte técnico, y su equipo de adopción y preparación del usuario). Cada tarea de implementación contiene todos los recursos e instrucciones que necesita para completar la tarea con éxito.
 
 El Asesor de Teams forma parte del [centro de administración de Teams](https://admin.teams.microsoft.com). Como mínimo, necesitarás una licencia de Office 365 Empresa Essentials para poder aprovechar la integración del asesor de Teams con formularios y planificador. Para empezar a utilizar el asesor para Teams, haga clic en el botón **Inicio** en el widget **implementar Teams de carga** de trabajo en el panel. O vaya a **Planificar** > **Asesor para Teams**.
 
@@ -38,7 +38,7 @@ El Asesor de Teams forma parte del [centro de administración de Teams](https://
 
 Para obtener una visión general guiada de la experiencia del asesor de Teams, consulte el vídeo [Implementar y configurar Microsoft Teams](https://youtu.be/o2mlsUubIO4?t=50)de Microsoft Mechanics.
 
-## <a name="using-advisor-for-teams-preview"></a>Usando el Asesor de Teams (versión preliminar)
+## <a name="using-advisor-for-teams-public-preview"></a>Usando el Asesor de Teams (versión preliminar pública)
 
 **Se necesitan licencias de Teams, de Forms y de Planner para usar el Asesor para Teams.** Sin embargo, no es necesario ser un administrador de Teams para usar el Asesor de Teams: cualquier usuario de su organización puede hacerlo. Hemos establecido permisos especiales para que los usuarios que no sean administradores puedan ir al Asesor de Teams, aunque esté en el centro de administración de Teams. Usted tiene que ser un administrador de Teams, un administrador de servicio de Teams o un administrador global para abrir las evaluaciones de preparación del inquilino (esto se debe a que los roles especiales no administrativos no tienen acceso a las APIs de Microsoft Graph subyacentes a las evaluaciones).
 
@@ -52,7 +52,7 @@ La primera vez que utilice el asesor para Teams, creará un equipo de implementa
 
 ## <a name="available-advisor-for-teams-plans"></a>Asesor disponible para los planes de Teams
 
-Mientras que un asesor de Teams está en la vista previa, ofrecemos los dos planes siguientes:
+Aunque asesor para equipos se encuentra en la versión preliminar pública, ofreceremos los dos siguientes planes:
 
 1. Chat, equipos, canales y aplicaciones
     - Evaluación de los inquilinos
@@ -74,7 +74,7 @@ Cada plan incluye una evaluación de la preparación de los inquilinos que usted
 - <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>Un triángulo de advertencia naranja significa que te sugerimos que hagas un seguimiento para determinar si es necesario realizar alguna acción (por ejemplo, se recomienda, pero no es necesario, una política de caducidad del Grupo Office 365).
 
 > [!IMPORTANT]
-> Una vez que un usuario con un rol administrativo inicia el asesor para Teams, todas las evaluaciones se ejecutan en segundo plano. Si actualiza o repara algo, es posible que no se refleje en sus evaluaciones durante un máximo de 24 horas. Esto es temporal: tan pronto como asesor para Teams salga de la vista previa y esté disponible en general, las evaluaciones se actualizarán casi en tiempo real.
+> Una vez que un usuario con un rol administrativo inicia el asesor para Teams, todas las evaluaciones se ejecutan en segundo plano. Si actualiza o repara algo, es posible que no se refleje en sus evaluaciones durante un máximo de 24 horas. Este es un caso provisional: tan pronto como asesor para Teams deja la versión preliminar pública y está disponible en general, las evaluaciones se actualizarán casi en tiempo real.
 
 Las siguientes secciones describen cada evaluación, incluyendo si algo es un requisito previo o mejores prácticas, qué es lo que cada evaluación está haciendo y por qué, y orientación para remediarlo según sea necesario.
 
@@ -133,7 +133,7 @@ Una vez que asesor para Teams crea su equipo de implementación, el bot asesor e
 Como mínimo, necesitará Office 365 Business Essentials para poder aprovechar la integración del asesor de Teams con los formularios y el planificador.
 
 ### <a name="can-i-delete-the-deployment-team"></a>¿Puedo eliminar el equipo de implementación?
-Cuando el Asesor de Teams haya creado el Equipo de implementación, administrará el equipo como cualquier otro, con la posibilidad de eliminarlo. Tenga en cuenta que, si no elimina el equipo utilizando el centro de administración de equipos, el centro de administración de equipos mostrará que el equipo sigue existiendo. Esto es temporal: se arreglará cuando el asesor de Teams abandone el período de previsualización y esté disponible de forma general.
+Cuando el Asesor de Teams haya creado el Equipo de implementación, administrará el equipo como cualquier otro, con la posibilidad de eliminarlo. Tenga en cuenta que, si no elimina el equipo utilizando el centro de administración de equipos, el centro de administración de equipos mostrará que el equipo sigue existiendo. Este es un caso provisional: se corregirá cuando asesor para Teams abandone el período de versión preliminar pública y esté disponible para el público general.
 
 ### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>¿Puedo agregar o quitar canales en el Equipo de implementación?
 Sí, una vez que se haya creado el Equipo de implementación, podrá administrar los canales de la misma forma que lo haría con cualquier otro equipo.
