@@ -12,14 +12,15 @@ localization_priority: Priority
 description: Si no tiene Microsoft Teams y lo necesita de urgencia, distribuya la Prueba de Office 365 E1 a los usuarios que necesiten trabajar de forma remota o desde casa (WFH) como respuesta al ataque COVID-19 (coronavirus).
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99be01a1a9c59a06e4c92973187c1818d1b1a99
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 62b4add4e3371604478c8a49cc6690000d699f65
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795963"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858775"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Administrar la Prueba de Office 365 E1
 ==============================
@@ -33,6 +34,9 @@ No se pierda todas nuestras instrucciones para el [soporte para los trabajadores
 ## <a name="how-to-get-an-e1-trial-license"></a>Cómo obtener una licencia de Prueba de E1
 
 Póngase en contacto con su representante de cuentas Microsoft. Recibirá un código de promoción que puede usar para registrarse en la versión de Prueba de E1. 
+
+Para las organizaciones que son atendidas por un partner de Microsoft, trabaje con su partner para obtener una prueba gratuita de Teams por 6 meses. Si aún no tiene un partner de Microsoft y le gustaría trabajar con uno, vaya a [Microsoft Solution Providers](https://www.microsoft.com/solution-providers/home) y busque asociados con experiencia en Teams.
+
 
 ## <a name="how-to-sign-up-for-e1"></a>Cómo registrarse en E1
 
