@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42f0ec656036849aa87d9d4e7e092f4b5d3a505f
-ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
+ms.openlocfilehash: d85bb4ba32bf83d3c774a2b6700a96c7e35dcb2a
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "42639467"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42935237"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams 
 
 ## <a name="network-requirements"></a>Requisitos de red
 
-Si ya ha [optimizado su red para Office 365](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity), es probable que esté listo para usar Microsoft Teams. En cualquier caso, compruebe lo siguiente antes de empezar el lanzamiento de Teams:
+Si ya ha [optimizado su red para Office 365](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity), es probable que esté listo para usar Microsoft Teams. En cualquier caso, y especialmente si va a implementar los equipos rápidamente como su primera carga de trabajo de Office 365 para admitir **trabajadores remotos** , compruebe lo siguiente antes de comenzar con el lanzamiento de su equipo:
 
 1.  ¿Todas las ubicaciones tienen acceso a Internet (para que puedan conectarse a Office 365)? Como mínimo, además del tráfico normal de la web, asegúrese de que ha abierto lo siguiente, para todas las ubicaciones, para multimedia en Teams:
 
