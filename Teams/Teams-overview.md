@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9587244483bf220324a24396e5719843ba0ebc3c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 8fe24de92f46b5850edc9fe6631bb02a03be8bcb
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834800"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928263"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bienvenido a Microsoft Teams
 Si es administrador de Microsoft Teams en su organización, ahora está en el lugar adecuado. Cuando esté listo para comenzar a usar Teams, empiece por [Cómo implementar Teams](How-to-roll-out-teams.md).
@@ -59,7 +59,12 @@ Para personalizar y ampliar Teams, agregue aplicaciones de terceros mediante [ap
 
 ## <a name="managing-teams"></a>Administración de Teams
 
-Como administrador, administrará Teams a través del centro de administración de Microsoft Teams. Para obtener más información:
+Como administrador, administrará Teams a través del centro de administración de Microsoft Teams. Para obtener una orientación rápida, vea Administrar Teams con el vídeo del centro de administración de Teams (3:03 min):
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
+
+Para obtener más información:
+
 - [Usar roles de administrador para administrar Teams](using-admin-roles.md)
 - [Administrar Teams en el Centro de administración de Teams](manage-teams-skypeforbusiness-admin-center.md)
 - [Administrar Teams durante la transición al nuevo Centro de administración de Teams](manage-teams-in-modern-portal.md)
@@ -73,7 +78,7 @@ Teams es el cliente principal para las comunicaciones inteligentes en Office 365
 Si utiliza Skype Empresarial y ya está listo para actualizar a Teams, o si utiliza Skype Empresarial y Teams en paralelo y ya está listo para realizar el paso completo a Teams, tenemos herramientas, consejos y guías que le ayudarán a lograr una transición perfecta. Para obtener más información, consulte [Actualizar a Teams](upgrade-start-here.md).
 
 ## <a name="teamwork-and-office-365"></a>Trabajo en equipo con Office 365
-Cada equipo es diferente; no existe un enfoque de talla universal para la colaboración. Office 365 está diseñado para cumplir las demandas exclusivas de cada equipo y facilita que los usuarios puedan comunicarse, colaborar y lograr más objetivos con sus aplicaciones integradas y diseñadas específicamente.
+Cada equipo es diferente; no existe un enfoque universal para la colaboración. Office 365 está diseñado para cumplir las demandas exclusivas de cada equipo y facilita que los usuarios puedan comunicarse, colaborar y lograr más objetivos con sus aplicaciones integradas y diseñadas específicamente.
 
 Cuando decida qué aplicaciones y servicios de Office 365 va a usar, piense en el trabajo que realiza su organización y los tipos de conversaciones que deben tener los equipos. 
 

@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos de su organización a ser productivos con Microsoft Teams, especialmente cuando trabajan desde casa (WFH) en respuesta al ataque COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85fc97c801495c05a4b5a8f68fe508ef7a7b08af
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 844aef84633c767131b60158e634b0f6f3fe1cd2
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892340"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928413"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Dar soporte para trabajadores remotos con Microsoft Teams
 
@@ -77,6 +77,8 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
 
    - El ancho de banda limitado puede afectar a la calidad de audio en las reuniones de Teams. Para garantizar una mejor experiencia de reunión en condiciones de poco ancho de banda, Anime a los usuarios a limitar el vídeo y usar PSTN para las llamadas y el audio de la reunión. 
 
+   - Lea este blog (6 de marzo de 2020), [Cómo optimizar rápidamente el tráfico de Office 365 para el personal remoto y reducir la carga de su infraestructura](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571).
+   
    - Si está en China, vea la [Optimización de rendimiento global de espacios empresariales de Office 365 para usuarios de China](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
 
    - Si necesita ayuda para solucionar o corregir problemas de calidad de las llamadas o reuniones, siga las instrucciones que se indican al final de este artículo en la sección [Problema conocido (China): Llamadas a las identificaciones de las conferencias de Skype Empresarial o Teams](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids).

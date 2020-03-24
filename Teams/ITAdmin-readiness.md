@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 217f099fb773d3f8468e214c2e1e9ef33990d816
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 2794891da78e8b8028bc18d82715a27d5c2eb78d
+ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858345"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42937614"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
@@ -105,7 +105,7 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 | Llamadas de emergencia dinámicas | [Vídeo](https://aka.ms/teams-dec) |  [Presentación de diapositivas](https://aka.ms/teams-dec-deck) |
 | Eventos en directo | [Vídeo](https://aka.ms/teams-live-events-session) | [Presentación de diapositivas](https://aka.ms/teams-live-events-deck) |
 | Introducción al Sistema telefónico | [Vídeo](https://aka.ms/teams-phone-system) | [Presentación de diapositivas](https://aka.ms/teams-phone-system-deck) |
-| Enrutamiento directo | [Vídeo](https://aka.ms/teams-direct-routing) | [Presentación de diapositivas](https://aka.ms/teams-direct-routing-deck) |
+| Enrutamiento directo | [Vídeo 1: planificación del enrutamiento directo en Teams](https://aka.ms/teams-dr-plan)<br>[Vídeo 2: configuración y administración del enrutamiento directo en Teams](https://aka.ms/teams-dr-config)<br>Vídeo 3: migrar al enrutamiento directo en Teams: <strong> <font color="#4B53BC">próximamente</font></strong>  | [Presentación de diapositivas](https://aka.ms/teams-direct-routing-deck) |
 | Actualización de Skype Empresarial a Teams | [Vídeo 1: Introducción a la actualización](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: Planificar la actualización](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: Coexistencia e interoperabilidad](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: Experiencia del administrador](https://aka.ms/teams-upgrade-admin) | [Presentación de diapositivas](https://aka.ms/teams-upgrade-deck)|
 
 <h2>Guías de inicio rápido</h2>

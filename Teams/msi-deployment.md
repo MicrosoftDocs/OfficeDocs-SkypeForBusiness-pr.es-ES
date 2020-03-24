@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a17b9ed78f484f593715a551fd11fa158bd6262a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 084f6d4587bc279c4387cf44b8ed29d38d51d4a6
+ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892210"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42937604"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar Microsoft Teams con Microsoft Endpoint Configuration Manager
 
 > [!Tip]
-> Vea la siguiente sesión para conocer las ventajas del cliente de escritorio para Windows y cómo planearlo e implementarlo: [Cliente de escritorio de Teams para Windows](https://aka.ms/teams-clients)
+> Vea la siguiente sesión para obtener más información sobre las ventajas del cliente de escritorio de Windows, cómo planearlo y cómo implementarlo: [Teams cliente de escritorio de Windows](https://aka.ms/teams-clients).
 
 Para usar Microsoft Endpoint Configuration Manager, o Directiva de grupo o cualquier otro mecanismo de distribución de terceros para una amplia implementación, Microsoft ha proporcionado archivos MSI (tanto de 32 bits como de 64 bits) que los administradores pueden usar para la implementación masiva de Teams para seleccionar usuarios o equipos. Los administradores pueden usar estos archivos para implementar Teams de forma remota, de modo que los usuarios no tengan que descargar manualmente la aplicación Teams. Tras la implementación, Teams se iniciará automáticamente para todos los usuarios que inicien sesión en el equipo. (Puede deshabilitar el inicio automático después de instalar la aplicación. [Consulte más adelante](#disable-auto-launch-for-the-msi-installer)). Le recomendamos que implemente el paquete en el equipo de forma que todos los nuevos usuarios del equipo se beneficiarán también de esta implementación.
 
@@ -35,15 +35,18 @@ Estos son los vínculos a los archivos MSI:
 
 |Entidad  |32 bits      |64 bits      |
 |---------|---------|---------|
-|Comercial     | [32 bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
-|Administración Pública Federal: GCC     | [32 bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64 bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |
-|Administración Pública Federal: GCC High    | [32 bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
-|Administración Pública Federal: DoD     | [32 bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
+|Comercial     | [32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
+|Administración Pública Federal: GCC     | [32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |
+|Administración Pública Federal: GCC High    | [32 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
+|Administración Pública Federal: DoD     | [32 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
+
+> [!NOTE]
+> Instale la versión de Teams de 64 en los sistemas operativos de 64 bits. Si intenta instalar la versión de 64 bits de Teams en un sistema operativo de 32 bits, la instalación no se realizará correctamente y no recibirá un mensaje de error.
 
 Teams también se pueden incluir con una implementación de Office 365 ProPlus. Para obtener más información, consulte [Implementar Microsoft Teams con Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
 
 > [!Note]
-> Para obtener más información sobre Microsoft Endpoint Configuration Manager, consulte [¿Qué es Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction).
+> Para obtener más información sobre Microsoft Endpoint Configuration Manager, vea [¿Qué es Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
 
 ## <a name="deployment-procedure-recommended"></a>Proceso de implementación (recomendado)
 
@@ -100,13 +103,13 @@ Para obtener más información, consulte [Usar Directiva de grupo para evitar qu
 
 Puede deshabilitar el inicio automático para el instalador MSI mediante el parámetro **OPTIONS="noAutoStart=true"** como se indica a continuación.  
 
-Para la versión de 32 bits
+Para la versión de 32 bits:
 
 ```console
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
-Para la versión de 64 bits
+Para la versión de 64 bits:
 
 ```console
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
