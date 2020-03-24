@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lea este tema para obtener información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión compatible suministrado por el cliente (SBC) a Microsoft Phone System.
-ms.openlocfilehash: 0e15f8e76bc9512a28311764c39e34b45131b9d3
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 5efed6ed21e6eb4bfa4e2ae89e625595b0307ada
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858585"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928443"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -257,7 +257,7 @@ Debe usar los siguientes puertos para los entornos de Office 365 donde se ofrece
 
 |**Transmisión**|**De**|**Hasta**|**Puerto de origen**|**Puerto de destino**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|Proxy SIP|SBC|1024 – 65535|Definido en la SBC (para Office 365 GCC High/DoD solo se deben usar los puertos 5061 y 5062)|
+|SIP/TLS|Proxy SIP|SBC|1024 – 65535|Definido en la SBC (para Office 365 GCC High/DoD solo se debe usar el puerto 5061)|
 SIP/TLS|SBC|Proxy SIP|Definido en la SBC|5061|
 ||||||
 
