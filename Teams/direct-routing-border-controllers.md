@@ -1,7 +1,7 @@
 ---
 title: Lista de controladores de borde de sesión certificados para el enrutamiento directo
 ms.author: crowe
-ms.reviewer: NMuravlyannikov
+ms.reviewer: FilippSe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: Microsoft se asocia con proveedores SBC seleccionados para certificar que sus SBC pueden usarse con el Enrutamiento directo.
-ms.openlocfilehash: c956fad4e18e4bfb2e97ccbc04ed776a967affc7
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: e7831abf7a5d522afd05c3fd178e6acda04772e3
+ms.sourcegitcommit: 43e8960ef091d9e206f22eb7ffef9d6e84756335
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928423"
+ms.locfileid: "42939624"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 
@@ -62,15 +62,15 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 (compilación 537)     |  <ul> <li>[Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Entrada ERS </li> <li>Entrada EGW </li> <li> Movilidad del horizonte de cielo rojo </li> </ul>   |     &#10004;     |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 (compilación 216)    |  <ul> <li> [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Entrada ERS </li> <li>Entrada EGW </li> <li> Movilidad del horizonte de cielo rojo </li> </ul>    |     &#10004;     |   
 | | Serie EdgeMarc |  &#10004; | | 15.6.1 | 
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    SBC Think 365    |     &#10004;     |        Pending   |       V1.4       |     |    |    
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    SBC Think 365    |     &#10004;     |        Pending   |       1,4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Entrada ERS </li> <li>Entrada EGW</li> <li> Movilidad del horizonte de cielo rojo </li>  </ul>   |  &#10004;  |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Entrada ERS </li> <li>Entrada EGW</li> <li> Movilidad del horizonte de cielo rojo </li>  </ul>  |  &#10004;  |    
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Entrada ERS </li> <li>Entrada EGW</li> <li> Movilidad del horizonte de cielo rojo </li>  </ul>  |  &#10004;  |    
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Entrada ERS </li> <li>Entrada EGW</li> <li> Movilidad del horizonte de cielo rojo </li>  </ul>   |  &#10004;  |    
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Entrada ERS </li> <li>Entrada EGW</li> <li> Movilidad del horizonte de cielo rojo </li>  </ul>  |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Entrada ERS </li> <li>Entrada EGW</li> <li> Movilidad del horizonte de cielo rojo </li>  </ul>  |  &#10004;  |    
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
-
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.16.2      |     |    |    
+|                     [MetaSwitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Metaestado de perimeta        |     &#10004;   |  |      4,7      |     |    |    
 
 En la siguiente tabla se enumeran los dispositivos verificados para la interoperabilidad entre el enrutamiento directo y los dispositivos analógicos.
 

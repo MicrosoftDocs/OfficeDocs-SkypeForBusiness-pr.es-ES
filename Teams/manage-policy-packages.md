@@ -18,12 +18,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas en Microsoft Teams.
-ms.openlocfilehash: d7c0ded990225b969579f50ea5f87a32efebe388
-ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
+ms.openlocfilehash: a2c2ecf22529c4f16b992f349b29ccaf0ad48b0d
+ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42857987"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42942448"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Administrar paquetes de directivas en Microsoft Teams
 
@@ -45,7 +45,8 @@ Actualmente, Teams incluye los siguientes paquetes de directivas.
 |Educación (estudiante principal de la escuela)   |Crea un conjunto de directivas y opciones de directiva que se aplican a los alumnos principales.|
 |Educación (estudiante secundario de la escuela)    |Crea un conjunto de directivas y opciones de directiva que se aplican a los alumnos secundarios.         |
 |Educación (profesor)    |Crea un conjunto de directivas y configuraciones de directivas que se aplican a los profesores.      |
-|Voz empresarial |Crea una directiva de configuración de aplicaciones que incluye las aplicaciones para una experiencia de voz de empresa.|
+|Usuarios de pequeñas y medianas empresas (voz empresarial) |Crea una directiva de configuración de aplicaciones que incluye las aplicaciones para una experiencia de voz de empresa.|
+|Usuarios de pequeñas y medianas empresas (sin voz empresarial) |Este paquete de directivas está diseñado para crear un conjunto de directivas y aplicar esta configuración a usuarios empresariales pequeños y de tamaño mediano sin ninguna característica de voz para empresas.|
 |Funcionario de seguridad pública   |Crea un conjunto de directivas y parámetros de directivas que se aplican a los directores de seguridad pública de su organización.|
 |Salud (trabajador clínico)  |Crea un conjunto de directivas y configuraciones de directivas que proporcionan a los trabajadores clínicos como enfermeras registradas, enfermeras, médicos y trabajadores sociales acceso completo a chats, llamadas, administración de turnos y reuniones. |
 |Atención médica (trabajador de la información)  |Crea un conjunto de directivas y opciones de directiva que ofrecen a trabajadores de la información como personal de ti, personal de informática, personal de finanzas y funcionarios de cumplimiento, acceso completo a chats, llamadas y reuniones.|
