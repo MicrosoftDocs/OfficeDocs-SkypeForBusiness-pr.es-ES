@@ -17,15 +17,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b60b0e5f0972d862ec1b945f1b267b04faae9a8a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: d5470d9ec2ec2d22d8f3b66bac09ba6c67b9982f
+ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833260"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951505"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Lista de control de acceso de invitados de Microsoft Teams
-==========================================
+=========================================
 
 Use esta lista para ayudarse a activar y configurar el acceso de invitados en Microsoft Teams. Es necesario ser un Administrador global o un Administrador de Teams para hacer estos cambios.
 

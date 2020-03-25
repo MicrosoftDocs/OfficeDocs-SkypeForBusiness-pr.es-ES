@@ -16,19 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a administrar cómo se usan las etiquetas en su organización en Microsoft Teams.
-ms.openlocfilehash: cd2c2e69054923ccf287f35a15fcebb870d6a5d5
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 5fbfa980f1cf6acd8ce32af810bf2527ece3d1fa
+ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928453"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951555"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Administrar etiquetas en Microsoft Teams
 
 Las etiquetas de Microsoft Teams permiten a los usuarios comunicarse con un subconjunto de personas de un equipo. Se pueden agregar etiquetas a uno o varios miembros del equipo para conectarse fácilmente con el subconjunto adecuado de personas. Los miembros y propietarios del equipo (si la característica está habilitada) pueden agregar una o varias etiquetas a una persona. Después, las etiquetas se pueden usar en @mentions por cualquier persona del equipo en una publicación de canal o para iniciar una conversación con solo las personas que tienen asignada esa etiqueta.
 
 > [!NOTE]
-> Las etiquetas aún no son compatibles con los canales privados.
+> Las etiquetas aún no son compatibles con los canales privados. Las etiquetas aún no están disponibles en las organizaciones de la nube de la comunidad de administración de Estados Unidos (GCC), GCC High o Department of Defense (DoD). 
 
 ## <a name="how-tags-work"></a>Cómo funcionan las etiquetas
 
