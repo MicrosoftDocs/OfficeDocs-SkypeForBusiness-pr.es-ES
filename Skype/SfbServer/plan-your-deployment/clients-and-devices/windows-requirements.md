@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Resumen: Revise los requisitos de compatibilidad del cliente de Windows al planear Skype empresarial Server.'
-ms.openlocfilehash: 0a556b2330427683c4d00577895f43f3cfede6d5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 39f9efcd2008dacb653538b56f2aff3fcb8b7887
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027961"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928243"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Requisitos del cliente de Windows y soporte técnico de software
  
@@ -37,7 +37,7 @@ En esta sección se resume el software necesario para admitir los clientes Windo
 
 |**Componente del sistema**|**Versiones compatibles**|
 |:-----|:-----|
-|Sistema operativo Windows  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8  <br/> Sistema operativo Windows 7  <br/> Windows Server 2008 R2 o posterior con el Service Pack más reciente  <br/> **Nota:** Skype empresarial y el complemento para reunión en línea de Skype empresarial no son compatibles con Windows Vista o Windows XP (cualquier versión). <br/> |
+|Sistema operativo Windows  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> Windows Server 2008 R2 o posterior con el Service Pack más reciente  <br/> **Nota:** Skype empresarial y el complemento para reunión en línea de Skype empresarial no son compatibles con Windows Vista o Windows XP (cualquier versión). <br/> |
 |Instalación y actualizaciones  <br/> |Permisos y derechos de administrador  <br/> |
 |Explorador  <br/> |Microsoft Edge  <br/> Explorador de Internet Internet Explorer 11  <br/>  Explorador de Internet de Internet Explorer 10 <br/> Explorador de Internet de Internet Explorer 9  <br/> Explorador de Internet Internet Explorer 8  <br/> Explorador de Internet Internet Explorer 7  <br/> Explorador web Mozilla Firefox  <br/>  Explorador web Google Chrome  <br/>**Nota:** Si usa Skype empresarial con Microsoft Exchange Online y su organización ha implementado un proxy HTTP de autenticación, se requiere Internet Explorer 8 o posterior.           |
 |Integración de Microsoft Office  <br/> | Outlook 2010 o posterior |
@@ -73,7 +73,7 @@ A continuación se muestran los requisitos previos de Skype empresarial para Win
 - El usuario debe tener un plan de voz y de datos de un operador.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planeación de clientes de reuniones (aplicación web y aplicación de reuniones)](meetings-clients.md)
   
