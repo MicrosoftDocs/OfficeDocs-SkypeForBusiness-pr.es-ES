@@ -17,16 +17,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51afc464b5f6d0fa698250d1255315535e383bf8
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: a1b97e82edd97079c1e4615e5bb7fcf4a1eb2fea
+ms.sourcegitcommit: b6eb22e96be5fb18984f1dd05e4eb8f2cfc032f6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374327"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42968665"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan para implementaciones de Microsoft 365 administración pública-GCC
 
 Esta guía está orientada a los profesionales de ti que están implantando implementaciones de Office 365 en Estados Unidos federales, estatales, locales, tribal o territoriales entidades gubernamentales u otras entidades que administran datos que están sujetos a reglamentaciones y requisitos gubernamentales, donde el uso de Microsoft 365 gubernamental: GCC es adecuado para cumplir con estos requisitos.
+
+> [!IMPORTANT]
+> Microsoft Teams está experimentando un enorme aumento en las llamadas en línea y las conferencias de audio y videollamadas debido a la coronavirus (COVID-19) Pandemic.<br/>
+> 
+>En respuesta al aumento sin precedentes de las llamadas, y para garantizar la continuidad y la disponibilidad, Microsoft permite que Microsoft Teams GCC/audio/vídeo saque el máximo partido de la capacidad de procesamiento de nuestros centros de proceso de ventas comerciales, así como de nuestros centros de administración gubernamentales.<br/>
+> 
+>Estos servidores de audio y vídeo se encuentran dentro de los servidores de límite de acreditación alta de Microsoft Azure FedRAMP en los Estados Unidos y no almacenan ningún contenido de cliente. Sin embargo, estos servidores están procesando el audio y el vídeo de las llamadas y las conferencias, y están operando bajo nuestro personal comercial durante este período provisional.<br/>
+> 
+>El personal con pantalla calificada está supervisando estos servidores para obtener acceso potencial a los datos de los clientes revisando los inicios de sesión interactivos en estos servidores. El personal cualificado cumple con los requisitos de GCC para acceder al contenido de los clientes. Para obtener más información sobre los requisitos de filtrado, consulte la [Descripción del servicio GCC](Office365-ServiceDescriptions\office-365-platform-service-description\office-365-us-government\gcc.md).<br/>
+> 
+>Gracias por tu ayuda a la hora de tomar medidas para asegurarnos de que nuestros servicios estén disponibles y sean confiables en estas extraordinarias horas.<br/>
+
 
 > [!NOTE]
 > Si su organización ya cumple con los requisitos de idoneidad de Microsoft 365 Government-GCC y ha sido aplicado y ha sido aceptado en el programa, puede omitir los pasos 1 y 2 y ir directamente al paso 3. 
@@ -67,7 +79,7 @@ Le recomendamos que tome el tiempo de revisar detenidamente la [configuración d
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si modificará cualquiera de los valores de seguridad predeterminados de Microsoft 365 administración pública-GCC y se resolverá para comprender primero el impacto de los cambios que puede realizar.</li></ul> |
+| ![Un icono que representa un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si modificará cualquiera de los valores de seguridad predeterminados de Microsoft 365 administración pública-GCC y se resolverá para comprender primero el impacto de los cambios que puede realizar.</li></ul> |
 
 ## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Paso 4. Comprender qué características no están disponibles o deshabilitadas de forma predeterminada. 
 
@@ -128,7 +140,7 @@ Para cumplir con los requisitos de nuestros clientes gubernamentales en la nube,
 | | Consumidor de Skype-asistencia para llamadas de equipo | Disponible |
 | Archivos | Recientes | Disponible |
 | | Microsoft Teams | Disponible |
-| Guarde | App Store | Disponible |
+| Tienda | App Store | Disponible |
 | Búsqueda | Mensajes | Disponible |
 | | Personas | Disponible |
 | | Archivos | Disponible |
@@ -145,7 +157,7 @@ Para cumplir con los requisitos de nuestros clientes gubernamentales en la nube,
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si el conjunto de características de Teams cumple con las necesidades de su organización.</li></ul> |
+| ![Un icono que representa un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si el conjunto de características de Teams cumple con las necesidades de su organización.</li></ul> |
 
 ## <a name="step-5-plan-for-governance"></a>Paso 5. Planear la gobernanza
 
@@ -153,7 +165,7 @@ Determina los requisitos de gobierno y cómo puedes reunirse. Para obtener más 
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Determine y documente sus requisitos de gobierno, siguiendo las pautas de [Plan for Governance in Teams](plan-teams-governance.md).</li></ul> |
+| ![Un icono que representa un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Determine y documente sus requisitos de gobierno, siguiendo las pautas de [Plan for Governance in Teams](plan-teams-governance.md).</li></ul> |
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Paso 6. Implementar Teams para la colaboración
 
