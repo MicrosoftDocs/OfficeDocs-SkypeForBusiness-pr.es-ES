@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13c3267378d4e8fbc5b3d3631606cf0824ea7a44
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: ced9ab01c5f33ef2b8095079443c447c301ee742
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417855"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978602"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad
 
@@ -652,6 +652,7 @@ _Tabla 5-creación de una estructura de archivos_
 | Region             | String    | MSUS                      | Recomendado |
 | InsideCorp         | Booleano      | 1                         | Obligatorio    |
 | ExpressRoute       | Booleano      | ,0                         | Obligatorio    |
+| VPN                | Booleano      | ,0                         | Opcional    |
 
 \*Si bien el CQD no lo necesita, las plantillas se configuran para mostrar la creación y el nombre de red.
 
@@ -701,7 +702,7 @@ Los datos de la calidad de la experiencia (QoE) que los clientes envían a Offic
   _Figura 13-red privada virtual (VPN) con nombre de creación_
 
 > [!IMPORTANT]
-> Ciertas implementaciones de VPN no informan con precisión la información de subred. Si esto sucede en sus informes, le recomendamos que, al agregar una subred VPN al archivo de creación, en lugar de una entrada para la subred, agregue entradas independientes para cada dirección de la subred VPN como una red de 32 bits independiente. Cada fila puede tener los mismos metadatos de compilación. Por ejemplo, en lugar de una fila para 172.16.18.0/24, tiene 253 filas, con una fila para cada dirección de 172.16.18.1/32 a 172.16.18.254/32, ambos incluidos.
+> Ciertas implementaciones de VPN no informan con precisión la información de subred. Esto se debe a que el cliente VPN se proporciona con una subred de 32 bits.  Tal como se mencionó en la sección anterior, el CQD no puede identificar correctamente una subred de 32 bits.  Para identificar con precisión una subred VPN en el CQD, establezca el campo VPN en 1 en el archivo de compilación.
 
 
 > [!NOTE]

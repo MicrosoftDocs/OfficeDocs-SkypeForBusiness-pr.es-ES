@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar la asignación de directivas por lotes para asignar directivas a grandes conjuntos de usuarios de su centro educativo en masa para fines escolares (teleschool, tele-School).
 f1keywords: ''
-ms.openlocfilehash: 5e3ee25bf4fadea595fc224b2944a12c279f9c59
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 7e297b6a4b99162fb50564d4f552a06f0dc41a10
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892280"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978522"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Asignar directivas a grandes conjuntos de usuarios de la escuela
 
@@ -161,7 +161,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 ## <a name="faq"></a>Preguntas más frecuentes
 
-**Quiero asegurarme de que todos los usuarios que sean estudiantes, personal y educadores obtengan licencias automáticamente asignadas. ¿Cómo puedo hacerlo?**
+**Quiero asegurarme de que todos los usuarios que son estudiantes, personal y educadores obtengan automáticamente las directivas asignadas. ¿Cómo puedo hacerlo?**
 
 El equipo de producto de Teams está trabajando para asignar directivas a grupos de seguridad. En ese momento, podrá crear grupos para los estudiantes y los profesores, y después las directivas correspondientes a esos grupos. Tenga en cuenta que las asignaciones explícitas de usuarios (como las directivas que haya asignado con este tutorial) invalidarán las directivas heredadas de un grupo. Cuando esta característica sea compatible, proporcionaremos más instrucciones sobre cómo usar la asignación de directivas para agrupar y actualizar los usuarios para asegurarse de que obtengan las directivas de grupo heredadas.
 

@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1b97e82edd97079c1e4615e5bb7fcf4a1eb2fea
-ms.sourcegitcommit: b6eb22e96be5fb18984f1dd05e4eb8f2cfc032f6
+ms.openlocfilehash: 97f7987d450b5a7b1fc23c39ed1e96ee0f953ae9
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/26/2020
-ms.locfileid: "42968665"
+ms.locfileid: "42978512"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan para implementaciones de Microsoft 365 administración pública-GCC
 
-Esta guía está orientada a los profesionales de ti que están implantando implementaciones de Office 365 en Estados Unidos federales, estatales, locales, tribal o territoriales entidades gubernamentales u otras entidades que administran datos que están sujetos a reglamentaciones y requisitos gubernamentales, donde el uso de Microsoft 365 gubernamental: GCC es adecuado para cumplir con estos requisitos.
+Esta guía está orientada a los profesionales de ti que están implantando implementaciones de Office 365 en Estados Unidos federales, estatales, locales, tribal o territoriales entidades gubernamentales u otras entidades que administran datos que están sujetos a reglamentaciones y requisitos gubernamentales, donde el uso de Microsoft 365 gubernamental: GCC es adecuado para cumplir con estos requisitos. Nuevo 26 de marzo de 2020: no pierdamos nuestra [Guía de inicio rápido](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true)descargable para GCC.
 
 > [!IMPORTANT]
 > Microsoft Teams está experimentando un enorme aumento en las llamadas en línea y las conferencias de audio y videollamadas debido a la coronavirus (COVID-19) Pandemic.<br/>
@@ -35,7 +35,7 @@ Esta guía está orientada a los profesionales de ti que están implantando impl
 > 
 >Estos servidores de audio y vídeo se encuentran dentro de los servidores de límite de acreditación alta de Microsoft Azure FedRAMP en los Estados Unidos y no almacenan ningún contenido de cliente. Sin embargo, estos servidores están procesando el audio y el vídeo de las llamadas y las conferencias, y están operando bajo nuestro personal comercial durante este período provisional.<br/>
 > 
->El personal con pantalla calificada está supervisando estos servidores para obtener acceso potencial a los datos de los clientes revisando los inicios de sesión interactivos en estos servidores. El personal cualificado cumple con los requisitos de GCC para acceder al contenido de los clientes. Para obtener más información sobre los requisitos de filtrado, consulte la [Descripción del servicio GCC](Office365-ServiceDescriptions\office-365-platform-service-description\office-365-us-government\gcc.md).<br/>
+>El personal con pantalla calificada está supervisando estos servidores para obtener acceso potencial a los datos de los clientes revisando los inicios de sesión interactivos en estos servidores. El personal cualificado cumple con los requisitos de GCC para acceder al contenido de los clientes. Para obtener más información sobre los requisitos de filtrado, consulte la [Descripción del servicio GCC](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc).<br/>
 > 
 >Gracias por tu ayuda a la hora de tomar medidas para asegurarnos de que nuestros servicios estén disponibles y sean confiables en estas extraordinarias horas.<br/>
 

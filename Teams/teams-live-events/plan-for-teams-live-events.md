@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga más información sobre los factores que debe tener en cuenta antes de configurar eventos en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f0c141751a9b67a47640ba5210c3cb7aeeadbb2
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
-ms.translationtype: HT
+ms.openlocfilehash: ecd08f71545bcaf2775b3e502860b9d6a8e234fc
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558570"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978422"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -64,13 +64,13 @@ El usuario debe tener:
 |**Visibilidad del asistente**       |**Producción de Teams**  |**Producción de dispositivos o aplicaciones externos**  |
 |------------------------------|-----------------|----------------------|
 |Público (Usuarios anónimos)      |  Sí            |  No                  |
-|Usuarios invitados                   |  No<sup>1</sup> |  No                  |
-|Todos los usuarios de la empresa asociada |  No<sup>2</sup> |  No                  |
+|Usuarios invitados                   |  Sí            |  No                  |
+|Todos los usuarios de la empresa asociada |  Sí<sup>1</sup>|  No                  |
 |Todas los usuarios de la empresa           |  Sí            |  Sí                 |
 |Grupos específicos / personas      |  Sí            |  Sí                 |
 
-<sup>1</sup> Si el evento en directo se configura con la opción **Org-wide** podrá ver los eventos de toda la empresa en directo.<br>
-<sup>2</sup> solo pueden ver los eventos en directo como usuarios anónimos.
+<sup>1</sup> solo se puede invitar a los asistentes federados a través de personas & grupo <br>
+
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos y Difusión de reunión de Skype en Teams
@@ -81,7 +81,7 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 |---------|---------|---------|---------|
 |Tamaño máximo de audiencia |10 000 asistentes |10 000 asistentes<sup>1</sup> |10 000 asistentes<sup>1</sup> |
 |Duración máxima del evento en directo |4 horas |4 horas |4 horas |
-|Cantidad máxima de eventos simultáneos en vivo por cada inquilino de Office 365 |15  | 15  | 15  |
+|Cantidad máxima de eventos simultáneos en vivo por cada inquilino de Office 365 |4,5  | 15  | 15  |
 |Creación de eventos en directo |   Portal de Difusión de reunión de Skype |Teams, Yammer a través de Teams | Teams, Yammer a través de Teams, Stream |
 |Compromiso de audiencia: Yammer |&#x2714; |&#x2714; (experiencia integrada) |&#x2714; (experiencia integrada) |
 |Negociación de audiencia: moderado por P y R |&#x2714;  |&#x2714; |&#x2714; |

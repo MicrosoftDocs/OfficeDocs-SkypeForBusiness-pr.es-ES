@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd9ca2fc26c58087992cdee18dee1b1d869a6fa1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: f411de7f0c373e82b450cd41b828fd591777311b
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826108"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978462"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Asignar miembros y propietarios de equipo en Microsoft Teams
 =================================================
@@ -39,7 +39,7 @@ En la tabla siguiente se muestra la diferencia entre un propietario y un miembro
 |          **Crear un equipo**          |    Sí<sup>1</sup>     |     No      |
 |          **Abandonar equipo**           |    Sí     |     Sí     |
 |  **Editar nombre o descripción del equipo**   |    No     |     No      |
-|          **Eliminar equipo**          |    No     |     No      |
+|          **Eliminar equipo**          |    Sí     |     No      |
 |          **Agregar canal estándar**          |    Sí     |    Sí<sup>2</sup>|
 | **Editar Nombre/Descripción del canal estándar** |    Sí     |    Sí<sup>2</sup>|
 |        **Eliminar canal estándar**         |    Sí     |    Sí<sup>2</sup>|
@@ -48,9 +48,7 @@ En la tabla siguiente se muestra la diferencia entre un propietario y un miembro
 |        ***Eliminar canal privado**         |    No     |    No|
 |          **Agregar miembros**          |  Sí<sup>3</sup>   |     No<sup>4</sup>    |
 |          **Solicitud para agregar miembros**          |  N/D   |     Sí<sup>5</sup>     |
-|           **Agregar fichas**            |    Sí     |    Sí<sup>2</sup>|
-|        **Agregar conectores**         |    Sí     |    Sí<sup>2</sup>|
-|           **Agregar bots**            |    Sí     |    Sí<sup>2</sup>|
+|           **Agregar aplicaciones**            |    Sí     |    Sí<sup>2</sup>|
 
 <sup>1</sup> Los propietarios del equipo pueden crear equipos a no ser que se les haya quitado el permiso para hacerlo. [Permisos para crear equipos](#permissions-to-create-teams) a continuación.<br>
 <sup>2</sup> un propietario puede desactivar estos elementos en el nivel del equipo, en cuyo caso los miembros no tendrían acceso a ellos.<br>

@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre las diferentes formas de asignar directivas a los usuarios en Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 0f0ce566eb395e3bf3722149797908599091bc2a
-ms.sourcegitcommit: 891ba3670ccd16bf72adee5a5f82978dc144b9c1
+ms.openlocfilehash: a3946ab7296603822655ac115ae5826f3f670cea
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42691200"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978532"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Asignar directivas a los usuarios en Microsoft Teams
 
 > [!NOTE]
-> **Una de las características de Microsoft Teams descritas en este artículo, [asignación de directiva a grupos](#assign-a-policy-to-a-group), está actualmente en versión preliminar.**
+> **Una de las características de Microsoft Teams descritas en este artículo, [asignación de directiva a grupos](#assign-a-policy-to-a-group), actualmente solo está disponible en la versión preliminar limitada. Los cmdlets de PowerShell para esta característica se encuentran en el módulo PowerShell de la versión preliminar de Teams.**
 
 Como administrador, use directivas para controlar las características de teams que están disponibles para los usuarios de su organización. Por ejemplo, hay directivas de llamadas, directivas de reunión y directivas de mensajería, por citar algunas.
 
@@ -60,7 +60,7 @@ Para obtener más información, vea [reglas de prioridad](#precedence-rules).
 
 A continuación se ofrece una descripción general de las formas en que puede asignar directivas a los usuarios y los escenarios recomendados para cada uno. Haga clic en los vínculos para obtener más información.
 
-|Haga esto  |Si...  | Usar...
+|Haga lo siguiente  |Si...  | Usar...
 |---------|---------|----|
 |[Asignar una directiva a usuarios individuales](#assign-a-policy-to-individual-users)    | Ya está familiarizado con Teams y solo necesita asignar una o dos directivas a un pequeño número de usuarios. |El centro de administración de Microsoft Teams o los cmdlets de PowerShell en el módulo de PowerShell de Skype empresarial online
 | [Asignar un paquete de directivas](#assign-a-policy-package)   | Debe asignar varias directivas a conjuntos específicos de usuarios de su organización que tengan roles iguales o similares. Por ejemplo, asigne el paquete de directivas Educación (profesor) a los profesores de su escuela para proporcionarles acceso completo a chats, llamadas y reuniones y al paquete de directivas Educación (estudiante secundario escolar) a los estudiantes secundarios para limitar ciertas capacidades como llamadas privadas.  |El centro de administración de Microsoft Teams o los cmdlets de PowerShell en el módulo de PowerShell de Teams|
@@ -77,8 +77,8 @@ Siga estos pasos para asignar una directiva a un usuario individual o a un núme
 
 Para asignar una directiva a un usuario:
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, haga clic en el usuario.
-2. Seleccione el usuario haciendo clic a la izquierda del nombre de usuario y, a continuación, haga clic en **Editar configuración**.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
+2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
 3. Seleccione la Directiva que desea asignar y, a continuación, haga clic en **aplicar**.
 
 Para asignar una directiva a un máximo de 20 usuarios a la vez, vea [editar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
@@ -87,11 +87,11 @@ También puede hacer lo siguiente:
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la página de la Directiva.
 2. Seleccione la Directiva que desea asignar haciendo clic a la izquierda del nombre de la Directiva.
-3. Seleccione **administrar usuarios**.
-4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
+3. Seleccione **Administrar usuarios**.
+4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 5. Cuando haya terminado de agregar usuarios, seleccione **Guardar**.
 
-### <a name="using-powershell"></a>Usar PowerShell
+### <a name="using-powershell"></a>Con PowerShell
 
 Cada tipo de directiva tiene su propio conjunto de cmdlets para administrarlo. Use el ```Grant-``` cmdlet para un tipo de directiva determinado para asignar la Directiva. Por ejemplo, use el ```Grant-CsTeamsMeetingPolicy``` cmdlet para asignar una política de reunión de Teams a los usuarios. Estos cmdlets están incluidos en el módulo de PowerShell de Skype empresarial online y están documentados en la [Referencia del cmdlet de Skype empresarial](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
@@ -197,7 +197,7 @@ Para obtener más información, vea [Get-CsBatchPolicyAssignmentOperation](https
 
 ## <a name="assign-a-policy-to-a-group"></a>Asignar una directiva a un grupo
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+**La asignación de directivas a grupos solo está disponible actualmente en vista previa limitada. Los cmdlets para esta característica se encuentran en el módulo PowerShell de la versión preliminar de Teams.**
 
 La asignación de directivas a grupos le permite asignar una directiva a un grupo de usuarios, como un grupo de seguridad o una unidad organizativa. La asignación de Directiva se propaga a los miembros del grupo según las reglas de prioridad. A medida que se agregan o quitan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan según corresponda.
 
