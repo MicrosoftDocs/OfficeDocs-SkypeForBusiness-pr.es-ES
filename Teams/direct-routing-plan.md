@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lea este tema para obtener información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión compatible suministrado por el cliente (SBC) a Microsoft Phone System.
-ms.openlocfilehash: 5efed6ed21e6eb4bfa4e2ae89e625595b0307ada
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: be0d901095afa322935944a9b4898e540946bf8a
+ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928443"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955729"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -175,7 +175,8 @@ El certificado debe ser generado por una de las siguientes entidades emisoras de
 - Ir Daddy
 - GeoTrust
 - VeriSign, Inc. 
-- Starfield 
+- SSL.com
+- Starfield
 - Symantec Enterprise Mobile para Microsoft 
 - SwissSign
 - CA de marca de hora de Thawte

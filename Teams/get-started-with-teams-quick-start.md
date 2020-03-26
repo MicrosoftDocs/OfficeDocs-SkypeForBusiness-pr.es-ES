@@ -17,14 +17,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e07ec04ba567963662d7f83bdba3fe9f788abd9e
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 62db123cbc7a038ee001367209df2efbad202d96
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862840"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928463"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introducción a Microsoft Teams
+
+> [!IMPORTANT]
+> Si está implementando Microsoft Teams rápidamente en respuesta a la alta demanda para admitir el **trabajo remoto**, use esta Guía de introducción para implementar Teams en toda su organización. Se aplica esta guía, incluso cuando Teams sea la primera carga de trabajo de Office 365.
 
 Para empezar a trabajar rápidamente en Teams, le recomendamos que cree dos o tres equipos y canales para un grupo selecto de primeros usuarios. Al empezar implementando Teams a pequeña escala, se familiarizará con Teams mediante su uso y obtendrá información valiosa sobre cómo implementar Teams en toda la organización. Si es una pequeña empresa, esta guía de inicio rápido es todo lo que necesita para implementar Teams para toda la organización.
 
@@ -42,20 +45,30 @@ Aquí le mostramos cómo implementar el primer conjunto de equipos y canales par
 
 Si es una organización grande, tiene una configuración de Skype Empresarial híbrida o local, tiene requisitos estrictos normativos o de cumplimiento, o si desea implementar características de reuniones o voz (como planes de llamadas o sistema telefónico), empiece por leer [Cómo implementar Teams](how-to-roll-out-teams.md). Le recomendamos que de todos modos empiece con esta sección de **Introducción** para mejorar sus habilidades y empezar a planear la implementación en toda la organización. "Planear Teams con Teams". Empiece poco a poco implementando Teams con chat, equipos, canales y aplicaciones y continúe desde ahí. Estas experiencias iniciales le ayudarán a dar a conocer Teams y generar entusiasmo en toda la organización para la siguiente fase de lanzamiento. 
 
-Si es una pequeña empresa, puede usar estas instrucciones de introducción para implementar al completo Teams en su organización. Puede que las pequeñas empresas no necesiten realizar una implementación por fases de Teams. Asegúrese de consultar las plantillas disponibles específicamente para pequeñas empresas para que la implementación en su organización sea más fácil y eficaz. Consulte [Introducción a las plantillas de Teams para pequeñas y medianas empresas](https://docs.microsoft.com/microsoftteams/smb-templates).
+Si es una pequeña empresa o si **está implementando Teams rápidamente para admitir el nuevo trabajo remoto**, use esta Guía de introducción para implementar Teams en su organización. Asegúrese de consultar las plantillas disponibles específicamente para pequeñas empresas para que la implementación en su organización sea más fácil y eficaz. Consulte [Introducción a las plantillas de Teams para pequeñas y medianas empresas](https://docs.microsoft.com/microsoftteams/smb-templates).
 
 ## <a name="before-you-get-started"></a>Antes de empezar
 
-Antes de empezar, deberá planificar la implementación de Teams revisando los siguientes elementos:
+Para prepararse para la implementación de Teams, esto es lo que debe hacer, independientemente de si Teams es la primera carga de trabajo ("Teams primero") o la siguiente carga de trabajo de una implementación existente de Office 365:
 
 - [Preparar la red de la organización para Microsoft Teams](prepare-network.md)
+    - Esto incluye la configuración del dominio de Office 365, SharePoint Online, Exchange Online y OneDrive para la Empresa.
+
+- Obtenga licencias de Teams para todos. Consulte [Planes de Teams](https://products.office.com/microsoft-teams/free) y [Licencias de Office 365 para Teams](office-365-licensing.md). 
+
 - [Obtener información sobre las ventajas de instalar los clientes de escritorio, web y móvil](get-clients.md)
 
-También deberá asegurarse de que dispone de licencias de Teams para todos. Consulte [Comparar planes de Teams](https://products.office.com/microsoft-teams/free) y [Licencias de Office 365 para Teams](office-365-licensing.md). 
+- Empezar desde Skype Empresarial o Lync Server local
+   - [Actualizar de Skype Empresarial local a Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md) 
+   
+   - [Planear la conectividad híbrida entre Skype Empresarial Server y Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
+   
+   > [!NOTE]
+> Si su organización ejecuta Skype Empresarial Server (o Lync Server) de forma local, debe [Configurar Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect) para sincronizar su directorio local con Office 365. 
 
 
+## <a name="next-steps"></a>Siguientes pasos
 
-## <a name="next-steps"></a>Pasos siguientes
-Vaya a [Crear los primeros equipos y canales](get-started-with-teams-create-your-first-teams-and-channels.md).
+[Crear los primeros equipos y canales](get-started-with-teams-create-your-first-teams-and-channels.md)
 
 Obtenga más información con nuestra [Guía de adopción de Teams](https://aka.ms/teamstoolkit) interactiva.
