@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cb9e4c4b46e732b2cc96b58b67522a8a9da678c
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: fd01a781cfb5a928e4d14e64d45789b4f023648d
+ms.sourcegitcommit: 3ddb28e085a89501e4e64687de4697f82f47f119
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983825"
+ms.locfileid: "43027680"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Recursos de Microsoft Teams para administradores de educación
 ==============================================
@@ -36,9 +36,9 @@ Lee las [cláusulas y condiciones](https://github.com/MicrosoftDocs/OfficeDocs-S
 
 | |  |
 |---------|---------|
-|[Folleto de trucos y sugerencias](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Captura](media/edu-adoption-get-started.png)    |
 |Pósteres: [personalizables](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) e [impresas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Captura de pantalla de un póster](media/edu-adoption-posters.png)     |[Documentos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Captura de pantalla de un documento](media/edu-adoption-handouts.png)|
 |[Prospectos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Captura de pantalla de un prospecto](media/edu-adoption-flyers.png)   |[Anuncios de libros](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Captura de pantalla de un anuncio de libro](media/edu-adoption-book-adverts.png)         |
+|[Folleto de trucos y sugerencias](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Captura](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>Activos digitales
 
