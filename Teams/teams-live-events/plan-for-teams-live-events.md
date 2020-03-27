@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga más información sobre los factores que debe tener en cuenta antes de configurar eventos en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecd08f71545bcaf2775b3e502860b9d6a8e234fc
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 816cfb3c971621a367dcf81d1ec555e9735bda9d
+ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978422"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "42983866"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -81,7 +81,8 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 |---------|---------|---------|---------|
 |Tamaño máximo de audiencia |10 000 asistentes |10 000 asistentes<sup>1</sup> |10 000 asistentes<sup>1</sup> |
 |Duración máxima del evento en directo |4 horas |4 horas |4 horas |
-|Cantidad máxima de eventos simultáneos en vivo por cada inquilino de Office 365 |4,5  | 15  | 15  |
+|Número máximo de moderadores y productores en un evento en directo |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
+|Cantidad máxima de eventos simultáneos en vivo por cada inquilino de Office 365 |4,5  | 4,5  | 4,5  |
 |Creación de eventos en directo |   Portal de Difusión de reunión de Skype |Teams, Yammer a través de Teams | Teams, Yammer a través de Teams, Stream |
 |Compromiso de audiencia: Yammer |&#x2714; |&#x2714; (experiencia integrada) |&#x2714; (experiencia integrada) |
 |Negociación de audiencia: moderado por P y R |&#x2714;  |&#x2714; |&#x2714; |
@@ -104,7 +105,9 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 |Informe de asistencia posterior a la difusión para los productores |&#x2714; |&#x2714; |X |
 |Análisis de opiniones de los asistentes: votación y sondeos en directo |&#x2714; (Microsoft Pulse) |X |X |
 
-<sup>1</sup> Los límites establecidos pueden ser modificados.
+<sup>1</sup> Los límites establecidos pueden ser modificados.<br/>
+<sup>2</sup> puede tener hasta 250 moderadores y productores en un evento en vivo, pero solo se muestran en la lista los últimos 10 usuarios.
+
 
 ## <a name="regional-availability"></a>Disponibilidad regional
 Puede usar los eventos en directo de Teams en varias regiones a través de todo el mundo. La siguiente información muestra la disponibilidad de los miembros del equipo y los asistentes al evento. 
