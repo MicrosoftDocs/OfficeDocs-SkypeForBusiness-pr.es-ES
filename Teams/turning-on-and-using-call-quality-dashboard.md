@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 'Consulta cómo activar y usar el panel de calidad de llamadas y obtener informes de Resumen de la calidad de las llamadas. '
-ms.openlocfilehash: 9e9c70c88aec9fcdf898d94a17f46f76bd2c608a
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 7fafbebaa21a6bbd71ab0e253f226908d6787869
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559894"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42983332"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y usar el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online
 
@@ -94,7 +94,7 @@ La versión 1 del CQD proporcionaba a los administradores de Skype empresarial S
 
 ## <a name="cqd-near-real-time-nrt-data"></a>Datos casi en tiempo real (NRT) del CQD
 
-El CQD avanzado (V3, lanzado en noviembre de 2019) usa una fuente de datos casi en tiempo real. Los registros de llamadas están disponibles en el portal de CQD en un plazo de 30 minutos a partir de la finalización de la llamada. Los registros de llamadas de la canalización de NRT solo están disponibles durante unos meses antes de que se eliminen del conjunto de datos. El proceso de CQD V3 combina los datos de la canalización V2 actual con los datos de NRT de la canalización V3. Las consultas de los portales V2 y v3 para los datos del período de archivado producen los mismos resultados. Las consultas de datos de V2 y v3 para los datos de NRT y NRT períodos de datos + PII serán diferentes.
+El CQD avanzado (V3, lanzado en noviembre de 2019) usa una fuente de datos casi en tiempo real. Los registros de llamadas están disponibles en el portal de CQD en un promedio de 30 minutos (en comparación con el CQD anterior, que es como promedio de 24 horas). Los registros de llamadas de la canalización de NRT solo están disponibles durante unos meses antes de que se eliminen del conjunto de datos. El proceso de CQD V3 combina los datos de la canalización V2 actual con los datos de NRT de la canalización V3. Las consultas de los portales V2 y v3 para los datos del período de archivado producen los mismos resultados. Las consultas de datos de V2 y v3 para los datos de NRT y NRT períodos de datos + PII serán diferentes.
 
 ### <a name="piieuii-data"></a>Datos PII/EUII
 

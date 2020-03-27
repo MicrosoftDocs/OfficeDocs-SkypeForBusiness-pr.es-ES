@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo asignar, cambiar o quitar un número de teléfono del trabajo para los usuarios de su equipo, de modo que los usuarios de fuera de la empresa y los clientes puedan llamar.
-ms.openlocfilehash: 08f662abbad8d7e59d6ed543257d7bb1116e08f1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b406a303352afaf29537815e98aed2d660670f12
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826998"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982113"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Asignar, cambiar o quitar un teléfono móvil de un usuario
 
@@ -50,7 +50,7 @@ Para obtener información sobre cómo obtener planes de llamadas en Teams y cuá
 4. Para asignar o cambiar la ubicación de emergencia asociada, en **Ubicación de emergencia**, busque y seleccione la ubicación.
 6. Haga clic en **Guardar **.
     > [!NOTE]
-    > Debido a la latencia entre Office 365 y Teams, los usuarios pueden tardar hasta 24 horas en habilitarse. Si, después de 24 horas, si el número de teléfono no se ha asignado correctamente, [póngase en contacto con el servicio de asistencia al cliente de RTC](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md). Estamos aquí para ayudarle.
+    > Debido a la latencia entre Office 365 y Teams, los usuarios pueden tardar hasta 24 horas en habilitarse. Si, después de 24 horas, si el número de teléfono no se ha asignado correctamente, [póngase en contacto con el soporte técnico para productos para empresas: ayuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Estamos aquí para ayudarle.
   
 ## <a name="change-a-phone-number-for-a-user"></a>Cambiar el número de teléfono de un usuario
  

@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: En este artículo se resumen los requisitos para admitir salas de Microsoft Teams.
-ms.openlocfilehash: e19537005717a803740f268f2d8f766ed2d87303
-ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
+ms.openlocfilehash: c20da0aaa42f9e11b8bb0aba3a1f9c0248c24c7b
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42728939"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982123"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas de Microsoft Teams
 
@@ -48,7 +48,7 @@ Una implementación de hardware incluye una selección de un sistema de salas de
 
 Todos los paquetes y paquetes de Microsoft Teams Room están disponibles en la [exhibición de productos de sistemas de salas](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
 
-  |Consola|Processor|MEMORIAS|Disco|
+  |Consola|Procesador|MEMORIAS|Disco|
   |:-----|:-----|:-----|:-----|
   |[Crestron Flex UC-M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Núcleo de i5|8 GB |128 GB |
   |[Crestron Flex UC-B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Núcleo de i5|8 GB |128 GB |
@@ -63,6 +63,7 @@ Todos los paquetes y paquetes de Microsoft Teams Room están disponibles en la [
   |[Yealink MVC800](https://www.yealink.com/products_125.html)|Núcleo de i5|8 GB|128 GB|
   |[Yealink MVC500](https://www.yealink.com/products_126.html)|Núcleo de i5|8 GB |128 GB |
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|Núcleo de i5|8 GB |128 GB |
+  |[Yealink MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Núcleo de i5|8 GB|128 GB|
   ||||||
 
 > [!NOTE]
@@ -71,7 +72,7 @@ Todos los paquetes y paquetes de Microsoft Teams Room están disponibles en la [
 
 **Tabletas Surface Pro compatibles con sistemas de estilo Dock**
 
-  |Lápiz|Processor|MEMORIAS|Disco|
+  |Lápiz|Procesador|MEMORIAS|Disco|
   |:-----|:-----|:-----|:-----|
   |Surface Pro 6| Núcleo de i5 |16 GB u 8 GB |128 GB o más |
   |Surface Pro </br>(quinta generación) |Núcleo de i5 |8 GB o 4 GB |128 GB o más |
