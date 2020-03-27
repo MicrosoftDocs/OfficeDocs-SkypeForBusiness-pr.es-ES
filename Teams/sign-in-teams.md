@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Cómo iniciar sesión en Microsoft Teams mediante la autenticación moderna.
+description: Cómo iniciar sesión en Microsoft Teams mediante la autenticación moderna. Incluye cómo omitir agregar automáticamente el nombre de usuario UPN cuando los usuarios inician sesión.
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bb74338a3e46bb4e3a65fcbf2a69d56558dad61
-ms.sourcegitcommit: f859843003b34feab18a3d2df34fdbb9858e7148
+ms.openlocfilehash: c541371b78bcd9119abe7a11523d0d2f7b5eda7c
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41889443"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978372"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Iniciar sesión en Microsoft Teams con la autenticación moderna
 ==========================

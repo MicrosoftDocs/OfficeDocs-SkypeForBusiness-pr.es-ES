@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7a27d8f3d6da0521b09ab2c1a011eab9aa7235f
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 28fe29133384f082dd7b8e51bcff1705906efc94
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892350"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978502"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introducción a Microsoft Teams para el aprendizaje remoto
 
@@ -79,7 +79,8 @@ Aquí tiene un conjunto de configuraciones comunes, no predeterminadas, de direc
 
 #### <a name="messaging-policy"></a>Directiva de mensajería
 
-- Configuración de Cambiar establecida en "desactivado"
+- Eliminar mensajes enviados en “desactivado”
+- Editar mensajes enviados en “desactivado”
 - Clasificación del contenido de Giphy en "estricto"
 - Traducir mensajes en "activado"
 - Enviar mensajes urgentes con notificaciones prioritarias en "desactivado"

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62b4add4e3371604478c8a49cc6690000d699f65
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 8db4565b4a9b1fd5e984640b20d3eaacbed24a37
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858775"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978492"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Administrar la Prueba de Office 365 E1
 ==============================
@@ -97,3 +97,5 @@ Para obtener más información, consulte [Licencias de Office 365 para Microsoft
 [Administrar la experiencia exploratoria de Teams](teams-exploratory.md)
 
 [Office 365 para ONG](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+
+[Obtener ayuda para implementar Teams](https://go.microsoft.com/fwlink/?linkid=780698)
