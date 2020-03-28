@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05cbd2f4b6691c873393a7ba711e03aadf70a2f2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 59940eafcdb6f86961b3cd6805cb9c5bb40f9fb2
+ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836990"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033404"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Cómo usa Microsoft Teams la memoria
 
@@ -51,7 +51,7 @@ En el siguiente gráfico se muestra el uso de memoria por parte de Teams en cuat
 
 ![Uso de memoria de Teams en diferentes sistemas](media/teams-memory-usage.png)
 
-Cuando los equipos tengan más memoria, Teams usará esa memoria. En sistemas en los que la memoria es escasa, Teams usará menos. 
+Cuando los equipos tengan más memoria, Teams usará esa memoria. En sistemas en los que la memoria es escasa, Teams usará menos.
 
 ### <a name="symptoms-of-system-memory-issues"></a>Síntomas de problemas de memoria del sistema
 

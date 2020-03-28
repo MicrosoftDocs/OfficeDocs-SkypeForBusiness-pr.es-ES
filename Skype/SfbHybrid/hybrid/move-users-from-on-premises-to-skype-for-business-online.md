@@ -1,5 +1,5 @@
 ---
-title: Mover usuarios de local a Skype empresarial online
+title: Mover usuarios locales a Skype para empresas Online
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -18,14 +18,14 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Obtenga información sobre cómo mover usuarios a Skype empresarial online.
-ms.openlocfilehash: 6653ca8fe7082f0cabd2057c078f7d0d8d6f0389
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d8e8fa08c124717a0d61a758bdb60f2dd24c410
+ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726760"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033384"
 ---
-# <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Mover usuarios de local a Skype empresarial online
+# <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Mover usuarios locales a Skype para empresas Online
 
 Después de mover un usuario de local a Skype empresarial online, el usuario interactúa con Skype empresarial online para su funcionalidad. Los contactos que existían de forma local estarán disponibles en Skype empresarial online y las reuniones existentes organizadas por el usuario para el futuro se actualizan para que los vínculos apunten a Skype empresarial online. Si el usuario está habilitado para conferencias de audio, las reuniones también incluirán coordenadas de acceso telefónico local.  Para mover usuarios de un entorno local a Skype empresarial online, use el cmdlet Move-CsUser o el panel de control de Skype empresarial Server, ambos son herramientas locales. 
 
@@ -40,10 +40,7 @@ Para mover un usuario a online mediante Move-CsUser:
 - Especifique el usuario que se va a mover mediante el parámetro Identity.
 - Especifique el parámetro-Target con el valor "sipfed. online. Lync. <span>com ".
 - Si no tiene una cuenta con permisos suficientes en local y Office 365, use el parámetro-credential para proporcionar una cuenta con permisos suficientes en Office 365.
-- Si la cuenta con permisos en Office 365 no termina en "activado. Microsoft. <span>com ", debe especificar el parámetro-HostedMigrationOverrideUrl, con el valor correcto tal como se describe en [credenciales administrativas necesarias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
-
- > [!NOTE]
- > Debe determinar el valor de HostedMigrationOverrideUrl correcto para su espacio empresarial. Esto se puede realizar fácilmente desplazándose al centro de administración de Skype empresarial heredado. determinar el prefijo-XXXXXXX.online.lync.com y anexar/HostedMigration/hostedmigrationservice.svc. por ejemplo: https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc una vez identificado el valor, úselo para la variable $URL como se muestra a continuación.
+- Si la cuenta con permisos en Office 365 no termina ". en Microsoft. <span>com ", debe especificar el parámetro-HostedMigrationOverrideUrl, con el valor correcto tal como se describe en [credenciales administrativas necesarias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
 La siguiente secuencia de cmdlet se puede usar para mover un usuario a Skype empresarial online y asume que la credencial Office 365 es una cuenta independiente y se proporciona como entrada para el mensaje Get-Credential.
 
@@ -67,6 +64,6 @@ Si la cuenta de administrador es MFA (multi-factor Authentication) habilitada, n
 7. Haga clic en **siguiente**y, **a continuación, otra vez** más para mover al usuario.
 8. Tenga en cuenta que los mensajes de estado sobre aciertos o errores se proporcionan en la parte superior de la aplicación del panel de control principal, no en el asistente.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
