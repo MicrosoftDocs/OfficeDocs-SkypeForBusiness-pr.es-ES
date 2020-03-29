@@ -629,6 +629,7 @@
 ### [Introducción al aprendizaje remoto](remote-learning-edu.md)
 ### [Asignar directivas a grandes grupos de usuarios](batch-policy-assignment-edu.md)
 ### [Licencias de Teams para educación](teams-edu-licensing.md)
+### [Guía ancho de banda bajo de para administradores de educación](edu-remote-low-bandwidth.md)
 ### [Tareas en Teams para educación](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Recursos de Teams para administradores de educación](resources-teams-edu.md)
 ### [Paquetes de directivas de Microsoft Teams para administradores de EDU](policy-packages-edu.md)
@@ -652,6 +653,7 @@
 # Seguridad y cumplimiento
 ## [Información general](security-compliance-overview.md)
 ## Seguridad
+### [Guía de seguridad](teams-security-guide.md)
 ### [Modelos de identidad y autenticación](identify-models-authentication.md)
 ### [Iniciar sesión en Microsoft Teams con la autenticación moderna](sign-in-teams.md)
 ## Cumplimiento
