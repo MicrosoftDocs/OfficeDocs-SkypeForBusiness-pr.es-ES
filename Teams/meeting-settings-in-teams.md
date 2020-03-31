@@ -1,5 +1,5 @@
 ---
-title: Administrar configuración de reuniones
+title: Administrar la configuración de las reuniones
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -20,97 +20,97 @@ ms.custom:
 - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
 - M365-collaboration
-description: Obtenga información sobre cómo administrar la configuración de las reuniones de teams que los usuarios programan en su organización.
+description: Aprenda como administrar la configuración de las reuniones de Teams que los usuarios programan en su organización.
 ms.openlocfilehash: 920069ed5f5687111d51411afce9499a2d5db5d2
 ms.sourcegitcommit: ab6099547846f048f1c4cc584a8c5cb8c386d22e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/04/2020
 ms.locfileid: "42413320"
 ---
-# <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de reuniones en Microsoft Teams
+# <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de las reuniones en Microsoft Teams
 
-Como administrador, debe usar la configuración de reuniones de Teams para controlar si los usuarios anónimos pueden unirse a reuniones de Teams, personalizar las invitaciones a reuniones y, si desea habilitar la calidad de servicio (QoS), establecer intervalos de puertos para el tráfico en tiempo real. Esta configuración se aplica a todas las reuniones de teams que los usuarios programan en su organización. Esta configuración se administra desde la**configuración** de las reuniones de las **reuniones** > en el centro de administración de Microsoft Teams.
+Como administrador, usted utiliza la configuración de las reuniones de Teams para controlar si los usuarios anónimos pueden unirse a las reuniones de Teams, personalice las invitaciones a las reuniones, y si desea habilitar la calidad de servicio (QoS), establecer intervalos de puertos para el tráfico en tiempo real. Estas configuraciones se aplican a todas las reuniones de Teams que los usuarios programen en su organización. Usted administra estos ajustes desde **Reuniones** > **Configuración de reunión** en el centro de administración de Microsoft Teams.
 
-## <a name="allow-anonymous-users-to-join-meetings"></a>Permitir que usuarios anónimos se unan a reuniones
+## <a name="allow-anonymous-users-to-join-meetings"></a>Permitir que los usuarios anónimos se unan a las reuniones
 
-Con la combinación anónima, cualquier persona puede unirse a la reunión como un usuario anónimo haciendo clic en el vínculo de la invitación a la reunión. Para obtener más información, vea [unirse a una reunión sin una cuenta de Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
+Con la unión anónima, cualquiera puede unirse a la reunión como usuario anónimo haciendo clic en el enlace de la invitación a la reunión. Para más información, consulte[Únase a una reunión sin una cuenta de Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
 
 
-![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
-1. En el navegación de la izquierda, vaya a**configuración de reunión**de **reuniones** > .
-2. En **participantes**, Active **usuarios anónimos pueden unirse a una reunión**.
+1. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de reunión**.
+2. En **Participantes**, Active **Usuarios anónimos pueden unirse a una reunión**.
 
-    ![Captura de pantalla de la configuración de participantes para reuniones en el centro de administración](media/meeting-settings-participants.png "Captura de pantalla de la configuración de participantes de las reuniones de Teams en el centro de administración de Microsoft Teams")
+    ![Captura de pantalla de la configuración de los participantes para las reuniones en el centro de administración](media/meeting-settings-participants.png "Captura de pantalla de la configuración de los participantes para las reuniones de Teams en el centro de administración de Microsoft Teams.")
 
-Si no desea que los usuarios anónimos se unan a las reuniones programadas por los usuarios de su organización, desactive esta configuración.
+Si no desea que los usuarios anónimos se unan a las reuniones programadas por los usuarios de su organización, desactive esta opción.
 
-## <a name="customize-meeting-invitations"></a>Personalizar invitaciones a reuniones
+## <a name="customize-meeting-invitations"></a>Personalice las invitaciones a reuniones
 
-Puede personalizar las invitaciones a reuniones de Teams para satisfacer las necesidades de su organización. Puede Agregar el logotipo de su organización e incluir información útil, como vínculos a su sitio web de soporte técnico y renuncia legal, y un pie de página de solo texto.
+Puede personalizar las invitaciones a reuniones de Teams para satisfacer las necesidades de su organización. Puede agregar el logotipo de su organización e incluir información útil, como enlaces a su sitio web de apoyo y renuncia a la responsabilidad legal, y un pie de página sólo de texto.
 
-### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Sugerencias para crear un logotipo para invitaciones a reuniones  
+### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Consejos para crear un logotipo para las invitaciones a reuniones  
 
-1. Crear una imagen que no supere los 188 píxeles de ancho por 30 píxeles de alto (es bastante pequeño).
+1. Crear una imagen que no tenga más de 188 píxeles de ancho por 30 píxeles de alto (es bastante pequeña).
 2. Guarde la imagen en formato JPG o PNG.
-3. Almacene la imagen en una ubicación a la que puedan tener acceso todos los destinatarios de la invitación, como un sitio web público.
+3. Almacene la imagen en un lugar en el que todos los que reciban la invitación puedan acceder, como un sitio web público.
 
-    Ahora puede agregarlo a las invitaciones a reuniones. Consulte los pasos siguientes.
+    Ahora puede añadirlo a sus invitaciones a reuniones. Vea los siguientes pasos.
 
-### <a name="customize-your-meeting-invitations"></a>Personalizar las invitaciones a reuniones
+### <a name="customize-your-meeting-invitations"></a>Personalice sus invitaciones a reuniones
 
-![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
-1. En el navegación de la izquierda, vaya a**configuración de reunión**de **reuniones** > .
-2. En **invitación por correo electrónico**, haga lo siguiente:
+1. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de reunión**.
+2. En **Invitación por correo electrónico**, haga lo siguiente:
 
-    ![Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar](media/meeting-settings-invitation.png "Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar para reuniones de Teams")
+    ![Captura de pantalla de la configuración de la invitación a reunión que puede personalizar](media/meeting-settings-invitation.png "Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar para las reuniones de Teams")
 
-    - **Dirección URL del logotipo** Escriba la dirección URL donde se encuentra almacenado el logotipo.
-    - **Dirección URL legal** Si su organización tiene un sitio web legal al que desea que se vean los problemas legales, escriba la dirección URL aquí.
-    - **Dirección URL de ayuda** Si su organización tiene un sitio web de soporte al que quiere que los demás usuarios tengan problemas, escriba la dirección URL aquí.
-    - **Pie de página** Escriba el texto que desee incluir como pie de página.
-3. Haga clic en **vista previa** de la invitación para obtener una vista previa de la invitación a la reunión.
+    - **URL del logotipo** escriba la dirección URL en donde esté almacenado el logotipo.
+    - **URL jurídica** si su organización tiene un sitio web legal al que quiere que la gente vaya para cualquier asunto legal, introduzca la URL aquí.
+    - **URL de ayuda** si su organización tiene un sitio web de apoyo al que quiere que la gente vaya si se encuentra con problemas, introduzca la URL aquí.
+    - **Pie de página** escriba el texto que quiera incluir como pie de página.
+3. Haga clic en**Vista previa de invitación**para ver una vista previa de su invitación a reunión.
 4. Cuando haya terminado, haga clic en **Guardar**.
-5. Espere una hora o para que los cambios se propaguen. Después, programe una reunión de Teams para ver el aspecto de la invitación a la reunión.  
+5. Espere una hora más o menos para que los cambios se propaguen. Luego programe una reunión de Teams para ver cual es el aspecto de la invitación a reunión.  
 
-## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Establezca cómo desea controlar el tráfico de medios en tiempo real de las reuniones de Teams
+## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Establezca cómo quiere manejar el tráfico de medios en tiempo real para las reuniones de Teams
 
 <a name="bknetwork"> </a>
 
-Si está usando la calidad de servicio [(QoS)](qos-in-teams.md) para priorizar el tráfico de red, puede habilitar marcadores de QoS y establecer intervalos de puertos para cada tipo de tráfico de medios. La configuración de intervalos de puertos para diferentes tipos de tráfico es un único paso para controlar los medios en tiempo real; para obtener más información [, consulta calidad de servicio (QoS) en Teams](qos-in-teams.md) .
+Si utiliza la Calidad de servicio [(QoS)](qos-in-teams.md) para priorizar el tráfico de la red, puede habilitar los marcadores QoS y puede establecer intervalos de puertos para cada tipo de tráfico de medios. Establecer los intervalos de puertos para los diferentes tipos de tráfico es sólo un paso en el manejo de los medios en tiempo real; consulte [Calidad de Servicio (QoS) en Teams](qos-in-teams.md) para más detalles.
 
 > [!IMPORTANT]
-> Si habilita QoS o cambia la configuración en el centro de administración de Microsoft Teams para el servicio Microsoft Teams, también tendrá que [aplicar la configuración correspondiente a todos los dispositivos de usuario](QoS-in-Teams-clients.md) y todos los dispositivos de red internos para implementar por completo los cambios en QoS en Teams.
+> Si habilita la QoS o cambia la configuración en el centro de administración de Microsoft Teams para el servicio de Microsoft Teams, también deberá [aplicar la configuración correspondiente a todos los dispositivos de usuario](QoS-in-Teams-clients.md) y a todos los dispositivos de red interna para implementar completamente los cambios en la QoS en Teams.
 
- ![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
+ ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
-1. En el navegación de la izquierda, vaya a**configuración de reunión**de **reuniones** > .
-2. En **red**, haga lo siguiente:
+1. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de reunión**.
+2. En **Red**, haga lo siguiente:
 
-    ![Captura de pantalla de la configuración de red para las reuniones en el centro de administración](media/meeting-settings-network.png "Captura de pantalla de la configuración de red de las reuniones de Teams en el centro de administración de Microsoft Teams")
+    ![Captura de pantalla de la configuración de la red para las reuniones en el centro de administración](media/meeting-settings-network.png "Captura de pantalla de la configuración de la red para las reuniones de Teams en el centro de administración de Microsoft Teams")
 
-    - Para permitir que los marcadores de DSCP se usen para QoS, Active **insertar marcadores de calidad de servicio (QoS) para el tráfico de medios en tiempo real**. Solo tiene la opción de usar marcadores o no. no puede establecer marcadores personalizados para cada tipo de tráfico. Para obtener más información sobre los marcadores de DSCP, vea [seleccionar un método de implementación de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) .
+    - Para permitir que las marcas de DSCP se utilicen para QoS, Active **Insertar marcadores de calidad de servicio (QoS) para el tráfico de medios en tiempo real**. Sólo tienes la opción de usar marcadores o no; no puedes establecer marcadores personalizados para cada tipo de tráfico. Consulte [Seleccionar un método de implementación de QoS ](QoS-in-Teams.md#select-a-qos-implementation-method) para más información sobre los marcadores DSCP.
         > [!NOTE] 
-        > Al activar los **marcadores de inserción de calidad de servicio (QoS) para el tráfico de medios en tiempo real** , también se habilitará la comunicación con el transmisor de transporte con puertos UDP 3479 (audio), 3480 (vídeo) y 3481 (uso compartido).
-    - Para especificar intervalos de puertos, junto a **seleccionar un intervalo de puertos para cada tipo de tráfico de medios en tiempo real**, seleccione **especificar intervalos de puertos**y, a continuación, escriba los puertos de inicio y de finalización para el audio, el vídeo y la pantalla compartida. Es necesario seleccionar esta opción para implementar QoS.
+        > Activar**Insertar marcadores de calidad de servicio (QoS) para el tráfico de medios en tiempo real**también permitirá la comunicación con el relé de transporte con los puertos UDP 3479 (Audio), 3480 (Video) y 3481 (Compartir).  
+    - Para especificar los intervalos de los puertos, junto a **Seleccione un rango de puertos para cada tipo de tráfico de medios en tiempo real**, seleccione **Especificar rangos de puertos** y luego, introducir los puertos inicial y final para compartir audio, video y pantalla. La selección de esta opción es necesaria para implementar la QoS.
         > [!IMPORTANT]
-        > Si selecciona **usar automáticamente cualquiera de los puertos disponibles**, se usan los puertos disponibles entre 1024 y 65535. Use esta opción solo si no implementa QoS.
+        > Si usted selecciona**Utilizar automáticamente cualquier puerto disponible**, se utilizan los puertos disponibles entre 1024 y 65535. Use esta opción sólo cuando no implemente la QoS.
         >
-        > Si seleccionas un intervalo de puertos demasiado estrecho, dará lugar a llamadas perdidas y a una mala calidad de las llamadas. Las siguientes recomendaciones deben ser un mínimo.
+        > Si se selecciona un rango de puertos demasiado estrecho, se producirán caídas y una mala calidad en las llamadas. Las recomendaciones que figuran a continuación deben ser en lo mínimo.
 
-Si no está seguro de qué intervalos de puertos usar en su entorno, la configuración siguiente es un buen punto de partida. Para obtener más información, lea [implementar calidad de servicio (QoS) en Microsoft Teams](QoS-in-Teams.md). Estas son las marcas de DSCP necesarias y los intervalos de puertos de medios correspondientes sugeridos que usan tanto Teams como ExpressRoute.
+Si no está seguro de los rangos de puertos a utilizar en su entorno, los siguientes ajustes son un buen punto de partida. Para obtener más información, consulte[Implementar la Calidad de servicio (QoS) en Microsoft Teams](QoS-in-Teams.md). Estas son las marcas DSCP requeridas y los rangos de puertos de medios correspondientes sugeridos utilizados tanto por Teams como por ExpressRoute.
 
-_Intervalos de puertos y marcas de DSCP_
+_Intervalos de puertos y marcas DSCP_
 
-Tipo de tráfico multimedia| Intervalo de puertos de origen del cliente\* |Protocolo|Valor de DSCP|Clase de DSCP|
+Tipo de tráfico de medios | Rango de puertos de origen del cliente \* |Protocolo|Valor de DSCP|Clase DSCP|
 |:---             |:---                         |:---    |:---      |:---      |
-|Audio            | 50000 – 50019               |TCP/UDP |46        |Desvío rápido (EF)|
-|Vídeo            | 50,020–50,039               |TCP/UDP |34        |Desvío garantizado (AF41)|
-|Aplicación/pantalla compartida| 50,040–50,059      |TCP/UDP |18        |Reenvío asegurado (AF21)|
+|Audio            | 50 000 – 50 019               |TCP/UDP |46        |Desvío rápido (EF)|
+|Vídeo            | 50 020 – 50 039               |TCP/UDP |34        |Desvío garantizado (AF41)|
+|Aplicación/Compartir pantalla| 50 040 – 50 059      |TCP/UDP |18        |Desvío garantizado (AF21)|
 | | | | |
 
-\*Los intervalos de puertos que asigne no se pueden superponer y deben estar unos al lado de otros.
+\*Los intervalos de puertos que usted asigna no pueden superponerse y deben estar uno al lado del otro.
 
-Después de que se haya utilizado QoS durante un tiempo, tendrá información de uso sobre la demanda para cada una de estas tres cargas de trabajo y podrá elegir qué cambios se deben realizar en función de las necesidades específicas. El [Panel de calidad de llamadas](turning-on-and-using-call-quality-dashboard.md) te ayudará a hacerlo.
+Después de que la QoS se haya utilizado durante un tiempo, tendrá información de uso sobre la demanda de cada una de estas tres cargas de trabajo, y podrá elegir qué cambios realizar en función de sus necesidades específicas. [Panel de calidad de llamadas](turning-on-and-using-call-quality-dashboard.md)será de gran ayuda con eso.
