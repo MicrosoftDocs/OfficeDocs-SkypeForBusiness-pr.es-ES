@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d85bb4ba32bf83d3c774a2b6700a96c7e35dcb2a
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: f91ba33e372334fed3561227f1c7f88f9357aa55
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42935237"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43060346"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams 
 
@@ -34,7 +34,7 @@ Si ya ha [optimizado su red para Office 365](https://docs.microsoft.com/Office36
     |  |  |
     |---------|---------|
     |Puertos     |Puertos UDP <strong>3478</strong> a <strong>3481</strong>        |
-    |[Direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong> y <strong>52.112.0.0/14</strong>        |
+    |[Direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>y <strong>52.120.0.0/14</strong>         |
     
 2.  ¿Tiene un dominio verificado para Office 365 (por ejemplo, contoso.com)?
     
@@ -67,7 +67,7 @@ Es posible que desee realizar una optimización de red adicional si:
 
   - Teams se ejecuta lentamente (es posible que no tenga suficiente ancho de banda)
   - Las llamadas siguen colocando (puede deberse a bloqueadores de proxy o firewall).
-  - Las llamadas son estáticas y y cortadas, o voces suenan como robots (pueden ser vibración o pérdida de paquetes).
+  - Las llamadas son estáticas y recortadas, o voces suenan como robots (pueden ser vibración o pérdida de paquetes).
 
 Para obtener información detallada sobre la optimización de red, incluidas las pautas para identificar y resolver las deficiencias de red, lea [principios de conectividad de red de Office 365](https://aka.ms/pnc).
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: ceb77747da051c5b7e4fb764d6b6679335d8f366
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 476fd2cf77b7ec57a0279d71b614dc50395b3023
+ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836450"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43059414"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar directivas de mensajería de Teams
 
@@ -44,7 +44,7 @@ Por ejemplo, supongamos que desea asegurarse de que los mensajes enviados no se 
 - Los usuarios pueden eliminar mensajes enviados
 - Los usuarios pueden editar mensajes enviados
 
-A continuación, asigne la Directiva a los usuarios.
+Luego asigne la directiva a los usuarios:
 
 > [!NOTE] 
 > Un usuario solo puede tener asignada una directiva de mensajería a la vez.
@@ -58,9 +58,9 @@ Si está aplicando una directiva a más de un usuario, seleccione cada uno de lo
 También puede asignar una directiva de mensajería a uno o más usuarios de la siguiente manera:
 
 1. Vaya a > **las directivas de mensajería**del **centro de administración de Microsoft Teams**.
-2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva.
-3. Seleccione **administrar usuarios**.
-4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
+2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
+3. Seleccione **Administrar usuarios**.
+4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 5. Cuando haya terminado de agregar usuarios, seleccione **Guardar**.
 
 > [!NOTE]
@@ -92,8 +92,10 @@ Use la siguiente configuración para cambiar la Directiva de mensajería global 
 - **Permitir vistas previas de URL** Use esta opción si desea activar o desactivar la visualización previa automática de direcciones URL en los mensajes.
 - **Permitir a los usuarios traducir mensajes** Active esta opción para que los usuarios pueden traducir automáticamente los mensajes de Teams en el idioma que se especifique en su configuración de idioma personal de Office 365.
 - **Permitir el lector inmersivo para ver mensajes** Active esta opción para permitir a los usuarios ver los mensajes en Microsoft inmersivo Reader. El lector inmersivo es una herramienta de aprendizaje que proporciona una experiencia de lectura de pantalla completa para aumentar la legibilidad del texto.
-- **Los usuarios pueden enviar notificaciones <a name="urgent-message">prioritarias</a> ** Si activa esta opción, los usuarios pueden enviar un mensaje que usa notificaciones de prioridad. Las notificaciones prioritarias notifican a los usuarios cada 2 minutos por un período de 20 minutos o hasta que el destinatario retoma y Lee los mensajes, lo que maximiza la probabilidad de que el mensaje se recoja y esté accionado de manera oportuna.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
-- **Creación de mensajes de audio** -importante: los mensajes de audio no se capturan en informes de eDiscovery. 
+- **Enviar mensajes urgentes con notificaciones prioritarias** Si activa esta opción, los usuarios pueden enviar un mensaje que usa notificaciones de prioridad. Las notificaciones prioritarias notifican a los usuarios cada 2 minutos por un período de 20 minutos o hasta que el destinatario retoma y Lee los mensajes, lo que maximiza la probabilidad de que el mensaje se recoja y esté accionado de manera oportuna.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **Creación de mensajes de audio** 
+  > [!Important]
+  > Los mensajes de audio no se capturan en informes de eDiscovery. 
     - **Permitido en chats y canales** Esto significa que los usuarios pueden dejar mensajes de audio en los chats y en los canales.
     - **Permitido solo en chats** Esto significa que los usuarios pueden dejar mensajes de audio en los chats, pero no en los canales.
     - **Desactivado** Esto significa que los usuarios no pueden crear mensajes de audio en los chats o canales.  

@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: Obtenga información detallada sobre las dimensiones y medidas usadas por el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online.
-ms.openlocfilehash: b23b87ee7cf0f28fca59a3dee13113dcf28a141a
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 71f9f2ea8ea01108b0a2f80e8e07cacfeef899ea
+ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583087"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43059434"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensiones y medidas disponibles en el panel de calidad de llamadas
 
@@ -501,7 +501,7 @@ Muchos valores de medida también se pueden usar como filtros. En la tabla sigui
 
 |Nombre de la medida |Unit |Descripción |
 |:--- |:--- |:--- |
-|Recuento total de transmisiones |Número de transmisiones |Número de transmisiones multimedia, independientemente del tipo de medio. |
+|Recuento total de transmisiones |Número de transmisiones |Número de transmisiones multimedia, independientemente del tipo de contenido multimedia, incluidas las secuencias de confiabilidad y diagnóstico que pueden no tener un tipo de medio. |
 | Número total de streams disponibles de CDR | Número de transmisiones |Número de transmisiones de multimedia con información de confiabilidad o de diagnóstico disponible. Consulte [grabación de detalles de llamadas (CDR) en Skype empresarial Server](https://docs.microsoft.com/skypeforbusiness/manage/health-and-monitoring/call-detail-recording-cdr) |
 |Número total de flujos de error de medios |Número de transmisiones |Número de transmisiones en las que la ruta de acceso a medios no se pudo establecer o no finalizó con normalidad. |
 |El número total de secuencias de llamadas falló |Número de transmisiones |Número de transmisiones en las que no se pudo establecer la ruta de acceso a los medios entre los puntos de conexión al inicio de la llamada. |
