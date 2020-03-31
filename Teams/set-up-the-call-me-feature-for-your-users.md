@@ -16,16 +16,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe895fee4f3bc0872d277429289b5d04d6c9161d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 8fc2a66e2414350a56874583af6a00f688450f0e
+ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838000"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43068522"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Configure la característica llamarme para sus usuarios
 
 En Microsoft Teams, la característica **llamarme** proporciona a los usuarios una manera de unirse a la parte de audio de una reunión por teléfono. Esto es útil en escenarios en los que es posible que no sea posible usar un equipo para el audio. Los usuarios obtienen la parte de audio de la reunión a través del teléfono móvil o la línea terrestre y la parte&mdash;de contenido de la reunión, cuando otro participante de la reunión&mdash;comparte su pantalla o reproduce un vídeo a través de su equipo.
+
+> [!IMPORTANT]
+> Durante la duración del brote COVID-19, recomendamos que los usuarios se unan a las reuniones haciendo clic en el botón unirse a la **reunión de Teams** en lugar de marcar usando los números de la Conferencia RTC o llamando **al**. Esto ayuda a garantizar la calidad de audio en las ocasiones en que el volumen de las reuniones altas provoca congestión en la red PSTN.
 
 ## <a name="the-user-experience"></a>La experiencia del usuario
 
