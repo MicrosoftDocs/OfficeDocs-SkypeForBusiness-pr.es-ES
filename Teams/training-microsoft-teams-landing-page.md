@@ -13,17 +13,18 @@ localization_priority: Priority
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
+- remotework
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc47eee83c9347613d37d2e808f0c434b7ba9750
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: e0b810b5b8d700379c979363ac5349eec9bb2342
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858735"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053643"
 ---
 # <a name="microsoft-teams-training"></a>Aprendizaje de Microsoft Teams
 

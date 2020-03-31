@@ -16,12 +16,13 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
-ms.openlocfilehash: 4f929e67ccf4c09caed23a751f0e547314af82f2
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+- remotework
+ms.openlocfilehash: a77a96e13e43be436bbf50411f47c6a515706aa4
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858785"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053543"
 ---
 <div id="main" class="v2">
     <div class="container">
