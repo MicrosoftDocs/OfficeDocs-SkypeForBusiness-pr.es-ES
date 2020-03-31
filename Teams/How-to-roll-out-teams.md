@@ -13,18 +13,19 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
+- remotework
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48756dc6fdcbe2c289abb08b803b169fdb6cee58
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: bb11c6a7386abb9a83e178692a84cef1dfe8bd05
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928433"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053563"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Cómo implementar Microsoft Teams
 

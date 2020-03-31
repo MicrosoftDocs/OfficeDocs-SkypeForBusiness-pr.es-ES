@@ -12,18 +12,19 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- remotework
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b687d528f7cb593039fdafd9dcc6ec08ec66372
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 3320681f606150be223433d6ab80e8e0ee41a42f
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341648"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053416"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Seguridad y cumplimiento en Microsoft Teams
 
@@ -70,7 +71,11 @@ La aplicación de escritorio de Microsoft Teams es compatible con AppLocker.  Pa
 
 ## <a name="compliance"></a>Respeto
 
-Teams tiene una amplia variedad de información para ayudarle en áreas de cumplimiento, entre las que se incluyen directivas de retención, protección de pérdida de datos (DLP), eDiscovery y retención legal para canales, chats y archivos, búsqueda de registros de auditoría, así como administración de aplicaciones para dispositivos móviles con Microsoft Intune. Hemos proporcionado cierta información sobre todos estos temas y puede ir al centro de cumplimiento de & de seguridad de Office 365 para administrar esta configuración.
+Teams tiene una amplia variedad de información para ayudarle en las áreas de cumplimiento, como el cumplimiento de las comunicaciones de canales, chats y datos adjuntos, directivas de retención, protección de pérdida de datos (DLP), eDiscovery y retención legal para canales, chats y archivos, registro de auditoría búsqueda, así como administración de aplicaciones móviles con Microsoft Intune. Hemos proporcionado cierta información sobre todos estos temas, y puede ir al centro de cumplimiento de [Microsoft 365](https://compliance.microsoft.com) o al [centro de cumplimiento de & de seguridad de Office 365](https://protection.microsoft.com) para administrar esta configuración.
+
+### <a name="communication-compliance"></a>Cumplimiento de la comunicación
+
+El cumplimiento de la comunicación en Microsoft 365 le permite agregar usuarios a directivas dentro del ámbito que se pueden configurar para examinar las comunicaciones de Microsoft Teams para el lenguaje ofensivo, información confidencial e información relacionada con los estándares internos y normativos. . Las comunicaciones por chat y los datos adjuntos asociados de los canales de los equipos públicos y privados, los chats individuales y los datos adjuntos se pueden analizar para minimizar los riesgos de comunicación en la organización. Para obtener más información sobre cómo puede configurar directivas que le ayuden a detectar, capturar y tomar medidas para comunicaciones de equipos inadecuadas, consulte [cumplimiento de la comunicación en Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
 
 ### <a name="retention-policies"></a>Directivas de retención
 
@@ -157,17 +162,18 @@ Para obtener información sobre cómo determinar las licencias que deben impleme
 
 Los datos de Teams residen en la región geográfica asociada con su inquilino de Office 365. Para ver qué regiones se admiten actualmente, revise la [Ubicación de los datos en Microsoft Teams](location-of-data-in-teams.md).
 
-Si necesita ver la región que hospeda los datos de su inquilino, vaya al perfil de la**** > **organización**del [Centro](https://portal.office.com/adminportal/home) > de administración de 365 de Microsoft. Desplácese hasta **Data location** (Ubicación de datos).
+Si necesita ver la región que hospeda los datos de su inquilino, vaya al perfil de la**Settings** > **organización**del [Centro](https://portal.office.com/adminportal/home) > de administración de 365 de Microsoft. Desplácese hasta **Data location** (Ubicación de datos).
 
 ![Captura de pantalla de la tabla de ubicación de datos que incluye equipos en el centro de administración](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 ## <a name="compliance-standards"></a>Normas de cumplimiento
 
-Teams es compatible con el nivel D. Esto incluye los siguientes estándares: ISO 27001, ISO 27018, SSAE16 SOC 1 y SOC 2, HIPAA y las cláusulas de modelo de la UE (EUMC). En Microsoft Compliance Framework, Microsoft clasifica las aplicaciones y servicios de Office 365 en cuatro categorías. Cada categoría está definida por compromisos de cumplimiento específicos que deben cumplirse para que un servicio de Office 365, o un servicio de Microsoft relacionado, se muestre en esa categoría.
+Teams es compatible con el nivel D. Esto incluye los siguientes estándares: [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001), [ISO 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018), [SSAE16 SOC 1 y SOC 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc), [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)y las [cláusulas de modelo de la UE (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses). En Microsoft Compliance Framework, Microsoft clasifica las aplicaciones y servicios de Office 365 en cuatro categorías. Cada categoría está definida por compromisos de cumplimiento específicos que deben cumplirse para que un servicio de Office 365, o un servicio de Microsoft relacionado, se muestre en esa categoría.
 
 Los servicios en las categorías de cumplimiento C y D que tienen compromisos de cumplimiento están habilitados de manera predeterminada. Los servicios en las categorías A y B incluyen controles para activar o desactivar estos servicios para una organización entera. Los detalles se pueden encontrar en el [Marco de cumplimiento normativo de estándares y regulaciones del sector](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf). Teams también cumple con los requisitos de Cloud Security Alliance.
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[M365 seguridad](https://docs.microsoft.com/microsoft-365/security/)
-[M365 cumplimiento normativo](https://docs.microsoft.com/microsoft-365/compliance/)
+[Seguridad](https://docs.microsoft.com/microsoft-365/security/)
+365 de Microsoft[365 cumplimiento](https://docs.microsoft.com/microsoft-365/compliance/)
+de las[ofertas de cumplimiento de Microsoft](https://docs.microsoft.com/microsoft-365/compliance/offering-home)

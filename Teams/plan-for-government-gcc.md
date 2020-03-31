@@ -15,14 +15,15 @@ f1.keywords:
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
+- remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97f7987d450b5a7b1fc23c39ed1e96ee0f953ae9
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: fb36e9decf7fba80250dce1035187b94198bc86d
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978512"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053613"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan para implementaciones de Microsoft 365 administración pública-GCC
 

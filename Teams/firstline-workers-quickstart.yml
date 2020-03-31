@@ -19,14 +19,15 @@ metadata:
   ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_FLW
+  - remotework
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 7a4871486befdb70f92a13504bef4b2ca86663cf
-  ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+  ms.openlocfilehash: d6c835e00337bc4e6ce05c142b8e4ef693fb1936
+  ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 02/14/2020
-  ms.locfileid: "42008102"
+  ms.lasthandoff: 03/30/2020
+  ms.locfileid: "43053533"
 items:
 - durationInMinutes: 2
   content: >
@@ -107,7 +108,7 @@ items:
     -   Comunicación, medición e iteración basadas en la implementación piloto
 
 
-    ### <a name="next-steps"></a>Pasos siguientes
+    ### <a name="next-steps"></a>Siguientes pasos
 
 
     1.  Siga usando Teams para satisfacer las necesidades de Frontline Worker de su organización.
