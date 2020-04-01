@@ -1,7 +1,7 @@
 ---
 title: Plan para Microsoft 365 Administración Pública - Implementaciones de DoD - Microsoft Teams
 author: lolajacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12d9350437867b04a181e62e8b23bb6ed78d8fbc
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 82c7c8625ca5fcdab7325cf74fcde0c60049da07
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161741"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079452"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan para implementaciones de Microsoft 365 administración pública
 
-Esta guía está orientada a los profesionales de ti que están implantando implementaciones de Office 365 en entidades de gobierno federal de los Estados Unidos u otras entidades que tratan datos que están sujetos a los requisitos y las reglamentaciones gubernamentales, donde el uso de Microsoft 365 Government-DoD es adecuado para cumpla con estos requisitos.
+Esta guía es para los profesionales de ti que están implantando implementaciones de Office 365 en entidades de gobierno federal de Estados Unidos u otras entidades que tratan datos sujetos a reglamentaciones gubernamentales y requisitos, donde el uso de la administración pública de Microsoft 365 es adecuado para cumplir con estos requisitos.
 
 > [!NOTE]
 > Si su organización ya cumple con los requisitos de elegibilidad de los DoD de Microsoft 365, y ha sido solicitado y ha sido aceptado en el programa, puede omitir los pasos 1 y 2 y ir directamente al paso 3.
@@ -67,82 +67,14 @@ Le recomendamos que tome el tiempo de revisar detenidamente la [configuración d
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si necesita modificar cualquiera de los valores predeterminados de la configuración de seguridad de Microsoft 365 gubernamentales-DoD, resolviendo primero el impacto de los cambios que puede realizar.</li></ul> |
+| ![Un icono que representa un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si necesita modificar cualquiera de los valores predeterminados de la configuración de seguridad de Microsoft 365 gubernamentales-DoD, resolviendo primero el impacto de los cambios que puede realizar.</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---dod"></a>Paso 4. Comprender qué capacidades de Teams están disponibles actualmente en Microsoft 365 gobierno-DoD
 
 Para cumplir con los requisitos de nuestros clientes gubernamentales de la nube, existen algunas diferencias entre los equipos de Microsoft 365 gubernamentales-DoD y los equipos de los planes empresariales. Consulte la tabla siguiente para ver qué características están disponibles.
 
-|                             | Característica                     | Requisito       |
-|-----------------------------|-----------------------------|----------------|
-| Básica | Inicio de sesión | Disponible |
-| | Presence | Disponible |
-| | Presencia unificada (Skype empresarial y equipos unificados) | En el trabajo pendiente del gobierno |
-| | Cliente Linux | En el trabajo pendiente del gobierno |
-| Actividades | Suministros | Disponible |
-|  | Mi actividad | Disponible |
-| Chat | Llamada | Disponible |
-| | Archivos | Disponible |
-| | Organigrama | Disponible |
-| | Actividades | Disponible |
-| | Interoperabilidad (1:1 equipos-conversación de Skype empresarial) | En el trabajo pendiente del gobierno |
-| Teams | Mensaje de canal | Disponible |
-| | Archivos de canal | Disponible |
-| | Pestaña OneNote | En el trabajo pendiente del gobierno |
-| | Enviar por correo electrónico un canal | No disponible |
-| | Agregar miembro | Disponible |
-| | Acceso de invitado | En el trabajo pendiente del gobierno |
-| Reuniones | Programar reunión | Disponible |
-| | Unirse a la reunión | Disponible |
-| | Reunión de VoIP | Disponible |
-| | Compartir escritorio | Disponible |
-| | Conceder y tomar el control en el uso compartido | Disponible |
-| | Conectarse desde una sala de conferencias | Disponible |
-| | Grabación en la nube | En el trabajo pendiente del gobierno |
-| | Notas de la reunión | Disponible |
-| | Reuniones de difusión | En el trabajo pendiente del gobierno |
-| | Reuniones federadas (DoD a DoD) dentro de la nube | Disponible |
-| | Compatibilidad con Surface Hub | En el trabajo pendiente del gobierno |
-| Llamadas | Contactos | Disponible |
-| | Suprimi | Disponible |
-| | Correo de voz | Disponible |
-| | Llamada de VoIP | Disponible |
-| | Skype empresarial: llamadas de equipo | Disponible |
-| | Planes de llamadas | No disponible |
-| | Audioconferencias (al permitir que los participantes de la reunión se unan a través de RTC) | Disponible |
-| | Enrutamiento directo de Microsoft Phone System | En el trabajo pendiente del gobierno |
-| | Sala de llamadas RTC | En el trabajo pendiente del gobierno |
-| | Cola de llamadas | En el trabajo pendiente del gobierno |
-| | Soporte de los jefes y los delegados | En el trabajo pendiente del gobierno |
-| | Las transferencias consultiva y segura | En el trabajo pendiente del gobierno |
-| | No molestar en el avance | En el trabajo pendiente del gobierno |
-| | Timbre distintivo | En el trabajo pendiente del gobierno |
-| | 1:1 a escalado de llamadas grupales con equipos, Skype empresarial y participantes de la RTC | En el trabajo pendiente del gobierno |
-| | Reenviar al grupo | En el trabajo pendiente del gobierno |
-| | Transferir a llamada RTC | En el trabajo pendiente del gobierno |
-| | Planes de llamadas de emergencia | En el trabajo pendiente del gobierno |
-| | Compatibilidad con los teléfonos SIP certificados existentes | En el trabajo pendiente del gobierno |
-| | HID USB | Disponible |
-| | eDiscovery para las llamadas y las reuniones | Disponible |
-| | Operador automático de la organización | En el trabajo pendiente del gobierno |
-| | Consumidor de Skype-asistencia para llamadas de equipo | No disponible |
-| Archivos | Recientes | Disponible |
-| | Microsoft Teams | Disponible |
-| Guarde | App Store | No disponible |
-| Búsqueda | Mensajes | Disponible |
-| | Personas | Disponible |
-| | Archivos | Disponible |
-| | Comandos de barra diagonal | Disponible |
-| Respeto | Búsqueda de contenido de cumplimiento | Disponible |
-| | Policy | Disponible |
-| | Búsqueda de registros de auditoría | Disponible |
-| | Retención legal | Disponible |
-| | eDiscovery | Disponible |
-
-|    |     |
-|-----------|------------|
-| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si el conjunto de características de Teams cumple con las necesidades de su organización.</li></ul> |
+[Descripción del servicio Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 ## <a name="step-5-plan-for-governance"></a>Paso 5. Planear la gobernanza
 
