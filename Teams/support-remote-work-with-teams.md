@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos de su organización a ser productivos con Microsoft Teams, especialmente cuando trabajan desde casa (WFH) en respuesta al ataque COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ee5947aee6055a1e69f3d404c7d341c93fd7433
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: f954e9dff86b8c660d416a1aed8031912207ea4f
+ms.sourcegitcommit: ce6b6b57eb9683649f589b747163110bf42ae420
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053603"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43062679"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Dar soporte para trabajadores remotos con Microsoft Teams
 
@@ -111,6 +111,13 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
    - Blog de seguridad de Microsoft (26 de marzo de 2020): [formas alternativas para que los profesionales de seguridad y de TI logren controles de seguridad modernos en los escenarios de trabajo remoto específicos](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
 
    - [Manténgase protegido al trabajar de forma remota: Guía para CISOs](https://www.microsoft.com/security/blog/?p=90736)
+
+   - [Las 12 tareas principales para equipos de seguridad para dar soporte al trabajo desde casa](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   
+   - [Optimizar la conectividad de Office 365 para usuarios remotos que usan túnel dividido de VPN](https://docs.microsoft.com/es-ES/Office365/Enterprise/office-365-vpn-split-tunnel)
+
+   - [Seguridad y Teams](teams-security-guide.md) analiza todos los detalles técnicos de la seguridad de Teams, como parte de los procedimientos y prácticas recomendadas de seguridad de Microsoft 365.
+
 
     
 3. Lea nuestro nuevo contenido sobre el trabajo remoto y cómo compartirlo con los usuarios:
