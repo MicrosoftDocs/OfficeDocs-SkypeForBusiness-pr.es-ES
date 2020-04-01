@@ -19,17 +19,17 @@ description: El administrador de Teams o de TI puede configurar el acceso extern
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 61ce8219125f6dad47ef516aa9f849acb09ec3dd
-ms.sourcegitcommit: 87022aa009eae868e1fd945dc299367e16733a3c
-ms.translationtype: HT
+ms.openlocfilehash: b354172e5a60e3c6f9df5d74c5d16731fdac0bf8
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42544996"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096865"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Administrar el acceso externo en Microsoft Teams
 ======================================================
 
-El acceso externo facilita que los usuarios externos de Teams de todo un dominio puedan hacer búsquedas, llamar, chatear y organizar reuniones con usted en Teams. También puede usar el acceso externo para comunicarse con los usuarios externos que todavía usan Skype Empresarial (en línea o local) o Skype (en la versión preliminar).
+El acceso externo es una forma para que los usuarios de los equipos de un dominio externo puedan buscar, llamar, chatear y configurar reuniones con usted en Teams. También puede usar el acceso externo para comunicarse con usuarios externos que siguen usando Skype empresarial (en línea y local) y Skype (en versión preliminar).
 
 Si quiere que los usuarios externos tengan acceso a los equipos y canales, la opción de acceso de invitado puede ser la más aconsejable. Para obtener más información sobre las diferencias entre el acceso externo y el acceso de invitados, consulte [Comparación entre el acceso de invitado y el acceso externo](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 

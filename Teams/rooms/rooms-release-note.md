@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: En este artículo se describen las mejoras acumulativas de las salas de Microsoft Teams.
-ms.openlocfilehash: 6ecc038658b8178530833ae4f8964bdfc733be84
-ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
+ms.openlocfilehash: 330425650f17fa8782105616371d3c16789d1db8
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42398198"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096995"
 ---
 # <a name="release-notes"></a>Notas de la versión
 
@@ -28,6 +28,7 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 
 |Prensa |Publicado en <br/> Microsoft Store |
 |--- |--- |
+|4.4.25.0 |03/31/2020 |
 |4.3.42.0 |03/02/2020 |
 |4.3.33.0 |1/10/2020 |
 |4.3.23.0 |12/13/2019 |
@@ -60,6 +61,17 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introducción a la característica salas de Microsoft Teams y problemas
+### <a name="44250-03312020"></a>4.4.25.0 (03/31/2020)
+
+Introdujo en esta actualización:
+
+- Compatibilidad de autenticación moderna para Exchange y Skype empresarial
+- Compatibilidad con llamadas de emergencia dinámicas para equipos (componentes de servicio necesarios y lanzados con el cliente de Teams)
+- Posibilidad de deshabilitar el contenido duplicado para mostrar dos salas de presentación con XML
+- Pantalla de bienvenida de la aplicación
+- Configuración de respuesta automática para mejorar la experiencia de unirse a la reunión basada en la proximidad 
+- Avisos de software de código abierto (OSS) en la configuración de dispositivo
+
 ### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
 
 Introdujo en esta actualización:

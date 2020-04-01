@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga más información sobre los factores que debe tener en cuenta antes de configurar eventos en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 816cfb3c971621a367dcf81d1ec555e9735bda9d
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: fac7ca633985a030fd611578466b52912cd3b445
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983866"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096825"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -92,7 +92,7 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 |Permite varios moderadores |&#x2714; (Skype Empresarial) |&#x2714; (Teams) |N/D  |
 |Invitar a un moderador durante la reunión |&#x2714; (Skype Empresarial) |X |N/D |
 |El moderador se unió desde el móvil e Internet |&#x2714; (Skype Empresarial)  |X |N/D |
-|Asociados e invitados de los moderadores o asistentes |&#x2714; (Skype Empresarial)  | (próximamente) |N/D |
+|Asociados e invitados de los moderadores o asistentes |&#x2714; (Skype Empresarial)  | &#x2714; (Teams)  |N/D |
 |Moderador: acceso por RTC |X |&#x2714; (Teams) |N/D |
 |Presentar en una pantalla |X |&#x2714; (Teams) |N/D |
 |Presentar un archivo de PowerPoint (uso compartido de archivos PPT) |&#x2714; |X (atenuado a través del uso compartido de la pantalla) |N/D |

@@ -16,16 +16,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e0d7ef2fa7ae12f660bf6b77ba7c45a8c49ab10
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
-ms.translationtype: HT
+ms.openlocfilehash: ea756b24a0292a35d4e47252383bfc954fcb8fa7
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863201"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096975"
 ---
 # <a name="user-presence-in-teams"></a>Presencia del usuario en Teams
 
-La presencia es parte del perfil de un usuario en Microsoft Teams (y en todo Office 365) que indica a los demás usuarios la disponibilidad y el estado actual del usuario. De forma predeterminada, cualquier persona de su organización que utilice Teams puede ver (casi en tiempo real) si otros usuarios están disponibles en línea.
+La presencia es parte de un perfil de usuario de Microsoft Teams (y de toda la 365 de Office) que indica la disponibilidad y el estado actuales del usuario a otros usuarios. De forma predeterminada, cualquier persona de su organización que utilice Teams puede ver (casi en tiempo real) si otros usuarios están disponibles en línea.
 
 > [!IMPORTANT]
 > Si desinstala el cliente de Skype Empresarial después de mover un usuario al modo **Teams solo**, la presencia dejará de funcionar en Outlook y en otras aplicaciones de Office. La presencia funciona bien en Teams. Solución: Para ver la presencia en Outlook (y otras aplicaciones de Office), Skype Empresarial debe estar instalado, aunque esté ejecutando Teams en el modo **solo Teams**. Microsoft es consciente de este problema y está trabajando en una solución.
@@ -33,8 +33,6 @@ La presencia es parte del perfil de un usuario en Microsoft Teams (y en todo Off
 La presencia de Teams en Outlook es compatible con la aplicación de escritorio Outlook 2013 y posteriores.
 
 ## <a name="presence-states-in-teams"></a>Estados de presencia en Teams
-
-Los estados de presencia del usuario disponibles en Teams son:
 
 |Configurado por el usuario|Aplicación configurada|
 |:--- |:---|
@@ -56,14 +54,16 @@ Los estados de presencia del usuario disponibles en Teams son:
 ||![Círculo rojo abierto con línea diagonal, indica que está bloqueado](media/Presence_Blocked.png) Bloqueado |
 || ![Círculo púrpura con flecha, indica Fuera de la oficina](media/Presence_OOF.png) Fuera de la oficina|
 |||
- 
-Los usuarios pueden ajustar manualmente su estado de presencia actual a algunas opciones, y su estado se refleja a todos los demás usuarios. También se actualizan automáticamente más detalles de la presencia del usuario. Los cambios se basan en la actividad del usuario (Disponible, Ausente), los estados del calendario de Outlook (En una reunión), o los estados de las aplicaciones de Teams (En una llamada, Presentando), a los estados que están sangrados en la lista. Hay un tiempo límite de inactividad de 15 minutos, después del cual el estado de presencia actual se reajusta a Ausente.
 
-Los usuarios reciben todos los mensajes de chat que se les envían en los equipos, independientemente de su estado de presencia. Si un usuario está desconectado cuando alguien le envía un mensaje, el mensaje de chat aparece en Teams la próxima vez que el usuario se conecta. Si un usuario se encuentra en un estado de "No molestar", el usuario seguirá recibiendo mensajes de chat pero no se mostrará una notificación emergente.
+Los Estados de presencia configurados por la aplicación se basan en la actividad del usuario (disponible, ausente), Estados del calendario de Outlook (en una reunión) o Estados de la aplicación de Teams (en una llamada, presentando).
 
-Los usuarios reciben llamadas en todos los estados de presencia excepto en los estados de "No molestar", en los que las llamadas entrantes son entregadas a su buzón de voz. Si el destinatario bloqueó la llamada, la llamada no será entregada y la persona que llama ve la presencia del destinatario como desconectada.
+El estado actual de presencia cambiará a ausente cuando bloquee el equipo o cuando entre en modo de suspensión o de espera. En dispositivos móviles, el estado de presencia cambiará a ausente cuando la aplicación de Teams esté en segundo plano.
 
-Los usuarios pueden agregar a personas a su lista de acceso prioritario yendo a **Configuración** > **Privacidad** en Teams. Las personas que tienen acceso prioritario pueden ponerse en contacto con el usuario incluso cuando éste se encuentra en un estado de "No molestar".
+Los usuarios reciben todos los mensajes de chat que se les envían en los equipos, independientemente de su estado de presencia. Si un usuario está desconectado cuando alguien le envía un mensaje, el mensaje de chat aparece en Teams la próxima vez que el usuario se conecta. Si un usuario no molesta, el usuario aún recibirá mensajes instantáneos pero no se mostrarán las notificaciones de banner.
+
+Los usuarios reciben llamadas en todos los Estados de presencia excepto en no molestar, en el que las llamadas entrantes se dirigen al buzón de voz. Si el destinatario bloqueó la llamada, la llamada no será entregada y la persona que llama ve la presencia del destinatario como desconectada.
+
+Los usuarios pueden agregar a personas a su lista de acceso prioritario yendo a **Configuración** > **Privacidad** en Teams. Las personas con acceso prioritario pueden ponerse en contacto con el usuario incluso cuando el usuario está en no molestar.
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Configuración de administración en equipos en comparación con Skype Empresarial
 
