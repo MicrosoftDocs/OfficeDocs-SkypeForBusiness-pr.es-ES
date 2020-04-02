@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga más información sobre los factores que debe tener en cuenta antes de configurar eventos en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fac7ca633985a030fd611578466b52912cd3b445
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 95baeaf25600853b7d6a2b4e18c548d1998f6789
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096825"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102371"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -87,25 +87,25 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 |Compromiso de audiencia: Yammer |&#x2714; |&#x2714; (experiencia integrada) |&#x2714; (experiencia integrada) |
 |Negociación de audiencia: moderado por P y R |&#x2714;  |&#x2714; |&#x2714; |
 |Cliente productor en Windows |&#x2714; (Skype Empresarial) |&#x2714; (Teams) |&#x2714; (Stream, Teams a través de Stream Embed) |
-|Cliente productor en Mac |X  | &#x2714; (Teams) |&#x2714; (Stream, Teams a través de Stream Embed) |
-|Recuento de asistentes en la interfaz de usuario del productor |X  |&#x2714; (Teams) |&#x2714; (Stream, Teams a través de Stream Embed) |
+|Cliente productor en Mac |&#x274C;  | &#x2714; (Teams) |&#x2714; (Stream, Teams a través de Stream Embed) |
+|Recuento de asistentes en la interfaz de usuario del productor |&#x274C;  |&#x2714; (Teams) |&#x2714; (Stream, Teams a través de Stream Embed) |
 |Permite varios moderadores |&#x2714; (Skype Empresarial) |&#x2714; (Teams) |N/D  |
-|Invitar a un moderador durante la reunión |&#x2714; (Skype Empresarial) |X |N/D |
-|El moderador se unió desde el móvil e Internet |&#x2714; (Skype Empresarial)  |X |N/D |
-|Asociados e invitados de los moderadores o asistentes |&#x2714; (Skype Empresarial)  | &#x2714; (Teams)  |N/D |
-|Moderador: acceso por RTC |X |&#x2714; (Teams) |N/D |
-|Presentar en una pantalla |X |&#x2714; (Teams) |N/D |
-|Presentar un archivo de PowerPoint (uso compartido de archivos PPT) |&#x2714; |X (atenuado a través del uso compartido de la pantalla) |N/D |
+|Invitar a un moderador durante la reunión |&#x2714; (Skype Empresarial) |&#x274C; |N/D |
+|El moderador se unió desde el móvil e Internet |&#x2714; (Skype Empresarial)  |&#x274C; |N/D |
+|Asociados e invitados de los moderadores o asistentes |&#x2714; (Skype Empresarial)  |  &#x2714; (Teams) |N/D |
+|Moderador: acceso por RTC |&#x274C; |&#x2714; (Teams) |N/D |
+|Presentar en una pantalla |&#x274C; |&#x2714; (Teams) |N/D |
+|Presentar un archivo de PowerPoint (uso compartido de archivos PPT) |&#x2714; |&#x274C; (mitigado a través de pantalla compartida) |N/D |
 |Grabación de la reunión guardada en la nube |&#x2714; |&#x2714; |&#x2714; |
-|Publicar automáticamente la grabación en Stream |X |X |&#x2714; |
-|Subtítulos en directo y otros subtítulos |&#x2714; |&#x2714; |X |
+|Publicar automáticamente la grabación en Stream |&#x274C; |&#x274C; |&#x2714; |
+|Subtítulos en directo y otros subtítulos |&#x2714; |&#x2714; |&#x274C; |
 |Subtítulos para las grabaciones de eventos en directo |&#x2714; |&#x2714; |&#x2714; |
 |Controles DVR de los asistentes (pausa, retroceso) |&#x2714; |&#x2714; |&#x2714; |
 |Soporte técnico eCDN Partner |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
-|Informe de asistencia posterior a la difusión para los productores |&#x2714; |&#x2714; |X |
-|Análisis de opiniones de los asistentes: votación y sondeos en directo |&#x2714; (Microsoft Pulse) |X |X |
+|Informe de asistencia posterior a la difusión para los productores |&#x2714; |&#x2714; |&#x274C; |
+|Análisis de opiniones de los asistentes: votación y sondeos en directo |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> Los límites establecidos pueden ser modificados.<br/>
+<sup>1</sup> Los límites establecidos pueden ser modificados. Comprobar los [límites y las especificaciones de Teams](../limits-specifications-teams.md).<br/>
 <sup>2</sup> puede tener hasta 250 moderadores y productores en un evento en vivo, pero solo se muestran en la lista los últimos 10 usuarios.
 
 

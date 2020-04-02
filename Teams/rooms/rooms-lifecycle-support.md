@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: En este artículo se describe la compatibilidad del ciclo de vida de las salas de Microsoft Teams.
-ms.openlocfilehash: 0f445bf2500a01bf8ffddae569d176229bdcfde5
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9ca1f603a8931f204403870ee65a10f28a2a8795
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825918"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102331"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Compatibilidad de versiones de la aplicación salas de Microsoft Teams
  
@@ -53,16 +53,15 @@ En la tabla siguiente se muestran las versiones recomendadas y compatibles de Wi
 |Versión  |Fecha de disponibilidad   |Estado de soporte técnico de salas de Microsoft Teams   |Versión mínima de la aplicación salas de Microsoft Teams | Compilación recomendada de sistema operativo  |
 |:---  |:---       |:---                                  |:---     |:---     |
 | 1909 |2019-11-12 |Actualmente validando, <br/>No recomendado|&#x2014; |&#x2014; |
-| 1903 |2019-05-21 |&#x2780; compatibles, <br/>Recomendado  |4.2.4.0 |18362,356 |
-| 1809 |2019-03-28 |Omitidos <br/>No se recomienda &#x2781;|&#x2014; |&#x2014; |
+| 1903 |2019-05-21 |Posible <br/>Recomendado  |4.2.4.0 |18362,356 |
+| 1809 |2019-03-28 |Omitidos <br/>No se recomienda &#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |Compatible                             |4.1.22.0 |17134,191|
 | 1709 |2018-01-18 |No compatible                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |No compatible                         |&#x2014; |&#x2014; |
 ||||||
 
-&#x2780; Windows 10 1903 no está disponible para dispositivos Crestron Flex debido a un problema con un controlador de dispositivo de gráficos Intel. Windows 10 1903 no se ofrecerá a estos dispositivos. Los usuarios no deben actualizar estos dispositivos a 1903 y mantenerlos en Windows 10 1803 hasta que Crestron esté disponible una actualización de controlador gráfico. 
-
-&#x2781; la versión de Windows 10 1809 no se recomienda debido a problemas de compatibilidad con la aplicación salas de Microsoft Teams. Este problema específico hace que la aplicación salas de Microsoft Teams no se inicie tras el reinicio nocturno. Este problema se ha solucionado en la versión de Windows 10 1903.  
+ 
+&#x2780; Windows 10, la versión 1809 no se recomienda debido a problemas de compatibilidad que se encuentran en la aplicación salas de Microsoft Teams. Este problema específico hace que la aplicación salas de Microsoft Teams no se inicie después de un reinicio nocturno. Este problema se ha solucionado en la versión 1903 de Windows 10.  
 
 Si usa una versión compatible de Windows 10, siempre obtendrá las actualizaciones de aplicaciones más recientes para la aplicación salas de Microsoft Teams.  
 

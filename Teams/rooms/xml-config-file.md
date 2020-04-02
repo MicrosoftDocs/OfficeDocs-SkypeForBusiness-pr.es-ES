@@ -14,12 +14,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: En este artículo se describe la administración remota de la configuración predeterminada usada por un dispositivo de salas de Microsoft Teams, incluida la aplicación de un tema personalizado.
-ms.openlocfilehash: e33934dcabc420b7e84886f0301c343f5caf333a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a06b94bff350d07e540a80092bf7edbed33ddc8
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827407"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102321"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Administrar de forma remota la configuración de la consola de salas de Microsoft Teams con un archivo de configuración XML
 
@@ -47,6 +47,7 @@ Cualquier editor de texto se puede usar para crear un archivo de configuración.
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
     <DualScreenMode>true</DualScreenMode>
+    <DuplicateIngestDefault>false</DuplicateIngestDefault>
     <SendLogs>
         <EmailAddressForLogsAndFeedback>RanierConf@contoso.com</EmailAddressForLogsAndFeedback>
         <SendLogsAndFeedback>true</SendLogsAndFeedback>
@@ -91,9 +92,10 @@ Si un valor de variable es de un tipo incorrecto, los elementos están fuera de 
 |\<IsTeamsDefaultClient> |&#x2777; Boolean  |Primer &#x2776;  |Está deshabilitado de forma predeterminada. |
 |\<BluetoothAdvertisementEnabled> |&#x2777; Boolean  |Primer &#x2776;  |Está habilitado de forma predeterminada. |
 |\<DualScreenMode\>  |&#x2777; Boolean  |Primer &#x2776;  |Si es verdadero, el modo de pantalla doble está habilitado. De lo contrario, el dispositivo usa el modo de pantalla simple. |
-|\<SendLogs\> |Contenedor |Primer &#x2776;  ||
-|\<EmailAddressForLogsAndFeedback\> |Cadena &#x2778;  || Establece una dirección de correo electrónico opcional a la que se pueden enviar los registros cuando aparece la ventana "enviar comentarios". |
-|\<SendLogsAndFeedback\> |&#x2777; Boolean  || Si se cumple, los registros se envían al administrador. Si no se cumple, solo se envían los comentarios al administrador (y no los registros).  |
+| \<DuplicateIngestDefault\> |&#x2777; Boolean  |Primer &#x2776; |Si es verdadero, el contenido se muestra en las dos pantallas en el modo de pantalla doble, cuando está fuera de la reunión. | 
+|\<SendLogs\> |Contenedor |Primer &#x2776;  |  |
+|\<EmailAddressForLogsAndFeedback\> |Cadena &#x2778;  | | Establece una dirección de correo electrónico opcional a la que se pueden enviar los registros cuando aparece la ventana "enviar comentarios". |
+|\<SendLogsAndFeedback\> |&#x2777; Boolean  | | Si se cumple, los registros se envían al administrador. Si no se cumple, solo se envían los comentarios al administrador (y no los registros).  |
 | \<Dispositivos\>  |Contenedor |Primer &#x2776;  | Los nombres de los dispositivos de audio conectados en los elementos secundarios son los mismos valores que aparecen en la aplicación del Administrador de dispositivos. La configuración puede contener un dispositivo que no existe actualmente en el sistema, como un dispositivo de A/V que no está conectado en este momento a la consola. La configuración se retendrá´para el dispositivo respectivo.  |
 |\<MicrophoneForCommunication\> |Cadena &#x2778;  ||Establece el micrófono usado como dispositivo de grabación en una conferencia. |
 |\<SpeakerForCommunication\> |Cadena &#x2778;  ||El dispositivo que se va a usar como altavoz en la conferencia. Esta configuración se usa para configurar el dispositivo de altavoz usado en una llamada. |
@@ -107,7 +109,7 @@ Si un valor de variable es de un tipo incorrecto, los elementos están fuera de 
 |\<CustomThemeColor\> |Contenedor ||Contenedor de los \<valores\>RedComponent \<,\>GreenComponent y \<BlueComponent\> . Estos valores son obligatorios para un tema personalizado. |
 |\<RedComponent\> |Byte (0-255) ||Representa el componente de color rojo. |
 |\<GreenComponent\> |Byte (0-255) ||Representa el componente de color verde. |
-|\<BlueComponent\> |Byte (0-255) ||Representa el componente de color azul. |
+|\<BlueComponent\> |Byte (0-255) ||Representa el componente de color azul. | 
 | | | |
 
 &#x2776; todos los elementos de primer nivel son opcionales. Si un elemento del primer nivel se omite, todos sus parámetros secundarios permanecerán igual en el dispositivo.
@@ -149,7 +151,7 @@ Para ubicar la ruta de acceso de la instancia:
 6. Seleccione la pestaña **detalles** y busque la propiedad de la ruta de acceso de la **instancia de dispositivo** en la lista desplegable.
 7. El valor que se muestra es la ruta de instancia de dispositivo que se establece en el archivo de configuración XML. Al especificar la ruta de acceso en XML, reemplace el símbolo de y comercial `&amp;`(&) con.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Cámaras de contenido](content-camera.md)
 

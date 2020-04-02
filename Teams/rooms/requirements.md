@@ -14,16 +14,16 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: En este artículo se resumen los requisitos para admitir salas de Microsoft Teams.
-ms.openlocfilehash: c20da0aaa42f9e11b8bb0aba3a1f9c0248c24c7b
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 9e07ac6f5f7ca477006dac703f7b3b8b2604c60b
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982123"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102341"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas de Microsoft Teams
 
-Las salas de Microsoft Teams se adaptan a diferentes tamaños de sala mediante una amplia variedad de periféricos de audio y vídeo certificados basados en el tamaño y el uso del salón. Al seleccionar el dispositivo central adecuado y la consola, combinadas con micrófonos, altavoces, cámaras y pantallas apropiadas para el espacio, puede implementar salas de Microsoft Teams en espacios de cualquier tamaño desde espacios muy pequeños de Huddle hasta grandes espacios de conferencia y las salas de reuniones.  El conjunto completo de todos los periféricos de audio y vídeo certificados disponibles que pueden usarse para configurar el salón está disponible en el [escaparate del dispositivo](https://products.office.com/microsoft-teams/across-devices).
+Las salas de Microsoft Teams se adaptan a diferentes tamaños de sala mediante una amplia variedad de periféricos de audio y vídeo certificados basados en el tamaño y el uso del salón. Al seleccionar el dispositivo y la consola del núcleo de la derecha, combinadas con micrófonos, altavoces, cámaras y pantallas apropiadas para el espacio, puede implementar salas de Microsoft Teams en espacios de cualquier tamaño desde espacios muy pequeños de Huddle hasta espacios de conferencia y salas de juntas muy grandes.  El conjunto completo de todos los periféricos de audio y vídeo certificados disponibles que pueden usarse para configurar el salón está disponible en el [escaparate del dispositivo](https://products.office.com/microsoft-teams/across-devices).
 
 En este artículo se resumen los requisitos de implementación y configuración del dispositivo para admitir salas de Microsoft Teams.
 
@@ -116,7 +116,8 @@ Estos dispositivos están disponibles en la [sala de productos](https://products
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Shure Intellimix P300 procesador de conferencia de audio](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Micrófono de matriz de tabla Shure MXA 310](https://www.shure.com/en-US/products/microphones/mxa310) | 4,1 |
 |[Shure Intellimix P300 de Conferening de audio](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 con Intellimix MIC de matriz de techo](https://www.shure.com/en-US/products/microphones/mxa910) | 4,1|
-|[Biamp Tesira de AVB VT4 de audio fijo DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Micrófono SENNHEISER TeamConnect techo 2](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA ex-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  DSP Biamp: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |  |
+|[Biamp Tesira de AVB VT4 de audio fijo DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Micrófono SENNHEISER TeamConnect techo 2](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA ex-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  DSP Biamp: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
+|[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink amplificador +</br> Sennheiser TCC2 de micrófono techo </br> + Bose EdgeMax altavoz de techo](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  DSP Bose: 2,290  </br> P2600A: 1,160  </br> TCC2:1.4.2  |  |
 ||||||
 
 &Dagger;Los clientes pueden elegir la interfaz de Dante o el conmutador de red recomendado por Biamp/Sennheiser para este paquete.

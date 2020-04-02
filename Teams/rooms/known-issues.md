@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: En este artículo se comentan los problemas conocidos de Sala de Microsoft Teams por área de características.
-ms.openlocfilehash: 3fedfbb4fdce0626783d285825eb75c22e2e7a78
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e0b22d55de5fcf2fd49cf795497f2cb26c1952cf
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826068"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102381"
 ---
 # <a name="known-issues"></a>Problemas conocidos 
  
@@ -31,14 +31,14 @@ En este artículo se indican los problemas conocidos de Sala de Microsoft Teams 
 | Título del problema |  Comportamiento \/ síntoma | Solución conocida | Artículo de KB |
 |  ---        |      ---             |   ---            | --- |
 |  Aplicación obsoleta         |    La consola de Microsoft Teams salas muestra un error "configuración del sistema obsoleta".                |   [Usar la herramienta de recuperación de Sala de Microsoft Teams](recovery-tool.md)             |  Ninguna |
-
+|  Dispositivo actualizado a una versión no compatible de Windows 10   |    Dispositivo Windows 10 actualizado desde la versión 1803 a la versión 1809, que no es compatible. La versión compatible es 1903. |   Esto puede ocurrir si la configuración [de directiva de grupo o de MDM para DeferFeatureUpdatesPeriodinDays](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) , que le permite aplazar actualizaciones de características durante un número determinado de días, se establece en el máximo de 365 días. <br><br> Windows 10 versión 1809 no es compatible con salas de Microsoft Teams, mientras que la versión 1903 es compatible. Sin embargo, a partir del 27 de marzo de 2020, la versión 1809 es superior a 365 días. Si esta configuración no se modifica, Windows intenta instalar la versión 1809, lo que puede ocasionar problemas con las salas de Microsoft Teams.<br><br>Para evitar esta situación, **Quite** cualquier directiva de grupo o configuración de MDM para aplazar las actualizaciones. Esto permite a Windows actualizar a la última versión del sistema operativo compatible. <br><br>**Importante** Es necesario **quitar** la configuración de directiva de grupo o MDM (izquierda sin configurar) y **no establecida en 0**. Si la Directiva se establece en 0, Windows toma la última versión disponible, que es posible que no sea compatible. |  Ninguna |
 
 <a name="OS-conflicts"> </a>  
 ## <a name="user-interface"></a>Interfaz de usuario 
 
 | Título del problema |  Comportamiento \/ síntoma | Solución conocida | Artículo de KB |
 |  ---        |      ---             |   ---            | --- |
-|Falta el teclado virtual   | El teclado virtual no aparece cuando necesita especificar información en Salas de Microsoft Teams. Este problema se produce después de instalar Windows 10 Creators Update (versión 1703) en un Surface Pro 4 en el que se ejecuta Sala de Microsoft Teams. | Para solucionar este problema, abra manualmente el teclado virtual. Para ello, siga estos pasos:<br><br> **1.** Mantenga presionada la barra de tareas y, después, pulse el botón **Mostrar teclado táctil**. Se mostrará un icono de teclado en el lado derecho de la barra de tareas. <br><br> **2.** Pulse el icono de teclado para abrir el teclado virtual. | [KB4037694](https://support.microsoft.com/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
+|Falta el teclado virtual   | El teclado virtual no aparece cuando necesita especificar información en Salas de Microsoft Teams. Este problema se produce en Windows 10, versión 1903. | Instale la actualización acumulativa 2020-04 para Windows 10, versión 1903 para sistemas basados en x64 a través de actualizaciones de Windows.  | Ninguna | 
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>Hardware
@@ -69,9 +69,6 @@ Si el dispositivo de las salas de Microsoft Teams pierde la confianza con el dom
 La versión de 64 bits de la edición de Windows 10 Enterprise Anniversary (en inglés, versión 1607) ya no se admite desde la versión 3.0.12.0 de Salas de Microsoft Teams. 
 ***
 Salas de Microsoft Teams es una aplicación de varias ventanas y requiere que se conecte al puerto HDMI del dispositivo una parte delantera de la sala para que la aplicación funcione correctamente. Asegúrese de que tiene una pantalla HDMI conectada o use una conexión de HDMI ficticia si está probando y no ha comprado aún una pantalla.
-***
-Windows 10 1903 aún no se ofrece en dispositivos de salas de Microsoft Teams desde Crestron debido a problemas con un controlador de gráficos.
-
 ***
 <a name="See"> </a>  
 ## <a name="see-also"></a>Vea también
