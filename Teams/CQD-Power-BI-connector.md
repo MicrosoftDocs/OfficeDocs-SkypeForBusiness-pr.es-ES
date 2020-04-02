@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar el conector de Power BI para usar plantillas de consulta de CQD
-ms.openlocfilehash: 393bfaf6348bb5ebc8c46df011387961d95cccfa
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 73f19ef893aebbbd2c6ab9b79946097d6a834c36
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102351"
+ms.locfileid: "43106697"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar el conector de Power BI para usar plantillas de consulta de CQD
 
@@ -121,7 +121,7 @@ Ten en cuenta que, aunque el conector está en versión preliminar, no es probab
 
 ### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>Estoy intentando usar la columna de fecha como una segmentación de datos de fecha. Tan pronto como convierta el tipo de datos de esta columna en fecha, obtengo este error:
 
-  **No se pudieron cargar los datos para este visual**: OLE DB o error de ODBC: [expr. error] no se puede doblar la expresión al origen de datos. Prueba una expresión más sencilla. 
+> **No se pudieron cargar los datos para este visual**: OLE DB o error de ODBC: [expr. error] no se puede doblar la expresión al origen de datos. Prueba una expresión más sencilla. 
 
 La segmentación de datos no es compatible con el conector de Power BI. Para especificar un intervalo de fechas, aplique dos filtros al informe, especificando una fecha menor que y mayor que.
 

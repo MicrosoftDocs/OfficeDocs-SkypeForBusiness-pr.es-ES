@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Tome un sitio o página de SharePoint Online y cree una pestaña estática independiente que se puede usar como un portal de intranet para su organización.
 localization_priority: Normal
-ms.openlocfilehash: 772063a7444e9c31d2740ac48635dc0f2e367435
-ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
+ms.openlocfilehash: 0215a2e1f79627f55bc14c00a099b25d2859b6f9
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43100368"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106637"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Crear una aplicación del portal de intranet de un equipo "desde un sitio o una página de SharePoint Online
 
@@ -31,8 +31,7 @@ Tenga en cuenta que el proceso que se muestra **debe usar** un sitio o página d
 > Asegúrese de que la carga de las aplicaciones de Teams está habilitada para su inquilino. En función de dónde se encuentre en el proceso de migración del portal de administración de Teams, es posible que tenga que habilitarlo en Teams > admin, o en la configuración de > de administrador > servicios y complementos > aplicaciones de Microsoft Teams > > aplicaciones externas, en la versión anterior del portal. 
 
 ## <a name="use-app-studio-to-create-your-standalone-sharepoint-online-app"></a>Usar App Studio para crear una aplicación independiente de SharePoint Online
-
-Antes de empezar:
+' ' ' Antes de empezar:
 1. Tendrá que conocer la dirección URL de una comunicación moderna de SharePoint Online o un sitio de grupo o página.
     - Estos sitios siempre tendrán */equipos/* o */sites/* en sus rutas.
 
@@ -66,19 +65,12 @@ Empiece siguiendo los pasos siguientes:
 10. Rellene el **contentURL y la dirección URL del sitio web**. 
 
 - **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx? SPFX = true&dest = {{sitePath}}  
-- **websiteUrl**: {{siteUrl}} 
+- **web'iteUrl**: {{siteUrl}} ' ' ejemplo **contentURL**:https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub 
 
-    Ejemplo **contentURL**:https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub 
+11. Vaya a **dominios y Permissi'ns**. Asegúrese de que la sección dominios válidos contiene el nombre de dominio de SharePoint Online.
+' ' Ejemplo: contoso.sharepoint.com
 
-11. Vaya a **dominios y permisos**. Asegúrese de que la sección dominios válidos contiene el nombre de dominio de SharePoint Online.
-
-    Ejemplo: contoso.sharepoint.com
-
-12. Agregue las siguientes propiedades de **Inicio de sesión único** de la aplicación web: 
-     
-     Ejemplo: **identificador de la aplicación AAD**: **dirección URL del recurso**00000003-0000-0ff1-ce00-000000000000: {{subdominio}}. SharePoint. com
-
-    ![Inicio de sesión único de la aplicación Web, con el identificador y la dirección URL.](media/personal-app.png)
+12. Agregue las siguientes propiedades de **Inicio de sesión único** de la aplicación web: ' ' ejemplo: ' ' ' ' identificador de la **aplicación AAD**: **URL del recurso**00000003-0000-0ff1-ce00-000000000000: {{subdominio}}. ![SharePoint. com ' ' ' Inicio de sesión único con el identificador y la dirección URL.](media/personal-app.png)
 
 13. **Guarde** estas propiedades y, a continuación, vaya a **probar y distribuir**. 
 
@@ -96,15 +88,15 @@ Para ver la nueva pestaña en el escritorio de Teams, navegue hasta los puntos s
 Si desea que la nueva aplicación esté disponible en el menú de la izquierda en una posición superior, debe usar una configuración de directiva de aplicación. Esta opción puede encontrarse en la sección administrador de grupo > Directiva de aplicación > agregar una aplicación anclada. Cuando asigne la Directiva a un usuario para realizar pruebas, el cambio aparecerá 24 horas más tarde. Teniendo esto en mente, decida dónde debe aparecer la aplicación en la primera comodidad para ayudar a evitar retrasos.
 
 Para ver y probar la nueva aplicación en un dispositivo móvil, abra el alimentador de aplicaciones pulsando en la comilla angular (**^**) situada encima de la barra de pestañas situada cerca de la parte inferior de la pantalla. Busque la aplicación y desplácese hasta ella en el dispositivo móvil.
-
+        
 > [!CAUTION]
 > La compatibilidad con teléfonos móviles está actualmente en Developer Preview. Para habilitar Developer Preview, ve a configuración > acerca de y habilita el modo de vista previa para desarrolladores.
 
 ## <a name="a-sample-manifestjson-file"></a>Un archivo manifest. JSON de ejemplo
 
-El archivo JSON que generes tendrá un aspecto similar al siguiente.
+El archivo JSO que generes tendrá un aspecto similar al siguiente.
 
-```JSON
+```JSON'
 { 
 
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json", 
@@ -119,7 +111,7 @@ El archivo JSON que generes tendrá un aspecto similar al siguiente.
 
     "developer": { 
 
-        "name": "Contoso", 
+        "name": "Contoso", ''
 
         "websiteUrl": "https://www.contoso.com", 
 
@@ -139,13 +131,13 @@ El archivo JSON que generes tendrá un aspecto similar al siguiente.
 
     "name": { 
 
-        "short": "Contoso Intranet", 
+        "short": "Contoso Intranet", '
 
         "full": "Intranet Portal for Contoso" 
 
-    }, 
-
-    "description": { 
+    },                     
+                        
+    "des    ription": {                 
 
         "short": "Intranet portal for Contoso", 
 
@@ -154,13 +146,13 @@ El archivo JSON que generes tendrá un aspecto similar al siguiente.
     }, 
 
     "accentColor": "#FFFFFF", 
-
+''
     "staticTabs": [ 
 
         { 
-
-            "entityId": "communicationSiteTab", 
-
+                                       
+                     "       nti        Id":       "com    unicat    onSi    eTab", 
+                                       
             "name": "Contoso Net", 
 
             "contentUrl": "https://contoso.sharepoint.com/sites/ContosoNet/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoNet/", 
