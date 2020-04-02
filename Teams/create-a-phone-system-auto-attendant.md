@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos de la nube para Microsoft Teams.
-ms.openlocfilehash: b89f2b439cf79cf90915c61771bb5a08ef27db99
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9f166e8626d799cb95a447b453663b60079b0704
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824818"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43102088"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
@@ -220,7 +220,12 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 
 > [!IMPORTANT]
 > Siga estos pasos:
->- Los usuarios que desea que estén disponibles para marcar por extensión necesitan tener una extensión especificada como parte de su número de teléfono o número de teléfono móvil asignado en el [centro de administración de Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users).  El formato requerido para introducir la extensión en el campo número de teléfono del usuario es `+<phonenumber>;ext=<extension>` o `x<extension>`.
+>- Los usuarios que desea que estén disponibles para marcar por extensión necesitan tener una extensión especificada como parte de uno de los siguientes atributos de teléfono definidos en Active Directory o el [centro de administración de Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)de Azure Active Directory.
+>    - Teléfono particular
+>    - Móvil/teléfono móvil
+>    - TelephoneNumber/PhoneNumber
+>    - OtherTelephone
+>- El formato requerido para introducir la extensión en el campo número de teléfono del usuario es `+<phonenumber>;ext=<extension>` o `x<extension>`.
 >- La asignación de una extensión en el centro de administración de Teams no es compatible actualmente. Debe usar el comando [set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) de PowerShell o el centro de administración de Microsoft 365.
 >- Pueden pasar hasta 12 horas antes de que los cambios de los atributos PhoneNumber y PhoneNumber de AAD estén disponibles.
 >- NO defina una extensión para el LineUri de un usuario. Esto no es compatible actualmente.
@@ -273,7 +278,7 @@ Inicialmente, el horario laboral se define para que comience en 12:00 AM y termi
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
-![Icono del número 6, una llamada en la captura de pantalla](media/teamscallout6.png) anterior para configurar un salto (una pausa para comer, por ejemplo), seleccione **Agregar nueva hora** para el día de la semana para crear una nueva fila de la tabla y seleccione nuevas horas de inicio y finalización. Puede establecer varios descansos dentro del horario comercial.
+![Icono del número 6, una llamada en la captura de pantalla](media/teamscallout6.png) anterior para configurar un salto (una pausa para la comida, por ejemplo), seleccione **Agregar nueva hora** para el día de la semana para crear una nueva fila de la tabla y seleccione nuevas horas de inicio y finalización. Puede establecer varios descansos dentro del horario comercial.
 
 Las opciones de [flujo de llamadas](#call-flow) disponibles en horario laboral son las mismas que las disponibles durante el horario laboral. Desplácese hacia abajo en la página información para establecer las opciones de flujo de llamadas después de horas.
 
