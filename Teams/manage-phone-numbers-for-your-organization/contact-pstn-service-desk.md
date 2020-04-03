@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cuando reciba números de teléfono o transfiera (transfiriendo) números para su organización, es posible que necesite obtener ayuda y soporte técnico en el servicio de asistencia al cliente de RTC.
-ms.openlocfilehash: 3fe6353deb52911a4e0f0249f500a2a562e29ac1
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 58c32b8bf54ff6b1e9df689c6bcde184889b8462
+ms.sourcegitcommit: 8665603fae8408ccbc083dd59cb01936ebe96c58
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583084"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116706"
 ---
 # <a name="pstn-service-desk-contact"></a>Contacto del servicio de asistencia al cliente RTC
 
@@ -36,6 +36,7 @@ Si necesitas ayuda para obtener o transferir números pero necesitas ayuda, cué
 
   - Su identificador de organización (ID de inquilino) o dominios activos.
   - Qué tipos de números necesita ayuda (usuario/suscriptor, servicio/gratuito o gratuito).
+    - Incluye el código de área (es)/Country/Region desde el que deseas números de teléfono.
   - Cuántos números necesita (si se trata de una adquisición numérica).
   - Autorizar a una persona en la cuenta y a otros detalles importantes en función de su solicitud.
 

@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos de su organización a ser productivos con Microsoft Teams, especialmente cuando trabajan desde casa (WFH) en respuesta al ataque COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89a30efe150aa6dcbe8db61f222f67e371512176
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 8ea77e0c672ffd15adcb5bc63aa77bd45d4b3604
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096818"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117518"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Dar soporte para trabajadores remotos con Microsoft Teams
 
@@ -92,18 +92,6 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
 
    - Si necesita ayuda para solucionar o corregir problemas de calidad de las llamadas o reuniones, siga las instrucciones que se indican al final de este artículo en la sección [Problema conocido (China): Llamadas a las identificaciones de las conferencias de Skype Empresarial o Teams](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids).
 
-2.  [Envíe vínculos de formación](enduser-training.md) para ayudar a los empleados a sacar el máximo rendimiento de Teams.
-
-3. Profundice: Obtenga más información sobre la implementación de Teams.
-
-   - Como organización de tamaño medio (500-5000 usuarios), puede iniciar su recorrido por Teams con [talleres interactivos](teams-in-30-workshops.md) en directo.
-
-   - Únase a una de nuestras [clases en línea](instructor-led-training-teams-landing-page.md) para ver cómo funciona Teams y obtener respuestas a sus preguntas.
-
-   - Comparta [vídeos de formación avanzada](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk) con los usuarios que quieran aprender más.
-
-   - Lea [Cómo implementar Teams](How-to-roll-out-teams.md) para saber cómo prepararse para Teams y cómo administrarlo.
-
 1. Seguridad cuando todos trabajan desde casa
 
    - [Sugerencias principales para trabajar de forma más segura desde casa](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
@@ -118,6 +106,18 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
 
    - [Seguridad y Teams](teams-security-guide.md) analiza todos los detalles técnicos de la seguridad de Teams, como parte de los procedimientos y prácticas recomendadas de seguridad de Microsoft 365.
 
+
+2.  [Envíe vínculos de formación](enduser-training.md) para ayudar a los empleados a sacar el máximo rendimiento de Teams.
+
+3. Profundice: Obtenga más información sobre la implementación de Teams.
+
+   - Como organización de tamaño medio (500-5000 usuarios), puede iniciar su recorrido por Teams con [talleres interactivos](teams-in-30-workshops.md) en directo.
+
+   - Únase a una de nuestras [clases en línea](instructor-led-training-teams-landing-page.md) para ver cómo funciona Teams y obtener respuestas a sus preguntas.
+
+   - Comparta [vídeos de formación avanzada](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk) con los usuarios que quieran aprender más.
+
+   - Lea [Cómo implementar Teams](How-to-roll-out-teams.md) para saber cómo prepararse para Teams y cómo administrarlo.
 
     
 3. Lea nuestro nuevo contenido sobre el trabajo remoto y cómo compartirlo con los usuarios:

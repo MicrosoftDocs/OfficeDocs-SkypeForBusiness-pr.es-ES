@@ -1,5 +1,5 @@
 ---
-title: ¿Qué debo comprar para usar Microsoft 365 Business Voice?
+title: ¿Qué necesito comprar para usar Business Voice de Microsoft 365 con el plan de llamadas?
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -24,30 +24,43 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 0e0d483a3655753527b42a44e51aab68c08eaa95
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 13c2e6dcb2f3f26fc016a96d9acabba4029d91ae
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824578"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096835"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>¿Qué debo comprar para usar Microsoft 365 Business Voice?
 
 ## <a name="microsoft-365-business-voice-licenses"></a>Licencias de Microsoft 365 Business Voice
 
-Para realizar o recibir llamadas de teléfono con números de teléfono *externos* en Microsoft Teams, el usuario necesita una licencia de Microsoft 365 Business Voice. La licencia proporciona acceso a todas las características que necesita para realizar o recibir llamadas de teléfono, hospedar conferencias de audio y mucho más.
+Para realizar o recibir llamadas de teléfono con números de teléfono *externos* en Microsoft Teams, el usuario necesita una licencia de Business Voice de Microsoft 365. La licencia proporciona acceso a todas las características que necesita para realizar o recibir llamadas de teléfono, hospedar conferencias de audio y mucho más.
 
 Los usuarios que no necesiten realizar o recibir llamadas de teléfono desde números de teléfono externos o hacia ellos solo necesitan Teams. No necesitan una licencia de Microsoft 365 Business Voice.
 
 Pongamos un ejemplo en el que tiene 10 empleados de fábrica y 5 de oficina. Es posible que los empleados de fábrica solo necesitan llamar a otros empleados de la empresa. Además de llamar a otros empleados, los trabajadores de oficina también necesitan realizar y recibir llamadas de proveedores, asociados y clientes. En este caso, solo los 5 trabajadores de oficina necesitarán una licencia de Microsoft 365 Business Voice.
 
-Business Voice incluye un Plan de llamadas nacionales, que le ofrece una cantidad de minutos al mes específica para realizar llamadas en su país o región. Si quiere realizar llamadas a otros países o regiones, puede comprar un plan de llamadas internacionales. Puede usar *Créditos de comunicación* para pagar un plan de llamadas internacionales, minutos adicionales al mes para un plan de llamadas nacional y números gratuitos. Más adelante en este artículo verá más información sobre los Planes de llamada y los Créditos de comunicación.
+### <a name="business-voice-license-types"></a>Tipos de licencia de Business Voice
 
-Para más información sobre las características de Business Voice, consulte [Descripción del servicio de Microsoft 365 Business Voice](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
+Hay dos tipos de licencias de Business Voice: Business Voice **con** plan de llamadas y Business Voice **sin** plan de llamadas. El tipo de licencia de Business Voice disponible para usted dependerá de la ubicación de su espacio empresarial de Microsoft 365. El tipo de licencia determina si puede configurar Business Voice por su cuenta, si necesita ayuda de un socio o revendedor de Microsoft, si administra sus números de teléfono, etc.
 
-Para comprar licencias de Microsoft 365 Business Voice, inicie sesión en el [centro de administración](https://admin.microsoft.com/Adminportal/Home#/homepage) y haga clic en **Facturación** > **Comprar servicios**.
+- **Business Voice con plan de llamadas** Puede comprar Business Voice en Microsoft, utilizar el Asistente de inicio para configurar Business Voice y, a continuación, configurar o transferir sus números de teléfono existentes a Microsoft. El artículo [Usar el asistente de inicio para configurar Business Voice](use-getting-started-wizard.md) le muestra cómo configurar Business Voice para su espacio empresarial.
 
-## <a name="calling-plans"></a>Planes de llamadas
+  Vea [Business Voice con plan de llamadas](#business-voice-with-calling-plan) más adelante en este artículo para obtener más información sobre la compra de licencias de Business Voice con plan de llamadas.
+- **Business Voice sin plan de llamadas** Necesita comprar Business Voice a un socio o revendedor de Microsoft que le ayude a configurar Business Voice. Sus números de teléfono actuales permanecen en su actual proveedor de servicios de telefonía. El artículo [Obtener ayuda de un revendedor o socio](reseller-partner-support.md) de Microsoft le ofrece una visión general del proceso necesario para configurar Business Voice en su espacio empresarial.
+
+Para ver si su país o región admite un plan de llamadas, compruebe la [Disponibilidad del país y región para Business Voice](country-region-availability.md).
+
+Para obtener más información sobre las funciones de Business Voice, vea [Descripción del servicio de Business Voice de Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
+
+## <a name="business-voice-with-calling-plan"></a>Business Voice con plan de llamadas
+
+Business Voice con plan de llamadas incluye un plan de llamadas domésticas, que le da un cierto número de minutos al mes para hacer llamadas dentro de su país o región. Si quiere realizar llamadas a otros países o regiones, puede comprar un plan de llamadas internacionales. Puede usar *Créditos de comunicación* para pagar un plan de llamadas internacionales, minutos adicionales al mes para un plan de llamadas nacional y números gratuitos. Más adelante en este artículo verá más información sobre los Planes de llamada y los Créditos de comunicación.
+
+Para comprar licencias de Business Voice de Microsoft 365 con plan de llamadas, inicie sesión en el [centro de administración](https://admin.microsoft.com/Adminportal/Home#/homepage), y luego vaya a **Facturación** > ** de servicios de compra**.
+
+### <a name="calling-plans"></a>Planes de llamadas
 
 Los planes de llamada permiten a los usuarios llamar a números de teléfono ajenos a la organización. Los planes de llamadas incluyen una cantidad de minutos mensuales, que varía en función del número de usuarios con licencias asignadas de Business Voice en un determinado país o región. Cuando un usuario realiza una llamada telefónica, el número de minutos que se usa en esa llamada se resta del total mensual. Al comienzo de cada mes, se restablece el saldo de minutos total.
 
@@ -60,24 +73,27 @@ Las acciones que se producen cuando se usan todos los minutos de un Plan de llam
 
 Hay dos tipos de Planes de llamadas:
 
-### <a name="domestic-calling-plan"></a>Plan de llamadas nacional
+#### <a name="domestic-calling-plan"></a>Plan de llamadas nacional
 
-El Plan de llamadas nacionales permite a los usuarios llamar a números de teléfono en su país o región. Business Voice incluye un Plan de llamadas nacionales para todos los usuarios con una licencia de Business Voice asignada. El número de minutos disponible para cada usuario cada mes depende del país o región en que se encuentra el usuario. Esta tabla muestra el número de minutos de cada país o región donde se admite Business Voice:
+El Plan de llamadas nacionales permite a los usuarios llamar a números de teléfono en su país o región. Business Voice incluye un Plan de llamadas nacionales para todos los usuarios con una licencia de Business Voice asignada. El número de minutos disponible para cada usuario cada mes depende del país o región en que se encuentra el usuario. Esta tabla muestra el número de minutos para cada país o región donde se incluye un plan de llamadas con Business Voice:
 
-|Dónde se encuentra el usuario          |Asignación mensual para llamadas nacionales |
-|-----------------------------------|-------------------------------------|
+|Dónde se encuentra el usuario          |Asignación mensual para llamadas nacionales  |
+|-----------------------------------|--------------------------------------|
 |Canadá                             | 3 000                                |
 |Reino Unido                     | 1 200                                |
+|Estados Unidos                      | 3 000                                |
+
+El plan de llamadas no está incluido en Business Voice en los países o regiones que no aparecen en la tabla anterior. Para obtener una lista de todos los países y regiones en los que Business Voice está disponible, vea la [disponibilidad de Business Voice](country-region-availability.md).
 
 Las llamadas entre Estados Unidos y Canadá se consideran llamadas nacionales. No es necesario agregar el Plan de llamadas internacionales para realizar llamadas entre estos dos países.
 
-### <a name="international-calling-plan"></a>Plan de llamadas internacionales
+#### <a name="international-calling-plan"></a>Plan de llamadas internacionales
 
 El Plan de llamadas internacionales permite a los usuarios llamar a números de teléfono fuera de su país o región. El Plan de llamadas internacionales se adquiere como complemento.
 
 Cuando considere la posibilidad de comprar el Plan de llamadas internacionales para un usuario, determine la frecuencia con la que realizará llamadas internacionales y la duración de las llamadas. Esto es importante, ya que, al comprar un Plan de llamadas internacional, estará pagando con antelación por un número determinado de minutos. Si un usuario no usa todos los minutos disponibles en un mes, los restantes se pierden al comenzar el mes siguiente. Si parece probable que un usuario no consuma todos los minutos del Plan de llamadas internacionales, no lo compre. En su lugar, use Créditos de comunicaciones (consulte la sección siguiente).
 
-## <a name="communications-credits"></a>Créditos de comunicaciones
+### <a name="communications-credits"></a>Créditos de comunicaciones
 
 Los Créditos de comunicación son como una cartera digital que se usa para pagar las llamadas realizadas a números de teléfono fuera de su sistema telefónico. Los Créditos de comunicación se usan en algunas situaciones:
 
@@ -87,7 +103,7 @@ Los Créditos de comunicación son como una cartera digital que se usa para paga
 
 Si aún dispone de Crédito de comunicación al final del mes, este se transfiere al mes siguiente.
 
-### <a name="buy-communication-credits"></a>Compre Crédito de comunicaciones
+#### <a name="buy-communication-credits"></a>Compre Crédito de comunicaciones
 
 Le recomendamos que mantenga siempre un saldo mínimo de Créditos de comunicación para que los usuarios puedan realizar llamadas telefónicas cuando lo necesiten. La forma más sencilla de garantizar que siempre tenga un saldo disponible es configurar una recarga automática. Con la recarga automática, Microsoft 365 rellenará automáticamente el saldo cuando caiga por debajo del mínimo. Si lo desea, puede establecer el mínimo y la cantidad a comprar para cada ocasión. O si prefiere rellenar el Crédito de comunicación de forma manual, también puede hacerlo.
 
@@ -97,7 +113,3 @@ Le recomendamos que mantenga siempre un saldo mínimo de Créditos de comunicaci
 Obtenga más información sobre los Créditos de comunicaciones en [¿Que son los Créditos de comunicación?](../what-are-communications-credits.md)
 
 Para ver los precios de llamadas internacionales y teléfonos gratuitos, desplácese hacia abajo hasta "Agregar tiempo con los Créditos de comunicación" en [El sistema telefónico basado en la nube](https://products.office.com/microsoft-teams/voice-calling#ow-download-rates).
-
-## <a name="maximum-number-of-supported-users"></a>Cantidad máxima de usuarios admitidos
-
-La licencia de Business Voice disponible con las suscripciones a Microsoft 365 para pymes admite hasta 300 usuarios con licencia. Si quiere conceder una licencia de Business Voice a más de 300 usuarios, debe comprar una suscripción a Office 365 E3 o E5.

@@ -19,24 +19,32 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3320681f606150be223433d6ab80e8e0ee41a42f
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: fbec8f7d246a4acfe241ef4f4d701cc9e1e6b28c
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053416"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117428"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Seguridad y cumplimiento en Microsoft Teams
 
 > [!IMPORTANT]
-> Como cliente de Office 365, usted es el propietario y el control de sus datos. Microsoft no utiliza tus datos para nada más que proporcionar el servicio al que te suscribiste. Como proveedor de servicios, no analizamos el correo electrónico, los documentos ni los equipos para anunciar o para fines no relacionados con el servicio. Microsoft no tiene acceso al contenido cargado. Como OneDrive para la empresa y SharePoint Online, los datos de los clientes se conservan en el espacio empresarial. Puede consultar más información sobre la confianza y la información relacionada con la seguridad en el [centro de confianza de Microsoft](https://microsoft.com/trustcenter). Teams sigue las mismas instrucciones y principios que el centro de confianza de Microsoft.
+> Para obtener más información sobre cómo asegurar mejor **la seguridad mientras todos trabajan desde casa durante el brote COVID-19**, lea estos artículos:
+>  - [Las 12 tareas principales para equipos de seguridad para dar soporte al trabajo desde casa](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+>  - [Optimizar la conectividad de Office 365 para usuarios remotos que usan túnel dividido de VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+>  - Actualizado el 2 de abril de 2020: [Guía de seguridad de Teams](teams-security-guide.md)
+
 
 Microsoft Teams está incorporado en la nube empresarial a gran escala de Office 365, proporcionando las funciones avanzadas de seguridad y cumplimiento que esperan nuestros clientes. Para obtener más información sobre cómo planear la seguridad en O365, consulte nuestro contenido de O365. [La guía básica de seguridad de O365](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) es un buen lugar para comenzar. Para obtener más información sobre cómo planear el cumplimiento en O365, puede empezar con [el artículo planear la seguridad y el cumplimiento](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance) .
 
-En este artículo se proporciona más información sobre la seguridad y el cumplimiento específicos de Teams. Debe revisar estos vídeos mecánicos de Microsoft sobre seguridad y cumplimiento:
+
+En este artículo se proporciona más información sobre la seguridad y el cumplimiento específicos de Teams. No pierdas estos videos mecánicos de Microsoft sobre seguridad y cumplimiento:
 
 - [Microsoft Teams Essentials para ti: seguridad y cumplimiento](https://youtu.be/91lHNKVVvQ4) (12:42 mín)
 - [Controles de Microsoft Teams para seguridad y cumplimiento](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)
+
+> [!IMPORTANT]
+> Como cliente de Office 365, usted es el propietario y el control de sus datos. Microsoft no utiliza tus datos para nada más que proporcionar el servicio al que te suscribiste. Como proveedor de servicios, no analizamos el correo electrónico, los documentos ni los equipos para anunciar o para fines no relacionados con el servicio. Microsoft no tiene acceso al contenido cargado. Como OneDrive para la empresa y SharePoint Online, los datos de los clientes se conservan en el espacio empresarial. Puede consultar más información sobre la confianza y la información relacionada con la seguridad en el [centro de confianza de Microsoft](https://microsoft.com/trustcenter). Teams sigue las mismas instrucciones y principios que el centro de confianza de Microsoft.
 
 ## <a name="security"></a>Seguridad
 
@@ -71,11 +79,11 @@ La aplicación de escritorio de Microsoft Teams es compatible con AppLocker.  Pa
 
 ## <a name="compliance"></a>Respeto
 
-Teams tiene una amplia variedad de información para ayudarle en las áreas de cumplimiento, como el cumplimiento de las comunicaciones de canales, chats y datos adjuntos, directivas de retención, protección de pérdida de datos (DLP), eDiscovery y retención legal para canales, chats y archivos, registro de auditoría búsqueda, así como administración de aplicaciones móviles con Microsoft Intune. Hemos proporcionado cierta información sobre todos estos temas, y puede ir al centro de cumplimiento de [Microsoft 365](https://compliance.microsoft.com) o al [centro de cumplimiento de & de seguridad de Office 365](https://protection.microsoft.com) para administrar esta configuración.
+Teams tiene una amplia variedad de información para ayudarle en áreas de cumplimiento, como el cumplimiento de las comunicaciones de canales, chats y datos adjuntos, directivas de retención, protección de pérdida de datos (DLP), eDiscovery y retención legal para canales, chats y archivos, la búsqueda de registros de auditoría, así como la administración de aplicaciones para dispositivos móviles con Microsoft Intune. Hemos proporcionado cierta información sobre todos estos temas, y puede ir al centro de cumplimiento de [Microsoft 365](https://compliance.microsoft.com) o al [centro de cumplimiento de & de seguridad de Office 365](https://protection.microsoft.com) para administrar esta configuración.
 
 ### <a name="communication-compliance"></a>Cumplimiento de la comunicación
 
-El cumplimiento de la comunicación en Microsoft 365 le permite agregar usuarios a directivas dentro del ámbito que se pueden configurar para examinar las comunicaciones de Microsoft Teams para el lenguaje ofensivo, información confidencial e información relacionada con los estándares internos y normativos. . Las comunicaciones por chat y los datos adjuntos asociados de los canales de los equipos públicos y privados, los chats individuales y los datos adjuntos se pueden analizar para minimizar los riesgos de comunicación en la organización. Para obtener más información sobre cómo puede configurar directivas que le ayuden a detectar, capturar y tomar medidas para comunicaciones de equipos inadecuadas, consulte [cumplimiento de la comunicación en Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
+El cumplimiento de la comunicación en Microsoft 365 le permite agregar usuarios a directivas dentro del ámbito que se pueden configurar para examinar las comunicaciones de Microsoft Teams en busca de lenguaje ofensivo, información confidencial e información relacionada con los estándares internos y normativos. Las comunicaciones por chat y los datos adjuntos asociados de los canales de los equipos públicos y privados, los chats individuales y los datos adjuntos se pueden analizar para minimizar los riesgos de comunicación en la organización. Para obtener más información sobre cómo puede configurar directivas que le ayuden a detectar, capturar y tomar medidas para comunicaciones de equipos inadecuadas, consulte [cumplimiento de la comunicación en Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
 
 ### <a name="retention-policies"></a>Directivas de retención
 

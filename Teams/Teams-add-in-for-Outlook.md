@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1cdd071dfe19c50650d6f18605a5aeed5b39300
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: 0320a08a5358716472d382482cb9c825d0709e59
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327852"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117438"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -37,6 +37,7 @@ El complemento para reunión de Microsoft Teams se instala automáticamente para
 ![Captura de pantalla del complemento de reunión de equipo en la cinta de Outlook.](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - Existen otras consideraciones adicionales si su organización ejecuta tanto equipos como Skype empresarial. En algunas circunstancias, el complemento de Teams no está disponible en Outlook. Para obtener más información, consulte [actualizar de Skype empresarial a teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
 > - Los permisos de usuario para ejecutar el archivo regsvr32.exe son un requisito mínimo para el complemento de reuniones de Teams que se instalará en el equipo.
 > - Si los usuarios no pueden ver el complemento de Microsoft Teams, pídales que cierren Outlook y Microsoft Teams, y que luego reinicien en primer lugar el cliente de Microsoft Teams y luego el de Outlook, específicamente en ese orden.
 > - Si usa una instalación de Office Outlook de Microsoft Store, no se admite el complemento de Reuniones de Teams. Se recomienda a los usuarios que necesiten usar este complemento que instalen la versión de hacer clic y ejecutar de Office, tal como se indica en el artículo [Office en Windows 10 en modo S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f).
@@ -73,7 +74,7 @@ Consulte [Programar reuniones con FindTime](https://support.office.com/article/s
 
 ## <a name="authentication-requirements"></a>Requisitos de autenticación
 
-El complemento para reunión de Microsoft Teams requiere que los usuarios inicien sesión en Microsoft Teams usando la autenticación moderna. Aunque los usuarios no usen este método para iniciar sesión, podrán usar el cliente de Microsoft Teams, pero no podrán programar reuniones en línea de Microsoft Teams usando el complemento de Outlook. Puede solucionar este inconveniente de una de las siguientes formas:
+El complemento para reunión de Microsoft Teams requiere que los usuarios inicien sesión en Microsoft Teams usando la autenticación moderna. Si los usuarios no usan este método para iniciar sesión, aún podrán usar el cliente de Teams, pero no podrán programar reuniones en línea de Teams mediante el complemento de Outlook. Puede solucionar este inconveniente de una de las siguientes formas:
 
 - Si la autenticación moderna no está configurada en su organización, configúrela.
 - Si la autenticación moderna está configurada, pero el usuario opta por no utilizarla en el cuadro de diálogo, pídale que vuelva a iniciar sesión usando la autenticación multifactor.
@@ -120,7 +121,7 @@ Si no consigue instalar el complemento Reunión de Teams para Outlook, pruebe es
 - Asegúrese de que se han aplicado todas las actualizaciones disponibles para el cliente de escritorio de Outlook.
 - Reinicie el cliente de escritorio de Teams.
 - Cierre la sesión y vuelva a iniciarla en el cliente de escritorio de Teams.
-- Reinicie el cliente de escritorio de Outlook. (Asegúrese de que Outlook no se está ejecutando en modo de administrador).
+- Reinicie el cliente de escritorio de Outlook. (Asegúrese de que Outlook no se esté ejecutando en el modo de administración).
 - Asegúrese de que el nombre de la cuenta de usuario activa no contiene espacios. (Este es un problema conocido y se corregirá en una actualización futura).
 - Asegúrese de que el inicio de sesión único (SSO) está habilitado.
 
