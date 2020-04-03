@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos a ser productivos cuando trabajan desde casa (WFH) en respuesta al brote de COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 720a94f86bd8ca0d84d682b15d59461a4b9133fb
-ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
+ms.openlocfilehash: 4df15c379d4232dafaea71114f68877dd7347989
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43059404"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096965"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Preguntas más frecuentes: Soporte para los trabajadores remotos
 
@@ -42,6 +42,10 @@ No se pierda la entrada de blog del 5 de marzo de 2020 de Jared Spataro, vicepre
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>Con las medidas que Microsoft está tomando, ¿se prevén problemas?
 
 Microsoft está haciendo todo lo posible para evitar problemas, pero un aumento inesperado de usuarios en alguna área debido a la propagación del virus podría causar problemas de forma temporal. Aunque estamos haciendo un seguimiento activo de la situación y ampliando la capacidad según sea necesario, es posible que los usuarios se vean afectados hasta que podamos ampliar la capacidad en esas áreas. Además, se dan situaciones externas sobre las que Microsoft no tiene control. Prevemos que los proveedores de servicios de Internet y los operadores de telefonía también tomarán medidas proactivas, pero es posible que no tengan la capacidad de gestionar el aumento de la carga de trabajo que puede darse al trabajar más personas desde casa. Estamos trabajando en todo el sector prestando especial atención a la infraestructura de red. Si tiene alguna preocupación por la interrupción, visite el centro de mensajes para obtener información acerca de las posibles interrupciones actuales.
+
+### <a name="what-can-admins-do-if-attendees-are-having-trouble-joining-meetings-by-dialing-in-such-as-if-calls-arent-getting-through"></a>¿Qué pueden hacer los administradores si los asistentes están experimentando problemas para unirse a reuniones mediante marcado, por ejemplo, como si las llamadas no se completaran?
+
+Mientras dure el brote de COVID-19, se recomienda a los usuarios que se unan a las reuniones mediante el botón **Unirse a la reunión de Teams** en lugar de usar los números de conferencia RTC o la opción **Llamarme al**</strong>. Esto se debe principalmente a la congestión de las infraestructuras de telefonía de países afectados por COVID-19. Si evita las llamadas RTC, es probable que experimente mayor calidad de audio. 
 
 ### <a name="what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network"></a>¿Cuáles son las directrices generales de Microsoft con respecto a la optimización de la red de Microsoft 365? Algunos de mis usuarios en China están teniendo una mala experiencia; ¿Qué debo hacer para optimizar nuestra red?
 
