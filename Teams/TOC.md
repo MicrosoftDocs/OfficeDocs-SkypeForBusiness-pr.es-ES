@@ -567,8 +567,10 @@
 
 # Microsoft 365 Business Voice
 ## [¿Qué es Microsoft 365 Business Voice?](business-voice/whats-business-voice.md)
+## [Disponibilidad de países y regiones](business-voice/country-region-availability.md)
 ## Qué tener en cuenta antes de adquirirlo
 ### [Qué adquirir para obtener Business Voice](business-voice/what-to-buy.md)
+### [Obtener ayuda de un partner o distribuidor](business-voice/reseller-partner-support.md)
 ### [Compruebe la conexión a Internet](business-voice/get-ready-internet.md)
 ### [Preparar a los usuarios](business-voice/prepare-users.md)
 ## [Ejecutar el Asistente para introducción](business-voice/use-getting-started-wizard.md)
@@ -603,6 +605,7 @@
 ## [Información general](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Introducción a las plantillas de Teams](get-started-with-teams-templates.md)
 ## [Inicio rápido para los Firstline Workers](firstline-workers-quickstart.yml)
+## [RealWear para Microsoft Teams](flw-realwear.md)
 ## [Turnos para Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Se retirará Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Instalar el módulo de PowerShell de Microsoft StaffHub](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)

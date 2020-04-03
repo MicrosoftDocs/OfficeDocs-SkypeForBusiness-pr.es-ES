@@ -12,32 +12,32 @@ metadata:
   ms.author: samanro
   ms.date: 02/12/2020
   localization_priority: Priority
-  ms.openlocfilehash: aaa60d789f5048c11647460dccb636da8c519e62
-  ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
+  ms.openlocfilehash: e3c67ada87cdee958fbb76c4862e01b1ced7901a
+  ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 02/12/2020
-  ms.locfileid: "41953801"
+  ms.lasthandoff: 04/02/2020
+  ms.locfileid: "43117538"
 highlightedContent:
   items:
+  - title: 'Respuesta de COVID-19: soporte técnico a trabajadores remotos con Teams'
+    itemType: overview
+    url: /MicrosoftTeams/support-remote-work-with-teams
   - title: Cómo implementar Teams
     itemType: deploy
     url: /MicrosoftTeams/how-to-roll-out-teams
+  - title: Seguridad y cumplimiento en Teams
+    itemType: overview
+    url: /MicrosoftTeams/security-compliance-overview
   - title: Buscar aprendizaje para usted y sus usuarios
     itemType: learn
     url: /MicrosoftTeams/training-microsoft-teams-landing-page
   - title: Actualización de Skype Empresarial a Microsoft Teams
-    itemType: overview
+    itemType: how-to-guide
     url: /MicrosoftTeams/upgrade-start-here
   - title: Centro de adopción
     itemType: get-started
     url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
-  - title: Pósteres y soluciones de arquitectura de ti
-    itemType: architecture
-    url: /MicrosoftTeams/teams-architecture-solutions-posters
-  - title: Empiece aquí si es nuevo en Teams
-    itemType: quickstart
-    url: /MicrosoftTeams/teams-overview
 additionalContent:
   sections:
   - items:
@@ -51,8 +51,8 @@ additionalContent:
         url: /MicrosoftTeams/teams-memory-usage-perf
       - text: Comunicarse con usuarios de otras organizaciones (invitados y acceso externo)
         url: /MicrosoftTeams/communicate-with-users-from-other-organizations
-      - text: Seguridad y cumplimiento en Teams
-        url: /MicrosoftTeams/security-compliance-overview
+      - text: Pósteres y soluciones de arquitectura de ti
+        url: /MicrosoftTeams/teams-architecture-solutions-posters
     - title: Llamadas de voz con equipos
       links:
       - text: Voz en la nube de Microsoft Teams
