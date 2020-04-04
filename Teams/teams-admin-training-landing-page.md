@@ -13,16 +13,17 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.collection:
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 ms.topic: landing-page
 ms.author: v-lanac
-ms.openlocfilehash: 6ca85b886ee7bec06dbcc948108e4b06334507d9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0ceec432433170ebdccf890650f559258b02e2fd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029351"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140813"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 

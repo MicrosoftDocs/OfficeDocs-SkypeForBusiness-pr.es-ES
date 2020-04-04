@@ -1,7 +1,7 @@
 ### YamlMime:Tutorial
-title: Audioconferencia en Microsoft Teams
+title: 'Tutorial: audioconferencias-Microsoft Teams'
 metadata:
-  title: Audioconferencia en Microsoft Teams
+  title: 'Tutorial: Introducción a las conferencias de audio en Microsoft Teams'
   description: El tutorial interactivo le guía a través de audioconferencia en Microsoft Teams.
   audience: IT Pro
   level: Intermediate
@@ -19,12 +19,13 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: bc4bf9f29caa34a2b645403e0de9a45c3a47a79c
-  ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+  ms.custom: seo-marvel-mar2020
+  ms.openlocfilehash: aa558029f1698f6d54b9ff2646d3238d50a8d7de
+  ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 10/17/2019
-  ms.locfileid: "37572495"
+  ms.lasthandoff: 04/03/2020
+  ms.locfileid: "43141153"
 items:
 - durationInMinutes: 1
   content: >
