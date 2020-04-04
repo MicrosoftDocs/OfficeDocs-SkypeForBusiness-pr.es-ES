@@ -1,5 +1,5 @@
 ---
-title: Lista de comprobación de incorporación para configurar la red de Microsoft Teams
+title: 'Lista de comprobación de la incorporación: configuración de redes-Microsoft Teams'
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,13 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97a59ede284474069f39dc166d77d0a4a6ebc167
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: b4780e0509598406b25c1b8145a29a6aeef0423f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862890"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43138320"
 ---
 # <a name="configure-networking"></a>Configurar redes
 
@@ -33,7 +34,7 @@ ms.locfileid: "41862890"
 | 5  | Implementar el enrutamiento más eficaz a los centros de recursos de Microsoft | Identifique las ubicaciones que pueden usar puntos de salida locales o regionales para conectarse a la red de Microsoft de la manera más eficaz posible. <br/><br/>En el artículo de la columna **información adicional** se describe cómo los clientes pueden aprovechar las características de la resolución de nombres de Office 365 y el enrutamiento IP para conectarse de forma eficaz al centro de datos regional más cercano. | | [Conectividad de cliente de Office 365](https://support.office.com/article/Client-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b) |
 | 6  | Configurar los puertos de Firewall solicitados para conectividad con Teams | Revise las direcciones URL e IP de Office 365 para identificar y probar los puertos de Firewall necesarios para la conectividad entre clientes y servidores locales y servicios de Office 365. <br/><br/>Para un entorno compatible, debe abrir todos los puertos de los firewalls. Si no abre algunos puertos o intervalos, la experiencia del usuario se verá afectada. Configure los puertos de medios en sus firewalls en función de las instrucciones de la columna **información adicional** . | | [Direcciones URL e IP de Office 365: Microsoft Teams](https://support.office.com/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) |
 | 7  | Configurar servidores proxy | Configure su entorno de modo que los servidores proxy se omitan y pueda conectar a los usuarios directamente a Office 365 mediante UDP, para obtener la mejor calidad de audio y vídeo. Cuando los medios en tiempo real se ven obligados a atravesar un servidor proxy, la pila de medios de Teams se ve obligada a migrar tras error a TCP, que afecta negativamente a la calidad. <br/><br/>Para obtener la experiencia de usuario de mayor calidad, siempre prefiere UDP por TCP. | | [Planificación de la calidad y la administración de servicios](https://docs.microsoft.com/MicrosoftTeams/prepare-network) |
-| 4,8  | Configurar túnel dividido VPN | Le recomendamos que proporcione una ruta de acceso alternativa para el tráfico de teams que omite la VPN, conocida comúnmente como *VPN de túnel dividido*. El túnel dividido significa que el tráfico de Office 365 no atraviesa la red privada virtual, pero va directamente a Office 365. Este cambio repercutirá positivamente en la calidad, pero también proporciona la ventaja secundaria que supone reducir la carga de los dispositivos VPN y la red de la organización. | | Para implementar una VPN de túnel dividido, consulte con su proveedor de VPN para obtener detalles de configuración. |
+| 4,8  | Configurar túnel dividido VPN | Le recomendamos que proporcione una ruta de acceso alternativa para el tráfico de teams que omite la VPN, conocida comúnmente como *VPN de túnel dividido*. El túnel dividido significa que el tráfico de Office 365 no atraviesa la red privada virtual, pero va directamente a Office 365. Este cambio tendrá un impacto positivo en la calidad, pero también proporciona la ventaja secundaria de reducir la carga de los dispositivos VPN y de la red de la organización. | | Para implementar una VPN de túnel dividido, consulte con su proveedor de VPN para obtener detalles de configuración. |
 | 99,999  | Configurar la priorización de paquetes mediante QoS | QoS debe implementarse en todos los segmentos de una red administrada. Incluso cuando una red ha sido aprovisionada de forma adecuada para el ancho de banda, QoS proporciona mitigación del riesgo en caso de eventos de red no previstos. Cuando se implementa QoS, se prioriza el tráfico de voz para que estos eventos no previstos no afecten negativamente a la calidad. | | [Planificación de la calidad y la administración de servicios](https://docs.microsoft.com/MicrosoftTeams/prepare-network) <br/><br/>[Calidad de servicio (QoS) en Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams) |
 | base10 | Optimizar la calidad y el rendimiento de las redes Wi-Fi | Al optimizar su red Wi-Fi, surgen varios factores: <ul><li>Implementación de QoS o multimedia Wi-Fi (WMM) para garantizar la priorización del tráfico multimedia en las redes Wi-Fi.</li><li>Planear y optimizar las bandas Wi-Fi y la ubicación de puntos de acceso. El intervalo de 2,4 GHz puede proporcionar un rendimiento adecuado, en función de la ubicación del punto de acceso.</li></ul> Consulta a tu proveedor de Wi-Fi para obtener instrucciones específicas. | | [Recomendaciones de Wi-Fi para puntos de conexión](https://docs.microsoft.com/MicrosoftTeams/prepare-network#wi-fi-recommendations-for-endpoints) |
 | once | Validar la conectividad de red con la herramienta de evaluación de red | Use la herramienta de evaluación de redes de Skype empresarial y Teams para probar la conectividad con todas las direcciones IP y los puertos que se usan en las llamadas y reuniones de Skype empresarial online y Teams. Descargue la herramienta y vea Usage. docx para obtener información sobre cómo usar la herramienta e interpretar los resultados de la prueba. Le recomendamos que ejecute la herramienta desde un equipo cliente en cada ubicación en la que se vayan a usar los equipos. | | [Herramienta de evaluación de redes de Skype empresarial y Teams](https://go.microsoft.com/fwlink/?linkid=855799) |

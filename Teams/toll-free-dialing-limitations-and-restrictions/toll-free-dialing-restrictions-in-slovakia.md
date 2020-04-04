@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Esto te ayudará a identificar números gratuitos en cada país o región. Después de seleccionar el país o la región, le llevará a una página específica del país que contiene detalles específicos, restricciones y límites de disponibilidad de servicio gratuito en los que está disponible el servicio gratuito. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 6c48fedde3722339ae156a61b96dfac0178ffbc8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Más información sobre el marcado de números gratuitos de llamadas en Eslovaquia, incluida la disponibilidad, la disponibilidad de redes móviles y con cable/línea fija, y las restricciones.
+ms.openlocfilehash: 19e7f5578641c2c0b730bdc3195870a38066e118
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693335"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139809"
 ---
 # <a name="toll-free-dialing-restrictions-in-slovakia"></a>Restricciones de marcado de número gratuito en Eslovaquia
 

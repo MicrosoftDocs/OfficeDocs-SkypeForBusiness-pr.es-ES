@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Obtenga información sobre cómo usar el centro de administración de Microsoft Teams para ver una lista de todos los números de teléfono de su organización y todos los números que se asignan a los usuarios o que no están asignados.
-ms.openlocfilehash: 029f5f15e4d414ed2f6bc4e06d39b3456b32ee62
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+- seo-marvel-mar2020
+description: Aprenda a usar el centro de administración de Microsoft Teams para ver una lista de todos los números de teléfono de su organización y todos los números que están asignados a los usuarios o que no están asignados.
+ms.openlocfilehash: 8483a3847027f3790930653ead39678f6a802533
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236860"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140963"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver una lista de números de teléfono de su organización
 

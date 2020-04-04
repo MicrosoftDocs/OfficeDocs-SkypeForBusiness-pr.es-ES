@@ -1,5 +1,5 @@
 ---
-title: Configuración de red de enrutamiento basado en la ubicación
+title: 'Configurar la configuración de red: enrutamiento basado en la ubicación'
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfa81c0d5856ba97b60f3183ff282bef8c911fda
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: f63ff0191518acf72fd3e4c33abe80b819c3db28
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836570"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141283"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Configuración de red de enrutamiento basado en la ubicación
 

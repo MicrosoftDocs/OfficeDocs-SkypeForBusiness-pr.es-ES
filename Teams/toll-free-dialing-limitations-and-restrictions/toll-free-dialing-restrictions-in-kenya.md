@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Esto te ayudará a identificar números gratuitos en cada país o región. Después de seleccionar el país o la región, le llevará a una página específica del país que contiene detalles específicos, restricciones y límites de disponibilidad de servicio gratuito en los que está disponible el servicio gratuito. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 380a03e7365be4bf83c055c018210aa0c0b91c9c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Obtenga más información sobre cómo marcar números gratuitos en Kenia, como la disponibilidad, la disponibilidad por cable, la línea fija y la disponibilidad de la red móvil, y las restricciones.
+ms.openlocfilehash: 16e9e2746074e8d4b5a9dee280ec0dbae27d9725
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41682407"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140349"
 ---
 # <a name="toll-free-dialing-restrictions-in-kenya"></a>Restricciones de marcado de número gratuito en Kenia
 

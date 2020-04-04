@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Integración de la EHR de la aplicación pacientes de Microsoft Teams
-ms.openlocfilehash: d718f3d3772a08ecfa57e418a4f4fc2e22fe7172
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Obtenga más información sobre la especificación de la interfaz de STU3 en Teams, incluida la configuración o la reconfiguración de un servidor de FHIR para que funcione con la aplicación de pacientes de Microsoft Teams.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 35d887575ffb894b7a47e50511e6bd6c3a9a75d1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147703"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141203"
 ---
 # <a name="stu3-interface-specification"></a>Especificación de la interfaz STU3
 
@@ -221,7 +222,7 @@ Vea el ejemplo siguiente de la llamada:
 
     Solicitud: obtener <fhir-Server>/AllergyIntolerance? patient =<ID de paciente>
     
-    Respuesta: {"resourceType": "bundle", "ID": "<paquete-ID>", "tipo": "searchset", "total": 1, "Entry": [{"Resource": {"resourceType": "AllergyIntolerance", "ID": "<Resource-ID>", "clinicalStatus": "Active", "verificationStatus": "confirmated", "Code": {"Coding": [{"System"http://rxnav.nlm.nih.gov/REST/Ndfrt: "", "Code": "N0000175503", "display": "sulfonamide antigérmenas",}], "Text": "sulfonamide ANT ibacterial "}," assertedDate ":" 2018-01-01T00:00:00-07:00 "," reacción ": [{" manifestity ": [{" código ": [{" System "http://snomed.info/sct:" "," Code ":" 271807003 "," display ":" Skin rash = ",}] =" Text ":" Skin rash "}],}]}}]}
+    Respuesta: {"resourceType": "bundle", "ID": "<paquete-ID>", "type": "searchset", "total": 1 "Entry": [{"Resource": {"resourceType": "AllergyIntolerance", "ID": "<Resource-ID>", "clinicalStatus": "Active", "verificationStatus": "Confirmed", "código": {"no se pudo escribirhttp://rxnav.nlm.nih.gov/REST/Ndfrtel código" N0000175503 "," display ":" sulfonamide antibacteriasl ",}]," texto ":" sulfonamide antibacteriasl "}," assertedDate ":" 2018-01-01T00:00:00-07:00 "," reacción ": [{" manifest ": [{" codificación ": [{" System ":"http://snomed.info/sct"," code ":" 271807003 "," display ":" Skin rash ",}]," texto ":" Skin rash "}],}]}}]}
 
 * * *
 

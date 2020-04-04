@@ -19,13 +19,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: Obtenga más información sobre las licencias complementarias, las características que obtendrá con cada licencia, cómo comprarlos para el producto y cómo usar el transportista existente. Obtenga información sobre los precios y detalles de los planes de Office 365, los créditos de comunicación y los planes de llamadas.
-ms.openlocfilehash: c1faf51c6f0c61ce569a0e3f14181aa8db276a2c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
-ms.translationtype: HT
+- seo-marvel-mar2020
+description: Obtenga más información sobre las licencias complementarias, las características que obtendrá con cada licencia, cómo comprarlos para el producto y cómo usar el transportista existente.
+ms.openlocfilehash: 10f8b8d0af5c0c70d68c6fbdba561b15af41f64b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029381"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140823"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Licencias complementarias de Microsoft Teams
 

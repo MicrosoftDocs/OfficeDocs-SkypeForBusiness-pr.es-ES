@@ -1,5 +1,5 @@
 ---
-title: Implementar salas de Microsoft Teams con el administrador de configuración de Microsoft Endpoint
+title: Implementar salas de Microsoft Teams con el administrador de configuración de Microsoft
 author: lanachin
 ms.author: v-lanac
 ms.reviewer: Turgayo
@@ -10,7 +10,9 @@ ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.custom: Strat_SB_Admin
+ms.custom:
+- Strat_SB_Admin
+- seo-marvel-mar2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
@@ -32,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: eb1e4337f97f16df6d7ef039bf4ba095ed692995
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 04d5945e042293ad0cb1597307fd4a2b596bee39
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827928"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141023"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Implementar salas de Microsoft Teams con el administrador de configuración de Microsoft Endpoint
 
@@ -656,7 +658,7 @@ Puede descargar y importar fácilmente una secuencia de tareas de muestra y pers
    11. **Copie los archivos de configuración de SRS V2**: en este paso, se copian los archivos de configuración y configuración necesarios del kit de implementación de Microsoft Teams Rooms en la unidad de disco duro local. No se necesita ninguna personalización para este paso.
        -   Compruebe que se seleccione el **paquete de aplicación SRS V2-SRS** y **deshabilitar el redireccionamiento del sistema de archivos de 64 bits** .
 
-   12. **Install-SRSv2-os-updates**: este paso implementa todas las actualizaciones de sistema operativo obligatorias necesarias para la implementación de salas de Microsoft Teams. Siga este procedimiento:
+   12. **Install-SRSv2-os-updates**: este paso implementa todas las actualizaciones de sistema operativo obligatorias necesarias para la implementación de salas de Microsoft Teams. Haga lo siguiente:
        -   Marque [configurar una consola de salones de Microsoft Teams](console.md) para ver qué actualizaciones son necesarias.
        -   Compruebe que el **paquete de actualizaciones para el sistema operativo SRS V2** incluye todas las actualizaciones necesarias.
        -   Compruebe que esté seleccionado el **paquete SRS V2 – os updates** .

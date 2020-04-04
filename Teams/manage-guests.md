@@ -13,21 +13,22 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Los administradores de TI pueden agregar invitados en el nivel de inquilino, configurar y administrar permisos y directivas de usuarios invitados, determinar qué usuarios pueden invitar y extraer informes sobre la actividad de los usuarios invitados.
+description: Aprenda a crear sus primeros equipos y canales, a incorporar a los primeros usuarios, a supervisar el uso y los comentarios, y a obtener recursos para planificar la implementación en toda la organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef091eb926301e6dd9d3ac27d7c62486d93075a1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: fea5ab9eec355d77f19165253fe97ee8aeb725ca
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834780"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139249"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Administrar el acceso de invitado en Microsoft Teams
 ======================================
 
 > [!IMPORTANT]
-> Es posible que tenga que esperar hasta 24 horas para que los cambios surtan efecto. 
+> Es posible que tenga que esperar hasta 24 horas para que sus cambios surtan efecto. 
 
 **Guest** es un tipo de usuario en Microsoft teams que se incluye en todos los planes de Office 365 Business Premium, Office 365 Enterprise, Office 365 Business Essentials y Office 365 educación. No se necesita ninguna otra licencia de Office 365. Más adelante encontrará más información sobre las [licencias de acceso de invitado](#guest-access-licensing-limits) .
 

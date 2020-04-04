@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams | Reuniones primero
+title: Reunión en primer lugar-Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,17 +12,19 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10321d02398c6c2b0ffc2143a9bafa406fbec637
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d8c88ba4ddb8b2e9af83e227388232e243dcabe1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836460"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140299"
 ---
 # <a name="meetings-first"></a>Reuniones primero
 
@@ -105,7 +107,7 @@ Es posible que considere la posibilidad de ejecutar un plan piloto preparado par
 
 Una vez que haya otorgado la licencia a los usuarios y haya preparado la organización para las reuniones de Teams, es el momento de habilitar a los usuarios para que las vean en primer lugar. Lo hemos simplificado: una sola configuración lo hará todo.
 
-Todas las características y las experiencias de usuario de las reuniones en primer lugar, incluida la configuración del cliente de Teams y el [cumplimiento automático](teams-client-experience-and-conformance-to-coexistence-modes.md) de la experiencia del usuario, el servicio de migración de reuniones y las capacidades más juntas, se configuran otorgando al usuario (o grupo de usuarios o valor predeterminado de inquilino) el modo [](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)de [coexistencia de SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) en el centro de [Administración de Microsoft](manage-teams-in-modern-portal.md)
+Todas las características y las experiencias de usuario de las reuniones en primer lugar, incluida la configuración del cliente de Teams y el [cumplimiento automático](teams-client-experience-and-conformance-to-coexistence-modes.md) de la experiencia del usuario, el servicio de migración de reuniones y las capacidades más juntas, se configuran otorgando al usuario (o grupo de usuarios o valor predeterminado de inquilino) el modo [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)de [coexistencia de SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) en el centro de [Administración de Microsoft](manage-teams-in-modern-portal.md)
 
 ![Captura de pantalla de la configuración de administración para habilitar las reuniones en primer lugar](media/teams-meeting-admin-settings.png)
 

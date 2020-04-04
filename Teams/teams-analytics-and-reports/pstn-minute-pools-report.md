@@ -13,15 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 MS.collection:
 - M365-voice
-description: Aprenda a usar el informe de grupos de minutos RTC de Teams en el centro de administración de Microsoft Teams para ver el número de minutos consumidos durante el mes actual de su organización.
+description: Cómo usar el informe de grupos de minutos RTC de Teams en el centro de administración de Microsoft Teams para ver los minutos consumidos dentro de la organización durante el mes en curso.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fa9b8f4a676c1e937fed02eabc0e7cd4acd5325
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5f44d8a48dc01b8d2cdbce9dd164d5b2440c24d8
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827328"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140671"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Informe de grupos de minutos RTC de Microsoft Teams
 

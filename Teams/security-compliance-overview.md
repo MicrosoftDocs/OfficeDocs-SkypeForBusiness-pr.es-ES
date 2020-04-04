@@ -1,5 +1,5 @@
 ---
-title: Información general de seguridad y cumplimiento en Microsoft Teams
+title: Información general de seguridad y cumplimiento
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -17,14 +17,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fbec8f7d246a4acfe241ef4f4d701cc9e1e6b28c
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: e777ef76f6c8f11dfd914b3c4be149c224b63cf5
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117428"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139099"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Seguridad y cumplimiento en Microsoft Teams
 
@@ -143,6 +144,10 @@ Si desea más información específica sobre la configuración de la búsqueda d
 ### <a name="auditing-and-reporting"></a>Auditoría y generación de informes
 
 Los complementos de búsqueda de registros de auditoría, directamente en el centro de cumplimiento de la & de seguridad de Office 365 y le ofrecen la posibilidad de establecer alertas, así como informes sobre eventos de auditoría, permitiendo la exportación de conjuntos de eventos genéricos o específicos de la carga de trabajo para que el administrador los utilice e investigue en una escala de tiempo de auditoría ilimitada. Puede configurar alertas para todos los datos de registro de auditoría dentro del centro de cumplimiento de la & de seguridad de Office 365, y filtrar y exportar estos datos para analizarlos más a la vez. Para obtener más información sobre cómo realizar un registro de auditoría de O365, consulte el artículo [Buscar en el registro de auditoría](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) . Para obtener más información sobre la búsqueda de eventos de Microsoft Teams en el centro de cumplimiento de Office 365 Security &, también tenemos activado el artículo de [Auditoría en Teams](audit-log-events.md) para que lo revise.
+
+## <a name="privacy"></a>Privacidad
+
+En Microsoft, proteger sus datos es nuestra máxima prioridad. Para obtener más información sobre nuestras prácticas de privacidad, lea [privacidad en Microsoft](https://www.microsoft.com/trust-center/privacy).
 
 ## <a name="information-protection-architecture"></a>Arquitectura de protección de la información
 

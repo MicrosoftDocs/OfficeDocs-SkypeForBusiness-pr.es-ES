@@ -1,5 +1,5 @@
 ---
-title: Introducción a las plantillas de Teams para pequeñas y medianas empresas
+title: Plantillas de Teams para pequeñas y medianas empresas
 author: kenwith
 ms.author: kenwith
 manager: serdars
@@ -16,12 +16,13 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
 description: Introducción a las plantillas de Teams para pequeñas y medianas empresas
-ms.openlocfilehash: be42728387189f2281f892e5cc608f9e6f557b02
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 4aa620e241bd59ce39f415fca3e33583a3c26c01
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837940"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140853"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>Introducción a las plantillas de Teams para pequeñas y medianas empresas
 
@@ -73,7 +74,7 @@ Content-Type: application/json
 {
     "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('SmallBusinessExecutive')",
     "displayName": "Executive",
-    "description": "All posts, announcements and daily collaboration and communication for the company’s leadership team.",
+    "description": "All posts, announcements and daily collaboration and communication for the company's leadership team.",
     "visibility": "Private"
 }
 ```

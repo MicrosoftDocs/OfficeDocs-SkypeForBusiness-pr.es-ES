@@ -1,5 +1,5 @@
 ---
-title: Configurar un controlador de borde de sesión para varios inquilinos
+title: 'Configurar un controlador de borde de sesión: varios inquilinos'
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,12 +16,13 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Aprenda a configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos.
-ms.openlocfilehash: e0027df53edcec54cbeaef560182ffddc451ecbd
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 90bad0c87cef92a36dea392d98cfb66824c10113
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160734"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141093"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -118,8 +119,8 @@ Para obtener más información acerca de los roles de administrador y cómo asig
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Agregar un dominio base al inquilino y comprobarlo
 
-1.  En el centro de administración de Microsoft 365, vaya a**dominios** > de **configuración** > **Agregar dominio**.
-2.  En el cuadro **Escriba un dominio** , escriba el FQDN del dominio base. En el ejemplo siguiente, el dominio base es *customers.adatum.BIZ*.
+1.    En el centro de administración de Microsoft 365, vaya a**dominios** > de **configuración** > **Agregar dominio**.
+2.    En el cuadro **Escriba un dominio** , escriba el FQDN del dominio base. En el ejemplo siguiente, el dominio base es *customers.adatum.BIZ*.
 
     ![Captura de pantalla que muestra la página Agregar un dominio](media/direct-routing-2-sbc-add-domain.png)
 
@@ -128,8 +129,8 @@ Para obtener más información acerca de los roles de administrador y cómo asig
 
     ![Captura de pantalla que muestra la confirmación de un nombre de dominio verificado](media/direct-routing-3-sbc-verify-domain.png)
 
-5.  Haga clic en **siguiente**y, en la página **Actualizar configuración DNS** , seleccione **agregaré los registros DNS** y haga clic en **siguiente**.
-6.  En la página siguiente, borre todos los valores (a menos que desee usar el nombre de dominio para Exchange, SharePoint o Teams/Skype empresarial), haga clic en **siguiente**y, a continuación, haga clic en **Finalizar**. Asegúrese de que el nuevo dominio se encuentra en el estado de instalación completada.
+5.    Haga clic en **siguiente**y, en la página **Actualizar configuración DNS** , seleccione **agregaré los registros DNS** y haga clic en **siguiente**.
+6.    En la página siguiente, borre todos los valores (a menos que desee usar el nombre de dominio para Exchange, SharePoint o Teams/Skype empresarial), haga clic en **siguiente**y, a continuación, haga clic en **Finalizar**. Asegúrese de que el nuevo dominio se encuentra en el estado de instalación completada.
 
     ![Captura de pantalla que muestra los dominios con el estado de configuración completado](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -218,22 +219,22 @@ Sin embargo, esto no ha sido óptimo por dos razones:
 Basándose en estos comentarios, Microsoft trae una nueva lógica para aprovisionar los troncos de los inquilinos de cliente.
 
 Se introdujeron dos nuevas entidades:
--   Un tronco de portador registrado en el inquilino del operador usando el comando New-CSOnlinePSTNGateway, por ejemplo, New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true.
+-    Un tronco de portador registrado en el inquilino del operador usando el comando New-CSOnlinePSTNGateway, por ejemplo, New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true.
 
--   Un tronco derivado, que no requiere registro. Simplemente es un nombre de host deseado añadido desde el tronco del portador. Deriva todos sus parámetros de configuración del tronco del transportista. El tronco derivado no necesita crearse en PowerShell y la asociación con el tronco del portador se basa en el nombre de FQDN (vea los detalles a continuación).
+-    Un tronco derivado, que no requiere registro. Simplemente es un nombre de host deseado añadido desde el tronco del portador. Deriva todos sus parámetros de configuración del tronco del transportista. El tronco derivado no necesita crearse en PowerShell y la asociación con el tronco del portador se basa en el nombre de FQDN (vea los detalles a continuación).
 
 **Lógica de aprovisionamiento y ejemplo**
 
--   Los operadores solo necesitan configurar y administrar un único tronco (tronco de portador en el dominio de la portadora) con el comando set-CSOnlinePSTNGateway. En el ejemplo anterior, es adatum.biz;
--   En el inquilino del cliente, el operador solo tiene que agregar el FQDN del tronco derivado a las directivas de enrutamiento de voz de los usuarios. No es necesario ejecutar New-CSOnlinePSTNGateway para un tronco.
--    El tronco derivado, como sugiere el nombre, hereda o deriva todos los parámetros de configuración del tronco del portador. Acerca
--   Customers.adatum.biz: el tronco del portador que debe crearse en el inquilino del transportista.
--   Sbc1.customers.adatum.biz: el tronco derivado de un inquilino de cliente que no tiene que crearse en PowerShell.  Simplemente puede Agregar el nombre del tronco derivado en el inquilino del cliente en la Directiva de enrutamiento de voz en línea sin crearlo.
+-    Los operadores solo necesitan configurar y administrar un único tronco (tronco de portador en el dominio de la portadora) con el comando set-CSOnlinePSTNGateway. En el ejemplo anterior, es adatum.biz;
+-    En el inquilino del cliente, el operador solo tiene que agregar el FQDN del tronco derivado a las directivas de enrutamiento de voz de los usuarios. No es necesario ejecutar New-CSOnlinePSTNGateway para un tronco.
+-     El tronco derivado, como sugiere el nombre, hereda o deriva todos los parámetros de configuración del tronco del portador. Acerca
+-    Customers.adatum.biz: el tronco del portador que debe crearse en el inquilino del transportista.
+-    Sbc1.customers.adatum.biz: el tronco derivado de un inquilino de cliente que no tiene que crearse en PowerShell.  Simplemente puede Agregar el nombre del tronco derivado en el inquilino del cliente en la Directiva de enrutamiento de voz en línea sin crearlo.
 -   El operador necesitará configurar un registro DNS para resolver el FQDN de troncal derivado para la dirección IP del SBC de la portadora.
 
--   Los cambios realizados en un tronco de portador (en el inquilino de transportista) se aplican automáticamente a los troncos derivados. Por ejemplo, los operadores pueden cambiar un puerto SIP en el tronco del portador, y este cambio se aplicará a todos los troncos derivados. La nueva lógica para configurar los troncos simplifica la administración, ya que no es necesario ir a cada inquilino y cambiar el parámetro en cada tronco.
--   Las opciones solo se envían al FQDN del tronco del transportista. El estado de mantenimiento del tronco del portador se aplica a todos los troncos derivados y se usa para las decisiones de enrutamiento. Más información sobre [las opciones de enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
--   El portador puede agotar el tronco del portador y todos los troncos derivados también se purgarán. 
+-    Los cambios realizados en un tronco de portador (en el inquilino de transportista) se aplican automáticamente a los troncos derivados. Por ejemplo, los operadores pueden cambiar un puerto SIP en el tronco del portador, y este cambio se aplicará a todos los troncos derivados. La nueva lógica para configurar los troncos simplifica la administración, ya que no es necesario ir a cada inquilino y cambiar el parámetro en cada tronco.
+-    Las opciones solo se envían al FQDN del tronco del transportista. El estado de mantenimiento del tronco del portador se aplica a todos los troncos derivados y se usa para las decisiones de enrutamiento. Más información sobre [las opciones de enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
+-    El portador puede agotar el tronco del portador y todos los troncos derivados también se purgarán. 
  
 
 **Migración del modelo anterior al tronco del portador**
@@ -257,7 +258,7 @@ Para configurar la conmutación por error en un entorno multiinquilino, tendrá 
 - En las directivas de enrutamiento de voz en línea de los usuarios, especifique SBCs.  Si se produce un error en un SBC, la Directiva de enrutamiento enrutará las llamadas al segundo SBC.
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Planear el enrutamiento directo](direct-routing-plan.md)
 

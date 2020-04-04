@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams | Actualizar, modo islas, Directiva de interoperabilidad, solamente
+title: Interoperabilidad entre Skype empresarial y Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,18 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef1c9d8fd9d30101fdd40dba5946dfefb324742c
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: dc2a4495d95d0c6458fef16ea2f3f336dd337db4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706660"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140681"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprender Microsoft Teams y la coexistencia e interoperabilidad de Skype empresarial
 
@@ -34,7 +34,7 @@ Este artículo forma parte de la fase de definición de proyecto de su viaje de 
 - [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
 - [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
 
-Si su organización usa Skype empresarial hoy y está empezando a usar Teams con Skype empresarial — o está comenzando a actualizar a Teams, es importante que comprenda cómo coexisten las dos aplicaciones, Cuándo y cómo interoperan, y cómo administrar migración de los usuarios a la actualización eventual desde Skype empresarial a teams.
+Si su organización usa Skype empresarial hoy y está empezando a usar Teams con Skype empresarial — o está comenzando a actualizar a Teams, es importante comprender cómo cooperan las dos aplicaciones, Cuándo y cómo interoperan, y cómo administrar la migración de los usuarios hasta su eventual actualización de Skype empresarial a los equipos.
 
 > [!Tip]
 > Mire la siguiente sesión para obtener información sobre la [coexistencia y la interoperabilidad](https://aka.ms/teams-upgrade-coexistence-interop).
@@ -70,13 +70,13 @@ Para evitar una experiencia de Skype empresarial confusa o recargada, las comuni
 
 En este modo de coexistencia, los usuarios permanecen en Skype empresarial, no en los equipos, en las capacidades de chat, reunión y llamada, y no usan Teams para equipos y canales. Este modo está disponible hoy; sin embargo, en la implementación actual, los equipos y los canales no se desactivan automáticamente para el usuario. Esto se puede conseguir usando la Directiva permisos de la aplicación para ocultar equipos y canales.
 
-Este modo se puede usar antes de iniciar una implementación administrada de Teams para evitar que los usuarios comiencen a usar Teams por adelantado, o como una forma de habilitar la participación autenticada en reuniones de Teams para usuarios de Skype empresarial, siempre y cuando los usuarios estén licencia para equipos.
+Este modo se puede usar antes de iniciar una implementación administrada de Teams para evitar que los usuarios comiencen a usar Teams por adelantado, o como una forma de habilitar la participación autenticada en reuniones de Teams para los usuarios de Skype empresarial, siempre y cuando los usuarios tengan una licencia de Teams.
 
 ### <a name="teams-only"></a>Solo equipos
 
 
 > [!IMPORTANT]
-> Si desinstala el cliente de Skype Empresarial después de mover un usuario al modo **Teams solo**, la presencia dejará de funcionar en Outlook y en otras aplicaciones de Office. La presencia funciona bien en Teams. Solución: para ver la presencia en Outlook (y en otras aplicaciones de Office), debe estar instalado Skype empresarial, incluso si está ejecutando Teams en modo de **solo Teams** . Microsoft es consciente de este problema y está buscando una solución. 
+> Si desinstala el cliente de Skype Empresarial después de mover un usuario al modo **Teams solo**, la presencia dejará de funcionar en Outlook y en otras aplicaciones de Office. La presencia funciona bien en Teams. Solución: Para ver la presencia en Outlook (y otras aplicaciones de Office), Skype Empresarial debe estar instalado, aunque esté ejecutando Teams en el modo **solo Teams**. Microsoft es consciente de este problema y está trabajando en una solución.
 
 
 Un usuario **solo de equipos** (también denominado usuario *actualizado* ) tiene acceso a todas las capacidades de Teams. Pueden retener el cliente de Skype empresarial para unirse a reuniones de Skype empresarial organizadas por usuarios externos o no actualizados. Un usuario actualizado puede seguir comunicándose con otros usuarios de la organización que siguen usando Skype empresarial con las funciones de interoperabilidad entre Teams y Skype empresarial (siempre que estos usuarios de Skype empresarial no estén en modo **islas** ). Sin embargo, un usuario actualizado no puede iniciar una conversación, una llamada o una reunión de Skype empresarial.
@@ -95,7 +95,7 @@ Las organizaciones con un punto de partida de Skype empresarial Server local o h
 
 ### <a name="skype-for-business-with-teams-collaboration-and-meetings-also-known-as-meetings-first"></a>Skype empresarial con la colaboración y las reuniones de Teams, también conocidas como reuniones en primer lugar
 
-Use este modo de coexistencia para acelerar la disponibilidad de las capacidades de reunión de los equipos de su organización, además de sus capacidades de colaboración, lo que permite a los usuarios aprovechar la experiencia de reuniones de equipos superiores: excelente calidad, capacidades innovadoras, como transcripción y traducción o desenfoque de fondo, y experiencia de usuario superior en todas las plataformas, incluidos los exploradores y los dispositivos móviles.
+Use este modo de coexistencia para acelerar la disponibilidad de las capacidades de reunión de los equipos de su organización, además de sus capacidades de colaboración, lo que permite a los usuarios aprovechar la experiencia de reuniones de equipos superiores: excelente calidad, capacidades innovadoras como transcripción, traducción o desenfoque de fondo, y una experiencia de usuario superior en todas las plataformas, incluidos los exploradores y dispositivos móviles
 
 Junto con el uso de Teams para las conversaciones basadas en equipos y canales en este modo, los usuarios usarán Teams para programar y dirigir sus reuniones. Las llamadas y chats privados permanecen en Skype empresarial. Los equipos y Skype empresarial se benefician de una variedad de capacidades de "mejor conjunto", como la reconciliación de presencia, la retención o dessuspensión automática y la compatibilidad con dispositivos HID en ambas aplicaciones. Tenga en cuenta que es posible ocultar equipos y canales si así lo desea mediante la Directiva de permisos de aplicación.
 
@@ -166,7 +166,7 @@ La escalabilidad de interoperabilidad consiste en complementar las capacidades d
 
 Cuando el usuario de Teams desencadena una escala de interoperabilidad, se crea una reunión de Teams. Cuando lo desencadena el usuario de Skype empresarial, se crea una reunión de Skype empresarial. En ambos casos, la reunión creada es una reunión **reunirse ahora** , que no se refleja en el calendario del usuario.
  
-La otra persona recibe el vínculo unirse a la reunión a través de una conversación interactiva y las combinaciones haciendo clic en ese vínculo. Si el usuario de Skype empresarial tiene una cuenta de Teams y lo ha invitado el usuario de Teams, se unirán a la reunión autenticada. De lo contrario, se unirán como un participante anónimo. A la inversa, los usuarios de Teams casi siempre tienen una cuenta de Skype empresarial y un cliente de Skype empresarial que pueden usar para unirse a una reunión de Skype empresarial como participante autenticado, pero también se pueden unir como participante anónimo, por ejemplo, con Skype. Aplicación de la reunión.
+La otra persona recibe el vínculo unirse a la reunión a través de una conversación interactiva y las combinaciones haciendo clic en ese vínculo. Si el usuario de Skype empresarial tiene una cuenta de Teams y lo ha invitado el usuario de Teams, se unirán a la reunión autenticada. De lo contrario, se unirán como un participante anónimo. A la inversa, los usuarios de Teams casi siempre tienen una cuenta de Skype empresarial y un cliente de Skype empresarial que pueden usar para unirse a una reunión de Skype empresarial como participante autenticado, pero también se pueden unir como participante anónimo, por ejemplo, con la aplicación de reunión de Skype.
 
 Una vez que las partes se unen a la reunión, pueden realizar cualquier actividad que se admita en las reuniones, como el uso compartido de escritorio o de contenido, el uso compartido de archivos o la transferencia, agregar otros participantes, etc.
 

@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Esto te ayudará a identificar números gratuitos en cada país o región. Después de seleccionar el país o la región, le llevará a una página específica del país que contiene detalles específicos, restricciones y límites de disponibilidad de servicio gratuito en los que está disponible el servicio gratuito. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 492d484074687c1aff3cb59716091a4502cbba6a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Obtén más información sobre cómo llamar a números gratuitos de llamadas en la India, incluida la disponibilidad, la disponibilidad de redes móviles, las líneas fijas y las redes móviles y las restricciones.
+ms.openlocfilehash: e95d00a0bc601780eca63369e0af76d6a4786016
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693595"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140389"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Restricciones de marcado de número gratuito en India
 

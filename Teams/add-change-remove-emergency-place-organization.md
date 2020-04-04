@@ -1,5 +1,5 @@
 ---
-title: Agregar, cambiar o quitar una ubicación de emergencia para su organización
+title: Agregar, cambiar o quitar lugares de las ubicaciones de emergencia
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,13 +16,14 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 'Obtenga información sobre cómo agregar, cambiar o quitar un lugar para una ubicación de emergencia para su organización en el centro de administración de Microsoft Teams. '
-ms.openlocfilehash: a72d2ece731dcac33732d510b0cbd10975575cbc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Obtenga información sobre cómo agregar, cambiar o quitar un lugar para una ubicación de emergencia para su organización en el centro de administración de Microsoft Teams.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e23b1d2c69fd09136a581010632a140e82385051
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695845"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141143"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 

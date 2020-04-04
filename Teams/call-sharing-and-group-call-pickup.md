@@ -1,5 +1,5 @@
 ---
-title: Compartir llamadas y atender llamadas grupales en Microsoft Teams
+title: Compartir llamadas y atender llamadas grupales
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -21,19 +21,20 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.groupcallpickup.tooltip
 - ms.teamsadmincenter.users.voice.callorderanddelay.tooltip
 - Phone System
+- seo-marvel-mar2020
 description: El uso compartido de llamadas y la recogida de llamadas de Grupo permiten a los usuarios compartir llamadas entrantes con colegas para que las llamadas se puedan capturar cuando el usuario no está disponible.
-ms.openlocfilehash: c3a47c892940762807a86d6690fa59520f137960
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: aa59166d32de49b9163209a4836c7024d697fa8f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824558"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141293"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartir llamadas y atender llamadas grupales en Microsoft Teams
 
 Las características uso compartido de llamadas y recogida de llamadas grupales de Microsoft Teams permiten a los usuarios compartir sus llamadas entrantes con colegas para que los colegas puedan responder a llamadas que se produzcan mientras el usuario no está disponible.
 
-La recogida de llamadas grupales es menos disruptiva para los destinatarios que otras formas de uso compartido de llamadas (como el desvío de llamadas o el timbre simultáneo) porque los usuarios pueden configurar cómo desean recibir una notificación de una llamada compartida entrante (mediante una notificación de audio y vídeo, solo visual, o banner en la aplicación de Teams) y pueden decidir si desea contestarlos.
+La recogida de llamadas grupales es menos disruptiva para los destinatarios que otras formas de uso compartido de llamadas (como el desvío de llamadas o las llamadas simultáneas) porque los usuarios pueden configurar cómo desean recibir una notificación de una llamada compartida entrante (a través de la notificación de audio y vídeo, visual solo o banner en la aplicación de Teams), y pueden decidir si desea contestarla.
 
 Para compartir llamadas con otras personas, un usuario crea un grupo de llamadas y agrega los usuarios con los que desean compartir sus llamadas. Luego, eligen una configuración de llamada simultánea o de reenvío. Para obtener más información [, consulta desvío de llamadas y llamadas simultáneas en Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) .
 

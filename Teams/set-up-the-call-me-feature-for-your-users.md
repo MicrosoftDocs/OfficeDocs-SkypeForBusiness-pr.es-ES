@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Obtenga información sobre cómo configurar la característica llamarme en Teams para que los usuarios puedan unirse a la parte de audio por teléfono en escenarios en los que es posible que no se pueda usar el equipo para el audio.
+description: Obtenga información sobre cómo configurar la característica llamarme en Teams para que los usuarios puedan unirse a la parte de audio por teléfono cuando use su equipo para el audio puede no ser posible.
 localization_priority: Normal
 ms.collection:
 - M365-voice
@@ -16,19 +16,20 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cee6937a1bdc2bef6d2184066cb32a4aa94d8e6
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: c2343ce76e404ce2462cdbfc443130058112dcc4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096855"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140863"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Configure la característica llamarme para sus usuarios
 
 En Microsoft Teams, la característica **llamarme** proporciona a los usuarios una manera de unirse a la parte de audio de una reunión por teléfono. Esto es útil en escenarios en los que es posible que no sea posible usar un equipo para el audio. Los usuarios obtienen la parte de audio de la reunión a través del teléfono móvil o la línea terrestre y la parte&mdash;de contenido de la reunión, cuando otro participante de la reunión&mdash;comparte su pantalla o reproduce un vídeo a través de su equipo.
 
 > [!IMPORTANT]
-> Durante la duración del brote COVID-19, recomendamos que los usuarios se unan a las reuniones haciendo clic en el botón unirse a la **reunión de Teams** en lugar de marcar usando los números de la Conferencia RTC o llamando **al**</strong>. Esto se debe principalmente a la congestión de las infraestructuras de telefonía de los países afectados por COVID-19. Si evitas las llamadas RTC, probablemente tendrás una mejor calidad de audio. 
+> Mientras dure el brote de COVID-19, se recomienda a los usuarios que se unan a las reuniones mediante el botón **Unirse a la reunión de Teams** en lugar de usar los números de conferencia RTC o la opción **Llamarme al**</strong>. Esto se debe principalmente a la congestión de las infraestructuras de telefonía de países afectados por COVID-19. Si evita las llamadas RTC, es probable que experimente mayor calidad de audio. 
 
 ## <a name="the-user-experience"></a>La experiencia del usuario
 

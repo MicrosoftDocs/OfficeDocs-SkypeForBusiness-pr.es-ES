@@ -1,5 +1,5 @@
 ---
-title: Lista de comprobación de incorporación para configurar las funciones principales de Microsoft Teams
+title: 'Lista de comprobación de la incorporación: configurar las funciones principales-Microsoft Teams'
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,13 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba9a3233ac762c28904b44275a8b653c56bf918a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 117486fe944fac080ada57639d6249c917a02a22
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835990"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43138340"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Configurar las capacidades principales de Microsoft Teams
 
@@ -30,7 +31,7 @@ ms.locfileid: "41835990"
 | 1  | Validar que Teams está habilitado para el inquilino | Teams está activado de forma predeterminada para todas las organizaciones. Compruebe la página **servicios & complementos** en el centro de administración de Microsoft 365 para comprobar que Teams está habilitado para su inquilino y habilítelo si es necesario. | | [Configurar Microsoft Teams en su organización de Office 365](office-365-set-up.md) |
 | 3  | Configurar roles y permisos | Teams admite dos tipos de roles: miembro y propietario. <br/><br/>Después de agregar un miembro a un equipo, un propietario también puede promocionar un miembro al rol de propietario. Como práctica recomendada, le recomendamos que tenga al menos dos propietarios asignados a cada equipo. <br/><br/>De forma predeterminada, todos los usuarios de la organización que tienen un buzón de correo hospedado en Exchange online pueden crear un equipo. A un usuario que crea un equipo nuevo se le concede automáticamente el rol de propietario de ese equipo. <br/><br/>Si es necesario, puede configurar las opciones de grupo de Office 365 para permitir que usuarios específicos creen nuevos equipos. | | [Asignar roles y permisos en Microsoft Teams](assign-roles-permissions.md) <br/><br/>[Grupos de Office 365 y Microsoft Teams](office-365-groups.md) <br/><br/>[Administrar quién puede crear grupos de Office 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618) |
 | 4  | Configurar las opciones de Teams para todo el inquilino | Puede configurar algunas opciones de Teams en el nivel de inquilino. Los usuarios que están habilitados para los equipos heredan esta configuración de la configuración de inquilinos:<ul><li>General</li><li>Integración de correo electrónico</li><li>Aplicaciones</li><li>Almacenamiento en nube personalizado</li><li>Llamadas y reuniones</li><li>Mensajería </li></ul>| | [Administrar la configuración de Microsoft Teams para su organización](enable-features-office-365.md) |
-| 5  | OPCIONAL: configurar el acceso de invitado | Use el acceso de invitado en Teams para colaborar con personas de fuera de su organización al otorgarles acceso a los equipos y canales. El acceso de invitados es una configuración de nivel de inquilino de Teams. Está desactivado de forma predeterminada. <br/>Habilite el acceso de invitado y configure la configuración de invitado en el inquilino, si su organización tiene previsto usar esa característica. | | [Acceso de invitado en Microsoft Teams](guest-access.md) |
+| 5  | OPCIONAL: configurar el acceso de invitado | Use el acceso de invitado en Teams para colaborar con personas de fuera de su organización al otorgarles acceso a los equipos y canales. El acceso de invitados es una configuración de nivel de inquilino de Teams. Está desactivado por defecto. <br/>Habilite el acceso de invitado y configure la configuración de invitado en el inquilino, si su organización tiene previsto usar esa característica. | | [Acceso de invitado en Microsoft Teams](guest-access.md) |
 | 6  | OPCIONAL: configurar la política de nomenclatura de Teams | Teams aprovecha las políticas de nomenclatura de los grupos de Office 365 cuando los usuarios crean o editan nombres de equipo. <br/><br/>De forma predeterminada, no se aplican restricciones de nomenclatura cuando un usuario crea un equipo. <br/><br/>Si necesita aplicar reglas para los nombres de los equipos, configure las directivas de nomenclatura de Office 365 Groups que se aplican a su organización. Puede establecer prefijos y sufijos obligatorios y especificar palabras bloqueadas. | | [Planificar grupos de Office 365 al crear equipos en Microsoft Teams](plan-office-365-groups.md) <br/><br/>[Directiva de nomenclatura de Office 365 Groups](https://support.office.com/article/Office-365-Groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552) |
 | 7  | Configurar Exchange para el dominio SMTP de Teams | Teams usa Exchange Online para enviar notificaciones a los miembros del equipo mediante el dominio SMTP (email.teams.microsoft.com) cuando se han agregado o quitado. <br/><br/>Asegúrese de agregar este dominio SMTP a la lista de dominios aceptados de su infraestructura de Exchange. | | [Agregar dominio SMTP de Microsoft Teams como un dominio aceptado en Exchange Online](smtp-accepted-domain.md) |
 | 4,8  | Configurar y administrar el acceso de los usuarios a los equipos | Aunque le recomendamos encarecidamente que habilite todos los usuarios para Teams, puede permitir o denegar el acceso a Teams para cada usuario asignando o quitando la licencia de producto de Teams. | | [Administrar el acceso de los usuarios a Microsoft Teams](user-access.md) |

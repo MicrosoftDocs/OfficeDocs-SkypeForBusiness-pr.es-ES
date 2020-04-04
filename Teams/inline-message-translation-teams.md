@@ -1,5 +1,5 @@
 ---
-title: Activar la traducción de mensajes en línea en Microsoft Teams
+title: Activar la traducción de mensajes en línea
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -17,14 +17,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1926f574977f65181f12ddbb9f0239ad1547d1e5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4de799959e5e387ad768c3f82e379e464f42191c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836640"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141103"
 ---
 <a name="turn-on-inline-message-translation-in-microsoft-teams"></a>Activar la traducción de mensajes en línea en Microsoft Teams 
 =================================================

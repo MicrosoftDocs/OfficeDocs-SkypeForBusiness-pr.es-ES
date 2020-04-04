@@ -1,5 +1,5 @@
 ---
-title: Administrar las directivas de enrutamiento de llamadas de emergencia en Microsoft Teams
+title: Administrar directivas de enrutamiento de llamadas de emergencia
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar las directivas de enrutamiento de llamadas de emergencia en Microsoft Teams.
-ms.openlocfilehash: af0b7a6a82e0d5ff06c65d726b2f67af22b6f4aa
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: c0e02a44997e07626c39dc576357f8811a9b1bf9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836510"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141123"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Administrar las directivas de enrutamiento de llamadas de emergencia en Microsoft Teams
 
@@ -53,7 +54,7 @@ Si asignó una directiva de enrutamiento de llamadas de emergencia a un sitio de
 
 6. Haga clic en **Guardar **.
 
-### <a name="using-powershell"></a>Usar PowerShell
+### <a name="using-powershell"></a>Con PowerShell
 
 Vea [New-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsemergencycallroutingpolicy).
 
@@ -67,7 +68,7 @@ Puede editar la directiva global o cualquier directiva personalizada que cree.
 2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva y, a continuación, haga clic en **Editar**.
 3. Realice los cambios que desee y, a continuación, haga clic en **Guardar**.
 
-### <a name="using-powershell"></a>Usar PowerShell
+### <a name="using-powershell"></a>Con PowerShell
 
 Consulte [set-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallroutingpolicy).
 
@@ -75,7 +76,7 @@ Consulte [set-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powe
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, haga clic en el usuario.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
 2. Haga clic en **directivas**y, junto a **directivas asignadas**, haga clic en **Editar**.
 3. En **Directiva de enrutamiento de llamadas de emergencia**, seleccione la Directiva que desea asignar y, a continuación, haga clic en **Guardar**.
 
@@ -84,12 +85,12 @@ Para asignar una directiva de Teams personalizada a varios usuarios a la vez, ve
 También puede hacer lo siguiente:
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de emergencia**de **voz** > y, a continuación, haga clic en la pestaña directivas de **enrutamiento de llamadas** .
-2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva.
-3. Seleccione **administrar usuarios**.
-4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
+2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
+3. Seleccione **Administrar usuarios**.
+4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 5. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
 
-### <a name="using-powershell"></a>Usar PowerShell
+### <a name="using-powershell"></a>Con PowerShell
 
 #### <a name="assign-a-custom-emergency-call-routing-policy-to-a-user"></a>Asignar una política de enrutamiento de llamadas de emergencia personalizada a un usuario
 

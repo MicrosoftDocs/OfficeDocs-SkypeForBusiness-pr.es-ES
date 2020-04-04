@@ -1,5 +1,5 @@
 ---
-title: Planificación de llamadas de emergencia, direcciones de emergencia, enrutamiento de llamadas de emergencia, llamadas de emergencia dinámicas
+title: Planear y administrar las llamadas de emergencia
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,13 +22,14 @@ ms.custom:
 - ms.lync.lac.AddressAndLocation
 - Calling Plans
 - Direct Routing
+- seo-marvel-mar2020
 description: Más información sobre las llamadas de emergencia, incluida información sobre las direcciones de emergencia, el enrutamiento de llamadas de emergencia y las llamadas de emergencia dinámicas.
-ms.openlocfilehash: 85a09880c1eec83851208197c008c8aaafac88f6
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 8afe2d2af8b2aecbe3d73da03137f330aa8304b8
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161693"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141033"
 ---
 # <a name="manage-emergency-calling"></a>Administrar las llamadas de emergencia
 
@@ -91,7 +92,7 @@ Las llamadas de emergencia dinámicas para los planes de llamadas de Microsoft p
 
 En este momento, solo los usuarios del plan de llamadas de Estados Unidos pueden aprovechar las ubicaciones dinámicas para el enrutamiento de llamadas de emergencia de la siguiente manera:
 
-- Si un cliente de Teams para un usuario de un plan de llamadas de Estados Unidos adquiere dinámicamente una dirección de emergencia dentro de los Estados Unidos, esa dirección se usa para enrutamiento de emergencia en lugar de la dirección registrada, y la llamada se dirigirá automáticamente a la PSAP de la área de servicio de la dirección.
+- Si un cliente de Teams para un usuario de un plan de llamadas de Estados Unidos adquiere dinámicamente una dirección de emergencia dentro de los Estados Unidos, esa dirección se usa para enrutamiento de emergencia en lugar de la dirección registrada, y la llamada se redirigirá automáticamente a la PSAP del área correspondiente de la dirección.
 
 - Si un cliente de Teams para un plan de llamadas de Estados Unidos no adquiere dinámicamente una dirección de emergencia dentro de los Estados Unidos, la dirección de emergencia registrada se usa para ayudar a la pantalla y enrutar la llamada. Sin embargo, la llamada se filtrará para determinar si es necesaria una dirección actualizada antes de conectar la persona que llama a la PSAP adecuada.
 
@@ -179,7 +180,7 @@ Para obtener más información, consulte [controladores de borde de sesión cert
 
 #### <a name="emergency-location-identification-number-elin-applications"></a>Aplicaciones de número de identificación de ubicación de emergencia (ELIN)
 
-Los controladores de borde de sesión (SBCs) pueden incluir aplicaciones de número de identificación de ubicación de emergencia (ELIN). Si una aplicación de ELIN de SBC se integra en una implementación de enrutamiento directo, debe configurar las direcciones de emergencia y los números de teléfono asociados en la aplicación de ELIN y, a continuación, cargar los registros de ELIN en la base de datos de llamadas de emergencia en la RTC correspondiente. .  Las ubicaciones de emergencia de Teams con un identificador de ELIN deben coincidir con las de la aplicación ELIN.
+Los controladores de borde de sesión (SBCs) pueden incluir aplicaciones de número de identificación de ubicación de emergencia (ELIN). Si una aplicación de ELIN de SBC se integra en una implementación de enrutamiento directo, debe configurar las direcciones de emergencia y los números de teléfono asociados en la aplicación de ELIN y, a continuación, cargar los registros de ELIN en la base de datos de llamadas de emergencia en la PSTN correspondiente.  Las ubicaciones de emergencia de Teams con un identificador de ELIN deben coincidir con las de la aplicación ELIN.
 
 Cuando una llamada de emergencia con un lugar adquirido dinámicamente se dirige al SBC correspondiente, la aplicación ELIN:
 

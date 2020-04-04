@@ -1,5 +1,5 @@
 ---
-title: Administrar la aplicación Turnos para su organización en Microsoft Teams
+title: Administrar la aplicación de turnos para su organización
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -17,12 +17,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 134ff131307034381b97643a2bf9a3dd7fc87a7d
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 9298ed02c6b8559bdaf1e59c74a149a9d5164124
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161863"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141193"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 
@@ -74,7 +75,7 @@ Para ver la Directiva de FirstlineWorker, en el navegación izquierdo del centro
 
 #### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>Asignar la Directiva FirstlineWorker a usuarios individuales
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, haga clic en el usuario.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
 2. Junto a **directivas asignadas**, elija **Editar**.
 3. En **Directiva de configuración de la aplicación de Teams**, seleccione **FirstlineWorker**y, después, haga clic en **Guardar**.
 

@@ -1,5 +1,5 @@
 ---
-title: Agregar, cambiar o quitar una ubicación de emergencia para su organización
+title: Agregar, cambiar o quitar ubicaciones de emergencia
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,12 +17,13 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 'Obtenga información sobre cómo agregar, cambiar o quitar una ubicación de emergencia para su organización en el centro de administración de Microsoft Teams. '
-ms.openlocfilehash: 2471f13f67555eeff4e0a1b130c416dbbe97b0c7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5ec834592e6978c2e2b63810ea25eb7e837513dd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695844"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141273"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 
@@ -40,7 +41,7 @@ Para obtener información sobre cómo obtener un plan de llamadas y cuánto cues
 4. Seleccione el país o la región y, a continuación, escriba la dirección.
 
    > [!NOTE]
-   > En Bélgica, Francia, Alemania, Irlanda, Países Bajos y España, es importante comprender que para activar correctamente un número de teléfono en Office 365, la dirección configurada en la ubicación de emergencia, que se usa para adquirir el número, debe coincidir con la del número de teléfono. código de área.
+   > En Bélgica, Francia, Alemania, Irlanda, Países Bajos y España, es importante comprender que para activar correctamente un número de teléfono en Office 365, la dirección establecida en la ubicación de emergencia, que se usa para adquirir el número, debe coincidir con el código de área del número de teléfono.
 5. Si no se encuentra la dirección y desea modificar la dirección manualmente, Active **permitir que edite el formulario de la dirección manualmente si no se puede encontrar la dirección seleccionada**.
 6. Haga clic en **Guardar **.
     

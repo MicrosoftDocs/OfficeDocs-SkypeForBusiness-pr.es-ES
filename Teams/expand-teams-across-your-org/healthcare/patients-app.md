@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Integración de la EHR de la aplicación pacientes de Microsoft Teams
-ms.openlocfilehash: 27149ad8466eec9bd3c1f73293f82a877dc1a722
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Obtenga más información sobre la integración de registros de asistencia electrónica en Microsoft Teams con las API de FHIR sobre un sistema de información de medicina para conectarse a Microsoft Teams.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: bbd239c34c6fd4cd5838b2ba57c7160448f38497
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147723"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141213"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Integración de registros sanitarios electrónicos en Microsoft Teams
 
@@ -63,7 +64,7 @@ En las siguientes secciones, se explican los requisitos de la FHIR de acceso a d
 
 ### <a name="authentication"></a>Autenticación  
 
-La autorización en el nivel de la aplicación *sin compatibilidad para autorización a nivel de usuario* es la forma más común admitida para realizar transformaciones de datos y exponer conexiones a datos de EHR a través de FHIR, aunque el sistema HCI pueda implementar la autorización a nivel de usuario. El servicio de interoperabilidad (asociado) obtiene acceso elevado a los datos de EHR y cuando exponen los mismos datos que los recursos FHIR apropiados no hay ningún contexto de autorización pasado al consumidor del servicio de interoperabilidad (la aplicación de pacientes) que se integra con la interoperabilidad Servicio o plataforma. La aplicación de pacientes no podrá exigir la autorización de nivel de usuario, pero admite la autenticación de aplicaciones entre la aplicación de pacientes y el servicio del colaborador de interoperabilidad.
+La autorización en el nivel de la aplicación *sin compatibilidad para autorización a nivel de usuario* es la forma más común admitida para realizar transformaciones de datos y exponer conexiones a datos de EHR a través de FHIR, aunque el sistema HCI pueda implementar la autorización a nivel de usuario. El servicio de interoperabilidad (asociado) obtiene acceso elevado a los datos de EHR y cuando exponen los mismos datos que los recursos de FHIR apropiados no hay ningún contexto de autorización pasado al consumidor del servicio de interoperabilidad (la aplicación de pacientes) que se integra con el servicio o la plataforma de interoperabilidad. La aplicación de pacientes no podrá exigir la autorización de nivel de usuario, pero admite la autenticación de aplicaciones entre la aplicación de pacientes y el servicio del colaborador de interoperabilidad.
 
 La aplicación para el modelo de autenticación de aplicaciones se describe a continuación:
 
@@ -71,7 +72,7 @@ La autenticación de servicio a servicio debe realizarse a través del [flujo de
 
 1. El servicio asociado permite a la aplicación de pacientes crear una cuenta con el socio, lo que permite a la aplicación de pacientes generar y poseer client_id y client_secret administrados a través de un portal de registro de autenticación en el servidor de autenticación del socio.
 2. El servicio asociado posee el sistema de autenticación/autorización, que acepta y verifica (autentica) las credenciales de cliente proporcionadas y devuelve un token de acceso con el sugerencia de inquilino en el ámbito, como se describe a continuación.
-3. Por razones de seguridad o en el caso de una infracción secreta, la aplicación de pacientes puede volver a generar el secreto e invalidar o eliminar el secreto anterior (el ejemplo de lo mismo está disponible en el portal de Azure: registro de la aplicación AAD)
+3. Por razones de seguridad o en el caso de una infracción secreta, la aplicación de pacientes puede volver a generar el secreto e invalidar o eliminar el secreto anterior (el ejemplo de lo mismo está disponible en el portal de Azure: registro de la aplicación AAD).
 4. El punto final de metadatos que hospeda la instrucción de conformidad debe ser no autenticado, debe ser accesible sin un token de autenticación.
 5. El servicio asociado proporciona el punto final del token de la aplicación de pacientes para solicitar un token de acceso con un flujo de credenciales de cliente. La dirección URL del token como por servidor de autorización debe formar parte de la instrucción de conformidad (Capability) FHIR capturada de los metadatos en el servidor de FHIR como en este ejemplo:
 
@@ -136,7 +137,7 @@ Las llamadas y los campos específicos usados por la aplicación de pacientes se
 
 ## <a name="performance-and-reliability"></a>Rendimiento y confiabilidad
 
-Mientras la aplicación patients está en la vista previa privada, no hay ninguna garantía en el rendimiento de un extremo a otro. Entre los factores en el rendimiento se incluyen las latencias relativas de todos los saltos implicados en el flujo de trabajo, empezando desde el EHR del entorno del sistema, hasta el socio de interoperabilidad y su infra, incluido el servidor FHIR y el ecosistema de Office 365 y Aplicación de pacientes.
+Mientras la aplicación patients está en la vista previa privada, no hay ninguna garantía en el rendimiento de un extremo a otro. Entre los factores en el rendimiento se incluyen las latencias relativas de todos los saltos implicados en el flujo de trabajo, empezando desde el EHR del entorno del sistema, hasta el socio de interoperabilidad y su infra, incluido el servidor de FHIR y el ecosistema y la aplicación de pacientes de Office 365.
 
 ![Ilustración del rendimiento de los socios de interoperabilidad](../../media/FHIR.png)
 
@@ -167,5 +168,3 @@ Una vez que haya creado el servidor de FHIR de código fuente abierto, es realme
     ![Captura de pantalla de la configuración del servidor de aplicaciones de pacientes](../../media/patients-server.png)
 
 5. Empiece a usar la aplicación para buscar pacientes desde el servidor FHIR/EHR y agréguelos a una lista y envíenos [comentarios](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) si algo no funciona. Además, para establecer una versión completamente autenticada de la aplicación de pacientes, > flujo de servidor de FHIR, participe en el diálogo sin conexión con Microsoft Teams para la ingeniería de productos de la salud, a través de la solicitud de correo electrónico que se menciona anteriormente para clarificar los requisitos y le ayudaremos a habilitarlo para usted según los requisitos de autenticación descritos anteriormente en el documento de  
-
-

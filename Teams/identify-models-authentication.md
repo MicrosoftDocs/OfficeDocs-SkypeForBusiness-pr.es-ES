@@ -1,5 +1,5 @@
 ---
-title: Modelos de identidad y autenticación en Microsoft Teams
+title: Modelos de identidad y autenticación
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,12 +17,13 @@ ms.collection:
 description: Conozca los diferentes modelos de identidad de Microsoft Teams, como Nube, Sincronizada y Federada. Aprenda también sobre la autenticación multifactor.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c09702700cf62505bbe0016d44545a02596f6b8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a58dcdae704be7ccdaefe1e2bca3b4978f4a10f9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42022291"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139299"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Modelos de identidad y autenticación en Microsoft Teams
 ==========================================
@@ -38,7 +39,7 @@ Microsoft Teams admite todos los modelos de identidad que están disponibles con
 <a name="configurations"></a>Configuraciones
 --------------
 
-Según las decisiones de la organización sobre el modelo de identidad que se debe aplicar y usar, los requisitos para la implementación varían. Consulte la tabla de requisitos a continuación para asegurarse de que su implementación cumpla con estos requisitos previos. Si ya tiene implementado Office 365 y ya aplicó la identidad y el método de autenticación, puede omitir estos pasos.
+Según las decisiones de la organización sobre qué modelo de identidad implementar y usar, los requisitos de implementación pueden variar. Consulte la tabla requisitos siguiente para asegurarse de que su implementación cumpla con estos requisitos previos. Si ya ha implementado Office 365 y ya ha implementado el método de identidad y autenticación, puede omitir estos pasos.
 
 
 |Modelo de identidad |Lista de comprobación de la implementación  |Información adicional  |

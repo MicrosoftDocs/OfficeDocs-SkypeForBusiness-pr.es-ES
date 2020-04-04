@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Lea este tema para obtener información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión compatible suministrado por el cliente (SBC) a Microsoft Phone System.
-ms.openlocfilehash: be0d901095afa322935944a9b4898e540946bf8a
-ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
+ms.custom: seo-marvel-mar2020
+description: Obtenga información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión (SBC) compatible suministrado por el cliente a Microsoft Phone System.
+ms.openlocfilehash: bc092c2441ff359de1189e1ff000a61c51dcec1f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955729"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140289"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -264,7 +265,7 @@ SIP/TLS|SBC|Proxy SIP|Definido en la SBC|5061|
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>Mecanismo de conmutación por error para la señalización SIP
 
-La SBC realiza una consulta DNS para resolver sip.pstnhub.microsoft.com. En función de la ubicación de SBC y de las métricas de rendimiento del centro de recursos, se selecciona el centro de recursos principal. Si el centro de información principal sufre un problema, la SBC probará la sip2.pstnhub.microsoft.com, que se resuelve en el segundo centro de información asignado y, en el caso raro de que no se encuentren disponibles centros de información en dos regiones, la SBC reintenta el último FQDN ( sip3.pstnhub.microsoft.com), que proporciona la IP del centro de centros de recursos terciario.
+La SBC realiza una consulta DNS para resolver sip.pstnhub.microsoft.com. En función de la ubicación de SBC y de las métricas de rendimiento del centro de recursos, se selecciona el centro de recursos principal. Si el centro de información principal sufre un problema, la SBC probará el sip2.pstnhub.microsoft.com, que se resuelve en el segundo centro de información asignado y, en el caso raro de que no se encuentren disponibles los centros de información en dos regiones, la SBC reintenta el último FQDN (sip3.pstnhub.microsoft.com), que proporciona la tercera dirección IP del centro de recursos.
 
 En la tabla siguiente se resumen las relaciones entre centros de recursos primarios, secundarios y terciarios:
 

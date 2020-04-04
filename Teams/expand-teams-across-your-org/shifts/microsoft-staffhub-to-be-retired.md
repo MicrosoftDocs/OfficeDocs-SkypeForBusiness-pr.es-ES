@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: ''
+description: Encuentre respuestas a preguntas frecuentes sobre la retirada de Microsoft StaffHub y sobre cómo realizar la transición a la aplicación turnos en Microsoft Teams.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 346ef795f8432154d74610e4d061d00fc6039f2a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 53d82dc346226215101c837dcf8a2f10dd6ff2fc
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008162"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141183"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Se retirará Microsoft StaffHub
 
@@ -148,7 +149,7 @@ Le recomendamos que revise las listas de su equipo existente en StaffHub y, cuan
 
 La programación del usuario se moverá a desplazamientos; sin embargo, el usuario no será miembro del equipo ni de un grupo de Office 365.
 
-Para las cuentas inactivas que no están vinculadas a una cuenta de usuario de Azure AD, un administrador puede asegurarse de que el usuario se agregue como miembro del equipo agregando una dirección de correo electrónico de Office 365 válida en la página miembros del equipo de StaffHub para que el usuario esté vinculado a la cuenta de Azure AD correcta en el organización ir.
+Para las cuentas inactivas que no están vinculadas a una cuenta de usuario de Azure AD, un administrador puede garantizar que el usuario se agregue como miembro del equipo agregando una dirección de correo electrónico de Office 365 válida en la página miembros del equipo de StaffHub para que el usuario esté vinculado a la cuenta de Azure AD correcta en su organización.
 
 Otra opción es que los administradores ejecuten los cmdlets **Add-StaffHubMember** y **Remove-StaffHubUser** para quitar una cuenta no aprovisionada de un equipo de StaffHub y agregar el usuario al equipo con su UPN.
 
