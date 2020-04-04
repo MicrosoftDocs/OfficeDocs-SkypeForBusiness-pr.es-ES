@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91cb2752d1e37f98056f305a287bf9e6c974e4e8
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 2c6ce90a3ee92703b697a9fdb5dcfec3206193b4
+ms.sourcegitcommit: 482050a77a85aeb8dae52f86c9344023487e1b70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053633"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113213"
 ---
 # <a name="security-and-microsoft-teams"></a>Seguridad y Microsoft Teams
 
@@ -143,7 +143,7 @@ En esta tabla, se resumen los protocolos que usa Teams.
 
 #### <a name="media-encryption"></a>Cifrado de medios
 
-El tráfico de medios se cifra mediante RTP seguro (SRTP), que es un perfil de protocolo de transporte en tiempo real (RTP) que proporciona al tráfico RTP confidencialidad, autenticación y protección contra los ataques de reproducción. SRTP utiliza una clave de sesión creada con un generador de números aleatorios seguros y se intercambia mediante el canal de señalización TLS.
+El tráfico de medios se cifra mediante RTP seguro (SRTP), que es un perfil de protocolo de transporte en tiempo real (RTP) que proporciona al tráfico RTP confidencialidad, autenticación y protección contra los ataques de reproducción. SRTP utiliza una clave de sesión creada con un generador de números aleatorios seguros y se intercambia mediante el canal de señalización TLS. El tráfico multimedia de cliente a cliente se negocia a través de una señalización de conexión de cliente a servidor, pero se cifra con SRTP cuando se dirige directamente de cliente a cliente.
 
 Teams usa un token basado en credenciales para el acceso seguro a los relés multimedia mediante TURN. Los relés multimedia intercambian el token a través de un canal seguro de TLS.
 

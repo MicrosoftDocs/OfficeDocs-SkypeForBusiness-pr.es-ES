@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87918e83aae6f56a3956336603decd41817cdd2a
-ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
+ms.openlocfilehash: 15e84c6e5d7d205910be982eb0688143cd14abfa
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43100087"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131228"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introducción a Microsoft Teams para el aprendizaje remoto
 
@@ -58,6 +58,9 @@ Para que los usuarios puedan usar las funciones de Teams, [deben estar habilitad
 
 Microsoft Teams está incluido en Office 365 A1, que es gratuito para las instituciones educativas. Para obtener instrucciones sobre cómo implementar Office 365 y cómo lograr que toda la escuela se inicie en Teams, consulte [esta página](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). Para obtener soporte técnico, puede archivar un tique [aquí](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) y si desea obtener cursos de aprendizaje de Teams, visite la Microsoft Store local para conversar con un especialista.
 
+> [!NOTE]
+> Consulte [guía actualizada para la implementación de M365 EDU durante COVID-19](https://docs.microsoft.com/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19) para obtener la información más reciente sobre implementaciones de EDU.
+
 ## <a name="easily-set-up-teams"></a>Configurar Teams fácilmente
 
 Estas son las dos tareas que debe realizar para empezar a trabajar con Teams:
@@ -75,6 +78,9 @@ Los clientes de educación superior se benefician al permitir que todos los usua
 **El personal de educación superior, los formadores y los alumnos** se benefician de las funciones que se incluyen con las directivas predeterminadas (globales). Se pueden habilitar algunas opciones de configuración adicionales para agregar más funciones a Teams, incluidas [habilitar la función de traducción en la directiva de mensajería](messaging-policies-in-teams.md#messaging-policy-settings) y [permitir la transcripción de las reuniones de forma automática](meeting-policies-in-teams.md#allow-transcription) en la directiva de la reunión.
 
 Es posible que se deban restringir funciones a los **alumnos de primaria y secundaria**. Las directivas establecen límites para lo que pueden hacer los alumnos. Dado que la población de alumnos es, por lo general, el conjunto más grande de usuarios y a menudo recibe la configuración más restrictiva, se recomienda que se realicen cambios a la directiva "Global (configuración predeterminada para toda la organización)".
+
+> [!IMPORTANT]
+> Para las directivas de reunión asignadas a todos los usuarios, se recomienda configurar la opción "administrar automáticamente personas" para todos los usuarios de su organización. Esta configuración garantiza que los usuarios no autenticados deben recibirse en la sala de espera para que puedan unirse a reuniones de Teams. Para obtener más información, consulte [administrar directivas de reunión de Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
 
 Aquí tiene un conjunto de configuraciones comunes, no predeterminadas, de directivas que se asignan a los alumnos de primaria y secundaria para limitar la comunicación sin moderador entre alumnos:
 
@@ -140,6 +146,12 @@ Puede obtener más información sobre cómo usar Teams para la educación en: [M
 
 > [!NOTE]
 > Algunas características clave de Teams no son específicas para el ámbito educativo. Se pueden encontrar sugerencias y trucos para las principales funciones de Teams en: [Ayuda y aprendizaje de Teams](https://support.office.com/teams).
+
+### <a name="prevent-users-from-changing-their-profile-photo"></a>Impedir que los usuarios cambien su foto de perfil
+
+Teams respeta la configuración de la [directiva de buzón de Outlook en la Web](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) que está configurada por los administradores de espacios empresariales para controlar si los usuarios pueden cambiar su imagen de perfil. Si la configuración de **-SetPhotoEnabled** está desactivada, los usuarios no podrán agregar, cambiar o quitar su imagen de perfil. Para impedir que los estudiantes o el personal puedan cambiar o quitar su imagen de perfil, desactive esta opción en la directiva de buzón de Outlook en la Web que tienen asignada.
+
+Por ejemplo, si un alumno carga una imagen de perfil aprobada por el Departamento de TI o de recursos humanos de su escuela, no es necesario realizar ninguna acción. Sin embargo, si un estudiante carga una imagen inapropiada, cambie la imagen de acuerdo con las directivas internas de la escuela.  
 
 ## <a name="adoption-content"></a>Contenido de adopción
 
