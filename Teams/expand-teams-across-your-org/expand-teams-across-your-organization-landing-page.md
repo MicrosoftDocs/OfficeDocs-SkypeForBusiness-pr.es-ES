@@ -1,6 +1,6 @@
 ---
 title: Expandir Microsoft Teams en toda la organización
-description: Use estos recursos para sacar el máximo provecho de Teams en toda la organización.
+description: Obtenga más información sobre los recursos de Microsoft Teams, incluidos los turnos para equipos, los equipos de salud, los equipos para el ámbito educativo, los equipos para el sector minorista y los equipos de gobierno.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -15,12 +15,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b163d12d0b773f271453a8024b3c0805c0e87a1c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: d4b6e2b1706f64a37aa8174ca919bd7582b90772
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008182"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136948"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Expandir Microsoft Teams en toda la organización
 
