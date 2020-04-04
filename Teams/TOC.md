@@ -604,8 +604,6 @@
 # Instrucciones para sectores y gobiernos
 ## [Información general](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Introducción a las plantillas de Teams](get-started-with-teams-templates.md)
-## [Inicio rápido para los Firstline Workers](firstline-workers-quickstart.yml)
-## [RealWear para Microsoft Teams](flw-realwear.md)
 ## [Turnos para Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Se retirará Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Instalar el módulo de PowerShell de Microsoft StaffHub](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -639,6 +637,12 @@
 ### [Preguntas frecuentes de la administración de Microsoft Education para administradores](plan-teams-governance-edu.md)
 ### [Instalar la integración Moodle](install-moodle-integration.md)
 ### [Referencia de SKU de Educación](sku-reference-edu.md)
+
+## Teams para los trabajadores de primera línea
+### [Inicio rápido para los trabajadores de primera línea](firstline-workers-quickstart.yml)
+### [Implementación mediante scripts para trabajadores de primera línea](flw-scripted-deployment.md)
+### [RealWear para Microsoft Teams](flw-realwear.md)
+### [Crear una aplicación de portal de intranet de Teams desde un sitio o página de SharePoint Online](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams para el comercio](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [Introducción a las plantillas comerciales de Teams](get-started-with-retail-teams-templates.md)
