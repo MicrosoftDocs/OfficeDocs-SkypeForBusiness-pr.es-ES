@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Cómo iniciar sesión en Microsoft Teams mediante la autenticación moderna. Incluye cómo omitir agregar automáticamente el nombre de usuario UPN cuando los usuarios inician sesión.
+description: Cómo iniciar sesión en Microsoft Teams mediante la autenticación moderna. Incluye cómo omitir la adición del nombre de usuario UPN automáticamente cuando los usuarios inicien sesión con una configuración que indique a Windows que ignore el UPN.
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c541371b78bcd9119abe7a11523d0d2f7b5eda7c
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: f86568f92f2b758ae48062c84b330461743ef178
+ms.sourcegitcommit: 8665603fae8408ccbc083dd59cb01936ebe96c58
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978372"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116646"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Iniciar sesión en Microsoft Teams con la autenticación moderna
 ==========================
@@ -40,14 +40,14 @@ La autenticación moderna es un proceso que permite que Teams sepa que los usuar
 
 - Si los usuarios inician sesión en un equipo unido a un dominio, cuando inicien Teams, es posible que se le pida que realicen un paso de autenticación más, en función de si la organización decidió requerir MFA o si el equipo ya requiere MFA para iniciar sesión. Si su equipo ya requiere MFA para iniciar sesión, cuando abran Teams, la aplicación se iniciará automáticamente.
 
-- Si los usuarios han iniciado sesión en un equipo unido a un dominio y no quieren que su nombre de usuario se rellene previamente en la pantalla de inicio de sesión de Teams, los administradores pueden configurar el registro de Windows siguiente para desactivar el rellenado previo del nombre de usuario (UPN):
+- Si los usuarios han iniciado sesión en un equipo unido a un dominio y **no quieren que su nombre de usuario se rellene previamente en la pantalla de inicio de sesión de Teams**, los administradores pueden configurar el registro de Windows siguiente para desactivar el rellenado previo del nombre de usuario (UPN):
 
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
 
     > [!NOTE]
-    > El rellenado previo para los nombres de usuario que terminan en ".local" o ".corp" está desactivado de forma predeterminada, por lo que no es necesario establecer una clave del registro para desactivarlo. 
+    > La opción para omitir o ignorar el rellenado previo para los nombres de usuario que terminan en ".local" o ".corp" está activada de forma predeterminada, por lo que no es necesario establecer una clave del registro para desactivarlos. 
 
 
 ### <a name="mac-users"></a>Usuarios de Mac 
