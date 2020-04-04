@@ -1,5 +1,5 @@
 ---
-title: Crear una estrategia de administración de cambios para Microsoft Teams
+title: Crear una estrategia de administración de cambios
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -11,15 +11,16 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Aprenda a crear una estrategia de gestión de cambios para Microsoft Teams a través de la identificación de partes interesadas clave, los resultados empresariales, las medidas de éxito y la gestión de su campaña.
+description: Cree una estrategia de administración de cambios para Microsoft Teams identificando las partes principales, los resultados empresariales, las medidas de éxito y la administración de la campaña.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e6c07271caecd2c84301930f0b71aa6eda0011a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 628c839560423e0e2524bed24082156469faeb36
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824978"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137920"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Crear una estrategia de administración de cambios para Microsoft Teams
 =======================================================
@@ -63,7 +64,7 @@ La primera regla para que la adopción se realice correctamente es crear un equi
 |![Icono de propietarios de servicios](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Los **propietarios de servicios** son responsables de garantizar que las personas utilicen el servicio y se beneficien de él. Establecer propietarios de servicios dentro de la organización es importante para garantizar que se cumplan los objetivos de negocio establecidos para Office 365.         |
 |![Icono de expertos.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Obtener el consenso de todos los usuarios de la organización es un reto. Los **expertos** pueden ayudar a mitigar este reto y tienen un papel importante en la adopción de Office 365. Tienen amplios conocimientos, se comprometen a transmitir su experiencia y están dispuestos a proporcionar formación y asistencia a sus pares. Ayudan a adaptar Office 365 a la realidad de su departamento o equipo.         |
 
-Recomendamos realizar reuniones periódicas con estas partes interesadas para mantenerlas al tanto del progreso del programa. Iniciar un "consejo de colaboración" para permitir comentarios y debates puede ser una herramienta útil según la cultura empresarial.
+Le recomendamos una reunión regular de estas partes interesadas para mantenerlos al día sobre el progreso de su programa. Iniciar un "Consejo de colaboración" para permitir la retroalimentación y la discusión puede ser una herramienta útil según la cultura de su empresa.
 
 
 

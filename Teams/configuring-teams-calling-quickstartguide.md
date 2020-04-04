@@ -1,5 +1,5 @@
 ---
-title: 'Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams'
+title: Guía de inicio rápido-configurar planes de llamadas
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f1ded5d843689e828b00c0a466e012b8750582
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a81cd7d3481c9c2f6e3e5c8874eef97dc0540431
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825368"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137780"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 ==============================================================
@@ -64,7 +65,7 @@ Para garantizar que las llamadas RTC y VOIP entrantes siempre se encuentran en e
 
 **Lotus**
  - Los teléfonos IP de Skype empresarial recibirán llamadas, incluso si el usuario está en modo TeamsOnly.  
- - Los usuarios que se han suministrado con el sistema telefónico y las licencias de planes de llamadas para su uso con Skype empresarial online (por ejemplo, se les ha asignado un valor de OnlineVoiceRoutingPolicy), tienen la ficha llamadas habilitada en Teams y pueden realizar llamadas RTC salientes desde Teams sin administradores tengan que realizar ninguna acción administrativa.
+ - Los usuarios que se han suministrado con el sistema telefónico y las licencias de planes de llamadas para su uso con Skype empresarial online (por ejemplo, se les ha asignado un valor de OnlineVoiceRoutingPolicy), tienen la ficha llamadas habilitada en Teams y pueden realizar llamadas RTC salientes desde equipos sin que los administradores tengan que realizar ninguna acción administrativa.
 
 
 ### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>Cómo configurar los usuarios para que reciban todas las llamadas de VOIP y RTC entrantes en Teams
@@ -73,7 +74,7 @@ Para asegurarse de que los usuarios reciban todas las llamadas de VOIP y RTC ent
     Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 [Configurar planes de llamadas](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
 [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)

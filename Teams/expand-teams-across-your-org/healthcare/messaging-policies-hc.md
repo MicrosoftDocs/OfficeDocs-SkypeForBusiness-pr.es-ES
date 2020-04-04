@@ -1,5 +1,5 @@
 ---
-title: Introducción a la mensajería segura para las organizaciones sanitarias
+title: Mensajería segura para organizaciones de cuidados de la salud
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -17,12 +17,13 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introducción a la mensajería segura para las organizaciones sanitarias
-ms.openlocfilehash: cd200900f70abf9f9e1d6cef049f46139dcff022
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: f2b431eb28d2f475bc8abdf6ac05db760200d40e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079472"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136990"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introducción a la mensajería segura para las organizaciones sanitarias
 

@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: Microsoft recopila datos de recuento, uso y error para comprender cómo se usa Skype empresarial y dónde se encuentran los problemas. Los datos se usan para planear mejoras del producto.
-ms.openlocfilehash: 1c88086038c3874ae95f6151c1d04d13e0b9ccaf
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+description: Obtenga información sobre cómo Microsoft recopila datos de recuento, uso y error para comprender los equipos y los problemas y el uso de Skype empresarial para planear las mejoras del producto.
+ms.openlocfilehash: a7bc6066304bfc8d221678f0c37b484e602d1bbd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583107"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137360"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Prácticas de recopilación de datos de Skype empresarial y Microsoft Teams
 

@@ -1,5 +1,5 @@
 ---
-title: Disponer un plan de preparación de usuarios; actualizar de Skype Empresarial a Teams
+title: Preparar un plan de preparación de usuarios para la actualización a teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,20 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d52c9d670c81e0fcbdcf31012ec08a008b082459
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 5519646aab3f1fbd14a2ee643313e50f9fbc678c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706690"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136650"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>Preparar un plan de preparación del usuario
 

@@ -1,5 +1,5 @@
 ---
-title: Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams
+title: Administrar la transición de Teams al nuevo centro de administración de Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,24 +8,25 @@ audience: admin
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Aprenda a administrar la configuración de todos los inquilinos y usuarios de Teams durante la transición de la experiencia de Teams en el centro de administración de Microsoft 365 al nuevo centro de administración de Microsoft Teams.
+description: Obtenga información sobre cómo administrar la configuración de todos los inquilinos y de usuario para Teams durante la transición de Teams en el centro de administración de Microsoft 365 al nuevo centro de administración de Teams.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 - ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 31d39b1c65afad3bdbb000ff779b590d9f82ac38
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: b08f747c6a26d0401095e5aa004b972e0428b830
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288638"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137060"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams
 ======================================================
@@ -108,7 +109,7 @@ En la tabla siguiente se muestra dónde puede administrar características duran
 |Sistema telefónico    |    X    |     X    |         |
 |Administración de números de teléfono     |    X    |   X      |         |
 |Licencias para características de voz en la nube     |         |         |    X     |
-|Operadores automáticos     |    X    |          |         |
+|Operadores automáticos     |    X    |          |         |
 |Colas de llamadas     |    X    |          |         |
 
 ## <a name="manage-settings-after-the-migration"></a>Administrar la configuración después de la migración

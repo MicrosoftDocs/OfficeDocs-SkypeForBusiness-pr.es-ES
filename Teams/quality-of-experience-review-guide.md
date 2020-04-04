@@ -16,14 +16,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ced9ab01c5f33ef2b8095079443c447c301ee742
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.custom:
+- seo-marvel-mar2020
+ms.openlocfilehash: e109d3a8f43d6f989c96709562efbf759c0e562e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978602"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137700"
 ---
-# <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad
+# <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad 
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
 Esta guía trata sobre la fase de valor de unidad para Microsoft Teams y Skype empresarial online. Puede [descargar una versión de Word](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) de esta guía.
@@ -800,7 +802,7 @@ Para obtener más información sobre esta herramienta, vea [esta entrada de blog
 
 #### <a name="network-planner"></a>Planificador de red
 
-El planificador de redes determina y organiza los requisitos de red para su implementación de voz en la nube en solo unos pocos pasos. Al proporcionar los detalles de red de su organización y el uso de la voz de nube, puede obtener un cálculo aproximado de los requisitos de red para su implementación de voz en la nube, administrar y exportar estos detalles para los informes y las áreas de visualización para una mayor investigación y los siguientes pasos.
+El planificador de redes determina y organiza los requisitos de red para su implementación de voz en la nube en solo unos pocos pasos. Al proporcionar los detalles de red de su organización y el uso de la voz de nube, puede obtener un cálculo aproximado de los requisitos de red para su implementación de voz en la nube, administrar y exportar estos detalles de los informes y las áreas de visualización para una mayor investigación y pasos siguientes.
 
 Aunque el planificador de redes no automatiza el proceso de asignación de la creación por completo, una vez que la información de la red se introduce en el planificador de la red, se puede exportar a un archivo de compilación listo para cargarlo.
 

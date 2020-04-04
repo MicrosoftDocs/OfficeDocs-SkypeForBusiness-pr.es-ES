@@ -1,5 +1,5 @@
 ---
-title: Configurar y administrar la moderación de canales en Microsoft Teams
+title: Configurar y administrar la moderación de canales
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,12 +17,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a configurar canales para moderación en Microsoft Teams, lo que incluye cómo agregar miembros del equipo como moderadores de canales.
-ms.openlocfilehash: 70cb06e3a55d24b3609902af529a2880a42901d2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 128676bbe4ec27300013836425bf221e3de10f9b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836630"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136810"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Configurar y administrar la moderación de canales en Microsoft Teams
 

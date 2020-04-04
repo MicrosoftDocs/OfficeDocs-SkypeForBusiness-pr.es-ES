@@ -1,5 +1,5 @@
 ---
-title: Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario
+title: 'Restricciones de llamadas salientes: Conferencia de audio & llamadas RTC'
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: Los administradores pueden controlar el tipo de conferencias de audio y llamadas RTC de usuarios finales que pueden realizar los usuarios.
-ms.openlocfilehash: 830ab45178c10ab485d50aafd66a4bf5d4db9011
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 253553e884b3f4591a7c5340132337d295cefe09
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836890"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137910"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario
 
@@ -46,7 +47,7 @@ Los controles de llamadas salientes se pueden aplicar en cada usuario y proporci
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir llamadas salientes de conferencias de audio 
 
-![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
 1. En el navegación de la izquierda, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
@@ -58,13 +59,13 @@ Los controles de llamadas salientes se pueden aplicar en cada usuario y proporci
 
 5. Haga clic en **Guardar **. 
 
-![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
+![Icono que muestra el logotipo de Skype Empresarial](media/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
 
-1.  En el **centro de administración de Skype empresarial**, en el navegación de la izquierda, vaya a**usuarios**de **conferencias** > de audio y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+1.    En el **centro de administración de Skype empresarial**, en el navegación de la izquierda, vaya a**usuarios**de **conferencias** > de audio y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
-2.  En el panel de acciones, haga clic en **Editar**.
+2.    En el panel de acciones, haga clic en **Editar**.
 
-3.  En **restricciones para las llamadas realizadas desde las reuniones de este usuario**, seleccione la opción de restricción de acceso telefónico que desee.
+3.    En **restricciones para las llamadas realizadas desde las reuniones de este usuario**, seleccione la opción de restricción de acceso telefónico que desee.
 
     ![Las restricciones de las opciones de marcado](media/restrictions-to-dial-outs.png)
 
@@ -73,7 +74,7 @@ Los controles de llamadas salientes se pueden aplicar en cada usuario y proporci
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-**Usar PowerShell**
+**Con PowerShell**
 
 Las restricciones de llamadas salientes se controlan mediante una única directiva denominada OnlineDialOutPolicy que tiene un atributo de restricción para cada una de ellas. La Directiva no se puede personalizar, en lugar de que haya instancias de directiva predefinidas para cada combinación de configuración. 
 

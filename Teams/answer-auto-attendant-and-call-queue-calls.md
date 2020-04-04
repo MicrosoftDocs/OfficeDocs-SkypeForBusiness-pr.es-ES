@@ -1,5 +1,5 @@
 ---
-title: Responder al operador automático y llamar a la cola de llamadas directamente desde Teams
+title: Contestar llamadas a la cola de llamadas y el operador automático
 ms.reviewer: waseemh
 author: LolaJacobsen
 ms.author: lolaj
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e864e32409730373d98263215b0bcc35d9b404d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: d630ea41915cb89013e407a6fa0b1cc21cb21abf
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825318"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137440"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Responder al operador automático y llamar a la cola de llamadas directamente desde Teams
 ===========================================================
@@ -34,7 +35,7 @@ Los usuarios de Teams pueden recibir y responder llamadas de los operadores auto
 
 Los operadores automáticos de la nube proporcionan una serie de mensajes de voz o un archivo de audio que escuchan las personas que llaman en lugar de un operador humano cuando llaman a una organización. Un operador automático permite que los autores de llamadas se muevan por el sistema de menús, llamen y localicen a usuarios utilizando el teclado del teléfono (DTMF) o su propia voz gracias al reconocimiento de voz.
 
-Las colas de llamadas en nube incluyen saludos que se usan cuando un usuario llama a un número de teléfono de su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de buscar el siguiente agente de llamada disponible para controlar la llamada mientras las personas que llaman son escuchando música en espera. Puede crear una o varias colas de llamadas para su organización.
+Las colas de llamadas en nube incluyen saludos que se usan cuando un usuario llama a un número de teléfono de su organización, la capacidad de poner automáticamente las llamadas en espera y la posibilidad de buscar el siguiente agente de llamada disponible para controlar la llamada mientras las personas que llaman escuchan música en espera. Puede crear una o varias colas de llamadas para su organización.
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>Control de una llamada de cola de llamadas o de operador automático
 
@@ -53,10 +54,10 @@ Una vez que se responde a un operador automático o a una llamada de cola de lla
 
 La compatibilidad con el operador automático y las llamadas a la cola de llamadas está disponible en los siguientes clientes:
 
--   Cliente de Microsoft Teams para Windows (versiones de 32 y 64 bits)
--   Cliente de Microsoft Teams para Mac
--   Aplicación Microsoft Teams para iPhone
--   Aplicación Microsoft Teams para Android
+-    Cliente de Microsoft Teams para Windows (versiones de 32 y 64 bits)
+-    Cliente de Microsoft Teams para Mac
+-    Aplicación Microsoft Teams para iPhone
+-    Aplicación Microsoft Teams para Android
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurar el operador automático y la cola de llamadas para Microsoft Teams
 
@@ -64,8 +65,8 @@ Para recibir llamadas de operador automático y cola de llamadas en Microsoft Te
 
 ## <a name="related-topics"></a>Temas relacionados
 
--   [Qué es el sistema telefónico en Office 365](what-is-phone-system-in-office-365.md)
--   [Crear una cola de llamadas en la nube](create-a-phone-system-call-queue.md)
--   [¿Qué son los operadores automáticos en la nube?](what-are-phone-system-auto-attendants.md)
--   [Configurar un operador automático en la nube](create-a-phone-system-auto-attendant.md)
+-    [Qué es el sistema telefónico en Office 365](what-is-phone-system-in-office-365.md)
+-    [Crear una cola de llamadas en la nube](create-a-phone-system-call-queue.md)
+-    [¿Qué son los operadores automáticos en la nube?](what-are-phone-system-auto-attendants.md)
+-    [Configurar un operador automático en la nube](create-a-phone-system-auto-attendant.md)
 

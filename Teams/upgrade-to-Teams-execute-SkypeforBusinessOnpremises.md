@@ -1,5 +1,5 @@
 ---
-title: Actualizar Skype empresarial local a Microsoft Teams | Implementar | Lync
+title: Actualizar Skype Empresarial local a Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,23 +7,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Consideraciones para actualizar a teams desde una implementación local de Skype empresarial.
+description: Consideraciones para actualizar a teams desde una implementación local de Skype empresarial o de Microsoft Lync.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb6815c805c9f5bcf47d6ee88a6c43c559b932d3
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 8f4e5dc3d7ed2aa215997f6f83e09fa71b3ff6df
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706650"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139619"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Actualizar desde una implementación local de Skype empresarial a teams
 

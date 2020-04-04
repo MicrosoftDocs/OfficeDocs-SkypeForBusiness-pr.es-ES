@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
-description: Los clientes pueden usar el plan de llamadas de Office 365 y las conferencias de audio de Office 365 según permitan los términos y el contrato de licencias por volumen del cliente de Skype empresarial online y Microsoft Teams.
-ms.openlocfilehash: 59a885f53d23f5297d6730e718ac1a95801d6a30
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: Obtenga más información sobre el período de llamadas complementarias para el plan de llamadas de Office 365 y la Conferencia de audio de Office 365 en Microsoft Teams.
+ms.openlocfilehash: 46c9aac02c40a973abc8356dc4212b3521852461
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825508"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137301"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período gratuito para la realización de llamadas de Audioconferencia
 
@@ -43,7 +44,7 @@ Este cambio no se aplicará a los países en los que la suscripción a la Confer
 
 ### <a name="complimentary-dial-out-period-details"></a>Detalles del período de llamadas de cortesía
 
-Para los clientes que adoptan nuestro servicio de conferencia de audio de Office 365, Microsoft ofrece un mayor beneficio adicional relacionado con la marcación de reuniones organizadas por usuarios a los que se les ha asignado una licencia de suscripción de conferencia de audio de Office 365 a partir de noviembre 2019. Durante este período de cortesía, Microsoft permite a los organizadores de reuniones o a los asistentes autorizados definirse en la configuración de la Directiva de reunión para realizar llamadas de acceso telefónico desde la reunión a números de teléfono no Premium en los países y regiones de 44 "zona A" que figuran a continuación. Este beneficio es aplicable a las licencias de suscripción mensuales de audioconferencias y no se extiende a las licencias de audioconferencia por minuto.
+Para los clientes que adoptan nuestro servicio de conferencias de audio de Office 365, Microsoft ofrece un mayor beneficio adicional relacionado con la marcación de reuniones organizadas por usuarios a los que se les ha asignado una licencia de suscripción a conferencias de audio de Office 365 hasta el 2019 de noviembre. Durante este período de cortesía, Microsoft permite a los organizadores de reuniones o a los asistentes autorizados definirse en la configuración de la Directiva de reunión para realizar llamadas de acceso telefónico desde la reunión a números de teléfono no Premium en los países y regiones de 44 "zona A" que figuran a continuación. Este beneficio es aplicable a las licencias de suscripción mensuales de audioconferencias y no se extiende a las licencias de audioconferencia por minuto.
 
 Además, hay un límite de límite de 900 minutos durante el período de llamadas de cortesía como el siguiente:
 
@@ -54,14 +55,14 @@ Usuarios con una ubicación de uso de licencias (esta es la ubicación de país 
  
 - Todos los usuarios de 115 comparten un grupo de (115 usuarios X 900 min) = 103.500 conferencias de acceso telefónico saliente por mes del calendario, que se puede usar para realizar llamadas salientes a cualquiera de los países y regiones de la zona A.
 - Todas las llamadas que superen los 103.500 minutos por mes del calendario se cobran por minuto usando créditos de comunicaciones a las tarifas publicadas para ese destino. (Nota: el inquilino debe configurar créditos de comunicaciones y asignar la licencia de créditos para comunicaciones al organizador de la reunión).
-- Todas las llamadas salientes a destinos que no se encuentren en la lista de países de la zona A se facturan por minuto usando créditos de comunicaciones de nuestras tarifas publicadas para ese destino (proporcionado el inquilino ha configurado créditos en las comunicaciones y se les ha asignado la licencia de créditos de comunicaciones del Organizador de la reunión).
+- Todas las llamadas salientes a destinos que no se encuentren en la lista de países de la zona A se facturan por minuto usando créditos de comunicaciones de nuestras tarifas publicadas para ese destino (proporcionado el inquilino ha configurado créditos en las comunicaciones y se ha asignado la licencia de créditos de comunicaciones al organizador de la reunión).
 
 > [!NOTE]
 > En el centro de administración de Skype empresarial, puede supervisar el uso del grupo de minutos de llamadas salientes. En el centro de administración de Microsoft Teams & Skype, vaya a > **informes** > de **portales heredados**con**grupos de minutos RTC**. Este grupo de minutos complementarios se etiquetará en el informe como "llamadas salientes a zona a países y regiones".
 
 Las notificaciones por correo electrónico se enviarán a todos los administradores de inquilinos de un cliente dado cuando la utilización del grupo de minutos de llamadas salientes del inquilino haya alcanzado el 80% y el 100%.
 
-Para las llamadas de aceptación de llamada que se facturan por minuto (llamadas que superan el grupo de minutos de llamadas de inquilino o a destinos que no se encuentran en la lista de países y regiones de la zona), las llamadas y sus tarifas asociadas se basan principalmente en el destino de la llamada y no en el país. o de la región del organizador o del participante que inicia la llamada de acceso telefónico. Por ejemplo, una llamada a un número de teléfono en Francia se facturará con la misma tasa si la ha iniciado un participante de la reunión en Estados Unidos o una en Francia.
+Para las llamadas de aceptación de llamada que se facturan por minuto (llamadas que superen el grupo de minutos de llamadas de inquilino o a destinos que no se encuentran en la lista de países y regiones de la zona), las llamadas y sus tarifas asociadas se basan principalmente en el destino de la llamada y no en el país o la región del organizador ni el participante que inicia la llamada. Por ejemplo, una llamada a un número de teléfono en Francia se facturará con la misma tasa si la ha iniciado un participante de la reunión en Estados Unidos o una en Francia.
 
 Para obtener más información sobre créditos de comunicación, consulte [créditos de comunicaciones](what-are-communications-credits.md).
 

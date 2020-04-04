@@ -1,6 +1,5 @@
 ---
 title: Implementar la administración de salas de Microsoft Teams con Azure monitor
-ms.author: v-lanac
 author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
@@ -12,15 +11,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: En este artículo se explica cómo implementar la administración de los dispositivos de salas de Microsoft Teams de forma integrada, de extremo a extremo, con Azure monitor.
-ms.openlocfilehash: 70c2311143a4daabbc0838168e19969f950a2df1
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 3e01ae7a0fddcb63595b7dcc15b719ad1d41db32
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417545"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137650"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Implementar :::no-loc text="Microsoft Teams Rooms"::: la administración con:::no-loc text="Azure Monitor":::
 
@@ -416,7 +415,7 @@ Cuando se genera una alerta, recibirá un mensaje de correo electrónico con una
 ! [Correo :::no-loc text="Azure Monitor"::: electrónico de alerta de ejemplo] (.. /media/Deploy-Azure-Monitor-6.png "mensaje :::no-loc text="Azure Monitor"::: de alerta de ejemplo")
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>Configurar todos los dispositivos para:::no-loc text="Azure Monitoring":::
-<a name="configure_all_devices"></a> Una vez configurados los paneles y las alertas, puede configurar y configurar :::no-loc text="Microsoft Monitoring"::: el agente en :::no-loc text="Microsoft Teams Rooms"::: todos los dispositivos para completar la implementación de la supervisión.
+<a name="configure_all_devices"> </a> Una vez configurados los paneles y las alertas, puede configurar y configurar :::no-loc text="Microsoft Monitoring"::: el agente en :::no-loc text="Microsoft Teams Rooms"::: todos los dispositivos para completar la implementación de la supervisión.
 
 Aunque puede instalar y configurar el :::no-loc text="Microsoft Monitoring"::: agente de forma manual en cada dispositivo, le recomendamos encarecidamente que aproveche las herramientas y métodos de implementación de software existentes.
 
@@ -504,7 +503,7 @@ Stop-Transcript
 > [!NOTE]
 > La solución de estado del agente puede ayudarle a identificar :::no-loc text="Microsoft Monitoring"::: agentes anticuados o dañados en su entorno, y la solución de administración de alertas proporciona detalles sobre las alertas que se han producido en un período determinado.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Administración :::no-loc text="Microsoft Teams Rooms"::: de planes con:::no-loc text="Azure Monitor":::](azure-monitor-plan.md)
 

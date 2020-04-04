@@ -1,5 +1,5 @@
 ---
-title: Configurar una organización híbrida de Exchange para usarla con Microsoft Teams
+title: Configurar una organización híbrida de Exchange
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb81460a5a3d388bc9634cb53ce15655933534c5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: f1a59c01fa112294d771dc6f8d08f32a3c7a4f19
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834450"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136520"
 ---
 <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>Configurar una organización híbrida de Exchange para usarla con Microsoft Teams
 ======================================================================

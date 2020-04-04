@@ -1,5 +1,5 @@
 ---
-title: Mover los equipos de StaffHub a Turnos en Microsoft Teams
+title: Mover los equipos de StaffHub a turnos
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu, gumariam
@@ -18,12 +18,13 @@ ms.collection:
 - SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4725669d4f5829941df4bded0a5f2bbb393fb034
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 3c93e01624883d9db755479baf6e87c80feba2e1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887879"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139599"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Mover los equipos de Microsoft StaffHub a turnos en Microsoft Teams
 
@@ -236,7 +237,7 @@ Este paso solo se aplica si el equipo de StaffHub que movió a teams tiene archi
 
 Vea [Cómo mover archivos en SharePoint Online](https://support.office.com/article/how-to-move-files-in-sharepoint-online-8c86f6c3-9612-4031-95b2-3d9d5c6e5a30).
 
-#### <a name="using-powershell"></a>Usar PowerShell
+#### <a name="using-powershell"></a>Con PowerShell
 
 Descargue e instale el [Shell de administración de SharePoint Online](https://www.microsoft.com/download/details.aspx?id=35588), si todavía no lo ha hecho. Contiene los cmdlets que necesita para mover los archivos.  
 
@@ -271,7 +272,7 @@ Ejecute lo siguiente para obtener una lista de todos los equipos de StaffHub de 
 ```PowerShell
 $StaffHubTeams = Get-StaffHubTeamsForTenant
 
-$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
+$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
 ```
 
 A continuación, ejecute lo siguiente para mover todos los equipos.

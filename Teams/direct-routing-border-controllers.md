@@ -1,5 +1,5 @@
 ---
-title: Lista de controladores de borde de sesión certificados para el enrutamiento directo
+title: Controladores de borde de sesión certificados para enrutamiento directo
 ms.author: crowe
 ms.reviewer: FilippSe
 author: CarolynRowe
@@ -17,12 +17,13 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: Microsoft se asocia con proveedores SBC seleccionados para certificar que sus SBC pueden usarse con el Enrutamiento directo.
-ms.openlocfilehash: e7831abf7a5d522afd05c3fd178e6acda04772e3
-ms.sourcegitcommit: 43e8960ef091d9e206f22eb7ffef9d6e84756335
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: fcad24511384a9fb1cf8e49d5f305801622be6f3
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42939624"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137320"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 

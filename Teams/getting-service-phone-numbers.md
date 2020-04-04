@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Obtenga información sobre cómo obtener nuevos números de teléfono para los servicios, como audioconferencias (para puentes de conferencia), los operadores automáticos y las colas de llamadas (también llamados números de servicio) para los equipos.
-ms.openlocfilehash: 8c1ec0af6defbf325d05be3fdd896bb7e9f6bec0
-ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
+- seo-marvel-mar2020
+description: Obtenga información sobre cómo obtener nuevos números de teléfono y migrar o transferir números existentes para la audioconferencia, los operadores automáticos y las colas de llamadas (números de servicio) para Teams.
+ms.openlocfilehash: 9eb88d46a9e993067e7a2fc8baf9847dea5b32d7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170726"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136720"
 ---
 # <a name="getting-service-phone-numbers"></a>Obtener números de teléfono de servicio
 
@@ -38,7 +39,7 @@ Existen tres formas de obtener números de servicio:
   
 - **Use el centro de administración de Microsoft Teams.** En el caso de algunos países y regiones, puede obtener números de servicio con el centro de administración de Microsoft Teams. Consulta [obtener nuevos números de servicio](#get-new-service-numbers).
 
-- **Portar los números existentes.** Puede trasladar o transferir números existentes de su proveedor de servicios u operador telefónico actual. Consulte [transferir números de teléfono a teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) o [administrar números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization) para obtener más información para ayudarle a hacerlo.  
+- **Portar los números existentes.** Puede trasladar o transferir números existentes de su proveedor de servicios u operador telefónico actual. Consulte [Transferir números de teléfono a Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) o [Administrar los números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization) para obtener más información que le ayude a hacer esto.  
   
 - **Usar un formulario de solicitud para números nuevos.** A veces, en función de su país o región, no podrá obtener números de teléfono nuevos con el centro de administración de Microsoft Teams, o bien necesitará números de teléfono o códigos de área específicos. Si es así, tendrás que descargar un formulario y enviarlo de nuevo a nosotros. Para obtener más información, vea [Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization).
   
@@ -47,7 +48,7 @@ Existen tres formas de obtener números de servicio:
   
 ## <a name="get-new-service-numbers"></a>Obtener nuevos números de servicio
 
-![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
 1. En el navegación de la izquierda, vaya a**números de teléfono**de **voz** > y, después, haga clic en **Agregar**.
 2. Escriba un nombre para el pedido y, si lo desea, agregue una descripción.
@@ -71,7 +72,7 @@ Si su país o región no aparecen en el Asistente para migración, puede [enviar
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Ver los números de teléfono de su organización
 
-![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams** 
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams** 
 
 En el navegación de la izquierda, vaya a**números de teléfono** de **voz** > para ver los números de la organización, incluida la ubicación, el tipo de número y la información de estado.
 

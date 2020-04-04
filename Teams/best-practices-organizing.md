@@ -1,5 +1,5 @@
 ---
-title: Prácticas recomendadas para organizar equipos en Microsoft Teams
+title: Procedimientos recomendados para organizar equipos
 ms.reviewer: pbethi
 author: LolaJacobsen
 ms.author: lolaj
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59dcb99e8e8734885f7e62b79102cfad2745612a
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
-ms.translationtype: HT
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e8f6335edde67fcc00e68b6aa42b3100afa603c9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795763"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136880"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Prácticas recomendadas para organizar equipos en Microsoft Teams
 ======================================================
@@ -40,7 +41,7 @@ Cuando se despliegan Teams por primera vez, recomendamos empezar con un pequeño
 
 ## <a name="create-channels-to-focus-discussions"></a>Crear canales para enfocar los debates
 
-Una vez que haya creado su equipo, es una buena idea empezar a pensar en los diferentes proyectos y tipos de conversaciones que necesita apoyar. Cree canales iniciales para que la gente sepa dónde contribuir y encontrar las conversaciones existentes. Usar nombres descriptivos de los canales, para que la gente sepa fácilmente a dónde ir en cada conversación. Añada herramientas (como OneNote, Power BI o Planner) como pestañas a un canal para que los miembros tengan todo lo que necesitan, justo en el canal. También puede agregar una página web de uso común como una pestaña a un canal. 
+Una vez que haya creado su equipo, es una buena idea empezar a pensar en los distintos proyectos y tipos de conversaciones que necesita admitir. Cree canales iniciales para que la gente sepa dónde contribuir y encontrar las conversaciones existentes. Usar nombres descriptivos de los canales, para que la gente sepa fácilmente a dónde ir en cada conversación. Añada herramientas (como OneNote, Power BI o Planner) como pestañas a un canal para que los miembros tengan todo lo que necesitan, justo en el canal. También puede agregar una página web de uso común como una pestaña a un canal. 
 
 Obtenga más información sobre [trabajo en equipo](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) con estos consejos rápidos para los usuarios finales. 
 

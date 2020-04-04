@@ -1,5 +1,5 @@
 ---
-title: Plan para Microsoft 365 Administración Pública - Implementaciones de alta disponibilidad de GCC - Microsoft Teams
+title: Microsoft 365 administración pública-GCC alta implementaciones
 author: lolajacobsen
 ms.author: heidip
 manager: serdars
@@ -12,17 +12,19 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7be9916a1c51b7e98467d1e8c44a18dd6d227d35
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.openlocfilehash: 0b5111e61f6c545a7311280fa865c762e8498b86
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079422"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137820"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plan para implementaciones altas de Microsoft 365 administración pública-GCC
 

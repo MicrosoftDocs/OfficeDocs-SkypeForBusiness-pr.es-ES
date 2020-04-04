@@ -1,5 +1,5 @@
 ---
-title: Preparar la actualización de Skype empresarial a Microsoft Teams | Planear la adopción de usuarios
+title: Preparar la actualización de Skype empresarial a teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,23 +7,25 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: Evaluar la disponibilidad de su organización para aceptar el cambio y preparar un plan para que los usuarios estén listos para actualizar de Skype empresarial a Microsoft Teams
+description: Evalúe la disponibilidad de su organización para aceptar el cambio y prepare un plan para que los usuarios estén listos para actualizar de Skype empresarial a Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 088db496d6e04cb25a26a55f2748b25a11a8a76b
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: b758734de436771d94c0f9b44215d621c276b767
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706790"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136970"
 ---
 # <a name="prepare-your-organization"></a>Preparar la organización
 

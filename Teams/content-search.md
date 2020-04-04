@@ -13,15 +13,16 @@ ms.reviewer: anach
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Obtenga más información sobre la búsqueda de contenido en Microsoft Teams y sobre cómo buscar con las conversaciones de canal de Exchange, las cargas de archivos y las modificaciones de SharePoint y los cambios de OneNote.
+ms.custom: seo-marvel-mar2020
+description: Obtenga información sobre cómo usar la búsqueda de contenido en Microsoft Teams para consultar información de Microsoft Teams desde Exchange, SharePoint Online, OneDrive para la empresa y OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222b57021a259795823031d9855304d1ecf27f4f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: af81b857d6cf60f7de1a1b1e199d08ede089de5f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825348"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137750"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Usar la búsqueda de contenido en Microsoft Teams
 =====================================
@@ -42,7 +43,7 @@ También puede Agregar criterios de consulta a la **búsqueda de contenido** par
 
 ## <a name="content-search-of-private-channels"></a>Búsqueda de contenido de canales privados
 
-Los registros de los mensajes enviados en un canal privado se entregan en el buzón de todos los miembros del canal privado, en lugar de hacerlo en un buzón de grupo. El formato de los títulos de los registros indica el canal privado desde el que se enviaron.
+Los registros de los mensajes enviados en un canal privado se entregan en el buzón de todos los miembros del canal privado, en lugar de hacerlo en un buzón de grupo. Los títulos de los registros tienen un formato que indica desde qué canal privado fueron enviados.
 
 Como cada canal privado tiene su propia colección de sitios de SharePoint que es independiente del sitio de grupo primario, los archivos de un canal privado se administran independientemente del equipo principal.
 
@@ -69,7 +70,7 @@ Antes de realizar estos pasos, instale el [Shell de administración de SharePoin
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
+    $groupID = "e8195240-4a70-4830-9106-80193cf717cb"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 

@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bd45d942784f9454acff5636359e172059f22cc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a0daed292ccccb85c5231242161c75e8cb60949c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834340"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136500"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 grupos y Microsoft Teams
 =====================================

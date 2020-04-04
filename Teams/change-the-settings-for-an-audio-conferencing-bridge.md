@@ -22,13 +22,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.bridgesettings
-description: 'Siga los pasos que necesita para cambiar la configuración de un puente de conferencia que se usa para avisar a las personas que llaman y recopilar nombres y PIN de los organizadores de reuniones cuando no usan las aplicaciones de Skype empresarial o Microsoft Teams. '
-ms.openlocfilehash: d872bf3d0db2e19089716ab65fc487db601c48ea
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: Cambiar la configuración del puente de audioconferencia, incluidas las notificaciones de entrada y salida, reproducir nombres o números de teléfono, tonos y pedir a las personas que llaman para que graben su nombre.
+ms.openlocfilehash: aaff3518675e1db56340f9dc1568b994cf2ed6e6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825118"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139089"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de Audioconferencias.
 
@@ -42,7 +43,7 @@ El puente de conferencia responde a una llamada y le pide a la persona que llama
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) Usar el centro de administración de Microsoft Teams
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) Usar el centro de administración de Microsoft Teams
 
 1. En el navegación de la izquierda, vaya a**puentes de conferencia**de **reuniones** > . 
 
@@ -67,7 +68,7 @@ El puente de conferencia responde a una llamada y le pide a la persona que llama
 6. Haga clic en **Guardar **. 
 
 
-## <a name="an-icon-showing-the-skype-for-business-logomediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![Un icono que muestra el logotipo de Skype empresarial](media/sfb-logo-30x30.png)  Using the Skype for Business admin center
+## <a name="an-icon-showing-the-skype-for-business-logo--using-the-skype-for-business-admin-center"></a>![Un icono que muestra el logotipo de Skype empresarial](media/sfb-logo-30x30.png)  Using the Skype for Business admin center
 
  **Configurar la experiencia de reunión cuando las personas que llaman se unen a una reunión**
     

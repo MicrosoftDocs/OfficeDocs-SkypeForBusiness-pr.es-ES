@@ -17,12 +17,12 @@ description: Obtener información sobre cómo administrar las aplicaciones de Te
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 41d75d492cf8351f1f925713054ccf4be4d8725d
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: 532129792dd35a2b016510094f1b08beade1b32a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229920"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136850"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el centro de administración de Microsoft Teams
 ======================================================
@@ -79,8 +79,12 @@ Use la configuración de la aplicación en toda la organización para controlar 
     
 2. En **aplicaciones de terceros**, desactive o Active esta configuración para controlar el acceso a las aplicaciones de terceros:
 
-    - **Permitir aplicaciones de terceros en Teams**: controla si los usuarios pueden usar aplicaciones de terceros. Si desactiva esta configuración, los usuarios no podrán instalar ni usar ninguna aplicación de terceros. En el caso de las aplicaciones permitidas, el estado se muestra como **permitido pero en toda la organización**.
-    
+    - **Permitir aplicaciones de terceros en Teams**: controla si los usuarios pueden usar aplicaciones de terceros. Si desactiva esta configuración, los usuarios no podrán instalar ni usar ninguna aplicación de terceros. En el caso de las aplicaciones permitidas, el estado se muestra como **permitido pero en toda la organización**.              
+
+        > [!NOTE]
+        > En una implementación de Teams de Microsoft 365 Administrator-GCC, la opción **permitir aplicaciones de terceros en Teams** está desactivada de forma predeterminada.
+
+        Cuando la **opción permitir aplicaciones de terceros en Teams** está desactivada, los [enlaces a webhooks salientes](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) están deshabilitados, lo que significa que los usuarios no pueden crearlos. Cuando esta configuración está activada, los webhooks salientes se habilitan para todos los usuarios, independientemente de si la configuración está activada o desactivada en la Directiva de permisos de la aplicación de los usuarios.
     - **Permitir que todas las aplicaciones de terceros se publiquen en la tienda de forma predeterminada**: controla si las nuevas aplicaciones de terceros publicadas en la tienda de aplicaciones de Teams se encuentran disponibles automáticamente en Teams. Solo puede establecer esta opción si permite aplicaciones de terceros.
 
 3. En **aplicaciones personalizadas**, desactive o desactive la **opción permitir la interacción con aplicaciones personalizadas**. Esta configuración controla si los usuarios pueden interactuar con aplicaciones personalizadas. Para obtener más información, vea [administrar la configuración y las directivas de la aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md).

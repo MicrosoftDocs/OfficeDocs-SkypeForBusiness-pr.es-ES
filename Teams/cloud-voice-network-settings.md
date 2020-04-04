@@ -1,5 +1,5 @@
 ---
-title: Configuración de red de las características de voz en la nube en Microsoft Teams
+title: Configuración de red para características de voz en la nube
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c24444e9beb38aa1d0888e415d9dca3a46e249a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: bc2694760e93579a78cb849cc054d70a65431724
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824958"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139069"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Configuración de red de las características de voz en la nube en Microsoft Teams
 

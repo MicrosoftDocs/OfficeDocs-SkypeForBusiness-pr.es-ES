@@ -1,5 +1,5 @@
 ---
-title: Prácticas recomendadas de los métodos de comentarios de los usuarios en Microsoft Teams
+title: Procedimientos recomendados para los métodos de comentarios de los usuarios
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac158a5d90c1a1cbe5e4dad5d6c5f894054e72ad
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a0dcb100ec04a03f48400cbaca01c001a250ffbc
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826208"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136890"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Prácticas recomendadas de los métodos de comentarios de los usuarios en Microsoft Teams
 ===========================================================
@@ -38,4 +39,4 @@ Los métodos de comentarios generados por la comunidad requieren la participaci�
 <a name="showcases"></a>Casos destacados
 ---------
 
-A medida que avance por esta experiencia, encontrará casos destacados en su propio entorno de empleados cuya creatividad con Microsoft Teams le sorprenderá y le hará disfrutar. Recomendamos que comparta estos casos destacados. Esto hará que los demás se animen a innovar, a formar a los usuarios que hayan comenzado hace proco tiempo y para recompensar a los miembros que hayan dedicado tiempo a pensar en la mejor forma de usar ;Microsoft Teams en su entorno. El configuración de un objetivo medible para identificar un número establecido de casos destacados cada trimestre ayudará a mantener la adopción al máximo.
+A medida que continúe con este viaje, encontrarás exhibiciones en su propio entorno de empleados cuya creatividad con Microsoft Teams sorprenderá y tendrá la alegría de usted. Le recomendamos que comparta estas presentaciones de manera generalizada. Esto animará a otros a ser innovadores, educar a los usuarios que pueden estar antes en la curva de adopción y recompensar a aquellos que han tomado el tiempo para pensar en cómo usar mejor Microsoft Teams en su entorno. Establecer un objetivo medible de identificar un número establecido de exhibiciones cada trimestre es útil para mantener el impulso de adopción.

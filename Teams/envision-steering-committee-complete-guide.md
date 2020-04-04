@@ -1,5 +1,5 @@
 ---
-title: Comité directivo para la implementación de servicios de voz de nube de Microsoft Teams
+title: Comité de dirección para la implementación de voz en la nube
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,13 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4338e2b6b169fa6f8fc46ae116f3d297096543f7
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 397f41a468c987e70d068066dcf16ddf0e64843a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862991"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136790"
 ---
 # <a name="steering-committee"></a>Comité Director
 
@@ -30,7 +31,7 @@ Un Comité de dirección es un grupo de miembros clave y líderes de proyectos q
 
 Cada proyecto requiere un contrato y una visión acordados. Para proporcionar los resultados deseados de los proyectos, la visión debe estar claramente definida, debe ser supervisada y mantenida. Esto se convierte en la responsabilidad del Comité de dirección: para impulsar las decisiones, aconsejar, proporcionar supervisión estratégica, para servir como defensores de la organización para las iniciativas del proyecto y, cuando sea necesario, quitar bloqueos.
 
-Su organización debe considerar significativamente la formación del Comité de dirección. El Comité debe garantizar que el proyecto cumpla los objetivos empresariales que ha definido para impulsar el cambio en toda la organización, reunirse periódicamente para discutir el pulso actual del proyecto y ayudar a eliminar los obstáculos que se encuentren durante la hoja.
+Su organización debe considerar significativamente la formación del Comité de dirección. El Comité debe garantizar que el proyecto cumpla los objetivos empresariales que ha definido para impulsar el cambio en toda la organización, reunirse periódicamente para discutir el pulso actual del proyecto y ayudar a eliminar los obstáculos que se encuentren durante el viaje.
 
 El Comité debe definir su charter para incluir algunos objetivos clave:
 

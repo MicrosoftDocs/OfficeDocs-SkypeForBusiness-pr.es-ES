@@ -16,13 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-description: Este documento describe el comportamiento de la conversación, el enrutamiento de llamadas y la presencia entre los usuarios de Teams y Skype empresarial, tanto en el inquilino como en el federado, en función de los modos de TeamsUpgrade asignados. Incluye optimizaciones de enrutamiento, comportamiento de presencia, así como el cambio de modo de TeamsUpgrade predeterminado de *heredado* a *islas* y la jubilación inminente de la *herencia*.
-ms.openlocfilehash: 64889ae11b4ce8665fb4a6bdbb98ff95aaf777fc
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.custom: seo-marvel-mar2020
+description: Comportamiento de coexistencia entre Teams & Skype empresarial, incluidos los parámetros de enrutamiento, el chat & el enrutamiento de llamadas, chats & las llamadas de subprocesos ya existentes, & presencia.
+ms.openlocfilehash: ff5e94b16cd55374ec0aeb45aaffdda41fbe0498
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42328022"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137319"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 
@@ -111,7 +112,7 @@ En Resumen, si la conversación es posible según se describe anteriormente, los
 Esto se debe a que no se puede suponer que un socio federado de Skype empresarial ya usa Teams si está en modo islas. Islas es el modo predeterminado, pero no podemos asumir que todos los usuarios de las islas ejecutan Teams. Al enrutar a Skype empresarial, garantizamos que no se produzcan errores de comunicación con un usuario de islas. Si se enrutan a Teams, esa comunicación podría perderse si el destino no utilizase Teams. El enrutamiento a Skype empresarial siempre garantiza que el mensaje se recibirá.  
 
 > [!NOTE]
-> La implementación actual de la Federación de equipos se basa en la Federación de Skype empresarial, por lo que se aprovecha la infraestructura de interoperabilidad (que requiere que el inquilino del originador sea en línea o en un entorno híbrido de Skype empresarial) y proporciona una se ha reducido el conjunto de funciones en comparación con un subproceso nativo. Esperamos proporcionar equipos nativos a la Federación de equipos en el futuro, momento en el que el hilo será nativo y ofrecerá todas las funciones.
+> La implementación actual de la Federación de equipos se basa en la Federación de Skype empresarial y, por lo tanto, aprovecha la infraestructura de interoperabilidad (que requiere que el inquilino del originador sea en línea o en un entorno híbrido de Skype empresarial) y ofrece un conjunto reducido de capacidades comparadas con un subproceso nativo. Esperamos proporcionar equipos nativos a la Federación de equipos en el futuro, momento en el que el hilo será nativo y ofrecerá todas las funciones.
 
 Las tablas siguientes describen qué cliente recibirá una llamada de su originador (tres columnas del extremo izquierdo), según el modo del creador, el cliente elegido y la ubicación de su cliente de Skype empresarial (local o en línea).
 
@@ -174,7 +175,7 @@ Para saber qué comportamiento esperar, necesitará comprender que la presencia 
 
 * Si un usuario está en modo TeamsOnly, cualquier otro usuario (ya sea en Teams o en Skype empresarial) verá la presencia de Teams de TeamsOnly de usuario.
 * Si un usuario se encuentra en cualquiera de los\* modos SfB (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), cualquier otro usuario (ya sea en Teams o Skype empresarial) verá la presencia\* de SfB de usuario de Skype empresarial.
-* Si un usuario está en modo islas (o heredadas), la presencia en Teams y la presencia de Skype empresarial son independientes (no es necesario que los valores coincidan) y otros usuarios verán una o la otra presencia del usuario de las islas, en función de si se encuentran en el mismo inquilino o en un federat Ed y el cliente que usan
+* Si un usuario está en modo islas (o heredadas), la presencia en Teams y la presencia de Skype empresarial son independientes (no es necesario que los valores coincidan) y otros usuarios verán una o la otra presencia del usuario de las islas, en función de si están en el mismo inquilino o en un inquilino federado y qué cliente usan
     * En Teams, cualquier otro usuario dentro del mismo inquilino verá la presencia de equipos del usuario de islas; Esto se alinea con la tabla de enrutamiento en el inquilino anterior
     * En Teams, cualquier otro usuario de un inquilino federado verá la presencia de Skype empresarial por parte del usuario de las islas; Esto se ha alineado con la tabla de enrutamiento federado anterior
     * Desde Skype empresarial, cualquier otro usuario verá la presencia de Skype empresarial del usuario de islas (tanto en el inquilino como en el servicio federado). Esto se ha alineado con las tablas de enrutamiento anteriores

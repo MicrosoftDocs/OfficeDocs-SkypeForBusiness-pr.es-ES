@@ -1,5 +1,5 @@
 ---
-title: Administrar la configuración de Audioconferencia para un usuario en Microsoft Teams
+title: Administrar la configuración de audioconferencias para los usuarios
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,19 +20,20 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 'Como administrador de Office 365, puede editar la configuración de Audioconferencia de Microsoft Teams (como el proveedor, el número gratuito o de pago predeterminado, el Id. de conferencia o el PIN) para una persona de su organización. '
-ms.openlocfilehash: 1d6a72c2a621d5f87c1d0fad215c648e2511f48c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: Un administrador de Office 365 puede editar la configuración de la Conferencia de audio de Teams, que incluye un proveedor, un número gratuito o gratuito, un ID de conferencia o un PIN para un usuario.
+ms.openlocfilehash: f635a3a9c471d2d089b8592c4dd36f55bf9095e2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836262"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137150"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Administrar la configuración de Audioconferencia para un usuario en Microsoft Teams
 
 Como un administrador de Office 365, puede editar la configuración de Audioconferencia, como por ejemplo el proveedor, el número gratuito o de pago predeterminado, el identificador de conferencia o el PIN, de un usuario individual en la organización. Si desea editar la configuración de su organización, vea [administrar la configuración de audioconferencias para su organización](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
-## <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) Usar el centro de administración de Microsoft Teams
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) Usar el centro de administración de Microsoft Teams
 
 1. En el navegación de la izquierda, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 

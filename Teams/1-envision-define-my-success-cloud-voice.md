@@ -1,5 +1,5 @@
 ---
-title: 'Definir el éxito en Audioconferencias, el Sistema telefónico con Planes de llamadas o el Enrutamiento directo del Sistema telefónico: Microsoft Teams'
+title: Audioconferencia, planes de llamadas o enrutamiento directo
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Mida los resultados de su Conferencia de audio, sistema telefónico con planes de llamadas o implementación de enrutamiento directo del sistema telefónico y compruebe que ha alcanzado los resultados que desea.
+description: Definir el éxito de la implementación de audioconferencias, sistemas telefónicos con planes de llamadas o enrutamiento directo de sistema telefónico para su organización.
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -18,12 +18,13 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c3669e904db7dbea805daa5737b0bfb81e931d7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: dbbcbce46ab713b7a1820d01d476ef5d35dee0d0
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825428"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139579"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 
@@ -31,7 +32,7 @@ Este artículo proporciona una descripción general de los requisitos para defin
 
 <!--ENDOFSECTION-->
 
-La **audioconferencia** proporciona a las organizaciones puntos de entrada adicionales a cualquier reunión (ad hoc o programada) al permitir que los participantes de la reunión se unan a través de una red de telefonía pública conmutada (RTC) mediante llamadas a teléfonos fijos tradicionales, centrales de conmutación (PBX) o móviles. Esto es útil cuando el organizador o los participantes no están delante de un equipo o cuando las conexiones de datos no están disponibles o son demasiado inconfiables para admitir las comunicaciones de voz, por ejemplo, en un área remota con cobertura de datos para dispositivos móviles Spotty o conectada a una Wi-Fi pública gratuita. servicio con ancho de banda limitado o cuando los participantes de la reunión prefieren llamar a la reunión con un punto de conexión de telefonía que sea accesible fácilmente.
+La **audioconferencia** proporciona a las organizaciones puntos de entrada adicionales a cualquier reunión (ad hoc o programada) al permitir que los participantes de la reunión se unan a través de una red de telefonía pública conmutada (RTC) mediante llamadas a teléfonos fijos tradicionales, centrales de conmutación (PBX) o móviles. Esto es útil cuando el organizador o los participantes no están delante de un equipo. o cuando las conexiones de datos no están disponibles o son demasiado inconfiables para admitir las comunicaciones de voz, como en un área remota con cobertura de datos de Spotty Mobile, o conectados a un servicio de Wi-Fi público gratuito con un ancho de banda limitado o cuando los participantes de la reunión prefieren llamar a la reunión con un punto de conexión de telefonía que sea fácil de usar.
 
 El **sistema telefónico con los planes de llamadas ("planes de llamadas")** ofrece a las organizaciones una forma de modernizar su lugar de trabajo al permitir que los usuarios hagan llamadas telefónicas relacionadas con el negocio desde sus equipos y dispositivos móviles. El proceso de actualización de un lugar de trabajo puede formar parte de varios escenarios: una implementación de trabajo basada en actividades, una importante mudanza de Office, una actualización de la oficina, la retirada de una solución PBX heredada, la conclusión de un contrato de proveedor de servicios RTC, etc. Con los planes de llamadas, Microsoft facilita la conectividad a la RTC.
 
@@ -236,7 +237,7 @@ Un Comité de dirección es un grupo de miembros clave y líderes de proyectos q
 
 Cada proyecto requiere un contrato y una visión acordados. Para ofrecer los resultados que desea del proyecto, la visión debe estar claramente definida y debe ser supervisada y mantenida. Esto se convierte en la responsabilidad del Comité de dirección: para impulsar las decisiones, aconsejar, proporcionar supervisión estratégica, para servir como defensores de la organización para las iniciativas del proyecto y, cuando sea necesario, quitar bloqueos.
 
-Su organización debe considerar significativamente la formación del Comité de dirección. El Comité debe garantizar que el proyecto cumpla con los objetivos empresariales que ha definido para impulsar el cambio en toda la organización, reunirse de forma periódica para discutir el impulso actual del proyecto y ayudar a desbloquear los obstáculos que se encuentren a lo largo de la Cómo.
+Su organización debe considerar significativamente la formación del Comité de dirección. El Comité debe garantizar que el proyecto cumpla con los objetivos empresariales que ha definido para impulsar el cambio en toda la organización, reunirse periódicamente para discutir la pulso actual del proyecto y ayudar a desbloquear los obstáculos que se encuentren en el camino.
 
 El Comité debe definir su charter para incluir algunos objetivos clave:
 

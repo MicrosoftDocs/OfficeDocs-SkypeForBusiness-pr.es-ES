@@ -1,5 +1,5 @@
 ---
-title: 'Planes de llamada en Office 365: código de prácticas para Reino Unido (UK)'
+title: Código de práctica del Reino Unido -Planes de llamadas de Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: a811b3a49310a81d5cc62502fe210367b5ac6905
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Aprenda el código de práctica de los planes de llamadas RTC para el Reino Unido de Skype empresarial, como, por ejemplo, cómo obtener ayuda y cómo enviar quejas y resolver disputas.
+ms.openlocfilehash: ef69d726ab40a4eb282422ab549961776c985ef1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824948"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139049"
 ---
 # <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Planes de llamada en Office 365: código de prácticas para Reino Unido (UK)
 
@@ -65,7 +66,7 @@ El plan de llamadas de Office 365 confía en su conexión de banda ancha. Si su 
 
 Skype Empresarial proporciona acceso a los servicios de llamadas de emergencia públicos 999/112 a los clientes que se encuentren en Inglaterra, Gales, Escocia e Irlanda del Norte. Sin embargo, las llamadas de emergencia a 999 o 112 funcionan de manera diferente con los servicios de planes de llamadas de Office 365 que en los servicios telefónicos tradicionales. Los clientes deben notificar estas diferencias a cada usuario de los servicios del plan de llamadas de Office 365.
 
-Entre las diferencias se incluyen las siguientes: (i) es posible que Skype empresarial no conozca la ubicación real de una persona que llama, lo que puede provocar que los servicios de emergencia se envíen a una ubicación incorrecta. (II) cuando un usuario de Skype empresarial marca una llamada de emergencia, el operador puede solicitarle que le proporcione su ubicación actual para ayudarle a enrutar la llamada de emergencia y los servicios de emergencia. (III) si el dispositivo del usuario no tiene energía, experimenta un corte del suministro eléctrico o, por cualquier motivo, no puede acceder a Internet; de lo contrario, el usuario no puede hacer una llamada de emergencia a través de los servicios del plan de llamadas de Office 365. y (IV) aunque los servicios del plan de llamadas de Office 365 se pueden usar en cualquier lugar del mundo donde esté disponible una conexión a Internet, los usuarios no deben llamar a 999 o 112 fuera de Inglaterra, Gales, Escocia o Northern Ireland porque es probable que la llamada no se redirija al servicio de emergencia adecuado.
+Entre las diferencias se incluyen las siguientes: (i) es posible que Skype empresarial no conozca la ubicación real de una persona que llama, lo que puede provocar que los servicios de emergencia se envíen a una ubicación incorrecta. (II) cuando un usuario de Skype empresarial marca una llamada de emergencia, el operador puede solicitarle que le proporcione su ubicación actual para ayudarle a enrutar la llamada de emergencia y los servicios de emergencia. (III) si el dispositivo del usuario no tiene energía, experimenta un corte del suministro eléctrico o, por cualquier motivo, no puede acceder a Internet; de lo contrario, el usuario no puede hacer una llamada de emergencia a través de los servicios del plan de llamadas de Office 365. y (IV) aunque los servicios del plan de llamadas de Office 365 se pueden usar en cualquier lugar del mundo donde esté disponible una conexión a Internet, los usuarios no deben llamar a 999 o 112 fuera de Inglaterra, Gales, Escocia o Northern Ireland porque es probable que la llamada no se dirija al servicio de emergencia adecuado.
 
 Es importante que cada cliente registre la ubicación de los usuarios y que mantenga la información actualizada para que se pueda proporcionar a los servicios de emergencia. Puede realizar cambios en la información de la ubicación en línea mediante el portal del administrador de Skype Empresarial.
 
@@ -150,4 +151,3 @@ Las tarifas de los servicios de traducción nacionales, los números personales 
 
 ## <a name="related-topics"></a>Temas relacionados
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

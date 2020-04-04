@@ -1,5 +1,5 @@
 ---
-title: Instalación de la integración de Moodle con Microsoft Teams
+title: Instalar la integración de Moodle con Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -15,14 +15,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efb53e9b3299f45cd1abfabe508a55ca081a0b92
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3a3ee51fdbbda7c3d49ac5a7b2a65b977f8fb245
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045132"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137140"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Instalación de la integración de Moodle con Microsoft Teams
 

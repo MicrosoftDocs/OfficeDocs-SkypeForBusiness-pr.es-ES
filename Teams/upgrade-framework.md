@@ -7,29 +7,31 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: Use un marco cuyo éxito ya se ha demostrado para realizar la transición de actualización de Skype Empresarial a Teams en su organización
+description: Use un marco de trabajo de éxito probado para ayudar a la actualización de su organización a los equipos de Skype empresarial.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42b4efcd2e9b38aebb7f44d3aa09d7be1ca634f3
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: ab92190b95c081f1b82d27970972c77bcf726f05
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863531"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139659"
 ---
 # <a name="about-the-upgrade-framework"></a>Acerca del marco de actualización
 
 Para ayudarle a tomar las conjeturas de la actualización, hemos empleado un marco de trabajo probado para implementar el cambio. Como se muestra a continuación, cada paso del marco de trabajo se basa en el paso anterior y, para obtener resultados óptimos, recomendamos seguir los pasos en orden.  
 
-Empiece por reunir a las partes interesadas adecuadas y a definir su plan de actualización (por ejemplo, ámbito, objetivos y escala de tiempo). Con un plan en contexto, confirme su entorno técnico y los usuarios finales estarán listos para los equipos. Después, implemente la actualización por etapas y pase de un programa piloto a una actualización para toda la organización cuando esté listo. Una vez que su organización esté en Teams, establezca un plan operativo que supervise la calidad y acelere la adopción por el usuario.
+Empiece por reunir a las partes interesadas adecuadas y a definir su plan de actualización (por ejemplo, alcance, objetivos y escala de tiempo). Con un plan en contexto, confirme su entorno técnico y los usuarios finales estarán listos para los equipos. Después, implemente la actualización por etapas y pase de un programa piloto a una actualización para toda la organización cuando esté listo. Una vez que su organización esté en Teams, establezca un plan operativo que supervise la calidad y acelere la adopción por el usuario.
 
 ![Ilustración de la actualización del marco de viaje](media/upgrade-banner-main.png "Asegúrese de que su proyecto está configurado para el éxito con el equipo del proyecto adecuado. Defina el ámbito del proyecto, los objetivos y la escala de tiempo. Confirmar la disponibilidad técnica y para el usuario. Ejecute el plan de implementación. Mantener el impulso para maximizar los resultados.")
 
@@ -37,7 +39,7 @@ Busque este gráfico de .NET Framework en las páginas relacionadas para identif
 
 ## <a name="sample-upgrade-timeline"></a>Ejemplo de escala de tiempo de actualización
 
-El viaje de actualización comienza al empezar a planificar el cambio. Para aprovechar el marco de éxito como directriz, a continuación encontrará una escala de tiempo de ejemplo que le llevará de la fase anterior a la actualización en la que planeará y preparará la actualización, a través de la actualización y de la fase operativa posterior a la actualización, diseñada para sostener y ampliar tus resultados. 
+El viaje de actualización comienza al empezar a planificar el cambio. Para aprovechar el marco de éxito como directriz, a continuación encontrará una escala de tiempo de ejemplo que le llevará de la fase anterior a la actualización en la que planeará y preparará la actualización, a través de la actualización y de la fase operativa posterior a la actualización, diseñada para sostener y ampliar sus resultados. 
 
 > [!NOTE]
 > Sabemos que su viaje a teams puede implicar el aprovechamiento de varios [modos](https://aka.ms/skypetoteams-coexist) y la actualización de grupos de usuarios en diferentes momentos, lo que le permitirá controlar la experiencia de actualización de usuario y mantener el impulso con Teams.  
@@ -70,8 +72,8 @@ Para ayudar a demostrar cómo puede desdoblar su viaje de actualización, hemos 
 | **1** | **Evaluar su entorno y completar la incorporación técnica de equipos** | Asegúrese de que su entorno está listo para que los equipos ayuden a optimizar la experiencia del usuario y a facilitar la actualización a lo largo del tiempo. | [Evalúe su entorno antes de actualizar a teams](upgrade-plan-journey-evaluate-environment.md).<br><br> [Preparar el servicio para la actualización a teams](upgrade-prepare-environment-prepare-service.md) |
 | **2** | **Optimizar la red para equipos, especialmente para escenarios de medios en tiempo real** | Si va a implementar audio, vídeo o reuniones, lleve a cabo estos pasos adicionales para optimizar su red para esa funcionalidad. | [Preparar la red para actualizar a teams](prepare-network.md) |
 | **3** | **Evaluar la preparación de los cambios organizativos y definir escenarios de trabajo en equipo** | Comprender la base de usuarios para preparar la mensajería de valor adecuado y el nivel de educación para facilitar y acelerar la adopción de usuarios. | [Preparación de los cambios de organización](upgrade-org-change-readiness.md#organizational-change-readiness) |
-| **4** | **Preparar un plan de preparación de usuarios para definir cómo se comunicarán, entrenarán y proporcionarán soporte técnico a los usuarios** | Personalice su plan de comunicaciones, aprendizaje y soporte para garantizar la accesibilidad óptima a la nueva tecnología. | [Preparar un plan de preparación del usuario](upgrade-user-readiness.md)<br><br>[Paquete de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
-| **5** | **Anunciar el lanzamiento pendiente de Microsoft Teams** | Comunícate pronto para ayudar a los usuarios a incluir, reducir la confusión y generar entusiasmo. | [Paquete de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
+| **4** | **Preparar un plan de preparación de usuarios para definir cómo se comunicarán, entrenarán y proporcionarán soporte técnico a los usuarios** | Personalice su plan de comunicaciones, aprendizaje y soporte técnico para garantizar la accesibilidad óptima a la nueva tecnología. | [Preparar un plan de preparación del usuario](upgrade-user-readiness.md)<br><br>[Paquete de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
+| **5** | **Anunciar el lanzamiento pendiente de Microsoft Teams** | Comunícate pronto para ayudar a los usuarios a estar incluido, reducir la confusión y generar diversión. | [Paquete de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
 | **6** | **Preparar el personal de TI para Teams** | Confirme que el personal técnico y de soporte tenga todo lo necesario para preparar el entorno técnico de los equipos. | [Preparar el personal de TI para Microsoft Teams](upgrade-prepare-it-pros.md) <br><br> [Paquete de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
 
 ### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>Prueba piloto: ejecutar un programa piloto para confirmar que su organización está lista e informar a su óptimo viaje a los equipos
@@ -96,7 +98,7 @@ Para ayudar a demostrar cómo puede desdoblar su viaje de actualización, hemos 
 
 ## <a name="upgrade"></a>Upgrade 
 
-**Haga que el funcionario se mueva a teams**. Cuando se actualizan los usuarios, se mueven al modo de solo equipos. Teams se convierte en la aplicación principal para conversaciones, reuniones, llamadas y colaboraciones, y el acceso a la aplicación de Skype empresarial está deshabilitado. Aunque los aspectos técnicos de esta fase son bastante sencillos, considere el efecto que el cambio puede tener en la experiencia del usuario y deje que los usuarios pasen oficialmente sus actividades de Skype empresarial a teams. Para reducir la necesidad de que los usuarios tengan experiencias diferentes con diferentes clientes, intenta limitar la ventana de actualización de un extremo a otro de 45 días.
+**Haga que el funcionario se mueva a teams**. Cuando se actualizan los usuarios, se mueven al modo de solo equipos. Teams se convierte en la aplicación principal para conversaciones, reuniones, llamadas y colaboraciones, y el acceso a la aplicación de Skype empresarial está deshabilitado. Aunque los aspectos técnicos de esta fase son bastante sencillos, considere el efecto que el cambio puede tener en la experiencia del usuario y deje que los usuarios pasen oficialmente sus actividades de Skype empresarial a teams. Para reducir la experiencia de los usuarios con diferentes clientes, intente limitar la ventana de actualización de un extremo a otro de 45 días.
 
 ### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>Actualización: implementar la actualización de Skype empresarial en Teams
 

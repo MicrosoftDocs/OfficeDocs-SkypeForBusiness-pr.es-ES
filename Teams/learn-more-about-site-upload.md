@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Obtenga información sobre cómo cargar un archivo de texto que contiene una lista de ubicaciones físicas y subredes asociadas para usarlas como etiquetas de informes para análisis de llamadas y informes del panel de calidad de llamadas.
+description: Para obtener más información sobre cómo agregar y actualizar etiquetas de informes, cargue un archivo de texto que contenga una lista de ubicaciones físicas y subredes asociadas.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,15 @@ ms.custom:
 - ms.teamsadmincenter.locations.reportinglabels.overview
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
 - ms.teamsadmincenter.locations.overview
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebf362bf6b0cb7213b085a895e59e7c93e98d60f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b245566c0920604dac0e10e6a6cfe49937570bc2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836580"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137120"
 ---
 <a name="add-and-update-reporting-labels"></a>Agregar y actualizar etiquetas de informes
 ============================
@@ -51,10 +52,10 @@ Use el ejemplo siguiente para ayudar a crear el archivo de datos.
 
 |Red|Nombre de red|Intervalo de red|Nombre del edificio|Tipo de propiedad|Tipo de edificio|Tipo de edificio de Office|Ciudad|Código postal|Tercer|Estado|Region|Inside Corp|Expressroute|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso alquilado RE&F|Office|RE&F|Vista de montaña|94043|DÉJEN|CA|DÉJEN|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso alquilado RE&F|Office|RE&F|Vista de montaña|94043|DÉJEN|CA|DÉJEN|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso alquilado RE&F|Office|RE&F|Vista de montaña|94043|DÉJEN|CA|DÉJEN|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso alquilado RE&F|Office|RE&F|Vista de montaña|94043|DÉJEN|CA|DÉJEN|1|1|
+|10.0.128.0    |SVC-1|32|USCAMTV001|Contoso alquilado RE&F|Office|RE&F|Vista de montaña|94043|DÉJEN|CA|DÉJEN|1|1|
+|10.0.130.0    |SVC-1|32|USCAMTV001|Contoso alquilado RE&F|Office|RE&F|Vista de montaña|94043|DÉJEN|CA|DÉJEN|1|1|
+|10.0.131.0    |SVC-1|32|USCAMTV001|Contoso alquilado RE&F|Office|RE&F|Vista de montaña|94043|DÉJEN|CA|DÉJEN|1|1|
+|10.0.132.0    |SVC-1|32|USCAMTV001|Contoso alquilado RE&F|Office|RE&F|Vista de montaña|94043|DÉJEN|CA|DÉJEN|1|1|
 
 Para obtener más información sobre cómo dar formato a un archivo de datos, vea [formato del archivo de datos de inquilinos y creación de una estructura de archivo de datos](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure).
 

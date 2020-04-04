@@ -1,5 +1,5 @@
 ---
-title: Probar o comprar Audioconferencia en Office 365 para Microsoft Teams
+title: Probar o comprar conferencias de audio en Office 365 para equipos
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.lync.lac.CpcGettingStarted
+- seo-marvel-mar2020
 description: 'Descubra cómo probar o comprar licencias de audioconferencia (conferencia RTC) para Office 365 con el fin de configurar llamadas de conferencia a las que la gente pueda acceder. '
-ms.openlocfilehash: 6c2b7583dcf286ba3b761a3445e3eff241896194
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6f30f59e20ee6fd8516bcfe420e2b936e9749a8e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837620"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139699"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Probar o comprar Audioconferencia en Office 365 para Microsoft Teams
 

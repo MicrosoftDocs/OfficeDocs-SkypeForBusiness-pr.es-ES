@@ -1,5 +1,5 @@
 ---
-title: Implementar Calidad de servicio en clientes de Microsoft Teams
+title: Implementar la calidad de servicio en los clientes de Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: Serdars
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fb3823a77995e401be7e60e86603f9d8c56099f
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 66e6dc43e03f1ec3606116ad001f11104de4a55f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863161"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139609"
 ---
 # <a name="set-qos-on-windows-clients"></a>Configurar QoS en clientes de Windows
 
@@ -30,11 +31,11 @@ Puede usar QoS basada en directivas en la Directiva de grupo para establecer el 
 
 *Tabla 1. Intervalos de puerto iniciales recomendados*
 
-|Tipo de tráfico multimedia| Intervalo de puertos de origen del cliente |Protocolo|Valor de DSCP|Clase de DSCP|
+|Tipo de tráfico de medios | Rango de puertos de origen del cliente  |Protocolo|Valor de DSCP|Clase DSCP|
 |:--- |:--- |:--- |:--- |:--- |
-|Audio| 50000 – 50019|TCP/UDP|46|Desvío rápido (EF)|
-|Vídeo| 50,020–50,039|TCP/UDP|34|Desvío garantizado (AF41)|
-|Aplicación/pantalla compartida| 50,040–50,059|TCP/UDP|18|Reenvío asegurado (AF21)|
+|Audio| 50 000 – 50 019|TCP/UDP|46|Desvío rápido (EF)|
+|Vídeo| 50 020 – 50 039|TCP/UDP|34|Desvío garantizado (AF41)|
+|Aplicación/Compartir pantalla| 50 040 – 50 059|TCP/UDP|18|Desvío garantizado (AF21)|
 | | | | | |
 
 Siempre que sea posible, establezca la configuración de QoS basada en directivas dentro de un objeto de directiva de grupo. Los pasos siguientes son muy similares a la [configuración de intervalos de puertos y una directiva de calidad de servicio para los clientes de Skype empresarial Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), que tiene algunos detalles adicionales que pueden no ser necesarios.

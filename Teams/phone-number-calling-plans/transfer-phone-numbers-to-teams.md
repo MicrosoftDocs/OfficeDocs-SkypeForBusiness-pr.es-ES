@@ -16,13 +16,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: ''
-ms.openlocfilehash: b87684b6fbb73115540e20c72636200e61ca0e88
-ms.sourcegitcommit: c4f13aa4947df606d38694a7e544b08be7ce20d1
+description: Obtenga información sobre cómo usar el Asistente para migración para transferir su número de teléfono de su proveedor de servicios actual a Microsoft Teams.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 07368b6dfd05567eac4eac66614560b6ecc9d2b4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42370419"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137870"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de teléfono a Microsoft Teams
 

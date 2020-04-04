@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
 description: Fournir des expériences accessible à tous est Au cœur de la misión de Microsoft, qui consta de à permettre à chaque personne et à chaque organización de la Planète d'accomplir davantage. Microsoft offre un determinado nombre de Fonctionnalités d'accessibilité verter Skype Entreprise et Microsoft Teams qui s'inscrivent dans hijo Engagement Fort en faveur de l'accessibilité et de l'inclusion.
-ms.openlocfilehash: 9d7e7ff471bdd2c88ff1527f224f43e6f7e30b16
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5e58f0228430d99540bbe45548018059e65be016
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825638"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139179"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>Soluciones de accesibilidad para Skype empresarial online y Microsoft Teams en Francia
 
@@ -41,7 +42,7 @@ Skype Entreprise dans Office 365 offre des Fonctionnalités d'accessibilité qui
 
 Microsoft Teams dans Office 365 est un outil de colaboración professionnelle avec des fonctions de messagerie, de vidéoconférence et d'appel. Microsoft Teams intègre des Fonctionnalités d'accessibilité afin de faciliter la comunicación des Utilisateurs ayant une mauvaise vista, une dextérité réduite ou d'autres discapacidades. CES Caractéristiques sont currículos sur le sitio web accessibilité de Microsoft Teams [https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-microsoft-teams-d12ee53f-d15f-445e-be8d-f0ba2c5ee68f?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-microsoft-teams-d12ee53f-d15f-445e-be8d-f0ba2c5ee68f?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR):.  
   
-Notas las páginas de consacrées à Chacune de CES: Forms décrivent comentario se présentent Générale de Skype Entreprise et Microsoft Teams sur manlos Appareils qui prennent en el cargo de las placas de CES (Forms), indicando que son Windows, Mac, iOS y Android.  Descripciones des agencements de Skype Entreprise et Microsoft Teams peuvent s'avérer particulièrement utils. Utilisateurs no Voyants, malvoyants ou à MOBILITÉ réduite verter Mans à se construire une REprésentation mental Caractéristiques des interfaces utilisateur (IU) de Skype Entreprise et Microsoft Teams afin de Leur permettre d'y Naviguer Plus facilement.
+Notas las páginas de consacrées à Chacune de CES: Forms décrivent comentario se présentent Générale de Skype Entreprise et Microsoft Teams sur manlos Appareils qui prennent en el cargo de las placas de CES (Forms), indicando que son Windows, Mac, iOS y Android.  Descripciones des agencements de Skype Entreprise et Microsoft Teams peuvent s'avérer particulièrement utils, Utilisateurs no Voyants, malvoyants ou à MOBILITÉ réduite, construire de une, REprésentation Caractéristiques de la utilisateur de Entreprise de afin de Leur de permettre de d'y (IU) de Skype Naviguer et Microsoft Teams facilement de Plus.
   
 Verter les personnes qui utilisent un lecteur d'écran, Il est posible de Naviguer dans l'interface utilisateur de l'application Skype Entreprise à l'aide du Clavier, et des pages d'aide sont proposées:  
   
@@ -81,9 +82,9 @@ La voz de reconocimiento de Windows peut égalementte personnes réduite à MOBI
   
 ## <a name="assistance-client"></a>Assistance client
 
-L'objectif de Microsoft est d'offrir la Meilleure Expérience posible à tous SES. Verter Cela, Microsoft offre une la técnica de asistencia sur le promociona a les preguntas, à l'accessibilité en permettant à SES, los clientes de la persona que responden a la accessibilité. L'équipe du Answer Desk accessibilité est formée à l'utilisation des Technologies d'assistance les Plus répandues et peut apporter une asistencia en Français par Téléphone et de la conversación:[https://support.microsoft.com/fr-fr/accessibility/disability-answer-desk](https://support.microsoft.com/fr-fr/accessibility/disability-answer-desk)
+L'objectif de Microsoft est d'offrir la meilleure expérience possible à tous ses clients. Pour cela, Microsoft offre une assistance technique sur toutes les questions relatives à l'accessibilité en permettant à ses clients de contacter le Answer Desk Accessibilité. L'équipe du Answer Desk accessibilité est formée à l'utilisation des Technologies d'assistance les Plus répandues et peut apporter une asistencia en Français par Téléphone et de la conversación:[https://support.microsoft.com/fr-fr/accessibility/disability-answer-desk](https://support.microsoft.com/fr-fr/accessibility/disability-answer-desk)
   
 ## <a name="dclaration-de-conformit-en-301-549"></a>Déclaration de Conformité *EN 301 549*
 
-Verter los clientes SES de évaluer l'accessibilité, Microsoft proponer une documentación qui décrit de comentarios Skype Entreprise et Microsoft Teams se conforment à la norma Européenne EN 301 549s auxiliares relativos exigences d'accessibilité aplicables Marchés auxiliares de auxiliares des Produits et Services liés AUX TIC (Technologies of l'Information et de la comunicación) en Europa. Des copia des rapports EN 301 549 sont uniones en los anexos.
+Verter los clientes SES de évaluer l'accessibilité, Microsoft proponer une documentación qui décrit de comentarios Skype Entreprise et Microsoft Teams se conforment à la norma Européenne EN 301 549 de AUX, exigences d'accessibilité válidos Marchés de Produits de liés, auxiliares l'Information de de,. Des copia des rapports EN 301 549 sont uniones en los anexos.
 

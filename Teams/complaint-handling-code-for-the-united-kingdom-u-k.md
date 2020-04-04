@@ -1,5 +1,5 @@
 ---
-title: 'Planes de llamada en Office 365: código de administración de quejas para Reino Unido (UK)'
+title: Código de tratamiento de quejas para el Reino Unido -Planes de llamadas de Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 4a035c77756acc811eec184c0749623a2142cf41
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Realiza una queja por los servicios de llamadas de Skype para empresas (llamadas RTC en el Reino Unido), las escalas de tiempo para las respuestas y la resolución de disputas para reclamaciones no resueltas.
+ms.openlocfilehash: 6bebf983d19461485f7f381c300fc6e5b3611b6b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825578"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137290"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Planes de llamada en Office 365: código de administración de quejas para Reino Unido (UK)
 

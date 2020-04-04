@@ -1,5 +1,5 @@
 ---
-title: Formación de administradores para Microsoft Teams
+title: Recursos de aprendizaje de administración-Microsoft Teams
 ms.reviewer: ''
 author: LanaChin
 ms.author: v-lanac
@@ -16,17 +16,18 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
+- seo-marvel-mar2020
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2794891da78e8b8028bc18d82715a27d5c2eb78d
-ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
+ms.openlocfilehash: aecc877fb558dac0fb6d9999599caf20d9013f19
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42937614"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136530"
 ---
-# <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
+# <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción al aprendizaje de administración para Microsoft Teams
 
 
 Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o realizar talleres. Vuelva aquí con frecuencia para ver nuevos contenidos. 
@@ -105,7 +106,7 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 | Llamadas de emergencia dinámicas | [Vídeo](https://aka.ms/teams-dec) |  [Presentación de diapositivas](https://aka.ms/teams-dec-deck) |
 | Eventos en directo | [Vídeo](https://aka.ms/teams-live-events-session) | [Presentación de diapositivas](https://aka.ms/teams-live-events-deck) |
 | Introducción al Sistema telefónico | [Vídeo](https://aka.ms/teams-phone-system) | [Presentación de diapositivas](https://aka.ms/teams-phone-system-deck) |
-| Enrutamiento directo | [Vídeo 1: planificación del enrutamiento directo en Teams](https://aka.ms/teams-dr-plan)<br>[Vídeo 2: configuración y administración del enrutamiento directo en Teams](https://aka.ms/teams-dr-config)<br>Vídeo 3: migrar al enrutamiento directo en Teams: <strong> <font color="#4B53BC">próximamente</font></strong>  | [Presentación de diapositivas](https://aka.ms/teams-direct-routing-deck) |
+| Enrutamiento directo | [Vídeo 1: planificación del enrutamiento directo en Teams](https://aka.ms/teams-dr-plan)<br>[Vídeo 2: configuración y administración del enrutamiento directo en Teams](https://aka.ms/teams-dr-config)<br>[Vídeo 3: migración al enrutamiento directo en Teams](https://aka.ms/teams-dr-migrate)  | [Presentación de diapositivas](https://aka.ms/teams-direct-routing-deck) |
 | Actualización de Skype Empresarial a Teams | [Vídeo 1: Introducción a la actualización](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: Planificar la actualización](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: Coexistencia e interoperabilidad](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: Experiencia del administrador](https://aka.ms/teams-upgrade-admin) | [Presentación de diapositivas](https://aka.ms/teams-upgrade-deck)|
 
 <h2>Guías de inicio rápido</h2>

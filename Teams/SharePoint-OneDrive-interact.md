@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: Obtenga información sobre cómo SharePoint Online y OneDrive para la empresa interactúan con Microsoft Teams, como la forma en que se almacenan los archivos de conversaciones privadas y la relación entre el equipo, el canal estándar y la biblioteca de documentos.
+description: SharePoint Online & la interacción de OneDrive para la empresa con Teams; almacenamiento de archivos de conversaciones privadas & interacción entre el equipo, el canal estándar, & biblioteca de documentos.
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5f2698330ae23f25ffbbe5fae40d8dc6234354d
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: fd34bf368667fcfa5776de40cad0d1444440805a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131118"
+ms.locfileid: "43137260"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams
 

@@ -1,5 +1,5 @@
 ---
-title: Plan para Microsoft 365 Administración Pública - Implementaciones de DoD - Microsoft Teams
+title: Implementaciones de Microsoft 365 administración pública de DoD
 author: lolajacobsen
 ms.author: heidip
 manager: serdars
@@ -12,17 +12,19 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82c7c8625ca5fcdab7325cf74fcde0c60049da07
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.openlocfilehash: 33c3afcde009a6a8cedb1226dbc6383e29e76730
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079452"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137800"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan para implementaciones de Microsoft 365 administración pública
 

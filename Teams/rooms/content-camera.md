@@ -1,5 +1,5 @@
 ---
-title: Administrar de forma remota la configuración de la consola de salas de Microsoft Teams con un archivo de configuración XML
+title: Más información sobre cómo configurar cámaras de contenido-Microsoft Teams
 ms.author: kenwith
 author: kenwith
 ms.reviewer: sohailta
@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: En este artículo se describe la administración remota de la configuración predeterminada usada por un dispositivo de salas de Microsoft Teams, incluida la aplicación de un tema personalizado.
-ms.openlocfilehash: b470804ac2c5a44a0eb74330ea5158c2e9fe9098
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+description: Use una cámara de contenido en una sala de Microsoft Teams, que interactúa con el software de procesamiento de imágenes para permitir que los moderadores dibujen en una pizarra analógica.
+ms.openlocfilehash: 6ddc1a43a9d75e6f142c82c0215124bad97f77dd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824538"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137630"
 ---
 # <a name="content-cameras"></a>Cámaras de contenido
 
@@ -95,7 +96,7 @@ Una vez instalada la cámara en la sala, configúrelo en la consola de salas de 
 
 También puede ajustar esta configuración de forma remota con un [archivo de configuración XML](xml-config-file.md).
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Administrar de forma remota la configuración de la consola de salas de Microsoft Teams con un archivo de configuración XML](xml-config-file.md)
 

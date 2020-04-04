@@ -1,5 +1,5 @@
 ---
-title: Preparar la implementación de servicios de voz de nube de Microsoft Teams
+title: Prepararse para implementar el servicio de voz en la nube
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efc7193549fac95a29a574f455576dec5ea35c58
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 710a365ef68d3e187013892ef978cd8e12557cc1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862830"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43138000"
 ---
 # <a name="prepare-my-service"></a>Preparar mis servicios
 
@@ -80,7 +81,7 @@ Como paso siguiente, use la [Guía de habilitación de sitios para voz (Guía de
 
 ## <a name="test-cloud-voice-workloads-in-teams"></a>Probar las cargas de trabajo de voz en la nube en Teams
 
-Una vez que haya definido y documentado los planes de implementación técnica y de éxito de su equipo de voz en la nube como parte de la fase de previsión y haya realizado la configuración que desea en el centro de administración, el siguiente paso es validar que la organización las expectativas y los requisitos se cumplen mediante características, funcionalidad y facilidad de uso. Debe realizar este paso de validación antes de implementar una implementación piloto o final en su entorno de producción.
+Una vez que haya definido y documentado los planes de implementación técnica y el éxito de su equipo de voz en la nube como parte de la fase de previsión y haya realizado la configuración que desea en el centro de administración, el siguiente paso es validar que las expectativas y los requisitos de la organización se cumplen mediante características, funcionalidad y facilidad de uso. Debe realizar este paso de validación antes de implementar una implementación piloto o final en su entorno de producción.
 
 Puede aprovechar el plan de éxito empresarial que definió durante la fase de enVision para servir como base para determinar las actividades, expectativas, casos de pruebas de características/funcionalidades y ámbito general que se evaluará durante la fase de pruebas.
 

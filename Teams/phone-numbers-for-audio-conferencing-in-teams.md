@@ -1,5 +1,5 @@
 ---
-title: Números de teléfono para Audioconferencia en Microsoft Teams
+title: Números de acceso telefónico local disponibles para conferencias de acceso telefónico local
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
+- seo-marvel-mar2020
 description: Descubra qué países y regiones tienen números de conferencia de acceso telefónico local, y cómo se asignan automáticamente.
-ms.openlocfilehash: e7a9d67bfb843e65721ebbd18b03b48aca8a24f0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 921878c7b0dfd8abd313adffb9b87e07e58ad66d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836880"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137860"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Números de teléfono para Audioconferencia en Microsoft Teams
 
@@ -60,7 +61,7 @@ Los números de teléfono de las conferencias de acceso telefónico local compar
 Para ver una lista de los países o regiones en los que se asignan automáticamente números de teléfono a las organizaciones, vea [Disponibilidad de país y región para Audioconferencia y Planes de llamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
     
 > [!NOTE]
-> La ubicación del país o la región de su organización se puede encontrar iniciando sesión en el **centro de administración de Microsoft 365** y buscando en Perfil de la **organización**. 
+> El país o la región en que se encuentra su organización se puede encontrar firmando en el **Centro de administración de Microsoft 365** y mirando bajo el**Perfil de la organización**. 
   
 > [!CAUTION]
 > Debido a la disponibilidad limitada de números de teléfono de pagos en Venezuela, Indonesia y los Emiratos Árabes Unidos (UAE), no se asignará automáticamente un número de pago de audioconferencia a las organizaciones de estos países o regiones. Los números de teléfono gratuitos de estos lugares estarán disponibles según el inventario existente. 

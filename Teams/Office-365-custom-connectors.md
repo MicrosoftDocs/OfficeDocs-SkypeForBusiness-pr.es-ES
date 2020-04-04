@@ -1,5 +1,5 @@
 ---
-title: Usar Office 365 y conectores personalizados en Microsoft Teams
+title: Usar conectores de Office 365 y personalizados
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,12 +16,13 @@ f1.keywords:
 description: Los conectores mantienen a su equipo al día al brindarles, directamente en un canal, contenido y actualizaciones de servicios que se utilizan con frecuencia.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc65939048fd8e54bd122a4dc52d2a611b8453cc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 6726507b0dd6c0ca0067bf19a3f9a2c37f727c53
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834380"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136510"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Usar Office 365 y conectores personalizados en Microsoft Teams
 =======================================================
