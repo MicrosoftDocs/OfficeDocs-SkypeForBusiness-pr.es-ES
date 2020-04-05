@@ -18,14 +18,14 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95d3ead9c85fc58fdc55cd321e55b0ff9ca76853
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: e95440652111dbcd39b756ef942e7a974ef31de0
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102398"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131208"
 ---
-# <a name="realwear-for-microsoft-teams"></a>RealWear para Microsoft Teams
+# <a name="microsoft-teams-for-realwear"></a>Microsoft Teams para RealWear
 
 > [!NOTE]
 > Esta es una característica en versión preliminar o anticipada.
@@ -52,7 +52,12 @@ Las licencias de Microsoft Teams forman parte de las suscripciones de Office 365
 Los dispositivos RealWear se pueden administrar mediante el modo de Administrador de dispositivos Android. El soporte técnico para la administración mediante Android Enterprise es limitado, ya que en este momento los dispositivos no tienen disponibles los servicios móviles de Google (GMS).
 
 - Para obtener más información sobre la administración de dispositivos de RealWear en Microsoft Endpoint Manager, consulte [Inscripción del administrador de dispositivos Android en Intune](https://docs.microsoft.com/mem/intune/enrollment/android-enroll-device-administrator).
+- Para obtener más información sobre las directivas, consulte [Cómo usar Intune en entornos sin Google Mobile Services](https://docs.microsoft.com/mem/intune/apps/manage-without-gms).
 
 ### <a name="third-party-enterprise-mobility-managers-emms"></a>Administradores externos de gestión de la movilidad empresarial (EMMs)
 
 Para obtener instrucciones sobre EMMs externos, consulte [Proveedores de gestión de la movilidad empresarial compatibles](https://www.realwear.com/knowledge-center/configure-on-release-10/remote-from-a-web-browser/emm/).
+
+## <a name="end-user-content"></a>Contenido de usuario final
+
+Para obtener más información sobre esto desde el punto de vista del usuario final, consulte [Usar Microsoft Teams para RealWear](https://support.office.com/article/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f).
