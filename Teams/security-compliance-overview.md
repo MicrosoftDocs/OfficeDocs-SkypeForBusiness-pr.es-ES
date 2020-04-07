@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e777ef76f6c8f11dfd914b3c4be149c224b63cf5
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 922489b421a819554ae680cf70ab2df6a21b2aed
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139099"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157633"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Seguridad y cumplimiento en Microsoft Teams
 
@@ -81,6 +81,12 @@ La aplicación de escritorio de Microsoft Teams es compatible con AppLocker.  Pa
 ## <a name="compliance"></a>Respeto
 
 Teams tiene una amplia variedad de información para ayudarle en áreas de cumplimiento, como el cumplimiento de las comunicaciones de canales, chats y datos adjuntos, directivas de retención, protección de pérdida de datos (DLP), eDiscovery y retención legal para canales, chats y archivos, la búsqueda de registros de auditoría, así como la administración de aplicaciones para dispositivos móviles con Microsoft Intune. Hemos proporcionado cierta información sobre todos estos temas, y puede ir al centro de cumplimiento de [Microsoft 365](https://compliance.microsoft.com) o al [centro de cumplimiento de & de seguridad de Office 365](https://protection.microsoft.com) para administrar esta configuración.
+
+### <a name="information-barriers"></a>Barreras de la información
+
+Las barreras de la información son las directivas que los administradores de equipos organizan en contexto para hacer cosas como mantener las personas o grupos para que se comuniquen entre sí (cuando no es necesario que lo haga la empresa, o una razón normativo para bloquearlos), y también le permite establecer directivas relacionadas con las búsquedas y la exhibición de datos (descritas a continuación). Estas directivas pueden afectar a los usuarios de chats de 1:1, chats grupales o a nivel de equipo.
+
+Para obtener más información sobre este tema, vaya a [barreras de la información en Microsoft Teams](information-barriers-in-teams.md).
 
 ### <a name="communication-compliance"></a>Cumplimiento de la comunicación
 

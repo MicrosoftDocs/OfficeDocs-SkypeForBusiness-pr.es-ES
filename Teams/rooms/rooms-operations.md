@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Lea este tema para obtener información sobre la administración de salas de Microsoft Teams, la nueva generación de sistemas de salas de Skype.
-ms.openlocfilehash: 5368df53e7617f602265071a66f7b871c6b88f66
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1fecf852c11e7ab89e0cdc7dc6caf615182e7d5f
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825878"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157767"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Mantenimiento y operaciones de salas de Microsoft Teams 
  
@@ -31,10 +31,10 @@ Con la configuración adicional, la administración remota puede usar Microsoft 
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Recopilar registros en salas de Microsoft Teams
 <a name="Logs"> </a>
 
-Para recopilar registros, debe invocar el script de la colección de registros que se incluye con la aplicación salas de Microsoft Teams. En el modo de administración, inicie un símbolo del sistema con privilegios elevados y emita el siguiente comando:
+Para recopilar registros, debe invocar el script de la colección de registros que se incluye con la aplicación salas de Microsoft Teams. En el modo de administración, inicie un símbolo del sistema de PowerShell con privilegios elevados y emita el siguiente comando:
   
 ```PowerShell
-powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
+c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
 ```
 
 Los registros se mostrarán como un archivo ZIP en c:\rigel.
@@ -84,7 +84,7 @@ En esta sección se describe la configuración del sistema de donde depende Micr
 La transferencia de archivos mediante directivas de grupo se trata en [configurar un elemento de archivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
 
 > [!NOTE]
-> Si el dispositivo de salas de Microsoft Teams es compatible con la siguiente versión del sistema operativo Windows 10, el dispositivo se actualizará automáticamente a la siguiente versión a través de Windows Update. Las salas de Microsoft Teams no se deben actualizar de forma manual a la siguiente versión de Windows 10 o mediante la habilitación de directivas de grupo de Windows Update para empresas (WUFB) "Seleccione el nivel de disponibilidad de Windows para las actualizaciones que desea recibir" y "seleccione Cuándo se preparan las compilaciones y Se reciben actualizaciones de características "a través de GPO. Se sabe que un dispositivo con estas directivas de grupo se encuentra con problemas con la aplicación de Microsoft Team Rooms con la actualización del sistema operativo Windows 10.
+> Si el dispositivo de salas de Microsoft Teams es compatible con la siguiente versión del sistema operativo Windows 10, el dispositivo se actualizará automáticamente a la siguiente versión a través de Windows Update. Las salas de Microsoft Teams no se deben actualizar de forma manual a la siguiente versión de Windows 10 o mediante la habilitación de directivas de grupo de Windows Update para empresas (WUFB) "Seleccione el nivel de disponibilidad de Windows para las actualizaciones que desea recibir" y "seleccione Cuándo se reciben las versiones preliminares y las actualizaciones de características" a través de GPO. Se sabe que un dispositivo con estas directivas de grupo se encuentra con problemas con la aplicación de Microsoft Team Rooms con la actualización del sistema operativo Windows 10.
 
 ## <a name="remote-management-using-powershell"></a>Administración remota con PowerShell
 <a name="RemotePS"> </a>

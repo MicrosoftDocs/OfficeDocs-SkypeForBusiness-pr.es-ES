@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a86a28cd5f7373edbd6d195fea7f857aef1ee29
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.openlocfilehash: 37f01b5de9fc5ffd56d703c73e60c3ed55f50b6d
+ms.sourcegitcommit: c70778ea3a29834f62e6ef96053b5540803acc6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131218"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153302"
 ---
 > [!IMPORTANT]
 > El modelo de servicio de Teams está sujeto a cambios para mejorar la experiencia del cliente. Por ejemplo, el acceso predeterminado o los tiempos de vencimiento del token de actualización pueden estar sujetos a modificaciones para mejorar el rendimiento y la resistencia de autenticación para aquellos que usan Teams. Cualquiera de estos cambios se haría con el objetivo de mantener Teams seguro y confiable por naturaleza.
@@ -124,7 +124,7 @@ TLS permite a los usuarios, mediante su software cliente, autenticar los servido
 
 Las conexiones de servidor a servidor se basan en TLS mutua (MTLS) para autenticación mutua. En una conexión MTLS, el servidor de origen de un mensaje y el que lo recibe intercambian certificados procedentes de una CA de confianza para ambos. Los certificados permiten a los servidores demostrarse mutuamente sus identidades. En el servicio Teams se sigue este procedimiento.
 
-TLS y MTLS evitan la interceptación y los ataques de intermediario. En los ataques de intermediario, el atacante enruta las comunicaciones entre dos entidades de red a través del equipo del atacante sin que lo sepa ninguna de esas entidades. El protocolo TLS y los servidores que se indiquen en Teams como servidores de confianza mitigan el riesgo de un ataque de intermediario parcialmente en el nivel de la aplicación mediante el cifrado de extremo a extremo coordinado con el cifrado de claves públicas entre los dos extremos; para que un atacante pudiera descifrar la comunicación, debería tener un certificado válido y de confianza, así como la clave privada correspondiente emitida a nombre del servicio con el que el cliente se esté comunicando.
+TLS y MTLS evitan la interceptación y los ataques de intermediario. En los ataques de intermediario, el atacante enruta las comunicaciones entre dos entidades de red a través del equipo del atacante sin que lo sepa ninguna de esas entidades. La especificación de los servidores de confianza por parte de TLS y de los Teams mitiga el riesgo de un ataque intermediario parcialmente en el nivel de aplicación mediante el uso de un cifrado coordinado con la criptografía de clave pública entre los dos puntos finales. Un atacante tendría que tener un certificado válido y de confianza con la clave privada correspondiente y expedir el nombre del servicio al que se comunica el cliente para descifrar la comunicación.
 
 ### <a name="encryption-for-teams"></a>Cifrado para Teams
 
