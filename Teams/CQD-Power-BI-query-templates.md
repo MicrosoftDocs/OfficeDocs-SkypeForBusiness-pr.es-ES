@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Use Power BI para analizar los datos del CQD para Microsoft Teams.
-ms.openlocfilehash: 374f0da0342e5fbd50a7a27b9dde49acf605a23d
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: af540f09fefc27b99e1c084d2571fe51d47a393c
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053513"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170508"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Usar Power BI para analizar los datos del CQD para Microsoft Teams
 
@@ -34,13 +34,13 @@ Antes de poder usar estos archivos PBIX, tendrá que [instalar el conector de Po
 
 |  |  |
 |---------|---------|
-|Informe del Departamento de soporte técnico de CQD. pbix     |Integración de datos de compilación y EUII, este informe está diseñado para que pueda obtener detalles de un solo usuario y encontrar la causa de la baja de la calidad de las llamadas de baja calidad para ese usuario (por ejemplo, el usuario está en un edificio que experimenta problemas de red).         |
-|Informe mejorado de ubicación de CQD. pbix     | Reimaginando informes de ubicación SPD de CQD. Incluye 9 informes, con la calidad de las llamadas, la creación de WiFi, la fiabilidad y la clasificación de mi llamada (RMC) información con otros detalles mediante la generación o por el usuario.        |
-|Informe de dispositivos móviles CQD. pbix     | Proporciona información adaptada específicamente a usuarios de dispositivos móviles, como la calidad de las llamadas, la confiabilidad y la tarifa de mi llamada. Ver los informes de red móvil, red WiFi y sistema operativo móvil (Android, iOS).        |
-|Informe de enrutamiento directo RTC de CQD. pbix     |Proporciona información específica de las llamadas RTC que pasan por el enrutamiento directo. Para obtener más información, lea [con el informe de enrutamiento directo de CQD de CQD](CQD-PSTN-report.md).         |
-|Informe de Resumen de CQD. pbix     |Mejores visualizaciones, presentación mejorada, mayor densidad de la información y fechas de rodadura. Estos informes hacen que sea más fácil identificar los valores atípicos. Profundizar la calidad de las llamadas por ubicación con un mapa interactivo fácil de usar. 9 nuevos informes:</p>General de calidad<br>-Fiabilidad general<br>-RMC (calificar mi llamada) general<br>-Calidad de la Conferencia<br>-Calidad de P2P<br>-Fiabilidad de la Conferencia<br>-Fiabilidad P2P<br>-RMC de conferencia<br>-P2P RMC         |
-|<strong>(¡ Nuevo!)</strong> Informe de uso de equipos CQD. pbix     | Muestra cómo los usuarios de su organización usan Teams y cuánto. Para obtener más información, lea [usar el informe de Power BI de CQD para ver la utilización de Microsoft Teams](CQD-teams-utilization-report.md).        |
-|Comentarios del usuario del CQD (calificar mi llamada) Report. pbix     | Muestra la clasificación de los datos de la llamada de una manera fácil de usar para ayudar a admitir las llamadas de su organización. Referencia cruzada con literales para identificar las oportunidades de educación para el usuario final.        |
+|Informe del Departamento de soporte técnico de CQD. PBit     |Integración de datos de compilación y EUII, este informe está diseñado para que pueda obtener detalles de un solo usuario y encontrar la causa de la baja de la calidad de las llamadas de baja calidad para ese usuario (por ejemplo, el usuario está en un edificio que experimenta problemas de red).         |
+|Informe mejorado de la ubicación de CQD. PBit     | Reimaginando informes de ubicación SPD de CQD. Incluye 9 informes, con la calidad de las llamadas, la creación de WiFi, la fiabilidad y la clasificación de mi llamada (RMC) información con otros detalles mediante la generación o por el usuario.  Asegúrese de cargar los datos de compilación para maximizar su experiencia de generación de informes.        |
+|Informe de dispositivo móvil de CQD. PBit     | Proporciona información adaptada específicamente a usuarios de dispositivos móviles, como la calidad de las llamadas, la confiabilidad y la tarifa de mi llamada. Ver los informes de red móvil, red WiFi y sistema operativo móvil (Android, iOS).        |
+|Informe de enrutamiento directo RTC de CQD. PBit     |Proporciona información específica de las llamadas RTC que pasan por el enrutamiento directo. Para obtener más información, lea [con el informe de enrutamiento directo de CQD de CQD](CQD-PSTN-report.md).         |
+|Informe de Resumen de CQD. PBit     |Mejores visualizaciones, presentación mejorada, mayor densidad de la información y fechas de rodadura. Estos informes hacen que sea más fácil identificar los valores atípicos. Profundizar la calidad de las llamadas por ubicación con un mapa interactivo fácil de usar. 9 nuevos informes:</p>General de calidad<br>-Fiabilidad general<br>-RMC (calificar mi llamada) general<br>-Calidad de la Conferencia<br>-Calidad de P2P<br>-Fiabilidad de la Conferencia<br>-Fiabilidad P2P<br>-RMC de conferencia<br>-P2P RMC         |
+|<strong>(¡ Nuevo!)</strong> Informe de uso de equipos CQD. PBit     | Muestra cómo los usuarios de su organización usan Teams y cuánto. Asegúrese de cargar los datos de compilación para maximizar su experiencia de generación de informes. Para obtener más información, lea [usar el informe de Power BI de CQD para ver la utilización de Microsoft Teams](CQD-teams-utilization-report.md).        |
+|Informe de comentarios del usuario del CQD (calificar mi llamada). PBit     | Muestra la clasificación de los datos de la llamada de una manera fácil de usar para ayudar a admitir las llamadas de su organización. Referencia cruzada con literales para identificar las oportunidades de educación para el usuario final.        |
 
 > [!TIP]
 > Una vez que haya configurado los informes de Power BI para los datos del CQD, agréguelos como una pestaña a un canal. Después de seleccionar **+** un canal, seleccione **Power BI** y, a continuación, busque el informe. Recuerde que solo los usuarios con una licencia de Power BI y credenciales de administrador del CQD pueden acceder a estos informes.

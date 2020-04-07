@@ -17,12 +17,12 @@ description: Obtener información sobre cómo administrar las aplicaciones de Te
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 532129792dd35a2b016510094f1b08beade1b32a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5e261dfd6f23ec298e354a7732a9a1afa9d6b22e
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136850"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170558"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el centro de administración de Microsoft Teams
 ======================================================
@@ -68,6 +68,9 @@ La página **Manage apps** es donde permite o bloquea aplicaciones individuales 
 Para permitir o bloquear una aplicación, selecciónela y, a continuación, haga clic en **permitir** o en **bloquear**. Cuando bloquea una aplicación, todas las interacciones con esa aplicación se deshabilitan y la aplicación no aparece en Teams para ninguno de los usuarios de su organización.
 
 Cuando bloquea o permite una aplicación en la página **Administrar aplicaciones** , la aplicación está bloqueada o está permitida para todos los usuarios de su organización.  Al bloquear o permitir una aplicación en una directiva de permisos de la aplicación de Teams, se bloquea o permite a los usuarios que tienen asignada esa Directiva. Para que un usuario pueda instalar e interactuar con cualquier aplicación, debe permitir la aplicación en el nivel de la organización en la página **Administrar aplicaciones** y en la Directiva de permisos de la aplicación que está asignada al usuario.
+
+ > [!NOTE]
+ > Para desinstalar una aplicación, haga clic con el botón derecho en la aplicación y, a continuación, haga clic en **desinstalar** o use el menú **más aplicaciones** en el lado de LeftHand. 
 
 ## <a name="manage-org-wide-app-settings"></a>Administrar la configuración de la aplicación en toda la organización
 

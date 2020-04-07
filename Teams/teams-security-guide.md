@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37f01b5de9fc5ffd56d703c73e60c3ed55f50b6d
-ms.sourcegitcommit: c70778ea3a29834f62e6ef96053b5540803acc6a
+ms.openlocfilehash: 5289abbafb217b60d6ba55af12454a44d11ce7f5
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153302"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170499"
 ---
 > [!IMPORTANT]
 > El modelo de servicio de Teams está sujeto a cambios para mejorar la experiencia del cliente. Por ejemplo, el acceso predeterminado o los tiempos de vencimiento del token de actualización pueden estar sujetos a modificaciones para mejorar el rendimiento y la resistencia de autenticación para aquellos que usan Teams. Cualquiera de estos cambios se haría con el objetivo de mantener Teams seguro y confiable por naturaleza.
@@ -63,7 +63,7 @@ Teams ofrece protección frente a estos ataques mediante la ejecución de la pro
 
 La interceptación se produce cuando un atacante obtiene acceso a la ruta de datos en una red y puede supervisar y leer el tráfico. Este tipo de ataque también se denomina rastreo o espionaje. Si el tráfico se produce como texto sin formato, el atacante puede leerlo cuando obtiene acceso a la ruta. Un ejemplo es un ataque que se realiza al controlar un enrutador de la ruta de acceso a los datos.
 
-Teams utiliza TLS mutua (MTLS) para las comunicaciones del servidor en O365 y TLS de los clientes al servicio. Esto lo convierte en un ataque muy difícil o imposible de llevar a cabo en el período de tiempo en el que se puede atacar una conversación determinada. TLS autentica a todos los participantes y cifra todo el tráfico. Esto no impide la interceptación, pero el atacante no puede leer el tráfico a menos se interrumpa el cifrado. Agregue la secciones o líneas de OAuth.
+Teams utiliza TLS mutua (MTLS) para las comunicaciones del servidor en O365 y TLS de los clientes al servicio. Esto lo convierte en un ataque muy difícil o imposible de llevar a cabo en el período de tiempo en el que se puede atacar una conversación determinada. TLS autentica a todos los participantes y cifra todo el tráfico. Esto no impide la interceptación, pero el atacante no puede leer el tráfico a menos se interrumpa el cifrado.
 
 El protocolo TURN se usa para lograr objetivos relacionados con elementos multimedia en tiempo real. El protocolo TURN no impone el cifrado del tráfico, y la información que envía está protegida por la integridad del mensaje. Si bien este protocolo está abierto a la interceptación, la información que envía (es decir, direcciones IP y puerto) se puede extraer directamente examinando simplemente las direcciones de origen y de destino de los paquetes. El servicio Teams se asegura de que los datos son válidos comprobando la integridad del mensaje mediante la clave derivada de algunos elementos, como una contraseña TURN, la cual no se envía nunca en texto no cifrado. SRTP (Secure Real-Time Transport Protocol) se utiliza para el tráfico de elementos multimedia y también está encriptado.
 

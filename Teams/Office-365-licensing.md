@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 012a45c679faef7e547b5017590c7b81c577dde5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d0a6c14c3fba7e5a303200499c4d158edfb56473
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834330"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170368"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Licencias de Office 365 para Microsoft Teams
 ========================================
@@ -44,13 +44,13 @@ Las siguientes suscripciones de Office 365 permiten a los usuarios de Teams.
 Para obtener más información sobre la obtención de equipos, consulte [¿Cómo puedo obtener acceso a Microsoft Teams?](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 > [!NOTE]
-> Teams también está disponible para organizaciones sin ánimo de lucro. Los equipos comenzarán a implementarse para la comunidad de la nube de Estados Unidos (GCC) el 17 de julio y estarán disponibles para todos los clientes que cumplan los requisitos antes de que finalice el 2018 de agosto. Estamos trabajando para poner Microsoft Teams en las nubes de otros Estados Unidos (GCC High y DoD) próximamente. Obtenga más información en el blog de Microsoft Teams [aquí](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
+> Teams también está disponible para organizaciones sin ánimo de lucro.
 
 > [!NOTE]
 > A partir del 2019 de agosto, todos los clientes nuevos de Office 365 se incorporarán a teams y no tendrán acceso a Skype empresarial online. Los inquilinos que ya usan Skype empresarial online podrán continuar haciendo esto (incluido el aprovisionamiento de nuevos usuarios) hasta que completen la transición a teams. Para obtener más información, consulte [Microsoft Teams ahora es el cliente principal para las reuniones y las llamadas en Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
 
 > [!NOTE]
-> Si Skype empresarial online aparece en las aplicaciones para la licencia seleccionada, no la quite. Si está en la lista y se ha eliminado, la configuración de usuarios de Teams no se completará correctamente. 
+> Si Skype empresarial online aparece en las aplicaciones para la licencia seleccionada, no la quite. Si está en la lista y se ha eliminado, la configuración de usuarios de Teams no se completará correctamente.
         
 En términos de funciones básicas de Teams, no hay diferencias entre las suscripciones de Office 365. La disponibilidad de las capacidades de cumplimiento no depende del nivel de suscripción adecuado. Para aprender más cosas a este respecto, lea [Información general de seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md). Para obtener una lista detallada de las características disponibles en cada plan, consulte la [Descripción del servicio de plataforma de Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 

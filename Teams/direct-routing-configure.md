@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Aprenda a configurar el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: 9c56078a6d016967e518746e3567373404d1c486
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: b596e5acb0002ad90f5c0298b56973f2490ad2e6
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157878"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170588"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -40,6 +40,7 @@ Antes de realizar los pasos de estos artículos, Microsoft le recomienda que con
 - [Documentación de implementación de Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
 - [Documentación de implementación de comunicaciones de la cinta](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 - [Documentación de la implementación de TE-Systems (anynode)](https://www.anynode.de/anynode-and-microsoft-teams/)
+- [Documentación de implementación de MetaSwitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)
 
 Para obtener una lista completa de SBCs admitidos, vea [lista de controladores de borde de sesión certificados para enrutamiento directo](direct-routing-border-controllers.md).
 
@@ -53,7 +54,7 @@ Para configurar Microsoft Phone System y permitir que los usuarios usen el enrut
 Si está configurando un SBC para varios inquilinos, también deberá leer [configurar un SBC para varios inquilinos](direct-routing-sbc-multiple-tenants.md).
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Enrutamiento directo del Sistema telefónico](direct-routing-landing-page.md)
 
