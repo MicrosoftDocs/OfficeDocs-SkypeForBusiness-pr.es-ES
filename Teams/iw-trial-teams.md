@@ -1,5 +1,5 @@
 ---
-title: Administrar la oferta de prueba comercial en la nube de Microsoft Teams
+title: Administrar la oferta de prueba comercial en la nube
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb4a42ebe8772eebe5e5ebd130a68dd4bba714b3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a46720a59b5d3530f64bf4f459df13ad7c5cf5de
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836600"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137160"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Administrar la oferta de prueba comercial en la nube de Microsoft Teams
 =======================================================
@@ -70,13 +71,13 @@ Los usuarios válidos pueden registrarse para la oferta de prueba iniciando sesi
 
 Todas las versiones de prueba de su organización comparten las mismas fechas de inicio y fin, que es la fecha en que el primer usuario se suscribe a la versión de prueba. Por ejemplo, si el usuario A inicia la primera prueba el 25 de enero de 2019 y el usuario B inicia una prueba el 3 de junio de 2019, la prueba de ambos usuarios caducará el 25 de enero de 2020.
 
-## <a name="manage-the-trial"></a>Administrar la versión de prueba
+## <a name="manage-the-trial"></a><a name="manage-the-trial"></a>Administrar la versión de prueba
 
 La prueba de Teams está pensada para ser iniciada por usuarios finales individuales y usted no puede iniciar la oferta de prueba de Teams en nombre de empleados que sean usuarios finales.
 
 Los administradores pueden desactivar la capacidad de los usuarios finales de solicitar servicios y aplicaciones de prueba en su organización. Actualmente, la versión de prueba descrita en este artículo es la única prueba en esta categoría, pero puede aplicarse a otros programas similares en el futuro. 
 
-### <a name="prevent-users-from-installing-trial-apps-and-services"></a>Impedir que los usuarios instalen servicios y aplicaciones de prueba
+### <a name="prevent-users-from-installing-trial-apps-and-services"></a>Evitar que los usuarios instalen aplicaciones y servicios de prueba
 
 Puede desactivar la capacidad de un usuario para instalar servicios y aplicaciones de prueba.
 

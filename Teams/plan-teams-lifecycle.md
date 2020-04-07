@@ -1,5 +1,5 @@
 ---
-title: Plan para la administración del ciclo de vida en Teams - Microsoft Teams
+title: Planear la administración del ciclo de vida
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,18 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 783ae4f1c293a51b5f9838d4ffa3039731c0c867
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ce58f292fd732c498880936c01d3e1b1343d2aa6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837360"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137830"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Plan para la administración del ciclo de vida en Teams
 
 Teams ofrece un amplio conjunto de herramientas que se utiliza para implementar los procesos de administración del ciclo de vida de colaboración para su organización. En este artículo, los profesionales de TI recorren las preguntas adecuadas que les llevarán a determinar sus requisitos de administración del ciclo de vida y las herramientas que deben usar para cumplirlos. 
 
-Planificar la administración del ciclo de vida es muy importante, puesto que implica crear un plan para poder realizar tareas de forma efectiva. La mayoría de proyectos constan de un principio, una parte intermedia y un final, Teams también, pero se puede construir y usar de tantas formas que no siempre está claro en qué etapa de su ciclo de vida está. Tener un plan para administrar el ciclo de vida le ayudará a llevar un seguimiento de los proyectos de su organización conforme van avanzando por estas etapas.
+Planificar la administración del ciclo de vida es muy importante, puesto que implica crear un plan para poder realizar tareas de forma efectiva. La mayoría de proyectos constan de un principio, una parte intermedia y un final. Teams también, pero se puede construir y usar de tantas formas que no siempre está claro en qué etapa de su ciclo de vida está. Tener un plan para administrar el ciclo de vida le ayudará a llevar un seguimiento de los proyectos de su organización conforme van avanzando por estas etapas.
 
 > [!Tip]
 > Vea la siguiente sesión para aprender más cosas sobre el ciclo de vida en Microsoft Teams: [gobierno, administración y ciclo de vida en Microsoft Teams](https://aka.ms/teams-governance)
@@ -152,7 +153,7 @@ Utilice estos vínculos para obtener más información sobre cómo se organizan 
 
 |    |     |
 |-----------|------------|
-| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Cuál es el propósito del equipo?</li><li>¿Quién está en el equipo?</li><li>¿El equipo será privado o público?</li><li>¿Los miembros nuevos pueden agregarse a sí mismos o lo hacen los propietarios de equipo?</li><li>¿Quién tendrá permisos para crear canales o agregar fichas, bots y conectores?</li></ul> |
+| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Cuál es el propósito del equipo?</li><li>¿Quién pertenece al equipo?</li><li>¿El equipo será privado o público?</li><li>¿Los miembros nuevos pueden agregarse a sí mismos o lo hacen los propietarios de equipo?</li><li>¿Quién tendrá permisos para crear canales o agregar fichas, bots y conectores?</li></ul> |
 | ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Crear el equipo.</li><li>Planificar los canales.</li></ul>|
 
 
@@ -196,7 +197,7 @@ Si un equipo empieza a estancarse, considere las siguientes opciones:
 
 Cuando el trabajo de un equipo llega a su fin, es importante reconocer formalmente que ha terminado. De este modo, el equipo se queda con una sensación de cierre y se evita que alguien más acceda a información obsoleta. Podrá usar el equipo para llevar a cabo los rituales de cierre, como análisis finales y resúmenes ejecutivos.
 
-Puede borrar los equipos que sabe que no necesita (por ejemplo, un equipo creado estrictamente para realizar pruebas o un equipo que contiene datos confidenciales). De hecho, los equipos se eliminan con una “eliminación temporal” que el departamento de TI puede revertir hasta en un máximo de 21 días (30 días para los grupos de Office 365). El hecho de eliminar los equipos no afecta a los chats ni al contenido que se haya conservado según las directivas de cumplimiento normativo. Los canales también tienen una "eliminación temporal" y se pueden invertir hasta veintiún días después de la eliminación.
+Puede borrar los equipos que sabe que no necesita (por ejemplo, un equipo creado estrictamente para realizar pruebas o un equipo que contiene datos confidenciales). De hecho, los equipos se eliminan con una “eliminación temporal” que el departamento de TI puede revertir hasta en un máximo de 21 días (30 días para los Grupos de Office 365). El hecho de eliminar equipos no afecta a los chats ni al contenido que se haya conservado según las directivas de cumplimiento. Los canales también tienen una "eliminación temporal" y se pueden invertir hasta veintiún días después de la eliminación.
 
 También se pueden usar las directivas de expiración y retención, además de las funcionalidades de archivado, para reducir la exposición de los equipos que ya no están activos o cuyos miembros han dejado la organización.
 

@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: lolaj
-description: Comience a usar Microsoft Teams implementando los primeros equipos y canales para poder crear su experiencia con Teams antes de implementarlo de forma generalizada en toda la organización.
+description: Comience a usar Teams implementando los primeros equipos y canales para poder crear su experiencia con Teams antes de implementarlo en toda la organización.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62db123cbc7a038ee001367209df2efbad202d96
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 72c6c4c959350c8320c908b4e9f4a9c649eb8d7b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928463"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136780"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introducción a Microsoft Teams
 

@@ -1,5 +1,5 @@
 ---
-title: Administrar la configuración de Microsoft Teams para su organización
+title: Administrar la configuración de su organización
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,23 +8,25 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ritikag
 search.appverid: MET150
-description: Obtenga información sobre cómo activar o desactivar la configuración de toda la organización de Microsoft Teams para su organización, incluidas las aplicaciones, el acceso externo, el acceso de invitados, la configuración de Teams y las preferencias de actualización de Teams.
+description: Obtenga información sobre cómo activar o desactivar la configuración de toda la organización de Microsoft Teams, incluidas las aplicaciones, el acceso externo, el acceso de invitados, la configuración de Teams y las preferencias de actualización de Teams.
 localization_priority: Priority
-ms.custom:
-- ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
-- ms.teamsadmincenter.teamssettings.overview
 ms.collection:
 - M365-collaboration
 f1.keywords:
 - CSH
+ms.custom:
+- ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
+- ms.teamsadmincenter.teamssettings.overview
+- NewAdminCenter_Update
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87c78839c0c6998464ed362dc8a3c2e4798a2321
-ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
+ms.openlocfilehash: 5ad6e1679d809cbf4451677fdf67814930d33807
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035242"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141233"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Administrar la configuración de Microsoft Teams para su organización
 
@@ -77,7 +79,7 @@ Los usuarios pueden cargar y compartir archivos de los servicios de almacenamien
 
 #### <a name="organization"></a>Organización
 
-Aquí puede activar la ficha **Organización**, que muestra el organigrama detallado de la organización del usuario. Si desea más información, consulte [Usar la ficha Organización en Microsoft Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
+Aquí puede activar la pestaña **Organización**, que muestra el organigrama detallado de la organización del usuario. Para más información, consulte [Usar la pestaña Organización en Microsoft Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
 
 #### <a name="devices"></a>Dispositivos
 
@@ -120,7 +122,7 @@ Aquí puede elegir la aplicación que utilizarán los usuarios para unirse a las
 
 El planificador de red le ayuda a determinar y organizar los requisitos de la red para conectar a los usuarios de Teams dentro de la organización.  Obtenga información acerca de cómo [Usar el Planificador de red para Microsoft Teams](https://docs.microsoft.com/microsoftteams/network-planner).
 
-También puede seleccionar la opción «Descargar la aplicación Teams en segundo plano para usuarios de Skype empresarial».  Esta configuración está seleccionada de forma predeterminada. Con esta configuración habilitada, se descargará la aplicación de Teams en segundo plano para los usuarios que ejecuten la aplicación de Skype empresarial en Windows. Esto sucede si el modo de Coexistencia del usuario es Solo Teams, o si se habilita la notificación de actualización pendiente en la aplicación de Skype Empresarial.
+También puede seleccionar la opción "Descargar la aplicación Teams en segundo plano para usuarios de Skype Empresarial".  Esta configuración está seleccionada de forma predeterminada. Con esta configuración habilitada, se descargará la aplicación de Teams en segundo plano para los usuarios que ejecuten la aplicación de Skype empresarial en Windows. Esto sucede si el modo de Coexistencia del usuario es Solo Teams, o si se habilita la notificación de actualización pendiente en la aplicación de Skype Empresarial.
 
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>¿Cómo puedo saber qué características están disponibles?

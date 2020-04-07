@@ -1,5 +1,5 @@
 ---
-title: Audioconferencia en Microsoft Teams
+title: 'Configurar las opciones de audioconferencia: Microsoft Teams'
 ms.reviewer: ''
 description: Use estos recursos de implementación para ayudarle a implementar la audioconferencia como parte de la carga de trabajo de reuniones en Microsoft Teams.
 ms.topic: article
@@ -12,20 +12,21 @@ ms.service: msteams
 ms.collection:
 - M365-voice
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78c4443352bffa02dc5bdeef6297ede6bed01e64
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: f57753947221068a21edd282ba0667efc4182690
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826748"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137330"
 ---
-# <a name="audio-conferencing-in-microsoft-teams"></a>Audioconferencia en Microsoft Teams
+# <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Más información sobre cómo implementar audioconferencias en Microsoft Teams
 
 La audioconferencia es la posibilidad de unirse a una reunión de Teams desde un teléfono normal y llamar desde una reunión a un número de teléfono. Asegúrese de revisar [Implementación reuniones](deploy-meetings-microsoft-teams-landing-page.md) como parte de la implementación de las audioconferencias en su organización.
 
