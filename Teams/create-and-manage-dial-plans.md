@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Aprenda a crear y administrar planes de marcado de llamada (planes de marcado de llamadas RTC) y a administrarlos.
-ms.openlocfilehash: 774b0a78f39b91b634ed0833be3497935cb25c4f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a5f46772ed8eebb309ba8bd9eaeca6fddb35afa
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826928"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160084"
 ---
 # <a name="create-and-manage-dial-plans"></a>Crear y administrar planes de marcado
 
@@ -61,13 +61,13 @@ Después de planear los planes de marcado de su organización y de haber averigu
 
 ### <a name="add-users-to-a-dial-plan"></a>Agregar usuarios a un plan de marcado
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**plan de marcado**de **voz** > .
-2. Seleccione el plan de marcado haciendo clic a la izquierda del nombre del plan de marcado.
-3. Seleccione **administrar usuarios**.
-4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
-5. Cuando haya terminado de agregar usuarios, seleccione **aplicar**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**.
+2. Seleccione el usuario haciendo clic en el nombre para mostrar.
+3. Seleccione la pestaña **directivas** .
+4. Haga clic en **Editar** a la derecha de directivas asignadas.
+5. En el menú desplegable del **plan de marcado** , seleccione el plan de marcado que desea asignar al usuario y, a continuación, haga clic en **aplicar**.
 
-## <a name="using-powershell"></a>Usar PowerShell
+## <a name="using-powershell"></a>Con PowerShell
   
 ### <a name="verify-and-start-remote-powershell"></a>Comprobar e iniciar PowerShell remoto
 

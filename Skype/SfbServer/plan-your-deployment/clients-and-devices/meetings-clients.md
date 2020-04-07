@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumen: los profesionales de TI deben revisar los requisitos de soporte técnico para la aplicación Web de Skype empresarial y la aplicación reuniones de Skype mientras planifica Skype empresarial Server. Este artículo no está destinado a los usuarios de estas aplicaciones.'
-ms.openlocfilehash: 77633b53c44e28301b21cc2f37240a4a1e459938
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f5b402b23cbb49d1605b83b9f54531e26714b1f7
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013453"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157643"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planeación de clientes de reuniones (aplicación web y aplicación de reuniones)
  
@@ -65,7 +65,7 @@ Para usar la aplicación Web de Skype empresarial, un usuario debe tener una de 
    
 &#x2776; el complemento de explorador de la aplicación Web de Skype empresarial requiere un complemento de uso compartido específico para usar voz, vídeo, uso compartido y visualización del uso compartido de la pantalla continua y otras características en función del equipo. A un asistente a la reunión se le ofrece la opción de instalar el complemento para compartir, ya sea cuando se una a la reunión o cuando inicie una de estas características. En Windows 8 y Windows 8,1, el complemento para compartir solo puede instalarse si se está ejecutando Internet Explorer 10 o Internet Explorer 11 para el escritorio. Estas características no están disponibles con versiones que no son de escritorio de Internet Explorer 10 y 11. Tenga en cuenta que Firefox y Safari versión 12,0 y posteriores ya no se admiten.
   
-&#x2777; en sistemas operativos compatibles con Windows 7, Windows Server 2008 R2 y Macintosh, todas las características están disponibles, incluidas la voz, vídeo, visualización de aplicaciones, uso compartido de aplicaciones, visualización de escritorio y uso compartido de escritorio basadas en el equipo. Para usar estas características, debe instalar un complemento cuando se le solicite. Tenga en cuenta que ya no se admite Mac OS X versión 10,7.
+&#x2777; en sistemas operativos compatibles con Windows 7, Windows Server 2008 R2 y Macintosh, todas las características están disponibles, incluidas la voz, vídeo, visualización de aplicaciones, uso compartido de aplicaciones, visualización de escritorio y uso compartido de escritorio basadas en el equipo. Para usar estas características, debe instalar un complemento cuando se le solicite. Tenga en cuenta que ya no se admite Mac OS X versión 10,7.  Tenga en cuenta también que la aplicación web no se instalará en OS X 10,15 o posterior.  Se recomienda usar la última versión de Skype empresarial para Mac, que admite escenarios de Unión anónima en el futuro.
   
 &#x2778; el acceso a la aplicación web desde Chrome en Windows iniciará un pequeño programa que carga la aplicación web en un marco incrustado de Internet Explorer. Este programa requiere que esté instalada una de las versiones compatibles de Internet Explorer para que la aplicación web se cargue correctamente.
   
@@ -166,7 +166,7 @@ Para los usuarios finales, la [ayuda en línea](https://aka.ms/smahelp) de estas
 
 A partir de Skype empresarial Server 2015 CU5, AES no es compatible con ASP.NET 4,6 y esto puede provocar que la aplicación reuniones de Skype no se inicie. [Los requisitos criptográficos para ASP .net 4,5](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) tienen más detalles.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="BKMK_Conferencing"> </a>
 
 [Implementar clientes Web descargables en Skype empresarial Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
