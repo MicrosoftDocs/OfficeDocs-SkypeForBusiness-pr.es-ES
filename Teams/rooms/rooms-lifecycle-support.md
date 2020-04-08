@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: En este artículo se describe la compatibilidad del ciclo de vida de las salas de Microsoft Teams.
-ms.openlocfilehash: e5142d23d9f57a6ca50bcdb348378084afffd86b
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: 27610cd7a7ed5c2bca1fcb118b3687149d2872d0
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117528"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190828"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Compatibilidad de versiones de la aplicación salas de Microsoft Teams
  
@@ -59,7 +59,7 @@ En la tabla siguiente se muestran las versiones recomendadas y compatibles de Wi
 | 1709 |2018-01-18 |No compatible                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |No compatible                         |&#x2014; |&#x2014; |
 
-&#x2781; la versión de Windows 10 1809 no se recomienda debido a problemas de compatibilidad con la aplicación salas de Microsoft Teams. Este problema específico hace que la aplicación salas de Microsoft Teams no se inicie tras el reinicio nocturno. Este problema se ha solucionado en la versión de Windows 10 1903.  
+&#x2780; no se recomienda la versión 1809 de Windows 10 debido a problemas de compatibilidad que se encuentran en la aplicación salas de Microsoft Teams. Este problema específico hace que la aplicación salas de Microsoft Teams no se inicie después del reinicio nocturno. Este problema se ha solucionado en la versión 1903 de Windows 10.  
 
 Si usa una versión compatible de Windows 10, siempre obtendrá las actualizaciones de aplicaciones más recientes para la aplicación salas de Microsoft Teams.  
 
