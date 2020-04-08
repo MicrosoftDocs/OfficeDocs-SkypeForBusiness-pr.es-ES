@@ -1,7 +1,7 @@
 ---
 layout: HubPage
 ms.topic: hub-page
-title: Cursos de entrenamiento para los usuarios impartidos por un instructor
+title: Cursos de aprendizaje para los usuarios impartidos por un instructor
 ms.reviewer: dearbeen
 manager: serdars
 description: Apúntese a las clases dirigidas por un instructor para aprender sobre Microsoft Teams.
