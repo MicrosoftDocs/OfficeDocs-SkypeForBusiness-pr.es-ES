@@ -8,7 +8,6 @@ author: LolaJacobsen
 ms.author: lolaj
 audience: admin
 manager: serdars
-ms.date: 03/19/2019
 ms.service: msteams
 f1.keywords:
 - NOCSH
@@ -19,17 +18,17 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 756ff8d15ec58426b73504fcb240068151eabcd7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 38960039c34c8fae0838b07ebea5b9581b63c297
+ms.sourcegitcommit: c70778ea3a29834f62e6ef96053b5540803acc6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205416"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153301"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Talleres en planificación de actualización de los equipos</h1>
-           <p>Como cliente valorado en Skype empresarial, queremos asegurarnos de que tiene todo lo que necesita mientras se desplaza por Teams. Únase a nosotros en una serie de talleres de planificación de actualización interactivos, en los que compartiremos la orientación, las prácticas recomendadas y los recursos diseñados para ayudarle a planear e implementar la actualización a Teams. Para obtener una experiencia óptima, inicie con <strong>el plan de actualizaciones</strong> de las sesiones que se muestran a continuación.
+           <p>Como cliente valorado en Skype empresarial, queremos asegurarnos de que tiene todo lo que necesita mientras se desplaza por Teams. Únase a nosotros en una serie de talleres de planificación de actualización interactivos, en los que compartiremos la orientación, las prácticas recomendadas y los recursos diseñados para ayudarle a planear e implementar la actualización a Teams. Para obtener una experiencia óptima, inicie con <strong>el plan de actualizaciones</strong> de las sesiones que se muestran a continuación. Para ver estos talleres en el propio momento, visite <a href="https://aka.ms/UpgradeOnDemand"target="_blank">actualizar a Microsoft Teams</a> en YouTube.
             <p>¿Nuevo en Teams? Obtenga más información <a href="https://docs.microsoft.com/microsoftteams/teams-overview">aquí</a>.
         <ul class="pivots">
             <li>
