@@ -1,5 +1,5 @@
 ---
-title: Seleccione una ruta para la implementación en toda la organización
+title: Seleccionar una ruta para la implementación en toda la organización
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars

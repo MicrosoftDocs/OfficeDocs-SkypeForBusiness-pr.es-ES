@@ -34,10 +34,10 @@ Al configurar y usar el primer conjunto de equipos y canales comenzará su exper
 
 Para obtener más información, consulte [Información general sobre los equipos y canales en Teams](teams-channels-overview.md) y [Procedimientos recomendados para organizar los equipos en Teams](best-practices-organizing.md).
 
- Le recomendamos que empiece por un equipo llamado "Familiarizarse con Teams" en el que los primeros usuarios puedan probar cosas, formular preguntas y descubrir las funciones de Teams. Este equipo puede ser esencial para el correcto funcionamiento cuando empiece a experimentar con Teams. 
+ Le recomendamos que empiece por un equipo llamado "Familiarizarse con Teams" en el que los primeros usuarios puedan experimentar, formular preguntas y descubrir las funciones de Teams. Este equipo puede ser esencial para el correcto funcionamiento cuando empiece a experimentar con Teams. 
 
 ### <a name="get-to-know-teams-team"></a>Equipo "Familiarizarse con Teams"
-El equipo de proyecto puede usar el equipo "Familiarizarse con Teams" para asegurarse de que se han configurado los clientes de Teams, tener algunas conversaciones iniciales y explorar lo que Teams puede hacer. Puede que ya tenga un grupo de personas en su organización que disfrute de obtener acceso anticipado a nuevas funciones. Este grupo puede ser uno de sus equipos iniciales al incluirlos en el proceso y le ayudarán a saber las primeras opiniones y comentarios.
+El equipo de proyecto puede usar el equipo "Familiarizarse con Teams" para asegurarse de que se hayan configurado los clientes de Teams, tener algunas conversaciones iniciales y explorar lo que Teams puede hacer. Puede que ya tenga un grupo de personas en su organización que disfrute de obtener acceso anticipado a nuevas funciones. Este grupo puede ser uno de sus equipos iniciales al incluirlos en el proceso y le ayudarán a saber las primeras opiniones y comentarios.
 
 Esta una sugerencia de estructura para el equipo.
 

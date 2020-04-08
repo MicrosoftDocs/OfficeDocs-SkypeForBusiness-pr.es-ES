@@ -28,7 +28,7 @@ ms.locfileid: "43137830"
 
 Teams ofrece un amplio conjunto de herramientas que se utiliza para implementar los procesos de administración del ciclo de vida de colaboración para su organización. En este artículo, los profesionales de TI recorren las preguntas adecuadas que les llevarán a determinar sus requisitos de administración del ciclo de vida y las herramientas que deben usar para cumplirlos. 
 
-Planificar la administración del ciclo de vida es muy importante, puesto que implica crear un plan para poder realizar tareas de forma efectiva. La mayoría de proyectos constan de un principio, una parte intermedia y un final. Teams también, pero se puede construir y usar de tantas formas que no siempre está claro en qué etapa de su ciclo de vida está. Tener un plan para administrar el ciclo de vida le ayudará a llevar un seguimiento de los proyectos de su organización conforme van avanzando por estas etapas.
+Planear la administración del ciclo de vida es muy importante, puesto que implica crear un plan para poder realizar tareas de forma efectiva. La mayoría de los proyectos constan de un principio, una parte intermedia y un final. Teams también, pero se puede construir y usar de tantas formas que no siempre está claro en qué etapa de su ciclo de vida está. Tener un plan para administrar el ciclo de vida le ayudará a llevar un seguimiento de los proyectos de su organización conforme van avanzando por estas etapas.
 
 > [!Tip]
 > Vea la siguiente sesión para aprender más cosas sobre el ciclo de vida en Microsoft Teams: [gobierno, administración y ciclo de vida en Microsoft Teams](https://aka.ms/teams-governance)
