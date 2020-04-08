@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube con Microsoft Teams.
-ms.openlocfilehash: fc958aa1713a7cda12a054b3a029bfc1786b0955
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 2027658c5335f19c00ea1c8e44c6d38e1f16a730
+ms.sourcegitcommit: 9a448104a76857e3aa464c53cec577d813f8f414
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42897251"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43184243"
 ---
 # <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 
@@ -49,11 +49,9 @@ Todas las llamadas de la cola se envían a los agentes mediante uno de los sigui
 - Con el enrutamiento en serie, la primera llamada de la cola suena una por una por todos los agentes de llamadas.
 - Con la operación por turnos, el enrutamiento de las llamadas entrantes está equilibrado, de modo que cada agente de llamadas obtiene el mismo número de llamadas de la cola.
 
-    > [!NOTE]
-    > Los agentes de llamadas que estén **desconectados**, que hayan establecido su presencia en **no molestar,** o que hayan decidido no recibir llamadas.
+Puede configurar las opciones de administración de llamadas, como la participación en el agente, la opción de enrutamiento basado en la presencia, el tiempo de espera de llamada y las opciones de tiempo de espera de la llamada con cualquiera de los métodos anteriores.
 
-- Solo una notificación de llamada entrante (para la llamada al principio de la cola) a la vez va a los agentes de llamadas.
-- Después de que un agente de llamadas acepte la llamada, la siguiente llamada entrante de la cola se enviará a los demás agentes de llamadas.
+Solo una notificación de llamada entrante (para la llamada al principio de la cola) a la vez va a los agentes de llamadas. Después de que un agente de llamadas acepte la llamada, la siguiente llamada entrante de la cola se enviará a los demás agentes de llamadas.
 
 > [!NOTE]
 > Este artículo se aplica a Microsoft Teams y a Skype empresarial online.
@@ -164,7 +162,7 @@ captura de pantalla anterior**música en espera** puede usar la música predeter
 
 ### <a name="select-the-call-answering-options"></a>Selecciona las opciones de contestador automático
 
-![Captura de pantalla de las opciones de contestador automático](media/5d249515-d532-4af2-90da-011404028b89.png) 
+![Captura de pantalla de las opciones de contestador automático](media/teams-cq-call-answering-options.png)
 
 ![El icono del número 1, hace referencia a una llamada en la](media/teamscallout1.png)
 captura de pantalla anterior de los**agentes y grupos** para agregar agentes individuales directamente, sin agregarlos a un grupo, haga clic en **Agregar usuarios**. Coloca agentes individuales en el orden en que quieras que reciban la llamada. Puedes añadir hasta 20 agentes individuales (para añadir más de 20, ponerlos en un grupo).
@@ -177,9 +175,9 @@ Puede seleccionar hasta 200 agentes de llamadas que pertenecen a cualquiera de l
 - Grupo de seguridad
 - Lista de distribución
 
-Los agentes de llamadas seleccionados deben ser: 
+Los agentes de llamadas seleccionados deben ser uno de los siguientes:
 
-- Usuarios en línea con una licencia de sistema telefónico y la telefonía IP empresarial habilitada 
+- Usuarios en línea con una licencia de sistema telefónico y la telefonía IP empresarial habilitada
 - Usuarios en línea con un plan de llamadas
 - Usuarios locales de Skype empresarial Server
 
@@ -197,9 +195,17 @@ Los agentes de llamadas seleccionados deben ser:
 
 - El **enrutamiento del operador** hace que la primera llamada de la cola suene a todos los agentes de llamadas al mismo tiempo. El primer agente de llamadas que atiende la llamada recibe la llamada.
 - El **enrutamiento serie** llama a todos los agentes de llamadas de uno en uno, desde el principio de la lista de agentes de llamadas. Los agentes no se pueden pedir dentro de la lista de agentes de llamadas. Si un agente descarta o no atiende una llamada, la llamada sonará al próximo agente y probará con todos los agentes hasta que se seleccione o agote el tiempo de espera.
-  > [!NOTE]
-  > Con el enrutamiento en serie, en el caso de agentes que estén **desconectados** o que hayan establecido su presencia en **no molestar**, la llamada se redirigirá a esos usuarios y no podrá conectarse al siguiente agente de la lista de agentes. Esto no sucede si el agente ha **optado** por no recibir llamadas de la cola de llamadas. Para reducir el intervalo de tiempo que se puede disminuir la llamada se dirige al siguiente agente de la línea.
 - El enrutamiento **Round Robin** de equilibra las llamadas entrantes para que cada agente de llamadas obtenga el mismo número de llamadas de la cola. Esto puede ser conveniente en un entorno de ventas entrante para asegurar la igualdad de oportunidades entre todos los agentes de llamadas.
+
+![El icono del número 3, que hace referencia a una llamada en](media/teamscallout3.png)
+**la captura de** pantalla anterior, el enrutamiento basado en presencia usa el estado de disponibilidad de los agentes de llamadas para determinar si un agente debería estar incluido en la lista de enrutamiento de llamadas para el método de enrutamiento seleccionado. Los agentes de llamadas cuyo estado de disponibilidad esté establecido en **disponible** se incluyen en la lista de enrutamiento de llamadas y pueden recibir llamadas. Los agentes cuyo estado de disponibilidad esté establecido en cualquier otro Estado se excluyan de la lista de enrutamiento de llamadas y no recibirán llamadas hasta que su estado de disponibilidad cambie de nuevo a **disponible**.
+
+Puede habilitar el enrutamiento de llamadas basado en presencia con cualquiera de los métodos de enrutamiento.
+
+Si un agente opta por recibir llamadas, no se incluirán en la lista de enrutamiento de llamadas, independientemente del valor de su estado de disponibilidad en.
+
+> [!CAUTION]
+> Los agentes que usan el cliente de Skype empresarial no se incluyen en la lista de enrutamiento de llamadas cuando el enrutamiento basado en presencia está habilitado, independientemente de su estado de disponibilidad. Los agentes que no se encuentren en la lista de enrutamiento de llamadas no recibirán llamadas. Si tiene agentes que usan Skype empresarial, no habilite el enrutamiento de llamadas basado en presencia.
 
 ### <a name="select-an-agent-opt-out-option"></a>Seleccionar una opción de cancelación de la suscripción
 
