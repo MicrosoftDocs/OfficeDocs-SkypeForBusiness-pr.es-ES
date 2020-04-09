@@ -18,18 +18,19 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0358e23f4f549aba6064a78d95f7ce160bb738b0
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: f0223d3a29c704b5ab55d2183fd6587c845b351c
+ms.sourcegitcommit: 273d7565ad350bf97dbf035f148fd48b1cb04d4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174962"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43194860"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introducción a Microsoft Teams para el aprendizaje remoto
 
 > [!NOTE]
 > Este artículo es un gran recurso para preparar a su escuela para el aprendizaje remoto. Si es un formador, el responsable de una escuela o un profesional de TI, estos recursos pueden ayudarle:
 >
+> - Ponga en marcha Teams en su escuela o universidad rápidamente con la [**Introducción de una página**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
 > - Descargue [**Empezar a usar Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true): una guía para profesionales de TI con prácticas útiles para la administración de cambios y seguridad.
 > - Una colección de artículos para educadores incluyendo tutoriales detallados sobre [**los primeros pasos importantes para enseñar en Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - Un curso en línea de 1 hora en el Centro de Formación de Microsoft que muestra cómo los educadores usan Teams en el ámbito profesional educativo. [**Trasformar el aprendizaje con Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview)
@@ -136,6 +137,8 @@ Después de la instalación de un equipo, los propietarios pueden [personalizar 
 ### <a name="collaborative-meetings-for-virtual-classes"></a>Reuniones de colaboración para clases virtuales
 
 [Las reuniones de Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams) admiten hasta 250 asistentes simultáneos, con la capacidad de usar audio, vídeo, [compartir contenido](https://support.office.com/article/show-your-screen-during-a-meeting-90c84e5a-b6fe-4ed4-9687-5923d230d3a7), pizarras y notas. Puede programar las reuniones en el cliente de Teams en una [reunión en un espacio privado o en un canal de equipo](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams), de forma que todos los miembros del equipo se enteren. Se pueden grabar y guardar reuniones para que los asistentes puedan revisarlas más tarde. Estas grabaciones también se pueden [transcribir para encontrar contenido que se ha tratado fácilmente](https://support.office.com/article/Microsoft-Stream-automatically-creates-closed-captions-for-videos-8d6ac353-9ff2-4e2b-bca1-329499455308). Para las reuniones, se pueden usar un equipo portátil o cámara web de teléfono móvil, micrófono y altavoces, y puede obtener calidad de audio o vídeo superior de [dispositivos optimizados de Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
+
+En Teams, los organizadores de reuniones pueden finalizar una reunión para todos los participantes. Con esta función, los formadores pueden asegurarse de que los alumnos no se queden en una reunión sin supervisar después de que se haya terminado una clase.
 
 ### <a name="districtuniversity-events-or-updates"></a>Eventos y actualizaciones del distrito/universitarios
 
