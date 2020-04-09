@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5289abbafb217b60d6ba55af12454a44d11ce7f5
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: d2aded83cf92a98aaaa1b01fdedab695013dac8e
+ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170499"
+ms.locfileid: "43174972"
 ---
 > [!IMPORTANT]
 > El modelo de servicio de Teams está sujeto a cambios para mejorar la experiencia del cliente. Por ejemplo, el acceso predeterminado o los tiempos de vencimiento del token de actualización pueden estar sujetos a modificaciones para mejorar el rendimiento y la resistencia de autenticación para aquellos que usan Teams. Cualquiera de estos cambios se haría con el objetivo de mantener Teams seguro y confiable por naturaleza.
@@ -125,6 +125,9 @@ TLS permite a los usuarios, mediante su software cliente, autenticar los servido
 Las conexiones de servidor a servidor se basan en TLS mutua (MTLS) para autenticación mutua. En una conexión MTLS, el servidor de origen de un mensaje y el que lo recibe intercambian certificados procedentes de una CA de confianza para ambos. Los certificados permiten a los servidores demostrarse mutuamente sus identidades. En el servicio Teams se sigue este procedimiento.
 
 TLS y MTLS evitan la interceptación y los ataques de intermediario. En los ataques de intermediario, el atacante enruta las comunicaciones entre dos entidades de red a través del equipo del atacante sin que lo sepa ninguna de esas entidades. La especificación de los servidores de confianza por parte de TLS y de los Teams mitiga el riesgo de un ataque intermediario parcialmente en el nivel de aplicación mediante el uso de un cifrado coordinado con la criptografía de clave pública entre los dos puntos finales. Un atacante tendría que tener un certificado válido y de confianza con la clave privada correspondiente y expedir el nombre del servicio al que se comunica el cliente para descifrar la comunicación.
+
+> [!NOTE]
+> Los datos de Teams se cifran en tránsito y en reposo. Microsoft usa tecnologías estándares del sector como TLS y SRTP para cifrar todos los datos en tránsito entre los dispositivos de los usuarios y los centros de datos de Microsoft, así como entre los centros de datos de Microsoft. Esto incluye mensajes, archivos, reuniones y otro contenido. Los datos empresariales también se cifran en reposo en los centros de datos de Microsoft, para que las organizaciones puedan descifrar el contenido en caso necesario, para cumplir con sus obligaciones de seguridad y cumplimiento, como eDiscovery.
 
 ### <a name="encryption-for-teams"></a>Cifrado para Teams
 

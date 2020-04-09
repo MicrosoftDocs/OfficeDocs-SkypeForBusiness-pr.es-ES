@@ -18,18 +18,19 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15e84c6e5d7d205910be982eb0688143cd14abfa
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.openlocfilehash: 0358e23f4f549aba6064a78d95f7ce160bb738b0
+ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131228"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43174962"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introducción a Microsoft Teams para el aprendizaje remoto
 
 > [!NOTE]
-> Este artículo es un gran recurso para preparar a su escuela para el aprendizaje remoto. Si es un educador o un coordinador escolar, estos recursos pueden ayudarle:
+> Este artículo es un gran recurso para preparar a su escuela para el aprendizaje remoto. Si es un formador, el responsable de una escuela o un profesional de TI, estos recursos pueden ayudarle:
 >
+> - Descargue [**Empezar a usar Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true): una guía para profesionales de TI con prácticas útiles para la administración de cambios y seguridad.
 > - Una colección de artículos para educadores incluyendo tutoriales detallados sobre [**los primeros pasos importantes para enseñar en Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - Un curso en línea de 1 hora en el Centro de Formación de Microsoft que muestra cómo los educadores usan Teams en el ámbito profesional educativo. [**Trasformar el aprendizaje con Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview)
 > - Un curso en línea de 1 hora en el Centro de Formación de Microsoft que demuestra a los educadores el uso de Teams para enseñar en clase. [**Crear un entorno de aprendizaje colaborativo con Teams en clase**](https://education.microsoft.com/course/b1e15cfc/overview).
