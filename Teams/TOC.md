@@ -95,7 +95,6 @@
 ### [Administrar la configuración de Teams de su organización](enable-features-office-365.md)
 ### [Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 ### [Administrar equipos en el Centro de administración de Microsoft Teams](manage-teams-in-modern-portal.md)
-### [Administrar la versión gratuita de Microsoft Teams](manage-freemium.md)
 ### [Asignar miembros y propietarios de equipo en Teams](assign-roles-permissions.md)
 ### [Editar la configuración de usuario de Teams de forma masiva](edit-user-settings-in-bulk.md)
 ### [Asignar directivas a los usuarios](assign-policies.md)
@@ -123,6 +122,7 @@
 <!-- ============================================================ -->
 
 # Reuniones y conferencias
+## [Inicio rápido: reuniones y eventos en vivo](quick-start-meetings-live-events.md)
 ## [Planear la implementación](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Reuniones en Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Administrar directivas de reunión](meeting-policies-in-teams.md)
@@ -291,6 +291,16 @@
 #### [Planear desvío de medios con enrutamiento directo](direct-routing-plan-media-bypass.md)
 #### [Configurar el desvío de medios con enrutamiento directo](direct-routing-configure-media-bypass.md)
 
+### Optimización de los medios locales para el enrutamiento directo
+#### [ Plan para la optimización de los medios locales ](direct-routing-media-optimization.md)
+#### [Configurar la optimización de los medios locales ](direct-routing-media-optimization-configure.md)
+
+### Supervisar y solucionar problemas de enrutamiento directo
+#### [Información general](direct-routing-monitor-and-troubleshoot.md)
+#### [Panel de estado](direct-routing-health-dashboard.md)
+### [Cuentas de usuario en un entorno híbrido con conectividad RTC](direct-routing-user-accounts-in-a-hybrid-environment.md)
+
+### [Migrar a enrutamiento directo](direct-routing-migrating.md)
 
 ### Referencia técnica para enrutamiento directo
 #### [Conmutación por error de tronco en llamadas salientes](direct-routing-trunk-failover-on-outbound-call.md)
@@ -649,17 +659,18 @@
 
 # Seguridad y cumplimiento
 ## [Información general](security-compliance-overview.md)
+## [Ubicación de los datos en Teams](location-of-data-in-teams.md)
 ## Seguridad
 ### [Guía de seguridad](teams-security-guide.md)
 ### [Modelos de identidad y autenticación](identify-models-authentication.md)
 ### [Iniciar sesión en Microsoft Teams con la autenticación moderna](sign-in-teams.md)
+### [Vínculos seguros en Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## Cumplimiento
 ### [Barreras de información](information-barriers-in-teams.md)
 ### [Directivas de retención](retention-policies.md)
 ### [Prevención de pérdida de datos](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
 #### [Realizar una investigación de eDiscovery del contenido](ediscovery-investigation.md)
-#### [Ubicación de los datos en Teams](location-of-data-in-teams.md)
 #### [Poner a un usuario o un equipo de Teams en retención legal](legal-hold.md)
 ### Búsqueda de contenido
 #### [Usar búsqueda de contenido](content-search.md)
@@ -741,6 +752,7 @@
 ### [Administrar la oferta de prueba de Office 365 G1](g1-trial-license.md)
 ### [Administrar la oferta de prueba comercial de Teams](iw-trial-teams.md)
 ### [Administrar la experiencia exploratorias de los Teams](teams-exploratory.md)
+### [Administrar la versión gratuita de Microsoft Teams](manage-freemium.md)
 ### [Actualizar Microsoft Teams gratis a la versión de suscripción de Office 365](upgrade-freemium.md)
 ### [Licencias de directivas de mensajería](teams-add-on-licensing/pri-message.md)
 ### [Licencia de usuario virtual](teams-add-on-licensing/virtual-user.md)
