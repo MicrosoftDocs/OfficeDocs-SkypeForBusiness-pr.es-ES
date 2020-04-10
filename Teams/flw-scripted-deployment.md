@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: caecd0d97e760470604fa164e6356a59699e57ad
-ms.sourcegitcommit: bc1d2e0478a429f981b53765e6194443b32ae35c
+ms.openlocfilehash: 2496656437ddcd7035b9913781c5ebc08b26582e
+ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43122924"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207069"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Cómo proporcionar Teams a escala para Firstline Workers
 
@@ -37,6 +37,9 @@ En este tutorial, aprenderá cómo hacerlo:
 - Cree directivas de mensajería, directivas de configuración de aplicaciones y directivas de permisos de aplicación apropiados.
 - Aplique estas directivas a los usuarios en escala.
 - Asigne un gran número de usuarios a un equipo designado.
+
+> [!NOTE]
+> Si ha revisado esta información y siente que necesita ayuda o tiene algunas preguntas, puede [**hacer clic aquí**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMDv-1voW9MqL7zkQ11DzBUREZaU1E0WEk5T0NYS0NDSkFMSDROUUdYMC4u) para ponerse en contacto con el servicio de guante blanco.
 
 ## <a name="prerequisites"></a>Requisitos previos
 

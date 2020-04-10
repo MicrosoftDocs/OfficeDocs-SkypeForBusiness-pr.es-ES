@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0223d3a29c704b5ab55d2183fd6587c845b351c
-ms.sourcegitcommit: 273d7565ad350bf97dbf035f148fd48b1cb04d4f
+ms.openlocfilehash: faeca9f05e13b9f5e7960340f280dc4bd6c7ee61
+ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43194860"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207059"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introducción a Microsoft Teams para el aprendizaje remoto
 
@@ -73,6 +73,8 @@ Los alumnos y los formadores podrán sacar el máximo partido a Teams cuando pue
 
 Los clientes de educación superior se benefician al permitir que todos los usuarios, incluidos los alumnos, creen equipos para las clases, la investigación, los proyectos de grupo y los grupos de estudio. Las escuelas primarias y secundarias pueden impedir que los alumnos creen equipos para asegurarse de que todas las comunicaciones entre alumnos se realicen dentro de un foro en el que se incluya un adulto. En este caso, se puede restringir la creación de grupos de Office 365 y Teams a todos los formadores y miembros del personal.
 
+Para obtener un tutorial sobre cómo crear Equipos, consulte: [Crear un equipo de clases en Microsoft Teams](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b).
+
 ### <a name="2-configure-user-experiences-using-policies"></a>2. Configurar experiencias de usuario mediante directivas
 
 [Las directivas de Teams](teams-policies.md) ofrecen la posibilidad de controlar las opciones disponibles para determinados usuarios o grupos de usuarios. Las directivas se pueden aplicar para definir los usuarios a los que se les permite usar chat privado, llamadas privadas, programación de reuniones, tipos de contenido que se puede compartir y mucho más.
@@ -102,6 +104,10 @@ Aquí tiene un conjunto de configuraciones comunes, no predeterminadas, de direc
 - Permitir la programación de reuniones de canal en "desactivado"
 - Permitir la programación de reuniones privadas en "desactivado"
 - Permitir la opción Reunirse ahora en reuniones privadas en "desactivado"
+- Opcional: permitir vídeo IP establecido en "activado"
+
+> [!NOTE]
+> Esto permite que los educadores puedan ver los vídeos de los alumnos en tiempo real.
 
 #### <a name="live-events-policy"></a>Directiva de eventos en directo
 
@@ -150,6 +156,8 @@ Puede obtener más información sobre cómo usar Teams para la educación en: [M
 
 > [!NOTE]
 > Algunas características clave de Teams no son específicas para el ámbito educativo. Se pueden encontrar sugerencias y trucos para las principales funciones de Teams en: [Ayuda y aprendizaje de Teams](https://support.office.com/teams).
+
+Si desea obtener más información sobre cómo proteger a los alumnos durante las reuniones, puede consultar [Mantener a los alumnos a salvo mientras usan reuniones en Teams para la formación a distancia](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
 
 ### <a name="prevent-users-from-changing-their-profile-photo"></a>Impedir que los usuarios cambien su foto de perfil
 
