@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66ef35a8a8235507e4d87a7b9c4da7625a939770
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: f45c83e765bcc10d81ff9cab6fb70b8c7d027ad0
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207009"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227414"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Seguridad y cumplimiento en Microsoft Teams
 
@@ -66,7 +66,11 @@ Cómo se administra el contenido afectado después de la detección se correspon
 
 ### <a name="safe-links"></a>Vínculos seguros
 
-Mientras, en este momento, los vínculos seguros ATP no están disponibles en Microsoft Teams, ya que se encuentran en la versión preliminar pública a través de nuestro programa de adopción de tecnología (TAP) y si bien no se ha establecido una fecha de lanzamiento para la disponibilidad general, Actualizaremos este artículo cuando llegue ese momento. Mientras tanto, para obtener información sobre vínculos seguros de Office 365, consulte los [vínculos seguros de office 365 ATP](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection).
+Si bien, en este momento, los vínculos seguros de protección contra amenazas avanzada (ATP) no están disponibles en Microsoft Teams, ahora se encuentran en la [versión preliminar pública](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide) a través del programa de adopción de tecnología (TAP), y si bien no se establece una fecha de lanzamiento para la disponibilidad general, Actualizaremos este artículo cuando llegue ese momento. Mientras tanto, para obtener información sobre vínculos seguros de Office 365, consulte los [vínculos seguros de office 365 ATP](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection). Los vínculos seguros ATP están disponibles tanto en el plan [1 de ATP como en el plan ATP 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide).
+
+### <a name="safe-attachments"></a>Datos adjuntos seguros
+
+Los datos adjuntos seguros son una característica diseñada para mejorar la seguridad del usuario mediante la comprobación de datos adjuntos maliciosos y detectados. Los administradores globales o de seguridad crean [directivas](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) para controlar estos datos adjuntos maliciosos con el fin de evitar que se envíen a los usuarios, haga clic en ellos y se los refieran. Protección de datos adjuntos seguros está disponible en SharePoint Online, OneDrive para la empresa y Microsoft Teams, y tanto el [plan 1 como el 2 de la protección contra amenazas avanzada de](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) Office 365 tienen esta capacidad. Obtenga más información sobre datos adjuntos seguros y cómo pueden ayudarle a proteger su organización [aquí](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide).
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>Cómo funcionan las directivas de acceso condicional para Teams
 

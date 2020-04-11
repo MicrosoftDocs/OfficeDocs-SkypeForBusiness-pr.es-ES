@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: En este artículo se describen las mejoras acumulativas de las salas de Microsoft Teams.
-ms.openlocfilehash: 7a411c8a94379c71226c4c5e593968a8ba65eb53
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: a79f9c4087be638de5c978eda2a8cf1d12fc1ed4
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157774"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227524"
 ---
 # <a name="release-notes"></a>Notas de la versión
 
@@ -69,7 +69,6 @@ Introdujo en esta actualización:
 - Compatibilidad con llamadas de emergencia dinámicas para equipos (componentes de servicio necesarios y lanzados con el cliente de Teams)
 - Posibilidad de deshabilitar el contenido duplicado para mostrar dos salas de presentación con XML
 - Pantalla de bienvenida de la aplicación
-- Configuración de respuesta automática para mejorar la experiencia de unirse a la reunión basada en la proximidad 
 - Avisos de software de código abierto (OSS) en la configuración de dispositivo
 - Corrección para la conectividad de PSOM cuando TLS 1,0 y TLS 1,1 están deshabilitados en Skype empresarial Server 2015/2019.
 

@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenga información general sobre qué son los pedidos de los puertos y cómo transferir números de teléfono de su proveedor de servicios a teams.
-ms.openlocfilehash: 7d92c76c62405efbffaff378b2045195c175d867
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 0102adfd53dba3ff455ddbdbc3678e625fd978de
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827948"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227544"
 ---
 # <a name="whats-a-port-order"></a>¿Qué es un pedido de portabilidad?
 
@@ -35,7 +35,9 @@ Revise la información de este artículo para familiarizarse con la portabilidad
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>¿Qué países o regiones son compatibles con la portabilidad de números?
 
-Puede trasladar o transferir números de teléfono en todos los países o regiones admitidos, pero la forma en que envía una solicitud de portabilidad depende del país o de la región de donde provienen los números de teléfono. Para obtener una lista de países y regiones que admitan portabilidad de números, consulte [administrar números de teléfono de su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Puede trasladar o transferir números de teléfono en todos los países o regiones admitidos, pero la forma en que envía una solicitud de portabilidad depende del país o de la región de donde provienen los números de teléfono. Para obtener una lista de países y regiones que admitan portabilidad de números, consulte [administrar números de teléfono de su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).  
+
+En la actualidad, [el Asistente para la migración](transfer-phone-numbers-to-teams.md) del centro de administración de Microsoft Teams admite la obtención de números de teléfono para el Reino Unido, Estados Unidos y Canadá. Para obtener números de teléfono para otros países y regiones, puede [enviar manualmente una solicitud de portabilidad](manually-submit-port-order.md).
   
 ## <a name="what-numbers-can-be-transferred"></a>¿Qué números se pueden transferir?
 

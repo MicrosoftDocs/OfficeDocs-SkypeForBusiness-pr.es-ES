@@ -18,12 +18,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar el Asistente para migración para transferir su número de teléfono de su proveedor de servicios actual a Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 07368b6dfd05567eac4eac66614560b6ecc9d2b4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a13e08a569c34f8182997bb438e997d8caee2ae7
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137870"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227534"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de teléfono a Microsoft Teams
 
@@ -39,7 +39,7 @@ Antes de empezar, le recomendamos que revise la información en [¿Qué es un pe
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Crear una solicitud de portabilidad y transferir los números de teléfono a teams
 
 > [!NOTE]
-> **En este momento, puede usar este asistente para obtener números de teléfono para el Reino Unido y Canadá**. Para obtener números de teléfono para otros países y regiones, puede [enviar manualmente una solicitud de portabilidad](manually-submit-port-order.md). Para obtener el formulario necesario para enviar manualmente una solicitud de portabilidad, seleccione su país o región en la lista desplegable [administrar los números de teléfono de su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+> **En este momento, puede usar este asistente para obtener números de teléfono para el Reino Unido, Estados Unidos y Canadá**. Para obtener números de teléfono para otros países y regiones, puede [enviar manualmente una solicitud de portabilidad](manually-submit-port-order.md). Para obtener el formulario necesario para enviar manualmente una solicitud de portabilidad, seleccione su país o región en la lista desplegable [administrar los números de teléfono de su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**números de teléfono**de **voz** > . Haga clic en **números**y, a continuación, haga clic en **Puerto** para iniciar el Asistente para la migración.
 2. Revise la información de la **Página INTRODUCCIÓN** y, después, cuando esté listo, haga clic en **siguiente**.

@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fd871f36c2261dd5ec243dbd8dbdd52a3a8e694
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: 3d7b2dec3b4077ddfb06035a2d7069b04c789db1
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962089"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209452"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -121,8 +121,6 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 |Periódica sin hora de finalización     |Hora de inicio + 60 días         |60 días         |
 |Periódica con hora de finalización     |Hora de finalización de la última repetición + 60 días         |60 días         |
 
-
-
 ## <a name="teams-live-events"></a>Eventos en directo en Teams
 
 |Característica     | Límite máximo |
@@ -156,6 +154,15 @@ Ya que Teams se ejecuta en un back-end de SharePoint Online para compartir archi
 Las copias de seguridad de los canales se encuentran en carpetas dentro de la colección de sitios de SharePoint Online que se creó para el equipo, por lo que las pestañas de archivo de los canales comparten los límites de almacenamiento del equipo al que pertenecen.
 
 Para obtener más información, vea [Límites de SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
+
+## <a name="tags"></a>Etiquetas
+
+|Característica  |Límite máximo  |
+|---------|---------|
+|Número de etiquetas por equipo    | 100        |
+|Número de etiquetas predeterminadas sugeridas por equipo    | 25        |
+|Número de miembros del equipo que se asignan a una etiqueta    |100         |
+|Número de etiquetas asignadas a un usuario    |25         |
 
 ## <a name="contacts"></a>Contactos
 

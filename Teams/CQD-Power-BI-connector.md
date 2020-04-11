@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar el conector de Power BI para usar plantillas de consulta de CQD
-ms.openlocfilehash: 73f19ef893aebbbd2c6ab9b79946097d6a834c36
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: ad76c2f4378a1f639abf98d115e4700fae7796c5
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106697"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227554"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar el conector de Power BI para usar plantillas de consulta de CQD
 
@@ -75,7 +75,8 @@ Una vez completada la configuración, debe ver los nombres de varios cientos de 
 
     ![Captura de pantalla: conector de Power BI](media/CQD-power-bi-connector4.png)
 
-**Nota importante:** El panel de calidad de llamadas requiere una medida para que se ejecute cualquier consulta. Si no se agrega una medida a una consulta, se producirá un error en la consulta.
+    > [!IMPORTANT] 
+    > El panel de calidad de llamadas requiere una medida para que se ejecute cualquier consulta. Si no se agrega una medida a una consulta, se producirá un error en la consulta.
 
 3.  A continuación, seleccione las dimensiones que desee filtrar y arrástrelas a los *filtros de este campo visual* en el panel *filtros* . El conector de Power BI del CQD es compatible actualmente con el *Filtrado básico* (seleccione valores de una lista de valores de dimensión posibles), *filtrado avanzado* (especifique manualmente valores y operandos para filtrar, similar al CQD avanzado) y *filtrado de fecha relativo* (solo disponible para la *hora de finalización* y las dimensiones de la *hora de inicio* ). El CQD no admite el filtrado según *N superior* .
 
@@ -83,7 +84,8 @@ Una vez completada la configuración, debe ver los nombres de varios cientos de 
 
 4.  Por último, seleccione la pestaña *formato* en el panel de *visualizaciones* para formatear y aplicar formato a la consulta.
 
-**Nota:** Las consultas de CQD requieren al menos una medida para poder ejecutarse. Si la consulta no se carga, vuelva a comprobar que ha incluido una medida en la consulta.
+    > [!NOTE]
+    > Las consultas de CQD requieren al menos una medida para poder ejecutarse. Si la consulta no se carga, vuelva a comprobar que ha incluido una medida en la consulta.
 
 ## <a name="creating-a-drillthrough-report"></a>Crear un informe de obtención de detalles
 
@@ -100,6 +102,10 @@ La [obtención de detalles en Power BI](https://docs.microsoft.com/power-bi/desk
     ![Captura de pantalla: conector de Power BI](media/CQD-power-bi-connector7.png)
 
 A diferencia del CQD avanzado, Power BI admite obtención de detalles no secuencial. Siempre que una consulta incluya la dimensión necesaria, puede obtener detalles en cualquier otra página.
+
+### <a name="best-practice"></a>Procedimiento recomendado
+
+Las consultas de los conectores de calidad de llamadas deben diseñarse teniendo en cuenta la funcionalidad de obtención de detalles. En lugar de intentar cargar todos los datos a la vez, y después dividirlos con filtros, comience con consultas más amplias y económicas, y profundice hasta consultas de cardinalidad alta. Por ejemplo, al intentar diagnosticar qué subredes contribuyen a problemas de calidad, es útil identificar primero las regiones y los países que contribuyen al problema, y luego desglosar las subredes de esa región o país. Las plantillas de conector de calidad de llamadas se han diseñado de esta manera para actuar como ejemplo.
 
 ## <a name="limitations"></a>Algunas
 
@@ -143,7 +149,7 @@ Si encuentra errores adicionales fuera de este ámbito, notifíquelo al equipo d
 
 ## <a name="footnotes"></a>Notas al pie
 
-**<sup>1</sup>** algunos procesos y aplicaciones (por ejemplo, OneDrive) pueden provocar que cambie la carpeta raíz de documentos; Asegúrese de que el directorio de los *conectores personalizados de Power BI Desktop\\* se coloca dentro de la carpeta raíz de documentos de la carpeta raíz.
+**<sup>1</sup>** algunos procesos y aplicaciones (por ejemplo, OneDrive) pueden hacer que cambie la carpeta raíz de documentos; Asegúrese de que el directorio de los *conectores personalizados de Power BI Desktop\\* se coloca dentro de la carpeta raíz de documentos de la carpeta raíz.
 
 **<sup>2</sup>** las credenciales de inicio de sesión que usa para el CQD *no* necesitan ser las mismas que usas para iniciar sesión en la aplicación de escritorio de Power BI en sí.
 

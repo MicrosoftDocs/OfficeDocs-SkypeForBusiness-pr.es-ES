@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el buzón de voz en la nube para sus usuarios. '
-ms.openlocfilehash: 5f975eac51cf3787ac5a1dde9b76b80b0912478d
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: dc771847db8dca52d22b4c1db1b8ae585b99f8e4
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190835"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227504"
 ---
 # <a name="set-up-cloud-voicemail"></a>Planear el Correo de voz en la nube
 
@@ -120,6 +120,12 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 > [!IMPORTANT]
 > El servicio de correo de voz de Office 365 almacena en caché las directivas de correo de voz y actualiza la memoria caché cada 4 horas. Por lo tanto, los cambios de las directivas que realice pueden tardar hasta 4 horas en aplicarse.
+
+## <a name="help-your-users-learn-teams-voicemail-features"></a>Ayudar a los usuarios a aprender las características del buzón de voz
+
+Tenemos la siguiente información para los usuarios sobre la administración de la configuración del buzón de voz, así como otras características de llamadas en Teams:
+
+- [Administre la configuración de llamadas en Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f). En este artículo se explica cómo administrar todas las características de las llamadas de los equipos de los usuarios finales. 
 
 ## <a name="help-your-users-learn-skype-for-business-voicemail-features"></a>Ayudar a los usuarios a aprender acerca de las características del correo de voz de Skype Empresarial
 
