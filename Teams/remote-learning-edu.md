@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: faeca9f05e13b9f5e7960340f280dc4bd6c7ee61
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: a6b89b9c5645c89be54507cf33657a720e27d4b5
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207059"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227514"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introducción a Microsoft Teams para el aprendizaje remoto
 
@@ -84,7 +84,7 @@ Para obtener un tutorial sobre cómo crear Equipos, consulte: [Crear un equipo d
 Es posible que se deban restringir funciones a los **alumnos de primaria y secundaria**. Las directivas establecen límites para lo que pueden hacer los alumnos. Dado que la población de alumnos es, por lo general, el conjunto más grande de usuarios y a menudo recibe la configuración más restrictiva, se recomienda que se realicen cambios a la directiva "Global (configuración predeterminada para toda la organización)".
 
 > [!IMPORTANT]
-> Para las directivas de reunión asignadas a todos los usuarios, se recomienda configurar la opción "administrar automáticamente personas" para todos los usuarios de su organización. Esta configuración garantiza que los usuarios no autenticados deben recibirse en la sala de espera para que puedan unirse a reuniones de Teams. Para obtener más información, consulte [administrar directivas de reunión de Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
+> Para las directivas de reunión asignadas a usuarios, recomendamos configurar la opción "Admitir personas automáticamente" a "Todos los usuarios de su organización". Esta configuración asegurará que los usuarios no autenticados deban ser admitidos desde la sala de espera antes de que puedan unirse a reuniones de Teams. Para obtener más información, consulte [administrar directivas de reunión de Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
 
 Aquí tiene un conjunto de configuraciones comunes, no predeterminadas, de directivas que se asignan a los alumnos de primaria y secundaria para limitar la comunicación sin moderador entre alumnos:
 
