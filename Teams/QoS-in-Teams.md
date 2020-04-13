@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 545cbc1d170f6b511de5e8d21a237bc893ee0702
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5bbb66b99a061648c4c12b7611fc7054a4044c6f
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43138040"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237893"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar calidad de servicio (QoS) en Microsoft Teams
 
@@ -78,7 +78,7 @@ Una analogía simple es que QoS crea "carriles de autousos" virtuales en su red 
 
 ## <a name="select-a-qos-implementation-method"></a>Seleccione un método de implementación de QoS
 
-Puede implementar QoS mediante el etiquetado basado en el puerto, mediante listas de control de acceso (ACL) en los enrutadores de su red. El etiquetado basado en puertos es el método más confiable porque funciona en entornos Windows y Mac mixtos y es el más fácil de implementar. Los clientes móviles no proporcionan un mecanismo para marcar el tráfico mediante valores de DSCP, por lo que necesitarán este método.  
+Puede implementar QoS mediante el etiquetado basado en el puerto, mediante listas de control de acceso (ACL) en los enrutadores de su red. El etiquetado basado en puertos es el método más confiable porque funciona en entornos mixtos de Windows, Mac y Linux y es la más fácil de implementar. Los clientes móviles no proporcionan un mecanismo para marcar el tráfico mediante valores de DSCP, por lo que necesitarán este método.  
 
 Con este método, el enrutador de la red examina un paquete entrante y, si el paquete llegó usando un determinado puerto o intervalo de puertos, lo identifica como un tipo de medio determinado y lo coloca en la cola para ese tipo, agregando una marca de [DSCP](https://tools.ietf.org/html/rfc2474) predeterminada al encabezado del paquete IP para que otros dispositivos puedan reconocer su tipo de tráfico y darle prioridad a su cola.
 

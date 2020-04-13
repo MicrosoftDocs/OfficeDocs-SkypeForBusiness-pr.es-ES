@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 621bb6328ab4ea59caa18d27fe7196a25ee15157
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: f8f142e48c005b14fc265d7efe6d4413b3c5f44c
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174922"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237943"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Prácticas recomendadas para organizar equipos en Microsoft Teams
 ======================================================
@@ -31,7 +31,10 @@ Teams es la colección de personas que se reúnen en torno a un objetivo común.
 
 Antes de crear un equipo, piense en la meta, el proyecto o los elementos de trabajo y en quiénes de su organización pueden ayudar a llevarlo a cabo en colaboración. Una vez que los hayas identificado, añade estas personas o grupos a un equipo para empezar a colaborar. Debido a que la membresía puede cambiar con el tiempo, es una buena idea designar múltiples propietarios para cada equipo. Para más información, consulte[Administración de equipos](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
-La lista de [reproducción de vídeo](https://www.youtube.com/playlist?list=PLXPr7gfUMmKwYKFSqoPN-aHQppI7rRQLf) de Microsoft Teams proporciona más información para crear y administrar equipos.
+
+Echa un vistazo a este breve vídeo para ver algunos ejemplos de cómo estructurar equipos de organización cruzada o de propósito único:
+
+> [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 ## <a name="add-teams-gradually"></a>Agregue equipos gradualmente
 
