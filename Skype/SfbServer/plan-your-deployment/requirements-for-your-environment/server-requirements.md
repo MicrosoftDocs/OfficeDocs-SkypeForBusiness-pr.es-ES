@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Resumen: Prepare los servidores de Skype empresarial Server 2015 con este tema. Hardware, so, bases de datos, software, todos los requisitos y recomendaciones del sistema están aquí para ayudar a garantizar una instalación y una implementación correctas de la granja de servidores.'
-ms.openlocfilehash: 9cc063a44924bd6080525ca7a751bd1a3356666c
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: 53ce5d464b9faea14ca6970f85b3f937af8238e2
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572798"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237953"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Requisitos de servidor para Skype empresarial Server 2015
  
@@ -47,20 +47,20 @@ Ahora que tiene la topología desactivada (y, si no es así, consulte el tema so
   
 Hardware recomendado para los servidores front-end, los servidores back-end, los servidores Standard Edition y los servidores de chat persistente:
   
-|**Componente de hardware**|**Recomenda**|
+|**Componente de hardware**|**Recomendada**|
 |:-----|:-----|
 |CPU  <br/> |procesador dual de 64 bits, HEX-Core, 2,26 gigahercios (GHz) o superior.  <br/> Los procesadores Intel Itanium no son compatibles con los roles de Skype empresarial Server 2015.  <br/> |
 |Memoria  <br/> |32 gigabytes (GB).  <br/> |
-|Disco  <br/> |NI  <br/> • 8 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (dos de los discos que usan RAID 1 y 6 con RAID 10).  <br/> O BIEN  <br/> • Unidades de estado sólido (SSDs) capaces de proporcionar el mismo espacio libre y un rendimiento similar a las unidades de disco mecánicas de 8 10000 RPM.  <br/> |
+|Disco  <br/> |NI  <br/> • 8 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (dos de los discos que usan RAID 1 y 6 con RAID 10).  <br/> O  <br/> • Unidades de estado sólido (SSDs) capaces de proporcionar el mismo espacio libre y un rendimiento similar a las unidades de disco mecánicas de 8 10000 RPM.  <br/> |
 |Red  <br/> |1 adaptador de red de puerto dual, 1 Gbps o superior (se pueden usar 2 adaptadores de red, pero deben estar en un equipo con una sola dirección MAC y una sola dirección IP).  <br/> **No** se admiten las configuraciones dual o multitarjeta para los servidores front-end, los servidores back-end, los servidores Standard Edition y los servidores de chat persistente. <br/> Siempre que no se expongan al sistema operativo y se usen para supervisar y administrar el hardware del servidor, puede tener sistemas de administración fuera de banda, como DRAC o ILO. Este escenario no constituye un servidor de host múltiple y es compatible.  <br/> |
    
 Hardware recomendado para los servidores perimetrales, los servidores de mediación independientes, los servidores de interoperabilidad de vídeo y los directores:
   
-|**Componente de hardware**|**Recomenda**|
+|**Componente de hardware**|**Recomendada**|
 |:-----|:-----|
 |CPU  <br/> |procesador dual de 64 bits, cuatro núcleos, 2,26 gigahercios (GHz) o superior.  <br/> Los procesadores Intel Itanium no son compatibles con los roles de Skype empresarial Server 2015.  <br/> |
 |Memoria  <br/> |16 gigabytes.  <br/> |
-|Disco  <br/> |NI  <br/> • 4 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (los discos deben estar en una configuración de 2 unidades RAID 1).  <br/> O BIEN  <br/> • Unidades de estado sólido (SSDs) capaces de proporcionar el mismo espacio libre y un rendimiento similar a las unidades de disco mecánicas de 4 10000 RPM.  <br/> |
+|Disco  <br/> |NI  <br/> • 4 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (los discos deben estar en una configuración de 2 unidades RAID 1).  <br/> O  <br/> • Unidades de estado sólido (SSDs) capaces de proporcionar el mismo espacio libre y un rendimiento similar a las unidades de disco mecánicas de 4 10000 RPM.  <br/> |
 |Red  <br/> |1 adaptador de red de puerto dual, 1 Gbps o superior (se pueden usar 2 adaptadores de red, pero deben estar en un equipo con una sola dirección MAC y una sola dirección IP).  <br/> Las configuraciones dual o multitarjeta **no** son compatibles con los directores y los servidores de interoperabilidad de vídeo. <br/> Los servidores perimetrales requerirán dos interfaces de red que sean adaptadores de red de puerto dual, 1 Gbps o superior (o dos adaptadores de red emparejados, para un total de cuatro, cada par se integra con una sola dirección MAC y una sola dirección IP, para un total de dos pares).  <br/> En los servidores de mediación independientes, se admite la instalación de tarjetas de interfaz de red (NIC) adicionales para permitir la configuración de una dirección IP de RTC específica.  <br/> |
    
 ## <a name="operating-systems-for-skype-for-business-server-2015"></a>Sistemas operativos para Skype empresarial Server 2015
@@ -74,7 +74,10 @@ Una vez que tenga el hardware en su ubicación, deberá instalar sistemas operat
 |Sistema operativo Windows Server 2012 R2 Datacenter con todas las actualizaciones necesarias instaladas.  <br/> |Sistema operativo Windows Server 2012 R2 Standard con todas las actualizaciones necesarias instaladas.  <br/> |
 |Sistema operativo Windows Server 2012 Datacenter con todas las actualizaciones necesarias instaladas.  <br/> |Sistema operativo Windows Server 2012 Standard con todas las actualizaciones necesarias instaladas.  <br/> |
    
-Si no está en esta lista, no funcionará correctamente; no lo intente para las nuevas instalaciones de Skype empresarial Server 2015. Tenga en cuenta que la actualización en el lugar del sistema operativo no es compatible con Lync Server 2013.  Debe implementar un grupo independiente y migrar los usuarios al nuevo grupo con un sistema operativo diferente.
+Si no está en esta lista, no funcionará correctamente; no lo intente para las nuevas instalaciones de Skype empresarial Server 2015.
+
+> [!NOTE]
+> La actualización en el lugar del sistema operativo no es compatible con Lync Server 2013. Debe implementar un grupo independiente y migrar los usuarios al nuevo grupo con un sistema operativo diferente. Todos los servidores de un grupo deben tener la misma versión del sistema operativo.
   
 > [!NOTE]
 > Es posible que haya observado que Windows Server 2008 R2 no está en esta lista. Esto se debe a que recomendamos que Windows Server 2012 R2 para todos los servidores nuevos que se usen para SFB. Solo debe usar Windows Server 2008 R2 si tiene servidores existentes con Lync Server 2013 ya instalado y está intentando realizar una actualización en el mismo punto de los mismos. Windows Server 2008 R2 llegó al final del ciclo de vida de soporte técnico estándar el 1/13/2015 y llegará al final de su ciclo de vida de soporte técnico el 1/14/2020.
@@ -268,6 +271,6 @@ Message Queue Server, que también se denomina MSMQ. Es un componente de Windows
   
  **Últimos Comentarios:**
   
-No instale ningún software de cliente de Microsoft Internet Security and Acceleration (ISA) Server o cualquier otro software de proveedores de servicios por niveles (LSP) Winsock (los firewalls de terceros o el software de inspección de red antivirus se incluir? aquí) en cualquiera de los servidores front-end o servidores de mediación independientes. Se ha observado un rendimiento deficiente del tráfico de medios cuando se instala el software.
+No instale ningún software de cliente de Microsoft Internet Security and Acceleration (ISA) Server o cualquier otro software de proveedores de servicios por niveles (LSP) Winsock (los firewalls de terceros o el software de inspección de red antivirus) se incluirá aquí en cualquiera de los servidores front-end o servidores de mediación independientes. Se ha observado un rendimiento deficiente del tráfico de medios cuando se instala el software.
   
 
