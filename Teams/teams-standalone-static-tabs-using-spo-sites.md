@@ -1,5 +1,5 @@
 ---
-title: Crear una aplicación de portal de intranet de Teams desde un sitio o página de SharePoint Online
+title: Crear una aplicación de portal de intranet de Teams desde un sitio o una página de SharePoint Online
 author: LanaChin
 ms.author: heidip
 manager: serdars
@@ -12,7 +12,7 @@ ms.collection:
 - remotework
 ms.reviewer: vinbel
 search.appverid: MET150
-description: Elija un sitio o página de SharePoint Online ya existente y cree una pestaña estática independiente que se puede usar como portal de intranet de su organización.
+description: Elija un sitio o una página de SharePoint Online ya existente y cree una pestaña estática independiente que se pueda usar como portal de intranet de su organización.
 localization_priority: Priority
 ms.openlocfilehash: 63527cb3cccc5f882f44ff39911d33270bafb4c8
 ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
@@ -21,11 +21,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/09/2020
 ms.locfileid: "43207079"
 ---
-# <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Crear una aplicación de portal de intranet de Teams desde un sitio o página de SharePoint Online
+# <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Crear una aplicación de portal de intranet de Teams desde un sitio o una página de SharePoint Online
 
 Siga los pasos de este artículo para crear una aplicación independiente y estática en Teams que se vincule al sitio de intranet de su organización.
 
-Se crea una *Aplicación personal de Teams* del sitio de intranet de SharePoint y se mostrará como una pestaña dentro de Teams. Esta pestaña puede contener información importante para todos los usuarios de Teams. Es una forma rápida y cómoda de que los usuarios de Teams tengan acceso a las actualizaciones con tan solo un clic en una pestaña.
+Se creará una *Aplicación personal de Teams* del sitio de intranet de SharePoint y se mostrará como una pestaña dentro de Teams. Esta pestaña puede contener información importante para todos los usuarios de Teams. Es una forma rápida y cómoda de que los usuarios de Teams tengan acceso a las actualizaciones con tan solo un clic en una pestaña.
 
 Tenga en cuenta que el proceso que se muestra **debe usar** un sitio o una página de SharePoint *modernos* para funcionar. Este proceso no está disponible para páginas y sitios *clásicos*.
 
@@ -36,17 +36,17 @@ Tenga en cuenta que el proceso que se muestra **debe usar** un sitio o una pági
 
 Antes de empezar:
 
-1. Tendrá que conocer la dirección URL de un sitio de grupo o de comunicación de SharePoint Online moderno, o de una página.
-    - Estos sitios siempre tendrán */teams/* o */sites/* en sus rutas de acceso.
+1. Tendrá que conocer la dirección URL de un sitio o una página de grupo o de comunicación de SharePoint Online moderno.
+    - Estos sitios siempre incluirán */teams/* o */sites/* en sus rutas de acceso.
 
 2. Tendrá que conocer el subdominio de su espacio empresarial, que se usará en el marcador de posición **{{subdomain}}**.
 
-3. Este artículo usará el marcador de posición **{{siteUrl}}** para la *dirección URL* del sitio o la página que ha elegido.
+3. Este artículo usará el marcador de posición **{{siteUrl}}** para la *dirección URL* del sitio o la página que haya elegido.
     - Ejemplo de *direcciones URL*:   https://contoso.sharepoint.com/teams/Contoso   *o* https://contoso.sharepoint.com/sites/Contoso
 4. Además, se usará **{{sitePath}}** para indicar la *ruta de acceso* de la dirección URL (ej.: /teams/Contoso).
     - Ejemplo de *rutas de acceso*:   /teams/Contoso   *o* /sites/Contoso
 
-En primer lugar, siga los pasos siguientes:
+En primer lugar, siga estos pasos:
 
 1. Vaya a la tienda de Teams.
 
@@ -56,7 +56,7 @@ En primer lugar, siga los pasos siguientes:
 
 4. Con App Studio abierto, haga clic en **Editor de manifiestos**.
 
-5. **Crear una nueva aplicación**.
+5. **Cree una nueva aplicación**.
 
 6. Rellene todos los **Detalles de la aplicación**.
 
@@ -81,7 +81,7 @@ En primer lugar, siga los pasos siguientes:
 
      Ejemplo:  **Id. de aplicación de AAD**: 00000003-0000-0ff1-ce00-000000000000  **Dirección URL de recurso**: {{subdomain}}.sharepoint.com
 
-    ![Inicio de sesión único de la aplicación web, con Identificador y dirección URL.](media/personal-app.png)
+    ![Realice el inicio de sesión único de la aplicación web, con id. y dirección URL.](media/personal-app.png)
 
 13. **Guarde** estas propiedades y, luego, desplácese hasta **Probar y distribuir**.
 
@@ -96,16 +96,16 @@ En primer lugar, siga los pasos siguientes:
 
 Para ver la nueva pestaña en el escritorio de Teams, desplácese hasta el signo de puntos suspensivos (**...**) en la parte izquierda de la barra de aplicaciones. Buque la nueva aplicación, cargue y pruebe la aplicación independiente en Teams.
 
-Si desea que la nueva aplicación esté disponible en el menú de la izquierda en una posición superior, debe usar una configuración de directiva de aplicaciones. Esta configuración se puede encontrar en la sección administrador de equipo > directiva de aplicaciones > agregar una aplicación anclada. Cuando asigna la directiva a un usuario para realizar pruebas, el cambio se mostrará 24 horas más tarde. Teniendo esto en cuenta, decida donde debería aparecer la aplicación lo antes posible para evitar retrasos.
+Si desea que la nueva aplicación esté disponible en el menú de la izquierda en una posición superior, debe usar una configuración de directiva de aplicaciones. Encontrará esta opción en la sección Administrador de equipo > directiva de aplicaciones > agregar una aplicación anclada. Cuando asigne la directiva a un usuario para realizar pruebas, el cambio se mostrará 24 horas más tarde. Teniendo esto en cuenta, decida lo antes posible donde debería aparecer la aplicación para evitar retrasos.
 
 Para ver y probar la nueva aplicación en un dispositivo móvil, abra el cajón de aplicaciones pulsando en la comilla angular (**^**) situada encima de la barra de pestañas de la parte inferior de la pantalla. Busque la aplicación y desplácese hasta ella en el dispositivo móvil.
 
 > [!CAUTION]
-> La compatibilidad móvil está actualmente como Vista previa para desarrolladores. Para habilitar Vista previa para desarrolladores, vaya a Configuración > Acerca de y, luego, habilite el modo Vista previa para desarrolladores.
+> La compatibilidad móvil está actualmente como Versión preliminar para desarrolladores. Para habilitar la Versión preliminar para desarrolladores, vaya a Configuración > Acerca de y, luego, habilite el modo Versión preliminar para desarrolladores.
 
 ## <a name="a-sample-manifestjson-file"></a>Ejemplo de archivo Manifest.JSON
 
-El archivo         JSO que genera tendrá un aspecto similar al siguiente.
+El archivo         JSO que genere tendrá un aspecto similar al siguiente.
 
 ```JSON'
 {
