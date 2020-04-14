@@ -18,18 +18,21 @@ localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a configurar canales para moderación en Microsoft Teams, lo que incluye cómo agregar miembros del equipo como moderadores de canales.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 128676bbe4ec27300013836425bf221e3de10f9b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6cdf6988afb9afbd91c2bfd19ed516c8e8fdf702
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136810"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240620"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Configurar y administrar la moderación de canales en Microsoft Teams
 
-En Microsoft Teams, los propietarios del equipo pueden activar la moderación de un canal para controlar quién puede iniciar publicaciones nuevas y responder a las entradas de ese canal.
+En Microsoft Teams, los propietarios del equipo pueden activar la moderación de un canal estándar para controlar quién puede iniciar publicaciones nuevas y responder a las entradas de ese canal.
 
 Los propietarios del equipo también pueden agregar miembros del equipo como moderadores. Es posible que el propietario de un equipo no tenga experiencia en el nivel de canal para mejorar la moderación del canal de soporte. Al permitir que los miembros del equipo sean moderadores de un canal, la responsabilidad de administrar el contenido y el contexto dentro de un canal se comparte entre los propietarios del equipo y los moderadores de los canales. Por ejemplo, el propietario de un equipo puede Agregar propietarios de negocios o propietarios de contenido como moderadores, lo que les permite controlar el uso compartido de información en ese canal.
+
+> [!NOTE]
+> En la actualidad, la moderación de canales está disponible para canales estándar. No está disponible para los canales privados.
 
 ## <a name="what-can-a-channel-moderator-do"></a>¿Qué puede hacer un moderador de canal?
 

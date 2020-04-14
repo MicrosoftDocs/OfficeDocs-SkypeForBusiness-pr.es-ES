@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: cde69bd588c7262e5ed6f0274b091fee29b27030
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
+ms.openlocfilehash: 2fd1b76b1aaed68cd0c9ce61fe6d6a408a2fd296
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574007"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240600"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -93,6 +93,7 @@ Diseñado para profesionales de ti y responsables de la toma de decisiones, las 
         </a>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -103,13 +104,14 @@ Diseñado para profesionales de ti y responsables de la toma de decisiones, las 
                     </div>
                     <div class="cardText">
                         <h3>Cómo habilitar Teams para la participación de trabajadores de los Firstline</h3>
-                        <p><font color="red"><i>¡Próximamente!</i></font> ¿Está listo para empezar a habilitar las áreas de trabajo digitales para su personal de los Firstline? Juntos, analizaremos los procedimientos recomendados para iniciar una prueba piloto y mejorar la comunicación, la contratación de empleados y la productividad operativa.</p>
+                        <p>¿Está listo para empezar a habilitar las áreas de trabajo digitales para su personal de los Firstline? Juntos, analizaremos los procedimientos recomendados para iniciar una prueba piloto y mejorar la comunicación, la contratación de empleados y la productividad operativa.</p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/ChalkTalksQuality"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -119,8 +121,8 @@ Diseñado para profesionales de ti y responsables de la toma de decisiones, las 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Descubra las novedades de Teams</h3>
-                        <p><font color="red"><i>¡Próximamente!</i></font>  ¿Ha estado esperando una característica para publicar en Teams? Venga a trabajar con expertos de Teams, ya que le guiaremos a través de las últimas y más importantes versiones del mes, junto con los procedimientos recomendados para implementarlas.</p>
+                        <h3>Cómo tomar el cargo de las experiencias de calidad de AV</h3>
+                        <p>¿Desea asegurarse de que los usuarios tienen experiencias óptimas con las reuniones y las capacidades de voz de Teams? Durante esta sesión, analizaremos las herramientas, los informes y los procedimientos recomendados para ayudarle a&mdash;administrar la calidad del servicio desde el establecimiento de una estrategia preventiva para resolver los problemas comunes a medida que surjan.</p>
                     </div>
                 </div>
             </div>

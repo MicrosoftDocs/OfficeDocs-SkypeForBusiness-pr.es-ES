@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a administrar el ciclo de vida de los canales privados de su organización.
-ms.openlocfilehash: 317cded1be30beac8fefbb579d5f0c24258f2fa1
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: 39830035ba91b2fa50c7d5bbd82e6da6e60d0f00
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637207"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240640"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Administrar el ciclo de vida de canales privados en Microsoft Teams
 
@@ -55,7 +55,7 @@ Como administrador, puede establecer directivas con el centro de administración
 
 Use directivas de Teams para establecer los usuarios de su organización que pueden crear canales privados. Para obtener más información, vea [Administrar directivas de Teams en Teams](teams-policies.md).
 
-### <a name="using-powershell"></a>Usar PowerShell
+### <a name="using-powershell"></a>Con PowerShell
 
 Use **CsTeamsChannelsPolicy** para establecer qué usuarios de su organización pueden crear canales privados. Establezca el parámetro **AllowPrivateChannelCreation** en **true** para permitir a los usuarios a quienes les asignan la Directiva crear canales privados. Establecer el parámetro en **false** desactiva la capacidad de crear canales privados para los usuarios que tienen asignada la Directiva.
 
@@ -65,7 +65,7 @@ Para obtener más información, vea [New-CsTeamsChannelsPolicy](https://docs.mic
 
 Como administrador, puede usar la API de PowerShell o Graph para crear un canal privado en nombre de un propietario del equipo. Por ejemplo, es posible que desee hacerlo si su organización desea centralizar la creación de canales privados.
 
-### <a name="using-powershell"></a>Usar PowerShell
+### <a name="using-powershell"></a>Con PowerShell
 
 ```PowerShell
 New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName “<Channel_Name>” –Owner <Owner_UPN>
@@ -95,11 +95,11 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>Buscar direcciones URL de SharePoint para todos los canales privados de un equipo
 
-Tanto si desea realizar una búsqueda de exhibición de sitios web o una retención legal en archivos de un canal privado o en crear una aplicación de línea de negocio que coloca los archivos en canales privados específicos, querrá una manera de consultar las colecciones de sitios de SharePoint exclusivas que se crean para cada canal privado.
+Tanto si está buscando realizar una retención legal o de exhibición de archivos en un canal privado como si quiere crear una aplicación de línea de negocio que coloca los archivos en canales privados específicos, querrá una manera de consultar las colecciones de sitios de SharePoint exclusivas que se crean para cada canal privado.
 
 Como administrador, puede usar los comandos de las API de PowerShell o Graph para consultar estas direcciones URL.
 
-### <a name="using-powershell"></a>Usar PowerShell
+### <a name="using-powershell"></a>Con PowerShell
 
 1. Instale y conéctese al [Shell de administración de SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) con su cuenta de administrador.
 2. Ejecute lo siguiente, donde &lt;group_id&gt; es el identificador de grupo del equipo. (Puede encontrar fácilmente el identificador de grupo en el vínculo al equipo).
@@ -182,7 +182,7 @@ Es posible que desee enumerar los propietarios y miembros de un canal privado pa
 
 Como administrador, puede usar los comandos de las API de PowerShell o Graph para consultar estas direcciones URL.
 
-### <a name="using-powershell"></a>Usar PowerShell
+### <a name="using-powershell"></a>Con PowerShell
 
 1. Ejecute lo siguiente, donde &lt;group_id&gt; es el identificador de grupo del equipo y &lt;channel_name&gt; es el nombre de canal.
 
@@ -271,7 +271,7 @@ Puede probar estos comandos en el [Explorador de gráficos](https://developer.mi
 
 ### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>Instale el módulo de PowerShell más reciente de la galería de pruebas de PowerShell
 
-La última versión disponible públicamente del módulo de PowerShell de Teams (actualmente [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) no admite la administración de canales privados. Siga estos pasos para instalar la última versión del módulo de PowerShell de Teams con compatibilidad de canal privado (actualmente 1.0.18) de la galería de pruebas de PowerShell.
+La última versión disponible públicamente del módulo de PowerShell de Teams (actualmente [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)) no admite la administración de canales privados. Siga estos pasos para instalar la última versión del módulo de PowerShell de Teams con compatibilidad de canal privado (actualmente 1.0.21) de la galería de pruebas de PowerShell.
 
 > [!NOTE]
 > No instale el módulo de Teams PowerShell desde la galería de pruebas de PowerShell en paralelo con una versión del módulo de la galería de PowerShell pública. Siga estos pasos para desinstalar primero el módulo de PowerShell de Teams de la galería de PowerShell pública y, a continuación, instale la última versión del módulo desde la galería de pruebas de PowerShell.
@@ -323,8 +323,8 @@ Si ya ha instalado el módulo de Teams PowerShell desde la galería de pruebas d
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Descripción de PowerShell para Teams](teams-powershell-overview.md)
-- [Usar la API de Microsoft Graph para trabajar con equipos](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+- [Información general de PowerShell para Teams](teams-powershell-overview.md)
+- [Usar la API de Microsoft Graph para trabajar con Microsoft Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
     - [Lista de canales](https://docs.microsoft.com/graph/api/channel-list)
     - [Crear canal](https://docs.microsoft.com/graph/api/channel-post)
     - [Agregar miembro al canal](https://docs.microsoft.com/graph/api/conversationmember-add)
