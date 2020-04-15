@@ -17,12 +17,12 @@ f1.keywords:
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d856962cf0fdb21d0dd58313b5ade6a9bab9d364
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 2a8775722daa5cd6fc236933fc0e0fd8bad1213a
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096625"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505537"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -296,13 +296,6 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |Número de teléfono bloqueado|Número de teléfono bloqueado: al eliminar la cuenta del recurso antes de quitar el número de teléfono, se bloquea el número de teléfono.|Póngase en contacto con el soporte técnico de Microsoft para liberar el número de teléfono.|18/05/2019|
-
-## <a name="presence"></a>Presence
-|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
-|:-----|:-----|:-----|:-----|
-|La presencia en la aplicación de Outlook, o en otras aplicaciones de Office, no se muestra después de que un usuario se mueva al modo **Teams solo**. <br/> |Si desinstala el cliente de Skype Empresarial después de mover un usuario al modo **Teams solo**, la presencia dejará de funcionar en Outlook y en otras aplicaciones de Office. La presencia funciona bien en Teams.  <br/> |Para ver la presencia en Outlook (y en otras aplicaciones de Office), debe tener instalado Skype Empresarial, incluso si está ejecutando Teams en modo **Teams solo**. Microsoft es consciente de este problema y está buscando una solución.   <br/> |9/2019  <br/> |
-
-
 
 ## <a name="provisioning"></a>Aprovisionamiento
 

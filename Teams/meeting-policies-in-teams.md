@@ -22,17 +22,17 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams.
-ms.openlocfilehash: 142152aaa0c47adea7f680b33fa4c9c59441e6eb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b87453fb24173ba648511f49efc82becb2616d70
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836480"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505637"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
 ::: zone target="docs"
-Las directivas de reunión se usan para controlar las características que están disponibles para los participantes de la reunión para las reuniones programadas por los usuarios de su organización. Después de crear una directiva y realizar los cambios, puede asignar usuarios a la Directiva. Las directivas de reunión se administran en el centro de administración de Microsoft Teams o mediante [PowerShell](teams-powershell-overview.md).
+Las Directivas de reunión se usan para controlar las características disponibles para sus participantes en reuniones programadas por usuarios de la organización. Después de crear una directiva y realizar los cambios, puede asignar usuarios a la directiva. Las directivas de reunión se administran en el centro de administración de Microsoft Teams o mediante [PowerShell](teams-powershell-overview.md).
 
 Puede implementar directivas de las siguientes maneras, que afectan a la experiencia de la reunión para los usuarios antes de que se inicie una reunión, durante una reunión o después de una reunión.
 
@@ -46,38 +46,38 @@ De forma predeterminada, se crea una directiva denominada global (opción predet
 
 ## <a name="change-or-create-a-meeting-policy"></a>Cambiar o crear una directiva de reunión
 
-Para cambiar o crear una directiva de reunión, vaya al centro de administración de Microsoft Teams >**las directivas de reunión**de **reuniones** > . Seleccione una directiva de la lista o seleccione **Agregar**. Si va a crear una nueva Directiva, agregue un nombre y una descripción. El nombre no puede contener caracteres especiales ni tener más de 64 caracteres. Elija la configuración y, a continuación, seleccione **Guardar**.
+Para cambiar o crear una directiva de reunión, vaya al Centro de administración de Microsoft Teams > **Reuniones** > **Directivas de reunión**. Seleccione una directiva de la lista o seleccione **Agregar**. Si está creando una nueva directiva, agregue un nombre y una descripción. El nombre no puede contener caracteres especiales ni tener más de 64 caracteres. Elija la configuración y, a continuación, seleccione **Guardar**.
 
-Por ejemplo, supongamos que tiene un conjunto de usuarios y quiere limitar la cantidad de ancho de banda que requeriría la reunión. Debe crear una nueva directiva personalizada denominada "ancho de banda limitado" y deshabilitar las siguientes opciones de configuración:
+Por ejemplo, supongamos que tiene un grupo de usuarios y quiere limitar el ancho de banda que necesitaría la reunión. Cree una nueva directiva personalizada denominada "ancho de banda limitado" y deshabilite las opciones siguientes:
 
-En **Audio & vídeo**:
-- Desactive permitir la grabación en la nube.
-- Desactive la opción permitir video IP.
+En **Audio y vídeo**:
+- Desactive Permitir la grabación en la nube.
+- Desactive Permitir vídeo IP.
 
-En **uso compartido de contenido**:
-- Desactiva el modo de pantalla compartida.
-- Desactive permitir pizarra.
-- Desactive la opción permitir notas compartidas.
+En **Uso compartido de contenido**:
+- Desactive el modo de uso compartido de la pantalla.
+- Desactive Permitir pizarra.
+- Desactive Permitir notas compartidas.
 
-A continuación, asigne la Directiva a los usuarios.
+Luego asigne la directiva a los usuarios:
 
 > [!NOTE]
 > A un usuario solo se le puede asignar una directiva de reunión a la vez.
 
 ## <a name="assign-a-meeting-policy-to-users"></a>Asignar una directiva de reunión a los usuarios
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, haga clic en el usuario.
-2. Seleccione el usuario haciendo clic a la izquierda del nombre de usuario y, a continuación, haga clic en **Editar configuración**.
-3. En **Directiva**de la reunión, seleccione la Directiva que desea asignar y, a continuación, haga clic en **aplicar**.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
+2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
+3. En **Directiva de reunión**, seleccione la directiva que quiera asignar y haga clic en **Aplicar**.
 
-Para asignar una directiva a varios usuarios a la vez, vea [editar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
+Para asignar una directiva a varios usuarios a la vez, vea [Modificar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
 
 También puede hacer lo siguiente:
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de reunión**de **reuniones** > .
-2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva.
-3. Seleccione **administrar usuarios**.
-4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
+2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
+3. Seleccione **Administrar usuarios**.
+4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 5. Cuando termine de agregar usuarios, seleccione **Guardar**.
 
 > [!NOTE]
@@ -158,7 +158,7 @@ Las personas de fuera de su organización, como los usuarios federados y anónim
 
 Echemos un vistazo al ejemplo siguiente.
 
-|Usuario |Política de reuniones  |Permitir la grabación en la nube |
+|Usuario |Directiva de reuniones  |Permitir la grabación en la nube |
 |---------|---------|---------|
 |Daniela | Global   | Falso |
 |Amanda | Location1MeetingPolicy | Verdadero|
@@ -176,7 +176,7 @@ Esta es una combinación de una directiva por organizador y por usuario. El víd
 
 Echemos un vistazo al ejemplo siguiente.
 
-|Usuario |Política de reuniones  |Permitir video IP |
+|Usuario |Directiva de reuniones  |Permitir video IP |
 |---------|---------|---------|
 |Daniela   | Global   | Verdadero        |
 |Amanda    | Location1MeetingPolicy        | Falso      |
@@ -216,7 +216,7 @@ Esta es una combinación de una directiva por organizador y por usuario. Esta co
 
 Echemos un vistazo al ejemplo siguiente.
 
-|Usuario |Política de reuniones |Modo de uso compartido de pantalla |
+|Usuario |Directiva de reuniones |Modo de uso compartido de pantalla |
 |---------|---------|---------|
 |Daniela  | Global   | Pantalla completa |
 |Amanda   | Location1MeetingPolicy  | Deshabilitado |
@@ -239,7 +239,7 @@ Si la configuración está desactivada para el usuario, la opción **ceder el co
 
 Echemos un vistazo al ejemplo siguiente.
 
-|Usuario |Política de reuniones  |Permitir al participante ceder o solicitar el control |
+|Usuario |Directiva de reuniones  |Permitir al participante ceder o solicitar el control |
 |---------|---------|---------|
 |Daniela   | Global   | Verdadero       |
 |Babek    | Location1MeetingPolicy        | Falso   |
@@ -270,7 +270,7 @@ Esta es una directiva por usuario. Esta configuración controla si el usuario pu
 
 Echemos un vistazo al ejemplo siguiente.
 
-|Usuario |Política de reuniones  |Permitir el uso compartido de PowerPoint |
+|Usuario |Directiva de reuniones  |Permitir el uso compartido de PowerPoint |
 |---------|---------|---------|
 |Daniela   | Global   | Verdadero       |
 |Amanda   | Location1MeetingPolicy        | Falso   |
@@ -283,7 +283,7 @@ Esta es una directiva por usuario. Esta configuración controla si un usuario pu
 
 Echemos un vistazo al ejemplo siguiente.
 
-|Usuario |Política de reuniones  |Permitir pizarra|
+|Usuario |Directiva de reuniones  |Permitir pizarra|
 |---------|---------|---------|
 |Daniela   | Global   | Verdadero       |
 |Amanda   | Location1MeetingPolicy        | Falso   |
@@ -296,7 +296,7 @@ Esta es una directiva por usuario. Esta configuración controla si un usuario pu
 
 Echemos un vistazo al ejemplo siguiente.
 
-|Usuario |Política de reuniones  |Permitir notas compartidas |
+|Usuario |Directiva de reuniones  |Permitir notas compartidas |
 |---------|---------|---------|
 |Daniela   | Global   | Verdadero       |
 |Amanda   | Location1MeetingPolicy | Falso |
@@ -351,7 +351,7 @@ Esta es una directiva por organizador. Esta opción controla si los usuarios pue
 
 ![Captura de pantalla que muestra una reunión con un usuario en la sala de recepción](media/meeting-policies-lobby.png)
 
- Los organizadores de reuniones pueden hacer clic en **Opciones de reunión** en la invitación a la reunión para cambiar esta configuración para cada reunión que programe. **(próximamente)**
+ Los organizadores de reuniones pueden hacer clic en **Opciones de reunión** en la invitación a la reunión para cambiar esta configuración para cada reunión que programe.
   
 |Valor de configuración  |Comportamiento de combinación |
 |---------|---------|
@@ -386,7 +386,7 @@ Esta es una directiva por usuario y se aplica durante una reunión. Esta configu
 
 |Valor de configuración |Comportamiento  |
 |---------|---------|
-|**Desactivado pero el organizador puede invalidarlo**     | Los subtítulos dinámicos no se activan automáticamente para el usuario durante una reunión. El usuario ve la opción **Activar títulos en vivo** en el menú de desbordamiento (**...**) para activarlo. Esta es la configuración que se aplica normalmente. |
+|**Desactivado pero el organizador puede invalidarlo**     | Los subtítulos dinámicos no se activan automáticamente para el usuario durante una reunión. El usuario ve la opción **Activar títulos en vivo** en el menú de desbordamiento (**...**) para activarlo. Esta configuración es la predeterminada. |
 |**Deshabilitado**     | Los subtítulos en vivo se deshabilitan para el usuario durante la reunión. El usuario no tiene la opción de activarlos.          |
 
 <a name="bkcontentsharing"> </a>

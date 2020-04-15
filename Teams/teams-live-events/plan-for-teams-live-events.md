@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga más información sobre los factores que debe tener en cuenta antes de configurar eventos en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95baeaf25600853b7d6a2b4e18c548d1998f6789
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102371"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505627"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -55,6 +55,7 @@ El usuario debe tener:
 - El uso compartido de vídeos habilitado para las reuniones en Teams (*el parámetro TeamsMeetingPolicy -ScreenSharingMode = EntireScreen*).
 - La programación de reuniones privadas habilitada en Teams (*el parámetro TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling = True*).
 - Permisos para crear eventos en directo en Stream (para producción de dispositivos o aplicaciones externas).
+- Modo de coexistencia configurado para poder programar reuniones de Teams (*islas, reuniones en primer lugar o solo equipos*).
 
 > [!IMPORTANT]
 > Los usuarios anónimos sin autenticar no pueden ser invitados como productores ni moderadores de los eventos en directo de Teams. 
@@ -70,8 +71,6 @@ El usuario debe tener:
 |Grupos específicos / personas      |  Sí            |  Sí                 |
 
 <sup>1</sup> solo se puede invitar a los asistentes federados a través de personas & grupo <br>
-
-
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos y Difusión de reunión de Skype en Teams
 
@@ -132,4 +131,3 @@ Vaya a [Configuración de eventos en directo de Teams](set-up-for-teams-live-eve
 - [¿Qué son los eventos en directo de Teams?](what-are-teams-live-events.md)
 - [Configuración de Eventos en Directo de Teams](set-up-for-teams-live-events.md)
 - [Establecer la configuración de eventos en directo de Microsoft Teams](configure-teams-live-events.md)
-
