@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Administración remota de la configuración predeterminada usada por un dispositivo de salas de Microsoft Teams, incluida la aplicación de un tema personalizado y la creación de un archivo de configuración maestra.
-ms.openlocfilehash: 0334b9de7759885b6bf00dae7a6418b3c381c68f
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 0bc693d8bee35b37184d0dcb38831b396b34b97c
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160074"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510769"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Administrar de forma remota la configuración de la consola de salas de Microsoft Teams con un archivo de configuración XML
 
@@ -39,12 +39,12 @@ Cualquier editor de texto se puede usar para crear un archivo de configuración.
     <UserAccount>
         <SkypeSignInAddress>RanierConf@contoso.com</SkypeSignInAddress>
         <ExchangeAddress>RanierConf@contoso.com</ExchangeAddress>
+        <ModernAuthEnabled>false</ModernAuthEnabled>
         <DomainUsername>Seattle\RanierConf</DomainUsername>
         <Password>password</Password>
         <ConfigureDomain>domain1, domain2</ConfigureDomain>
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
-    <ModernAuthEnabled>false</ModernAuthEnabled>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
@@ -83,16 +83,16 @@ Si un valor de variable es de un tipo incorrecto, los elementos están fuera de 
 |\<SkypeSettings\> |Contenedor de todos los elementos. ||Obligatorio. |
 | \<AutoScreenShare\>  |&#x2777; Boolean  |Primer &#x2776;  | Si se cumple, se habilita el uso compartido de pantalla automático.  |
 |\<HideMeetingName\> |&#x2777; Boolean  |Primer &#x2776;  |Si se cumple, se ocultan los nombres de la reunión. |
-|\<Cuentadeusuario\> |Contenedor |Primer &#x2776;  |Contenedor para parámetros de credenciales. La dirección de inicio de sesión, la dirección de Exchange o la dirección de correo electrónico suelen ser<span></span>iguales, como RanierConf @contoso. com. |
+|\<Cuentadeusuario\> |Contenedor |Primer &#x2776;  |Contenedor para parámetros de credenciales. La dirección de inicio de sesión, la dirección de Exchange o la dirección de correo electrónico suelen ser iguales<span></span>, como RanierConf @contoso. com. |
 |\<SkypeMeetingsEnabled\>  |&#x2777; Boolean  |Primer &#x2776;  |Está habilitado de forma predeterminada. |
-|\<SkypeSignInAddress\> |Cadena &#x2778;  ||El nombre de inicio de sesión de la SfB de la consola o de la cuenta de dispositivo de Teams. |
-|\<ExchangeAddress\> |Cadena &#x2778;  ||El nombre de inicio de sesión para la cuenta del dispositivo de Exchange de la consola. Si se omite ExchangeAddress, SkypeSignInAddress no se volverá a usar automáticamente. |
+|\<SkypeSignInAddress\> |Cadena &#x2778;  ||El nombre de inicio de sesión de la cuenta del dispositivo de SfB o Teams de la consola. |
+|\<ExchangeAddress\> |Cadena &#x2778;  ||El nombre de inicio de sesión de la cuenta de dispositivo de Exchange de la consola. Si se omite ExchangeAddress, SkypeSignInAddress no se volverá a usar automáticamente. |
+|\<ModernAuthEnabled> |&#x2777; Boolean  |  |Está deshabilitado de forma predeterminada. <br/> <br/>Cuando se establece en true, la aplicación Microsoft Teams Rooms solo usa la autenticación moderna para conectarse a los recursos y no se revierte a la autenticación básica.|
 |\<DomainUsername\> |Cadena &#x2778;  ||El dominio y el nombre de usuario del dispositivo de consola; por ejemplo, Seattle\RanierConf. |
 |\<Contraseña\> |Cadena 3  || El parámetro de contraseña es la misma contraseña que se utiliza para iniciar sesión con la cuenta del dispositivo de Skype Empresarial.   |
 | \<ConfigureDomain\>  |Cadena &#x2778;  ||Puede enumerar varios dominios, separados por comas. |
 |\<TeamsMeetingsEnabled\> |&#x2777; Boolean  |Primer &#x2776;  |Está deshabilitado de forma predeterminada. <br/> <br/> El archivo XML se considera incorrecto si \<tanto SkypeMeetingsEnabled\> como\<TeamsMeetingsEnabled\> están deshabilitados, pero es aceptable que ambas configuraciones estén habilitadas al mismo tiempo. |
 |\<IsTeamsDefaultClient> |&#x2777; Boolean  |Primer &#x2776;  |Está deshabilitado de forma predeterminada. |
-|\<ModernAuthEnabled> |&#x2777; Boolean  |Primer &#x2776;  |Está deshabilitado de forma predeterminada. <br/> <br/>Cuando se establece en true, la aplicación Microsoft Teams Rooms solo usa la autenticación moderna para conectarse a los recursos y no se revierte a la autenticación básica.|
 |\<BluetoothAdvertisementEnabled> |&#x2777; Boolean  |Primer &#x2776;  |Está habilitado de forma predeterminada. |
 |\<DualScreenMode\>  |&#x2777; Boolean  |Primer &#x2776;  |Si es verdadero, el modo de pantalla doble está habilitado. De lo contrario, el dispositivo usa el modo de pantalla simple. |
 | \<DuplicateIngestDefault\> |&#x2777; Boolean  |Primer &#x2776; |Si es verdadero, el contenido se muestra en las dos pantallas en el modo de pantalla doble, cuando está fuera de la reunión. | 
