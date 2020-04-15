@@ -10,7 +10,7 @@
 ## [Información general](training-microsoft-teams-landing-page.md)
 ## [Cursos de entrenamiento dirigidos por un instructor para Teams](instructor-led-training-teams-landing-page.md)
 ## [Formación de administradores para Teams](itadmin-readiness.md)
-## [Formación del usuario final para Teams](enduser-training.md)
+## [Formación del usuario final para Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [Cómo implementar Teams](How-to-roll-out-teams.md)
