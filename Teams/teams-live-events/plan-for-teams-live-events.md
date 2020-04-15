@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
 ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/14/2020
 ms.locfileid: "43505627"
@@ -55,7 +55,7 @@ El usuario debe tener:
 - El uso compartido de vídeos habilitado para las reuniones en Teams (*el parámetro TeamsMeetingPolicy -ScreenSharingMode = EntireScreen*).
 - La programación de reuniones privadas habilitada en Teams (*el parámetro TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling = True*).
 - Permisos para crear eventos en directo en Stream (para producción de dispositivos o aplicaciones externas).
-- Modo de coexistencia configurado para poder programar reuniones de Teams (*islas, reuniones en primer lugar o solo equipos*).
+- El modo de coexistencia se configuró para que pueda programar reuniones de Teams (*islas, en primer lugar, o solo Teams*).
 
 > [!IMPORTANT]
 > Los usuarios anónimos sin autenticar no pueden ser invitados como productores ni moderadores de los eventos en directo de Teams. 
@@ -70,7 +70,7 @@ El usuario debe tener:
 |Todas los usuarios de la empresa           |  Sí            |  Sí                 |
 |Grupos específicos / personas      |  Sí            |  Sí                 |
 
-<sup>1</sup> solo se puede invitar a los asistentes federados a través de personas & grupo <br>
+<sup>1 </sup>solo se pueden invitar a un solo asistente federado por usuarios y grupo  <br>
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos y Difusión de reunión de Skype en Teams
 
@@ -80,8 +80,8 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 |---------|---------|---------|---------|
 |Tamaño máximo de audiencia |10 000 asistentes |10 000 asistentes<sup>1</sup> |10 000 asistentes<sup>1</sup> |
 |Duración máxima del evento en directo |4 horas |4 horas |4 horas |
-|Número máximo de moderadores y productores en un evento en directo |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|Cantidad máxima de eventos simultáneos en vivo por cada inquilino de Office 365 |4,5  | 4,5  | 4,5  |
+|Cantidad máxima de moderadores y productores en un evento en directo |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
+|Cantidad máxima de eventos simultáneos en vivo por cada inquilino de Office 365 |15  | 15  | 15  |
 |Creación de eventos en directo |   Portal de Difusión de reunión de Skype |Teams, Yammer a través de Teams | Teams, Yammer a través de Teams, Stream |
 |Compromiso de audiencia: Yammer |&#x2714; |&#x2714; (experiencia integrada) |&#x2714; (experiencia integrada) |
 |Negociación de audiencia: moderado por P y R |&#x2714;  |&#x2714; |&#x2714; |
@@ -94,7 +94,7 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 |Asociados e invitados de los moderadores o asistentes |&#x2714; (Skype Empresarial)  |  &#x2714; (Teams) |N/D |
 |Moderador: acceso por RTC |&#x274C; |&#x2714; (Teams) |N/D |
 |Presentar en una pantalla |&#x274C; |&#x2714; (Teams) |N/D |
-|Presentar un archivo de PowerPoint (uso compartido de archivos PPT) |&#x2714; |&#x274C; (mitigado a través de pantalla compartida) |N/D |
+|Presentar un archivo de PowerPoint (uso compartido de archivos PPT) |&#x2714; |&#x274C; (atenuado a través del uso compartido de la pantalla) |N/D |
 |Grabación de la reunión guardada en la nube |&#x2714; |&#x2714; |&#x2714; |
 |Publicar automáticamente la grabación en Stream |&#x274C; |&#x274C; |&#x2714; |
 |Subtítulos en directo y otros subtítulos |&#x2714; |&#x2714; |&#x274C; |
@@ -104,8 +104,8 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 |Informe de asistencia posterior a la difusión para los productores |&#x2714; |&#x2714; |&#x274C; |
 |Análisis de opiniones de los asistentes: votación y sondeos en directo |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> Los límites establecidos pueden ser modificados. Comprobar los [límites y las especificaciones de Teams](../limits-specifications-teams.md).<br/>
-<sup>2</sup> puede tener hasta 250 moderadores y productores en un evento en vivo, pero solo se muestran en la lista los últimos 10 usuarios.
+<sup>1</sup> Los límites establecidos pueden ser modificados. Compruebe[ Los límites y las especificaciones de los Teams](../limits-specifications-teams.md)<br/>
+<sup>2</sup> Puede tener hasta 250 moderadores y productores en un evento en directo, pero solo se muestran en la lista los últimos 10 que habló.
 
 
 ## <a name="regional-availability"></a>Disponibilidad regional
