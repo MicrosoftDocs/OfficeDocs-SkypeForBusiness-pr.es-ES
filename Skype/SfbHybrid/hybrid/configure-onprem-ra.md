@@ -13,20 +13,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configure una cuenta de recursos para Skype empresarial Server 2019.
-ms.openlocfilehash: 14d2f161be54ac61c866597bdad141cf31138fbd
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 1de087abdf08420a6300ae45466e9696aacb1ed1
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892310"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510789"
 ---
 # <a name="configure-resource-accounts"></a>Configurar cuentas de recursos
 
 Las implementaciones híbridas de Skype empresarial Server 2019 solo usan los servicios en la nube proporcionados por el sistema telefónico para la mensajería unificada y no se integran con Exchange Online. En Skype empresarial Server 2019, ahora puede usar las colas de llamadas en la nube y los operadores automáticos que se describen en [esto es lo que obtiene con el sistema telefónico en Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
-Para usar un operador automático de sistema telefónico o una cola de llamadas con Skype empresarial Server 2019, tendrá que crear cuentas de recursos que actúen como extremos de aplicación y a los que se les puedan asignar números de teléfono y, a continuación, usar el centro de administración de Teams online para configurar la cola de llamadas o operador automático. Esta cuenta de recursos se puede hospedar en línea (consulte [administrar cuentas de recursos en Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) para crear cuentas de recursos hospedadas en línea) o en locales, tal como se describe en este artículo. Normalmente, tendrá varios operadores automáticos de sistema telefónico o de cola de llamadas, cada uno de los cuales se asigna a una cuenta de recursos, que se puede hospedar en línea o en Skype empresarial Server 2019.
+Para usar un operador automático de sistema telefónico o una cola de llamadas con Skype empresarial Server 2019, tendrá que crear cuentas de recursos que actúen como extremos de aplicación y a los que se les puedan asignar números de teléfono y, a continuación, usar el centro de administración de Microsoft Teams para configurar la cola de llamadas o el operador automático. Esta cuenta de recursos se puede hospedar en línea (consulte [administrar cuentas de recursos en Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) para crear cuentas de recursos hospedadas en línea) o en locales, tal como se describe en este artículo. Normalmente, tendrá varios operadores automáticos de sistema telefónico o de cola de llamadas, cada uno de los cuales se asigna a una cuenta de recursos, que se puede hospedar en línea o en Skype empresarial Server 2019.
 
-Si tiene un operador automático de mensajería unificada de Exchange y un sistema de cola de llamadas, antes de cambiar a Exchange Server 2019 o Exchange Online tendrá que registrar manualmente los detalles como se describe a continuación y, a continuación, implementar un sistema completamente nuevo con el centro de administración de Teams. .
+Si tiene un operador automático de mensajería unificada de Exchange y un sistema de cola de llamadas, antes de cambiar a Exchange Server 2019 o Exchange Online tendrá que registrar manualmente los detalles tal como se describe a continuación y, a continuación, implementar un sistema completamente nuevo con el centro de administración de Teams.
 
 ## <a name="overview"></a>Información general
 
@@ -105,7 +105,7 @@ La creación de una cuenta de recursos que use un número de teléfono requerir�
 
    La cuenta de recurso necesitará un número de teléfono asignado si se va a asignar a un operador automático de nivel superior o a una cola de llamadas. Los números de teléfono de usuario (suscriptor) no se pueden asignar a una cuenta de recursos; solo se pueden usar números de teléfono de servicio de pago o gratuitos.
 
-     Puede asignar un número híbrido de enrutamiento directo a su cuenta de recursos. Para obtener información detallada, consulte [plan Direct Routing](/MicrosoftTeams/direct-routing-plan).
+     Puede asignar un enrutamiento directo o un número híbrido a su cuenta de recursos. Para obtener más información, vea [plan Direct Routing](/MicrosoftTeams/direct-routing-plan) and [plan Cloud Cloud operadors](plan-cloud-auto-attendant.md).
 
      > [!NOTE]
      > Los números del servicio de enrutamiento directo asignados a las cuentas de recursos para el operador automático y las colas de llamadas solo se admiten para los usuarios y agentes de Microsoft Teams.
@@ -191,7 +191,7 @@ La migración de la mensajería unificada de Exchange al sistema telefónico nec
 
    En este punto, si ya ha migrado el correo de voz de mensajería unificada, debe estar en una ubicación para migrar a Exchange Server 2019.
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Vea también
 
 [Crear una cola de llamadas en la nube](/MicrosoftTeams/create-a-phone-system-call-queue)
 

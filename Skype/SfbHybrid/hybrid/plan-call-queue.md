@@ -1,7 +1,7 @@
 ---
 title: Planeación de una cola de llamadas en la nube
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general sobre el uso de un operador automático de la nube con Skype empresarial Server 2019.
-ms.openlocfilehash: 24a0bba82ef38288f5c96cc7c51ce1bfb88c8f05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d14aeab9857f2a54e6622fb368193a2e270e0f49
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735230"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510799"
 ---
 # <a name="plan-cloud-call-queues"></a>Planear colas de llamadas en la nube
 
@@ -31,9 +31,9 @@ Además, las colas de llamadas en la nube pueden proporcionar:
 Cada cola de llamadas tiene asignada una **cuenta de recursos** (consulte [configurar cuentas de recursos](configure-onprem-ra.md)) en el sistema de Skype empresarial Server 2019, que se vinculará directamente a una cola de llamadas en el centro de administración de Microsoft Teams. Consulte [crear una cola de llamadas en la nube](/MicrosoftTeams/create-a-phone-system-call-queue) para obtener más información sobre qué son las colas de llamadas y qué opciones y características existen para las colas de llamadas.
 
 > [!NOTE]
-> Puede asignar varios números de teléfono a una cola de llamadas, pero deben ser números de servicio de Microsoft o números híbridos.
+> Puede asignar varios números de teléfono a una cola de llamadas, pero deben ser números de servicio de Microsoft, números de enrutamiento directos o números híbridos.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 En los siguientes requisitos se da por sentado que ya ha implementado Skype empresarial Server 2019 en una topología compatible.  Sus requisitos dependen de su escenario:
 
@@ -61,12 +61,12 @@ Cuando tenga una estructura sólida que satisfaga sus necesidades y un script qu
 
 [Habilitar la grabación de mensajes personalizados con la interfaz de usuario de teléfono](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
-[¿Qué son los operadores automáticos de la nube?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
+[¿Qué son los operadores automáticos en la nube?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
-[Configurar un operador automático de la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant)
+[Configurar un operador automático en la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
-[Planeación de la conectividad híbrida entre Skype empresarial Server y Office 365](plan-hybrid-connectivity.md)
+[Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md) (Planeamiento de la conectividad híbrida entre Skype Empresarial Server y Office 365)
 
-[Configurar la conectividad híbrida entre Skype empresarial Server y Office 365](configure-hybrid-connectivity.md)
+[Configuración de la conectividad híbrida entre Skype Empresarial Server y Office 365](configure-hybrid-connectivity.md)
 
 [Administrar cuentas de recursos en Microsoft Teams](/MicrosoftTeams/manage-resource-accounts)
