@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: En este artículo se resumen los requisitos para admitir salas de Microsoft Teams.
-ms.openlocfilehash: 9dba3a9972dee782b3d2df2ce48f7f38c19fcbc1
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: 2496fcb1af7d85a3d1c3ba755a2431aff40d5a70
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106687"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521606"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas de Microsoft Teams
 
@@ -78,7 +78,7 @@ Todos los paquetes y paquetes de Microsoft Teams Room están disponibles en la [
   |Surface Pro </br>(quinta generación) |Núcleo de i5 |8 GB o 4 GB |128 GB o más |
   |Surface Pro 4 |Núcleo de i5 |8 GB o 4 GB |128 GB o más |
 
-- Una de las siguientes opciones de estación de acoplamiento para proteger una tableta de la tabla sala de reuniones.
+- Los dispositivos Surface Pro requieren una de las siguientes opciones de estación de acoplamiento para proteger una tableta de la tabla sala de reuniones.
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )

@@ -17,12 +17,12 @@ description: Obtenga información sobre qué hacer cuando necesite realizar una 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 75098323afa8aef9e80223cbc1883e9c12cb53c6
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 4b31f2efb613551ab17320900e45cf30d0ee11be
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510699"
+ms.locfileid: "43521546"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -43,12 +43,12 @@ No todo el contenido de los equipos está eDiscoverable. En la tabla siguiente s
 | Marca de tiempo que muestra Cuándo cada usuario leyó un mensaje | No | |
 | Grabaciones de audio | No | |
 | Mensajes de canal privado | No | |
-| Emojis, GIF, adhesivos | No | |
+| Emojis, GIF, adhesivos | Sí | |
 | Fragmentos de código | No | |
 | Vínculos de chat | No | |
 | Reacciones (me gusta, corazones, etc.) | No | |
 | Mensajes editados | Sí | Si el usuario se encuentra en espera, se conservan las versiones anteriores de los mensajes editados. |
-| Imágenes en línea | No | |
+| Imágenes en línea | Sí | |
 | Tablas | No | |
 | Asunto | No | |
 | Ellas | Sí | El contenido entrecomillado se encuentra en búsqueda. Sin embargo, los resultados de la búsqueda no indican que el contenido se presupuestó. |

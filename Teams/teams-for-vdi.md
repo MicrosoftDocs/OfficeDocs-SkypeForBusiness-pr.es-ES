@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cfe1c1af9fe85d307999289d318106c8ebc132a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: ee41f32ac2237e5e2c6e2e92fd18ea1c1952f7cd
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892300"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521616"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -135,7 +135,7 @@ Para obtener más información sobre los equipos y Office 365 ProPlus, consulte 
     - [versión de 32 bits](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
     - [versión de 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
 
-    La versión mínima de la aplicación de escritorio de Teams requerida es la versión 1.2.00.31357. (La retención de RTC no es compatible con versiones anteriores).
+    La versión mínima de la aplicación de escritorio de Teams requerida es la versión 1.3.00.4461. (La retención de RTC no es compatible con versiones anteriores).
 
 2. Instale el MSI en la VM de VDI ejecutando uno de los siguientes comandos:
 
@@ -246,21 +246,21 @@ Puede establecer directivas con el centro de administración de Microsoft Teams 
 Para asignar la Directiva de llamada de DisallowCalling y la Directiva de reunión de AllOff a los usuarios, siga estos pasos:
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**.
-2. Seleccione el usuario haciendo clic a la izquierda del nombre de usuario y, a continuación, haga clic en **Editar configuración**.
-3. Siga este procedimiento:
+2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
+3. Haga lo siguiente:
     1.  En **Directiva de llamada**, haga clic en **DisallowCalling**.
     2.  En **Directiva de reunión**, haga clic en **AllOff**.
 4. Haga clic en **Aplicar**.
 
-Para asignar una directiva a varios usuarios a la vez, vea [editar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
+Para asignar una directiva a varios usuarios a la vez, vea [Modificar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
 
 También puede hacer lo siguiente:
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la Directiva que desea asignar. Por ejemplo:
     - Vaya a **Voice** > **directivas de llamadas**de voz y, a continuación, haga clic en **DisallowCalling**.
     - Vaya a **reuniones** > **Meeting Policies**y, a continuación, haga clic en **AllOff**.
-3. Seleccione **administrar usuarios**.
-4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, a continuación, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
+3. Seleccione **Administrar usuarios**.
+4. En el panel **Administrar usuarios**, busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 5. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
 
 #### <a name="assign-policies-using-powershell"></a>Asignar directivas con PowerShell
@@ -283,7 +283,7 @@ Para obtener más información sobre cómo usar PowerShell para administrar dire
 
 ## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a>Migrar equipos de VDI con chat y colaboración a Citrix con llamadas y reuniones
 
-Si tiene una implementación existente de Teams en VDI con conversaciones y colaboración en las que ha establecido directivas de nivel de usuario para desactivar la funcionalidad de llamadas y reuniones, y migra a Citrix con optimización de AV, debe configurar las directivas para activar las llamadas y cumplimiento de la funcionalidad de los equipos de los usuarios de VDI.
+Si tiene una implementación existente de Teams en VDI con conversaciones y colaboración en las que ha establecido directivas de nivel de usuario para desactivar la funcionalidad de llamadas y reuniones, y está migrando a Citrix con optimización de AV, debe configurar las directivas para activar la funcionalidad de llamadas y reuniones de esos equipos en los usuarios de VDI.
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>Establecer directivas para activar la funcionalidad de llamadas y reuniones
 
@@ -298,21 +298,21 @@ Puede usar el centro de administración de Microsoft Teams o PowerShell para est
 Para asignar la Directiva de llamada de AllowCalling y la Directiva de reunión de AllOn a los usuarios, siga estos pasos:
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**.
-2. Seleccione el usuario haciendo clic a la izquierda del nombre de usuario y, a continuación, haga clic en **Editar configuración**.
-3. Siga este procedimiento:
+2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
+3. Haga lo siguiente:
     1.  En **Directiva de llamada**, haga clic en **AllowCalling**.
     2.  En **Directiva de reunión**, haga clic en **AllOn**.
 4. Haga clic en **Aplicar**.
 
-Para asignar una directiva a varios usuarios a la vez, vea [editar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
+Para asignar una directiva a varios usuarios a la vez, vea [Modificar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
 
 También puede hacer lo siguiente:
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la Directiva que desea asignar. Por ejemplo:
     - Vaya a **Voice** > **directivas de llamadas**de voz y, a continuación, haga clic en **AllowCalling**.
     - Vaya a **reuniones** > **Meeting Policies**y, a continuación, haga clic en **AllOn**.
-3. Seleccione **administrar usuarios**.
-4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, a continuación, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
+3. Seleccione **Administrar usuarios**.
+4. En el panel **Administrar usuarios**, busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 5. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
 
 #### <a name="assign-policies-using-powershell"></a>Asignar directivas con PowerShell
