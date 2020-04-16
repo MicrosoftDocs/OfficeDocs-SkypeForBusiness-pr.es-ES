@@ -17,12 +17,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Instrucciones detalladas para migrar de Slack a Microsoft Teams.
-ms.openlocfilehash: 15ef6203fa2cf27d081865e3966198f033b1bd80
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.openlocfilehash: 8e6b7383176713a34f5a00ca3914e42ac50f9834
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845221"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506881"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migración de Slack a Microsoft Teams
 
@@ -353,7 +353,7 @@ El pilar de cualquier implementación correcta de software depende de cómo est�
 
 Por ejemplo, los dos productos cuentan con canales, pero estos se usan de forma diferente en cada producto. Por ejemplo, a menudo un canal en Slack se usa como un chat en Teams, para conversaciones transaccionales y a corto plazo. Otras diferencias notables se encuentran en la configuración de las notificaciones y en las conversaciones encadenadas o no encadenadas.
 
-Consulte nuestra variada biblioteca de [Aprendizaje de Teams para usuarios finales](enduser-training.md). 
+Consulte nuestra variada biblioteca de [Vídeos de aprendizaje de Teams para usuarios finales](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7). 
 
 ## <a name="move-to-teams"></a>Migración a Teams 
 Ahora que ha definido el plan de transición, puede empezar a crear sus equipos y canales en Teams. 

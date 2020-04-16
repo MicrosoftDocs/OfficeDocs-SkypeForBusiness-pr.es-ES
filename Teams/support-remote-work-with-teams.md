@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos de su organización a ser productivos con Microsoft Teams, especialmente cuando trabajan desde casa (WFH) en respuesta al ataque COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96ff59470c8d9726b4c26bf0522e5b1e730b9014
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: ef26f05e20aadeb46be2a553303bc686aded6215
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170518"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506851"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Dar soporte para trabajadores remotos con Microsoft Teams
 
@@ -67,6 +67,8 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
 
 1. Lea las [preguntas más frecuentes: soporte técnico para los empleados remotos](FAQ-support-remote-workforce.md), que se actualizan de forma periódica.
 
+2. [Usar el Asesor de Teams para ayudar a implementar Teams](use-advisor-teams-roll-out.md) Asesor para Teams (en el centro de administración de Teams) le guiará por la implementación de Teams.
+
 1. Lea nuestras publicaciones de blog recientes:
    
    - [Cómo Microsoft permite a sus empleados trabajar de forma remota con Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
@@ -109,7 +111,7 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
    - [Seguridad y Teams](teams-security-guide.md) analiza todos los detalles técnicos de la seguridad de Teams, como parte de los procedimientos y prácticas recomendadas de seguridad de Microsoft 365.
 
 
-2.  [Envíe vínculos de formación](enduser-training.md) para ayudar a los empleados a sacar el máximo rendimiento de Teams.
+2.  Comparta un vínculo a la [formación en vídeo de Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) para ayudar a los empleados a sacar el máximo partido de Teams.
 
 3. Profundice: Obtenga más información sobre la implementación de Teams.
 
