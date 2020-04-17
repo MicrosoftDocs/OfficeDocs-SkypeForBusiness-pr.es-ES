@@ -16,12 +16,12 @@ f1.keywords:
 description: Configurar la optimización de medios locales para el enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3097f97a856dc4e947281847c65669c23c73a408
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 8a69a46d7620628c7afffb706354c0f6e7868f3d
+ms.sourcegitcommit: 3dd6499416e9fbdcb48187c6322bd607290502ce
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43158104"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43541597"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Configurar la optimización de medios locales para el enrutamiento directo
 
@@ -75,6 +75,12 @@ La optimización local de medios es compatible con los siguientes proveedores de
 |            |  SBC 2000         | 8.1.1, compilación 527 |
 |            |  SBC SWe Lite     | 8.1.0, compilación 222 |
 | [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1 + |
+| [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
+|        | AP 3900 | 8.4.0.0.0 |
+|        | AP 4600 | 8.4.0.0.0 | 
+|        | AP 6300 | 8.4.0.0.0 |
+|        | AP 6350 | 8.4.0.0.0 | 
+|        | VME     | 8.4.0.0.0 |
 
 
 ## <a name="manage-external-trusted-ip-addresses"></a>Administrar direcciones IP de confianza externas
