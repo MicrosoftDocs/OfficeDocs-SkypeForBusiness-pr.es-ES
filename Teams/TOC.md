@@ -657,14 +657,15 @@
 
 <!-- ============================================================ -->
 
-# Seguridad y cumplimiento
+# Seguridad, privacidad y cumplimiento
 ## [Información general](security-compliance-overview.md)
-## [Ubicación de los datos en Teams](location-of-data-in-teams.md)
-## Seguridad
+## Seguridad y privacidad
 ### [Guía de seguridad](teams-security-guide.md)
 ### [Modelos de identidad y autenticación](identify-models-authentication.md)
 ### [Iniciar sesión en Microsoft Teams con la autenticación moderna](sign-in-teams.md)
 ### [Vínculos seguros en Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Privacidad y Microsoft Teams](teams-privacy.md)
+### [Ubicación de los datos en Teams](location-of-data-in-teams.md)
 ## Cumplimiento
 ### [Barreras de información](information-barriers-in-teams.md)
 ### [Directivas de retención](retention-policies.md)
