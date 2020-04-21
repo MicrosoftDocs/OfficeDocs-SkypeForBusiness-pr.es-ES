@@ -4,7 +4,7 @@
       "docset_name": "OfficeDocs-LyncServer",
       "build_source_folder": "Lync",
       "build_output_subfolder": "OfficeDocs-LyncServer",
-      "locale": "es-es",
+      "locale": "es-ES",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
@@ -21,7 +21,7 @@
       "docset_name": "OfficeDocs-MicrosoftTeams",
       "build_source_folder": "Teams",
       "build_output_subfolder": "OfficeDocs-MicrosoftTeams",
-      "locale": "es-es",
+      "locale": "es-ES",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
@@ -39,7 +39,7 @@
       "docset_name": "OfficeDocs-SkypeForBusiness",
       "build_source_folder": "Skype",
       "build_output_subfolder": "OfficeDocs-SkypeForBusiness",
-      "locale": "es-es",
+      "locale": "es-ES",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
@@ -65,7 +65,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.es-es",
+      "url": "https://github.com/Microsoft/templates.docs.msft.es-ES",
       "branch": "master",
       "branch_mapping": {}
     },
@@ -77,8 +77,8 @@
     },
     {
       "path_to_root": "Skype/common",
-      "url": "https://github.com/MicrosoftDocs/OfficeDocs-pr",
-      "branch": "live",
+      "url": "https://github.com/MicrosoftDocs/OfficeDocs-pr.es-ES",
+      "branch": "live-sxs",
       "branch_mapping": {}
     },
     {
@@ -96,6 +96,10 @@
       "Publish",
       "Pdf"
     ],
+    "live-sxs": [
+      "Publish",
+      "Pdf"
+    ],
     "SkypeServer2019": [
       "Publish",
       "Pdf"
@@ -105,12 +109,12 @@
       "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": false,
+  "need_generate_pdf_url_template": true,
   "targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"
     }
   },
-  "need_generate_pdf": false,
+  "need_generate_pdf": true,
   "need_generate_intellisense": false
 }
