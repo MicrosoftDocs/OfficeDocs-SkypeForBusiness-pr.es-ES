@@ -729,7 +729,6 @@
 ### [Recomendaciones para el controlador del codificador y descodificador de hardware](hardware-decoders-and-encoders.md)
 ### [Instalar Teams con MSI](msi-deployment.md)
 ### [Activar Teams en su organización](Office-365-set-up.md)
-### [Archivos y carpetas de Teams que se excluyen de la detección de virus](teams-files-folders-antivirus-perf.md)
 ### [Cómo usa Microsoft Teams la memoria](teams-memory-usage-perf.md)
 ### [Direcciones URL e intervalos de direcciones IP de Office 365](office-365-urls-ip-address-ranges.md)
 ### [Teams para la infraestructura de escritorio virtualizada (VDI)](teams-for-vdi.md)

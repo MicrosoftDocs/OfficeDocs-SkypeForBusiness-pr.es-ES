@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d97f92b56b4a3e38489b1f99f8ba25497485495f
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: 18ad8a2808b12eb05e51d781cb422c65ad14e7ad
+ms.sourcegitcommit: edca9c1310b22a7b15ee1e3d00b4064cf647aa1e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43191247"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43580678"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -30,16 +30,18 @@ ms.locfileid: "43191247"
 
 Para disfrutar de la experiencia completa de Teams, los usuarios debe habilitarse en Exchange Online, SharePoint Online y la creación de grupos de Office 365.
 
-Los buzones de Exchange de los usuarios se pueden hospedar en línea o local. Sin embargo, algunas características requieren que haya una implementación híbrida en su lugar con su inquilino de Office 365.
+Los buzones de Exchange de los usuarios se pueden hospedar en línea o local. La integración con Exchange local requiere una implementación híbrida de Exchange. Para obtener más información acerca de la configuración de una implementación híbrida, consulte [implementaciones híbridas de Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid).
 
 Los usuarios alojados en Exchange online o Exchange Dedicated vNext pueden usar todas las características de Teams. Pueden crear y unirse a equipos y canales, crear y ver reuniones, llamar y conversar, modificar imágenes de Perfil de usuario (si la Directiva de buzón de Outlook en la web lo permite), y agregar y configurar conectores, fichas y bots.
 
 Los usuarios alojados en Exchange Online Dedicated (Legacy) deben sincronizarse con Azure Active Directory en Office 365. Pueden crear y unirse a equipos y canales, agregar y configurar pestañas y bots, y usar las características de chat y llamada. Sin embargo, no pueden modificar las imágenes de perfil, administrar reuniones, obtener acceso a los contactos de Outlook ni administrar conectores.
 
-Los usuarios con buzones locales se deben sincronizar con Azure Active Directory. Pueden usar todas las características del escenario anterior, pero además también pueden cambiar la imagen del perfil de usuario (si la Directiva de buzón de Outlook en la web lo permite) y administrar reuniones, lo que proporciona a Exchange Server 2016 (actualización acumulativa 3) o posterior, se ejecuta de forma local con OAuth configurado (preferiblemente a través del asistente de configuración híbrida).
+Los usuarios con buzones locales se deben sincronizar con Azure Active Directory. Pueden usar todas las características del escenario anterior, pero también pueden cambiar la imagen de Perfil de usuario (si la Directiva de buzón de Outlook en la web lo permite) y administrar reuniones, lo que proporciona a Exchange Server 2016 (actualización acumulativa 3) o posterior, se ejecuta localmente con OAuth configurado (preferiblemente a través del asistente de configuración híbrida de Exchange) según se describe en configurar la [autenticación OAuth entre Exchange y las organizaciones de Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). Para habilitar la delegación de calendario para estos usuarios, también debe completar los pasos 2-3 según se describe en [configurar la integración y OAuth entre Skype empresarial online y Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); estos pasos proporcionarán a la aplicación de programación de Teams los permisos necesarios para confirmar los permisos de delegado.   
 
 La siguiente tabla proporciona una referencia rápida y útil sobre la disponibilidad de las características basadas en el entorno de Exchange.
 
+> [!NOTE]
+> La integración de características entre Exchange local y Teams requiere una implementación híbrida de Exchange. Este requisito se suma a los requisitos específicos de la versión que se llaman en algunas características de la tabla siguiente.
 
 **Acciones compatibles:**
 
@@ -76,7 +78,7 @@ Microsoft Teams funciona con varios servicios de Office 365 para ofrecer a los u
 
 - Es necesario habilitar a los usuarios para que puedan crear grupos de Office 365 y así poder crear equipos en Microsoft Teams.
 
-- Para permitir que Microsoft Teams funcione con Exchange local, debe configurar el nuevo protocolo de autenticación de OAuth de Exchange como se describe en [configurar la autenticación de OAuth entre Exchange y las organizaciones de Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
+- Para permitir que Microsoft Teams funcione con Exchange local, debe configurar el nuevo protocolo de autenticación de OAuth de Exchange, preferiblemente ejecutando el Asistente de implementación híbrida de Exchange, como se describe en [configurar la autenticación OAuth entre Exchange y las organizaciones de Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). Para permitir que los usuarios con el buzón local de Exchange programen reuniones de Teams en nombre de otro usuario, también debe completar los pasos 2-3 según se describe en [configurar integración y OAuth entre Skype empresarial online y Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). 
 
 > [!NOTE]
 >Para la integración de Exchange local y de Teams, es necesario asignar la licencia necesaria para el usuario sincronizado de AAD.
