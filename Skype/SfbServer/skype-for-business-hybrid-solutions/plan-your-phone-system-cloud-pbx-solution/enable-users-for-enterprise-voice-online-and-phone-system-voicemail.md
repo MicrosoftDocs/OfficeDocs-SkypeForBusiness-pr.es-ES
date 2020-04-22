@@ -19,18 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Obtenga información sobre cómo habilitar el sistema telefónico en los servicios de voz de Office 365 para sus usuarios de Skype empresarial.
-ms.openlocfilehash: ae1443fa0f0725b6cbbe722703f24af02139c12d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8ed04e3926adfecb2f0022d12c783f6c3e83d763
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050202"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780729"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Habilitación de usuarios para telefonía IP empresarial en línea y sistemas telefónicos en el correo de voz de Office 365
  
 Obtenga información sobre cómo habilitar el sistema telefónico en los servicios de voz de Office 365 para sus usuarios de Skype empresarial.
   
-El último paso de la implementación del sistema telefónico en Office 365 con la conectividad RTC local es habilitar a los usuarios para el sistema telefónico en Office 365 y el correo de voz. Para habilitar estas funciones, debe ser un usuario con el rol de administrador global de Office 365 y poder ejecutar PowerShell remoto. Debe seguir los pasos de este tema para todas las cuentas de usuario que todavía no tienen habilitada la telefonía IP empresarial para Skype empresarial online.
+El último paso de la implementación del sistema telefónico en Office 365 con la conectividad RTC local es habilitar a los usuarios para el sistema telefónico en Office 365 y el correo de voz. Para habilitar estas funciones, debe ser un usuario con el rol de administrador global y poder ejecutar PowerShell remoto. Debe seguir los pasos de este tema para todas las cuentas de usuario que todavía no tienen habilitada la telefonía IP empresarial para Skype empresarial online.
   
 ## <a name="enable-phone-system-in-office-365-voice-services"></a>Habilitar sistema telefónico en los servicios de voz de Office 365
 

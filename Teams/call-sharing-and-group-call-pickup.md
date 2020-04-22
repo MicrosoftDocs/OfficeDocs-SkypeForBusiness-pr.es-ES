@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: El uso compartido de llamadas y la recogida de llamadas de Grupo permiten a los usuarios compartir llamadas entrantes con colegas para que las llamadas se puedan capturar cuando el usuario no está disponible.
-ms.openlocfilehash: aa59166d32de49b9163209a4836c7024d697fa8f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 727e3a4c3627e38722182bc1d6ad1f4e435d95a4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141293"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780789"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartir llamadas y atender llamadas grupales en Microsoft Teams
 
@@ -49,7 +49,7 @@ Los usuarios deben tener habilitada la telefonía IP empresarial para configurar
 
 Para configurar la recogida de llamadas grupales, un usuario configura primero un grupo de llamadas (no es lo mismo que un grupo de seguridad o un grupo de Office 365) y, a continuación, agrega los usuarios con los que desea compartir las llamadas. Después, eligen una configuración de llamadas simultáneas o de desvío de llamadas. Para obtener más información y procedimientos paso a paso, consulte [desvío de llamadas y llamadas simultáneas en Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
 
-Las preferencias de notificación y creación de grupos de llamadas son características dirigidas por el usuario; los administradores no tienen que configurar estas características para sus usuarios. No se pueden crear grupos de llamadas a partir de grupos de seguridad o grupos de Office 365; se deben crear en Teams.
+Las preferencias de notificación y creación de grupos de llamadas son características dirigidas por el usuario; los administradores no tienen que configurar estas características para sus usuarios. No se pueden crear grupos de llamadas a partir de grupos de seguridad o grupos de Microsoft 365; se deben crear en Teams.
 
 Los administradores deben habilitar los grupos de llamadas a través de la configuración de **TeamsCallingPolicy AllowCallGroups** para un usuario. Los administradores también pueden habilitar esta opción a través del portal de administración de Teams.  Además, el usuario configurado también puede configurar sus grupos de llamadas a través del cliente directamente. Los usuarios finales o administradores no pueden bloquear la configuración entre sí, pero el portal de administración de equipos y el cliente de equipos deberían mostrar esta relación con precisión en ambos lugares. 
 

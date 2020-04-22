@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c5a437353d00fca8a59bd7de2b753967adc1134
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: e327ab7be4b09ca91d454ab560f06b293fba19bb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42707010"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780469"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>Saque el máximo partido a teams después de actualizar
 
@@ -37,7 +37,7 @@ Este artículo proporciona una descripción general de los requisitos para sacar
 
 Después de implementar correctamente Teams en su organización y de trabajar con la calidad y la confiabilidad, el siguiente paso consiste en evaluar regularmente si tiene alguna oportunidad para mejorar sus servicios. Esta es una parte del plan de mejora de servicio continuo que es un estándar moderno para la administración de servicios en la nube.
 
-Una excelente forma de asegurarse de que siempre obtenga el máximo provecho de sus servicios es supervisar los [planes públicos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de los equipos para obtener nuevas características que pueden interesar a su organización. Si tiene acceso al portal de administración de Office 365, recibirá actualizaciones periódicas de nosotros sobre nuevas y cambiando características a través de nuestro centro de mensajes.
+Una excelente forma de asegurarse de que siempre obtenga el máximo provecho de sus servicios es supervisar los [planes públicos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de los equipos para obtener nuevas características que pueden interesar a su organización. Si tiene acceso al centro de administración de Microsoft 365, recibirá actualizaciones periódicas de nosotros sobre nuevas y cambiando características a través de nuestro centro de mensajes.
 
 Cuando vea oportunidades para mejorar el servicio, dedique el tiempo adecuado. Vuelva a visitar [implementar chat, equipos, canales y aplicaciones en Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) y aplique la misma orientación de principio a fin. Cuando se realizan cambios incrementales pequeños, es improbable que sea necesario completar todas las actividades y todas las tareas, pero debe asegurarse de evaluar cada actividad y tarea en la forma de dar la mejor oportunidad a un resultado satisfactorio.
 
@@ -45,5 +45,5 @@ Cuando vea oportunidades para mejorar el servicio, dedique el tiempo adecuado. V
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decida quién supervisará las guías públicas y otros anuncios de servicio para las nuevas características o servicios de los que su organización podría beneficiar.</li><li>Decidir el ritmo en el que se deben denunciar las nuevas características o servicios a los accionistas clave a través del Comité de dirección.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Implemente una estrategia para mantenerse al día con los servicios para obtener el máximo valor para su organización.</li><li>Impulsar las mejoras del servicio a través de un ciclo de vida de proyecto completo para asegurarse de que se ha contabilizado correctamente el impacto que tiene en su implementación.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul><li>Implemente una estrategia para mantenerse al día con los servicios para obtener el máximo valor para su organización.</li><li>Impulsar las mejoras del servicio a través de un ciclo de vida de proyecto completo para asegurarse de que se ha contabilizado correctamente el impacto que tiene en su implementación.</li></ul></td></tr>
 </table>

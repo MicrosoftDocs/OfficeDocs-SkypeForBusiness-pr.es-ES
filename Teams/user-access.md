@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 379573e7c671c3a5bca906cc3986bce068921b07
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f571dd461c6c783703159dfd6e9beb343612dd58
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833660"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779486"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Administrar el acceso de los usuarios a Microsoft Teams
 =====================================
@@ -39,7 +39,7 @@ Use las directivas de mensajería, que se controlan desde el centro de administr
 
 ## <a name="manage-teams-through-the-microsoft-365-admin-center"></a>Administrar equipos a través del centro de administración de Microsoft 365
 
-Las licencias de nivel de usuario de Teams se administran directamente a través de las interfaces de administración de usuarios del centro de administración de Microsoft 365. Un administrador puede asignar licencias a nuevos usuarios al crear cuentas de usuario, así como a los usuarios con cuentas existentes. El administrador debe tener privilegios de Administrador global de Office 365 o de Administración de usuarios para administrar las licencias de Microsoft Teams.
+Las licencias de nivel de usuario de Teams se administran directamente a través de las interfaces de administración de usuarios del centro de administración de Microsoft 365. Un administrador puede asignar licencias a nuevos usuarios al crear cuentas de usuario, así como a los usuarios con cuentas existentes. El administrador debe tener privilegios de administrador global o de administrador de administración de usuarios para administrar las licencias de Microsoft Teams.
 
 Cuando una SKU de licencia como E3 o E5 se asigna a un usuario, automáticamente se asigna una licencia de Microsoft Teams y el usuario queda habilitado para Microsoft Teams. Los administradores pueden tener un control granular de todos los servicios y las licencias de Office 365, y la licencia de Microsoft Teams para un usuario específico o un grupo de usuarios puede habilitarse o deshabilitarse.
 
@@ -75,6 +75,6 @@ Para deshabilitar Teams para todos los usuarios que tengan una licencia activa p
 |![Un icono que representa un punto de decisión](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Punto de decisión         |<ul><li>¿Cuál es el plan de su organización para comenzar a usar Teams en toda la organización?  (Piloto o abierto)</li></ul>         |
 |![Un icono que representa los pasos siguientes](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Siguientes pasos         |<ul><li>Si realiza la adopción a través de Piloto, decida si desea hacerlo a través de licencias o comunicación dirigida.</li><li>Según su decisión, realice los pasos para asegurarse de que solo los usuarios piloto puedan acceder a Teams (si es necesario).</li><li>Documente qué usuarios tendrán (o no tendrán) acceso a Teams.</li></ul>         |
 
-## <a name="manage-teams-at-the-office-365-tenant-level"></a>Administrar Teams en el nivel de espacio empresarial de Office 365
+## <a name="manage-teams-at-the-office-365-organization-level"></a>Administrar equipos en el nivel de la organización de Office 365
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 

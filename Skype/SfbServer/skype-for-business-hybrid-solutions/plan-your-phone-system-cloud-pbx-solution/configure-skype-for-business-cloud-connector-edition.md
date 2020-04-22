@@ -1,5 +1,5 @@
 ---
-title: Configuración y administración de Skype Empresarial Cloud Connector Edition
+title: Configuración y administración de Skype empresarial Cloud Connector Edition
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -19,38 +19,38 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
-description: Aprenda a configurar la edición de Skype empresarial Cloud Connector, una topología local mínima para habilitar la integración de su infraestructura de voz local con el sistema telefónico en los servicios de voz de Office 365 (PBX en la nube) en Skype empresarial online.
-ms.openlocfilehash: 5966fb4cc6bd7bd09e82f4a2907420f657a9097c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Obtenga información sobre cómo configurar Skype empresarial Cloud Connector Edition, una topología local mínima para habilitar la integración de su infraestructura de voz local con el sistema telefónico en los servicios de voz de Office 365 (PBX en la nube) en Skype empresarial online.
+ms.openlocfilehash: aa0d8fb37dcaddaca3835b25b94eba6a18e03636
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799740"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779166"
 ---
-# <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>Configuración y administración de Skype Empresarial Cloud Connector Edition
+# <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>Configuración y administración de Skype empresarial Cloud Connector Edition
  
-Aprenda a configurar la edición de Skype empresarial Cloud Connector, una topología local mínima para habilitar la integración de su infraestructura de voz local con el sistema telefónico en los servicios de voz de Office 365 (PBX en la nube) en Skype empresarial online. 
+Obtenga información sobre cómo configurar Skype empresarial Cloud Connector Edition, una topología local mínima para habilitar la integración de su infraestructura de voz local con el sistema telefónico en los servicios de voz de Office 365 (PBX en la nube) en Skype empresarial online. 
   
-Antes de empezar, debe revisar los requisitos previos de [plan de Skype empresarial Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md).
+Antes de empezar, debe revisar los requisitos previos de [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md).
   
 > [!IMPORTANT]
-> Los pasos incluidos en este tema se aplican solamente a Cloud Connector Edition 1.4.1. y versiones posteriores. Si aún no ha actualizado a Cloud Connector Edition 2.1, consulte [Upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md). Puede descargar el archivo de instalación de [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller). 
+> Los pasos de este tema solo se aplican a Cloud Connector Edition 1.4.1 y versiones posteriores. Si aún no ha actualizado a Cloud Connector Edition 2,1, consulte [Upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md). Puede descargar el archivo de instalación desde [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller). 
   
-## <a name="steps-to-configure-skype-for-business-cloud-connector-edition"></a>Pasos para configurar Skype Empresarial Cloud Connector Edition
+## <a name="steps-to-configure-skype-for-business-cloud-connector-edition"></a>Pasos para configurar Skype empresarial Cloud Connector Edition
 
-En la siguiente tabla se indican los pasos que necesitará seguir para instalar y configurar Skype Empresarial Cloud Connector Edition:
+En la siguiente tabla se enumeran los pasos necesarios para instalar y configurar Cloud Connector Edition:
   
 |**Paso**|**Descripción**|
 |:-----|:-----|
-|[Preparar el dispositivo de Cloud Connector](prepare-your-cloud-connector-appliance.md) <br/> |Descargue el archivo de instalación, prepare certificados, configure Hyper-V y Prepare su entorno para la implementación de Cloud Connector.  <br/> |
-|[Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) <br/> |Cree un sitio en su implementación de Cloud Connector.  <br/> |
-|[Implementar varios sitios en Cloud Connector](deploy-multiple-sites-in-cloud-connector.md) <br/> |Agregue sitios a la implementación y aprenda acerca de las diferencias entre implementaciones de un único sitio o de varios sitios.  <br/> |
-|[Configure Cloud Connector integration with your Office 365 tenant](configure-cloud-connector-integration-with-your-office-365-tenant.md) <br/> |Agregue registros de DNS, configure la conectividad híbrida, configure las puertas de enlace RTC y habilite a los usuarios para el correo de voz del Sistema telefónico de Office 365.  <br/> |
-|[Validate your Cloud Connector deployment](validate-your-cloud-connector-deployment.md) <br/> |Asegúrese de que la implementación funcione correctamente.  <br/> |
-|[Upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md) <br/> |Actualice la implementación existente de Cloud Connector a la versión 2.1.  <br/> |
-|[Modify the configuration of an existing Cloud Connector deployment](modify-the-configuration-of-an-existing-cloud-connector-deployment.md) <br/> |Cambie la configuración en Cloud Connector después de que ya se haya implementado.  <br/> |
-|[Implementación de omisión de medios en Cloud Connector Edition](deploy-media-bypass-in-cloud-connector.md) <br/> |Aprenda a implementar la omisión de medios en Cloud Connector.  <br/> |
-|[Cloud Connector cmdlet reference](cloud-connector-cmdlet-reference.md) <br/> |Aprenda acerca de los cmdlets de PowerShell usados en Cloud Connector.  <br/> |
-|[Solución de problemas con la implementación de Cloud Connector](troubleshoot-your-cloud-connector-deployment.md) <br/> |Soluciones a problemas comunes relacionados con la implementación de un conector de nube.  <br/> |
+|[Preparar el dispositivo de Cloud Connector](prepare-your-cloud-connector-appliance.md) <br/> |Descargue el archivo de instalación, prepare los certificados, configure Hyper-V y consiga que el entorno esté preparado para la implementación de Cloud Connector.  <br/> |
+|[Implementar un solo sitio en Cloud Connector](deploy-a-single-site-in-cloud-connector.md) <br/> |Cree un sitio en la implementación de Cloud Connector.  <br/> |
+|[Implementar varios sitios en Cloud Connector](deploy-multiple-sites-in-cloud-connector.md) <br/> |Agregue sitios a la implementación y obtenga información sobre las diferencias entre las implementaciones de un único sitio y de varios sitios.  <br/> |
+|[Configurar la integración de Cloud Connector con la organización de Office 365](configure-cloud-connector-integration-with-your-office-365-tenant.md) <br/> |Agregue registros DNS, configure Hybrid, configure puertas de enlace RTC y habilite a los usuarios para el sistema telefónico en el correo de voz de Office 365.  <br/> |
+|[Validar la implementación de Cloud Connector](validate-your-cloud-connector-deployment.md) <br/> |Asegúrese de que la implementación funciona correctamente.  <br/> |
+|[Actualizar a una nueva versión de Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md) <br/> |Actualice la implementación existente de Cloud Connector a la versión 2,1.  <br/> |
+|[Modificación de la configuración de una implementación existente de Cloud Connector](modify-the-configuration-of-an-existing-cloud-connector-deployment.md) <br/> |Cambie la configuración en Cloud Connector después de que ya se haya implementado.  <br/> |
+|[Implementación de la omisión de medios en Cloud Connector Edition](deploy-media-bypass-in-cloud-connector.md) <br/> |Obtenga información sobre cómo implementar la omisión de medios en Cloud Connector.  <br/> |
+|[Referencia del cmdlet de Cloud Connector](cloud-connector-cmdlet-reference.md) <br/> |Obtenga información sobre los cmdlets de PowerShell que se usan en Cloud Connector.  <br/> |
+|[Solución de problemas de la implementación de Cloud Connector](troubleshoot-your-cloud-connector-deployment.md) <br/> |Soluciones a problemas comunes encontrados con una implementación de Cloud Connector.  <br/> |
    
 

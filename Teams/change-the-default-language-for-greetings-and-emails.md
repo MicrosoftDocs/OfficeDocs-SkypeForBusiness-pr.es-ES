@@ -23,16 +23,16 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo configurar Skype para empresas para usar otro idioma para el saludo del buzón de voz predeterminado de su organización.
-ms.openlocfilehash: 1fb9a97c31e973d6a56da65d301324b1d9d34b90
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 5cff20da14dac942527b8b667731c24a47f0cf29
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43752347"
+ms.locfileid: "43780369"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Cambiar el idioma predeterminado en los saludos y los correos electrónicos
 
-Si es [administrador global de Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), puede configurar Skype Empresarial para que reproduzca el saludo predeterminado del correo de voz en otro idioma. El saludo predeterminado del sistema es similar a: "Deje un mensaje para John Smith. Grabe su mensaje después del tono. Cuando termine la grabación, cuelgue o presione la tecla almohadilla para tener acceso a otras opciones". 
+Si es un [administrador global](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), puede configurar Skype empresarial para reproducir el saludo predeterminado del buzón de voz en otro idioma. El saludo predeterminado del sistema es similar a: "Deje un mensaje para John Smith. Grabe su mensaje después del tono. Cuando termine la grabación, cuelgue o presione la tecla almohadilla para tener acceso a otras opciones". 
   
  **Primero, lea esta información importante:**
   
@@ -49,7 +49,7 @@ Si es [administrador global de Office 365](https://support.office.com/article/da
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Cambiar el idioma del sistema para todos los usuarios de la organización
 
-1. Inicie sesión con su cuenta de [administrador global de Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
+1. Inicia sesión con tu cuenta de [administrador global](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
 2. En el centro de administración de Microsoft 365 **, elija** > **Settings** > configuración configuración**Perfil de organización**. 
     

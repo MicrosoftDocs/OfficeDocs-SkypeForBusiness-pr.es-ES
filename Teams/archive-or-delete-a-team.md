@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e367fe85f1af35391fa00b4a416b6e796383d962
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: e065ddccd9781143b9c3522aa795f85ef0e118bb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826408"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780719"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivar o eliminar un equipo en Microsoft Teams
 ===========================================
@@ -98,7 +98,7 @@ De forma predeterminada, un grupo eliminado de Office 365 se conserva durante 30
     Connect-AzureAD
     ```
     Cuando se le solicite, inicie sesión con su cuenta de administrador y su contraseña.  
-2. Ejecute lo siguiente para mostrar una lista de todos los grupos de Office 365 eliminados de forma suave que siguen en un período de retención de 30 días. Use el parámetro **-All $True** si tiene una gran cantidad de grupos.
+2. Ejecute lo siguiente para mostrar una lista de todos los grupos de Microsoft 365 eliminados temporalmente que aún se encuentran en el período de retención de 30 días. Use el parámetro **-All $True** si tiene una gran cantidad de grupos.
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ``` 

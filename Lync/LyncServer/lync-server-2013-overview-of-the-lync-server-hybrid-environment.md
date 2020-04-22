@@ -12,12 +12,12 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 480e4a097a3faa8dc70d05ff72027fd6e65e5a76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b39c94b08da65e546fdf3ad01d42ada636ff371d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215856"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780759"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +59,7 @@ Tendrá que tener instaladas las siguientes aplicaciones y utilidades para compl
 
   - [Instalar Windows PowerShell para el inicio de sesión único con AD FS](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - El Asistente para el inicio de sesión de Microsoft Online Services (msoidcli-7.0. msi) se incluye en la configuración de escritorio de Office 365, que se puede obtener en la página de descargas a la que se vincula desde el portal de administración de Office 365.
+  - El Asistente para el inicio de sesión de Microsoft Online Services (msoidcli-7.0. msi) se incluye en la configuración de escritorio de Office 365, que se puede obtener en la página de descargas a la que se vincula desde el centro de administración de Microsoft 365.
 
 </div>
 
@@ -67,7 +67,7 @@ Tendrá que tener instaladas las siguientes aplicaciones y utilidades para compl
 
 ## <a name="administrator-credentials"></a>Credenciales de administrador
 
-Cuando se le pida que proporcione sus credenciales de administrador, use el nombre de usuario y la contraseña de la cuenta de administrador del inquilino de Office 365. También usará estas credenciales para configurar los servicios de Federación de Active Directory (AD FS) 2,0, la sincronización de directorios, el inicio de sesión único, la Federación y el traslado de usuarios a Lync Online.
+Cuando se le pida que proporcione sus credenciales de administrador, use el nombre de usuario y la contraseña de la cuenta de administrador de la organización de Office 365. También usará estas credenciales para configurar los servicios de Federación de Active Directory (AD FS) 2,0, la sincronización de directorios, el inicio de sesión único, la Federación y el traslado de usuarios a Lync Online.
 
 </div>
 

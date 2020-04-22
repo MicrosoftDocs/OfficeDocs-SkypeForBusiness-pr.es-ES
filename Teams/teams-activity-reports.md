@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddbfd37754ed5ab1347fb198936c1df3f43b356c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9f3f35318c2ccfdf791becba0ae67208484c883c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835480"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779056"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Use los informes de actividades de Microsoft Teams 
 ========================================
@@ -94,7 +94,7 @@ Puede obtener una vista del uso de los dispositivos de Teams consultando los gr√
 
 Los usuarios asignados pueden obtener acceso a los informes de actividades:
 
-- Rol de administrador global de Office 365
+- Rol de administrador global
 - Rol de administrador espec√≠fico de producto (Exchange, Skype empresarial o SharePoint)
 - Rol lector de informes
 

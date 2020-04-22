@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Lea este tema para revisar las consideraciones de planeación para implementar la omisión de medios con Cloud Connector Edition, versión 2,0 y posteriores. Para obtener información sobre la implementación de la omisión de medios, vea deploy media bypass in Cloud Connector Edition.
-ms.openlocfilehash: 47b8d9e5d0b69b95c48f89591d75d53591b7426c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f9da5df4815c731b479f5d2333f26546be0daf4c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010313"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778786"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planeación del desvío de medios en Cloud Connector Edition
  
@@ -37,7 +37,7 @@ La omisión de medios puede mejorar la calidad de la voz al reducir la latencia,
 
 Mientras que la señalización toma la misma ruta de acceso con o sin omisión de medios, el flujo de medios será diferente. En los siguientes diagramas se muestran los medios y las rutas de señalización en topologías con desvío de medios y sin ellos. 
   
-Por ejemplo, en la siguiente topología, que no emplea la omisión de medios, un cliente de Skype empresarial realiza una llamada RTC a un número externo, la señalización SIP va a Office 365 y Office 365, a continuación, dirige el tráfico de señalización de acuerdo con la voz del usuario final. normativa. Para los usuarios de Cloud Connector, la Directiva de voz dirige el tráfico de señalización al servidor perimetral de Cloud Connector, que luego enruta el tráfico de señalización a un controlador de borde de sesión (SBC) o una puerta de enlace de sesión RTC a través del servidor de mediación de Cloud Connector. Los medios fluyen desde el cliente de Skype empresarial al servidor de mediación de Cloud Connector y, a continuación, a la SBC o la puerta de enlace, como se muestra en el siguiente diagrama:
+Por ejemplo, en la siguiente topología, que no emplea la omisión de medios, un cliente de Skype empresarial realiza una llamada RTC a un número externo, la señalización SIP va a Office 365 y Office 365, a continuación, dirige el tráfico de señalización de acuerdo con la Directiva de voz del usuario final. Para los usuarios de Cloud Connector, la Directiva de voz dirige el tráfico de señalización al servidor perimetral de Cloud Connector, que luego enruta el tráfico de señalización a un controlador de borde de sesión (SBC) o una puerta de enlace de sesión RTC a través del servidor de mediación de Cloud Connector. Los medios fluyen desde el cliente de Skype empresarial al servidor de mediación de Cloud Connector y, a continuación, a la SBC o la puerta de enlace, como se muestra en el siguiente diagrama:
   
 **Rutas de señalización y medios sin desvío de medios**
 
@@ -75,14 +75,14 @@ Si un cliente está fuera de la red corporativa que realiza una llamada saliente
   
 ## <a name="supported-clients-for-media-bypass"></a>Clientes admitidos para el desvío de medios
 
-Con la primera versión de la omisión de medios, el único cliente compatible es el cliente de Skype empresarial 2016 Windows que forma parte de Office 365 ProPlus, versión 16.0.7870.2020 o posterior. Los clientes pueden usar cualquier canal: actual, aplazada o primera versión aplazada. 
+Con la primera versión de la omisión de medios, el único cliente compatible es el cliente de Skype empresarial 2016 Windows que forma parte de Microsoft 365 apps for Enterprise, versión 16.0.7870.2020 o superior. Los clientes pueden usar cualquier canal: actual, aplazada o primera versión aplazada. 
   
 > [!NOTE]
 > Si usa una solución de VPN de cliente en combinación con el cliente de Skype empresarial, la omisión de medios solo se admite con una configuración de túnel dividido de VPN. 
   
-Para obtener más información acerca de los canales de versión, vea [información general sobre los canales de actualización para Office 365 ProPlus](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US).
+Para obtener más información sobre los canales de la versión, consulte [información general sobre los canales de actualización para las aplicaciones de Microsoft 365 para empresas](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US).
   
-Para la versión de lanzamiento actual de los clientes de distintos canales, vea la [información de la versión para las actualizaciones de Office 365 ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus). 
+Para la versión de lanzamiento actual de los clientes en distintos canales, vea la [información sobre la versión de las actualizaciones de las aplicaciones de Microsoft 365 para empresas](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus). 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>Consideraciones de capacidad de Cloud Connector con desvío de medios
 
@@ -107,7 +107,7 @@ Por ejemplo, en el siguiente diagrama, los usuarios de Europa deben estar bien c
 ![Capacidad de Cloud Connector](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
   
 > [!NOTE]
-> Si un usuario de Zurich se desplaza a la oficina de Seattle y desea usar la red interna para entregar el tráfico de medios entre el usuario que viaja y las puertas de enlace en Europa (en lugar de pasar por Internet), debe asegurarse de que la oficina de Seattle y la Amsterdam la oficina donde se encuentran las puertas de enlace o SBC europeos están calificadas como bien conectadas. 
+> Si un usuario de Zurich se desplaza a la oficina de Seattle y desea usar la red interna para entregar el tráfico de medios entre el usuario que viaja y las puertas de enlace en Europa (en lugar de pasar por Internet), debe asegurarse de que la oficina de Seattle y la oficina de Amsterdam en la que se encuentran las puertas de enlace o SBC europeos están calificadas como bien conectadas. 
   
 ## <a name="codecs-used-in-media-bypass"></a>Códecs usados en la omisión de medios
 

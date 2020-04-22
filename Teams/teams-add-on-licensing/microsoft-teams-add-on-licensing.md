@@ -21,12 +21,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga más información sobre las licencias complementarias, las características que obtendrá con cada licencia, cómo comprarlos para el producto y cómo usar el transportista existente.
-ms.openlocfilehash: 10f8b8d0af5c0c70d68c6fbdba561b15af41f64b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 93d3ea0637063a2422871ba82e037c8f01e36299
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140823"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780519"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Licencias complementarias de Microsoft Teams
 
@@ -65,8 +65,8 @@ Dependiendo de su plan, puede comprar licencias complementarias para las siguien
 
 Las opciones de licencias complementarias disponibles para usted dependen de su plan Office 365. Consulte los siguientes temas para obtener información, características y opciones que son específicas de su plan.
 
-- [Office 365 Empresa Premium](office-365-business-premium.md)
-- [Office 365 ProPlus](office-365-premium-pro-plus.md)
+- [Microsoft 365 Business Standard](office-365-business-premium.md)
+- [Aplicaciones de Microsoft 365 para empresas](office-365-premium-pro-plus.md)
 - [Office 365 Enterprise E1 o E3](office-365-enterprise-e1-e3.md)
 - [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5 (sin audioconferencia)](office-365-enterprise-e5-without-audio-conferencing.md)

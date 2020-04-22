@@ -15,12 +15,12 @@ f1.keywords:
 description: Cómo activar y administrar la grabación de reuniones en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1098b1e316bb6ed747577183fc144bf2db7d0b9d
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: f358a0099da3f759e50f02b7bb7a5226069fcd28
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43751857"
+ms.locfileid: "43780339"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -51,7 +51,7 @@ En esta sección se explica cómo puede configurar y planear la grabación de re
 
 ### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>Activar Microsoft Stream para los usuarios de la organización
 
-Microsoft Stream está disponible como parte de las suscripciones de Office 365 válidas o como un servicio independiente.  Para obtener más información, consulte [Información general sobre licencias de Stream](https://docs.microsoft.com/stream/license-overview)  Microsoft Stream está ahora incluido en Microsoft 365 Empresa, Office 365 Empresa Premium y Office 365 Empresa Essentials.
+Microsoft Stream está disponible como parte de las suscripciones Microsoft 365 y Office 365 y como un servicio independiente.  Para obtener más información, consulte [Información general sobre licencias de Stream](https://docs.microsoft.com/stream/license-overview)  Microsoft Stream está ahora incluido en Microsoft 365 Business, Microsoft 365 Business Standard y Microsoft 365 Business Basic.
 
 Obtenga más información sobre cómo [asignar licencias a los usuarios en Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) de modo que los usuarios puedan tener acceso a Microsoft Stream. Asegúrese de que Microsoft Stream no esté bloqueado para los usuarios, como se define en [este artículo](https://docs.microsoft.com/stream/disable-user-organization).
 

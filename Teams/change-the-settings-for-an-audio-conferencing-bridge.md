@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: Cambiar la configuración del puente de audioconferencia, incluidas las notificaciones de entrada y salida, reproducir nombres o números de teléfono, tonos y pedir a las personas que llaman para que graben su nombre.
-ms.openlocfilehash: aaff3518675e1db56340f9dc1568b994cf2ed6e6
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 48028ccb3f2a0664f9fa724ec91e1dfc0177326f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139089"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780349"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de Audioconferencias.
 
@@ -90,7 +90,7 @@ El puente de conferencia responde a una llamada y le pide a la persona que llama
     
 Vea **Cambiar la configuración de un puente de conferencias de acceso telefónico local de Microsoft**.
   
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión con su cuenta profesional o educativa.
     
 2. Vaya al **Centro** > de administración de Microsoft 365**Skype empresarial**.
     
@@ -103,7 +103,7 @@ Vea **Cambiar la configuración de un puente de conferencias de acceso telefóni
   
 **Seleccione si desea enviar correo electrónico a los usuarios**
   
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión con su cuenta profesional o educativa.
     
 2. Vaya al **Centro** > de administración de Microsoft 365**Skype empresarial**.
     

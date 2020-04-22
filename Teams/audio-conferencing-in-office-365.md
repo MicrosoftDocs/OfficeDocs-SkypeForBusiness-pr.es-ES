@@ -1,5 +1,5 @@
 ---
-title: Audio conferencia en Office 365
+title: Audioconferencia en Microsoft 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-mar2020
 description: Obtenga más información sobre las conferencias de audio en Office 365, incluidos los costos, la disponibilidad y los números de teléfono dedicados.
-ms.openlocfilehash: 5fef21489bbbceb490a2b97d70ee9dbafd2a791c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fb61c9445358949677358220e881dbe318ff64b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139019"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780419"
 ---
-# <a name="audio-conferencing-in-office-365"></a>Audio conferencia en Office 365
+# <a name="audio-conferencing-in-microsoft-365"></a>Audioconferencia en Microsoft 365
 La audio conferencia en Office 365 permite a los usuarios llamar a las reuniones desde sus teléfonos. La audio conferencia permite hasta 250 asistentes telefónicos.
 
 ## <a name="what-is-audio-conferencing"></a>¿Qué es una audio conferencia?
@@ -68,7 +68,7 @@ Hay dos tipos de números de teléfono de audio conferencia que pueden ser asign
   
  Los **números de teléfono dedicados** son aquellos que solo están disponibles para los usuarios de su organización. Los idiomas que se emplean cuando alguien llama a uno de estos números se pueden cambiar. Necesitará conseguir un número de teléfono de servicio para esto.
   
- Los **números de teléfono compartidos** son aquellos números de teléfono que se pueden compartir con otras organizaciones de Office 365. No es posible cambiar los idiomas que se emplean cuando alguien llama a uno de estos números.
+ Los **números de teléfono compartidos** son aquellos números de teléfono que se pueden compartir con otros usuarios de Microsoft 365 u Office 365S. No es posible cambiar los idiomas que se emplean cuando alguien llama a uno de estos números.
   
 Si bien el número de conferencia de acceso telefónico local que se asigna a un organizador es el único que se incluye en la invitación de la reunión, la persona que llama puede usar cualquiera de los números de teléfono que están asignados al puente de conferencia para unirse a una reunión. La lista de estos números de teléfono que se pueden usar para unirse a una reunión está disponible en el vínculo **Buscar un número local** que se incluye en cada invitación a una reunión.
 

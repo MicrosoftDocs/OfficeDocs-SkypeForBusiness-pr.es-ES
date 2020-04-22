@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Siga los pasos de este tema para modificar la configuración de una implementación existente de Skype empresarial Cloud Connector Edition 1.4.1 o posterior.
-ms.openlocfilehash: 4c2c0b8ad5340cd4ae4275f1ac009bf3d9d3ec0b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 77e9940e10cc356afbade5592bf41a0cdba66b0f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018011"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779386"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modificación de la configuración de una implementación existente de Cloud Connector
  
@@ -109,7 +109,7 @@ Si hay más de un dispositivo en el sitio, tendrá que seguir estos pasos, modif
 
 Para modificar la configuración de varios sitios en una implementación, siga los pasos de un sitio único, actualizando un sitio cada vez.
   
-## <a name="modify-the-configuration-of-your-office-365-tenant-to-enable-automatic-updates"></a>Modificar la configuración de su inquilino de Office 365 para habilitar las actualizaciones automáticas
+## <a name="modify-the-configuration-of-your-office-365-organization-to-enable-automatic-updates"></a>Modificar la configuración de la organización de Office 365 para habilitar las actualizaciones automáticas
 <a name="BKMK_MultipleSites"> </a>
 
 Para habilitar las actualizaciones automáticas del sistema operativo y las actualizaciones automáticas de bits, debe usar la cuenta de administrador de inquilinos de Skype empresarial para la administración en línea y usar PowerShell remoto del inquilino de la siguiente manera.
@@ -161,7 +161,7 @@ Si deshabilitó las actualizaciones automáticas del sistema operativo o actuali
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>Actualizar las credenciales de administrador del espacio dedicado
 <a name="BKMK_MultipleSites"> </a>
 
-Los cambios administrativos en el inquilino de Office 365 para Cloud Connector se realizan desde una cuenta con los permisos necesarios. En la versión de Cloud Connector anterior a 2,0, esa cuenta es una cuenta de administrador de inquilino global dedicada. En Cloud Connector versiones 2,0 y posteriores, esa cuenta puede ser una cuenta de Office 365 con derechos de administrador de Skype empresarial.
+Los cambios administrativos en la organización de Office 365 para Cloud Connector se realizan desde una cuenta con los permisos necesarios. En la versión de Cloud Connector anterior a 2,0, esa cuenta es una cuenta de administrador de inquilino global dedicada. En Cloud Connector versiones 2,0 y posteriores, esa cuenta puede ser una cuenta de Office 365 con derechos de administrador de Skype empresarial.
   
 Si las credenciales de la cuenta de administrador cambian en Office 365, también deberá actualizar las credenciales almacenadas en caché local en Cloud Connector mediante la ejecución del siguiente comando de PowerShell de administrador en cada dispositivo de Cloud Connector que haya implementado:
   

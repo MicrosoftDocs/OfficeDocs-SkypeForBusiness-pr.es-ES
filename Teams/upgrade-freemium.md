@@ -1,5 +1,5 @@
 ---
-title: Actualizar Microsoft Teams gratis a suscripción de Office 365
+title: Actualizar Microsoft Teams gratis a la suscripción
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,20 +19,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92bb76f58983e4605d5a1be147bb898aee1a5832
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: a96bb03a511a776e2f7e4aded5cd79f66fe2106c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170528"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780449"
 ---
-# <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Actualizar Microsoft Teams gratuito a la versión de suscripción de Office 365
+# <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>Actualizar Microsoft Teams gratis a la versión de suscripción
 ======================================================
 
-Si su organización usa la versión gratuita de Microsoft Teams, puede actualizar fácilmente a la versión completa al comprar un plan de suscripción de Office 365 para sus usuarios. La versión completa ofrece características adicionales de Teams, como la programación, la audioconferencia, la administración mejorada y las capacidades de seguridad, que la versión gratuita no proporciona. Office 365 combina el conocido conjunto de aplicaciones de escritorio de Microsoft Office con versiones basadas en la nube de los servicios de colaboración y comunicaciones de nueva generación de Microsoft, entre los que se incluyen Exchange Online, SharePoint Online y Office, para ayudar a los usuarios a ser productivos desde prácticamente cualquier lugar a través de Internet. Al actualizar equipos, los datos existentes de los equipos no se perderán. todos sus equipos, canales, chats, archivos y permisos vienen con usted. 
+Si su organización usa la versión gratuita de Microsoft Teams, puede actualizar fácilmente a la versión completa si compra un plan de suscripción a Microsoft 365 o a Office 365 para sus usuarios. La versión completa ofrece características adicionales de Teams, como la programación, la audioconferencia, la administración mejorada y las capacidades de seguridad, que la versión gratuita no proporciona. Office 365 combina el conocido conjunto de aplicaciones de escritorio de Microsoft Office con versiones basadas en la nube de los servicios de colaboración y comunicaciones de nueva generación de Microsoft, entre los que se incluyen Exchange Online, SharePoint Online y Office, para ayudar a los usuarios a ser productivos desde prácticamente cualquier lugar a través de Internet. Al actualizar equipos, los datos existentes de los equipos no se perderán. todos sus equipos, canales, chats, archivos y permisos vienen con usted. 
 
 > [!NOTE]
-> Si ya tiene una suscripción de Office 365, es elegible para la versión de prueba de Teams (con su identidad corporativa), no la versión gratuita. La versión de prueba de Teams proporciona la versión completa de Teams durante un período de tiempo limitado. Para obtener más información, vea [administrar la oferta de evaluación de la nube comercial de Microsoft Teams](iw-trial-teams.md).
+> Si ya tiene una suscripción a Microsoft 365 u Office 365, es elegible para la versión de prueba de Teams (con su identidad corporativa), no la versión gratuita. La versión de prueba de Teams proporciona la versión completa de Teams durante un período de tiempo limitado. Para obtener más información, vea [administrar la oferta de evaluación de la nube comercial de Microsoft Teams](iw-trial-teams.md).
 
 ## <a name="how-does-teams-free-compare-to-the-full-version-of-teams"></a>¿Cómo se compara Teams con la versión completa de Teams?
 
@@ -47,7 +47,7 @@ Teams Free está diseñado para empresas pequeñas y medianas y tiene las siguie
 - Reuniones de canal
 - Pantalla compartida
 
-La versión completa de teams que se incluye con una suscripción de Office 365 proporciona las siguientes características además de las características que Teams ofrece:
+La versión completa de teams que incluye una suscripción a Microsoft 365 u Office 365 proporciona las siguientes características además de las características que Teams ofrece de forma gratuita:
 
 - Sin límite de usuarios (con una licencia empresarial)
 - Hospedaje de correo electrónico de Exchange y dominio de correo electrónico personalizado
@@ -85,7 +85,7 @@ Para actualizar a la versión completa de Teams, seleccione **Actualizar** en Te
 
 ![captura de pantalla que muestra el botón actualizar](media/teams-freemium-upgrade-image1.png)
 
-Escriba la dirección de correo electrónico que usa para iniciar sesión en Teams y, a continuación, compre un plan de Office 365 empresa Premium. Si desea comprar Office 365 Business Essentials o una edición Enterprise de Office 365, [póngase en contacto con el soporte técnico](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade).
+Escriba la dirección de correo electrónico que usa para iniciar sesión en Teams y, a continuación, compre un plan de Microsoft 365 Business Standard. Si desea comprar Microsoft 365 Business Basic o una edición Enterprise de Office 365, [póngase en contacto con el soporte técnico](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade).
 
 ## <a name="whats-next"></a>¿Y ahora qué?
 

@@ -13,15 +13,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anach
 search.appverid: MET150
-description: Aprenda a recuperar datos de Microsoft Teams del registro de auditoría de Office 365.
+description: Obtenga información sobre cómo recuperar datos de Microsoft Teams del registro de auditoría.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f53d1a0b5e600de9d38233b243dba3486b88bf1
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 9b1235dcd1a33800185eb005f5e309204790c5b1
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341628"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778896"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -41,11 +41,11 @@ El registro de auditoría puede ayudarle a investigar actividades específicas e
 > [!NOTE]
 > Los eventos de auditoría de canales privados también se registran como si se trataran de equipos y canales estándar.
 
-Para ver la lista completa de actividades auditadas en Office 365, consulte [Buscar en el registro de auditoría del Centro de seguridad y cumplimiento de Office 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
+Para ver la lista completa de actividades que se auditan en Microsoft 365, lea [Buscar el registro de auditoría en el centro de cumplimiento de microsoft 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
 ## <a name="turn-on-auditing-in-teams"></a>Activar la auditoría en Microsoft Teams
 
-Para poder consultar los datos de auditoría, primero debe activar la auditoría en el [centro de cumplimiento de & de seguridad](https://protection.office.com). Para obtener ayuda para activar la auditoría, consulte [Activar o desactivar la búsqueda de registros de auditoría de Office 365](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Para poder consultar los datos de auditoría, primero debe activar la auditoría en el [centro de cumplimiento de & de seguridad](https://protection.office.com). Para obtener ayuda para activar la auditoría, lea [activar o desactivar la búsqueda de registros de auditoría](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 > [!IMPORTANT]
 > Los datos de auditoría solo están disponibles desde el momento en que se habilitó la auditoría.
@@ -65,7 +65,7 @@ Un escenario que quizás desee mantener a la vista desde una perspectiva empresa
 
 ![Captura de pantalla de una lista de eventos desencadenada por eliminaciones masivas](media/TeamsExternalUserAddPolicy.png)
 
-La captura de pantalla de esta directiva para supervisar adiciones de usuarios externos le permite asignar un nombre a la Directiva, establecer la gravedad según sus necesidades empresariales, establecerla como (en este caso) una sola actividad y, a continuación, establecer los parámetros que solo supervisarán específicamente la adición. de usuarios no internos y limitar esta actividad a Microsoft Teams.
+La captura de pantalla de esta directiva para supervisar adiciones de usuarios externos le permite asignar un nombre a la Directiva, establecer la gravedad según las necesidades de su empresa, establecerla como (en este caso) una sola actividad y, a continuación, establecer los parámetros que solo supervisarán específicamente la adición de usuarios no internos y limitarán esta actividad a Microsoft Teams.
 
 Entonces, los resultados de esta directiva podrán verse en el registro de actividades:
 

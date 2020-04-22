@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga más información sobre la identificación de llamadas predeterminada de Office 365 (el número de teléfono asignado a un usuario), también conocido como identificador de línea de llamada. Puede cambiar o bloquear la identificación de llamadas de un usuario.
-ms.openlocfilehash: c04fdfa7dc395f31eb3277fe0ab2f77aa92605c7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3e19b1de929057880573c29ba75aa0ec1091139f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140913"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780529"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Establecer el identificador de llamada de un usuario
 El Sistema telefónico en Office 365 proporciona un identificador de llamada predeterminado que es el número de teléfono asignado al usuario. Si lo desea, puede cambiar o bloquear el identificador de llamada (también denominado identificador de línea de llamada) para un usuario. Para obtener más información sobre cómo usar la identificación de llamadas en su organización, vaya a [cómo se puede usar la identificación de llamadas en la organización](how-can-caller-id-be-used-in-your-organization.md).
@@ -79,7 +79,7 @@ Para obtener más información sobre esta configuración y cómo usarla, vaya [C
     
 1. En el **menú Inicio** > **Windows PowerShell**.
     
-2. En la ventana **Windows PowerShell**, puede conectarse a su organización de Office 365 ejecutando:
+2. En la ventana de **Windows PowerShell** , conéctese a Microsoft 365 u Office 365 ejecutando:
     
    > [!NOTE]
    > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.

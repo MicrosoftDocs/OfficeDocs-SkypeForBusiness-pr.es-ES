@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 Empresa Premium '
+title: 'Microsoft 365 Business Standard '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,17 +18,17 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Obtenga más información sobre las licencias de complementos, las características y cómo comprar planes de Office 365 Business Premium. '
-ms.openlocfilehash: b51724524f56fe534c95ede85bca7535ab1be396
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 'Obtenga más información sobre las licencias de complementos, las características y cómo comprar planes de Microsoft 365 Business Standard. '
+ms.openlocfilehash: 20aacf46acf60bb581056654babc85277f41ee45
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826568"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780509"
 ---
-# <a name="office-365-business-premium"></a>Office 365 Empresa Premium
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Standard
 
-Si tiene [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), puede usar Microsoft Teams para hacer llamadas a otras personas de su empresa que estén en su plan. Por ejemplo, si su empresa tiene 10 personas, puede usar Teams para llamar y enviar mensajes instantáneos entre sí.
+Si tiene [microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium), puede usar Microsoft Teams para hacer llamadas a otras personas de su empresa que estén en su plan. Por ejemplo, si su empresa tiene 10 personas, puede usar Teams para llamar y enviar mensajes instantáneos entre sí.
 
 
 **Para realizar y recibir llamadas de personas externas a su empresa, tiene estas opciones**:
@@ -54,7 +54,7 @@ Si tiene [Office 365 Business Premium](https://products.office.com/en/business/o
 
  **Para obtener conferencias de audio:**
 
-1. Inicie sesión en el centro de administración de Microsoft 365.
+1. Inicie sesión en el Centro de administración de Microsoft 365.
 
 2. Vaya a**suscripciones del complemento****servicios** > de compra de **facturación** > .
 
@@ -62,7 +62,7 @@ Si tiene [Office 365 Business Premium](https://products.office.com/en/business/o
 
 **Para obtener créditos de comunicaciones**
 
-1. Inicie sesión en el centro de administración de Microsoft 365.
+1. Inicie sesión en el Centro de administración de Microsoft 365.
 
 2. Vaya a**suscripciones del complemento****servicios** > de compra de **facturación** > .
 

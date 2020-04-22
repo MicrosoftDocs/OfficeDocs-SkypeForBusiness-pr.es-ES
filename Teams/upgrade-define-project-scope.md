@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef2f257934847f74466ff6f91890a667084b88d1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8c3e3e9d3253fef62c93751367647399ca91febd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139669"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780609"
 ---
 # <a name="define-your-project-scope"></a>Definir el ámbito del proyecto
 
@@ -93,7 +93,7 @@ En la tabla siguiente se muestran ejemplos de OKRs y KSIs para las fases inicial
 |---|---|---|---|---|
 | **Red y calidad** | El porcentaje de llamadas de audio deficientes debe ser mínimo | [Panel de calidad de llamadas (CQD)](https://aka.ms/sof-cqd) | \<3% de llamadas inadecuadas con equipos | Semanal y después mensual |
 | **Uso y conciencia** | El chat, las reuniones y la experiencia de llamadas son iguales o mejores que Skype empresarial | Encuesta | 80% de acuerdo o totalmente de acuerdo | Semana a través de pruebas piloto, posteriores a la implementación |
-| **Uso y adopción** | Los usuarios utilizan la solución activamente | Informes de Office 365 o CQD | 90% de la participación de usuarios piloto, mejor que la solución actual | Semanal y después mensual |
+| **Uso y adopción** | Los usuarios utilizan la solución activamente | Informes de Microsoft 365 o CQD | 90% de la participación de usuarios piloto, mejor que la solución actual | Semanal y después mensual |
 | **Uso y formación** | Disponíamos de recursos de aprendizaje/ayuda adecuados para usar Teams correctamente | Encuesta posterior a la prueba piloto | 80% de acuerdo o totalmente de acuerdo | Posterior a la implementación después de la prueba piloto |
 | **Satisfacción del usuario** | Recomendaría Teams a otros usuarios | [Puntuación de Promoter neta (NPS)](http://www.npscalculator.com/en) a través de una encuesta posterior a la prueba piloto | NPS \> 0 | Posterior a la implementación después de la prueba piloto |
 | **Impulsor de negocios** | Ahorro de costos | Cuentas por pagar | \$X millones de gastos en soluciones de terceros | Seis meses, después un año, después de cinco años posterior al lanzamiento |

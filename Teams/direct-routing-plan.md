@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión (SBC) compatible suministrado por el cliente a Microsoft Phone System.
-ms.openlocfilehash: bc092c2441ff359de1189e1ff000a61c51dcec1f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0140e4d2cfae95531602daec5a859a85888e9d15
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140289"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780699"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -71,11 +71,11 @@ En la tabla siguiente se enumeran los requisitos de infraestructura para los SBC
 |:--- |:--- |
 |Controlador de borde de sesión (SBC)|Una SBC compatible. Para obtener más información, consulte [SBCS admitido](#supported-session-border-controllers-sbcs).|
 |Troncos de telefonía conectados a la SBC|Uno o más troncos de telefonía conectados a la SBC. En un extremo, el SBC se conecta al sistema telefónico de Microsoft a través del enrutamiento directo. La SBC también se puede conectar a entidades de telefonía de terceros, como PBX, adaptadores de telefonía analógicos, etc. Cualquier opción de conectividad de RTC conectada a SBC funcionará. (Para la configuración de los troncos de la RTC a la SBC, consulte los proveedores de SBC o los proveedores de troncal).|
-|Inquilino de Office 365|Un inquilino de Office 365 que usa para alojar a los usuarios de Microsoft Teams, así como la configuración y la conexión a SBC.|
+|Organización 365 de Office|Una organización de Office 365 que usa para alojar a los usuarios de Microsoft Teams, así como la configuración y la conexión a SBC.|
 |Registrador de usuario|El usuario debe estar alojado en Office 365.<br/>Si su empresa tiene un entorno local de Skype empresarial o de Lync con conectividad híbrida con Office 365, no puede habilitar la voz en Teams para un usuario de ubicación local.<br/><br/>Para comprobar el registrador de un usuario, use el siguiente cmdlet de PowerShell de Skype empresarial online:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>El resultado del cmdlet debe mostrar:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Dominios|Uno o más dominios agregados a sus inquilinos de Office 365.<br/><br/>Tenga en cuenta que no puede usar el dominio \*predeterminado,. onmicrosoft.com, que se crea automáticamente para su inquilino.<br/><br/>Para ver los dominios, puede usar el siguiente cmdlet de PowerShell de Skype empresarial online:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Para obtener más información sobre los dominios y los inquilinos de Office 365, consulte [preguntas más frecuentes](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)sobre los dominios.|
+|Dominios|Uno o más dominios agregados a sus organizaciones de Office 365.<br/><br/>Tenga en cuenta que no puede usar el dominio \*predeterminado,. onmicrosoft.com, que se crea automáticamente para su inquilino.<br/><br/>Para ver los dominios, puede usar el siguiente cmdlet de PowerShell de Skype empresarial online:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Para obtener más información sobre los dominios y las organizaciones de Office 365, consulte [preguntas más frecuentes sobre dominios](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
 |Dirección IP pública para el SBC|Una dirección IP pública que se puede usar para conectarse a SBC. Según el tipo de SBC, el SBC puede usar NAT.|
-|Nombre de dominio completo (FQDN) para el SBC|Un FQDN para el SBC, donde la parte de dominio del FQDN es uno de los dominios registrados de su inquilino de Office 365. Para obtener más información, consulte [nombres de dominio de SBC](#sbc-domain-names).|
+|Nombre de dominio completo (FQDN) para el SBC|Un FQDN para el SBC, donde la parte de dominio del FQDN es uno de los dominios registrados de su organización de Office 365. Para obtener más información, consulte [nombres de dominio de SBC](#sbc-domain-names).|
 |Entrada DNS pública para SBC |Una entrada DNS pública que asigna el FQDN de SBC a la dirección IP pública. |
 |Certificado de confianza pública para SBC |Un certificado para que la SBC se use para todas las comunicaciones con enrutamiento directo. Para obtener más información, consulte [certificado público de confianza para SBC](#public-trusted-certificate-for-the-sbc).|
 |Puntos de conexión para enrutamiento directo |Los puntos de conexión para el enrutamiento directo son los tres FQDN siguientes:<br/><br/>`sip.pstnhub.microsoft.com`(FQDN global) debe probarse en primer lugar.<br/>`sip2.pstnhub.microsoft.com`-FQDN secundario, se asigna geográficamente a la segunda región prioritaria.<br/>`sip3.pstnhub.microsoft.com`– El FQDN terciario se asigna geográficamente a la tercera región de prioridad.<br/><br/>Para obtener información sobre los requisitos de configuración, consulte [señalización SIP: FQDN](#sip-signaling-fqdns).|
@@ -191,7 +191,7 @@ Microsoft está trabajando en la adición de entidades de certificación adicion
 ## <a name="sip-signaling-fqdns"></a>Señalización SIP: FQDN 
 
 El enrutamiento directo se ofrece en los siguientes entornos de Office 365:
-- Office 365
+- Creación de inquilino
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
@@ -252,7 +252,7 @@ Necesitas abrir puertos para todas estas direcciones IP en tu firewall para perm
 ## <a name="sip-signaling-ports"></a>Señalización SIP: puertos
 
 Debe usar los siguientes puertos para los entornos de Office 365 donde se ofrece un enrutamiento directo:
-- Office 365
+- Creación de inquilino
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
@@ -351,6 +351,6 @@ Los dispositivos que se han validado se enumeran como certificados para el enrut
 Para obtener más información sobre SBCs admitido, vea [lista de controladores de borde de sesión certificados para enrutamiento directo](direct-routing-border-controllers.md).
 
  
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar el enrutamiento directo](direct-routing-configure.md)

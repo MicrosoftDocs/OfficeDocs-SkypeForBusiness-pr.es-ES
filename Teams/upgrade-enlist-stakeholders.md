@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5244bd063caae9b0fab1411f4644e3adbd337431
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: e7e8effb58130a177e193db006ec6e0279f27309
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42707000"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780599"
 ---
 # <a name="enlist-your-project-stakeholders"></a>Incorporar a las partes interesadas del proyecto
 
@@ -61,7 +61,7 @@ De manera opcional, puede crear un Comité de dirección. En ocasiones, los proy
 | Responsable de telefonía | Proporciona información sobre el diseño y la implementación de telefonía. |
 | Propietario del servicio y experto en calidad | Es propietario de la operación de todos los equipos, incluida la calidad de la experiencia del usuario. |
 | Responsable de escritorio y dispositivos | Proporciona información en clientes, dispositivos y aplicaciones de escritorio |
-| Administrador de inquilinos de ti | Garantiza la preparación de la red y las configuraciones del portal de Office 365. |
+| Administrador de inquilinos de ti | Garantiza la preparación de la red y las configuraciones del centro de administración de Microsoft 365 |
 | Responsable del servicio de asistencia y soporte técnico | Administra la preparación de su servicio de asistencia al cliente |
 | Responsable de administración de cambios | Supervisa el programa de administración y adopción de cambios de usuario. |
 | Responsable de marketing | Diseña e implementa campañas de comunicaciones |

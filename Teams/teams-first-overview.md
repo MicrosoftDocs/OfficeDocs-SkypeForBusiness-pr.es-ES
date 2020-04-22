@@ -15,12 +15,12 @@ description: Use esta guía para implementar Microsoft Teams como la primera car
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 79607004c8f750ceed0325733c8c52a4873e9cdc
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 9db6b2192224e796475c903cf5eeeaa06ecdc8ee
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982164"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780379"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Implementar Microsoft Teams en primer lugar
 
@@ -37,7 +37,7 @@ Si ya ha implementado otros servicios de Office 365 y Teams es la siguiente carg
 
 Para empezar a usar su primer despliegue de Teams, deberá cumplir con un mínimo de requisitos previos. En la siguiente lista se mostrará lo que debe tener en el lugar de su organización antes de que se puedan habilitar los equipos:
 
-1.  Un inquilino de Office 365 configurado con el nombre de dominio
+1.  Una organización de Office 365 configurada con el nombre de dominio
 
 2.  Conectividad de Azure Active Directory (AAD Connect) o solución de sincronización de identidad de nube similar, con todos los atributos obligatorios sincronizados con su espacio empresarial  
     Para comprender los atributos sincronizados con AAD Sync, lea [sincronización de Azure ad Connect: atributos sincronizados en Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
@@ -104,7 +104,7 @@ Este punto de partida supone que su organización no utiliza actualmente Skype e
 </tr>
 <tr class="even">
 <td>Chat/comunicación externa en Teams</td>
-<td><p>Interno (espacio empresarial intra365 dentro de la oficina) y comunicación de conversaciones externas posible desde Teams</p>
+<td><p>Comunicación interna (organización 365 dentro de la oficina) y conversación externa posible desde Teams</p>
 <p><em>Nota: las entradas DNS deben configurarse para acceso externo. Los registros DNS de Skype empresarial son necesarios incluso si no tiene Skype empresarial local o en Office 365 para permitir la Federación con entornos de Lync y Skype empresarial.<br />
 <a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">Registros del sistema de nombres de dominio externo para Office 365</a></em></p></td>
 </tr>
@@ -268,7 +268,7 @@ Además, como empresas de todo el mundo están administrando la situación actua
 
   - [Transformación digital de eventos en vivo: las observaciones de Bob bejan de la Frontline](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/13/digital-transformation-live-events-bob-bejans-observations-frontline/)
 
-  - [Las nueve maneras principales en las que Microsoft IT Habilita el trabajo remoto para sus empleados](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+  - [Las 9 formas principales en que TI de Microsoft permite trabajar de forma remota a sus empleados](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/).
 
   - [Trabajar de forma remota, mantener la seguridad: consejos para CISOs](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/work-remotely-stay-secure-ciso-tips/)
 
@@ -278,7 +278,7 @@ Además, como empresas de todo el mundo están administrando la situación actua
 
 ## <a name="support-services-reference"></a>Referencia de servicios de soporte técnico
 
-Teams depende de los grupos de Exchange Online, SharePoint Online, OneDrive para la empresa y Office 365 para ofrecer a los usuarios una experiencia de Office 365 totalmente integrada. Como se indicó anteriormente, Teams trabajará sin la total implementación de estos servicios, con capacidades limitadas. Puede obtener más información sobre Teams y sus requisitos previos aquí: [Bienvenido a teams](teams-overview.md).
+Teams depende de los grupos de Exchange Online, SharePoint Online, OneDrive para la empresa y Microsoft 365 para ofrecer a los usuarios una experiencia de Office 365 totalmente integrada. Como se indicó anteriormente, Teams trabajará sin la total implementación de estos servicios, con capacidades limitadas. Puede obtener más información sobre Teams y sus requisitos previos aquí: [Bienvenido a teams](teams-overview.md).
 
 Para obtener información específica sobre cada uno de los servicios mencionados anteriormente, sigue los siguientes vínculos:
 
@@ -289,7 +289,7 @@ Para obtener información específica sobre cada uno de los servicios mencionado
 
   - SharePoint se usa para el uso compartido de archivos en canales, mientras que/OneDrive para empresas se usa para compartir archivos en 1:1 o chat grupal. Para obtener más información, lea [Cómo SharePoint Online y OneDrive para la empresa interactúan con Microsoft Teams](sharepoint-onedrive-interact.md).
 
-  - Los [grupos de Office 365](office-365-groups.md) se usan para la creación y la administración de equipos y canales.
+  - Los [grupos de Microsoft 365](office-365-groups.md) se usan para la creación y administración de equipos y canales.
 
 
 ## <a name="related-topics"></a>Temas relacionados

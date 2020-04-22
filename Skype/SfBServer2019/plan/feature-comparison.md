@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumen: los administradores de Skype empresarial Server 2019 o Skype empresarial online pueden usar estas tablas para comprender qué características se admiten en cada cliente.'
-ms.openlocfilehash: f8b50614d663104e1307b233449ccffc0e26adb5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3d56744e9c383e018c5954422d4e1b6be4035b32
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42129493"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779436"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparación de características de cliente de escritorio para Skype empresarial Server 2019
 
@@ -72,7 +72,7 @@ En esta tabla se describen las características relacionadas con la administraci
 | Buscar en la libreta de direcciones de la compañía                                                             | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Buscar en los contactos de Microsoft Outlook                                                             | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Administrar los grupos de contactos                                                                         | &#x2714;                                      | &#x2714;                  | &#x2714;         |
-| Expandir grupos de distribución y grupos de Office 365                                              | &#x2714;                                      | &#x2714;                  | &#x2714;         |
+| Expandir grupos de distribución y grupos de 365 de Microsoft                                              | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Buscar los grupos de respuesta  <br/> (no disponible en Skype empresarial online)                | &#x2714;                                      |                           | &#x2714;         |
 | Mostrar el grupo de contactos reciente                                                                 | &#x2714;                                      |                           | &#x2714;         |
 | Mostrar el grupo de conversaciones actuales                                                           | &#x2714;                                      | &#x2714;                  | &#x2714;         |

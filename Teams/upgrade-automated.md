@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ed959f74be1074ab8ed60b3fe54f06384b7990a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b42785d4f8d765e7d9600c2e195e48d7ec60d8ba
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836172"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780659"
 ---
 # <a name="automated-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Actualizaciones automáticas de Skype empresarial online a Microsoft Teams
 
@@ -35,7 +35,7 @@ Una actualización correcta de Skype empresarial a Microsoft Teams requiere la p
 
 Los clientes de Skype empresarial online aptos para actualizaciones automatizadas de Teams recibirán una serie de notificaciones de actualización que comenzarán 30 días antes de la fecha de actualización programada. Estas notificaciones se entregarán como *plan para* las publicaciones de cambios en el centro de mensajes del administrador, actualizar los correos electrónicos al administrador global y los indicadores de la aplicación a los usuarios finales.
 
-Estas notificaciones comunicarán la fecha programada de la actualización automática, un vínculo a recursos de actualización y formación para ayudar a impulsar la adopción y el uso de Teams, y ofrecerá a los clientes la opción de posponer su actualización automática en 30 días adicionales en el evento que no está listo para actualizar por fecha programada.
+Estas notificaciones comunicarán la fecha programada de la actualización automática, un vínculo a recursos de actualización y formación para ayudar a impulsar la adopción y el uso de Teams, y ofrecerá a los clientes la opción de posponer su actualización automática en 30 días adicionales, ya que no están listos para su actualización por la fecha programada.
 
 ## <a name="the-automated-upgrade-experience"></a>La experiencia de actualización automática
 
@@ -56,7 +56,7 @@ Una vez completada la actualización automática, el **modo de coexistencia** se
 
 Las transiciones exitosas de Skype empresarial online a Microsoft Teams requieren una planificación técnica y la preparación del usuario para garantizar que su organización esté preparada para aprovechar las ventajas de la funcionalidad ampliada y el rendimiento de Teams. Sin embargo, mientras planea la actualización, es posible que su organización aún no esté lista para actualizarse a teams en este momento.
 
-Si recibe una notificación acerca de la actualización automática programada a teams y desea posponerla a una fecha posterior, Office 365 global admin puede iniciar sesión en el portal de administración de Teams y hacer clic en el botón *posponer* . Al hacerlo, la fecha de actualización automática se expondrá 30 días. Cuando actualice el portal de administración de equipos después de posponer, verá una notificación que incluye la nueva fecha de actualización automática.
+Si recibe una notificación acerca de la actualización automática programada a teams y desea posponerla a una fecha posterior, es posible que el administrador global inicie sesión en el portal de administración de Teams y haga clic en el botón *posponer* . Al hacerlo, la fecha de actualización automática se expondrá 30 días. Cuando actualice el portal de administración de equipos después de posponer, verá una notificación que incluye la nueva fecha de actualización automática.
 
 ## <a name="requests-to-downgrade-to-skype-for-business"></a>Solicitudes para cambiar de versión de Skype empresarial
 

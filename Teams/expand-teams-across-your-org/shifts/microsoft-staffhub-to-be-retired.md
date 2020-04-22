@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 53d82dc346226215101c837dcf8a2f10dd6ff2fc
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4c37d0c606a52893b69a101c99ef962e46d4deb3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141183"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780639"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Se retirará Microsoft StaffHub
 
@@ -97,7 +97,7 @@ La función turnos está disponible en los siguientes idiomas: Chino-simplificad
 
 #### <a name="where-is-shifts-data-stored"></a>¿Dónde se mueven los datos almacenados?
 
-Los turnos de datos se almacenan en Azure en centros de datos de Norteamérica y Europa occidental. El contenido de SharePoint aprovecha los grupos de Office 365 y usa el mismo almacenamiento y soporte.
+Los turnos de datos se almacenan en Azure en centros de datos de Norteamérica y Europa occidental. El contenido de SharePoint aprovecha los grupos de Microsoft 365 y usa el mismo almacenamiento y compatibilidad.
 
 Para obtener más información, vea [Ubicación de los datos de desplazamiento](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
 
@@ -131,9 +131,9 @@ Teams admite la coexistencia con Skype empresarial. Para obtener más informaci�
 
 Sí, todos los administradores y miembros del equipo que usen Teams y se desplacen dentro de Teams deben tener una cuenta de Office 365 (Azure AD) y se debe asignar una licencia válida.
  
-#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-office-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>En StaffHub, podría agregar un prefijo especial a todos los grupos de Office 365 creados por los equipos de StaffHub. ¿Puedo hacer lo mismo en Teams?
+#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>En StaffHub, podría agregar un prefijo especial a todos los grupos de Microsoft 365 creados por los equipos de StaffHub. ¿Puedo hacer lo mismo en Teams?
 
-No tendrá la misma capacidad cuando pase de StaffHub a teams. Si necesita aplicar la coherencia de nombres a todos los grupos de Office 365, puede usar la [Directiva de nomenclatura de grupos de office 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).
+No tendrá la misma capacidad cuando pase de StaffHub a teams. Si necesita aplicar la coherencia de nombres a todos los grupos de Microsoft 365, puede usar la [Directiva de nomenclatura de grupos de microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>¿Los nombres de equipo serán los mismos en Teams?
 
@@ -149,7 +149,7 @@ Le recomendamos que revise las listas de su equipo existente en StaffHub y, cuan
 
 La programación del usuario se moverá a desplazamientos; sin embargo, el usuario no será miembro del equipo ni de un grupo de Office 365.
 
-Para las cuentas inactivas que no están vinculadas a una cuenta de usuario de Azure AD, un administrador puede garantizar que el usuario se agregue como miembro del equipo agregando una dirección de correo electrónico de Office 365 válida en la página miembros del equipo de StaffHub para que el usuario esté vinculado a la cuenta de Azure AD correcta en su organización.
+Para las cuentas inactivas que no están vinculadas a una cuenta de usuario de Azure AD, un administrador puede asegurarse de que el usuario se agregue como miembro del equipo agregando una dirección de correo electrónico válida de Microsoft 365 u Office 365 en la página de miembros del equipo de StaffHub para que el usuario esté vinculado a la cuenta de Azure AD correcta en su organización.
 
 Otra opción es que los administradores ejecuten los cmdlets **Add-StaffHubMember** y **Remove-StaffHubUser** para quitar una cuenta no aprovisionada de un equipo de StaffHub y agregar el usuario al equipo con su UPN.
 

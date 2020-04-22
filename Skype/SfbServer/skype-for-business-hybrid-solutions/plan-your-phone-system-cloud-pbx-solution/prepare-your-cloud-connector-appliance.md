@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Obtenga información sobre cómo preparar el dispositivo de Cloud Connector para su implementación y uso con el sistema telefónico en Office 365 (PBX en la nube).
-ms.openlocfilehash: 6dbbc7eb1639859f889d6674e9f000507912d35a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 21943dfd8b86bfeabb4cbd28b501b80a3f2b5c45
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983845"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779246"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Preparar el dispositivo de Cloud Connector
 
@@ -171,7 +171,7 @@ Al actualizar el archivo. ini, tenga en cuenta lo siguiente:
 
 - **SiteName:** El valor predeterminado es **sitio1**. Debe actualizarlo antes de implementar Cloud Connector, ya que al ejecutar **Register-CcAppliance** para registrar un dispositivo en un sitio nuevo o existente, el cmdlet usará **siteName** para determinar qué sitio registrar.
 
-     Si desea registrar el dispositivo en un sitio nuevo, el valor de **siteName** debe ser único y diferente de los sitios existentes. Si desea registrar el dispositivo en un sitio existente, el valor de **siteName** en el archivo. ini debe coincidir con el nombre definido en la configuración de inquilino de Office 365. Si va a copiar un archivo de configuración de un sitio a otro, asegúrese de actualizar el valor de **siteName** para cada sitio en consecuencia.
+     Si desea registrar el dispositivo en un sitio nuevo, el valor de **siteName** debe ser único y diferente de los sitios existentes. Si desea registrar el dispositivo en un sitio existente, el valor de **siteName** en el archivo. ini debe coincidir con el nombre definido en la configuración de la organización de Office 365. Si va a copiar un archivo de configuración de un sitio a otro, asegúrese de actualizar el valor de **siteName** para cada sitio en consecuencia.
 
 - **ServerName:** El nombre del servidor no debe contener el nombre de dominio y debe estar limitado a 15 caracteres.
 
@@ -305,11 +305,11 @@ La cuenta CceService se crea durante la implementación de Skype empresarial Clo
 
 3. Establezca su valor en **habilitado**.
 
-## <a name="set-up-your-office-365-tenant"></a>Configurar el espacio empresarial de Office 365
+## <a name="set-up-your-office-365-organization"></a>Configurar la organización de Office 365
 
-Se requiere un inquilino de Office 365 con Skype empresarial online y el sistema telefónico en Office 365. Asegúrese de que el inquilino esté configurado y configurado antes de intentar usar Cloud Connector.
+Se requiere una organización de Office 365 con Skype empresarial online y el sistema telefónico en Office 365. Asegúrese de que el inquilino esté configurado y configurado antes de intentar usar Cloud Connector.
 
-Algunos pasos del programa de instalación de Office 365 requieren que use el PowerShell remoto del inquilino (TRPS) para configurar el inquilino de Office 365. **Debe estar instalado en el servidor host.** Puede descargar el módulo de Skype empresarial online para PowerShell desde: [Skype empresarial online, módulo de Windows PowerShell](https://www.microsoft.com/download/details.aspx?id=39366).
+Algunos pasos del programa de instalación de Office 365 requieren que use el PowerShell remoto del inquilino (TRPS) para configurar su organización de Office 365. **Debe estar instalado en el servidor host.** Puede descargar el módulo de Skype empresarial online para PowerShell desde: [Skype empresarial online, módulo de Windows PowerShell](https://www.microsoft.com/download/details.aspx?id=39366).
 
 Cree una cuenta de administrador de Skype empresarial dedicado para la administración en línea de Cloud Connector, por ejemplo, Cceonlinemanagmentadministrator. Esta cuenta se usará en el dispositivo para agregar o eliminar el dispositivo, habilitar o deshabilitar la actualización automática del sistema operativo, habilitar o deshabilitar la actualización binaria automática. Establezca la contraseña de esta cuenta para que no expire nunca, de modo que no tenga que cambiarla para el servicio cada vez que expire.
 
