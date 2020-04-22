@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ad6e1679d809cbf4451677fdf67814930d33807
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e72d17fb146e27696306e34660150e47bb98bcd5
+ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141233"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43579566"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Administrar la configuración de Microsoft Teams para su organización
 
@@ -75,7 +75,7 @@ Active esta característica para que los usuarios puedan enviar un correo electr
 
 Aquí puede activar o desactivar las opciones de uso compartido de archivos y de almacenamiento de archivos en la nube.
 
-Los usuarios pueden cargar y compartir archivos de los servicios de almacenamiento en nube en los canales y chats de Teams. Las opciones de almacenamiento en nube en Microsoft Teams actualmente incluyen ShareFile, Dropbox, Box y Google Drive. Active el conmutador de los proveedores de almacenamiento en nube que quiera usar su organización.
+Los usuarios pueden cargar y compartir archivos de los servicios de almacenamiento en la nube en los canales y chats de Teams. Las opciones de almacenamiento en nube en Microsoft Teams actualmente incluyen ShareFile, Dropbox, Box, Google Drive y [Egnyte](https://helpdesk.egnyte.com/hc/requests/new). Active el conmutador de los proveedores de almacenamiento en la nube que quiera usar su organización.
 
 #### <a name="organization"></a>Organización
 
