@@ -16,12 +16,12 @@ metadata:
   - M365-voice
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1366edcd482e37f12c0218acfe25d378fc86709a
-  ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+  ms.openlocfilehash: 3f5e7c29ee676fa0b9defa907524c60b45a34fe9
+  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 11/01/2019
-  ms.locfileid: "37924821"
+  ms.lasthandoff: 04/22/2020
+  ms.locfileid: "43778516"
 items:
 - durationInMinutes: 1
   content: >
@@ -116,7 +116,7 @@ items:
 
     - **Planes de llamadas o enrutamiento directo para conectarse a la RTC.**
 
-    Las opciones para conectar equipos a la RTC son algo diferentes a las de Skype empresarial online: mientras que los planes de llamadas (anteriormente conocidos como PBX en la nube con conectividad RTC), existen para ambos, la opción para conectar su PBX o troncal SIP existente a teams se denomina " Enrutamiento directo ".
+    Las opciones para conectar equipos a la RTC son algo diferentes a las de Skype empresarial online: mientras que los planes de llamadas (anteriormente conocidos como PBX en la nube con conectividad RTC), existen para ambos, la opción para conectar su PBX o troncal SIP existente a teams se denomina "enrutamiento directo".
 
     Puede encontrar documentación detallada sobre el enrutamiento directo aquí: [enrutamiento directo del sistema telefónico](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
 
@@ -208,7 +208,7 @@ items:
     ### <a name="requirements"></a>Requisitos
 
 
-    -   Un inquilino de Office 365 con licencias adecuadas para usar Sistema telefónico con Planes de llamada.
+    -   Una organización de Office 365 con las licencias apropiadas para habilitar el sistema telefónico con planes de llamadas
 
         -   Recomendamos encarecidamente el uso de un inquilino de prueba dedicado.
 
