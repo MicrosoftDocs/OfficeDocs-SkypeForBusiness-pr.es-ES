@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo configurar Skype para empresas para usar otro idioma para el saludo del buzón de voz predeterminado de su organización.
-ms.openlocfilehash: 829776be347f2453f3b87a150b19e2334e876f40
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1fb9a97c31e973d6a56da65d301324b1d9d34b90
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139139"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43752347"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Cambiar el idioma predeterminado en los saludos y los correos electrónicos
 
@@ -49,9 +49,9 @@ Si es [administrador global de Office 365](https://support.office.com/article/da
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Cambiar el idioma del sistema para todos los usuarios de la organización
 
-1. Inicie sesión con su cuenta de [administrador global de Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) en[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
+1. Inicie sesión con su cuenta de [administrador global de Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
-2. En el centro de administración de Microsoft 365, seleccione **configuración** > del perfil de la**organización**. 
+2. En el centro de administración de Microsoft 365 **, elija** > **Settings** > configuración configuración**Perfil de organización**. 
     
      ![Captura de pantalla que muestra la configuración de elección y el perfil de la organización.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
