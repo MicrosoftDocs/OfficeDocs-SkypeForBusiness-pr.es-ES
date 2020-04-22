@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26eb3af88b6e16de0535d25d4b5205a72626b7b2
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: ca163d2a705b4aaebc77c03dbf4c92edf9c5d601
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521536"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749577"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -111,22 +111,51 @@ Cuando los usuarios que se encuentran en modo de Aplicaciones aisladas programan
 El complemento para reunión de Microsoft Teams sigue en proceso de desarrollo para ampliar sus funcionalidades, por lo que le recomendamos que tenga en cuenta lo siguiente:
 
 - Este complemento es para reuniones programadas con participantes específicos, no para reuniones en un canal. Las reuniones de canal se deben programar desde Microsoft Teams.
-- El complemento no funciona si hay un proxy de autenticación en la ruta de red entre el equipo del usuario y los servicios de Microsoft Teams.
+- El complemento no funcionará si un proxy de autenticación se encuentra en la ruta de acceso de red de los servicios de equipo y equipo del usuario.
 - Los usuarios no pueden programar eventos en directo desde Outlook. Vaya a Teams para programar eventos en directo. Para obtener más información, vea [¿Qué son los eventos en directo de Microsoft Teams?](teams-live-events/what-are-teams-live-events.md)
+
+Obtenga más información sobre [reuniones y llamadas en Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
+Realice los pasos siguientes para solucionar problemas con el complemento de reunión de Teams.
+
+### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>El complemento de reunión de Teams en Outlook para Windows no se muestra
+
 Si no consigue instalar el complemento Reunión de Teams para Outlook, pruebe estos pasos para solucionarlo.
 
-- Asegúrese de que se han aplicado todas las actualizaciones disponibles para el cliente de escritorio de Outlook.
-- Reinicie el cliente de escritorio de Teams.
-- Cierre la sesión y vuelva a iniciarla en el cliente de escritorio de Teams.
-- Reinicie el cliente de escritorio de Outlook. (Asegúrese de que Outlook no se esté ejecutando en el modo de administración).
+- Compruebe que el usuario tiene una directiva de actualización de teams que permite programar reuniones en Teams. Para obtener más información, consulte [actualizar de Skype empresarial a teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
+- Compruebe que el usuario tiene una directiva de reunión de teams que permite el complemento de Outlook. Para obtener más información, vea [Administrar directivas de reunión en Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) .
+- Asegúrese de que el usuario tiene instalado el cliente de escritorio de Teams. El complemento de reunión no se instalará cuando solo se use el cliente web de Teams.
+- Asegúrese de que el usuario tiene permiso para ejecutar regsvr32. exe.
+- Asegúrese de que se hayan aplicado todas las actualizaciones disponibles para el cliente de escritorio de Outlook.
 - Asegúrese de que el nombre de la cuenta de usuario activa no contiene espacios. (Este es un problema conocido y se corregirá en una actualización futura).
-- Asegúrese de que el inicio de sesión único (SSO) está habilitado.
+- Siga estos pasos:
+  - Reinicie el cliente de escritorio de Teams.
+  - Cierre la sesión y vuelva a iniciarla en el cliente de escritorio de Teams.
+  - Reinicie el cliente de escritorio de Outlook. (Asegúrese de que Outlook no se esté ejecutando en el modo de administración).
+
+Si sigue sin ver el complemento, asegúrese de que no está deshabilitado en Outlook.
+
+- En Outlook, elija **archivo** y, a continuación, **Opciones**.
+- Seleccione la pestaña **Complementos** del cuadro de diálogo **Opciones de Outlook** .
+- Confirme que el **complemento de reunión de Microsoft Teams para Microsoft Office** aparece en la lista **Complementos de aplicaciones activas**
+- Si el complemento de reunión de Teams aparece en la lista **Complementos de aplicaciones deshabilitada** , seleccione **Complementos com** en **administrar** y, después, seleccione **ir...**
+- Active la casilla que se encuentra junto al **complemento de reuniones de Microsoft Teams para Microsoft Office**.
+- Elija **Aceptar** en todos los cuadros de diálogo y reinicie Outlook.
+
+Para obtener instrucciones generales sobre cómo administrar los complementos, vea [ver, administrar e instalar complementos en los programas de Office](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
+
+Si el complemento sigue sin mostrarse, siga estos pasos para comprobar la configuración del registro.
+
+> [!NOTE]
+> La edición incorrecta del registro puede dañar gravemente el sistema. Antes de realizar cambios en el registro, debe hacer una copia de seguridad de los datos valiosos del equipo.
+- Iniciar regedit. exe
+- Ir a HKEY_CURRENT_USER \Software\Microsoft\Office\Outlook\Addins
+- Verifique que TeamsAddin. FastConnect exista.
+- Dentro de TeamsAddin. FastConnect, compruebe que LoadBehavior exista y esté establecido en 3.
+  - Si LoadBehavior tiene un valor distinto de 3, cámbielo a 3 y reinicie Outlook.
+
+### <a name="delegate-scheduling-does-not-work"></a>La programación delegada no funciona
 
 Si el administrador ha configurado Microsoft Exchange para [controlar el acceso al servidor Web de Exchange (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), el delegado no podrá programar una reunión de Teams en nombre del jefe. La solución para esta configuración está en desarrollo y se publicará en el futuro. 
-
-Para obtener instrucciones generales sobre cómo desactivar complementos, consulte [Ver, administrar e instalar los complementos de los programas de Office](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
-
-Obtenga más información sobre [reuniones y llamadas en Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).

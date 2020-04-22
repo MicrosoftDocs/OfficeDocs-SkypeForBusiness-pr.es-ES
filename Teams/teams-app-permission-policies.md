@@ -22,23 +22,23 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: baf3f025dd9b2340f59aee18d72d3707e4cab8fd
-ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
+ms.openlocfilehash: 3382eff6334c3879c1c30d503101446ceaae4df9
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42601417"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749817"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Administrar directivas de permisos de aplicación en Microsoft Teams
 
-Como administrador, puede usar las directivas de permisos de aplicaciones para controlar qué aplicaciones están disponibles para los usuarios de Microsoft Teams de su organización. Puede permitir o bloquear todas las aplicaciones o aplicaciones específicas publicadas por Microsoft, terceros y su organización. Cuando bloquea una aplicación, los usuarios que tienen la Directiva no pueden instalarla desde la tienda de aplicaciones de Teams. Debe ser administrador global o administrador de servicios de equipo para poder administrar estas directivas.
+Como administrador, puede usar las directivas de permisos de aplicación para controlar qué aplicaciones están disponibles para los usuarios de Microsoft Teams de su organización. Puede permitir o bloquear todas las aplicaciones o aplicaciones específicas publicadas por Microsoft, terceros y su organización. Cuando bloquee una aplicación, los usuarios que tienen la directiva no pueden instalarla desde la tienda de aplicaciones de Teams. Debe ser un administrador global o un administrador de servicio de Teams para administrar estas directivas.
 
 Administre las directivas de permisos de aplicaciones en el centro de administración de Microsoft Teams. Puede usar la directiva global (predeterminada para toda la organización) o crear y asignar directivas personalizadas a usuarios individuales o a usuarios de un grupo.  
 
 ![Captura de pantalla de la Directiva de permisos de aplicaciones](media/app-permission-policies.png)
 
 > [!NOTE]
-> Los usuarios de la organización obtendrán automáticamente la directiva global a menos que cree y asigne una directiva personalizada. La configuración de la aplicación en toda la organización reemplaza la directiva global y las directivas personalizadas que cree y asigne a los usuarios.
+> Los usuarios de su organización obtendrán automáticamente la directiva global, a menos que cree y asigne una directiva personalizada. La configuración de la aplicación en toda la organización reemplaza la directiva global y las directivas personalizadas que cree y asigne a los usuarios.
 
 Si su organización ya está en Teams, la configuración de la aplicación que ha configurado en la **configuración de toda la empresa** en el centro de administración de Microsoft 365 se refleja en la configuración de la aplicación de toda la organización en la página [Administrar aplicaciones](manage-apps.md) . Si es nuevo en Teams y se está preparando, de forma predeterminada, todas las aplicaciones estarán permitidas en la directiva global. Esto incluye las aplicaciones publicadas por Microsoft, terceros y su organización.
 
@@ -54,7 +54,7 @@ Si desea controlar las aplicaciones que están disponibles para los distintos gr
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a > **directivas de permisos**de las **aplicaciones de Teams**.
 2. Haga clic en **Agregar**.
     ![Captura de pantalla de nueva Directiva de permisos de aplicaciones](media/app-permission-policies-new-policy.png)
-3. Escriba un nombre y una descripción para la Directiva.
+3. Escriba un nombre y una descripción para la directiva.
 4. En aplicaciones de **Microsoft**, **aplicaciones**de terceros y **aplicaciones de inquilino**, seleccione una de las siguientes opciones:
 
     - **Permitir todas las aplicaciones**
@@ -87,17 +87,17 @@ Puede usar el centro de administración de Microsoft Teams para asignar una dire
 ### <a name="assign-a-custom-app-permission-policy-to-a-user"></a>Asignar una directiva de permisos de aplicaciones personalizada a un usuario
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**.
-2. Seleccione el usuario haciendo clic a la izquierda del nombre de usuario y, a continuación, haga clic en **Editar configuración**.
+2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
 3. En **Directiva de permisos de aplicaciones**, seleccione la Directiva de permisos de aplicación que desea asignar y, a continuación, haga clic en **aplicar**.
 
-Para asignar una directiva a varios usuarios a la vez, vea [editar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
+Para asignar una directiva a varios usuarios a la vez, vea [Modificar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
 
 También puede hacer lo siguiente:
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a > **directivas de permisos**de las **aplicaciones de Teams**.
-2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva.
-3. Seleccione **administrar usuarios**.
-4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, a continuación, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
+2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
+3. Seleccione **Administrar usuarios**.
+4. En el panel **Administrar usuarios**, busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 5. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
 
 ### <a name="assign-a-custom-app-permission-policy-to-users-in-a-group"></a>Asignar una directiva de permisos de aplicación personalizada a los usuarios de un grupo
@@ -145,9 +145,12 @@ Para habilitar una aplicación de terceros para un usuario o un conjunto de usua
 3. Permitir la aplicación de terceros en el nivel de organización. Para ello, en el navegación de la izquierda, vaya a **aplicaciones** > de Teams**Manage apps**. En la lista de aplicaciones, haga clic a la izquierda del nombre de la aplicación para seleccionarla y, a continuación, seleccione **permitir**.
 4. [Cree una directiva de permisos de aplicaciones personalizada](#create-a-custom-app-permission-policy) para permitir la aplicación y, a continuación, [asigne la Directiva](#assign-a-custom-app-permission-policy-to-users) a los usuarios que desee.
 
-## <a name="faq"></a>Preguntas frecuentes
+## <a name="faq"></a>Preguntas más frecuentes
 
 ### <a name="working-with-app-permission-policies"></a>Trabajar con directivas de permisos de aplicaciones
+
+#### <a name="what-app-interactions-do-permission-policies-affect"></a>¿Qué interacciones de aplicaciones afectan las directivas de permisos?
+Las directivas de permisos rigen el uso de la aplicación mediante el control de la instalación, la detección y la interacción de los usuarios finales. Los administradores pueden seguir administrando aplicaciones en el centro de administración de Microsoft Teams independientemente de las directivas de permisos que se les asignen.
 
 #### <a name="can-i-control-line-of-business-lob-apps"></a>¿Puedo controlar las aplicaciones de línea de negocio (LOB)?
 Sí, puede usar las directivas de permisos de aplicaciones para controlar el despliegue y la distribución de aplicaciones personalizadas (LOB). Puede crear una directiva personalizada o editar la directiva global para permitir o bloquear aplicaciones personalizadas en función de las necesidades de su organización.
@@ -183,7 +186,7 @@ Por ejemplo, cuando una aplicación está bloqueada, los usuarios no pueden real
 
 El portal heredado permitió el control de aplicaciones en el nivel de la organización, lo que significa que cuando una aplicación está bloqueada, está bloqueada para todos los usuarios de la organización. El bloqueo de una aplicación en la página de [Administración de aplicaciones](manage-apps.md) funciona exactamente de la misma manera.
 
-Para directivas de permisos de aplicaciones asignadas a usuarios específicos, si una aplicación con la capacidad de un bot o un conector se permite y luego se bloquea, y si la aplicación solo se permite a algunos usuarios en un contexto compartido, los miembros de un chat o un canal de grupo que no tengan permiso para esa aplicación  puede ver el historial de mensajes y los mensajes publicados por el bot o el conector, pero no puede interactuar con él.
+Para directivas de permisos de aplicaciones asignadas a usuarios específicos, si una aplicación con capacidad de bot ó conector se permite y después se bloquea, y si la aplicación solo se permite para algunos usuarios en un contexto compartido, los miembros de un chat o canal de grupo que no tenga permiso para esa aplicación pueden ver el historial de mensajes y los mensajes que el bot o el conector publicaron. , pero no puede interactuar con él.
 
 ## <a name="related-topics"></a>Temas relacionados
 

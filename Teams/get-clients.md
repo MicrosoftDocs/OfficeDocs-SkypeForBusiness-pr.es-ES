@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: 8a3425ca19ded72f814e8f81252b7224c2c08a42
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327842"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749498"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 
@@ -45,6 +45,9 @@ El cliente de escritorio de Microsoft Teams es una aplicación independiente y e
 Los clientes de escritorio brindan asistencia en tiempo real para las comunicaciones (audio, vídeo y contenido compartido) para las reuniones de equipo, las llamadas grupales y las llamadas de uno a uno.
 
 Los usuarios pueden descargar e instalar los clientes de escritorio directamente desde [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) si tienen los permisos locales adecuados (no se requieren derechos de administrador para instalar el cliente de Teams en PC, pero sí son necesarios para Mac).
+
+> [!NOTE]
+> Para obtener más información sobre cómo instalar Teams en un Chromebook, vea [Cómo instalar y ejecutar Microsoft Office en un Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad).
 
 Los administradores de TI pueden elegir el método que prefieran para distribuir los archivos de instalación en los equipos de su organización. Por ejemplo: Microsoft Endpoint Configuration Manager (Windows) o Jamf Pro (macOS). Para obtener el paquete de MSI de distribución de Windows, vea [Instalar Microsoft Teams con MSI](msi-deployment.md).  
 
@@ -75,6 +78,8 @@ Cuando los usuarios inician una llamada utilizando el cliente de Microsoft Teams
 > [!NOTE]
 > La configuración del firewall de Windows se modificará incluso si el mensaje se descarta seleccionando "Cancelar". Se crearán dos reglas de entrada para teams.exe con la acción de bloqueo para los protocolos TCP y UDP.
 
+Si quiere evitar que los equipos soliciten a los usuarios que creen reglas de Firewall cuando los usuarios hacen su primera llamada desde Teams, use la siguiente [regla de Firewall de entrada de script de PowerShell](#sample-powershell-script---inbound-firewall-rule) que se muestra a continuación. 
+
 ### <a name="mac"></a>Mac
 
 Los usuarios de Mac pueden instalar Teams mediante el uso de un archivo PKG de instalación para equipos macOS. Se requiere acceso administrativo para instalar el cliente de Mac. El cliente de macOS se instala en la carpeta /Applications.
@@ -103,7 +108,7 @@ Los administradores de TI pueden usar la implementación administrada de Teams p
 ### <a name="linux"></a>Linux
 
 Los usuarios podrán instalar paquetes de Linux nativos en los formatos `.deb` y `.rpm`.
-Si se instala el paquete DEB o el RPM, se instalará automáticamente el repositorio de paquetes.
+Al instalar el paquete DEB o RPM, se instalará automáticamente el repositorio del paquete.
 - DEB `https://packages.microsoft.com/repos/ms-teams stable main`
 - RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
 
@@ -214,7 +219,7 @@ En este momento, no hay opciones disponibles para que los administradores de TI 
 
 ![Captura de pantalla de la configuración de Notificaciones.](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-## <a name="sample-powershell-script"></a>Ejemplo de Script de PowerShell
+## <a name="sample-powershell-script---inbound-firewall-rule"></a>Script de PowerShell de ejemplo: regla de Firewall entrante
 
 Este script de ejemplo, que tiene que ejecutarse en los equipos de cliente en el contexto de una cuenta de administrador con privilegios elevados, creará una nueva regla de firewall de entrada para cada carpeta de usuario que se encuentra en c:\users. Cuando Teams encuentra esta regla, impedirá que la aplicación de Teams solicite a los usuarios crear reglas de firewall cuando los usuarios realicen su primera llamada de Teams. 
 

@@ -18,43 +18,48 @@ description: Configure los eventos en directo de Teams, incluyendo la configurac
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ae30fdb824c62027d1a704435e80df2a9abf1f85
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
-ms.translationtype: HT
+ms.openlocfilehash: 8e3110717cd9279d881415bf1e01d03a1cbee293
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140569"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749807"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configure los eventos en directo en Microsoft Teams
 
 Debe realizar varios pasos para configurar los eventos en directo.
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>Paso 1: configurar la red para los eventos en directo de Teams
+
 Los eventos en directo creados en Teams requieren de la [preparación de la red de su organización para usar Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
 ## <a name="step-2-get-and-assign-licenses"></a>Paso 2: obtener las licencias y asignarlas
-Asegúrese de disponer de las asignaciones de licencia correctas para determinar [qué usuarios pueden crear y programar eventos en directo](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events) y [quién podrá verlos](plan-for-teams-live-events.md#who-can-watch-live-events).
+
+Asegúrese de disponer de las asignaciones de licencia correctas para determinar [qué usuarios pueden crear y programar eventos en directo](plan-for-teams-live-events.md#who-can-attend-create-and-schedule-live-events) y [quién podrá verlos](plan-for-teams-live-events.md#who-can-watch-live-events).
 
 ## <a name="step-3-set-up-live-events-policies"></a>Paso 3: configurar las directivas de los eventos en directo
+
 Las directivas de los eventos en directo se usan para controlar qué usuarios de la organización pueden realizar eventos en directo y las características disponibles en los eventos que creen. Puede usar la directiva predeterminada o crear una o más directivas personalizadas para los eventos en directo. Después de crear una directiva personalizada, asígnela a un usuario o a grupos de usuarios de su organización.
 
 > [!NOTE]
-> Los usuarios de su organización obtendrán la directiva global, a menos que usted cree y asigne una directiva personalizada. En la directiva global, la programación de eventos en directo está habilitada para los usuarios de equipo de forma predeterminada, al igual que los subtítulos en directo y los subtítulos (transcripción) está desactivada, todas las personas de la organización pueden unirse a los eventos en directo y la configuración de la grabación está establecida para grabar siempre. 
+> Los usuarios de su organización obtendrán la directiva global, a menos que usted cree y asigne una directiva personalizada. En la directiva global, la programación de eventos en directo está habilitada para los usuarios de equipo de forma predeterminada, al igual que los subtítulos en directo y los subtítulos (transcripción) está desactivada, todas las personas de la organización pueden unirse a los eventos en directo y la configuración de la grabación está establecida para grabar siempre.
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Cree o edite una directiva de eventos en directo
+
 <a name="bkcreatepolicy"> </a>
 
 **![Un icono que muestra el logotipo de Microsoft Teams ](../media/teams-logo-30x30.png)Usando el centro de administración de Microsoft Teams**
 
-1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Directivas de los eventos en directo**. 
+1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Directivas de los eventos en directo**.
 2. Realice una de las siguientes acciones:
-- Si desea editar la directiva predeterminada actual, elija **Global (predeterminado para toda la organización)**. 
-- Si desea crear una nueva directiva personalizada, elija **Nueva directiva**. 
-- Si desea editar una directiva personalizada, selecciónela y, a continuación, elija **Editar**. 
+
+- Si desea editar la directiva predeterminada actual, elija **Global (predeterminado para toda la organización)**.
+- Si desea crear una nueva directiva personalizada, elija **Nueva directiva**.
+- Si desea editar una directiva personalizada, selecciónela y, a continuación, elija **Editar**.
 
     Puede cambiar estas opciones de configuración para satisfacer las necesidades de su organización.
 
-    ![Captura de pantalla de la configuración de los eventos en directo de Teams](../media/teams-live-events-policies.png "Captura de pantalla de la configuración de la directiva de eventos en directo en el centro de administración de Microsoft Teams") 
+    ![Captura de pantalla de la configuración de los eventos en directo de Teams](../media/teams-live-events-policies.png "Captura de pantalla de la configuración de la directiva de eventos en directo en el centro de administración de Microsoft Teams")
 
 |Setting  |Descripción  |
 |---------|---------|

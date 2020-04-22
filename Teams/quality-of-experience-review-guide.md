@@ -18,17 +18,17 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: e109d3a8f43d6f989c96709562efbf759c0e562e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 91e2763fac952b7188284dcf09e6fc0b7cc4bf16
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137700"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749867"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad 
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
-Esta guía trata sobre la fase de valor de unidad para Microsoft Teams y Skype empresarial online. Puede [descargar una versión de Word](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) de esta guía.
+Esta guía trata sobre la fase de valor de unidad para Microsoft Teams y Skype empresarial online. 
 
 ## <a name="introduction"></a>Introducción
 
@@ -478,15 +478,15 @@ Puede obtener acceso al CQD de tres maneras:
 
 -   Vaya al **centro de administración de Microsoft Teams** y seleccione el vínculo al CQD, como se muestra en la siguiente ilustración.
 
-![Captura de pantalla del panel de calidad de llamadas seleccionado.](media/qerguide-image-mopo.png "En el panel de navegación izquierdo, está seleccionado el vínculo a panel de calidad de llamadas.")
+    ![Captura de pantalla del panel de calidad de llamadas seleccionado.](media/qerguide-image-mopo.png "En el panel de navegación izquierdo, está seleccionado el vínculo a panel de calidad de llamadas.")
 
-_Figura 7: acceso al CQD a través del centro de administración de Microsoft Teams_
+    _Figura 7: acceso al CQD a través del centro de administración de Microsoft Teams_
 
 -   Vaya a las > **herramientas**del **centro de administración de Skype empresarial**heredado y seleccione el vínculo al CQD, como se muestra en la siguiente ilustración.
 
-![Captura de pantalla del CQD seleccionado en el panel principal.](media/qerguide-image-legacyui.png "Herramientas está seleccionada en el panel de navegación izquierdo y el vínculo a CQD está seleccionado en el panel principal.")
+    ![Captura de pantalla del CQD seleccionado en el panel principal.](media/qerguide-image-legacyui.png "Herramientas está seleccionada en el panel de navegación izquierdo y el vínculo a CQD está seleccionado en el panel principal.")
 
-_Figura 8: acceso al CQD a través del centro de administración de Skype empresarial_
+    _Figura 8: acceso al CQD a través del centro de administración de Skype empresarial_
 
 
 ### <a name="getting-started"></a>Introducción
@@ -634,7 +634,7 @@ El formato del archivo de datos que cargue debe cumplir los siguientes requisito
 
 -   Para cada columna, si el tipo de datos es una cadena, los datos pueden estar vacíos (pero deben estar separados por un delimitador adecuado, es decir, un carácter de tabulación o una coma). Esto simplemente asigna a ese campo un valor de cadena vacía.
 
--   Debe haber 14 columnas por cada fila. Cada columna debe tener el tipo de datos que se describe en la tabla siguiente y las columnas deben estar en el orden en que aparecen en la tabla.
+-   Debe haber 14 columnas por cada fila (o 15 si desea agregar la columna opcional VPN). Cada columna debe tener el tipo de datos que se describe en la tabla siguiente y las columnas deben estar en el orden en que aparecen en la tabla.
 
 _Tabla 5-creación de una estructura de archivos_
 
