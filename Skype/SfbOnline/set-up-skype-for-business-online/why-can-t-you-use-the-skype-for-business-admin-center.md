@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: 'Obtenga información sobre lo que puede y no puede usar en el centro de administración de Skype empresarial y otras características cuando su servicio se está migrando a otro centro de datos de Microsoft. '
-ms.openlocfilehash: 7825b0bb6cd60995a103736641af36a532ad0ba8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f43f1cce6921d3e3cb6e40ad58898ece04d800df
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769523"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777625"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>¿Por qué no puedo usar el centro de administración de Skype empresarial online en este momento?
 
@@ -42,7 +42,7 @@ Para obtener más información técnica, consulte [durante y después de mover l
 
 En primer lugar, vamos a desglosar unos cuantos términos.
   
-- **Centro de datos** Esta es la ubicación física donde está almacenada la información de su organización de Office 365, como sus archivos y mensajes de correo electrónico. Si realmente desea profundizar en los centros de trabajo de Office 365, consulte[este artículo](https://www.microsoft.com/online/legal/v2/?docid=25).
+- **Centro de datos** Esta es la ubicación física donde se almacena la información de Microsoft 365 u Office 365, como los archivos y los mensajes de correo electrónico. Si realmente desea profundizar en los centros de trabajo de Office 365, consulte[este artículo](https://www.microsoft.com/online/legal/v2/?docid=25).
     
 - **Migrar** Esto es prácticamente lo mismo que "mover". En este caso, significa que estamos moviendo los usuarios y la configuración de Skype empresarial online de un centro de trabajo a otro que está más cerca de usted para mejorar su servicio.
     

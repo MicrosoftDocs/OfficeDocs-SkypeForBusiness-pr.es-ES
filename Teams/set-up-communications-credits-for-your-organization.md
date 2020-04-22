@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: e1672c2d3c66690393e34b90fbeb1b2be4d54042
-ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
+ms.openlocfilehash: 304c08568ee39f69f727d159a5599a3a3ac89ed4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41889419"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779747"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicaciones para su organización
 
@@ -56,7 +56,7 @@ Para obtener más información, consulte [licencias complementarias de Microsoft
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Paso 2: configurar créditos de comunicaciones para su organización
 
-1. Inicie sesión en el nuevo portal de Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión en el nuevo centro de administración de Microsoft 365 con su cuenta profesional o educativa.
     
 2. En el centro de navegación izquierdo del centro de administración de Microsoft 365, vaya a**servicios de compra**de **facturación** > . Desplácese hacia abajo y seleccione **Complementos**.
 
@@ -89,7 +89,7 @@ Al configurar créditos de comunicaciones, tendrá que investigar el uso de las 
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Paso 3: asignar una licencia de créditos de comunicaciones a los usuarios
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión con su cuenta profesional o educativa.
     
 2. En el centro de navegación izquierdo del centro de administración de Microsoft 365, **vaya a** > usuarios**activos**y, a continuación, seleccione un usuario o usuarios de la lista.
     

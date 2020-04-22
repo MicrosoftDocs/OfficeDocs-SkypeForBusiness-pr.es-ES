@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2c918a8276be2eeab0a125a1661b70b42c6b069
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 17ece37fded1d7b0743f3eeb66a300021f568c44
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43097005"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779787"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Directivas de retención en Microsoft Teams
 
@@ -29,7 +29,7 @@ Las directivas de retención permiten administrar de manera más efectiva la inf
 
 De forma predeterminada, los datos de chat, canales y archivos de Teams se conservan para siempre. Como administrador, puede configurar las directivas de retención de Teams para mensajes de canal y chat, y decidir de forma proactiva si desea conservar los datos, eliminarlos o conservarlos durante un período de tiempo específico y, a continuación, eliminarlos.
 
-Puede crear y administrar directivas de retención para Teams y otras cargas de trabajo en el [Centro de seguridad y cumplimiento de Office 365](https://protection.office.com/) o usando los cmdlets de PowerShell del Centro de seguridad y cumplimiento. Puede aplicar una directiva de retención de Teams a toda la organización o a usuarios y equipos específicos.
+Cree y administre directivas de retención para equipos y otras cargas de trabajo en el [centro de cumplimiento de Microsoft 365](https://protection.office.com/) o mediante los cmdlets de PowerShell del centro de cumplimiento de & de seguridad. Puede aplicar una directiva de retención de Teams a toda la organización o a usuarios y equipos específicos.
 
 > [!NOTE]
 > Aún no se admite la configuración de retención de mensajes de canal privado. Se admite la retención de archivos compartidos en canales privados.
@@ -123,7 +123,7 @@ Para crear una directiva de retención para los mensajes de canal y chats de Tea
         ![Captura de pantalla de las opciones de mensajes del canal de Teams y chats de Teams en la página elegir ubicaciones](media/retention-policies-create.png)
 
       > [!IMPORTANT]
-      > Los chats y mensajes de canal de Teams no se ven afectados por las directivas de retención aplicadas a los buzones de usuario o grupo en las ubicaciones **Correo electrónico de Exchange** o **grupos de Office 365**. A pesar de que los mensajes de canal y chats de Teams se almacenan en Exchange, solo se verán afectados por una directiva de retención que se aplique a la ubicación de Teams.
+      > Los chats de equipos y los mensajes de canal no se ven afectados por las directivas de retención aplicadas a buzones de usuario o grupo en las ubicaciones de **correo electrónico de Exchange** o de **grupos de Microsoft 365** . A pesar de que los mensajes de canal y chats de Teams se almacenan en Exchange, solo se verán afectados por una directiva de retención que se aplique a la ubicación de Teams.
 
 6. Revise la configuración y, después, cuando esté listo, seleccione **crear esta directiva**.
 
@@ -160,7 +160,7 @@ Para crear y administrar directivas de retención de Teams con [PowerShell de & 
 
 Los siguientes son problemas conocidos para las directivas de retención en Teams a los que se les está dando seguimiento e investigando.
 
-- En **Elegir equipos** en la fila de ubicación de **Mensajes de canal de Teams**, es posible que vea Grupos de Office 365 que no son también Teams. Este problema se corregirá en una actualización futura.
+- En **elegir equipos** en la fila ubicaciones de **los mensajes del canal de Teams** , es posible que vea grupos de Microsoft 365 que no son también equipos. Este problema se corregirá en una actualización futura.
 
 - En **Elegir usuarios** en la fila de ubicación de **Chats de Teams**, es posible que vea invitados y usuarios que no son buzones. Las directivas de retención no están pensadas para ser establecidas para invitados y estamos trabajando para quitarlas de la lista.
 

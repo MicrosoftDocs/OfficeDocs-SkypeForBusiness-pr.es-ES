@@ -12,12 +12,12 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7596d401687484ec939cf3bad86edf17b16efd8c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18c9174075ee009b7f67ee8d2757b4af9dd07818
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204275"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780009"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +55,7 @@ En las tablas siguientes se comparan las características y capacidades de los c
 
   - autenticación moderna
 
-Estas tablas indican las características que están disponibles para los usuarios de Lync en una implementación local de Lync Server 2013. Las mismas características también están disponibles para los usuarios de Skype empresarial online y Office 365 a menos que se indique lo contrario.
+Estas tablas indican las características que están disponibles para los usuarios de Lync en una implementación local de Lync Server 2013. Las mismas características también están disponibles para los usuarios de Skype empresarial online y Microsoft 365 o Office 365 a menos que se indique lo contrario.
 
 <div>
 
@@ -336,7 +336,7 @@ Estas tablas indican las características que están disponibles para los usuari
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Expandir grupos de distribución y grupos de Office 365</p></td>
+<td><p>Expandir grupos de distribución y grupos de 365 de Microsoft</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -451,9 +451,9 @@ Estas tablas indican las características que están disponibles para los usuari
 </table>
 
 
-1 para los usuarios de Skype empresarial online o Office 365, el operador de Lync 2010 no es compatible.
+1 para los usuarios de Skype empresarial online o Microsoft 365 o Office 365, el operador de Lync 2010 no es compatible.
 
-2 para los usuarios de Skype empresarial online o Office 365, esta característica no está disponible.
+2 para los usuarios de Skype empresarial online o Microsoft 365 o Office 365, esta característica no está disponible.
 
 </div>
 
@@ -668,11 +668,11 @@ Estas tablas indican las características que están disponibles para los usuari
 </table>
 
 
-1 para los usuarios de Skype empresarial online o Office 365, el operador de Lync 2010 no es compatible.
+1 para los usuarios de Skype empresarial online o Microsoft 365 o Office 365, el operador de Lync 2010 no es compatible.
 
 2 el servicio local de Lync Server 2013 y SharePoint local 2013 es necesario para la búsqueda de aptitudes.
 
-3 para los usuarios de Skype empresarial online o Office 365, el chat persistente no está disponible.
+3 para los usuarios de Skype empresarial online o Microsoft 365 o Office 365, el chat persistente no está disponible.
 
 </div>
 
@@ -1117,11 +1117,11 @@ Estas tablas indican las características que están disponibles para los usuari
 </table>
 
 
-1 para los usuarios de Skype empresarial online o Office 365, el operador de Lync 2010 no es compatible.
+1 para los usuarios de Skype empresarial online o Microsoft 365 o Office 365, el operador de Lync 2010 no es compatible.
 
 2 los participantes no pueden controlar los escritorios que comparten los usuarios de Skype empresarial en Mac, Lync para Mac 2011 o Communicator para Mac 2011. Los usuarios de Mac pueden controlar los escritorios que comparten los usuarios de Windows.
 
-3 para los usuarios de Skype empresarial online o Office 365, esta característica requiere un proveedor de servicios de audioconferencia.
+3 para los usuarios de Skype empresarial online o Microsoft 365 u Office 365, esta característica requiere un proveedor de servicios de audioconferencia.
 
 4 el cliente de Lync para Mac 2011 no puede ver presentaciones de PowerPoint de Microsoft Office 2013 cuando se han compartido en una conferencia por parte del cliente de Lync Web App 2013.
 
@@ -1419,11 +1419,11 @@ Estas tablas indican las características que están disponibles para los usuari
 </table>
 
 
-1 para los usuarios de Skype empresarial online o Office 365, el operador de Lync 2010 no es compatible.
+1 para los usuarios de Skype empresarial online o Microsoft 365 o Office 365, el operador de Lync 2010 no es compatible.
 
-2 para los usuarios de Skype empresarial online o Office 365, esta característica solo está disponible para llamadas de PC a PC.
+2 para los usuarios de Skype empresarial online o Microsoft 365 o Office 365, esta característica solo está disponible para las llamadas de PC a PC.
 
-3 en el caso de los usuarios de Skype empresarial online o Office 365, esta característica no está disponible.
+3 para los usuarios de Skype empresarial online o Microsoft 365 u Office 365, esta característica no está disponible.
 
 </div>
 
@@ -1507,9 +1507,9 @@ Estas tablas indican las características que están disponibles para los usuari
 </table>
 
 
-1 para los usuarios de Skype empresarial online o Office 365, el operador de Lync 2010 no es compatible.
+1 para los usuarios de Skype empresarial online o Microsoft 365 o Office 365, el operador de Lync 2010 no es compatible.
 
-2 para los usuarios de Skype empresarial online o Office 365, esta característica no está disponible.
+2 para los usuarios de Skype empresarial online o Microsoft 365 o Office 365, esta característica no está disponible.
 
 </div>
 
@@ -1596,9 +1596,9 @@ Estas tablas indican las características que están disponibles para los usuari
 </table>
 
 
-1 para los usuarios de Skype empresarial online o Office 365, la grabación no está disponible en determinados planes independientes de Skype empresarial online. La grabación requiere derechos completos de cliente de Lync 2013. Para obtener más información, consulte la descripción del servicio Skype empresarial [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)online en.
+1 para los usuarios de Skype empresarial online o Microsoft 365 o Office 365, la grabación no está disponible en determinados planes independientes de Skype empresarial online. La grabación requiere derechos completos de cliente de Lync 2013. Para obtener más información, consulte la descripción del servicio Skype empresarial [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)online en.
 
-2 en el caso de los usuarios de Skype empresarial online o Office 365, la grabación de transferencias de archivos, páginas compartidas de OneNote y anotaciones de PowerPoint no está disponible.
+2 para los usuarios de Skype empresarial online o Microsoft 365 o Office 365, la grabación de transferencias de archivos, páginas compartidas de OneNote y anotaciones de PowerPoint no está disponible.
 
 </div>
 
@@ -1701,11 +1701,11 @@ Estas tablas indican las características que están disponibles para los usuari
 </table>
 
 
-1 para los usuarios de Skype empresarial online o Office 365, el operador de Lync 2010 no es compatible.
+1 para los usuarios de Skype empresarial online o Microsoft 365 o Office 365, el operador de Lync 2010 no es compatible.
 
-2 para los usuarios de Skype empresarial online o Office 365, esta característica necesita Exchange Online y se controla mediante el atributo de conservación local del buzón de Exchange del usuario.
+2 para los usuarios de Skype empresarial online o Microsoft 365 o Office 365, esta característica requiere Exchange Online y se controla mediante el atributo de conservación local del buzón de Exchange del usuario.
 
-3 en el caso de los usuarios de Skype empresarial online o Office 365, el archivado de transferencias de archivos, páginas compartidas de OneNote y anotaciones de PowerPoint no está disponible.
+3 para los usuarios de Skype empresarial online o Microsoft 365 o Office 365, el archivado de transferencias de archivos, páginas compartidas de OneNote y anotaciones de PowerPoint no está disponible.
 
 </div>
 

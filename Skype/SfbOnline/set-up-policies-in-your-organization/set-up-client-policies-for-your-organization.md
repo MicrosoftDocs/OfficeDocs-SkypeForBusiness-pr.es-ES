@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Las directivas de cliente ayudan a determinar las funciones de Skype Empresarial Online que estarán disponibles para los usuarios. Por ejemplo, puede dar a algunos usuarios permiso para transferir archivos, pero no a otros.
-ms.openlocfilehash: 4c3434a1649c7bce01557ab97c6c6d9f977c0ab4
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 43b51b800b3107410c64bd2605b5a6a7622fe65a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887909"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776295"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Establecer directivas de cliente en su organización
 
@@ -55,7 +55,7 @@ La configuración de la Directiva de cliente se puede configurar en el momento e
     
     1. En el **menú Inicio** > **Windows PowerShell**.
         
-    2. En la ventana **Windows PowerShell**, puede conectarse a su organización de Office 365 ejecutando:
+    2. En la ventana de **Windows PowerShell** , conéctese a Microsoft 365 u Office 365 ejecutando:
     
         > [!NOTE]
         > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.

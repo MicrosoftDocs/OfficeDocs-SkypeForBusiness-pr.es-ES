@@ -16,12 +16,12 @@ MS.collection:
 description: Obtenga información sobre cómo usar el informe de uso de RTC de Teams en el centro de administración de Microsoft Teams para obtener información general sobre el uso de las llamadas y las conferencias de audio de su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3372bc77a4850da0690c2076c5858812e3e80452
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: c35699093168f5bb0443277f65da9a8060f27b69
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637197"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778256"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Informe de uso de RTC de Microsoft Teams
 
@@ -124,7 +124,7 @@ La primera fila del archivo CSV contiene nombres de columna. Todas las fechas so
 | apartado | Cargo por conexión | `numeric(16, 2)` | Precio de la tarifa por conexión |
 | apartado | Cargas | `numeric(16, 2)` | Cantidad de dinero o coste de la llamada que se cobra a tu cuenta |
 | 18 | Moneda | `nvarchar(3)` | Tipo de moneda que se usa para calcular el costo de la llamada ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
-| 19 | Capacidades | `nvarchar(32)` | La licencia usada para la llamada |
+| 19 | Función | `nvarchar(32)` | La licencia usada para la llamada |
 
 ### <a name="exported-direct-routing-usage-report"></a>Informe de uso de enrutamiento directo exportado
 
@@ -134,7 +134,7 @@ Puede exportar datos hasta cinco meses (150 días) de la fecha actual, a menos q
 | :-: | :-: | :-: |:------------------- |
 | ,0 | CorrelationId | `uniqueidentifier` | Identificador de llamada único |
 | 1 | Dirección SIP | `nvarchar(128)` | La dirección del usuario o bot que hizo o recibió la llamada.<br/>Tenga en cuenta que esto es, en realidad, UserPrincipalName (nombre de inicio de sesión) en Azure Active Directory, que suele ser la misma que la dirección SIP |
-| 1 | Nombre para mostrar | `nvarchar(128)` | El nombre de un usuario o un bot de llamada (por ejemplo, cola de llamadas o operador automático) según se establece en el portal de Office 365 |
+| 1 | Nombre para mostrar | `nvarchar(128)` | El nombre de un usuario o un bot de llamada (por ejemplo, cola de llamadas o operador automático) según se establece en el centro de administración de Microsoft 365 |
 | 3 | País del usuario | `nvarchar(2)` | Prefijo internacional del usuario, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 | 4 | Hora de invitación | `datetimeoffset` | Cuando la invitación inicial envió el mensaje entrante de Teams o una llamada de bot a la SBC, o recibida en el mensaje entrante a teams o una llamada de bot por el componente proxy SIP de enrutamiento directo desde la SBC |
 | 5 | Hora de inicio | `datetimeoffset` | Hora en la que el proxy SIP recibió la respuesta final (mensaje SIP "200 correcto") desde la SBC en salida (Teams/bot a un usuario de la RTC) o después de que el proxy SIP envíe la invitación al siguiente salto dentro de Teams backend en la llamada entrante (usuario de RTC a teams/bot).<br/>Para las llamadas fallidas o no respondidas, esto puede ser igual a la hora de invitación o de error. |

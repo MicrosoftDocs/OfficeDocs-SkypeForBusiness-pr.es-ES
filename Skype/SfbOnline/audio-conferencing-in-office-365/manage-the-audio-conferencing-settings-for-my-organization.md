@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Consulte los pasos de Skype empresarial online para asignar una licencia de conferencia de acceso telefónico local y un identificador de conferencia a un usuario y muchas otras opciones de la Conferencia de acceso telefónico local. '
-ms.openlocfilehash: 46f55ba256759d86e93e9436e949ee49ff337f7c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9567c8234c0ef7a5b65c5894666747eab3cff7a5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986525"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777985"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Administrar la configuración de Audioconferencia de mi organización en Skype for Business Online
 
@@ -43,7 +43,7 @@ Puede que le resulte más fácil ver toda la configuración de la audioconferenc
 
  **To assign a license for a user**
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión con su cuenta profesional o educativa.
 
 2. En el centro de navegación izquierdo del centro de administración, **vaya a** > usuarios**activos**y, a continuación, seleccione el usuario o los usuarios de la lista de usuarios disponibles.
 
@@ -59,9 +59,9 @@ Puede que le resulte más fácil ver toda la configuración de la audioconferenc
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Enable or disable emails sent to audio conferencing users
 
-![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
+![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión con su cuenta profesional o educativa.
 
 2. Vaya al centro de administración > **Skype empresarial** y, en la barra de navegación izquierda, haga clic en **audioconferencia**.
 
@@ -110,7 +110,7 @@ Ver [los correos electrónicos que se envían de forma automática a los usuario
 
 ## <a name="reset-the-meeting-conference-id"></a>Reset the meeting conference ID
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión con su cuenta profesional o educativa.
 
 2. Vaya al centro de administración > **Skype empresarial**.
 
@@ -128,7 +128,7 @@ See [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).
 Se asignará un id. de conferencia único a cada reunión que programe un usuario. Aunque se creará automáticamente un identificador de conferencia y se le asignará a un usuario, puede haber ocasiones en las que un usuario no desee usarlo y usted quiera establecerlo en un número determinado, o los usuarios no podrán recordar o perder su identificador de conferencia. You can use the Skype for Business admin center and Windows PowerShell to view, change, and reset their conference ID.
 
 
-1. Aunque se creará y se asignará un identificador de conferencia automáticamente a un usuario, puede que a veces el usuario no desee usarlo y que usted desee establecerlo en un número concreto, o que los usuarios no recuerden o hayan perdido su identificador de conferencia. En esos casos, puede usar el centro de administración de Skype Empresarial y Windows PowerShell para ver, cambiar y restablecer su identificador de conferencia.
+1. Inicie sesión con su cuenta profesional o educativa.
 
 2. Vaya al centro de administración > **Skype empresarial** y, en la barra de navegación izquierda, haga clic en **audioconferencia**.
 
@@ -142,7 +142,7 @@ Consulte [restablecer el PIN de audioconferencia](reset-the-audio-conferencing-p
 
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Send an email with Audio Conferencing information to a user
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión con su cuenta profesional o educativa.
 
 2. Vaya al centro de administración > **Skype empresarial** y, en la barra de navegación izquierda, haga clic en **audioconferencia**.
 
@@ -157,7 +157,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 ## <a name="setting-the-phone-numbers-included-on-invites"></a>Configurar los números de teléfono incluidos en los invitados
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión con su cuenta profesional o educativa.
 
 2. Vaya al centro de administración > **Skype empresarial**.
 
@@ -175,7 +175,7 @@ Consulte [establecer los números de teléfono incluidos en los invitados](set-t
 **Set the meeting experience when callers join a meeting**
 
 
-1. Establecer la experiencia de reunión cuando las personas que llaman se unen a una reunión
+1. Inicie sesión con su cuenta profesional o educativa.
 
 2. Vaya al centro de administración > **Skype empresarial**.
 
@@ -195,7 +195,7 @@ Después de realizar los cambios, haga clic en [Guardar](/MicrosoftTeams/change-
   
  Vea **Cambiar la configuración de un puente de conferencias de acceso telefónico local de Microsoft**.
 
-1. Configurar la longitud del PIN de las reuniones
+1. Inicie sesión con su cuenta profesional o educativa.
 
 2. Vaya al centro de administración > **Skype empresarial**.
 
@@ -209,7 +209,7 @@ See [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/chang
   
  Vea **Cambiar la configuración de un puente de conferencias de acceso telefónico local de Microsoft**.
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión con su cuenta profesional o educativa.
 
 2. Vaya al centro de administración > **Skype empresarial** y, en la barra de navegación izquierda, haga clic en **audioconferencia**.
 
@@ -226,7 +226,7 @@ See [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/chang
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Ver y establecer los idiomas principales (alternativos) y secundarios (alternativos) en un puente de audioconferencia
 
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión con su cuenta profesional o educativa.
 
 2. Vaya al centro de administración > **Skype empresarial**.
 
@@ -240,7 +240,7 @@ También puede establecer el idioma principal y los idiomas secundarios compatib
 
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>See audio conferencing dial-in numbers
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión con su cuenta profesional o educativa.
 
 2. Vaya al centro de administración > **Skype empresarial**.
 
@@ -258,7 +258,7 @@ Consulte [ver una lista de números de audioconferencia](see-a-list-of-audio-con
 
 ## <a name="see-a-list-of-users-that-are-enabled"></a>See a list of users that are enabled
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión con su cuenta profesional o educativa.
 
 2. Vaya al centro de administración > **Skype empresarial**.
 

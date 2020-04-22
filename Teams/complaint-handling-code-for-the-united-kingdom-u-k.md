@@ -1,5 +1,5 @@
 ---
-title: Código de tratamiento de quejas para el Reino Unido -Planes de llamadas de Office 365
+title: Código de tratamiento de quejas para el Reino Unido -Planes de llamadas de Microsoft 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,16 +23,16 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Realiza una queja por los servicios de llamadas de Skype para empresas (llamadas RTC en el Reino Unido), las escalas de tiempo para las respuestas y la resolución de disputas para reclamaciones no resueltas.
-ms.openlocfilehash: 6bebf983d19461485f7f381c300fc6e5b3611b6b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137290"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780279"
 ---
-# <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Planes de llamada en Office 365: código de administración de quejas para Reino Unido (UK)
+# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Planes de llamadas en Microsoft 365: código de tratamiento de quejas para el Reino Unido (RU)
 
-Este código se aplica a los clientes de pequeñas empresas (organizaciones con 10 empleados o menos) en el Reino Unido (RU) en relación con el servicio del plan de llamadas de Office 365 (el "servicio") conforme a las regulaciones de comunicaciones del Reino Unido. Los demás servicios de Skype Empresarial están regidos por su acuerdo de servicio con Microsoft y por otros términos aplicables en relación con el uso del servicio particular.
+Este código se aplica a los clientes de pequeñas empresas (organizaciones con 10 empleados o menos) en el Reino Unido (RU) en relación con el servicio del plan de llamadas de Microsoft 365 (el "servicio") conforme a las regulaciones de comunicaciones del Reino Unido. Los demás servicios de Skype Empresarial están regidos por su acuerdo de servicio con Microsoft y por otros términos aplicables en relación con el uso del servicio particular.
 
 ## <a name="how-to-make-a-complaint"></a>Cómo presentar una queja
 

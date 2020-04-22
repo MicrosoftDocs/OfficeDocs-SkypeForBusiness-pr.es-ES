@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3908100a0270f9e72835e189a220ece6e54a27bd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 11d95858c39a2d555a4b1a7433b0a7dce0388293
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836540"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780269"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Ubicación de los datos en Microsoft Teams
 
-Los datos de Teams residen en la región geográfica asociada con su inquilino de Office 365. En la actualidad, Teams es compatible con Australia, Canadá, Francia, Alemania, India, Japón, Sudáfrica, Corea del sur, Suiza (que incluye a Liechtenstein), las regiones de los Emiratos Árabes Unidos, América del sur, América, APAC y EMEA. 
+Los datos de Teams residen en la región geográfica asociada a su organización de 365 de Office. En la actualidad, Teams es compatible con Australia, Canadá, Francia, Alemania, India, Japón, Sudáfrica, Corea del sur, Suiza (que incluye a Liechtenstein), las regiones de los Emiratos Árabes Unidos, América del sur, América, APAC y EMEA. 
 
 > [!IMPORTANT]
 > Actualmente, Teams ofrece residencia de datos en Australia, Canadá, Francia, Alemania, India, Japón, los Emiratos Árabes Unidos, el Reino Unido, Corea del sur, Sudáfrica y Suiza (que incluye Liechtenstein) solo para los nuevos inquilinos.
@@ -47,7 +47,7 @@ Consulte la sesión de la [sección de encendido en la arquitectura de Microsoft
 
 ### <a name="core-teams-customer-data"></a>Datos de los clientes principales de Teams
 
-Si tu espacio empresarial está aprovisionado en Australia, Canadá, la Unión Europea, Francia, Alemania, India, Japón, Sudáfrica, Corea del sur, Suiza (que incluye Liechtenstein), los Emiratos Árabes Unidos, el Reino Unido o los Estados Unidos, las tiendas Microsoft los siguientes datos del cliente en reposo solo dentro de esa ubicación:
+Si tu cuenta empresarial está aprovisionada en Australia, Canadá, la Unión Europea, Francia, Alemania, India, Japón, Sudáfrica, Corea del sur, Suiza (que incluye Liechtenstein), los Emiratos Árabes Unidos, el Reino Unido o los Estados Unidos, Microsoft almacena los siguientes datos del cliente solo en esa ubicación:
 
 - Chats de Teams, conversaciones de equipos y canales, imágenes, mensajes de voz y contactos
 - Contenido del sitio de SharePoint Online y los archivos almacenados en ese sitio

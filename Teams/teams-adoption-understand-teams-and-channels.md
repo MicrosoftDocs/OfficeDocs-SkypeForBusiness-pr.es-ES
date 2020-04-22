@@ -19,22 +19,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ff198dcc7898f463c5b2c299ab9b9fb411f3382
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 52a3f29869320992840ab8aebd17453485eec662
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837730"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779596"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Descripción de los equipos y canales en Microsoft Teams
 
 Los conceptos de los equipos y los canales son fundamentales para una implementación saludable y sana de Microsoft Teams. 
 
-- Un equipo es una colección de personas, contenido y herramientas que trabajan en conjunto para generar un resultado empresarial para la empresa. Los equipos se construyen sobre grupos de Office 365 y los cambios que se realicen en la pertenencia a los grupos de Office 365 se sincronizarán con el equipo. 
+- Un equipo es una colección de personas, contenido y herramientas que trabajan en conjunto para generar un resultado empresarial para la empresa. Los equipos se basan en los grupos de Microsoft 365 y los cambios en la pertenencia a grupos de Office 365 al equipo. 
 
 - Los canales son los espacios de colaboración dentro de un equipo en el que se realiza el trabajo real. 
 
-Para obtener más información sobre los equipos y los canales, consulte la [información general de equipos y canales en Microsoft Teams](teams-channels-overview.md). Para obtener orientación completa sobre la adopción de equipos, vea la [Guía de adopción de equipos](https://aka.ms/teamstoolkit). Para obtener más información sobre los equipos y grupos de Office 365, consulte [grupos de office 365 y Microsoft Teams](office-365-groups.md) , y [Obtenga más información sobre los grupos de Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Para obtener más información sobre los equipos y los canales, consulte la [información general de equipos y canales en Microsoft Teams](teams-channels-overview.md). Para obtener orientación completa sobre la adopción de equipos, vea la [Guía de adopción de equipos](https://aka.ms/teamstoolkit). Para obtener más información sobre Teams y los grupos de Microsoft 365, consulte [microsoft 365 Groups and Microsoft Teams](office-365-groups.md) y [Obtenga más información sobre los grupos de Microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |

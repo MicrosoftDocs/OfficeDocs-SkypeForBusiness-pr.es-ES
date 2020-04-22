@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumen: los administradores de Skype empresarial Server 2015 o Skype empresarial online pueden usar estas tablas para comprender qué características se admiten en cada cliente.'
-ms.openlocfilehash: 36583ab342daa68f87cffb8600fa54c1ce74d089
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c07955758f86e31eb947a99ce8ba0e8dc7a44b30
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013503"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777805"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparación de características de cliente de escritorio para Skype empresarial Server 2015
 
@@ -77,7 +77,7 @@ En esta tabla se describen las características relacionadas con la administraci
 |Buscar en la libreta de direcciones de la compañía |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Buscar en los contactos de Microsoft Outlook |&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Administrar los grupos de contactos |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|
-|Expandir grupos de distribución y grupos de Office 365 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||
+|Expandir grupos de distribución y grupos de 365 de Microsoft |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||
 |Buscar los grupos de respuesta  <br/> (no disponible en Skype empresarial online) |&#x2714;||&#x2714;||&#x2714;|&#x2714;||||
 |Mostrar el grupo de contactos reciente |&#x2714;||&#x2714;||&#x2714;|&#x2714;||||
 |Mostrar el grupo de conversaciones actuales |&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|&#x2714;|||
@@ -281,7 +281,7 @@ Las cuentas de usuario pueden existir en línea o en el entorno local y esto afe
 - Compatibilidad con la mensajería instantánea: escalar un salón de chat persistente a una reunión de Skype empresarial con un solo clic
 - Usuarios externos: realizar llamadas de dos o más participantes con usuarios externos
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 <a name="Types"> </a>
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afd990c0a49b1f61bb5be717cc3bf2ad7bc70935
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7fd782df443504a20a6010f07ac15b9078e570a7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836192"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780209"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planificar el gobierno en Teams
 
@@ -40,12 +40,12 @@ Es posible que su organización requiera que implemente controles estrictos sobr
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |Puntos de decisión|<ul><li>¿Su organización requiere una Convención de nomenclatura específica para Teams?</li><li>¿Los creadores de equipos necesitan la capacidad de asignar clasificaciones específicas de la organización a teams?</li><li>¿Necesita restringir la posibilidad de agregar invitados a los equipos de acuerdo con cada equipo?</li><li>¿Requiere su organización limitar quién puede crear equipos?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente los requisitos de la organización para la creación, denominación, clasificación y acceso de invitados de su organización.</li><li>Planee la implementación de estos requisitos como parte de la implementación de Teams.</li><li>Comunique y publique sus directivas para informar a los usuarios del comportamiento que pueden esperar.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Siguientes pasos|<ul><li>Documente los requisitos de la organización para la creación, denominación, clasificación y acceso de invitados de su organización.</li><li>Planee la implementación de estos requisitos como parte de la implementación de Teams.</li><li>Comunique y publique sus directivas para informar a los usuarios del comportamiento que pueden esperar.</li></ul>|
 
 > [!TIP]
 > Use la tabla siguiente para capturar los requisitos de la organización.
 
-|Capacidades |Detalles |Azure AD Premium <br> licencia requerida |Tomar |
+|Función |Detalles |Azure AD Premium <br> licencia requerida |Tomar |
 |---------|---------|---------|---------|
 |Directiva de nomenclatura de grupo | Usar palabras bloqueadas personalizadas basadas en prefijos y prefijos. |Min |DETERMINADO |
 |Clasificación de equipo |Asignar clasificaciones a los equipos. |Min |DETERMINADO |
@@ -57,7 +57,7 @@ Es posible que su organización requiera que implemente controles estrictos sobr
 > Para ayudarle a planificar con antelación, [Obtenga más información sobre cómo establecer estas directivas y qué licencias necesitan](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 > 
 > [!NOTE]
-> La limitación de la creación de grupos y equipos puede ralentizar la productividad de los usuarios, porque muchos servicios de Office 365 requieren la creación de grupos para que el servicio funcione. Para obtener más información, vaya a y expanda el [motivo por el que el control crea grupos de Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
+> La limitación de la creación de grupos y equipos puede ralentizar la productividad de los usuarios, porque muchos servicios de Office 365 requieren la creación de grupos para que el servicio funcione. Para obtener información adicional, vaya a y expanda el [motivo por el que el control crea grupos de Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
 
 #### <a name="additional-information"></a>Información adicional
@@ -66,14 +66,14 @@ Una vez que haya determinado sus requisitos, puede implementarlos con los contro
 
 - [Cmdlets de Azure Active Directory para configurar las opciones de la comunidad](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
 
-- [Aplicar una directiva de nomenclatura para los grupos de Office 365 en Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).
+- [Aplicar una directiva de nomenclatura para los grupos de Microsoft 365 en Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).
 
-- [Directiva de nomenclatura de Office 365 Groups](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+- [Directiva de nomenclatura de grupos de 365 de Microsoft](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>Caducidad, retención y archivado de grupo y equipo
 
-Es posible que su organización tenga requisitos adicionales para establecer directivas para el vencimiento, la retención y los datos de Teams y de almacenamiento (mensajes de canal y archivos de canal). Puede configurar directivas de expiración de grupo para administrar automáticamente el ciclo de vida del grupo y las directivas de retención para conservar o eliminar información según sea necesario y puede archivar los equipos (establecerlos en el modo de solo lectura) para conservar una vista puntual de un equipo ya no está activo.
+Es posible que su organización tenga requisitos adicionales para establecer directivas para el vencimiento, la retención y los datos de Teams y de almacenamiento (mensajes de canal y archivos de canal). Puede configurar directivas de expiración de grupo para administrar automáticamente el ciclo de vida del grupo y las directivas de retención para conservar o eliminar información según sea necesario y puede archivar los equipos (establecerlos en el modo de solo lectura) para conservar una vista puntual de un equipo que ya no esté activo.
 
 |           |            |
 |-----------|------------|
@@ -83,9 +83,9 @@ Es posible que su organización tenga requisitos adicionales para establecer dir
 > [!TIP]
 > Use la tabla siguiente para capturar los requisitos de la organización.
 
-|Capacidades |Detalles |Se necesita una licencia de Azure AD Premium |Tomar |
+|Función |Detalles |Se necesita una licencia de Azure AD Premium |Tomar |
 |---------|---------|---------|---------|
-|Directiva de expiración |Para administrar el ciclo de vida de los grupos de Office 365, establezca una directiva de expiración. |Min |DETERMINADO|
+|Directiva de expiración |Administre el ciclo de vida de los grupos de Microsoft 365 mediante la configuración de una directiva de expiración. |Min |DETERMINADO|
 |Directiva de retención |CONSERVE o elimine datos durante un período de tiempo específico configurando directivas de retención para equipos en el centro de cumplimiento de & de seguridad. **Nota**: para usar esta característica, es necesario tener licencias de Office 365 Enterprise E3 o una versión posterior. |No |DETERMINADO |
 |Archivar y restaurar |Archivar un equipo cuando ya no está activo pero desea mantenerlo por referencia o reactivarlo en el futuro. |No |DETERMINADO |
 
@@ -96,7 +96,7 @@ Es posible que su organización tenga requisitos adicionales para establecer dir
 
 Para obtener instrucciones técnicas sobre cómo implementar esta configuración, consulte:
 
-- [Configurar la expiración de los grupos de Office 365](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
+- [Configurar la expiración de grupos de 365 de Microsoft](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
 
 - [Configure las directivas de retención de Teams](retention-policies.md).
 
@@ -105,7 +105,7 @@ Para obtener instrucciones técnicas sobre cómo implementar esta configuración
 
 ## <a name="teams-feature-management"></a>Administración de características de Teams
 
-Otro aspecto importante de la administración del ciclo de vida y del gobierno de los equipos es la capacidad de controlar las características a las que los usuarios tendrán acceso. Puede administrar las características de mensajería, reunión y llamada, ya sea en el nivel de inquilino de Office 365 o por usuario. 
+Otro aspecto importante de la administración del ciclo de vida y del gobierno de los equipos es la capacidad de controlar las características a las que los usuarios tendrán acceso. Puede administrar las características de mensajería, reunión y llamada, ya sea en el nivel de la organización de Office 365 o por usuario. 
 
 
 |         |         |

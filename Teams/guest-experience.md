@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed0ea94910e9b3b5499a1f23a6c1c081590957c7
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 60891c2e5283b8e9cdaa9e8d7852768bbb52d8aa
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160574"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776935"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
@@ -51,7 +51,7 @@ En la siguiente tabla se compara la funcionalidad de Teams disponible para los m
 |Crear reuniones o programaciones de Access  <br/> |&#x2713;||
 |Obtener acceso al almacenamiento de OneDrive para la empresa  <br/> |&#x2713;||
 |Crear directivas de acceso de invitados a equipos y canales para todos los inquilinos  <br/> |&#x2713;||
-|Invitar a un usuario que no pertenece al dominio de inquilino de Office 365 <br/>  *Los propietarios del equipo controlan este parámetro.*  <br/> <br/> |&#x2713;||
+|Invitar a un usuario fuera del dominio de la organización de Office 365 <br/>  *Los propietarios del equipo controlan este parámetro.*  <br/> <br/> |&#x2713;||
 |Crear un equipo  <br/> |&#x2713;||
 |Descubrir un equipo público y unirse a él  <br/> |&#x2713;||
 |Ver el organigrama  <br/> |&#x2713;||

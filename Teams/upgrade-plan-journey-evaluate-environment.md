@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d73c40ee6a2ebe906a6a3ca66dbb430b843c6eeb
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 1b7c7910c7c876c01d3192e16f49498e508fcd2c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706930"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776745"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Evaluar el entorno antes de actualizar a teams
 
@@ -44,24 +44,24 @@ Para lograr los resultados clave objetivo (OKRs), ya has tomado decisiones clave
 
 Identifique los riesgos técnicos como parte de una evaluación del medio ambiente y de la evaluación de la preparación de la adopción, y desarrolle un plan de mitigación por cada riesgo identificado. Debes incorporar esta información en el registro de riesgos.
 
-Todos los temas relacionados con su infraestructura de colaboración y el inquilino de Office 365, la red, los puntos de conexión, las operaciones, la adopción y la preparación están incluidos en el cuestionario de descubrimiento ambiental. El cuestionario se divide en varias secciones para confirmar la preparación de su organización para la implementación de equipos en varias áreas principales. Trabaje con su equipo de proyecto para proporcionar la información solicitada con la mayor cantidad de detalles posible para facilitar sus actividades de planificación.
+Todos los temas relacionados con su infraestructura de colaboración y la organización de Office 365, la red, los puntos de conexión, las operaciones, la adopción y la preparación están incluidos en el cuestionario de descubrimiento ambiental. El cuestionario se divide en varias secciones para confirmar la preparación de su organización para la implementación de equipos en varias áreas principales. Trabaje con su equipo de proyecto para proporcionar la información solicitada con la mayor cantidad de detalles posible para facilitar sus actividades de planificación.
 
 > [!TIP]
 > Puede empezar copiando el cuestionario en un documento de Microsoft Word. Intenta contestar todas las preguntas y captura todos los detalles a medida que te desplazas.
 
 ## <a name="project-team"></a>Equipo del proyecto
 
-Asegúrese de que ha contratado a las personas adecuadas para el equipo de su proyecto. Comprobar los pasos completados en [dar de alta el proyecto stakekholders](upgrade-enlist-stakeholders.md).
+Asegúrese de que ha contratado a las personas adecuadas para el equipo de su proyecto. Compruebe los pasos completados para [dar de alta a los participantes del proyecto](upgrade-enlist-stakeholders.md).
 
-## <a name="office-365-tenant-details"></a>Detalles del inquilino de Office 365
+## <a name="office-365-organization-details"></a>Detalles de la organización de Office 365
 
-Le recomendamos encarecidamente tener un inquilino activo de Office 365 mientras trabaja con este cuestionario. Si aún no ha activado ni configurado un inquilino de Office 365, consulte [planear la configuración de office 365 para empresas](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
+Le recomendamos encarecidamente tener una organización activa de Office 365 mientras trabaja con este cuestionario. Si aún no ha activado ni configurado una organización de Office 365, consulte [planear la configuración de office 365 para empresas](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
 
-Use la tabla siguiente para capturar información sobre el inquilino de Office 365.
+Use la tabla siguiente para capturar información sobre la organización de Office 365.
 
 > | Pregunta | Respuesta | Comentarios |
 > |---|---|---|
-> | Nota el inquilino de Office 365 de producción <br>nombre e identificador en la columna respuesta <br/>Si tiene más de un inquilino <br>asociado a su organización, <br>Anote todos los identificadores. | Nombre del inquilino: <br/>IDENTIFICADOR de inquilino:| |
+> | Nota la organización 365 de producción <br>nombre e identificador en la columna respuesta <br/>Si tiene más de un inquilino <br>asociado a su organización, <br>Anote todos los identificadores. | Nombre del inquilino: <br/>IDENTIFICADOR de inquilino:| |
 > | ¿En qué regiones se han implementado los inquilinos?| | |
 > | Estos son los inquilinos de Office 365 multiinquilino o <br>Dique? | <input type="checkbox">Multiinquilino<br/> <input type="checkbox">Dique | |
 > | ¿Qué productos de Microsoft Online se están usando? <br/>Anote el número de usuarios habilitados para cada uno <br>servicio en la columna Comentarios. | <input type="checkbox">Microsoft Teams <br/> <input type="checkbox">Skype empresarial <br>&nbsp; &nbsp; &nbsp;Online <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive para la empresa <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">Otros| |
@@ -70,7 +70,7 @@ Use la tabla siguiente para capturar información sobre el inquilino de Office 3
 > | ¿Qué usa para el directorio? <br>¿sincronizar hoy? |<input type="checkbox">Sin sincronización (solo en la nube) <br/> <input type="checkbox">Azure Active Directory <br>&nbsp;&nbsp; &nbsp;Conectar <br/> <input type="checkbox">Other (especificar en el <br>&nbsp;&nbsp; &nbsp;| |
 > | ¿La identidad federada está implementada en este momento? <br/>(Servicios de Federación de Active Directory o <br>tercero) | <input type="checkbox">Afirmativa <br/> <input type="checkbox">No | |
 > | Si está usando la identidad federada, ¿cuál es el <br>infraestructura de Federación? | <input type="checkbox">AD FS de Windows 2008 R2 <br/> <input type="checkbox">Windows 2012 AD FS <br/> <input type="checkbox">AD FS de Windows 2012 R2 <br/> <input type="checkbox">Windows 2016 AD FS <br/> <input type="checkbox">Federación de terceros <br>&nbsp;&nbsp; &nbsp; <br>&nbsp;&nbsp; (Tenga en cuenta los detalles &nbsp;de la <br>&nbsp;&nbsp; &nbsp; | |
-> | Si actualmente mantiene un 365 activo de Office <br>inquilino, es el dominio SMTP/SIP de su <br>¿los usuarios de destino están asociados con el inquilino? | <input type="checkbox">N/A: sin 365 de Office <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">No, el usuario no es SMTP/SIP <br>&nbsp;&nbsp; &nbsp;está asociado <br>&nbsp;&nbsp; &nbsp; <br>&nbsp; &nbsp; &nbsp;Office 365 <br/> <input type="checkbox">Sí, el SIP/SIP de los usuarios <br>&nbsp;&nbsp; &nbsp; <br>&nbsp;&nbsp; &nbsp; <br>&nbsp;&nbsp; &nbsp; | |
+> | Si actualmente mantiene un 365 activo de Office <br>inquilino, es el dominio SMTP/SIP de su <br>¿los usuarios de destino están asociados con el inquilino? | <input type="checkbox">N/A: sin 365 de Office <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">No, el usuario no es SMTP/SIP <br>&nbsp;&nbsp; &nbsp;está asociado <br>&nbsp;&nbsp; &nbsp; <br>&nbsp; &nbsp; &nbsp;Creación de inquilino <br/> <input type="checkbox">Sí, el SIP/SIP de los usuarios <br>&nbsp;&nbsp; &nbsp; <br>&nbsp;&nbsp; &nbsp; <br>&nbsp;&nbsp; &nbsp; | |
 > | ¿Los UPN de usuario coinciden con su dirección SMTP principal? | <input type="checkbox">Afirmativa <br/> <input type="checkbox">No <br/> <input type="checkbox">Impredecible | |
 
 ## <a name="existing-collaboration-platform-summary"></a>Resumen de la plataforma de colaboración existente
@@ -98,7 +98,7 @@ Si procede, Capture los detalles de la implementación de Teams mediante la tabl
 > | Pregunta | Respuesta | Comentarios |
 > |---|---|---|
 > | ¿Qué tipos de usuarios están habilitados para Teams? | <input type="checkbox">Todos los usuarios de la organización <br/> <input type="checkbox">Usuarios o grupos de usuarios específicos <br>&nbsp;&nbsp; (Especifique en la columna &nbsp;comentarios) ||
-> | ¿Qué características y modalidades de Teams se usan? | <input type="checkbox">Conversaciones basadas en canales <br/> <input type="checkbox">Chat privado <br/> <input type="checkbox">Acceso de invitados <br/> <input type="checkbox">Reuniones de canal <br/> <input type="checkbox">Reuniones privadas <br/> <input type="checkbox">Llamadas privadas <br/> <input type="checkbox">Meetup de canal ad hoc <br/> <input type="checkbox">Vídeos en reuniones <br/> <input type="checkbox">Pantalla compartida en reuniones <br/> <input type="checkbox">Audioconferencia <br/><input type="checkbox">Aplicaciones (aplicaciones)<br> &nbsp;&nbsp; &nbsp; Pestañas <input type="checkbox"><br>&nbsp;&nbsp; Bots &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; Conectores &nbsp; <input type="checkbox"><br><input type="checkbox">Integración de almacenamiento en nube personalizada <br>&nbsp;&nbsp; (Box, Dropbox, ShareFile, Google &nbsp; Drive) <br/> <input type="checkbox">Integración del correo electrónico del canal <br/> <input type="checkbox">Otro (especifique en la columna comentarios). | |
+> | ¿Qué características y modalidades de Teams se usan? | <input type="checkbox">Conversaciones basadas en canales <br/> <input type="checkbox">Chat privado <br/> <input type="checkbox">Acceso de invitados <br/> <input type="checkbox">Reuniones de canal <br/> <input type="checkbox">Reuniones privadas <br/> <input type="checkbox">Llamadas privadas <br/> <input type="checkbox">Meetup de canal ad hoc <br/> <input type="checkbox">Vídeos en reuniones <br/> <input type="checkbox">Pantalla compartida en reuniones <br/> <input type="checkbox">Audioconferencia <br/><input type="checkbox">Aplicaciones (aplicaciones)<br> &nbsp;&nbsp; &nbsp; Pestañas <input type="checkbox"><br>&nbsp;&nbsp; Bots &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; Conectores &nbsp; <input type="checkbox"><br><input type="checkbox">Integración de almacenamiento en nube personalizada <br>&nbsp;&nbsp; (Dropbox, Box, ShareFile, Google Drive, &nbsp; Egnyte) <br/> <input type="checkbox">Integración del correo electrónico del canal <br/> <input type="checkbox">Otro (especifique en la columna comentarios). | |
 > | ¿Qué aplicaciones ha implementado en Teams? | | |
 > | ¿Ha bloqueado específicamente alguna funcionalidad de Teams? <br/>En caso afirmativo, anote los detalles de la columna Comentarios. | <input type="checkbox">Afirmativa <br/> <input type="checkbox">No ||
 > | ¿Qué clientes de Teams se están usando? | <input type="checkbox">Web <br/> <input type="checkbox">Ventana <br/> <input type="checkbox">Mac <br/> <input type="checkbox">i <br/> <input type="checkbox">Android <br/> <input type="checkbox">Windows Mobile | |

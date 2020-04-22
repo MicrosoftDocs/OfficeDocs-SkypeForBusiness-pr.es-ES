@@ -12,12 +12,12 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de478ddf104f36fc208f2773c26c772b2cc0addd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4478f60fc99304e7cf882ddec7951aa3625d74f2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195343"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779586"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ Antes de poner a disposición de los usuarios la aplicación Lync de la tienda W
 
 ## <a name="enabling-multi-factor-authentication-for-lync-windows-store-app"></a>Habilitar la autenticación multifactor para la aplicación de la tienda Windows de Lync
 
-Actualizaciones acumulativas para Lync Server 2013: el 2013 de junio agrega compatibilidad con la autenticación multifactor para los clientes de la aplicación de la tienda Windows de Lync. Además del nombre de usuario y la contraseña, puede requerir métodos de autenticación adicionales, como tarjetas inteligentes o PIN, para autenticar a los usuarios externos cuando inician sesión en reuniones de Lync. Para habilitar la autenticación multifactor, debe implementar el servidor de Federación del servicio de Federación de Active Directory (AD FS) y habilitar la autenticación pasiva en Lync Server 2013. Una vez configurado AD FS, los usuarios externos que intenten unirse a reuniones de Lync reciben una página web de autenticación multifactor de AD FS con el nombre de usuario y la contraseña, junto con los métodos de autenticación adicionales que haya configurado. .
+Actualizaciones acumulativas para Lync Server 2013: el 2013 de junio agrega compatibilidad con la autenticación multifactor para los clientes de la aplicación de la tienda Windows de Lync. Además del nombre de usuario y la contraseña, puede requerir métodos de autenticación adicionales, como tarjetas inteligentes o PIN, para autenticar a los usuarios externos cuando inician sesión en reuniones de Lync. Para habilitar la autenticación multifactor, debe implementar el servidor de Federación del servicio de Federación de Active Directory (AD FS) y habilitar la autenticación pasiva en Lync Server 2013. Una vez configurado AD FS, los usuarios externos que intenten unirse a reuniones de Lync reciben una página web de autenticación multifactor de AD FS que contiene el desafío de nombre de usuario y contraseña junto con los métodos de autenticación adicionales que haya configurado.
 
 <div class=" ">
 
@@ -138,7 +138,7 @@ Si su topología consta de Lync Server 2010 con Office Communications Server 200
 
 ## <a name="lync-windows-store-app-cannot-sign-in-due-to-a-certificate-name-validation-failure"></a>Lync la aplicación de la tienda Windows no puede iniciar sesión debido a un error de validación de nombre de certificado
 
-Puede producirse un problema de inicio de sesión para los usuarios de Office 365 que no ejecutan la versión más reciente de la aplicación de la tienda Windows de Lync. Este problema suele producirse cuando se usan varios dominios (por ejemplo, cuando el URI del SIP es **Usera@domainZ.com** pero el servidor perimetral es **SIP.domainX.com**). Para solucionar el problema, los usuarios deben instalar la última versión de la aplicación Lync de la tienda Windows, que también requiere Windows 8,1.
+Puede producirse un problema de inicio de sesión para los usuarios de Microsoft 365 o Office 365 que no ejecutan la versión más reciente de la aplicación de la tienda Windows de Lync. Este problema suele producirse cuando se usan varios dominios (por ejemplo, cuando el URI del SIP es **Usera@domainZ.com** pero el servidor perimetral es **SIP.domainX.com**). Para solucionar el problema, los usuarios deben instalar la última versión de la aplicación Lync de la tienda Windows, que también requiere Windows 8,1.
 
 </div>
 

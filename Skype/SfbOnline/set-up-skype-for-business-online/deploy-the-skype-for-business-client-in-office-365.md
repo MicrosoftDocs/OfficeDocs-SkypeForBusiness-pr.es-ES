@@ -1,5 +1,5 @@
 ---
-title: Implementar el cliente de Skype empresarial en Office 365
+title: Implementar el cliente de Skype empresarial en Microsoft 365 AOR Office 365
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -19,14 +19,14 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Aprenda a planificar e implementar Skype empresarial en organizaciones pequeñas, medianas y grandes y a poner a disposición de los usuarios. '
-ms.openlocfilehash: 052cc4cb8aa1242628e0f57a57a3fe5532be3d71
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d7c310935c5fa97873183d18b264616404471895
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706505"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777245"
 ---
-# <a name="deploy-the-skype-for-business-client-in-office-365"></a>Implementar el cliente de Skype empresarial en Office 365
+# <a name="deploy-the-skype-for-business-client-in-microsoft-365-or-office-365"></a>Implementar el cliente de Skype empresarial en Microsoft 365 u Office 365
 
 Este artículo explica las opciones para que el **[Administrador](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** pueda implementar la aplicación de Skype empresarial en las personas de su organización.
   
@@ -39,7 +39,7 @@ Antes de implementar Skype empresarial para los usuarios, asegúrese de que ha r
 
  **Instrucciones de instalación paso a paso:** Si tiene una pequeña o mediana empresa, le recomendamos que simplemente pida a los usuarios que instalen la aplicación de Skype empresarial en su PC. Apunte a estas instrucciones: [instalar Skype empresarial](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb). Si están usando equipos Mac, selecciónelos para [configurar Lync para Mac 2011 para Office 365](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88). La aplicación de Skype empresarial se instala por separado en el resto de las aplicaciones de Office.
   
- **Clientes de Office 365 ProPlus:** Si su empresa usa un plan 365 de Office que incluye Office 365 ProPlus, como el plan E3, la aplicación de Skype empresarial se instala al mismo tiempo que los usuarios descargan e instalan Word, Excel, PowerPoint, etc. Esto también significa que no puede desinstalar Skype empresarial a menos que desinstale todo el Office.
+ **Aplicaciones de Microsoft 365 para clientes empresariales:** Si su empresa usa un plan 365 de Office que incluye aplicaciones de Microsoft 365 para empresas, como el plan E3, la aplicación de Skype empresarial se instala al mismo tiempo que los usuarios descargan e instalan Word, Excel, PowerPoint, etc. Esto también significa que no puede desinstalar Skype empresarial a menos que desinstale todo el Office.
   
 ### <a name="choose-whether-to-make-skype-for-business-available-to-your-users"></a>Elegir si Skype empresarial estará disponible para los usuarios
 
@@ -78,9 +78,9 @@ Con Office 365, tiene varias opciones para implementar la aplicación de Skype e
   
 - Descargue la aplicación de Skype empresarial en su red local desde el centro de administración de Microsoft 365, como se describe en [implementar de forma manual Skype empresarial para los usuarios](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1).
     
-- Use la **[herramienta de implementación de Office](https://go.microsoft.com/fwlink/p/?LinkID=626065)** para descargar Office 365 ProPlus o la aplicación de Skype empresarial a su red local. A continuación, use la herramienta de implementación de Office para implementar la aplicación en los usuarios. La herramienta de implementación de Office le ofrece la posibilidad de controlar determinados aspectos de la implementación, como los idiomas y la versión (32 bits o 64 bits).
+- Use la **[herramienta de implementación de Office](https://go.microsoft.com/fwlink/p/?LinkID=626065)** para descargar las aplicaciones de Microsoft 365 para la empresa o la aplicación de Skype empresarial a su red local. A continuación, use la herramienta de implementación de Office para implementar la aplicación en los usuarios. La herramienta de implementación de Office le ofrece la posibilidad de controlar determinados aspectos de la implementación, como los idiomas y la versión (32 bits o 64 bits).
     
-- Use los procesos y las herramientas de implementación de software existentes, como Microsoft Endpoint Configuration Manager, para implementar Office 365 ProPlus o la aplicación de Skype empresarial a sus usuarios. Puede usar las herramientas y los procesos existentes con la [herramienta de implementación de Office](https://go.microsoft.com/fwlink/p/?LinkID=626065) o con el software que haya descargado desde el centro de administración de Microsoft 365.
+- Use los procesos y las herramientas de implementación de software existentes, como Microsoft Endpoint Configuration Manager, para implementar las aplicaciones de Microsoft 365 para la empresa o la aplicación de Skype empresarial a sus usuarios. Puede usar las herramientas y los procesos existentes con la [herramienta de implementación de Office](https://go.microsoft.com/fwlink/p/?LinkID=626065) o con el software que haya descargado desde el centro de administración de Microsoft 365.
     
 ### <a name="more-info-on-using-the-office-deployment-tool"></a>Más información sobre el uso de la herramienta de implementación de Office
 
@@ -112,7 +112,7 @@ Para obtener más información sobre cómo usar Configuration Manager para imple
     
 - [Implementar aplicaciones con Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/deploy-applications)
     
-Si implementa la aplicación de Skype empresarial como parte de la implementación de Office 365 ProPlus, consulte [administrar office 365 ProPlus con Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates).
+Si va a implementar la aplicación de Skype empresarial como parte de la implementación de las aplicaciones de Microsoft 365 para empresas, consulte [Administrar aplicaciones de microsoft 365 para la empresa con Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates).
   
 ## <a name="planning-for-updates-to-the-skype-for-business-app"></a>Planear actualizaciones para la aplicación de Skype empresarial
 
@@ -132,11 +132,11 @@ Por ejemplo, muchas organizaciones desean probar las actualizaciones con un grup
   
 Para obtener más información sobre cómo funcionan las actualizaciones para el software de Office 365, consulte estos artículos:
   
-- [Información general del proceso de actualización de Office 365 ProPlus](https://technet.microsoft.com/library/dn761709.aspx)
+- [Información general sobre el proceso de actualización de las aplicaciones de Microsoft 365 para empresas](https://technet.microsoft.com/library/dn761709.aspx)
     
-- [Elegir cómo administrar las actualizaciones de Office 365 ProPlus](https://technet.microsoft.com/library/dn761707.aspx)
+- [Elegir cómo administrar las actualizaciones de las aplicaciones de Microsoft 365 para empresas](https://technet.microsoft.com/library/dn761707.aspx)
     
-- [Configurar las opciones de actualización de Office 365 ProPlus](https://technet.microsoft.com/library/dn761708.aspx)
+- [Configurar las opciones de actualización de las aplicaciones de Microsoft 365 para la empresa](https://technet.microsoft.com/library/dn761708.aspx)
     
   **Frecuencia con que se obtienen las actualizaciones de características**
   
@@ -148,7 +148,7 @@ Además de dónde obtiene las actualizaciones, también puede controlar la frecu
     
 Para algunas organizaciones, quieren tener tiempo para probar nuevas características, por lo que quieren recibir actualizaciones de características solo dos veces al año en lugar de cada mes.
   
-Puede controlar la frecuencia con que recibe las actualizaciones de características mediante la herramienta de implementación de Office o la Directiva de grupo para configurar el canal de actualización. El canal mensual le ofrece actualizaciones de características mensualmente (aproximadamente), mientras que el canal semianual le ofrece actualizaciones de características cada seis meses. Para obtener más información sobre los canales, vea [información general sobre los canales de actualización de Office 365 ProPlus](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4).
+Puede controlar la frecuencia con que recibe las actualizaciones de características mediante la herramienta de implementación de Office o la Directiva de grupo para configurar el canal de actualización. El canal mensual le ofrece actualizaciones de características mensualmente (aproximadamente), mientras que el canal semianual le ofrece actualizaciones de características cada seis meses. Para obtener más información sobre los canales, vea [información general sobre los canales de actualización de las aplicaciones de Microsoft 365 para empresas](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4).
   
 ## <a name="related-topics"></a>Temas relacionados
 

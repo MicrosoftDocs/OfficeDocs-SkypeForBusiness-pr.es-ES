@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'El servicio de conferencias es una parte importante de Skype Empresarial Online: mediante las conferencias, los grupos de usuarios pueden reunirse en línea para ver diapositivas y vídeo, compartir aplicaciones, cederse archivos, y colaborar y comunicarse de otros modos.'
-ms.openlocfilehash: aba41b8c1e527157c9ff8d58a2a7a78bfebb0a82
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: d7bbcca81888487d54fa1a08eaf09b5462dc391f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887899"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776245"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Establecer directivas de conferencia en su organización
 
@@ -59,7 +59,7 @@ La configuración de la Directiva se puede configurar en el momento en que se cr
     
     1. En el **menú Inicio** > **Windows PowerShell**.
         
-    2. En la ventana **Windows PowerShell**, puede conectarse a su organización de Office 365 ejecutando:
+    2. En la ventana de **Windows PowerShell** , conéctese a Microsoft 365 u Office 365 ejecutando:
         
         > [!NOTE]
         > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.

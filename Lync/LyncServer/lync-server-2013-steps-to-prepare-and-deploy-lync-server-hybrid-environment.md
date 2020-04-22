@@ -12,12 +12,12 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 207cb9b8435294abeac12f67506eb356a6ca73c6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bc029df06f22524fa99c232edf6bbe6aa9759f5a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208326"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780179"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,8 +64,8 @@ En la siguiente tabla se enumeran los pasos necesarios para preparar el entorno 
 <tr class="even">
 <td></td>
 <td><p>Agregar el dominio y comprobar la propiedad</p></td>
-<td><p>A veces, su dominio también se conoce como su <em>dominio</em>personal. Debe agregar el dominio a su inquilino de Office 365 y, a continuación, seguir los pasos para validar el dominio con Office 365. Esto es para confirmar que es el propietario del dominio.</p>
-<p>Para agregar su dominio a su inquilino de Office 365, siga los pasos descritos en <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">Agregar un dominio a office 365</a>.</p>
+<td><p>A veces, su dominio también se conoce como su <em>dominio</em>personal. Debe agregar el dominio a su organización de Office 365 y, a continuación, seguir los pasos para validar el dominio con Office 365. Esto es para confirmar que es el propietario del dominio.</p>
+<p>Para agregar su dominio a su organización de Office 365, siga los pasos descritos en <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">Agregar un dominio a office 365</a>.</p>
 <p>Complete todos los pasos de cada sección del tema, incluida &quot;editar registros DNS para los servicios de Office 365.&quot;</p></td>
 </tr>
 <tr class="odd">

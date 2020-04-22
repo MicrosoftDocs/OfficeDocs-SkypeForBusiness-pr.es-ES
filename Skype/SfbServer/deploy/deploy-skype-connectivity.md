@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumen: Obtenga información sobre cómo conectar Skype empresarial Server con consumidores de Skype. También se conoce como conectividad de Skype.'
-ms.openlocfilehash: be53acc531d0abb789ae4e622a24dc313483cac6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2cf124c340218a352f55fa1c09302a0d0f1d972a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030453"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780069"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implementar la conectividad de Skype en Skype empresarial Server
 
@@ -54,8 +54,8 @@ En la tabla siguiente se describe la compatibilidad con la búsqueda en el direc
 
 ||**Front-end de Skype empresarial Server**|**Lync Server 2013 (o anterior) front-end**|**Comments**|
 |:-----|:-----|:-----|:-----|
-|Servidor perimetral de Skype empresarial Server  <br/> |Admitido  <br/> |No compatible  <br/> |Skype empresarial Server y el servidor perimetral son requisitos previos para la búsqueda en el directorio de Skype  <br/> |
-|Servidor perimetral de Skype empresarial Server + servidor perimetral de Lync Server 2013 en paralelo  <br/> |Admitido  <br/> |No compatible  <br/> |El tráfico de búsqueda en el directorio de Skype fluye a través de servidores perimetrales de Skype empresarial Server. El tráfico de la Federación pasa por el servidor perimetral configurado por el administrador. Por ejemplo, el administrador puede elegir continuar enviando tráfico de Federación a través de servidores perimetrales de Lync Server 2013, que no admitirá la búsqueda en el directorio de Skype.  <br/> |
+|Servidor perimetral de Skype empresarial Server  <br/> |Compatible  <br/> |No compatible  <br/> |Skype empresarial Server y el servidor perimetral son requisitos previos para la búsqueda en el directorio de Skype  <br/> |
+|Servidor perimetral de Skype empresarial Server + servidor perimetral de Lync Server 2013 en paralelo  <br/> |Compatible  <br/> |No compatible  <br/> |El tráfico de búsqueda en el directorio de Skype fluye a través de servidores perimetrales de Skype empresarial Server. El tráfico de la Federación pasa por el servidor perimetral configurado por el administrador. Por ejemplo, el administrador puede elegir continuar enviando tráfico de Federación a través de servidores perimetrales de Lync Server 2013, que no admitirá la búsqueda en el directorio de Skype.  <br/> |
 |Servidor perimetral de Lync Server 2013 (o anterior)  <br/> |No se admite  <br/> |No se admite  <br/> ||
    
 > [!NOTE]
@@ -65,7 +65,7 @@ En la tabla siguiente se describe la compatibilidad con la búsqueda en el direc
 > En caso de que un cliente tenga varios sitios en su implementación local y haya implementado un solo servidor o grupo perimetral de Skype empresarial Server, la búsqueda de tráfico de todos los sitios pasará por el servidor perimetral disponible. El administrador debe asegurarse de que los grupos de servidores de todos los sitios puedan acceder al servidor o grupo de servidores perimetrales de Skype empresarial Server implementado. 
   
 > [!NOTE]
-> El servicio de gráfico de Skype limitará las solicitudes de búsqueda de cualquier cliente local u Office 365 si la tasa de solicitudes supera las 15 solicitudes por segundo. 
+> El servicio de gráfico de Skype limitará las solicitudes de búsqueda de todos los clientes locales o de Microsoft 365 u Office 365 si la tasa de solicitudes supera las 15 solicitudes/segundo. 
   
 > [!NOTE]
 > En el caso de los clientes locales de grandes empresas, los dominios tendrán que estar en la lista blanca con el servicio de búsqueda de Skype para permitir una mayor tasa de solicitudes. 
@@ -75,9 +75,9 @@ En la tabla siguiente se describe la compatibilidad con la búsqueda en el direc
   
 ## <a name="deploying-skype-connectivity-for-skype-for-business-online-in-office-365"></a>Implementación de conectividad de Skype para Skype empresarial online en Office 365
 
-La conectividad de Skype también es una característica de Skype empresarial online, que forma parte de Office 365. Puede habilitar la característica conectividad de Skype desde el centro de administración de Skype empresarial en el portal de Office 365.
+La conectividad de Skype también es una característica de Skype empresarial online, que forma parte de Office 365. Puede habilitar la característica conectividad de Skype desde el centro de administración de Skype empresarial en el centro de administración de Microsoft 365.
   
-Para Office 365 mediana empresa, Office 365 Enterprise, Office 365 Education y Office 365 para administración pública: inicie sesión en el portal de Office 365 y navegue al centro de administración de Skype empresarial. Vaya a comunicaciones externas. En proveedores de servicios de mensajería instantánea pública, haga clic en habilitar. Si desea controlar el acceso de usuarios individuales a la conectividad de Skype, puede hacerlo si modifica la configuración de las comunicaciones externas de los usuarios individuales.
+Para Office 365 mediana empresa, Office 365 Enterprise, Office 365 Education y Office 365 para administración pública: inicie sesión en el centro de administración de Microsoft 365 y vaya al centro de administración de Skype empresarial. Vaya a comunicaciones externas. En proveedores de servicios de mensajería instantánea pública, haga clic en habilitar. Si desea controlar el acceso de usuarios individuales a la conectividad de Skype, puede hacerlo si modifica la configuración de las comunicaciones externas de los usuarios individuales.
   
 Para Office 365 Small Business Premium: inicie sesión en Office 365 y vaya a configuración \> \> del servicio de administración mensajería instantánea, reuniones y conferencias. Active las comunicaciones externas. El conmutador de comunicaciones externas activa tanto la conectividad de Skype como las comunicaciones con otras organizaciones que usan Skype empresarial.
   
@@ -93,7 +93,7 @@ Para obtener más información acerca de la administración de Skype empresarial
     
 ## <a name="deploying-skype-connectivity-for-skype-for-business-server"></a>Implementación de la conectividad de Skype para Skype empresarial Server
 
-Skype empresarial Server usa la arquitectura de acceso a la Federación para admitir la conectividad con Skype. Esta conectividad permite a los usuarios de Skype empresarial Server agregar Skype. Los clientes de Skype también pueden agregar usuarios de Skype empresarial a su lista de contactos. En función de las directivas establecidas de forma administrativa en Skype empresarial Server, los usuarios podrán comunicarse mediante la mensajería instantánea, ver la presencia de los demás e iniciar llamadas de audio y vídeo. La conectividad de Skype también es una característica de Skype empresarial online y puede habilitarse para los clientes de Skype empresarial online desde el centro de administración de Skype empresarial en el portal de Office 365.
+Skype empresarial Server usa la arquitectura de acceso a la Federación para admitir la conectividad con Skype. Esta conectividad permite a los usuarios de Skype empresarial Server agregar Skype. Los clientes de Skype también pueden agregar usuarios de Skype empresarial a su lista de contactos. En función de las directivas establecidas de forma administrativa en Skype empresarial Server, los usuarios podrán comunicarse mediante la mensajería instantánea, ver la presencia de los demás e iniciar llamadas de audio y vídeo. La conectividad de Skype también es una característica de Skype empresarial online y puede habilitarse para los clientes de Skype empresarial online desde el centro de administración de Skype empresarial en el centro de administración de Microsoft 365.
   
 > [!NOTE]
 > Si Skype empresarial Server ya está configurado para conectarse con Windows Messenger mediante Public Instant Messaging Connectivity (PIC), la implementación ya está configurada para la conectividad de Skype. El único cambio que debería considerar es cambiar el nombre de la entrada de PIC de Messenger existente como Skype. 
@@ -212,7 +212,7 @@ La configuración de la conectividad de Skype también puede realizarse con Powe
      > El proveedor público debe quitarse y agregarse New si se realizan cambios. No se permiten los cambios locales. 
   
      > [!NOTE]
-     > Agregado en Lync Server 2013 CU5 &amp; Lync Desktop Client en Office 2013 SP1, NameDecorationRoutingDomain y NameDecorationExcludedDomainList mejoran la situación en la que los usuarios de Lync que agregan contactos de Skype necesitan "decorar" Dominios que no son de Microsoft para identificarlos y enrutarlos a Skype (el formato de: User (contoso. com) @msn. com). Esta nueva configuración permitirá el formato automático de la dirección del usuario en el cuadro de diálogo "agregar contacto de Skype" con la NameDecorationRoutingDomain (que debe establecerse en msn.com) si no contiene los dominios en el NameDecorationExcludedDomainList ( Actualmente, podemos admitir msn.com, live.com, Hotmail.com, outlook.com). 
+     > Agregado en Lync Server 2013 CU5 &amp; Lync Desktop Client en Office 2013 SP1, NameDecorationRoutingDomain y NameDecorationExcludedDomainList mejoran la situación en la que los usuarios de Lync que agregan contactos de Skype necesitan "decorar" Dominios que no son de Microsoft para identificarlos y enrutarlos a Skype (el formato de: User (contoso. com) @msn. com). Esta nueva configuración permitirá el formato automático de la dirección del usuario en el cuadro de diálogo "agregar contacto de Skype" con la NameDecorationRoutingDomain (que debe establecerse en msn.com) si no contiene los dominios de NameDecorationExcludedDomainList (actualmente, admite msn.com, live.com, Hotmail.com, outlook.com). 
   
 3. Desde un cliente de Skype empresarial, los usuarios ahora pueden buscar y agregar un usuario de Skype.
     

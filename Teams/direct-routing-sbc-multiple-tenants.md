@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Aprenda a configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 90bad0c87cef92a36dea392d98cfb66824c10113
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1419a42a6affa00bbeed35d328f91331ad5357ec
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141093"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779576"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -80,7 +80,7 @@ Los subdominios **deben** coincidir con el nombre de FQDN del tronco que se conf
 
 Cuando una llamada llega a la interfaz de enrutamiento directo de Office 365, la interfaz usa el encabezado del contacto para buscar el inquilino donde se debe buscar el usuario. El enrutamiento directo no usa la búsqueda de números de teléfono en la invitación, ya que es posible que algunos clientes tengan números no realizados que pueden superponerse en varios inquilinos. Por lo tanto, el nombre de dominio completo en el encabezado del contacto es necesario para identificar el inquilino exacto para buscar al usuario por el número de teléfono.
 
-*Consulte [obtener ayuda con los dominios de office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obtener más información sobre cómo crear nombres de dominio en inquilinos de Office 365.*
+*Consulte [obtener ayuda con los dominios de office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obtener más información sobre cómo crear nombres de dominio en las organizaciones de Office 365.*
 
 En el diagrama siguiente se resumen los requisitos para el dominio, los subdominios y el encabezado de contacto básicos.
 
@@ -138,7 +138,7 @@ Para obtener más información acerca de los roles de administrador y cómo asig
 
 Después de haber registrado un nombre de dominio, debe activarlo agregando al menos un usuario con licencia de E1, E3 o E5 y asignando una dirección SIP a la parte FQDN de la dirección SIP que coincide con el dominio base creado. 
 
-*Para obtener más información sobre cómo agregar usuarios en Office 365 inquilinos, consulte [obtener ayuda con los dominios de office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
+*Consulte [obtener ayuda con los dominios de office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obtener más información sobre cómo agregar usuarios en Office 365 organizaciones.*
 
 Por ejemplo: test@customers.adatum.biz
 
@@ -200,7 +200,7 @@ Para obtener más información acerca de los roles de administrador y cómo asig
 
 Después de registrar un nombre de dominio, debe activarlo agregando al menos un usuario y asignarle una dirección SIP con la parte FQDN de la dirección SIP que coincide con el subdominio creado en el inquilino del cliente.
 
-*Para obtener más información sobre cómo agregar usuarios en Office 365 inquilinos, consulte [obtener ayuda con los dominios de office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
+*Consulte [obtener ayuda con los dominios de office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obtener más información sobre cómo agregar usuarios en Office 365 organizaciones.*
 
 Por ejemplo: test@sbc1.customers.adatum.biz
 
@@ -258,7 +258,7 @@ Para configurar la conmutación por error en un entorno multiinquilino, tendrá 
 - En las directivas de enrutamiento de voz en línea de los usuarios, especifique SBCs.  Si se produce un error en un SBC, la Directiva de enrutamiento enrutará las llamadas al segundo SBC.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planear el enrutamiento directo](direct-routing-plan.md)
 

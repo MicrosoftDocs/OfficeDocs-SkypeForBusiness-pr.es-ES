@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Aplicación de pacientes para administradores de equipos
-ms.openlocfilehash: 4c4eaced1b7e3c328d589906ac50cfb8ac805ea3
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 405a87be4bd9504c0bdca98c17748f0864ba72ed
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153792"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780199"
 ---
 # <a name="patients-app-overview"></a>Información general de la aplicación Pacientes
 
@@ -30,12 +30,12 @@ La aplicación patients es una aplicación de la tienda Microsoft teams que est�
 
 La aplicación tiene dos modos:
 
-- El modo conectado de EMR que se conecta a EMRs a través de FHIR. La aplicación modo conectado de EMR permanece en la vista previa privada y los clientes interesados o los administradores pueden solicitar acceso a la aplicación colocando Microsoft un correo electrónico en [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) con información sobre su inquilino de Office 365.
+- El modo conectado de EMR que se conecta a EMRs a través de FHIR. La aplicación modo conectado de EMR permanece en la vista previa privada y los clientes interesados o los administradores pueden solicitar acceso a la aplicación colocando Microsoft un correo electrónico en [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) con información sobre su organización de Office 365.
 - El modo manual que permite a los equipos de atención médica agregar o aportar manualmente la información del paciente. La aplicación está disponible en la tienda de aplicaciones de Teams para que los usuarios finales la descarguen en la versión preliminar privada. La aplicación se puede restringir a determinadas secciones de usuarios que usan [directivas de configuración de aplicaciones](../../teams-app-setup-policies.md) en Teams. Para obtener acceso a la aplicación, su espacio empresarial debe formar parte del programa de adopción de tecnología (TAP). Envíenos un mensaje de correo electrónico a [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) para iniciar el proceso de solicitud de acceso.
 
 ## <a name="usage-example"></a>Ejemplo de uso
 
-Durante las sesiones de redondeo de cada turno en el exterior, los clínicos se reúnen en la estación de enfermería para hablar de las últimas actualizaciones en el progreso con pacientes en el mismo día.  Resaltan las principales métricas fundamentales (no necesariamente médicas o que son explícitas en los registros médicos de los pacientes) y garantizan que el paciente está en la ruta de la alas derecha para descargar en función de su diagnóstico. Para redondear a estos pacientes, el enfermeros de enfermería configura la aplicación del paciente en un equipo en el que se agregan todos los médicos y agrega pacientes a la lista de pacientes. Durante los retrasos, las enfermeras y otros brindadores de cuidados para el acceso del paciente a Microsoft Teams y a la aplicación de pacientes en sus dispositivos móviles y actualizan la información relevante del paciente en su dispositivo y, a continuación, cualquier persona en el equipo de cuidados puede ver dichas actualizaciones y notas Mantente sincronizado. Dos veces por día, al principio y al final de un turno, también tienen reuniones de equipo multidisciplinarias para repasar la lista de pacientes y usar la aplicación de pacientes para protegerse y compartir información sobre cada paciente con la aplicación de pacientes en una pantalla grande. A menudo, determinados médicos también pueden llamar a estas reuniones de Teams de forma remota y seguir siendo parte de la discusión.
+Durante las sesiones de redondeo de cada turno en el exterior, los clínicos se reúnen en la estación de enfermería para hablar de las últimas actualizaciones en el progreso con pacientes en el mismo día.  Resaltan las principales métricas fundamentales (no necesariamente médicas o que son explícitas en los registros médicos de los pacientes) y garantizan que el paciente está en la ruta de la alas derecha para descargar en función de su diagnóstico. Para redondear a estos pacientes, el enfermeros de enfermería configura la aplicación del paciente en un equipo en el que se agregan todos los médicos y agrega pacientes a la lista de pacientes. Durante los retrasos, las enfermeras y los demás prestadores de atención médica para el paciente pueden acceder a Microsoft Teams y a la aplicación de pacientes en sus dispositivos móviles y actualizar la información relevante del paciente en su dispositivo y, a continuación, cualquier persona en el equipo de cuidados puede ver esas actualizaciones y notas, y mantener la sincronización. Dos veces por día, al principio y al final de un turno, también tienen reuniones de equipo multidisciplinarias para repasar la lista de pacientes y usar la aplicación de pacientes para protegerse y compartir información sobre cada paciente con la aplicación de pacientes en una pantalla grande. A menudo, determinados médicos también pueden llamar a estas reuniones de Teams de forma remota y seguir siendo parte de la discusión.
 
 ## <a name="configure-patients-app"></a>Configurar la aplicación para pacientes
 

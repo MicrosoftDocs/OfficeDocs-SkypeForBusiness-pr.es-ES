@@ -1,5 +1,5 @@
 ---
-title: Personalizar invitaciones a reuniones
+title: Personalice las invitaciones a reuniones
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -21,18 +21,18 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: 'Personalice las invitaciones a reuniones de Skype con logotipos gráficos, URL de ayuda y oficio y texto de pie de página. '
-ms.openlocfilehash: b30c31d3e109fa36e49665c19a7aaebad581c7cc
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 41ed423349ff34f27a164b4d9c652571241b1afb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769643"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776235"
 ---
-# <a name="customize-meeting-invitations"></a>Personalizar invitaciones a reuniones
+# <a name="customize-meeting-invitations"></a>Personalice las invitaciones a reuniones
 
 Como administrador, puede asegurarse de que todas las invitaciones a reuniones de Skype empresarial incluyan información útil, como vínculos a su sitio web de soporte técnico y renuncia legal, el logotipo de su empresa y otro texto que desee incluir. 
   
-## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Sugerencias para crear un logotipo para invitaciones a reuniones
+## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Consejos para crear un logotipo para las invitaciones a reuniones
 <a name="__top"> </a>
 
 1. Crear una imagen que no supere los 188 píxeles de ancho por 30 píxeles de alto (es bastante pequeño).
@@ -41,14 +41,14 @@ Como administrador, puede asegurarse de que todas las invitaciones a reuniones d
     
 3. Almacene la imagen en una ubicación central a la que tengan acceso todos los usuarios de su empresa, como un recurso compartido de red, una carpeta compartida de OneDrive para la empresa, Dropbox, etc.
     
-    Ahora puede agregarlo a las invitaciones a reuniones. Consulte los pasos siguientes.
+    Ahora puede añadirlo a sus invitaciones a reuniones. Vea los siguientes pasos.
     
-## <a name="customize-your-meeting-invitations"></a>Personalizar las invitaciones a reuniones
+## <a name="customize-your-meeting-invitations"></a>Personalice sus invitaciones a reuniones
 <a name="__top"> </a>
 
-![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
+![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión con su cuenta profesional o educativa.
     
 2. Desde el centro de administración, elija **centros** > de administración**Skype**empresarial.
     

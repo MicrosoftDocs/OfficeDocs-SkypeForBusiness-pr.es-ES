@@ -1,5 +1,5 @@
 ---
-title: Código de práctica del Reino Unido -Planes de llamadas de Office 365
+title: Código de práctica del Reino Unido -Planes de llamadas de Microsoft 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,14 +23,14 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Aprenda el código de práctica de los planes de llamadas RTC para el Reino Unido de Skype empresarial, como, por ejemplo, cómo obtener ayuda y cómo enviar quejas y resolver disputas.
-ms.openlocfilehash: ef69d726ab40a4eb282422ab549961776c985ef1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 064d6961289a7874e9e67843c0cf47339c64f896
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139049"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779636"
 ---
-# <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Planes de llamada en Office 365: código de prácticas para Reino Unido (UK)
+# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Planes de llamadas en Microsoft 365-código de práctica para el Reino Unido (RU)
 
 Este código se aplica a los clientes de pequeñas empresas (organizaciones con 10 empleados o menos) en el Reino Unido (RU) en relación con el servicio del plan de llamadas de Office 365 (el "servicio") conforme a las regulaciones de comunicaciones del Reino Unido. Los demás servicios de Skype Empresarial están regidos por su acuerdo de servicio con Microsoft y por otros términos aplicables en relación con el uso del servicio particular.
 

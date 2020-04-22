@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ec2d9ede5fdd31070228995cefaa16a60ad6224
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 4c4619758672022ed767c56e296ba41d2dcc33fd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796003"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776825"
 ---
 # <a name="teams-only-mode-considerations"></a>Consideraciones del modo Teams solo
 
-Si es un administrador de su inquilino de Office 365, ahora verá la opción actualizar al modo solo de Teams en el centro de administración de Microsoft Teams. Con esta funcionalidad, puede actualizar usuarios individuales o, de forma alternativa, todo el inquilino.  
+Si es un administrador de su organización de Office 365, ahora verá la opción de actualizar al modo de solo equipos en el centro de administración de Microsoft Teams. Con esta funcionalidad, puede actualizar usuarios individuales o, de forma alternativa, todo el inquilino.  
 
 La actualización al modo solo de Teams ofrece a los usuarios todos los beneficios de Microsoft Teams, el hub para el trabajo en equipo en Office 365, a través de una sola experiencia de cliente. Además, los usuarios del modo solo de equipos recibirán todas las llamadas y chats en Teams, independientemente de si el remitente usa Skype empresarial o Teams, y de las ventajas de la compatibilidad con la interoperabilidad y la Federación.
 

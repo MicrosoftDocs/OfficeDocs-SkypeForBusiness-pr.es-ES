@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Obtenga más información sobre el período de llamadas complementarias para el plan de llamadas de Office 365 y la Conferencia de audio de Office 365 en Microsoft Teams.
-ms.openlocfilehash: 46c9aac02c40a973abc8356dc4212b3521852461
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 19ffdd1b0a634a2fb3294479b2163af38aefedf6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137301"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779797"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período gratuito para la realización de llamadas de Audioconferencia
 
@@ -48,7 +48,7 @@ Para los clientes que adoptan nuestro servicio de conferencias de audio de Offic
 
 Además, hay un límite de límite de 900 minutos durante el período de llamadas de cortesía como el siguiente:
 
-Usuarios con una ubicación de uso de licencias (esta es la ubicación de país del usuario definida en el área de licencias del portal de administración de Office 365) en cualquier país, puede llamar desde una conferencia a cualquiera de los países y regiones de la zona A de 44. Cada usuario recibe 900 minutos por usuario por mes en cualquiera de los países y regiones de la zona que se agrupan en el nivel de inquilino. Por ejemplo, un cliente ha comprado 115 licencias de suscripción de audioconferencias y tiene 10 usuarios en Estados Unidos, 100 usuarios en el Reino Unido y 5 usuarios en India, todos con licencias de suscripción de audioconferencia asignadas a sus usuarios.
+Usuarios con una ubicación de uso de licencias (esta es la ubicación de país del usuario definida en el área de licencias del centro de administración de Microsoft 365) en cualquier país, puede llamar desde una conferencia a cualquiera de los países y regiones de la zona A de 44. Cada usuario recibe 900 minutos por usuario por mes en cualquiera de los países y regiones de la zona que se agrupan en el nivel de inquilino. Por ejemplo, un cliente ha comprado 115 licencias de suscripción de audioconferencias y tiene 10 usuarios en Estados Unidos, 100 usuarios en el Reino Unido y 5 usuarios en India, todos con licencias de suscripción de audioconferencia asignadas a sus usuarios.
 
 > [!NOTE]
 > El tamaño del grupo se basa en las licencias asignadas y no en las licencias compradas.

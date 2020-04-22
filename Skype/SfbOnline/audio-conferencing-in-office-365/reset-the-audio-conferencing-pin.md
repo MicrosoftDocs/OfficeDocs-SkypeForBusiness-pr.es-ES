@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Descubra lo que debe saber sobre los pin y cómo restablecerlos en Skype empresarial online. '
-ms.openlocfilehash: fdd11e3ef9c656b4b2cc6b929a2963e9b5e10824
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a2f91e1ccae53f08507a63ea56b499a3ad968c73
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680567"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777705"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Restablecer el PIN de audioconferencia en Skype empresarial online
 
@@ -39,7 +39,7 @@ Las reuniones se pueden iniciar cuando un usuario autenticado se une con la apli
   
 ## <a name="reset-a-users-pin"></a>Restablecer el PIN de un usuario
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión con su cuenta profesional o educativa.
     
 2. Vaya al centro de administración > **Skype empresarial**y, a continuación, en la barra de navegación izquierda, haga clic en **audioconferencia**.
     

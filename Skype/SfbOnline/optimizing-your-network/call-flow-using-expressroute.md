@@ -20,22 +20,22 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Con este artículo tratamos de explicar el flujo de llamadas básico para Skype Empresarial Online y ExpressRoute, y darle algunos ejemplos detallados de flujos de llamada para que pueda entenderlo y planificarlo correctamente.
-ms.openlocfilehash: 3c728dab868177aab07c6fe618fba3a8c357eaa2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8460d845302fbca2ab10e5c43f9feda8af45a321
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706675"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777595"
 ---
 # <a name="call-flow-using-expressroute"></a>Flujo de llamadas con ExpressRoute
 
 [] Con este artículo tratamos de explicar el flujo de llamadas básico para Skype Empresarial Online y ExpressRoute, y darle algunos ejemplos detallados de flujos de llamada para que pueda entenderlo y planificarlo correctamente.
 
-Si implementa Skype empresarial online como parte de Office 365, entorno híbrido de Skype empresarial Server o Skype Connector para la empresa, tendrá que comprender la comunicación entre el cliente y los servidores de Skype empresarial y el flujo de llamadas para puede planificar, implementar, operar y solucionar problemas de los servicios de Skype empresarial en forma eficaz.
+Si va a implementar Skype empresarial online como parte de Office 365, un entorno híbrido de Skype empresarial Server o una edición de Skype empresarial Cloud Connector, tendrá que comprender la comunicación entre el cliente y los servidores de Skype empresarial y el flujo de llamadas para que pueda planificar, implementar, operar y solucionar problemas de los servicios de Skype empresarial online.
 
 ## <a name="call-flow-overview"></a>Información general sobre el flujo de llamadas
 
-Este documento describe los segmentos de red que pueden transmitir datos para estos flujos de llamada y le ayudan a comprender qué tráfico permanecerá local en su red en comparación con el tráfico que viaja a través de Internet o a través de ExpressRoute. Saber qué tráfico usa ExpressRoute le ayudará a evaluar los beneficios que su compañía recibirá mediante ExpressRoute, así como ayudarle a comprender la guía de implementación de ExpressRoute para validar y solucionar problemas de su implementación una vez que haya decidido para usar ExpressRoute.
+Este documento describe los segmentos de red que pueden transmitir datos para estos flujos de llamada y le ayudan a comprender qué tráfico permanecerá local en su red en comparación con el tráfico que viaja a través de Internet o a través de ExpressRoute. Saber qué tráfico usa ExpressRoute le ayudará a evaluar los beneficios que recibirá su empresa mediante ExpressRoute, así como ayudarle a comprender la guía de implementación de ExpressRoute para validar y solucionar problemas de su implementación una vez que haya decidido usar ExpressRoute.
 
 Hay diferentes factores que puede controlar y que pueden repercutir en los flujos de llamada que se describen aquí; entre ellos, por ejemplo, las reglas de firewall, la configuración NAT, los servidores proxy y la configuración del enrutador. En este documento se da por hecho que se ha aplicado la configuración recomendada. Esta configuración recomendada se describe en:
 
@@ -47,7 +47,7 @@ Hay diferentes factores que puede controlar y que pueden repercutir en los flujo
 
 - [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/)
 
-La configuración y las configuraciones que no han seguido los pasos de configuración que se encuentran en la documentación anterior pueden tener flujos de llamada diferentes a los que hemos documentado aquí. Además, puede encontrarse con problemas de configuración como rutas de red asimétricas y no óptimas, o protocolos de transporte no óptimos. El enrutamiento asimétrico es una consideración importante siempre que se trata de ExpressRoute, porque ExpressRoute introduce una segunda ruta a Office 365, lo que crea la posibilidad de que una ruta use Internet en una dirección y otra ruta que use ExpressRoute en la otra dirección. Esto puede dar lugar a que el tráfico se bloquee en la dirección de devolución si recorre un firewall con estado.
+La configuración y las configuraciones que no han seguido los pasos de configuración que se encuentran en la documentación anterior pueden tener flujos de llamada diferentes a los que hemos documentado aquí. Además, puede encontrarse con problemas de configuración como rutas de red asimétricas y no óptimas, o protocolos de transporte no óptimos. El enrutamiento asimétrico es una consideración importante siempre que se trata de ExpressRoute, porque ExpressRoute introduce una segunda ruta de acceso a Office 365, que crea la posibilidad de que una ruta use Internet en una dirección y otra ruta que use ExpressRoute en la otra dirección. Esto puede dar lugar a que el tráfico se bloquee en la dirección de devolución si recorre un firewall con estado.
 
 ## <a name="network-segments-and-traffic-types"></a>Segmentos de red y tipos de tráfico
 
@@ -103,7 +103,7 @@ Para obtener más información sobre la ruta de medios seleccionada, consulte [c
 
 ## <a name="skype-for-business-call-flows-with-expressroute"></a>Los flujos de llamada de Skype Empresarial con ExpressRoute
 
-Ahora que ya conoce los cuatro segmentos de red y algunos principios generales de GUID para los flujos de llamadas de Skype empresarial, puede usar esta información para ayudarle a entender qué tráfico de Skype empresarial atravesará una ExpressRoute segmento de red.
+Ahora que conoce los cuatro segmentos de red y algunos principios generales de GUID para los flujos de llamadas de Skype empresarial, puede usar esta información para ayudarle a entender qué tráfico de Skype empresarial atravesará un segmento de red de ExpressRoute.
 
 En general, el tráfico de red cruzará la conexión de ExpressRoute si un punto de conexión está en su red y el otro está en el centro de datos de Office 365. Esto incluirá el tráfico de señalización entre el cliente y el servidor, el tráfico multimedia usado durante las llamadas de conferencia o las llamadas de punto a punto que usan un servidor perimetral en línea.
 
@@ -116,7 +116,7 @@ Para ayudarle a aplicar los principios generales de los flujos de llamada de Sky
 > [!NOTE]
 > Un subconjunto de tráfico usado por Skype empresarial no se encuentra enrutable a través de ExpressRoute y siempre tomará una ruta de acceso a Internet. Consulte las [direcciones URL y los intervalos de direcciones IP de Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) para determinar las direcciones URL que pueden verse afectadas.
 
-### <a name="peer-to-peer-call-for-office-365-users-from-within-customer-network"></a>Llamada de punto a punto para usuarios de Office 365 desde la red del cliente
+### <a name="peer-to-peer-call-for-microsoft-365-or-office-365-user-from-within-customer-network"></a>Llamada de punto a punto para Microsoft 365 u Office 365 usuario de la red del cliente
 <a name="bk_Figure2"> </a>
 
 En las llamadas de punto a punto, el tráfico multimedia siempre toma la ruta más directa a su destino. No obstante, el tráfico de señalización va a un centro de datos de Office 365 en el que está alojado el usuario en línea. Puesto que ambos usuarios están en la misma WAN y nada impide que los clientes se comuniquen directamente, los elementos multimedia fluyen directamente entre ellos. El tráfico de señalización, en el caso de ambos usuarios, atraviesa la conexión de ExpressRoute que se destina al centro de datos de cada organización. Para mostrarle el flujo de llamadas en este escenario, vea esto.
@@ -128,7 +128,7 @@ En las llamadas de punto a punto, el tráfico multimedia siempre toma la ruta m�
 ### <a name="online-user-on-your-network-joining-a-conference-that-is-hosted-online"></a>Usuario en línea de su red que se une a una conferencia hospedada en línea
 <a name="bk_Figure3"> </a>
 
-En el ejemplo de punto a punto, el tráfico multimedia siempre toma la ruta más directa a su destino. Sin embargo, para una conferencia en línea, el destino se encuentra en la nube de Office 365. Esto significa que el tráfico multimedia de todos los usuarios que se unan a la Conferencia desde dentro de la red atravesará la conexión de ExpressRoute y el tráfico de señalización se desplazará a la nube de Office 365. En el siguiente gráfico se muestra que tanto los medios como la señalización atravesarán la conexión de ExpressRoute para un usuario de su red y que recorrerán directamente a Internet los usuarios que están conectados a Internet desde fuera de la red, por ejemplo, de un café tienda o Hotel.
+En el ejemplo de punto a punto, el tráfico multimedia siempre toma la ruta más directa a su destino. Sin embargo, para una conferencia en línea, el destino se encuentra en la nube de Office 365. Esto significa que el tráfico multimedia de todos los usuarios que se unan a la Conferencia desde dentro de la red atravesará la conexión de ExpressRoute y el tráfico de señalización se desplazará a la nube de Office 365. En el siguiente gráfico se muestra que tanto los medios como la señalización atravesarán la conexión de ExpressRoute para un usuario de su red y que recorrerán directamente a Internet los usuarios que están conectados a Internet desde fuera de la red, como desde una cafetería o un hotel.
 
 Recuerde que la ubicación de una conferencia está definida por el organizador de la reunión y no por los participantes. Esto significa que si la reunión ha sido programada por un cliente local, el tráfico multimedia no fluye a la nube de Office 365 sobre ExpressRoute, sino que, en su lugar, atravesará Internet hasta el centro de proceso de reuniones local del organizador de la reunión.
 
@@ -138,7 +138,7 @@ El destino de los elementos multimedia en el caso de las conferencias en línea 
 
 - Si un usuario se une desde un país o región distinto al de la organización de la empresa, ya sea porque es una empresa multinacional o porque el usuario esté viajando.
 
-La buena noticia de usar ExpressRoute en este escenario es que con el complemento ExpressRoute Premium, los datos que siguen a la ruta de acceso de ExpressRoute pasarán automáticamente por la red troncal de Microsoft independientemente de la región geográfica del organizador de la reunión. Centro de recursos de la organización.
+La buena noticia de usar ExpressRoute en este escenario es que con el complemento ExpressRoute Premium, los datos que siguen a la ruta de acceso de ExpressRoute pasarán automáticamente por la red troncal de Microsoft independientemente de la región del organizador del centro de datos de la organización de la reunión.
 
  **Flujo de llamadas de un usuario en línea con una reunión en línea**
 
@@ -197,7 +197,7 @@ Los escenarios de uso de Skype empresarial online implican a los usuarios que es
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Escenario de uso** <br/> |**Puntos de conexión** <br/> |**Ruta de señalización** <br/> |**Ruta multimedia** <br/> |**Ejemplo de flujo** <br/> |**Notas** <br/> |
-|Llamada de punto a punto  <br/> |Dos clientes, ambos en su red.  <br/> |ExpressRoute  <br/> |Local  <br/> |[Llamada de punto a punto para usuarios de Office 365 desde la red del cliente](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
+|Llamada de punto a punto  <br/> |Dos clientes, ambos en su red.  <br/> |ExpressRoute  <br/> |Local  <br/> |[Llamada de punto a punto para Microsoft 365 u Office 365 usuario de la red del cliente](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
 |Llamada de punto a punto  <br/> |Dos clientes, uno en su red (interno) y el otro cliente en Internet (externo).  <br/> |Usuario interno: ExpressRoute  <br/> Usuario externo: Internet  <br/> |Usuario interno: ExpressRoute  <br/> Usuario externo: De Internet al servidor perimetral de Office 365.  <br/> |[Llamada de punto a punto para usuarios de Office 365 desde la red del cliente](call-flow-using-expressroute.md#bk_Figure2) <br/> |Supone que Firewall bloquea las conexiones directas entre clientes, que requieren un servidor perimetral en línea. El tráfico de usuarios internos a servidores perimetrales en línea sigue una ruta similar a la del servidor de conferencias para la llamada de conferencia.  <br/> |
 |La llamada de punto a punto a un usuario en una organización federada  <br/> |Dos clientes, en su red (interno) y el usuario en línea en la red de la organización federada (federado).  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Usuario en línea de su red que se une a una conferencia hospedada en línea](call-flow-using-expressroute.md#bk_Figure3) <br/> |Asume que un firewall bloquea las conexiones directas entre clientes, por lo que requiere un servidor perimetral en línea. El tráfico desde el usuario interno al servidor perimetral en línea sigue una ruta similar a la de un servidor de conferencias para la llamada de conferencia.  <br/> |
 |Unirse a la llamada de conferencia por usuario en la red del cliente  <br/> |El cliente en su red y el servidor de conferencias en la nube de Office 365.  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Usuario en línea de su red que se une a una conferencia hospedada en línea](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
@@ -216,7 +216,7 @@ Los flujos de llamadas híbridas se aplican cuando tiene una implementación de 
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Escenario de uso** <br/> |**Puntos de conexión** <br/> |**Ruta de señalización** <br/> |**Ruta multimedia** <br/> |**Ejemplo de flujo** <br/> |**Notas** <br/> |
-|Llamada de punto a punto  <br/> |Dos clientes, en la red del cliente y alojados en local.  <br/> |Local  <br/> |Local  <br/> |[Llamada de punto a punto para usuarios de Office 365 desde la red del cliente](call-flow-using-expressroute.md#bk_Figure2) <br/> |Como los usuarios se alojan en local, la señalización fluye en local al centro de datos local en lugar de a la nube de Office 365.  <br/> |
+|Llamada de punto a punto  <br/> |Dos clientes, en la red del cliente y alojados en local.  <br/> |Local  <br/> |Local  <br/> |[Llamada de punto a punto para Microsoft 365 u Office 365 usuario de la red del cliente](call-flow-using-expressroute.md#bk_Figure2) <br/> |Como los usuarios se alojan en local, la señalización fluye en local al centro de datos local en lugar de a la nube de Office 365.  <br/> |
 |Llamada de punto a punto  <br/> |Dos clientes, ambos conectados desde la red del cliente. Uno está alojado en línea y el otro en local.  <br/> |Usuario en línea: ExpressRoute  <br/> Usuario local: local  <br/> |Local  <br/> |[Llamada de punto a punto para usuarios de Office 365 desde la red del cliente](call-flow-using-expressroute.md#bk_Figure2) <br/> |Solo el usuario alojado en línea envía tráfico de señalización a la nube de Office 365.  <br/> |
 |La llamada de punto a punto a un usuario en una organización federada  <br/> |Dos clientes, uno local en la red del cliente (interno) y un usuario en línea en la red de la organización federada (federado).  <br/> |Usuario interno: local  <br/> Usuario federado: ExpressRoute  <br/> |Internet o ExpressRoute (depende de si se usa el servidor en línea o perimetral local)  <br/> |[Usuario en línea de la red que se une a una conferencia hospedada en línea](call-flow-using-expressroute.md#bk_Figure3) y parte de un [servidor perimetral local con Office 365 conferencias hospedadas](call-flow-using-expressroute.md#bk_Figure5) (para el tráfico multimedia). <br/> |Supone que un Firewall bloquea las conexiones directas entre clientes, lo que requiere un servidor perimetral en línea. La negociación de ICE ofrecerá tanto los servidores perimetrales en línea (por el usuario en línea) como locales (por el usuario local) para la conectividad.  <br/> |
 |Unirse a la llamada de conferencia por usuario en la red del cliente (conferencia programada por el usuario en línea)  <br/> |El usuario en local en su red y el servidor de conferencias en la nube de Office 365.  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Usuario en línea de su red que se une a una conferencia hospedada en línea](call-flow-using-expressroute.md#bk_Figure3) <br/> |El organizador de la reunión define los recursos de servidor para llamadas en conferencia. En este caso, lo programó un usuario en línea, por lo que los recursos se encuentran en la nube de Office 365.  <br/> |

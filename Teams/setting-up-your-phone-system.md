@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Aprenda a configurar el sistema telefónico (PBX en la nube) para su organización. '
-ms.openlocfilehash: e1ae56200132ab4468b6db8d490c12d11b7a6deb
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 8c534607ca50baae75c3b0b2fdf5bc54359c22e4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888729"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779817"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurar el sistema telefónico de su organización
 
@@ -81,7 +81,7 @@ Además de obtener números de teléfono para los usuarios de Office 365, puede 
 ### <a name="get-new-service-numbers-using-the-teams-admin-center"></a>Obtener nuevos números de servicio con el centro de administración de Teams
 
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión con su cuenta profesional o educativa.
 
 2. Vaya al **centro de administración de Teams**.
 
@@ -110,7 +110,7 @@ Para obtener más información sobre cómo configurar las conferencias de audio,
 
 ## <a name="step-7-if-you-want-to-set-up-a-cloud-call-queue"></a>Paso 7: Si desea configurar una cola de llamadas en la nube
 
-Las colas de llamadas en nube incluyen saludos que se usan cuando un usuario llama a un número de teléfono de su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de buscar el siguiente agente de llamada disponible para controlar la llamada mientras las personas que llaman son escuchando música en espera. Puede crear una o varias colas de llamadas para su organización.
+Las colas de llamadas en nube incluyen saludos que se usan cuando un usuario llama a un número de teléfono de su organización, la capacidad de poner automáticamente las llamadas en espera y la posibilidad de buscar el siguiente agente de llamada disponible para controlar la llamada mientras las personas que llaman escuchan música en espera. Puede crear una o varias colas de llamadas para su organización.
 
 Para obtener más información sobre las colas de llamadas, consulte [crear una cola de llamadas en la nube](create-a-phone-system-call-queue.md).
 

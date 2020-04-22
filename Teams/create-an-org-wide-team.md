@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99acc2e1756c0915f404f6bf6b1bfab1e30fcaf6
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
-ms.translationtype: HT
+ms.openlocfilehash: 90051eb5ee4faf981ec54efa8049909dde4311d3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288738"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778456"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo de la organización en Microsoft Teams
 
@@ -77,7 +77,7 @@ Aunque los miembros no pueden dejar un equipo de toda la organización, como pro
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>¿Hay alguna manera de crear un equipo de toda la organización aparte de usar el cliente de Teams?
 
-Los administradores globales sólo pueden crear un equipo de toda la organización usando el cliente de Teams. Si su organización limita la creación de equipos al uso de PowerShell, la solución recomendada es agregar sus administradores globales al grupo de seguridad de usuarios que pueden crear un equipo. Para más información, consulte [Administrar quién puede crear Grupos de Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups).
+Los administradores globales sólo pueden crear un equipo de toda la organización usando el cliente de Teams. Si su organización limita la creación de equipos al uso de PowerShell, la solución recomendada es agregar sus administradores globales al grupo de seguridad de usuarios que pueden crear un equipo. Para obtener más información, vea [administrar quién puede crear grupos de Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups).
 
 Si esto no es una opción, puede usar PowerShell para crear un equipo público y agregar un administrador global como propietario del equipo. Luego, haga que el administrador global haga clic en **Más opciones** junto al nombre del equipo, haga clic en **Editar equipo**, y luego cambie la privacidad a **Toda la organización - Todos en su organización serán agregados automáticamente**. Tenga en cuenta que sólo los propietarios de los equipos pueden acceder a la opción **Editar equipo** y sólo los administradores globales pueden ver la opción **Toda la organización**.
 

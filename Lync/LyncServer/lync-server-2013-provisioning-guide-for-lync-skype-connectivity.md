@@ -12,12 +12,12 @@ ms:contentKeyID: 57793363
 ms.date: 11/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76eb0ed3fbfffc3a30794f1cc8652090235ecc88
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6165310a32bbbc7ea13fc6663dfd4cf5ab791435
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201741"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780079"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42201741"
 
 _**Última modificación del tema:** 2014-11-26_
 
-Lync Server 2013 admite conectividad con Skype. Esta conectividad permite a los usuarios de Lync 2013 agregar contactos de Skype mediante la cuenta de Microsoft de usuario de Skype (MSA). Los clientes de Skype también pueden agregar usuarios de Lync a su lista de contactos. En función de las directivas establecidas administrativamente en Lync Server, los usuarios de Lync y Skype podrán comunicarse con la mensajería instantánea, ver la presencia de los demás e iniciar llamadas de audio y vídeo. La conectividad de Lync y Skype también es una característica de Lync Online y se puede habilitar para clientes de Lync Online desde el centro de administración de Lync en el portal de Office 365.
+Lync Server 2013 admite conectividad con Skype. Esta conectividad permite a los usuarios de Lync 2013 agregar contactos de Skype mediante la cuenta de Microsoft de usuario de Skype (MSA). Los clientes de Skype también pueden agregar usuarios de Lync a su lista de contactos. En función de las directivas establecidas administrativamente en Lync Server, los usuarios de Lync y Skype podrán comunicarse con la mensajería instantánea, ver la presencia de los demás e iniciar llamadas de audio y vídeo. La conectividad entre Lync y Skype también es una característica de Lync Online y se puede habilitar para los clientes de Lync Online desde el centro de administración de Lync en el centro de administración de Microsoft 365.
 
 <div>
 

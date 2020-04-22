@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d9bcc5e00b9892bf8405eddb2ac24291a485d19
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: b5607e9405a777329efa6ad3bb58e204e03879a9
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706970"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776765"
 ---
 # <a name="operate-your-service"></a>Ejecutar los servicios
 
@@ -41,7 +41,7 @@ La administración de servicios es un tema muy amplio que cubre las operaciones 
 
 Seguramente, el concepto de "administración de servicios" no es nuevo para la mayoría de organizaciones. Es posible que ya haya implementado procesos y tareas asociados a servicios existentes. Dicho esto, es posible que pueda complementar sus procesos actuales al planear la administración de servicios hoy para admitir equipos en el futuro.
 
-La administración de servicios engloba todas las actividades y los procesos implicados en la administración de los equipos de un extremo a otro. Como se mencionó anteriormente, algunos componentes de la administración de servicios (la infraestructura que el propio servicio de Office 365 comprende) son responsabilidad de Microsoft, mientras que usted, el cliente, puede ser responsable de administrar los diversos aspectos de Teams, la red y puntos de conexión proporcionados.
+La administración de servicios engloba todas las actividades y los procesos implicados en la administración de los equipos de un extremo a otro. Como se mencionó anteriormente, algunos componentes de la administración de servicios (la infraestructura que el propio servicio de Office 365 comprende) son responsabilidad de Microsoft, mientras que usted, el cliente, tiene la responsabilidad de los usuarios para administrar los diversos aspectos de los equipos, la red y los puntos de conexión que proporciona.
 
 Las tareas y actividades de esta guía se agrupan en ocho categorías, tal como se muestra en el siguiente diagrama. Cada una de estas categorías se expandirá en las secciones siguientes.
 
@@ -49,7 +49,7 @@ Las tareas y actividades de esta guía se agrupan en ocho categorías, tal como 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decidir cómo se implementarán las operaciones para Teams.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Revise completa la guía de operaciones.</li><li>Implemente una estrategia de operaciones que se alinee con los objetivos de su organización para ofrecer la calidad y confiabilidad de las cargas de trabajo de Teams.</li><li>Revise la guía de revisión de la calidad de la experiencia.</li><li> Implemente una estrategia de operaciones para realizar regularmente revisiones de la experiencia de la experiencia para asegurarse de que su implementación de equipos está funcionando a su máxima capacidad.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul><li>Revise completa la guía de operaciones.</li><li>Implemente una estrategia de operaciones que se alinee con los objetivos de su organización para ofrecer la calidad y confiabilidad de las cargas de trabajo de Teams.</li><li>Revise la guía de revisión de la calidad de la experiencia.</li><li> Implemente una estrategia de operaciones para realizar regularmente revisiones de la experiencia de la experiencia para asegurarse de que su implementación de equipos está funcionando a su máxima capacidad.</li></ul></td></tr>
 </table>
 
 ### <a name="operational-role-mapping"></a>Asignación de roles operativos
@@ -67,7 +67,7 @@ Asegúrese de que cada equipo contable tenga una buena comprensión de las activ
 Una vez que se haya implementado un contrato, los equipos correspondientes deberán comenzar a operar sus roles.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td>
 <td><ul><li>Use este documento para facilitar el ejercicio de asignación de roles operativos.</li><li>Reunirse con los respectivos equipos de soporte técnico para asignar nombres a cada elemento de la lista de actividades necesarias.</li><li>Gana la aceptación o la aprobación de los roles asignados.</li><li>Asegúrese de que los equipos correspondientes tengan la formación, preparación y recursos adecuados para completar las actividades que necesiten.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Dependencias del servicio de Teams
@@ -114,7 +114,7 @@ En las siguientes secciones se describen las herramientas que puede aprovechar p
 
 | Herramienta de supervisión | Ventajas | Cuándo usar |
 |---|---|---|
-| Portal de Office 365 | Disponible desde cualquier dispositivo con un explorador compatible. | Usar cuando no necesite notificaciones en tiempo real. |
+| Centro de administración de Microsoft 365 | Disponible desde cualquier dispositivo con un explorador compatible. | Usar cuando no necesite notificaciones en tiempo real. |
 | Aplicación de administración de Office 365 | Proporciona notificaciones de inserción a su dispositivo móvil. | Utilícelo cuando necesite recibir notificaciones de incidentes de servicio mientras está de viaje. |
 | Microsoft System Center | Integración con Microsoft System Center. | Utilícelo cuando necesite capacidades de supervisión avanzadas y soporte de notificaciones. |
 | API de comunicaciones de servicio de Office 365 | Acceso mediante programación al estado del servicio de Office 365. | Utilícelo cuando necesite la integración con una herramienta de supervisión de terceros o desee crear su propia solución. |
@@ -122,9 +122,9 @@ En las siguientes secciones se describen las herramientas que puede aprovechar p
 > [!NOTE]
 > Solo las personas que tienen asignado el rol de **Administrador** **global** o de administrador de servicios pueden ver el estado del servicio.
 
-### <a name="monitoring-with-the-office-365-portal"></a>Supervisión con el portal de Office 365
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Supervisión con el centro de administración de Microsoft 365
 
-El [portal de Office 365](https://portal.office.com/) proporciona un [Panel de estado del servicio](https://portal.office.com/adminportal/home#/servicehealth) en el que puede ver el estado actual del servicio de Teams, además de los servicios dependientes.
+El [centro de administración de Microsoft 365](https://portal.office.com/) proporciona un [Panel de estado del servicio](https://portal.office.com/adminportal/home#/servicehealth) en el que puede ver el estado actual del servicio de Teams, además de los servicios dependientes.
 
 ### <a name="monitoring-with-the-mobile-app"></a>Supervisar con la aplicación móvil
 
@@ -147,7 +147,7 @@ Puede supervisar el estado del servicio y los próximos cambios aprovechando la 
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas diarias/semanales/mensuales/según sea necesario
 
-| Actividades | Descripción | Cadencia publicación | Equipo asignado |
+| Actividad | Descripción | Cadencia publicación | Equipo asignado |
 |---|---|---|---|
 | Supervisar el estado del servicio | Supervise de forma proactiva el estado del servicio de Microsoft Teams (y los servicios dependientes) con las herramientas disponibles. Entre los servicios dependientes se incluyen Exchange Online, SharePoint Online, OneDrive para la empresa, Azure Active Directory. | En tiempo real | |
 | Notificación de incidente | Notifique a los participantes internos los eventos que afectan al servicio de Teams. Entre los participantes internos se incluyen los usuarios, el Departamento de soporte técnico y los administradores de incidentes. | Según sea necesario | |
@@ -220,7 +220,7 @@ Para obtener más información sobre la planeación de la administración de cam
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas diarias/semanales/mensuales/según sea necesario
 
-| Actividades| Descripción| Cadencia publicación| Equipo asignado |
+| Actividad| Descripción| Cadencia publicación| Equipo asignado |
 |---|---|---|---|
 | Supervisar el cambio| Supervisar los próximos cambios en el servicio de Microsoft Teams.| Cada día||
 | Planificación de cambio| Evalúe y planifique las nuevas características y capacidades, entre las que se incluyen los planes de comunicación, las campañas de concienciación y el aprendizaje.| Según sea necesario ||
@@ -275,7 +275,7 @@ En primer lugar, determine si se trata de un problema técnico o de adopción. E
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas diarias/semanales/mensuales/según sea necesario
 
-| Actividades | Descripción | Cadencia publicación | Equipo asignado |
+| Actividad | Descripción | Cadencia publicación | Equipo asignado |
 |---|---|---|---|
 | Medir el uso (fase de habilitación) | Mida y evalúe el uso de los equipos a medida que se incorporan sitios durante la fase de habilitación. Solucione problemas de uso según sea necesario. | Cada semana | |
 | Medir el uso | Mida y evalúe el uso de Teams en la fase de valor de unidad (una vez completada la implementación). Solucione problemas de uso según sea necesario. | Quincenal | |
@@ -328,7 +328,7 @@ Para proporcionar encuestas de NPS a su organización, puede aprovechar su herra
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas diarias/semanales/mensuales/según sea necesario
 
-| Actividades | Descripción | Cadencia publicación | Equipo asignado |
+| Actividad | Descripción | Cadencia publicación | Equipo asignado |
 |---|---|---|---|
 | Evaluar la opinión del usuario | Capture y evalúe la opinión de los usuarios mediante encuestas o entrevistas, o a través de un canal de comentarios en Teams o Yammer. | Según sea necesario | |
 | Planes de adopción de actualizaciones | Impulsar el cambio de su organización en función de los comentarios de los usuarios; Esto puede incluir cambios en los planes de comunicación, programas de formación o la manera en que ofrezca soporte técnico a los usuarios. | Según sea necesario | |
@@ -353,7 +353,7 @@ Para garantizar el estado de la red, es necesario realizar una serie de activida
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas diarias/semanales/mensuales/según sea necesario
 
-| Actividades | Descripción | Cadencia publicación | Equipo asignado |
+| Actividad | Descripción | Cadencia publicación | Equipo asignado |
 |---|---|---|---|
 | Supervisar el IPs y las direcciones URL de Office 365 | Supervise los cambios realizados en las [direcciones URL y los intervalos de direcciones IP de Office 365](https://aka.ms/o365ips) con la [fuente RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) proporcionada e inicie una solicitud de cambio en los grupos de red correspondientes. | Cada día | |
 | Actualizar la red según los cambios realizados en Office 365 IPs y direcciones URL | Realice actualizaciones de los componentes de red aplicables (firewalls, servidores proxy, VPN, firewalls del cliente, etc.) para reflejar los cambios en las [direcciones URL y los intervalos de direcciones IP de Office 365](https://aka.ms/o365ips). | Según sea necesario | |
@@ -386,7 +386,7 @@ Le recomendamos encarecidamente que se nominar a la calidad del experto en el pr
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas diarias/semanales/mensuales/según sea necesario
 
-| Actividades | Descripción | Cadencia publicación | Equipo asignado |
+| Actividad | Descripción | Cadencia publicación | Equipo asignado |
 |---|---|---|---|
 | Nominar y experto en calidad del tren | Nombra y entrena un campeón de calidad. | Según sea necesario | |
 | Realizar revisiones de la calidad de la experiencia (QERs) | Realice una QER para identificar tendencias en cuanto a la calidad y la confiabilidad, la revisión con los destinos definidos y el informe a los accionistas clave de la organización. | Mensual (semanal durante implementaciones) | |
@@ -441,7 +441,7 @@ Incluso si ha seguido las instrucciones anteriores, los usuarios de su organizac
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas diarias/semanales/mensuales/según sea necesario
 
-| Actividades | Descripción | Cadencia publicación | Equipo asignado |
+| Actividad | Descripción | Cadencia publicación | Equipo asignado |
 |---|---|---|---|
 | Requisitos de los extremos | Asegúrese de que el punto de conexión de Teams siga cumpliendo todos los requisitos de software para Teams que aparecen en [obtener clientes para Microsoft Teams](get-clients.md). | Cada mes | |
 | Firewalls para los puntos de conexión | Mantenga las exclusiones apropiadas en el Firewall de extremo en función de la información de las [direcciones URL y los intervalos de direcciones IP de Office 365](https://aka.ms/o365ips). Su proveedor de terceros tendrá una orientación específica sobre cómo mantener las exclusiones. Suscribirse a la [fuente RSS](https://support.office.com/o365ip/rss) para recibir notificaciones automáticas de los cambios. | Según sea necesario | |
@@ -488,13 +488,13 @@ Para admitir usuarios, una organización puede requerir cualquier cantidad de ta
 
 ### <a name="team-creation-optional"></a>Creación de equipos (opcional)
 
-De forma predeterminada, todos los usuarios con un buzón en Exchange Online tienen permisos para crear grupos de Office 365 y, por lo tanto, un equipo en Microsoft Teams. Si desea tener un control más estricto y [restringir la creación de nuevos equipos](assign-roles-permissions.md#permissions-to-create-teams) (y, por tanto, la creación de nuevos grupos de Office 365), puede delegar permisos de administración y de creación de grupos a un conjunto de administradores. Si su organización desea seguir esta opción, consulte el proceso descrito en este artículo para permitir que los usuarios envíen solicitudes procesadas por un equipo asignado.
+De forma predeterminada, todos los usuarios con un buzón en Exchange Online tienen permisos para crear grupos de Microsoft 365 y, por lo tanto, un equipo en Microsoft Teams. Si desea tener un control más estricto y [restringir la creación de nuevos equipos](assign-roles-permissions.md#permissions-to-create-teams) (y, por tanto, la creación de nuevos grupos de Microsoft 365), puede delegar la creación de grupos y derechos de administración a un conjunto de administradores. Si su organización desea seguir esta opción, consulte el proceso descrito en este artículo para permitir que los usuarios envíen solicitudes procesadas por un equipo asignado.
 
 <!--ENDOFSECTION-->
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas diarias/semanales/mensuales/según sea necesario
 
-| Actividades | Descripción | Cadencia publicación | Equipo asignado |
+| Actividad | Descripción | Cadencia publicación | Equipo asignado |
 |---|---|---|---|
 | Administración de servicios | Administración de la configuración de Teams para todo el inquilino. | Según sea necesario | |
 | Administración de usuarios | Administración de la configuración y las licencias basadas en usuarios en Teams. | Según sea necesario | |

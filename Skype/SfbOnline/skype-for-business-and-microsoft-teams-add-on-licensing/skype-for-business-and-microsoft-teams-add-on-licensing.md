@@ -23,34 +23,34 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: "Learn about add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
-ms.openlocfilehash: 94a5adc1e9f9abf5529aaf5b149d9cfc906efbe8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3488ec2239ba99b2bfe6efa97ed162804f4aa1e6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010573"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777555"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Licencias complementarias de Skype Empresarial
 
-## <a name="what-are-add-on-licenses"></a>¿Qué son las licencias de complementos?
+## <a name="what-are-add-on-licenses"></a>¿Qué son las licencias complementarias?
 
 Las licencias de complementos son licencias para características específicas de Skype empresarial. Algunas empresas quieren la flexibilidad de comprar solamente características específicas a un precio competitivo. Para agregar una característica, compra una licencia de complemento por cada usuario que la usará.
 
 Las licencias de Skype empresarial están diseñadas para proporcionarle la máxima flexibilidad. Por ejemplo, después de usar las características básicas de Skype empresarial durante un tiempo, puede comprar licencias de complemento cuando esté listo para usar más características, como audioconferencias, o el sistema telefónico en Office 365.
 
-## <a name="how-does-add-on-licensing-affect-cost"></a>¿Cómo afectan las licencias de complementos a los costes?
+## <a name="how-does-add-on-licensing-affect-cost"></a>¿Cómo afecta el coste de las licencias complementarias?
 
 For most businesses, buying a bundle of software in an Enterprise plan will result in lower overall cost. Typically, when you buy several add-on licenses individually instead of as part of a plan, you may end up with higher combined cost.
 
 Para obtener más información sobre costes, consulte [Cómo ver los precios y comprar licencias de complementos](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) o uno de los siguientes:
 
-- [Precios de Audioconferencia](https://products.office.com/skype-for-business/audio-conferencing)
+- [Precios de Audio Conferencia](https://products.office.com/skype-for-business/audio-conferencing)
 
 - [Precios de Sistema telefónico](https://products.office.com/skype-for-business/phone-system)
 
 - [Precios de planes de llamadas](https://products.office.com/skype-for-business/calling-plans)
 
-## <a name="what-features-can-i-get-with-add-on-licenses"></a>¿Qué características pueden obtenerse con licencias de complementos?
+## <a name="what-features-can-i-get-with-add-on-licenses"></a>¿Qué características puedo obtener con las licencias complementarias?
 
 En función de su plan, puede comprar licencias de complementos para las siguientes características de Skype Empresarial:
 
@@ -69,8 +69,8 @@ Need to talk to someone about all the add-on options? [Contact support for busin
 
 The add-on licensing options available to you depends on your Office 365 or Skype for Business plan. See the following topics for information, features, and options that are specific to your plan.
 
-- [Office 365 Empresa Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
-- [Office 365 Premium, Office 365 ProPlus o Skype Empresarial Online Plan 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
+- [Microsoft 365 Business Standard](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+- [Office 365 Premium, aplicaciones de Microsoft 365 para empresas o plan 2 de Skype empresarial online](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
 - [Office 365 Enterprise E1, E3 y E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 - [Office 365 Enterprise E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5 (sin audioconferencia)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
@@ -79,7 +79,7 @@ The add-on licensing options available to you depends on your Office 365 or Skyp
 
 Para obtener una lista detallada de las características y comparaciones de cada plan de Skype empresarial, consulte la [Descripción del servicio Skype empresarial online](https://go.microsoft.com/fwlink/?LinkId=730729).
 
-## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Cómo ver los precios y comprar licencias de complementos
+## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Cómo ver las tarifas y comprar licencias complementarias
 <a name="bkmk_how"> </a>
 
  **Después de comprar un plan de Office 365, verá precios y compre complementos en el centro de administración de Microsoft 365**.

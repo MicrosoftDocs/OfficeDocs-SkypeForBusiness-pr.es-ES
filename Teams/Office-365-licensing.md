@@ -1,5 +1,5 @@
 ---
-title: Licencias de Office 365 para Microsoft Teams
+title: Licencias de Microsoft 365 y Office 365 para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,24 +19,24 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0a6c14c3fba7e5a303200499c4d158edfb56473
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: 5b3dcb5b7859c491470c274b5700eae32b2ac274
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170368"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778576"
 ---
-<a name="office-365-licensing-for-microsoft-teams"></a>Licencias de Office 365 para Microsoft Teams
-========================================
+<a name="microsoft-365-and-office-365-licensing-for-microsoft-teams"></a>Licencias de Microsoft 365 y Office 365 para Microsoft Teams
+==========================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Las siguientes suscripciones de Office 365 permiten a los usuarios de Teams.
+Las siguientes suscripciones de Microsoft 365 y Office 365 permiten a los usuarios de Teams.
 
 |Planes de Pequeña Empresa  |Planes de Empresa  |Planes de Educación  |Planes de programadores |
 |---------|---------|---------|---------|
-|Office 365 Empresa Essentials     |Office 365 Enterprise E1  |Office 365 Educación |Office 365 Developer     |
-|Office 365 Empresa Premium     |Office 365 Enterprise E3         |Office 365 Educación Plus         |      |
+|Microsoft 365 empresa Basic     |Office 365 Enterprise E1  |Office 365 Educación |Office 365 Developer     |
+|Microsoft 365 Business Standard     |Office 365 Enterprise E3         |Office 365 Educación Plus         |      |
 |Microsoft 365 para empresas     |Office 365 Enterprise E4 (retirada)         |Office 365 Educación E3 (retirada)         |  |
 |     |Office 365 Enterprise E5         |Office 365 Educación E5  | 
 |     |Office 365 Enterprise F1 |    |     | 
@@ -52,7 +52,7 @@ Para obtener más información sobre la obtención de equipos, consulte [¿Cómo
 > [!NOTE]
 > Si Skype empresarial online aparece en las aplicaciones para la licencia seleccionada, no la quite. Si está en la lista y se ha eliminado, la configuración de usuarios de Teams no se completará correctamente.
         
-En términos de funciones básicas de Teams, no hay diferencias entre las suscripciones de Office 365. La disponibilidad de las capacidades de cumplimiento no depende del nivel de suscripción adecuado. Para aprender más cosas a este respecto, lea [Información general de seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md). Para obtener una lista detallada de las características disponibles en cada plan, consulte la [Descripción del servicio de plataforma de Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
+En términos de funciones básicas de Teams, no hay diferencias entre las suscripciones. La disponibilidad de las capacidades de cumplimiento no depende del nivel de suscripción adecuado. Para aprender más cosas a este respecto, lea [Información general de seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md). Para obtener una lista detallada de las características disponibles en cada plan, consulte la [Descripción del servicio de plataforma de Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 
 **Características de voz en la nube**: para las conferencias de audio, su organización tendrá que comprar y asignar una licencia de audioconferencia a cada usuario que vaya a configurar las reuniones de acceso telefónico. Para los planes de llamadas, cada usuario necesita un sistema telefónico más un plan de llamadas nacionales o nacionales e internacionales. Para obtener más información, consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 

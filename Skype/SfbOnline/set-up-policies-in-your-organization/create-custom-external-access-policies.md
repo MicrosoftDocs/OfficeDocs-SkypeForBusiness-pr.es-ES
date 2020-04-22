@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Skype empresarial online le permite crear directivas de acceso externo adicionales. A diferencia de las directivas de conferencia o del cliente, donde puede tener varias combinaciones, hay tres directivas de acceso externo predefinidas que pueden cubrir la mayoría de los escenarios.
-ms.openlocfilehash: 76fa8fd1ae18f4108d9c4f52bca73d86ea07aafd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bf98dbdd7e59bea5f818bf803ba993be569c59b7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983975"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776315"
 ---
 # <a name="create-custom-external-access-policies"></a>Crear directivas personalizadas de acceso externo
 
@@ -67,7 +67,7 @@ Para que esto funcione, el usuario debe usar una versión compatible de 2016 apl
     
 1. En el **menú Inicio** > **Windows PowerShell**.
     
-2. En la ventana **Windows PowerShell**, puede conectarse a su organización de Office 365 ejecutando:
+2. En la ventana de **Windows PowerShell** , conéctese a Microsoft 365 u Office 365 ejecutando:
     
     > [!NOTE]
     > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.

@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 ProPlus '
+title: 'Aplicaciones de Microsoft 365 para empresas '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,17 +18,17 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: Obtenga más información sobre las licencias de complementos, las características y cómo comprar para Office 365 ProPlus.
-ms.openlocfilehash: 06281461de1a36e1eced52e03e4ae5019e742129
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Obtenga más información sobre las licencias de complementos, las características y cómo comprar para las aplicaciones de Microsoft 365 para empresas.
+ms.openlocfilehash: e80ccd6a32b9eec9a0ba8973d11acaea7abc3ffc
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826498"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779939"
 ---
-# <a name="office-365-proplus"></a>Office 365 ProPlus
+# <a name="microsoft-365-apps-for-enterprise"></a>Aplicaciones de Microsoft 365 para empresas
 
-Si ya ha comprado el plan [Office 365 ProPlus](https://products.office.com/en/business/office-365-proplus-business-software) , estas son las licencias de complemento que necesita comprar para obtener más características de Teams.
+Si ya ha comprado el plan [de aplicaciones de Microsoft 365 para empresas](https://products.office.com/en/business/office-365-proplus-business-software) , estas son las licencias de complemento que necesita comprar para obtener más características de Teams.
 
 > [!IMPORTANT]
 > Aunque las conferencias de audio, el sistema telefónico y los planes de llamadas se pueden comprar para habilitar las características de las llamadas de voz, le recomendamos que evalúe un plan de Enterprise E5 para ver si es más económico.
@@ -38,6 +38,6 @@ Si ya ha comprado el plan [Office 365 ProPlus](https://products.office.com/en/bu
 |:---------------------------|:--------------------------------|
 |Audioconferencia <br/> |Compre el complemento audioconferencia. <br/>Compre una licencia de audioconferencia por cada persona que vaya a programar o hospedar una reunión de acceso telefónico. Los asistentes no necesitan licencias. <br/>Una vez adquirida la licencia, Microsoft será su proveedor de audioconferencias. |
 |Números gratuitos para el acceso telefónico a las conferencias y la posibilidad de llamar desde una conferencia para agregar a alguien llamando a cualquier número de teléfono del mundo <br/> |Comprar [créditos de comunicaciones](../set-up-communications-credits-for-your-organization.md).|
-|Sistema telefónico <br/> |<ol><li>[Cambiar a otro plan de Office 365 para empresas](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Si tiene Office 365 ProPlus, le recomendamos que actualice su plan a un plan Enterprise E5 para obtener las características de voz en la nube. Si actualiza a un plan Enterprise E1 o E3, verá la opción de comprar el complemento del Sistema telefónico. <br/></li><li>Compre el complemento del sistema telefónico. <br/></li><li>Compre un [plan de llamadas](../calling-plans-for-office-365.md) para Office 365. <br/>O bien, use el [servicio telefónico de su proveedor existente](microsoft-teams-add-on-licensing.md#bkmk_existing).</li></ol>  <br/> |
+|Sistema telefónico <br/> |<ol><li>[Cambiar a otro plan de Office 365 para empresas](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Si tiene aplicaciones Microsoft 365 para empresas, le recomendamos que actualice su plan a un plan Enterprise E5 para obtener las características de voz en la nube. Si actualiza a un plan Enterprise E1 o E3, verá la opción de comprar el complemento del Sistema telefónico. <br/></li><li>Compre el complemento del sistema telefónico. <br/></li><li>Compre un [plan de llamadas](../calling-plans-for-office-365.md) para Office 365. <br/>O bien, use el [servicio telefónico de su proveedor existente](microsoft-teams-add-on-licensing.md#bkmk_existing).</li></ol>  <br/> |
 |Comprar un plan de llamadas <br/> |<ol><li>[Cambiar a otro plan de Office 365 para empresas](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). <br/></li><li>Compre el complemento del sistema telefónico.</li><li>Compre un [plan de llamadas](../calling-plans-for-office-365.md).<br/> Solo puedes comprarlo después de comprar el complemento del sistema telefónico. <br/> |
    

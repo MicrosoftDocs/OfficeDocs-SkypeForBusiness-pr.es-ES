@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo definir y usar etiquetas de confidencialidad en Microsoft Teams.
-ms.openlocfilehash: e9f007fd174027443191cd7d2dbb8f8321c7424f
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 5fb470262d0d359af87f751ece5f686210286c91
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888739"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779767"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Etiquetas de confidencialidad para Microsoft Teams
 
@@ -38,12 +38,12 @@ Por otro lado, las etiquetas de confidencialidad y sus directivas se aplican de 
 
 ## <a name="create-manage-and-publish-sensitivity-labels-for-teams"></a>Crear, administrar y publicar etiquetas de confidencialidad para equipos
 
-Para obtener información sobre cómo habilitar, crear y publicar etiquetas de confidencialidad para equipos, consulte [usar etiquetas de confidencialidad con Microsoft Teams, grupos de Office 365 y sitios de SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+Para obtener información sobre cómo habilitar, crear y publicar etiquetas de confidencialidad para equipos, consulte [usar etiquetas de confidencialidad con Microsoft Teams, grupos de microsoft 365 y sitios de SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 >[!IMPORTANT]
 >Crear, actualizar y eliminar etiquetas de confidencialidad requieren una secuenciación cuidadosa con etiquetas de publicación para los usuarios. Cualquier desviación en la secuencia puede dar lugar a errores de creación de equipo persistente para todos los usuarios. Por lo tanto, es esencial que haga lo siguiente cuando <a href="#createpublishlabels">cree y publique etiquetas</a>, <a href="#modifydeletelabels">modifique y elimine etiquetas publicadas</a>y <a href="#manageerrors">administre errores de creación de equipos</a>.
 
-**Crear y publicar etiquetas** <a name="createpublishlabels"></a>
+**Crear y publicar etiquetas** <a name="createpublishlabels"> </a>
 
 Cuando se crea una etiqueta y se publica en el centro de cumplimiento de seguridad &, la etiqueta puede tardar hasta 24 horas en verse en la interfaz de creación de equipos. Realice los siguientes pasos para publicar la etiqueta de todos los usuarios del espacio empresarial:
 1. Cree la etiqueta y publíquela para algunas cuentas de usuario seleccionadas en el inquilino.
@@ -51,7 +51,7 @@ Cuando se crea una etiqueta y se publica en el centro de cumplimiento de segurid
 3. Después de 24 horas, intente crear un equipo con la etiqueta usando una de las cuentas de usuario que tengan acceso a la etiqueta.
 4. Si el equipo se creó correctamente en el paso 3, continúe y publique la etiqueta para el resto de usuarios del espacio empresarial.
 
-**Modificar y eliminar las etiquetas** <a name="modifydeletelabels"></a> publicadas
+**Modificar y eliminar las etiquetas** <a name="modifydeletelabels"> </a> publicadas
 
 Eliminar o modificar la etiqueta mientras está asociada a directivas de confidencialidad puede dar lugar a errores en la creación del equipo en el inquilino. Por lo tanto, antes de eliminar o modificar una etiqueta, primero debe desvincular la etiqueta de sus directivas asociadas. Siga estos pasos  
 para eliminar o modificar una etiqueta:
@@ -60,7 +60,7 @@ para eliminar o modificar una etiqueta:
 3. Después de 48 horas, inicie la interfaz de creación de equipos y asegúrese de que la etiqueta ya no está visible para los usuarios del espacio empresarial.
 4. Ahora puede eliminar o modificar la etiqueta de forma segura.
 
-**Administrar errores** <a name="manageerrors"></a> de creación de equipos
+**Administrar errores** <a name="manageerrors"> </a> de creación de equipos
 
 Si la creación del equipo comienza a fallar en cualquier momento durante la versión preliminar pública, tiene dos opciones:
  - Asegúrese de que las etiquetas de confidencialidad no son obligatorias para ningún usuario durante la creación del equipo.

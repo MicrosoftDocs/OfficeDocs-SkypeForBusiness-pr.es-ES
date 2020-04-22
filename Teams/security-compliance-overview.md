@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42f6b185a8a09b0aae139175acfc632b84387db8
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: e226acdc12d4b94b7854f6d4bdb1d2fa618fa21e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749447"
+ms.locfileid: "43777505"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Seguridad y cumplimiento en Microsoft Teams
 
@@ -53,7 +53,7 @@ Teams aplica la autenticación en dos fases de todo el equipo y de toda la organ
 
 Lea [modelos de identidad y autenticación](identify-models-authentication.md) para obtener más información sobre la autenticación y los equipos, y [Cómo funciona la](sign-in-teams.md) autenticación moderna con la autenticación moderna en particular.
 
-Puesto que Teams funciona en colaboración con SharePoint, OneNote, Exchange y mucho más, debe sentirse cómodo con la administración de la seguridad en Office 365 todo. Para obtener más información sobre la seguridad de Office 365, lea [configurar el inquilino de office 365 para mayor seguridad](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
+Puesto que Teams funciona en colaboración con SharePoint, OneNote, Exchange y mucho más, debe sentirse cómodo con la administración de la seguridad en Office 365 todo. Para obtener más información sobre la seguridad de Office 365, lea [configurar la organización de office 365 para mayor seguridad](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
 
 > [!NOTE]
 > En la actualidad, los [canales privados](private-channels.md) admiten características de seguridad y cumplimiento limitadas. La compatibilidad con el conjunto completo de características de seguridad y cumplimiento de los canales privados estará disponible próximamente.
@@ -84,7 +84,7 @@ La aplicación de escritorio de Microsoft Teams es compatible con AppLocker.  Pa
 
 ## <a name="compliance"></a>Respeto
 
-Teams tiene una amplia variedad de información para ayudarle en áreas de cumplimiento, como el cumplimiento de las comunicaciones de canales, chats y datos adjuntos, directivas de retención, protección de pérdida de datos (DLP), eDiscovery y retención legal para canales, chats y archivos, la búsqueda de registros de auditoría, así como la administración de aplicaciones para dispositivos móviles con Microsoft Intune. Hemos proporcionado cierta información sobre todos estos temas, y puede ir al centro de cumplimiento de [Microsoft 365](https://compliance.microsoft.com) o al [centro de cumplimiento de & de seguridad de Office 365](https://protection.microsoft.com) para administrar esta configuración.
+Teams tiene una amplia variedad de información para ayudarle en áreas de cumplimiento, como el cumplimiento de las comunicaciones de canales, chats y datos adjuntos, directivas de retención, protección de pérdida de datos (DLP), eDiscovery y retención legal para canales, chats y archivos, la búsqueda de registros de auditoría, así como la administración de aplicaciones para dispositivos móviles con Microsoft Intune. Le proporcionamos cierta información sobre todos estos temas y puede ir al centro de cumplimiento de [Microsoft 365](https://compliance.microsoft.com) para administrar esta configuración.
 
 ### <a name="information-barriers"></a>Barreras de la información
 
@@ -140,11 +140,11 @@ Durante los litigios, es posible que necesite que todos los datos asociados con 
 
 En cualquiera de los casos, una vez configurada la espera, se asegurará de que, aunque los usuarios finales eliminen o editen los mensajes de canal que se encuentren en el buzón del grupo, se mantengan copias inmutables de ese contenido y estarán disponibles a través de la búsqueda de exhibición Las retenciones legales generalmente se aplican en el contexto de un caso de exhibición.
 
-Consulte el artículo [información general sobre las directivas de retención](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) para conocer más acerca de la preservación y la conservación en el centro de cumplimiento de & de seguridad de Office 365. Para obtener información específica sobre otros equipos sobre la retención legal, también tenemos nuestro [usuario o equipo de Microsoft Teams en](legal-hold.md) el artículo de la espera legal para obtener más información.
+Consulte el artículo [información general sobre las directivas de retención](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) para obtener más información sobre preservación y retención en el centro de cumplimiento de Microsoft 365. Para obtener información específica sobre otros equipos sobre la retención legal, también tenemos nuestro [usuario o equipo de Microsoft Teams en](legal-hold.md) el artículo de la espera legal para obtener más información.
 
 ### <a name="compliance-content-search"></a>Búsqueda de contenido de cumplimiento
 
-La búsqueda de contenido se puede usar para buscar todos los datos de Teams mediante funciones de filtrado avanzadas. Los datos resultantes pueden exportarse a un contenedor específico para la compatibilidad con litigios y cumplimiento. Esto puede hacerse con o sin un caso de exhibición de eDiscovery. Esto permite a los administradores de cumplimiento recopilar datos de Teams en todos los usuarios, revisarlos y exportarlos para su procesamiento posterior. Consulte este artículo [de búsqueda de contenido en Office 365](https://docs.microsoft.com/microsoft-365/compliance/content-search) para obtener más información sobre cómo realizar una búsqueda de contenido de cumplimiento para Microsoft Teams y otro contenido de Office 365 en el centro de cumplimiento de & de seguridad de Office 365.
+La búsqueda de contenido se puede usar para buscar todos los datos de Teams mediante funciones de filtrado avanzadas. Los datos resultantes pueden exportarse a un contenedor específico para la compatibilidad con litigios y cumplimiento. Esto puede hacerse con o sin un caso de exhibición de eDiscovery. Esto permite a los administradores de cumplimiento recopilar datos de Teams en todos los usuarios, revisarlos y exportarlos para su procesamiento posterior. Consulte este artículo [de búsqueda de contenido en Office 365](https://docs.microsoft.com/microsoft-365/compliance/content-search) para obtener más información sobre cómo realizar una búsqueda de contenido de cumplimiento para Microsoft Teams y otro contenido de Microsoft 365 u Office 365 en el centro de cumplimiento de Microsoft 365.
 
 > [!TIP]
 > Mediante la búsqueda de contenido, puede filtrar hasta solo contenido de Microsoft Teams, como mensajes de chat y de canal, reuniones y llamadas, si es necesario.
@@ -153,7 +153,7 @@ Si desea más información específica sobre la configuración de la búsqueda d
 
 ### <a name="auditing-and-reporting"></a>Auditoría y generación de informes
 
-Los complementos de búsqueda de registros de auditoría, directamente en el centro de cumplimiento de la & de seguridad de Office 365 y le ofrecen la posibilidad de establecer alertas, así como informes sobre eventos de auditoría, permitiendo la exportación de conjuntos de eventos genéricos o específicos de la carga de trabajo para que el administrador los utilice e investigue en una escala de tiempo de auditoría ilimitada. Puede configurar alertas para todos los datos de registro de auditoría dentro del centro de cumplimiento de la & de seguridad de Office 365, y filtrar y exportar estos datos para analizarlos más a la vez. Para obtener más información sobre cómo realizar un registro de auditoría para Office 365, consulte el artículo [Buscar en el registro de auditoría](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) . Para obtener más información sobre la búsqueda de eventos de Microsoft Teams en el centro de cumplimiento de Office 365 Security &, también tenemos activado el artículo de [Auditoría en Teams](audit-log-events.md) para que lo revise.
+Los complementos de búsqueda de registros de auditoría directamente en el centro de cumplimiento de Microsoft 365 y le ofrecen la posibilidad de establecer alertas, así como informar sobre eventos de auditoría, permitiendo la exportación de conjuntos de eventos genéricos o específicos de la carga de trabajo para que el administrador los utilice e investigue en una escala de tiempo ilimitada de auditoría. Puede configurar alertas para todos los datos de registro de auditoría en el centro de cumplimiento de Microsoft 365, y filtrar y exportar estos datos para analizarlos más a la vez. Para obtener más información sobre cómo realizar un registro de auditoría para Office 365, consulte el artículo [Buscar en el registro de auditoría](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) . Para obtener más información sobre la búsqueda de eventos de Microsoft Teams en el centro de cumplimiento de Microsoft 365, también tenemos activado la auditoría en el artículo de [Teams](audit-log-events.md) para que lo revise.
 
 ## <a name="privacy"></a>Privacidad
 
@@ -174,7 +174,7 @@ La siguiente ilustración indica el flujo de recopilación de las reuniones de T
 
 ## <a name="licensing"></a>Licencias
 
-Cuando se trate de capacidades de protección de información, los planes de Office 365 y las licencias independientes asociadas determinarán el conjunto de características disponibles.
+Cuando se trata de capacidades de protección de la información, las suscripciones a Microsoft 365, las suscripciones a Office 365 y las licencias independientes asociadas determinarán el conjunto de características disponibles.
 
 Para obtener información sobre cómo determinar las licencias que necesita para implementar características de seguridad y cumplimiento, consulte las [licencias de Office 365 o Microsoft 365](https://download.microsoft.com/download/8/7/7/877B1713-671E-43AA-BB79-AF8478C64AFF/Licensing-Microsoft-365.pdf).
 
@@ -183,7 +183,7 @@ Para obtener información sobre cómo determinar las licencias que necesita para
 
 ## <a name="location-of-data-in-teams"></a>Ubicación de los datos en Teams
 
-Los datos de Teams residen en la región geográfica asociada con su inquilino de Office 365. Para ver qué regiones se admiten actualmente, revise la [Ubicación de los datos en Microsoft Teams](location-of-data-in-teams.md).
+Los datos de Teams residen en la región geográfica asociada a su organización de 365 de Office. Para ver qué regiones se admiten actualmente, revise la [Ubicación de los datos en Microsoft Teams](location-of-data-in-teams.md).
 
 Si necesita ver la región que hospeda los datos de su inquilino, vaya al perfil de la**Settings** > **organización**del [Centro](https://portal.office.com/adminportal/home) > de administración de 365 de Microsoft. Desplácese hasta **Data location** (Ubicación de datos).
 

@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 756de9829194139f39c7618e0c8bbd74f3418264
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5247d814429d8d1f62fe9ea963aa76b7aafe40df
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010893"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776325"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administradores: Configurar Skype Empresarial para usuarios individuales
 
@@ -45,9 +45,9 @@ Para permitir (o impedir) que todos en la empresa puedan comunicarse con persona
 
 Debe tener [permisos de administrador](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para poder realizar estos pasos.
 
-![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
+![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
   
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión con su cuenta profesional o educativa.
     
 2. Seleccione **Centros de administración** > **Skype Empresarial**.
     
@@ -76,7 +76,7 @@ Para configurar estas opciones en masa, use PowerShell. Consulte [configurar el 
 
 Después de [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype](let-skype-for-business-users-add-skype-contacts.md) para todas las personas de su empresa, puede bloquear de manera selectiva las comunicaciones externas de personas específicas con estos pasos.
   
-1. Elija **usuarios**, seleccione los usuarios cuya configuración desea deshabilitar y, a continuación, **** ![elija Editar](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)edición.
+1. Elija **usuarios**, seleccione los usuarios cuya configuración desea deshabilitar y, a continuación, **Edit** ![elija Editar](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)edición.
     
 2. Elija **Comunicaciones externas** y después desactive las opciones correspondientes:
     

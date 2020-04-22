@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47abe9934c92ce83ab0874a10b2c04ef238b428a
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: 69efb8c74950ffdb4426049558caaf59254b4605
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157898"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779807"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Actualizar de Skype empresarial a teams &mdash; para administradores de ti
 
@@ -201,7 +201,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 Cuando se migra un usuario al modo TeamsOnly, las reuniones de Skype empresarial existentes que organizó se convertirán en Teams de forma predeterminada. Si lo desea, puede deshabilitar el comportamiento predeterminado al asignar el modo de TeamsOnly a un usuario. Al mover usuarios de forma local, las reuniones se deben migrar a la nube para que funcione con la cuenta de usuario en línea, pero si no especifica-MoveToTeams, las reuniones se migrarán como reuniones de Skype empresarial, en lugar de convertirlas a teams. 
 
-Al asignar el modo de TeamsOnly en el nivel de espacio empresarial, la migración de reuniones no se desencadena para ningún usuario. Si desea asignar el modo de TeamsOnly en el nivel de inquilino y migrar reuniones, puede usar PowerShell para obtener una lista de usuarios en el espacio empresarial (por ejemplo, usar Get-CsOnlineUser con los filtros necesarios) y, a continuación, recorra cada uno de estos usuarios para desencadenar una reunión migración con Start-CsExMeetingMigration. Para obtener más información, vea [usar el servicio de migración de reuniones (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+Al asignar el modo de TeamsOnly en el nivel de espacio empresarial, la migración de reuniones no se desencadena para ningún usuario. Si desea asignar el modo de TeamsOnly en el nivel de inquilino y migrar reuniones, puede usar PowerShell para obtener una lista de los usuarios en el espacio empresarial (por ejemplo, usar Get-CsOnlineUser con los filtros necesarios) y, a continuación, recorra cada uno de estos usuarios para desencadenar la migración de reuniones con Start-CsExMeetingMigration. Para obtener más información, vea [usar el servicio de migración de reuniones (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 
 ### <a name="additional-considerations-for-organizations-with-skype-for-business-server-on-premises"></a>Consideraciones adicionales para las organizaciones con Skype empresarial Server local
@@ -221,7 +221,7 @@ Al asignar el modo de TeamsOnly en el nivel de espacio empresarial, la migració
 - Si desea mostrar las notificaciones en el cliente de Skype empresarial para los usuarios locales, debe usar TeamsUpgradePolicy en el conjunto de herramientas local. Solo el parámetro NotifySfbUsers es relevante para los usuarios locales.  Los usuarios locales obtienen su modo de las instancias en línea de TeamsUpgradePolicy. Consulte las notas en [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). 
 
 >[!NOTE]
-> Los nuevos inquilinos creados después del 3 de septiembre de 2019 se crean como inquilinos de TeamsOnly sin la posibilidad de que los administradores puedan degradar. Las organizaciones con Skype empresarial Server local que antes nunca tenía una suscripción de Office 365 antes del 3 de septiembre de 2019 deberán ponerse en contacto con el soporte técnico de Microsoft para que su inquilino se haya degradado, una vez que hayan adquirido una suscripción con Office 365. 
+> Los nuevos inquilinos creados después del 3 de septiembre de 2019 se crean como inquilinos de TeamsOnly, a menos que la organización ya tenga una implementación local de Skype empresarial Server. Microsoft usa los registros DNS para identificar las organizaciones locales de Skype empresarial Server. Si su organización tiene Skype empresarial Server local sin entradas DNS públicas, tendrá que llamar al servicio de soporte técnico de Microsoft para descalificar el nuevo inquilino. 
 
 
 ## <a name="perform-the-upgrade-for-your-organization"></a>Realizar la actualización de su organización
@@ -286,7 +286,7 @@ Si algunos usuarios de su organización usan activamente equipos en modo islas, 
 
 1. Busque usuarios que estén activos en Teams de la siguiente manera:
 
-   1. Desde el portal de administración de Office 365, en la barra de navegación de la izquierda, vaya a informes y, después, uso. 
+   1. En el centro de administración de Microsoft 365, en la barra de navegación de la izquierda, vaya a informes y, después, uso. 
    2. En la lista desplegable "seleccionar un informe", elija Microsoft Teams y, a continuación, actividad del usuario. Esto proporcionará una tabla exportable de usuarios que han estado activos en Teams. 
    3. Haga clic en exportar, abrir Excel y filtro para mostrar solo los usuarios que están activos en Teams.
 
@@ -335,7 +335,7 @@ Si se trata de una función de llamadas RTC, existen cuatro escenarios posibles 
 
 - *Un usuario de Skype empresarial local con telefonía IP empresarial, que se va a migrar a en línea y mantener la conectividad RTC local*.  Migrar este usuario a teams requiere mover la cuenta de Skype empresarial local del usuario a la nube y coordinar ese movimiento con la migración del usuario al enrutamiento directo. 
 
-- *Un usuario de Skype empresarial local con telefonía IP empresarial*, que se va a migrar a en línea y usar un plan de llamadas de Microsoft.  Migrar este usuario a teams requiere mover la cuenta de Skype empresarial local del usuario a la nube y coordinar ese movimiento con una a) el puerto del número de ese usuario a un plan de llamadas de Microsoft o B asignarle un nuevo número de suscriptor. regiones disponibles.
+- *Un usuario de Skype empresarial local con telefonía IP empresarial*, que se va a migrar a en línea y usar un plan de llamadas de Microsoft.  Migrar este usuario a teams requiere mover la cuenta de Skype empresarial local del usuario a la nube y coordinar el movimiento con una o A una) el puerto del número de ese usuario a un plan de llamadas de Microsoft o B asignar un nuevo número de suscriptor de las regiones disponibles.
 
 Este artículo proporciona una descripción general de alto nivel únicamente. Para obtener más información, consulte [planes de llamadas](calling-plan-landing-page.md)y [enrutamiento directo de sistema telefónico](direct-routing-landing-page.md) . Además, tenga en cuenta que el uso de sistema telefónico con Teams solo se admite cuando el usuario está en modo TeamsOnly.  Si el usuario está en modo islas, el sistema telefónico solo es compatible con Skype empresarial. 
 

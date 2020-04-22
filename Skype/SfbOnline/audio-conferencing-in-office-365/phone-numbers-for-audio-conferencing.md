@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Obtenga información sobre qué países y regiones tienen números de conferencia de marcado, y cómo asignarlos automáticamente.
-ms.openlocfilehash: 19f2cb6f0c03ecdbc6890c7c1c24daceb508377a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fa99e9225f55919b58bf6d9b4648a740b21fcb34
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986515"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777445"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Números de teléfono para Audioconferencia en Skype for Business Online
 
@@ -49,13 +49,13 @@ When a Skype for Business Online user schedules a meeting in Outlook or Outlook 
   
 Para ver otros números de acceso telefónico local, haga clic en el vínculo **Buscar un número local** en la invitación a la reunión.
   
-## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Números de teléfono de acceso telefónico local establecidos en un puente de audioconferencia
+## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Números de teléfono marcados en un puente de audio conferencia
 
 Existen dos tipos de números de teléfono de conferencias de acceso telefónico local que se pueden asignar a su puente de conferencias: **compartido** y **dedicado**. Ambos tipos los puede usar cualquier persona que llame para unirse a reuniones de acceso telefónico local que se realicen en su organización.
   
  Los **números de teléfono dedicados** son aquellos que solo están disponibles para los usuarios de su organización. Los idiomas que se emplean cuando alguien llama a uno de estos números se pueden cambiar.
   
- Los **números de teléfono compartidos** son aquellos números de teléfono que se pueden compartir con otras organizaciones de Office 365. No es posible cambiar los idiomas que se emplean cuando alguien llama a uno de estos números.
+ Los **números de teléfono compartidos** son aquellos números de teléfono que se pueden compartir con otros usuarios de Microsoft 365 u Office 365S. No puede cambiar los idiomas que se usan cuando alguien llama a uno de estos números.
   
 Si bien el número de conferencia de acceso telefónico local que se asigna a un organizador es el único que se incluye en la invitación de la reunión, la persona que llama puede usar cualquiera de los números de teléfono que están asignados al puente de conferencia para unirse a una reunión. La lista de estos números de teléfono que se pueden usar para unirse a una reunión está disponible en el vínculo **Buscar un número local** que se incluye en cada invitación a una reunión.
   
@@ -64,7 +64,7 @@ Si bien el número de conferencia de acceso telefónico local que se asigna a un
 Los números de teléfono de las conferencias de acceso telefónico local compartidos se asignan automáticamente a las organizaciones cuando estas están habilitadas para dicho tipo de conferencias. Cuando se asignan los números de teléfono, uno se asigna como el número de teléfono predeterminado del puente de conferencias. Este número será del país o la región de la organización.
   
 > [!NOTE]
-> La ubicación del país o la región de su organización se puede encontrar iniciando sesión en el centro de administración de Microsoft 365 y buscando en Perfil de la **organización**. 
+> El país o la región en que se encuentra su organización se puede encontrar firmando en el Centro de administración de Microsoft 365 y mirando bajo el**Perfil de la organización**. 
   
 > [!CAUTION]
 > Debido a la disponibilidad limitada de números de teléfono de pago en Venezuela, Indonesia, Vietnam, y los Emiratos Árabes Unidos (EAU), las organizaciones de estos países o regiones no tienen asignado automáticamente un número de teléfono de audioconferencia. Los números gratuitos de estas ubicaciones están disponibles en función de las existencias disponibles. 

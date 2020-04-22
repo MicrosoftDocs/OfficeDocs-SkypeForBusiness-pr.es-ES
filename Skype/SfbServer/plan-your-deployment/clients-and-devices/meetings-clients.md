@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumen: los profesionales de TI deben revisar los requisitos de soporte técnico para la aplicación Web de Skype empresarial y la aplicación reuniones de Skype mientras planifica Skype empresarial Server. Este artículo no está destinado a los usuarios de estas aplicaciones.'
-ms.openlocfilehash: f5b402b23cbb49d1605b83b9f54531e26714b1f7
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 0e1ce225f99a112f11d55d76eb8039a10d9aac6b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157643"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777795"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planeación de clientes de reuniones (aplicación web y aplicación de reuniones)
  
@@ -70,7 +70,7 @@ Para usar la aplicación Web de Skype empresarial, un usuario debe tener una de 
 &#x2778; el acceso a la aplicación web desde Chrome en Windows iniciará un pequeño programa que carga la aplicación web en un marco incrustado de Internet Explorer. Este programa requiere que esté instalada una de las versiones compatibles de Internet Explorer para que la aplicación web se cargue correctamente.
   
 > [!NOTE]
-> Office 365 los usuarios pueden usar Internet Explorer 10 o una versión posterior con Skype empresarial. 
+> Los usuarios de Microsoft 365 y Office 365 pueden usar Internet Explorer 10 o posterior con Skype empresarial. 
   
 ### <a name="skype-meetings-app"></a>Aplicación Reuniones de Skype
 

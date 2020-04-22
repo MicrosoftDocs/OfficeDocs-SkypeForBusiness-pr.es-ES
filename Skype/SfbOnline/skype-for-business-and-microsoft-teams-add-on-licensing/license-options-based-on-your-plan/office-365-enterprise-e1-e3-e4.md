@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre características y licencias adicionales, y cómo comprar planes de Office 365 Enterprise, E1, E3 y E4. '
-ms.openlocfilehash: 79a803061acfd4550c75871c08f40b16ee2f8e2b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8000a71c52c03d82c8d01c92601be01d48db04dd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010593"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777965"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 y E4
 
@@ -71,8 +71,8 @@ El plan E3 forma parte de su Action Pack. Para comprar los complementos de **sis
 
 En algunas situaciones, no verá la opción de comprar complementos de Skype empresarial en el centro de administración de Microsoft 365.
 
-- **Ha comprado Office 365 Empresa Premium mediante GoDaddy**. En este caso, no podrá comprar complementos de Skype Empresarial. Debe cambiar al plan E3 (que GoDaddy no vende) y, a continuación, puede comprarlo. [Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Compró Microsoft 365 Business Standard a través de GoDaddy**. En este caso, no podrá comprar complementos de Skype Empresarial. Debe cambiar al plan E3 (que GoDaddy no vende) y, a continuación, puede comprarlo. [Contactar con el soporte técnico para productos empresariales: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-- **Tiene un compromiso mensual, en lugar de un compromiso anual**. En algunos casos, los clientes que tienen un compromiso mensual no pueden comprar los complementos (esto es diferente de la forma de pago, que puede ser mensual). Este es un problema conocido que estamos arreglando. [Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Tiene un compromiso mensual, en lugar de un compromiso anual**. En algunos casos, los clientes que tienen un compromiso mensual no pueden comprar los complementos (esto es diferente de la forma de pago, que puede ser mensual). Este es un problema conocido que estamos arreglando. [Contactar con el soporte técnico para productos empresariales: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
     ![You may need an annual commitment to buy add-ons.](../../images/164579c2-f4df-4ae0-bd1d-bff12addb500.png)

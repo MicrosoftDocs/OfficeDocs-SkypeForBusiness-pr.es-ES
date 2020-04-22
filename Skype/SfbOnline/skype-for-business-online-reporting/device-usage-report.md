@@ -19,13 +19,13 @@ f1.keywords:
 ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
-description: El nuevo panel Informes de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe de uso de dispositivos de Skype empresarial para ver los dispositivos, incluidos los sistemas operativos basados en Windows y los dispositivos móviles, que tienen la aplicación de Skype empresarial instalada y la usan para la mensajería instantánea y las reuniones. Consulte los informes de actividades en el centro de administración para obtener más información.
-ms.openlocfilehash: 52503a90b2474460347effb676247fc3ffed9919
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: El nuevo panel informes de Microsoft 365 le muestra la información general de actividades en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe de uso de dispositivos de Skype empresarial para ver los dispositivos, incluidos los sistemas operativos basados en Windows y los dispositivos móviles, que tienen la aplicación de Skype empresarial instalada y la usan para la mensajería instantánea y las reuniones. Consulte los informes de actividades en el centro de administración para obtener más información.
+ms.openlocfilehash: 9d12938fdbc495e1d95b8ed26500185f09f2b01b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769403"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776305"
 ---
 # <a name="device-usage-report"></a>Informe del uso de los dispositivos
 
@@ -40,13 +40,13 @@ Este informe, junto con los otros informes de Skype empresarial, proporcionan de
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>Cómo acceder al informe de uso de dispositivos de Skype empresarial
 
-1. Vaya al centro de administración > **** > **uso**de informes.
+1. Vaya al centro de administración > **Reports** > **uso**de informes.
     
 2. En la página **uso** , haga clic en **uso de dispositivo de Skype empresarial** en la **lista seleccionar un informe** de la izquierda. O bien, haga clic en el widget **actividad de Skype empresarial** y, a continuación, haga clic en **uso de dispositivo de Skype empresarial** en la lista de **actividades de Skype** empresarial.
     
      ![Widget de informe de uso de dispositivos de Skype empresarial](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
   
-    Según la suscripción de Office 365 que tenga, puede que no vea todos los productos ni los informes de actividad que se muestran en aquí.
+    Según el plan de Microsoft 365 u Office 365 que tenga, es posible que no vea todos los productos y los informes de actividades que se muestran aquí.
     
 ## <a name="interpret-the-skype-for-business-device-usage-report"></a>Interpretar el informe de uso de dispositivos de Skype empresarial
 

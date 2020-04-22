@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: c3d292eecb6173f98a2e95dbbd5a1097f5f785eb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a9fffea969ea1448bdf8f2a076dbef6756765e20
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836760"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780029"
 ---
 <a name="use-the-network-testing-companion"></a>Use el Asistente para pruebas de red
 =================================
@@ -34,7 +34,7 @@ El [Asistente de prueba de redes](https://www.powershellgallery.com/packages/Net
 Puede usar esta herramienta en la fase de planeamiento de una implementación de Skype empresarial o Microsoft Teams. Si actualmente usa Teams o Skype empresarial online, puede usar esta herramienta para solucionar problemas de calidad de voz o simplemente comprobar la conexión de red antes de hacer una llamada o después de tener una experiencia de mala calidad.
 
 > [!NOTE]
-> No necesita una suscripción de Office 365 para descargar e instalar el Asistente para pruebas de red.
+> No necesita una suscripción a Microsoft 365 u Office 365 para descargar e instalar el Asistente para pruebas de red.
 
 ## <a name="download-the-tool-and-documentation"></a>Descargar la herramienta y la documentación
 

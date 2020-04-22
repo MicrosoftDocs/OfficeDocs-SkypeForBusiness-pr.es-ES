@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee41f32ac2237e5e2c6e2e92fd18ea1c1952f7cd
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: 43adfb71c287677a6390d371a05bd1aea35ceda3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521616"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779989"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -90,8 +90,8 @@ A continuación se recomienda la configuración de VM mínima.
 |Parámetro  |Sistema operativo de estación de trabajo  |Sistema operativo del servidor  |
 |---------|---------|---------|
 |vCPU   |    2 núcleos     |  4, 6 u 8<br>Es importante comprender la configuración de acceso a memoria no uniforme (NUMA) subyacente y configurar las máquinas virtuales según corresponda.     |
-|MEMORIAS     |   4 GB      | 512 a 1024 MB por usuario        |
-|Almacenamiento    | 8 GB        | 40 a 60 GB        |
+|RAM     |   4 GB      | 512 a 1024 MB por usuario        |
+|Almacenamiento    | 8 GB        | 40 a 60 GB        |
 
 #### <a name="non-persistent-setup"></a>Configuración no persistente
 
@@ -106,27 +106,27 @@ Excluya lo siguiente de la carpeta Team Caching,% AppData%/Microsoft/Teams.  Exc
 - archivos. txt
 - Carpeta de la pila de medios
 
-### <a name="office-365-proplus-considerations"></a>Consideraciones sobre Office 365 ProPlus
+### <a name="microsoft-365-apps-for-enterprise-considerations"></a>Consideraciones de las aplicaciones de Microsoft 365 para empresas
 
-Tenga en cuenta lo siguiente al implementar Teams con Office 365 ProPlus en VDI.
+Tenga en cuenta lo siguiente al implementar Teams con las aplicaciones de Microsoft 365 para Enterprise en VDI.
 
-#### <a name="new-deployments-of-teams-through-office-365-proplus"></a>Nuevas implementaciones de Teams a través de Office 365 ProPlus
+#### <a name="new-deployments-of-teams-through-microsoft-365-apps-for-enterprise"></a>Nuevas implementaciones de Teams a través de las aplicaciones de Microsoft 365 para empresas
 
-Antes de implementar Teams a través de Office 365 ProPlus, primero debe desinstalar cualquier aplicación existente de Teams si se ha implementado con la instalación por equipo.
+Antes de implementar Teams a través de las aplicaciones de Microsoft 365 para empresas, primero debe desinstalar las aplicaciones preexistentes de Teams si se han implementado con la instalación por equipo.
 
-Los equipos a través de Office 365 ProPlus se instalan por usuario. Para obtener más información, consulte la sección [instalar o actualizar la aplicación de escritorio de Teams en VDI](#install-or-update-the-teams-desktop-app-on-vdi) .
+Los equipos a través de Microsoft 365 apps for Enterprise se instalan por usuario. Para obtener más información, consulte la sección [instalar o actualizar la aplicación de escritorio de Teams en VDI](#install-or-update-the-teams-desktop-app-on-vdi) .
 
-#### <a name="teams-deployments-through-office-365-proplus-updates"></a>Implementaciones de Teams mediante las actualizaciones de Office 365 ProPlus
+#### <a name="teams-deployments-through-microsoft-365-apps-for-enterprise-updates"></a>Implementaciones de Teams a través de las aplicaciones de Microsoft 365 para actualizaciones empresariales
 
-Teams también se agrega a las instalaciones existentes de Office 365 ProPlus. Dado que Office 365 ProPlus instala solo equipos por usuario, consulte la sección [instalar o actualizar la aplicación de escritorio de Teams en VDI](#install-or-update-the-teams-desktop-app-on-vdi) .
+Teams también se agrega a las instalaciones existentes de aplicaciones de Microsoft 365 para empresas. Dado que las aplicaciones de Microsoft 365 para empresas solo instalan equipos por usuario, consulte la sección [instalar o actualizar la aplicación de escritorio de Teams en VDI](#install-or-update-the-teams-desktop-app-on-vdi) .
 
-#### <a name="using-teams-with-per-machine-installation-and-office-365-proplus"></a>Usar Teams con la instalación por equipo y Office 365 ProPlus
+#### <a name="using-teams-with-per-machine-installation-and-microsoft-365-apps-for-enterprise"></a>Uso de Teams con instalación por máquina y aplicaciones de Microsoft 365 para empresas
 
-Office 365 ProPlus no es compatible con las instalaciones por máquina de Teams. Para usar la instalación por equipo, debe excluir equipos de Office 365 ProPlus. Vea la [aplicación de escritorio de implementación de Teams en la VM](#deploy-the-teams-desktop-app-to-the-vm) y [Cómo excluir la implementación de Teams a través de las secciones de Office 365 ProPlus](#how-to-exclude-teams-deployment-through-office-365-proplus) .
+Las aplicaciones de Microsoft 365 para empresas no admiten instalaciones por máquina de Teams. Para usar la instalación por equipo, debe excluir los equipos de las aplicaciones de Microsoft 365 para empresas. Vea la [aplicación de escritorio de implementación de Teams en la VM](#deploy-the-teams-desktop-app-to-the-vm) y [Cómo excluir la implementación de Teams a través de las aplicaciones de Microsoft 365 para empresas](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise) .
 
-#### <a name="how-to-exclude-teams-deployment-through-office-365-proplus"></a>Cómo excluir la implementación de equipos a través de Office 365 ProPlus
+#### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>Cómo excluir la implementación de equipos a través de las aplicaciones de Microsoft 365 para empresas
 
-Para obtener más información sobre los equipos y Office 365 ProPlus, consulte [Cómo excluir equipos de las nuevas instalaciones de Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) y [use la Directiva de grupo para controlar la instalación de Teams](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
+Para obtener más información sobre Teams y las aplicaciones de Microsoft 365 para empresas, consulte [Cómo excluir equipos de nuevas instalaciones de aplicaciones de microsoft 365 para empresas y cómo](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) [usar la Directiva de grupo para controlar la instalación de Teams](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>Implementar la aplicación de escritorio de Teams en la VM
 

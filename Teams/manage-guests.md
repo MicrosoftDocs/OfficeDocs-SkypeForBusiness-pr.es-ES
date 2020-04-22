@@ -17,12 +17,12 @@ description: Aprenda a crear sus primeros equipos y canales, a incorporar a los 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fea5ab9eec355d77f19165253fe97ee8aeb725ca
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 544dcb4ffd424512797d3791e2eda6b22439c084
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139249"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777845"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Administrar el acceso de invitado en Microsoft Teams
 ======================================
@@ -30,7 +30,7 @@ ms.locfileid: "43139249"
 > [!IMPORTANT]
 > Es posible que tenga que esperar hasta 24 horas para que sus cambios surtan efecto. 
 
-**Guest** es un tipo de usuario en Microsoft teams que se incluye en todos los planes de Office 365 Business Premium, Office 365 Enterprise, Office 365 Business Essentials y Office 365 educación. No se necesita ninguna otra licencia de Office 365. Más adelante encontrará más información sobre las [licencias de acceso de invitado](#guest-access-licensing-limits) .
+**Guest** es un tipo de usuario en Microsoft teams que se incluye con todas las suscripciones Microsoft 365 Business Standard, Office 365 Enterprise, Microsoft 365 Business Basic y Office 365 educación. No se necesita ninguna otra licencia de Office 365. Más adelante encontrará más información sobre las [licencias de acceso de invitado](#guest-access-licensing-limits) .
 
 El acceso de invitado de Teams es una configuración a nivel de inquilino y se encuentra desactivada de forma predeterminada. Para obtener más información sobre cómo activar el acceso de invitados, vea [activar o desactivar el acceso de invitados a los equipos](set-up-guests.md), o use la [lista de comprobación de acceso de invitados](guest-access-checklist.md) para que le guíe por la configuración.
 
@@ -64,7 +64,7 @@ Las revisiones de Access están disponibles con la edición P2 Premium de Azure 
 
 ## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>Tiempo de posposición para que la configuración de acceso de invitado surta efecto
 
-Para la configuración de acceso de invitado en Azure Active Directory, tarda 2-24 horas para que los cambios surtan efecto en la organización de Office 365. Si un usuario ve el mensaje "Póngase en contacto con el administrador" cuando intenta agregar un invitado a su equipo, es posible que la característica de invitado no se haya activado o que la configuración aún no sea efectiva. Para obtener ayuda con problemas para configurar el acceso de invitados, lea [solucionar problemas de acceso de invitados en Teams](troubleshoot-guest-access.md).
+Para la configuración de acceso de invitado en Azure Active Directory, tarda 2-24 horas para que los cambios surtan efecto en Microsoft 365 u Office 365. Si un usuario ve el mensaje "Póngase en contacto con el administrador" cuando intenta agregar un invitado a su equipo, es posible que la característica de invitado no se haya activado o que la configuración aún no sea efectiva. Para obtener ayuda con problemas para configurar el acceso de invitados, lea [solucionar problemas de acceso de invitados en Teams](troubleshoot-guest-access.md).
 
   
 ## <a name="external-access-federation-vs-guest-access"></a>Acceso externo (federación) frente a acceso de invitado

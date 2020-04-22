@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Para que las personas de la organización puedan usar la difusión de reunión de Skype, debe habilitarla. Para ello, necesita saber cómo usar Windows PowerShell. Si no conoce Windows PowerShell, considere la posibilidad de contratar un partner de Microsoft para realizar este paso.
-ms.openlocfilehash: 1b06f327fa59ec8e90c9b014db8a252ca7b40579
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4684f445dc004678bf978069c2430111e7961d0d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010613"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778125"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Habilitar la Difusión de reunión de Skype
 
@@ -33,9 +33,9 @@ Para que las personas de la organización puedan usar la difusión de reunión d
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Habilitar Difusión de reunión de Skype mediante el Centro de administración de Skype Empresarial
 
-![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
+![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
 
-1. Inicie sesión con su cuenta de administrador global de Office 365 o su cuenta de administrador [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)de Skype empresarial en.
+1. Inicie sesión con su cuenta de administrador global o la cuenta de administrador de [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)Skype empresarial en.
     
 2. En el centro de administración, vaya a**equipos**del centro de **Administración** > .
     
@@ -55,7 +55,7 @@ Para que las personas de la organización puedan usar la difusión de reunión d
     
 6. En el **menú Inicio**, elija **Windows PowerShell**.
     
-7. En la ventana de **Windows PowerShell** y conéctese a su organización de Office 365 ejecutando el siguiente comando:
+7. En la ventana de **Windows PowerShell** , conéctese a Microsoft 365 u Office 365 ejecutando:
     
    ```PowerShell
    $Credential = get-credential

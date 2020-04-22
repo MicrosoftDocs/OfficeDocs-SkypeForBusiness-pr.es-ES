@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga más información sobre las diferentes combinaciones de creación de usuarios y qué combinaciones son compatibles o no.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8bdab33d6f1f009ce51afe999923f4f6f5d1905a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a235b5c27919c0015849140a3e772f4a189a17d8
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141083"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779999"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Cuentas de usuario en un entorno híbrido con conectividad RTC
 
@@ -31,7 +31,7 @@ ms.locfileid: "43141083"
 Este artículo se aplica a entornos en los que tiene todas las opciones siguientes: 
  
 - Skype empresarial Server o Lync Server 2013 
-- Un inquilino de Office 365 
+- Una organización de Office 365 
 - Conectividad híbrida configurada entre Skype empresarial Server y Skype empresarial online o el inquilino de Microsoft Teams 
 - Usuarios que tienen habilitada la opción de realizar y recibir llamadas de red telefónica conmutada (RTC) a y desde el cliente
 

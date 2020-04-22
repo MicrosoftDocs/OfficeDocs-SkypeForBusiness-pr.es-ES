@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: El nuevo área informes del centro de administración de Skype empresarial muestra la actividad de llamadas y audioconferencias en su organización. Le permite profundizar en los informes para proporcionarle información más detallada sobre las actividades de cada usuario. Por ejemplo, puede usar el informe de grupos de minutos RTC de Skype empresarial para ver el número de minutos consumidos durante el mes actual de su organización.
-ms.openlocfilehash: 2777b4f32b99a086110b75ca527eda29b0842b6e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ac27e88b6e0f4945dde90f5e5f7bade31f20fe6a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692435"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776255"
 ---
 # <a name="pstn-minute-pools-report"></a>Informe de grupos de minutos de RTC
 
@@ -42,12 +42,12 @@ Este informe, junto con los otros informes de Skype empresarial, le ofrece detal
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Cómo acceder al informe de grupos de minutos RTC de Skype empresarial
 
-![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
+![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
 
-- Vaya al centro de administración > **centros** > de administración > **** > **centro de administración de Skype empresarial informa de****grupos de minutos RTC**.
+- Vaya al centro de administración > **centros** > de administración > **Reports** > **centro de administración de Skype empresarial informa de****grupos de minutos RTC**.
     
 > [!NOTE]
-> Según la suscripción de Office 365 que tenga, es posible que no vea todos los detalles que se muestran aquí. 
+> Según el plan de Microsoft 365 u Office 365 que tenga, es posible que no vea todos los detalles que se muestran aquí. 
   
 ## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>Interpretar el informe de grupos de minutos RTC de Skype empresarial
 

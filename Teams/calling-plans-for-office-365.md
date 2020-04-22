@@ -1,5 +1,5 @@
 ---
-title: Planes de llamadas para Office 365
+title: Planes de llamadas para Microsoft 365
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -25,14 +25,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 7eb6b049761ed7575512b816ea31c86c35c17baf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 81bf7febe1bece1482c9e882632c6b6bde512207
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825258"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779949"
 ---
-# <a name="calling-plans-for-office-365"></a>Planes de llamadas para Office 365
+# <a name="calling-plans-for-microsoft-365"></a>Planes de llamadas para Microsoft 365
 
 Las llamadas a otros usuarios de Skype empresarial y Microsoft Teams son gratuitas, pero si desea que los usuarios puedan llamar a teléfonos tradicionales y aún no tiene un proveedor de servicios para realizar llamadas de voz, debe comprar un plan de llamadas. Para obtener más información, consulta [planes de llamadas y sistema telefónico](calling-plan-landing-page.md).
   
@@ -77,7 +77,7 @@ A continuación, asigne las licencias de Enterprise E5 o el complemento **del si
     
 - [Precios de Sistema telefónico](https://go.microsoft.com/fwlink/?linkid=799763)
     
-- [Precios de Audioconferencia](https://go.microsoft.com/fwlink/?linkid=799762)
+- [Precios de Audio Conferencia](https://go.microsoft.com/fwlink/?linkid=799762)
     
 ## <a name="for-more-information"></a>Más información
 

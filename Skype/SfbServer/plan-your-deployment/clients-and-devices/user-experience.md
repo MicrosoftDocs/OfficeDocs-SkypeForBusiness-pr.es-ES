@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Resumen: Obtenga información sobre el nuevo Skype empresarial y los pasos que puede realizar para preparar el entorno y los usuarios para la actualización, si está usando Skype empresarial online, Skype empresarial Server 2019, Skype empresarial Server 2015, Lync Server 2013 o Lync Server 2010.'
-ms.openlocfilehash: c54465b2f2c6cb7fb8d131b52de27c3f64d0bcc2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c1fecbdb5a4ec0a19e464a57ee128d2d00ad501f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028011"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777755"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planear la experiencia de cliente de Skype empresarial 2015 para los usuarios
  
@@ -44,7 +44,7 @@ El 12 de mayo de 2015 habrá otra actualización mensual de Office que incluya e
 ## <a name="what-client-experience-do-you-want-for-your-users"></a>¿Qué experiencia de cliente desea para los usuarios?
 <a name="clientexperience"> </a>
 
-Con el nuevo cliente de Skype empresarial, puede controlar la experiencia de cliente que los usuarios obtienen, ya sea Lync o Skype empresarial. La experiencia de cliente predeterminada depende de si usa Lync o Skype empresarial local o en línea. Si usa Skype empresarial online (Lync Online) en la actualidad con Office 365 ProPlus, Office 365 empresa Premium u Office 2013, la experiencia de usuario de Skype empresarial actualizada (inspirado en la apariencia de Skype) será la experiencia de usuario predeterminada. Si usa actualmente Lync Server local, la experiencia de cliente de Lync será el valor predeterminado.
+Con el nuevo cliente de Skype empresarial, puede controlar la experiencia de cliente que los usuarios obtienen, ya sea Lync o Skype empresarial. La experiencia de cliente predeterminada depende de si usa Lync o Skype empresarial local o en línea. Si usa Skype empresarial online (Lync Online) hoy con Microsoft 365 apps for Enterprise, Microsoft 365 Business Standard u Office 2013, la experiencia de usuario de Skype empresarial actualizada (inspirado en la apariencia de Skype) será la experiencia de usuario predeterminada. Si usa actualmente Lync Server local, la experiencia de cliente de Lync será el valor predeterminado.
   
 Puede configurar la experiencia del cliente que obtienen los usuarios mediante directivas de cliente. Una directiva de cliente es un conjunto de opciones de configuración que se aplican a los usuarios cuando inician sesión en Lync o Skype empresarial.
   

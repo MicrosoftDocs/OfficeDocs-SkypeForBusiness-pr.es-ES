@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 Empresa Premium '
+title: 'Microsoft 365 Business Standard '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,17 +20,17 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Obtenga información sobre las licencias de complementos, características y cómo comprar planes de Office 365 Empresa Premium. '
-ms.openlocfilehash: 9ffc251fafb9c1304f78d215a2b5c26d17ae9aae
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 'Obtenga más información sobre las licencias de complementos, las características y cómo comprar para los planes de Microsoft 365 Business Standard. '
+ms.openlocfilehash: 18e0e16def82354339948f63f958025924e17d1e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706115"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777415"
 ---
-# <a name="office-365-business-premium"></a>Office 365 Empresa Premium
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Standard
 
-Si dispone de [Office 365 Empresa Premium](https://products.office.com/en/business/office-365-business-premium), puede utilizar Skype Empresarial para realizar llamadas a otras personas de la empresa que disponen de suscripción. Por ejemplo, si la empresa tiene 10 personas, podrán llamarse y enviarse mensajes instantáneos mutuamente mediante Skype Empresarial.
+Si tiene [Microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium), puede usar Skype empresarial para hacer llamadas a otras personas de su empresa que estén en su plan. Por ejemplo, si tu empresa tiene 10 personas, puedes llamar y enviar mensajes instantáneos entre sí usando Skype empresarial.
 
  **Para realizar y recibir llamadas de personas ajenas a la empresa, tiene dos opciones**:
 
@@ -74,7 +74,7 @@ Si dispone de [Office 365 Empresa Premium](https://products.office.com/en/busine
 
 1. Cambie al plan E1 o E3.
 
-2. Vaya al centro de administración > **** > **suscripciones**de facturación.
+2. Vaya al centro de administración > **Billing** > **suscripciones**de facturación.
 
 3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
 
