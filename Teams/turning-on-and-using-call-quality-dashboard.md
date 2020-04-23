@@ -23,16 +23,16 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 'Consulta cómo activar y usar el panel de calidad de llamadas y obtener informes de Resumen de la calidad de las llamadas. '
-ms.openlocfilehash: 7fafbebaa21a6bbd71ab0e253f226908d6787869
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 52bf3856ad5c737143d179525e5c2870748f3b46
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42983332"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788979"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y usar el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online
 
-Aprenda a configurar su organización de Office 365 para usar el panel de calidad de llamadas y supervisar la calidad de las llamadas.
+Obtenga información sobre cómo configurar Microsoft 365 u Office 365 para usar el panel de calidad de llamadas y supervisar la calidad de las llamadas.
   
 El panel de calidad de llamadas (CQD) proporciona una perspectiva de la calidad de las llamadas hechas con Microsoft Teams y los servicios de Skype empresarial online. En este tema se describen los pasos para empezar a recopilar datos que puede usar para solucionar problemas de calidad de la llamada.
 
@@ -149,11 +149,11 @@ Puede agregar varias fechas desde la pestaña ubicación, como agregar 2019-09-2
 
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Activar los informes de resumen del panel de calidad de llamadas de Microsoft (CQD)
 
-Para poder empezar a usar el CQD, actívelo para su organización de Office 365 de la siguiente manera:
+Para poder empezar a usar el CQD, actívelo para Microsoft 365 u Office 365 de la siguiente manera:
 
 ![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
 
-1. Inicie sesión en su organización de Office 365 con la cuenta de administrador del servicio Microsoft Teams y, a continuación, seleccione el icono **Administrador** para abrir el centro de administración.
+1. Inicie sesión en su cuenta de Microsoft 365 u Office 365 con la cuenta de administrador del servicio Microsoft Teams y, a continuación, seleccione el icono **Administrador** para abrir el centro de administración.
 2. En el panel izquierdo, en **centros de administración**, seleccione **Microsoft Teams** para abrir el centro de administración de Microsoft Teams.
 3. En el centro de administración de Microsoft Teams, seleccione **Panel de calidad de llamadas** en el panel de la izquierda.
 4. En la página que abre \(https://<span>CQD.Teams.Microsoft.com<span/>\), haga clic en **iniciar sesión** y escriba la información de la cuenta de administrador del servicio Microsoft Teams o la cuenta de administrador global.
@@ -166,7 +166,7 @@ Después de iniciar sesión, una vez que se haya activado, el CQD comenzará la 
 
 ![Un icono del logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el portal heredado de Skype empresarial**
 
-1. Inicie sesión en su organización de Office 365 con una cuenta de administrador y, a continuación, seleccione el icono **Administrador** para abrir el centro de administración.
+1. Inicie sesión en Microsoft 365 u Office 365 con una cuenta de administrador y, a continuación, seleccione el icono **Administrador** para abrir el centro de administración.
 2. En el panel izquierdo, en **centros de administración**, seleccione **Microsoft Teams** para abrir el centro de administración de Microsoft Teams.
 3. En el centro de administración de Microsoft Teams, seleccione **portal heredado** en el panel izquierdo, seleccione **herramientas**y, a continuación, seleccione **Panel de calidad de llamadas de Skype empresarial online**.
 
@@ -466,7 +466,7 @@ El CQD V2 y el CQD V3 tienen diferentes recuentos totales desde el CQD V3 existe
 
 Si el escenario de uso incluye llamadas de Skype empresarial Server 2019, los datos del CQD V3 incluyen llamadas de Skype Bot (operador automático, CVI, interfaz de escritorio virtual), eventos en vivo y llamadas RTC. El CQD V2 no usa estos datos. (El CQD V3 requiere Skype empresarial Server 2019 con el conector de datos en la nube configurado).
 
-Por ejemplo, si ve transmisiones de audio de 200.000 con errores de 5000 en un informe Resumen de CQD V2, no sería inusual ver las transmisiones de audio 300.000 con errores de 5500 (la diferencia puede deberse a las llamadas de Skype empresarial Server 2019, las llamadas de CVI, las llamadas RTC , etc.) en un informe Resumen de CQD V3.
+Por ejemplo, si ve transmisiones de audio de 200.000 con errores de 5000 en un informe de Resumen de CQD V2, no sería inusual ver las transmisiones de audio 300.000 con errores de 5500 (la diferencia puede deberse a las llamadas de Skype empresarial Server 2019, llamadas de CVI, llamadas RTC, etc.) en un informe de Resumen de CQD V3.
 
 Para desambigüedadr las diferencias inesperadas, mire más de un desglose de los datos generales. Filtre los datos por uno o varios de los siguientes parámetros:
 
@@ -496,7 +496,7 @@ Al comparar los datos de estos dos servicios:
 ### <a name="why-cant-i-see-euii-in-cqd"></a>¿Por qué no puedo ver EUII en el CQD?
 
 Estos roles de administrador pueden acceder al CQD, pero no pueden ver la información de identificación de EUII (información identificable por el usuario final):
-- Lector de informes de Office 365
+- Lector de informes de Microsoft 365
 - Especialista de soporte técnico de comunicaciones de Teams
 
 Para obtener más información sobre los roles que pueden obtener acceso al CQD, incluyendo EUII-Read, [asigne roles para acceder al CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).

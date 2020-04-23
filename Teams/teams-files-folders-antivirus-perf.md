@@ -10,18 +10,19 @@ audience: admin
 description: Mejore el rendimiento de los equipos al excluir determinados archivos y carpetas de la exploración antivirus normal.
 localization_priority: Normal
 search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c1519038cb2393687a031e9b2c1ea828f999728
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+ms.openlocfilehash: a1e890509428b3bfba19f6bfb01916e8ea837147
+ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265625"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43579596"
 ---
 <a name="teams-files-and-folders-to-exclude-from-antivirus-scanning"></a>Archivos y carpetas de Teams que se excluyen de la detección de virus
 =================================
@@ -43,11 +44,3 @@ Agregue los siguientes programas de Teams a la lista segura de antivirus.
 
 **%localappdata%\Microsoft\Teams\Update.exe**
 
-### <a name="folders"></a>Las
-
-Agregue las siguientes carpetas de Teams a la lista segura de antivirus.
-
-|Categoría  |Ubicación  |
-|---------|---------|
-|Archivos de programa  |%localappdata%\Microsoft\Teams|
-|Archivos de datos     |%appdata%\Microsoft\Teams\ |

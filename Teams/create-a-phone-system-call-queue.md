@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube con Microsoft Teams.
-ms.openlocfilehash: e6ff659790159595c86a2aa442bcb20bcff9659a
-ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
+ms.openlocfilehash: 0feee280526b432a14f0411ab4787e3b07ce2453
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43213647"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788982"
 ---
 # <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 
@@ -186,7 +186,7 @@ Los agentes de llamadas seleccionados deben ser uno de los siguientes:
 
  Para habilitar un agente para telefonía IP empresarial, puede usar Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Usuarios con una licencia de **sistema telefónico** o un plan de llamadas que se agregan a un grupo de Office 365. una lista de distribución habilitada para correo electrónico. o un grupo de seguridad. Al agregar un agente en una lista de distribución o un grupo de seguridad como agente de la cola de llamadas, puede demorar hasta tres horas en llegar a la primera llamada. Una lista de distribución o un grupo de seguridad recién creados puede demorar 48 horas en estar disponible para usarse con las colas de llamadas. Los grupos de Office 365 que se acaban de crear están disponibles casi de forma inmediata.
+- Usuarios con una licencia de **sistema telefónico** o un plan de llamadas que se agregan a un grupo de Office 365. una lista de distribución habilitada para correo electrónico. o un grupo de seguridad. Al agregar un agente en una lista de distribución o un grupo de seguridad como agente de la cola de llamadas, puede demorar hasta tres horas en llegar a la primera llamada. Una lista de distribución o un grupo de seguridad recién creados puede demorar 48 horas en estar disponible para usarse con las colas de llamadas. Los grupos de Microsoft 365 recién creados están disponibles casi de inmediato.
 
 - Si los agentes usan la aplicación Microsoft Teams para las llamadas de la cola de llamadas, deben estar en modo TeamsOnly.
 

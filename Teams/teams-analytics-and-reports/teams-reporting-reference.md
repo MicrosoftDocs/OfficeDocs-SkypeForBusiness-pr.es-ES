@@ -15,12 +15,12 @@ ms.collection:
 description: Obtenga más información sobre los informes de teams que están disponibles en el centro de administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1c4c142ff311debd3f96d08e386df68af953c2b
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 86003876bbbf4927886a8b260fad48f451a2d325
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240650"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778245"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análisis e informes de Microsoft Teams
 
@@ -33,7 +33,7 @@ Para acceder a los informes, debe ser un administrador global de Office 365, el 
 Vaya al centro de administración de Microsoft Teams, en el navegación de la izquierda, seleccione **análisis & informes**y, a continuación, en **Informe**, elija el informe que desea ejecutar.
 
 > [!NOTE]
-> Los informes del centro de administración de Microsoft Teams son independientes de los informes de actividades de los equipos que forman parte de los informes de Office 365 en el centro de administración de Microsoft 365. Para obtener más información sobre los informes de actividades en el centro de administración de Microsoft 365, consulte [informes de actividades de Teams en el centro de administración de microsoft 365](../teams-activity-reports.md)
+> Los informes del centro de administración de Microsoft Teams son independientes de los informes de actividades de los equipos que forman parte de los informes de Microsoft 365 en el centro de administración de Microsoft 365. Para obtener más información sobre los informes de actividades en el centro de administración de Microsoft 365, consulte [informes de actividades de Teams en el centro de administración de microsoft 365](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Referencia de informes de equipos
 
@@ -46,7 +46,7 @@ Mejoramos continuamente la experiencia de creación de informes de Teams y agreg
 |[Informes de uso de Teams](teams-usage-report.md)  |  Usuarios activos<br/>Usuarios activos de equipos y canales<br/>Canales activos<br/>Mensajes<br/>Configuración de privacidad de Teams<br/>Invitados de un equipo   |
 |[Informe de actividad de usuario de Teams](user-activity-report.md)  |  1:1 llama a un usuario en el que participó<br/>Mensajes que un usuario ha publicado en un chat de equipo<br/>Mensajes que un usuario ha publicado en un chat privado<br/>Fecha de la última actividad de un usuario     |
 |[Informe de uso de dispositivos de Teams](device-usage-report.md)   |  Usuarios de Windows<br/>Usuarios de Mac<br/>usuarios de iOS<br/>Usuarios de teléfono Android     |
-|[Informe de uso de eventos en directo de Teams](teams-live-event-usage-report.md)   |  Vistas totales<br>Hora de inicio<br>Estado del evento<br>Organizador<br>Moderador<br>Elaborado<br>Configuración de grabación<br>Tipo de producción    |
+|[Informe de uso de eventos en directo de Teams](teams-live-event-usage-report.md)   |  Vistas totales<br>Hora de inicio<br>Estado del evento<br>Organizador<br>Moderador<br>Elaborado<br>Configuración de la grabación<br>Tipo de producción    |
 |[Informe de usuarios bloqueados de RTC de Teams](pstn-blocked-users-report.md)   |  Nombre para mostrar<br>Número de teléfono<br>Motivo<br>Tipo de acción<br>Fecha y hora de la acción   |
 |[Informe de grupos de minutos RTC de Teams](pstn-minute-pools-report.md) |  País o región<br>Capacidad (licencia) <br>Minutos totales<br>Minutos usados<br>Minutos disponibles|
 |[Informe de uso de RTC de Teams: planes de llamadas](pstn-usage-report.md#calling-plans)|  Marca de tiempo<br>Nombre de usuario<br>Número de teléfono<br>Tipo de llamada <br>Llama para<br>A un país o a una región <br>Llamado desde <br>Desde país o región<br>Cargas<br>Moneda<br>Duración<br>Nacional o internacional<br>Id. de llamada<br>Tipo de número<br>País o región<br>Id. de conferencia<br>Capacidad (licencia)|

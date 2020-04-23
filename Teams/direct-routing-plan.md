@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión (SBC) compatible suministrado por el cliente a Microsoft Phone System.
-ms.openlocfilehash: 0140e4d2cfae95531602daec5a859a85888e9d15
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7d5a69ff3b0533d17d6582489fad6e156d8df1c7
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780699"
+ms.locfileid: "43785943"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -299,8 +299,8 @@ El intervalo de puertos de los procesadores multimedia se muestra en la tabla si
 
 |**Transmisión**|**De**|**Hasta**|**Puerto de origen**|**Puerto de destino**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|Procesador de medios|SBC|49152 – 53247|Definido en la SBC|
-|UDP/SRTP|SBC|Procesador de medios|Definido en la SBC|49152 – 53247|
+|UDP/SRTP|Procesador de medios|SBC|3478-3481 y 49152:53247|Definido en la SBC|
+|UDP/SRTP|SBC|Procesador de medios|Definido en la SBC|3478-3481 y 49152:53247|
 
   > [!NOTE]
   > Microsoft recomienda al menos dos puertos por llamada simultánea en la SBC.

@@ -15,12 +15,12 @@ f1.keywords:
 description: Obtenga información sobre cómo se actualiza el cliente de escritorio de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8058fa1e79b7d415d03c08500213206579029042
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0a76fe4e0cfb896d1bd89a02acebc1c00dff8767
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832620"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776835"
 ---
 # <a name="teams-update-process"></a>Proceso de actualización de Teams
 
@@ -36,11 +36,11 @@ Los usuarios deben iniciar sesión para que se descarguen las actualizaciones.
 
 A partir del 31 de julio de 2019, las actualizaciones de los clientes de Teams usan mucho menos ancho de banda de red durante la actualización. Esta opción está activada de forma predeterminada y no requiere ninguna acción de administradores o usuarios.
 
-## <a name="what-about-updates-to-office-365-proplus"></a>¿Qué hay de las actualizaciones de Office 365 ProPlus?
+## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>¿Qué hay de las actualizaciones de las aplicaciones de Microsoft 365 para la empresa?
 
-Teams se instala de forma predeterminada con nuevas instalaciones de Office 365 ProPlus, como se describe en [implementar Microsoft Teams con office 365 ProPlus](https://docs.microsoft.com/DeployOffice/teams-install). 
+Teams se instala de forma predeterminada con nuevas instalaciones de aplicaciones de Microsoft 365 para empresas, tal y como se describe en [implementar Microsoft Teams con aplicaciones de microsoft 365 para la empresa](https://docs.microsoft.com/DeployOffice/teams-install). 
 
-Teams sigue su propio proceso de actualización, como se indica anteriormente, y no el proceso de actualización para las otras aplicaciones de Office, como Word y Excel. Para obtener más información, vea [información general sobre los canales de actualización de Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus) .
+Teams sigue su propio proceso de actualización, como se indica anteriormente, y no el proceso de actualización para las otras aplicaciones de Office, como Word y Excel. Para obtener más información, consulte [información general sobre los canales de actualización de las aplicaciones de Microsoft 365 para empresas](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus) .
 
 ## <a name="what-about-updates-to-teams-on-vdi"></a>¿Qué hay de las actualizaciones de Teams en VDI?
 
@@ -56,7 +56,7 @@ Como servicio en línea moderno, el cliente de Teams se actualiza automáticamen
 
 Para empezar a identificar cuándo los clientes de escritorio no están actualizados, se mostrará una alerta en la aplicación si la versión actual del usuario se encuentra entre uno y tres meses de antigüedad y si hay una nueva versión disponible. Esta mensajería desde la aplicación anima a los usuarios a actualizar a la última versión de Teams o, si es necesario, a comunicarse con su administrador de TI para hacerlo. Los usuarios de equipos con clientes de escritorio de más de tres meses de edad verán una página de bloqueo que ofrece las opciones para actualizar ahora, comunicarse con su administrador de ti o continuar con Teams en la Web.
 
-Las versiones de clientes de escritorio con más de tres meses de antigüedad en la primera instalación o primera ejecución de Teams tienen un período de gracia de 28 días antes de que se produzca la información de servicio mencionada anteriormente. Durante este período, el proceso de actualización automática actualizará el cliente de Teams. Si no se actualiza, los usuarios verán una alerta desde la aplicación que les anima a actualizar de forma manual a la última versión de Teams o, si es necesario, a su administrador de TI para hacerlo. Esto incluye a los usuarios que usan el cliente de escritorio de Teams como parte del paquete de Office 365 ProPlus.
+Las versiones de clientes de escritorio con más de tres meses de antigüedad en la primera instalación o primera ejecución de Teams tienen un período de gracia de 28 días antes de que se produzca la información de servicio mencionada anteriormente. Durante este período, el proceso de actualización automática actualizará el cliente de Teams. Si no se actualiza, los usuarios verán una alerta desde la aplicación que les anima a actualizar de forma manual a la última versión de Teams o, si es necesario, a su administrador de TI para hacerlo. Esto incluye a los usuarios que usan el cliente de escritorio de Teams como parte del paquete de aplicaciones de Microsoft 365 para empresas.
 
 Los clientes de escritorio de Teams de las nubes gubernamentales actualmente tienen una excepción a este contrato de mantenimiento hasta un aviso más importante.
 

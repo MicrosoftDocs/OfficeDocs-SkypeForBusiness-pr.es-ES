@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos de la nube para Microsoft Teams.
-ms.openlocfilehash: 05a70c578812ee5ecdd91214ab253843fe67471c
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: dee263c08751f21e1fde19965d23595d5da27e39
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43508628"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788968"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
@@ -333,7 +333,7 @@ En esta página, puede establecer quién aparece en el directorio y disponible p
 
 Si selecciona **todos los usuarios en línea**, todos los usuarios elegibles se incluyen en la búsqueda en directorios.
 
-**Grupos de usuarios personalizados** Esta opción le permite buscar y seleccionar un grupo de Office 365, una lista de distribución o un grupo de seguridad ya creado en su organización. Los usuarios se agregan al directorio si se encuentran en el grupo de Office 365, una lista de distribución o un grupo de seguridad elegido y son **usuarios en línea con una licencia de sistema de teléfono** o se hospedan de forma local con Skype empresarial Server. Puede agregar varios grupos de Office 365, listas de distribución y grupos de seguridad al directorio.
+**Grupos de usuarios personalizados** Esta opción le permite buscar y seleccionar un grupo de Office 365, una lista de distribución o un grupo de seguridad ya creado en su organización. Los usuarios se agregan al directorio si se encuentran en el grupo de Office 365, una lista de distribución o un grupo de seguridad elegido y son **usuarios en línea con una licencia de sistema de teléfono** o se hospedan de forma local con Skype empresarial Server. Puede agregar varios grupos de Microsoft 365, listas de distribución y grupos de seguridad al directorio.
 
 <a name="dialscope"> </a>
 
@@ -343,7 +343,7 @@ En esta página, puede configurar los usuarios de su organización que aparecer�
 
 Si selecciona **ninguno**, todos los usuarios elegibles se incluyen en la búsqueda de directorio.
 
-**Grupo de usuarios personalizado** Puede buscar un grupo de Office 365, una lista de distribución o un grupo de seguridad que se haya creado en su organización. Los usuarios de ese grupo se excluyen de la búsqueda de directorios. Puede agregar varios grupos de Office 365, listas de distribución y grupos de seguridad.
+**Grupo de usuarios personalizado** Puede buscar un grupo de Office 365, una lista de distribución o un grupo de seguridad que se haya creado en su organización. Los usuarios de ese grupo se excluyen de la búsqueda de directorios. Puede agregar varios grupos de Microsoft 365, listas de distribución y grupos de seguridad.
 
 
 Si deja la configuración predeterminada cuando el marcado por nombre está habilitado, todos los usuarios elegibles se incluyen en la búsqueda de directorio.
