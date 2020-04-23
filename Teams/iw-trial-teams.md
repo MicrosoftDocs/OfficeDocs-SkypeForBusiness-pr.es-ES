@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: Los usuarios de Office 365 que no tienen una licencia de Microsoft Teams pueden iniciar una prueba de 1 año de Teams.
+description: Los usuarios de Microsoft 365 u Office 365 que no tienen una licencia para Microsoft Teams pueden iniciar una versión de prueba de 1 año en Teams.
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,17 +17,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a46720a59b5d3530f64bf4f459df13ad7c5cf5de
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6a0ad5cf058b8dcc5567cfc706ed3edb2cc09adf
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137160"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778356"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Administrar la oferta de prueba comercial en la nube de Microsoft Teams
 =======================================================
 
-La prueba comercial en la nube de Microsoft Teams permite a los usuarios existentes de Office 365 de su organización que no tienen una licencia de Microsoft Teams iniciar una prueba de 1 año del producto. Los administradores pueden activar o desactivar esta característica para los usuarios de su organización.
+La prueba comercial en la nube de Microsoft Teams ofrece a los usuarios existentes de Microsoft 365 y Office 365 de su organización que no tengan una licencia de Microsoft Teams iniciar una prueba de 1 año del producto. Los administradores pueden activar o desactivar esta característica para los usuarios de su organización.
 
 > [!IMPORTANT]
 > La prueba en la nube de Microsoft Teams se reemplazará por Microsoft Teams exploratorios a partir del 2020 de enero. Para obtener más información sobre esta nueva oferta, consulte [Administrar Teams](teams-exploratory.md)de licencias exploratorias.
@@ -55,7 +55,7 @@ La versión de prueba concede una suscripción de prueba de un año para toda la
 
 Es necesario habilitar la opción para que los usuarios se registren para aplicaciones y versiones de prueba (en el Centro de administración de Microsoft 365). Para obtener más información, vea [Administrar la versión de prueba](#manage-the-trial) más adelante en este artículo. 
 
-Los usuarios que no tengan una licencia de Office 365 que incluya Teams pueden iniciar la oferta de prueba comercial en la nube de Microsoft Teams. Por ejemplo, si un usuario tiene Office 365 Empresa (que no incluye Teams), es apto para la versión de prueba.
+Los usuarios que no tengan una licencia de Office 365 que incluya Teams pueden iniciar la oferta de prueba comercial en la nube de Microsoft Teams. Por ejemplo, si un usuario tiene las aplicaciones de Microsoft 365 para empresas (que no incluye Teams), podrán participar en la versión de prueba.
 
 ## <a name="who-is-not-eligible"></a>¿Quién no es válido?
 
