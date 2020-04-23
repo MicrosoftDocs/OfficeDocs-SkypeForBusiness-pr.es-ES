@@ -1,5 +1,5 @@
 ---
-title: Implementación de una topología de bosque de recursos
+title: Implementación del recurso de topología entre bosques
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,14 +18,14 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: En las secciones siguientes se proporcionan instrucciones sobre cómo configurar un entorno con varios bosques en un modelo de bosque de recursos y usuarios para proporcionar funcionalidad de Skype empresarial en un escenario híbrido.
-ms.openlocfilehash: 33945b245009a221d709e13d587f435aa4c054d8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3a0a5f08c9be4c6ba4c954a4100794d83d46ea53
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983045"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780129"
 ---
-# <a name="deploy-a-resource-forest-topology"></a>Implementación de una topología de bosque de recursos
+# <a name="deploy-a-resource-forest-topology"></a>Implementación del recurso de topología entre bosques
  
 En las secciones siguientes se proporcionan instrucciones sobre cómo configurar un entorno con varios bosques en un modelo de bosque de recursos y usuarios para proporcionar funcionalidad de Skype empresarial en un escenario híbrido. 
   
@@ -52,7 +52,7 @@ En una topología de bosque de recursos, los bosques de recursos que hospedan Sk
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Sincronizar cuentas en el bosque que hospeda Skype empresarial
 
-Cuando Skype empresarial Server se implementa en un bosque (un bosque de recursos), pero proporciona funcionalidad a los usuarios en uno o más bosques (bosques de cuentas), los usuarios de los otros bosques deben representarse como objetos de usuario deshabilitados en el bosque en el que Skype Business Server está implementado. Un producto de administración de identidades, como Microsoft Identity Manager, debe implementarse y configurarse para aprovisionar y sincronizar a los usuarios de los bosques de cuentas en el bosque donde se implementa Skype empresarial Server. Los usuarios deben estar sincronizados en el bosque que hospeda Skype empresarial Server como objetos de usuario deshabilitados. Los usuarios no se pueden sincronizar como objetos de contacto de Active Directory, porque Azure Active Directory Connect no sincronizará correctamente los contactos en Azure AD para usar con Skype.
+Cuando Skype empresarial Server se implementa en un bosque (un bosque de recursos), pero proporciona funcionalidad a los usuarios en uno o más bosques (bosques de cuentas), los usuarios de los otros bosques deben representarse como objetos de usuario deshabilitados en el bosque donde se implementa Skype empresarial Server. Un producto de administración de identidades, como Microsoft Identity Manager, debe implementarse y configurarse para aprovisionar y sincronizar a los usuarios de los bosques de cuentas en el bosque donde se implementa Skype empresarial Server. Los usuarios deben estar sincronizados en el bosque que hospeda Skype empresarial Server como objetos de usuario deshabilitados. Los usuarios no se pueden sincronizar como objetos de contacto de Active Directory, porque Azure Active Directory Connect no sincronizará correctamente los contactos en Azure AD para usar con Skype.
   
 Independientemente de la configuración de varios bosques, el bosque que hospeda Skype empresarial Server también puede proporcionar funcionalidad a todos los usuarios habilitados que existen en el mismo bosque.
   
@@ -73,9 +73,9 @@ No sincronice los UPN entre los bosques. Encontramos durante las pruebas que nec
     
 - Si el UPN único de cada bosque de usuarios se ha sincronizado con el objeto deshabilitado asociado en el bosque de recursos, se producirá un error en la autenticación de AD FS. La regla de coincidencia encontraría el UPN en el objeto en el bosque de recursos, que se ha deshabilitado y no se ha podido usar para la autenticación. 
     
-## <a name="create-an-office-365-tenant"></a>Crear un inquilino de Office 365
+## <a name="create-an-office-365-organization"></a>Creación de una organización de Office 365
 
-A continuación, deberá aprovisionar un inquilino de Office 365 para usarlo con la implementación de. Para obtener más información, vea [suscripciones, licencias, cuentas e inquilinos para las ofertas de la nube de Microsoft](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
+A continuación, deberá aprovisionar una organización de Office 365 para usarla con la implementación de. Para obtener más información, vea [suscripciones, licencias, cuentas e inquilinos para las ofertas de la nube de Microsoft](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
 ## <a name="configure-active-directory-federation-services"></a>Configurar los servicios de Federación de Active Directory
 

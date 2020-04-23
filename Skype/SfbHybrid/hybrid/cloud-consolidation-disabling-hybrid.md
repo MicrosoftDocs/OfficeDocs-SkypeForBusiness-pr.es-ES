@@ -1,5 +1,5 @@
 ---
-title: Deshabilitar la migración híbrida para completar la nube
+title: Deshabilitar la implementación híbrida para completar la migración a la nube
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -21,20 +21,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este apéndice incluye pasos detallados para deshabilitar la implementación híbrida como parte de la consolidación en la nube para Teams y Skype empresarial.
-ms.openlocfilehash: 8fc9745c75f9b449751164065f974ccd8088218f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 053d632b5a07b7ce7cca8ef7a1ddf45a673bcf59
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726980"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780149"
 ---
-# <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Deshabilitar la migración híbrida para completar la nube
+# <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Deshabilitar la implementación híbrida para completar la migración a la nube
 
-Una vez que haya movido a todos los usuarios de la nube local a la nube, puede retirar la implementación local de Skype empresarial. Aparte de quitar el hardware, un paso crítico es separar lógicamente esa implementación local de Office 365 deshabilitando híbrido. La deshabilitación de un híbrido consta de tres pasos:
+Después de mover todos los usuarios del entorno local a la nube, puede desactivar la implementación local de Skype Empresarial. Aparte de quitar el hardware, un paso crítico es separar lógicamente la implementación local de Office 365 deshabilitando la implementación híbrida. La deshabilitación de un híbrido consta de tres pasos:
 
-1. Actualice los registros DNS para que apunten a Office 365.
+1. Actualizar los registros DNS para que apunten a Office 365.
 
-2. Deshabilite el dominio dividido en el inquilino de Office 365.
+2. Deshabilite el dominio dividido en la organización de Office 365.
 
 3. Deshabilite la capacidad local para comunicarse con Office 365.
 
@@ -56,7 +56,7 @@ El DNS externo de la organización para la organización local debe actualizarse
     |CNAME| cumplir|   3600|   webdir. online. Lync. <span>com|
     |CNAME| Dialin  |3600|  webdir. online. Lync. <span>com|
 
-2.  *Deshabilitar el espacio de direcciones SIP compartido en Office 365 tenant.*
+2.  *Deshabilite el espacio de direcciones SIP compartido en la organización de Office 365.*
 El siguiente comando debe realizarse desde una ventana de PowerShell de Skype empresarial online.
 
     ```PowerShell
@@ -83,6 +83,6 @@ Los administradores pueden administrar los usuarios que se movieron anteriorment
 
   ![Herramienta usuarios y equipos de Active Directory](../media/disable-hybrid-1.png)
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 [Consolidación en la nube para Teams y Skype empresarial](cloud-consolidation.md)

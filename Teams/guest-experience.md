@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60891c2e5283b8e9cdaa9e8d7852768bbb52d8aa
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2f118611d55fe9192f32402946d672901b0f66ee
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776935"
+ms.locfileid: "43785873"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
@@ -34,6 +34,11 @@ Cuando se invita a un invitado a unirse a un equipo, recibe un mensaje de correo
 Todos los miembros del equipo ven un mensaje en el hilo del canal en el que se anuncia que el propietario del equipo ha agregado a un invitado y da el nombre del invitado. Todos los miembros del equipo pueden identificar con facilidad quién es un invitado. Como se muestra en la siguiente captura de pantalla de un equipo de muestra, una pancarta indica "este equipo tiene invitados" y aparece una etiqueta **(invitado)** junto al nombre de cada invitado.
     
 ![Captura de pantalla que muestra los usuarios invitados de notificaciones](media/guest-experience-image2.png "Captura de pantalla que muestra una parte del canal de marketing de Northwind Traders, con la notificación en el banner superior en el que se indica que el equipo tiene invitados y los usuarios que son invitados se identifican con la palabra "invitado" junto a su nombre.")
+
+Consulte estos vídeos sobre la experiencia de invitado en Teams:
+- [Unirse a un equipo como invitado](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
+- [Unirse a una reunión de equipos con invitados](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Comparación de las capacidades de miembro de equipo y de invitado
 

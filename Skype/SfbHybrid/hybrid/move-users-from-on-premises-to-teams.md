@@ -18,14 +18,14 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumen: Obtenga información sobre cómo migrar la configuración de usuario y mover usuarios a Microsoft Teams.'
-ms.openlocfilehash: af5281faffa9bd9439e045dc40f67283bb740cb5
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 07d0657017d24acbbd3961c3528056debb927a5a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888779"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779686"
 ---
-# <a name="move-users-from-on-premises-to-teams"></a>Mover usuarios de local a teams
+# <a name="move-users-from-on-premises-to-teams"></a>Mover usuarios locales a Microsoft Teams
 
 Cuando un usuario se mueve de local a Microsoft Teams, la Página principal de Skype empresarial del usuario se mueve de local a en línea y se le asigna TeamsUpgradePolicy con MODE = TeamsOnly.  Después de que un usuario se haya movido del modo local al modo TeamsOnly:
 
@@ -55,13 +55,13 @@ Hay dos métodos para mover un usuario de local a teams:
 
 ## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>Mover un usuario directamente desde Skype empresarial a Microsoft Teams solo
 
-Las herramientas de administración locales de Skype empresarial Server 2015 con CU8, así como de Skype empresarial Server 2019, permiten mover a los usuarios del modo local a teams en un solo paso mediante el cmdlet Move-CsUser en PowerShell o en el entorno de Skype empresarial se rVer panel de control, como se describe a continuación.
+Las herramientas de administración locales de Skype empresarial Server 2015 con CU8, así como de Skype empresarial Server 2019, permiten mover usuarios del modo local a Microsoft Teams en un solo paso mediante el cmdlet Move-CsUser en PowerShell o el panel de control de Skype empresarial Server, tal como se describe a continuación.
 
 ### <a name="move-to-teams-using-move-csuser"></a>Mover a Microsoft Teams con Move-CsUser
 
-Move-CsUser está disponible en una ventana local de PowerShell del shell de administración de Skype empresarial. Los pasos que se indican a continuación y los permisos son los mismos que para mover un usuario a Skype empresarial online, excepto que también debe especificar el modificador MoveToTeams y debe asegurarse de que también se haya concedido una licencia para Teams a los usuarios (además de Skype empresarial). En línea).
+Move-CsUser está disponible en una ventana local de PowerShell del shell de administración de Skype empresarial. Los siguientes pasos y permisos son los mismos que para mover un usuario a Skype empresarial online, excepto que también debe especificar el modificador MoveToTeams y debe asegurarse de que el usuario también tenga una licencia para Teams (además de Skype empresarial online).
 
-Debe tener privilegios suficientes en el entorno local y en el inquilino de Office 365, tal y como se describe en [credenciales administrativas necesarias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Puede usar una sola cuenta que tenga privilegios en ambos entornos, o puede iniciar una ventana del shell de administración local de Skype empresarial Server con credenciales locales y usar el `-Credential` parámetro para especificar las credenciales de una cuenta de Office 365 con el rol administrativo de Office 365 necesario.
+Debe tener privilegios suficientes en el entorno local y en la organización de Office 365, tal y como se describe en [credenciales administrativas necesarias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Puede usar una sola cuenta que tenga privilegios en ambos entornos, o puede iniciar una ventana del shell de administración local de Skype empresarial Server con credenciales locales y usar el `-Credential` parámetro para especificar las credenciales de una cuenta de Office 365 con el rol administrativo de Office 365 necesario.
 
 Para mover un usuario al modo de solo Teams mediante Move-CsUser:
 
@@ -114,13 +114,13 @@ New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
 
 De forma predeterminada, el valor de DownloadTeams es true; sin embargo, *solo* se acepta si NotifySfbUser = true para un usuario determinado.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
 
 [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy
 )
 
-[Guía de migración e interoperabilidad para organizaciones que usan Teams junto con Skype empresarial](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
-[Coexistencia con Skype empresarial](/microsoftteams/coexistence-chat-calls-presence)
+[Coexistencia con Skype Empresarial](/microsoftteams/coexistence-chat-calls-presence)

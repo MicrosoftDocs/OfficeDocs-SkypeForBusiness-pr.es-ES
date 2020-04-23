@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general sobre el uso de las herramientas de telemetría de Skype empresarial online para supervisar una implementación local en un escenario híbrido.
-ms.openlocfilehash: 910bfe2a1af1f39976d0098aeb1fd23a7ef31490
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ad4d7ddb270bc4e4227eea7d33c37411ea96fa8c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765238"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779666"
 ---
 # <a name="plan-call-data-connector"></a>Conector de datos de llamada del plan
 
@@ -54,7 +54,7 @@ Por supuesto, es posible que desee mantener algunos datos sobre la calidad de la
 
 ![Correo de voz de nube de SfB](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 En los siguientes requisitos se da por supuesto que ya ha implementado Skype empresarial Server en una topología compatible.  Para obtener más información acerca de la implementación de Skype empresarial Server y las topologías admitidas, consulte [Topology Basics](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Para configurar el conector de datos de llamada, debe:
 
@@ -62,10 +62,10 @@ En los siguientes requisitos se da por supuesto que ya ha implementado Skype emp
 
    Para obtener más información, consulte [planear la conectividad híbrida entre Skype empresarial Server y office 365](plan-hybrid-connectivity.md) y [configurar la conectividad híbrida entre Skype empresarial server y Office 365](configure-hybrid-connectivity.md).
 
-- Autentique el inquilino de Office 365 y asegúrese de que tiene los siguientes roles habilitados:
+- Autentique en su organización de Office 365 y asegúrese de que tiene las siguientes funciones habilitadas:
 
   - Administrador de Skype empresarial Server
-  - Administrador global de Office 365
+  - Administrador global
 
 - Si aún no lo ha hecho, active el panel de calidad de llamadas como se describe en [activar y usar el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
 
