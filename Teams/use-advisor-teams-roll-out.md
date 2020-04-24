@@ -19,20 +19,20 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Use el Asesor de Teams (versión preliminar pública) para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: 6e4f383983326333bcd8b821d2342872eb89ecd7
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 006ecf1563da153660902ac4c580253e50632867
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053623"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780809"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-El Asesor de Teams (versión preliminar pública) le guiará a través de la implementación de Microsoft Teams. Evalúa el entorno del inquilino de Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente Teams. Después, el Asesor de Teams crea un Equipo de implementación (en Teams), con canales para cada una de las cargas de trabajo que desea implementar. Cada carga de trabajo en el Equipo de implementación viene con un plan de Planner completo que incluye todas las tareas de implementación para cada carga de trabajo.  Con este plan de Planner, podrá asignar las tareas a las personas responsables de cada fase del lanzamiento, (incluyendo el jefe de proyecto, administradores de Teams y Office 365, personal de soporte técnico, y su equipo de adopción y preparación del usuario). Cada tarea de implementación contiene todos los recursos e instrucciones que necesita para completar la tarea con éxito.
+El Asesor de Teams (versión preliminar pública) le guiará a través de la implementación de Microsoft Teams. Evalúa el entorno de la organización de Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente Teams. Después, el Asesor de Teams crea un Equipo de implementación (en Teams), con canales para cada una de las cargas de trabajo que desea implementar. Cada carga de trabajo en el Equipo de implementación viene con un plan de Planner completo que incluye todas las tareas de implementación para cada carga de trabajo.  Con este plan de Planner, podrá asignar las tareas a las personas responsables de cada fase del lanzamiento, (incluyendo el jefe de proyecto, administradores de Teams y Office 365, personal de soporte técnico, y su equipo de adopción y preparación del usuario). Cada tarea de implementación contiene todos los recursos e instrucciones que necesita para completar la tarea con éxito.
 
-El Asesor de Teams forma parte del [centro de administración de Teams](https://admin.teams.microsoft.com). Como mínimo, necesitarás una licencia de Office 365 Empresa Essentials para poder aprovechar la integración del asesor de Teams con formularios y planificador. Para empezar a utilizar el asesor para Teams, haga clic en el botón **Inicio** en el widget **implementar Teams de carga** de trabajo en el panel. O vaya a **Planificar** > **Asesor para Teams**.
+El Asesor de Teams forma parte del [centro de administración de Teams](https://admin.teams.microsoft.com). Como mínimo, necesitará una licencia de Microsoft 365 Empresa Básico para poder aprovechar la integración del Asesor de Teams con Forms y Planner. Para empezar a utilizar el asesor para Teams, haga clic en el botón **Inicio** en el widget **implementar Teams de carga** de trabajo en el panel. O vaya a **Planificar** > **Asesor para Teams**.
 
 > [!IMPORTANT]
 > El Asesor de Teams no está disponible para las implementaciones de Microsoft 365 Administración Pública - GCC High o DoD.
@@ -96,8 +96,8 @@ Además de las [pruebas de evaluación para todas las cargas de trabajo](#assess
 
 |Prueba de evaluación  |Qué le indica  |
 |---------|---------|
-|Configuración de la política de nombres de grupo de Office 365     |Si se han configurado estándares de nomenclatura para Grupos de Office 365. La política de asignación de nombres de Grupos de Office 365 permite a su organización aplicar una estrategia de asignación de nombres coherente a los equipos creados por los usuarios y también se aplica a otras cargas de trabajo de grupos (incluidos Outlook, SharePoint, Planner y Yammer). Esta prueba consulta Azure AD a través del Microsoft Graph para comprobar la existencia de políticas de nombres que se aplican a los Grupos de Office 365. Para obtener más información, lea [la política de nombres de grupo de Office 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
-|Configuración de la política de caducidad de Grupos de Office 365     |Si se ha definido una política de caducidad de grupo para los Grupos de Office 365. Esto permite a su organización eliminar automáticamente los equipos inactivos. Está desactivado por defecto. Esta prueba consulta Azure AD a través de Microsoft Graph e informa si el valor ha sido modificado desde el valor predeterminado. Para más información, lea la [Política de Expiración de Grupo de Office 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
+|Configuración de la política de nombres de grupo de Office 365     |Si se han configurado estándares de nomenclatura para Grupos de Microsoft 365. La Directiva de nomenclatura de Grupos de Microsoft 365 permite a su organización aplicar una estrategia de asignación de nombres coherente a los equipos creados por los usuarios y también se aplica a otras cargas de trabajo de grupos (incluidos Outlook, SharePoint, Planner y Yammer). Esta prueba consulta Azure AD a través de Microsoft Graph para comprobar la existencia de directivas de nomenclatura que se aplican a los Grupos de Microsoft 365. Para obtener más información, lea [la política de nombres de grupo de Office 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
+|Configuración de la política de caducidad de Grupos de Office 365     |Si se ha definido una Directiva de caducidad de grupo para los Grupos de Microsoft 365. Esto permite a su organización eliminar automáticamente los equipos inactivos. Está desactivado por defecto. Esta prueba consulta Azure AD a través de Microsoft Graph e informa si el valor ha sido modificado desde el valor predeterminado. Para más información, lea la [Política de Expiración de Grupo de Office 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>Evaluaciones para reuniones y conferencias
 
@@ -131,7 +131,7 @@ Una vez que asesor para Teams crea su equipo de implementación, el bot asesor e
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 ### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>¿Cuáles son los requisitos de licencia para el Asesor de Teams?
-Como mínimo, necesitará Office 365 Business Essentials para poder aprovechar la integración del asesor de Teams con los formularios y el planificador.
+Como mínimo, necesitará Microsoft 365 Empresa Básico para poder aprovechar la integración del Asesor de Teams con Forms y Planner.
 
 ### <a name="can-i-delete-the-deployment-team"></a>¿Puedo eliminar el equipo de implementación?
 Cuando el Asesor de Teams haya creado el Equipo de implementación, administrará el equipo como cualquier otro, con la posibilidad de eliminarlo. Tenga en cuenta que, si no elimina el equipo utilizando el centro de administración de equipos, el centro de administración de equipos mostrará que el equipo sigue existiendo. Este es un caso provisional: se corregirá cuando asesor para Teams abandone el período de versión preliminar pública y esté disponible para el público general.
