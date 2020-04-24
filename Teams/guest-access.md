@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8a27d5085130810a56ff5592d61df03f08b8980
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e7151c7a84ec6273e14f41330eb4fd2afcd8d989
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013013"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776945"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado en Microsoft Teams
 ======================================
@@ -46,11 +46,11 @@ El acceso de invitado es una configuración de Teams a nivel de toda la organiza
 
 ## <a name="licensing-for-guest-access"></a>Licencias para acceso de invitado
 
-El acceso de invitado se incluye con todas las suscripciones de Office 365 Empresa Premium, Office 365 Enterprise y Office 365 Educación. No se necesita ninguna otra licencia de Office 365. Teams no limita el número de invitados que se pueden agregar. Sin embargo, el número total de invitados que se pueden agregar a su espacio empresarial depende de su licencia de Azure AD. Generalmente, son 5 invitados por usuario con licencia. Para obtener más información, vea [Licencia de colaboración de Azure AD B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
+El acceso de invitados está incluido en todas las suscripciones de Microsoft 365 Empresa Estándar, Office 365 Enterprise y Office 365 Education. No se necesita ninguna otra licencia de Office 365. Teams no limita el número de invitados que se pueden agregar. Sin embargo, el número total de invitados que se pueden agregar a su espacio empresarial depende de su licencia de Azure AD. Generalmente, son 5 invitados por usuario con licencia. Para obtener más información, vea [Licencia de colaboración de Azure AD B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 
 > [!NOTE]
-> Los usuarios de su organización que solo tengan planes de suscripción de Office 365 independientes, como Exchange Online Plan 2, no pueden participar como invitados en su organización porque Teams considera que estos usuarios pertenecen a la misma organización. Para que estos usuarios utilicen Teams, se les debe asignar una suscripción de Office 365 Empresa Premium, Office 365 Enterprise u Office 365 Educación. 
+> Los usuarios de su organización que solo tengan planes de suscripción de Office 365 independientes, como Exchange Online Plan 2, no pueden participar como invitados en su organización porque Teams considera que estos usuarios pertenecen a la misma organización. Para que estos usuarios puedan utilizar Teams, se les debe asignar una suscripción a Microsoft 365 Empresa Estándar, Office 365 Enterprise o Office 365 Education. 
 
 ## <a name="who-is-a-guest"></a>¿Quién es un invitado?
 
@@ -78,11 +78,11 @@ La experiencia de invitado tiene limitaciones deliberadamente establecidas. Aseg
 - Cargar archivos en un chat entre personas
 - Actualmente, Teams solo admiten los tipos de estado 1 y estado 2 de usuarios invitados [definido por Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)
 
-Para obtener una lista completa de qué puede y no puede hacer un invitado en Teams, vea la tabla de [comparación entre las funciones de los miembros del equipo y los invitados](guest-experience.md#comparison-of-team-member-and-guest-capabilities). Para más información sobre el acceso de invitado a nivel de Office 365, lea [Agregar invitados a los grupos de Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
+Para obtener una lista completa de qué puede y no puede hacer un invitado en Teams, vea la tabla de [comparación entre las funciones de los miembros del equipo y los invitados](guest-experience.md#comparison-of-team-member-and-guest-capabilities). Para obtener más información sobre el acceso de invitados en el nivel de Office 365, lea [Agregar invitados a Microsoft 365 Groups](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
 
 ## <a name="more-information"></a>Más información
 
-[Contactar con soporte técnico para productos empresariales: ayuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
-[Acceso de invitado en Grupos de Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
+[Contactar al soporte técnico para productos empresariales: ayuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
+[Acceso de invitados a Microsoft 365 Groups](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   
