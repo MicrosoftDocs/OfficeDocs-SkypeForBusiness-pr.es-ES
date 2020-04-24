@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdc38c7ad6f7a7eaef0fa0cfb2a9d48745b92bef
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: a2e1073736ff927c34c56f3236d98e338384942d
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749597"
+ms.locfileid: "43785883"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -39,7 +39,7 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |Número de equipos de la organización que se pueden usar en un espacio empresarial | 5     |
 |Número de miembros de un [equipo de toda la organización](create-an-org-wide-team.md) | 5 000       |
 |Número de equipos que un administrador global puede crear        |  500 000   |
-|Número de equipos que puede tener un espacio empresarial de Office 365    | 500 000&sup2;     |
+|Cantidad de equipos que puede tener una organización de Office 365    | 500 000&sup2;     |
 |Número de canales por equipo    | 200 (incluye canales eliminados)&sup3;         |
 |Número de cadenas privadas por equipo    |30|
 |Tamaño de publicación de conversación de canal | Aproximadamente 28 KB por publicación<sup>4</sup> |
@@ -63,7 +63,8 @@ El chat de Teams funciona en un servidor backend de Microsoft Exchange, por lo q
 |Característica  | Límite máximo  |
 |---------|---------|
 |Número de usuarios en un chat privado<sup>1</sup>  | 100    |
-|Número de datos adjuntos de archivo<sup>2</sup>  |10     |
+|Cantidad de personas en una llamada de audio o vídeo desde el chat | 20 |
+|Cantidad de datos adjuntos de archivo<sup>2</sup>  |10     |
 |Tamaño de chat | Aproximadamente 28 KB por publicación<sup>3</sup> |
 
 <sup>1</sup> Si tienes más de 20 personas en un chat, las siguientes funciones de chat están desactivadas: Respuestas automáticas de Outlook y mensajes de estado de los equipos; indicador de escritura; llamadas de vídeo y audio; compartir; leer recibos.
@@ -109,6 +110,7 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 |Característica     | Límite máximo |
 |------------|---------------|
 |Número de personas en una reunión  | 250    |
+|Cantidad de personas en una llamada de audio o vídeo desde el chat | 20 |
 |Tamaño máximo de archivo de PowerPoint | 2 GB|
 |Teams guarda [grabaciones de la reunión](cloud-recording.md) que no se cargan en Microsoft Stream, que se pueden descargar de forma local | 20 días |
 
@@ -128,7 +130,7 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 |------------|---------------|
 |Tamaño de público | 10 000 asistentes |
 |Duración del evento | 4 horas |
-|Eventos en directo simultáneos en un espacio empresarial de Office 365 | 15 |
+|Eventos en directo simultáneos en una organización de Office 365 | 15 |
 
 Para obtener más información sobre los eventos en directo y una comparación de los eventos en directo de Teams y la Difusión de reunión de Skype, vaya a [Eventos en directo de Teams y Difusión de reunión de Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
 
@@ -146,7 +148,7 @@ Al almacenar archivos en la biblioteca de documentos de SharePoint Online y OneD
 
 Ya que Teams se ejecuta en un back-end de SharePoint Online para compartir archivos, las limitaciones de SharePoint se aplican a la sección Archivos en un equipo. Estos son los límites de almacenamiento correspondientes para SharePoint Online.
 
-|Característica                 |Office 365 Empresa Essentials  |Office 365 Empresa Premium   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
+|Característica                 |Microsoft 365 Empresa Básico  |Microsoft 365 Empresa Estándar   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Almacenamiento                 |1 TB por organización, además de 10 GB por cada licencia adquirida.  |1 TB por organización, además de 10 GB por cada licencia adquirida.  |1 TB por organización, además de 10 GB por cada licencia adquirida.   |1 TB por organización, además de 10 GB por cada licencia adquirida. |1 TB por organización, además de 10 GB por cada licencia adquirida.  |1 TB por organización           |
 |Almacenamiento de archivos de Teams  |Hasta 25 TB por grupo o colección de sitios. |Hasta 25 TB por grupo o colección de sitios. |Hasta 25 TB por grupo o colección de sitios. |Hasta 25 TB por grupo o colección de sitios. |Hasta 25 TB por grupo o colección de sitios. |Hasta 25 TB por grupo o colección de sitios. |

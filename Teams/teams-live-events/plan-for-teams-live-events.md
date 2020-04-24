@@ -10,28 +10,32 @@ audience: admin
 ms.reviewer: sonua
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
 description: Obtenga más información sobre los factores que debe tener en cuenta antes de configurar eventos en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: c4a7f60a199a342d69311467bffbc4607854a719
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505627"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43752367"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
-Cuando planee a los equipos eventos para tener reuniones grandes en la organización, debe tener en cuenta varios factores antes de empezar a configurarlo. 
+Cuando planee a los equipos eventos para tener reuniones grandes en la organización, debe tener en cuenta varios factores antes de empezar a configurarlo.
 
-## <a name="who-can-create-and-schedule-live-events"></a>¿Quién puede crear y programar eventos en directo? 
+## <a name="who-can-attend-create-and-schedule-live-events"></a>¿Quién puede crear, asistir y programar eventos en directo?
+
+Cualquiera puede asistir a un evento en directo sin una licencia. Lea [Inicio rápido para administradores: reuniones y eventos en vivo](../quick-start-meetings-live-events.md).
+
 Para que el usuario programe un evento en directo de Teams se requieren los siguientes requisitos previos.
 
 Deben asignarse las siguientes licencias:  
+
 - Una licencia de Office 365 Enterprise E1, E3 o E5 o una licencia de Office 365 a3 o A5
 - Una licencia de Microsoft Teams
 - Una licencia de Microsoft Stream
@@ -50,6 +54,7 @@ Para participar en un evento en directo como usuario autenticado se requiere una
 Para obtener más información sobre las licencias, vea [Licencias complementarias de Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 El usuario debe tener:
+
 - La programación de reuniones privadas habilitada en Teams (*el parámetro TeamsMeetingPolicy -AllowPrivateMeetingScheduling parameter = True*).
 - El uso compartido de vídeos habilitado para las reuniones en Teams (*el parámetro TeamsMeetingPolicy -AllowIPVideo parameter = True*).
 - El uso compartido de vídeos habilitado para las reuniones en Teams (*el parámetro TeamsMeetingPolicy -ScreenSharingMode = EntireScreen*).
@@ -58,23 +63,23 @@ El usuario debe tener:
 - El modo de coexistencia se configuró para que pueda programar reuniones de Teams (*islas, en primer lugar, o solo Teams*).
 
 > [!IMPORTANT]
-> Los usuarios anónimos sin autenticar no pueden ser invitados como productores ni moderadores de los eventos en directo de Teams. 
- 
+> Los usuarios anónimos sin autenticar no pueden ser invitados como productores ni moderadores de los eventos en directo de Teams.
+
 ## <a name="who-can-watch-live-events"></a>¿Quién puede ver los eventos en directo?
 
 |**Visibilidad del asistente**       |**Producción de Teams**  |**Producción de dispositivos o aplicaciones externos**  |
 |------------------------------|-----------------|----------------------|
 |Público (Usuarios anónimos)      |  Sí            |  No                  |
 |Usuarios invitados                   |  Sí            |  No                  |
-|Todos los usuarios de la empresa asociada |  Sí<sup>1</sup>|  No                  |
+|Todos los usuarios de la empresa de acceso externo (federaciones) |  Sí<sup>1</sup>|  No                  |
 |Todas los usuarios de la empresa           |  Sí            |  Sí                 |
 |Grupos específicos / personas      |  Sí            |  Sí                 |
 
-<sup>1 </sup>solo se pueden invitar a un solo asistente federado por usuarios y grupo  <br>
- 
+<sup>1 </sup>solo se pueden invitar a un solo asistente de acceso externo (federación) por usuarios y grupo <br>
+
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos y Difusión de reunión de Skype en Teams
 
-En la siguiente tabla, se resaltan las funciones y características principales ofrecidas en los eventos en directo y cómo estas se diferencian de la Difusión de reunión de Skype. 
+En la siguiente tabla, se resaltan las funciones y características principales ofrecidas en los eventos en directo y cómo estas se diferencian de la Difusión de reunión de Skype.
 
 |**Función**   |**Difusión de reunión de Skype** |**Eventos producidos en Teams** |**Eventos producidos en las aplicaciones o dispositivos externos** |
 |---------|---------|---------|---------|
@@ -91,7 +96,7 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 |Permite varios moderadores |&#x2714; (Skype Empresarial) |&#x2714; (Teams) |N/D  |
 |Invitar a un moderador durante la reunión |&#x2714; (Skype Empresarial) |&#x274C; |N/D |
 |El moderador se unió desde el móvil e Internet |&#x2714; (Skype Empresarial)  |&#x274C; |N/D |
-|Asociados e invitados de los moderadores o asistentes |&#x2714; (Skype Empresarial)  |  &#x2714; (Teams) |N/D |
+|Acceso externo (federación) y presentadores o asistentes invitados |&#x2714; (Skype Empresarial)  |  &#x2714; (Teams) |N/D |
 |Moderador: acceso por RTC |&#x274C; |&#x2714; (Teams) |N/D |
 |Presentar en una pantalla |&#x274C; |&#x2714; (Teams) |N/D |
 |Presentar un archivo de PowerPoint (uso compartido de archivos PPT) |&#x2714; |&#x274C; (atenuado a través del uso compartido de la pantalla) |N/D |
@@ -107,27 +112,31 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 <sup>1</sup> Los límites establecidos pueden ser modificados. Compruebe[ Los límites y las especificaciones de los Teams](../limits-specifications-teams.md)<br/>
 <sup>2</sup> Puede tener hasta 250 moderadores y productores en un evento en directo, pero solo se muestran en la lista los últimos 10 que habló.
 
-
 ## <a name="regional-availability"></a>Disponibilidad regional
-Puede usar los eventos en directo de Teams en varias regiones a través de todo el mundo. La siguiente información muestra la disponibilidad de los miembros del equipo y los asistentes al evento. 
+
+Puede usar los eventos en directo de Teams en varias regiones a través de todo el mundo. La siguiente información muestra la disponibilidad de los miembros del equipo y los asistentes al evento.
 
 > [!IMPORTANT]
 > La región del evento se selecciona automáticamente según el organizador y la organización de Office 365.
 
 **Disponible en estas regiones**
+
 - América
 - Europa / África
 - Asia Pacífico
-- De forma local en Canada, India, Australia, Japón, Reino Unido
+- Ubicación de datos en Canadá, India, Australia, Japón, Reino Unido
 
 **Exclusiones y permisos**
-- **De forma local:** Teams funcionará de forma local y no es compatible con las opciones mostradas anteriormente.
+
+- **Ubicación de datos:** las ubicaciones de datos de Teams, excepto las que se enumeraron anteriormente, no son compatibles en estos momentos.
 - **China:** los participantes y los miembros del equipo no podrán usar los eventos en directo de Teams, ya que no se puede obtener acceso a Microsoft Azure Content Delivery Network en China. Una forma de evitar el problema es usar una conexión VPN corporativa, que mantiene al cliente conectado a la red CDN a través de la red corporativa.
 
 ## <a name="next-steps"></a>Siguientes pasos
+
 Vaya a [Configuración de eventos en directo de Teams](set-up-for-teams-live-events.md)
 
 ### <a name="related-topics"></a>Temas relacionados
+
 - [¿Qué son los eventos en directo de Teams?](what-are-teams-live-events.md)
 - [Configuración de Eventos en Directo de Teams](set-up-for-teams-live-events.md)
 - [Establecer la configuración de eventos en directo de Microsoft Teams](configure-teams-live-events.md)

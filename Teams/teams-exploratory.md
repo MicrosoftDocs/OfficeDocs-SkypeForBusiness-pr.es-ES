@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: Los usuarios de Office 365 que no tienen una licencia de Microsoft Teams pueden activar una licencia exploratoria de Teams.
+description: Los usuarios de Office 365 o Microsoft 365 que no tienen una licencia de Microsoft Teams pueden activar una licencia de Teams Exploratory.
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4991945d47ecda85964068530118bcf3ef1f616a
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 4cc744b8cbe9942712857309f061b998957661b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749797"
+ms.locfileid: "43780389"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Administrar la licencia de Microsoft Teams Exploratory
 =======================================================
@@ -54,7 +54,7 @@ Los planes de servicio que verá un administrador como parte de la experiencia d
 
 ## <a name="whos-eligible"></a>¿Quiénes reúnen los requisitos?
 
-Mientras el usuario tenga una dirección de correo electrónico de dominio administrado de AAD y no se le haya asignado ninguna licencia de Teams, podrá participar en esta experiencia. Por ejemplo, si un usuario tiene Office 365 Empresa (que no incluye Teams), puede optar por la experiencia de Teams Exploratory
+Mientras el usuario tenga una dirección de correo electrónico de dominio administrado de AAD y no se le haya asignado ninguna licencia de Teams, podrá participar en esta experiencia. Por ejemplo, si un usuario tiene Aplicaciones de Microsoft 365 para negocios (que no incluye Teams), puede optar por la experiencia de Teams Exploratory.
 
 Los usuarios deben estar habilitados para registrarse en aplicaciones y versiones de prueba (en el Centro de administración de Microsoft 365). Para más información, vea [Administrar la experiencia Teams Exploratory](#manage-the-teams-exploratory-experience), más adelante en este artículo. 
 
