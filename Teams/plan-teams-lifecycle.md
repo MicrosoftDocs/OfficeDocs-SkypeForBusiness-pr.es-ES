@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ce58f292fd732c498880936c01d3e1b1343d2aa6
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 29caa32b894c2a407a724f68c11c01cfe567c82e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137830"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780259"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Plan para la administración del ciclo de vida en Teams
 
@@ -40,7 +40,7 @@ Los siguientes conceptos y definiciones influyen en las decisiones que tome para
 
 **Teams**
 
-Un _equipo_ es una colección de personas, contenido y herramientas que facilitan la colaboración. Un equipo define quiénes son sus miembros, y los permisos y directivas que se les aplica. Los equipos se construyen sobre grupos de Office 365 y los cambios que se realicen en la pertenencia a los grupos de Office 365 se sincronizarán con el equipo. Al igual que sucede con otros grupos de Office 365, los equipos vienen aprovisionados automáticamente con un buzón de correo de Exchange, un sitio de SharePoint, un bloc de notas de OneNote y otros activos de Office 365. [Obtenga más información sobre los grupos de Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Un _equipo_ es una colección de personas, contenido y herramientas que facilitan la colaboración. Un equipo define quiénes son sus miembros, y los permisos y directivas que se les aplica. Los equipos se construyen sobre Grupos de Microsoft 365 y los cambios que se realicen en la pertenencia a grupos de Office 365 se sincronizarán con el equipo. Al igual que sucede con otros grupos de Microsoft 365, los equipos vienen aprovisionados automáticamente con un buzón de correo de Exchange, un sitio de SharePoint, un bloc de notas de OneNote y otros activos de Office 365. [Más información sobre Grupos de Microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 **Canales**
 
@@ -57,7 +57,7 @@ Determinan quién puede unirse al equipo:
 
 Los tipos de usuario de los equipos determinan la cantidad de control que tiene un miembro del equipo:
 
--   El _creador del equipo_ tiene permisos para crear un grupo o un equipo en el directorio. El administrador puede limitar este tipo de usuario a un subconjunto de administradores o usuarios. Si desea más información, consulte [Administrar quién puede crear grupos de Office 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
+-   El _creador del equipo_ tiene permisos para crear un grupo o un equipo en el directorio. El administrador puede limitar este tipo de usuario a un subconjunto de administradores o usuarios. Si desea más información, consulte [Administrar quién puede crear Grupos de Microsoft 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
 -   El _propietario del equipo_ administra la pertenencia y la configuración del equipo. Puede haber hasta 100 propietarios de equipo en un equipo.
 -   El _miembro del equipo_ es un miembro de su organización que participa en un equipo.
 -   El _invitado_ es un usuario que no pertenece a la organización. A cualquier persona que tenga una dirección de correo electrónico se le puede invitar como invitado, siempre que la organización tenga habilitado el [acceso de invitado](guest-access.md).
@@ -79,7 +79,7 @@ Los roles de administrador de Teams determinan qué funcionalidades tiene cada t
 <tbody>
    <tr>
     <td valign="top" colspan="2">Administrador de servicios de Teams</td>
-    <td valign="top">Administre el servicio de Teams, y cree y administre grupos de Office 365</td>
+    <td valign="top">Administre el servicio de Teams, y cree y administre Grupos de Microsoft 365</td>
     <td valign="top">Administrar reuniones, incluidas las directivas de reunión, configuraciones y puentes de conferencia<sup>1</sup><br><br>Administrar la voz, incluidas las directivas de llamada, la asignación y el inventario de los números de teléfono, las colas de llamada y los operadores automáticos<sup>1</sup><br><br>Administrar los mensajes, incluidas las directivas de mensajería<sup>1</sup><br><br>Administrar la configuración de toda la organización, incluida la federación, la actualización de Teams y la configuración de cliente de Teams<sup>1</sup><br><br>Administrar los equipos de la organización y su configuración asociada, incluida la pertenencia<sup>2</sup><br><br>Ver la página del perfil de usuario y solucionar los problemas relacionados con la calidad de llamada de los usuarios mediante un conjunto de herramientas avanzado de solución de problemas<sup>3</sup></td>
 </tr>
 <tr>
@@ -197,7 +197,7 @@ Si un equipo empieza a estancarse, considere las siguientes opciones:
 
 Cuando el trabajo de un equipo llega a su fin, es importante reconocer formalmente que ha terminado. De este modo, el equipo se queda con una sensación de cierre y se evita que alguien más acceda a información obsoleta. Podrá usar el equipo para llevar a cabo los rituales de cierre, como análisis finales y resúmenes ejecutivos.
 
-Puede borrar los equipos que sabe que no necesita (por ejemplo, un equipo creado estrictamente para realizar pruebas o un equipo que contiene datos confidenciales). De hecho, los equipos se eliminan con una “eliminación temporal” que el departamento de TI puede revertir hasta en un máximo de 21 días (30 días para los Grupos de Office 365). El hecho de eliminar equipos no afecta a los chats ni al contenido que se haya conservado según las directivas de cumplimiento. Los canales también tienen una "eliminación temporal" y se pueden invertir hasta veintiún días después de la eliminación.
+Puede borrar los equipos que sabe que no necesita (por ejemplo, un equipo creado estrictamente para realizar pruebas o un equipo que contiene datos confidenciales). De hecho, los equipos se eliminan con una “eliminación temporal” que el departamento de TI puede revertir hasta en un máximo de 21 días (30 días para los Grupos de Microsoft 365). El hecho de eliminar equipos no afecta a los chats ni al contenido que se haya conservado según las directivas de cumplimiento. Los canales también tienen una "eliminación temporal" y se pueden invertir hasta veintiún días después de la eliminación.
 
 También se pueden usar las directivas de expiración y retención, además de las funcionalidades de archivado, para reducir la exposición de los equipos que ya no están activos o cuyos miembros han dejado la organización.
 

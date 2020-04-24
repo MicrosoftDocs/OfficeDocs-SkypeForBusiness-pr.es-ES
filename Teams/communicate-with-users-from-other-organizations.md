@@ -17,12 +17,12 @@ description: Infórmese sobre cómo comunicarse con usuarios de otras organizaci
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f7a18390841c6a62488c060b4279110a61dffb23
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fb22aeaef31d04a9d359bc43742c85b72bf12c97
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824928"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43785933"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Comunicación con usuarios de otras organizaciones en Microsoft Teams
 ======================================================
@@ -73,6 +73,7 @@ Si está listo para activar el acceso de invitado en su organización, comience 
 | Se puede bloquear a un usuario individual | No | Sí |
 | Se admiten @menciones | Sí<sup>4</sup> | Sí |
 | Realizar llamadas privadas | Sí | Sí |
+| Ver el número de teléfono de los participantes de la reunión por acceso telefónico | No | Sí |
 | Permitir vídeo IP | Sí | Sí |
 | Modo de uso compartido de pantalla | Sí<sup>4</sup> | Sí |
 | Se permite Reunirse ahora | No | Sí |

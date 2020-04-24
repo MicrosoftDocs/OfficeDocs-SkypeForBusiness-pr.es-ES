@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c2ef9f509f64e044567d9286704458b4dc91596
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: d47a14dd84a1ccbe73d07ea3cbd638b5ed6159db
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229905"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776625"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Conectores, bots y aplicaciones en Microsoft Teams
 
@@ -62,20 +62,20 @@ Los usuarios tienen que dar su consentimiento a las aplicaciones y el administra
 
 ### <a name="bots-for-private-chats-and-channels"></a>Bots para conversaciones privadas y canales
 
-Los bots son programas automatizados que responden a las consultas o dan actualizaciones y notificaciones sobre detalles que puedan resultar interesantes para los usuarios o sobre los que quieran mantenerse informados. Los bots permiten a los usuarios interactuar con los servicios de nube, como la administración de tareas, la programación y los sondeos, en un chat de Teams. Teams admite bots en los canales y conversaciones privadas. Los administradores pueden controlar si se permite el uso de bots en un inquilino de Office 365.
+Los bots son programas automatizados que responden a las consultas o dan actualizaciones y notificaciones sobre detalles que puedan resultar interesantes para los usuarios o sobre los que quieran mantenerse informados. Los bots permiten a los usuarios interactuar con los servicios de nube, como la administración de tareas, la programación y los sondeos, en un chat de Teams. Teams admite bots en los canales y conversaciones privadas. Los administradores pueden controlar si se permite el uso de bots en una organización de Office 365.
 
-| Pregúntese lo siguiente: | Acción |
+| Pregúntese lo siguiente: | Action |
 |--------------|--------|
-|¿Me interesa permitir bots personalizados en mi inquilino de Office 365?|Para obtener más información sobre cómo agregar bots, vea [Agregar bots para chats privados y canales en Microsoft Teams](add-bots.md). Para obtener información sobre cómo activar o desactivar los bots personalizados, consulte [Configuración de administrador de aplicaciones en Microsoft Teams](admin-settings.md).|
+|¿Me interesa permitir bots personalizados en mi organización de Office 365?|Para obtener más información sobre cómo agregar bots, vea [Agregar bots para chats privados y canales en Microsoft Teams](add-bots.md). Para obtener información sobre cómo activar o desactivar los bots personalizados, consulte [Configuración de administrador de aplicaciones en Microsoft Teams](admin-settings.md).|
 |||
 
 ### <a name="built-in-and-custom-tabs"></a>Pestañas personalizadas e integradas
 
 Los propietarios y los miembros del equipo pueden agregar pestañas adicionales a cada canal para integrar mejor sus servicios en la nube. Agregue pestañas para ayudar a los usuarios a acceder y administrar los datos que más necesitan o usan. En los canales, las pestañas de Conversaciones y Archivos se crean de forma predeterminada. En cada chat privado, las pestañas de Conversaciones, Archivos, Organización y Actividad se crean de forma predeterminada. Además de estas pestañas integradas, puede diseñar y agregar pestañas personalizadas. Para obtener información sobre cómo activar o desactivar las aplicaciones de Teams en su organización, lea [Configuración de administrador de aplicaciones en Teams](admin-settings.md).
 
-| Pregúntese lo siguiente: | Acción |
+| Pregúntese lo siguiente: | Action |
 |--------------|--------|
-|¿Me interesa permitir pestañas personalizadas en mi inquilino de Office 365?|Para obtener más información, vea [Usar fichas integradas y personalizadas en Teams](built-in-custom-tabs.md).|
+|¿Me interesa permitir pestañas personalizadas en mi organización de Office 365?|Para obtener más información, vea [Usar fichas integradas y personalizadas en Teams](built-in-custom-tabs.md).|
 |||
 
 ### <a name="office-365-and-custom-connectors"></a>Conectores de Office 365 y personalizados
