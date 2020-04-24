@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga más información sobre los factores que debe tener en cuenta antes de configurar eventos en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4a7f60a199a342d69311467bffbc4607854a719
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: aabd94e8a5c4904f0343e2c8ccb647d632f3fa21
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43752367"
+ms.locfileid: "43779969"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -86,7 +86,7 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 |Tamaño máximo de audiencia |10 000 asistentes |10 000 asistentes<sup>1</sup> |10 000 asistentes<sup>1</sup> |
 |Duración máxima del evento en directo |4 horas |4 horas |4 horas |
 |Cantidad máxima de moderadores y productores en un evento en directo |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|Cantidad máxima de eventos simultáneos en vivo por cada inquilino de Office 365 |15  | 15  | 15  |
+|Notas de la versión para las versiones de las Aplicaciones de Microsoft 365 |15  | 15  | 15  |
 |Creación de eventos en directo |   Portal de Difusión de reunión de Skype |Teams, Yammer a través de Teams | Teams, Yammer a través de Teams, Stream |
 |Compromiso de audiencia: Yammer |&#x2714; |&#x2714; (experiencia integrada) |&#x2714; (experiencia integrada) |
 |Negociación de audiencia: moderado por P y R |&#x2714;  |&#x2714; |&#x2714; |
@@ -117,7 +117,7 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 Puede usar los eventos en directo de Teams en varias regiones a través de todo el mundo. La siguiente información muestra la disponibilidad de los miembros del equipo y los asistentes al evento.
 
 > [!IMPORTANT]
-> La región del evento se selecciona automáticamente según el organizador y la organización de Office 365.
+> La región del evento se selecciona automáticamente según el organizador y según se trate de Office 365 o Microsoft 365.
 
 **Disponible en estas regiones**
 
