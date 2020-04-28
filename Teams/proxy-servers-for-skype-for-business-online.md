@@ -1,5 +1,5 @@
 ---
-title: Servidores proxy para equipos o Skype empresarial online
+title: Servidores proxy para Skype Empresarial Online o Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,15 +20,16 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Este artículo proporciona información sobre el uso de un servidor proxy con Teams o Skype empresarial.
-ms.openlocfilehash: ca81c32064406af0e5bc3d614566a96ec5646a91
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+- seo-marvel-apr2020
+description: Este artículo proporciona información sobre el uso de un servidor proxy con Microsoft Teams o Skype empresarial.
+ms.openlocfilehash: 5a0d35ee2b8c95c4dea30886497e184f57077264
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863191"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905682"
 ---
-# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Servidores proxy para equipos o Skype empresarial online
+# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Servidores proxy para Skype Empresarial Online o Teams
 
 Este artículo proporciona instrucciones sobre cómo usar un servidor proxy con Teams o Skype empresarial.
   

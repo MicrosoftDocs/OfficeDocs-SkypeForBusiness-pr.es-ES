@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 audience: admin
-description: Aprenda a usar el planificador de redes para determinar los requisitos de red para Microsoft Teams.
+description: Administrador puede aprender a usar el planificador de redes para determinar los requisitos de red de Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -18,14 +18,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.networkplanner.overview
 - ms.teamsadmincenter.networkplanner.personas
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e27979bc4f440fee58f97ffb647cdd5465fb326
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4a4676349dab9c7b587e63dcc9a538c9f0b43a80
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832710"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904802"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Usar el planificador de red para Microsoft Teams
 

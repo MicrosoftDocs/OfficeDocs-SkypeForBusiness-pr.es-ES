@@ -15,15 +15,17 @@ localization_priority: Priority
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38960039c34c8fae0838b07ebea5b9581b63c297
-ms.sourcegitcommit: c70778ea3a29834f62e6ef96053b5540803acc6a
+ms.openlocfilehash: 6007bb8171073149d34ec56645711781b50f3285
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153301"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905172"
 ---
 <div id="main" class="v2">
     <div class="container">

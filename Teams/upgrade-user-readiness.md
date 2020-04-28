@@ -7,25 +7,25 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: Planear la comunicación con los usuarios, el aprendizaje y el soporte técnico durante la fase piloto, la incorporación y la actualización a teams
+description: Planee comunicarse, formar y dar soporte a los usuarios a medida que habla, incorpora y actualiza a Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
 - Teams-upgrade-guidance
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5519646aab3f1fbd14a2ee643313e50f9fbc678c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b751ec6d14e5d137bb9dfdb3e4c6e9664137cda4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136650"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905332"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>Preparar un plan de preparación del usuario
 

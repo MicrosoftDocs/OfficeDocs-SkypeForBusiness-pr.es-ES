@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo llevar las aplicaciones personalizadas de su equipo del desarrollo a la implementación.
-ms.openlocfilehash: f8c5a7dcc12bc9b3823285138d15a0ccdf11c52a
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: dd34b96a40affc2ffd7e5ddeb6a118a122831296
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229940"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904952"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>Administrar las aplicaciones de línea de negocio en Microsoft Teams
 
@@ -126,6 +126,20 @@ De forma predeterminada, para que los usuarios encuentren esta aplicación, debe
 Para actualizar una aplicación, los desarrolladores deben seguir los [pasos 1](#step-1-develop-and-test) y [2](#step-2-validate-in-production).
 
 Puede actualizar la aplicación a través del catálogo de aplicaciones de inquilino. Para ello, en el centro de administración de Microsoft Teams, vaya a **aplicaciones** > de Teams**Manage apps**. En la lista de aplicaciones, haga clic en el nombre de la aplicación y, a continuación, en **Actualizar**. De esta manera, se reemplaza la aplicación existente en el catálogo de aplicaciones de inquilino y todas las directivas de permisos de aplicaciones y directivas de configuración de la aplicación siguen aplicándose para la aplicación actualizada.
+
+### <a name="end-user-update-experience"></a>Experiencia de actualización de usuario final
+
+En la mayoría de los casos, después de completar una actualización de la aplicación, la nueva versión aparecerá automáticamente para los usuarios finales. Sin embargo, hay algunas actualizaciones del <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">manifiesto de Microsoft Teams</a> que requieren la aceptación del usuario:
+
+* se ha agregado o eliminado un bot
+* ha cambiado la propiedad "botId" de un bot existente
+* ha cambiado la propiedad "isNotificationOnly" de un bot existente
+* la propiedad "supportsFiles" del bot ha cambiado
+* se ha agregado o eliminado una extensión de mensajería
+* se agregó un nuevo conector
+* se ha agregado una nueva pestaña estática
+* se ha agregado una nueva pestaña configurable
+* las propiedades de "webApplicationInfo" han cambiado
 
 ## <a name="related-apps"></a>Aplicaciones relacionadas
 

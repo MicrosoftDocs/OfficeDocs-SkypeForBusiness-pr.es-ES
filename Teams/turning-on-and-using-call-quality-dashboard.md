@@ -22,13 +22,14 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 'Consulta cómo activar y usar el panel de calidad de llamadas y obtener informes de Resumen de la calidad de las llamadas. '
-ms.openlocfilehash: 52bf3856ad5c737143d179525e5c2870748f3b46
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Más información sobre cómo activar y usar el panel de calidad de llamadas y obtener informes de Resumen de la calidad de las llamadas.
+ms.openlocfilehash: bfb67c6246581513d06ad4489ab8c3b534ad04d4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43788979"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914071"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y usar el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online
 
@@ -409,11 +410,11 @@ EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, Endpoin
 
 Si ha creado informes o ha cargado los archivos de datos de inquilino (asignación) en el CQD para Skypehttps://cqd.lync.com) empresarial (y quiere migrarlos al CQD para Teamshttps://cqd.teams.microsoft.com)() de la siguiente manera:
 
-1.  Vaya al [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) conjunto de informes que desee exportar y búsquelo. 
-2.  Mantenga el mouse sobre el informe y, en la "..." menú, elija **exportar árbol de informes**. Guarde el archivo de exportación.
-3.  Vaya a [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) la ubicación donde desea importar los informes y búsquelo.
-4.  Desde los vínculos de la izquierda, haga clic en **importar** y seleccione el archivo exportado. 
-5.  Después de importar los informes, verá este mensaje: "la importación del informe se realizó correctamente. El nuevo informe se ha agregado al final del conjunto de informes. 
+1.    Vaya al [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) conjunto de informes que desee exportar y búsquelo. 
+2.    Mantenga el mouse sobre el informe y, en la "..." menú, elija **exportar árbol de informes**. Guarde el archivo de exportación.
+3.    Vaya a [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) la ubicación donde desea importar los informes y búsquelo.
+4.    Desde los vínculos de la izquierda, haga clic en **importar** y seleccione el archivo exportado. 
+5.    Después de importar los informes, verá este mensaje: "la importación del informe se realizó correctamente. El nuevo informe se ha agregado al final del conjunto de informes. 
 
 
 ## <a name="create-custom-detailed-reports"></a>Crear informes detallados personalizados

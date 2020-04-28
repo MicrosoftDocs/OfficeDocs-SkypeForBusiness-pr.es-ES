@@ -16,18 +16,19 @@ ms.collection:
 description: Obtenga información sobre cómo usar el informe actividad de usuarios de Teams en el centro de administración de Microsoft Teams para ver cómo los usuarios de su organización usan Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2e6d747afdf5dc5d381c11c83521e8a56ee38fe
-ms.sourcegitcommit: f4beced1a74d123253e166c7d402c1f24653d452
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9516c7ed39a56e09bb714f58e988dc46b41ec9e2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528435"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903875"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Informe de actividad de usuario de Microsoft Teams
 
 El informe actividad de usuarios de Teams le proporciona información sobre los tipos de actividades que los usuarios de su organización realizan en Teams. Por ejemplo, puede ver cuántos usuarios se comunican a través de las llamadas de 1:1, cuántos usuarios se comunican a través de los mensajes de canal y cuántos usuarios participan en los mensajes instantáneos.
 
-## <a name="view-the-report"></a>Ver el informe
+## <a name="view-the-user-activity-report"></a>Ver el informe de actividad del usuario
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en > **informes de uso**de **informes &**. En la pestaña **ver informes** , en **Informe**, seleccione **actividad de usuario de Teams**.
 2. En **Intervalo de fechas**, seleccione un rango y haga clic en **Ejecutar informe**.

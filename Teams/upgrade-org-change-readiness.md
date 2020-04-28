@@ -7,23 +7,25 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Asegurarse de que la organización y los usuarios están listos para Microsoft Teams
+description: Obtenga información sobre cómo evaluar la disponibilidad de su organización para realizar correctamente la transición al entorno de Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 888e56561e4e6f4a521a0e1730fe3c9ea6adff82
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: a9cfb5c1982d6cfa031db447ed07543edf3a2a3e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706940"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904445"
 ---
 # <a name="assess-organizational-change-readiness"></a>Evaluar si la organización está preparada para el cambio
 
@@ -53,7 +55,7 @@ Una vez que haya asegurado el equipo del proyecto y haya definido su visión, al
 
 Al evaluar la disponibilidad de su organización, puede determinar la forma en la que los usuarios pueden ser receptivos (o no), de modo que es probable que los usuarios cambien la forma en que trabajan y adoptan la nueva tecnología. Comprender cómo los usuarios reaccionan ante los cambios faculta a su organización para que solucione los problemas de manera proactiva, ajuste su plan de implementación para obtener un nivel de acceso óptimo e identifique a los usuarios que realmente le pueden ayudar a facilitar el cambio con sus colegas.
 
-### <a name="activity"></a>Actividades
+### <a name="activity"></a>Actividad
 
 Use los siguientes iniciadores de conversación para realizar una evaluación de la preparación de la organización y documentar la cultura de su organización cuando se trate de cambiar. Esta información puede ayudar a informar sobre el conocimiento y la formación que puede necesitar implementar para el proyecto. No te preocupes por números exactos. Este ejercicio representa una comprensión general de la cultura de la organización. Si necesita ayuda para comenzar, simplemente evalúe una implementación pasada; Esto puede ayudarle a prever la forma en que los usuarios pueden reaccionar para cambiar y ayudarle a proactivar las reacciones que espera.
 

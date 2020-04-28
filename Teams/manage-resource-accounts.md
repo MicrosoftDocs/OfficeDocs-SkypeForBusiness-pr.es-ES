@@ -18,13 +18,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
-description: Más información sobre la administración de cuentas de recursos en Microsoft Teams
-ms.openlocfilehash: 9de381c1ba338c9ffc51153ac0fa1296ccb3f4a0
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+- seo-marvel-apr2020
+description: En este artículo, aprenderá a crear, editar y administrar cuentas de recursos en Microsoft Teams.
+ms.openlocfilehash: 07f6f15f3ed3fc1e115ae672ef1eac89b5eab12f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43750007"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905012"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -37,7 +38,7 @@ En Microsoft Teams o Skype empresarial online, cada cola de llamadas de sistema 
 > [!NOTE]
 > Este artículo se aplica a Microsoft Teams y a Skype empresarial online. Para cuentas de recursos alojados en Skype empresarial Server 2019, consulte [configurar cuentas de recursos](/SkypeForBusiness/hybrid/configure-onprem-ra).
 
-## <a name="overview"></a>Información general
+## <a name="assign-a-phone-number-to-a-phone-system-call-queue"></a>Asignar un número de teléfono a una cola de llamadas de sistema
 
 Si su organización ya usa al menos una licencia de sistema telefónico, para asignar un número de teléfono a una cola de llamadas de sistema, el proceso es el siguiente:
 

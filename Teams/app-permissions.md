@@ -12,18 +12,19 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: Vea qué datos y permisos están solicitando las aplicaciones de su organización.
+description: Administrador puede saber qué datos y permisos solicitan las aplicaciones de Microsoft Teams de su organización.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d7548d4d162310bc239c752e2bce38e725008f9
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 0f17ed779415c1dfaa731d13839d02ca971d46f1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845231"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904595"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Consideraciones y permisos de las aplicaciones de Microsoft Teams
 
@@ -41,7 +42,7 @@ Los permisos que se indican a continuación en mayúscula (por ejemplo, RECEIVE_
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Use las tablas siguientes como guía para comprender qué permisos solicitan las aplicaciones que está investigando.</li></ul> |
+| ![Un icono que representa un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Use las tablas siguientes como guía para comprender qué permisos solicitan las aplicaciones que está investigando.</li></ul> |
 | ![Un icono que representa el siguiente paso](media/audio_conferencing_image9.png)<br/>Paso siguiente|<ul><li>Investigue la aplicación o el servicio para decidir si desea permitir el acceso a él dentro de su organización. Por ejemplo, los bots envían y reciben mensajes de los usuarios y, excepto los bots de línea de negocios empresariales, se encuentran fuera del límite de cumplimiento. Por lo tanto, cualquier aplicación que incluya un bot necesitará esos permisos y tendrá ese perfil de riesgo, como mínimo. </li></ul>|
 
 ## <a name="global-app-permissions-and-considerations"></a>Permisos de aplicación global y consideraciones
@@ -135,9 +136,9 @@ Ninguno (actualmente)
 
 - El perfil de riesgo para una pestaña es casi idéntico al mismo sitio web que se ejecuta en una pestaña del explorador. 
 
-- Una pestaña también obtiene el contexto en el que se está ejecutando, incluido el nombre de inicio de sesión y el UPN del usuario actual, el identificador de objeto de Azure AD para el usuario actual, el identificador del grupo de Office 365 en el que reside (si es un equipo), el identificador de inquilino y la configuración regional actual del usuario. Sin embargo, para asignar estos identificadores a la información de un usuario, la pestaña tendría que hacer que el usuario inicie sesión en Azure AD.
+- Una pestaña también obtiene el contexto en el que se ejecuta, incluido el nombre de inicio de sesión y el UPN del usuario actual, el identificador de objeto de Azure AD para el usuario actual, el identificador del grupo de Office 365 en el que reside (si es un equipo), el identificador de inquilino y la configuración regional actual del usuario. Sin embargo, para asignar estos identificadores a la información de un usuario, la pestaña tendría que hacer que el usuario inicie sesión en Azure AD.
 
-## <a name="connectors"></a>Los
+## <a name="connectors"></a>Conectores
 
 Un conector envía mensajes a un canal cuando se producen eventos en un sistema externo.
 

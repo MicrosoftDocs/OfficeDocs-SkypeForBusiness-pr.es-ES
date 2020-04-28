@@ -10,19 +10,20 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: bjwhalen
 search.appverid: MET150
-description: Este artículo le ayudará a elegir el modo de coexistencia y establecer otra configuración de coexistencia.
+description: Obtenga más información sobre cómo configurar la coexistencia y la configuración de actualización para todos los usuarios de la organización a la vez, o para un único o un conjunto de usuarios de su organización.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8cf8b0400ae924924d73394be0ca4deabcdeb9e
-ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
+ms.openlocfilehash: 245e22c9a5deb518617ff547c4cc2f590d9ea1e6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43579616"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905562"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Configurar su coexistencia y la configuración de actualización
 

@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
-description: La apariencia de la línea compartida permite que el usuario elija un delegado para responder o controlar las llamadas en su nombre.
-ms.openlocfilehash: bb6728de67d1bf29a5e00ed9b62d8957391dd8ba
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: Obtenga más información sobre cómo enviar a los usuarios un correo electrónico con la información de las audioconferencias en Microsoft Teams.
+ms.openlocfilehash: 52f4257d5e5603c0f7ed812d5ab677a18ed47fb9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837970"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905552"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Apariencia de línea compartida en Microsoft Teams
 
@@ -56,7 +57,7 @@ El administrador de inquilinos también puede configurar las relaciones de deleg
 
 La apariencia de línea compartida es compatible actualmente con las siguientes aplicaciones y dispositivos.
 
-| Capacidades | Equipo de escritorio | Aplicación de equipos Mac | Teams Web App (Edge) |Teams Mobile iOS/aplicación para Android | Teléfono IP de Teams |
+| Función | Equipo de escritorio | Aplicación de equipos Mac | Teams Web App (Edge) |Teams Mobile iOS/aplicación para Android | Teléfono IP de Teams |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
 | Configurar delegación | Sí  | Sí  | Sí | No | No |
 | Recibir llamadas en nombre de otro | Sí  | Sí  | Sí  | Sí  | Sí |

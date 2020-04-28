@@ -11,17 +11,18 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Configurar una directiva de reuniones para permitir que los usuarios compartan los escritorios en Teams de chats o reuniones
+description: Aprenda a configurar una directiva de reunión para permitir que los usuarios compartan sus escritorios en chats o reuniones de Teams.
 ms.collection:
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 366aaeb4f48670ae04d4b53d21196ef2d9e81fb4
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 955a642d2a2309ccbaf9f9d6280170a93a9179ae
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825548"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905902"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configure el uso compartido del escritorio en Microsoft Teams
 ============================================
@@ -52,8 +53,8 @@ Para configurar el uso compartido de la pantalla, debe crear una nueva Directiva
 
 5. Activar o desactivar la siguiente configuración:
 
-    - **Permitir un participante que de o** solicite un control: permite a los miembros del equipo dar control de la aplicación o el escritorio del presentador.
-    - **Permitir a un participante dar o** solicitar un control: permite a los miembros del equipo dar control de la aplicación o el escritorio del moderador.
+    - **Permitir que un participante pueda ceder o solicitar el control** : permite a los miembros del equipo ceder o solicitar el control del escritorio o de la aplicación del moderador.
+    - **Permitir que un participante externo pueda ceder o solicitar el control** : permite a los invitados y a los usuarios externos (federados) ceder o solicitar el control del escritorio o de la aplicación del moderador.
     - **Permitir el uso compartido de PowerPoint**: permite a los usuarios crear reuniones que permiten cargar y compartir presentaciones de PowerPoint.
     - **Permitir pizarra**: permite a los usuarios compartir una pizarra.
     - **Permitir notas compartidas**: permite a los usuarios tomar notas compartidas.

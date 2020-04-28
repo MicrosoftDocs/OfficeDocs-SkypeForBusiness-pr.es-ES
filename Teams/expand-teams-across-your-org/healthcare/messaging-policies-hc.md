@@ -16,20 +16,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Introducción a la mensajería segura para las organizaciones sanitarias
+description: Aprenda a personalizar una directiva de mensajería segura que pueda incluir confirmaciones de lectura y notificaciones prioritarias.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2b431eb28d2f475bc8abdf6ac05db760200d40e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 95a4d258f35827d4ad30ee1e6b2938e6331efcc2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136990"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905532"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introducción a la mensajería segura para las organizaciones sanitarias
 
 Las directivas de mensajería se usan para controlar qué características de mensajería instantánea y mensajería están disponibles para los usuarios en Microsoft Teams, y forman parte de la implementación general de mensajería segura para organizaciones de cuidados de la salud, como hospitales, clínicas o oficinas de médicos, en las que es esencial tener un mensaje que se haya seleccionado y se pueda actuar de manera oportuna, como saber cuándo se leen mensajes fundamentales
 
-Puede usar la directiva global (opción predeterminada para toda la organización) o crear una o más directivas de mensajería personalizadas para los usuarios de su organización. Los usuarios de la organización obtendrán automáticamente la directiva global a menos que cree y asigne una directiva personalizada. Después de crear una directiva personalizada, asígnela a un usuario o a un grupo de usuarios de la organización. Por ejemplo, puede optar por permitir que determinados roles de trabajo utilicen estas características (tal vez solo para médicos y enfermeras) y otros trabajadores (como el personal de la cocina o el JANITORIAL) para obtener un conjunto más limitado de características. Decidir usted mismo qué necesidades tiene su organización, esta guía es como más una sugerencia.
+Puede usar la directiva global (opción predeterminada para toda la organización) o crear una o más directivas de mensajería personalizadas para los usuarios de su organización. Los usuarios de su organización obtendrán automáticamente la directiva global, a menos que cree y asigne una directiva personalizada. Después de crear una directiva personalizada, asígnela a un usuario o a un grupo de usuarios de la organización. Por ejemplo, puede optar por permitir que determinados roles de trabajo utilicen estas características (tal vez solo para médicos y enfermeras) y otros trabajadores (como el personal de la cocina o el JANITORIAL) para obtener un conjunto más limitado de características. Decidir usted mismo qué necesidades tiene su organización, esta guía es como más una sugerencia.
 
 Las directivas se pueden administrar fácilmente en el [centro de administración de Microsoft Teams](https://admin.teams.microsoft.com) iniciando sesión con credenciales de administrador y eligiendo **directivas de mensajería** en el panel de navegación izquierdo.
 

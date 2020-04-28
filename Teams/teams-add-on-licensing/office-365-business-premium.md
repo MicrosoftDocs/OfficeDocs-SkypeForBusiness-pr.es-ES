@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft 365 Business Standard '
+title: 'Microsoft 365 Empresa Estándar '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,15 +18,16 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Obtenga más información sobre las licencias de complementos, las características y cómo comprar planes de Microsoft 365 Business Standard. '
-ms.openlocfilehash: 20aacf46acf60bb581056654babc85277f41ee45
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Obtenga más información sobre las licencias de complementos, sus características y cómo comprar estas licencias para los planes de Microsoft 365 Business Standard.
+ms.openlocfilehash: 136dbf60f728d4c4455c466dd8a8a02376e20f1f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780509"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904615"
 ---
-# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Standard
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 Empresa Estándar
 
 Si tiene [microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium), puede usar Microsoft Teams para hacer llamadas a otras personas de su empresa que estén en su plan. Por ejemplo, si su empresa tiene 10 personas, puede usar Teams para llamar y enviar mensajes instantáneos entre sí.
 

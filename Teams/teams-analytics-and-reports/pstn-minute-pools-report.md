@@ -16,19 +16,19 @@ MS.collection:
 description: Cómo usar el informe de grupos de minutos RTC de Teams en el centro de administración de Microsoft Teams para ver los minutos consumidos dentro de la organización durante el mes en curso.
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5f44d8a48dc01b8d2cdbce9dd164d5b2440c24d8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d00e6f76258caad7899ddd589e037718928741e0
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140671"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904902"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Informe de grupos de minutos RTC de Microsoft Teams
 
 El informe grupos de grupos de minutos RTC en el centro de administración de Microsoft Teams le ofrece información general sobre la actividad de llamadas y videollamadas de su organización mostrándole la cantidad de minutos consumidos durante el mes en curso. Puede ver un desglose de actividad como la licencia que se usa para las llamadas, los minutos totales disponibles, los minutos usados y el uso de licencias por ubicación.
 
-## <a name="view-the-report"></a>Ver el informe
+## <a name="view-the-pstn-minute-pools-report"></a>Ver el informe de grupos de minutos RTC
 
 En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en > **informes de uso**de **informes &**. En la pestaña **ver informes** , en **Informe**, seleccione **grupos de minutos RTC**y, a continuación, haga clic en **Ejecutar Informe**.
 

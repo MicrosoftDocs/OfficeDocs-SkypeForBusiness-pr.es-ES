@@ -13,15 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Configurar las llamadas de emergencia dinámicas
+description: Aprenda a configurar el enrutamiento directo de las llamadas de Microsoft y el sistema telefónico de la característica de llamadas de emergencia dinámicas.
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b22c6cec20e42ac33b15c53a49477b36a35fbe9
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 92862eb960722ac2becbe216cdec5281282106b5
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417595"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905892"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -96,7 +97,7 @@ Para obtener más información sobre cómo configurar las direcciones de emergen
 
 La configuración de red se usa para determinar la ubicación de un cliente de equipos y para obtener dinámicamente las directivas de llamadas de emergencia y una ubicación de emergencia. Puede configurar la configuración de red según el modo en que su organización desea que las llamadas de emergencia funcionen.
 
-La configuración de red incluye sitios que incluyen una colección de subredes, que se usan exclusivamente para la asignación de directivas dinámicas a los usuarios.  Por ejemplo, se puede asignar una directiva de TeamsEmergencyCalling y una directiva de TeamsEmergencyCallRouting al "sitio de Redmond" para que todos los usuarios que se transfieren desde casa u otra ubicación de Microsoft estén configurados con números de emergencia, enrutamiento y escritorio de seguridad. específico para Redmond.  
+La configuración de red incluye sitios que incluyen una colección de subredes, que se usan exclusivamente para la asignación de directivas dinámicas a los usuarios.  Por ejemplo, se puede asignar una directiva de TeamsEmergencyCalling y una directiva de TeamsEmergencyCallRouting al "sitio de Redmond" para que todos los usuarios que se desplazan desde casa u otra ubicación de Microsoft estén configurados con números de emergencia, enrutamiento y seguridad específicos para Redmond.  
 
 >[!Note]
 >Las subredes también pueden definirse en LIS y asociarse a una ubicación de emergencia.  

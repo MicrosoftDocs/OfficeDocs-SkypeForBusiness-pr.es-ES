@@ -2,7 +2,8 @@
 title: Comprender las llamadas en Microsoft Teams
 metadata:
   title: Comprender las llamadas en Microsoft Teams
-  description: Tutorial interactivo le guiará a través de la comprensión y activación de las llamadas en Microsoft Teams.
+  description: Use este tutorial interactivo para comprender las llamadas en Microsoft Teams y cómo activar la característica de llamadas.
+  ms.custom: seo-marvel-apr2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -16,12 +17,12 @@ metadata:
   - M365-voice
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3f5e7c29ee676fa0b9defa907524c60b45a34fe9
-  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+  ms.openlocfilehash: 3df03c8d388cc03f60c2fc6d50847e6330d30bb6
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43778516"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43902395"
 items:
 - durationInMinutes: 1
   content: >

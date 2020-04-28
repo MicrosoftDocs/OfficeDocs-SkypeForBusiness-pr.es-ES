@@ -16,14 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Obtenga más información sobre la integración de registros de asistencia electrónica en Microsoft Teams con las API de FHIR sobre un sistema de información de medicina para conectarse a Microsoft Teams.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bbd239c34c6fd4cd5838b2ba57c7160448f38497
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Obtenga información sobre cómo integrar registros de asistencia electrónica en la aplicación de pacientes de Microsoft Teams con las API de FHIR.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2af20b0c95f85d00269ac34b0768e4118793879b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141213"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905522"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Integración de registros sanitarios electrónicos en Microsoft Teams
 

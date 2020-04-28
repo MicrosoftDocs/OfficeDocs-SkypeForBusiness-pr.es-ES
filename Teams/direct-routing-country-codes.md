@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Lea este artículo para ubicar los códigos de países de la ruta de medios para el enrutamiento directo.
-ms.openlocfilehash: 4d3e19ceeab48e7ade6ffa9b51bff68f38613426
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: Lea este artículo para ubicar los códigos de países de la ruta de medios para el enrutamiento directo para que pueda seleccionar la ruta óptima de medios.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 69265e797b256186f714e2cd4dcefcb3751c05ee
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836100"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904812"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Códigos de países de ruta de medios de enrutamiento directo
 
@@ -147,7 +148,7 @@ En la tabla siguiente se muestran los valores del código de país para el pará
 | India           | POR |
 | Indonesia       | ID |
 | Irán            | MANDO |
-| Iraq            | IQ |
+| Irak            | IQ |
 | Irlanda         | IE |
 | Isla de Man     | MI |
 | Israel          | IL |
@@ -157,7 +158,7 @@ En la tabla siguiente se muestran los valores del código de país para el pará
 | Japón           | JP |
 | Jersey          | DIARIO |
 | Jordania          | FE |
-| Kazajstán      | KZ |
+| Kazajistán      | KZ |
 | Kenia           | KE |
 | Kiribati        | KI |
 | Corea           | KR |
@@ -175,10 +176,10 @@ En la tabla siguiente se muestran los valores del código de país para el pará
 | Luxemburgo      | LU |
 | RAE de Macao       | LUN |
 | Madagascar      | MG |
-| Malawi          | PM |
+| Malaui          | PM |
 | Malasia        | MY |
 | Maldivas        | MV |
-| Malí            | LINGÜE |
+| Mali            | LINGÜE |
 | Malta           | MT |
 | Islas Marshall | MH |
 | Martinica      | MÁGICO |
@@ -213,7 +214,7 @@ En la tabla siguiente se muestran los valores del código de país para el pará
 | Omán            | OM |
 | Pakistán        | CLAVES |
 | Palaos           | PAN |
-| Autoridad Palestina | PCL |
+| Autoridad Nacional Palestina | PCL |
 | Panamá          | PA |
 | Papúa Nueva Guinea | PG |
 | Paraguay        | PY |
@@ -223,9 +224,9 @@ En la tabla siguiente se muestran los valores del código de país para el pará
 | Polonia          | PL |
 | Portugal        | PT |
 | Puerto Rico     | RR |
-| Qatar           | QA |
+| Catar           | QA |
 | Reunión         | Volviendo |
-| Rumanía         | RO |
+| Rumania         | RO |
 | Rusia          | RU |
 | Ruanda          | RW |
 | Saba            | Prime |
@@ -252,7 +253,7 @@ En la tabla siguiente se muestran los valores del código de país para el pará
 | Somalia0         | PUES |
 | Sudáfrica    | ZA |
 | Georgia del Sur e islas Sandwich del sur | G |
-| Sudán del sur     | SS |
+| Sudán del Sur     | SS |
 | España           | ES |
 | Sri Lanka       | LK |
 | Santa Elena, ascensión, Tristán da Cunha | AP |

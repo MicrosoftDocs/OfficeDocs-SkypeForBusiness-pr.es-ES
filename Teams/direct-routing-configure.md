@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Aprenda a configurar el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: b596e5acb0002ad90f5c0298b56973f2490ad2e6
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+description: Aprenda a configurar el enrutamiento directo de Microsoft Phone System para conectar su infraestructura de telefonía local con Microsoft Teams.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f12eb67fd63a3d1bbed3ddcd0c4fadce16529083
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170588"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904832"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -54,7 +55,7 @@ Para configurar Microsoft Phone System y permitir que los usuarios usen el enrut
 Si está configurando un SBC para varios inquilinos, también deberá leer [configurar un SBC para varios inquilinos](direct-routing-sbc-multiple-tenants.md).
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="related-topics"></a>Temas relacionados
 
 [Enrutamiento directo del Sistema telefónico](direct-routing-landing-page.md)
 

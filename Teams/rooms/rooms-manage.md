@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
-description: Información general de administración para salas de Microsoft Teams.
-ms.openlocfilehash: 3a56a03342ca0edb0da9dc9ed3a4cada77816bc7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Obtenga más información sobre cómo desarrollar y ejecutar tareas y mantenimientos continuos para asegurarse de que los sistemas de salas de Microsoft Teams estén disponibles para sus usuarios.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6b63e42e1f3fa3d5540936d562aa913837103ed1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825888"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905372"
 ---
 # <a name="management-overview"></a>Introducción a la administración
 
@@ -38,7 +39,7 @@ Para asegurarse de que los usuarios pueden usar las unidades de salas de Microso
 
 La información sobre el estado de la aplicación salas de Microsoft Teams y los dispositivos periféricos conectados está escrita por la aplicación salas de Microsoft Teams en el registro de eventos de Windows y documentada en [comprender las entradas del registro](azure-monitor-manage.md#understand-the-log-entries). 
 
-|**Al**|**Posible**|
+|**Setting**|**Posible**|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (DWORD) 1  <br/> |Permite arrancar las salas de Microsoft Teams  <br/> |
 |Administración de energía\> : on AC, apagar la pantalla después de 10 minutos  <br/> Administración de energía\> : on AC, no poner el sistema en suspensión  <br/> |Permite que las salas de Microsoft Teams desactiven las pantallas adjuntas y se reactiven automáticamente.  <br/> |
@@ -56,7 +57,7 @@ Con esta guía, puede crear un panel fácil de usar para identificar cualquier p
 |    |     |
 |-----------|------------|
 |![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Confirme que va a usar Operations Management Suite para supervisar la implementación de las salas de Microsoft Teams.</li><li>Decida la lista de distribución de destino que usará para las alertas de correo electrónico.</li></ul>|
-|![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Definir el método de supervisión de la calidad y la fiabilidad.</li></ul>|
+|![](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Definir el método de supervisión de la calidad y la fiabilidad.</li></ul>|
 
 ## <a name="quality-and-reliability-monitoring-cqd"></a>Supervisión de la calidad y la confiabilidad (CQD)
 
@@ -86,10 +87,10 @@ Para obtener más información sobre la solución de problemas y el modo de admi
 
 [Ayuda de Salas de Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Plan para salas de Microsoft Teams](rooms-plan.md)
+[Plan para Salas de Microsoft Teams](rooms-plan.md)
 
-[Implementar salas de Microsoft Teams](rooms-deploy.md)
+[Implementar Salas de Microsoft Teams](rooms-deploy.md)
 
-[Configurar una consola de salas de Microsoft Teams](console.md)
+[Configurar una consola de sala de Microsoft Teams](console.md)
 
 [Administrar de forma remota la configuración de la consola de salas de Microsoft Teams con un archivo de configuración XML](xml-config-file.md)

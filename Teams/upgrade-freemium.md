@@ -8,23 +8,23 @@ ms.service: msteams
 ms.reviewer: ''
 audience: admin
 search.appverid: MET150
-description: Aprenda a actualizar la versión gratuita de Microsoft Teams
+description: Obtenga información sobre cómo actualizar fácilmente la versión gratuita de Microsoft Teams a la versión completa al comprar un plan de suscripción de Office 365 para sus usuarios.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a96bb03a511a776e2f7e4aded5cd79f66fe2106c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2c760285655d9bb2557fbf981c333e1019cef379
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780449"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904455"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>Actualizar Microsoft Teams gratis a la versión de suscripción
 ======================================================

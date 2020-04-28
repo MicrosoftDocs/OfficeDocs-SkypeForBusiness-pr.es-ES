@@ -1,5 +1,5 @@
 ---
-title: ¿Qué son los operadores automáticos de la nube?
+title: ¿Qué son los operadores automáticos en la nube?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,15 +22,16 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
-description: Aprenda Cuáles son los operadores automáticos de la nube y cómo usarlos.
-ms.openlocfilehash: d9f108acd4c1ebe3c275d79555145c6c92a78737
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: Obtenga información sobre los operadores automáticos de la nube y cómo usarlos para que los autores de llamadas puedan desplazarse por un sistema de menús para ubicar y transferir llamadas a usuarios o departamentos.
+ms.openlocfilehash: bfe142db0322757dd8fefe55c4de529168939126
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836670"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905142"
 ---
-# <a name="what-are-cloud-auto-attendants"></a>¿Qué son los operadores automáticos de la nube?
+# <a name="what-are-cloud-auto-attendants"></a>¿Qué son los operadores automáticos en la nube?
 
 El sistema telefónico en Office 365 proporciona operadores automáticos, que se pueden usar para que los autores de llamadas externos e internos se muevan a través de un sistema de menús para ubicar y realizar llamadas a usuarios o departamentos de su organización.
   
@@ -91,7 +92,7 @@ No hay ningún límite en el número de usuarios de Active Directory marcado por
 |Voz (entrada de voz) |FirstName  <br/> Apellidos  <br/> Nombre + Apellidos  <br/> Apellidos + Nombre  | 80.000 usuarios |
 
 > [!NOTE]
-> Si usa el marcado por nombre con reconocimiento de voz, pero el directorio activo de su organización es superior a 80.000 usuarios y no ha limitado el ámbito de marcado por nombre con la característica de ámbito de marcado, el marcado por nombre seguirá funcionando con las personas que llamen con el teclado del teléfono y las entradas de voz estarán disponibles para todos los demás escenarios. Puede usar la característica de ámbito de marcado para limitar los nombres que se pueden contactar cambiado el ámbito de Marcado por nombre de un operador automático determinado.
+> Si usa el marcado por nombre con reconocimiento de voz, pero el directorio activo de su organización es superior a 80.000 usuarios y no se ha limitado el ámbito de marcado por nombre con la característica de ámbito de marcado, el marcado por nombre seguirá funcionando con las personas que llamen con el teclado del teléfono, y las entradas de voz estarán disponibles para todos los demás escenarios. Puede usar la característica de ámbito de marcado para limitar los nombres que se pueden contactar cambiado el ámbito de Marcado por nombre de un operador automático determinado.
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>Marcado por nombre: entrada mediante teclado (DTMF)
 Las personas que llaman pueden usar el marcado por nombre para comunicarte con los usuarios especificando el nombre completo o parcial de la persona a la que están tratando de llegar. Hay varios formatos que pueden usarse cuando se escribe el nombre.

@@ -12,15 +12,16 @@ ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Cómo activar y administrar la grabación de reuniones en Microsoft Teams.
+description: Guía práctica para implementar las características de voz en la nube de Teams para grabar reuniones de Teams y llamadas grupales para capturar la actividad de audio, vídeo y pantalla compartida.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f358a0099da3f759e50f02b7bb7a5226069fcd28
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e38b7fcfdbe8789604716410beca3c5d76975c29
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780339"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905502"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -30,7 +31,7 @@ Relacionado: [Documentación de usuario final de grabación de reuniones de Team
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Requisitos previos para grabación de reuniones en la nube de Teams
 
-Para que se graben las reuniones de un usuario de Teams debe estar habilitarse Microsoft Stream para el espacio empresarial. Además, son necesarios los siguientes requisitos previos tanto para el organizador de la reunión como para la persona que inicia la grabación:
+Para que se graben las reuniones de los usuarios de un equipo, Microsoft Stream debe estar habilitado para el inquilino. Además, son necesarios los siguientes requisitos previos tanto para el organizador de la reunión como para la persona que inicia la grabación:
 
 - El usuario tiene Office 365 E1, E3, E5, a1, a3, A5, M365 Empresa, Empresa Premium o Empresa Essentials
 - El usuario debe tener una licencia para Microsoft Stream<sup>1</sup> 

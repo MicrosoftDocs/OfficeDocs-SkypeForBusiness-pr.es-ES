@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: En este artículo se describe cómo supervisar y solucionar problemas de la configuración de enrutamiento directo.
-ms.openlocfilehash: 5dcae4d734c146c92c0cda4ac988d6010f90cc6f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: Aprenda a supervisar y solucionar problemas de configuración de enrutamiento directo, incluidos los controladores de borde de sesión, los componentes de enrutamiento directo y los troncos de telecomunicaciones.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 52ab594b901606ccf7c3b43fc8484d989c248fcd
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836050"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901915"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Supervisar y solucionar problemas de enrutamiento directo
 

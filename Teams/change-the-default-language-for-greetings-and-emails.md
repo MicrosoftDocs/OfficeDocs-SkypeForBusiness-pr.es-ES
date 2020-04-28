@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo configurar Skype para empresas para usar otro idioma para el saludo del buzón de voz predeterminado de su organización.
-ms.openlocfilehash: 5cff20da14dac942527b8b667731c24a47f0cf29
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9941ba697300d7dd1426e278d8d42900621cf58a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780369"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904335"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Cambiar el idioma predeterminado en los saludos y los correos electrónicos
 
@@ -38,14 +38,14 @@ Si es un [administrador global](https://support.office.com/article/da585eea-f576
   
 - **Los idiomas disponibles dependen de la ubicación de su organización**. Por ejemplo, si su organización está en Estados Unidos, puede definir su idioma predeterminado como inglés o español. Si su organización está ubicada en Canadá, puede elegir entre inglés y francés. Para obtener una lista de los idiomas admitidos, consulte [Idiomas de los saludos y mensajes del correo de voz de Skype Empresarial](languages-for-voicemail-greetings-and-messages.md).
     
-- **No hay forma de cambiar el idioma del sistema para solo una persona de su organización.** Solo puede cambiar el idioma del saludo para todos los usuarios de la organización.
+- **Cambiar los idiomas para los mensajes de voz y el buzón de voz del usuario individual.** Puede cambiar la idioma preferida de los usuarios, lo que cambiará el idioma del saludo del buzón de voz y los mensajes de voz enviados a su buzón de Outlook. Para obtener instrucciones, consulte [cómo establecer la configuración de idioma y de región para Officehttps://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region)365] (. 
     
     > [!NOTE]
-    > Los usuarios pueden cambiar el idioma del saludo mediante su configuración después de iniciar sesión. 
+    > Los usuarios pueden cambiar su propio idioma de saludo a través de su configuración después de iniciar sesión siguiendo las instrucciones que se encuentran en [cambiar el idioma y la zona horaria para mostrar en Microsoft 365 para empresas](https://support.office.com/en-us/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US) .
   
 - **¿Desea grabar el mensaje del correo de voz saliente?** Consulte [Comprobar el correo de voz y las opciones de Skype Empresarial](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Para Microsoft Teams: los usuarios pueden cambiar la configuración del buzón de voz desde la [configuración del cliente de escritorio de Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
-- **¿Desea cambiar el idioma del mensaje del buzón de voz?** Para Skype empresarial: [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) y elige un nuevo idioma en el **idioma del mensaje**. Para Microsoft Teams: los usuarios pueden cambiar la configuración del buzón de voz desde la [configuración del cliente de escritorio de Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- **¿Desea cambiar el idioma del mensaje del buzón de voz?** Para Skype empresarial: [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) y elige un nuevo idioma en el **idioma del mensaje**. Para Microsoft Teams: los usuarios pueden cambiar el saludo del buzón de voz desde la [configuración del cliente de escritorio de Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Cambiar el idioma del sistema para todos los usuarios de la organización
 

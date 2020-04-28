@@ -16,12 +16,13 @@ MS.collection:
 description: Obtenga información sobre cómo usar el informe de uso de RTC de Teams en el centro de administración de Microsoft Teams para obtener información general sobre el uso de las llamadas y las conferencias de audio de su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c35699093168f5bb0443277f65da9a8060f27b69
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 411cf551697bd1fdd0902dc2d906e1c7752cd27d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778256"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904305"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Informe de uso de RTC de Microsoft Teams
 
@@ -29,7 +30,7 @@ El informe de uso de RTC de Teams en el centro de administración de Microsoft T
 
 La pestaña **planes de llamada** muestra la información que incluye el número de minutos que los usuarios han invertido en llamadas RTC entrantes y salientes, así como el costo de estas llamadas. La pestaña **enrutamiento directo** muestra información que incluye la dirección SIP y las horas de inicio y finalización de la llamada. Use la información de este informe para obtener información sobre el uso de RTC en su organización y ayudarle a investigar, planear y tomar decisiones empresariales.
 
-## <a name="view-the-report"></a>Ver el informe
+## <a name="view-the-pstn-usage-report"></a>Ver el informe de uso de RTC
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en > **informes de uso**de **informes &**. En la pestaña **ver informes** , en **Informe**, seleccione **Informe de uso de RTC**.
 2. En **intervalo de fechas**, seleccione un rango predefinido de 7 o 28 días, o establezca un rango personalizado y, a continuación, seleccione **Ejecutar Informe**.
@@ -79,10 +80,10 @@ Estos campos pueden provenir de las SBC (s) de los clientes. Hay tres formatos q
 
 El identificador de correlación compartido solo existe en el archivo de Excel exportado que se descarga e indica que hay dos o más llamadas relacionadas. A continuación, se explican los diferentes escenarios y cuándo está presente el identificador de correlación compartido.
 
-1.  Usuario de RTC 1 en un extremo de RTC denominado Teams User 1 en el cliente de Teams, llame a tipo Dr_In, Correlation ID 57f28917-42k5-4c0c-9433-79734873f2ac, sin identificador de correlación compartido.
-2.  Teams usuario 1 en el cliente de Teams denominado RTC usuario 1 en un extremo de RTC, tipo de llamada Dr_Out 2c12b8ca-62eb-4c48-b68d-e451f518ff4, sin identificador de correlación compartido.
-3.  Usuario de RTC 1 en un extremo de RTC denominado Teams User 2 en el cliente de Teams, llame a tipo Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9, Shared Correlation ID f45e9a25-9f94-46e7-a457-84f5940efde9.
-4.  Llamada existente 3 con identificación de correlación "f45e9a25-9f94-46e7-a457-84f5940efde9". Usuario de RTC 1 en una llamada con el usuario de Teams 2. Equipo: el usuario 2 ha transferido (ciego o consultivo) una llamada a teams o a un usuario de RTC, llamada tipo Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0, ID de correlación compartida f45e9a25-9f94-46e7-a457-84f5940efde9.
+1.    Usuario de RTC 1 en un extremo de RTC denominado Teams User 1 en el cliente de Teams, llame a tipo Dr_In, Correlation ID 57f28917-42k5-4c0c-9433-79734873f2ac, sin identificador de correlación compartido.
+2.    Teams usuario 1 en el cliente de Teams denominado RTC usuario 1 en un extremo de RTC, tipo de llamada Dr_Out 2c12b8ca-62eb-4c48-b68d-e451f518ff4, sin identificador de correlación compartido.
+3.    Usuario de RTC 1 en un extremo de RTC denominado Teams User 2 en el cliente de Teams, llame a tipo Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9, Shared Correlation ID f45e9a25-9f94-46e7-a457-84f5940efde9.
+4.    Llamada existente 3 con identificación de correlación "f45e9a25-9f94-46e7-a457-84f5940efde9". Usuario de RTC 1 en una llamada con el usuario de Teams 2. Equipo: el usuario 2 ha transferido (ciego o consultivo) una llamada a teams o a un usuario de RTC, llamada tipo Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0, ID de correlación compartida f45e9a25-9f94-46e7-a457-84f5940efde9.
 
 ## <a name="exporting-the-reports"></a>Exportar los informes
 Haga clic en **exportar a Excel**y, a continuación, en la pestaña **descargas** , haga clic en **Descargar** para descargar el informe cuando esté listo. El proceso de exportación puede tardar entre unos segundos y varios minutos en completarse, dependiendo de la cantidad de datos.
@@ -107,7 +108,7 @@ La primera fila del archivo CSV contiene nombres de columna. Todas las fechas so
 | :-: | :-: | :-: |:------------------- |
 | ,0 | UsageId | `uniqueidentifier` | Identificador de llamada único |
 | 1 | Id. de llamada | `nvarchar(64)` | Identificador de llamada. No se garantiza que sea único |
-| 1 | Id. de conferencia | `nvarchar(64)` | IDENTIFICADOR de la Conferencia de audio |
+| 2 | Id. de conferencia | `nvarchar(64)` | IDENTIFICADOR de la Conferencia de audio |
 | 3 | Ubicación del usuario | `nvarchar(2)` | Prefijo internacional del usuario, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 | 4 | ObjectId de AAD | `uniqueidentifier` | Llamando al identificador de usuario en Azure Active Directory.<br/> Esta y otra información de usuario serán nulas o vacías para los tipos de llamada de Bot (ucap_in, ucap_out) |
 | 5 | PRINCIPAL | `nvarchar(128)` | UserPrincipalName (nombre de inicio de sesión) en Azure Active Directory.<br/>Normalmente es el mismo que la dirección SIP del usuario y puede ser igual a la dirección de correo electrónico del usuario. |
@@ -134,7 +135,7 @@ Puede exportar datos hasta cinco meses (150 días) de la fecha actual, a menos q
 | :-: | :-: | :-: |:------------------- |
 | ,0 | CorrelationId | `uniqueidentifier` | Identificador de llamada único |
 | 1 | Dirección SIP | `nvarchar(128)` | La dirección del usuario o bot que hizo o recibió la llamada.<br/>Tenga en cuenta que esto es, en realidad, UserPrincipalName (nombre de inicio de sesión) en Azure Active Directory, que suele ser la misma que la dirección SIP |
-| 1 | Nombre para mostrar | `nvarchar(128)` | El nombre de un usuario o un bot de llamada (por ejemplo, cola de llamadas o operador automático) según se establece en el centro de administración de Microsoft 365 |
+| 2 | Nombre para mostrar | `nvarchar(128)` | El nombre de un usuario o un bot de llamada (por ejemplo, cola de llamadas o operador automático) según se establece en el centro de administración de Microsoft 365 |
 | 3 | País del usuario | `nvarchar(2)` | Prefijo internacional del usuario, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 | 4 | Hora de invitación | `datetimeoffset` | Cuando la invitación inicial envió el mensaje entrante de Teams o una llamada de bot a la SBC, o recibida en el mensaje entrante a teams o una llamada de bot por el componente proxy SIP de enrutamiento directo desde la SBC |
 | 5 | Hora de inicio | `datetimeoffset` | Hora en la que el proxy SIP recibió la respuesta final (mensaje SIP "200 correcto") desde la SBC en salida (Teams/bot a un usuario de la RTC) o después de que el proxy SIP envíe la invitación al siguiente salto dentro de Teams backend en la llamada entrante (usuario de RTC a teams/bot).<br/>Para las llamadas fallidas o no respondidas, esto puede ser igual a la hora de invitación o de error. |

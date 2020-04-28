@@ -16,18 +16,19 @@ ms.collection:
 description: Aprenda a usar el informe de uso de eventos de Teams Live en el centro de administración de Microsoft Teams para obtener información general sobre la actividad de los eventos en vivo de Teams en su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af8a7d0225c3098f48de689a15921cd6f1f2f1c9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: faf4a19b8a9bcd4b6fbdc2b3fd55882121015da2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827248"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904295"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Informe de uso de eventos de Microsoft Teams Live
 
 El informe de uso de eventos de Teams Live en el centro de administración de Microsoft Teams le muestra la información general de actividades de eventos en vivo de su organización. Puede ver la información de uso, como el estado del evento, la hora de inicio, las vistas y el tipo de producción para cada evento. Puede obtener información sobre las tendencias de uso y saber quién en la organización programa, presenta y genera eventos en vivo.
 
-## <a name="view-the-report"></a>Ver el informe
+## <a name="view-the-live-event-usage-report"></a>Ver el informe de uso de eventos en directo
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en > **informes de uso**de **informes &**. En la pestaña **ver informes** , en **Informe**, seleccione **uso de eventos de Teams Live**.
 2. En **intervalo de fechas**, seleccione un rango predefinido o establezca un rango personalizado. Puede establecer un intervalo para mostrar los datos hasta un año, seis meses antes y después de la fecha actual.
@@ -57,4 +58,4 @@ Si su organización está habilitada para [Hive](https://www.hivestreaming.com/p
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Análisis e informes de Teams](teams-reporting-reference.md)
-- [¿Qué son los eventos en directo en Teams?](../teams-live-events/what-are-teams-live-events.md)
+- [¿Qué son los eventos en directo de Teams?](../teams-live-events/what-are-teams-live-events.md)

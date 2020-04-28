@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: prvijay
-description: Obtenga información acerca de las directivas de retención y cómo crearlas y administrarlas en Teams.
+description: En este artículo, obtendrá información sobre las directivas de retención y sobre cómo crearlas y administrarlas en Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,12 +16,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17ece37fded1d7b0743f3eeb66a300021f568c44
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: dde12e5197031cd768cecf539ae2213f2a5b4d92
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779787"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905472"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Directivas de retención en Microsoft Teams
 

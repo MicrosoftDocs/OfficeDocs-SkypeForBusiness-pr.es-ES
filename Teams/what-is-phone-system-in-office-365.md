@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Más información sobre el sistema telefónico que puede hacer por usted.
-ms.openlocfilehash: 398b1e159a54da21ca83ced5014f54d758420c2d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: En este artículo, obtendrá más información sobre la tecnología de sistema telefónico en Microsoft Office 365.
+ms.openlocfilehash: d64c8c0998b37446051b067af629f49eb2b4bd28
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836660"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905132"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>¿Qué es el Sistema telefónico en Office 365?
 

@@ -7,25 +7,25 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Definir el ámbito de su proyecto de actualización refinando la visión y los objetivos.
+description: Definir el ámbito del proyecto de actualización refinando la visión y los objetivos para asegurarse de que todas las partes interesadas del proyecto estén alineadas y estén trabajando con los mismos resultados finales.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
 - Teams-upgrade-guidance
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c3e3e9d3253fef62c93751367647399ca91febd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f9592d20f95b32bab45f2f1d5cf3aa0431a838b9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780609"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904485"
 ---
 # <a name="define-your-project-scope"></a>Definir el ámbito del proyecto
 

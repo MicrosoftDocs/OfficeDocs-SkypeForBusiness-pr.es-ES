@@ -7,7 +7,9 @@ ms.date: 10/30/2018
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
@@ -16,15 +18,15 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Aprenda a formar a un equipo de expertos para promocionar la adopción de equipos.
+description: Aprenda a entrenar a un equipo de expertos para promover la adopción de equipos mediante el conocimiento, la adopción y el aprendizaje de su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 208156a272b8ef023b769b1443c7607b07cc44d5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4be0002b65567bcd708e765242b744936c6ac12e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837870"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904762"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Crear su programa para expertos para Microsoft Teams
 

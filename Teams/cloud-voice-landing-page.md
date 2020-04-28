@@ -15,16 +15,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
+- seo-marvel-apr2020
 search.appverid: MET150
-description: Página de aterrizaje para implementar la voz en la nube en Teams
+description: Obtenga más información sobre la característica de voz en la nube y comprenda las decisiones de implementación necesarias a las que se enfrentará.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8498d8d4f6336bf54f6ae7f9c96540783b54dd1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 20a46a82c336396ccb71587db71515b699a9056e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825058"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905912"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz en la nube de Microsoft Teams
 
@@ -85,7 +86,7 @@ Es posible que desee cambiar la configuración de lo siguiente, en función de l
 - Números de teléfono de Microsoft
 - Planes de marcado
 - Colas de llamadas
-- Operadores automáticos
+- Operadores automáticos
 
 ### <a name="voicemail"></a>Correo de voz
 
@@ -131,14 +132,14 @@ Para obtener más información acerca de los planes de marcado, vea [¿Qué son 
 
 ### <a name="call-queues"></a>Colas de llamadas
 
-Las colas de llamadas en nube incluyen saludos que se usan cuando un usuario llama a un número de teléfono de su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de buscar el siguiente agente de llamada disponible para controlar la llamada mientras las personas que llaman son escuchando música en espera. Puede crear una o varias colas de llamadas para su organización. 
+Las colas de llamadas en nube incluyen saludos que se usan cuando un usuario llama a un número de teléfono de su organización, la capacidad de poner automáticamente las llamadas en espera y la posibilidad de buscar el siguiente agente de llamada disponible para controlar la llamada mientras las personas que llaman escuchan música en espera. Puede crear una o varias colas de llamadas para su organización. 
 
 
 |Pregúntese lo siguiente:|Acción |
 |:------------|:-------|
 | ¿Mi organización necesita colas de llamadas? | Para obtener más información, consulte [crear una cola de llamadas en la nube](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) y [configurar el sistema telefónico](setting-up-your-phone-system.md). |
 
-### <a name="auto-attendants"></a>Operadores automáticos
+### <a name="auto-attendants"></a>Operadores automáticos
 
 Los operadores automáticos de la nube se pueden usar para crear un sistema de menús para la organización que permita a los autores de llamadas externos e internos desplazarse por un sistema de menús para ubicar y realizar llamadas a usuarios o departamentos de la empresa.
 

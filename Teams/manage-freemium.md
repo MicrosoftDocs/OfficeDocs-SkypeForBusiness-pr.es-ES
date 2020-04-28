@@ -8,22 +8,23 @@ ms.service: msteams
 audience: admin
 ms.reviewer: daryav
 search.appverid: MET150
-description: Obtenga más información sobre las características de administración de Teams gratis.
+description: Obtenga más información sobre quién puede administrar usuarios en Teams de forma gratuita y sobre las diferencias entre los distintos planes de Teams.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb766eb7f1e5e8ef98afc540bdbb5264877b8142
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 0d8d7edb5710883c7725a0784819d3a35c1c2f2f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780039"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905102"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>Administrar la versión gratuita de Microsoft Teams
 ==========================================

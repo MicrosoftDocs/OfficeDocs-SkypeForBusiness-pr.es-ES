@@ -16,13 +16,14 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: Describe cómo usa Teams los flujos de 365 de Office en diversas topologías.
-ms.openlocfilehash: 409af0b815c87e6d8285c3cb9a1bd8a5d61fa98b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: Obtenga información sobre cómo Teams usa los flujos de Office 365 en diversas topologías, así como los flujos de equipo únicos usados para la comunicación multimedia punto a punto.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: dd0a5155766ee86bdf03219cdfcbb50cc220177d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832830"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904992"
 ---
 # <a name="microsoft-teams-call-flows"></a>Flujos de llamadas de Microsoft Teams
 
@@ -39,7 +40,7 @@ En este artículo se describe cómo usa Teams los flujos de llamadas de Office 3
 
 En este artículo se describe la siguiente información:
 
-- **Fondo**. Proporciona información básica como redes que los flujos de Office 365 pueden atravesar, tipos de tráfico, guía de conectividad de la red del cliente a Office 365 puntos de conexión de servicio, interoperabilidad con componentes de terceros y principios que se usan por equipos para seleccionar los flujos de medios.
+- **Fondo**. Proporciona información básica como redes que los flujos de Office 365 pueden atravesar, tipos de tráfico, guía de conectividad de la red del cliente a Office 365 puntos de conexión de servicio, interoperabilidad con componentes de terceros y principios que usa Teams para seleccionar flujos de medios.
 
 - **Flujos de llamadas en varias topologías**. Muestra el uso de los flujos de llamadas en varias topologías. Para cada topología, en la sección se enumeran todos los flujos compatibles y se muestra cómo se usan estos flujos en varios casos de uso. Para cada caso de uso, describe la secuencia y la selección de flujos usando un diagrama de flujo.
 
@@ -55,7 +56,7 @@ Por lo general, una red de clientes tiene varios perímetros de red con firewall
 
 **Internet**. Este es el segmento de red que forma parte de la red general que usarán los usuarios que se conectan a Office 365 desde fuera de la red del cliente. También lo usa el tráfico de la red del cliente a Office 365.
 
-**Redes privadas o invitados visitados**. Este es el segmento de red fuera de la red de clientes, pero no en la Internet pública, que los usuarios y sus invitados puedan visitar (por ejemplo, una red privada local o una red privada empresarial) que no implemente equipos en los que los usuarios y sus clientes que interactúan con los servicios de Teams pueden residir).
+**Redes privadas o invitados visitados**. Este es el segmento de red fuera de la red de clientes, pero no en la Internet pública, que los usuarios y sus invitados puedan visitar (por ejemplo, una red privada local o una red privada empresarial) que no implemente equipos en los que puedan residir los usuarios y los clientes que interactúan con los servicios de Teams.
 
 > [!NOTE]
 > La conectividad a Office 365 también es aplicable a estas redes.
@@ -66,7 +67,7 @@ Expressroute **(opcional)**. Este es el segmento de red que forma parte de su re
 
 ### <a name="types-of-traffic"></a>Tipos de tráfico
 
-**Medios en tiempo real**. Datos encapsulados en el protocolo de transporte en tiempo real (RTP) que admite las cargas de trabajo de audio, vídeo y pantalla compartida. En general, el tráfico de medios es sensible a la latencia, por lo que le gustaría que este tráfico tomara la ruta más directa posible, y usar UDP en comparación con TCP como protocolo de nivel de transporte, que es el mejor transporte para medios en tiempo real interactivos desde una perspectiva de calidad . (Tenga en cuenta que, como último recurso, los elementos multimedia pueden usar TCP/IP y también pueden estar tunelizados dentro del protocolo HTTP, pero no se recomienda debido a consecuencias de calidad erróneas). El flujo RTP se asegura mediante SRTP, en la que solo se cifra la carga.
+**Medios en tiempo real**. Datos encapsulados en el protocolo de transporte en tiempo real (RTP) que admite las cargas de trabajo de audio, vídeo y pantalla compartida. En general, el tráfico multimedia es sensible a la latencia, por lo que le gustaría que este tráfico tomara la ruta más directa posible y usar UDP en comparación con TCP como protocolo de la capa de transporte, que es el mejor transporte de medios de tiempo interactivo en tiempo real desde una perspectiva de calidad. (Tenga en cuenta que, como último recurso, los elementos multimedia pueden usar TCP/IP y también pueden estar tunelizados dentro del protocolo HTTP, pero no se recomienda debido a consecuencias de calidad erróneas). El flujo RTP se asegura mediante SRTP, en la que solo se cifra la carga.
 
 **Señalización**. El vínculo de comunicación entre el cliente y el servidor, u otros clientes que se usan para controlar las actividades (por ejemplo, cuando se inicia una llamada) y enviar mensajes instantáneos. La mayoría de las señales de tráfico usan las interfaces de REST basadas en HTTPS, aunque en algunos escenarios (por ejemplo, la conexión entre Office 365 y un controlador de borde de sesión) usa el protocolo SIP. Es importante comprender que este tráfico es mucho menos sensible a la latencia, pero puede provocar interrupciones de servicio o tiempos de espera de llamadas si la latencia entre los puntos de conexión supera varios segundos.
 
@@ -338,7 +339,7 @@ Tenga en cuenta lo siguiente:
 
 Esta topología incluye equipos con enrutamiento directo de sistema telefónico.
 
-El enrutamiento directo le permite usar un proveedor de servicios de red telefónica conmutada (RTC) de terceros al emparejar un dispositivo de hardware de controlador de borde de sesión (SBC) local compatible con el cliente (SBC) a Office 365 y, a continuación, conectar el tronco de telefonía a ese dispositivo.
+El enrutamiento directo le permite usar un proveedor de servicios de red telefónica de telefonía conmutada (RTC) de terceros al emparejar un dispositivo de hardware de controlador de borde de sesión (SBC) local compatible con el cliente (SBC) a Office 365 y, a continuación, conectar el tronco de telefonía a ese dispositivo.
 
 Para admitir este escenario, el cliente debe implementar un SBC certificado para el enrutamiento directo desde uno de los socios certificados de Microsoft. La SBC debe estar configurada como recomendada por el proveedor y ser enrutable desde Office 365 para el tráfico UDP directo. Los medios pueden transmitirse directamente desde Teams o el cliente de Skype empresarial a SBC (eludiendo la puerta de enlace de Teams) o atravesar la puerta de enlace de Teams. La conectividad con SBC, cuando el tronco está configurado para evitar la puerta de enlace de Teams, se basa en ICE, donde SBC admite ICE-Lite, mientras que el extremo de los equipos/Skype para empresas admite la forma completa de ICE.
 

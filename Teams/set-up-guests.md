@@ -11,25 +11,25 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
-description: Active o desactive el acceso de invitado en Microsoft Teams.
+description: Obtenga más información sobre cómo activar o desactivar la característica de acceso de invitado en Microsoft Teams como administrador de Office 365.
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bcdbc3251820bdcee860323ad993efc8d6673c0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e634c58d34787a76477591ab4262c703e5773cbe
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835650"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903795"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Active o desactive el acceso de invitado a Microsoft Teams
 ===================================================
 
-De forma predeterminada, el acceso de invitado está desactivado. Como administrador de Office 365, debe activar el acceso de invitados para equipos antes de que los propietarios del equipo o administrador puedan agregar invitados. Para activar el acceso de invitados, use la [lista de comprobación de acceso de invitados](guest-access-checklist.md). 
+Por defecto, el acceso de invitados está desactivado. Como administrador de Office 365, debe activar el acceso de invitados para equipos antes de que los propietarios del equipo o administrador puedan agregar invitados. Para activar el acceso de invitados, use la [lista de comprobación de acceso de invitados](guest-access-checklist.md). 
 
-Después de activar el acceso de invitado, se tarda 2-24 horas para que los cambios surtan efecto. Si un usuario ve el mensaje "Póngase en contacto con el administrador" cuando intenta agregar un invitado a su equipo, es posible que el acceso de invitado no se haya activado o que la configuración aún no sea efectiva.
+Después de activar el acceso de invitado, los cambios pueden tardar un par de horas en surtir efecto. Si un usuario ve el mensaje "Póngase en contacto con el administrador" cuando intenta agregar un invitado a su equipo, es posible que el acceso de invitado no se haya activado o que la configuración aún no sea efectiva.
 
 > [!IMPORTANT]
 > Activar el acceso de invitados depende de la configuración de Azure Active Directory, Office 365, SharePoint Online y Teams. Para obtener más información, consulte [autorizar el acceso de invitados en Teams](Teams-dependencies.md).
@@ -38,15 +38,15 @@ Después de activar el acceso de invitado, se tarda 2-24 horas para que los camb
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Configurar el acceso de invitado en el centro de administración de Teams
 
-1.  Inicie sesión en el centro de administración de Microsoft Teams.
+1.    Inicie sesión en el centro de administración de Microsoft Teams.
 
-2.  Seleccione **Configuración de toda la organización** > **Acceso de invitado**.
+2.    Seleccione **Configuración de toda la organización** > **Acceso de invitado**.
 
 3. Establezca **permitir acceso de invitado en Microsoft Teams** en **activado**.
 
     ![Opción Permitir el acceso de invitado en Microsoft Teams activada ](media/set-up-guests-image1.png)
 
-4.  En **llamadas**, **reuniones**y **Mensajería**, seleccione **activado** o **desactivado** para cada función, en función de lo que desee permitir a los usuarios invitados.
+4.    En **llamadas**, **reuniones**y **Mensajería**, seleccione **activado** o **desactivado** para cada función, en función de lo que desee permitir a los usuarios invitados.
 
     - **Realizar llamadas privadas**: cambie esta opción a **Activado** para permitir que los invitados realicen llamadas entre compañeros.
     - **Permitir vídeo IP**: cambie esta opción a **Activado** para permitir que los invitados usen vídeo en sus llamadas y reuniones.
@@ -67,7 +67,7 @@ Después de activar el acceso de invitado, se tarda 2-24 horas para que los camb
     - **Usar adhesivos en conversaciones**: establezca esta opción como **Activado** para permitir que los invitados usen adhesivos en conversaciones. 
 
 
-5.  Haga clic en **Guardar **.
+5.    Haga clic en **Guardar **.
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Usar PowerShell para activar o desactivar el acceso de invitados
 Leer [use PowerShell para activar o desactivar el acceso de invitados](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)

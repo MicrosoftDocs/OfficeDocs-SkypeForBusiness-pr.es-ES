@@ -2,7 +2,8 @@
 title: Reuniones en Microsoft Teams
 metadata:
   title: Reuniones en Microsoft Teams
-  description: Este tutorial interactivo le guía por las reuniones en Microsoft Teams.
+  description: Use este tutorial interactivo para obtener información sobre los tipos, los pasos de planeación y los informes de reuniones en Microsoft Teams.
+  ms.custom: seo-marvel-apr2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -19,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: cbf9b344b9bded2ca98741a743b84a6b7481f95d
-  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+  ms.openlocfilehash: 57fcdcb5fa4fc20f50e1c25e9797128dbcd7fdb6
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43778506"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43902385"
 items:
 - durationInMinutes: 1
   content: >

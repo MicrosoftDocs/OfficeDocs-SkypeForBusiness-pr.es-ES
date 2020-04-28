@@ -16,19 +16,19 @@ MS.collection:
 description: Use el informe de usuarios bloqueados de RTC en el centro de administración de Microsoft Teams para obtener información general de los usuarios de los equipos de su organización que están bloqueados para realizar llamadas RTC.
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e6055533138f08bafbdc9c39b03350612075840f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 511485fa156ba448368809edf54728ada1b80be7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140691"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904912"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Informe de usuarios bloqueados de RTC de Microsoft Teams
 
 El informe de usuarios bloqueados de RTC en el centro de administración de Microsoft Teams le muestra los usuarios de su organización que no pueden realizar llamadas RTC en Teams. Puede ver más información sobre los usuarios bloqueados, incluidos su número de teléfono asignado y el motivo por el que fueron bloqueados para realizar llamadas.
 
-## <a name="view-the-report"></a>Ver el informe
+## <a name="view-the-pstn-blocked-users-report"></a>Ver el informe de usuarios bloqueados de RTC
 
 En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en > **informes de uso**de **informes &**. En la pestaña **ver informes** , en **Informe**, seleccione **usuarios bloqueados con RTC**y, a continuación, haga clic en **Ejecutar Informe**.
 

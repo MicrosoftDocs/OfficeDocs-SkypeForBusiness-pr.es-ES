@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Lea este tema para aprender a configurar la omisión de medios con enrutamiento directo de sistema telefónico.
-ms.openlocfilehash: 8d6891d8ecabace3b093e2dc788edee6e9cc5bd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: Aprenda a configurar la omisión de medios con enrutamiento directo de sistema telefónico cambiando a todos los usuarios a la vez o implementando un enfoque por fases (recomendado).
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2d6bb25296b7a98e6fea7a59a5dd9406622dbd96
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837610"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904842"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Configurar el desvío de medios con enrutamiento directo
 
@@ -29,11 +30,11 @@ Antes de configurar la omisión de medios con enrutamiento directo, asegúrese d
 
 Para activar la omisión de elementos multimedia, se deben cumplir las condiciones siguientes:
 
-1.  Asegúrese de que el proveedor del controlador de borde (SBC) de la sesión que elija admita la omisión de medios y proporciona instrucciones sobre cómo configurar el omisión en la SBC. Consulte la página de certificación para obtener información sobre SBCs, que admiten la omisión de elementos multimedia y para obtener instrucciones.
+1.    Asegúrese de que el proveedor del controlador de borde (SBC) de la sesión que elija admita la omisión de medios y proporciona instrucciones sobre cómo configurar el omisión en la SBC. Consulte la página de certificación para obtener información sobre SBCs, que admiten la omisión de elementos multimedia y para obtener instrucciones.
 
-2.  Debe activar la omisión de elementos multimedia en el tronco con el siguiente comando: **set-CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**.
+2.    Debe activar la omisión de elementos multimedia en el tronco con el siguiente comando: **set-CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**.
 
-3.  Asegúrese de que los puertos necesarios estén abiertos. 
+3.    Asegúrese de que los puertos necesarios estén abiertos. 
 
 
 ## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>Migrar desde troncos no omitidos a troncos habilitados para omitir
@@ -59,7 +60,7 @@ Para obtener una lista de los controladores de borde de sesión (SBCs) certifica
 
 
 
-## <a name="see-also"></a>Vea también
+## <a name="related-topics"></a>Temas relacionados
 
 [Planear la omisión de medios con enrutamiento directo](direct-routing-plan-media-bypass.md)
 

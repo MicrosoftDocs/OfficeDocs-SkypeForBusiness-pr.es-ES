@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Implemente la calidad de servicio (QoS) para los clientes de Microsoft Teams.
+description: Obtenga información sobre cómo preparar la red para su organización para la calidad de servicio (QoS) en Microsoft Teams.
+ms.custom: seo-marvel-mar2020
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,13 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 66e6dc43e03f1ec3606116ad001f11104de4a55f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 81c10ce415c0ed0db670a81b896289b23cb39218
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139609"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904565"
 ---
 # <a name="set-qos-on-windows-clients"></a>Configurar QoS en clientes de Windows
 

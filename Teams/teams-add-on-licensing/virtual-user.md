@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: Obtenga más información sobre las licencias de usuario virtual gratuitas.
-ms.openlocfilehash: f2ecaddc6fd1dcc4bbb179fde3f495a0eea29353
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+- seo-marvel-apr2020
+description: Obtenga información sobre cómo asignar una licencia de usuario de sistema telefónico gratis o de usuario de sistema telefónico a las cuentas de recursos de su organización.
+ms.openlocfilehash: 5a60e757f4ed9dbca67219217257894a8f95a295
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190812"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904792"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Sistema telefónico Microsoft 365-licencia de usuario virtual 
 

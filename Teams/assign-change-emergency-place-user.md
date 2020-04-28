@@ -16,14 +16,14 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Obtenga información sobre cómo asignar o cambiar el lugar de una ubicación de emergencia para los usuarios de su organización.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6390ebf3cc366d41b36d09f597dd2bf76ba2d2a2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: En este artículo, aprenderá a asignar o cambiar el lugar de una ubicación de emergencia para los usuarios de su organización.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 8689c6a578beac3a93fa8ef9214d6c33cd2d071a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137490"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904852"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Asignar o cambiar el lugar de una ubicación de emergencia para un usuario
 

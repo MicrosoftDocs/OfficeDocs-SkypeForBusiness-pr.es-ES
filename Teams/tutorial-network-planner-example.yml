@@ -2,7 +2,7 @@
 title: Uso de planificador de redes-escenario de ejemplo
 metadata:
   title: Uso de planificador de redes-escenario de ejemplo
-  description: Use Planner de red para configurar un plan de red y generar un informe.
+  description: Este escenario de ejemplo muestra cómo usar la herramienta Network Planner para crear sitios y personas y para ejecutar informes.
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -15,12 +15,13 @@ metadata:
   localization_priority: Normal
   ms.collection:
   - M365-collaboration
-  ms.openlocfilehash: 7a743bea1524084298abb590c653d994aacb0bc4
-  ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+  ms.custom: seo-marvel-apr2020
+  ms.openlocfilehash: 5148415363ac62c68140982d03235b8bfa8835ac
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 02/08/2020
-  ms.locfileid: "41863541"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43904515"
 items:
 - durationInMinutes: 2
   content: "\nLa herramienta Network Planner está disponible en el centro de administración de Teams. Le ayuda a determinar los requisitos de red para su organización. Este escenario de ejemplo muestra cómo puede usar la herramienta para crear sitios, roles y ejecutar informes para una empresa llamada contoso. \n\n## <a name=\"before-you-begin\"></a>Antes de comenzar\n\nDamos por hecho que ya conoce el camino del centro de administración de Teams, y que está familiarizado con lo que tiene que hacer para preparar su red para Teams. Si este es el primer artículo que ha visto en planificador de red, le recomendamos que siga los artículos siguientes en primer lugar.\n\n- [Preparar la red de la organización para Microsoft Teams](prepare-network.md)\n- [Usar el planificador de red para Microsoft Teams](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Información general de la red de Contoso\n\nContoso tiene tres ubicaciones:\n\n- **Sede central de Seattle:** Esta es la ubicación principal de contoso. Tiene 1000 empleados y 25 de ellos solo llaman. El sitio está conectado a Internet y hay una conexión telefónica local (RTC). Contoso tiene la configuración de enrutamiento directo para poder usar la conexión telefónica local con Teams. \n- **Kirkland Office:** Esta sucursal tiene 400 empleados y 10 solo está llamando. El sitio usa su conexión a la sede central para el tráfico por Internet y por teléfono (RTC). Esta oficina está conectada a la sede de Seattle mediante una conexión WAN.\n- **Oficina de Denver:** Esta oficina tiene 250 empleados y 50 son solo llamadas. El sitio tiene su propia conexión local a Internet, pero no tiene conexión telefónica directa (RTC).\n\nComencemos.\n"

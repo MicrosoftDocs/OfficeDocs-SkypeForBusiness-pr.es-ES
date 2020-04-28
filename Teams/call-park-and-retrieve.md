@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - ms.teamsadmincenter.callparkpolicies.overview
-description: Use estacionamiento y recuperar para poner una llamada en espera en el servicio de Teams en la nube.
-ms.openlocfilehash: b4b5200f139f5610ff1109b97742607d3b633ff6
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-apr2020
+description: Obtenga más información sobre cómo usar el servicio de atención telefónica y recuperar para poner una llamada en espera en el servicio de Teams en la nube.
+ms.openlocfilehash: 2420652fc908a943e798ac1acade53eca4c5b55f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824598"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905042"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamiento y recuperación de llamadas en Microsoft Teams
 
@@ -49,7 +50,7 @@ Para detener y recuperar llamadas, un usuario debe ser un usuario de telefonía 
 
 En la actualidad, los siguientes clientes y dispositivos son compatibles con la función deestacionamiento y recuperar. (Compatible con el modo solo de Teams, con o sin conectividad RTC).
 
-| Capacidades | Equipo de escritorio | Aplicación de equipos Mac | Teams Web App (Edge) |Teams Mobile iOS/aplicación para Android | Teléfono IP de Teams | Teléfono IP de Skype empresarial |
+| Función | Equipo de escritorio | Aplicación de equipos Mac | Teams Web App (Edge) |Teams Mobile iOS/aplicación para Android | Teléfono IP de Teams | Teléfono IP de Skype empresarial |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
 | Detener una llamada | Sí | Sí | Sí | Sí | Próximamente| No |
 | Recuperar una llamada estacionada | Sí | Sí | Sí | Sí | Próximamente| No |
@@ -75,10 +76,10 @@ Siga estos pasos para habilitar una directiva de estacionamiento de llamadas:
 Siga estos pasos para asignar una directiva de estacionamiento de llamadas a uno o más usuarios:
 
 1.  > Vaya al **centro de administración de Microsoft Teams****directivas de estacionamiento de llamadas**de**voz** > .
-2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva.
-3. Seleccione **administrar usuarios**.
-4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
-5. Cuando haya terminado de agregar usuarios, seleccione **Guardar**.
+2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
+3. Seleccione **Administrar usuarios**.
+4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
+5. Cuando termine de agregar los usuarios, seleccione **Guardar**.
  
 ### <a name="configure-call-park-and-retrieve-with-powershell"></a>Configurar el parque de llamadas y recuperar con PowerShell
 

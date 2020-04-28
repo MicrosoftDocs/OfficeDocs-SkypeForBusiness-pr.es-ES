@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: En este artículo se describen las mejoras acumulativas de las salas de Microsoft Teams.
-ms.openlocfilehash: a79f9c4087be638de5c978eda2a8cf1d12fc1ed4
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+description: El administrador puede leer las notas de la versión de las salas de Microsoft Teams, que enumeran las mejoras acumulativas de las salas de Microsoft Teams.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ecc7328f81da24bb750ec164bc614db2104179a7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227524"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905342"
 ---
 # <a name="release-notes"></a>Notas de la versión
 
@@ -70,7 +71,6 @@ Introdujo en esta actualización:
 - Posibilidad de deshabilitar el contenido duplicado para mostrar dos salas de presentación con XML
 - Pantalla de bienvenida de la aplicación
 - Avisos de software de código abierto (OSS) en la configuración de dispositivo
-- Corrección para la conectividad de PSOM cuando TLS 1,0 y TLS 1,1 están deshabilitados en Skype empresarial Server 2015/2019.
 
 ### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
 
@@ -348,6 +348,6 @@ Introdujo en esta actualización:
 
 [Problemas conocidos de las salas de Microsoft Teams](known-issues.md)
 
-[Plan para salas de Microsoft Teams](rooms-plan.md)
+[Plan para Salas de Microsoft Teams](rooms-plan.md)
 
 [Administrar Salas de Microsoft Teams](rooms-manage.md)

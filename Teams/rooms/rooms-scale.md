@@ -12,11 +12,11 @@ f1.keywords:
 localization_priority: Normal
 ms.custom:
 - Strat_SB_Admin
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
-description: Lea este tema para obtener información sobre la implementación de salas de Microsoft Teams en implementaciones de gran escala.
+description: Obtenga más información sobre cómo implementar salas de Microsoft Teams en implementaciones de gran escala con Microsoft Endpoint Configuration Manager.
 no-loc:
 - Microsoft
 - Microsoft Corporation
@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 04d5945e042293ad0cb1597307fd4a2b596bee39
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: f96b970165996cc27308ce616fb4875d741f8869
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141023"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905322"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Implementar salas de Microsoft Teams con el administrador de configuración de Microsoft Endpoint
 
@@ -728,7 +728,7 @@ Después de completar las secuencias de tareas de Microsoft Endpoint Configurati
 
     5.  Seleccione **configuración de arranque**.
 
-    6.  Siga uno de estos pasos:
+    6.  Realice una de las siguientes acciones:
 
         -   Seleccione **arranque PXE**y arrástrelo hasta la parte superior de la lista. Como alternativa, puedes deslizar el dedo hacia la izquierda en el adaptador de red para arrancar el dispositivo inmediatamente. Esto no afectará el orden de inicio.
         -   Seleccione la unidad flash USB que contiene el medio de inicio.

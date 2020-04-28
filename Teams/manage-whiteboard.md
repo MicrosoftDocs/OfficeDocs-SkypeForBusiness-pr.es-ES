@@ -9,22 +9,23 @@ ms.service: msteams
 audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
-description: Más información sobre el uso de la aplicación Web de pizarra en Microsoft Teams
+description: En este artículo, obtendrá información sobre cómo administrar y usar la aplicación Web de pizarra en Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdb6c4a1773996101d916c8fe11c0e46bc78b287
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b8f17a65ca4ce10497b4f05d6b2762f1f430909b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837520"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904962"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Administrar la pizarra en Microsoft Teams
 ==========================================

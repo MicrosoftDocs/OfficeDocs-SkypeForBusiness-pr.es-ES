@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Aprenda como crear y gestionar un equipo de la organización en Teams.
+description: Aprenda a crear y administrar un equipo de todo el mundo en Teams para ofrecer una forma automática para que todos los usuarios de una pequeña y mediana empresa puedan colaborar.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90051eb5ee4faf981ec54efa8049909dde4311d3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 41d7241cc0ffddf1042a3fe46f75def76c1ccf04
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778456"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903035"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo de la organización en Microsoft Teams
 
@@ -71,13 +72,13 @@ Considere la posibilidad de establecer la moderación del canal y dar capacidad 
 
 ### <a name="remove-accounts-that-might-not-belong"></a>Eliminar las cuentas que podrían no pertenecer
 
-Aunque los miembros no pueden dejar un equipo de toda la organización, como propietario del equipo, puede manejar la lista del equipo quitando las cuentas que no pertenecen ** Asegúrese de usar Teams para eliminar a los usuarios de su equipo de la organización**. Si usa otra forma de eliminar un usuario, como el Centro de administración de Microsoft 365 o de un grupo en Outlook, el usuario puede ser añadido de nuevo al equipo de la organización.
+Aunque los miembros no pueden abandonar un equipo de organización en toda la organización, como propietario de un equipo, puede administrar la lista de equipos eliminando las cuentas que no pertenecen. ** Asegúrese de usar Teams para eliminar a los usuarios de su equipo de la organización**. Si usa otra forma de eliminar un usuario, como el Centro de administración de Microsoft 365 o de un grupo en Outlook, el usuario puede ser añadido de nuevo al equipo de la organización.
 
 ## <a name="faq"></a>Preguntas más frecuentes
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>¿Hay alguna manera de crear un equipo de toda la organización aparte de usar el cliente de Teams?
 
-Los administradores globales sólo pueden crear un equipo de toda la organización usando el cliente de Teams. Si su organización limita la creación de equipos al uso de PowerShell, la solución recomendada es agregar sus administradores globales al grupo de seguridad de usuarios que pueden crear un equipo. Para obtener más información, vea [administrar quién puede crear grupos de Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups).
+Los administradores globales sólo pueden crear un equipo de toda la organización usando el cliente de Teams. Si su organización limita la creación de equipos al uso de PowerShell, la solución recomendada es agregar sus administradores globales al grupo de seguridad de usuarios que pueden crear un equipo. Si desea más información, consulte [Administrar quién puede crear Grupos de Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups).
 
 Si esto no es una opción, puede usar PowerShell para crear un equipo público y agregar un administrador global como propietario del equipo. Luego, haga que el administrador global haga clic en **Más opciones** junto al nombre del equipo, haga clic en **Editar equipo**, y luego cambie la privacidad a **Toda la organización - Todos en su organización serán agregados automáticamente**. Tenga en cuenta que sólo los propietarios de los equipos pueden acceder a la opción **Editar equipo** y sólo los administradores globales pueden ver la opción **Toda la organización**.
 

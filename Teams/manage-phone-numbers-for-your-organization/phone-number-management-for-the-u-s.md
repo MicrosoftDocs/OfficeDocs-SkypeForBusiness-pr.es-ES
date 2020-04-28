@@ -20,13 +20,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
+- seo-marvel-apr2020
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en los Estados Unidos (incluido Puerto Rico) para Microsoft Teams.
-ms.openlocfilehash: af8d93eabd8c4b033918ab7bce7e4c1fc9ab6d3d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 665d17ac8df753c3c11e149518b8a2eb686bc91e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778396"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904385"
 ---
 # <a name="phone-number-management-for-the-us"></a>Administración de números de teléfono para EE. UU.
 

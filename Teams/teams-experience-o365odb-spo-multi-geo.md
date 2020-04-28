@@ -7,22 +7,23 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 audience: admin
-description: Obtenga más información sobre el uso de Teams en un inquilino multigeografía de Microsoft 365 u Office 365 y de SharePoint Online.
+description: En este artículo, obtendrá información sobre cómo usar Teams en un inquilino multigeografía de Microsoft 365 u Office 365 y SharePoint Online.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - SPO_Content
+ms.custom: seo-marvel-apr2020
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 534155d49cda89291e5d8bdfb8da9b8caf0efb5f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4e754177de6f08476c9160254f2334f6f3ac18d3
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780399"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903145"
 ---
 <a name="teams-experience-in-a-microsoft-365-or-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Experiencia de Teams en un inquilino multigeo de Microsoft 365 u Office 365 OneDrive y SharePoint Online
 ===========================================
