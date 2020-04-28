@@ -8,7 +8,7 @@ ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Descubra cómo se debe planificar la implementación de las funcionalidades de administración del ciclo de vida en Teams.
+description: En este artículo descubrirá cómo se debe planificar la implementación de las funcionalidades de administración del ciclo de vida en Teams.
 localization_priority: Priority
 f1.keywords:
 - NOCSH
@@ -16,13 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 29caa32b894c2a407a724f68c11c01cfe567c82e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 4080c16d78ca50037b9ae3e2579284466acbe37c
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780259"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905822"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Plan para la administración del ciclo de vida en Teams
 
