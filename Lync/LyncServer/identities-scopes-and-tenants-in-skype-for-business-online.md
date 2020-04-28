@@ -12,12 +12,12 @@ ms:contentKeyID: 56558817
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6c6f0c08d03cd746f5929f6a7f1d82373a527a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 598f1cb760a6b4ca969c1e8df25f9735fd0df7c1
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180297"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918568"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -89,7 +89,7 @@ También es posible que tenga dos usuarios: Ken Myer y Pilar Ackerman. Se ha asi
 
 Como puede ver, Ken Myer tiene permiso para comunicarse con proveedores de mensajería instantánea pública. Esto se debe a que la configuración de la Directiva por usuario que se le ha asignado reemplaza la configuración de la directiva global. Pilar Ackerman no puede comunicarse con proveedores de mensajería instantánea pública. Esto se debe a que está administrado por la directiva global y la directiva global prohíbe dicha comunicación.
 
-Las directivas por usuario deben crearse para usted con soporte técnico de Office 365. Una vez creadas las directivas, puede asignarlas a los usuarios mediante el cmdlet **Grant-CS** correspondiente (por ejemplo, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Las directivas por usuario son fáciles de identificar porque la identidad de la Directiva siempre comienza con el **prefijo**de etiqueta. Por ejemplo:
+El soporte técnico de Microsoft debe crear directivas por usuario. Una vez creadas las directivas, puede asignarlas a los usuarios mediante el cmdlet **Grant-CS** correspondiente (por ejemplo, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Las directivas por usuario son fáciles de identificar porque la identidad de la Directiva siempre comienza con el **prefijo**de etiqueta. Por ejemplo:
 
     Identity : tag:AllowPublicIMCommunication
 
