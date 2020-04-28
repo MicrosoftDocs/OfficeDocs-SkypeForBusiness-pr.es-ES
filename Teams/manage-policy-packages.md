@@ -14,16 +14,18 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.policypackages.overview
+ms.custom:
+- ms.teamsadmincenter.policypackages.overview
+- seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo usar y administrar paquetes de directivas en Microsoft Teams.
-ms.openlocfilehash: a2c2ecf22529c4f16b992f349b29ccaf0ad48b0d
-ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
+description: Aprenda a usar y administrar paquetes de directivas en Microsoft Teams para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
+ms.openlocfilehash: b69ce06d01af624ff73386531d7ef2b77bef3b4e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42942448"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914022"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Administrar paquetes de directivas en Microsoft Teams
 
@@ -85,7 +87,7 @@ Estos son los pasos para ver, asignar y personalizar paquetes de directivas en e
 
 #### <a name="assign-a-policy-package-to-one-user"></a>Asignar un paquete de directivas a un usuario
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, haga clic en el usuario.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
 2. En la página del usuario, haga clic en **directivas**y, a continuación, junto a **paquete de directivas**, haga clic en **Editar**.
 3. En el panel **asignar paquete de directivas** , seleccione el paquete que desea asignar y, a continuación, haga clic en **Guardar**.
 
@@ -93,7 +95,7 @@ Estos son los pasos para ver, asignar y personalizar paquetes de directivas en e
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **paquetes de directivas**y, a continuación, seleccione el paquete de directivas que desea asignar haciendo clic a la izquierda del nombre del paquete.
 2. Haga clic en **administrar usuarios**.
-3. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, a continuación, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
+3. En el panel **Administrar usuarios**, busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 4. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
 
 ### <a name="customize-policies-in-a-policy-package"></a>Personalizar directivas en un paquete de directivas

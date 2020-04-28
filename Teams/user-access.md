@@ -13,17 +13,18 @@ f1.keywords:
 - CSH
 ms.reviewer: ritikag
 search.appverid: MET150
-description: Aprenda a habilitar o deshabilitar el acceso a nivel de usuario por cada usuario.
+description: Para obtener información sobre cómo habilitar o deshabilitar el acceso de nivel de usuario para cada usuario, asigne o quite la licencia de producto de Microsoft Teams.
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f571dd461c6c783703159dfd6e9beb343612dd58
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 10485fd7f04cfae675ea38967389851d4d72be90
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779486"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903355"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Administrar el acceso de los usuarios a Microsoft Teams
 =====================================
@@ -72,7 +73,7 @@ Para deshabilitar Teams para todos los usuarios que tengan una licencia activa p
 
 | | | |
 |---------|---------|---------|
-|![Un icono que representa un punto de decisión](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Punto de decisión         |<ul><li>¿Cuál es el plan de su organización para comenzar a usar Teams en toda la organización?  (Piloto o abierto)</li></ul>         |
+|![Un icono que representa un punto de decisión](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Punto de decisión         |<ul><li>¿Cuál es el plan de su organización para la incorporación de Teams en toda la organización?  (Piloto o abierto)</li></ul>         |
 |![Un icono que representa los pasos siguientes](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Siguientes pasos         |<ul><li>Si realiza la adopción a través de Piloto, decida si desea hacerlo a través de licencias o comunicación dirigida.</li><li>Según su decisión, realice los pasos para asegurarse de que solo los usuarios piloto puedan acceder a Teams (si es necesario).</li><li>Documente qué usuarios tendrán (o no tendrán) acceso a Teams.</li></ul>         |
 
 ## <a name="manage-teams-at-the-office-365-organization-level"></a>Administrar equipos en el nivel de la organización de Office 365

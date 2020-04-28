@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Lea este tema para obtener información sobre cómo planear la omisión de medios con enrutamiento directo de sistema telefónico.
-ms.openlocfilehash: c40840e2169a67172f006a0f0910c715feb40253
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+description: Obtenga información sobre cómo planear la omisión de medios con enrutamiento directo de sistema telefónico, que le permite acortar la ruta de acceso de los medios y mejorar el rendimiento.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 316e94a2baafcecc9fb690f3d836e7c96c0b30ea
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265645"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901845"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -163,7 +164,7 @@ Asegúrese de que su SBC tenga acceso a los intervalos de los procesadores de me
 Para las señales SIP, los requisitos de FQDN y firewall son los mismos que para los casos no omitidos. 
 
 El enrutamiento directo se ofrece en los siguientes entornos de Office 365:
-- Office 365
+- Creación de inquilino
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD más información sobre los [entornos gubernamentales de office 365 y de EE. UU.](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) , como GCC, GCC High y DoD.
@@ -224,7 +225,7 @@ Necesitas abrir puertos para todas estas direcciones IP en tu firewall para perm
 ## <a name="sip-signaling-ports"></a>Señalización SIP: puertos
 
 Los requisitos de puerto son los mismos para todos los entornos de Office 365 donde se ofrece enrutamiento directo:
-- Office 365
+- Creación de inquilino
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
@@ -319,7 +320,7 @@ UDP/SRTP | Procesador de medios | SBC | 49 152 – 53 247    | Definido en la SB
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Configurar troncos independientes para la omisión de medios y no multimedia  
 
-Si va a migrar a elementos multimedia de omisión de medios y desea confirmar la funcionalidad antes de migrar todo el uso a los medios omitidos, puede crear un tronco separado y una directiva de enrutamiento de voz en línea separada para enrutar a los medios de derivación de medios y asignarlos a determinados User. 
+Si va a migrar a elementos multimedia de omisión de medios y desea confirmar la funcionalidad antes de migrar todo el uso a los medios omitidos, puede crear un tronco independiente y una directiva de enrutamiento de voz en línea independiente para enrutar a los medios de derivación de medios y asignarlos a usuarios específicos. 
 
 Pasos de configuración de alto nivel:
 

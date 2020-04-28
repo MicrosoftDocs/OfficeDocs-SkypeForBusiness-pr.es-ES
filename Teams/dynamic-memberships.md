@@ -8,20 +8,21 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Obtenga más información sobre la pertenencia a equipos dinámicos basadas en AAD.
+description: Obtenga información sobre cómo Microsoft Teams admite equipos asociados con grupos de Office 365 mediante la pertenencia dinámica.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+ms.custom: seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68a7b26fa9668685fc9082ecdb202b6f589e0f4f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d325ee076d29ddfe50fd6193ec5755bf2bb51b82
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780189"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905802"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Información general sobre la pertenencia dinámica para los equipos
 
@@ -40,7 +41,7 @@ Microsoft Teams puede tardar desde unos minutos hasta 2 horas en reflejar los ca
 > - Las reglas pueden definir quién es un miembro del equipo, pero no quién es el propietario de un equipo.
 > - Consulte [límites y especificaciones de Microsoft Teams](limits-specifications-teams.md) para obtener los límites actuales de los tamaños de equipo y de canal.
 > - Los propietarios no podrán agregar o quitar usuarios como miembros del equipo, ya que los miembros se definen mediante reglas de grupo dinámicas.
-> - Los miembros no podrán dejar equipos respaldados por grupos dinámicos.
+> -    Los miembros no podrán dejar equipos respaldados por grupos dinámicos.
 
 
 ## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>Crear y administrar un grupo de Office 365 con pertenencia dinámica

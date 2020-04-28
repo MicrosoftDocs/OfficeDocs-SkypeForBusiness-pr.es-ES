@@ -20,14 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-- seo-marvel-mar2020
-description: Aprenda todo lo que necesita y cómo los organizadores de reuniones pueden llamar a otras personas con Teams.
-ms.openlocfilehash: fbba74f7d8cd25da4a96237dfc551463681eef20
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+- seo-marvel-apr2020
+description: Los organizadores de reuniones pueden obtener información sobre cómo marcar usando la aplicación de Teams para permitir que otras personas se unan a la misma reunión con sus teléfonos.
+ms.openlocfilehash: fc670995dcf5a16c79c857c217711490be82a664
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137370"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901965"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Llamar desde una reunión de Microsoft Teams para que otras personas puedan unirse
 

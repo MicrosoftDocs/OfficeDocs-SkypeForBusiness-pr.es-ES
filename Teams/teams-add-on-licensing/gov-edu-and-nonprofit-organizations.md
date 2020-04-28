@@ -1,5 +1,5 @@
 ---
-title: GOV, EDU y organizaciones sin ánimo de lucro
+title: Organizaciones gubernamentales, educativas y sin ánimo de lucro
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,17 +18,18 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Obtenga más información sobre las licencias de complementos y las características de los planes de organización sin ánimo de lucro y de GOV, EDU. '
-ms.openlocfilehash: 49be4e27997278d1a0b2842ced2c540783b68163
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+- seo-marvel-apr2020
+description: Obtenga más información sobre las licencias de complementos y las características de los planes de organización de administración pública, educación y sin ánimo de lucro.
+ms.openlocfilehash: d16a6f0170acb90a54e24cbf7b24f2480fd4b51a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795973"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904545"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU y organizaciones sin ánimo de lucro
+# <a name="gov-edu-and-non-profit-organizations"></a>Organizaciones gubernamentales, educativas y sin ánimo de lucro
 
-La mayoría de las características de Teams están disponibles para organizaciones gubernamentales, educativas y ONG. Para obtener más información, consulta la tabla siguiente.
+La mayoría de las características de Teams están disponibles para organizaciones gubernamentales, educativas y ONG. Consulte la siguiente tabla para obtener información.
 
 |**Característica de Teams**|**Disponible para GOV (GCC)**|**Disponible para GOV (no GCC)**|**Disponible para EDU**|**Disponible para organizaciones sin ánimo de lucro**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -51,4 +52,4 @@ En respuesta a una mayor necesidad de que los usuarios trabajen de forma remota 
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Office 365 ONG](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+[Office 365 para ONG](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)

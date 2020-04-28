@@ -20,14 +20,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
-- seo-marvel-mar2020
-description: Obtenga más información sobre los diferentes tipos de números de teléfono que usa Teams para los planes de llamadas.
-ms.openlocfilehash: e960da72476ec91f8f13afe42d0e4da6c12e746d
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+- seo-marvel-apr2020
+description: En este artículo, obtendrá información sobre los distintos tipos de números de teléfono que Microsoft Teams usa para los planes de llamadas.
+ms.openlocfilehash: c84f35f880d32f106bc8ef946930c6511b798266
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137350"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901865"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Diferentes tipos de números de teléfono que se usan para planes de llamadas
 

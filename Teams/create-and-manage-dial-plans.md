@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Aprenda a crear y administrar planes de marcado de llamada (planes de marcado de llamadas RTC) y a administrarlos.
-ms.openlocfilehash: 9c72745e6dee12ffbac4d91df47df37c327aab33
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Aprenda a usar el centro de administración de Microsoft Teams o Windows PowerShell para crear y administrar planes de marcado (planes de marcado de llamadas RTC).
+ms.openlocfilehash: 50cdbaf9fd1e5ae10eca20c0f547dce29d606983
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778266"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902025"
 ---
 # <a name="create-and-manage-dial-plans"></a>Crear y administrar planes de marcado
 
@@ -212,7 +213,7 @@ Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 
 Ejecute esto para quitar todos los TenantDialPlan asignados de todos los usuarios que tienen una Hostingprovider manda de sipfed.online.lync.com.
 ```PowerShell
-Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
+Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```
 
 Ejecute estos para agregar el plan de marcado local existente denominado OPDP1 como un plan de marcado inquilino para su organización. Primero debe guardar el plan de marcado local en un archivo. XML y, a continuación, usarlo para crear el nuevo plan de marcado de inquilino.

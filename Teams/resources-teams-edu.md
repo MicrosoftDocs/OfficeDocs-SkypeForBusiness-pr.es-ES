@@ -7,7 +7,7 @@ ms.reviewer: olbesede
 ms.topic: reference
 ms.service: msteams
 audience: admin
-description: Enumera los recursos de teams que son útiles para los equipos de administración de la educación.
+description: Los administradores de educación pueden obtener información sobre los recursos disponibles en Microsoft Teams para habilitar el aprendizaje remoto.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b6f0b27c80baf62d85d3791982965a26f4353f9
-ms.sourcegitcommit: 273d7565ad350bf97dbf035f148fd48b1cb04d4f
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: b3c34fa27053e83b9c9d05f9ab4f6e8fb4222cd7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43194850"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905512"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Recursos de Microsoft Teams para administradores de educación
 ==============================================

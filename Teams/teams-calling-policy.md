@@ -9,22 +9,23 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: Obtenga más información sobre cómo llamar a la configuración de directivas en Microsoft Teams.
+description: Obtenga información sobre cómo crear, modificar y agregar usuarios a directivas de llamadas personalizadas en Microsoft Teams, así como diversas configuraciones de la Directiva de llamadas.
 localization_priority: Normal
 ms.custom:
-- NewAdminCenter_Update
+- ms.teamsadmincenter.callingpolicies.overview
+- seo-marvel-apr2020
 ms.collection:
 - M365-voice
-f1keywords:
-- ms.teamsadmincenter.callingpolicies.overview
+f1.keywords:
+- CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 788cc0e93b16585f1d3424d3bfa0a62693528740
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: a94bf072aa4db0ba0b3f65fb5340c22ab09581e4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972451"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914018"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Directivas de llamadas en Microsoft Teams
 ===================================
@@ -105,6 +106,10 @@ Si se establece **en activado** , se enviarán llamadas a través de la RTC y se
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>El uso ocupado está disponible mientras estás en una llamada
 
 Ocupado en ocupado (opciones de ocupado)) es una nueva opción de configuración de directivas de llamadas de teams que le permite configurar cómo se administran las llamadas entrantes cuando un usuario ya está en una llamada o conferencia o se hace una llamada en espera. Las llamadas nuevas o entrantes pueden rechazarse con una señal de ocupado. Puede habilitar las opciones de ocupado en el nivel de espacio empresarial o en el nivel de usuario. Independientemente de la configuración de las opciones de ocupado, los usuarios de una llamada o conferencia, o aquellos con una llamada en espera, no pueden iniciar nuevas llamadas o conferencias. Esta opción está deshabilitada de forma predeterminada.
+
+### <a name="allow-music-on-hold"></a>Permitir música en espera
+
+Esta configuración le permite activar o desactivar la música en espera cuando una persona que llama RTC se coloca en espera. Está activada de forma predeterminada. Esta configuración no se aplica a las características del delegado llamar y el jefe, y solo está disponible a través de PowerShell en este momento. 
 
 ## <a name="see-also"></a>Vea también
 

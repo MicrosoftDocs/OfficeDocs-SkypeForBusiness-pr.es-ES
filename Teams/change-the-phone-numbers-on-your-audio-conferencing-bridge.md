@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Aprenda los pasos necesarios para asignar un nuevo número de teléfono de servicio a su puente de conferencia para expandir la cobertura de los usuarios.
-ms.openlocfilehash: 233678bd953046eed5e6425e0b1a36c5a39b1061
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d22e3c475ae80b7c6aecb89e9e6487c8db38ab1e
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780359"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898155"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Cambiar los números de teléfono de su puente de Audioconferencia
 
@@ -67,7 +67,7 @@ Solo se puede establecer un número de teléfono de pago de servicio como númer
  
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Paso 3: cambiar los números de teléfono predeterminados que se incluyen en las invitaciones de reunión de los usuarios (opcional)
 
-Los números de teléfono predeterminados de un usuario son los que se incluyen en sus invitaciones a reuniones al programar una reunión. Para obtener más información, como la forma en que se asignan los números de teléfono de defaul para los nuevos usuarios, vea [establecer los números de teléfono incluidos en los invitados en Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) o [configurar los números de teléfono incluidos en los invitados en Skype empresarial online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
+Los números de teléfono predeterminados de un usuario son los que se incluyen en sus invitaciones a reuniones al programar una reunión. Para obtener más información, como la forma en que se asignan los números de teléfono predeterminados para los nuevos usuarios, vea [establecer los números de teléfono incluidos en los invitados en Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) o [configurar los números de teléfono incluidos en los invitados en Skype empresarial online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
   
 1. Inicie sesión con su cuenta profesional o educativa.
 
@@ -83,7 +83,7 @@ Después de guardar los cambios, los nuevos números de teléfono predeterminado
 
 Para los dos pasos siguientes, tendrá que iniciar Windows PowerShell.
   
-Si ha actualizado los números de teléfono predeterminados que se inlcuded en las invitaciones a reuniones para algunos o todos los usuarios, puede actualizar, opcionalmente, las invitaciones de reunión que ya se han enviado a los usuarios de su organización antes de que se cambiaran sus números de teléfono predeterminados con el servicio de migración de reuniones. Para obtener información adicional, consulte [Configuración del servicio de migración de reuniones (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+Si ha actualizado los números de teléfono predeterminados que se incluyen en las invitaciones a reuniones para algunos o todos los usuarios, puede actualizar de forma opcional las invitaciones de reunión que ya se han enviado a los usuarios de su organización antes de que se hayan cambiado los números de teléfono predeterminados con el servicio de migración de reuniones. Para obtener información adicional, consulte [Configuración del servicio de migración de reuniones (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
 - Ejecute el servicio de migración de reuniones (MMS) para los usuarios que han cambiado sus números de teléfono predeterminados en el paso 2. Para ello, ejecute el siguiente comando:
 
@@ -139,7 +139,7 @@ Para obtener más información sobre el servicio de migración de reuniones, con
 
 3. Si el número de teléfono es un número gratuito, seleccione el número de teléfono de la lista y, en el panel de acciones, haga clic en **Cancelar asignación**. Si el número de teléfono es un número de teléfono, comunícate con el [soporte técnico de Microsoft](https://go.microsoft.com/fwlink/?linkid=2091806) para que no se haya asignado el número de teléfono.
 
-4. Si el número de teléfono es un número fre, haga clic en **sí** en la ventana de confirmación.
+4. Si el número de teléfono es un número gratuito, haga clic en **sí** en la ventana de confirmación.
 
    > [!IMPORTANT]
    > Una vez que se ha desasignado un número de teléfono de un puente de audioconferencia, el número dejará de estar disponible para que los usuarios puedan unirse a reuniones nuevas o existentes.
@@ -223,9 +223,9 @@ Para ahorrar tiempo automatizando este proceso, puede usar los cmdlets [set-CsOn
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
-**El botón de anulación de asignación está atenuado**
+**El botón anular asignación no está disponible**
 
-Desea cancelar la asignación de un número pero el botón está atenuado y, si mientras hoovering sobre él, se le redirige para ponerse en contacto con el soporte técnico con el siguiente mensaje: _"predeterminado o los números compartidos ́t se pueden cancelar desde el puente. Para cancelar la asignación de números de teléfono dedicados, póngase en contacto con el soporte técnico._".
+Desea cancelar la asignación de un número, pero el botón no está disponible y, si mientras se desplaza sobre él, se le redirige para ponerse en contacto con el soporte técnico con el siguiente mensaje: _"el valor predeterminado o los números compartidos ́t se pueden cancelar desde el puente. Para cancelar la asignación de números de teléfono dedicados, póngase en contacto con el soporte técnico._".
 
 Para obtener más información sobre los puentes, ejecute el siguiente PowerShell:
 ```PowerShell

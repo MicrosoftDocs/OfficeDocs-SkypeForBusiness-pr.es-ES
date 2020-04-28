@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
-description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube con Microsoft Teams.
-ms.openlocfilehash: 0feee280526b432a14f0411ab4787e3b07ce2453
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube con Microsoft Teams, que proporcionan un mensaje de saludo, mantener música, redirigir llamadas y otras características.
+ms.openlocfilehash: d6a0095e0189c37a8002017fde590e05faf791fe
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43788982"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914053"
 ---
 # <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 

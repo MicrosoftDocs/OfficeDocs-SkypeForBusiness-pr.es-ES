@@ -14,15 +14,16 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Vea un breve resumen sobre cómo se invita a un invitado a que se una a un equipo en Microsoft Teams.
+description: Obtenga información sobre los pasos necesarios para agregar personas fuera de su organización como invitados a un equipo en Microsoft Teams.
+ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 491770bcd3c2f435bbd2ea18c366effea2c8124f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: 8202f7cae250d497eb690a7cb337c12dd1b79cb1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833180"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902555"
 ---
 <a name="how-a-guest-joins-a-team"></a>Cómo se une un invitado a un equipo
 ========================
@@ -39,7 +40,7 @@ El propietario de un equipo en Microsoft Teams puede agregar y administrar invit
 1. El invitado recibe un correo electrónico de bienvenida del dueño del equipo, con información sobre el equipo y qué esperar ahora que es miembro. 
 1. El invitado acepta la invitación.
   Los usuarios invitados que tienen una dirección de correo electrónico que pertenece a una cuenta profesional o educativa de Azure Active Directory u Office 365 pueden aceptar la invitación directamente. 
-  Si el invitado aún no tiene una cuenta de Microsoft asociada a su dirección de correo electrónico, se le indicará que cree una gratis. 
+  Si el invitado aún no tiene una cuenta de Microsoft asociada a su dirección de correo electrónico, se le dirigirá para crearla de forma gratuita. 
 1. Tras aceptar la invitación, el invitado puede [participar en los equipos y los canales](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499), recibir mensajes del canal y responder a ellos, [acceder a los archivos de los canales](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participar en el chat, unirse a reuniones, colaborar en documentos, etc. 
 
 En Teams, los invitados están claramente identificados. El nombre de usuario de un invitado incluye la etiqueta **(Invitado)** y un canal incluye un icono para indicar que hay invitados en el equipo. Para obtener más detalles, vea [Cómo es la experiencia de invitado](guest-experience.md).

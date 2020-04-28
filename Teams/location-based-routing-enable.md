@@ -8,7 +8,7 @@ ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Obtenga información sobre cómo habilitar el enrutamiento basado en la ubicación para el enrutamiento directo.
+description: Aprenda a habilitar el enrutamiento basado en la ubicación para el enrutamiento directo, lo que incluye habilitarlo para los usuarios, los sitios de red, las configuraciones de puerta de enlace y las directivas de llamadas.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,12 +16,13 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 734a2354e81dc88430e8f880c46b0f97862158b5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 56ea3f8b27a582a9cea282244a03be692d0781be
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836560"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905782"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar enrutamiento basado en la ubicación para el enrutamiento directo
 
@@ -119,8 +120,8 @@ En este artículo se describe cómo habilitar el enrutamiento basado en la ubica
 
     En este ejemplo, habilitamos el enrutamiento basado en la ubicación para cada puerta de enlace que está asociada a las puertas de enlace RTC en los sitios de Delhi y Hyderabad. 
     ```PowerShell
-    Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID “Delhi”
-    Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID “Hyderabad” 
+    Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID "Delhi"
+    Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID "Hyderabad" 
     ```
     No habilite el enrutamiento basado en la ubicación para puertas de enlace que no enruten llamadas a la RTC. Sin embargo, aún tiene que asociar la puerta de enlace al sitio de red en el que se encuentra el sistema. Esto se debe a que las restricciones de enrutamiento basadas en la ubicación deben exigirse para que las llamadas RTC lleguen a los puntos de conexión que se conectan a través de esta puerta de enlace. En este ejemplo, el enrutamiento basado en la ubicación no está habilitado para cada puerta de enlace que está asociada a sistemas PBX de la Delhi y los sitios de Hyderabad.
 
@@ -159,7 +160,7 @@ Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id>
 En este ejemplo, evitamos la omisión de llamadas de RTC a directivas de llamadas de Usuario1. 
 
 ```PowerShell
-Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
+Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "User1" 
 ```
 
 ## <a name="related-topics"></a>Temas relacionados

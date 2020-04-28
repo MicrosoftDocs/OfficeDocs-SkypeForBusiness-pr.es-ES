@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 ms.collection:
 - M365-collaboration
-description: Lea este tema para obtener información sobre cómo unirse a un equipo PC de la aplicación de Sistema de salas de Skype para su dominio.
-ms.openlocfilehash: f2cad169b812d3da3a964c96adabc498df1009b8
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Administrador puede aprender a unirse a un equipo del sistema de salas de Skype en un dominio de Active Directory, junto con las consideraciones para hacerlo.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: dfcee1421c25903a5ec8deb2f66871ed1d57ef1c
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826088"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905442"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -60,7 +61,7 @@ Aunque cree un OU independiente y bloqueo de herencia, existen algunas directiva
   
 Puede tener varios enfoques para solucionar estos problemas. Le aconsejamos que consulte con los expertos de Active Directory para asegurarse de que obtiene un OU que tiene una configuración de GPO adecuada, o al menos un OU en el que las directivas descritas anteriormente no existan. Se recomienda habilitar la calidad de servicio (QoS) para los dispositivos de sistema de la sala de Skype.
 
-## <a name="see-also"></a>Vea también
+## <a name="related-topics"></a>Temas relacionados
   
 [Configuración de dispositivo: Crear nueva o editar existente](/skypeforbusiness/help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

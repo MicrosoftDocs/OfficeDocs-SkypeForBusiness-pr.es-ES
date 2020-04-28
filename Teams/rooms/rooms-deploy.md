@@ -1,5 +1,5 @@
 ---
-title: Implementar salas de Microsoft Teams
+title: Implementar Salas de Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: Lea este artículo para obtener información sobre la implementación de salas de Microsoft Teams.
-ms.openlocfilehash: 650302d6d952a59c1cc460e2cdf8758cfb0fcd41
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+description: Lea este artículo para obtener información sobre cómo implementar salas de Microsoft Teams, incluidas las fases de implementación.
+ms.openlocfilehash: cf5ba9614426c59412c53b7e0e9420ca09ef6267
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863351"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905412"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 
@@ -50,7 +50,7 @@ Puede obtener más información sobre estas dependencias en los vínculos de la 
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Confirme que sus sitios cumplen los requisitos clave para salas de Microsoft Teams.</li><li>Confirme que ha proporcionado suficiente ancho de banda para cada sitio.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Comience a planificar la implementación y la configuración del dispositivo.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Comience a planificar la implementación y la configuración del dispositivo.</li></ul>| 
 
 ## <a name="service-readiness"></a>Preparación del servicio
 
@@ -75,7 +75,7 @@ Para obtener más información sobre las cuentas de salas de Microsoft Teams, ve
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida qué escenarios admitirá e identifique los requisitos de licencias para las cuentas de servicio de salas de Microsoft Teams.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Prepararse para hospedar cuentas de equipo y de servicio.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Prepararse para hospedar cuentas de equipo y de servicio.</li></ul>| 
 
 
 _Ejemplo de tabla de planeación de cuentas de servicio de salones de Microsoft Teams_
@@ -124,7 +124,7 @@ Cada dispositivo de salas de Microsoft Teams necesita una cuenta de recursos exc
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida la Convención de nomenclatura para sus cuentas de salas de Microsoft Teams.</li><li>Decida si va a crear cuentas individuales o usar scripts de aprovisionamiento masivo.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Comience a planificar la implementación del dispositivo.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Comience a planificar la implementación del dispositivo.</li></ul>| 
 
 
 ### <a name="device-software-installation"></a>Instalación del software del dispositivo 
@@ -138,7 +138,7 @@ Al planear la implementación de salas de Microsoft Teams, dispone de varias opc
 | Implementar más de 50 dispositivos de salas de Microsoft Teams, implementar dispositivos de más de un proveedor o requerir agentes específicos de la organización como parte de la implementación. | Usar una plataforma de creación y distribución de software basada en secuencia de tareas, como [Microsoft Endpoint Configuration Manager](rooms-scale.md).  |
 
 
-**Sugerencia Pro** : cada sala de Microsoft Teams debe tener un nombre de equipo válido y único en su red. Muchos sistemas de supervisión y alerta muestran el nombre de la máquina como un identificador de clave, por lo que es importante desarrollar una Convención de nomenclatura para las implementaciones de salas de Microsoft teams que permita al personal de soporte localizar fácilmente las salas de Microsoft teams que se han marcado como requerir una acción. Un ejemplo podría estar usando un patrón de MTR-*site*-*Room Name* (MTR-Lon-Curie). 
+**Sugerencia Pro** : cada sala de Microsoft Teams debe tener un nombre de equipo válido y único en su red. Muchos sistemas de supervisión y alerta muestran el nombre de la máquina como un identificador de clave, por lo que es importante desarrollar una Convención de nomenclatura para las implementaciones de salas de Microsoft teams que permita al personal de soporte localizar fácilmente las salas de Microsoft teams que se han marcado como obligatorias. Un ejemplo podría estar usando un patrón de MTR-*site*-*Room Name* (MTR-Lon-Curie). 
 
 Como parte de la implementación, también debe considerar su estrategia para administrar y configurar las [cuentas locales](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) creadas por el instalador de la aplicación salas de Microsoft Teams.
 
@@ -149,7 +149,7 @@ Otra consideración es si las salas de Microsoft Teams se unen al dominio. Puede
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida la Convención de nomenclatura de dispositivos de Microsoft Team Rooms que se utilizará durante la implementación.</li><li>Decida si unirá los dispositivos de salas de Microsoft Teams a su dominio y cómo administrar y configurar cuentas locales. </li><li>Decida si va a usar Operations Management Suite para supervisar la implementación de salas de Microsoft Teams.</li><li>Decida qué método usará para implementar el software y los agentes en el sistema de salas de Microsoft Teams en preparación para la implementación del dispositivo. </li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Comience a planificar el método de implementación de dispositivos.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Comience a planificar el método de implementación de dispositivos.</li></ul>| 
 
 
 ### <a name="device-deployment"></a>Implementación de dispositivos
@@ -160,7 +160,7 @@ Una vez que haya implementado el software en las unidades de salas de Microsoft 
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir quién administrará la implementación sitio a sitio.</li><li> Identifique los recursos que instalarán los dispositivos de salas de Microsoft Teams en el sitio y lleven a cabo la configuración y las pruebas.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Inicie las pruebas del dispositivo.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Inicie las pruebas del dispositivo.</li></ul>| 
 
 _Tabla de implementación de ejemplo_
 
@@ -171,7 +171,7 @@ _Tabla de implementación de ejemplo_
 
 ### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Configuración de dispositivos periféricos y aplicaciones de salas de Microsoft Teams 
 
-Una vez que se haya implementado físicamente cada sistema de salas de Microsoft Teams y los dispositivos periféricos compatibles estén conectados, tendrá que configurar la aplicación salas de Microsoft Teams para asignar la cuenta de recursos de las salas de Microsoft Teams y la contraseña creada anteriormente. , para habilitar el sistema Microsoft Teams Rooms para iniciar sesión en Microsoft Teams o Skype empresarial y Exchange. Es clave para aprovechar los periféricos de audio y vídeo USB certificados que se encuentran en otra parte del documento. Si no lo hace, puede provocar un comportamiento impredecible. 
+Una vez que se haya implementado físicamente cada sistema de salas de Microsoft Teams y los dispositivos periféricos compatibles estén conectados, tendrá que configurar la aplicación salas de Microsoft Teams para asignar la cuenta de recursos de salas de Microsoft Teams y la contraseña creada anteriormente, para habilitar el sistema Microsoft Teams Rooms para iniciar sesión en Microsoft Teams o Skype empresarial y Exchange. Es clave para aprovechar los periféricos de audio y vídeo USB certificados que se encuentran en otra parte del documento. Si no lo hace, puede provocar un comportamiento impredecible. 
 
 Puede configurar manualmente cada sistema de salas de Microsoft Teams. Como alternativa, puede usar un archivo de configuración XML de las salas de almacenamiento centralizado por Microsoft Teams para administrar la configuración de la aplicación y aprovechar un script de inicio de sesión de GPO para volver a aplicar la configuración que desee cada vez que se inicie el sistema de salas de Microsoft Teams. 
 
@@ -182,7 +182,7 @@ Puede usar [PowerShell remoto](rooms-operations.md#remote-management-using-power
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si va a configurar manualmente cada sistema de salas de Microsoft Teams o usar un archivo XML central (uno por dispositivo de salas de Microsoft Teams).</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Defina su enfoque de administración remota.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Defina su enfoque de administración remota.</li></ul>| 
 
 ### <a name="testing"></a> Pruebas
 

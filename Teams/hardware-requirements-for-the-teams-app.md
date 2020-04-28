@@ -11,19 +11,20 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga más información sobre los requisitos de hardware necesarios para instalar y ejecutar Microsoft Teams.
+description: En este artículo, obtendrá información sobre los requisitos de hardware necesarios para instalar y ejecutar Microsoft Teams.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65de6266af5d7b17234cd3b77d867176338d35fa
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: b85df2a7a5cf341c61d86baef89b0df8a3c4f439
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327862"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902535"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Requisitos de hardware para Microsoft Teams
 

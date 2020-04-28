@@ -11,20 +11,20 @@ ms.reviewer: rowille, crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Guía de inicio rápido para configurar Planes de llamada en Microsoft Teams.
+description: Guía de inicio rápido para configurar planes de llamadas en Microsoft Teams para que pueda tener un conjunto de usuarios en funcionamiento.
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a81cd7d3481c9c2f6e3e5c8874eef97dc0540431
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 10d52aca36d92029f8ee832be84e6dc7d140f749
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137780"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902885"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 ==============================================================
@@ -74,7 +74,7 @@ Para asegurarse de que los usuarios reciban todas las llamadas de VOIP y RTC ent
     Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 [Configurar planes de llamadas](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
 [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)

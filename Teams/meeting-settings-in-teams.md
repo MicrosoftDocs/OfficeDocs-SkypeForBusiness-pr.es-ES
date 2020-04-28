@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Aprenda como administrar la configuración de las reuniones de Teams que los usuarios programan en su organización.
-ms.openlocfilehash: 920069ed5f5687111d51411afce9499a2d5db5d2
-ms.sourcegitcommit: ab6099547846f048f1c4cc584a8c5cb8c386d22e
-ms.translationtype: HT
+ms.openlocfilehash: 25945b35ec4800a00ab295ba328d5f1d65ac2ab0
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42413320"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898175"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de las reuniones en Microsoft Teams
 
@@ -36,7 +36,6 @@ Como administrador, usted utiliza la configuración de las reuniones de Teams pa
 
 Con la unión anónima, cualquiera puede unirse a la reunión como usuario anónimo haciendo clic en el enlace de la invitación a la reunión. Para más información, consulte[Únase a una reunión sin una cuenta de Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
 
-
 ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
 1. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de reunión**.
@@ -44,7 +43,8 @@ Con la unión anónima, cualquiera puede unirse a la reunión como usuario anón
 
     ![Captura de pantalla de la configuración de los participantes para las reuniones en el centro de administración](media/meeting-settings-participants.png "Captura de pantalla de la configuración de los participantes para las reuniones de Teams en el centro de administración de Microsoft Teams.")
 
-Si no desea que los usuarios anónimos se unan a las reuniones programadas por los usuarios de su organización, desactive esta opción.
+> [!CAUTION]
+> Si no desea que los usuarios anónimos se unan a las reuniones programadas por los usuarios de su organización, desactive esta opción.
 
 ## <a name="customize-meeting-invitations"></a>Personalice las invitaciones a reuniones
 
@@ -92,7 +92,7 @@ Si utiliza la Calidad de servicio [(QoS)](qos-in-teams.md) para priorizar el tr�
     ![Captura de pantalla de la configuración de la red para las reuniones en el centro de administración](media/meeting-settings-network.png "Captura de pantalla de la configuración de la red para las reuniones de Teams en el centro de administración de Microsoft Teams")
 
     - Para permitir que las marcas de DSCP se utilicen para QoS, Active **Insertar marcadores de calidad de servicio (QoS) para el tráfico de medios en tiempo real**. Sólo tienes la opción de usar marcadores o no; no puedes establecer marcadores personalizados para cada tipo de tráfico. Consulte [Seleccionar un método de implementación de QoS ](QoS-in-Teams.md#select-a-qos-implementation-method) para más información sobre los marcadores DSCP.
-        > [!NOTE] 
+        > [!NOTE]
         > Activar**Insertar marcadores de calidad de servicio (QoS) para el tráfico de medios en tiempo real**también permitirá la comunicación con el relé de transporte con los puertos UDP 3479 (Audio), 3480 (Video) y 3481 (Compartir).  
     - Para especificar los intervalos de los puertos, junto a **Seleccione un rango de puertos para cada tipo de tráfico de medios en tiempo real**, seleccione **Especificar rangos de puertos** y luego, introducir los puertos inicial y final para compartir audio, video y pantalla. La selección de esta opción es necesaria para implementar la QoS.
         > [!IMPORTANT]
@@ -102,7 +102,7 @@ Si utiliza la Calidad de servicio [(QoS)](qos-in-teams.md) para priorizar el tr�
 
 Si no está seguro de los rangos de puertos a utilizar en su entorno, los siguientes ajustes son un buen punto de partida. Para obtener más información, consulte[Implementar la Calidad de servicio (QoS) en Microsoft Teams](QoS-in-Teams.md). Estas son las marcas DSCP requeridas y los rangos de puertos de medios correspondientes sugeridos utilizados tanto por Teams como por ExpressRoute.
 
-_Intervalos de puertos y marcas DSCP_
+### <a name="port-ranges-and-dscp-markings"></a>Intervalos de puertos y marcas DSCP
 
 Tipo de tráfico de medios | Rango de puertos de origen del cliente \* |Protocolo|Valor de DSCP|Clase DSCP|
 |:---             |:---                         |:---    |:---      |:---      |
