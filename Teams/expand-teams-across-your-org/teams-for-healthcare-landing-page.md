@@ -1,6 +1,6 @@
 ---
 title: Teams para sanidad
-description: Use estos recursos para sacar el máximo partido de los equipos de su organización de cuidado de la salud.
+description: Obtenga más información sobre los recursos de administración disponibles para administrar equipos de equipos de salud de su organización.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -17,12 +17,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11700a772cbc961567bf06707244ea67cc0b1406
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5470b33235e61df7003ebbb666e3a6df124c67a0
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008122"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905702"
 ---
 # <a name="teams-for-healthcare"></a>Teams para sanidad
 

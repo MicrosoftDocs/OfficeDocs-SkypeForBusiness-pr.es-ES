@@ -1,6 +1,6 @@
 ---
 title: Teams para el comercio
-description: Use estos recursos para administrar equipos para la organización minorista.
+description: Obtenga más información sobre los recursos de administración disponibles para administrar y sacar el máximo partido de los equipos para las tiendas minoristas y los empleados.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -16,12 +16,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d350812598737215521db8e675fb884336c7ee37
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5d1db862ce796ab64b96df0c36de6931cc6fe0a5
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008112"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905692"
 ---
 # <a name="teams-for-retail"></a>Teams para el comercio
 

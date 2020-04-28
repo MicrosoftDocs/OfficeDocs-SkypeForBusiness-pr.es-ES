@@ -11,33 +11,34 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
-description: Obtenga información sobre cómo descargar y usar la herramienta Asistente para pruebas de red.
+description: Obtenga información sobre cómo descargar y usar la herramienta Asistente para pruebas de red para comprobar la calidad de la red y la conexión.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: a9fffea969ea1448bdf8f2a076dbef6756765e20
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f70e3db61db45897dbb9877bb67b7471ff26d060
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780029"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905162"
 ---
-<a name="use-the-network-testing-companion"></a><span data-ttu-id="0b21f-103">Use el Asistente para pruebas de red</span><span class="sxs-lookup"><span data-stu-id="0b21f-103">Use the Network Testing Companion</span></span>
+<a name="use-the-network-testing-companion"></a><span data-ttu-id="02376-103">Use el Asistente para pruebas de red</span><span class="sxs-lookup"><span data-stu-id="02376-103">Use the Network Testing Companion</span></span>
 =================================
 
-<span data-ttu-id="0b21f-104">El [Asistente de prueba de redes](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4) de Skype empresarial y Microsoft Teams le ofrece una forma sencilla de probar la calidad de la red y la conexión con Skype empresarial online o Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="0b21f-104">The Skype for Business and Microsoft Teams [Network Testing Companion](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4) gives you an easy way to test your network quality and your connection to Skype for Business Online or Microsoft Teams.</span></span> <span data-ttu-id="0b21f-105">Puede interpretar fácilmente los resultados y compartirlos con administradores de red para obtener información sobre posibles problemas de red.</span><span class="sxs-lookup"><span data-stu-id="0b21f-105">You can easily interpret the results and share them with network administrators to gain insights into potential network issues.</span></span>
+<span data-ttu-id="02376-104">El [Asistente de prueba de redes](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4) de Skype empresarial y Microsoft Teams le ofrece una forma sencilla de probar la calidad de la red y la conexión con Skype empresarial online o Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="02376-104">The Skype for Business and Microsoft Teams [Network Testing Companion](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4) gives you an easy way to test your network quality and your connection to Skype for Business Online or Microsoft Teams.</span></span> <span data-ttu-id="02376-105">Puede interpretar fácilmente los resultados y compartirlos con administradores de red para obtener información sobre posibles problemas de red.</span><span class="sxs-lookup"><span data-stu-id="02376-105">You can easily interpret the results and share them with network administrators to gain insights into potential network issues.</span></span>
 
-<span data-ttu-id="0b21f-106">Puede usar esta herramienta en la fase de planeamiento de una implementación de Skype empresarial o Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="0b21f-106">You can use this tool in the planning phase of a Skype for Business or Microsoft Teams deployment.</span></span> <span data-ttu-id="0b21f-107">Si actualmente usa Teams o Skype empresarial online, puede usar esta herramienta para solucionar problemas de calidad de voz o simplemente comprobar la conexión de red antes de hacer una llamada o después de tener una experiencia de mala calidad.</span><span class="sxs-lookup"><span data-stu-id="0b21f-107">If you're currently using Teams or Skype for Business Online, you can use this tool to troubleshoot voice quality issues or simply to check your network connection before you make a call or after you’ve had a poor-quality experience.</span></span>
+<span data-ttu-id="02376-106">Puede usar esta herramienta en la fase de planeamiento de una implementación de Skype empresarial o Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="02376-106">You can use this tool in the planning phase of a Skype for Business or Microsoft Teams deployment.</span></span> <span data-ttu-id="02376-107">Si actualmente usa Teams o Skype empresarial online, puede usar esta herramienta para solucionar problemas de calidad de voz o simplemente comprobar la conexión de red antes de hacer una llamada o después de tener una experiencia de mala calidad.</span><span class="sxs-lookup"><span data-stu-id="02376-107">If you're currently using Teams or Skype for Business Online, you can use this tool to troubleshoot voice quality issues or simply to check your network connection before you make a call or after you've had a poor-quality experience.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="0b21f-108">No necesita una suscripción a Microsoft 365 u Office 365 para descargar e instalar el Asistente para pruebas de red.</span><span class="sxs-lookup"><span data-stu-id="0b21f-108">You don't need a Microsoft 365 or Office 365 subscription to download and install the Network Testing Companion.</span></span>
+> <span data-ttu-id="02376-108">No necesita una suscripción a Microsoft 365 u Office 365 para descargar e instalar el Asistente para pruebas de red.</span><span class="sxs-lookup"><span data-stu-id="02376-108">You don't need a Microsoft 365 or Office 365 subscription to download and install the Network Testing Companion.</span></span>
 
-## <a name="download-the-tool-and-documentation"></a><span data-ttu-id="0b21f-109">Descargar la herramienta y la documentación</span><span class="sxs-lookup"><span data-stu-id="0b21f-109">Download the tool and documentation</span></span>
+## <a name="download-the-tool-and-documentation"></a><span data-ttu-id="02376-109">Descargar la herramienta y la documentación</span><span class="sxs-lookup"><span data-stu-id="02376-109">Download the tool and documentation</span></span>
 
-<span data-ttu-id="0b21f-110">Descargue el complemento de prueba de redes de la [Galería de PowerShell](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4).</span><span class="sxs-lookup"><span data-stu-id="0b21f-110">Download the Network Testing Companion from the [PowerShell Gallery](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4).</span></span>
+<span data-ttu-id="02376-110">Descargue el complemento de prueba de redes de la [Galería de PowerShell](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4).</span><span class="sxs-lookup"><span data-stu-id="02376-110">Download the Network Testing Companion from the [PowerShell Gallery](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4).</span></span>
 
-<span data-ttu-id="0b21f-111">Descargue la guía de [instalación, la guía para usuarios y](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-testing-companion.zip?raw=true)la guía de resultados.</span><span class="sxs-lookup"><span data-stu-id="0b21f-111">Download the [Installation Guide, User Guide, and Results Guidance](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-testing-companion.zip?raw=true).</span></span>
+<span data-ttu-id="02376-111">Descargue la guía de [instalación, la guía para usuarios y](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-testing-companion.zip?raw=true)la guía de resultados.</span><span class="sxs-lookup"><span data-stu-id="02376-111">Download the [Installation Guide, User Guide, and Results Guidance](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-testing-companion.zip?raw=true).</span></span>

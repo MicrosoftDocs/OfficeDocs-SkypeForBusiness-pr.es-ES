@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams para el ámbito educativo
-description: Uso de Teams para el ámbito educativo para crear clases de colaboración, conectarse a comunidades profesionales de aprendizaje y comunicarse con estudiantes y profesores.
+description: Obtenga más información sobre los recursos de administración disponibles para ayudarle a implementar, adoptar y administrar correctamente equipos de su escuela o institución.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -15,13 +15,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1a5948a8702a9759a7ed523b035856f4cacd45b4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d2ca8d15e25636da12bc48e14bd46dfae68ba1f6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136860"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905712"
 ---
 # <a name="teams-for-education"></a>Microsoft Teams para el ámbito educativo
 
