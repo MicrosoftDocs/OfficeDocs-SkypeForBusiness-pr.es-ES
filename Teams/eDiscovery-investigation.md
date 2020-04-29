@@ -1,7 +1,7 @@
 ---
 title: Realizar una investigación de contenido en eDiscovery
 author: LolaJacobsen
-ms.author: lolaj
+ms.author: hakank
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: Obtenga información sobre qué hacer cuando necesite realizar una 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b31f2efb613551ab17320900e45cf30d0ee11be
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: 67006fba94a58514fa33c91edd0a46312396b31a
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521546"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918588"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -40,17 +40,15 @@ No todo el contenido de los equipos está eDiscoverable. En la tabla siguiente s
 |:--- | --- |:--- |
 | Mensajes de chat de Teams | Sí | Los mensajes instantáneos de chats en los que los usuarios invitados son los únicos participantes en una conversación de 1:1 o 1: N no eDiscoverable. |
 | Grabaciones de audio | No | |
-| Marca de tiempo que muestra Cuándo cada usuario leyó un mensaje | No | |
-| Grabaciones de audio | No | |
 | Mensajes de canal privado | No | |
 | Emojis, GIF, adhesivos | Sí | |
 | Fragmentos de código | No | |
-| Vínculos de chat | No | |
+| Vínculos de chat | Sí | |
 | Reacciones (me gusta, corazones, etc.) | No | |
 | Mensajes editados | Sí | Si el usuario se encuentra en espera, se conservan las versiones anteriores de los mensajes editados. |
 | Imágenes en línea | Sí | |
-| Tablas | No | |
-| Asunto | No | |
+| Tablas | Sí | |
+| Asunto | Sí | |
 | Ellas | Sí | El contenido entrecomillado se encuentra en búsqueda. Sin embargo, los resultados de la búsqueda no indican que el contenido se presupuestó. |
 | Nombre del canal | No | |
 
@@ -162,7 +160,7 @@ Un conjunto de revisión de conversaciones ofrece una vista más intuitiva y enc
 
 La funcionalidad, como censura, está disponible en ambos tipos de conjuntos de revisión.
 
-Para obtener más información acerca de los conjuntos de revisiones, vea [revisar las conversaciones en la exhibición avanzada de](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets) datos
+Para obtener más información acerca de los conjuntos de revisión, consulte [revisar las conversaciones en la exhibición avanzada de](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)datos.
 
 #### <a name="collection-options"></a>Opciones de colección
 

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: d06dbe4d2a6e7750abba5352becc15be1daf8ce6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 689b22a98c986ca73ae3926785f75dcb6c6a9e74
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904435"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918709"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -44,7 +44,7 @@ Puede implementar directivas de las siguientes maneras, que afectan a la experie
 |Por organizador y por usuario     |Al implementar una combinación de una directiva por organizador y por usuario, ciertas características están restringidas para los participantes de la reunión en función de su Directiva y la Directiva del organizador. Por ejemplo, **permitir la grabación en la nube** es una directiva por organizador y por usuario. Active esta configuración para permitir que el organizador de la reunión y los participantes inicien y detengan una grabación.
 
 De forma predeterminada, se crea una directiva denominada global (opción predeterminada para toda la organización). De forma predeterminada, todos los usuarios de su organización tienen asignada la Directiva de reunión global. Puede realizar cambios en ella o crear una o más directivas personalizadas y asignarles usuarios. Los usuarios recibirán la directiva global a menos que cree y asigne una directiva personalizada. Al crear una directiva personalizada, puede permitir o impedir que determinadas características estén disponibles para los usuarios y, a continuación, asignarlas a uno o más usuarios a los que se les aplicará la configuración.
-
+-Nota: el botón detalles de la reunión se availiable si un usuario tiene habilitadas las licencias de audioconference o si el usuario permite audioconferencing, de lo contrario, los detalles de la reunión no se availiable
 ## <a name="change-or-create-a-meeting-policy"></a>Cambiar o crear una directiva de reunión
 
 Para cambiar o crear una directiva de reunión, vaya al Centro de administración de Microsoft Teams > **Reuniones** > **Directivas de reunión**. Seleccione una directiva de la lista o seleccione **Agregar**. Si está creando una nueva directiva, agregue un nombre y una descripción. El nombre no puede contener caracteres especiales ni tener más de 64 caracteres. Elija la configuración y, a continuación, seleccione **Guardar**.
@@ -139,7 +139,7 @@ Tenga en cuenta que si desactiva permitir la programación de **reuniones privad
 - [Permitir la transcripción](#allow-transcription)
 - [Permitir la grabación en la nube](#allow-cloud-recording)
 - [Permitir vídeo IP](#allow-ip-video)
-- [Velocidad de bits multimedia (KB)](#media-bit-rate-kbs)
+- [Velocidad de bits multimedia (KPS)](#media-bit-rate-kps)
 
 ### <a name="allow-transcription"></a>Permitir la transcripción
 
@@ -188,9 +188,9 @@ En las reuniones hospedadas por Amanda, nadie puede activar el video, independie
 
 Si Daniela llama Amanda con video on, Amanda puede contestar la llamada solo con audio.  Cuando la llamada está conectada, Amanda puede ver el vídeo de Daniela, pero no puede activar el vídeo. Si Amanda llama a Daniela, Daniela puede responder a la llamada con video y audio. Cuando la llamada está conectada, Daniela puede activar o desactivar el video, según sea necesario.
 
-### <a name="media-bit-rate-kbs"></a>Velocidad de bits multimedia (KB)
+### <a name="media-bit-rate-kps"></a>Velocidad de bits multimedia (KPS)
 
-Esta es una directiva por usuario. Esta configuración determina la velocidad de bits de multimedia para las transtransmisións de uso compartido de aplicaciones de audio, vídeo y vídeo en llamadas y reuniones para el usuario. Se aplica a los usuarios de la llamada o a la reunión, tanto al vínculo ascendente como al enlace descendente multimedia. Esta configuración le da un control granular sobre la administración del ancho de banda de su organización. En función de los escenarios de reuniones requeridos por los usuarios, le recomendamos disponer de suficiente ancho de banda para obtener una experiencia de buena calidad. El valor mínimo es 30 Kbps y el valor máximo depende del escenario de la reunión. Para obtener más información sobre el ancho de banda mínimo recomendado para reuniones, llamadas y eventos en vivo de buena calidad en Teams, consulte [requisitos de ancho de banda](prepare-network.md#bandwidth-requirements).
+Esta es una directiva por usuario. Esta configuración determina la velocidad de bits de multimedia para las transtransmisións de uso compartido de aplicaciones de audio, vídeo y vídeo en llamadas y reuniones para el usuario. Se aplica a los usuarios de la llamada o a la reunión, tanto al vínculo ascendente como al enlace descendente multimedia. Esta configuración le da un control granular sobre la administración del ancho de banda de su organización. En función de los escenarios de reuniones requeridos por los usuarios, le recomendamos disponer de suficiente ancho de banda para obtener una experiencia de buena calidad. El valor mínimo es 30 KPS y el valor máximo depende del escenario de la reunión. Para obtener más información sobre el ancho de banda mínimo recomendado para reuniones, llamadas y eventos en vivo de buena calidad en Teams, consulte [requisitos de ancho de banda](prepare-network.md#bandwidth-requirements).
 
 Si no hay suficiente ancho de banda para una reunión, los participantes verán un mensaje que indica una mala calidad de la red.
 

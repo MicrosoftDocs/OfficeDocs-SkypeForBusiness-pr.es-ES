@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Más información sobre cómo activar y usar el panel de calidad de llamadas y obtener informes de Resumen de la calidad de las llamadas.
-ms.openlocfilehash: bfb67c6246581513d06ad4489ab8c3b534ad04d4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 874b074047e191422d552236dea1d0f1e746780d
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43914071"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918836"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y usar el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online
 
@@ -38,6 +38,30 @@ Obtenga información sobre cómo configurar Microsoft 365 u Office 365 para usar
 El panel de calidad de llamadas (CQD) proporciona una perspectiva de la calidad de las llamadas hechas con Microsoft Teams y los servicios de Skype empresarial online. En este tema se describen los pasos para empezar a recopilar datos que puede usar para solucionar problemas de calidad de la llamada.
 
 Actualmente, el CQD y el CQD de avanzada están disponibles para su uso. El CQD avanzado está disponible <span>https://cqd.teams.microsoft.com</span>en. Nueva dirección URL, pero el mismo inicio de sesión con las credenciales de administrador.
+
+## <a name="assign-roles-for-accessing-cqd"></a>Asignar roles para acceder al CQD
+
+Asigne [roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para acceder al CQD a las personas que necesitan usarlo. 
+
+En esta tabla se muestra lo que cada rol puede hacer en el CQD:
+
+
+|  |Ver informes  |Ver campos de EUII  |Crear informes  |Cargar datos de compilación  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|Administrador global     |Sí          |Sí          |Sí          |Sí          |
+|Administrador de servicios de Teams     |Sí          |Sí          |Sí          |Sí          |
+|Administrador de comunicaciones de Teams     |Sí          |Sí          |Sí          |Sí          |
+|Ingeniero de soporte en comunicaciones de Teams     |Sí          |Sí          |Sí         |No         |
+|Especialista de soporte técnico de comunicaciones de Teams     |Sí         |No         |Sí         |No         |
+|Administrador de Skype empresarial     |Sí          |Sí          |Sí          |Sí          |
+|Lector global de Azure AD |Sí          |Sí          |Sí         |No         |
+|Lector de informes de Microsoft 365<sup>1</sup>     |Sí         |No         |Sí         |No         |
+
+<sup>1</sup> además de leer los informes de CQD, el lector de informes de Microsoft 365 puede ver todos los [informes de actividades](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) en el centro de administración y los informes del paquete de contenido de [adopción de Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+
+> [!NOTE]
+> Si no ve EUII (información identificable por el usuario final) y tiene una de las funciones que pueden ver esta información, tenga en cuenta que el CQD solo mantiene el EUII por 30 días. Se eliminarán los que tengan más de 30 días.
+
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Usar Power BI para analizar los datos del CQD
 
@@ -500,7 +524,7 @@ Estos roles de administrador pueden acceder al CQD, pero no pueden ver la inform
 - Lector de informes de Microsoft 365
 - Especialista de soporte técnico de comunicaciones de Teams
 
-Para obtener más información sobre los roles que pueden obtener acceso al CQD, incluyendo EUII-Read, [asigne roles para acceder al CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).
+Para obtener más información sobre los roles que pueden obtener acceso al CQD, incluyendo EUII-Read, [asigne roles para acceder al CQD](#assign-roles-for-accessing-cqd).
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>¿Por qué veo la información de Skype para empresas en el CQD cuando he filtrado solo para equipos?
 

@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el informe de uso de RTC de T
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 411cf551697bd1fdd0902dc2d906e1c7752cd27d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0a6836e6f29cce1d55ff755cd1fa8ac5b18dea06
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904305"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918578"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Informe de uso de RTC de Microsoft Teams
 
@@ -104,56 +104,58 @@ La primera fila del archivo CSV contiene nombres de columna. Todas las fechas so
 
  Puede exportar datos hasta un año a partir de la fecha actual, a menos que las regulaciones específicas del país prohíban la retención de los datos por 12 meses.
 
-| # | Nombre | [Tipo de datos (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Descripción |
-| :-: | :-: | :-: |:------------------- |
-| ,0 | UsageId | `uniqueidentifier` | Identificador de llamada único |
-| 1 | Id. de llamada | `nvarchar(64)` | Identificador de llamada. No se garantiza que sea único |
-| 2 | Id. de conferencia | `nvarchar(64)` | IDENTIFICADOR de la Conferencia de audio |
-| 3 | Ubicación del usuario | `nvarchar(2)` | Prefijo internacional del usuario, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4 | ObjectId de AAD | `uniqueidentifier` | Llamando al identificador de usuario en Azure Active Directory.<br/> Esta y otra información de usuario serán nulas o vacías para los tipos de llamada de Bot (ucap_in, ucap_out) |
-| 5 | PRINCIPAL | `nvarchar(128)` | UserPrincipalName (nombre de inicio de sesión) en Azure Active Directory.<br/>Normalmente es el mismo que la dirección SIP del usuario y puede ser igual a la dirección de correo electrónico del usuario. |
-| 6 | Nombre para mostrar del usuario | `nvarchar(128)` | Nombre para mostrar del usuario |
-| 7 | Identificador de llamada | `nvarchar(128)` | Número que recibió la llamada de llamadas entrantes o el número marcado para llamadas salientes. Formato [E. 164](https://en.wikipedia.org/wiki/E.164) |
-| 4,8 | Tipo de llamada | `nvarchar(32)` | Si la llamada fue una llamada entrante o saliente de RTC y el tipo de llamada, como una llamada realizada por un usuario o una conferencia de audio |
-| 99,999 | Tipo de número | `nvarchar(16)` | Tipo de número de teléfono del usuario, como un servicio de número gratuito |
-| base10 | Nacional o internacional | `nvarchar(16)` | Si la llamada era nacional (dentro de un país o región) o internacional (fuera de un país o región) en función de la ubicación del usuario |
-| once | Destino marcado | `nvarchar(64)` | País o región marcados |
-| 2007 | Número de destino | `nvarchar(32)` | Número marcado en formato [E. 164](https://en.wikipedia.org/wiki/E.164) |
-| 13 | Hora de inicio | `datetimeoffset` | Hora de inicio de la llamada |
-| 14 | Hora de finalización | `datetimeoffset` | Hora de finalización de la llamada |
-| 4,5 | Segundos de duración | `int` | Cuánto tiempo se conectó la llamada |
-| apartado | Cargo por conexión | `numeric(16, 2)` | Precio de la tarifa por conexión |
-| apartado | Cargas | `numeric(16, 2)` | Cantidad de dinero o coste de la llamada que se cobra a tu cuenta |
-| 18 | Moneda | `nvarchar(3)` | Tipo de moneda que se usa para calcular el costo de la llamada ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
-| 19 | Función | `nvarchar(32)` | La licencia usada para la llamada |
+> [!div class="has-no-wrap"]  
+> | # | Nombre | [Tipo de datos (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Descripción |
+> | :-: | :-: | :-: |:------------------- |
+> | ,0 | UsageId | `uniqueidentifier` | Identificador de llamada único |
+> | 1 | Id. de llamada | `nvarchar(64)` | Identificador de llamada. No se garantiza que sea único |
+> | 2 | Id. de conferencia | `nvarchar(64)` | IDENTIFICADOR de la Conferencia de audio |
+> | 3 | Ubicación del usuario | `nvarchar(2)` | Prefijo internacional del usuario, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | ObjectId de AAD | `uniqueidentifier` | Llamando al identificador de usuario en Azure Active Directory.<br/> Esta y otra información de usuario serán nulas o vacías para los tipos de llamada de Bot (ucap_in, ucap_out) |
+> | 5 | PRINCIPAL | `nvarchar(128)` | UserPrincipalName (nombre de inicio de sesión) en Azure Active Directory.<br/>Normalmente es el mismo que la dirección SIP del usuario y puede ser igual a la dirección de correo electrónico del usuario. |
+> | 6 | Nombre para mostrar del usuario | `nvarchar(128)` | Nombre para mostrar del usuario |
+> | 7 | Identificador de llamada | `nvarchar(128)` | Número que recibió la llamada de llamadas entrantes o el número marcado para llamadas salientes. Formato [E. 164](https://en.wikipedia.org/wiki/E.164) |
+> | 4,8 | Tipo de llamada | `nvarchar(32)` | Si la llamada fue una llamada entrante o saliente de RTC y el tipo de llamada, como una llamada realizada por un usuario o una conferencia de audio |
+> | 99,999 | Tipo de número | `nvarchar(16)` | Tipo de número de teléfono del usuario, como un servicio de número gratuito |
+> | base10 | Nacional o internacional | `nvarchar(16)` | Si la llamada era nacional (dentro de un país o región) o internacional (fuera de un país o región) en función de la ubicación del usuario |
+> | once | Destino marcado | `nvarchar(64)` | País o región marcados |
+> | 2007 | Número de destino | `nvarchar(32)` | Número marcado en formato [E. 164](https://en.wikipedia.org/wiki/E.164) |
+> | 13 | Hora de inicio | `datetimeoffset` | Hora de inicio de la llamada |
+> | 14 | Hora de finalización | `datetimeoffset` | Hora de finalización de la llamada |
+> | 4,5 | Segundos de duración | `int` | Cuánto tiempo se conectó la llamada |
+> | apartado | Cargo por conexión | `numeric(16, 2)` | Precio de la tarifa por conexión |
+> | apartado | Cargas | `numeric(16, 2)` | Cantidad de dinero o coste de la llamada que se cobra a tu cuenta |
+> | 18 | Moneda | `nvarchar(3)` | Tipo de moneda que se usa para calcular el costo de la llamada ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
+> | 19 | Función | `nvarchar(32)` | La licencia usada para la llamada |
 
 ### <a name="exported-direct-routing-usage-report"></a>Informe de uso de enrutamiento directo exportado
 
 Puede exportar datos hasta cinco meses (150 días) de la fecha actual, a menos que las regulaciones específicas del país prohíban la retención de los datos para ese período.
 
-| # | Nombre | [Tipo de datos (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Descripción |
-| :-: | :-: | :-: |:------------------- |
-| ,0 | CorrelationId | `uniqueidentifier` | Identificador de llamada único |
-| 1 | Dirección SIP | `nvarchar(128)` | La dirección del usuario o bot que hizo o recibió la llamada.<br/>Tenga en cuenta que esto es, en realidad, UserPrincipalName (nombre de inicio de sesión) en Azure Active Directory, que suele ser la misma que la dirección SIP |
-| 2 | Nombre para mostrar | `nvarchar(128)` | El nombre de un usuario o un bot de llamada (por ejemplo, cola de llamadas o operador automático) según se establece en el centro de administración de Microsoft 365 |
-| 3 | País del usuario | `nvarchar(2)` | Prefijo internacional del usuario, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4 | Hora de invitación | `datetimeoffset` | Cuando la invitación inicial envió el mensaje entrante de Teams o una llamada de bot a la SBC, o recibida en el mensaje entrante a teams o una llamada de bot por el componente proxy SIP de enrutamiento directo desde la SBC |
-| 5 | Hora de inicio | `datetimeoffset` | Hora en la que el proxy SIP recibió la respuesta final (mensaje SIP "200 correcto") desde la SBC en salida (Teams/bot a un usuario de la RTC) o después de que el proxy SIP envíe la invitación al siguiente salto dentro de Teams backend en la llamada entrante (usuario de RTC a teams/bot).<br/>Para las llamadas fallidas o no respondidas, esto puede ser igual a la hora de invitación o de error. |
-| 6 | Hora de error | `datetimeoffset` | Solo existe para llamadas fallidas (no establecidas) |
-| 7 | Hora de finalización | `datetimeoffset` | Solo existe para las llamadas correctas (completamente establecidas). Hora de finalización de la llamada |
-| 4,8 | Duración (segundos) | `int` | Duración de la llamada |
-| 99,999 | Correcto | `nvarchar(3)` | Sí/no. Éxito o intento |
-| base10 | Número de llamada | `nvarchar(32)` | Número del usuario o bot que realizó la llamada. En el tráfico entrante a la llamada de un usuario de equipo será un usuario de RTC, en salida de la llamada del usuario de Teams será el número de usuario de Teams |
-| 2007 | Número de destinatario de la llamada | `nvarchar(32)` | Número del usuario o bot que recibió la llamada. En el tráfico entrante a la llamada de un usuario de equipo será el usuario de Teams, en salida de la llamada del usuario de Teams será el usuario de la RTC. |
-| 13 | Tipo de llamada | `nvarchar(32)` | Tipo y dirección de la llamada |
-| 14 | Región de Azure para multimedia | `nvarchar(8)` | Centro de recursos usado para la ruta multimedia en una llamada que no es de omisión |
-| 4,5 | Región de Azure para la señalización | `nvarchar(8)` | Centro de recursos usado para la señalización de llamadas de omisión y de no omisión |
-| apartado | Código del SIP final | `int` | El código con el que finalizó la llamada, [RFC 3261](https://tools.ietf.org/html/rfc3261) |
-| apartado | Subcódigo final de Microsoft | `int` | Además de los códigos SIP, Microsoft tiene subcódigoes propios que indican el problema específico. |
-| 18 | Frase final del SIP | `nvarchar(256)` | Descripción del código SIP y el subcódigo de Microsoft |
-| 19 | FQDN DE SBC | `nvarchar(64)` | Nombre de dominio completo del controlador de borde de sesión |
-| veinte | Omisión de medios | `nvarchar(3)` | Sí/no. Indica si el tronco se ha habilitado para la omisión de medios o no. |
-| 21Vianet | IDENTIFICADOR de correlación compartido | `uniqueidentifier` | Indica que dos o más llamadas están relacionadas |
+> [!div class="has-no-wrap"]  
+> | # | Nombre | [Tipo de datos (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Descripción |
+> | :-: | :-: | :-: |:------------------- |
+> | ,0 | CorrelationId | `uniqueidentifier` | Identificador de llamada único |
+> | 1 | Dirección SIP | `nvarchar(128)` | La dirección del usuario o bot que hizo o recibió la llamada.<br/>Tenga en cuenta que esto es, en realidad, UserPrincipalName (nombre de inicio de sesión) en Azure Active Directory, que suele ser la misma que la dirección SIP |
+> | 2 | Nombre para mostrar | `nvarchar(128)` | El nombre de un usuario o un bot de llamada (por ejemplo, cola de llamadas o operador automático) según se establece en el centro de administración de Microsoft 365 |
+> | 3 | País del usuario | `nvarchar(2)` | Prefijo internacional del usuario, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | Hora de invitación | `datetimeoffset` | Cuando la invitación inicial envió el mensaje entrante de Teams o una llamada de bot a la SBC, o recibida en el mensaje entrante a teams o una llamada de bot por el componente proxy SIP de enrutamiento directo desde la SBC |
+> | 5 | Hora de inicio | `datetimeoffset` | Hora en la que el proxy SIP recibió la respuesta final (mensaje SIP "200 correcto") desde la SBC en salida (Teams/bot a un usuario de la RTC) o después de que el proxy SIP envíe la invitación al siguiente salto dentro de Teams backend en la llamada entrante (usuario de RTC a teams/bot).<br/>Para las llamadas fallidas o no respondidas, esto puede ser igual a la hora de invitación o de error. |
+> | 6 | Hora de error | `datetimeoffset` | Solo existe para llamadas fallidas (no establecidas) |
+> | 7 | Hora de finalización | `datetimeoffset` | Solo existe para las llamadas correctas (completamente establecidas). Hora de finalización de la llamada |
+> | 4,8 | Duración (segundos) | `int` | Duración de la llamada |
+> | 99,999 | Correcto | `nvarchar(3)` | Sí/no. Éxito o intento |
+> | base10 | Número de llamada | `nvarchar(32)` | Número del usuario o bot que realizó la llamada. En el tráfico entrante a la llamada de un usuario de equipo será un usuario de RTC, en salida de la llamada del usuario de Teams será el número de usuario de Teams |
+> | 2007 | Número de destinatario de la llamada | `nvarchar(32)` | Número del usuario o bot que recibió la llamada. En el tráfico entrante a la llamada de un usuario de equipo será el usuario de Teams, en salida de la llamada del usuario de Teams será el usuario de la RTC. |
+> | 13 | Tipo de llamada | `nvarchar(32)` | Tipo y dirección de la llamada |
+> | 14 | Región de Azure para multimedia | `nvarchar(8)` | Centro de recursos usado para la ruta multimedia en una llamada que no es de omisión |
+> | 4,5 | Región de Azure para la señalización | `nvarchar(8)` | Centro de recursos usado para la señalización de llamadas de omisión y de no omisión |
+> | apartado | Código del SIP final | `int` | El código con el que finalizó la llamada, [RFC 3261](https://tools.ietf.org/html/rfc3261) |
+> | apartado | Subcódigo final de Microsoft | `int` | Además de los códigos SIP, Microsoft tiene subcódigoes propios que indican el problema específico. |
+> | 18 | Frase final del SIP | `nvarchar(256)` | Descripción del código SIP y el subcódigo de Microsoft |
+> | 19 | FQDN DE SBC | `nvarchar(64)` | Nombre de dominio completo del controlador de borde de sesión |
+> | veinte | Omisión de medios | `nvarchar(3)` | Sí/no. Indica si el tronco se ha habilitado para la omisión de medios o no. |
+> | 21Vianet | IDENTIFICADOR de correlación compartido | `uniqueidentifier` | Indica que dos o más llamadas están relacionadas |
 
 
 ## <a name="related-topics"></a>Temas relacionados
