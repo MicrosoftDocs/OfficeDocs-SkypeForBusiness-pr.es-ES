@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: El nuevo área informes del centro de administración de Skype empresarial muestra la actividad de llamadas y audioconferencias en su organización. Le permite profundizar en los informes para proporcionarle información más detallada sobre las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver los detalles de uso de RTC de conferencias de audio, incluido el costo de la llamada, para que pueda comprender su uso y los detalles de facturación para determinar el uso dentro de su organización.
-ms.openlocfilehash: 4161f0f9f0b6e011b67f94afc14b5ac793fc1009
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e298bc79b821a8ec8373186a879b94790bc9d151
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776275"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918518"
 ---
 # <a name="pstn-usage-report"></a>Informe de uso de RTC
 
@@ -32,7 +32,7 @@ El nuevo área **informes** del centro de administración de Skype empresarial m
   
 Consulte la [información general](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) de los informes para ver más informes que están disponibles.
   
-Este informe, junto con los otros informes de Skype empresarial, ofrece detalles sobre la actividad, lo que incluye el uso en toda la organización. Estos detalles son muy útiles para investigar, planear y tomar otras decisiones empresariales para su organización y para configurar [créditos de comunicaciones](/microsoftteams/what-are-communications-credits) .
+Este informe, junto con los otros informes de Skype empresarial, ofrece detalles sobre la actividad, lo que incluye el uso en toda la organización. Estos detalles son muy útiles para investigar, planear y tomar otras decisiones empresariales para su organización y para configurar [créditos de comunicaciones](/microsoftteams/what-are-communications-credits).
   
 > [!NOTE]
 > Puede ver todos los informes de Skype empresarial cuando inicia sesión como administrador en el centro de administración de Microsoft 365. 
@@ -77,8 +77,9 @@ Este es el aspecto del informe.
      **Aplicaciones de comunicaciones unificadas (UCAP)** 
      *    **ucap_in** (una llamada RTC entrante a la aplicación de comunicaciones unificadas, como el operador automático o la cola de llamadas) 
      *    **ucap_out** (una llamada RTC saliente de la aplicación de comunicaciones unificadas, como un operador automático o una cola de llamadas)
-     *    **Nota:** Las llamadas que se transfirieron a un usuario desde la aplicación de comunicaciones unificadas, como un operador automático o una cola de llamadas, no aparecerán en el informe de uso de RTC, ya que las llamadas de audio de par a par (P2P). Puede acceder a las llamadas de P2P en el centro de administración de Skype empresarial en "herramientas > de análisis de llamadas de Skype empresarial" y buscar por nombre de usuario o dirección SIP correlacionando la llamada por fecha y hora, o de CLID (ID. de línea de llamada). 
-*     
+         > [!NOTE]
+         > Las llamadas que se transfirieron a un usuario desde la aplicación de comunicaciones unificadas, como un operador automático o una cola de llamadas, no aparecerán en el informe de uso de RTC, ya que las llamadas de audio de par a par (P2P). Puede acceder a las llamadas de P2P en el centro de administración de Skype empresarial en "herramientas > de análisis de llamadas de Skype empresarial" y buscar por nombre de usuario o dirección SIP correlacionando la llamada por fecha y hora, o de CLID (ID. de línea de llamada). 
+
      **Nacional/internacional** indica si la llamada que se colocó se consideró nacional (dentro de un país o región) o internacional (fuera de un país o región) en función de la ubicación del usuario. 
 *    **Destino marcado** es el nombre del destino del país o la región que se marca como Francia, Alemania o Estados Unidos (EE. UU.). 
 *    **Tipo de número** es el tipo de número de teléfono del número de teléfono de un usuario, un servicio o un número gratuito.  
@@ -125,28 +126,29 @@ La primera fila del archivo CSV contiene nombres de columna.
 
 Archivo exportado contiene campos adicionales que no están disponibles en el informe en línea. Se pueden usar para la solución de problemas y los flujos de trabajo automatizados.
 
-| #  | Nombre | [Tipo de datos (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Descripción |
-| :-: | :-: | :-: |:------------------- |
-| ,0 | UsageId | `uniqueidentifier` | Identificador de llamada único |
-| 1 | Id. de llamada | `nvarchar(64)` | Identificador de llamada. No se garantiza que sea único |
-| 1 | Id. de conferencia | `nvarchar(64)` | IDENTIFICADOR de la Conferencia de audio |
-| 3 | Ubicación del usuario | `nvarchar(2)` | Prefijo internacional del usuario, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4 | ObjectId de AAD | `uniqueidentifier` | Llamando al identificador de usuario en Azure Active Directory.<br/> Esta y otra información de usuario serán nulas o vacías para los tipos de llamada de Bot (ucap_in, ucap_out) |
-| 5 | PRINCIPAL | `nvarchar(128)` | UserPrincipalName (nombre de inicio de sesión) en Azure Active Directory.<br/>Normalmente es el mismo que la dirección SIP del usuario y puede ser igual a la dirección de correo electrónico del usuario. |
-| 6 | Nombre para mostrar del usuario | `nvarchar(128)` | Nombre para mostrar del usuario |
-| 7 | Identificador de llamada | `nvarchar(128)` | Número que recibió la llamada de llamadas entrantes o el número marcado para llamadas salientes. Formato [E. 164](https://en.wikipedia.org/wiki/E.164) |
-| 4,8 | Tipo de llamada | `nvarchar(32)` | Si la llamada fue una llamada entrante o saliente de RTC y el tipo de llamada, como una llamada realizada por un usuario o una conferencia de audio |
-| 99,999 | Tipo de número | `nvarchar(16)` | Tipo de número de teléfono del usuario, como un servicio de número gratuito |
-| base10 | Nacional o internacional | `nvarchar(16)` | Si la llamada era nacional (dentro de un país o región) o internacional (fuera de un país o región) en función de la ubicación del usuario |
-| once | Destino marcado | `nvarchar(64)` | País o región marcados |
-| 2007 | Número de destino | `nvarchar(32)` | Número marcado en formato [E. 164](https://en.wikipedia.org/wiki/E.164) |
-| 13 | Hora de inicio | `datetimeoffset` | Hora de inicio de la llamada (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
-| 14 | Hora de finalización | `datetimeoffset` | Hora de finalización de la llamada (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
-| 4,5 | Segundos de duración | `int` | Cuánto tiempo se conectó la llamada |
-| apartado | Cargo por conexión | `numeric(16, 2)` | Precio de la tarifa por conexión |
-| apartado | Cargas | `numeric(16, 2)` | Cantidad de dinero o coste de la llamada que se cobra a tu cuenta |
-| 18 | Moneda | `nvarchar(3)` | Tipo de moneda que se usa para calcular el costo de la llamada ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
-| 19 | Función | `nvarchar(32)` | La licencia usada para la llamada |
+> [!div class="has-no-wrap"]  
+> | #  | Nombre | [Tipo de datos (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Descripción |
+> | :-: | :-: | :-: |:------------------- |
+> | ,0 | UsageId | `uniqueidentifier` | Identificador de llamada único |
+> | 1 | Id. de llamada | `nvarchar(64)` | Identificador de llamada. No se garantiza que sea único |
+> | 2 | Id. de conferencia | `nvarchar(64)` | IDENTIFICADOR de la Conferencia de audio |
+> | 3 | Ubicación del usuario | `nvarchar(2)` | Prefijo internacional del usuario, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | ObjectId de AAD | `uniqueidentifier` | Llamando al identificador de usuario en Azure Active Directory.<br/> Esta y otra información de usuario serán nulas o vacías para los tipos de llamada de Bot (ucap_in, ucap_out) |
+> | 5 | PRINCIPAL | `nvarchar(128)` | UserPrincipalName (nombre de inicio de sesión) en Azure Active Directory.<br/>Normalmente es el mismo que la dirección SIP del usuario y puede ser igual a la dirección de correo electrónico del usuario. |
+> | 6 | Nombre para mostrar del usuario | `nvarchar(128)` | Nombre para mostrar del usuario |
+> | 7 | Identificador de llamada | `nvarchar(128)` | Número que recibió la llamada de llamadas entrantes o el número marcado para llamadas salientes. Formato [E. 164](https://en.wikipedia.org/wiki/E.164) |
+> | 4,8 | Tipo de llamada | `nvarchar(32)` | Si la llamada fue una llamada entrante o saliente de RTC y el tipo de llamada, como una llamada realizada por un usuario o una conferencia de audio |
+> | 99,999 | Tipo de número | `nvarchar(16)` | Tipo de número de teléfono del usuario, como un servicio de número gratuito |
+> | base10 | Nacional o internacional | `nvarchar(16)` | Si la llamada era nacional (dentro de un país o región) o internacional (fuera de un país o región) en función de la ubicación del usuario |
+> | once | Destino marcado | `nvarchar(64)` | País o región marcados |
+> | 2007 | Número de destino | `nvarchar(32)` | Número marcado en formato [E. 164](https://en.wikipedia.org/wiki/E.164) |
+> | 13 | Hora de inicio | `datetimeoffset` | Hora de inicio de la llamada (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+> | 14 | Hora de finalización | `datetimeoffset` | Hora de finalización de la llamada (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+> | 4,5 | Segundos de duración | `int` | Cuánto tiempo se conectó la llamada |
+> | apartado | Cargo por conexión | `numeric(16, 2)` | Precio de la tarifa por conexión |
+> | apartado | Cargas | `numeric(16, 2)` | Cantidad de dinero o coste de la llamada que se cobra a tu cuenta |
+> | 18 | Moneda | `nvarchar(3)` | Tipo de moneda que se usa para calcular el costo de la llamada ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
+> | 19 | Función | `nvarchar(32)` | La licencia usada para la llamada |
 
     
 ## <a name="want-to-see-other-skype-for-business-reports"></a>¿Desea ver otros informes de Skype Empresarial?

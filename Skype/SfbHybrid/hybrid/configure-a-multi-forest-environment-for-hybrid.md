@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: En las secciones siguientes se proporcionan instrucciones sobre cómo configurar un entorno con varios bosques en un modelo de bosque de recursos y usuarios para proporcionar funcionalidad de Skype empresarial en un escenario híbrido.
-ms.openlocfilehash: 3a0a5f08c9be4c6ba4c954a4100794d83d46ea53
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acfca3b29407b019b87f5429906dbc72b4ef7dc3
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780129"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918689"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Implementación del recurso de topología entre bosques
  
@@ -61,11 +61,11 @@ Para obtener la sincronización de identidades correcta, se deben sincronizar lo
 |**Bosques de usuarios**|**Bosques de recursos**|
 |:-----|:-----|
 |atributo de vínculo de cuenta elegido  <br/> |atributo de vínculo de cuenta elegido  <br/> |
-|mail  <br/> |mail  <br/> |
+|correo  <br/> |correo  <br/> |
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-El [atributo de vínculo de cuenta elegido](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) se usará como el delimitador de origen. Si tiene un atributo diferente e inmutable que preferiría usar, puede hacerlo; solo tiene que asegurarse de editar la regla de notificaciones de AD FS y seleccionar el atributo durante la configuración de AAD Connect.
+El [atributo de vínculo de cuenta elegido](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts) se usará como el delimitador de origen. Si tiene un atributo diferente e inmutable que preferiría usar, puede hacerlo; solo tiene que asegurarse de editar la regla de notificaciones de AD FS y seleccionar el atributo durante la configuración de AAD Connect.
   
 No sincronice los UPN entre los bosques. Encontramos durante las pruebas que necesitábamos usar un UPN único para cada bosque de usuarios, ya que no se puede usar el mismo UPN en varios bosques. Como resultado, se presentaron dos posibilidades para sincronizar el UPN o no sincronizar. 
   
@@ -121,14 +121,16 @@ AAD Connect debe instalarse con los valores predeterminados, excepto los siguien
     
 3. Identificar a los usuarios en directorios locales: seleccione las **identidades de usuario que existen en varios directorios**y seleccione los atributos **ObjectSID** y **msExchangeMasterAccountSID** .
     
-4. Identificar usuarios en Azure AD: delimitador de origen: seleccione el atributo que ha elegido después de leer [seleccionando un buen atributo de sourceAnchor](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), nombre principal de usuario- **userPrincipalName**.
+4. Identificar usuarios en Azure AD: delimitador de origen: seleccione el atributo que ha elegido después de leer [seleccionando un buen atributo de sourceAnchor](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts#selecting-a-good-sourceanchor-attribute), nombre principal de usuario- **userPrincipalName**.
     
 5.  Características opcionales: Seleccione si tiene implementado Exchange híbrido.
     
     > [!NOTE]
     >  Si solo tiene Exchange Online, podría haber un problema con los errores de OAuth durante la detección automática debido a la redirección de CNAME. Para corregir esto, tendrá que establecer la dirección URL de detección automática de Exchange mediante la ejecución del siguiente cmdlet desde el shell de administración de Skype empresarial Server:
-  
-    Set-CsOAuthConfiguration-ExchangeAutoDiscoverURL https://<span>Autodiscover-s.Outlook.com/Autodiscover/Autodiscover.SVC 
+    >
+    > ```powershell
+    > Set-CsOAuthConfiguration -ExchangeAutoDiscoverURL https://autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
+    > ```
     
 6.  Granja de AD FS: seleccione usar una granja de servidores de ad **FS existente de Windows Server 2012 R2** y escriba el nombre del servidor de AD FS.
     
@@ -142,4 +144,3 @@ Siga los procedimientos recomendados para configurar el entorno híbrido de Skyp
 
 Si es necesario, siga los procedimientos recomendados para configurar la implementación híbrida de Exchange. Para obtener más información, consulte [implementaciones híbridas de Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid). 
   
-
