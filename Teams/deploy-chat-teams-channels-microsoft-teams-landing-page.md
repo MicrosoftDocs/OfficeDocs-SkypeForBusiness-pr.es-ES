@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Guía paso a paso para desplegar equipos, canales, chat y aplicaciones de Microsoft Teams
+description: Instrucciones paso a paso para implementar chat, equipos, canales y aplicaciones en Microsoft Teams, en función del perfil y los requisitos empresariales de su organización.
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -18,12 +18,13 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 082cde04ad29ba0d1af68bb02f851d87197d7407
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+ms.openlocfilehash: 1f503bbfbc582fc3713a9f40e435382772e7ab63
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776575"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901945"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipos, canales y aplicaciones en Microsoft Teams
 
@@ -240,7 +241,7 @@ Los profesionales de TI que trabajan en el ámbito educativo pueden beneficiarse
 
 ### <a name="government---gcc-considerations"></a>Administración pública: consideraciones GCC
 
-El uso de Microsoft 365 for Government - GCC (Government Community Cloud) es apropiado para cumplir con los requisitos de los profesionales de la tecnología de la información que dirigen los despliegues de Office 365 en las entidades gubernamentales federales, estatales, locales, tribales o territoriales de los EE.UU. o en otras entidades que manejan datos que están sujetos a las regulaciones y requisitos gubernamentales.
+El uso de Microsoft 365 para la Administración Pública de Estados Unidos - GCC (Government Community Cloud) es apropiado para cumplir con los requisitos de los profesionales de la tecnología de la información que dirigen los despliegues de Office 365 en las entidades gubernamentales federales, estatales, locales, tribales o territoriales de los EE. UU. o en otras entidades que manejan datos que están sujetos a las regulaciones y requisitos gubernamentales.
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|

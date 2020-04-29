@@ -19,18 +19,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3375abfbcd8319d104b4a2a657492c5105e240f
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 30599b73447e9b5ab9873c6cd48372d997def5d1
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749787"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898125"
 ---
 > [!IMPORTANT]
 > El modelo de servicio de Teams está sujeto a cambios para mejorar la experiencia del cliente. Por ejemplo, el acceso predeterminado o los tiempos de vencimiento del token de actualización pueden estar sujetos a modificaciones para mejorar el rendimiento y la resistencia de autenticación para aquellos que usan Teams. Cualquiera de estos cambios se haría con el objetivo de mantener Teams seguro y confiable por naturaleza.
 <p>
 
- # <a name="security-and-microsoft-teams"></a>Seguridad y Microsoft Teams
+# <a name="security-and-microsoft-teams"></a>Seguridad y Microsoft Teams
 
 Como parte del servicio Microsoft 365 (M365), Microsoft Teams sigue los procedimientos y prácticas de seguridad recomendados, como la seguridad de nivel de servicio a través de la defensa en profundidad, los controles de cliente dentro del servicio, el reforzamiento de la seguridad y los procedimientos operativos recomendados. Si necesita información detallada, consulte el [Centro de confianza de Microsoft](https://microsoft.com/trustcenter).
 
@@ -209,7 +209,6 @@ Hay dos opciones para controlar quién llega a las reuniones de Teams y quién t
 |Usuarios de mi organización y de organizaciones de confianza      |  - Cuentas empresariales</br> - Invitados del espacio empresarial</br> - Federados</br>        |  - Anónimos</br>  - Acceso telefónico PSTN</br>      |
 |Todos      |   - Cuentas empresariales</br>  - Invitados del espacio empresarial</br>  - Federados anónimos</br>  - Acceso telefónico PSTN</br>       |         |
 
-
 2. El segundo método consiste en **reuniones estructuradas** (donde los moderadores pueden hacer todo lo que se debería hacer, y los asistentes tienen una experiencia controlada). Después de unirse a una reunión estructurada, los moderadores controlan lo que pueden hacer los asistentes en la reunión. </p>
 
 |Acciones  |Moderadores  |Asistentes  |
@@ -227,7 +226,7 @@ Hay dos opciones para controlar quién llega a las reuniones de Teams y quién t
 
 Teams permite que los usuarios empresariales creen reuniones en tiempo real y se unan a ellas. Los usuarios empresariales también pueden invitar a usuarios externos que no tengan una cuenta de AAD/Office 365 para que participen en estas reuniones. Los usuarios que son empleados de socios externos con una identidad segura y autenticada también pueden unirse a las reuniones y, si se les promueve para hacerlo, pueden actuar como moderadores. Los usuarios anónimos no pueden crear una reunión ni unirse a una como moderadores, pero se pueden promover a moderador después de que se unan.
 
-Para que los usuarios anónimos puedan unirse a las reuniones de Teams, debe estar activada la opción Participantes para reuniones en el Centro de administración de Teams.  
+Para que los usuarios anónimos puedan unirse a las reuniones de Teams, debe estar activada la opción Participantes para reuniones en el Centro de administración de Teams.
 
 > [!NOTE]
 > El término *usuarios anónimos* significa que los usuarios no se autentican en el inquilino de la organización. En este contexto, todos los usuarios externos se consideran anónimos. Los usuarios autenticados pueden ser usuarios o invitados del inquilino.
@@ -238,6 +237,9 @@ Permitir que los usuarios externos participen en las reuniones de Teams puede se
 - Los tipos de participante permiten limitar el acceso a reuniones específicas.
 - La programación de reuniones está restringida a los usuarios que tienen una cuenta de AAD y una licencia de Teams.
 - Los usuarios anónimos, es decir, que no están autenticados, que deseen unirse a una conferencia de acceso por marcado necesitan marcar uno de los números de acceso a la conferencia. Si la opción "Permitir siempre que los autores de llamadas eviten la sala de espera" está *activada*, también tendrán que esperar hasta que un moderador o usuario autenticado se una a la reunión.
+
+> [!CAUTION]
+> Si no quiere que los usuarios anónimos (usuarios que no invite explícitamente) se unan a una reunión, debe asegurarse de que **Usuarios anónimos pueden unirse a una reunión** esté configurado como **Desactivado** para la sección de reunión **Participantes**.
 
 También es posible que un organizador establezca las opciones de configuración para permitir que los autores de llamadas de acceso por marcado sean los primeros en una reunión. Esta opción se establece en la configuración de conferencia de audio para los usuarios y se aplicará a todas las reuniones programadas por el usuario.
 
@@ -269,6 +271,9 @@ Los participantes en la reunión también se clasifican por ubicación y credenc
 En muchas reuniones se incluyen usuarios externos. Esos clientes también quieren confirmar la identidad de los usuarios externos antes de permitir que se unan a una reunión. En la siguiente sección, se describe cómo Teams limita el acceso a una reunión a los tipos de usuarios permitidos y requiere que todos los tipos de usuario presenten las *credenciales* adecuadas al entrar en una reunión.
 
 ### <a name="participant-admittance"></a>Admisión de participantes
+
+> [!CAUTION]
+> Si no quiere que los usuarios anónimos (usuarios que no invite explícitamente) se unan a una reunión, debe asegurarse de que **Usuarios anónimos pueden unirse a una reunión** esté configurado como **Desactivado** para la sección de reunión **Participantes**.
 
 En Teams, los usuarios anónimos pueden transferirse a un área llamada sala de espera. A continuación, los moderadores pueden *admitir* a estos usuarios en la reunión o *rechazarlos*. Cuando estos usuarios se transfieren a la sala de espera, se notifica al moderador y a los asistentes, y los usuarios anónimos tienen que esperar hasta que se les acepte o rechace, o se agote el tiempo de espera de la conexión.
 

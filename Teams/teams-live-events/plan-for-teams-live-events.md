@@ -14,15 +14,16 @@ localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: Obtenga más información sobre los factores que debe tener en cuenta antes de configurar eventos en Microsoft Teams.
+description: En este artículo encontrará información sobre los factores que debe tener en cuenta antes de configurar eventos en vivo en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aabd94e8a5c4904f0343e2c8ccb647d632f3fa21
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: c0246a8517035ab5edd347fef30ae3f86af4afd9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779969"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903085"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -99,6 +100,7 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 |Acceso externo (federación) y presentadores o asistentes invitados |&#x2714; (Skype Empresarial)  |  &#x2714; (Teams) |N/D |
 |Moderador: acceso por RTC |&#x274C; |&#x2714; (Teams) |N/D |
 |Presentar en una pantalla |&#x274C; |&#x2714; (Teams) |N/D |
+|Compartir audio del sistema en Windows (solo disponible cuando se comparte la pantalla)|&#x274C; |&#x2714; (Teams) |&#x2714; |
 |Presentar un archivo de PowerPoint (uso compartido de archivos PPT) |&#x2714; |&#x274C; (atenuado a través del uso compartido de la pantalla) |N/D |
 |Grabación de la reunión guardada en la nube |&#x2714; |&#x2714; |&#x2714; |
 |Publicar automáticamente la grabación en Stream |&#x274C; |&#x274C; |&#x2714; |

@@ -8,21 +8,22 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 ms.reviewer: marcl
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
+description: Use esta lista de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores para solucionar problemas en la organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d6e2a03b7d0ab5b09a71bc7b7a8a944740f223c
-ms.sourcegitcommit: c40a7ada120180cd39f18b2e37f23223075abbf4
+ms.openlocfilehash: 1343317d29f196caf151ead5a6429fb3edf19d87
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43535535"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902305"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
