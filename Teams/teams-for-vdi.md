@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18c545d6b3208bb5156a699deee71ee27b38b3f4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d3a6d946d6bf00e6e43a0f6678352e5b4e9b7629
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903125"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940677"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -345,6 +345,7 @@ Para obtener más información sobre cómo usar PowerShell para administrar dire
 - La resolución de flujo de vídeo entrante y saliente está limitada a la resolución de 720p. Esta es una limitación de WebRTC.
 - Solo se admite una secuencia de vídeo de una cámara entrante o una secuencia compartida de pantalla. Cuando hay un uso compartido de pantalla entrante, ese recurso compartido de pantalla lo muestra en lugar del vídeo del altavoz dominante.
 - Pantalla compartida saliente:
+    - La pantalla compartida desde la conversación no es compatible.
     - El uso compartido de aplicaciones no es compatible.
 - Ceder el control y tomar el control:  
     - No se admite durante una sesión compartida de pantalla o de uso compartido de aplicaciones.

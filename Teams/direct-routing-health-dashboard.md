@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Aprenda a usar el panel de estado para supervisar la conexión entre el controlador de borde de sesión y el enrutamiento directo.
-ms.openlocfilehash: a89377c798295267b1e75f3ffa6efc19b8c4c37d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 55ae433428a8bb6fd42d4166e5d756432463b4ed
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051806"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940747"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Panel de estado para enrutamiento directo
 
@@ -55,7 +55,7 @@ El panel de estado proporciona la siguiente información relacionada con el esta
 
    La fórmula que se usa para calcular NER es la siguiente:
 
-   NER = llamadas respondidas + usuario ocupado + timbre no responde + ataques de rechazo de terminal x 100
+   NER = 100 x (llamadas respondidas + el usuario ocupado + timbre no responde + ataques de rechazo de terminal)/total
 
  
 - **Duración media** de las llamadas: la información acerca de la duración media de las llamadas puede ayudarte a controlar la calidad de las llamadas. La duración media de una llamada RTC de 1:1 es de cuatro a cinco minutos.  Sin embargo, para cada empresa, este promedio puede diferir.  Microsoft recomienda establecer una línea base para la duración media de las llamadas de su empresa. Si este parámetro va muy por debajo de la línea base, puede indicar que los usuarios tienen problemas con la calidad de las llamadas o con la confiabilidad y están colgados antes de lo habitual. Si comienza a ver la duración media de las llamadas, por ejemplo, 15 segundos, es posible que las personas que llaman se cuelguen porque su servicio no funciona correctamente. 

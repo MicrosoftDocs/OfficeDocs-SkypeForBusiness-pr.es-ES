@@ -1,8 +1,8 @@
 ---
 title: Directivas de retención en Microsoft Teams
 author: LanaChin
-ms.author: v-lanac
-manager: serdars
+ms.author: anwara
+manager: prvijay
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -17,18 +17,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dde12e5197031cd768cecf539ae2213f2a5b4d92
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9487a6a96397be27ebf23bd474fc0b9a5ba1fea0
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905472"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940777"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Directivas de retención en Microsoft Teams
 
 Las directivas de retención permiten administrar de manera más efectiva la información en su organización. Use las directivas de retención para conservar datos que sean necesarios para cumplir con las directivas internas de la organización, las normas del sector o las necesidades jurídicas, así como para eliminar datos que se consideren una responsabilidad, que ya no se le exige que conserve, o no tiene un valor legal o comercial.
 
-De forma predeterminada, los datos de chat, canales y archivos de Teams se conservan para siempre. Como administrador, puede configurar las directivas de retención de Teams para mensajes de canal y chat, y decidir de forma proactiva si desea conservar los datos, eliminarlos o conservarlos durante un período de tiempo específico y, a continuación, eliminarlos.
+De forma predeterminada, los datos de chat, canal y archivos de Teams se conservan para siempre, a menos que se intente eliminar el contenido por medio de directivas de retención, eliminaciones de usuarios, eliminación de administradores, etc. Como administrador, puede configurar las directivas de retención de Teams para los mensajes instantáneos y de canal y decidir de forma proactiva Si desea conservar los datos, eliminarlos o conservarlos durante un período de tiempo específico y, a continuación, eliminarlos.
 
 Cree y administre directivas de retención para equipos y otras cargas de trabajo en el [centro de cumplimiento de Microsoft 365](https://protection.office.com/) o mediante los cmdlets de PowerShell del centro de cumplimiento de & de seguridad. Puede aplicar una directiva de retención de Teams a toda la organización o a usuarios y equipos específicos.
 

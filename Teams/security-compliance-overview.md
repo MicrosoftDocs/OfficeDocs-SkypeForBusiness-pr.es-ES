@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e3f26f286fa3f8418df93d6498b8c754c857785
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 77f8172e19ff4ca9e2057da50dee9f42ef443ae2
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901725"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940647"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Seguridad y cumplimiento en Microsoft Teams
 
@@ -191,9 +191,9 @@ Si necesita ver la región que hospeda los datos de su inquilino, vaya al perfil
 
 ## <a name="compliance-standards"></a>Normas de cumplimiento
 
-Teams es compatible con el nivel D. Esto incluye los siguientes estándares: [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001), [ISO 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018), [SSAE16 SOC 1 y SOC 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc), [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)y las [cláusulas de modelo de la UE (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses). En Microsoft Compliance Framework, Microsoft clasifica las aplicaciones y servicios de Office 365 en cuatro categorías. Cada categoría está definida por compromisos de cumplimiento específicos que deben cumplirse para que un servicio de Office 365, o un servicio de Microsoft relacionado, se muestre en esa categoría.
+Teams usa los siguientes estándares: [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001), [ISO 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018), [SSAE16 SOC 1 y SOC 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc), [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)y las [cláusulas de modelo de la UE (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses). En Microsoft Compliance Framework, Microsoft clasifica las aplicaciones y servicios de Office 365 en cuatro categorías. Cada categoría está definida por compromisos de cumplimiento específicos que deben cumplirse para que un servicio de Office 365, o un servicio de Microsoft relacionado, se muestre en esa categoría.
 
-Los servicios de las categorías C y D de cumplimiento que tienen compromisos de cumplimiento líderes del sector se habilitan de forma predeterminada. Los servicios de las categorías a y B vienen con controles para activar o desactivar estos servicios para toda una organización. Puede encontrar más información en las [normas de cumplimiento](security-compliance-overview.md#compliance-standards). Teams también cumple con los requisitos de Cloud Security Alliance.
+Puede encontrar más información en los [recursos de protección de datos](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides). Teams también cumple con los requisitos de Cloud Security Alliance.
 
 ## <a name="related-topics"></a>Temas relacionados
 

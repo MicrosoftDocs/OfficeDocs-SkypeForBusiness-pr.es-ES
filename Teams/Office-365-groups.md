@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 414ca42153ab336500aa7b2e9de42dd9fe7f2708
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d82b8de29d8f73f439f158e96d1c61767a3bd019
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902125"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940697"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 Groups y Microsoft Teams
 =====================================
@@ -55,4 +55,4 @@ Al crear un equipo, en el back-end, está creando un grupo de Office 365 y la bi
 
 Las características y capacidades de grupo para los usuarios dependen de la ubicación de la pertenencia a grupos. Por ejemplo, si quita un miembro de un equipo, se elimina también del grupo de Office 365. La eliminación del grupo elimina el equipo y los canales inmediatamente del cliente de Teams. Si quita una persona de un grupo mediante el centro de administración de Microsoft 365, ya no tendrá acceso a otros aspectos de colaboración, como la biblioteca de documentos de SharePoint Online, el grupo de Yammer o el compartido de OneNote. Sin embargo, seguirán teniendo acceso a la funcionalidad de chat del equipo durante aproximadamente dos horas.
 
-Como procedimiento recomendado para administrar miembros de equipos, agregue y quite miembros del cliente de Teams para asegurarse de que se aplica el control de acceso en cascada correcto a otras aplicaciones de nube dependientes. Además, evitará que una experiencia desligada deje a las personas con la impresión de que todavía tienen acceso a los recursos que usaron (hasta el próximo ciclo de sincronización agrega o revoca el acceso a un componente particular del servicio). Si agrega o quita miembros del equipo fuera del cliente de Teams (mediante el centro de administración de Microsoft 365, Azure AD o Exchange Online PowerShell), los cambios pueden tardar hasta dos horas en reflejarse en Teams.
+Como procedimiento recomendado para administrar miembros de equipos, agregue y quite miembros del cliente de Teams para asegurarse de que se aplica el control de acceso en cascada correcto a otras aplicaciones de nube dependientes. Además, evitará que una experiencia desligada deje a las personas con la impresión de que todavía tienen acceso a los recursos que usaron (hasta el próximo ciclo de sincronización agrega o revoca el acceso a un componente particular del servicio). Si agrega o quita miembros del equipo fuera del cliente de Teams (mediante el centro de administración de Microsoft 365, Azure AD o Exchange Online PowerShell), puede demorar hasta 24 horas (en algunos casos más) para que los cambios se reflejen en Teams.
