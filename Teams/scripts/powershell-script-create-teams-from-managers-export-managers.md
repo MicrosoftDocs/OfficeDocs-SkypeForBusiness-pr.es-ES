@@ -11,16 +11,17 @@ description: Use este script de PowerShell para exportar una lista de administra
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 367bf1696e96c6f5190ecda42bbdbe06dba8c16f
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 5ccc5e5f435ccb096b3cd552fc8e2e87204a4abc
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796211"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951085"
 ---
 # <a name="powershell-script-sample---export-managers-and-their-directs"></a>Ejemplo de script de PowerShell: administradores de exportación y sus directos
 

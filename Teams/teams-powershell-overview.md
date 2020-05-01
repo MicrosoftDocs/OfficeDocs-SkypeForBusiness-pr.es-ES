@@ -10,18 +10,19 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Aprenda a usar los controles de PowerShell para administrar Microsoft Teams, incluido el modo en que los cmdlets de PowerShell están estructurados.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e95b3ab5bdb2b13dbd4c37eca413c865f54fde94
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 32370c234e46b860ab026efd6b284d3db3a1458e
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903045"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951255"
 ---
 # <a name="teams-powershell-overview"></a>Información general de Teams PowerShell
 

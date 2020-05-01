@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: En este artículo, obtendrá más información sobre la tecnología de sistema telefónico en Microsoft Office 365.
-ms.openlocfilehash: d64c8c0998b37446051b067af629f49eb2b4bd28
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e3db8806733cff76ba69c19338c9d562bdbe6e83
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905132"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951225"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>¿Qué es el Sistema telefónico en Office 365?
 

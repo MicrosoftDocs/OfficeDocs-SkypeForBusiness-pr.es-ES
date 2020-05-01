@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar las directivas de llamadas de emergencia en Microsoft Teams para definir qué sucede cuando un usuario de un equipo de su organización hace una llamada de emergencia.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e697e05c4ade1e14ee2f59da5b60413e60e2367
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 62a6314435aa3af44d0c44ab6a6790212c62d8de
+ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905112"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952439"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Administrar las directivas de llamadas de emergencia en Microsoft Teams
 
@@ -42,9 +42,10 @@ Si asignó una directiva de llamadas de emergencia a un sitio de red y a un usua
 2. Haga clic en **Agregar**.
 3. Escriba un nombre y una descripción para la directiva.
 4. Establezca cómo desea notificar a los usuarios de su organización, normalmente el escritorio, Cuándo se realiza una llamada de emergencia. Para ello, en **modo de notificación**, seleccione una de las siguientes opciones:
-    - **Solo notificación**: se envía un mensaje de chat de equipos a los usuarios y grupos que especifique.
+    - **Enviar notificación solo**: se envía un mensaje de chat de equipo a los usuarios y grupos que especifique.
     - **En conferencia, pero**desactivado: se envía un mensaje de chat de Teams a los usuarios y grupos que especifique y pueden escuchar (pero no participar) en la conversación entre el autor de la llamada y el operador PSAP.
-5.  Si seleccionó el modo **de notificación está silenciado en conferencia** , en el cuadro **número de llamadas para notificaciones** , puede escribir un número de teléfono RTC de un usuario o un grupo para llamar y unirse a la llamada de emergencia. Por ejemplo, escriba el número del escritorio de seguridad de su organización, que recibirá una llamada cuando se haga una llamada de emergencia y luego pueda escuchar o participar en la llamada.
+    - **Conferencias en y están** reactivadas (próximamente **)**: se envía un mensaje de chat de equipos a los usuarios y grupos que especifique y pueden reactivar el audio para escuchar y participar en la conversación entre el autor de la llamada y el operador PSAP.
+5.  Si seleccionó el modo **de notificación está silenciado en conferencia** , en el cuadro **número de llamadas para notificaciones** , puede escribir un número de teléfono RTC de un usuario o un grupo para llamar y unirse a la llamada de emergencia. Por ejemplo, escriba el número del escritorio de seguridad de su organización, que recibirá una llamada cuando se haga una llamada de emergencia y, después, podrá escuchar la llamada.
 6. Busque y seleccione uno o más usuarios o grupos, como el escritorio de seguridad de su organización, para notificar cuando se realice una llamada de emergencia.  La notificación se puede enviar a las direcciones de correo electrónico de los usuarios, los grupos de distribución y los grupos de seguridad. Se puede notificar a un máximo de 50 usuarios.
 7. Haga clic en **Guardar **.
 
@@ -100,15 +101,15 @@ En este ejemplo, asignamos una directiva llamada Directiva de llamadas de emerge
 > Asegúrese de conectarse primero al módulo de Azure Active Directory PowerShell para Graph y al módulo de PowerShell de Skype empresarial siguiendo los pasos de [conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Obtén la GroupObjectId del grupo en particular.
-```
+```powershell
 $group = Get-AzureADGroup -SearchString "Contoso Operations"
 ```
 Obtener los miembros del grupo especificado.
-```
+```powershell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Asignar todos los usuarios del grupo a una directiva de equipos en particular. En este ejemplo, es una directiva de enrutamiento de llamadas de emergencia.
-```
+```powershell
 $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.UserPrincipalName}
 ``` 
 Según el número de miembros del grupo, este comando puede demorar varios minutos en ejecutarse.
@@ -119,9 +120,9 @@ Use el cmdlet [set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/mo
 
 En el ejemplo siguiente se muestra cómo asignar una directiva denominada política de llamadas de emergencia de Contoso 1 al sitio de Sitio1.
 
-    ```
-    Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
-    ```
+```powershell
+Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
+```
 
 ## <a name="related-topics"></a>Temas relacionados
 

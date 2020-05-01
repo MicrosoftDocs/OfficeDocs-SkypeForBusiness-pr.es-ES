@@ -17,12 +17,12 @@ description: Obtenga información sobre qué hacer cuando necesite realizar una 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 67006fba94a58514fa33c91edd0a46312396b31a
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 55afbf3ff1dd3f38990dc60f9cae3cbce7c2f9db
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918588"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43950895"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -38,9 +38,9 @@ No todo el contenido de los equipos está eDiscoverable. En la tabla siguiente s
 
 | Tipo de contenido | eDiscoverable | Notas |
 |:--- | --- |:--- |
-| Mensajes de chat de Teams | Sí | Los mensajes instantáneos de chats en los que los usuarios invitados son los únicos participantes en una conversación de 1:1 o 1: N no eDiscoverable. |
+| Mensajes de chat de Teams | Sí |  |
 | Grabaciones de audio | No | |
-| Mensajes de canal privado | No | |
+| Mensajes de canal privado | Sí | |
 | Emojis, GIF, adhesivos | Sí | |
 | Fragmentos de código | No | |
 | Vínculos de chat | Sí | |
