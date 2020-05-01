@@ -10,18 +10,19 @@ author: lolajacobsen
 ROBOTS: NOINDEX, NOFOLLOW
 audience: admin
 ms.author: lolaj
+search.appverid: MET150
 ms.service: msteams
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 2fd1b76b1aaed68cd0c9ce61fe6d6a408a2fd296
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 06d80f6ded60a3db5e7eeafadfa8718c90354e75
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240600"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951240"
 ---
 <div id="main" class="v2">
     <div class="container">
