@@ -276,14 +276,6 @@
 #### [Cómo usar dispositivos analógicos con enrutamiento directo](direct-routing-analog-devices.md)
 
 
-### [Migrar a enrutamiento directo](direct-routing-migrating.md)
-
-### Supervisar y solucionar problemas de enrutamiento directo
-#### [Información general](direct-routing-monitor-and-troubleshoot.md)
-#### [Panel de estado](direct-routing-health-dashboard.md)
-### [Cuentas de usuario en un entorno híbrido con conectividad RTC](direct-routing-user-accounts-in-a-hybrid-environment.md)
-
-
 ### Enrutamiento basado en ubicación
 #### [Planear enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-plan.md)
 #### [Configuración de red de enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md)
@@ -297,12 +289,14 @@
 #### [ Plan para la optimización de los medios locales ](direct-routing-media-optimization.md)
 #### [Configurar la optimización de los medios locales ](direct-routing-media-optimization-configure.md)
 
-### Supervisar y solucionar problemas de enrutamiento directo
-#### [Información general](direct-routing-monitor-and-troubleshoot.md)
-#### [Panel de estado](direct-routing-health-dashboard.md)
 ### [Cuentas de usuario en un entorno híbrido con conectividad RTC](direct-routing-user-accounts-in-a-hybrid-environment.md)
 
 ### [Migrar a enrutamiento directo](direct-routing-migrating.md)
+
+### Supervisar y solucionar problemas de enrutamiento directo
+#### [Información general](direct-routing-monitor-and-troubleshoot.md)
+#### [Panel de estado](direct-routing-health-dashboard.md)
+
 
 ### Referencia técnica para enrutamiento directo
 #### [Conmutación por error de tronco en llamadas salientes](direct-routing-trunk-failover-on-outbound-call.md)
