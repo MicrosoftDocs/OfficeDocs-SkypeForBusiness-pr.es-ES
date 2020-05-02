@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d75a76ca7a98191f90005ebe6c1edf915fde4571
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d7411ab9862dc07b7c3bb5f8f4bed6f1cca62b47
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778306"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997021"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 
@@ -115,7 +115,7 @@ Al instalar el paquete DEB o RPM, se instalará automáticamente el repositorio 
 La clave de firma para habilitar la actualización automática mediante el administrador de paquetes del sistema se instala automáticamente. No obstante, también se puede encontrar en: (https://packages.microsoft.com/keys/microsoft.asc). Microsoft Teams se suministra mensualmente y, si el repositorio se ha instalado correctamente, el administrador de paquetes del sistema debería controlar la actualización automática de la misma manera que otros paquetes del sistema.
 
 > [!NOTE] 
-> Si encuentra un error, envíelo mediante `Report a Problem` desde el cliente. Para ver los problemas conocidos, consulte [Problemas conocidos](Known-issues.md).
+> Si encuentra un error, envíelo mediante `Report a Problem` desde el cliente. Para problemas conocidos, consulte [soporte técnico de equipos de su organización](Known-issues.md).
 > Para obtener soporte técnico de Teams para Linux, puede usar el [canal de soporte del foro de Linux en Preguntas y respuestas de Microsoft](https://docs.microsoft.com/answers/topics/teams.html). Asegúrese de usar la etiqueta `teams-linux` al publicar preguntas. 
 
 #### <a name="install-teams-using-deb-package"></a>Instalación de Teams con el paquete DEB

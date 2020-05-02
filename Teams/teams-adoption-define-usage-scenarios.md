@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b92307510b93e03157fd3c337d5d1928d4afa7d6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 786f9269d4cb473b61d60adaf48bed4e4e8a9c03
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905872"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997271"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Definir escenarios de uso para Microsoft Teams
 
@@ -70,6 +70,6 @@ Después de hablar con una o más partes interesadas, puede priorizar sus escena
 ![Una ilustración que muestra el impacto de escenario frente a la dificultad](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> Siempre estamos ansiosos por conocer el modo en que nuestros clientes usan Teams de nuevas y innovadoras formas. Comparte tu #TeamsStories con nosotros en nuestro [Foro de debate sobre adopción de la conducción]. Incluya el hashtag **#TeamsStories** en su publicación. Siempre estamos interesados en cómo usar Teams en su organización.
+> Siempre estamos ansiosos por conocer el modo en que nuestros clientes usan Teams de nuevas y innovadoras formas. Comparte tu #TeamsStories con nosotros en nuestro [Foro de debate de adopción de impulsores](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption). Incluya el hashtag **#TeamsStories** en su publicación. Siempre estamos interesados en cómo usar Teams en su organización.
 
 ![Un icono que representa el siguiente](media/teams-adoption-next-icon.png) paso: los [primeros pioneros incorporados y la recopilación de comentarios](teams-adoption-onboard-early-adopters.md).
