@@ -7,8 +7,9 @@
 ### [Requisitos](requirements.md) 
 ### [Licencias en línea](rooms-licensing.md)
 ### [Administración del plan con Azure Monitor](azure-monitor-plan.md)
+### [Administración de planes con salas de reuniones administradas](managed-meeting-rooms.md)
 
-## Implementación
+## Implementar
 ### [Introducción general a la implementación](rooms-deploy.md)
 ### [Configurar cuentas](rooms-configure-accounts.md)
 ### [Con Office 365](with-office-365.md)
