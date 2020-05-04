@@ -12,6 +12,7 @@ ms.author: lolaj
 ms.service: msteams
 f1.keywords:
 - CSH
+search.appverid: MET150
 ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 - seo-marvel-apr2020
@@ -19,12 +20,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
-ms.openlocfilehash: 4808fecfa53a4d1e825d2b2f04d7d6b7b53d3866
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f3c50309e97c38e21e06c1ec133a5261f09ea392
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905792"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951005"
 ---
 <div id="main" class="v2">
     <div class="container">
