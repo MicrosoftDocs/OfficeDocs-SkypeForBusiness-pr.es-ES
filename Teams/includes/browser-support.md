@@ -1,4 +1,4 @@
-Teams es totalmente compatible con los siguientes exploradores de internet (con las excepciones mencionadas para llamadas y reuniones).
+Teams es totalmente compatible con los siguientes exploradores de internet (con las excepciones mencionadas para llamadas y reuniones). Esta tabla se aplica a los sistemas operativos que se ejecutan en equipos de escritorio. 
 
 
 |Explorador  |Llamadas: audio, vídeo y uso compartido  |Reuniones: audio, vídeo y uso compartido<sup>1</sup> <sup>2</sup>  |
@@ -15,4 +15,6 @@ Teams es totalmente compatible con los siguientes exploradores de internet (con 
 <sup>2</sup> Si ejecuta Teams en un explorador, la opción de difuminar el fondo no está disponible. Esta característica solo está disponible en la versión de escritorio de Teams.
 
 > [!NOTE]
-> Siempre y cuando un sistema operativo pueda ejecutar el navegador compatible, Teams es compatible. Por ejemplo, ejecutar Firefox en el sistema operativo Linux es una opción para usar Teams.
+> Siempre y cuando un sistema operativo pueda ejecutar el explorador compatible, Teams es compatible con equipos de escritorio. Por ejemplo, ejecutar Firefox en el sistema operativo Linux es una forma de usar Teams.
+>
+> En el caso de los sistemas operativos móviles, le recomendamos que ejecute la aplicación Teams, disponible en tiendas de Android y iOS. Se puede ejecutar Teams en un sistema operativo móvil, pero muchas características no estarán disponibles.
