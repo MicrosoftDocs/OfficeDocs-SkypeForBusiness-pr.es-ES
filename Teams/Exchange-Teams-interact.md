@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba8e6439d1b0c8bb5795408f5cff39ef2c298fa4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9475b323e1b9b04c5735a656eac5766b8a110810
+ms.sourcegitcommit: 48b24ccf133c9d03b0d1d4eea1ec275b2be5e3bb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778736"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44016184"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -50,7 +50,7 @@ La siguiente tabla proporciona una referencia rápida y útil sobre la disponibi
 |**Exchange Online**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí |Sí<sup>8</sup>|Sí |Sí |Sí <sup>7</sup>|Sí |Sí |Sí |Sí |
 |**Exchange Online Dedicated vNext**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí |Sí<sup>8</sup>|Sí |Sí |Sí <sup>7</sup>|Sí |Sí |Sí |Sí|
 |**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí <sup>2</sup>|Sí <sup>, 2, 3</sup>|Sí <sup>4|Sí|No|No|Sí|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|Sí <sup>5|Sí <sup>6|Sí |Sí |
-|**Exchange local** (sincronizar con la configuración de OAuth de Azure ad & es necesario)|Sí <sup>2</sup>| Sí <sup>, 2, 3</sup> |Sí <sup>4|Sí|Sí (Exchange 2016 CU3 +)|Sí<sup>8</sup> (Exchange 2016 CU3 +)|Sí |Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|Sí <sup>5|Sí <sup>6|Sí |Sí |
+|**Exchange local** (sincronizar con la configuración de OAuth de Azure ad & es necesario)|Sí <sup>2</sup>| Sí <sup>2</sup> |Sí <sup>4|Sí|Sí (Exchange 2016 CU3 +)|Sí<sup>8</sup> (Exchange 2016 CU3 +)|Sí |Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|Sí <sup>5|Sí <sup>6|Sí |Sí |
 
 <sup>1</sup> se admite la versión Exchange 2016 CU3 y versiones posteriores.  
 

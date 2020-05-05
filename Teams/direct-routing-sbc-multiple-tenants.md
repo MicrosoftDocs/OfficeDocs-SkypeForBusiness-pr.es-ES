@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Aprenda a configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos para socios de Microsoft y/o para operadores RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 883df3c78387d509f094f91bc346fc5b31f53690
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 13d2dceb8cedc6e48d420619476cbf73c675785a
+ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918719"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44022002"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -253,7 +253,7 @@ Para configurar la conmutación por error en un entorno multiinquilino, tendrá 
 - Para cada inquilino, agregue los FQDN de dos diferentes SBCs.  Por ejemplo:
 
    customer1.sbc1.contoso.com <br>
-   customer2.sbc2.contoso.com <br>
+   customer1.sbc2.contoso.com <br>
 
 - En las directivas de enrutamiento de voz en línea de los usuarios, especifique SBCs.  Si se produce un error en un SBC, la Directiva de enrutamiento enrutará las llamadas al segundo SBC.
 
