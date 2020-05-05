@@ -12,12 +12,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f9572df29681d6b2ee754fe51702fcc8f0b0163
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54888a96d33dc3d9195256483f41719031847744
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184293"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780329"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Al planear una implementación híbrida, debe tener en cuenta los siguientes req
 
 Debe tener la siguiente configuración en su entorno para implementar e implementar una implementación híbrida.
 
-  - Un inquilino de Microsoft Office 365 con Skype empresarial online habilitado. Tenga en cuenta que solo puede usar un único inquilino para una configuración híbrida con su implementación local.
+  - Una organización de Microsoft Office 365 con Skype empresarial online habilitado. Tenga en cuenta que solo puede usar un único inquilino para una configuración híbrida con su implementación local.
 
   - Una única implementación local (infraestructura) de Skype empresarial Server o Lync Server que se implementa en una topología admitida. Consulte topología requirements.
     
@@ -159,7 +159,7 @@ La lista de dominios permitidos incluye los dominios que tienen configurado un n
 
 Se deben cumplir los siguientes requisitos para configurar correctamente una implementación híbrida:
 
-  - La coincidencia de dominios debe configurarse de la misma manera para la implementación local y el inquilino de Office 365. Si la detección de asociados está habilitada en la implementación local, se debe configurar la Federación abierta para el inquilino en línea. Si la detección de asociados no está habilitada, la Federación cerrada debe configurarse para el inquilino en línea.
+  - La coincidencia de dominios debe configurarse de la misma manera para la implementación local y la organización de Office 365. Si la detección de asociados está habilitada en la implementación local, se debe configurar la Federación abierta para el inquilino en línea. Si la detección de asociados no está habilitada, la Federación cerrada debe configurarse para el inquilino en línea.
 
   - La lista de dominios bloqueados en la implementación local debe coincidir exactamente con la lista de dominios bloqueados del inquilino en línea.
 
@@ -293,7 +293,7 @@ Además de los requisitos de puertos para la comunicación interna de Lync Serve
 
 En una implementación híbrida de Lync Server 2013, todos los usuarios que deseen hospedar en Lync Online deben crearse primero en la implementación local, de modo que la cuenta de usuario se cree en los servicios de dominio de Active Directory. A continuación, puede mover el usuario a Skype empresarial online, que moverá la lista de contactos del usuario.
 
-Al sincronizar cuentas de usuario entre su Lync local y las implementaciones de Lync Online con AD FS y DirSync, debe sincronizar las cuentas de AD de todos los usuarios de Lync de la organización entre las implementaciones locales y en línea de Lync, incluso si los usuarios no se mueven a Lync Online. Si no sincroniza todos los usuarios, es posible que la comunicación entre los usuarios locales y en línea de su organización no funcione según lo esperado.
+Al sincronizar cuentas de usuario entre su Lync local y las implementaciones de Lync Online con AD FS y DirSync, debe sincronizar las cuentas de AD de todos los usuarios de Lync de la organización entre las implementaciones locales y en línea de Lync, incluso si los usuarios no se han movido a Lync Online. Si no sincroniza todos los usuarios, es posible que la comunicación entre los usuarios locales y en línea de su organización no funcione según lo esperado.
 
 <div>
 

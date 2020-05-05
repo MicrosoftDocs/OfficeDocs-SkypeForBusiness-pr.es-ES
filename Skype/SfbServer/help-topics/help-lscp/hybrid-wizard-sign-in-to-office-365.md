@@ -1,5 +1,5 @@
 ---
-title: Asistente de implementación híbrida iniciar sesión en Office 365
+title: Inicio de sesión de asistente híbrido en Microsoft 365 o Office 365
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -18,22 +18,22 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
-description: Use el Asistente de administración híbrida de Skype empresarial Server como ayuda para configurar un entorno híbrido con Skype empresarial online.
-ms.openlocfilehash: a76bdf59ab9bc54d8cabdc642f1a3824b013410e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Use el Asistente de administración híbrida de Skype empresarial Server como ayuda para configurar el entorno para entornos híbridos con Skype empresarial online.
+ms.openlocfilehash: 1e94dba9c0aef4a45c00409319f51c87d7e623d4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822723"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780439"
 ---
-# <a name="hybrid-wizard-sign-in-to-office-365"></a>Asistente híbrido: Inicio de sesión en Office 365
+# <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>Asistente híbrido: inicie sesión en Microsoft 365 o en Office 365
 
-Use el Asistente de administración híbrida de Skype empresarial Server como ayuda para configurar un entorno híbrido con Skype empresarial online.
+Use el Asistente de administración híbrida de Skype empresarial Server como ayuda para configurar el entorno para entornos híbridos con Skype empresarial online.
 
-## <a name="sign-in-to-office-365"></a>Iniciar sesión en Office 365
+## <a name="sign-in-to-microsoft-365-or-office-365"></a>Inicie sesión en Microsoft 365 o en Office 365
 
-Escriba el nombre de usuario y contraseña de su inquilino de Office 365 para conectarse a su implementación local de Office 365. Deberá usar la cuenta de administración que creó para el dominio onmicrosoft al registrarse en Office 365 (por ejemplo, admin@contoso.onmicrosoft.com).
+Escriba el nombre de usuario y la contraseña de su organización de Microsoft 365 u Office 365 para iniciar sesión y conectar su implementación local con la organización de Microsoft 365 u Office 365. Tendrá que usar la cuenta de administrador que se creó para el dominio de mi Microsoft cuando se registró para Microsoft 365 u Office 365, por ejemplo, admin@contoso.onmicrosoft.com.
 
-Para más información sobre cómo configurar un entorno híbrido, consulte [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).
+Para obtener más información acerca de cómo configurar el entorno para entornos híbridos, consulte [Overview of Hybrid Deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).
 
 

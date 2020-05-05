@@ -12,12 +12,12 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 035d5c95452eebc48f81198fef5cbdf9d95732e0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82e66cf65d8aa29e476e759bd1f09ccbbf7b61f5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217496"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780249"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +57,7 @@ En las tablas siguientes se comparan las características y capacidades entre lo
 
   - Archivado y cumplimiento
 
-Estas tablas indican las características que están disponibles para los usuarios de Lync en una implementación local de Lync Server 2013. Las mismas características también están disponibles para los usuarios de Skype empresarial online y Microsoft Office 365, a menos que se indique lo contrario en las notas al pie de la tabla.
+Estas tablas indican las características que están disponibles para los usuarios de Lync en una implementación local de Lync Server 2013. Las mismas características también están disponibles para los usuarios de Skype empresarial online y Microsoft 365 o Office 365, a menos que se indique lo contrario en las notas al pie de la tabla.
 
 <div>
 
@@ -412,7 +412,7 @@ En iPhone y iPad, Lync cierra la sesión automáticamente si el usuario no ha us
 </table>
 
 
-1 no está disponible para los usuarios de Skype empresarial online y Office 365.
+1 no está disponible para los usuarios de Skype empresarial online o Microsoft 365 o Office 365.
 
 </div>
 
@@ -757,11 +757,11 @@ En iPhone y iPad, Lync cierra la sesión automáticamente si el usuario no ha us
 </table>
 
 
-1 para los usuarios de Office 365, esta característica está disponible solo para las reuniones habilitadas por el proveedor de servicios de audioconferencia (ACP).
+1 para los usuarios de Microsoft 365 u Office 365, esta característica está disponible solo para las reuniones habilitadas por el proveedor de servicios de audioconferencia (ACP).
 
-2 no disponible para los usuarios de Office 365.
+2 no disponible para los usuarios de Microsoft 365 o Office 365.
 
-3 para los usuarios de Skype empresarial online o Office 365, esta característica está disponible en proveedores de servicios de audioconferencia de terceros.
+3 para Skype empresarial online o para el usuario de Microsoft 365 u Office 365, esta característica está disponible en proveedores de servicios de audioconferencia de terceros.
 
 4A presentación de PowerPoint compartida por Lync Web App no se puede ver desde Lync Mobile 2013. Las anotaciones realizadas en clientes de escritorio de Lync 2013 no se pueden ver en dispositivos móviles.
 
@@ -894,11 +894,11 @@ En iPhone y iPad, Lync cierra la sesión automáticamente si el usuario no ha us
 
 1 Lync Server 2013, Skype empresarial online y Office 365 los usuarios pueden llamar al icono a otros usuarios de Lync y usuarios de Skype. Lync Server 2013 los usuarios también pueden realizar llamadas RTC punteando en el icono.
 
-2 para los usuarios locales de Lync Server 2013, en dispositivos con Windows Phone, iPhone y iPad, el usuario pulsa el icono de llamada en la tarjeta de contacto y acepta la devolución de llamada de Lync Server 2013. Para los usuarios de Office 365, en dispositivos con Windows Phone, iPhone y iPad, cuando el usuario presiona el botón de llamada, se abre un cuadro de diálogo que le pide al usuario que confirme que desea llamar al número.
+2 para los usuarios locales de Lync Server 2013, en dispositivos con Windows Phone, iPhone y iPad, el usuario pulsa el icono de llamada en la tarjeta de contacto y acepta la devolución de llamada de Lync Server 2013. Para los usuarios de Microsoft 365 o Office 365, en dispositivos con Windows Phone, iPhone y iPad, cuando el usuario presiona el botón de llamada, se abre un cuadro de diálogo que le pide al usuario que confirme que desea llamar al número.
 
-3 no disponible para los usuarios de Skype empresarial online y Office 365.
+3 no está disponible para los usuarios de Skype empresarial online o Microsoft 365 o Office 365.
 
-4 para los usuarios de Skype empresarial online o Office 365, esta característica es compatible con los socios de Microsoft.
+4 para Skype empresarial online o para el usuario de Microsoft 365 u Office 365, esta característica es compatible con los socios de Microsoft.
 
 </div>
 
