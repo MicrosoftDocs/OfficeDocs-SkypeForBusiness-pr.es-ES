@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d82b8de29d8f73f439f158e96d1c61767a3bd019
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: b83113df089d22aeab705f0eb4ebc1d808b25c28
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940697"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041937"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 Groups y Microsoft Teams
 =====================================
@@ -56,3 +56,11 @@ Al crear un equipo, en el back-end, está creando un grupo de Office 365 y la bi
 Las características y capacidades de grupo para los usuarios dependen de la ubicación de la pertenencia a grupos. Por ejemplo, si quita un miembro de un equipo, se elimina también del grupo de Office 365. La eliminación del grupo elimina el equipo y los canales inmediatamente del cliente de Teams. Si quita una persona de un grupo mediante el centro de administración de Microsoft 365, ya no tendrá acceso a otros aspectos de colaboración, como la biblioteca de documentos de SharePoint Online, el grupo de Yammer o el compartido de OneNote. Sin embargo, seguirán teniendo acceso a la funcionalidad de chat del equipo durante aproximadamente dos horas.
 
 Como procedimiento recomendado para administrar miembros de equipos, agregue y quite miembros del cliente de Teams para asegurarse de que se aplica el control de acceso en cascada correcto a otras aplicaciones de nube dependientes. Además, evitará que una experiencia desligada deje a las personas con la impresión de que todavía tienen acceso a los recursos que usaron (hasta el próximo ciclo de sincronización agrega o revoca el acceso a un componente particular del servicio). Si agrega o quita miembros del equipo fuera del cliente de Teams (mediante el centro de administración de Microsoft 365, Azure AD o Exchange Online PowerShell), puede demorar hasta 24 horas (en algunos casos más) para que los cambios se reflejen en Teams.
+
+<a name="ability-to-add-group-as-attendee-while-scheduling-meetings"></a>Posibilidad de agregar un grupo como asistente durante la programación de reuniones
+----------------------------------------------------------
+
+A partir de mayo de 2020, ya puede invitar a un grupo a una reunión programada, con las siguientes advertencias:
+1. Todos los grupos y equipos existentes de Microsoft 365 creados a partir de grupos de Microsoft 365 existentes se pueden buscar y agregar a la reunión. Sin embargo, los miembros recibirán la invitación a la reunión en función de su suscripción al grupo.
+2. Los equipos creados desde cero antes del 2018 de mayo también se pueden buscar, pero los miembros no recibirán la invitación a la reunión debido a su suscripción de grupo predeterminada, que es la "respuesta a usted". Esto se puede cambiar desde Outlook modificando la configuración del grupo
+3. Los equipos creados desde cero después de mayo de 2018 no se pueden buscar y están ocultos con la propiedad "HiddenFromAddressListsEnabled". Esta es una configuración controlada por el administrador que puede modificar el administrador.

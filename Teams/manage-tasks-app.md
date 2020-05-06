@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0ae16216c5975407b3ec1c60a67231edd2ee8f1
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: cc6238e2cf9a3912cfa8cec765f63e6a553f4db1
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43941015"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042497"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación tareas de su organización en Microsoft Teams
 
@@ -28,7 +28,7 @@ ms.locfileid: "43941015"
 
 ## <a name="overview-of-tasks"></a>Descripción general de las tareas
 
-La aplicación tareas ofrece una experiencia de administración de tareas cohesiva a Microsoft Teams, integrando tareas personales con tecnología de tareas pendientes y tareas de equipo desarrollado por Planner en un solo lugar. Los usuarios pueden tener acceso a las tareas como una aplicación en el lado izquierdo de los equipos y como una pestaña en un canal dentro de equipos individuales. Las **listas personales** y **las listas de equipos** de las tareas permiten a los usuarios ver y administrar todas sus tareas personales y de equipo y priorizar su trabajo. Tareas está disponible en equipos de escritorio, Web y móviles de equipos de escritorio. 
+La aplicación tareas ofrece una experiencia de administración de tareas cohesiva a Microsoft Teams, lo que integra tareas personales con tecnología de [Microsoft to do](https://todo.microsoft.com/tasks/) y las tareas de equipo con la tecnología Planner en un solo lugar. Los usuarios pueden tener acceso a las tareas como una aplicación en el lado izquierdo de los equipos y como una pestaña en un canal dentro de equipos individuales. Las **listas personales** y **las listas de equipos** de las tareas permiten a los usuarios ver y administrar todas sus tareas personales y de equipo y priorizar su trabajo. Tareas está disponible en equipos de escritorio, Web y móviles de equipos de escritorio. 
 
 > [!NOTE]
 > A medida que implementemos la experiencia de tareas en los clientes de escritorio de Teams, el nombre de la aplicación aparecerá inicialmente como **planeador** para los usuarios. El nombre cambiará temporalmente a **tareas por Planner y tareas pendientes**, y después, se le cambiará el nombre a **tareas**. En los clientes móviles de Teams, los usuarios siempre verán el nombre de la aplicación como **tareas**. Es posible que haya un pequeño retraso en la disponibilidad de la experiencia móvil después de que la experiencia de escritorio esté disponible.

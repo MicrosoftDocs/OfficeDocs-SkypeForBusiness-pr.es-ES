@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 8deb0d00365803ff8ae585f8f6d4dfefbf72108f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 5fb963bbea97a41b6dbd6b68d5d7e0c162dc5a05
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905592"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042947"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicaciones para su organización
 
@@ -42,11 +42,11 @@ Al registrarse, obtendrás un determinado número de minutos, en función de tu 
   
 Para ello, debe **asignar una licencia de audioconferencia o de sistema telefónico** a los usuarios.
   
-- Asigne una licencia de **audioconferencia** a sus usuarios. Consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md).
+- Asigne una licencia de **audioconferencia** a sus usuarios. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
     Después de asignar esta licencia, tendrá que configurar audioconferencia. Para obtener instrucciones paso a paso, consulte [probar o comprar audioconferencia en Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Asigne un **sistema telefónico** y una licencia de plan de llamadas **nacionales o nacionales e internacionales** a los usuarios. Consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md).
+- Asigne un **sistema telefónico** y una licencia de plan de llamadas **nacionales o nacionales e internacionales** a los usuarios. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
     > [!NOTE]
     > Aunque no es necesario para el crédito de las comunicaciones, aún tiene que asignar un **plan de llamadas nacionales** o una licencia de **plan de llamadas nacionales e internacionales** .

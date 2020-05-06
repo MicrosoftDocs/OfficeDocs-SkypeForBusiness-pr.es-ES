@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre los operadores automáticos de la nube y cómo usarlos para que los autores de llamadas puedan desplazarse por un sistema de menús para ubicar y transferir llamadas a usuarios o departamentos.
-ms.openlocfilehash: bfe142db0322757dd8fefe55c4de529168939126
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 614077237f95c97c584a467c5852f97f438e92b8
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905142"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042607"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>¿Qué son los operadores automáticos en la nube?
 
@@ -64,7 +64,7 @@ Para comenzar a utilizar operadores automáticos, es importante recordar que:
 > Los números del servicio de enrutamiento directo para las colas de llamadas y los usuarios de Microsoft Teams solo son compatibles con los usuarios de Microsoft Teams y los agentes de llamadas.
 
    > [!TIP]
-   > Para redirigir llamadas a un operador o una opción de menú que sea un usuario en línea con una licencia de **sistema telefónico** , deberá habilitar su cuenta de telefonía IP empresarial o asignarle planes de llamada. Consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md). También puede usar Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   > Para redirigir llamadas a un operador o una opción de menú que sea un usuario en línea con una licencia de **sistema telefónico** , deberá habilitar su cuenta de telefonía IP empresarial o asignarle planes de llamada. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). También puede usar Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Para obtener y usar números de servicio gratuitos para sus operadores automáticos, debe configurar créditos de comunicaciones. Para ello, vea [¿Qué son los créditos de las comunicaciones?](what-are-communications-credits.md) y [configurar créditos de comunicaciones para su organización](set-up-communications-credits-for-your-organization.md).
 

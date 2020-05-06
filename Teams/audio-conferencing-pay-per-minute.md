@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Obtenga más información sobre la opción pago por minuto para habilitar las capacidades de audioconferencia para las organizaciones que usan licencias por volumen de Microsoft.
-ms.openlocfilehash: 5943b5d160df1ddd2ebb3da42818b02683e47309
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 18324a5e2f0ec97311675fa4dcb7293a456486a0
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139169"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041727"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconferencia con pago por minuto
 
@@ -74,7 +74,7 @@ Para habilitar las conferencias de audio por minuto para los usuarios de su orga
   
 ## <a name="want-to-find-out-more-about-pricing"></a>¿Deseas más información sobre los precios?
 
- **¿Busca los precios?** Consulta [Cómo ver precios y comprar licencias de complemento](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how) o una de las siguientes opciones:
+ **¿Busca los precios?** Vea lo siguiente:
   
 - [Precios de Audio Conferencia](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     

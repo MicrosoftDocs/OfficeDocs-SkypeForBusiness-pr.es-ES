@@ -1,5 +1,5 @@
 ---
-title: Problemas conocidos de Microsoft Teams
+title: Soporte para Microsoft Teams en la organización
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -9,25 +9,33 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
-ms.reviewer: marcl
+ms.reviewer: marcl, billkau
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Use esta lista de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores para solucionar problemas en la organización.
+description: Use estos recursos para dar soporte técnico a Microsoft Teams en su organización, tanto si es el administrador de Teams como el ingeniero de soporte técnico.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1343317d29f196caf151ead5a6429fb3edf19d87
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 362958a7307a71b68a2582bffca2e323966b1977
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902305"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997011"
 ---
-# <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
+# <a name="support-microsoft-teams-in-your-organization"></a>Soporte para Microsoft Teams en la organización
 
-En este artículo se indican los problemas conocidos de Microsoft Teams por área de características.
+Si busca problemas conocidos de Teams, se encuentra en el sitio adecuado. Los recursos de este artículo le servirán de ayuda para dar soporte técnico para Teams en su organización. 
+
+Empiece por revisar la lista de los [problemas y soluciones más comunes](#common-issues-and-resolutions), que se muestra más adelante en este artículo.
+
+Si no encuentra lo que necesita, vaya a [Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) y busque el problema en la tabla de contenido o en el cuadro **Filtrar por título**. 
+:::image type="content" source="media/known-issues1.png" alt-text="Captura de pantalla de la tabla de contenido y el cuadro de filtro de la página Solución de problemas de Teams":::
+
+Si sigue necesitando ayuda, póngase en contacto con el [Soporte técnico de Microsoft](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+
 
 ## <a name="common-issues-and-resolutions"></a>Problemas conocidos y resolución
 
@@ -55,4 +63,9 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |---------|---------|
 |Sus usuarios ven un mensaje de "¡Se está perdiendo muchas cosas!" mensaje.   |Asegúrese de [Habilitar Microsoft Teams para su escuela](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams). En los inquilinos de EDU, Teams no está habilitado por defecto; tendrá que activarlo primero. <br><br>Para obtener ayuda con las clases de Teams, consulte [Formación y aprendizaje remotos en Office 365 Educación](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4) donde obtendrá la información más reciente sobre cómo configurar el centro educativo, la planificación de lecciones, las reuniones virtuales y cómo compartir contenido con los alumnos.<br><br>Por último, asegúrese de consultar los vídeos y las cartas de aprendizaje y otros elementos de Microsoft Teams para administradores de TI en [Formación de administradores para Teams](itadmin-readiness.md).        |
 
-Vea el [Solucionador de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) para obtener más información sobre la resolución de problemas en Microsoft Teams.
+
+## <a name="related-topics"></a>Temas relacionados
+
+[Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+
+[Recursos de soporte técnico para Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b7c7910c7c876c01d3192e16f49498e508fcd2c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: cd9ee15a1fad0e8fcb228b449bf4cea41da0eeb1
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776745"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041747"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Evaluar el entorno antes de actualizar a teams
 
@@ -98,7 +98,7 @@ Si procede, Capture los detalles de la implementación de Teams mediante la tabl
 > | Pregunta | Respuesta | Comentarios |
 > |---|---|---|
 > | ¿Qué tipos de usuarios están habilitados para Teams? | <input type="checkbox">Todos los usuarios de la organización <br/> <input type="checkbox">Usuarios o grupos de usuarios específicos <br>&nbsp;&nbsp; (Especifique en la columna &nbsp;comentarios) ||
-> | ¿Qué características y modalidades de Teams se usan? | <input type="checkbox">Conversaciones basadas en canales <br/> <input type="checkbox">Chat privado <br/> <input type="checkbox">Acceso de invitados <br/> <input type="checkbox">Reuniones de canal <br/> <input type="checkbox">Reuniones privadas <br/> <input type="checkbox">Llamadas privadas <br/> <input type="checkbox">Meetup de canal ad hoc <br/> <input type="checkbox">Vídeos en reuniones <br/> <input type="checkbox">Pantalla compartida en reuniones <br/> <input type="checkbox">Audioconferencia <br/><input type="checkbox">Aplicaciones (aplicaciones)<br> &nbsp;&nbsp; &nbsp; Pestañas <input type="checkbox"><br>&nbsp;&nbsp; Bots &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; Conectores &nbsp; <input type="checkbox"><br><input type="checkbox">Integración de almacenamiento en nube personalizada <br>&nbsp;&nbsp; (Dropbox, Box, ShareFile, Google Drive, &nbsp; Egnyte) <br/> <input type="checkbox">Integración del correo electrónico del canal <br/> <input type="checkbox">Otro (especifique en la columna comentarios). | |
+> | ¿Qué características y modalidades de Teams se usan? | <input type="checkbox">Conversaciones basadas en canales <br/> <input type="checkbox">Chat privado <br/> <input type="checkbox">Acceso de invitados <br/> <input type="checkbox">Reuniones de canal <br/> <input type="checkbox">Reuniones privadas <br/> <input type="checkbox">Llamadas privadas <br/> <input type="checkbox">Meetup de canal ad hoc <br/> <input type="checkbox">Vídeos en reuniones <br/> <input type="checkbox">Pantalla compartida en reuniones <br/> <input type="checkbox">Audioconferencia <br/><input type="checkbox">Aplicaciones (aplicaciones)<br> &nbsp;&nbsp; &nbsp; Pestañas <input type="checkbox"><br>&nbsp;&nbsp; Bots &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; Conectores &nbsp; <input type="checkbox"><br><input type="checkbox">Integración de almacenamiento en nube personalizada <br>&nbsp;&nbsp; Dropbox, Box, ShareFile, Google Drive, Egnyte (próximamente &nbsp; ) <br/> <input type="checkbox">Integración del correo electrónico del canal <br/> <input type="checkbox">Otro (especifique en la columna comentarios). | |
 > | ¿Qué aplicaciones ha implementado en Teams? | | |
 > | ¿Ha bloqueado específicamente alguna funcionalidad de Teams? <br/>En caso afirmativo, anote los detalles de la columna Comentarios. | <input type="checkbox">Afirmativa <br/> <input type="checkbox">No ||
 > | ¿Qué clientes de Teams se están usando? | <input type="checkbox">Web <br/> <input type="checkbox">Ventana <br/> <input type="checkbox">Mac <br/> <input type="checkbox">i <br/> <input type="checkbox">Android <br/> <input type="checkbox">Windows Mobile | |

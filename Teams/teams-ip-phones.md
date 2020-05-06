@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y de escritorio están certificados para Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: fddb09ee2da24629cce7c942847d5a2ae445d7a1
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 9a533b882da3298cdfd497e4f87b88e64a2d5ef4
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951215"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041838"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Teléfonos IP certificados para Microsoft Teams
 
@@ -73,7 +73,7 @@ Para obtener información sobre las características compatibles con estos dispo
 
 Consulte [Buscar la versión de firmware en un dispositivo móvil](/MicrosoftTeams/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) para determinar la versión del firmware del dispositivo en el dispositivo móvil.
 
-Las licencias de Microsoft Teams se pueden comprar como parte de sus [suscripciones a microsoft 365 u Office 365](/MicrosoftTeams/Office-365-licensing.md). Para obtener más información sobre las licencias necesarias para usar Microsoft Teams en teléfonos, consulte [licencias de sistema telefónicas](https://products.office.com/microsoft-teams/voice-calling)disponibles.
+Las licencias de Microsoft Teams se pueden comprar como parte de sus [suscripciones a microsoft 365 u Office 365](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Para obtener más información sobre las licencias necesarias para usar Microsoft Teams en teléfonos, consulte [licencias de sistema telefónicas](https://products.office.com/microsoft-teams/voice-calling)disponibles.
 
 Para obtener más información sobre la obtención de equipos, consulte [¿Cómo puedo obtener acceso a Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

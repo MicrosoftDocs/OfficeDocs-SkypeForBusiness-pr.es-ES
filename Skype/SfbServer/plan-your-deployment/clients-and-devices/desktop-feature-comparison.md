@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumen: los administradores de Skype empresarial Server 2015 o Skype empresarial online pueden usar estas tablas para comprender qué características se admiten en cada cliente.'
-ms.openlocfilehash: c07955758f86e31eb947a99ce8ba0e8dc7a44b30
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2da6ed53ea70e6a3065b283456ccf028fd04ca6f
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777805"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041957"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparación de características de cliente de escritorio para Skype empresarial Server 2015
 
@@ -188,7 +188,7 @@ En esta tabla se describen las características relacionadas con la compatibilid
 |Recogida de llamada de grupo  |&#x2714;||&#x2714; &#x2776; ||||&#x2714;|||
 |Enrutamiento basado en la ubicación  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Administrar grupo de respuesta/grupo de llamada de equipo |&#x2714;||&#x2714;|||||||
-
+|Contestar llamada de operador automático |&#x2714;||&#x2714;|||||||
  &#x2776; esta característica no está disponible en Skype empresarial online.
   
 ## <a name="external-users-support"></a>Compatibilidad con usuarios externos
@@ -281,7 +281,7 @@ Las cuentas de usuario pueden existir en línea o en el entorno local y esto afe
 - Compatibilidad con la mensajería instantánea: escalar un salón de chat persistente a una reunión de Skype empresarial con un solo clic
 - Usuarios externos: realizar llamadas de dos o más participantes con usuarios externos
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 <a name="Types"> </a>
 

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar el conector de Power BI para usar plantillas de consulta de CQD
-ms.openlocfilehash: d9619fbf39558597c0f6c168f57f8b240d3c2a20
-ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
+ms.openlocfilehash: 9274394c15e76aa985cf9e0a005963b79e0acac9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43952449"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042597"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar el conector de Power BI para usar plantillas de consulta de CQD
 
@@ -158,6 +158,16 @@ Si encuentra errores adicionales fuera de este ámbito, notifíquelo al equipo d
 ### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>¿Cuándo se actualizará el conector de Power BI a partir del estado "beta"?
 
 A pesar de la etiqueta beta, el conector de calidad de la llamada para Power BI es la versión de lanzamiento del conector y ha sido oficialmente firmado por el equipo de Power BI para reflejarlo. El proceso de certificación para quitar esa etiqueta beta es muy amplio y requiere un compromiso del equipo de Power BI para ofrecer también compatibilidad directa con el conector. Debido a restricciones de tiempo, el equipo de Power BI actualmente no puede proporcionar ese soporte ni certificación más amplia, pero todavía está preparado para atestiguar la seguridad, la autenticidad y la funcionalidad general del conector de calidad de llamadas de Microsoft.
+
+### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-browser-what-can-i-do-to-improve-performance"></a>¿Por qué el conector parece tan lento comparado con el CQD avanzado en el explorador? ¿Qué puedo hacer para mejorar el rendimiento?
+
+El rendimiento de las consultas para las distintas plantillas es realmente el mismo en el explorador y en el conector. La diferencia viene en el número de consultas simultáneas que se están ejecutando. Debido a que la versión en el explorador de CQD tenía opciones de visualización con menos desarrollo y densidad de información, la mayoría de los informes se limitaban a cargar las consultas de 2-3 a la vez. Por otro lado, las plantillas de conector a menudo muestran 20 + consultas simultáneas. Si desea crear informes que sean tan receptivos como los más antiguos, pruebe a crear informes que no contengan más de 2-3 consultas por pestaña.
+
+### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>Me encontramos en el límite de la fila 10.000 al ejecutar consultas. ¿Cómo puedo hacer que el conector devuelva más de 10.000 filas?
+
+El límite de la 10.000 se especifica realmente en el extremo de la API, y está diseñado para ayudar a mejorar significativamente el rendimiento y reducir el riesgo de errores de ejecución de consultas producidos por condiciones de memoria insuficiente.
+
+En lugar de intentar aumentar el recuento de filas de resultados, es mejor reestructurar los informes de acuerdo con los procedimientos recomendados de conector. Las plantillas que hemos incluido están diseñadas para demostrar estos procedimientos recomendados. Siempre que sea posible, empiece por mirar sus KPI con dimensiones más amplias y menos cardinales, como mes, año, fecha, región, país, etc. Desde allí, puede profundizar en las dimensiones de cardinalidad cada vez más altas. Los informes de asistencia y ubicación mejorada proporcionan buenos ejemplos de este flujo de trabajo detallado.
 
 ## <a name="related-topics"></a>Temas relacionados
 

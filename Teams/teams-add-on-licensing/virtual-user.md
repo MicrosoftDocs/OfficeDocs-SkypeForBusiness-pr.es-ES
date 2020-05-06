@@ -20,14 +20,14 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo asignar una licencia de usuario de sistema telefónico gratis o de usuario de sistema telefónico a las cuentas de recursos de su organización.
-ms.openlocfilehash: 5a60e757f4ed9dbca67219217257894a8f95a295
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: cd70b4a1d24bf762c5aa1508d29a9ce343cf4b76
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904792"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042417"
 ---
-# <a name="microsoft-365-phone-system--virtual-user-license"></a>Sistema telefónico Microsoft 365-licencia de usuario virtual 
+# <a name="microsoft-365-phone-system--virtual-user-license"></a>Sistema telefónico Microsoft 365-licencia de usuario virtual
 
 Las organizaciones con licencias de usuario de sistema telefónico pueden asignar una licencia de usuario de sistema telefónico gratuita de Microsoft 365, o una licencia de usuario de sistema telefónico de pagar a cuentas de recursos. No se requiere un plan de llamadas. Todos los operadores automáticos o las colas de llamadas requieren una cuenta de recursos asociada. Las cuentas de recursos que requieren un número de teléfono necesitan un sistema telefónico Microsoft 365, una licencia de usuario virtual o una licencia de usuario de sistema telefónico de pagos antes de que se pueda aplicar un número de teléfono a la cuenta de recursos.
 
@@ -41,7 +41,7 @@ Las organizaciones con licencias de usuario de sistema telefónico pueden asigna
 Su organización está asignada a Microsoft 365 Phone System: licencias de usuario virtual según su tamaño global. Cualquier organización que tenga al menos una licencia que incluya el sistema telefónico o tenga un sistema telefónico agregado tiene 25 licencias de usuario virtual disponibles sin costo alguno. Al agregar las licencias de usuario de un sistema de 10 teléfonos a su organización, se ofrece una licencia de usuario virtual de Microsoft 365 Phone System:
 
 > [!NOTE]
-> Sistema telefónico es una licencia de complemento disponible con Office 365 E1 y E3. El sistema telefónico también se incluye como parte de las licencias de Office 365 E5 y Microsoft 365 Business Voice.
+> Sistema telefónico es una licencia de complemento disponible con Microsoft 365 y Office 365 E1 y E3. El sistema telefónico también se incluye como parte de las licencias de Microsoft 365 E5, Office 365 E5 y Microsoft 365 Business Voice.
 
 Si su organización usa el sistema telefónico gratuito Microsoft 365: licencias de usuario virtual en la creación de nodos de cola de llamadas o de operadores automáticos, aún puede usar las licencias de sistema telefónico de pagos con una cuenta de recursos. La mayoría de las organizaciones tendrá suficientes licencias de usuario virtual basadas en el plan de escala. 
 

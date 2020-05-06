@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configure una cuenta de recursos para Skype empresarial Server 2019.
-ms.openlocfilehash: 1de087abdf08420a6300ae45466e9696aacb1ed1
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 0d7e52892c718f215a269201b73a547a97c13f96
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510789"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042847"
 ---
 # <a name="configure-resource-accounts"></a>Configurar cuentas de recursos
 
@@ -43,7 +43,7 @@ Si el operador automático del sistema telefónico o la cola de llamadas van a n
 
 Si el operador automático o la cola de llamadas están anidados bajo un operador automático de nivel superior, la cuenta de recurso asociada solo necesita un número de teléfono si desea tener varios puntos de entrada en la estructura de los operadores automáticos y las colas de llamadas.
 
-Para redirigir las llamadas a los usuarios de su organización que estén hospedados en línea, deben tener una licencia de **sistema telefónico** y estar habilitados para telefonía IP empresarial o tener planes de llamadas de Office 365. Consulte [asignar licencias de Microsoft Teams](/MicrosoftTeams/assign-teams-licenses). Para habilitarlos para telefonía IP empresarial, puede usar Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Para redirigir las llamadas a los usuarios de su organización que estén hospedados en línea, deben tener una licencia de **sistema telefónico** y estar habilitados para telefonía IP empresarial o tener planes de llamadas de Office 365. Consulte [asignar licencias de complementos de Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses). Para habilitarlos para telefonía IP empresarial, puede usar Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 Si el operador automático del sistema telefónico o la cola de llamadas que está creando estarán anidados y no necesitará un número de teléfono, el proceso es:
 
@@ -84,7 +84,7 @@ La creación de una cuenta de recursos que use un número de teléfono requerir�
 
     Consulte [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) para obtener más información sobre este comando.
 
-5. Asigne la licencia de sistema telefónico o usuario virtual a la cuenta del recurso. Consulte [asignar licencias de Microsoft Teams](/MicrosoftTeams/assign-teams-licenses) y [asignar licencias a un usuario](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+5. Asigne la licencia de sistema telefónico o usuario virtual a la cuenta del recurso. Consulte [asignar licencias de complementos de Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) y [asignar licencias a un usuario](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
 
    Si va a asignar un número de teléfono a una cuenta de recursos, ahora puede usar la licencia de sistema telefónico y usuario virtual sin costo. Esto proporciona funciones del sistema telefónico a números de teléfono en el nivel de la organización y le permite crear funciones de cola de llamadas y operador automático.
 
@@ -191,7 +191,7 @@ La migración de la mensajería unificada de Exchange al sistema telefónico nec
 
    En este punto, si ya ha migrado el correo de voz de mensajería unificada, debe estar en una ubicación para migrar a Exchange Server 2019.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 [Crear una cola de llamadas en la nube](/MicrosoftTeams/create-a-phone-system-call-queue)
 

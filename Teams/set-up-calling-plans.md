@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Aprenda a configurar planes de llamadas, como ver planes disponibles en su región, comprar & asignar licencias, obtener números de teléfono y agregar direcciones de emergencia & ubicaciones.
-ms.openlocfilehash: 4c470327b01b799dabc585db479e51e8ef37c41b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 08db669cfb7ddb75f6a73610f112c682a016354b
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140883"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042407"
 ---
 # <a name="set-up-calling-plans"></a>Configurar las llamadas RTC en Skype Empresarial
 
@@ -45,7 +45,7 @@ Si los planes de llamadas no están disponibles en su país o región, considere
     > [!TIP]
     > **Phone System** licenses and Calling Plans in Office 365 go together, so to see the option to purchase Calling Plans, you must first have the **Phone System** licenses.
   
-2. First assign the licenses, and then assign a Calling Plan to the people in your organization. Consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md).
+2. First assign the licenses, and then assign a Calling Plan to the people in your organization. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
 ## <a name="step-3-get-phone-numbers"></a>Paso 3: obtener números de teléfono
 Hay tres maneras de obtener nuevos números de usuario:

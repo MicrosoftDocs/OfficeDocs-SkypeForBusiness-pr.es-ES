@@ -15,12 +15,12 @@ description: Use esta guía para implementar Microsoft Teams como la primera car
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9db6b2192224e796475c903cf5eeeaa06ecdc8ee
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2cd8fc92d3f46df8bcfaa07a96b69b84790750aa
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780379"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041717"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Implementar Microsoft Teams en primer lugar
 
@@ -43,7 +43,7 @@ Para empezar a usar su primer despliegue de Teams, deberá cumplir con un mínim
     Para comprender los atributos sincronizados con AAD Sync, lea [sincronización de Azure ad Connect: atributos sincronizados en Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 3.  Licencias de usuario adecuadas asignadas a teams  
-    Para comprender las licencias de Teams, lea [licencias de Office 365 para Microsoft Teams](office-365-licensing.md)
+    Para comprender las licencias de Teams, lea [Descripción del servicio Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 4.  Red de la organización preparada para Teams  
     Para comprender la preparación de la red, lea [preparar la red de su organización para Teams](prepare-network.md).
@@ -54,7 +54,7 @@ Para empezar a usar su primer despliegue de Teams, deberá cumplir con un mínim
 > Los inquilinos creados después del 1 de septiembre de 2019 se aprovisionan en el modo solo de Teams.
 > 
 > [!IMPORTANT]
-> Si ha implementado Skype empresarial Server y se aprovisionó su inquilino después del 1 de septiembre de 2019, póngase en contacto con el soporte técnico de Premier para habilitar las capacidades de coexistencia para Teams. Asegúrese de que la "Directiva de actualización de toda la organización" está establecida en "modo islas" <span class="underline">antes</span> de asignar licencias de Teams a un usuario.
+> Si ha implementado Skype empresarial Server y se aprovisionó su inquilino después del 1 de septiembre de 2019, póngase en contacto con el soporte técnico para habilitar las capacidades de coexistencia de Teams. Asegúrese de que la "Directiva de actualización de toda la organización" está establecida en "modo islas" <span class="underline">antes</span> de asignar licencias de Teams a un usuario.
 
 ## <a name="migration-starting-points"></a>Puntos de partida de migración
 
@@ -233,7 +233,7 @@ Más información aquí: <a href="https://docs.microsoft.com/microsoftteams/admi
 
 1.  Reúna los requisitos previos que se detallan en la sección empezar aquí anterior.
 
-2.  Cambiar el inquilino al modo islas (para los inquilinos aprovisionados después 9/1/2019, póngase en contacto con el soporte técnico Premier para hacer este cambio).  
+2.  Cambiar el inquilino al modo islas (para los inquilinos aprovisionados después de 9/1/2019, póngase en contacto con el soporte técnico para hacer este cambio).  
     [Configurar su coexistencia y la configuración de actualización](setting-your-coexistence-and-upgrade-settings.md)
 
 3.  Configurar el espacio empresarial de acuerdo con las directivas empresariales y de empresa de su empresa  

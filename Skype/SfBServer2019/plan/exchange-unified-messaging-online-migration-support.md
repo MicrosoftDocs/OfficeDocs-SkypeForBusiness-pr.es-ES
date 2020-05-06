@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft retira el servicio en línea de mensajería unificada (ExchUMO) de Exchange antes del 28 de febrero de 2020. En este artículo se resumen lo que los clientes afectados deben conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: ab0040887b41fc62786f21c889f7dd63aae011b4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a28d8e1d9217773ec28c8f2afdf00cb1e16ae53c
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780779"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042837"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de mensajería unificada de Exchange
 
@@ -135,6 +135,7 @@ Le recomendamos encarecidamente que inicie la configuración de los nuevos opera
 | VM | Características del servicio | eDiscovery y retención  | Para la seguridad y el cumplimiento  | v | v    |
 | VM | Características del servicio | Compatibilidad con las reglas de Exchange | Para la seguridad y el cumplimiento  | v | v    |
 | VM | Características de usuario | Acceso telefónico RTC  | Acceso de suscriptor  | N | v    |
+| VM | Características de usuario | Delegado  | correo electrónico de llamadas perdidas  | N | v    |
 | VM | Características de usuario | RTC de Outlook Voice Access   | Acceso de suscriptor  | N | v    |
 | VM | Características de usuario | Acceso telefónico local con un extremo autenticado | Llamar al servicio de correo de voz para escuchar mensajes de voz y cambiar la configuración del correo de voz| v | v    |
 | VM | Características de usuario | Configuración del usuario para deshabilitar el correo de voz   |  | v | v    |

@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: En este artículo se describe la lista de teléfonos que están certificados para Microsoft Teams y las características compatibles con los teléfonos certificados para Microsoft Teams.
-ms.openlocfilehash: f7f579fcd5c939c5c844a0f4f4e3ba9a2aba97f8
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 5f8eaa1e4acd9563f31ed39e365c7699dbbaec04
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951285"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042927"
 ---
 # <a name="phones-for-microsoft-teams"></a>Teléfonos para Microsoft Teams
 
@@ -142,7 +142,7 @@ Para revisar la versión mínima del firmware, en la página de inicio de sesió
 
 ## <a name="required-licenses"></a>Licencias necesarias
 
-Las licencias de Microsoft Teams se pueden comprar como parte de sus [suscripciones a microsoft 365 y Office 365](Office-365-licensing.md). Para obtener más información sobre las licencias necesarias para usar Microsoft Teams en teléfonos, consulte [licencias de sistema telefónicas](https://products.office.com/microsoft-teams/voice-calling)disponibles.
+Las licencias de Microsoft Teams se pueden comprar como parte de sus [suscripciones a microsoft 365 y Office 365](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Para obtener más información sobre las licencias necesarias para usar Microsoft Teams en teléfonos, consulte [licencias de sistema telefónicas](https://products.office.com/microsoft-teams/voice-calling)disponibles.
 
 Para obtener más información sobre la obtención de equipos, consulte [¿Cómo puedo obtener acceso a Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
