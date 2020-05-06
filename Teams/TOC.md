@@ -59,7 +59,7 @@
 ### [Configurar la administración para aplicaciones en Teams](admin-settings.md)
 ### [Usar pestañas integradas y personalizadas](built-in-custom-tabs.md)
 ### [Usar Microsoft 365 u Office 365 y los conectores personalizados](Office-365-custom-connectors.md)
-### [Gestione sus aplicaciones de línea de negocio](manage-your-lob-apps.md)
+### [Administrar las aplicaciones personalizadas](manage-your-custom-apps.md)
 ### [Certificación de aplicación](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Plantillas de aplicación para equipos](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Administrar la aplicación Tareas para su organización](manage-tasks-app.md)
@@ -676,6 +676,7 @@
 
 <!-- ============================================================ -->
 # Supervisar, mantener y solucionar problemas
+## [Soporte para Teams en la organización](Known-issues.md)
 ## [Supervisar y administrar la calidad de las llamadas](monitor-call-quality-qos.md)
 ### [Guía de revisión de la experiencia de calidad](quality-of-experience-review-guide.md)
 ### [Configurar la calidad del servicio en Teams](QoS-in-Teams.md)
@@ -696,7 +697,6 @@
 ## [Usar los archivos de registro para solucionar problemas en Teams](log-files.md)
 ## [Preguntas más frecuentes: Soporte para los trabajadores remotos](FAQ-support-remote-workforce.md)
 ## [Comprobar el estado del servicio para Microsoft Teams](service-health.md)
-## [Problemas conocidos de Teams](Known-issues.md)
 ## [Recursos de soporte técnico para Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->

@@ -26,7 +26,7 @@
 ## Manage
 ### [Introducción a la administración](rooms-manage.md)
 ### [Mantenimiento y funcionamiento](rooms-operations.md)
-### [Problemas conocidos](known-issues.md)
+### [Soporte para Teams en la organización](known-issues.md)
 ### [Dispositivos con Azure Monitor](azure-monitor-manage.md)
 ### [Configuración con un archivo XML](xml-config-file.md)
 ### [Usar la herramienta de recuperación](recovery-tool.md)
