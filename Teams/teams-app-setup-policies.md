@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 55b43e9fe156a2b3707cb5e99c57239345bf031e
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 89b1a8a756cba44435098e5cd446294004029eac
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749827"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064485"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -183,6 +183,10 @@ Con los clientes móviles de Teams, los usuarios verán las principales aplicaci
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>¿Los usuarios pueden cambiar el orden de las aplicaciones ancladas a través de una directiva?
 
 Los usuarios pueden cambiar el orden de las aplicaciones ancladas en Teams para clientes móviles y de escritorio si está activada la opción **permitir el anclaje de usuarios** . Los usuarios no pueden cambiar el orden de las aplicaciones ancladas en los clientes Web de Teams.
+
+#### <a name="does-user-pinning-take-precedence"></a>¿Tiene prioridad el anclaje del usuario?
+
+Si se cambia la Directiva de configuración de la aplicación asignada al usuario para bloquear el anclaje de la aplicación del usuario, Teams quita todas las aplicaciones ancladas a la barra de la aplicación. Si se cambia la Directiva para permitir el anclaje de la aplicación de usuario, los usuarios deberán volver a anclar sus aplicaciones previamente ancladas.
 
 ### <a name="custom-teams-apps"></a>Aplicaciones personalizadas de Teams
 

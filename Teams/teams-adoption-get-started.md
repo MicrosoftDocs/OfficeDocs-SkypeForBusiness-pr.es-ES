@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 853e897a31b229962acec8f85d8a0a3e966c507b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 00e0cd424de4917cf4a6f84a36b99dbfc3e2f951
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905862"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041877"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Comenzar a impulsar la adopción de Microsoft Teams
 
@@ -36,7 +36,7 @@ Al impulsar la adopción de Microsoft Teams, puede ofrecer una experiencia de us
 
 Antes de empezar, asegúrese de que:
 
-- [Teams está instalado](get-clients.md) y [se asignan licencias](office-365-licensing.md) en su entorno. Se deben asignar licencias mínimas a su equipo central y a los primeros usuarios que participarán en esta fase inicial del proyecto.
+- [Teams está instalado](get-clients.md) y [se asignan licencias](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) en su entorno. Se deben asignar licencias mínimas a su equipo central y a los primeros usuarios que participarán en esta fase inicial del proyecto.
 
 - Has descargado las aplicaciones móviles y de escritorio. 
 

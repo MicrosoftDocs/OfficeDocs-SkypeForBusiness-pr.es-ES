@@ -22,18 +22,18 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga más información sobre las licencias disponibles para diferentes tipos de características de llamadas y reuniones en salas de Microsoft Teams.
-ms.openlocfilehash: cc736fad2e7050f4989250917d8fc0d1a7c22fae
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d3ab603e914fef828788d474fa051c1e102165cd
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905392"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064495"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Actualización de licencias de sala de reuniones de equipos
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Soluciones de licencias para dispositivos de comunicación compartida
 
-Microsoft tiene un SKU dedicado para las reuniones de licencias y las llamadas en función de cada dispositivo para los dispositivos de la sala de reuniones (como salas de Microsoft Teams, Microsoft Surface Hub y las barras de collaboartion para Microsoft Teams).
+Microsoft tiene un SKU dedicado para las reuniones de licencias y las llamadas en función de cada dispositivo para los dispositivos de la sala de reuniones (como salas de Microsoft Teams, Microsoft Surface Hub y las barras de colaboración de Microsoft Teams).
 
 ||SKU de sala de reuniones |  
 |:--- |:---: |

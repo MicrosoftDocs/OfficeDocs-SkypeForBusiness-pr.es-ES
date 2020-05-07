@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo llevar las aplicaciones personalizadas de su equipo del desarrollo a la implementación.
-ms.openlocfilehash: 8166ba6b46853510a9f4e966ddca4e5b8686b551
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: a2896a2aa2b2d9750afd147b113a76637514afb6
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006063"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064535"
 ---
 # <a name="manage-your-custom-apps-in-microsoft-teams"></a>Administrar las aplicaciones personalizadas en Microsoft Teams
 
@@ -131,15 +131,19 @@ Puede actualizar la aplicación a través del catálogo de aplicaciones de inqui
 
 En la mayoría de los casos, después de completar una actualización de la aplicación, la nueva versión aparecerá automáticamente para los usuarios finales. Sin embargo, hay algunas actualizaciones del <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">manifiesto de Microsoft Teams</a> que requieren la aceptación del usuario:
 
-* se ha agregado o eliminado un bot
-* ha cambiado la propiedad "botId" de un bot existente
-* ha cambiado la propiedad "isNotificationOnly" de un bot existente
-* la propiedad "supportsFiles" del bot ha cambiado
-* se ha agregado o eliminado una extensión de mensajería
-* se agregó un nuevo conector
-* se ha agregado una nueva pestaña estática
-* se ha agregado una nueva pestaña configurable
-* las propiedades de "webApplicationInfo" han cambiado
+* Se ha agregado o eliminado un bot
+* Ha cambiado la propiedad "botId" de un bot existente
+* Ha cambiado la propiedad "isNotificationOnly" de un bot existente
+* La propiedad "supportsFiles" del bot ha cambiado
+* Se ha agregado o eliminado una extensión de mensajería
+* Se agregó un nuevo conector
+* Se ha agregado una nueva pestaña estática
+* Se ha agregado una nueva pestaña configurable
+* Las propiedades de "webApplicationInfo" han cambiado
+
+![Captura de pantalla de la lista de aplicaciones, que muestra las aplicaciones que tienen una nueva versión disponible](media/manage-your-custom-apps-update1.png)
+
+![Captura de pantalla de la opción de actualización de una aplicación](media/manage-your-custom-apps-update2.png)
 
 ## <a name="related-apps"></a>Aplicaciones relacionadas
 

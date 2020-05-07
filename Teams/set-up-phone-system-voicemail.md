@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el buzón de voz en la nube para sus usuarios. '
-ms.openlocfilehash: 4f85e8db6f50becb4ae2406e84621c08507e9737
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: eb25d18dc0414edcc3b143487cced1f0e13b2b60
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779736"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042937"
 ---
 # <a name="set-up-cloud-voicemail"></a>Planear el Correo de voz en la nube
 
@@ -41,7 +41,7 @@ Para los usuarios de Skype empresarial online y planes de llamadas, el buzón de
   
 1. Si la característica del sistema telefónico no está incluida en su plan, es posible que tenga que comprar licencias de complemento de **sistema telefónico** . Es posible que también necesite comprar una licencia de Exchange Online. Consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-2. [Asignar o quitar licencias de Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), las [licencias para asignar Microsoft Teams](assign-teams-licenses.md)y las licencias de Exchange Online para los usuarios de su empresa. Después de hacerlo, podrán recibir mensajes del correo de voz.
+2. [Asignar o quitar licencias de Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), las [licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)y las licencias de Exchange Online para las personas de su empresa. Después de hacerlo, podrán recibir mensajes del correo de voz.
     
 3. Se ha agregado la ayuda para la transcripción del buzón de voz a partir del 2017 de marzo y está habilitada de forma predeterminada para todas las organizaciones y todos los usuarios. Puede deshabilitar la transcripción para su organización utilizando Windows PowerShell y siguiendo los pasos que se indican a continuación.
 
@@ -51,7 +51,7 @@ La siguiente información está relacionada con la configuración del buzón de 
   
 1. Si la característica del sistema telefónico no está incluida en su plan, es posible que tenga que comprar licencias de complemento de **sistema telefónico** . También necesita comprar una licencia de Exchange Online. Consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-2. [Asignar o quitar licencias de Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), las [licencias para asignar Microsoft Teams](assign-teams-licenses.md)y las licencias de Exchange Online para los usuarios de su empresa.
+2. [Asignar o quitar licencias de Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), las [licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)y las licencias de Exchange Online para las personas de su empresa.
     
 3. Siga las instrucciones que correspondan a la solución de llamadas RTC locales implementada para los usuarios. Para la edición de Cloud Connector, siga las instrucciones de la sección **habilitar los usuarios de voz del sistema telefónico y los servicios de buzón** de voz de la [Guía de configuración de Skype empresarial para la nube](https://technet.microsoft.com/library/mt605228.aspx). Para las llamadas RTC con Skype empresarial Server, siga [habilitando a los usuarios de Enterprise Voice on local](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises). Para el enrutamiento directo de Teams, siga las secciones **configurar el número de teléfono y habilitar la telefonía IP empresarial y el buzón de voz** de [configurar el enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail).
 

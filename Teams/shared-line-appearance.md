@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Obtenga más información sobre cómo enviar a los usuarios un correo electrónico con la información de las audioconferencias en Microsoft Teams.
-ms.openlocfilehash: 52f4257d5e5603c0f7ed812d5ab677a18ed47fb9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 80c279e4d80478c2392f8c4faffb46e822c016e4
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905552"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042587"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Apariencia de línea compartida en Microsoft Teams
 
@@ -40,7 +40,7 @@ La apariencia de la línea compartida forma parte de la característica de deleg
 
 Un usuario debe tener un sistema telefónico con conectividad RTC (una licencia de plan de llamadas o un OnlineVoiceRoutingPolicy de enrutamiento directo) para ser delegado o configurar la delegación y permitir que otros usuarios realicen o reciban llamadas en su nombre.
 
-Tanto los administradores como los delegados necesitan tener un sistema telefónico con conectividad RTC (ya sea una licencia de plan de llamadas o un enrutamiento de enrutamiento OnlineVoiceRoutingPolicy). La experiencia de línea compartida es parte de la delegación y se incluye con el sistema telefónico. Para obtener más información sobre el modelo de licencias, consulte [licencias de Office 365 para Microsoft Teams](office-365-licensing.md).
+Tanto los administradores como los delegados necesitan tener un sistema telefónico con conectividad RTC (ya sea una licencia de plan de llamadas o un enrutamiento de enrutamiento OnlineVoiceRoutingPolicy). La experiencia de línea compartida es parte de la delegación y se incluye con el sistema telefónico. Para obtener más información sobre el modelo de licencias, vea [Descripción del servicio Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>Configurar la delegación y la apariencia de las líneas compartidas
 

@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9487a6a96397be27ebf23bd474fc0b9a5ba1fea0
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: be3df465c740aef7069a77cb7a7562fd0ecd8cd9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940777"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042447"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Directivas de retención en Microsoft Teams
 
@@ -55,7 +55,7 @@ Con directivas de retención para Teams, puede:
 
 Cuando los datos están sujetos a una directiva de retención, los usuarios pueden continuar trabajando con ellos porque los datos se retienen en su ubicación original. Si un usuario edita o elimina datos que están sujetos a la directiva, se guarda una copia en una ubicación segura donde se conserva mientras la directiva está vigente.
 
-La licencia, mínima requerida, para las directivas de retención es Office 365 E3. Para más información sobre las licencias, consulte [Licencias de Office 365 para Teams](Office-365-licensing.md).
+La licencia, mínima requerida, para las directivas de retención es Office 365 E3. Para obtener más información sobre las licencias, vea [Descripción del servicio Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## <a name="how-teams-retention-policies-work"></a>Cómo funcionan las directivas de retención de Teams
 

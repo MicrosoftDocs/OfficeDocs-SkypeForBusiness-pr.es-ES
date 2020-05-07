@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6ae8079ba3ccd498936c5d17740ea2e5bafb514
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 9579edfb8571f6d7d3ddf86eb6ce56c2a7e4fb85
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858725"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042817"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>Administrar la Prueba de Office 365 G1 para el gobierno de Estados Unidos 
 ==============================
@@ -55,7 +55,7 @@ Una vez que se ha usado el código de promoción de la Prueba de G1, este no pod
 
 ## <a name="manage-the-g1-trial"></a>Administrar la Prueba de G1
 
-Después de activar la Prueba de Office 365 G1, active la licencia para todos los usuarios que la necesiten. Para obtener más información, vea  [Administrar el acceso de los usuarios a Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).
+Después de activar la Prueba de Office 365 G1, active la licencia para todos los usuarios que la necesiten. Para obtener más información, vea  [Administrar el acceso de los usuarios a Teams](user-access.md).
 
 Una vez que haya activado la Prueba de G1 para los usuarios que la necesitan, administre estos usuarios tal como administraría a los usuarios con una licencia de pago. Para obtener más información, vea  [Administrar la configuración de Teams para la organización](enable-features-office-365.md).
 
@@ -82,7 +82,6 @@ Para obtener más información, vea [Teams para Administración Pública](expand
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Gestionar acceso de los usuarios a Microsoft Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[Gestionar acceso de los usuarios a Microsoft Teams](user-access.md)
 
 [Administrar la configuración de Teams para la organización](enable-features-office-365.md)
-
