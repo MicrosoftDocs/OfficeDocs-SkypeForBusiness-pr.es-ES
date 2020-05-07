@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28a77271c66dc473dfb774db2c02ca80bc842587
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: dcda9b15a3bfe5204bc410728449672707e614fd
+ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950975"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44047769"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -110,7 +110,7 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 
 |Característica     | Límite máximo |
 |------------|---------------|
-|Número de personas en una reunión  | 250    |
+|Número de personas en una reunión (pueden chatear y llamar)  | 250    |
 |Cantidad de personas en una llamada de audio o vídeo desde el chat | 20 |
 |Tamaño máximo de archivo de PowerPoint | 2 GB|
 |Teams guarda [grabaciones de la reunión](cloud-recording.md) que no se cargan en Microsoft Stream, que se pueden descargar de forma local | 20 días |
@@ -139,7 +139,7 @@ Para obtener más información sobre los eventos en directo y una comparación d
 > **Aumentamos el límite de eventos en directo de Microsoft 365**
 > 
 > Para ayudar a los clientes a cumplir con unas necesidades de comunicación que cambian cada día, los eventos en directo de Microsoft 365 Live elevarán temporalmente sus límites predeterminados hasta el 1 de julio de 2020 para eventos en directo alojados en Teams. A finales de abril de 2020 se comenzaron a elevar los siguientes límites:
-> - Límite de asistentes: los eventos pueden dar cabida a hasta 20 000 asistentes.
+> - Límite de asistentes: los eventos pueden dar cabida a hasta 20 000 asistentes.
 > - Eventos simultáneos: 50 eventos se pueden hospedar de forma simultánea en un espacio empresarial.
 > - Duración del evento: se ha aumentado la duración del evento hasta a 16 horas por difusión.
 
