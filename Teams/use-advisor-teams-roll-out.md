@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Use el Asesor de Teams (versión preliminar pública) para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: 1357829330f4d2ef7ad95e0eda1cebcbe8492756
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 79273c0c0d96bf5f7c52399310bffce433928e2b
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042917"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139203"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
@@ -65,6 +65,12 @@ Aunque asesor para equipos se encuentra en la versión preliminar pública, ofre
     - Plan de Planner, incluidas las tareas de adopción
     - Encuesta de usuario de Forms
     - Asesor de los Teams bot
+1. Actualización de Skype Empresarial
+    - Evaluación de los inquilinos
+    - Plan de Planner, incluidas las tareas de adopción
+    - Encuesta de usuario de Forms
+    - Asesor de los Teams bot
+    - Diseñado para clientes que actualmente usan Skype Empresarial Online o entornos locales de Skype Empresarial, el plan de actualización de Skype Empresarial le ayudará a evitar las conjeturas en el proceso de la actualización. Aprovechando un marco de éxito comprobado para implementar el cambio, el plan le guiará a través del proceso paso a paso, tanto si acaba de empezar a usar Teams como si ya usa Teams junto a Skype Empresarial o si está listo para actualizar. El plan también le conectará con [instrucciones en línea y procedimientos recomendados](https://aka.ms/SkypeToTeams), [activos descargables](https://aka.ms/UpgradeSuccessKit), [en directo 1: muchos talleres de planificación](https://aka.ms/UpgradeWorkshops) y recursos adicionales para dar soporte a su éxito.
 
 Te recomendamos que empieces con el plan de chat, equipos, canales y aplicaciones. Cuando haya terminado de implementar esa carga de trabajo, vuelva a asesor para Teams y haga clic en **Agregar canal** para iniciar la siguiente carga de trabajo.
 
@@ -108,6 +114,9 @@ Además de las [pruebas de evaluación para todas las cargas de trabajo](#assess
 |Licencias de audio conferencia    |Si tiene una suscripción activa con licencias de audio conferencia. Este es un requisito previo si está implementando puentes de audio conferencia. Consulta el Microsoft Graph para ver si tiene licencias de audio conferencia (con al menos una licencia disponible para asignar). Para obtener más información, lea[Licencias adicionales para Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).    |
 |Licencias de transmisión     |Si tiene una suscripción activa con licencias de Microsoft Stream. Este es un requisito previo si desea activar la grabación de reuniones. Consulta el Microsoft Graph para ver si tiene licencias de Microsoft Stream (con al menos una licencia disponible para asignar). Para obtener más información sobre Stream y cómo activarlo, lea [Grabación de reuniones en la nube de Teams](cloud-recording.md).
 
+### <a name="assessments-for-skype-for-business-upgrade"></a>Evaluaciones para actualizaciones de Skype Empresarial
+Además de las [Pruebas de evaluación para todas las cargas de trabajo](#assessment-tests-for-all-workloads), la actualización de Skype Empresarial también incluye evaluaciones utilizadas en el plan de reuniones y conferencias.
+
 ### <a name="advisor-for-teams-bot"></a>Asesor de los Teams bot
 
 Una vez que asesor para Teams crea su equipo de implementación, el bot asesor entrega el siguiente mensaje en el canal general:
@@ -148,6 +157,9 @@ Sí, cuando el Asesor de Teams haya creado el Equipo de implementación, debe ac
 ### <a name="can-i-modify-the-forms-survey"></a>¿Puedo modificar la encuesta de Forms?
 Sí, una vez que el Asesor de Teams haya creado el Equipo de implementación, puede modificar la encuesta de Forms según sea necesario.
 
+### <a name="are-there-any-differences-between-advisor-for-teams-in-gcc"></a>¿Hay alguna diferencia entre Asesor de Teams en GCC?
+Sí, los formularios de encuesta de usuario se crean, pero no se anclan en canales de plan, ya que la aplicación de formularios de Teams no está disponible en GCC en este momento.
+
 ### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>¿Qué información recopila el Asesor de Teams sobre mi organización?
 El Asesor de Teams solicita su acuerdo con la recopilación de información que no sea EUII (información de identificación de usuario final). La información que se recopila se encuentra en forma de telemetría, que proporciona retroalimentación a Microsoft sobre qué tan bien el Asesor de Teams impulsa los resultados correctos y dónde es posible que deba mejorarse. Estos mismos datos se usan para identificar oportunidades para que Microsoft pueda participar de forma proactiva en su organización con el fin de ayudarle con la implementación.
 
@@ -170,4 +182,4 @@ Vaya al [Centro de ayuda de Forms](https://support.office.com/forms).
 [Procedimientos recomendados para organizar los equipos en Teams](best-practices-organizing.md)
 
 [Nombres de productos e identificadores de planes de servicio para licencias](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
-) 
+)
