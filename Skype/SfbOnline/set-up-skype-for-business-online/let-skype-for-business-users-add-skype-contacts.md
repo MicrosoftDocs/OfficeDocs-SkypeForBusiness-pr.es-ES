@@ -20,28 +20,28 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: ffefa664845f5dbe06b064e0a197a28d8df2c3da
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 71282fe105c85cadca9aab341fc1b5e6ffbe47d2
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010813"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164479"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype
 
 Con Skype Empresarial, los usuarios pueden buscar a todos los que usen la aplicación gratuita de Skype (la aplicación gratuita) y comunicarse con ellos con mensajería instantánea. En este artículo se explica lo que necesita hacer para que puedan agregar contactos de Skype. 
   
-Para ello, debe tener [permisos de administrador](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) en Office 365.
+Para ello, debe tener [permisos de administrador](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) en Microsoft 365 u Office 365.
 
-![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
+![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
   
-1. Inicie sesión con su cuenta de administrador de Office 365 en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage).
+1. Inicie sesión con su cuenta de administrador de Microsoft 365 u Office [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)365 en.
     
 2. En el centro de administración, vaya a **centros** > de administración**de Skype empresarial**. 
     
     ![Choose the Skype for Business admin center.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   
-3. En el **centro de administración de Skype empresarial**, elija**comunicaciones externas**de la **organización** > . 
+3. En el **Centro de administración de Skype Empresarial**, seleccione **Organización** > **Comunicaciones externas**. 
     
 4. De forma predeterminada, sus usuarios se pueden comunicar con el resto de personas del mundo que usen Skype Empresarial (siempre que su firewall se haya configurado para permitirlo). 
     

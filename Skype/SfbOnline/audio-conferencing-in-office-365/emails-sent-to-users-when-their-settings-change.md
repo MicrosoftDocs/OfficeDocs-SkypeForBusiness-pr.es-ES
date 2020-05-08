@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información acerca de qué información se envía automáticamente a los usuarios por correo electrónico cuando cambia la configuración de la Conferencia de acceso telefónico local en Skype empresarial online. '
-ms.openlocfilehash: 12904c6485a422c7df314767b58ac485c38816ea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2f58bfe582b7adc6672c06bec0e90571ff9a96a
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986555"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164279"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Correos electrónicos enviados a los usuarios cuando cambia la configuración en Skype empresarial online
 
@@ -35,7 +35,7 @@ ms.locfileid: "41986555"
 
 Los mensajes de correo electrónico se enviarán automáticamente a los usuarios que están [habilitados para conferencias de audio](set-up-audio-conferencing.md) usando Microsoft como proveedor de servicios de audioconferencia.
   
-De forma predeterminada, hay cuatro tipos de mensajes de correo electrónico que se enviarán a los usuarios que estén habilitados para las conferencias de audio. Pero, si quiere limitar el número de correos electrónicos que se envían a los usuarios, puede desactivarlo. Las conferencias de audio en Office 365 enviarán correos electrónicos al correo electrónico de los usuarios cuando:
+De forma predeterminada, hay cuatro tipos de mensajes de correo electrónico que se enviarán a los usuarios que estén habilitados para las conferencias de audio. Pero, si quiere limitar el número de correos electrónicos que se envían a los usuarios, puede desactivarlo. Las conferencias de audio en Microsoft 365 u Office 365 enviarán correos electrónicos al correo electrónico de los usuarios cuando:
   
 - **Se les asigna una licencia de audioconferencia o cuando está cambiando el proveedor de servicios de audioconferencia a Microsoft.**
     
@@ -76,7 +76,7 @@ De forma predeterminada, hay cuatro tipos de mensajes de correo electrónico que
     
     Esto sucede cuando se quita la licencia de **Conferencia de audio** de un usuario o cuando se cambia el proveedor de audioconferencias de un usuario de Microsoft a un proveedor de servicios de audioconferencia de terceros o cuando se establece el proveedor en **ninguno**. Este mensaje de correo electrónico contiene las instrucciones e información para que el usuario Use la herramienta de actualización de reuniones de Skype empresarial online para quitar la información específica de la Conferencia de audio, como el número de teléfono predeterminado de la Conferencia o el identificador de la Conferencia.
     
-    Consulte [Asignar o cancelar licencia para Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+    Consulte [asignar o quitar licencias de aplicaciones de Microsoft 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
     
     Este es un ejemplo de este correo electrónico:
     
@@ -87,7 +87,7 @@ De forma predeterminada, hay cuatro tipos de mensajes de correo electrónico que
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Realizar cambios en los mensajes de correo electrónico que se les envían
 
-Puede realizar cambios en el correo electrónico que se envía automáticamente a los usuarios, incluida la dirección de correo electrónico y el nombre para mostrar que se incluye en la información *de* contacto. De forma predeterminada, el remitente de los mensajes de correo electrónico será de Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell y el cmdlet [set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) . To make changes to the email address that is sending the email to the users, you must:
+Puede realizar cambios en el correo electrónico que se envía automáticamente a los usuarios, incluida la dirección de correo electrónico y el nombre para mostrar que se incluye en la información *de* contacto. De forma predeterminada, el remitente de los mensajes de correo electrónico será de Microsoft 365 u Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell y el cmdlet [set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) . To make changes to the email address that is sending the email to the users, you must:
   
 - Puede realizar cambios en el correo electrónico que se envía de forma automática a los usuarios, como la dirección de correo electrónico real y el nombre para mostrar de la información de contacto del remitente. De manera predeterminada, el remitente de los mensajes será de Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell y el cmdlet _Set-CsOnlineDialInConferencingTenantSettings_. Para realizar cambios en la dirección de correo electrónico que envía el correo electrónico a los usuarios:
     
@@ -145,13 +145,13 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.micros
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
-- De forma predeterminada, el remitente de los mensajes de correo electrónico será de Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell y el cmdlet [set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) .
+- De forma predeterminada, el remitente de los mensajes de correo electrónico será de Microsoft 365 u Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell y el cmdlet [set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) .
     
-- Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:
+- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas para hacer. Para empezar con Windows PowerShell, vea estos temas:
     
-  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [¿Por qué necesita usar Microsoft 365 u Office 365 PowerShell?](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, por ejemplo, cuando está realizando cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
     

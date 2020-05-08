@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumen: los administradores de Skype empresarial Server 2015 o Skype empresarial online pueden usar estas tablas para comprender qué características se admiten en cada cliente.'
-ms.openlocfilehash: 2da6ed53ea70e6a3065b283456ccf028fd04ca6f
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 4d23a23b133366401d784d4e403b283af1967162
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041957"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158927"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparación de características de cliente de escritorio para Skype empresarial Server 2015
 
@@ -165,7 +165,7 @@ Para obtener más información, consulte la [Descripción del servicio Skype emp
 En esta tabla se describen las características relacionadas con la compatibilidad con los servicios de voz.
   
 > [!NOTE]
-> Las características de voz (telefonía) de Skype empresarial se limitan a determinados planes de suscripción de Skype empresarial online. > para obtener más información, consulte la [Descripción del servicio Skype empresarial online](https://technet.microsoft.com/library/jj822172.aspx).
+> Las características de voz (telefonía) de Skype empresarial se limitan a determinados planes de suscripción de Skype empresarial online. Para obtener más información, consulte la [Descripción del servicio Skype empresarial online](https://technet.microsoft.com/library/jj822172.aspx).
   
 | Característica/funcionalidad | Cliente de Skype empresarial 2015 o 2016 | Skype Empresarial en Mac | Cliente de Lync 2013 | Aplicación Lync de la tienda Windows | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync para Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -189,7 +189,8 @@ En esta tabla se describen las características relacionadas con la compatibilid
 |Enrutamiento basado en la ubicación  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Administrar grupo de respuesta/grupo de llamada de equipo |&#x2714;||&#x2714;|||||||
 |Contestar llamada de operador automático |&#x2714;||&#x2714;|||||||
- &#x2776; esta característica no está disponible en Skype empresarial online.
+
+&#x2776; esta característica no está disponible en Skype empresarial online.
   
 ## <a name="external-users-support"></a>Compatibilidad con usuarios externos
 
@@ -281,7 +282,7 @@ Las cuentas de usuario pueden existir en línea o en el entorno local y esto afe
 - Compatibilidad con la mensajería instantánea: escalar un salón de chat persistente a una reunión de Skype empresarial con un solo clic
 - Usuarios externos: realizar llamadas de dos o más participantes con usuarios externos
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Ver también
 
 <a name="Types"> </a>
 

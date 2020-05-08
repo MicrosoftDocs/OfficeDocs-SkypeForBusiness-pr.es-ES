@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: a570c457c51ce87655c1cb13e1eb61951b968400
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: b7a4ee991ff8a8e41401b3b2d2dc20aa20708b88
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776785"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163939"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Configurar los números de teléfono incluidos en los invitados en Skype empresarial online
 
 > [!Note]
 > Para obtener más información sobre los números de teléfono de las invitaciones a reuniones en Microsoft Teams, consulte [configurar los números de teléfono incluidos en los invitados en Microsoft Teams](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams).
 
-Las conferencias de audio en Office 365 permiten a los usuarios de su organización crear reuniones de Skype empresarial y, a continuación, permitir que los usuarios llamen a esas reuniones con un teléfono. En Office 365, tiene la opción de usar un puente de conferencias de audio de Microsoft o un puente de conferencias de audio de terceros hospedado por un proveedor de servicios de audioconferencia (ACP) aprobado.
+La Conferencia de audio en Microsoft 365 u Office 365 permite a los usuarios de su organización crear reuniones de Skype empresarial y, a continuación, permitir a los usuarios que llamen a esas reuniones con un teléfono. En Microsoft 365 y Office 365, tiene la opción de usar un puente de conferencias de audio de Microsoft o un puente de conferencias de audio de terceros hospedado por un proveedor de servicios de audioconferencia (ACP) aprobado.
   
 > [!NOTE]
 > No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia. Si desea ver si hay números de teléfono de acceso telefónico local disponibles en su zona o país o región, use los > **números de teléfono****de telefonía del** **Centro** > de administración de Skype empresarial, haga clic en **Agregar** y luego en **nuevos números de servicio**. Use las listas de **país o región**, **Estado o región** y **ciudad** para filtrar la búsqueda. > también, si busca **números de servicio gratuitos, seleccione gratuito** en la lista **Estado o región** .
@@ -136,11 +136,11 @@ De forma predeterminada, al cambiar la configuración de conferencia de un usuar
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [¿Por qué necesita usar Microsoft 365 u Office 365 PowerShell?](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
-  - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
@@ -148,4 +148,4 @@ De forma predeterminada, al cambiar la configuración de conferencia de un usuar
     
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Probar o comprar audioconferencia en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -20,24 +20,24 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Este Resumen de la configuración de organización y usuarios de Skype empresarial puede ayudarle a obtener más información sobre la conectividad de mensajería instantánea pública, invitaciones a reuniones, grabaciones y reuniones, entre otras.  '
-ms.openlocfilehash: fd8db122b1e0ec8ef205c07f68826dea83a833c7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a7c627620bba6d1249dcc6ce14bbaf25796b7173
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706465"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164129"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Resumen de configuración de Skype Empresarial Online
 
 El **centro de administración de Skype empresarial** incluye la configuración de toda la organización y de los usuarios individuales. 
   
 > [!NOTE]
->  En función de su ubicación, es posible que no tenga acceso a todas las características de Skype empresarial online. Para obtener más información, consulte [restricciones de licencia para Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
+>  En función de su ubicación, es posible que no tenga acceso a todas las características de Skype empresarial online. Para obtener más información, consulte [restricciones de licencia para Microsoft 365 y Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
   
 ## <a name="skype-for-business-online-organization-settings"></a>Configuración de Skype Empresarial Online para una organización:
 <a name="__top"> </a>
 
-|**Al**|**Descripción**|**Predeterminado**|**Aprende más**|
+|**Al**|**Descripción**|**Predeterminado**|**Más información**|
 |:-----|:-----|:-----|:-----|
 |Federación de dominios  <br/> |Establecer comunicación con otras organizaciones que usan Skype Empresarial Online.  <br/> |Habilitado  <br/> |[Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |Conectividad de mensajería instantánea pública  <br/> |Establecer comunicación con usuarios de Skype Empresarial Online.  <br/> |Habilitado  <br/> |[Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial](allow-users-to-contact-external-skype-for-business-users.md) <br/> |

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Descubra lo que debe saber sobre los pin y cómo restablecerlos en Skype empresarial online. '
-ms.openlocfilehash: a2f91e1ccae53f08507a63ea56b499a3ad968c73
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 21e2742653e72919df0647c0539fdb335585cc84
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777705"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164699"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Restablecer el PIN de audioconferencia en Skype empresarial online
 
@@ -68,11 +68,11 @@ Un usuario puede restablecer un PIN con la opción **restablecer PIN** de la pá
     
 - La configuración predeterminada es no permitir que los autores de llamadas anónimos inicien una reunión.
     
-- Cuando habilita a un usuario para las conferencias de audio, se le envían mensajes de correo electrónico que incluyen información sobre conferencias y su PIN de forma predeterminada. El usuario debe tener un buzón de Office 365, porque cuando se restablece un PIN, se envía un PIN nuevo al usuario por correo electrónico a su dirección SMTP principal (alias) que está configurada para el usuario.
+- Cuando habilita a un usuario para las conferencias de audio, se le envían mensajes de correo electrónico que incluyen información sobre conferencias y su PIN de forma predeterminada. El usuario debe tener un buzón de Microsoft 365 o de Office 365, porque cuando se restablece un PIN, se envía un PIN nuevo al usuario por correo electrónico a su dirección SMTP principal (alias) que está establecida para el usuario.
     
 - Al configurar las conferencias de audio, se establecen los dígitos necesarios para los pin de la organización. Los códigos PIN pueden tener de 4 a 12 dígitos (el valor predeterminado es 5). Si cambia el valor de longitud del PIN, la configuración solo se aplicará a los pin recién generados y no se aplicará a la configuración de PIN de los usuarios existentes que estén habilitados para las conferencias de audio. Consulte [establecer la longitud del PIN para las reuniones de audioconferencia](Set-the-PIN-length-for-Audio-Conferencing-meetings.md).
     
-- De forma predeterminada, el correo electrónico se establecerá en la dirección SMTP principal de Office 365 del usuario. Puede enviar un correo electrónico a una dirección que no sea de Office 365, como una dirección de correo electrónico de hotmail o MSN. Puede omitir la dirección de correo electrónico predeterminada mediante Windows PowerShell. Esto es útil si los usuarios no tienen un buzón de Exchange en Office 365.
+- De forma predeterminada, el correo electrónico se establecerá en la dirección SMTP principal de Microsoft 365 u Office 365 del usuario. Puede enviar un correo electrónico a una dirección que no sea Microsoft 365 o que no sea de Office 365, como una dirección de correo electrónico de hotmail o MSN. Puede omitir la dirección de correo electrónico predeterminada mediante Windows PowerShell. Esto es útil si los usuarios no tienen un buzón de Exchange en Microsoft 365 u Office 365.
     
 - Para invalidar la dirección de usuario predeterminada a la que se envía el correo electrónico, el administrador de inquilinos puede usar el siguiente cmdlet: set-CsOnlineDialInConferencingUser-amos. Marble-ResetLeaderPIN-SendEmail-SendEmailToAddress "u@hotmail.com". El parámetro SendEmail es necesario para reemplazar la dirección de correo electrónico del usuario.
     
@@ -86,11 +86,11 @@ Un usuario puede restablecer un PIN con la opción **restablecer PIN** de la pá
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 
-- Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:
+- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas para hacer. Para empezar con Windows PowerShell, vea estos temas:
     
-  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [¿Por qué necesita usar Microsoft 365 u Office 365 PowerShell?](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, por ejemplo, cuando está realizando cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes:
     

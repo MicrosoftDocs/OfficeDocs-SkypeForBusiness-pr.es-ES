@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: 812df872775e31109df300e3bad1911de975c07e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Aprenda a solucionar problemas de administradores y usuarios de Skype empresarial en Microsoft 365 y Office 365.
+ms.openlocfilehash: 79f4f9f2ac8d1cd2e6b65486089b212c076d272d
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777165"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164319"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Solución de problemas con Skype Empresarial Online
 
@@ -75,9 +75,9 @@ La mayoría de los problemas con los que se encuentran los usuarios de Skype Emp
 ## <a name="still-need-help-contact-support"></a>¿Aún necesita ayuda? Póngase en contacto con el servicio de soporte técnico.
 <a name="BK_SupportBridge_1"> </a>
 
-Como administrador de Office 365 para empresas, puede obtener acceso gratuito a nuestros agentes de asistencia con conocimientos experimentados para soporte de preventa, cuenta y facturación, así como para resolver problemas técnicos. También puede [ponerse en contacto con el soporte técnico](https://go.microsoft.com/fwlink/p/?LinkID=518322) en nombre de los usuarios de Microsoft 365 y Office 365 de su organización.
+Como administrador de las aplicaciones de Microsoft 365 para empresas, puede obtener acceso gratuito a nuestros agentes de asistencia experimentados para ofrecer asistencia previa a la venta, la cuenta y la facturación, así como para resolver problemas técnicos. También puede [ponerse en contacto con el soporte técnico](https://go.microsoft.com/fwlink/p/?LinkID=518322) en nombre de los usuarios de Microsoft 365 y Office 365 de su organización.
 
-- [Obtén ayuda en los foros de la comunidad de Office 365](https://go.microsoft.com/fwlink/p/?LinkId=518605)
+- [Obtener ayuda de los foros de la comunidad de Microsoft 365 y Office 365](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
 - [Administradores: llamar al soporte técnico](https://go.microsoft.com/fwlink/p/?LinkID=518322)
 
@@ -88,5 +88,3 @@ Como administrador de Office 365 para empresas, puede obtener acceso gratuito a 
 [Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)
 
 [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype](let-skype-for-business-users-add-skype-contacts.md)
-
-

@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Use Power BI para analizar los datos del CQD para Microsoft Teams.
-ms.openlocfilehash: a288376192af375660107b79e93ec8613f46163d
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 5d081853f9fc5c1106ce6906f31ddc10613ec9f9
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918679"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158967"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Usar Power BI para analizar los datos del CQD para Microsoft Teams
 
@@ -31,6 +31,7 @@ Para los informes de CQD en Teams, si prefiere usar Power BI para consultar y no
 
 Antes de poder usar estos archivos de PBIT, tendrá que [instalar el conector de Power BI para Microsoft CQD](CQD-Power-BI-connector.md) con el archivo *MicrosoftCallQuality. PQx* incluido en la [descarga](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
+Asegúrese de tener el rol de [acceso de CQD](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) adecuado para obtener acceso a los informes de Power BI. 
 
 |  |  |
 |---------|---------|

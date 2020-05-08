@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: bfdbe1c6c9380b12086ce667c588d8b974438ee5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 681a02fd410c008f46ad7906c5963660df668a89
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707225"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164269"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Habilitar o deshabilitar el envío de correos electrónicos cuando cambia la configuración de las conferencias de audio en Skype empresarial online
 
@@ -35,7 +35,7 @@ ms.locfileid: "41707225"
 
 A los usuarios se les notifica automáticamente por correo electrónico cuando están habilitadas para audioconferencia. Sin embargo, puede haber ocasiones en las que desee reducir el número de mensajes de correo electrónico que se envían a los usuarios de Skype empresarial. En estos casos, puede deshabilitar el envío de correo electrónico.
   
-Si deshabilita el envío de correos electrónicos, los correos electrónicos de las conferencias de audio no se enviarán a los usuarios, incluidos los mensajes de correo electrónico para cuando los usuarios están habilitados o deshabilitados para las conferencias de audio, cuando se restablece el PIN y cuando cambia el identificador de conferencia y el número de teléfono de conferencia predeterminado .
+Si deshabilita el envío de correos electrónicos, los correos electrónicos de las conferencias de audio no se enviarán a los usuarios, incluidos los mensajes de correo electrónico para cuando los usuarios se habilitan o deshabilitan para las conferencias de audio, cuando se restablece el PIN y cuando cambia el identificador de conferencia y el número de teléfono de conferencia predeterminado.
   
 Este es un ejemplo del correo electrónico que se envía a los usuarios cuando están habilitados para las conferencias de audio:
   
@@ -63,7 +63,7 @@ Este es un ejemplo del correo electrónico que se envía a los usuarios cuando e
 Habilitar o deshabilitar el envío de correos electrónicos a los usuarios de acceso telefónico local
 
  
-![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
+![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
     
 1. En el **centro de administración de Skype empresarial**, en la barra de navegación izquierda, haga clic en **audioconferencia**.
     
@@ -72,7 +72,7 @@ Habilitar o deshabilitar el envío de correos electrónicos a los usuarios de ac
 3. Haga clic en **Guardar**.
     
     > [!TIP]
-    > También puede enviar correo electrónico a un usuario con la configuración de la audioconferencia yendo a **** > **usuarios**de la Conferencia de audio, selecciona el usuario y haciendo clic en **enviar información de conferencia por correo electrónico**.  Si lo hace, se enviará un correo electrónico que solo incluya el identificador de la Conferencia y el número de teléfono de la Conferencia, pero no el PIN.  Consulte [Enviar un correo electrónico a un usuario con su información de audioconferencia](send-an-email-to-a-user-with-their-dial-in-information.md) para obtener más información.
+    > También puede enviar correo electrónico a un usuario con la configuración de la audioconferencia yendo a **Audio conferencing** > **usuarios**de la Conferencia de audio, selecciona el usuario y haciendo clic en **enviar información de conferencia por correo electrónico**.  Si lo hace, se enviará un correo electrónico que solo incluya el identificador de la Conferencia y el número de teléfono de la Conferencia, pero no el PIN.  Consulte [Enviar un correo electrónico a un usuario con su información de audioconferencia](send-an-email-to-a-user-with-their-dial-in-information.md) para obtener más información.
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -105,11 +105,11 @@ Vea **Enviar un correo electrónico a un usuario con su información de conferen
     
   - [Get-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
     
-- Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:
+- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas para hacer. Para empezar con Windows PowerShell, vea estos temas:
     
-  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [¿Por qué necesita usar Microsoft 365 u Office 365 PowerShell?](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, por ejemplo, cuando está realizando cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
     

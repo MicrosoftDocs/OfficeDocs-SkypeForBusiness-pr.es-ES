@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: f0c3d1d667847e080b47f31bb1032ff4b8ac980d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8ce128c2fa19668ed93c6ad387feecbee2e00a8d
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695765"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164527"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Asignar a Microsoft como proveedor de servicios de audioconferencia
 
-Para usar las conferencias de audio en Office 365 con Skype empresarial y Microsoft Teams, los usuarios de su organización necesitan tener asignada una licencia de audioconferencia. Consulte [probar o comprar audioconferencia en Office 365](try-or-purchase-audio-conferencing-in-office-365.md) para obtener más información sobre las licencias y cuánto cuestan.
+Para usar las conferencias de audio en Microsoft 365 u Office 365 con Skype empresarial y Microsoft Teams, los usuarios de su organización necesitan tener asignada una licencia de audioconferencia. Consulte [probar o comprar audioconferencia en Microsoft 365 u Office 365](try-or-purchase-audio-conferencing-in-office-365.md) para obtener más información sobre las licencias y cuánto cuestan.
 
 La Conferencia de audio de Microsoft proporciona números de teléfono de acceso telefónico local, PIN e identificadores de conferencia que los participantes de la reunión pueden usar para unirse a las reuniones de su organización. Solo tiene que asignar a Microsoft como el proveedor de servicios de audioconferencia a las personas que van a programar o liderar reuniones de Skype empresarial o de Microsoft Teams.
 
@@ -40,7 +40,7 @@ La Conferencia de audio de Microsoft proporciona números de teléfono de acceso
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Asignar a Microsoft como proveedor de servicios de audioconferencia
 
-### <a name="an-icon-showing-the-skype-for-business-logoimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![Un icono que muestra el logotipo de Skype empresarial](../images/sfb-logo-30x30.png) Using the Skype for Business admin center
+### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![Un icono que muestra el logotipo de Skype empresarial](../images/sfb-logo-30x30.png) Using the Skype for Business admin center
 
 1. Vaya al > **portal heredado**del **centro de administración de Microsoft Teams**.
     
@@ -196,6 +196,6 @@ Script.ps1 -CsvFile <Path of the csv file>
 Para obtener más información sobre el uso de Windows PowerShell, vea [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038).
   
 ## <a name="related-topics"></a>Temas relacionados
-[Probar o comprar conferencias de audio en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Probar o comprar audioconferencia en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 [configurar Skype empresarial online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

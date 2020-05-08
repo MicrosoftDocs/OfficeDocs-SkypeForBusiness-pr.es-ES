@@ -20,25 +20,25 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: Obtenga información sobre cómo activar o desactivar las notificaciones de teléfono móvil para que los usuarios puedan recibir alertas sobre mensajes instantáneos, correo de voz y mensajes instantáneos perdidos.
-ms.openlocfilehash: e84ae2ef4054d730cc56bae3bd545f04e966bab4
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 8e209637ffe4c4053adc6dea44fb574257c330c3
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769553"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164119"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Activar o desactivar las notificaciones del teléfono móvil
 
-Como **[asignación de roles de administrador en Office 365 para empresas](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** para su organización, puede elegir si los usuarios de Skype empresarial recibirán alertas sobre mensajes instantáneos entrantes y perdidos cuando estén en sus teléfonos móviles o tabletas.
+Como **[asignación de roles de administrador en las aplicaciones de Microsoft 365 para](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** su organización, puede elegir si los usuarios de Skype empresarial recibirán alertas sobre mensajes instantáneos entrantes y perdidos cuando estén en sus teléfonos móviles o tabletas.
   
 En los teléfonos Android y Windows Phone, las notificaciones de Skype Empresarial aparecen en tiempo real. En los dispositivos Windows Phone, iPhone y iPad, sin embargo, se usan las notificaciones push para mostrar alertas siempre que el usuario no esté usando activamente Skype Empresarial en el teléfono o tableta.
   
 ## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>Desactive las notificaciones de inserción en todos los dispositivos Windows Phone o Apple de su organización
 <a name="__top"> </a>
 
-![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
+![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
 
-1. Inicie sesión en Office 365.
+1. Inicie sesión en Microsoft 365.
     
 2. Vaya al centro de administración > **Skype empresarial**.
     

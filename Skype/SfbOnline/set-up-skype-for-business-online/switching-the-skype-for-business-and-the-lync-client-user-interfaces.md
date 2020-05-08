@@ -19,17 +19,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
-ms.openlocfilehash: 02221d0edde6a37ec16a4820792d1d18756d4bb7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 'Obtenga información sobre cómo cambiar entre las interfaces de usuario del cliente de Skype empresarial y de Lync con PowerShell en Microsoft 365 u Office 365 '
+ms.openlocfilehash: 02542d11c7315c8f7e183fb78eebf210ead2df94
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706455"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164309"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Cambiar de la interfaz de usuario del cliente de Lync a la de Skype Empresarial
 
-Para las organizaciones de Skype empresarial online, puede usar PowerShell remoto en Office 365 para permitir que los usuarios de Skype empresarial usen el cliente de Skype empresarial o la interfaz de usuario del cliente de Skype empresarial (Lync). La configuración predeterminada es que los usuarios usen la interfaz de usuario del cliente de Skype empresarial. Si prefiere usar la experiencia del cliente de Lync, puede administrar el primer inicio de cliente para mostrar la interfaz de usuario de Lync siguiendo los pasos que se describen más adelante en este tema.
+Para las organizaciones de Skype empresarial online, puede usar PowerShell remoto en Microsoft 365 u Office 365 para permitir que los usuarios de Skype empresarial usen el cliente de Skype empresarial o la interfaz de usuario del cliente de Skype empresarial (Lync). La configuración predeterminada es que los usuarios usen la interfaz de usuario del cliente de Skype empresarial. Si prefiere usar la experiencia del cliente de Lync, puede administrar el primer inicio de cliente para mostrar la interfaz de usuario de Lync siguiendo los pasos que se describen más adelante en este tema.
   
 > [!NOTE]
 > La experiencia de cliente con Lync 2013 no está disponible en las versiones de cliente de Skype Empresarial 2016. Antes de que intente configurar su entorno de cliente para usar el cliente de Lync 2013, compruebe la versión y asegúrese de que no empieza con el número 16; por ejemplo: 16.x.x.x. 
@@ -165,11 +165,11 @@ Esta tabla muestra todas las directivas personalizadas disponibles en línea. Ha
 `ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI` |Falso|
 
    
-To get started with Windows PowerShell, see these topics:
+Para empezar con Windows PowerShell, vea estos temas:
   
-- [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+- [¿Por qué necesita usar Microsoft 365 u Office 365 PowerShell?](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+- [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 ## <a name="first-launch-client-behaviors"></a>Comportamientos del cliente en el primer inicio
 

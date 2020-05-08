@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Obtenga información sobre qué países y regiones tienen números de conferencia de marcado, y cómo asignarlos automáticamente.
-ms.openlocfilehash: fa99e9225f55919b58bf6d9b4648a740b21fcb34
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e3abae815eca6dad17fe51efaf7ec715421650ff
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777445"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164719"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Números de teléfono para Audioconferencia en Skype for Business Online
 
@@ -55,7 +55,7 @@ Existen dos tipos de números de teléfono de conferencias de acceso telefónico
   
  Los **números de teléfono dedicados** son aquellos que solo están disponibles para los usuarios de su organización. Los idiomas que se emplean cuando alguien llama a uno de estos números se pueden cambiar.
   
- Los **números de teléfono compartidos** son aquellos números de teléfono que se pueden compartir con otros usuarios de Microsoft 365 u Office 365S. No puede cambiar los idiomas que se usan cuando alguien llama a uno de estos números.
+ Los **números de teléfono compartidos** son aquellos números de teléfono que pueden compartirse con otras cuentas de Microsoft 365 o de Office 365. No puede cambiar los idiomas que se usan cuando alguien llama a uno de estos números.
   
 Si bien el número de conferencia de acceso telefónico local que se asigna a un organizador es el único que se incluye en la invitación de la reunión, la persona que llama puede usar cualquiera de los números de teléfono que están asignados al puente de conferencia para unirse a una reunión. La lista de estos números de teléfono que se pueden usar para unirse a una reunión está disponible en el vínculo **Buscar un número local** que se incluye en cada invitación a una reunión.
   
@@ -89,4 +89,4 @@ Para ver una lista de los países o regiones en los que se asignan automáticame
    
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Probar o comprar audioconferencia en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

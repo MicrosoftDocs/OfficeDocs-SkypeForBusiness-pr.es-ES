@@ -28,17 +28,17 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 394613e3137c65e814cc08dd898ec797d560d1c6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a1f399f7b127596aaf28c7e22b2c65525c72a8e4
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010943"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164829"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial
 
 > [!NOTE]
-> La Federación de Skype empresarial no está disponible para Office 365 operado por 21Vianet y las organizaciones de Office 365 Germany. 
+> La Federación de Skype empresarial no está disponible para las organizaciones de Microsoft 365 u Office 365 operadas por 21Vianet ni por Microsoft 365 u Office 365 Germany. 
   
 Siga los pasos de este artículo cuando:
   
@@ -51,11 +51,11 @@ Siga los pasos de este artículo cuando:
 ## <a name="enable-business-to-business-communications-for-your-users"></a>Habilitar comunicaciones entre empresas para los usuarios
 <a name="bk_preview"> </a>
 
-Para ello, debe tener [permisos de administrador](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) en Office 365 en ambas organizaciones.
+Para ello, debe tener [permisos de administrador](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) en Microsoft 365 u Office 365 en ambas organizaciones.
 
 ![Un icono que muestra el logotipo](../images/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Teams**
   
-1. Inicie sesión con su cuenta de administrador de Office 365. 
+1. Inicie sesión con su cuenta de administrador de Microsoft 365 u Office 365. 
     
 2. En el centro de administración, vaya a**equipos**del centro de **Administración** > .
     
@@ -65,7 +65,7 @@ Para ello, debe tener [permisos de administrador](https://support.office.com/art
  ![heredado de **Skype** > elija el portal heredado de SfB.](../images/SFBlegacy-size65.png)
  
 4. En el **centro de administración de Skype empresarial** , elija**comunicaciones externas**de la **organización** > .
-5. Para configurar la comunicación con una empresa específica o con usuarios de otro dominio, en el cuadro desplegable, elija **activado solo para los dominios permitidos**.
+5. Para configurar la comunicación con empresas específicas o con usuarios de otros dominios, seleccione en el cuadro desplegable **Activado solo para dominios permitidos**.
     
     O BIEN, si desea habilitar la comunicación con todo el mundo que tenga directivas de Skype Empresarial abiertas, seleccione **Activado excepto para los dominios bloqueados**. Esta es la configuración predeterminada.
     
@@ -116,7 +116,7 @@ Después de habilitar la comunicación externa con otros usuarios de Skype empre
     
 - Para configurar la Federación entre Lync y Skype empresarial online, consulte este artículo: [configuración de la compatibilidad de Federación para un cliente de Lync Online](https://technet.microsoft.com/library/hh202193.aspx).
     
-- Cuando dos usuarios de Skype Empresarial en Office 365 se comunican entre sí en dominios distintos, solo pueden usar las características de Skype Empresarial (por ejemplo, conversaciones de vídeo o compartir escritorio) que estén activadas en las dos organizaciones.
+- Cuando dos usuarios de Skype empresarial en Microsoft 365 u Office 365 se comunican entre sí en dominios independientes, solo pueden usar características de Skype empresarial (por ejemplo, conversaciones de vídeo o uso compartido del escritorio) que están activadas en las dos organizaciones.
     
 - Si un usuario de Skype empresarial de su organización se coloca en una retención local o por juicio, cualquier conversación de mensajería instantánea entre ese usuario y otros usuarios de Skype empresarial o Skype se guardará en **los elementos recuperables** de su buzón. Estas conversaciones no se guardarán en la carpeta **Historial de conversaciones** de su buzón.
     
@@ -125,7 +125,7 @@ Después de habilitar la comunicación externa con otros usuarios de Skype empre
 
 Después de habilitar la comunicación externa para toda su empresa, puede desactivarla para personas específicas solamente.
   
-1. Inicie sesión con su cuenta de administrador de Office 365.
+1. Inicie sesión con su cuenta de administrador de Microsoft 365 u Office 365.
     
 2. En el centro de administración, vaya **a** > usuarios**activos**.
     

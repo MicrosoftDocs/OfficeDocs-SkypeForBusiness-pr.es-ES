@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: b8ebf8f82ad4706282d9feca5cdf21f27df90adb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fea4b04f51560b602687eff90ca6932ce5d1be8f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692825"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164299"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Probar la instalación de Skype Empresarial Online
 
@@ -32,7 +32,7 @@ ms.locfileid: "41692825"
 
 Esto es lo que necesita:
 
-- Por lo menos tres cuentas de Office 365 (la suya y por lo menos otras dos).
+- Al menos tres cuentas de Microsoft 365 o de Office 365 (la suya y al menos otras dos).
 
 - Un equipo para cada cuenta de prueba. Configúrelas como una computadora común de su organización.
 
@@ -51,7 +51,7 @@ Esto es lo que necesita:
 ## <a name="set-up-test-accounts"></a>Configurar cuentas de prueba
 <a name="__toc328126910"> </a>
 
-1. Vaya a **Administrador** > de**Office 365** > **usuarios y grupos**y, a continuación![,](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) seleccione Agregar agregar y escriba la información requerida.
+1. Vaya a **administradores** > **Microsoft 365** u **Office 365** > **usuarios y grupos**y, a continuación,![seleccione](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) agregar agregar y escriba la información requerida.
 
 2. Cuando llegue al Paso 4 (correo electrónico), escriba su propia dirección de correo electrónico. Tendrá entonces un registro del nombre y la contraseña del nuevo usuario.
 
@@ -62,7 +62,7 @@ Esto es lo que necesita:
 
 En cada equipo de prueba:
 
-1. Vaya a la página de inicio de Office 365 e inicie sesión con las credenciales de una de sus cuentas de prueba.
+1. Vaya a la Página principal de Microsoft 365 u Office 365 e inicie sesión con las credenciales de una de sus cuentas de prueba.
 
 2. Vaya a **Configuración**![Configuración: actualizar el perfil, instalar software y conectarse a la nube](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) y, a continuación, haga clic en **Instalar el software y conectarlo a la nube**.
 
@@ -114,7 +114,7 @@ Verifique que las principales características de Skype Empresarial Online funci
 |[Enviar un mensaje instantáneo en Skype Empresarial](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |Cuando aparece la ventana de conversación de Skype Empresarial, escribe algo y reciba una respuesta de la persona que ha contactado.  <br/> |
 |[Enviar un mensaje instantáneo en Skype Empresarial](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |Cuando aparece la ventana de conversación de Skype Empresarial, escriba algo y todos en la conversación pueden responder.  <br/> |
 |[Buscar un contacto a través del nombre o apellido](https://support.office.live.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |Los resultados de sus búsquedas comenzarán a aparecer apenas comience a escribir.  <br/> |
-|[Preguntas más frecuentes sobre Lync para Office 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |El contacto que agregó aparece en el grupo Contactos elegido.  <br/> |
+|[Preguntas más frecuentes sobre Lync para Microsoft 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |El contacto que agregó aparece en el grupo Contactos elegido.  <br/> |
 |[Cambiar el estado de presencia en Skype Empresarial (Lync)](https://support.office.com/article/ef8998cc-7801-4b62-81ba-9a2c1630f9e5) <br/> |Su nuevo estado de presencia se refleja en la Lista de contactos de otras personas.  <br/> |
 |[Usar de la tarjeta de contacto](https://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |La tarjeta de contacto de una persona aparece cerca de su nombre.  <br/> |
 

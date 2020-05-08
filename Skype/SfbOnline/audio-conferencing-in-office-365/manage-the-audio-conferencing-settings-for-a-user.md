@@ -20,20 +20,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Como un administrador de Office 365, puede editar la configuración de Audioconferencia de Skype for Business Online, como por ejemplo el proveedor, el número gratuito o de pago predeterminado, el identificador de conferencia o el PIN, de un usuario individual en la organización. '
-ms.openlocfilehash: fe6814bee547e80d6bcb6fc367d055dce13d513d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 'Como administrador de Microsoft 365 o de Office 365, puede editar la configuración de las conferencias de audio de Skype empresarial online, como el proveedor, el número gratuito o de pago predeterminado, el identificador de la Conferencia o el PIN, para un usuario individual de su organización. '
+ms.openlocfilehash: 2df6b9bfe7b1b9c161730b29e85dd1ed7335b0cd
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777995"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164139"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Administrar la configuración de audioconferencia para un usuario de Skype empresarial online
 
 > [!Note]
 > Si quiere administrar la configuración de usuario en Microsoft Teams, vea [administrar la configuración de audioconferencias para un usuario en Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 
-As an Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
+Como administrador de Microsoft 365 o de Office 365, puede editar la configuración de la audioconferencia (como el proveedor, un número gratuito o gratuito, un identificador de conferencia o un PIN) para un usuario individual de su organización. Si desea editar la configuración de su organización, vea [administrar la configuración de audioconferencias para mi organización](manage-the-audio-conferencing-settings-for-my-organization.md).
 
  
 1. Inicie sesión con su cuenta profesional o educativa.

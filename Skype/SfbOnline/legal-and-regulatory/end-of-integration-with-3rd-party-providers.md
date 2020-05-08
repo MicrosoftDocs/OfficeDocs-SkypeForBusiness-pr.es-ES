@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: El 31 de julio de 2021, el programa de fin del ciclo de vida finalizará para la integración de Skype empresarial con proveedores de servicios de audioconferencia de terceros (ACP de terceros).
-ms.openlocfilehash: 7ea6068d8715bd0df9e80041d70b8baf37abaf1b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5b49bf573ad79cbdacbc538a0ef67faf1b2b634e
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41985035"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164459"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programa de fin de vida para la integración de Skype empresarial con proveedores de servicios de audioconferencia de terceros 
 
@@ -59,7 +59,7 @@ Según el estado final deseado de una organización, se pueden seguir tres camin
 
 Las organizaciones que decidan migrar a las conferencias de audio de Microsoft y completar su migración antes del 31 de julio de 2021, no experimentarán ningún impacto en el servicio durante o después de esa fecha. La migración a Microsoft audio audioconferencia presentará los siguientes cambios en una organización: 
 
-- El servicio se facturará con todos los demás servicios de Office 365. 
+- El servicio se facturará con todos los demás servicios de Microsoft 365 u Office 365. 
 
 - Si se compra la suscripción estándar, el costo de llamadas telefónicas se incluirá en el precio de suscripción mensual por usuario. 
 
@@ -73,13 +73,13 @@ Las organizaciones que decidan migrar a las conferencias de audio de Microsoft y
 
 Migrar a las conferencias de audio de Microsoft es simple y puede hacerse en un par de pasos después de comprar las licencias para el servicio. Para obtener más información sobre cómo migrar a las conferencias de audio de Microsoft, consulte:
 
-- [Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+- [Probar o comprar audioconferencia en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
  
 **Resumen:**
 
 - Las organizaciones que migran a las conferencias de audio de Microsoft y completan su migración antes del 31 de julio de 2021 no verán ningún impacto en el servicio durante o después de esa fecha.
 
-- Para obtener más información sobre cómo migrar a la Conferencia de audio de Microsoft, vea [probar o comprar audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md). 
+- Para obtener más información sobre cómo migrar a las conferencias de audio de Microsoft, consulte [probar o comprar audioconferencia en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md). 
 
 ### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>Ruta de acceso #2: continuar para usar por separado un proveedor de servicios de audioconferencia de terceros
 
@@ -91,7 +91,7 @@ Para evitar la fragmentación de audio en las reuniones de Skype empresarial hac
  
 En cuanto a la programación y a partir del 31 de julio de 2021, la información de acceso telefónico de un ACP de terceros ya no se incluirá de forma automática en las invitaciones a reuniones de Skype empresarial. Los usuarios deberán agregar manualmente la información de acceso telefónico local en sus invitaciones a reuniones de Skype empresarial si desean continuar incluyendo esta información como parte de sus reuniones. 
 
-Tenga en cuenta que el 31 de julio de 2021, las reuniones de usuarios existentes no se reprogramarán de forma automática para quitar la información de acceso telefónico ACP de terceros. Las organizaciones que decidan mantener la telefonía VoIP habilitada para las reuniones de sus usuarios deben considerar deshabilitar la integración de ACP de terceros para sus usuarios y reprogramar sus reuniones con el servicio de migración de reuniones para quitar el audio de terceros información de acceso telefónico de conferencia de las reuniones existentes y evitar la fragmentación del audio en las reuniones ya programadas. 
+Tenga en cuenta que el 31 de julio de 2021, las reuniones de usuarios existentes no se reprogramarán de forma automática para quitar la información de acceso telefónico ACP de terceros. Las organizaciones que decidan mantener VoIP habilitado para las reuniones de sus usuarios deben considerar deshabilitar la integración de ACP de terceros para sus usuarios y reprogramar sus reuniones con el servicio de migración de reuniones para quitar la información de acceso telefónico de las conferencias de audio de terceros de las reuniones existentes y evitar la fragmentación del audio en las reuniones ya programadas. 
 
 - Para deshabilitar la integración de audioconferencias de terceros para un organizador determinado, use el cmdlet Remove-CsUserAcp. Para obtener más información, consulte [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
@@ -105,7 +105,7 @@ Tenga en cuenta que el 31 de julio de 2021, las reuniones de usuarios existentes
 
     - Para deshabilitar VoIP de todas las reuniones de un organizador determinado, establezca el parámetro AllowIPAudio de la Directiva de conferencia del usuario en falso mediante el cmdlet Set-CsConferencingPolicy. Para obtener más información, consulte [set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
  
-- Si una organización no deshabilita VoIP en todas las reuniones, se recomienda que los usuarios no puedan usar la integración de Skype empresarial online con un ACP de terceros y reprogramar sus reuniones para quitar la información de acceso telefónico ACP de terceros a Evite la fragmentación del audio.
+- Si una organización no deshabilita VoIP en todas las reuniones, se recomienda que los usuarios no puedan usar la integración de Skype empresarial online con un ACP de terceros y reprogramar sus reuniones para quitar la información de acceso telefónico ACP de terceros para evitar la fragmentación del audio.
 
     - Para deshabilitar la integración de audioconferencias de terceros para un organizador determinado, use el cmdlet [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps) . 
 

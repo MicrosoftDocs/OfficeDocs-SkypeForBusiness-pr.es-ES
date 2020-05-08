@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: El servicio de migración de reuniones (MMS) es un servicio que se ejecuta en segundo plano y actualiza automáticamente las reuniones de Skype empresarial y Microsoft Teams para los usuarios. MMS está diseñado para eliminar la necesidad de que los usuarios ejecuten la herramienta de migración de reuniones para actualizar sus reuniones de Skype empresarial y Microsoft Teams.
-ms.openlocfilehash: 5ce6f2ab5954ba0c076e9a4db432da3e93a75db1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 81bd5f1e9304ff3ff6eedb901a50632aa6edd73a
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010983"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163959"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Usar el servicio de migración de reuniones (MMS)
 
@@ -211,6 +211,6 @@ Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings 
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Probar o comprar audioconferencia en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
 [Mover usuarios entre la implementación local y la nube](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
