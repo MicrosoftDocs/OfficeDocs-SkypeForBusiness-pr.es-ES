@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga más información sobre las licencias de complemento para Microsoft Teams y las características que obtiene con cada licencia.
-ms.openlocfilehash: d9a59fb5a24dbbb931c5c9b69c521072fce3c674
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: acb0ff4cd9cbaeeedb81490731a8b68a8de854a8
+ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042567"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44170691"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licencias de complemento de Microsoft Teams
 
@@ -40,10 +40,10 @@ Esta es una lista de características que puede Agregar con las licencias de com
 |||||
 |:-----|:-----|:-----|:-----|
 |**Característica** <br/> |**Descripción** <br/> |**Pequeña empresa (<usuarios de 300)**|**Empresa grande (>usuarios de 300)**|
-**Microsoft 365 Empresa Voice** <br/> | [Business Voice](../business-voice/whats-business-voice.md) es una solución de telefonía diseñada para pequeñas y medianas empresas de hasta 300 usuarios que empaquetan el sistema telefónico, la audioconferencia, un plan de llamadas nacionales, etc. Las funciones del sistema telefónico que recibirás incluyen el buzón de voz, la identificación de llamadas, el parque de llamadas, el desvío de llamadas, los operadores automáticos y las colas de llamadas. Para obtener información sobre precios, consulte [precios de voz de empresa](https://go.microsoft.com/fwlink/?linkid=2127221).  <br/> |&#x2713;||
+**Microsoft 365 Empresa Voice** <br/> | [Business Voice](../business-voice/whats-business-voice.md) es una solución de telefonía diseñada para pequeñas y medianas empresas de hasta 300 usuarios que empaquetan el sistema telefónico, la audioconferencia, un plan de llamadas nacionales, etc. Las funciones del sistema telefónico que recibirás incluyen el buzón de voz, la identificación de llamadas, el parque de llamadas, el desvío de llamadas, los operadores automáticos y las colas de llamadas. <br> Para averiguar si la voz empresarial está disponible en su país o región, consulte [disponibilidad de países y regiones para la voz de la empresa](../business-voice/country-region-availability.md). Para obtener información sobre precios, consulte [precios de voz de empresa](https://go.microsoft.com/fwlink/?linkid=2127221). <br/> |&#x2713;||
 |**Audioconferencia** <br/> |A veces, las personas de su organización deberán usar un teléfono para llamar a una reunión de Teams en lugar de su equipo. Configurar [audioconferencias](../audio-conferencing-in-office-365.md) para los usuarios que programan o conducen a las reuniones. <br/> Para averiguar si la audioconferencia está disponible en su país o región, vea [Disponibilidad de país y región para las audioconferencias y los planes de llamadas](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Para obtener información sobre precios, consulte [Precios para participar en audio conferencia.](https://go.microsoft.com/fwlink/?linkid=799762)  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Números gratuitos** |Si desea números gratuitos para las conferencias de audio, los operadores automáticos o las colas de llamadas, debe [configurar créditos de comunicaciones](../set-up-communications-credits-for-your-organization.md). <br/> |&#x2713;|&#x2713;|
-|**Sistema telefónico** <br/> |El [sistema telefónico](../what-is-phone-system-in-office-365.md) es un servicio de telefonía hospedada que le ofrece funciones de control de llamadas y de central de conmutación (PBX), con opciones para conectarse a la red de telefonía pública conmutada (RTC). Entre las características del sistema telefónico se incluyen el buzón de voz, la identificación de llamadas, el parque de llamadas, el desvío de llamadas, los operadores automáticos, las colas de llamadas, la transferencia de llamadas, la identificación de llamadas, etc. Para obtener más información, consulte [estas son las características que obtiene con el sistema telefónico](../here-s-what-you-get-with-phone-system.md).  <br/> Para obtener información sobre precios, consulta [precios para el sistema telefónico](https://go.microsoft.com/fwlink/?linkid=79976).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**Sistema telefónico** <br/> |El [sistema telefónico](../what-is-phone-system-in-office-365.md) es un servicio de telefonía hospedada que le ofrece funciones de control de llamadas y de central de conmutación (PBX), con opciones para conectarse a la red de telefonía pública conmutada (RTC). Entre las características del sistema telefónico se incluyen el buzón de voz, la identificación de llamadas, el parque de llamadas, el desvío de llamadas, los operadores automáticos, las colas de llamadas, la transferencia de llamadas, la identificación de llamadas, etc. <br>Para obtener más información, consulte [estas son las características que obtiene con el sistema telefónico](../here-s-what-you-get-with-phone-system.md). Para obtener información sobre precios, consulta [precios para el sistema telefónico](https://go.microsoft.com/fwlink/?linkid=799763).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Planes de llamadas** <br/> |Si quiere que los usuarios puedan llamar a números de teléfono fuera de su organización, obtenga un [plan de llamadas](../calling-plans-for-office-365.md). Existen planes de llamadas nacionales y planes de llamadas nacionales e internacionales. Para obtener información sobre precios, consulta [precios para planes de llamadas](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Salas de Microsoft Teams** <br/> |[Salas de Microsoft Teams](../rooms/index.md) no es un complemento, sino una característica que lleva el vídeo, el audio y el uso compartido de contenido a salas de conferencia. Ver las [licencias de sala de reuniones de Teams](../rooms/rooms-licensing.md).  <br/> |&#x2713;|&#x2713;|
 
@@ -69,9 +69,13 @@ Para Microsoft 365 Business Voice, tiene dos opciones para elegir:
 - **Microsoft 365 Business Voice con un plan de llamadas**: Obtén esta si deseas que Microsoft gestione la administración de los números de teléfono y la facturación.
 - **Microsoft 365 de voz de empresa sin un plan de llamadas (enrutamiento directo)**: Obtén esta si deseas que tu proveedor de telefonía de terceros maneje la administración y la facturación de números de teléfono. Tendrá que configurar e implementar el [enrutamiento directo](../direct-routing-landing-page.md) para conectar los controladores de borde de sesión locales (SBCS) a Microsoft 365 u Office 365.
 
+Para obtener más información, consulte [¿Qué debo comprar para usar Microsoft 365 Business Voice?](../business-voice/what-to-buy.md).
+
 Este es un resumen, basado en el plan de licencias.
 
   ![Opciones del plan para pequeñas empresas](../media/licensing-smallbusiness-options.png)
+
+Si no se admite la Conferencia de audio en su país o región, tiene la opción de obtener una 365 Enterprise E5 de Microsoft sin un plan de audioconferencia o un Office 365 Enterprise E5 sin un plan de audioconferencia.
 
 Si ya tiene un plan empresarial de Microsoft 365 Enterprise u Office 365, aún puede comprar licencias de complemento para características de voz individuales. Sin embargo, tiene la opción de cambiar a [microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). En algunos casos, en función de las características que desee, puede ser más económico obtener un plan de empresa de Microsoft 365 con Microsoft 365 Business Voice.
 
@@ -88,6 +92,8 @@ Si es una organización grande o empresarial (más de 300 usuarios), tiene dos f
 Este es un resumen, basado en el plan de licencias.
 
   ![Opciones de plan basado en empresa](../media/licensing-enterprise-options.png)
+
+Si no se admite la Conferencia de audio en su país o región, tiene la opción de obtener una 365 Enterprise E5 de Microsoft sin un plan de audioconferencia o un Office 365 Enterprise E5 sin un plan de audioconferencia.
 
 Para obtener más información, consulte [planes empresariales de Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) y [planes empresariales de Office 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans).
 
@@ -154,18 +160,31 @@ Para obtener más información, consulte [Microsoft 365 y Office 365 ofertas par
 
 #### <a name="trial-offers"></a>[**Ofertas de prueba**](#tab/trial/)
 
-En respuesta a una mayor necesidad de que los usuarios trabajen de forma remota (o trabajen desde casa), Microsoft tiene varias ofertas de prueba gratuitas de Teams para organizaciones gubernamentales, educativas y sin ánimo de lucro:
+### <a name="trial-offers-for-licensing-plans"></a>Ofertas de prueba para planes de licencias
 
-- La [prueba de Office 365 E1](../e1-trial-license.md), que incluye equipos, es una licencia gratuita de 6 meses de E1 para cualquier cliente administrado por un representante de la cuenta de Microsoft. Para las organizaciones, incluidas las ONG, no han activado ninguna otra prueba de Office 365 E1 en el pasado.
+En respuesta a una mayor necesidad de que los usuarios trabajen de forma remota (o trabajen desde casa), Microsoft tiene varias ofertas de prueba gratuitas de Teams para organizaciones gubernamentales, educativas y sin ánimo de lucro. Hay ensayos disponibles para estos planes:
 
-- Para GCC, consulte la [prueba gratuita Office 365 G1](../g1-trial-license.md).
+- Office 365 Enterprise [E1 Trial](../e1-trial-license.md), versión de prueba E3 y versión de prueba de E5
+- Prueba de Office 365 educación [a1](../teams-edu-licensing.md)
+- Prueba de Office 365 administración pública [G1](../g1-trial-license.md)
 
-- Los clientes de EDU deben usar la [licencia gratuita Office 365 a1](../teams-edu-licensing.md).
+Para suscribirte a una oferta de prueba, consulta [suscribirte a una oferta de evaluación](https://transform.microsoft.com/customer-trials?tab=requestnewtrial).
 
-Además, consulte:
+### <a name="trial-offers-for-voice-features"></a>Ofertas de prueba para características de voz
+
+Este es un resumen de las ofertas de prueba de las características de voz.
+
+  ![Opciones basadas en la versión de prueba](../media/licensing-trial-offers.png)
+
+ El plan básico no tiene por qué ser una oferta de prueba para usar cualquiera de estas pruebas para las características de voz. Puede usar un plan de empresa de Microsoft 365 o un plan empresarial, gubernamental, educativo o de ONG con cualquiera de las ofertas de prueba para las características de voz. Para ver las ofertas y complementos de prueba disponibles, en el centro de administración de Microsoft 365, vaya a**servicios de compra**de **facturación** > , seleccione **otras categorías que puedan interesarle**y, después, seleccione **Complementos**.
+
+  Para cada una de estas opciones de voz y conferencias, se necesitarán [créditos de comunicaciones](../set-up-communications-credits-for-your-organization.md) si tiene números gratuitos o si necesita agregar minutos adicionales para que los usuarios llamen desde reuniones o para que los usuarios realicen llamadas RTC nacionales e internacionales.
+
+ Además, consulte:
 
 - [Versión gratuita de Teams](../manage-freemium.md)
-- [Experiencia exploratorias de Teams](../teams-exploratory.md)
+- [Experiencia de exploración de equipos](../teams-exploratory.md) : en este momento no hay ninguna oferta de prueba de las características de voz para usar con la experiencia exploracion de equipos.
+- [Microsoft Phone System-licencia de usuario virtual](virtual-user.md)
 
 * * *
 
