@@ -433,6 +433,7 @@
 #### [Agregar fondos y administrar los créditos de comunicaciones](add-funds-and-manage-communications-credits.md)
 
 ### [Flujos de llamadas de Microsoft Teams](microsoft-teams-online-call-flows.md)
+### [Administrar directivas de enrutamiento de voz](manage-voice-routing-policies.md)
 
 ## Guía práctica para grandes organizaciones
 ### [Tutorial: Llamadas en Microsoft Teams](Tutorial-calling-in-teams.yml)
