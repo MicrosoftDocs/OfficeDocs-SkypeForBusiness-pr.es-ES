@@ -17,20 +17,20 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5358e169c66764cc3343feeb78365fbe47cab452
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 3c02d93fb010b603e973077029b9b6710c5e0ba7
+ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042477"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210646"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Inicio rápido de administración: reuniones y eventos en directo en Microsoft Teams
 
 Existen dos formas de reunirse en Microsoft Teams: reuniones y eventos en directo. Use este artículo para implementar y configurar rápidamente reuniones y eventos en directo para su organización. 
 
- - **Las reuniones** en los Teams son el audio, el vídeo y el uso compartido de la pantalla de hasta 250 personas. Es uno de los métodos clave para colaborar en Teams. Y no es necesario ser un miembro de una organización (ni siquiera tener una cuenta de equipo) para unirse a una reunión de Teams, solo tiene que buscar en la invitación instrucciones sobre cómo realizar llamadas. 
+ - Las **reuniones** en Teams incluyen audio, vídeo y uso compartido de la pantalla para hasta 350 personas. Es uno de los métodos clave para colaborar en Teams. Y no es necesario ser un miembro de una organización (ni siquiera tener una cuenta de equipo) para unirse a una reunión de Teams, solo tiene que buscar en la invitación instrucciones sobre cómo realizar llamadas. 
 
- - **Eventos en directo** es una extensión de las reuniones de Teams que le permiten programar y producir eventos que se transmiten a grandes contactos en línea, hasta 10.000 personas. Si necesita una reunión para más de 250 personas, utilice un evento en directo.
+ - **Eventos en directo** es una extensión de las reuniones de Teams que le permiten programar y producir eventos que se transmiten a grandes contactos en línea, hasta 10.000 personas. Si necesita una reunión para más de 350 personas, utilice un evento en directo.
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>Obtenga licencias para reuniones y eventos en directo
 
