@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: En este artículo se describen las ventajas, las consideraciones de planeación y los requisitos para implementar el servicio de correo de voz en la nube de Microsoft. Para obtener información sobre cómo configurar el correo de voz de nube, consulte Configurar el correo de voz de nube.
-ms.openlocfilehash: 07448ab8232115e19c01261dc487c04b5a2dd4f9
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 30a4983c79f4a7cddd274c272b5a094c17653bbb
+ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341766"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210636"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planear el servicio de correo de voz en la nube para usuarios locales
 
@@ -79,7 +79,7 @@ Además de los requisitos anteriores, deben configurarse los siguientes requisit
 
 - Una dirección URL externa de servicios web Exchange (EWS) y la detección automática deben estar configuradas o algunas características de correo de voz de la nube estarán limitadas.
 
-- Si tiene una implementación local únicamente&#x2014;es decir, solo los servidores locales de Exchange y Skype empresarial&#x2014;pero desea aprovechar el correo de voz de la nube, no necesitará licencias adicionales.
+- Si tiene una implementación local únicamente&#x2014;es decir, solo los servidores de Exchange y de Skype empresarial local&#x2014;pero desea aprovechar el correo de voz de la nube, necesitará una licencia de sistema telefónico.
 
 ## <a name="migration-and-interoperability"></a>Migración e interoperabilidad
 
@@ -100,6 +100,6 @@ Microsoft recomienda las siguientes rutas de migración:
 
 - Si va a actualizar a Skype empresarial Server 2019, puede usar la mensajería unificada de Exchange en Exchange Server 2013 o 2016, pero debe actualizar al correo de voz de la nube si usa Exchange Server 2019.
 - Si va a actualizar a Exchange Server 2019 y está usando versiones anteriores de la mensajería UNIFICAda de Exchange Server para los mensajes de voz de Skype empresarial Server, Microsoft le recomienda que actualice a Skype empresarial Server 2019 antes de la actualización del buzón de correo.  De lo contrario, se perderán las funciones de mensajería de voz.
-- Si va a actualizar a Skype empresarial Server 2019 y tiene Skype empresarial Server 2015 configurado para el correo de voz con mensajería unificada de Exchange Online, el correo de voz de los usuarios migrará automáticamente de la mensajería unificada de Exchange Online al correo de voz de la nube cuando su cuenta se mueva a Skype empresarial Server 2019. 
+- Si va a actualizar a Skype empresarial Server 2019 y tiene Skype empresarial Server 2015 configurado para correo de voz con mensajería unificada de Exchange Online, el correo de voz de los usuarios migrará automáticamente de la mensajería unificada de Exchange Online al correo de voz de la nube cuando su cuenta se mueva a Skype empresarial Server 2019. 
 
 Para obtener más información acerca de la planeación de la migración, vea [Plan for Skype for Business Server and Exchange Server Migration](plan-um-migration.md).
