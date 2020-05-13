@@ -12,12 +12,12 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82e66cf65d8aa29e476e759bd1f09ccbbf7b61f5
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: de331cc4742a3a995a63ea4848e2515871fb5f69
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780249"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -412,8 +412,7 @@ En iPhone y iPad, Lync cierra la sesión automáticamente si el usuario no ha us
 </table>
 
 
-1 no está disponible para los usuarios de Skype empresarial online o Microsoft 365 o Office 365.
-
+1 no está disponible para los usuarios de Skype empresarial online, Microsoft 365 o Office 365.
 </div>
 
 <div>
@@ -757,11 +756,11 @@ En iPhone y iPad, Lync cierra la sesión automáticamente si el usuario no ha us
 </table>
 
 
-1 para los usuarios de Microsoft 365 u Office 365, esta característica está disponible solo para las reuniones habilitadas por el proveedor de servicios de audioconferencia (ACP).
+1 para los usuarios de Office 365 y Microsoft 365, esta característica está disponible solo para las reuniones habilitadas por el proveedor de servicios de audioconferencia (ACP).
 
 2 no disponible para los usuarios de Microsoft 365 o Office 365.
 
-3 para Skype empresarial online o para el usuario de Microsoft 365 u Office 365, esta característica está disponible en proveedores de servicios de audioconferencia de terceros.
+3 en el caso de los usuarios de Skype empresarial online, Microsoft 365 o Office 365, esta característica está disponible en proveedores de servicios de audioconferencia de terceros.
 
 4A presentación de PowerPoint compartida por Lync Web App no se puede ver desde Lync Mobile 2013. Las anotaciones realizadas en clientes de escritorio de Lync 2013 no se pueden ver en dispositivos móviles.
 
@@ -892,13 +891,13 @@ En iPhone y iPad, Lync cierra la sesión automáticamente si el usuario no ha us
 </table>
 
 
-1 Lync Server 2013, Skype empresarial online y Office 365 los usuarios pueden llamar al icono a otros usuarios de Lync y usuarios de Skype. Lync Server 2013 los usuarios también pueden realizar llamadas RTC punteando en el icono.
+1 Lync Server 2013, Skype empresarial online y Microsoft 365 o Office 365 los usuarios pueden llamar al icono a otros usuarios de Lync y usuarios de Skype. Lync Server 2013 los usuarios también pueden realizar llamadas RTC punteando en el icono.
 
-2 para los usuarios locales de Lync Server 2013, en dispositivos con Windows Phone, iPhone y iPad, el usuario pulsa el icono de llamada en la tarjeta de contacto y acepta la devolución de llamada de Lync Server 2013. Para los usuarios de Microsoft 365 o Office 365, en dispositivos con Windows Phone, iPhone y iPad, cuando el usuario presiona el botón de llamada, se abre un cuadro de diálogo que le pide al usuario que confirme que desea llamar al número.
+2 para los usuarios locales de Lync Server 2013, en dispositivos con Windows Phone, iPhone y iPad, el usuario pulsa el icono de llamada en la tarjeta de contacto y acepta la devolución de llamada de Lync Server 2013. Para los usuarios de Microsoft 365 u Office 365, en dispositivos con Windows Phone, iPhone y iPad, cuando el usuario presiona el botón de llamada, se abre un cuadro de diálogo que le pide al usuario que confirme que desea llamar al número.
 
-3 no está disponible para los usuarios de Skype empresarial online o Microsoft 365 o Office 365.
+3 no disponible para los usuarios de Skype empresarial online, Microsoft 365 o Office 365
 
-4 para Skype empresarial online o para el usuario de Microsoft 365 u Office 365, esta característica es compatible con los socios de Microsoft.
+4 para los usuarios de Skype empresarial online, Microsoft 365 o Office 365, esta característica es compatible con los socios de Microsoft.
 
 </div>
 
@@ -973,7 +972,7 @@ En iPhone y iPad, Lync cierra la sesión automáticamente si el usuario no ha us
 
 1 de forma predeterminada, los usuarios federados tienen asignada la relación de privacidad contactos externos. Para poder llegar a un contacto federado en su teléfono móvil llamando a su número de trabajo publicado, el contacto federado debe asignar manualmente la relación de privacidad compañeros.
 
-2 no disponible para los usuarios de Office 365.
+2 no disponible para los usuarios de Microsoft 365 o Office 365.
 
 </div>
 
@@ -1080,4 +1079,3 @@ En iPhone y iPad, Lync cierra la sesión automáticamente si el usuario no ha us
 </div>
 
 </div>
-

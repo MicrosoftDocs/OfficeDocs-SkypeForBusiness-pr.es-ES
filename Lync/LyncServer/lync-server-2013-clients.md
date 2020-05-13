@@ -12,12 +12,12 @@ ms:contentKeyID: 48185530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ded803c1b84e57e1ba1d5352bd4d76a30efda721
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 265febdc2a0b13833c1db04253430306edd2a952
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208086"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221834"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -81,7 +81,7 @@ Debido a las mejoras realizadas en Lync Web App, no hay disponible una versión 
 
 ## <a name="lync-2013-basic"></a>Lync 2013 Basic
 
-Lync 2013 Basic es un cliente descargable para clientes que tienen una implementación de Lync Server 2013 local con licencia y clientes que se suscriben a un plan de Microsoft Office 365 que no incluye todo el cliente de Lync 2013. El cliente de Lync Basic incluye presencia mejorada, contactos, mensajería instantánea (mi), reuniones de Lync y funcionalidad básica de voz. Las características no compatibles con Lync Basic incluyen el vídeo entre varias partes, la integración de OneNote, la compatibilidad con la infraestructura de escritorio virtual (VDI), la búsqueda de aptitudes, la grabación, las características de telefonía IP empresarial y el control avanzado de llamadas (por ejemplo, desvío de llamadas y llamada de equipo). Para obtener más información, consulte [Client Comparison tables for Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).
+Lync 2013 Basic es un cliente descargable para clientes que tienen una implementación de Lync Server 2013 local con licencia y clientes que se suscriben a un plan de Microsoft 365 o Office 365 que no incluye el cliente completo de Lync 2013. El cliente de Lync Basic incluye presencia mejorada, contactos, mensajería instantánea (mi), reuniones de Lync y funcionalidad básica de voz. Las características no compatibles con Lync Basic incluyen el vídeo entre varias partes, la integración de OneNote, la compatibilidad con la infraestructura de escritorio virtual (VDI), la búsqueda de aptitudes, la grabación, las características de telefonía IP empresarial y el control avanzado de llamadas (por ejemplo, desvío de llamadas y llamada de equipo). Para obtener más información, consulte [Client Comparison tables for Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).
 
 </div>
 
@@ -107,13 +107,13 @@ Las aplicaciones móviles de Lync 2013 ahora incluyen capacidades de voz sobre I
 
 Lync Server 2013 admite los siguientes clientes de versiones anteriores del servidor. Puede hacer que determinados clientes anteriores estén disponibles para los usuarios cuando se unan a reuniones. Para obtener más información, consulte [configuración de la página de participación en la reunión en Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md) en la documentación sobre implementación.
 
-  - **Lync 2010**   Lync 2010 proporciona una experiencia de escritorio completa, que incluye mensajería instantánea, presencia mejorada, voz, vídeo, uso compartido y telefonía. Sin embargo, ninguna de las nuevas características que se incluyen en Lync Server 2013 estará disponible hasta que el cliente del usuario se actualice a Lync 2013.
+  - **Lync 2010**     Lync 2010 proporciona una experiencia de escritorio completa, que incluye mensajería instantánea, presencia mejorada, voz, vídeo, uso compartido y telefonía. Sin embargo, ninguna de las nuevas características que se incluyen en Lync Server 2013 estará disponible hasta que el cliente del usuario se actualice a Lync 2013.
 
-  - **Lync 2010 Mobile**   Lync Server 2013 es compatible con todas las aplicaciones móviles móviles de Microsoft Lync 2010. Microsoft Lync 2010 Mobile proporciona mensajería instantánea, presencia mejorada y telefonía a los usuarios de su organización que se conectan desde un smartphone o un teléfono con una edición profesional de Windows Mobile. Puede indicar a los usuarios que instalen Microsoft Lync 2010 Mobile al dirigirlos al Marketplace de la aplicación para su teléfono móvil. Para obtener más información, consulte "Planeación de clientes móviles" en la documentación de [https://go.microsoft.com/fwlink/p/?LinkID=235955](https://go.microsoft.com/fwlink/p/?linkid=235955)Lync Server 2010 en.
+  - **Lync 2010 Mobile**     Lync Server 2013 admite todas las aplicaciones móviles de Microsoft Lync 2010. Microsoft Lync 2010 Mobile proporciona mensajería instantánea, presencia mejorada y telefonía a los usuarios de su organización que se conectan desde un smartphone o un teléfono con una edición profesional de Windows Mobile. Puede indicar a los usuarios que instalen Microsoft Lync 2010 Mobile al dirigirlos al Marketplace de la aplicación para su teléfono móvil. Para obtener más información, consulte "Planeación de clientes móviles" en la documentación de Lync Server 2010 en [https://go.microsoft.com/fwlink/p/?LinkID=235955](https://go.microsoft.com/fwlink/p/?linkid=235955) .
 
-  - **Lync Phone Edition**   Lync Phone Edition para teléfonos IP inteligentes (por ejemplo, teléfonos conectados a USB) no se ha actualizado para Lync Server 2013. Lync Phone Edition sigue siendo compatible con para realizar y recibir llamadas, la presencia mejorada y las capacidades de audio de clientes para conferencias.
+  - **Lync Phone Edition**     El software de Lync Phone Edition para teléfonos IP inteligentes (por ejemplo, teléfonos conectados a USB) no se ha actualizado para Lync Server 2013. Lync Phone Edition sigue siendo compatible con para realizar y recibir llamadas, la presencia mejorada y las capacidades de audio de clientes para conferencias.
 
-  - **Operador de Lync 2010**   el operador integrado de administración de llamadas de Microsoft Lync 2010 permite que un recepcionista administre varias conversaciones al mismo tiempo mediante un manejo rápido de llamadas, la mensajería instantánea y el enrutamiento en pantalla.
+  - Operador de Lync **2010**     El programa integrado de administración de llamadas de Microsoft Lync 2010 permite que un recepcionista administre varias conversaciones al mismo tiempo mediante un manejo rápido de llamadas, la mensajería instantánea (IM) y el enrutamiento en pantalla.
 
 </div>
 

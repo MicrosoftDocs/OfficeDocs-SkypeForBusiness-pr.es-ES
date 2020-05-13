@@ -12,12 +12,12 @@ ms:contentKeyID: 48184423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fdd7deb87eef28e3b439f290f6da5a90d2fe50dc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5f4e622d71175ec393706af39ce470c5030216a
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187373"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221804"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42187373"
 
 _**Última modificación del tema:** 2012-10-03_
 
-Al planear Lync, la primera decisión importante es cómo implementar Microsoft Lync: como Lync Server 2013 local o Lync Online con Microsoft Office 365 en la nube.
+Al planear Lync, la primera decisión importante es cómo implementar Microsoft Lync: como Lync Server 2013 local o Lync Online con Microsoft 365 u Office 365 en la nube.
 
   - **Lync Server 2013 local** : esta opción proporciona el conjunto completo de características de Lync y proporciona la máxima flexibilidad para la configuración, personalización y funcionamiento de la implementación. La organización se encarga de instalar todos los servidores en el sitio y de su mantenimiento. Una implementación local proporciona el conjunto completo de características de Lync Server.
 
@@ -51,17 +51,17 @@ El tipo de implementación que más le convenga dependerá de las cargas de trab
 
 Se recomienda implementar Lync Server si se necesitan las características siguientes:
 
-  - **Capacidades completas de la telefonía IP empresarial**   si tiene previsto implementar una solución de telefonía IP completa para reemplazar su PBX o usa características avanzadas de llamada, se necesita una implementación de Lync Server local. La implementación local admite la conectividad directa con troncos y sistemas PBX, además de características telefónicas avanzadas como los grupos de respuesta y el Estacionamiento de llamadas. Lync Online no admite estas características en este momento.
+  - Capacidades completas de la **telefonía IP empresarial**     Si planea implementar una solución de telefonía IP completa para reemplazar su PBX o usa características avanzadas de llamada, se necesita una implementación local de Lync Server. La implementación local admite la conectividad directa con troncos y sistemas PBX, además de características telefónicas avanzadas como los grupos de respuesta y el Estacionamiento de llamadas. Lync Online no admite estas características en este momento.
 
-  - **Controles de calidad de medios**   si desea disponer de la gama completa de características de seguridad de calidad de medios, como el control de admisión de llamadas (CAC) y las características de calidad de servicio (QoS), necesitará una implementación local.
+  - Controles de calidad de **medios**     Si desea disponer de todas las características de seguridad de calidad de medios, como el control de admisión de llamadas (CAC) y las características de calidad de servicio (QoS), querrá una implementación local.
 
-  - **Chat persistente si**   necesita implementar chat persistente en su organización, debe elegir una implementación local.
+  - **Chat persistente**     Si tiene que implementar chat persistente en su organización, debe elegir una implementación local.
 
-  - **aplicaciones de servidor**   de terceros solo las implementaciones locales pueden funcionar con aplicaciones de terceros de confianza que usen la API administrada de comunicaciones unificadas de Microsoft (UCMA).
+  - Aplicaciones de servidor **de**     terceros Solo las implementaciones locales pueden funcionar con aplicaciones de terceros de confianza que usen la API administrada de comunicaciones unificadas de Microsoft (UCMA).
 
-  - **Empresas multinacionales y multiregionales que necesitan soporte**   regional si tiene centros de información en varios países o regiones y necesita que los servidores se implementen y administren de manera regional, una implementación local es mejor, ya que proporciona este tipo de capacidades de administración regional.
+  - **Empresas multinacionales y multiregionales que necesitan soporte regional**     Si tiene centros de información en varios países o regiones y necesita que los servidores se implementen y administren de manera regional, es mejor que una implementación local, ya que proporciona este tipo de capacidades de administración regionales.
 
-  - **Control completo de las directivas, informes y actualizaciones**   con una implementación local de Lync Server, tiene acceso a todo el conjunto de directivas de servidor y de cliente, a la supervisión y a otros informes y a los tiempos de las actualizaciones. Lync Online proporciona un subconjunto de los informes y la configuración de directivas, y proporciona una ventana limitada, aunque significativa, para aceptar actualizaciones.
+  - **Control completo de las directivas, informes y actualizaciones**     Con una implementación local de Lync Server, tiene acceso a todo el conjunto de directivas de servidor y cliente, la supervisión y otros informes, y el tiempo de las actualizaciones. Lync Online proporciona un subconjunto de los informes y la configuración de directivas, y proporciona una ventana limitada, aunque significativa, para aceptar actualizaciones.
 
 </div>
 
@@ -82,4 +82,3 @@ Si ninguno de los aspectos enumerados en la lista anterior le resulta fundamenta
 </div>
 
 </div>
-

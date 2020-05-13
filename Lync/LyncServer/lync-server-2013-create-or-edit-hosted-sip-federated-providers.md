@@ -12,12 +12,12 @@ ms:contentKeyID: 48679556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 937dfe2a63f755a7366fbb1b82c5593c466ac544
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b78e9be0f3b885a40fcf313173a1281ac5489936
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181413"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221844"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42181413"
 
 _**Última modificación del tema:** 2012-10-19_
 
-La conectividad de mensajería instantánea (mi) de proveedor hospedado permite a los usuarios de su organización usar la mensajería instantánea para comunicarse con los usuarios de los servicios de mensajería instantánea proporcionados por proveedores hospedados, incluidos Microsoft Office 365 y Lync Online.
+La conectividad de mensajería instantánea (mi) de proveedor hospedado permite a los usuarios de su organización usar la mensajería instantánea para comunicarse con los usuarios de los servicios de mensajería instantánea proporcionados por proveedores hospedados, incluidos Microsoft 365 y Lync Online.
 
 Cada proveedor hospedado se configura con el nombre de dominio completo del servidor perimetral del proveedor y el nivel de verificación predeterminado **Permitir a los usuarios comunicarse solamente con personas de su Lista de contactos que utilizan este proveedor**.
 
@@ -59,13 +59,13 @@ Utilice los siguientes procedimientos para crear o editar proveedores hospedados
 
 6.  En la página **Editar proveedor federado de SIP**, puede escribir o editar la siguiente configuración:
     
-      - **Habilitar comunicaciones con este proveedor**   : al seleccionar esta opción, se habilitan las comunicaciones con los usuarios de este proveedor.
+      - **Habilitar comunicaciones con este proveedor**     La selección de esta opción habilita las comunicaciones con los usuarios de este proveedor.
     
-      - **Nombre del proveedor:**   una propiedad necesaria, escriba el nombre del proveedor tal y como se reflejará en la lista de proveedores federados SIP.
+      - **Nombre del proveedor:**     Una propiedad necesaria, escriba el nombre del proveedor tal y como se reflejará en la lista de proveedores federados SIP.
     
-      - **Servicio perimetral de acceso (FQDN):**   una propiedad necesaria, escriba el nombre de dominio completo del servicio perimetral de acceso del proveedor hospedado que va a configurar. Esta información debe ser proporcionada por el proveedor hospedado y solo debe modificarse si el proveedor hospedado realiza un cambio al FQDN del servicio perimetral de acceso del proveedor hospedado.
+      - **Servicio perimetral de acceso (FQDN):**     Una propiedad necesaria, escriba el nombre de dominio completo del servicio perimetral de acceso del proveedor hospedado que va a configurar. Esta información debe ser proporcionada por el proveedor hospedado y solo debe modificarse si el proveedor hospedado realiza un cambio al FQDN del servicio perimetral de acceso del proveedor hospedado.
     
-      - **Nivel de verificación predeterminado:**   la configuración predeterminada, **permitir a los usuarios comunicarse con personas de su lista de contactos que utilizan este proveedor** , limitará la comunicación a los contactos que haya aceptado y que se encuentren en su lista de contactos.
+      - **Nivel de verificación predeterminado:**     La configuración predeterminada, **permitir que los usuarios se comuniquen con las personas de su lista de contactos que utilizan este proveedor** , limitará la comunicación a los contactos que haya aceptado y que se encuentren en su lista de contactos.
         
         Seleccionar **Permitir a los usuarios comunicarse con todos los que utilizan este proveedor** elimina la restricción de tener que haber recibido y aceptado una invitación de contacto. Esta configuración no limita quién puede contactarlo desde la red del proveedor hospedado.
 

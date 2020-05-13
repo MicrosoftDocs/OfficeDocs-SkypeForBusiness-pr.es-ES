@@ -12,12 +12,12 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc30881da768d8dad9f952df37bdf1accdf091b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6a75e1e829b59ff66df6b598c63b35f2f78981e4
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192023"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +69,7 @@ Al elegir una topología, puede usar una de las siguientes opciones compatibles:
 
 En la tabla siguiente se resumen las funciones disponibles en las topologías de Microsoft Lync Server 2013 compatibles. Los encabezados de columna indican la funcionalidad disponible con una opción de configuración perimetral determinada. Si tomamos la opción perimetral escalada (DNS con equilibro de carga) como ejemplo, veremos que admite una alta disponibilidad, puede usar direcciones IP privadas no enrutables (con NAT) o direcciones IP públicas enrutables asignadas a las interfaces perimetrales externas y reduce el costo dado que no necesita un equilibrador de carga de hardware.
 
-Los escenarios de conmutación por error perimetral compatibles con el equilibrio de carga de DNS son sesiones de punto a punto de Lync a Lync, sesiones de conferencia de Lync, sesiones de Lync a RTC y Office 365. Los escenarios de conmutación por error perimetral que no se benefician del equilibrio de carga de DNS son la conmutación por error de la mensajería unificada de Exchange para usuarios remotos (UM) (antes de Exchange 2010 SP1), conectividad de mensajería instantánea pública (mi) y Federación con servidores que ejecutan Office Communications Server.
+Escenarios de conmutación por error perimetral compatibles con el equilibrio de carga de DNS son sesiones de punto a punto de Lync a Lync, sesiones de conferencia de Lync, sesiones de Lync a RTC, Office 365 y Microsoft 365. Los escenarios de conmutación por error perimetral que no se benefician del equilibrio de carga de DNS son la conmutación por error de la mensajería unificada de Exchange de usuarios remotos (UM) (antes de Exchange 2010 SP1), la conectividad de mensajería instantánea pública (mi) y la Federación con servidores que ejecutan Office Communications Server.
 
 ### <a name="summary-of-edge-server-topology-options"></a>Resumen de opciones de topología de servidores perimetrales
 
@@ -153,7 +153,7 @@ El uso de NAT para todas las interfaces externas perimetrales requiere el uso de
 
   - Lync Server 2013 el perímetro consolidado escalado (con equilibrio de carga DNS) requiere tres direcciones IP públicas para cada servidor perimetral en un grupo de servidores perimetrales.
 
-  - Lync Server 2013 servidor perimetral consolidado escalado (equilibrio de carga de hardware) requiere tres direcciones IP públicas para las direcciones IP virtuales del equilibrador de carga (un requisito de tiempo que no aumenta a medida que se agregan más servidores perimetrales al grupo) más tres direcciones IP públicas por Servidor perimetral en un grupo de servidores.
+  - Lync Server 2013 el servidor perimetral consolidado escalado (carga equilibrada con hardware) requiere tres direcciones IP públicas para las direcciones IP virtuales del equilibrador de carga (un requisito de tiempo que no incrementa a medida que se agregan servidores perimetrales al grupo) más tres direcciones IP públicas por servidor perimetral en un grupo.
 
 ### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a>Requisitos de dirección IP para servidor perimetral consolidado escalado (dirección IP por rol)
 
@@ -172,22 +172,22 @@ El uso de NAT para todas las interfaces externas perimetrales requiere el uso de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>6 </p></td>
 <td><p>3 (1 por VIP) + 6</p></td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>9 </p></td>
 <td><p>3 (1 por VIP) + 9</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>12</p></td>
+<td><p>4 </p></td>
+<td><p>12 </p></td>
 <td><p>3 (1 por VIP) + 12</p></td>
 </tr>
 <tr class="even">
-<td><p>2,5</p></td>
+<td><p>5 </p></td>
 <td><p>15 </p></td>
 <td><p>3 (1 por VIP) + 15</p></td>
 </tr>
@@ -212,22 +212,22 @@ El uso de NAT para todas las interfaces externas perimetrales requiere el uso de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>segundo</p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
+<td><p>2 </p></td>
 <td><p>1 (1 por VIP) + 2</p></td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
+<td><p>3 </p></td>
 <td><p>1 (1 por VIP) + 3</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
+<td><p>4 </p></td>
 <td><p>1 (1 por VIP) + 4</p></td>
 </tr>
 <tr class="even">
-<td><p>2,5</p></td>
+<td><p>5 </p></td>
 <td><p>2,5</p></td>
 <td><p>1 (1 por VIP) + 5</p></td>
 </tr>
@@ -271,7 +271,7 @@ Los principales aspectos a la hora de decantarse por una topología son la alta 
 
 
 > [!IMPORTANT]
-> Se recomienda usar el equilibrio de carga de DNS si está federando con compañías mediante Lync Server 2010 y Microsoft Office 365. Tenga en cuenta que hay un impacto significativo en el rendimiento si la mayoría de los socios federados usan Office Communications Server 2007 o Office Communications Server 2007 R2.
+> Se recomienda usar el equilibrio de carga de DNS si está federando con compañías mediante Lync Server 2010 y Office 365 o Microsoft 365. Tenga en cuenta que hay un impacto significativo en el rendimiento si la mayoría de los socios federados usan Office Communications Server 2007 o Office Communications Server 2007 R2.
 
 
 

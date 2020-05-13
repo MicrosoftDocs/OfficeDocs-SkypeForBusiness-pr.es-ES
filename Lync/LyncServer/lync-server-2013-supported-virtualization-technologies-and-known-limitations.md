@@ -12,12 +12,12 @@ ms:contentKeyID: 48184428
 ms.date: 02/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c81b56fd8d0922b011840aa2b3133ce05d32ad13
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0968f79b8c9aedc3dc2d2318a2e8abf5c51531d7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218286"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221150"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,9 +45,9 @@ El complemento de VDI de Lync permite llamadas de audio y vídeo para tecnologí
 
 El complemento de VDI de Lync admite la comunicación remota de escritorio completa en el escenario de escritorio virtual personal, pero no en el escenario de sesión de escritorio remoto. Estos escenarios se pueden describir de la siguiente manera:
 
-  - **Se admite: escritorios virtuales personalizados o infraestructura de escritorio virtual (VDI).**    En este escenario, cada usuario inicia sesión en un escritorio virtual personalizable y puede guardar archivos en el escritorio que se conservan entre sesiones. Los servicios de escritorio remoto de Microsoft, la vista del horizonte de VMware y Citrix XenDesktop son implementaciones que se han probado para su uso con Lync. Para obtener información sobre entornos VDI específicos del proveedor y hardware de cliente que han sido probados por Microsoft, consulte [infraestructura apta para Microsoft Lync](https://go.microsoft.com/fwlink/?linkid=313435).
+  - Se **admite: escritorios virtuales personalizados o infraestructura de escritorio virtual (VDI).**     En este escenario, cada usuario inicia sesión en un escritorio virtual personalizable y puede guardar archivos en el escritorio que se conservan entre sesiones. Los servicios de escritorio remoto de Microsoft, la vista del horizonte de VMware y Citrix XenDesktop son implementaciones que se han probado para su uso con Lync. Para obtener información sobre entornos VDI específicos del proveedor y hardware de cliente que han sido probados por Microsoft, consulte [infraestructura apta para Microsoft Lync](https://go.microsoft.com/fwlink/?linkid=313435).
 
-  - **No admitido: sesiones de escritorio remoto.**    En este escenario, cada usuario inicia sesión en una sesión de escritorio virtual genérica que no se puede personalizar. Las implementaciones de ejemplo incluyen sesiones de escritorio remoto de Microsoft (RDSH) y Citrix XenApp junto con el receptor Citrix.
+  - **No admitido: sesiones de escritorio remoto.**     En este escenario, cada usuario inicia sesión en una sesión de escritorio virtual genérica que no se puede personalizar. Las implementaciones de ejemplo incluyen sesiones de escritorio remoto de Microsoft (RDSH) y Citrix XenApp junto con el receptor Citrix.
 
 El complemento de VDI de Lync no admite otras tecnologías de virtualización, como la virtualización de aplicaciones, que permite el uso de una aplicación sin necesidad de instalar la aplicación completa de forma local. Las implementaciones de ejemplo incluyen Citrix XenApp y Microsoft Application Virtualization (App-V). No se admiten la transmisión por secuencias de aplicaciones, la comunicación remota de aplicaciones y los modos mixtos de virtualización (por ejemplo, el acceso remoto de aplicaciones en el entorno remoto de escritorio completo).
 
@@ -81,7 +81,7 @@ A continuación se indican las limitaciones conocidas al usar Lync 2013 en un en
     
       - Tonos personalizados y características de música en espera.
 
-  - El complemento de VDI para Lync no es compatible con un entorno de Office 365.
+  - El complemento de VDI para Lync no es compatible con un entorno de Microsoft 365 o Office 365.
 
 </div>
 

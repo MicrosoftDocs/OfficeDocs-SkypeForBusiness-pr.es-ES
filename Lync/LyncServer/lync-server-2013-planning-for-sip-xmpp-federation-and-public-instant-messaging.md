@@ -12,12 +12,12 @@ ms:contentKeyID: 48183918
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1e31e9fd0de6135dd1fd3f552d0d692f1bf7543
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4148cd97ec118a223e7e8b1b1e8c3825f51dbad6
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184013"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219740"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Los servidores perimetrales se pueden configurar para permitir que los usuarios 
 
   - Conferencias de audio, conferencias de vídeo o ambas
 
-En algunos casos, la comunicación, por ejemplo, la mensajería instantánea (mi) y la presencia entre un contacto de Microsoft Lync Server 2013 y el protocolo extensible de mensajería y presencia (XMPP), es solo de punto a punto y solo admite usted y el contacto en el federado SIA. En otros casos, como un Lync Server, Lync Server 2010 a Lync Server 2013 Federation, se puede invitar a varios participantes a unirse a la conversación.
+En algunos casos, la comunicación, por ejemplo, la mensajería instantánea (mi) y la presencia entre un contacto de Microsoft Lync Server 2013 y el protocolo extensible de mensajería y presencia (XMPP), es solo de punto a punto y solo admite usted y el contacto en el socio federado. En otros casos, como un Lync Server, Lync Server 2010 a Lync Server 2013 Federation, se puede invitar a varios participantes a unirse a la conversación.
 
 <div>
 
@@ -97,19 +97,19 @@ La habilitación de la Federación entre Microsoft Lync Server 2013, Lync Server
         
 
         > [!NOTE]
-        > Para los <STRONG>nuevos dominios federados SIP</STRONG>, debe proporcionar el <STRONG>nombre de dominio (o FQDN)</STRONG> para Microsoft Lync Online, Microsoft Office 365. Para Microsoft Lync Server 2013, Lync Server 2010 y Office Communications Server, también debe proporcionar un <STRONG>servicio perimetral de acceso (FQDN)</STRONG> .
+        > Para los <STRONG>nuevos dominios federados SIP</STRONG>, debe proporcionar el <STRONG>nombre de dominio (o FQDN)</STRONG> para Microsoft Lync Online y microsoft 365 u Office 365. Para Microsoft Lync Server 2013, Lync Server 2010 y Office Communications Server, también debe proporcionar un <STRONG>servicio perimetral de acceso (FQDN)</STRONG> .
 
         
         </div>
     
       - <span></span>  
-        Para la Federación de asociados detectados, donde los asociados pueden descubrir el servidor perimetral, se crea un registro SRV en \_el DNS externo sipfederationtls. \_TCP.contoso.com – que apunta al puerto 5061 y al registro host (A) del servidor perimetral
+        Para la Federación de asociados detectados, donde los asociados pueden descubrir el servidor perimetral, se crea un registro SRV en el DNS externo \_ sipfederationtls. \_ tcp.contoso.com – que apunta al puerto 5061 y al registro host (A) del servidor perimetral
         
         <div>
         
 
         > [!IMPORTANT]
-        > Si admite clientes móviles de Microsoft Lync en Windows Phone o Apple iPhone, iPad u otros dispositivos Apple y usa el servicio de notificaciones de inserción o el servicio de notificaciones de inserción, debe planear _sipfederationtls. _tcp. &lt;Registros SRV&gt; de dominio SIP para cada dominio SIP que tenga clientes móviles de Lync. Android y Nokia Symbian Lync Mobile no usan la notificación de inserción y no están sujetos a este requisito.
+        > Si admite clientes móviles de Microsoft Lync en Windows Phone o Apple iPhone, iPad u otros dispositivos Apple y usa el servicio de notificaciones de inserción o el servicio de notificaciones de inserción, debe planear _sipfederationtls. _tcp. &lt;&gt;Registros SRV de dominio SIP para cada dominio SIP que tenga clientes móviles de Lync. Android y Nokia Symbian Lync Mobile no usan la notificación de inserción y no están sujetos a este requisito.
 
         
         </div>

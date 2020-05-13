@@ -12,12 +12,12 @@ ms:contentKeyID: 48183822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cea596f571064a3b72ecbb3b0c2b56c2179aa315
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27b955def7b7648f274125353673d6973afb59b7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182052"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -99,7 +99,7 @@ Si ya ha implementado los servidores perimetrales, la adición de las caracterí
     <tbody>
     <tr class="odd">
     <td><p>Dominio de socio detectado</p></td>
-    <td><p>Configure el registro SRV del formato _sipfederationtls. _tcp. &lt;nombre&gt;de dominio externo donde el valor de puerto para el registro SRV es TCP 5061 y el <strong>host que ofrece este servicio</strong> se define como SIP. &lt;nombre&gt; de dominio externo: el FQDN del servicio perimetral de acceso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">configure DNS for Edge support in Lync Server 2013</a> para obtener más información sobre cómo crear el registro SRV</p></td>
+    <td><p>Configure el registro SRV del formato _sipfederationtls. _tcp. &lt; nombre de dominio externo &gt; donde el valor de puerto para el registro SRV es TCP 5061 y el <strong>host que ofrece este servicio</strong> se define como SIP. &lt;nombre de dominio externo &gt; : el FQDN del servicio perimetral de acceso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">configure DNS for Edge support in Lync Server 2013</a> para obtener más información sobre cómo crear el registro SRV</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar o deshabilitar la Federación y la conectividad de mensajería instantánea pública en Lync Server 2013</a></p></li>
     <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Habilitar o deshabilitar la detección de socios de Federación en Lync Server 2013</a></p></li>
@@ -108,7 +108,7 @@ Si ya ha implementado los servidores perimetrales, la adición de las caracterí
     </tr>
     <tr class="even">
     <td><p>Dominio de socio permitido</p></td>
-    <td><p>Configure el registro SRV del formato _sipfederationtls. _tcp. &lt;nombre&gt;de dominio externo donde el valor de puerto para el registro SRV es TCP 5061 y el <strong>host que ofrece este servicio</strong> se define como SIP. &lt;nombre&gt; de dominio externo: el FQDN del servicio perimetral de acceso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">configure DNS for Edge support in Lync Server 2013</a> para obtener más información sobre cómo crear el registro SRV</p></td>
+    <td><p>Configure el registro SRV del formato _sipfederationtls. _tcp. &lt; nombre de dominio externo &gt; donde el valor de puerto para el registro SRV es TCP 5061 y el <strong>host que ofrece este servicio</strong> se define como SIP. &lt;nombre de dominio externo &gt; : el FQDN del servicio perimetral de acceso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">configure DNS for Edge support in Lync Server 2013</a> para obtener más información sobre cómo crear el registro SRV</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar o deshabilitar la Federación y la conectividad de mensajería instantánea pública en Lync Server 2013</a></p></li>
     </ul></td>
@@ -132,7 +132,7 @@ Si ya ha implementado los servidores perimetrales, la adición de las caracterí
     <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Crear o editar proveedores federados de SIP públicos en Lync Server 2013</a></p></li>
     <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Creación o edición de proveedores federados de SIP hospedados Lync Server 2013</a></p></li>
     </ul></td>
-    <td><p>Este tipo de federación define los servicios y proveedores de hospedaje que desea configurar para sus usuarios. Suele usarse para la configuración de proveedores de MI pública como, por ejemplo, Windows Live Messenger, Yahoo! y AOL, así como a los proveedores de hospedaje, como Lync Online y Office 365</p>
+    <td><p>Este tipo de federación define los servicios y proveedores de hospedaje que desea configurar para sus usuarios. Suele usarse para la configuración de proveedores de MI pública como, por ejemplo, Windows Live Messenger, Yahoo! y AOL, así como a los proveedores de hospedaje, como Lync Online y Microsoft 365</p>
     <div>
 
     > [!IMPORTANT]  

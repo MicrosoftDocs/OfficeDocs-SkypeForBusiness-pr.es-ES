@@ -7,17 +7,17 @@ f1.keywords:
 - NOCSH
 TOCTitle: Technical diagrams
 ms:assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn594589(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn594589(v=OCS.15)
 ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a76769398b93e422a3d9cad2f8f84ad1c6f8bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37a6ec347e6a6907ebd0736556ea02053ab05202
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194983"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219690"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42194983"
 
 _**Última modificación del tema:** 2014-03-14_
 
-**Resumen:** estos diagramas proporcionan representaciones visuales de soluciones recomendadas para Lync 2013.
+**Resumen:**   Estos diagramas proporcionan representaciones visuales de soluciones recomendadas para Lync 2013.
 
 Estos recursos están disponibles en formato Visio (. VSD) (Visio 2010 o Visio 2013) y en formato PDF. Para obtener información sobre cómo imprimir documentos, vea sugerencias para imprimir pósteres.
 
@@ -87,7 +87,7 @@ Estos pósteres detallan un área técnica específica y están pensados para us
 </colgroup>
 <thead>
 <tr class="header">
-<th>Título</th>
+<th>Title</th>
 <th>Descripción</th>
 </tr>
 </thead>
@@ -136,7 +136,7 @@ Estos pósteres detallan un área técnica específica y están pensados para us
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391840">Ampliar el póster en detalle con Zoom.it de Microsoft</a></p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391837">Versión en PDF</a> (recomendado en dispositivos móviles o tabletas)</p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391839">Versión de Visio</a> (recomendado para usuarios con Visio)</p></td>
-<td><p>En este póster se describen las opciones de plataforma disponibles para Lync 2013 a los clientes y arquitectos que pueden elegir de Lync Online con Office 365, Hybrid Lync, Lync Server local y Lync hospedado. El póster incluye información detallada sobre cada opción de arquitectura, incluidos los escenarios más adecuados para cada una, los requisitos de licencia y las responsabilidades de los profesionales de TI.</p>
+<td><p>En este póster se describen las opciones de plataforma disponibles para Lync 2013 a los clientes y arquitectos que pueden elegir de Lync Online con Microsoft 365, Hybrid Lync, Lync Server local y Lync hospedado. El póster incluye información detallada sobre cada opción de arquitectura, incluidos los escenarios más adecuados para cada una, los requisitos de licencia y las responsabilidades de los profesionales de TI.</p>
 <p>Tamaño: 34 por 44 pulgadas</p>
 <p>Este póster se creó con Visio 2013. No se necesita ninguna modificación para un entorno específico.</p></td>
 </tr>

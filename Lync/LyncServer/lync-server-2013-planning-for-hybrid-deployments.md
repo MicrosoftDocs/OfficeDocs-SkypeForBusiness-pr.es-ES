@@ -12,12 +12,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54888a96d33dc3d9195256483f41719031847744
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 47e8bc57edbf3b6414820aba1613be8b44fc670e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780329"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221524"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Al planear una implementación híbrida, debe tener en cuenta los siguientes req
 
 Debe tener la siguiente configuración en su entorno para implementar e implementar una implementación híbrida.
 
-  - Una organización de Microsoft Office 365 con Skype empresarial online habilitado. Tenga en cuenta que solo puede usar un único inquilino para una configuración híbrida con su implementación local.
+  - Una organización de Microsoft 365 u Office 365 con Skype empresarial online habilitado. Tenga en cuenta que solo puede usar un único inquilino para una configuración híbrida con su implementación local.
 
   - Una única implementación local (infraestructura) de Skype empresarial Server o Lync Server que se implementa en una topología admitida. Consulte topología requirements.
     
@@ -53,7 +53,7 @@ Debe tener la siguiente configuración en su entorno para implementar e implemen
 
   - Herramientas administrativas de Skype empresarial Server 2015. Si usa Lync Server 2013 o Lync Server 2010, puede usar las herramientas administrativas de Lync Server 2013.
 
-  - Para admitir el inicio de sesión único con Office 365 para que los usuarios puedan usar las mismas credenciales de inicio de sesión para iniciar sesión en Office de forma local, puede usar las características de sincronización de contraseñas de Azure Active Directory (AAD) Connect. También puede usar los servicios de Federación de Active Directory (AD FS) para el inicio de sesión único con Office 365.
+  - Para admitir el inicio de sesión único con Microsoft 365 u Office 365 para que los usuarios puedan usar las mismas credenciales de inicio de sesión para iniciar sesión en Office de forma local, puede usar las características de sincronización de contraseñas de la conexión de Azure Active Directory (AAD). También puede usar los servicios de Federación de Active Directory (AD FS) para el inicio de sesión único con Microsoft 365 u Office 365.
     
     Para obtener más información, consulte [Integración de las identidades locales con Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=619754).
 
@@ -159,7 +159,7 @@ La lista de dominios permitidos incluye los dominios que tienen configurado un n
 
 Se deben cumplir los siguientes requisitos para configurar correctamente una implementación híbrida:
 
-  - La coincidencia de dominios debe configurarse de la misma manera para la implementación local y la organización de Office 365. Si la detección de asociados está habilitada en la implementación local, se debe configurar la Federación abierta para el inquilino en línea. Si la detección de asociados no está habilitada, la Federación cerrada debe configurarse para el inquilino en línea.
+  - La coincidencia de dominios debe configurarse de la misma manera para la implementación local y la organización de Microsoft 365 u Office 365. Si la detección de asociados está habilitada en la implementación local, se debe configurar la Federación abierta para el inquilino en línea. Si la detección de asociados no está habilitada, la Federación cerrada debe configurarse para el inquilino en línea.
 
   - La lista de dominios bloqueados en la implementación local debe coincidir exactamente con la lista de dominios bloqueados del inquilino en línea.
 
@@ -191,7 +191,7 @@ Además, debe asegurarse de que la resolución DNS que se describe en la tabla s
 <td><p>Requisito de DNS</p></td>
 </tr>
 <tr class="even">
-<td><p>Registro SRV de DNS para _sipfederationtls. _tcp. &lt;sipdomain.com&gt; para todos los dominios SIP compatibles que se resuelven para obtener acceso a las IP externas perimetrales</p></td>
+<td><p>Registro SRV de DNS para _sipfederationtls. _tcp. &lt; sipdomain.com &gt; para todos los dominios SIP compatibles que se resuelven para obtener acceso a las IP externas perimetrales</p></td>
 <td><p>Servidor (es) perimetral</p></td>
 <td><p>Habilitar la comunicación federada en una configuración híbrida. El servidor perimetral tiene que saber dónde enrutar el tráfico federado para el dominio SIP que se divide entre las instalaciones locales y en línea.</p></td>
 </tr>
@@ -214,7 +214,7 @@ En función de la configuración de DNS en la organización, es posible que deba
 
 Los equipos de la red deben ser capaces de realizar búsquedas de DNS de Internet estándar. Si estos equipos pueden tener acceso a sitios de Internet estándar, la red cumple este requisito.
 
-En función de la ubicación del centro de datos de Microsoft Online Services, también debe configurar los dispositivos de Firewall de red para que acepten conexiones basadas en nombres de dominio comodín (por \*ejemplo, todo el tráfico de. Outlook.com). Si los firewalls de su organización no admiten configuraciones de nombre comodín, tendrá que determinar manualmente los intervalos de direcciones IP que desea permitir y los puertos especificados.
+En función de la ubicación del centro de datos de Microsoft Online Services, también debe configurar los dispositivos de Firewall de red para que acepten conexiones basadas en nombres de dominio comodín (por ejemplo, todo el tráfico de \* . Outlook.com). Si los firewalls de su organización no admiten configuraciones de nombre comodín, tendrá que determinar manualmente los intervalos de direcciones IP que desea permitir y los puertos especificados.
 
 Consulte el tema de ayuda [Office 365 URL e intervalos de direcciones IP](https://go.microsoft.com/fwlink/p/?linkid=252942).
 
@@ -299,7 +299,7 @@ Al sincronizar cuentas de usuario entre su Lync local y las implementaciones de 
 
 
 > [!IMPORTANT]  
-> Si el usuario se crea mediante el portal en línea para Office 365, la cuenta de usuario no se sincronizará con Active Directory local y el usuario no existirá en Active Directory local. Si ya ha creado usuarios en Lync Online y desea configurar un entorno híbrido con un servidor de Lync local, consulte <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Moving users from Lync Online to Lync on-premises in Lync Server 2013</A>.
+> Si el usuario se crea mediante el portal en línea para el centro de administración de Microsoft 365, la cuenta de usuario no se sincronizará con Active Directory local y el usuario no existirá en Active Directory local. Si ya ha creado usuarios en Lync Online y desea configurar un entorno híbrido con un servidor de Lync local, consulte <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Moving users from Lync Online to Lync on-premises in Lync Server 2013</A>.
 
 
 
@@ -307,11 +307,11 @@ Al sincronizar cuentas de usuario entre su Lync local y las implementaciones de 
 
 También debe tener en cuenta los siguientes problemas relacionados con los usuarios al planear una implementación híbrida.
 
-  - **Contactos de usuario**   el límite para los contactos de Lync Online es de 250. Los contactos que superen este número se quitarán de la lista de contactos del usuario cuando la cuenta se mueva a Lync Online.
+  - **Contactos**     de usuario El límite para los contactos de los usuarios de Lync Online es de 250. Los contactos que superen este número se quitarán de la lista de contactos del usuario cuando la cuenta se mueva a Lync Online.
 
-  - **Mensajería instantánea y presencia**   las listas de contactos de usuarios, grupos y listas de control de acceso (ACL) se migran con la cuenta de usuario.
+  - **Mensajería instantánea y presencia**     Las listas de contactos de usuarios, grupos y listas de control de acceso (ACL) se migran con la cuenta de usuario.
 
-  - **Datos de conferencia, contenido de reuniones y reuniones**   programadas este contenido no se migra con la cuenta de usuario. Los usuarios deben reprogramar reuniones una vez que estas cuentas migran a Lync Online.
+  - **Datos de conferencia, contenido de reuniones y reuniones**     programadas Este contenido no se migra con la cuenta de usuario. Los usuarios deben reprogramar reuniones una vez que estas cuentas migran a Lync Online.
 
 </div>
 
@@ -321,11 +321,11 @@ También debe tener en cuenta los siguientes problemas relacionados con los usua
 
   - En un entorno híbrido de Lync Server 2013, los usuarios pueden estar habilitados para mensajería instantánea, voz y reuniones de forma local o en línea, pero no para ambas cosas a la vez.
 
-  - **Cliente de Lync**     es posible que algunos usuarios necesiten una nueva versión de cliente cuando se muevan a Lync Online. Para Office Communications Server 2007 R2, los usuarios deben moverse a un grupo de servidores de Lync Server 2013 antes de la migración a Lync Online.
+  - **Cliente**     de Lync Es posible que algunos usuarios necesiten una nueva versión de cliente cuando se muevan a Lync Online. Para Office Communications Server 2007 R2, los usuarios deben moverse a un grupo de servidores de Lync Server 2013 antes de la migración a Lync Online.
     
     Para obtener más información acerca de la compatibilidad con clientes, consulte [clientes para Lync Online](https://go.microsoft.com/fwlink/p/?linkid=281902) y [clientes y configuraciones de puertos de red compatibles con Lync](https://go.microsoft.com/fwlink/p/?linkid=281901).
 
-  - **Las directivas locales y de configuración (no del usuario)**   en línea y en las directivas locales requieren una configuración independiente. No se pueden configurar directivas globales que se apliquen a ambas.
+  - **Configuración y directivas locales (no de usuario)**     Las directivas en línea y locales requieren una configuración independiente. No se pueden configurar directivas globales que se apliquen a ambas.
 
 </div>
 
@@ -338,4 +338,3 @@ También debe tener en cuenta los siguientes problemas relacionados con los usua
 </div>
 
 </div>
-

@@ -12,12 +12,12 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca81e26e6a4b634b7b1f861ddfb0e0aedebca23f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05c4b2845f4146c6394712951089750299ce60b7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204697"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221824"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,13 +64,13 @@ La mayoría de los componentes perimetrales se implementan en una red perimetral
 
 Los servidores perimetrales envían y reciben tráfico de red para los servicios ofrecidos por la implementación interna por los usuarios externos. El servidor perimetral ejecuta los siguientes servicios:
 
-  - **Servicio perimetral de acceso**   el servicio perimetral de acceso proporciona un único punto de conexión de confianza para el tráfico SIP (Protocolo de inicio de sesión) saliente y entrante.
+  - Servicio perimetral de **acceso**     El servicio perimetral de acceso proporciona un único punto de conexión de confianza para el tráfico SIP (Protocolo de inicio de sesión) saliente y entrante.
 
-  - **Servicio perimetral de conferencia web**   el servicio perimetral de conferencia web permite a los usuarios externos unirse a reuniones hospedadas en la implementación interna de Lync Server 2013.
+  - Servicio perimetral de **conferencia web**     El servicio perimetral de conferencia web permite a los usuarios externos unirse a reuniones que se hospedan en la implementación interna de Lync Server 2013.
 
-  - **Servicio perimetral a/v**   el servicio perimetral a/v hace que el audio, vídeo, uso compartido de aplicaciones y transferencia de archivos estén disponibles para los usuarios externos. Los usuarios pueden agregar audio y vídeo a las reuniones que incluyen participantes externos, y pueden comunicarse mediante audio o vídeo directamente con un usuario externo en sesiones punto a punto. De igual modo, este servicio permite el uso compartido de escritorio y la transferencia de archivos.
+  - Servicio perimetral A **/V**     El servicio perimetral A/V hace que el audio, el vídeo, el uso compartido de aplicaciones y la transferencia de archivos estén disponibles para los usuarios externos. Los usuarios pueden agregar audio y vídeo a las reuniones que incluyen participantes externos, y pueden comunicarse mediante audio o vídeo directamente con un usuario externo en sesiones punto a punto. De igual modo, este servicio permite el uso compartido de escritorio y la transferencia de archivos.
 
-  - **Servicio Proxy XMPP**   el servicio Proxy XMPP acepta y envía mensajes del Protocolo de mensajería y presencia extensible (XMPP) a y desde socios federados de XMPP configurados.
+  - **Servicio**     proxy XMPP El servicio Proxy XMPP acepta y envía mensajes del protocolo extensible de mensajería y presencia (XMPP) a los socios federados de XMPP configurados.
 
 Los usuarios externos autorizados pueden tener acceso a los servidores perimetrales para conectarse a la implementación interna de Lync Server 2013, pero los servidores perimetrales no proporcionan medios para otros tipos de acceso a la red interna.
 
@@ -106,7 +106,7 @@ El proxy inverso se requiere para:
 
   - Para habilitar dispositivos móviles para detectar automáticamente servidores front-end que ofrecen servicios de movilidad
 
-  - Para habilitar notificaciones de inserción para dispositivos móviles desde los servicios de notificación de inserción de Office 365 o Apple
+  - Para habilitar las notificaciones de inserción en dispositivos móviles de Microsoft 365, Office 365 o los servicios de notificación de inserción de Apple
 
 Para obtener información adicional relacionada con los proxies inversos y los requisitos que deben cumplir los servidores proxy inversos, consulte los detalles de [los requisitos de configuración para el proxy inverso en Lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).
 
@@ -114,7 +114,7 @@ Para obtener información adicional relacionada con los proxies inversos y los r
 
 
 > [!NOTE]  
-> Los usuarios externos no necesitan una conexión de red privada virtual (VPN) a la organización para poder participar en las comunicaciones con Lync Server 2013. Si ha implementado la tecnología VPN en su organización y los usuarios usan la VPN para Lync, el tráfico multimedia (por ejemplo, la videoconferencia) puede verse afectado negativamente. Debe considerar la posibilidad de ofrecer un medio para que el tráfico de medios se conecte directamente con el servicio perimetral AV y omita la VPN. Para obtener más información, consulte el artículo del blog NextHop, "Enabling Lync media to bypass a VPN Tunnel <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A>", en.
+> Los usuarios externos no necesitan una conexión de red privada virtual (VPN) a la organización para poder participar en las comunicaciones con Lync Server 2013. Si ha implementado la tecnología VPN en su organización y los usuarios usan la VPN para Lync, el tráfico multimedia (por ejemplo, la videoconferencia) puede verse afectado negativamente. Debe considerar la posibilidad de ofrecer un medio para que el tráfico de medios se conecte directamente con el servicio perimetral AV y omita la VPN. Para obtener más información, consulte el artículo del blog NextHop, "Enabling Lync media to bypass a VPN Tunnel", en <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A> .
 
 
 
@@ -132,7 +132,7 @@ La topología perimetral se puede implementar con únicamente un firewall extern
 
 <div>
 
-## <a name="director"></a>Dirección
+## <a name="director"></a>Director
 
 Un director es un rol de servidor opcional e independiente en Lync Server 2013 que no aloja cuentas de usuario ni proporciona servicios de presencia o conferencia. Actúa como un servidor interno del próximo salto en el que un servidor perimetral enruta el tráfico SIP entrante destinado a los servidores internos. El director autentica las solicitudes de entrada y las redirige al servidor o grupo de servidores principales del usuario. Mediante la autenticación previa en el director, puede colocar solicitudes de cuentas de usuario que son desconocidas para la implementación.
 

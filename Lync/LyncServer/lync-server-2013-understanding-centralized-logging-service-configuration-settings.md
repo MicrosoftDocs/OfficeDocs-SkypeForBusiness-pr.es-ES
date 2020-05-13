@@ -12,12 +12,12 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b326f7ee869b060a423696817c21d7cb763bb0a2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4efbf47cd55fe0e62753843973e67b9eb242862b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193183"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -85,7 +85,7 @@ El servicio de registro centralizado está configurado para definir lo que debe 
     </tr>
     <tr class="odd">
     <td><p><strong>SearchTerms</strong></p></td>
-    <td><p>Términos de búsqueda definidos para la configuración. Office 365, no en implementaciones locales.</p></td>
+    <td><p>Términos de búsqueda definidos para la configuración. Office 365 o Microsoft 365, no en implementaciones locales.</p></td>
     </tr>
     <tr class="even">
     <td><p><strong>SecurityGroups</strong></p></td>
@@ -137,7 +137,7 @@ El servicio de registro centralizado está configurado para definir lo que debe 
     </tr>
     <tr class="even">
     <td><p><strong>MinimumClsAgentServiceVersion</strong></p></td>
-    <td><p>La versión mínima del CLSAgent que se permite ejecutar. Este elemento está pensado para Office 365.</p></td>
+    <td><p>La versión mínima del CLSAgent que se permite ejecutar. Este elemento está pensado para Office 365 o Microsoft 365.</p></td>
     </tr>
     </tbody>
     </table>

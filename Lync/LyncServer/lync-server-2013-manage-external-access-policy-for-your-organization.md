@@ -12,12 +12,12 @@ ms:contentKeyID: 48184160
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55ca35ace807c5e8e551295f3d395e85d514b901
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: afc2b1599551cfc3b7ee7341e441946610166ba0
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185943"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221764"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,29 +37,29 @@ ms.locfileid: "42185943"
 
 _**Última modificación del tema:** 2013-10-07_
 
-Después de implementar uno o varios servidores perimetrales, debe habilitar los tipos de acceso externo que serán compatibles con la organización.
+Después de implementar uno o varios servidores Edge, debe habilitar los tipos de acceso externo que se permitirán en la organización.
 
 De forma predeterminada, no hay ninguna directiva configurada para admitir el acceso de usuarios externos, incluido el acceso de usuarios remotos, el acceso de usuarios federados, incluso si ya ha habilitado la compatibilidad con el acceso de usuarios externos para su organización. Para controlar el uso del acceso de usuarios externos, debe configurar una o más directivas, especificando el tipo de acceso de usuarios externos que es compatible con cada directiva. Para la creación y configuración están disponibles los siguientes ámbitos de directivas. De forma predeterminada, se crea la directiva global, pero no se puede eliminar.
 
-  - **Directiva global:**   la directiva global se crea al implementar los servidores perimetrales. De forma predeterminada, no hay habilitadas opciones de acceso de usuarios externos en la directiva global. Para admitir el acceso de usuarios externos en el nivel global, debe configurar la directiva global para que admita uno o más tipos de opciones de acceso de usuarios externos. La directiva global se aplica a todos los usuarios de su organización, pero las directivas de sitio y usuario invalidan la directiva global. Eliminar la directiva global no hará que desaparezca. En lugar de eso, se restablece la configuración predeterminada.
+  - **Directiva global**   La directiva global se crea cuando se implementan los servidores Edge. De forma predeterminada, no hay habilitadas opciones de acceso de usuarios externos en la directiva global. Para admitir el acceso de usuarios externos en el nivel global, debe configurar la directiva global para que admita uno o más tipos de opciones de acceso de usuarios externos. La directiva global se aplica a todos los usuarios de su organización, pero las directivas de sitio y usuario invalidan la directiva global. Eliminar la directiva global no hará que desaparezca. En lugar de eso, se restablece la configuración predeterminada.
 
-  - **Directiva de sitio**   puede crear y configurar una o varias directivas de sitio para limitar la compatibilidad con el acceso de usuarios externos a sitios específicos. La configuración de la directiva de sitio invalida la directiva global, pero solo en el caso del sitio específico que determina la directiva. Por ejemplo, si activa el acceso de usuarios remotos en la directiva global, puede especificar una directiva de sitio que deshabilite el acceso de usuarios remotos para un sitio específico. De forma predeterminada, una directiva de sitio se aplica a todos los usuarios de dicho sitio, aunque puede asignar una directiva de usuario a un usuario determinado para invalidar dicho parámetro de la directiva de sitio.
+  - **Directiva de sitio**   Puede crear y configurar una o más directivas de sitio para limitar el acceso de usuarios externos a determinados sitios. La configuración de la directiva de sitio invalida la directiva global, pero solo en el caso del sitio específico que determina la directiva. Por ejemplo, si activa el acceso de usuarios remotos en la directiva global, puede especificar una directiva de sitio que deshabilite el acceso de usuarios remotos para un sitio específico. De forma predeterminada, una directiva de sitio se aplica a todos los usuarios de dicho sitio, aunque puede asignar una directiva de usuario a un usuario determinado para invalidar dicho parámetro de la directiva de sitio.
 
-  - **Directiva de usuario**   puede crear y configurar una o más directivas de usuario para limitar la compatibilidad del acceso de usuarios remotos a usuarios específicos. La configuración de la directiva de usuario invalida la directiva global y la directiva de sitio, pero solo para los usuarios concretos a los que se ha asignado la directiva de usuario. Por ejemplo, si deshabilita el acceso de usuarios remotos en la directiva global y a la directiva de sitio, puede especificar una directiva de usuario para deshabilitar el acceso de usuarios remotos y, a continuación, asignar dicha directiva de usuario a usuarios específicos. Si crea una directiva de sitio, debe aplicarla a uno o más usuarios antes de que se haga efectiva.
+  - **Directiva de usuario**   Puede crear y configurar una o más directivas de usuario para limitar el acceso de usuarios remotos a determinados usuarios. La configuración de la directiva de usuario invalida la directiva global y la directiva de sitio, pero solo para los usuarios concretos a los que se ha asignado la directiva de usuario. Por ejemplo, si deshabilita el acceso de usuarios remotos en la directiva global y a la directiva de sitio, puede especificar una directiva de usuario para deshabilitar el acceso de usuarios remotos y, a continuación, asignar dicha directiva de usuario a usuarios específicos. Si crea una directiva de sitio, debe aplicarla a uno o más usuarios antes de que se haga efectiva.
 
 <div>
 
 
 > [!IMPORTANT]  
-> La configuración de la Directiva de Lync Server que se aplica en un nivel de Directiva puede invalidar la configuración que se aplica en otro nivel de directiva. La prioridad de la Directiva de Lync Server es: la Directiva de usuario (más influencia) reemplaza una directiva de sitio y, a continuación, una directiva de sitio invalida una directiva global (menor influencia). Esto significa que cuanto más cerca esté la configuración de la Directiva, el objeto al que afecta la Directiva, más influencia tendrá en el objeto.
+> La configuración de la Directiva de Lync Server que se aplica en un nivel de Directiva puede invalidar la configuración que se aplica en otro nivel de directiva. La prioridad de la Directiva de Lync Server es: la Directiva de usuario (más influencia) reemplaza una directiva de sitio y, a continuación, una directiva de sitio invalida una directiva global (menor influencia). Esto significa que cuanto más se aproxime la configuración de la directiva al objeto al que afecta la directiva, más influencia tendrá en el objeto.
 
 
 
 </div>
 
-Estas opciones incluyen los siguientes tipos de acceso externo:
+Entre estas opciones se incluyen los siguientes tipos de acceso externo:
 
-  - **Habilitar comunicaciones con usuarios federados**   habilite esta funcionalidad si desea admitir el acceso de los usuarios a dominios de socios federados. Esta opción configura la posibilidad de que los usuarios se comuniquen con otros dominios federados SIP, así como proveedores hospedados como Microsoft Office 365. La selección de esta opción le permite seleccionar la opción de permitir la comunicación con dominios XMPP federados.
+  - **Habilitar comunicaciones con usuarios federados**   habilite esta opción si quiere admitir el acceso de usuarios a los dominios de asociados federados. Esta opción configura la posibilidad de que los usuarios se comuniquen con otros dominios federados SIP, así como con proveedores hospedados como Microsoft 365. La selección de esta opción le permite seleccionar la opción de permitir la comunicación con dominios XMPP federados.
     
     Como opción, puede activar **Habilitar comunicaciones con socios XMPP federados** si primero activa **Habilitar comunicaciones con usuarios federados**. La federación XMPP es una federación con las organizaciones que usan el protocolo de mensajería extensible y presencia (XMPP).
     
@@ -72,9 +72,9 @@ Estas opciones incluyen los siguientes tipos de acceso externo:
     
     </div>
 
-  - **Habilitar comunicaciones con usuarios**   remotos habilite esta opción si desea que los usuarios de la organización que están fuera del firewall, como los teletrabajadores y los usuarios que viajan, puedan conectarse a Lync Server a través de Internet.
+  - **Habilitación de comunicaciones con usuarios**     remotos Habilite esta opción si desea que los usuarios de la organización que están fuera del firewall, como los teletrabajadores y los usuarios que viajan, puedan conectarse a Lync Server a través de Internet.
 
-  - **Habilitar comunicaciones con usuarios**   públicos habilite esta opción si desea que los usuarios internos puedan comunicarse con los contactos de proveedores de mi públicos, como los proporcionados por Windows Live,\!Yahoo y America Online (AOL).
+  - **Habilitación de comunicaciones con usuarios públicos**     Habilite esta opción si desea que los usuarios internos puedan comunicarse con los contactos de proveedores de mi públicos, como los proporcionados por Windows Live, Yahoo \! y America Online (AOL).
     
     <div>
     
@@ -101,15 +101,15 @@ Estas opciones incluyen los siguientes tipos de acceso externo:
 
 </div>
 
-**Para ver las directivas de acceso externo con los cmdlets de Windows PowerShell**
+**Para ver directivas de acceso externo con cmdlets de Windows PowerShell**
 
-  - Puede ver las directivas de acceso externo mediante el shell de administración de Lync Server y el cmdlet **Get-CsExternalAccessPolicy** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+  - Puede ver las directivas de acceso externo mediante el shell de administración de Lync Server y el cmdlet **Get-CsExternalAccessPolicy** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
     
-    Para ver información sobre todas las directivas de acceso externo, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:
+    Para ver información sobre todas las directivas de acceso externo escriba el comando siguiente en el shell de administración de Lync Server y presione ENTRAR:
     
         Get-CsExternalAccessPolicy
     
-    Este comando devuelve información similar a la siguiente:
+    Este comando devolverá información similar a la siguiente:
     
         Identity                          : Global
         Description                       :
