@@ -1,0 +1,39 @@
+---
+title: ¿Cómo busco mi PIN de soporte técnico?
+author: CarolynRowe
+ms.author: crowe
+manager: serdars
+ms.topic: article
+ms.service: msteams
+audience: admin
+ms.collection:
+- M365-collaboration
+ms.reviewer: mikedav
+search.appverid: MET150
+description: Más información sobre cómo buscar tu PIN de soporte técnico.
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 8d9fbc7805adb2bec12625daea4d0745ffd80472
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221644"
+---
+# <a name="how-to-look-up-your-support-pin"></a><span data-ttu-id="bd98e-103">Cómo buscar su PIN de soporte técnico</span><span class="sxs-lookup"><span data-stu-id="bd98e-103">How to look up your support PIN</span></span>
+
+<span data-ttu-id="bd98e-104">Para buscar su PIN de soporte técnico, que permite al servicio de asistencia al cliente de Microsoft por teléfono, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="bd98e-104">To look up your support PIN, which enables Microsoft Customer Support through the telephone, please follow these steps:</span></span> 
+
+1. <span data-ttu-id="bd98e-105">Inicie sesión en el [centro de administración de Office](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage).</span><span class="sxs-lookup"><span data-stu-id="bd98e-105">Log in to the [Office Admin Center](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage).</span></span> 
+
+2. <span data-ttu-id="bd98e-106">Haz clic en el icono de engranaje.</span><span class="sxs-lookup"><span data-stu-id="bd98e-106">Click on the gear icon.</span></span>
+
+3. <span data-ttu-id="bd98e-107">El PIN de soporte aparecerá en el panel inferior derecho.</span><span class="sxs-lookup"><span data-stu-id="bd98e-107">Your support PIN will be displayed in the lower right pane.</span></span> <span data-ttu-id="bd98e-108">También puede volver a generar su PIN si es necesario.</span><span class="sxs-lookup"><span data-stu-id="bd98e-108">You may also choose to re-generate your PIN if needed.</span></span>  
+
+   ![Diagrama que muestra el PIN de soporte](media/support-pin.png)
+
+
+
+
+
+
