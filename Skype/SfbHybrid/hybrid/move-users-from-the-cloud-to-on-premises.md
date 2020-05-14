@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Obtenga información sobre cómo mover usuarios de Skype empresarial online a local.
-ms.openlocfilehash: 0add74a2480f4caed493e6e448427aa2462db714
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 64a5561fda35669be6ce7718c3ec037dcb8b9264
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779676"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221340"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Mover usuarios de la nube a local 
 
@@ -49,16 +49,16 @@ Una vez que se mueve a un usuario de la nube de nuevo a local:
 
 ### <a name="move-users-with-move-csuser"></a>Mover usuarios con Move-CsUser
 
-Move-CsUser está disponible en una ventana local de PowerShell del shell de administración de Skype empresarial. Debe tener privilegios suficientes tanto en el entorno local como en la organización de Office 365, tal y como se describe en [credenciales administrativas necesarias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Puede usar una sola cuenta que tenga privilegios en ambos entornos, o puede iniciar una ventana del shell de administración local de Skype empresarial Server con credenciales locales y usar el `-Credential` parámetro para especificar las credenciales de una cuenta de Office 365 con el rol administrativo de Office 365 necesario.
+Move-CsUser está disponible en una ventana local de PowerShell del shell de administración de Skype empresarial. Debe tener privilegios suficientes tanto en el entorno local como en la organización de servicios en la nube (Microsoft 365 u Office 365), como se describe en [credenciales administrativas necesarias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Puede usar una sola cuenta que tenga privilegios en ambos entornos, o puede iniciar una ventana del shell de administración local de Skype empresarial Server con credenciales locales y usar el `-Credential` parámetro para especificar las credenciales de una cuenta de Microsoft 365 u Office 365 con el rol administrativo necesario.
 
 Para mover un usuario a local mediante Move-CsUser:
 
 - Especifique el usuario que se va a mover mediante el parámetro Identity.
 - Especifique el parámetro-Target con el nombre de dominio completo del grupo de servidores local deseado en el que se va a hospedar al usuario.
-- Si no tiene una cuenta con permisos suficientes tanto en local como en Office 365, use el parámetro-credential para proporcionar una cuenta con permisos suficientes en Office 365.
-- Si la cuenta con permisos en Office 365 no termina en "on.microsoft.com", debe especificar el parámetro-HostedMigrationOverrideUrl, con el valor correcto tal como se describe en [required Administrative Credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
+- Si no tiene una cuenta con permisos suficientes en el entorno local y en el servicio en la nube (Microsoft 365 u Office 365), use el parámetro-credential para proporcionar una cuenta con permisos suficientes en Microsoft 365 u Office 365.
+- Si la cuenta con permisos en Microsoft 365 o Office 365 no termina en "on.microsoft.com", debe especificar el parámetro-HostedMigrationOverrideUrl, con el valor correcto tal como se describe en [las credenciales administrativas necesarias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
-La siguiente secuencia de cmdlet puede usarse para mover un usuario a Skype empresarial Server y se supone que la credencial Office 365 es una cuenta independiente y se proporciona como entrada para el mensaje Get-Credential.
+La siguiente secuencia de cmdlet puede usarse para mover un usuario a Skype empresarial Server y se supone que la credencial Microsoft 365 u Office 365 es una cuenta independiente y se proporciona como entrada para el mensaje Get-Credential.
 
 ```PowerShell
 $cred=Get-Credential
@@ -73,7 +73,7 @@ Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Creden
 3. Use **Buscar** para localizar al usuario o usuarios a los que desea retroceder en el entorno local.
 4. Seleccione los usuarios y, a continuación, en la lista desplegable **acción** situada encima de la lista, elija **mover usuarios seleccionados a local**.
 5. En el asistente, seleccione el grupo de usuarios que va a hospedar al usuario y haga clic en **siguiente**.
-6. Si se le solicita, inicie sesión en Office 365, con una cuenta que acabe en. onmicrosoft.com y que tenga permisos suficientes.
+6. Si se le solicita, inicie sesión en Microsoft 365 o en Office 365 con una cuenta que acabe en. onmicrosoft.com y que tenga permisos suficientes.
 7. Haga clic en **siguiente**y, **a continuación, otra vez** más para mover al usuario.
 8. Tenga en cuenta que los mensajes de estado sobre aciertos o errores se proporcionan en la parte superior de la aplicación del panel de control principal, no en el asistente.
 
@@ -88,6 +88,6 @@ Para quitar la asignación del usuario de TeamsUpgradePolicy, ejecute el siguien
 Como alternativa, para asignar otra instancia de TeamsUpgradePolicy que no tiene Mode = TeamsOnly, puede especificar el nombre de la instancia deseada como el valor del parámetro PolicyName en el cmdlet. Para ver una lista de las instancias de TeamsUpgradePolicy disponibles, ejecute Get-CsTeamsUpgradePolicy.
 
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)

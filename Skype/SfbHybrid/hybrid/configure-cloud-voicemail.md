@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instrucciones para implementar el correo de voz basado en la nube para los usuarios alojados en Skype empresarial Server.
-ms.openlocfilehash: 4542207beb3ccd090c1215a8832f53b3ab08ed97
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: 8284ee3d06574f3d5772b929fcae8363f399acb8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288718"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221464"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurar el servicio de correo de voz en la nube para los usuarios locales
 
@@ -84,7 +84,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
 - **Organization** es el dominio predeterminado asignado a su inquilino. Puede recuperar esta información haciendo que el administrador del espacio empresarial inicie sesión en office.com, haga clic en la aplicación del centro de administración, desplácese hasta **configuración** en el lado izquierdo y haga clic en **dominios**. Por ejemplo: mytenant.onmicrosoft.com.
 
-    El nombre de la organización también es el nombre de dominio predeterminado en Office 365.
+    El nombre de la organización también es el nombre de dominio predeterminado en Microsoft 365 u Office 365.
 
 Para asegurarse de que una directiva de correo de voz hospedado se haya creado correctamente, ejecute el siguiente comando:
 
@@ -100,7 +100,7 @@ Por ejemplo, el siguiente comando asigna una directiva de correo de voz hospedad
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
 ```
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>Habilitar a un usuario para el correo de voz de la nube

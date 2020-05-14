@@ -13,16 +13,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configure una cuenta de recursos para Skype empresarial Server 2019.
-ms.openlocfilehash: 0d7e52892c718f215a269201b73a547a97c13f96
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: b5397a1d179ade5e9d70d6c9cf857bae9319d155
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042847"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221140"
 ---
 # <a name="configure-resource-accounts"></a>Configurar cuentas de recursos
 
-Las implementaciones híbridas de Skype empresarial Server 2019 solo usan los servicios en la nube proporcionados por el sistema telefónico para la mensajería unificada y no se integran con Exchange Online. En Skype empresarial Server 2019, ahora puede usar las colas de llamadas en la nube y los operadores automáticos que se describen en [esto es lo que obtiene con el sistema telefónico en Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
+Las implementaciones híbridas de Skype empresarial Server 2019 solo usan los servicios en la nube proporcionados por el sistema telefónico para la mensajería unificada y no se integran con Exchange Online. En Skype empresarial Server 2019, ahora puede usar las colas de llamadas en la nube y los operadores automáticos que se describen en [esto es lo que obtiene con el sistema telefónico en Microsoft 365 u Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
 Para usar un operador automático de sistema telefónico o una cola de llamadas con Skype empresarial Server 2019, tendrá que crear cuentas de recursos que actúen como extremos de aplicación y a los que se les puedan asignar números de teléfono y, a continuación, usar el centro de administración de Microsoft Teams para configurar la cola de llamadas o el operador automático. Esta cuenta de recursos se puede hospedar en línea (consulte [administrar cuentas de recursos en Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) para crear cuentas de recursos hospedadas en línea) o en locales, tal como se describe en este artículo. Normalmente, tendrá varios operadores automáticos de sistema telefónico o de cola de llamadas, cada uno de los cuales se asigna a una cuenta de recursos, que se puede hospedar en línea o en Skype empresarial Server 2019.
 
@@ -43,7 +43,7 @@ Si el operador automático del sistema telefónico o la cola de llamadas van a n
 
 Si el operador automático o la cola de llamadas están anidados bajo un operador automático de nivel superior, la cuenta de recurso asociada solo necesita un número de teléfono si desea tener varios puntos de entrada en la estructura de los operadores automáticos y las colas de llamadas.
 
-Para redirigir las llamadas a los usuarios de su organización que estén hospedados en línea, deben tener una licencia de **sistema telefónico** y estar habilitados para telefonía IP empresarial o tener planes de llamadas de Office 365. Consulte [asignar licencias de complementos de Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses). Para habilitarlos para telefonía IP empresarial, puede usar Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Para redirigir las llamadas a los usuarios de su organización que estén hospedados en línea, deben tener una licencia de **sistema telefónico** y estar habilitados para telefonía IP empresarial o tener planes de llamadas de Microsoft 365 o Office 365. Consulte [asignar licencias de Microsoft Teams](/MicrosoftTeams/assign-teams-licenses). Para habilitarlos para telefonía IP empresarial, puede usar Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 Si el operador automático del sistema telefónico o la cola de llamadas que está creando estarán anidados y no necesitará un número de teléfono, el proceso es:
 
@@ -58,7 +58,7 @@ La creación de una cuenta de recursos que use un número de teléfono requerir�
 
 1. Puerto u obtenga un número de servicio de pago o gratuito. El número no se puede asignar a otros servicios de voz o cuentas de recursos.
 
-   Antes de asignar un número de teléfono a una cuenta de recursos, tendrá que obtener o migrar los números de servicio de pago o gratuitos existentes. Una vez que obtenga los números de teléfono de servicio de pago o gratuitos, se mostrarán en**los números de teléfono****de telefonía del** > centro > de **Administración de Microsoft Teams**, y el **tipo de número** que aparezca en la lista aparecerá como **servicio-** gratuito. Para obtener los números de servicio, consulte [obtener números de teléfono de servicio](/MicrosoftTeams/getting-service-phone-numbers) o, si desea transferir un número de servicio existente, consulte [transferir números de teléfono a Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
+   Antes de asignar un número de teléfono a una cuenta de recursos, tendrá que obtener o migrar los números de servicio de pago o gratuitos existentes. Una vez que obtenga los números de teléfono de servicio de pago o gratuitos, se mostrarán en los números de teléfono de telefonía del **centro de administración de Microsoft Teams**  >  **Voice**  >  **Phone numbers**, y el **tipo de número** que aparezca en la lista aparecerá como **servicio-** gratuito. Para obtener los números de servicio, consulte [obtener números de teléfono de servicio](/MicrosoftTeams/getting-service-phone-numbers) o, si desea transferir un número de servicio existente, consulte [transferir números de teléfono a Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 
    Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener los números de servicio. Vaya a [administrar los números de teléfono de su organización](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) en lugar de ver cómo hacerlo desde fuera de los Estados Unidos.
 
@@ -209,4 +209,4 @@ La migración de la mensajería unificada de Exchange al sistema telefónico nec
 
 [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
 
-[Administrar cuentas de recursos en Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) - \(para crear cuentas de recursos alojadas en línea\)
+[Administrar cuentas de recursos en Microsoft Teams](/MicrosoftTeams/manage-resource-accounts)  -  \( para crear cuentas de recursos en línea\)

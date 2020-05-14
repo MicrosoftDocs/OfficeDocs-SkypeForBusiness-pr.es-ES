@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Después de implementar uno o varios servidores Edge, debe habilitar los tipos de acceso externo que se permitirán en la organización.
-ms.openlocfilehash: e4405585da71dc48f5fa1790f83938a814270d84
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
-ms.translationtype: HT
+ms.openlocfilehash: e3feecfffa591df5433ce45526ec236ca6ef8b42
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818281"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221664"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>Administración de la directiva de acceso externo a la organización
 
@@ -41,7 +41,7 @@ De forma predeterminada, no hay ninguna directiva configurada para admitir el ac
 
 Entre estas opciones se incluyen los siguientes tipos de acceso externo:
 
-  - **Habilitar comunicaciones con usuarios federados**   habilite esta opción si quiere admitir el acceso de usuarios a los dominios de asociados federados. Este parámetro configura la capacidad de los usuarios de comunicarse con otros dominios SIP federados, así como con proveedores alojados como Microsoft Office 365. 
+  - **Habilitar comunicaciones con usuarios federados**   habilite esta opción si quiere admitir el acceso de usuarios a los dominios de asociados federados. Esta opción configura la posibilidad de que los usuarios se comuniquen con otros dominios federados SIP, así como con proveedores hospedados como Microsoft 365 u Office 365. 
 
 
   - **Habilitar comunicaciones con usuarios remotos**   Habilite esta opción si quiere que los usuarios de su organización que queden fuera del firewall, como teletrabajadores y usuarios que estén de viaje, se puedan conectar a Skype Empresarial Server en Internet.

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar el conector de Power BI para usar plantillas de consulta de CQD
-ms.openlocfilehash: e461a145280e6edf8c2039dbea55b5547dd5596e
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: c9e644d9b21a21a9e87c9a51440610f1b4a15c6d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158987"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219840"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar el conector de Power BI para usar plantillas de consulta de CQD
 
@@ -34,11 +34,11 @@ Asegúrese de tener el rol de [acceso de CQD](https://docs.microsoft.com/microso
 
 El proceso de instalación de un conector personalizado y de ajuste de la seguridad para habilitar el uso del conector se describe detalladamente en la [documentación de Power BI](https://docs.microsoft.com/power-bi/desktop-connector-extensibility). Por razones de simplicidad, aquí tiene una explicación rápida:
 
-1.  Compruebe si su equipo ya tiene una carpeta de * \[conectores\]\\\\* personalizados de Power BI Desktop de los documentos. En caso contrario, cree esta carpeta. <sup>1</sup>
+1.  Compruebe si su equipo ya tiene una carpeta de * \[ \] \\ \\ conectores personalizados de Power BI Desktop*de los documentos   . En caso contrario, cree esta carpeta. <sup>1</sup>
 
-2.  Descargue el archivo de conector (o un * \*archivo. MEZ* o * \*. PQx* ) y colóquelo en el directorio de *conectores personalizados* .
+2.  Descargue el archivo de conector (o un archivo * \* . MEZ* o * \* . PQx* ) y colóquelo en el directorio de *conectores personalizados* .
 
-3.  **Si el archivo del conector es * \*un archivo. MEZ* ,** también tendrá que ajustar la configuración de seguridad tal como se describe en la [documentación de configuración del conector personalizado](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security).
+3.  **Si el archivo del conector es un archivo * \* . MEZ* ,** también tendrá que ajustar la configuración de seguridad tal como se describe en la [documentación de configuración del conector personalizado](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security).
 
 Si se lanza una nueva versión de este conector de Power BI para Microsoft Teams, simplemente reemplace el archivo del conector antiguo en el directorio de *conectores personalizados* con el nuevo archivo.
 
@@ -150,7 +150,7 @@ Si encuentra errores adicionales fuera de este ámbito, notifíquelo al equipo d
 
 ## <a name="footnotes"></a>Notas al pie
 
-**<sup>1</sup>** algunos procesos y aplicaciones (por ejemplo, OneDrive) pueden hacer que cambie la carpeta raíz de documentos; Asegúrese de que el directorio de los *conectores personalizados de Power BI Desktop\\* se coloca dentro de la carpeta raíz de documentos de la carpeta raíz.
+**<sup>1</sup>** algunos procesos y aplicaciones (por ejemplo, OneDrive) pueden hacer que cambie la carpeta raíz de documentos; Asegúrese de que el directorio de los * \\ conectores personalizados de Power BI Desktop* se coloca dentro de la carpeta raíz de documentos de la carpeta raíz.
 
 **<sup>2</sup>** las credenciales de inicio de sesión que usa para el CQD *no* necesitan ser las mismas que usas para iniciar sesión en la aplicación de escritorio de Power BI en sí.
 
@@ -160,7 +160,7 @@ Si encuentra errores adicionales fuera de este ámbito, notifíquelo al equipo d
 
 A pesar de la etiqueta beta, el conector de calidad de la llamada para Power BI es la versión de lanzamiento del conector y ha sido oficialmente firmado por el equipo de Power BI para reflejarlo. El proceso de certificación para quitar esa etiqueta beta es muy amplio y requiere un compromiso del equipo de Power BI para ofrecer también compatibilidad directa con el conector. Debido a restricciones de tiempo, el equipo de Power BI actualmente no puede proporcionar ese soporte ni certificación más amplia, pero todavía está preparado para atestiguar la seguridad, la autenticidad y la funcionalidad general del conector de calidad de llamadas de Microsoft.
 
-### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-browser-what-can-i-do-to-improve-performance"></a>¿Por qué el conector parece tan lento comparado con el CQD avanzado en el explorador? ¿Qué puedo hacer para mejorar el rendimiento?
+### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>¿Por qué el conector parece tan lento comparado con el CQD avanzado en el explorador? ¿Qué puedo hacer para mejorar el rendimiento?
 
 El rendimiento de las consultas para las distintas plantillas es realmente el mismo en el explorador y en el conector. La diferencia viene en el número de consultas simultáneas que se están ejecutando. Debido a que la versión en el explorador de CQD tenía opciones de visualización con menos desarrollo y densidad de información, la mayoría de los informes se limitaban a cargar las consultas de 2-3 a la vez. Por otro lado, las plantillas de conector a menudo muestran 20 + consultas simultáneas. Si desea crear informes que sean tan receptivos como los más antiguos, pruebe a crear informes que no contengan más de 2-3 consultas por pestaña.
 
@@ -169,6 +169,8 @@ El rendimiento de las consultas para las distintas plantillas es realmente el mi
 El límite de la 10.000 se especifica realmente en el extremo de la API, y está diseñado para ayudar a mejorar significativamente el rendimiento y reducir el riesgo de errores de ejecución de consultas producidos por condiciones de memoria insuficiente.
 
 En lugar de intentar aumentar el recuento de filas de resultados, es mejor reestructurar los informes de acuerdo con los procedimientos recomendados de conector. Las plantillas que hemos incluido están diseñadas para demostrar estos procedimientos recomendados. Siempre que sea posible, empiece por mirar sus KPI con dimensiones más amplias y menos cardinales, como mes, año, fecha, región, país, etc. Desde allí, puede profundizar en las dimensiones de cardinalidad cada vez más altas. Los informes de asistencia y ubicación mejorada proporcionan buenos ejemplos de este flujo de trabajo detallado.
+
+
 
 ## <a name="related-topics"></a>Temas relacionados
 

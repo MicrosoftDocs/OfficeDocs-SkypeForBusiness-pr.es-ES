@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: En las secciones siguientes se proporcionan instrucciones sobre cómo configurar un entorno con varios bosques en un modelo de bosque de recursos y usuarios para proporcionar funcionalidad de Skype empresarial en un escenario híbrido.
-ms.openlocfilehash: acfca3b29407b019b87f5429906dbc72b4ef7dc3
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: cf3a162001756661afd0f204e9968713d9db0f5b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918689"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221484"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Implementación del recurso de topología entre bosques
  
@@ -35,7 +35,7 @@ En las secciones siguientes se proporcionan instrucciones sobre cómo configurar
 
 Se admiten varios bosques de usuarios. Tenga en cuenta lo siguiente: 
     
-- Para las versiones compatibles de Lync Server y Skype empresarial Server en una configuración híbrida, vea [requisitos](plan-hybrid-connectivity.md#server-version-requirements) de la versión del servidor en [plan Hybrid Connectivity between Skype for Business server y Office 365](plan-hybrid-connectivity.md).
+- Para las versiones compatibles de Lync Server y Skype empresarial Server en una configuración híbrida, vea [requisitos](plan-hybrid-connectivity.md#server-version-requirements) de la versión del servidor en [plan Hybrid Connectivity between Skype for Business server y Microsoft 365 u Office 365](plan-hybrid-connectivity.md).
     
 - Exchange Server se puede implementar en uno o más bosques, que pueden o no incluir el bosque que contiene Skype empresarial Server. Asegúrese de que ha aplicado la actualización acumulativa más reciente.
     
@@ -73,9 +73,9 @@ No sincronice los UPN entre los bosques. Encontramos durante las pruebas que nec
     
 - Si el UPN único de cada bosque de usuarios se ha sincronizado con el objeto deshabilitado asociado en el bosque de recursos, se producirá un error en la autenticación de AD FS. La regla de coincidencia encontraría el UPN en el objeto en el bosque de recursos, que se ha deshabilitado y no se ha podido usar para la autenticación. 
     
-## <a name="create-an-office-365-organization"></a>Creación de una organización de Office 365
+## <a name="create-a-microsoft-365-or-office-365-organization"></a>Crear una organización de Microsoft 365 u Office 365
 
-A continuación, deberá aprovisionar una organización de Office 365 para usarla con la implementación de. Para obtener más información, vea [suscripciones, licencias, cuentas e inquilinos para las ofertas de la nube de Microsoft](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
+A continuación, deberá aprovisionar una organización de Microsoft 365 u Office 365 para usarla con la implementación de. Para obtener más información, vea [suscripciones, licencias, cuentas e inquilinos para las ofertas de la nube de Microsoft](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
 ## <a name="configure-active-directory-federation-services"></a>Configurar los servicios de Federación de Active Directory
 
@@ -91,9 +91,9 @@ A menos que use un SIP/SMTP/UPN único para los usuarios de cada bosque, aún pu
     
 Al colocar una granja de AD FS en cada bosque de usuarios y usar un SIP/SMTP/UPN único para cada bosque, se resuelven ambos problemas. Durante los intentos de autenticación, se buscarán y coincidirán solo las cuentas de ese bosque de usuarios específico. Esto le ayudará a proporcionar un proceso de autenticación más transparente. 
   
-Se trata de una implementación estándar de AD FS de Windows Server 2012 R2 y debe estar funcionando antes de continuar. Para obtener instrucciones, consulte [How to Install AD FS 2012 R2 for Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
+Se trata de una implementación estándar de AD FS de Windows Server 2012 R2 y debe estar funcionando antes de continuar. Para obtener instrucciones, consulte [How to Install AD FS 2012 R2 for Microsoft 365 or Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
   
-Una vez implementado, tendrá que editar la regla de notificaciones para que se corresponda con el delimitador de origen seleccionado anteriormente. En la consola MMC de AD FS, en relaciones de confianza para usuarios autenticados, haga clic con el botón secundario en **Microsoft Office 365 Identity Platform**y, a continuación, haga clic en **editar reglas de notificación**. Edite la primera regla y cambie ObjectSID a **employeeNumber**. 
+Una vez implementado, tendrá que editar la regla de notificaciones para que se corresponda con el delimitador de origen seleccionado anteriormente. En la consola MMC de AD FS, en relaciones de confianza para usuarios autenticados, haga clic con el botón secundario en **plataforma de identidad de microsoft 365** o en **plataforma de identidad de Microsoft Office 365**y, a continuación, seleccione **editar reglas de notificación**. Edite la primera regla y cambie ObjectSID a **employeeNumber**. 
   
 ![Pantalla de edición de reglas de varios bosques](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
@@ -107,9 +107,9 @@ Cuando termine y la conexión de AAD se esté combinando, si observa un objeto e
   
 ![Pantalla de objeto de metaverso de varios bosques](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
-Los atributos resaltados verdes se combinaron desde Office 365, el amarillo son del bosque de usuarios y el azul procede del bosque de recursos. 
+Los atributos resaltados verdes se combinaron con Microsoft 365 u Office 365, el amarillo son del bosque de usuarios y el azul procede del bosque de recursos. 
   
-Este es un usuario de prueba y puede ver que AAD Connect ha identificado la sourceAnchor y cloudSourceAnchor del usuario y los objetos de bosque de recursos de Office 365, en nuestro caso 1101, que es la employeeNumber seleccionada anteriormente. A continuación, pudo combinar este objeto en lo que se ve más arriba. 
+Este es un usuario de prueba y puede ver que AAD Connect ha identificado la sourceAnchor y la cloudSourceAnchor del usuario y los objetos de bosque de recursos de Microsoft 365 u Office 365, en nuestro caso 1101, que es la employeeNumber seleccionada anteriormente. A continuación, pudo combinar este objeto en lo que se ve más arriba. 
   
 Para obtener más información, consulte [integrar los directorios locales con Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). 
   

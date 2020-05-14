@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Lea este tema para obtener información sobre el aprovisionamiento de cuentas del sistema de salas de Skype en Microsoft 365 u Office 365.
-ms.openlocfilehash: e2796d9a81f918c0503382e23aad5ead711240e7
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: dd79081c690863a5851295ab48a950b3f7af66af
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779716"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221854"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Aprovisionamiento de cuentas del sistema de salas de Skype en Microsoft 365 y Office 365
  
-Lea este tema para obtener información sobre el aprovisionamiento de cuentas del sistema de salas de Skype en Office 365.
+Lea este tema para obtener información sobre el aprovisionamiento de cuentas del sistema de salas de Skype en Microsoft 365 u Office 365.
   
-En la siguiente sección se describe el aprovisionamiento de cuentas de sistemas de salas de Skype para una organización de Office 365.
+En la siguiente sección se describe el aprovisionamiento de cuentas de sistemas de salas de Skype.
   
 ## <a name="microsoft-365-and-office-365-prerequisites"></a>Requisitos previos de Microsoft 365 y Office 365
 
@@ -41,7 +41,7 @@ El inquilino en línea debe cumplir los siguientes requisitos:
     
   - Acceso remoto a PowerShell de Skype empresarial online
     
-  - Módulo Windows Azure Active Directory para Windows PowerShell para obtener acceso al directorio de Office 365
+  - Módulo Windows Azure Active Directory para Windows PowerShell para obtener acceso al directorio de Microsoft 365 u Office 365
     
 Para la cuenta de sala de Skype, se necesita la siguiente licencia:
   
@@ -55,9 +55,9 @@ Para la cuenta de sala de Skype, se necesita la siguiente licencia:
     
 ## <a name="provisioning-overview"></a>Información general sobre el aprovisionamiento
 
-En el siguiente diagrama se proporciona información general sobre el flujo de aprovisionamiento de cuentas del sistema de salas de Skype en Office 365.
+El siguiente diagrama ofrece una descripción general del flujo de aprovisionamiento de cuentas del sistema de salas de Skype.
   
-![Pasos de aprovisionamiento del sistema de salas de Skype para O365](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Pasos de aprovisionamiento del sistema de salas de Skype](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>Identificar una nueva sala de conferencias
 
@@ -93,7 +93,7 @@ Después de crear el buzón, puede usar el cmdlet Set-CalendarProcessing en Exch
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>Asignar una licencia de Skype empresarial online
 
-Ahora puede asignar una licencia de Skype empresarial online (plan 2) o Skype empresarial online (Plan 3) mediante el portal administrativo de Office 365, tal como se describe en [asignar o quitar licencias para office 365 para empresas](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) o en [licencias complementarias de Skype](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)empresarial. 
+Ahora puede asignar una licencia de Skype empresarial online (plan 2) o Skype empresarial online (Plan 3) mediante el portal administrativo de Microsoft 365, tal como se describe en [asignar o quitar licencias para Microsoft 365 para empresas](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) o en [licencias complementarias de Skype empresarial](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
   
 Después de asignar una licencia para Skype empresarial online, podrá iniciar sesión y validar que la cuenta está activa mediante cualquier cliente de Skype empresarial.
   
@@ -126,7 +126,7 @@ Una vez que se haya creado y habilitado una cuenta de buzón de sala de recursos
 
 ## <a name="password-expiration"></a>Expiración de contraseña
 
-En Office 365, la Directiva de expiración de contraseña predeterminada para todas las cuentas de usuario es de 90 días a menos que configure una directiva de expiración de contraseña diferente. Para las cuentas del sistema de salas de Skype, puede seleccionar la opción la contraseña nunca expira con los siguientes pasos.
+En Microsoft 365 u Office 365, la Directiva de expiración de contraseña predeterminada para todas las cuentas de usuario es de 90 días, a menos que configure una directiva de expiración de contraseña diferente. Para las cuentas del sistema de salas de Skype, puede seleccionar la opción la contraseña nunca expira con los siguientes pasos.
   
 1. Cree una sesión de Windows Azure Active Directory con sus credenciales de administrador global de inquilinos.
     

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Obtenga información sobre cómo implementar un solo sitio RTC en Cloud Connector Edition.
-ms.openlocfilehash: cc508d21f9e39c215ce3c07403ab75e791e2414a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 334454645be3361794fdd0d16076095a518e58b0
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779356"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220540"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Implementar un solo sitio en Cloud Connector
  
@@ -55,7 +55,7 @@ Puede ampliar un sitio existente de Cloud Connector para que admita HA si agrega
   
 1. Siga los pasos para preparar el dispositivo de Cloud Connector como se describe en [preparar el dispositivo de Cloud Connector](prepare-your-cloud-connector-appliance.md). Tenga en cuenta que algunos pasos solo son necesarios para el primer dispositivo de la implementación. Confirme que el directorio de sitios existe y que está configurado correctamente para la compatibilidad con HA.
     
-2. Ejecute el siguiente cmdlet solo en el servidor host recién agregado para actualizar la información de topología en la configuración de la organización de Office 365. Si desea agregar varios dispositivos al mismo tiempo, ejecute el cmdlet en cada uno de los servidores host recién agregados uno por uno:
+2. Ejecute el siguiente cmdlet solo en el servidor host recién agregado para actualizar la información de topología en la configuración de la organización de Microsoft 365 o Office 365. Si desea agregar varios dispositivos al mismo tiempo, ejecute el cmdlet en cada uno de los servidores host recién agregados uno por uno:
     
    ```powershell
    Register-CcAppliance
@@ -80,7 +80,7 @@ Puede ampliar un sitio existente de Cloud Connector para que admita HA si agrega
 
 Si desea quitar un dispositivo de un sitio existente:
   
-1. Ejecute el siguiente cmdlet solo en los servidores host que desea quitar del sitio para actualizar la información de topología en la configuración de la organización de Office 365.
+1. Ejecute el siguiente cmdlet solo en los servidores host que desea quitar del sitio para actualizar la información de topología en la configuración de la organización de Microsoft 365 u Office 365.
     
    ```powershell
    Unregister-CcAppliance

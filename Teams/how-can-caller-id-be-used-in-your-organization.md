@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: La identificación de llamadas se puede controlar tanto para llamadas entrantes como salientes de usuarios del sistema telefónico mediante una directiva denominada CallingLineIdentity.
-ms.openlocfilehash: af578cf92f6c19e8ac612dfe8301914c9e55833b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2547e6ca3aed10d112897aa1b24900a479c5c8ef
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836312"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224213"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Cómo se puede usar la identificación de llamadas en su organización
 
@@ -46,7 +46,7 @@ La funcionalidad de identificación de llamadas está disponible para todos los 
   
 ## <a name="outbound-caller-id"></a>Identificación de llamadas de salida
 
-Hay tres opciones disponibles para la identificación de llamadas RTC de salida:
+Hay tres opciones disponibles para la identificación de llamadas RTC salientes:
   
 - El número de teléfono asignado al usuario, que es el predeterminado.
     
@@ -62,11 +62,11 @@ Sin embargo, no es posible asignar estos tipos de números de teléfono al ident
     
 Para establecer la identificación de llamadas de salida, consulte [Establecer el identificador de llamada de un usuario](/microsoftteams/set-the-caller-id-for-a-user).
   
-### <a name="end-user-control-of-outbound-caller-id"></a>Control de usuario final para la identificación de llamadas de salida
+### <a name="end-user-control-of-outbound-caller-id"></a>Control del usuario final de la identificación de llamadas salientes
 
-The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
+El atributo EnableUserOverride permite a los usuarios únicos o múltiples cambiar la configuración de identificación de llamadas a **anónimo**. Esto solo se aplica cuando una directiva de CallingLineIdentity está configurada con un parámetro CallingIDSubstitute de LineURI o sustituto. El valor predeterminado de EnableUserOverride es false.
   
-Los usuarios finales pueden establecer su identificador de llamada en **anónimo** mediante la pestaña **configuración** del cliente de escritorio de Skype empresarial, seleccionar **llamadas a un usuario final** (si lo habilita el administrador), seleccionar **ocultar mi número de teléfono y la información del perfil para todas las llamadas**.
+Los usuarios finales pueden establecer la identificación de llamadas en **anónimo** mediante la pestaña **configuración** del cliente de escritorio de Skype empresarial, seleccione **llamadas a un usuario final** (si lo habilita el administrador) y, a continuación, seleccione **ocultar mi número de teléfono y la información del perfil para todas las llamadas**. En Teams, los usuarios pueden ir a su imagen de perfil en la esquina superior derecha **Settings**, seleccionar  >  **llamadas**de configuración y, a continuación, en **identificación de llamadas**, seleccionar **ocultar mi número de teléfono y la información del perfil para todas las llamadas**.
   
 ||||
 |:-----|:-----|:-----|
@@ -77,7 +77,7 @@ Los usuarios finales pueden establecer su identificador de llamada en **anónimo
 |MSI  <br/> |Skype for Business  <br/> |No  <br/> |
 |Mac  <br/> |Skype Empresarial  <br/> |No  <br/> |
    
-## <a name="inbound-caller-id"></a>Identificación de llamadas de entrada
+## <a name="inbound-caller-id"></a>IDENTIFICACIÓN de llamadas entrantes
 
 El sistema telefónico mostrará el identificador denominado para un número de teléfono externo si el número está asociado con un usuario en Azure AD. Si el número de teléfono no está en Azure AD, se mostrará el nombre para mostrar proporcionado por Telco, si está disponible.
 

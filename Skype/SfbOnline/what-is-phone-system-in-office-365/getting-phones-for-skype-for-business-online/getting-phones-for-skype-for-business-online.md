@@ -22,25 +22,25 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre qué teléfonos funcionan con Skype for Business de Polycom, HP y Mitel, y las licencias necesarias. '
-ms.openlocfilehash: f779462ad6def85cee43139d450d19b5d70195a3
-ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
+ms.openlocfilehash: f51465cc86baa37e54acddf732cc5f63e6274aa1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784767"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220440"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obtener teléfonos para Skype for Business Online
 
 Skype for Business Online qualifies and supports desktop phones for users who want to have a traditional phone experience, rather than use the Skype for Business app. This topic covers the phones and firmware versions that are supported for use in Skype for Business Online and other information that can help you when you are setting up phones in your organization.
 
 > [!NOTE]
-> En Office 365, Skype empresarial será reemplazado lentamente por Microsoft Teams como método principal de comunicación.  Para obtener más información, vea [una nueva visión para las comunicaciones inteligentes en Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) .
+> Skype empresarial será reemplazado lentamente por Microsoft Teams como método principal de comunicación en Microsoft 365 y Office 365.  Para obtener más información, vea [una nueva visión para las comunicaciones inteligentes en Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) .
 >
 >Para obtener las actualizaciones más recientes y la información más actualizada sobre los dispositivos compatibles, consulte los [dispositivos de Microsoft Teams para las comunicaciones inteligentes](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
   
 ## <a name="supported-phones"></a>Teléfonos compatibles
   
-Microsoft se ha asociado y está trabajando estrechamente con Polycom, Yealink y AudioCodes para desarrollar y certificar una amplia variedad de dispositivos a través del programa de teléfono IP (PIP) del asociado para el sistema telefónico en Office 365 y Skype empresarial Server.
+Microsoft se ha asociado y está trabajando estrechamente con Polycom, Yealink y AudioCodes para desarrollar y certificar una amplia variedad de dispositivos a través del programa de teléfono IP (PIP) del socio para el sistema telefónico.
   
 Al solicitar nuevos teléfonos para Skype empresarial, es importante comprar teléfonos con el *identificador de producto correcto*. Estos identificadores de producto garantizan que los teléfonos que recibe tengan la versión certificada de Skype empresarial online ya instalada.
   
@@ -64,7 +64,7 @@ Para obtener más información sobre los teléfonos AudioCodes, consulte [teléf
   
 ## <a name="supported-firmware"></a>Firmware compatible
 
-Esta es la versión de software mínima necesaria para que los teléfonos compatibles funcionen con el Sistema telefónico de Office 365:
+Esta es la versión de software mínima requerida para que los teléfonos compatibles funcionen con el sistema telefónico:
   
 ||||
 |:-----|:-----|:-----|
@@ -102,15 +102,15 @@ Para obtener las características y capacidades completas del dispositivo, consu
 |Bloqueo de teléfono  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |
 |Actualización de dispositivo  <br/> |Sí  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |
 |Aprovisionamiento en banda  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |
-|QoE  <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |No  <br/> |
+|QoE  <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |
 |Carga de registros  <br/> <br/> **Nota:** Actualmente, todos los registros se cargan solo en el equipo de soporte técnico de Microsoft; el acceso a los registros telefónicos del cliente aún no está disponible.           |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |
-|Autenticación moderna  <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |No  <br/> |
+|Autenticación moderna  <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |
 |Varios números de emergencia  <br/> |Sí  <br/> |No  <br/> |No  <br/> |Sí  <br/> |
 |Integración con el calendario de Exchange*  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> <br/> **Nota:** Requiere tethering en el equipo           |
 |Integración de presencia  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |
 |Directorio corporativo  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |
 |Delegación  <br/> |Sí  <br/> |Sí   <br/> |Sí  <br/> |No  <br/> |
-|Integración de imagen de contacto  <br/> |No  <br/> |Sí  <br/> |No  <br/> |Sí  <br/> |
+|Integración de imagen de contacto  <br/> |No  <br/> |Sí  <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |Sí  <br/> |
 ||||||
 
      
@@ -123,7 +123,7 @@ Para obtener instrucciones detalladas, consulte [Implementación de teléfonos d
 ## <a name="related-topics"></a>Temas relacionados
 [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](../getting-service-phone-numbers.md)
 
-[Esto es lo obtiene con el Sistema telefónico de Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Esto es lo obtiene con el Sistema telefónico](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 

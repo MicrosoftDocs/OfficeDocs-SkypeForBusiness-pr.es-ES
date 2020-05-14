@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumen: Revise las consideraciones de uso del puerto antes de implementar Skype empresarial Server.'
-ms.openlocfilehash: 33199855d020af08e306022be47a0a9757125adb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 09b0d187195faa0aa4b5278456991d9223427f9d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42025791"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220390"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de puertos y protocolos para servidores
  
@@ -34,7 +34,7 @@ Aunque esto puede parecer un poco desalentadora al principio, el trabajo pesado 
   
 También puede encontrar la información de estas tablas en forma de diagrama revisando el póster de cargas de trabajo de protocolo vinculado desde el artículo [diagramas técnicos para Skype empresarial Server 2015](../../technical-diagrams.md) .
 > [!NOTE]
-> - Si va a implementar Skype empresarial online (O365), consulte [Office 365 URL e intervalos de direcciones IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Los entornos híbridos deberán hacer referencia a este tema y también [planear la conectividad híbrida](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
+> - Si va a implementar Skype empresarial online (Microsoft 365 o Office 365), consulte [direcciones URL e intervalos de direcciones IP de microsoft 365 y office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Los entornos híbridos deberán hacer referencia a este tema y también [planear la conectividad híbrida](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
 > - Puede tener firewalls de hardware o software, no se requieren modelos o versiones específicos. Lo que importa es qué puertos se incluyen en la lista blanca para que el Firewall no perjudique el funcionamiento de Skype empresarial Server.
   
 ## <a name="port-and-protocol-details"></a>Detalles de puerto y protocolo
@@ -107,7 +107,7 @@ En la tabla siguiente se enumeran los puertos que debe abrir en cada rol del ser
 |Servidor front-end de chat persistente  |Servicio de transferencia de archivos de chat persistente  |443  |TCP (TLS)  ||
    
 > [!NOTE]
-> Algunos escenarios de control remoto de llamadas requieren una conexión entre el servidor front-end o el director y la PBX. Aunque Skype empresarial Server ya no usa el puerto TCP 5060, durante la implementación de control remoto de llamadas, se crea una configuración de servidor de confianza, que asocia el FQDN del servidor de línea RCC con el puerto TCP que el director o el servidor front-end usará para conectarse al Sistema PBX. Para obtener más información, consulte el cmdlet **CsTrustedApplicationComputer** en la documentación del shell de administración de Skype empresarial Server.
+> Algunos escenarios de control remoto de llamadas requieren una conexión entre el servidor front-end o el director y la PBX. Aunque Skype empresarial Server ya no usa el puerto TCP 5060, durante la implementación de control remoto de llamadas, se crea una configuración de servidor de confianza, que asocia el FQDN del servidor de línea RCC con el puerto TCP que el servidor front-end o el director usará para conectarse al sistema PBX. Para obtener más información, consulte el cmdlet **CsTrustedApplicationComputer** en la documentación del shell de administración de Skype empresarial Server.
   
 Para los grupos de servidores que solo usan equilibrio de carga de hardware (no equilibrio de carga de DNS), en la siguiente tabla se muestran los puertos que necesitan para abrir los equilibradores de carga de hardware.
   
@@ -186,7 +186,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 |Servidor perimetral A/V interno entrante  |Cualquiera  |Servidor perimetral A/V interno  |UDP y TCP  |Cualquiera  |Cualquiera  |No autenticar  |
 |Servidor perimetral A/V externo entrante  |Cualquiera  |Servidor perimetral A/V externo  |UDP y TCP  |Cualquiera  |Cualquiera  |No autenticar  |
-|Servidor perimetral A/V interno saliente  |Servidor perimetral A/V interno  |Cualquiera  |TCP &amp; UDP  |Cualquiera  |Cualquiera  |No autenticar  |
+|Servidor perimetral A/V interno saliente  |Servidor perimetral A/V interno  |Cualquiera  |&amp;TCP UDP  |Cualquiera  |Cualquiera  |No autenticar  |
 |Servidor perimetral A/V externo saliente  |Servidor perimetral A/V externo  |Cualquiera  |UDP y TCP  |Cualquiera  |Cualquiera  |No autenticar  |
 |Servidor de mediación entrante  |Cualquiera  |Remedio  <br/> Servidor (es)  |UDP y TCP  |Cualquiera  |Cualquiera  |No autenticar  |
 |Servidor de mediación saliente  |Remedio  <br/> Servidor (es)  |Cualquiera  |UDP y TCP  |Cualquiera  |Cualquiera  |No autenticar  |

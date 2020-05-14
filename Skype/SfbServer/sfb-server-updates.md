@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Busque y administre actualizaciones de Skype empresarial Server 2015/2019 y Lync 2013 en un solo punto. Use los vínculos de esta página para obtener más información sobre las actualizaciones y, después, descárguelas.
-ms.openlocfilehash: f1644a96542ae6b7a1ee5842d640b1581d660cae
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 5530816da6ca5561439a8a6620cd132eeb86ab44
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928253"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220550"
 ---
 # <a name="skype-for-business-server-updates"></a>Actualizaciones de Skype Empresarial Server
 
 Busque y administre actualizaciones de [Skype empresarial server 2019](#skype-for-business-server-2019-update-history), [skype empresarial Server 2015](#skype-for-business-server-2015-update-history), [Lync server 2013](#lync-server-2013-update-history)y [Lync Server 2010](#lync-server-2010-update-history) en un solo punto. Use los vínculos de esta página para obtener más información sobre las actualizaciones y, después, descárguelas.
 
-Para obtener las actualizaciones más recientes de Skype empresarial online y Office 365, consulte el [mapa de ruta de Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=529454).
+Para obtener las actualizaciones más recientes de Skype empresarial online y Microsoft 365, consulte el [mapa de ruta de microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
 ## <a name="skype-for-business-server-2019-update-history"></a>Historial de actualizaciones de Skype empresarial Server 2019
 
@@ -67,7 +67,7 @@ KB 4470124 es el KB principal para Skype empresarial Server 2019, que tiene la l
 |Actualización acumulativa 4 para Skype empresarial Server 2015, servidor front-end y servidor perimetral |[KB 3199093](https://support.microsoft.com/kb/3199093) |Noviembre de 2017 |
 |Actualización acumulativa 3 para Skype empresarial Server 2015, servidor front-end y servidor perimetral |[KB 3149227](https://support.microsoft.com/kb/3149227) |Junio de 2016 |
 |Actualización acumulativa 2 para Skype empresarial Server 2015, servidor front-end y servidor perimetral |[KB 3134260](https://support.microsoft.com/kb/3134260) |Marzo de 2016 |
-|Actualización acumulativa 1 para Skype empresarial Server 2015, servidor front-end y servidor perimetral |[KB 3097645](https://support.microsoft.com/kb/3097645) |noviembre de 2015 |
+|Actualización acumulativa 1 para Skype empresarial Server 2015, servidor front-end y servidor perimetral |[KB 3097645](https://support.microsoft.com/kb/3097645) |Noviembre de 2015 |
 |Actualización acumulativa de Skype empresarial Server 2015, componentes principales |[KB 3098601](https://support.microsoft.com/kb/3098601) |Septiembre de 2015 |
 |Actualización acumulativa de Skype empresarial Server 2015, servidor front-end y servidor perimetral|[KB 3061059](https://support.microsoft.com/kb/3061059) |Junio de 2015 |
 ||||
@@ -95,7 +95,7 @@ KB 4470124 es el KB principal para Skype empresarial Server 2019, que tiene la l
 |Actualización acumulativa 8 Hotfix 4 de Lync Server 2013 |[KB 4014154](https://support.microsoft.com/kb/4014154) |Marzo de 2017 |
 |Actualización acumulativa 8 hotfix 3 de Lync Server 2013 |[KB 3210166](https://support.microsoft.com/kb/3210166) |Enero de 2017 |
 |Actualización acumulativa 8 Hotfix 2 de Lync Server 2013 |[KB 3212869](https://support.microsoft.com/kb/3212869) |Diciembre de 2016 |
-|Actualización acumulativa 8 Hotfix 1 de Lync Server 2013 |[KB 3200079](https://support.microsoft.com/kb/3200079) |noviembre de 2016 |
+|Actualización acumulativa 8 Hotfix 1 de Lync Server 2013 |[KB 3200079](https://support.microsoft.com/kb/3200079) |Noviembre de 2016 |
 |Actualización acumulativa 8 de Lync Server 2013 |[KB 3175336](https://support.microsoft.com/kb/3175336)|Agosto de 2016 |
 |Actualización acumulativa 7 de Lync Server 2013  |[KB 3140581](https://support.microsoft.com/kb/3140581)|Abril de 2016 |
 |Actualización acumulativa 6 Hotfix 2 de Lync Server 2013 |[KB 3175338](https://support.microsoft.com/kb/3175338)|Enero de 2016 |
@@ -131,7 +131,7 @@ KB 4470124 es el KB principal para Skype empresarial Server 2019, que tiene la l
 
 #### <a name="pre-configured-vhds"></a>VHD preconfigurados
 
-La topología completa consta de 7 máquinas virtuales que permiten evaluar completamente las API de la plataforma de desarrollador de Microsoft Lync 2013, Microsoft Exchange 2013, SharePoint 2013 y UC (incluido Microsoft Lync 2013 SDK, la API administrada de servicios Web de Exchange 2,0, Microsoft Lync Server 2013 SDK y API administrada de comunicaciones unificadas de Microsoft 4,0).
+La topología completa consta de 7 máquinas virtuales que permiten evaluar completamente las API de la plataforma para desarrolladores de Microsoft Lync 2013, Microsoft Exchange 2013, SharePoint 2013 y UC (incluido Microsoft Lync 2013 SDK, la API administrada de servicios Web de Exchange 2,0, el SDK de Microsoft Lync Server 2013 y la API administrada de comunicaciones unificadas de Microsoft).
 
 Nombre de paquete/vínculo|Fecha de lanzamiento|
 |:--- |:--- |
@@ -177,7 +177,7 @@ Nombre de paquete/vínculo|Fecha de lanzamiento|
 |Actualización acumulativa 17 de Lync Server 2010|[KB 3148801](https://support.microsoft.com/kb/3148801) |Abril de 2016 |
 |Actualización acumulativa 16 de Lync Server 2010|[KB 3057803](https://support.microsoft.com/kb/3057803) |Mayo de 2015 |
 |Actualización acumulativa 15 de Lync Server 2010 |[KB 3030726](https://support.microsoft.com/kb/3030726) |Febrero de 2015|
-|Actualización acumulativa 13 de Lync Server 2010|[KB 2982385](https://support.microsoft.com/kb/2982385) </br> [KB 2982388](https://support.microsoft.com/kb/2982388)|septiembre de 2014|
+|Actualización acumulativa 13 de Lync Server 2010|[KB 2982385](https://support.microsoft.com/kb/2982385) </br> [KB 2982388](https://support.microsoft.com/kb/2982388)|Septiembre de 2014|
 |Actualización acumulativa 12 de Lync Server 2010 |[KB 2957044](https://support.microsoft.com/kb/2957044) |Abril de 2014 |
 |Actualización acumulativa 11 de Lync Server 2010 |[KB 2909888](https://support.microsoft.com/kb/2909888) |2014 de enero|
 |Actualización acumulativa 10 de Lync Server 2010 |[KB 2889610](https://support.microsoft.com/kb/2889610) |Octubre de 2013|

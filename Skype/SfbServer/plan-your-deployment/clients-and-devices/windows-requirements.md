@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Resumen: Revise los requisitos de compatibilidad del cliente de Windows al planear Skype empresarial Server.'
-ms.openlocfilehash: 39f9efcd2008dacb653538b56f2aff3fcb8b7887
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 67208fc25344ff417094419f22068822e03b13db
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928243"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219830"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Requisitos del cliente de Windows y soporte técnico de software
  
 **Resumen:** Revise los requisitos de compatibilidad con el cliente de Windows al planear Skype empresarial Server.
   
-En esta sección se resume el software necesario para admitir los clientes Windows de Skype empresarial.  Estos clientes se instalan cuando se instala Office 365 y también están disponibles en [descargar Skype empresarial en todos los dispositivos](https://products.office.com/skype-for-business/download-app?tab=tabs-3).
+En esta sección se resume el software necesario para admitir los clientes Windows de Skype empresarial. Estos clientes se instalan cuando se instalan Microsoft 365 o Office 365, y también están disponibles en [descargar Skype empresarial en todos los dispositivos](https://products.office.com/skype-for-business/download-app?tab=tabs-3).
   
 > [!NOTE]
 > El complemento para reunión en línea de Skype empresarial, que admite la administración de reuniones desde dentro del cliente de colaboración y mensajería de Outlook, se instala automáticamente con Skype empresarial. 
@@ -45,7 +45,7 @@ En esta sección se resume el software necesario para admitir los clientes Windo
    
 ## <a name="hardware"></a>Hardware
 
-Consulte los [requisitos del sistema](https://products.office.com/office-system-requirements) de Office 365 para el hardware necesario para ejecutar el cliente de Skype empresarial.
+Consulte los requisitos de Microsoft 365 y Office [System](https://products.office.com/office-system-requirements) para el hardware necesario para ejecutar el cliente de Skype empresarial.
   
 ## <a name="skype-meetings-app-and-skype-for-business-web-app"></a>Aplicación de reuniones de Skype y aplicación Web de Skype empresarial 
 
@@ -81,4 +81,4 @@ A continuación se muestran los requisitos previos de Skype empresarial para Win
 
 [Descargar Skype empresarial en todos los dispositivos](https://products.office.com/skype-for-business/download-app?tab=tabs-3)
   
-[Requisitos del sistema para Office 365](https://products.office.com/office-system-requirements)
+[Requisitos de Microsoft 365 y Office System](https://products.office.com/office-system-requirements)

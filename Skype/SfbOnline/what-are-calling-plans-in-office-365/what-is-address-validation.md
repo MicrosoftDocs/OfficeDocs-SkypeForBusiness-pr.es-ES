@@ -20,16 +20,16 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidation
 description: 'Descubra qué es la validación de direcciones, por qué es importante y de qué forma está relacionada con los servicios y las direcciones de emergencia. '
-ms.openlocfilehash: 695698f8d1b6a466829174802f2ece0b92398f7e
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 9cde4246cf449e1259fb7b46264f20d65d3a7849
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769253"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220700"
 ---
 # <a name="what-is-address-validation"></a>¿Qué es la validación de direcciones?
 
-Cuando configura Planes de llamada en Office 365, tiene que asignar un número de teléfono y una dirección de emergencia a cada uno de los usuarios.
+Cuando configure planes de llamadas, tendrá que asignar un número de teléfono y una dirección de emergencia a cada uno de los usuarios.
   
 Para validar una dirección postal o civil es necesario comprobar que sea legítima y que tenga el formato correcto. Es posible que una dirección de emergencia parcialmente correcta, como un nombre escrito de la ciudad, pueda seguir pasando la validación. El proceso de validación usa todas las partes de una dirección específica para determinar si contiene suficiente información para redirigir la llamada al centro de emergencias apropiado. De ser así, cambiará a validada y después se asignará a un número de teléfono.
 

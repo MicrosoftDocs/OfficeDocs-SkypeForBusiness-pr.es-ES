@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: En este tema se describen las consideraciones de planeación para usar Skype empresarial mientras se conecta a un escritorio virtual remoto.
-ms.openlocfilehash: c2972e2b453b6cf5592ddc8b3b48dfceee9a4e35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6886eab8a13db852e0aa86b63d08aa33f82fdaed
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028001"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219530"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planeación de Skype empresarial en entornos de VDI
  
@@ -43,7 +43,7 @@ Hay tres soluciones disponibles para el componente de complemento VDI, ofrecidas
 ## <a name="citrix-hdx-realtime-optimization-pack"></a>Paquete de optimización en tiempo real de Citrix HDX
 <a name="Citrix_RT"> </a>
 
-El complemento de entorno de VDI de Citrix (una característica de XenApp y XenDesktop) es compatible con Lync 2013 y Skype empresarial 2015 y 2016 (clientes completos que usan cualquier clic para ejecutar el instalador o los instaladores de MSI publicados después de enero de 2017 PU) clientes instalados en un entorno virtual ordenadores. Su funcionamiento general se basa en el complemento Microsoft Lync VDI, pero funciona en una variedad más amplia de sistemas operativos cliente, incluidos Windows 10, Macintosh y Linux.
+El complemento de entorno de VDI de Citrix (una característica de XenApp y XenDesktop) es compatible con Lync 2013 y Skype empresarial 2015 y 2016 (clientes completos que usan los clientes de cualquier clic para ejecutar el instalador, o los instaladores de MSI publicados después de enero de 2017 PU), instalados en un escritorio virtual. Su funcionamiento general se basa en el complemento Microsoft Lync VDI, pero funciona en una variedad más amplia de sistemas operativos cliente, incluidos Windows 10, Macintosh y Linux.
   
 Puede encontrar una lista completa de las características y tecnologías admitidas en el sitio web de Citrix en [proporcionar Microsoft Skype empresarial a los usuarios de XenApp y XenDesktop](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf).
   
@@ -62,7 +62,7 @@ La solución de entorno de VMWare VDI es compatible con los clientes de Skype em
   
 Puede encontrar una descripción completa de las características y tecnologías compatibles en el sitio web de VMWare en los siguientes vínculos:
   
-- [What's New in VMware horizonte 7,4 &amp; cliente de horizonte de horizonte 4,7](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
+- [What's New in VMware horizonte 7,4 cliente de horizonte de horizonte &amp; 4,7](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
     
 - [Paquete de virtualización del horizonte para Skype empresarial](https://www.vmware.com/products/horizon/skype-for-business.mdl)
     
@@ -161,12 +161,12 @@ No se admiten estas características:
     
 - Tonos personalizados y características de música en espera.
     
-El complemento de VDI para Lync no es compatible con un entorno de Office 365.
+El complemento de VDI para Lync no es compatible con los entornos Microsoft 365 o Office 365.
   
 > [!NOTE]
-> El paquete de optimización en tiempo real de Citrix es compatible con Office 365. Para los entornos virtuales basados en Citrix, revise la documentación de [información general técnica](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) de Citrix para obtener una lista de las características y versiones compatibles.
+> El paquete de optimización en tiempo real de Citrix no es compatible con Microsoft 365 y Office 365. Para los entornos virtuales basados en Citrix, revise la documentación de [información general técnica](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) de Citrix para obtener una lista de las características y versiones compatibles.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="Citrix_RT"> </a>
 
 [Implementar el complemento Lync VDI con Skype empresarial Server](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)

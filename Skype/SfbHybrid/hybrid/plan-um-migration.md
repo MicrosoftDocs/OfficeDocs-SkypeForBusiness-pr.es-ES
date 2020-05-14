@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: Este tema cubre lo que debe tener en cuenta cuando decida migrar las implementaciones existentes de Skype empresarial Server o Exchange Server a la versión más reciente o a Skype empresarial online o Exchange Online.
-ms.openlocfilehash: ce2e0712c75e5aa052c7eff7667f09ff34c3908a
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+ms.openlocfilehash: fec12eb5b386222ad0a69115ca3fc9e2de9e2fea
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265615"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221270"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planeación de la migración de Skype empresarial Server y Exchange Server
 
@@ -33,7 +33,7 @@ La mensajería unificada (UM) está en desuso en Exchange 2019. Esto significa q
 - Correo de voz
 - Operador automático
 
-Si ha implementado el rol de mensajería unificada en Exchange 2013 o el servicio de mensajería unificada en Exchange 2016 y desea actualizar a Exchange 2019, deberá migrar el correo de voz al servicio de correo de voz en la nube de Microsoft en Office 365. Si desea migrar el correo de voz al correo de voz de la nube, eche un vistazo a la sección [2015 de Exchange 2013/exchange 2016 y Skype empresarial a exchange 2019 y Skype empresarial 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) a continuación.
+Si ha implementado el rol de mensajería unificada en Exchange 2013 o el servicio de mensajería unificada en Exchange 2016 y desea actualizar a Exchange 2019, deberá migrar el correo de voz al servicio de correo de voz en la nube de Microsoft en Microsoft 365 u Office 365. Si desea migrar el correo de voz al correo de voz de la nube, eche un vistazo a la sección [2015 de Exchange 2013/exchange 2016 y Skype empresarial a exchange 2019 y Skype empresarial 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) a continuación.
 > [!IMPORTANT]
 > Si los usuarios de los servidores Exchange 2013 o Exchange 2016 tienen buzones habilitados para mensajería unificada, no los mueva a Exchange 2019 antes de actualizar los servidores de Skype empresarial a Skype empresarial Server 2019 y mover a los usuarios a ellos para evitar una interrupción de la mensajería de voz.
 
@@ -55,13 +55,13 @@ Se admiten los siguientes escenarios que le permitirán migrar usuarios a Exchan
 - Exchange 2013/Exchange 2016 y Skype empresarial Server 2015 a Exchange 2019 y Skype empresarial Server 2019
 - Skype empresarial Server 2015 a Skype empresarial Server 2019 con Exchange 2013/Exchange 2016
 
-Los siguientes escenarios requieren que no exista ninguna configuración de PBX o SBC como parte de la implementación actual y asuma que la mensajería unificada está configurada en los servidores de Exchange locales. Cada una de estas soluciones también presupone que ha decidido configurar una implementación híbrida entre sus servidores locales de Skype empresarial y Office 365. Para obtener más información acerca de las implementaciones híbridas de Skype empresarial, consulte [plan Hybrid Connectivity](plan-hybrid-connectivity.md).
+Los siguientes escenarios requieren que no exista ninguna configuración de PBX o SBC como parte de la implementación actual y asuma que la mensajería unificada está configurada en los servidores de Exchange locales. Cada una de estas soluciones también presupone que ha decidido configurar una implementación híbrida entre sus servidores locales de Skype empresarial y Microsoft 365 u Office 365. Para obtener más información acerca de las implementaciones híbridas de Skype empresarial, consulte [plan Hybrid Connectivity](plan-hybrid-connectivity.md).
 
 ### <a name="exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019"></a>Exchange 2013/Exchange 2016 y Skype empresarial 2015 a Exchange 2019 y Skype empresarial 2019
 
 En este escenario, desea migrar los servidores Exchange 2013, Exchange 2016 y Skype empresarial 2015 existentes a Exchange 2019 y Skype empresarial 2019.
 
-Como se mencionó anteriormente en este tema, Exchange 2019 ya no incluye el servicio de mensajería unificada. Esto significa que, para los buzones que desee mover a Exchange 2019, debe usar el correo de voz de nube para reemplazar la funcionalidad proporcionada por el servicio de mensajería unificada. Cuando configure Skype empresarial Server 2019 y una implementación híbrida entre ti y Office 365, el correo de voz de nube reemplaza estos servicios de correo de voz de mensajería unificada de Exchange.
+Como se mencionó anteriormente en este tema, Exchange 2019 ya no incluye el servicio de mensajería unificada. Esto significa que, para los buzones que desee mover a Exchange 2019, debe usar el correo de voz de nube para reemplazar la funcionalidad proporcionada por el servicio de mensajería unificada. Al configurar Skype empresarial Server 2019 y una implementación híbrida entre ti y Microsoft 365 u Office 365, el correo de voz de nube reemplaza estos servicios de correo de voz de mensajería unificada de Exchange.
 
 El orden en que se mueven los usuarios a Exchange 2019 y Skype empresarial Server 2019 es fundamental para garantizar que la funcionalidad de correo de voz permanezca disponible para todos los usuarios. Dónde se procesa el correo de voz también se determina por el lugar donde se encuentran los buzones y usuarios de Exchange y Skype empresarial. Eche un vistazo a la tabla siguiente para ver qué combinaciones de Exchange y Skype empresarial Server son compatibles y dónde se procesa el correo de voz.
 

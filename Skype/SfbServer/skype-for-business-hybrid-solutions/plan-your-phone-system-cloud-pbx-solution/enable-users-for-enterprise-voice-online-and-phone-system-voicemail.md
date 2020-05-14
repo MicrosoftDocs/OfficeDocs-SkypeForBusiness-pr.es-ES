@@ -1,5 +1,5 @@
 ---
-title: Habilitación de usuarios para telefonía IP empresarial en línea y sistemas telefónicos en el correo de voz de Office 365
+title: Habilitar a los usuarios para la telefonía IP empresarial en línea y el correo de voz del sistema telefónico
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,25 +18,25 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
-description: Obtenga información sobre cómo habilitar el sistema telefónico en los servicios de voz de Office 365 para sus usuarios de Skype empresarial.
-ms.openlocfilehash: 8ed04e3926adfecb2f0022d12c783f6c3e83d763
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Obtenga información sobre cómo habilitar los servicios de voz del sistema telefónico para sus usuarios de Skype empresarial.
+ms.openlocfilehash: 522da56969f851280812670692a27d94e4df09a8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780729"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221110"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Habilitación de usuarios para telefonía IP empresarial en línea y sistemas telefónicos en el correo de voz de Office 365
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Habilitar a los usuarios para la telefonía IP empresarial en línea y el correo de voz del sistema telefónico
  
-Obtenga información sobre cómo habilitar el sistema telefónico en los servicios de voz de Office 365 para sus usuarios de Skype empresarial.
+Obtenga información sobre cómo habilitar los servicios de voz del sistema telefónico para sus usuarios de Skype empresarial.
   
-El último paso de la implementación del sistema telefónico en Office 365 con la conectividad RTC local es habilitar a los usuarios para el sistema telefónico en Office 365 y el correo de voz. Para habilitar estas funciones, debe ser un usuario con el rol de administrador global y poder ejecutar PowerShell remoto. Debe seguir los pasos de este tema para todas las cuentas de usuario que todavía no tienen habilitada la telefonía IP empresarial para Skype empresarial online.
+El último paso de la implementación del sistema telefónico con la conectividad RTC local es habilitar a los usuarios para el sistema telefónico y el correo de voz. Para habilitar estas funciones, debe ser un usuario con el rol de administrador global y poder ejecutar PowerShell remoto. Debe seguir los pasos de este tema para todas las cuentas de usuario que todavía no tienen habilitada la telefonía IP empresarial para Skype empresarial online.
   
-## <a name="enable-phone-system-in-office-365-voice-services"></a>Habilitar sistema telefónico en los servicios de voz de Office 365
+## <a name="enable-phone-system-voice-services"></a>Habilitar los servicios de voz del sistema telefónico
 
-Para habilitar un usuario para el sistema telefónico en Office 365 Voice y el correo de voz, necesitará realizar algunos pasos iniciales, como comprobar si el conector de Skype empresarial online se ha implementado en los servidores y habilitar a los usuarios para el correo de voz hospedado.
+Para habilitar a un usuario para la voz y el correo de voz del sistema telefónico, deberá realizar algunos pasos iniciales, como comprobar si el conector de Skype empresarial online se ha implementado en los servidores y habilitar a los usuarios para el correo de voz hospedado.
   
-### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>Para habilitar a los usuarios para el sistema telefónico en Office 365 voz y correo de voz
+### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>Para habilitar a los usuarios para la voz y el correo de voz del sistema telefónico
 
 1. Antes de empezar, compruebe que el conector de Skype empresarial online (módulo Windows PowerShell) esté implementado en los servidores front-end. Si no lo está, puede descargarlo desde [el centro de descarga](https://www.microsoft.com/download/details.aspx?id=39366). Puede encontrar más información sobre el uso de este módulo en [configurar el equipo para la administración de Skype empresarial online](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx).
     
@@ -87,9 +87,9 @@ Para habilitar un usuario para el sistema telefónico en Office 365 Voice y el c
     > [!NOTE]
     > También puede especificar un usuario por su dirección SIP, nombre principal de usuario (UPN), nombre de dominio y nombre de usuario (dominio\nombre de usuario), y nombre para mostrar en Active Directory ("Bob Kelly"). 
   
-## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system-in-office-365"></a>Actualizar el URI de línea y el plan de marcado para los usuarios habilitados para sistema telefónico en Office 365
+## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system"></a>Actualizar el URI de línea y el plan de marcado para los usuarios habilitados para el sistema telefónico
 
-En esta sección se describe cómo actualizar el URI de línea y el plan de marcado para los usuarios habilitados para el sistema telefónico en Office 365. 
+En esta sección se describe cómo actualizar el URI de línea y el plan de marcado para los usuarios habilitados para sistema telefónico. 
   
 ### <a name="to-update-the-line-uri"></a>Para actualizar el URI de línea
 
@@ -141,12 +141,12 @@ Puede asignar planes de marcado por usuario con Windows PowerShell y el cmdlet [
 
 ## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>Actualizar las directivas de enrutamiento de voz mediante los cmdlets locales de Windows PowerShell
 
-En esta sección se describe cómo actualizar las directivas de enrutamiento de voz para los usuarios habilitados para sistema telefónico en Office 365.
+En esta sección se describe cómo actualizar las directivas de enrutamiento de voz para los usuarios habilitados para sistema telefónico.
   
-Sistema telefónico en Office 365 los usuarios deben tener asignada una directiva de enrutamiento de voz para que las llamadas se enruten correctamente. Esto difiere de los usuarios de voz de empresa locales que requieren que se les asigne una directiva de voz para permitir que las llamadas se enruten correctamente. La Directiva de enrutamiento de voz debe contener usos de RTC que definen las llamadas y rutas autorizadas para sistema telefónico en los usuarios de Office 365. Puede copiar estos usos de RTC de las directivas de voz existentes a las nuevas directivas de enrutamiento de voz. Para obtener más información, vea [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
+Los usuarios del sistema telefónico deben tener asignada una directiva de enrutamiento de voz para que las llamadas se enruten correctamente. Esto difiere de los usuarios de voz de empresa locales que requieren que se les asigne una directiva de voz para permitir que las llamadas se enruten correctamente. La Directiva de enrutamiento de voz debe contener usos de RTC que definen las llamadas y rutas autorizadas para los usuarios del sistema telefónico. Puede copiar estos usos de RTC de las directivas de voz existentes a las nuevas directivas de enrutamiento de voz. Para obtener más información, vea [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
-> Todos los sistemas telefónicos de Office 365 usuarios tienen asignada la misma directiva de voz en línea llamada Businessvoice, que define las características de llamada permitidas; por ejemplo, permitir llamadas simultáneas. 
+> A todos los usuarios del sistema telefónico se les asigna la misma directiva de voz en línea llamada Businessvoice, que define las características de llamada permitidas; por ejemplo, permitir llamadas simultáneas. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>Para asignar una directiva de enrutamiento de voz por usuario a un solo usuario
 

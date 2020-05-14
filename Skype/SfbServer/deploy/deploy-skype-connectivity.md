@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumen: Obtenga información sobre cómo conectar Skype empresarial Server con consumidores de Skype. También se conoce como conectividad de Skype.'
-ms.openlocfilehash: 2cf124c340218a352f55fa1c09302a0d0f1d972a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: b0cae57ac357b2b88d74b6326176c7cb7cdaf22e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780069"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219750"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implementar la conectividad de Skype en Skype empresarial Server
 
@@ -73,13 +73,13 @@ En la tabla siguiente se describe la compatibilidad con la búsqueda en el direc
 > [!NOTE]
 > Skype empresarial Server limitará las solicitudes entrantes si hay demasiadas solicitudes pendientes en la cola. 
   
-## <a name="deploying-skype-connectivity-for-skype-for-business-online-in-office-365"></a>Implementación de conectividad de Skype para Skype empresarial online en Office 365
+## <a name="deploying-skype-connectivity-for-skype-for-business-online"></a>Implementación de la conectividad de Skype para Skype empresarial online
 
-La conectividad de Skype también es una característica de Skype empresarial online, que forma parte de Office 365. Puede habilitar la característica conectividad de Skype desde el centro de administración de Skype empresarial en el centro de administración de Microsoft 365.
+La conectividad de Skype también es una característica de Skype empresarial online, que forma parte de Microsoft 365 y Office 365. Puede habilitar la característica conectividad de Skype desde el centro de administración de Skype empresarial en el centro de administración de Microsoft 365.
   
-Para Office 365 mediana empresa, Office 365 Enterprise, Office 365 Education y Office 365 para administración pública: inicie sesión en el centro de administración de Microsoft 365 y vaya al centro de administración de Skype empresarial. Vaya a comunicaciones externas. En proveedores de servicios de mensajería instantánea pública, haga clic en habilitar. Si desea controlar el acceso de usuarios individuales a la conectividad de Skype, puede hacerlo si modifica la configuración de las comunicaciones externas de los usuarios individuales.
+Para Microsoft 365 mediana empresa, Office 365 Enterprise, Microsoft 365 Education y Office 365 para el gobierno: inicie sesión en el centro de administración de Microsoft 365 y vaya al centro de administración de Skype empresarial. Vaya a comunicaciones externas. En proveedores de servicios de mensajería instantánea pública, haga clic en habilitar. Si desea controlar el acceso de usuarios individuales a la conectividad de Skype, puede hacerlo si modifica la configuración de las comunicaciones externas de los usuarios individuales.
   
-Para Office 365 Small Business Premium: inicie sesión en Office 365 y vaya a configuración \> \> del servicio de administración mensajería instantánea, reuniones y conferencias. Active las comunicaciones externas. El conmutador de comunicaciones externas activa tanto la conectividad de Skype como las comunicaciones con otras organizaciones que usan Skype empresarial.
+Para Office 365 Small Business Premium: inicie sesión en Office 365 y vaya a configuración del \> servicio de administración \> mensajería instantánea, reuniones y conferencias. Active las comunicaciones externas. El conmutador de comunicaciones externas activa tanto la conectividad de Skype como las comunicaciones con otras organizaciones que usan Skype empresarial.
   
 Para obtener más información acerca de la administración de Skype empresarial online, consulte:
   
@@ -114,7 +114,7 @@ Las implementaciones locales son necesarias para publicar un registro SRV de DNS
 |sip.contoso.com   ||
 |sipfed.contoso.com   |En cada caso, el FQDN exacto debe estar presente en el SN o en el SAN del certificado externo instalado en el servidor perimetral.   |
 |access.contoso.com   ||
-|**FQDN no válidos**|**Motivo**|
+|**FQDN no válidos**|**Reason**|
 |sip.contoso-edge.com   |No es una coincidencia de sufijo.  |
 |sip.it.contoso.com   |No es una coincidencia de sufijo de nivel superior.   |
 
@@ -247,4 +247,3 @@ En la tabla siguiente se describe el estado de la interoperabilidad entre la úl
 |Lync Phone Edition  <br/> |N/D  <br/> |N/D  <br/> |
 |Operador de Lync  <br/> |N/D  <br/> |N/D  <br/> |
    
-

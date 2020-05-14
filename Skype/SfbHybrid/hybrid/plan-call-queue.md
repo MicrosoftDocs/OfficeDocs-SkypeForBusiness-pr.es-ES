@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general sobre el uso de un operador automático de la nube con Skype empresarial Server 2019.
-ms.openlocfilehash: d14aeab9857f2a54e6622fb368193a2e270e0f49
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 2186909b3ec905d6ec6d387bcea172d8fb80287c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510799"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221310"
 ---
 # <a name="plan-cloud-call-queues"></a>Planear colas de llamadas en la nube
 
@@ -43,7 +43,7 @@ Además de los requisitos anteriores, deben configurarse los siguientes requisit
 
 - Conectividad híbrida. Si ya ha implementado Skype empresarial Server y desea habilitar las colas de llamadas en la nube para los usuarios locales, debe asegurarse de que tiene una conectividad híbrida configurada entre su entorno local y el entorno en línea. A veces, se denomina configuración de dominio dividido.
 
-   Para obtener más información, consulte [planear la conectividad híbrida entre Skype empresarial Server y office 365](plan-hybrid-connectivity.md) y [configurar la conectividad híbrida entre Skype empresarial server y Office 365](configure-hybrid-connectivity.md).
+   Para obtener más información, vea [plan Hybrid Connectivity between Skype for Business Server y microsoft 365 u office 365](plan-hybrid-connectivity.md) y [configurar la conectividad híbrida entre Skype empresarial server y Microsoft 365 u Office 365](configure-hybrid-connectivity.md).
 
 - Si va a asignar un número de teléfono a una cuenta de recursos, ahora puede usar la licencia de usuario virtual de sistema telefónico de sistema gratuito. Esto proporciona funciones del sistema telefónico a números de teléfono en el nivel de la organización y le permite crear funciones de cola de llamadas y operador automático.
 
@@ -55,7 +55,7 @@ En el tutorial titulado [Small Business example-set up an operador automático](
 
 Cuando tenga una estructura sólida que satisfaga sus necesidades y un script que guíe a los clientes con eficacia, continúe con la [configuración de las cuentas de recursos](configure-onprem-ra.md).
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 [Configurar cuentas de recursos](configure-onprem-ra.md)
 
@@ -65,8 +65,8 @@ Cuando tenga una estructura sólida que satisfaga sus necesidades y un script qu
 
 [Configurar un operador automático en la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
-[Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md) (Planeamiento de la conectividad híbrida entre Skype Empresarial Server y Office 365)
+[Planeación de la conectividad híbrida entre Skype empresarial Server y Microsoft 365 u Office 365](plan-hybrid-connectivity.md)
 
-[Configuración de la conectividad híbrida entre Skype Empresarial Server y Office 365](configure-hybrid-connectivity.md)
+[Configurar la conectividad híbrida entre Skype empresarial Server y Microsoft 365 u Office 365](configure-hybrid-connectivity.md)
 
 [Administrar cuentas de recursos en Microsoft Teams](/MicrosoftTeams/manage-resource-accounts)

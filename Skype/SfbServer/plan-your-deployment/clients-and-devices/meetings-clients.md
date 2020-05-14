@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumen: los profesionales de TI deben revisar los requisitos de soporte técnico para la aplicación Web de Skype empresarial y la aplicación reuniones de Skype mientras planifica Skype empresarial Server. Este artículo no está destinado a los usuarios de estas aplicaciones.'
-ms.openlocfilehash: 0e1ce225f99a112f11d55d76eb8039a10d9aac6b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 30397c922dbc5bb8578714d70712f90d7e14ca4c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777795"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221050"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planeación de clientes de reuniones (aplicación web y aplicación de reuniones)
  
@@ -33,14 +33,14 @@ Una vez que haya implementado Skype empresarial Server, los usuarios de la organ
 Posteriormente, estos usuarios pueden crear reuniones e invitar a usuarios desde fuera de la organización, y las invitaciones a reuniones no pueden tener ninguna versión del cliente de Skype empresarial. Cuando los usuarios hagan clic en la dirección URL de la invitación a la reunión, se detectará la falta de un cliente y se le pedirá al invitado sin un cliente de Skype empresarial que descargue e instale un cliente ligero de solo reunión para que puedan unirse a la reunión.
   
 > [!NOTE]
-> La aplicación Web de Skype empresarial y la aplicación reuniones de Skype solo están disponibles cuando se intenta iniciar sesión en una reunión sin tener Skype empresarial. La ayuda para el usuario de estas [https://aka.ms/smahelp](https://aka.ms/smahelp)aplicaciones está en. 
+> La aplicación Web de Skype empresarial y la aplicación reuniones de Skype solo están disponibles cuando se intenta iniciar sesión en una reunión sin tener Skype empresarial. La ayuda para el usuario de estas aplicaciones está en [https://aka.ms/smahelp](https://aka.ms/smahelp) . 
   
 > [!NOTE]
 > No se puede preinstalar la aplicación Web de Skype empresarial o la aplicación reuniones de Skype, pero [Smart Phone](https://products.office.com/skype-for-business/download-app?tab=tabs-1) y [tabletas](https://products.office.com/skype-for-business/download-app?tab=tabs-2) pueden instalar clientes móviles económicos que pueden usar para asistir a reuniones.
   
 De forma predeterminada, el servidor que hospeda la reunión indicará al usuario que descargue e instale la aplicación Web de Skype empresarial para unirse a la reunión. La aplicación Web de Skype empresarial se almacena en el servidor front-end y se envía al asistente de la reunión. 
   
-Para Skype empresarial Server, la aplicación reuniones de Skype (en Windows) y Skype empresarial para Mac (en Mac) están disponibles como reemplazos para la aplicación Web de Skype empresarial a partir de CU5, pero al ofrecer las aplicaciones de reemplazo se necesita la configuración adicional que se describe en [Habilitar la aplicación reuniones de Skype para reemplazar la aplicación Web de Skype empresarial (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Si la aplicación reuniones de Skype y Skype empresarial para Mac están habilitados, los usuarios descargarán la versión más reciente de las aplicaciones de la red de entrega de contenido (CDN) de Office 365 en lugar de hacerlo desde Skype empresarial Server. Para Skype empresarial Server 2019, usar la aplicación reuniones de Skype y Skype empresarial para Mac es la única opción.
+Para Skype empresarial Server, la aplicación reuniones de Skype (en Windows) y Skype empresarial para Mac (en Mac) están disponibles como reemplazos para la aplicación Web de Skype empresarial a partir de CU5, pero al ofrecer las aplicaciones de reemplazo se necesita la configuración adicional que se describe en [Habilitar la aplicación reuniones de Skype para reemplazar la aplicación Web de Skype empresarial (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). Si la aplicación reuniones de Skype y Skype empresarial para Mac están habilitados, los usuarios descargarán la última versión de las aplicaciones de la red de entrega de contenido (CDN) de Microsoft 365 u Office 365 en lugar de hacerlo desde Skype empresarial Server. Para Skype empresarial Server 2019, usar la aplicación reuniones de Skype y Skype empresarial para Mac es la única opción.
   
 La aplicación reuniones de Skype ofrece una experiencia de explorador simplificada para descargar e instalar la aplicación y unirse a reuniones, incluida la Unión con un solo clic para los usuarios de Internet Explorer. La aplicación reuniones de Skype también tiene muchas mejoras sobre la aplicación Web de Skype empresarial para la confiabilidad y la experiencia de reunión. 
   
@@ -56,7 +56,7 @@ Para usar la aplicación Web de Skype empresarial, un usuario debe tener una de 
 
 | Sistema operativo | Microsoft Edge | 32 para Internet Explorer 11 de 64 bits o posterior | 32 y 64 bits de Internet Explorer 10 o posterior | 32-y 64-bit Internet Explorer 9 o posterior | 32: versión de 64 bits de Safari 6.2.8-11. X | 32-y 64 bits de la versión de Chrome 18. X o posterior |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |Sí  <br/> |Sí  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sí &#x2778; <br/> |
+|Windows 10  <br/> |Sí  <br/> |Sí  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sí &#x2778; <br/> |
 |&#x2776; de Windows 8,1 <br/> |N/D  <br/> |Sí  <br/> |N/D  <br/> |N/D  <br/> |N/D <br/> |Sí &#x2778; <br/> |
 |&#x2776; de Windows 8 (basado en Intel) <br/> |N/D  <br/> |N/D  <br/> |Sí  <br/> |N/D <br/> |N/D  <br/> |Sí &#x2778; <br/> |
 |Windows 7 con SP1 &#x2777; <br/> |N/D  <br/> |Sí  <br/> |No  <br/> |No  <br/> |N/D <br/>|Sí &#x2778; <br/> |
@@ -130,7 +130,7 @@ En esta tabla se comparan las características de las reuniones disponibles para
 |Realizar sondeos  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Cargar archivos para compartir con otros usuarios  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Programar una conferencia o reunión  <br/> |Programador web de Outlook o Skype empresarial  <br/> |Programador web de Outlook o Skype empresarial  <br/> |Programador web de Skype empresarial  <br/> |Programador web de Skype empresarial  <br/> |Programador web de Skype empresarial  <br/> |
-|T&amp;A Administrador  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|T &amp; A Administrador  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Deshabilitar el vídeo del asistente  <br/> |&#x2714;|||||
 |Deshabilitar la mensajería instantánea de reunión  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Silenciar a la audiencia  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|

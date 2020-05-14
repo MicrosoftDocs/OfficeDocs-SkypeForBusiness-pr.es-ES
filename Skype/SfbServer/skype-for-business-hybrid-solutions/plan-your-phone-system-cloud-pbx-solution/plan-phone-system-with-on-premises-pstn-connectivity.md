@@ -1,5 +1,5 @@
 ---
-title: Planear el sistema telefónico en Office 365 con conectividad RTC local en Skype empresarial Server
+title: Planeación del sistema telefónico con conectividad con RTC local en Skype empresarial Server
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -19,30 +19,30 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
-description: Obtenga información sobre las consideraciones de planeación para el sistema telefónico en Office 365 (PBX en la nube) con conectividad con RTC local.
-ms.openlocfilehash: be8fbe5671e2959341c08d4efa45829df0cc5e42
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Obtenga información sobre las consideraciones de planeación para el sistema telefónico (PBX en la nube) con conectividad con RTC local.
+ms.openlocfilehash: 367b7b976dbc79e50f4f7dc1fc1cdba85ddcc679
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42020231"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220241"
 ---
-# <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planear el sistema telefónico en Office 365 con conectividad RTC local en Skype empresarial Server
+# <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planeación del sistema telefónico con conectividad con RTC local en Skype empresarial Server
 
-Obtenga información sobre las consideraciones de planeación para el sistema telefónico en Office 365 (PBX en la nube) con conectividad con RTC local.
+Obtenga información sobre las consideraciones de planeación para el sistema telefónico (PBX en la nube) con conectividad con RTC local.
 
 Este contenido es relevante si ya ha implementado Skype empresarial Server o Lync Server 2013 de forma local. Para otros escenarios, vea [soluciones de telefonía de Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
- Sistema telefónico en Office 365 con conectividad RTC local le permite aprovechar las capacidades de sistema telefónico (PBX en la nube) para los usuarios. Esto puede ayudar en los siguientes escenarios:
+ Sistema telefónico con conectividad con RTC local le permite aprovechar las capacidades del sistema telefónico (PBX en la nube) para sus usuarios. Esto puede ayudar en los siguientes escenarios:
 
-- Tiene algunos de sus usuarios de Skype empresarial hospedados de forma local y otros alojados en Skype empresarial online. Ahora puede habilitar el sistema telefónico en Office 365 capacidades y características para los usuarios alojados en Skype empresarial online, pero seguir usando la conectividad con RTC local.
+- Tiene algunos de sus usuarios de Skype empresarial hospedados de forma local y otros alojados en Skype empresarial online. Ahora puede habilitar funciones y características de sistema telefónico para los usuarios alojados en Skype empresarial online, pero seguir usando la conectividad con RTC local.
 
 - Tiene una implementación local y desea mover algunos o todos los usuarios a Skype empresarial online, pero seguir usando la conectividad con RTC local de.
 
     > [!IMPORTANT]
-    > Para habilitar correctamente a los usuarios para el sistema telefónico en Office 365 con conectividad RTC local, su dirección SIP debe estar en su propio dominio. No se admite el uso del dominio predeterminado para Office 365, onmicrosoft.com. 
+    > Para habilitar correctamente a los usuarios para el sistema telefónico con conectividad RTC local, su dirección SIP debe estar en su propio dominio. No se admite el uso del dominio predeterminado para Microsoft 365 o Office 365, onmicrosoft.com. 
 
-Para obtener más información sobre el sistema telefónico en Office 365, incluidas las licencias y los planes, consulte [planes de llamadas RTC para Skype empresarial](https://support.office.com/article/PSTN-Calling-plans-for-Skype-for-Business-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918).
+Para obtener más información acerca del sistema telefónico, incluidas las licencias y los planes, consulte [planes de llamadas RTC para Skype empresarial](https://support.office.com/article/PSTN-Calling-plans-for-Skype-for-Business-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918).
 
 ## <a name="feature-comparison"></a>Comparación de características
 
@@ -55,30 +55,30 @@ PBX en la nube con conectividad con RTC local no ofrece el mismo conjunto de car
 Si mueve los usuarios de local a en línea antes de actualizar el firmware, los usuarios no podrán conectarse mediante sus teléfonos. Para corregir este problema, es necesario volver a mover a los usuarios al entorno local para actualizar sus teléfonos con el firmware mínimo. NO INTENTE ACTUALIZAR AL FIRMWARE MÍNIMO O REALIZAR UN RESTABLECIMIENTO RÍGIDO DEL TELÉFONO ANTES DE VOLVER A MOVER AL USUARIO A SU ENTORNO LOCAL.
 Si se realiza un restablecimiento de hardware mientras el dispositivo no tiene el firmware mínimo, se usará la autenticación de PIN predeterminada, que no es compatible con Skype empresarial online. Para obtener más información, consulte [obtener teléfonos con Skype empresarial online](https://support.office.com/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US).
 
-Mediante la implementación de sistema telefónico en Office 365 con conectividad RTC local, puede mover a los usuarios a la nube a través de Skype empresarial online a su propio ritmo, a la vez que mantiene su conectividad con RTC local. Si tiene una PBX, puede seguir utilizándola para proporcionar conectividad RTC a los usuarios que se mueven a la nube. Una vez que un usuario se mueve a Skype empresarial online y el sistema telefónico en Office 365, su teléfono PBX heredado dejará de funcionar, pero su número de teléfono se enrutará a cualquiera de los clientes de Skype empresarial para PC o Smart Phone, así como el teléfono de escritorio compatible con Skype empresarial. s. Una vez que se ha realizado la portabilidad, el sistema telefónico de los usuarios de Office 365 y los usuarios de PBX heredados pueden llamarse entre ellos normalmente, así como realizar y recibir llamadas RTC con su número de teléfono normal.
+Mediante la implementación de sistema telefónico con conectividad con RTC local, puede mover a los usuarios a la nube a través de Skype empresarial online a su propio ritmo, a la vez que mantiene su conectividad con RTC local. Si tiene una PBX, puede seguir utilizándola para proporcionar conectividad RTC a los usuarios que se mueven a la nube. Una vez que un usuario se mueve a Skype empresarial online y al sistema telefónico, su teléfono PBX heredado dejará de funcionar, pero su número de teléfono se enrutará a cualquiera de los clientes de Skype empresarial para PC o Smart Phone, así como teléfonos de escritorio compatibles con Skype empresarial. Una vez que se hayan trasladado, los usuarios de sistema telefónico y los usuarios de PBX heredados podrán llamarse entre ellos normalmente, así como realizar y recibir llamadas RTC con su número de teléfono normal.
 
-Puede tener una característica personalizada o un complemento principal para su PBX heredada, como un centro de llamadas. Si la característica personalizada no está disponible actualmente en el sistema telefónico de Office 365, debe dejar a los usuarios que necesitan la característica personalizada local con la PBX heredada, así como migrar a los usuarios que no necesitan tener acceso a la característica personalizada en el sistema telefónico en Office 365 con conectividad con RTC local.
+Puede tener una característica personalizada o un complemento principal para su PBX heredada, como un centro de llamadas. Si la característica personalizada no está disponible actualmente en el sistema telefónico, debe dejar a los usuarios que requieran la característica personalizada local con la PBX heredada y simplemente portar a los usuarios que no necesitan tener acceso a la característica personalizada en el sistema telefónico con conectividad con RTC local.
 
-Para obtener una lista de PBX heredadas que interoperen directamente con Skype empresarial Server 2015 consulte [Infrastructure Qualified for Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Si su PBX no se encuentra en esta lista, puede usar un controlador de borde de sesión para conectar su PBX con el sistema telefónico en Office 365 en Skype empresarial online.
+Para obtener una lista de PBX heredadas que interoperen directamente con Skype empresarial Server 2015 consulte [Infrastructure Qualified for Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Si su PBX no se encuentra en esta lista, puede usar un controlador de borde de sesión para conectar su PBX con sistema telefónico en Skype empresarial online.
 
 ### <a name="network-considerations-for-quality-and-performance"></a>Consideraciones de red para la calidad y el rendimiento
 
-Al implementar un servicio hospedado en la nube como sistema telefónico en Office 365 con conectividad con RTC local, debe tener en cuenta lo siguiente. En una implementación de Skype empresarial Server 2015 Enterprise Voice exclusivamente local, toda la infraestructura y los clientes se encuentran en la propia red de la empresa. La calidad y el rendimiento de esta red, que es fundamental para el audio y el vídeo de alta calidad, se encuentran bajo el control directo del personal de la empresa. Con el sistema telefónico de Office 365 con conectividad RTC local, hay tres redes implicadas, dos de las cuales el cliente es responsable pero solo una de las cuales el personal de empresa tiene control directo:
+Al implementar un servicio hospedado en la nube como sistema telefónico con conectividad RTC local, debe tener en cuenta lo siguiente. En una implementación de Skype empresarial Server 2015 Enterprise Voice exclusivamente local, toda la infraestructura y los clientes se encuentran en la propia red de la empresa. La calidad y el rendimiento de esta red, que es fundamental para el audio y el vídeo de alta calidad, se encuentran bajo el control directo del personal de la empresa. Con el sistema telefónico con conectividad con RTC local, hay tres redes implicadas, dos de las cuales el cliente es responsable pero solo una de las cuales el personal de la empresa tiene control directo:
 
-- **Red de entrega global de medios de Microsoft** La infraestructura y la red en la nube global de Microsoft. Office 365 y el sistema telefónico de Office 365 los servidores y el tráfico atraviesan esta red.
+- **Red de entrega global de medios de Microsoft** La infraestructura y la red en la nube global de Microsoft. El tráfico y los servidores del sistema de teléfono atraviesan esta red.
 
-- **Interconexión con RTC de empresa/nube** Esta es la red que conecta la empresa a la nube de Office 365. Esto no es necesariamente el mismo que su conexión a Internet genérica.
+- **Interconexión con RTC de empresa/nube** Esta es la red que conecta la empresa a la nube. Esto no es necesariamente el mismo que su conexión a Internet genérica.
 
-- **La red de su empresa** La calidad de los medios en tiempo real depende en gran medida de su propia red: en especial de la red WiFi y de la calidad de la interconexión utilizada para llegar a la nube de Office 365.
+- **La red de su empresa** La calidad de los medios en tiempo real depende en gran medida de su propia red: en especial de la red WiFi y de la calidad de la interconexión utilizada para llegar a la nube.
 
 > [!NOTE]
 > Para obtener más información sobre el ajuste del rendimiento en Skype empresarial online, consulte [ajustar el rendimiento de Skype empresarial online](https://support.office.com/article/Tune-Skype-for-Business-Online-performance-beec23c2-c5d6-4e84-a8af-e82aefca7802?ui=en-US&amp;rs=en-US&amp;ad=US). 
 
-## <a name="prerequisites-for-using-phone-system-in-office-365-with-on-premises-pstn-connectivity"></a>Requisitos previos para usar el sistema telefónico en Office 365 con conectividad con RTC local
+## <a name="prerequisites-for-using-phone-system-with-on-premises-pstn-connectivity"></a>Requisitos previos para usar sistema telefónico con conectividad RTC local
 
-Antes de configurar el sistema telefónico en Office 365 con la conectividad RTC local y mover usuarios a Skype empresarial online, debe confirmar que tiene los siguientes requisitos previos en su lugar:
+Antes de configurar el sistema telefónico con la conectividad con RTC local y mover usuarios a Skype empresarial online, debe confirmar que ha implementado los siguientes requisitos previos:
 
- **Versiones de servidor local.** Las versiones de los servidores en la implementación local deben incluirse en la lista de la tabla siguiente para admitir el sistema telefónico de Office 365 con conectividad con RTC local.
+ **Versiones de servidor local.** Las versiones de los servidores en su implementación local deben incluirse en la lista de la tabla siguiente para admitir el sistema telefónico con conectividad con RTC local.
 
 
 | **Rol del servidor**                                       | **Versiones compatibles\\**\*                                                                                         |
@@ -114,6 +114,6 @@ Además, debe asegurarse de lo siguiente:
 
 - **Recomenda Servicios de Federación de Active Directory (AD FS).** Se recomienda implementar AD FS para que admita el inicio de sesión único. Para obtener más información, vea [servicios de Federación de Active Directory (AD FS)](https://technet.microsoft.com/library/cc736690%28v=ws.10%29.aspx).
 
-Para obtener información acerca de la implementación de sistema telefónico en Office 365, consulte [enable users for Phone System in office 365 with on-premises RTC Connectivity in Skype for Business Server](enable-users-for-phone-system.md).
+Para obtener información acerca de la implementación de sistema telefónico, consulte [Habilitar usuarios para sistema telefónico con conectividad con RTC local en Skype empresarial Server](enable-users-for-phone-system.md).
 
 

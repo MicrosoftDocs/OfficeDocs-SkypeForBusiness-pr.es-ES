@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Resumen: Revise los clientes y aplicaciones compatibles con Skype empresarial.'
-ms.openlocfilehash: 71960fe7f450bbf4073c80d584e1eb1b0eb259d5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bcb6cfdaa0797e46ebc01f551a46600577d4dc27
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013493"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220560"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planeación de clientes y dispositivos
 
@@ -36,7 +36,7 @@ Skype empresarial Server admite varios tipos de clientes, como el software de cl
 
 ### <a name="skype-for-business-2019"></a>Skype empresarial (2019)
 
-Skype empresarial (2019) es el cliente completo recomendado para Skype empresarial Server 2015 y 2019. Consulte [seguir las actualizaciones más recientes en Skype empresarial](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) para obtener una descripción de las características nuevas. La compatibilidad con características de cliente se detalla en la [comparación de características de cliente de escritorio para Skype empresarial](desktop-feature-comparison.md)y la documentación de usuario se encuentra en [ayuda de Skype empresarial](https://support.office.com/Skype-for-business). Este cliente se incluye cuando un usuario instala Office 365.
+Skype empresarial (2019) es el cliente completo recomendado para Skype empresarial Server 2015 y 2019. Consulte [seguir las actualizaciones más recientes en Skype empresarial](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) para obtener una descripción de las características nuevas. La compatibilidad con características de cliente se detalla en la [comparación de características de cliente de escritorio para Skype empresarial](desktop-feature-comparison.md)y la documentación de usuario se encuentra en [ayuda de Skype empresarial](https://support.office.com/Skype-for-business). Este cliente se incluye cuando un usuario instala Microsoft 365 u Office 365.
 
 También hay disponible un cliente básico gratuito que admite menos características. Ambas versiones están disponibles para su descarga en [descargar Skype empresarial en todos los dispositivos](https://products.office.com/skype-for-business/download-app?tab=tabs-3). Las diferencias entre los clientes completos y básicos se describen en la sección de [limitaciones básicas de clientes](desktop-feature-comparison.md#Full-Basic) .
 
@@ -78,7 +78,7 @@ El [programador web de Skype empresarial](https://sched.lync.com) es una herrami
 
 Un entorno de infraestructura de escritorio virtual (VDI) se usa en algunas organizaciones donde los problemas de seguridad y cumplimiento son especialmente confidenciales. Uso de Skype empresarial con audio y vídeo completos en una conexión como esa requiere una carga pesada de procesamiento de audio y vídeo en el cliente hospedado en un escritorio virtual. Hay disponible software de complemento de VDI adicional que descarga ese procesamiento en el equipo local del usuario final y reduce la carga en el escritorio virtual. Consulte [Plan for Skype for Business in VDI Environments](vdi-environments.md) para obtener detalles sobre cómo usar estos complementos.
 
-### <a name="microsoft-teams-rooms"></a>Salones de Microsoft Teams
+### <a name="microsoft-teams-rooms"></a>Salas de Microsoft Teams
 
 Salones de Microsoft Teams es la solución de conferencias más reciente de Microsoft que usa una interfaz familiar y que se implementa y administra fácilmente, aprovechando los equipos existentes, como los paneles LCD, para facilitar la instalación. Las salas de Microsoft Teams usan una aplicación para UWP especialmente diseñada que se ejecuta en una Surface Pro 4 o Surface Pro en un modo de consola (una vez implementada la aplicación para UWP es la única aplicación que se ejecutará en el dispositivo) y requiere su propia cuenta de dispositivo en la implementación. El software se actualiza a través de la tienda Windows y de Windows Update. Consulte https://aka.ms/MTRDocs para obtener información detallada sobre el uso de estas consolas de salas en su implementación de. 
 
@@ -91,7 +91,7 @@ Microsoft Surface Hub es un dispositivo de productividad todo en uno destinado a
 
 Si su organización ha comprado las licencias adecuadas, seleccione el cliente completo; en caso contrario, elija el cliente básico.
 
-Los usuarios pueden instalar el cliente para que no [descarguen Skype empresarial en todos los dispositivos](https://products.office.com/skype-for-business/download-app?tab=tabs-3). El cliente también se instalará cuando los usuarios instalen Office 365 en Windows. Si algunos de los usuarios tienen equipos Mac, dichos usuarios tendrán un conjunto de características diferente, como se describe en secciones anteriores.
+Los usuarios pueden instalar el cliente para que no [descarguen Skype empresarial en todos los dispositivos](https://products.office.com/skype-for-business/download-app?tab=tabs-3). El cliente también se instala cuando los usuarios instalan Microsoft 365 o Office 365 en Windows. Si algunos de los usuarios tienen equipos Mac, dichos usuarios tendrán un conjunto de características diferente, como se describe en secciones anteriores.
 
 Algunas de las características disponibles en Skype empresarial Server 2015 no están disponibles en Skype empresarial online ni en Skype empresarial Server 2019, vea [limitaciones en la cuenta de usuario híbrido o en línea para 2015](desktop-feature-comparison.md#Online-Hybrid) o [en línea de usuario híbrido para 2019](desktop-feature-comparison.md#Online-Hybrid) para especificaciones específicas. Es posible que los administradores de Skype empresarial online consulten la [Descripción del servicio Skype empresarial online](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) para obtener información sobre los distintos planes disponibles para ellos.
 
@@ -172,6 +172,6 @@ Consulte los siguientes artículos para conocer las características, las plataf
 - Consulte los [requisitos del sistema](https://products.office.com/office-system-requirements) para el hardware necesario.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Actualizaciones más recientes de las versiones de Skype empresarial que usan Windows Installer (MSI)](../../sfb-client-updates.md)

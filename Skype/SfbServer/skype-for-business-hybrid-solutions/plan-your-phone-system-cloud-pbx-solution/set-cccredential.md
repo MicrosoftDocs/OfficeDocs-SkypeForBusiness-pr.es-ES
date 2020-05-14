@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: El cmdlet Set-CcCredential establece las credenciales de la implementación actual de Skype empresarial Cloud Connector Edition.
-ms.openlocfilehash: a97d85ef6fec31383b349e9a0c3b3d9e25d04337
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3717eb0dcaa46bb6708f40ecb7f94869f24774a2
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780679"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221574"
 ---
 # <a name="set-cccredential"></a>Set-CcCredential
  
@@ -44,7 +44,7 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-El cmdlet Set-CcCredential establece el nombre y la contraseña de la cuenta para el administrador de inquilinos. Para las versiones anteriores a 2,0, este administrador debe ser un administrador global. Cloud Connector usa esta cuenta para obtener información de configuración, establecer los parámetros de configuración y actualizar el estado de los dispositivos a la configuración de la organización de Office 365. Con la versión 2,0 y posteriores, también puede usar este cmdlet para actualizar las contraseñas para las cuentas de VmAdmin y de superusuario.
+El cmdlet Set-CcCredential establece el nombre y la contraseña de la cuenta para el administrador de inquilinos. Para las versiones anteriores a 2,0, este administrador debe ser un administrador global. Cloud Connector usa esta cuenta para obtener información de configuración, establecer los parámetros de configuración y actualizar el estado de los dispositivos a la configuración de la organización de Microsoft 365 u Office 365. Con la versión 2,0 y posteriores, también puede usar este cmdlet para actualizar las contraseñas para las cuentas de VmAdmin y de superusuario.
   
 ## <a name="parameters"></a>Parámetros
 <a name="DetailedDescription"> </a>
@@ -56,7 +56,7 @@ El cmdlet Set-CcCredential establece el nombre y la contraseña de la cuenta par
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
 
-Ninguno. El cmdlet Set-CcCredential no acepta entradas canalizadas.
+Ninguna. El cmdlet Set-CcCredential no acepta entradas canalizadas.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 <a name="ReturnTypes"> </a>

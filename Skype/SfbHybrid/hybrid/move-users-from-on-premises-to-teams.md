@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumen: Obtenga información sobre cómo migrar la configuración de usuario y mover usuarios a Microsoft Teams.'
-ms.openlocfilehash: 07d0657017d24acbbd3961c3528056debb927a5a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7b6925917cff3265280b88979660ad1289a63d12
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779686"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221380"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Mover usuarios locales a Microsoft Teams
 
@@ -61,17 +61,17 @@ Las herramientas de administración locales de Skype empresarial Server 2015 con
 
 Move-CsUser está disponible en una ventana local de PowerShell del shell de administración de Skype empresarial. Los siguientes pasos y permisos son los mismos que para mover un usuario a Skype empresarial online, excepto que también debe especificar el modificador MoveToTeams y debe asegurarse de que el usuario también tenga una licencia para Teams (además de Skype empresarial online).
 
-Debe tener privilegios suficientes en el entorno local y en la organización de Office 365, tal y como se describe en [credenciales administrativas necesarias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Puede usar una sola cuenta que tenga privilegios en ambos entornos, o puede iniciar una ventana del shell de administración local de Skype empresarial Server con credenciales locales y usar el `-Credential` parámetro para especificar las credenciales de una cuenta de Office 365 con el rol administrativo de Office 365 necesario.
+Debe tener privilegios suficientes en el entorno local y en el servicio en la nube (Microsoft 365 u Office 365), como se describe en [credenciales administrativas necesarias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Puede usar una sola cuenta que tenga privilegios en ambos entornos, o puede iniciar una ventana del shell de administración local de Skype empresarial Server con credenciales locales y usar el `-Credential` parámetro para especificar las credenciales de una cuenta de Microsoft 365 u Office 365 con el rol administrativo necesario.
 
 Para mover un usuario al modo de solo Teams mediante Move-CsUser:
 
-- Especifique el usuario que se va a `Identity` mover mediante el parámetro.
-- Especifique el parámetro-Target con el valor "sipfed. online. Lync. <span>com ".
+- Especifique el usuario que se va a mover mediante el `Identity` parámetro.
+- Especifique el parámetro-Target con el valor "sipfed. online. Lync. <span> com ".
 - Especifique el `MoveToTeams` modificador.
-- Si no tiene una cuenta con permisos suficientes en local y Office 365, use el `-credential` parámetro para proporcionar una cuenta con permisos suficientes en Office 365.
-- Si la cuenta con permisos en Office 365 no termina en "en Microsoft. <span>com ", debe especificar el `-HostedMigrationOverrideUrl` parámetro con el valor correcto tal y como se describe en [las credenciales administrativas necesarias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
+- Si no tiene una cuenta con permisos suficientes en local y en el servicio en la nube (Microsoft 365 u Office 365), use el `-credential` parámetro para proporcionar una cuenta con permisos suficientes en Office 365.
+- Si la cuenta con permisos en Microsoft 365 o Office 365 no termina en "en Microsoft. <span> com ", debe especificar el `-HostedMigrationOverrideUrl` parámetro con el valor correcto tal y como se describe en [las credenciales administrativas necesarias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
-La siguiente secuencia de cmdlet se puede usar para mover un usuario a TeamsOnly y asume que la credencial Office 365 es una cuenta independiente que se proporciona como entrada para el mensaje Get-Credential.
+La siguiente secuencia de cmdlet se puede usar para mover un usuario a TeamsOnly, y asume que la credencial Microsoft 365 u Office 365 es una cuenta independiente y se proporciona como entrada para el mensaje Get-Credential.
 
   ```powershell
   $cred=Get-Credential
@@ -86,13 +86,13 @@ La siguiente secuencia de cmdlet se puede usar para mover un usuario a TeamsOnly
 3. Use **Buscar** para localizar al usuario o usuarios que desea mover a Microsoft Teams.
 4. Seleccione los usuarios y, a continuación, en la lista desplegable **acción** situada encima de la lista, elija **mover usuarios seleccionados a Microsoft Teams**.
 5. En el asistente, haga clic en **Siguiente**.
-6. Si se le solicita, inicie sesión en Office 365, con una cuenta que acabe en. onmicrosoft.com y que tenga permisos suficientes.
+6. Si se le solicita, inicie sesión en Microsoft 365 o en Office 365 con una cuenta que acabe en. onmicrosoft.com y que tenga permisos suficientes.
 7. Haga clic en **siguiente**y, **a continuación, otra vez** más para mover al usuario.
 8. Tenga en cuenta que los mensajes de estado sobre aciertos o errores se proporcionan en la parte superior de la aplicación del panel de control principal, no en el asistente.
 
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Notificar a los usuarios locales de Skype empresarial del próximo paso a Microsoft Teams
 
-Las herramientas de administración locales de Skype empresarial Server 2015 con CU8, así como de Skype empresarial Server 2019, le permiten notificar a los usuarios locales de Skype empresarial de su próximo paso a Microsoft Teams. Cuando habilite estas notificaciones, los usuarios verán una notificación en su cliente de Skype empresarial (Win32, Mac, Web y móvil), tal como se muestra a continuación. Si los usuarios hacen clic en el botón **probar** , el cliente de Microsoft Teams se iniciará si está instalado; de lo contrario, los usuarios se desplazarán a la versión Web de Teams en su explorador. De forma predeterminada, cuando se habilitan las notificaciones, los clientes de Skype empresarial de Win32 descargan silenciosamente el cliente de Microsoft Teams para que el cliente enriquecido esté disponible antes de mover al usuario al modo de solo Teams; sin embargo, también puede deshabilitar este comportamiento.  Las notificaciones se configuran con la versión local `TeamsUpgradePolicy`de, y la descarga silenciosa para los clientes Win32 se controla a `TeamsUpgradeConfiguration` través del cmdlet local.
+Las herramientas de administración locales de Skype empresarial Server 2015 con CU8, así como de Skype empresarial Server 2019, le permiten notificar a los usuarios locales de Skype empresarial de su próximo paso a Microsoft Teams. Cuando habilite estas notificaciones, los usuarios verán una notificación en su cliente de Skype empresarial (Win32, Mac, Web y móvil), tal como se muestra a continuación. Si los usuarios hacen clic en el botón **probar** , el cliente de Microsoft Teams se iniciará si está instalado; de lo contrario, los usuarios se desplazarán a la versión Web de Teams en su explorador. De forma predeterminada, cuando se habilitan las notificaciones, los clientes de Skype empresarial de Win32 descargan silenciosamente el cliente de Microsoft Teams para que el cliente enriquecido esté disponible antes de mover al usuario al modo de solo Teams; sin embargo, también puede deshabilitar este comportamiento.  Las notificaciones se configuran con la versión local de `TeamsUpgradePolicy` , y la descarga silenciosa para los clientes Win32 se controla a través del `TeamsUpgradeConfiguration` cmdlet local.
 
 > [!TIP]
 > Es posible que algunos servidores deban reiniciarse para que funcione en Skype empresarial 2015 con CU8.
@@ -114,7 +114,7 @@ New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
 
 De forma predeterminada, el valor de DownloadTeams es true; sin embargo, *solo* se acepta si NotifySfbUser = true para un usuario determinado.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
 

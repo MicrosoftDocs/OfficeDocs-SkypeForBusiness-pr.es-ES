@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general sobre el uso de un operador automático de la nube con Skype empresarial Server 2019
-ms.openlocfilehash: f0b8018e7a926444e7920ccac31ed3ff4ab5c15f
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: d85c846a05448d8b1021bb5c1cac62c80ee1bf22
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510809"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221300"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planeación de operadores automáticos en la nube
 
 El operador automático que se usa con la mensajería unificada de Exchange (Exchange Server 2013 o Exchange Server 2016) ya no está disponible en Exchange Server 2019 ni en Exchange Online. Si la implementación de Skype empresarial Server 2019 se integra con cualquiera de estas versiones de Exchange, deberá usar las características de voz en la nube en línea asociadas con el sistema telefónico. Consulte [Plan for Skype for Business Server and Exchange Server Migration](plan-um-migration.md) para obtener información sobre cómo mover los servicios de mensajería unificada de Exchange hospedados en exchange Server 2013 y 2016 a la nube.
 
-Esto implica intrínsecamente que tendrá una implementación híbrida de Skype empresarial Server 2019 si desea usar características de mensajería unificada como operadores automáticos. Consulte [configurar la conectividad híbrida entre Skype empresarial Server y Office 365](configure-hybrid-connectivity.md) para obtener más información.
+Esto implica intrínsecamente que tendrá una implementación híbrida de Skype empresarial Server 2019 si desea usar características de mensajería unificada como operadores automáticos. Consulte [configurar la conectividad híbrida entre Skype empresarial Server y Microsoft 365 u Office 365](configure-hybrid-connectivity.md) para obtener más información.
 
 Un operador automático es un servicio en la nube que acepta llamadas de clientes y reproduce saludos, les proporciona opciones de menú e interactúa con las personas que llaman mediante voz o el teclado de marcado para enrutar las llamadas al destino correcto. A cada operador automático se le asigna una *cuenta de recursos* (consulte [configurar cuentas de recursos](configure-onprem-ra.md)) en el sistema de Skype empresarial Server 2019, que se vinculará directamente a un operador automático en el centro de administración de Microsoft Teams. Consulte [¿Qué son los operadores automáticos de la nube?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) para obtener más información sobre qué son los operadores automáticos y qué opciones y características existen para los operadores automáticos.
 
@@ -36,7 +36,7 @@ Una llamada entrante a un operador automático de la nube puede tomar una de var
 
 1. A través de Skype empresarial Server 2019
 2. A través de un [controlador de borde de sesión](/MicrosoftTeams/direct-routing-border-controllers.md) y [enrutamiento directo](/MicrosoftTeams/direct-routing-plan.md)
-3. A través de un número alojado en línea en Office 365.
+3. A través de un número alojado en línea en Microsoft 365 u Office 365.
 
 Consulte también:
 
@@ -55,7 +55,7 @@ Además de los requisitos anteriores, deben configurarse los siguientes requisit
 
 - Conectividad híbrida. Si ya ha implementado Skype empresarial Server y desea habilitar el operador automático de la nube para los usuarios locales, debe asegurarse de que tiene una conectividad híbrida configurada entre su entorno local y el entorno en línea. A veces, se denomina configuración de dominio dividido.
 
-   Para obtener más información, consulte [planear la conectividad híbrida entre Skype empresarial Server y office 365](plan-hybrid-connectivity.md) y [configurar la conectividad híbrida entre Skype empresarial server y Office 365](configure-hybrid-connectivity.md).
+   Para obtener más información, vea [plan Hybrid Connectivity between Skype for Business Server y microsoft 365 u office 365](plan-hybrid-connectivity.md) y [configurar la conectividad híbrida entre Skype empresarial server y Microsoft 365 u Office 365](configure-hybrid-connectivity.md).
 
 - Si está asignando un número de teléfono al operador automático, necesitará una licencia de [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) .
 - Cree una [cuenta de recurso](/MicrosoftTeams/manage-resource-accounts.md) en línea o una [cuenta de recursos](configure-onprem-ra.md) local para cada operador automático y asigne números de teléfono y licencias. 
@@ -100,7 +100,7 @@ Cuando tenga una estructura sólida que satisfaga sus necesidades y un script qu
 > [!CAUTION]
 > Como se mencionó en [KB4480742](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019), no se recomienda mover los operadores automáticos de mensajería unificada de Exchange creados en el servidor 2015 a los servidores que ejecutan el servidor 2019. Por el momento, tendría que mantenerlas en un grupo de servidores de Skype empresarial Server 2015 que se ejecuten en el modo de coexistencia.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulta también
 
 [Planeación de la migración de Skype empresarial Server y Exchange Server](plan-um-migration.md)
 
@@ -114,8 +114,8 @@ Cuando tenga una estructura sólida que satisfaga sus necesidades y un script qu
 
 Mensajería unificada [de Exchange: responder y enrutar automáticamente las llamadas entrantes](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-[Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md) (Planeamiento de la conectividad híbrida entre Skype Empresarial Server y Office 365)
+[Planeación de la conectividad híbrida entre Skype empresarial Server y Microsoft 365 u Office 365](plan-hybrid-connectivity.md)
 
-[Configuración de la conectividad híbrida entre Skype Empresarial Server y Office 365](configure-hybrid-connectivity.md)
+[Configurar la conectividad híbrida entre Skype empresarial Server y Microsoft 365 u Office 365](configure-hybrid-connectivity.md)
 
 [KB4480742: las llamadas al acceso de suscriptor o al operador automático producen errores con Fast busy y el error "500 de servidor interno" después de mover objetos de contacto a Skype empresarial Server 2019](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)

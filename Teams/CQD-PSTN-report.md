@@ -3,7 +3,7 @@ title: Usar el informe de enrutamiento directo RTC de CQD
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: siunies
+ms.reviewer: siunies, fan.fan
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,19 +15,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Use el informe de enrutamiento directo RTC de CQD para supervisar y solucionar problemas de llamadas RTC en Microsoft Teams.
-ms.openlocfilehash: 32d91d56e51c5706c3e460029312f3b6bb6948c3
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: a3a7d84a21858b8cb2039f3f5bb6efde6b9adaaa
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559614"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221754"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Usar el informe de enrutamiento directo RTC de CQD
 
 Novedades de marzo de 2020 hemos agregado un informe de enrutamiento directo de la RTC de CQD a nuestras [plantillas de consultas descargables de Power BI para el CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 
-El informe de enrutamiento directo de la RTC de CQD ayuda a los clientes a comprender los patrones de uso y la calidad de sus servicios de RTC monitoran información sobre su SBC, el servicio de telefonía, los parámetros de red y la relación de la efectividad de la red y el uso de la Service. Esta información puede ayudarte a identificar los problemas, incluido el motivo de las llamadas interrumpidas. Por ejemplo, podrá saber cuándo disminuye el volumen, cuántas llamadas se verán afectadas por el motivo.
+El informe de enrutamiento directo de CQD de CQD (informe de enrutamiento directo de RTC de CQD. PBit) le ayuda a comprender los patrones de uso y la calidad de sus servicios RTC. Use este informe para supervisar el uso del servicio, información sobre el controlador de borde de sesión (SBC), el servicio de telefonía, los parámetros de red y los detalles de la relación de la efectividad de la red. Esta información puede ayudarte a identificar los problemas, incluido el motivo de las llamadas interrumpidas. Por ejemplo, podrás ver cuándo disminuye el volumen o cuántas llamadas se ven afectadas y por qué motivos.
+
 
 El informe de enrutamiento directo RTC de CQD tiene cuatro secciones:
 
@@ -39,6 +40,24 @@ El informe de enrutamiento directo RTC de CQD tiene cuatro secciones:
 
   - [Parámetros de red](#network-parameters)
 
+## <a name="highlights"></a>Saltar
+
+1. Analizar por tipo de llamada, SBC, autor de la llamada y país de la llamada
+
+   El informe de enrutamiento directo del CQD de CQD agrega métricas de confiabilidad y uso para todos los SBCs de su inquilino para los últimos 7, 30 o 180 días (6 meses). Puede analizar datos por tipo de llamada, SBC, autor de la llamada y país de la llamada. Si está interesado en un determinado país o SBC, podrá identificar los cambios en las tendencias durante el intervalo de tiempo seleccionado.
+   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Captura de pantalla de filtros disponibles en el informe de enrutamiento directo de CQD de CQD":::
+   
+2. Rastrear tendencias
+
+    El análisis de tendencias es esencial al intentar comprender la confiabilidad y el uso del servicio. Las tendencias por hora proporcionan un estrecho aspecto del rendimiento diario, lo que ayuda a identificar incidentes en tiempo real. Las tendencias diarias le permiten ver su estado del servicio desde una perspectiva a largo plazo. Es importante poder alternar entre los dos modos con la granularidad de datos adecuada. El informe de enrutamiento directo RTC de CQD proporciona información general de las tendencias de seis meses, tendencias diarias de 7 y 30 días y tendencias por hora para que pueda analizar el rendimiento de cada nivel.
+    :::image type="content" source="media/CQD-PSTN-report9.png" alt-text="Captura de pantalla de gráficos de tendencias en el informe de enrutamiento directo RTC de CQD":::
+
+3. Obtención de detalles de SBC o nivel de usuario
+
+   Hemos creado una capacidad de obtención de detalles en muchas categorías de datos de CQD, lo que le permite comprender rápidamente el uso o la distribución de confiabilidad en el nivel de usuario o de SBC. Al usar la obtención de detalles, puede poinpoint problemas rápidamente y comprender el impacto real de los usuarios. El informe de enrutamiento directo de CQD RTC ofrece obtención de detalles de las métricas de relación de detalles de servicio y eficacia de red. Haga clic en el punto de datos en el que está interesado para obtener detalles sobre la información de SBC o de nivel de usuario.
+   :::image type="content" source="media/CQD-PSTN-report10.png" alt-text="Captura de pantalla que muestra la capacidad de obtención de detalles en un punto de datos":::
+
+
 ## <a name="pstn-overview"></a>Información general de RTC
 
 El informe de enrutamiento directo RTC de CQD proporciona la siguiente información relacionada con el estado general del servicio durante los últimos 180 días.
@@ -49,7 +68,7 @@ Por ejemplo, si estás interesado en el uso general y en la salud de todas las l
 | **Llamar** | **Descripción**                                                                                                                                                 |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1            | Puede usar los filtros de la parte superior para explorar en profundidad y seleccionar ByotIn como tipo de llamada, abc.bca.contoso.com como controlador de panel de sesión y nosotros como país interno. |
-| 1            | Tendencia de uso durante los últimos 180 días. Puede encontrar el informe de detalles de uso en la página Detalles del servicio.                                                                     |
+| 2            | Tendencia de uso durante los últimos 180 días. Puede encontrar el informe de detalles de uso en la página Detalles del servicio.                                                                     |
 | 3            | Tendencia de posmarcado, latencia, vibración y pérdida de paquetes durante los últimos 180 días. Puede encontrar informes detallados en la página parámetros de red.                           |
 | 4            | Llamada simultánea y tendencia de usuario activo diario durante los últimos 180 días. Este gráfico puede ayudarte a comprender el volumen máximo del servicio.                            |
 | 5            | Motivo principal de finalización de la llamada la calidad de servicio afectada durante los últimos 180 días. Puede encontrar información sobre el estado del servicio en la página proporción de efectividad de red (NER).                    |

@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo enviar manualmente una solicitud de portabilidad.
-ms.openlocfilehash: db47bd98b165607be778000538756b8821340488
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: d4c0c594cd9cb26d3f0b8b054c140facd2733239
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827978"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224223"
 ---
 # <a name="manually-submit-a-port-order"></a>Enviar una solicitud de portabilidad manualmente
 
@@ -31,28 +31,28 @@ En algunos países y regiones, es posible que deba enviar manualmente una solici
 
 Siga los pasos descritos en este artículo para crear y enviar manualmente una solicitud de portabilidad si su país o región no aparecen en el [Asistente de migración del centro de administración de Microsoft Teams](transfer-phone-numbers-to-teams.md).
 
-## <a name="manually-submit-a-port-order-request"></a>Enviar manualmente una solicitud de portabilidad
+## <a name="manually-submit-a-new-port-order-request"></a>Enviar manualmente una solicitud de solicitud de portabilidad nueva
 
-Puede enviar una solicitud de servicio manualmente mediante la creación de una solicitud de servicio en el centro de administración de Microsoft 365 o mediante el envío de la carta de autorización (LOA) completa directamente al servicio de asistencia al cliente RTC de su región.
+Puede enviar una solicitud de servicio de forma manual mediante la creación de una solicitud de servicio enviando la carta de autorización (LOA) completa directamente al servicio de asistencia al cliente RTC de su región o en el centro de administración de Microsoft 365.
+
+### <a name="send-your-letter-of-authorization-directly-to-the-pstn-service-desk"></a>Enviar la carta de autorización directamente al servicio de asistencia al cliente de RTC
+
+Descargue la [loa](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) de su país o región, complete el formulario y, a continuación, envíelo al [servicio de asistencia al cliente de RTC](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) de su región:
+
+- En los Estados Unidos y Canadá, [Envíe su solicitud](mailto:ptn@microsoft.com).
+- En Europa, [envía tu solicitud](mailto:ptneu@microsoft.com).
+- En Asia, [envía tu solicitud](mailto:ptnapac@microsoft.com).
 
 ### <a name="submit-a-service-request-in-the-microsoft-365-admin-center"></a>Enviar una solicitud de servicio en el centro de administración de Microsoft 365
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft 365, vaya a **soporte técnico** > de**nueva solicitud de servicio**.  Si no ve **soporte** en la lista, agréguelo haciendo clic en **personalizar navegación** en el navegación izquierdo y, a continuación, seleccione la casilla **soporte técnico** .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft 365, vaya a **soporte técnico**de  >  **nueva solicitud de servicio**.  Si no ve **soporte** en la lista, agréguelo haciendo clic en **personalizar navegación** en el navegación izquierdo y, a continuación, seleccione la casilla **soporte técnico** .
 2. En el panel **¿necesita ayuda?** , seleccione **ponerse en contacto con el soporte técnico**.
 3. En el panel **contactar con soporte técnico** , haga lo siguiente:
 
     1. Escribe un título (por ejemplo, solicitud de solicitud de portabilidad) y una descripción de tu solicitud, confirma tu número de teléfono y dirección de correo electrónico y selecciona el método de contacto que prefieras.
-    2. En **datos adjuntos**, haga clic en **Agregar un archivo**y, a continuación, cargue la [loa](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md#letters-of-authorization-loas-for-transferring-numbers).
+    2. En **datos adjuntos**, haga clic en **Agregar un archivo**y, a continuación, cargue la [loa](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     3. Haga clic en **contactar conmigo**.
-
-### <a name="send-your-letter-of-authorization-directly-to-the-pstn-service-desk"></a>Enviar la carta de autorización directamente al servicio de asistencia al cliente de RTC
-
-Descargue la [loa](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md#letters-of-authorization-loas-for-transferring-numbers) de su país o región, complete el formulario y, a continuación, envíelo al [servicio de asistencia al cliente de RTC](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) de su región:
-
-- En los Estados Unidos, [Envíe su solicitud](mailto:ptn@microsoft.com).
-- En Europa, [envía tu solicitud](mailto:ptneu@microsoft.com).
-- En Asia, [envía tu solicitud](mailto:ptnapac@microsoft.com).
-  
+    
 ## <a name="what-else-should-you-know-about-number-porting"></a>¿Qué más tiene que saber sobre la portabilidad de números?
 
 - Para usar los planes de llamadas, debe comprar y asignar licencias a los usuarios. Vea [licencias de complementos de Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).

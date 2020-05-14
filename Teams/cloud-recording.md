@@ -16,12 +16,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e38b7fcfdbe8789604716410beca3c5d76975c29
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 58c264075608817ef805f7b6c58f8b39394fc369
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905502"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224233"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -40,11 +40,12 @@ Para que se graben las reuniones de los usuarios de un equipo, Microsoft Stream 
 - El usuario tiene suficiente espacio de almacenamiento en Microsoft Stream para guardar las grabaciones
 - El usuario tiene el parámetro TeamsMeetingPolicy-AllowCloudRecording definido como true
 - El usuario no es un usuario anónimo, Invitado o federado en la reunión
+- Para habilitar la transcripción de la reunión de un usuario, la política de reuniones de Teams a la que están asignadas debe tener el valor-AllowTranscription se debe establecer en true.
 
-> [!NOTE]
-> Además, para permitir que la persona que inicia la grabación elija si la grabación se transcribe automáticamente, la opción TeamsMeetingPolicy -AllowTranscription del usuario debe establecerse en true.
+<sup>1</sup> el usuario debe tener licencia para cargar o descargar reuniones a o desde Microsoft Stream; sin embargo, no necesitan la licencia para grabar una reunión. Si no desea que un usuario pueda grabar una Reunión de Microsoft Teams, debe otorgar una TeamsMeetingPolicy que tenga la opción AllowCloudRecording establecida en $False.
 
-<sup>1</sup>El usuario debe disponer de una licencia para cargar y descargar reuniones en Microsoft Stream, pero no se necesita la licencia para grabar una reunión. Si no desea que un usuario pueda grabar una Reunión de Microsoft Teams, debe otorgar una TeamsMeetingPolicy que tenga la opción AllowCloudRecording establecida en $False.
+> [!IMPORTANT] 
+> Los usuarios no necesitarán una licencia de Microsoft Stream asignada si desea que los usuarios solo puedan grabar y descargar las grabaciones. Esto significa que las grabaciones no se almacenan en Microsoft Stream, sino que se almacenan en el servicio multimedia de Azure (AMS) con un límite de 30 días antes de que se elimine. En este momento, no es algo que un administrador pueda controlar o administrar, incluida la posibilidad de eliminarlo.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Configurar la grabación de reuniones en la nube de Teams para los usuarios de su organización
 
@@ -54,7 +55,7 @@ En esta sección se explica cómo puede configurar y planear la grabación de re
 
 Microsoft Stream está disponible como parte de las suscripciones Microsoft 365 y Office 365 y como un servicio independiente.  Para obtener más información, consulte [Información general sobre licencias de Stream](https://docs.microsoft.com/stream/license-overview)  Microsoft Stream está ahora incluido en Microsoft 365 Business, Microsoft 365 Business Standard y Microsoft 365 Business Basic.
 
-Obtenga más información sobre cómo [asignar licencias a los usuarios en Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) de modo que los usuarios puedan tener acceso a Microsoft Stream. Asegúrese de que Microsoft Stream no esté bloqueado para los usuarios, como se define en [este artículo](https://docs.microsoft.com/stream/disable-user-organization).
+Obtenga más información sobre cómo [asignar licencias a los usuarios en Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) de modo que los usuarios puedan tener acceso a Microsoft Stream. Asegúrese de que Microsoft Stream no esté bloqueado para los usuarios, tal como se define en [bloquear la suscripción a Microsoft Stream](https://docs.microsoft.com/stream/disable-user-organization).
 
 ### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>Asegurarse de que los usuarios tienen permisos de carga de vídeo en Microsoft Stream
 
@@ -132,7 +133,7 @@ Para cambiar el valor de AllowCloudRecording en la directiva global, use el sigu
 
 ### <a name="planning-for-storage"></a>Planificación de almacenamiento
 
-El tamaño de una grabación de 1 hora es de 400 MB. Asegúrese de entender la capacidad necesaria para los archivos grabados y de disponer de suficiente espacio de almacenamiento en Microsoft Stream.  Lea [este artículo](https://docs.microsoft.com/stream/license-overview) para obtener información sobre el almacenamiento básico incluido en la suscripción y cómo comprar almacenamiento adicional.
+El tamaño de una grabación de 1 hora es de 400 MB. Asegúrese de entender la capacidad necesaria para los archivos grabados y de disponer de suficiente espacio de almacenamiento en Microsoft Stream.  Lea la [información general sobre licencias de Microsoft Stream](https://docs.microsoft.com/stream/license-overview) para comprender el almacenamiento básico incluido en la suscripción y cómo comprar almacenamiento adicional.
 
 ## <a name="manage-meeting-recordings"></a>Administrar grabaciones de reuniones
 
@@ -140,7 +141,6 @@ Las grabaciones de reuniones se consideran contenidos propiedad del espacio empr
 
 > [!NOTE]
 > Para obtener más información sobre cómo administrar grabaciones y acceso de usuarios, consulte [Administrar datos de usuario en Microsoft Stream](https://docs.microsoft.com/stream/managing-user-data) y [Permisos y privacidad en Microsoft Stream](https://docs.microsoft.com/stream/portal-permissions).
-
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Cumplimiento y eDiscovery para grabaciones de reuniones
 

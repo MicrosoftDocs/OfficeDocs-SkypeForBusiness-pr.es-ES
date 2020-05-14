@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Lea este tema para obtener información sobre la administración de salas de Microsoft Teams, la nueva generación de sistemas de salas de Skype.
-ms.openlocfilehash: 1fecf852c11e7ab89e0cdc7dc6caf615182e7d5f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 109d07bdf7b4925f7c3d0481e1ff7facef3de8f8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157767"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "43580708"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Mantenimiento y operaciones de salas de Microsoft Teams 
  
@@ -31,10 +31,10 @@ Con la configuración adicional, la administración remota puede usar Microsoft 
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Recopilar registros en salas de Microsoft Teams
 <a name="Logs"> </a>
 
-Para recopilar registros, debe invocar el script de la colección de registros que se incluye con la aplicación salas de Microsoft Teams. En el modo de administración, inicie un símbolo del sistema de PowerShell con privilegios elevados y emita el siguiente comando:
+Para recopilar registros, debe invocar el script de la colección de registros que se incluye con la aplicación salas de Microsoft Teams. En el modo de administración, inicie un símbolo del sistema con privilegios elevados y emita el siguiente comando:
   
 ```PowerShell
-c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
+powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
 ```
 
 Los registros se mostrarán como un archivo ZIP en c:\rigel.
@@ -75,10 +75,10 @@ La tabla siguiente resume las operaciones remotas posibles y los métodos que se
 En esta sección se describe la configuración del sistema de donde depende Microsoft Teams Rooms para funcionar correctamente. Al unir salas de Microsoft Teams a un dominio, asegúrese de que la Directiva de grupo no invalide la configuración de la tabla siguiente.
   
 
-|Configuración|Posible|
+|Setting|Posible|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Permite arrancar las salas de Microsoft Teams  <br/> |
-|Administración de energía\> : on AC, apagar la pantalla después de 10 minutos  <br/> Administración de energía\> : on AC, no poner el sistema en suspensión  <br/> |Permite que las salas de Microsoft Teams desactiven las pantallas adjuntas y se reactiven automáticamente.  <br/> |
+|Administración de energía: \> on AC, apagar la pantalla después de 10 minutos  <br/> Administración de energía: \> on AC, no poner el sistema en suspensión  <br/> |Permite que las salas de Microsoft Teams desactiven las pantallas adjuntas y se reactiven automáticamente.  <br/> |
 |net accounts /maxpwage:unlimited  <br/> O medios alternativos para deshabilitar la opción de caducidad de la contraseña en la cuenta local. Si esto no se realiza, la cuenta de Skype no podrá iniciar sesión indicando que la contraseña ha caducado. Tenga en cuenta que esto afectará todas las cuentas locales de la máquina y, por consiguiente, si no se configura esto, la cuenta administrativa del cuadro eventualmente también caducará.  <br/> |Permite que la cuenta de Skype siempre inicie sesión  <br/> |
    
 La transferencia de archivos mediante directivas de grupo se trata en [configurar un elemento de archivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
@@ -112,8 +112,8 @@ Para ejecutar una operación de administración:
 1. Inicie sesión en un equipo PC con credenciales de cuenta que tengan permiso para ejecutar comandos de PowerShell en un dispositivo de salas de Microsoft Teams.
 2. Abra un símbolo del sistema de PowerShell normal en el equipo.
 3. Copie el texto del comando de la tabla siguiente y péguelo en el símbolo del sistema.
-4. Reemplace `<Device fqdn>` los campos con valores FQDN apropiados para su entorno.
-5. Reemplazar * \<path\> * con el nombre de archivo y la ruta de acceso local del archivo de configuración Master SkypeSettings. XML (o la imagen del tema).
+4. Reemplace los `<Device fqdn>` campos con valores FQDN apropiados para su entorno.
+5. Reemplazar * \< path \> * con el nombre de archivo y la ruta de acceso local del archivo de configuración Master SkypeSettings. XML (o la imagen del tema).
     
 Para obtener dispositivos conectados
   
@@ -173,11 +173,11 @@ Si desea administrar las actualizaciones manualmente y no puede seguir el proced
 ### <a name="to-update-using-powershell"></a>Para actualizar con PowerShell
 
 1. Extrae el paquete del [MSI](https://go.microsoft.com/fwlink/?linkid=851168) de instalación a un recurso al que pueda acceder el dispositivo.
-2. Ejecute la siguiente secuencia de comandos dirigida a los dispositivos de salas de \<Microsoft\> Teams, lo que cambia el uso compartido en el dispositivo compartido según corresponda:
+2. Ejecute la siguiente secuencia de comandos dirigida a los dispositivos de salas de Microsoft Teams, lo que cambia el \< uso compartido \> en el dispositivo compartido según corresponda:
     
-```PowerShell
-Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
-```
+    ```PowerShell
+    Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
+    ```
 
 ## <a name="admin-mode-and-device-management"></a>Modo de administrador y administración de dispositivos
 <a name="AdminMode"> </a>

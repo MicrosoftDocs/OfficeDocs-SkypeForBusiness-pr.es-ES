@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: En este artículo se enumeran las topologías en línea y locales que se admiten con la autenticación moderna en Skype empresarial, así como las características de seguridad que se aplican a cada topología.
-ms.openlocfilehash: 8c580b5ddbc38073960885375b74c73222ee272d
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 443980f6ecf2bdf170974bf0fdc0dd64f3657e67
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898115"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219700"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Topologías de Skype empresarial compatibles con la autenticación moderna
 
@@ -35,7 +35,7 @@ Skype empresarial, Skype empresarial online, Exchange Server y Exchange Online, 
 
 ### <a name="supported-ma-topologies-in-skype-for-business"></a>Topologías MA admitidas en Skype empresarial
 
-Hay potencialmente dos aplicaciones de servidor y dos cargas de trabajo de Office 365, relacionadas con las topologías de Skype empresarial que usa MA.
+Existen potencialmente dos aplicaciones de servidor y dos cargas de trabajo de Microsoft 365 u Office 365, relacionadas con las topologías de Skype empresarial que usa MA.
 
 - Skype empresarial Server (CU 5) local
 
@@ -76,7 +76,7 @@ En primer lugar, vamos a cubrir MA con Skype empresarial en topologías solo loc
 > [!IMPORTANT]
 > ¿Está listo para configurar la autenticación moderna en Skype empresarial online? Los pasos para habilitar esta característica están justo [aquí](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx).
 
-|Nombre de topología  <br/> |Ejemplo  <br/> |Description  <br/> |Compatible.  <br/> |
+|Nombre de topología  <br/> |Ejemplo  <br/> |Descripción  <br/> |Compatible  <br/> |
 |:-----|:-----|:-----|:-----|
 |Solo nube  <br/> |![SFB compatible con topología de MA, solo nube.](../../media/4d19b47f-8257-4a6f-9dab-0755206f7c52.PNG)Usuarios hospedados/buzones ubicados: en línea  <br/> |MA está activado para EXO y SFBO.  <br/> Por lo tanto, el servidor de autorización es Azure AD.  <br/> |Autenticación multifactor (MFA), autenticación basada en certificados de cliente (CBA), acceso condicional (CA)/Mobile de administración de aplicaciones (MAM) con Intune. \*  <br/> |
 |Solo local  <br/> |![SFB compatible con topología de MA, solo local.](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)Usuarios hospedados/buzones ubicados: local  <br/> |MA está activado para SFB local.  <br/> Por lo tanto, el servidor de autorización es ADFS.  <br/> Para obtener más información sobre la configuración, consulte [este artículo.](https://technet.microsoft.com/library/mt710548.aspx) <br/> |MFA (solo escritorio de Windows: no se admiten los clientes móviles). No hay características de integración de Exchange.  <br/><p> **No se recomienda este enfoque. Consulte aquí:**[https://aka.ms/ModernAuthOverview](https://aka.ms/ModernAuthOverview)<p/> |
@@ -86,7 +86,7 @@ En primer lugar, vamos a cubrir MA con Skype empresarial en topologías solo loc
 
 Las topologías mixtas implican combinaciones de híbridos de dominio dividido de SFB. Estas son las topologías mixtas compatibles actualmente:
 
-|Nombre de topología  <br/> |Ejemplo  <br/> |Description  <br/> |Compatible.  <br/> |
+|Nombre de topología  <br/> |Ejemplo  <br/> |Descripción  <br/> |Compatible  <br/> |
 |:-----|:-----|:-----|:-----|
 |Mezclado 1  <br/> |![SFB compatible con topología de MA, Mixed 1 (EXO + SFB).](../../media/7b2e607a-c83a-4bb3-9b48-a43566516129.PNG)           <br/> Usuarios hospedados/buzones ubicados: EXO y SFB  <br/> |MA no está habilitado para SFB; no hay características de MA de SFB disponibles en esta topología.  <br/> |No hay características MA para SFB.  <br/> |
 |Mixto 2  <br/> |![MA compatible con S4B Mixed Topology 2, SFBO Plus MA trabajando con EXCH local.](../../media/247a985d-39cd-4c16-a19e-b8b65207d82e.PNG)           <br/> Usuarios hospedados/buzones ubicados: EXCH y SFBO  <br/> |MA solo está activado para SFBO. El servidor de autorización es Azure AD para los usuarios hospedados en SFBO, pero AD para EXCH local.  <br/> |MFA, CBA, CA/MAM con Intune.\*  <br/> |

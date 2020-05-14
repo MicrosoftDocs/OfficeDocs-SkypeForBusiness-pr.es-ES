@@ -1,5 +1,5 @@
 ---
-title: Planeación del desvío de medios en Cloud Connector Edition
+title: Plan para la omisión de medios en Cloud Connector Edition
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Lea este tema para revisar las consideraciones de planeación para implementar la omisión de medios con Cloud Connector Edition, versión 2,0 y posteriores. Para obtener información sobre la implementación de la omisión de medios, vea deploy media bypass in Cloud Connector Edition.
-ms.openlocfilehash: f9da5df4815c731b479f5d2333f26546be0daf4c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 568fa13584a44540d8351ea2eb32475c1d276ff7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778786"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220260"
 ---
-# <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planeación del desvío de medios en Cloud Connector Edition
+# <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Plan para la omisión de medios en Cloud Connector Edition
  
 Lea este tema para revisar las consideraciones de planeación para implementar la omisión de medios con Cloud Connector Edition, versión 2,0 y posteriores. Para obtener información sobre la implementación de la omisión de medios, vea [deploy media bypass in Cloud Connector Edition](deploy-media-bypass-in-cloud-connector.md).
   
@@ -37,7 +37,7 @@ La omisión de medios puede mejorar la calidad de la voz al reducir la latencia,
 
 Mientras que la señalización toma la misma ruta de acceso con o sin omisión de medios, el flujo de medios será diferente. En los siguientes diagramas se muestran los medios y las rutas de señalización en topologías con desvío de medios y sin ellos. 
   
-Por ejemplo, en la siguiente topología, que no emplea la omisión de medios, un cliente de Skype empresarial realiza una llamada RTC a un número externo, la señalización SIP va a Office 365 y Office 365, a continuación, dirige el tráfico de señalización de acuerdo con la Directiva de voz del usuario final. Para los usuarios de Cloud Connector, la Directiva de voz dirige el tráfico de señalización al servidor perimetral de Cloud Connector, que luego enruta el tráfico de señalización a un controlador de borde de sesión (SBC) o una puerta de enlace de sesión RTC a través del servidor de mediación de Cloud Connector. Los medios fluyen desde el cliente de Skype empresarial al servidor de mediación de Cloud Connector y, a continuación, a la SBC o la puerta de enlace, como se muestra en el siguiente diagrama:
+Por ejemplo, en la siguiente topología, que no emplea la omisión de medios, un cliente de Skype empresarial realiza una llamada RTC a un número externo, la señalización SIP va a Microsoft 365 u Office 365, que dirige el tráfico de señalización según la Directiva de voz del usuario final. Para los usuarios de Cloud Connector, la Directiva de voz dirige el tráfico de señalización al servidor perimetral de Cloud Connector, que luego enruta el tráfico de señalización a un controlador de borde de sesión (SBC) o una puerta de enlace de sesión RTC a través del servidor de mediación de Cloud Connector. Los medios fluyen desde el cliente de Skype empresarial al servidor de mediación de Cloud Connector y, a continuación, a la SBC o la puerta de enlace, como se muestra en el siguiente diagrama:
   
 **Rutas de señalización y medios sin desvío de medios**
 
@@ -59,7 +59,7 @@ La omisión de medios también es útil cuando se desea proporcionar servicios d
 
 ![Ejemplo de multisitio de Cloud Connector](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
-1. El tráfico SIP fluye desde el usuario de Zurich a Office 365.
+1. El tráfico SIP fluye desde el usuario en Zurich a Microsoft 365 u Office 365.
     
 2. A continuación, el tráfico se dirige al dispositivo de Cloud Connector en Amsterdam como se especifica en la Directiva de enrutamiento de voz de usuario.
     
