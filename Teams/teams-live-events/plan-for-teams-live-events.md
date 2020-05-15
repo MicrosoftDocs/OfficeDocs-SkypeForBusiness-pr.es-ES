@@ -18,12 +18,12 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 51c81bb5c9ec945d7a7c47021a6a0af705c98883
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: e997b667b02ef2c3b68e5c751b619098e9e740e4
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042857"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224243"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -35,14 +35,16 @@ Cualquiera puede asistir a un evento en directo sin una licencia. Lea [Inicio r�
 
 Para que el usuario programe un evento en directo de Teams se requieren los siguientes requisitos previos.
 
-Deben asignarse las siguientes licencias:  
+Estas son las licencias que debe asignar para producir o presentar un evento de Teams en directo:  
 
-- Una licencia de Office 365 Enterprise E1, E3 o E5 o una licencia de Office 365 a3 o A5
-- Una licencia de Microsoft Teams
-- Una licencia de Microsoft Stream
+- Una licencia de Microsoft o de Office 365 Enterprise E1, E3 o E5 o una licencia de Office 365 Educación A3 o A5.
+- Una licencia de Microsoft Teams. - esta se incluye en las licencias anteriores. 
+- Se requiere una licencia de Microsoft Stream si tiene previsto compartir el contenido en una aplicación o dispositivo externo. Consulte [licencias de Microsoft Stream](https://docs.microsoft.com/stream/license-overview). 
 
-> [!IMPORTANT]
-> El usuario que cree y programe un evento en directo debe tener un buzón de Exchange Online.
+  Los usuarios no necesitarán una licencia de Microsoft Stream asignada si quiere que los usuarios solo graben y descarguen las grabaciones. Esto significará que las grabaciones no se almacenan en Microsoft Stream, sino que se almacenan en Azure Media Services (AMS) con un límite de 30 días antes de que se eliminen. En este momento, no es algo que un administrador pueda controlar o administrar, incluida la capacidad de eliminarlo.
+
+> [!NOTE]
+> En este momento no hay planes de Microsoft 365 Small Business que puedan usarse para crear y mantener eventos en vivo de Teams.
 
 Para participar en un evento en directo como usuario autenticado se requiere una licencia de Office 365, pero este requisito depende del método de producción que se use:
 
@@ -81,6 +83,14 @@ El usuario debe tener:
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos y Difusión de reunión de Skype en Teams
 
 En la siguiente tabla, se resaltan las funciones y características principales ofrecidas en los eventos en directo y cómo estas se diferencian de la Difusión de reunión de Skype.
+
+> [!IMPORTANT]
+> **Aumentamos el límite de eventos en directo de Microsoft 365**
+> 
+> Para ayudar a los clientes a cumplir con unas necesidades de comunicación que cambian cada día, los eventos en directo de Microsoft 365 Live elevarán temporalmente sus límites predeterminados hasta el 1 de julio de 2020 para eventos en directo alojados en Teams. A finales de abril de 2020 se comenzaron a elevar los siguientes límites:
+> - Límite de asistentes: los eventos pueden dar cabida a hasta 20 000 asistentes.
+> - Eventos simultáneos: 50 eventos se pueden hospedar de forma simultánea en un espacio empresarial.
+> - Duración del evento: se ha aumentado la duración del evento hasta a 16 horas por difusión.
 
 |**Función**   |**Difusión de reunión de Skype** |**Eventos producidos en Teams** |**Eventos producidos en las aplicaciones o dispositivos externos** |
 |---------|---------|---------|---------|
@@ -123,17 +133,29 @@ Puede usar los eventos en directo de Teams en varias regiones a través de todo 
 
 **Disponible en estos centros de datos regionales **
 
-- América
+- Norteamérica
+- Centroamérica
+- Sudamérica
 - Asia Pacífico
 - Europa / África
 
-** Ubicación de los datos de estos países **
-
+**Ubicación de los datos para estos países y regiones (compatibles)**
 - Australia
 - Canada
 - India
 - Japón
 - Reino Unido
+
+**Estos países o regiones y estas nubes no son compatibles**
+- Alemania
+- Francia
+- Noruega
+- Sudáfrica
+- Corea del Sur
+- Suiza
+- EMIRATOS ÁRABES UNIDOS
+- Government Community Cloud (GCC)-H
+- REQUISITODOD
 
 **Exclusiones y permisos**
 
