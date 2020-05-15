@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Kenia.
-ms.openlocfilehash: 20a71aad93f88d8eb0204e290f7c74f52a29ba43
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Kenia.
+ms.openlocfilehash: 87d93c2de04730289272b99f34fa68c1cf7dbb14
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853195"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231119"
 ---
 # <a name="availability-in-kenya"></a>Disponibilidad en Kenia
 
-[Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
+[Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Kenia.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Kenia.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -44,14 +44,14 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |No  <br/> |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicaciones  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿El sistema telefónico está disponible para la compra?  <br/> |Sí  <br/> |
-| Operadores automáticos <br/> |Disponible  <br/> |
+| Operadores automáticos <br/> |Disponible  <br/> |
 |Colas de llamadas  <br/> |Disponible  <br/> |
 |Correo de voz  <br/> |Disponible  <br/> |
    
@@ -63,14 +63,14 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 |Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
 
-Si los planes de llamadas no están disponibles para su compra, considere la posibilidad de usar el [enrutamiento directo del sistema telefónico](../direct-routing-landing-page.md). Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier operador de telefonía.
+Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el [enrutamiento directo del sistema telefónico](../direct-routing-landing-page.md). Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier proveedor de servicios de telefonía.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |Nairobi0 ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
-|¿Hay números de pago disponibles?  <br/> |Sí ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|¿Hay números de pago disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    
  Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).

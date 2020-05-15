@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Administración remota de la configuración predeterminada usada por un dispositivo de salas de Microsoft Teams, incluida la aplicación de un tema personalizado y la creación de un archivo de configuración maestra.
-ms.openlocfilehash: 0bc693d8bee35b37184d0dcb38831b396b34b97c
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 8d723423cc8e93429d193f4340eceddcc55ca10d
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510769"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230508"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Administrar de forma remota la configuración de la consola de salas de Microsoft Teams con un archivo de configuración XML
 
@@ -46,6 +46,7 @@ Cualquier editor de texto se puede usar para crear un archivo de configuración.
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
+    <AutoAcceptProximateMeetingInvitations>false</AutoAcceptProximateMeetingInvitations>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
     <DualScreenMode>true</DualScreenMode>
@@ -83,7 +84,7 @@ Si un valor de variable es de un tipo incorrecto, los elementos están fuera de 
 |\<SkypeSettings\> |Contenedor de todos los elementos. ||Obligatorio. |
 | \<AutoScreenShare\>  |&#x2777; Boolean  |Primer &#x2776;  | Si se cumple, se habilita el uso compartido de pantalla automático.  |
 |\<HideMeetingName\> |&#x2777; Boolean  |Primer &#x2776;  |Si se cumple, se ocultan los nombres de la reunión. |
-|\<Cuentadeusuario\> |Contenedor |Primer &#x2776;  |Contenedor para parámetros de credenciales. La dirección de inicio de sesión, la dirección de Exchange o la dirección de correo electrónico suelen ser iguales<span></span>, como RanierConf @contoso. com. |
+|\<Cuentadeusuario\> |Contenedor |Primer &#x2776;  |Contenedor para parámetros de credenciales. La dirección de inicio de sesión, la dirección de Exchange o la dirección de correo electrónico suelen ser iguales, como RanierConf <span></span> @contoso. com. |
 |\<SkypeMeetingsEnabled\>  |&#x2777; Boolean  |Primer &#x2776;  |Está habilitado de forma predeterminada. |
 |\<SkypeSignInAddress\> |Cadena &#x2778;  ||El nombre de inicio de sesión de la cuenta del dispositivo de SfB o Teams de la consola. |
 |\<ExchangeAddress\> |Cadena &#x2778;  ||El nombre de inicio de sesión de la cuenta de dispositivo de Exchange de la consola. Si se omite ExchangeAddress, SkypeSignInAddress no se volverá a usar automáticamente. |
@@ -91,9 +92,10 @@ Si un valor de variable es de un tipo incorrecto, los elementos están fuera de 
 |\<DomainUsername\> |Cadena &#x2778;  ||El dominio y el nombre de usuario del dispositivo de consola; por ejemplo, Seattle\RanierConf. |
 |\<Contraseña\> |Cadena 3  || El parámetro de contraseña es la misma contraseña que se utiliza para iniciar sesión con la cuenta del dispositivo de Skype Empresarial.   |
 | \<ConfigureDomain\>  |Cadena &#x2778;  ||Puede enumerar varios dominios, separados por comas. |
-|\<TeamsMeetingsEnabled\> |&#x2777; Boolean  |Primer &#x2776;  |Está deshabilitado de forma predeterminada. <br/> <br/> El archivo XML se considera incorrecto si \<tanto SkypeMeetingsEnabled\> como\<TeamsMeetingsEnabled\> están deshabilitados, pero es aceptable que ambas configuraciones estén habilitadas al mismo tiempo. |
+|\<TeamsMeetingsEnabled\> |&#x2777; Boolean  |Primer &#x2776;  |Está deshabilitado de forma predeterminada. <br/> <br/> El archivo XML se considera incorrecto si tanto \< SkypeMeetingsEnabled \> como \< TeamsMeetingsEnabled \> están deshabilitados, pero es aceptable que ambas configuraciones estén habilitadas al mismo tiempo. |
 |\<IsTeamsDefaultClient> |&#x2777; Boolean  |Primer &#x2776;  |Está deshabilitado de forma predeterminada. |
 |\<BluetoothAdvertisementEnabled> |&#x2777; Boolean  |Primer &#x2776;  |Está habilitado de forma predeterminada. |
+|\<AutoAcceptProximateMeetingInvitations> |&#x2777; Boolean  |Primer &#x2776;  |Si el valor es true, las reuniones basadas en la proximidad se aceptan automáticamente. Está deshabilitado de forma predeterminada. |
 |\<DualScreenMode\>  |&#x2777; Boolean  |Primer &#x2776;  |Si es verdadero, el modo de pantalla doble está habilitado. De lo contrario, el dispositivo usa el modo de pantalla simple. |
 | \<DuplicateIngestDefault\> |&#x2777; Boolean  |Primer &#x2776; |Si es verdadero, el contenido se muestra en las dos pantallas en el modo de pantalla doble, cuando está fuera de la reunión. | 
 |\<SendLogs\> |Contenedor |Primer &#x2776;  |  |
@@ -109,7 +111,7 @@ Si un valor de variable es de un tipo incorrecto, los elementos están fuera de 
 | \<Temas\>  |Contenedor |Primer &#x2776;  |Una de las características que se pueden aplicar con un archivo XML es un tema personalizado para su organización. Puede especificar un nombre de tema, una imagen de fondo y un color. |
 |\<ThemeName\> |Cadena &#x2778;  || Se usa para identificar el tema en el cliente. Las opciones de nombre de tema son la opción predeterminada, uno de los temas prestablecidos que se proporcionan o la opción personalizada. <br/>  Los nombres de temas personalizados siempre usan el nombre *personalizado*. La interfaz de usuario de cliente se puede establecer en la consola en el valor predeterminado o uno de los valores preestablecidos, pero un administrador debe configurar el uso de un tema personalizado de forma remota. <br/>  Los temas prestablecidos incluyen:  <br/>  Predeterminado <br/>  Ondas azules (Blue Wave) <br/>  Bosque digital (Digital Forest) <br/>  Atrapasueños (Dreamcatcher) <br/>  Limanada (Limeade) <br/>  Píxel perfecto (Pixel Perfect) <br/>  Mapa de ruta (Roadmap) <br/>  Atardecer (Sunset) <br/>  Para deshabilitar el tema actual, use "sin tema" para el ThemeName.  |
 |\<CustomThemeImageUrl\> |Cadena &#x2778;  ||Necesario para un tema personalizado; en caso contrario, opcional. Escribe solo el nombre de archivo.   |Para obtener más información sobre la imagen del tema personalizado, vea la sección [imágenes de temas personalizados](xml-config-file.md#Themes) .
-|\<CustomThemeColor\> |Contenedor ||Contenedor de los \<valores\>RedComponent \<,\>GreenComponent y \<BlueComponent\> . Estos valores son obligatorios para un tema personalizado. |
+|\<CustomThemeColor\> |Contenedor ||Contenedor de los \< \> valores RedComponent, \< GreenComponent \> y \< BlueComponent \> . Estos valores son obligatorios para un tema personalizado. |
 |\<RedComponent\> |Byte (0-255) ||Representa el componente de color rojo. |
 |\<GreenComponent\> |Byte (0-255) ||Representa el componente de color verde. |
 |\<BlueComponent\> |Byte (0-255) ||Representa el componente de color azul. | 
@@ -123,7 +125,7 @@ Si un valor de variable es de un tipo incorrecto, los elementos están fuera de 
   
 ## <a name="manage-console-settings-with-an-xml-configuration-file"></a>Administrar la configuración de la consola con un archivo XML de configuración
 
-En el inicio, si una consola de salones de Microsoft Teams encuentra un archivo XML denominado SkypeSettings `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`. XML que se encuentra en, aplica la configuración indicada por el archivo XML y, a continuación, elimina el archivo XML.
+En el inicio, si una consola de salones de Microsoft Teams encuentra un archivo XML denominado SkypeSettings. XML `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` que se encuentra en, aplica la configuración indicada por el archivo XML y, a continuación, elimina el archivo XML.
   
 En función de Cuántos dispositivos de salas de Microsoft Teams tenga su empresa y de cómo elija administrarlos para configurarlos, hay varias maneras de ubicar el archivo de configuración XML. Una vez que el archivo se inserte en la consola, reinícielo para procesar los cambios en la configuración. El archivo XML de configuración se eliminará una vez que se procese correctamente. Los métodos de administración sugeridos para los dispositivos de salas de Microsoft Teams se tratan en:
   
@@ -136,7 +138,7 @@ Puede utilizar el método que desee, siempre que pueda usarlo para transferir ar
 
 <a name="Themes"> </a>
 
-El archivo de imagen del tema personalizado debe colocarse`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` en la carpeta. Escriba el nombre de archivo y la extensión \<en\> la variable CustomThemeImageUrl.
+El archivo de imagen del tema personalizado debe colocarse en la `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` carpeta. Escriba el nombre de archivo y la extensión en la \< \> variable CustomThemeImageUrl.
   
 El archivo de imagen debe tener exactamente 3840X1080 píxeles y debe ser uno de los siguientes formatos de archivo: jpg, JPEG, PNG y BMP. Si su organización quiere una imagen personalizada, un diseñador gráfico puede usar la [plantilla de Photoshop tema personalizado](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd). Contiene más información sobre los distintos elementos de la interfaz de usuario relacionados con el resto de la imagen del tema y las áreas que aparecen en las consolas y pantallas.
   
@@ -148,13 +150,13 @@ Para ubicar la ruta de acceso de la instancia:
 
 1. Vaya a configuración de Windows en la consola de salones de Microsoft Teams.
 2. Escriba la contraseña de administrador.
-3. Desde un símbolo del sistema, `devmgmt.msc` escriba para abrir el administrador de dispositivos.
+3. Desde un símbolo del sistema, escriba `devmgmt.msc` para abrir el administrador de dispositivos.
 4. En el **Administrador de dispositivos**, mire en el nodo dispositivos de **imágenes** y busque la cámara de contenido.
 5. Haga clic con el botón derecho en la cámara y Abra **propiedades**.
 6. Seleccione la pestaña **detalles** y busque la propiedad de la ruta de acceso de la **instancia de dispositivo** en la lista desplegable.
-7. El valor que se muestra es la ruta de instancia de dispositivo que se establece en el archivo de configuración XML. Al especificar la ruta de acceso en XML, reemplace el símbolo de y comercial `&amp;`(&) con.
+7. El valor que se muestra es la ruta de instancia de dispositivo que se establece en el archivo de configuración XML. Al especificar la ruta de acceso en XML, reemplace el símbolo de y comercial (&) con `&amp;` .
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Cámaras de contenido](content-camera.md)
 

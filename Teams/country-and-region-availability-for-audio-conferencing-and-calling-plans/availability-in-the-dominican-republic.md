@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: A continuación se indican los servicios de Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para la República Dominicana.
-ms.openlocfilehash: 8a74c555bf95bea0729b02319d52fc3329448bcd
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
-ms.translationtype: HT
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles en la República Dominicana.
+ms.openlocfilehash: e9fe7aae6454ea7355c3cce80e396d6d11dd900b
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852277"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230558"
 ---
 # <a name="availability-in-the-dominican-republic"></a>Disponibilidad en la República Dominicana
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-A continuación se indican los servicios de Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para la República Dominicana.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles en la República Dominicana.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

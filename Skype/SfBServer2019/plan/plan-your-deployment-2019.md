@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumen: Explore estos vínculos para obtener información sobre cómo desarrollar diseños conceptuales, lógicos y físicos para configurar características, servidores y topologías de Skype empresarial Server 2019.'
-ms.openlocfilehash: 2948010c99019cbb3329c6770d56ff93fb6b86d7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 4c7b969c41761441889c5d0963b1a3c6b6b644f7
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42129473"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232371"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Planeación de la implementación de Skype empresarial Server 2019
  
@@ -62,4 +62,4 @@ Los recursos siguientes sobre cómo planear Skype empresarial Server están disp
 |:--- |:--- |:--- |
 |![Icono de DMC](../media/paragraph_writing.png)| [Skype empresarial Server para profesionales de ti](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Visite docs.microsoft.com y centros de recursos para obtener acceso a vídeos, sitios de la comunidad, documentación, descargas y mucho más.    |
 |![Icono para el contenido para desarrolladores](../media/developer.png)|[Plataforma para desarrolladores de Skype](https://go.microsoft.com/fwlink/?LinkId=619775)   | Encuentre recursos para desarrolladores de Skype empresarial Server, incluidos ejemplos de código, cursos y SDK.    |
-|![Icono para noticias, blogs, etc.](../media/blog_site.png) | <UL><LI>[Administración y adopción de cambios](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Blogs de Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Blog técnico de Office 365](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Blog del equipo de Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |Manténgase al día de las novedades de los equipos que crean y documentan Skype empresarial Server.    |
+|![Icono para noticias, blogs, etc.](../media/blog_site.png) | <UL><LI>[Administración y adopción de cambios](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Blogs de Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Blog técnico de 365 de Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Blog del equipo de Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |Manténgase al día de las novedades de los equipos que crean y documentan Skype empresarial Server.    |

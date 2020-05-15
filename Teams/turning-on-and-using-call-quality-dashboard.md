@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Más información sobre cómo activar y usar el panel de calidad de llamadas y obtener informes de Resumen de la calidad de las llamadas.
-ms.openlocfilehash: 59f905315eebe1e2f3e3b24b157eb198173a94e8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 9a1c7cb451f722d019a4119daf8ab9c3a08c810f
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44226029"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44243576"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y usar el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online
 
@@ -483,13 +483,13 @@ Cree informes detallados en el CQD y filtre por el identificador de la reunión 
 La telemetría no reconocerá el problema, pero puede ayudarlo a comprender mejor dónde mirar e informar de las decisiones. ¿Hay actualizaciones, uso o usuario de la red, el dispositivo, el controlador o el firmware?
 
 ### <a name="why-do-i-see-upto-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>¿Por qué veo una diferencia de hasta 0,2% en los valores de llamadas y usuarios recuentos de las medidas y cómo obtener los volúmenes más precisos? 
-Para calcular el número de llamadas y las medidas de recuento de usuarios, se realiza una operación de resume distinta en la llamada o en los identificadores de usuario del conjunto de datos. En conjuntos de datos grandes, hay un error inherient% de hasta 0,2 con el opeartion de contar.Si. Para obtener el volumen más preciso, debe basarse en las medidas de recuento de flujo porque no dependen de esta operación diferenciada de contar.Si. El filtrado para reducir el volumen de datos puede reducir el error, pero es posible que no elimnate esta fuente de errores en distintos números de llamadas y usuarios. Consulte las [dimensiones y medidas disponibles en el panel de calidad](dimensions-and-measures-available-in-call-quality-dashboard.md) de las llamadas para las que se ven afectadas las medidas.
+Para calcular el número de llamadas y las medidas de recuento de usuarios, se realiza una operación de resume distinta en la llamada o en los identificadores de usuario del conjunto de datos. En conjuntos de datos grandes, existe un error de hasta 0,2% inherente a la operación DISTINCT contar.Si. Para obtener el volumen más preciso, debe basarse en las medidas de recuento de flujo porque no dependen de esta operación diferenciada de contar.Si. El filtrado para reducir el volumen de datos puede reducir el error, pero no puede eliminar esta fuente de error en distintos números de llamadas y usuarios. Consulte las [dimensiones y medidas disponibles en el panel de calidad](dimensions-and-measures-available-in-call-quality-dashboard.md) de las llamadas para las que se ven afectadas las medidas.
 
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>¿Por qué la apariencia de los datos del informe de CQD V2 es diferente de la de los datos del informe del CQD V3? 
 
 Si ve diferencias de datos entre el CQD versión 2 y el V3, asegúrese de que la comparación o validación de datos se realiza en un nivel de "Apple to-manzanas" y en un nivel estrecho, no en un nivel agregado. Por ejemplo, si filtra los informes de MSIT ' crear 30 ' datos de cliente de escritorio de WiFi Teams, el porcentaje de mala calidad debe ser el mismo entre V2 y V3.
 
-La clasificación CQDv2 para llamada error se Inly considerar solo para la modalidad de "audio", en CQDv3 esta clasificación se produce para cada modalidad (audio, vídeo y uso compartido) y se representa en el flujo de modalidad respectivo. 
+La clasificación CQDv2 para llamada error solo se tiene en cuenta para el "audio" modal, en CQDv3 esta clasificación se produce para cada modalidad (audio, vídeo y uso compartido) y se representa en el flujo de moda respectivo. 
 
 Para Teams, CQDv2 aplica los mismos comentarios de los usuarios a todas las modalidades CQDv3 aplica la base de comentarios para la modalidad de los equipos.
 

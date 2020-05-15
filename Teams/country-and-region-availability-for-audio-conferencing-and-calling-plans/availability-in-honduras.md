@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: A continuación se indican los servicios de Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para Honduras.
-ms.openlocfilehash: 2ce7e1b3b6bcd777381f83073c1548b1a8d2cc2c
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
-ms.translationtype: HT
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Honduras.
+ms.openlocfilehash: 8394dd859a1fb9cdd06f6a8b02fa1dd54db6bec1
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853366"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230728"
 ---
 # <a name="availability-in-honduras"></a>Disponibilidad en Honduras
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-A continuación se indican los servicios de Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para Honduras.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Honduras.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: A continuación se indican los servicios de Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para Argentina.
-ms.openlocfilehash: 0c92eddc078138dc8faaee7297bd80f17e6a7330
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
-ms.translationtype: HT
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Argentina.
+ms.openlocfilehash: 96956aefc5e26e90372c5cf7751e45c865876c7f
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853935"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230478"
 ---
 # <a name="availability-in-argentina"></a>Disponibilidad en Argentina
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-A continuación se indican los servicios de Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para Argentina.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Argentina.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

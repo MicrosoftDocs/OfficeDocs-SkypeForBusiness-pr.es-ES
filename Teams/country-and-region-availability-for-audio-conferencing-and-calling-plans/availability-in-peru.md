@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: A continuación se indican los servicios de Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para Perú.
-ms.openlocfilehash: 00bc382da30ab7aeedb9f0a275d81e621e9a567f
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
-ms.translationtype: HT
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Perú.
+ms.openlocfilehash: 19ef892fd3b4ba8499d08f8df034882e76285586
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852727"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230989"
 ---
 # <a name="availability-in-peru"></a>Disponibilidad en Perú
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-A continuación se indican los servicios de Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para Perú.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Perú.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

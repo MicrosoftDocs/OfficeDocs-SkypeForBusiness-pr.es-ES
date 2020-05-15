@@ -17,18 +17,18 @@ description: Aprenda a configurar el enrutamiento directo de las llamadas de Mic
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b76f8605aa1151911c26e0724db161b3a497fcf6
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 45e0523086ab985a488da15305fffbed8c57b0dc
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164559"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232581"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
 Las llamadas de emergencia dinámicas para los planes de llamadas de Microsoft y el enrutamiento directo del sistema telefónico proporcionan la capacidad de configurar y enrutar llamadas de emergencia y de notificar al personal de seguridad en función de la ubicación actual del cliente de Teams.  
 
-En función de la topología de red que defina el administrador de inquilinos, el cliente de Teams proporciona información de conectividad de red en una solicitud al servicio de información de ubicación (LIS).  Si hay una coincidencia, el LIS devuelve una ubicación al cliente. Los datos de esta ubicación se transmiten de vuelta al cliente.  
+En función de la topología de red que defina el administrador de inquilinos, el cliente de Teams proporciona información de conectividad de red en una solicitud al servicio de información de ubicación (LIS). Si hay una coincidencia, el LIS devuelve una ubicación al cliente. Los datos de esta ubicación se transmiten de vuelta al cliente.  
 
 El cliente de Teams incluye datos de ubicación como parte de una llamada de emergencia. A continuación, el proveedor de servicios de emergencia utiliza estos datos para determinar el punto de respuesta de seguridad pública correspondiente (PSAP) y para enrutar la llamada a ese PSAP, lo que permite al distribuidor de PSAP obtener la ubicación del autor de la llamada.  
 
@@ -40,9 +40,9 @@ Para las llamadas de emergencia dinámicas, se debe hacer lo siguiente:
 
 2. Durante el inicio y después periódicamente, o cuando se cambia una conexión de red, el cliente de Teams envía una solicitud de ubicación que contiene la información de conectividad de red a la configuración de red y al LIS.
 
-   - Si hay una coincidencia de sitio de configuración de red, las directivas de llamadas de emergencia se devuelven al cliente de equipos de ese sitio. Para obtener más información acerca de las directivas, consulte [configurar directivas de emergencia](#configure-emergency-policies).
+   - Si hay una coincidencia de sitio de configuración de red: las directivas de llamadas de emergencia se devuelven al cliente de equipos de ese sitio. Para obtener más información acerca de las directivas, consulte [configurar directivas de emergencia](#configure-emergency-policies).
 
-   - Si hay una coincidencia de LIS, se devuelve al cliente de Teams una ubicación de emergencia del elemento de red al que está conectado el cliente de Teams.
+   - Si hay una coincidencia de LIS: una ubicación de emergencia del elemento de red al que está conectado el cliente de Teams se devuelve al cliente de Teams.
 
 3. Cuando el cliente de Teams realiza una llamada de emergencia, la ubicación de emergencia se transmite a la red PSTN.
 
@@ -57,15 +57,13 @@ Este artículo contiene las secciones siguientes.
 - [Habilitar usuarios y sitios](#enable-users-and-sites)
 - [Probar las llamadas de emergencia](#test-emergency-calling)
 
+La capacidad de llevar a cabo el enrutamiento automático para el correspondiente punto de respuesta de seguridad pública (PSAP) varía según el país de uso del usuario de los equipos.
 
-La capacidad de llevar a cabo el enrutamiento automático para el correspondiente punto de respuesta de seguridad pública (PSAP) varía según el país de uso del usuario de los equipos. 
-
-Para obtener más información acerca de las llamadas de emergencia, incluida información sobre las direcciones de emergencia y el enrutamiento de llamadas de emergencia, información específica de los países e información sobre la configuración de red y la topología de red, vea lo siguiente:
+Para obtener más información sobre las llamadas de emergencia, incluida información sobre las direcciones de emergencia y el enrutamiento de llamadas de emergencia, información específica de países e información sobre la configuración de red y la topología de red, consulte lo siguiente:
 
 - [Administrar las llamadas de emergencia](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Administrar la configuración de red para características de voz en la nube](cloud-voice-network-settings.md)
 - [Administrar la topología de red para las características de voz en la nube](manage-your-network-topology.md)
-
 
 ## <a name="supported-clients"></a>Clientes compatibles
 
@@ -87,24 +85,24 @@ Azure Maps se usa para los servicios basados en la ubicación.  Cuando se especi
 
 - Si se encuentra una coincidencia, los códigos geográficas se incluyen automáticamente.
 
-- Si no se encuentra ninguna coincidencia, tendrá la oportunidad de crear manualmente una dirección de emergencia. Puede usar la característica de colocación de PIN para hacerlo.   
+- Si no se encuentra una coincidencia, tendrá la oportunidad de crear manualmente una dirección de emergencia. Puede usar la característica de colocación de PIN para hacerlo. 
 
 Esto significa que si una ubicación de emergencia existente creada para asignarla a los usuarios del plan de llamadas está pensada para una ubicación dinámica, debe volver a crearse la misma dirección para incluir los códigos geográficas. Para distinguir entre las dos ubicaciones, debe incluir una descripción diferente. La nueva ubicación de emergencia se puede asignar a los usuarios que tienen la ubicación anterior. Una vez completada la migración, se puede eliminar la ubicación anterior.
 
-Para obtener más información sobre cómo configurar las direcciones de emergencia, vea [Agregar una ubicación de emergencia para su organización](add-change-remove-emergency-location-organization.md) y [asignar una ubicación de emergencia para el usuario](assign-change-emergency-location-user.md).
+Agregue y asigne direcciones de emergencia en el centro de administración de Microsoft Teams o mediante PowerShell. Para obtener más información, vea [Agregar una ubicación de emergencia para su organización](add-change-remove-emergency-location-organization.md) y [asignar una ubicación de emergencia para un usuario](assign-change-emergency-location-user.md).
 
 ## <a name="configure-network-settings"></a>Configurar las opciones de red
 
 La configuración de red se usa para determinar la ubicación de un cliente de equipos y para obtener dinámicamente las directivas de llamadas de emergencia y una ubicación de emergencia. Puede configurar la configuración de red según el modo en que su organización desea que las llamadas de emergencia funcionen.
 
-La configuración de red incluye sitios que incluyen una colección de subredes, que se usan exclusivamente para la asignación de directivas dinámicas a los usuarios.  Por ejemplo, se puede asignar una directiva de TeamsEmergencyCalling y una directiva de TeamsEmergencyCallRouting al "sitio de Redmond" para que todos los usuarios que se desplazan desde casa u otra ubicación de Microsoft estén configurados con números de emergencia, enrutamiento y seguridad específicos para Redmond.  
+La configuración de red incluye sitios que incluyen una colección de subredes y que se usan exclusivamente para la asignación de directivas dinámicas a los usuarios. Por ejemplo, se puede asignar una directiva de llamadas de emergencia y una directiva de enrutamiento de llamadas de emergencia al sitio de Redmond para que todos los usuarios que se desplazan desde casa u otra ubicación de Microsoft estén configurados con números de emergencia, enrutamiento y seguridad específicos para Redmond.  
 
 >[!Note]
 >Las subredes también pueden definirse en LIS y asociarse a una ubicación de emergencia.  
 
-Tenga en cuenta las siguientes definiciones:
+Tenga en cuenta las siguientes definiciones: Para obtener más información, consulte [configuración de red para características de voz en la nube](cloud-voice-network-settings.md).
 
-- La IP de confianza contiene una colección de las direcciones IP externas de Internet de la red de la empresa y se usan para determinar si el extremo del usuario se encuentra dentro de la red corporativa. Un intento de obtener una ubicación o Directiva dinámica solo se realiza si la IP externa del usuario coincide con una IP de la dirección IP de confianza. Se puede establecer una coincidencia con las direcciones IP IPv4 o IPv6, y depende del formato del paquete IP que se envía a la configuración de red.  (Si una dirección IP pública tiene IPv4 e IPv6, debe agregar ambas como direcciones IP de confianza).
+- Las direcciones IP de confianza contienen una recopilación de las direcciones IP externas de Internet de la red empresarial y se usan para determinar si el extremo del usuario se encuentra dentro de la red corporativa. Un intento de obtener una ubicación o Directiva dinámica solo se realiza si la dirección IP externa del usuario coincide con una dirección IP de la dirección IP de confianza. Se puede establecer una coincidencia con las direcciones IP IPv4 o IPv6, y depende del formato del paquete IP que se envía a la configuración de red.  (Si una dirección IP pública tiene IPv4 e IPv6, debe agregar ambas como direcciones IP de confianza).
 
 - Una región de red incluye una colección de sitios de red. 
 
@@ -112,7 +110,7 @@ Tenga en cuenta las siguientes definiciones:
 
 - Una subred de red debe estar asociada a un sitio de red específico. La ubicación de un cliente se determina en función de la subred de la red y el sitio de red asociado.  
 
-Para obtener más información, consulte [configuración de red para características de voz en la nube](cloud-voice-network-settings.md) y [Administración de la topología de red para características de voz en la nube](manage-your-network-topology.md).
+La configuración de red se establece en el centro de administración de Microsoft Teams o mediante PowerShell. Para obtener más información, vea [administrar la topología de red para características de voz en la nube](manage-your-network-topology.md).
 
 Tenga en cuenta que puede tardar un poco de tiempo (hasta un par de horas) en algunos cambios en la configuración de red (como una nueva dirección, un identificador de red, etc.) para que se propaguen y estén disponibles para los clientes de Teams.  
 
@@ -120,9 +118,9 @@ Tenga en cuenta que puede tardar un poco de tiempo (hasta un par de horas) en al
 
 - Si se requiere la configuración dinámica de la notificación del escritorio de seguridad, debe configurar tanto las direcciones IP de confianza como los sitios de red.
 
-- Si solo se necesitan ubicaciones dinámicas, debe configurar solo direcciones IP de confianza. 
+- Si solo se necesitan ubicaciones dinámicas, debe configurar solo direcciones IP de confianza.
 
-- Si no es necesario, no es necesario configurar la configuración de red. 
+- Si no es necesario, no es necesario establecer la configuración de red. 
 
 **Para usuarios de enrutamiento directo:**
 
@@ -130,45 +128,53 @@ Tenga en cuenta que puede tardar un poco de tiempo (hasta un par de horas) en al
 
 - Si solo se necesitan ubicaciones dinámicas, debe configurar solo direcciones IP de confianza.
 
-- Si no es necesario, no es necesario configurar la configuración de red.
+- Si no es necesario, no es necesario establecer la configuración de red.
 
 
 ## <a name="configure-location-information-service"></a>Configurar servicio de información de ubicación
 
-Un cliente de Teams obtiene las direcciones de emergencia de las ubicaciones asociadas a identificadores de red diferentes. Se admiten las subredes y los puntos de acceso inalámbrico (WAP). Si se encuentran varias ubicaciones, WAP tiene prioridad sobre la subred. (La compatibilidad con el conmutador/puerto Ethernet está pendiente).
+Un cliente de Teams obtiene las direcciones de emergencia de las ubicaciones asociadas a identificadores de red diferentes. Se admiten las subredes y los puntos de acceso inalámbrico (WAP). (La compatibilidad con el conmutador/puerto Ethernet está pendiente).
 
-Para que un cliente obtenga una ubicación, debe rellenar el servicio de información de ubicación (LIS) con identificadores de red y ubicaciones de emergencia con los siguientes cmdlets:  
+Para que un cliente obtenga una ubicación, debe rellenar el LIS con identificadores de red (subredes, WAP, conmutadores, puertos) y ubicaciones de emergencia. Puede hacerlo en el centro de administración de Microsoft Teams o mediante PowerShell.
 
+### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
 
-- [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps), [set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
-- [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps), [set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
+1. En el navegación de la izquierda, vaya a **ubicaciones**  >  **redes & ubicaciones**.
+2. Haga clic en la pestaña que representa el identificador de red que desea agregar. Por ejemplo, haga clic en **subredes**, **puntos de acceso Wi-Fi**, **conmutadores**o **puertos**. A continuación, haga clic en **Agregar**.
+3. Complete los campos, agregue una ubicación de emergencia y, a continuación, haga clic en **aplicar**.
+
+### <a name="using-powershell"></a>Con PowerShell
+
+Use los siguientes cmdlets para agregar puertos, conmutadores, subredes y WAP al LIS.
+
 - [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelissubnet?view=skype-ps), [set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelissubnet?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
-- [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps), [set](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps
-) -CsOnlineLisWirelessAccessPoint 
+- [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps), [set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
+- [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps), [set](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
+- [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps), [set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
 
-
->[!Important] 
+>[!Important]
 >Si se usan subredes como parte de sitios de red, deben redefinirse en el servicio de información de ubicación para representar ubicaciones dinámicas.
-
 
 ## <a name="configure-emergency-policies"></a>Configurar directivas de emergencia
 
-Puede usar las siguientes directivas para configurar las llamadas de emergencia:
+Use las siguientes directivas para configurar las llamadas de emergencia. Puede administrar estas directivas en el centro de administración de Microsoft Teams o mediante PowerShell.
 
-- **TeamsEmergencyCallRoutingPolicy** : solo se aplica al enrutamiento directo. Esta directiva configura los números de emergencia, las máscaras por número si así lo desea y la ruta RTC por número.  Puede asignar esta directiva a usuarios, a sitios de red o a ambos. (Planes de llamadas los clientes de Teams se habilitan automáticamente para llamadas de emergencia con los números de emergencia del país en función de su ubicación de uso de 365 de Office).  Para administrar esta Directiva, use los cmdlets New-, Set-y Grant-CsTeamsEmergencyCallRouting. 
+- **Política de enrutamiento de llamadas de emergencia** : solo se aplica al enrutamiento directo. Esta directiva configura los números de emergencia, las máscaras por número si así lo desea y la ruta RTC por número.  Puede asignar esta directiva a usuarios, a sitios de red o a ambos. (Planes de llamadas los clientes de Teams se habilitan automáticamente para llamadas de emergencia con los números de emergencia del país en función de su ubicación de uso de 365 de Office).  Para obtener más información, consulte [Administrar directivas de enrutamiento de llamadas de emergencia para enrutamiento directo](manage-emergency-call-routing-policies.md).
 
-- **TeamsEmergencyCallingPolicy** : se aplica al plan de llamadas y al enrutamiento directo. Esta directiva configura la experiencia de notificación del centro de seguridad cuando se realiza una llamada de emergencia. Puedes establecer a quién deseas notificar y cómo. Por ejemplo, para notificar automáticamente a la mesa de seguridad de la organización y hacer que escuchen en las llamadas de emergencia.  Esta Directiva se puede asignar a los usuarios o a los sitios de red o a ambos. Para administrar esta Directiva, use los cmdlets New-, set-and Grant-CsTeamsEmergencyCallingPolicy. 
-
-Para obtener más información, consulte [Administrar directivas de llamadas de emergencia en Teams](manage-emergency-calling-policies.md) y [Administrar directivas de enrutamiento de llamadas de emergencia para el enrutamiento directo](manage-emergency-call-routing-policies.md).
-
+- **Política de llamadas de emergencia** : se aplica a los planes de llamadas y al enrutamiento directo. Esta directiva configura la experiencia de notificación del centro de seguridad cuando se realiza una llamada de emergencia. Puedes establecer a quién deseas notificar y cómo. Por ejemplo, para notificar automáticamente a la mesa de seguridad de la organización y hacer que escuchen en las llamadas de emergencia.  Esta Directiva se puede asignar a los usuarios o a los sitios de red o a ambos. Para obtener más información, consulte [Administrar directivas de llamadas de emergencia en Teams](manage-emergency-calling-policies.md).
 
 ## <a name="enable-users-and-sites"></a>Habilitar usuarios y sitios
 
-Puede asignar directivas de **TeamsEmergencyCalling** y **TeamsEmergencyCallROuting** a los usuarios y a los sitios.  
+Puede asignar políticas de enrutamiento de llamadas de emergencia y políticas de llamadas de emergencia a los usuarios y a los sitios. Ten en cuenta que rigen las políticas de enrutamiento de llamadas de emergencia solo para enrutamiento directo. (Aunque es posible asignar esta directiva a un usuario de un plan de llamadas, la Directiva no tendrá ningún efecto).
 
-La Directiva TeamsEmergencyCallRouting se aplica únicamente al enrutamiento directo. (Aunque es posible asignar esta directiva a un usuario de un plan de llamadas, la Directiva no tendrá ningún efecto).
+Asigne directivas en el centro de administración de Microsoft Teams o mediante PowerShell. Para obtener más información, consulte:
 
-Por ejemplo, para habilitar un usuario específico para notificaciones de seguridad, use el siguiente comando:
+- [Administrar las políticas de enrutamiento de llamadas de emergencia para enrutamiento directo](manage-emergency-call-routing-policies.md)
+- [Administrar las directivas de llamadas de emergencia en Teams](manage-emergency-calling-policies.md)
+
+A continuación se muestran algunos ejemplos de PowerShell.
+
+Para habilitar un usuario específico para notificaciones de seguridad, use el siguiente comando:
 
 ```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
@@ -193,7 +199,6 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 ```
 
 Si ha asignado una directiva de llamadas de emergencia a un sitio de red y a un usuario, y si ese usuario se encuentra en el sitio de red, la directiva asignada al sitio de red reemplaza la directiva asignada al usuario.
-
 
 ## <a name="test-emergency-calling"></a>Probar las llamadas de emergencia
 

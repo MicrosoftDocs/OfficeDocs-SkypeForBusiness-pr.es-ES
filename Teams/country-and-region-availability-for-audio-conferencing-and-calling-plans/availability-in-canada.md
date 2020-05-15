@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: A continuación se indican los servicios de Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para Canadá.
-ms.openlocfilehash: fbf1f2aafdaf2a05d303548e45f56ab519af9493
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Canadá.
+ms.openlocfilehash: b2ee63ca498e810d7eebdb80ab6252ce97864401
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695265"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230969"
 ---
 # <a name="availability-in-canada"></a>Disponibilidad en Canadá
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-A continuación se indican los servicios de Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para Canadá.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Canadá.
 
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, por:<br/><ul><li> Toronto</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> Toronto</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
 
 ## <a name="phone-system"></a>Sistema telefónico
@@ -51,7 +51,7 @@ A continuación se indican los servicios de Office 365 para Skype Empresarial y 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿El sistema telefónico está disponible para la compra?  <br/> |Sí  <br/> |
-| Operadores automáticos <br/> |Disponible  <br/> |
+| Operadores automáticos <br/> |Disponible  <br/> |
 |Colas de llamadas  <br/> |Disponible  <br/> |
 |Correo de voz  <br/> |Disponible  <br/> |
 
@@ -60,8 +60,8 @@ A continuación se indican los servicios de Office 365 para Skype Empresarial y 
 | **Característica**                                        | **Detalles**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ¿Los planes de llamada están disponibles para la compra?  <br/>    | Sí  <br/>                                                                                                                                                                                                                                                                  |
-| Minutos disponibles para planes de llamadas.               | Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos </li><li>Plan de llamadas nacionales de 240 minutos</li></li><li>Plan de llamadas nacionales de 3000 minutos</li></li><li>Plan de llamadas nacionales e internacionales: 3000 minutos de llamadas nacionales o de 600 minutos de llamadas internacionales (lo que se haya alcanzado en primer lugar en el mes del calendario)</li>|
-| ¿Puede hacer llamadas salientes a números especiales?  <br/> | No es compatible en este momento.<br/>                                                                                                                                                                                                                                            |
+| Minutos disponibles para planes de llamadas.               | Hay cuatro opciones de planes disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos </li><li>Plan de llamadas nacionales de 240 minutos</li></li><li>Plan de llamadas nacionales de 3000 minutos</li></li><li>Plan de llamadas nacionales e internacionales: 3000 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (lo que primero se alcanza durante el mes del calendario)</li>|
+| ¿Se pueden realizar llamadas a números premium?  <br/> | No se admite en este momento.<br/>                                                                                                                                                                                                                                            |
 | ¿A qué números se pueden hacer llamadas salientes?  <br/>                 | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                  |
 
 > [!Note]

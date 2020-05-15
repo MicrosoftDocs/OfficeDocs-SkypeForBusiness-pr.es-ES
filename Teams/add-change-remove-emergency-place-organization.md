@@ -18,38 +18,58 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo agregar, cambiar o quitar un lugar para una ubicación de emergencia para su organización en el centro de administración de Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e23b1d2c69fd09136a581010632a140e82385051
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: c3ff180848d12ad3fb00d048bbb1910bf13c00d6
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141143"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232501"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 
-Según el número de ubicaciones físicas de su organización, puede agregar lugares para edificios, plantas y oficinas para crear una ubicación de emergencia más específica. Vea [¿Qué son las ubicaciones de emergencia, los lugares y el enrutamiento de llamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) para obtener más información.
+Según el número de ubicaciones físicas de su organización, puede agregar lugares para edificios, plantas y oficinas para crear una ubicación de emergencia más específica. Para obtener más información, consulta [administrar llamadas de emergencia](what-are-emergency-locations-addresses-and-call-routing.md) .
   
 Para obtener información sobre cómo obtener un plan de llamadas y cuánto cuestan, vea [licencias complementarias de Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+Administre las ubicaciones de emergencia de su organización en el centro de administración de Microsoft Teams o mediante PowerShell.
   
 ## <a name="add-a-place-to-an-emergency-location"></a>Agregar un lugar a una ubicación de emergencia
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en **ubicaciones** > de**emergencia**.
+### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en **ubicaciones**de  >  **emergencia**.
 2. En la lista, haga clic en el nombre de la ubicación en la que desea agregar un lugar.
 3. En la pestaña **posiciones** , haga clic en **Agregar lugar**.
 4. Escriba un nombre para el sitio y, a continuación, haga clic en **aplicar**.
+
+### <a name="using-powershell"></a>Con PowerShell
+
+Vea [New-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/new-csonlinelislocation).
     
 ## <a name="change-a-place-for-an-emergency-location"></a>Cambiar un lugar para una ubicación de emergencia
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en **ubicaciones** > de**emergencia**.
+### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en **ubicaciones**de  >  **emergencia**.
 2. En la lista, haga clic en el nombre de la ubicación para la que desea cambiar un lugar.
 3. En la pestaña **lugares** , seleccione el lugar que desee cambiar y, a continuación, haga clic en **Editar**.
 4. Actualice la información de ubicación y, a continuación, haga clic en **aplicar**.
+
+### <a name="using-powershell"></a>Con PowerShell
+
+Consulte [set-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation).
     
 ## <a name="remove-a-place-from-an-emergency-location"></a>Quitar un lugar de una ubicación de emergencia
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en **ubicaciones** > de**emergencia**.
+### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en **ubicaciones**de  >  **emergencia**.
 2. En la lista, haga clic en el nombre de la ubicación para la que desea quitar un lugar.
 3. En la pestaña **lugares** , seleccione el lugar que desea quitar y, a continuación, haga clic en **eliminar**.
+
+### <a name="using-powershell"></a>Con PowerShell
+
+Consulte [Remove-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelislocation).
     
 ## <a name="related-topics"></a>Temas relacionados
 

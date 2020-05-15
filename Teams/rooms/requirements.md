@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga más información sobre los requisitos para admitir salas de Microsoft Teams, entre los que se incluyen la elección del dispositivo, micrófonos, altavoces, cámaras y pantallas apropiados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 098b5e9fd46c52957eecf288962b3f4e212c5b83
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: fcd7f0929c0c5beeccc1148aad7a54515836ee9f
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905402"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230828"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de la sala de Microsoft Teams
 
@@ -79,7 +79,7 @@ Todos los dispositivos y paquetes actuales de la Sala de Microsoft Teams están 
   |Surface Pro </br>(quinta gen.) |Core i5 |8 GB o 4 GB |128 GB o más |
   |Surface Pro 4 |Core i5 |8 GB o 4 GB |128 GB o más |
 
-- Los dispositivos Surface Pro requieren una de las siguientes opciones de estación de acoplamiento para asegurar una tableta a la mesa de la sala de reuniones.
+- Los dispositivos Surface Pro requieren una de las siguientes opciones de estación de acoplamiento:
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
@@ -92,6 +92,8 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 |Periféricos de la sala de Microsoft Teams|Versión de firmware certificada | La cámara admite el uso de cámara de contenido|
 |:--- |:--- | :--- |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  |  |
+|[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
+|[Cámara Jabra Panacast](https://www.jabra.com/business/video-conferencing/jabra-panacast)|3.8.22|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
@@ -144,7 +146,7 @@ En las tablas siguientes se ofrecen recomendaciones para los periféricos basado
 |:-----|:-----|:-----|:-----|:-----|
 |**Foco** <br/> 10' x 9'   |2 a 4  |1,5 m  |Logitech Connect  |Los dispositivos de Logitech Connect incluyen una cámara que debe colocarse en la parte delantera de la sala (no en el centro de la mesa) para captar a los asistentes locales de la reunión. |
 |**Pequeño** <br/> 16' x 16'  |4 a 6  |2,0 m  |Jabra 510 <br/> Sennheiser SP20  |El volumen de reproducción puede ser limitado para salas más grandes.  |
-|**Mediano** <br/> 18' x 20'  |6 a 12  |2,4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Los dispositivos de Logitech MeetUp incluyen una cámara que debe colocarse en la parte delantera de la sala (no en el centro de la mesa para captar a los asistentes locales de la reunión.). <br/> En general, las salas con mesas largas rectangulares o en forma de U pueden aprovechar los micrófonos satelitales. <br/> Debe usarse el SP 220 MS en una configuración de cadena margarita.  |
+|**Mediano** <br/> 18' x 20'  |6 a 12  |2,4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100 <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Los dispositivos de Logitech MeetUp incluyen una cámara que debe colocarse en la parte delantera de la sala (no en el centro de la mesa para captar a los asistentes locales de la reunión.). <br/> En general, las salas con mesas largas rectangulares o en forma de U pueden aprovechar los micrófonos satelitales. <br/> Debe usarse el SP 220 MS en una configuración de cadena margarita.  |
 |**Grande** <br/> 15' x 32'  |12 a 16  |3 m <br/> Esta distancia se aplica también al área cubierta por cada micrófono de satélite conectado.  |Logitech Group + micrófonos de satélite <br/> Polycom trío + micrófonos de satélite <br/> Polycom CX5100 + micrófonos de satélite <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + micrófonos de satélite  |Todos los dispositivos de audio que aparecen en esta fila son compatibles con las opciones de micrófono de satélite. <br/> CX5100 incluye una cámara integrada de 360 grados de manera que el dispositivo pueda colocarse en el centro de la mesa. <br/> Debe usarse el SP 220 MS en una configuración de cadena margarita.  |
 
 **Periféricos de video certificados de las salas de Microsoft Teams**

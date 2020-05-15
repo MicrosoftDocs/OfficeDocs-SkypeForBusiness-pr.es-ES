@@ -24,12 +24,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Más información sobre las llamadas de emergencia, incluida información sobre las direcciones de emergencia, el enrutamiento de llamadas de emergencia y las llamadas de emergencia dinámicas.
-ms.openlocfilehash: 8afe2d2af8b2aecbe3d73da03137f330aa8304b8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8c2de31aa81ac36338560c9b75d5c7ef27e460f8
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141033"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232551"
 ---
 # <a name="manage-emergency-calling"></a>Administrar las llamadas de emergencia
 
@@ -90,7 +90,7 @@ Cuando la ubicación debe estar asociada a un número de teléfono, depende del 
 
 Las llamadas de emergencia dinámicas para los planes de llamadas de Microsoft proporcionan la capacidad de configurar y enrutar llamadas de emergencia basadas en la ubicación actual del cliente de Teams. La capacidad de llevar a cabo el enrutamiento automático para el correspondiente punto de respuesta de seguridad pública (PSAP) o para notificar personal de escritorio de seguridad varía según el país de uso del usuario de Teams.  
 
-En este momento, solo los usuarios del plan de llamadas de Estados Unidos pueden aprovechar las ubicaciones dinámicas para el enrutamiento de llamadas de emergencia de la siguiente manera:
+Para los usuarios del plan de llamadas, la ubicación dinámica para el enrutamiento de llamadas de emergencia solo se admite en Estados Unidos de la siguiente manera. Para obtener información sobre las llamadas de emergencia dinámicas y el enrutamiento directo, consulte consideraciones sobre el [enrutamiento directo](#considerations-for-direct-routing).
 
 - Si un cliente de Teams para un usuario de un plan de llamadas de Estados Unidos adquiere dinámicamente una dirección de emergencia dentro de los Estados Unidos, esa dirección se usa para enrutamiento de emergencia en lugar de la dirección registrada, y la llamada se redirigirá automáticamente a la PSAP del área correspondiente de la dirección.
 

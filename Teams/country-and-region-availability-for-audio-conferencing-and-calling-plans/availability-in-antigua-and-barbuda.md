@@ -23,34 +23,34 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para antigua y Barbuda.
-ms.openlocfilehash: 2764e0252c0c62e9fd78470121c507f04e8c7585
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para antigua y Barbuda.
+ms.openlocfilehash: ac99aa5acb0c3372a59b500ce604d851df811c92
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853925"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230488"
 ---
 # <a name="availability-in-antigua-and-barbuda"></a>Disponibilidad en antigua y Barbuda
 
 [Encuentra otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), u Obtén más información sobre la disponibilidad de países y regiones para las conferencias de audio y los planes de llamadas.
 
-Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para antigua y Barbuda.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para antigua y Barbuda.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿La audioconferencia está disponible para la compra?  <br/> |Sí, solo [paga por minuto](../audio-conferencing-pay-per-minute.md) <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> | No |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | Requiere créditos de comunicación <br/> |
+|¿La audioconferencia está disponible para la compra?  <br/> |Sí, solo [pago por minuto](../audio-conferencing-pay-per-minute.md) <br/> |
+|¿Se asignan números de teléfono automáticamente para las audioconferencias?  <br/> | No |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | Requiere créditos de comunicaciones <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿El sistema telefónico está disponible para la compra?  <br/> |Sí  <br/> |
-|Operadores automáticos <br/> |Disponible  <br/> |
+|Operadores automáticos <br/> |Disponible  <br/> |
 |Colas de llamadas  <br/> |Disponible  <br/> |
 |Correo de voz  <br/> |Disponible  <br/> |
    
@@ -62,10 +62,10 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 |Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
 
-Si los planes de llamadas no están disponibles para su compra, considere la posibilidad de usar el [enrutamiento directo del sistema telefónico](../direct-routing-landing-page.md). Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier operador de telefonía.
+Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el [enrutamiento directo del sistema telefónico](../direct-routing-landing-page.md). Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier proveedor de servicios de telefonía.
 
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Números de pago y gratuitos para servicios
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
@@ -73,7 +73,7 @@ Si los planes de llamadas no están disponibles para su compra, considere la pos
 |¿Hay números de pago disponibles?  <br/> |No <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    
- Si desea obtener números de teléfono gratuitos y de pago para las conferencias de audio, los operadores automáticos y las colas de llamadas, consulte [obtener números de teléfono de servicio de Skype empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Si quiere números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, vea [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 

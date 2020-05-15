@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenga información detallada sobre las dimensiones y medidas usadas por el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online.
-ms.openlocfilehash: c1c277e29f46fe9c748b82e4ebfcfe29897a60da
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 93e7857c2e63f7b13986898ac8e9973c2be189de
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137340"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232591"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensiones y medidas disponibles en el panel de calidad de llamadas
 
@@ -123,7 +123,7 @@ La información de dimensiones se basa en parte en los datos que se cargan en el
 |**Deployment**| | | |
 | First Tenant Id  | Cadena  | Id. de inquilino de Office 365 para el primer punto de conexión. <br/> **Valor de ejemplo:** 00000000, 0000 -0000-0000 — 000000000000  | <br/>&bull;No se pudo determinar el identificador de inquilino para el primer punto de conexión. Esto puede indicar que el punto de conexión ha iniciado sesión en una implementación local de Skype empresarial Server.  |
 | Second Tenant Id  | String  | Id. de inquilino de Office 365 para el segundo punto de conexión. <br/> **Valor de ejemplo:** 00000000, 0000-0000-0000 — 000000000000  |  <br/>&bull;No se pudo determinar el identificador de inquilino para el segundo punto de conexión. Esto puede indicar que el punto de conexión ha iniciado sesión en una implementación local de Skype empresarial Server.  |
-| First Pool  | String  | FQDN del grupo de Skype Empresarial Online asignado al primer punto de conexión. <br/> **Valor de ejemplo:** pool1<span></span>.<span></span>Lync. com  | <br/>&bull;Indica que el punto de conexión ha iniciado sesión en Microsoft Teams o Skype empresarial. Este campo solo se rellenará para transmisiones con implementaciones de Skype empresarial Server locales. |
+| First Pool  | String  | FQDN del grupo de Skype Empresarial Online asignado al primer punto de conexión. <br/> **Valor de ejemplo:** pool1 <span></span> . Lync <span></span> . com  | <br/>&bull;Indica que el punto de conexión ha iniciado sesión en Microsoft Teams o Skype empresarial. Este campo solo se rellenará para transmisiones con implementaciones de Skype empresarial Server locales. |
 | Second Pool  | String  | FQDN del grupo de Skype Empresarial Online asignado al segundo punto de conexión. <br/> **Valor de ejemplo:** <span>pool1.Lync.com</span>   | &bull;No se pudo determinar el grupo de Skype empresarial online para el segundo punto de conexión. Esto puede indicar que el punto de conexión ha iniciado sesión en una implementación local de Skype empresarial Server.  |
 | Is Federated  | Boolean  | Es true si las transmisiones se han comprendido entre dos inquilinos federados; de lo contrario, false.   | <br/>&bull;No se pudo determinar si se trataba de una transmisión federada <br/>&bull;No se han recopilado algunos datos de señalización   |
 |Region | String   |  Región en la que se encontró la implementación en función de la región de inicio del inquilino. <br/> **Valor de ejemplo:** Norteamérica | <br/>&bull;No se han notificado los datos de red <br/>&bull;La red no está dentro de la red corporativa <br/>&bull;La red no tiene una región definida en los datos de asignación de subred. |
@@ -163,8 +163,8 @@ La información de dimensiones se basa en parte en los datos que se cargan en el
 | Full Month  | Fecha y hora  | Mes completo del final de la transmisión. Los valores se notifican en la zona horaria UTC. <br/> **Valor de ejemplo:** 2017-02-01T00:00:00 | |
 |Hora de inicio|String  |Hora del día en que comenzó la llamada.|&bull;Error en la configuración de llamada |
 |**UserAgent** | | |
-| First Domain  | String  | Dominio del usuario del primer punto de conexión. Si el primer punto de conexión es un servidor de conferencia, usa el dominio del organizador de la reunión. También podría ser el dominio de las cuentas de servicio que se han utilizado en este escenario.  <br/> **Valor de ejemplo:** contoso<span></span>. com | |
-| Second Domain  | String  | Dominio del usuario del segundo punto de conexión. Si el segundo punto de conexión es un servidor de conferencia, usa el dominio del organizador de la reunión. También podría ser el dominio de las cuentas de servicio que se han utilizado en este escenario. <br/> **Valor de ejemplo:** contoso<span></span>. com  | |
+| First Domain  | String  | Dominio del usuario del primer punto de conexión. Si el primer punto de conexión es un servidor de conferencia, usa el dominio del organizador de la reunión. También podría ser el dominio de las cuentas de servicio que se han utilizado en este escenario.  <br/> **Valor de ejemplo:** contoso <span></span> . com | |
+| Second Domain  | String  | Dominio del usuario del segundo punto de conexión. Si el segundo punto de conexión es un servidor de conferencia, usa el dominio del organizador de la reunión. También podría ser el dominio de las cuentas de servicio que se han utilizado en este escenario. <br/> **Valor de ejemplo:** contoso <span></span> . com  | |
 | First User Agent Category  | String  | Categoría del agente de usuario del primer punto de conexión. <br/> **Valor de ejemplo:** OPCIONAL | &bull;Un agente de usuario no tiene actualmente una asignación    |
 | Second User Agent Category  | String  | Categoría del agente de usuario del segundo punto de conexión. <br/> **Valor de ejemplo:** OPCIONAL | &bull;Un agente de usuario no tiene actualmente una asignación    |
 | First User Agent  | String  | La cadena de agente de usuario del primer punto de conexión. <br/> **Valor de ejemplo:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype empresarial) | &bull;No hay ningún agente de usuario notificado por el primer punto de conexión   |
@@ -243,8 +243,8 @@ La información de dimensiones se basa en parte en los datos que se cargan en el
 | Canal Wi-Fi del segundo  | String  | Canal Wi-Fi que ha usado el segundo punto de conexión. <br/> **Valor de ejemplo:** 10  | <br/>&bull;No se usó WiFi <br/>&bull;No se notificó el canal  |
 | Tipo de radio Wi-Fi del primero  | Cadena  | Tipo de radio Wi-Fi que ha usado el primer punto de conexión. HRDSSS equivale a 802.11b.<br/> **Valor de ejemplo:** 802.11 AC  | <br/>&bull;No se usó WiFi <br/>&bull;No se ha notificado el tipo WiFi  |
 | Tipo de radio Wi-Fi del segundo  | String  | Tipo de radio Wi-Fi que ha usado el segundo punto de conexión. HRDSSS equivale a 802.11b.<br/> **Valor de ejemplo:** 802.11 AC  | <br/>&bull;No se usó WiFi <br/>&bull;No se ha notificado el tipo WiFi  |
-| First DNS Suffix  | String  | Sufijo DNS asociado al adaptador de red que ha notificado el primer punto de conexión. Tenga en cuenta que este valor se puede notificar para cualquier tipo de adaptador de red. **Valor de ejemplo:** Corp<span></span>.<span></span>contoso. com  | <br/>&bull;El punto de conexión no ha notificado este valor <br/>  |
-| Second DNS Suffix  | Cadena  | Sufijo DNS asociado al adaptador de red que ha notificado el segundo punto de conexión. Tenga en cuenta que este valor se puede notificar para cualquier tipo de adaptador de red.<br/> **Valor de ejemplo:** Corp<span></span>.<span></span>contoso. com   | <br/>&bull;El punto de conexión no ha notificado este valor  |
+| First DNS Suffix  | String  | Sufijo DNS asociado al adaptador de red que ha notificado el primer punto de conexión. Tenga en cuenta que este valor se puede notificar para cualquier tipo de adaptador de red. **Valor de ejemplo:** Corp <span></span> . contoso <span></span> . com  | <br/>&bull;El punto de conexión no ha notificado este valor <br/>  |
+| Second DNS Suffix  | Cadena  | Sufijo DNS asociado al adaptador de red que ha notificado el segundo punto de conexión. Tenga en cuenta que este valor se puede notificar para cualquier tipo de adaptador de red.<br/> **Valor de ejemplo:** Corp <span></span> . contoso <span></span> . com   | <br/>&bull;El punto de conexión no ha notificado este valor  |
 | Primer banda Wi-Fi  | String  | La banda Wi-Fi que ha notificado haber usado el primer punto de conexión. <br/> **Valor de ejemplo:** 5,0 GHz  | <br/>&bull;El punto de conexión no calculó el valor <br/>&bull;No se notificó el valor  |
 | Segunda banda Wi-Fi  | Cadena  | La banda Wi-Fi que ha notificado haber usado el segundo punto de conexión. <br/> **Valor de ejemplo:** 5,0 GHz  | <br/>&bull;El punto de conexión no calculó el valor <br/>&bull;No se notificó el valor  |
 | Intensidad de la señal Wi-Fi  | String  | Intensidad de la señal WiFi en porcentaje [0-100] que ha notificado el primer punto de conexión. <br/> **Valor de ejemplo:** 081: [90-100)  | <br/>&bull;El punto de conexión no calculó el valor <br/>&bull;No se notificó el valor  |
@@ -455,7 +455,7 @@ Los valores booleanos siempre son true o false. En algunos casos, verdadero tamb
 
 Las dimensiones que se proporcionan como rango o grupo de valores se muestran con el siguiente formato:
 
- _\<cadena\> de criterio de\<ordenación [\> - \<límite superior inclusivo de límite inferior\>_
+ _\<cadena de criterio de ordenación \> [ \< \>  -  \< límite superior inclusivo de límite inferior\>_
 
 Por ejemplo, la dimensión duración (minutos) representa la duración de la llamada en segundos con el valor notificado como un rango de valores.
 
@@ -467,7 +467,7 @@ Por ejemplo, la dimensión duración (minutos) representa la duración de la lla
 |066: [3-4) |3 minutos < = duración de la transmisión < 4 minutos |
 |  | |
 
-La \<cadena de criterio de ordenación> se usa para controlar el criterio de ordenación al presentar los datos y se puede usar para filtrar. Por ejemplo, un filtro de duración (minutos) < "065", mostraría las transmisiones con una duración inferior a 2 minutos (se necesita el ' 0 ' inicial para que el filtro funcione según lo esperado).
+La cadena de criterio de \< ordenación> se usa para controlar el criterio de ordenación al presentar los datos y se puede usar para filtrar. Por ejemplo, un filtro de duración (minutos) < "065", mostraría las transmisiones con una duración inferior a 2 minutos (se necesita el ' 0 ' inicial para que el filtro funcione según lo esperado).
 
 > [!NOTE]
 > El valor real de la cadena de criterio de ordenación no es importante.
@@ -480,7 +480,7 @@ Las cadenas usadas por el CQD suelen derivarse de archivos de datos, y pueden se
 
 Las dimensiones que se proporcionan como un par de enumeración se muestran con el siguiente formato:
 
- _\<valor de enumeración de un\> punto \<final: valor de enumeración del otro punto de conexión\>_
+ _\<valor de enumeración de un punto final \> : \< valor de enumeración del otro punto de conexión\>_
 
 El orden de los valores de la enumeración es coherente pero no refleja el orden del primer o segundo punto de conexión.
 
@@ -499,7 +499,7 @@ En la tabla anterior se enumeran posibles motivos por los que una dimensión pue
 
 ## <a name="measurements"></a>Medir
 
-Muchos valores de medida también se pueden usar como filtros. En la tabla siguiente se enumeran las medidas disponibles actualmente en el CQD, que se muestran en el orden en que aparecen en el editor de consultas:
+Muchos valores de medida también se pueden usar como filtros. En la tabla siguiente se enumeran las medidas disponibles actualmente en el CQD, que se muestran en el orden en que aparecen en el editor de consultas
 
 |Nombre de la medida |Unit |Descripción |
 |:--- |:--- |:--- |
@@ -511,7 +511,7 @@ Muchos valores de medida también se pueden usar como filtros. En la tabla sigui
 |Número total de streams de medios correctos |Número de transmisiones |Número de transmisiones en las que se ha establecido la ruta de acceso a medios y terminada con normalidad. |
 |Número total de secuencias correctas de configuración de llamadas |número de transmisiones |Número de transmisiones en las que se puede establecer la ruta de acceso a los medios entre los puntos de conexión al inicio de la llamada.|
 |Porcentaje total de errores de configuración de llamadas |Porcentaje |Porcentaje de todas las transmisiones en las que no se pudo establecer la ruta de acceso a los medios entre los puntos de conexión al inicio de la llamada. |
-|Porcentaje total de errores de llamadas perdidas |Porcentaje |Porcentaje de transmisiones correctamente establecidas en las que la ruta de acceso a los medios no finalizó con normalidad. | Número total de llamadas cortas
+|Porcentaje total de errores de llamadas perdidas |Porcentaje |Porcentaje de transmisiones correctamente establecidas en las que la ruta de acceso a los medios no finalizó con normalidad.| 
 |Relación total de las respuestas |Relación |Proporción de llamadas con una duración inferior a 5 segundos sobre el número total de llamadas. |
 |Porcentaje total de llamadas cortas |Porcentaje |Porcentaje de llamadas totales con menos de 1 minuto de duración. |
 |Porcentaje total de errores de medios |Porcentaje |Porcentaje de todas las transmisiones en las que la ruta de acceso a medios no se pudo establecer o no finalizó con normalidad. |
@@ -521,8 +521,8 @@ Muchos valores de medida también se pueden usar como filtros. En la tabla sigui
 |Porcentaje de errores de medios bloqueados de Firewall IP |Porcentaje |Porcentaje de transmisiones que no se pudo establecer porque el equipo de red bloqueó el acceso a los servidores de Skype empresarial. Estos errores suelen indicar que un proxy, Firewall u otro dispositivo de seguridad de red no está configurado correctamente para acceder a la dirección IP y los puertos usados por Skype empresarial en Office 365. |
 | Error de multimedia debido a otro recuento de flujo|Número de transmisiones| Número de transmisiones en las que no se pudo establecer la ruta de acceso a los medios entre los puntos de conexión debido a una razón indeterminada o no clasificada.| |
 | Porcentaje de errores de medios|Porcentaje| Porcentaje de transmisiones en las que no se pudo establecer la ruta de acceso a los medios entre los puntos de conexión debido a una razón indeterminada o no clasificada. ||
-| Número total de llamadas disponibles de CDR|Número de transmisiones|Número total de transmisiones de medios con información de confiabilidad o de diagnóstico disponible.|
-| Número total de llamadas fallidas de medios|Número de transmisiones|Número de transmisiones en las que no se pudo establecer la ruta de acceso a los medios entre los puntos de conexión.|
+| Número total de llamadas disponibles de CDR|Número de transmisiones|Número total de transmisiones de medios con información de confiabilidad o de diagnóstico disponible. Hay un error de hasta 0,2% para esta medida. Consulte la nota a continuación para obtener más información.|
+| Número total de llamadas fallidas de medios|Número de transmisiones|Número de transmisiones en las que no se pudo establecer la ruta de acceso a los medios entre los puntos de conexión. Hay un error de hasta 0,2% para esta medida. Consulte la nota a continuación para obtener más información.|
 |Recuento de flujo de audio |Número de transmisiones |Número de transmisiones de audio. |
 |Recuento de flujo de audio deficiente |Número de transmisiones |Número de transmisiones de audio clasificadas como malas en función de la métrica de red que se muestra aquí: [clasificación de flujo en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md). |
  |Recuento de flujo de audio de buena calidad |Número de transmisiones |Número de transmisiones de audio clasificadas como buenas en función de la métrica de red que se muestra aquí: [clasificación de flujo en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md). |
@@ -543,11 +543,11 @@ Muchos valores de medida también se pueden usar como filtros. En la tabla sigui
 |Recuento de flujo de llamadas de audio de mala calidad |Número de transmisiones |Número de transmisiones de audio en las que al menos una secuencia de audio de la llamada (cara a cara) se ha clasificado como mala en función de la métrica de red que se muestra aquí: [clasificación de flujo en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md). |
 |Recuento de secuencias de llamadas sin clasificar de audio |Número de transmisiones |Número de transmisiones de audio en las que no se pudieron clasificar las dos secuencias de audio de la llamada (de llamada) porque faltaban métricas de red. |
 |Porcentaje de nivel de llamada de audio deficiente |Porcentaje |Porcentaje de todas las transmisiones de audio en las que al menos una secuencia de audio de la llamada (cara a cara) se ha clasificado como mala en función de la métrica de red que se muestra aquí: [clasificación de flujo en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md). |
-| Recuento de llamadas de audio | Número |Número de llamadas con audio.| |
-| Recuento de llamadas de audio deficiente|Número  |Número de llamadas con audio clasificadas como malas.|
-| Recuento de llamadas de audio de buena calidad |Número de llamadas|Número de llamadas con audio clasificadas como buenas.|
-| Número de llamadas de audio sin clasificar |Número de llamadas|Número de llamadas con audio que no se pudieron clasificar como buenas o malas.|
-| Porcentaje de llamada de audio deficiente |Porcentaje de llamadas|Porcentaje de llamadas con audio clasificado como mala.|
+| Recuento de llamadas de audio | Número |Número de llamadas con audio. Hay un error de hasta 0,2% para esta medida. Consulte la nota a continuación para obtener más información.|
+| Recuento de llamadas de audio deficiente|Número  |Número de llamadas con audio clasificadas como malas. Hay un error de hasta 0,2% para esta medida. Consulte la nota a continuación para obtener más información.|
+| Recuento de llamadas de audio de buena calidad |Número de llamadas|Número de llamadas con audio clasificadas como buenas. Hay un error de hasta 0,2% para esta medida. Para obtener más información, vea las notas siguientes.|
+| Número de llamadas de audio sin clasificar |Número de llamadas|Número de llamadas con audio que no se pudieron clasificar como buenas o malas. Hay un error de hasta 0,2% para esta medida. Consulte la nota a continuación para obtener más información.|
+| Porcentaje de llamada de audio deficiente |Porcentaje de llamadas|Porcentaje de llamadas con audio clasificado como mala. Hay un error de hasta 0,2% para esta medida. Consulte la nota a continuación para obtener más información.|
 |Recuento de flujo de uso compartido |Número de transmisiones |Número de transmisiones de uso compartido de aplicaciones basadas en RDP. |
 |Uso compartido deficiente debido a recuento de SpoiledTilePercentTotal |Número de transmisiones |Número de transmisiones con uso compartido de aplicaciones en las que la métrica total del porcentaje de mosaico estropeada supera los límites que se especifican aquí: [clasificación de flujo en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md). |
 |Uso compartido deficiente debido a recuento de RelativeOneWayAverage |Número de transmisiones |Número de transmisiones con uso compartido de aplicaciones en las que la métrica total del porcentaje de mosaico estropeada supera los límites que se especifican aquí: [clasificación de flujo en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md). |
@@ -662,18 +662,18 @@ Muchos valores de medida también se pueden usar como filtros. En la tabla sigui
 | Promedio de velocidad de problema de micrófono del segundo|Número de problemas|Promedio de tasa de problema de micrófono del segundo (problemas por 5 minutos para el micrófono de extremo) de la transmisión. ||
 | Tasa media de problemas de altavoz del primero|Número de problemas|Promedio de velocidad de problemas de los altavoces (problemas por 5 minutos para el altavoz del punto final) para la transmisión. |
 | Tarifa de problema de segundo promedio del altavoz|Número de problemas|Promedio de velocidad de problema de los altavoces de segundo (problemas por 5 minutos para el altavoz del punto final) para la transmisión. |
-| Recuento de usuario del primero|Número | Número de usuarios únicos o distintivos del primer punto de conexión.| |
-| Número de usuarios del segundo|Número|Número de usuarios únicos o diferenciados del segundo punto de conexión.|
+| Recuento de usuario del primero|Número | Número de usuarios únicos o distintivos del primer punto de conexión. Hay un error de hasta 0,2% para esta medida. Consulte la nota a continuación para obtener más información.| 
+| Número de usuarios del segundo|Número|Número de usuarios únicos o diferenciados del segundo punto de conexión. Hay un error de hasta 0,2% para esta medida. Consulte la nota a continuación para obtener más información.|
 | Relación de eventos de los problemas en los primeros dispositivos|Porcentaje|Fracción media de las llamadas en las que el primer punto de conexión ha detectado problemas o brechas en los medios reproducidos o capturados que provocaban una calidad deficiente de los medios que se enviaban o recibieron.|
 | Relación de eventos de problemas en dispositivos promedio de segundos|Porcentaje|Fracción media de la llamada en la que el segundo punto de conexión ha detectado problemas o brechas en los medios reproducidos o capturados que provocaron una calidad deficiente de los medios que se envían o se recibieron.|
 | Recuento de eventos de problemas en dispositivos del primero|Número de transmisiones en las que el primer punto de conexión ha detectado problemas significativos o brechas en los medios reproducidos o capturados que provocaban una calidad deficiente de los medios que se enviaban o recibieron.||
 | Recuento de eventos de problemas en dispositivos del segundo|Número de transmisiones en las que el segundo punto de conexión ha detectado problemas significativos o brechas en los medios reproducidos o capturados que provocaban una calidad deficiente de los medios que se enviaban o recibieron.||
-| Recuento total de intentos de RTC | Número de llamadas | Llamadas totales, incluidas las llamadas correctas y las llamadas fallidas en el intervalo de tiempo seleccionado.|
-|Recuento total de conexiones RTC | Número de llamadas | Total de llamadas conectadas correctamente en el intervalo de tiempo seleccionado.|
-|Número de intentos entrantes de RTC | Número de llamadas | Total de llamadas entrantes intentadas, incluidas las llamadas correctas y las llamadas fallidas en el intervalo de tiempo Select.|
-|Recuento de conexiones entrantes de RTC | Número de llamadas | Total de llamadas entrantes conectadas correctamente en el intervalo de tiempo seleccionado.|
-|Número de intentos de salida de RTC | Número de llamadas | Total de llamadas salientes intentadas, incluidas las llamadas correctas y las llamadas fallidas en el intervalo de tiempo seleccionado.|
-|Recuento de conexiones salientes de RTC | Número de llamadas | Total de llamadas salientes conectadas correctamente en el intervalo de tiempo seleccionado.|
+| Recuento total de intentos de RTC | Número de llamadas | Llamadas totales, incluidas las llamadas correctas y las llamadas fallidas en el intervalo de tiempo seleccionado. Hay un error de hasta 0,2% para esta medida. Consulte la nota a continuación para obtener más información.|
+|Recuento total de conexiones RTC | Número de llamadas | Total de llamadas conectadas correctamente en el intervalo de tiempo seleccionado. Hay un error de hasta 0,2% para esta medida. Consulte la nota a continuación para obtener más información.|
+|Número de intentos entrantes de RTC | Número de llamadas | Total de llamadas entrantes intentadas, incluidas las llamadas correctas y las llamadas fallidas en el intervalo de tiempo Select. Hay un error de hasta 0,2% para esta medida. Consulte la nota a continuación para obtener más información.|
+|Recuento de conexiones entrantes de RTC | Número de llamadas | Total de llamadas entrantes conectadas correctamente en el intervalo de tiempo seleccionado. Hay un error de hasta 0,2% para esta medida. Consulte la nota a continuación para obtener más información.|
+|Número de intentos de salida de RTC | Número de llamadas | Total de llamadas salientes intentadas, incluidas las llamadas correctas y las llamadas fallidas en el intervalo de tiempo seleccionado. Hay un error de hasta 0,2% para esta medida. Consulte la nota a continuación para obtener más información.|
+|Recuento de conexiones salientes de RTC | Número de llamadas | Total de llamadas salientes conectadas correctamente en el intervalo de tiempo seleccionado. Hay un error de hasta 0,2% para esta medida. Consulte la nota a continuación para obtener más información.|
 |Total de minutos de RTC | Minute | Minutos totales | Uso total de minutos en el intervalo de tiempo seleccionado.|
 |Minutos totales de entrada RTC | Minute | Número total de minutos de entrada en el intervalo de tiempo seleccionado.|
 |Minutos totales de salida de RTC | Minute | Número total de minutos de salida en el intervalo de tiempo seleccionado.|
@@ -686,8 +686,13 @@ Muchos valores de medida también se pueden usar como filtros. En la tabla sigui
 |Tasa de pérdida de paquetes de P50 | Porcentaje | el 50% de las solicitudes debe tener menos de la tasa de pérdida de paquetes proporcionada.|
 |Retraso de marcado de mensajes salientes de RTC| Milisegundos | El retraso que se produce en las llamadas salientes medida desde el momento en que se ha marcado un número hasta que la persona que llama o la parte llamada escucha el timbre.|
 |Retraso de marcado de entrada entrante de RTC | Milisegundos | El tiempo o retraso que se produce en las llamadas entrantes medido desde el momento en que se ha marcado un número hasta que el autor de la llamada o la parte llamada escuchan el timbre.|
-|Porcentaje bueno de NER de RTC | Porcentaje | El NER mide la capacidad de una red de entregar llamadas midiendo el número de llamadas enviadas en comparación con el número de llamadas enviadas a un destinatario.<br/>NER = (llamadas con respuesta + timbre ocupado + timbre no responde + ataques de rechazo de terminal)/llamadas totales de intento x 100|
+|Porcentaje bueno de NER de RTC | Porcentaje | El NER mide la capacidad de una red de entregar llamadas midiendo el número de llamadas enviadas en comparación con el número de llamadas enviadas a un destinatario.<br/>NER = (llamadas con respuesta + timbre ocupado + timbre no responde + ataques de rechazo de terminal) o total de llamadas x 100. hay un error de hasta 0,2% para esta medida. Consulte la nota a continuación para obtener más información.|
 ||||
+
+### <a name="notes-on-measurements"></a>Notas sobre las medidas
+
+#### <a name="accuracy-limitations"></a>Limitaciones de precisión
+Determinadas medidas de recuento de llamadas dependen de la realización de una operación distintiva de contar.Si en el conjunto de datos para calcular el recuento. Actualmente hay un error hasta el 0,2% inherente a la operación DISTINCT contar.Si, dependiendo del número de filas en que se realice la operación. Para obtener el volumen más preciso, debe usar medidas de recuento de flujo porque no dependen de esta operación distintiva de contar.Si. El filtrado para reducir el volumen de datos puede reducir el error, pero no puede eliminar esta fuente de error en distintos números de llamadas y usuarios. Puede encontrar más información sobre esta limitación en la [función DCont](https://docs.microsoft.com/azure/data-explorer/kusto/query/dcount-aggfunction).
 
 ## <a name="filters"></a>Filtros
 

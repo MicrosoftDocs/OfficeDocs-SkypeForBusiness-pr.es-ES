@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: Obtenga información sobre cómo usar PowerShell para obtener la funcionalidad de SEFAUtil en Skype empresarial Server 2019 después de instalar la actualización acumulativa 1.'
-ms.openlocfilehash: 1a18a954e40ba7a0c72e4d87b4b3c943e827f2a1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 24040a3da5dc2549996463078a55324f3fc03657
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049142"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232571"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Uso de la funcionalidad SEFAUtil a través de PowerShell en Skype empresarial Server 2019
 
@@ -103,7 +103,7 @@ En el caso de las implementaciones locales, los cmdlets que se presentaron en es
 - CsHelpDesk: obtener para todos los cmdlets
 
 Para obtener más información sobre estos roles de administrador, consulte [crear administradores del panel de control de Skype empresarial Server](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md). El administrador puede tener acceso a estos cmdlets al iniciar sesión de forma directa o remota en un equipo servidor.
-Para una implementación híbrida, los administradores de Skype empresarial deben poder llamar a get y set para todos los cmdlets. Para obtener más información acerca de la lista completa de funciones, consulte Acerca de los [roles de administrador de Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)
+Para una implementación híbrida, los administradores de Skype empresarial deben poder llamar a get y set para todos los cmdlets. Para obtener más información acerca de la lista completa de roles, consulte [About admin roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)
 
 > [!NOTE]
 > La detección automática de servidores debe estar habilitada. No se presentarán requisitos de licencia adicionales para el uso de los cmdlets.

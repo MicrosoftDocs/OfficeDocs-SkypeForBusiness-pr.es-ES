@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft retira el servicio en línea de mensajería unificada (ExchUMO) de Exchange antes del 28 de febrero de 2020. En este artículo se resumen lo que los clientes afectados deben conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: a28d8e1d9217773ec28c8f2afdf00cb1e16ae53c
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: cf8b62d4a36059a90631e139910dab3f9f40aa38
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042837"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232565"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de mensajería unificada de Exchange
 
@@ -82,7 +82,7 @@ Microsoft ha identificado varias implementaciones de clientes que consumen carac
     Consulte un aviso en el centro de notificaciones del administrador con más detalles y escala temporal sobre la migración de los usuarios. Las notificaciones se envían al menos 30 días antes del período de migración. 
 
     > [!Note]
-    > Si recibió una notificación con la escala de tiempo de la migración de los usuarios y desea posponer su migración por un motivo crítico para la empresa, puede ponerse en contacto con el soporte técnico de Microsoft. Tenga en cuenta que no puede posponer la migración más allá de la fecha de retiro, 28 de febrero de 2020. Para los clientes que puedan tener más preguntas, póngase en contacto con su equipo de cuenta o soporte técnico de Microsoft. Los clientes que ya usan Office 365 pueden enviar un caso de soporte técnico a través del centro de administración de Microsoft 365. 
+    > Si recibió una notificación con la escala de tiempo de la migración de los usuarios y desea posponer su migración por un motivo crítico para la empresa, puede ponerse en contacto con el soporte técnico de Microsoft. Tenga en cuenta que no puede posponer la migración más allá de la fecha de retiro, 28 de febrero de 2020. Para los clientes que puedan tener más preguntas, póngase en contacto con su equipo de cuenta o soporte técnico de Microsoft. Los clientes que ya usan Microsoft 365 o Office 365 pueden enviar un caso de soporte a través del centro de administración de Microsoft 365. 
 
 6. **Considere la posibilidad de optar por una migración planeada**
 
@@ -104,7 +104,7 @@ Microsoft ha identificado varias implementaciones de clientes que consumen carac
 
 ## <a name="auto-attendant-migration-guidelines"></a>Instrucciones de migración del operador automático
 
-Office 365 los administradores de la organización deben volver a crear los operadores automáticos de mensajería unificada de Exchange en el servicio de operador automático de la nube de Microsoft y cambiar sus números de teléfono locales antes del 28 de febrero de 2020, que es cuando se retirará el servicio Exchange UMO. Esta es la pauta recomendada para migrar y probar correctamente nuevos operadores automáticos de la nube. Si tiene un gran número de operadores automáticos, puede usar el [operador automático de mensajería unificada de Exchange para los scripts de migración de operadores](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) automáticos de la nube para simplificar la migración masiva de los operadores automáticos.
+Los administradores de la organización Microsoft 365 y Office 365 deben volver a crear los operadores automáticos de mensajería unificada de Exchange en el servicio de operador automático de la nube de Microsoft y cambiar sus números de teléfono locales antes del 28 de febrero de 2020, que es cuando se retirará el servicio Exchange UMO. Esta es la pauta recomendada para migrar y probar correctamente nuevos operadores automáticos de la nube. Si tiene un gran número de operadores automáticos, puede usar el [operador automático de mensajería unificada de Exchange para los scripts de migración de operadores](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) automáticos de la nube para simplificar la migración masiva de los operadores automáticos.
 
 ### <a name="setup"></a>Instalación
 
