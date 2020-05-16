@@ -16,12 +16,12 @@ f1.keywords:
 description: Configurar la optimización de medios locales para el enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 518445e10b757adc9a21c426fb885bb04b7a878b
-ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
+ms.openlocfilehash: c3da3cf243b24d0f614c05e9d09eb68796a68545
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047859"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256495"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Configurar la optimización de medios locales para el enrutamiento directo
 
@@ -52,7 +52,7 @@ Para configurar los sitios de usuario y SBC, tendrá que:
 
 ## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>Configurar SBC (s) para la optimización de medios locales según la especificación de proveedor de SBC
 
-En este artículo se describe la configuración de los componentes de Microsoft. Para obtener información sobre la configuración de SBC, consulte la documenation de proveedor de SBC.
+En este artículo se describe la configuración de los componentes de Microsoft. Para obtener información sobre la configuración de SBC, consulte la documentación de su proveedor de SBC.
 
 La optimización local de medios es compatible con los siguientes proveedores de SBC:
 
@@ -108,7 +108,7 @@ Todos los parámetros distinguen entre mayúsculas y minúsculas, por lo que deb
 
 ### <a name="define-network-regions"></a>Definir regiones de red
 
-Para definir regiones de red, use el cmdlet New-CsTenantNetworkRegion. El parámetro RegionID es un nombre lógico que representa la geografía de la región y no tiene dependencias ni restricciones. El parámetro <site ID> CentralSite es opcional.
+Para definir regiones de red, use el cmdlet New-CsTenantNetworkRegion. El parámetro RegionID es un nombre lógico que representa la geografía de la región y no tiene dependencias ni restricciones. El <site ID> parámetro CentralSite es opcional.
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -228,7 +228,7 @@ En la tabla siguiente se muestra la acción y la configuración de usuario final
 
 | Ubicación física de usuario| El usuario realiza o recibe una llamada a o desde el número | Número de teléfono del usuario  | Directiva de enrutamiento de voz en línea | Modo configurado para SBC |
 |:------------|:-------|:-------|:-------|:-------|
-| Vietnam | + 84 4 3926 3000 | + 84 4 5555 5555   | Prioridad 1: ^\+84 (\d{9}) $-VNsbc.contoso.com <br> Prioridad 2:. *-proxysbc.contoso.com   | VNsbc.contoso.com: omite siempre <br> proxysbc.contoso.com: omite siempre
+| Vietnam | + 84 4 3926 3000 | + 84 4 5555 5555   | Prioridad 1: ^ \+ 84 (\d {9} ) $-VNsbc.contoso.com <br> Prioridad 2:. *-proxysbc.contoso.com   | VNsbc.contoso.com: omite siempre <br> proxysbc.contoso.com: omite siempre
 
 
 En el siguiente diagrama se muestra la escalera SIP para una llamada saliente con el modo Omitir siempre y el usuario en la misma ubicación que la SBC.
@@ -239,7 +239,7 @@ En la tabla siguiente se muestran los encabezados X-MS enviados por enrutamiento
 
 | Parámetro | Explicación |
 |:------------|:-------|
-| Invitar a + 8443926300@VNsbc.contoso.com | El nombre de destino de la SBC según se define en la Directiva de enrutamiento de voz en línea se envía en el URI de la solicitud. | 
+| Invitar a + 8443926300@VNsbc.contoso.com | El FQDN de destino de la SBC tal como se define en la Directiva de enrutamiento de voz en línea se envía en el URI de la solicitud. | 
 | X-MS-UserLocation: Internal | El campo indicó que el usuario se encuentra dentro de la red corporativa |
 | X-MS-MediaPath: VNsbc.contoso.com |   Especifica qué SBC debe atravesar el cliente hasta el SBC de destino. En este caso, puesto que siempre hemos omitido y el cliente es interno, el nombre de destino enviado como el único nombre en el encabezado. | 
 |X-MS-UserSite: Vietnam |   El campo indicado dentro del sitio donde se encuentra el usuario. |
@@ -277,7 +277,7 @@ En la tabla siguiente se muestran los encabezados X-MS enviados por el servicio 
 
 | Parámetro |   Explicación |
 |:------------|:-------|
-|Invitar a + 8443926300@VNsbc.contoso.com | El nombre de destino de la SBC, según se define en la Directiva de enrutamiento de voz en línea, se envía en el URI de la solicitud.|
+|Invitar a + 8443926300@VNsbc.contoso.com | El FQDN de destino de SBC tal como se define en la Directiva de enrutamiento de voz en línea se envía en el URI de la solicitud.|
 | X-MS-UserLocation: External | El campo indicó que el usuario se encuentra fuera de la red corporativa. |
 | X-MS-MediaPath: proxysbc.contoso.com, VNsbc.contoso.com    | Especifica qué SBC debe atravesar el cliente hasta el SBC de destino. En este caso, ya que siempre hemos omitido y el cliente es externo. |
 
@@ -309,7 +309,7 @@ La siguiente tabla muestra la configuración y la acción del usuario final:
 
 | Ubicación física de usuario |  El usuario realiza o recibe una llamada a o desde el número |  Número de teléfono del usuario | Directiva de enrutamiento de voz en línea |   Modo configurado para SBC |
 |:------------|:-------|:-------|:-------|:-------|
-| Vietnam | + 84 4 3926 3000 |  + 84 4 5555 5555 | Prioridad 1: ^\+84 (\d{9}) $-VNsbc.contoso.com <br> Prioridad 2:. *-proxysbc.contoso.com | VNsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com – omitir siempre |
+| Vietnam | + 84 4 3926 3000 |  + 84 4 5555 5555 | Prioridad 1: ^ \+ 84 (\d {9} ) $-VNsbc.contoso.com <br> Prioridad 2:. *-proxysbc.contoso.com | VNsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com – omitir siempre |
 
 #### <a name="outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>Llamadas salientes y el usuario está en la misma ubicación que la SBC solo para usuarios locales
 

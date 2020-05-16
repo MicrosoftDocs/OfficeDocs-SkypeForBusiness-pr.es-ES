@@ -21,12 +21,12 @@ description: Aprenda a administrar tareas en el centro de administración de Mic
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad9e3f8b0f2f3800c7394a9d4dc21fe7a2058426
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.openlocfilehash: 78ce963b8d675aa6d5c851c1081472559d24c3a3
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42328002"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256455"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tareas en Teams para educación
 
@@ -47,13 +47,15 @@ Esta opción está desactivada de forma predeterminada.
 
 <a name="bkmakecode"> </a>
 ### <a name="makecode"></a>MakeCode
-MakeCode es una plataforma de codificación basada en bloques que hace que la ciencia de su equipo cobre vida por todos los alumnos. 
+Microsoft MakeCode es una plataforma de codificación basada en bloques que hace que la ciencia de su equipo cobre vida por todos los alumnos. 
 
-Este es un producto o servicio de terceros sujeto a sus propios términos y política de privacidad. Usted es responsable de su uso de productos y servicios de terceros.
+MakeCode es un producto de Microsoft que está sujeto a las [condiciones de uso](https://go.microsoft.com/fwlink/?LinkID=206977) y a las políticas de [privacidad](https://go.microsoft.com/fwlink/?LinkId=521839) de Microsoft.
 
-Esta opción está desactivada de forma predeterminada.
+Esta opción está desactivada de forma predeterminada. Para habilitar las tareas de MakeCode en Teams, en el **centro de administración de Teams**, **vaya a la**sección **tareas** y active la opción MakeCode. Haga clic en **Guardar** y deje que transcurran hasta 24 horas para que esta configuración surta efecto.
 
-[Más información sobre MakeCode](https://www.microsoft.com/makecode)
+Para obtener más información sobre cómo funciona esta característica, vea esta [demostración en vídeo](https://makecode.com/blog/teams/teams-assignments).
+
+[Más información sobre MakeCode](https://aka.ms/makecode)
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin

@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01f9ecbbce3146a2b5d36a70b485a2106f12ab6e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f1eb02b7755ecfaa78b3b5ad511f45052a7807b5
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902355"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256395"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Use los informes de actividades de Microsoft Teams 
 ========================================
@@ -32,7 +32,7 @@ Puede usar informes de actividades en el centro de administración de Microsoft 
 
 ## <a name="how-to-view-the-teams-reports-in-the-reports-dashboard"></a>Cómo ver los informes de Teams en el panel de informes
 
-1. En el [centro de administración de Microsoft 365](https://portal.office.com/adminportal/home), seleccione**uso**de **informes** > .
+1. En el [centro de administración de Microsoft 365](https://portal.office.com/adminportal/home), seleccione uso de **informes**  >  **Usage**.
  
 2. En la página **uso** , elija **seleccionar un informe**y, a continuación, en **Microsoft Teams** , en la lista de informes, elija el informe que desea ver.
 
@@ -101,7 +101,7 @@ Los usuarios asignados pueden obtener acceso a los informes de actividades:
 
 ### <a name="reports-reader-role"></a>Rol lector de informes
 
-Puede asignar el rol de *lector de informes* a personal que no es de ti y que desea que tenga acceso a estos informes. Al asignar este rol a los administradores o a las partes interesadas de su empresa, puede asegurarse de que tengan acceso a la información útil para impulsar y hacer un seguimiento de la adopción de Teams.
+Puede asignar el rol de *lector de informes* a personal que no es de ti y que desea que tenga acceso a estos informes. Al asignar este rol a los administradores o a las partes interesadas de su empresa, puede asegurarse de que tengan acceso a la información útil para impulsar y hacer un seguimiento de la adopción de Teams. Para obtener información sobre cómo asignar roles, lea [asignar roles de administrador y de administrador a los usuarios con Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
 
 ## <a name="other-information-on-the-reports-dashboard"></a>Otra información en el panel informes
 

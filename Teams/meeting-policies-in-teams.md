@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: 4a61d2563a63d2dc8d1b55bbf0bbc6c52230d900
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: a2c921da824bdbbcd6b0f6baf49887e55df08ca9
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139214"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256505"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -78,7 +78,7 @@ Para asignar una directiva a varios usuarios a la vez, vea [Modificar la configu
 
 También puede hacer lo siguiente:
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de reunión**de **reuniones** > .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de reunión de **reuniones**  >  **Meeting policies**.
 2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
 3. Seleccione **Administrar usuarios**.
 4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
@@ -327,7 +327,7 @@ Esta configuración controla los participantes de la reunión en la sala de espe
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permitir a personas anónimas iniciar una reunión
 
-Esta es una directiva por organizador. Esta configuración controla si los usuarios anónimos, como B2B, y los usuarios federados, pueden unirse a la reunión del usuario sin un usuario autenticado de la organización en la asistencia. 
+Esta es una directiva por organizador. Esta configuración controla si los usuarios anónimos, como B2B, y los usuarios federados, pueden unirse a la reunión del usuario sin un usuario autenticado de la organización en la asistencia. El valor predeterminado es False.
 
 ![Captura de pantalla que muestra un mensaje a un usuario en espera](media/meeting-policies-anonymous-user-lobby.png)
 
@@ -365,11 +365,11 @@ Esta es una directiva por organizador. Esta opción controla si los usuarios pue
 |---------|---------|
 |**Todos**   |Todos los participantes de la reunión se unen directamente desde la sala de espera. Esto incluye usuarios autenticados, usuarios federados, invitados, usuarios anónimos y personas que llaman por teléfono.       |
 |**Todas las personas de la organización y las organizaciones federadas**     |Los usuarios autenticados dentro de la organización, incluidos los usuarios invitados y los usuarios de organizaciones federadas, se unen a la reunión directamente, sin tener que esperar en la sala de espera.  Los usuarios anónimos y los usuarios que han marcado por teléfono esperan en la sala de espera.   |
-|**Todas las personas de su organización**    |Los usuarios autenticados de la organización, incluidos los invitados, se unen a la reunión directamente, sin tener que esperar en la sala de espera.  Los usuarios federados, los usuarios anónimos y los usuarios que marcan por teléfono esperan en la sala de espera.           |
+|**Todas las personas de su organización**    |Los usuarios autenticados de la organización, incluidos los invitados, se unen a la reunión directamente, sin tener que esperar en la sala de espera.  Los usuarios federados, los usuarios anónimos y los usuarios que marcan por teléfono esperan en la sala de espera. Esta configuración es la predeterminada.           |
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que los usuarios de acceso telefónico omitan la sala de recepción
 
-Esta es una directiva por organizador. Esta opción controla si las personas que marcan por teléfono se unen a la reunión directamente o esperan en la sala independientemente de la configuración **admitir automáticamente** a los usuarios.
+Esta es una directiva por organizador. Esta opción controla si las personas que marcan por teléfono se unen a la reunión directamente o esperan en la sala independientemente de la configuración **admitir automáticamente** a los usuarios. El valor predeterminado es False.
 
 Este es el comportamiento de la Unión de las personas que llaman por teléfono.
 
@@ -402,6 +402,16 @@ Esta es una directiva por organizador. Esta opción controla si se permite la co
 
 <a name="bkparticipantsandguests"> </a>
 
+## <a name="meeting-policy-settings---meeting-attendance-report"></a>Configuración de la Directiva de reunión-informe de asistencia a reuniones
+
+Esta es una directiva por usuario. Esta configuración controla si los organizadores de reuniones pueden descargar el [Informe de asistencia](teams-analytics-and-reports/meeting-attendance-report.md)a la reunión.
+
+Actualmente, solo puede usar PowerShell para establecer esta configuración de directiva. Puede editar una directiva de reunión existente de Teams mediante el cmdlet [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . O bien, cree una nueva Directiva de reunión de Teams mediante el cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) y asígnela a los usuarios.
+
+Para habilitar el organizador de la reunión para que descargue el informe de asistencia a reuniones, establezca el parámetro **AllowEngagementReport** en **habilitado**. Cuando se habilita, la opción para descargar el informe se muestra en el panel **participantes** .
+
+Para evitar que un organizador de la reunión Descargue el informe, establezca el parámetro en **deshabilitado**. Esta opción está deshabilitada de forma predeterminada y la opción para descargar el informe no está disponible.
+
 ## <a name="related-topics"></a>Temas relacionados
 
-[Directivas de mensajería en Teams](messaging-policies-in-teams.md)
+- [Descripción de PowerShell para Teams](teams-powershell-overview.md)
