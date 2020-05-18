@@ -60,6 +60,7 @@
 ### [Configurar la administración para aplicaciones en Teams](admin-settings.md)
 ### [Usar pestañas integradas y personalizadas](built-in-custom-tabs.md)
 ### [Usar Microsoft 365 u Office 365 y los conectores personalizados](Office-365-custom-connectors.md)
+### [Consentimiento específico del recurso](resource-specific-consent.md)
 ### [Administrar las aplicaciones personalizadas](manage-your-custom-apps.md)
 ### [Certificación de aplicación](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Plantillas de aplicación para equipos](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -138,6 +139,7 @@
 ## [Grabación de reuniones en la nube de Teams](cloud-recording.md)
 ## [Usar el complemento para reunión de Microsoft Teams en Outlook](teams-add-in-for-outlook.md)
 ## [Configure la característica llamarme para sus usuarios](set-up-the-call-me-feature-for-your-users.md)
+## [Obtener un informe de asistencia a reuniones](teams-analytics-and-reports/meeting-attendance-report.md)
 ## [Configuración del servicio de migración de reuniones (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Salas de Microsoft Teams](rooms/index.md)
 ## [Administrar la pizarra en Teams](manage-whiteboard.md)
@@ -244,7 +246,7 @@
 #### [Configurar un operador automático en la nube](create-a-phone-system-auto-attendant.md)
 #### [Ejemplo de pequeña empresa: configurar un operador automático](tutorial-org-aa.yml)
 #### [Ejemplo de pequeña empresa: configurar una cola de llamada](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Administrar cuentas de recursos en Microsoft Teams](manage-resource-accounts.md)
+#### [Administrar cuentas de recursos de Teams](manage-resource-accounts.md)
 #### [Crear una cola de llamadas en la nube](create-a-phone-system-call-queue.md)
 #### [Responder al operador automático y llamar a la cola de llamadas directamente desde Teams](answer-auto-attendant-and-call-queue-calls.md)
 
@@ -751,6 +753,7 @@
 ## Interoperabilidad con Microsoft 365 y Office 365
 
 ### [Grupos de Microsoft 365 y Teams](office-365-groups.md)
+### [Crear una cuenta de recurso de Microsoft 365 con el centro de administración de Microsoft 365](devices/resource-account-ui.md)
 ### [Mejorar los grupos de Microsoft 365 existentes con Teams](enhance-office-365-groups.md)
 ### [Interacción entre Exchange y Microsoft Teams](exchange-teams-interact.md)
 #### [Configurar una organización híbrida de Exchange para usarla con Microsoft Teams](exchange-hybrid-organization.md)
@@ -762,6 +765,7 @@
 ## Dispositivos admitidos
 ### [Administrar los dispositivos en Teams](device-management.md)
 ### [Teléfonos para Teams](phones-for-teams.md)
+### [Implementar barras de colaboración para Microsoft Teams](devices/collab-bar-deploy.md)
 ### [Dispositivos de audio y vídeo USB](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Soluciones y dispositivos de salas de reuniones](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teléfonos IP certificados para Microsoft Teams](teams-ip-phones.md)
