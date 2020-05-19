@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga más información sobre las diferentes combinaciones de creación de usuarios y qué combinaciones son compatibles o no.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a235b5c27919c0015849140a3e772f4a189a17d8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 635ab29498ee01c976b33dc62a193bb723ba190e
+ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779999"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280259"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Cuentas de usuario en un entorno híbrido con conectividad RTC
 
@@ -65,7 +65,7 @@ Un entorno híbrido de Skype empresarial con conectividad RTC proporciona flexib
 |**Combinaciones no admitidas**    | |         |         |      |
 |Azure AD| Local o en línea | Skype empresarial/Microsoft Teams|Voz empresarial/conectividad híbrida de voz/enrutamiento directo  |No, el objeto de usuario debe crearse primero en un anuncio local |
 |ANUNCIO local  |Implementación local| Microsoft Teams| Voz empresarial/conectividad híbrida de voz/enrutamiento directo   |No, el cliente de Microsoft Teams no es compatible con Skype empresarial local |     
-|ANUNCIO local  |Online |Skype Empresarial  | Enrutamiento directo  |No, el enrutamiento directo no es compatible con el cliente de Skype empresarial y el usuario debe estar habilitado para telefonía IP empresarial en Skype empresarial en primer lugar.  |
+|ANUNCIO local  |Online |Skype Empresarial  | Enrutamiento directo  |No, el enrutamiento directo no es compatible con el cliente de Skype empresarial  |
 
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Declaración de compatibilidad para el entorno híbrido con RTC

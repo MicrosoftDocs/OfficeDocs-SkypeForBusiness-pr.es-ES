@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar y administrar paquetes de directivas en Microsoft Teams para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
-ms.openlocfilehash: b900e7ad8e41b8ebad0ff2af774e36478c956f59
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 742269fd85cb912e52d727a03a6123acd0b87a72
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44243572"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44281502"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Administrar paquetes de directivas en Microsoft Teams
 
@@ -51,7 +51,7 @@ Actualmente, Teams incluye los siguientes paquetes de directivas.
 |Educación (estudiante principal de la escuela con aprendizaje remoto) (vista previa)    |Crea un conjunto de directivas que se aplican a los alumnos principales para maximizar la seguridad y la colaboración de los alumnos al usar el aprendizaje remoto.      |
 |Trabajador clínico de sanidad  |Crea un conjunto de directivas y configuraciones de directivas que proporcionan a los trabajadores clínicos como enfermeras registradas, enfermeras, médicos y trabajadores sociales acceso completo a chats, llamadas, administración de turnos y reuniones. |
 |Trabajador de información de asistencia sanitaria  |Crea un conjunto de directivas y opciones de directiva que ofrecen a trabajadores de la información como personal de ti, personal de informática, personal de finanzas y funcionarios de cumplimiento, acceso completo a chats, llamadas y reuniones.|
-|Sala de pacientes de medicina (vista previa)  |Crea un conjunto de directivas y parámetros de directivas que se aplican a las salas de pacientes de su organización de salud.|
+|Sala de pacientes sanitarios  |Crea un conjunto de directivas y parámetros de directivas que se aplican a las salas de pacientes de su organización de salud.|
 |Usuarios de pequeñas y medianas empresas (voz empresarial) |Crea una directiva de configuración de aplicaciones que incluye las aplicaciones para una experiencia de voz de empresa.|
 |Usuarios de pequeñas y medianas empresas (sin voz empresarial) |Crea un conjunto de directivas y configuraciones de directivas que se aplican a usuarios empresariales pequeños y de tamaño mediano sin ninguna característica de voz de empresa.|
 |Funcionario de seguridad pública   |Crea un conjunto de directivas y parámetros de directivas que se aplican a los directores de seguridad pública de su organización.|

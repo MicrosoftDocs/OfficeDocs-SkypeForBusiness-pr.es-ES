@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bb8133733f7230715753ecea0118fc635af446b
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 26e4ee05b9f94fa0883aef5bbe98b691c9e0c46d
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159007"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278173"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurar la jerarquía de destino de su equipo
 
@@ -57,7 +57,7 @@ El archivo CSV debe contener las tres columnas siguientes, en el orden siguiente
 ----------------|----------|---------------|
 | NombreDeDestino    | Sí      | Este es el nombre del nodo. El nombre puede tener hasta 100 caracteres y contener solo los caracteres A-Z, a-z y 0-9. Los nombres de nodo deben ser únicos. |
 | ParentName    | Sí       | Este es el nombre del nodo primario. El valor que especifique aquí debe coincidir exactamente con el valor del campo TargetName del nodo primario. Si desea agregar más de un nodo primario, separe cada nombre de nodo primario con un punto y coma (;). Puede Agregar hasta 25 nodos primarios y cada nombre de nodo primario puede tener hasta 2500 caracteres. Un nodo solo puede tener varios nodos primarios si los nodos primarios son nodos raíz.   <br><br>**Importante** Tenga cuidado de no crear un bucle en el que un elemento primario situado más arriba en la jerarquía haga referencia a un nodo secundario situado en la parte inferior de la jerarquía. Esto no es compatible. |
-| TeamID        | Sí, si el equipo publica tareas o recibe tareas desde un nodo principal       | Contiene el identificador del equipo al que desea vincular un nodo. Un nodo debe estar vinculado a un equipo si está en la parte inferior de la jerarquía, si quiere que los usuarios puedan publicar desde ese nodo, o si desea que los usuarios puedan ver los informes de ese nodo y sus descendientes. Por ejemplo, si su jefe de la región oeste, Office quiere ver informes de finalización de tareas para los nodos que pertenecen a esa región.<br><br>Si desea agregar un nodo solo para el propósito de agrupar otros nodos en la jerarquía, no es necesario vincular ese nodo a un equipo y dejar este campo en blanco. Puede vincular cada nodo a un solo equipo.<br>Para obtener el identificador de un equipo al que desea vincular un nodo, ejecute el siguiente comando de PowerShell `Get-Team | Export-Csv TeamList.csv`:. En esta lista se enumeran los equipos de su organización y se incluyen el nombre y el identificador de cada equipo. Busque el nombre del equipo con el que desea establecer el vínculo y, a continuación, copie el identificador en este campo.|
+| TeamId        | Sí, si el equipo publica tareas o recibe tareas desde un nodo principal       | Contiene el identificador del equipo al que desea vincular un nodo. Un nodo debe estar vinculado a un equipo si está en la parte inferior de la jerarquía, si quiere que los usuarios puedan publicar desde ese nodo, o si desea que los usuarios puedan ver los informes de ese nodo y sus descendientes. Por ejemplo, si su jefe de la región oeste, Office quiere ver informes de finalización de tareas para los nodos que pertenecen a esa región.<br><br>Si desea agregar un nodo solo para el propósito de agrupar otros nodos en la jerarquía, no es necesario vincular ese nodo a un equipo y dejar este campo en blanco. Puede vincular cada nodo a un solo equipo.<br>Para obtener el identificador de un equipo al que desea vincular un nodo, ejecute el siguiente comando de PowerShell: `Get-Team | Export-Csv TeamList.csv` . En esta lista se enumeran los equipos de su organización y se incluyen el nombre y el identificador de cada equipo. Busque el nombre del equipo con el que desea establecer el vínculo y, a continuación, copie el identificador en este campo.|
 
 ### <a name="add-attribute-columns"></a>Agregar columnas de atributos
 
@@ -90,14 +90,14 @@ Cuando agregue una columna de cubo, tenga en cuenta lo siguiente:
 
 Este es un ejemplo de un archivo CSV de esquema que se crearía para admitir la jerarquía que se muestra en la imagen de arriba. Este esquema contiene lo siguiente:
 
-- Hay tres columnas `TargetName`obligatorias `ParentName`denominadas, y`TeamID`
-- Tres columnas de atributos `Store layout`denominadas, `Departments:Clothing`y`Departments:Foods`
-- Tres columnas de cubo `Fresh Foods`denominadas, `Frozen Foods`y`Womenswear`
+- Hay tres columnas obligatorias denominadas `TargetName` , `ParentName` y`TeamId`
+- Tres columnas de atributos denominadas `Store layout` , `Departments:Clothing` y`Departments:Foods`
+- Tres columnas de cubo denominadas `Fresh Foods` , `Frozen Foods` y`Womenswear`
 
-El `Store layout` atributo tiene valores que incluyen `Compact`, `Standard`, y `Large`. Las `Departments` columnas de atributos pueden establecerse en un valor `0` de (cero) `1`o. El `Store` diseño y `Departments` los atributos no se muestran en la imagen de arriba. Se han agregado aquí para ayudar a mostrar cómo se pueden agregar atributos a las entradas de nodo. Lo mismo sucede con las tres columnas de cubo.
+El `Store layout` atributo tiene valores que incluyen `Compact` , `Standard` , y `Large` . Las `Departments` columnas de atributos pueden establecerse en un valor de `0` (cero) o `1` . El `Store` diseño y los `Departments` atributos no se muestran en la imagen de arriba. Se han agregado aquí para ayudar a mostrar cómo se pueden agregar atributos a las entradas de nodo. Lo mismo sucede con las tres columnas de cubo.
 
 
-| NombreDeDestino             | ParentName                      | TeamID                       | Diseño de tienda|Departamentos: ropa|Departamentos: alimentos|Alimentos #Fresh|Alimentos #Frozen|#Womenswear|
+| NombreDeDestino             | ParentName                      | TeamId                       | Diseño de tienda|Departamentos: ropa|Departamentos: alimentos|Alimentos #Fresh|Alimentos #Frozen|#Womenswear|
 |------------------------|-------------------------|--------------------------------------|-------------|---|---|---|---|---|
 | Recuperar                 |                         | db23e6ba-04a6-412a-95e8-49e5b01943ba |||||||
 | Comunicaciones         |                         | 145399ce-a761-4843-a110-3077249037fc |||||||

@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Los administradores pueden controlar el tipo de conferencias de audio y llamadas RTC de usuarios finales que pueden realizar los usuarios.
-ms.openlocfilehash: 253553e884b3f4591a7c5340132337d295cefe09
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 84acbed4017a709b63e657f12ef0bbe3c1eb620c
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137910"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278183"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario
 
@@ -36,11 +36,13 @@ Los controles de llamadas salientes se pueden aplicar en cada usuario y proporci
 
 |Control|Descripción|Opciones de control|
 |:-----|:-----|:-----|
-|Llamadas RTC de audioconferencia|Restringe el tipo de salida </br>llamadas permitidas desde dentro de </br>reuniones organizadas por un usuario.|Internacional y nacional (predeterminado)</br>Nacionales</br>Ninguna|
+|Llamadas RTC de audioconferencia|Restringe el tipo de salida </br>llamadas permitidas desde dentro de </br>reuniones organizadas por un usuario.|Cualquier destino (predeterminado)</br>En el mismo país o región que la organizor </br> </br>Solo países o regiones de la zona A </br>No permitir|
 |Llamadas RTC de usuarios finales|Restringe el tipo de llamadas </br>que puede realizar un usuario.|Internacional y nacional (predeterminado)</br>Nacionales</br>Ninguna|
 
+Para averiguar qué países o regiones se consideran zona A, consulte [países o regiones de zona](https://docs.microsoft.com/microsoftteams/calling-plans-for-office-365)a.
+
    > [!NOTE]
-   > Una llamada se considera nacional si el número marcado se encuentra en el mismo país en el que se ha configurado Office 365 para el organizador de la reunión (en el caso de las conferencias de audio) o el usuario final (en el caso de llamadas RTC de usuario final). 
+   > Las llamadas se consideran nacionales si el número marcado se encuentra en el mismo país o región donde se ha configurado Office 365 para el organizador de la reunión (en el caso de las conferencias de audio) o el usuario final (en el caso de llamadas RTC de usuarios finales). 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -61,7 +63,7 @@ Los controles de llamadas salientes se pueden aplicar en cada usuario y proporci
 
 ![Icono que muestra el logotipo de Skype Empresarial](media/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
 
-1.    En el **centro de administración de Skype empresarial**, en el navegación de la izquierda, vaya a**usuarios**de **conferencias** > de audio y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+1.    En el **centro de administración de Skype empresarial**, en el navegación de la izquierda, vaya a usuarios de **conferencias de audio**  >  **Users**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
 2.    En el panel de acciones, haga clic en **Editar**.
 
@@ -93,3 +95,6 @@ En la tabla siguiente se proporciona una descripción general de cada Directiva.
 |    Identity = ' etiqueta: DialoutCPCDomesticPSTNDisabled '    |    El usuario de la Conferencia solo puede llamar a números nacionales y este usuario no puede realizar llamadas salientes a números de RTC además de números de emergencia.    |
 |    Identity = ' etiqueta: DialoutCPCDisabledPSTNDomestic '    |    El usuario de la Conferencia no puede hacer llamadas, y este usuario solo puede hacer llamadas salientes a números RTC nacionales.    |
 |    Identity = ' etiqueta: DialoutCPCandPSTNDisabled '    |    El usuario de la Conferencia no puede hacer llamadas, y este usuario no puede hacer llamadas salientes a un número de RTC además de números de emergencia.    |
+|    Identity = ' etiqueta: DialoutCPCZoneAPSTNInternational '    |    El usuario de la Conferencia solo puede llamar a países y regiones de la zona a, y este usuario puede hacer llamadas salientes a números nacionales y internacionales.    |
+|    Identity = ' etiqueta: DialoutCPCZoneAPSTNDomestic '    |    El usuario de la Conferencia solo puede llamar a países y regiones de la zona a, y este usuario solo puede hacer llamadas salientes a un número de RTC nacional.    |
+|    Identity = ' etiqueta: DialoutCPCZoneAPSTNDisabled '    |    El usuario de la Conferencia solo puede llamar a países y regiones de la zona a, y este usuario no puede hacer llamadas salientes a un número RTC además de números de emergencia.    |

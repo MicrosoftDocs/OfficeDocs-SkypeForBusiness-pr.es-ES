@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: a2c921da824bdbbcd6b0f6baf49887e55df08ca9
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 2b7579b9dfe1d70c0a570d6ca519491a263e9f09
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256505"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278203"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -401,6 +401,23 @@ Esta es una directiva por usuario y se aplica durante una reunión. Esta configu
 Esta es una directiva por organizador. Esta opción controla si se permite la conversación de la reunión en la reunión del usuario.
 
 <a name="bkparticipantsandguests"> </a>
+
+## <a name="meeting-policy-settings---designated-presenter-role-mode"></a>Configuración de la Directiva de reunión: modo de rol de moderador designado
+
+Esta es una directiva por usuario. Esta opción le permite cambiar el valor predeterminado de la opción **¿quién puede presentar?** en **Opciones de reunión** en el cliente de Teams. Esta configuración de directiva afecta a todas las reuniones, incluidas las reuniones reunirse ahora.
+
+La **configuración** permite a los organizadores de reuniones elegir quién puede ser moderador de una reunión. Para obtener más información, consulte [cambiar la configuración de participantes para una reunión de Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) y [roles en una reunión de Teams](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+
+Actualmente, solo puede usar PowerShell para establecer esta configuración de directiva. Puede editar una directiva de reunión existente de Teams mediante el cmdlet [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . O bien, cree una nueva Directiva de reunión de Teams mediante el cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) y asígnela a los usuarios.
+
+Para especificar el valor predeterminado de la configuración ¿ **quién puede presentar?** en Teams, establezca el parámetro **DesignatedPresenterRoleMode** en una de las siguientes opciones:
+
+- **EveryoneUserOverride**: todos los participantes de la reunión pueden ser moderadores. Este es el valor predeterminado. Este parámetro corresponde a la configuración **todos** en Teams.
+- **EveryoneInCompanyUserOverride**: los usuarios autenticados de la organización, incluidos los invitados, pueden ser moderadores. Este parámetro corresponde a la configuración de las **personas de mi organización** de Teams.
+- **EveryoneInSameAndFederatedCompanyUserOverride**: los usuarios autenticados de la organización, incluidos los usuarios invitados y los usuarios de organizaciones federadas, pueden ser moderadores. Este parámetro corresponde a las **personas de mi organización y** la configuración de organizaciones de confianza de Teams.
+- **OrganizerOnlyUserOverride**: solo el organizador de la reunión puede ser Moderador y todos los participantes de la reunión se designan como asistentes. Este parámetro corresponde a la configuración **solo yo** de Teams.
+
+Tenga en cuenta que después de establecer el valor predeterminado, los organizadores de reuniones pueden cambiar esta configuración en Teams y elegir quién puede presentar en las reuniones que programan.
 
 ## <a name="meeting-policy-settings---meeting-attendance-report"></a>Configuración de la Directiva de reunión-informe de asistencia a reuniones
 

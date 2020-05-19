@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c341b808890ecc1d3b237ae70190aad9d1de8ea
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9c3d5f4eb0cd63dd252d5fcc01bff21f8643a788
+ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836550"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280279"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
 
@@ -133,7 +133,7 @@ La transferencia de llamadas requiere que el usuario que inicia la llamada atien
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>El usuario no está habilitado para el enrutamiento basado en la ubicación
 
-Un usuario que no está habilitado para el enrutamiento basado en la ubicación puede transferir o desviar llamadas RTC a otros usuarios que no tengan habilitado el enrutamiento basado en la ubicación. Por lo general, el usuario no podrá transferir ni reenviar una llamada RTC a un usuario que tenga habilitado el enrutamiento basado en la ubicación porque los usuarios con enrutamiento basado en ubicación generalmente solo se pueden ubicar en las puertas de enlace de enrutamiento basado en la ubicación para RTC las. La excepción es cuando un usuario habilitado para enrutamiento basado en la ubicación se desplaza a un sitio que no está habilitado para el enrutamiento basado en la ubicación. En este escenario, la llamada transferida está permitida.  
+Un usuario que no está habilitado para el enrutamiento basado en la ubicación puede transferir o desviar llamadas RTC a otros usuarios que no tengan habilitado el enrutamiento basado en la ubicación. Por lo general, el usuario no podrá transferir ni reenviar una llamada RTC a un usuario que tenga habilitado el enrutamiento basado en la ubicación porque los usuarios con enrutamiento basado en ubicación generalmente solo se pueden ubicar en las puertas de enlace de enrutamiento basadas en la ubicación para las llamadas RTC. La excepción es cuando un usuario habilitado para enrutamiento basado en la ubicación se desplaza a un sitio que no está habilitado para el enrutamiento basado en la ubicación. En este escenario, la llamada transferida está permitida.  
 
 Del mismo modo, un usuario que no está habilitado para el enrutamiento basado en la ubicación solo puede recibir una llamada RTC de transferencia o de reenvío de otro usuario que no está habilitado para el enrutamiento basado en la ubicación. 
 
@@ -218,7 +218,7 @@ También se permite el reenvío al buzón de voz.
 
 Un usuario de Teams puede elegir delegados que pueden hacer y recibir llamadas en su nombre. La capacidad de delegación de Teams se ve afectada por el enrutamiento basado en la ubicación de la siguiente manera: 
 - Para las llamadas salientes desde un delegado habilitado para enrutamiento basado en la ubicación en nombre de un delegador, se aplican las mismas reglas. El enrutamiento de llamadas se basa en la Directiva de autorización de llamadas del delegado, la Directiva de enrutamiento de voz y la ubicación. Para obtener más información, vea [el usuario de Teams coloca una llamada saliente a la RTC](#teams-user-places-an-outbound-call-to-the-pstn). 
-- Para las llamadas RTC entrantes a un delegador, las mismas reglas de enrutamiento basadas en la ubicación que se aplican al desvío de llamadas o a llamadas simultáneas a otros usuarios también se aplican a delegados. Para obtener más información, vea las [transferencias de usuarios de Teams o reenvían una llamada a otro usuario](#teams-user-transfers-or-forwards-call-to-another-teams-user) [de Teams](#teams-user-transfers-or-forwards-call-to-pstn-endpoint); [](#simultaneous-ringing) Cuando un delegado establece un punto final de la RTC como un destino de llamada simultánea, se usa la Directiva de enrutamiento de voz del delegado para enrutar la llamada a la RTC. 
+- Para las llamadas RTC entrantes a un delegador, las mismas reglas de enrutamiento basadas en la ubicación que se aplican al desvío de llamadas o a llamadas simultáneas a otros usuarios también se aplican a delegados. Para obtener más información, vea las [transferencias de usuarios de Teams o reenvían una llamada a otro usuario](#teams-user-transfers-or-forwards-call-to-another-teams-user) [de Teams](#teams-user-transfers-or-forwards-call-to-pstn-endpoint); [Simultaneous ringing](#simultaneous-ringing) Cuando un delegado establece un punto final de la RTC como un destino de llamada simultánea, se usa la Directiva de enrutamiento de voz del delegado para enrutar la llamada a la RTC. 
 - Para la delegación, se recomienda que el delegador y los delegados asociados se encuentren en el mismo sitio de red. 
 
 ## <a name="other-planning-considerations"></a>Otras consideraciones de planificación
@@ -250,7 +250,11 @@ El enrutamiento basado en la ubicación no se aplica a los siguientes tipos de i
 
 Un usuario con capacidad de enrutamiento basado en la ubicación en una llamada RTC no puede iniciar una conferencia con otro usuario o número RTC. Se permite la conexión a los operadores automáticos o a las colas de llamadas. Si el usuario tiene una licencia de conferencia, el usuario debe iniciar una conferencia con los usuarios correspondientes y llamar a la RTC a través del puente de conferencia para iniciar una llamada de conferencia.  
 
-## <a name="next-steps"></a>Pasos siguientes
+### <a name="media-bypass-requirement-for-location-based-routing"></a>Requisito de omisión de medios para enrutamiento basado en la ubicación
+
+Si implementas el enrutamiento basado en la ubicación en India, también es necesario configurar la omisión de medios. Para obtener más información, vea [planear la omisión de multimedia con enrutamiento directo](direct-routing-plan-media-bypass.md).
+
+## <a name="next-steps"></a>Siguientes pasos
 
 Vaya a [configurar la configuración de red para el enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md).
 
