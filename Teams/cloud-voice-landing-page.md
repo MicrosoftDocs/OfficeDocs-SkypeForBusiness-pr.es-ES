@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Obtenga más información sobre la característica de voz en la nube y comprenda las decisiones de implementación necesarias a las que se enfrentará.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20a46a82c336396ccb71587db71515b699a9056e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 952eb7064844cf0e77e829cd2506c4303504074c
+ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905912"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44281675"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz en la nube de Microsoft Teams
 
@@ -151,7 +151,7 @@ Los operadores automáticos de la nube se pueden usar para crear un sistema de m
 
 Para obtener más información sobre los dispositivos compatibles, vea lo siguiente:
 
-- [Administrar sus dispositivos en Microsoft Teams](device-management.md)
+- [Administrar sus dispositivos en Microsoft Teams](devices/device-management.md)
 - [Teléfonos IP](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Dispositivos de audio y vídeo USB](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Comunicaciones inteligentes para dispositivos](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
