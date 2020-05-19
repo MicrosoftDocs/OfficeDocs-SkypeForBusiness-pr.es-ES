@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Más información sobre las directivas en una configuración educativa o EDU, y cómo usar y administrar paquetes de directivas en Microsoft Teams.
-ms.openlocfilehash: 7aab40ce5cd3e82d884faffea29c0a1f47be6d26
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: c602327321319c9924501d7879abcadf2a2c019e
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139233"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278193"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Directivas de Teams y paquetes de directivas para educación
 
@@ -269,8 +269,14 @@ Esta configuración permitirá que los formadores puedan controlar el acceso a s
 - **Permitir que los usuarios anónimos inicien una reunión**: **Desactivado**
 - **Admitir automáticamente personas**: **Todas las personas de la organización**
 - **Permitir que los usuarios de acceso telefónico omitan la sala de espera**: **Desactivado**
+- <sup>1</sup>**DesignatedPresenterRoleMode**: **OrganizerOnlyUserOverride**
 
-### <a name="message-policies"></a>Directivas de mensajes
+<sup>1</sup> Esta configuración no se encuentra en el centro de administración de Microsoft Teams, por lo que tendrá que usar PowerShell para establecer el parámetro **DesignatedPresenterRoleMode** con el cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) o [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy). Esto establece el valor predeterminado de la configuración **¿Quién puede presentar?** en **Opciones de reunión** en Teams en **Solo yo**. Con esta configuración, solo el organizador de la reunión puede ser moderador y el resto de los participantes de la reunión se designan como asistentes. Para más información, consulte [Configuración de la directiva de reunión: modo de rol de moderador designado](meeting-policies-in-teams.md#meeting-policy-settings---designated-presenter-role-mode).
+
+> [!NOTE]
+> Para los miembros que no sean educadores, puede que quiera establecer el parámetro en **EveryoneUserOverride** (que corresponde a la configuración **Todos** en Teams) o **EveryoneInCompanyUserOverride** (que corresponde a la configuración **Personas de mi organización** en Teams).
+
+### <a name="messaging-policies"></a>Directivas de mensajería
 
 La configuración de **Los propietarios pueden eliminar mensajes enviados** en **Activado** permitirá a los educadores supervisar las sesiones de chat y eliminar los mensajes inapropiados en las reuniones del canal.
 
