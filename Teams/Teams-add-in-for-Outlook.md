@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d9e288037b82b3d5b0cccab133debdfa2d7d66b
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: a836ac2e2c5e461e8c2feacda4bfd3b569593a6a
+ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042217"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321619"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -32,7 +32,7 @@ El complemento para reunión de equipo permite a los usuarios programar reunione
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>El complemento para reunión de Microsoft Teams en Outlook para Windows
 
-El complemento para reunión de Microsoft Teams se instala automáticamente para los usuarios que tienen instalado Microsoft Teams y Office 2010, Office 2013 u Office 2016 en su equipo Windows. Los usuarios verán el complemento para reunión de Microsoft Teams en la cinta del Calendario de Outlook.
+El complemento de reunión de Teams se instala automáticamente para los usuarios que tienen Microsoft Teams y Office 2013, Office 2016 u Office 2019 instalado en su PC con Windows. Los usuarios verán el complemento para reunión de Microsoft Teams en la cinta del Calendario de Outlook.
 
 ![Captura de pantalla del complemento de reunión de equipo en la cinta de Outlook.](media/Teams-add-in-for-Outlook.png)
 
@@ -65,12 +65,12 @@ En la última compilación de la aplicación de Outlook para iOS y Android se mu
 Las coordenadas de la reunión (el enlace para unirse a Teams y los números de acceso telefónico) se añadirán a la invitación a la reunión cuando el usuario haga clic en **Enviar**.  
 
 ## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Complemento de reunión de equipos en FindTime para Outlook
-FindTime es un complemento para Outlook que ayuda a los usuarios a alcanzar consenso acerca de la hora de una reunión entre distintas empresas. Una vez que las invitaciones de reunión han proporcionado las horas preferidas, FindTime envía la invitación a la reunión en nombre del usuario. Si la opción **Reunión en línea**está seleccionada en FindTime, FindTime programará una reunión de Skype Empresarial o de Microsoft Teams. (FindTime usará el canal de reunión en línea predeterminado que su organización haya establecido).
+FindTime es un complemento para Outlook que ayuda a los usuarios a alcanzar consenso en una reunión en todas las empresas. Una vez que las invitaciones de reunión han proporcionado las horas preferidas, FindTime envía la invitación a la reunión en nombre del usuario. Si la opción **Reunión en línea**está seleccionada en FindTime, FindTime programará una reunión de Skype Empresarial o de Microsoft Teams. (FindTime usará el canal de reunión en línea predeterminado que su organización haya establecido).
 
 > [!NOTE]  
 > Si ha guardado una configuración de Skype Empresarial en su [panel de control de Findtime](https://findtime.microsoft.com/UserDashboard), Findtime la usará en lugar de Microsoft Teams. Si desea usar Microsoft Teams, elimine la configuración de Skype Empresarial en su panel de control.
 
-Consulte [Programar reuniones con FindTime](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6) para obtener más información.
+Para obtener más información, consulte [programar reuniones con FindTime](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6).
 
 ## <a name="authentication-requirements"></a>Requisitos de autenticación
 
@@ -103,7 +103,7 @@ Cuando los usuarios que se encuentran en modo de Aplicaciones aisladas programan
 | Aplicaciones aisladas | Skype Empresarial |
 | Solo Skype Empresarial | Skype Empresarial |
 | Colaboración de Skype Empresarial con Teams | Skype Empresarial |
-| Colaboración y reuniones de Skype Empresarial con Teams | Teams |
+| Colaboración y reuniones de Skype Empresarial con Teams | Equipos |
 | Solo Teams | Teams |
 
 ## <a name="other-considerations"></a>Otras consideraciones
@@ -128,7 +128,8 @@ Si no consigue instalar el complemento Reunión de Teams para Outlook, pruebe es
 - Compruebe que el usuario tiene una directiva de actualización de teams que permite programar reuniones en Teams. Para obtener más información, consulte [actualizar de Skype empresarial a teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
 - Compruebe que el usuario tiene una directiva de reunión de teams que permite el complemento de Outlook. Para obtener más información, vea [Administrar directivas de reunión en Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) .
 - Asegúrese de que el usuario tiene instalado el cliente de escritorio de Teams. El complemento de reunión no se instalará cuando solo se use el cliente web de Teams.
-- Asegúrese de que el usuario tiene permiso para ejecutar regsvr32. exe.  Para obtener más información, consultahttps://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
+- Asegúrese de que el usuario tiene instalado Outlook 2013 o una versión posterior.
+- Asegúrese de que el usuario tiene permiso para ejecutar regsvr32. exe.
 - Asegúrese de que se hayan aplicado todas las actualizaciones disponibles para el cliente de escritorio de Outlook.
 - Siga estos pasos:
   - Reinicie el cliente de escritorio de Teams.

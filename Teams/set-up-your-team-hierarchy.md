@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26e4ee05b9f94fa0883aef5bbe98b691c9e0c46d
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: e60e152128c60279e3bb9ee9e3d37e881effce9a
+ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278173"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321749"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurar la jerarquía de destino de su equipo
 
@@ -116,7 +116,7 @@ El `Store layout` atributo tiene valores que incluyen `Compact` , `Standard` , y
 ## <a name="apply-your-hierarchy"></a>Aplicar la jerarquía
 
 > [!IMPORTANT]
-> Para realizar este paso, debe instalar y usar la última versión del módulo de PowerShell de Teams desde la galería de pruebas de PowerShell. Para conocer los pasos para realizar esto, consulte [instalar el módulo de PowerShell más reciente de la galería de pruebas de PowerShell](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery).
+> Para realizar este paso, debe instalar y usar la última versión del módulo de PowerShell de Teams desde la [Galería de pruebas de PowerShell](https://www.poshtestgallery.com/packages/MicrosoftTeams/). Para conocer los pasos para instalar el módulo, consulte [instalar la versión preliminar del módulo de PowerShell de Teams](install-prerelease-teams-powershell-module.md).
 
 Una vez que haya definido la jerarquía en el archivo CSV de esquema, estará listo para cargarla en Teams. Para ello, ejecute el siguiente comando. Debe ser administrador global o administrador de servicios de equipo para poder realizar este paso.
 
@@ -127,7 +127,7 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ## <a name="remove-your-hierarchy"></a>Quitar la jerarquía
 
 > [!IMPORTANT]
-> Para realizar este paso, debe instalar y usar la última versión del módulo de PowerShell de Teams desde la galería de pruebas de PowerShell. Para conocer los pasos para realizar esto, consulte [instalar el módulo de PowerShell más reciente de la galería de pruebas de PowerShell](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery).
+> Para realizar este paso, debe instalar y usar la última versión del módulo de PowerShell de Teams desde la [Galería de pruebas de PowerShell](https://www.poshtestgallery.com/packages/MicrosoftTeams/). Para conocer los pasos para instalar el módulo, consulte [instalar la versión preliminar del módulo de PowerShell de Teams](install-prerelease-teams-powershell-module.md).
 
 Si desea deshabilitar inmediatamente la pestaña **listas publicadas** para todos los usuarios de su organización, puede quitar la jerarquía. Los usuarios no tendrán acceso a la pestaña **listas publicadas** ni a ninguna de las funciones de la ficha.  Esto incluye la capacidad de crear listas de tareas nuevas para publicar, obtener acceso a listas de borradores, publicar, anular la publicación y duplicar listas, así como ver informes. Al quitar la jerarquía, no se anula la publicación de las tareas publicadas anteriormente. Estas tareas seguirán estando disponibles para que se completen los equipos de los destinatarios. 
 
@@ -136,60 +136,6 @@ Para quitar la jerarquía, ejecute el siguiente comando. Debe ser un administrad
 ```powershell
 Remove-TeamTargetingHierarchy
 ```
-
-### <a name="teams-powershell-module"></a>Módulo de PowerShell de Teams
-
-#### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>Instale el módulo de PowerShell más reciente de la galería de pruebas de PowerShell
-
-La última versión disponible públicamente del módulo de PowerShell de Teams (actualmente [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)) no admite la administración de la jerarquía del equipo. Siga estos pasos para instalar la última versión del módulo de PowerShell de Teams, con compatibilidad con jerarquía de equipo, de la galería de pruebas de PowerShell.
-
-> [!NOTE]
-> No instale el módulo de Teams PowerShell desde la galería de pruebas de PowerShell en paralelo con una versión del módulo de la galería de PowerShell pública. Siga estos pasos para desinstalar primero el módulo de PowerShell de Teams de la galería de PowerShell pública y, a continuación, instale la última versión del módulo desde la galería de pruebas de PowerShell.
-
-1. Cierre todas las sesiones de PowerShell existentes.
-2. Inicie una nueva instancia del módulo de Windows PowerShell.
-3. Ejecute lo siguiente para desinstalar el módulo de PowerShell de Teams de la galería pública de PowerShell:
-
-    ```PowerShell
-    Uninstall-Module -Name MicrosoftTeams
-    ```
-
-4. Cierre todas las sesiones de PowerShell existentes.
-5. Inicie el módulo de Windows PowerShell de nuevo y, a continuación, ejecute lo siguiente para registrar la galería de pruebas de PowerShell como una fuente de confianza:
-
-    ```PowerShell
-    Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
-    ```
-
-6. Ejecute lo siguiente para instalar el módulo de PowerShell más reciente de la galería de pruebas de PowerShell:
-
-    ```PowerShell
-    Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
-    ```
-
-7. Ejecute lo siguiente para comprobar que se ha instalado correctamente la última versión del módulo Teams PowerShell de la galería de pruebas de PowerShell:
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
-    ```
-
-#### <a name="update-to-the-latest-version-of-the-teams-powershell-module-from-the-powershell-test-gallery"></a>Actualice a la última versión del módulo de PowerShell de Teams desde la galería de pruebas de PowerShell
-
-Si ya ha instalado el módulo de Teams PowerShell desde la galería de pruebas de PowerShell, siga estos pasos para actualizar a la última versión.
-
-1. Cierre todas las sesiones de PowerShell existentes.
-2. Inicie una nueva instancia del módulo de Windows PowerShell.
-3. Ejecute lo siguiente para actualizar la versión del módulo de PowerShell instalada actualmente desde la galería de pruebas de PowerShell:
-
-    ```PowerShell
-    Update-Module -Name MicrosoftTeams -Force
-    ```
-
-4. Ejecute lo siguiente para comprobar que se ha instalado correctamente la última versión del módulo Teams PowerShell de la galería de pruebas de PowerShell:
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
-    ```
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
@@ -200,3 +146,4 @@ Tome nota del mensaje de error, ya que debe incluir información de solución de
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Administrar la aplicación tareas de su organización en Teams](manage-tasks-app.md)
+- [Descripción de PowerShell para Teams](teams-powershell-overview.md)
