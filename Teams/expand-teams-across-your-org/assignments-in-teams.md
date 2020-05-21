@@ -21,12 +21,12 @@ description: Aprenda a administrar tareas en el centro de administración de Mic
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78ce963b8d675aa6d5c851c1081472559d24c3a3
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 61caf4bc59387fd5c00cabf459976506b97ef9a0
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256455"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326767"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tareas en Teams para educación
 
@@ -51,7 +51,7 @@ Microsoft MakeCode es una plataforma de codificación basada en bloques que hace
 
 MakeCode es un producto de Microsoft que está sujeto a las [condiciones de uso](https://go.microsoft.com/fwlink/?LinkID=206977) y a las políticas de [privacidad](https://go.microsoft.com/fwlink/?LinkId=521839) de Microsoft.
 
-Esta opción está desactivada de forma predeterminada. Para habilitar las tareas de MakeCode en Teams, en el **centro de administración de Teams**, **vaya a la**sección **tareas** y active la opción MakeCode. Haga clic en **Guardar** y deje que transcurran hasta 24 horas para que esta configuración surta efecto.
+Esta opción está desactivada de forma predeterminada. Para habilitar las tareas de MakeCode en Teams, en el **centro de administración de Teams**, **vaya a la**sección **tareas** y active la opción MakeCode. Haga clic en **Guardar** y deje varias horas para que esta configuración se aplique.
 
 Para obtener más información sobre cómo funciona esta característica, vea esta [demostración en vídeo](https://makecode.com/blog/teams/teams-assignments).
 
@@ -60,7 +60,7 @@ Para obtener más información sobre cómo funciona esta característica, vea es
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
 
-Turnitin es un servicio de detección de plagiarism. Este es un producto o servicio de terceros sujeto a sus propios términos y política de privacidad. Usted es responsable de su uso de productos y servicios de terceros.
+Turnitin es un servicio de detección de plagiarism. Este es un producto o servicio de terceros sujeto a sus propios términos y política de privacidad. Usted es responsable de su uso de todos los productos y servicios de terceros.
 
 Esta opción está desactivada de forma predeterminada.
 
@@ -82,6 +82,6 @@ Seleccione **integraciones** en el menú lateral y, a continuación, seleccione 
 Después de seguir las indicaciones, se le dará la TurnitinApiKey. Copie la clave de API y péguela en el centro de administración de Microsoft Teams.  Esta es la única vez que puedes ver la tecla.
 ![Captura de pantalla que muestra la copia de la clave API](./educationImages/Assignments_mopo_turnitin3.png)
 
-Después de hacer clic en el botón **Guardar** en el centro de administración de esta configuración, espere hasta 24 horas para que esta configuración surta efecto.
+Después de hacer clic en el botón **Guardar** en el centro de administración para esta configuración, deje que esta configuración se aplique.
 
 ¿Está listo para empezar a usar la integración de Turnitin en Teams? Suscribirse al [programa de acceso anticipado](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration).

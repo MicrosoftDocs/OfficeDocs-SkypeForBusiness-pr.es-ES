@@ -17,19 +17,15 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 72c6db7bdc6ff8b765afdf38bfe910552b45cbf2
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 35598c38ad80e7d1ed75c7aedce021d0d03d2765
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997261"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326717"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Solución de problemas con el acceso de invitado en Microsoft Teams
 ======================================================
-
-> [!IMPORTANT]
-> Es posible que tenga que esperar hasta 24 horas para que sus cambios surtan efecto. 
-
 
 - Para saber si conocemos su problema, consulte los [equipos de soporte técnico de su organización](Known-issues.md).
 - Para comprobar si hay problemas de soporte técnico actuales relacionados con el acceso de invitados en Teams, vaya a [Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/).

@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 89b1a8a756cba44435098e5cd446294004029eac
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 3cbf3ec38876d57fe1c2b8ac61abf5b86d5c2106
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064485"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326777"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -58,7 +58,7 @@ Puede editar la configuración de la directiva global para incluir las aplicacio
 
 Puede usar el centro de administración de Microsoft Teams para crear una directiva personalizada.
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a > **directivas de configuración**de las **aplicaciones de Teams**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de configuración de las **aplicaciones de Teams**  >  **Setup policies**.
 2. Haga clic en **Agregar**.
     ![Captura de pantalla que muestra la página Agregar directivas de configuración de aplicación](media/app-setup-policies-add.png)
 3. Escriba un nombre y una descripción para la directiva.
@@ -86,7 +86,7 @@ Puede usar el centro de administración de Microsoft Teams para crear una direct
 
 Puede usar el centro de administración de Microsoft Teams para editar una directiva, incluyendo la directiva global (opción predeterminada de toda la organización) y las directivas personalizadas que cree.
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a > **directivas de configuración**de las **aplicaciones de Teams**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de configuración de las **aplicaciones de Teams**  >  **Setup policies**.
 2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva y, a continuación, haga clic en **Editar**.
 3. Desde aquí, realice los cambios que desee.
 4. Haga clic en **Guardar **.
@@ -105,7 +105,7 @@ Para asignar una directiva a varios usuarios a la vez, vea [Modificar la configu
 
 También puede hacer lo siguiente:
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a > **directivas de configuración**de las **aplicaciones de Teams**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de configuración de las **aplicaciones de Teams**  >  **Setup policies**.
 2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
 3. Seleccione **Administrar usuarios**.
 4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
@@ -161,7 +161,7 @@ No hay límite en el número de aplicaciones ancladas que puede Agregar a una di
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>¿Cuánto tiempo se tarda en aplicar los cambios de Directiva?
 
-Después de modificar la directiva global o asignar una directiva, los cambios pueden tardar hasta 24 horas en surtir efecto.
+Después de modificar la directiva global o asignar una directiva, los cambios pueden demorar algunas horas en surtir efecto.
 
 ### <a name="user-experience"></a>Experiencia de usuario
 

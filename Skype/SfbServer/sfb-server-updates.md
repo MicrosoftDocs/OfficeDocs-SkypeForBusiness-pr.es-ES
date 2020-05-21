@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Busque y administre actualizaciones de Skype empresarial Server 2015/2019 y Lync 2013 en un solo punto. Use los vínculos de esta página para obtener más información sobre las actualizaciones y, después, descárguelas.
-ms.openlocfilehash: 5530816da6ca5561439a8a6620cd132eeb86ab44
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 51a756cc0bf7ee74d0971732fce481c4773e8497
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220550"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326577"
 ---
 # <a name="skype-for-business-server-updates"></a>Actualizaciones de Skype Empresarial Server
 
@@ -54,6 +54,7 @@ KB 4470124 es el KB principal para Skype empresarial Server 2019, que tiene la l
 
 |Nombre de paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
+|Actualización acumulativa 11 de Skype empresarial Server 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 de mayo de 2020 |
 |Actualización acumulativa 10 Hotfix 1 de Skype empresarial Server 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| Agosto de 2019 |
 |Actualización acumulativa 10 de Skype empresarial Server 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064)| Julio de 2019 |
 |Actualización acumulativa 9 para Skype empresarial Server 2015, servidor de componentes Web|[KB 4487981](https://support.microsoft.com/kb/4487981)| Mayo de 2019 |

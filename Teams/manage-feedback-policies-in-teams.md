@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar las directivas de comentarios para controlar si los usuarios de equipos de su organización pueden enviar comentarios sobre los equipos a Microsoft.
-ms.openlocfilehash: 70771f4a5e7c1376970ac3ac96cb9a4f822882a8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b016a1d566f15cdabea55913b7fe107d86dee358
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837550"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326687"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Administrar directivas de comentarios en Microsoft Teams
 
@@ -32,7 +32,7 @@ Los usuarios de su organización pueden enviar comentarios acerca de Teams a Mic
 
 **La característica proporcionar comentarios**
 
-Los usuarios pueden enviar comentarios y sugerencias sobre los equipos para que nos **ayuden** > a**proporcionar comentarios** en Teams. Los datos enviados a través de enviar **comentarios** se consideran "datos de soporte técnico" en el acuerdo de Office 365, incluida información que de otro modo se consideraría "datos de los clientes" o "datos personales".
+Los usuarios pueden enviar comentarios y sugerencias sobre los equipos para que nos **ayuden**a  >  **proporcionar comentarios** en Teams. Los datos enviados a través de enviar **comentarios** se consideran "datos de soporte técnico" en el acuerdo de Office 365, incluida información que de otro modo se consideraría "datos de los clientes" o "datos personales".
 
 ![Captura de pantalla de la opción ofrecer comentarios en Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
@@ -46,7 +46,7 @@ Los usuarios también pueden calificar su experiencia con Teams y enviarnos deta
 
 Como administrador, puede controlar si los usuarios de su organización pueden enviar comentarios sobre equipos a Microsoft mediante **comentarios** y si reciben la encuesta. De forma predeterminada, a todos los usuarios de la organización se les asigna automáticamente la directiva global (opción predeterminada para toda la organización) y la característica **proporcionar comentarios** y la encuesta están habilitadas en la Directiva. La excepción es equipos para el ámbito educativo, donde las características están habilitadas para los profesores y deshabilitadas para los alumnos.
 
-Puede editar la directiva global o crear y asignar una directiva personalizada. Si un usuario tiene asignada una directiva personalizada, esa Directiva se aplica al usuario. Si un usuario no tiene asignada una directiva personalizada, la política global se aplica al usuario. Después de modificar la directiva global o asignar una directiva, los cambios pueden tardar hasta 24 horas en surtir efecto.
+Puede editar la directiva global o crear y asignar una directiva personalizada. Si un usuario tiene asignada una directiva personalizada, esa Directiva se aplica al usuario. Si un usuario no tiene asignada una directiva personalizada, la política global se aplica al usuario. Después de modificar la directiva global o asignar una directiva, los cambios pueden demorar algunas horas en surtir efecto.
 
 Supongamos, por ejemplo, que desea permitir que todos los usuarios de su organización envíen **comentarios y** reciban encuestas, excepto para los nuevos empleados en curso. En este escenario, puede crear una directiva personalizada para desactivar ambas características y asignarla a nuevos empleados. El resto de los usuarios de su organización obtienen la directiva global con las características activadas.  
 
@@ -55,7 +55,7 @@ Use el cmdlet **New-CsTeamsFeedbackPolicy** , *que se puede [encontrar aquí](ht
 Para desactivar y activar las características, establezca los siguientes parámetros:
 
  - **Enviar comentarios**: establezca el parámetro **userInitiatedMode** en **habilitado** para permitir a los usuarios a quienes les asignan Comentarios. Establecer el parámetro en **deshabilitado** desactiva la característica y los usuarios a los que se les asigna la Directiva no tienen la opción de enviar comentarios.
- - **Encuestas**: establezca el parámetro **receiveSurveysMode** en **habilitado** para permitir que los usuarios a los que se les asigne la Directiva reciban la encuesta. Para que los usuarios reciban la encuesta y les permita su cancelación, establezca el parámetro en **enabledUserOverride**. En Teams, los usuarios pueden ir a la **configuración** > **privacidad** y elegir si desean participar en encuestas. Establecer el parámetro en **deshabilitado** desactiva la característica y los usuarios que tienen asignada la Directiva no recibirán la encuesta.
+ - **Encuestas**: establezca el parámetro **receiveSurveysMode** en **habilitado** para permitir que los usuarios a los que se les asigne la Directiva reciban la encuesta. Para que los usuarios reciban la encuesta y les permita su cancelación, establezca el parámetro en **enabledUserOverride**. En Teams, los usuarios pueden ir a la **configuración**  >  **privacidad** y elegir si desean participar en encuestas. Establecer el parámetro en **deshabilitado** desactiva la característica y los usuarios que tienen asignada la Directiva no recibirán la encuesta.
 
 ## <a name="create-a-custom-feedback-policy"></a>Crear una directiva personalizada de comentarios
 

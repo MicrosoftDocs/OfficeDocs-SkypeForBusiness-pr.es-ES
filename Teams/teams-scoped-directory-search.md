@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b06e675e93dd022847fc7af202045c3ecdebe63
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: e81e2fb588e718060ffbdf90a51c020ff2d6556c
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341773"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326597"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Usar la búsqueda de directorios enfocada de Microsoft Teams
 
@@ -51,7 +51,7 @@ Para obtener información sobre cómo usar las directivas de la libreta de direc
 
 1. Use directivas de barrera de información para configurar su organización en subgrupos virtuales. Para obtener más información, consulte [definir directivas de barrera](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies)de la información.
 
-2. En el centro de administración de Microsoft Teams, seleccione Configuración de**Teams**de la **organización** > .
+2. En el centro de administración de Microsoft Teams, seleccione Configuración de **Org-wide settings**  >  **Teams**de la organización.
 
 3. En **Buscar**, junto a la **búsqueda en el directorio de ámbito en Teams mediante una directiva de la libreta de direcciones de Exchange (ABP)**, active la opción **de**alternancia.
 
@@ -59,4 +59,4 @@ Para obtener información sobre cómo usar las directivas de la libreta de direc
 
 
 > [!IMPORTANT]
-> Este cambio puede demorar hasta 24 horas en replicarse.
+> Este cambio puede demorar algunas horas en replicarse.

@@ -16,12 +16,12 @@ description: En este artículo, se explica qué son las barreras de información
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2bbe2f38fe56e6952952730b7ba74dda1a98398f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 1cf6b2fc8c103b8a27bca2d21dd2138def88ce06
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904982"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326747"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de la información en Microsoft Teams
 
@@ -64,7 +64,7 @@ El servicio de evaluación de directivas de Information barrera determina si una
 Las directivas de barrera de información se administran en el centro de cumplimiento de Microsoft 365 (SCC) con los cmdlets de PowerShell. Para obtener más información, consulte [definir directivas para las barreras de la información](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 > [!IMPORTANT]
-> Antes de configurar o definir directivas, **debe habilitar la búsqueda de directorio en Microsoft Teams**. Espere al menos 24 horas después de habilitar la búsqueda de directorio en el ámbito antes de configurar o definir directivas para barreras de información. [Más información sobre los requisitos previos para las barreras de la información](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
+> Antes de configurar o definir directivas, **debe habilitar la búsqueda de directorio en Microsoft Teams**. Espere al menos unas horas después de habilitar la búsqueda en el directorio de ámbito antes de configurar o definir directivas para barreras de información. [Más información sobre los requisitos previos para las barreras de la información](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>Función de administrador de barreras de información
 

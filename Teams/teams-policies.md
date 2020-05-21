@@ -24,26 +24,26 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: dc3d5fa4880f3255017b535657a4a32a51789c82
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 392bbb3c97cf32e815f81073bf662d4d6280ae75
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836970"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326657"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Administrar directivas de Teams en Microsoft Teams
 
 Como administrador, puede usar las directivas de Teams en Microsoft Teams para controlar lo que los usuarios de su organización pueden hacer en Teams y en los canales. Por ejemplo, puede establecer si los usuarios podrán detectar equipos privados en los resultados de búsqueda y en la galería de equipos y si los usuarios pueden crear canales privados.
 
-Para administrar las directivas de Teams, vaya a **Teams** > **Policies** en el centro de administración de Microsoft Teams. Puede usar la directiva global (opción predeterminada para toda la organización) o crear directivas personalizadas y asignarlas a los usuarios. Los usuarios de la organización obtendrán automáticamente la directiva global a menos que cree y asigne una directiva personalizada.
+Para administrar las directivas de Teams, vaya a **Teams**  >  **Policies** en el centro de administración de Microsoft Teams. Puede usar la directiva global (predeterminada para toda la organización) o crear directivas personalizadas y asignarlas a los usuarios. Los usuarios de su organización obtendrán automáticamente la directiva global, a menos que cree y asigne una directiva personalizada.
 
-Puede editar la directiva global o crear y asignar una directiva personalizada. Si un usuario tiene asignada una directiva personalizada, esa Directiva se aplica al usuario. Si un usuario no tiene asignada una directiva personalizada, la política global se aplica al usuario. Después de modificar la directiva global o asignar una directiva, los cambios pueden tardar hasta 24 horas en surtir efecto.
+Puede editar la directiva global o crear y asignar una directiva personalizada. Si un usuario tiene asignada una directiva personalizada, esa Directiva se aplica al usuario. Si un usuario no tiene asignada una directiva personalizada, la política global se aplica al usuario. Después de modificar la directiva global o asignar una directiva, los cambios pueden demorar algunas horas en surtir efecto.
 
 ## <a name="create-a-custom-teams-policy"></a>Crear una directiva de Teams personalizada
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, **vaya a** > **directivas de Teams**Teams.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, **vaya a**  >  **directivas de Teams**Teams.
 2. Haga clic en **Agregar**.
-3. Escriba un nombre y una descripción para la Directiva.
+3. Escriba un nombre y una descripción para la directiva.
 
     ![Captura de pantalla de la configuración de directiva de Teams](media/teams-policies.png)
 4. Elija la configuración que desee:
@@ -57,7 +57,7 @@ Puede editar la directiva global o crear y asignar una directiva personalizada. 
 
 Puede editar la directiva global o cualquier directiva personalizada que cree.
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, **vaya a** > **directivas de Teams**Teams.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, **vaya a**  >  **directivas de Teams**Teams.
 2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva y, a continuación, haga clic en **Editar**.
 3. Active o desactive la configuración que desee y, a continuación, haga clic en **Guardar**.
 
@@ -75,10 +75,10 @@ Para asignar una directiva de Teams personalizada a varios usuarios a la vez, ve
 
 También puede hacer lo siguiente:
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, **vaya a** > **directivas de Teams**Teams.
-2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva.
-3. Seleccione **administrar usuarios**.
-4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, **vaya a**  >  **directivas de Teams**Teams.
+2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
+3. Seleccione **Administrar usuarios**.
+4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 5. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
 
 ### <a name="assign-a-custom-teams-policy-to-users-in-a-group"></a>Asignar una directiva de Teams personalizada a los usuarios de un grupo

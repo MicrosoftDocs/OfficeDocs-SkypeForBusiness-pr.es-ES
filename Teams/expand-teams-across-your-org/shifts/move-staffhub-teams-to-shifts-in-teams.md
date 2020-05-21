@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6c57ebda3d23135beb46febf13529b903958df6b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e0bf24c32854ddf2498b8a00874ad1d358c8fb8a
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780629"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326797"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Mover los equipos de Microsoft StaffHub a turnos en Microsoft Teams
 
@@ -91,7 +91,7 @@ Si no se cumplen estos requisitos previos, se producirá un error en la solicitu
 
 Cada usuario debe tener una licencia activa de Microsoft 365 o de Office 365 de [un plan apto](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in) y debe tener asignada una licencia de Teams. Asignar una licencia de Teams a los usuarios les da acceso a teams.
 
-Administra las licencias de Teams en el centro de administración de Microsoft 365. Para obtener más información, vea [administrar el acceso de los usuarios a teams](../../user-access.md).
+Administra las licencias de Teams en el centro de administración de Microsoft 365. Para más información, vea [Administrar el acceso de usuarios a Teams](../../user-access.md).
 
 > [!NOTE]
 > Si su organización usa Skype empresarial y no está listo para mover a todos los usuarios a Teams, puede habilitar a Teams para sus trabajadores de los Firstline, que luego pueden ejecutar equipos junto con Skype empresarial. En este modo de coexistencia, llamadas *islas*, cada aplicación cliente funciona como una solución independiente. Para obtener más información, consulte [comprender Teams y la interoperabilidad y coexistencia de Skype empresarial](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
@@ -156,7 +156,7 @@ Realice una de las siguientes acciones:
 
 Teams incluye una directiva de configuración de aplicaciones de FirstlineWorker integrada que puede usar para personalizar Teams y resaltar las aplicaciones más importantes para los trabajadores de los Firstline de su organización. Cuando asigne esta directiva a los usuarios, las aplicaciones de la Directiva se anclarán a la barra de la aplicación de Teams para acceder a ellas de forma rápida y fácil. Puede encontrar otras aplicaciones agregadas a teams en la barra de aplicaciones haciendo clic en **... Más aplicaciones** en el escritorio de Teams y en los clientes Web, y deshaciendo el dedo hacia arriba en el cliente móvil de Teams. De forma predeterminada, la Directiva de configuración de la aplicación FirstlineWorker incluye las aplicaciones actividad, turnos, chat y llamadas.
 
-Para conocer los pasos sobre cómo asignar la Directiva de configuración de la aplicación FirstlineWorker a los usuarios, consulte [usar la Directiva de configuración de la aplicación FirstlineWorker para anclar turnos a teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). Después de asignar una directiva, esta puede tardar hasta 24 horas en surtir efecto.
+Para conocer los pasos sobre cómo asignar la Directiva de configuración de la aplicación FirstlineWorker a los usuarios, consulte [usar la Directiva de configuración de la aplicación FirstlineWorker para anclar turnos a teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). Después de asignar una directiva, puede demorar unas pocas horas en surtir efecto.
 
 Le recomendamos que complete este paso al menos una semana antes de mover los equipos y usuarios de StaffHub a teams. Cuando los usuarios estén en Teams, asegúrese de que pueden ver y acceder a la aplicación turnos.
 
@@ -300,7 +300,7 @@ Ejecute el siguiente procedimiento para obtener una lista de todos los identific
 Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
-En los resultados devueltos `Get-StaffHubteamsForTenant` por el cmdlet que ejecutó anteriormente, seleccione los identificadores de equipo que desea mover y agréguelos a un archivo de valores separados por comas (CSV).
+En los resultados devueltos por el `Get-StaffHubteamsForTenant` cmdlet que ejecutó anteriormente, seleccione los identificadores de equipo que desea mover y agréguelos a un archivo de valores separados por comas (CSV).
 
 Este es un ejemplo de cómo se debe dar formato al archivo CSV.
 
