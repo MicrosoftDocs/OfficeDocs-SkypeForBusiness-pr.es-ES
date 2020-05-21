@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Elija un sitio o una página de SharePoint Online ya existente y cree una pestaña estática independiente que se pueda usar como portal de intranet de su organización.
 localization_priority: Priority
-ms.openlocfilehash: 63527cb3cccc5f882f44ff39911d33270bafb4c8
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: 4777b744d76415f45718cb274f402556e1e28240
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207079"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326587"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Crear una aplicación de portal de intranet de Teams desde un sitio o una página de SharePoint Online
 
@@ -96,7 +96,7 @@ En primer lugar, siga estos pasos:
 
 Para ver la nueva pestaña en el escritorio de Teams, desplácese hasta el signo de puntos suspensivos (**...**) en la parte izquierda de la barra de aplicaciones. Buque la nueva aplicación, cargue y pruebe la aplicación independiente en Teams.
 
-Si desea que la nueva aplicación esté disponible en el menú de la izquierda en una posición superior, debe usar una configuración de directiva de aplicaciones. Encontrará esta opción en la sección Administrador de equipo > directiva de aplicaciones > agregar una aplicación anclada. Cuando asigne la directiva a un usuario para realizar pruebas, el cambio se mostrará 24 horas más tarde. Teniendo esto en cuenta, decida lo antes posible donde debería aparecer la aplicación para evitar retrasos.
+Si desea que la nueva aplicación esté disponible en el menú de la izquierda en una posición superior, debe usar una configuración de directiva de aplicaciones. Encontrará esta opción en la sección Administrador de equipo > directiva de aplicaciones > agregar una aplicación anclada. Cuando asigne la directiva a un usuario para realizar pruebas, el cambio se mostrará unas horas más tarde. Teniendo esto en cuenta, decida lo antes posible donde debería aparecer la aplicación para evitar retrasos.
 
 Para ver y probar la nueva aplicación en un dispositivo móvil, abra el cajón de aplicaciones pulsando en la comilla angular (**^**) situada encima de la barra de pestañas de la parte inferior de la pantalla. Busque la aplicación y desplácese hasta ella en el dispositivo móvil.
 
