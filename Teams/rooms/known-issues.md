@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Administrador puede obtener información sobre una lista de problemas conocidos para salas de Microsoft Teams, como la actualización, la interfaz de usuario, el hardware, así como las limitaciones y comportamientos esperados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d8f7dcd6453458885a35bdcf7b39e729cc776f5a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e3cb46ed1ca3fde81f301ec6c2f2f8620452b389
+ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905422"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44338230"
 ---
 # <a name="known-issues"></a>Problemas conocidos 
  
@@ -33,6 +33,8 @@ En este artículo se indican los problemas conocidos de Sala de Microsoft Teams 
 |  ---        |      ---             |   ---            | --- |
 |  Aplicación obsoleta         |    La consola de Microsoft Teams salas muestra un error "configuración del sistema obsoleta".                |   [Usar la herramienta de recuperación de Sala de Microsoft Teams](recovery-tool.md)             |  Ninguna |
 |  Dispositivo actualizado a una versión no compatible de Windows 10   |    Dispositivo Windows 10 actualizado desde la versión 1803 a la versión 1809, que no es compatible. La versión compatible es 1903. |   Esto puede ocurrir si la configuración [de directiva de grupo o de MDM para DeferFeatureUpdatesPeriodinDays](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) , que le permite aplazar actualizaciones de características durante un número determinado de días, se establece en el máximo de 365 días. <br><br> Windows 10 versión 1809 no es compatible con salas de Microsoft Teams, mientras que la versión 1903 es compatible. Sin embargo, a partir del 27 de marzo de 2020, la versión 1809 es superior a 365 días. Si esta configuración no se modifica, Windows intenta instalar la versión 1809, lo que puede ocasionar problemas con las salas de Microsoft Teams.<br><br>Para evitar esta situación, **Quite** cualquier directiva de grupo o configuración de MDM para aplazar las actualizaciones. Esto permite a Windows actualizar a la última versión del sistema operativo compatible. <br><br>**Importante** Es necesario **quitar** la configuración de directiva de grupo o MDM (izquierda sin configurar) y **no establecida en 0**. Si la Directiva se establece en 0, Windows toma la última versión disponible, que es posible que no sea compatible. |  Ninguna |
+| Aplicación que no se inicia |  Después de actualizar a la versión 4.4.41.0 de la aplicación, el sistema arranca en pantalla negra donde puede quedarse bloqueado o ir a la pantalla de inicio de sesión después de unos minutos. | Siga los pasos de [Microsoft Team Rooms la aplicación no se inicia después de actualizar a la versión 4.4.41.0](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) para corregir este problema.  | Ninguna |
+
 
 <a name="OS-conflicts"> </a>  
 ## <a name="user-interface"></a>Interfaz de usuario 
@@ -66,8 +68,6 @@ Use siempre una conexión de red cableada de 1 Gbps para asegurarse de que tiene
 ***
 
 Si el dispositivo de las salas de Microsoft Teams pierde la confianza con el dominio, no podrá autenticarse en el dispositivo y abrir la configuración. Por ejemplo, si quita las salas de Microsoft Teams del dominio después de que se haya unido a un dominio, se perderá la confianza. La solución alternativa es iniciar sesión con la cuenta de administrador local. 
-***
-La versión de 64 bits de la edición de Windows 10 Enterprise Anniversary (en inglés, versión 1607) ya no se admite desde la versión 3.0.12.0 de Salas de Microsoft Teams. 
 ***
 Salas de Microsoft Teams es una aplicación de varias ventanas y requiere que se conecte al puerto HDMI del dispositivo una parte delantera de la sala para que la aplicación funcione correctamente. Asegúrese de que tiene una pantalla HDMI conectada o use una conexión de HDMI ficticia si está probando y no ha comprado aún una pantalla.
 ***
