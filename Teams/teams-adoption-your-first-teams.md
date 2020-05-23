@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Aprenda a impulsar la adopción de equipos administrando su implementación de Office 365 con Teams, lo que incluye cómo anclar recursos clave como pestañas en los canales adecuados.
+description: Obtenga información sobre cómo impulsar la adopción de equipos mediante la administración de la implementación de Microsoft 365 o de Office 365 con Teams, lo que incluye cómo anclar recursos clave como pestañas en los canales correspondientes.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b1a22c76cd2a9ef9ca5d4be667cbfebe8a19b62
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 59b42c0f464c377b1a4e320fc01e6466fde99f3b
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904932"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350224"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Crear sus primeros equipos en Microsoft Teams
 
-La mejor manera de impulsar la adopción de equipos es usar el producto. Le recomendamos que administre su implementación de Office 365 con Teams. También debe crear una comunidad de empleados que se centren en el trabajo en equipo y en la productividad. (Estos equipos iniciales pueden cambiar a lo largo del tiempo). Algunos de los equipos sugeridos son:
+La mejor manera de impulsar la adopción de equipos es usar el producto. Le recomendamos que administre su implementación de Microsoft 365 o de Office 365 con Teams. También debe crear una comunidad de empleados que se centren en el trabajo en equipo y en la productividad. (Estos equipos iniciales pueden cambiar a lo largo del tiempo). Algunos de los equipos sugeridos son:
 
 | Nombre del equipo | Nombres de canal propuestos |
 | --------- | ---------------------- |
@@ -38,7 +38,7 @@ La mejor manera de impulsar la adopción de equipos es usar el producto. Le reco
 | Implementación de Microsoft Teams | General <br/> Conocimiento y adopción <br/> Compromiso empresarial <br/> Programa de adopción anticipada <br/> Comentarios y sugerencias <br/> Seguridad y cumplimiento <br/> Estrategia y planificación <br/> Estado del servicio e incidentes <br/> Aprendizaje <br/> Watercooler chat |
 | Campeones de trabajo en equipo | General <br/> Procedimientos recomendados, aprendizaje y procedimientos <br/> Rincón del campeón <br/> Comentarios y soporte técnico <br/> Clientes potenciales <br/> Concentrador social |
 
-En Microsoft Teams, la [Galería de pestañas](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview) le proporciona acceso a todas las aplicaciones de Office 365 y de terceros que haya activado el administrador. Para obtener el máximo valor de su producto, sugerimos anclar recursos clave como pestañas en cada uno de los canales correspondientes. Vea el ejemplo siguiente.
+En Microsoft Teams, la [Galería de pestañas](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview) le proporciona acceso a todas las aplicaciones de Microsoft 365 u Office 365 y de terceros que ha activado el administrador. Para obtener el máximo valor de su producto, sugerimos anclar recursos clave como pestañas en cada uno de los canales correspondientes. Vea el ejemplo siguiente.
 
 ![Captura de pantalla que muestra pestañas predeterminadas y personalizadas](media/teams-adoption-tab-example.png)
 
@@ -51,7 +51,7 @@ En sus equipos iniciales, se recomienda anclar los siguientes elementos para fac
 | Conocimiento y adopción | [Centro de adopción de equipos](https://aka.ms/DriveTeamsAdoption)<br/>[Kit para el éxito del cliente de Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)|
 | Compromiso empresarial | Wiki: Guía de compromiso<br/>Formulario: solicitud de consulta de Teams<br/>Lista: solicitudes de compromiso |
 |Pioneros | Comunidad de comentarios anclados <br/> OneNote para preguntas más frecuentes y temas comunes |
-| Comentarios e informes | Informe de uso de Office 365 anclado (solo para administradores de Office 365) |
+| Comentarios e informes | Informe de uso de Microsoft 365 o de Office 365 (solo para administradores de Microsoft 365 u Office 365) |
 | Seguridad y cumplimiento | Portal de confianza de Microsoft <br/> [Documentación de seguridad y cumplimiento](https://docs.microsoft.com/office365/securitycompliance/index)<br/> [Mapa de ruta (Roadmap)](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
 | Estrategia y planificación | Colaboración en Norteamérica Star PowerPoint <br/> Plan de proyecto de adopción de servicios |
 | Aprendizaje | Portal de aprendizaje de aprendizaje personalizado <br/> [Aprendizaje en línea de Teams](https://aka.ms/TeamsTraining) |
@@ -66,4 +66,4 @@ En sus equipos iniciales, se recomienda anclar los siguientes elementos para fac
 
 Cuando empiece a usar Teams, será importante que usted y el resto del equipo del proyecto se comprometan con el uso de la conversación, los canales y los recursos de Teams para ejecutar el proyecto. Su propio uso de Teams es esencial para la calidad de su proyecto de adopción. Le recomendamos que resista la fragmentación del proyecto al seguir teniendo conversaciones con el equipo del proyecto básico por correo electrónico. Si cambias a Teams, modelarás el comportamiento que deseas que adopten tus empleados. Establezca el tono, vaya primero y empiece a disfrutar de la información del proyecto en un solo lugar.  
 
-![Un icono que representa el siguiente paso](media/teams-adoption-next-icon.png) : [¿cuál es su organización para Microsoft Teams?](teams-adoption-assess-readiness.md)
+![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) : [¿cuál es su organización para Microsoft Teams?](teams-adoption-assess-readiness.md)

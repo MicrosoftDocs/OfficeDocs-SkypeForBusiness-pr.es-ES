@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 3cbf3ec38876d57fe1c2b8ac61abf5b86d5c2106
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: b4c6fe9551374139e8220543cb83f262a2a5195a
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326777"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350064"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -93,15 +93,21 @@ Puede usar el centro de administración de Microsoft Teams para editar una direc
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>Asignar una directiva de configuración de aplicación personalizada a los usuarios
 
-Puede usar el centro de administración de Microsoft Teams para asignar una directiva personalizada a usuarios individuales o el módulo de PowerShell de Skype empresarial para asignar una directiva personalizada a grupos de usuarios, como un grupo de seguridad o un grupo de distribución.
+Puede usar el centro de administración de Microsoft Teams para asignar una directiva personalizada a usuarios individuales o el módulo de PowerShell de Skype empresarial para asignar una directiva personalizada a los usuarios de un grupo, como un grupo de seguridad o un grupo de distribución.
 
 ### <a name="assign-a-custom-app-setup-policy-to-users"></a>Asignar una directiva de configuración de aplicación personalizada a los usuarios
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, haga clic en el usuario.
+Para asignar una directiva a un usuario:
+
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
 2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
 3. En **Directiva de configuración**de la aplicación, seleccione la Directiva de configuración de la aplicación que desea asignar y, a continuación, haga clic en **aplicar**.
 
-Para asignar una directiva a varios usuarios a la vez, vea [Modificar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
+Para asignar una directiva a varios usuarios a la vez:
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, busque los usuarios o filtre la vista para mostrar los usuarios que desea.
+2. En la columna **&#x2713;** (marca), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en el &#x2713; (marca de verificación) en la parte superior de la tabla.
+3. Haga clic en **Editar configuración**, realice los cambios que desee y, a continuación, haga clic en **aplicar**.  
 
 También puede hacer lo siguiente:
 
@@ -197,3 +203,4 @@ Asegúrese de seguir las pautas del logotipo antes de enviar la aplicación. Par
  ## <a name="related-topics"></a>Temas relacionados
 
 - [Configurar la administración para aplicaciones en Teams](admin-settings.md)
+- [Asignar directivas a los usuarios de Teams](assign-policies.md)

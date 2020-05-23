@@ -16,18 +16,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a crear y administrar directivas de enrutamiento de voz en Microsoft Teams.
-ms.openlocfilehash: 7fa2530e170d398598e56d4b4f846cc316871b16
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 061e8066e06c4514a27ea302dab96acfad004ac4
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160982"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350194"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Administrar directivas de enrutamiento de voz en Microsoft Teams
 
 Si ha implementado el [enrutamiento directo de sistema telefónico](direct-routing-landing-page.md) en su organización, puede usar las directivas de enrutamiento de voz para permitir que los usuarios de Teams y Skype empresarial online reciban y realicen llamadas telefónicas a la red de telefonía pública conmutada (RTC) con su infraestructura de telefonía local.
 
-Una directiva de enrutamiento de voz es un contenedor de registros de uso de RTC. Para crear y administrar directivas de enrutamiento de voz, **vaya a** > **directivas de enrutamiento** de voz de voz en el centro de administración de Microsoft Teams o mediante Windows PowerShell.
+Una directiva de enrutamiento de voz es un contenedor de registros de uso de RTC. Para crear y administrar directivas de enrutamiento de voz, **vaya a**  >  **directivas de enrutamiento** de voz de voz en el centro de administración de Microsoft Teams o mediante Windows PowerShell.
 
 Puede usar la directiva global (predeterminada para toda la organización) o crear y asignar directivas personalizadas. Los usuarios obtendrán automáticamente la directiva global a menos que cree y asigne una directiva personalizada. Tenga en cuenta que puede modificar la configuración de la directiva global, pero no puede cambiarle el nombre o eliminarla.
 
@@ -37,7 +37,7 @@ Es importante saber que asignar una directiva de enrutamiento de voz a un usuari
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de enrutamiento de voz**de **voz** > y haga clic en **Agregar**.<br>
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de enrutamiento de voz de **voz**  >  **Voice routing policies**y haga clic en **Agregar**.<br>
     ![Captura de pantalla de la página Agregar Directiva de enrutamiento de voz en el centro de administración de Microsoft Teams](media/manage-voice-routing-policies.png) 
 2. Escriba un nombre y una descripción para la directiva.
 3. En **registros de uso de RTC**, haga clic en **Agregar uso de RTC**y, a continuación, seleccione los registros que desee agregar. Si necesita crear un registro de uso de RTC nuevo, haga clic en **Agregar**.
@@ -55,7 +55,7 @@ Vea [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/modul
 
 Puede editar la directiva global o cualquier directiva personalizada que cree.
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de enrutamiento de voz**de **voz** > .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Voice**  >  **directivas de enrutamiento de voz**de voz.
 2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva y, a continuación, haga clic en **Editar**.
 3. Haga clic en **Agregar o quitar registros de uso de RTC**, realice los cambios que desee y, a continuación, haga clic en **Guardar**.
 
@@ -67,15 +67,21 @@ Consulte [set-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
 
+Para asignar una directiva a un usuario:
+
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
 2. Haga clic en **directivas**y, junto a **directivas asignadas**, haga clic en **Editar**.
 3. En **Directiva de enrutamiento de voz**, seleccione la Directiva que desea asignar y, a continuación, haga clic en **Guardar**.
 
-Para asignar una directiva de Teams personalizada a varios usuarios a la vez, vea [editar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
+Para asignar una directiva a varios usuarios a la vez:
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, busque los usuarios o filtre la vista para mostrar los usuarios que desea.
+2. En la columna **&#x2713;** (marca), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en el &#x2713; (marca de verificación) en la parte superior de la tabla.
+3. Haga clic en **Editar configuración**, realice los cambios que desee y, a continuación, haga clic en **aplicar**.  
 
 También puede hacer lo siguiente:
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de enrutamiento de voz**de **voz** > .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Voice**  >  **directivas de enrutamiento de voz**de voz.
 2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
 3. Seleccione **Administrar usuarios**.
 4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
@@ -90,3 +96,4 @@ Consulte [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershel
 - [Descripción de PowerShell para Teams](teams-powershell-overview.md)
 - [Configurar el enrutamiento de voz para el enrutamiento directo](direct-routing-voice-routing.md)
 - [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)
+- [Asignar directivas a los usuarios de Teams](assign-policies.md)

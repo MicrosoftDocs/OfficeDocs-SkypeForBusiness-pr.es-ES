@@ -18,17 +18,17 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67c7a34a1051f68183429d9850561748d34568ab
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d38b3d7c67fd546fe73106413cd3505ea792b407
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905722"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350294"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Planear la transición de los equipos de StaffHub a turnos en Microsoft Teams
 
 > [!IMPORTANT]
-> A partir del 31 de diciembre de 2019, Microsoft StaffHub se retirará. Estamos construyendo las capacidades de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación de turnos para la administración de la programación, y las funciones adicionales se aplicarán a lo largo del tiempo. StaffHub dejará de funcionar para todos los usuarios el 31 de diciembre de 2019. Cualquier persona que intente abrir StaffHub recibirá un mensaje para que pueda descargar Teams. Para obtener más información, consulte [Microsoft StaffHub para que se retirará](microsoft-staffhub-to-be-retired.md). 
+> A partir del 30 de junio de 2020, Microsoft StaffHub se retirará. Estamos construyendo las capacidades de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación de turnos para la administración de la programación, y las funciones adicionales se aplicarán a lo largo del tiempo. StaffHub dejará de funcionar para todos los usuarios el 30 de junio de 2020. Cualquier persona que intente abrir StaffHub recibirá un mensaje para que pueda descargar Teams. Para obtener más información, consulte [Microsoft StaffHub para que se retirará](microsoft-staffhub-to-be-retired.md). 
 
 La transición de StaffHub a teams comienza al empezar a planificar el cambio. Para ayudar a garantizar que el cambio a teams se realice correctamente, hemos creado una escala de tiempo de ejemplo que muestra un plan de transición típico. La escala de tiempo de ejemplo describe las actividades de planeación para prepararse para el traslado y le permite mover los equipos de StaffHub de su organización a teams.
 

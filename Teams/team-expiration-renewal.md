@@ -11,23 +11,23 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Obtenga información sobre la expiración y la renovación de equipo y cómo usar la Directiva de expiración de grupo de Office 365 para limpiar automáticamente los equipos que no se usan en Microsoft Teams.
+description: Obtenga información sobre la caducidad y la renovación de un equipo y cómo usar Microsoft 365 o la Directiva de expiración de grupo de Office 365 para limpiar automáticamente los equipos no usados en Microsoft Teams.
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bd9949a23d18eb03c83e50ecd418abbf54c0494
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ed1e91ae51bf3f2868e9e2f5f1de1532954d552e
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837900"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350284"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Caducidad y renovación de equipos en Microsoft Teams
 
 Las organizaciones con una gran cantidad de equipos suelen tener equipos que nunca se usan realmente. Esto puede suceder por varias razones, entre las que se incluyen la experimentación de productos, la colaboración de equipos a corto plazo o los propietarios de equipos que salen de la organización. Con el tiempo, esos equipos pueden acumular y crear una carga para los recursos de inquilino.  
 
-Para frenar el número de equipos sin usar, como administrador, puede usar la [Directiva de expiración de grupo de Office 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy) para limpiar automáticamente los equipos que no se usan. Debido a que los equipos están respaldados por grupos, las directivas de expiración de grupos también se aplican automáticamente a los equipos.
+Para frenar el número de equipos sin usar, como administrador, puede usar la [Directiva de expiración de grupo de Microsoft 365 o de Office 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy) para limpiar automáticamente los equipos que no se usan. Debido a que los equipos están respaldados por grupos, las directivas de expiración de grupos también se aplican automáticamente a los equipos.
 
 Al aplicar una directiva de expiración a un equipo, el propietario de un equipo recibe una notificación para la renovación de equipo 30 días, 15 días y 1 día antes de la fecha de expiración del equipo. Cuando el propietario del equipo recibe la notificación, puede hacer clic en **renovar ahora** en configuración del equipo para renovar el equipo.
 

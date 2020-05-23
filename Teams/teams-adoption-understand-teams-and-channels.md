@@ -21,18 +21,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e59cb13759e078ae9686396635f41bd95fce90b8
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: c10fcf4f93319a351304ded03f1b3889f8d5c7ca
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904942"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350304"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Descripción de los equipos y canales en Microsoft Teams
 
 Los conceptos de los equipos y los canales son fundamentales para una implementación saludable y sana de Microsoft Teams. 
 
-- Un equipo es una colección de personas, contenido y herramientas que trabajan en conjunto para generar un resultado empresarial para la empresa. Los equipos se construyen sobre Grupos de Microsoft 365 y los cambios que se realicen en la pertenencia a grupos de Office 365 se sincronizarán con el equipo. 
+- Un equipo es una colección de personas, contenido y herramientas que trabajan en conjunto para generar un resultado empresarial para la empresa. Los equipos se construyen sobre Grupos de Microsoft 365 y los cambios que se realicen en la pertenencia a grupos de Office 365 se sincronizarán con el equipo.
 
 - Los canales son los espacios de colaboración dentro de un equipo en el que se realiza el trabajo real. 
 
@@ -61,4 +61,4 @@ En un equipo de la organización (que aparece a la izquierda), se puede comparti
   
 Trabajará más en la estructura de los equipos de la [fase 2](teams-adoption-phase2-experiment.md) de la implementación.
 
-![Un icono que representa el siguiente paso](media/teams-adoption-next-icon.png) : [crear los primeros equipos](teams-adoption-your-first-teams.md)
+![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) : [crear los primeros equipos](teams-adoption-your-first-teams.md)

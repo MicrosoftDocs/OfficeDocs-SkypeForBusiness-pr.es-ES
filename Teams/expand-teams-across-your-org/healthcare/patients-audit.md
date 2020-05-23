@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Aplicación de pacientes para administradores de equipos
-ms.openlocfilehash: fbbb3361968ae928638fedca09fbd8d4c2ff33b6
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a4c3980feceac51a6a674848e4c0005d9cc0c9d1
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780409"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350184"
 ---
 # <a name="audit-logs-for-patients-app"></a>Registros de auditoría de la aplicación Pacientes
 
@@ -28,7 +28,7 @@ Un registro de auditoría para la actividad de la aplicación pacientes permite 
 
 ## <a name="meet-hipaa-requirements"></a>Cumplir con los requisitos de HIPAA
 
-Según las normas de HIPAA, los proveedores de asistencia sanitaria deben mantener registros de todo el acceso a la PHI, de modo que sea posible auditar los cambios. Microsoft se compromete a los clientes empresariales que usan Microsoft Teams y les ayuda a cumplir con los requisitos y controles de HIPAA. El acceso a la PHI a través de la aplicación de pacientes está completamente registrado y los registros están disponibles en el centro de seguridad y cumplimiento de M365, tal y como se describe en el artículo [funcionalidad de búsqueda de registro de auditoría](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) .
+Según las normas de HIPAA, los proveedores de asistencia sanitaria deben mantener registros de todo el acceso a la PHI, de modo que sea posible auditar los cambios. Microsoft se compromete a los clientes empresariales que usan Microsoft Teams y les ayuda a cumplir con los requisitos y controles de HIPAA. El acceso a la PHI a través de la aplicación de pacientes está completamente registrado y los registros están disponibles en el centro de cumplimiento de Microsoft 365, según se describe en el artículo [funcionalidad de búsqueda de registro de auditoría](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) .
 
 > [!IMPORTANT]
 > La responsabilidad de mantener la privacidad del paciente se coloca en el proveedor de asistencia sanitaria por ley. La ley da derecho a la privacidad de pacientes y requiere que el administrador de ti o el controlador HIPAA pueda determinar fácilmente qué enfermera, médico o trabajador social ha acaquí o modificado registros de pacientes. Uno de los ejemplos más comunes de infracción de acceso a la PHI es el acceso a los pacientes VIP. La funcionalidad de registro de auditoría es necesaria para realizar investigaciones de cualquier violación de acceso de PHI y para cumplir con los requisitos de HIPAA.
@@ -41,7 +41,7 @@ Una auditoría depende de varias configuraciones anteriores:
 
 1. El administrador tendría que trabajar con su proveedor de servicios de FHIR para tener EMR en un formato usado por la aplicación de pacientes. Consulte [integración de registros de asistencia electrónica en Microsoft Teams](patients-app.md).
 2. Un administrador de proveedores de asistencia médica tendría que habilitar la aplicación de pacientes en el centro de administración de Teams. Para obtener más información, vea [Administrar directivas de configuración de aplicaciones en Microsoft Teams](../../teams-app-setup-policies.md) y artículos relacionados.
-3. El administrador tendría que habilitar las auditorías de actividades en O365, de la misma forma en que habilitan cualquier auditoría de registro de actividades en Office 365, como se describe en [antes de empezar](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) y [activar o](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)desactivar la búsqueda de registros de auditoría. Si el registro de auditoría ya está activado, no se necesita nada especial para la aplicación de pacientes. Cada vez que un proveedor de cuidado de la salud instala y ejecuta la aplicación dentro de un equipo, los registros de auditoría graban su actividad de PHI.
+3. El administrador tendría que habilitar las auditorías de actividades, de la misma forma en que habilitan cualquier auditoría del registro de actividades, como se describe en [antes de comenzar](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) y [activar o desactivar la búsqueda de registros de auditoría](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search). Si el registro de auditoría ya está activado, no se necesita nada especial para la aplicación de pacientes. Cada vez que un proveedor de cuidado de la salud instala y ejecuta la aplicación dentro de un equipo, los registros de auditoría graban su actividad de PHI.
 4. El administrador tendría que anunciar la disponibilidad de la aplicación de pacientes, y los trabajadores de la asistencia sanitaria tendrían que empezar a generar actividad para que se incluyera en una auditoría.
 
 <!-- add link out to client doc when available -->

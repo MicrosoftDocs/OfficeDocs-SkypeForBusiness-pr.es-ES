@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11192ca8bc1fe7e273e687363bf327fcd0c3078e
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 59c3d9d6ee6da2881aff52efa77c3d13678b560a
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997171"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350234"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -237,7 +237,7 @@ Puede establecer directivas con el centro de administración de Microsoft Teams 
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Asignar directivas mediante el centro de administración de Microsoft Teams
 
-Para asignar la Directiva de llamada de DisallowCalling y la Directiva de reunión de AllOff a los usuarios, siga estos pasos:
+Para asignar la Directiva de llamada de DisallowCalling y la Directiva de reunión de AllOff a un usuario:
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**.
 2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
@@ -246,13 +246,17 @@ Para asignar la Directiva de llamada de DisallowCalling y la Directiva de reuni�
     2.  En **Directiva de reunión**, haga clic en **AllOff**.
 4. Haga clic en **Aplicar**.
 
-Para asignar una directiva a varios usuarios a la vez, vea [Modificar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
+Para asignar una directiva a varios usuarios a la vez:
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, busque los usuarios o filtre la vista para mostrar los usuarios que desea.
+2. En la columna **&#x2713;** (marca), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en el &#x2713; (marca de verificación) en la parte superior de la tabla.
+3. Haga clic en **Editar configuración**, realice los cambios que desee y, a continuación, haga clic en **aplicar**.  
 
 También puede hacer lo siguiente:
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la Directiva que desea asignar. Por ejemplo:
-    - Vaya a **Voice** > **directivas de llamadas**de voz y, a continuación, haga clic en **DisallowCalling**.
-    - Vaya a **reuniones** > **Meeting Policies**y, a continuación, haga clic en **AllOff**.
+    - Vaya a **Voice**  >  **directivas de llamadas**de voz y, a continuación, haga clic en **DisallowCalling**.
+    - Vaya a **reuniones**  >  **Meeting Policies**y, a continuación, haga clic en **AllOff**.
 3. Seleccione **Administrar usuarios**.
 4. En el panel **Administrar usuarios**, busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 5. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
@@ -289,7 +293,7 @@ Puede usar el centro de administración de Microsoft Teams o PowerShell para est
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Asignar directivas mediante el centro de administración de Microsoft Teams
 
-Para asignar la Directiva de llamada de AllowCalling y la Directiva de reunión de AllOn a los usuarios, siga estos pasos:
+Para asignar la Directiva de llamada de AllowCalling y la Directiva de reunión de AllOn a un usuario:
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**.
 2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
@@ -298,13 +302,17 @@ Para asignar la Directiva de llamada de AllowCalling y la Directiva de reunión 
     2.  En **Directiva de reunión**, haga clic en **AllOn**.
 4. Haga clic en **Aplicar**.
 
-Para asignar una directiva a varios usuarios a la vez, vea [Modificar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
+Para asignar una directiva a varios usuarios a la vez:
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, busque los usuarios o filtre la vista para mostrar los usuarios que desea.
+2. En la columna **&#x2713;** (marca), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en el &#x2713; (marca de verificación) en la parte superior de la tabla.
+3. Haga clic en **Editar configuración**, realice los cambios que desee y, a continuación, haga clic en **aplicar**.  
 
 También puede hacer lo siguiente:
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la Directiva que desea asignar. Por ejemplo:
-    - Vaya a **Voice** > **directivas de llamadas**de voz y, a continuación, haga clic en **AllowCalling**.
-    - Vaya a **reuniones** > **Meeting Policies**y, a continuación, haga clic en **AllOn**.
+    - Vaya a **Voice**  >  **directivas de llamadas**de voz y, a continuación, haga clic en **AllowCalling**.
+    - Vaya a **reuniones**  >  **Meeting Policies**y, a continuación, haga clic en **AllOn**.
 3. Seleccione **Administrar usuarios**.
 4. En el panel **Administrar usuarios**, busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 5. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.

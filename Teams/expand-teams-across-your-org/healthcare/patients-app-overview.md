@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Aplicación de pacientes para administradores de equipos
-ms.openlocfilehash: 405a87be4bd9504c0bdca98c17748f0864ba72ed
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8424defb7d9fa6359600a99c3c19fdf0b8c4dd28
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780199"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350154"
 ---
 # <a name="patients-app-overview"></a>Información general de la aplicación Pacientes
 
@@ -30,7 +30,7 @@ La aplicación patients es una aplicación de la tienda Microsoft teams que est�
 
 La aplicación tiene dos modos:
 
-- El modo conectado de EMR que se conecta a EMRs a través de FHIR. La aplicación modo conectado de EMR permanece en la vista previa privada y los clientes interesados o los administradores pueden solicitar acceso a la aplicación colocando Microsoft un correo electrónico en [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) con información sobre su organización de Office 365.
+- El modo conectado de EMR que se conecta a EMRs a través de FHIR. La aplicación modo conectado de EMR permanece en la vista previa privada y los clientes interesados o los administradores pueden solicitar acceso a la aplicación colocando Microsoft un correo electrónico en [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) con información sobre su organización de 365 de Microsoft.
 - El modo manual que permite a los equipos de atención médica agregar o aportar manualmente la información del paciente. La aplicación está disponible en la tienda de aplicaciones de Teams para que los usuarios finales la descarguen en la versión preliminar privada. La aplicación se puede restringir a determinadas secciones de usuarios que usan [directivas de configuración de aplicaciones](../../teams-app-setup-policies.md) en Teams. Para obtener acceso a la aplicación, su espacio empresarial debe formar parte del programa de adopción de tecnología (TAP). Envíenos un mensaje de correo electrónico a [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) para iniciar el proceso de solicitud de acceso.
 
 ## <a name="usage-example"></a>Ejemplo de uso
@@ -41,7 +41,7 @@ Durante las sesiones de redondeo de cada turno en el exterior, los clínicos se 
 
 Para obtener información sobre cómo preparar su entorno para usar la aplicación para pacientes de modo EMR, consulte [integración de registros de asistencia médica electrónica en Microsoft Teams](patients-app.md). También tendrá que ver [las directivas de configuración de administración de aplicaciones en Microsoft Teams](../../teams-app-setup-policies.md) para habilitar la aplicación para pacientes para su organización.
 
-Para obtener información sobre cómo los usuarios finales pueden tener acceso e instalar la aplicación de pacientes en un equipo que sean propietarios o que administren, consulte Introducción [a los pacientes de Microsoft Teams](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393) 
+Para obtener información sobre cómo los usuarios finales pueden tener acceso e instalar la aplicación de pacientes en un equipo que sean propietarios o que administren, consulte Introducción [a los pacientes de Microsoft Teams](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393).
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
 
@@ -66,7 +66,7 @@ Ahora mismo, esta característica estará disponible próximamente.
 
 **Debido a que esta aplicación se adapta a la PHI, ¿se está auditando para evitar el acceso no autorizado o el cumplimiento de reglamentaciones?**
 
-Sí, hay. Todas las acciones de la interfaz de usuario que realiza un usuario de Microsoft Teams en la aplicación de pacientes se auditan y están disponibles en el centro de seguridad y cumplimiento. Los detalles se explican en el artículo [aquí](patients-audit.md)
+Sí, hay. Todas las acciones de la interfaz de usuario que realiza un usuario de Microsoft Teams en la aplicación de pacientes se auditan y están disponibles en el centro de seguridad y cumplimiento. Los detalles se explican en [registros de auditoría para la aplicación pacientes](patients-audit.md).
 
 ## <a name="related-topics"></a>Temas relacionados
 

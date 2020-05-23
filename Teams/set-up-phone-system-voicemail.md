@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el buzón de voz en la nube para sus usuarios. '
-ms.openlocfilehash: eb25d18dc0414edcc3b143487cced1f0e13b2b60
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: d747b86d50cf4e81398d53bbc3602bff9cc4351c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042937"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349724"
 ---
 # <a name="set-up-cloud-voicemail"></a>Planear el Correo de voz en la nube
 
@@ -35,7 +35,7 @@ Este artículo es para el [Administrador de Office 365](https://support.office.c
 > [!NOTE]
 > El buzón de voz de nube admite el depósito de mensajes de voz solo en un buzón de Exchange y no es compatible con ningún sistema de correo de terceros. 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>Entornos solo de nube: configurar el buzón de voz en la nube
+## <a name="cloud-only-environments-set-up-cloud-voicemail-for-cloud-psystem-users"></a>Entornos solo de nube: configurar el buzón de voz de nube para usuarios de Psystem de nube
 
 Para los usuarios de Skype empresarial online y planes de llamadas, el buzón de voz de nube se configura y se aprovisiona automáticamente para los usuarios después de asignarle una licencia de **sistema telefónico** y un número de teléfono.
   
@@ -45,21 +45,32 @@ Para los usuarios de Skype empresarial online y planes de llamadas, el buzón de
     
 3. Se ha agregado la ayuda para la transcripción del buzón de voz a partir del 2017 de marzo y está habilitada de forma predeterminada para todas las organizaciones y todos los usuarios. Puede deshabilitar la transcripción para su organización utilizando Windows PowerShell y siguiendo los pasos que se indican a continuación.
 
-## <a name="phone-system-with-on-premises-environments"></a>Sistema telefónico con entornos locales
+## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>Configurar el buzón de voz en la nube para usuarios de buzones de Exchange Server
 
-La siguiente información está relacionada con la configuración del buzón de voz de la nube para trabajar con entornos de plan de llamadas locales.
+La siguiente información está relacionada con la configuración del buzón de voz de la nube para trabajar con usuarios que están conectados para el sistema telefónico pero que tienen su buzón en Exchange Server. 
   
-1. Si la característica del sistema telefónico no está incluida en su plan, es posible que tenga que comprar licencias de complemento de **sistema telefónico** . También necesita comprar una licencia de Exchange Online. Consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+1. Si la característica del sistema telefónico no está incluida en su plan, es posible que tenga que comprar licencias de complemento de **sistema telefónico** . Consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-2. [Asignar o quitar licencias de Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), las [licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)y las licencias de Exchange Online para las personas de su empresa.
+2. [Asigne licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md) a las personas de su empresa.
     
-3. Siga las instrucciones que correspondan a la solución de llamadas RTC locales implementada para los usuarios. Para la edición de Cloud Connector, siga las instrucciones de la sección **habilitar los usuarios de voz del sistema telefónico y los servicios de buzón** de voz de la [Guía de configuración de Skype empresarial para la nube](https://technet.microsoft.com/library/mt605228.aspx). Para las llamadas RTC con Skype empresarial Server, siga [habilitando a los usuarios de Enterprise Voice on local](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises). Para el enrutamiento directo de Teams, siga las secciones **configurar el número de teléfono y habilitar la telefonía IP empresarial y el buzón de voz** de [configurar el enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail).
+3. Se ha agregado la ayuda para la transcripción del buzón de voz a partir del 2017 de marzo y está habilitada de forma predeterminada para todas las organizaciones y todos los usuarios. Puede deshabilitar la transcripción para su organización utilizando Windows PowerShell y siguiendo los pasos que se indican a continuación.
 
-4. Se ha agregado la ayuda para la transcripción del buzón de voz a partir del 2017 de marzo y está habilitada de forma predeterminada para todas las organizaciones y todos los usuarios. Puede deshabilitar la transcripción para su organización utilizando Windows PowerShell y siguiendo los pasos que se indican a continuación.
-
-5. Los mensajes de voz se entregan al buzón de Exchange de los usuarios mediante SMTP enrutado a través de Exchange Online Protection. Para habilitar la entrega correcta de estos mensajes, asegúrese de que los conectores de Exchange están configurados correctamente entre los servidores de Exchange y Exchange Online Protection; [Use conectores para configurar el flujo de correo](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow). 
+4. Los mensajes de voz se entregan al buzón de Exchange de los usuarios mediante SMTP enrutado a través de Exchange Online Protection. Para habilitar la entrega correcta de estos mensajes, asegúrese de que los conectores de Exchange están configurados correctamente entre los servidores de Exchange y Exchange Online Protection; [Use conectores para configurar el flujo de correo](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow). 
 
 6. Para habilitar características de buzón de voz, como la personalización de saludos y el buzón de voz en Skype empresarial, se requiere conectividad de Office 365 al buzón de Exchange Server a través de los servicios Web de Exchange. Para habilitar esta conectividad, debe configurar el nuevo protocolo de autenticación de OAuth de Exchange que se describe en [configurar la autenticación de OAuth entre Exchange y Exchange Online](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx), o ejecutar el Asistente de implementación híbrida de Exchange 2013 CU5 o superior. Además, debe configurar la integración y OAuth entre Skype empresarial online y Exchange Server que se describen en [configurar la integración y OAuth entre Skype empresarial online y Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). 
+
+## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>Configurar el buzón de voz en la nube para usuarios de Skype empresarial Server
+
+La siguiente información está relacionada con la configuración del buzón de voz de la nube para trabajar con usuarios que están conectados para Exchange y en el entorno local de Skype empresarial. 
+  
+1. Es posible que necesite comprar licencias de Exchange Online para las personas de su empresa. Consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    
+2. [Asignar o quitar licencias de Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) las licencias de Exchange Online para las personas de su empresa.
+    
+3. Se ha agregado la ayuda para la transcripción del buzón de voz a partir del 2017 de marzo y está habilitada de forma predeterminada para todas las organizaciones y todos los usuarios. Puede deshabilitar la transcripción para su organización utilizando Windows PowerShell y siguiendo los pasos que se indican a continuación.
+
+4. Para configurar los usuarios de Skype empresarial Server para el buzón de voz de nube, consulte [planear el servicio de buzón de voz en la nube para usuarios locales](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail)
+
 
 > [!NOTE]
 > Cuando un delegado responde a una llamada en nombre de un delegador, las notificaciones no están disponibles en el buzón de voz de la nube. Los usuarios pueden recibir notificaciones de llamadas perdidas.

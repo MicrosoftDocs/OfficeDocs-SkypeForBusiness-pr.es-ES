@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4c37d0c606a52893b69a101c99ef962e46d4deb3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: fcc4c872b584765791ba17b3a2a66c3892e7a7b5
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780639"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350164"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Se retirará Microsoft StaffHub
 
-A partir del 31 de diciembre de 2019, Microsoft StaffHub se retirará. Estamos construyendo las capacidades de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación de turnos para la administración de la programación, y las funciones adicionales se aplicarán a lo largo del tiempo.
+A partir del 30 de junio de 2020, Microsoft StaffHub se retirará. Estamos construyendo las capacidades de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación de turnos para la administración de la programación, y las funciones adicionales se aplicarán a lo largo del tiempo.
 
 Estos cambios forman parte de nuestros continuos esfuerzos por otorgar a todos los empleados con Microsoft 365. Con las capacidades de los trabajadores de los Firstline ahora en Teams, todos los empleados de su organización podrán usar Teams para simplificar su día laborable, colaborar con compañeros de trabajo y tener acceso a información y experiencia para ayudarles a mejorar su trabajo.
 
@@ -37,13 +37,13 @@ Estos cambios forman parte de nuestros continuos esfuerzos por otorgar a todos l
 
 #### <a name="when-will-staffhub-be-retired"></a>¿Cuándo se retirará StaffHub?
 
-A partir del 2019 de abril, Microsoft StaffHub ya no estará disponible para los nuevos inquilinos y ya no podrá acceder a la aplicación desde el iniciador de aplicaciones de Office 365 en los inquilinos existentes. Los usuarios actuales podrán seguir usando el servicio hasta el 31 de diciembre de 2019, pero no estarán disponibles características adicionales.
+A partir del 2019 de abril, Microsoft StaffHub ya no estará disponible para los nuevos inquilinos y ya no podrá acceder a la aplicación desde el iniciador de aplicaciones de Microsoft 365 u Office 365 en los inquilinos existentes. Los usuarios actuales podrán seguir usando el servicio hasta el 31 de diciembre de 2019, pero no estarán disponibles características adicionales.
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>¿Qué sucederá cuando se retirará StaffHub?
 
-Microsoft StaffHub dejará de funcionar para todos los usuarios el 1 de enero de 2020. Cualquier persona que intente abrir la aplicación verá un mensaje que indica que debe descargar Teams. Si el usuario tiene una licencia activa que incluye equipos y la organización ha tomado los pasos necesarios para habilitar Teams, sus datos y la funcionalidad básica de StaffHub estarán disponibles en su transición a teams.
+Microsoft StaffHub dejará de funcionar para todos los usuarios el 30 de junio de 2020. Cualquier persona que intente abrir la aplicación verá un mensaje que indica que debe descargar Teams. Si el usuario tiene una licencia activa que incluye equipos y la organización ha tomado los pasos necesarios para habilitar Teams, sus datos y la funcionalidad básica de StaffHub estarán disponibles en su transición a teams.
 
-Entre el 2019 de abril y el 2019 de diciembre, los usuarios de StaffHub recibirán notificaciones en la aplicación para que usen Teams.
+Entre el 2019 de abril y el 2020 de junio, los usuarios de StaffHub recibirán notificaciones en la aplicación para que usen Teams.
 
 #### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>¿Los equipos ofrecerán toda la funcionalidad que se ofrece actualmente en StaffHub?
 
@@ -103,7 +103,7 @@ Para obtener más información, vea [Ubicación de los datos de desplazamiento](
 
 #### <a name="where-can-i-learn-more-about-shifts"></a>¿Dónde puedo obtener más información sobre los turnos?
 
-Para obtener información del producto, [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software)vaya a.
+Para obtener información del producto, vaya a [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software) .
 
 Para obtener instrucciones sobre el administrador, vea [administrar la aplicación de turnos para su organización en Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 
@@ -127,9 +127,9 @@ De forma predeterminada, Teams está habilitado para todas las organizaciones. A
 
 Teams admite la coexistencia con Skype empresarial. Para obtener más información, consulte comprender los equipos y las directrices de [coexistencia e interoperabilidad](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) y [migración e interoperabilidad de Skype empresarial para las organizaciones que usan Teams conjuntamente con Skype empresarial](../../migration-interop-guidance-for-teams-with-skype.md).
 
-#### <a name="does-each-user-need-to-have-an-office-365-account-or-azure-active-directory-azure-ad-account"></a>¿Cada usuario debe tener una cuenta de Office 365 o una cuenta de Azure Active Directory (Azure AD)?
+#### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>¿Cada usuario debe tener una cuenta de Microsoft 365 o de Office 365 o una cuenta de Azure Active Directory (Azure AD)?
 
-Sí, todos los administradores y miembros del equipo que usen Teams y se desplacen dentro de Teams deben tener una cuenta de Office 365 (Azure AD) y se debe asignar una licencia válida.
+Sí, todos los administradores y miembros del equipo que usen Teams y se desplacen dentro de Teams deben tener una cuenta de Microsoft 365 o de Office 365 (Azure AD) y se les debe asignar una licencia válida.
  
 #### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>En StaffHub, podría agregar un prefijo especial a todos los grupos de Microsoft 365 creados por los equipos de StaffHub. ¿Puedo hacer lo mismo en Teams?
 
@@ -137,7 +137,7 @@ No tendrá la misma capacidad cuando pase de StaffHub a teams. Si necesita aplic
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>¿Los nombres de equipo serán los mismos en Teams?
 
-Es posible que el nombre de un equipo sea diferente. Los nombres de los equipos de Teams usan el nombre de grupo 365 de Office. Si el nombre del equipo de StaffHub es diferente al nombre del grupo de Office 365 correspondiente, verá un nombre diferente al cambiar a teams.
+Es posible que el nombre de un equipo sea diferente. Los nombres de los equipos de Teams usan el nombre de grupo 365 de Microsoft. Si el nombre del equipo de StaffHub es diferente del nombre del grupo Microsoft 365 correspondiente, verá un nombre diferente al cambiar a teams.
 
 #### <a name="what-happens-to-team-membership-when-a-staffhub-team-is-moved-to-teams"></a>¿Qué pasa con los miembros del equipo cuando se mueve un equipo de StaffHub a teams?
 
@@ -147,7 +147,7 @@ Le recomendamos que revise las listas de su equipo existente en StaffHub y, cuan
  
 #### <a name="what-happens-to-staffhub-team-members-who-arent-provisioned-or-whose-status-is-inactive"></a>¿Qué sucede con los miembros del equipo de StaffHub que no están aprovisionados o cuyo estado es inactivo?
 
-La programación del usuario se moverá a desplazamientos; sin embargo, el usuario no será miembro del equipo ni de un grupo de Office 365.
+La programación del usuario se moverá a desplazamientos; sin embargo, el usuario no será miembro del equipo o de un grupo de Microsoft 365.
 
 Para las cuentas inactivas que no están vinculadas a una cuenta de usuario de Azure AD, un administrador puede asegurarse de que el usuario se agregue como miembro del equipo agregando una dirección de correo electrónico válida de Microsoft 365 u Office 365 en la página de miembros del equipo de StaffHub para que el usuario esté vinculado a la cuenta de Azure AD correcta en su organización.
 
@@ -157,9 +157,9 @@ Le recomendamos que se asegure de que todos los usuarios de su organización est
  
 #### <a name="what-happens-to-chats-in-staffhub"></a>¿Qué ocurre con los chats en StaffHub?
 
-Para ayudar a los usuarios a realizar la transición, tenemos pensado migrar el historial de chats de datos en StaffHub a teams. La cantidad de historial de conversaciones que estará disponible en Teams dependerá de la cantidad de tiempo que haya configurado su organización para la transición. Recomendamos que realice una acción antes del 30 de junio de 2019 para proporcionar el tiempo suficiente para realizar la transición de 90 días de datos en el 31 de diciembre de 2019.
+Para ayudar a los usuarios a realizar la transición, tenemos pensado migrar el historial de chats de datos en StaffHub a teams. La cantidad de historial de conversaciones que estará disponible en Teams dependerá de la cantidad de tiempo que haya configurado su organización para la transición. Le recomendamos que realice una acción antes del 30 de junio de 2019 para proporcionar el tiempo suficiente para realizar la transición 90 días de datos antes del 30 de junio de 2020.
 
-Asegúrese de que la creación de grupos de Office 365 está habilitada en el centro de administración de Microsoft 365 antes de que comience la transición, ya que esto es esencial para poder mover los datos de su chat de StaffHub a teams. Si se produce un error al activar este servicio antes del 30 de junio de 2019, el resultado será una fecha de migración posterior o se copiarán menos datos de chat.
+Asegúrese de que la creación de grupos de Microsoft 365 esté habilitada en el centro de administración de Microsoft 365 antes de que comience la transición, ya que esto es esencial para poder mover los datos de su chat de StaffHub a teams. Si se produce un error al activar este servicio antes del 30 de junio de 2019, el resultado será una fecha de migración posterior o se copiarán menos datos de chat.
 
 #### <a name="what-happens-to-files-that-have-been-uploaded-to-staffhub"></a>¿Qué pasa con los archivos que se han cargado en StaffHub?
 
@@ -175,7 +175,7 @@ La eliminación de una programación está vinculada a la eliminación de un equ
 
 #### <a name="what-powers-the-file-sharing-capability-in-teams-where-are-files-stored"></a>¿Qué impulsa la capacidad de uso compartido de archivos en Teams? ¿Dónde se almacenan los archivos?
 
-La funcionalidad de archivos compartidos, la capacidad de un administrador de distribuir archivos a los miembros del equipo, está encendida en el back-end de SharePoint Online. Cuando se crea un equipo, se aprovisiona automáticamente un grupo de Office 365 para ese equipo en segundo plano.
+La funcionalidad de archivos compartidos, la capacidad de un administrador de distribuir archivos a los miembros del equipo, está encendida en el back-end de SharePoint Online. Cuando se crea un equipo, se aprovisiona automáticamente un grupo de Microsoft 365 para ese equipo en segundo plano.
 
 Para obtener más información, vea [Cómo SharePoint Online y OneDrive para la empresa interactúan con Teams](../../SharePoint-OneDrive-interact.md).
  
@@ -209,4 +209,4 @@ Como ShiftS es una aplicación en Teams, puede ver el uso mediante informes de T
 
 #### <a name="where-can-i-provide-feedback"></a>¿Dónde puedo proporcionar comentarios?
   
-En la aplicación móvil, pulse **más** en la parte superior izquierda de la pantalla, vaya a **configuración** > **Enviar comentarios** o **informar de un problema**. De forma similar, en la parte inferior izquierda de la pantalla, en el escritorio y en las aplicaciones Web, ve **ayuda** > para**compartir una idea** o **informar de un problema**.
+En la aplicación móvil, pulse **más** en la parte superior izquierda de la pantalla, vaya a **configuración**  >  **Enviar comentarios** o **informar de un problema**. De forma similar, en la parte inferior izquierda de la pantalla, en el escritorio y en las aplicaciones Web, ve **ayuda**para  >  **compartir una idea** o **informar de un problema**.

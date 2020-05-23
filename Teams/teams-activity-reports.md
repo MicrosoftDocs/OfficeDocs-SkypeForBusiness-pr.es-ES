@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f1eb02b7755ecfaa78b3b5ad511f45052a7807b5
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 211bf51e0221ecaba29cee9e9a859c0a6acf9332
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256395"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349984"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Use los informes de actividades de Microsoft Teams 
 ========================================
@@ -107,7 +107,7 @@ Puede asignar el rol de *lector de informes* a personal que no es de ti y que de
 
 ### <a name="at-a-glance-activity-widget"></a>Widget de actividad de un vistazo
 
-El panel informes incluye los datos de uso de Teams en el widget de actividad de un vistazo, que le ofrece una vista de producto cruzado de cómo los usuarios se comunican y colaboran con los otros servicios de Office 365.
+El panel informes incluye los datos de uso de Teams en el widget de actividad de aspecto general, que le ofrece una vista de producto cruzado de cómo los usuarios se comunican y colaboran con los otros servicios de Microsoft 365 u Office 365.
 
 ![Captura de pantalla del widget de actividad de los equipos.](media/at-a-glance-activity-widget.png)
 

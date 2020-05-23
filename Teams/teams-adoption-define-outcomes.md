@@ -21,12 +21,12 @@ f1.keywords:
 description: Obtenga información sobre cómo medir los resultados y el éxito de su habilitación a escala general de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f963acb58369e7b623969cb518f53249912bfd67
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5a51caae2e8d8e9005aad3d8e669eead3b7a0765
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140803"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350144"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir resultados y el éxito de su adopción de Microsoft Teams
 
@@ -79,13 +79,13 @@ Teams es una tecnología de transformación, de modo que, según el tamaño de l
 | Teams First | Teams Core | Los equipos son importantes | Skype en paralelo | Migración |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | Implementación de nube de clientes potenciales con Teams | Habilitación del escenario de colaboración de clientes potenciales con Teams | Todos los empleados de Teams y de equipos de toda la organización | Habilitar Teams y Skype empresarial | Migrar usuarios de Skype empresarial a teams |
-| -Se aplica a los clientes de Office 365 de uso nuevo o de uso reducido <br/>-Liderar con Teams en un escenario específico del cliente <br/>-Resalte la experiencia de usuario integrada y el tiempo acelerado para el valor de Office 365 <br/>-Lleve a cabo la habilitación de la carga de trabajo de planificación para evitar la implementación en serie | -Habilitar Teams junto con OneDrive y SharePoint Online <br/>-Crear una intranet de empresa para compartir recursos de noticias y vídeo con Microsoft Stream<br/>**Mejor juntos**: <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-Para clientes con menos de 5000 asientos (limitación actual)<br/>-Habilitar la colaboración entre organizaciones con un equipo para todos los<br/>-Automatizar tareas comunes (solicitudes de vacaciones, encuestas de empleados, participación ejecutiva) |-Usar las tácticas básicas de Teams para acelerar la colaboración<br/>-Resaltar la orientación del escenario de reunión según el tamaño y el conjunto de características requerido</br>-Usar Skype empresarial para las llamadas empresariales, la interoperabilidad y los escenarios híbridos<br/>-Usar el plan público para planear la capacidad. |-Planear el cambio a los equipos desde Skype empresarial creando un plan de estrategia de servicio para el cliente<br/>-Adjuntar a programación de versión de características<br/>-Recomendar la transición de lado a lado y de Teams para facilitar la transición
+| -Se aplica a los clientes de Microsoft 365 o de Office 365 de uso nuevo o reducido <br/>-Liderar con Teams en un escenario específico del cliente <br/>-Resalte la experiencia de usuario integrada y el tiempo acelerado de valor para Microsoft 365 u Office 365 <br/>-Lleve a cabo la habilitación de la carga de trabajo de planificación para evitar la implementación en serie | -Habilitar Teams junto con OneDrive y SharePoint Online <br/>-Crear una intranet de empresa para compartir recursos de noticias y vídeo con Microsoft Stream<br/>**Mejor juntos**: <br/>Equipos<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-Para clientes con menos de 5000 asientos (limitación actual)<br/>-Habilitar la colaboración entre organizaciones con un equipo para todos los<br/>-Automatizar tareas comunes (solicitudes de vacaciones, encuestas de empleados, participación ejecutiva) |-Usar las tácticas básicas de Teams para acelerar la colaboración<br/>-Resaltar la orientación del escenario de reunión según el tamaño y el conjunto de características requerido</br>-Usar Skype empresarial para las llamadas empresariales, la interoperabilidad y los escenarios híbridos<br/>-Usar el plan público para planear la capacidad. |-Planear el cambio a los equipos desde Skype empresarial creando un plan de estrategia de servicio para el cliente<br/>-Adjuntar a programación de versión de características<br/>-Recomendar la transición de lado a lado y de Teams para facilitar la transición
 
 Estas son nuestras recomendaciones para la mayoría de las organizaciones de clientes. Sin embargo, hay excepciones. Para obtener más información sobre cualquier escenario no cubierto aquí, realice sus preguntas en nuestra comunidad de adopción de la adopción o póngase en contacto con el equipo de FastTrack o la red de Partners de Microsoft.
 
 - **Seleccione Teams First o Teams Core**: la mayoría de las organizaciones tienen una inversión existente en tecnología de Microsoft. Es posible que esté habilitando más de una carga de trabajo a la vez, como Exchange Online, OneDrive para la empresa o SharePoint. En estos casos, seleccionar Teams First o Teams Core es una buena opción. Permitirá a los usuarios usar la experiencia de colaboración mejorada de Teams. El equipo de su proyecto de colaboración puede planear la implantación de capacidades adicionales y la formación y soporte técnico necesarios para que tengan éxito. 
 
-- **Elija Teams go Big**: en las nuevas organizaciones de clientes de Office 365, a menudo es mejor tomar el enfoque grande de los equipos para minimizar la fatiga de los cambios que provoca la formación de nuevas tecnologías varias veces. Obtendrá los mayores beneficios al habilitar Teams para la colaboración básica y las reuniones, SharePoint, OneDrive, Planner y otras cargas de trabajo, y permitir que los empleados obtengan información sobre ellos en el contexto de la implementación de Teams. 
+- **Elija Teams go Big**: en las nuevas organizaciones de clientes de Microsoft 365 u Office 365, a menudo es mejor tomar un enfoque grande de Teams para minimizar la fatiga de los cambios que provoca la formación de nuevas tecnologías varias veces. Obtendrá los mayores beneficios al habilitar Teams para la colaboración básica y las reuniones, SharePoint, OneDrive, Planner y otras cargas de trabajo, y permitir que los empleados obtengan información sobre ellos en el contexto de la implementación de Teams. 
 
     La gran importancia de los equipos es también la estrategia de habilitación preferida para las organizaciones de empresas de 1.000 empleados que desean simplificar la comunicación y la participación de sus empleados. Usar el equipo de toda la organización puede reunir a las personas para revisar tareas e iniciativas comunes en cualquier dispositivo. 
 
@@ -137,7 +137,7 @@ Procedimientos recomendados para la administración y aprovisionamiento de equip
 
 Una parte esencial del impulso de la transformación digital y el uso de Microsoft Teams es trabajar con las unidades de negocio para comprender qué necesidades, oportunidades y dificultades tienen. A pesar de que es similar a la conversación de ti tradicional, el foco debe estar en lo que se necesita. Escucha antes de pasar a los requisitos técnicos. En muchos casos, las características de los equipos que están fuera de la caja se ajustan a las necesidades de su organización.   
 
-Procedimiento recomendado: antes de considerar la posibilidad de desarrollar una solución personalizada, asegúrese de que su organización está usando las funciones de Office 365 de forma completa. El desarrollo de soluciones personalizadas siempre supone un costo a largo plazo para los departamentos de ti y de soporte técnico.
+Procedimiento recomendado: antes de considerar la posibilidad de desarrollar una solución personalizada, asegúrese de que su organización está usando completamente las funciones de Microsoft 365 u Office 365. El desarrollo de soluciones personalizadas siempre supone un costo a largo plazo para los departamentos de ti y de soporte técnico.
  
 Siga estos pasos para simplificar su trabajo con las unidades de negocio.  Reconozca las grandes corporaciones multinacionales que este proceso puede prolongarse después de la primera implementación a gran escala de Microsoft Teams:
 
@@ -147,4 +147,4 @@ Siga estos pasos para simplificar su trabajo con las unidades de negocio.  Recon
 4. Capture comentarios y desarrolle campeones con conocimiento empresarial para apoyar la transición,
 5. Configure los puntos de comprobación mensuales para analizar el progreso y establecer prioridades en el trabajo pendiente de proyectos adicionales.
 
-![Un icono que representa el siguiente](media/teams-adoption-next-icon.png) paso: [optimizar comentarios e informes](teams-adoption-optimize-feedback-and-reporting.md)
+![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) : [optimizar comentarios e informes](teams-adoption-optimize-feedback-and-reporting.md)

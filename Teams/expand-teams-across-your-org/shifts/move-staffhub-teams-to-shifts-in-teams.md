@@ -19,17 +19,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e0bf24c32854ddf2498b8a00874ad1d358c8fb8a
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: f449d20f4364629185f719c3217023107f774dd9
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326797"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350314"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Mover los equipos de Microsoft StaffHub a turnos en Microsoft Teams
 
 > [!IMPORTANT]
-> A partir del 31 de diciembre de 2019, Microsoft StaffHub se retirará. Estamos construyendo las capacidades de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación de turnos para la administración de la programación, y las funciones adicionales se aplicarán a lo largo del tiempo. StaffHub dejará de funcionar para todos los usuarios el 31 de diciembre de 2019. Cualquier persona que intente abrir StaffHub recibirá un mensaje para que pueda descargar Teams. Para obtener más información, consulte [Microsoft StaffHub para que se retirará](microsoft-staffhub-to-be-retired.md).
+> A partir del 30 de junio de 2020, Microsoft StaffHub se retirará. Estamos construyendo las capacidades de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación de turnos para la administración de la programación, y las funciones adicionales se aplicarán a lo largo del tiempo. StaffHub dejará de funcionar para todos los usuarios el 30 de junio de 2020. Cualquier persona que intente abrir StaffHub recibirá un mensaje para que pueda descargar Teams. Para obtener más información, consulte [Microsoft StaffHub para que se retirará](microsoft-staffhub-to-be-retired.md).
 
 La aplicación de turnos de Teams ofrece un enfoque simple para administrar las programaciones y el flujo constante de swaps y cancelaciones de turnos que se producen diariamente. Los miembros del equipo pueden acceder a su programación y desplazar la información directamente en la aplicación y en todos sus dispositivos para establecer sus preferencias, administrar sus programaciones y solicitar tiempo.
 
@@ -50,13 +50,13 @@ Debe ser administrador global para poder realizar los pasos de este artículo. S
 
 ### <a name="when-to-move-to-teams"></a>Cuándo mover a teams
 
-A partir del 31 de diciembre de 2019, StaffHub se retirará. Le recomendamos que comience a usar Teams hoy y empiece a cambiar la transición de los equipos y usuarios de su organización de StaffHub. Con la administración de programación como la característica que se usa con más frecuencia en StaffHub, le recomendamos que use la aplicación turnos en Teams en el futuro.
+A partir del 30 de junio de 2020, se retirará StaffHub. Le recomendamos que comience a usar Teams hoy y empiece a cambiar la transición de los equipos y usuarios de su organización de StaffHub. Con la administración de programación como la característica que se usa con más frecuencia en StaffHub, le recomendamos que use la aplicación turnos en Teams en el futuro.
 
 ### <a name="what-is-moved-to-teams"></a>Qué se mueve a teams
 
 Al mover un equipo de StaffHub, los miembros del equipo, los detalles del usuario, las programaciones del equipo y los datos del chat se mueven a teams. Los archivos no se mueven al mover un equipo de StaffHub. Si un equipo de StaffHub contiene archivos que también desea mover a Teams, mueva los archivos en un paso independiente.
 
-Cada equipo de StaffHub necesita un grupo de Office 365 correspondiente. Si un equipo de StaffHub está asociado con un grupo de Office 365, la configuración de privacidad del grupo se conserva cuando se mueve el equipo. Si un equipo de StaffHub no tiene un grupo de 365 de Office asociado, se crea automáticamente un grupo con la configuración de privacidad privada para que admita la transición.  Dada la diferencia de nomenclatura de equipo y grupo entre Teams y StaffHub, es posible que vea un nombre de equipo diferente en Teams. 
+Cada equipo de StaffHub necesita un grupo de Microsoft 365 o de Office 365 correspondiente. Si un equipo de StaffHub está asociado con un grupo de Microsoft 365, la configuración de privacidad del grupo se conserva cuando se mueve el equipo. Si un equipo de StaffHub no tiene un grupo de Microsoft 365 asociado, se crea automáticamente un grupo con la configuración de privacidad privada para que admita la transición.  Dada la diferencia de nomenclatura de equipo y grupo entre Teams y StaffHub, es posible que vea un nombre de equipo diferente en Teams. 
 
 A medida que vaya migrando equipos de StaffHub a Teams, los usuarios ya no tendrán acceso a sus programaciones en StaffHub y se redirigirán a los equipos. Le recomendamos que comunique este cambio en toda la organización para minimizar las interrupciones y para animar a los usuarios a adoptar y explorar equipos. Si tiene Azure AD Premium, puede [ejecutar un informe](run-report-to-show-staffhub-usage.md) para obtener una lista de los usuarios de StaffHub de su organización que necesitan saber sobre este cambio.  
 
@@ -364,7 +364,7 @@ Esto puede ocurrir si el grupo que está asociado al equipo de StaffHub no tiene
 
 **Al intentar mover archivos de StaffHub a Teams, recibe el mensaje de error "Permiso denegado".**
 
-Esto puede ocurrir si está intentando mover archivos en un grupo privado de Office 365 del que no es miembro. Si este es el caso, use el cmdlet [AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) para agregarse al equipo de StaffHub y, a continuación, mueva los archivos. Después de mover los archivos, use el cmdlet [Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) para quitarse del equipo. 
+Esto puede ocurrir si está intentando mover archivos en un grupo privado de Microsoft 365 del que no es miembro. Si este es el caso, use el cmdlet [AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) para agregarse al equipo de StaffHub y, a continuación, mueva los archivos. Después de mover los archivos, use el cmdlet [Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) para quitarse del equipo. 
 
 **Al intentar mover archivos de StaffHub a Teams, recibe un error que indica que no existe la carpeta general.**
 

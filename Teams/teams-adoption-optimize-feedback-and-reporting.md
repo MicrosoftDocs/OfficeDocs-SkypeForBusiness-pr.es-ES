@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff6a3b285033176b0262b67663fbd448392ea343
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fcaa545f2a704dfad856a4cebbcc9cb9f31d7481
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140701"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349774"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimizar los comentarios y los informes sobre su adopción de Microsoft Teams
 
-Asegúrese de recuperar las señales de su servicio y de sus empleados siguiendo nuestros procedimientos recomendados para los comentarios de los usuarios y los informes de estado del servicio.  En algunos casos, es posible que se necesiten derechos de administrador de Office 365 para acceder a determinados informes de uso y mantenimiento del servicio. Si no es el administrador de Office 365 de su organización, trabaje con esa persona para que se le otorgue la función lector de informes en el centro de administración de Microsoft 365 para obtener acceso a algunos de estos datos. 
+Asegúrese de recuperar las señales de su servicio y de sus empleados siguiendo nuestros procedimientos recomendados para los comentarios de los usuarios y los informes de estado del servicio.  En algunos casos, es posible que necesite derechos de administrador para acceder a determinados informes de uso y estado de los servicios. Si no es el administrador de Microsoft 365 u Office 365 de su organización, trabaje con esa persona para que se le otorgue la función lector de informes en el centro de administración de Microsoft 365 para obtener acceso a algunos de estos datos.
 
 ## <a name="incorporating-feedback"></a>Incorporar comentarios 
 
@@ -56,8 +56,8 @@ Procedimiento recomendado: tenga a los representantes del Departamento de soport
 
 Hay tres tipos de informes que debe revisar al implementar y adoptar Microsoft Teams:
 
-- [Estado del servicio](https://status.office365.com/) : tanto de Office 365 como de su departamento interno de soporte de ti.
-- [Actividad de servicio](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) : desde Office 365 ver [informes en Microsoft Teams](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). También puede usar información de otros sistemas de su organización.
+- [Estado del servicio](https://status.office365.com/) : tanto de Microsoft 365 como de Office 365 y de su departamento interno de soporte técnico de ti.
+- [Actividad de servicio](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) : de Microsoft 365 o de Office 365 ver [informes de Microsoft Teams](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). También puede usar información de otros sistemas de su organización.
 - Satisfacción del servicio: recopilado de los foros internos de la comunidad y de las encuestas sobre experiencias específicas
 
-![Un icono que representa el siguiente](media/teams-adoption-next-icon.png) paso: [impulsar el conocimiento e implementar aprendizaje](teams-adoption-drive-awareness.md)
+![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) : [impulsar el conocimiento e implementar aprendizaje](teams-adoption-drive-awareness.md)

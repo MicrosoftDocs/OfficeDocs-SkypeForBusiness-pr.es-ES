@@ -21,12 +21,12 @@ f1.keywords:
 description: Aprenda a entrenar a un equipo de expertos para promover la adopción de equipos mediante el conocimiento, la adopción y el aprendizaje de su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4be0002b65567bcd708e765242b744936c6ac12e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e2c44be9ac59b3a7c076540b658cf27bf74ef0e8
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904762"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350264"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Crear su programa para expertos para Microsoft Teams
 
@@ -45,7 +45,7 @@ Los campeones deben:
 
 Use la [Guía del programa](https://go.microsoft.com/fwlink/?linkid=854665) de nuestros campeones para crear este programa en su organización. Nuestros procedimientos recomendados para esta comunidad son:
 
-- Únase al programa Office 365 Champions: Asegúrese de que, al menos, los líderes del programa Champion (y, posiblemente, todos los campeones de la compañía) son miembros del [programa de Microsoft Office 365 campeón](https://aka.ms/O365Champions). Esta llamada de la comunidad mensual gratuita le proporcionará información valiosa para ejecutar su propio programa y sacar el máximo provecho de Teams y otros servicios de Office 365. Los materiales del programa pueden reutilizarse en su propio programa interno.
+- Únase al programa Microsoft 365 o a los [campeones](https://aka.ms/O365Champions)de microsoft Office 365. Asegúrese de que, al menos, los líderes del programa preexperto (y posiblemente todos los campeones de la empresa) sean miembros del programa. Esta llamada de la comunidad mensual gratuita le proporcionará información valiosa para ejecutar su propio programa y sacar el máximo provecho de Teams y otros servicios de Microsoft 365 u Office 365. Los materiales del programa pueden reutilizarse en su propio programa interno.
 
 - Use el equipo de experto de trabajo en equipo: sus compañeros deberían usar el equipo que tiene configurado para todas las comunicaciones de programas, comentarios y para buscar recursos.  De esta manera, se verán cada vez más familiarizados con el producto y sus beneficios.
 
@@ -60,5 +60,5 @@ Use la [Guía del programa](https://go.microsoft.com/fwlink/?linkid=854665) de n
 
 - Train Champions a la brevedad y a menudo: el lanzamiento de programas y las reuniones mensuales pueden usarse para crear habilidades en la comunidad de su experto. Use estas oportunidades para ponerlas en el tablero, realizar su aprendizaje inicial, alentarlos para que asistan a nuestros cursos y asegurarse de que estén listos para apoyar a sus empleados a medida que avanzan en la fase de experimentación.  
 
-![Un icono que representa el siguiente](media/teams-adoption-next-icon.png) paso: [completar el inicio rápido de gobierno](teams-adoption-governance-quick-start.md)
+![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) : [completar el inicio rápido de gobierno](teams-adoption-governance-quick-start.md)
 

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar y administrar directivas de identificación de llamadas en Microsoft Teams para cambiar o bloquear la identificación de llamadas de los usuarios de su organización.
-ms.openlocfilehash: a4dbdbac0922bb475f47447a3cf8b2d0f001909c
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: dde534d0c74b11b3c3131a7d5c9eb8611135f70f
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224258"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349784"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Administrar directivas de identificación de llamadas en Microsoft Teams
 
@@ -67,17 +67,21 @@ Puede editar la directiva global o cualquier directiva personalizada que cree.
 
 ## <a name="assign-a-custom-caller-id-policy-to-users"></a>Asignar una directiva de identificación de llamadas personalizada a los usuarios
 
-Puede usar el centro de administración de Microsoft Teams para asignar una directiva personalizada a uno o más usuarios o el módulo de PowerShell de Skype empresarial para asignar una directiva personalizada a grupos de usuarios, como un grupo de seguridad o un grupo de distribución.
+Puede usar el centro de administración de Microsoft Teams para asignar una directiva personalizada a uno o más usuarios o al módulo de PowerShell de Skype empresarial para asignar una directiva personalizada a los usuarios de un grupo, como un grupo de seguridad o un grupo de distribución.
 
-### <a name="assign-a-custom-caller-line-id-policy-to-a-user"></a>Asignar una directiva de identificador de línea de llamada personalizada a un usuario
+### <a name="assign-a-custom-caller-line-id-policy-to-users"></a>Asignar una directiva de identificador de línea de llamada personalizada a los usuarios
+
+Para asignar una directiva a un usuario:
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
 2. Haga clic en **directivas**y, junto a **directivas asignadas**, haga clic en **Editar**.
 3. En **Directiva de identificación de llamadas**, seleccione la Directiva que desea asignar y, a continuación, elija **Guardar**.
 
-### <a name="assign-a-custom-calling-line-id-policy-to-multiple-users-at-a-time"></a>Asignar una directiva de identificador de línea de llamada personalizado a varios usuarios a la vez
+Para asignar una directiva a varios usuarios a la vez:
 
-Para asignar una directiva de identificador de línea de llamada personalizado a varios usuarios a la vez, vea [editar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, busque los usuarios o filtre la vista para mostrar los usuarios que desea.
+2. En la columna **&#x2713;** (marca), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en el &#x2713; (marca de verificación) en la parte superior de la tabla.
+3. Haga clic en **Editar configuración**, realice los cambios que desee y, a continuación, haga clic en **aplicar**.  
 
 También puede hacer lo siguiente:
 
@@ -113,4 +117,4 @@ Según el número de miembros del grupo, este comando puede demorar varios minut
  ## <a name="related-topics"></a>Temas relacionados
 
 - [Nuevo: CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
-
+- [Asignar directivas a los usuarios de Teams](assign-policies.md)

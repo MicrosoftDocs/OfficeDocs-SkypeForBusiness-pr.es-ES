@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 392bbb3c97cf32e815f81073bf662d4d6280ae75
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: ce387ec406a9ccfd6ee45a67f2613a45c219f21f
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326657"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349704"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Administrar directivas de Teams en Microsoft Teams
 
@@ -65,13 +65,19 @@ Puede editar la directiva global o cualquier directiva personalizada que cree.
 
 Puede usar el centro de administración de Microsoft Teams para asignar una directiva personalizada a uno o más usuarios o el módulo de PowerShell de Skype empresarial para asignar una directiva personalizada a grupos de usuarios, como un grupo de seguridad o un grupo de distribución.
 
-### <a name="assign-a-custom-teams-policy-to-a-user"></a>Asignar una directiva de Teams personalizada a un usuario
+### <a name="assign-a-custom-teams-policy-to-users"></a>Asignar una directiva de Teams personalizada a los usuarios
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, haga clic en el usuario.
+Para asignar una directiva a un usuario:
+
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
 2. Haga clic en **directivas**y, junto a **directivas asignadas**, haga clic en **Editar**.
 3. En **directivas de Teams**, seleccione la Directiva que desea asignar y, a continuación, haga clic en **Guardar**.
 
-Para asignar una directiva de Teams personalizada a varios usuarios a la vez, vea [editar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
+Para asignar una directiva a varios usuarios a la vez:
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, busque los usuarios o filtre la vista para mostrar los usuarios que desea.
+2. En la columna **&#x2713;** (marca), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en el &#x2713; (marca de verificación) en la parte superior de la tabla.
+3. Haga clic en **Editar configuración**, realice los cambios que desee y, a continuación, haga clic en **aplicar**.  
 
 También puede hacer lo siguiente:
 
@@ -108,3 +114,4 @@ Según el número de miembros del grupo, este comando puede demorar varios minut
 
 - [Administrar la detección de equipos privados en Teams](manage-discovery-of-private-teams.md)
 - [Canales privados en Teams](private-channels.md)
+- [Asignar directivas a los usuarios de Teams](assign-policies.md)

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b24fd6e6ea957c085050dd1311ec536800b706b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a65a9c43ba6828781c53b14e739ba92593ca934c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904325"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350254"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Comenzar el inicio rápido para Microsoft Teams
 
@@ -64,10 +64,10 @@ La experiencia de reunión de los equipos es de alta calidad, admite videoconfer
 
 ### <a name="decision-6--data-security"></a>Decisión 6: seguridad de los datos
 
-En preparación para su amplia implementación, puede optar por usar etiquetas de seguridad para clasificar los tipos de equipos de su entorno. A los fines de este experimento, le recomendamos que consulte [planear la gobernanza en Teams](plan-teams-governance.md) y asegurarse de que se ha establecido una directiva de retención básica en los datos de los equipos de Microsoft 365 u Office 365. Es posible que tenga que coordinar este trabajo con su equipo técnico porque se necesitan derechos de administrador de Office 365 para completar este trabajo.
+En preparación para su amplia implementación, puede optar por usar etiquetas de seguridad para clasificar los tipos de equipos de su entorno. A los fines de este experimento, le recomendamos que consulte [planear la gobernanza en Teams](plan-teams-governance.md) y asegurarse de que se ha establecido una directiva de retención básica en los datos de los equipos de Microsoft 365 u Office 365. Es posible que tenga que coordinar este trabajo con su equipo técnico porque se necesitan los derechos de administrador de Microsoft 365 o de Office 365 para completar este trabajo.
 
 ### <a name="decision-7-length-of-your-experiment"></a>Decisión 7: duración del experimento
 
 Una implementación exitosa de Teams continúa en un ritmo saludable para asegurar el impulso, el foco y los aprendizajes apropiados. Recomendamos que esta fase de su proyecto tenga 60 días de duración para asegurarse de que sus primeros pioneros completen suficientes ciclos de negocios. El aumento de la experimentación es demasiado largo y aumenta el riesgo de un programa de cambio fallido. sin embargo, este tiempo variará para cada organización.  
 
-![Un icono que representa el siguiente](media/teams-adoption-next-icon.png) paso: [definir escenarios de uso](teams-adoption-define-usage-scenarios.md)
+![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) : [definir escenarios de uso](teams-adoption-define-usage-scenarios.md)

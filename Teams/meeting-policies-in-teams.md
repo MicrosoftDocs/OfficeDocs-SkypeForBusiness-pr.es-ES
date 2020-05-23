@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: 2b7579b9dfe1d70c0a570d6ca519491a263e9f09
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: 2f6a88276a2b5d3214b89555d0008e2b58cf1aa2
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278203"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349564"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -70,11 +70,17 @@ Luego asigne la directiva a los usuarios:
 
 ## <a name="assign-a-meeting-policy-to-users"></a>Asignar una directiva de reunión a los usuarios
 
+Para asignar una directiva de reunión a un usuario:
+
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
 2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
 3. En **Directiva de reunión**, seleccione la directiva que quiera asignar y haga clic en **Aplicar**.
 
-Para asignar una directiva a varios usuarios a la vez, vea [Modificar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
+Para asignar una directiva a varios usuarios a la vez:
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, busque los usuarios o filtre la vista para mostrar los usuarios que desea.
+2. En la columna **&#x2713;** (marca), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en el &#x2713; (marca de verificación) en la parte superior de la tabla.
+3. Haga clic en **Editar configuración**, realice los cambios que desee y, a continuación, haga clic en **aplicar**.  
 
 También puede hacer lo siguiente:
 
@@ -391,7 +397,7 @@ Esta es una directiva por usuario y se aplica durante una reunión. Esta configu
 
 |Valor de configuración |Comportamiento  |
 |---------|---------|
-|**Desactivado pero el organizador puede invalidarlo**     | Los subtítulos dinámicos no se activan automáticamente para el usuario durante una reunión. El usuario ve la opción **Activar títulos en vivo** en el menú de desbordamiento (**...**) para activarlo. Esta configuración es la predeterminada. |
+|**Desactivado pero el usuario puede invalidar**     | Los subtítulos dinámicos no se activan automáticamente para el usuario durante una reunión. El usuario ve la opción **Activar títulos en vivo** en el menú de desbordamiento (**...**) para activarlo. Esta configuración es la predeterminada. |
 |**Deshabilitado**     | Los subtítulos en vivo se deshabilitan para el usuario durante la reunión. El usuario no tiene la opción de activarlos.          |
 
 <a name="bkcontentsharing"> </a>
@@ -432,3 +438,4 @@ Para evitar que un organizador de la reunión Descargue el informe, establezca e
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Descripción de PowerShell para Teams](teams-powershell-overview.md)
+- [Asignar directivas a los usuarios de Teams](assign-policies.md)

@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5539d13811a5bc4a59ef5fa8767d229baf38dea
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 52c259098a1d31fdd601d1cce06ea1b685e774bf
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904355"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350134"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Darlo a conocer e implementar formación para Microsoft Teams
 
-El conocimiento y la formación son el segmento de marketing y de comunicaciones de su estrategia de adopción general. Esto asegurará que sus empleados conozcan las nuevas capacidades de Microsoft Teams y sus servicios y aplicaciones de Office 365 subyacentes.
+El conocimiento y la formación son el segmento de marketing y de comunicaciones de su estrategia de adopción general. Esto garantizará que sus empleados conozcan las nuevas capacidades de Microsoft Teams y sus servicios y aplicaciones de Microsoft 365 u Office 365.
    
 Tanto para las pruebas piloto iniciales como para su eventual implantación de toda la empresa, las comunicaciones internas deberían ser prioritarias. Deberían incluir:
 
@@ -49,13 +49,13 @@ Si su empresa tiene un portal de intranet central para noticias, información o 
 
 ## <a name="implement-end-user-training"></a>Implementar aprendizaje para usuarios finales
 
-Use nuestros recursos para proporcionar aprendizaje para el usuario final a medida que los usuarios empiezan a usar Microsoft Teams y otros servicios de Office 365. Para obtener más información, visita nuestras páginas de recursos:
+Use nuestros recursos para ofrecer aprendizaje para el usuario final a medida que los usuarios comienzan a usar Microsoft Teams y otros servicios de Microsoft 365 u Office 365. Para obtener más información, visita nuestras páginas de recursos:
 
 - [Formación para usuarios finales dirigida por un instructor para equipos](instructor-led-training-teams-landing-page.md)
 - [Aprendizaje del administrador para equipos](itadmin-readiness.md)
 - [Aprendizaje de vídeo para usuarios finales en línea](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Café en la nube aprendizaje en línea para campeones & profesionales de ti](https://aka.ms/CoffeeintheCloud) 
-- [Días en los hojas de referencia de formación de Office 365](https://aka.ms/O365AdoptionTools)
+- [Hojas de referencia de formación de los días de Microsoft 365 y Office 365](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>Medir y compartir el éxito
 
@@ -71,4 +71,4 @@ Comparte las ideas que obtienes de tus canales de comentarios con el hashtag #Te
 
 [Obtenga más información sobre los informes de uso de Microsoft Teams en el centro de administración de Microsoft 365.](teams-activity-reports.md)
 
-![Un icono que muestra los pasos](media/teams-adoption-next-icon.png) siguientes: [programar revisiones de estado del servicio](teams-adoption-schedule-service-health-reviews.md)
+![Un icono que muestra los pasos siguientes ](media/teams-adoption-next-icon.png) : [programar revisiones de estado del servicio](teams-adoption-schedule-service-health-reviews.md)
