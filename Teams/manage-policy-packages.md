@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar y administrar paquetes de directivas en Microsoft Teams para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
-ms.openlocfilehash: 6927e2efae60370c0622f38570fc961794734f35
-ms.sourcegitcommit: e0ed3b6478918c4737648e6c27eb01de0b622b0e
+ms.openlocfilehash: d9ad5c2308ead1fe5761755270f81f058bf0fa3c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44322291"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44353027"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Administrar paquetes de directivas en Microsoft Teams
 
@@ -47,8 +47,8 @@ Actualmente, Teams incluye los siguientes paquetes de directivas.
 |Educación (estudiante principal de la escuela)   |Crea un conjunto de directivas y opciones de directiva que se aplican a los alumnos principales.|
 |Educación (estudiante secundario de la escuela)    |Crea un conjunto de directivas y opciones de directiva que se aplican a los alumnos secundarios.         |
 |Educación (profesor)    |Crea un conjunto de directivas y configuraciones de directivas que se aplican a los profesores.      |
-|Educación (principal profesor principal con aprendizaje remoto) (vista previa)   |Crea un conjunto de directivas que se aplican a profesores principales para maximizar la seguridad y la colaboración de los alumnos al usar el aprendizaje remoto.      |
-|Educación (estudiante principal de la escuela con aprendizaje remoto) (vista previa)    |Crea un conjunto de directivas que se aplican a los alumnos principales para maximizar la seguridad y la colaboración de los alumnos al usar el aprendizaje remoto.      |
+|Educación (principal profesor principal con aprendizaje remoto)    |Crea un conjunto de directivas que se aplican a los profesores de primaria para maximizar la seguridad y colaboración de los alumnos al usar la formación remota.      |
+|Educación (estudiante principal de la escuela con aprendizaje remoto)    |Crea un conjunto de directivas que se aplican a los alumnos de primaria para maximizar la seguridad y colaboración de los alumnos al usar la formación remota.      |
 |Trabajador clínico de sanidad  |Crea un conjunto de directivas y configuraciones de directivas que proporcionan a los trabajadores clínicos como enfermeras registradas, enfermeras, médicos y trabajadores sociales acceso completo a chats, llamadas, administración de turnos y reuniones. |
 |Trabajador de información de asistencia sanitaria  |Crea un conjunto de directivas y opciones de directiva que ofrecen a trabajadores de la información como personal de ti, personal de informática, personal de finanzas y funcionarios de cumplimiento, acceso completo a chats, llamadas y reuniones.|
 |Sala de pacientes sanitarios  |Crea un conjunto de directivas y parámetros de directivas que se aplican a las salas de pacientes de su organización de salud.|
