@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc2a4495d95d0c6458fef16ea2f3f336dd337db4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e34bc0b15186afdbbe33edb154f02b4decdc3b12
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140681"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374308"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprender Microsoft Teams y la coexistencia e interoperabilidad de Skype empresarial
 
@@ -82,6 +82,8 @@ Este modo se puede usar antes de iniciar una implementación administrada de Tea
 Un usuario **solo de equipos** (también denominado usuario *actualizado* ) tiene acceso a todas las capacidades de Teams. Pueden retener el cliente de Skype empresarial para unirse a reuniones de Skype empresarial organizadas por usuarios externos o no actualizados. Un usuario actualizado puede seguir comunicándose con otros usuarios de la organización que siguen usando Skype empresarial con las funciones de interoperabilidad entre Teams y Skype empresarial (siempre que estos usuarios de Skype empresarial no estén en modo **islas** ). Sin embargo, un usuario actualizado no puede iniciar una conversación, una llamada o una reunión de Skype empresarial.
 
 Tan pronto como su organización esté lista para que algunos o todos los usuarios usen Teams como la única herramienta de comunicación y colaboración, puede actualizar esos usuarios al modo de **solo equipos** . Si está actualizando desde el modo **islas** , le recomendamos que primero saturara la adopción de Teams en toda la organización antes de comenzar el proceso de actualización. Esto evita la ruptura de los escenarios de comunicación debido a que el modo **islas** no proporciona interoperabilidad.
+
+Cuando se encuentra en el modo **solo de Teams** , Teams es la aplicación predeterminada para el protocolo SIP/Tel. Esto significa que los vínculos de la tarjeta de contacto de un usuario en Outlook para la llamada o la conversación serán gestionados por Teams.
 
 Para obtener más información sobre cómo cambiar al modo **solo de Teams** , vea [consideraciones del modo solo de Teams](teams-only-mode-considerations.md).
 
@@ -204,7 +206,7 @@ Una vez aceptada, se ponen en la reunión de Teams; deben empezar a compartir de
  
 Mientras tanto, el usuario de Skype empresarial recibe un mensaje de chat entrante con el vínculo a la reunión y se le guiará para unirse.
 
-Esta escalación a una reunión de Teams está disponible para la interoperabilidad en espacio empresarial y las llamadas y conversaciones federadas entre inquilinos. Está activada de forma predeterminada y no hay ninguna opción que el Administrador tenga que aprovisionar. Sin embargo, se desactiva para el usuario si el administrador establece ``-AllowPrivateMeetNow`` en. ``CsTeamsMeetingPolicy`` ``$false``
+Esta escalación a una reunión de Teams está disponible para la interoperabilidad en espacio empresarial y las llamadas y conversaciones federadas entre inquilinos. Está activada de forma predeterminada y no hay ninguna opción que el Administrador tenga que aprovisionar. Sin embargo, se desactiva para el usuario si el administrador establece ``-AllowPrivateMeetNow`` en ``CsTeamsMeetingPolicy`` ``$false`` .
 
 Después de revisar este artículo, vea [elegir las instrucciones para la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [migración e interoperabilidad](https://aka.ms/SkypeToTeams-Interop), así como la [coexistencia con Skype empresarial](coexistence-chat-calls-presence.md), y [configurar la coexistencia y la configuración de actualización para los](https://aka.ms/SkypeToTeams-SetCoexistence) detalles de implementación.
 

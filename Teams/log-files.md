@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Conozca los registros de depuración, medios y escritorio generados por Microsoft Teams, dónde se encuentran y cómo pueden ser útiles para resolver problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c8da7e60e785d765e77e17935b60382e864a83b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a9981a30eb0365f2919d86bd6bf694375e71e9eb
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833380"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374208"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar los archivos de registro para solucionar problemas en Microsoft Teams
 =================================================
@@ -88,9 +88,9 @@ Los registros de medios contienen datos de diagnóstico sobre el uso compartido 
 
 |Cliente |Ubicación |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\media-stack\\*. blog         |
-|            |%appdata%\Microsoft\Teams\skylib\\*. blog
-|            |%appdata%\Microsoft\Teams\media-stack\\*. ETL         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack \\ *. blog         |
+|            |%appdata%\Microsoft\Teams\skylib \\ *. blog
+|            |%appdata%\Microsoft\Teams\media-stack \\ *. ETL         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-Stack/*. blog         |
 |            |~/Library/Application Support/Microsoft/Teams/skylib/*. blog         |
 
@@ -103,7 +103,7 @@ Los registros de escritorio, también conocidos como registros de programa previ
 
 Windows:
 
-1.  Haga clic con el botón secundario en el **icono de Microsoft Teams** en la bandeja de la aplicación y seleccione **Obtener registros**.
+1.  Haga clic con el botón derecho en **el icono de Microsoft Teams de** la bandeja del sistema y seleccione **obtener registros** .
 
 Mac OsX:
 

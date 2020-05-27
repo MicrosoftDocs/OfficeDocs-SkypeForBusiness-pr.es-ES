@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: 2f6a88276a2b5d3214b89555d0008e2b58cf1aa2
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 87f790db77d2f98f66f53e399bf13f134a8e0a6e
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349564"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374318"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -70,7 +70,7 @@ Luego asigne la directiva a los usuarios:
 
 ## <a name="assign-a-meeting-policy-to-users"></a>Asignar una directiva de reunión a los usuarios
 
-Para asignar una directiva de reunión a un usuario:
+Para signar una directiva de reunión a un usuario:
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
 2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
@@ -78,9 +78,9 @@ Para asignar una directiva de reunión a un usuario:
 
 Para asignar una directiva a varios usuarios a la vez:
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, busque los usuarios o filtre la vista para mostrar los usuarios que desea.
-2. En la columna **&#x2713;** (marca), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en el &#x2713; (marca de verificación) en la parte superior de la tabla.
-3. Haga clic en **Editar configuración**, realice los cambios que desee y, a continuación, haga clic en **aplicar**.  
+1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Usuarios**, después, busque los usuarios o filtre la vista para mostrar los usuarios que desee.
+2. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en &#x2713; (marca de verificación) situado en la parte superior de la tabla.
+3. Haga clic en **Editar configuración**, haga los cambios que desee y, a continuación, haga clic en **Aplicar**.  
 
 También puede hacer lo siguiente:
 
@@ -333,60 +333,32 @@ Esta configuración controla los participantes de la reunión en la sala de espe
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permitir a personas anónimas iniciar una reunión
 
-Esta es una directiva por organizador. Esta configuración controla si los usuarios anónimos, como B2B, y los usuarios federados, pueden unirse a la reunión del usuario sin un usuario autenticado de la organización en la asistencia. El valor predeterminado es False.
+Se trata de una directiva por organizador que permite realizar reuniones de conferencia de acceso telefónico y no guía. Esta opción controla si los usuarios con acceso telefónico pueden unirse a la reunión sin un usuario autenticado de la organización en asistencia. El valor predeterminado es falso, lo que significa que los usuarios marcados esperarán en la sala de espera hasta que un usuario autenticado de la organización se una a la reunión. 
 
-![Captura de pantalla que muestra un mensaje a un usuario en espera](media/meeting-policies-anonymous-user-lobby.png)
+**Nota:** Si es falso y un usuario con marcado se une a la reunión en primer lugar y se coloca en la sala de recepción, el usuario de la organización debe unirse a la reunión con un cliente de Teams para admitir al usuario de la lobbby. No hay ningún control de sala de recepción disponible para los usuarios marcados. 
 
-Este es el comportamiento de combinación de personas anónimas cuando hay usuarios autenticados en la reunión.
-
-|Permitir a personas anónimas iniciar una reunión  |Admitir automáticamente personas |Unirse al comportamiento de personas anónimas |
-|---------|---------|---------|
-|Verdadero    | Todos      | Unirse directamente         |
-|   | Todas las personas de su organización       | Esperar en la sala de espera        |
-|   | Todas las personas de la organización y las organizaciones federadas       | Esperar en la sala de espera         |
-|Falso    | Todos        | Unirse directamente        |
-|   | Todas las personas de su organización     | Esperar en la sala de espera        |
-|   | Todas las personas de la organización y las organizaciones federadas      | Esperar en la sala de espera         |
-
-Este es el comportamiento de unirse a personas anónimas cuando no hay usuarios autenticados en la reunión.
-
-|Permitir a personas anónimas iniciar una reunión |Admitir automáticamente personas  |Unirse al comportamiento de personas anónimas |
-|---------|---------|---------|
-|Verdadero    | Todos      | Unirse directamente         |
-|   | Todas las personas de su organización       | Esperar en la sala de espera        |
-|   | Todas las personas de la organización y las organizaciones federadas       | Esperar en la sala de espera         |
-|Falso    | Todos        | Espere en la sala. Los usuarios se admiten automáticamente cuando el primer usuario autenticado se une a la reunión.        |
-|   | Todas las personas de su organización     |Esperar en la sala de espera         |
-|   | Todas las personas de la organización y las organizaciones federadas      | Esperar en la sala de espera         |
 
 ### <a name="automatically-admit-people"></a>Admitir automáticamente personas
 
-Esta es una directiva por organizador. Esta opción controla si los usuarios pueden unirse a una reunión directamente o aguardar en la sala de espera hasta que un usuario autenticado las admita.
+Esta es una directiva por organizador. Esta opción controla si los usuarios pueden unirse a una reunión directamente o aguardar en la sala de espera hasta que un usuario autenticado las admita. Esta configuración no se aplica a los usuarios de acceso telefónico. 
 
 ![Captura de pantalla que muestra una reunión con un usuario en la sala de recepción](media/meeting-policies-lobby.png)
 
  Los organizadores de reuniones pueden hacer clic en **Opciones de reunión** en la invitación a la reunión para cambiar esta configuración para cada reunión que programe.
+ 
+ **Nota:** En las opciones de la reunión, la configuración se etiqueta como "quién puede omitir la sala de recepción"
   
 |Valor de configuración  |Comportamiento de combinación |
 |---------|---------|
-|**Todos**   |Todos los participantes de la reunión se unen directamente desde la sala de espera. Esto incluye usuarios autenticados, usuarios federados, invitados, usuarios anónimos y personas que llaman por teléfono.       |
-|**Todas las personas de la organización y las organizaciones federadas**     |Los usuarios autenticados dentro de la organización, incluidos los usuarios invitados y los usuarios de organizaciones federadas, se unen a la reunión directamente, sin tener que esperar en la sala de espera.  Los usuarios anónimos y los usuarios que han marcado por teléfono esperan en la sala de espera.   |
-|**Todas las personas de su organización**    |Los usuarios autenticados de la organización, incluidos los invitados, se unen a la reunión directamente, sin tener que esperar en la sala de espera.  Los usuarios federados, los usuarios anónimos y los usuarios que marcan por teléfono esperan en la sala de espera. Esta configuración es la predeterminada.           |
+|**Todos**   |Todos los participantes de la reunión se unen directamente desde la sala de espera. Esto incluye usuarios autenticados, usuarios externos de organizaciones de confianza (federados), invitados y usuarios anónimos.     |
+|**Todas las personas de la organización y las organizaciones federadas**     |Usuarios autenticados dentro de la organización, incluidos los usuarios invitados y los usuarios de organizaciones de confianza, únase a la reunión directamente sin tener que esperar en la sala de espera.  Los usuarios anónimos esperan en la sala de espera.   |
+|**Todas las personas de su organización**    |Los usuarios autenticados de la organización, incluidos los invitados, se unen a la reunión directamente, sin tener que esperar en la sala de espera.  Los usuarios de organizaciones de confianza y usuarios anónimos esperan en la sala de espera. Esta configuración es la predeterminada.           |
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que los usuarios de acceso telefónico omitan la sala de recepción
 
-Esta es una directiva por organizador. Esta opción controla si las personas que marcan por teléfono se unen a la reunión directamente o esperan en la sala independientemente de la configuración **admitir automáticamente** a los usuarios. El valor predeterminado es False.
+Esta es una directiva por organizador. Esta opción controla si las personas que marcan por teléfono se unen a la reunión directamente o esperan en la sala independientemente de la configuración **admitir automáticamente** a los usuarios. El valor predeterminado es False. Si es falso, los usuarios con acceso telefónico esperarán en la sala de espera hasta que un usuario de la organización se una a la reunión con un cliente de Teams y los retenga. Cuando el valor es true, los usuarios con marcado se unen automáticamente a la reunión cuando un usuario de la organización se une a la reunión. 
 
-Este es el comportamiento de la Unión de las personas que llaman por teléfono.
-
-|Permitir que los usuarios de acceso telefónico omitan la sala de recepción  |Admitir automáticamente personas  |Unirse al comportamiento de las personas que llaman |
-|---------|---------|---------|
-|Verdadero    | Todos      | Unirse directamente         |
-|   | Todas las personas de su organización       | Unirse directamente        |
-|   | Todas las personas de la organización y las organizaciones federadas       | Unirse directamente         |
-|Falso    | Todos        | Unirse directamente        |
-|   | Todas las personas de su organización     |Esperar en la sala de espera         |
-|   | Todas las personas de la organización y las organizaciones federadas      | Esperar en la sala de espera         |
+**Nota:** Si un usuario se une a una reunión antes de que un usuario de la organización se una a la reunión, se colocará en la sala de espera hasta que un usuario de la organización se una a la reunión con un cliente de Teams y se pueda tener acceso a ella. 
 
 
 ### <a name="enable-live-captions"></a>Habilitar títulos en vivo
