@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Ver qué dispositivos y periféricos USB, como, por ejemplo, auriculares con micrófono, teléfonos, cámaras Web y monitores, están certificados para Microsoft Teams.
-ms.openlocfilehash: 8ecb8fcd065cb43c37fa4c55cc5b7106218d6eca
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 25099435d4a62d404571c87a42b29698a64b75f8
+ms.sourcegitcommit: 26a6802fb7bfc865771fc476916957524c280d83
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281791"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407412"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
@@ -74,10 +74,16 @@ Si es un fabricante y desea participar en el programa de certificación, consult
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Actualizado en abril de 2020*
+*Tabla actualizada el 2020 de mayo*
 
 | Fabricante    | No                   | Autorizado  | Programa certificado                                  |
 |:----------------|:------------------------|:-----------|:---------------------------------------------------|
+|Jabra             |Habla 750 de teléfono con altavoz de Jabra 370 llave USB|5/21/2020 | Certified for Microsoft Teams  | 
+|EPOS              | Sennheiser adapte auriculares con micrófono de 660 |5/15/2020 |Certified for Microsoft Teams  | 
+|EPOS              | Sennheiser adapte auriculares con micrófono de 560|5/15/2020 |Certified for Microsoft Teams  | 
+|EPOS              | Sennheiser adapte 460T auriculares con micrófono |5/15/2020 |Certified for Microsoft Teams  | 
+|EPOS              | Sennheiser adapte auriculares con micrófono de 360| 5/15/2020 |Certified for Microsoft Teams  | 
+|Yealink           |Auriculares con micrófono UH36 | 5/13/2020 |Certified for Microsoft Teams  | 
 | Poli            | Savi 8210 Office        | 4/20/2020  | Skype empresarial con la actualización a Microsoft Teams |
 | Poli            | Savi 8210 UC            | 4/20/2020  | Skype empresarial con la actualización a Microsoft Teams |
 | Poli            | Savi 8220 Office        | 4/20/2020  | Skype empresarial con la actualización a Microsoft Teams |
