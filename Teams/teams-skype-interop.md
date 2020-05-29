@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Obtenga más información sobre las capacidades de interoperabilidad entre los usuarios de los equipos de su organización y los usuarios de Skype (consumidor).
 localization_priority: Normal
-ms.openlocfilehash: ca67cd1f96b2a0e8bc9b65e60ccf71fdea53763a
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 00bd5c079a062875ebf5569600803e1c366429fe
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749557"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410435"
 ---
 # <a name="teams-and-skype-interoperability"></a>Interoperabilidad entre equipos y Skype
 
@@ -68,17 +68,17 @@ Los usuarios de Skype bloqueados, junto con otras personas y números de teléfo
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>Establecer si los usuarios de Teams pueden comunicarse con usuarios de Skype
 
-Como administrador, use el centro de administración de Microsoft Teams o PowerShell para establecer la configuración de acceso externo para controlar si los usuarios de Teams de su organización pueden comunicarse con los usuarios de Skype. De forma predeterminada, esta capacidad está desactivada para los nuevos inquilinos.
+Como administrador, use el centro de administración de Microsoft Teams o PowerShell para establecer la configuración de acceso externo para controlar si los usuarios de Teams de su organización pueden comunicarse con los usuarios de Skype. De forma predeterminada, esta capacidad está activada para los inquilinos nuevos.
 
 Si ha actualizado de Skype empresarial a Teams, la configuración de comunicaciones externas que configuró en el centro de administración de Skype empresarial se migrará a teams.
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>En el centro de administración de Microsoft Teams
 
-En el centro de administración de Microsoft Teams, vaya a **configuración** > de**acceso externo**a toda la organización y Active **los usuarios pueden comunicarse con los usuarios de Skype**. Para obtener instrucciones paso a paso sobre cómo configurar esta y otras opciones de acceso externo, consulte [administrar el acceso externo en Teams](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains).
+En el centro de administración de Microsoft Teams, vaya a configuración de acceso externo a **toda la organización**  >  **External access**y Active **los usuarios pueden comunicarse con los usuarios de Skype**. Para obtener instrucciones paso a paso sobre cómo configurar esta y otras opciones de acceso externo, consulte [administrar el acceso externo en Teams](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains).
 
 ### <a name="using-powershell"></a>Con PowerShell
 
-Use el cmdlet [set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) junto con el ```EnablePublicCloudAccess``` parámetro para controlar si los usuarios de Teams pueden comunicarse con los usuarios de Skype. Establecer el parámetro para ```true``` permitir que los usuarios de Teams se comuniquen con usuarios de Skype. Ten en cuenta ```EnablePublicCloudAudioVideoAccess``` que el parámetro puede usarse para habilitar o deshabilitar las llamadas de audio y vídeo.
+Use el cmdlet [set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) junto con el ```EnablePublicCloudAccess``` parámetro para controlar si los usuarios de Teams pueden comunicarse con los usuarios de Skype. Establecer el parámetro para ```true``` permitir que los usuarios de Teams se comuniquen con usuarios de Skype. Ten en cuenta que el ```EnablePublicCloudAudioVideoAccess``` parámetro puede usarse para habilitar o deshabilitar las llamadas de audio y vídeo.
 
 ## <a name="related-topics"></a>Temas relacionados
 

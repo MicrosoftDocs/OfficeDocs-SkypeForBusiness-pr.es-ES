@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y de escritorio están certificados para Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: ceb1a1a0a6668b09c51713bac539b0916aaab838
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 37fd96db69b456ac5659cc430da19d2aad6fa560
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281782"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412637"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Teléfonos IP certificados para Microsoft Teams
 
@@ -65,9 +65,9 @@ Los siguientes teléfonos están certificados para Microsoft Teams:
 
 Las siguientes barras de colaboración están certificadas para Microsoft Teams:
 
-|Modelo de barra de colaboración|Versión de firmware|Fecha de lanzamiento |
-|:---|:---|:---|
-|Yealink VC210| 118.15.0.14|2020 de febrero|
+|Modelo de barra de colaboración|Versión de firmware|Fecha de lanzamiento |Tamaño de la sala (hasta)|
+|:---|:---|:---|:---|
+|Yealink VC210| 118.15.0.14|2020 de febrero|Sala de enfoque (3m x 3m) </br> Sala de reuniones pequeña (4,5 m x 4,5 m)|
 
 Para obtener información sobre las características compatibles con estos dispositivos, vea [conjunto de características de Microsoft Teams Phone](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) .
 

@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar la asignación de directivas por lotes para asignar directivas a grandes conjuntos de usuarios de su centro educativo en masa para fines escolares (teleschool, tele-School).
 f1keywords: ''
-ms.openlocfilehash: bb851981f9923869d39c690dff6d22e446e0e844
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: 5772a260642b09232e4df5eec57751a39ec2a74a
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033364"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410445"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Asignar directivas a grandes conjuntos de usuarios de la escuela
 
@@ -108,10 +108,8 @@ $faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuI
 
 ## <a name="assign-a-policy-in-bulk"></a>Asignar una directiva en masa
 
-Ahora, asignamos las directivas apropiadas a usuarios de forma masiva. La cantidad máxima de usuarios para los que puede asignar o actualizar directivas es 20.000 a la vez. Por ejemplo, si tiene más de 20.000 de personal y educadores, tendrá que enviar varios lotes.
+Ahora, asignamos las directivas apropiadas a usuarios de forma masiva. La cantidad máxima de usuarios para los que puede asignar o actualizar directivas es 5.000 a la vez. Por ejemplo, si tiene más de 5.000 de personal y educadores, tendrá que enviar varios lotes.
 
-> [!IMPORTANT]
-> Actualmente recomendamos que asigne directivas en lotes de usuarios de 5.000 a la vez. Durante estas horas de demanda aumentada, puede experimentar retrasos en los tiempos de procesamiento. Para minimizar el impacto de estos aumentos en los tiempos de procesamiento, le sugerimos que envíe tamaños de lotes más pequeños de hasta 5.000 usuarios y que envíe cada lote solo después de que se haya completado el anterior. El envío de lotes fuera del horario laboral normal también puede ayudar.
 
 Ejecute lo siguiente para asignar la Directiva de reunión denominada EducatorMeetingPolicy a su personal y educadores.
 
@@ -130,13 +128,13 @@ Cada asignación en masa devuelve un identificador de operación, que puede usar
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | fl
 ```
 
-Para ver el estado de asignación de cada usuario en la operación por lotes, ejecute lo siguiente. Los detalles de cada usuario están en ```UserState``` la propiedad.
+Para ver el estado de asignación de cada usuario en la operación por lotes, ejecute lo siguiente. Los detalles de cada usuario están en la ```UserState``` propiedad.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | Select -ExpandProperty UserState
 ```
 
-## <a name="assign-a-policy-in-bulk-if-you-have-more-than-20000-users"></a>Asignar una directiva de forma masiva si tiene más de 20.000 usuarios
+## <a name="assign-a-policy-in-bulk-if-you-have-more-than-5000-users"></a>Asignar una directiva de forma masiva si tiene más de 5.000 usuarios
 
 En primer lugar, ejecute lo siguiente para ver cuánto personal y educadores tiene:
 
@@ -144,13 +142,13 @@ En primer lugar, ejecute lo siguiente para ver cuánto personal y educadores tie
 $faculty.count
 ```
 
-En lugar de proporcionar la lista completa de identificadores de usuario, ejecute lo siguiente para especificar el primer 20.000, después, el siguiente 20.000, etc.
+En lugar de proporcionar la lista completa de identificadores de usuario, ejecute lo siguiente para especificar el primer 5.000, después, el siguiente 5.000, etc.
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
-Puede cambiar el intervalo de identificadores de usuario hasta que llegue a la lista completa de usuarios. Por ejemplo, escriba ```$faculty[0..19999``` para el primer lote, use ```$faculty[20000..39999``` para el segundo lote, especifique ```$faculty[40000..59999``` el tercer lote, y así sucesivamente.
+Puede cambiar el intervalo de identificadores de usuario hasta que llegue a la lista completa de usuarios. Por ejemplo, escriba ```$faculty[0..4999``` para el primer lote, use ```$faculty[5000..9999``` para el segundo lote, especifique ```$faculty[10000..14999``` el tercer lote, y así sucesivamente.
 
 ## <a name="get-the-policies-assigned-to-a-user"></a>Obtener las directivas asignadas a un usuario
 

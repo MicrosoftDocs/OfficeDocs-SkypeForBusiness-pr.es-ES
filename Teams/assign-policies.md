@@ -18,12 +18,12 @@ description: Obtenga información sobre las diferentes formas de asignar directi
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: aa63a0cc7ce24390228cc9d87adf054348c6522d
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: ae007641734b71a34d9021283704d6b210626a28
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350044"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410465"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Asignar directivas a los usuarios de Microsoft Teams
 
@@ -128,19 +128,18 @@ Para asignar una directiva a usuarios en bloque:
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, seleccione **usuarios**.
 2. Busque los usuarios a los que desea asignar la Directiva o filtre la vista para mostrar los usuarios que desea.
-3. En la columna **&#x2713;** (marca), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en el &#x2713; (marca de verificación) en la parte superior de la tabla.
-4. Haga clic en **Editar configuración**, realice los cambios que desee y, a continuación, haga clic en **aplicar**.
+3. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en &#x2713; (marca de verificación) situado en la parte superior de la tabla.
+4. Haga clic en **Editar configuración**, haga los cambios que desee y, a continuación, haga clic en **Aplicar**.
 
 Para ver el estado de la asignación de Directiva, en la pancarta que aparece en la parte superior de la página **usuarios** después de hacer clic en **aplicar** para enviar la asignación de Directiva, haga clic en **registro de actividades**. O bien, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Panel**y, a continuación, en **registro de actividades**, haga clic en **Ver detalles**. En el registro de actividades se muestran asignaciones de directivas de los lotes de más de 20 usuarios a través del centro de administración de Microsoft Teams desde los últimos 30 días. Para obtener más información, vea [ver las asignaciones de directivas en el registro de actividades](activity-log.md).
 
 ### <a name="using-powershell"></a>Con PowerShell
  
-Con la asignación de directivas por lotes, puede asignar una directiva a grandes conjuntos de usuarios a la vez sin tener que usar un script. Use el ```New-CsBatchPolicyAssignmentOperationd``` cmdlet para enviar un lote de usuarios y la Directiva que desea asignar. Las asignaciones se procesan como una operación en segundo plano y se genera un identificador de operación para cada lote. Después, puede usar el ```Get-CsBatchPolicyAssignmentOperation``` cmdlet para realizar un seguimiento del progreso y el estado de las asignaciones de un lote.
+Con la asignación de directivas por lotes, puede asignar una directiva a grandes conjuntos de usuarios a la vez sin tener que usar un script. Use el ```New-CsBatchPolicyAssignmentOperationd``` cmdlet para enviar un lote de usuarios y la Directiva que desea asignar. Las asignaciones se procesan como una operación en segundo plano y se genera un identificador de operación para cada lote. Después, puede usar el ```Get-CsBatchPolicyAssignmentOperation``` cmdlet para realizar un seguimiento del progreso y el estado de las asignaciones de un lote. 
 
-Un lote puede contener hasta 20.000 usuarios. Puede especificar los usuarios por el identificador de objeto, el nombre principal de usuario (UPN), la dirección del Protocolo de inicio de sesión (SIP) o la dirección de correo electrónico.
+Puede especificar los usuarios por el identificador de objeto, el nombre principal de usuario (UPN), la dirección del Protocolo de inicio de sesión (SIP) o la dirección de correo electrónico. Si un lote incluye usuarios duplicados, los duplicados se eliminarán del lote antes de su procesamiento y su estado solo se proporcionará para los usuarios únicos que quedan en el lote. 
 
-> [!IMPORTANT]
-> Actualmente recomendamos que asigne directivas en lotes de usuarios de 5.000 a la vez. Durante estas horas de demanda aumentada, puede experimentar retrasos en los tiempos de procesamiento. Para minimizar el impacto de estos aumentos en los tiempos de procesamiento, le sugerimos que envíe tamaños de lotes más pequeños de hasta 5.000 usuarios y que envíe cada lote solo después de que se haya completado el anterior. El envío de lotes fuera del horario laboral normal también puede ayudar.
+Un lote puede contener hasta 5.000 usuarios. Para obtener los mejores resultados, no envíes más de unos pocos lotes a la vez. Permita que los lotes terminen de procesarse antes de enviar más lotes.
 
 > [!NOTE]
 > Actualmente, la asignación de directivas por lotes no está disponible para todos los tipos de directivas de Teams. Vea [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) para obtener la lista de tipos de directiva admitidos.

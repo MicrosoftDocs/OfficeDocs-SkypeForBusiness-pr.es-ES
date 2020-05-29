@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69f2ee37e63f83d6fc1d19ea733ff44ad23e7011
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 4daf270dcd67dc732bba5e5fe134d5a0994dcd75
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158997"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412647"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar enrutamiento basado en la ubicación para el enrutamiento directo
 
@@ -36,7 +36,7 @@ En este artículo se describe cómo habilitar el enrutamiento basado en la ubica
 - Usuarios
 - Sitios de red
 - Configuraciones de puerta de enlace
-- Directivas de llamadas
+- Directivas de llamada
 
 Puede usar el [centro de administración de Microsoft Team](#using-the-microsoft-teams-admin-center) o [PowerShel](#using-powershell)l para habilitar el enrutamiento basado en la ubicación.
 
@@ -54,7 +54,7 @@ Para obtener más información sobre cómo crear directivas de enrutamiento de v
 
 ### <a name="enable-location-based-routing-for-network-sites"></a>Habilitar el enrutamiento basado en la ubicación de los sitios de red
 
-Habilite el enrutamiento basado en la ubicación para los sitios que necesitan exigir restricciones de enrutamiento. Para ello, en el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones** > **de red**, seleccione un sitio de red, haga clic en **Editar**y, a continuación, active el **enrutamiento basado**en la ubicación.  
+Habilite el enrutamiento basado en la ubicación para los sitios que necesitan exigir restricciones de enrutamiento. Para ello, en el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones**de  >  **red**, seleccione un sitio de red, haga clic en **Editar**y, a continuación, active el **enrutamiento basado**en la ubicación.  
 
 Para obtener más información, consulte [administrar la topología de red](manage-your-network-topology.md).
 
@@ -62,7 +62,7 @@ Para obtener más información, consulte [administrar la topología de red](mana
 
 Habilite el enrutamiento basado en la ubicación a las puertas de enlace que enruten las llamadas a puertas de enlace RTC que enruten las llamadas a la RTC y asocie el sitio de red donde se encuentra la puerta de enlace. 
 
-1. En el navegación de la izquierda, vaya a enrutamiento de **voz** > **directo**y, a continuación, haga clic en la pestaña **SBCS** .
+1. En el navegación de la izquierda, vaya a enrutamiento de **voz**  >  **directo**y, a continuación, haga clic en la pestaña **SBCS** .
 2. Seleccione el SBC y, a continuación, haga clic en **Editar**. 
 3. En la **optimización de enrutamiento y multimedia basado**en la ubicación, Active **Habilitar enrutamiento basado en la ubicación**.
 4. Especifique el identificador del sitio de la puerta de enlace y, a continuación, establezca el modo de omisión.
@@ -176,17 +176,6 @@ Para obtener más información, consulte [directivas de llamadas en Teams](teams
     Identity: sbc2.contoso.com 
     GatewaySiteLbrEnabled: $false 
     ```
-
-    Los puntos de conexión conectados a los sistemas que no enruten las llamadas a la RTC (por ejemplo, una PBX) tendrán restricciones similares a las de los usuarios de Teams habilitados para el enrutamiento basado en la ubicación. Esto significa que estos usuarios pueden realizar y recibir llamadas a usuarios de Teams y desde ellos, independientemente de la ubicación del usuario. También pueden realizar y recibir llamadas a y desde otros sistemas que no enruten las llamadas a la red PSTN (por ejemplo, un extremo conectado a otro sistema PBX), independientemente del sitio de red al que esté asociado el sistema. Todas las llamadas entrantes, las llamadas salientes, las transferencias de llamadas y el desvío de llamadas que implican puntos de conexión RTC estarán sujetas a las fuerzas de enrutamiento basadas en la ubicación. Estas llamadas deben usar solo puertas de enlace RTC que estén definidas como locales para esos sistemas. 
-
-    En la tabla siguiente se muestra la configuración de puerta de enlace de cuatro puertas de enlace en dos sitios de red diferentes: dos conectadas a puertas de enlace RTC y dos conectadas a sistemas PBX. 
-
-    ||GatewaySiteLbrEnabled   |NetworkSiteID  |
-    |---------|---------|---------|
-    |PstnGateway: puerta de enlace 1 DEL-GW    |    Verdadero     |   Sitio 1 (Delhi)      |
-    |PstnGateway: puerta de enlace 2 HYD-GW     |   Verdadero      |      Sitio 2 (Hyderabad)   |
-    |PstnGateway: puerta de enlace 3 DEL-PBX    |    Falso     |     Sitio 1 (Delhi)    |
-    |PstnGateway: puerta de enlace 4 HYD-PBX    |    Falso     |    Sitio 2 (Hyderabad)     |
 
 ### <a name="enable-location-based-routing-for-calling-policies"></a>Habilitar el enrutamiento basado en la ubicación para las directivas de llamadas
 

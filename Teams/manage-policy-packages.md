@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar y administrar paquetes de directivas en Microsoft Teams para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
-ms.openlocfilehash: d9ad5c2308ead1fe5761755270f81f058bf0fa3c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 62151d9356e414f0f527e597492be685c0067fd0
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44353027"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44412529"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Administrar paquetes de directivas en Microsoft Teams
 
@@ -106,10 +106,7 @@ Estos son los pasos para ver, asignar y personalizar paquetes de directivas en e
 
 Use la asignación de paquetes de directivas por lotes para asignar un paquete de directivas a grandes conjuntos de usuarios a la vez. Use el cmdlet [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar un lote de usuarios y el paquete de directivas que desea asignar. Las asignaciones se procesan como una operación en segundo plano y se genera un identificador de operación para cada lote.
 
-Un lote puede contener hasta 20.000 usuarios. Puede especificar los usuarios por su identificador de objeto, UPN, dirección SIP o dirección de correo electrónico. Para obtener más información, consulte [asignar un paquete de directivas a un lote de usuarios](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
-
-> [!IMPORTANT]
-> Actualmente recomendamos que asigne directivas en lotes de usuarios de 5.000 a la vez. Durante estas horas de demanda aumentada, puede experimentar retrasos en los tiempos de procesamiento. Para minimizar el impacto de estos aumentos en los tiempos de procesamiento, le sugerimos que envíe tamaños de lotes más pequeños de hasta 5.000 usuarios y que envíe cada lote solo después de que se haya completado el anterior. El envío de lotes fuera del horario laboral normal también puede ayudar.
+Un lote puede contener hasta 5.000 usuarios. Puede especificar los usuarios por su identificador de objeto, UPN, dirección SIP o dirección de correo electrónico. Para obtener más información, consulte [asignar un paquete de directivas a un lote de usuarios](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 
 ### <a name="customize-policies-in-a-policy-package"></a>Personalizar directivas en un paquete de directivas
 
