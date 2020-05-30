@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: 87f790db77d2f98f66f53e399bf13f134a8e0a6e
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: efe9e50ae7f3365917ea31ef722a47c1f1fe95ec
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374318"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416880"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -335,7 +335,7 @@ Esta configuración controla los participantes de la reunión en la sala de espe
 
 Se trata de una directiva por organizador que permite realizar reuniones de conferencia de acceso telefónico y no guía. Esta opción controla si los usuarios con acceso telefónico pueden unirse a la reunión sin un usuario autenticado de la organización en asistencia. El valor predeterminado es falso, lo que significa que los usuarios marcados esperarán en la sala de espera hasta que un usuario autenticado de la organización se una a la reunión. 
 
-**Nota:** Si es falso y un usuario con marcado se une a la reunión en primer lugar y se coloca en la sala de recepción, el usuario de la organización debe unirse a la reunión con un cliente de Teams para admitir al usuario de la lobbby. No hay ningún control de sala de recepción disponible para los usuarios marcados. 
+**Nota:** Si es falso y un usuario con marcado se une a la reunión en primer lugar y se coloca en la sala de recepción, el usuario de la organización debe unirse a la reunión con un cliente de Teams para admitir al usuario de la sala de recepción. No hay ningún control de sala de recepción disponible para los usuarios marcados. 
 
 
 ### <a name="automatically-admit-people"></a>Admitir automáticamente personas
@@ -346,7 +346,7 @@ Esta es una directiva por organizador. Esta opción controla si los usuarios pue
 
  Los organizadores de reuniones pueden hacer clic en **Opciones de reunión** en la invitación a la reunión para cambiar esta configuración para cada reunión que programe.
  
- **Nota:** En las opciones de la reunión, la configuración se etiqueta como "quién puede omitir la sala de recepción"
+ **Nota:** En las opciones de la reunión, la configuración se denomina "quién puede omitir la sala de recepción"
   
 |Valor de configuración  |Comportamiento de combinación |
 |---------|---------|
@@ -406,6 +406,23 @@ Actualmente, solo puede usar PowerShell para establecer esta configuración de d
 Para habilitar el organizador de la reunión para que descargue el informe de asistencia a reuniones, establezca el parámetro **AllowEngagementReport** en **habilitado**. Cuando se habilita, la opción para descargar el informe se muestra en el panel **participantes** .
 
 Para evitar que un organizador de la reunión Descargue el informe, establezca el parámetro en **deshabilitado**. Esta opción está deshabilitada de forma predeterminada y la opción para descargar el informe no está disponible.
+
+## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>Configuración de la Directiva de reunión-proveedor de la reunión para el modo islas
+
+**(próximamente)**
+
+Esta es una directiva por usuario. Esta opción controla qué complemento de la reunión de Outlook se usa para *los usuarios que están en modo islas*. Puede especificar si los usuarios solo pueden usar el complemento de reuniones de equipos o bien la reunión de Teams y los complementos de reuniones de Skype empresarial para programar reuniones en Outlook.
+
+Solo puede aplicar esta directiva a usuarios que están en modo islas y tener el parámetro **AllowOutlookAddIn** establecido en **true** en la Directiva de reuniones de Teams.
+
+Actualmente, solo puede usar PowerShell para establecer esta Directiva. Puede editar una directiva de reunión existente de Teams mediante el cmdlet [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . O bien, cree una nueva Directiva de reunión de Teams mediante el cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) y asígnela a los usuarios.
+
+Para especificar qué complemento de la reunión quiere que esté disponible para los usuarios, establezca el parámetro **PreferredMeetingProviderForIslandsMode** de la siguiente manera:
+
+- Establezca el parámetro en **TeamsAndSfB** para habilitar tanto el complemento de reuniones de equipos como el complemento de Skype empresarial en Outlook. Este es el valor predeterminado.
+- Establezca el parámetro en **TeamsOnly** para habilitar solo el complemento de reunión de Teams en Outlook. Esta configuración de Directiva garantiza que todas las reuniones futuras tengan un vínculo para unirse a una reunión de equipos. No migra los vínculos de unirse a reuniones de Skype empresarial existentes a teams. Esta configuración de Directiva no afecta a la presencia, la conversación, las llamadas RTC o a cualquier otra funcionalidad de Skype empresarial, lo que significa que los usuarios continuarán usando Skype empresarial para estas capacidades.
+
+  Si establece el parámetro en **TeamsOnly**y, a continuación, vuelve a **TeamsAndSfB**, se habilitarán ambos complementos de la reunión. Sin embargo, ten en cuenta que los equipos existentes de los vínculos de unirse a la reunión no se migrarán a Skype empresarial. Solo las reuniones de Skype empresarial programadas después del cambio tendrán un vínculo para unirse a una reunión de Skype empresarial.
 
 ## <a name="related-topics"></a>Temas relacionados
 

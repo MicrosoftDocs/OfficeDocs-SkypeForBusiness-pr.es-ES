@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: En este artículo, obtendrá información sobre las actividades de la fase de inicio de la adopción de Microsoft Teams.
+description: En este artículo, obtendrá información sobre las actividades de la fase de inicio de la adopción de Microsoft Teams. Comprender los procedimientos recomendados para la configuración de Microsoft Teams y la planificación de equipo.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 620e6ebdcfe244dc937ab96bc4e14c67cda0b11c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 2c9f8e7ca96ea239caa05452ce821e4c66319091
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349714"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416860"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Fase 1 de la adopción de Microsoft Teams: Inicio
 

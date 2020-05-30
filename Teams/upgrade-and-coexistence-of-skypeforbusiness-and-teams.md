@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 597dfa4b2184272c96843cca1ed7c7b79e4d3667
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a6a1e54d677436b2441e9174cc265eb67b7664d2
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902275"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416750"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Elegir la vía de actualización de Skype Empresarial a Teams
 
@@ -104,7 +104,7 @@ En la tabla siguiente se resume la experiencia de Teams para los modos Islas y T
 | Chats y llamadas entrantes recibidos en:|  Teams o Skype Empresarial | Teams |
 | Llamadas RTC recibidas en: | Skype Empresarial <br>(El uso de la función RTC en equipos no es compatible con el modo Islas).     | Teams |   
  |Presencia    | La presencia en Skype Empresarial y en Teams es independiente. Los usuarios pueden ver diferentes estados para el mismo usuario en modo Islas en función del cliente que utilicen. | La presencia se basa únicamente en la actividad del usuario en Teams. El resto de usuarios, independientemente del cliente que usen, verán esta presencia. | 
- | Programación de reuniones    | Los usuarios pueden programar reuniones en Teams o en Skype Empresarial. Se mostrarán ambos complementos en Outlook.    |     Los usuarios solo pueden programar reuniones en Teams. En Outlook, solo está disponible el complemento Teams. | 
+ | Programación de reuniones    | Los usuarios pueden programar reuniones en Teams o en Skype Empresarial. De forma predeterminada, verán ambos complementos en Outlook. Puede establecer una directiva de reunión de Teams para controlar si los usuarios solo pueden usar el complemento de reunión de equipos o tanto la reunión de los equipos como los complementos de reuniones de Skype**empresarial (** próximamente). Para obtener más información, vea [establecer el proveedor de la reunión para los usuarios en modo islas](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode). |     Los usuarios solo pueden programar reuniones en Teams. En Outlook, solo está disponible el complemento Teams. | 
 
 En la tabla siguiente se resumen las ventajas e inconvenientes de usar el método de funciones superpuestas para migrar su organización a Teams.
 
@@ -145,10 +145,10 @@ Como alternativa, el administrador de puede mover primero la programación de re
 
 |Experiencia de Teams  |En el modo SfBWithTeamsCollab |En el modo SfBWithTeamsCollabAndMeetings |En modo TeamsOnly  |
 |---------|---------|---------|---------|
-|Chats y llamadas VoIP entrantes procedentes de los usuarios de su organización recibidos en:     | Skype Empresarial        | Skype Empresarial       | Teams        |
-|Llamadas RTC recibidas en:     | Skype Empresarial        |Skype Empresarial         | Teams        |
-|Presencia     | Skype Empresarial        |Skype Empresarial         | Teams        |
-|Programación de reuniones     | Skype Empresarial         | Teams        | Teams        |
+|Chats y llamadas VoIP entrantes procedentes de los usuarios de su organización recibidos en:     | Skype Empresarial        | Skype Empresarial       | Equipos        |
+|Llamadas RTC recibidas en:     | Skype Empresarial        |Skype Empresarial         | Equipos        |
+|Presencia     | Skype Empresarial        |Skype Empresarial         | Equipos        |
+|Programación de reuniones     | Skype Empresarial         | Microsoft Teams        | Teams        |
 
 
 En la tabla siguiente se resumen las ventajas e inconvenientes de usar los modos de Skype Empresarial como paso transitorio hacia el modo TeamsOnly.

@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo recuperar datos de Microsoft Teams del registro de auditoría.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88eda5d9acaeb876008b3eb35d38b348830cce48
-ms.sourcegitcommit: 67466cde3ffd5c42d632300b8a2adf7aab7df5d1
+ms.openlocfilehash: 62b4c462cec58facca274883c98f1aad23042f16
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43958415"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416740"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -34,7 +34,7 @@ El registro de auditoría puede ayudarle a investigar actividades específicas e
 - Agregación de canales
 - Cambios en la configuración
 
-Para obtener una lista completa de las actividades de teams que se auditan, consulte [actividades de Teams](#teams-activities).
+Para obtener una lista completa de las actividades de teams que se auditan, consulte [actividades de Teams](#teams-activities) y [turnos en actividades de Teams (en versión preliminar)](#shifts-in-teams-activities).
 
 > [!NOTE]
 > Los eventos de auditoría de canales privados también se registran como si se trataran de equipos y canales estándar.
@@ -59,7 +59,7 @@ La cantidad de tiempo que un registro de auditoría se retiene y se puede buscar
 
 ## <a name="tips-for-searching-the-audit-log"></a>Sugerencias para buscar en el registro de auditoría
 
-Estas son algunas sugerencias para buscar [actividades de Teams](#teams-activities) en el registro de auditoría.
+Estas son algunas sugerencias para buscar actividades de Teams en el registro de auditoría.
 
 ![Captura de pantalla de la página de búsqueda de registro de auditoría](media/audit-log-search-page.png)
 
@@ -67,7 +67,7 @@ Estas son algunas sugerencias para buscar [actividades de Teams](#teams-activiti
     ![Captura de pantalla de búsqueda de registro de auditoría](media/audit-log-search.png)
 - Para mostrar los eventos de actividades que se ejecutan con los cmdlets, seleccione **Mostrar resultados para todas las actividades** en la lista **actividades** . Si conoce el nombre de la operación de estas actividades, busque todas las actividades y, a continuación, filtre los resultados escribiendo el nombre de la operación en el cuadro de la columna **actividad** . Para obtener más información, consulte [paso 3: filtrar los resultados de la búsqueda](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results).
 - Para borrar los criterios de búsqueda actuales, haga clic en **Borrar**. El intervalo de fechas vuelve al valor predeterminado de los últimos siete días. También puede hacer clic en **Borrar todo para mostrar los resultados de todas las actividades** para cancelar todas las actividades seleccionadas.
-- Si se encuentran resultados de 5.000, probablemente se dé por supuesto que hay más de 5.000 eventos que cumplen los criterios de búsqueda. Puede restringir los criterios de búsqueda y volver a ejecutar la búsqueda para que devuelva menos resultados, o bien puede exportar todos los resultados de la búsqueda seleccionando **exportar resultados** > **descargar todos los resultados**.
+- Si se encuentran resultados de 5.000, probablemente se dé por supuesto que hay más de 5.000 eventos que cumplen los criterios de búsqueda. Puede restringir los criterios de búsqueda y volver a ejecutar la búsqueda para que devuelva menos resultados, o bien puede exportar todos los resultados de la búsqueda seleccionando **exportar resultados**  >  **descargar todos los resultados**.
 
 Consulte [este vídeo](https://www.youtube.com/embed/UBxaRySAxyE) para usar la búsqueda de registros de audio. Únase a Acharya, un jefe de programa de Teams, ya que muestra cómo realizar una búsqueda de registros de auditoría para equipos.
 
@@ -142,6 +142,41 @@ Esta es una lista de todos los eventos que se registran para las actividades de 
 |Conector actualizado    |ConnectorUpdated         |Un usuario ha modificado un conector en un canal.         |
 |Pestaña actualizado   |TabUpdated         |Un usuario ha modificado una pestaña en un canal.         |
 |Usuario ha iniciado sesión en Teams     |TeamsSessionStarted         |Un usuario inicia sesión en un cliente de Microsoft Teams. Este evento no captura actividades de actualización de token.         |
+
+## <a name="shifts-in-teams-activities"></a>Cambios en las actividades de Teams
+
+**(en la versión preliminar)**
+
+Si su organización usa la aplicación turnos en Teams, puede buscar en el registro de auditoría las actividades relacionadas con la aplicación turnos. Esta es una lista de todos los eventos que se han registrado para desplazar actividades en Teams en el registro de auditoría de Microsoft 365.
+
+|Nombre descriptivo  |Operación  |Descripción  |
+|---------|---------|---------|
+|Grupo de programación agregado      |SchedulingGroupAdded          |Un usuario agrega correctamente un nuevo grupo de programación a la programación.          |
+|Grupo de programación editado     |SchedulingGroupEdited         |Un usuario modifica correctamente un grupo de programación.          |
+|Grupo de programación eliminado         |SchedulingGroupDeleted              |Un usuario elimina correctamente un grupo de programación de la programación.|
+|Se ha agregado un turno      |ShiftAdded          |Un usuario agrega un turno correctamente.           |
+|Turno modificado       |ShiftEdited       |Un usuario modifica correctamente un turno.        |
+|Turno eliminado          |ShiftDeleted          | Un usuario elimina correctamente un turno.               |
+|Se ha agregado un tiempo libre      |TimeOffAdded          |Un usuario agrega correctamente el tiempo libre en la programación.          |
+|Hora de modificación         |TimeOffEdited           |Un usuario modifica correctamente la hora.          |
+|Tiempo eliminado     |TimeOffDeleted              |Un usuario elimina correctamente el permiso.           |
+|Se agregó el turno de apertura     |OpenShiftAdded          |Un usuario agrega correctamente un turno abierto a un grupo de programación.          |
+|Turno abierto modificado    |OpenShiftEdited          |Un usuario modifica correctamente un turno abierto en un grupo de programación.          |
+|Turno de apertura eliminado      |OpenShiftDeleted          |Un usuario elimina correctamente un turno abierto de un grupo de programación.         |
+|Programación compartida     |ScheduleShared                  |Un usuario ha compartido correctamente una programación de equipo para un intervalo de fechas.          |
+|Cronometrado con el reloj de tiempo         |ClockedIn          |Un usuario registra correctamente el reloj con el reloj de tiempo.          |
+|Hora de salida con reloj de tiempo      |ClockedOut          |Un usuario registra correctamente el reloj de tiempo.          |
+|Se inició la interrupción con el reloj de tiempo      |BreakStarted          |Un usuario inicia correctamente una interrupción durante una sesión de tiempo activa.          |
+|Terminada la pausa con el reloj de tiempo    |BreakEnded          |Un usuario termina correctamente un salto durante una sesión de tiempo activa.          |
+|Se ha agregado una entrada de reloj de tiempo     |TimeClockEntryAdded          |Un usuario agrega correctamente una nueva entrada de reloj de tiempo manual en la hoja de tiempo.          |
+|Entrada de reloj de tiempo modificada     | TimeClockEntryEdited             |Un usuario modifica correctamente una entrada de reloj de tiempo en hoja de horas.          |
+|Entrada de reloj de tiempo eliminada    |TimeClockEntryDeleted              |Un usuario elimina correctamente una entrada de reloj en la hoja de tiempo.          |
+|Solicitud de turno agregada         |RequestAdded              |Un usuario ha agregado una solicitud de turno.          |
+|Respuesta a una solicitud de turno     |RequestRespondedTo                  |Un usuario respondió a una solicitud de turno.          |
+|Solicitud de turno cancelada         |RequestCanceled               |Un usuario canceló una solicitud de turno.          |
+|Configuración de programación modificada      |ScheduleSettingChanged          |Un usuario cambia una configuración en la configuración de Mayús.         |
+|Se ha agregado la integración de personal      |WorkforceIntegrationAdded                  | La aplicación de turnos está integrada en un sistema de terceros.         |
+|Mensaje de turno aceptado         |OffShiftDialogAccepted          |Un usuario reconoce el mensaje de desplazarse para acceder a teams después de haber cambiado de horas.           |
 
 ## <a name="office-365-management-activity-api"></a>API de actividad de administración 365 de Office
 

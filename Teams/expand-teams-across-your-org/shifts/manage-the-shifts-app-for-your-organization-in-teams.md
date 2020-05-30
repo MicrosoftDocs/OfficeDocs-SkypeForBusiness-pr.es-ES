@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 745644c7a6cf2207412faacd78e7b5a26d7b754d
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: c2ca24f2176547f83efb6bdce591ac71d516dca9
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349664"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416890"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 
@@ -73,11 +73,27 @@ Para ver la Directiva de FirstlineWorker, en el navegación izquierdo del centro
 
 ![Captura de pantalla de la Directiva de configuración de la aplicación de FirstlineWorker](../../media/firstline-worker-app-setup-policy.png "Captura de pantalla de la Directiva de configuración de la aplicación de FirstlineWorker en el centro de administración de Microsoft Teams")
 
-#### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>Asignar la Directiva FirstlineWorker a usuarios individuales
+#### <a name="assign-the-firstlineworker-policy-to-users"></a>Asignar la Directiva FirstlineWorker a los usuarios
+
+Para asignar la Directiva de configuración de la aplicación de FirstlineWorker a un usuario:
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
-2. Junto a las **Directivas asignadas** elija **Editar**.
-3. En **Directiva de configuración de la aplicación de Teams**, seleccione **FirstlineWorker**y, después, haga clic en **Guardar**.
+2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
+3. En **Directiva de configuración**de la aplicación, seleccione **FirstlineWorker**y, a continuación, haga clic en **aplicar**.
+
+Para asignar una directiva a varios usuarios a la vez:
+
+1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Usuarios**, después, busque los usuarios o filtre la vista para mostrar los usuarios que desee.
+2. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en &#x2713; (marca de verificación) situado en la parte superior de la tabla.
+3. Haga clic en **Editar configuración**, en **Directiva de configuración**de la aplicación, seleccione **FirstlineWorker**y, a continuación, haga clic en **aplicar**.  
+
+También puede hacer lo siguiente:
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de configuración de las **aplicaciones de Teams**  >  **Setup policies**.
+2. Seleccione la Directiva FirstlineWorker haciendo clic a la izquierda del nombre de la Directiva.
+3. Seleccione **Administrar usuarios**.
+4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
+5. Cuando termine de agregar usuarios, seleccione **aplicar**.
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>Asignar la Directiva de configuración de la aplicación de FirstlineWorker a los miembros del usuario de un grupo
 
@@ -102,5 +118,15 @@ $members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWor
 ``` 
 Según el número de miembros del grupo, este comando puede demorar varios minutos en ejecutarse.
 
+## <a name="search-the-audit-log-for-shifts-events"></a>Buscar eventos de turnos en el registro de auditoría
+
+**(en la versión preliminar)**
+
+Puede buscar en el registro de auditoría para ver la actividad de los turnos en su organización.  Para obtener más información sobre cómo buscar en el registro de auditoría y ver una lista de [las actividades de turnos](../../audit-log-events.md#shifts-in-teams-activities) registradas en el registro de auditoría, consulte [buscar eventos en el registro de auditoría de los equipos](../../audit-log-events.md).
+
+Antes de poder buscar en el registro de auditoría, primero debe activar la auditoría en el [centro de cumplimiento de & de seguridad](https://protection.office.com). Para obtener más información, vea [activar o desactivar la búsqueda de registros de auditoría](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Tenga en cuenta que los datos de auditoría solo están disponibles desde el punto en el que activó la auditoría.
+
 ## <a name="related-topics"></a>Temas relacionados
+
 - [Desplaza la ayuda para los trabajadores de los Firstline](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Asignar directivas a los usuarios de Teams](../../assign-policies.md)

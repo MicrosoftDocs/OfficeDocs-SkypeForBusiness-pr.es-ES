@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89e7db133b8878e77dbf14025b97c658b0de21e4
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 052cf825e2f05dd17a77043ab87bedbb2f3f8d9c
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349614"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416730"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -37,6 +37,7 @@ El complemento de reunión de Teams se instala automáticamente para los usuario
 ![Captura de pantalla del complemento de reunión de equipo en la cinta de Outlook.](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - No hay **ninguna dirección URL directa** que se vincule al complemento de Teams.
 > - Existen otras consideraciones adicionales si su organización ejecuta tanto equipos como Skype empresarial. En algunas circunstancias, el complemento de Teams no está disponible en Outlook. Para obtener más información, consulte [actualizar de Skype empresarial a teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
 > - Los permisos de usuario para ejecutar el archivo regsvr32.exe son un requisito mínimo para el complemento de reuniones de Teams que se instalará en el equipo.
 > - Si los usuarios no pueden ver el complemento de Microsoft Teams, pídales que cierren Outlook y Microsoft Teams, y que luego reinicien en primer lugar el cliente de Microsoft Teams y luego el de Outlook, específicamente en ese orden.
@@ -65,6 +66,7 @@ En la última compilación de la aplicación de Outlook para iOS y Android se mu
 Las coordenadas de la reunión (el enlace para unirse a Teams y los números de acceso telefónico) se añadirán a la invitación a la reunión cuando el usuario haga clic en **Enviar**.  
 
 ## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Complemento de reunión de equipos en FindTime para Outlook
+
 FindTime es un complemento para Outlook que ayuda a los usuarios a alcanzar consenso en una reunión en todas las empresas. Una vez que las invitaciones de reunión han proporcionado las horas preferidas, FindTime envía la invitación a la reunión en nombre del usuario. Si la opción **Reunión en línea**está seleccionada en FindTime, FindTime programará una reunión de Skype Empresarial o de Microsoft Teams. (FindTime usará el canal de reunión en línea predeterminado que su organización haya establecido).
 
 > [!NOTE]  
@@ -96,15 +98,25 @@ El cliente de Microsoft Teams determina si los usuarios necesitan la versión de
 
 Los clientes [pueden elegir la vía de actualización de Skype Empresarial a Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md). Los administradores empresariales pueden usar el modo de coexistencia de Teams para definir esta vía para sus usuarios. Los administradores empresariales tienen la opción de permitir a los usuarios utilizar Teams junto con Skype Empresarial (modo Aplicaciones aisladas). 
 
-Cuando los usuarios que se encuentran en modo de Aplicaciones aisladas programan una reunión en Outlook, normalmente esperan poder decidir si se hará en Skype Empresarial o en Teams. En Outlook en la Web, Outlook para Windows y Outlook para Mac, los usuarios que se encuentran en modo de Aplicaciones aisladas ven Skype Empresarial y Teams como complementos. Debido a algunas limitaciones de la versión inicial, Outlook para dispositivos móviles solo admite la creación de reuniones de Skype Empresarial **o** de Teams. Consulte la siguiente tabla para obtener información.
+Cuando los usuarios que se encuentran en modo de Aplicaciones aisladas programan una reunión en Outlook, normalmente esperan poder decidir si se hará en Skype Empresarial o en Teams. En Outlook en la web, Outlook Windows y Outlook Mac, los usuarios ven de forma predeterminada los complementos de Skype empresarial y de equipos. Puede configurar una configuración de directiva de reunión de Teams para controlar si los usuarios en el modo islas solo pueden usar el complemento de reunión de los equipos o tanto la reunión de los equipos como los complementos de reuniones de Skype empresarial.
+
+Debido a algunas limitaciones de la versión inicial, Outlook para dispositivos móviles solo admite la creación de reuniones de Skype Empresarial **o** de Teams. Consulte la siguiente tabla para obtener información.
 
 | Modo de coexistencia en el centro de administración de Teams | Proveedor de reuniones predeterminado en Outlook para dispositivos móviles |
 | --------------------------------------|---------------------------------------------|
 | Aplicaciones aisladas | Skype Empresarial |
 | Solo Skype Empresarial | Skype Empresarial |
 | Colaboración de Skype Empresarial con Teams | Skype Empresarial |
-| Colaboración y reuniones de Skype Empresarial con Teams | Equipos |
+| Colaboración y reuniones de Skype Empresarial con Teams | Teams |
 | Solo Teams | Teams |
+
+### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>Establecer si los usuarios en el modo islas solo pueden usar el complemento de reuniones de Teams o la reunión de Teams y complementos de reuniones de Skype empresarial
+
+**(próximamente)**
+
+Como administrador, puede configurar una configuración de directiva de reunión de Teams para controlar el complemento de reunión de Outlook que se usa para *los usuarios que están en modo islas*. Puede especificar si los usuarios solo pueden usar el complemento de reuniones de equipos o bien la reunión de Teams y los complementos de reuniones de Skype empresarial para programar reuniones en Outlook.
+
+Solo puede aplicar esta directiva a usuarios que están en modo islas y tener el parámetro **AllowOutlookAddIn** establecido en **true** en la Directiva de reuniones de Teams. Para conocer los pasos sobre cómo configurar esta Directiva, vea [establecer el proveedor de la reunión para los usuarios en modo islas](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode).
 
 ## <a name="other-considerations"></a>Otras consideraciones
 

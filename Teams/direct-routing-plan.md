@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión (SBC) compatible suministrado por el cliente a Microsoft Phone System.
-ms.openlocfilehash: e2bef46f65297cccc573f2e63dedda0e2aca61e7
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 29b4136c553d8b0f77fbb10259899ebea793ed98
+ms.sourcegitcommit: 1df448516b05bccd0527256b1f4f20792566f8a2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349604"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "44428957"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -234,7 +234,7 @@ El sip.pstnhub.dod.teams.microsoft.us FQDN se resolverá en una de las siguiente
 - 52.127.64.33
 - 52.127.68.34
 
-Necesitas abrir puertos para todas estas direcciones IP en tu firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.  Si su Firewall admite nombres DNS, el FQDN sip.pstnhub.dod.teams.microsoft.us se resuelve en todas estas direcciones IP. 
+Necesitas abrir puertos para todas estas direcciones IP en tu firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.
 
 ### <a name="office-365-gcc-high-environment"></a>Office 365 GCC de gran entorno
 
@@ -247,7 +247,7 @@ El sip.pstnhub.gov.teams.microsoft.us FQDN se resolverá en una de las siguiente
 - 52.127.88.59
 - 52.127.92.64
 
-Necesitas abrir puertos para todas estas direcciones IP en tu firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.  Si su Firewall admite nombres DNS, el FQDN sip.pstnhub.gov.teams.microsoft.us se resuelve en todas estas direcciones IP. 
+Necesitas abrir puertos para todas estas direcciones IP en tu firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.
 
 ## <a name="sip-signaling-ports"></a>Señalización SIP: puertos
 
