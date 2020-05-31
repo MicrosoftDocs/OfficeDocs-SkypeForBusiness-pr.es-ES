@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a22c741898b48c3d71970699f09c00bb638205f
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 443a59513d3a3151bdcc83250bf40ec4ac4398bb
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898135"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412627"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Usar el Asistente para introducción para configurar Business Voice
 
@@ -37,6 +37,8 @@ Es una buena idea leer este artículo antes de iniciar el asistente. Cuando este
 
 > [!IMPORTANT]
 > Microsoft Teams y Business Voice solo funcionan cuando los buzones de los usuarios se encuentran ubicados en Microsoft 365.  No admiten buzones de correo en servidores de Exchange locales.
+>
+> El Asistente para introducción no es compatible con las implementaciones híbridas de Skype Empresarial. Si tiene una implementación híbrida de Skype Empresarial y quiere configurar Business Voice, consulte [Configurar el sistema telefónico en la organización](../setting-up-your-phone-system.md).
 
 <!-- After you've finished the wizard, you may want to check out the following articles:
 
