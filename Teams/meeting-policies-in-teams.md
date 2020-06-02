@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: efe9e50ae7f3365917ea31ef722a47c1f1fe95ec
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: cd5056b2252d4aaad7f1bc8c104c43f43aa516fd
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416880"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489152"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -423,6 +423,24 @@ Para especificar qué complemento de la reunión quiere que esté disponible par
 - Establezca el parámetro en **TeamsOnly** para habilitar solo el complemento de reunión de Teams en Outlook. Esta configuración de Directiva garantiza que todas las reuniones futuras tengan un vínculo para unirse a una reunión de equipos. No migra los vínculos de unirse a reuniones de Skype empresarial existentes a teams. Esta configuración de Directiva no afecta a la presencia, la conversación, las llamadas RTC o a cualquier otra funcionalidad de Skype empresarial, lo que significa que los usuarios continuarán usando Skype empresarial para estas capacidades.
 
   Si establece el parámetro en **TeamsOnly**y, a continuación, vuelve a **TeamsAndSfB**, se habilitarán ambos complementos de la reunión. Sin embargo, ten en cuenta que los equipos existentes de los vínculos de unirse a la reunión no se migrarán a Skype empresarial. Solo las reuniones de Skype empresarial programadas después del cambio tendrán un vínculo para unirse a una reunión de Skype empresarial.
+
+## <a name="meeting-policy-settings---video-filters-mode"></a>Configuración de la Directiva de reunión-modo filtros de vídeo
+
+Esta es una directiva por usuario. Esta configuración controla si los usuarios pueden personalizar su fondo de vídeo en una reunión.
+
+Actualmente, solo puede usar PowerShell para establecer esta Directiva. Puede editar una directiva de reunión existente de Teams mediante el cmdlet [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . O bien, cree una nueva Directiva de reunión de Teams mediante el cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) y, a continuación, asigne la Directiva a los usuarios.
+
+Para especificar si los usuarios pueden personalizar su fondo de vídeo en una reunión, establezca el parámetro **VideoFiltersMode** de la siguiente manera:
+
+|Establecer valor en PowerShell |Comportamiento  |
+|---------|---------|
+|**Nofilters**     |El usuario no puede personalizar su fondo de vídeo.|
+|**BlurOnly**     |El usuario tiene la opción de desenfocar el fondo de vídeo. |
+|**BlurandDefaultBackgrounds**     |El usuario tiene la opción de desenfocar el fondo del vídeo o elegir un conjunto de imágenes para usarla como fondo. |
+|**AllFilters**     |El uso tiene la opción de desenfocar el fondo del vídeo, elegir un conjunto de imágenes o cargar imágenes personalizadas para usarlas como fondo. |
+
+> [!NOTE]
+> Teams no filtra las imágenes cargadas por los usuarios. Al usar la configuración **AllFilters** , debe tener directivas de organización interna para evitar que los usuarios carguen imágenes ofensivas o inadecuadas, o imágenes su organización no tiene derechos para usar con fondos de reuniones de Teams.
 
 ## <a name="related-topics"></a>Temas relacionados
 

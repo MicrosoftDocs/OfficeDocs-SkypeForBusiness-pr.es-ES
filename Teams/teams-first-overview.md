@@ -15,12 +15,12 @@ description: Use esta guía para implementar Microsoft Teams como la primera car
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cd8fc92d3f46df8bcfaa07a96b69b84790750aa
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 647f6879f7892c1a65599832e48deb67e183fae0
+ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041717"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44472351"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Implementar Microsoft Teams en primer lugar
 
@@ -142,9 +142,7 @@ Más información aquí: <a href="https://docs.microsoft.com/microsoftteams/admi
 <li><p>eDiscovery y retención legal para el cumplimiento de los mensajes de canal es compatible</p></li>
 <li><p>Están disponibles las directivas de prevención de pérdida de datos (DLP)</p></li>
 </ul>
-<p>Conjunto completo de características disponibles con Exchange Online, Exchange local admite la mayoría de estas características, vea</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Interacción entre Exchange y Microsoft Teams</a></p>
-<p>para obtener una lista completa</p></td>
+<p>Conjunto completo de características disponibles con Exchange Online, Exchange local admite la mayoría de estas características, vea <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Cómo Exchange y Teams interactúan</a> con toda la lista.</p></td>
 </tr>
 </tbody>
 </table>
@@ -243,8 +241,7 @@ Más información aquí: <a href="https://docs.microsoft.com/microsoftteams/admi
     [Obtener clientes para Microsoft Teams](get-clients.md)
 
 5.   Impulsar el programa de adopción  
-    [Adoptar Microsoft Teams](adopt-microsoft-teams-landing-page.md)
-    
+    [Adoptar Microsoft Teams](adopt-microsoft-teams-landing-page.md)<br/>
     [Lista de comprobación para el inicio rápido de la adopción de Microsoft Teams](teams-adoption-quick-start-checklist.md)
 
 6.  Empezar a planear el movimiento de otras cargas de trabajo a Office 365
