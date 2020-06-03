@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Instrucciones para iniciar un programa piloto de Microsoft Teams para explorar todos los equipos que pueden ofrecer a su organización mientras continúa usando Skype empresarial
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52721d40e36dc017d9ba76473367d1c9c5e5b4e7
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 0849c2aae273953e7cb67b95f32cf30f4e17297f
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706460"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522693"
 ---
 # <a name="conduct-a-user-pilot"></a>Llevar a cabo un piloto del usuario
 
@@ -38,13 +38,13 @@ Este artículo forma parte de la fase de implementación e implementación de su
 - [Preparado su entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Preparado para su organización](https://aka.ms/SkypeToTeams-UserReadiness)
 
-Al implementar nuevas tecnologías, su organización puede obtener valor para el negocio, como ahorro de costos, cumplimiento de seguridad, satisfacción de los empleados y eficacia operativa, pero también puede afectar la productividad y la infraestructura de la organización de sus usuarios ( su red). Antes de habilitar una nueva tecnología en toda la organización, lleve a cabo un proyecto piloto formal. Tal y como lo harías con un pequeño parche de color en una pared antes de pintar toda la habitación, probaría una amplia distribución a una escala menor llevando a cabo un plan piloto para validar la preparación técnica y del usuario, identificar y mitigar problemas y ayudar a garantizar una exitosa implementación en toda la organización.
+Al implementar nuevas tecnologías, su organización puede obtener valor para el negocio, como ahorro de costos, cumplimiento de seguridad, satisfacción de los empleados y eficacia operativa, pero también puede afectar la productividad y la infraestructura de la organización de sus usuarios (su red). Antes de habilitar una nueva tecnología en toda la organización, lleve a cabo un proyecto piloto formal. Tal y como lo harías con un pequeño parche de color en una pared antes de pintar toda la habitación, puedes probar una amplia distribución a una escala menor llevando a cabo un plan piloto para validar la preparación técnica y del usuario, identificar y mitigar problemas y ayudar a garantizar una implementación correcta en toda la organización.
 
 Para lograr los resultados más realistas, la prueba piloto debe incluir a usuarios reales, imitar cómo se comunican y colaboran, y comprobar tanto las experiencias técnicas como para el usuario. Independientemente de si su organización está considerando ejecutar Skype empresarial y Teams en paralelo, actualizando a teams en el futuro o implementando nuevas funcionalidades como una llamada o conferencia, una prueba piloto puede ayudarle a identificar la ruta adecuada para su organización. A veces se considera la fase 1 de un despliegue, el piloto ideal aprovecha la preparación que ya ha iniciado e implementa su plan definido con un grupo de usuarios de destino.
 
 | | |
 |---|---|
-| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>¿Cómo usará una prueba piloto para informarle sobre la dirección del proyecto?</li></ul> |
+| ![Un icono que representa un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>¿Cómo usará una prueba piloto para informarle sobre la dirección del proyecto?</li></ul> |
 | ![Un icono que representa el siguiente paso](media/audio_conferencing_image9.png)<br/>Paso siguiente|<ul><li>Use las instrucciones a continuación para diseñar y ejecutar su piloto formal.</li></ul>|
 
 > [!Tip]
@@ -78,14 +78,14 @@ Es crucial para el éxito de la prueba piloto que enseñe a los participantes de
 
 ## <a name="5-conduct-your-pilot"></a>5. realizar la prueba piloto
 
-Con todas las logísticas instaladas, ya está listo para comenzar la prueba piloto. La realización de su piloto incluye comunicarse con sus usuarios, supervisar su red y uso para garantizar que el rendimiento de la red y la calidad de las llamadas permanezcan saludables, recopile comentarios de los participantes y revisando los vales del servicio de asistencia para preguntas relacionadas con Podrán.
+Con todas las logísticas instaladas, ya está listo para comenzar la prueba piloto. La realización de la prueba piloto incluye comunicarse con los usuarios, supervisar su red y su uso para garantizar que el rendimiento de la red y la calidad de las llamadas permanezcan saludables, recopile comentarios de los participantes y revisando los vales del servicio de asistencia para preguntas relacionadas con los equipos.
 
 ### <a name="tips-for-pilot-success"></a>Sugerencias para el éxito piloto
 
 Las siguientes sugerencias pueden ayudarle a garantizar el éxito de su prueba piloto:
 
 - Antes de comenzar con la prueba piloto, confirme que todos los participantes de la prueba piloto están habilitados para el [modo de coexistencia] adecuado.
-- (https://aka.ms/SkypeToTeams-SetCoexistence) desea validar.
+- ( https://aka.ms/SkypeToTeams-SetCoexistence) desea validar.
 - Semanalmente, en toda la prueba piloto, reúnase con los participantes del proyecto para revisar los comentarios de los usuarios, los datos de uso, los datos de red y los vales de asistencia para asegurarse de que su prueba funcione correctamente. Realice los ajustes necesarios.
 
 ### <a name="suggested-timeline"></a>Escala de tiempo sugerida

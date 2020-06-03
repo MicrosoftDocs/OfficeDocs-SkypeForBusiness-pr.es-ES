@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f06599b7e3ed06a26715de30d59dd25a61c0f197
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 6d811db9759b2876520b307140a3a1967047f482
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43945577"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44523310"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams 
 
@@ -106,7 +106,10 @@ Para obtener información detallada sobre la optimización de red, incluidas las
 <td>Asegúrese de que todos los equipos que ejecutan el cliente de Teams puedan resolver consultas DNS externas para descubrir los servicios proporcionados por Office 365 y que los firewalls no impiden el acceso. Para obtener información sobre cómo configurar puertos de firewall, vaya a <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Office 365 URL e intervalos IP</a>.</td>
 </tr>
 <tr class="odd">
-<td>Validar tamaño del grupo de servidores (NAT)</td>
+<td>Mantener la persistencia de la sesión</td>
+<td>Asegúrese de que el Firewall no cambie los puertos o las direcciones de traducción de direcciones de red (NAT) asignados a UDP.</td>
+</tr><tr class="odd">
+<td>Validar tamaño del grupo NAT</td>
 <td>Valide el tamaño de la agrupación de traducción de direcciones de red (NAT) necesario para conectividad de usuario. Cuando varios usuarios y dispositivos obtienen acceso a Office 365 mediante la <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">traducción de direcciones de red (NAT) o la traducción de direcciones de puerto (PAT)</a>, debe asegurarse de que los dispositivos que se encuentran detrás de cada dirección IP enrutable pública no superen el número admitido. Asegúrese de que las direcciones IP públicas adecuadas se asignen a los grupos NAT para evitar el agotamiento del puerto. El agotamiento del puerto contribuirá a que los usuarios internos y los dispositivos no puedan conectarse al servicio de Office 365.</td>
 </tr>
 <tr class="even">

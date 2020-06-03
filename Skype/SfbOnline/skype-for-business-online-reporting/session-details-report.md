@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: El nuevo panel informes de Microsoft 365 le muestra la información general de actividades en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto.
-ms.openlocfilehash: b10e68e46b8865579692594ded33e89558f4fdc2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: El panel informes muestra la información general de actividades en los productos de Microsoft 365 o de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto.
+ms.openlocfilehash: 951f93aabe66bdb7e6b92f9b2c6cf1627e7e1a10
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776285"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205511"
 ---
 # <a name="session-details-report"></a>Informe de detalles de la sesión
 
-[] El nuevo panel **Informes** de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe **detalles de sesión de Skype empresarial** para ver los detalles de las experiencias de llamadas de los usuarios individuales.
+El panel **informes** muestra la información general de actividades en los productos de Microsoft 365 o de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe **detalles de sesión de Skype empresarial** para ver los detalles de las experiencias de llamadas de los usuarios individuales.
   
 Consulte la [información general](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) de los informes para ver más informes que están disponibles.
   
@@ -46,7 +46,7 @@ Este informe, junto con los otros informes de Skype empresarial, ofrecen detalle
 3. En la lista que se muestra en **seleccionar un informe**, haga clic en **detalles de la sesión de Skype empresarial**.
     
     > [!TIP]
-    > Si no ve este informe en la lista, vaya al >  **centro de administración de Skype empresarial****informes** > **detalles**de la sesión. 
+    > Si no ve este informe en la lista, vaya al **centro de administración de Skype empresarial**  >  **informes**  >  **detalles**de la sesión. 
   
     > [!IMPORTANT]
     > Según la suscripción de Microsoft 365 u Office 365 que tenga, es posible que no vea todos los productos e informes que se muestran aquí. 

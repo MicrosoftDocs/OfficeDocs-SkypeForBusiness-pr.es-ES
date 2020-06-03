@@ -1,7 +1,7 @@
 ---
 title: Configurar un operador automático en la nube
-ms.author: kenwith
-author: kenwith
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article
@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos de la nube para Microsoft Teams.
-ms.openlocfilehash: 0b4b654a8e6d0eedd9d80cf5bf3bed8e9ee74115
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: ba7da55a33aa1fa65b677146e73ce352158a4cdf
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44047375"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523785"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
-Los operadores automáticos permiten a los usuarios llamar a su organización y navegar por un sistema de menús para hablar con el Departamento adecuado, la cola de llamadas, la persona o un operador. Puede crear operadores automáticos para su organización con el centro de administración de Microsoft Teams o con PowerShell. Para crear un operador automático, vaya a **voz** en el navegación izquierdo y, después, seleccione >  **operadores automáticos**,**Agregar nuevo**.
+Los operadores automáticos permiten a los usuarios llamar a su organización y navegar por un sistema de menús para hablar con el Departamento adecuado, la cola de llamadas, la persona o un operador. Puede crear operadores automáticos para su organización con el centro de administración de Microsoft Teams o con PowerShell. Para crear un operador automático, vaya a **voz** en el navegación izquierdo y, después, seleccione **operadores automáticos**,  >  **Agregar nuevo**.
 
 Si desea obtener más información sobre los operadores automáticos, vea [¿Qué son los operadores automáticos de la nube?](/microsoftteams/what-are-phone-system-auto-attendants)
 
@@ -43,7 +43,7 @@ Las implementaciones de operadores automáticos suelen implicar varios operadore
 
 ## <a name="step-1--get-started"></a>Paso 1: introducción
 
-- Es necesario un operador automático para tener una cuenta de recursos asociada. Consulte [administrar cuentas de recursos en Teams](manage-resource-accounts.md) para obtener información sobre las cuentas de recursos y todas las licencias necesarias. 
+Es necesario un operador automático para tener una cuenta de recursos asociada. Consulte [administrar cuentas de recursos en Teams](manage-resource-accounts.md) para obtener información sobre las cuentas de recursos y todas las licencias necesarias. 
  
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
@@ -57,7 +57,7 @@ Las implementaciones de operadores automáticos suelen implicar varios operadore
 
 ### <a name="with-the-microsoft-teams-admin-center"></a>Con el centro de administración de Microsoft Teams
 
-En el **centro de administración de Microsoft Teams**, haga clic en**operadores automáticos**de **voz** > y, a continuación, haga clic en **+ Agregar**:
+En el **centro de administración de Microsoft Teams**, haga clic en **Voice**  >  **operadores automáticos**de voz y, a continuación, haga clic en **+ Agregar**:
 
 #### <a name="general-info-page"></a>Página de información general
 
@@ -65,16 +65,16 @@ En el **centro de administración de Microsoft Teams**, haga clic en**operadores
 
 * * *
 
-![Icono del número 1, una llamada en el](media/teamscallout1.png)
-**nombre** de la captura de pantalla anterior, escriba un nombre para mostrar para el operador automático. El nombre es obligatorio, y puede contener hasta 64 caracteres, espacios incluidos. El **nombre** que designe aquí aparecerá en una columna en la pestaña de **operadores automáticos** .
+![Icono del número 1, una llamada en el nombre de la captura de pantalla anterior, ](media/teamscallout1.png)
+ **Name** escriba un nombre para mostrar para el operador automático. El nombre es obligatorio, y puede contener hasta 64 caracteres, espacios incluidos. El **nombre** que designe aquí aparecerá en una columna en la pestaña de **operadores automáticos** .
 
 <a name="phonenumber"> </a>
 
 * * *
 
-![Icono del número 2, llamada en el](media/teamscallout2.png)
- <a name="operator"> </a> 
- **operador** de captura de pantalla anterior, esto es opcional (pero se recomienda). Puede configurar la opción de **operador** para permitir que los autores de llamadas interrumpan los menús y hablen con una persona designada.
+![Icono del número 2, llamada en el operador de captura de pantalla ](media/teamscallout2.png)
+ <a name="operator"> </a>anterior, 
+ **Operator** esto es opcional (pero se recomienda). Puede configurar la opción de **operador** para permitir que los autores de llamadas interrumpan los menús y hablen con una persona designada.
 
 La tecla 0 está asignada al operador de forma predeterminada.
 
@@ -83,10 +83,10 @@ Si establece un operador, indique a los usuarios que llamen sobre la opción de 
 Tiene varias formas de configurar el operador:
 
 - **Ningún operador** deshabilita las opciones "operador" y "presionar 0". Este es el valor predeterminado actual.
-- **La persona de su organización** asigna a una persona una licencia de sistema telefónico habilitada para telefonía IP empresarial o planes de llamadas asignados en Office 365. También puedes configurarlo para que la persona que llama se envíe al buzón de voz. Para enviar una llamada al buzón de voz, seleccione una **persona de la organización** y establezca la configuración de esa cuenta para enviar llamadas directamente al buzón de voz.
+- **Persona en la organización** asigna una persona con una licencia de sistema telefónico habilitada para telefonía IP empresarial o planes de llamadas asignados en Office 365. También puedes configurarlo para que la persona que llama se envíe al buzón de voz. Para enviar una llamada al buzón de voz, seleccione **persona en la organización** y establezca la configuración de esa cuenta para enviar llamadas directamente al buzón de voz.
 
      > [!Note]
-     > **La persona de su organización** puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server.
+     > Una **persona en la organización** puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server. Al seleccionar una **persona de la organización** , puede seleccionar una cuenta con un buzón de correo compartido o con un buzón de usuario.
 
 - **Aplicación de voz**  Seleccione el nombre de la cuenta de recursos vinculada a un operador automático o a una cola de llamadas que ya se ha creado. Las personas que llaman que solicitan un operador se redirigen allí.  
 <!--   
@@ -104,18 +104,18 @@ Tiene varias formas de configurar el operador:
 
 <a name="timezone"> </a>
 
-![Icono del número 3, una llamada en la](media/teamscallout3.png) **zona horaria** de captura de pantalla anterior, se requiere establecer la zona horaria para el operador automático. La configuración puede ser la misma que la zona horaria de la dirección principal que se muestra para su organización, u otra zona horaria. Cada operador automático puede tener una zona horaria diferente. El horario comercial establecido para el operador automático también usa esta zona horaria. Asegúrese de establecer la zona horaria correcta para evitar discrepancias en horario laboral, ya que no todas las regiones tienen el horario de verano. 
+![Icono del número 3, una llamada en la zona horaria de captura de pantalla anterior, se ](media/teamscallout3.png) **Time zone** requiere establecer la zona horaria para el operador automático. La configuración puede ser la misma que la zona horaria de la dirección principal que se muestra para su organización, u otra zona horaria. Cada operador automático puede tener una zona horaria diferente. El horario comercial establecido para el operador automático también usa esta zona horaria. Asegúrese de establecer la zona horaria correcta para evitar discrepancias en horario laboral, ya que no todas las regiones tienen el horario de verano. 
 
 * * *
 
-![Icono del número 4, una llamada en el](media/teamscallout4.png)
- <a name="language"> </a> 
- **idioma** de captura de pantalla anterior, seleccione el idioma que desea usar para el operador automático. El operador automático usa ese idioma con las personas que llaman y todas las solicitudes del sistema se reproducen en este idioma.
+![Icono del número 4, una llamada en el idioma de captura de pantalla ](media/teamscallout4.png)
+ <a name="language"> </a>anterior, 
+ **Language** Seleccione el idioma que desea usar para el operador automático. El operador automático usa ese idioma con las personas que llaman y todas las solicitudes del sistema se reproducen en este idioma.
 
  * * *
 
-![Icono del número 5, una llamada en la captura de pantalla](media/teamscallout5.png)
-anterior**habilitar las entradas de voz** el reconocimiento de voz está disponible si esta opción está seleccionada. Las personas que llaman pueden usar la entrada de voz en el [idioma que establezcas](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). Si solo quiere permitir que los usuarios usen el teclado del teléfono para hacer selecciones, puede dejar el reconocimiento de voz establecido en **desactivado**.
+![Icono del número 5, una llamada en la captura de pantalla anterior ](media/teamscallout5.png)
+ **habilitar las entradas de voz** el reconocimiento de voz está disponible si esta opción está seleccionada. Las personas que llaman pueden usar la entrada de voz en el [idioma que establezcas](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). Si solo quiere permitir que los usuarios usen el teclado del teléfono para hacer selecciones, puede dejar el reconocimiento de voz establecido en **desactivado**.
 
 * * *  
 
@@ -139,13 +139,13 @@ Puede configurar saludos, avisos y menús personalizados que los usuarios escuch
 > [!NOTE]
 > Un saludo es más valioso para un operador automático de primer nivel. Un operador automático anidado a menudo no necesita un saludo.
 
-![Icono del número 1, una llamada en la captura de pantalla](media/teamscallout1.png) anterior si selecciona **sin saludo**, la persona que llama no escuchará un mensaje o saludo antes de que una de las acciones que seleccione más tarde controle la llamada. 
+![Icono del número 1, una llamada en la captura de pantalla anterior ](media/teamscallout1.png) si selecciona **sin saludo**, la persona que llama no escuchará un mensaje o saludo antes de que una de las acciones que seleccione más tarde controle la llamada. 
 
 <!-- You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.-->
 
-![Icono del número 2, una llamada en la captura de pantalla](media/teamscallout2.png) anterior si selecciona **reproducir un archivo de audio** , puede usar el botón **Cargar archivo** para cargar un mensaje de saludo grabado guardado como audio. WAV,. MP3 o. Formato WMA. La grabación no puede tener más de 5 MB.
+![Icono del número 2, una llamada en la captura de pantalla anterior ](media/teamscallout2.png) si selecciona **reproducir un archivo de audio** , puede usar el botón **Cargar archivo** para cargar un mensaje de saludo grabado guardado como audio. WAV,. MP3 o. Formato WMA. La grabación no puede tener más de 5 MB.
 
-![Icono del número 3, una llamada en la captura de pantalla](media/teamscallout3.png) anterior **escribir un mensaje de saludo** si elige esta opción, escriba el texto que quiere que lea el sistema (hasta 1000 caracteres) en el campo proporcionado. Por ejemplo, escriba "Bienvenido a contoso. Su llamada es muy importante para nosotros." El resultado se crea mediante el software de texto a voz.
+![Icono del número 3, una llamada en la captura de pantalla anterior ](media/teamscallout3.png) **escribir un mensaje de saludo** si elige esta opción, escriba el texto que quiere que lea el sistema (hasta 1000 caracteres) en el campo proporcionado. Por ejemplo, escriba "Bienvenido a contoso. Su llamada es muy importante para nosotros." El resultado se crea mediante el software de texto a voz.
 
 * * *
 
@@ -155,12 +155,12 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 
 <a name="redirectcalls"> </a>
 
-![Icono del número 4, una llamada en la captura de pantalla](media/teamscallout4.png) anterior **llamada de redireccionamiento** envía el autor de la llamada al destino elegido sin elegir las opciones. Los valores posibles son:
+![Icono del número 4, una llamada en la captura de pantalla anterior ](media/teamscallout4.png) **llamada de redireccionamiento** envía el autor de la llamada al destino elegido sin elegir las opciones. Los valores posibles son:
 
   - **Persona en la organización** La cuenta que elija debe tener habilitada una licencia de sistema telefónico para telefonía IP empresarial o tener un plan de llamadas asignado en Office 365. Puedes configurarlo para que la persona que llama pueda enviarse al buzón de voz: selecciona una **persona en la organización** y configura esa cuenta para que las llamadas se desvíen directamente al buzón de voz.
 
-  > [!Note]
-  > Una **persona en la organización** puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server.
+    > [!Note]
+    > Una **persona en la organización** puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server. Al seleccionar una **persona de la organización** , puede seleccionar una cuenta con un buzón de correo compartido o con un buzón de usuario.
 
   - **Aplicación de voz** Seleccione un operador automático o una cola de llamadas que ya se haya configurado. Buscas el operador automático o la cola de llamadas por el nombre de la cuenta de recursos asociada con el servicio.
   - **Buzón de voz** Seleccione el grupo de Office 365 que contiene los usuarios de su organización que necesitan tener acceso al buzón de voz recibido por este operador automático. Los mensajes de voz se envían al grupo de Office 365 que ha especificado. Para acceder a los mensajes de voz, los miembros del grupo pueden abrirlos desplazándose al grupo en Outlook.
@@ -171,10 +171,10 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 
 ![Captura de pantalla: sección acciones de la página de administración de llamadas](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
 
-![Icono del número 1, una llamada en la captura de pantalla](media/teamscallout1.png) anterior al seleccionar la **opción reproducir opciones de menú** puede seleccionar si desea usar un archivo de audio o introducir texto que se representará como texto a voz para proporcionar opciones de menú de marcado a las personas que llamen. Seleccione esta opción en lugar de las opciones de llamada o **desconexión** **de redireccionamiento** .
+![Icono del número 1, una llamada en la captura de pantalla anterior ](media/teamscallout1.png) al seleccionar la **opción reproducir opciones de menú** puede seleccionar si desea usar un archivo de audio o introducir texto que se representará como texto a voz para proporcionar opciones de menú de marcado a las personas que llamen. Seleccione esta opción en lugar de las opciones de llamada o **desconexión** **de redireccionamiento** .
 
 
-![Icono del número 2, una llamada en la captura de pantalla](media/teamscallout2.png) anterior **reproducir un archivo de audio** le permite configurar un mensaje y opciones para que la persona que llama elija. 
+![Icono del número 2, una llamada en la captura de pantalla anterior ](media/teamscallout2.png) **reproducir un archivo de audio** le permite configurar un mensaje y opciones para que la persona que llama elija. 
 - Si selecciona **reproducir un archivo de audio** , puede usar el botón **Cargar archivo** para cargar un mensaje de saludo grabado guardado como audio en. WAV,. MP3 o. Formato WMA. La grabación no puede tener más de 5 MB.
 
 - **Escribir un mensaje de bienvenida** Si elige esta opción, escriba el texto que quiere que el sistema Lea (hasta 1000 caracteres) en el campo proporcionado. Por ejemplo, escriba "Bienvenido a contoso. Su llamada es muy importante para nosotros." El resultado se crea mediante el software de texto a voz.
@@ -189,11 +189,11 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 > [!NOTE]
 > Las teclas \* (repetir) y \# (atrás) están reservadas por el sistema y no se pueden reasignar. Si el reconocimiento de voz está habilitado, presionar * se corresponde con "repetir" y # se corresponde con los comandos de voz "atrás".
 
-![Icono del número 3, una llamada en la captura de pantalla](media/teamscallout3.png) anterior para configurar una opción de menú, haga clic en la **tecla + asignar una tecla de marcado** e introduzca la información de las siguientes opciones:
+![Icono del número 3, una llamada en la captura de pantalla anterior ](media/teamscallout3.png) para configurar una opción de menú, haga clic en la **tecla + asignar una tecla de marcado** e introduzca la información de las siguientes opciones:
 
-![Icono del número 4, una llamada en la captura de pantalla](media/teamscallout4.png)anterior la columna**comando de voz** de una opción puede tener un máximo de 64 caracteres y puede contener varias palabras, como "servicio al cliente" o "operaciones y motivos".   Si el reconocimiento de voz está habilitado, el nombre se reconoce automáticamente y la persona que llama puede presionar 3, decir "tres" o decir "servicio al cliente" para seleccionar la opción asignada a la tecla 3. Este texto se representa también por texto a voz para la solicitud de confirmación del servicio, que puede ser algo como "transferencia de la llamada al operador".
+![Icono del número 4, una llamada en la captura de pantalla anterior la ](media/teamscallout4.png) columna**comando de voz** de una opción puede tener un máximo de 64 caracteres y puede contener varias palabras, como "servicio al cliente" o "operaciones y motivos".   Si el reconocimiento de voz está habilitado, el nombre se reconoce automáticamente y la persona que llama puede presionar 3, decir "tres" o decir "servicio al cliente" para seleccionar la opción asignada a la tecla 3. Este texto se representa también por texto a voz para la solicitud de confirmación del servicio, que puede ser algo como "transferencia de la llamada al operador".
 
-![Icono del número 5, llamada en la captura de pantalla](media/teamscallout5.png) anterior el **redireccionamiento a** conjuntos de opciones donde la llamada se muestra si se presiona la tecla correspondiente, o se selecciona la opción con reconocimiento de voz. La llamada se puede enviar al:
+![Icono del número 5, llamada en la captura de pantalla anterior ](media/teamscallout5.png) el **redireccionamiento a** conjuntos de opciones donde la llamada se muestra si se presiona la tecla correspondiente, o se selecciona la opción con reconocimiento de voz. La llamada se puede enviar al:
 
 <!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
 
@@ -211,7 +211,7 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 - **External phone number** routes the caller to a designated phone number outside your local system.<!-- does this have prerequisites like direct routing?
 - **Group Voicemail** routes the call to a voicemail box that you select.  -->
 
-![Icono del número 6, una llamada en la captura de pantalla](media/teamscallout6.png)anterior buscar en el**directorio** de esta sección, puede habilitar el **marcado por nombre** y la **extensión de marcado por extensión** para el operador automático.   Puede establecer quién está y no incluido en estos servicios en la página de ámbito de marcado opcional. La búsqueda en el directorio se establece en **ninguno** de forma predeterminada.
+![Icono del número 6, una llamada en la captura de pantalla anterior ](media/teamscallout6.png) **Buscar** en el directorio de esta sección, puede habilitar el **marcado por nombre** y la **extensión de marcado por extensión** para el operador automático.   Puede establecer quién está y no incluido en estos servicios en la página de ámbito de marcado opcional. La búsqueda en el directorio se establece en **ninguno** de forma predeterminada.
 
 **Marcado por nombre** Si habilita esta opción, las personas que llaman pueden buscar personas de su organización mediante el **marcado por nombre**. Dicen que el nombre del usuario y el reconocimiento de voz coinciden con el usuario. Puede establecer quién está y no incluido en estos servicios en la página de ámbito de marcado opcional. Cualquier usuario en línea con una licencia de sistema telefónico o cualquier usuario local que use Skype empresarial Server es un usuario elegible y puede encontrarse con el marcado por nombre.
 
@@ -225,7 +225,7 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 >    - Móvil/teléfono móvil
 >    - TelephoneNumber/PhoneNumber
 >    - OtherTelephone
->- El formato requerido para introducir la extensión en el campo número de teléfono del usuario `+<phonenumber>;ext=<extension>` es `x<extension>`o.
+>- El formato requerido para introducir la extensión en el campo número de teléfono del usuario es `+<phonenumber>;ext=<extension>` o `x<extension>` .
 >- La asignación de una extensión en el centro de administración de Teams no es compatible actualmente. Debe usar el comando [set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) de PowerShell o el centro de administración de Microsoft 365.
 >- Pueden pasar hasta 12 horas antes de que los cambios de los atributos PhoneNumber y PhoneNumber de AAD estén disponibles.
 >- NO defina una extensión para el LineUri de un usuario. Esto no es compatible actualmente.
@@ -268,17 +268,17 @@ Inicialmente, el horario laboral se define para que comience en 12:00 AM y termi
 ![captura de pantalla de la configuración del flujo de llamadas de poshora](media/aa-afterhour.png)
  * * *
 
-![Icono del número 1, una llamada en la captura de pantalla](media/teamscallout1.png) anterior, puede hacer clic en **seleccionar 24/7** para hacer todas las horas laborales de trabajo para este operador automático.
+![Icono del número 1, una llamada en la captura de pantalla anterior, ](media/teamscallout1.png) puede hacer clic en **seleccionar 24/7** para hacer todas las horas laborales de trabajo para este operador automático.
 
-![Icono del número 2, una llamada en la captura de pantalla](media/teamscallout2.png) anterior seleccione la opción **restablecer a predeterminado** para revertir todos los cambios en la programación y volver a la definición predeterminada de horario comercial como 9:00 am a 5:00 PM de lunes a viernes.
+![Icono del número 2, una llamada en la captura de pantalla anterior ](media/teamscallout2.png) Seleccione la opción **restablecer a predeterminado** para revertir todos los cambios en la programación y volver a la definición predeterminada de horario comercial como 9:00 am a 5:00 PM de lunes a viernes.
 
-![Icono del número 3, una llamada en la captura de pantalla](media/teamscallout3.png) anterior, seleccione **borrar todas las horas** para borrar la programación por completo. No se recomienda seleccionar esta opción y dejar las horas establecidas, así que use esta opción solo si desea rehacer por completo el horario laboral.
+![Icono del número 3, una llamada en la captura de pantalla anterior, ](media/teamscallout3.png) Seleccione **borrar todas las horas** para borrar la programación por completo. No se recomienda seleccionar esta opción y dejar las horas establecidas, así que use esta opción solo si desea rehacer por completo el horario laboral.
 
-![Icono del número 4, una llamada en el anterior icono de](media/teamscallout4.png)![captura de pantalla del número 5, una llamada en la captura](media/teamscallout5.png) de pantalla anterior para personalizar la hora de inicio o finalización de un día de la semana, haga clic en **iniciar** o **Finalizar en** el momento que desee restablecer y seleccione la nueva hora de la lista que aparece.   La lista le permite seleccionar el horario laboral en intervalos de 15 minutos y las horas laborales que seleccione aquí se basan en la zona horaria que estableció en la página de **información general** .
+![Icono del número 4, una llamada en el anterior ](media/teamscallout4.png) ![ icono de captura de pantalla del número 5, una llamada en la captura de pantalla anterior ](media/teamscallout5.png) para personalizar la hora de inicio o finalización de un día de la semana, haga clic en **iniciar** o **Finalizar en** el momento que desee restablecer y seleccione la nueva hora de la lista que aparece.   La lista le permite seleccionar el horario laboral en intervalos de 15 minutos y las horas laborales que seleccione aquí se basan en la zona horaria que estableció en la página de **información general** .
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
-![Icono del número 6, una llamada en la captura de pantalla](media/teamscallout6.png) anterior para configurar un salto (una pausa para la comida, por ejemplo), seleccione **Agregar nueva hora** para el día de la semana para crear una nueva fila de la tabla y seleccione nuevas horas de inicio y finalización. Puede establecer varios descansos dentro del horario comercial.
+![Icono del número 6, una llamada en la captura de pantalla anterior ](media/teamscallout6.png) para configurar un salto (una pausa para la comida, por ejemplo), seleccione **Agregar nueva hora** para el día de la semana para crear una nueva fila de la tabla y seleccione nuevas horas de inicio y finalización. Puede establecer varios descansos dentro del horario comercial.
 
 Las opciones de [flujo de llamadas](#call-flow) disponibles en horario laboral son las mismas que las disponibles durante el horario laboral. Desplácese hacia abajo en la página información para establecer las opciones de flujo de llamadas después de horas.
 
@@ -294,9 +294,9 @@ Puede agregar un máximo de 20 días festivos programados a cada operador autom�
 
 ![Captura de pantalla: no hay días festivos configurados](media/aa-no-holidays.png)
 
-![Icono del número 1, una llamada en la captura de pantalla](media/teamscallout1.png) anterior para establecer un flujo **de llamada personalizado** para un día festivo en el operador automático, haga clic en **+ Agregar** .
+![Icono del número 1, una llamada en la captura de pantalla anterior ](media/teamscallout1.png) para establecer un flujo de llamada personalizado para un día festivo en el operador automático, haga clic en **New holiday call flow** **+ Agregar** .
 > [!TIP]
-> Para crear días no laborables, puede ir a la pantalla en la **configuración** > de toda la organización**días festivos**.  
+> Para crear días no laborables, puede ir a la pantalla en la **configuración de toda la organización**  >  **días festivos**.  
 
 
 
@@ -304,13 +304,13 @@ Puede agregar un máximo de 20 días festivos programados a cada operador autom�
 
 * * *
 
-![Icono del número 1, una llamada en la captura de pantalla](media/teamscallout1.png) anterior, escriba un **nombre** para el nuevo flujo de llamadas.
+![Icono del número 1, una llamada en la captura de pantalla anterior, ](media/teamscallout1.png) Escriba un **nombre** para el nuevo flujo de llamadas.
 
-![Icono del número 2, una llamada en la captura de pantalla](media/teamscallout2.png) anterior si ya ha creado días festivos, los verá en el menú desplegable de **días festivos** y puede seleccionarlos. Es posible que vea una opción no usada que puede modificar en lo que necesita. De lo contrario, haga clic en **Agregar** en la parte inferior de la lista desplegable para crear un nuevo día festivo.  Consulte [configurar días festivos en Microsoft Teams](set-up-holidays-in-teams.md) para conocer los pasos que se usan para crear un día festivo. 
+![Icono del número 2, una llamada en la captura de pantalla anterior ](media/teamscallout2.png) si ya ha creado días festivos, los verá en el menú desplegable de **días festivos** y puede seleccionarlos. Es posible que vea una opción no usada que puede modificar en lo que necesita. De lo contrario, haga clic en **Agregar** en la parte inferior de la lista desplegable para crear un nuevo día festivo.  Consulte [configurar días festivos en Microsoft Teams](set-up-holidays-in-teams.md) para conocer los pasos que se usan para crear un día festivo. 
 
 Un nombre de flujo de llamadas de días festivos puede tener un máximo de 64 caracteres y debe ser único para la organización. Por ejemplo, no puede tener dos flujos de llamadas de festividades denominado "Navidad" en la misma organización. El operador automático puede tener un flujo de llamadas por cada festividad que haya configurado, pero es posible que desee tener un conjunto común de comportamientos planificados que no sean un saludo personalizado.
 
-![Icono del número 3, una llamada en la captura de pantalla](media/teamscallout3.png) anterior las opciones de [Greetings](#call-flow) disponibles para un flujo de llamadas de días festivos son las mismas opciones disponibles en el horario laboral. Las **acciones** que se realizan después de la reproducción del saludo también son similares, excepto en que las únicas acciones disponibles son **desconectar** o **redirigir a**y, cuando se elige la opción **redirigir a** , el operador no es una de las opciones disponibles. No se puede configurar un menú específico para un flujo de días no laborables.
+![Icono del número 3, una llamada en la captura de pantalla anterior ](media/teamscallout3.png) las opciones de [Greetings](#call-flow) disponibles para un flujo de llamadas de días festivos son las mismas opciones disponibles en el horario laboral. Las **acciones** que se realizan después de la reproducción del saludo también son similares, excepto en que las únicas acciones disponibles son **desconectar** o **redirigir a**y, cuando se elige la opción **redirigir a** , el operador no es una de las opciones disponibles. No se puede configurar un menú específico para un flujo de días no laborables.
 
 > [!NOTE]
 > De forma predeterminada, todas las llamadas recibidas durante un período de vacaciones se **desconectan** después del saludo (si procede), por lo que debes especificar un redireccionamiento si deseas un comportamiento personalizado.
@@ -329,7 +329,7 @@ Haga clic en **siguiente** para establecer el ámbito de marcado, **atrás** par
 
 En esta página, puede establecer quién aparece en el directorio y disponible para marcar por su nombre cuando una persona llama a su organización. El marcado por nombre está **desactivado** de forma predeterminada en una pantalla anterior. Todos los usuarios con una extensión estarán disponibles si seleccionó **marcar por extensión** anteriormente.
 
-![Icono del número 1, una llamada en la captura de pantalla](media/teamscallout1.png) anterior **incluye** las opciones de esta sección son **todos los usuarios en línea** o **grupos de usuarios personalizados** .
+![Icono del número 1, una llamada en la captura de pantalla anterior ](media/teamscallout1.png) **incluye** las opciones de esta sección son **todos los usuarios en línea** o **grupos de usuarios personalizados** .
 
 Si selecciona **todos los usuarios en línea**, todos los usuarios elegibles se incluyen en la búsqueda en directorios.
 
@@ -339,7 +339,7 @@ Si selecciona **todos los usuarios en línea**, todos los usuarios elegibles se 
 
 En esta página, puede configurar los usuarios de su organización que aparecerán en el directorio y que estarán disponibles para marcar por su nombre cuando sea una persona que llame a su organización.
 
-![Icono del número 2, una llamada en la captura de pantalla](media/teamscallout2.png) anterior **excepto** las opciones de esta sección le permiten excluir a determinados usuarios o grupos de usuarios del directorio de la organización.
+![Icono del número 2, una llamada en la captura de pantalla anterior ](media/teamscallout2.png) **excepto** las opciones de esta sección le permiten excluir a determinados usuarios o grupos de usuarios del directorio de la organización.
 
 Si selecciona **ninguno**, todos los usuarios elegibles se incluyen en la búsqueda de directorio.
 
@@ -361,11 +361,11 @@ Si aún no ha configurado una cuenta de recursos para su operador automático, v
 
 ![captura de pantalla: administración opcional de cuenta de recursos](media/aa-ra-optional.png) 
 
-![Icono del número 1, una llamada en la captura de pantalla](media/teamscallout1.png) anterior para agregar una o más cuentas de recursos existentes y sin asignar al operador automático, haga clic en **Agregar cuentas** y buscar y selecciónelas en los cuadros de diálogo proporcionados.
+![Icono del número 1, una llamada en la captura de pantalla anterior ](media/teamscallout1.png) para agregar una o más cuentas de recursos existentes y sin asignar al operador automático, haga clic en **Agregar cuentas** y buscar y selecciónelas en los cuadros de diálogo proporcionados.
 
 ![captura de pantalla de la vista de resumen del nuevo operador](media/aa-assigned.png)
 
-![Icono del número 1, una llamada en la captura de pantalla](media/teamscallout1.png) anterior para agregar una cuenta de recursos adicional, haga clic en **+ Agregar cuenta**.
+![Icono del número 1, una llamada en la captura de pantalla anterior ](media/teamscallout1.png) para agregar una cuenta de recursos adicional, haga clic en **+ Agregar cuenta**.
 
 ![Icono del número 2, una llamada en la captura de pantalla anterior](media/teamscallout2.png) La cuenta de recursos o cuentas asignadas a este operador automático se muestran en una lista.
 

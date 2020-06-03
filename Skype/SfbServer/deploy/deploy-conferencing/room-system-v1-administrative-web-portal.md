@@ -14,10 +14,10 @@ ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: El portal web administrativo de Skype empresarial Server V1 (SRS v1, anteriormente conocido como Lync Room System) es un portal web que las organizaciones pueden usar para mantener sus salas de conferencias de sistemas de salas de Skype. Los administradores pueden usar el portal web administrativo de SRS V1 para supervisar el estado de los dispositivos, por ejemplo, mediante la supervisión de dispositivos de audio y vídeo. Con este portal, los administradores pueden recopilar información de diagnóstico de forma remota para supervisar el estado de la sala de conferencias.
 ms.openlocfilehash: d718adb60437fdd7e08724a5ba5fc48fa120425e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
+ms.lasthandoff: 06/02/2020
 ms.locfileid: "42045903"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Implementar el portal web administrativo de SRS V1 en Skype empresarial Server
@@ -122,7 +122,7 @@ Para comprobar la instalación del portal web administrativo de SRS v1, haga lo 
 
 1. En un servidor front-end, vaya a la siguiente dirección URL:
 
-    https:// \< fe-servidor \> /LRS
+    https:// \<fe-server\> /LRS
 
     No debería ver ningún error, como se muestra en la siguiente imagen:
 
@@ -130,7 +130,7 @@ Para comprobar la instalación del portal web administrativo de SRS v1, haga lo 
 
 2. Si no ve ningún error, intente acceder a la siguiente dirección URL desde cualquier otro equipo de la topología:
 
-    https:// \< fe-servidor \> /LRS
+    https:// \<fe-server\> /LRS
 
     Para obtener acceso a la página, deberá agregar los registros DNS tal y como se describe en "[registros DNS necesarios para el inicio de sesión automático de cliente](https://go.microsoft.com/fwlink/p/?LinkId=318056)".
 
@@ -143,7 +143,7 @@ Después de implementar SRS en el servidor, puede comprobar el estado de todos l
 
 1. Vaya a la siguiente dirección URL:
 
-    https:// \< fe-servidor \> /LRS
+    https:// \<fe-server\> /LRS
 
 2. Escriba las credenciales de la cuenta LRSSupport o de una cuenta que se haya agregado al grupo de seguridad LRSSupportAdminGroup.
 

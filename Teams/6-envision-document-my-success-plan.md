@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd3cacafdf5f3f8369ea6bce18da2aac976e437b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 40f88c93e20fde89eb9791cc90760d554e52a004
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825138"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44512817"
 ---
 # <a name="document-my-success-plan"></a>Documentar el plan de éxito
 
@@ -108,11 +108,11 @@ El siguiente es un ejemplo de un plan de ejecución trimestral para la fase de p
 
 ## <a name="communications-and-governance-plan"></a>Plan de comunicaciones y gobernanza
 
-Para mantener las partes interesadas del proyecto al día con el progreso de la implementación, debe establecer un plan sobre cómo tendrán lugar las comunicaciones entre los miembros principales del equipo del proyecto y las partes interesadas para hablar sobre el estado del proyecto, clave hitos, bloqueadores y diversas revisiones del proyecto contra KSIs establecida, métrica operativa y objetivos estratégicos.
+Para mantener las partes interesadas del proyecto al día con el progreso de la implementación, debe establecer un plan sobre cómo tendrán lugar las comunicaciones entre los miembros principales del equipo del proyecto y las partes interesadas para discutir sobre el estado del proyecto, los hitos clave, los bloqueadores y las diversas revisiones del proyecto en relación con KSIs, métricas operacionales y objetivos estratégicos.
 
 Este es un ejemplo de un plan de administración y comunicaciones que puede aprovechar en su proyecto de implementación de voz en la nube.
 
-| Tipo                                        | Principales                                                                                                                                                      | Personas | Días/hora                                     | Ubicación             | Propietario de la reunión |
+| Tipo                                        | Principales                                                                                                                                                      | Participantes | Días/hora                                     | Ubicación             | Propietario de la reunión |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------------------------------------|----------------------|---------------|
 | Llamadas de Project standup                       | Sincronizar el estado del proyecto, realizar un seguimiento de los hitos clave y los bloqueadores                                                                                           | Por añadir          | Lunes, martes, miércoles, jueves 5 P.M. PST | Virtual              | Por añadir           |
 | Comité Directivo semanal                   | Revisar el estado del proyecto de voz en la nube, informar a los ejecutivos, plantear problemas que requieren la ayuda Ejecutiva para resolver                                        | Por añadir          | Todos los viernes 11 A.M. PST                        | Virtual              | Por añadir           |
@@ -173,7 +173,7 @@ Después de realizar la evaluación de la preparación para la adopción, el equ
 
 Identifique los recursos para admitir actividades de adopción, como prospectos, mensajes de correo electrónico de bienvenida y material de aprendizaje, además de las personalizaciones que necesite para cumplir con los requisitos de la organización.
 
-Descargue plantillas para las actividades de adopción del kit de éxito de los [clientes de Microsoft Teams](https://www.microsoft.com/download/details.aspx?id=54244).
+Descargue plantillas para las actividades de adopción del kit de éxito de los [clientes de Microsoft Teams](https://aka.ms/TeamsCustomerSuccess).
 
 ### <a name="operational-plan"></a>Plan operativo
 

@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BActivity
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: 577ed8ea84326510ad1c2943dcbf0b280a2bd9ae
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f50b8c03304a308594fd7bd920ee92e8d38a1f43
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769423"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205561"
 ---
 # <a name="activity-report"></a>Informe de actividad
 
-El panel de **informes** de Office 365 le muestra la información general de actividades en los productos de Office 365 de su organización. Le permite profundizar en informes individuales de nivel de producto para proporcionarle información más detallada sobre las actividades de cada producto. Por ejemplo, puede usar el informe de **actividad de Skype empresarial** para ver cuánto están usando las sesiones de conferencia de punto a punto o organizada o cuánto están participando en sesiones de conferencia. 
+El panel **informes** muestra la información general de actividades en los productos de Microsoft 365 o de Office 365 de su organización. Le permite profundizar en informes individuales de nivel de producto para proporcionarle información más detallada sobre las actividades de cada producto. Por ejemplo, puede usar el informe de **actividad de Skype empresarial** para ver cuánto están usando las sesiones de conferencia de punto a punto o organizada o cuánto están participando en sesiones de conferencia. 
 
 Consulte la [información general](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) de los informes para obtener más información.
   
@@ -40,9 +40,9 @@ Este informe, junto con los otros informes de Skype empresarial, le ofrece detal
   
 ## <a name="how-to-get-to-the-skype-for-business-activity-report"></a>Cómo acceder al informe de actividad de Skype Empresarial
 
-1. Vaya al centro de administración > **** > **uso**de informes.
+1. Vaya al centro de administración > **Reports**  >  **uso**de informes.
     
-2. En la **Página uso** , elija**actividad** de **Skype empresarial** > en la **lista seleccionar un informe** de la izquierda o haga clic en el widget de **actividad de Skype empresarial** .
+2. En la **Página uso** , elija actividad de **Skype empresarial**  >  **Activity** en la **lista seleccionar un informe** de la izquierda o haga clic en el widget de **actividad de Skype empresarial** .
 
   
 ## <a name="interpret-the-skype-for-business-activity-report"></a>Interpretar el informe de actividad de Skype Empresarial
@@ -89,7 +89,7 @@ En la tabla se muestra un desglose de todas las actividades de conferencia por u
 * **Punto a punto** muestra el número total de sesiones de conferencia de punto a punto que ha usado el usuario.
 * **Conferencias organizadas** muestra el número total de conferencias que ha organizado el usuario.
 * **Conferencias participadas** muestra el número total de conferencias en que ha participado el usuario.
-* **Producto asignado** hace referencia a los productos de Office 365 asignados a este usuario.<br/>
+* **Producto asignado** es el Microsoft 365 o los productos de Office 365 que están asignados a este usuario.<br/>
 
 Si las directivas de su organización le impiden ver informes en los que la información del usuario es identificable, puede cambiar la configuración de privacidad de todos estos informes. Consulte la sección **Ocultar detalles de usuario en la sección informes** de los [informes de actividades en el centro de administración](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***

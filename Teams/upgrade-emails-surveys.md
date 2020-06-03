@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Ejemplos de correo electrónico y encuestas para usar en conjunciton con el plan de acción acelerado de diez pasos para actualizar de Skype empresarial a teams
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b90c8f5d7094c036f29a6b64ecfca4e26f51640
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 202a1b4b1ac253979f264570368ec5ab4c819108
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837230"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522493"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Correo electrónico y encuestas de ejemplo para actualizar comunicaciones básicas
 
@@ -225,7 +225,7 @@ Indique su experiencia en las actividades siguientes de Teams y, si hay una o m�
 
 **¿Qué probabilidades hay de que recomiende Microsoft Teams a un amigo o colega? (0 = no es probable... 10 = extremadamente probable)**
 
-| ,0 | 1 | 1 | 3 | 4 | 5 | 6 | 7 | 4,8 | 99,999 | base10 |
+| ,0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 4,8 | 99,999 | base10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 

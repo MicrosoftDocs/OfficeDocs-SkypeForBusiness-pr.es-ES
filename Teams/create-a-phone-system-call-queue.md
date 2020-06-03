@@ -1,7 +1,7 @@
 ---
 title: Crear una cola de llamada
-ms.author: crowe
-author: CarolynRowe
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube con Microsoft Teams, que proporcionan un mensaje de saludo, mantener música, redirigir llamadas y otras características.
-ms.openlocfilehash: 8d7001d3e4052eddcfce1d3dfa3da845bce3af66
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 9c2593f657ae66a1dcde825ac7a783df10cd96d8
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44047381"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523726"
 ---
 # <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 
@@ -64,11 +64,11 @@ Para comenzar a utilizar colas de llamadas, es importante recordar algunas cosas
 - Se necesita una cola de llamadas para tener una cuenta de recursos asociada. Para obtener más información sobre las cuentas de recursos, consulte [administrar cuentas de recursos en Teams](manage-resource-accounts.md) .
 - Cuando asigne un número de teléfono a una cuenta de recursos, ahora puede usar la [licencia de usuario virtual](teams-add-on-licensing/virtual-user.md)del sistema telefónico para el coste. El sistema telefónico permite números de teléfono en el nivel de la organización para su uso con los servicios de cola de llamadas y los operadores automáticos de bajo costo.
 
-> [!NOTE]
-> Los números del servicio de enrutamiento directo para colas de llamadas solo se admiten para usuarios y agentes de Microsoft Teams.
+  > [!NOTE]
+  > Los números del servicio de enrutamiento directo para colas de llamadas solo se admiten para usuarios y agentes de Microsoft Teams.
 
-> [!NOTE]
-> Para redirigir las llamadas a las personas de su organización que están conectadas, deben tener una licencia de **sistema telefónico** y estar habilitadas para telefonía IP empresarial o tener planes de llamadas de Office 365. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+  > [!NOTE]
+  > Para redirigir las llamadas a las personas de su organización que están conectadas, deben tener una licencia de **sistema telefónico** y estar habilitadas para telefonía IP empresarial o tener planes de llamadas de Office 365. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Para obtener más información sobre los planes de llamadas de Office 365, consulte planes de llamadas y [sistemas telefónicos](calling-plan-landing-page.md) y [planes de llamadas para Office 365](calling-plans-for-office-365.md).
 
@@ -80,33 +80,23 @@ Para comenzar a utilizar colas de llamadas, es importante recordar algunas cosas
 - Los siguientes clientes son compatibles con los agentes de llamadas asociados a una cola de llamadas en la nube:
 
   - Cliente de escritorio de Skype empresarial 2016 (versiones de 32 y 64 bits)
-
   - Cliente de escritorio de Lync 2013 (versiones de 32 y 64 bits)
-
   - Todos los modelos de teléfono IP compatibles con Microsoft Teams. Consulte [Obtener teléfonos con Skype Empresarial Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).
-
   - Cliente de Skype for Business para Mac (versión 16.8.196 y posteriores)
-
   - Cliente de Skype para Business para Android (versión 6.16.0.9 y posteriores)
-
   - Cliente de Skype for Business para iPhone (versión 6.16.0 y posteriores)
-
   - Cliente de Skype for Business para iPad (versión 6.16.0 y posteriores)
-
   - Cliente de Windows de Microsoft Teams (versiones de 32 y 64 bits)
-
   - Cliente de Microsoft Teams para Mac
-
   - Aplicación Microsoft Teams para iPhone
-
   - Aplicación Microsoft Teams para Android
 
     > [!NOTE]
-    > Las colas de llamadas que tengan asignado un número de enrutamiento directo no serán compatibles con los clientes de Skype empresarial, los clientes de Lync ni los teléfonos IP de Skype empresarial como agentes.
+    > Las colas de llamadas a las que se asigna un número de enrutamiento directo no son compatibles con clientes de Skype empresarial, clientes de Lync o teléfonos IP de Skype empresarial como agentes.
 
 ## <a name="step-2--get-or-transfer-toll-or-toll-free-service-phone-numbers"></a>Paso 2: obtener o transferir números de teléfono de pago o gratuitos
 
-Antes de crear y configurar las colas de llamadas, debes obtener o transferir tus números de teléfono de pago o gratuitos existentes. Para obtener tus números de servicio, consulta [obtener números de teléfono de servicio](getting-service-phone-numbers.md) o, si deseas transferir un número de servicio existente, consulta [transferir números de teléfono a Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md). Después de recibir los números**de teléfono de**pago o gratuitos, aparecerán en > **los números de teléfono**del centro > de **Administración de Microsoft Teams**. Los números gratuitos se mostrarán con un **tipo** de servicio de número **(gratuito)**.
+Antes de crear y configurar las colas de llamadas, debes obtener o transferir tus números de teléfono de pago o gratuitos existentes. Para obtener tus números de servicio, consulta [obtener números de teléfono de servicio](getting-service-phone-numbers.md) o, si deseas transferir un número de servicio existente, consulta [transferir números de teléfono a Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md). Después de recibir los números de teléfono de pago o gratuitos, aparecerán en **Microsoft Teams admin center**  >  **Voice**  >  **los números de teléfono**del centro de administración de Microsoft Teams. Los números gratuitos se mostrarán con un **tipo** de servicio de número **(gratuito)**.
 
 > [!NOTE]
 > Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener los números de servicio. En su lugar, vaya a [administrar números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para ver cómo hacerlo desde fuera de los Estados Unidos.
@@ -122,7 +112,7 @@ Cuando configure varios operadores automáticos, normalmente asignaría un núme
 
 ### <a name="use-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
 
-En el **centro de administración de Microsoft Teams**,**colas de llamadas**de **voz** > y, a continuación, haga clic en **+ Agregar nuevo**:
+En el **centro de administración de Microsoft Teams**, colas de llamadas de **voz**  >  **Call queues**y, a continuación, haga clic en **+ Agregar nuevo**:
 
 ### <a name="set-the-display-name-and-resource-account"></a>Establecer el nombre para mostrar y la cuenta de recursos
 
@@ -130,15 +120,15 @@ En el **centro de administración de Microsoft Teams**,**colas de llamadas**de *
 
 * * *
 
-![El icono del número 1 hace referencia a una llamada en el](media/teamscallout1.png)
-**nombre** de la captura de pantalla anterior escriba un nombre descriptivo para la cola de llamadas. Este nombre es obligatorio y puede contener hasta 64 caracteres, incluidos los espacios.
+![El icono del número 1 hace referencia a una llamada en el nombre de la captura de pantalla anterior ](media/teamscallout1.png)
+ **Name** escriba un nombre descriptivo para la cola de llamadas. Este nombre es obligatorio y puede contener hasta 64 caracteres, incluidos los espacios.
 
  Este nombre se muestra en la notificación de la llamada entrante.
 
 * * *
 
-![Icono del número 2, que hace referencia a una llamada en la](media/teamscallout2.png)
-captura de pantalla anterior**Agregar cuentas** Seleccione una cuenta de recursos. Todas las colas de llamadas deben tener una cuenta de recursos. No es necesario que las cuentas de recursos tengan un número de teléfono gratuito o gratuito.
+![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior ](media/teamscallout2.png)
+ **Agregar cuentas** Seleccione una cuenta de recursos. Todas las colas de llamadas deben tener una cuenta de recursos. No es necesario que las cuentas de recursos tengan un número de teléfono gratuito o gratuito.
 
 Si no hay ninguna lista, obtenga números de servicio y asígnelos a una cuenta de recursos antes de crear la cola de llamadas, como se describe anteriormente. Para obtener tus números de servicio, consulta [obtener números de teléfono de servicio](getting-service-phone-numbers.md). Consulte [administrar cuentas de recursos en Teams](manage-resource-accounts.md) para obtener información específica sobre cómo asignar un número de teléfono.
 
@@ -151,13 +141,13 @@ Si no hay ninguna lista, obtenga números de servicio y asígnelos a una cuenta 
 
 * * *
 
-![El icono del número 1, hace referencia a una llamada en la](media/teamscallout1.png)
-captura de pantalla anterior,**saludo** el saludo opcional que se reproduce para las personas que llaman al número de la cola de llamadas.
+![El icono del número 1, hace referencia a una llamada en la captura de pantalla anterior, ](media/teamscallout1.png)
+ **saludo** el saludo opcional que se reproduce para las personas que llaman al número de la cola de llamadas.
 
 Puede cargar un archivo de audio (en formato. wav,. mp3 o. WMA).
 
-![Icono del número 2, que hace referencia a una llamada en la](media/teamscallout2.png)
-captura de pantalla anterior**música en espera** puede usar la música predeterminada en espera con la cola de llamadas. También puede cargar un archivo de audio en formato. wav, MP3 o. WMA para usarlo como música personalizada en espera.
+![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior ](media/teamscallout2.png)
+ **música en espera** puede usar la música predeterminada en espera con la cola de llamadas. También puede cargar un archivo de audio en formato. wav, MP3 o. WMA para usarlo como música personalizada en espera.
 
 * * *
 
@@ -165,8 +155,8 @@ captura de pantalla anterior**música en espera** puede usar la música predeter
 
 ![Captura de pantalla de las opciones de contestador automático](media/teams-cq-call-answering-options.png)
 
-![El icono del número 1, hace referencia a una llamada en la](media/teamscallout1.png)
-captura de pantalla anterior de los**agentes y grupos** para agregar agentes individuales directamente, sin agregarlos a un grupo, haga clic en **Agregar usuarios**. Coloca agentes individuales en el orden en que quieras que reciban la llamada. Puedes añadir hasta 20 agentes individuales (para añadir más de 20, ponerlos en un grupo).
+![El icono del número 1, hace referencia a una llamada en la captura de pantalla anterior de los ](media/teamscallout1.png)
+ **agentes y grupos** para agregar agentes individuales directamente, sin agregarlos a un grupo, haga clic en **Agregar usuarios**. Coloca agentes individuales en el orden en que quieras que reciban la llamada. Puedes añadir hasta 20 agentes individuales (para añadir más de 20, ponerlos en un grupo).
 
 Las llamadas se enrutan primero a los agentes individuales y luego a los agentes en grupos. 
 
@@ -185,21 +175,42 @@ Los agentes de llamadas seleccionados deben ser uno de los siguientes:
   > [!NOTE]
   > Esto también se aplica si desea redirigir las llamadas a las personas de su organización que están conectadas. Estas personas deben tener una licencia de **sistema telefónico** y la telefonía IP empresarial habilitada *o* tener un plan de llamadas. Para obtener más información, vea [asignar licencias de Skype empresarial](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [asignar licencias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)o [el plan de llamadas es adecuado para usted](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page) .
 
- Para habilitar un agente para telefonía IP empresarial, puede usar Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   Para habilitar un agente para telefonía IP empresarial, puede usar Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Usuarios con una licencia de **sistema telefónico** o un plan de llamadas que se agregan a un grupo de Office 365. una lista de distribución habilitada para correo electrónico. o un grupo de seguridad. Al agregar un agente en una lista de distribución o un grupo de seguridad como agente de la cola de llamadas, puede demorar hasta tres horas en llegar a la primera llamada. Una lista de distribución o un grupo de seguridad recién creados puede demorar 48 horas en estar disponible para usarse con las colas de llamadas. Los grupos de Microsoft 365 recién creados están disponibles casi de inmediato.
 
 - Si los agentes usan la aplicación Microsoft Teams para las llamadas de la cola de llamadas, deben estar en modo TeamsOnly.
 
-![Icono del número 2, que hace referencia a una llamada en el](media/teamscallout2.png)
-**método de enrutamiento** de captura de pantalla anterior, puede elegir entre **operador**, **serie**o **Round Robin** como método de distribución. Todas las colas de llamadas nuevas y existentes tienen el enrutamiento de operador seleccionado de forma predeterminada. Cuando se usa el enrutamiento del operador, la primera llamada en la cola llama a todos los agentes de llamadas al mismo tiempo. El primer agente de llamadas que atiende la llamada recibe la llamada.
+![El icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior en el modo de conferencia en ](media/teamscallout2.png)
+ **modo** de conferencia, reduce significativamente la cantidad de tiempo que tarda una persona que se conecte a un agente, después de que el agente acepte la llamada. Si tiene más de una cola de llamadas, puede habilitar el modo de conferencia en algunas o en todas las colas de llamadas. habilitar o deshabilitar el modo de conferencia en una cola de llamadas no afecta a las demás colas de llamadas.
+
+El modo de conferencia está deshabilitado de forma predeterminada, pero se puede habilitar en cualquier momento si se cumplen los siguientes requisitos:
+
+- Los agentes añadidos a la cola de llamadas deben usar uno de los siguientes clientes:
+  - La versión más reciente del cliente de escritorio de Microsoft Teams, la aplicación Android o la aplicación iOS
+  - Microsoft Teams Phone versión 1449/1.0.94.2020051601 o posterior
+- Las cuentas de los agentes de Teams deben establecerse en modo de solo Teams
+
+> [!IMPORTANT]
+> Si los requisitos del agente anteriores no se cumplen y el modo de conferencia está habilitado en una cola de llamadas, los agentes que no cumplan con los requisitos no se incluyen en la lista de enrutamiento de llamadas. Los agentes que no se encuentren en la lista de enrutamiento de llamadas no recibirán llamadas. Si tiene agentes que no cumplen con los requisitos del agente anteriores, no habilite el modo de conferencia en la cola de llamadas.
+
+Después de habilitar el modo de conferencia en una cola de llamadas, las llamadas se beneficiarán del tiempo de conexión más rápido si se reciben mediante uno de los siguientes métodos:
+
+- Llamadas VoIP desde otro cliente de escritorio de Microsoft Teams
+- Plan de llamadas RTC
+- Enrutamiento directo de llamadas RTC
+
+La mayoría de las llamadas se reciben a través de uno de los métodos mencionados anteriormente. Si se recibe una llamada a través de otro método (como una llamada de VoIP desde un cliente de Skype empresarial), la llamada se agregará a la cola de llamadas, pero no se beneficiará de la conexión más rápida.
+
+![Icono del número 3, que hace referencia a una llamada en el método de enrutamiento de captura de pantalla anterior, ](media/teamscallout3.png)
+ **Routing method** puede elegir entre **operador**, **serie**o **Round Robin** como método de distribución. Todas las colas de llamadas nuevas y existentes tienen el enrutamiento de operador seleccionado de forma predeterminada. Cuando se usa el enrutamiento del operador, la primera llamada en la cola llama a todos los agentes de llamadas al mismo tiempo. El primer agente de llamadas que atiende la llamada recibe la llamada.
 
 - El **enrutamiento del operador** hace que la primera llamada de la cola suene a todos los agentes de llamadas al mismo tiempo. El primer agente de llamadas que atiende la llamada recibe la llamada.
 - El **enrutamiento serie** llama a todos los agentes de llamadas de uno en uno, desde el principio de la lista de agentes de llamadas. Los agentes no se pueden pedir dentro de la lista de agentes de llamadas. Si un agente descarta o no atiende una llamada, la llamada sonará al próximo agente y probará con todos los agentes hasta que se seleccione o agote el tiempo de espera.
 - El enrutamiento **Round Robin** de equilibra las llamadas entrantes para que cada agente de llamadas obtenga el mismo número de llamadas de la cola. Esto puede ser conveniente en un entorno de ventas entrante para asegurar la igualdad de oportunidades entre todos los agentes de llamadas.
 
-![El icono del número 3, que hace referencia a una llamada en](media/teamscallout3.png)
-**la captura de** pantalla anterior, el enrutamiento basado en presencia usa el estado de disponibilidad de los agentes de llamadas para determinar si un agente debería estar incluido en la lista de enrutamiento de llamadas para el método de enrutamiento seleccionado. Los agentes de llamadas cuyo estado de disponibilidad esté establecido en **disponible** se incluyen en la lista de enrutamiento de llamadas y pueden recibir llamadas. Los agentes cuyo estado de disponibilidad esté establecido en cualquier otro Estado se excluyan de la lista de enrutamiento de llamadas y no recibirán llamadas hasta que su estado de disponibilidad cambie de nuevo a **disponible**.
+![El icono del número 4, que hace referencia a una llamada en la captura de pantalla anterior, el enrutamiento basado en presencia ](media/teamscallout4.png)
+ **Presence-based routing** usa el estado de disponibilidad de los agentes de llamadas para determinar si un agente debería estar incluido en la lista de enrutamiento de llamadas para el método de enrutamiento seleccionado. Los agentes de llamadas cuyo estado de disponibilidad esté establecido en **disponible** se incluyen en la lista de enrutamiento de llamadas y pueden recibir llamadas. Los agentes cuyo estado de disponibilidad esté establecido en cualquier otro Estado se excluyan de la lista de enrutamiento de llamadas y no recibirán llamadas hasta que su estado de disponibilidad cambie de nuevo a **disponible**.
 
 Puede habilitar el enrutamiento de llamadas basado en presencia con cualquiera de los métodos de enrutamiento.
 
@@ -214,8 +225,8 @@ Si un agente opta por recibir llamadas, no se incluirán en la lista de enrutami
 
 * * *
 
-![El icono del número 1 hace referencia a una llamada en el agente](media/teamscallout1.png)
-de captura de pantalla anterior que**puede optar por recibir llamadas** puede optar por permitir que los agentes de la cola de llamadas no puedan tomar llamadas de una cola determinada habilitando esta opción.
+![El icono del número 1 hace referencia a una llamada en el agente de captura de pantalla anterior que ](media/teamscallout1.png)
+ **puede optar por recibir llamadas** puede optar por permitir que los agentes de la cola de llamadas no puedan tomar llamadas de una cola determinada habilitando esta opción.
 
 Al habilitar esta opción, todos los agentes de esta cola iniciarán o dejarán de recibir llamadas de esta cola de llamadas. Puede revocar en cualquier momento el privilegio de no participación de agente desactivando la casilla de verificación, lo que hace que los agentes participen automáticamente de nuevo en esta cola (el valor predeterminado de todos los agentes).
 
@@ -226,12 +237,12 @@ Para acceder a la opción de cancelación de la suscripción, los agentes pueden
  3. En la página Configuración de usuario, haga clic en **colas de llamadas**y, a continuación, desactive las casillas para anular las colas.
 
     > [!NOTE]
-    > Los agentes que usen aplicaciones o extremos que no sean de Skype empresarial pueden acceder a la opción de cancelación de la suscripción en [https://aka.ms/cqsettings](https://aka.ms/cqsettings)el portal de configuración de usuario.
+    > Los agentes que usen aplicaciones o extremos que no sean de Skype empresarial pueden acceder a la opción de cancelación de la suscripción en el portal de configuración de usuario [https://aka.ms/cqsettings](https://aka.ms/cqsettings) .
     >
     > Si los agentes se encuentran en clientes de escritorio de Microsoft Teams, pueden dejar de participar usando la configuración de la llamada. 
 
-![Icono del número 2, que hace referencia a una llamada en la](media/teamscallout2.png)
-**configuración de alerta del agente** de captura de pantalla anterior
+![Icono del número 2, que hace referencia a una llamada en la ](media/teamscallout2.png)
+ **configuración de alerta del agente** de captura de pantalla anterior
 
 Esto define la duración de un agente de notificación de una llamada antes de que los métodos de enrutamiento de serie o de turnos pasen al siguiente agente.
 
@@ -245,13 +256,13 @@ La configuración predeterminada es de 30 segundos, pero se puede establecer has
 
 * * *
 
-![Icono del número 1, que hace referencia a una llamada en la](media/teamscallout1.png)
-captura de pantalla anterior**llamadas máximas en la cola** use esta configuración para establecer las llamadas máximas que pueden esperar en la cola al mismo tiempo. El valor predeterminado es 50, pero puede estar comprendido entre 0 y 200. Cuando se alcanza este límite, la llamada se maneja de la forma que estableces en la configuración **cuando se alcanza el número máximo de llamadas** , a continuación.
+![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior ](media/teamscallout1.png)
+ **llamadas máximas en la cola** use esta configuración para establecer las llamadas máximas que pueden esperar en la cola al mismo tiempo. El valor predeterminado es 50, pero puede estar comprendido entre 0 y 200. Cuando se alcanza este límite, la llamada se maneja de la forma que estableces en la configuración **cuando se alcanza el número máximo de llamadas** , a continuación.
 
 * * *
 
-![Icono del número 2, que hace referencia a una llamada en la](media/teamscallout2.png)
-captura de pantalla anterior**cuando se alcanza el número máximo de llamadas** cuando la cola de llamadas alcanza su tamaño máximo (establecido mediante las **llamadas máximas en la configuración de la cola** ), puede elegir qué sucede con las llamadas entrantes nuevas.
+![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior ](media/teamscallout2.png)
+ **cuando se alcanza el número máximo de llamadas** cuando la cola de llamadas alcanza su tamaño máximo (establecido mediante las **llamadas máximas en la configuración de la cola** ), puede elegir qué sucede con las llamadas entrantes nuevas.
 
 - **Desconectar** La llamada se desconectará.
 - **Redirigir a** Si elige esta opción, seleccione una de las siguientes opciones:
@@ -264,13 +275,13 @@ captura de pantalla anterior**cuando se alcanza el número máximo de llamadas**
 
 * * *
 
-![El icono del número 3 hace referencia a una llamada en la captura](media/teamscallout3.png)
-de pantalla anterior**tiempo de espera de llamada: tiempo de espera máximo** también puede decidir cuánto tiempo puede estar en espera una llamada en la cola antes de que se agote el tiempo de espera y que deba redirigirse o desconectarse. El lugar donde se redirige se basa en el modo en que se establece la configuración **cuando la llamada supera el tiempo de espera** . Puede establecer un intervalo de entre 0 y 45 minutos.
+![El icono del número 3 hace referencia a una llamada en la captura de pantalla anterior ](media/teamscallout3.png)
+ **tiempo de espera de llamada: tiempo de espera máximo** también puede decidir cuánto tiempo puede estar en espera una llamada en la cola antes de que se agote el tiempo de espera y que deba redirigirse o desconectarse. El lugar donde se redirige se basa en el modo en que se establece la configuración **cuando la llamada supera el tiempo de espera** . Puede establecer un intervalo de entre 0 y 45 minutos.
 
 El valor de tiempo de espera se puede establecer en segundos, en intervalos de 15 segundos. Esto permite manipular el flujo de llamadas con una granularidad más fina. Por ejemplo, puede especificar que las llamadas no contestadas por un agente en un plazo de 30 segundos vayan a un operador automático de búsqueda de directorios.
 
-![Icono del número 4, que hace referencia a una llamada en la](media/teamscallout4.png)
-captura de pantalla anterior**cuando la llamada supera el tiempo** de espera cuando la llamada alcanza el límite establecido en el valor de **tiempo de espera de una llamada en la cola** , puede elegir qué sucede con la llamada:
+![Icono del número 4, que hace referencia a una llamada en la captura de pantalla anterior ](media/teamscallout4.png)
+ **cuando la llamada supera el tiempo** de espera cuando la llamada alcanza el límite establecido en el valor de **tiempo de espera de una llamada en la cola** , puede elegir qué sucede con la llamada:
 
 - **Desconectar** La llamada se desconectará.
 - **Redirigir esta llamada a** Si elige esta opción, tiene estas opciones:

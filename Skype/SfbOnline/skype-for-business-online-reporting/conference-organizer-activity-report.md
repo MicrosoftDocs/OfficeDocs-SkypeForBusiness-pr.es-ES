@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BOrgActivity
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: f005a1ee53d1fc5ab5ee9e4736ff8d6d241f3a6e
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 3d00b86e5e080e16f199a6f9e2fd24de2d607d23
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769393"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44204841"
 ---
 # <a name="conference-organizer-activity-report"></a>Informe de actividad del organizador de la conferencia
 
-[] El nuevo panel **Informes** de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe de **actividad de organizador de conferencias de Skype empresarial** para ver cuánto están organizando las conferencias que usan la mensajería instantánea, el audio/vídeo, el uso compartido de aplicaciones, la web, las llamadas entrantes y salientes, los usuarios de acceso telefónico y salientes, Microsoft. 
+El panel **informes** muestra la información general de actividades en los productos de Microsoft 365 o de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe de **actividad de organizador de conferencias de Skype empresarial** para ver cuánto están organizando las conferencias que usan la mensajería instantánea, el audio/vídeo, el uso compartido de aplicaciones, la web, las llamadas entrantes y salientes, los usuarios de acceso telefónico y salientes, Microsoft. 
 
 Consulte la [información general](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) de los informes para obtener más información.
   
@@ -40,9 +40,9 @@ Este informe, junto con los otros informes de Skype empresarial, le ofrece detal
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-organizer-report"></a>Cómo acceder al informe de organizador de conferencias de Skype Empresarial
 
-1. Vaya al centro de administración > **** > **uso**de informes.
+1. Vaya al centro de administración > **Reports**  >  **uso**de informes.
     
-2. En la página **uso** , seleccione**actividad de organizador de conferencias** de **Skype empresarial** >en la **lista seleccionar un informe** de la izquierda. O bien, haga clic en el widget **actividad de Skype empresarial** y, a continuación, haga clic en **actividad de organizador de conferencias de Skype empresarial** en la lista de **actividades de Skype empresarial** .
+2. En la página **uso** , seleccione actividad de organizador de conferencias de **Skype empresarial**  > **Conference organizer activity** en la **lista seleccionar un informe** de la izquierda. O bien, haga clic en el widget **actividad de Skype empresarial** y, a continuación, haga clic en **actividad de organizador de conferencias de Skype empresarial** en la lista de **actividades de Skype empresarial** .
   
 ## <a name="interpret-the-skype-for-business-conferences-organizer-report"></a>Interpretar el informe de organizador de conferencias de Skype Empresarial
 

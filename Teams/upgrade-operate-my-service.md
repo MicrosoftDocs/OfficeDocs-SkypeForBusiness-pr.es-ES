@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Tareas y actividades necesarias para la administración de servicios de Teams, como la supervisión del estado del servicio, la evaluación y la seguridad de la calidad y el uso de la red
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3183eac6851531bcaefbddd72cc445844755b307
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 976954014e3d1e78e8ca22de4f20a95985033006
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997291"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523323"
 ---
 # <a name="operate-your-service"></a>Ejecutar los servicios
 
@@ -49,7 +49,7 @@ Las tareas y actividades de esta guía se agrupan en ocho categorías, tal como 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decidir cómo se implementarán las operaciones para Teams.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul><li>Revise completa la guía de operaciones.</li><li>Implemente una estrategia de operaciones que se alinee con los objetivos de su organización para ofrecer la calidad y confiabilidad de las cargas de trabajo de Teams.</li><li>Revise la guía de revisión de la calidad de la experiencia.</li><li> Implemente una estrategia de operaciones para realizar regularmente revisiones de la experiencia de la experiencia para asegurarse de que su implementación de equipos está funcionando a su máxima capacidad.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Revise completa la guía de operaciones.</li><li>Implemente una estrategia de operaciones que se alinee con los objetivos de su organización para ofrecer la calidad y confiabilidad de las cargas de trabajo de Teams.</li><li>Revise la guía de revisión de la calidad de la experiencia.</li><li> Implemente una estrategia de operaciones para realizar regularmente revisiones de la experiencia de la experiencia para asegurarse de que su implementación de equipos está funcionando a su máxima capacidad.</li></ul></td></tr>
 </table>
 
 ### <a name="operational-role-mapping"></a>Asignación de roles operativos
@@ -67,7 +67,7 @@ Asegúrese de que cada equipo contable tenga una buena comprensión de las activ
 Una vez que se haya implementado un contrato, los equipos correspondientes deberán comenzar a operar sus roles.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td>
 <td><ul><li>Use este documento para facilitar el ejercicio de asignación de roles operativos.</li><li>Reunirse con los respectivos equipos de soporte técnico para asignar nombres a cada elemento de la lista de actividades necesarias.</li><li>Gana la aceptación o la aprobación de los roles asignados.</li><li>Asegúrese de que los equipos correspondientes tengan la formación, preparación y recursos adecuados para completar las actividades que necesiten.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Dependencias del servicio de Teams
@@ -166,7 +166,7 @@ Puede supervisar el estado del servicio y los próximos cambios aprovechando la 
 
 Microsoft Teams es un servicio basado en la nube. Gracias a esto se obtiene la capacidad de ofrecer nuevas características y funcionalidades a un ritmo rápido. Ofrecer una innovación continua ofrece una ventaja obvia para las organizaciones, pero estos cambios deben administrarse adecuadamente dentro de la organización para evitar la resistencia del usuario o el aumento de nivel al Departamento de soporte técnico.
 
-Las actualizaciones de Teams se distribuyen automáticamente a los usuarios. Los usuarios siempre tendrán el cliente y las características más recientes disponibles en el servicio de Teams. No es posible administrar la implementación de actualizaciones de Teams para los usuarios, por lo que es muy importante administrar los cambios mediante programas de comunicación, aprendizaje y adopción eficaces. Si los usuarios son conscientes del cambio, les ha informado sobre los beneficios y están capacitados para aprovechar las nuevas&mdash;capacidades, podrán adaptarse más rápidamente y Bienvenido al cambio.
+Las actualizaciones de Teams se distribuyen automáticamente a los usuarios. Los usuarios siempre tendrán el cliente y las características más recientes disponibles en el servicio de Teams. No es posible administrar la implementación de actualizaciones de Teams para los usuarios, por lo que es muy importante administrar los cambios mediante programas de comunicación, aprendizaje y adopción eficaces. Si los usuarios son conscientes del cambio, les ha informado sobre los beneficios y están capacitados para aprovechar las nuevas capacidades, podrán &mdash; adaptarse más rápidamente y Bienvenido al cambio.
 
 ### <a name="monitoring-for-change"></a>Supervisión de cambios
 

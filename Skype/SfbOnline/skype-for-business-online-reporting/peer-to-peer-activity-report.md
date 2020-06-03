@@ -22,16 +22,16 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 53d36b29961991a6d87ccd8b3ccfb94335693ac8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 3708bff31f0034347c23d67d58cf4be7cb3bc956
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769343"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205061"
 ---
 # <a name="peer-to-peer-activity-report"></a>Informe de actividad punto a punto
 
-[] El nuevo panel **Informes** de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe de **actividad punto a punto de Skype empresarial** para ver cuánto usan los usuarios mi, audio, vídeo, uso compartido de aplicaciones y transferencia de archivos. 
+El panel **informes** muestra la información general de actividades en los productos de Microsoft 365 o de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe de **actividad punto a punto de Skype empresarial** para ver cuánto usan los usuarios mi, audio, vídeo, uso compartido de aplicaciones y transferencia de archivos. 
 
 Consulte la [información general](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)de los informes.
   
@@ -42,9 +42,9 @@ Este informe, junto con los otros informes de Skype empresarial, le ofrece detal
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>Cómo acceder al informe de actividad punto a punto de Skype Empresarial
 
-1. Vaya al centro de administración > **** > **uso**de informes.
+1. Vaya al centro de administración > **Reports**  >  **uso**de informes.
     
-2. En la página **uso** , seleccione**actividad punto a punto** de **Skype empresarial** > en la **lista seleccionar un informe** de la izquierda. O bien, haga clic en el widget **actividad de Skype** empresarial y, a continuación, haga clic en **actividad punto a punto de Skype empresarial** en la lista de **actividades de Skype empresarial** .
+2. En la página **uso** , seleccione **Skype for Business**  >  **actividad punto a punto** de Skype empresarial en la **lista seleccionar un informe** de la izquierda. O bien, haga clic en el widget **actividad de Skype** empresarial y, a continuación, haga clic en **actividad punto a punto de Skype empresarial** en la lista de **actividades de Skype empresarial** .
 
 ## <a name="interpret-the-skype-for-business-peer-to-peer-activity-report"></a>Interpretar el informe de actividad punto a punto de Skype Empresarial
 

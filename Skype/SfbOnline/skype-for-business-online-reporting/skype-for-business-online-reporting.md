@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: 24574fdc572eeca323487b40ff9a1d5874f4f5ea
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 90326597b6df3a96e7624852d849a64e3eec348f
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705955"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205491"
 ---
 # <a name="skype-for-business-online-reporting"></a>Creación de informes en Skype Empresarial Online
 
@@ -33,15 +33,15 @@ Como administrador de su organización, sería útil tener una lista completa de
 Para obtener acceso a los informes de Skype empresarial online, inicie sesión en el centro de administración de Microsoft 365 con su cuenta de usuario y contraseña. La cuenta que use para iniciar sesión debe estar asignada al rol de administrador global o delegar el rol de administrador de servicios de Skype empresarial para poder ver los informes.
   
 > [!NOTE]
-> Para comprobar los permisos, en el centro de **Administración >** > usuarios**activos**. Haga clic en el nombre para mostrar del usuario y, a continuación, haga clic en **Editar** y en la página de propiedades de la cuenta, haga clic en **roles** .
+> Para comprobar los permisos, en el centro de **Administración > usuarios**  >  **activos**. Haga clic en el nombre para mostrar del usuario y, a continuación, haga clic en **Editar** y en la página de propiedades de la cuenta, haga clic en **roles** .
   
 ## <a name="skype-for-business-online-reporting-reference"></a>Referencia de informes en Skype Empresarial Online
 
-En los centros de administración de Office 365 y de Skype empresarial, puede usar diferentes tipos de informes, incluidos los de Skype empresarial online.
+En los centros de administración, puede usar diferentes tipos de informes, incluidos los de Skype empresarial online.
   
  **Para ver los informes**
   
-1. Vaya al centro de administración o los > **informes**del **centro de administración de Skype empresarial**.
+1. Vaya al centro de administración o los informes del **centro de administración de Skype empresarial**  >  **Reports**.
     
 2. En la ventana del panel, haga clic en el widget de informes o seleccione el informe que quiera en la lista.
     

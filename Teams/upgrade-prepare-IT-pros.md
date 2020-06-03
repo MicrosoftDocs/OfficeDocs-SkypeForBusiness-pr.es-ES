@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Obtenga más información sobre cómo preparar al personal de TI de su organización para implementar y ofrecer soporte técnico a Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de62e9e8c55af81b68188d3f5b8ad63975bb9058
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 51d4170d949daa9c53cb8035ab0a3249e4127ca3
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905262"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523053"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Preparar el personal de TI para Microsoft Teams
 

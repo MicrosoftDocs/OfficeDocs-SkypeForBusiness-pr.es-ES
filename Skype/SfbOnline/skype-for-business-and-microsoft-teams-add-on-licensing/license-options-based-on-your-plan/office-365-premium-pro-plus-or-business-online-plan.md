@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Obtenga más información sobre las licencias de complementos, las características y cómo comprar para las aplicaciones de Microsoft 365 para empresas o el plan independiente 2 de Skype empresarial online.
-ms.openlocfilehash: f7ec0d5bec1dbf9aea795c7dee75e4fb0a606077
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d7c09d25a31d54a73591b53807828ea02c3d637c
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777925"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44204861"
 ---
 # <a name="microsoft-365-apps-for-enterprise-or-skype-for-business-online-standalone-plan-2"></a>Microsoft 365 apps para empresas o Skype empresarial online plan independiente 2
 
@@ -40,6 +40,6 @@ Si ya ha comprado las [aplicaciones de Microsoft 365 para empresas](https://prod
 |**Para agregar esta característica** <br/> |**Esto es lo que debe comprar** <br/> |
 |**Audioconferencia** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |Complemento de **Audioconferencia** <br/>Una vez adquirida la licencia, Microsoft será su proveedor de audioconferencias. |
 |**Números gratuitos para el acceso telefónico a las conferencias y la posibilidad de llamar desde una conferencia para agregar a alguien llamando a cualquier número de teléfono del mundo** <br/> |[Créditos de comunicaciones](/microsoftteams/set-up-communications-credits-for-your-organization)|
-|**Sistema telefónico** <br/> |1. [cambie a otro plan de Office 365 para empresas](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Si tiene las aplicaciones de Microsoft 365 para empresas o el plan independiente 2 de Skype empresarial online, le recomendamos que actualice su plan a un plan Enterprise E5 para obtener las características de voz en la nube. Si actualiza a un plan Enterprise E1 o E3, verá la opción de comprar el complemento de **sistema telefónico** .<br/> 2. Complemento del **Sistema telefónico** <br/>  3. Planes de llamada: compre un [Plan de llamada](/MicrosoftTeams/calling-plans-for-office-365) en Office 365. <br/>  O bien, use el [servicio telefónico de su proveedor existente](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|**Planes de llamadas** <br/> |1. [cambie a otro plan de Office 365 para empresas](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a).  <br/> 2. Complemento del **Sistema telefónico** <br/> 3. [Plan de llamada](/MicrosoftTeams/calling-plans-for-office-365): solo puede comprar esto tras adquirir el complemento del **Sistema telefónico**. <br/> |
+|**Sistema telefónico** <br/> |1. [cambie a otro plan de Microsoft 365 para empresas](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Si tiene las aplicaciones de Microsoft 365 para empresas o el plan independiente 2 de Skype empresarial online, le recomendamos que actualice su plan a un plan Enterprise E5 para obtener las características de voz en la nube. Si actualiza a un plan Enterprise E1 o E3, verá la opción de comprar el complemento de **sistema telefónico** .<br/> 2. Complemento del **Sistema telefónico** <br/>  3. planes de llamadas: comprar un [plan de llamadas](/MicrosoftTeams/calling-plans-for-office-365) . <br/>  O bien, use el [servicio telefónico de su proveedor existente](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
+|**Planes de llamadas** <br/> |1. [cambie a otro plan de Microsoft 365 para empresas](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a).  <br/> 2. Complemento del **Sistema telefónico** <br/> 3. [Plan de llamada](/MicrosoftTeams/calling-plans-for-office-365): solo puede comprar esto tras adquirir el complemento del **Sistema telefónico**. <br/> |
    

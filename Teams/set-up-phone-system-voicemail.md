@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el buzón de voz en la nube para sus usuarios. '
-ms.openlocfilehash: d747b86d50cf4e81398d53bbc3602bff9cc4351c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 5526bee2bd365a4047e3641ea223941227858d1a
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349724"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523123"
 ---
 # <a name="set-up-cloud-voicemail"></a>Planear el Correo de voz en la nube
 
@@ -35,7 +35,7 @@ Este artículo es para el [Administrador de Office 365](https://support.office.c
 > [!NOTE]
 > El buzón de voz de nube admite el depósito de mensajes de voz solo en un buzón de Exchange y no es compatible con ningún sistema de correo de terceros. 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail-for-cloud-psystem-users"></a>Entornos solo de nube: configurar el buzón de voz de nube para usuarios de Psystem de nube
+## <a name="cloud-only-environments-set-up-cloud-voicemail-for-phone-system-users"></a>Entornos solo de nube: configurar el buzón de voz en la nube para usuarios del sistema telefónico
 
 Para los usuarios de Skype empresarial online y planes de llamadas, el buzón de voz de nube se configura y se aprovisiona automáticamente para los usuarios después de asignarle una licencia de **sistema telefónico** y un número de teléfono.
   
@@ -74,6 +74,26 @@ La siguiente información está relacionada con la configuración del buzón de 
 
 > [!NOTE]
 > Cuando un delegado responde a una llamada en nombre de un delegador, las notificaciones no están disponibles en el buzón de voz de la nube. Los usuarios pueden recibir notificaciones de llamadas perdidas.
+
+## <a name="enabling-protected-voicemail-in-your-organization"></a>Habilitar el buzón de voz protegido en su organización
+
+Cuando alguien deja un mensaje de voz para un usuario de su organización, el buzón de voz se envía al buzón del usuario como datos adjuntos de un mensaje de correo electrónico. Con las reglas de flujo de correo para aplicar el cifrado de mensajes, puede evitar que estos mensajes de voz se desvíen a otros destinatarios. Al habilitar el buzón de voz protegido, los usuarios pueden escuchar mensajes de voz protegidos llamando a su buzón de voz o abriendo el mensaje en Outlook, en Outlook en la web o en Outlook para Android o iOS. Los mensajes de buzón de voz protegidos no se pueden abrir en Skype empresarial.
+
+Para obtener más información sobre el cifrado de mensajes, consulte [cifrado de correo electrónico](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide).
+
+Para configurar el buzón de voz protegido, haga lo siguiente:
+
+1. Vaya a https://admin.microsoft.com e inicie sesión con una cuenta que tenga permisos de administrador global.
+2. Seleccione **Mostrar todo** y, a continuación, vaya a **centro de administración**de  >  **Exchange**.
+3. En el centro de administración de Exchange, seleccione reglas de **flujo de correo**  >  **Rules**.
+4. Seleccione **+** **Agregar**y, a continuación, seleccione **aplicar el cifrado de mensajes de Office 365 y la protección de derechos a los mensajes**.
+5. Escriba un nombre para la nueva regla de flujo de correo y, a continuación, en **aplicar esta regla si**, seleccione **el mensaje las propiedades**  >  **incluyen el**  >  **correo de voz**. Seleccione **Aceptar**.
+6. En **hacer lo siguiente**, seleccione **aplicar el cifrado de mensajes de Office 365 y la protección de derechos al mensaje con** y, después, seleccione **seleccionar uno**. En **plantilla RMS**, seleccione no **reenviar**. Seleccione **Aceptar** y, a continuación, **Guardar**.
+    > [!NOTE]
+    > Si la lista de **plantillas de RMS** está vacía, debe configurar el cifrado de mensajes de Office 365. Para obtener más información sobre cómo configurar el cifrado de mensajes de Office 365, consulte los artículos siguientes:
+    > - [Configurar nuevas capacidades de cifrado de mensajes de Office 365](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
+    > - [Configuración y administración de plantillas para Azure Information Protection](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates)
+    > - [Opción no reenviar para correos electrónicos](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Configuración de directivas de correo de voz en su organización
 

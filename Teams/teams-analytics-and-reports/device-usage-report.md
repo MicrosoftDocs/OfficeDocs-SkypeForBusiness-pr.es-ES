@@ -18,10 +18,10 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 128a9e816249dd918a5bf5fb380fde78d3ed9ce2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
+ms.lasthandoff: 06/02/2020
 ms.locfileid: "43904922"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Informe de uso de dispositivos de Microsoft Teams
@@ -30,7 +30,7 @@ El informe de uso de dispositivos de Teams en el centro de administración de Mi
 
 ## <a name="view-the-device-usage-report"></a>Ver el informe de uso del dispositivo
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en > **informes de uso**de **informes &**. En la pestaña **ver informes** , en **Informe**, seleccione **uso de dispositivos de Teams**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en informes de uso de **informes &**  >  **Usage reports**. En la pestaña **ver informes** , en **Informe**, seleccione **uso de dispositivos de Teams**.
 2. En **Intervalo de fechas**, seleccione un rango y haga clic en **Ejecutar informe**.
 
     ![Captura de pantalla del informe de uso de dispositivos de Teams en el centro de administración de Teams con llamadas](../media/teams-reports-device-usage-with-callouts.png "Captura de pantalla del informe de uso de dispositivos de Teams en el centro de administración de Teams con llamadas")

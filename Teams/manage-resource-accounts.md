@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: En este artículo, aprenderá a crear, editar y administrar cuentas de recursos en Microsoft Teams.
-ms.openlocfilehash: 96c8b9028a63b87b19bebbd3d4724a202f798324
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 1ea9d4ebd6cbbb93646555787a04ab5b5516be03
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224273"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44512894"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -82,9 +82,9 @@ Para un operador automático de nivel superior o una cola de llamadas, es necesa
 
 2. Obtener una licencia de usuario virtual del sistema telefónico o una licencia de sistema telefónico normal.
 
-   Para obtener la licencia de usuario virtual, a partir del centro de administración de Microsoft 365 **Billing**, vaya a  >  **Purchase services**  >  **suscripciones del complemento** servicios de compra de facturación y desplácese hasta el final: verá la licencia "phone system-virtual User". Seleccione **comprar ahora**. Hay un costo cero, pero sigue siendo necesario seguir estos pasos para adquirir la licencia.
-3. Crear una cuenta de recursos nueva. Consulte [crear una cuenta de recursos en el centro de administración de Microsoft Teams](#create-a-resource-account-in-microsoft-teams-admin-center) o [crear una cuenta de recursos en PowerShell](#create-a-resource-account-in-powershell).
-4. Asigne un sistema telefónico: [licencia de usuario virtual](teams-add-on-licensing/virtual-user.md) o licencia de sistema telefónico a la cuenta de recursos. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md) y [asignar licencias a un usuario](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+   Para obtener la licencia de usuario virtual, en el centro de administración de Microsoft 365 **Billing**, vaya a  >  suscripciones del complemento de**servicios de compra**de facturación  >  **Add-on subscriptions** y desplácese hasta el final: verá la licencia "phone system-virtual User". Seleccione **comprar ahora**. Hay un costo cero, pero sigue siendo necesario seguir estos pasos para adquirir la licencia.
+3. Crear una cuenta de recursos nueva. Consulte [crear una cuenta de recursos en el centro de administración de Microsoft Teams](#create-a-resource-account-in-the-microsoft-teams-admin-center) o [crear una cuenta de recursos en PowerShell](#create-a-resource-account-in-powershell).
+4. Asigne un sistema telefónico: [licencia de usuario virtual](teams-add-on-licensing/virtual-user.md) o licencia de sistema telefónico a la cuenta de recursos. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md) y [asignar licencias a los usuarios](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 5. Asignar el número de servicio a la cuenta de recursos. Consulte [asignar/desasignar números de teléfono y servicios](#assignunassign-phone-numbers-and-services).
 6. Configure una de las opciones siguientes:
    - [Operador automático de la nube](create-a-phone-system-auto-attendant.md)
@@ -97,26 +97,36 @@ Al crear una cuenta de recursos al crear un operador automático, las licencias 
 
 Un operador automático o una cola de llamadas anidados requerirán una cuenta de recursos pero, en muchos casos, la cuenta de recursos correspondiente no necesitará un número de teléfono y las licencias necesarias para admitir un número de teléfono. Para crear una cuenta de recursos que no necesite un número de teléfono, es necesario realizar las siguientes tareas en el siguiente orden:
 
-1. Crear una cuenta de recursos nueva. Consulte [crear una cuenta de recursos en el centro de administración de Microsoft Teams](#create-a-resource-account-in-microsoft-teams-admin-center) o [crear una cuenta de recursos en PowerShell](#create-a-resource-account-in-powershell).
+1. Crear una cuenta de recursos nueva. Consulte [crear una cuenta de recursos en el centro de administración de Microsoft Teams](#create-a-resource-account-in-the-microsoft-teams-admin-center) o [crear una cuenta de recursos en PowerShell](#create-a-resource-account-in-powershell).
 2. Configure una de las opciones siguientes:
    - [Operador automático de la nube](create-a-phone-system-auto-attendant.md)
    - [Cola de llamadas en la nube](create-a-phone-system-call-queue.md)
 3. Asignar la cuenta de recursos a la cola de llamadas o al operador automático. Consulte [asignar/desasignar números de teléfono y servicios](#assignunassign-phone-numbers-and-services).
 
 
-## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Crear una cuenta de recursos en el centro de administración de Microsoft Teams
+## <a name="create-a-resource-account-in-the-microsoft-teams-admin-center"></a>Crear una cuenta de recursos en el centro de administración de Microsoft Teams
 
-Una vez que haya comprado una licencia de sistema telefónico, usando el centro de administración de Microsoft Teams, vaya a cuentas **de recursos de configuración de toda la organización**  >  **Resource accounts**.
+Una vez que haya comprado una licencia de sistema telefónico, en el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a cuentas de recursos de **configuración de toda la organización**  >  **Resource accounts**.
 
 ![Captura de pantalla de la página cuentas de recursos](media/r-a-master.png)
 
 ![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/teamscallout1.png)
 
-Para crear una cuenta de recurso, haga clic en **+ Agregar**. En la ventana emergente, rellene el **nombre para mostrar**, **username** (el nombre de dominio debe rellenarse automáticamente) y el tipo de **cuenta de recursos** para la cuenta de recursos. El tipo de cuenta de recursos puede ser el **operador automático** o la **cola de llamadas** en función de la aplicación que desee asociar a la cuenta de recursos. Cuando esté listo, haga clic en **Guardar**.
+Para crear una nueva cuenta de recursos, haga clic en **Agregar**. En el panel **Agregar cuenta de recursos** , rellene el campo **nombre para mostrar**, nombre de **usuario** (el nombre de dominio debe rellenarse automáticamente) y tipo de **cuenta de recurso** para la cuenta de recursos. El tipo de cuenta de recurso puede ser de **operador automático** o **cola de llamadas**, en función de la aplicación que desee asociar a la cuenta de recursos. Cuando esté listo, haga clic en **Guardar**.
 
 ![Captura de pantalla de las opciones de nueva cuenta de recursos](media/res-acct.png)
 
-A continuación, aplique una licencia a la cuenta de recursos en el centro de administración de O365, como se describe en [asignar licencias a usuarios en Office 365 para empresas](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide).
+<a name="enablesignin"> </a>
+
+Al crear una cuenta de recursos, se bloquea el inicio de sesión de la cuenta. Verá un banner en la parte superior del panel que indica que la cuenta de recursos no se puede cargar. Debe desbloquear el inicio de sesión de la cuenta de recursos en el centro de administración de Microsoft 365 para que la cuenta de recursos tenga permiso para iniciar sesión. Para hacerlo, en el centro de administración de Microsoft 365, vaya a **usuarios**, busque y, a continuación, seleccione la cuenta de recursos. En la parte superior del panel debajo del nombre para mostrar, haga clic en **desbloquear a este usuario**, desactive la casilla **de verificación bloquear este usuario para iniciar sesión** y, a continuación, haga clic en **Guardar cambios**.
+
+![Captura de pantalla de la opción desbloquear este usuario](media/res-acct-unblock.png)
+
+Después de hacerlo, verás la opción "Inicio de sesión permitido" debajo del nombre para mostrar. 
+
+![Captura de pantalla del mensaje de inicio de sesión permitido](media/res-acct-sign-in-allowed.png)
+
+A continuación, aplique una licencia a la cuenta de recursos en el centro de administración de Microsoft 365, como se describe en [asignar licencias a los usuarios](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
 
 ### <a name="edit-resource-account"></a>Editar cuenta de recursos 
 
@@ -128,7 +138,7 @@ A continuación, aplique una licencia a la cuenta de recursos en el centro de ad
 
 ### <a name="assignunassign-phone-numbers-and-services"></a>Asignar o cancelar la asignación de números de teléfono y servicios
 
-![Icono del número 3, que hace referencia a una llamada en la captura de pantalla anterior ](media/teamscallout3.png) una vez que ha creado la cuenta de recurso y se le ha asignado la licencia, puede hacer clic en **asignar/desasignar** para asignar un número de servicio a la cuenta de recursos, configurar el tipo de número de teléfono o asignar la cuenta de recursos a un operador automático o cola de llamadas específicos que ya exista La asignación de un número de enrutamiento directo puede realizarse solo con cmdlets. Si aún no ha creado la cola de llamadas o el operador automático que va a asociar a la cuenta de recursos, deje el campo en blanco. Puede vincular la cuenta de recursos mientras la crea. Haga clic en **Guardar** cuando haya terminado.
+![Icono del número 3, que hace referencia a una llamada en la captura de pantalla anterior, ](media/teamscallout3.png) después de crear la cuenta de recurso y asignarle la licencia, puede hacer clic en **asignar/desasignar** para asignar un número de servicio a la cuenta de recursos, configurar el tipo de número de teléfono o asignar la cuenta de recursos a un operador automático específico o a una cola de llamadas que ya exista. La asignación de un número de enrutamiento directo puede realizarse solo con cmdlets. Si aún no ha creado la cola de llamadas o el operador automático que va a asociar a la cuenta de recursos, deje el campo en blanco. Puede vincular la cuenta de recursos mientras la crea. Haga clic en **Guardar** cuando haya terminado.
 
 Las opciones para el **tipo de número de teléfono** son:
 
@@ -151,7 +161,7 @@ Para asignar un enrutamiento directo o un número híbrido a una cuenta de recur
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>Cambiar una cuenta de recursos existente para usar una licencia de usuario virtual
 
-Si decide cambiar las licencias de la cuenta de recursos existente de una licencia de sistema telefónico a una licencia de usuario virtual, tendrá que adquirir la licencia de usuario virtual gratuita y, a continuación, seguir los pasos vinculados en el centro de administración de Microsoft 365 para [mover usuarios a una suscripción diferente](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+Si decide cambiar las licencias de la cuenta de recursos existente de una licencia de sistema telefónico a una licencia de usuario virtual, tendrá que adquirir la licencia de usuario virtual gratuita y, a continuación, seguir los pasos que se indican en el centro de administración de Microsoft 365 para [mover usuarios a una suscripción diferente](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
 
 > [!WARNING]
 > Quitar siempre una licencia de sistema telefónico completo y asignar la licencia de usuario virtual en la misma actividad de licencia. Si quita la licencia anterior, guarda los cambios de la cuenta, agrega la nueva licencia y, a continuación, vuelve a guardar la configuración de la cuenta, es posible que la cuenta de recursos ya no funcione según lo esperado. Si esto sucede, le recomendamos que cree una nueva cuenta de recursos para la licencia de usuario virtual y quite la cuenta de recursos dañados. 
@@ -180,9 +190,9 @@ Los IDENTIFICADOres de la aplicación que necesita usar al crear las instancias 
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
-2. No podrá usar la cuenta de recursos hasta que aplique una licencia. Para obtener información sobre cómo aplicar una licencia a una cuenta en el centro de administración de O365, vea [asignar licencias a usuarios en Office 365 para empresas](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user) , así como [asignar licencias de Skype empresarial](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+2. No podrá usar la cuenta de recursos hasta que aplique una licencia. Para obtener información sobre cómo aplicar una licencia a una cuenta en el centro de administración de Microsoft 365, consulte [asignar licencias a usuarios](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) y [asignar licencias de Skype empresarial](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
-3. Faculta Una vez que se aplica la licencia correcta a la cuenta de recursos, puede asignar un número de teléfono a la cuenta de recursos, tal como se muestra a continuación. No todas las cuentas de recursos requerirán un número de teléfono. Si no aplicó una licencia a la cuenta de recursos, la asignación de número de teléfono fallará.
+3. Faculta Después de aplicar la licencia correcta a la cuenta de recursos, puede asignar un número de teléfono a la cuenta de recursos, tal y como se muestra a continuación. No todas las cuentas de recursos requerirán un número de teléfono. Si no aplicó una licencia a la cuenta de recursos, se producirá un error en la asignación de número de teléfono.
 
    ``` Powershell
    Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com -TelephoneNumber +14255550100
@@ -200,9 +210,9 @@ Los IDENTIFICADOres de la aplicación que necesita usar al crear las instancias 
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
-## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>Administrar la configuración de la cuenta de recursos en el centro de administración de Microsoft Teams
+## <a name="manage-resource-account-settings-in-the-microsoft-teams-admin-center"></a>Administrar la configuración de la cuenta de recursos en el centro de administración de Microsoft Teams
 
-Para administrar la configuración de la cuenta de recursos en el centro de administración de Microsoft Teams, vaya a cuentas de recursos de **configuración de toda la organización**  >  **Resource accounts**, seleccione la cuenta de recursos en la que necesita cambiar la configuración y, a continuación, haga clic en el botón **Editar** . en la pantalla **Editar cuenta de recursos** , podrá cambiar esta configuración:
+Para administrar la configuración de la cuenta de recursos en el centro de administración de Microsoft Teams, vaya a cuentas de recursos de **configuración de toda**  >  **Resource accounts**la organización, seleccione la cuenta de recursos en la que necesita cambiar la configuración y, a continuación, haga clic en **Editar**. En el panel **Editar cuenta de recursos** , puede cambiar esta configuración:
 
 - **Nombre para mostrar** de la cuenta
 - Cola de llamadas o operador automático que usa la cuenta
@@ -212,13 +222,13 @@ Cuando haya terminado, haga clic en **Guardar**.
 
 ## <a name="delete-a-resource-account"></a>Eliminar una cuenta de recursos
 
-Asegúrese de desasociar el número de teléfono de la cuenta de recursos antes de eliminarlo, para evitar que su número de servicio quede bloqueado en modo pendiente. Puede hacerlo usando los siguientes commandlet:
+Asegúrese de desasociar el número de teléfono de la cuenta de recursos antes de eliminarlo, para evitar que su número de servicio quede bloqueado en modo pendiente. Puede hacerlo usando el siguiente cmdlet:
 
 ``` Powershell
 Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -TelephoneNumber $null
 ```
 
-Una vez que lo haga, puede eliminar la cuenta de recursos del portal de administración de O365, en la pestaña usuarios.
+Después de hacerlo, puede eliminar la cuenta de recursos en el centro de administración de Microsoft 365, en la pestaña usuarios.
 
 Para desvincular un número de teléfono de enrutamiento directo de la cuenta de recursos, use el siguiente cmdlet:
 

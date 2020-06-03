@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Obtenga más información sobre los requisitos para preparar su organización para la colaboración y los servicios de voz en la nube con Teams.
 localization_priority: Normal
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b51897aa0c135f13a0f7950576665527d5dbc834
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ae0a9f0e3d82dcfeb62a90d4601394bf39a03877
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905252"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523033"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Preparar el servicio para la actualización a teams
 
@@ -67,7 +67,7 @@ Cuando incorpora usuarios en función de cada sitio, le recomendamos encarecidam
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Punto de decisión</td><td><ul><li>¿Quién será el responsable de supervisar la finalización de las listas de comprobación de incorporación?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul><li>Descargue las listas de comprobación de incorporación.</li><li>Trabaje paso a paso en la lista de comprobación de complementos de acuerdo con el plan de implementación de su organización.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Descargue las listas de comprobación de incorporación.</li><li>Trabaje paso a paso en la lista de comprobación de complementos de acuerdo con el plan de implementación de su organización.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
