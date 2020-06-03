@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85879d55ad50a6c68bbe59d9c1fb51663988c661
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: ebdd3204be74e3f7b923d977e6de25c041c2038e
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489062"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44512827"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -64,7 +64,7 @@ El chat de Teams funciona en un servidor backend de Microsoft Exchange, por lo q
 
 |Característica  | Límite máximo  |
 |---------|---------|
-|Número de usuarios en un chat privado<sup>1</sup>  | 100    |
+|Número de usuarios en un chat privado<sup>1</sup>  | 250<br><br>**Nota:** para Teams para Administración pública (GCC, GCC High, DoD), el límite sigue siendo 100. Actualizaremos este artículo cuando el límite de nube de administración pública aumente de 100 a 250.    |
 |Cantidad de personas en una llamada de audio o vídeo desde el chat | 20 |
 |Cantidad de datos adjuntos de archivo<sup>2</sup>  |10     |
 |Tamaño de chat | Aproximadamente 28 KB por publicación<sup>3</sup> |
