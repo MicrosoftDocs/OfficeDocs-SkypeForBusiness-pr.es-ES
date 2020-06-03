@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Cómo realizar un descubrimiento medioambiental detallado mientras planea su viaje de Skype empresarial a Microsoft Teams.
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 495afddf585f0a94c6927d1f8001c0ad007d809c
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: e233664f2110b342e0a81ccf64d66c32ea3d7648
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706640"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523311"
 ---
 # 
 

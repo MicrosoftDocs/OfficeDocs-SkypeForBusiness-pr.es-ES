@@ -12,7 +12,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_JourneyFromSfB
 - Teams_ITAdmin_RemoteWorkers
-ms.reviewer: dearbeen, nsuter
+ms.reviewer: landerl, nsuter
 search.appverid: MET150
 description: Talleres interactivos en vivo diseñados para ayudarle a empezar a trabajar con Microsoft Teams en tan solo 30 días.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bf083f88033028121a8c8286dd5c4161ac1c8f9
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: f5ddcee5fbf1932096015c6136f1d377d23862e3
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858564"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522613"
 ---
 <div id="main" class="v2">
     <div class="container">
