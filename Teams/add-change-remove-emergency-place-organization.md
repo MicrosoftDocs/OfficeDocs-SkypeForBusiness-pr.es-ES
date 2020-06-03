@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo agregar, cambiar o quitar un lugar para una ubicación de emergencia para su organización en el centro de administración de Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c3ff180848d12ad3fb00d048bbb1910bf13c00d6
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 5ba712602ef2a966343282d4e467365f3c1c3329
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232501"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539437"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 
@@ -39,7 +39,7 @@ Administre las ubicaciones de emergencia de su organización en el centro de adm
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en **ubicaciones**de  >  **emergencia**.
 2. En la lista, haga clic en el nombre de la ubicación en la que desea agregar un lugar.
-3. En la pestaña **posiciones** , haga clic en **Agregar lugar**.
+3. En la pestaña **ubicaciones** , haga clic en **Agregar**.
 4. Escriba un nombre para el sitio y, a continuación, haga clic en **aplicar**.
 
 ### <a name="using-powershell"></a>Con PowerShell

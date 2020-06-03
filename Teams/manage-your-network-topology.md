@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo configurar las opciones de red para las características de voz en la nube en Microsoft Teams.
-ms.openlocfilehash: 2f615de14cb38c24a1789b968e7c77e38698e26d
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 03eaeac1bce07cffa7dc000f964f080361a37d40
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888709"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539630"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Administrar la topología de red para las características de voz en la nube en Microsoft Teams
 
@@ -39,12 +39,12 @@ Defina regiones de red, sitios de red y subredes en la ficha **sitios de red** d
 
 #### <a name="add-and-configure-a-network-site"></a>Agregar y configurar un sitio de red
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones** > de**red**y, a continuación, haga clic en la pestaña **sitios de red** .
-2. Haga clic en **nuevo**y, a continuación, escriba un nombre y una descripción para el sitio.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones**de  >  **red**y, a continuación, haga clic en la pestaña **sitios de red** .
+2. Haga clic en **Agregar**y, a continuación, escriba un nombre y una descripción para el sitio.
 
     ![Captura de pantalla de la página Agregar sitio de red](media/manage-network-topology-add-site.png)
 
-3. Para asociar el sitio con una región de red, haga clic en **vincular región de red**, seleccione una región existente o haga clic en **Agregar** para agregar una región y, a continuación, haga clic en **vincular**.  
+3. Para asociar el sitio con una región de red, haga clic en **Agregar región de red**, seleccione una región existente o haga clic en **Agregar** para agregar una región y, a continuación, haga clic en **vincular**.  
 4. Para habilitar el enrutamiento basado en la ubicación del sitio, active el **enrutamiento basado**en la ubicación.
 5. Para asignar directivas de servicios de emergencia al sitio, realice una de las siguientes acciones o ambas:
 
@@ -56,7 +56,7 @@ Defina regiones de red, sitios de red y subredes en la ficha **sitios de red** d
 
 #### <a name="modify-a-network-site"></a>Modificar un sitio de red
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones** > de**red**y, a continuación, haga clic en la pestaña **sitios de red** .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones**de  >  **red**y, a continuación, haga clic en la pestaña **sitios de red** .
 2. Seleccione el sitio haciendo clic a la izquierda del nombre del sitio y, a continuación, haga clic en **Editar**.
 3. Realice los cambios que desee y, a continuación, haga clic en **Guardar.**
 
@@ -66,7 +66,7 @@ Las direcciones IP de confianza externas se administran en la ficha **IP fiables
 
 #### <a name="add-a-trusted-ip-address"></a>Agregar una dirección IP fiable
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones** > de**red**y, a continuación, haga clic en la pestaña **IP fiables** .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones**de  >  **red**y, a continuación, haga clic en la pestaña **IP fiables** .
 2. Haga clic en **Nuevo**.
 3. En el panel **Agregar una dirección IP de confianza** , especifique la versión IP, la dirección IP, el intervalo de red, agregue una descripción y, a continuación, haga clic en **aplicar**.
 
@@ -74,7 +74,7 @@ Las direcciones IP de confianza externas se administran en la ficha **IP fiables
 
 #### <a name="edit-a-trusted-ip-address"></a>Modificar una dirección IP fiable
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones** > de**red**y, a continuación, haga clic en la pestaña **IP fiables** .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones**de  >  **red**y, a continuación, haga clic en la pestaña **IP fiables** .
 2. Seleccione la dirección IP haciendo clic a la izquierda y, a continuación, haga clic en **Editar**.
 3. En el panel **Editar direcciones IP fiables** , realice los cambios que desee y, a continuación, haga clic en **aplicar**.
 
@@ -84,7 +84,7 @@ Para completar los pasos de esta sección, necesitará cierta familiaridad con l
 
 ### <a name="define-network-regions"></a>Definir regiones de red
 
- Use el cmdlet [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) para definir regiones de red. Tenga en cuenta que el parámetro RegionID es un nombre lógico que representa la geografía de la región y no tiene dependencias ni restricciones, &lt;y el&gt; parámetro de identificador de sitio CentralSite es opcional.
+ Use el cmdlet [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) para definir regiones de red. Tenga en cuenta que el parámetro RegionID es un nombre lógico que representa la geografía de la región y no tiene dependencias ni restricciones, y el &lt; parámetro de identificador de sitio CentralSite &gt; es opcional.
 
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  

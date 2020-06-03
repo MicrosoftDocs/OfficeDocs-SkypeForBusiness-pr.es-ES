@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 'Obtenga información sobre cómo agregar, cambiar o quitar una ubicación de emergencia para su organización en el centro de administración de Microsoft Teams. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 72730a326c6239b195d77f8a7bdde1b376da646f
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 8bed76fdfff2a6af2dabb3eef5c01dcfb39f422a
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232491"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539467"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 
@@ -40,13 +40,13 @@ Administre las ubicaciones de emergencia de su organización en el centro de adm
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en **ubicaciones**de  >  **emergencia**.
-2. Haga clic en **Agregar ubicación**.
+2. Haga clic en **Agregar**.
 3. Escriba un nombre y una descripción para la ubicación.
 4. Seleccione el país o la región y, a continuación, escriba la dirección.
 
    > [!NOTE]
    > En Bélgica, Francia, Alemania, Irlanda, Países Bajos y España, es importante comprender que para activar correctamente un número de teléfono en Office 365, la dirección establecida en la ubicación de emergencia, que se usa para adquirir el número, debe coincidir con el código de área del número de teléfono.
-5. Si no se encuentra la dirección y desea modificar la dirección manualmente, Active **permitir que edite el formulario de la dirección manualmente si no se puede encontrar la dirección seleccionada**.
+5. Si la dirección no se encuentra y desea editarla manualmente, Active **editar la dirección de forma manual**.
 6. Haga clic en **Guardar **.
 
 ### <a name="using-powershell"></a>Con PowerShell

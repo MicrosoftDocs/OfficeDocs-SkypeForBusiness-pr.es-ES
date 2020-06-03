@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Vea los pasos que hay que seguir en Microsoft Teams para asignar una licencia de conferencia de acceso telefónico local y un Id. de conferencia a un usuario y muchas otras opciones de la conferencia de acceso telefónico local. '
-ms.openlocfilehash: b353f119d3f666f0a694ab325273e2b5f568da04
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: f887e6567052f80d6353202906f77a51e6403372
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042487"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539457"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Administrar la configuración de Audioconferencia para su organización en Microsoft Teams
 
@@ -45,7 +45,7 @@ Puede que le resulte más sencillo ver todas las opciones de audioconferencias p
   
 1. Inicie sesión en Microsoft 365 con su cuenta profesional o educativa.
     
-2. En el centro de navegación izquierdo del **centro de administración de Microsoft 365**, **vaya a** > usuarios**activos**y, a continuación, seleccione el usuario o los usuarios de la lista de usuarios disponibles.
+2. En el centro de navegación izquierdo del **centro de administración de Microsoft 365**, **vaya a usuarios**  >  **activos**y, a continuación, seleccione el usuario o los usuarios de la lista de usuarios disponibles.
     
     > [!NOTE]
     > Si va a asignar licencias a un máximo de 20 usuarios al mismo tiempo, puede usar el menú desplegable **Seleccionar una vista** y, luego, elegir una de las opciones o crear su propia vista. Luego, haga clic en **Editar**, haga clic dos veces en **Siguiente**, seleccione la licencia y haga clic en **Enviar**.  
@@ -76,7 +76,7 @@ Vea la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.co
   
 ## <a name="reset-the-meeting-conference-id"></a>Reset the meeting conference ID
 
-![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Teams **con el centro de administración de Microsoft Teams**
+![Un icono que muestra el logotipo de Teams ](media/teams-logo-30x30.png) **con el centro de administración de Microsoft Teams**
 
 1. En el navegación de la izquierda, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
@@ -146,41 +146,44 @@ Consulte [establecer los números de teléfono incluidos en los invitados](set-t
 
     Si elige **nombres o números de teléfono**, también puede habilitar o deshabilitar que los **autores de las llamadas pidan que graben su nombre antes de unirse a la reunión**. 
 
-5. Haga clic en **Guardar **.
+    > [!NOTE]
+    > De forma predeterminada, los participantes externos no pueden ver los números de teléfono de los participantes marcados. Si desea mantener la privacidad de estos números de teléfono, seleccione **tonos** para **tipo de anuncio de entrada/salida** (esto impide que Teams Lea los números).
+
+5. Haga clic en **Guardar**.
 
     
-Después de realizar los cambios, haga clic en [Guardar](change-the-settings-for-an-audio-conferencing-bridge.md).
+El PIN solo puede tener de 4 a 12 dígitos. El valor predeterminado es 5.
   
- Vea **Cambiar la configuración de un puente de conferencias de acceso telefónico local de Microsoft**.
+ **Configurar la longitud del PIN para las reuniones**
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 
-2. En la parte superior de la página **puentes de conferencia** , haga clic en **configuración del puente**. 
+2. En la parte superior de la página **Puentes de conferencia**, haga clic en **Configuración de puente**. 
 
-3. En el panel **configuración de puente** , escriba el número de dígitos que desea para el PIN en la lista longitud del **PIN** y, a continuación, haga clic en **Guardar**.
+3. En **Seguridad**, introduzca el número de dígitos que quiere para el PIN en la lista **Longitud del PIN** y después haga clic en **Guardar**.
 
-    The PIN must be between 4 and 12 digits. The default is 5.
+    El PIN debe ser un valor entre 4 y 12 dígitos. El valor predeterminado es 5.
 
     
-See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
+El PIN solo puede tener de 4 a 12 dígitos. El valor predeterminado es 5.[](change-the-settings-for-an-audio-conferencing-bridge.md)
   
- Vea **Cambiar la configuración de un puente de conferencias de acceso telefónico local de Microsoft**.
+ **Habilitar o deshabilitar que el correo electrónico se envíe a los usuarios de audioconferencias**
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 
-2. En la parte superior de la página **puentes de conferencia** , haga clic en **configuración del puente**. 
+2. En la parte superior de la página **Puentes de conferencia**, haga clic en **Configuración de puente**. 
 
-3. En el panel **configuración de puente** , habilite o deshabilite **el envío automático de correos electrónicos a los usuarios si cambia la configuración de las conferencias de audio**.
+3. En el panel **Configuración de puente**, habilite o deshabilite **Enviar automáticamente mensajes de correo electrónico a los usuarios si cambia su configuración de audioconferencia**.
 
-4. Haga clic en **Guardar **. 
+4. Haga clic en **Guardar**. 
  
-    También puede enviar correos electrónicos al usuario con la configuración de la audioconferencia, ir a las propiedades de la Conferencia de audio del usuario y hacer clic **en enviar información de conferencia por correo electrónico**.
+    También puede enviar un correo electrónico al usuario con la configuración de la audioconferencia. Para ello, tiene que ir a las propiedades de la audioconferencia para el usuario y hacer clic en **Enviar la información de conferencia por correo electrónico**.
     
-    If you do this, an email will be sent that only includes conference ID and conference phone number, but the PIN won't be included.
+    Si hace esto, se enviará un correo electrónico que incluye solo el Id. de conferencia y el número de teléfono de conferencia, pero no se incluirá el PIN.
 
-See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
+Consulte [Enviar un correo electrónico a un usuario con su información de audioconferencia](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
     
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Ver y establecer los idiomas principales (alternativos) y secundarios (alternativos) en un puente de audioconferencia
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Ver y establecer los idiomas principales (predeterminados) y secundarios (alternativos) en un puente de audioconferencia
 
 ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 

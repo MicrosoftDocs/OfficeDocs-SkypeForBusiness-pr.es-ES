@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: En este artículo, obtendrá información sobre cómo asignar o cambiar una ubicación de emergencia para los usuarios de su organización.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 096e2dead1ede4f9769dafd85dfac23d6c44f399
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: f11bfd9762667823b4ec6b2883c9661f9f5754d0
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232481"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539507"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Asignar o cambiar la ubicación de emergencia de un usuario
 
@@ -37,7 +37,7 @@ Puede asignar o cambiar una ubicación de emergencia para un usuario en el centr
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en números de teléfono de **voz**  >  **Phone numbers**.
 
-2. En la página **números de teléfono** , seleccione un número de usuario en la lista y, a continuación, haga clic en **Editar**.
+2. En la página **números de teléfono** , haga clic en la pestaña **números** , seleccione un número de usuario en la lista y, a continuación, haga clic en **Editar**.
 
 3. En el panel de **edición** , en **Ubicación de emergencia**, realice una de las siguientes acciones:
 
@@ -45,7 +45,9 @@ Puede asignar o cambiar una ubicación de emergencia para un usuario en el centr
 
    - Para cambiar la ubicación de emergencia que ya está asignada al usuario, haga clic en **X** para quitar la ubicación existente y, a continuación, busque y seleccione la ubicación que desea asignar.
 
-4. Haga clic en **Guardar **.
+4. En función de si desea enviar un correo electrónico al usuario con la información de su número de teléfono, desactive o Active el **usuario de correo electrónico con información sobre el número de**teléfono. De forma predeterminada, esta opción está activada.
+
+5. Haga clic en **Aplicar**.
 
 ## <a name="using-powershell"></a>Con PowerShell
 
