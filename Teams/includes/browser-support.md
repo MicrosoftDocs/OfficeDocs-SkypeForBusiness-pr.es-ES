@@ -1,7 +1,7 @@
 Teams es totalmente compatible con los siguientes exploradores de internet (con las excepciones mencionadas para llamadas y reuniones). Esta tabla se aplica a los sistemas operativos que se ejecutan en equipos de escritorio. 
 
 
-|Explorador  |Llamadas: audio, vídeo y uso compartido  |Reuniones: audio, vídeo y uso compartido<sup>1</sup> <sup>2</sup>  |
+|Explorador  |Llamadas: audio, vídeo y uso compartido  |Reuniones: audio, vídeo y uso compartido<sup>1</sup> <sup>2</sup> <sup>3</sup>  |
 |---------|---------|---------|
 |Internet Explorer 11     |No compatible         |Solo es compatible con reuniones si estas incluyen coordenadas RTC. Para asistir a una reunión en IE11 sin coordenadas RTC, los usuarios deben descargar el cliente de escritorio de Teams.<br><br>Vídeo: no compatible<br><br>Uso compartido: solo uso compartido de entrada (no de salida)     |
 |Microsoft Edge, RS2 o posteriores     |Totalmente compatible, pero sin uso compartido de salida         |Totalmente compatible, pero sin uso compartido de salida         |
@@ -13,6 +13,8 @@ Teams es totalmente compatible con los siguientes exploradores de internet (con 
 <sup>1</sup> para dar y tomar el control del contenido compartido durante el uso compartido, ambas partes deben usar el cliente de escritorio de Teams. El control no es compatible cuando cualquiera de las partes ejecuta Teams en un explorador. Esto se debe a una limitación técnica que planeamos solucionar. Para obtener más información, consulte [permitir a un participante dar o solicitar el control](../meeting-policies-in-teams.md#allow-a-participant-to-give-or-request-control).
 
 <sup>2</sup> Si ejecuta Teams en un explorador, la opción de difuminar el fondo no está disponible. Esta característica solo está disponible en la versión de escritorio de Teams.
+
+<sup>3</sup> Las reuniones de Teams en navegadores están limitadas a una única fuente de vídeo entrante de orador activo.
 
 > [!NOTE]
 > Siempre y cuando un sistema operativo pueda ejecutar el explorador compatible, Teams es compatible con equipos de escritorio. Por ejemplo, ejecutar Firefox en el sistema operativo Linux es una forma de usar Teams.
