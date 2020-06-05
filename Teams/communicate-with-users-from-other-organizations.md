@@ -17,12 +17,12 @@ description: Infórmese sobre cómo comunicarse con usuarios de otras organizaci
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 4c9b77d01469cb5893a826ae85a1744408623361
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: b2f91d994ef05b9668d31dabc4d43033350ae85a
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539447"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562045"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Comunicación con usuarios de otras organizaciones en Microsoft Teams
 ======================================================
@@ -89,7 +89,6 @@ Si está listo para activar el acceso de invitado en su organización, comience 
 <sup>3</sup> El chat externo (federado) solo es 1:1.<br>
 <sup>4</sup> Compatible con chat 1:1 entre dos usuarios de Teams solo de dos organizaciones diferentes. 
 <sup>5</sup>Por defecto, los participantes externos no pueden ver los números de teléfono de los participantes marcados Si quiere mantener la privacidad de estos números de teléfono, seleccione **Tonos** para** el tipo de anuncio de entrada/salida** (esto evita que los números sean leídos por Teams). Si no quiere revelar los números de teléfono de la RTPC a usuarios externos, cuando active los **anuncios de entrada/salida**, seleccione **Tonos** para el tipo de anuncio. Para obtener más información, consulte [Activar o desactivar los anuncios de entrada y salida de las reuniones en Microsoft Teams.](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
-
 
 ## <a name="related-topics"></a>Temas relacionados
 

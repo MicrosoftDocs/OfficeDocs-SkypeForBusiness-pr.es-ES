@@ -215,7 +215,6 @@
 ## Eventos en directo
 ### [¿Qué son los eventos en directo en Teams?](teams-live-events/what-are-teams-live-events.md)
 ### [Planear eventos en directo en Teams](teams-live-events/plan-for-teams-live-events.md)
-### [Funciones del moderador y participante en un evento en directo](roles-in-live-events.md)
 ### [Configuración de eventos en directo en Teams](teams-live-events/set-up-for-teams-live-events.md)
 ### [Usar PowerShell para establecer directivas de eventos en directo en Microsoft Teams](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Establecer la configuración de eventos en directo en Microsoft Teams](teams-live-events/configure-teams-live-events.md)
