@@ -17,12 +17,12 @@ description: Obtenga información sobre las funciones del moderador y participan
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 6341e688973dc50c070b9a0c01dfa57d03514119
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 7714442be770420797df1c51a532f769eb0350a4
+ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321729"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44565863"
 ---
 <a name="presenter-and-participant-capabilities-in-a-teams-live-event"></a>Funciones del moderador y participante en un evento de Teams en directo
 ======================================================
@@ -36,7 +36,6 @@ Las características de la reunión disponibles son:
 - Whiteboard
 - Grabación
 - Archivos
-- Programar una reunión (solo para reuniones)
 
 Este artículo describe las funciones de los participantes y qué acceso tienen para las características de los eventos en directo.
 
@@ -45,7 +44,7 @@ Este artículo describe las funciones de los participantes y qué acceso tienen 
 Entre los moderadores y los organizadores se incluyen los siguientes:
 
 - Moderadores de mi organización
-- Moderadores de otras organizaciones (restricción de Eventos en directo): esto incluye los participantes anónimos y externos. Los moderadores son designados por el organizador y requieren una invitación personal del organizador.
+- Moderadores de otras organizaciones. Los moderadores son designados por el organizador y requieren una invitación personal del organizador.
 
 El moderador y el organizador tienen acceso a todas las características de un evento en directo.
 
@@ -65,7 +64,7 @@ El participante del espacio empresarial pertenece a la organización y tiene cre
 | Eventos en directo |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 |  **Característica**       | Antes de la reunión | Durante una reunión | Después de la reunión |
-| Chat | Sí | Sí | Sí |
+| Chat | No aplicable | No aplicable | No aplicable |
 | Notas de la reunión | Sí | Sí |Sí |
 | Whiteboard | Sí | Sí |Sí |
 | Grabación | N/D |Sí | Sí |
@@ -80,7 +79,7 @@ Un participante invitado es alguien de otra organización que ha sido invitado a
 | Eventos en directo  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Característica**        | Antes de la reunión | Durante una reunión | Después de la reunión |
-| Chat | Sí | Sí | Sí |
+| Chat | No aplicable | No aplicable | No aplicable |
 | Notas de la reunión | Sí | Sí | Sí |
 | Whiteboard | No | No | No |
 | Grabación | N/D | No | No |
@@ -95,7 +94,7 @@ Un participante externo es alguien que usa Teams en otra organización que ha si
 | Eventos en directo |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 |  **Característica**         | Antes de la reunión | Durante una reunión | Después de la reunión |
-| Chat | No| Sí | Sí |
+| Chat | No aplicable| No aplicable | No aplicable |
 | Notas de la reunión | No | No | No |
 | Whiteboard | No| No | No |
 | Grabación | N/D | No | No |
@@ -109,9 +108,9 @@ El participante anónimo es como un usuario externo, pero su identidad no se pro
 | Eventos en directo|  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Característica**        | Antes de la reunión | Durante una reunión | Después de la reunión |
-| Chat | No | Sí | No |
+| Chat | No aplicable | No aplicable | No aplicable |
 | Notas de la reunión | N/D | No | N/D |
-| Whiteboard | N/D | No | N/D |
+| Whiteboard | No aplicable | No aplicable | No aplicable |
 | Grabación | N/D | No | N/D |
 | Archivos | N/D | No | N/D |
 |||||||
@@ -122,3 +121,5 @@ El participante anónimo es como un usuario externo, pero su identidad no se pro
 [Seguridad y Microsoft Teams](teams-security-guide.md)
 
 [Acceso de invitado a Teams](guest-access.md)
+
+[Planear eventos en directo en Yammer](teams-live-events/plan-for-teams-live-events.md)
