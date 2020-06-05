@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Administrador puede aprender a activar o desactivar los anuncios de entrada y salida en una reunión de Microsoft Teams.
-ms.openlocfilehash: 5b3cdabac41c5c79827df714ccf3192f06b55440
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 4e263328e0f38e1c058fd9036e22eefbfa50f6fd
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539477"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562055"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Activar o desactivar los anuncios de entrada y salida para las reuniones en Microsoft Teams
 
@@ -52,8 +52,9 @@ Debe ser administrador para realizar estos cambios.
 4. En el panel **Configuración de puente**, habilite o deshabilite **Notificaciones de entrada y salida de la reunión**. Esta es la opción seleccionada de forma predeterminada, pero, si la desactiva, los usuarios que ya se hayan unido a la reunión no recibirán ninguna notificación cuando alguien entre en la reunión o la abandone.
     
 5. En **Tipo de anuncio de entrada o salida**, seleccione **Nombres o números de teléfono** o **Tonos**.
-  > [!NOTE]
-  > De forma predeterminada, los participantes externos no pueden ver los números de teléfono de los participantes marcados. Si desea mantener la privacidad de estos números de teléfono, seleccione **tonos** para **tipo de anuncio de entrada/salida** (esto impide que Teams Lea los números).
+
+   > [!NOTE]
+   > De forma predeterminada, los participantes externos no pueden ver los números de teléfono de los participantes marcados. Si desea mantener la privacidad de estos números de teléfono, seleccione **tonos** para **tipo de anuncio de entrada/salida** (esto impide que Teams Lea los números).
     
 6. Si ha elegido **Nombres o números de teléfono**, habilite o deshabilite **Pida a los autores de llamadas que registren su nombre antes de unirse a la reunión**.
     

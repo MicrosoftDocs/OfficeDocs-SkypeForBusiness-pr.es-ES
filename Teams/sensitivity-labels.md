@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo definir y usar etiquetas de confidencialidad en Microsoft Teams.
-ms.openlocfilehash: 5fb470262d0d359af87f751ece5f686210286c91
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7f8eb7e0fa0d34ae21829a12011f094d8e9c9126
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779767"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562075"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Etiquetas de confidencialidad para Microsoft Teams
 
@@ -109,6 +109,10 @@ Actualmente, las etiquetas de confidencialidad no se admiten en el centro de adm
 **Compatibilidad con etiquetas de confidencialidad en las API de Team Graph, plantillas y cmdlets de PowerShell**
 
 En la actualidad, los usuarios no podrán aplicar etiquetas de confidencialidad a los equipos que se crean directamente a través de las API de Graph, los cmdlets de PowerShell y las plantillas.
+
+**Compatibilidad con etiquetas de confidencialidad en SKU de los equipos EDU**
+
+Las etiquetas de confidencialidad actualmente no son compatibles con los clientes que usan las SKU de Educación de Teams.
 
 **Editar las etiquetas de confidencialidad directamente en una colección de sitios de SharePoint para canales privados**
 

@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: En este artículo, aprenderá a crear, editar y administrar cuentas de recursos en Microsoft Teams.
-ms.openlocfilehash: 1ea9d4ebd6cbbb93646555787a04ab5b5516be03
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 2bf333eef72de4744f13cfe25a4457facaf4b3e6
+ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512894"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44565913"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -98,9 +98,11 @@ Al crear una cuenta de recursos al crear un operador automático, las licencias 
 Un operador automático o una cola de llamadas anidados requerirán una cuenta de recursos pero, en muchos casos, la cuenta de recursos correspondiente no necesitará un número de teléfono y las licencias necesarias para admitir un número de teléfono. Para crear una cuenta de recursos que no necesite un número de teléfono, es necesario realizar las siguientes tareas en el siguiente orden:
 
 1. Crear una cuenta de recursos nueva. Consulte [crear una cuenta de recursos en el centro de administración de Microsoft Teams](#create-a-resource-account-in-the-microsoft-teams-admin-center) o [crear una cuenta de recursos en PowerShell](#create-a-resource-account-in-powershell).
+
 2. Configure una de las opciones siguientes:
    - [Operador automático de la nube](create-a-phone-system-auto-attendant.md)
    - [Cola de llamadas en la nube](create-a-phone-system-call-queue.md)
+   
 3. Asignar la cuenta de recursos a la cola de llamadas o al operador automático. Consulte [asignar/desasignar números de teléfono y servicios](#assignunassign-phone-numbers-and-services).
 
 
@@ -115,16 +117,6 @@ Una vez que haya comprado una licencia de sistema telefónico, en el centro de n
 Para crear una nueva cuenta de recursos, haga clic en **Agregar**. En el panel **Agregar cuenta de recursos** , rellene el campo **nombre para mostrar**, nombre de **usuario** (el nombre de dominio debe rellenarse automáticamente) y tipo de **cuenta de recurso** para la cuenta de recursos. El tipo de cuenta de recurso puede ser de **operador automático** o **cola de llamadas**, en función de la aplicación que desee asociar a la cuenta de recursos. Cuando esté listo, haga clic en **Guardar**.
 
 ![Captura de pantalla de las opciones de nueva cuenta de recursos](media/res-acct.png)
-
-<a name="enablesignin"> </a>
-
-Al crear una cuenta de recursos, se bloquea el inicio de sesión de la cuenta. Verá un banner en la parte superior del panel que indica que la cuenta de recursos no se puede cargar. Debe desbloquear el inicio de sesión de la cuenta de recursos en el centro de administración de Microsoft 365 para que la cuenta de recursos tenga permiso para iniciar sesión. Para hacerlo, en el centro de administración de Microsoft 365, vaya a **usuarios**, busque y, a continuación, seleccione la cuenta de recursos. En la parte superior del panel debajo del nombre para mostrar, haga clic en **desbloquear a este usuario**, desactive la casilla **de verificación bloquear este usuario para iniciar sesión** y, a continuación, haga clic en **Guardar cambios**.
-
-![Captura de pantalla de la opción desbloquear este usuario](media/res-acct-unblock.png)
-
-Después de hacerlo, verás la opción "Inicio de sesión permitido" debajo del nombre para mostrar. 
-
-![Captura de pantalla del mensaje de inicio de sesión permitido](media/res-acct-sign-in-allowed.png)
 
 A continuación, aplique una licencia a la cuenta de recursos en el centro de administración de Microsoft 365, como se describe en [asignar licencias a los usuarios](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
 
@@ -238,7 +230,9 @@ Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNu
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
-En caso de que no vea el número de teléfono asignado a la cuenta de recursos en el centro de administración de Teams y no pueda asignarle el número, compruebe lo siguiente:
+### <a name="you-dont-see-the-phone-number-assigned-to-the-resource-account-in-the-microsoft-teams-admin-center"></a>No puede ver el número de teléfono asignado a la cuenta de recursos en el centro de administración de Microsoft Teams
+
+Si no ve el número de teléfono asignado a la cuenta de recursos en el centro de administración de Microsoft Teams y no puede asignarle el número, compruebe lo siguiente:
 
 ``` Powershell
 Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
@@ -252,6 +246,25 @@ Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance
 
 > [!NOTE]
 > Actualice la página web del centro de administración de equipos después de ejecutar el cmldet y debería poder asignar el número correctamente.
+
+### <a name="you-get-a-we-cant-use-this-resource-account-for-services-error-message"></a>Recibe una "no podemos usar esta cuenta de recursos para servicios". mensaje de error
+
+<a name="blocksignin"> </a>
+
+Recibe el siguiente mensaje de error cuando intenta usar una cuenta de recursos:
+
+"No podemos usar esta cuenta de recursos para servicios. La cuenta de recursos debe estar deshabilitada y estar BLOQUEAda para iniciar sesión. Debe bloquear los inicios de sesión de esta cuenta de recursos en la página usuarios del centro de administración de Microsoft 365.
+
+Al crear una cuenta de recursos, de forma predeterminada, está deshabilitada e iniciar sesión está bloqueado para la cuenta. Esta configuración no debe cambiarse. Para resolver este mensaje de error, bloquee la cuenta de recursos para que no inicie sesión. Para ello, haga lo siguiente:
+
+1. En el centro de administración de Microsoft 365, vaya a **usuarios**, buscar y, a continuación, seleccione la cuenta de recursos.
+2. En la parte superior del panel debajo del nombre para mostrar, haga clic en **¿bloquear este usuario?**, active la casilla **de verificación bloquear este usuario para iniciar sesión** y, a continuación, seleccione **Guardar cambios**.
+
+   ![Captura de pantalla de la opción bloquear este usuario](media/res-acct-block.png)
+
+    Después de hacerlo, verás "iniciar sesión bloqueada" en el nombre para mostrar.
+
+      ![Captura de pantalla del mensaje bloqueado de inicio de sesión](media/res-acct-sign-in-blocked.png)
 
 ## <a name="related-information"></a>Información relacionada
 
