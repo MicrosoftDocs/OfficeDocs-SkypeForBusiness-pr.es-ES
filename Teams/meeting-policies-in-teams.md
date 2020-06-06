@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: 015a127b90aeb24dd9b2c2bcfca2389e95bf1496
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: a2d1cf256829cccd27bde2dce311145b8861ae84
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523153"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583503"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -411,8 +411,6 @@ Para habilitar el organizador de la reunión para que descargue el informe de as
 Para evitar que un organizador de la reunión Descargue el informe, establezca el parámetro en **deshabilitado**. Esta opción está deshabilitada de forma predeterminada y la opción para descargar el informe no está disponible.
 
 ## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>Configuración de la Directiva de reunión-proveedor de la reunión para el modo islas
-
-**(próximamente)**
 
 Esta es una directiva por usuario. Esta opción controla qué complemento de la reunión de Outlook se usa para *los usuarios que están en modo islas*. Puede especificar si los usuarios solo pueden usar el complemento de reuniones de equipos o bien la reunión de Teams y los complementos de reuniones de Skype empresarial para programar reuniones en Outlook.
 

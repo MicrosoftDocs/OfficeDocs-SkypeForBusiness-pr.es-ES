@@ -3,7 +3,6 @@ title: Directivas de llamadas en Microsoft Teams
 author: LolaJacobsen
 ms.author: tonysmit
 manager: serdars
-ms.date: 05/06/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
@@ -20,12 +19,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a94bf072aa4db0ba0b3f65fb5340c22ab09581e4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7a67952854f608512e88786c2b49d1e2ad8dfcf9
+ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43914018"
+ms.lasthandoff: 06/06/2020
+ms.locfileid: "44592825"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Directivas de llamadas en Microsoft Teams
 ===================================
@@ -36,41 +35,51 @@ En Microsoft Teams, las directivas de llamadas controlan qué características d
 
 Siga estos pasos para crear una directiva de llamadas personalizada.
 
-1. En el centro de administración de Microsoft Teams, seleccione**Directiva de llamadas**de **voz** > .
-2. Seleccione **nueva Directiva**.
-3. Activa las características que deseas usar en tu Directiva de llamadas. Todas las selecciones están **desactivadas** de forma predeterminada.
-4. Para controlar si los usuarios pueden enrutar llamadas entrantes al buzón de voz, seleccione **habilitadas siempre** o **controladas**por el usuario. Para evitar el enrutamiento al buzón de voz, seleccione **siempre deshabilitado**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de llamadas de **voz**  >  **Calling policies**.
+2. Seleccione **Agregar**.
+3. Activa o desactiva las características que deseas usar en tu Directiva de llamadas.
+4. Para controlar si los usuarios pueden enrutar llamadas entrantes al buzón de voz, seleccione **habilitado** o controlado por el **usuario**. Para evitar el enrutamiento al buzón de voz, seleccione **deshabilitado**.
 5. Seleccione **Guardar**.
 
 ## <a name="modify-an-existing-calling-policy"></a>Modificar una directiva de llamadas existente
 
 Siga estos pasos para modificar una directiva de llamadas existente.
 
-1. En el centro de administración de Microsoft Teams, seleccione**Directiva de llamadas**de **voz** > .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, seleccione directivas de llamadas de **voz**  >  **Calling policies**.
 2. Haga clic en junto a la Directiva que desea modificar y, a continuación, seleccione **Editar**.
-3. Activa las características que deseas usar en tu Directiva de llamadas. Todas las selecciones están **desactivadas** de forma predeterminada.
-4. Para controlar si los usuarios pueden enrutar llamadas entrantes al buzón de voz, seleccione **habilitadas siempre** o **controladas**por el usuario. Para evitar el enrutamiento al buzón de voz, seleccione **siempre deshabilitado**.
-5. Seleccione **Guardar**.
+3. Realice los cambios que desee y, a continuación, haga clic en **Guardar**.
 
-## <a name="assign-a-calling-policy-to-a-user"></a>Asignar una directiva de llamadas a un usuario
+## <a name="assign-a-custom-calling-policy-to-users"></a>Asignar una directiva de llamadas personalizada a los usuarios
 
-Siga estos pasos para asignar una directiva de llamadas personalizada a un usuario.
+Para asignar una directiva a un usuario:
 
-1. En el centro de administración de Microsoft Teams, seleccione**Directiva de llamadas**de **voz** > .
-2. Haga clic en junto al nombre de la Directiva para seleccionarla y, a continuación, seleccione **administrar usuarios**.
-3. En el panel **administrar usuarios** , busque el nombre del usuario. (Debes introducir al menos tres caracteres).
-4. Seleccione el nombre del usuario y, a continuación, seleccione **Agregar**.
-5. Seleccione **Guardar**.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
+2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
+3. En **Directiva de llamada**, seleccione la Directiva de llamada que desea asignar y, a continuación, haga clic en **aplicar**.
+
+Para asignar una directiva a varios usuarios a la vez:
+
+1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Usuarios**, después, busque los usuarios o filtre la vista para mostrar los usuarios que desee.
+2. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en &#x2713; (marca de verificación) situado en la parte superior de la tabla.
+3. Haga clic en **Editar configuración**, haga los cambios que desee y, a continuación, haga clic en **Aplicar**.  
+
+También puede hacer lo siguiente:
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de llamadas de **voz**  >  **Calling policies**.
+2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
+3. Seleccione **Administrar usuarios**.
+4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
+5. Cuando termine de agregar usuarios, seleccione **Guardar**.
 
 ## <a name="calling-policy-settings"></a>Configuración de la Directiva de llamadas
 
-Use la configuración siguiente para crear una directiva de llamadas personalizada.
+Esta es la configuración que puede configurar para las directivas de llamada.
 
-### <a name="user-can-make-private-calls"></a>El usuario puede hacer llamadas privadas
+### <a name="make-private-calls"></a>Realizar llamadas privadas
 
 Esta opción controla todas las capacidades de llamadas de Teams. Desactive esta opción para desactivar toda la funcionalidad de llamadas en Teams.
 
-### <a name="call-forwarding-and-simultaneous-ringing-to-other-users"></a>Desvío de llamadas y llamadas simultáneas a otros usuarios
+### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>Desvío de llamadas y llamadas simultáneas a las personas de su organización
 
 Esta configuración controla si las llamadas entrantes pueden desviarse a otros usuarios o pueden llamar a otra persona al mismo tiempo. 
 
@@ -78,13 +87,13 @@ Esta configuración controla si las llamadas entrantes pueden desviarse a otros 
 
 Esta configuración controla si las llamadas entrantes pueden desviarse a un número externo o pueden sonar un número externo al mismo tiempo.
 
-### <a name="voicemail-is-available-for-routing-inbound-calls-to-users"></a>El buzón de voz está disponible para enrutar llamadas entrantes a usuarios
+### <a name="voicemail-is-available-for-routing-inbound-calls"></a>El buzón de voz está disponible para enrutar llamadas entrantes
 
 Esta configuración permite que las llamadas entrantes se envíen al buzón de voz. Las opciones válidas son:
 
-   - **Siempre habilitado** El buzón de voz siempre está disponible para las llamadas entrantes. 
-   - **Siempre deshabilitado**  El buzón de voz no está disponible para llamadas entrantes. 
-   - **Controlado**por el usuario. Los usuarios pueden determinar si desean que el buzón de voz esté disponible.
+- **Habilitado** El buzón de voz siempre está disponible para las llamadas entrantes. 
+- **Desactivado**  El buzón de voz no está disponible para llamadas entrantes. 
+- **Controlado** por el usuario Los usuarios pueden determinar si desean que el buzón de voz esté disponible.
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Las llamadas entrantes se pueden enrutar a grupos de llamadas 
 
@@ -98,18 +107,21 @@ Esta configuración controla si las llamadas entrantes se pueden desviar a un gr
 
 Esta configuración permite que las llamadas entrantes se enruten a delegados, lo que permite a los delegados hacer llamadas salientes en nombre de los usuarios para los que han delegado permisos. Para obtener más información, consulte [compartir una línea telefónica con un delegado](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
 
-
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Evitar la omisión de peajes y enviar llamadas a través de la RTC 
 
 Si se establece **en activado** , se enviarán llamadas a través de la RTC y se provocarán cargos, en lugar de enviarlos por la red y omitir los peajes.
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>El uso ocupado está disponible mientras estás en una llamada
 
-Ocupado en ocupado (opciones de ocupado)) es una nueva opción de configuración de directivas de llamadas de teams que le permite configurar cómo se administran las llamadas entrantes cuando un usuario ya está en una llamada o conferencia o se hace una llamada en espera. Las llamadas nuevas o entrantes pueden rechazarse con una señal de ocupado. Puede habilitar las opciones de ocupado en el nivel de espacio empresarial o en el nivel de usuario. Independientemente de la configuración de las opciones de ocupado, los usuarios de una llamada o conferencia, o aquellos con una llamada en espera, no pueden iniciar nuevas llamadas o conferencias. Esta opción está deshabilitada de forma predeterminada.
+Ocupado en ocupado (opciones de ocupado) es una nueva opción que le permite configurar cómo se administran las llamadas entrantes cuando un usuario ya está en una llamada o una conferencia o hace una llamada en espera. Las llamadas nuevas o entrantes pueden rechazarse con una señal de ocupado. Puede habilitar las opciones de ocupado en el nivel de espacio empresarial o en el nivel de usuario. Independientemente de la configuración de las opciones de ocupado, los usuarios de una llamada o conferencia, o aquellos con una llamada en espera, no pueden iniciar nuevas llamadas o conferencias. Esta opción está deshabilitada de forma predeterminada.
+
+### <a name="allow-web-pstn-calling"></a>Permitir llamadas RTC en Web
+
+Esta configuración permite a los usuarios llamar a números de RTC mediante el cliente web de Teams.
 
 ### <a name="allow-music-on-hold"></a>Permitir música en espera
 
-Esta configuración le permite activar o desactivar la música en espera cuando una persona que llama RTC se coloca en espera. Está activada de forma predeterminada. Esta configuración no se aplica a las características del delegado llamar y el jefe, y solo está disponible a través de PowerShell en este momento. 
+Esta configuración le permite activar o desactivar la música en espera cuando una persona que llama RTC se coloca en espera. Está activada de forma predeterminada. Esta configuración no se aplica a las características del delegado llamar y el jefe, y actualmente solo está disponible a través de PowerShell.
 
 ## <a name="see-also"></a>Vea también
 
