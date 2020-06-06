@@ -2,6 +2,7 @@
 
 ## [Novedades](../whats-new.md)
 ## [¿Qué está obsoleto?](../deprecated.md)
+## [Guía de virtualización](../virtualization-guidance.md)
 ## [Soluciones de telefonía de Microsoft](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
 ## [Descargas y actualizaciones de Skype Empresarial](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
