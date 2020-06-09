@@ -29,16 +29,16 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Obtenga información sobre cómo pagar crédito de comunicación (consumo RTC) para servicios de Skype empresarial y consulte planes para mantener a los usuarios con acceso continuo al sistema telefónico. '
-ms.openlocfilehash: 9ba413c80c403e69eb977bb1911ad37e67ad87cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ba3ca7b50b39915997096d28af3dc52e33455088
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827218"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610289"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar los créditos de comunicaciones
 
-Los créditos de comunicaciones son una forma cómoda de pagar el sistema telefónico y los planes de llamadas en Office 365. Los créditos de comunicación le ayudan a asegurarse de que usted y sus usuarios nunca se capturan sin ser capaces de:
+Los créditos de comunicaciones son una forma cómoda de pagar el sistema telefónico y los planes de llamadas en Microsoft 365 u Office 365. Los créditos de comunicación le ayudan a asegurarse de que usted y sus usuarios nunca se capturan sin ser capaces de:
   
 - Llamar a reuniones de audioconferencia con números de teléfono de acceso telefónico gratuitos.
     
@@ -76,7 +76,7 @@ Para ver los planes y los precios, visite uno de los siguientes vínculos:
     
 - [Planes de sistemas telefónicos](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-También puede ver información [iniciando sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a**suscripciones** > de **facturación** > para**Agregar suscripciones**.
+También puede ver información [iniciando sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a suscripciones de **facturación**para  >  **Subscriptions**  >  **Agregar suscripciones**.
   
 Para ver una tabla con las licencias que necesitará para cada característica, consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
@@ -86,7 +86,7 @@ Para ver una tabla con las licencias que necesitará para cada característica, 
     
 - [Configurar el Correo de voz en la nube. Ayuda para el administrador](set-up-phone-system-voicemail.md)
     
-- [Configurar planes de llamada](set-up-calling-plans.md) y [Planes de llamada de Office 365](calling-plans-for-office-365.md)
+- [Configurar planes](set-up-calling-plans.md) de llamadas y [planes de llamadas para Microsoft 365 u Office 365](calling-plans-for-office-365.md)
         
  
  

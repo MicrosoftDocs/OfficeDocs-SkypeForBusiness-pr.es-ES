@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Las siguientes son algunas de las principales preguntas que obtenemos de nuestros clientes que quieren usar la Conferencia de audio.
-ms.openlocfilehash: e542d728ae95ddb35532fbb8cabfa61e3b93caa3
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: c181c6cf2da1f1573b10f6e206bd1d658c6af00b
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236850"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611039"
 ---
 # <a name="audio-conferencing-common-questions"></a>Preguntas frecuentes sobre Audioconferencia
 
@@ -35,7 +35,7 @@ Las siguientes son algunas de las principales preguntas que obtenemos de nuestro
   
 ## <a name="what-are-the-benefits-of-audio-conferencing"></a>¿Cuáles son las ventajas de la audioconferencia?
 
-Llamar a reuniones es muy útil cuando las personas viajan, por ejemplo, y no pueden asistir a una reunión con la aplicación de Skype empresarial o Microsoft Teams en su equipo portátil o en sus dispositivos móviles. Sin embargo, hay otros escenarios en los que usar un teléfono para asistir a una reunión de Skype empresarial o de Microsoft Teams puede ser una mejor opción que usar una aplicación en un equipo:
+Llamar a reuniones es muy útil cuando las personas viajan, por ejemplo, y no pueden asistir a una reunión con la aplicación de Skype empresarial o Microsoft Teams en su equipo portátil o en sus dispositivos móviles. Pero hay otros escenarios en los que usar un teléfono para asistir a una reunión de Skype Empresarial o de Microsoft Teams puede ser una mejor opción que usar una aplicación en un ordenador:
   
 - La conectividad a Internet es limitada.
     
@@ -45,9 +45,9 @@ Llamar a reuniones es muy útil cuando las personas viajan, por ejemplo, y no pu
     
 - La calidad de las llamadas es mejor si marcan.
     
-- Los usuarios pueden unirse a una reunión por medio de la función "manos libres" de los dispositivos Bluetooth.
+- Las personas pueden unirse a una reunión de "manos libres" usando dispositivos Bluetooth.
     
-- La gente encuentra que es más fácil y más conveniente para su situación.
+- La gente encuentra que es más fácil y conveniente para su situación.
     
 ## <a name="who-can-attend-an-audio-conferencing-meeting-and-who-can-i-hear"></a>¿Quién puede asistir a una reunión de audioconferencia? ¿Quién puedo oír?
 
@@ -65,7 +65,7 @@ Hay números de acceso telefónico local que se le asignan cuando compra las lic
   
 Los números de acceso telefónico local y, en algunos casos, los números de acceso telefónico internacionales del país donde se encuentra la organización, se incluirán en la invitación a la reunión. Si un asistente a la reunión usa un número diferente que se incluye en la invitación, será un número de teléfono compartido.
   
-## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-office-365-support"></a>¿Cuántos números de acceso telefónico internacionales admite la Conferencia de audio en Office 365?
+## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-microsoft-365-or-office-365-support"></a>¿Cuántos números de acceso telefónico internacionales admite la audioconferencia en Microsoft 365 u Office 365?
 
 Para obtener una lista actualizada de países o regiones, consulte [números de teléfono para audioconferencias en Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) o [números de teléfono para audioconferencias en Skype empresarial online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
   
@@ -85,7 +85,7 @@ La duración máxima depende de quién está en la reunión y del tipo de autent
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>¿Cuántos participantes del teléfono total puedo tener en las reuniones?
 
-La Conferencia de audio permite hasta 250 asistentes telefónicos.
+La audio conferencia permite hasta 250 asistentes telefónicos.
   
 Para más información sobre los límites de las reuniones, vea [Límites de Skype Empresarial Online](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits).
   
@@ -153,7 +153,7 @@ Programar una reunión que se unirá por todos los asistentes que usan un teléf
 
 [Configurar Skype Empresarial Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
-[Números de teléfono para Audioconferencia en Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
+[Números de teléfono para audio conferencia en Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
 
-[Números de teléfono para Audioconferencia en Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+[Números de teléfono para audio conferencia en Skype Empresarial Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
   

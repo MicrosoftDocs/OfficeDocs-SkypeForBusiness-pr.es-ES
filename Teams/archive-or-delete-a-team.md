@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e07d851d853ee3fb57454177bed48590cdb55f3
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 907138205d4d5e7be1933f00f0a7ace0340d858f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904972"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611009"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivar o eliminar un equipo en Microsoft Teams
 ===========================================
@@ -42,7 +42,7 @@ Al eliminar un equipo, se elimina también la actividad de equipo en canales est
 
 Siga estos pasos para archivar un equipo.
 
-1. En el centro de administración de Microsoft Teams, seleccione **Teams**.
+1. En el centro de administración de <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> , seleccione **Teams**.
 2. Para que seleccione un equipo, haga clic en el nombre del equipo.
 3. Seleccione **Archivo**. Aparecerá el siguiente mensaje.
 
@@ -55,7 +55,7 @@ Siga estos pasos para archivar un equipo.
 
 Siga estos pasos para volver a activar un equipo archivado.
 
-1. En el centro de administración de Microsoft Teams, seleccione **Teams**.
+1. En el <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administración</a>, seleccione **Teams**.
 2. Para que seleccione un equipo, haga clic en el nombre del equipo.
 3. Seleccione **Unarchivar**. El estado del equipo cambiará a **Activo**.
 
@@ -63,16 +63,16 @@ Siga estos pasos para volver a activar un equipo archivado.
 
 Si el equipo no va a necesitar el futuro, puede eliminarlo en lugar de archivarlo. Para eliminar un grupo, siga estos pasos:
 
-1.  En el centro de administración de Microsoft Teams, seleccione **Teams**.
+1.  En el <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administración</a>, seleccione **Teams**.
 2.  Para que seleccione un equipo, haga clic en el nombre del equipo.
 3.  Seleccione **Eliminar**. Aparecerá un mensaje de confirmación.
 4.  Seleccione **Eliminar** para eliminar permanentemente el equipo.
 
 ## <a name="restore-a-deleted-team"></a>Restaurar un equipo eliminado
 
-Siga estos pasos para restaurar un equipo eliminado al restaurar el grupo de Office 365 que está asociado al equipo. Restaurando el grupo de Office 365 para un equipo, restaura el contenido del equipo, incluidas las pestañas, canales estándar y canales privados y sus colecciones de sitios asociadas.
+Siga estos pasos para restaurar un equipo eliminado restaurando el grupo de Microsoft 365 que está asociado con el equipo. Al restaurar el grupo de Microsoft 365 para un equipo, se restaura el contenido del equipo, incluidas las pestañas, los canales estándar, los canales privados y sus colecciones de sitios asociadas.
 
-De forma predeterminada, un grupo eliminado de Office 365 se conserva durante 30 días. Este periodo de 30 días se llama "eliminación parcial", ya que puede restaurar el grupo. Para obtener más información, consulte [restaurar un grupo eliminado de Office 365](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
+De forma predeterminada, un grupo de Microsoft 365 eliminado se conserva durante 30 días. Este periodo de 30 días se llama "eliminación parcial", ya que puede restaurar el grupo. Para obtener más información, consulte [restaurar un grupo eliminado de Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
 
 ### <a name="install-the-azureadpreview-module"></a>Instalar el módulo AzureADPreview
 
@@ -92,7 +92,7 @@ De forma predeterminada, un grupo eliminado de Office 365 se conserva durante 30
     Install-Module AzureADPreview
     ```    
 
-### <a name="restore-the-deleted-office-365-group"></a>Restaurar el grupo de Office 365 eliminado
+### <a name="restore-the-deleted-microsoft-365-group"></a>Restaurar el grupo Microsoft 365 eliminado
 
 1. Para conectarse a Azure AD, ejecute lo siguiente:
     ```PowerShell

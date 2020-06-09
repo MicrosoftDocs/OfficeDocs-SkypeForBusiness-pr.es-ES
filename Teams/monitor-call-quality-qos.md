@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5ecf199f5027774684f5a626c416f789293926d7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 2157ea9ec536e644440161fb321c7a60bb8d396e
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140059"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638619"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Implementar QoS y supervisar la calidad de las llamadas en Microsoft Teams
 
@@ -38,7 +38,7 @@ Idealmente, implementaría QoS en la red interna al configurar Teams, pero si es
 
 El [**Panel de análisis de llamadas y el panel de calidad de llamadas**](difference-between-call-analytics-and-call-quality-dashboard.md) se usan para buscar y solucionar problemas que surjan durante la operación en curso.  
 
-El **análisis de llamadas** muestra información detallada sobre los dispositivos, las redes y la conectividad relacionada con ***llamadas y reuniones específicas*** para cada usuario en una cuenta de Microsoft Teams o Skype empresarial. Si es administrador de Office 365, puede usar análisis de llamadas para solucionar problemas de calidad de llamadas y de conexión experimentados en una llamada específica. Esto puede ayudarte a identificar y eliminar problemas.
+El **análisis de llamadas** muestra información detallada sobre los dispositivos, las redes y la conectividad relacionada con ***llamadas y reuniones específicas*** para cada usuario en una cuenta de Microsoft Teams o Skype empresarial. Si es administrador de Microsoft 365 o de Office 365, puede usar análisis de llamadas para solucionar problemas de calidad de llamadas y de conexión experimentados en una llamada específica. Esto puede ayudarte a identificar y eliminar problemas.
 
 El **Panel de calidad de llamadas (CQD)** está diseñado para ayudar a los administradores e ingenieros de red a optimizar su ***red***, no a analizar y solucionar una sola llamada. El CQD pasa el foco de usuarios específicos para mirar la información agregada de toda una organización. Esto también puede ayudarte a identificar y eliminar problemas.
 

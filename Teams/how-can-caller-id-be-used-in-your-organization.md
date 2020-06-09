@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: La identificación de llamadas se puede controlar tanto para llamadas entrantes como salientes de usuarios del sistema telefónico mediante una directiva denominada CallingLineIdentity.
-ms.openlocfilehash: 2547e6ca3aed10d112897aa1b24900a479c5c8ef
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 67bb9d13d9cdece2793837044e280927e03c5795
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224213"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638900"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Cómo se puede usar la identificación de llamadas en su organización
 
@@ -50,7 +50,7 @@ Hay tres opciones disponibles para la identificación de llamadas RTC salientes:
   
 - El número de teléfono asignado al usuario, que es el predeterminado.
     
-- A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
+- Un número de teléfono que se clasifica como un *servicio* y un número *gratuito* en el inventario de números de teléfono de tus planes de llamadas. Normalmente, se asigna a un operador automático de la organización o a una cola de llamadas.
     
 - Configurado como anónimo.
     

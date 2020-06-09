@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Obtenga información sobre cómo Microsoft Teams admite equipos asociados con grupos de Office 365 mediante la pertenencia dinámica.
+description: Obtenga información sobre cómo Microsoft Teams admite equipos asociados con Microsoft 365 Groups mediante la pertenencia dinámica.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d325ee076d29ddfe50fd6193ec5755bf2bb51b82
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: dc7e3124ec3ec97e3f3643412ccb4f990ab825cc
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905802"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638409"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Información general sobre la pertenencia dinámica para los equipos
 
@@ -35,7 +35,7 @@ Con la pertenencia dinámica puede configurar Teams para determinados cohorts de
 
 Con esta característica, los miembros de un equipo dado se actualizan automáticamente según un conjunto específico de criterios, en lugar de administrar la pertenencia de forma manual. Para ello, es necesario que [un administrador de inquilinos pueda asignar](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) licencias de Azure ad Premium P1 y la pertenencia al equipo a las propiedades de Azure ad de cualquier usuario siempre que tenga un inquilino y una cuenta de administrador.
 
-Microsoft Teams puede tardar desde unos minutos hasta 2 horas en reflejar los cambios dinámicos de pertenencia, una vez que se aplican al grupo de Office 365 de un equipo.
+Microsoft Teams puede tardar desde unos minutos hasta 2 horas en reflejar los cambios de pertenencia dinámicos una vez que se aplican al grupo de Microsoft 365 para un equipo.
 
 > [!NOTE]
 > - Las reglas pueden definir quién es un miembro del equipo, pero no quién es el propietario de un equipo.
@@ -44,7 +44,7 @@ Microsoft Teams puede tardar desde unos minutos hasta 2 horas en reflejar los ca
 > -    Los miembros no podrán dejar equipos respaldados por grupos dinámicos.
 
 
-## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>Crear y administrar un grupo de Office 365 con pertenencia dinámica
+## <a name="creating-and-managing-a-microsoft-365-group-with-dynamic-membership"></a>Crear y administrar un grupo de Microsoft 365 con pertenencia dinámica
 Cuando haya iniciado sesión como administrador de inquilinos, siga las instrucciones de [crear un grupo dinámico y comprobar el estado](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Según sea necesario, consulte [reglas de pertenencia dinámica para grupos en Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).
 
 ## <a name="create-a-new-team-with-your-o365-group"></a>Crear un equipo nuevo con el grupo de O365

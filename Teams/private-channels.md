@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información acerca de cómo usar y administrar canales privados en Microsoft Teams.
-ms.openlocfilehash: 761d6a06da6bb02991e706f6e18ac8ce7d4106f4
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
-ms.translationtype: HT
+ms.openlocfilehash: 769fd2b489d65b276823abd7c3ff8f579100617a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265635"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637939"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canales privados en Microsoft Teams
 
@@ -68,10 +68,12 @@ Cuando se crea un canal privado, está vinculado al equipo principal y no se pue
 
 ### <a name="who-can-create-private-channels"></a>¿Quién puede crear canales privados?
 
-De forma predeterminada, los miembros del equipo o el propietario del equipo pueden crear un canal privado. Los invitados no pueden crear canales privados. La posibilidad de crear canales privados se puede administrar a nivel de equipo y de organización:
+De forma predeterminada, los miembros del equipo o el propietario del equipo pueden crear un canal privado. Los invitados no pueden crear canales privados. La capacidad de crear canales privados se puede administrar en el nivel del equipo y en el nivel de la organización.
 
-- En la pestaña **Configuración** de un equipo, los propietarios del equipo pueden activar o desactivar la posibilidad de que los miembros puedan crear canales privados.
-- Como administrador, puede usar [directivas](teams-policies.md) para controlar qué usuarios de su organización pueden crear canales privados.
+> 1. Vaya al centro de administración en <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+
+> 2. Use [directivas](teams-policies.md) para controlar los usuarios de su organización que pueden crear canales privados.
+    Una vez que haya establecido las directivas, los propietarios del equipo pueden desactivar o activar la posibilidad de que los miembros creen canales privados en la pestaña **configuración** de un equipo.
 
 La persona que crea un canal privado es el propietario del canal privado y solo el propietario del canal privado puede agregar o quitar personas directamente. El propietario de un canal privado puede agregar cualquier miembro del equipo a un canal privado que haya creado, incluyendo invitados. Los miembros de un canal privado tienen un espacio de conversación seguro, y cuando se agregan nuevos miembros, pueden ver todas las conversaciones (incluso las conversaciones antiguas) en ese canal privado.
 
@@ -83,7 +85,7 @@ Si un miembro del equipo lo abandona o es quitado de un equipo, también abandon
 
 El propietario de un canal privado no se puede eliminar a través del cliente Teams si es el último propietario de uno o más canales privados.
 
-Si el propietario de un canal privado deja la organización o se quita del grupo de Office 365 asociado al equipo, se promueve automáticamente un miembro del canal privado para que sea el propietario del canal privado.
+Si un propietario de un canal privado abandona su organización o se ha quitado del grupo de Microsoft 365 asociado al equipo, un miembro del canal privado se promueve automáticamente al propietario del canal privado.
 
 ### <a name="what-can-team-owners-and-team-members-see-in-a-private-channel"></a>¿Qué pueden ver los propietarios del equipo y los miembros del equipo en un canal privado?
 
@@ -105,13 +107,13 @@ En la siguiente tabla se describen las acciones que los propietarios, miembros e
 
 |Acción  |Propietario del equipo|Integrante de grupo|Invitado de equipo|Propietario del canal privado|Miembro de canal privado|Invitado de canal privado|
 |---------|---------|---------|---------|---------|---------|---------|
-|Crear un canal privado|Sí<sup>1</sup>|Sí<sup>1, 2</sup>|No|N/D|No aplicable|N/D|
-|Quitar canal privado|Sí|No|No|Sí|No|No|
-|Abandonar canal privado|N/D|No aplicable|N/D|Sí<sup>3</sup>|Sí|Sí|
-|Editar canal privado|No|N/D|N/D|Sí|No|No|
-|Restaurar el canal privado eliminado|Sí|No|No|Sí|No|No|
-|Agregar miembros|No|N/D|N/D|Sí|No|No|
-|Editar la configuración|No|N/D|N/D|Sí|No|No|
+|Crear un canal privado|Sí<sup>1</sup>|Sí<sup>1, 2</sup>|No|N/D|No aplicable|No aplicable|
+|Quitar canal privado|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|
+|Abandonar canal privado|N/D|No aplicable|No aplicable|Sí<sup>3</sup>|Sí |Sí|
+|Editar canal privado|No|N/D|No aplicable|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|
+|Restaurar el canal privado eliminado|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|
+|Agregar miembros|No|N/D|No aplicable|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|
+|Editar la configuración|No|N/D|No aplicable|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|
 |Administrar pestañas y aplicaciones|No|N/D|N/D|Sí<sup>4</sup>|Sí<sup>5</sup>|No|
 
 <sup>1</sup> Suponiendo que la directiva que usted, el administrador, configuró permita al usuario crear canales privados.<br>

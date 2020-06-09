@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba628bf3f58523dc37e2273b437f22af1a0ebc19
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 45cfe8ed255e889093044672cb738152adaaf6ae
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778936"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610142"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Asignar miembros y propietarios de equipo en Microsoft Teams
 =================================================
@@ -29,7 +29,7 @@ ms.locfileid: "43778936"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-En Microsoft Teams hay dos roles de usuario: **propietario** y **miembro**. De forma predeterminada, a un usuario que crea un equipo nuevo se le concede el estado de propietario. Además, los propietarios y miembros pueden tener capacidades de moderador para un canal (siempre que se haya configurado la moderación). Si se crea un equipo a partir de un grupo existente de Office 365, se heredan los permisos.
+En Microsoft Teams hay dos roles de usuario: **propietario** y **miembro**. De forma predeterminada, a un usuario que crea un equipo nuevo se le concede el estado de propietario. Además, los propietarios y miembros pueden tener capacidades de moderador para un canal (siempre que se haya configurado la moderación). Si se crea un equipo a partir de un grupo de Microsoft 365 existente, los permisos se heredan.
 
 En la tabla siguiente se muestra la diferencia entre un propietario y un miembro:
 
@@ -71,7 +71,7 @@ Para obtener más información sobre las capacidades del moderador, vea [configu
 
 ## <a name="assign-a-user-role"></a>Asignar un rol de usuario
 
-Para asignar un rol de usuario, en Teams, seleccione el nombre del equipo y haga clic en **más opciones** > **Manage Team**. En la pestaña **miembros** , puede Agregar miembros y elegir los propietarios y moderadores (si tiene permisos suficientes). Para obtener más información, vea [cambiar la configuración del equipo en Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+Para asignar un rol de usuario, en Teams, seleccione el nombre del equipo y haga clic en **más opciones**  >  **Manage Team**. En la pestaña **miembros** , puede Agregar miembros y elegir los propietarios y moderadores (si tiene permisos suficientes). Para obtener más información, vea [cambiar la configuración del equipo en Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
 
 ## <a name="permissions-to-create-teams"></a>Permisos para crear equipos
 

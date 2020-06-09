@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86e9fd1b26bebd120136c3c33abf0a44ffa03e0d
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 4e77127d6840473cfb6238d9150ac692230181e1
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862820"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610052"
 ---
 # <a name="deploy-my-service"></a>Implementar mis servicios
 
@@ -33,7 +33,7 @@ Este artículo proporciona una descripción general de los requisitos para imple
 
 Use esta guía para ayudar a su organización a planear y ejecutar correctamente la implementación de las características de voz de Microsoft Teams en cada sitio.
 
-Incluye todas las actividades necesarias, las escalas de tiempo recomendadas y los vínculos a la orientación correspondiente para cada actividad, en esta guía se tratan las instrucciones completas para ayudar a garantizar una implementación de voz de Teams correcta para un sitio determinado, centrándose en los factores que son importantes para el usuario.
+Incluye todas las actividades necesarias, las escalas de tiempo recomendadas y los vínculos a la orientación correspondiente para cada actividad, en esta guía se tratan las directrices completas para garantizar una implementación de voz de Teams satisfactoria para un sitio determinado, centrándose en los factores que son importantes para el usuario.
 
 Al completar las actividades de esta guía, su organización puede:
 
@@ -44,7 +44,7 @@ Al completar las actividades de esta guía, su organización puede:
 -   Reduzca las necesidades de soporte técnico y aumente la satisfacción del usuario.
 
 > [!NOTE]
-> Este artículo y la guía relacionada no se destinan a describir todos los pasos de configuración técnica necesarios para la habilitación del servicio o el suministro de tono de marcado a un sitio específico. En su lugar, se concentran en actividades y tareas recomendadas para los usuarios que se incorporan fácilmente y que les permiten comenzar a consumir cargas de trabajo de voz a través de una transición rápida y fluida con una tasa de adopción elevada, a la vez que minimizan los requisitos de soporte técnico. Para obtener instrucciones técnicas sobre cómo configurar mejor su entorno para la voz de Teams, vea las listas de comprobación de la incorporación para [configurar las cargas de trabajo de voz de Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), configurar el [enrutamiento directo en Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), las [funciones principales](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)de Teams, las funciones [de red para Teams](prepare-network.md)y [Habilitar Office 365](onboarding-checklist-enable-office-365.md).
+> Este artículo y la guía relacionada no se destinan a describir todos los pasos de configuración técnica necesarios para la habilitación del servicio o el suministro de tono de marcado a un sitio específico. En su lugar, se concentran en actividades y tareas recomendadas para los usuarios que se incorporan fácilmente y que les permiten comenzar a consumir cargas de trabajo de voz a través de una transición rápida y fluida con una tasa de adopción elevada, a la vez que minimizan los requisitos de soporte técnico. Para obtener orientación técnica sobre cómo configurar mejor su entorno para la voz de Teams, consulte las listas de comprobación de incorporación para [configurar las cargas de trabajo de voz de Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), configurar el [enrutamiento directo en Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), las [capacidades básicas](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)de Teams, las [redes para Teams](prepare-network.md)y [Habilitar Microsoft 365 u Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
@@ -90,9 +90,9 @@ Independientemente del tamaño y la complejidad de la ubicación, habilitar cada
 
 5. Revise cada actividad, lleve a cabo las acciones necesarias y actualice el estado a medida que recorra la escala de tiempo. El estado se representa de forma gráfica, como se describe a continuación:
   
-   - ![Ilustración de una marca](media/deploy-my-service-image3.png) de verificación verde **sí o no aplicable (verde):** la actividad se ha completado, o no es aplicable para este sitio, y no se necesita ninguna otra acción.</li>
-   - ![Ilustración de un signo de exclamación](media/deploy-my-service-image4.png) amarillo <strong>la actividad no se ha completado aún (amarillo):</strong> la actividad aún no se ha completado y debe actualizarse a sí o no en su programación.</li>
-   - ![Ilustración de una X roja que indica](media/deploy-my-service-image5.png) no no <strong>(rojo):</strong> la actividad no se puede completar debido a un problema y debe llevarse a la reunión de estado del proyecto.</li></ul>
+   - ![Ilustración de una marca de verificación verde ](media/deploy-my-service-image3.png) **sí o no aplicable (verde):** la actividad se ha completado, o no es aplicable para este sitio, y no se necesita ninguna otra acción.</li>
+   - ![Ilustración de un signo de exclamación amarillo ](media/deploy-my-service-image4.png) <strong>la actividad no se ha completado aún (amarillo):</strong> la actividad aún no se ha completado y debe actualizarse a sí o no en su programación.</li>
+   - ![Ilustración de una X roja que indica no no ](media/deploy-my-service-image5.png) <strong>(rojo):</strong> la actividad no se puede completar debido a un problema y debe llevarse a la reunión de estado del proyecto.</li></ul>
 
 6. El estado se resume dentro de cada sección y el título de la sección tiene el formato de uno de estos indicadores de estado. El **Estado semanal** también se actualiza automáticamente.
 

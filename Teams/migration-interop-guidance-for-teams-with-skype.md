@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd4c733aece4bc75c0bce16c77aebae4806fecd7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 56029dc8f1cb5a9cb99096107d85a6414dc4ed25
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904395"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638629"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial
 
@@ -56,7 +56,7 @@ Cuando una organización con Skype Empresarial comienza a adoptar Teams, los adm
     - Si el usuario se ha alojado en Skype Empresarial Online (o nunca tuvo una cuenta de Skype), concédales TeamsUpgradePolicy con el modo = TeamsOnly con la instancia de "UpgradeToTeams" mediante PowerShell, o bien use el centro de administración de Teams para seleccionar el modo TeamsOnly.
     - Si el usuario está alojado localmente, use `Move-CsUser`las herramientas de administración locales para mover primero al usuario a Skype Empresarial Online.  Si tiene Skype Empresarial Server 2019 u CU8 para Skype Empresarial Server 2015, puede especificar el conmutador `-MoveToTeams` en `Move-CsUser` para mover el usuario directamente a Teams como parte de la sección mover en línea. Esta opción también realizará la migración de las reuniones del usuario a Teams. Si `-MoveToTeams` no se especifica o no está disponible, cuando se complete el `Move-CsUser`, asigne el modo TeamsOnly a ese usuario mediante PowerShell o el centro de administración de Teams. Para obtener más información, consulte [Mover usuarios entre local y la nube](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  Para obtener más información sobre la migración de reuniones, consulte [Uso del servicio de migración de reuniones (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
-8.    Para usar el sistema telefónico de Microsoft con Teams, los usuarios deben estar en modo de TeamsOnly (es decir, alojados en Skype Empresarial Online y actualizados a Teams) y deben estar configurados para el [Enrutamiento directo](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) del sistema telefónico de Microsoft (lo que le permite usar el sistema telefónico con sus propios troncos SIP y SBC) o tener un plan de llamadas de Office 365. El enrutamiento directo del sistema telefónico de Microsoft no es compatible con el modo aplicaciones aisladas.    
+8.    Para usar Microsoft Phone System con Teams, los usuarios deben estar en modo TeamsOnly (es decir, alojados en Skype empresarial online y actualizados a teams) y deben estar configurados para el [enrutamiento directo](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) de Microsoft Phone System (que le permite usar el sistema telefónico con sus propios troncos y SBC) o tener un plan de llamadas de Microsoft 365 o de Office 365. El enrutamiento directo del sistema telefónico de Microsoft no es compatible con el modo aplicaciones aisladas.    
 
 9.  La programación de reuniones de Teams con las conferencias de audio (acceso telefónico o acceso telefónico por RTC) está disponible independientemente de si el usuario se ha alojado en Skype Empresarial Online o en Skype Empresarial local. 
 

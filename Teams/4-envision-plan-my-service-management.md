@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1268a87e5e5ae48547e1f2489641ac13cd3bae64
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: a74d07cc40adf8010c2d987e05669264f8cc1367
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862720"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610035"
 ---
 # <a name="plan-my-service-management"></a>Planificar la administración de mis servicios
 
@@ -31,14 +31,14 @@ En este artículo se describen los requisitos que se requieren para ofrecer y ma
 
 ## <a name="service-management-for-teams"></a>Administración de servicios para Teams
 
-La administración de servicios es un tema muy amplio que cubre las operaciones del día a día del servicio de Microsoft Teams una vez que se ha implementado y habilitado para los usuarios. El servicio de Teams abarca Microsoft Office 365 y los componentes de infraestructura que se implementan en local (por ejemplo, las redes).
+La administración de servicios es un tema muy amplio que cubre las operaciones del día a día del servicio de Microsoft Teams una vez que se ha implementado y habilitado para los usuarios. El servicio de Teams abarca Microsoft 365 u Office 365 y los componentes de infraestructura implementados localmente (por ejemplo, redes).
 
 Seguramente, el concepto de "administración de servicios" no es nuevo para la mayoría de organizaciones. Probablemente ya ha implementado procesos y tareas asociados a los servicios que ya ofrece. De este modo, es posible que baste con aumentar lo que ya tiene cuando planifique la administración de servicios que respaldarán a Microsoft Teams más adelante.
 
-En la administración de servicios se incluyen todas las actividades y procesos que se ven implicados en la administración de Microsoft Teams de un extremo a otro. Algunos de los componentes de la administración de servicios (los componentes de infraestructura de los que consta el mismo servicio de Office 365) son responsabilidad de Microsoft, mientras que el cliente debe responder ante sus clientes de la administración de diversos aspectos de Teams, la red y los puntos de conexión que se ofrecen.
+En la administración de servicios se incluyen todas las actividades y procesos que se ven implicados en la administración de Microsoft Teams de un extremo a otro. Algunos componentes de la administración de servicios (los componentes de la infraestructura que comprende el servicio Microsoft 365 u Office 365) son responsabilidad de Microsoft, mientras que el cliente es responsable de administrar los diversos aspectos de Teams, la red y los puntos de conexión que proporcionan.
 Para ver una descripción completa de la responsabilidad del cliente en la administración de servicios de Teams y cómo esto se relaciona con los componentes clave que respaldan la calidad de la experiencia del usuario, consulte [Plan para la calidad y la administración de servicios](https://docs.microsoft.com/MicrosoftTeams/prepare-network).
 
-![Diagrama de los tres componentes de calidad](media/plan-my-service-management-image1.png "Diagrama de los tres componentes de calidad--Office 365, servicio, red y puntos de conexión, y cómo la administración de servicios se superpone a los tres.")
+![Diagrama de los tres componentes de calidad](media/plan-my-service-management-image1.png "Diagrama de los tres componentes de calidad: Microsoft 365 u Office 365, servicio, red y puntos de conexión, y cómo la administración de servicios se superpone a los tres.")
 
 <!--ENDOFSECTION-->
 

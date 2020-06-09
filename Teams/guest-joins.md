@@ -18,12 +18,12 @@ description: Aprenda los pasos necesarios para agregar personas de fuera de su o
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8202f7cae250d497eb690a7cb337c12dd1b79cb1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-ms.translationtype: HT
+ms.openlocfilehash: 7a30aa56260da8c5e07c8c08c1a8c3745ffb6ee5
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902555"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637229"
 ---
 <a name="how-a-guest-joins-a-team"></a>Cómo se une un invitado a un equipo
 ========================
@@ -35,11 +35,11 @@ El propietario de un equipo en Microsoft Teams puede agregar y administrar invit
   
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>Cómo un invitado se convierte en miembro de un equipo
 
-1. El dueño de un equipo o un administrador de Office 365 [agrega un invitado a un equipo](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
-1. El administrador de Office 365 o el propietario del equipo gestiona las capacidades de un invitado según sea necesario: por ejemplo, permitir que un invitado añada o elimine canales o desactivar el acceso a los archivos.
+1. Un propietario del equipo o un administrador de Microsoft 365 u Office 365 [agrega un invitado a un equipo](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
+1. El administrador de Microsoft 365 u Office 365 o el propietario del equipo administra las capacidades de un invitado según sea necesario: por ejemplo, permite que un invitado agregue o elimine canales o deshabilite el acceso a los archivos.
 1. El invitado recibe un correo electrónico de bienvenida del dueño del equipo, con información sobre el equipo y qué esperar ahora que es miembro. 
 1. El invitado acepta la invitación.
-  Los usuarios invitados que tienen una dirección de correo electrónico que pertenece a una cuenta profesional o educativa de Azure Active Directory u Office 365 pueden aceptar la invitación directamente. 
+  Los usuarios invitados que tienen una dirección de correo electrónico que pertenece a una cuenta profesional o educativa de Azure Active Directory, Microsoft 365 u Office 365 pueden aceptar la invitación directamente. 
   Si el invitado aún no tiene una cuenta de Microsoft asociada a su dirección de correo electrónico, se le indicará que cree una gratis. 
 1. Tras aceptar la invitación, el invitado puede [participar en los equipos y los canales](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499), recibir mensajes del canal y responder a ellos, [acceder a los archivos de los canales](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participar en el chat, unirse a reuniones, colaborar en documentos, etc. 
 

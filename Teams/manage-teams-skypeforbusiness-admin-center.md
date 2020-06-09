@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: a847d27a53ab406b248f011dd12742b23b69e999
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: f30db1425c61e8cb5f916345c0b751bc81c90a0f
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041967"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637429"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams
 ======================================================
@@ -36,7 +36,7 @@ ms.locfileid: "44041967"
 
 ## <a name="what-is-the-new-microsoft-teams-admin-center"></a>¿Qué es el nuevo centro de administración de Microsoft Teams?  
 
-La nueva experiencia del centro de administración le proporcionará una experiencia unificada para administrar tanto los equipos como Skype empresarial. Ofrecemos funciones adicionales, información completa y la capacidad de administrar la configuración de Teams en un nivel de usuario.
+La nueva experiencia del centro de administración le proporcionará una experiencia unificada para administrar tanto los equipos como Skype empresarial. Ofrecemos funciones adicionales, información completa y la capacidad de administrar la configuración de Teams en un nivel de usuario. Puede obtener acceso al centro de administración en <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
 ![Captura de pantalla del centro de administración de Microsoft Teams.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
@@ -115,4 +115,4 @@ En la tabla siguiente se muestra dónde puede administrar características duran
 
 ## <a name="manage-settings-after-the-migration"></a>Administrar la configuración después de la migración
 
-Cuando haya finalizado la migración de esta configuración, la deshabilitaremos en el centro de administración de Office 365 y en el centro de administración de Skype empresarial, y se podrán administrar en el nuevo centro de administración de Microsoft Teams.
+Una vez completada la migración de esta configuración, la deshabilitaremos en el centro de administración de Microsoft 365 y en el centro de administración de Skype empresarial, y se podrán administrar en el nuevo centro de administración de Microsoft Teams.

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo asignar, cambiar o quitar un número de teléfono del trabajo para los usuarios de su equipo, de modo que los usuarios de fuera de la empresa y los clientes puedan llamar.
-ms.openlocfilehash: a8dea997df1511406a302922b291fa2248f29356
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 858c6c5f9995d4d9b3914ee769de1bb75d1951af
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326807"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44609965"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Asignar, cambiar o quitar un teléfono móvil de un usuario
 
@@ -51,7 +51,8 @@ Para obtener información sobre cómo obtener planes de llamadas en Teams y cuá
 5. En función de si desea enviar un correo electrónico al usuario con la información de su número de teléfono, desactive o Active el **usuario de correo electrónico con información sobre el número de**teléfono. De forma predeterminada, esta opción está activada. 
 6. Haga clic en **Guardar **.
     > [!NOTE]
-    > Debido a la latencia entre Office 365 y Teams, los usuarios pueden demorar algunas horas en habilitarse. Si el número de teléfono no se ha asignado correctamente después de unas horas, [póngase en contacto con el soporte técnico para productos para empresas: ayuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Estamos aquí para ayudarle.
+    > Debido a la latencia entre Microsoft 365 u Office 365 y Teams, los usuarios pueden tardar hasta 24 horas en habilitarse. Si el número de teléfono no se ha asignado correctamente después de 24 horas, [póngase en contacto con el soporte técnico para productos para empresas: ayuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Estamos aquí para ayudarle.
+
   
 ## <a name="change-a-phone-number-for-a-user"></a>Cambiar el número de teléfono de un usuario
  

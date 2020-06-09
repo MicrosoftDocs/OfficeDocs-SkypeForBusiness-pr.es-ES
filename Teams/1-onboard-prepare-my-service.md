@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Use listas de comprobación de incorporación para preparar Office 365 para equipos y configurar las capacidades básicas de Teams, las redes y las cargas de trabajo de voz de nube.
+description: Usar listas de comprobación de incorporación para preparar Microsoft 365 u Office 365 para equipos y configurar las capacidades básicas, las redes y las cargas de trabajo de voz de nube de Teams.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 710a365ef68d3e187013892ef978cd8e12557cc1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3c805e8ff14ddb1c46f83db819c5dd8a2c305914
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43138000"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610072"
 ---
 # <a name="prepare-my-service"></a>Preparar mis servicios
 
@@ -34,7 +34,7 @@ Este artículo proporciona una descripción general de los requisitos para prepa
 
 La siguiente lista de comprobación le guiará a través de los pasos para implementar audioconferencias, sistemas telefónicos con planes de llamadas ("planes de llamadas") y capacidades de enrutamiento directo del sistema telefónico ("enrutamiento directo") en Microsoft Teams.
 
-*  [Preparar Office 365 para equipos](onboarding-checklist-enable-office-365.md)
+*  [Preparar Microsoft 365 u Office 365 para Teams](onboarding-checklist-enable-office-365.md)
 
 *  [Configurar capacidades básicas de Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 

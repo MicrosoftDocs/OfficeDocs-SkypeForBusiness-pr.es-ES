@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb06a50d8a61d78abd84d8bf4f54295ece6d68ab
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 82b1397e597ae6dea218a8f3c27f50d26a60d05f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997131"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610082"
 ---
 # <a name="operate-my-service"></a>Ejecutar mis servicios
 
@@ -33,11 +33,11 @@ Este artículo proporciona una descripción general de los requisitos para opera
 
 La guía de operaciones le ofrece información general sobre todas las tareas y actividades necesarias como parte de la función de administración de servicios de Microsoft Teams.
 
-La administración de servicios es un tema muy amplio que cubre las operaciones del día a día del servicio de Microsoft Teams una vez que se ha implementado y habilitado para los usuarios. El servicio de Teams abarca Microsoft Office 365 y los componentes de infraestructura que se implementan en local (por ejemplo, las redes).
+La administración de servicios es un tema muy amplio que cubre las operaciones del día a día del servicio de Microsoft Teams una vez que se ha implementado y habilitado para los usuarios. El servicio de Teams abarca Microsoft 365 u Office 365 y los componentes de infraestructura implementados localmente (por ejemplo, redes).
 
 Seguramente, el concepto de "administración de servicios" no es nuevo para la mayoría de organizaciones. Es posible que ya haya implementado procesos y tareas asociados a servicios existentes. Dicho esto, es posible que pueda complementar sus procesos actuales al planear la administración de servicios hoy para admitir equipos en el futuro.
 
-La administración de servicios engloba todas las actividades y los procesos implicados en la administración de los equipos de un extremo a otro. Como se mencionó anteriormente, algunos componentes de la administración de servicios (la infraestructura que el propio servicio de Office 365 comprende) son responsabilidad de Microsoft, mientras que usted, el cliente, tiene la responsabilidad de los usuarios para administrar los diversos aspectos de los equipos, la red y los puntos de conexión que proporciona.
+La administración de servicios engloba todas las actividades y los procesos implicados en la administración de los equipos de un extremo a otro. Como se mencionó anteriormente, algunos componentes de la administración de servicios (la infraestructura que el propio servicio de Microsoft 365 u Office 365) son responsabilidad de Microsoft, mientras que usted, el cliente, se responsabilizará a los usuarios de administrar los diversos aspectos de Teams, la red y los puntos de conexión que proporciona.
 
 Las tareas y actividades de esta guía se agrupan en ocho categorías, tal como se muestra en el siguiente diagrama. Cada una de estas categorías se expandirá en las secciones siguientes.
 
@@ -46,7 +46,7 @@ Las tareas y actividades de esta guía se agrupan en ocho categorías, tal como 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decidir cómo se implementarán las operaciones para Teams.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul><li>Revise completa la guía de operaciones.</li><li>Implemente una estrategia de operaciones que se alinee con los objetivos de su organización para ofrecer la calidad y confiabilidad de las cargas de trabajo de voz en la nube.</li><li>Revise la guía de revisión de la calidad de la experiencia.</li><li> Implemente una estrategia de operaciones para realizar regularmente revisiones de la experiencia de la experiencia para asegurarse de que su implementación de voz en la nube está funcionando a su máxima capacidad.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Revise completa la guía de operaciones.</li><li>Implemente una estrategia de operaciones que se alinee con los objetivos de su organización para ofrecer la calidad y confiabilidad de las cargas de trabajo de voz en la nube.</li><li>Revise la guía de revisión de la calidad de la experiencia.</li><li> Implemente una estrategia de operaciones para realizar regularmente revisiones de la experiencia de la experiencia para asegurarse de que su implementación de voz en la nube está funcionando a su máxima capacidad.</li></ul></td></tr>
 </table>
 
 
@@ -65,12 +65,12 @@ Asegúrese de que cada equipo contable tenga una buena comprensión de las activ
 Una vez que se haya implementado un contrato, los equipos correspondientes deberán comenzar a operar sus roles.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td>
 <td><ul><li>Use este documento para facilitar el ejercicio de asignación de roles operativos.</li><li>Reunirse con los respectivos equipos de soporte técnico para asignar nombres a cada elemento de la lista de actividades necesarias.</li><li>Gana la aceptación o la aprobación de los roles asignados.</li><li>Asegúrese de que los equipos correspondientes tengan la formación, preparación y recursos adecuados para completar las actividades que necesiten.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Dependencias del servicio de Teams
 
-Microsoft Teams reúne tecnologías en Office 365 para proporcionar un hub para el trabajo en equipo. Entre los ejemplos se incluyen:
+Microsoft Teams reúne tecnologías en Microsoft 365 u Office 365 para proporcionar un hub para el trabajo en equipo. Entre los ejemplos se incluyen:
 
 -   Azure Active Directory (Azure AD) proporciona servicios de autenticación y autorización para Teams.
 
@@ -104,7 +104,7 @@ En las siguientes secciones se ofrece información general sobre las actividades
 
 ## <a name="monitor-service-health"></a>Supervisar el estado del servicio
 
-Es importante que comprenda el estado general del servicio Microsoft Teams para que pueda avisar de forma proactiva sobre otros usuarios de su organización de cualquier evento que afecte al servicio. Como se ha descrito anteriormente, Teams depende de otros servicios de Office 365, como Azure Active Directory, Exchange Online, SharePoint Online y OneDrive para la empresa. Por eso, es igualmente importante que Supervises el estado de los servicios dependientes.
+Es importante que comprenda el estado general del servicio Microsoft Teams para que pueda avisar de forma proactiva sobre otros usuarios de su organización de cualquier evento que afecte al servicio. Como se ha descrito anteriormente, Teams depende de otros servicios de Microsoft 365 u Office 365, como Azure Active Directory, Exchange Online, SharePoint Online y OneDrive para la empresa. Por eso, es igualmente importante que Supervises el estado de los servicios dependientes.
 
 Incorpore esta actividad en el proceso de administración de incidentes para informar de forma proactiva a los usuarios, al Departamento de soporte técnico y a sus equipos de operaciones para prepararse para administrar los aumentos de usuario.
 
@@ -113,9 +113,9 @@ En las siguientes secciones se describen las herramientas que puede aprovechar p
 | Herramienta de supervisión                       | Ventajas                                            | Cuándo usar                                                                                  |
 |---------------------------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------|
 | Centro de administración de Microsoft 365                     | Disponible desde cualquier dispositivo con un explorador compatible. | Usar cuando no necesite notificaciones en tiempo real.                                          |
-| Aplicación de administración de Office 365                  | Proporciona notificaciones de inserción a su dispositivo móvil.  | Utilícelo cuando necesite recibir notificaciones de incidentes de servicio mientras está de viaje.                  |
+| Aplicación de administrador de Microsoft 365 u Office 365                  | Proporciona notificaciones de inserción a su dispositivo móvil.  | Utilícelo cuando necesite recibir notificaciones de incidentes de servicio mientras está de viaje.                  |
 | Microsoft System Center               | Integración con Microsoft System Center.           | Utilícelo cuando necesite capacidades de supervisión avanzadas y soporte de notificaciones.                       |
-| API de comunicaciones de servicio de Office 365 | Acceso mediante programación al estado del servicio de Office 365.   | Utilícelo cuando necesite la integración con una herramienta de supervisión de terceros o desee crear su propia solución. |
+| API de comunicaciones de servicio de Microsoft 365 u Office 365 | Acceso mediante programación al estado del servicio de Microsoft 365 u Office 365.   | Utilícelo cuando necesite la integración con una herramienta de supervisión de terceros o desee crear su propia solución. |
 
 > [!NOTE]
 > Solo las personas que tienen asignado el rol de **Administrador** **global** o de administrador de servicios pueden ver el estado del servicio.
@@ -126,7 +126,7 @@ El [centro de administración de Microsoft 365](https://portal.office.com/) prop
 
 ### <a name="monitoring-with-the-mobile-app"></a>Supervisar con la aplicación móvil
 
-La aplicación de administrador de Office 365 está disponible en Apple iOS, Android y Windows (PC y móvil). La aplicación proporciona a los administradores de servicios información sobre el estado del servicio y los próximos cambios. La aplicación admite notificaciones Push que pueden alertarte casi inmediatamente después de que se haya publicado un aviso. Esto le ayuda a estar al día de la situación, la salud y los próximos cambios en el servicio. La compatibilidad de notificaciones lo convierte en la herramienta de supervisión recomendada para los administradores. Para obtener más información, vea:
+La aplicación de administrador de Microsoft 365 o de Office 365 está disponible en Apple iOS, Android y Windows (PC y móvil). La aplicación proporciona a los administradores de servicios información sobre el estado del servicio y los próximos cambios. La aplicación admite notificaciones Push que pueden alertarte casi inmediatamente después de que se haya publicado un aviso. Esto le ayuda a estar al día de la situación, la salud y los próximos cambios en el servicio. La compatibilidad de notificaciones lo convierte en la herramienta de supervisión recomendada para los administradores. Para obtener más información, vea:
 
 [Aplicación móvil de administración de Office 365](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
@@ -164,7 +164,7 @@ Puede supervisar el estado del servicio y los próximos cambios aprovechando la 
 
 Microsoft Teams es un servicio basado en la nube. Gracias a esto se obtiene la capacidad de ofrecer nuevas características y funcionalidades a un ritmo rápido. Ofrecer una innovación continua ofrece una ventaja obvia para las organizaciones, pero estos cambios deben administrarse adecuadamente dentro de la organización para evitar la resistencia del usuario o el aumento de nivel al Departamento de soporte técnico.
 
-Las actualizaciones de Teams se distribuyen automáticamente a los usuarios. Los usuarios siempre tendrán el cliente y las características más recientes disponibles en el servicio de Teams. No es posible administrar la implementación de actualizaciones de Teams para los usuarios, por lo que es muy importante administrar los cambios mediante programas de comunicación, aprendizaje y adopción eficaces. Si los usuarios son conscientes del cambio, les ha informado sobre los beneficios y están capacitados para aprovechar las nuevas&mdash;capacidades, podrán adaptarse más rápidamente y Bienvenido al cambio.
+Las actualizaciones de Teams se distribuyen automáticamente a los usuarios. Los usuarios siempre tendrán el cliente y las características más recientes disponibles en el servicio de Teams. No es posible administrar la implementación de actualizaciones de Teams para los usuarios, por lo que es muy importante administrar los cambios mediante programas de comunicación, aprendizaje y adopción eficaces. Si los usuarios son conscientes del cambio, les ha informado sobre los beneficios y están capacitados para aprovechar las nuevas capacidades, podrán &mdash; adaptarse más rápidamente y Bienvenido al cambio.
 
 ### <a name="monitoring-for-change"></a>Supervisión de cambios
 

@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6cafff163c4794002d8f92b638e73112faa8d1e4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 94430052082d523861ed4a938e0e0b02b70049f9
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780669"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610989"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 
@@ -99,7 +99,7 @@ Además de definir los casos de uso de la empresa, para establecer los límites 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |Puntos de decisión|<ul><li>¿Cuáles son todos los casos de uso empresarial de las conferencias de audio que puede identificar en su organización?</li><li>¿Cuáles son todos los casos de uso empresarial para planes de llamadas que puede identificar en su organización?</li><li>¿Cuáles son todos los casos de uso empresarial para el enrutamiento directo que puede identificar en su organización?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Siguientes pasos|<ul><li>Documente todos los casos de uso empresarial de las conferencias de audio de su organización.</li><li>Documente todos los casos de uso empresarial de los planes de llamadas de su organización.</li><li>Documente todos los casos de uso empresarial para el enrutamiento directo de su organización.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente todos los casos de uso empresarial de las conferencias de audio de su organización.</li><li>Documente todos los casos de uso empresarial de los planes de llamadas de su organización.</li><li>Documente todos los casos de uso empresarial para el enrutamiento directo de su organización.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -134,7 +134,7 @@ Los casos de uso empresarial definidos en el paso anterior incluyen un ámbito o
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Puntos de decisión|<ul><li>¿Quién rellenará cada rol de participante clave para su organización?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Siguientes pasos|<ul><li>Documente todas las partes clave y comunique las responsabilidades y las expectativas de la función a cada persona asignada.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente todas las partes clave y comunique las responsabilidades y las expectativas de la función a cada persona asignada.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -150,7 +150,7 @@ OKRs contienen los objetivos que estableció al principio del proyecto y define 
 > A continuación, se puede hacer referencia a los ejemplos de OKRs relevantes para una implementación de audioconferencia:
 > <br>
 > 
-> **Visión: aumentar la productividad maximizando las inversiones de Office 365**
+> **Visión: aumentar la productividad al maximizar las inversiones en Microsoft 365 u Office 365**
 > 
 > |Objetivos  |Resultados clave  |Tareas pendientes  |
 > |---------|---------|---------|
@@ -163,7 +163,7 @@ OKRs contienen los objetivos que estableció al principio del proyecto y define 
 > A continuación, se puede hacer referencia a ejemplos de OKRs relacionados con la implementación de planes de llamada:
 > <br>
 > 
-> **Visión: aumentar la productividad maximizando las inversiones de Office 365**
+> **Visión: aumentar la productividad al maximizar las inversiones en Microsoft 365 u Office 365**
 > 
 > |Objetivos  |Resultados clave  |Tareas pendientes  |
 > |---------|---------|---------|
@@ -174,7 +174,7 @@ OKRs contienen los objetivos que estableció al principio del proyecto y define 
 > A continuación se puede consultar ejemplos de OKRs relevantes para una implementación de enrutamiento directo:
 > <br>
 > 
-> **Visión: aumentar la productividad maximizando las inversiones de Office 365**
+> **Visión: aumentar la productividad al maximizar las inversiones en Microsoft 365 u Office 365**
 > 
 > |Objetivos  |Resultados clave  |Tareas pendientes  |
 > |---------|---------|---------|
@@ -227,7 +227,7 @@ Debe identificar los riesgos empresariales como parte de este ejercicio y defini
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Puntos de decisión|<ul><li>¿Qué es su organización&#39;OKRs y KSIs?</li><li>¿Cuáles son los riesgos que identificó relevantes para la implementación de audioconferencia en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li><li>¿Cuáles son los riesgos que identificó relevantes para la implementación de planes de llamadas en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li><li>¿Qué riesgos identificó relevantes para la implementación de enrutamiento directo en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Siguientes pasos|<ul><li>Documente la OKRs y KSIs y establezca el registro de riesgos.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente la OKRs y KSIs y establezca el registro de riesgos.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -268,7 +268,7 @@ El Comité Directivo reúne un intervalo de repetición durante todo el período
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Puntos de decisión|<ul><li>Decidir si es necesario un Comité de dirección para su organización.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Siguientes pasos|<ul><li>Identifique a los miembros del Comité de dirección.</li><li>Programar reuniones en el Comité.</li><li>Prepararse para las reuniones del Comité Director.</li><li>Celebrar reuniones del Comité de dirección.</li><li>Tomar medidas según la entrada de la reunión del Comité Directivo.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Identifique a los miembros del Comité de dirección.</li><li>Programar reuniones en el Comité.</li><li>Prepararse para las reuniones del Comité Director.</li><li>Celebrar reuniones del Comité de dirección.</li><li>Tomar medidas según la entrada de la reunión del Comité Directivo.</li></ul>|
 
 Encontrará instrucciones detalladas adicionales sobre cómo manejar un Comité Directivo adecuado en la guía del [Comité Director](envision-steering-committee-complete-guide.md).
 

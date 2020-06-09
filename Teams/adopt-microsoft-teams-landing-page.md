@@ -21,16 +21,16 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5224fabff542051438bc523388b96ecf93f7af9a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 76086d7e34d56a9bab59c7ca10ed40472aecd7a1
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905922"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610250"
 ---
 # <a name="adopt-microsoft-teams"></a>Adoptar Microsoft Teams
 
-Si es una pequeña empresa o si desea implementar Teams a partir de una conversación, Teams & canales y reuniones, use nuestra [Guía de introducción](get-started-with-teams-quick-start.md)a las directrices, que está diseñada para que pueda empezar a trabajar rápidamente. Si es una organización grande con una configuración híbrida o local de Skype empresarial, o si desea implementar características de voz (como planes de llamadas de Office 365 o un sistema telefónico), puede comenzar con nuestra guía de introducción, pero necesitará la orientación adicional que se muestra a continuación, en una **Guía de adopción más profunda**.
+Si es una pequeña empresa o si desea implementar Teams a partir de una conversación, Teams & canales y reuniones, use nuestra [Guía de introducción](get-started-with-teams-quick-start.md)a las directrices, que está diseñada para que pueda empezar a trabajar rápidamente. Si es una organización grande con una configuración híbrida o local de Skype empresarial, o si desea implementar características de voz (como planes de llamadas o un sistema telefónico de Microsoft 365 o de Office 365), puede comenzar con la guía de introducción, pero necesitará la orientación adicional que se describe a continuación, en **orientación de adopción más profunda**.
 
 <ul class="panelContent cardsFTitle">
     <li>

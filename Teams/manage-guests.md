@@ -17,12 +17,12 @@ description: Aprenda a crear sus primeros equipos y canales, a incorporar a los 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 83f4e4cdff4515f89a5b3fe68c91d848f9ae5dda
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 4751f274e4bc7a874c1469041787d7d145c11bb8
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326457"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637669"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Administrar el acceso de invitado en Microsoft Teams
 ======================================
@@ -30,19 +30,19 @@ ms.locfileid: "44326457"
 > [!IMPORTANT]
 > Es posible que tenga que esperar unas horas para que los cambios surtan efecto. 
 
-**Guest** es un tipo de usuario en Microsoft teams que se incluye con todas las suscripciones Microsoft 365 Business Standard, Office 365 Enterprise, Microsoft 365 Business Basic y Office 365 educación. No se necesita ninguna otra licencia de Office 365. Más adelante encontrará más información sobre las [licencias de acceso de invitado](#guest-access-licensing-limits) .
+**Guest** es un tipo de usuario en Microsoft teams que se incluye con todas las suscripciones Microsoft 365 Business Standard, Office 365 Enterprise, Microsoft 365 Business Basic y Office 365 educación. No es necesaria ninguna licencia adicional de Microsoft 365 o de Office 365. Más adelante encontrará más información sobre las [licencias de acceso de invitado](#guest-access-licensing-limits) .
 
 El acceso de invitado de Teams es una configuración a nivel de inquilino y se encuentra desactivada de forma predeterminada. Para obtener más información sobre cómo activar el acceso de invitados, vea [activar o desactivar el acceso de invitados a los equipos](set-up-guests.md), o use la [lista de comprobación de acceso de invitados](guest-access-checklist.md) para que le guíe por la configuración.
 
 Después de activar el acceso de invitados, puede configurar las opciones de los invitados con los controles descritos en [administrar la configuración de Teams de la organización](enable-features-office-365.md) y [administrar equipos durante la transición al nuevo centro de administración de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md).     
     
-Los administradores de TI pueden agregar invitados en el nivel de espacio empresarial, establecer y administrar las directivas y permisos de los usuarios invitados, y extraer informes sobre la actividad de los usuarios invitados. Estos controles están disponibles en el centro de administración de Teams. El contenido y las actividades de los usuarios invitados se encuentran en el mismo cumplimiento y protección de auditoría que el resto de la 365.
+Los administradores de TI pueden agregar invitados en el nivel de espacio empresarial, establecer y administrar las directivas y permisos de los usuarios invitados, y extraer informes sobre la actividad de los usuarios invitados. Estos controles están disponibles en el centro de administración de Teams. El contenido y las actividades de los usuarios invitados se encuentran en el mismo cumplimiento y protección de auditoría que el resto de Microsoft 365 u Office 365.
 
 Los propietarios de equipo pueden invitar a nuevos invitados y agregar usuarios de invitados a sus equipos en el centro de administración de Teams. Identifique los invitados en la página **Teams**  >  **Manage Teams** y establezca capacidades relacionadas con los canales para los invitados en la página de acceso de invitado de la **configuración de toda la organización**  >  **Guest access** . La configuración incluye permitir a los invitados crear, actualizar y eliminar canales, como se muestra en la siguiente ilustración.
 
 ![Configuración de los permisos de invitado en Teams](media/manage-guest-access-image1.png)
   
-Puede usar el portal de Azure Active Directory (Azure AD) para administrar los invitados y su acceso a los recursos de Office 365 y Teams. El acceso de invitado de Teams usa las capacidades de colaboración de Azure AD negocio a negocio (B2B) como la infraestructura subyacente para almacenar información sobre los principios de seguridad, como las propiedades de identidad, las pertenencias y la configuración de la autenticación multifactor. Para obtener más información sobre B2B de Azure AD, vea [¿Qué es la colaboración B2B de Azure ad?](https://go.microsoft.com/fwlink/p/?linkid=853011) y [preguntas frecuentes sobre la colaboración B2B de Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853020).
+Puede usar el portal de Azure Active Directory (Azure AD) para administrar los invitados y su acceso a los recursos de Microsoft 365 o Office 365 y Teams. El acceso de invitado de Teams usa las capacidades de colaboración de Azure AD negocio a negocio (B2B) como la infraestructura subyacente para almacenar información sobre los principios de seguridad, como las propiedades de identidad, las pertenencias y la configuración de la autenticación multifactor. Para obtener más información sobre B2B de Azure AD, vea [¿Qué es la colaboración B2B de Azure ad?](https://go.microsoft.com/fwlink/p/?linkid=853011) y [preguntas frecuentes sobre la colaboración B2B de Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853020).
 
 > [!NOTE]
 > Microsoft Teams siempre respeta la configuración externa de Azure AD para permitir o evitar adiciones de usuarios invitados al inquilino. Para obtener más información, consulte [autorizar el acceso de invitados en Microsoft Teams](Teams-dependencies.md).

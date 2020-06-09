@@ -17,79 +17,20 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63a091c3b3c93f6b3769c538b74c17b4235a09a5
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.openlocfilehash: 5ba2118defb86ac6b957ac181c9a02afc5eed82f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079404"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610288"
 ---
 # <a name="shifts-for-teams"></a>Turnos para Teams
 
 Teams proporciona a los trabajadores de los Firstline de su organización las herramientas que necesitan para comunicarse y colaborar de forma eficaz, y realizar su mejor trabajo. Aquí encontrará las instrucciones para administradores que necesita para configurar y administrar turnos, la herramienta de administración de programación, en Teams.
 
-### <a name="move-from-staffhub-to-shifts-in-teams"></a>Desplazarse de StaffHub a turnos en Teams
-
-<ul class="panelContent cardsFTitle">
- <li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="An icon depicting a pointing hand and arrow" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Obtener información sobre la jubilación de StaffHub y la transición a los cambios en Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Planificar el traslado de los equipos de StaffHub a Turnos en Microsoft Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="An icon depicting migrating information" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Mover los equipos de StaffHub a los cambios en Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-
-</ul>
-
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>Configurar y administrar turnos para su organización
 
-<ul class="panelContent cardsFTitle">
+<ul class="panelContent cardsF">
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams">
         <div class="cardSize">
@@ -120,6 +61,68 @@ Teams proporciona a los trabajadores de los Firstline de su organización las he
                     </div>
                     <div class="cardText">
                         <h3>Desplaza la ayuda para los trabajadores de los Firstline</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
+### <a name="shifts-extensions"></a>Desplaza las extensiones
+
+<ul class="panelContent cardsF">
+    <li>
+        <a href="https://docs.microsoft.com/graph/api/resources/shift?view=graph-rest-1.0">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Three gears - API"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>API de desplazamiento de gráficos</h3>
+                        <p>Mayús las API de gráficos le permiten integrar los datos de los turnos con sistemas externos de administración de trabajadores, lo que le proporciona la flexibilidad de crear experiencias de turnos personalizados en el back-end y, al mismo tiempo, ofrece a los usuarios una experiencia enriquecida y frontal en Teams.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Three gears - API"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Integraciones de administración de personal</h3>
+                        <p>Si está usando sistemas de administración de personal de terceros, como Kronos y JDA, para la programación, la hora y la asistencia, puede integrarlos directamente con los turnos a través de las teclas Graph y SDK de Graph con integraciones de código abierto.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+   <li>
+        <a href="https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/process-flow-teams.svg" alt="Process/flow chart symbol"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Cambia la función de automatización de potencia</h3>
+                        <p>Mayús + la opción automatizar la energía le permite tomar la información de turnos y crear flujos de trabajo personalizados con otras aplicaciones y realizar operaciones a escala. Automatizar procesos clave con poco o ningún código. Los desencadenadores y las plantillas admiten una variedad de escenarios, como, por ejemplo, la habilitación de aprobaciones automáticas para solicitudes de turno cuando no es necesaria la aprobación de un administrador.</p>
                     </div>
                 </div>
             </div>

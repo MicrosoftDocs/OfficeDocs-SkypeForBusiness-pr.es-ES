@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c83d985a277c8341565e44878ba03385e23a358
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-ms.translationtype: HT
+ms.openlocfilehash: 9ffc71de13948be077c14699e98fca726bced3eb
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905002"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638499"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Administrar equipos en el Centro de administración de Microsoft Teams
 ==========================================
@@ -33,7 +33,7 @@ ms.locfileid: "43905002"
 
 Este artículo proporciona una descripción general de las herramientas de administración para equipos en el centro de administración de Microsoft Teams.
 
-Como administrador, es posible que tenga que ver o actualizar los equipos que la organización configuró para la colaboración, o es posible que tenga que llevar a cabo acciones de corrección, como la asignación de propietarios a equipos sin propietario. Puede administrar los equipos que se usan en la organización tanto en el módulo de PowerShell para Microsoft Teams como en el centro de administración de Microsoft Teams. Para obtener todas las funciones de administración con estos dos conjuntos de herramientas, debe asegurarse de que tiene asignado uno de los roles siguientes:
+Como administrador, es posible que tenga que ver o actualizar los equipos que la organización configuró para la colaboración, o es posible que tenga que llevar a cabo acciones de corrección, como la asignación de propietarios a equipos sin propietario. Puede administrar los equipos que se usan en la organización tanto en el módulo de PowerShell para Microsoft Teams como en el centro de administración de Microsoft Teams. Puede obtener acceso al centro de administración en <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> . Para obtener todas las funciones de administración con estos dos conjuntos de herramientas, debe asegurarse de que tiene asignado uno de los roles siguientes:
 
 - Administrador global
 - Administrador de servicios de Teams
@@ -44,7 +44,7 @@ Puede obtener más información acerca de los roles de administrador en Teams en
 
 ## <a name="teams-overview-grid"></a>Información general de equipos
 
-Las herramientas de administración para equipos se encuentran en el nodo **Equipos** en el centro de administración de Microsoft Teams. (En el centro de administración, seleccione **Equipos** > **Administrar equipos**). Cada equipo se basa en un grupo de Office 365 y este nodo ofrece una vista de los grupos que se han habilitado para Microsoft Teams en la organización.
+Las herramientas de administración para equipos se encuentran en el nodo **Equipos** en el centro de administración de Microsoft Teams. (En el centro de administración, seleccione **Teams**  >  **Administrar equipos**). Cada equipo está respaldado por un grupo de Microsoft 365 y este nodo proporciona una vista de los grupos que se han habilitado en Microsoft Teams en su organización.
 
 ![Captura de pantalla de la cuadrícula de información general de equipos](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -55,11 +55,11 @@ La cuadrícula muestra las siguientes propiedades:
 - **Miembros del equipo**: un recuento de los usuarios totales, incluidos los propietarios, los invitados y los miembros de su espacio empresarial.
 - **Propietarios**: un recuento de propietarios de este equipo.
 - **Invitados**: recuento de usuarios invitados de B2B de Azure Active Directory que son miembros de este equipo.
-- **Privacidad**: visibilidad o AccessType del grupo de Office 365 correspondiente.
+- **Privacidad** : visibilidad/AccessType del grupo de apoyo de Microsoft 365.
 - **Estado**: el estado Archivado o Activo de este equipo. Obtenga más información sobre archivar equipos en [Archivar o restaurar un equipo](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
-- **Descripción**: la descripción del grupo de Office 365 correspondiente.
-- **Clasificación**: la clasificación (si se usa en su organización) asignada al del grupo de Office 365 correspondiente. Obtenga más información sobre las clasificaciones en [Crear clasificaciones para los grupos de Office de su organización](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
-- **GroupID**: el GroupID único del grupo de Office 365 correspondiente.
+- **Descripción** : la descripción del grupo Microsoft 365 de respaldo.
+- **Clasificación** : la clasificación (si se usa en su organización) asignada al grupo de apoyo de Microsoft 365. Obtenga más información sobre las clasificaciones en [Crear clasificaciones para los grupos de Office de su organización](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **GROUPID** : el único GROUPID del grupo Microsoft 365 de respaldo.
 
 > [!NOTE]
 > Si no ve todas estas propiedades en la cuadrícula, haga clic en el icono **Editar columnas**. En el panel **Editar columnas**, puede usar el botón de alternancia para activar o desactivar columnas en la cuadrícula. Cuando haya terminado, haga clic en **Aplicar**.
@@ -78,7 +78,7 @@ Puede archivar un equipo. El archivado de un equipo convierte el equipo en modo 
 
 ### <a name="delete"></a>Eliminar
 
-Al eliminar un equipo, se eliminan el equipo y el grupo de Office 365 correspondiente. Para restaurar un equipo eliminado por error, siga las instrucciones de [Restaurar un grupo de Office 365 eliminado](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide).
+Eliminar un equipo es una eliminación parcial del equipo y del grupo de Microsoft 365 correspondiente. Para restaurar un equipo eliminado por error, siga las instrucciones de [restaurar un grupo eliminado](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### <a name="search"></a>Buscar 
 
@@ -86,7 +86,7 @@ La búsqueda admite la cadena "Empieza por" y busca en el campo **Nombre del gru
 
 ## <a name="team-profile"></a>Perfil de equipo
 
-Puede ir a la página de perfil de equipo de cualquier equipo desde la cuadrícula principal de información general de equipos al hacer clic en el nombre del equipo. En la página de perfil de equipo se muestran los miembros, los propietarios y los invitados que pertenecen al equipo (y su grupo de 365 correspondiente), así como los canales y la configuración del equipo. En la página de perfil de equipo, puede:
+Puede ir a la página de perfil de equipo de cualquier equipo desde la cuadrícula principal de información general de equipos al hacer clic en el nombre del equipo. En la página Perfil de equipo se muestran los miembros, los propietarios y los invitados que pertenecen al equipo (y su grupo de respaldo de Microsoft 365), así como los canales y la configuración del equipo. En la página de perfil de equipo, puede:
 
 - Agregar o quitar miembros y propietarios.
 - Agregar o quitar canales (tenga en cuenta que no se puede quitar el canal General).
@@ -103,7 +103,7 @@ En la página de perfil del equipo, puede cambiar los siguientes elementos de un
 - **Nombre del equipo**
 - **Descripción**
 - **Privacidad**: establezca si el equipo es público o privado.
-- **Clasificación**: esto se basa en sus clasificaciones de grupos de Office 365. Elija **Confidencial**, **Extremadamente confidencial** o **General**.
+- **Clasificación** : está respaldado por las clasificaciones de grupo de Microsoft 365. Elija **Confidencial**, **Extremadamente confidencial** o **General**.
 - **Configuración de conversaciones**: establezca si los miembros pueden editar y eliminar los mensajes enviados.
 - **Configuración de canales**: establezca si los miembros pueden crear nuevos canales y editar los existentes, y agregar, editar y quitar fichas, conectores y aplicaciones.
 

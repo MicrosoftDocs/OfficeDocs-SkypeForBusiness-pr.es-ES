@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c7bf160e53fcbdd13fefac06c706d743a8b55643
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 20fc95f14782057c6c493d9835fd17a7339018ca
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902605"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637279"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
@@ -57,7 +57,7 @@ En la siguiente tabla se compara la funcionalidad de Teams disponible para los m
 |Crear reuniones o programaciones de Access  <br/> |&#x2713;||
 |Obtener acceso al almacenamiento de OneDrive para la empresa  <br/> |&#x2713;||
 |Crear directivas de acceso de invitados a equipos y canales para todos los inquilinos  <br/> |&#x2713;||
-|Invitar a un usuario fuera del dominio de la organización de Office 365 <br/>  *Los propietarios del equipo controlan este parámetro.*  <br/> <br/> |&#x2713;||
+|Invitar a un usuario fuera del dominio de la organización de Microsoft 365 o de Office 365 <br/>  *Los propietarios del equipo controlan este parámetro.*  <br/> <br/> |&#x2713;||
 |Crear un equipo  <br/> |&#x2713;||
 |Descubrir un equipo público y unirse a él  <br/> |&#x2713;||
 |Ver el organigrama  <br/> |&#x2713;||
@@ -99,7 +99,7 @@ En la tabla siguiente se muestran las características de llamadas y reuniones d
 <sup>1</sup> esta característica estará disponible próximamente.
 
 > [!NOTE]
-> Los administradores de Office 365 controlan las características que tienen a su disposición los invitados. 
+> Los administradores de Microsoft 365 y Office 365 controlan las características disponibles para los invitados. 
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
