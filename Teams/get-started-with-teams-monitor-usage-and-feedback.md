@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2604a0dd6aa662d807ae878dc31800736529833c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 928f761626f51c2c717e046ad2f3aac49161b4cd
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778446"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638379"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Supervisar el uso y los comentarios en Microsoft Teams
 Es importante saber cómo los usuarios utilizan Teams y cuál es su experiencia con Teams. Los informes de uso pueden ayudarle a comprender mejor los patrones de uso y, junto con los comentarios de los usuarios, proporcionarle información para ampliar la implementación y saber en qué áreas debe dar prioridad a los esfuerzos de aprendizaje y comunicación.
@@ -38,7 +38,7 @@ Aquí le mostramos cómo obtener informes para ver el uso de Teams.
 
 Los informes de equipos en el Centro de administración de Microsoft Teams proporcionan información acerca de cómo se usa Teams en su organización. Use los informes para obtener una vista del uso de Teams, la actividad de los usuarios y el uso de dispositivos en toda la organización. 
 
-Para ver estos informes, debe ser un administrador global de Office 365, administrador del servicio de Teams o administrador de Skype Empresarial. Vaya al Centro de administración de Microsoft Teams, en la navegación de la izquierda, seleccione **Análisis e informes** y en **Informe**, seleccione el informe que desee ejecutar.
+Para ver estos informes, debe ser un administrador global de Microsoft 365 u Office 365, administrador del servicio de Teams o administrador de Skype Empresarial. Vaya al Centro de administración de Microsoft Teams, en la navegación de la izquierda, seleccione **Análisis e informes** y en **Informe**, seleccione el informe que desee ejecutar.
 
 - **Informe de uso de Teams**: este informe proporciona información general sobre la actividad de uso en Teams, incluidos los canales y usuarios activos totales, y el número de usuarios activos, canales activos, invitados y mensajes en cada equipo. 
 
@@ -62,7 +62,7 @@ Para obtener más información, vaya a [Usar informes de actividad de Teams](tea
 
 ### <a name="microsoft-365-usage-analytics"></a>Análisis de uso de Microsoft 365
 
-Puede usar los análisis de uso de Microsoft 365 en Power BI para ver y analizar los datos de uso de Teams y otros productos y servicios de Office 365. Los análisis de uso de Microsoft 365 son un paquete de contenido que incluye un panel predefinido y un número de informes predefinidos. Cada informe le proporciona información y datos de uso específicos. Para conectarse al paquete de contenido, necesita Power BI y debe ser un administrador global en Office 365 o un lector de informes. Si todavía no tiene Power BI, [regístrese de forma gratuita en el servicio Power BI](https://powerbi.microsoft.com). 
+Puede usar los análisis de uso de Microsoft 365 en Power BI para ver y analizar los datos de uso de Teams y otros productos y servicios de Microsoft 365 u Office 365. Los análisis de uso de Microsoft 365 son un paquete de contenido que incluye un panel predefinido y un número de informes predefinidos. Cada informe le proporciona información y datos de uso específicos. Para conectarse al paquete de contenido, necesita Power BI y debe ser un administrador global en Microsoft 365 u Office 365 o un lector de informes. Si todavía no tiene Power BI, [regístrese de forma gratuita en el servicio Power BI](https://powerbi.microsoft.com). 
 
 Para obtener más información, consulte [Análisis de uso de Microsoft 365](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f). 
 

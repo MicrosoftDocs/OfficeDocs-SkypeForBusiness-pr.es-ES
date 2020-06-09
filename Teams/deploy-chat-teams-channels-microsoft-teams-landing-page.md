@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: e8e2f2b09ab448e0460c82af0fba776f2ce1126a
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 3b1546c71cc2796ce599da449ab37bf275384efc
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041847"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637899"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipos, canales y aplicaciones en Microsoft Teams
 
@@ -160,7 +160,7 @@ Teams se incluye como parte de muchas licencias de Office 365. Para más informa
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Interoperabilidad de Exchange y SharePoint 
 
-Para disfrutar de la experiencia completa de Teams, los usuarios debe habilitarse en Exchange Online, SharePoint Online y la creación de grupos de Office 365. Los artículos siguientes muestran información relacionada con los buzones de Exchange hospedados en entornos distintos, cómo interactúan Teams y Exchange, y consideraciones similares para SharePoint y OneDrive para la Empresa. 
+Para disfrutar de la experiencia completa de Teams, debe habilitarse a los usuarios en Exchange Online, SharePoint Online y la creación de grupos de Microsoft 365. Los artículos siguientes muestran información relacionada con los buzones de Exchange hospedados en entornos distintos, cómo interactúan Teams y Exchange, y consideraciones similares para SharePoint y OneDrive para la Empresa. 
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|

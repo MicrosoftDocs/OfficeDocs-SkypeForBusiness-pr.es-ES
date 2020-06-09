@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Use el Asesor de Teams (versión preliminar pública) para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: 79273c0c0d96bf5f7c52399310bffce433928e2b
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: bd893faa9a166b238a88f3865527bc38ef9bc6d3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139203"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637179"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
@@ -78,7 +78,7 @@ Te recomendamos que empieces con el plan de chat, equipos, canales y aplicacione
 Cada plan incluye una evaluación de la preparación de los inquilinos que usted puede utilizar para identificar rápidamente los aspectos de su entorno que pueden necesitar corrección antes de desplegar los equipos. Las evaluaciones incluyen requisitos previos y mejores prácticas. Cada prueba de evaluación tendrá una marca de verificación verde o un triángulo de advertencia naranja. 
 
 - <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>Una marca de verificación verde significa que su inquilino pasó la prueba específica. 
-- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>Un triángulo de advertencia naranja significa que te sugerimos que hagas un seguimiento para determinar si es necesario realizar alguna acción (por ejemplo, se recomienda, pero no es necesario, una política de caducidad del Grupo Office 365).
+- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>Un triángulo de advertencia naranja significa que le sugerimos que haga un seguimiento para determinar si es necesario realizar alguna acción (por ejemplo, se recomienda, pero no es necesario, una política de caducidad del Grupo Microsoft 365).
 
 > [!IMPORTANT]
 > Una vez que un usuario con un rol administrativo inicia el asesor para Teams, todas las evaluaciones se ejecutan en segundo plano. Si actualiza o repara algo, es posible que no se refleje en sus evaluaciones durante un máximo de 24 horas. Este es un caso provisional: tan pronto como asesor para Teams deja la versión preliminar pública y está disponible en general, las evaluaciones se actualizarán casi en tiempo real.
@@ -102,8 +102,8 @@ Además de las [pruebas de evaluación para todas las cargas de trabajo](#assess
 
 |Prueba de evaluación  |Qué le indica  |
 |---------|---------|
-|Configuración de la política de nombres de grupo de Office 365     |Si se han configurado estándares de nomenclatura para Grupos de Microsoft 365. La Directiva de nomenclatura de Grupos de Microsoft 365 permite a su organización aplicar una estrategia de asignación de nombres coherente a los equipos creados por los usuarios y también se aplica a otras cargas de trabajo de grupos (incluidos Outlook, SharePoint, Planner y Yammer). Esta prueba consulta Azure AD a través de Microsoft Graph para comprobar la existencia de directivas de nomenclatura que se aplican a los Grupos de Microsoft 365. Para obtener más información, lea [la política de nombres de grupo de Office 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
-|Configuración de la política de caducidad de Grupos de Office 365     |Si se ha definido una Directiva de caducidad de grupo para los Grupos de Microsoft 365. Esto permite a su organización eliminar automáticamente los equipos inactivos. Está desactivado por defecto. Esta prueba consulta Azure AD a través de Microsoft Graph e informa si el valor ha sido modificado desde el valor predeterminado. Para más información, lea la [Política de Expiración de Grupo de Office 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
+|Configuración de la política de nombres de grupo de Microsoft 365     |Si se han configurado estándares de nomenclatura para Grupos de Microsoft 365. La Directiva de nomenclatura de Grupos de Microsoft 365 permite a su organización aplicar una estrategia de asignación de nombres coherente a los equipos creados por los usuarios y también se aplica a otras cargas de trabajo de grupos (incluidos Outlook, SharePoint, Planner y Yammer). Esta prueba consulta Azure AD a través de Microsoft Graph para comprobar la existencia de directivas de nomenclatura que se aplican a los Grupos de Microsoft 365. Para obtener más información, lea [la política de nombres de grupo de Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
+|Configuración de la política de caducidad de Grupos de Microsoft 365     |Si se ha definido una Directiva de caducidad de grupo para los Grupos de Microsoft 365. Esto permite a su organización eliminar automáticamente los equipos inactivos. Está desactivado por defecto. Esta prueba consulta Azure AD a través de Microsoft Graph e informa si el valor ha sido modificado desde el valor predeterminado. Para más información, lea la [Política de Expiración de Grupo de Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>Evaluaciones para reuniones y conferencias
 

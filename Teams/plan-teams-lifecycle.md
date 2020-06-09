@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ad4592799efef11b7d09d564af5217dd9cdd550
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: eac771d87003ab00adbe3c99adb1193c4ff12779
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951275"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638849"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Plan para la administración del ciclo de vida en Teams
 
@@ -41,7 +41,7 @@ Los siguientes conceptos y definiciones influyen en las decisiones que tome para
 
 **Teams**
 
-Un _equipo_ es una colección de personas, contenido y herramientas que facilitan la colaboración. Un equipo define quiénes son sus miembros, y los permisos y directivas que se les aplica. Los equipos se construyen sobre Grupos de Microsoft 365 y los cambios que se realicen en la pertenencia a grupos de Office 365 se sincronizarán con el equipo. Al igual que sucede con otros grupos de Microsoft 365, los equipos vienen aprovisionados automáticamente con un buzón de correo de Exchange, un sitio de SharePoint, un bloc de notas de OneNote y otros activos de Office 365. [Más información sobre Grupos de Microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+Un _equipo_ es una colección de personas, contenido y herramientas que facilitan la colaboración. Un equipo define quiénes son sus miembros, y los permisos y directivas que se les aplica. Los equipos se construyen sobre Grupos de Microsoft 365 y los cambios que se realicen en la pertenencia a grupos de Microsoft 365 se sincronizarán con el equipo. Al igual que sucede con otros grupos de Microsoft 365, los equipos vienen aprovisionados automáticamente con un buzón de correo de Exchange, un sitio de SharePoint, un bloc de notas de OneNote y otros activos de Office 365. [Más información sobre Grupos de Microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 **Canales**
 
@@ -141,7 +141,7 @@ Los equipos pueden formarse a partir de una gran variedad de métodos; entre ell
 
 -   Agregue a los miembros mediante nombres de usuario o alias de correo electrónico individuales, o bien amplíe una lista de distribución.
 -   Cree el equipo a partir de un equipo existente y use como plantilla su configuración de canales y de cualquier otra aplicación. Además, también puede usar su lista de pertenencia.
--   Agregue un equipo a un grupo de Office 365 actual, que también le dé acceso al equipo al buzón de correo y el sitio de SharePoint.
+-   Agregue un equipo a un grupo de Microsoft 365 actual, que también le dé acceso al equipo al buzón de correo y el sitio de SharePoint.
 -   Las API pueden crear equipos mediante programación que se basen en los atributos de la libreta de direcciones global (como la región o el departamento) o los procesos empresariales (las interacciones con clientes o las listas de participantes de clase, por ejemplo).
 
 Utilice estos vínculos para obtener más información sobre cómo se organizan los equipos:
