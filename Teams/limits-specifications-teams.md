@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebdd3204be74e3f7b923d977e6de25c041c2038e
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: e9b4b5e9d862596e91bcb6d30112e5f70a9c8263
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512827"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637649"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -40,7 +40,7 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |Número de equipos de la organización que se pueden usar en un espacio empresarial | 5     |
 |Número de miembros de un [equipo de toda la organización](create-an-org-wide-team.md) | 5 000       |
 |Número de equipos que un administrador global puede crear        |  500 000   |
-|Cantidad de equipos que puede tener una organización de Office 365    | 500 000&sup2;     |
+|Cantidad de equipos que puede tener una organización de Microsoft 365 y Office 365    | 500 000&sup2;     |
 |Número de canales por equipo    | 200 (incluye canales eliminados)&sup3;         |
 |Número de cadenas privadas por equipo    |30|
 |Número de miembros de un canal privado    |250|
@@ -93,7 +93,7 @@ El chat de Teams funciona en un servidor backend de Microsoft Exchange, por lo q
 Para más información, vea [Límites de Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
-> Los límites de tamaño de los mensajes, datos adjuntos e imágenes insertadas son iguales en todas las licencias de Office 365.
+> Los límites de tamaño de los mensajes, datos adjuntos e imágenes insertadas son iguales en todas las licencias de Microsoft 365 y Office 365.
 
 ## <a name="channel-names"></a>Nombres de canal
 
@@ -132,7 +132,7 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 |------------|---------------|
 |Tamaño de público | 10 000 asistentes |
 |Duración del evento | 4 horas |
-|Eventos en directo simultáneos ejecutándose en una organización de Office 365 <sup>1</sup> | 15 |
+|Eventos en directo simultáneos ejecutándose en una organización de Microsoft 365 y Office 365 <sup>1</sup> | 15 |
 
 <sup>1</sup> Puede programar todos los eventos en directo que quiera, pero solo puede ejecutar 15 a la vez. Cuando el productor se une a un evento en directo, se considera que está en ejecución. El productor que intenta unirse al 16º evento en directo recibe un error.
 

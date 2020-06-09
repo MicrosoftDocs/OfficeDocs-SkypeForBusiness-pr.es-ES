@@ -16,12 +16,12 @@ ms.collection:
 - Teams_Business_Voice
 title: Microsoft 365 Empresa Voice
 description: 'Aprenda a planear, implementar y usar Microsoft 365 Empresa Voice. '
-ms.openlocfilehash: be2a6222a947f5fd064add7dadff0e438dfe626d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e99af9be9e07e686b25324cb49b38ca826eeef42
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824858"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610969"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -148,8 +148,8 @@ ms.locfileid: "41824858"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>¿Necesita ayuda?</h3>
-                                                    <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Contactar al soporte técnico de Office 365</a></p>
+                                                    <h3>¿Necesitas ayuda?</h3>
+                                                    <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Contactar con el soporte técnico de Microsoft 365 u Office 365</a></p>
                                                     <P><a href="https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB" target="_blank">Comunidad tecnológica de las pequeñas y medianas empresas</a></p>
                                                 </div>
                                             </div>
@@ -170,7 +170,7 @@ ms.locfileid: "41824858"
                                                      <P><a href="https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page" target="_blank">Documentos de los administradores de Microsoft Teams</a></p>
                                                      <p><a href="https://microsoftteams.uservoice.com/" target="_blank">Comentarios de Microsoft Teams UserVoice</a>
                                                      <p><a href="https://support.office.com/teams" target="_blank">Documentos del cliente de Microsoft Teams</a>
-                                                     <P><a href="https://docs.microsoft.com/office365/admin">Documentos del administrador de Office 365</a></p>
+                                                     <P><a href="https://docs.microsoft.com/office365/admin">Documentos del administrador de Microsoft 365 y Office 365</a></p>
                                                 </div>
                                             </div>
                                         </div>
