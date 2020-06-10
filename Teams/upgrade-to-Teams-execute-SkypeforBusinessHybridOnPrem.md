@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 491f4132d5f5c4c4e5d8215d0d48277a864cf064
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 4cd9b38f09d4936d2db895f3ae8861bcf65b8a4e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905222"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666032"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Actualizar de Skype empresarial local a teams
 
@@ -42,7 +42,7 @@ Este artículo forma parte de la fase de implementación e implementación de su
 -   [Preparado para su organización](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [Ha realizado una prueba piloto](https://aka.ms/SkypeToTeams-Pilot)
 
-Si ha implementado Skype empresarial Server o Microsoft Lync local y su organización quiere actualizar a Teams, siga las instrucciones de este artículo. Debe configurar la conectividad híbrida con su organización de Office 365 y determinar los requisitos de coexistencia si va a mover a los usuarios a Teams por fases. 
+Si ha implementado Skype empresarial Server o Microsoft Lync local y su organización quiere actualizar a Teams, siga las instrucciones de este artículo. Debe configurar la conectividad híbrida con su organización de Microsoft 365 u Office 365 y determinar los requisitos de coexistencia si va a mover a los usuarios a Teams por fases. 
 
 > [!IMPORTANT]
 > Skype Empresarial Online se retirará el 31 de julio de 2021, momento a partir del cual ya no será posible obtener acceso a este soporte. Para aprovechar al máximo las ventajas y asegurarse de que su organización dispone del tiempo adecuado para implementar la actualización, le recomendamos que comience ahora su viaje hacia Microsoft Teams. Recuerde que una actualización correcta alinea la disposición de los usuarios y técnicos, así que asegúrese de aprovechar las instrucciones de este documento a medida que navega por Microsoft Teams.
