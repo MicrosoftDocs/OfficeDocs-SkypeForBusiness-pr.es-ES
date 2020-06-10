@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69efb8c74950ffdb4426049558caaf59254b4605
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 6a864828ce925ea289f27de1b3340a50770b4e88
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779807"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665272"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Actualizar de Skype empresarial a teams &mdash; para administradores de ti
 
@@ -54,7 +54,7 @@ Con el método de funciones superpuestas, los usuarios pueden usar tanto equipos
 - La comunicación iniciada desde el cliente de Teams de otro usuario siempre se pondrá al cliente de equipos del usuario A, *si el otro usuario se encuentra en la misma organización*. 
 - La comunicación iniciada desde el cliente de Teams de otro usuario siempre estará en el cliente de Skype empresarial del usuario A, *si el otro usuario se encuentra en una organización federada*.
 
-El modo islas es el modo predeterminado de TeamsUpgradePolicy para cualquier organización existente que aún no TeamsOnly. Cuando asigna una licencia de Office 365, se asignan licencias de equipo y de Skype empresarial online de forma predeterminada. (Esto es cierto incluso si el usuario está alojado en local en Skype empresarial Server. Si el usuario se ha alojado en local o en línea, deje habilitada la licencia de Skype empresarial online, porque actualmente es necesaria para la funcionalidad de Teams completa. De hecho, si no ha tomado ningún paso para cambiar la configuración predeterminada, es posible que ya tenga un uso significativo de los equipos de su organización.  Este es uno de los beneficios del enfoque de funcionalidades superpuestas. Permite una adopción rápida y controlada por el usuario final dentro de una organización.
+El modo islas es el modo predeterminado de TeamsUpgradePolicy para cualquier organización existente que aún no TeamsOnly. Cuando asigna una licencia de Microsoft 365 o de Office 365, se asignan licencias de equipo y de Skype empresarial online de forma predeterminada. (Esto es cierto incluso si el usuario está alojado en local en Skype empresarial Server. Si el usuario se ha alojado en local o en línea, deje habilitada la licencia de Skype empresarial online, porque actualmente es necesaria para la funcionalidad de Teams completa. De hecho, si no ha tomado ningún paso para cambiar la configuración predeterminada, es posible que ya tenga un uso significativo de los equipos de su organización.  Este es uno de los beneficios del enfoque de funcionalidades superpuestas. Permite una adopción rápida y controlada por el usuario final dentro de una organización.
 
 Para que este método funcione de forma eficaz, es necesario que todos los usuarios ejecuten ambos clientes al mismo tiempo. Los chats y llamadas entrantes desde la organización a un usuario en el modo Islas pueden llegar al cliente de Skype Empresarial o al de Teams, circunstancia esta que no está bajo el control del destinatario. Depende del cliente que el remitente use para iniciar la comunicación. Si el remitente y el destinatario están en distintas organizaciones, las llamadas entrantes y chats a un usuario en modo Islas siempre se encuentran en el cliente de Skype Empresarial.  
 
@@ -148,7 +148,7 @@ Los usuarios con cuentas de Skype empresarial domésticas locales [deben moverse
 
 -   2 pasos: después de ejecutar Move-CsUser, conceda el modo TeamsOnly al usuario mediante TeamsUpgradePolicy.
 
-A diferencia de otras directivas, no es posible crear nuevas instancias de TeamsUpgradePolicy en Office 365. Todas las instancias existentes están integradas en el servicio.  (Tenga en cuenta que el modo es una propiedad dentro de TeamsUpgradePolicy, en lugar del nombre de una instancia de directiva). En algunos, pero no en todos los casos, el nombre de la instancia de directiva es el mismo que el modo. En concreto, para asignar el modo de TeamsOnly a un usuario, conceda la instancia "UpgradeToTeams" de TeamsUpgradePolicy a ese usuario. Para ver una lista de todas las instancias, puede ejecutar el siguiente comando:
+A diferencia de otras directivas, no es posible crear nuevas instancias de TeamsUpgradePolicy en Microsoft 365 u Office 365. Todas las instancias existentes están integradas en el servicio.  (Tenga en cuenta que el modo es una propiedad dentro de TeamsUpgradePolicy, en lugar del nombre de una instancia de directiva). En algunos, pero no en todos los casos, el nombre de la instancia de directiva es el mismo que el modo. En concreto, para asignar el modo de TeamsOnly a un usuario, conceda la instancia "UpgradeToTeams" de TeamsUpgradePolicy a ese usuario. Para ver una lista de todas las instancias, puede ejecutar el siguiente comando:
 
 ```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
@@ -238,7 +238,7 @@ Para la opción de actualización capacidades superpuestas:
 
 - Considere esta opción si puede realizar una actualización rápida para su organización general.  Dado que hay riesgo potencial de confusión con la ejecución de ambos clientes, es mejor si puede minimizar este período de tiempo. Debe asegurarse de que los usuarios sepan ejecutar ambos clientes.
 
-- Esta opción es el modelo que no está en el equipo y no requiere la acción de administrador para empezar a trabajar con Teams excepto para asignar la licencia de Office 365. Si los usuarios ya tienen Skype empresarial online, es posible que ya esté en este modelo.
+- Esta opción es el modelo que no está en el equipo y no requiere ninguna acción de administrador para comenzar a usar Teams excepto para asignar la licencia de Microsoft 365 o de Office 365. Si los usuarios ya tienen Skype empresarial online, es posible que ya esté en este modelo.
 
 - Puede resultar difícil sacar provecho del modo de funciones superpuestas y pasar a TeamsOnly. Como los usuarios actualizados solo se comunican a través de Teams, cualquier otro usuario de la organización que se comunique con ese usuario debe estar usando Teams.  Si tiene usuarios que no han empezado a usar Teams, se mostrarán a los mensajes que faltan. Además, no verán los usuarios de TeamsOnly en línea en Skype empresarial. Algunas organizaciones eligen realizar una actualización para todos los inquilinos con la directiva global de inquilino para evitar esto, pero requieren la espera hasta que todos los usuarios estén listos para su actualización.
 
@@ -343,7 +343,7 @@ Este artículo proporciona una descripción general de alto nivel únicamente. P
 
 Este es el escenario de actualización más sencillo que implica voz. 
 
-1. Asegúrese de que los usuarios tienen asignada una licencia de Teams. De forma predeterminada, al asignar una licencia de Office 365, Teams está habilitado, por lo que, a menos que previamente haya deshabilitado la licencia de Teams, no es necesario realizar ninguna acción.
+1. Asegúrese de que los usuarios tienen asignada una licencia de Teams. De forma predeterminada, cuando asigna una licencia de Microsoft 365 o de Office 365, Teams está habilitado, por lo que, a menos que previamente haya deshabilitado la licencia de Teams, no es necesario realizar ninguna acción.
 
 2.  Si los usuarios ya tienen un plan de llamadas de Microsoft con un número de teléfono, el único cambio necesario es asignar el modo de TeamsOnly de usuario en TeamsUpgradePolicy.  Antes de asignar el modo de TeamsOnly, las llamadas RTC entrantes estarán en el cliente de Skype empresarial del usuario. Después de la actualización a modo TeamsOnly, las llamadas RTC entrantes estarán en el cliente de equipos del usuario.  
 
@@ -365,7 +365,7 @@ A continuación se enumeran los pasos básicos.  Los pasos 1-4 se enumeran en la
 
 5. Actualice el usuario: estos pasos deben ser coordinados. 
 
-   - En Office 365, actualice el usuario al modo TeamsOnly (Grant-CsTeamsUpgradePolicy).
+   - En Microsoft 365 u Office 365, actualice el usuario al modo TeamsOnly (Grant-CsTeamsUpgradePolicy).
    - En la SBC, configure el enrutamiento de voz para habilitar las llamadas entrantes enviando llamadas al enrutamiento directo en lugar de al servidor de mediación local.
 
 
@@ -383,7 +383,7 @@ A continuación se enumeran los pasos básicos.  Los pasos 1-5 se enumeran en la
 
 4. Si lo desea, configure varias directivas de Teams para estos usuarios (por ejemplo, TeamsMessagingPolicy, TeamsMeetingPolicy, etc.). Esto se puede hacer en cualquier momento, pero si desea asegurarse de que los usuarios tengan la configuración correcta cuando se actualicen, es mejor hacerlo antes de que el usuario se actualice a TeamsOnly.
 
-5. Asigne las licencias de Office 365 si es necesario.  El usuario debe tener tanto equipos como Skype empresarial online plan 2, así como un sistema telefónico. Si el plan 2 de Skype empresarial online está deshabilitado, vuelva a habilitarlo.  
+5. Asigne las licencias de Microsoft 365 u Office 365 si es necesario.  El usuario debe tener tanto equipos como Skype empresarial online plan 2, así como un sistema telefónico. Si el plan 2 de Skype empresarial online está deshabilitado, vuelva a habilitarlo.  
 
 6. Actualice el usuario: estos pasos deben ser coordinados. 
 
@@ -391,7 +391,7 @@ A continuación se enumeran los pasos básicos.  Los pasos 1-5 se enumeran en la
 
    - En la SBC, configure el enrutamiento de voz para habilitar las llamadas entrantes enviando llamadas al enrutamiento directo en lugar de al servidor de mediación local. 
 
-   - En Office 365: asigne el OnlineVoiceRoutingPolicy relevante para habilitar las llamadas salientes. 
+   - En Microsoft 365 u Office 365: asigne el OnlineVoiceRoutingPolicy relevante para habilitar las llamadas salientes. 
 
 
 ### <a name="from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan"></a>Desde Skype empresarial Server local, con telefonía IP empresarial, plan de llamadas de Microsoft
@@ -406,7 +406,7 @@ A continuación se enumeran los pasos básicos.Los pasos 1-5 se enumeran en la s
 
 3. Si lo desea, configure varias directivas de Teams para estos usuarios (por ejemplo, TeamsMessagingPolicy, TeamsMeetingPolicy, etc.). Esto se puede hacer en cualquier momento, pero si desea asegurarse de que los usuarios tengan la configuración correcta cuando se actualicen, es mejor hacerlo antes de que el usuario se actualice a TeamsOnly. 
 
-4. Asigne las licencias de Office 365 si es necesario.El usuario debe tener tanto equipos como Skype empresarial online plan 2, así como un sistema telefónico. Si el plan 2 de Skype empresarial online está deshabilitado, vuelva a habilitarlo.  
+4. Asigne las licencias de Microsoft 365 u Office 365 si es necesario.El usuario debe tener tanto equipos como Skype empresarial online plan 2, así como un sistema telefónico. Si el plan 2 de Skype empresarial online está deshabilitado, vuelva a habilitarlo.  
 
 5. Obtener números de teléfono para los usuarios. (Para obtener información detallada, consulte [administrar números de teléfono de su organización](https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)).
 
@@ -556,7 +556,7 @@ En ambos casos, la transferencia de contactos de Skype empresarial a teams es as
 
 [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Configurar la conectividad híbrida entre Skype empresarial Server y Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Configurar la conectividad híbrida entre Skype empresarial Server y Microsoft 365 u Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
 [Mover usuarios entre la implementación local y la nube](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 

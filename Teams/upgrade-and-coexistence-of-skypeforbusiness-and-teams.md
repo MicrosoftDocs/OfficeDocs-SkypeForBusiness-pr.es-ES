@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44dfc985f213141e20e15eb29198004d10030280
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: bcb1570a87740d899a5f92957c0335e70d7f91ba
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583453"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665422"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Elegir la vía de actualización de Skype Empresarial a Teams
 
@@ -83,7 +83,7 @@ Al usar el método de funciones superpuestas, el tráfico de comunicación para 
 
 - La comunicación iniciada desde un cliente de equipos desde un *usuario de una organización externa* siempre estará en el cliente de Skype empresarial del usuario a.
 
-Si ha asignado una licencia de Office 365 a los usuarios, esta será la experiencia de actualización predeterminada para su organización. Cuando se asigna una licencia de Office 365, se asignan de forma predeterminada tanto licencias de Teams como de Skype Empresarial.<sup>2</sup>
+Si ha asignado una licencia de Microsoft 365 o de Office 365 a los usuarios, esta será la experiencia de actualización predeterminada para su organización. Cuando asigna una licencia de Microsoft 365 o de Office 365, se asignan licencias de equipo y de Skype empresarial online de forma predeterminada. <sup>2</sup>
 
 Para que este método funcione de forma eficaz, todos los usuarios deben ejecutar simultáneamente ambos clientes. Los chats y llamadas entrantes desde la organización a un usuario en el modo Islas pueden llegar al cliente de Skype Empresarial o al de Teams, circunstancia esta que no está bajo el control del destinatario. Depende del cliente que el remitente use para iniciar la comunicación. Si el remitente y el destinatario están en distintas organizaciones, las llamadas entrantes y chats a un usuario en modo Islas siempre se encuentran en el cliente de Skype Empresarial.
 
@@ -151,9 +151,9 @@ Como alternativa, el administrador de puede mover primero la programación de re
 
 |Experiencia de Teams  |En el modo SfBWithTeamsCollab |En el modo SfBWithTeamsCollabAndMeetings |En modo TeamsOnly  |
 |---------|---------|---------|---------|
-|Chats y llamadas VoIP entrantes procedentes de los usuarios de su organización recibidos en:     | Skype Empresarial        | Skype Empresarial       | Equipos        |
-|Llamadas RTC recibidas en:     | Skype Empresarial        |Skype Empresarial         | Equipos        |
-|Presencia     | Skype Empresarial        |Skype Empresarial         | Equipos        |
+|Chats y llamadas VoIP entrantes procedentes de los usuarios de su organización recibidos en:     | Skype Empresarial        | Skype Empresarial       | Teams        |
+|Llamadas RTC recibidas en:     | Skype Empresarial        |Skype Empresarial         | Teams        |
+|Presencia     | Skype Empresarial        |Skype Empresarial         | Teams        |
 |Programación de reuniones     | Skype Empresarial         | Teams        | Teams        |
 
 
@@ -178,7 +178,7 @@ En la tabla siguiente se resumen los métodos de actualización:
 |La interoperabilidad entre Skype Empresarial y Teams no existe mientras ambos usuarios se encuentren en modo Islas.      |La interoperabilidad es necesaria para la comunicación entre los usuarios de Skype Empresarial y Teams.         |
 
 > [!NOTE]
-> Si no puede seguir los métodos admitidos para migrar sus usuarios desde Skype Empresarial Server a Teams, es posible realizar la transición de los usuarios a Teams quitando Skype Empresarial Server y todos los atributos de usuario relacionados en Active Directory. Una vez que se han quitado los atributos de Azure Active Directory de los atributos de Skype Empresarial Server y los registros de DNS se han reorientado hacia Office 365, es posible conceder licencias a los usuarios en Office 365 y actualizarlos a Teams. 
+> Si no puede seguir los métodos admitidos para migrar sus usuarios desde Skype Empresarial Server a Teams, es posible realizar la transición de los usuarios a Teams quitando Skype Empresarial Server y todos los atributos de usuario relacionados en Active Directory. Una vez que los usuarios de los atributos de Azure Active Directory se hayan eliminado de los atributos de servidor de Skype empresarial y los registros DNS hayan sido redirigidos a Microsoft 365 u Office 365, entonces sería posible otorgar licencias a los usuarios en Microsoft 365 u Office 365, y actualizarlos a teams. 
 
 > [!IMPORTANT]
 > Con la migración total, los datos de contactos y reuniones no se migrarán del entorno local a Microsoft Teams.

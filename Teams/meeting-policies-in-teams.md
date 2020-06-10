@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: 55f65bf14973b54b091e0a6c3ecdc3edf49e6ed3
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 726e14aef92eed8fe681d183b8e1cfd404e659ca
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637969"
+ms.locfileid: "44665142"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -395,7 +395,6 @@ Para especificar el valor predeterminado de la configuración ¿ **quién puede 
 
 - **EveryoneUserOverride**: todos los participantes de la reunión pueden ser moderadores. Este es el valor predeterminado. Este parámetro corresponde a la configuración **todos** en Teams.
 - **EveryoneInCompanyUserOverride**: los usuarios autenticados de la organización, incluidos los invitados, pueden ser moderadores. Este parámetro corresponde a la configuración de las **personas de mi organización** de Teams.
-- **EveryoneInSameAndFederatedCompanyUserOverride**: los usuarios autenticados de la organización, incluidos los usuarios invitados y los usuarios de organizaciones federadas, pueden ser moderadores. Este parámetro corresponde a las **personas de mi organización y** la configuración de organizaciones de confianza de Teams.
 - **OrganizerOnlyUserOverride**: solo el organizador de la reunión puede ser Moderador y todos los participantes de la reunión se designan como asistentes. Este parámetro corresponde a la configuración **solo yo** de Teams.
 
 Tenga en cuenta que después de establecer el valor predeterminado, los organizadores de reuniones pueden cambiar esta configuración en Teams y elegir quién puede presentar en las reuniones que programan.

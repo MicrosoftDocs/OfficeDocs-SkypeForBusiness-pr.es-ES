@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga más información sobre cómo preparar su infraestructura para implementar salas de Microsoft Teams para poder aprovechar todas las características.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5267e27409e41c014d391048b70620fc802d8ff4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 4309140e249f5ab3674f0b2255ae195821922ad4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905352"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666172"
 ---
 # <a name="prepare-your-environment"></a>Preparar el entorno
 
@@ -55,7 +55,7 @@ Para que funcione correctamente, el dispositivo de las salas de Microsoft Teams 
 - Tener acceso a su instancia de Active Directory o Azure Active Directory (Azure AD), así como a sus servidores de Microsoft Exchange y Skype Empresarial.
 - Tener acceso a un servidor que pueda proporcionar una dirección IP mediante DHCP. Las salas de Microsoft Teams no se pueden configurar con una dirección IP estática.
 - Tener acceso a los puertos HTTP 80 y 443.
-- Puertos TCP y UDP configurados según se describe en [requisitos de puertos y protocolos para servidores](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) de implementaciones locales de Skype empresarial Server u [Office 365 URL e intervalos de direcciones IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) para Microsoft Teams o implementaciones de Skype empresarial online.
+- Puertos TCP y UDP configurados según se describe en [requisitos de puertos y protocolos para servidores](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) de implementaciones de Skype empresarial en el servidor, o las [direcciones URL e intervalos de direcciones IP de Microsoft 365 y Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) para implementaciones de Microsoft Teams o Skype empresarial online.
 
 > [!IMPORTANT]
 > Asegúrese de usar una conexión de red cableada de 1 Gbps para garantizar que dispondrá de la banda ancha necesaria. 
@@ -110,7 +110,7 @@ Para usar esta aplicación, debe poder conectarse a los puntos de conexión que 
 
 |Finalidad|Origen o credenciales|Puerto de origen|Destino|CDN|ExpressRoute para Office 365|IP de destino|Puerto de destino|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Autenticación e identidad  <br/> |Consulte [autenticación e identidad de Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
+|Autenticación e identidad  <br/> |Consulte [autenticación e identidad de Microsoft 365 y Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
 |Portal e infraestructura compartida  <br/> |Consulte [centro de administración de Microsoft 365 y uso compartido](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
 |Señalización de SIP  <br/> |Equipo cliente o usuario conectado  <br/> |Puertos efímeros  <br/> |\*. contoso.com  <br/> |No  <br/> |Sí  <br/> |[Intervalos IP de Skype empresarial](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |Conferencia web de conexiones PSOM (modelo de objetos compartidos persistentes)  <br/> |Equipo cliente o usuario conectado  <br/> |Puertos efímeros  <br/> |\*. contoso.com  <br/> |No  <br/> |Sí  <br/> |[Intervalos IP de Skype empresarial](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
@@ -123,11 +123,11 @@ Para usar esta aplicación, debe poder conectarse a los puntos de conexión que 
 |Sugerencias rápidas del cliente de Skype  <br/> |Equipo cliente o usuario conectado  <br/> |Puertos efímeros  <br/> |quicktips.skypeforbusiness.com  <br/> |No  <br/> |No  <br/> |N/D  <br/> |TCP 443  <br/> |
 
 > [!NOTE]
-> El carácter comodín de contoso.com y broadcast.skype.com representa una larga lista de nodos que se utilizan en exclusividad para Office 365. 
+> El carácter comodín para contoso.com y broadcast.skype.com representa una lista larga de nodos que se usan exclusivamente para Microsoft 365 u Office 365. 
   
 ### <a name="create-provisioning-packages"></a>Crear paquetes de aprovisionamiento
 
-Usará paquetes de aprovisionamiento para autenticar a Exchange Server u Office 365.
+Usará paquetes de aprovisionamiento para autenticar Exchange Server, Microsoft 365 u Office 365.
   
 ### <a name="admin-group-management"></a>Administración del grupo de administradores
 
@@ -144,7 +144,7 @@ Normalmente, la cuenta de dispositivo no requiere una contraseña. Es posible as
   
 ### <a name="admin---local-administrator-account"></a>"Administrador": cuenta de administrador local
 
-Salas de Microsoft teams la contraseña predeterminada está establecida en "SFB". La contraseña se puede cambiar de forma local en configuración \> de Windows, ir a Windows o en el archivo AutoUnattend. XML (use el administrador de imágenes de sistema de Windows de ADK para realizar el cambio en el archivo XML).
+Salas de Microsoft teams la contraseña predeterminada está establecida en "SFB". La contraseña se puede cambiar de forma local en configuración de Windows, \> ir a Windows o en el archivo AutoUnattend. XML (use el administrador de imágenes de sistema de Windows de ADK para realizar el cambio en el archivo XML).
   
 > [!CAUTION]
 > Asegúrese de cambiar la contraseña de Microsoft Teams Rooms lo antes posible. 
@@ -155,7 +155,7 @@ La contraseña del administrador local no se incluye como opción durante la con
   
 ### <a name="machine-account"></a>Cuenta de equipo
 
-Al igual que en cualquier dispositivo de Windows, se puede cambiar el nombre del equipo haciendo \> clic \> con el botón derecho en configuración para cambiar el nombre del equipo.
+Al igual que en cualquier dispositivo de Windows, se puede cambiar el nombre del equipo haciendo clic con el botón derecho en configuración para cambiar el nombre del equipo \> \> .
   
  Si desea cambiar el nombre del equipo después de unirme a un dominio, use el comando Rename-Computer PowerShell seguido del nombre nuevo del equipo.
   

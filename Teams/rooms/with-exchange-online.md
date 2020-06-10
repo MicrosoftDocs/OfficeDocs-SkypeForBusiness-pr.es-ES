@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Lea este tema para obtener información sobre cómo implementar salas de Microsoft Teams con Exchange Online y Skype empresarial Server local.
-ms.openlocfilehash: aa106c525a1d6b25513fe0c9aa0614e222ce75ca
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 03999e5717f784166387c823c95af1e333d4f942
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905292"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666152"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Implementar Salas de Microsoft Teams con Exchange Online
 
@@ -86,7 +86,7 @@ Si implementó los servicios de Federación de Active Directory (AD FS), es posi
 4. Haga clic en **Finalizar** para crear la cuenta.
 5. Una vez que haya creado la cuenta, ejecute una sincronización de directorios. Esto se puede llevar a cabo con [set-MsolDirSyncConfiguration](https://docs.microsoft.com/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) en PowerShell. Cuando haya finalizado, vaya a la página usuarios y compruebe que las dos cuentas creadas en los pasos anteriores se hayan fusionado.
 
-### <a name="assign-an-office-365-license"></a>Asignar una licencia de Office 365
+### <a name="assign-a-microsoft-365-or-office-365-license"></a>Asignar una licencia de Microsoft 365 o de Office 365
 
 1. En primer lugar, conéctese a Azure AD para aplicar la configuración de la cuenta. Puede ejecutar este cmdlet para conectarse. Para obtener más información sobre Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
@@ -100,8 +100,8 @@ Si implementó los servicios de Federación de Active Directory (AD FS), es posi
      Connect-AzureAD -Credential $cred
      ``` -->
 
-2. La cuenta de usuario debe tener una licencia válida de Office 365 para garantizar que Exchange y Skype empresarial Server funcionen. Si tiene la licencia, debe asignar una ubicación de uso a su cuenta de usuario, lo cual determina qué SKU de licencia están disponibles para su cuenta. Realizará la tarea en un paso siguiente.
-3. A continuación, use`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> para recuperar una lista de las SKU disponibles para su organización de Office 365.
+2. La cuenta de usuario debe tener una licencia válida de Microsoft 365 o de Office 365 para garantizar que Exchange y Skype empresarial Server funcionen. Si tiene la licencia, debe asignar una ubicación de uso a su cuenta de usuario, lo cual determina qué SKU de licencia están disponibles para su cuenta. Realizará la tarea en un paso siguiente.
+3. A continuación, use`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> para recuperar una lista de las SKU disponibles para su organización de Microsoft 365 u Office 365.
 4. Una vez que haya finalizado la lista de las SKU, puede Agregar una licencia con el`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. En este caso, $strLicense es el código de SKU que ve (por ejemplo, contoso:STANDARDPACK). 
 
     ```PowerShell
@@ -140,7 +140,7 @@ Si implementó los servicios de Federación de Active Directory (AD FS), es posi
 
 ### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>Asignar una licencia de Skype empresarial Server a su cuenta de salas de Microsoft Teams
 
-1. Inicie sesión como administrador de inquilinos, abra el portal administrativo de Office 365 y haga clic en la aplicación de administrador.
+1. Inicie sesión como administrador de inquilinos, abra el centro de administración de Microsoft 365 y haga clic en la aplicación de administrador.
 2. Haga clic en **Usuarios y grupos** y después haga clic en **Agregar usuarios, restablecer contraseñas, y más**.
 3. Haga clic en la cuenta salas de Microsoft Teams y, a continuación, haga clic en el icono de lápiz para editar la información de la cuenta.
 4. Haga clic en **Licencias**.
@@ -150,7 +150,7 @@ Si implementó los servicios de Federación de Active Directory (AD FS), es posi
 Para la validación, debe poder usar cualquier cliente de Skype empresarial para iniciar sesión en esta cuenta.
 
 > [!NOTE]
-> Si actualmente usa las SKU de E1, E3, E4 o E5 con Skype empresarial plan 2 con conferencias de audio o con el sistema telefónico de Office 365 y un plan de llamadas, estos seguirán funcionando. Sin embargo, debe considerar la posibilidad de cambiar a un modelo de licencias más sencillo, como se describe en [Teams, actualización de licencias de sala de reuniones](rooms-licensing.md), después de que venzan las licencias actuales.
+> Si actualmente usa las SKU de E1, E3, E4 o E5 con el plan 2 de Skype para empresas con el sistema telefónico y un plan de llamadas, estos continuarán funcionando. Sin embargo, debe considerar la posibilidad de cambiar a un modelo de licencias más sencillo, como se describe en [Teams, actualización de licencias de sala de reuniones](rooms-licensing.md), después de que venzan las licencias actuales.
 
 > [!IMPORTANT]
 > Si está usando Skype empresarial plan 2, solo puede usar las salas de Microsoft Teams en modo de solo Skype empresarial, lo que significa que todas sus reuniones serán reuniones de Skype empresarial. Para habilitar las reuniones de Microsoft Teams en su sala de reuniones, le recomendamos que compre la licencia sala de reuniones.

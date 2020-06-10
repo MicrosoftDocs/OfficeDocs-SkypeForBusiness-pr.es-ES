@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo recuperar datos de Microsoft Teams del registro de auditoría.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62b4c462cec58facca274883c98f1aad23042f16
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 609bf3065d160da46b6e65d20235a4451de83c5f
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416740"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665642"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -93,7 +93,7 @@ Aquí puede revisar las coincidencias con la Directiva que ha establecido, reali
 
 ### <a name="mass-delete-scenario"></a>Escenario de eliminación masiva
 
-Como se mencionó anteriormente, puede supervisar los escenarios de eliminación. Es posible crear una directiva que supervisará la eliminación masiva de sitios de Teams. En este ejemplo, se configura una directiva basada en alertas para detectar la eliminación masiva de Teams en un período de 30 minutos. 
+Como se mencionó anteriormente, puede supervisar los escenarios de eliminación. Es posible crear una directiva que supervisará la eliminación masiva de sitios de Teams. En este ejemplo, se configura una directiva basada en alertas para detectar la eliminación masiva de Teams en un período de 30 minutos.
 
 ![Captura de pantalla de la página creación de directiva que muestra la configuración de una directiva para la detección masiva de la eliminación de equipos](media/TeamsMassDeletePolicy.png)
 
@@ -115,7 +115,7 @@ Puede establecer alertas y enviar correos electrónicos a administradores y a ot
 
 [Las directivas de detección de anomalías](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) de seguridad de aplicaciones en la nube proporcionan análisis de comportamiento de entidad y de usuario (UEBA) y aprendizaje de máquina (ml) listos para usar, de modo que pueda ejecutar inmediatamente en todo el entorno de la nube. Debido a que se habilitan automáticamente, las nuevas políticas de detección de anomalías proporcionan resultados inmediatos proporcionando detecciones inmediatas, dirigidas a numerosas anomalías de comportamiento entre los usuarios y los equipos y dispositivos conectados a la red. Además, las nuevas directivas exponen más datos del motor de detección de seguridad de la aplicación en la nube para ayudarle a acelerar el proceso de investigación y a contener amenazas actuales.
 
-Estamos trabajando para integrar eventos de Teams en directivas de detección de anomalías. Por ahora, puede configurar directivas de detección de anomalías para otros productos de Office y tomar medidas para los usuarios que coincidan con esas directivas. 
+Estamos trabajando para integrar eventos de Teams en directivas de detección de anomalías. Por ahora, puede configurar directivas de detección de anomalías para otros productos de Office y tomar medidas para los usuarios que coincidan con esas directivas.
 
 ## <a name="teams-activities"></a>Actividades de Teams
 
@@ -133,14 +133,21 @@ Esta es una lista de todos los eventos que se registran para las actividades de 
 |Se ha cambiado el rol de miembros en el equipo    |MemberRoleChanged         |Un propietario del equipo cambia el rol de los miembros de un equipo. Los siguientes valores indican el tipo de rol asignado al usuario. <br><br>**1** : indica el rol propietario.<br>**2** -indica el rol miembro.<br>**3** : indica el rol invitado.<br><br>La propiedad Members también incluye el nombre de la organización y la dirección de correo electrónico del miembro.        |
 |Configuración de equipo cambiada    |TeamSettingChanged        |La operación TeamSettingChanged se registra cuando el propietario de un equipo realiza las siguientes actividades. Para cada una de estas actividades, se muestra una descripción de la opción de configuración que se cambió (que se muestra entre paréntesis) en la columna **elemento** de los resultados de búsqueda de registro de auditoría.<ul><li>Cambia el tipo de acceso de un equipo. Los equipos pueden establecerse como privados o públicos (**tipo de acceso de equipo**). Cuando un equipo es privado (configuración predeterminada), los usuarios solo pueden acceder al equipo mediante invitación. Cuando un equipo es público, lo puede detectar cualquier persona.</li><li>Cambia la clasificación de la información de un equipo (**clasificación de equipo**). Por ejemplo, los datos de equipo se pueden clasificar como alto impacto empresarial, impacto empresarial medio o impacto empresarial bajo.</li><li>Cambia el nombre de un equipo (**nombre del equipo**).</li><li>Cambia la descripción del equipo (**Descripción del equipo**).</li><li>Cambios realizados en la configuración del equipo. Para tener acceso a esta configuración, un propietario del equipo puede hacer clic con el botón secundario en un equipo, seleccionar **administrar equipo**y, a continuación, hacer clic en la pestaña **configuración** . Para estas actividades, el nombre de la opción de configuración que se cambió se muestra en la columna **elemento** de los resultados de búsqueda de registro de auditoría.</li></ul>         |
 |Equipo creado    |TeamCreated         |Un usuario crea un equipo.         |
+|Eliminadas todas las aplicaciones de la organización|DeletedAllOrganizationApps           |Se han eliminado todas las aplicaciones de la organización del catálogo.     |
+|Aplicación eliminada |AppDeletedFromCatalog           |Se ha eliminado una aplicación del catálogo.     |
 |Canal eliminado     |ChannelDeleted         |Un usuario elimina un canal de un equipo.         |
 |Equipo eliminado  |TeamDeleted            |El propietario de un equipo elimina un equipo.      |
+|Aplicación instalada |AppInstalled         |Se instaló una aplicación.   |
+|Aplicación publicada |AppPublishedToCatalog           |Se agregó una aplicación al catálogo.     |
 |Bot quitado del equipo   |BotRemovedFromTeam         |Un usuario quita un bot de un equipo.       |
 |Conector quitado     |ConnectorRemoved         |Un usuario quita un conector de un canal.         |
 |Miembros quitados    |MemberRemoved        |El propietario de un equipo elimina los miembros de un equipo, un canal o un chat grupal.         |
 |Pestaña quitada    |TabRemoved         |Un usuario quita una ficha de un canal.         |
+|Aplicación desinstalada |AppUninstalled           |Se desinstaló una aplicación.     |
+|Aplicación actualizada |AppUpdatedInCatalog           |Se actualizó una aplicación en el catálogo.     |
 |Conector actualizado    |ConnectorUpdated         |Un usuario ha modificado un conector en un canal.         |
 |Pestaña actualizado   |TabUpdated         |Un usuario ha modificado una pestaña en un canal.         |
+|Aplicación actualizada |AppUpgraded           |Una aplicación se ha actualizado a su última versión en el catálogo.     |
 |Usuario ha iniciado sesión en Teams     |TeamsSessionStarted         |Un usuario inicia sesión en un cliente de Microsoft Teams. Este evento no captura actividades de actualización de token.         |
 
 ## <a name="shifts-in-teams-activities"></a>Cambios en las actividades de Teams
@@ -184,4 +191,4 @@ Puede usar la API de actividad de administración de Office 365 para recuperar i
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Buscar en el registro de auditoría del centro de cumplimiento de Microsoft 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)
+- [Buscar en el registro de auditoría del centro de cumplimiento de Microsoft 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) 

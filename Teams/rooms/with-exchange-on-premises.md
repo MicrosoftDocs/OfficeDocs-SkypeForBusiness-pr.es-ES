@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Lea este tema para obtener información sobre cómo implementar salas de Microsoft Teams en un entorno híbrido con Exchange local.
-ms.openlocfilehash: 39e78b914edb547737ed75c20191dd9beba242c6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d017706a0e512a4945eaccd69c0e11a7962ca518
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905302"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666162"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implementar Salas de Microsoft Teams con Exchange local
 
@@ -36,17 +36,17 @@ Microsoft proporciona [SkypeRoomProvisioningScript. PS1](https://go.microsoft.co
 
 Antes de implementar salas de Microsoft Teams con Exchange local, asegúrese de que cumple con los requisitos. Para obtener más información, consulte [requisitos de salas de Microsoft Teams](requirements.md).
   
-Si implementa salas de Microsoft Teams con Exchange local, usará las herramientas administrativas de Active Directory para agregar una dirección de correo electrónico a su cuenta de dominio local. Esta cuenta se sincronizará con Office 365. Tendrá que hacer lo siguiente:
+Si implementa salas de Microsoft Teams con Exchange local, usará las herramientas administrativas de Active Directory para agregar una dirección de correo electrónico a su cuenta de dominio local. Esta cuenta se sincronizará con Microsoft 365 u Office 365. Tendrá que hacer lo siguiente:
   
 - Crear una cuenta y sincronizarla con Active Directory
 
 - Habilitar el buzón de correo remoto y establecer propiedades
 
-- Asignar una licencia de Office 365.
+- Asignar una licencia de Microsoft 365 o de Office 365.
 
 - Habilite la cuenta del dispositivo con Skype empresarial Server. Para ello, el entorno deberá cumplir con los requisitos previos que se detallan aquí:
 
-  - Necesitará tener Skype empresarial online (plan 2) o una versión posterior en el plan 365 de Office. El plan debe admitir la funcionalidad de conferencias.
+  - Necesitará tener Skype empresarial online (plan 2) o una versión posterior en el plan de Microsoft 365 u Office 365. El plan debe admitir la funcionalidad de conferencias.
   
   - Si necesita Enterprise Voice (telefonía RTC) con proveedores de servicios de telefonía para salas de Microsoft Teams, necesita Skype empresarial online (Plan 3).
   
@@ -105,14 +105,14 @@ Si implementa salas de Microsoft Teams con Exchange local, usará las herramient
 
    Para obtener información detallada sobre la sintaxis y los parámetros, consulte [set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-### <a name="assign-an-office-365-license"></a>Asignar una licencia de Office 365
+### <a name="assign-a-microsoft-365-or-office-365-license"></a>Asignar una licencia de Microsoft 365 o de Office 365
 
 1. Conéctese a Azure Active Directory. Para obtener más información sobre Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) no es compatible. 
 
-2. La cuenta del dispositivo debe tener una licencia válida de Office 365 o Exchange y Microsoft Teams no funcionarán. Si tiene la licencia, debe asignar una ubicación de uso a su cuenta de dispositivo, lo cual determina qué SKU de licencia están disponibles para su cuenta. Puedes usar`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> para recuperar una lista de las SKU disponibles.
+2. La cuenta del dispositivo debe tener una licencia válida de Microsoft 365 o de Office 365, o Exchange y Microsoft Teams no funcionarán. Si tiene la licencia, debe asignar una ubicación de uso a su cuenta de dispositivo, lo cual determina qué SKU de licencia están disponibles para su cuenta. Puedes usar`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> para recuperar una lista de las SKU disponibles.
 
 <!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
@@ -166,7 +166,7 @@ Skype empresarial online PowerShell se usa para administrar servicios tanto para
 
 ### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>Asignar una licencia a su cuenta de salas de Microsoft Teams
 
-1. Inicie sesión como administrador de inquilinos, abra el portal administrativo de Office 365 y haga clic en la aplicación de administrador.
+1. Inicie sesión como administrador de inquilinos, abra el centro de administración de Microsoft 365 y haga clic en la aplicación de administrador.
 2. Haga clic en **Usuarios y grupos** y después haga clic en **Agregar usuarios, restablecer contraseñas, y más**.
 3. Haga clic en la cuenta salas de Microsoft Teams y, a continuación, haga clic en el icono de lápiz para editar la información de la cuenta.
 4. Haga clic en **Licencias**.

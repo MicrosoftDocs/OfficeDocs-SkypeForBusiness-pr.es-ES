@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6aa61c739910e00a277f6c3f201222ac5eb782da
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: ec46cfed6c39593dc32b155374f5cf9478d73ad0
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523023"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666052"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>Preparar el entorno para la actualización a teams
 
@@ -43,7 +43,7 @@ Para impulsar una actualización correcta de los equipos de su organización, es
 Complete estas actividades en paralelo con la preparación de la preparación del usuario:
 
 - [Prepare su personal de ti](upgrade-prepare-IT-pros.md) para asegurarse de que tienen lo que necesitan para que el viaje de actualización se realice correctamente.
-- Compruebe que su entorno cumple con todos los [requisitos previos](upgrade-plan-journey-prerequisites.md)y comprenda las dependencias entre los servicios y equipos de Office 365.
+- Compruebe que su entorno cumple con todos los [requisitos previos](upgrade-plan-journey-prerequisites.md)y comprenda las dependencias entre Microsoft 365 u Office 365 Services y Teams.
 - [Evalúe el entorno](upgrade-plan-journey-evaluate-environment.md) mediante el descubrimiento ambiental con un cuestionario de ejemplo para confirmar que la disponibilidad de la organización lleva a cabo un viaje correcto de actualización a teams.
 - [Prepare su red mediante la](prepare-network.md) planeación, la preparación y la realización de los pasos de corrección necesarios para que la red admita las cargas de trabajo de Teams.
 - [Prepare su servicio](upgrade-prepare-environment-prepare-service.md) para el despliegue mediante listas de comprobación de incorporación para asegurarse de que la configuración de equipos está lista para permitir la migración de los usuarios de Skype empresarial a teams.

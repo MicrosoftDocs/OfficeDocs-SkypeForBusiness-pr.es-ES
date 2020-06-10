@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube con Microsoft Teams, que proporcionan un mensaje de saludo, mantener música, redirigir llamadas y otras características.
-ms.openlocfilehash: 9c2593f657ae66a1dcde825ac7a783df10cd96d8
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 6bf3353a86cc096d5d9f9891315d9b47de40e9f4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523726"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44669402"
 ---
 # <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 
@@ -48,6 +48,7 @@ Todas las llamadas de la cola se envían a los agentes mediante uno de los sigui
 
 - Con el enrutamiento del operador, la primera llamada de la cola suena a todos los agentes al mismo tiempo.
 - Con el enrutamiento en serie, la primera llamada de la cola suena una por una por todos los agentes de llamadas.
+- Con el enrutamiento más largo de inactividad, el agente de llamada que ha estado inactivo recibe la siguiente llamada disponible. El tiempo de inactividad se define como la cantidad de tiempo que el estado de presencia de un agente de llamada se establece en **disponible** o **ausente** (si hay menos de 10 minutos), en el momento de la llamada. Si la presencia de un agente de llamada está **ausente** durante más de 10 minutos, se restablecerá el temporizador de inactividad.
 - Con la operación por turnos, el enrutamiento de las llamadas entrantes está equilibrado, de modo que cada agente de llamadas obtiene el mismo número de llamadas de la cola.
 
 Puede configurar las opciones de administración de llamadas, como la participación en el agente, la opción de enrutamiento basado en la presencia, el tiempo de espera de llamada y las opciones de tiempo de espera de la llamada con cualquiera de los métodos anteriores.
@@ -166,7 +167,7 @@ Puede seleccionar hasta 200 agentes de llamadas que pertenecen a cualquiera de l
 - Grupo de seguridad
 - Lista de distribución
 
-Los agentes de llamadas seleccionados deben ser uno de los siguientes:
+Los agentes de llamadas seleccionados deben ser uno de los siguientes: 
 
 - Usuarios en línea con una licencia de sistema telefónico y la telefonía IP empresarial habilitada
 - Usuarios en línea con un plan de llamadas
@@ -203,18 +204,24 @@ Después de habilitar el modo de conferencia en una cola de llamadas, las llamad
 La mayoría de las llamadas se reciben a través de uno de los métodos mencionados anteriormente. Si se recibe una llamada a través de otro método (como una llamada de VoIP desde un cliente de Skype empresarial), la llamada se agregará a la cola de llamadas, pero no se beneficiará de la conexión más rápida.
 
 ![Icono del número 3, que hace referencia a una llamada en el método de enrutamiento de captura de pantalla anterior, ](media/teamscallout3.png)
- **Routing method** puede elegir entre **operador**, **serie**o **Round Robin** como método de distribución. Todas las colas de llamadas nuevas y existentes tienen el enrutamiento de operador seleccionado de forma predeterminada. Cuando se usa el enrutamiento del operador, la primera llamada en la cola llama a todos los agentes de llamadas al mismo tiempo. El primer agente de llamadas que atiende la llamada recibe la llamada.
+ **Routing method** puede elegir entre **operador**, **serie**, más **tiempo de inactividad**o por **turnos** como método de distribución. Todas las colas de llamadas nuevas y existentes tienen el enrutamiento de operador seleccionado de forma predeterminada. Cuando se usa el enrutamiento del operador, la primera llamada en la cola llama a todos los agentes de llamadas al mismo tiempo. El primer agente de llamadas que atiende la llamada recibe la llamada.
 
 - El **enrutamiento del operador** hace que la primera llamada de la cola suene a todos los agentes de llamadas al mismo tiempo. El primer agente de llamadas que atiende la llamada recibe la llamada.
 - El **enrutamiento serie** llama a todos los agentes de llamadas de uno en uno, desde el principio de la lista de agentes de llamadas. Los agentes no se pueden pedir dentro de la lista de agentes de llamadas. Si un agente descarta o no atiende una llamada, la llamada sonará al próximo agente y probará con todos los agentes hasta que se seleccione o agote el tiempo de espera.
+- Rutas **inactivas más largas** la siguiente llamada disponible al agente de llamada que ha estado inactiva el tiempo más largo. El tiempo de inactividad se define como la cantidad de tiempo que el estado de presencia de un agente de llamada se establece en **disponible** o **ausente** (si hay menos de 10 minutos), en el momento de la llamada. Si la presencia de un agente de llamada se establece en **ausente** durante más de 10 minutos, se restablecerá el temporizador de inactividad. Los Estados de presencia de los usuarios se consultan cada minuto.
+
+    Es importante saber que habilitar esta configuración obliga a habilitar el **enrutamiento basado en presencia** .
+
+    > [!IMPORTANT]
+    > Los agentes que usen el cliente de Skype empresarial no recibirán llamadas cuando la configuración de inactividad más larga esté habilitada. Si tienes agentes que usan Skype o Business, no habilites esta configuración.
 - El enrutamiento **Round Robin** de equilibra las llamadas entrantes para que cada agente de llamadas obtenga el mismo número de llamadas de la cola. Esto puede ser conveniente en un entorno de ventas entrante para asegurar la igualdad de oportunidades entre todos los agentes de llamadas.
 
 ![El icono del número 4, que hace referencia a una llamada en la captura de pantalla anterior, el enrutamiento basado en presencia ](media/teamscallout4.png)
- **Presence-based routing** usa el estado de disponibilidad de los agentes de llamadas para determinar si un agente debería estar incluido en la lista de enrutamiento de llamadas para el método de enrutamiento seleccionado. Los agentes de llamadas cuyo estado de disponibilidad esté establecido en **disponible** se incluyen en la lista de enrutamiento de llamadas y pueden recibir llamadas. Los agentes cuyo estado de disponibilidad esté establecido en cualquier otro Estado se excluyan de la lista de enrutamiento de llamadas y no recibirán llamadas hasta que su estado de disponibilidad cambie de nuevo a **disponible**.
+ **Presence-based routing** usa el estado de disponibilidad de los agentes de llamadas para determinar si un agente debería estar incluido en la lista de enrutamiento de llamadas para el método de enrutamiento seleccionado. Los agentes de llamadas cuyo estado de disponibilidad esté establecido en **disponible** se incluyen en la lista de enrutamiento de llamadas y pueden recibir llamadas. Los agentes cuyo estado de disponibilidad esté establecido en cualquier otro Estado se excluyan de la lista de enrutamiento de llamadas y no recibirán llamadas hasta que su estado de disponibilidad cambie de nuevo a **disponible**.  
 
 Puede habilitar el enrutamiento de llamadas basado en presencia con cualquiera de los métodos de enrutamiento.
 
-Si un agente opta por recibir llamadas, no se incluirán en la lista de enrutamiento de llamadas, independientemente del valor de su estado de disponibilidad en.
+Si un agente opta por recibir llamadas, no se incluirán en la lista de enrutamiento de llamadas, independientemente del valor de su estado de disponibilidad en. 
 
 > [!IMPORTANT]
 > Los agentes que usan el cliente de Skype empresarial no se incluyen en la lista de enrutamiento de llamadas cuando el enrutamiento basado en presencia está habilitado, independientemente de su estado de disponibilidad. Los agentes que no se encuentren en la lista de enrutamiento de llamadas no recibirán llamadas. Si tiene agentes que usan Skype empresarial, no habilite el enrutamiento de llamadas basado en presencia.
@@ -267,7 +274,7 @@ La configuración predeterminada es de 30 segundos, pero se puede establecer has
 - **Desconectar** La llamada se desconectará.
 - **Redirigir a** Si elige esta opción, seleccione una de las siguientes opciones:
 
-  - **Persona de su empresa** Un usuario en línea con una licencia de **sistema telefónico** y estar habilitado para telefonía IP empresarial o tener un plan de llamadas. Puedes configurarlo para que la persona que llama pueda enviarse al buzón de voz. Para ello, seleccione una **persona de su empresa** y configure esta persona para que sus llamadas se desvíen directamente al buzón de voz.
+  - **Persona en la organización** Un usuario en línea con una licencia de **sistema telefónico** y estar habilitado para telefonía IP empresarial o tener un plan de llamadas. Puedes configurarlo para que la persona que llama pueda enviarse al buzón de voz. Para ello, seleccione una persona de su organización y configure esta persona para que sus llamadas se desvíen directamente al buzón de voz.
 
   Para obtener información sobre las licencias necesarias para el buzón de voz, consulte [configurar el buzón de voz en la nube](set-up-phone-system-voicemail.md).
 
@@ -285,7 +292,7 @@ El valor de tiempo de espera se puede establecer en segundos, en intervalos de 1
 
 - **Desconectar** La llamada se desconectará.
 - **Redirigir esta llamada a** Si elige esta opción, tiene estas opciones:
-  - **Persona de su empresa** Un usuario en línea con una licencia de **sistema telefónico** y estar habilitado para telefonía IP empresarial o para tener planes de llamadas. Para configurarlo para que la persona que llama pueda enviarse al buzón de voz, seleccione a una **persona de su empresa** y configure esta persona para que sus llamadas se desvíen directamente al buzón de voz.
+  - **Persona en la organización** Un usuario en línea con una licencia de **sistema telefónico** y estar habilitado para telefonía IP empresarial o para tener planes de llamadas. Para configurarlo de modo que la persona que llama pueda enviarse al buzón de voz, seleccionar a una persona de su organización y configurar esta persona para que las llamadas se desvíen directamente al buzón de voz.
 
   Para obtener información sobre las licencias necesarias para el buzón de voz, consulte [configurar el buzón de voz en la nube](set-up-phone-system-voicemail.md).
 

@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Siga este plan de acción acelerado de diez pasos para pasar de una configuración básica de Skype empresarial a la configuración de Microsoft Teams.
 localization_priority: Normal
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6489362a37be76c44f2b0dbf58e094c58c85d21
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ef27d9faac30003edbb4c21ee7d9060d41ea454b
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904475"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666232"
 ---
 # <a name="upgrade-basic"></a>Actualizar básico
 
@@ -50,7 +50,7 @@ Estos diez pasos sencillos proporcionan todo lo que necesitas para una actualiza
 
 Consulta las preguntas más [frecuentes](https://aka.ms/SkypeToTeams-FAQ) para obtener más información sobre la actualización.
 
-¿No está familiarizado con Teams? [Obtenga información sobre cómo Teams](https://products.office.com/microsoft-teams/group-chat-software) reúne conversaciones, reuniones, archivos, aplicaciones de Office y integraciones de terceros, que proporcionan un solo concentrador para el trabajo en equipo en Office 365.
+¿No está familiarizado con Teams? [Obtenga información sobre cómo Teams](https://products.office.com/microsoft-teams/group-chat-software) reúne conversaciones, reuniones, archivos, aplicaciones de Office y integraciones de terceros, que proporcionan un solo concentrador para el trabajo en equipo en Microsoft 365 y Office 365.
 
 <!--ENDOFSECTION-->
 
@@ -100,7 +100,7 @@ Es posible que los usuarios que estén profundamente adoptados en Skype empresar
 
 **Recursos**
 
-- [Ver los datos de uso en informes de actividades en Office 365](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+- [Informes de Microsoft 365 en el centro de administración](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)
 
 [Volver al principio](#about-upgrade-basic)
 
@@ -164,7 +164,7 @@ Los usuarios están ocupados con sus responsabilidades diarias. Recordarles la a
 
 *(Actualizar día)*
 
-Hoy es el día en que la organización actualiza oficialmente a teams como solución de comunicación y colaboración. En el centro de administración de Microsoft Teams, active el modificador de actualización mediante la configuración del modo de coexistencia en **Teams**. (En el centro de administración, vaya a la actualización de la **configuración** > de todos los**equipos**de la organización). Los usuarios recibirán una notificación en el cliente de Skype empresarial que han sido actualizadas a teams.
+Hoy es el día en que la organización actualiza oficialmente a teams como solución de comunicación y colaboración. En el centro de administración de Microsoft Teams, active el modificador de actualización mediante la configuración del modo de coexistencia en **Teams**. (En el centro de administración, vaya a **configuración**  >  de toda la organización **Actualización de Teams**. Los usuarios recibirán una notificación en el cliente de Skype empresarial que han sido actualizadas a teams.
 
 Le recomendamos que, una vez que se haya actualizado a todos los usuarios, envíe un mensaje de bienvenida a teams.
 

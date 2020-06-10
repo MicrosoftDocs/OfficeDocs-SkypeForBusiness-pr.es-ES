@@ -24,20 +24,20 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre los operadores automáticos de la nube y cómo usarlos para que los autores de llamadas puedan desplazarse por un sistema de menús para ubicar y transferir llamadas a usuarios o departamentos.
-ms.openlocfilehash: 614077237f95c97c584a467c5852f97f438e92b8
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 590d2282faa4642cbd23c195e6a2e9e327803993
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042607"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665192"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>¿Qué son los operadores automáticos en la nube?
 
-El sistema telefónico en Office 365 proporciona operadores automáticos, que se pueden usar para que los autores de llamadas externos e internos se muevan a través de un sistema de menús para ubicar y realizar llamadas a usuarios o departamentos de su organización.
+El sistema telefónico proporciona operadores automáticos, que se pueden usar para que los autores de llamadas externos e internos se muevan a través de un sistema de menús para ubicar y transferir llamadas a usuarios o departamentos de su organización.
   
 Un operador automático suele ser un nodo en un sistema, lo que da a una persona que llama una serie de mensajes de voz o archivos de audio que escuchan en lugar de un operador humano. Cuando las personas llaman a un número asociado con un operador automático, sus elecciones pueden redirigir la llamada a un usuario o localizar a alguien de su organización y, a continuación, conectarse a ese usuario. Pueden expresar sus elecciones e interactuar con el sistema de menús mediante el teclado de un teléfono (DTMF) o el reconocimiento de voz. Las opciones que hacen también pueden redirigir la llamada a otro operador automático o a una cola de llamadas.
   
-Para configurar un operador automático para el sistema telefónico en Office 365, vaya a [configurar un operador automático](create-a-phone-system-auto-attendant.md)de la nube.
+Para configurar un operador automático para el sistema telefónico, vaya a [configurar un operador automático de la nube](create-a-phone-system-auto-attendant.md).
   
 Un operador automático de la nube tiene las siguientes características:
   
@@ -234,14 +234,14 @@ Para configurar un operador automático y las opciones de menú, vaya a [configu
 
 Puede asignar un número de servicio de Microsoft, un número de enrutamiento directo o un número híbrido a la cuenta de recursos vinculados del operador automático (o a varias cuentas de recursos si desea más de un número de teléfono). Consulte [planificar el enrutamiento directo](direct-routing-plan.md) para obtener más información.
 
-Para asignar un número de servicio, necesitará obtener o migrar los números de teléfono de pago o gratuitos existentes. Una vez que reciba los números**de teléfono de** > pago o gratuitos, aparecerán en**los números de teléfono**del **Centro** > de administración de Skype empresarial. El **tipo de número** aparece como **servicio-** gratuito. Para obtener sus números de servicio, consulte [obtener números de teléfono de servicio para Skype empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers) o bien, si desea transferir un número de servicio existente, consulte [transferir números de teléfono a teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Para asignar un número de servicio, necesitará obtener o migrar los números de teléfono de pago o gratuitos existentes. Una vez que reciba los números de teléfono de pago o gratuitos, aparecerán en **Skype for Business admin center**  >  **Voice**  >  **los números de teléfono**del centro de administración de Skype empresarial. El **tipo de número** aparece como **servicio-** gratuito. Para obtener sus números de servicio, consulte [obtener números de teléfono de servicio para Skype empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers) o bien, si desea transferir un número de servicio existente, consulte [transferir números de teléfono a teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
   
 > [!NOTE]
 > Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener los números de servicio. Para ver cómo hacerlo, vaya a [administrar los números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
   
 ## <a name="related-topics"></a>Temas relacionados
 
-[Esto es lo obtiene con el Sistema telefónico de Office 365](here-s-what-you-get-with-phone-system.md)
+[Esto es lo obtiene con el Sistema telefónico](here-s-what-you-get-with-phone-system.md)
 
 [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 

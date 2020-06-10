@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Aprenda a configurar planes de llamadas, como ver planes disponibles en su región, comprar & asignar licencias, obtener números de teléfono y agregar direcciones de emergencia & ubicaciones.
-ms.openlocfilehash: 08db669cfb7ddb75f6a73610f112c682a016354b
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 84dbff3ed660f6d436f01f0737141d8b261c1318
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042407"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666242"
 ---
 # <a name="set-up-calling-plans"></a>Configurar las llamadas RTC en Skype Empresarial
 
@@ -57,7 +57,7 @@ Hay tres maneras de obtener nuevos números de usuario:
 - **Usar un formulario de solicitud para números nuevos.** A veces, en función de su país o región, no podrá obtener números de teléfono nuevos con el centro de administración de Teams o necesitará números de teléfono o códigos de área específicos. Si es así, tendrá que descargar un formulario y enviárselo de nuevo a nosotros. Para obtener más información, consulte [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Paso 4: agregar direcciones y ubicaciones de emergencia para su organización
-<a name="bkmk_add_addresses"> </a> Una dirección de emergencia debe estar asociada a un número de teléfono. Cuando esta asociación se produce puede variar entre el país y las regiones. Por ejemplo, en los Estados Unidos, debe asociar una dirección de emergencia al asignar el número de teléfono al usuario. En el Reino Unido, debe asociar una dirección de emergencia al número de teléfono al obtener los números de teléfono de Office 365 o transferir los números de teléfono de su proveedor de servicio actual. 
+<a name="bkmk_add_addresses"> </a> Una dirección de emergencia debe estar asociada a un número de teléfono. Cuando esta asociación se produce puede variar entre el país y las regiones. Por ejemplo, en los Estados Unidos, debe asociar una dirección de emergencia al asignar el número de teléfono al usuario. En el Reino Unido, debe asociar una dirección de emergencia con el número de teléfono al obtener los números de teléfono de Microsoft 365 u Office 365, o al transferir números de teléfono de su proveedor de servicios actual. 
 
 Para obtener información sobre las llamadas de emergencia y sobre cómo administrar las direcciones de emergencia, consulte [administrar las llamadas de emergencia](what-are-emergency-locations-addresses-and-call-routing.md) y [Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-remove-emergency-location-organization.md).
     

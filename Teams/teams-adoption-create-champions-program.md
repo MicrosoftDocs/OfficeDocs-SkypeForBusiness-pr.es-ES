@@ -21,12 +21,12 @@ f1.keywords:
 description: Aprenda a entrenar a un equipo de expertos para promover la adopción de equipos mediante el conocimiento, la adopción y el aprendizaje de su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2c44be9ac59b3a7c076540b658cf27bf74ef0e8
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 9f6a54a6da5aa12e92e6ae50960cca5e5faf6d0a
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350264"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666002"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Crear su programa para expertos para Microsoft Teams
 
@@ -45,7 +45,7 @@ Los campeones deben:
 
 Use la [Guía del programa](https://go.microsoft.com/fwlink/?linkid=854665) de nuestros campeones para crear este programa en su organización. Nuestros procedimientos recomendados para esta comunidad son:
 
-- Únase al programa Microsoft 365 o a los [campeones](https://aka.ms/O365Champions)de microsoft Office 365. Asegúrese de que, al menos, los líderes del programa preexperto (y posiblemente todos los campeones de la empresa) sean miembros del programa. Esta llamada de la comunidad mensual gratuita le proporcionará información valiosa para ejecutar su propio programa y sacar el máximo provecho de Teams y otros servicios de Microsoft 365 u Office 365. Los materiales del programa pueden reutilizarse en su propio programa interno.
+- Únase al [programa campeones](https://aka.ms/O365Champions). Asegúrese de que, al menos, los líderes del programa campeones (y posiblemente todos los campeones de la compañía) sean miembros del programa. Esta llamada de la comunidad mensual gratuita le proporcionará información valiosa para ejecutar su propio programa y sacar el máximo provecho de Teams y otros servicios de Microsoft 365 u Office 365. Los materiales del programa pueden reutilizarse en su propio programa interno.
 
 - Use el equipo de experto de trabajo en equipo: sus compañeros deberían usar el equipo que tiene configurado para todas las comunicaciones de programas, comentarios y para buscar recursos.  De esta manera, se verán cada vez más familiarizados con el producto y sus beneficios.
 

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo restablecer el PIN de conferencia de audio de un usuario en Microsoft Teams y conozca datos importantes sobre PIN.
-ms.openlocfilehash: 451031698294fc49acee4a51efa0203cd3eb898d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 8926218c72c888edb00480ff8382672a3730cf15
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905492"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666192"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Restablecer el PIN de Audioconferencia en Microsoft Teams
 
@@ -52,7 +52,7 @@ Las reuniones se pueden iniciar cuando un usuario autenticado se une con la apli
    
 ## <a name="have-a-user-reset-his-or-her-own-pin"></a>Hacer que un usuario restablezca su propio PIN
 
-1. Hacer que el usuario vaya [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing)a.
+1. Hacer que el usuario vaya a [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing) .
 2. Haga clic en **restablecer PIN**. 
 
 
@@ -66,21 +66,21 @@ Las reuniones se pueden iniciar cuando un usuario autenticado se une con la apli
     
 - La configuración predeterminada es no permitir que los autores de llamadas anónimos inicien una reunión.
     
-- Cuando habilita a un usuario para las conferencias de audio, se le envían mensajes de correo electrónico que incluyen información sobre conferencias y su PIN de forma predeterminada. El usuario debe tener un buzón de Office 365, porque cuando se restablece un PIN, se envía un PIN nuevo al usuario por correo electrónico a su dirección SMTP principal (alias) que está configurada para el usuario.
+- Cuando habilita a un usuario para las conferencias de audio, se le envían mensajes de correo electrónico que incluyen información sobre conferencias y su PIN de forma predeterminada. El usuario debe tener un buzón de Microsoft 365 o de Office 365, porque cuando se restablece un PIN, se envía un PIN nuevo al usuario por correo electrónico a su dirección SMTP principal (alias) que está establecida para el usuario.
     
 - Al configurar las conferencias de audio, se establecen los dígitos necesarios para los pin de la organización. Los códigos PIN pueden tener de 4 a 12 dígitos (el valor predeterminado es 5). Si cambia el valor de longitud del PIN, la configuración solo se aplicará a los pin recién generados y no se aplicará a la configuración de PIN de los usuarios existentes que estén habilitados para las conferencias de audio. Consulte [establecer la longitud del PIN para las reuniones de audioconferencia](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md).
     
-- De forma predeterminada, el correo electrónico se establecerá en la dirección SMTP principal de Office 365 del usuario. Puede enviar un correo electrónico a una dirección que no sea de Office 365, como una dirección de correo electrónico de hotmail o MSN. Puede omitir la dirección de correo electrónico predeterminada mediante Windows PowerShell. Esto es útil si los usuarios no tienen un buzón de Exchange en Office 365.
+- De forma predeterminada, el correo electrónico se establecerá en la dirección SMTP principal de Microsoft 365 u Office 365 del usuario. Puede enviar un correo electrónico a una dirección que no sea Microsoft 365 o que no sea de Office 365, como una dirección de correo electrónico de hotmail o MSN. Puede omitir la dirección de correo electrónico predeterminada mediante Windows PowerShell. Esto es útil si los usuarios no tienen un buzón de Exchange en Microsoft 365 u Office 365.
 
     
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:
+Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas para hacer. To get started with Windows PowerShell, see these topics:
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
   

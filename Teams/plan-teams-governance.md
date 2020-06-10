@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a196dfee988a41a5d8145d9b6256d1df6e714133
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 19b2fc0c14730f4aa4c25ccdfcf5298f6f038d3d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905832"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665282"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planificar el gobierno en Teams
 
@@ -41,7 +41,7 @@ Es posible que su organización requiera que implemente controles estrictos sobr
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |Puntos de decisión|<ul><li>¿Su organización requiere una Convención de nomenclatura específica para Teams?</li><li>¿Los creadores de equipos necesitan la capacidad de asignar clasificaciones específicas de la organización a teams?</li><li>¿Necesita restringir la posibilidad de agregar invitados a los equipos de acuerdo con cada equipo?</li><li>¿Requiere su organización limitar quién puede crear equipos?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Siguientes pasos|<ul><li>Documente los requisitos de la organización para la creación, denominación, clasificación y acceso de invitados de su organización.</li><li>Planee la implementación de estos requisitos como parte de la implementación de Teams.</li><li>Comunique y publique sus directivas para informar a los usuarios del comportamiento que pueden esperar.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente los requisitos de la organización para la creación, denominación, clasificación y acceso de invitados de su organización.</li><li>Planee la implementación de estos requisitos como parte de la implementación de Teams.</li><li>Comunique y publique sus directivas para informar a los usuarios del comportamiento que pueden esperar.</li></ul>|
 
 > [!TIP]
 > Use la tabla siguiente para capturar los requisitos de la organización.
@@ -58,7 +58,7 @@ Es posible que su organización requiera que implemente controles estrictos sobr
 > Para ayudarle a planificar con antelación, [Obtenga más información sobre cómo establecer estas directivas y qué licencias necesitan](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 > 
 > [!NOTE]
-> La limitación de la creación de grupos y equipos puede ralentizar la productividad de los usuarios, porque muchos servicios de Office 365 requieren la creación de grupos para que el servicio funcione. Para obtener información adicional, vaya a y expanda el [motivo por el que el control crea grupos de Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
+> La limitación de la creación de grupos y equipos puede ralentizar la productividad de los usuarios, porque muchos de los servicios de Microsoft 365 y Office 365 requieren la creación de grupos para que el servicio funcione. Para obtener información adicional, vaya a y expanda el [motivo por el que el control crea grupos de Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
 
 #### <a name="additional-information"></a>Información adicional
@@ -87,7 +87,7 @@ Es posible que su organización tenga requisitos adicionales para establecer dir
 |Función |Detalles |Se necesita una licencia de Azure AD Premium |Tomar |
 |---------|---------|---------|---------|
 |Directiva de expiración |Administre el ciclo de vida de los grupos de Microsoft 365 mediante la configuración de una directiva de expiración. |Min |DETERMINADO|
-|Directiva de retención |CONSERVE o elimine datos durante un período de tiempo específico configurando directivas de retención para equipos en el centro de cumplimiento de & de seguridad. **Nota**: para usar esta característica, es necesario tener licencias de Office 365 Enterprise E3 o una versión posterior. |No |DETERMINADO |
+|Directiva de retención |CONSERVE o elimine datos durante un período de tiempo específico configurando directivas de retención para equipos en el centro de cumplimiento de & de seguridad. **Nota**: para usar esta característica, es necesario disponer de licencias de Microsoft 365 u Office 365 Enterprise E3 o una versión posterior. |No |DETERMINADO |
 |Archivar y restaurar |Archivar un equipo cuando ya no está activo pero desea mantenerlo por referencia o reactivarlo en el futuro. |No |DETERMINADO |
 
 > [!Note]
@@ -106,7 +106,7 @@ Para obtener instrucciones técnicas sobre cómo implementar esta configuración
 
 ## <a name="teams-feature-management"></a>Administración de características de Teams
 
-Otro aspecto importante de la administración del ciclo de vida y del gobierno de los equipos es la capacidad de controlar las características a las que los usuarios tendrán acceso. Puede administrar las características de mensajería, reunión y llamada, ya sea en el nivel de la organización de Office 365 o por usuario. 
+Otro aspecto importante de la administración del ciclo de vida y del gobierno de los equipos es la capacidad de controlar las características a las que los usuarios tendrán acceso. Puede administrar las características de mensajería, reunión y llamada, ya sea en el nivel de organización de Microsoft 365 u Office 365 o por usuario.
 
 
 |         |         |
@@ -129,7 +129,7 @@ Además, puede configurar la moderación de un canal y proporcionar capacidades 
 
 ## <a name="security-and-compliance"></a>Seguridad y cumplimiento
 
-Teams está basado en las capacidades avanzadas de seguridad y cumplimiento de Office 365 y admite auditorías e informes, búsqueda de contenido de cumplimiento, e-Discovery, retención legal y directivas de retención. 
+Teams está basado en las capacidades avanzadas de seguridad y cumplimiento de Microsoft 365 y Office 365, y admite auditorías e informes, búsqueda de contenido de cumplimiento, e-Discovery, retención legal y directivas de retención.
 
 > [!Important]
 > Si su organización tiene requisitos de cumplimiento y seguridad, revise el contenido detallado de este tema en el artículo [información general sobre seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md).

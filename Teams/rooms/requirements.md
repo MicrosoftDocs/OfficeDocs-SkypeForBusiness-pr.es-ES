@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga más información sobre los requisitos para admitir salas de Microsoft Teams, entre los que se incluyen la elección del dispositivo, micrófonos, altavoces, cámaras y pantallas apropiados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fbfad5deba6288736beea0ef69660426975bb6fa
-ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
+ms.openlocfilehash: e7dfc83bc3e1eff42c7a8de3f7e80fb25c03bf90
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "44591310"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666272"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de la sala de Microsoft Teams
 
@@ -38,7 +38,7 @@ Asimismo, vea:
 > [!NOTE]
 > Las salas de Microsoft Teams inician sesión en Microsoft Teams, Skype Empresarial Server 2019, Skype Empresarial Server 2015 o Skype Empresarial en línea, y puede unirse a reuniones hospedadas por cualquiera de estos servicios.
 >
-> Las plataformas anteriores como Lync Server 2013 no son compatibles con las Salas de Microsoft Teams. Las salas de Microsoft Teams no son compatibles con Office 365 operado por 21Vianet, ni con los entornos GCC-High o DoD.
+> Las plataformas anteriores como Lync Server 2013 no son compatibles con las Salas de Microsoft Teams. Las salas de Microsoft Teams no son compatibles con Microsoft 365 u Office 365 operado por 21Vianet ni en los entornos GCC-High o DoD.
 >
 > Si tiene un servidor de Exchange local, las salas de Microsoft Teams requieren el uso de Exchange Server 2013 SP1 o posterior.
 

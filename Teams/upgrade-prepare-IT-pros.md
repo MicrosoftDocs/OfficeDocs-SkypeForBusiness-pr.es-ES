@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51d4170d949daa9c53cb8035ab0a3249e4127ca3
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 9388b9933a21bb36f28c4175836d56daab07faf6
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523053"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666222"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Preparar el personal de TI para Microsoft Teams
 
@@ -37,7 +37,7 @@ Este artículo forma parte de la fase de preparación técnica de su viaje de ac
 - [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Los administradores de su organización de Office 365, sus clientes técnicos y el servicio de asistencia al cliente son responsables de conducir una experiencia de usuario de alta calidad. Esto incluye asegurarse de que su red está lista para admitir equipos, configurar equipos para los usuarios y ser capaz de solucionar y resolver los problemas que puedan surgir.
+Los administradores de la organización, los clientes técnicos y el servicio de asistencia al cliente de Microsoft 365 u Office 365 son responsables de conducir una experiencia de usuario de alta calidad. Esto incluye asegurarse de que su red está lista para admitir equipos, configurar equipos para los usuarios y ser capaz de solucionar y resolver los problemas que puedan surgir.
 
 Comparta los siguientes recursos con los miembros de su personal de ti y compruebe que estén listos para admitir usuarios antes de empezar la actualización a teams:
 

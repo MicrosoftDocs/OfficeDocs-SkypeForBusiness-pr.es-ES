@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenga información general sobre qué son los pedidos de los puertos y cómo transferir números de teléfono de su proveedor de servicios a teams.
-ms.openlocfilehash: 0102adfd53dba3ff455ddbdbc3678e625fd978de
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: bc15d7be98f83b39a7dde006e3043b407b76a63e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227544"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665902"
 ---
 # <a name="whats-a-port-order"></a>¿Qué es un pedido de portabilidad?
 
@@ -65,7 +65,7 @@ En general, puede transferir cualquier número de teléfono que sea de un provee
 
 - Números de teléfono VoIP de un proveedor de telefonía como Vonage o RingCentral.
 
-- Números de teléfono híbridos de Skype empresarial. Si deseas transferir estos números, envíanos un mensaje <ptn@microsoft.com>de correo electrónico a.
+- Números de teléfono híbridos de Skype empresarial. Si deseas transferir estos números, envíanos un mensaje de correo electrónico a <ptn@microsoft.com> .
 
   **No puede transferir:**
   
@@ -112,7 +112,7 @@ Por ejemplo, debe enviar una solicitud separada de portabilidad de número para 
 
 - Números de teléfono móvil
 
-- Números de servicio que se pueden usar para conferencias de audio en Office 365.
+- Números de servicio que se pueden usar para conferencias de audio en Microsoft 365 u Office 365.
 
 Aquí tiene más información sobre cómo enviar solicitudes de portabilidad de números para cada uno de estos tipos de números:
   
@@ -131,7 +131,7 @@ Aquí tiene más información sobre cómo enviar solicitudes de portabilidad de 
 
 Una vez completada la solicitud de solicitud de portabilidad, tarda entre 7-14 días en procesarse. Sin embargo, según su proveedor de servicios, podría tardar hasta 30 días. Una vez que se transportan los números de teléfono, recibirás un mensaje de correo electrónico de nosotros para que estés listo.
   
-Para comprobar el estado de la solicitud de portabilidad, en el navegación izquierdo del centro de administración de Microsoft Teams, vaya a**números de teléfono**de **voz** > y, a continuación, haga clic en historial de **pedidos**. Cada estado de pedido de puerto se muestra en la columna **Estado** .
+Para comprobar el estado de la solicitud de portabilidad, en el navegación izquierdo del centro de administración de Microsoft Teams, vaya a números de teléfono de **voz**  >  **Phone numbers**y, a continuación, haga clic en **historial de pedidos**. Cada estado de pedido de puerto se muestra en la columna **Estado** .
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>¿Es posible convertir los números de teléfono de usuario (suscriptor) en números de servicio?
 <a name="bkmk_type_1"> </a>

@@ -14,18 +14,18 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo configurar la autenticación moderna para salas de Microsoft Teams
-ms.openlocfilehash: ee95de457d5af82fb68acb4fd79b6b5a5a3a7ed0
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: f44fe0e66e5dd219606b2ceaa3860e01164ccfa4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505617"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666262"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Autenticación en salas de Microsoft Teams
 
 Administración de cuentas para los dispositivos de salas de Microsoft Teams se maneja en el nivel de aplicación. La aplicación se conecta a Microsoft Teams, Skype empresarial y Exchange para obtener los recursos de la cuenta de la sala para habilitar las experiencias de llamada y de reunión. El dispositivo se mantiene como independiente de la cuenta para permitir capacidades siempre activadas, escenarios de llamadas (para dispositivos configurados con un plan de llamadas) y mecanismos de bloqueo personalizados implementados en estos dispositivos. Esto significa que la autenticación para estos dispositivos se produce de forma diferente a la de los dispositivos de usuario final.  
 
-Se recomienda la autenticación moderna para todos los clientes que usen dispositivos de salas de Microsoft Teams con Office 365. Si dispone de una implementación local de Exchange Server o de Skype empresarial Server, configure la [autenticación moderna híbrida](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) con Azure Active Directory (Azure ad) para habilitar el uso de la autenticación moderna.
+Se recomienda la autenticación moderna para todos los clientes que usen dispositivos de salas de Microsoft Teams con Microsoft 365 u Office 365. Si dispone de una implementación local de Exchange Server o de Skype empresarial Server, configure la [autenticación moderna híbrida](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) con Azure Active Directory (Azure ad) para habilitar el uso de la autenticación moderna.
 
 La autenticación moderna es compatible con las salas de Microsoft Teams versión 4.4.25.0 y posteriores.
 
@@ -61,9 +61,9 @@ Para aplicar la configuración, consulte [administrar de forma remota la configu
 
 ## <a name="prepare-your-environment-for-modern-authentication"></a>Preparar el entorno para la autenticación moderna
 
-Antes de empezar, asegúrese de que comprende los modelos de identidad que se deben usar con Office 365 y Azure AD. Puede encontrar más información en los [modelos de identidad de office 365 y Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) , y en la [identidad híbrida y en la sincronización de directorios para Office 365](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization).
+Antes de empezar, asegúrese de que comprende los modelos de identidad que se deben usar con Office 365 y Azure AD. Puede encontrar más información en los [modelos de identidad de Office 365 y Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) , y en la [identidad híbrida y en la sincronización de directorios para Microsoft 365 u Office 365](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization).
 
-### <a name="enable-modern-authentication-in-office-365"></a>Habilitar la autenticación moderna en Office 365
+### <a name="enable-modern-authentication-in-microsoft-365-or-office-365"></a>Habilitar la autenticación moderna en Microsoft 365 u Office 365
 
 Para activar la autenticación moderna para Exchange Online, consulte [Habilitar la autenticación moderna en Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online). Si usa Skype empresarial online, también debe asegurarse de que la autenticación moderna está activada en Skype empresarial online. Para obtener más información, consulte [Skype empresarial online: habilitar su espacio empresarial para la autenticación moderna](https://aka.ms/SkypeModernAuth).
 

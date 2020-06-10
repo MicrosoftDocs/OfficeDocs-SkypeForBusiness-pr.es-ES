@@ -15,26 +15,26 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lea este tema para obtener información sobre cómo implementar salas de Microsoft Teams con Microsoft 365 u Office 365, donde Teams o Skype empresarial y Exchange están conectados.
-ms.openlocfilehash: 2b7574b54782140e3f082c8c3859c9caee7712eb
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9a4ee558cfa9901566afc7f30f1f64a8b745331b
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905282"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666142"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Implementar salas de Microsoft Teams con Microsoft 365 u Office 365
 
-Lea este tema para obtener información sobre cómo implementar salas de Microsoft Teams con Office 365, donde Microsoft Teams o Skype empresarial y Exchange están conectados.
+Lea este tema para obtener información sobre cómo implementar salas de Microsoft Teams con Microsoft 365 u Office 365, donde Microsoft Teams o Skype empresarial y Exchange están conectados.
 
 La forma más sencilla de configurar cuentas de usuario es configurarlas con Windows PowerShell remoto. Microsoft proporciona [SkypeRoomProvisioningScript. PS1](https://go.microsoft.com/fwlink/?linkid=870105), un script que le ayudará a crear nuevas cuentas de usuario o validar las cuentas de recursos existentes que tiene para ayudarle a convertirlas en cuentas de usuario compatibles con salas de Microsoft Teams. Si lo prefiere, puede seguir los pasos siguientes para configurar las cuentas que usará el dispositivo de salas de Microsoft Teams.
 
 ## <a name="requirements"></a>Requisitos
 
-Antes de implementar salas de Microsoft Teams con Office 365, asegúrese de que cumple con los requisitos. Para obtener más información, consulte [requisitos de salas de Microsoft Teams](requirements.md).
+Antes de implementar salas de Microsoft Teams con Microsoft 365 u Office 365, asegúrese de que cumple con los requisitos. Para obtener más información, consulte [requisitos de salas de Microsoft Teams](requirements.md).
 
 Para habilitar Skype empresarial, debe disponer de lo siguiente:
 
-- Skype empresarial online (plan 2 o un plan basado en la empresa) o superior en el plan 365 de Office. El plan debe permitir las capacidades de conferencia de acceso telefónico local.
+- Skype empresarial online (plan 2 o un plan basado en la empresa) o superior en su plan de 365 u Office 365 de Microsoft. El plan debe permitir las capacidades de conferencia de acceso telefónico local.
 
 - Si necesita capacidades de acceso telefónico desde una reunión, necesitará una licencia de audioconferencia y sistema telefónico.  Si necesita capacidades de llamada saliente de una reunión, necesitará una licencia de audioconferencia.
 
@@ -58,16 +58,16 @@ Para obtener más información sobre los planes de Skype empresarial online, con
 
      Este ejemplo crea un nuevo buzón de sala con la siguiente configuración:
 
-     - Nombre: proyecto-Rigel-01
+     - Nombre: Rigel-01
 
-     - Alias: ProjectRigel01
+     - Alias: Rigel1
 
-     - Cuenta: ProjectRigel01@contoso.onmicrosoft.com
+     - Cuenta: Rigel1@contoso.onmicrosoft.com
 
      - Contraseña de la cuenta: P@ $ $W 0rd5959
 
      ``` PowerShell
-     New-Mailbox -Name "Project-Rigel-01" -Alias ProjectRigel01 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID ProjectRigel01@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
+     New-Mailbox -Name "Rigel-01" -Alias Rigel1 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
      ```
 
    - Para modificar un buzón de sala existente, use la siguiente sintaxis:
@@ -76,10 +76,10 @@ Para obtener más información sobre los planes de Skype empresarial online, con
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     Este ejemplo habilita la cuenta del buzón de sala existente que tiene el valor de alias ProjectRigel02 y establece la contraseña en 9898P@ $ $W 0rd. Observe que la cuenta se ProjectRigel02@contoso.onmicrosoft.com por el valor de alias existente.
+     Este ejemplo habilita la cuenta del buzón de sala existente que tiene el valor de alias Rigel2 y establece la contraseña en 9898P@ $ $W 0rd. Observe que la cuenta se Rigel2@contoso.onmicrosoft.com por el valor de alias existente.
 
      ``` PowerShell
-     Set-Mailbox -Identity ProjectRigel02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
+     Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
    Para obtener información detallada sobre la sintaxis y los parámetros, vea [New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) y [set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).
@@ -101,15 +101,15 @@ Para obtener más información sobre los planes de Skype empresarial online, con
 
    - AdditionalResponse: "este es un salón de reunión de Skype". (El texto adicional que se agregará a la convocatoria de reunión).
 
-   En este ejemplo se configuran estas opciones de configuración en el buzón de sala denominado Project-Rigel-01.
+   En este ejemplo se configuran estas opciones de configuración en el buzón de sala denominado Rigel-01.
 
    ``` PowerShell
-   Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
    Para obtener información detallada sobre la sintaxis y los parámetros, consulte [set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Conéctese a MS online PowerShell para establecer la configuración de Active Directory `Connect-MsolService -Credential $cred` ejecutando el cmdlet de PowerShell.   Para obtener más información sobre Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+4. Conéctese a MS online PowerShell para establecer la configuración de Active Directory ejecutando el `Connect-MsolService -Credential $cred` cmdlet de PowerShell.   Para obtener más información sobre Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) no es compatible. 
@@ -124,14 +124,14 @@ Para obtener más información sobre los planes de Skype empresarial online, con
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
    ```  -->
 
-   Este ejemplo establece la contraseña de la cuenta ProjectRigel01@contoso.onmicrosoft.com para que nunca expire.
+   Este ejemplo establece la contraseña de la cuenta Rigel1@contoso.onmicrosoft.com para que nunca expire.
 
   ``` PowerShell
     Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
   ```
 <!-- 
    ``` PowerShell
-   Set-AzureADUserPassword -UserPrincipalName ProjectRigel01@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
+   Set-AzureADUserPassword -UserPrincipalName Rigel1@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
    ``` -->
 
    También puede configurar un número de teléfono para la cuenta ejecutando el siguiente comando:
@@ -144,7 +144,7 @@ Para obtener más información sobre los planes de Skype empresarial online, con
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. La cuenta del dispositivo debe tener una licencia válida de Office 365, o bien Exchange y Microsoft Teams o Skype empresarial no funcionarán. Si tiene la licencia, debe asignar una ubicación de uso a su cuenta de dispositivo, lo cual determina qué SKU de licencia están disponibles para su cuenta. Puedes usar`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> para recuperar una lista de las SKU disponibles para su organización de Office 365 de la siguiente manera:
+6. La cuenta del dispositivo debe tener una licencia válida de Microsoft 365 o de Office 365, o bien Exchange y Microsoft Teams, o bien Skype empresarial no funcionará. Si tiene la licencia, debe asignar una ubicación de uso a su cuenta de dispositivo, lo cual determina qué SKU de licencia están disponibles para su cuenta. Puedes usar`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> para recuperar una lista de las SKU disponibles para su organización de Microsoft 365 u Office 365 de la siguiente manera:
 
   ``` Powershell
   Get-MsolAccountSku
@@ -195,11 +195,11 @@ Para obtener más información sobre los planes de Skype empresarial online, con
     > [!NOTE]
     > Es posible que no se creen nuevas cuentas de usuario en el mismo grupo de registradores que las cuentas de usuario existentes en el inquilino. El comando anterior evitará errores en la configuración de la cuenta debido a esta situación.
 
-Una vez completados los pasos anteriores para habilitar su cuenta de salas de Microsoft Teams en Microsoft Teams o Skype empresarial online, debe asignar una licencia a un dispositivo de salas de Microsoft Teams. Con el portal administrativo de Office 365, asigne una licencia de Skype empresarial online (plan 2) o de Skype empresarial online (Plan 3) al dispositivo.
+Una vez completados los pasos anteriores para habilitar su cuenta de salas de Microsoft Teams en Microsoft Teams o Skype empresarial online, debe asignar una licencia a un dispositivo de salas de Microsoft Teams. Con el centro de administración de Microsoft 365, asigne una licencia de Skype empresarial online (plan 2) o de Skype empresarial online (Plan 3) al dispositivo.
 
 ### <a name="assign-a-license-to-your-account"></a>Asignar una licencia a su cuenta
 
-1. Inicie sesión como administrador de inquilinos, abra el portal administrativo de Office 365 y haga clic en la aplicación de administrador.
+1. Inicie sesión como administrador de inquilinos, abra el centro de administración de Microsoft 365 y haga clic en la aplicación de administrador.
 
 2. Haga clic en **Usuarios y grupos** y después haga clic en **Agregar usuarios, restablecer contraseñas, y más**.
 
@@ -216,27 +216,27 @@ Una vez completados los pasos anteriores para habilitar su cuenta de salas de Mi
 Comandos de Exchange Online PowerShell:
 
 ``` Powershell
-New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
 
-Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept-AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true
+Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true
 -AdditionalResponse "This is a Rigel room!"
 ```
 
 Comandos de Azure Active Directory PowerShell:
 
 ``` PowerShell
-Set-MsolUser -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOEV"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOPSTN2"
+Set-MsolUser -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
 ```
 
 <!-- 
 ``` PowerShell
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOEV"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOPSTN2"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
 ```  -->
 
 Comando de PowerShell de Skype empresarial:

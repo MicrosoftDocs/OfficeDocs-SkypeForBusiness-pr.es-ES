@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Conozca cuáles son los pasos que hay que seguir para restablecer el Id. de conferencia de reunión de un usuario en Microsoft Teams, y obtenga los vínculos para las herramientas de migración y actualización de reuniones.
-ms.openlocfilehash: 008a479677723dedbfe1923f57358808b16fd9ec
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: fbda2d65868d9f4082ae7b3ee835d0560c609e11
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042457"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666202"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Restablecer un Id. de conferencia para un usuario en Microsoft Teams
 
@@ -50,7 +50,7 @@ Al final de las invitaciones de reunión se incluye un Id. de conferencia dinám
 
     
 > [!NOTE]
-> Después de restablecer el identificador de conferencia, se enviará al usuario un mensaje de correo electrónico con la nueva identificación de conferencia. Este mensaje de correo electrónico se enviará a la dirección de correo electrónico principal, en muchos casos, el buzón de Office 365. El correo electrónico contiene el nuevo identificador de conferencia, los números de teléfono de acceso telefónico (s) predeterminados y las instrucciones para actualizar las reuniones existentes. 
+> Después de restablecer el identificador de conferencia, se enviará al usuario un mensaje de correo electrónico con la nueva identificación de conferencia. Este mensaje de correo electrónico se enviará a la dirección de correo electrónico principal, en muchos casos, en el buzón de Microsoft 365 o de Office 365. El correo electrónico contiene el nuevo identificador de conferencia, los números de teléfono de acceso telefónico (s) predeterminados y las instrucciones para actualizar las reuniones existentes. 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -67,11 +67,11 @@ Al final de las invitaciones de reunión se incluye un Id. de conferencia dinám
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:
+Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas para hacer. To get started with Windows PowerShell, see these topics:
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
     

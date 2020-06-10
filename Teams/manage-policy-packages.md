@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar y administrar paquetes de directivas en Microsoft Teams para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
-ms.openlocfilehash: 62151d9356e414f0f527e597492be685c0067fd0
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 0fc612f4f04e0a57176ac985b40de029d42c5e9e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44412529"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44669417"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Administrar paquetes de directivas en Microsoft Teams
 
@@ -53,10 +53,8 @@ Actualmente, Teams incluye los siguientes paquetes de directivas.
 |Trabajador de información de asistencia sanitaria  |Crea un conjunto de directivas y opciones de directiva que ofrecen a trabajadores de la información como personal de ti, personal de informática, personal de finanzas y funcionarios de cumplimiento, acceso completo a chats, llamadas y reuniones.|
 |Sala de pacientes sanitarios  |Crea un conjunto de directivas y parámetros de directivas que se aplican a las salas de pacientes de su organización de salud.|
 |Usuarios de pequeñas y medianas empresas (voz empresarial) |Crea una directiva de configuración de aplicaciones que incluye las aplicaciones para una experiencia de voz de empresa.|
-|Usuarios de pequeñas y medianas empresas (sin voz empresarial) |Crea un conjunto de directivas y configuraciones de directivas que se aplican a usuarios empresariales pequeños y de tamaño mediano sin ninguna característica de voz de empresa.|
+|Usuarios de pequeñas y medianas empresas (sin voz empresarial) |Crea una directiva de configuración de aplicaciones relevante para los usuarios de equipos empresariales pequeños y de tamaño mediano (experiencia de voz no empresarial).
 |Funcionario de seguridad pública   |Crea un conjunto de directivas y parámetros de directivas que se aplican a los directores de seguridad pública de su organización.|
-
-
 
 > [!NOTE]
 > Agregaremos más paquetes de directivas en versiones futuras de Teams, así que vuelve a consultar la información más actualizada.  

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bea614da76bd61cf7c29b0e8f150f1aac85223a7
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 34502fe9883c98179a6b2e23cd8360ae823c1853
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523163"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666022"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Actualizar desde una implementación local de Skype empresarial a teams
 
@@ -54,7 +54,7 @@ Para obtener más información, consulte [implementar conectividad híbrida entr
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>Paso 2: implementar el viaje de actualización elegido para su organización
 
-Una vez completada la configuración híbrida, puede planear mover los usuarios a Office 365.
+Una vez completada la configuración híbrida, puede planificar mover los usuarios a Microsoft 365 u Office 365.
 
 Para obtener más información, vea:
 
@@ -64,8 +64,8 @@ Para obtener más información, vea:
 
 ## <a name="phone-system-and-teams-upgrade"></a>Actualización de equipos y sistemas telefónicos
 
-La transición de sistemas telefónicos locales a equipos le permitirá aprovechar las ventajas del enrutamiento directo de sistema telefónico ("enrutamiento directo") o los planes de llamadas proporcionadas por Microsoft para Office 365.
+La transición de sistemas telefónicos locales a equipos le permitirá aprovechar las ventajas del enrutamiento directo del sistema telefónico ("enrutamiento directo") o los planes de llamadas proporcionados por Microsoft para Microsoft 365 u Office 365.
 
-Si no usa planes de llamadas en Office 365, necesitará realizar la transición de la implementación de telefonía IP empresarial al enrutamiento de sistema telefónico directo como parte de la actualización a teams.
+Si no usa planes de llamadas, debe realizar la transición de la implementación de telefonía IP empresarial al enrutamiento del sistema telefónico directo como parte de la actualización a teams.
 
-Para obtener más información, consulte [consideraciones adicionales para el enrutamiento directo de un sistema telefónico](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing). Si tiene pensado usar planes de llamadas en Office 365, consulte nuestra guía para [transferir los números de teléfono a teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Para obtener más información, consulte [consideraciones adicionales para el enrutamiento directo de un sistema telefónico](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing). Si tiene pensado usar planes de llamadas, consulte nuestras instrucciones para [transferir los números de teléfono a teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
