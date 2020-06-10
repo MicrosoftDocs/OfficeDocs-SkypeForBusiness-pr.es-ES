@@ -19,14 +19,19 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1ffc082e2990b97781100de2cbffd6d094cc5c9
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 908ed1b8f0baccaa4d4bc69de777ee92b67a4cc7
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281685"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665942"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
+
+> [!NOTE]
+> - Para ver información general sobre cómo realizar la transición al aprendizaje remoto y recursos para ayudarle a empezar, consulte la [**página principal del aprendizaje remoto**](https://www.microsoft.com/education/remote-learning).
+> - Los recursos para ayudar a los profesores y alumnos con el aprendizaje remoto están disponibles en [**Enseñanza y aprendizaje remotos en Office 365 Educación**](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4).
+
 
 Ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Ahora está listo para agregar la carga de trabajo de reuniones, incluyendo [audioconferencias](deploy-audio-conferencing-teams-landing-page.md), vídeo y uso compartido. Este artículo le informará detenidamente de la implementación de las reuniones y las conferencias de audio. Para empezar, vea el vídeo sobre reuniones, conferencias y dispositivos en Teams (3:28 minutos):
 

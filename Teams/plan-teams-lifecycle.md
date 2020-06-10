@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eac771d87003ab00adbe3c99adb1193c4ff12779
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0d142be3a8d5f245cda857601995653d6ca6d240
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638849"
+ms.locfileid: "44665292"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Plan para la administración del ciclo de vida en Teams
 
@@ -41,7 +41,7 @@ Los siguientes conceptos y definiciones influyen en las decisiones que tome para
 
 **Teams**
 
-Un _equipo_ es una colección de personas, contenido y herramientas que facilitan la colaboración. Un equipo define quiénes son sus miembros, y los permisos y directivas que se les aplica. Los equipos se construyen sobre Grupos de Microsoft 365 y los cambios que se realicen en la pertenencia a grupos de Microsoft 365 se sincronizarán con el equipo. Al igual que sucede con otros grupos de Microsoft 365, los equipos vienen aprovisionados automáticamente con un buzón de correo de Exchange, un sitio de SharePoint, un bloc de notas de OneNote y otros activos de Office 365. [Más información sobre Grupos de Microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+Un _equipo_ es una colección de personas, contenido y herramientas que facilitan la colaboración. Un equipo define quiénes son sus miembros, y los permisos y directivas que se les aplica. Los equipos se construyen sobre Grupos de Microsoft 365 y los cambios que se realicen en la pertenencia a grupos de Microsoft 365 se sincronizarán con el equipo. Al igual que sucede con otros grupos de Microsoft 365, los equipos vienen aprovisionados automáticamente con un buzón de correo de Exchange, un sitio de SharePoint, un bloc de notas de OneNote y otros activos de Microsoft 365 u Office 365. [Más información sobre Grupos de Microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 **Canales**
 

@@ -18,17 +18,23 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b22bef34defe69edf4fe330e0afb0f0b93e5e8e6
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0bd7c88a08dfdfa76ad560a56e524b7061d240f1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638529"
+ms.locfileid: "44666282"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introducción a Microsoft Teams para el aprendizaje remoto
 
+Para ver información general sobre cómo realizar la transición al aprendizaje remoto y recursos para ayudarle a empezar, consulte la [página principal del aprendizaje remoto](https://www.microsoft.com/education/remote-learning).
+
+Los recursos para ayudar a los profesores y alumnos con el aprendizaje remoto están disponibles en [Enseñanza y aprendizaje remotos en Office 365 Educación](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4).
+
+En este artículo se explican los pasos que deben seguirse para configurar el centro educativo para el aprendizaje remoto.
+
 > [!NOTE]
-> Este artículo es un gran recurso para preparar su institución educativa para el aprendizaje remoto. Si usted es un profesor, responsable educativo o un profesional de TI, estos recursos pueden ayudarle:
+> Si usted es un profesor, responsable educativo o un profesional de TI, estos recursos pueden ayudarle:
 >
 > - Ponga en marcha Teams en su centro educativo rápidamente con la [**Introducción de una página**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
 > - Descargue [**Empezar a usar Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true): una guía para profesionales de TI con prácticas útiles para la administración de cambios y seguridad.
