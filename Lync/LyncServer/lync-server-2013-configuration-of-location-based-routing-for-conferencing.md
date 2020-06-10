@@ -12,12 +12,12 @@ ms:contentKeyID: 56335088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bc901b9ef1b4b358771427f44d220631e4a40ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f982f6e484412234c75eadaea925b65ee11bcbb
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199023"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691616"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,21 +53,27 @@ Para obtener más información sobre la implementación y la configuración del 
 
 La aplicación de conferencia de enrutamiento basada en ubicación está deshabilitada de forma predeterminada. Antes de habilitar esta aplicación, debe determinar la prioridad correcta que se asignará a la aplicación. Para determinar esta prioridad, ejecute el siguiente cmdlet en el shell de administración de Lync Server:
 
-Get-CsServerApplication-Identity Service: registrar:\<FQDN del grupo de servidores\>
+```powershell
+Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
+```
 
-En este cmdlet, \<el FQDN\> del grupo de servidores es el grupo en el que se habilitará la aplicación de conferencia de enrutamiento basada en ubicación.
+En este cmdlet, \<Pool FQDN\> es el grupo en el que se habilitará la aplicación de conferencia de enrutamiento basada en ubicación.
 
 Este cmdlet devolverá la lista de las aplicaciones hospedadas en Lync Server y el valor de prioridad de cada una de ellas. La aplicación de conferencia de enrutamiento basada en ubicación debe tener asignado un valor de prioridad mayor que el de la aplicación "UdcAgent" y menor que el de las aplicaciones "DefaultRouting", "ExumRouting" y "OutboundRouting". Le recomendamos que asigne la aplicación de conferencia de enrutamiento basada en ubicación un valor de prioridad que sea un punto superior al valor de prioridad de la aplicación "UdcAgent".
 
-Por ejemplo, si la aplicación "UdcAgent" tiene un valor de prioridad de "2", la aplicación "DefaultRouting" tiene un valor de prioridad de "8", la aplicación "ExumRouting" tiene un valor de prioridad de "9" y la aplicación "OutboundRouting" tiene un valor de prioridad de "10" y, a continuación, debe asignar a la aplicación de conferencia de enrutamiento basada en ubicación un valor de prioridad de "3". Si lo hace, se colocará la prioridad de las aplicaciones en el siguiente orden: otras aplicaciones (prioridades: 0 a 1), "UdcAgent" (prioridad: 2), aplicación de conferencia de enrutamiento basada en ubicación (prioridad: 3), otras aplicaciones (prioridades: 4 a 8), " DefaultRouting "(prioridad: 9)," ExumRouting "(prioridad: 10) y" OutboundRouting "(prioridad: 11).
+Por ejemplo, si la aplicación "UdcAgent" tiene un valor de prioridad de "2", la aplicación "DefaultRouting" tiene un valor de prioridad de "8", la aplicación "ExumRouting" tiene un valor de prioridad de "9" y la aplicación "OutboundRouting" tiene un valor de prioridad de "10", debe asignar a la aplicación de conferencia de enrutamiento basada Si lo hace, se colocará la prioridad de las aplicaciones en el siguiente orden: otras aplicaciones (prioridades: 0 a 1), "UdcAgent" (prioridad: 2), aplicación de conferencia de enrutamiento basada en ubicación (prioridad: 3), otras aplicaciones (prioridades: 4 a 8), "DefaultRouting" (prioridad: 9), "ExumRouting" (prioridad: 10) y "OutboundRouting" (prioridad: 11).
 
 Una vez que haya encontrado el valor de prioridad correcto para la aplicación de conferencia de enrutamiento basada en ubicación, escriba el siguiente cmdlet para cada grupo de servidores front-end o servidor Standard Edition que aloje a los usuarios habilitados para el enrutamiento basado en ubicación:
 
-New-CsServerApplication-Identity Service: registrar:\<FQDN\>del grupo de/LBRouting \<-priority Application priority\> Enabled $true-URI $true-URIhttps://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 Por ejemplo:
 
-New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool. contoso. com/LBRouting-Priority 3-Enabled $true-URI $true-URIhttps://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 Después de usar este cmdlet, reinicie todos los servidores front-end en el grupo o los servidores Standard Edition donde se haya habilitado la aplicación de conferencia de enrutamiento basada en ubicación.
 
