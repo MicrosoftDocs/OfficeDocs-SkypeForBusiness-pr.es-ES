@@ -40,7 +40,7 @@ ms.locfileid: "44637049"
 
 ### <a name="why-is-microsoft-teams-replacing-skype-for-business-online"></a>¿Por qué Microsoft Teams va a reemplazar Skype Empresarial Online?
 
-Microsoft Teams amplía las capacidades de Skype Empresarial Online al integrar archivos, chats y aplicaciones en una sola aplicación, con una funcionalidad que permite a las organizaciones moverse más rápido y colaborar de forma más eficaz. Esta variedad de experiencias integradas que ofrece Teams, es la razón por la que reemplazará Skype Empresarial como el cliente de comunicaciones principal para Microsoft 365 y Office 365.
+Microsoft Teams amplía las capacidades de Skype Empresarial Online al integrar archivos, chats y aplicaciones en una sola aplicación, con una funcionalidad que permite a las organizaciones moverse más rápido y colaborar de forma más eficaz. Esta variedad de experiencias integradas que ofrece Teams, es la razón por la que reemplazará a Skype Empresarial como cliente de comunicaciones principal para Microsoft 365 y Office 365.
 
 ### <a name="when-is-the-retirement-of-skype-for-business-online"></a>¿Cuándo se procederá a retirar Skype Empresarial Online?
 
