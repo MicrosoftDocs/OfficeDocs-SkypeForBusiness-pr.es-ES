@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcc9aa13f80a090d65bd51c00b797c2a2ad63c61
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: fc1619a751bc6e800ac038486b844de748c6b0b6
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523333"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691046"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprender Microsoft Teams y la coexistencia e interoperabilidad de Skype empresarial
 
@@ -54,7 +54,7 @@ Le recomendamos que revise los siguientes modos de coexistencia para determinar 
 
 ### <a name="islands-mode"></a>Modo islas
 
-De forma predeterminada, los usuarios pueden ejecutar equipos junto con Skype empresarial como dos soluciones independientes que ofrecen capacidades similares y superpuestas, como presencia, chat, llamadas y reuniones. Los usuarios de Teams también pueden aprovechar las nuevas capacidades de colaboración, como los equipos y los canales, el acceso a los archivos de Office 365 y las aplicaciones.
+De forma predeterminada, los usuarios pueden ejecutar equipos junto con Skype empresarial como dos soluciones independientes que ofrecen capacidades similares y superpuestas, como presencia, chat, llamadas y reuniones. Los usuarios de Teams también pueden aprovechar las nuevas capacidades de colaboración, como los equipos y los canales, el acceso a los archivos de Microsoft 365 u Office 365 y las aplicaciones.
 
 En este modo de coexistencia, denominado **islas**, cada una de las aplicaciones cliente funciona como una isla independiente. Skype empresarial habla con Skype empresarial y Teams se comunica con Teams. Se espera que los usuarios ejecuten ambos clientes en todo momento y se puedan comunicar de forma nativa en el cliente desde el que se inició la comunicación. Por lo tanto, no hay necesidad de interoperabilidad en el modo **islas** .
 
@@ -91,7 +91,7 @@ Para obtener más información sobre cómo cambiar al modo **solo de Teams** , v
 
 ### <a name="skype-for-business-with-teams-collaboration"></a>Skype empresarial con colaboración de Teams
 
-Use este modo para presentar equipos en su entorno mientras continúa aprovechando la inversión existente en Skype empresarial. En este modo, no se cambia Skype empresarial para las funciones de chat, llamadas y reuniones, y usted agrega capacidades de colaboración de Teams: equipos y canales, acceso a archivos de Office 365 y aplicaciones. Las capacidades de comunicaciones de Teams (conversación privada, llamadas y programación de reuniones) están desactivadas de forma predeterminada en este modo.
+Use este modo para presentar equipos en su entorno mientras continúa aprovechando la inversión existente en Skype empresarial. En este modo, no se cambia Skype empresarial para las funciones de chat, llamadas y reuniones, y usted agrega capacidades de colaboración de Teams: equipos y canales, acceso a los archivos de Microsoft 365 u Office 365 y aplicaciones. Las capacidades de comunicaciones de Teams (conversación privada, llamadas y programación de reuniones) están desactivadas de forma predeterminada en este modo.
 
 Las organizaciones con un punto de partida de Skype empresarial Server local o híbrido deben considerar este modo como alternativa al modo **islas** si desean ofrecer a sus usuarios la interoperabilidad y la predicción de las comunicaciones, así como disponer de un calendario predecible para su actualización a Teams (en lugar de confiar en la saturación de la adopción en el modo **islas** ).
 
@@ -142,7 +142,7 @@ Los usuarios de Skype empresarial pueden hacer llamadas y videollamadas individu
 <!--![Screen shot of Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> Las experiencias de interoperabilidad con una implementación local de Skype empresarial requieren que el entorno local esté en modo híbrido con Office 365 Skype empresarial. Para obtener más información, consulte [Guía de migración e interoperabilidad](https://aka.ms/SkypeToTeams-Interop).
+> Las experiencias de interoperabilidad con una implementación local de Skype empresarial requieren que el entorno local esté en modo híbrido con Microsoft 365 u Office 365 Skype empresarial. Para obtener más información, consulte [Guía de migración e interoperabilidad](https://aka.ms/SkypeToTeams-Interop).
 
 Estas experiencias de interoperabilidad están disponibles para los usuarios que tienen uno de los siguientes modos de coexistencia: **Skype empresarial con colaboración de Teams**, **Skype empresarial con colaboración y reuniones de Teams**, **solo Skype**empresarial o solo para **equipos**. No hay ninguna interoperabilidad para los usuarios en el modo **islas** .
 

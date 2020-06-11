@@ -23,16 +23,16 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Aprenda a configurar planes de llamadas, como ver planes disponibles en su región, comprar & asignar licencias, obtener números de teléfono y agregar direcciones de emergencia & ubicaciones.
-ms.openlocfilehash: 84dbff3ed660f6d436f01f0737141d8b261c1318
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 97d0a29068acbb645018d7a3b76867e93d9804cd
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666242"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691086"
 ---
 # <a name="set-up-calling-plans"></a>Configurar las llamadas RTC en Skype Empresarial
 
-Las llamadas a otros usuarios de equipos son gratuitas, pero si desea que los usuarios puedan llamar a teléfonos fuera de su empresa, obtenga un plan de llamadas nacionales o un plan de llamadas internacionales en Office 365. Es fácil configurar planes de llamadas para tu empresa.  Para obtener más información acerca de los planes de llamadas, vea [¿qué plan de llamadas es adecuado para usted?](calling-plan-landing-page.md).
+Las llamadas a otros usuarios de equipos son gratis, pero si desea que los usuarios puedan llamar a teléfonos fuera de su empresa, obtenga un plan de llamadas nacionales o un plan de llamadas internacionales en Microsoft 365 u Office 365. Es fácil configurar planes de llamadas para tu empresa.  Para obtener más información acerca de los planes de llamadas, vea [¿qué plan de llamadas es adecuado para usted?](calling-plan-landing-page.md).
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Paso 1: averiguar si los planes de llamadas están disponibles en su país o región
 Vaya a [disponibilidad de países y regiones para las conferencias de audio y los planes de llamadas](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) y seleccione su país o región para obtener información sobre la disponibilidad de los planes de llamadas, así como información sobre la audioconferencia, el sistema telefónico, los números gratuitos y de pago, y los créditos de comunicaciones.
@@ -40,10 +40,10 @@ Vaya a [disponibilidad de países y regiones para las conferencias de audio y lo
 Si los planes de llamadas no están disponibles en su país o región, considere la posibilidad de usar el enrutamiento directo para conectar la infraestructura de telefonía local con el sistema telefónico.  Para obtener más información, consulte [enrutamiento directo de sistema telefónico](direct-routing-landing-page.md).
   
 ## <a name="step-2-buy-and-assign-licenses"></a>Paso 2: comprar y asignar licencias
-1. If the Phone System in Office 365 feature isn't included in your plan, you may need to purchase **Phone System** add-on licenses. Una vez que tenga licencias de **sistema telefónico** , compre [planes de llamadas para Office 365](calling-plans-for-office-365.md). Consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)y compre las licencias y el plan. 
+1. Si la característica del sistema telefónico no está incluida en su plan de Microsoft 365 u Office 365, es posible que tenga que comprar licencias de complemento de **sistema telefónico** . Una vez que tenga licencias de **sistema telefónico** , compre [planes de llamadas para Microsoft 365 u Office 365](calling-plans-for-office-365.md). Consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)y compre las licencias y el plan. 
     
     > [!TIP]
-    > **Phone System** licenses and Calling Plans in Office 365 go together, so to see the option to purchase Calling Plans, you must first have the **Phone System** licenses.
+    > Las licencias **del sistema telefónico** y los planes de llamadas en Microsoft 365 u Office 365 juntos, para ver la opción de comprar planes de llamadas, primero debe tener las licencias **del sistema telefónico** .
   
 2. First assign the licenses, and then assign a Calling Plan to the people in your organization. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
@@ -52,7 +52,7 @@ Hay tres maneras de obtener nuevos números de usuario:
 
 - **Use el centro de administración de Teams.** Para algunos países o regiones, puede obtener números para sus usuarios con el centro de administración de Teams, vea [obtener números de teléfono para los usuarios](getting-phone-numbers-for-your-users.md).
     
-- **Portar los números existentes.** Puede transferir los números existentes de su actual proveedor de servicios o de su compañía telefónica a Office 365. Para obtener más información, consulte [transferir números de teléfono a teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) o [administrar números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
+- **Portar los números existentes.** Puede migrar o transferir números existentes de su proveedor de servicios o de su operador telefónico actual a Microsoft 365 u Office 365. Para obtener más información, consulte [transferir números de teléfono a teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) o [administrar números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
   
 - **Usar un formulario de solicitud para números nuevos.** A veces, en función de su país o región, no podrá obtener números de teléfono nuevos con el centro de administración de Teams o necesitará números de teléfono o códigos de área específicos. Si es así, tendrá que descargar un formulario y enviárselo de nuevo a nosotros. Para obtener más información, consulte [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 

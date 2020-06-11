@@ -22,13 +22,13 @@ ms.custom:
 - Audio Conferencing
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
-description: 'Descubra cómo probar o comprar licencias de audioconferencia (conferencia RTC) para Office 365 con el fin de configurar llamadas de conferencia a las que la gente pueda acceder. '
-ms.openlocfilehash: 26b7074407759533d2ac272371e34c9022dd6ce5
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+description: 'Vea cómo probar o comprar licencias de conferencias de audio (conferencias RTC) para Microsoft 365 u Office 365 para configurar llamadas en conferencia a las que los usuarios pueden llamar. '
+ms.openlocfilehash: db49a690ef0936dc22a618756d15064543074137
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041777"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691546"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Probar o comprar conferencias de audio en Microsoft 365 para Microsoft Teams
 
@@ -52,7 +52,7 @@ Debe ser [administrador global o administrador de facturación](https://support.
 
    - **Comprarlo**: vea [licencias de complementos de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-3. [Asignar o cancelar licencia para Office 365 para empresas](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) que haya comprado a las personas de su organización que vayan a programar o coordinar reuniones.
+3. [Agregue usuarios de forma individual o en bloque](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) adquirido a las personas de su organización que van a programar o coordinar reuniones.
 
 4. Si compró licencias de complemento de audioconferencia y licencias de crédito de comunicaciones, asígnelos también. Para obtener instrucciones, consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
@@ -69,7 +69,7 @@ Si es cliente de Volumen y licencias, puede obtener licencias de audioconferenci
     > [!IMPORTANT]
     > Si no se han configurado los créditos de comunicaciones, la audioconferencia no funcionará para ningún usuario con licencias de pago por minuto.
 
-4. [Asignar o cancelar licencia para Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) que haya comprado a las personas de su organización que vayan a programar o coordinar reuniones.
+4. [Agregue usuarios de forma individual o en bloque](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) adquirido a las personas de su organización que van a programar o coordinar reuniones.
 
     > [!NOTE]
     > Si tiene licencias de audioconferencia con pago por minuto, no tiene que asignar licencias de créditos de comunicaciones por separado a cada usuario específicamente para el uso de las audioconferencias (es posible que tenga que asignarlas para otros servicios).

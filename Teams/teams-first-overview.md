@@ -11,33 +11,33 @@ ms.collection:
 ms.reviewer: lsomi
 localization_priority: Normal
 search.appverid: MET150
-description: Use esta guía para implementar Microsoft Teams como la primera carga de trabajo de Office 365.
+description: Use esta guía para implementar Microsoft Teams como la primera carga de trabajo de Microsoft 365 u Office 365.
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 647f6879f7892c1a65599832e48deb67e183fae0
-ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
+ms.openlocfilehash: 84408fdb6d58e755d0eb4c775d1954f22791264c
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44472351"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691006"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Implementar Microsoft Teams en primer lugar
 
-Microsoft Teams puede ayudar a sus empleados a permanecer en contacto y colaborar entre ellos, especialmente en el momento actual, en el que el trabajo remoto es una realidad de los empleados de todo el mundo. Poder chatear, hacer reuniones de video y colaborar en documentos de Office dentro de Teams puede ayudar a que las empresas sigan siendo productivas. Si es una pequeña empresa, una organización sin ánimo de lucro o de gran tamaño, puede empezar a trabajar con Teams como la primera carga de trabajo de Office 365 Suite antes de implementar cualquier otra aplicación o servicio de Office.
+Microsoft Teams puede ayudar a sus empleados a permanecer en contacto y colaborar entre ellos, especialmente en el momento actual, en el que el trabajo remoto es una realidad de los empleados de todo el mundo. Poder chatear, hacer reuniones de video y colaborar en documentos de Office dentro de Teams puede ayudar a que las empresas sigan siendo productivas. Si es una pequeña empresa, una organización sin ánimo de lucro o de gran tamaño, puede empezar a trabajar con Teams como la primera carga de trabajo de Microsoft 365 u Office 365 Suite antes de implementar cualquier otra aplicación o servicio de Office.
 
 Este artículo detalla las consideraciones que debe tomar con el método "Team First".
 
 > [!IMPORTANT]
 > Aunque los equipos pueden ser la primera carga de trabajo implementada en la nube de su organización, la implementación de equipos debe formar parte de la estrategia general de implementación en la nube.
 
-Si ya ha implementado otros servicios de Office 365 y Teams es la siguiente carga de trabajo que debe implementar (en lugar de la primera), empiece con [cómo implementar Teams](How-to-roll-out-teams.md).
+Si ya ha implementado otros servicios de Microsoft 365 u Office 365 y Teams es la siguiente carga de trabajo que debe implementar (en lugar de la primera), empiece con [cómo implementar Teams](How-to-roll-out-teams.md).
 
 ## <a name="start-here"></a>Empiece aquí
 
 Para empezar a usar su primer despliegue de Teams, deberá cumplir con un mínimo de requisitos previos. En la siguiente lista se mostrará lo que debe tener en el lugar de su organización antes de que se puedan habilitar los equipos:
 
-1.  Una organización de Office 365 configurada con el nombre de dominio
+1.  Una organización de Microsoft 365 u Office 365 configurada con el nombre de dominio
 
 2.  Conectividad de Azure Active Directory (AAD Connect) o solución de sincronización de identidad de nube similar, con todos los atributos obligatorios sincronizados con su espacio empresarial  
     Para comprender los atributos sincronizados con AAD Sync, lea [sincronización de Azure ad Connect: atributos sincronizados en Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
@@ -48,7 +48,7 @@ Para empezar a usar su primer despliegue de Teams, deberá cumplir con un mínim
 4.  Red de la organización preparada para Teams  
     Para comprender la preparación de la red, lea [preparar la red de su organización para Teams](prepare-network.md).
 
-5.  Permitir el acceso de red a Exchange, SharePoint y OneDrive para la empresa en Office 365: [direcciones URL e intervalos de direcciones IP de office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+5.  Permitir el acceso de red a Exchange, SharePoint y OneDrive para la empresa en Microsoft 365 u Office 365: [office 365 direcciones URL e intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!NOTE]
 > Los inquilinos creados después del 1 de septiembre de 2019 se aprovisionan en el modo solo de Teams.
@@ -58,7 +58,7 @@ Para empezar a usar su primer despliegue de Teams, deberá cumplir con un mínim
 
 ## <a name="migration-starting-points"></a>Puntos de partida de migración
 
-Su viaje a Office 365 y las características disponibles en Teams según su punto de partida y la existencia de Skype empresarial local o Lync Server. En las siguientes secciones, se detallan las características básicas y las opciones de configuración, además de los requisitos previos anteriores. Hemos desglosado los escenarios de punto de partida en los siguientes temas:
+Su viaje a Microsoft 365 u Office 365 y las características disponibles en Teams según su punto de partida y la existencia de Skype empresarial local o Lync Server. En las siguientes secciones, se detallan las características básicas y las opciones de configuración, además de los requisitos previos anteriores. Hemos desglosado los escenarios de punto de partida en los siguientes temas:
 
 **Configuración de equipos de inquilino**: los modos de inquilino y usuario se usan para controlar el comportamiento del destinatario. Esta configuración se puede asignar en el nivel de espacio empresarial o en el nivel de usuario de una organización. Para obtener más información, lea [coexistencia con Skype empresarial](coexistence-chat-calls-presence.md).
 
@@ -88,7 +88,7 @@ Lea [cómo interactúan Exchange y Microsoft Teams](exchange-teams-interact.md) 
 
 ## <a name="organizations-span-classunderlinewithoutspan-skype-for-business-or-lync-server"></a>Organizaciones **<span class="underline">sin</span>** Skype empresarial o Lync Server
 
-Este punto de partida supone que su organización no utiliza actualmente Skype empresarial o Lync Server, y que Teams será su primera aplicación en Office 365. En la siguiente tabla, se detallan las capacidades de configuración y de usuario final de los equipos de los servicios básicos.
+Este punto de partida supone que su organización no utiliza actualmente Skype empresarial o Lync Server, y que Teams será su primera aplicación en Microsoft 365 u Office 365. En la siguiente tabla, se detallan las capacidades de configuración y de usuario final de los equipos de los servicios básicos.
 
 <table>
 <thead>
@@ -104,9 +104,9 @@ Este punto de partida supone que su organización no utiliza actualmente Skype e
 </tr>
 <tr class="even">
 <td>Chat/comunicación externa en Teams</td>
-<td><p>Comunicación interna (organización 365 dentro de la oficina) y conversación externa posible desde Teams</p>
-<p><em>Nota: las entradas DNS deben configurarse para acceso externo. Los registros DNS de Skype empresarial son necesarios incluso si no tiene Skype empresarial local o en Office 365 para permitir la Federación con entornos de Lync y Skype empresarial.<br />
-<a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">Registros del sistema de nombres de dominio externo para Office 365</a></em></p></td>
+<td><p>Comunicaciones internas (dentro de la organización intra365 o de Office 365) y conversaciones externas posibles de los equipos</p>
+<p><em>Nota: las entradas DNS deben configurarse para acceso externo. Los registros DNS de Skype empresarial son necesarios incluso si no tiene Skype empresarial local o en Microsoft 365 u Office 365, para permitir la Federación con entornos Lync y Skype empresarial.<br />
+<a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">Registros del sistema de nombres de dominio externo</a></em></p></td>
 </tr>
 <tr class="odd">
 <td><em>Crear y ver reuniones en Teams</em></td>
@@ -162,11 +162,11 @@ Más información aquí: <a href="https://docs.microsoft.com/microsoftteams/admi
     
     [Lista de comprobación para el inicio rápido de la adopción de Microsoft Teams](teams-adoption-quick-start-checklist.md)
 
-6.  Empezar a planear el movimiento de otras cargas de trabajo a Office 365
+6.  Empezar a planificar el movimiento de otras cargas de trabajo a Microsoft 365 u Office 365
 
 ## <a name="organizations-span-classunderlinewithspan-skype-for-business-or-lync-server"></a>Organizaciones **<span class="underline">con</span>** Skype empresarial o Lync Server
 
-Este punto de partida supone que su organización utiliza los servidores de Skype empresarial 2019, 2015 + o Lync 2013 + Server. Ya contamos con amplias instrucciones para las organizaciones que migran de servidores locales a equipos y que deben seguirse en estos escenarios. Esta guía es específica del escenario en el que Teams es la primera aplicación que se usa en Office 365. En la siguiente tabla, se detallan las capacidades de configuración y de usuario final de los equipos de los servicios básicos.
+Este punto de partida supone que su organización utiliza los servidores de Skype empresarial 2019, 2015 + o Lync 2013 + Server. Ya contamos con amplias instrucciones para las organizaciones que migran de servidores locales a equipos y que deben seguirse en estos escenarios. Esta guía es específica del escenario en el que Teams es la primera aplicación que se usa en Microsoft 365 u Office 365. En la siguiente tabla, se detallan las capacidades de configuración y de usuario final de los equipos de los servicios básicos.
 
 <table>
 <thead>
@@ -244,7 +244,7 @@ Más información aquí: <a href="https://docs.microsoft.com/microsoftteams/admi
     [Adoptar Microsoft Teams](adopt-microsoft-teams-landing-page.md)<br/>
     [Lista de comprobación para el inicio rápido de la adopción de Microsoft Teams](teams-adoption-quick-start-checklist.md)
 
-6.  Empezar a planear el movimiento de otras cargas de trabajo a Office 365
+6.  Empezar a planificar el movimiento de otras cargas de trabajo a Microsoft 365 u Office 365
 
 7.  Establecer una implementación híbrida de Skype empresarial y seguir las rutas de actualización recomendadas para servidores de Skype empresarial y Lync  
     [Actualizar de Skype empresarial local a teams](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md)
@@ -275,7 +275,7 @@ Además, como empresas de todo el mundo están administrando la situación actua
 
 ## <a name="support-services-reference"></a>Referencia de servicios de soporte técnico
 
-Teams depende de los grupos de Exchange Online, SharePoint Online, OneDrive para la empresa y Microsoft 365 para ofrecer a los usuarios una experiencia de Office 365 totalmente integrada. Como se indicó anteriormente, Teams trabajará sin la total implementación de estos servicios, con capacidades limitadas. Puede obtener más información sobre Teams y sus requisitos previos aquí: [Bienvenido a teams](teams-overview.md).
+Teams depende de los grupos de Exchange Online, SharePoint Online, OneDrive para la empresa y Microsoft 365 para ofrecer a los usuarios una experiencia de Microsoft 365 o de Office 365 totalmente integrada. Como se indicó anteriormente, Teams trabajará sin la total implementación de estos servicios, con capacidades limitadas. Puede obtener más información sobre Teams y sus requisitos previos aquí: [Bienvenido a teams](teams-overview.md).
 
 Para obtener información específica sobre cada uno de los servicios mencionados anteriormente, sigue los siguientes vínculos:
 
@@ -297,4 +297,4 @@ Para obtener información específica sobre cada uno de los servicios mencionado
 
 [Soporte técnico de trabajadores remotos con Teams](support-remote-work-with-teams.md)
 
-[ Trabajar a distancia con Office 365 ](https://aka.ms/remote-work)
+[Trabajar de forma remota con Microsoft 365](https://aka.ms/remote-work)

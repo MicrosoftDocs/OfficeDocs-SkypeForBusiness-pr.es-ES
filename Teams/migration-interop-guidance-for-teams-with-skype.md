@@ -20,19 +20,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56029dc8f1cb5a9cb99096107d85a6414dc4ed25
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 77cee207d885299e6f8a1a90f889c9f661c7383e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638629"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691446"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial
 
 > [!Tip] 
-> Vea la siguiente sesión para obtener información sobre [Coexistencia e interoperabilidad](https://aka.ms/teams-upgrade-coexistence-interop)
+> Mire la siguiente sesión para obtener información sobre la [coexistencia y la interoperabilidad](https://aka.ms/teams-upgrade-coexistence-interop).
 
 Cuando una organización con Skype Empresarial comienza a adoptar Teams, los administradores pueden administrar la experiencia del usuario en su organización utilizando el concepto de "modo" de coexistencia, que es propiedad de TeamsUpgradePolicy. Usando el modo, los administradores pueden administrar la interoperabilidad y la migración a medida que administren la transición de Skype Empresarial a Teams.  El modo de usuario determina en qué cliente los chats y llamadas entrantes llegan, así como en qué servicio (Teams o Skype Empresarial) se programan nuevas reuniones. También controla la funcionalidad que está disponible en el cliente de Teams. 
+
+> [!IMPORTANT]
+> Puede demorar hasta 24 horas en que un cambio en TeamsUpgradePolicy surta efecto. Antes de entonces, el estado de presencia del usuario puede no ser correcto (puede mostrarse como **desconocido**).
 
 
 ## <a name="fundamental-concepts"></a>Conceptos básicos
@@ -50,7 +53,7 @@ Cuando una organización con Skype Empresarial comienza a adoptar Teams, los adm
 
 5.  La interoperabilidad entre usuarios de Teams y Skype Empresarial solo es posible *si el usuario de Teams se ha alojado en línea en Skype Empresarial*. El usuario de Skype Empresarial se puede alojar de forma local (y necesita configurar Skype Empresarial Hybrid) o en línea. Los usuarios alojados en Skype Empresarial local pueden usar Teams en el modo Aplicaciones aisladas (definido más adelante en este documento), pero no pueden usar Teams para interoperar o federarse con otros usuarios que usan Skype Empresarial.  
 
-6.    El comportamiento de la actualización y la interoperabilidad se determina en función del modo de coexistencia de un usuario, que se describe más adelante. El modo lo administra TeamsUpgradePolicy. 
+6.    El comportamiento de actualización e interoperabilidad se determina en función del modo de coexistencia de un usuario, que se describe a continuación. El modo lo administra TeamsUpgradePolicy. 
 
 7.  Actualizar un usuario al modo de TeamsOnly garantiza que todas las llamadas y las llamadas entrantes siempre llegarán al cliente Teams del usuario, independientemente de cuál sea su origen. Estos usuarios también programarán todas las reuniones nuevas en Teams. Para estar en el modo TeamsOnly, es necesario que un usuario se haya alojado en línea en Skype Empresarial. Esto es necesario para asegurar la interoperabilidad, la federación y la administración completa del usuario de Teams. Para actualizar un usuario a TeamsOnly:
     - Si el usuario se ha alojado en Skype Empresarial Online (o nunca tuvo una cuenta de Skype), concédales TeamsUpgradePolicy con el modo = TeamsOnly con la instancia de "UpgradeToTeams" mediante PowerShell, o bien use el centro de administración de Teams para seleccionar el modo TeamsOnly.
@@ -86,7 +89,7 @@ Los modos se muestran a continuación.
 
 |Modo|Llamada y chat|Programación de reuniones<sup>1</sup>|Equipos y canales|Caso de uso|
 |---|---|---|---|---|
-|**TeamsOnly<sup>2</sup>**</br>*Requiere inicio en Skype Empresarial Online*|Teams|Teams|Sí|Estado final de la actualización. También es el valor predeterminado para los nuevos espacios empresariales.|
+|**TeamsOnly<sup>2</sup>**</br>*Requiere inicio en Skype Empresarial Online*|Microsoft Teams|Teams|Sí|Estado final de la actualización. También es el valor predeterminado para los nuevos espacios empresariales.|
 |Aplicaciones aisladas|Ambos|Ambos|Sí|Configuración predeterminada. Permite a un solo usuario evaluar los dos clientes en paralelo. Los chats y las llamadas pueden llegar a cualquier cliente, de modo que los usuarios siempre deban ejecutar ambos clientes. Para evitar que su experiencia de uso de Skype Empresarial sea confusa o un retroceso, las comunicaciones externas (federadas), Skype Empresarial sigue manejando las comunicaciones externas (federadas), los servicios de voz PSTN y las aplicaciones de voz, la integración de Office y varias otras integraciones.|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype Empresarial|Teams|Sí|"Reuniones primero". Principalmente para que las organizaciones locales se beneficien de la funcionalidad de reunión de Teams, si aún no están listas para mover las llamadas a la nube.|
 |SfBWithTeamsCollab|Skype Empresarial|Skype Empresarial|Sí|El punto de partida alternativo para las organizaciones complejas que necesitan un control administrativo más estricto.|
@@ -107,6 +110,9 @@ Los modos se muestran a continuación.
 
 
 ## <a name="teamsupgradepolicy-managing-migration-and-co-existence"></a>TeamsUpgradePolicy: administración de la migración y la coexistencia
+
+> [!IMPORTANT]
+> Puede demorar hasta 24 horas en que un cambio en TeamsUpgradePolicy surta efecto. Antes de entonces, el estado de presencia del usuario puede no ser correcto (puede mostrarse como **desconocido**).
 
 TeamsUpgradePolicy muestra dos propiedades clave: NotifySfbUsers y modo. 
 </br>

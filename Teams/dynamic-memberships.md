@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc7e3124ec3ec97e3f3643412ccb4f990ab825cc
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 24268206ee4f325d3b80f315f1125cfff5d0fbad
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638409"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691596"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Información general sobre la pertenencia dinámica para los equipos
 
@@ -43,13 +43,13 @@ Microsoft Teams puede tardar desde unos minutos hasta 2 horas en reflejar los ca
 > - Los propietarios no podrán agregar o quitar usuarios como miembros del equipo, ya que los miembros se definen mediante reglas de grupo dinámicas.
 > -    Los miembros no podrán dejar equipos respaldados por grupos dinámicos.
 
-
 ## <a name="creating-and-managing-a-microsoft-365-group-with-dynamic-membership"></a>Crear y administrar un grupo de Microsoft 365 con pertenencia dinámica
+
 Cuando haya iniciado sesión como administrador de inquilinos, siga las instrucciones de [crear un grupo dinámico y comprobar el estado](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Según sea necesario, consulte [reglas de pertenencia dinámica para grupos en Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).
 
-## <a name="create-a-new-team-with-your-o365-group"></a>Crear un equipo nuevo con el grupo de O365
+## <a name="create-a-new-team-with-your-microsoft-365-group"></a>Crear un nuevo equipo con el grupo de Microsoft 365
 
-Ahora deje que se apliquen los cambios de pertenencia y cree un equipo nuevo tal y como se describe en [mejorar grupos existentes de microsoft 365 con Microsoft Teams](enhance-office-365-groups.md).
+Ahora deje que el tiempo para que los cambios de pertenencia surtan efecto y cree un equipo nuevo tal y como se describe en [crear un equipo a partir de un grupo existente](https://support.microsoft.com/en-us/office/create-a-team-from-an-existing-group-24ec428e-40d7-4a1a-ab87-29be7d145865).
 
 ## <a name="apply-dynamic-membership-to-an-existing-team"></a>Aplicar pertenencia dinámica a un equipo existente
 

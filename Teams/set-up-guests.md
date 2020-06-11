@@ -17,22 +17,22 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e434a85693226252ecef2a5b4c251024524e698f
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 43965ef0b32551a9b4d5030b762d8fe0c53abcc4
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326567"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690056"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Active o desactive el acceso de invitado a Microsoft Teams
 ===================================================
 
-Por defecto, el acceso de invitados está desactivado. Como administrador de Office 365, debe activar el acceso de invitados para equipos antes de que los propietarios del equipo o administrador puedan agregar invitados. Para activar el acceso de invitados, use la [lista de comprobación de acceso de invitados](guest-access-checklist.md). 
+Por defecto, el acceso de invitados está desactivado. Como administrador de Microsoft 365 o de Office 365, debe activar el acceso de invitados para equipos antes de que los propietarios del equipo o administrador puedan agregar invitados. Para activar el acceso de invitados, use la [lista de comprobación de acceso de invitados](guest-access-checklist.md). 
 
 Después de activar el acceso de invitado, los cambios pueden demorar algunas horas en surtir efecto. Si un usuario ve el mensaje "Póngase en contacto con el administrador" cuando intenta agregar un invitado a su equipo, es posible que el acceso de invitado no se haya activado o que la configuración aún no sea efectiva.
 
 > [!IMPORTANT]
-> Activar el acceso de invitados depende de la configuración de Azure Active Directory, Office 365, SharePoint Online y Teams. Para obtener más información, consulte [autorizar el acceso de invitados en Teams](Teams-dependencies.md).
+> Activar el acceso de invitados depende de la configuración de Azure Active Directory, Microsoft 365 u Office 365, SharePoint Online y Teams. Para obtener más información, consulte [autorizar el acceso de invitados en Teams](Teams-dependencies.md).
 
 
 

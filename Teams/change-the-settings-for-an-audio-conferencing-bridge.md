@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: Cambiar la configuración del puente de audioconferencia, incluidas las notificaciones de entrada y salida, reproducir nombres o números de teléfono, tonos y pedir a las personas que llaman para que graben su nombre.
-ms.openlocfilehash: 48028ccb3f2a0664f9fa724ec91e1dfc0177326f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acebe42e8dbc5707238975c34ce97961c1493d91
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780349"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690916"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de Audioconferencias.
 
-Al configurar las conferencias de audio en Office 365, recibirá números de teléfono para los usuarios de lo que se denomina un puente de audioconferencia. Un puente de conferencia puede contener uno o más números de teléfono. Estos números de teléfono se usan cuando las personas que llaman llaman a una reunión. El número de teléfono se incluye en la parte inferior de la invitación a una reunión de Skype empresarial o de Microsoft Teams.
+Al configurar las conferencias de audio en Microsoft 365 u Office 365, recibirá números de teléfono para los usuarios de lo que se denomina un puente de audioconferencia. Un puente de conferencia puede contener uno o más números de teléfono. Estos números de teléfono se usan cuando las personas que llaman llaman a una reunión. El número de teléfono se incluye en la parte inferior de la invitación a una reunión de Skype empresarial o de Microsoft Teams.
   
 El puente de conferencia responde a una llamada y le pide a la persona que llama con un operador automático de la reunión y, a continuación, en función de la configuración, puede reproducir notificaciones, pedir a los participantes que graben su nombre y controlar la configuración del PIN. Los PIN se otorgan a los organizadores de reuniones para que puedan iniciar una reunión cuando no estén usando una aplicación de Skype empresarial o Microsoft Teams.
 
@@ -45,7 +45,7 @@ El puente de conferencia responde a una llamada y le pide a la persona que llama
 
 ## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) Usar el centro de administración de Microsoft Teams
 
-1. En el navegación de la izquierda, vaya a**puentes de conferencia**de **reuniones** > . 
+1. En el navegación de la izquierda, vaya a puentes de conferencia de **reuniones**  >  **Conference bridges**. 
 
 2. En la parte superior de la página **puentes de conferencia** , haga clic en **configuración del puente**. 
 
@@ -72,7 +72,7 @@ El puente de conferencia responde a una llamada y le pide a la persona que llama
 
  **Configurar la experiencia de reunión cuando las personas que llaman se unen a una reunión**
     
-1. En el **centro de administración de Skype empresarial**, en el navegación de la izquierda, **vaya a** > **configuración de puente de Microsoft**.
+1. En el **centro de administración de Skype empresarial**, en el navegación de la izquierda, **vaya a**  >  **configuración de puente de Microsoft**.
     
 2. En la página **configuración del puente de Microsoft** , en experiencia de unirse a la **reunión**, seleccione:
     
@@ -92,7 +92,7 @@ Vea **Cambiar la configuración de un puente de conferencias de acceso telefóni
   
 1. Inicie sesión con su cuenta profesional o educativa.
     
-2. Vaya al **Centro** > de administración de Microsoft 365**Skype empresarial**.
+2. Vaya al **centro de administración de Microsoft 365**  >  **Skype empresarial**.
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
@@ -105,7 +105,7 @@ Vea **Cambiar la configuración de un puente de conferencias de acceso telefóni
   
 1. Inicie sesión con su cuenta profesional o educativa.
     
-2. Vaya al **Centro** > de administración de Microsoft 365**Skype empresarial**.
+2. Vaya al **centro de administración de Microsoft 365**  >  **Skype empresarial**.
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
@@ -117,11 +117,11 @@ Vea **Cambiar la configuración de un puente de conferencias de acceso telefóni
 
 - Para ahorrar tiempo o automatizar este proceso, puede usar el cmdlet [set-CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686) .
     
-- Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:
+- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas para hacer. To get started with Windows PowerShell, see these topics:
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, por ejemplo, cuando está realizando cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
     

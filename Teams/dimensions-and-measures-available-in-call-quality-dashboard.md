@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenga información detallada sobre las dimensiones y medidas usadas por el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online.
-ms.openlocfilehash: 93e7857c2e63f7b13986898ac8e9973c2be189de
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 2dfef2dbe1bb94574911ab94d8da0cff50410592
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232591"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691286"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensiones y medidas disponibles en el panel de calidad de llamadas
 
@@ -121,8 +121,8 @@ La información de dimensiones se basa en parte en los datos que se cargan en el
 | First Inside Corp  | Enumeración <br/>**Valores posibles:** <br/> Dentro, fuera  | Indica si el primer punto de conexión se encuentra en una subred dentro de la red corporativa, en función de la asignación de una subred a los datos de creación de inquilino. De forma predeterminada, el punto de conexión se considera externo. <br/> **Valor de ejemplo:** Situados | |
 | Second Inside Corp  | Enumeración <br/> **Valores posibles:** <br/> Dentro, fuera | Indica si el segundo punto de conexión se encuentra en una subred dentro de la red corporativa, en función de la asignación de una subred a los datos de creación del inquilino. De forma predeterminada, el punto de conexión se considera externo. <br/>**Valor de ejemplo:** Situados  |  |
 |**Deployment**| | | |
-| First Tenant Id  | Cadena  | Id. de inquilino de Office 365 para el primer punto de conexión. <br/> **Valor de ejemplo:** 00000000, 0000 -0000-0000 — 000000000000  | <br/>&bull;No se pudo determinar el identificador de inquilino para el primer punto de conexión. Esto puede indicar que el punto de conexión ha iniciado sesión en una implementación local de Skype empresarial Server.  |
-| Second Tenant Id  | String  | Id. de inquilino de Office 365 para el segundo punto de conexión. <br/> **Valor de ejemplo:** 00000000, 0000-0000-0000 — 000000000000  |  <br/>&bull;No se pudo determinar el identificador de inquilino para el segundo punto de conexión. Esto puede indicar que el punto de conexión ha iniciado sesión en una implementación local de Skype empresarial Server.  |
+| First Tenant Id  | Cadena  | IDENTIFICADOR de inquilino del primer punto de conexión. <br/> **Valor de ejemplo:** 00000000, 0000 -0000-0000 — 000000000000  | <br/>&bull;No se pudo determinar el identificador de inquilino para el primer punto de conexión. Esto puede indicar que el punto de conexión ha iniciado sesión en una implementación local de Skype empresarial Server.  |
+| Second Tenant Id  | String  | IDENTIFICADOR de inquilino del segundo punto de conexión. <br/> **Valor de ejemplo:** 00000000, 0000-0000-0000 — 000000000000  |  <br/>&bull;No se pudo determinar el identificador de inquilino para el segundo punto de conexión. Esto puede indicar que el punto de conexión ha iniciado sesión en una implementación local de Skype empresarial Server.  |
 | First Pool  | String  | FQDN del grupo de Skype Empresarial Online asignado al primer punto de conexión. <br/> **Valor de ejemplo:** pool1 <span></span> . Lync <span></span> . com  | <br/>&bull;Indica que el punto de conexión ha iniciado sesión en Microsoft Teams o Skype empresarial. Este campo solo se rellenará para transmisiones con implementaciones de Skype empresarial Server locales. |
 | Second Pool  | String  | FQDN del grupo de Skype Empresarial Online asignado al segundo punto de conexión. <br/> **Valor de ejemplo:** <span>pool1.Lync.com</span>   | &bull;No se pudo determinar el grupo de Skype empresarial online para el segundo punto de conexión. Esto puede indicar que el punto de conexión ha iniciado sesión en una implementación local de Skype empresarial Server.  |
 | Is Federated  | Boolean  | Es true si las transmisiones se han comprendido entre dos inquilinos federados; de lo contrario, false.   | <br/>&bull;No se pudo determinar si se trataba de una transmisión federada <br/>&bull;No se han recopilado algunos datos de señalización   |
@@ -455,7 +455,7 @@ Los valores booleanos siempre son true o false. En algunos casos, verdadero tamb
 
 Las dimensiones que se proporcionan como rango o grupo de valores se muestran con el siguiente formato:
 
- _\<cadena de criterio de ordenación \> [ \< \>  -  \< límite superior inclusivo de límite inferior\>_
+ _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>_
 
 Por ejemplo, la dimensión duración (minutos) representa la duración de la llamada en segundos con el valor notificado como un rango de valores.
 
@@ -467,7 +467,7 @@ Por ejemplo, la dimensión duración (minutos) representa la duración de la lla
 |066: [3-4) |3 minutos < = duración de la transmisión < 4 minutos |
 |  | |
 
-La cadena de criterio de \< ordenación> se usa para controlar el criterio de ordenación al presentar los datos y se puede usar para filtrar. Por ejemplo, un filtro de duración (minutos) < "065", mostraría las transmisiones con una duración inferior a 2 minutos (se necesita el ' 0 ' inicial para que el filtro funcione según lo esperado).
+El \<sort order string> se usa para controlar el criterio de ordenación al presentar los datos y se puede usar para filtrar. Por ejemplo, un filtro de duración (minutos) < "065", mostraría las transmisiones con una duración inferior a 2 minutos (se necesita el ' 0 ' inicial para que el filtro funcione según lo esperado).
 
 > [!NOTE]
 > El valor real de la cadena de criterio de ordenación no es importante.
@@ -480,7 +480,7 @@ Las cadenas usadas por el CQD suelen derivarse de archivos de datos, y pueden se
 
 Las dimensiones que se proporcionan como un par de enumeración se muestran con el siguiente formato:
 
- _\<valor de enumeración de un punto final \> : \< valor de enumeración del otro punto de conexión\>_
+ _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
 
 El orden de los valores de la enumeración es coherente pero no refleja el orden del primer o segundo punto de conexión.
 
@@ -515,10 +515,10 @@ Muchos valores de medida también se pueden usar como filtros. En la tabla sigui
 |Relación total de las respuestas |Relación |Proporción de llamadas con una duración inferior a 5 segundos sobre el número total de llamadas. |
 |Porcentaje total de llamadas cortas |Porcentaje |Porcentaje de llamadas totales con menos de 1 minuto de duración. |
 |Porcentaje total de errores de medios |Porcentaje |Porcentaje de todas las transmisiones en las que la ruta de acceso a medios no se pudo establecer o no finalizó con normalidad. |
-|Error de multimedia por el Firewall recuento de flujo de PPP |Número de transmisiones |Número de transmisiones que no se pudieron establecer debido a que el equipo de red está bloqueando el acceso debido a una inspección profunda de paquetes que no permite el tráfico de Skype empresarial. Estos errores suelen indicar que un proxy, Firewall u otro dispositivo de seguridad de red no está configurado correctamente para acceder a la dirección IP y los puertos usados por Skype empresarial en Office 365. |
-|Porcentaje de errores de medios de Firewall DPI |Porcentaje |Porcentaje de transmisiones que no se pudo establecer debido a que el equipo de red bloquea el acceso debido a una inspección profunda de paquetes que no permite el tráfico de Skype empresarial. Estos errores suelen indicar que un proxy, Firewall u otro dispositivo de seguridad de red no está configurado correctamente para acceder a la dirección IP y los puertos usados por Skype empresarial en Office 365. |
-|Error de medios debido a la cantidad de streams bloqueados de IP del firewall |Número de transmisiones |Número de transmisiones que no se pudieron establecer debido a que el equipo de red bloquea el acceso a los servidores de Skype empresarial. Estos errores suelen indicar que un proxy, Firewall u otro dispositivo de seguridad de red no está configurado correctamente para acceder a la dirección IP y los puertos usados por Skype empresarial en Office 365. |
-|Porcentaje de errores de medios bloqueados de Firewall IP |Porcentaje |Porcentaje de transmisiones que no se pudo establecer porque el equipo de red bloqueó el acceso a los servidores de Skype empresarial. Estos errores suelen indicar que un proxy, Firewall u otro dispositivo de seguridad de red no está configurado correctamente para acceder a la dirección IP y los puertos usados por Skype empresarial en Office 365. |
+|Error de multimedia por el Firewall recuento de flujo de PPP |Número de transmisiones |Número de transmisiones que no se pudieron establecer debido a que el equipo de red está bloqueando el acceso debido a una inspección profunda de paquetes que no permite el tráfico de Skype empresarial. Estos errores suelen indicar que un proxy, Firewall u otro dispositivo de seguridad de red no está configurado correctamente para acceder a la dirección IP y los puertos usados por Skype empresarial en Microsoft 365 u Office 365. |
+|Porcentaje de errores de medios de Firewall DPI |Porcentaje |Porcentaje de transmisiones que no se pudo establecer debido a que el equipo de red bloquea el acceso debido a una inspección profunda de paquetes que no permite el tráfico de Skype empresarial. Estos errores suelen indicar que un proxy, Firewall u otro dispositivo de seguridad de red no está configurado correctamente para acceder a la dirección IP y los puertos usados por Skype empresarial en Microsoft 365 u Office 365. |
+|Error de medios debido a la cantidad de streams bloqueados de IP del firewall |Número de transmisiones |Número de transmisiones que no se pudieron establecer debido a que el equipo de red bloquea el acceso a los servidores de Skype empresarial. Estos errores suelen indicar que un proxy, Firewall u otro dispositivo de seguridad de red no está configurado correctamente para acceder a la dirección IP y los puertos usados por Skype empresarial en Microsoft 365 u Office 365. |
+|Porcentaje de errores de medios bloqueados de Firewall IP |Porcentaje |Porcentaje de transmisiones que no se pudo establecer porque el equipo de red bloqueó el acceso a los servidores de Skype empresarial. Estos errores suelen indicar que un proxy, Firewall u otro dispositivo de seguridad de red no está configurado correctamente para acceder a la dirección IP y los puertos usados por Skype empresarial en Microsoft 365 u Office 365. |
 | Error de multimedia debido a otro recuento de flujo|Número de transmisiones| Número de transmisiones en las que no se pudo establecer la ruta de acceso a los medios entre los puntos de conexión debido a una razón indeterminada o no clasificada.| |
 | Porcentaje de errores de medios|Porcentaje| Porcentaje de transmisiones en las que no se pudo establecer la ruta de acceso a los medios entre los puntos de conexión debido a una razón indeterminada o no clasificada. ||
 | Número total de llamadas disponibles de CDR|Número de transmisiones|Número total de transmisiones de medios con información de confiabilidad o de diagnóstico disponible. Hay un error de hasta 0,2% para esta medida. Consulte la nota a continuación para obtener más información.|

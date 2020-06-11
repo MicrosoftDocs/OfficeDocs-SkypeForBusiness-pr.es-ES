@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube con Microsoft Teams, que proporcionan un mensaje de saludo, mantener música, redirigir llamadas y otras características.
-ms.openlocfilehash: 6bf3353a86cc096d5d9f9891315d9b47de40e9f4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ac0fb41ebb85a6e7e80d3d221da4dabf456d20aa
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44669402"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697436"
 ---
 # <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 
@@ -68,10 +68,10 @@ Para comenzar a utilizar colas de llamadas, es importante recordar algunas cosas
   > [!NOTE]
   > Los números del servicio de enrutamiento directo para colas de llamadas solo se admiten para usuarios y agentes de Microsoft Teams.
 
-  > [!NOTE]
-  > Para redirigir las llamadas a las personas de su organización que están conectadas, deben tener una licencia de **sistema telefónico** y estar habilitadas para telefonía IP empresarial o tener planes de llamadas de Office 365. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!NOTE]
+> Para redirigir las llamadas a las personas de su organización que están conectadas, deben tener una licencia de **sistema telefónico** y estar habilitadas para telefonía IP empresarial o tener planes de llamadas a Microsoft 365 o de Office 365. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Para obtener más información sobre los planes de llamadas de Office 365, consulte planes de llamadas y [sistemas telefónicos](calling-plan-landing-page.md) y [planes de llamadas para Office 365](calling-plans-for-office-365.md).
+- Para obtener más información sobre los planes de llamadas, consulte planes de llamadas y [sistemas telefónicos](calling-plan-landing-page.md) y [planes de llamadas para Microsoft 365 u Office 365](calling-plans-for-office-365.md).
 
 - Solo puede asignar colas de llamadas en la nube números de teléfono de pago y gratuitos que recibió en el **centro de administración de Microsoft Teams** o transferidos desde otro proveedor de servicios. Para los números de servicio gratuitos se requieren créditos de comunicaciones.
 
@@ -97,7 +97,7 @@ Para comenzar a utilizar colas de llamadas, es importante recordar algunas cosas
 
 ## <a name="step-2--get-or-transfer-toll-or-toll-free-service-phone-numbers"></a>Paso 2: obtener o transferir números de teléfono de pago o gratuitos
 
-Antes de crear y configurar las colas de llamadas, debes obtener o transferir tus números de teléfono de pago o gratuitos existentes. Para obtener tus números de servicio, consulta [obtener números de teléfono de servicio](getting-service-phone-numbers.md) o, si deseas transferir un número de servicio existente, consulta [transferir números de teléfono a Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md). Después de recibir los números de teléfono de pago o gratuitos, aparecerán en **Microsoft Teams admin center**  >  **Voice**  >  **los números de teléfono**del centro de administración de Microsoft Teams. Los números gratuitos se mostrarán con un **tipo** de servicio de número **(gratuito)**.
+Antes de crear y configurar las colas de llamadas, debes obtener o transferir tus números de teléfono de pago o gratuitos existentes. Para obtener tus números de servicio, consulta [obtener números de teléfono de servicio](getting-service-phone-numbers.md) o, si deseas transferir un número de servicio existente, consulta [transferir números de teléfono a teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md). Después de recibir los números de teléfono de pago o gratuitos, aparecerán en **Microsoft Teams admin center**  >  **Voice**  >  **los números de teléfono**del centro de administración de Microsoft Teams. Los números gratuitos se mostrarán con un **tipo** de servicio de número **(gratuito)**.
 
 > [!NOTE]
 > Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener los números de servicio. En su lugar, vaya a [administrar números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para ver cómo hacerlo desde fuera de los Estados Unidos.
@@ -163,7 +163,7 @@ Las llamadas se enrutan primero a los agentes individuales y luego a los agentes
 
 Puede seleccionar hasta 200 agentes de llamadas que pertenecen a cualquiera de las siguientes listas o grupos de correo:
 
-- Grupo de Office 365
+- Grupo de Microsoft 365
 - Grupo de seguridad
 - Lista de distribución
 
@@ -178,7 +178,7 @@ Los agentes de llamadas seleccionados deben ser uno de los siguientes:
 
    Para habilitar un agente para telefonía IP empresarial, puede usar Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Usuarios con una licencia de **sistema telefónico** o un plan de llamadas que se agregan a un grupo de Office 365. una lista de distribución habilitada para correo electrónico. o un grupo de seguridad. Al agregar un agente en una lista de distribución o un grupo de seguridad como agente de la cola de llamadas, puede demorar hasta tres horas en llegar a la primera llamada. Una lista de distribución o un grupo de seguridad recién creados puede demorar 48 horas en estar disponible para usarse con las colas de llamadas. Los grupos de Microsoft 365 recién creados están disponibles casi de inmediato.
+- Usuarios con una licencia de **sistema telefónico** o un plan de llamadas que se agregan a un grupo de Microsoft 365, una lista de distribución habilitada para correo o un grupo de seguridad. Al agregar un agente en una lista de distribución o un grupo de seguridad como agente de la cola de llamadas, puede demorar hasta tres horas en llegar a la primera llamada. Una lista de distribución o un grupo de seguridad recién creados puede demorar 48 horas en estar disponible para usarse con las colas de llamadas. Los grupos de Microsoft 365 recién creados están disponibles casi de inmediato.
 
 - Si los agentes usan la aplicación Microsoft Teams para las llamadas de la cola de llamadas, deben estar en modo TeamsOnly.
 
@@ -328,7 +328,7 @@ También puede usar Windows PowerShell para crear y configurar colas de llamadas
 
 ### <a name="more-about-windows-powershell"></a>Más información sobre Windows PowerShell
 
-- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Office 365 y Microsoft Teams con un único punto de administración. Puede simplificar su trabajo diario cuando tenga que hacer varias tareas. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 y Microsoft Teams con un único punto de administración. Puede simplificar su trabajo diario cuando tenga que hacer varias tareas. Para empezar con Windows PowerShell, vea estos temas:
 
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -336,13 +336,13 @@ También puede usar Windows PowerShell para crear y configurar colas de llamadas
 
 - Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en el centro de administración de Microsoft Teams cuando realiza cambios para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
 
-  - [Administrar Office 365 con Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Administrar Microsoft 365 u Office 365 con Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Configurar el equipo para Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Esto es lo obtiene con el Sistema telefónico de Office 365](here-s-what-you-get-with-phone-system.md)
+[Esto es lo obtiene con el Sistema telefónico](here-s-what-you-get-with-phone-system.md)
 
 [Obtener números de teléfono de servicio](getting-service-phone-numbers.md)
 

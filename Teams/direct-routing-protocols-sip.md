@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a66213214457648ec0b699d77bdadc96113fba27
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 264e7e3de8031e8ac150c186078ff3d7ccff2f16
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780689"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691226"
 ---
 # <a name="direct-routing---sip-protocol"></a>Enrutamiento directo: protocolo SIP
 
@@ -30,7 +30,7 @@ En este artículo se describe cómo el enrutamiento directo implementa el protoc
 
 ## <a name="processing-the-incoming-request-finding-the-tenant-and-user"></a>Procesando la solicitud entrante: buscar el inquilino y el usuario
 
-En una llamada entrante, el proxy SIP necesita encontrar el inquilino al que está destinada la llamada y buscar el usuario específico dentro de este inquilino. El administrador de inquilinos puede configurar números no realizado, por ejemplo + 1001, en varios inquilinos. Por lo tanto, es importante buscar el inquilino específico en el que se va a realizar la búsqueda de números, ya que los números no recuperados podrían ser los mismos en varias organizaciones de Office 365.  
+En una llamada entrante, el proxy SIP necesita encontrar el inquilino al que está destinada la llamada y buscar el usuario específico dentro de este inquilino. El administrador de inquilinos puede configurar números no realizado, por ejemplo + 1001, en varios inquilinos. Por lo tanto, es importante buscar el inquilino específico en el que se va a realizar la búsqueda de números, ya que los números no recuperados podrían ser los mismos en varias organizaciones de Microsoft 365 o de Office 365.  
 
 En esta sección se describe cómo el proxy SIP busca el inquilino y el usuario, y realiza la autenticación de SBC en la conexión entrante.
 
@@ -56,11 +56,11 @@ Al recibir la invitación, el proxy SIP realiza los pasos siguientes:
 
 2. Intenta encontrar un inquilino con el nombre FQDN completo presentado en el encabezado de contacto.  
 
-   Compruebe si el nombre de dominio completo del encabezado del contacto (sbc1.adatum.biz) está registrado como un nombre DNS en cualquier organización de Office 365. Si se encuentra, la búsqueda del usuario se realiza en el inquilino que tiene el FQDN de SBC registrado como un nombre de dominio. Si no se encuentra, se aplica el paso 3.   
+   Compruebe si el nombre de dominio completo del encabezado del contacto (sbc1.adatum.biz) está registrado como un nombre DNS en cualquier organización de Microsoft 365 u Office 365. Si se encuentra, la búsqueda del usuario se realiza en el inquilino que tiene el FQDN de SBC registrado como un nombre de dominio. Si no se encuentra, se aplica el paso 3.   
 
 3. El paso 3 solo se aplica si falló el paso 2. 
 
-   Quite la parte del host del FQDN, presentada en el encabezado del contacto (FQDN: sbc12.adatum.biz, después de quitar la parte del host: adatum.biz) y compruebe si este nombre está registrado como un nombre DNS en cualquier organización de Office 365. Si se encuentra, la búsqueda del usuario se realiza en este inquilino. Si no se encuentra, se produce un error en la llamada.
+   Quite la parte del host del FQDN, presentada en el encabezado del contacto (FQDN: sbc12.adatum.biz, después de quitar la parte del host: adatum.biz) y compruebe si este nombre está registrado como un nombre DNS en cualquier organización de Microsoft 365 u Office 365. Si se encuentra, la búsqueda del usuario se realiza en este inquilino. Si no se encuentra, se produce un error en la llamada.
 
 4. Con el número de teléfono presentado en el URI de solicitud, realice la búsqueda de números invertidas en el inquilino que se encuentra en el paso 2 ó 3. Hacer coincidir el número de teléfono presentado con el URI del SIP del usuario dentro del inquilino que se encuentra en el paso anterior.
 
@@ -82,7 +82,7 @@ Este nombre debe estar también en el nombre común o en el campo (s) de nombre 
 
 La compatibilidad con los caracteres comodín se describe en el [documento RFC 2818, sección 3,1](https://tools.ietf.org/html/rfc2818#section-3.1). Específicas
 
-*"Los nombres pueden contener el carácter \* comodín, que se considera que coincide con cualquier componente del nombre de dominio o fragmento de componente. Por ejemplo, \*. a.com coincide con foo.a.com pero no bar.foo.a.com. f\*. com coincide con foo.com, pero no con bar.com. "*
+*"Los nombres pueden contener el carácter comodín, \* que se considera que coincide con cualquier componente del nombre de dominio o fragmento de componente. Por ejemplo, \* . a.com coincide con foo.a.com pero no bar.foo.a.com. f \* . com coincide con foo.com pero no bar.com ".*
 
 Si el SBC envía más de un valor en el encabezado del contacto en un mensaje SIP, solo se usa la parte FQDN del primer valor del encabezado de contacto.
 

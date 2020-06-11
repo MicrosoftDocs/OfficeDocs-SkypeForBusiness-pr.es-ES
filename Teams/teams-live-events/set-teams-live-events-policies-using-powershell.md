@@ -18,12 +18,12 @@ description: Ejemplos de uso de PowerShell para configurar directivas en Teams c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4d5f1cceb42afd2be92aedcd0a40af4e23650512
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1c1131790e36fe451444a8c8a3fb25259d5741da
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140651"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691576"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Usar PowerShell para establecer directivas de eventos en directo en Microsoft Teams
 
@@ -36,7 +36,7 @@ Puede usar los siguientes cmdlets de Windows PowerShell para establecer y asigna
 A continuación se muestran algunos ejemplos.
 
 > [!NOTE]
-> Para poder ejecutar estos cmdlets, debe estar conectado a Skype empresarial online PowerShell. Para obtener más información, vea [administrar Skype empresarial online con Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+> Para poder ejecutar estos cmdlets, debe estar conectado a Skype empresarial online PowerShell. Para obtener más información, vea [administrar Skype empresarial online con Microsoft 365 u Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 ## <a name="allow-users-to-schedule-live-events"></a>Permitir a los usuarios programar eventos en vivo 
 
@@ -145,6 +145,6 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 ```
 
 ### <a name="related-topics"></a>Temas relacionados
-- [Configuración de eventos en directo en Teams](set-up-for-teams-live-events.md)
+- [Configuración de Eventos en Directo de Teams](set-up-for-teams-live-events.md)
 - [Descripción de PowerShell para Teams](../teams-powershell-overview.md)
 

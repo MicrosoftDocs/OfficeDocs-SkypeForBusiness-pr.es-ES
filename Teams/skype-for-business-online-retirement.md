@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69cd9da8cee3c6cc8345c945e3e40288889d3547
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: dbfee03ac40203c8b76307521b9ec6726feacd2f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905542"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691526"
 ---
 # <a name="skype-for-business-online-retirement"></a>Retirada de Skype Empresarial Online
 
@@ -31,7 +31,7 @@ Skype empresarial online se retirará el 31 de julio de 2021. Este artículo pro
  
 ## <a name="what-is-the-skype-for-business-retirement-plan"></a>¿Cuál es el plan de jubilación de Skype empresarial?
 
-Skype empresarial online se retirará el 31 de julio de 2021 y, después de esa fecha, el servicio ya no será accesible. Entre ahora y, a continuación, los clientes actuales de Skype empresarial online no experimentarán ningún cambio en el servicio y podrán seguir agregando nuevos usuarios según sea necesario. Sin embargo, a partir del 1 de septiembre de 2019, todos los clientes nuevos de Office 365 se incorporan directamente a Teams, reuniones y llamadas. Ten en cuenta que el servicio de consumo de Skype y Skype empresarial Server no se verán afectados por este anuncio.  
+Skype empresarial online se retirará el 31 de julio de 2021 y, después de esa fecha, el servicio ya no será accesible. Entre ahora y, a continuación, los clientes actuales de Skype empresarial online no experimentarán ningún cambio en el servicio y podrán seguir agregando nuevos usuarios según sea necesario. Sin embargo, a partir del 1 de septiembre de 2019, se incorporarán nuevos clientes de Microsoft 365 u Office 365 directamente a Teams, reuniones y llamadas. Ten en cuenta que el servicio de consumo de Skype y Skype empresarial Server no se verán afectados por este anuncio.  
 
 ## <a name="why-are-we-making-this-announcement-now"></a>¿Por qué hacemos este anuncio ahora?
 

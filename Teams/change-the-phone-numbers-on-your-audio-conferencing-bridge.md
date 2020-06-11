@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Aprenda los pasos necesarios para asignar un nuevo número de teléfono de servicio a su puente de conferencia para expandir la cobertura de los usuarios.
-ms.openlocfilehash: d22e3c475ae80b7c6aecb89e9e6487c8db38ab1e
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: e0786ad2c35ebe7d9663a71b594f7f5facd73b08
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898155"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691386"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Cambiar los números de teléfono de su puente de Audioconferencia
 
@@ -37,15 +37,15 @@ Cuando compra licencias de **audioconferencia** , Microsoft hospeda su puente de
 Además de los números de teléfono asignados a su puente de conferencia, puede [obtener números de servicio adicionales](/microsoftteams/getting-service-phone-numbers) (números de pago y gratuitos usados en las conferencias de audio) desde otras ubicaciones y, a continuación, asignarlos al puente de conferencia para poder ampliar la cobertura de los usuarios.
   
 > [!NOTE]
-> Para poder asignar o cancelar la asignación de un número de teléfono para un puente de conferencia, el número de teléfono debe ser un número de "*servicio*". Puede ver el tipo de número al que navega por los números de **Voice** > **teléfono** de voz en el portal heredado y buscando en la columna **tipo de número** . Los Créditos de comunicaciones de Office 365 deben configurarse primero para que los usuarios puedan marcar en el puente un número gratuito.
+> Para poder asignar o cancelar la asignación de un número de teléfono para un puente de conferencia, el número de teléfono debe ser un número de "*servicio*". Puede ver el tipo de número al que navega por los **Voice**  >  **números de teléfono** de voz en el portal heredado y buscando en la columna **tipo de número** . Los créditos de comunicaciones de Microsoft 365 u Office 365 deben configurarse en primer lugar para que los usuarios puedan llamar al puente a través de un número gratuito.
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Pasos para asignar un número de teléfono de servicio nuevo a su puente de conferencia
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Paso 1: asignar el nuevo número de teléfono a su puente de audioconferencia
 
-1. Inicie sesión en Office 365 con su cuenta profesional.
+1. Inicie sesión en Microsoft 365 u Office 365 con su cuenta profesional.
 
-2. Vaya a **Microsoft 365 administración del centro** > **Admin centers** > de administración de los**equipos &** > **los números de teléfono**de**voz** > del > **portal heredado**de Skype.
+2. Vaya a **Microsoft 365 administración del centro**de administración de  >  **Admin centers**  >  los**equipos &**  >  **Legacy portal**  >  **Voice**  >  **los números de teléfono**de voz del portal heredado de Skype.
 
 3. Seleccione el número de teléfono de la lista y, en el panel de acciones, haga clic en **asignar**.
 
@@ -57,9 +57,9 @@ El número de teléfono predeterminado del puente de conferencia define la ident
 
 Solo se puede establecer un número de teléfono de pago de servicio como número predeterminado para el puente de conferencia. los **números gratuitos de servicio no pueden establecerse como el número predeterminado del puente de conferencia**. Si va a asignar un número de teléfono de pago y desea configurarlo como el nuevo número predeterminado para su puente de audioconferencias, siga estos pasos:
 
-1. Inicie sesión en Office 365 con su cuenta profesional.
+1. Inicie sesión en Microsoft 365 u Office 365 con su cuenta profesional.
 
-2. Vaya a la**Administración** > del **Centro** > de administración de 365 de Microsoft**Teams &** > de**Conferencia**de**reuniones** > de Skype.
+2. Vaya a la administración del **centro de administración de 365 de Microsoft**  >  **Admin centers**  >  **Teams &** de  >  Conferencia de**reuniones**de Skype  >  **Conference Bridges**.
 
 3. Resalte el número de teléfono del servicio que desea configurar como predeterminado.
 
@@ -71,7 +71,7 @@ Los números de teléfono predeterminados de un usuario son los que se incluyen 
   
 1. Inicie sesión con su cuenta profesional o educativa.
 
-2. Vaya a los **Microsoft 365 admin center** > **centros** > de administración de centro de administración de 365 de Microsoft**Teams &** > **usuarios**de la**Conferencia** > de audio del > **portal heredado**de Skype y seleccione los usuarios de la lista.
+2. Vaya a los centros de administración de **centro de administración de 365 de Microsoft**  >  **Admin centers**  >  **Teams &**  >  usuarios de la Conferencia de audio del**portal heredado**de Skype  >  **Audio conferencing**  >  **Users**y seleccione los usuarios de la lista.
 
 3. Haga clic en **Editar** en el panel de acciones.
 
@@ -135,7 +135,7 @@ Para obtener más información sobre el servicio de migración de reuniones, con
 
 1. Inicie sesión con su cuenta profesional o educativa.
 
-2. Vaya a los **Microsoft 365 admin center** > **centros** > de administración de centro de administración de 365 de Microsoft**Teams &** > **números de teléfono**de**voz** > del > **portal heredado**de Skype.
+2. Vaya a los centros de administración de **centro de administración de 365 de Microsoft**  >  **Admin centers**  >  **Teams &**  >  números de teléfono de voz del**portal heredado**de Skype  >  **Voice**  >  **Phone numbers**.
 
 3. Si el número de teléfono es un número gratuito, seleccione el número de teléfono de la lista y, en el panel de acciones, haga clic en **Cancelar asignación**. Si el número de teléfono es un número de teléfono, comunícate con el [soporte técnico de Microsoft](https://go.microsoft.com/fwlink/?linkid=2091806) para que no se haya asignado el número de teléfono.
 
@@ -161,7 +161,7 @@ Reinicie el equipo cuando se le solicite.
 4. También tiene que instalar el módulo Windows PowerShell para Skype empresarial online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype empresarial online. Este módulo solo es compatible con equipos de 64 bits y puede descargarse desde el centro de descarga de Microsoft en el [módulo de Windows PowerShell para Skype empresarial online](https://go.microsoft.com/fwlink/?LinkId=294688).
 Reinicie el equipo cuando se le solicite.
 
-Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+Si necesita más información, vea [conectarse a todos los servicios de Microsoft 365 u Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
 
 ### <a name="to-start-windows-powershell"></a>Para iniciar Windows PowerShell
 
@@ -181,7 +181,7 @@ Si necesita más información, consulte [Conectarse a todos los servicios de Off
 
 > [!NOTE]
 > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
-Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [conectarse a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) o [conectarse a Skype empresarial online mediante Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
+Si desea obtener más información sobre cómo iniciar Windows PowerShell, consulte [conectarse a todos los servicios de Microsoft 365 u Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) o [conectarse a Skype empresarial online mediante Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
 
 ### <a name="save-time-and-automate"></a>Ahorra tiempo y automatización
 
@@ -241,7 +241,7 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 ## <a name="about-windows-powershell"></a>Acerca de Windows PowerShell
 
-Con Windows PowerShell puede administrar los usuarios y lo que pueden o no pueden hacer. Windows PowerShell puede ayudarle a administrar Office 365 y Skype empresarial online mediante un único punto de administración que puede simplificar su trabajo diario, especialmente cuando tiene varias tareas para hacer. Para empezar con Windows PowerShell, vea estos temas:
+Con Windows PowerShell puede administrar los usuarios y lo que pueden o no pueden hacer. Windows PowerShell puede ayudarle a administrar Microsoft 365 u Office 365 y Skype empresarial online con un único punto de administración que puede simplificar su trabajo diario, especialmente cuando tiene varias tareas para hacer. Para empezar con Windows PowerShell, vea estos temas:
 
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 
@@ -249,7 +249,7 @@ Con Windows PowerShell puede administrar los usuarios y lo que pueden o no puede
 
 Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
 
-  - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
 

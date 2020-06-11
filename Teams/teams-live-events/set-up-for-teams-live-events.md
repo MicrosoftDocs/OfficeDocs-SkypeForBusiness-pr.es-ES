@@ -18,12 +18,12 @@ description: Configure los eventos en directo de Teams, incluyendo la configurac
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: df54e90f2c895ebf7090fbec2487aae52bd53d66
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2e865fe2285abb9cd515d1efe769f18cb5735ff2
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779959"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689676"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configure los eventos en directo en Microsoft Teams
 
@@ -99,7 +99,7 @@ Los usuarios que programen eventos creados con una aplicación o un dispositivo,
 
 1. Habilitar Microsoft Stream para los usuarios de la organización Stream está disponible como parte de suscripciones de Microsoft 365 o de Office 365 válidos o como un servicio independiente. Stream no está incluido en los planes de Empresa Esenciales o Empresa Premium. Para obtener más información, vea [Información general sobre licencias de Stream](https://docs.microsoft.com/stream/license-overview)
 
-      Obtenga más información sobre cómo puede [asignar licencias a los usuarios en Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) de modo que los usuarios puedan tener acceso a Microsoft Stream. Asegúrese de que el Stream no esté bloqueado para los usuarios como se define en [este artículo](https://docs.microsoft.com/stream/disable-user-organization).
+      Obtenga más información sobre cómo puede [asignar licencias a los usuarios](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que los usuarios puedan obtener acceso a la secuencia. Asegúrese de que el Stream no esté bloqueado para los usuarios como se define en [este artículo](https://docs.microsoft.com/stream/disable-user-organization).
 
 2. Asegúrese de que los usuarios tengan los permisos de creación de eventos en directo de Stream Los administradores pueden crear eventos de forma predeterminada, con una aplicación o dispositivo externo El administrador de Stream puede [permitir que los usuarios adicionales puedan crear eventos en directo](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) en Stream.  
 

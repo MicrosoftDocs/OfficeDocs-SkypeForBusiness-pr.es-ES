@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo usar la búsqueda de contenido en Microsoft Teams para consultar información de Microsoft Teams desde Exchange, SharePoint Online, OneDrive para la empresa y OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93f566590baedc77a4d15eca96569cc85ce54f0b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 45da4a0f4acf66cb8caafcd8d2bc2287c1176c94
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776455"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690446"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Usar la búsqueda de contenido en Microsoft Teams
 =====================================
@@ -32,7 +32,7 @@ ms.locfileid: "43776455"
 
 Búsqueda de contenido proporciona una manera de consultar información de Microsoft Teams en Exchange, SharePoint Online y OneDrive para la empresa.
 
-Para obtener más información, lea [búsqueda de contenido en Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+Para obtener más información, lea [búsqueda de contenido en Microsoft 365 u Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
 
 Por ejemplo, mediante la **búsqueda de contenido** en el sitio de SharePoint especificaciones de fabricación, buzón y especificaciones de fabricación, puede buscar entre las conversaciones de canal estándar de Teams de Exchange, las cargas de archivos y las modificaciones de SharePoint Online y los cambios de OneNote.
 

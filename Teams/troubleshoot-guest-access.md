@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 35598c38ad80e7d1ed75c7aedce021d0d03d2765
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 32a334f4866c1874f60e85e3b74908f161d45a33
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326717"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691556"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Solución de problemas con el acceso de invitado en Microsoft Teams
 ======================================================
@@ -35,7 +35,7 @@ ms.locfileid: "44326717"
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Si los invitados ven errores de licencia
 
-El acceso de invitado en Teams usa Azure Active Directory (Azure AD) negocio a negocio (B2B) y el modelo de licencia. El acceso de invitados está incluido en todas las suscripciones de Microsoft 365 Empresa Estándar, Office 365 Enterprise y Office 365 Education. No se necesita ninguna otra licencia de Office 365.
+El acceso de invitado en Teams usa Azure Active Directory (Azure AD) negocio a negocio (B2B) y el modelo de licencia. El acceso de invitados está incluido en todas las suscripciones de Microsoft 365 Empresa Estándar, Office 365 Enterprise y Office 365 Education. No se necesita ninguna otra licencia de Microsoft 365 u Office 365.
 
 > [!NOTE]
 > Los equipos deben estar habilitados en el inquilino principal de un invitado para que los invitados puedan iniciar sesión y usar Teams como invitado en otro inquilino (recurso).
@@ -44,7 +44,7 @@ Si ve errores de licencias, asegúrese de leer las instrucciones de licencias [B
 
 
 - Las licencias de invitado se cuentan contra la organización que invita. Considere esto al calcular el número de licencias que necesita.
-- Las licencias se cuentan en relación con su organización si los invitados invitados provienen de otra organización de Office 365 o si usan sus direcciones de correo electrónico personales.
+- Las licencias se cuentan en relación con su organización si los invitados invitados provienen de otra organización de Microsoft 365 u Office 365 o si usan sus direcciones de correo electrónico personales.
 
 ## <a name="support-for-b2b-user-types"></a>Soporte técnico para los tipos de usuario B2B
 Actualmente, Teams solo admiten los tipos de estado 1 y estado 2 de usuarios invitados [definido por Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties).

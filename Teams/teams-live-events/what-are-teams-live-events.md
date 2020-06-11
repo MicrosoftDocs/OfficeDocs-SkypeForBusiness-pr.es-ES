@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4ea5bce539ff178130910297a47add38464e4d4
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 1ab528740947fa7efdd0608cec309757c3bb5eb2
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558530"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689726"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
@@ -74,12 +74,12 @@ La plataforma de transmisión por secuencias de eventos en directo consta de las
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Red de entrega de contenido empresarial (eCDN)
 El objetivo de eCDN es tomar el contenido de video de Internet y distribuir el contenido en toda la empresa sin afectar al rendimiento de la red. Puede usar uno de los siguientes socios certificados de eCDN para optimizar su red para eventos en directo de su organización:
-- [Subárbol](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
+- [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Movimiento](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>Experiencia de asistente 
-La experiencia de los asistentes es el aspecto más importante de los eventos en directo y es fundamental que los asistentes puedan participar en el evento en vivo sin tener ningún problema. La experiencia de asistente usa el reproductor de flujo (para eventos generados en Teams) y el reproductor multimedia de Azure (para eventos generados en una aplicación o dispositivo externo) y funciona a través de equipos de escritorio, exploradores y móviles (iOS, Android). Office 365 ofrece Yammer y Teams como dos concentradores de colaboración y la experiencia de los asistentes en vivo se integra en estas herramientas de colaboración. 
+La experiencia de los asistentes es el aspecto más importante de los eventos en directo y es fundamental que los asistentes puedan participar en el evento en vivo sin tener ningún problema. La experiencia de asistente usa el reproductor de flujo (para eventos generados en Teams) y el reproductor multimedia de Azure (para eventos generados en una aplicación o dispositivo externo) y funciona a través de equipos de escritorio, exploradores y móviles (iOS, Android). Microsoft 365 y Office 365 proporcionan Yammer y Teams como dos concentradores de colaboración y la experiencia de los asistentes en vivo se integra en estas herramientas de colaboración. 
 
 ![Captura de pantalla que muestra la experiencia de los eventos en directo](../media/teams-live-events-attendee.png "Captura de pantalla que muestra la experiencia de asistente de eventos en directo")
 

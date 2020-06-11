@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Los organizadores de reuniones pueden obtener información sobre cómo marcar usando la aplicación de Teams para permitir que otras personas se unan a la misma reunión con sus teléfonos.
-ms.openlocfilehash: fc670995dcf5a16c79c857c217711490be82a664
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901965"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691296"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Llamar desde una reunión de Microsoft Teams para que otras personas puedan unirse
 
@@ -45,7 +45,7 @@ Cuando llames a alguien, te recomendamos que lo uses con sus números de teléfo
 
 A continuación se explica cómo obtener acceso telefónico para trabajar:
 
- **Paso 1:** En la reunión, use la captura de pantalla **Agregar personas** ![de la](media/add-people-button.png) opción Agregar personas para llamar a un número de teléfono.
+ **Paso 1:** En la reunión, use la **Add people** ![ captura de pantalla agregar personas de la opción Agregar personas ](media/add-people-button.png) para llamar a un número de teléfono.
  **Paso 2:** Escribe el número de teléfono completo, incluido el código de país o región en el cuadro **invitar a alguien o marcar un número** .
   
 ![Captura de pantalla del cuadro invitar a alguien o marcar un número](media/invite-someone-box.png)
@@ -60,6 +60,6 @@ Si está buscando instrucciones sobre cómo permitir que los usuarios llamen a u
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>¿Desea saber más sobre las conferencias de acceso telefónico local?
 
-[Probar o comprar Audioconferencia en Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[Probar o comprar audioconferencia](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
 [Licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

@@ -17,12 +17,12 @@ description: Determine el plan de llamadas de sistema de Microsoft Phone que ofr
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b1fb0abed3477039f4c19c0e2de0ea696626f35
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 46a985247acaf80c228e19dc8ba38cfb1085308e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905032"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691416"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>¿Qué plan de llamada es adecuado para usted? 
 
@@ -35,8 +35,8 @@ En este artículo se describen las decisiones básicas de implementación para l
 
 Los artículos siguientes proporcionan más información sobre la implementación y el uso de los planes de llamadas de Microsoft:
 
-- [Sistema telefónico en Office 365](what-is-phone-system-in-office-365.md)
-- [Planes de llamadas para Office 365](calling-plans-for-office-365.md)
+- [Sistema telefónico en Microsoft 365 u Office 365](what-is-phone-system-in-office-365.md)
+- [Planes de llamadas para Microsoft 365 u Office 365](calling-plans-for-office-365.md)
 - [Configurar planes de llamadas](set-up-calling-plans.md)
 
 
@@ -52,19 +52,19 @@ Existen dos tipos de planes de llamadas:
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
 |¿Están disponibles los planes de llamadas en mi área? ¿Qué ubicaciones de usuarios tendrán el servicio de plan de llamadas? | Para obtener más información, consulte [disponibilidad de países y regiones para las conferencias de audio y los planes de llamadas](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). | 
-¿Los usuarios necesitan llamadas internacionales? | Para obtener más información, consulte [planes de llamadas para Office 365](calling-plans-for-office-365.md). |
+¿Los usuarios necesitan llamadas internacionales? | Para obtener más información, consulte [planes de llamadas para Microsoft 365 u Office 365](calling-plans-for-office-365.md). |
 ¿Tienen mis usuarios licencias de planes de llamadas? | Para comprar y asignar licencias, consulte el [paso 2: comprar y asignar licencias](set-up-calling-plans.md#step-2-buy-and-assign-licenses). |
 ¿Cada uno de mis usuarios tiene un número de teléfono de marcado directo? | Para obtener números de teléfono, consulte [paso 3: obtener números de teléfono](set-up-calling-plans.md#step-3-get-phone-numbers). |
 |||
 
-### <a name="transfer-phone-numbers-to-office-365"></a>Transferir números de teléfono a Office 365
+### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>Transferir números de teléfono a Microsoft 365 u Office 365
 
 Es fácil transferir los números de teléfono de su proveedor de servicios actual a teams. Después de trasladar los números de teléfono a Teams, Microsoft se convertirá en su proveedor de servicios y le facturará los números de teléfono. Para obtener más información, consulte [transferir números de teléfono a teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 
 ### <a name="phone-numbers-and-emergency-locations"></a>Números de teléfono y ubicaciones de emergencia
 
-Con los planes de llamadas en Office 365, todos los usuarios de su organización necesitan tener un número de teléfono de marcado directo exclusivo y una dirección de emergencia validada correspondiente. También puedes especificar una ubicación de emergencia dentro de la dirección de emergencia (por ejemplo, un número de oficina o un número de piso). 
+Con los planes de llamadas en Microsoft 365 u Office 365, todos los usuarios de su organización necesitan tener un número de teléfono de marcado directo exclusivo y una dirección de emergencia validada correspondiente. También puedes especificar una ubicación de emergencia dentro de la dirección de emergencia (por ejemplo, un número de oficina o un número de piso). 
 
 |Pregúntese lo siguiente:|Acción |
 |:------------|:-------|

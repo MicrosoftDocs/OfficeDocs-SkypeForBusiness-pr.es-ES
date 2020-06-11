@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 description: Obtenga más información sobre la compatibilidad del ciclo de vida con salas de Microsoft Teams, incluida la estructura de soporte dinámico y sus fases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6a6a3000b97de9756c78ed09c5f4d56a237fda0d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f27f2d9b36f0b425bf73e500c089e4e5bbacc6ee
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905382"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691196"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Compatibilidad de versiones de la aplicación salas de Microsoft Teams
  
 La aplicación salas de Microsoft Teams recibe actualizaciones varias veces por año. Cada actualización admitida por doce (12) meses a partir de la fecha de publicación de disponibilidad general (GA). Se proporciona soporte técnico para los doce (12) meses completos. Sin embargo, la estructura de soporte es dinámica, con dos fases distintas que dependen de la disponibilidad de la última versión:
 
-- \- **Fase de mantenimiento y actualizaciones críticas** cuando ejecuta la versión más reciente de la aplicación salas de Microsoft Teams, recibe actualizaciones periódicas que contienen actualizaciones *de seguridad y mantenimiento de servicios* .
+- Fase de mantenimiento **y actualizaciones críticas** \- Al ejecutar la última versión de la aplicación salas de Microsoft Teams, recibe actualizaciones periódicas que contienen actualizaciones *de seguridad y mantenimiento de servicios* .
 
-- **Fase** \- actualizaciones de seguridad solo cuando se publica una nueva versión de la aplicación salas de Microsoft Teams, las versiones anteriores de la aplicación tienen un nivel de compatibilidad reducido con *las actualizaciones de seguridad solo* durante el resto del ciclo de vida de doce (12) meses.
+- Fase de actualizaciones de **seguridad** \- Cuando se publica una nueva versión de la aplicación salones de Microsoft Teams, las versiones anteriores de la aplicación tienen un nivel de compatibilidad reducido con *actualizaciones de seguridad solo* para el resto del ciclo de vida de doce (12) meses.
 
 > [!NOTE]
 > La versión más reciente siempre está en la fase de mantenimiento y actualizaciones críticas. Cuando encuentre un defecto de código que garantice una actualización crítica, también debe tener instalada la última versión para recibir una corrección. Todas las demás versiones admitidas solo podrán recibir actualizaciones de seguridad.
@@ -53,7 +53,8 @@ En la tabla siguiente se muestran las versiones recomendadas y compatibles de Wi
 
 |Versión  |Fecha de disponibilidad   |Estado de soporte técnico de salas de Microsoft Teams   |Versión mínima de la aplicación salas de Microsoft Teams | Compilación recomendada de sistema operativo  |
 |:---  |:---       |:---                                  |:---     |:---     |
-| 1909 |2019-11-12 |Actualmente validando, <br/>No recomendado|&#x2014; |&#x2014; |
+| 2004 |2020-05-27 |En validación, <br/>No recomendado|&#x2014; |19041,264 |
+| 1909 |2019-11-12 |Validación completada, <br/>No hay problemas conocidos.|Próximamente |18363,418  |
 | 1903 |2019-05-21 |Posible <br/>Recomendado  |4.2.4.0 |18362,356 |
 | 1809 |2019-03-28 |Omitidos <br/>No se recomienda &#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |Compatible                             |4.1.22.0 |17134,191|
@@ -61,6 +62,8 @@ En la tabla siguiente se muestran las versiones recomendadas y compatibles de Wi
 | 1703 |2017-07-11 |No compatible                         |&#x2014; |&#x2014; |
 
 &#x2780; no se recomienda la versión 1809 de Windows 10 debido a problemas de compatibilidad que se encuentran en la aplicación salas de Microsoft Teams. Este problema específico hace que la aplicación salas de Microsoft Teams no se inicie después del reinicio nocturno. Este problema se ha solucionado en la versión 1903 de Windows 10.  
+
+&#x2781; no se recomienda la versión 2004 de Windows 10 debido a problemas de compatibilidad que se encuentran en la aplicación salas de Microsoft Teams. Este problema específico hace que la aplicación salas de Microsoft Teams no se inicie después del reinicio nocturno. 
 
 Si usa una versión compatible de Windows 10, siempre obtendrá las actualizaciones de aplicaciones más recientes para la aplicación salas de Microsoft Teams.  
 

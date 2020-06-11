@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión (SBC) compatible suministrado por el cliente a Microsoft Phone System.
-ms.openlocfilehash: 29b4136c553d8b0f77fbb10259899ebea793ed98
-ms.sourcegitcommit: 1df448516b05bccd0527256b1f4f20792566f8a2
+ms.openlocfilehash: bd221be2174a538956667e0b113d459f2293882f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "44428957"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691236"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -71,22 +71,22 @@ En la tabla siguiente se enumeran los requisitos de infraestructura para los SBC
 |:--- |:--- |
 |Controlador de borde de sesión (SBC)|Una SBC compatible. Para obtener más información, consulte [SBCS admitido](#supported-session-border-controllers-sbcs).|
 |Troncos de telefonía conectados a la SBC|Uno o más troncos de telefonía conectados a la SBC. En un extremo, el SBC se conecta al sistema telefónico de Microsoft a través del enrutamiento directo. La SBC también se puede conectar a entidades de telefonía de terceros, como PBX, adaptadores de telefonía analógicos, etc. Cualquier opción de conectividad de RTC conectada a SBC funcionará. (Para la configuración de los troncos de la RTC a la SBC, consulte los proveedores de SBC o los proveedores de troncal).|
-|Organización 365 de Office|Una organización de Office 365 que usa para alojar a los usuarios de Microsoft Teams, así como la configuración y la conexión a SBC.|
-|Registrador de usuario|El usuario debe estar alojado en Office 365.<br/>Si su empresa tiene un entorno local de Skype empresarial o de Lync con conectividad híbrida con Office 365, no puede habilitar la voz en Teams para un usuario de ubicación local.<br/><br/>Para comprobar el registrador de un usuario, use el siguiente cmdlet de PowerShell de Skype empresarial online:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>El resultado del cmdlet debe mostrar:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Dominios|Uno o más dominios agregados a sus organizaciones de Office 365.<br/><br/>Tenga en cuenta que no puede usar el dominio predeterminado, \* . onmicrosoft.com, que se crea automáticamente para su inquilino.<br/><br/>Para ver los dominios, puede usar el siguiente cmdlet de PowerShell de Skype empresarial online:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Para obtener más información sobre los dominios y las organizaciones de Office 365, consulte [preguntas más frecuentes sobre dominios](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
+|Organización Microsoft 365 u Office 365|Una organización de Microsoft 365 u Office 365 que usa para alojar a los usuarios de Microsoft Teams, así como la configuración y la conexión a SBC.|
+|Registrador de usuario|El usuario debe estar alojado en Microsoft 365 u Office 365.<br/>Si su empresa tiene un entorno local de Skype empresarial o de Lync con conectividad híbrida para Microsoft 365 u Office 365, no puede habilitar la voz en Teams para un usuario de ubicación local.<br/><br/>Para comprobar el registrador de un usuario, use el siguiente cmdlet de PowerShell de Skype empresarial online:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>El resultado del cmdlet debe mostrar:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
+|Dominios|Uno o más dominios agregados a las organizaciones de Microsoft 365 u Office 365.<br/><br/>Tenga en cuenta que no puede usar el dominio predeterminado, \* . onmicrosoft.com, que se crea automáticamente para su inquilino.<br/><br/>Para ver los dominios, puede usar el siguiente cmdlet de PowerShell de Skype empresarial online:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Para obtener más información acerca de los dominios y las organizaciones de Microsoft 365 o de Office 365, consulte [preguntas más frecuentes sobre dominios](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
 |Dirección IP pública para el SBC|Una dirección IP pública que se puede usar para conectarse a SBC. Según el tipo de SBC, el SBC puede usar NAT.|
-|Nombre de dominio completo (FQDN) para el SBC|Un FQDN para el SBC, donde la parte de dominio del FQDN es uno de los dominios registrados de su organización de Office 365. Para obtener más información, consulte [nombres de dominio de SBC](#sbc-domain-names).|
+|Nombre de dominio completo (FQDN) para el SBC|Un FQDN para el SBC, donde la parte de dominio del FQDN es uno de los dominios registrados de su organización de Microsoft 365 u Office 365. Para obtener más información, consulte [nombres de dominio de SBC](#sbc-domain-names).|
 |Entrada DNS pública para SBC |Una entrada DNS pública que asigna el FQDN de SBC a la dirección IP pública. |
 |Certificado de confianza pública para SBC |Un certificado para que la SBC se use para todas las comunicaciones con enrutamiento directo. Para obtener más información, consulte [certificado público de confianza para SBC](#public-trusted-certificate-for-the-sbc).|
 |Puntos de conexión para enrutamiento directo |Los puntos de conexión para el enrutamiento directo son los tres FQDN siguientes:<br/><br/>`sip.pstnhub.microsoft.com`(FQDN global) debe probarse en primer lugar.<br/>`sip2.pstnhub.microsoft.com`-FQDN secundario, se asigna geográficamente a la segunda región prioritaria.<br/>`sip3.pstnhub.microsoft.com`– El FQDN terciario se asigna geográficamente a la tercera región de prioridad.<br/><br/>Para obtener información sobre los requisitos de configuración, consulte [señalización SIP: FQDN](#sip-signaling-fqdns).|
-|Direcciones IP y puertos de Firewall para medios de enrutamiento directos |El SBC se comunica con los siguientes servicios en la nube:<br/><br/>Proxy SIP, que controla la señalización<br/>Procesador de medios, que controla los medios, excepto cuando la omisión de medios está activada<br/><br/>Estos dos servicios tienen direcciones IP independientes en la nube de Microsoft, que se describen más adelante en este documento.<br/><br/>Para obtener más información, consulte la [sección Microsoft Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) en [Office 365 direcciones URL e intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+|Direcciones IP y puertos de Firewall para medios de enrutamiento directos |El SBC se comunica con los siguientes servicios en la nube:<br/><br/>Proxy SIP, que controla la señalización<br/>Procesador de medios, que controla los medios, excepto cuando la omisión de medios está activada<br/><br/>Estos dos servicios tienen direcciones IP independientes en la nube de Microsoft, que se describen más adelante en este documento.<br/><br/>Para obtener más información, consulte la [sección Microsoft Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) en [direcciones URL e intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Perfil de transporte de medios|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-Direcciones IP y puertos de Firewall para los medios de Microsoft Teams |Para obtener más información, consulte [direcciones URL e intervalos de direcciones IP de Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+Direcciones IP y puertos de Firewall para los medios de Microsoft Teams |Para obtener más información, consulte [direcciones URL e intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Licencias y otros requisitos 
 
-Los usuarios de enrutamiento directo deben tener las siguientes licencias asignadas en Office 365: 
+Los usuarios de enrutamiento directo deben tener las siguientes licencias asignadas en Microsoft 365 u Office 365: 
 
 - Microsoft Phone System. 
 - Microsoft Teams + Skype para Business Plan 2, si se incluye en el otorgamiento de licencias.
@@ -117,7 +117,7 @@ El enrutamiento directo también admite usuarios con licencia para el plan de ll
 
 Combinar el plan de llamadas y la conectividad de enrutamiento directo para el mismo usuario es opcional, pero podría ser útil (por ejemplo, cuando se asigna al usuario un plan de llamadas de Microsoft pero quiere enrutar algunas llamadas con el SBC). Uno de los escenarios más comunes son las llamadas a PBX de terceros.  Con las PBX de terceros, todas las llamadas, excepto las llamadas a los teléfonos conectados a dichas PBX, se enrutan mediante el plan de llamadas de Microsoft, pero las llamadas a los teléfonos conectados a las PBX de terceros van a la SBC y, por lo tanto, permanecen dentro de la red empresarial y no en la RTC. 
 
-Para obtener más información sobre las licencias de sistema telefónico, consulte [sacar el máximo provecho de Office con](https://products.office.com/compare-all-microsoft-office-products?tab=2) [las opciones de Plan](https://technet.microsoft.com/library/office-365-plan-options.aspx)de office 365 y Office 365. 
+Para obtener más información sobre las licencias de sistema telefónico, consulte [sacar el máximo partido a](https://products.office.com/compare-all-microsoft-office-products?tab=2) [las opciones](https://technet.microsoft.com/library/office-365-plan-options.aspx)de Office y planes. 
 
 Para obtener más información sobre las licencias de sistema telefónico, consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
 
@@ -190,15 +190,15 @@ Microsoft está trabajando en la adición de entidades de certificación adicion
 
 ## <a name="sip-signaling-fqdns"></a>Señalización SIP: FQDN 
 
-El enrutamiento directo se ofrece en los siguientes entornos de Office 365:
-- Creación de inquilino
+El enrutamiento directo se ofrece en los siguientes entornos:
+- Microsoft 365 u Office 365
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
 
 Obtenga más información sobre [Office 365 y entornos gubernamentales de Estados Unidos](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) , como GCC, GCC High y DoD.
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Entornos de Office 365 y Office 365 GCC
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Entornos Microsoft 365, Office 365 y Office 365 GCC
 
 Los puntos de conexión para el enrutamiento directo son los tres FQDN siguientes:
 
@@ -251,8 +251,8 @@ Necesitas abrir puertos para todas estas direcciones IP en tu firewall para perm
 
 ## <a name="sip-signaling-ports"></a>Señalización SIP: puertos
 
-Debe usar los siguientes puertos para los entornos de Office 365 donde se ofrece un enrutamiento directo:
-- Creación de inquilino
+Debe usar los siguientes puertos para entornos de Microsoft 365 o de Office 365 donde se ofrece un enrutamiento directo:
+- Microsoft 365 u Office 365
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
@@ -282,7 +282,7 @@ Tenga en cuenta que los requisitos siguientes se aplican si desea implementar el
 
 El tráfico multimedia fluye hacia y desde un servicio independiente en la nube de Microsoft. Los intervalos de direcciones IP para el tráfico de medios son los siguientes.
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Entornos de Office 365 y Office 365 GCC
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Entornos Microsoft 365, Office 365 y Office 365 GCC
 
 - 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254).
 - 52.120.0.0/14 (direcciones IP de 52.120.0.1 a 52.123.255.254).
@@ -320,7 +320,7 @@ Ubicaciones en las que se han implementado los componentes SIP y el procesador d
 
 Ubicaciones en las que solo se implementan los procesadores multimedia (el flujo SIP se realiza a través del centro de centros de recursos más cercano):
 - Japón (centro de recursos de JP Oriente y oeste)
-- Australia (centros de TI de AU Oriente y oeste)
+- Australia (centros de TI de AU Oriente y sudeste)
 
 
 

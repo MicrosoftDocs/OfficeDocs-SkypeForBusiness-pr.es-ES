@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Vea cómo se seleccionan los idiomas del operador automático de audioconferencias para un número de audioconferencia en Microsoft Teams.
-ms.openlocfilehash: 37d430ba641277c7b72f921b06599f58cff4e4a0
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d7f6893bfc9c58131fe596597afc1ac90389d908
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140923"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691136"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Establecer los idiomas del operador automático para Audioconferencia en Microsoft Teams
 
@@ -63,7 +63,7 @@ Elija un idioma principal y hasta cuatro idiomas secundarios. El operador autom�
     
 - Los idiomas se pueden establecer para números de teléfono dedicados, pero no para compartidos.
     
-- Para ver una lista de países o regiones en la que está disponible la audioconferencia en Office 365 con Microsoft como proveedor, vea [Números de teléfono para audioconferencias](phone-numbers-for-audio-conferencing-in-teams.md).
+- Para ver una lista de países o regiones en los que está disponible la Conferencia de audio en Microsoft 365 u Office 365 con Microsoft como proveedor, consulte [números de teléfono para audioconferencia](phone-numbers-for-audio-conferencing-in-teams.md).
     
 ## <a name="want-to-use-windows-powershell"></a>¿Desea usar Windows PowerShell?
 
@@ -71,5 +71,5 @@ Para obtener más información, vea la [referencia de Microsoft Teams PowerShell
   
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar Audioconferencia en Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Probar o comprar audioconferencia en Microsoft 365 u Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

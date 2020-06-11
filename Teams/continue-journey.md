@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31f7c64e9e3d6587cd0f53a8672fb7c0dda88d0b
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 3eae061b901bba6fe7bf4208f6498597d824d363
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522813"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689466"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Cómo usar Microsoft Teams de forma eficaz
 
@@ -48,7 +48,7 @@ El estado de la red afecta a la experiencia del usuario. Cuando un usuario tiene
 Para obtener los máximos beneficios y resultados empresariales con Teams, los usuarios deben usarlos realmente. Sin embargo, el entusiasmo inicial tiende a Wane y los usuarios vuelven fácilmente a las formas de trabajar. Anime a la adopción por el usuario y mantenga el entusiasmo de los equipos con un plan de adopción continuo, que puede incluir:
 
 - Inscripción a los expertos para ayudar a repartir y fomentar a otros usuarios.
-- Consultar la [Guía de adopción de Office 365](https://go.microsoft.com/fwlink/?linkid=859045) para conocer sugerencias sobre el aumento de la implicación y la adopción de impulsos.
+- Consulta la [Guía de adopción de 365 de Microsoft](https://go.microsoft.com/fwlink/?linkid=859045) para conocer sugerencias sobre el aumento de la negociación y la adopción de impulsos.
 - Aprovechar el [Kit de éxito](https://aka.ms/TeamsCustomerSuccess) de los equipos para mejorar el conocimiento y compartir las mejores prácticas.
 - Implementar una [adopción formal y una estrategia de administración de cambios](http://www.successwithteams.com/) para ayudar a sostener el crecimiento de la adopción.
 

@@ -17,12 +17,12 @@ description: Aprenda a configurar el enrutamiento directo de las llamadas de Mic
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e0523086ab985a488da15305fffbed8c57b0dc
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 50e32c34b211766aa5fc3ad7732b1dd392ed8346
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232581"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690886"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -159,7 +159,7 @@ Use los siguientes cmdlets para agregar puertos, conmutadores, subredes y WAP al
 
 Use las siguientes directivas para configurar las llamadas de emergencia. Puede administrar estas directivas en el centro de administración de Microsoft Teams o mediante PowerShell.
 
-- **Política de enrutamiento de llamadas de emergencia** : solo se aplica al enrutamiento directo. Esta directiva configura los números de emergencia, las máscaras por número si así lo desea y la ruta RTC por número.  Puede asignar esta directiva a usuarios, a sitios de red o a ambos. (Planes de llamadas los clientes de Teams se habilitan automáticamente para llamadas de emergencia con los números de emergencia del país en función de su ubicación de uso de 365 de Office).  Para obtener más información, consulte [Administrar directivas de enrutamiento de llamadas de emergencia para enrutamiento directo](manage-emergency-call-routing-policies.md).
+- **Política de enrutamiento de llamadas de emergencia** : solo se aplica al enrutamiento directo. Esta directiva configura los números de emergencia, las máscaras por número si así lo desea y la ruta RTC por número.  Puede asignar esta directiva a usuarios, a sitios de red o a ambos. (Planes de llamadas los clientes de Teams se habilitan automáticamente para llamadas de emergencia con los números de emergencia del país en función de su ubicación de uso de Microsoft 365 o de Office 365).  Para obtener más información, consulte [Administrar directivas de enrutamiento de llamadas de emergencia para enrutamiento directo](manage-emergency-call-routing-policies.md).
 
 - **Política de llamadas de emergencia** : se aplica a los planes de llamadas y al enrutamiento directo. Esta directiva configura la experiencia de notificación del centro de seguridad cuando se realiza una llamada de emergencia. Puedes establecer a quién deseas notificar y cómo. Por ejemplo, para notificar automáticamente a la mesa de seguridad de la organización y hacer que escuchen en las llamadas de emergencia.  Esta Directiva se puede asignar a los usuarios o a los sitios de red o a ambos. Para obtener más información, consulte [Administrar directivas de llamadas de emergencia en Teams](manage-emergency-calling-policies.md).
 

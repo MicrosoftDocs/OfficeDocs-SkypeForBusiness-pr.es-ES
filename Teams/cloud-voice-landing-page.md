@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Obtenga más información sobre la característica de voz en la nube y comprenda las decisiones de implementación necesarias a las que se enfrentará.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 952eb7064844cf0e77e829cd2506c4303504074c
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 96d4f6b5e75e0f0f716b4f1b840b079996344cfb
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281675"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690796"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz en la nube de Microsoft Teams
 
@@ -43,7 +43,7 @@ Recomendamos que todas las organizaciones prosigan las decisiones básicas y, a 
 
 Los artículos siguientes proporcionan más información sobre cómo implementar y usar las características de voz en la nube en Teams:
 
-- [Sistema telefónico en Office 365](what-is-phone-system-in-office-365.md)
+- [Sistema telefónico en Microsoft 365 u Office 365](what-is-phone-system-in-office-365.md)
 - [Sistema telefónico con Planes de llamada](calling-plan-landing-page.md)
 - [Enrutamiento directo del Sistema telefónico](direct-routing-landing-page.md)
 - [Implementación de voz en la nube](cloud-voice-deployment.md)
@@ -57,12 +57,12 @@ Estas son las opciones que la mayoría de organizaciones cambia (si la configura
 
 ## <a name="phone-system-office-365"></a>Sistema telefónico (Office 365)
 
-Sistema telefónico es la tecnología de Microsoft para habilitar el control de llamadas y las capacidades de PBX (Private Branch Exchange) en la nube de Office 365. El sistema telefónico le permite reemplazar el sistema de central de conmutación (PBX) existente por un conjunto de características que se proporcionan directamente desde Office 365 y estrechamente integradas en la experiencia de productividad de la nube de la empresa.
+Sistema telefónico es la tecnología de Microsoft para habilitar el control de llamadas y las capacidades de la central de conmutación (PBX) en la nube de Microsoft 365 o de Office 365. El sistema telefónico le permite reemplazar el sistema de central de conmutación (PBX) existente por un conjunto de características que se proporcionan directamente desde Microsoft 365 u Office 365 y están estrechamente integradas en la experiencia de productividad de nube de la empresa.
 
 
 |Pregúntese lo siguiente:|Acción |
 |:------------|:-------|
-|¿En qué ubicaciones de usuario o oficinas implementaré el sistema telefónico? |Para obtener más información sobre el sistema telefónico, consulte [Qué es el sistema telefónico en Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
+|¿En qué ubicaciones de usuario o oficinas implementaré el sistema telefónico? |Para obtener más información sobre el sistema telefónico, consulte [Qué es el sistema telefónico en Microsoft 365 u Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
 |||
 
 ## <a name="connection-to-the-public-switched-telephone-network-pstn"></a>Conexión a la red de telefonía pública conmutada (RTC)
@@ -120,7 +120,7 @@ Microsoft tiene dos tipos de números telefónicos disponibles: números de *sus
 
 ### <a name="dial-plans"></a>Planes de marcado
 
-Un plan de marcado de la característica de sistema telefónico de Office 365 es un conjunto de reglas de normalización que convierten los números de teléfono marcados en un formato alternativo (normalmente, formato E. 164) para la autorización de llamadas y el enrutamiento de llamadas.
+Un plan de marcado de la característica del sistema telefónico de Microsoft 365 u Office 365 es un conjunto de reglas de normalización que traducen números de teléfono marcados a un formato alternativo (por lo general, formato E. 164) para la autorización de llamadas y el enrutamiento de llamadas.
 
 Para obtener más información acerca de los planes de marcado, vea [¿Qué son los planes de marcado?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans).
 

@@ -17,12 +17,12 @@ description: Aprenda a usar los controles de PowerShell para administrar Microso
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 32370c234e46b860ab026efd6b284d3db3a1458e
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: c74f27af718b10aa033c51d4b42d1a3d15bcbc1b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951255"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690956"
 ---
 # <a name="teams-powershell-overview"></a>Información general de Teams PowerShell
 
@@ -44,9 +44,9 @@ Leer [use los roles de administrador de Microsoft Teams para administrar los equ
 
 Los cmdlets para crear y administrar equipos se encuentran en el [Módulo Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). 
 
-Los equipos están respaldados por grupos de O365, por lo que al crear un equipo, se crea un grupo. Hay un conjunto de cmdlets para operar en el equipo principal y su configuración``new-team``(, ``get-team``, ``set-team``), administrar usuarios de equipo (``add-teamuser``, ``remove-teamuser``), así como cmdlets para administrar los canales del equipo (``new-teamchannel``, ``remove-teamchannel``). Todos estos cmdlets se pueden ejecutar como usuarios finales, pero solo funcionarán en los equipos de los que es miembro o de quien es miembro. Si es un administrador global o un administrador de servicios de equipo, podrá actuar en todos los equipos de su organización.
+Los equipos están respaldados por grupos de Microsoft 365, por lo que al crear un equipo, se crea un grupo. Hay un conjunto de cmdlets para operar en el equipo principal y su configuración ( ``new-team`` , ``get-team`` , ``set-team`` ), administrar usuarios de equipo ( ``add-teamuser`` , ``remove-teamuser`` ), así como cmdlets para administrar los canales del equipo ( ``new-teamchannel`` , ``remove-teamchannel`` ). Todos estos cmdlets se pueden ejecutar como usuarios finales, pero solo funcionarán en los equipos de los que es miembro o de quien es miembro. Si es un administrador global o un administrador de servicios de equipo, podrá actuar en todos los equipos de su organización.
 
-> El **GROUPID** usado en los cmdlets del módulo Microsoft Teams PowerShell es el mismo **Identity** que la propiedad Identity ``Get-UnifiedGroup`` devuelta por el módulo de PowerShell de Exchange.
+> El **GROUPID** usado en los cmdlets del módulo Microsoft Teams PowerShell es el mismo que la propiedad **Identity** devuelta por ``Get-UnifiedGroup`` el módulo de PowerShell de Exchange.
 
 ### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>Diferencias entre la versión preliminar y el módulo disponible en general de Microsoft Teams PowerShell
 
@@ -84,30 +84,30 @@ Cuando publicamos nuestra versión general disponible de nuestro módulo de Powe
 Use los cmdlets del [módulo de cmdlet de Skype empresarial](https://www.microsoft.com/download/details.aspx?id=39366) para administrar directivas para usuarios individuales.
 
 > [!NOTE]
-> Los cmdlets estarán disponibles en la sesión de PowerShell una vez que se conecte a Skype empresarial online. Para obtener más información, vea [administrar Skype empresarial online con Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
+> Los cmdlets estarán disponibles en la sesión de PowerShell una vez que se conecte a Skype empresarial online. Para obtener más información, vea [administrar Skype empresarial online con Microsoft 365 u Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
 
 Una directiva es un grupo de opciones que se pueden aplicar de forma granular a usuarios individuales. Cada tipo de directiva tiene su propio conjunto de cmdlets para crear, ver, eliminar y actualizar las directivas en sí y, a continuación, asignar esas directivas a los usuarios. La estructura general es la siguiente:
 
-- Comandos GET (por ejemplo, ``Get-CsTeamsMeetingPolicy``): devuelva los documentos de directiva que están disponibles para que los asigne en su organización, tanto las directivas creadas por Microsoft para usted como las directivas personalizadas que haya creado.
-   > Si desea buscar solo las directivas personalizadas que ha creado en su organización, puede usar ``-Filter "tag:*"``.
+- Comandos GET (por ejemplo, ``Get-CsTeamsMeetingPolicy`` ): devuelva los documentos de directiva que están disponibles para que los asigne en su organización, tanto las directivas creadas por Microsoft para usted como las directivas personalizadas que haya creado.
+   > Si desea buscar solo las directivas personalizadas que ha creado en su organización, puede usar ``-Filter "tag:*"`` .
 
-- NUEVOS comandos (por ejemplo, ``New-CsTeamsMeetingPolicy``): le permita crear nuevas directivas para su organización que estarán disponibles para asignarlas a los usuarios de su organización. No todas las directivas admiten la creación de directivas personalizadas. A menudo, esto sirve para asegurarse de que las directivas que usa en su organización tengan una combinación de configuración compatible.
+- NUEVOS comandos (por ejemplo, ``New-CsTeamsMeetingPolicy`` ): le permita crear nuevas directivas para su organización que estarán disponibles para asignarlas a los usuarios de su organización. No todas las directivas admiten la creación de directivas personalizadas. A menudo, esto sirve para asegurarse de que las directivas que usa en su organización tengan una combinación de configuración compatible.
 
-- ESTABLECER comandos (por ejemplo, ``Set-CsTeamsMeetingPolicy``): permite establecer valores concretos en una directiva determinada. Algunas directivas no tienen comandos SET disponibles o contienen parámetros que no se pueden personalizar en la Directiva. Cada descripción de PowerShell llamará a los parámetros que no se pueden personalizar. 
-   > Para editar la Directiva que se asignará de forma predeterminada a los usuarios de su organización que no tienen una directiva personalizada asignada ``Set-Cs<PolicyName> -Identity Global``, ejecute.
+- ESTABLECER comandos (por ejemplo, ``Set-CsTeamsMeetingPolicy`` ): permite establecer valores concretos en una directiva determinada. Algunas directivas no tienen comandos SET disponibles o contienen parámetros que no se pueden personalizar en la Directiva. Cada descripción de PowerShell llamará a los parámetros que no se pueden personalizar. 
+   > Para editar la Directiva que se asignará de forma predeterminada a los usuarios de su organización que no tienen una directiva personalizada asignada, ejecute ``Set-Cs<PolicyName> -Identity Global`` .
 
-- QUITAR comandos (por ejemplo, ``Remove-CsTeamsMeetingPolicy``): puede usar este cmdlet para eliminar una directiva personalizada que se haya creado en su inquilino. Si elimina una directiva personalizada que se ha asignado al menos a un usuario de su organización, ese usuario revertirá a la directiva global.
-   > En realidad, no puede quitar la directiva global de su organización, pero si desea restablecer la directiva global de su organización a la configuración predeterminada proporcionada por Microsoft, puede ejecutar ``Remove-Cs<PolicyName> -Identity Global``.
+- QUITAR comandos (por ejemplo, ``Remove-CsTeamsMeetingPolicy`` ): puede usar este cmdlet para eliminar una directiva personalizada que se haya creado en su inquilino. Si elimina una directiva personalizada que se ha asignado al menos a un usuario de su organización, ese usuario revertirá a la directiva global.
+   > En realidad, no puede quitar la directiva global de su organización, pero si desea restablecer la directiva global de su organización a la configuración predeterminada proporcionada por Microsoft, puede ejecutar ``Remove-Cs<PolicyName> -Identity Global`` .
 
-- Comando GRANT (por ejemplo, ``Grant-CsTeamsMeetingPolicy``): permite asignar una directiva a un usuario en particular.
-   > Para quitar una asignación de directiva personalizada y hacer que el usuario vuelva a la directiva predeterminada de su organización, ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null``ejecute.
+- Comando GRANT (por ejemplo, ``Grant-CsTeamsMeetingPolicy`` ): permite asignar una directiva a un usuario en particular.
+   > Para quitar una asignación de directiva personalizada y hacer que el usuario vuelva a la directiva predeterminada de su organización, ejecute ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` .
 
 > [!TIP]
-> No todas las directivas permiten la creación de directivas personalizadas y algunas directivas tienen una configuración que no se puede personalizar (por lo que se puede ver la configuración, pero no ``set-`` se ``new-``puede establecer un valor personalizado durante y). La documentación del cmdlet específico llamará si los parámetros no están disponibles para su uso por parte de los clientes.
+> No todas las directivas permiten la creación de directivas personalizadas y algunas directivas tienen una configuración que no se puede personalizar (por lo que se puede ver la configuración, pero no se puede establecer un valor personalizado durante ``set-`` y ``new-`` ). La documentación del cmdlet específico llamará si los parámetros no están disponibles para su uso por parte de los clientes.
 
 Parámetros comunes:
 
-- **Identity**: para ``Get-``, ``Set-``, ``New-``, y ``Remove-``, el parámetro **Identity** siempre hará referencia a una instancia de Policy específica. En ``Grant``el caso de, el parámetro **Identity** hace referencia a un objeto de usuario específico al que se aplica la Directiva.
+- **Identity**: para ``Get-`` , ``Set-`` , ``New-`` , y ``Remove-`` , el parámetro **Identity** siempre hará referencia a una instancia de Policy específica. En ``Grant`` el caso de, el parámetro **Identity** hace referencia a un objeto de usuario específico al que se aplica la Directiva.
 
 <!--more info here?-->
 
@@ -117,10 +117,10 @@ Los cmdlets para administrar la configuración están en el [módulo de cmdlet d
 
 Las configuraciones son cubos de configuración mantenidos en el servicio que no se pueden especificar en un nivel de usuario. La configuración siempre se aplica en toda la organización. Su configuración global es la única configuración eficaz de su organización. Cada tipo de configuración incluye dos cmdlets principales:
 
-- ``Get-Cs<ConfigurationName>``(por ejemplo, ``Get-CsTeamsClientConfiguration``): 
+- ``Get-Cs<ConfigurationName>``(por ejemplo, ``Get-CsTeamsClientConfiguration`` ): 
 
-- ESTABLECER comandos (por ejemplo, ``Set-CsTeamsClientConfiguration``): establezca las propiedades en la configuración de ese tipo. Especifique los parámetros que desea modificar.
-   > Puede hacer referencia a la configuración que está modificando de una de estas dos maneras: especificando-**Identity global**o ejecutando ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``.
+- ESTABLECER comandos (por ejemplo, ``Set-CsTeamsClientConfiguration`` ): establezca las propiedades en la configuración de ese tipo. Especifique los parámetros que desea modificar.
+   > Puede hacer referencia a la configuración que está modificando de una de estas dos maneras: especificando-**Identity global**o ejecutando ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` .
 
 ## <a name="other-powershell-tools"></a>Otras herramientas de PowerShell
 

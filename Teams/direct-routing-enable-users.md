@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Aprenda a habilitar el enrutamiento directo de los usuarios de Microsoft Phone.
-ms.openlocfilehash: 10c62d14f283d565765a47e4c07504bc9bffa720
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 2ae485398cef1cef2444de07dcabc4bf3f949ad5
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160064"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691376"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Habilitar a los usuarios para el enrutamiento directo, la voz y el buzón de voz
 
@@ -37,17 +37,17 @@ Para obtener información sobre todos los pasos necesarios para configurar el en
 
 Cuando esté listo para habilitar a los usuarios para el enrutamiento directo, siga estos pasos: 
 
-1. Cree un usuario en Office 365 y asigne una licencia de sistema telefónico. 
+1. Cree un usuario en Microsoft 365 u Office 365 y asigne una licencia de sistema telefónico. 
 2. Asegúrese de que el usuario se ha alojado en Skype empresarial online. 
 3. Configure el número de teléfono y habilite la telefonía IP empresarial y el buzón de voz. 
 4. Asigne el modo solo de Teams a los usuarios.
 
-## <a name="create-a-user-in-office-365-and-assign-the-license"></a>Crear un usuario en Office 365 y asignar la licencia 
+## <a name="create-a-user-and-assign-the-license"></a>Crear un usuario y asignar la licencia 
 
-Hay dos opciones para crear un nuevo usuario en Office 365. Sin embargo, Microsoft recomienda que su organización elija una opción para evitar problemas de enrutamiento: 
+Existen dos opciones para crear un nuevo usuario en Microsoft 365 u Office 365. Sin embargo, Microsoft recomienda que su organización elija una opción para evitar problemas de enrutamiento: 
 
 - Crear el usuario en Active Directory local y sincronizar el usuario con la nube. Consulte [integrar los directorios locales con Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
-- Cree el usuario directamente en el portal de administrador de Office 365. Consulte [Agregar usuarios individualmente o de forma masiva a Office 365: ayuda de administración](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
+- Cree directamente el usuario en el centro de administración de Microsoft 365. Consulte [Agregar usuarios individualmente o de forma masiva a Microsoft 365 u Office 365: ayuda de administración](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
 Si su implementación de Skype empresarial online coexiste con Skype empresarial 2015 o Lync 2010 o 2013 local, la única opción admitida es crear el usuario en Active Directory local y sincronizar el usuario con la nube (opción 1). 
 
@@ -97,7 +97,7 @@ El enrutamiento directo le permite finalizar la llamada a un usuario y enviarlo 
 
 El enrutamiento directo requiere que los usuarios estén en el modo solo de equipos para garantizar las llamadas entrantes en el cliente de Teams. Para poner los usuarios en modo de solo equipos, asígnelos a la instancia "UpgradeToTeams" de TeamsUpgradePolicy. Para obtener más información, consulte [Guía de actualización para administradores de ti](upgrade-to-teams-on-prem-overview.md). Si su organización usa Skype empresarial Server o Skype empresarial online, consulte el artículo siguiente para obtener información sobre la interoperabilidad entre Skype y Teams: [migración y interoperabilidad con Skype empresarial](migration-interop-guidance-for-teams-with-skype.md).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planear el enrutamiento directo](direct-routing-plan.md)
 

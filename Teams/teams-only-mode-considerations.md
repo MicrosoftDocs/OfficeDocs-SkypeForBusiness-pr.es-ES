@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882bb40d1d7f300f51fded6321f29bafd7f8ba92
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 18f880e9b6762371f2a936ff0901db542d541748
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522503"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690926"
 ---
 # <a name="teams-only-mode-considerations"></a>Consideraciones del modo Teams solo
 
-Si es un administrador de su organización de Office 365, ahora verá la opción de actualizar al modo de solo equipos en el centro de administración de Microsoft Teams. Con esta funcionalidad, puede actualizar usuarios individuales o, de forma alternativa, todo el inquilino.  
+Si es administrador de su organización de Microsoft 365 u Office 365, ahora verá la opción actualizar al modo solo de Teams en el centro de administración de Microsoft Teams. Con esta funcionalidad, puede actualizar usuarios individuales o, de forma alternativa, todo el inquilino.  
 
-La actualización al modo solo de Teams ofrece a los usuarios todos los beneficios de Microsoft Teams, el hub para el trabajo en equipo en Office 365, a través de una sola experiencia de cliente. Además, los usuarios del modo solo de equipos recibirán todas las llamadas y chats en Teams, independientemente de si el remitente usa Skype empresarial o Teams, y de las ventajas de la compatibilidad con la interoperabilidad y la Federación.
+La actualización al modo solo de Teams ofrece a los usuarios todos los beneficios de Microsoft Teams, el hub para el trabajo en equipo en Microsoft 365 u Office 365, a través de una sola experiencia de cliente. Además, los usuarios del modo solo de equipos recibirán todas las llamadas y chats en Teams, independientemente de si el remitente usa Skype empresarial o Teams, y de las ventajas de la compatibilidad con la interoperabilidad y la Federación.
 
 Aunque miles de clientes se han actualizado correctamente a Microsoft Teams, hay consideraciones que pueden influir en la escala de tiempo de actualización de su organización y en la experiencia del usuario a medida que lo desee. En particular, tener la opción de actualizar no significa necesariamente que su organización esté lista para este cambio. Para conseguir la mejor experiencia de usuario posible, confirme que Teams cumple los requisitos de colaboración y comunicación, asegúrese de que su red está lista para dar soporte a Teams e implemente su plan de preparación de usuarios antes de actualizar a los usuarios a Teams. 
 
@@ -54,7 +54,7 @@ Aunque miles de clientes se han actualizado correctamente a Microsoft Teams, hay
  - Office 365 Germany
  - El inquilino de Skype empresarial se hospeda en Corea del Sur **y** la organización requiere que los datos de Teams se almacenen en Corea del sur. Actualmente, las organizaciones con datos de Skype empresarial almacenados en Corea del sur que actualicen a teams tendrán sus datos de equipo almacenados en la región de Asia Datacenter, no en la región del centro de datos de Corea del sur.
 
-**Consideraciones específicas del usuario**: algunos escenarios de usuario siguen evolucionando, y los administradores pueden decidir aplazar temporalmente la actualización de determinados usuarios al actualizar otros usuarios de la organización. En particular, seguimos trabajando en situaciones de direccionamiento para usuarios cuyo dispositivo principal está basado en VDI. Consulte el sitio de la [Guía básica de Office 365](https://www.microsoft.com/microsoft-365/roadmap) para obtener anuncios.
+**Consideraciones específicas del usuario**: algunos escenarios de usuario siguen evolucionando, y los administradores pueden decidir aplazar temporalmente la actualización de determinados usuarios al actualizar otros usuarios de la organización. En particular, seguimos trabajando en situaciones de direccionamiento para usuarios cuyo dispositivo principal está basado en VDI. Visite el sitio de la [Guía de Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) para obtener anuncios.
 
 > [!NOTE]
 > Antes de pasar al modo solo para equipos, necesita reemplazar o actualizar los dispositivos que no son compatibles con Teams. 

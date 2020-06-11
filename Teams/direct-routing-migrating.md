@@ -16,27 +16,27 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Descubra qué necesita para migrar al enrutamiento directo en la configuración de Skype Empresarial Online y Teams.
-ms.openlocfilehash: fa7a3e09d4f79328545bff29b2f440ba0bfe6990
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 11240c3a1067885dbf34499a4e131185acccbf52
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888589"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691366"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrar a enrutamiento directo
 
 Este artículo describe qué necesita para migrar al enrutamiento directo en la configuración de Skype Empresarial Online y Microsoft Teams. Este artículo aborda la migración desde...: 
  
-- Sistema telefónico de Office 365 con planes de llamada (para Teams y Skype Empresarial Online) 
-- Sistema telefónico de Office 365 con una conectividad RTC local en Skype Empresarial Server (para Skype Empresarial Online)  
-- Sistema telefónico de Office 365 con una conectividad RTC local con la Edición de conector de nube (para Skype Empresarial Online)
+- Sistema telefónico con planes de llamadas (para equipos y Skype empresarial online) 
+- Sistema telefónico con conectividad RTC local en Skype empresarial Server (para Skype empresarial online)  
+- Sistema telefónico con conectividad RTC local mediante la edición Cloud Connector Edition (para Skype empresarial online)
 
 
 Además de estos pasos de configuración, también debe configurar el controlador de borde de sesión (SBC) para redirigir las llamadas a la nueva ruta. Sin embargo, esto se escapa al ámbito de este documento. Si desea más información sobre este tema, consulte la documentación de su proveedor SBC.  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>Estado final del aprovisionamiento de usuarios para varias opciones de conectividad RTC 
 
-En la tabla siguiente se muestra el estado final de un usuario aprovisionado para las opciones de conectividad RTC seleccionadas con el Sistema telefónico Office 365. Solo se muestran los atributos relevantes para los servicios de voz.
+En la tabla siguiente se muestra el estado final de un usuario aprovisionado para las opciones de conectividad RTC seleccionadas con el sistema telefónico. Solo se muestran los atributos relevantes para los servicios de voz.
 
 |Atributos de objeto de usuario |Sistema telefónico con Planes de llamada|Sistema telefónico con una conectividad RTC local en Skype Empresarial Server|Sistema telefónico con conectividad con RTC local mediante conector de nube|Sistema telefónico con conectividad RTC local mediante enrutamiento directo|
 |---|---|---|---|---|

@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e754177de6f08476c9160254f2334f6f3ac18d3
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: de73dc3edff66bfe8b427e570bfc661e1dec46b4
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903145"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689686"
 ---
 <a name="teams-experience-in-a-microsoft-365-or-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Experiencia de Teams en un inquilino multigeo de Microsoft 365 u Office 365 OneDrive y SharePoint Online
 ===========================================
 
-Microsoft Teams es un software de chats grupales, el hub para el trabajo en equipo de Office 365. Está alimentado por el servicio de grupos de Microsoft 365, junto con SharePoint Online y OneDrive para la empresa para la experiencia de los archivos. En un inquilino multifunción de OneDrive para la empresa o SharePoint Online, en el que el inquilino se extiende a muchas ubicaciones geográficas, como Norteamérica, Europa y Australia, la experiencia de archivos subyacentes es la de multigeo, por lo que la experiencia de los equipos con la colaboración de archivos también está preparada para varios países. Esta es una función líder de vanguardia para que los equipos se encaran de archivos alojados en varios GEOS en la experiencia de los archivos nativos.
+Microsoft Teams es un software de chats grupales, el hub para el trabajo en equipo de Microsoft 365 y Office 365. Está alimentado por el servicio de grupos de Microsoft 365, junto con SharePoint Online y OneDrive para la empresa para la experiencia de los archivos. En un inquilino multifunción de OneDrive para la empresa o SharePoint Online, en el que el inquilino se extiende a muchas ubicaciones geográficas, como Norteamérica, Europa y Australia, la experiencia de archivos subyacentes es la de multigeo, por lo que la experiencia de los equipos con la colaboración de archivos también está preparada para varios países. Esta es una función líder de vanguardia para que los equipos se encaran de archivos alojados en varios GEOS en la experiencia de los archivos nativos.
 
 Por ejemplo, en una empresa de Contoso con Europa como una geo de satélite y Norteamérica como la geo central, un usuario de satélite europeo verá sus archivos de OneDrive en la pestaña archivos en el panel izquierdo, aunque los archivos se hospeden en la ubicación de datos de Europa y los Estados Unidos sean la ubicación central del inquilino. Además, el usuario puede acceder a los archivos usados recientemente en el blade de la vista recientes. Los archivos recientes pueden incluir archivos compartidos con el usuario de los usuarios en otros GEOS y podrían ser maestros en otras ubicaciones geográficas a las que se extiende el inquilino. 
 
@@ -38,4 +38,4 @@ Debido a que un inquilino multilingüe es un único inquilino global, durante la
 
 Tenga en cuenta que las conversaciones en conversaciones y notas de mensajería instantánea de reuniones dentro de la experiencia de Teams no son muy importantes y se guardan solo dentro de la ubicación central del inquilino. Por lo general, las conversaciones de chat no se aplican a las necesidades de residencia de datos.
 
-Para obtener más información sobre Office 365 multi-Geo, consulte la [Página de funciones multigeo de Microsoft](https://aka.ms/multi-geo).
+Para obtener más información sobre multi-Geo, consulte la [Página de funciones multigeo de Microsoft](https://aka.ms/multi-geo).

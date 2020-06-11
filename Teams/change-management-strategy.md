@@ -15,12 +15,12 @@ description: Cree una estrategia de administración de cambios para Microsoft Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 396649f40a3e3413de67aea61eca7f2feb7dac4b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 93cc8c9b56381e656cbcfbe2c47aef0e10593e45
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778386"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690486"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Crear una estrategia de administración de cambios para Microsoft Teams
 =======================================================
@@ -61,8 +61,8 @@ La primera regla para que la adopción se realice correctamente es crear un equi
 |  |  |
 |---------|---------|
 |![Icono de patrocinadores ejecutivos](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |Los **patrocinadores ejecutivos** son los líderes clave dentro de la organización y su participación es esencial para fomentar la adopción por parte de los empleados. Ellos tienen la mayor influencia sobre la cultura empresarial y pueden comunicar activamente el valor y los beneficios de una nueva tecnología y metodología.         |
-|![Icono de propietarios de servicios](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Los **propietarios de servicios** son responsables de garantizar que las personas utilicen el servicio y se beneficien de él. Establecer propietarios de servicios dentro de la organización es importante para garantizar que se cumplan los objetivos de negocio establecidos para Office 365.         |
-|![Icono de expertos.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Obtener el consenso de todos los usuarios de la organización es un reto. Los **expertos** pueden ayudar a mitigar este reto y tienen un papel importante en la adopción de Office 365. Tienen amplios conocimientos, se comprometen a transmitir su experiencia y están dispuestos a proporcionar formación y asistencia a sus pares. Ayudan a adaptar Office 365 a la realidad de su departamento o equipo.         |
+|![Icono de propietarios de servicios](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Los **propietarios del servicio** son responsables de asegurar que los usuarios usen el servicio y obtener valor de él. La configuración de los propietarios de servicio de su organización es importante para garantizar que los objetivos empresariales establecidos para Microsoft 365 u Office 365 se hayan realizado.         |
+|![Icono de expertos.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Adquirir entre todos los usuarios de una organización es un reto. Los **campeones** pueden ayudar a aliviar este reto y desempeñar un papel importante en la adopción de Microsoft 365 u Office 365. Son expertos, comprometidos con el fin de mejorar su experiencia y están dispuestos a proporcionar la preparación del mismo nivel y la asistencia. Ayudan a traducir Microsoft 365 u Office 365 a la realidad de su departamento o equipo.         |
 
 Le recomendamos una reunión regular de estas partes interesadas para mantenerlos al día sobre el progreso de su programa. Iniciar un "Consejo de colaboración" para permitir la retroalimentación y la discusión puede ser una herramienta útil según la cultura de su empresa.
 
@@ -145,7 +145,7 @@ Al igual que en cualquier campaña de comunicaciones y adopción, querrá identi
 <a name="measure-and-share-success"></a>Medir y compartir el éxito
 -------------------------------------------------
 
-En su equipo de proyecto debe haber administradores de TI de su organización. Estas personas tendrán acceso a los informes de uso de Office 365 Microsoft teams que están integrados en la experiencia del centro de administración de Microsoft 365. Esta información muestra el uso que se hace de Microsoft Teams en su empresa. También recomendamos recopilar comentarios directamente de los usuarios en relación con su experiencia de Teams y otras ideas que puedan tener sobre su uso. Compartir estos ejemplos reales de su propia empresa es muy valioso para lograr un cambio sostenido a largo plazo en su comunidad de usuarios.  
+En su equipo de proyecto debe haber administradores de TI de su organización. Estas personas tendrán acceso a los informes de uso de Microsoft Teams 365 u Office 365 que están integrados en la experiencia del centro de administración de Microsoft 365. Esta información muestra el uso que se hace de Microsoft Teams en su empresa. También recomendamos recopilar comentarios directamente de los usuarios en relación con su experiencia de Teams y otras ideas que puedan tener sobre su uso. Compartir estos ejemplos reales de su propia empresa es muy valioso para lograr un cambio sostenido a largo plazo en su comunidad de usuarios.  
 
 Obtener más información sobre los informes de uso de Microsoft Teams en el [centro de](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) administración de Microsoft 365
 
@@ -154,8 +154,8 @@ Obtener más información sobre los informes de uso de Microsoft Teams en el [ce
 
 ## <a name="ongoing-adoption"></a>Adopción continua
 
-Impulsar cambios en una organización no es un hecho puntual, sino una actividad continua. La reunión de puesta en marcha es solo el principio del proceso de facilitación de los recursos que necesitan las personas para colaborar con mayor eficacia. Es importante planificar determinados momentos en este recorrido donde se destaquen los éxitos, se presenten nuevas características y se logre conectar con su estrategia de servicio de Office 365. Su elaboración correrá a cargo de su departamento de TI. Asegúrese de que sus usuarios están involucrados en el proyecto y no desbordados para reducir los signos de fatiga frente al cambio y apoyarles a la hora de dejar atrás antiguos hábitos, como el envío de datos adjuntos por correo electrónico, para adoptar algo nuevo, como el almacenamiento de documentos en la nube.
+Impulsar cambios en una organización no es un hecho puntual, sino una actividad continua. La reunión de puesta en marcha es solo el principio del proceso de facilitación de los recursos que necesitan las personas para colaborar con mayor eficacia. Es importante planificar los momentos de este viaje que resaltan sus éxitos, introducen nuevas características y se conectan con su estrategia general de servicio de Microsoft 365 u Office 365, que su Departamento de ti creará. Asegúrese de que sus usuarios están involucrados en el proyecto y no desbordados para reducir los signos de fatiga frente al cambio y apoyarles a la hora de dejar atrás antiguos hábitos, como el envío de datos adjuntos por correo electrónico, para adoptar algo nuevo, como el almacenamiento de documentos en la nube.
 
-Comparta sus preguntas relacionadas con la adopción del servicio de Teams y Office 365 en la [comunidad para impulsar la adopción](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) en el sitio de la comunidad técnica de Microsoft. Estamos siempre deseando conocer su opinión y ayudarle en su proceso de adopción.  
+Comparta sus preguntas sobre la adopción de equipos de Teams y Microsoft 365 u Office 365 en la [comunidad impulsora](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) de la adopción en el sitio de la comunidad técnica de Microsoft. Estamos siempre deseando conocer su opinión y ayudarle en su proceso de adopción.  
 
 

@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Aprenda a usar el centro de administración de Microsoft Teams o Windows PowerShell para crear y administrar planes de marcado (planes de marcado de llamadas RTC).
-ms.openlocfilehash: 50cdbaf9fd1e5ae10eca20c0f547dce29d606983
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 966ac2e21d3bc57dd32a0b2732e0be285b9fdf0d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902025"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691346"
 ---
 # <a name="create-and-manage-dial-plans"></a>Crear y administrar planes de marcado
 
@@ -36,7 +36,7 @@ Después de planear los planes de marcado de su organización y de haber averigu
 
 ### <a name="create-a-dial-plan"></a>Crear un plan de marcado
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**plan de marcado**de **voz** > .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a plan de marcado de **voz**  >  **Dial plan**.
 2. Haga clic en **Agregar**y, a continuación, escriba un nombre y una descripción para el plan de marcado.
     ![Captura de pantalla que muestra la página Agregar para crear un plan de marcado](media/create-dial-plan.png)
 3. En **detalles del plan de marcado**, especifique un prefijo de marcado externo si los usuarios necesitan marcar uno o varios dígitos iniciales adicionales (por ejemplo, 9) para obtener una línea externa. Para ello, haga lo siguiente:
@@ -56,7 +56,7 @@ Después de planear los planes de marcado de su organización y de haber averigu
 
 ### <a name="edit-a-dial-plan"></a>Editar un plan de marcado
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**plan de marcado**de **voz** > .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a plan de marcado de **voz**  >  **Dial plan**.
 2. Seleccione el plan de marcado haciendo clic a la izquierda del nombre del plan de marcado y, a continuación, haga clic en **Editar**.
 3. Realice los cambios que desee y, a continuación, haga clic en **Guardar**.
 
@@ -74,7 +74,7 @@ Después de planear los planes de marcado de su organización y de haber averigu
 
  **Comprobar que está ejecutando Windows PowerShell versión 3,0 o posterior**
   
-1. Para comprobar que está ejecutando la versión 3,0 o superior: **menú** > inicio de**Windows PowerShell**.
+1. Para comprobar que está ejecutando la versión 3,0 o superior: **menú Inicio**de  >  **Windows PowerShell**.
     
 2. Para comprobar la versión, escriba  _Get-Host_ en la ventana **Windows PowerShell**.
     
@@ -82,11 +82,11 @@ Después de planear los planes de marcado de su organización y de haber averigu
     
 4. También tendrá que instalar el módulo Windows PowerShell para Skype empresarial online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype empresarial online. Puede descargar este módulo, que solo se admite en equipos de 64 de bits, en el [módulo de Windows PowerShell para Skype empresarial online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo si se le pide.
     
-Para obtener más información, vea [conectarse a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+Para obtener más información, vea [conectarse a todos los servicios de Microsoft 365 u Office 365 en una sola ventana de Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
   
  **Iniciar una sesión de Windows PowerShell**
   
-1. Haga clic en **iniciar** > **Windows PowerShell**.
+1. Haga clic en **iniciar**  >  **Windows PowerShell**.
     
 2. En la ventana de **Windows PowerShell** , conéctese a Microsoft 365 u Office 365 ejecutando:
     

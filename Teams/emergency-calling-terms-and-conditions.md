@@ -22,20 +22,20 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Descubre cómo los servicios de emergencia (911) difieren de los servicios telefónicos tradicionales y cómo hacer una llamada. '
-ms.openlocfilehash: 5a6f0b45fdf31ffbb1c0c5820a81326772610fb3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 70978907e8fffa74a7284b3c0179088287a2b181
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834970"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691456"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Términos y condiciones de las llamadas de emergencias
 
 ## <a name="important-information"></a>INFORMACIÓN IMPORTANTE
 
-Las llamadas a servicios de emergencia funcionan de manera diferente en los planes de llamadas de Office 365 que en los servicios telefónicos tradicionales. Es importante que comprenda estas diferencias y las comunique a todos los usuarios con planes de llamadas en Office 365. Usted reconoce y acepta que ha leído y entendido las diferencias en nuestros servicios de emergencia y lo proporcionará a cada usuario con planes de llamadas en Office 365.
+Las llamadas a servicios de emergencia funcionan de manera diferente con los planes de llamadas en Microsoft 365 u Office 365 que en los servicios telefónicos tradicionales. Es importante que comprenda estas diferencias y las comunique a todos los usuarios con planes de llamadas en Microsoft 365 u Office 365. Usted reconoce y acepta que ha leído y entendido las diferencias en nuestras llamadas de servicios de emergencia y lo proporcionará a cada usuario con planes de llamadas en Microsoft 365 u Office 365.
   
-Las diferencias en nuestras capacidades de llamadas a servicios de emergencia incluyen lo siguiente: (i) es posible que Skype para empresas y equipos no conozcan la ubicación real de las llamadas de servicios de emergencia, lo cual podría dar lugar a que la llamada se dirija al centro equivocado de llamadas de servicios de emergencia o a los servicios de emergencia enviándose a una ubicación incorrecta; (II) si el cliente de Teams del usuario está desconectado, o si el dispositivo del usuario no puede obtener acceso a Internet por algún motivo, como una interrupción de la red o un corte de energía, las llamadas de servicios de emergencia a través del sistema telefónico en Office 365 no son compatibles y no se espera que funcionen; y (III) aunque los planes de llamadas en Office 365 se pueden usar en cualquier lugar del mundo donde esté disponible una conexión a Internet, los usuarios no deberían llamar a servicios de emergencia desde una ubicación fuera de su país o región, ya que es probable que la llamada no se dirija al centro de llamadas adecuado de ese país o región.
+Las diferencias en nuestras capacidades de llamadas a servicios de emergencia incluyen lo siguiente: (i) es posible que Skype para empresas y equipos no conozcan la ubicación real de las llamadas de servicios de emergencia, lo cual podría dar lugar a que la llamada se dirija al centro equivocado de llamadas de servicios de emergencia o a los servicios de emergencia enviándose a una ubicación incorrecta; (II) si el cliente de Teams del usuario está desconectado, o si el dispositivo del usuario no puede obtener acceso a Internet por algún motivo, como una interrupción de la red o un corte de energía, las llamadas de servicios de emergencia a través del sistema telefónico en Microsoft 365 u Office 365 no se admiten; y (III) aunque los planes de llamadas en Microsoft 365 u Office 365 se pueden usar en cualquier lugar del mundo donde esté disponible una conexión a Internet, los usuarios no deben llamar a servicios de emergencia desde una ubicación fuera de su país o región, porque es probable que la llamada no se dirija al centro de llamadas adecuado de ese país o región.
   
 ## <a name="related-topics"></a>Temas relacionados
 [Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar el conector de Power BI para usar plantillas de consulta de CQD
-ms.openlocfilehash: 84177d98addfa3efc96db4e77148556a941a74dc
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: eb7d2bf412308b017f2583436dd792d64a084b20
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416870"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690936"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar el conector de Power BI para usar plantillas de consulta de CQD
 
@@ -121,6 +121,8 @@ A pesar de usar Power BI, no todas las funciones de Power BI son compatibles con
 4.  **Hacer referencia a datos almacenados en caché:** Actualmente, Power BI no admite la referencia a datos almacenados en caché de un conector DirectQuery de ninguna manera. Cualquier intento de hacer referencia a los resultados de una consulta tendrá como resultado una nueva consulta. 
 
 5.  **Filtrado de datos relativo:** Es compatible con el conector CQD, pero solo con las dimensiones hora de *Inicio* y *hora de finalización* . Aunque la dimensión *Date* puede ser la opción obvia para el filtrado de fechas relativo, *Date* no se almacena como un objeto de fecha y hora y, por lo tanto, no admite el filtrado de fechas relativo en Power BI.
+
+6. **Compatibilidad con la nube de la comunidad de administración pública (GCC):** Para los clientes en el entorno GCC, el conector de Power BI del CQD funcionará cuando se use Power BI Desktop. El conector de Power BI del CQD no es compatible actualmente con el servicio Power BI para clientes de GCC.
 
 Ten en cuenta que, aunque el conector está en versión preliminar, no es probable que estas limitaciones cambien con la versión final del conector. La mayoría de estos problemas son restricciones para el diseño del conector DirectQuery en Power BI o fundamental para el diseño del modelo de datos CQD.
 

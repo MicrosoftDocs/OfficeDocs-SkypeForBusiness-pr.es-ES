@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo planear la omisión de medios con enrutamiento directo de sistema telefónico, que le permite acortar la ruta de acceso de los medios y mejorar el rendimiento.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a4f8995c3972da8fd2d060b7083edb61138b97ac
-ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
+ms.openlocfilehash: c1c11361a693fce63a863920fe6b27a2c87621af
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44338250"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691256"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -79,13 +79,12 @@ El siguiente diagrama muestra el flujo de llamadas cuando la omisión de element
 
 A continuación, se describe el flujo de llamadas si el usuario no tiene acceso a la dirección IP pública de la SBC. 
 
-Por ejemplo, supongamos que el usuario es externo y el administrador de inquilinos decidió no abrir la dirección IP pública de SBC a todos los usuarios de Internet, pero solo a la nube de Microsoft. Los componentes internos del tráfico pueden fluir a través de los transmisores de transporte de los equipos. Esta es la configuración recomendada para los usuarios de fuera de la red corporativa. Tenga en cuenta lo siguiente:
+Por ejemplo, supongamos que el usuario es externo y el administrador de inquilinos decidió no abrir la dirección IP pública de SBC a todos los usuarios de Internet, pero solo a la nube de Microsoft. Los componentes internos del tráfico pueden fluir a través de los transmisores de transporte de los equipos. Tenga en cuenta lo siguiente:
 
 - Se usan los transmisores de transporte de Teams.
 
 - Para la omisión de medios, Microsoft usa una versión de los relés de transporte que requiere que se abran los puertos 50 000 a 59 999 entre los equipos de transporte de transporte y la SBC (en el futuro se planea ir a la versión que solo requiere puertos 3478 y 3479).
 
-- Para fines de optimización de multimedia, Microsoft recomienda abrir la dirección IP pública de SBC solo para los grupos de transporte de transporte. Para los clientes fuera de la red corporativa, Microsoft recomienda usar relés de transporte en lugar de alcanzar directamente la dirección IP pública de SBC.
 
 El siguiente diagrama muestra el flujo de llamadas cuando la omisión de medios está habilitada, el cliente es externo y el cliente no puede comunicarse con la dirección IP pública del controlador de borde de la sesión (los medios son retransmitidos por la retransmisión de transporte de Teams).
 
@@ -138,7 +137,7 @@ En la ruta multimedia de las llamadas no omitidas para usuarios finales | Consta
 En la ruta multimedia de las llamadas omitidas para usuarios finales | Sin | Si el cliente no puede alcanzar la SBC en la dirección IP pública | 
 En la ruta multimedia de las aplicaciones de voz | Constantemente | Sin | 
 Puede realizar transcodificación (B2BUA)\* | Sí | No, solo retransmite audio entre puntos de conexión | 
-Cantidad de instancias en todo el mundo y ubicación | 8 total: 2 en Oriente de EE. UU. y oeste; 2 en Amsterdam y Dublín; 2 en Hong Kong y Singapur; 2 en Japón  | Multiple
+Cantidad de instancias en todo el mundo y ubicación | 10 total: 2 en Oriente de EE. UU. y oeste; 2 en Amsterdam y Dublín; 2 en Hong Kong y Singapur; 2 en Japón; 2 en Australia este y sudeste | Multiple
 
 Los intervalos de IP son:
 - 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254)
@@ -165,13 +164,13 @@ Asegúrese de que su SBC tenga acceso a los intervalos de los procesadores de me
 
 Para las señales SIP, los requisitos de FQDN y firewall son los mismos que para los casos no omitidos. 
 
-El enrutamiento directo se ofrece en los siguientes entornos de Office 365:
-- Creación de inquilino
+El enrutamiento directo se ofrece en los siguientes entornos de Microsoft 365 o de Office 365:
+- Microsoft 365 u Office 365
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD más información sobre los [entornos gubernamentales de office 365 y de EE. UU.](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) , como GCC, GCC High y DoD.
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Entornos de Office 365 y Office 365 GCC
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Entornos Microsoft 365, Office 365 y Office 365 GCC
 
 Los puntos de conexión para el enrutamiento directo son los tres FQDN siguientes:
 
@@ -227,7 +226,7 @@ Necesitas abrir puertos para todas estas direcciones IP en tu firewall para perm
 ## <a name="sip-signaling-ports"></a>Señalización SIP: puertos
 
 Los requisitos de puerto son los mismos para todos los entornos de Office 365 donde se ofrece enrutamiento directo:
-- Creación de inquilino
+- Microsoft 365 u Office 365
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
@@ -263,7 +262,7 @@ UDP/SRTP | Cliente | SBC | 50 000 – 50 019  | Definido en la SBC |
 
 Los relés de transporte están en el mismo intervalo que los procesadores de medios (para casos de no omisión): 
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Entornos de Office 365 y Office 365 GCC
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Entornos Microsoft 365, Office 365 y Office 365 GCC
 
 - 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254)
 
@@ -366,6 +365,5 @@ Para todos los demás puntos de conexión que no admitan la omisión de elemento
 ## <a name="see-also"></a>Vea también
 
 [Configurar el desvío de medios con enrutamiento directo](direct-routing-configure-media-bypass.md)
-
 
 

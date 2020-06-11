@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: 726e14aef92eed8fe681d183b8e1cfd404e659ca
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ae1b73c2aefecb64dfe18e0fda0aa880f3962aa7
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665142"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690946"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -436,8 +436,8 @@ Para especificar si los usuarios pueden personalizar su fondo de vídeo en una r
 |---------|---------|
 |**Nofilters**     |El usuario no puede personalizar su fondo de vídeo.|
 |**BlurOnly**     |El usuario tiene la opción de desenfocar el fondo de vídeo. |
-|**BlurandDefaultBackgrounds**     |El usuario tiene la opción de desenfocar el fondo del vídeo o elegir un conjunto de imágenes para usarla como fondo. |
-|**AllFilters**     |El uso tiene la opción de desenfocar el fondo del vídeo, elegir un conjunto de imágenes o cargar imágenes personalizadas para usarlas como fondo. |
+|**BlurandDefaultBackgrounds**     |El usuario tiene la opción de desenfocar el fondo del vídeo o elegir un conjunto de imágenes predeterminado para usarlo como fondo. |
+|**AllFilters**     |El uso tiene la opción de desenfocar el fondo del vídeo, elegir un conjunto de imágenes predeterminado o cargar imágenes personalizadas para usarlas como fondo. |
 
 > [!NOTE]
 > Teams no filtra las imágenes cargadas por los usuarios. Al usar la configuración **AllFilters** , debe tener directivas de organización interna para evitar que los usuarios carguen imágenes ofensivas o inadecuadas, o imágenes su organización no tiene derechos para usar con fondos de reuniones de Teams.
