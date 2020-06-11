@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: a0002ed8312f2a100ab61aa98923c7f4aeb0dc26
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: b368b0f81a4ce6bcdf3416ec597b702534e4a857
+ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326787"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44698280"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Administrar configuración y directivas de aplicación personalizadas en Microsoft Teams
 
@@ -123,10 +123,10 @@ Supongamos, por ejemplo, que desea permitir que solo los propietarios de equipo 
 
 |Configuración de la aplicación personalizada para toda la organización |Configuración de la aplicación personalizada del equipo |Directiva de aplicación personalizada de usuario |Surti  |
 |---------|---------|---------|---------|
-| Desactivado    | Desactivado    | Desactivado     |La interacción con todas las aplicaciones personalizadas está bloqueada para su organización. Nadie puede cargar las aplicaciones personalizadas. Puede usar PowerShell para quitar la aplicación personalizada.   |
-| Desactivado     | Desactivado     | Activado        |La interacción con todas las aplicaciones personalizadas está bloqueada para su organización. Nadie puede cargar las aplicaciones personalizadas. Puede usar PowerShell para quitar la aplicación personalizada.         |
-| Desactivado    | Activado        | Desactivado        |La interacción con todas las aplicaciones personalizadas está bloqueada para su organización. Nadie puede cargar las aplicaciones personalizadas. Puede usar Windows PowerShell para eliminar aplicaciones personalizadas.         |
-| Desactivado    | Activado      | Activado       |La interacción con todas las aplicaciones personalizadas está bloqueada para su organización. Nadie puede cargar las aplicaciones personalizadas. Puede usar PowerShell para quitar la aplicación personalizada.         |
+| Desactivado    | Desactivado    | Desactivado     |La interacción con todas las aplicaciones personalizadas está bloqueada para su organización. Nadie puede cargar las aplicaciones personalizadas excepto un administrador de servicio de Teams o un administrador global. Puede usar PowerShell para quitar la aplicación personalizada.   |
+| Desactivado     | Desactivado     | Activado        |La interacción con todas las aplicaciones personalizadas está bloqueada para su organización. Nadie puede cargar las aplicaciones personalizadas excepto un administrador de servicio de Teams o un administrador global. Puede usar PowerShell para quitar la aplicación personalizada.         |
+| Desactivado    | Activado        | Desactivado        |La interacción con todas las aplicaciones personalizadas está bloqueada para su organización. Nadie puede cargar las aplicaciones personalizadas excepto un administrador de servicio de Teams o un administrador global. Puede usar Windows PowerShell para eliminar aplicaciones personalizadas.         |
+| Desactivado    | Activado      | Activado       |La interacción con todas las aplicaciones personalizadas está bloqueada para su organización. Nadie puede cargar las aplicaciones personalizadas excepto un administrador de servicio de Teams o un administrador global. Puede usar PowerShell para quitar la aplicación personalizada.         |
 | Activado    | Desactivado       | Desactivado         |  El usuario no puede cargar aplicaciones personalizadas.      |
 | Activado     | Desactivado       | Activado         | Si el usuario es el propietario de un equipo, puede cargar aplicaciones personalizadas en el equipo. Si el usuario no es un propietario del equipo, no puede cargar aplicaciones personalizadas en el equipo. El usuario puede cargar aplicaciones personalizadas en el contexto personal.     |
 | Activado     | Activado     | Desactivado         | El usuario no puede cargar aplicaciones personalizadas.       |
