@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5c8ad6455fda6231efd089a2592a0860f206939
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 24abb87a7cf6b4c8ceb3f98f1ff35bdda1445e6e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506831"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691566"
 ---
 # <a name="microsoft-teams-admin-training"></a>Formación de administradores de Microsoft Teams
 
@@ -161,7 +161,7 @@ Vuelve a menudo para ver las novedades. Esta lista se actualiza para que estés 
                 <div class="card">
                     <div class="cardText">
                         <h3>Certificación de Microsoft 365: Asociado de administrador de trabajo en equipo</h3>
-                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Los administradores del trabajo en equipo de Microsoft 365 configuran, implementan y administran las cargas de trabajo de Office 365, como SharePoint (en línea, local e híbrido), OneDrive y Teams. </a></p>
+                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Los administradores del trabajo en equipo de Microsoft 365 configuran, implementan y administran las cargas de trabajo de Microsoft 365 u Office 365, como SharePoint (en línea, local e híbrido), OneDrive y Teams. </a></p>
                     </div>
                 </div>
             </div>
