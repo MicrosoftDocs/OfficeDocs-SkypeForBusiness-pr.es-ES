@@ -17,12 +17,12 @@ description: Infórmese sobre cómo comunicarse con usuarios de otras organizaci
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: b2f91d994ef05b9668d31dabc4d43033350ae85a
-ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
+ms.openlocfilehash: fcc17aa7bc00904a13aa77761472ea3ea37a17cd
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44562045"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689696"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Comunicación con usuarios de otras organizaciones en Microsoft Teams
 ======================================================
@@ -44,7 +44,7 @@ Si desea que los usuarios externos tengan acceso a los equipos y canales, la opc
 
 ## <a name="guest-access"></a>Acceso de invitado
 
-Use el **acceso de invitado** para agregar un usuario individual (independientemente del dominio) a un equipo, donde podrá chatear, hacer llamadas, reunirse y colaborar en los archivos de la organización (almacenados en SharePoint o OneDrive para la Empresa) mediante aplicaciones de Office 365 como Word, Excel o PowerPoint. A un usuario invitado se le pueden dar casi todas las mismas capacidades de equipo que a un miembro de equipo nativo. Para obtener más información, consulte [Acceso de invitado a Teams](guest-access.md).
+Use el **acceso de invitado** para agregar un usuario individual (independientemente del dominio) a un equipo, donde podrá chatear, hacer llamadas, reunirse y colaborar en los archivos de la organización (almacenados en SharePoint o OneDrive para la Empresa) mediante aplicaciones de Microsoft 365 u Office 365 como Word, Excel o PowerPoint. A un usuario invitado se le pueden dar casi todas las mismas capacidades de equipo que a un miembro de equipo nativo. Para obtener más información, consulte [Acceso de invitado a Teams](guest-access.md).
 
 - Los invitados se agregarán al Active Directory de su organización
 - Para comunicarse con un invitado, este debe haber iniciado sesión en Teams con su cuenta de invitado. Esto significa que un invitado puede tener que cerrar sesión en su propia cuenta de Teams para iniciar sesión en la de usted.
@@ -87,7 +87,7 @@ Si está listo para activar el acceso de invitado en su organización, comience 
 <sup>1</sup> Si el usuario se ha agregado como invitado y ha iniciado sesión como invitado en el espacio empresarial del invitado.<br>
 <sup>2</sup> Solo mediante la dirección de correo o el Protocolo de inicio de sesión (SIP)<br>
 <sup>3</sup> El chat externo (federado) solo es 1:1.<br>
-<sup>4</sup> Compatible con chat 1:1 entre dos usuarios de Teams solo de dos organizaciones diferentes. 
+<sup>4</sup> Compatible con chat 1:1 entre dos usuarios de Teams solo de dos organizaciones diferentes. <br>
 <sup>5</sup>Por defecto, los participantes externos no pueden ver los números de teléfono de los participantes marcados Si quiere mantener la privacidad de estos números de teléfono, seleccione **Tonos** para** el tipo de anuncio de entrada/salida** (esto evita que los números sean leídos por Teams). Si no quiere revelar los números de teléfono de la RTPC a usuarios externos, cuando active los **anuncios de entrada/salida**, seleccione **Tonos** para el tipo de anuncio. Para obtener más información, consulte [Activar o desactivar los anuncios de entrada y salida de las reuniones en Microsoft Teams.](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
 
 ## <a name="related-topics"></a>Temas relacionados

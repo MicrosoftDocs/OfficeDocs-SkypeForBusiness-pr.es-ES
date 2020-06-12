@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 908ed1b8f0baccaa4d4bc69de777ee92b67a4cc7
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 01f57601e7dbf59286c5a92a45b09f835b21c131
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665942"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691306"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 
@@ -63,11 +63,9 @@ Para implementar las reuniones en toda la organización, asegúrese de que todas
 - Puertos TCP 80 y 443 salientes de los clientes que usarán Teams.
 - Puertos UDP de 3478 a 3481 salientes de los clientes que usarán Teams.
 
-Puede usar el [Complemento de pruebas de red](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.2) para confirmar que las ubicaciones de red están listas para el tráfico de voz y vídeo que dará soporte a la experiencia de reuniones.
-
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
-|¿Está mi red lista para la implementación de reuniones de Teams? | Para comprobar que la red está preparada, vea:<ul><li>[Preparar la red de la organización para Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[Direcciones URL e intervalos de direcciones IP de Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|¿Está mi red lista para la implementación de reuniones de Teams? | Para comprobar que la red está preparada, vea:<ul><li>[Preparar la red de la organización para Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[Intervalos de direcciones IP y URL](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Decisiones de implementación principales
