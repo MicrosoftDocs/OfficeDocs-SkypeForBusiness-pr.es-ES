@@ -18,12 +18,12 @@ description: Obtenga información sobre las diferentes formas de asignar directi
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 098e55aa5f4096ac80e6f54e191e6c9d48d90826
-ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
+ms.openlocfilehash: 1c8c6700ced98cad815c0e30a3afe3e40ae85b33
+ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/11/2020
-ms.locfileid: "44698290"
+ms.locfileid: "44702735"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Asignar directivas a los usuarios de Microsoft Teams
 
@@ -34,7 +34,7 @@ Como administrador, use directivas para controlar las características de teams 
 
 Las organizaciones tienen diferentes tipos de usuarios con necesidades exclusivas y directivas personalizadas que usted crea y asigna le permiten adaptar la configuración de directivas a distintos conjuntos de usuarios según esas necesidades.
 
-Para facilitar la administración de directivas de su organización, Teams ofrece varias formas de asignar directivas a los usuarios. Puede asignar una directiva directamente a los usuarios, ya sea de forma individual o a escala a través de una asignación por lotes, o a un grupo del que el usuario sea miembro. También puede usar paquetes de directivas para asignar una colección preconfigurada de directivas a los usuarios de su organización que tengan roles similares. La opción que elija dependerá del número de directivas que esté administrando y del número de usuarios a los que va a asignar.
+Para facilitar la administración de directivas de su organización, Teams ofrece varias formas de asignar directivas a los usuarios. Puede asignar una directiva directamente a los usuarios, ya sea de forma individual o a escala a través de una asignación por lotes, o a un grupo del que son miembros los usuarios. También puede usar paquetes de directivas para asignar una colección preconfigurada de directivas a los usuarios de su organización que tengan roles similares. La opción que elija dependerá del número de directivas que esté administrando y del número de usuarios a los que va a asignar. Al configurar las directivas globales (predeterminada para toda la organización) de modo que se apliquen al mayor número de usuarios de su organización, solo tiene que asignar directivas a aquellos usuarios que requieran directivas especializadas.
 
 En este artículo se describen las diferentes maneras en las que puede asignar directivas a los usuarios y las situaciones recomendadas para Cuándo usarlas.
 
@@ -62,6 +62,8 @@ Para obtener más información, vea [reglas de prioridad](#precedence-rules).
 
 A continuación se ofrece una descripción general de las formas en que puede asignar directivas a los usuarios y los escenarios recomendados para cada uno. Haga clic en los vínculos para obtener más información.
 
+Antes de asignar directivas a usuarios individuales o grupos, primero [establezca las directivas globales (valor predeterminado de organización)](#set-the-global-policies) para que se apliquen al mayor número de usuarios de su organización.  Una vez configuradas las directivas globales, solo tendrá que asignar directivas a aquellos usuarios que requieran directivas especializadas.
+
 |Haga lo siguiente  |Si...  | Usar...
 |---------|---------|----|
 |[Asignar una directiva a usuarios individuales](#assign-a-policy-to-individual-users)    | Ya está familiarizado con Teams y solo necesita asignar una o dos directivas a un pequeño número de usuarios. |El centro de administración de Microsoft Teams o los cmdlets de PowerShell en el módulo de PowerShell de Skype empresarial online
@@ -70,6 +72,50 @@ A continuación se ofrece una descripción general de las formas en que puede as
 |[Asignar una directiva a un grupo](#assign-a-policy-to-a-group) (en versión preliminar)   |Debe asignar directivas en función de la pertenencia a grupos de un usuario. Por ejemplo, desea asignar una directiva a todos los usuarios de un grupo de seguridad o de una unidad de organización.| Cmdlets de PowerShell en el módulo de PowerShell de Teams|
 | [Asignar un paquete de directivas a un lote de usuarios](#assign-a-policy-package-to-a-batch-of-users)|Debe asignar varias directivas a un lote de usuarios de su organización que tengan roles iguales o similares. Por ejemplo, asigne el paquete de directivas Educación (profesor) a todos los profesores de su escuela mediante la asignación por lotes para proporcionarles acceso total a chats, llamadas y reuniones, y asigne el paquete de directivas Educación (estudiante secundario) a un lote de estudiantes secundarios para limitar ciertas capacidades como las llamadas privadas.|Cmdlets de PowerShell en el módulo de PowerShell de Teams|
 | Asignar un paquete de directivas a un grupo (próximamente)   | ||
+
+## <a name="set-the-global-policies"></a>Establecer las directivas globales
+
+Siga estos pasos para establecer las directivas globales (valor predeterminado de la organización) para cada tipo de directiva.
+
+### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la página de directivas del tipo de directiva que desea actualizar. Por ejemplo, *teams > directivas de Teams* o *reuniones >* directivas de reuniones o directivas de *mensajería* o *directivas de voz > llamadas*.
+2. Seleccione la directiva **global (opción predeterminada para toda la organización)** para ver la configuración actual.
+3. Actualice la Directiva según sea necesario y, a continuación, seleccione **Guardar**.
+
+### <a name="using-powershell"></a>Con PowerShell
+
+Para establecer las directivas globales mediante PowerShell, use el identificador global.  Para empezar, revisamos la directiva global actual para determinar qué configuración desea cambiar.
+
+```powershell
+Get-CsTeamsMessagingPolicy -Identity Global
+ 
+Identity                      : Global
+Description                   :
+AllowUrlPreviews              : True
+AllowOwnerDeleteMessage       : False
+AllowUserEditMessage          : True
+AllowUserDeleteMessage        : True
+AllowUserChat                 : True
+AllowRemoveUser               : True
+AllowGiphy                    : True
+GiphyRatingType               : Moderate
+AllowMemes                    : True
+AllowImmersiveReader          : True
+AllowStickers                 : True
+AllowUserTranslation          : False
+ReadReceiptsEnabledType       : UserPreference
+AllowPriorityMessages         : True
+ChannelsInChatListEnabledType : DisabledUserOverride
+AudioMessageEnabledType       : ChatsAndChannels
+Expand (20 lines) Collapse 
+```
+
+A continuación, actualice la directiva global según sea necesario.  Solo tiene que especificar los valores de la configuración que quiere cambiar. 
+ 
+```powershell
+Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
+```
 
 ## <a name="assign-a-policy-to-individual-users"></a>Asignar una directiva a usuarios individuales
 

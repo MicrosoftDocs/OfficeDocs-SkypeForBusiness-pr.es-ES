@@ -21,18 +21,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Vea qué información se envía por correo electrónico automáticamente a los usuarios cuando cambia su configuración de las conferencias de acceso telefónico local en Microsoft Teams. '
-ms.openlocfilehash: 4c4668e671b65a7927434a5ad7c9028d673d47b3
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 15c35570d509ae69a41e4c6d9522a5a62d32dd59
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042867"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691486"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Correos electrónicos que se envían a los usuarios cuando cambia la configuración en Microsoft Teams
 
 Los correos electrónicos se enviarán automáticamente a los usuarios que estén [habilitados para Audioconferencia](set-up-audio-conferencing-in-teams.md) con Microsoft como proveedor de servicios de audioconferencia.
 
-De manera predeterminada, hay cuatro tipos de correos electrónicos que se enviarán a los usuarios habilitados para Audioconferencia. Sin embargo, si quiere limitar el número de correos electrónicos que se envían a los usuarios, puede desactivar esta función. Audioconferencia en Office 365 enviará un correo electrónico a los usuarios en las siguientes circunstancias:
+De manera predeterminada, hay cuatro tipos de correos electrónicos que se enviarán a los usuarios habilitados para Audioconferencia. Sin embargo, si quiere limitar el número de correos electrónicos que se envían a los usuarios, puede desactivar esta función. Las conferencias de audio en Microsoft 365 u Office 365 enviarán correos electrónicos al correo electrónico de los usuarios cuando:
 
 - **Se les asigna una licencia de Audioconferencia o cuando está cambiando el proveedor de servicios de audioconferencia a Microsoft.**
 
@@ -67,7 +67,7 @@ De manera predeterminada, hay cuatro tipos de correos electrónicos que se envia
 
     Esto sucede cuando se quita la licencia de **audioconferencia** de un usuario o cuando se configura el proveedor de servicios de audioconferencia como **ninguno**.
 
-    Consulte [Asignar o cancelar licencia para Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+    Consulte [asignar o quitar licencias de Microsoft 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 
     Este es un ejemplo de este correo electrónico:
 
@@ -78,7 +78,7 @@ De manera predeterminada, hay cuatro tipos de correos electrónicos que se envia
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Realizar cambios en los mensajes de correo electrónico que se les envían
 
-Puede realizar cambios en el correo electrónico que se envía automáticamente a los usuarios. De forma predeterminada, el remitente de los mensajes de correo electrónico será de Office 365, pero puede cambiar el nombre para mostrar con Windows PowerShell. Para obtener más información, vea la [referencia de Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
+Puede realizar cambios en el correo electrónico que se envía automáticamente a los usuarios. De forma predeterminada, el remitente de los mensajes de correo electrónico será de Microsoft 365 u Office 365, pero puede cambiar el nombre para mostrar con Windows PowerShell. Para obtener más información, vea la [referencia de Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>¿Qué pasa si no desea que se les envíen correos electrónicos?
 
@@ -106,9 +106,9 @@ Para obtener más información, vea la [referencia de Microsoft Teams PowerShell
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-De forma predeterminada, el remitente de los mensajes de correo electrónico será de Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell. 
+De forma predeterminada, el remitente de los mensajes de correo electrónico será de Microsoft 365 u Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell. 
 
-Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:
+Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas para hacer. To get started with Windows PowerShell, see these topics:
 
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
 

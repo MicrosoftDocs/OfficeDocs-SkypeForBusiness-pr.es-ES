@@ -17,12 +17,12 @@ description: Obtenga información sobre las funciones de moderadores y participa
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 11c5858532ade4fd4ed00f7c8f6d1d0c94baeb2d
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: c8433d4caa0defbe83114ac4027c10b6bf61a725
+ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321739"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702695"
 ---
 <a name="presenter-and-participant-capabilities-in-a-teams-meeting"></a>Funciones del moderador y participante en una reunión de Teams
 ======================================================
@@ -92,10 +92,10 @@ Un participante invitado es alguien de otra organización que ha sido invitado a
 
 Un participante externo es alguien que usa Teams en otra organización que ha sido invitado a unirse a una reunión, pero que de otra manera no tiene acceso a otros recursos compartidos de su organización. Los participantes que son usuarios externos aparecen en la lista de la reunión con el mismo nombre de identidad que tienen en su propia organización. Lea más sobre un participante externo en [Comunicarse con usuarios de otras organizaciones ](communicate-with-users-from-other-organizations.md#external-access).
 
-| Reunión (se puede agregar a un equipo solo como invitado) ||
+| Reunión ||
 |-|-|-|
 | **Característica** |||
-| Chat | N/D |
+| Chat | Sí |
 | Notas de la reunión | N/D |  
 | Whiteboard | N/D |
 | Grabación | N/D |  
@@ -110,7 +110,7 @@ El participante anónimo es como un usuario externo, pero su identidad no se pro
 | Reunión  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Característica**        | Antes de la reunión | Durante una reunión | Después de la reunión |
-| Chat | N/D | No | N/D |
+| Chat | No aplicable | Sí | No aplicable |
 | Notas de la reunión | N/D | No | N/D |
 | Whiteboard | N/D | No | N/D |
 | Grabación | N/D | No | N/D |

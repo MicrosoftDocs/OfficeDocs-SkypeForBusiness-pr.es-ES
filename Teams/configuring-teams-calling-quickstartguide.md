@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 10d52aca36d92029f8ee832be84e6dc7d140f749
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f95a38727a886187e6bf01b0a4ec64e5546b627d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902885"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689656"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 ==============================================================
@@ -36,7 +36,7 @@ Lea el anuncio del 12 de diciembre de 2017 sobre Planes de llamada en Microsoft 
 > [!NOTE]
 > Le recomendamos que, en paralelo con esta guía de inicio rápido, lea el [sistema telefónico con los planes de llamadas](calling-plan-landing-page.md) y [FastTrack](https://aka.ms/cloudvoice) para planear y dirigir una correcta implantación.
 
-Ahora, al agregar Planes de llamada (una función de Office 365 con tecnología de Skype Empresarial), puede usar Microsoft Teams para hacer y recibir llamadas telefónicas a números nacionales y móviles o desde ellos a través de la red telefónica conmutada (RTC).
+Al agregar planes de llamadas, una característica de Microsoft 365 y de Office 365 con tecnología de Skype para empresas, ahora puede usar Teams para realizar y recibir llamadas telefónicas a o desde tierra y teléfonos móviles a través de la red de telefonía pública conmutada (RTC).
 
 ![Captura de pantalla que muestra la página contactos en Teams](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Requisitos previos para habilitar la ficha **Llamadas** en Microsoft Teams.
