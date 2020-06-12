@@ -18,12 +18,12 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e997b667b02ef2c3b68e5c751b619098e9e740e4
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: ae4b4c06d6340c89cf41e271db8bcd359f27d211
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224243"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689736"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -46,7 +46,7 @@ Estas son las licencias que debe asignar para producir o presentar un evento de 
 > [!NOTE]
 > En este momento no hay planes de Microsoft 365 Small Business que puedan usarse para crear y mantener eventos en vivo de Teams.
 
-Para participar en un evento en directo como usuario autenticado se requiere una licencia de Office 365, pero este requisito depende del método de producción que se use:
+Para participar en un evento en directo como usuario autenticado se requiere una licencia de Microsoft 365 u Office 365, pero este requisito depende del método de producción que se use:
 
 - **Para eventos producidos en Teams** El usuario debe tener asignada una licencia de Teams.
 - **Para eventos producidos con una aplicación o dispositivo externo** El usuario debe tener asignada una licencia de Stream.
@@ -97,7 +97,7 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 |Tamaño máximo de audiencia |10 000 asistentes |10 000 asistentes<sup>1</sup> |10 000 asistentes<sup>1</sup> |
 |Duración máxima del evento en directo |4 horas |4 horas |4 horas |
 |Cantidad máxima de moderadores y productores en un evento en directo |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|Notas de la versión para las versiones de las Aplicaciones de Microsoft 365 |15  | 15  | 15  |
+|Notas de la versión para las versiones de las Aplicaciones de Microsoft 365 u Office 365 |15  | 15  | 15  |
 |Creación de eventos en directo |   Portal de Difusión de reunión de Skype |Teams, Yammer a través de Teams | Teams, Yammer a través de Teams, Stream |
 |Compromiso de audiencia: Yammer |&#x2714; |&#x2714; (experiencia integrada) |&#x2714; (experiencia integrada) |
 |Negociación de audiencia: moderado por P y R |&#x2714;  |&#x2714; |&#x2714; |
@@ -117,7 +117,7 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 |Subtítulos en directo y otros subtítulos |&#x2714; |&#x2714; |&#x274C; |
 |Subtítulos para las grabaciones de eventos en directo |&#x2714; |&#x2714; |&#x2714; |
 |Controles DVR de los asistentes (pausa, retroceso) |&#x2714; |&#x2714; |&#x2714; |
-|Soporte técnico eCDN Partner |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
+|Soporte técnico eCDN Partner |&#x2714; (Kollective, Ramp) |&#x2714; (Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
 |Informe de asistencia posterior a la difusión para los productores |&#x2714; |&#x2714; |&#x274C; |
 |Análisis de opiniones de los asistentes: votación y sondeos en directo |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
