@@ -16,16 +16,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de la versión para las características de administrador de Microsoft Teams.
-ms.openlocfilehash: f8bf1c14e8dca43eccfa2bfdde209eca43fc24fe
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 99f92af75e90ef568bf98ccb6587d0dad0da1591
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702725"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710824"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de la versión para las características de administrador de Microsoft Teams
 
 Estas notas de la versión proporcionan información sobre las nuevas características de administración de Microsoft Teams.
+
+## <a name="june-11-2020"></a>11 de junio de 2020
+
+### <a name="call-queues---presence-based-routing"></a>Colas de llamadas: enrutamiento basado en presencia
+
+Cuando se desactivan, las llamadas se redirigirán a los agentes que hayan optado por recibir llamadas, independientemente de su estado de presencia. Cuando está activado, los agentes que hayan dejado de participar recibirán llamadas solo cuando el estado de presencia esté disponible. [Más información](../create-a-phone-system-call-queue.md).
+
+
+## <a name="june-10-2020"></a>10 de junio de 2020
+
+### <a name="call-queues---longest-idle-routing"></a>Colas de llamadas: enrutamiento de inactividad más largo
+Si elige esta opción, las llamadas entrantes se redirigirán a los agentes de llamadas que no hayan respondido a una llamada entrante en el período de tiempo más largo. [Más información](../create-a-phone-system-call-queue.md).
 
 ## <a name="june-1-2020"></a>1 de junio de 2020
 
@@ -90,12 +102,6 @@ Cree etiquetas y asígneles personas para que pueda @mention un grupo, un rol, u
 ### <a name="policy-based-recording-for-teams-calls-and-meetings"></a>Grabación basada en directivas para las llamadas y reuniones de Teams
 
 Esta característica permite la grabación automática basada en directivas de las llamadas y reuniones de Teams a través de proveedores de software certificados por Microsoft.
-
-## <a name="march-29-2020"></a>29 de marzo de 2020
-
-### <a name="call-queues---presence-based-routing"></a>Colas de llamadas: enrutamiento basado en presencia
-
-Cuando se desactivan, las llamadas se redirigirán a los agentes que hayan optado por recibir llamadas, independientemente de su estado de presencia. Cuando está activado, los agentes que hayan dejado de participar recibirán llamadas solo cuando el estado de presencia esté disponible. [Más información](../create-a-phone-system-call-queue.md).
 
 ## <a name="march-25-2020"></a>25 de marzo de 2020
 

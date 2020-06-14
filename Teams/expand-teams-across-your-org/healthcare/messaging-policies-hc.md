@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Aprenda a personalizar una directiva de mensajería segura que pueda incluir confirmaciones de lectura y notificaciones prioritarias.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95a4d258f35827d4ad30ee1e6b2938e6331efcc2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b4bd8032cce78e388d221108ebdfc08a16b8afd1
+ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905532"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44724893"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introducción a la mensajería segura para las organizaciones sanitarias
 
@@ -52,8 +52,6 @@ Para las aplicaciones de cuidado de la salud, elija controlado por el **usuario*
 *Ejemplo de uso con confirmaciones de lectura:* Jakob Roth, un paciente de alto riesgo, es admitido en el hospital.Sofía Krause es una enfermera que funciona como parte del equipo inter-disciplinar (IDT) de los trabajadores de medicina, incluidos los distintos especialistas, se asigna como Coordinador de atención primaria encargado de este paciente.  Sofía inicia un chat grupal con un conjunto de médicos y otros enfermeras que trabajarán con el paciente para coordinar el cuidado y comenzar una evaluación de emergencia.Los enfermeras y los médicos se comunican y colaboran en el plan de cuidados del paciente a lo largo del proceso de coordinación de cuidados.  Los mensajes importantes y urgentes se envían a través de 1:1 y conversaciones grupales. Sofía usa la función de confirmaciones de lectura para determinar si los mensajes enviados que solicitan asistencia son entregados y leídos por los médicos o enfermeras de destino. Los resultados del paciente de Jakob son casi óptimos y va a casa antes de que su equipo de atención se comunique sin problemas.
 
 ## <a name="send-urgent-messages-using-priority-notifications"></a>Enviar mensajes urgentes con notificaciones prioritarias
-
-[!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
 Un usuario puede marcar un mensaje como *urgente* cuando envía mensajes instantáneos a otros usuarios. Esta característica ayuda al personal del hospital a avisar una vez cuando un incidente importante requiere su atención. A diferencia de los mensajes *importantes* normales, las [notificaciones prioritarias](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) notifican a los usuarios cada dos minutos durante un máximo de 20 minutos o hasta que el destinatario recoja y lea el mensaje, lo cual maximiza la probabilidad de que el mensaje se haya basado puntualmente.
 

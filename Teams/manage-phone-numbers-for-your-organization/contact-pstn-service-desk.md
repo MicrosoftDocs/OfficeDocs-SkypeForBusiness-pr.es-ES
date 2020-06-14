@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cuando reciba números de teléfono o transfiera (transfiriendo) números para su organización, es posible que necesite obtener ayuda y soporte técnico en el servicio de asistencia al cliente de RTC.
-ms.openlocfilehash: 3079d6881d86239d395c036c9630ef5ee2eac151
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: fd6300c16ec3f09742138e0ea4879b9d0dd6b12a
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374278"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710834"
 ---
 # <a name="pstn-service-desk-contact"></a>Contacto del servicio de asistencia al cliente RTC
 
@@ -42,13 +42,13 @@ El equipo del servicio de asistencia al cliente RTC tiene actualmente tres direc
 
 Si necesita ayuda **para transferir/trasladar sus números de teléfono existentes a Microsoft Teams**, incluya la mayor cantidad de detalles posibles:
   - Su [identificador de organización (ID de inquilino) o Microsoft Active Directory](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id).
-  - Los tipos de números de teléfono a los que necesitas ayuda (**usuario/suscriptor** o **servicio/gratuito**/número gratuito).
+  - Los tipos de números de teléfono a los que necesita ayuda **(usuario, servicio de pago o servicio gratuito)**.
   - Otros detalles importantes basados en su solicitud.
   
 Si necesita ayuda **para adquirir nuevos números de teléfono para Microsoft Teams**, incluya la mayor cantidad de detalles posibles:
   - Su [identificador de organización (ID de inquilino) o Microsoft Active Directory.](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
-  - Qué tipos de números de teléfono desea adquirir (**usuario/suscriptor** o **servicio/gratuito**/gratis).
-  - Cuántos necesita y el código de área (s)/Country/Region desde los que desea nuevos números de teléfono.
+  - Los tipos de números de teléfono a los que necesita ayuda **(usuario, servicio de pago o servicio gratuito)**.
+  - Cuántos necesita y el código de área (s)/Country/region desde los que desea nuevos números de teléfono.
 
 Si necesita ayuda **sobre cualquier cosa relacionada con la configuración de números, la configuración, las licencias, las tarifas**y la facturación, póngase en contacto con el [servicio de soporte técnico de los productos para empresas:](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online) página de ayuda de administración y nuestro equipo técnico le ayudará.
 

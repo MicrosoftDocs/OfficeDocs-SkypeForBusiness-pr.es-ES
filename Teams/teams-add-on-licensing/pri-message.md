@@ -1,9 +1,9 @@
 ---
-title: 'Notificaciones prioritarias en mensajería de Teams '
-ms.author: tonysmit
-author: tonysmit
+title: Notificaciones prioritarias en mensajería de Teams
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav
+ms.reviewer: salu
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
@@ -19,27 +19,20 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: En este artículo, obtendrá información sobre las notificaciones prioritarias en mensajería de Microsoft Teams.
-ms.openlocfilehash: c2c84019635ce2c46b6aad38363c7f8aabada83b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+description: Obtenga más información sobre las notificaciones prioritarias en mensajería de Microsoft Teams.
+ms.openlocfilehash: d0323ead1a3bcf3f9b3dd4418428b033fe742db9
+ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904692"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44724909"
 ---
 # <a name="messaging-policies-licensing"></a>Licencias de directivas de mensajería
 
-Somos oídos de clientes de todo el mundo cómo el COVID-19 (coronavirus) Pandemic ha creado nuevos desafíos a medida que trabajan para manejar cambios drásticos en las operaciones cotidianas.
+Somos oídos de clientes de todo el mundo cómo el COVID-19 (coronavirus) Pandemic ha creado nuevos desafíos a medida que trabajan para manejar cambios drásticos en las operaciones cotidianas. La posibilidad de conectarse directamente con sus compañeros de trabajo durante las condiciones de cambio rápido es esencial para mantener la continuidad de la empresa durante la respuesta de crisis y como muchos de nosotros regresan al lugar de trabajo. Las notificaciones prioritarias están disponibles en la SKU del complemento de mensajería Premium hoy mismo solo para clientes comerciales.
 
-Poder conectarse directamente con sus compañeros de equipo durante las condiciones de cambio rápido es esencial para mantener la continuidad de la empresa y, como tal, ampliamos el acceso de promoción a las características de mensajería clave de Microsoft Teams.
+Originalmente anunciado en junio de 2019, las [notificaciones prioritarias](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) para Microsoft Teams otorgan a los usuarios la capacidad de enviar notificaciones continuamente que se repiten cada dos minutos durante un máximo de 20 minutos en todos los mensajes marcados como urgentes. Las notificaciones prioritarias estaban disponibles como una promoción para todos los clientes de los equipos<sup>1</sup> hasta el segundo semestre de 2020.
 
-Originalmente anunciado en junio de 2019, las [notificaciones prioritarias](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) para equipos otorgan a los usuarios la capacidad de enviar notificaciones continuamente que se repiten cada dos minutos durante un máximo de 20 minutos en todos los mensajes marcados como *urgentes*. En la versión, hemos hecho que las notificaciones prioritarias estén disponibles como una promoción para todos los usuarios de Teams hasta el 1 de abril de 2020. 
+En vigor inmediatamente, hemos finalizado esta promoción y hemos notificado a todos los clientes<sup>1</sup> como una capacidad básica. Ahora los usuarios podrán enviar y recibir mensajes urgentes sin límites con una notificación prioritaria. [Más información sobre la administración de notificaciones prioritarias](../messaging-policies-in-teams.md).
 
-**Para ayudar a nuestros clientes y a la comunidad en sus esfuerzos de respuesta de crisis, ampliamos la promoción de notificaciones prioritaria hasta el segundo semestre de 2020.** El acceso continuo a las notificaciones prioritarias estará disponible para facilitar la respuesta de crisis y los esfuerzos de recuperación. Después de que finalice el período de promoción, los usuarios con licencia podrán enviar notificaciones prioritarias de acuerdo con las condiciones de su plan.
-
-Los administradores recibirán informes sobre el uso de las notificaciones prioritarias para admitir licencias de usuario adecuadas. Los usuarios podrán recibir mensajes urgentes sin límites con notificaciones prioritarias, independientemente de la licencia. [Más información sobre las notificaciones prioritarias](../messaging-policies-in-teams.md).
-
-<!-- |Government| | |
-||GCC|Office 365 F1 / Microsoft 365 F1<br> Microsoft 365 G1|Office 365 G3 / Microsoft 365 G3 <br> Microsoft 365 G5|
-||GCC-High| Office 365 F1 / Microsoft 365 F1<br> Office 365 G1| Office 365 G3 / Microsoft 365 G3 Microsoft 365 G5|
-||DoD| Office 365 F1 / Microsoft 365 F1<br>Office 365 G1|Office 365 G3 / Microsoft 365 G3| -->
+<sup>1</sup> Las notificaciones prioritarias no están disponibles actualmente para los clientes de GCC, GCC High o DoD.

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Administrador puede saber qué controladores de borde de sesión (SBCs) se han certificado para el enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a76ed1e3a386aef7d6b6216b279a1e712e20f88
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 5b6e79b38ae92c3a2387b91e0d254f99f8412da5
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691276"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710804"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 
@@ -71,7 +71,11 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Servicio de enrutamiento de emergencia de entrada de entrada (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Puerta de enlace de emergencia de entrada (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Servicio de enrutamiento de emergencia de entrada de entrada (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Puerta de enlace de emergencia de entrada (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Compatible 3,20 (recomendado 4,0)        |     |    |    
-|                     [MetaSwitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Metaestado de perimeta        |     &#10004;   |  |      4,7      |     |    |    
+|                     [MetaSwitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Metaestado de perimeta        |     &#10004;   |  |      4,7      |     |    |  
+|                     [Cisco](http://www.cisco.com/go/cube)                               |     Elemento de borde unificado (cubo) de Cisco para los enrutadores de servicios integrados de la serie 1000        |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |     |   |  
+|                                   |     Elemento de borde unificado (cubo) de Cisco para los enrutadores de servicios integrados de la serie 4000        |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |     |    |  
+|                                   |     Elemento de borde unificado (cubo) de Cisco para el enrutador de servicios en la nube serie 1000V       |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |     |    |  
+|                                 |     Elemento de borde unificado (cubo) de Cisco para enrutadores de servicios de agregación de la serie 1000      |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |     |    |  
 
 En la siguiente tabla se enumeran los dispositivos verificados para la interoperabilidad entre el enrutamiento directo y los dispositivos analógicos.
 
