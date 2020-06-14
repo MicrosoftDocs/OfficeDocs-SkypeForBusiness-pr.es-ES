@@ -905,3 +905,5 @@
 ### [Planes de llamadas en Microsoft 365: código de conducta en el Reino Unido](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Planes de llamadas en Microsoft 365: manejo de las quejas por el código para el Reino Unido](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Términos y condiciones de llamadas de emergencia](emergency-calling-terms-and-conditions.md)
+
+## [Notas de la versión de las características de administración de Teams](release-notes/release-notes.md)

@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c706fdde4f9634cc67b334cf19d0e9d3325f6ec8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f01c95ac248d470cc0384e42b6948c45bb99c8bf
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776585"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691326"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Más información sobre cómo implementar Audioconferencia en Microsoft Teams
 
@@ -44,7 +44,7 @@ Antes de que pueda implementar audioconferencias para Teams, tenga en cuenta lo 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
 |¿Está disponible la audioconferencia para mi país o región?|Para averiguar si la audioconferencia está disponible en su país o región, vea [Disponibilidad de país y región para las audioconferencias y los planes de llamadas](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).|
-|¿Tienen los usuarios la licencia adecuada para las audioconferencias de Teams?|Las licencias de audioconferencia están disponibles como parte de los planes de suscripción de Office 365 E5, o como un servicio de complemento para los planes de suscripción de Microsoft 365 Empresa Estándar, E1 o E3. <ul><li>Para obtener y asignar licencias, consulte [Probar o comprar Audioconferencias en Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) y [Asignar o quitar licencias de Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Para obtener más información, lea las [Licencias de complementos de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>Para ver las características de la nube que se incluyen en cada plan de Office 365, vea los artículos [Opciones de licencia basadas en su plan](teams-add-on-licensing/office-365-business-premium.md).</li></ul>|
+|¿Tienen los usuarios la licencia adecuada para las audioconferencias de Teams?|Las licencias de audioconferencia están disponibles como parte de los planes de suscripción de Microsoft 365 y Office 365 E5, o como un servicio de complemento para los planes de suscripción de Microsoft 365 Empresa Estándar, E1 o E3. <ul><li>Para obtener y asignar licencias, consulte [Probar o comprar Audioconferencias en Microsoft 365 u Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) y [Asignar o quitar licencias para Aplicaciones de Microsoft 365 de negocios](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Para obtener más información, lea las [Licencias de complementos de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>Para ver las características de la nube que se incluyen en cada plan, vea los artículos [Opciones de licencia basadas en su plan](teams-add-on-licensing/office-365-business-premium.md).</li></ul>|
 |¿Necesito comprar créditos de comunicaciones para los usuarios a los que se asignan las licencias de audioconferencias?|Para obtener más información, lea [¿Qué son los Créditos de comunicaciones?](what-are-communications-credits.md) y consulte la sección [Créditos de comunicaciones](#communications-credits) a continuación.|
 |||
 
@@ -69,7 +69,7 @@ Teams ofrece un conjunto de roles de administrador personalizados que pueden usa
 
 Los puentes de conferencia permiten a los usuarios acceder a las reuniones por teléfono. Puede usar la configuración predeterminada para un puente de conferencias o cambiar los números de teléfono (gratuitos y de pago) y otras opciones, como el PIN o los idiomas que se usan.
 
-Vea [audioconferencias en Office 365](audio-conferencing-in-office-365.md) para obtener más información.
+Vea [Audioconferencias](audio-conferencing-in-office-365.md) para obtener más información.
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
@@ -136,7 +136,7 @@ Como administrador, puede usar los controles de llamadas salientes para restring
 
 ### <a name="dial-plans"></a>Planes de marcado
 
-Un plan de marcado, una característica del Sistema telefónico de Office 365, es un conjunto de reglas de normalización con las que los números de teléfono que se marcan se traducen en un formato alternativo (normalmente, el formato E.164) para poder autorizar la llamada y enrutarla.
+Un plan de marcado, una característica del Sistema telefónico de Microsoft 365 u Office 365, es un conjunto de reglas de normalización con las que los números de teléfono que se marcan se traducen a un formato alternativo (normalmente, el formato E.164) para poder autorizar la llamada y enrutarla.
 
 Para obtener más información acerca de los planes de marcado, vea [¿Qué son los planes de marcado?](what-are-dial-plans.md).
 

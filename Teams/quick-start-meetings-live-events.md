@@ -17,24 +17,24 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c02d93fb010b603e973077029b9b6710c5e0ba7
-ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
+ms.openlocfilehash: 4511bf67926c831548084647195e21ed13fc08f5
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44210646"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691206"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Inicio rápido de administración: reuniones y eventos en directo en Microsoft Teams
 
 Existen dos formas de reunirse en Microsoft Teams: reuniones y eventos en directo. Use este artículo para implementar y configurar rápidamente reuniones y eventos en directo para su organización. 
 
- - Las **reuniones** en Teams incluyen audio, vídeo y uso compartido de la pantalla para hasta 350 personas. Es uno de los métodos clave para colaborar en Teams. Y no es necesario ser un miembro de una organización (ni siquiera tener una cuenta de equipo) para unirse a una reunión de Teams, solo tiene que buscar en la invitación instrucciones sobre cómo realizar llamadas. 
+ - **Las reuniones** en los Teams son el audio, el vídeo y el uso compartido de la pantalla de hasta 250 personas. Es uno de los métodos clave para colaborar en Teams. Y no es necesario ser un miembro de una organización (ni siquiera tener una cuenta de equipo) para unirse a una reunión de Teams, solo tiene que buscar en la invitación instrucciones sobre cómo realizar llamadas. 
 
- - **Eventos en directo** es una extensión de las reuniones de Teams que le permiten programar y producir eventos que se transmiten a grandes contactos en línea, hasta 10.000 personas. Si necesita una reunión para más de 350 personas, utilice un evento en directo.
+ - **Eventos en directo** es una extensión de las reuniones de Teams que le permiten programar y producir eventos que se transmiten a grandes contactos en línea, hasta 10.000 personas. Si necesita una reunión para más de 250 personas, utilice un evento en directo.
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>Obtenga licencias para reuniones y eventos en directo
 
-Es necesario que cualquiera pueda asistir a una reunión o evento en directo de su Teams para obtener gratuitamente una licencia. Los asistentes pueden unirse a una reunión de Teams o a un evento en directo haciendo clic en el botón **Unirse** en Teams o en la invitación a la reunión. El audio de la reunión forma parte de una reunión de Teams, pero si desea que los usuarios puedan llamar a una reunión por teléfono, tendrá que proporcionar un número de acceso telefónico. 
+Cualquiera pueda asistir a una reunión o evento en directo público de Teams gratis, sin licencia. Los asistentes pueden unirse a una reunión de Teams o a un evento en directo haciendo clic en el botón **Unirse** en Teams o en la invitación a la reunión. El audio de la reunión forma parte de una reunión de Teams, pero si desea que los usuarios puedan llamar a una reunión por teléfono, tendrá que proporcionar un número de acceso telefónico. 
 
 Para las personas que organizarán, programen y alberguen reuniones o eventos en directo, deberán necesitar una de las licencias de Microsoft 365 u Office 365 que aparecen en la siguiente tabla. Si ya está usando Teams, es probable que tenga la licencia que necesita para organizar y hospedar reuniones y eventos en directo. 
 
