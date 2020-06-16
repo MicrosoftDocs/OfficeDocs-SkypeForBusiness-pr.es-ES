@@ -1,8 +1,8 @@
 ---
 title: Proceso de migración
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration process
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185157
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ea0dd9dee35693fadedd13f6026ebb0d9f211d6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2da65ead79d33ff03a66f4ec5ef54fa4e2167890
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189943"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756659"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

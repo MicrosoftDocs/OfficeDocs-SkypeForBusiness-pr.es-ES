@@ -1,8 +1,8 @@
 ---
 title: Transición de un servidor de mediación combinado a un servidor de mediación independiente (opcional)
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4140732fd5d091f3ed03e2dadd2f827a24531e9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0ce0228edacba502161c4d44a6a94b38cede6655
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189163"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755694"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,13 +49,13 @@ Utilice el procedimiento siguiente para realizar la transición del servidor de 
 
 3.  Haga clic con el botón secundario en **Grupos de mediación**    y seleccione **Nuevo servidor de mediación  **.
 
-4.  En la página **Definir nuevo grupo de servidores de mediación**, proporcione el nombre completo del nuevo grupo de servidor de mediación. Además, seleccione si este grupo va a ser un grupo de servidor único o de varios servidores y, a continuación, haga clic en **Siguiente**.
+4.  On the **Define New Mediation Pool** page, provide the FQDN of the new Mediation Server pool. Also, select whether this pool will be a single-server or multiple-server pool, and then click **Next**.
 
 5.  Seleccione el siguiente grupo de salto del servidor de usuario al que el nuevo servidor de mediación enrutará las llamadas entrantes y, a continuación, haga clic en **Siguiente**.
 
 6.  Seleccione el grupo perimetral que va a usar el servidor de mediación y, a continuación, haga clic en **Siguiente**.
 
-7.  En la página **Definir nuevo grupo de servidores de mediación**, asocie la puerta de enlace RTC anterior con el servidor de mediación. Seleccione la puerta de enlace y, a continuación, haga clic en **Agregar  **.
+7.  On the **Specify PSTN gateways** page, associate the previous PSTN gateway with the Mediation Server. Select the gateway and then click **Add**.
 
 8.  Haga clic en **Finalizar ** para cerrar el asistente **Definir nuevo grupo de servidores de mediación  **.
 

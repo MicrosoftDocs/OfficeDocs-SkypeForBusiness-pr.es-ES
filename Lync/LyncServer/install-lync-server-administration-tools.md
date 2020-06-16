@@ -1,8 +1,8 @@
 ---
 title: Instalación de las herramientas de administración de Lync Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Install Lync Server administration tools
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733773
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebe4ad480c9db4fbca05bbb4da84c2d2b075bc70
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 024d12172f4a307976669bd1dc7652e945d8a205
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199313"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756529"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ En este tema se describe cómo instalar las herramientas administrativas que nec
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Vea también
 
 
 [Herramientas administrativas de Lync Server 2013](lync-server-2013-lync-server-administrative-tools.md)  

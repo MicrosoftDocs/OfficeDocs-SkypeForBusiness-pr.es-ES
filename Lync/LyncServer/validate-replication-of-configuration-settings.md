@@ -1,8 +1,8 @@
 ---
 title: Validar la replicación de las opciones de configuración
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Validate replication of configuration settings
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b238b0431c266204daa9ecdfc6cf72986fd9e40b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cf08d920983ef4463f9e8236f6c9e458f120074b
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188993"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755624"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -1,8 +1,8 @@
 ---
 title: 'Fase 9: completar las tareas posteriores a la migración'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 9: Complete post-migration tasks'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d1ef8c74a0ac14fd99cabb676a63ca176697fc9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e12268cce33526ba2602a2efc9a611ebb211801
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209486"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,13 +43,13 @@ En los temas de esta sección se describen las tareas que necesitará realizar d
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Migrar los grupos de respuesta](migrate-response-groups_1.md)
+  - [Migrar grupos de respuesta](migrate-response-groups_1.md)
 
   - [Migrar los números de acceso telefónico](migrate-dial-in-access-numbers_1.md)
 
   - [Habilitar la integración de Exchange 2013 Outlook Web App y mensajería instantánea](enable-exchange-2013-outlook-web-app-and-im-integration.md)
 
-  - [Migrar la Libreta de direcciones](migrate-address-book_1.md)
+  - [Migrar la libreta de direcciones](migrate-address-book_1.md)
 
   - [Habilitar control remoto de llamadas](enable-remote-call-control.md)
 
@@ -57,9 +57,9 @@ En los temas de esta sección se describen las tareas que necesitará realizar d
 
   - [Migrar el servidor de mediación](migrate-mediation-server.md)
 
-  - [Configuración de servidores de aplicaciones de confianza](configure-trusted-application-servers_1.md)
+  - [Configurar servidores de aplicaciones de confianza](configure-trusted-application-servers_1.md)
 
-  - [Configurar la página de participación en la reunión](configure-the-meeting-join-page_1.md)
+  - [Configurar la página para unirse a la reunión](configure-the-meeting-join-page_1.md)
 
   - [Implementar clientes de Lync Server 2013](deploy-lync-server-2013-clients_1.md)
 

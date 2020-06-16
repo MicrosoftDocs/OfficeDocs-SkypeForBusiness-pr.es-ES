@@ -1,8 +1,8 @@
 ---
-title: 'Fase 7: completar las tareas posteriores a la migración'
+title: 'Fase 7: Finalización de las tareas posteriores a la migración'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 7: Complete post-migration tasks'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d42207ecff45a66f2b8fb4d88abb69483504c644
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bcf827412104bcfc8b6c3fe2b58378ecab8ad7bf
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209566"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756781"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209566"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-7-complete-post-migration-tasks"></a>Fase 7: completar las tareas posteriores a la migración
+# <a name="phase-7-complete-post-migration-tasks"></a>Fase 7: Finalización de las tareas posteriores a la migración
 
 </div>
 
@@ -43,27 +43,27 @@ En los temas de esta sección se describen las tareas que necesitará realizar d
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Migrar las reuniones y el contenido de reuniones existentes](migrate-existing-meetings-and-meeting-content.md)
+  - [Migración de reuniones existentes y contenido de reuniones](migrate-existing-meetings-and-meeting-content.md)
 
   - [Migrar los números de acceso telefónico](migrate-dial-in-access-numbers.md)
 
   - [Migrar la configuración de la aplicación de estacionamiento de llamadas](migrate-call-park-application-settings.md)
 
-  - [Migrar los grupos de respuesta](migrate-response-groups.md)
+  - [Migrar grupos de respuesta](migrate-response-groups.md)
 
-  - [Migrar la Libreta de direcciones](migrate-address-book.md)
+  - [Migrar la libreta de direcciones](migrate-address-book.md)
 
-  - [Configurar la página de participación en la reunión](configure-the-meeting-join-page.md)
+  - [Configurar la página para unirse a la reunión](configure-the-meeting-join-page.md)
 
   - [Quitar los servidores de archivado y supervisión heredados](remove-legacy-archiving-and-monitoring-servers.md)
 
-  - [Configuración de servidores de aplicaciones de confianza](configure-trusted-application-servers.md)
+  - [Configurar servidores de aplicaciones de confianza](configure-trusted-application-servers.md)
 
   - [Implementar clientes de Lync Server 2013](deploy-lync-server-2013-clients.md)
 
-  - [Conexión de una aplicación de sucursal con funciones de supervivencia](connect-a-survivable-branch-appliance.md)
+  - [Conectar una aplicación de sucursal con funciones de supervivencia](connect-a-survivable-branch-appliance.md)
 
-  - [Configurar la supervisión de SCOM](configure-scom-monitoring.md)
+  - [Configurar la supervisión SCOM](configure-scom-monitoring.md)
 
   - [Migrar teléfonos de área común](migrate-common-area-phones.md)
 

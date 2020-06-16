@@ -1,8 +1,8 @@
 ---
 title: Requisitos previos
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Prerequisites
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4f10cb1bdf5733dbe54519325475871be10564
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d8f0ee6a50d40f938a9f2c6f731b0a4afa647ba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196153"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756891"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,9 +93,9 @@ Los equipos que ejecutarán la herramienta de esfuerzo y rendimiento de Lync Ser
 
 1.  Debe iniciar sesión como miembro del grupo de administradores local o de dominio.
 
-2.  Lync Server 2013 la herramienta stress and Performance (LyncPerfTool. exe) no se puede ejecutar en un equipo que también ejecute componentes de Lync Server 2013.
+2.  La herramienta de esfuerzo y rendimiento de Lync Server 2013 (LyncPerfTool.exe) no se puede ejecutar en un equipo que también ejecute componentes de Lync Server 2013.
 
-3.  Debe ejecutar la herramienta de creación de usuarios de Lync Server 2013 (UserProvisioningTool. exe) en el servidor front-end o en el servidor Standard Edition donde residirán las cuentas de usuario. Cuando la herramienta se ejecuta varias veces, cada usuario que esté habilitado para las comunicaciones unificadas de Microsoft debe tener un número de teléfono único.
+3.  Debe ejecutar la herramienta de creación de usuarios de Lync Server 2013 (UserProvisioningTool.exe) en el servidor front-end o en el servidor Standard Edition donde residirán las cuentas de usuario. Cuando la herramienta se ejecuta varias veces, cada usuario que esté habilitado para las comunicaciones unificadas de Microsoft debe tener un número de teléfono único.
 
 4.  El tamaño del archivo de paginación debe ser administrado por el sistema o debe ser al menos 1,5 veces la cantidad de RAM del sistema.
 

@@ -1,8 +1,8 @@
 ---
 title: Mover un solo usuario al grupo piloto
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move a single user to the pilot pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20f4e85c2f34a2e4319b14f310d2a9360cb274d1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 200e929cb7dff4006ffe776504220618e5e7b570
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189902"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756479"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42189902"
 
 _**Última modificación del tema:** 2012-09-28_
 
-Puede mover un usuario del grupo de servidores de Office Communications Server 2007 R2 a su grupo piloto de Lync Server 2013 mediante el panel de control de Lync Server 2013 o el shell de administración de Lync Server 2013. En el ejemplo siguiente, en la columna de grupo de registrador, ** \<Office Communications Server\> ** es el grupo de Office Communications Server 2007 R2 y los seis usuarios están conectados a este grupo. Use los siguientes procedimientos para mover un usuario al grupo de servidores de Lync Server 2013 mediante el panel de control de Lync Server 2013 y el shell de administración de Lync Server.
+Puede mover un usuario del grupo de servidores de Office Communications Server 2007 R2 a su grupo piloto de Lync Server 2013 mediante el panel de control de Lync Server 2013 o el shell de administración de Lync Server 2013. En el ejemplo siguiente, en la columna de grupo de registrador, **\<Office Communications Server\>** es el grupo de Office Communications Server 2007 R2 y los seis usuarios están conectados a este grupo. Use los siguientes procedimientos para mover un usuario al grupo de servidores de Lync Server 2013 mediante el panel de control de Lync Server 2013 y el shell de administración de Lync Server.
 
 ![Buscar usuarios de OCS en el panel de control de Lync Server](images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Buscar usuarios de OCS en el panel de control de Lync Server")
 

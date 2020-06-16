@@ -1,8 +1,8 @@
 ---
-title: Quitar la Asociación del servidor de supervisión
+title: Quitar la asociación del servidor de supervisión
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the Monitoring server association
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733810
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b7559fcd513dcc3695b587be24e220ad74847ef
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7aa78a49686ca555fdbc26d3ffd4953d88d64a95
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189413"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756549"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189413"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-monitoring-server-association"></a>Quitar la Asociación del servidor de supervisión
+# <a name="remove-the-monitoring-server-association"></a>Quitar la asociación del servidor de supervisión
 
 </div>
 

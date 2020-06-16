@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2013; Crear rutas entre regiones de red
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: admin
 manager: serdars
 f1.keywords:
@@ -13,12 +13,12 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72917dc3ef179e0c27de6d47e599746a97e0540e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 156f2322d5b1b7cc1951f1cbd4df41eb231a8170
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210246"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757211"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,7 +38,7 @@ ms.locfileid: "42210246"
 
 _**Última modificación del tema:** 2012-10-20_
 
-Una *ruta entre regiones de red* define la ruta entre un par de regiones de red. Cada par de regiones de red de la implementación del servicio de control de admisión de llamadas precisa una ruta entre regiones de red. Esto permite que todas las regiones de red de la implementación obtengan acceso a cualquier otra región.
+A *network interregion route* defines the route between a pair of network regions. Each pair of network regions in your call admission control deployment requires a network interregion route. This enables every network region within the deployment to access every other region.
 
 Mientras que los vínculos regionales establecen las limitaciones de ancho de banda de las conexiones entre regiones, una ruta entre regiones determina la ruta de acceso vinculada que atravesará la conexión de una región a otra.
 
@@ -99,9 +99,9 @@ En el ejemplo de topología, hay que definir rutas entre regiones de red para ca
 
 5.  En la página **Nueva ruta regional**, haga clic en **Nombre** y escriba un nombre para la ruta entre regiones de red.
 
-6.  Haga clic en **región \#de red 1**y, a continuación, haga clic en una región de red de la lista \#que desee enrutar a la región de red 2.
+6.  Haga clic en **región de red \# 1**y, a continuación, haga clic en una región de red de la lista que desee enrutar a la región de red \# 2.
 
-7.  Haga clic en **región \#de red 2**y, a continuación, haga clic en una región de red de la lista \#que desee enrutar a la región de red 1.
+7.  Haga clic en **región de red \# 2**y, a continuación, haga clic en una región de red de la lista que desee enrutar a la región de red \# 1.
 
 8.  Haga clic en **Agregar** junto al campo **Vínculos de región de red** y luego agregue un vínculo de región de red que se usará en la ruta entre regiones de red.
     
@@ -109,7 +109,7 @@ En el ejemplo de topología, hay que definir rutas entre regiones de red para ca
     
 
     > [!NOTE]  
-    > Si está creando una ruta para dos regiones de red que no tengan ningún vínculo de región de red directo entre ellas, tendrá que agregar todos los vínculos necesarios para completar la ruta. Por ejemplo, la ruta entre regiones de red Norteamérica/APAC requiere dos vínculos de región de red, debido a que no hay un vínculo de región de red directo entre ellas.
+    > If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route. For example, the North America/APAC network interregion route requires two network region links because there is no direct network region link between them.
 
     
     </div>

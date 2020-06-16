@@ -1,8 +1,8 @@
 ---
 title: 'Fase 4: combinar topologías'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 4: Merge topologies'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184668
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c9c93d46799dfd6c45ac7f6e40ce67a8a6bbfa72
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 30af9fc21528fbfe183aa3849adeb30e8f41ef10
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189703"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757231"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

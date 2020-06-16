@@ -1,8 +1,8 @@
 ---
 title: Comprobar la federación y el acceso remoto de usuarios externos
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify federation and remote access for external users
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f95f08997a9a65bdbb6c21a8850ee059b0dc64c6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a36e92849c59760f831cdebaf59906b546b01d7f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188963"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

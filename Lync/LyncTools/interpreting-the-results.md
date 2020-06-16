@@ -1,8 +1,8 @@
 ---
 title: Interpretación de los resultados
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Interpreting the Results
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b3683e2a2ac9fb163fe9db3dabce40b3c61d098
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4d02f69f8ea1c8eb7df004e063dba39f03bbe8b7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206166"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755474"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +37,13 @@ ms.locfileid: "42206166"
 
 _**Última modificación del tema:** 2013-02-24_
 
-La herramienta stress and performance de Lync Server 2013 (LyncPerfTool. exe) tiene muchos contadores que puede usar para comprender lo que hace el cliente y si se produce algún problema.
+La herramienta stress and Performance (LyncPerfTool.exe) de Lync Server 2013 tiene muchos contadores que puede usar para comprender lo que hace el cliente y si se encuentra con problemas.
 
 <div>
 
 ## <a name="client-counters"></a>Contadores del cliente
 
-Cada instancia de LyncPerfTool. exe que se está ejecutando tiene una instancia independiente de los contadores. Cada instancia se nombra mediante su identificador de proceso.
+Cada instancia de LyncPerfTool.exe que se ejecuta tiene una instancia independiente de los contadores. Cada instancia se nombra mediante su identificador de proceso.
 
 Si los clientes están sobrecargados, pueden producirse problemas. Para evitar estos problemas, haga lo siguiente:
 

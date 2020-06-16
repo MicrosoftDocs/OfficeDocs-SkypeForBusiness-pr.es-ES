@@ -1,8 +1,8 @@
 ---
 title: Probar el servidor de chat persistente con una transacción sintética
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Test Persistent Chat Server with a synthetic transaction
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d960e2c719c6ac0cac1ba20c702deb81b7deb4d1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 75d87e9ceafc16c8566a8cabc91ad9a5ec06a37f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189213"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755724"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -1,8 +1,8 @@
 ---
 title: Comprobación de los parámetros de configuración
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify configuration settings
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f7655547ff4f3e528b3948a537bbd5e85f351ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2430fe82aa424571405def33139ba315677ffcc7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188983"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755604"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -95,7 +95,7 @@ Después de combinar la topología y ejecutar el cmdlet **Import-CsLegacyConfigu
 
 ## <a name="to-verify-policies-and-settings"></a>Para comprobar directivas y configuración
 
-1.  En el entorno de Office Communications Server 2007 R2, tome nota de los nombres de los planes de marcado (antes conocidos como perfiles de ubicación), los números de acceso telefónico (regiones y números de teléfono de acceso del operador de conferencia), las rutas de voz y las directivas que aparecen en la lista tabla anterior, además de las direcciones URL que se usan para Communicator Web Access.
+1.  En el entorno de Office Communications Server 2007 R2, tome nota de los nombres de los planes de marcado (antes conocidos como perfiles de ubicación), los números de acceso telefónico (los números de teléfono y las regiones de acceso del operador de conferencia), las rutas de voz y las directivas enumeradas en la tabla anterior, además de las direcciones URL usadas para Communicator Web Access.
 
 2.  En el servidor front-end de Lync Server 2013, abra el panel de control de Lync Server.
 

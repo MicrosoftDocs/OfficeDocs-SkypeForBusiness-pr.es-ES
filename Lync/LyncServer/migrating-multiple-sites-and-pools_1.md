@@ -1,8 +1,8 @@
 ---
-title: Migrar varios sitios y grupos de servidores
+title: Migrar múltiples sitios y grupos de servidores
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrating multiple sites and pools
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ed975a35c49bc5379a5cc2daf22bda729cbceee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6efbad7107109096a5f17d82912353e6f8a1a14a
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190033"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756499"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42190033"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-multiple-sites-and-pools"></a>Migrar varios sitios y grupos de servidores
+# <a name="migrating-multiple-sites-and-pools"></a>Migrar múltiples sitios y grupos de servidores
 
 </div>
 

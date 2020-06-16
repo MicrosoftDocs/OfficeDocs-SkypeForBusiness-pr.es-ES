@@ -1,8 +1,8 @@
 ---
-title: 'Fase 8: retirar grupos heredados'
+title: 'Fase 8: Retirar los grupos de servidores heredados'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 8: Decommission legacy pools'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 474cc5ee3f508ed5a9069f3e8625bcc6ee451153
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9e2df5d01ff4aa6227091d7851b086fc55ff95e2
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209496"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756771"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209496"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-decommission-legacy-pools"></a>Fase 8: retirar grupos heredados
+# <a name="phase-8-decommission-legacy-pools"></a>Fase 8: Retirar los grupos de servidores heredados
 
 </div>
 
@@ -39,7 +39,7 @@ _**Última modificación del tema:** 2016-12-08_
 
 En el siguiente tema se proporcionan instrucciones para actualizar entradas DNS, mover el servidor de administración de contenido, retirar grupos de servidores y desactivar y quitar servidores y grupos de servidores de una implementación heredada de Lync Server 2010. No todos los procedimientos de esta sección son obligatorios. Lea la documentación y determine qué procedimiento utilizar.
 
-Para obtener una cobertura exhaustiva de la eliminación de servidores y roles de servidor de Lync Server 2010, y una guía paso a paso para retirar una implementación de Lync Server 2010, consulte "desinstalar Microsoft Lync Server 2010 y quitar roles de servidor", que se [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)puede descargar en.
+Para obtener una cobertura exhaustiva de la eliminación de servidores y roles de servidor de Lync Server 2010, y una guía paso a paso para retirar una implementación de Lync Server 2010, consulte "desinstalar Microsoft Lync Server 2010 y quitar roles de servidor", que se puede descargar en [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227) .
 
 <div>
 
@@ -56,7 +56,7 @@ Para obtener una cobertura exhaustiva de la eliminación de servidores y roles d
 ## <a name="in-this-section"></a>En esta sección
 
   - <span></span>  
-    [Actualizar registros DNS SRV](update-dns-srv-records.md)
+    [Actualizar registros SRV de DNS](update-dns-srv-records.md)
 
   - <span></span>  
     [Mover el servidor de administración central de Lync Server 2010 a Lync Server 2013](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
@@ -65,16 +65,16 @@ Para obtener una cobertura exhaustiva de la eliminación de servidores y roles d
     [Mover directorios de conferencia](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
 
   - <span></span>  
-    [Quitar la Asociación del servidor de archivado](remove-the-archiving-server-association.md)
+    [Quitar la asociación del servidor de archivado](remove-the-archiving-server-association.md)
 
   - <span></span>  
-    [Quitar la Asociación del servidor de supervisión](remove-the-monitoring-server-association.md)
+    [Quitar la asociación del servidor de supervisión](remove-the-monitoring-server-association.md)
 
   - <span></span>  
     [Quitar el servidor front-end Enterprise Edition o el servidor front-end Standard Edition](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
 
   - <span></span>  
-    [Quitar instancias y bases de datos de SQL Server en el servidor back-end](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+    [Quitar instancias de SQL Server y bases de datos en el servidor back-end](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
 
 </div>
 

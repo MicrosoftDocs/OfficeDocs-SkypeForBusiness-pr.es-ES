@@ -1,8 +1,8 @@
 ---
-title: 'Fase 2: preparar la migración'
+title: 'Fase 2: Preparación de la migración'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 2: Prepare for migration'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54f616c43d62f91b7b9f8a3eecd058037590669b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a5d7d511844f2b577ecddfd188ff34738e5238b5
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209786"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757091"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209786"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-2-prepare-for-migration"></a>Fase 2: preparar la migración
+# <a name="phase-2-prepare-for-migration"></a>Fase 2: Preparación de la migración
 
 </div>
 
@@ -45,13 +45,13 @@ Antes de empezar a migrar a Lync Server 2013 desde Office Communications Server 
 
   - [Aplicar actualizaciones de Office Communications Server 2007 R2](apply-office-communications-server-2007-r2-updates.md)
 
-  - [Configurar registros DNS para la implementación del grupo piloto](configure-dns-records-for-pilot-pool-deployment_1.md)
+  - [Configurar registros DNS para una implementación de grupo de servidores piloto](configure-dns-records-for-pilot-pool-deployment_1.md)
 
   - [Ejecución del Analizador de procedimientos recomendados](run-best-practices-analyzer_1.md)
 
   - [Copia de seguridad de los datos y sistemas](back-up-systems-and-data_1.md)
 
-  - [Configuración de clientes para la migración](configure-clients-for-migration_1.md)
+  - [Configuración de los clientes para la migración](configure-clients-for-migration_1.md)
 
   - [Comprobar el entorno de Office Communications Server 2007 R2](verify-office-communications-server-2007-r2-environment.md)
 

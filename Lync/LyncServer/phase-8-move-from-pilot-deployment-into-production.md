@@ -1,8 +1,8 @@
 ---
 title: 'Fase 8: pasar de la implementación piloto a la producción'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 8: Move from pilot deployment into production'
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b64bf36d44ae5db0fe5b0022381b14007c044747
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f572836c4ccb64fdb8bf85926e68dbcdbf5c712f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189623"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756459"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ En los temas de esta sección se describen las tareas que debe completar antes d
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Configurar rutas de Federación y tráfico de medios](configure-federation-routes-and-media-traffic_1.md)
+  - [Configurar las rutas de federación y el tráfico multimedia](configure-federation-routes-and-media-traffic_1.md)
 
   - [Mover los usuarios restantes a Lync Server 2013](move-remaining-users-to-lync-server-2013_1.md)
 

@@ -1,8 +1,8 @@
 ---
 title: Fases de la migración
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration phases
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36541a63ab36eb2c99c816904b7b03eb1a1010b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 912035b963bdd2c23b998550679b1b731add2d21
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209839"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756811"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +41,7 @@ Las siguientes fases describen el proceso de una migración de grupo de Office C
 
   - [Fase 1: planear la migración desde Office Communications Server 2007 R2](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [Fase 2: preparar la migración](phase-2-prepare-for-migration_1.md)
+  - [Fase 2: Preparación de la migración](phase-2-prepare-for-migration_1.md)
 
   - [Fase 3: implementar el grupo piloto de Lync Server 2013](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
 

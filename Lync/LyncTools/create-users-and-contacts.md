@@ -1,8 +1,8 @@
 ---
 title: Crear usuarios y contactos
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Create Users and Contacts
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76b8016079cd130a814da410df5e5a5b151d8702
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f90e6cbb1afb9c4c2dd2b43e1448ca635899531b
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188693"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755484"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +37,13 @@ ms.locfileid: "42188693"
 
 _**Última modificación del tema:** 2013-02-22_
 
-Debe usar la herramienta de aprovisionamiento de usuarios de Lync Server 2013 (UserProvisioningTool. exe) para crear usuarios y contactos para preparar la prueba de carga de rendimiento y estrés.
+Debe usar la herramienta de aprovisionamiento de usuarios (UserProvisioningTool.exe) de Lync Server 2013 para crear usuarios y contactos como preparación para la prueba de carga de rendimiento y estrés.
 
 A continuación, se incluye una lista de términos y definiciones que puede resultarle útil a la lectura de este tema.
 
   - Unidad organizativa: la unidad organizativa (Uo) de los servicios de dominio de Active Directory.
 
-  - Federado/grupo cruzado: usuarios que se habilitarán para comunicarse con usuarios de otros servicios de mensajería instantánea (mi), como MSN Network of Internet Services, AOL® y Yahoo\!®.
+  - Federado/grupo cruzado: usuarios que se habilitarán para comunicarse con usuarios de otros servicios de mensajería instantánea (mi), como MSN Network of Internet Services, AOL® y Yahoo \! ®.
 
   - Listas de distribución: objetos de los servicios de dominio de Active Directory que contienen una lista de usuarios de los servicios de dominio de Active Directory, que se usan para iniciar comunicaciones con grupos de personas.
 
@@ -53,15 +53,15 @@ A continuación, se incluye una lista de términos y definiciones que puede resu
 
 <div>
 
-## <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Crear usuarios y contactos con UserProvisioningTool. exe
+## <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Crear usuarios y contactos con UserProvisioningTool.exe
 
-Debe usar la herramienta de aprovisionamiento de usuarios de Lync Server para crear usuarios y contactos para la simulación de carga. La herramienta de aprovisionamiento de usuarios de Lync Server se instala con el paquete de la herramienta de esfuerzo y rendimiento de Lync Server. Asegúrese de que el instalador del paquete (CapacityPlanningTool. msi) se ha ejecutado en el servidor front-end o en el servidor Standard Edition. Inicie la herramienta de aprovisionamiento de usuarios de Lync Server; para ello, ejecute el archivo UserProvisioningTool. exe (que se\\encuentra en% InstalledDirectory% LyncStressAndPerfTool LyncStress) en el servidor front-end o en el servidor Standard Edition.
+Debe usar la herramienta de aprovisionamiento de usuarios de Lync Server para crear usuarios y contactos para la simulación de carga. La herramienta de aprovisionamiento de usuarios de Lync Server se instala con el paquete de la herramienta de esfuerzo y rendimiento de Lync Server. Asegúrese de que el instalador del paquete (CapacityPlanningTool.msi) se haya ejecutado en el servidor front-end o en el servidor Standard Edition. Inicie la herramienta de aprovisionamiento de usuarios de Lync Server; para ello, ejecute el archivo UserProvisioningTool.exe (que se encuentra en% InstalledDirectory% LyncStressAndPerfTool \\ LyncStress) en el servidor front-end o en el servidor Standard Edition.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Debe haber iniciado sesión como miembro del grupo de seguridad administradores de dominio para poder ejecutar UserProvisioningTool. exe. Es necesario ejecutar desde este contexto porque UserProvisioningTool. exe creará y configurará nuevos usuarios de los servicios de dominio de Active Directory.
+> Debe haber iniciado sesión como miembro del grupo de seguridad administradores de dominio para poder ejecutar UserProvisioningTool.exe. Es necesario ejecutar desde este contexto porque UserProvisioningTool.exe creará y configurará nuevos usuarios de servicios de dominio de Active Directory.
 
 
 
@@ -71,13 +71,13 @@ Debe usar la herramienta de aprovisionamiento de usuarios de Lync Server para cr
 
 
 > [!NOTE]  
-> Cuando cree un número significativo de usuarios (de 10.000 o más), ejecute UserProvisioningTool. exe desde un equipo de gama alta. Tenga en cuenta que el controlador de dominio también experimentará una carga elevada mientras se crean los usuarios.
+> Cuando se crea un número significativo de usuarios (de 10.000 o más), se ejecuta UserProvisioningTool.exe desde un equipo de gama alta. Tenga en cuenta que el controlador de dominio también experimentará una carga elevada mientras se crean los usuarios.
 
 
 
 </div>
 
-Cuando se abra la herramienta de aprovisionamiento de usuarios de Lync Server, haga clic en **configuración** y seleccione **cargar configuración**. Para empezar a configurar usuarios y contactos, cargue el archivo predeterminado que se incluye en el paquete, SampleData. Xml. Esto rellenará previamente los campos con datos de ejemplo que necesitará revisar en el sistema. Si tiene un archivo XML preconfigurado que ya contiene una configuración personalizada, cargue ese archivo en su lugar. Rellene los campos de la herramienta de aprovisionamiento de usuarios de Lync Server, tal y como se describe en las secciones siguientes.
+Cuando se abra la herramienta de aprovisionamiento de usuarios de Lync Server, haga clic en **configuración** y seleccione **cargar configuración**. Para empezar a configurar usuarios y contactos, cargue el archivo predeterminado que se incluye en el paquete, SampleData.xml. Esto rellenará previamente los campos con datos de ejemplo que necesitará revisar en el sistema. Si tiene un archivo XML preconfigurado que ya contiene una configuración personalizada, cargue ese archivo en su lugar. Rellene los campos de la herramienta de aprovisionamiento de usuarios de Lync Server, tal y como se describe en las secciones siguientes.
 
 ![Pestaña creación de usuario.](images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "Pestaña creación de usuario.")
 
@@ -133,7 +133,7 @@ Al hacer clic en el botón eliminar usuarios, se validarán todos los parámetro
 > [!NOTE]  
 > <OL>
 > <LI>
-> <P>Solo se admiten números de teléfono con formato estadounidense. Los números de teléfono se asignan siempre a los usuarios y todos los usuarios creados por UserProvisioningTool. exe están habilitados para telefonía IP empresarial. Los escenarios que usan el número de teléfono, como el operador automático de conferencia o las llamadas de UC-RTC, usan este número de teléfono para enrutar las llamadas correctamente. Por este motivo, todos los usuarios deben tener un número de teléfono único. Si tiene que crear dos veces usuarios, se producirá un error en el comando a menos que use otro código de área o si los usuarios anteriores se han deshabilitado mediante el cmdlet <STRONG>Disable-CsUser</STRONG> .</P>
+> <P>Solo se admiten números de teléfono con formato estadounidense. Los números de teléfono se asignan siempre a los usuarios y todos los usuarios creados por UserProvisioningTool.exe están habilitados para telefonía IP empresarial. Los escenarios que usan el número de teléfono, como el operador automático de conferencia o las llamadas de UC-RTC, usan este número de teléfono para enrutar las llamadas correctamente. Por este motivo, todos los usuarios deben tener un número de teléfono único. Si tiene que crear dos veces usuarios, se producirá un error en el comando a menos que use otro código de área o si los usuarios anteriores se han deshabilitado mediante el cmdlet <STRONG>Disable-CsUser</STRONG> .</P>
 > <LI>
 > <P>Antes de crear contactos, debe completar primero la replicación de usuario, que se realiza desde la pestaña usuarios. Si acaba de crear los usuarios, debe esperar hasta que se complete la replicación de Lync Server y se llenen las cuentas de usuario de la base de datos. Si los usuarios no han terminado de replicarse, verá un error. Sabrá Cuándo los usuarios han terminado de replicarse si se ha iniciado el servicio front-end de Lync Server 2013 o si se ha ejecutado correctamente el cmdlet <STRONG>Get-CsUser</STRONG> en el último usuario.</P></LI></OL>
 
@@ -229,7 +229,7 @@ Una de las características de la herramienta de esfuerzo y rendimiento de Lync 
 
 ![Ficha Configuración del servicio de información de ubicación.](images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Ficha Configuración del servicio de información de ubicación.")
 
-Si elige probar esta característica, puede rellenar los valores mencionados en el formulario y, a continuación, hacer clic en el botón generar archivos de configuración de LIS. Se generarán archivos CSV denominados\_subred Lis. csv,\_modificadores Lis. csv\_, puertos Lis. csv y\_Lis. csv de lis. A continuación, puede importar estos archivos CSV a la base de datos de LIS mediante el cmdlet **set-CsLisSubnet** , el cmdlet **set-CsLisSwitch** , el cmdlet **set-CsLisPort** y el cmdlet **set-CsWirelessAccessPoint** , respectivamente.
+Si elige probar esta característica, puede rellenar los valores mencionados en el formulario y, a continuación, hacer clic en el botón generar archivos de configuración de LIS. Se generarán archivos CSV denominados LIS \_Subnet.csv, lis \_Switches.csv, LIS \_Ports.csv y Lis \_WAP.csv. A continuación, puede importar estos archivos CSV a la base de datos de LIS mediante el cmdlet **set-CsLisSubnet** , el cmdlet **set-CsLisSwitch** , el cmdlet **set-CsLisPort** y el cmdlet **set-CsWirelessAccessPoint** , respectivamente.
 
 </div>
 

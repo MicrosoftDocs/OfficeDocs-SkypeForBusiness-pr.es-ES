@@ -1,8 +1,8 @@
 ---
 title: Configurar el perfil de usuario
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure User Profile
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c53f156aee56aa1986302bf2ff2514aef78af592
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6615e283e0e426e738cd3cdaf714dd90f57b393e
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188763"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755504"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ Las herramientas incluidas en el paquete de la herramienta de esfuerzo y rendimi
 
 ## <a name="running-the-lync-server-2013-load-configuration-tool"></a>Ejecución de la herramienta de configuración de carga de Lync Server 2013
 
-Para configurar los perfiles de usuario, ejecute la herramienta de configuración de carga de Lync Server 2013 (UserProfileGenerator. exe) y rellene cada una de las pestañas. UserProfileGenerator. exe genera un directorio para cada uno de los equipos cliente que necesita para ejecutar la simulación. Cada directorio de cliente también incluye un script para iniciar todas las instancias de la herramienta stress and performance de Lync Server 2013 (LyncPerfTool. exe).
+Para configurar los perfiles de usuario, ejecute la herramienta de configuración de carga de Lync Server 2013 (UserProfileGenerator.exe) y rellene cada una de las pestañas. UserProfileGenerator.exe genera un directorio para cada uno de los equipos cliente en los que debe ejecutar la simulación. Cada directorio de cliente también incluye un script para iniciar todas las instancias de la herramienta stress and performance de Lync Server 2013 (LyncPerfTool.exe).
 
 <div>
 
@@ -65,13 +65,13 @@ La ficha **configuración común** de la herramienta de configuración de carga 
 
 ![Ficha Configuración común.](images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "Ficha Configuración común.")
 
-1.  En **número de equipos disponibles**, escriba o haga clic en el número de equipos que desea usar para ejecutar LyncPerfTool. exe. Le recomendamos que tenga un equipo por cada 4.500 usuarios que vaya a simular. Ese número puede variar si se reduce el nivel de carga o si solo se usa un subconjunto de las características disponibles. (Los niveles de carga se establecen en la ficha **escenarios generales** ).
+1.  En **número de equipos disponibles**, escriba o haga clic en el número de equipos que desea usar para ejecutar LyncPerfTool.exe. Le recomendamos que tenga un equipo por cada 4.500 usuarios que vaya a simular. Ese número puede variar si se reduce el nivel de carga o si solo se usa un subconjunto de las características disponibles. (Los niveles de carga se establecen en la ficha **escenarios generales** ).
 
-2.  En **prefijo para los nombres de usuario**, escriba el prefijo del nombre de usuario de los usuarios. Para iniciar sesión, el identificador uniforme de recursos (URI) será: UserPrefix\[índice de inicio de usuario... (Número de usuarios: 1) \]@User dominio.
+2.  En **prefijo para los nombres de usuario**, escriba el prefijo del nombre de usuario de los usuarios. Para iniciar sesión, el identificador uniforme de recursos (URI) será: UserPrefix \[ Índice de inicio de usuario... (Número de usuarios: 1) \] @User dominio.
 
 3.  En **contraseña para todos los usuarios**, escriba la contraseña que se usó para crear los usuarios. Si deja este campo en blanco, el nombre de usuario se usará como la contraseña.
 
-4.  En **Índice de inicio de usuario**, haga clic o escriba el índice del primer usuario que se va a configurar. Puede configurar diferentes rangos para distintos tipos o niveles de carga, pero debe ejecutar UserProfileGenerator. exe una vez por el intervalo que desea configurar.
+4.  En **Índice de inicio de usuario**, haga clic o escriba el índice del primer usuario que se va a configurar. Puede configurar rangos diferentes para distintos tipos o niveles de carga, pero debe ejecutar UserProfileGenerator.exe una vez por el intervalo que desee configurar.
 
 5.  En **número de usuarios**, haga clic o escriba el número total de usuarios que va a configurar.
 
@@ -79,7 +79,7 @@ La ficha **configuración común** de la herramienta de configuración de carga 
 
 7.  En **dominio de cuenta**, escriba el inicio de sesión de dominio de servicios de dominio de Active Directory.
 
-8.  Escriba el número máximo de puntos de conexión simultáneos en el **Inicio de sesión por segundo (por instancia)** para los que desea que la herramienta inicie sesión en todos los extremos o usuarios. La frecuencia recomendada es \<= 2 por segundo/el SKU estándar fe.
+8.  Escriba el número máximo de puntos de conexión simultáneos en el **Inicio de sesión por segundo (por instancia)** para los que desea que la herramienta inicie sesión en todos los extremos o usuarios. La frecuencia recomendada es \< = 2 por segundo/el SKU estándar fe.
 
 9.  En **proxy de acceso o FQDN del grupo**de servidores, escriba el nombre de dominio completo (FQDN) del servidor al que desea que se conecten los clientes. Si los usuarios inician sesión externamente, especifique el proxy de acceso. Si los usuarios son internos, especifique el FQDN de su grupo de servidores o servidor Standard Edition.
 
@@ -116,7 +116,7 @@ Configure los niveles de carga y los parámetros para cada uno de los escenarios
 
 4.  En la **colaboración de datos**, que incluye la Conferencia de datos, especifique el valor adecuado para el nivel de carga.
 
-5.  En **expansión**de la lista de distribución, especifique el valor adecuado para el nivel de carga. También debe hacer clic en el botón **avanzadas** y, a continuación, rellenar los campos con los mismos valores que ha configurado en la ficha **lista de distribución** de la herramienta de creación de usuarios de Lync Server (UserProvisioningTool. exe). Para obtener más información sobre estos campos, consulte [crear usuarios y contactos](create-users-and-contacts.md) .
+5.  En **expansión**de la lista de distribución, especifique el valor adecuado para el nivel de carga. También debe hacer clic en el botón **avanzadas** y, a continuación, rellenar los campos con los mismos valores que ha configurado en la ficha **lista de distribución** de la herramienta de creación de usuarios de Lync Server (UserProvisioningTool.exe). Para obtener más información sobre estos campos, consulte [crear usuarios y contactos](create-users-and-contacts.md) .
 
 6.  En **consulta Web**de la libreta de direcciones, que es el servicio de búsqueda de la libreta de direcciones (no la descarga del archivo de la libreta de direcciones), especifique el valor adecuado para el nivel de carga. Para habilitar la descarga de la libreta de direcciones, haga clic en el botón **Opciones avanzadas** correspondiente y, a continuación, establezca **EnableABSDownload** en true.
 
@@ -207,7 +207,7 @@ Use la ficha **movilidad** para configurar todos los escenarios relacionados con
 
 1.  Haga clic en el botón **Opciones avanzadas** junto a **movilidad (UCWA)**. Establezca el campo **UcwaTargetServerUrl** en la dirección IP virtual (VIP) del grupo de directores o en la VIP del grupo de servidores front-end.
 
-2.  En **presencia y audio de mensajería\\instantánea P2P**, seleccione el valor adecuado para el **nivel de carga** para habilitar la simulación de escenario de movilidad.
+2.  En **presencia y \\ audio de mensajería instantánea P2P**, seleccione el valor adecuado para el **nivel de carga** para habilitar la simulación de escenario de movilidad.
 
 <div>
 
@@ -229,7 +229,7 @@ La ficha **Resumen** de la herramienta de configuración de carga de Lync Server
 
 ![Ficha Resumen.](images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "Ficha Resumen.")
 
-La pestaña **Resumen** indica qué usuarios deben usar para cada uno de los escenarios. Es posible configurar manualmente los intervalos de números de usuario activando la casilla de verificación **Habilitar la generación de intervalo de usuario personalizado** y, a continuación, haciendo doble clic en el escenario de la tabla que tiene el **intervalo de usuarios** que desea personalizar. Compruebe (RunClient. bat) Agregue un retraso de inicio de sesión al iniciar el, a fin de incluir retrasos en los archivos por lotes generados para que correspondan a la tasa de inicio de sesión. Esto es útil para evitar la sobrecarga del servidor al iniciar sesión en un gran número de usuarios. Haga clic en **generar archivos**y seleccione la carpeta en la que desea generar la configuración. Cuando los archivos se hayan creado correctamente, aparecerá un cuadro de diálogo similar a la siguiente figura.
+La pestaña **Resumen** indica qué usuarios deben usar para cada uno de los escenarios. Es posible configurar manualmente los intervalos de números de usuario activando la casilla de verificación **Habilitar la generación de intervalo de usuario personalizado** y, a continuación, haciendo doble clic en el escenario de la tabla que tiene el **intervalo de usuarios** que desea personalizar. Compruebe (RunClient.bat) Agregue un retraso de inicio de sesión al iniciar el, a fin de incluir retrasos en los archivos por lotes generados para que correspondan a la tasa de inicio de sesión. Esto es útil para evitar la sobrecarga del servidor al iniciar sesión en un gran número de usuarios. Haga clic en **generar archivos**y seleccione la carpeta en la que desea generar la configuración. Cuando los archivos se hayan creado correctamente, aparecerá un cuadro de diálogo similar a la siguiente figura.
 
 ![Confirmación de que se han creado los archivos.](images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "Confirmación de que se han creado los archivos.")
 
@@ -239,7 +239,7 @@ La pestaña **Resumen** indica qué usuarios deben usar para cada uno de los esc
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Vea también
 
 
 [Crear usuarios y contactos](create-users-and-contacts.md)  

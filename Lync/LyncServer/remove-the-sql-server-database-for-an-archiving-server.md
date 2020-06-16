@@ -1,8 +1,8 @@
 ---
 title: Quitar la base de datos de SQL Server de un servidor de archivado
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the SQL Server database for an Archiving server
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d077b21b1b45cc73c268b3dc6294f0a476f48809
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3c84c15aea6be5ddcc30c357fec5971bf9786c25
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189363"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755794"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +63,7 @@ Después de quitar un servidor de archivado de 2010 de Microsoft Lync Server, pu
     
         Uninstall-CsDataBase -DatabaseType Archiving -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    Donde \<FQDN\> es el nombre de dominio completo (FQDN) del servidor de base de datos \<e\> instancia es la instancia de base de datos con nombre (es decir, si se definió una).
+    Donde \<FQDN\> es el nombre de dominio completo (FQDN) del servidor de base de datos y \<instance\> es la instancia de base de datos con nombre (es decir, si se definió una).
 
 4.  Cuando el cmdlet **Uninstall-CsDataBase** le pida que confirme las acciones, lea la información y presione **Y** (o Entrar) para continuar, o bien presione **N** y, a continuación, Entrar si desea detener el cmdlet (esto es, cuando haya errores).
 

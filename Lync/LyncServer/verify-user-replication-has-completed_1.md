@@ -1,8 +1,8 @@
 ---
-title: Comprobar que la replicación de usuarios se ha completado
+title: La comprobación de la replicación de usuarios ha finalizado
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify user replication has completed
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183524
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a21ff29474825cdecca8db4c4db42eb5bb2cf0ea
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 31bed57b6e24db0ba6f75e323fe311aa4aaf262c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188793"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755524"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42188793"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-user-replication-has-completed"></a>Comprobar que la replicación de usuarios se ha completado
+# <a name="verify-user-replication-has-completed"></a>La comprobación de la replicación de usuarios ha finalizado
 
 </div>
 
@@ -53,7 +53,7 @@ Cuando se ejecuta el cmdlet **Move-CsLegacyUser** , puede experimentar un error 
 
 5.  En la lista **Orígenes del evento**, haga clic en **LS User Replicator**.
 
-6.  En ** \<todos los identificadores\> de evento** , escriba **30024** y haga clic en **Aceptar**.
+6.  En **\<All Event IDs\>** escriba **30024** y, a continuación, haga clic en **Aceptar**.
 
 7.  En la lista de eventos filtrados, en la pestaña **General**, busque una entrada que indique que la replicación de usuarios finalizó correctamente.
 

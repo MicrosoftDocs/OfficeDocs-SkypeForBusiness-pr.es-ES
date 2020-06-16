@@ -1,8 +1,8 @@
 ---
 title: 'Fase 4: mover usuarios de prueba al grupo piloto'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 4: Move test users to the pilot pool'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184208
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3063b1f30bd7c63b35eb62f0bdbfdf0097a795ec
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 50077f7438be8a6b7e620b8bb8dcac12c0bd2e07
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209706"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Puede mover un solo usuario o grupos de usuarios a la nueva implementación de M
 
   - [Ver usuarios actuales en el grupo de servidores 2010 de Lync Server](view-current-users-in-lync-server-2010-pool.md)
 
-  - [Comprobar que la replicación de usuarios se ha completado](verify-user-replication-has-completed.md)
+  - [La comprobación de la replicación de usuarios ha finalizado](verify-user-replication-has-completed.md)
 
   - [Mover un solo usuario al grupo piloto](move-a-single-user-to-the-pilot-pool.md)
 

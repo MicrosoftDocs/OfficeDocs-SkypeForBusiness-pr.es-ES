@@ -1,8 +1,8 @@
 ---
 title: Administrar complementos
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Manage add-ins
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 465f71a8221ce273574c5cf602146272b34f0cf7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 964716509feb0bf1101181693e5ab777de6736ab
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210145"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757201"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ Para crear un nuevo complemento
 
 
 > [!IMPORTANT]  
-> La &lt;cadena&gt; PersistentChatPoolFqdn solo es necesaria si hay más de un grupo de servidores de chat persistente.
+> La &lt; cadena PersistentChatPoolFqdn &gt; solo es necesaria si hay más de un grupo de servidores de chat persistente.
 
 
 

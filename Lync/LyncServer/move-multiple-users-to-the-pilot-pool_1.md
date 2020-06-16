@@ -1,8 +1,8 @@
 ---
 title: Mover varios usuarios al grupo piloto
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move multiple users to the pilot pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733745
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 657c6e001fa15fa6c1c70076a257a620f0cef790
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 41c663566605529b25d9890bb31cba462364c813
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189823"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756469"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +75,7 @@ Puede mover varios usuarios desde el grupo de servidores de Office Communication
 
 1.  Abra el shell de administración de Lync Server 2013.
 
-2.  En la línea de comandos, escriba lo siguiente y reemplace **user1** y **user2** por los nombres de usuario específicos que desea mover y reemplazar el **FQDN del grupo\_** de servidores con el nombre del grupo de servidores de destino. En este ejemplo, moveremos los usuarios Hao Chen y Katie Jordan:
+2.  En la línea de comandos, escriba lo siguiente y reemplace **user1** y **user2** por los nombres de usuario específicos que desea mover y reemplazar el ** \_ FQDN del grupo** de servidores con el nombre del grupo de servidores de destino. En este ejemplo, moveremos los usuarios Hao Chen y Katie Jordan:
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsLegacyUser -Target "pool_FQDN"
     
@@ -85,7 +85,7 @@ Puede mover varios usuarios desde el grupo de servidores de Office Communication
     
         Get-CsUser -Identity "User1"
 
-4.  La identidad del **grupo de registrador** ahora debe apuntar al grupo especificado como **FQDN del grupo\_** de servidores en el paso anterior. La presencia de esta identidad confirma que se ha movido correctamente al usuario. Repita el paso para comprobar que se ha movido a **User2**.
+4.  La identidad del **grupo de registrador** ahora debe apuntar al grupo especificado como ** \_ FQDN del grupo** de servidores en el paso anterior. La presencia de esta identidad confirma que se ha movido correctamente al usuario. Repita el paso para comprobar que se ha movido a **User2**.
     
     ![Resultado del cmdlet PowerShell Get-UsUser-Identity](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Resultado del cmdlet PowerShell Get-UsUser-Identity")  
 
@@ -109,7 +109,7 @@ En este ejemplo, todos los usuarios se han devuelto al grupo de Office Communica
     
         Get-CsUser -Identity "Hao Chen"
 
-4.  La identidad del **grupo de registradores** para cada usuario apunta ahora al grupo especificado como "\_FQDN del grupo de servidores" en el paso anterior. La presencia de esta identidad confirma que se movió al usuario correctamente.
+4.  La identidad del **grupo de registradores** para cada usuario apunta ahora al grupo especificado como " \_ FQDN del grupo de servidores" en el paso anterior. La presencia de esta identidad confirma que se movió al usuario correctamente.
 
 5.  Además, podemos ver la lista de usuarios en el panel de control de Lync Server 2013 y comprobar que el valor del grupo de registradores ahora apunta al grupo de servidores de Lync Server 2013.
     

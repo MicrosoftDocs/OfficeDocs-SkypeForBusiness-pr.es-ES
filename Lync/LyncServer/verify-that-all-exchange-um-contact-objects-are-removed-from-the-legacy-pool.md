@@ -1,8 +1,8 @@
 ---
 title: Comprobar que todos los objetos de contacto de mensajería unificada de Exchange se han quitado del grupo heredado
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify that all Exchange UM Contact objects are removed from the legacy pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7815f78dfa5f2b4aab3f09102a9948498c20cf10
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e638dc7e0172c3187859797776f8e64372c81d5
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188853"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755554"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +39,7 @@ _**Última modificación del tema:** 2012-09-26_
 
 Use la herramienta **OCSUmUtil** o el cmdlet **Get-CsExumContact** para comprobar que los objetos de contacto de mensajería unificada de Exchange se han quitado del grupo de Office Communications Server 2007 R2 heredado. **OCSUmUtil** se encuentra en la siguiente carpeta:
 
-% Program Files\\% archivos\\comunes Lync Server\\2013\\support OcsUMUtil. exe
+% Program Files% \\ archivos comunes \\ Lync Server 2013 \\ soporte \\OcsUMUtil.exe
 
 **OCSUmUtil** debe ejecutarse desde una cuenta de usuario que tenga:
 

@@ -1,8 +1,8 @@
 ---
 title: Uso de categorías para administrar el servidor de chat persistente
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Using categories to administer Persistent Chat Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e02a780772cd0e9592bb078ab526a4085a234bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 73801c006f7ef5487960628d0f981809cdfd2d38
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189013"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755634"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +63,7 @@ Los administradores de salones de chat persistente, que tienen la capacidad de a
 
 </div>
 
-Los administradores de salones pueden hacer cambios en todas las propiedades de salones de chat, excepto en la categoría del salón. No pueden tener restricciones para realizar las siguientes acciones:
+Chat room managers can make changes to all chat room properties, except for changing the category of the room. They cannot be restricted from performing the following actions:
 
   - Deshabilitar un salón de chat
 
@@ -89,7 +89,7 @@ Los administradores de salones pueden hacer cambios en todas las propiedades de 
 
 La creación y administración de salones de chat persistente es mucho más sencilla con el uso correcto de las categorías. Un administrador de chat persistente puede definir **miembros permitidos** y **creadores** para cada categoría y también puede definir la configuración y los comportamientos predeterminados del salón de chat que se aplicarán a todos los salones de chat creados en la categoría. Los administradores de chat persistente crean y administran categorías mediante el panel de control de Lync Server o los cmdlets de Windows PowerShell.
 
-Los usuarios, las unidades organizativas (OU) y los grupos de usuarios identificados como creadores de la categoría son los únicos individuos y grupos que pueden crear salones en la categoría. Una vez creada la categoría, pueden elegir usuarios, OU y grupos de usuarios desde la lista de **miembrospermitidos** de la categoría como administradores de salones de chat y miembros para administrar y participar en el salón.
+Users, Organizational Units (OUs), and user groups that are identified as Creators of the category are the only individuals and groups that are allowed to create rooms in the category. After the category is created, they can choose users, OUs, and user groups from the category’s **AllowedMembers** list as chat room managers and members to manage and participate in the room.
 
 Los salones de chat que se crean en una categoría respetan las directivas y la configuración que exige la categoría (por ejemplo, quién puede estar en la pertenencia de la sala, quién puede administrar el salón, si se permiten las cargas de archivos, si se envían invitaciones, etc.).
 

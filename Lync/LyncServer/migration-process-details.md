@@ -1,8 +1,8 @@
 ---
 title: 'Proceso de migración: detalles'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration process - details
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6df1eb2e0f69f79bd299f2da4f6f12aaba1bb5d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 76624475b86427d8e3b1aa4f9efa75c127afcb85
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189953"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756715"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ Asegúrese de que ha cumplido los siguientes requisitos previos antes de migrar 
     
 
     > [!IMPORTANT]  
-    > Tenga presente que estos nuevos elementos pueden entrar en conflicto con los elementos heredados que migre. Evite los conflictos de nombres, de lo contrario se sobrescribirán cuando se migren los datos heredados.
+    > Be aware that these newly created items may conflict with legacy items that you migrate. Avoid any naming conflicts; otherwise, they will be overwritten when the legacy data is migrated.
 
     
     </div>
@@ -66,7 +66,7 @@ Asegúrese de que ha cumplido los siguientes requisitos previos antes de migrar 
 
 Haga lo siguiente para preparar correctamente los datos de origen para la migración.
 
-1.  Realice una copia de seguridad de las bases de datos de origen para Lync Server 2010, grupo de chat o para el chat en grupo de Office Communications Server 2007 R2. Para obtener más información sobre cómo realizar copias de seguridad de SQL Server, vea "Introducción a <https://go.microsoft.com/fwlink/p/?linkid=254851>la copia de seguridad (SQL Server)" en.
+1.  Realice una copia de seguridad de las bases de datos de origen para Lync Server 2010, grupo de chat o para el chat en grupo de Office Communications Server 2007 R2. Para obtener más información sobre cómo realizar copias de seguridad de SQL Server, vea "Introducción a la copia de seguridad (SQL Server)" en <https://go.microsoft.com/fwlink/p/?linkid=254851> .
     
     <div>
     
@@ -92,9 +92,9 @@ Haga lo siguiente para preparar correctamente los datos de origen para la migrac
     
     1.  El servidor de chat persistente admite un solo nivel de categorías, a diferencia de un conjunto de categorías jerárquico en profundidad. Tras la migración, se agrega a las subcategorías el prefijo con los nombres completos de categoría principal. Puede simplificar la estructura de categorías actual conforme a sus necesidades.
     
-    2.  Compruebe los **administradores** de la categoría raíz. Si existe algún administrador en este nivel, estos usuarios se agregarán como **administradores para todos los salones** tras la migración. Si su organización no requiere esto, tiene que eliminar estos administradores de la categoría raíz.
+    2.  Verify the **Managers** at the root Category. If any Managers exist at this level, these users will be added as **Managers to all rooms** after migration. If this is not a requirement for your organization, you need to remove these Managers from the root Category.
     
-    3.  Compruebe la longitud de los nombres de los salones. Tras la migración, debido a que se han simplificado las estructuras de las categorías, si hay salones por debajo de una categoría secundaria, se les agregarán como prefijos los nombres completos de las categorías principales. El límite de los nombres es de 256 caracteres, incluidos los nombres de las categorías principales. Debe comprobar la longitud de los nombres de los salones y posiblemente abreviarlos, si son demasiado largos.
+    3.  Verify the length of room names. After migration, due to simplified category structures, if the rooms exist under a child category, they are prefixed with full parent category names. The naming limit is 256 characters, including parent category names. You must verify the length of the room names and possibly shorten the length, if they are too long.
     
     4.  En Lync Server 2013, si la configuración de **invitaciones** de categoría se establece en true, puede elegir true o false para invitaciones a salas de esa categoría. No obstante, si se configuran las invitaciones con el valor false, los salones de esta categoría tienen las invitaciones desactivadas. Antes de la migración, debe restablecer la configuración de la invitación en la versión heredada del servidor de chat en grupo de Lync Server, si desea que existan salas o salas en una categoría específica. De lo contrario, durante la migración, Lync Server 2013 muestra advertencias y establece salas en el valor predeterminado de false.
     
@@ -104,7 +104,7 @@ Haga lo siguiente para preparar correctamente los datos de origen para la migrac
     
     7.  Identifique los salones que no desea migrar y márquelos como deshabilitados.
     
-    8.  Identifique la fecha a partir de la cual desea migrar el contenido de los salones de chat. Por ejemplo, quizás no desee migrar los mensajes anteriores al 1 de enero de 2010, porque ya son obsoletos o no son importantes para migrarlos.
+    8.  Identify the date beyond which you want to migrate the chat room content. For example, you may not want to migrate messages earlier than January 1, 2010, because these messages may be obsolete or not relevant for migration.
 
 </div>
 
@@ -141,7 +141,7 @@ Realice los siguientes pasos para migrar el servidor de chat de grupo heredado.
 
 8.  Porte el URI de servidor de búsqueda de chat de grupo de Lync Server 2010, chat de grupo u Office Communications Server 2007 R2 al objeto de contacto del servidor de chat persistente de Lync Server 2013. Los siguientes pasos son necesarios si el cliente de chat en grupo de Lync 2010 o de Office Communicator 2007 R2 tiene que conectarse a la versión más reciente de Lync 2013, chat persistente (cliente) después de la migración sin cambios en la configuración del cliente:
     
-      - Elimine la\<cuenta\>de usuario del servidor de búsqueda ocschat@ domainname. com. Esto se usaba para apuntar al servicio de búsqueda en Lync Server 2010, Group chat. Puede desinstalar el grupo y eliminar las entradas de confianza posteriormente.
+      - Elimine la \<domainName\> cuenta de usuario del servidor de búsqueda ocschat@. com. Esto se usaba para apuntar al servicio de búsqueda en Lync Server 2010, Group chat. Puede desinstalar el grupo y eliminar las entradas de confianza posteriormente.
     
       - Cree un extremo heredado (objeto de contacto del servidor de chat persistente) mediante la ejecución del cmdlet de Windows PowerShell, **New-CsPersistentChatEndpoint**, con el mismo URI del SIP para que el cliente heredado funcione correctamente cuando se reinicie el servicio.
     
@@ -163,7 +163,7 @@ Realice los siguientes pasos para migrar el servidor de chat de grupo heredado.
     
 
     > [!IMPORTANT]  
-    > Lync Server 2013 admite varios grupos de servidores de chat persistente. Sin embargo, se admite la migración de un grupo de chat de grupo de Lync 2010&nbsp;o de Office Communications Server 2007 R2 a un solo grupo de servidores de chat persistente de lync Server 2013. Puede agregar nuevos grupos de servidores de chat persistente en su implementación para cumplir con las necesidades regulatorias (por ejemplo, mantener datos dentro de una ubicación geográfica determinada).
+    > Lync Server 2013 admite varios grupos de servidores de chat persistente. Sin embargo, se admite la migración de un grupo de chat de grupo de Lync 2010 o de Office Communications Server 2007 R2 &nbsp; a un solo grupo de servidores de chat persistente de Lync server 2013. Puede agregar nuevos grupos de servidores de chat persistente en su implementación para cumplir con las necesidades regulatorias (por ejemplo, mantener datos dentro de una ubicación geográfica determinada).
 
     
     </div>

@@ -1,8 +1,8 @@
 ---
 title: Los cmdlets de informes de Skype empresarial online y el servicio Web REST
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: The Skype for Business Online reporting cmdlets and REST web service
@@ -12,12 +12,12 @@ ms:contentKeyID: 56563409
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63cbce4dda006bb45606a09eef29d8c47946ad2a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f40d394ba69cf017c11d4eb6cd57246a9d425c0f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189183"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755704"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +51,7 @@ Los cmdlets de informes disponibles para los administradores incluyen:
 
   - Get-CsP2PSessionReport, que proporciona información sobre el número y el tipo de sesiones de punto a punto en las que participaron los usuarios.
 
-La mayoría de los administradores usarán los informes disponibles en el centro de administración de 365 de Microsoft: no solo esos informes se generan automáticamente, sino que también proporcionan una representación gráfica de los datos que a menudo es más fácil de interpretar que los valores de número sin formato devueltos por el cmdlets de informes. Sin embargo, los administradores familiarizados con Windows PowerShell pueden usar los cmdlets de informes para devolver datos que no están disponibles de forma legible desde los informes de Lync Online. Por ejemplo, los cmdlets de informes devuelven información sobre la duración de la sesión (la cantidad de tiempo, en minutos, que duró cada sesión). Las duraciones de sesión individuales no están disponibles mediante los informes de Lync Online. Del mismo modo, en vista diaria los informes de Lync Online solo muestran información para los 14 días anteriores. Si desea revisar los totales diarios de un día diferente (por ejemplo, una fecha de hace cuatro meses), puede hacerlo con los cmdlets de informes.
+La mayoría de los administradores usarán los informes disponibles en el centro de administración de Microsoft 365: no solo estos informes se generan automáticamente, sino que también proporcionan una representación gráfica de los datos que a menudo es más fácil de interpretar que los valores de número sin formato devueltos por los cmdlets de informes. Sin embargo, los administradores familiarizados con Windows PowerShell pueden usar los cmdlets de informes para devolver datos que no están disponibles de forma legible desde los informes de Lync Online. Por ejemplo, los cmdlets de informes devuelven información sobre la duración de la sesión (la cantidad de tiempo, en minutos, que duró cada sesión). Las duraciones de sesión individuales no están disponibles mediante los informes de Lync Online. Del mismo modo, en vista diaria los informes de Lync Online solo muestran información para los 14 días anteriores. Si desea revisar los totales diarios de un día diferente (por ejemplo, una fecha de hace cuatro meses), puede hacerlo con los cmdlets de informes.
 
 Los administradores también pueden estar interesados en el artículo [usar Excel para recuperar datos de informes de office 365](https://msdn.microsoft.com/library/dn781442.aspx), donde se explica cómo usar la característica de consulta de datos de oData en Microsoft Excel para crear un informe personalizado de Office 365. Los informes personalizados le proporcionan la capacidad de dictar qué datos (y cuántos datos) se devuelven del servicio de informes de Office 365. Los informes personalizados también le permiten especificar cómo deben ordenarse y agruparse los datos, así como proporcionar acceso a la información que no se muestra en el centro de administración.
 
@@ -59,7 +59,7 @@ Los administradores con un fondo de desarrollo pueden usar el servicio Web REST 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Vea también
 
 
 [Informes de Lync Online](https://technet.microsoft.com/library/dn362827\(v=ocs.15\))  

@@ -1,8 +1,8 @@
 ---
-title: Comprobar la coexistencia del grupo piloto con el grupo heredado
+title: Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredado
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify pilot pool coexistence with legacy pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184209
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4952640d6f6e938b460855118163d98e001f6a77
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec73f8d25237d7d056282cc7c88685802eb50f16
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188863"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755564"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42188863"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Comprobar la coexistencia del grupo piloto con el grupo heredado
+# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredado
 
 </div>
 

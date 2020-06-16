@@ -1,8 +1,8 @@
 ---
-title: Migración de servidores de archivado y supervisión
+title: Migrar servidores de archivado y supervisión
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrating Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67896576fce21eea630533a5826bbcbc53392fa0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 43b7c7509dcf678967db651900c67cdfb3d26685
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209856"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757081"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209856"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-archiving-and-monitoring-servers"></a>Migración de servidores de archivado y supervisión
+# <a name="migrating-archiving-and-monitoring-servers"></a>Migrar servidores de archivado y supervisión
 
 </div>
 
@@ -51,7 +51,7 @@ Si desea contar con la funcionalidad de archivado y de supervisión durante la f
     
 
     > [!NOTE]  
-    > Durante la fase de migración, cuando sigue usando el servidor perimetral heredado con el nuevo grupo piloto Lync Server 2013, la versión de Office Communications Server 2007 R2 del servidor de archivado continúa recopilando datos para los usuarios hospedados en Office Communications Server 2007 Los grupos R2 y la versión 2013 de Lync Server del servidor de archivado recopilan datos para los usuarios alojados en los grupos de servidores de Lync Server 2013.
+    > Durante la fase de migración, cuando sigue usando el servidor perimetral heredado con el nuevo grupo piloto de Lync Server 2013, la versión de Office Communications Server 2007 R2 del servidor de archivado continúa recopilando datos para los usuarios alojados en los grupos de servidores de Office Communications Server 2007 R2 y la versión de Lync Server 2013 del servidor de archivado recopila datos para los usuarios hospedados 2013 en grupos de
 
     
     </div>

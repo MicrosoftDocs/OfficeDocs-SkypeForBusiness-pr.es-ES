@@ -1,8 +1,8 @@
 ---
-title: Comprobar la coexistencia del grupo piloto con el grupo heredado
+title: Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredado
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify pilot pool coexistence with legacy pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c30f15b7a4e40b5c814ed5f21d07e213b69cf10
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b76c1296f69421bfbfe83e61055249f2642420ba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188893"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42188893"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Comprobar la coexistencia del grupo piloto con el grupo heredado
+# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredado
 
 </div>
 
@@ -43,7 +43,7 @@ Después de implementar el grupo piloto, verifique la coexistencia de los dos gr
 
 ## <a name="verify-that-lync-server-2013-services-have-started"></a>Compruebe que se han iniciado los servicios de Lync Server 2013
 
-1.  Desde el servidor front-end de Lync Server 2013, vaya al subprograma Servicios de herramientas\\administrativas.
+1.  Desde el servidor front-end de Lync Server 2013, vaya al \\ subprograma Servicios de herramientas administrativas.
 
 2.  Compruebe que los servicios siguientes se están ejecutando en el servidor front-end:
 

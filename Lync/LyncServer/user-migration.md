@@ -1,8 +1,8 @@
 ---
-title: Migración de usuarios
+title: Migración de usuario
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: User migration
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39c83a45b0090ead83d00a188afd7d8dad8fe5b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d71330ce67715ba9beb22cce25c13faa63ddbbea
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189073"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755654"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189073"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-migration"></a>Migración de usuarios
+# <a name="user-migration"></a>Migración de usuario
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "42189073"
 
 _**Última modificación del tema:** 2012-10-19_
 
-Uno de los procedimientos recomendados más generalizado para las migraciones consiste en crear varias cuentas de usuario de prueba y usarlas para llevar a cabo pruebas del sistema. Después de mover correctamente y probar esas cuentas, se ha de identificar un grupo piloto de usuarios de producción, mover sus cuentas y realizar pruebas de validación. Si los resultados son satisfactorios, se podrá mover el resto de los usuarios a la nueva implementación.
+A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.
 
 Para obtener más información sobre cómo habilitar usuarios para Lync Server 2013, consulte el tema sobre cómo [deshabilitar o volver a habilitar la cuenta de usuario para Lync server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) en la documentación sobre la implementación de lync Server 2013.
 

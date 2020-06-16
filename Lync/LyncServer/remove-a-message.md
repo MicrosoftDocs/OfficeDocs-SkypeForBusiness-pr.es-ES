@@ -1,8 +1,8 @@
 ---
 title: Quitar un mensaje
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove a message
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184790
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9709b3249e241ae5f9998ee48f5ff65e05b9bd8f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cbeda1e4b9b9705cffb89469741aadb6fe67241c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209460"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757151"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

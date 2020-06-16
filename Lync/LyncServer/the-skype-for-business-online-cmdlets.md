@@ -1,8 +1,8 @@
 ---
 title: Los cmdlets de Skype empresarial online
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: The Skype for Business Online cmdlets
@@ -12,12 +12,12 @@ ms:contentKeyID: 56558831
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02365bfeeed60a22ea467091ebb0f2c92b0fa3c2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ee81531ca8d900225d2b8dc2a10af55718a5b67
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189193"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755714"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42189193"
 
 _**Última modificación del tema:** 2013-07-05_
 
-Al conectarse a Skype empresarial online mediante Windows PowerShell, una colección de cmdlets de Skype empresarial online se copia en la memoria del equipo. Estos cmdlets, además de otros cmdlets que ya tiene en el equipo local (incluidos los cmdlets básicos que se instalan al instalar Windows PowerShell), están disponibles para administrar su implementación de Skype empresarial online y su Skype empresarial Cuentas de usuario de empresa online. Los cmdlets de Skype empresarial online se incluyen en los siguientes temas:
+Al conectarse a Skype empresarial online mediante Windows PowerShell, una colección de cmdlets de Skype empresarial online se copia en la memoria del equipo. Estos cmdlets, además de otros cmdlets que ya tiene en el equipo local (incluidos los cmdlets básicos que se instalan al instalar Windows PowerShell), están disponibles para administrar su implementación de Skype empresarial online y sus cuentas de usuario de Skype empresarial online. Los cmdlets de Skype empresarial online se incluyen en los siguientes temas:
 
   - [Administrar los inquilinos de Skype empresarial online](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
 
@@ -57,7 +57,7 @@ Al conectarse a Skype empresarial online mediante Windows PowerShell, una colecc
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Vea también
 
 
 [Referencia rápida: uso de Windows PowerShell para realizar tareas de administración comunes de Skype empresarial online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)  

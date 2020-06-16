@@ -1,8 +1,8 @@
 ---
 title: Migrar la libreta de direcciones
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate Address Book
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185064
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42d28161eab03d494dd5ebb3771c0879dd3dbb99
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ee0dc4d50fb3b60d4f6a9581d497df11da630122
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210144"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757041"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +47,7 @@ En general, la libreta de direcciones 2010 de Lync Server se migra junto con el 
 
 **Entradas de la Libreta de direcciones agrupadas**
 
-Si estableció el valor True (verdadero) en la propiedad de WMI **PartitionbyOU** para crear libretas de direcciones para cada unidad organizativa, deberá establecer el atributo **msRTCSIP-GroupingId** de Active Directory en los usuarios y contactos si desea seguir agrupando entradas de libretas de direcciones. Puede que le interese agrupar entradas para limitar el alcance de las búsquedas en las libretas de direcciones. Si desea utilizar el atributo **msRTCSIP-GroupingId**, escriba un script para rellenar el atributo y que asigne el mismo valor a todos los usuarios que desee agrupar. Por ejemplo, asigne un único valor a todos los usuarios de una unidad organizativa.
+If you set the **PartitionbyOU** WMI property to True to create address books for each OU, you need to set the **msRTCSIP-GroupingId** Active Directory attribute on users and contacts if you want to continue grouping address book entries. You might want to group address book entries to limit the scope of Address Book searches. To use the **msRTCSIP-GroupingId** attribute, write a script to populate the attribute, assigning the same value for all of the users that you want to group together. For example, assign a single value for all the users in an OU.
 
 **Reglas de normalización de la Libreta de direcciones**
 
@@ -57,7 +57,7 @@ Si ha personalizado las reglas de normalización de la libreta de direcciones en
 
 
 > [!NOTE]  
-> Si su organización usa el control remoto de llamadas y personalizó las reglas de normalización de la libreta de direcciones, deberá llevar a cabo el procedimiento que se describe en este tema para poder usar el control remoto de llamadas. El procedimiento requiere pertenecer al grupo RTCUniversalServerAdmins o contar con derechos equivalentes.
+> If your organization uses remote call control and you customized Address Book normalization rules, you must perform the procedure in this topic before you can use remote call control. The procedure requires membership in the RTCUniversalServerAdmins group or equivalent rights.
 
 
 
@@ -71,22 +71,22 @@ Si establece el valor de **UseNormalizationRules** en false para que los usuario
 
 ## <a name="to-migrate-address-book-customized-normalization-rules"></a>Para migrar reglas de normalización personalizadas de la libreta de direcciones
 
-1.  Busque el archivo\_.\_txt\_de\_reglas de normalización de números de teléfono de la compañía en la raíz de la carpeta compartida de la libreta de direcciones y cópielo en la raíz de la carpeta compartida de la libreta de direcciones en el grupo piloto de Lync Server 2013.
+1.  Busque el \_ \_ \_ archivoRules.txt de normalización de números de teléfono de la empresa \_ en la raíz de la carpeta compartida de la libreta de direcciones y cópielo en la raíz de la carpeta compartida de la libreta de direcciones en el grupo piloto de Lync Server 2013.
     
     <div>
     
 
     > [!NOTE]  
-    > Las reglas de normalización de la libreta de direcciones de muestra se instalaron en el directorio de archivos de componentes web de ABS. La ruta es <STRONG>$installedDriveLetter:\Archivos de programa\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\Sample_Company_Phone_Number_Normalization_Rules.txt</STRONG>. Este archivo se puede copiar y cambiar de &nbsp;nombre como <STRONG>Company_Phone_Number_Normalization_Rules. txt</STRONG> &nbsp;al directorio raíz de la carpeta compartida de la libreta de direcciones. Por ejemplo, la libreta de direcciones compartida <STRONG></STRONG>en $serverX&nbsp;, la ruta de acceso será similar a: <STRONG> \\$serverX \LyncFileShare\2-webservices-1\ABFiles</STRONG>.
+    > Las reglas de normalización de la libreta de direcciones de muestra se instalaron en el directorio de archivos de componentes web de ABS. La ruta es <STRONG>$installedDriveLetter:\Archivos de programa\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\Sample_Company_Phone_Number_Normalization_Rules.txt</STRONG>. Este archivo se puede copiar y cambiar de nombre como &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp; al directorio raíz de la carpeta compartida de la libreta de direcciones. Por ejemplo, la libreta de direcciones compartida en <STRONG>$serverX</STRONG>, &nbsp; la ruta de acceso será similar a: <STRONG> \\ $serverX \LyncFileShare\2-webservices-1\ABFiles</STRONG>.
 
     
     </div>
 
-2.  Use un editor de texto, como el Bloc de notas, para\_abrir\_el\_archivo\_rules. txt de normalización de números de teléfono de la compañía.
+2.  Use un editor de texto, como el Bloc de notas, para abrir el archivo de normalización de números de teléfono de la compañía \_ \_ \_ \_Rules.txt.
 
 3.  Ciertos tipos de entradas no funcionarán correctamente en Lync Server 2013. Busque en el archivo los tipos de entradas que se describen en este paso, modifíquelos como sea necesario y guarde los cambios en la carpeta compartida de la libreta de direcciones de su grupo piloto.
     
-    Las cadenas que contienen puntuación o espacios en blanco necesarios provocan errores en las reglas de normalización, ya que estos caracteres se quitan de la cadena que se incluye en las reglas de normalización. Si tiene cadenas que incluyen puntuación o espacios en blanco necesarios, deberá modificarlas. Por ejemplo, la siguiente cadena generará un error en la regla de normalización:
+    Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     
@@ -114,7 +114,7 @@ Si establece el valor de **UseNormalizationRules** en false para que los usuario
 
 3.  Espere a que se produzca la replicación del almacén de administración central en todos los grupos.
 
-4.  Modifique el archivo de reglas de normalización de\_teléfono\_,\_"\_reglas de normalización de números de teléfono de la compañía. txt", para que la implementación borre el contenido. El archivo se encuentra en el recurso compartido de archivos de cada grupo de servidores de 2013 de Lync Server. Si el archivo no está presente, cree un archivo vacío denominado "reglas de\_\_normalización\_\_de números de teléfono de la compañía. txt".
+4.  Modifique el archivo de reglas de normalización de teléfono, " \_ \_ \_ normalización \_ de números de teléfono de la empresaRules.txt", para que la implementación borre el contenido. El archivo se encuentra en el recurso compartido de archivos de cada grupo de servidores de 2013 de Lync Server. Si el archivo no está presente, cree un archivo vacío denominado "normalización del número de teléfono de la compañía \_ \_ \_ \_Rules.txt".
 
 5.  Espere varios minutos hasta que todos los grupos de servidores front-end lean los nuevos archivos.
 

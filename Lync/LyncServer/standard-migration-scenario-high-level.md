@@ -1,8 +1,8 @@
 ---
 title: 'Escenario de migración estándar: alto nivel'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Standard migration scenario - high-level
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5b2dd76a071c01c74f3d42f9c1ffbfa76c4a924
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0acdf50ac515810b2813a98e9dc1f289e327eba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189263"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

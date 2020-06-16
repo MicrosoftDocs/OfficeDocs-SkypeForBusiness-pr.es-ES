@@ -1,8 +1,8 @@
 ---
 title: Migrar los grupos de respuesta
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate response groups
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184250
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36b37fc6a67a1935c442edb4e2e8ef0d8812315c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de012d0886c51cd70d5003beb24053ff86af05b7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190153"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756941"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +73,7 @@ Para migrar grupos de respuesta de un grupo heredado a la versión 2013 de Lync 
 
 </div>
 
-Después de migrar los grupos de respuesta, debe actualizar la URL que los agentes formales usan para iniciar y cerrar sesión en sus grupos de respuesta, y usar el panel de control de Lync Server o los cmdlets del shell de administración de Lync Server para comprobar que todos los grupos de agentes, las colas y los flujos de trabajo se movieron siguiera.
+Después de migrar los grupos de respuesta, debe actualizar la URL que los agentes formales usan para iniciar y cerrar sesión en sus grupos de respuesta, y usar el panel de control de Lync Server o los cmdlets del shell de administración de Lync Server para comprobar que todos los grupos de agentes, las colas y los flujos de trabajo se movieron correctamente.
 
 <div>
 
@@ -127,13 +127,13 @@ El procedimiento que se describe a continuación para migrar configuraciones de 
     
         Move-CsRgsConfiguration -Source pool01.contoso.net -Destination pool02.contoso.net
 
-5.  Si ha implementado la pestaña grupo de respuesta para Microsoft Office Communicator 2007 R2 en su entorno de Office Communications Server 2007 R2, quite la pestaña del archivo Tabs. XML de Office Communicator 2007 R2.
+5.  Si ha implementado la pestaña grupo de respuesta para Microsoft Office Communicator 2007 R2 en su entorno de Office Communications Server 2007 R2, elimine la ficha del archivo de tabs.xml de Office Communicator 2007 R2.
     
     <div>
     
 
     > [!NOTE]  
-    > Los agentes formales utilizaban la pestaña Grupo de respuesta para iniciar sesión en sus grupos de respuesta para así poder recibir llamadas. Si ha implementado la pestaña grupo de respuesta, eligió la ubicación del archivo Tabs. XML de Office Communicator 2007 R2 cuando lo implementó.
+    > Los agentes formales utilizaban la pestaña Grupo de respuesta para iniciar sesión en sus grupos de respuesta para así poder recibir llamadas. Si ha implementado la pestaña grupo de respuesta, eligió la ubicación del archivo de tabs.xml de Office Communicator 2007 R2 al implementarlo.
 
     
     </div>
@@ -144,7 +144,7 @@ El procedimiento que se describe a continuación para migrar configuraciones de 
     
 
     > [!NOTE]  
-    > La dirección URL suele https://webpoolFQDN/RgsClients/Tab.aspxser, donde fqdngrupoweb es el nombre de dominio completo (FQDN) del grupo de servidores web que está asociado al grupo de servidores que acaba de migrar a Lync Server 2013.
+    > La dirección URL suele ser https://webpoolFQDN/RgsClients/Tab.aspx , donde fqdngrupoweb es el nombre de dominio completo (FQDN) del grupo de servidores web que está asociado al grupo de servidores que acaba de migrar a Lync Server 2013.
 
     
     </div>
