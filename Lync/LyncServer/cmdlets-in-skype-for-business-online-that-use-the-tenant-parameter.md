@@ -1,8 +1,8 @@
 ---
 title: Cmdlets en Skype empresarial online que usan el parámetro tenant
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 56558865
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 121133ce163b73bd0ddf49faa1db03ae352056d3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 352a33fcff5db306b62535c28fb4a2b2dd766bea
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42000935"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755046"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>Cmdlets en Skype empresarial online que usan el parámetro tenant
 

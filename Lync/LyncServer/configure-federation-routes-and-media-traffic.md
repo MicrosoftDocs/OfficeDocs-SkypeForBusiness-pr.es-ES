@@ -1,8 +1,8 @@
 ---
 title: Configurar las rutas de federación y el tráfico multimedia
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure federation routes and media traffic
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733720
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f5b3e0a775af649b7210dd75dcf90d012f2e421
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c5e9b7ad3f08d9ebf129c478bbcf94bed7845ef1
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180923"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754976"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +65,7 @@ Use los siguientes procedimientos para realizar la transición de la ruta de Fed
 
 
 > [!IMPORTANT]  
-> Si la Federación de XMPP se enruta a través de un servidor perimetral de Lync Server 2013, los usuarios heredados de Lync Server 2010 no podrán comunicarse con el socio federado de XMPP hasta que todos los usuarios se hayan movido a Lync Server 2013, las directivas y los certificados XMPP se han configurado, el socio federado de XMPP se ha configurado en Lync Server 2013 y se han actualizado las entradas DNS por última vez.
+> Si la Federación de XMPP se enruta a través de un servidor perimetral de Lync Server 2013, los usuarios heredados de Lync Server 2010 no podrán comunicarse con el socio federado de XMPP hasta que todos los usuarios se hayan movido a Lync Server 2013, se hayan configurado las directivas y los certificados XMPP, se haya configurado el socio federado de XMPP en Lync Server 2013 y se hayan actualizado las entradas DNS.
 
 
 
@@ -269,7 +269,7 @@ Use los siguientes procedimientos para realizar la transición de la ruta de Fed
     
 
     > [!NOTE]  
-    > Si no tiene un equilibrador de carga de hardware, debe actualizar el registro DNS A para la federación, de modo que se resuelva en el nuevo servidor perimetral de acceso de Lync Server. La manera de lograrlo que produce menos interrupciones es reducir el valor de TTL del FQDN del servidor perimetral de acceso de Lync Server externo, de modo que, cuando DNS se actualice para apuntar al nuevo servidor perimetral de acceso de Lync Server, la federación y el acceso remoto se actualizarán rápidamente.
+    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve to the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TLL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge, federation and remote access will be updated quickly.
 
     
     </div>

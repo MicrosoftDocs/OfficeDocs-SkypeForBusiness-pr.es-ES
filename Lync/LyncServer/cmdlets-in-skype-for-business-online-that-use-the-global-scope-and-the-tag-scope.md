@@ -1,8 +1,8 @@
 ---
 title: Cmdlets de Skype empresarial online que usan el ámbito global y el ámbito de etiqueta
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 56558824
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 998201bf7772003c83ae27d56b3a238f9f0ca055
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c8063334f2cea6fcca768754197bacbd30869461
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42001155"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755080"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a>Cmdlets de Skype empresarial online que usan el ámbito global y el ámbito de etiqueta
 

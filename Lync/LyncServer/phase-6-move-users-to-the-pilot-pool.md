@@ -1,8 +1,8 @@
 ---
 title: 'Fase 6: mover usuarios al grupo piloto'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 6: Move users to the pilot pool'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184388
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b5484f371d711b402b8af5f1b0fbfb2656da810
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 20e7d013732a51f8069cb1a16315a28bde4a8fde
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209696"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751142"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ Puede mover un solo usuario o grupos de usuarios a la nueva implementación de L
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Comprobar que la replicación de usuarios se ha completado](verify-user-replication-has-completed_1.md)
+  - [La comprobación de la replicación de usuarios ha finalizado](verify-user-replication-has-completed_1.md)
 
   - [Mover un solo usuario al grupo piloto](move-a-single-user-to-the-pilot-pool_1.md)
 

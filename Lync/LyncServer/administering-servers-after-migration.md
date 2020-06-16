@@ -1,8 +1,8 @@
 ---
-title: Administración de servidores tras la migración
+title: Administrar los servidores tras la migración
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48184582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 311413949b3a66d4d16731daeb0a7d20bae1dac1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 476ff46829a0b303c5a9316be1e9a6fcc931099e
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181213"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755172"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42181213"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administering-servers-after-migration"></a>Administración de servidores tras la migración
+# <a name="administering-servers-after-migration"></a>Administrar los servidores tras la migración
 
 </div>
 

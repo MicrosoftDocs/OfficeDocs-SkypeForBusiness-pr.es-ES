@@ -1,8 +1,8 @@
 ---
 title: Configurar los clientes para la migración
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 49733729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b63ad4dfd4b69966a6d206ab19330d7088aff434
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a8f8cfcab36c1bfa47eb8ee4a24ebe683398707
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180983"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755006"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -54,7 +54,7 @@ Este tema contiene los pasos de implementación de cliente recomendados que debe
 
 2.  En Office Communications Server 2007 R2, use el filtrado de versiones de cliente para permitir que solo los clientes de Office Communications Server 2007 R2 tienen instaladas las actualizaciones más recientes para iniciar sesión.
 
-3.  En Office Communications Server 2007 R2, use el filtrado de versiones de cliente para bloquear el inicio de sesión de los clientes de Lync Server 2013. Siga los pasos que se describen en configurar el filtrado [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) de versiones de **cliente** en para agregar los filtros de versión que aparecen en la tabla siguiente. Asigne la acción **Bloquear** en cada filtro de versión.
+3.  En Office Communications Server 2007 R2, use el filtrado de versiones de cliente para bloquear el inicio de sesión de los clientes de Lync Server 2013. Siga los pasos que se describen en **configurar el filtrado de versiones de cliente** en [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) para agregar los filtros de versión que aparecen en la tabla siguiente. Asigne la acción **Bloquear** en cada filtro de versión.
     
     
     <table>
@@ -65,7 +65,7 @@ Este tema contiene los pasos de implementación de cliente recomendados que debe
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Client</th>
+    <th>Cliente</th>
     <th>Encabezado de agente de usuario</th>
     <th>Versión</th>
     </tr>

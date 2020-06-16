@@ -1,8 +1,8 @@
 ---
 title: Implementar el servidor perimetral piloto
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Deploy pilot Edge Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4d8fbf34e618c5bf41d3b005c70897c5dddb69
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4ba616f6a5ce86e0f94c3b52afd60aaba34b7635
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180393"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751272"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +39,7 @@ _**Última modificación del tema:** 2012-10-19_
 
 En este tema se destacan las opciones de configuración que debe tener en cuenta antes de implementar el servidor perimetral de Lync Server 2013. Los procesos de implementación y configuración de Lync Server 2013 son muy similares a los de Lync Server 2010. En esta sección solo se detallan los aspectos clave que hay que considerar al implementar el grupo piloto. Para conocer los pasos detallados, consulte [Deploying external User Access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) en la documentación sobre implementación, que describe el proceso de implementación y también proporciona información de configuración para el acceso de usuarios externos.
 
-Al navegar por el asistente **Definir nuevo grupo de servidores perimetrales**, repase las principales opciones de configuración recogidas en cada paso. Observe que solo se muestran unas cuantas páginas de**** este asistente.
+As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown.
 
 **Definir un grupo de servidores perimetrales**
 

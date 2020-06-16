@@ -1,8 +1,8 @@
 ---
 title: 'Fase 10: retirar el sitio heredado'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 10: Decommission legacy site'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3140e3529ec9e4c48ca41c26963f833f89d9f929
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d40c988822a27a34f148e4e1e7893a077965fcd
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209716"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751162"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +65,7 @@ En los siguientes temas se proporcionan instrucciones para retirar grupos de ser
 
   - [Mover directorios de conferencia](move-conference-directories.md)
 
-  - [Actualizar registros DNS SRV](update-dns-srv-records_1.md)
+  - [Actualizar registros SRV de DNS](update-dns-srv-records_1.md)
 
   - [Retirar servidores y grupos de servidores](decommissioning-servers-and-pools.md)
 

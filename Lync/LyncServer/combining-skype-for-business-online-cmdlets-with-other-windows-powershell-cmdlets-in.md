@@ -1,8 +1,8 @@
 ---
 title: Combinar los cmdlets de Skype empresarial online con otros cmdlets de Windows PowerShell en
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 56558835
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f95d242ec5a1f24f403e59b49e305d9e0a6c84b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bd4f08370e5aeab6688fdbf2ce13a3e5ccb11a37
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180993"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755026"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -46,7 +46,7 @@ Aunque un curso completo de Windows PowerShell 3,0 va más allá del ámbito de 
 
 Como no se incluye ningún parámetro adicional, toda la información devuelta por **el cmdlet out-Printer** se imprimirá en la impresora predeterminada.
 
-De forma similar, ninguno de los cmdlets de Skype empresarial online incluye un parámetro que permite guardar datos en un archivo. Pero esto es correcto: este comando usa el cmdlet **out-File** para guardar la información devuelta en el archivo de texto\\C\\: logs Tenants. txt:
+De forma similar, ninguno de los cmdlets de Skype empresarial online incluye un parámetro que permite guardar datos en un archivo. Pero esto es correcto: este comando usa el cmdlet **out-File** para guardar la información devuelta en el archivo de texto C: \\ logs \\Tenants.txt:
 
     Get-Tenant | Out-File -FilePath "C:\Logs\Tenants.txt"
 
@@ -81,7 +81,7 @@ El módulo devuelto para el cmdlet **Get-CsTenant** será el módulo que contien
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Vea también
 
 
 [Introducción a Windows PowerShell y Skype empresarial online](https://technet.microsoft.com/library/Dn362785(v=OCS.15))  

@@ -1,8 +1,8 @@
 ---
 title: Copia de seguridad de los datos y sistemas
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48185118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5883be7a15e780ea8a804b51e54aa9d43992e775
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9146b854b7710df8342739c250ee75848e9a1d26
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181133"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755350"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,7 +38,7 @@ ms.locfileid: "42181133"
 
 _**Última modificación del tema:** 2012-10-19_
 
-Antes de comenzar la migración a Lync Server 2013, se recomienda realizar una copia de seguridad completa del sistema y documentar el sistema existente, incluido un inventario de las cuentas de usuario hospedadas en cada grupo de servidores, para que pueda volver a las comunicaciones de Office. Servidor 2007 R2 si es necesario. Existen numerosos programas y herramientas para realizar copias de seguridad y restauraciones de datos, configuraciones y sistemas. Para obtener detalles y procedimientos, consulte "Guía de copia de seguridad y restauración de Office Communications <https://go.microsoft.com/fwlink/p/?linkid=168162>Server 2007 R2" en.
+Antes de comenzar la migración a Lync Server 2013, se recomienda realizar una copia de seguridad completa del sistema y documentar el sistema existente, incluido un inventario de las cuentas de usuario hospedadas en cada grupo de servidores, de modo que pueda volver a Office Communications Server 2007 R2 si es necesario. Existen numerosos programas y herramientas para realizar copias de seguridad y restauraciones de datos, configuraciones y sistemas. Para obtener detalles y procedimientos, consulte "Guía de copia de seguridad y restauración de Office Communications Server 2007 R2" en <https://go.microsoft.com/fwlink/p/?linkid=168162> .
 
 </div>
 

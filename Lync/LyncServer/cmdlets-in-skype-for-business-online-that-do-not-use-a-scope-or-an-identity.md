@@ -1,8 +1,8 @@
 ---
 title: Cmdlets de Skype empresarial online que no usan un ámbito ni una identidad
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Cmdlets that do not use a scope or an identity
@@ -12,12 +12,12 @@ ms:contentKeyID: 56558839
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad366315bbc4acf5afb417262da92a5683a084df
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4ade4dee78fff151530e0d76279fdbfaeade720b
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42001735"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755320"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity"></a>Cmdlets de Skype empresarial online que no usan un ámbito ni una identidad
 

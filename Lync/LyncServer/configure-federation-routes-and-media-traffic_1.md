@@ -1,8 +1,8 @@
 ---
 title: Configurar las rutas de federación y el tráfico multimedia
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure federation routes and media traffic
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fc7359a21d60c0c77028491af9fccdf21991c58
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 0d6af77188809b092050629c1b74cdab8b20a2cc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136097"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754966"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Configurar las rutas de federación y el tráfico multimedia
 
@@ -36,7 +36,7 @@ Use los procedimientos que se describen a continuación para realizar la transic
 
 
 > [!IMPORTANT]  
-> Si el servidor perimetral de Office Communications Server 2007 R2 heredado está configurado para usar el mismo FQDN para el servicio perimetral de acceso, el servicio perimetral de conferencia web y el servicio perimetral A/V, no se admiten los procedimientos de esta sección para realizar la transición de la configuración de Federación a un servidor perimetral de Lync Server 2013. Si los servicios perimetrales heredados están configurados para usar el mismo FQDN, primero debe migrar todos los usuarios de Office Communications Server 2007 R2 a Lync Server 2013 y, después, retirar el servidor perimetral de Office Communications Server 2007 R2 antes de habilitar la Federación en el servidor perimetral de Lync Server 2013. Para obtener más información, consulte los temas siguientes: 
+> Si el servidor perimetral de Office Communications Server 2007 R2 heredado está configurado para usar el mismo FQDN para el servicio perimetral de acceso, el servicio perimetral de conferencia web y el servicio perimetral A/V, no se admiten los procedimientos de esta sección para realizar la transición de la configuración de Federación a un servidor perimetral de Lync Server 2013. Si los servicios perimetrales heredados están configurados para usar el mismo FQDN, primero debe migrar todos los usuarios de Office Communications Server 2007 R2 a Lync Server 2013 y, a continuación, retirar el servidor perimetral de Office Communications Server 2007 R2 antes de habilitar la Federación en el servidor perimetral de Lync Server 2013. Para obtener más información, consulte los temas siguientes: 
 > <UL>
 > <LI>
 > <P><A href="move-remaining-users-to-lync-server-2013_1.md">Mover los usuarios restantes a Lync Server 2013</A></P>
@@ -47,7 +47,7 @@ Use los procedimientos que se describen a continuación para realizar la transic
 
 
 > [!IMPORTANT]  
-> Si la Federación de XMPP se enruta a través de un servidor perimetral de Lync Server 2013, los usuarios de Office Communications Server 2007 R2 heredados no podrán comunicarse con el socio federado de XMPP hasta que todos los usuarios se hayan movido a Lync Server 2013, directivas XMPP y se han configurado los certificados, se ha configurado el socio federado de XMPP en Lync Server 2013 y se han actualizado las entradas DNS por última vez.
+> Si la Federación de XMPP se enruta a través de un servidor perimetral de Lync Server 2013, los usuarios heredados de Office Communications Server 2007 R2 no podrán comunicarse con el socio federado de XMPP hasta que todos los usuarios se hayan movido a Lync Server 2013, se hayan configurado las directivas y los certificados XMPP, se haya configurado el socio federado de XMPP en Lync Server 2013 y se hayan actualizado las entradas DNS.
 
 
 
@@ -87,11 +87,11 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
     
     ![Página especificar borde externo en el generador de topologías](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "Página especificar borde externo en el generador de topologías")
 
-5.  En **Especificar perímetro externo**, desactive la casilla **Este grupo de servidores perimetrales se usa para federación y conectividad de mensajería instantánea pública**. Se quitará la asociación de federación con BackCompatSite.
+5.  In **Specify External Edge**, clear the **This Edge pool is used for federation and public IM connectivity** check box. This will remove the federation association with the BackCompatSite.
     
 
     > [!IMPORTANT]  
-    > Este paso es importante. Debe desactivar esta opción para quitar la asociación de federación heredada.
+    > This step is important. You must clear this option to remove the legacy federation association.
 
 
 
@@ -123,7 +123,7 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
 
 1.  En el servidor de Office Communications Server 2007 R2 Standard Edition o el servidor front-end, abra la herramienta administrativa de Office Communications Server 2007 R2.
 
-2.  En el panel izquierdo, expanda el nodo en primera posición y, a continuación, haga clic con el botón secundario en el nodo **Bosque**. Seleccione **Propiedades** y haga clic en **Propiedades globales**.
+2.  In the left pane, expand the top node, and then right-click the **Forest** node. Select **Properties**, and then click **Global Properties**.
 
 3.  Haga clic en la pestaña **Federación**.
 
@@ -217,7 +217,7 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
     
 
     > [!NOTE]  
-    > Si no tiene un equilibrador de cargas del hardware, tendrá que actualizar el registro A de DNS para que la federación resuelva el nuevo servidor perimetral de acceso Lync Server. Para realizar esta tarea con las mínimas molestias, reduzca el valor TTL del FQDN del servidor perimetral de acceso a Lync Server externo, de modo que cuando se actualice el DNS para apuntar al nuevo servidor perimetral de acceso a Lync Server, la federación y el acceso remoto se actualicen rápidamente.
+    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TTL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge server, federation and remote access will be updated quickly.
 
 
 

@@ -1,8 +1,8 @@
 ---
 title: Configurar el servidor de mediación
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure Mediation Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0705d51d321aba21a8bad7ba0e26351bf26bc5f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82da1720cab2e6895c53565da17c9411faabdfbd
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180873"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754538"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
 
 
 > [!NOTE]  
-> Para obtener la información más reciente sobre cómo buscar puertas de enlace RTC cualificadas, IP-PBX y servicios de enlace troncal SIP que funcionen con Lync Server 2013, consulte "Microsoft Unified Communications <A href="https://go.microsoft.com/fwlink/p/?linkid=206015">https://go.microsoft.com/fwlink/p/?linkId=206015</A>Open Interoperability Program" en.
+> Para obtener la información más reciente sobre cómo buscar puertas de enlace RTC cualificadas, IP-PBX y servicios de enlace troncal SIP que funcionen con Lync Server 2013, consulte "Microsoft Unified Communications Open Interoperability Program" en <A href="https://go.microsoft.com/fwlink/p/?linkid=206015">https://go.microsoft.com/fwlink/p/?linkId=206015</A> .
 
 
 
@@ -63,7 +63,7 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
 
 4.  Complete la página **Definir nueva puerta de enlace IP/RTC ** con la siguiente información:
     
-      - Indique el FQDN de puerta de enlace o la dirección IP. El FQDN de la puerta de enlace es obligatorio si la puerta de enlace utiliza el protocolo TLS.
+      - Enter the gateway FQDN or IP address. The FQDN of the gateway is required if the gateway uses the TLS protocol.
     
       - Acepte el valor predeterminado de la opción **Puerto de escucha para la puerta de enlace IP/RTC** o, si se ha modificado, especifique el nuevo puerto de escucha.
     

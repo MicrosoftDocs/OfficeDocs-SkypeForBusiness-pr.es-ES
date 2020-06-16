@@ -1,8 +1,8 @@
 ---
 title: Retirar servidores y grupos de servidores
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Decommissioning servers and pools
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184694
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7df6bd74eec13b44109db0b0c8454f5b9f43ac4a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2201f097f06ea8e19e55395bc63c3bc932415be6
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180553"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751302"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

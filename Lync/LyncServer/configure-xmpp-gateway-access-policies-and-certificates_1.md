@@ -1,8 +1,8 @@
 ---
-title: Configurar las directivas y los certificados de acceso a puertas de enlace XMPP
+title: Configurar certificados y directivas de acceso por puerta de enlace XMPP
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 49733819
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 742c85d60d3f0bdab7beb67858bf2a804c15bcce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 72e17634a8836a56ce7002e3d0cf57440f72c60f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180733"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754468"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42180733"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>Configurar las directivas y los certificados de acceso a puertas de enlace XMPP
+# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>Configurar certificados y directivas de acceso por puerta de enlace XMPP
 
 </div>
 
@@ -38,13 +38,13 @@ ms.locfileid: "42180733"
 
 _**Última modificación del tema:** 2012-10-15_
 
-La federación XMPP define una implementación externa basada en el Protocolo extensible de mensajería y presencia (XMPP). Una configuración XMPP permite a los usuarios de Lync obtener acceso a los usuarios de dominio XMPP mediante:
+XMPP federation defines an external deployment based on the eXtensible Messaging and Presence Protocol (XMPP). An XMPP configuration allows Lync users access to XMPP domain users by:
 
   - MI y presencia, solo persona a persona
 
   - Creación de contactos federados XMPP en el cliente Lync
 
-Cuando se configuran directivas para admitir socios federados del protocolo extensible de mensajería y presencia (XMPP), las directivas se aplican a los usuarios de los dominios federados de XMPP, pero no a los usuarios de los proveedores de servicio de mensajería instantánea (MI) del protocolo de inicio de sesión (SIP) (por ejemplo, Windows Live) o dominios federados de SIP. Se debe configurar un socio federado de XMPP para cada dominio federado de XMPP al que desea permitir que los usuarios agreguen contactos y con el que desea que se comuniquen. Una vez aplicadas las directivas, debe configurar los certificados de puerta de enlace XMPP.
+When you configure policies for support of extensible messaging and presence protocol (XMPP) federated partners, the policies apply to users of XMPP federated domains, but not to users of session initiation protocol (SIP) instant messaging (IM) service providers (for example, Windows Live), or SIP federated domains. You configure an XMPP Federated Partner for each XMPP federated domain that you want to allow your users to add contacts and communicate with. Once the policies are in place, you need to configure the XMPP Gateway certificates.
 
 <div>
 

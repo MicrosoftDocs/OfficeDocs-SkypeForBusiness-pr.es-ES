@@ -1,8 +1,8 @@
 ---
-title: Conexión de una aplicación de sucursal con funciones de supervivencia
+title: Conectar una aplicación de sucursal con funciones de supervivencia
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Connect a Survivable Branch Appliance
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b65eed74396eb7c373230358f29366f7d6d18e5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a0fcba962129353ddeb5e5f4c77520cf6d127733
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180593"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754448"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42180593"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="connect-a-survivable-branch-appliance"></a>Conexión de una aplicación de sucursal con funciones de supervivencia
+# <a name="connect-a-survivable-branch-appliance"></a>Conectar una aplicación de sucursal con funciones de supervivencia
 
 </div>
 
@@ -69,7 +69,7 @@ Cada aplicación de sucursal con funciones de supervivencia (SBA) está asociada
 
 7.  Haga clic en **Siguiente** y, a continuación, siga uno de estos procedimientos:
     
-    1.  Si utiliza una aplicación o un servidor de sucursal con funciones de supervivencia de Lync 2010 en este sitio, no olvide desactivar la opción **Abrir el Asistente con nuevas funciones de supervivencia cuando se cierre el asistente**. Haga clic en **Finalizar**.
+    1.  If you are using a Lync 2010 Survivable Branch Appliance or Server at this site, be sure to uncheck the **Open the New Survivable Wizard when this wizard closes** option. Click **Finish**.
 
 8.  Para asociar el SBA heredado de Lync Server 2010 al grupo de servidores front-end de Lync Server 2013:
     

@@ -1,8 +1,8 @@
 ---
 title: Configuración de servidores de aplicaciones de confianza
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48184056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb693a68f58ef16ca29048d9e18738ef98d719d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9cbaba4f59a22de6fcee38ee51845d551033cfea
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180753"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754488"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,7 +38,7 @@ ms.locfileid: "42180753"
 
 _**Última modificación del tema:** 2012-10-04_
 
-En un entorno mixto, si crea un nuevo servidor de aplicaciones de confianza después de combinar la topología heredada de Office Communications Server con Lync Server 2013 y define un nuevo servidor de aplicaciones de confianza con el generador de topologías, debe establecer el grupo de servidores de próximo salto para que sea un Grupo de servidores de Lync 2013. En un entorno combinado, tanto el grupo de servidores de Office Communications Server heredado como el grupo de servidores de Lync Server 2013 aparecen en la lista desplegable. *No* se puede seleccionar el grupo heredado.
+En un entorno mixto, si crea un nuevo servidor de aplicaciones de confianza después de combinar la topología heredada de Office Communications Server con Lync Server 2013 y define un nuevo servidor de aplicaciones de confianza con el generador de topologías, debe establecer el grupo de servidores de próximo salto para que sea un grupo de servidores de Lync Server 2013. En un entorno combinado, tanto el grupo de servidores de Office Communications Server heredado como el grupo de servidores de Lync Server 2013 aparecen en la lista desplegable. *No* se puede seleccionar el grupo heredado.
 
 <div>
 
