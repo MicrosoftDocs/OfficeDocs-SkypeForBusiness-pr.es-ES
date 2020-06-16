@@ -1,8 +1,8 @@
 ---
 title: Quitar un mensaje
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove a message
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184790
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9709b3249e241ae5f9998ee48f5ff65e05b9bd8f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cbeda1e4b9b9705cffb89469741aadb6fe67241c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209460"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757151"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209460"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-a-message"></a><span data-ttu-id="8b00d-102">Quitar un mensaje</span><span class="sxs-lookup"><span data-stu-id="8b00d-102">Remove a message</span></span>
+# <a name="remove-a-message"></a><span data-ttu-id="8b23c-102">Quitar un mensaje</span><span class="sxs-lookup"><span data-stu-id="8b23c-102">Remove a message</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42209460"
 
 <span> </span>
 
-<span data-ttu-id="8b00d-103">_**Última modificación del tema:** 2012-04-04_</span><span class="sxs-lookup"><span data-stu-id="8b00d-103">_**Topic Last Modified:** 2012-04-04_</span></span>
+<span data-ttu-id="8b23c-103">_**Última modificación del tema:** 2012-04-04_</span><span class="sxs-lookup"><span data-stu-id="8b23c-103">_**Topic Last Modified:** 2012-04-04_</span></span>
 
-<span data-ttu-id="8b00d-104">Para quitar un mensaje</span><span class="sxs-lookup"><span data-stu-id="8b00d-104">To remove a message</span></span>
+<span data-ttu-id="8b23c-104">Para quitar un mensaje</span><span class="sxs-lookup"><span data-stu-id="8b23c-104">To remove a message</span></span>
 
     Remove-CsPersistentChatMessage -Identity <string> [-UserUri <string>] [-StartDate <DateTime>] [-EndDate <DateTime>] [-Filter <string>] [-MatchClause <AndOr> {And | Or | Exact}] [-CaseSensitive <bool>] [-ReplaceMessage <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
 

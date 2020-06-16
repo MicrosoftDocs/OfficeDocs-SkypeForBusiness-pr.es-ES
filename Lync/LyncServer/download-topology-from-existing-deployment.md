@@ -1,8 +1,8 @@
 ---
 title: Descargar una topología desde una implementación existente
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Download topology from existing deployment
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a8742cf3b9eee5ab8badb18e1f6a6ae80418141
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19cf24e1ef287b50ffece7407913a7d2c45e7062
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180353"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755804"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42180353"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="download-topology-from-existing-deployment"></a><span data-ttu-id="88ff5-102">Descargar una topología desde una implementación existente</span><span class="sxs-lookup"><span data-stu-id="88ff5-102">Download topology from existing deployment</span></span>
+# <a name="download-topology-from-existing-deployment"></a><span data-ttu-id="7e457-102">Descargar una topología desde una implementación existente</span><span class="sxs-lookup"><span data-stu-id="7e457-102">Download topology from existing deployment</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42180353"
 
 <span> </span>
 
-<span data-ttu-id="88ff5-103">_**Última modificación del tema:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="88ff5-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="7e457-103">_**Última modificación del tema:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="7e457-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="88ff5-104">Al crear un grupo de servidores de Lync Server 2013, usará el almacén de administración central que está asociado con Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="88ff5-104">When creating a Lync Server 2013 pool, you will use the Central Management Store that is associated with Lync Server 2010.</span></span> <span data-ttu-id="88ff5-105">Cuando inicie el Generador de topologías, en el primer uso y en los usos posteriores se le solicitará la ubicación en la que desea que el Generador de topologías cargue el documento de configuración actual.</span><span class="sxs-lookup"><span data-stu-id="88ff5-105">When you start Topology Builder on first use and subsequent edit sessions, you are prompted for the location where you want Topology Builder to load the current configuration document.</span></span> <span data-ttu-id="88ff5-106">Como ya tiene una topología de Lync Server 2010 definida y ha establecido el almacén de administración central, debe elegir descargar una topología de una implementación existente.</span><span class="sxs-lookup"><span data-stu-id="88ff5-106">Because you already have a Lync Server 2010 topology defined and have established the Central Management store, you should choose to download a topology from an existing deployment.</span></span> <span data-ttu-id="88ff5-107">El Generador de topologías leerá la base de datos y recuperará la definición actual.</span><span class="sxs-lookup"><span data-stu-id="88ff5-107">Topology Builder will read the database and retrieve the current definition.</span></span>
+<span data-ttu-id="7e457-104">Al crear un grupo de servidores de Lync Server 2013, usará el almacén de administración central que está asociado con Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="7e457-104">When creating a Lync Server 2013 pool, you will use the Central Management Store that is associated with Lync Server 2010.</span></span> <span data-ttu-id="7e457-105">Cuando inicie el Generador de topologías, en el primer uso y en los usos posteriores se le solicitará la ubicación en la que desea que el Generador de topologías cargue el documento de configuración actual.</span><span class="sxs-lookup"><span data-stu-id="7e457-105">When you start Topology Builder on first use and subsequent edit sessions, you are prompted for the location where you want Topology Builder to load the current configuration document.</span></span> <span data-ttu-id="7e457-106">Como ya tiene una topología de Lync Server 2010 definida y ha establecido el almacén de administración central, debe elegir descargar una topología de una implementación existente.</span><span class="sxs-lookup"><span data-stu-id="7e457-106">Because you already have a Lync Server 2010 topology defined and have established the Central Management store, you should choose to download a topology from an existing deployment.</span></span> <span data-ttu-id="7e457-107">El Generador de topologías leerá la base de datos y recuperará la definición actual.</span><span class="sxs-lookup"><span data-stu-id="7e457-107">Topology Builder will read the database and retrieve the current definition.</span></span>
 
-<span data-ttu-id="88ff5-108">**Para descargar una topología de una implementación existente**</span><span class="sxs-lookup"><span data-stu-id="88ff5-108">**To download a topology from an existing deployment**</span></span>
+<span data-ttu-id="7e457-108">**Para descargar una topología de una implementación existente**</span><span class="sxs-lookup"><span data-stu-id="7e457-108">**To download a topology from an existing deployment**</span></span>
 
-1.  <span data-ttu-id="88ff5-109">Abra el **Asistente para la implementación de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="88ff5-109">Open the **Lync Server Deployment Wizard**.</span></span>
+1.  <span data-ttu-id="7e457-109">Abra el **Asistente para la implementación de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="7e457-109">Open the **Lync Server Deployment Wizard**.</span></span>
 
-2.  <span data-ttu-id="88ff5-110">En la página **Lync Server 2013 – Asistente para la implementación**, haga clic en **Instalar las Herramientas administrativas**.</span><span class="sxs-lookup"><span data-stu-id="88ff5-110">From the **Lync Server 2013 – Deployment Wizard** page, click **Install Administrative Tools**.</span></span>
+2.  <span data-ttu-id="7e457-110">En la página **Lync Server 2013 – Asistente para la implementación**, haga clic en **Instalar las Herramientas administrativas**.</span><span class="sxs-lookup"><span data-stu-id="7e457-110">From the **Lync Server 2013 – Deployment Wizard** page, click **Install Administrative Tools**.</span></span>
 
-3.  <span data-ttu-id="88ff5-111">Inicie el generador de topologías: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Microsoft Lync Server 2013** y, a continuación, haga clic en **generador de topologías de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="88ff5-111">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013** , and then click **Lync Server Topology Builder**.</span></span>
+3.  <span data-ttu-id="7e457-111">Inicie el generador de topologías: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Microsoft Lync Server 2013** y, a continuación, haga clic en **generador de topologías de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="7e457-111">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013** , and then click **Lync Server Topology Builder**.</span></span>
 
-4.  <span data-ttu-id="88ff5-112">Seleccione **Descargar una topología desde una implementación existente**.</span><span class="sxs-lookup"><span data-stu-id="88ff5-112">Select **Download Topology from existing deployment**.</span></span>
+4.  <span data-ttu-id="7e457-112">Seleccione **Descargar una topología desde una implementación existente**.</span><span class="sxs-lookup"><span data-stu-id="7e457-112">Select **Download Topology from existing deployment**.</span></span>
     
-    <span data-ttu-id="88ff5-113">![Configuración del generador de topologías del Asistente para la implementación](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "Configuración del generador de topologías del Asistente para la implementación")</span><span class="sxs-lookup"><span data-stu-id="88ff5-113">![Deployment Wizard Topology Builder settings](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "Deployment Wizard Topology Builder settings")</span></span>
+    <span data-ttu-id="7e457-113">![Configuración del generador de topologías del Asistente para la implementación](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "Configuración del generador de topologías del Asistente para la implementación")</span><span class="sxs-lookup"><span data-stu-id="7e457-113">![Deployment Wizard Topology Builder settings](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "Deployment Wizard Topology Builder settings")</span></span>
 
-5.  <span data-ttu-id="88ff5-114">Elija un nombre de archivo y guarde la topología con el tipo de archivo .tbxml como valor predeterminado.</span><span class="sxs-lookup"><span data-stu-id="88ff5-114">Choose a file name and save the topology with the default .tbxml file type.</span></span>
+5.  <span data-ttu-id="7e457-114">Elija un nombre de archivo y guarde la topología con el tipo de archivo .tbxml como valor predeterminado.</span><span class="sxs-lookup"><span data-stu-id="7e457-114">Choose a file name and save the topology with the default .tbxml file type.</span></span>
 
-6.  <span data-ttu-id="88ff5-115">Expanda el nodo de Lync Server, tal como mostramos, para revelar los diversos roles de servidor de la implementación.</span><span class="sxs-lookup"><span data-stu-id="88ff5-115">Expand the Lync Server node, as shown, to reveal the various server roles in the deployment.</span></span>
+6.  <span data-ttu-id="7e457-115">Expanda el nodo de Lync Server, tal como mostramos, para revelar los diversos roles de servidor de la implementación.</span><span class="sxs-lookup"><span data-stu-id="7e457-115">Expand the Lync Server node, as shown, to reveal the various server roles in the deployment.</span></span>
     
-    <span data-ttu-id="88ff5-116">![Propiedades generales del rol de servidor del generador de topologías](images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "Propiedades generales del rol de servidor del generador de topologías")</span><span class="sxs-lookup"><span data-stu-id="88ff5-116">![Topology Builder server role general properties](images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "Topology Builder server role general properties")</span></span>
+    <span data-ttu-id="7e457-116">![Propiedades generales del rol de servidor del generador de topologías](images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "Propiedades generales del rol de servidor del generador de topologías")</span><span class="sxs-lookup"><span data-stu-id="7e457-116">![Topology Builder server role general properties](images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "Topology Builder server role general properties")</span></span>
 
 </div>
 

@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2013; Crear rutas entre regiones de red
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: admin
 manager: serdars
 f1.keywords:
@@ -13,12 +13,12 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72917dc3ef179e0c27de6d47e599746a97e0540e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 156f2322d5b1b7cc1951f1cbd4df41eb231a8170
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210246"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757211"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42210246"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-network-interregion-routes-in-lync-server-2013"></a><span data-ttu-id="ee7ed-102">Crear rutas entre regiones de red en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ee7ed-102">Create network interregion routes in Lync Server 2013</span></span>
+# <a name="create-network-interregion-routes-in-lync-server-2013"></a><span data-ttu-id="5e786-102">Crear rutas entre regiones de red en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5e786-102">Create network interregion routes in Lync Server 2013</span></span>
 
 </div>
 
@@ -36,31 +36,31 @@ ms.locfileid: "42210246"
 
 <span> </span>
 
-<span data-ttu-id="ee7ed-103">_**Última modificación del tema:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="ee7ed-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="5e786-103">_**Última modificación del tema:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="5e786-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="ee7ed-p101">Una *ruta entre regiones de red* define la ruta entre un par de regiones de red. Cada par de regiones de red de la implementación del servicio de control de admisión de llamadas precisa una ruta entre regiones de red. Esto permite que todas las regiones de red de la implementación obtengan acceso a cualquier otra región.</span><span class="sxs-lookup"><span data-stu-id="ee7ed-p101">A *network interregion route* defines the route between a pair of network regions. Each pair of network regions in your call admission control deployment requires a network interregion route. This enables every network region within the deployment to access every other region.</span></span>
+<span data-ttu-id="5e786-104">A *network interregion route* defines the route between a pair of network regions.</span><span class="sxs-lookup"><span data-stu-id="5e786-104">A *network interregion route* defines the route between a pair of network regions.</span></span> <span data-ttu-id="5e786-105">Each pair of network regions in your call admission control deployment requires a network interregion route.</span><span class="sxs-lookup"><span data-stu-id="5e786-105">Each pair of network regions in your call admission control deployment requires a network interregion route.</span></span> <span data-ttu-id="5e786-106">This enables every network region within the deployment to access every other region.</span><span class="sxs-lookup"><span data-stu-id="5e786-106">This enables every network region within the deployment to access every other region.</span></span>
 
-<span data-ttu-id="ee7ed-107">Mientras que los vínculos regionales establecen las limitaciones de ancho de banda de las conexiones entre regiones, una ruta entre regiones determina la ruta de acceso vinculada que atravesará la conexión de una región a otra.</span><span class="sxs-lookup"><span data-stu-id="ee7ed-107">While region links set bandwidth limitations on the connections between regions, an interregion route determines which linked path the connection will traverse from one region to another.</span></span>
+<span data-ttu-id="5e786-107">Mientras que los vínculos regionales establecen las limitaciones de ancho de banda de las conexiones entre regiones, una ruta entre regiones determina la ruta de acceso vinculada que atravesará la conexión de una región a otra.</span><span class="sxs-lookup"><span data-stu-id="5e786-107">While region links set bandwidth limitations on the connections between regions, an interregion route determines which linked path the connection will traverse from one region to another.</span></span>
 
-<span data-ttu-id="ee7ed-108">Para obtener información detallada sobre cómo trabajar con rutas entre regiones de red, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:</span><span class="sxs-lookup"><span data-stu-id="ee7ed-108">For details about working with network interregion routes, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+<span data-ttu-id="5e786-108">Para obtener información detallada sobre cómo trabajar con rutas entre regiones de red, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:</span><span class="sxs-lookup"><span data-stu-id="5e786-108">For details about working with network interregion routes, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - [<span data-ttu-id="ee7ed-109">New-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="ee7ed-109">New-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)
+  - [<span data-ttu-id="5e786-109">New-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="5e786-109">New-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
-  - [<span data-ttu-id="ee7ed-110">Get-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="ee7ed-110">Get-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)
+  - [<span data-ttu-id="5e786-110">Get-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="5e786-110">Get-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)
 
-  - [<span data-ttu-id="ee7ed-111">Set-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="ee7ed-111">Set-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute)
+  - [<span data-ttu-id="5e786-111">Set-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="5e786-111">Set-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute)
 
-  - [<span data-ttu-id="ee7ed-112">Remove-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="ee7ed-112">Remove-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
+  - [<span data-ttu-id="5e786-112">Remove-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="5e786-112">Remove-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
 
-<span data-ttu-id="ee7ed-113">En el ejemplo de topología, hay que definir rutas entre regiones de red para cada uno de los tres pares de regiones: Norteamérica/EMEA, EMEA/APAC y Norteamérica/APAC.</span><span class="sxs-lookup"><span data-stu-id="ee7ed-113">In the example topology, network interregion routes must be defined for each of the three region pairs: North America/EMEA, EMEA/APAC, and North America/APAC.</span></span>
+<span data-ttu-id="5e786-113">En el ejemplo de topología, hay que definir rutas entre regiones de red para cada uno de los tres pares de regiones: Norteamérica/EMEA, EMEA/APAC y Norteamérica/APAC.</span><span class="sxs-lookup"><span data-stu-id="5e786-113">In the example topology, network interregion routes must be defined for each of the three region pairs: North America/EMEA, EMEA/APAC, and North America/APAC.</span></span>
 
 <div>
 
-## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a><span data-ttu-id="ee7ed-114">Para crear rutas entre regiones de red mediante el shell de administración de Lync Server</span><span class="sxs-lookup"><span data-stu-id="ee7ed-114">To create network interregion routes by using Lync Server Management Shell</span></span>
+## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a><span data-ttu-id="5e786-114">Para crear rutas entre regiones de red mediante el shell de administración de Lync Server</span><span class="sxs-lookup"><span data-stu-id="5e786-114">To create network interregion routes by using Lync Server Management Shell</span></span>
 
-1.  <span data-ttu-id="ee7ed-115">Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="ee7ed-115">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="5e786-115">Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="5e786-115">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="ee7ed-116">Ejecute el cmdlet **New-CsNetworkInterRegionRoute** para definir las rutas necesarias.</span><span class="sxs-lookup"><span data-stu-id="ee7ed-116">Run the **New-CsNetworkInterRegionRoute** cmdlet to define the required routes.</span></span> <span data-ttu-id="ee7ed-117">Por ejemplo, ejecute lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="ee7ed-117">For example, run:</span></span>
+2.  <span data-ttu-id="5e786-116">Ejecute el cmdlet **New-CsNetworkInterRegionRoute** para definir las rutas necesarias.</span><span class="sxs-lookup"><span data-stu-id="5e786-116">Run the **New-CsNetworkInterRegionRoute** cmdlet to define the required routes.</span></span> <span data-ttu-id="5e786-117">Por ejemplo, ejecute lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="5e786-117">For example, run:</span></span>
     
        ```PowerShell
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
@@ -78,7 +78,7 @@ ms.locfileid: "42210246"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="ee7ed-118">La ruta entre regiones de red Norteamérica/APAC requiere dos vínculos de región de red debido a que no hay un vínculo de región de red directo entre ellas.</span><span class="sxs-lookup"><span data-stu-id="ee7ed-118">The North America/APAC network interregion route requires two network region links because there is no direct network region link between them.</span></span>
+    > <span data-ttu-id="5e786-118">La ruta entre regiones de red Norteamérica/APAC requiere dos vínculos de región de red debido a que no hay un vínculo de región de red directo entre ellas.</span><span class="sxs-lookup"><span data-stu-id="5e786-118">The North America/APAC network interregion route requires two network region links because there is no direct network region link between them.</span></span>
 
     
     </div>
@@ -87,36 +87,36 @@ ms.locfileid: "42210246"
 
 <div>
 
-## <a name="to-create-network-interregion-routes-by-using-lync-server-control-panel"></a><span data-ttu-id="ee7ed-119">Para crear rutas entre regiones de red mediante el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="ee7ed-119">To create network interregion routes by using Lync Server Control Panel</span></span>
+## <a name="to-create-network-interregion-routes-by-using-lync-server-control-panel"></a><span data-ttu-id="5e786-119">Para crear rutas entre regiones de red mediante el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="5e786-119">To create network interregion routes by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="ee7ed-120">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="ee7ed-120">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="ee7ed-121">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="ee7ed-121">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+1.  <span data-ttu-id="5e786-120">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="5e786-120">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="5e786-121">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="5e786-121">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-2.  <span data-ttu-id="ee7ed-122">En la barra de navegación izquierda, haga clic en **Configuración de red**.</span><span class="sxs-lookup"><span data-stu-id="ee7ed-122">In the left navigation bar, click **Network Configuration**.</span></span>
+2.  <span data-ttu-id="5e786-122">En la barra de navegación izquierda, haga clic en **Configuración de red**.</span><span class="sxs-lookup"><span data-stu-id="5e786-122">In the left navigation bar, click **Network Configuration**.</span></span>
 
-3.  <span data-ttu-id="ee7ed-123">Haga clic en el botón de navegación **Ruta regional**.</span><span class="sxs-lookup"><span data-stu-id="ee7ed-123">Click the **Region Route** navigation button.</span></span>
+3.  <span data-ttu-id="5e786-123">Haga clic en el botón de navegación **Ruta regional**.</span><span class="sxs-lookup"><span data-stu-id="5e786-123">Click the **Region Route** navigation button.</span></span>
 
-4.  <span data-ttu-id="ee7ed-124">Haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="ee7ed-124">Click **New**.</span></span>
+4.  <span data-ttu-id="5e786-124">Haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="5e786-124">Click **New**.</span></span>
 
-5.  <span data-ttu-id="ee7ed-125">En la página **Nueva ruta regional**, haga clic en **Nombre** y escriba un nombre para la ruta entre regiones de red.</span><span class="sxs-lookup"><span data-stu-id="ee7ed-125">On the **New Region Route** page, click **Name** and then type a name for the network interregion route.</span></span>
+5.  <span data-ttu-id="5e786-125">En la página **Nueva ruta regional**, haga clic en **Nombre** y escriba un nombre para la ruta entre regiones de red.</span><span class="sxs-lookup"><span data-stu-id="5e786-125">On the **New Region Route** page, click **Name** and then type a name for the network interregion route.</span></span>
 
-6.  <span data-ttu-id="ee7ed-126">Haga clic en **región \#de red 1**y, a continuación, haga clic en una región de red de la lista \#que desee enrutar a la región de red 2.</span><span class="sxs-lookup"><span data-stu-id="ee7ed-126">Click **Network Region \#1**, and then click a network region in the list that you want to route to Network Region \#2.</span></span>
+6.  <span data-ttu-id="5e786-126">Haga clic en **región de red \# 1**y, a continuación, haga clic en una región de red de la lista que desee enrutar a la región de red \# 2.</span><span class="sxs-lookup"><span data-stu-id="5e786-126">Click **Network Region \#1**, and then click a network region in the list that you want to route to Network Region \#2.</span></span>
 
-7.  <span data-ttu-id="ee7ed-127">Haga clic en **región \#de red 2**y, a continuación, haga clic en una región de red de la lista \#que desee enrutar a la región de red 1.</span><span class="sxs-lookup"><span data-stu-id="ee7ed-127">Click **Network Region \#2**, and then click a network region in the list that you want to route to Network Region \#1.</span></span>
+7.  <span data-ttu-id="5e786-127">Haga clic en **región de red \# 2**y, a continuación, haga clic en una región de red de la lista que desee enrutar a la región de red \# 1.</span><span class="sxs-lookup"><span data-stu-id="5e786-127">Click **Network Region \#2**, and then click a network region in the list that you want to route to Network Region \#1.</span></span>
 
-8.  <span data-ttu-id="ee7ed-128">Haga clic en **Agregar** junto al campo **Vínculos de región de red** y luego agregue un vínculo de región de red que se usará en la ruta entre regiones de red.</span><span class="sxs-lookup"><span data-stu-id="ee7ed-128">Click **Add** beside the **Network Region Links** field, and then add a network region link that will be used in the network interregion route.</span></span>
+8.  <span data-ttu-id="5e786-128">Haga clic en **Agregar** junto al campo **Vínculos de región de red** y luego agregue un vínculo de región de red que se usará en la ruta entre regiones de red.</span><span class="sxs-lookup"><span data-stu-id="5e786-128">Click **Add** beside the **Network Region Links** field, and then add a network region link that will be used in the network interregion route.</span></span>
     
     <div class=" ">
     
 
     > [!NOTE]  
-    > <span data-ttu-id="ee7ed-p104">Si está creando una ruta para dos regiones de red que no tengan ningún vínculo de región de red directo entre ellas, tendrá que agregar todos los vínculos necesarios para completar la ruta. Por ejemplo, la ruta entre regiones de red Norteamérica/APAC requiere dos vínculos de región de red, debido a que no hay un vínculo de región de red directo entre ellas.</span><span class="sxs-lookup"><span data-stu-id="ee7ed-p104">If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route. For example, the North America/APAC network interregion route requires two network region links because there is no direct network region link between them.</span></span>
+    > <span data-ttu-id="5e786-129">If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route.</span><span class="sxs-lookup"><span data-stu-id="5e786-129">If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route.</span></span> <span data-ttu-id="5e786-130">For example, the North America/APAC network interregion route requires two network region links because there is no direct network region link between them.</span><span class="sxs-lookup"><span data-stu-id="5e786-130">For example, the North America/APAC network interregion route requires two network region links because there is no direct network region link between them.</span></span>
 
     
     </div>
 
-9.  <span data-ttu-id="ee7ed-131">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="ee7ed-131">Click **Commit**.</span></span>
+9.  <span data-ttu-id="5e786-131">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="5e786-131">Click **Commit**.</span></span>
 
-10. <span data-ttu-id="ee7ed-132">Para finalizar la creación de rutas entre regiones de red de la topología, repita los pasos del 4 al 9 con la configuración para otras rutas entre regiones de red.</span><span class="sxs-lookup"><span data-stu-id="ee7ed-132">To finish creating network interregion routes for your topology, repeat steps 4 through 9 with settings for other network interregion routes.</span></span>
+10. <span data-ttu-id="5e786-132">Para finalizar la creación de rutas entre regiones de red de la topología, repita los pasos del 4 al 9 con la configuración para otras rutas entre regiones de red.</span><span class="sxs-lookup"><span data-stu-id="5e786-132">To finish creating network interregion routes for your topology, repeat steps 4 through 9 with settings for other network interregion routes.</span></span>
 
 </div>
 
