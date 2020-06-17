@@ -1,8 +1,8 @@
 ---
-title: Mover un solo usuario a la agrupación piloto
+title: Mover un solo usuario al grupo piloto
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,41 +10,41 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Puede mover un usuario de su grupo heredado a su grupo piloto de Skype empresarial Server 2019 con el panel de control de Skype empresarial Server 2019 o el shell de administración de Skype empresarial 2019. En el ejemplo siguiente, en la columna registrar grupo, pool01.contoso.net es el grupo heredado y los seis de estos usuarios están conectados a este grupo. Use los procedimientos siguientes para mover un usuario a su grupo de servidores de Skype empresarial 2019 con el panel de control de Skype empresarial Server 2019 y el shell de administración de Skype empresarial Server.
-ms.openlocfilehash: cc8c657b5e8d9cea760472c80da28bad4cf21f2e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Puede mover un usuario de su grupo de servidores heredado al grupo piloto de Skype empresarial Server 2019 mediante el panel de control de Skype empresarial Server 2019 o el shell de administración de Skype empresarial Server 2019. En el ejemplo siguiente, en la columna registrador de grupo de servidores, pool01.contoso.net es el grupo heredado y los seis usuarios están conectados a este grupo. Use los siguientes procedimientos para mover un usuario al grupo de servidores de Skype empresarial Server 2019 mediante el panel de control de Skype empresarial Server 2019 y el shell de administración de Skype empresarial Server.
+ms.openlocfilehash: 6be30f37987cc31835a12178d32a8337d9fc5cae
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813308"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752512"
 ---
-# <a name="move-a-single-user-to-the-pilot-pool"></a>Mover un solo usuario a la agrupación piloto
+# <a name="move-a-single-user-to-the-pilot-pool"></a>Mover un solo usuario al grupo piloto
 
-Puede mover un usuario de su grupo heredado a su grupo piloto de Skype empresarial Server 2019 con el panel de control de Skype empresarial Server 2019 o el shell de administración de Skype empresarial 2019. En el ejemplo siguiente, en la columna **registrar grupo** , **pool01.contoso.net** es el grupo heredado y los seis de estos usuarios están conectados a este grupo. Use los procedimientos siguientes para mover un usuario a su grupo de servidores de Skype empresarial 2019 con el panel de control de Skype empresarial Server 2019 y el shell de administración de Skype empresarial Server. 
+Puede mover un usuario de su grupo de servidores heredado al grupo piloto de Skype empresarial Server 2019 mediante el panel de control de Skype empresarial Server 2019 o el shell de administración de Skype empresarial Server 2019. En el ejemplo siguiente, en la columna **registrador de grupo** de servidores, **pool01.contoso.net** es el grupo heredado y los seis usuarios están conectados a este grupo. Use los siguientes procedimientos para mover un usuario al grupo de servidores de Skype empresarial Server 2019 mediante el panel de control de Skype empresarial Server 2019 y el shell de administración de Skype empresarial Server. 
   
 ## <a name="to-move-a-user-by-using-the-skype-for-business-server-2019-control-panel"></a>Para mover un usuario mediante el panel de control de Skype empresarial Server 2019
   
-1. Inicie sesión en el servidor front-end con una cuenta que sea miembro del grupo RTCUniversalServerAdmins o miembro del rol administrativo CsAdministrator o CsUserAdministrator.
+1. Inicie sesión en el servidor front-end con una cuenta que sea miembro del grupo RTCUniversalServerAdmins, o del rol administrativo CsAdministrator o CsUserAdministrator.
     
 2. Abra el **Panel de control de Skype empresarial Server**.
     
-3. Haga clic en **usuarios**, en **Buscar**y, a continuación, en **Buscar**.
+3. Haga clic en **Usuarios**, **Buscar** y, a continuación, en **Buscar**.
     
-4. Seleccione el usuario que desea mover al grupo de servidores de Skype empresarial 2019. En este ejemplo, moveremos a Sara Davis.
+4. Seleccione un usuario que quiera mover al grupo de Skype empresarial Server 2019. En ste ejemplo, moveremos al usuario Sara Davis.
     
-5. En el menú **Acción**, seleccione **Mover usuarios seleccionados a grupo**.
+5. En el menú  **Acción **, haga clic en  **Mover usuarios seleccionados a un grupo de servidores **.
     
 6. En la lista desplegable, seleccione el grupo de servidores de Skype empresarial 2019.
     
-7. Haga clic en **acción**y, a continuación, haga clic en **mover los usuarios seleccionados al grupo**. Haga clic en **Aceptar**.
+7. Haga clic en **Acción** y, a continuación, en **Mover usuarios seleccionados a grupo**. Haga clic en **Aceptar**.
   
-8. Compruebe que la columna del **Grupo registrador** del usuario contiene ahora el grupo de servidores de Skype empresarial 2019, lo que indica que el usuario se ha movido correctamente. 
+8. Compruebe que la columna **grupo de registradores** para el usuario contiene ahora el grupo de servidores de Skype empresarial Server 2019, que indica que el usuario se ha movido correctamente. 
     
 ## <a name="to-move-a-user-by-using-the-skype-for-business-server-2019-management-shell"></a>Para mover un usuario mediante el shell de administración de Skype empresarial Server 2019
 
 1. Abra el shell de administración de Skype empresarial Server.
     
-2. En la línea de comandos, escriba: 
+2. En la línea de comandos, escriba lo siguiente: 
     
    ```PowerShell
    Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
@@ -56,9 +56,9 @@ Puede mover un usuario de su grupo heredado a su grupo piloto de Skype empresari
    Get-CsUser -Identity "David Pelton"
    ```
 
-4. La identidad de **RegistrarPool** apunta ahora al grupo de servidores de Skype empresarial 2019. La presencia de esta identidad confirma que el usuario se movió correctamente. 
+4. La identidad **RegistrarPool** ahora apunta al grupo de servidores de Skype empresarial Server 2019. La presencia de esta identidad confirma que se movió al usuario correctamente. 
 
     > [!NOTE]
-    > Para obtener detalles sobre el cmdlet **Get-CsUser** , ejecute: **Get-Help Get-CsUser-Detailed**
+    > Para obtener más información sobre el cmdlet **Get-CsUser** , ejecute: **Get-Help Get-CsUser-Detailed**
   
 

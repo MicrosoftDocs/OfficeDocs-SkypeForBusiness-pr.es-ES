@@ -1,8 +1,8 @@
 ---
-title: Fase 8-retirar pools heredados
+title: Grupo de servidores heredados de la fase 8 de retiro
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,22 +11,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.custom: httpsfix
-description: En el siguiente tema se proporcionan instrucciones para actualizar entradas DNS, mover el servidor de administración de contenido, retirar grupos de servidores y desactivar y quitar servidores y grupos de servidores de una implementación heredada. No todos los procedimientos enumerados en esta sección son obligatorios. Lea la documentación y determine qué procedimiento de retiro se debe usar.
-ms.openlocfilehash: 2398e9ce681edc2bba9f4f93d54f39d727bdb75e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: En el siguiente tema se proporcionan instrucciones para actualizar las entradas DNS, mover el servidor de administración de contenido, retirar los grupos de servidores y desactivar y quitar servidores y grupos de servidores de una implementación heredada. No todos los procedimientos de esta sección son obligatorios. Lea la documentación y determine qué procedimiento utilizar.
+ms.openlocfilehash: 2406b25436bc13cafca8b09c92220a96e0635ae3
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813108"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753698"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>Fase 8: Retirar los grupos de servidores heredados
 
-En el siguiente tema se proporcionan instrucciones para actualizar entradas DNS, mover el servidor de administración de contenido, retirar grupos de servidores y desactivar y quitar servidores y grupos de servidores de una implementación heredada. No todos los procedimientos enumerados en esta sección son obligatorios. Lea la documentación y determine qué procedimiento de retiro se debe usar. 
+En el siguiente tema se proporcionan instrucciones para actualizar las entradas DNS, mover el servidor de administración de contenido, retirar los grupos de servidores y desactivar y quitar servidores y grupos de servidores de una implementación heredada. No todos los procedimientos de esta sección son obligatorios. Lea la documentación y determine qué procedimiento utilizar. 
   
-Para obtener un artículo de los servidores y los roles de servidor que se hayan exhausdo, y una guía paso a paso para dar de baja una implementación, descargue la [desinstalación de Microsoft Lync Server y la eliminación de roles de servidor](https://go.microsoft.com/fwlink/p/?linkId=246227). 
+Para obtener un artículo de una vez, pero exhaustiva, sobre cómo quitar servidores y roles de servidor, y una guía paso a paso para retirar una implementación, descargue [desinstalación de Microsoft Lync Server y quite roles de servidor](https://go.microsoft.com/fwlink/p/?linkId=246227). 
   
 > [!IMPORTANT]
-> Para obtener información sobre cómo migrar y actualizar aplicaciones de la API administrada de Microsoft Unified Communications (UCMA), antes de dar de baja el entorno heredado, consulte [aplicaciones de UCMA: escenarios de coexistencia, migración y actualización](https://go.microsoft.com/fwlink/p/?LinkId=269555).
+> Para obtener información sobre la migración y actualización de aplicaciones de la API administrada de comunicaciones unificadas de Microsoft (UCMA) antes de retirar el entorno heredado, consulte [escenarios de las aplicaciones de UCMA: coexistencia, migración y actualización](https://go.microsoft.com/fwlink/p/?LinkId=269555).
   
 ## <a name="in-this-section"></a>En esta sección
 
@@ -40,7 +40,7 @@ Para obtener un artículo de los servidores y los roles de servidor que se hayan
 > 
 > [Quitar la asociación del servidor de supervisión](remove-the-monitoring-server-association.md)
 > 
-> [Quitar el servidor front-end de Enterprise Edition o el servidor front-end Standard Edition](remove-the-front-end-server.md)
+> [Quitar el servidor front-end Enterprise Edition o el servidor front-end Standard Edition](remove-the-front-end-server.md)
 > 
 > [Quitar instancias de SQL Server y bases de datos en el servidor back-end](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
     

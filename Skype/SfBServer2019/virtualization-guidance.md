@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: Obtenga información sobre la compatibilidad de la virtualización con Skype empresarial Server 2019.'
-ms.openlocfilehash: a01f529d80e84df3f7ca844696738b079f78df26
-ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
+ms.openlocfilehash: b4524b1284a85e7ab372b415d45c2005f8212887
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44565959"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755814"
 ---
 # <a name="virtualization-support-for-skype-for-business-server-2019"></a>Compatibilidad con la virtualización en Skype empresarial Server 2019
 
@@ -42,3 +42,13 @@ Para los hipervisores de terceros, necesita un hipervisor que haya pasado las pr
 
 - Consulte las [versiones de Windows Server 2016](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25) en la lista SVVP.
 - Consulte las [versiones de Windows Server 2019](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) en la lista SVVP.
+
+## <a name="stress-and-performance-tool"></a>Herramienta stress and Performance
+
+La herramienta de esfuerzo y rendimiento de Skype empresarial Server 2019 incluye herramientas que simplifican la planeación de la capacidad de Skype empresarial Server 2019. La herramienta de esfuerzo y rendimiento de Skype empresarial Server 2019 le ayudará a:
+
+- Simplificar la planeación de hardware para Skype empresarial Server 2019
+- Proporcionar un mayor conocimiento y procedimientos recomendados para ajustar el rendimiento
+- Medir el rendimiento de las implementaciones previstas de Skype empresarial Server 2019
+ 
+Puede descargar la herramienta desde [aquí](https://www.microsoft.com/download/details.aspx?id=101447).

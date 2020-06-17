@@ -1,8 +1,8 @@
 ---
 title: Migrar los grupos de respuesta
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Una vez que los usuarios se han movido a los grupos de servidores de Skype empresarial Server 2019, puede migrar los grupos de respuesta. Migrar grupos de respuesta incluye copiar grupos de agentes, colas, flujos de trabajo, archivos de audio y mover objetos de contacto de grupo de respuesta de la implementación heredada al grupo de Skype empresarial Server 2019. Después de migrar los grupos de respuesta heredados, las llamadas a los grupos de respuesta se controlan mediante la aplicación grupo de respuesta en el grupo de servidores de Skype empresarial 2019. El grupo heredado ya no maneja las llamadas a los grupos de respuesta.
-ms.openlocfilehash: 2d439462fa103cc16fd7ae70b79364be7d79803a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 03b0ffd900b5d7c23dd6ff680d56c0c4db53d8dc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42016111"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752682"
 ---
 # <a name="migrate-response-groups"></a>Migrar los grupos de respuesta
 
@@ -40,7 +40,7 @@ Después de migrar los grupos de respuesta, debe usar el panel de control de Sky
 Al migrar grupos de respuesta, los grupos de respuesta heredados no se quitan. Cuando administre grupos de respuesta después de la migración mediante el panel de control de Skype empresarial Server o el shell de administración de Skype empresarial Server, puede ver tanto los grupos de respuesta heredados como los grupos de respuesta de Skype empresarial Server 2019. Solo debe aplicar actualizaciones a los grupos de respuesta de Skype empresarial Server 2019. Los grupos de respuesta heredados se conservan solo por motivos de reversión. 
   
 > [!CAUTION]
-> Una vez que se haya completado la migración y se hayan creado los nuevos grupos de respuesta, el panel de control de Skype empresarial Server y el shell de administración de Skype empresarial Server mostrarán las versiones de la versión 2019 de Skype empresarial Server y las versiones heredadas de cada respuesta. Grupo. No use el panel de control de Skype empresarial Server ni el shell de administración de Skype empresarial Server para quitar los grupos de respuesta heredados. Si quita una, el grupo de respuesta correspondiente que se creó durante la migración dejará de funcionar. Los grupos de respuesta heredados se quitarán cuando retire el grupo de servidores heredado. 
+> Una vez que se haya completado la migración y se hayan creado los nuevos grupos de respuesta, el panel de control de Skype empresarial Server y el shell de administración de Skype empresarial Server mostrarán las versiones heredada y de Skype empresarial Server 2019 de cada grupo de respuesta. No use el panel de control de Skype empresarial Server ni el shell de administración de Skype empresarial Server para quitar los grupos de respuesta heredados. Si quita una, el grupo de respuesta correspondiente que se creó durante la migración dejará de funcionar. Los grupos de respuesta heredados se quitarán cuando retire el grupo de servidores heredado. 
   
 > [!IMPORTANT]
 > Se aconseja no eliminar ningún dato de la implementación anterior hasta retirar el grupo de servidores. También se recomienda encarecidamente exportar los grupos de respuesta inmediatamente después de haber realizado la migración. Si un grupo de respuesta heredado debe quitarse, puede restaurar los grupos de respuesta a partir de la copia de seguridad para que los grupos de respuesta de Skype empresarial Server 2019 se ejecuten de nuevo. 
