@@ -1,7 +1,7 @@
 ---
 title: Coexistencia con Skype Empresarial
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Comportamiento de coexistencia entre Teams & Skype empresarial, incluidos los parámetros de enrutamiento, el chat & el enrutamiento de llamadas, chats & las llamadas de subprocesos ya existentes, & presencia.
-ms.openlocfilehash: ff5e94b16cd55374ec0aeb45aaffdda41fbe0498
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 361f59297fb28e02203b8659be88302bca89515c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137319"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757241"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 
@@ -65,12 +65,12 @@ Los parámetros que determinan el método de enrutamiento de subprocesos son:
 
 Las tablas siguientes capturan el enrutamiento de llamadas y chats en inquilino y son válidos para llamadas nuevas o chats que no se inician desde un subproceso ya existente. Describe qué cliente recibirá una nueva llamada o un chat, si ha sido originado por un usuario de la izquierda, para un usuario de ese inquilino a la derecha.
 
-Los mensajes enviados a los usuarios de TeamsOnly siempre se enrutarán a teams. Los mensajes enviados a\* los usuarios de SfB siempre se dirigirán a Skype empresarial, si la conversación es posible según se describe anteriormente. Los mensajes enviados a los usuarios de las islas siempre se enrutarán al mismo cliente desde el que fueron enviados.
+Los mensajes enviados a los usuarios de TeamsOnly siempre se enrutarán a teams. Los mensajes enviados a \* los usuarios de SfB siempre se dirigirán a Skype empresarial, si la conversación es posible según se describe anteriormente. Los mensajes enviados a los usuarios de las islas siempre se enrutarán al mismo cliente desde el que fueron enviados.
 
 En las tablas siguientes se muestra qué cliente de un modo determinado recibirá una llamada del originador (tres columnas del extremo izquierdo), según el modo del creador, el cliente elegido y la ubicación de su cliente de Skype empresarial (local o en línea).
 
 En las siguientes tablas: 
-- **SfB\* ** representa cualquiera de los siguientes modos: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
+- **SfB \* ** representa cualquiera de los siguientes modos: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
 
 - El *texto en cursiva* resalta una conversación interoperativa.
 
@@ -78,16 +78,16 @@ En las siguientes tablas:
 
 **Tabla 1A: nueva conversación en el inquilino o enrutamiento de llamadas a un destinatario de modo islas**
 
-| <br/><br/> Modo | Autor <br/><br/> Cliente | <br/><br/> SfB&nbsp; | | Remite <br/><br/> Aplicaciones aisladas  |
+| <br/><br/> Modo | Autor <br/><br/> Cliente | <br/><br/> SfB &nbsp; | | Remite <br/><br/> Aplicaciones aisladas  |
 |--- |--- |--- |--- |--- |
 | Aplicaciones aisladas | Microsoft Teams <br/> Skype Empresarial<br/> Microsoft Teams<br/> Skype Empresarial| En línea<br/> En línea<br/> Local<br/>Local| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype Empresarial<br/> Microsoft Teams<br/> Skype Empresarial|
 |SfB\* <br/> | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> Local<br/> |&boxv;<br/>&boxv;|Skype Empresarial<br/>Skype Empresarial<br/>|
 |TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
 | | | | | |
 
-**Tabla 1B: nueva conversación en el inquilino o enrutamiento de llamadas a un destinatario en modo\* SfB**
+**Tabla 1B: nueva conversación en el inquilino o enrutamiento de llamadas a un destinatario en \* modo SfB**
 
-| <br/><br/> Modo   | Autor <br/><br/> Cliente | <br/><br/> SfB&nbsp; | |   Remite <br/><br/> SfB\*   |
+| <br/><br/> Modo   | Autor <br/><br/> Cliente | <br/><br/> SfB &nbsp; | |   Remite <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
 | Aplicaciones aisladas |Microsoft Teams<br/>Skype Empresarial<br/>Microsoft Teams <br/>Skype Empresarial  |En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial<br/> **No es posible** <br/>Skype Empresarial<br/> |
 |SfB\* <br/> | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> Local<br/> |&boxv;<br/>&boxv; |  Skype Empresarial<br/>Skype Empresarial<br/> |
@@ -96,7 +96,7 @@ En las siguientes tablas:
 
 **Tabla 1C: nueva conversación en el inquilino o enrutamiento de llamadas a destinatarios en modo TeamsOnly**
 
-| <br/><br/> Modo   | Autor <br/><br/> Cliente | <br/><br/> SfB&nbsp; | |   Remite <br/><br/> TeamsOnly  |
+| <br/><br/> Modo   | Autor <br/><br/> Cliente | <br/><br/> SfB &nbsp; | |   Remite <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
 | Aplicaciones aisladas   |Teams<br/>Skype Empresarial<br/>Teams <br/>Skype Empresarial<br/>|En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
 |SfB\*  | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> Local<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
@@ -107,7 +107,7 @@ En las siguientes tablas:
   
 Las tablas siguientes capturan el enrutamiento de llamadas federadas y chats, y son válidas para nuevas llamadas o chats. Describen qué cliente recibirá una nueva llamada o un chat, si ha sido originado por un usuario de la izquierda, a un usuario de destino federado a la derecha.
 
-En Resumen, si la conversación es posible según se describe anteriormente, los mensajes enviados a los usuarios de TeamsOnly siempre estarán en el equipo. los mensajes enviados a\* los usuarios de SfB siempre estarán en Skype para empresas; los mensajes enviados a los usuarios de las islas siempre estarán en Skype para empresas, independientemente del cliente desde el que se enviaron. El enrutamiento de chats y llamadas federadas difiere del enrutamiento de inquilino en que los usuarios de las islas siempre recibirán una comunicación federada en Skype empresarial.
+En Resumen, si la conversación es posible según se describe anteriormente, los mensajes enviados a los usuarios de TeamsOnly siempre estarán en el equipo. los mensajes enviados a \* los usuarios de SfB siempre estarán en Skype para empresas, y los mensajes enviados a los usuarios de las islas siempre estarán en Skype para empresas, independientemente del cliente desde el que se enviaron. El enrutamiento de chats y llamadas federadas difiere del enrutamiento de inquilino en que los usuarios de las islas siempre recibirán una comunicación federada en Skype empresarial.
 
 Esto se debe a que no se puede suponer que un socio federado de Skype empresarial ya usa Teams si está en modo islas. Islas es el modo predeterminado, pero no podemos asumir que todos los usuarios de las islas ejecutan Teams. Al enrutar a Skype empresarial, garantizamos que no se produzcan errores de comunicación con un usuario de islas. Si se enrutan a Teams, esa comunicación podría perderse si el destino no utilizase Teams. El enrutamiento a Skype empresarial siempre garantiza que el mensaje se recibirá.  
 
@@ -125,7 +125,7 @@ Las tablas siguientes describen qué cliente recibirá una llamada de su origina
 | TeamsOnly |Teams |Online| &boxv;|*Skype Empresarial* |
 |  | | | | 
 
-**Tabla 2B: nueva conversación o enrutamiento de llamadas a un destinatario en modo SfB\***
+**Tabla 2B: nueva conversación o enrutamiento de llamadas a un destinatario en modo SfB \***
 
 | <br/><br/>Modo   | Autor<br/><br/> Cliente| <br/><br/>SfB| |  Remite<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
@@ -174,7 +174,7 @@ Por ejemplo, si la conversación o la llamada de un creador se deben colocar en 
 Para saber qué comportamiento esperar, necesitará comprender que la presencia se comparte en función del modo de coexistencia del usuario:
 
 * Si un usuario está en modo TeamsOnly, cualquier otro usuario (ya sea en Teams o en Skype empresarial) verá la presencia de Teams de TeamsOnly de usuario.
-* Si un usuario se encuentra en cualquiera de los\* modos SfB (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), cualquier otro usuario (ya sea en Teams o Skype empresarial) verá la presencia\* de SfB de usuario de Skype empresarial.
+* Si un usuario se encuentra en cualquiera de los \* modos SfB (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), cualquier otro usuario (ya sea en Teams o Skype empresarial) verá la presencia de SfB de \* usuario de Skype empresarial.
 * Si un usuario está en modo islas (o heredadas), la presencia en Teams y la presencia de Skype empresarial son independientes (no es necesario que los valores coincidan) y otros usuarios verán una o la otra presencia del usuario de las islas, en función de si están en el mismo inquilino o en un inquilino federado y qué cliente usan
     * En Teams, cualquier otro usuario dentro del mismo inquilino verá la presencia de equipos del usuario de islas; Esto se alinea con la tabla de enrutamiento en el inquilino anterior
     * En Teams, cualquier otro usuario de un inquilino federado verá la presencia de Skype empresarial por parte del usuario de las islas; Esto se ha alineado con la tabla de enrutamiento federado anterior
@@ -183,7 +183,7 @@ Para saber qué comportamiento esperar, necesitará comprender que la presencia 
 
 ### <a name="in-tenant-presence"></a>Presencia en el inquilino
 
-Los mensajes enviados a los usuarios de TeamsOnly siempre estarán en el equipo. Los mensajes enviados a\* los usuarios de SfB siempre estarán en Skype para empresas, si la conversación es posible según se describe anteriormente. Los mensajes enviados a los usuarios de las islas siempre se encontrarán en el cliente desde el que se han originado.
+Los mensajes enviados a los usuarios de TeamsOnly siempre estarán en el equipo. Los mensajes enviados a \* los usuarios de SfB siempre estarán en Skype para empresas, si la conversación es posible según se describe anteriormente. Los mensajes enviados a los usuarios de las islas siempre se encontrarán en el cliente desde el que se han originado.
 
 En la tabla se describe la presencia del editor que verá un monitor, según el modo del editor y el cliente del observador (para un nuevo hilo).
 

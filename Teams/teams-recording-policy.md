@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bb6f5a682b816e04e03694788fbdcf48ad897b5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 00727602aed5eee205a01b01e1ab01218c5b2352
+ms.sourcegitcommit: 8acc2ed4cb807f941a6526ec8aad562536f45aa6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690996"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44804684"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introducción a la grabación basada en directivas de Teams para realizar llamadas & reuniones
 
@@ -133,7 +133,7 @@ Los requisitos de Windows VM de Azure y Windows solo se aplican al componente bo
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>Aprovisionamiento y asignación de directivas de grabación de cumplimiento normativo
 
-Los administradores de TI pueden determinar qué usuarios se grabarán y qué grabadora se usará para cada usuario mediante la creación y asignación de directivas de grabación de cumplimiento. Los grabadores se invitan automáticamente a participar en las conversaciones basándose en la configuración de estas directivas cuando tiene lugar una interacción de comunicación. Las directivas de grabación de cumplimiento se administran con [<span class="underline">Microsoft PowerShell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview) y se pueden aplicar en el espacio empresarial y en el nivel de usuario para cada organización. Puede encontrar más información sobre [<span class="underline">las directivas de reuniones</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams) y las [<span class="underline">directivas de llamadas</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy)en Microsoft docs.
+Los administradores de TI pueden determinar qué usuarios se grabarán y qué grabadora se usará para cada usuario mediante la creación y asignación de directivas de grabación de cumplimiento. Los grabadores se invitan automáticamente a participar en las conversaciones basándose en la configuración de estas directivas cuando tiene lugar una interacción de comunicación. Las directivas de grabación de cumplimiento se administran con [<span class="underline">Microsoft PowerShell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview) y se pueden aplicar a nivel de inquilino, por usuario y de seguridad para cada organización. Puede encontrar más información sobre [<span class="underline">las directivas de reunión</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams), [<span class="underline">las directivas de llamada</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy) y las directivas de [<span class="underline">Grupo</span>](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)en Microsoft docs.
 
 1. Cree una instancia de la aplicación en su espacio empresarial.
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99ec5fdea273c5d9e265e22a77c86ee628da3ab
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 19c4bf59275d0f9be4c522129fd20ae668c2f30d
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690016"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753442"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 
@@ -34,7 +34,7 @@ Para empezar, veamos cómo Microsoft Teams permite que los equipos individuales 
 - Los **equipos** son recopilaciones de personas, contenido y herramientas alrededor de varios proyectos y tareas dentro de una organización.
 
     - Los equipos pueden crearse para ser privados, solo para los usuarios invitados.
-    - Los equipos también se pueden crear como públicos y abiertos, de modo que todos los integrantes de la organización se pueden unir (hasta 5 000 miembros).
+    - Los equipos también se pueden crear de forma pública y abrir y cualquier persona dentro de la organización puede unirse (hasta 10.000 miembros).
     
     Los equipos están diseñados para reunir grupos de personas que trabajen juntos para lograr sus objetivos. Los equipos pueden ser dinámicos para el trabajo basado en proyectos (por ejemplo, iniciar un producto o crear un centro de operaciones digital) o continuos para reflejar la estructura interna de su organización (por ejemplo, departamentos y ubicaciones de oficinas). Los miembros del equipo serán los únicos que podrán ver las conversaciones, los archivos y las notas de los canales del equipo.
 

@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 20fc95f14782057c6c493d9835fd17a7339018ca
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b34c58bc043f67d1a60f3b6c30fef7f5cc693b08
+ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637279"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44799801"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
@@ -32,9 +32,9 @@ Cuando se invita a un invitado a unirse a un equipo, recibe un mensaje de correo
     
 ![Captura de pantalla que muestra un ejemplo de un mensaje de correo electrónico de bienvenida](media/guest-experience-image1.png)
     
-Todos los miembros del equipo ven un mensaje en el hilo del canal en el que se anuncia que el propietario del equipo ha agregado a un invitado y da el nombre del invitado. Todos los miembros del equipo pueden identificar con facilidad quién es un invitado. Como se muestra en la siguiente captura de pantalla de un equipo de muestra, una pancarta indica "este equipo tiene invitados" y aparece una etiqueta **(invitado)** junto al nombre de cada invitado.
-    
-![Captura de pantalla que muestra los usuarios invitados de notificaciones](media/guest-experience-image2.png "Captura de pantalla que muestra una parte del canal de marketing de Northwind Traders, con la notificación en el banner superior en el que se indica que el equipo tiene invitados y los usuarios que son invitados se identifican con la palabra "invitado" junto a su nombre.")
+Todos los miembros del equipo ven un mensaje en el hilo del canal en el que se anuncia que el propietario del equipo ha agregado a un invitado y da el nombre del invitado. Todos los miembros del equipo pueden identificar con facilidad quién es un invitado. Una etiqueta en la esquina superior derecha del subproceso de canal indica el número de invitados en el equipo y aparece una etiqueta **(invitado)** junto al nombre de cada invitado.
+
+![Captura de pantalla que muestra una etiqueta que indica el número de invitados en el equipo](media/guest-experience-image2.png)
 
 Consulte estos vídeos sobre la experiencia de invitado en Teams:
 - [Unirse a un equipo como invitado](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información acerca de cómo usar y administrar canales privados en Microsoft Teams.
-ms.openlocfilehash: 769fd2b489d65b276823abd7c3ff8f579100617a
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 54fd36bd78f1d9ea263fe3e79a3d12a08741c389
+ms.sourcegitcommit: 8acc2ed4cb807f941a6526ec8aad562536f45aa6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637939"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44804694"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canales privados en Microsoft Teams
 
@@ -44,7 +44,10 @@ Un icono de bloqueo indica un canal privado. Solo los miembros de canales privad
 
 Actualmente, los canales privados son compatibles con conectores y pestañas (excepto Stream, Planner y Forms). Estamos trabajando para brindarle soporte completo de aplicaciones para canales privados, incluidas extensiones de mensajería y bots.
 
-Cada equipo puede tener un máximo de 30 canales privados y cada canal privado puede tener un máximo de 250 miembros. El límite de 30 canales privados es adicional al límite de 200 canales estándar por equipo.
+Cada equipo puede tener un máximo de 30 canales privados y cada canal privado puede tener un máximo de 250 miembros. El límite de 30 canales privados es adicional al límite de 200 canales estándar por equipo. 
+
+Al crear un equipo a partir de un equipo existente, los canales privados del equipo existente no se copiarán.
+
 
 > [!NOTE]
 > Continuamente estamos agregando capacidades a los canales privados, así que revise para obtener la información más actualizada sobre aplicaciones, reuniones de canales y escalar canales privados para equipos grandes.
@@ -55,12 +58,12 @@ Para determinar si un canal privado es adecuado, tenga en cuenta las siguientes 
 
 |¿Ya hay un equipo que tiene estos usuarios como miembros del equipo?  |¿Es necesario mantener el trabajo privado de otras personas?  |¿Hay algún tema distinto que debatir?  |Recomendación  |
 |---------|---------|---------|---------|
-|Sí      |Sí         |Sí         |Cree un canal privado en el equipo existente o considere crear canales privados especializados para cada tema.         |
-|Sí     |Sí         |No         |Cree un canal privado en el equipo existente.         |
+|Sí      |Sí         |Sí          |Cree un canal privado en el equipo existente o considere crear canales privados especializados para cada tema.         |
+|Sí     |Sí         |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos         |Cree un canal privado en el equipo existente.         |
 |Sí     |No         |No         |Cree un canal en el equipo existente.         |
 |No     |No         |No         |Considere la posibilidad de crear un nuevo equipo.         |
 |No     |No         |Sí         |Considere la posibilidad de crear un nuevo equipo y, a continuación, en función de la confidencialidad de cada tema, considere la posibilidad de crear canales privados o estándares independientes para cada tema.         |
-|No     |Sí         |No         |Cree un nuevo equipo y considere la posibilidad de crear un canal privado.         |
+|No     |Sí         |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos         |Cree un nuevo equipo y considere la posibilidad de crear un canal privado.         |
 
 Cuando se crea un canal privado, está vinculado al equipo principal y no se puede mover a un equipo diferente. Además, los canales privados no se pueden convertir en canales estándar, y viceversa.
 
@@ -70,9 +73,9 @@ Cuando se crea un canal privado, está vinculado al equipo principal y no se pue
 
 De forma predeterminada, los miembros del equipo o el propietario del equipo pueden crear un canal privado. Los invitados no pueden crear canales privados. La capacidad de crear canales privados se puede administrar en el nivel del equipo y en el nivel de la organización.
 
-> 1. Vaya al centro de administración en <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+ 1. Vaya al centro de administración en <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
-> 2. Use [directivas](teams-policies.md) para controlar los usuarios de su organización que pueden crear canales privados.
+ 2. Use [directivas](teams-policies.md) para controlar los usuarios de su organización que pueden crear canales privados.
     Una vez que haya establecido las directivas, los propietarios del equipo pueden desactivar o activar la posibilidad de que los miembros creen canales privados en la pestaña **configuración** de un equipo.
 
 La persona que crea un canal privado es el propietario del canal privado y solo el propietario del canal privado puede agregar o quitar personas directamente. El propietario de un canal privado puede agregar cualquier miembro del equipo a un canal privado que haya creado, incluyendo invitados. Los miembros de un canal privado tienen un espacio de conversación seguro, y cuando se agregan nuevos miembros, pueden ver todas las conversaciones (incluso las conversaciones antiguas) en ese canal privado.
@@ -109,7 +112,7 @@ En la siguiente tabla se describen las acciones que los propietarios, miembros e
 |---------|---------|---------|---------|---------|---------|---------|
 |Crear un canal privado|Sí<sup>1</sup>|Sí<sup>1, 2</sup>|No|N/D|No aplicable|No aplicable|
 |Quitar canal privado|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|
-|Abandonar canal privado|N/D|No aplicable|No aplicable|Sí<sup>3</sup>|Sí |Sí|
+|Abandonar canal privado|N/D|No aplicable|N/D|Sí<sup>3</sup>|Sí|Sí|
 |Editar canal privado|No|N/D|No aplicable|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|
 |Restaurar el canal privado eliminado|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|
 |Agregar miembros|No|N/D|No aplicable|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|
@@ -136,7 +139,7 @@ Consulte [administrar el ciclo de vida de canales privados en Teams](private-cha
 
 ## <a name="private-channel-sharepoint-sites"></a>Sitios de SharePoint de canal privado
 
-Cada canal privado dispone de su propia colección de sitios de SharePoint optimizada para el uso compartido de archivos y el aprovisionamiento rápido. La colección de sitios independiente es para garantizar que el acceso a los archivos de canales privados esté restringido únicamente a los miembros del canal privado en comparación con el sitio del equipo donde los propietarios de los equipos tienen acceso a todos los activos dentro de la colección de sitios. Estas colecciones de sitios se crean con una biblioteca de documentos de forma predeterminada y pueden ampliarse fácilmente a una colección de sitios con todas las funciones con la [interfaz de administración de sitios](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Todas las colecciones de sitios se crean en la misma región geográfica que la colección de sitios del equipo principal. Estos sitios livianos tienen un identificador de plantilla personalizado, "TEAMCHANNEL # 0", para facilitar la administración mediante la API de PowerShell y Graph.  Por diseño, no están visibles en el Centro de administración de SharePoint.
+Cada canal privado tiene su propia colección de sitios de SharePoint. La colección de sitios independiente es para garantizar que el acceso a los archivos de canales privados esté restringido únicamente a los miembros del canal privado en comparación con el sitio del equipo donde los propietarios de los equipos tienen acceso a todos los activos dentro de la colección de sitios. Estas colecciones de sitios se crean con una biblioteca de documentos de forma predeterminada y pueden ampliarse fácilmente a una colección de sitios con todas las funciones con la [interfaz de administración de sitios](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Todas las colecciones de sitios se crean en la misma región geográfica que la colección de sitios del equipo principal. Estos sitios livianos tienen un identificador de plantilla personalizado, "TEAMCHANNEL # 0", para facilitar la administración mediante la API de PowerShell y Graph.  Por diseño, no están visibles en el Centro de administración de SharePoint.
 
 Para dar cabida a un mayor número de colecciones de sitios por inquilino, el límite ha aumentado de 500.000 a 2 millones. Una colección de sitios de canal privado sincroniza la clasificación de datos y hereda los permisos de acceso de invitado de la colección de sitios del equipo principal.  La pertenencia del propietario de la colección de sitios y los grupos de miembros se mantienen sincronizados con la membresía del canal privado dentro de Teams. Todos los cambios que se realicen en la pertenencia a propietario o grupos de miembros en SharePoint Online se revertirán automáticamente en un plazo de cuatro horas. En escenarios donde ciertos usuarios necesitan acceder a documentos sin necesidad de acceder a mensajes de canales privados, agréguelos al grupo visitantes del sitio o a un grupo nuevo que sea independiente de los propietarios y miembros.
 

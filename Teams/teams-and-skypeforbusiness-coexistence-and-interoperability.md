@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc1619a751bc6e800ac038486b844de748c6b0b6
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: fcf7fc339fdf1b204f81d88c4fed08c720978280
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691046"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756851"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprender Microsoft Teams y la coexistencia e interoperabilidad de Skype empresarial
 
@@ -76,7 +76,7 @@ Este modo se puede usar antes de iniciar una implementación administrada de Tea
 
 
 > [!IMPORTANT]
-> Si desinstala el cliente de Skype Empresarial después de mover un usuario al modo **Teams solo**, la presencia dejará de funcionar en Outlook y en otras aplicaciones de Office. La presencia funciona bien en Teams. Solución: Para ver la presencia en Outlook (y otras aplicaciones de Office), Skype Empresarial debe estar instalado, aunque esté ejecutando Teams en el modo **solo Teams**. Microsoft es consciente de este problema y está trabajando en una solución.
+> Si desinstala el cliente de Skype empresarial después de mover un usuario al modo **solo de Teams** , es posible que tenga que reiniciar Outlook y Teams si la presencia deja de funcionar. 
 
 
 Un usuario **solo de equipos** (también denominado usuario *actualizado* ) tiene acceso a todas las capacidades de Teams. Pueden retener el cliente de Skype empresarial para unirse a reuniones de Skype empresarial organizadas por usuarios externos o no actualizados. Un usuario actualizado puede seguir comunicándose con otros usuarios de la organización que siguen usando Skype empresarial con las funciones de interoperabilidad entre Teams y Skype empresarial (siempre que estos usuarios de Skype empresarial no estén en modo **islas** ). Sin embargo, un usuario actualizado no puede iniciar una conversación, una llamada o una reunión de Skype empresarial.

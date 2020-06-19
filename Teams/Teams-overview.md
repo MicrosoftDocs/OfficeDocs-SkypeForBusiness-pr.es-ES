@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4c9fc53608d1072558931ee2ba424d6d0334e31
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 7220a7776acb796a4ca56ef28541fd821c0c0132
+ms.sourcegitcommit: 18838ed1da69ab4668c903bfcafd4ad2fa02639d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689776"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773315"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Le damos la bienvenida a Microsoft Teams
 Si es administrador de Microsoft Teams en su organización, ahora está en el lugar adecuado. Cuando esté listo para comenzar a usar Teams, empiece por [Cómo implementar Teams](How-to-roll-out-teams.md).
@@ -100,7 +100,7 @@ Vea una [lista semanal de los temas de Teams que se han actualizado](teams-updat
 
 ## <a name="teams-known-issues"></a>Problemas conocidos de Microsoft Teams
 
-Consulte [Soporte para Teams en la organización](Known-issues.md).
+Vea [Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 
 ## <a name="teams-client-release-notes"></a>Notas de la versión del cliente de Microsoft Teams
 

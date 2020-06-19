@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Aprenda a personalizar una directiva de mensajería segura que pueda incluir confirmaciones de lectura y notificaciones prioritarias.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b4bd8032cce78e388d221108ebdfc08a16b8afd1
-ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
+ms.openlocfilehash: 1321c22f2eac04063723b404153909c20125dd57
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724893"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755834"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introducción a la mensajería segura para las organizaciones sanitarias
 
@@ -53,7 +53,7 @@ Para las aplicaciones de cuidado de la salud, elija controlado por el **usuario*
 
 ## <a name="send-urgent-messages-using-priority-notifications"></a>Enviar mensajes urgentes con notificaciones prioritarias
 
-Un usuario puede marcar un mensaje como *urgente* cuando envía mensajes instantáneos a otros usuarios. Esta característica ayuda al personal del hospital a avisar una vez cuando un incidente importante requiere su atención. A diferencia de los mensajes *importantes* normales, las [notificaciones prioritarias](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) notifican a los usuarios cada dos minutos durante un máximo de 20 minutos o hasta que el destinatario recoja y lea el mensaje, lo cual maximiza la probabilidad de que el mensaje se haya basado puntualmente.
+Un usuario puede marcar un mensaje como *urgente* cuando envía mensajes instantáneos a otros usuarios. Esta característica ayuda al personal del hospital a avisar una vez cuando un incidente importante requiere su atención. A diferencia de los mensajes *importantes* normales, las [notificaciones prioritarias](https://support.microsoft.com/en-us/office/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) notifican a los usuarios cada dos minutos durante un máximo de 20 minutos o hasta que el destinatario recoja y lea el mensaje, lo cual maximiza la probabilidad de que el mensaje se haya basado puntualmente.
 
 Un administrador puede habilitar o deshabilitar la posibilidad de que los usuarios que tengan asignada esta directiva envíen notificaciones prioritarias. Esta característica está activada de forma predeterminada. Es posible que el destinatario del mensaje de prioridad no tenga la misma directiva de mensajería y no tendrá la opción de deshabilitar la recepción de mensajes de prioridad. Para las aplicaciones de cuidado de la salud, recomendamos habilitar la característica para al menos algunos usuarios, pero tendrá que determinar cuáles.
 

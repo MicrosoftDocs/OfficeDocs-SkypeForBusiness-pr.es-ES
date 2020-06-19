@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a12ed5780dd9119f4adc0a7bb77c9c110f533859
-ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
+ms.openlocfilehash: cb1be3215aff5aa97d97b0bc7cfbb81febd7d7fe
+ms.sourcegitcommit: 8acc2ed4cb807f941a6526ec8aad562536f45aa6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724916"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44804704"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -31,11 +31,13 @@ En este artículo se describen los requisitos y las limitaciones para usar Micro
 
 La infraestructura de escritorio virtual (VDI) es una tecnología de virtualización que hospeda un sistema operativo de escritorio y aplicaciones en un servidor centralizado en un centro de datos. Esto permite una experiencia de escritorio totalmente personalizada para los usuarios con un origen centralizado totalmente seguro y compatible.
  
-Microsoft Teams en un entorno virtualizado admite chat y colaboración, y con la plataforma Citrix, también se admiten las funciones de llamada y reunión.
+Microsoft Teams en un entorno virtualizado admite chat y colaboración. Además, con la plataforma Citrix, también se admiten las funciones de llamada y reunión.
 
 Los equipos de un entorno virtualizado admiten varias configuraciones. Esto incluye VDI, modos dedicados, compartidos, persistentes y no persistentes. Las características están en desarrollo continuo y se agregan con regularidad, y la funcionalidad se expandirá en los próximos meses y años.
  
-El uso de Teams en un entorno virtualizado puede variar ligeramente de la utilización de Teams en un entorno no virtualizado. Por ejemplo, es posible que algunas características avanzadas no estén disponibles en un entorno virtualizado y que la resolución de video sea distinta. Para garantizar una experiencia de usuario óptima, siga las instrucciones de este artículo.
+El uso de Teams en un entorno virtualizado puede variar ligeramente de la utilización de Teams en un entorno no virtualizado. Por ejemplo, es posible que algunas características avanzadas no estén disponibles en un entorno virtualizado y que la resolución de video sea distinta. 
+
+Para garantizar una experiencia de usuario óptima, siga las instrucciones de este artículo.
 
 ## <a name="teams-on-vdi-components"></a>Teams en componentes de VDI
 
@@ -44,15 +46,15 @@ El uso de Teams en un entorno virtualizado requiere los siguientes componentes.
 - **Agente de virtualización**: el recurso y el administrador de conexiones en el proveedor de virtualización, como Azure
 - **Escritorio virtual**: pila de máquina virtual (VM) que ejecuta Microsoft Teams
 - **Cliente ligero**: el extremo con el que el usuario interactúa físicamente
-- **Aplicación de escritorio de Teams**: esta es la aplicación cliente de escritorio de Teams
+- **Aplicación de escritorio de Teams**: aplicación de cliente de escritorio de Teams
 
 ## <a name="teams-on-vdi-requirements"></a>Teams acerca de los requisitos de VDI
 
 ### <a name="virtualization-provider-requirements"></a>Requisitos del proveedor de virtualización
 
-La aplicación de escritorio de Teams se validó con los principales proveedores de soluciones de virtualización. Con los proveedores de varios mercados, le recomendamos que consulte a su proveedor de soluciones de virtualización para asegurarse de que se cumplan los requisitos mínimos.
+La aplicación de escritorio de Teams se validó con los principales proveedores de soluciones de virtualización. Con los diversos proveedores de mercado, le recomendamos que consulte a su proveedor de soluciones de virtualización para asegurarse de que cumple con los requisitos mínimos.
   
-Actualmente, los equipos de VDI con la optimización de audio y vídeo (AV) están certificados con Citrix. Revise la información de esta sección para asegurarse de que se cumplan los requisitos de Citrix y de Teams para que funcionen correctamente.
+Actualmente, los equipos de VDI con la optimización de audio y vídeo (AV) están certificados con Citrix. Revise la información de esta sección para asegurarse de que cumple con los requisitos de Citrix y Teams para que funcionen correctamente.
 
 ### <a name="partners-certified-for-teams"></a>Socios certificados para equipos
 
@@ -66,14 +68,15 @@ Los siguientes socios tienen soluciones de infraestructura de escritorio virtual
 
 Las aplicaciones virtuales y los escritorios de Citrix (anteriormente conocidos como XenApp y XenDesktop) proporcionan optimización de AV para Teams en VDI. Con las aplicaciones virtuales y los equipos de escritorio de Citrix, los equipos de VDI son compatibles con las llamadas y la funcionalidad de reuniones, además de los chats y la colaboración.
 
-[Aquí](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)puede descargar la última versión de las aplicaciones virtuales y equipos de escritorio de Citrix. (Primero deberás iniciar sesión). Los componentes necesarios se agrupan en la [aplicación Citrix Workspace (CWA)](https://www.citrix.com/downloads/workspace-app/) y virtual Delivery Agent (VDA) de forma predeterminada. No es necesario instalar ningún componente o complemento adicional en CWA o en VDA.
+Puede descargar la última versión de los equipos de escritorio y las aplicaciones virtuales de Citrix en [el sitio de descargas de Citrix](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/). (Primero deberás iniciar sesión). Los componentes necesarios se agrupan en la [aplicación Citrix Workspace (CWA)](https://www.citrix.com/downloads/workspace-app/) y virtual Delivery Agent (VDA) de forma predeterminada. No es necesario instalar ningún componente o complemento adicional en CWA o en VDA.
 
 Para obtener los últimos requisitos de servidor y cliente, consulte [este sitio web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>Instalar o actualizar la aplicación de escritorio de Teams en VDI
 
 Puede implementar la aplicación de escritorio de Teams para VDI con una instalación por equipo o una instalación por usuario con el paquete MSI. Decidir qué método usar depende de si usa una configuración persistente o no persistente y las necesidades de funcionalidad asociada de su organización.
-En el caso de una configuración persistente, cualquiera de estos métodos funcionará.  Sin embargo, para una instalación no persistente, es necesaria una instalación por equipo para que los equipos funcionen de forma eficaz. Consulte la sección [configuración no persistente](#non-persistent-setup) .
+
+En el caso de una configuración persistente, cualquiera de estos métodos funcionará. Sin embargo, para una configuración no persistente, Teams necesita una instalación por equipo para poder trabajar de forma eficaz. Consulte la sección [configuración no persistente](#non-persistent-setup) .
 
 Con la instalación por equipo, actualizaciones automáticas está deshabilitado. Esto significa que para actualizar la aplicación de Teams, debe desinstalar la versión actual para actualizar a una versión más reciente. Con la instalación por usuario, la característica actualizaciones automáticas está habilitada. Para la mayoría de las implementaciones de VDI, se recomienda implementar Teams con la instalación por equipo.
 
@@ -83,7 +86,7 @@ Para que la optimización de AV de Teams en entornos de VDI funcione correctamen
 
 #### <a name="dedicated-persistent-setup"></a>Configuración permanente dedicada
 
-En una configuración persistente, los cambios del sistema operativo local de los usuarios se conservan después de que los usuarios cierren sesión.  Para la configuración persistente, los equipos son compatibles con la instalación por usuario y por equipo.
+En una configuración persistente, los cambios del sistema operativo local de los usuarios se conservan después de que los usuarios cierren sesión. Para la configuración persistente, Teams es compatible con la instalación por usuario y por equipo.
 
 A continuación se recomienda la configuración de VM mínima.
 
@@ -97,11 +100,18 @@ A continuación se recomienda la configuración de VM mínima.
 
 En una configuración no persistente, los cambios del sistema operativo local de los usuarios no se conservan después de que los usuarios cierren sesión. Dichas configuraciones suelen ser sesiones multiusuario compartidas. La configuración de la VM varía según el número de usuarios y los recursos del cuadro físico disponibles.
 
-Para una instalación no persistente, la aplicación de escritorio de Teams debe instalarse por equipo para la imagen de oro. (Para obtener más información, consulte la sección [instalar o actualizar la aplicación de escritorio de Teams en VDI](#install-or-update-the-teams-desktop-app-on-vdi) ). Esto asegura un lanzamiento eficaz de la aplicación de Teams durante una sesión de usuario. El uso de equipos con una configuración no persistente también requiere un administrador de almacenamiento en caché para los equipos eficientes de sincronización de datos en tiempo de ejecución. Esto garantiza que la información específica del usuario adecuada (por ejemplo, datos de usuario, perfil y configuración) se almacene en la memoria caché durante la sesión de usuario.  Hay una gran variedad de soluciones de administrador de almacenamiento en caché disponibles. Por ejemplo, [FSLogix](https://docs.microsoft.com/fslogix/overview). Consulte a su proveedor de almacenamiento en caché para obtener instrucciones de configuración específicas.
+Para una instalación no persistente, la aplicación de escritorio de Teams debe instalarse por equipo para la imagen de oro. (Para obtener más información, consulte la sección [instalar o actualizar la aplicación de escritorio de Teams en VDI](#install-or-update-the-teams-desktop-app-on-vdi) ). Esto asegura un lanzamiento eficaz de la aplicación de Teams durante una sesión de usuario. 
+
+El uso de equipos con una configuración no persistente también requiere un administrador de almacenamiento en caché para los equipos eficientes de sincronización de datos en tiempo de ejecución. De esta forma, se asegurará de que la información específica de usuario adecuada (por ejemplo, datos de usuario, perfil y configuración) se almacene en la memoria caché durante la sesión de usuario. Asegúrese de que los datos de estas dos carpetas estén sincronizados.  
+
+- C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
+- C:\Users\username\AppData\Roaming\Microsoft\Teams(%appdata%\Microsoft\Teams)
+
+Hay una gran variedad de soluciones de administrador de almacenamiento en caché disponibles. Por ejemplo, [FSLogix](https://docs.microsoft.com/fslogix/overview). Consulte a su proveedor de almacenamiento en caché para obtener instrucciones de configuración específicas.
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>Lista de exclusión de contenido almacenado en caché de Teams para configuración no persistente
 
-Excluya lo siguiente de la carpeta Team Caching,% AppData%/Microsoft/Teams.  Excluyendo estos ayuda a reducir el tamaño del almacenamiento en caché de usuario para optimizar aún más la configuración no persistente.
+Excluya lo siguiente de la carpeta Team Caching,% AppData%/Microsoft/Teams. La exclusión de estos elementos ayuda a reducir el tamaño del almacenamiento en caché de los usuarios para optimizar aún más la configuración no persistente.
 
 - archivos. txt
 - Carpeta de la pila de medios
@@ -147,7 +157,7 @@ Para obtener más información sobre Teams y las aplicaciones de Microsoft 365 p
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
         ```
 
-        Esta es la instalación predeterminada, que instala Teams en la carpeta de usuario% AppData%. En este momento, la configuración de la imagen de oro está completa. Teams no funciona correctamente con la instalación por usuario en una configuración no persistente.
+        Este proceso es la instalación predeterminada, que instala Teams en la carpeta de usuario% AppData%. En este momento, la configuración de la imagen de oro está completa. Teams no funciona correctamente con la instalación por usuario en una configuración no persistente.
 
     - Instalación por equipo
 
@@ -155,23 +165,24 @@ Para obtener más información sobre Teams y las aplicaciones de Microsoft 365 p
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        Esto instalará Teams en la carpeta archivos de programa (x86) en un sistema operativo de 64 bits y en la carpeta archivos de programa de un sistema operativo de 32 bits. En este momento, la configuración de la imagen de oro está completa. La instalación de equipos por máquina es necesaria para las configuraciones no persistentes.
+        Este proceso instala Teams en la carpeta archivos de programa (x86) en un sistema operativo de 64 bits y en la carpeta archivos de programa de un sistema operativo de 32 bits. En este momento, la configuración de la imagen de oro está completa. La instalación de equipos por máquina es necesaria para las configuraciones no persistentes.
 
         La siguiente sesión de inicio de sesión interactivo inicia Teams y solicita las credenciales.
 
     > [!NOTE]
-    > Estos ejemplos también usan el parámetro **ALLUSERS = 1** . Al establecer este parámetro, el instalador para todo el equipo se muestra en programas y características en el panel de control y en aplicaciones & características de configuración de Windows para todos los usuarios del equipo. Todos los usuarios pueden desinstalar Teams si tienen credenciales de administrador. Es importante comprender la diferencia entre **ALLUSERS = 1** y **ALLUSER = 1**. El parámetro **ALLUSERS = 1** se puede usar en entornos que no son VDI y VDI, y el parámetro **ALLUSER = 1** solo se usa en entornos de VDI para especificar una instalación por equipo.
+    > Estos ejemplos también usan el parámetro **ALLUSERS = 1** . Al establecer este parámetro, el instalador para todo el equipo se muestra en programas y características en el panel de control y en aplicaciones & características de configuración de Windows para todos los usuarios del equipo. Todos los usuarios pueden desinstalar Teams si tienen credenciales de administrador.
+    Es importante comprender la diferencia entre **ALLUSERS = 1** y **ALLUSER = 1**. El parámetro **ALLUSERS = 1** se puede usar en entornos que no son VDI y VDI, mientras que el parámetro **ALLUSER = 1** se usa solo en entornos de VDI para especificar una instalación por equipo.
 
 3. Desinstale el MSI de la máquina virtual de VDI.
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
-      Esto desinstala equipos de la carpeta archivos de programa (x86) o de la carpeta archivos de programa, según el entorno del sistema operativo.
+      Este proceso desinstala equipos de la carpeta archivos de programa (x86) o de la carpeta archivos de programa, según el entorno del sistema operativo.
 
 ## <a name="teams-on-vdi-performance-considerations"></a>Consideraciones de rendimiento de Teams en VDI
 
-Hay varias configuraciones de instalación virtualizadas, cada una con un enfoque diferente para la optimización. Por ejemplo, densidad de usuario. Al planear, tenga en cuenta lo siguiente para ayudarle a optimizar la configuración en función de las necesidades de carga de trabajo de su organización:
+Hay una variedad de configuraciones de instalación virtualizadas, cada una con un enfoque diferente para la optimización. Por ejemplo, una configuración puede centrarse en la densidad de los usuarios. Al planear, considere lo siguiente para optimizar la configuración en función de las necesidades de carga de trabajo de su organización.
 
 - Requisito mínimo: algunas cargas de trabajo pueden requerir una configuración que use recursos que estén por encima de los requisitos mínimos. Por ejemplo, cargas de trabajo para los programadores que usan aplicaciones que exigen más recursos informáticos.
 - Dependencias: Estas incluyen dependencias de la infraestructura, la carga de trabajo y otras consideraciones ambientales fuera de la aplicación de escritorio de Teams.
@@ -218,9 +229,9 @@ Si va a migrar desde Skype empresarial en VDI a teams en VDI, además de las dif
 
 ### <a name="teams-on-chrome-browser-versus-teams-desktop-app-for-vdi"></a>Equipos en el explorador Chrome frente a la aplicación de escritorio de Teams para VDI
 
-El explorador de Teams en Chrome no proporciona un reemplazo para la aplicación de escritorio de Teams para VDI con optimización de AV. La experiencia de chat y colaboración funciona de la forma esperada. Cuando se necesita multimedia, hay algunas experiencias que pueden no cumplir con las expectativas del usuario en el explorador Chrome:
+El explorador de Teams en Chrome no proporciona un reemplazo para la aplicación de escritorio de Teams para VDI con optimización de AV. La experiencia de chat y colaboración funciona de la forma esperada. Cuando se necesita multimedia, hay algunas experiencias que podrían no cumplir las expectativas del usuario en el explorador Chrome:
 
-- Es posible que la experiencia de transmisión de audio y vídeo no sea óptima. Los usuarios pueden experimentar retrasos o reducir la calidad.
+- Es posible que la experiencia de transmisión de audio y vídeo no sea óptima. Los usuarios pueden demorar o reducir la calidad.
 - La configuración del dispositivo no está disponible en la configuración del explorador.
 - La administración de dispositivos se controla a través del explorador y requiere varias opciones de configuración en la configuración del sitio del explorador.
 - Es posible que la configuración del dispositivo también deba establecerse en Windows Device Management.
@@ -231,7 +242,7 @@ Si su organización desea usar únicamente las características de colaboración
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>Establecer directivas para desactivar la funcionalidad de llamadas y reuniones
 
-Puede establecer directivas con el centro de administración de Microsoft Teams o PowerShell. Los cambios de Directiva pueden tardar un poco (algunas horas) en propagarse. Si no ve los cambios de una cuenta determinada inmediatamente, inténtelo de nuevo en unas pocas horas.
+Puede establecer directivas con el centro de administración de Microsoft Teams o PowerShell. Es posible que el cambio de directiva tarde un tiempo (algunas horas) en propagarse. Si no ve los cambios de una cuenta determinada inmediatamente, inténtelo de nuevo en unas pocas horas.
 
 [**Llamadas a directivas**](teams-calling-policy.md): Teams incluye la Directiva de llamadas DisallowCalling integrada, en la que se desactivan todas las características de las llamadas. Asigne la Directiva DisallowCalling a todos los usuarios de su organización que usen Teams en un entorno virtualizado.
 
@@ -252,7 +263,7 @@ Para asignar una directiva a varios usuarios a la vez:
 
 1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Usuarios**, después, busque los usuarios o filtre la vista para mostrar los usuarios que desee.
 2. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en &#x2713; (marca de verificación) situado en la parte superior de la tabla.
-3. Haga clic en **Editar configuración**, haga los cambios que desee y, a continuación, haga clic en **Aplicar**.  
+3. Haga clic en **Editar configuración**, haga los cambios que desee y, a continuación, haga clic en **Aplicar**.
 
 También puede hacer lo siguiente:
 
@@ -307,8 +318,8 @@ Para asignar la Directiva de llamada de AllowCalling y la Directiva de reunión 
 Para asignar una directiva a varios usuarios a la vez:
 
 1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Usuarios**, después, busque los usuarios o filtre la vista para mostrar los usuarios que desee.
-2. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en &#x2713; (marca de verificación) situado en la parte superior de la tabla.
-3. Haga clic en **Editar configuración**, haga los cambios que desee y, a continuación, haga clic en **Aplicar**.  
+2. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en el **&#x2713;** (marca de verificación) en la parte superior de la tabla.
+3. Haga clic en **Editar configuración**, haga los cambios que desee y, a continuación, haga clic en **Aplicar**.
 
 También puede hacer lo siguiente:
 
@@ -342,22 +353,22 @@ Para obtener más información sobre cómo usar PowerShell para administrar dire
 ### <a name="client-deployment-installation-and-setup"></a>Implementación de clientes, instalación y configuración
 
 - Con la instalación por equipo, Teams en VDI no se actualiza automáticamente de la manera en que se encuentran los clientes de equipos ajenos a VDI. Tiene que actualizar la imagen de VM instalando un nuevo MSI, tal y como se describe en la sección [instalar o actualizar la aplicación de escritorio de Teams en VDI](#install-or-update-the-teams-desktop-app-on-vdi) . Debe desinstalar la versión actual para actualizar a una versión más reciente.
-- Los equipos se deben implementar tanto por usuario como por equipo. No se admite la implementación de equipos para usuarios simultáneos y por equipo.  Para migrar de cualquiera por equipo o por usuario a uno de estos modos, siga el procedimiento de desinstalación y vuelva a implementarlo en cualquiera de los dos.
-- En este momento, Citrix no admite los clientes de MacOs y Linux.
-- Citrix no admite el uso de proxy HTTP explícitos definidos en un extremo. 
+- Los equipos se deben implementar tanto por usuario como por equipo. No se admite la implementación de equipos para usuarios simultáneos y por equipo. Para migrar de cualquiera por equipo o por usuario a uno de estos modos, siga el procedimiento de desinstalación y vuelva a implementarlo en cualquiera de los dos.
+- Citrix no es compatible con los clientes de MacOs y Linux en este momento.
+- Citrix no admite el uso de proxy HTTP explícitos definidos en un extremo.
 
 ### <a name="calling-and-meetings"></a>Llamadas y reuniones
 
-- La interoperabilidad con Skype empresarial está limitada a las llamadas de audio, sin modalidad de video.
+- La interoperabilidad con Skype empresarial está limitada a las llamadas de audio; no hay ninguna modalidad de video.
 - Actualmente no se admite la interacción de multifrecuencia de tono dual (DTMF) con sistemas de telefonía.
 - Unirse a reuniones de Teams como usuario anónimo no está optimizado para AV. El usuario puede unirse a la reunión y tener una experiencia no optimizada.
-- En las reuniones o en las llamadas grupales solo se admite una única secuencia de vídeo entrante. Cuando varias personas envían video, solo se muestra el vídeo del altavoz dominante en un momento dado.  
+- En las reuniones o en las llamadas grupales solo se admite una única secuencia de vídeo entrante. Cuando varias personas envían video, solo se muestra el vídeo del altavoz dominante en un momento dado.
 - La resolución de flujo de vídeo entrante y saliente está limitada a la resolución de 720p. Esta es una limitación de WebRTC.
-- Solo se admite una secuencia de vídeo de una cámara entrante o una secuencia compartida de pantalla. Cuando hay un uso compartido de pantalla entrante, ese recurso compartido de pantalla lo muestra en lugar del vídeo del altavoz dominante.
+- Solo se admite una secuencia de vídeo de una cámara entrante o una secuencia compartida de pantalla. Cuando hay un uso compartido de pantalla entrante, se muestra ese recurso compartido de pantalla, en lugar del vídeo del altavoz dominante.
 - Pantalla compartida saliente:
     - La pantalla compartida desde la conversación no es compatible.
     - El uso compartido de aplicaciones no es compatible.
-- Ceder el control y tomar el control:  
+- Ceder el control y tomar el control:
     - No se admite durante una sesión compartida de pantalla o de uso compartido de aplicaciones.
     - Compatible durante una sesión de uso compartido de PowerPoint.
 - Cuando se comparte la pantalla en una configuración de varios monitores, solo se comparte el monitor principal.

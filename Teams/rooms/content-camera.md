@@ -1,7 +1,7 @@
 ---
 title: Más información sobre cómo configurar cámaras de contenido-Microsoft Teams
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Use una cámara de contenido en una sala de Microsoft Teams, que interactúa con el software de procesamiento de imágenes para permitir que los moderadores dibujen en una pizarra analógica.
-ms.openlocfilehash: ecd9c20c7f479c548d0ab9b4c3db8bbec945e79f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: e2aa115f1ddac9c7ae0eb8b247b204429f7ed1d4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157813"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756901"
 ---
 # <a name="content-cameras"></a>Cámaras de contenido
 
@@ -87,7 +87,7 @@ O bien, consulte los kits de cámaras de contenido admitidos en Microsoft Teams 
 
 Una vez instalada la cámara en la sala, configúrelo en la consola de salas de Microsoft Teams de la sala:
 
-1. ![](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)Seleccione **configuración de configuración,** inicie sesión como administrador y seleccione **configuración del dispositivo**.
+1. Seleccione **configuración de configuración** ![ ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) , inicie sesión como administrador y seleccione **configuración del dispositivo**.
 2. En la sección **valores predeterminados de cámara** , seleccione la cámara de contenido y asegúrese de que esté seleccionada la opción **mejoras de contenido** .
 3. Faculta Si la cámara se instaló al revés porque la cámara se montó desde el techo, active la opción **rotar la cámara de contenido 180 °** .
 4. Seleccione **Guardar y salir**.
@@ -96,10 +96,10 @@ Una vez instalada la cámara en la sala, configúrelo en la consola de salas de 
 
 También puede ajustar esta configuración de forma remota con un [archivo de configuración XML](xml-config-file.md).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administrar de forma remota la configuración de la consola de salas de Microsoft Teams con un archivo de configuración XML](xml-config-file.md)
 
-[Requisitos de salas de Microsoft Teams](requirements.md)
+[Requisitos de la sala de Microsoft Teams](requirements.md)
 
 

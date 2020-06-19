@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5debf9eb72066c90ff0af002b4e5f3b3bafe8383
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 2806d913fb63dcd2a7a25b26153435333282e871
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637069"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752982"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -50,7 +50,7 @@ La siguiente tabla proporciona una referencia rápida y útil sobre la disponibi
 |**Exchange Online**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí |Sí<sup>8</sup>|Sí |Sí |Sí <sup>7</sup>|Sí |Sí |Sí |Sí |
 |**Exchange Online Dedicated vNext**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí |Sí<sup>8</sup>|Sí |Sí |Sí <sup>7</sup>|Sí |Sí |Sí |Sí|
 |**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí <sup>2</sup>|Sí <sup>, 2, 3</sup>|Sí <sup> 4|Sí|No|No|Sí|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|Sí <sup> 5|Sí <sup> 6|Sí |Sí |
-|**Exchange local** (sincronizar con la configuración de OAuth de Azure ad & es necesario)|Sí <sup>2</sup>| Sí <sup>2</sup> |Sí <sup> 4|Sí|Sí (Exchange 2016 CU3 +)|Sí<sup>8</sup> (Exchange 2016 CU3 +)|Sí |Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|Sí <sup> 5|Sí <sup> 6|Sí |Sí |
+|**Exchange local** (sincronizar con la configuración de OAuth de Azure ad & es necesario)|Sí <sup>2</sup>| Sí <sup>2</sup> |Sí <sup> 4|Sí|Sí (Exchange 2016 CU3 +)|No|Sí|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|Sí <sup> 5|Sí <sup> 6|Sí |Sí |
 
 <sup>1</sup> se admite la versión Exchange 2016 CU3 y versiones posteriores.  
 
@@ -93,7 +93,7 @@ Microsoft Teams funciona con varios servicios de Microsoft 365 y Office 365 para
 
 A continuación se muestran algunas cosas que debe tener en cuenta al implementar Microsoft Teams en su organización.
 
-- En Microsoft Teams, las características de seguridad y cumplimiento (como la exhibición de documentos electrónicos, la búsqueda de contenido, el archivo y la retención legal) funcionan mejor en los entornos de Exchange Online y SharePoint Online. Para las conversaciones del canal, se crea un diario con los mensajes en el buzón del grupo en Exchange Online, y así están disponibles para la exhibición de documentos electrónicos. Si SharePoint Online y OneDrive para la Empresa (usando una cuenta profesional o educativa) están habilitados en toda la organización y para los usuarios, estas características de cumplimiento están disponibles también para todos los archivos de Teams.
+- In Microsoft Teams, security and compliance features like eDiscovery, Content Search, archiving, and legal hold work best in Exchange Online and SharePoint Online environments. For channel conversations, messages are journaled to the group mailbox in Exchange Online, where they're available for eDiscovery. If SharePoint Online and OneDrive for Business (using work or school account) are enabled across the organization and for users, these compliance features are available for all files within Teams as well.
 
 - Controlar y proteger la configuración de directivas de cumplimiento en Teams y Exchange mediante el acceso condicional. Para obtener más información, vea [¿Cómo funcionan las directivas de acceso condicional para Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams) .
 

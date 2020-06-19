@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede leer las notas de la versión de las salas de Microsoft Teams, que enumeran las mejoras acumulativas de las salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a4af973e02c8ae3799ee0abe6df5c9694956635
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: f59242fd3877ff1a075668a405a558f0fe18c374
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158957"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761458"
 ---
 # <a name="release-notes"></a>Notas de la versión
 
@@ -353,7 +353,7 @@ Introdujo en esta actualización:
 
 [Compatibilidad con salas de Microsoft Teams versiones actuales de las sucursales](rooms-lifecycle-support.md)
 
-[Equipos de soporte técnico de su organización](known-issues.md)
+[Problemas conocidos](known-issues.md)
 
 [Plan para Salas de Microsoft Teams](rooms-plan.md)
 

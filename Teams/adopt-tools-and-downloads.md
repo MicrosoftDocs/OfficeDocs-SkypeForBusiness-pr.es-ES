@@ -1,10 +1,10 @@
 ---
 title: Herramientas y descargas para la adopción
 ms.reviewer: karuanag
-description: Use estos recursos de adopción para ayudarle a impulsar la adopción de Microsoft Teams y otros servicios de Office 365.
+description: Use estos recursos de adopción para ayudarle a impulsar la adopción de Microsoft Teams y otros servicios de Microsoft 365 u Office 365.
 ms.topic: landing-page
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 layout: LandingPage
 ms.date: 11/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78531cfad01051e4a9d7493384a18f4c0a4e1dc4
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 0d736a407ee169e1b3121eede66c945c216237d9
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551008"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756509"
 ---
 # <a name="tools-for-driving-adoption"></a>Herramientas para conducir la adopción 
 
@@ -148,8 +148,8 @@ Use las siguientes herramientas para apoyar cada una de las fases de su plan de 
     </li></ul>
 
 
-### <a name="office-365-champions-program"></a>Programa de Office 365 Champions
-El programa Office 365 Champions es un programa gratuito que permite a las personas que desean obtener más de Microsoft Teams y otros servicios de Office 365. Combinamos nuestra comunidad en línea en la [comunidad técnica de Microsoft](https://aka.ms/DriveAdoption) con las llamadas mensuales de la comunidad que resaltan todos los componentes de la adopción de la adopción del gobierno a las mejores prácticas para las nuevas características. Participa en https://aka.ms/O365Champions nuestra comunidad y Obtén acceso a la versión anticipada, escucha de otros clientes y aprende de los expertos de Microsoft.  
+### <a name="microsoft-365-or-office-365-champions-program"></a>Programa de Microsoft 365 o de Office 365 Champions
+El programa campeones es un programa gratuito que permite a las personas que desean obtener más de Microsoft Teams y otros servicios de Microsoft 365 u Office 365. Combinamos nuestra comunidad en línea en la [comunidad técnica de Microsoft](https://aka.ms/DriveAdoption) con las llamadas mensuales de la comunidad que resaltan todos los componentes de la adopción de la adopción del gobierno a las mejores prácticas para las nuevas características. Participa en nuestra comunidad https://aka.ms/O365Champions y Obtén acceso a la versión anticipada, escucha de otros clientes y aprende de los expertos de Microsoft.  
 
 ### <a name="teams-adoption-guide"></a>Guía de adopción de equipos
 Consulte el [libreto animado](https://aka.ms/teamstoolkit)para la adopción de equipos, una guía en pantalla que le ayudará a implementar los equipos de su empresa. Incluye muchas herramientas descargables, plantillas y otros recursos para ayudarle en el viaje de adopción de su equipo.

@@ -1,7 +1,7 @@
 ---
 title: Plan de adopción de usuarios de Microsoft Teams | Procedimientos recomendados
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3eae061b901bba6fe7bf4208f6498597d824d363
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: be512ac7726defdd2879114eb47ed3e66a229e30
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689466"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751542"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Cómo usar Microsoft Teams de forma eficaz
 

@@ -1,7 +1,7 @@
 ---
 title: Guía de seguridad para Microsoft Teams
 author: MicrosoftHeidi
-ms.author: heidip
+ms.author: tracyp
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e13055fb9c4f3f30b1810a24a20aea25c9eb652
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 6762bd49bbe22b1e80c1b97f37048ee0a944e0a1
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689666"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761448"
 ---
 # <a name="security-and-microsoft-teams"></a>Seguridad y Microsoft Teams
 
@@ -61,7 +61,7 @@ Teams ofrece protección frente a estos ataques mediante la ejecución de la pro
 
 ### <a name="eavesdropping"></a>Interceptación
 
-La interceptación se produce cuando un atacante obtiene acceso a la ruta de datos en una red y puede supervisar y leer el tráfico. Este tipo de ataque también se denomina rastreo o espionaje. Si el tráfico se produce como texto sin formato, el atacante puede leerlo cuando obtiene acceso a la ruta. Un ejemplo es un ataque que se realiza al controlar un enrutador de la ruta de acceso a los datos.
+Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path.
 
 Teams utiliza TLS mutua (MTLS) para las comunicaciones del servidor en Microsoft 365 y Office 365, además de TLS para los clientes al servicio. Esto dificulta mucho —o imposibilita— realizar este tipo de ataque en el período de tiempo en el que se puede atacar una conversación determinada. TLS autentica todas las partes y cifra todo el tráfico. Esto no impide la interceptación, pero el atacante no puede leer el tráfico a menos se interrumpa el cifrado.
 

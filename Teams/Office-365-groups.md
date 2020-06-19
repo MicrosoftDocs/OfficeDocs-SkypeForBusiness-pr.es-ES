@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61569b2a60bdce188a7ffb75ae6720d4e1e87a3c
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: ec2845723ce7f4a593064795f158ddf718d5b6e5
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637059"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753900"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 Groups y Microsoft Teams
 =====================================
@@ -43,7 +43,7 @@ No se pierda los [grupos de pósters de Microsoft 365 para arquitectos de ti](te
 Al crear un equipo, en el back-end, va a crear un grupo de 365 de Microsoft y la biblioteca de documentos de SharePoint asociada y el Bloc de notas de OneNote, junto con los vínculos a otras aplicaciones de nube de Office 365. Si la persona que crea el equipo es propietaria de un grupo existente de Office 365 público o privado, puede Agregar la funcionalidad de Teams al grupo si tiene menos de 5000 usuarios y nunca se ha agregado a teams. Esto crea un canal **General** predeterminado en el que residen los mensajes de chat, documentos, OneNote y otros objetos. Si visualiza la biblioteca de documentos para el canal, se mostrará la carpeta **General** que representa el canal en el equipo. Y lo que es más importante, si crea su propia estructura de carpetas dentro de una biblioteca de documentos, **no se propaga** a teams como un canal; por ahora, solo fluye de Teams a SharePoint.
 
 > [!NOTE]
-> En función de los comentarios de los clientes, los nuevos grupos de Microsoft 365 generados como resultado de la creación de un equipo en Microsoft Teams ya no se mostrarán en Outlook de forma predeterminada. Para los clientes que desean continuar con el comportamiento existente de mostrar estos grupos en Outlook, se proporcionará un cmdlet de PowerShell de Exchange online que puede habilitar el grupo para la experiencia de Outlook. Los grupos creados a través de Outlook y, posteriormente, habilitados para equipos, seguirán apareciendo en Outlook y en Teams. Esta actualización se implementará gradualmente en Outlook y Teams en los próximos meses.
+> En función de los comentarios de los clientes, los nuevos grupos de Microsoft 365 generados como resultado de la creación de un equipo en el cliente de Microsoft Teams ya no se mostrarán en Outlook de forma predeterminada. Para activar o desactivar la visualización de grupos en Outlook, use el cmdlet [set-unifiedgrouphttps](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-unifiedgroup) con el parámetro **HiddenFromExchangeClientsEnabled** . Los grupos creados a través de Outlook y, posteriormente, habilitados para equipos, seguirán apareciendo en Outlook y en Teams. 
 
 > [!NOTE]
 > Si se elimina un grupo de Microsoft 365, se eliminará el alias de buzón de las conversaciones de Outlook/OWA persistentes y los invitados de reunión de Teams, y se marcará el sitio de SharePoint para su eliminación. Se tarda aproximadamente 20 minutos entre la eliminación de un equipo y su efecto en Outlook. Al eliminar un equipo del cliente de Teams, se eliminará inmediatamente de la vista a todos los miembros del equipo. Si quita miembros de un grupo de Microsoft 365 que tiene habilitada la funcionalidad de Teams, podría haber un retraso de aproximadamente dos horas antes de que el equipo se quite de la vista en el cliente de Teams para las personas afectadas que se quitaron.

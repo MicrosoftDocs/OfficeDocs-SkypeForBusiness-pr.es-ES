@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión (SBC) compatible suministrado por el cliente a Microsoft Phone System.
-ms.openlocfilehash: bd221be2174a538956667e0b113d459f2293882f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 1d0dff52258cfae9776fde57b5a30ff60793b902
+ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691236"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44799831"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -49,7 +49,7 @@ Microsoft también ofrece soluciones de voz todo en la nube, como el plan de lla
 
 El enrutamiento directo también es compatible con los usuarios que tienen la licencia adicional para el plan de llamadas de Microsoft. Para obtener más información, consulta [planes de llamadas y sistema telefónico](calling-plan-landing-page.md). 
 
-Con el enrutamiento directo, cuando los usuarios participan en una conferencia programada, el número de acceso telefónico es proporcionado por el servicio de conferencias de audio de Microsoft, que requiere licencias apropiadas.  Cuando se hace el marcado, el servicio Conferencia de audio de Microsoft coloca la llamada mediante capacidades de llamadas en línea, que requiere licencias apropiadas. (Tenga en cuenta que el marcado no se enruta a través del enrutamiento directo). Para obtener más información, vea [reuniones en línea con Teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
+Con el enrutamiento directo, cuando los usuarios participan en una conferencia programada, el número de acceso telefónico es proporcionado por el servicio de conferencias de audio de Microsoft, que requiere licencias apropiadas.  Cuando se hace el marcado, el servicio Conferencia de audio de Microsoft coloca la llamada mediante capacidades de llamadas en línea, que requiere licencias apropiadas. (Nota Si un usuario no tiene una licencia de conferencia de audio de Microsoft, la llamada se enruta a través de enrutamiento directo). Para obtener más información, vea [reuniones en línea con Teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  
 Planear la implementación de enrutamiento directo es clave para una implementación exitosa. Este artículo describe los requisitos de infraestructura y licencias, y proporciona información sobre la conectividad de SBC: 
 
@@ -67,7 +67,7 @@ Para obtener información detallada sobre cómo configurar el enrutamiento direc
 ## <a name="infrastructure-requirements"></a>Requisitos de infraestructura
 En la tabla siguiente se enumeran los requisitos de infraestructura para los SBCs, los dominios y otros requisitos de conectividad de red admitidos para implementar el enrutamiento directo:  
 
-|**Requisito de infraestructura**|**Necesitas lo siguiente**|
+|Requisito de infraestructura|Necesitas lo siguiente|
 |:--- |:--- |
 |Controlador de borde de sesión (SBC)|Una SBC compatible. Para obtener más información, consulte [SBCS admitido](#supported-session-border-controllers-sbcs).|
 |Troncos de telefonía conectados a la SBC|Uno o más troncos de telefonía conectados a la SBC. En un extremo, el SBC se conecta al sistema telefónico de Microsoft a través del enrutamiento directo. La SBC también se puede conectar a entidades de telefonía de terceros, como PBX, adaptadores de telefonía analógicos, etc. Cualquier opción de conectividad de RTC conectada a SBC funcionará. (Para la configuración de los troncos de la RTC a la SBC, consulte los proveedores de SBC o los proveedores de troncal).|
@@ -136,7 +136,7 @@ El nombre de dominio de SBC debe ser de uno de los nombres registrados en domini
 
 En la tabla siguiente se muestran ejemplos de nombres DNS registrados para el inquilino, si el nombre se puede usar como FQDN para el SBC y ejemplos de nombres FQDN válidos:
 
-|**Nombre DNS**|**Puede usarse para el FQDN de SBC**|**Ejemplos de nombres FQDN**|
+|Nombre DNS|Puede usarse para el FQDN de SBC|Ejemplos de nombres FQDN|
 |:--- |:--- |:--- |
 contoso.com|Sí|**Nombres válidos:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|No|No se admite el uso de dominios *. onmicrosoft.com para los nombres de SBC
@@ -257,7 +257,7 @@ Debe usar los siguientes puertos para entornos de Microsoft 365 o de Office 365 
 - Office 365 GCC High
 - Office 365 DoD
 
-|**Transmisión**|**De**|**Hasta**|**Puerto de origen**|**Puerto de destino**|
+|Transmisión|De|Hasta|Puerto de origen|Puerto de destino|
 |:--- |:--- |:--- |:--- |:--- |
 |SIP/TLS|Proxy SIP|SBC|1024 – 65535|Definido en la SBC (para Office 365 GCC High/DoD solo se debe usar el puerto 5061)|
 SIP/TLS|SBC|Proxy SIP|Definido en la SBC|5061|
@@ -269,7 +269,7 @@ La SBC realiza una consulta DNS para resolver sip.pstnhub.microsoft.com. En func
 
 En la tabla siguiente se resumen las relaciones entre centros de recursos primarios, secundarios y terciarios:
 
-|**Si el centro de recursos principal está**|**EMEA**|**NOAM**|**ASIÁTICA**|
+|Si el centro de recursos principal está|EMEA|NOAM|ASIÁTICA|
 |:--- |:--- |:--- |:--- |
 |Centro de recursos secundario (sip2.pstnhub.microsoft.com)|DÉJEN|Reciba|DÉJEN|
 |El centro de recursos terciario (sip3.pstnhub.microsoft.com)|ASIÁTICA|ASIÁTICA|Reciba|
@@ -298,7 +298,7 @@ El tráfico multimedia fluye hacia y desde un servicio independiente en la nube 
 ### <a name="port-range-applicable-to-all-environments"></a>Intervalo de puertos (válido para todos los entornos)
 El intervalo de puertos de los procesadores multimedia se muestra en la tabla siguiente: 
 
-|**Transmisión**|**De**|**Hasta**|**Puerto de origen**|**Puerto de destino**|
+|Transmisión|De|Hasta|Puerto de origen|Puerto de destino|
 |:--- |:--- |:--- |:--- |:--- |
 |UDP/SRTP|Procesador de medios|SBC|3478-3481 y 49152:53247|Definido en la SBC|
 |UDP/SRTP|SBC|Procesador de medios|Definido en la SBC|3478-3481 y 49152:53247|
