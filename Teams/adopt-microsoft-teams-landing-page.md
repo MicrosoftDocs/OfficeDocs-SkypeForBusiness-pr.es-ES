@@ -3,8 +3,8 @@ title: Adoptar Microsoft Teams
 ms.reviewer: karuanag
 description: Obtenga más información sobre los recursos de adopción disponibles para ayudarle a planear e implementar Microsoft Teams en su organización.
 ms.topic: landing-page
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 layout: LandingPage
 ms.date: 10/31/2018
@@ -21,17 +21,17 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac9ab0b53d60ad34f229b2e39e01daab46378611
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 6c1a05467a049a8ed0d66789cbc405fcceaaec39
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665932"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756519"
 ---
 # <a name="adopt-microsoft-teams"></a>Adoptar Microsoft Teams
 
 > [!NOTE]
-> Para obtener información general sobre cómo realizar la transición a aprendizaje remoto y recursos para ayudarle a comenzar, consulte nuestra [**Página de inicio de aprendizaje remoto**](https://www.microsoft.com/education/remote-learning).
+> Para ver información general sobre cómo realizar la transición al aprendizaje remoto y recursos para ayudarle a empezar, consulte la [**página principal del aprendizaje remoto**](https://www.microsoft.com/education/remote-learning).
 
 Si es una pequeña empresa o si desea implementar Teams a partir de una conversación, Teams & canales y reuniones, use nuestra [Guía de introducción](get-started-with-teams-quick-start.md)a las directrices, que está diseñada para que pueda empezar a trabajar rápidamente. Si es una organización grande con una configuración híbrida o local de Skype empresarial, o si desea implementar características de voz (como planes de llamadas o un sistema telefónico de Microsoft 365 o de Office 365), puede comenzar con la guía de introducción, pero necesitará la orientación adicional que se describe a continuación, en **orientación de adopción más profunda**.
 
