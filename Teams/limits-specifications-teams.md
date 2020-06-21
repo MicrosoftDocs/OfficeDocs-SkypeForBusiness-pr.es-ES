@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ba5201781743567d4c94cad3b065f21e6578e9a
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 04df18735e04ee4c0fbc29d5cf8b4c2f6148b926
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690546"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753870"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -46,11 +46,11 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |Número de miembros de un canal privado    |250|
 |Tamaño de publicación de conversación de canal | Aproximadamente 28 KB por publicación<sup>4</sup> |
 
-&sup1; Cualquier objeto de directorio en Azure Active Directory cuenta para este límite. Los administradores globales están exentos de este límite, al igual que las aplicaciones que llaman a Microsoft Graph usando[permisos de aplicación](https://docs.microsoft.com/graph/permissions-reference).
+<sup>1</sup> todos los objetos de directorio de Azure Active Directory se comparan hacia este límite. Los administradores globales están exentos de este límite, al igual que las aplicaciones que llaman a Microsoft Graph usando[permisos de aplicación](https://docs.microsoft.com/graph/permissions-reference).
 
-&sup2; Este límite incluye los equipos archivados.
+<sup>2</sup> este límite incluye equipos archivados.
 
-&sup3; Los canales borrados pueden ser restaurados en un plazo de 30 días. Durante estos 30 días, se sigue contando el canal eliminado en el límite de 200 canales por equipo. Después de 30 días, un canal eliminado y su contenido se eliminan de forma permanente y se deja de contar el canal en el límite de 200 canales por equipo.
+<sup>3</sup>Los canales borrados pueden ser restaurados en un plazo de 30 días. Durante estos 30 días, se sigue contando el canal eliminado en el límite de 200 canales por equipo. Después de 30 días, un canal eliminado y su contenido se eliminan de forma permanente y se deja de contar el canal en el límite de 200 canales por equipo.
 
 <sup>4</sup> 28 KB es un límite aproximado, ya que incluye el mensaje en sí (texto, vínculos a imágenes, etc.), las @menciones, el número de conectores y las reacciones.
 
@@ -154,7 +154,10 @@ La presencia de Teams en Outlook es compatible con la aplicación de escritorio 
 
 ## <a name="storage"></a>Almacenamiento
 
-Cada equipo de Microsoft Teams tiene un sitio de grupo en SharePoint Online y cada canal de un equipo tiene una carpeta dentro de la biblioteca de documentos del sitio de grupo predeterminado. Los archivos compartidos en un chat se agregan automáticamente a la biblioteca de documentos y los permisos y opciones de seguridad configurados en SharePonit se reflejan automáticamente en Microsoft Teams.
+Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
+
+> [!NOTE]
+> Cada [canal privado](https://docs.microsoft.com/microsoftteams/private-channels) tiene su propia colección de sitios de SharePoint.
 
 Si no tiene habilitado SharePoint Online en su espacio empresarial, los usuarios de Microsoft Teams no podrán compartir archivos en los equipos. Los usuarios de chats privados tampoco podrán compartir archivos, porque se necesita OneDrive para la Empresa (que está ligado a la licencia de SharePoint) para esa funcionalidad.
 
