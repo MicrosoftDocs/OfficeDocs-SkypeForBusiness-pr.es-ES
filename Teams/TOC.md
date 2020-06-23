@@ -354,6 +354,16 @@
 ### [Administrar directivas de llamadas de emergencia](manage-emergency-calling-policies.md)
 ### [Administrar directivas de enrutamiento de llamadas de emergencia](manage-emergency-call-routing-policies.md)
 
+## Caso práctico de migración de voz de Contoso
+### [Información general](voice-case-study-overview.md)
+### [Plan de actualización de Microsoft Teams](voice-case-study-migration-plan.md)
+### [Sistema telefónico](voice-case-study-phone-system.md)
+### [Enrutamiento basado en la ubicación](voice-case-study-location-based-routing.md)
+### [Llamadas de emergencia](voice-case-study-emergency-calling.md)
+### [Audioconferencia](voice-case-study-audio-conferencing.md)
+### [Operadores automáticos y colas de llamadas](voice-case-study-call-queues.md)
+
+
 
 
 ## Referencia
@@ -687,7 +697,6 @@
 
 <!-- ============================================================ -->
 # Supervisar, mantener y solucionar problemas
-## [Soporte para Teams en la organización](Known-issues.md)
 ## [Supervisar y administrar la calidad de las llamadas](monitor-call-quality-qos.md)
 ### [Guía de revisión de la experiencia de calidad](quality-of-experience-review-guide.md)
 ### [Configurar la calidad del servicio en Teams](QoS-in-Teams.md)
@@ -703,6 +712,7 @@
 #### [Usar el informe de enrutamiento directo RTC de CQD](CQD-PSTN-report.md)
 ### [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Clasificación de la secuencia en el Panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md)
+## [Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Solución de problemas de instalación y actualización](troubleshoot-installation.md)
 ## [Solucionar problemas de conectividad con el cliente de Microsoft Teams](connectivity-issues.md)
 ## [Problemas al recibir mensajes y llamadas en sistemas heredados](legacy-login-issues.md)
