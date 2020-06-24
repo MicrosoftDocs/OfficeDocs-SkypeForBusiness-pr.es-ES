@@ -1,5 +1,5 @@
 ---
-title: Enrutamiento directo del Sistema telefónico
+title: Enrutamiento directo del sistema telefónico
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 264e7e3de8031e8ac150c186078ff3d7ccff2f16
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0756860bc6fad7a470a33e00ac8452e7977ecde0
+ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691226"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44859655"
 ---
 # <a name="direct-routing---sip-protocol"></a>Enrutamiento directo: protocolo SIP
 
@@ -44,7 +44,7 @@ El siguiente es un ejemplo del mensaje SIP invite en una llamada entrante:
 | Desde encabezado | De encabezado de: <SIP: 7168712781@sbc1. adatum. BIZ; transporte = UDP; Tag = 1c747237679 |
 | A encabezado | Para: sip:+183338006777@sbc1.adatum.biz | 
 | Encabezado de CSeq | CSeq: 1 INVITAr | 
-| Encabezado de contacto | Contacto: <SIP: 68712781@sbc1. adatum. BIZ; Transport = TLS> | 
+| Encabezado de contacto | Contacto: <SIP: 68712781@sbc1. adatum. BIZ: 5058; Transport = TLS> | 
 
 Al recibir la invitación, el proxy SIP realiza los pasos siguientes:
 
@@ -100,13 +100,13 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 
 El proxy SIP necesita calcular el FQDN del próximo salto para las nuevas transacciones de cliente en el cuadro de diálogo (por ejemplo, bye o volver a invitar), y al responder a opciones de SIP. Se usa contacto o registro-ruta. 
 
-Según RFC 3261, se requiere un encabezado de contacto en cualquier solicitud que pueda dar lugar a un nuevo cuadro de diálogo. La ruta record-Route solo es necesaria si un proxy desea permanecer en la ruta de acceso de futuras solicitudes en un cuadro de diálogo. 
+Según RFC 3261, se requiere un encabezado de contacto en cualquier solicitud que pueda dar lugar a un nuevo cuadro de diálogo. La ruta record-Route solo es necesaria si un proxy desea permanecer en la ruta de acceso de futuras solicitudes en un cuadro de diálogo. Si se usa un SBC de proxy con la [optimización de medios locales para el enrutamiento directo](https://docs.microsoft.com/MicrosoftTeams/direct-routing-media-optimization), será necesario configurar una ruta de registro porque el SBC de proxy debe permanecer en la ruta. 
 
-Microsoft recomienda usar solo el encabezado de contacto por los siguientes motivos:
+Microsoft recomienda usar solo el encabezado de contacto si no se usa un SBC de proxy:
 
-- Por RFC 3261, se usa la ruta de grabación si un proxy desea permanecer en la ruta de acceso de solicitudes futuras en un cuadro de diálogo, lo cual no es esencial, ya que todo el tráfico pasa entre el proxy SIP de Microsoft y el SBC emparejado. No es necesario un servidor proxy intermedio entre el SBC y el proxy SIP de Microsoft.
+- Según RFC 3261, se usa la ruta de grabación si un proxy desea permanecer en la ruta de acceso de las solicitudes futuras en un cuadro de diálogo, lo cual no es esencial si no hay un SBC de proxy configurado, ya que todo el tráfico pasa entre el proxy SIP de Microsoft y el SBC emparejado. 
 
-- El proxy SIP de Microsoft solo usa el encabezado de contacto (no record-Route) para determinar el próximo salto al enviar opciones de ping salientes. La configuración de un solo parámetro (contacto) en lugar de dos (contacto y grabación-ruta) simplifica la administración.
+- El proxy SIP de Microsoft solo usa el encabezado de contacto (no record-Route) para determinar el próximo salto al enviar opciones de ping salientes. La configuración de un solo parámetro (contacto) en lugar de dos (contacto y grabación-ruta) simplifica la administración si no se usa un SBC de proxy. 
 
 Para calcular el siguiente salto, el proxy SIP usa:
 

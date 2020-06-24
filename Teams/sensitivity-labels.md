@@ -17,16 +17,14 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo definir y usar etiquetas de confidencialidad en Microsoft Teams.
-ms.openlocfilehash: 7f8eb7e0fa0d34ae21829a12011f094d8e9c9126
-ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
+ms.openlocfilehash: e2482a5afeb7dff9804a5a0591cd377be9f9b177
+ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44562075"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854122"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Etiquetas de confidencialidad para Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Las [etiquetas de confidencialidad](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) permiten a los administradores de equipos regular el acceso a contenido de organización confidencial creado durante la colaboración dentro de Teams. Puede definir las etiquetas de confidencialidad y las directivas asociadas en el [centro de cumplimiento de & de seguridad](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center). Estas etiquetas y directivas se aplican automáticamente a los equipos de su organización.  
 
@@ -36,19 +34,20 @@ Las etiquetas de confidencialidad son diferentes de las etiquetas de clasificaci
 
 Por otro lado, las etiquetas de confidencialidad y sus directivas se aplican de forma automática de principio a fin a través de una combinación de la plataforma de grupos, el centro de cumplimiento de & de seguridad y los servicios de Teams. Las etiquetas de confidencialidad proporcionan una eficaz compatibilidad de infraestructura para proteger los datos confidenciales de su organización.  
 
+Para migrar los grupos existentes y usar etiquetas de clasificación para usar las etiquetas de confidencialidad, use las instrucciones de [clasificación de Azure Active Directory y etiquetas de confidencialidad para los grupos de Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/migrate-aad-classification-sensitivity-labels).
 ## <a name="create-manage-and-publish-sensitivity-labels-for-teams"></a>Crear, administrar y publicar etiquetas de confidencialidad para equipos
 
-Para obtener información sobre cómo habilitar, crear y publicar etiquetas de confidencialidad para equipos, consulte [usar etiquetas de confidencialidad con Microsoft Teams, grupos de microsoft 365 y sitios de SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+Para obtener información sobre cómo habilitar, crear y publicar etiquetas de confidencialidad para Teams, vea [clasificación de Azure Active Directory y etiquetas de confidencialidad para grupos de Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 >[!IMPORTANT]
 >Crear, actualizar y eliminar etiquetas de confidencialidad requieren una secuenciación cuidadosa con etiquetas de publicación para los usuarios. Cualquier desviación en la secuencia puede dar lugar a errores de creación de equipo persistente para todos los usuarios. Por lo tanto, es esencial que haga lo siguiente cuando <a href="#createpublishlabels">cree y publique etiquetas</a>, <a href="#modifydeletelabels">modifique y elimine etiquetas publicadas</a>y <a href="#manageerrors">administre errores de creación de equipos</a>.
 
 **Crear y publicar etiquetas** <a name="createpublishlabels"> </a>
 
-Cuando se crea una etiqueta y se publica en el centro de cumplimiento de seguridad &, la etiqueta puede tardar hasta 24 horas en verse en la interfaz de creación de equipos. Realice los siguientes pasos para publicar la etiqueta de todos los usuarios del espacio empresarial:
+Cuando se crea una etiqueta y se publica en el centro de cumplimiento de seguridad &, la etiqueta puede tardar hasta 10 minutos en verse en la interfaz de creación de equipos. Realice los siguientes pasos para publicar la etiqueta de todos los usuarios del espacio empresarial:
 1. Cree la etiqueta y publíquela para algunas cuentas de usuario seleccionadas en el inquilino.
-2. Cuando se publique la etiqueta, espere 24 horas.
-3. Después de 24 horas, intente crear un equipo con la etiqueta usando una de las cuentas de usuario que tengan acceso a la etiqueta.
+2. Cuando se publique la etiqueta, espere 10 minutos.
+3. Después de 10 minutos, intente crear un equipo con la etiqueta usando una de las cuentas de usuario que tengan acceso a la etiqueta.
 4. Si el equipo se creó correctamente en el paso 3, continúe y publique la etiqueta para el resto de usuarios del espacio empresarial.
 
 **Modificar y eliminar las etiquetas** <a name="modifydeletelabels"> </a> publicadas
@@ -56,8 +55,8 @@ Cuando se crea una etiqueta y se publica en el centro de cumplimiento de segurid
 Eliminar o modificar la etiqueta mientras está asociada a directivas de confidencialidad puede dar lugar a errores en la creación del equipo en el inquilino. Por lo tanto, antes de eliminar o modificar una etiqueta, primero debe desvincular la etiqueta de sus directivas asociadas. Siga estos pasos  
 para eliminar o modificar una etiqueta:
 1. Quite la etiqueta de todas las directivas que usan la etiqueta. También puede eliminar las directivas en sí.
-2. Cuando se elimine la etiqueta de las directivas o se eliminen las directivas, espere 48 horas antes de continuar.
-3. Después de 48 horas, inicie la interfaz de creación de equipos y asegúrese de que la etiqueta ya no está visible para los usuarios del espacio empresarial.
+2. Cuando se elimine la etiqueta de las directivas o se eliminen las directivas, espere 10 minutos antes de continuar.
+3. Después de 10 minutos, inicie la interfaz de creación de equipos y asegúrese de que la etiqueta ya no está visible para los usuarios del espacio empresarial.
 4. Ahora puede eliminar o modificar la etiqueta de forma segura.
 
 **Administrar errores** <a name="manageerrors"> </a> de creación de equipos

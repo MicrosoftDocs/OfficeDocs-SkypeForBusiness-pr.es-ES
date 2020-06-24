@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 682d2d9fb89c0cee46ca6fb0e856a6000e4c6386
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 2f867ec9d5731aba8f0b99cf9d4b82d35f958844
+ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161731"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44841991"
 ---
 # <a name="what-are-communications-credits"></a>¿Qué son los Créditos de comunicaciones?
 
@@ -59,20 +59,20 @@ Si se está preguntando cuál es el costo de las llamadas para los planes de lla
 Para usar números gratuitos en Skype empresarial, se necesitan créditos de comunicaciones, ya que estas llamadas se cobran por minuto. Además, le recomendamos que configure créditos de comunicaciones para el plan de llamadas y los usuarios de las conferencias de audio que necesiten poder llamar a **cualquier destino de RTC**. Se incluyen muchos países o regiones, pero es posible que algunos destinos no se incluyan en su plan de llamadas o suscripciones de audioconferencia. Si no configura créditos de comunicaciones o asigna una licencia a los usuarios y ejecuta minutos para su organización (dependiendo de su plan de llamadas, de audio o de su país o región), esos usuarios no podrán hacer llamadas ni llamar desde reuniones de conferencias de audio en línea.
   
 > [!NOTE]
-> Debe configurar créditos de comunicaciones y, a continuación, asignar una licencia de créditos de comunicaciones para cada usuario del **Centro** > **** > de administración de Microsoft 365 usuarios**activos**. 
+> Debe configurar créditos de comunicaciones y, a continuación, asignar una licencia de créditos de comunicaciones para cada usuario del **centro de administración de Microsoft 365**  >  **usuarios**  >  **activos**. 
   
 Se recomienda que evalúe detenidamente el uso del servicio de RTC de su organización con el fin de comprender la mejor configuración para los créditos de comunicaciones. Puede ver más información sobre los servicios de RTC leyendo [planes de llamadas y sistemas telefónicos](calling-plan-landing-page.md) y [preguntas frecuentes](Audio-Conferencing-common-questions.md)sobre las conferencias de audio.
   
 Puede configurar la facturación del consumo mediante una **financiación única** del saldo de prepago **o** mediante la configuración de un monto de **recarga automática** ( **recomendado** ) con un saldo mínimo que desencadenará una compra para ese monto de recarga. Al principio, se recomienda establecer importes de recarga automática que le permitan controlar el uso real para establecer los límites de recarga automática que se ajusten a sus necesidades y patrones de uso. Los créditos de comunicaciones deberían controlarse a lo largo del tiempo y ajustar el saldo mínimo y los cargos de recarga según sea necesario para adaptarse a las necesidades de cada organización.
   
 > [!NOTE]
-> Puede ver los planes y los precios [iniciando sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a**suscripciones** > de **facturación** > para**Agregar suscripciones**. 
+> Puede ver los planes y los precios [iniciando sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a suscripciones de **facturación**para  >  **Subscriptions**  >  **Agregar suscripciones**. 
   
-En el **Centro** > de administración de Microsoft 365**Complementos** de**facturación** > de**servicios** > de compra, puede seleccionar créditos de comunicación para agregar los créditos, y puede Agregar crédito manualmente en cualquier momento. Además, puede habilitar la opción de **recarga automática** para rellenar la cuenta de forma automática cuando el saldo sea inferior al límite fijado. Si opta por financiar el saldo de su crédito de comunicaciones con un monto de una sola vez y, a continuación, el saldo es cero, los escenarios de llamadas adicionales anteriores ya no funcionarán, incluidos los números de teléfono gratuitos. Por lo tanto, te recomendamos que uses la configuración de la **recarga automática** para evitar que se interrumpa el servicio porque el saldo del crédito de las comunicaciones alcanza el valor 0 (cero). Se le enviará un mensaje de correo electrónico cuando se realicen transacciones de recarga, se producirá un error de recarga (como una tarjeta de crédito vencida) y o el saldo de sus créditos de comunicaciones alcance 0 (cero).
+En el **centro de administración de Microsoft 365**  >  Complementos de**facturación**de  >  **servicios de compra**  >  **Add Ons** , puede seleccionar créditos de comunicación para agregar los créditos, y puede Agregar crédito manualmente en cualquier momento. Además, puede habilitar la opción de **recarga automática** para rellenar la cuenta de forma automática cuando el saldo sea inferior al límite fijado. Si opta por financiar el saldo de su crédito de comunicaciones con un monto de una sola vez y, a continuación, el saldo es cero, los escenarios de llamadas adicionales anteriores ya no funcionarán, incluidos los números de teléfono gratuitos. Por lo tanto, te recomendamos que uses la configuración de la **recarga automática** para evitar que se interrumpa el servicio porque el saldo del crédito de las comunicaciones alcanza el valor 0 (cero). Se le enviará un mensaje de correo electrónico cuando se realicen transacciones de recarga, se producirá un error de recarga (como una tarjeta de crédito vencida) y o el saldo de sus créditos de comunicaciones alcance 0 (cero).
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 
-Cada organización tendrá un uso diferente de los planes de llamadas: el volumen y las tarifas a tener en cuenta. You will need to get this type of usage data from your current service provider. Para las organizaciones que usan Skype empresarial como proveedor de servicios, puede obtener los datos de uso si los**** > revisan en los**informes** del **Centro** > de administración de Microsoft 365 o en el **Centro** > de administración de Skype empresarial para obtener**información sobre el uso de RTC**.
+Cada organización tendrá un uso diferente de los planes de llamadas: el volumen y las tarifas a tener en cuenta. You will need to get this type of usage data from your current service provider. Para las organizaciones que usan Skype empresarial como proveedor de servicios, puede obtener los datos de uso si los revisan en los informes del **centro de administración de Microsoft 365**  >  **Reports** o en el **centro de administración de Skype empresarial para**obtener  >  **Reports**  >  **información sobre el uso de RTC**.
   
 Al configurar créditos de comunicaciones, tendrá que investigar el uso de las llamadas de su organización para determinar los montos que necesitará incluir. Puede obtener la información del uso de llamadas en el informe **Detalles de uso de RTC**. Este informe le permite exportar los registros de datos de llamadas a Excel y crear informes personalizados.
 
@@ -95,7 +95,7 @@ Para ver los planes y los precios, visite uno de los siguientes vínculos:
     
 - [Sistema telefónico](https://go.microsoft.com/fwlink/?linkid=799763 )
     
-También puede ver información sobre [los precios iniciando sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a**suscripciones** > de **facturación** > para**Agregar suscripciones**.
+También puede ver información sobre [los precios iniciando sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a servicios de compra de **facturación**  >  **Purchase Services**.
   
 Para ver una tabla con las licencias que necesitará para cada característica, consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

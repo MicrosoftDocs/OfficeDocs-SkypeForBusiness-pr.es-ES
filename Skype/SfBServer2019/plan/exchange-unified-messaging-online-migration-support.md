@@ -1,5 +1,5 @@
 ---
-title: Soporte de migración en línea de mensajería unificada de Exchange
+title: Soporte de migración en línea de la mensajería unificada de Exchange
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft retira el servicio en línea de mensajería unificada (ExchUMO) de Exchange antes del 28 de febrero de 2020. En este artículo se resumen lo que los clientes afectados deben conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: cf8b62d4a36059a90631e139910dab3f9f40aa38
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 3d6c30c1f6323030280fba29c6d53b89ed33c2c9
+ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232565"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44842031"
 ---
-# <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de mensajería unificada de Exchange
+# <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
 > [!IMPORTANT]
 > **El servicio de mensajería unificada de Exchange Online está fuera de soporte a partir del 28 de febrero de 2020 a la hora del Pacífico. Todas las cuentas de correo de voz se han migrado al servicio de correo de voz en la nube de Microsoft. El tráfico del operador automático restante no se supervisará y podría verse afectado en cualquier momento.**
 
 En referencia al [anuncio](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) el 8 de febrero de 2019, Microsoft retira el servicio en línea de mensajería unificada de Exchange (ExchUMO) antes del 28 de febrero de 2020. En este artículo se ofrece un resumen de lo que los clientes afectados deben conocer y hacer para planear su continuidad empresarial.
- 
+
 ExchUMO es implementado por los clientes para los servicios de correo de voz, operador automático, cola de llamadas y servicios de integración de fax. Microsoft planea ayudar a los clientes a migrar a servicios de sistema telefónico que ya admiten miles de clientes en Skype empresarial online y Microsoft Teams.
 
 El correo de voz es principalmente una migración controlada por Microsoft; es posible que se requiera la implicación y/o la inversión del administrador para un subconjunto de clientes. Operador automático es una migración controlada por el administrador; tendrá que volver a crear los árboles de operadores automáticos existentes de ExchUMO en el servicio en la nube del operador automático de la nube. Los clientes que consumen cualquiera de las características de ExchUMO con una PBX de terceros no se migrarán a servicios en la nube de Skype porque no admiten sistemas PBX de terceros. En [este blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)se anunció un plan de jubilación para la compatibilidad de terceros y los clientes de este modelo de implementación pueden migrar a sus usuarios a uno de los servicios/plataformas de comunicaciones unificadas de Microsoft o adquirir una solución de correo de voz de terceros o operador automático para estos usuarios. La integración de faxes no es compatible con los servicios basados en la nube; los clientes deberán migrar a una solución de terceros.
 
-### <a name="who-is-affected"></a>¿A quién afecta?
+## <a name="who-is-affected"></a>¿A quién afecta?
 
-Los clientes que consumen cualquiera de las siguientes características del servicio en línea de mensajería unificada de Exchange se ven afectados:
+Los clientes que usen cualquiera de las siguientes características del servicio en línea de mensajería unificada de Exchange se ven afectados:
 
 - Servicio de correo de voz
 - Servicio de operador automático
@@ -39,13 +39,13 @@ Los clientes que consumen cualquiera de las siguientes características del serv
 - Integración de fax
 
 > [!Note]
-> Los clientes que usen el servidor de Exchange local con mensajería unificada no se verán afectados. 
+> Los clientes que usen el servidor de Exchange local con mensajería unificada no se verán afectados.
 
 Obtenga más información sobre la experiencia de usuario y administrador impacto en el impacto de la [experiencia del usuario](#user-experience-impact).
 
 ## <a name="migration-plan-overview"></a>Información general del plan de migración
 
-Microsoft ha identificado varias implementaciones de clientes que consumen características de ExchUMO y que ayudarán a migrar a los clientes en función del siguiente plan. 
+Microsoft ha identificado varias implementaciones de clientes que consumen características de ExchUMO y que ayudarán a migrar a los clientes en función del siguiente plan.
 
 |Grupo de clientes |Escala de tiempo  |Detalles  |
 |---------|---------|---------|
@@ -53,60 +53,62 @@ Microsoft ha identificado varias implementaciones de clientes que consumen carac
 |Clientes con requisitos previos<br><br>Características que se van a migrar:<br><ul><li>Correo de voz<li>Operador automático<li>Cola de llamadas</ul> |  Mayo, 2019 de diciembre |Ejemplos: <br><ul><li>La configuración híbrida no está completa<li>Los números híbridos de RTC no se configuran</ul>|
 |Clientes que requieren la implicación del administrador & la inversión del cliente<br><br>Características que se van a migrar:<ul><li>correo de voz<li>Operador automático<li>Colas de llamadas<li>Integración de fax</ul>| En febrero de 2020  | Ejemplos: <br><ul><li>El servicio ExchUMO está consumido por PBX de terceros<li>Clientes con requisitos de acceso de suscriptor RTC<li>Clientes de SFB 2010 (no admitido)<li>Integración de fax</ul> |
 
-## <a name="voicemail-migration-steps"></a>Pasos para la migración del correo de voz
+## <a name="voicemail-migration-guidelines"></a>Instrucciones para la migración del correo de voz
 
-1.  **Obtener información**
+### <a name="get-informed"></a>Obtener información
+
+Familiarícese con el [anuncio del blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) y este artículo para planear una migración sin problemas para los usuarios. Consulte [comprobar el correo de voz y las opciones de Skype empresarial](https://support.office.com/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) para obtener más información sobre las funciones del correo de voz del sistema telefónico.  
+
+### <a name="establish-a-skype-for-business-hybrid-topology"></a>Establecer una topología híbrida de Skype empresarial
+
+Si no tiene establecida una topología híbrida de Skype empresarial, debe hacerlo para habilitar una migración sin problemas de los usuarios de correo de voz. Consulte [configurar Skype empresarial híbrido](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) para obtener más información.
+
+> [!Note]
+> No es necesario migrar los usuarios en línea para la migración del servicio de correo de voz. Sin embargo, para que los usuarios locales puedan aprovechar el servicio de correo de voz de sistema telefónico, se debe establecer una topología híbrida.
+
+### <a name="plan-your-auto-attendant-migration"></a>Planeación de la migración del operador automático
+
+Los administradores pueden empezar a migrar sus operadores automáticos de ExchUMO al operador automático de la nube en cualquier momento. Consulte [configurar un operador automático de la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) para obtener más información.
+
+Microsoft sigue ofreciendo otras funciones de operador automático que los clientes podrían considerar necesarias para la migración. Los administradores deben evaluar el conjunto de características y migrar sus instancias del operador automático en consecuencia. Para obtener una comparación de las listas de características, consulte la matriz de características de los [servicios basados en la nube de ExchUMO y Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
+
+### <a name="plan-for-your-voicemail-post-migration-validation-and-testing"></a>Planeación de las pruebas y la validación posterior a la migración del correo de voz
+
+La migración del correo de voz está controlada por Microsoft. No es necesario que los administradores hagan nada, dado que se ha establecido la topología híbrida de requisitos previos. Microsoft realiza la validación y las pruebas necesarias para asegurarse de que no se interrumpa la migración del correo de voz de los usuarios. Se recomienda a los administradores que realicen pruebas y validaciones en su lado. Vea el [plan de pruebas sugerido y la validación posterior a la migración para administradores](#suggested-test-plan-and-post-migration-validation-for-admins) de un plan de pruebas recomendado.
+
+> [!Note]
+> Lync Server 2010 no es compatible. Si está en una implementación de servidor 2010, debe planear una actualización de servidor o considerar la posibilidad de migrar los usuarios a Microsoft Teams o Skype empresarial online.  
+
+### <a name="monitor-the-admin-notification-center"></a>Supervisar el centro de notificaciones de administrador
+
+Vea un aviso en el centro de notificaciones del administrador con más detalles y una escala de tiempo sobre la migración de los usuarios. Las notificaciones se envían al menos 30 días antes del período de migración.
+
+> [!Note]
+> Si recibió una notificación con la escala de tiempo de la migración de los usuarios y desea posponer su migración por un motivo crítico para la empresa, puede ponerse en contacto con el soporte técnico de Microsoft. No se puede posponer la migración más allá de la fecha de jubilación del 28 de febrero de 2020. Para los clientes que puedan tener más preguntas, póngase en contacto con su equipo de cuenta o soporte técnico de Microsoft. Los clientes que ya usan Microsoft 365 o Office 365 pueden enviar un caso de soporte a través del centro de administración de Microsoft 365.
+
+### <a name="consider-opting-in-for-a-planned-migration"></a>Considere la posibilidad de optar por una migración planeada
+
+Puede participar para una migración del servicio de correo de voz planeada a CVM. Antes de optar a, revise los detalles de este artículo, especialmente las secciones siguientes:
+
+- Pasos de la migración (esta sección)
+- Matriz de características de servicios basados en la nube de ExchUMO y Azure
+- Impacto de la experiencia del usuario
+
+Al elegir una migración administrada, no recibirá una notificación de 30 días previa a la migración en el centro de mensajes del portal de administración de Microsoft 365.
+
+Para participar en una migración planificada, envíe una solicitud de correo electrónico desde la dirección de correo electrónico del administrador a [CVM@microsoft.com](mailto:cvm@microsoft.com) con la siguiente información:
+
+- Fecha preferida (martes): las ondas de migración se ejecutan cada martes. Seleccione una fecha en un martes no superior a 12/3/2019.
  
-    Familiarícese con el [anuncio del blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) y este artículo para planear una migración sin problemas para los usuarios. Consulte [comprobar el correo de voz y las opciones de Skype empresarial](https://support.office.com/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) para obtener más información sobre las funciones del correo de voz del sistema telefónico.  
- 
-2.  **Establecer una topología híbrida de Skype empresarial**
+- IDENTIFICADOR de espacio empresarial: número de 32 caracteres en este formato 0046728c-688a-4472-a38f-098fec60ac6x. Puede encontrar el identificador de inquilino en el portal de administración de Microsoft 365 en Azure AD o mediante el siguiente cmdlet de PowerShell:`Get-CsTenant | Select ObjectId`
 
-    Si no tiene establecida una topología híbrida de Skype empresarial, debe hacerlo para habilitar una migración sin problemas de los usuarios de correo de voz. Consulte [configurar Skype empresarial híbrido](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) para obtener más información. 
-
-    > [!Note]
-    > No es necesario migrar los usuarios a en línea para la migración del servicio de correo de voz. Sin embargo, para que los usuarios locales puedan aprovechar el servicio de correo de voz de sistema telefónico, se debe establecer una topología híbrida.
-
-3. **Planeación de la migración del operador automático**
-    
-    Los administradores pueden empezar a migrar sus operadores automáticos de ExchUMO al operador automático de la nube en cualquier momento. Consulte [configurar un operador automático de la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) para obtener más información. Microsoft sigue ofreciendo funciones adicionales de operador automático que los clientes pueden considerar necesarios para su migración, los administradores deben evaluar el conjunto de características y migrar sus instancias del operador automático en consecuencia. Para comparar la lista de características, consulte la matriz de características de los [servicios basados en la nube de ExchUMO y Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
-
-4. **Planeación de las pruebas y la validación posterior a la migración del correo de voz**
-
-    La migración del correo de voz está controlada por Microsoft. No es necesario que los administradores hagan nada, dado que se ha establecido la topología híbrida de requisitos previos. Microsoft realiza la validación y las pruebas necesarias para asegurarse de que no se interrumpa la migración del correo de voz de los usuarios. Se recomienda a los administradores que realicen pruebas y validaciones en su lado. Vea el [plan de pruebas sugerido y la validación posterior a la migración para administradores](#suggested-test-plan-and-post-migration-validation-for-admins) de un plan de pruebas recomendado. 
-
-    > [!Note]
-    > Lync Server 2010 no es compatible. Si está en una implementación de servidor 2010, debe planear una actualización de servidor o considerar la posibilidad de migrar los usuarios a Microsoft Teams o Skype empresarial online.  
-
-5. **Supervisar el centro de notificaciones de administrador**
-
-    Consulte un aviso en el centro de notificaciones del administrador con más detalles y escala temporal sobre la migración de los usuarios. Las notificaciones se envían al menos 30 días antes del período de migración. 
-
-    > [!Note]
-    > Si recibió una notificación con la escala de tiempo de la migración de los usuarios y desea posponer su migración por un motivo crítico para la empresa, puede ponerse en contacto con el soporte técnico de Microsoft. Tenga en cuenta que no puede posponer la migración más allá de la fecha de retiro, 28 de febrero de 2020. Para los clientes que puedan tener más preguntas, póngase en contacto con su equipo de cuenta o soporte técnico de Microsoft. Los clientes que ya usan Microsoft 365 o Office 365 pueden enviar un caso de soporte a través del centro de administración de Microsoft 365. 
-
-6. **Considere la posibilidad de optar por una migración planeada**
-
-    Puede participar para una migración del servicio de correo de voz planeada a CVM. Antes de optar a, revise los detalles de este artículo, especialmente las secciones siguientes:
-
-    - Pasos de la migración (esta sección)
-    - Matriz de características de servicios basados en la nube de ExchUMO y Azure
-    - Impacto de la experiencia del usuario
-
-    Al elegir una migración administrada, no recibirá una notificación de 30 días previa a la migración en el centro de mensajes del portal de administración de Microsoft 365.
- 
-    Para participar en una migración planificada, envíe una solicitud de correo electrónico desde la dirección de correo electrónico del administrador a [CVM@microsoft.com](mailto:cvm@microsoft.com) con la siguiente información:
-
-    - Fecha preferida (martes): las ondas de migración se ejecutan cada martes. Seleccione una fecha en un martes no superior a 12/3/2019.
- 
-    - IDENTIFICADOR de espacio empresarial: número de 32 caracteres en este formato 0046728c-688a-4472-a38f-098fec60ac6x. Puede encontrar el identificador de inquilino en el portal de administración de Microsoft 365 en Azure AD o mediante el siguiente cmdlet de PowerShell:`Get-CsTenant | Select ObjectId`
- 
-    Recibirá una confirmación por correo electrónico una vez que el inquilino se haya migrado correctamente.
+Recibirá una confirmación por correo electrónico una vez que el inquilino se haya migrado correctamente.
 
 ## <a name="auto-attendant-migration-guidelines"></a>Instrucciones de migración del operador automático
 
-Los administradores de la organización Microsoft 365 y Office 365 deben volver a crear los operadores automáticos de mensajería unificada de Exchange en el servicio de operador automático de la nube de Microsoft y cambiar sus números de teléfono locales antes del 28 de febrero de 2020, que es cuando se retirará el servicio Exchange UMO. Esta es la pauta recomendada para migrar y probar correctamente nuevos operadores automáticos de la nube. Si tiene un gran número de operadores automáticos, puede usar el [operador automático de mensajería unificada de Exchange para los scripts de migración de operadores](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) automáticos de la nube para simplificar la migración masiva de los operadores automáticos.
+Los administradores de la organización Microsoft 365 y Office 365 deben volver a crear los operadores automáticos de mensajería unificada de Exchange en el servicio de operador automático de la nube de Microsoft y cambiar sus números de teléfono locales antes de la fecha de jubilación del servicio UMO de Exchange del 28 de febrero de 2020. Esta es la pauta recomendada para migrar y probar correctamente nuevos operadores automáticos de la nube. Si tiene un gran número de operadores automáticos, puede usar el [operador automático de mensajería unificada de Exchange para los scripts de migración de operadores](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) automáticos de la nube para simplificar la migración masiva de los operadores automáticos.
 
-### <a name="setup"></a>Instalación
+### <a name="auto-attendant-setup"></a>Configuración del operador automático
 
 Le recomendamos encarecidamente que inicie la configuración de los nuevos operadores automáticos para evitar problemas de los últimos minutos y para familiarizarse con la funcionalidad y la experiencia del servicio de operador automático de la nube. En el caso de los operadores automáticos que requieran una o varias características de brecha, puede crear y probar los operadores automáticos cuando las características de brecha estén disponibles para prepararse para la implementación. Para obtener más información acerca de las características de brechas, vea el [Apéndice](#appendix).
 
@@ -115,13 +117,13 @@ Le recomendamos encarecidamente que inicie la configuración de los nuevos opera
 3. Siga las instrucciones del [plan de operadores](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) automáticos en la nube y [Configure un operador automático de la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) para crear operadores automáticos mediante el centro de administración de Microsoft Teams o PowerShell.
 4. Revise sus saludos si las opciones de menú han cambiado.
 5. Configure las transferencias a los grupos de respuesta mediante la solución "transferencia automática de llamadas de operador automático a RTC" en la sección [problemas conocidos](#known-issues) de este artículo.  
-6. Pruebe los nuevos operadores automáticos. Para realizar las pruebas, llámelos internamente o asigne un número de teléfono de prueba.  
+6. Pruebe los nuevos operadores automáticos mediante su llamada interna o la asignación de un número de teléfono de prueba.  
 
 ### <a name="cutover"></a>Total
 
 1. Cambiar los números de teléfono de los operadores automáticos de Exchange UMO a los nuevos operadores automáticos.
 2. Mueva el URI de SIP del objeto Contact a la cuenta de recurso.
-3. Pruebe y valide los operadores automáticos mediante los números de teléfono asignados recientemente. 
+3. Pruebe y valide los operadores automáticos mediante los números de teléfono asignados recientemente.
 
 ## <a name="appendix"></a>Apéndice
 
@@ -199,14 +201,14 @@ Le recomendamos encarecidamente que inicie la configuración de los nuevos opera
 
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>Plan de pruebas sugerido y validación posterior a la migración para administradores
 
-Para validar que los usuarios se han migrado al correo de voz de la nube, deje un correo de voz a un usuario y compruebe el cuerpo del mensaje en Outlook.  Los mensajes de correo de voz en la nube tienen un pie de página que dice:
+Para validar que los usuarios se han migrado al correo de voz de la nube, deje un correo de voz a un usuario y compruebe el cuerpo del mensaje en Outlook. Los mensajes de correo de voz en la nube tienen un pie de página que dice:
 
-**Gracias por usar transcripción. Si no ve una transcripción antes, es porque la calidad del audio no es lo suficientemente clara como para transcribirla.**
+"Gracias por usar transcripción. Si no ve una transcripción antes, es porque la calidad del audio no es lo suficientemente clara como para transcribirla. "
 
 Al probar la funcionalidad de correo de voz después de migrar los usuarios, asegúrese de tener en cuenta los siguientes escenarios:
 
-- Validar el acceso de correo de voz en todos los tipos de extremos de la organización: aplicaciones y teléfonos IP. 
-- Validar con usuarios de muestra que se reproducen los saludos personalizados configurados para las personas que llaman.   
+- Validar el acceso de correo de voz en todos los tipos de extremos de la organización, como aplicaciones y teléfonos IP.
+- Validar con usuarios de muestra que se reproducen los saludos personalizados configurados para las personas que llaman.
 - Si su organización tiene un requisito legal o de cumplimiento normativo para deshabilitar la transcripción para los usuarios, asegúrese de que esté deshabilitada después de la migración. Para obtener más información, consulte [configurar el correo de voz de la nube](/microsoftteams/set-up-phone-system-voicemail).
 - Si ha configurado previamente directivas y reglas de VM de Exchange, asegúrese de que son efectivas.
 - Familiarícese con los cmdlets de PowerShell del servicio de correo de voz en la nube para cambiar la configuración del usuario.  
@@ -222,37 +224,48 @@ A continuación, se encuentra una introducción a la experiencia de migración d
 |Acceso a mensajes anteriores | Sin cambios<br>Los usuarios tienen acceso a los mensajes de correo de voz anteriores en todos los extremos admitidos. |
 |Recibir una máquina virtual en Outlook, SFB apps| Sin cambios<br>Los usuarios continúan recibiendo los mensajes de correo de voz en todos los extremos admitidos. |
 |Cripción | Mejor<br>La transcripción de CVM tiene una tasa de precisión muy superior e idiomas admitidos que ExchUMO. |
-|Configuración de usuario | Nueva experiencia<br>Los usuarios pueden cambiar sus preferencias de un portal de configuración de usuario (USP). Los usuarios pueden acceder a su USP desde un hipervínculo en su correo de voz o el botón de configuración del usuario en su cliente de SFB; https://aka.ms/vmsettings.   
+|Configuración de usuario | Nueva experiencia<br>Los usuarios pueden cambiar sus preferencias de un portal de configuración de usuario (USP). Los usuarios pueden acceder a su USP desde un hipervínculo en su correo de voz o el botón de configuración del usuario en su cliente de SFB; https://aka.ms/vmsettings.
  |Características| Vea la comparación de los conjuntos de características para obtener más información. |
 |Reglas de Outlook para mensajes de VM | Sin cambios<br>Las reglas creadas anteriormente se aplicarán a los mensajes de CVM después de la migración.
  |
 
-#### <a name="user-management-and-provisioning-in-cvm"></a>Administración y aprovisionamiento de usuarios en CVM
+### <a name="user-management-and-provisioning-in-cvm"></a>Administración y aprovisionamiento de usuarios en CVM
 
 Los nuevos usuarios de Skype empresarial se aprovisionarán automáticamente para el correo de voz de nube cuando se cree. No se requiere ninguna licencia o trabajo administrativo adicional para aprovisionar nuevos usuarios de correo de voz. Consulte [configurar el correo de voz en la nube](/microsoftteams/set-up-phone-system-voicemail) para obtener más información sobre la administración de directivas para los usuarios nuevos y existentes.
 
-#### <a name="admin-auto-attendant-management-experience"></a>Experiencia de administración del operador automático de administración
+### <a name="admin-auto-attendant-management-experience"></a>Experiencia de administración del operador automático de administración
 
 Para obtener más información sobre los operadores automáticos, consulte [configurar un operador automático de la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).
 
-#### <a name="known-issues"></a>Problemas conocidos
+### <a name="known-issues"></a>Problemas conocidos
 
-**Deshabilitar el acceso de suscriptores tras la migración para evitar la incoherencia del saludo** El acceso de suscriptor puede seguir funcionando en su inquilino hasta que el servicio se retire completamente, incluso después de que todos los usuarios se hayan migrado al correo de voz de la nube. Para evitar confusiones a los usuarios y experiencias incoherentes, deshabilite el acceso de los suscriptores, ya que los saludos cambiados después de la migración desde no se aplicarán. Para ello, quite el contacto EXUM de cada línea de acceso de suscriptor mediante Get-CsExUmContact |? {$_. IsSubscriberAccess-EQ $true} | Remove-CsExUmContact 
+#### <a name="greeting-inconsistencies"></a>Incoherencias de saludo
 
-**Transferencia de llamadas de operador automático a RTC** Se recomienda a los clientes configurar una solución temporal para cumplir los requisitos de transferencia de una llamada de operador automático a un número de RTC externo o a una instancia de RGS. 
- 
-Se identificó un problema durante el control de calidad con la característica transferencia fuera del número RTC, que no se va a reparar en el tiempo para que los clientes inicien la migración del servicio Exchange UMO antes de la fecha de retiro programada del 28 de febrero de 2020. Como solución alternativa, los administradores pueden transferir a los autores de llamadas de operador automáticos a un usuario virtual local con una configuración de reenvío de llamada activa al número de teléfono de RTC o número de teléfono RGS deseado. 
- 
-Experiencia esperada
-- Los administradores no necesitan obtener una licencia para el usuario virtual, ya que se trata de una solución alternativa. 
-- Los administradores pueden manipular el identificador de llamada que verá el receptor de RTC asignando el número deseado al usuario virtual o usando las funciones de manipulación de dígitos de SBC.
-- Los autores de llamadas RTC no experimentarán ningún retraso durante la transferencia de llamadas y seguirán viendo el identificador de llamada del operador automático una vez que la transferencia se haya realizado correctamente.  
+El acceso de suscriptor puede seguir funcionando para el inquilino hasta que el servicio se retire completamente, incluso después de que todos los usuarios se hayan migrado al correo de voz de la nube. Para evitar la confusión del usuario y una experiencia incoherente, deshabilite el acceso de suscriptor desde que los saludos cambian después de la migración. Para ello, quite el contacto EXUM de cada línea de acceso de suscriptor mediante el `Get-CsExUmContact | ?{$_.IsSubscriberAccess -eq $true} | Remove-CsExUmContact` .
 
-**Buzón compartido:** Un buzón compartido que se configura con la mensajería unificada en línea de Exchange seguirá recibiendo mensajes después de migrarlos a CVM y seguirá siendo accesible para los usuarios a través de Outlook. Sin embargo, el acceso para cambiar los mensajes de saludo de estos buzones no estará disponible una vez que se migre a CVM. Los clientes con buzones compartidos que se usan para capturar a los autores de llamadas de operador automático deben aprovechar las capacidades de buzón de correo compartido de las colas de llamadas y los operadores automáticos una vez lanzado (ETA octubre de 2019).
+#### <a name="auto-attendant-call-transfer-to-pstn"></a>Transferencia de llamadas de operador automático a RTC
+
+Se recomienda a los clientes configurar una solución temporal para cumplir los requisitos de transferencia de una llamada de operador automático a un número de RTC externo o a una instancia de RGS.
+
+Se identificó un problema durante el control de calidad con la característica "transferencia hacia el número RTC", que no se solucionará en el tiempo para que los clientes inicien la migración fuera del servicio UMO de Exchange antes de la fecha de retiro programada del 28 de febrero de 2020. Como solución alternativa, los administradores pueden transferir a los autores de llamadas de operador automáticos a un usuario virtual local con una configuración de reenvío de llamada activa al número de teléfono de RTC o número de teléfono RGS deseado. La experiencia esperada es:
+
+- Los administradores no tendrán que conceder una licencia al usuario virtual, ya que se trata de una solución alternativa.
+- Los administradores pueden manipular el identificador de llamada que ve el receptor de RTC asignando el número deseado al usuario virtual o usando las funciones de manipulación de dígitos de SBC.
+- Los autores de llamadas RTC no experimentarán ningún retraso durante la transferencia de llamadas y seguirán viendo el identificador de llamada del operador automático una vez que la transferencia se haya realizado correctamente.
+
+#### <a name="shared-mailbox-is-still-accessible"></a>El buzón compartido todavía es accesible
+
+Un buzón compartido configurado con Exchange UM online sigue recibiendo mensajes después de la migración a CVM y ser accesible para los usuarios a través de Outlook. Sin embargo, el acceso para cambiar los mensajes de saludo de estos buzones no estará disponible una vez que se migre a CVM. Los clientes con buzones compartidos que se usan para capturar a los autores de llamadas de operador automático deben aprovechar las capacidades de buzón de correo compartido de las colas de llamadas y los operadores automáticos una vez lanzado (ETA octubre de 2019).
   
-**Actualización a Banner de Teams en el cliente de SFB:** El servicio CVM se basa en la infraestructura de Microsoft Teams; las llamadas a él desde el cliente de Skype empresarial pueden hacer que se muestre un banner de información en el cliente que diga: "el nombre de usuario no usa Skype empresarial. Para obtener una experiencia más completa, cambie a teams o inicie una reunión de Skype. "
+#### <a name="username-is-not-using-skype-for-business-banner-displays"></a>Pantallas de Banner "el nombre de usuario no usa Skype empresarial"
+
+El servicio CVM se basa en la infraestructura de Microsoft Teams y las llamadas realizadas desde un cliente de Skype empresarial pueden provocar que se muestre un banner de información en el cliente que diga: "el nombre de usuario no usa Skype empresarial. Para obtener una experiencia más completa, cambie a teams o inicie una reunión de Skype. "
 Asegúrese de actualizar el cliente de Skype empresarial de sus usuarios a la actualización de cliente de C2R más reciente para evitar que aparezca este banner.
   
-**Configurar el correo de voz le llevará a OWA:** Si se hace clic en "configurar correo de voz" desde el cliente, los clientes de Skype empresarial Server 2015/2013 podrán seguir recibiendo la página del portal de Office Web Access (OWA) después de la migración a CVM. Se ha quitado toda la configuración de la ficha correo de voz de OWA y se mostrará un titular con un vínculo de redirección para llevar a los usuarios al portal de configuración de usuario de CVM.
- 
-**Cambiar el acceso móvil a saludo:** El acceso de suscriptor de RTC no se admite en CVM. Para los usuarios que necesiten cambiar su saludo de forma remota, se agrega una opción de menú "cambiar el saludo" al servicio de correo de voz para clientes móviles. Para llamar a este servicio, los usuarios pueden presionar y mantener presionada la tecla "1" en el control de marcado del cliente móvil.
+#### <a name="set-up-voice-mail-takes-you-to-owa"></a>"Configurar el correo de voz" le lleva a OWA
+
+Si hace clic en **configurar el correo de voz** desde el cliente, seguirá tomando los clientes de Skype empresarial Server 2015/2013 a la página del portal de Office Web Access (OWA) después de la migración a CVM. Se ha quitado toda la configuración de la ficha correo de voz en OWA y se mostrará un titular con un vínculo de redirección para llevar a los usuarios al portal de configuración de usuario de CVM.
+
+#### <a name="changing-greeting-remotely"></a>Cambiar el saludo de forma remota
+
+El acceso de suscriptor de RTC no se admite en CVM. Para los usuarios que necesiten cambiar el saludo de forma remota, se ha agregado la opción de menú "cambiar el saludo" al servicio de correo de voz para clientes móviles. Para llamar a este servicio, los usuarios pueden presionar y mantener presionada la tecla "1" en el control de marcado del cliente móvil.
