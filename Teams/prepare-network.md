@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 30d67c34e4ef0b7d94b9161bd5f12c51006aaa4e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: dc05c885b3b2eb5ef4991a6580ebcb0751c87f39
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44669421"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874269"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams 
 
@@ -51,8 +51,8 @@ Si ya ha [optimizado su red para microsoft 365 u Office 365](https://docs.micros
     
 2.  ¿Tiene un dominio verificado para Microsoft 365 u Office 365 (por ejemplo, contoso.com)?
     
-      - Si su organización no ha implementado Microsoft 365 u Office 365, consulte [Introducción a microsoft 365 u office 365 para empresas](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365).
-      - Si su organización no ha agregado ni configurado un dominio verificado para Microsoft 365 u Office 365, consulte [comprobar el dominio de microsoft 365 u office 365](https://docs.microsoft.com/office365/admin/setup/domains-faq).
+      - Si su organización no ha implementado Microsoft 365 u Office 365, [consulte Introducción](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365).
+      - Si su organización no ha agregado ni configurado un dominio verificado para Microsoft 365 u Office 365, consulte las [preguntas más frecuentes sobre los dominios](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
 
 3.  ¿Su organización ha implementado Exchange Online y SharePoint Online?
     
@@ -99,7 +99,7 @@ Para obtener información detallada sobre la optimización de red, incluidas las
 </tr>
 <tr class="even">
 <td>Asesor para equipos</td>
-<td>El <a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">Asesor de equipos</a> forma parte del <a href="https://admin.teams.microsoft.com">centro de administración de Teams</a>. Evalúa el entorno de Microsoft 365 u Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de que pueda implementar correctamente Teams.</td>
+<td>El <a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">Asesor de equipos</a> forma parte del <a href="https://admin.teams.microsoft.com">centro de administración de Teams</a>. Evalúa el entorno de Microsoft 365 u Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente Teams.</td>
 </tr>
 <tr class="odd">
 <td>Resolución de nombres externos</td>

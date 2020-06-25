@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Más información sobre cómo activar y usar el panel de calidad de llamadas y obtener informes de Resumen de la calidad de las llamadas.
-ms.openlocfilehash: 965392e02fa0ff24b38c8191b7b2a7aef904a723
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8f1bd778cfa24551d90b0186e606235193a47b0d
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697410"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874265"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y usar el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online
 
@@ -41,7 +41,7 @@ Actualmente, el CQD y el CQD de avanzada están disponibles para su uso. El CQD 
 
 ## <a name="assign-roles-for-accessing-cqd"></a>Asignar roles para acceder al CQD
 
-Asigne [roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para acceder al CQD a las personas que necesitan usarlo. 
+Asigne [roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) para acceder al CQD a las personas que necesitan usarlo.
 
 En esta tabla se muestra lo que cada rol puede hacer en el CQD:
 

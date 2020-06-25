@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e20023d1b79f4b5706301ef0cb1e670f35e8b5f
-ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
+ms.openlocfilehash: fe1d8828ea875d987ecef0057891e9de7c816e96
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761388"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868397"
 ---
 # <a name="operate-my-service"></a>Ejecutar mis servicios
 
@@ -439,7 +439,7 @@ Incluso si ha seguido las instrucciones anteriores, los usuarios de su organizac
 
 4.  **Visite la comunidad de Microsoft Teams:** La [comunidad de Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) ofrece espacios dedicados para los equipos. La comunidad de Teams proporciona una lista de discusión, entradas de blog y anuncios centrados en los equipos. Puede publicar una pregunta o buscar discusiones anteriores para obtener soluciones a su problema.
 
-5.  **Póngase en contacto con el soporte técnico de Microsoft:** Puede ponerse en contacto con el soporte técnico de Microsoft para problemas con Teams online o por teléfono. Para obtener más información, consulte [ponerse en contacto con el soporte técnico para productos empresariales](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+5.  **Póngase en contacto con el soporte técnico de Microsoft:** Puede ponerse en contacto con el soporte técnico de Microsoft para problemas con Teams online o por teléfono. Para obtener más información, consulte [ponerse en contacto con el soporte técnico para productos empresariales](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).
     Para los clientes de Premier, las solicitudes de asistencia pueden iniciarse siguiendo las instrucciones de [ponerse en contacto con el soporte técnico de Microsoft Teams (clientes de Premier)](https://support.microsoft.com/premier/contacts).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas diarias/semanales/mensuales/según sea necesario
@@ -464,7 +464,7 @@ Incluso si ha seguido las instrucciones anteriores, los usuarios de su organizac
 
 [Comprobar el estado del servicio para Microsoft Teams](service-health.md)
 
-[Contactar al soporte técnico para productos empresariales: ayuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[Contactar al soporte técnico para productos empresariales: ayuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 [Ponerse en contacto con el soporte Premier](https://support.microsoft.com/premier/contacts)
 

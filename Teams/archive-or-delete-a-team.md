@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 907138205d4d5e7be1933f00f0a7ace0340d858f
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 18026fda33377313cbe68b20ba03d5752777d263
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611009"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868707"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivar o eliminar un equipo en Microsoft Teams
 ===========================================
@@ -72,7 +72,7 @@ Si el equipo no va a necesitar el futuro, puede eliminarlo en lugar de archivarl
 
 Siga estos pasos para restaurar un equipo eliminado restaurando el grupo de Microsoft 365 que está asociado con el equipo. Al restaurar el grupo de Microsoft 365 para un equipo, se restaura el contenido del equipo, incluidas las pestañas, los canales estándar, los canales privados y sus colecciones de sitios asociadas.
 
-De forma predeterminada, un grupo de Microsoft 365 eliminado se conserva durante 30 días. Este periodo de 30 días se llama "eliminación parcial", ya que puede restaurar el grupo. Para obtener más información, consulte [restaurar un grupo eliminado de Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
+De forma predeterminada, un grupo de Microsoft 365 eliminado se conserva durante 30 días. Este periodo de 30 días se llama "eliminación parcial", ya que puede restaurar el grupo. Para obtener más información, consulte [restaurar un grupo eliminado](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### <a name="install-the-azureadpreview-module"></a>Instalar el módulo AzureADPreview
 

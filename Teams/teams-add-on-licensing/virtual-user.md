@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo asignar una licencia de usuario de sistema telefónico gratis o de usuario de sistema telefónico a las cuentas de recursos de su organización.
-ms.openlocfilehash: cd70b4a1d24bf762c5aa1508d29a9ce343cf4b76
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 00c3463aa933b4d91308fee85d362c4c4807cf69
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042417"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868657"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Sistema telefónico Microsoft 365-licencia de usuario virtual
 
@@ -47,25 +47,25 @@ Si su organización usa el sistema telefónico gratuito Microsoft 365: licencias
 
 ### <a name="license-allocation-example"></a>Ejemplo de asignación de licencias
 
-Contoso, Inc. compró licencias 600 que incluían el sistema telefónico (una por empleado). Contoso tiene asignado un sistema de telefonía inicial de 25 más 60 Microsoft 365: licencias de usuario virtual, 85 en total. Su organización tiene 90 colas de llamadas y operadores automáticos que tienen números de teléfono. Necesitan asignar todas las licencias de usuario virtual de Microsoft 365 Phone System y obtener cinco licencias de sistema telefónicas a precios regulares. 
+Contoso, Inc. compró licencias 600 que incluían el sistema telefónico (una por empleado). Contoso tiene asignado un sistema de telefonía inicial de 25 más 60 Microsoft 365: licencias de usuario virtual, 85 en total. Su organización tiene 90 colas de llamadas y operadores automáticos que tienen números de teléfono. Necesitan asignar todas las licencias de usuario virtual de Microsoft 365 Phone System y obtener cinco licencias de sistema telefónicas a precios regulares.
 
-Contoso debe considerar rediseñar el operador automático y el sistema de la cola de llamadas. Si usan menos números de teléfono y más nodos anidados que no necesitan un número de teléfono, simplifican la implementación y reducen los costos. 
+Contoso debe considerar rediseñar el operador automático y el sistema de la cola de llamadas. Si usan menos números de teléfono y más nodos anidados que no necesitan un número de teléfono, simplifican la implementación y reducen los costos.
 
-## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>Cómo comprar Microsoft 365 Phone System-licencias de usuario virtual 
+## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>Cómo comprar Microsoft 365 Phone System-licencias de usuario virtual
 
 1. Inicie sesión en el Centro de administración de Microsoft 365.
-2. Ir a los**Complementos de** **servicios** > de compra de **facturación** > 
+2. Ir a **Billing**los  >  **Purchase services**  >  **Complementos de servicios de compra de** facturación
 3. Desplácese hasta el final para buscar **Microsoft 365 Phone System-virtual User** License. Seleccione **comprar ahora**.
 
 > [!NOTE]
-> Tenga en cuenta que aún debe **comprar** la licencia aunque tenga un costo de cero. 
+> Tenga en cuenta que aún debe **comprar** la licencia aunque tenga un costo de cero.
 
 ## <a name="change-an-existing-resource-account-to-use-a-microsoft-365-phone-system--virtual-user-license"></a>Cambiar una cuenta de recursos existente para usar un sistema telefónico de Microsoft 365-licencia de usuario virtual
 
-Si decide cambiar la licencia de la cuenta de recursos de una licencia de sistema telefónico a un sistema telefónico de Microsoft 365, una licencia de usuario virtual: 
+Si decide cambiar la licencia de la cuenta de recursos de una licencia de sistema telefónico a un sistema telefónico de Microsoft 365, una licencia de usuario virtual:
 
-1. Obtenga la nueva licencia de usuario virtual de Microsoft 365 Phone System: 
-2. Siga los pasos vinculados en el centro de administración de Microsoft 365 para [mover usuarios a un plan diferente](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+1. Obtenga la nueva licencia de usuario virtual de Microsoft 365 Phone System:
+2. Siga los pasos vinculados en el centro de administración de Microsoft 365 para [mover usuarios a un plan diferente](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
 > Elimine siempre una licencia de sistema telefónico completo y asigne la licencia de usuario virtual de Microsoft 365 Phone System en la misma actividad de licencia. Si quita la licencia anterior, guarda los cambios de la cuenta, agrega la nueva licencia y, a continuación, vuelve a guardar la configuración de la cuenta, es posible que la cuenta de recursos ya no funcione según lo esperado. Si esto sucede, le recomendamos que cree una nueva cuenta de recursos para el sistema telefónico Microsoft 365: licencia de usuario virtual y quite la cuenta de recursos dañados. 

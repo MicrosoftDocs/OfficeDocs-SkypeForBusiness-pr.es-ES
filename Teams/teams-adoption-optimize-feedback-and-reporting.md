@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1577000dfe1adcdbc7c1bb0c03ce6c90aa3b29f
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e883a71d22a8af6c2af6eee8cdbd30e5b618f4dc
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666292"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868647"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimizar los comentarios y los informes sobre su adopción de Microsoft Teams
 
@@ -57,7 +57,7 @@ Procedimiento recomendado: tenga a los representantes del Departamento de soport
 Hay tres tipos de informes que debe revisar al implementar y adoptar Microsoft Teams:
 
 - [Estado del servicio](https://status.office365.com/) : de Microsoft 365, Office 365 y el departamento interno de soporte técnico de ti.
-- [Actividad de servicio](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) : de Microsoft 365 o de Office 365 ver [informes de Microsoft Teams](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). También puede usar información de otros sistemas de su organización.
+- [Informes de microsoft 365 en el centro de administración](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports) : desde Microsoft 365 u Office 365 vea [informes de Microsoft 365 en el centro de administración: actividad de usuario de Microsoft Teams](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity). También puede usar información de otros sistemas de su organización.
 - Satisfacción del servicio: recopilado de los foros internos de la comunidad y de las encuestas sobre experiencias específicas
 
 ![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) : [impulsar el conocimiento e implementar aprendizaje](teams-adoption-drive-awareness.md)

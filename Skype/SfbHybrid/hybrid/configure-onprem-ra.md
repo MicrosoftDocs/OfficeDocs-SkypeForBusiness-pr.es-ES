@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configure una cuenta de recursos para Skype empresarial Server 2019.
-ms.openlocfilehash: b5397a1d179ade5e9d70d6c9cf857bae9319d155
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f858ea5e18a7d433ca04a9a55c4c0582d5f096ce
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221140"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868437"
 ---
 # <a name="configure-resource-accounts"></a>Configurar cuentas de recursos
 
@@ -84,7 +84,7 @@ La creación de una cuenta de recursos que use un número de teléfono requerir�
 
     Consulte [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) para obtener más información sobre este comando.
 
-5. Asigne la licencia de sistema telefónico o usuario virtual a la cuenta del recurso. Consulte [asignar licencias de complementos de Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) y [asignar licencias a un usuario](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+5. Asigne la licencia de sistema telefónico o usuario virtual a la cuenta del recurso. Consulte [asignar licencias de complementos de Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) y [asignar licencias a usuarios](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
    Si va a asignar un número de teléfono a una cuenta de recursos, ahora puede usar la licencia de sistema telefónico y usuario virtual sin costo. Esto proporciona funciones del sistema telefónico a números de teléfono en el nivel de la organización y le permite crear funciones de cola de llamadas y operador automático.
 
@@ -191,7 +191,7 @@ La migración de la mensajería unificada de Exchange al sistema telefónico nec
 
    En este punto, si ya ha migrado el correo de voz de mensajería unificada, debe estar en una ubicación para migrar a Exchange Server 2019.
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Vea también
 
 [Crear una cola de llamadas en la nube](/MicrosoftTeams/create-a-phone-system-call-queue)
 
@@ -199,9 +199,9 @@ La migración de la mensajería unificada de Exchange al sistema telefónico nec
 
 [Configurar un operador automático en la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
-[Planeación de operadores automáticos en la nube](plan-cloud-auto-attendant.md)
+[Planear los operadores automáticos en la nube](plan-cloud-auto-attendant.md)
 
-[Planear colas de llamadas en la nube](plan-call-queue.md)
+[Planear las colas de llamadas en la nube](plan-call-queue.md)
 
 [Planear el servicio de correo de voz en la nube para usuarios locales](plan-cloud-voicemail.md)
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos de la nube para Microsoft Teams.
-ms.openlocfilehash: ba7da55a33aa1fa65b677146e73ce352158a4cdf
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 0cdba07297e22b116bbfe120f4d1e5640ee9a892
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523785"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874243"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
@@ -83,7 +83,7 @@ Si establece un operador, indique a los usuarios que llamen sobre la opción de 
 Tiene varias formas de configurar el operador:
 
 - **Ningún operador** deshabilita las opciones "operador" y "presionar 0". Este es el valor predeterminado actual.
-- **Persona en la organización** asigna una persona con una licencia de sistema telefónico habilitada para telefonía IP empresarial o planes de llamadas asignados en Office 365. También puedes configurarlo para que la persona que llama se envíe al buzón de voz. Para enviar una llamada al buzón de voz, seleccione **persona en la organización** y establezca la configuración de esa cuenta para enviar llamadas directamente al buzón de voz.
+- **Persona en la organización** asigna una persona con una licencia de sistema telefónico habilitada para telefonía IP empresarial o planes de llamadas asignados en Microsoft 365 u Office 365. También puedes configurarlo para que la persona que llama se envíe al buzón de voz. Para enviar una llamada al buzón de voz, seleccione **persona en la organización** y establezca la configuración de esa cuenta para enviar llamadas directamente al buzón de voz.
 
      > [!Note]
      > Una **persona en la organización** puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server. Al seleccionar una **persona de la organización** , puede seleccionar una cuenta con un buzón de correo compartido o con un buzón de usuario.
@@ -157,13 +157,13 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 
 ![Icono del número 4, una llamada en la captura de pantalla anterior ](media/teamscallout4.png) **llamada de redireccionamiento** envía el autor de la llamada al destino elegido sin elegir las opciones. Los valores posibles son:
 
-  - **Persona en la organización** La cuenta que elija debe tener habilitada una licencia de sistema telefónico para telefonía IP empresarial o tener un plan de llamadas asignado en Office 365. Puedes configurarlo para que la persona que llama pueda enviarse al buzón de voz: selecciona una **persona en la organización** y configura esa cuenta para que las llamadas se desvíen directamente al buzón de voz.
+  - **Persona en la organización** La cuenta que elija debe tener habilitada una licencia de sistema telefónico para telefonía IP empresarial o tener un plan de llamadas asignado en Microsoft 365 u Office 365. Puedes configurarlo para que la persona que llama pueda enviarse al buzón de voz: selecciona una **persona en la organización** y configura esa cuenta para que las llamadas se desvíen directamente al buzón de voz.
 
     > [!Note]
     > Una **persona en la organización** puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server. Al seleccionar una **persona de la organización** , puede seleccionar una cuenta con un buzón de correo compartido o con un buzón de usuario.
 
   - **Aplicación de voz** Seleccione un operador automático o una cola de llamadas que ya se haya configurado. Buscas el operador automático o la cola de llamadas por el nombre de la cuenta de recursos asociada con el servicio.
-  - **Buzón de voz** Seleccione el grupo de Office 365 que contiene los usuarios de su organización que necesitan tener acceso al buzón de voz recibido por este operador automático. Los mensajes de voz se envían al grupo de Office 365 que ha especificado. Para acceder a los mensajes de voz, los miembros del grupo pueden abrirlos desplazándose al grupo en Outlook.
+  - **Buzón de voz** Seleccione el grupo de Microsoft 365 que contiene los usuarios de su organización que necesitan tener acceso al buzón de voz recibido por este operador automático. Los mensajes de voz se envían al grupo de Microsoft 365 que especificó. Para acceder a los mensajes de voz, los miembros del grupo pueden abrirlos desplazándose al grupo en Outlook.
 
       Cambiar **transcripción** a **activado** para permitir la transcripción de voz a texto de los mensajes de voz.
 
@@ -198,11 +198,11 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 <!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
 
 - **Operador** Si un operador ya está configurado, la opción se asigna automáticamente a la clave 0, pero también se puede eliminar o reasignar a una clave diferente. El autor de la llamada que selecciona esta opción se envía al operador designado. Si el operador no se establece en ninguna tecla, el comando de voz "operador" también está deshabilitado. 
-- Una **persona en la organización** puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server. El usuario debe tener una licencia de sistema telefónico habilitada para telefonía IP empresarial o planes de llamadas asignados en Office 365. Busque la persona en el campo **Buscar por nombre** .
+- Una **persona en la organización** puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server. El usuario debe tener una licencia de sistema telefónico habilitada para telefonía IP empresarial o planes de llamadas asignados en Microsoft 365 u Office 365. Busque la persona en el campo **Buscar por nombre** .
 
 - **Aplicación de voz** Seleccione un operador automático o una cola de llamadas que ya se haya configurado. Busque el operador automático o la cola de llamadas por el nombre de la cuenta de recursos asociada con la aplicación.
 
-- **Buzón de voz** Seleccione el grupo de Office 365 que contiene los usuarios de su organización que necesitan tener acceso al buzón de voz recibido por este operador automático. Los mensajes de voz se envían al grupo de Office 365 que ha especificado. Para acceder a los mensajes de voz, los miembros del grupo pueden abrirlos desplazándose al grupo en Outlook.
+- **Buzón de voz** Seleccione el grupo de Microsoft 365 que contiene los usuarios de su organización que necesitan tener acceso al buzón de voz recibido por este operador automático. Los mensajes de voz se envían al grupo de Microsoft 365 que especificó. Para acceder a los mensajes de voz, los miembros del grupo pueden abrirlos desplazándose al grupo en Outlook.
 
     Cambiar **transcripción** a **activado** para permitir la transcripción de voz a texto de los mensajes de voz.
 
@@ -220,7 +220,7 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 
 > [!IMPORTANT]
 > Siga estos pasos:
->- Los usuarios que desea que estén disponibles para marcar por extensión necesitan tener una extensión especificada como parte de uno de los siguientes atributos de teléfono definidos en Active Directory o el [centro de administración de Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)de Azure Active Directory.
+>- Los usuarios que desea que estén disponibles para marcar por extensión necesitan tener una extensión especificada como parte de uno de los siguientes atributos de teléfono definidos en Active Directory o Azure Active Directory (consulte [Agregar usuarios de forma individual o en bloque] para obtener más información ( https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) .
 >    - Teléfono particular
 >    - Móvil/teléfono móvil
 >    - TelephoneNumber/PhoneNumber
@@ -333,7 +333,7 @@ En esta página, puede establecer quién aparece en el directorio y disponible p
 
 Si selecciona **todos los usuarios en línea**, todos los usuarios elegibles se incluyen en la búsqueda en directorios.
 
-**Grupos de usuarios personalizados** Esta opción le permite buscar y seleccionar un grupo de Office 365, una lista de distribución o un grupo de seguridad ya creado en su organización. Los usuarios se agregan al directorio si se encuentran en el grupo de Office 365, una lista de distribución o un grupo de seguridad elegido y son **usuarios en línea con una licencia de sistema de teléfono** o se hospedan de forma local con Skype empresarial Server. Puede agregar varios grupos de Microsoft 365, listas de distribución y grupos de seguridad al directorio.
+**Grupos de usuarios personalizados** Esta opción le permite buscar y seleccionar un grupo de Microsoft 365, una lista de distribución o un grupo de seguridad ya creado en su organización. Los usuarios se agregan al directorio si se encuentran en el grupo de Microsoft 365, lista de distribución o grupo de seguridad elegido y son **usuarios en línea con una licencia de sistema telefónico** o son locales alojados con Skype empresarial Server. Puede agregar varios grupos de Microsoft 365, listas de distribución y grupos de seguridad al directorio.
 
 <a name="dialscope"> </a>
 
@@ -343,8 +343,7 @@ En esta página, puede configurar los usuarios de su organización que aparecer�
 
 Si selecciona **ninguno**, todos los usuarios elegibles se incluyen en la búsqueda de directorio.
 
-**Grupo de usuarios personalizado** Puede buscar un grupo de Office 365, una lista de distribución o un grupo de seguridad que se haya creado en su organización. Los usuarios de ese grupo se excluyen de la búsqueda de directorios. Puede agregar varios grupos de Microsoft 365, listas de distribución y grupos de seguridad.
-
+**Grupo de usuarios personalizado** Puede buscar un grupo de Microsoft 365, una lista de distribución o un grupo de seguridad que se haya creado en su organización. Los usuarios de ese grupo se excluyen de la búsqueda de directorios. Puede agregar varios grupos de Microsoft 365, listas de distribución y grupos de seguridad.
 
 Si deja la configuración predeterminada cuando el marcado por nombre está habilitado, todos los usuarios elegibles se incluyen en la búsqueda de directorio.
 
@@ -411,7 +410,7 @@ También puede usar PowerShell para crear y configurar operadores automáticos. 
 
 ### <a name="more-about-windows-powershell"></a>Más información sobre Windows PowerShell
 
-- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Office 365 y Microsoft Teams desde un único punto de administración que pueda simplificar su trabajo diario. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 y Microsoft Teams desde un único punto de administración que puede simplificar su trabajo diario. Para empezar con Windows PowerShell, vea estos temas:
 
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -419,13 +418,13 @@ También puede usar PowerShell para crear y configurar operadores automáticos. 
 
 - Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como la realización de cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
 
-  - [Administrar Office 365 con Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Administrar Microsoft 365 u Office 365 con Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Esto es lo obtiene con el Sistema telefónico de Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Esto es lo obtiene con el Sistema telefónico](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Obtener números de teléfono de servicio](/microsoftteams/getting-service-phone-numbers)
 

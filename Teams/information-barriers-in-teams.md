@@ -16,12 +16,12 @@ description: En este artículo, se explica qué son las barreras de información
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1cf6b2fc8c103b8a27bca2d21dd2138def88ce06
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 12bd0102904ff933b5a2ffd6f12d8a8d3b76aaaa
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326747"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868697"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de la información en Microsoft Teams
 
@@ -94,7 +94,7 @@ Las directivas de barrera de información se activan cuando se producen los sigu
 
 - **Una pantalla se comparte entre dos o más usuarios** , siempre que una pantalla se comparta entre dos o más usuarios, se debe evaluar el uso compartido de pantalla para asegurarse de que no infrinja las directivas de la barrera de información de otros usuarios. Si se infringe una directiva de barrera de información, no se permitirá el uso compartido de pantalla.
 - **Un usuario realiza una llamada de teléfono (VoIP) en Teams** , siempre que un usuario inicie una llamada de voz a otro usuario o grupo de usuarios, la llamada se evalúa para asegurarse de que no infrinja las directivas de la barrera de información de otros miembros del equipo. Si hay alguna infracción, la llamada se bloquea.
-- **Los usuarios invitados en Teams** : las directivas de barrera de información se aplican también a los usuarios invitados de Teams. Si los usuarios invitados necesitan ser detectados en la lista global de direcciones de la organización, consulte [administrar el acceso de invitados en grupos de Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list). Una vez que los usuarios invitados sean detectados, puede [definir las políticas](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)de la barrera de información.
+- **Los usuarios invitados en Teams** : las directivas de barrera de información se aplican también a los usuarios invitados de Teams. Si los usuarios invitados necesitan ser detectados en la lista global de direcciones de la organización, consulte [administrar el acceso de invitados en grupos de Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Una vez que los usuarios invitados sean detectados, puede [definir las políticas](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)de la barrera de información.
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Impacto de los cambios de directiva en los chats existentes
 

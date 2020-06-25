@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e2ca0b4088a7855da8cf2bc5196ecc9f2082475
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 58f8424342fa609124a3b658fbde9d7d297d7b44
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637949"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868477"
 ---
 # <a name="meetings-first"></a>Reuniones primero
 
@@ -82,7 +82,7 @@ Una vez cumplidos estos requisitos (y no antes), los usuarios pueden tener [lice
 
 Para las mejores reuniones en primer lugar, los usuarios deben estar habilitados para [Exchange Online](exchange-teams-interact.md), [SharePoint Online y OneDrive para la empresa](sharepoint-onedrive-interact.md), y la creación de grupos de Microsoft 365. Las reuniones se admiten en primer lugar para los usuarios cuyo buzón se encuentra en Exchange local, o que no tienen SharePoint Online o OneDrive para la empresa, o la creación de grupos de Microsoft 365. Sin embargo, su experiencia será menos completa. En concreto, en el caso de las organizaciones que usan Exchange Server local, puede haber (dependiendo de la versión de Exchange Server) algunas limitaciones para crear y ver reuniones en el cliente de equipos, así como con respecto a las capacidades de cumplimiento.
 
-Como mínimo, los usuarios deben tener una [licencia para equipos](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). Además, pueden tener una licencia de [audioconferencia](set-up-audio-conferencing-in-teams.md), si es necesario.
+Como mínimo, los usuarios deben tener una [licencia para equipos](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users). Además, pueden tener una licencia de [audioconferencia](set-up-audio-conferencing-in-teams.md), si es necesario.
 
 Le recomendamos que otorgue el modo [ **SfBOnly** o **SfBWithTeamsCollab** ](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) como valor predeterminado de tenant en el momento de otorgar la licencia a los usuarios. Esto garantiza que los usuarios no empiecen a usar Teams por sí mismos en el modo de **islas** predeterminadas antes de estar listo para iniciar reuniones en primer lugar.
 

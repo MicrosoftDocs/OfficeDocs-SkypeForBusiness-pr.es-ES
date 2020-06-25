@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f2a52c9bce6269ec7ddd69e4923a011cf3b6872
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 12d9db8cfc765efbb516fb4b53010d51d8e4e3a7
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523113"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868457"
 ---
 # <a name="plan-for-your-upgrade"></a>Planear la actualización
 
@@ -33,9 +33,13 @@ ms.locfileid: "44523113"
 
 Un entorno técnico saludable, la adopción sostenida de usuarios y la realización de sus objetivos empresariales comienzan con una planificación adecuada. Un plan sólido le ofrece un marco para el proyecto de actualización y garantiza que todas las partes interesadas estén trabajando para alcanzar los mismos objetivos. Al dedicar un momento para definir correctamente el éxito, puede medir los resultados a medida que avanza en la implementación y verificar que está logrando los resultados que quería. El planeamiento de tu viaje incluye:
 
-- [Inscripción de las partes interesadas del proyecto](upgrade-enlist-stakeholders.md).
-- [Definir el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope).
-- [Comprender la coexistencia y la interoperabilidad de Skype empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist).
+- [Inscripción de las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
+- [Definir el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [Comprender la coexistencia y la interoperabilidad de Skype empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Elección del viaje de actualización según las necesidades de su empresa](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Planear una prueba piloto de usuario](pilot-essentials.md)
+
+Una vez que haya planeado su viaje, leerá temas sobre [la preparación del entorno](upgrade-prepare-environment.md) y [la preparación de la organización](upgrade-prepare-organization.md) antes [de implementar la actualización](upgrade-to-teams.md).  
 
 > [!TIP]
 > Únase a los talleres interactivos y en vivo en los que compartimos orientación, procedimientos recomendados y recursos diseñados para la planificación e implementación de la actualización de lanzamiento.

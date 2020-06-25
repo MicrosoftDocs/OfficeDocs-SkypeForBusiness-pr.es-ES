@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Obtenga información sobre cómo asignar licencias de complementos de Teams a los usuarios para características como audioconferencia, teléfonos telefónicos y planes de llamadas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c7c455628f7595e1517fbd0cef8d2edc454ffbb
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: c7faaf2e65330aafd809872ed19b5f2f16afc668
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042784"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868587"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Asignar licencias de complementos de Teams a los usuarios
 
@@ -48,7 +48,7 @@ Antes de empezar, revise lo siguiente:
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Usar el centro de administración de Microsoft 365
 
-Use el centro de administración de Microsoft 365 para asignar licencias a usuarios individuales o a conjuntos de usuarios pequeños a la vez. Puede asignar licencias en la página **licencias** (para un máximo de 20 usuarios a la vez) o la página **usuarios activos** . El método que elija dependerá de si desea administrar las licencias de producto para usuarios específicos o administrar licencias de usuario para productos específicos. 
+Use el centro de administración de Microsoft 365 para asignar licencias a usuarios individuales o a conjuntos de usuarios pequeños a la vez. Puede asignar licencias en la página **licencias** (para un máximo de 20 usuarios a la vez) o la página **usuarios activos** . El método que elija dependerá de si desea administrar las licencias de producto para usuarios específicos o administrar licencias de usuario para productos específicos.
 
 Para obtener instrucciones paso a paso, vea [asignar licencias a usuarios](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -71,7 +71,7 @@ Este es un ejemplo de cómo usar un script para asignar licencias a los usuarios
         ```
     3. Si se le pide que instale el proveedor de NuGet, escriba **y**y, a continuación, presione Entrar.
     4. Si se le pide que instale el módulo desde PSGallery, escriba **y**y, a continuación, presione Entrar.
-3. En el símbolo del sistema de Windows PowerShell, ejecute el siguiente script para asignar licencias a los usuarios \<, donde CompanyName: License> es el nombre de su organización y el identificador de la licencia que desea asignar. Por ejemplo, litwareinc: MCOMEETADV.
+3. En el símbolo del sistema de Windows PowerShell, ejecute el siguiente script para asignar licencias a los usuarios, donde \<CompanyName:License> es el nombre de la organización y el identificador de la licencia que desea asignar. Por ejemplo, litwareinc: MCOMEETADV.
 
     El identificador es diferente al nombre descriptivo de la licencia. Por ejemplo, el identificador de audioconferencia es MCOMEETADV. Para obtener más información, consulte [nombres de productos y identificadores de SKU para licencias](#product-names-and-sku-identifiers-for-licensing).
 

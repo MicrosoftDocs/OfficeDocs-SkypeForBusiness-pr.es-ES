@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b804916609b121ba02a048d1763c4181fb5d0a63
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: ef4ff711aa385c062ca6d507363b4d1a1a5d88e4
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691026"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868576"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -200,7 +200,7 @@ Si se cambia la Directiva de configuración de la aplicación asignada al usuari
 
 Asegúrese de seguir las pautas del logotipo antes de enviar la aplicación. Para obtener más información, vea [lista de comprobación para el envío de panel de vendedores](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview). 
 
- ## <a name="related-topics"></a>Temas relacionados
+## <a name="related-topics"></a>Temas relacionados
 
 - [Configurar la administración para aplicaciones en Teams](admin-settings.md)
 - [Asignar directivas a los usuarios de Teams](assign-policies.md)

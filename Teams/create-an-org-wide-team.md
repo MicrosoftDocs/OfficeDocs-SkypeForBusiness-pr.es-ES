@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41d7241cc0ffddf1042a3fe46f75def76c1ccf04
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a87ee4f846002537311fc5a9a9dd2e5f22757b0e
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903035"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868127"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo de la organización en Microsoft Teams
 
 Los equipos de la organización proporcionan una forma automática para que todos los miembros de una organización de tamaño pequeño o mediano formen parte de un único equipo de colaboración.
 
-Con los equipos de la organización, los administradores globales pueden crear fácilmente un equipo público que atraiga a todos los usuarios de la organización y mantenga a los miembros al día con el Active Directory a medida que los usuarios entran y salen de la organización. Sólo los administradores globales pueden crear equipos de la organización y actualmente un equipo de toda la organización está limitado a organizaciones con no más de 5 000 usuarios. También hay un límite de cinco equipos de la organización por inquilino. Si se cumplen estos requisitos, los administradores globales verán la opción **toda la organización** cuando seleccione **Construir un equipo desde cero** al crear un equipo. 
+Con los equipos de la organización, los administradores globales pueden crear fácilmente un equipo público que atraiga a todos los usuarios de la organización y mantenga a los miembros al día con el Active Directory a medida que los usuarios entran y salen de la organización. Solo los administradores globales pueden crear equipos de toda la organización y, en la actualidad, el equipo de toda la organización está limitado a organizaciones con un máximo de 5.000 usuarios. También hay un límite de cinco equipos de la organización por inquilino. Si se cumplen estos requisitos, los administradores globales verán la opción **toda la organización** cuando seleccione **Construir un equipo desde cero** al crear un equipo. 
 
 ![Captura de pantalla de la opción de crear un equipo de la organización](media/create-org-wide-team.png "Captura de pantalla de la opción Toda la organización para crear un equipo de la organización")
 
@@ -45,7 +45,7 @@ Este tipo de cuentas no se añadirán a su equipo de la organización:
 A medida que el directorio de su organización se actualiza para incluir nuevos usuarios activos o si los usuarios ya no trabajan en su empresa y su cuenta está desactivada, los cambios se sincronizan automáticamente y los usuarios se agregan o eliminan del equipo. Los miembros del equipo no pueden dejar un equipo de la organización. Como propietario del equipo, puede añadir o eliminar usuarios manualmente si es necesario.
 
 > [!NOTE]
-> - Si no ve la opción **Toda la organización** cuando cree un equipo y es un administrador global, la característica podría seguir desplegándose, ha alcanzado el límite de cinco equipos de la organización, o su organización podría tener más del límite de tamaño actual de 5 000 miembros. Buscamos aumentar este límite en el futuro. Los equipos de toda la organización aún no están disponibles para Teams educativo.
+> - Si no ve la opción **en toda la organización** al crear un equipo y es administrador global, es posible que haya alcanzado el límite de equipos de cinco organizaciones, o que su organización tenga más del límite de tamaño actual de miembros de 5.000. Buscamos aumentar este límite en el futuro. Los equipos de toda la organización aún no están disponibles para Teams educativo.
 > - Las habitaciones que no son parte de una lista de habitaciones, equipo, y cuentas de recursos pueden ser agregadas o sincronizadas con el equipo de toda la organización. Los dueños de los equipos pueden eliminar fácilmente estas cuentas del equipo.
 > - Todas las acciones del sistema para añadir o eliminar miembros se publican en el Canal general. El canal también será marcado como con nueva actividad en el cliente de Teams.
 > - Crearemos automáticamente un equipo de la organización, si su organización es nueva en Teams y no tiene más de 5 000 usuarios. El nombre del equipo reflejará el nombre del inquilino y tendrá un Canal general. Los administradores globales pueden editar este equipo como cualquier otro equipo. 
@@ -78,7 +78,7 @@ Aunque los miembros no pueden abandonar un equipo de organización en toda la or
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>¿Hay alguna manera de crear un equipo de toda la organización aparte de usar el cliente de Teams?
 
-Los administradores globales sólo pueden crear un equipo de toda la organización usando el cliente de Teams. Si su organización limita la creación de equipos al uso de PowerShell, la solución recomendada es agregar sus administradores globales al grupo de seguridad de usuarios que pueden crear un equipo. Si desea más información, consulte [Administrar quién puede crear Grupos de Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups).
+Los administradores globales sólo pueden crear un equipo de toda la organización usando el cliente de Teams. Si su organización limita la creación de equipos al uso de PowerShell, la solución recomendada es agregar sus administradores globales al grupo de seguridad de usuarios que pueden crear un equipo. Para obtener más información, vea [administrar quién puede crear grupos](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
 Si esto no es una opción, puede usar PowerShell para crear un equipo público y agregar un administrador global como propietario del equipo. Luego, haga que el administrador global haga clic en **Más opciones** junto al nombre del equipo, haga clic en **Editar equipo**, y luego cambie la privacidad a **Toda la organización - Todos en su organización serán agregados automáticamente**. Tenga en cuenta que sólo los propietarios de los equipos pueden acceder a la opción **Editar equipo** y sólo los administradores globales pueden ver la opción **Toda la organización**.
 

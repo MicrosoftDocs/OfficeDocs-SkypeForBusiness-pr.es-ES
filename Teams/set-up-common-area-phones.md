@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Más información sobre cómo configurar teléfonos de área común para salas, áreas de recepción y salas de conferencias '
-ms.openlocfilehash: 23e60a5fe57ea8e2ff07bb6333a5ea1c341bba88
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 1b8e1582e1f3eba65802d4b1c181f8e0ba319eb0
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691076"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868607"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configuración de la licencia de teléfono de área común de Microsoft Teams
 > [!NOTE]
@@ -97,7 +97,7 @@ La licencia de telefonía por área común admite:
 > [!NOTE]
 > Si está usando el enrutamiento directo de Microsoft Phone System, no es necesario que asigne una licencia de plan de llamadas.
 
-Para obtener más información, vea [Agregar un usuario](https://docs.microsoft.com/office365/admin/add-users/add-users?redirectSourcePath=%252farticle%252f1970f7d6-03b5-442f-b385-5880b9c256ec&view=o365-worldwide).
+Para obtener más información, vea [asignar licencias a usuarios](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ## <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Paso 3: asignar un número de teléfono a la cuenta de usuario del teléfono de área común
 

@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfa4e89753848ece4b4737f7679333f8c01366a7
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 697e36085169e0666e6a821a66c763be39cf9425
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665992"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868527"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Caducidad y renovación de equipos en Microsoft Teams
 
 Las organizaciones con una gran cantidad de equipos suelen tener equipos que nunca se usan realmente. Esto puede suceder por varias razones, entre las que se incluyen la experimentación de productos, la colaboración de equipos a corto plazo o los propietarios de equipos que salen de la organización. Con el tiempo, esos equipos pueden acumular y crear una carga para los recursos de inquilino.  
 
-Para frenar el número de equipos sin usar, como administrador, puede usar la [Directiva de expiración del grupo 365 de Microsoft](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy) para limpiar automáticamente los equipos que no se usan. Debido a que los equipos están respaldados por grupos, las directivas de expiración de grupos también se aplican automáticamente a los equipos.
+Para frenar el número de equipos sin usar, como administrador, puede usar la [Directiva de expiración del grupo 365 de Microsoft](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) para limpiar automáticamente los equipos que no se usan. Debido a que los equipos están respaldados por grupos, las directivas de expiración de grupos también se aplican automáticamente a los equipos.
 
 Al aplicar una directiva de expiración a un equipo, el propietario de un equipo recibe una notificación para la renovación de equipo 30 días, 15 días y 1 día antes de la fecha de expiración del equipo. Cuando el propietario del equipo recibe la notificación, puede hacer clic en **renovar ahora** en configuración del equipo para renovar el equipo.
 

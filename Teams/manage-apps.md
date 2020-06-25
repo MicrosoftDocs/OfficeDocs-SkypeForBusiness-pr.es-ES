@@ -17,12 +17,12 @@ description: Obtener información sobre cómo administrar las aplicaciones de Te
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: ea73b460fee758a45f19d6acbd5ff8172e2b8304
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: d4abedbd24f9f0211a66b0890fe9d3db2fc977cd
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006046"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868487"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el centro de administración de Microsoft Teams
 ======================================================
@@ -31,7 +31,7 @@ Como administrador, la página **Manage apps** en el centro de administración d
 
 La página **Manage apps** le ofrece una vista de todas las aplicaciones disponibles en el catálogo de inquilinos, y le proporciona la información que necesita para decidir qué aplicaciones quiere permitir o bloquear en su organización. Después, puede usar [las directivas de permisos](teams-app-permission-policies.md)de la aplicación, [las directivas de configuración](teams-app-setup-policies.md)de la aplicación y [las directivas de aplicaciones personalizadas y la configuración](teams-custom-app-policies-and-settings.md) para configurar la experiencia de la aplicación para usuarios específicos de su organización.
 
-En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **aplicaciones** > de Teams**Manage apps**. Debe ser administrador global o administrador de servicios de equipo para poder acceder a la página.
+En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **aplicaciones de Teams**  >  **Manage apps**. Debe ser administrador global o administrador de servicios de equipo para poder acceder a la página.
 
 ## <a name="view-apps-in-your-tenant-app-catalog"></a>Ver aplicaciones en el catálogo de aplicaciones de inquilino
 
@@ -41,11 +41,12 @@ Puede ver todas las aplicaciones en el catálogo de aplicaciones de inquilino, i
 
 - **Name**: el nombre de la aplicación. Haga clic en el nombre de la aplicación para ver más información sobre la aplicación. Esto incluye una descripción de la aplicación, si está permitida o bloqueada, la versión, las categorías que se aplican a la aplicación, el estado de la certificación, las características admitidas y el identificador de aplicación. Aquí se muestra un ejemplo:<br> 
 ![Captura de pantalla de la página de detalles de aplicaciones de una aplicación](media/manage-apps-app-details.png)
-- **Certificación**: Si la aplicación ha superado la certificación, verá la atestación de **Microsoft 365** o la **atestación de Publisher**. Haga clic en el vínculo para ver los detalles de certificación de la aplicación. Si ves "**--**", no tenemos información de certificación de la aplicación. Para obtener más información sobre las aplicaciones certificadas en Teams, lea el [programa de certificación de aplicaciones de Microsoft 365](https://docs.microsoft.com/teams-app-certification/all-apps).  
+- **Certificación**: Si la aplicación ha superado la certificación, verá la atestación de **Microsoft 365** o la **atestación de Publisher**. Haga clic en el vínculo para ver los detalles de certificación de la aplicación. Si ves " **--** ", no tenemos información de certificación de la aplicación. Para obtener más información sobre las aplicaciones certificadas en Teams, lea el [programa de certificación de aplicaciones de Microsoft 365](https://docs.microsoft.com/teams-app-certification/all-apps).  
 - **Categorías**: categorías que se aplican a la aplicación.
 - **Estado**de la aplicación: estado de la aplicación en el nivel de la organización, que puede ser uno de los siguientes:
     - **Permitido**: la aplicación está disponible para todos los usuarios de la organización.
-    - **Bloqueado**: la aplicación está bloqueada y no está disponible para los usuarios de su organización.<br>
+    - **Bloqueado**: la aplicación está bloqueada y no está disponible para los usuarios de su organización.
+    - **Organización bloqueada**: la aplicación está bloqueada en la configuración de la aplicación en toda la organización. <br>
 Es importante saber que esta columna representa el estado permitido y bloqueado de las aplicaciones que anteriormente se encontraban en el panel **configuración de toda la organización** . Ahora ve, bloquea y permite aplicaciones en el ámbito de la organización en la página **Manage apps** . 
 - **Versión**: versión de la aplicación.
 
@@ -82,12 +83,12 @@ Use la configuración de la aplicación en toda la organización para controlar 
     
 2. En **aplicaciones de terceros**, desactive o Active esta configuración para controlar el acceso a las aplicaciones de terceros:
 
-    - **Permitir aplicaciones de terceros en Teams**: controla si los usuarios pueden usar aplicaciones de terceros. Si desactiva esta configuración, los usuarios no podrán instalar ni usar ninguna aplicación de terceros. En el caso de las aplicaciones permitidas, el estado se muestra como **permitido pero en toda la organización**.              
+    - **Permitir aplicaciones de terceros**: controla si los usuarios pueden usar aplicaciones de terceros. Si desactiva esta configuración, los usuarios no podrán instalar ni usar ninguna aplicación de terceros y el estado de la aplicación de estas aplicaciones aparecerá **bloqueado: todo el mundo** en la tabla.
 
         > [!NOTE]
         > En una implementación de Teams de Microsoft 365 Administrator-GCC, la opción **permitir aplicaciones de terceros en Teams** está desactivada de forma predeterminada.
 
-        Cuando la **opción permitir aplicaciones de terceros en Teams** está desactivada, los [enlaces a webhooks salientes](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) están deshabilitados, lo que significa que los usuarios no pueden crearlos. Cuando esta configuración está activada, los webhooks salientes se habilitan para todos los usuarios, independientemente de si la configuración está activada o desactivada en la Directiva de permisos de la aplicación de los usuarios.
+        Cuando se desactivan las **aplicaciones de terceros** , los enlaces de correo [salientes](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) están deshabilitados, lo que significa que los usuarios no pueden crearlos. Cuando esta configuración está activada, los webhooks salientes se habilitan para todos los usuarios, independientemente de si la configuración está activada o desactivada en la Directiva de permisos de la aplicación de los usuarios.
     - **Permitir que todas las aplicaciones de terceros se publiquen en la tienda de forma predeterminada**: controla si las nuevas aplicaciones de terceros publicadas en la tienda de aplicaciones de Teams se encuentran disponibles automáticamente en Teams. Solo puede establecer esta opción si permite aplicaciones de terceros.
 
 3. En **aplicaciones personalizadas**, desactive o desactive la **opción permitir la interacción con aplicaciones personalizadas**. Esta configuración controla si los usuarios pueden interactuar con aplicaciones personalizadas. Para obtener más información, vea [administrar la configuración y las directivas de la aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md).
