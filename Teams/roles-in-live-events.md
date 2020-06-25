@@ -17,109 +17,57 @@ description: Obtenga información sobre las funciones del moderador y participan
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 7714442be770420797df1c51a532f769eb0350a4
-ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
+ms.openlocfilehash: b17b5493f8bccacbf16674f5698b672f271bb9d8
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44565863"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874447"
 ---
-<a name="presenter-and-participant-capabilities-in-a-teams-live-event"></a>Funciones del moderador y participante en un evento de Teams en directo
+<a name="presenter-producer-and-attendee-capabilities-in-a-teams-live-event"></a>Capacidades de presentador, productor y asistente en un evento en vivo de Teams
 ======================================================
 
-Los eventos de Microsoft Teams en directo admiten varios tipos de participantes. Los participantes pueden tener acceso a varias características de eventos en directo en función de sus roles dentro o fuera de una organización.
-
-Las características de la reunión disponibles son:
+Microsoft Teams apoya eventos en vivo que se transmiten a grandes audiencias en línea. Mientras que el papel del asistente es pasivo, el presentador y productor del evento en vivo tiene acceso a varias características de la reunión, incluyendo:  
 
 - Chat (incluye fotos y adhesivos)
-- Notas de la reunión
-- Whiteboard
 - Grabación
 - Archivos
+- Q/A
 
-Este artículo describe las funciones de los participantes y qué acceso tienen para las características de los eventos en directo.
+Este artículo describe las capacidades disponibles en un evento en vivo de Teams.
 
-## <a name="presenters-and-organizers"></a>Moderadores y organizadores
+## <a name="presenter-and-producer"></a>Presentador y productor
 
-Entre los moderadores y los organizadores se incluyen los siguientes:
+El presentador y el productor incluyen lo siguiente:
 
 - Moderadores de mi organización
-- Moderadores de otras organizaciones. Los moderadores son designados por el organizador y requieren una invitación personal del organizador.
+- Moderadores de otras organizaciones. Los presentadores son designados por el productor y requieren una invitación personal del productor..
 
-El moderador y el organizador tienen acceso a todas las características de un evento en directo.
+Los presentadores y productores tienen acceso a todas las características de los eventos en vivo.
 
-## <a name="participants"></a>Participantes
-
-Existen varios tipos de participantes de eventos en directo:
-
-- [Participante del espacio empresarial](#in-tenant-participant)
-- [Participante invitado](#guest-participant)
-- [Participante externo (federado)](#external-federated-participant)
-- [Participante anónimo](#anonymous-participant)
-
-### <a name="in-tenant-participant"></a>Participante del espacio empresarial
-
-El participante del espacio empresarial pertenece a la organización y tiene credenciales para el espacio empresarial. Más información sobre este participante en [Seguridad y Microsoft Teams](teams-security-guide.md#participant-types).
-
-| Eventos en directo |  | |||
+| |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-|  **Característica**       | Antes de la reunión | Durante una reunión | Después de la reunión |
-| Chat | No aplicable | No aplicable | No aplicable |
-| Notas de la reunión | Sí | Sí |Sí |
-| Whiteboard | Sí | Sí |Sí |
-| Grabación | N/D |Sí | Sí |
-| Archivos | Sí | Sí | Sí |
+|  **Característica**       | Evento previo | En el evento | Posterior al evento |
+| Chat | Sí | Sí| Sí |
+| Grabación | No aplicable |N/D | Sí |
+| Archivos | Sí |Sí | Sí |
+| Q/A, si el productor lo permite| Sí | Sí | Sí |
 |||||||
 
+## <a name="live-event-attendee"></a>Asistente del evento en vivo
 
-### <a name="guest-participant"></a>Participante invitado
+Un asistente a un evento en vivo es alguien que tiene el enlace con el evento en vivo o la grabación del evento. No se requieren permisos especiales para asistir/ver el evento. Un asistente que vea el evento en vivo en tiempo real puede participar en Q/A si lo permite el presentador y/o productor. 
 
-Un participante invitado es alguien de otra organización que ha sido invitado a acceder a Teams u otros recursos en el espacio empresarial de su organización, basado en la plataforma B2B de Azure Active Directory. Se puede invitar a usuarios invitados a unirse a reuniones periódicas y reuniones de canal. Más información sobre un participante invitado en [Cómo es la experiencia de invitado](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
-
-| Eventos en directo  | | |||
+| |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-| **Característica**        | Antes de la reunión | Durante una reunión | Después de la reunión |
-| Chat | No aplicable | No aplicable | No aplicable |
-| Notas de la reunión | Sí | Sí | Sí |
-| Whiteboard | No | No | No |
-| Grabación | N/D | No | No |
-| Archivos | No | No | No |
+|  **Característica**       | Evento previo | En el evento | Posterior al evento |
+| Q/A, si el productor lo permite | Sí | Sí | Sí |
+| Grabación | No aplicable | N/D| Sí |
+| Controles de reproducción de video, si el productor los habilita | Sí | Sí | Sí |
 |||||||
-
-
-### <a name="external-federated-participant"></a>Participante externo (federado)
-
-Un participante externo es alguien que usa Teams en otra organización que ha sido invitado a unirse a una reunión, pero que de otra manera no tiene acceso a otros recursos compartidos de su organización. Los participantes que son usuarios externos aparecen en la lista de la reunión con el mismo nombre de identidad que tienen en su propia organización. Lea más sobre un participante externo en [Comunicarse con usuarios de otras organizaciones ](communicate-with-users-from-other-organizations.md#external-access).
-
-| Eventos en directo |  | |||
-|---------|----------------|----------------|---------------------|------------|--------------|
-|  **Característica**         | Antes de la reunión | Durante una reunión | Después de la reunión |
-| Chat | No aplicable| No aplicable | No aplicable |
-| Notas de la reunión | No | No | No |
-| Whiteboard | No| No | No |
-| Grabación | N/D | No | No |
-| Archivos | Sí | Sí | Sí |
-|||||||
-
-### <a name="anonymous-participant"></a>Participante anónimo
-
-El participante anónimo es como un usuario externo, pero su identidad no se proyecta en la reunión. En el momento de unirse, escribe manualmente un alias. Más información sobre un participante anónimo en [Seguridad y Microsoft Teams](teams-security-guide.md#participant-types).
-
-| Eventos en directo|  | |||
-|---------|----------------|----------------|---------------------|------------|--------------|
-| **Característica**        | Antes de la reunión | Durante una reunión | Después de la reunión |
-| Chat | No aplicable | No aplicable | No aplicable |
-| Notas de la reunión | N/D | No | N/D |
-| Whiteboard | No aplicable | No aplicable | No aplicable |
-| Grabación | N/D | No | N/D |
-| Archivos | N/D | No | N/D |
-|||||||
-
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Seguridad y Microsoft Teams](teams-security-guide.md)
+- [Planeación de eventos en vivo en Teams](teams-live-events/plan-for-teams-live-events.md)
 
-[Acceso de invitado a Teams](guest-access.md)
-
-[Planear eventos en directo en Yammer](teams-live-events/plan-for-teams-live-events.md)
+- [Introducción a los eventos en vivo de Microsoft Teams](https://support.microsoft.com/es-ES/office/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a#bkmk_productiontypes)
