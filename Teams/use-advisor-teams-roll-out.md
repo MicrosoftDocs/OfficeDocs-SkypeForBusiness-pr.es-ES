@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Use el Asesor de Teams (versión preliminar pública) para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: 5c7c0cad16c61b498da0693653979c26da4b219f
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ef9b22d7e4a3a3c3670acc766ee27cdc2c3de67c
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665262"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868157"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
@@ -89,7 +89,7 @@ Las siguientes secciones describen cada evaluación, incluyendo si algo es un re
 
 |Prueba de evaluación  |Qué le indica  |
 |---------|---------|
-|Dominio de vanidad configurado     |Si existe un dominio non-@onmicrosoft.com configurado para el inquilino (por ejemplo, @contoso.onmicrosoft.com). Puede utilizar el dominio @onmicrosoft.com, por supuesto, o puede configurar un dominio de vanidad: su elección. Para obtener más información, lea [Agregar un dominio](https://docs.microsoft.com/office365/admin/setup/add-domain). |
+|Dominio de vanidad configurado     |Si existe un dominio non-@onmicrosoft.com configurado para el inquilino (por ejemplo, @contoso.onmicrosoft.com). Puede utilizar el dominio @onmicrosoft.com, por supuesto, o puede configurar un dominio de vanidad: su elección. Para más información, lea [Agregar un dominio a Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain). |
 |Licencias de Teams     |Este es un requisito previo: usted**debe tener **licencias de Teams para poder desplegar Teams. Consulta Microsoft Graph para ver si tiene licencias de Equipos (con al menos una licencia disponible para asignar). Para obtener más información, lea la [Descripción del servicio de Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).    |
 |Licencias en línea de Exchange     |Si tiene una suscripción activa con licencias de Exchange Online disponibles. Aunque Exchange no es necesario para las funciones básicas de Teams, la integración con Exchange ofrece una experiencia de Teams óptima. Consulta Microsoft Graph para analizar las suscripciones asociadas con su arrendatario y validar si tiene suscripciones con una licencia de Exchange Online elegible (con al menos una licencia disponible para asignar). Para más información, lea [Cómo interactúan Teams y Exchange](exchange-teams-interact.md).    |
 |Licencias de SharePoint Online     |Si tiene una suscripción activa con licencias de SharePoint Online disponibles. Recomendamos una licencia de SharePoint Online por usuario para proporcionar OneDrive para la Empresa para el almacenamiento de archivos en chats Consulta Microsoft Graph para ver si tiene licencias de SharePoint Online (con al menos una licencia disponible para asignar). Para obtener más información, lea [Cómo SharePoint Online y OneDrive para la Empresa interactúan con Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).    |
@@ -102,8 +102,8 @@ Además de las [pruebas de evaluación para todas las cargas de trabajo](#assess
 
 |Prueba de evaluación  |Qué le indica  |
 |---------|---------|
-|Directiva de nomenclatura de grupos de Microsoft 365 configurada     |Si se han configurado estándares de nomenclatura para Grupos de Microsoft 365. La Directiva de nomenclatura de Grupos de Microsoft 365 permite a su organización aplicar una estrategia de asignación de nombres coherente a los equipos creados por los usuarios y también se aplica a otras cargas de trabajo de grupos (incluidos Outlook, SharePoint, Planner y Yammer). Esta prueba consulta Azure AD a través de Microsoft Graph para comprobar la existencia de directivas de nomenclatura que se aplican a los Grupos de Microsoft 365. Para obtener más información, lea la [Directiva de nomenclatura de grupos](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
-|Directiva de expiración de grupos de Microsoft 365 configurada     |Si se ha definido una Directiva de caducidad de grupo para los Grupos de Microsoft 365. Esto permite a su organización eliminar automáticamente los equipos inactivos. Está desactivado por defecto. Esta prueba consulta Azure AD a través de Microsoft Graph e informa si el valor ha sido modificado desde el valor predeterminado. Para obtener más información, lea la [Directiva de expiración de grupos](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
+|Directiva de nomenclatura de grupos de Microsoft 365 configurada     |Si se han configurado estándares de nomenclatura para Grupos de Microsoft 365. La Directiva de nomenclatura de Grupos de Microsoft 365 permite a su organización aplicar una estrategia de asignación de nombres coherente a los equipos creados por los usuarios y también se aplica a otras cargas de trabajo de grupos (incluidos Outlook, SharePoint, Planner y Yammer). Esta prueba consulta Azure AD a través de Microsoft Graph para comprobar la existencia de directivas de nomenclatura que se aplican a los Grupos de Microsoft 365. Para obtener más información, lea la [Directiva de Nomenclatura de grupos](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy).    |
+|Directiva de expiración de grupos de Microsoft 365 configurada     |Si se ha definido una Directiva de caducidad de grupo para los Grupos de Microsoft 365. Esto permite a su organización eliminar automáticamente los equipos inactivos. Está desactivado por defecto. Esta prueba consulta Azure AD a través de Microsoft Graph e informa si el valor ha sido modificado desde el valor predeterminado. Para más información, lea la [Política de Expiración de grupo de Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>Evaluaciones para reuniones y conferencias
 
