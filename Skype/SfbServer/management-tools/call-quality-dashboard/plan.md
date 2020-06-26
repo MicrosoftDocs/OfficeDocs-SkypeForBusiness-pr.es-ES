@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Resumen: Obtenga información sobre qué se debe tener en cuenta al planear el panel de calidad de llamadas.'
-ms.openlocfilehash: 63b69d64624d13253badf1d3e6f44535afdc0993
-ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
+ms.openlocfilehash: 407366fc98dc423db59ed9bf98cfe58463b708fc
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42339445"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877951"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planeación del panel de calidad de llamadas para Skype empresarial Server 
  
@@ -144,7 +144,7 @@ En una configuración multiservidor, el archivo, el cubo y el portal de QoE pued
     
 - Hospedar un portal de "desarrollo" independiente del portal de "producción". 
     
-  **Hospedar el portal web del CQD y el cubo del CQD en diferentes equipos.** Las organizaciones que podrían tener requisitos para separar el portal de CQD de la instalación de SQL Server o que quieran mezclar y hacer coincidir las ediciones de SQL Server para la instancia de SQL Server y la instancia de SQL Server Analysis Services pueden elegir instalar el portal de CQD y Cubo del CQD en máquinas diferentes. El componente de archivo de QoE también puede ser el único componente de CQD instalado si la organización simplemente desea tener un método sostenible para archivar los datos de la QoE sin alcanzar los límites de rendimiento del servidor de supervisión.
+  **Hospedar el portal web del CQD y el cubo del CQD en diferentes equipos.** Las organizaciones que podrían tener requisitos para separar el portal de CQD de la instalación de SQL Server o que quieran mezclar y hacer coincidir las ediciones de SQL Server para la instancia de SQL Server y la instancia de SQL Server Analysis Services pueden elegir instalar el portal de CQD y el cubo del CQD en diferentes equipos. El componente de archivo de QoE también puede ser el único componente de CQD instalado si la organización simplemente desea tener un método sostenible para archivar los datos de la QoE sin alcanzar los límites de rendimiento del servidor de supervisión.
   
 ![CQD de un solo servidor](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
   
@@ -195,25 +195,25 @@ En esta sección se asume que hay una sola base de datos de QoEMetrics en el ent
 
 |**Equipo**|**Núcleos de CPU**|**Memoria RAM**|**Archivo de QoE y cubo en el mismo disco**|**Archivo de QoE y base de datos Temp SQL en el mismo disco**|
 |:-----|:-----|:-----|:-----|:-----|
-|Máquina virtual  <br/> |4  <br/> |7 GB  <br/> |Sí  <br/> |Sí  <br/> |
-|4 núcleos  <br/> |4  <br/> |20 GB  <br/> |Sí  <br/> |No  <br/> |
-|8 núcleos  <br/> |8,5  <br/> |32 GB  <br/> |Sí  <br/> |No  <br/> |
+|Máquina virtual  <br/> |4   <br/> |7 GB  <br/> |Sí  <br/> |Sí  <br/> |
+|4 núcleos  <br/> |4   <br/> |20 GB  <br/> |Sí  <br/> |No  <br/> |
+|8 núcleos  <br/> |8   <br/> |32 GB  <br/> |Sí  <br/> |No  <br/> |
 |16 núcleos  <br/> |16   <br/> |128 GB  <br/> |No  <br/> |No  <br/> |
    
 **Resultados de rendimiento**
 
 |**Equipo**|**Tamaño de BD de la métrica de QoE**|**Particiones SQL**|**Tipo de disco**|**Número de transmisiones**|**Proceso inicial de archivo**|**Proceso inicial de cubo**|**Proceso de archivo subsiguiente**|**Proceso de cubo posterior**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Máquina virtual  <br/> |900 MB  <br/> |Simple  <br/> |VHD (tamaño variable)  <br/> |0,5 M  <br/> |30 m  <br/> |2 m  <br/> |30 s  <br/> |1 m  <br/> |
-|Máquina virtual  <br/> |9 GB  <br/> |Simple  <br/> |VHD (tamaño variable)  <br/> |5 M  <br/> |4 h  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
-|Máquina virtual  <br/> |9 GB  <br/> |Simple  <br/> |VHD (tamaño fijo)  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
-|Máquina virtual  <br/> |30 + GB  <br/> |Simple  <br/> |VHD (tamaño fijo)  <br/> |10 M  <br/> |15 h  <br/> |20 m  <br/> |2 m  <br/> |45 m  <br/> |
-|8 núcleos  <br/> |9 GB  <br/> |Simple  <br/> |Varios discos  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
-|8 núcleos  <br/> |9 GB  <br/> |Múltiple  <br/> |Varios discos  <br/> |5 M  <br/> |2 h  <br/> |15 m  <br/> |35 s  <br/> |2 m  <br/> |
-|8 núcleos  <br/> |30 + GB  <br/> |Simple  <br/> |Varios discos  <br/> |20 M  <br/> |9 h  <br/> |20 m  <br/> |1 m  <br/> |20 m  <br/> |
-|8 núcleos  <br/> |30 + GB  <br/> |Múltiple  <br/> |Varios discos  <br/> |20 M  <br/> |9 h  <br/> |30 m  <br/> |2 m  <br/> |2 m  <br/> |
-|4 núcleos  <br/> |200 GB  <br/> |Simple  <br/> |Varios discos  <br/> |125 M  <br/> |6 + días  <br/> |7 h  <br/> |2 m  <br/> |6 h  <br/> |
-|16 núcleos  <br/> |500 GB  <br/> |Múltiple  <br/> |Varios ejes  <br/> |250 M  <br/> |8 días  <br/> |2 h  <br/> |2 m  <br/> |10 m  <br/> |
+|Máquina virtual  <br/> |900 MB  <br/> |Simples  <br/> |VHD (tamaño variable)  <br/> |0,5 M  <br/> |30 m  <br/> |2 m  <br/> |30 s  <br/> |1 m  <br/> |
+|Máquina virtual  <br/> |9 GB  <br/> |Simples  <br/> |VHD (tamaño variable)  <br/> |5 M  <br/> |4 h  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
+|Máquina virtual  <br/> |9 GB  <br/> |Simples  <br/> |VHD (tamaño fijo)  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
+|Máquina virtual  <br/> |30 + GB  <br/> |Simples  <br/> |VHD (tamaño fijo)  <br/> |10 M  <br/> |15 h  <br/> |20 m  <br/> |2 m  <br/> |45 m  <br/> |
+|8 núcleos  <br/> |9 GB  <br/> |Simples  <br/> |Varios discos  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
+|8 núcleos  <br/> |9 GB  <br/> |Múltiples  <br/> |Varios discos  <br/> |5 M  <br/> |2 h  <br/> |15 m  <br/> |35 s  <br/> |2 m  <br/> |
+|8 núcleos  <br/> |30 + GB  <br/> |Simples  <br/> |Varios discos  <br/> |20 M  <br/> |9 h  <br/> |20 m  <br/> |1 m  <br/> |20 m  <br/> |
+|8 núcleos  <br/> |30 + GB  <br/> |Múltiples  <br/> |Varios discos  <br/> |20 M  <br/> |9 h  <br/> |30 m  <br/> |2 m  <br/> |2 m  <br/> |
+|4 núcleos  <br/> |200 GB  <br/> |Simples  <br/> |Varios discos  <br/> |125 M  <br/> |6 + días  <br/> |7 h  <br/> |2 m  <br/> |6 h  <br/> |
+|16 núcleos  <br/> |500 GB  <br/> |Múltiples  <br/> |Varios ejes  <br/> |250 M  <br/> |8 días  <br/> |2 h  <br/> |2 m  <br/> |10 m  <br/> |
    
 \*No se espera que se encuentren en implementaciones reales, ya que la base de datos de la calidad de la QoE debe tener 9 y 18 meses de datos, respectivamente, pero se proporcionan aquí para estar completos.
   
@@ -267,7 +267,7 @@ Los siguientes son los servicios de rol de IIS necesarios (en orden jerárquico)
     
   - Filtros ISAPI
     
-  - Diagnósticos de mantenimiento &amp;
+  - &amp;Diagnósticos de mantenimiento
     
   - Registro HTTP
     
@@ -282,7 +282,7 @@ Los siguientes son los servicios de rol de IIS necesarios (en orden jerárquico)
   - Consola de administración de IIS
     
 > [!NOTE]
->  Tenga en cuenta lo siguiente para los requisitos anteriores: > 3,5 y 4,5 están disponibles las versiones de .NET Framework. Se requieren ambos (más concretamente, se requiere 3,5 SP1). > en algunos sistemas, si ASP.NET se configura antes de instalar IIS, entonces ASP.NET puede no estar registrado en IIS. El problema manifiesta a través de la ausencia de grupos de aplicaciones para la versión de .net correspondiente y también falta la versión de .NET CLR en la configuración del grupo de aplicaciones. Para corregir este problema en Windows Server 2008 R2, ejecute `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`. En Windows Server 2012 y Windows Server 2012 R2, ejecute `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` y, a continuación, quite el módulo "ServiceModel" del sitio web predeterminado en el administrador de IIS. > las herramientas de administración son opcionales, pero recomendadas.
+>  Tenga en cuenta lo siguiente para los requisitos anteriores: > 3,5 y 4,5 están disponibles las versiones de .NET Framework. Se requieren ambos (más concretamente, se requiere 3,5 SP1). > en algunos sistemas, si ASP.NET se configura antes de instalar IIS, entonces ASP.NET puede no estar registrado en IIS. El problema manifiesta a través de la ausencia de grupos de aplicaciones para la versión de .net correspondiente y también falta la versión de .NET CLR en la configuración del grupo de aplicaciones. Para corregir este problema en Windows Server 2008 R2, ejecute `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru` . En Windows Server 2012 y Windows Server 2012 R2, ejecute y, `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` a continuación, quite el módulo "ServiceModel" del sitio web predeterminado en el administrador de IIS. > las herramientas de administración son opcionales, pero recomendadas.
   
 Para instalar estos requisitos con PowerShell, ejecute lo siguiente:
   
@@ -318,6 +318,9 @@ Para obtener más información sobre la instalación y la configuración de las 
 Se recomiendan tres cuentas de servicio de dominio en el principio de privilegios mínimos: 
   
 - Uno que ya tiene una entidad de seguridad de inicio de sesión para la base de datos de QoE Metrics (con db_datareader privilegio) y una entidad de seguridad de inicio de sesión en la instancia de archivo de SQL Server de QoE (necesario para crear un objeto de servidor vinculado durante la instalación). Esta cuenta se utilizará para ejecutar el paso "datos del archivo QoE" del trabajo del Agente SQL Server.
+    
+    > [!NOTE]
+    > Si está trabajando en un entorno muy bloqueado, debe comprobar que esta cuenta de servicio tiene realmente el permiso de usuario "iniciar sesión como trabajo por lotes" y "permitir el inicio de sesión local" en el SQL Server de la base de datos de supervisión de calidad QoE y el SQL Server de archivo QoE.
     
 - Una que se usará para ejecutar el paso "procesar cubo" del trabajo del Agente SQL Server. El programa de instalación creará una entidad de seguridad de inicio de sesión para la base de datos de archivo de QoE (con privilegio de lectura y escritura) y también crea un miembro en el rol de QoE (con control total) para el cubo.
     

@@ -1,9 +1,9 @@
 ---
-title: Disponibilidad en Argelia
-author: LanaChin
-ms.author: v-lanac
+title: Disponibilidad en Bangladesh
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,25 +23,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Argelia.
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: Estos son los servicios de Microsoft 365 y de Office 365 para Skype empresarial y Microsoft Teams disponibles para Bangladesh.
+ms.openlocfilehash: 1ec0337d6c63f97197908375c2c8a3712f5b9621
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877901"
+ms.locfileid: "44878081"
 ---
-# <a name="availability-in-algeria"></a>Disponibilidad en Argelia
+# <a name="availability-in-bangladesh"></a>Disponibilidad en Bangladesh
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Argelia.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Bangladash.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿La audioconferencia está disponible para la compra?  <br/> |Sí. Solo paga por minuto.  <br/> |
+|¿La audioconferencia está disponible para la compra?  <br/> |Sí. Solo paga por minuto. <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> | No |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | Requiere créditos de comunicaciones <br/> |
    

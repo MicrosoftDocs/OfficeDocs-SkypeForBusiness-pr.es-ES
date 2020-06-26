@@ -1,9 +1,9 @@
 ---
-title: Disponibilidad en Argelia
-author: LanaChin
-ms.author: v-lanac
+title: Disponibilidad en Islas Turcas y Caicos
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,25 +23,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Argelia.
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Islas Turcas y Caicos.
+ms.openlocfilehash: c3aa3f7f653996cbc5518d89095ff231b88798c8
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877901"
+ms.locfileid: "44878079"
 ---
-# <a name="availability-in-algeria"></a>Disponibilidad en Argelia
+# <a name="availability-in-turks-and-caicos-islands"></a>Disponibilidad en Islas Turcas y Caicos
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Argelia.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Islas Turcas y Caicos.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿La audioconferencia está disponible para la compra?  <br/> |Sí. Solo paga por minuto.  <br/> |
+|¿La audioconferencia está disponible para la compra?  <br/> |Sí. Solo paga por minuto. <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> | No |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | Requiere créditos de comunicaciones <br/> |
    
@@ -68,9 +68,9 @@ Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el 
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | No geográficos. Los números de teléfono no se vinculan a una ciudad o ubicación específica. <br/> |
-|¿Hay números de pago disponibles?  <br/> |No geográficos ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|¿Hay números gratuitos disponibles?  <br/> |No  <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | No aplicable<br/> |
+|¿Hay números de pago disponibles?  <br/> |No<br/> |
+|¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    
  Si quiere números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, vea [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   

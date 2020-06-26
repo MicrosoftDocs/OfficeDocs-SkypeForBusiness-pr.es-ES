@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede leer las notas de la versión de las salas de Microsoft Teams, que enumeran las mejoras acumulativas de las salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f59242fd3877ff1a075668a405a558f0fe18c374
-ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
+ms.openlocfilehash: 7d2b03a954661920b2c31d03081f7d6853e06b12
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761458"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877921"
 ---
 # <a name="release-notes"></a>Notas de la versión
 
@@ -29,6 +29,7 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 
 |Prensa |Publicado en <br/> Microsoft Store |
 |--- |--- |
+|4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
 |4.3.42.0 |03/02/2020 |
@@ -63,6 +64,13 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introducción a la característica salas de Microsoft Teams y problemas
+
+### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
+
+Introdujo en esta actualización:
+- Correcciones de calidad y confiabilidad
+- Corrección para el problema "la aplicación no se inicia después de la actualización a 4.4.41.0"
+
 
 ### <a name="44410-05062020"></a>4.4.41.0 (05/06/2020)
 

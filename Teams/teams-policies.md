@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: f046a21ee0ff0bf4fe49feea2c4a38702516227a
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: b28b61a6b2d4c441fc69d0e50124df50f95b4a49
+ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690966"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44889979"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Administrar directivas de Teams en Microsoft Teams
 
@@ -48,7 +48,7 @@ Puede editar la directiva global o crear y asignar una directiva personalizada. 
     ![Captura de pantalla de la configuración de directiva de Teams](media/teams-policies.png)
 4. Elija la configuración que desee:
 
-- **Descubrir equipos privados**:<a name="discoverteams"> </a> Active esta opción para permitir que los usuarios detecten equipos privados en los resultados de búsqueda y en la galería de equipos.
+- **Descubrir equipos privados** (en la versión preliminar privada<a name="discoverteams"> </a> ): Active esta configuración para permitir que los usuarios detecten equipos privados en los resultados de búsqueda y en la galería de equipos.
 - **Crear canales privados**: <a name="createchannels"> </a>Active esta opción para permitir a los usuarios crear canales privados.
 
 5. Haga clic en **Guardar **.
