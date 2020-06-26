@@ -18,12 +18,12 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ae4b4c06d6340c89cf41e271db8bcd359f27d211
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 424798b7f9acf1445510eb6a072631dda9501307
+ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689736"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854112"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -67,6 +67,14 @@ El usuario debe tener:
 
 > [!IMPORTANT]
 > Los usuarios anónimos sin autenticar no pueden ser invitados como productores ni moderadores de los eventos en directo de Teams.
+
+Para que un invitado pueda presentar en un evento en directo, haga lo siguiente:
+
+1. [Agregue el usuario como invitado a un equipo](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
+2. Pida al usuario que acepte la invitación y se una al equipo.
+3. [Programe el evento en directo y agregue el invitado al grupo de eventos](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
+
+Recomendamos que cree un canal para los productores y moderadores del evento en directo para que puedan chatear y compartir información antes del evento. Los invitados que no dispongan de credenciales de Microsoft 365 no podrán ver el calendario en Teams. Para que sea más fácil para ellos unirse al evento, los productores pueden publicar el vínculo del evento en el canal. Los moderadores pueden abrir Teams, ir al canal y, después, hacer clic en el vínculo para unirse al evento. 
 
 ## <a name="who-can-watch-live-events"></a>¿Quién puede ver los eventos en directo?
 
@@ -117,7 +125,7 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 |Subtítulos en directo y otros subtítulos |&#x2714; |&#x2714; |&#x274C; |
 |Subtítulos para las grabaciones de eventos en directo |&#x2714; |&#x2714; |&#x2714; |
 |Controles DVR de los asistentes (pausa, retroceso) |&#x2714; |&#x2714; |&#x2714; |
-|Soporte técnico eCDN Partner |&#x2714; (Kollective, Ramp) |&#x2714; (Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
+|Soporte técnico eCDN Partner |&#x2714; (Kollective, Hive) |&#x2714; (Kollective, Hive) |&#x2714; (Hive, Kollective, Ramp) |
 |Informe de asistencia posterior a la difusión para los productores |&#x2714; |&#x2714; |&#x274C; |
 |Análisis de opiniones de los asistentes: votación y sondeos en directo |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 

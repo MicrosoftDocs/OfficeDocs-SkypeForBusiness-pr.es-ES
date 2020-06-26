@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9579edfb8571f6d7d3ddf86eb6ce56c2a7e4fb85
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 97f7e653e345c8e2448f0519087c5f6eb6b600d1
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042817"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868547"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>Administrar la Prueba de Office 365 G1 para el gobierno de Estados Unidos 
 ==============================
@@ -78,7 +78,7 @@ Para obtener más información, vea [Teams para Administración Pública](expand
 
   - Si quiere a eliminar la licencia con PowerShell, consulte:  [Eliminar licencias de cuentas de usuario con PowerShell de Office 365](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-  - Si quiere eliminar esta licencia a través del portal de administración, consulte:  [Quitar licencias de usuarios en Office 365](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+  - Si quiere eliminar esta licencia a través del portal de administración, consulte: [Borrar a un usuario de su organización](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
 
 ## <a name="related-topics"></a>Temas relacionados
 
