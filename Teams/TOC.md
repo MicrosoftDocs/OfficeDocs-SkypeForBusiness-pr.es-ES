@@ -217,6 +217,7 @@
 ## Eventos en directo
 ### [¿Qué son los eventos en directo en Teams?](teams-live-events/what-are-teams-live-events.md)
 ### [Planear eventos en directo en Teams](teams-live-events/plan-for-teams-live-events.md)
+### [Funcionalidades de presentador, productor y asistente en un evento en vivo de Teams](roles-in-live-events.md)
 ### [Configuración de eventos en directo en Teams](teams-live-events/set-up-for-teams-live-events.md)
 ### [Usar PowerShell para establecer directivas de eventos en directo en Microsoft Teams](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Establecer la configuración de eventos en directo en Microsoft Teams](teams-live-events/configure-teams-live-events.md)
@@ -508,31 +509,31 @@
 
 ## Planear el recorrido de actualización
 
-### [Información general de la planificación de la actualización](upgrade-plan-journey.md)
-### [Incorporar a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
-### [Definir el ámbito del proyecto](upgrade-define-project-scope.md)
-### [Entender la coexistencia e interoperabilidad](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-### [Elegir su recorrido de actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [Reuniones primero](meetings-first.md)
+### Planear el proyecto y los requisitos 
+#### [Información general](upgrade-plan-journey.md)
+#### [Incorporar a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
+#### [Definir el ámbito del proyecto](upgrade-define-project-scope.md)
+#### [Entender la coexistencia e interoperabilidad](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Elegir su recorrido de actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+#### [Planear una prueba piloto de usuario](pilot-essentials.md)
 
-## Preparar el entorno para Teams
-### [Información general sobre la preparación técnica](upgrade-prepare-environment.md)
-### [Preparar al personal de TI para Teams](upgrade-prepare-IT-pros.md)
-### [Requisitos previos](upgrade-plan-journey-prerequisites.md)
-### [Evaluar el entorno](upgrade-plan-journey-evaluate-environment.md) 
-### [Preparar los servicios](upgrade-prepare-environment-prepare-service.md)
 
-## Prepare a su organización para Teams
-### [Información general sobre la preparación de su organización](upgrade-prepare-organization.md)
-### [Evaluar si la organización está preparada para el cambio](upgrade-org-change-readiness.md)
-### [Preparar un plan de preparación del usuario](upgrade-user-readiness.md)
+### Preparar el entorno para Teams
+#### [Información general sobre la preparación técnica](upgrade-prepare-environment.md)
+#### [Preparar al personal de TI para Teams](upgrade-prepare-IT-pros.md)
+#### [Requisitos previos](upgrade-plan-journey-prerequisites.md)
+#### [Evaluar el entorno](upgrade-plan-journey-evaluate-environment.md) 
+#### [Preparar los servicios](upgrade-prepare-environment-prepare-service.md)
+
+### Prepare a su organización para Teams
+#### [Información general sobre la preparación de su organización](upgrade-prepare-organization.md)
+#### [Evaluar si la organización está preparada para el cambio](upgrade-org-change-readiness.md)
+#### [Preparar un plan de preparación del usuario](upgrade-user-readiness.md)
 
 
 ## Implementar la actualización
 ### [Información general](upgrade-to-Teams.md)
-### [Llevar a cabo un piloto del usuario](pilot-essentials.md)
 ### [Actualizar Skype Empresarial Online a Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-
 ### [Actualizar Skype Empresarial local a Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
@@ -551,6 +552,9 @@
 ### [Coexistencia con Skype Empresarial](coexistence-chat-calls-presence.md)
 ### [Experiencia del cliente de Teams y cumplimiento con los modos de coexistencia](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [Establecer configuración de actualización y coexistencia](setting-your-coexistence-and-upgrade-settings.md)
+
+
+### [Reuniones primero](meetings-first.md)
 
 
 <!-- ============================================================ -->
@@ -719,7 +723,7 @@
 ## [Usar los archivos de registro para solucionar problemas en Teams](log-files.md)
 ## [Preguntas más frecuentes: Soporte para los trabajadores remotos](FAQ-support-remote-workforce.md)
 ## [Comprobar el estado del servicio para Microsoft Teams](service-health.md)
-## [Recursos de soporte técnico para Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Contactar con el soporte técnico para productos empresariales: ayuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 <!-- ============================================================ -->
   
@@ -738,7 +742,6 @@
 ### [Plan para los grupos de Microsoft 365 cuando se crean equipos en Teams](plan-office-365-groups.md)
 ### [Plan para la administración del ciclo de vida en Teams](plan-teams-lifecycle.md)
 ### [Planificar el gobierno en Teams](plan-teams-governance.md)
-### [Use el Asistente para pruebas de red](use-network-testing-companion.md)
 
 ## Instalar Teams
 ### [Obtener clientes para Microsoft Teams](get-clients.md)

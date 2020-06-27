@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
-ms.openlocfilehash: 6765b67498cb3e3ade6104ff86fc49d9be3384f1
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 0255787a3a239310dd1bd62ec44e79e7cf6507c5
+ms.sourcegitcommit: b257e11ba5506b5a105b438dcade4f12805d9595
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523453"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "44908993"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -39,7 +39,7 @@ En Microsoft estamos encantados de ofrecer una serie de clases en línea y en di
                         <a href="#home-all" data-linktype="self-bookmark"></a>
                         <ul id="home-all" class="panelContent cardsF cols cols3">        
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/SayHellotoTeams"target="_blank">
+        <a href="https://aka.ms/SayhelloTeams"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -59,7 +59,7 @@ En Microsoft estamos encantados de ofrecer una serie de clases en línea y en di
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams"target="_blank">
+        <a href="https://aka.ms/GetstartedwithMSTeams"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -79,7 +79,7 @@ En Microsoft estamos encantados de ofrecer una serie de clases en línea y en di
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings"target="_blank">
+        <a href="https://aka.ms/RunmeetingsTeams"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -99,7 +99,7 @@ En Microsoft estamos encantados de ofrecer una serie de clases en línea y en di
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/teamschannels"target="_blank">
+        <a href="https://aka.ms/TeamsandchannelsinTeams"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -119,7 +119,7 @@ En Microsoft estamos encantados de ofrecer una serie de clases en línea y en di
         </a>
     </li>
     <li>
-        <a href="https://aka.ms/LearnTeamsApps"target="_blank">
+        <a href="https://aka.ms/IntegrateappsinTeams"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -139,7 +139,7 @@ En Microsoft estamos encantados de ofrecer una serie de clases en línea y en di
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks"target="_blank">
+        <a href="https://aka.ms/GodeeperwithTeams"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -179,7 +179,7 @@ En Microsoft estamos encantados de ofrecer una serie de clases en línea y en di
         </a>
     </li>
     <li>
-        <a href="https://aka.ms/TeamsAtHome"target="_blank">
+        <a href="https://aka.ms/WorkathomewithTeams"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

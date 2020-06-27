@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5ddcee5fbf1932096015c6136f1d377d23862e3
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 2b82830041736751685807e2cda652fc4ab8525d
+ms.sourcegitcommit: b257e11ba5506b5a105b438dcade4f12805d9595
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522613"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "44909003"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -41,7 +41,7 @@ ms.locfileid: "44522613"
                         <a href="#home-all" data-linktype="self-bookmark"></a>
                         <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30GetStarted"target="_blank">
+        <a href="https://aka.ms/GetstartedT30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -61,7 +61,7 @@ ms.locfileid: "44522613"
         </a>
     </li>
    <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
+        <a href="https://aka.ms/ReadyendusersT30"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -80,7 +80,7 @@ ms.locfileid: "44522613"
         </a>
     </li>
         <li> 
-        <a href="https://microsoftteams.eventbuilder.com/T30PrepareI"target="_blank"">
+        <a href="https://aka.ms/Preparepart1T30"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -98,7 +98,7 @@ ms.locfileid: "44522613"
         </div>
         </a>
     </li> <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30PrepareII"target="_blank"">
+        <a href="https://aka.ms/Preparepart2T30"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -117,7 +117,7 @@ ms.locfileid: "44522613"
         </a>
     </li> 
  <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30Optimize"target="_blank"">
+        <a href="https://aka.ms/OptimizeexpandT30"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
