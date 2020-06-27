@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ab528740947fa7efdd0608cec309757c3bb5eb2
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 088643de889ee27d717d167b6166b9a43ec69256
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689726"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902295"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
@@ -76,7 +76,7 @@ La plataforma de transmisión por secuencias de eventos en directo consta de las
 El objetivo de eCDN es tomar el contenido de video de Internet y distribuir el contenido en toda la empresa sin afectar al rendimiento de la red. Puede usar uno de los siguientes socios certificados de eCDN para optimizar su red para eventos en directo de su organización:
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
-- [Movimiento](http://www.ramp.com)
+- [Movimiento](https://rampecdn.com)
 
 ### <a name="attendee-experience"></a>Experiencia de asistente 
 La experiencia de los asistentes es el aspecto más importante de los eventos en directo y es fundamental que los asistentes puedan participar en el evento en vivo sin tener ningún problema. La experiencia de asistente usa el reproductor de flujo (para eventos generados en Teams) y el reproductor multimedia de Azure (para eventos generados en una aplicación o dispositivo externo) y funciona a través de equipos de escritorio, exploradores y móviles (iOS, Android). Microsoft 365 y Office 365 proporcionan Yammer y Teams como dos concentradores de colaboración y la experiencia de los asistentes en vivo se integra en estas herramientas de colaboración. 
@@ -86,12 +86,12 @@ La experiencia de los asistentes es el aspecto más importante de los eventos en
 ### <a name="live-event-usage-report"></a>Informe de uso de eventos en directo 
 Los administradores de inquilinos pueden ver análisis de uso de tiempo real de eventos en directo en el centro de administración de Microsoft Teams.  El [Informe de uso de eventos en directo](../teams-analytics-and-reports/teams-live-event-usage-report.md) muestra la información general de actividad de los eventos en directo que se mantienen en la organización.  Los administradores pueden ver la información de uso de eventos, como el estado de los eventos, la hora de inicio, las vistas y el tipo de producción.  
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 Vaya a [planificar eventos en vivo de Teams](plan-for-teams-live-events.md).
 
 ### <a name="related-topics"></a>Temas relacionados
 - [Eventos en directo de Microsoft 365 en Yammer, Microsoft Teams y Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
-- [Introducción a los eventos de Microsoft Teams Live](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
+- [Introducción a los eventos en vivo de Microsoft Teams](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Eventos en directo en Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
 - [Eventos en directo de Microsoft Stream](https://docs.microsoft.com/stream/live-event-overview)
 

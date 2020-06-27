@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ccbdf48463ab504c1eac51b9558d3edb07533c70
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e091cc9c5d6f3ce55ea9e64473759afbd59df2c4
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666182"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902275"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Directivas de retención en Microsoft Teams
 
@@ -59,7 +59,7 @@ La licencia, mínima requerida, para las directivas de retención es Office 365 
 
 ## <a name="how-teams-retention-policies-work"></a>Cómo funcionan las directivas de retención de Teams
 
-Los chats de Teams se almacenan en una carpeta SubstrateHolds oculta en el buzón de cada usuario en el chat, y los mensajes de canal de Teams se almacenan en una carpeta SubstratesHolds oculta en el buzón de grupo para el equipo. Teams usa un servicio de chat con tecnología de Azure que también almacena estos datos. Además, este servicio almacena los datos indefinidamente de manera predeterminada. Con una directiva de retención de Teams, al eliminar datos, los datos se eliminan de forma permanente de los buzones de Exchange y del servicio de charla subyacente.
+Las conversaciones de Teams se almacenan en una carpeta oculta: Teamschat en el buzón de cada usuario de la conversación, y los mensajes de canal de equipos se almacenan en una carpeta oculta, Teamschat-en el buzón de grupo de un equipo. Teams usa un servicio de chat con tecnología de Azure que también almacena estos datos. Además, este servicio almacena los datos indefinidamente de manera predeterminada. Con una directiva de retención de Teams, al eliminar datos, los datos se eliminan de forma permanente de los buzones de Exchange y del servicio de charla subyacente.
 
 Al aplicar una directiva de retención a los mensajes de canal y chats de Teams, esto es lo que ocurre:
 
@@ -83,7 +83,7 @@ Estas son algunas consideraciones y limitaciones que debe tener en cuenta al tra
 
 - Teams no es compatibles con la configuración avanzada de retención, como la posibilidad de aplicar una directiva al contenido que contiene palabras clave o información confidencial. Actualmente, las directivas de retención de Teams se aplican a todo el contenido de mensajes de canal y/o chat.
 
-- Teams puede demorar entre tres y siete días en limpiar los mensajes caducados. Una directiva de retención de Teams eliminará los mensajes de canal y chats cuando concluya el período de retención. Sin embargo, puede demorar entre tres y siete días limpiar estos mensajes y eliminarlos de forma permanente. Además, los mensajes de canal y chats se podrán buscar con las herramientas de eDiscovery entre el momento en que concluya el período de retención y cuando los mensajes se eliminen de forma permanente.
+- Una directiva de retención de equipos desencadenará un proceso, en un día, para eliminar los mensajes de chat y de canal cuando vence el período de retención. Sin embargo, puede demorar entre tres y siete días limpiar estos mensajes y eliminarlos de forma permanente. Además, los mensajes de canal y chats se podrán buscar con las herramientas de eDiscovery entre el momento en que concluya el período de retención y cuando los mensajes se eliminen de forma permanente.
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>Múltiples directivas de retención y los principios de la retención
 
