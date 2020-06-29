@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d6e4e8989bf26e4a907deec550d18f344728129
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 0189c6072840582854b276f0c0116e03fcaff3c0
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868307"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877821"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Iniciar sesión en Microsoft Teams con la autenticación moderna
 ==========================
@@ -66,6 +66,10 @@ Al iniciar sesión, los usuarios de móviles verán una lista de todas las cuent
 1. Si la cuenta seleccionada está actualmente conectada a otras aplicaciones de Office 365 o Microsoft 365, entonces el usuario será llevado directamente a Teams. No es necesario que el usuario introduzca sus credenciales.
     
 2. Si el usuario no ha iniciado sesión en su cuenta de Microsoft 365 en ningún otro lugar, se le pedirá que proporcione una autenticación de factor único o multifactorial (SFA o MFA), dependiendo de lo que su organización haya configurado para las directivas de inicio de sesión móvil.
+
+> [!NOTE]
+> Para que los usuarios puedan experimentar la experiencia de inicio de sesión tal y como se describe en esta sección, sus dispositivos deben ejecutar Teams para iOS, versión 2.0.13 (compilación 2020061704) o posterior, o bien Teams para Android, versión 1416/1.0.0.2020061702 o posterior.
+
 
 ### <a name="adding-multiple-accounts-to-teams"></a>Agregar varias cuentas a Teams
 
