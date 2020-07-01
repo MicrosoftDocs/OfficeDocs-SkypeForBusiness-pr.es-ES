@@ -131,7 +131,6 @@
 ## [Inicio rápido: reuniones y eventos en vivo](quick-start-meetings-live-events.md)
 ## [Planear la implementación](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Reuniones en Teams](Tutorial-Meetings-in-Teams.yml)
-## [Funciones del moderador y participante en una reunión de Teams](roles-in-meetings.md)
 ## [Administrar directivas de reunión](meeting-policies-in-teams.md)
 ## [Administrar la configuración de reuniones](meeting-settings-in-teams.md)
 ## [Correos electrónicos que se envían a los usuarios cuando cambia la configuración](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -626,12 +625,7 @@
 ## [Introducción a las plantillas de Teams](get-started-with-teams-templates.md)
 ## [Aplicación de reservas y visitas virtuales](bookings-app-admin.md)
 ## [Turnos para Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-### [Se retirará Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [Instalar el módulo de PowerShell de Microsoft StaffHub](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
-### [Ejecutar un informe para mostrar el uso de StaffHub activo](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
-### [Planificar el traslado de los equipos de StaffHub a Turnos en Microsoft Teams](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
-### [Mover los equipos de Microsoft StaffHub a Turnos en Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Ejemplo de comunicación de correo electrónico a los usuarios](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
+### [Se ha retirado Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Administrar la aplicación Turnos para su organización en Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## Teams para sanidad

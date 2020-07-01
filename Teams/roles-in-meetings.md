@@ -17,12 +17,12 @@ description: Obtenga información sobre las funciones de moderadores y participa
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: c8433d4caa0defbe83114ac4027c10b6bf61a725
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: b0302a5c1f09e6ed6bfbb877709ed3562ce1440a
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702695"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938179"
 ---
 <a name="presenter-and-participant-capabilities-in-a-teams-meeting"></a>Funciones del moderador y participante en una reunión de Teams
 ======================================================
@@ -36,6 +36,8 @@ Las características de la reunión disponibles son:
 - Whiteboard
 - Grabación
 - Archivos
+    - compartir un archivo en una reunión de chat y ver o descargar un archivo de un chat de conferencia
+    - presentar un PPT en una reunión (no a través de pantalla compartida) y ver un PPT en una reunión
 - Programar una reunión (solo para reuniones)
 
 Este artículo describe las funciones de los participantes y qué acceso tienen para las características de las reuniones.
@@ -62,14 +64,15 @@ Existen varios tipos de participantes en una reunión:
 
 El participante del espacio empresarial pertenece a la organización y tiene credenciales para el espacio empresarial. Más información sobre este participante en [Seguridad y Microsoft Teams](teams-security-guide.md#participant-types).
 
-|Reunión  |  | |||
+|  |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Característica**        | Antes de la reunión | Durante una reunión | Después de la reunión |
 | Chat | Sí | Sí | Sí |
 | Notas de la reunión | Sí | Sí |Sí |
 | Whiteboard | Sí | Sí |Sí |
 | Grabación | N/D |Sí | Sí |
-| Archivos | Sí | Sí | Sí |
+| Archivos: compartir un archivo en una reunión de chat y ver o descargar un archivo de un chat de reunión | Sí | Sí | Sí |
+| Archivos: presentar un PPT en una reunión (no a través de pantalla compartida) y ver un PPT en una reunión | Sí | Sí | Sí |
 | Programar una reunión | Sí | N/D | N/D |
 |||||||
 
@@ -77,14 +80,15 @@ El participante del espacio empresarial pertenece a la organización y tiene cre
 
 Un participante invitado es alguien de otra organización que ha sido invitado a acceder a Teams u otros recursos en el espacio empresarial de su organización, basado en la plataforma B2B de Azure Active Directory. Se puede invitar a usuarios invitados a unirse a reuniones periódicas y reuniones de canal. Más información sobre un participante invitado en [Cómo es la experiencia de invitado](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
-| Reunión |  | |||
+|  |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Característica**        | Antes de la reunión | Durante una reunión | Después de la reunión |
 | Chat | Sí | Sí | Sí |
 | Notas de la reunión | Sí | Sí | Sí |
 | Whiteboard | No | No |No |
 | Grabación | N/D |No | No |
-| Archivos | Sí | Sí | Sí |
+| Archivos: compartir un archivo en una reunión de chat y ver o descargar un archivo de un chat de reunión | Sí | Sí | Sí |
+| Archivos: presentar un PPT en una reunión (no a través de pantalla compartida) y ver un PPT en una reunión | Sí | Sí | Sí |
 | Programar una reunión | No | N/D | N/D |
 |||||||
 
@@ -92,14 +96,15 @@ Un participante invitado es alguien de otra organización que ha sido invitado a
 
 Un participante externo es alguien que usa Teams en otra organización que ha sido invitado a unirse a una reunión, pero que de otra manera no tiene acceso a otros recursos compartidos de su organización. Los participantes que son usuarios externos aparecen en la lista de la reunión con el mismo nombre de identidad que tienen en su propia organización. Lea más sobre un participante externo en [Comunicarse con usuarios de otras organizaciones ](communicate-with-users-from-other-organizations.md#external-access).
 
-| Reunión ||
+|  ||
 |-|-|-|
 | **Característica** |||
 | Chat | Sí |
 | Notas de la reunión | N/D |  
 | Whiteboard | N/D |
 | Grabación | N/D |  
-| Archivos | N/D |
+| Archivos: compartir un archivo en una reunión de chat y ver o descargar un archivo de un chat de reunión |  |  |  |
+| Archivos: presentar un PPT en una reunión (no a través de pantalla compartida) y ver un PPT en una reunión |  |  |  |
 | Programar una reunión | N/D |
 |||
 
@@ -107,14 +112,15 @@ Un participante externo es alguien que usa Teams en otra organización que ha si
 
 El participante anónimo es como un usuario externo, pero su identidad no se proyecta en la reunión. En el momento de unirse, escribe manualmente un alias. Más información sobre un participante anónimo en [Seguridad y Microsoft Teams](teams-security-guide.md#participant-types).
 
-| Reunión  | | |||
+|   | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Característica**        | Antes de la reunión | Durante una reunión | Después de la reunión |
 | Chat | No aplicable | Sí | No aplicable |
 | Notas de la reunión | N/D | No | N/D |
 | Whiteboard | N/D | No | N/D |
 | Grabación | N/D | No | N/D |
-| Archivos | N/D | No | N/D |
+| Archivos: compartir un archivo en una reunión de chat y ver o descargar un archivo de un chat de reunión |  |  |  |
+| Archivos: presentar un PPT en una reunión (no a través de pantalla compartida) y ver un PPT en una reunión |  |  |  |
 | Programar una reunión | N/D | No aplicable | N/D |
 |||||||
 
