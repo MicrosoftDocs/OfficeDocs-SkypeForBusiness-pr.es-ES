@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Aprenda a usar el centro de administración de Microsoft Teams o Windows PowerShell para crear y administrar planes de marcado (planes de marcado de llamadas RTC).
-ms.openlocfilehash: 966ac2e21d3bc57dd32a0b2732e0be285b9fdf0d
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0e5f45ecdb92843a77bd7a957b1b7c31b3403b92
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691346"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938239"
 ---
 # <a name="create-and-manage-dial-plans"></a>Crear y administrar planes de marcado
 
@@ -60,13 +60,9 @@ Después de planear los planes de marcado de su organización y de haber averigu
 2. Seleccione el plan de marcado haciendo clic a la izquierda del nombre del plan de marcado y, a continuación, haga clic en **Editar**.
 3. Realice los cambios que desee y, a continuación, haga clic en **Guardar**.
 
-### <a name="add-users-to-a-dial-plan"></a>Agregar usuarios a un plan de marcado
+### <a name="assign-a-dial-plan-to-users"></a>Asignar un plan de marcado a los usuarios
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**.
-2. Seleccione el usuario haciendo clic en el nombre para mostrar.
-3. Seleccione la pestaña **directivas** .
-4. Haga clic en **Editar** a la derecha de directivas asignadas.
-5. En el menú desplegable del **plan de marcado** , seleccione el plan de marcado que desea asignar al usuario y, a continuación, haga clic en **aplicar**.
+Asigne un plan de marcado de la misma forma en que asigna directivas. [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="using-powershell"></a>Con PowerShell
   

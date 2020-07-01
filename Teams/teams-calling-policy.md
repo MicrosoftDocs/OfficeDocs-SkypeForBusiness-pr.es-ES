@@ -19,17 +19,19 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a67952854f608512e88786c2b49d1e2ad8dfcf9
-ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
+ms.openlocfilehash: 030be626574e7acd3aa2116595acaba757eaa5af
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "44592825"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44942028"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Directivas de llamadas en Microsoft Teams
 ===================================
 
-En Microsoft Teams, las directivas de llamadas controlan qué características de llamadas y desvío de llamadas están disponibles para los usuarios. Las políticas de llamadas determinan si un usuario puede hacer llamadas privadas, usar el desvío de llamadas o llamar de forma simultánea a otros usuarios o números de teléfono externos, enrutar llamadas al buzón de voz, enviar llamadas a grupos de llamadas, usar la delegación para llamadas entrantes y salientes, etc. Se crea automáticamente una directiva global predeterminada, pero los administradores también pueden crear y asignar directivas de llamadas personalizadas.
+En Microsoft Teams, las directivas de llamadas controlan qué características de llamadas y desvío de llamadas están disponibles para los usuarios. Las políticas de llamadas determinan si un usuario puede hacer llamadas privadas, usar el desvío de llamadas o llamar de forma simultánea a otros usuarios o números de teléfono externos, enrutar llamadas al buzón de voz, enviar llamadas a grupos de llamadas, usar la delegación para llamadas entrantes y salientes, etc.
+
+Puede usar la directiva global (predeterminada para toda la organización) que se crea automáticamente o crear y asignar directivas personalizadas.
 
 ## <a name="create-a-custom-calling-policy"></a>Crear una directiva de llamadas personalizada
 
@@ -41,9 +43,9 @@ Siga estos pasos para crear una directiva de llamadas personalizada.
 4. Para controlar si los usuarios pueden enrutar llamadas entrantes al buzón de voz, seleccione **habilitado** o controlado por el **usuario**. Para evitar el enrutamiento al buzón de voz, seleccione **deshabilitado**.
 5. Seleccione **Guardar**.
 
-## <a name="modify-an-existing-calling-policy"></a>Modificar una directiva de llamadas existente
+## <a name="edit-a-calling-policy"></a>Modificar una directiva de llamada
 
-Siga estos pasos para modificar una directiva de llamadas existente.
+Siga estos pasos para editar una directiva de llamadas existente.
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, seleccione directivas de llamadas de **voz**  >  **Calling policies**.
 2. Haga clic en junto a la Directiva que desea modificar y, a continuación, seleccione **Editar**.
@@ -51,25 +53,7 @@ Siga estos pasos para modificar una directiva de llamadas existente.
 
 ## <a name="assign-a-custom-calling-policy-to-users"></a>Asignar una directiva de llamadas personalizada a los usuarios
 
-Para asignar una directiva a un usuario:
-
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
-2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
-3. En **Directiva de llamada**, seleccione la Directiva de llamada que desea asignar y, a continuación, haga clic en **aplicar**.
-
-Para asignar una directiva a varios usuarios a la vez:
-
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Usuarios**, después, busque los usuarios o filtre la vista para mostrar los usuarios que desee.
-2. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en &#x2713; (marca de verificación) situado en la parte superior de la tabla.
-3. Haga clic en **Editar configuración**, haga los cambios que desee y, a continuación, haga clic en **Aplicar**.  
-
-También puede hacer lo siguiente:
-
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de llamadas de **voz**  >  **Calling policies**.
-2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
-3. Seleccione **Administrar usuarios**.
-4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
-5. Cuando termine de agregar usuarios, seleccione **Guardar**.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="calling-policy-settings"></a>Configuración de la Directiva de llamadas
 
@@ -91,8 +75,8 @@ Esta configuración controla si las llamadas entrantes pueden desviarse a un nú
 
 Esta configuración permite que las llamadas entrantes se envíen al buzón de voz. Las opciones válidas son:
 
-- **Habilitado** El buzón de voz siempre está disponible para las llamadas entrantes. 
-- **Desactivado**  El buzón de voz no está disponible para llamadas entrantes. 
+- **Habilitado** El buzón de voz siempre está disponible para las llamadas entrantes.
+- **Desactivado**  El buzón de voz no está disponible para llamadas entrantes.
 - **Controlado** por el usuario Los usuarios pueden determinar si desean que el buzón de voz esté disponible.
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Las llamadas entrantes se pueden enrutar a grupos de llamadas 
@@ -123,6 +107,8 @@ Esta configuración permite a los usuarios llamar a números de RTC mediante el 
 
 Esta configuración le permite activar o desactivar la música en espera cuando una persona que llama RTC se coloca en espera. Está activada de forma predeterminada. Esta configuración no se aplica a las características del delegado llamar y el jefe, y actualmente solo está disponible a través de PowerShell.
 
-## <a name="see-also"></a>Vea también
+## <a name="related-topics"></a>Temas relacionados
 
 [Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+
+[Asignar directivas a los usuarios de Teams](assign-policies.md)

@@ -24,20 +24,20 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: b28b61a6b2d4c441fc69d0e50124df50f95b4a49
-ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
+ms.openlocfilehash: 9ed0bd3aadcde76835bb3d435429785ceaf562a2
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44889979"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938149"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Administrar directivas de Teams en Microsoft Teams
 
 Como administrador, puede usar las directivas de Teams en Microsoft Teams para controlar lo que los usuarios de su organización pueden hacer en Teams y en los canales. Por ejemplo, puede establecer si los usuarios podrán detectar equipos privados en los resultados de búsqueda y en la galería de equipos y si los usuarios pueden crear canales privados.
 
-Para administrar las directivas de Teams, vaya a **Teams**  >  **Policies** en el centro de administración de Microsoft Teams. Puede usar la directiva global (predeterminada para toda la organización) o crear directivas personalizadas y asignarlas a los usuarios. Los usuarios de su organización obtendrán automáticamente la directiva global, a menos que cree y asigne una directiva personalizada.
+Para administrar las directivas de Teams, vaya a **Teams**  >  **Policies** en el centro de administración de Microsoft Teams. Puede usar la directiva global (predeterminada para toda la organización) o crear y asignar directivas personalizadas. Los usuarios de su organización obtendrán automáticamente la directiva global, a menos que cree y asigne una directiva personalizada.
 
-Puede editar la directiva global o crear y asignar una directiva personalizada. Si un usuario tiene asignada una directiva personalizada, esa Directiva se aplica al usuario. Si un usuario no tiene asignada una directiva personalizada, la política global se aplica al usuario. Después de modificar la directiva global o asignar una directiva, los cambios pueden demorar algunas horas en surtir efecto.
+Puede editar la directiva global o crear y asignar una directiva personalizada. Después de modificar la directiva global o asignar una directiva, los cambios pueden demorar algunas horas en surtir efecto.
 
 ## <a name="create-a-custom-teams-policy"></a>Crear una directiva de Teams personalizada
 
@@ -63,55 +63,12 @@ Puede editar la directiva global o cualquier directiva personalizada que cree.
 
 ## <a name="assign-a-custom-teams-policy-to-users"></a>Asignar una directiva de Teams personalizada a los usuarios
 
-Puede usar el centro de administración de Microsoft Teams para asignar una directiva personalizada a uno o más usuarios o el módulo de PowerShell de Skype empresarial para asignar una directiva personalizada a grupos de usuarios, como un grupo de seguridad o un grupo de distribución.
-
-### <a name="assign-a-custom-teams-policy-to-users"></a>Asignar una directiva de Teams personalizada a los usuarios
-
-Para asignar una directiva a un usuario:
-
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
-2. Haga clic en **directivas**y, junto a **directivas asignadas**, haga clic en **Editar**.
-3. En **directivas de Teams**, seleccione la Directiva que desea asignar y, a continuación, haga clic en **Guardar**.
-
-Para asignar una directiva a varios usuarios a la vez:
-
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Usuarios**, después, busque los usuarios o filtre la vista para mostrar los usuarios que desee.
-2. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en &#x2713; (marca de verificación) situado en la parte superior de la tabla.
-3. Haga clic en **Editar configuración**, haga los cambios que desee y, a continuación, haga clic en **Aplicar**.  
-
-También puede hacer lo siguiente:
-
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, **vaya a**  >  **directivas de Teams**Teams.
-2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
-3. Seleccione **Administrar usuarios**.
-4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
-5. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
-
-### <a name="assign-a-custom-teams-policy-to-users-in-a-group"></a>Asignar una directiva de Teams personalizada a los usuarios de un grupo
-
-Es posible que desee asignar una directiva personalizada de Teams a varios usuarios que ya haya identificado. Por ejemplo, es posible que desee asignar una directiva a todos los usuarios de un grupo de seguridad. Para ello, puede conectarse al módulo de Azure Active Directory PowerShell para Graph y al módulo de PowerShell de Skype empresarial. Para obtener más información sobre cómo usar PowerShell para administrar equipos, consulte [información general de Teams PowerShell](teams-powershell-overview.md).
-
-En este ejemplo, asignamos una directiva de Teams denominada Directiva de marketing Teams a todos los usuarios del grupo mercadotecnia de contoso.  
-
-> [!NOTE]
-> Asegúrese de conectarse primero al módulo de Azure Active Directory PowerShell para Graph y al módulo de PowerShell de Skype empresarial siguiendo los pasos de [conectar a todos los servicios de Microsoft 365 u Office 365 en una sola ventana de Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-
-Obtén la GroupObjectId del grupo en particular.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Marketing"
-```
-Obtener los miembros del grupo especificado.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Asignar todos los usuarios del grupo a una directiva de equipos en particular. En este ejemplo, se trata de una política de Teams.
-```PowerShell
-$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing Teams Policy" -Identity $_.UserPrincipalName}
-``` 
-Según el número de miembros del grupo, este comando puede demorar varios minutos en ejecutarse.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Administrar la detección de equipos privados en Teams](manage-discovery-of-private-teams.md)
-- [Canales privados en Teams](private-channels.md)
-- [Asignar directivas a los usuarios de Teams](assign-policies.md)
+[Administrar la detección de equipos privados en Teams](manage-discovery-of-private-teams.md)
+
+[Canales privados en Teams](private-channels.md)
+
+[Asignar directivas a los usuarios de Teams](assign-policies.md)

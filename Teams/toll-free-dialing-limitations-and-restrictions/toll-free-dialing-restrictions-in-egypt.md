@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo marcar números gratuitos en Egipto, incluida la disponibilidad, la disponibilidad de las redes móviles y las líneas fijas, y las restricciones.
-ms.openlocfilehash: d7302220500a766fb00a6a13ffa0d96b0bbcf184
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3ebb1bbd5a66064b6d53a26347d881df20485d5e
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140439"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938429"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>Restricciones de marcado de número gratuito en Egipto
 
@@ -38,7 +38,7 @@ ms.locfileid: "43140439"
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Hay disponible una llamada gratuita?  <br/> |Sí  <br/> |
+|¿Hay disponible una llamada gratuita?  <br/> |No  <br/> |
 |Formato (s) de marcado  <br/> |0800-XXX-XXXX  <br/> |
 |Código ISO de país o región  <br/> |EG  <br/> |
 |Isla/territorio cubierta  <br/> |No aplicable  <br/> |

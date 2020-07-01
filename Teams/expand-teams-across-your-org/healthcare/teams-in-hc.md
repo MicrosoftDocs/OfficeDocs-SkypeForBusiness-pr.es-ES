@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Obtenga más información sobre las características de atención médica que incluyen coordinación de cuidados, mensajería segura, TeleHealth, integración de EHR y integración con el sistema de los Firstline.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b3335fa6cd5135dd30837338d762dd3b3fe8a2e7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 457a5701288cf3d6203ad690d82d0bea3a4556cc
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905742"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938369"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introducción a Teams para organizaciones sanitarias
 
@@ -109,10 +109,4 @@ También relacionada con la mensajería segura es la capacidad de tener otros in
 
 ## <a name="firstline-worker-integration"></a>Integración de trabajadores de los Firstline
 
-Microsoft Teams se integra con los Firstline Worker, que se puede usar para coordinar las características de personal de turnos y mucho más.
-
- Consulte los artículos siguientes:
-
-- [Mover los equipos de Microsoft StaffHub a turnos en Microsoft Teams](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
-
-- [Administrar la aplicación Turnos para su organización en Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+Microsoft Teams se integra con los Firstline Worker, que se puede usar para coordinar las características de personal de turnos y mucho más. Consulte [administrar la aplicación turnos para su organización en Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md).

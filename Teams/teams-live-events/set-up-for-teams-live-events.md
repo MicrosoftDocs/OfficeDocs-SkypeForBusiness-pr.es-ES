@@ -3,7 +3,6 @@ title: Configure los eventos en directo en Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -18,12 +17,12 @@ description: Configure los eventos en directo de Teams, incluyendo la configurac
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a813f72c61e34ab217b14316ec4c2320affedfc6
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: dcb05d710df669a53e2876699cd8fc74ca3f6a9b
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902285"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938509"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configure los eventos en directo en Microsoft Teams
 
@@ -42,20 +41,18 @@ Asegúrese de disponer de las asignaciones de licencia correctas para determinar
 Las directivas de los eventos en directo se usan para controlar qué usuarios de la organización pueden realizar eventos en directo y las características disponibles en los eventos que creen. Puede usar la directiva predeterminada o crear una o más directivas personalizadas para los eventos en directo. Después de crear una directiva personalizada, asígnela a un usuario o a grupos de usuarios de su organización.
 
 > [!NOTE]
-> Los usuarios de su organización obtendrán la directiva global, a menos que usted cree y asigne una directiva personalizada. En la directiva global, la programación de eventos en directo está habilitada para los usuarios de equipo de forma predeterminada, al igual que los subtítulos en directo y los subtítulos (transcripción) está desactivada, todas las personas de la organización pueden unirse a los eventos en directo y la configuración de la grabación está establecida para grabar siempre.
+> Los usuarios de la organización obtendrán la directiva global (opción predeterminada para toda la organización) a menos que cree y asigne una directiva personalizada. En la directiva global, la programación de eventos en directo está habilitada para los usuarios de equipo de forma predeterminada, al igual que los subtítulos en directo y los subtítulos (transcripción) está desactivada, todas las personas de la organización pueden unirse a los eventos en directo y la configuración de la grabación está establecida para grabar siempre.
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Cree o edite una directiva de eventos en directo
 
 <a name="bkcreatepolicy"> </a>
 
-**![Un icono que muestra el logotipo de Microsoft Teams ](../media/teams-logo-30x30.png)Usando el centro de administración de Microsoft Teams**
-
-1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Directivas de los eventos en directo**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Meetings**  >  **directivas de eventos en directo**de reuniones.
 2. Realice una de las siguientes acciones:
 
-- Si desea editar la directiva predeterminada actual, elija **Global (predeterminado para toda la organización)**.
-- Si desea crear una nueva directiva personalizada, elija **Nueva directiva**.
-- Si desea editar una directiva personalizada, selecciónela y, a continuación, elija **Editar**.
+    - Si desea editar la directiva predeterminada actual, elija **Global (predeterminado para toda la organización)**.
+    - Si desea crear una nueva directiva personalizada, elija **Agregar**.
+    - Si desea editar una directiva personalizada, selecciónela y, a continuación, elija **Editar**.
 
     Puede cambiar estas opciones de configuración para satisfacer las necesidades de su organización.
 
@@ -72,26 +69,9 @@ Las directivas de los eventos en directo se usan para controlar qué usuarios de
 
 También puede hacerlo mediante Windows PowerShell. Para obtener más información, vea [Usar PowerShell para establecer las directivas de eventos en directo en Microsoft Teams](set-teams-live-events-policies-using-powershell.md) 
 
-### <a name="assign-a-live-events-policy-to-users"></a>Asignar una directiva de eventos en directo a los usuarios 
+### <a name="assign-a-live-events-policy-to-users"></a>Asignar una directiva de eventos en directo a los usuarios
 
-Si ha creado una directiva personalizada de eventos en directo, asígnesela a los usuarios para que la directiva esté activa. 
-
-![Un icono que muestra el logotipo de Microsoft Teams](../media/teams-logo-30x30.png) Usar el centro de administración de Microsoft Teams
-
-1. En el panel de navegación izquierdo, vaya a **Usuarios**y, después, seleccione el usuario.
-2. Junto a las **Directivas asignadas** elija **Editar**. 
-3. Seleccione la directiva eventos en directo que quiera asignar y, a continuación, elija **Guardar**. 
-
-También puede asignar una directiva de eventos en directo a uno o más usuarios como se indica a continuación:
-
-![Un icono que muestra el logotipo de Microsoft Teams](../media/teams-logo-30x30.png) Usar el centro de administración de Microsoft Teams
-
-1. Vaya a **Reuniones** > **Directivas de los eventos en directo**.
-2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
-3. Seleccione **Administrar usuarios**.
-4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
-5. Cuando termine de agregar los usuarios, seleccione **Guardar**.
- 
+Si ha creado una directiva personalizada de eventos en directo, asígnesela a los usuarios para que la directiva esté activa. <br><br>[!INCLUDE [assign-policy](../includes/assign-policy.md)]
 
 ### <a name="enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device"></a>Permitir que los usuarios programen eventos creados con una aplicación o un dispositivo externo
 
@@ -106,6 +86,7 @@ Los usuarios que programen eventos creados con una aplicación o un dispositivo,
 3. Asegúrese de que los organizadores de los eventos en directo hayan consentido la directiva de empresa establecida por el administrador de Stream. Si un administrador de Stream tiene que [configurar la directiva de directrices de la empresa](https://docs.microsoft.com/stream/company-policy-and-consent) y necesita que los empleados acepten esta directiva antes de guardar el contenido, los usuarios deberán hacerlo antes de crear un evento en directo (con una aplicación o dispositivo externo) en Teams. Antes de que implemente la función de eventos en directo en la organización, asegúrese de que los usuarios que van a crear estos eventos en directo hayan consentido la directiva. 
 
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>Paso 4: Configurar una solución para la distribución de los vídeos de los eventos en directo de Teams
+
 La reproducción de vídeos de eventos en directo usa el streaming con velocidad de bits adaptable (ABR), aunque se trata de una secuencia de unidifusión, lo cual significa que cada espectador recibe su propia secuencia de video a través de Internet. Para los eventos o vídeos en directo de su organización, podría haber una cantidad significativa de ancho de banda de Internet consumido por los espectadores. Las soluciones para las organizaciones que desean reducir este tráfico de Internet en los evento en directo deben integrarse con los partners de entrega de vídeo de confianza de Microsoft, los cuales ofrecen redes definidas por software (SDN) o redes de entrega de contenido empresarial (eCDN). Estas plataformas de SDN y eCDN permiten que las organizaciones optimicen el ancho de banda de la red sin sacrificar la experiencia final de visualización del usuario. Nuestros socios le pueden ayudar a habilitar una distribución de vídeo más eficaz y escalable a través de la red empresarial.
 
 **Comprar y configurar la solución fuera de Teams** obtenga asistencia experta para ampliar la distribución de vídeo aprovechando los partners de confianza de Microsoft para la entrega de vídeo. Antes de poder habilitar un proveedor de entrega de vídeo para usar en Teams, debe comprar y configurar la solución de SDN y eCDN fuera y por separado de Teams.
@@ -124,9 +105,11 @@ Las siguientes soluciones de SDN y eCDN están preintegradas y pueden ser config
 Después de configurar la solución de SDN y eCDN, estará listo para configurar el proveedor de eventos en directo de Teams. 
 
 ## <a name="next-steps"></a>Siguientes pasos
+
 Vaya a [Establecer la configuración de eventos en directo de Microsoft Teams](configure-teams-live-events.md)
 
 ### <a name="related-topics"></a>Temas relacionados
+
 - [¿Qué son los eventos en directo en Teams?](what-are-teams-live-events.md)
 - [Planear eventos en directo en Teams](plan-for-teams-live-events.md)
 - [Establecer la configuración de eventos en directo de Microsoft Teams](configure-teams-live-events.md)

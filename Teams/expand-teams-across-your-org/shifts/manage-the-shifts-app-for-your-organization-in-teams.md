@@ -2,7 +2,7 @@
 title: Administrar la aplicación de turnos para su organización
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu,gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,17 +18,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c2ca24f2176547f83efb6bdce591ac71d516dca9
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: ecc64c105bb9171942dfac912ccea4f2fa1442aa
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416890"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938359"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 
 > [!IMPORTANT]
-> A partir del 30 de junio de 2020, Microsoft StaffHub se retirará. Estamos construyendo las capacidades de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación de turnos para la administración de la programación, y las funciones adicionales se aplicarán a lo largo del tiempo. StaffHub dejará de funcionar para todos los usuarios el 30 de junio de 2020. Cualquier persona que intente abrir StaffHub recibirá un mensaje para que pueda descargar Teams. Para obtener más información, consulte [Microsoft StaffHub para que se retirará](microsoft-staffhub-to-be-retired.md).  
+> A partir del 30 de junio de 2020, se ha retirado a Microsoft StaffHub. Estamos construyendo las capacidades de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación de turnos para la administración de la programación, y las funciones adicionales se aplicarán a lo largo del tiempo. StaffHub ha dejado de funcionar para todos los usuarios el 30 de junio de 2020. Cualquier persona que intente abrir StaffHub verá un mensaje que le indica que debe descargar Teams. Para obtener más información, vea se ha [retirado Microsoft StaffHub](microsoft-staffhub-to-be-retired.md).  
 
 ## <a name="overview-of-shifts"></a>Descripción general de los turnos
 
@@ -65,7 +65,7 @@ Para permitir o bloquear a determinados usuarios de su organización el uso de t
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Use la Directiva de configuración de la aplicación de FirstlineWorker para anclar turnos a teams
 
-Las directivas de configuración de la aplicación le permiten personalizar Teams para resaltar las aplicaciones más importantes para los usuarios de su organización. Las aplicaciones establecidas en una directiva se anclan a la barra de la aplicación, que se &mdash; encuentra en el costado del cliente de escritorio de Teams y en la parte inferior de los clientes móviles de Teams &mdash; donde los usuarios puedan acceder a ellas de forma rápida y fácil. 
+Las directivas de configuración de la aplicación le permiten personalizar Teams para resaltar las aplicaciones más importantes para los usuarios de su organización. Las aplicaciones establecidas en una directiva se anclan a la barra de la aplicación, que se &mdash; encuentra en el costado del cliente de escritorio de Teams y en la parte inferior de los clientes móviles de Teams &mdash; donde los usuarios puedan acceder a ellas de forma rápida y fácil.
  
 Teams incluye una directiva de configuración de aplicaciones de FirstlineWorker integrada que puede asignar a los trabajadores de los Firstline de su organización. De forma predeterminada, la Directiva incluye las aplicaciones actividad, turnos, chat y llamadas. 
 
@@ -73,50 +73,9 @@ Para ver la Directiva de FirstlineWorker, en el navegación izquierdo del centro
 
 ![Captura de pantalla de la Directiva de configuración de la aplicación de FirstlineWorker](../../media/firstline-worker-app-setup-policy.png "Captura de pantalla de la Directiva de configuración de la aplicación de FirstlineWorker en el centro de administración de Microsoft Teams")
 
-#### <a name="assign-the-firstlineworker-policy-to-users"></a>Asignar la Directiva FirstlineWorker a los usuarios
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>Asignar la Directiva de configuración de la aplicación de FirstlineWorker a los usuarios
 
-Para asignar la Directiva de configuración de la aplicación de FirstlineWorker a un usuario:
-
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
-2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
-3. En **Directiva de configuración**de la aplicación, seleccione **FirstlineWorker**y, a continuación, haga clic en **aplicar**.
-
-Para asignar una directiva a varios usuarios a la vez:
-
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Usuarios**, después, busque los usuarios o filtre la vista para mostrar los usuarios que desee.
-2. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en &#x2713; (marca de verificación) situado en la parte superior de la tabla.
-3. Haga clic en **Editar configuración**, en **Directiva de configuración**de la aplicación, seleccione **FirstlineWorker**y, a continuación, haga clic en **aplicar**.  
-
-También puede hacer lo siguiente:
-
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de configuración de las **aplicaciones de Teams**  >  **Setup policies**.
-2. Seleccione la Directiva FirstlineWorker haciendo clic a la izquierda del nombre de la Directiva.
-3. Seleccione **Administrar usuarios**.
-4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
-5. Cuando termine de agregar usuarios, seleccione **aplicar**.
-
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>Asignar la Directiva de configuración de la aplicación de FirstlineWorker a los miembros del usuario de un grupo
-
-Puede asignar la Directiva de configuración de la aplicación de FirstlineWorker a los miembros de usuario de un grupo, como un grupo de seguridad, conectándose al módulo de Azure Active Directory PowerShell para Graph y al módulo de PowerShell de Skype empresarial. Para obtener más información sobre cómo usar PowerShell para administrar equipos, consulte [información general de Teams PowerShell](../../teams-powershell-overview.md).
-
-En este ejemplo, asignamos la Directiva de configuración de la aplicación FirstlineWorker a todos los miembros del usuario del grupo de equipo de Contoso los Firstline.
-
-> [!NOTE]
-> Asegúrese de conectarse primero al módulo de Azure Active Directory PowerShell para Graph y al módulo de PowerShell de Skype empresarial siguiendo los pasos de [conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-
-Obtén la GroupObjectId del grupo en particular.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
-```
-Obtener los miembros del grupo especificado.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Asigne la Directiva de configuración de la aplicación de FirstlineWorker a todos los miembros del grupo.
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
-``` 
-Según el número de miembros del grupo, este comando puede demorar varios minutos en ejecutarse.
+[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>Buscar eventos de turnos en el registro de auditoría
 

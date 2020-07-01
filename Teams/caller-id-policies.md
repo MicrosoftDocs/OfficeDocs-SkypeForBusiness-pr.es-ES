@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar y administrar directivas de identificación de llamadas en Microsoft Teams para cambiar o bloquear la identificación de llamadas de los usuarios de su organización.
-ms.openlocfilehash: 67b5abef6cdbdab9a127dd2957c2fdfefbaf2927
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 41466640f33769a64ce14d5d3dc47959c876a5bc
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691426"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938469"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Administrar directivas de identificación de llamadas en Microsoft Teams
 
@@ -33,9 +33,7 @@ Como administrador, puede usar directivas de identificación de llamadas en Micr
 
 Por ejemplo, cuando los usuarios hacen una llamada, puede cambiar la identificación de llamadas para mostrar el número de teléfono principal de su organización en lugar de los números de teléfono de los usuarios.
 
-Para administrar las directivas de identificación de llamadas, **Voice**vaya a  >  **directivas de identificación de llamadas** de voz en el centro de administración de Microsoft Teams. Puede usar la directiva global (predeterminada para toda la organización) o crear directivas personalizadas y asignarlas a los usuarios. Los usuarios de su organización obtendrán automáticamente la directiva global, a menos que cree y asigne una directiva personalizada.
-
-Puede editar la directiva global o crear y asignar una directiva personalizada. Si un usuario tiene asignada una directiva personalizada, esa Directiva se aplica al usuario. Si un usuario no tiene asignada una directiva personalizada, la política global se aplica al usuario.
+Para administrar las directivas de identificación de llamadas, **Voice**vaya a  >  **directivas de identificación de llamadas** de voz en el centro de administración de Microsoft Teams. Puede usar la directiva global (predeterminada para toda la organización) o crear y asignar directivas personalizadas. Los usuarios de su organización obtendrán automáticamente la directiva global, a menos que cree y asigne una directiva personalizada.
 
 ## <a name="create-a-custom-caller-id-policy"></a>Crear una directiva de identificación de llamadas personalizada
 
@@ -67,54 +65,10 @@ Puede editar la directiva global o cualquier directiva personalizada que cree.
 
 ## <a name="assign-a-custom-caller-id-policy-to-users"></a>Asignar una directiva de identificación de llamadas personalizada a los usuarios
 
-Puede usar el centro de administración de Microsoft Teams para asignar una directiva personalizada a uno o más usuarios o al módulo de PowerShell de Skype empresarial para asignar una directiva personalizada a los usuarios de un grupo, como un grupo de seguridad o un grupo de distribución.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-### <a name="assign-a-custom-caller-line-id-policy-to-users"></a>Asignar una directiva de identificador de línea de llamada personalizada a los usuarios
+## <a name="related-topics"></a>Temas relacionados
 
-Para asignar una directiva a un usuario:
+[Nuevo: CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
-2. Haga clic en **directivas**y, junto a **directivas asignadas**, haga clic en **Editar**.
-3. En **Directiva de identificación de llamadas**, seleccione la Directiva que desea asignar y, a continuación, elija **Guardar**.
-
-Para asignar una directiva a varios usuarios a la vez:
-
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Usuarios**, después, busque los usuarios o filtre la vista para mostrar los usuarios que desee.
-2. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en &#x2713; (marca de verificación) situado en la parte superior de la tabla.
-3. Haga clic en **Editar configuración**, haga los cambios que desee y, a continuación, haga clic en **Aplicar**.  
-
-También puede hacer lo siguiente:
-
-1. Vaya a directivas de identificación de llamadas de voz del **centro de administración de Microsoft Teams**  >  **Voice**  >  **Caller ID policies**.
-2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
-3. Seleccione **Administrar usuarios**.
-4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
-5. Cuando haya terminado de agregar usuarios, seleccione **Guardar**.
-
-### <a name="assign-a-custom-caller-id-policy-to-users-in-a-group"></a>Asignar una directiva de identificación de llamadas personalizada a los usuarios de un grupo
-
-Es posible que desee asignar una directiva personalizada a varios usuarios que ya haya identificado. Por ejemplo, es posible que desee asignar una directiva a todos los usuarios de un grupo de seguridad. Para ello, puede conectarse al módulo de Azure Active Directory PowerShell para Graph y al módulo de PowerShell de Skype empresarial. Para obtener más información sobre cómo usar PowerShell para administrar equipos, consulte [información general de Teams PowerShell](teams-powershell-overview.md).
-
-En este ejemplo, asignamos una directiva de la tapa de la llamada personalizada denominada compatibilidad con la Directiva de identificación de llamadas a todos los usuarios del grupo soporte de contoso.  
-
-> [!NOTE]
-> Asegúrese de conectarse primero al módulo de Azure Active Directory PowerShell para Graph y al módulo de PowerShell de Skype empresarial siguiendo los pasos de [conectar a todos los servicios de Microsoft 365 u Office 365 en una sola ventana de Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-
-Obtén la GroupObjectId del grupo en particular.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Support"
-```
-Obtener los miembros del grupo especificado.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Asignar todos los usuarios del grupo a una directiva determinada de identificación de llamadas. En este ejemplo, es compatible con la Directiva de identificación de llamadas.
-```PowerShell
-$members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID Policy" -Identity $_.UserPrincipalName}
-``` 
-Según el número de miembros del grupo, este comando puede demorar varios minutos en ejecutarse.
-
- ## <a name="related-topics"></a>Temas relacionados
-
-- [Nuevo: CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
-- [Asignar directivas a los usuarios de Teams](assign-policies.md)
+[Asignar directivas a los usuarios de Teams](assign-policies.md)

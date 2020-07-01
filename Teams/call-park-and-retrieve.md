@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Obtenga más información sobre cómo usar el servicio de atención telefónica y recuperar para poner una llamada en espera en el servicio de Teams en la nube.
-ms.openlocfilehash: e36690c4059ceae67c8615b1e910051439ca8e78
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: a9518705cd5edff3834be21732f78dd47352cd63
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042967"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938539"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamiento y recuperación de llamadas en Microsoft Teams
 
@@ -52,11 +52,11 @@ En la actualidad, los siguientes clientes y dispositivos son compatibles con la 
 
 | Función | Equipo de escritorio | Aplicación de equipos Mac | Teams Web App (Edge) |Teams Mobile iOS/aplicación para Android | Teléfono IP de Teams | Teléfono IP de Skype empresarial |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| Detener una llamada | Sí | Sí | Sí | Sí | Próximamente| No |
-| Recuperar una llamada estacionada | Sí | Sí | Sí | Sí | Próximamente| No |
-| Timbre de llamada no recuperado | Sí | Sí | Sí | Sí | Próximamente| No |
+| Detener una llamada | Sí  | Sí  | Sí  | Sí  | Sí | No |
+| Recuperar una llamada estacionada | Sí  | Sí  | Sí  | Sí  | Sí | No |
+| Timbre de llamada no recuperado | Sí  | Sí  | Sí  | Sí  | Sí | No |
 
-## <a name="configuring-call-park-and-retrieve"></a>Configurar el parque de llamadas y recuperar
+## <a name="configure-call-park-and-retrieve"></a>Configurar el parque de llamadas y recuperar
 
 Debe ser administrador para configurar el parque de llamadas y recuperar, y la característica está deshabilitada de forma predeterminada. Puede habilitarlo para los usuarios y crear grupos de usuarios con la Directiva de estacionamiento de llamadas. Al aplicar la misma directiva a un conjunto de usuarios, pueden detenerse y recuperar llamadas entre sí. Para configurar el parque de llamadas para los usuarios y crear grupos de usuarios de estacionamiento de llamadas, siga el procedimiento [asignar una directiva de estacionamiento de llamadas](#assign-a-call-park-policy) que se muestra a continuación.
 
@@ -64,33 +64,35 @@ Para obtener más información sobre cómo usar la característica Parque de lla
 
 ### <a name="enable-a-call-park-policy"></a>Habilitar una directiva de estacionamiento de llamadas
 
-Siga estos pasos para habilitar una directiva de estacionamiento de llamadas:
-
-1.  > Vaya al **centro de administración de Microsoft Teams****directivas de estacionamiento de llamadas**de**voz** > .
-2. Seleccione **nueva Directiva**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Voice**  >  **directivas de estacionamiento de llamadas**de voz.
+2. Seleccione **Agregar**.
 3. Asigne un nombre a la Directiva y, a continuación, cambie **permitir el aparcamiento de llamadas** a **activado**.
 4. Seleccione **Guardar**.
 
+#### <a name="using-powershell"></a>Con PowerShell
+
+Vea [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps).
+
+### <a name="edit-a-call-park-policy"></a>Editar una directiva de estacionamiento de llamadas
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Voice**  >  **directivas de estacionamiento de llamadas**de voz.
+2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva y, a continuación, haga clic en **Editar**.
+3. Cambie **permitir** que el parque de llamadas esté **desactivado** o **activado**.
+4. Haga clic en **Guardar **.
+
+#### <a name="using-powershell"></a>Con PowerShell
+
+Consulte [set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps). Por ejemplo, para cambiar la configuración predeterminada, ejecute lo siguiente:
+
+  ```PowerShell
+  Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true
+  ```
+
 ### <a name="assign-a-call-park-policy"></a>Asignar una directiva de estacionamiento de llamadas
 
-Siga estos pasos para asignar una directiva de estacionamiento de llamadas a uno o más usuarios:
-
-1.  > Vaya al **centro de administración de Microsoft Teams****directivas de estacionamiento de llamadas**de**voz** > .
-2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
-3. Seleccione **Administrar usuarios**.
-4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
-5. Cuando termine de agregar los usuarios, seleccione **Guardar**.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
  
-### <a name="configure-call-park-and-retrieve-with-powershell"></a>Configurar el parque de llamadas y recuperar con PowerShell
-
-Use el cmdlet [de PowerShell New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) para crear una directiva de estacionamiento de llamadas.
-
-Use el cmdlet [Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps) de PowerShell para conceder una directiva de estacionamiento de llamadas.
-
-Puede cambiar la configuración predeterminada con [set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps) de la siguiente manera:
-
-`Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
-
+Consulte también [Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps).
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
@@ -105,6 +107,8 @@ Si un usuario intenta recuperar una llamada y no se ha realizado correctamente, 
 - Modo isla: la llamada de estacionamiento y recuperar no está disponible en el modo isla de Teams.
 - Ya se ha recuperado o finalizado la llamada.
 
-## <a name="more-information"></a>Más información
+## <a name="related-topics"></a>Temas relacionados
 
-[Estacione una llamada en Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
+[Detener una llamada en Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
+
+[Asignar directivas a los usuarios de Teams](assign-policies.md)

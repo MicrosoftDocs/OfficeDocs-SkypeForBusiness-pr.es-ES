@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar y administrar las directivas de enrutamiento de llamadas de emergencia en Microsoft Teams para configurar los números de emergencia y especificar cómo se enrutarán las llamadas de emergencia.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b200f5a160e7b13a9412d588f3342eeb5a08ccd8
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 35595d8c3b784b908448eae72013cb8bcf3f37f7
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638699"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938169"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Administrar las directivas de enrutamiento de llamadas de emergencia en Microsoft Teams
 
@@ -74,56 +74,9 @@ Consulte [set-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powe
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>Asignar una directiva de enrutamiento de llamadas de emergencia personalizada a los usuarios
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-Para asignar una directiva a un usuario:
-
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
-2. Haga clic en **directivas**y, junto a **directivas asignadas**, haga clic en **Editar**.
-3. En **Directiva de enrutamiento de llamadas de emergencia**, seleccione la Directiva que desea asignar y, a continuación, haga clic en **Guardar**.
-
-Para asignar una directiva a varios usuarios a la vez:
-
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Usuarios**, después, busque los usuarios o filtre la vista para mostrar los usuarios que desee.
-2. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en &#x2713; (marca de verificación) situado en la parte superior de la tabla.
-3. Haga clic en **Editar configuración**, haga los cambios que desee y, a continuación, haga clic en **Aplicar**.  
-
-También puede hacer lo siguiente:
-
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de emergencia de **voz**  >  **Emergency policies**y, a continuación, haga clic en la pestaña **directivas de enrutamiento de llamadas** .
-2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
-3. Seleccione **Administrar usuarios**.
-4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
-5. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
-
-### <a name="using-powershell"></a>Con PowerShell
-
-#### <a name="assign-a-custom-emergency-call-routing-policy-to-a-user"></a>Asignar una política de enrutamiento de llamadas de emergencia personalizada a un usuario
-
-Consulte [Grant-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallroutingpolicy).
-
-### <a name="assign-a-custom-emergency-call-routing-policy-to-users-in-a-group"></a>Asignar una directiva de enrutamiento de llamadas de emergencia personalizada a los usuarios de un grupo
-
-Es posible que desee asignar una directiva de enrutamiento de llamadas de emergencia personalizada a varios usuarios que ya haya identificado. Por ejemplo, es posible que desee asignar una directiva a todos los usuarios de un grupo de seguridad o de distribución. Para ello, puede conectarse al módulo de Azure Active Directory PowerShell para Graph y al módulo de PowerShell de Skype empresarial.
-
-En este ejemplo, asignamos una directiva denominada Directiva de enrutamiento de llamadas de emergencia HR a todos los usuarios del grupo contoso HR.  
-
-> [!NOTE]
-> Asegúrese de conectarse primero al módulo de Azure Active Directory PowerShell para Graph y al módulo de PowerShell de Skype empresarial siguiendo los pasos de [conectar a todos los servicios de Microsoft 365 u Office 365 en una sola ventana de Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-
-Obtén la GroupObjectId del grupo en particular.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso HR"
-```
-Obtener los miembros del grupo especificado.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Asignar todos los usuarios del grupo a una directiva de equipos en particular. En este ejemplo, es la Directiva de enrutamiento de llamadas de emergencia de RRHH.
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsEmergencyCallRoutingPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
-``` 
-Según el número de miembros del grupo, este comando puede demorar varios minutos en ejecutarse.
+Consulte también [Grant-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallroutingpolicy).
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>Asignar una directiva de enrutamiento de llamadas de emergencia personalizada a un sitio de red
 
@@ -137,6 +90,8 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Administrar las directivas de llamadas de emergencia en Teams](manage-emergency-calling-policies.md)
-- [Información general de PowerShell para Teams](teams-powershell-overview.md)
-- [Asignar directivas a los usuarios de Teams](assign-policies.md)
+[Administrar las directivas de llamadas de emergencia en Teams](manage-emergency-calling-policies.md)
+
+[Información general de PowerShell para Teams](teams-powershell-overview.md)
+
+[Asignar directivas a los usuarios de Teams](assign-policies.md)

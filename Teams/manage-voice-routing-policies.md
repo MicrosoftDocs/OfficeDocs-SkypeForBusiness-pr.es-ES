@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a crear y administrar directivas de enrutamiento de voz en Microsoft Teams.
-ms.openlocfilehash: 061e8066e06c4514a27ea302dab96acfad004ac4
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: e3dc656043776d3a2f0e5b37a0c35ab98b7c03f7
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350194"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938136"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Administrar directivas de enrutamiento de voz en Microsoft Teams
 
@@ -65,35 +65,16 @@ Consulte [set-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/
 
 ## <a name="assign-a-custom-voice-routing-policy-to-users"></a>Asignar una directiva de enrutamiento de voz personalizada a los usuarios
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-Para asignar una directiva a un usuario:
-
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
-2. Haga clic en **directivas**y, junto a **directivas asignadas**, haga clic en **Editar**.
-3. En **Directiva de enrutamiento de voz**, seleccione la Directiva que desea asignar y, a continuación, haga clic en **Guardar**.
-
-Para asignar una directiva a varios usuarios a la vez:
-
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, busque los usuarios o filtre la vista para mostrar los usuarios que desea.
-2. En la columna **&#x2713;** (marca), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en el &#x2713; (marca de verificación) en la parte superior de la tabla.
-3. Haga clic en **Editar configuración**, realice los cambios que desee y, a continuación, haga clic en **aplicar**.  
-
-También puede hacer lo siguiente:
-
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Voice**  >  **directivas de enrutamiento de voz**de voz.
-2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
-3. Seleccione **Administrar usuarios**.
-4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
-5. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
-
-### <a name="using-powershell"></a>Con PowerShell
-
-Consulte [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
+Consulte también [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Descripción de PowerShell para Teams](teams-powershell-overview.md)
-- [Configurar el enrutamiento de voz para el enrutamiento directo](direct-routing-voice-routing.md)
-- [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)
-- [Asignar directivas a los usuarios de Teams](assign-policies.md)
+[Descripción de PowerShell para Teams](teams-powershell-overview.md)
+
+[Configurar el enrutamiento de voz para el enrutamiento directo](direct-routing-voice-routing.md)
+
+[Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)
+
+[Asignar directivas a los usuarios de Teams](assign-policies.md)

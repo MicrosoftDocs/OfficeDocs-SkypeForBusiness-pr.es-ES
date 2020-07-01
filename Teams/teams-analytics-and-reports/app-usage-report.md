@@ -17,12 +17,12 @@ description: Aprenda a usar el informe de uso de la aplicación de Teams en el c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a5d5c1bdb5b5bbe58ecdb90721ce24bd0081a65
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: 565a3cb28b73a37162947859effc6ec154b59258
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902362"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938209"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Informe de uso de aplicaciones de Microsoft Teams
 
@@ -30,7 +30,7 @@ El informe de uso de aplicaciones de Teams en el centro de administración de Mi
 
 ## <a name="view-the-app-usage-report"></a>Ver el informe de uso de aplicaciones
 
-1.  En el centro de navegación izquierdo del centro de administración de <https://teams.admin.microsoft.com> , haga clic en **análisis &** informes de \> **uso**de informes. En la pestaña **ver informes** , en **Informe**, seleccione **uso de aplicaciones**.
+1.  En el centro de navegación izquierdo del centro de administración de <https://admin.teams.microsoft.com> , haga clic en **análisis &** informes de \> **uso**de informes. En la pestaña **ver informes** , en **Informe**, seleccione **uso de aplicaciones**.
 
      :::image type="content" source="media/app-usage-report1.png" alt-text="Captura de pantalla del elemento de menú informes de uso":::
 

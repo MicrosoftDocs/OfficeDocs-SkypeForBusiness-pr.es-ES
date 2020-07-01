@@ -23,17 +23,17 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: d14c32357101ef2fe002394046f707445b7c10a6
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1b7c94cd8dc0f46b72cea21ae46d98ed9a974fc5
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756921"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938309"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
 ::: zone target="docs"
-Las Directivas de reunión se usan para controlar las características disponibles para sus participantes en reuniones programadas por usuarios de la organización. Después de crear una directiva y realizar los cambios, puede asignar usuarios a la directiva. Las directivas de reunión se administran en el centro de administración de Microsoft Teams o mediante [PowerShell](teams-powershell-overview.md).
+Las Directivas de reunión se usan para controlar las características disponibles para sus participantes en reuniones programadas por usuarios de la organización. Puede usar la directiva global (predeterminada para toda la organización) que se crea automáticamente o crear y asignar directivas personalizadas. Las directivas de reunión se administran en el centro de administración de Microsoft Teams o mediante [PowerShell](teams-powershell-overview.md).
 
 > [!NOTE]
 > Para obtener información sobre el uso de roles para administrar los permisos de moderadores y asistentes de reuniones, vea [roles de una reunión de Teams](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
@@ -46,52 +46,49 @@ Puede implementar directivas de las siguientes maneras, que afectan a la experie
 |Por usuario    |Al implementar una directiva por usuario, solo se aplica la Directiva por usuario para restringir determinadas características para el organizador o los participantes de la reunión. Por ejemplo, **permitir reunirse ahora en canales** es una directiva por usuario.     |
 |Por organizador y por usuario     |Al implementar una combinación de una directiva por organizador y por usuario, ciertas características están restringidas para los participantes de la reunión en función de su Directiva y la Directiva del organizador. Por ejemplo, **permitir la grabación en la nube** es una directiva por organizador y por usuario. Active esta configuración para permitir que el organizador de la reunión y los participantes inicien y detengan una grabación.
 
-De forma predeterminada, se crea una directiva denominada global (opción predeterminada para toda la organización). De forma predeterminada, todos los usuarios de su organización tienen asignada la Directiva de reunión global. Puede realizar cambios en ella o crear una o más directivas personalizadas y asignarles usuarios. Los usuarios recibirán la directiva global a menos que cree y asigne una directiva personalizada. Al crear una directiva personalizada, puede permitir o impedir que determinadas características estén disponibles para los usuarios y, a continuación, asignarlas a uno o más usuarios a los que se les aplicará la configuración.
+Puede editar la configuración en la directiva global o crear y asignar una o más directivas personalizadas. Los usuarios recibirán la directiva global a menos que cree y asigne una directiva personalizada.
 
 > [!NOTE]
 > El botón detalles de la reunión estará disponible si un usuario tiene habilitadas las licencias de conferencia de audio o si el usuario permite conferencias de audio, de lo contrario, los detalles de la reunión no estarán disponibles.
 
-## <a name="change-or-create-a-meeting-policy"></a>Cambiar o crear una directiva de reunión
+## <a name="create-a-custom-meeting-policy"></a>Crear una directiva de reunión personalizada
 
-Para cambiar o crear una directiva de reunión, vaya al Centro de administración de Microsoft Teams > **Reuniones** > **Directivas de reunión**. Seleccione una directiva de la lista o seleccione **Agregar**. Si está creando una nueva directiva, agregue un nombre y una descripción. El nombre no puede contener caracteres especiales ni tener más de 64 caracteres. Elija la configuración y, a continuación, seleccione **Guardar**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de reunión de **reuniones**  >  **Meeting policies**.
+2. Haga clic en **Agregar**.
+3. Escriba un nombre y una descripción para la directiva. El nombre no puede contener caracteres especiales ni tener más de 64 caracteres.
+4. Elija la configuración que desee.
+5. Haga clic en **Guardar **.
 
 Por ejemplo, supongamos que tiene un grupo de usuarios y quiere limitar el ancho de banda que necesitaría la reunión. Cree una nueva directiva personalizada denominada "ancho de banda limitado" y deshabilite las opciones siguientes:
 
 En **Audio y vídeo**:
+
 - Desactive Permitir la grabación en la nube.
 - Desactive Permitir vídeo IP.
 
 En **Uso compartido de contenido**:
+
 - Desactive el modo de uso compartido de la pantalla.
 - Desactive Permitir pizarra.
 - Desactive Permitir notas compartidas.
 
 Luego asigne la directiva a los usuarios:
 
+## <a name="edit-a-meeting-policy"></a>Editar una directiva de reunión
+
+Puede editar la directiva global en cualquier directiva personalizada que cree. 
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de reunión de **reuniones**  >  **Meeting policies**.
+2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva y, a continuación, haga clic en **Editar**.
+3. Desde aquí, realice los cambios que desee.
+4. Haga clic en **Guardar **.
+
 > [!NOTE]
 > A un usuario solo se le puede asignar una directiva de reunión a la vez.
 
 ## <a name="assign-a-meeting-policy-to-users"></a>Asignar una directiva de reunión a los usuarios
 
-Para signar una directiva de reunión a un usuario:
-
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
-2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
-3. En **Directiva de reunión**, seleccione la directiva que quiera asignar y haga clic en **Aplicar**.
-
-Para asignar una directiva a varios usuarios a la vez:
-
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Usuarios**, después, busque los usuarios o filtre la vista para mostrar los usuarios que desee.
-2. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en &#x2713; (marca de verificación) situado en la parte superior de la tabla.
-3. Haga clic en **Editar configuración**, haga los cambios que desee y, a continuación, haga clic en **Aplicar**.  
-
-También puede hacer lo siguiente:
-
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de reunión de **reuniones**  >  **Meeting policies**.
-2. Haga clic a la izquierda del nombre de la directiva para seleccionarla.
-3. Seleccione **Administrar usuarios**.
-4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
-5. Cuando termine de agregar usuarios, seleccione **Guardar**.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 > [!NOTE]
 > No puede eliminar una Directiva si los usuarios están asignados a ella. Primero debe asignar una directiva diferente a todos los usuarios afectados y, después, puede eliminar la directiva original.
