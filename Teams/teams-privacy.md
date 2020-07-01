@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 924aaf1ad9c9d462a454260226b3a5340f0a68e2
-ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
+ms.openlocfilehash: 9ea6fc3f27b5d97a2e890ec85e68a105acc44b42
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43579576"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938499"
 ---
 # <a name="privacy-and-microsoft-teams"></a>Seguridad y Microsoft Teams
 
@@ -58,7 +58,7 @@ Microsoft no revelará datos personales excepto:
 1. según se describe en los Términos del servicio en línea (como el uso de subcontratistas autorizados para proporcionar ciertos componentes de los servicios);
 1. según lo requiere la legislación.
 
-Si las autoridades legales contactan con Microsoft con una petición, Microsoft intentará redirigirla para que solicite esos datos personales directamente al cliente. Si se ve obligado a revelar datos personales a las fuerzas del orden público, Microsoft se lo notificará inmediatamente al cliente y le proporcionará una copia de la demanda a menos que esté legalmente prohibido hacerlo. Para más información sobre los datos que expondremos en respuesta a las solicitudes de los cuerpos de seguridad y otros organismos gubernamentales, vea el [Informe de solicitudes de cuerpos de seguridad](https://www.microsoft.com/about/corporate-responsibility/lerr/).
+Si las autoridades legales contactan con Microsoft con una petición, Microsoft intentará redirigirla para que solicite esos datos personales directamente al cliente. Si se ve obligado a revelar datos personales a las fuerzas del orden público, Microsoft se lo notificará inmediatamente al cliente y le proporcionará una copia de la demanda a menos que esté legalmente prohibido hacerlo. Para más información sobre los datos que expondremos en respuesta a las solicitudes de los cuerpos de seguridad y otros organismos gubernamentales, vea el [Informe de solicitudes de cuerpos de seguridad](https://www.microsoft.com/corporate-responsibility/law-enforcement-requests-report).
 
 La [Guía de seguridad de Teams](https://docs.microsoft.com/microsoftteams/security-compliance-overview#compliance-standards) tiene más información sobre nuestros estándares de cumplimiento.
 
