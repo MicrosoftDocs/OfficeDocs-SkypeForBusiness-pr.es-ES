@@ -18,19 +18,19 @@ description: Obtenga información sobre las diferentes formas de asignar directi
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 403131fa3e7bd2b3fb2a128640ac49497394d669
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: c7522bc4bffeafeef4d194f5e4ad24ec9648a91a
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938549"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021758"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Asignar directivas a los usuarios de Microsoft Teams
 
 > [!NOTE]
 > **Tenga en cuenta lo siguiente sobre una de las características descritas en este artículo, asignación de directiva a grupos**: 
 > - [Asignación de directiva a grupos mediante el centro de administración de Microsoft Teams](#using-the-microsoft-teams-admin-center-3)todavía no se ha publicado. Se ha anunciado y pronto estará disponible. 
-> - La [asignación de directivas a grupos con PowerShell](#using-powershell-3)solo está disponible actualmente en Private Preview. Los cmdlets de PowerShell para esta característica se encuentran en el módulo PowerShell de la versión preliminar de Teams.
+> - La [asignación de directivas a grupos con PowerShell](#using-powershell-3)solo está disponible actualmente en Private Preview. Los cmdlets para esta característica se encuentran en el módulo de la vista previa pública de Teams PowerShell.
 >
 > Para estar al día del estado de versión de esta característica, consulte la [hoja de ruta de Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185).
 
@@ -160,7 +160,7 @@ En este ejemplo, asignamos una directiva de reunión de Teams denominada Directi
 Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeting Policy"
 ```
 
-Para obtener más información, vea [Administrar directivas mediante PowerShell](teams-powershell-overview.md#managing-policies-via-powershell).
+Para obtener más información, lea [Administración de directivas a través de PowerShell](teams-powershell-managing-teams.md#manage-policies-via-powershell).
 
 ## <a name="assign-a-policy-package"></a>Asignar un paquete de directivas
 
@@ -315,40 +315,14 @@ Para cambiar la jerarquía de una asignación de grupo, primero debe quitar la a
 
 ### <a name="using-powershell"></a>Con PowerShell
 
-**Esta característica solo está disponible actualmente en Private Preview. Los cmdlets para esta característica se encuentran en el módulo PowerShell de la versión preliminar de Teams.**
+**Esta característica solo está disponible actualmente en Private Preview. Los cmdlets para esta característica se encuentran en el módulo de la vista previa pública de Teams PowerShell.**
 
 > [!NOTE]
 > Por el momento, la asignación de directivas a grupos con PowerShell no está disponible para todos los tipos de directivas de Teams. Vea [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) para obtener la lista de tipos de directiva admitidos.
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar y conectarse al módulo de PowerShell de Microsoft Teams
 
-Los cmdlets se encuentran en la versión preliminar del módulo de PowerShell de Teams. Siga estos pasos para desinstalar primero la versión disponible general del módulo de PowerShell de Teams (si está instalada) y, a continuación, instale la última versión preliminar del módulo de la galería de pruebas de PowerShell.
-
-Si todavía no lo ha hecho, ejecute lo siguiente para registrar la galería de pruebas de PowerShell como fuente de confianza.
-
-```powershell
-Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
-```
-
-Si tiene instalada la versión general del módulo de PowerShell de Teams, ejecute lo siguiente para desinstalarla.
-
-```powershell
-Uninstall-Module MicrosoftTeams -AllVersions
-```
-
-Ejecute lo siguiente para instalar el módulo de PowerShell más reciente de Microsoft Teams desde la galería de pruebas de PowerShell.
-
-```powershell
-Install-Module MicrosoftTeams -Repository PSTestGallery
-```
-
-Ejecute lo siguiente para conectarse a teams e iniciar una sesión.
-
-```powershell
-Connect-MicrosoftTeams
-```
-
-Cuando se le solicite, inicie sesión con sus credenciales de administrador.
+Estos cmdlets forman parte del módulo de vista previa pública de Teams PowerShell. Para obtener instrucciones paso a paso, lea [instalar Teams PowerShell](teams-powershell-install.md).
 
 #### <a name="assign-a-policy-to-a-group"></a>Asignar una directiva a un grupo
 

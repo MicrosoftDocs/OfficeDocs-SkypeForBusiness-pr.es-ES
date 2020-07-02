@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Siga estos pasos para crear un número de teléfono predeterminado para que las personas que llamen se unan a una reunión de Microsoft Teams.
-ms.openlocfilehash: 81624090b1e82bf695f8e558cd55324a45d927e5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: bd8ca4729a991582588f09e8c230e57983cd1a87
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691116"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021768"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Establecer los números de teléfono incluidos en las invitaciones en Microsoft Teams
 
@@ -55,7 +55,7 @@ Una vez que el usuario está habilitado para el servicio de audioconferencia, lo
 
 Debe ser administrador para realizar estos cambios.
 
-1. Inicie sesión en el centro de administración en <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+1. Inicie sesión en el centro de administración de Microsoft Teams.
 
 2. En el navegación de la izquierda, haga clic en **usuarios**.
 

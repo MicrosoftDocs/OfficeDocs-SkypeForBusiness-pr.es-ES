@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Vea cómo probar o comprar licencias de conferencias de audio (conferencias RTC) para Microsoft 365 u Office 365 para configurar llamadas en conferencia a las que los usuarios pueden llamar. '
-ms.openlocfilehash: 1a728c9e7920f1bc8387663a1db918d6e095ab01
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 8c94dac38495069f22f9729e8625bc006fb4662f
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868546"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021868"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Probar o comprar conferencias de audio en Microsoft 365 para Microsoft Teams
 
@@ -72,7 +72,7 @@ Si es cliente de Volumen y licencias, puede obtener licencias de audioconferenci
 4. [Asigne licencias a los usuarios](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) de su organización que vayan a programar o coordinar reuniones.
 
     > [!NOTE]
-    > Si tiene licencias de audioconferencia con pago por minuto, no tiene que asignar licencias de créditos de comunicaciones por separado a cada usuario específicamente para el uso de las audioconferencias (es posible que tenga que asignarlas para otros servicios).
+    > Si tiene licencias de pago por minuto de audioconferencia, debe asignar una licencia de crédito de comunicaciones por separado a cada usuario.
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Paso 2: configurar el proveedor de servicios de audioconferencia para las personas que conducen o programan reuniones
 

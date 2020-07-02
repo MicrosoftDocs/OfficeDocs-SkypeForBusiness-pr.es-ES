@@ -16,12 +16,12 @@ description: En este artículo, se explica qué son las barreras de información
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 12bd0102904ff933b5a2ffd6f12d8a8d3b76aaaa
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 7ab476fa906c849e2c5af59546c3cca482be461a
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868697"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021851"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de la información en Microsoft Teams
 
@@ -92,7 +92,16 @@ Las directivas de barrera de información se activan cuando se producen los sigu
 
     ![Captura de pantalla que muestra un usuario bloqueado de la reunión](media/information-barriers-meeting.png)
 
-- **Una pantalla se comparte entre dos o más usuarios** , siempre que una pantalla se comparta entre dos o más usuarios, se debe evaluar el uso compartido de pantalla para asegurarse de que no infrinja las directivas de la barrera de información de otros usuarios. Si se infringe una directiva de barrera de información, no se permitirá el uso compartido de pantalla.
+- **Una pantalla se comparte entre dos o más usuarios** , siempre que una pantalla se comparta entre dos o más usuarios, se debe evaluar el uso compartido de pantalla para asegurarse de que no infrinja las directivas de la barrera de información de otros usuarios. Si se infringe una directiva de barrera de información, no se permitirá el uso compartido de pantalla. 
+ 
+    Este es un ejemplo de uso compartido de pantalla antes de que se aplique la Directiva. 
+
+    ![Captura de pantalla que muestra una conversación de usuario](media/ib-before-screen-share-policy.png)
+
+    Este es un ejemplo de uso compartido de pantalla después de la aplicación de la Directiva. Los iconos de compartir pantalla y llamada no están visibles.
+
+    ![Captura de pantalla que muestra el carácter de usuario con la configuración bloqueada](media/ib-after-screen-share-policy.png)
+
 - **Un usuario realiza una llamada de teléfono (VoIP) en Teams** , siempre que un usuario inicie una llamada de voz a otro usuario o grupo de usuarios, la llamada se evalúa para asegurarse de que no infrinja las directivas de la barrera de información de otros miembros del equipo. Si hay alguna infracción, la llamada se bloquea.
 - **Los usuarios invitados en Teams** : las directivas de barrera de información se aplican también a los usuarios invitados de Teams. Si los usuarios invitados necesitan ser detectados en la lista global de direcciones de la organización, consulte [administrar el acceso de invitados en grupos de Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Una vez que los usuarios invitados sean detectados, puede [definir las políticas](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)de la barrera de información.
 
@@ -100,9 +109,17 @@ Las directivas de barrera de información se activan cuando se producen los sigu
 
 Cuando el administrador de la Directiva de la barrera de información realiza cambios en una directiva o se activa un cambio de directiva debido a un cambio en el perfil de un usuario (como un cambio en el trabajo o un motivo similar), el servicio de evaluación de la Directiva de la barrera de información busca automáticamente en los miembros para asegurarse de que los miembros del equipo no infrinjan las directivas.
 
-Si hay una conversación u otra comunicación entre usuarios, se establece una nueva Directiva o se modifica una directiva existente, el servicio evalúa las comunicaciones existentes para asegurarse de que se permitan las comunicaciones.
+Si hay una conversación u otra comunicación entre usuarios, se establece una nueva Directiva o se modifica una directiva existente, el servicio evalúa las comunicaciones existentes para asegurarse de que se permitan las comunicaciones. 
 
-- **1:1 chat** : Si ya no se permite la comunicación entre los dos usuarios (si se aplica una directiva que bloquea la comunicación a uno o ambos usuarios), se bloquea la comunicación adicional y la conversación de chat se convertirá en solo lectura.
+- **1:1 chat** : Si ya no se permite la comunicación entre los dos usuarios (si se aplica una directiva que bloquea la comunicación a uno o ambos usuarios), se bloquea la comunicación adicional y la conversación de chat se convertirá en solo lectura. 
+
+    Este es un ejemplo que muestra que la conversación está visible.
+
+    ![Captura de pantalla que muestra que el chat de usuario está disponible](media/ib-before-1-1chat-policy.png)
+
+    Este es un ejemplo que muestra que la conversación está deshabilitada.
+
+    ![Captura de pantalla que muestra la conversación del usuario deshabilitada](media/ib-after-1-1chat-policy.png)
 
 - **Conversación grupal** : Si ya no se permite la comunicación de un usuario al grupo (por ejemplo, si un usuario cambia de trabajo), el usuario, junto con el resto de los usuarios que infrinjan la Directiva, se puede quitar de la conversación grupal y no se permitirá la comunicación posterior con el grupo. El usuario puede seguir viendo conversaciones antiguas (que serán de solo lectura), pero no podrá ver ni participar en ninguna conversación nueva con el grupo. Si la directiva nueva o modificada que evita la comunicación se aplica a más de un usuario, los usuarios afectados por la Directiva se pueden quitar de la conversación grupal. Aún puede ver conversaciones antiguas.
 
@@ -126,11 +143,30 @@ En la actualidad, los usuarios experimentan lo siguiente si una directiva de bar
     ![Captura de pantalla que muestra el chat grupal](media/information-barriers-people-picker.png)
     
 - **Ficha actividad** : Si un usuario visita la pestaña **actividad** de un usuario bloqueado, no aparecerá ninguna publicación. (La ficha **actividad** muestra solo las publicaciones de canal y no habría canales comunes entre los dos usuarios).
+
+    Este es un ejemplo de la vista de pestaña actividad.
+
+    ![Captura de pantalla que muestra la pestaña actividad](media/ib-before-activity-tab-policy.png)
+
+    Este es un ejemplo de la vista de pestaña actividad que está bloqueada.
+
+    ![Captura de pantalla que muestra la pestaña actividad que está bloqueada](media/ib-after-activity-tab-policy.png)
+
+
 - **Organigramas: si** un usuario accede a un organigrama en el que aparece un usuario bloqueado, dicho usuario no aparecerá en el organigrama y aparecerá un mensaje de error.
 - **Tarjeta de contactos** : Si un usuario participa en una conversación y el usuario se bloquea posteriormente, otros usuarios verán un mensaje de error en lugar de la tarjeta de contactos cuando pasen el mouse sobre el nombre del usuario bloqueado. Las acciones que aparecen en la tarjeta (como llamadas y conversaciones) no estarán disponibles.
 - **Contactos sugeridos** : los usuarios bloqueados no aparecen en la lista de contactos sugeridos (la lista de contactos inicial que aparece para los nuevos usuarios).
 - **Contactos de chat** : un usuario puede ver los usuarios bloqueados en la lista de contactos de chats, pero los usuarios bloqueados se identificarán y la única acción que el usuario puede realizar es eliminarlos. El usuario también puede hacer clic en ellos para ver sus conversaciones pasadas.
 - **Llama a contactos** : un usuario puede ver usuarios bloqueados en la lista de contactos de llamadas, pero los usuarios bloqueados se identificarán y la única acción que el usuario puede realizar es eliminarlos.
+
+    Este es un ejemplo de un usuario bloqueado en la lista de contactos para llamadas.
+
+    ![Captura de pantalla que muestra la conversación de usuario del usuario](media/ib-before-chat-contacts-policy.png)
+
+    Este es un ejemplo de la conversación deshabilitada para un usuario en la lista contenido de la llamada.
+
+    ![Captura de pantalla que muestra un usuario bloqueado desde un chat](media/ib-after-chat-contacts-policy.png)
+
 - **Migración de Skype a teams** : durante una migración de Skype empresarial a Teams, todos los usuarios, incluso los que están bloqueados por las directivas de la barrera de información, se migrarán a teams y se administrarán según se describe anteriormente.
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Directivas de Teams y sitios de SharePoint
