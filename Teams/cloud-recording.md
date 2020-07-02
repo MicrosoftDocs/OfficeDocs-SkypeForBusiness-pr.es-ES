@@ -16,12 +16,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 97fa736a1f2277dbd9da2305b75bf16b26d34e73
-ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
+ms.openlocfilehash: 817e9ff29ff1081c1d6f6aee4720f991eb845a21
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874417"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012286"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -43,7 +43,7 @@ Para que se graben las reuniones de los usuarios de un equipo, Microsoft Stream 
 - El usuario tiene suficiente espacio de almacenamiento en Microsoft Stream para guardar las grabaciones
 - El usuario tiene el parámetro TeamsMeetingPolicy-AllowCloudRecording definido como true
 - El usuario no es un usuario anónimo, Invitado o federado en la reunión
-- Para habilitar la transcripción de la reunión de un usuario, la política de reuniones de Teams a la que están asignadas debe tener el valor-AllowTranscription se debe establecer en true.
+- Para habilitar la transcripción de la reunión de un usuario, la política de reunión de Teams a la que están asignadas debe tener el valor-AllowTranscription establecido en true.
 
 <sup>1</sup> el usuario debe tener licencia para cargar o descargar reuniones a o desde Microsoft Stream; sin embargo, no necesitan la licencia para grabar una reunión. Si no desea que un usuario pueda grabar una Reunión de Microsoft Teams, debe otorgar una TeamsMeetingPolicy que tenga la opción AllowCloudRecording establecida en $False.
 
@@ -115,7 +115,7 @@ Para obtener más información sobre dónde se almacenan los datos en los servic
 
 Esta configuración controla si las características de subtítulos y transcripción están disponibles durante la reproducción de grabaciones de reunión. Si desactiva esta opción, las opciones **Buscar** y **CC** no estarán disponibles durante la reproducción de una grabación de reunión. La persona que inició la grabación necesita esta configuración activada para que la grabación también incluya transcripción.
 
-Tenga en cuenta que la transcripción para las reuniones grabadas solo se admite en este momento para los usuarios que tienen el idioma de Teams establecido en inglés y cuando se habla de inglés en la reunión.
+**Tenga en cuenta** que la transcripción para las reuniones grabadas solo se admite en este momento para los usuarios que tienen el idioma de Teams establecido en inglés y cuando se habla de inglés en la reunión.
 
 Puede usar el centro de administración de Microsoft Teams o PowerShell para establecer una directiva de reunión de Teams para controlar si el iniciador de la reunión tiene la opción de transcribir la grabación de la reunión.
 

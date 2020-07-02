@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e60e152128c60279e3bb9ee9e3d37e881effce9a
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 136b06a6c134fc2ec906c8c2175d462f71a5b9a6
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321749"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44944023"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurar la jerarquía de destino de su equipo
 
@@ -116,7 +116,7 @@ El `Store layout` atributo tiene valores que incluyen `Compact` , `Standard` , y
 ## <a name="apply-your-hierarchy"></a>Aplicar la jerarquía
 
 > [!IMPORTANT]
-> Para realizar este paso, debe instalar y usar la última versión del módulo de PowerShell de Teams desde la [Galería de pruebas de PowerShell](https://www.poshtestgallery.com/packages/MicrosoftTeams/). Para conocer los pasos para instalar el módulo, consulte [instalar la versión preliminar del módulo de PowerShell de Teams](install-prerelease-teams-powershell-module.md).
+> Para realizar este paso, debe instalar y usar el módulo público Preview de Teams PowerShell desde la [Galería de PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). Para conocer los pasos para instalar el módulo, consulte [instalar Teams PowerShell](teams-powershell-install.md).
 
 Una vez que haya definido la jerarquía en el archivo CSV de esquema, estará listo para cargarla en Teams. Para ello, ejecute el siguiente comando. Debe ser administrador global o administrador de servicios de equipo para poder realizar este paso.
 
@@ -127,7 +127,7 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ## <a name="remove-your-hierarchy"></a>Quitar la jerarquía
 
 > [!IMPORTANT]
-> Para realizar este paso, debe instalar y usar la última versión del módulo de PowerShell de Teams desde la [Galería de pruebas de PowerShell](https://www.poshtestgallery.com/packages/MicrosoftTeams/). Para conocer los pasos para instalar el módulo, consulte [instalar la versión preliminar del módulo de PowerShell de Teams](install-prerelease-teams-powershell-module.md).
+> Para realizar este paso, debe instalar y usar el módulo público Preview de Teams PowerShell desde la [Galería de PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). Para conocer los pasos para instalar el módulo, consulte [instalar Teams PowerShell](teams-powershell-install.md).
 
 Si desea deshabilitar inmediatamente la pestaña **listas publicadas** para todos los usuarios de su organización, puede quitar la jerarquía. Los usuarios no tendrán acceso a la pestaña **listas publicadas** ni a ninguna de las funciones de la ficha.  Esto incluye la capacidad de crear listas de tareas nuevas para publicar, obtener acceso a listas de borradores, publicar, anular la publicación y duplicar listas, así como ver informes. Al quitar la jerarquía, no se anula la publicación de las tareas publicadas anteriormente. Estas tareas seguirán estando disponibles para que se completen los equipos de los destinatarios. 
 

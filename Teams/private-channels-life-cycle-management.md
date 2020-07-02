@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a administrar el ciclo de vida de los canales privados de su organización.
-ms.openlocfilehash: 45d9591eed2bd3a880d3ca3e2ceb2252bf6f8898
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 0f4f4d21adcb73731c8d0218a7b776c0aacbc7da
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326697"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012296"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Administrar el ciclo de vida de canales privados en Microsoft Teams
 
 Aquí encontrará las instrucciones que necesita para administrar el ciclo de vida de los [canales privados](private-channels.md) de su organización.
 
 > [!IMPORTANT]
-> Si está usando los pasos de PowerShell de este artículo para administrar canales privados, debe instalar y usar la última versión preliminar del módulo de PowerShell de Teams desde la [Galería de pruebas de PowerShell](https://www.poshtestgallery.com/packages/MicrosoftTeams/). Para conocer los pasos para instalar el módulo, consulte [instalar la versión preliminar del módulo de PowerShell de Teams](install-prerelease-teams-powershell-module.md). La última versión disponible públicamente del módulo de PowerShell no es compatible con la administración de canales privados.
+> Si está usando los pasos de PowerShell de este artículo para administrar canales privados, debe instalar y usar el módulo público Preview de Teams PowerShell desde la [Galería de PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). Para conocer los pasos para instalar el módulo, consulte [instalar Microsoft Teams PowerShell](teams-powershell-install.md). El último módulo de disponibilidad general del equipo de PowerShell no es compatible con la administración de canales privados.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Establecer si los miembros del equipo pueden crear canales privados
 

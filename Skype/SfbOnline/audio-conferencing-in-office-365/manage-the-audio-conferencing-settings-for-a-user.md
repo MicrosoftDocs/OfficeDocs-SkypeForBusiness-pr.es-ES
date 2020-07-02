@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Como administrador de Microsoft 365 o de Office 365, puede editar la configuración de las conferencias de audio de Skype empresarial online, como el proveedor, el número gratuito o de pago predeterminado, el identificador de la Conferencia o el PIN, para un usuario individual de su organización. '
-ms.openlocfilehash: 2df6b9bfe7b1b9c161730b29e85dd1ed7335b0cd
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 47ad2b0d6b5684d2a897055ad43e253e55c67109
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164139"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44943853"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Administrar la configuración de audioconferencia para un usuario de Skype empresarial online
 
 > [!Note]
 > Si quiere administrar la configuración de usuario en Microsoft Teams, vea [administrar la configuración de audioconferencias para un usuario en Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 
-Como administrador de Microsoft 365 o de Office 365, puede editar la configuración de la audioconferencia (como el proveedor, un número gratuito o gratuito, un identificador de conferencia o un PIN) para un usuario individual de su organización. Si desea editar la configuración de su organización, vea [administrar la configuración de audioconferencias para mi organización](manage-the-audio-conferencing-settings-for-my-organization.md).
+As a Microsoft 365 or Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
 
  
 1. Inicie sesión con su cuenta profesional o educativa.
@@ -50,7 +50,7 @@ Como administrador de Microsoft 365 o de Office 365, puede editar la configuraci
 |:-----|:-----|
 |**Nombre del proveedor** <br/> |Elija su proveedor de la lista.  <br/><br/> **Nota:** Los demás valores de configuración de esta tabla se aplican solo si selecciona Microsoft como el proveedor de audioconferencia.           |
 |**Número de teléfono de pago predeterminado** (obligatorio) <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
-|**Número de teléfono gratuito predeterminado** <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
+|**Número gratuito predeterminado** <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
 |**Permitir el uso de los números gratuitos en el puente de Microsoft de su organización para unirse a las reuniones de este usuario** <br/> |Seleccione esta opción si desea permitir el uso de números gratuitos para unirse a reuniones.  <br/> |
 |**Enviar información de conferencia por correo electrónico** <br/> |Click this link only if you want to immediately send an email to the user with his or her conference ID and phone number. (This email does not include the PIN.) See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
 |**Id. de conferencia** <br/> |Select **Reset** if you need to reset the conference ID for the user. For more information, see [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).  <br/> |

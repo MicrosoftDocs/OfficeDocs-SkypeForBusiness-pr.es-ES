@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Conozca los registros de depuración, medios y escritorio generados por Microsoft Teams, dónde se encuentran y cómo pueden ser útiles para resolver problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9981a30eb0365f2919d86bd6bf694375e71e9eb
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: 7ad44af297cdfe375f28485e1c4c4e223f616666
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374208"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012196"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar los archivos de registro para solucionar problemas en Microsoft Teams
 =================================================
@@ -34,9 +34,9 @@ Hay tres tipos de archivos de registro que el cliente genera automáticamente y 
 
 -   Registros de escritorio
 
-Cuando se crea una solicitud de soporte técnico con Soporte técnico de Microsoft, el ingeniero de soporte técnico necesitará los registros de depuración. Disponer de estos registros con antelación, antes de crear la solicitud de soporte técnico, permitirá a Microsoft empezar rápidamente a resolver el problema. Los registros de medios o de escritorio solo son necesarios si los solicita Microsoft.
+When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having these logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. Media or desktop logs are only required if requested by Microsoft.
 
-En esta table se muestran los distintos clientes y sus registros asociados. Los archivos de registro se almacenan en ubicaciones específicas del cliente y el sistema operativo.
+The following table outlines the various clients, and their associated logs. Log files are stored in locations specific to the client and operating system.
 
 
 |Cliente |Depuración|Escritorio|Medios|
@@ -44,6 +44,7 @@ En esta table se muestran los distintos clientes y sus registros asociados. Los 
 |Web    |X         |-         |-         |
 |Windows     |X         |X         |X         |
 |Mac OSX     |X         |X         |X         |
+|Linux     |X         |X         |X         |
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
 
@@ -72,18 +73,24 @@ Los registros de depuración se generan usando los siguientes métodos de SO esp
 
       Método abreviado de teclado: Opción + Comando + Mayús + 1
 
+-   Linux
+
+      Método abreviado de teclado: Ctrl + Alt + Mayús + 1
+
 Los registros de depuración se descargan automáticamente en las siguientes carpetas.
 
 -   Windows: %userprofile%\\Descargas
 
 -   Mac OSX: Descargas
 
+-   Linux: ~/downloads
+
 -   Explorador: Se le pedirá que guarde el registro de depuración en la ubicación predeterminada.
 
 <a name="media-logs"></a>Registros de medios
 ---------------------------
 
-Los registros de medios contienen datos de diagnóstico sobre el uso compartido de pantalla, audio, vídeo. Son necesarios para resolver casos de soporte técnico. Se generan únicamente bajo petición y solo pueden ser inspeccionados por Microsoft. En la siguiente tabla se muestra la ubicación del registro.
+Media logs contain diagnostic data about audio, video and screen sharing. They are required for support cases only upon request and can only be inspected by Microsoft. The following table outlines the log location.
 
 
 |Cliente |Ubicación |
@@ -93,23 +100,30 @@ Los registros de medios contienen datos de diagnóstico sobre el uso compartido 
 |            |%appdata%\Microsoft\Teams\media-stack \\ *. ETL         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-Stack/*. blog         |
 |            |~/Library/Application Support/Microsoft/Teams/skylib/*. blog         |
+|Linux       |~/.config/Microsoft/Microsoft Teams/media-Stack/*. blog         |
+|            |~/.config/Microsoft/Microsoft Teams/skylib/*. blog         |
 
 
 
 <a name="desktop-logs"></a>Registros de escritorio
 ---------------------
 
-Los registros de escritorio, también conocidos como registros de programa previo, contienen datos de registro que se producen entre el cliente de escritorio y el explorador. Al igual que los registros de medios, estos registros solo son necesarios si los solicita Microsoft. Los registros son archivos de texto y se pueden leer con cualquier editor de texto de arriba abajo.
+Desktop logs, also known as bootstrapper logs, contains log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text based and can be read using any text based editor in a top down format.
 
 Windows:
 
-1.  Haga clic con el botón derecho en **el icono de Microsoft Teams de** la bandeja del sistema y seleccione **obtener registros** .
+1.  Haga clic con el botón derecho en el icono de **Microsoft Teams** de la bandeja del sistema y seleccione **obtener registros** .
 
 Mac OsX:
 
 1.  Elija **Obtener registros** en el menú desplegabe **Ayuda**.
 
+Linux
+
+1.  Haga clic en el icono de **Microsoft Teams** de la bandeja del sistema y seleccione **obtener registros** .
+
 |Cliente |Ubicación |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
+|Windows     |% appdata% \Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
+|Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |

@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo definir y usar etiquetas de confidencialidad en Microsoft Teams.
-ms.openlocfilehash: e2482a5afeb7dff9804a5a0591cd377be9f9b177
-ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
+ms.openlocfilehash: 2940fd5537f02a6d5b3125f4c0037b9705571ffa
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854122"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012316"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Etiquetas de confidencialidad para Microsoft Teams
 
@@ -100,6 +100,10 @@ El propietario de un equipo puede cambiar la etiqueta de confidencialidad y la c
 Puede especificar si un equipo creado con una etiqueta específica le permite el acceso de invitado. Los equipos creados con una etiqueta que no permite el acceso de invitados solo están disponibles para los usuarios de su organización. Las personas de fuera de su organización no se pueden agregar al equipo.
 
 ## <a name="known-issues"></a>Problemas conocidos
+
+**No se muestran las etiquetas secundarias predeterminadas durante la creación del equipo**
+
+En este momento, un conjunto de etiquetas secundarias como la etiqueta predeterminada de Teams no se mostrará en la parte superior de la lista en el menú desplegable de etiquetas de confidencialidad en el modelo de creación de equipo. Los creadores de equipos aún pueden usar la lista desplegable para aplicar la etiqueta secundaria como solución alternativa.
 
 **Compatibilidad con etiquetas de confidencialidad en el centro de administración de Microsoft Teams**
 

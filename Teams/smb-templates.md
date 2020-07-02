@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: Use las plantillas predefinidas de Microsoft Teams para crear de forma rápida y sencilla equipos para pequeñas y medianas empresas.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0d88ee5ea6a584a4b064b1ba12dd6d6ef72f2f25
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1de5e0459168c7586f0b8e18a33153ca1519853a
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757061"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44944033"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>Introducción a las plantillas de Teams para pequeñas y medianas empresas
 
@@ -30,7 +30,7 @@ Las plantillas de Microsoft Teams le permiten crear equipos de forma rápida y s
 
 Para las pequeñas y medianas empresas, las plantillas pueden ser especialmente eficaces, ya que ayudan a los administradores a implementar rápidamente Teams en toda la organización. Las plantillas también ayudan a orientar a los usuarios y a comenzar a usar Teams de manera eficaz. Este artículo le interesa si es responsable de planear, implementar y administrar varios equipos en la organización.
 
-Actualmente ofrecemos tres plantillas de SMB de primera parte que puede aprovechar para diversas situaciones. Todas las plantillas crearán equipos *privados* . Una vez que haya creado los equipos y estén listos para su organización, puede establecer la privacidad en *toda* la organización o *pública*, según corresponda. Para obtener más información sobre las plantillas de equipo en general, consulte [Introducción a las plantillas](get-started-with-teams-templates.md)de Teams.
+Actualmente ofrecemos tres plantillas SMB de terceros que puede aprovechar para diversas situaciones. Todas las plantillas crearán equipos *privados* . Una vez que haya creado los equipos y estén listos para su organización, puede establecer la privacidad en *toda* la organización o *pública*, según corresponda. Para obtener más información sobre las plantillas de equipo en general, consulte [Introducción a las plantillas](get-started-with-teams-templates.md)de Teams.
 
 ## <a name="company-wide-template"></a>Plantilla de toda la empresa
 La plantilla para toda la empresa está destinada a la comunicación y la colaboración que son relevantes para toda la empresa. Puede usar el canal general para anuncios de toda la empresa, noticias de la industria o publicaciones ejecutivas. El canal de recursos humanos es un buen lugar para consolidar todas las actividades relacionadas con recursos humanos, como las publicaciones de trabajo, la incorporación de nuevos empleados, la formación y el desarrollo. El canal de material variado proporciona una plataforma social para todas las publicaciones de forma aleatoria y divertida.
