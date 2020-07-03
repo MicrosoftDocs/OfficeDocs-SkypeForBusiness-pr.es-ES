@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga más información sobre las licencias de complemento para Microsoft Teams y las características que obtiene con cada licencia.
-ms.openlocfilehash: acb0ff4cd9cbaeeedb81490731a8b68a8de854a8
-ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
+ms.openlocfilehash: 307dad7dbf8ca19bdeb10fa18b2cbd18a2273f74
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44170691"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028186"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licencias de complemento de Microsoft Teams
 
@@ -164,9 +164,9 @@ Para obtener más información, consulte [Microsoft 365 y Office 365 ofertas par
 
 En respuesta a una mayor necesidad de que los usuarios trabajen de forma remota (o trabajen desde casa), Microsoft tiene varias ofertas de prueba gratuitas de Teams para organizaciones gubernamentales, educativas y sin ánimo de lucro. Hay ensayos disponibles para estos planes:
 
-- Office 365 Enterprise [E1 Trial](../e1-trial-license.md), versión de prueba E3 y versión de prueba de E5
+- Prueba de Office 365 Enterprise [E1](../e1-trial-license.md) (se ha suspendido desde el 1 de julio de 2020), versión de prueba E3 y prueba de E5
 - Prueba de Office 365 educación [a1](../teams-edu-licensing.md)
-- Prueba de Office 365 administración pública [G1](../g1-trial-license.md)
+- [Versión de evaluación](../g1-trial-license.md) de Office 365 pública G1 (se ha interrumpido desde el 1 de julio de 2020)
 
 Para suscribirte a una oferta de prueba, consulta [suscribirte a una oferta de evaluación](https://transform.microsoft.com/customer-trials?tab=requestnewtrial).
 
@@ -176,7 +176,7 @@ Este es un resumen de las ofertas de prueba de las características de voz.
 
   ![Opciones basadas en la versión de prueba](../media/licensing-trial-offers.png)
 
- El plan básico no tiene por qué ser una oferta de prueba para usar cualquiera de estas pruebas para las características de voz. Puede usar un plan de empresa de Microsoft 365 o un plan empresarial, gubernamental, educativo o de ONG con cualquiera de las ofertas de prueba para las características de voz. Para ver las ofertas y complementos de prueba disponibles, en el centro de administración de Microsoft 365, vaya a**servicios de compra**de **facturación** > , seleccione **otras categorías que puedan interesarle**y, después, seleccione **Complementos**.
+ El plan básico no tiene por qué ser una oferta de prueba para usar cualquiera de estas pruebas para las características de voz. Puede usar un plan de empresa de Microsoft 365 o un plan empresarial, gubernamental, educativo o de ONG con cualquiera de las ofertas de prueba para las características de voz. Para ver las ofertas y complementos de prueba disponibles, en el centro de administración de Microsoft 365, vaya a servicios de compra de **facturación**  >  **Purchase services**, seleccione **otras categorías que puedan interesarle**y, después, seleccione **Complementos**.
 
   Para cada una de estas opciones de voz y conferencias, se necesitarán [créditos de comunicaciones](../set-up-communications-credits-for-your-organization.md) si tiene números gratuitos o si necesita agregar minutos adicionales para que los usuarios llamen desde reuniones o para que los usuarios realicen llamadas RTC nacionales e internacionales.
 
@@ -188,7 +188,7 @@ Este es un resumen de las ofertas de prueba de las características de voz.
 
 * * *
 
-## <a name="need-help"></a>¿Necesita ayuda?
+## <a name="need-help"></a>¿Necesitas ayuda?
 
 ¿Necesita hablar con alguien acerca de las opciones de complemento? [Contactar con el soporte técnico para productos empresariales: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

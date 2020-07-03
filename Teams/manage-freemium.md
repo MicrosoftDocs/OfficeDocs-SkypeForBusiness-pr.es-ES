@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d8d7edb5710883c7725a0784819d3a35c1c2f2f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0d8c8246ef635f860b5cc601613faf5ef1663726
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905102"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028136"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>Administrar la versión gratuita de Microsoft Teams
 ==========================================
@@ -45,10 +45,6 @@ Para obtener más información sobre las versiones de Teams y sus capacidades, c
 
 ## <a name="get-the-right-teams-trial"></a>Obtener la prueba correcta de Teams
 
-Microsoft está haciendo licencias de Office 365 de prueba (que incluyen Teams) disponibles en respuesta a la creciente necesidad de que los empleados trabajen desde casa (casa) en respuesta al brote de COVID-19 (coronavirus). 
-
-- [Prueba de E1](e1-trial-license.md): esta oferta está destinada a cualquier cliente, incluidas las ONG, administradas por un representante de cuentas de Microsoft.
-
-- Para el gobierno de los Estados Unidos (GCC), consulte la [prueba de Office 365 G1](g1-trial-license.md). 
+- Como alternativa a teams Free, consulte la [exploratorias de Teams](teams-exploratory.md).
 
 - Los clientes de EDU deben usar la [licencia gratuita Office 365 a1](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
