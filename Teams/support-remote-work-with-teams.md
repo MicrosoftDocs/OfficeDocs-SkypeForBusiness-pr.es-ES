@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos de su organización a ser productivos con Microsoft Teams, especialmente cuando trabajan desde casa (WFH) en respuesta al ataque COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91f41893f572465d2e51b66a56737f10f0f88fc0
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: b582ea0b08b8748a6636440cc8ea3ec2f4296753
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691496"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028126"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Dar soporte para trabajadores remotos con Microsoft Teams
 
@@ -31,7 +31,7 @@ Si es una empresa pequeña o mediana, no se pierda [Impulse a su pequeña empres
 
 ## <a name="it-admin-guidance"></a>Instrucciones para administradores de TI
 
-- Asegúrese de que todos los usuarios tengan acceso a Teams con la oferta gratuita de 6 meses de **[Office 365 E1](e1-trial-license.md)** o la **[Versión gratuita de Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**. Si necesita ayuda, póngase en contacto con su partner o equipo de cuenta de Microsoft.
+- Asegúrese de que todos los usuarios tengan acceso a Teams con una [suscripción de pago que incluya Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Como alternativa, las organizaciones elegibles pueden usar la **[versión gratuita de Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** o los empleados pueden activar la experiencia de **[Teams Exploratory](teams-exploratory.md)**.
 
 -  Si ya tiene una suscripción que incluye Teams, **[actívela para todos los usuarios](user-access.md)**.
     
@@ -81,8 +81,6 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
    - Si trabaja en el ámbito educativo y quiere configurar profesores, alumnos y administradores en Teams, use Office 365 A1. Esta es la versión gratuita de Office 365 que está disponible para las instituciones educativas. Regístrese en [Obtener Office 365 de forma gratuita para todo un centro educativo](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)
 
    - No se pierda la [Introducción a Microsoft Teams para el aprendizaje remoto](remote-learning-edu.md).
-
-2. Además de la [Prueba de Office 365 E1](e1-trial-license.md) y [Teams gratuito](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c), [Teams Exploratory](teams-exploratory.md) también puede ser una buena opción si necesita licencias de Teams gratuitas.
 
 1. Asegúrese de que sus empleados tengan acceso a Internet y ancho de banda apropiados para Teams Use las instrucciones de [ Prepare la red de su organización para los Teams](prepare-network.md) para obtener más información sobre cómo hacerlo.
 

@@ -15,47 +15,24 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03544095e5189af2f80714151f31648f79e65c8d
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: ea7c72e78fe14894678f963f8b876a608f6d6222
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868677"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028156"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Administrar la Prueba de Office 365 E1
 ==============================
 
-La Prueba de Office 365 E1 gratuita de 6 meses, que incluye Microsoft Teams, está disponible desde marzo de 2020. Microsoft ofrecerá esta licencia especial para la Prueba E1 en respuesta a la creciente necesidad de que los empleados puedan trabajar desde casa (WFH) debido al COVID-19 (coronavirus). 
-
-Para saber qué está disponible con una licencia E1, consulte [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software).
-
-No se pierda todas nuestras instrucciones para el [soporte para los trabajadores remotos que utilicen Teams](support-remote-work-with-teams.md).
-
-## <a name="how-to-get-an-e1-trial-license"></a>Cómo obtener una licencia de Prueba de E1
-
-Póngase en contacto con su representante de cuentas Microsoft. Recibirá un código de promoción que puede usar para registrarse en la versión de Prueba de E1. 
-
-Para las organizaciones que son atendidas por un partner de Microsoft, trabaje con su partner para obtener una prueba gratuita de Teams por 6 meses. Si aún no tiene un partner de Microsoft y le gustaría trabajar con uno, vaya a [Microsoft Solution Providers](https://www.microsoft.com/solution-providers/home) y busque asociados con experiencia en Teams.
+A partir del 1 de julio de 2020, la licencia de prueba de Office 365 E1 ya no está disponible. Si necesita obtener una licencia de Microsoft Teams para los usuarios, consulte la [descripción del servicio de Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) para obtener una lista de suscripciones de pago que incluyan Teams. Como alternativa, las organizaciones elegibles pueden usar la **[versión gratuita de Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** o los empleados pueden activar la experiencia de **[Teams Exploratory](teams-exploratory.md)**.
 
 
-## <a name="how-to-sign-up-for-e1"></a>Cómo registrarse en E1
+Si es cliente de Teams para el ámbito educativo, consulte la [licencia de Microsoft Office 365 A1](teams-edu-licensing.md) gratuita.
 
-Haga clic en el código de promoción del correo electrónico que le enviará el representante de su cuenta. 
+Use las instrucciones de este artículo para administrar las licencias de prueba de Office 365 E1 existentes, incluida [la actualización a una suscripción de pago](#upgrade-users-from-the-office-365-e1-trial-license).
 
-
-## <a name="whos-eligible"></a>¿Quiénes reúnen los requisitos?
-
-Esta oferta está pensada para clientes administrados por un representante de la cuenta de Microsoft. Es para organizaciones, incluidas las ONG, que no han activado otras pruebas de Office 365 E1 en el pasado. 
-
-Después de usar el código de promoción de la versión de prueba de E1, no podrá volver a usarlo, ni tampoco podrá activar otro código de prueba de E1. En estos casos, puede hacer que sus empleados activen una [licencia de exploración de Teams](teams-exploratory.md).
-
-## <a name="who-isnt-eligible"></a>¿Quiénes no cumplen los requisitos?
-
-- Esta oferta no está disponible para los clientes de GCC, GCC High, DoD o EDU. 
-
-- Para el GCC, mire la [prueba G1 de Office 365](g1-trial-license.md). 
-
-- Los clientes de EDU deben usar la licencia gratuita de Office 365 A1.
+No se pierda todas nuestras instrucciones para [dar soporte a los trabajadores remotos que utilicen Teams](support-remote-work-with-teams.md).
 
 ## <a name="manage-the-e1-trial"></a>Administrar la Prueba de E1
 

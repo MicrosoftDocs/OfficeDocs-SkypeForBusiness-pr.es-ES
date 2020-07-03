@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3411d3a163e9da5e58fa258371d02ca878868adb
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 7a57de3528ac9ef0f950c7034b3c6ee3860b53ea
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638389"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028176"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Cómo proporcionar Teams a escala para Firstline Workers
 
@@ -50,8 +50,8 @@ Descargue los recursos desde [esta ubicación](https://aka.ms/flwteamsscale).
 
 ## <a name="technical-requirements"></a>Requisitos técnicos
 
-- Su inquilino debe tener disponible el número de licencias apropiado, incluyendo Microsoft Teams. Si aún no tiene estas licencias, siga las instrucciones que se indican aquí para activar la [Prueba gratuita de Office 365 E1](e1-trial-license.md).
-- El usuario que lleve a cabo estos pasos debe tener asignados estos roles en Azure AD: administrador global, administrador de usuarios y administrador de servicios de Teams.
+- Su inquilino debe tener disponible el número de licencias apropiado, incluyendo Microsoft Teams. Si aún no tiene estas licencias, consulte [Teams Exploratory](teams-exploratory.md) para obtener una suscripción de prueba gratuita.
+- El usuario que lleve a cabo estos pasos debe tener asignados estos roles: administrador global, administrador de usuarios y administrador de servicios de Teams en Azure AD.
 - El usuario debe tener los permisos para instalar y configurar el software en su equipo local.
 
 ## <a name="step-by-step-process-overview"></a>Información general del proceso paso a paso

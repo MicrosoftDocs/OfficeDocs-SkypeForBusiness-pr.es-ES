@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos de su organización de administración pública a ser productivos con Microsoft Teams, especialmente cuando trabajan desde casa en respuesta al ataque del COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92d7e2d151b467cabf387791f635fb284c99fca1
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: cb3fb631c47a97d96c2709bbbe4257950221cb91
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042387"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028146"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Dar soporte a trabajadores remotos de la administración pública con Microsoft Teams
 
@@ -31,7 +31,7 @@ Si está ejecutando Microsoft Teams como parte de Office 365 para Administració
 
 Obtenga información sobre cómo preparar Teams en su organización:
 
-  - Asegúrese de que todos los usuarios tengan acceso a Teams con la oferta gratuita de 6 meses de **[Office 365 G1](../g1-trial-license.md)**. Si necesita ayuda, póngase en contacto con su partner o equipo de cuenta de Microsoft.
+  - Asegúrese de que todos los usuarios tengan acceso a Teams con una [suscripción de pago que incluya Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
 
   - Si ya tiene una suscripción, asegúrese de que **[Teams está activado](../user-access.md)** para todos los usuarios.
 
