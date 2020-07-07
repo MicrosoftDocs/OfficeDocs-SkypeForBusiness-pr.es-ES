@@ -21,12 +21,11 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Más información sobre las directivas en una configuración educativa o EDU, y cómo usar y administrar paquetes de directivas en Microsoft Teams.
-ms.openlocfilehash: 8e024003957a295d56e26a46f473d543f2cb0ded
-ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
-ms.translationtype: HT
+ms.openlocfilehash: fcc6a5d22d5e499cf698e424148ff37cd3ee054e
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874436"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021888"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Directivas de Teams y paquetes de directivas para educación
 
@@ -148,6 +147,9 @@ Cada directiva individual se indica con el nombre del paquete de directivas para
 ### <a name="meeting-policies"></a>Directivas de reunión
 
 #### <a name="turn-off-the-ability-to-create-and-start-meetings"></a>Desactivar la posibilidad de crear e iniciar reuniones
+
+> [!NOTE]
+> Es posible que no vea esta funcionalidad en su espacio empresarial en este momento. Esto se debe a que esta característica se está implementando actualmente y estará disponible para todos los usuarios una vez que se ha implementado para todos los espacios empresariales. Para obtener más información, consulte la [Hoja de ruta de Teams](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=63355).
 
 Para asegurarse de que los alumnos no puedan programar una reunión para comunicarse sin supervisión, en las directivas de reunión establezca en **Desactivado** las funciones de creación de reunión a través de esta configuración general:
 
