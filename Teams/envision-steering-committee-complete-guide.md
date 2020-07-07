@@ -16,12 +16,11 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 397f41a468c987e70d068066dcf16ddf0e64843a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
-ms.translationtype: MT
+ms.openlocfilehash: a7e4e24b871ab537e336ddbd2b25c0d44408c299
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136790"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042792"
 ---
 # <a name="steering-committee"></a>Comité Director
 
@@ -88,7 +87,7 @@ Cuando programe una reunión de Comité, tenga en cuenta el proyecto y la cadenc
 
 ### <a name="prepare-for-the-meeting"></a>Prepararse para la reunión
 
-Para aprovechar al máximo el tiempo de todos, debe prepararse para la reunión. El equipo central puede empezar a preparar el material para la reunión del Comité Director. La [plantilla de Comité de dirección: vínculo a la plantilla de un ejemplo PPT] la plantilla del Comité de gobierno puede utilizarse como punto de partida para la preparación.
+Para aprovechar al máximo el tiempo de todos, debe prepararse para la reunión. El equipo central puede empezar a preparar el material para la reunión del Comité Director. Puede crear una presentación de PowerPoint para preparar la reunión.
 
 Los siguientes activos deben completarse e incluirse en la presentación para la reunión:
 
@@ -166,7 +165,7 @@ La reunión en sí debe ser una continuación natural del trabajo de preparació
 
 7.  Envíe un mensaje de correo electrónico de seguimiento de los asistentes que incluya la presentación que ha creado y agregue las notas que haya tomado. Asegúrese de incluir a cualquier persona que no le haya asistido.
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
 Después de revisar la descripción del Comité de dirección, ahora es el momento de actuar. El equipo del proyecto debe comenzar su trabajo para implementar el Comité Director en la escala de tiempo del proyecto y preparar un reprincipio periódico de la reunión de un Comité de gobierno. Lo ideal es que el Comité se conformara antes de que se inicie el proyecto y proporcione instrucciones en todas sus fases, pero si ese no es el caso, el Comité puede guiar al equipo de proyecto para que se constituya correctamente.
 

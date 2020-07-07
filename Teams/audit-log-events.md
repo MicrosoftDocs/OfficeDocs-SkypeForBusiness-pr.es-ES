@@ -15,12 +15,11 @@ search.appverid: MET150
 description: Obtenga información sobre cómo recuperar datos de Microsoft Teams del registro de auditoría.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a305afdc96f71731431ba187cd4d4021e0cec943
-ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
-ms.translationtype: MT
+ms.openlocfilehash: 4084074d9dec08b2c254d1678fde51d0a26adfaa
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44816631"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042882"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -41,7 +40,7 @@ Para obtener una lista completa de las actividades de teams que se auditan, cons
 
 ## <a name="turn-on-auditing-in-teams"></a>Activar la auditoría en Microsoft Teams
 
-Para poder consultar los datos de auditoría, primero debe activar la auditoría en el [centro de cumplimiento de & de seguridad](https://protection.office.com). Para obtener ayuda para activar la auditoría, lea [activar o desactivar la búsqueda de registros de auditoría](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Para poder consultar los datos de auditoría, primero debe activar la auditoría en el [centro de cumplimiento de & de seguridad](https://protection.office.com). Para obtener ayuda con la activación de la auditoría, lea [activar o desactivar la búsqueda de registros de auditoría](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 > [!IMPORTANT]
 > Los datos de auditoría solo están disponibles desde el punto en el que activó la auditoría.
@@ -97,13 +96,13 @@ Como se mencionó anteriormente, puede supervisar los escenarios de eliminación
 
 ![Captura de pantalla de la página creación de directiva que muestra la configuración de una directiva para la detección masiva de la eliminación de equipos](media/TeamsMassDeletePolicy.png)
 
-Como se muestra en la captura de pantalla, puede establecer muchos parámetros diferentes para que esta directiva supervise las eliminaciones de Teams, incluyendo la gravedad, una acción única o repetida, y los parámetros que limitan esta posibilidad a los equipos y la eliminación de sitios. Esto puede hacerse independientemente de una plantilla o puede tener una plantilla creada para basar esta directiva en función de las necesidades de la organización.
+Como se muestra en la captura de pantalla, puede establecer muchos parámetros diferentes para que esta directiva supervise las eliminaciones de Teams, incluyendo la gravedad, una acción única o repetida, y los parámetros que limitan esta posibilidad a los equipos y la eliminación de sitios. Esto puede hacerse independientemente de una plantilla o puede tener una plantilla creada para basar esta Directiva, según las necesidades de la organización.
 
 Una vez que haya establecido una directiva que funcione para su empresa, podrá revisar los resultados en el registro de actividades a medida que se activen los eventos:
 
 ![Captura de pantalla de una lista de eventos desencadenada por eliminaciones masivas](media/TeamsMassDeleteList.png)
 
-Puede filtrar hasta la Directiva que haya establecido para ver los resultados de esa Directiva. Si los resultados que está recibiendo en el registro de actividades no son satisfactorios (quizá esté viendo un gran número de resultados o nada), esto puede ayudarle a ajustar la consulta para hacerla más relevante para lo que necesita.
+Puede filtrar hasta la Directiva que haya establecido para ver los resultados de esa Directiva. Si los resultados que recibe en el registro de actividades no son satisfactorios (quizá haya un gran número de resultados o nada), esto puede ayudarle a ajustar la consulta para hacerla más relevante para lo que necesita.
 
 ### <a name="alert-and-governance-scenario"></a>Escenario de alertas y gobernanza
 
@@ -115,7 +114,7 @@ Puede establecer alertas y enviar correos electrónicos a administradores y a ot
 
 [Las directivas de detección de anomalías](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) de seguridad de aplicaciones en la nube proporcionan análisis de comportamiento de entidad y de usuario (UEBA) y aprendizaje de máquina (ml) listos para usar, de modo que pueda ejecutar inmediatamente en todo el entorno de la nube. Debido a que se habilitan automáticamente, las nuevas políticas de detección de anomalías proporcionan resultados inmediatos proporcionando detecciones inmediatas, dirigidas a numerosas anomalías de comportamiento entre los usuarios y los equipos y dispositivos conectados a la red. Además, las nuevas directivas exponen más datos del motor de detección de seguridad de la aplicación en la nube para ayudarle a acelerar el proceso de investigación y a contener amenazas actuales.
 
-Estamos trabajando para integrar eventos de Teams en directivas de detección de anomalías. Por ahora, puede configurar directivas de detección de anomalías para otros productos de Office y tomar medidas para los usuarios que coincidan con esas directivas.
+Estamos trabajando para integrar eventos de Teams en directivas de detección de anomalías. Por el momento, puede configurar directivas de detección de anomalías para otros productos de Office y tomar medidas para los usuarios que coincidan con esas directivas.
 
 ## <a name="teams-activities"></a>Actividades de Teams
 
@@ -138,6 +137,7 @@ Esta es una lista de todos los eventos que se registran para las actividades de 
 |Canal eliminado     |ChannelDeleted         |Un usuario elimina un canal de un equipo.         |
 |Equipo eliminado  |TeamDeleted            |El propietario de un equipo elimina un equipo.      |
 |Aplicación instalada |AppInstalled         |Se instaló una aplicación.   |
+|Acción realizada en la tarjeta|PerformedCardAction|Un usuario tomó medidas en una tarjeta adaptativa dentro de una conversación. Los bots suelen usar tarjetas adaptables para permitir la visualización enriquecida de la información y la interacción en los chats. <br/><br/>**Nota:** Solo las acciones de entrada en línea en una tarjeta adaptable dentro de una conversación estarán disponibles en el registro de auditoría. Por ejemplo, cuando un usuario envía una respuesta de sondeo en una conversación de canal en una tarjeta adaptativa generada por un bot de sondeo. Las acciones del usuario, como "resultado de la vista", que abrirá un cuadro de diálogo, o las acciones de usuario dentro de los cuadros de diálogo no estarán disponibles en el registro de auditoría.|
 |Aplicación publicada |AppPublishedToCatalog           |Se agregó una aplicación al catálogo.     |
 |Bot quitado del equipo   |BotRemovedFromTeam         |Un usuario quita un bot de un equipo.       |
 |Conector quitado     |ConnectorRemoved         |Un usuario quita un conector de un canal.         |

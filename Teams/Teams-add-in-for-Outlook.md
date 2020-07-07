@@ -18,12 +18,11 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fdecae806c0e02efc9a440ce192528ab6017d994
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
-ms.translationtype: MT
+ms.openlocfilehash: 877ebf8041b52e6522dc55a053e0465d4aa6a48d
+ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689816"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049417"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -133,6 +132,10 @@ Realice los pasos siguientes para solucionar problemas con el complemento de reu
 ### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>El complemento de reunión de Teams en Outlook para Windows no se muestra
 
 Si no consigue instalar el complemento Reunión de Teams para Outlook, pruebe estos pasos para solucionarlo.
+
+[Descargue](https://aka.ms/SaRA-TeamsAddInScenario) y ejecute el [Asistente de recuperación del soporte técnico de Microsoft](https://aka.ms/SaRA_Home) para realizar acciones y correcciones automatizadas.
+
+También puede realizar los pasos siguientes de forma manual:
 
 - Los usuarios de Windows 7 deben instalar la [Actualización Universal C Runtime en Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para que el complemento Reunión de Teams funcione.
 - Compruebe que el usuario tiene una directiva de actualización de teams que permite programar reuniones en Teams. Para obtener más información, consulte [actualizar de Skype empresarial a teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
