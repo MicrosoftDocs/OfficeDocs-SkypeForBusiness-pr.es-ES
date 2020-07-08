@@ -658,6 +658,7 @@
 ### [Inicio rápido para los trabajadores de primera línea](firstline-workers-quickstart.yml)
 ### [Implementación mediante scripts para trabajadores de primera línea](flw-scripted-deployment.md)
 ### [RealWear para Microsoft Teams](flw-realwear.md)
+### [Walkie Talkie](walkie-talkie.md)
 ### [Crear una aplicación de portal de intranet de Teams desde un sitio o página de SharePoint Online](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams para el comercio](expand-teams-across-your-org/teams-for-retail-landing-page.md)
