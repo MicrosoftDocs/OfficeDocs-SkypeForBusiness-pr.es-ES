@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 935be9902accbd575c9795a667943a6810aec6e3
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: e9356ae3dc9ed5bb7375f90cad18e13a83b8f5e8
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44841911"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042802"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -141,7 +141,7 @@ Para obtener más información sobre los eventos en directo y una comparación d
 > [!IMPORTANT]
 > **Aumentamos el límite de eventos en directo de Microsoft 365**
 > 
-> Para ayudar a los clientes a cumplir con unas necesidades de comunicación que cambian cada día, los eventos en directo de Microsoft 365 Live elevarán temporalmente sus límites predeterminados hasta el 1 de julio de 2020 para eventos en directo alojados en Teams. A finales de abril de 2020 se comenzaron a elevar los siguientes límites:
+> Para ayudar a los clientes a cumplir con unas necesidades de comunicación que cambian cada día, los eventos en directo de Microsoft 365 elevarán temporalmente sus límites predeterminados hasta el 1 de octubre de 2020 para eventos en directo alojados en Teams. Se están implementando los siguientes incrementos:
 > - Límite de asistentes: los eventos pueden dar cabida a hasta 20 000 asistentes.
 > - Eventos simultáneos: 50 eventos se pueden hospedar de forma simultánea en un espacio empresarial.
 > - Duración del evento: se ha aumentado la duración del evento hasta a 16 horas por difusión.
