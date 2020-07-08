@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar y conectar su SBC al enrutamiento de un sistema telefónico directo.
-ms.openlocfilehash: 8ceb4d1811b479fbcdc0d4ca83f4dbc4672227bd
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 900c8c50f60842465ae6a636d5953be81c83af84
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691266"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077625"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Conectar el controlador de borde de sesión (SBC) al enrutamiento directo
 
@@ -40,7 +40,7 @@ Puede usar el [centro de administración de Microsoft Teams](#using-the-microsof
 
 1. En el navegación de la izquierda, vaya a enrutamiento de **voz**  >  **directo**y, a continuación, haga clic en la pestaña **SBCS** .
 2. Haga clic en **Agregar**.
-3. Escriba un FQDN para el SBC. <br><br>Asegúrese de que la parte correspondiente al nombre de dominio del FQDN coincide con un dominio que está registrado en su espacio empresarial y tenga en cuenta que el nombre de dominio `*.onmicrosoft.com` FQDN no es compatible con el nombre de dominio FQDN de SBC. Por ejemplo, si tiene dos nombres de dominio `contoso.com` y `contoso.on.microsoft.com` , use `sbc.contoso.com` como nombre de SBC.
+3. Escriba un FQDN para el SBC. <br><br>Asegúrese de que la parte correspondiente al nombre de dominio del FQDN coincide con un dominio que está registrado en su espacio empresarial y tenga en cuenta que el nombre de dominio `*.onmicrosoft.com` FQDN no es compatible con el nombre de dominio FQDN de SBC. Por ejemplo, si tiene dos nombres de dominio `contoso.com` y `contoso.onmicrosoft.com` , use `sbc.contoso.com` como nombre de SBC.
 4. Configure las siguientes opciones de SBC, en función de las necesidades de su organización. Para obtener más información sobre cada una de estas configuraciones, consulte [configuración de SBC](#sbc-settings).
 
     ![Captura de pantalla de la página Agregar SBC en el centro de administración de Microsoft Teams](media/direct-routing-add-sbc.png)

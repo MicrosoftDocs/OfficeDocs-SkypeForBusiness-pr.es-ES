@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre los operadores automáticos de la nube y cómo usarlos para que los autores de llamadas puedan desplazarse por un sistema de menús para ubicar y transferir llamadas a usuarios o departamentos.
-ms.openlocfilehash: 590d2282faa4642cbd23c195e6a2e9e327803993
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 53353df78c0344b3cf96b1854ea576e8d907bfbc
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665192"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077645"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>¿Qué son los operadores automáticos en la nube?
 
@@ -42,7 +42,7 @@ Para configurar un operador automático para el sistema telefónico, vaya a [con
 Un operador automático de la nube tiene las siguientes características:
   
 - Puede transmitir saludos corporativos o informativos.
-- Puede proporcionar menús corporativos personalizados. Estos menús se pueden personalizar para que tengan más de un nivel.
+- It can provide custom corporate menus. You can customize these menus to have more than one level.
 - Proporciona búsqueda en directorios que permite a las personas que llaman para buscar un nombre en el directorio de la organización.
 - Permite que alguien que llama para llegar a un mensaje o abandonarlo para una persona de su organización.
 - Admite varios idiomas para avisos, texto a voz y reconocimiento de voz.
@@ -71,8 +71,9 @@ Para comenzar a utilizar operadores automáticos, es importante recordar que:
     > [!IMPORTANT]
     > Los números de teléfono de usuario (suscriptor) no se pueden asignar a los operadores automáticos; solo se pueden usar números de teléfono de servicio de pago y gratuitos.
 
-- Normalmente, un sistema de operador automático completo implica varios operadores automáticos y es posible que solo requiera un único número de teléfono asignado para el operador automático de nivel superior o entrada. Otros operadores automáticos o colas de llamadas en el sistema completo solo necesitarán un número de teléfono si desea proporcionar varios puntos de entrada en el sistema.
-- Es posible aplicar más de un número de teléfono a un operador automático asociando más de una cuenta de recursos a un operador automático.
+- Normalmente, un sistema de operador automático completo implica varios operadores automáticos.
+- Es posible aplicar más de un número de teléfono a los operadores automáticos de nivel de entrada.
+- Los operadores automáticos de nivel no de entrada o las colas de llamadas en el sistema completo solo necesitarán un número de teléfono si van a realizar llamadas RTC salientes.
   
 ## <a name="feature-overview"></a>Descripción general de la característica
 

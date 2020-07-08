@@ -13,12 +13,12 @@ ms.collection:
 description: Obtenga más información sobre los cambios más recientes en Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cda7c9db774632317cb568a6b448b4fc04b3b5ff
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 5859aeb74e8966138b91d16e206cbd9d00cf0587
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944146"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077685"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notas de la versión de Microsoft Teams PowerShell
 
@@ -31,7 +31,8 @@ Esta página proporciona el registro de cambios de PowerShell más reciente de T
 
 | Fecha | Versión | Las |
 |------- | -------------------- | ------------------------------ |
-| 2020 de junio | [1.1.0: vista previa](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.0-preview) | <li>Integración del conector de Skype empresarial online<li>Optimizaciones del equipo Get<li>Mayor confiabilidad</li> |
+| 2020 de julio | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Se han agregado [cmdlets de asignación de directiva de grupo](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
+| 2020 de junio | [1.1.3: vista previa](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Integración del conector de Skype empresarial online<li>Optimizaciones del equipo Get<li>Mayor confiabilidad</li> |
 | 2020 de junio | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Se ha agregado la carga previa del cmdlet<li>Optimizaciones de .NET Framework</li>   |
 | 2020 de abril | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode y firma de ensamblado<li>Se agregó Get-CsPolicyPackage<li>Se agregó Get-CsUserPolicyPackage<li>Se agregó Get-CsUserPolicyPackageRecommendation<li>Se ha agregado la concesión-CsUserPolicyPackage<li>Se ha agregado New-CsBatchPolicyPackageAssignmentOperation<li>Se agregó Set-TeamArchivedState<li>Se agregó Set-TeamPicture<li>Se ha quitado Get-TeamHelp</li>  |
 | 2020 de marzo | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Se ha agregado New-CsBatchPolicyAssignmentOperation</li> |
@@ -50,7 +51,7 @@ Esta página proporciona el registro de cambios de PowerShell más reciente de T
 | [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) | Sí | Sí |
 | [Disconnect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/disconnect-microsoftteams?view=teams-ps) | Sí | Sí |
 | [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation?view=teams-ps) | Sí | Sí |
-| [Get-CsGroupPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignmentoperation?view=teams-ps) | Sí | **No** |
+| [Get-CsGroupPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignmentoperation?view=teams-ps) | Sí | Sí |
 | [Get-CsOnlinePowerShellEndpoint](https://docs.microsoft.com/powershell/module/teams/get-csonlinepowershellendpoint?view=teams-ps) | Sí | **No** |
 | [Get-CsPolicyPackage](https://docs.microsoft.com/powershell/module/teams/get-cspolicypackage?view=teams-ps) | Sí | Sí |
 | [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment?view=teams-ps) | Sí | Sí |
@@ -64,13 +65,13 @@ Esta página proporciona el registro de cambios de PowerShell más reciente de T
 | [Get-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/get-teamsappinstallation?view=teams-ps) | Sí | Sí |
 | [Grant-CsUserPolicyPackage](https://docs.microsoft.com/powershell/module/teams/grant-csuserpolicypackage?view=teams-ps) | Sí | Sí |
 | [Nuevo: CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) | Sí | Sí |
-| [Nuevo: CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | Sí | **No** |
+| [Nuevo: CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | Sí | Sí |
 | [Nuevo: CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation?view=teams-ps) | Sí | Sí |
 | [Nuevo: CsOnlineSession](https://docs.microsoft.com/powershell/module/teams/new-csonlinesession?view=teams-ps) | Sí | **No** |
 | [Nuevo: equipo](https://docs.microsoft.com/powershell/module/teams/new-team?view=teams-ps) | Sí | Sí |
 | [Nuevo: TeamChannel](https://docs.microsoft.com/powershell/module/teams/new-channel?view=teams-ps) | Sí | Sí |
 | [Nuevo: TeamsApp](https://docs.microsoft.com/powershell/module/teams/new-teamsapp?view=teams-ps) | Sí | Sí |
-| [Remove-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment?view=teams-ps) | Sí | **No** |
+| [Remove-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment?view=teams-ps) | Sí | Sí |
 | [Quitar equipo](https://docs.microsoft.com/powershell/module/teams/remove-team?view=teams-ps) | Sí | Sí |
 | [Remove-TeamChannel](https://docs.microsoft.com/powershell/module/teams/remove-teamchannel?view=teams-ps) | Sí | Sí |
 | [Remove-TeamChannelUser](https://docs.microsoft.com/powershell/module/teams/remove-teamchanneluser?view=teams-ps) | Sí | Sí |
@@ -78,7 +79,7 @@ Esta página proporciona el registro de cambios de PowerShell más reciente de T
 | [Remove-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/remove-teamsappinstallation?view=teams-ps) | Sí | **No** |
 | [Remove-TeamTargetingHierarchy](https://docs.microsoft.com/powershell/module/teams/remove-teamtargetinghierarchy?view=teams-ps) | Sí | **No**|
 | [Remove-TeamUser](https://docs.microsoft.com/powershell/module/teams/remove-teamuser?view=teams-ps) | Sí | Sí |
-| [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment?view=teams-ps) | Sí | **No** |
+| [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment?view=teams-ps) | Sí | Sí |
 | [Set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps) | Sí | Sí |
 | [Set-TeamArchivedState](https://docs.microsoft.com/powershell/module/teams/set-teamarchivedstate?view=teams-ps) | Sí | Sí |
 | [Set-TeamChannel](https://docs.microsoft.com/powershell/module/teams/set-teamchannel?view=teams-ps) | Sí | Sí |

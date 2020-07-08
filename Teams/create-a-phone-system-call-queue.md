@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube con Microsoft Teams, que proporcionan un mensaje de saludo, mantener música, redirigir llamadas y otras características.
-ms.openlocfilehash: ac0fb41ebb85a6e7e80d3d221da4dabf456d20aa
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: dd11e33e4947ea231310b06af2570711d55b2451
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697436"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077724"
 ---
 # <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 
@@ -69,7 +69,7 @@ Para comenzar a utilizar colas de llamadas, es importante recordar algunas cosas
   > Los números del servicio de enrutamiento directo para colas de llamadas solo se admiten para usuarios y agentes de Microsoft Teams.
 
 > [!NOTE]
-> Para redirigir las llamadas a las personas de su organización que están conectadas, deben tener una licencia de **sistema telefónico** y estar habilitadas para telefonía IP empresarial o tener planes de llamadas a Microsoft 365 o de Office 365. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> Para redirigir las llamadas a las personas de su organización que están conectadas, deben tener una licencia de **sistema telefónico** y estar habilitadas para telefonía IP empresarial o tener planes de llamadas a Microsoft 365 o de Office 365. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute: ' Set-CsUser-Identity "amos Marble"-EnterpriseVoiceEnabled $true.
 
 - Para obtener más información sobre los planes de llamadas, consulte planes de llamadas y [sistemas telefónicos](calling-plan-landing-page.md) y [planes de llamadas para Microsoft 365 u Office 365](calling-plans-for-office-365.md).
 
@@ -174,11 +174,11 @@ Los agentes de llamadas seleccionados deben ser uno de los siguientes:
 - Usuarios locales de Skype empresarial Server
 
   > [!NOTE]
-  > Esto también se aplica si desea redirigir las llamadas a las personas de su organización que están conectadas. Estas personas deben tener una licencia de **sistema telefónico** y la telefonía IP empresarial habilitada *o* tener un plan de llamadas. Para obtener más información, vea [asignar licencias de Skype empresarial](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [asignar licencias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)o [el plan de llamadas es adecuado para usted](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page) .
+  > Esto también se aplica si desea redirigir las llamadas a las personas de su organización que están conectadas. Estas personas deben tener una licencia de sistema telefónico y la telefonía IP empresarial habilitada *o* tener un plan de llamadas. Para obtener más información, vea [asignar licencias de Skype empresarial](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [asignar licencias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)o [el plan de llamadas es adecuado para usted](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page) .
 
    Para habilitar un agente para telefonía IP empresarial, puede usar Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Usuarios con una licencia de **sistema telefónico** o un plan de llamadas que se agregan a un grupo de Microsoft 365, una lista de distribución habilitada para correo o un grupo de seguridad. Al agregar un agente en una lista de distribución o un grupo de seguridad como agente de la cola de llamadas, puede demorar hasta tres horas en llegar a la primera llamada. Una lista de distribución o un grupo de seguridad recién creados puede demorar 48 horas en estar disponible para usarse con las colas de llamadas. Los grupos de Microsoft 365 recién creados están disponibles casi de inmediato.
+- Usuarios con una licencia de sistema telefónico o un plan de llamadas que se agregan a un grupo de Microsoft 365, una lista de distribución habilitada para correo o un grupo de seguridad. Al agregar un agente en una lista de distribución o un grupo de seguridad como agente de la cola de llamadas, puede demorar hasta tres horas en llegar a la primera llamada. Una lista de distribución o un grupo de seguridad recién creados puede demorar 48 horas en estar disponible para usarse con las colas de llamadas. Los grupos de Microsoft 365 recién creados están disponibles casi de inmediato.
 
 - Si los agentes usan la aplicación Microsoft Teams para las llamadas de la cola de llamadas, deben estar en modo TeamsOnly.
 
@@ -274,11 +274,23 @@ La configuración predeterminada es de 30 segundos, pero se puede establecer has
 - **Desconectar** La llamada se desconectará.
 - **Redirigir a** Si elige esta opción, seleccione una de las siguientes opciones:
 
-  - **Persona en la organización** Un usuario en línea con una licencia de **sistema telefónico** y estar habilitado para telefonía IP empresarial o tener un plan de llamadas. Puedes configurarlo para que la persona que llama pueda enviarse al buzón de voz. Para ello, seleccione una persona de su organización y configure esta persona para que sus llamadas se desvíen directamente al buzón de voz.
+  - **Persona en la organización** Un usuario en línea con una licencia de sistema telefónico y estar habilitado para telefonía IP empresarial o tener un plan de llamadas. Puedes configurarlo para que la persona que llama pueda enviarse al buzón de voz. Para ello, seleccione una persona de su organización y configure esta persona para que sus llamadas se desvíen directamente al buzón de voz.
 
   Para obtener información sobre las licencias necesarias para el buzón de voz, consulte [configurar el buzón de voz en la nube](set-up-phone-system-voicemail.md).
 
   - **Aplicación de voz** Seleccione el nombre de una cuenta de recursos asociada a una cola de llamadas o a un operador automático que ya se ha creado.
+
+  - **Número de teléfono externo** Elija esta opción para transferir a la persona que llama a un número de teléfono externo que especifique. Tenga en cuenta lo siguiente:
+
+    - La cuenta de recursos asociada a la aplicación que hace que la transferencia de RTC destaque debe tener un número de teléfono y se le debe asignar una licencia de sistema de teléfono virtual. No se admiten licencias de sistema telefónico. Además, la cuenta de recursos debe tener uno de los siguientes elementos:
+        - Para una cuenta de recursos con un número de plan de llamadas, asigne una licencia de [plan de llamadas](calling-plans-for-office-365.md) .
+        - Para una cuenta de recursos con un número de enrutamiento directo, asigne una [Directiva de enrutamiento de voz en línea](manage-voice-routing-policies.md).
+    - El número de teléfono saliente que se muestra se determina de la siguiente manera:
+        - Para los números de planes de llamadas, se muestra el número de teléfono de la persona que llama original.
+        - Para los números de enrutamiento directos, el número enviado se basa en la configuración P-asserted-Identity (PAI) en SBC, de la siguiente manera:
+            - Si se establece en deshabilitado, se muestra el número de teléfono de la persona que llama original. Esta es la configuración predeterminada y recomendada.
+            - Si se establece en habilitado, se muestra el número de teléfono de la cuenta del recurso.
+    - No se admiten las transferencias entre los troncos del plan de llamadas y los troncos de enrutamiento directos.
 
 * * *
 
@@ -292,11 +304,23 @@ El valor de tiempo de espera se puede establecer en segundos, en intervalos de 1
 
 - **Desconectar** La llamada se desconectará.
 - **Redirigir esta llamada a** Si elige esta opción, tiene estas opciones:
-  - **Persona en la organización** Un usuario en línea con una licencia de **sistema telefónico** y estar habilitado para telefonía IP empresarial o para tener planes de llamadas. Para configurarlo de modo que la persona que llama pueda enviarse al buzón de voz, seleccionar a una persona de su organización y configurar esta persona para que las llamadas se desvíen directamente al buzón de voz.
+  - **Persona en la organización** Un usuario en línea con una licencia de sistema telefónico y estar habilitado para telefonía IP empresarial o para tener planes de llamadas. Para configurarlo de modo que la persona que llama pueda enviarse al buzón de voz, seleccionar a una persona de su organización y configurar esta persona para que las llamadas se desvíen directamente al buzón de voz.
 
   Para obtener información sobre las licencias necesarias para el buzón de voz, consulte [configurar el buzón de voz en la nube](set-up-phone-system-voicemail.md).
 
   - **Aplicación de voz** Seleccione el nombre de una cuenta de recursos asociada con una cola de llamadas o un operador automático que ya haya creado.
+
+  - **Número de teléfono externo** Elija esta opción para transferir a la persona que llama a un número de teléfono externo que especifique. Tenga en cuenta lo siguiente:
+
+    - La cuenta de recursos asociada a la aplicación que hace que la transferencia de RTC destaque debe tener un número de teléfono y se le debe asignar una licencia de sistema de teléfono virtual. No se admiten licencias de sistema telefónico. Además, la cuenta de recursos debe tener uno de los siguientes elementos:
+        - Para una cuenta de recursos con un número de plan de llamadas, asigne una licencia de [plan de llamadas](calling-plans-for-office-365.md) .
+        - Para una cuenta de recursos con un número de enrutamiento directo, asigne una [Directiva de enrutamiento de voz en línea](manage-voice-routing-policies.md).
+    - El número de teléfono saliente que se muestra se determina de la siguiente manera:
+        - Para los números de planes de llamadas, se muestra el número de teléfono de la persona que llama original.
+        - Para los números de enrutamiento directos, el número enviado se basa en la configuración P-asserted-Identity (PAI) en SBC, de la siguiente manera:
+            - Si se establece en deshabilitado, se muestra el número de teléfono de la persona que llama original. Esta es la configuración predeterminada y recomendada.
+            - Si se establece en habilitado, se muestra el número de teléfono de la cuenta del recurso.
+    - No se admiten las transferencias entre los troncos del plan de llamadas y los troncos de enrutamiento directos.
 
 ## <a name="change-caller-id-for-outbound-calls"></a>Cambiar la identificación de llamadas para llamadas salientes
 

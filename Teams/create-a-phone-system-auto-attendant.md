@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos de la nube para Microsoft Teams.
-ms.openlocfilehash: 0cdba07297e22b116bbfe120f4d1e5640ee9a892
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 247cb553c2fb3c4dafd1a36b826fc13f2f21b0ce
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44874243"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077725"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
@@ -88,7 +88,19 @@ Tiene varias formas de configurar el operador:
      > [!Note]
      > Una **persona en la organización** puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server. Al seleccionar una **persona de la organización** , puede seleccionar una cuenta con un buzón de correo compartido o con un buzón de usuario.
 
-- **Aplicación de voz**  Seleccione el nombre de la cuenta de recursos vinculada a un operador automático o a una cola de llamadas que ya se ha creado. Las personas que llaman que solicitan un operador se redirigen allí.  
+- **Aplicación de voz**  Seleccione el nombre de la cuenta de recursos vinculada a un operador automático o a una cola de llamadas que ya se ha creado. Las personas que llaman que solicitan un operador se redirigen allí.
+- **Número de teléfono externo** transfiere el autor de la llamada a un número de teléfono externo que especifique. Tenga en cuenta lo siguiente:
+
+    - La cuenta de recursos asociada a la aplicación que hace que la transferencia de RTC destaque debe tener un número de teléfono y se le debe asignar una licencia de sistema de teléfono virtual. No se admiten licencias de sistema telefónico. Además, la cuenta de recursos debe tener uno de los siguientes elementos:
+        - Para una cuenta de recursos con un número de plan de llamadas, asigne una licencia de [plan de llamadas](calling-plans-for-office-365.md) .
+        - Para una cuenta de recursos con un número de enrutamiento directo, asigne una [Directiva de enrutamiento de voz en línea](manage-voice-routing-policies.md).
+    - El número de teléfono saliente que se muestra se determina de la siguiente manera:
+        - Para los números de planes de llamadas, se muestra el número de teléfono de la persona que llama original.
+        - Para los números de enrutamiento directos, el número enviado se basa en la configuración P-asserted-Identity (PAI) en SBC, de la siguiente manera:
+            - Si se establece en deshabilitado, se muestra el número de teléfono de la persona que llama original. Esta es la configuración predeterminada y recomendada.
+            - Si se establece en habilitado, se muestra el número de teléfono de la cuenta del recurso.
+    - No se admiten las transferencias entre los troncos del plan de llamadas y los troncos de enrutamiento directos.
+
 <!--   
 
 - **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
@@ -157,15 +169,27 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 
 ![Icono del número 4, una llamada en la captura de pantalla anterior ](media/teamscallout4.png) **llamada de redireccionamiento** envía el autor de la llamada al destino elegido sin elegir las opciones. Los valores posibles son:
 
-  - **Persona en la organización** La cuenta que elija debe tener habilitada una licencia de sistema telefónico para telefonía IP empresarial o tener un plan de llamadas asignado en Microsoft 365 u Office 365. Puedes configurarlo para que la persona que llama pueda enviarse al buzón de voz: selecciona una **persona en la organización** y configura esa cuenta para que las llamadas se desvíen directamente al buzón de voz.
+  - **Persona en la organización** La cuenta que elija debe tener habilitada una licencia de sistema telefónico para telefonía IP empresarial o tener un plan de llamadas asignado en Microsoft 365 u Office 365. Puedes configurarlo para que la persona que llama pueda enviarse al buzón de voz. Seleccione una **persona de la organización** y configure esa cuenta para que las llamadas se desvíen directamente al buzón de voz.
 
     > [!Note]
     > Una **persona en la organización** puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server. Al seleccionar una **persona de la organización** , puede seleccionar una cuenta con un buzón de correo compartido o con un buzón de usuario.
 
   - **Aplicación de voz** Seleccione un operador automático o una cola de llamadas que ya se haya configurado. Buscas el operador automático o la cola de llamadas por el nombre de la cuenta de recursos asociada con el servicio.
+  - **Número de teléfono externo** transfiere el autor de la llamada a un número de teléfono externo que especifique. Tenga en cuenta lo siguiente:
+
+    - La cuenta de recursos asociada a la aplicación que hace que la transferencia de RTC destaque debe tener un número de teléfono y se le debe asignar una licencia de sistema de teléfono virtual. No se admiten licencias de sistema telefónico. Además, la cuenta de recursos debe tener uno de los siguientes elementos:
+        - Para una cuenta de recursos con un número de plan de llamadas, asigne una licencia de [plan de llamadas](calling-plans-for-office-365.md) .
+        - Para una cuenta de recursos con un número de enrutamiento directo, asigne una [Directiva de enrutamiento de voz en línea](manage-voice-routing-policies.md).
+    - El número de teléfono saliente que se muestra se determina de la siguiente manera:
+        - Para los números de planes de llamadas, se muestra el número de teléfono de la persona que llama original.
+        - Para los números de enrutamiento directos, el número enviado se basa en la configuración P-asserted-Identity (PAI) en SBC, de la siguiente manera:
+            - Si se establece en deshabilitado, se muestra el número de teléfono de la persona que llama original. Esta es la configuración predeterminada y recomendada.
+            - Si se establece en habilitado, se muestra el número de teléfono de la cuenta del recurso.
+    - No se admiten las transferencias entre los troncos del plan de llamadas y los troncos de enrutamiento directos.
   - **Buzón de voz** Seleccione el grupo de Microsoft 365 que contiene los usuarios de su organización que necesitan tener acceso al buzón de voz recibido por este operador automático. Los mensajes de voz se envían al grupo de Microsoft 365 que especificó. Para acceder a los mensajes de voz, los miembros del grupo pueden abrirlos desplazándose al grupo en Outlook.
 
       Cambiar **transcripción** a **activado** para permitir la transcripción de voz a texto de los mensajes de voz.
+
 
  * * *
 
@@ -201,6 +225,18 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 - Una **persona en la organización** puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server. El usuario debe tener una licencia de sistema telefónico habilitada para telefonía IP empresarial o planes de llamadas asignados en Microsoft 365 u Office 365. Busque la persona en el campo **Buscar por nombre** .
 
 - **Aplicación de voz** Seleccione un operador automático o una cola de llamadas que ya se haya configurado. Busque el operador automático o la cola de llamadas por el nombre de la cuenta de recursos asociada con la aplicación.
+
+- **Número de teléfono externo** transfiere el autor de la llamada a un número de teléfono externo que especifique. Tenga en cuenta lo siguiente:
+
+    - La cuenta de recursos asociada a la aplicación que hace que la transferencia de RTC destaque debe tener un número de teléfono y se le debe asignar una licencia de sistema de teléfono virtual. No se admiten licencias de sistema telefónico. Además, la cuenta de recursos debe tener uno de los siguientes elementos:
+        - Para una cuenta de recursos con un número de plan de llamadas, asigne una licencia de [plan de llamadas](calling-plans-for-office-365.md) .
+        - Para una cuenta de recursos con un número de enrutamiento directo, asigne una [Directiva de enrutamiento de voz en línea](manage-voice-routing-policies.md).
+    - El número de teléfono saliente que se muestra se determina de la siguiente manera:
+        - Para los números de planes de llamadas, se muestra el número de teléfono de la persona que llama original.
+        - Para los números de enrutamiento directos, el número enviado se basa en la configuración P-asserted-Identity (PAI) en SBC, de la siguiente manera:
+            - Si se establece en deshabilitado, se muestra el número de teléfono de la persona que llama original. Esta es la configuración predeterminada y recomendada.
+            - Si se establece en habilitado, se muestra el número de teléfono de la cuenta del recurso.
+    - No se admiten las transferencias entre los troncos del plan de llamadas y los troncos de enrutamiento directos.
 
 - **Buzón de voz** Seleccione el grupo de Microsoft 365 que contiene los usuarios de su organización que necesitan tener acceso al buzón de voz recibido por este operador automático. Los mensajes de voz se envían al grupo de Microsoft 365 que especificó. Para acceder a los mensajes de voz, los miembros del grupo pueden abrirlos desplazándose al grupo en Outlook.
 
