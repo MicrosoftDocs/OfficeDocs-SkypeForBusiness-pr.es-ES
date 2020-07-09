@@ -17,11 +17,11 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c95d6a08487f45b66c9ecc460d319105417e9f4
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 56da0aecf3d146d40e546dafafaa5ac8e9312847
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824917"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085939"
 ---
-[!INCLUDE [difference-between-call-analytics-and-call-quality-dashboard](../difference-between-call-analytics-and-call-quality-dashboard.md)]
+[!INCLUDE [monitor-call-quality-qos](../monitor-call-quality-qos.md)]
