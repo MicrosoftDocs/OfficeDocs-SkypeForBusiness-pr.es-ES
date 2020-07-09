@@ -17,12 +17,12 @@ description: Aprenda a configurar el enrutamiento directo de las llamadas de Mic
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50e32c34b211766aa5fc3ad7732b1dd392ed8346
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 27ee8dd17b3948d373b5a6c13a210d298ee10d8c
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690886"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083160"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -74,6 +74,7 @@ Actualmente se admiten los siguientes clientes.  Vuelva a consultar a menudo par
 - Teams Mobile Client para Apple iOS Client versión 1.0.92.2019121004 y App Store versión 1.0.92 y posteriores
 - Teams Mobile Client para Android y Google Play Store versión 1416/1.0.0.2019121201 y superior
 - Teams Phone versión 1449/1.0.94.2019110802 y posteriores
+- Salas de equipos versión 4.4.25.0 y posteriores
 
 ## <a name="assign-emergency-addresses"></a>Asignar direcciones de emergencia
 

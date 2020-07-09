@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión (SBC) compatible suministrado por el cliente a Microsoft Phone System.
-ms.openlocfilehash: 1d0dff52258cfae9776fde57b5a30ff60793b902
-ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
+ms.openlocfilehash: 71ef4cd96853bd11f1169fd10aa7519c3ea4a2ec
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44799831"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083180"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -219,6 +219,8 @@ Los FQDN (sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com y sip3.pstnhub.m
 - 52.114.76.76 
 - 52.114.7.24 
 - 52.114.14.70
+- 52.114.16.74
+- 52.114.20.29
 
 Necesitas abrir puertos para todas estas direcciones IP en tu firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.  Si su Firewall admite nombres DNS, el FQDN sip-all.pstnhub.microsoft.com se resuelve en todas estas direcciones IP. 
 

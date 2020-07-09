@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01f57601e7dbf59286c5a92a45b09f835b21c131
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 689a66eea93d71c6b083bfd370ba1c73b6a28245
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691306"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085806"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 
@@ -197,7 +197,7 @@ Al planear una mayor implementación de dispositivos personales para dar soporte
 
 ### <a name="troubleshoot-meeting-and-call-quality"></a>Solucionar problemas de calidad de las reuniones y llamadas 
 
-Teams ofrece dos formas para supervisar y solucionar problemas de calidad de llamadas: [Análisis de llamadas y Panel de calidad de llamadas](difference-between-call-analytics-and-call-quality-dashboard.md) Análisis de llamadas muestra información detallada sobre dispositivos, redes y conectividad relacionada con llamadas concretas y reuniones de cada usuario. Análisis de llamadas está diseñado para ayudar a los administradores y agentes de soporte técnico a solucionar problemas de calidad de llamada con llamadas específicas, mientras que el Panel de calidad de llamadas está diseñado para ayudar a los administradores y los ingenieros de red a optimizar una red. El panel de calidad de llamada cambia el enfoque de usuarios específicos y, en su lugar, analiza la información global de toda la organización de Teams. 
+Teams ofrece dos formas para supervisar y solucionar problemas de calidad de llamadas: [Análisis de llamadas y Panel de calidad de llamadas](monitor-call-quality-qos.md) Análisis de llamadas muestra información detallada sobre dispositivos, redes y conectividad relacionada con llamadas concretas y reuniones de cada usuario. Análisis de llamadas está diseñado para ayudar a los administradores y agentes de soporte técnico a solucionar problemas de calidad de llamada con llamadas específicas, mientras que el Panel de calidad de llamadas está diseñado para ayudar a los administradores y los ingenieros de red a optimizar una red. El panel de calidad de llamada cambia el enfoque de usuarios específicos y, en su lugar, analiza la información global de toda la organización de Teams. 
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|

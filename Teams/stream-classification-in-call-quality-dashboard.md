@@ -1,10 +1,10 @@
 ---
-title: Clasificación de la transmisión en el panel de calidad de llamadas
-ms.author: tonysmit
-author: tonysmit
+title: Clasificación de la transmisión en el panel de calidad de llamadas (CQD)
+ms.author: lolajacobsen
+author: lolaj
 manager: serdars
 ms.reviewer: gageames
-ms.topic: conceptual
+ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -19,21 +19,21 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Descubra cómo se clasifica la calidad de la transmisión en el panel de calidad de llamadas para Microsoft Teams y Skype for Business Online.
-ms.openlocfilehash: 2c70126c86a6e9f0a8bc48c8fffa90142fe5928f
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+description: Obtenga información sobre cómo se clasifica la calidad de la transmisión en el panel de calidad de llamadas (CQD) para Microsoft Teams y Skype empresarial online.
+ms.openlocfilehash: 28c3857f1bf30903e9a59d45e8149f8ecbfc57be
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160744"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085896"
 ---
-# <a name="stream-classification-in-call-quality-dashboard"></a>Clasificación de la transmisión en el panel de calidad de llamadas
+# <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Clasificación de la transmisión en el panel de calidad de llamadas (CQD)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to enable it, see [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
+The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to set it up, see [Set up Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
 
 ## <a name="classifier-definitions"></a>Definiciones del clasificador
 
-Las transmisiones en el CQD se clasifican como _buenas_, _malas_o no _clasificadas_ en función de los valores de las métricas de calidad de clave disponibles. Las métricas y condiciones que se usan para clasificar la secuencia se muestran en las tablas siguientes. Las dimensiones de "mala calidad de los CQDs" pueden usarse para comprender qué métrica es responsable de una clasificación _deficiente_ . Para obtener más información sobre estas dimensiones, consulte [dimensiones y medidas disponibles en el panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Streams in CQD are classified as _Good_, _Poor_, or _Unclassified_ based on the values of the available key quality metrics. The metrics and conditions used to classify stream are shown in the tables that follow. CQD's "Poor Due To" dimensions can be used to understand which metric is responsible for a _Poor_ classification. For more information on these dimensions, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>Clasificador de audio
 
@@ -41,7 +41,7 @@ Si se cumplen una o varias de las siguientes condiciones, una secuencia de audio
 
 |Métrica|Condición|Explicación|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|>1,0|Promedio de media de puntuación de la red: degradación de la transmisión. La cantidad de pérdida de la red y de vibración han influyedo en la calidad del audio recibido.|
+|Audio Degradation Avg|>1,0|Average Network Mean Opinion Score degradation for stream. How much network loss and jitter have impacted the quality of received audio.|
 |Round Trip|>500|Promedio de tiempo de propagación de red de ida y vuelta, que se calcula en milisegundos. Detalles disponibles en [RFC3550](https://tools.ietf.org/html/rfc3550).|
 |Packet Loss Rate|>0,1|Porcentaje medio de pérdida de paquetes en la transmisión.|
 |Vibración|>30|Vibración media producida en la transmisión en milisegundos.|
@@ -115,10 +115,18 @@ Si la conectividad de ICE se realizó correctamente para una transmisión sin _c
 > Se pueden usar la dimensión "Utilización de paquetes" y la medición "Uso medio de paquetes" para determinar la actividad de paquetes de una transmisión.
 
 ## <a name="related-topics"></a>Temas relacionados
+[Mejorar y supervisar la calidad de las llamadas de los equipos](monitor-call-quality-qos.md)
 
-[Activar y usar el panel de calidad de llamadas (CQD)](turning-on-and-using-call-quality-dashboard.md)
+[¿Qué es el CQD?](CQD-what-is-call-quality-dashboard.md)
 
-[Dimensiones y medidas disponibles en el Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[Configurar el panel de calidad de llamadas (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
-[Usar el Análisis de llamadas para solucionar problemas de mala calidad en las llamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
- 
+[Cargar inquilino y datos de compilación](CQD-upload-tenant-building-data.md)
+
+[Datos e informes del CQD](CQD-data-and-reports.md)
+
+[Usar el CQD para administrar la calidad de las llamadas y reuniones](quality-of-experience-review-guide.md)
+
+[Dimensiones y medidas disponibles en el CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
+
+[Usar Power BI para analizar los datos del CQD](CQD-Power-BI-query-templates.md)

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a87ee4f846002537311fc5a9a9dd2e5f22757b0e
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 222daeb76d24186078ac6a49581dbfb05f1711bd
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868127"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086227"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo de la organización en Microsoft Teams
 
@@ -32,7 +32,7 @@ Con los equipos de la organización, los administradores globales pueden crear f
 
 ![Captura de pantalla de la opción de crear un equipo de la organización](media/create-org-wide-team.png "Captura de pantalla de la opción Toda la organización para crear un equipo de la organización")
 
-Cuando se crea un equipo a nivel de la organización, todos los administradores globales se añaden como propietarios del equipo y todos los usuarios activos se añaden como miembros del equipo. Los usuarios sin licencia también se agregan al equipo. La primera vez que un usuario sin licencia inicia sesión en Teams, se le asigna una licencia de prueba de nube comercial de Microsoft Teams. Para obtener más información sobre la licencia de prueba, revise [oferta de prueba de la administración de la Nube comercial de Teams](iw-trial-teams.md). 
+Cuando se crea un equipo a nivel de la organización, todos los administradores globales se añaden como propietarios del equipo y todos los usuarios activos se añaden como miembros del equipo. Los usuarios sin licencia también se agregan al equipo. La primera vez que un usuario sin licencia inicia sesión en Teams, se asigna al usuario una licencia de exploratorias de Microsoft Teams. Para obtener más información sobre la licencia de exploratorias, consulte [administrar la licencia de exploración de Microsoft Teams](teams-exploratory.md). 
 
 Este tipo de cuentas no se añadirán a su equipo de la organización:
 

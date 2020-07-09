@@ -17,17 +17,17 @@ description: Aprenda a resolver problemas de conectividad con el cliente de Micr
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cef20522784ba2d63d1461104a51f3148f48cf53
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 116ce1afef08a6f1639ed011b799f9ca43ea57f5
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689646"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085236"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Solucionar problemas de conectividad con el cliente de Microsoft Teams
 ==============================================================
 
-Es posible que la mayoría de los problemas detectados con el cliente de Microsoft Teams vuelvan a la conectividad de proxy o firewall. Comprobando que las direcciones URL, direcciones IP y puertos necesarios se abren en el firewall o proxy minimizará la solución de problemas. Para obtener información específica sobre las direcciones URL e IPs necesarias para Microsoft Teams, consulte el artículo de las direcciones URL y de soporte técnico de [microsoft 365 y Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) . Los siguientes escenarios requieren que se abran direcciones URL y puertos específicos en el firewall.
+Most issues discovered with the Microsoft Teams client can be traced back to firewall or proxy connectivity. Verifying that the necessary URLs, IP addresses and ports are opened in your firewall or proxy will minimize unnecessary troubleshooting. For specific information on URLs and IPs required for Microsoft Teams, please see the [Microsoft 365 and Office 365 URLs and IP Address](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) support article. The following scenarios require specific URLs and ports to be opened in the firewall.
 
 -   Autenticación
 
@@ -44,3 +44,8 @@ Es posible que la mayoría de los problemas detectados con el cliente de Microso
 -   Interoperabilidad de Skype Empresarial
 
 -   Interoperabilidad del cliente de Skype Empresarial
+
+
+## <a name="related-topics"></a>Temas relacionados
+
+[Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

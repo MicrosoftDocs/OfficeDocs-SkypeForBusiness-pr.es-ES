@@ -22,17 +22,20 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bace73e411970ee1b907890b08a5e501daf90e50
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 1b32e9db020b3498e8185b4d38e25d1d9a1feca5
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539647"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085296"
 ---
 <a name="add-and-update-reporting-labels"></a>Agregar y actualizar etiquetas de informes
 ============================
 
-Las etiquetas de informes se usan en su organización para indicar las ubicaciones físicas de oficinas, edificios o sitios de la organización. La página etiquetas de informes del centro de administración de Microsoft Teams le permite proporcionar un archivo de texto (. csv o. TSV) que contiene una lista de ubicaciones físicas y sus subredes de red asociadas. Este archivo lo usa el análisis de llamadas y el panel de calidad de llamadas para generar informes. Cuando cargue la asignación de subred, los informes proporcionados por estos servicios también contendrán los nombres de ubicación, lo que hace que los informes sean más fáciles de comprender y usar para corregir cualquier problema potencial.
+Las etiquetas de informes se usan en su organización para indicar las ubicaciones físicas de oficinas, edificios o sitios de la organización. La página etiquetas de informes del centro de administración de Microsoft Teams le permite proporcionar un archivo de texto (. csv o. TSV) que contiene una lista de ubicaciones físicas y sus subredes de red asociadas. Este archivo es utilizado por el análisis de llamadas para generar informes. Cuando cargue la asignación de subred, los informes proporcionados por estos servicios también contendrán los nombres de ubicación, lo que hace que los informes sean más fáciles de comprender y usar para corregir cualquier problema potencial.
+
+> [!IMPORTANT]
+> Las etiquetas de informes que cargue se tratarán como *datos de soporte técnico* de acuerdo con el contrato de Office 365, incluida cualquier información que de otro modo sería considerada como datos de los *clientes* o *datos personales*. No incluya datos que no desee proporcionar a Microsoft como *datos de soporte técnico*, ya que esta información será visible para los ingenieros de Microsoft a efectos de soporte técnico.
 
 Los datos de etiquetas y ubicaciones del informe que proporciona son una única estructura de datos: actualmente no hay ninguna interfaz disponible para realizar ediciones individuales de los datos.
 
@@ -57,7 +60,7 @@ Use el ejemplo siguiente para ayudar a crear el archivo de datos.
 |10.0.131.0    |SVC-1|32|USCAMTV001|Contoso alquilado RE&F|Office|RE&F|Vista de montaña|94043|DÉJEN|CA|DÉJEN|1|1|
 |10.0.132.0    |SVC-1|32|USCAMTV001|Contoso alquilado RE&F|Office|RE&F|Vista de montaña|94043|DÉJEN|CA|DÉJEN|1|1|
 
-Para obtener más información sobre cómo dar formato a un archivo de datos, vea [formato del archivo de datos de inquilinos y creación de una estructura de archivo de datos](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure).
+Para obtener más información sobre cómo dar formato a un archivo de datos, vea [formato del archivo de datos de inquilinos y creación de una estructura de archivo de datos](CQD-upload-tenant-building-data.md#upload-building-data-file).
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -16,12 +16,12 @@ description: En este artículo, se explica qué son las barreras de información
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ab476fa906c849e2c5af59546c3cca482be461a
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: ce71f0c0f2621253698cd250372624ded638dcec
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021851"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083190"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de la información en Microsoft Teams
 
@@ -143,10 +143,6 @@ En la actualidad, los usuarios experimentan lo siguiente si una directiva de bar
     ![Captura de pantalla que muestra el chat grupal](media/information-barriers-people-picker.png)
     
 - **Ficha actividad** : Si un usuario visita la pestaña **actividad** de un usuario bloqueado, no aparecerá ninguna publicación. (La ficha **actividad** muestra solo las publicaciones de canal y no habría canales comunes entre los dos usuarios).
-
-    Este es un ejemplo de la vista de pestaña actividad.
-
-    ![Captura de pantalla que muestra la pestaña actividad](media/ib-before-activity-tab-policy.png)
 
     Este es un ejemplo de la vista de pestaña actividad que está bloqueada.
 

@@ -1,14 +1,13 @@
 ---
-title: Implementar la calidad de servicio en los clientes de Teams
+title: Implementar calidad de servicio (QoS) en clientes de Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: Serdars
-ms.date: 2/17/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: vkorlep, siunies
 audience: admin
-description: Obtenga información sobre cómo preparar la red para su organización para la calidad de servicio (QoS) en Microsoft Teams.
+description: Aprenda a usar la calidad de servicio (QoS) para optimizar el tráfico de red para el cliente de escritorio de Microsoft Teams.
 ms.custom: seo-marvel-mar2020
 localization_priority: Normal
 search.appverid: MET150
@@ -18,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81c10ce415c0ed0db670a81b896289b23cb39218
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 80b9257abbbb873b30367f9d430e9a8d155cda09
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904565"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085536"
 ---
-# <a name="set-qos-on-windows-clients"></a>Configurar QoS en clientes de Windows
+# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Implementar calidad de servicio (QoS) en clientes de Microsoft Teams
 
-Puede usar QoS basada en directivas en la Directiva de grupo para establecer el intervalo de puertos de origen para el valor predefinido de DSCP en el cliente de Teams. Los intervalos de puertos especificados en la tabla siguiente son un punto de partida para crear una directiva para cada carga de trabajo.
+Puede usar la calidad de servicio (QoS) basada en directivas en la Directiva de grupo para establecer el intervalo de puertos de origen para el valor de DSCP predefinido en el cliente de Teams. Los intervalos de puertos especificados en la tabla siguiente son un punto de partida para crear una directiva para cada carga de trabajo.
 
 *Tabla 1. Intervalos de puerto iniciales recomendados*
 
@@ -54,7 +53,7 @@ Para crear una directiva de audio de QoS para equipos con Windows 10 Unidos a un
 
 1. En el cuadro de diálogo **QoS basado en directivas** , en la página de apertura, escriba un nombre para la nueva Directiva en el cuadro **nombre** . Seleccione **especificar valor de DSCP** y establezca el valor en **46**. Deje la **tasa de límite saliente** desactivada y, a continuación, haga clic en **siguiente**.
 
-1. En la página siguiente, seleccione **solo las aplicaciones con este nombre de archivo ejecutable** **y, a**continuación, haga clic en **siguiente**. Esta configuración indica a la Directiva que solo asigne prioridad al tráfico coincidente del cliente de equipos.
+1. En la página siguiente, seleccione **solo las aplicaciones con este nombre de archivo ejecutable** , escriba el nombre **Teams.exe**y, a continuación, haga clic en **siguiente**. Esta configuración indica a la Directiva que solo asigne prioridad al tráfico coincidente del cliente de equipos.
 
 1. En la tercera página, asegúrese de que **todas las direcciones IP de origen** y **cualquier dirección IP de destino** estén seleccionadas y, a continuación, haga clic en **siguiente**. Estas dos opciones de configuración garantizan que los paquetes se administrarán independientemente del equipo (dirección IP) que hayan enviado los paquetes y del equipo (dirección IP) que recibirá los paquetes.
 
@@ -86,9 +85,9 @@ Para comprobar que se han establecido los valores del objeto de directiva de gru
    gpresult /R > gp.txt
    ```
 
-   Esto generará un informe de los GPO aplicados y lo enviará a un archivo de texto denominado *GP. txt*.
+   Esto generará un informe de los GPO aplicados y lo enviará a un archivo de texto denominado *gp.txt*.
 
-   Para obtener un informe HTML más legible denominado *GP. html*, escriba el siguiente comando:
+   Para obtener un informe HTML más legible denominado *gp.html*, escriba el siguiente comando:
 
    ```console
    gpresult /H gp.html
@@ -98,7 +97,7 @@ Para comprobar que se han establecido los valores del objeto de directiva de gru
 
 1. Abra el editor del registro y vaya a
 
-   Directivas\_\\de\_software\\\\del equipo local\\de\\HKEY Microsoft Windows QoS
+   \_Directivas de software del equipo local de HKEY \_ \\ \\ \\ Microsoft \\ Windows \\ QoS
 
    Compruebe los valores de las entradas del registro que se muestran en la tabla 2.
 
@@ -119,3 +118,8 @@ Para comprobar que se han establecido los valores del objeto de directiva de gru
    | | | |
 
 1. Compruebe que el valor de la entrada del nombre de la aplicación es correcto para el cliente que está usando y compruebe que tanto el valor de DSCP como las entradas del puerto local reflejan la configuración del objeto de directiva de grupo.
+
+
+## <a name="related-topics"></a>Temas relacionados
+
+[Implementar calidad de servicio (QoS) en Teams](QoS-in-Teams.md)

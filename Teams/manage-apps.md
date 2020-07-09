@@ -17,11 +17,12 @@ description: Obtener información sobre cómo administrar las aplicaciones de Te
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: bd793cc4ec6cbd27180e3babeb69c7fdc5e98ce4
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 1aa72a1720139324f53168c36f1d27a12b5cf5bb
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042932"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086217"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el centro de administración de Microsoft Teams
 ======================================================
@@ -31,6 +32,9 @@ Como administrador, la página **Manage apps** en el centro de administración d
 La página **Manage apps** le ofrece una vista de todas las aplicaciones disponibles en el catálogo de inquilinos, y le proporciona la información que necesita para decidir qué aplicaciones quiere permitir o bloquear en su organización. Después, puede usar [las directivas de permisos](teams-app-permission-policies.md)de la aplicación, [las directivas de configuración](teams-app-setup-policies.md)de la aplicación y [las directivas de aplicaciones personalizadas y la configuración](teams-custom-app-policies-and-settings.md) para configurar la experiencia de la aplicación para usuarios específicos de su organización.
 
 En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **aplicaciones de Teams**  >  **Manage apps**. Debe ser administrador global o administrador de servicios de equipo para poder acceder a la página.
+
+> [!NOTE]
+> La página **Manage apps** aún no está disponible en las implementaciones de Teams de la comunidad de Microsoft 365 pública Cloud (GCC).
 
 ## <a name="view-apps-in-your-tenant-app-catalog"></a>Ver aplicaciones en el catálogo de aplicaciones de inquilino
 
@@ -77,7 +81,7 @@ Cuando bloquea o permite una aplicación en la página **Administrar aplicacione
 Use la configuración de la aplicación en toda la organización para controlar si los usuarios pueden instalar aplicaciones de terceros y si los usuarios pueden cargar o interactuar con aplicaciones personalizadas de su organización. La configuración de la aplicación en toda la organización rige el comportamiento de todos los usuarios y anula cualquier otra directiva de permisos de aplicación asignada a los usuarios. Puede usarlos para controlar aplicaciones malintencionadas o problemáticas.
 
 > [!NOTE]
-> La página **Manage apps** aún no está disponible en las implementaciones de teams 365 gubernamentales-GCC de Microsoft.  Para obtener información sobre cómo usar la configuración de aplicaciones de toda la organización para habilitar o deshabilitar aplicaciones de terceros, consulte [Administrar directivas de permisos de aplicaciones en Teams](teams-app-permission-policies.md).
+> Para obtener información sobre cómo usar la configuración de aplicaciones en toda la organización en implementaciones de Teams gubernamentales-GCC de Microsoft 365, consulte [Administrar directivas de permisos de aplicaciones en Teams](teams-app-permission-policies.md).
 
 1. En la página **Administrar aplicaciones** , seleccione **configuración**de la aplicación en toda la organización. Puede establecer la configuración que desee en el panel.
 

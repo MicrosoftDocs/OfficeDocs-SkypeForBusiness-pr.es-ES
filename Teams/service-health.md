@@ -16,12 +16,12 @@ f1.keywords:
 description: Es recomendable comprobar que el servicio de Teams está en buen estado, así como con otros componentes de Microsoft 365 u Office 365, como Exchange, SharePoint y OneDrive para la empresa.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1451750d5e329ddb27307b21334fb7d281255d73
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c30a4da2a37f75540c2b81a1f0d37e2c1e348339
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690176"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085526"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Comprobar el estado del servicio para Microsoft Teams
 ===========================================
@@ -33,3 +33,8 @@ Además, tenga en cuenta que Microsoft Teams se ha creado a partir de los servic
 ![Captura de pantalla de la página de estado del servicio.](media/Verify_service_health_for_Microsoft_Teams_image1.png)
 
 ![Captura de pantalla donde se ve que el servicio de Microsoft Teams está en buen estado.](media/Verify_service_health_for_Microsoft_Teams_image2.png)
+
+
+## <a name="related-topics"></a>Temas relacionados
+
+[Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

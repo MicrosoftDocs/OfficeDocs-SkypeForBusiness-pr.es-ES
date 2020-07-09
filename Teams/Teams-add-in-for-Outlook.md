@@ -18,11 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 877ebf8041b52e6522dc55a053e0465d4aa6a48d
-ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
+ms.openlocfilehash: 0e9111f54bc3f94c028c8ddc8549e1202326df4f
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049417"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085246"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -175,3 +176,6 @@ Si el complemento sigue sin mostrarse, siga estos pasos para comprobar la config
 Si el administrador ha configurado Microsoft Exchange para [controlar el acceso al servidor Web de Exchange (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), el delegado no podrá programar una reunión de Teams en nombre del jefe. La solución para esta configuración está en desarrollo y se publicará en el futuro. Como solución alternativa, el administrador puede Agregar la siguiente cadena a la lista de permitidos de EWS: "*SchedulingService*". 
 
 
+## <a name="related-topics"></a>Temas relacionados
+
+[Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

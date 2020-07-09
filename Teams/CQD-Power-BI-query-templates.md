@@ -16,18 +16,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Use Power BI para analizar los datos del CQD para Microsoft Teams.
-ms.openlocfilehash: 5d081853f9fc5c1106ce6906f31ddc10613ec9f9
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 3b667bfeea80cc4ba2abe40f71c6ce815bcf38e0
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158967"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086186"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Usar Power BI para analizar los datos del CQD para Microsoft Teams
 
 Novedades de enero de 2020: [Descargue las plantillas de consulta de Power BI para el CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Plantillas de Power BI personalizables que puede usar para analizar y notificar los datos de CQD.
 
-Para los informes de CQD en Teams, si prefiere usar Power BI para consultar y notificar sus datos, Descargue nuestras plantillas de Power BI para CQD. Al abrir las plantillas en Power BI, se le pedirá que inicie sesión con sus credenciales de administrador del CQD. Puede personalizar estas plantillas de consulta y distribuirlas a cualquier persona de su organización que tenga una licencia de Power BI y permisos de administrador del CQD.
+Para los informes del panel de calidad de llamadas (CQD) en Teams, si prefiere usar Power BI para consultar y notificar sus datos, Descargue nuestras plantillas de Power BI para CQD. Al abrir las plantillas en Power BI, se le pedirá que inicie sesión con sus credenciales de administrador del CQD. Puede personalizar estas plantillas de consulta y distribuirlas a cualquier persona de su organización que tenga una licencia de Power BI y permisos de administrador del CQD.
 
 Antes de poder usar estos archivos de PBIT, tendrá que [instalar el conector de Power BI para Microsoft CQD](CQD-Power-BI-connector.md) con el archivo *MicrosoftCallQuality. PQx* incluido en la [descarga](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 

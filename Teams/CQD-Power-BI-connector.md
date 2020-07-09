@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Instalar el conector de Power BI para usar plantillas de consulta de CQD
-ms.openlocfilehash: eb7d2bf412308b017f2583436dd792d64a084b20
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: Instalar el conector de Power BI para usar las plantillas de consulta del panel de calidad de llamadas (CQD)
+ms.openlocfilehash: d474ad6e3f10b0aefaafcd06bb17a5959b65846d
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690936"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085576"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar el conector de Power BI para usar plantillas de consulta de CQD
 
-Antes de poder usar las plantillas de consulta de Power BI para el CQD (archivos PBIX), tendrá que instalar el conector de Power BI para Microsoft CQD usando el archivo *MicrosoftCallQuality. PQx* incluido en la [descarga](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+Antes de usar las plantillas de consulta de Power BI (archivos PBIX) en el panel de calidad de llamadas de Microsoft Teams (CQD), tendrá que instalar el conector de Power BI para Microsoft CQD usando el archivo *MicrosoftCallQuality. PQx* incluido en la [descarga](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 Leer [use Power BI para analizar los datos del CQD de los equipos](CQD-Power-BI-query-templates.md) para obtener información sobre estas plantillas.
 

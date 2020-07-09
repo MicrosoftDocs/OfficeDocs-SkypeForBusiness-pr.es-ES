@@ -17,12 +17,12 @@ description: Solucionar problemas relacionados con la recepción de mensajes y l
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52038470e81b825391e4176c07af7a30f51356df
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: af7845b5fd6d50d63be6cd21749cbfedc7669fcf
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489169"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085156"
 ---
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problemas al recibir mensajes y llamadas en sistemas heredados
 ==============================================================
@@ -45,3 +45,8 @@ Para obtener más información, vea [iniciar sesión en Microsoft Teams mediante
 ## <a name="skype-token-revocation"></a>Revocación de tokens de Skype
 
 Al cambiar o restablecer una contraseña, los clientes antiguos no recibirán mensajes ni llamarán hasta una hora. Para resolver este problema, reinicie la aplicación o desplácese a clientes más recientes.
+
+
+## <a name="related-topics"></a>Temas relacionados
+
+[Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

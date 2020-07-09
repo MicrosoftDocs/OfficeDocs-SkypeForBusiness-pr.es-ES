@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga más información sobre cómo desarrollar y ejecutar tareas y mantenimientos continuos para asegurarse de que los sistemas de salas de Microsoft Teams estén disponibles para sus usuarios.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6b63e42e1f3fa3d5540936d562aa913837103ed1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: bd1b552e9a59ee36856d23478a7e414637976889
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905372"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085956"
 ---
 # <a name="management-overview"></a>Introducción a la administración
 
@@ -42,7 +42,7 @@ La información sobre el estado de la aplicación salas de Microsoft Teams y los
 |**Setting**|**Posible**|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (DWORD) 1  <br/> |Permite arrancar las salas de Microsoft Teams  <br/> |
-|Administración de energía\> : on AC, apagar la pantalla después de 10 minutos  <br/> Administración de energía\> : on AC, no poner el sistema en suspensión  <br/> |Permite que las salas de Microsoft Teams desactiven las pantallas adjuntas y se reactiven automáticamente.  <br/> |
+|Administración de energía: \> on AC, apagar la pantalla después de 10 minutos  <br/> Administración de energía: \> on AC, no poner el sistema en suspensión  <br/> |Permite que las salas de Microsoft Teams desactiven las pantallas adjuntas y se reactiven automáticamente.  <br/> |
 |net accounts /maxpwage:unlimited  <br/> O medios alternativos para deshabilitar la opción de caducidad de la contraseña en la cuenta local. Si esto no se realiza, la cuenta de Skype no podrá iniciar sesión indicando que la contraseña ha caducado. Tenga en cuenta que esto afectará todas las cuentas locales de la máquina y, por consiguiente, si no se configura esto, la cuenta administrativa del cuadro eventualmente también caducará.  <br/> |Permite que la cuenta de Skype siempre inicie sesión  <br/> |
 
 La transferencia de archivos mediante directivas de grupo se trata en [configurar un elemento de archivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
@@ -65,7 +65,7 @@ Le recomendamos que implemente procedimientos continuos de supervisión de la ca
 
 Al cargar la información de su edificio en el CQD, puede investigar tendencias de la calidad de las llamadas y de la fiabilidad en un nivel por construcción, lo que facilita la comparación de los edificios y concentra su atención en problemas específicos.
 
-Le recomendamos que revise y siga la [Guía de revisión de la calidad de la experiencia](https://aka.ms/qerguide) para identificar tendencias de calidad y confiabilidad, y crear un plan de acción para resolverlos. 
+Le recomendamos que revise y siga [mejorando y supervise la calidad de las llamadas de los equipos](../monitor-call-quality-qos.md) para identificar las tendencias de calidad y confiabilidad, y crear un plan de acción para resolverlos. 
 
 ## <a name="updating-the-microsoft-teams-rooms-os-and-microsoft-teams-rooms-application"></a>Actualización de la aplicación Microsoft Teams Rooms OS and Microsoft Teams Rooms
 

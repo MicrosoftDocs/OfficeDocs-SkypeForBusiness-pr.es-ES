@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Use el informe de enrutamiento directo RTC de CQD para supervisar y solucionar problemas de llamadas RTC en Microsoft Teams.
-ms.openlocfilehash: a3a7d84a21858b8cb2039f3f5bb6efde6b9adaaa
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: Use el panel de calidad de llamadas de Microsoft Teams (CQD)) informe de enrutamiento directo de RTC para supervisar y solucionar problemas de llamadas RTC en Microsoft Teams.
+ms.openlocfilehash: 0987ae30c9bb0b428a4d46bf036c2de938c555f0
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221754"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085346"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Usar el informe de enrutamiento directo RTC de CQD
 
-Novedades de marzo de 2020 hemos agregado un informe de enrutamiento directo de la RTC de CQD a nuestras [plantillas de consultas descargables de Power BI para el CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+Novedades de marzo de 2020 hemos agregado un informe de enrutamiento directo de la RTC del panel de calidad de llamadas de Microsoft Teams (CQD) a [las plantillas de consultas descargables de Power BI para el CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 
 El informe de enrutamiento directo de CQD de CQD (informe de enrutamiento directo de RTC de CQD. PBit) le ayuda a comprender los patrones de uso y la calidad de sus servicios RTC. Use este informe para supervisar el uso del servicio, información sobre el controlador de borde de sesión (SBC), el servicio de telefonía, los parámetros de red y los detalles de la relación de la efectividad de la red. Esta información puede ayudarte a identificar los problemas, incluido el motivo de las llamadas interrumpidas. Por ejemplo, podrás ver cuándo disminuye el volumen o cuántas llamadas se ven afectadas y por qué motivos.
@@ -146,3 +146,5 @@ Si ve un pico en cualquiera de los cuatro gráficos (latencia, vibración, tasa 
 ## <a name="related-topics"></a>Temas relacionados
 
 [Usar Power BI para analizar los datos del CQD para Microsoft Teams](CQD-PSTN-report.md)
+
+[Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

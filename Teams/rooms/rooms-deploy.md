@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener información sobre cómo implementar salas de Microsoft Teams, incluidas las fases de implementación.
-ms.openlocfilehash: cf5ba9614426c59412c53b7e0e9420ca09ef6267
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ee8ff755674828b4a2635316227f9cc27189a110
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905412"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085966"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 
@@ -119,7 +119,7 @@ La planificación de la configuración y la implementación abarca las siguiente
 
 Cada dispositivo de salas de Microsoft Teams necesita una cuenta de recursos exclusiva y exclusiva que deba habilitarse para Microsoft Teams o Skype empresarial y Exchange. Esta cuenta debe tener un buzón de sala hospedado en Exchange y habilitarse como sala de reuniones en la implementación de Teams o Skype empresarial. En el lado de Exchange, el procesamiento del calendario se debe configurar para que el dispositivo pueda aceptar automáticamente las convocatorias de reunión entrantes. Para obtener más información sobre la creación de estas cuentas, vea [configurar cuentas para salas de Microsoft Teams](rooms-configure-accounts.md). 
 
-**Sugerencia Pro** : haga que los nombres para mostrar de estas cuentas sean descriptivos y sean fáciles de comprender. Estos son los nombres que los usuarios verán al buscar y agregar sistemas de salas de Microsoft Teams a reuniones. Algunas organizaciones usan el*nombre del salón*de *sitio*-de la Convención (*capacidad máxima*de la sala)-RS, por lo que, por ejemplo Curie, un salón de conferencia de 12 personas en Londres, puede tener el nombre para mostrar Lon-Curie (12)-RS. 
+**Sugerencia Pro** : haga que los nombres para mostrar de estas cuentas sean descriptivos y sean fáciles de comprender. Estos son los nombres que los usuarios verán al buscar y agregar sistemas de salas de Microsoft Teams a reuniones. Algunas organizaciones usan el nombre del salón de *sitio* - *Room Name*de la Convención (*capacidad máxima*de la sala)-RS, por lo que, por ejemplo Curie, un salón de conferencia de 12 personas en Londres, puede tener el nombre para mostrar Lon-Curie (12)-RS. 
 
 |    |     |
 |-----------|------------|
@@ -138,7 +138,7 @@ Al planear la implementación de salas de Microsoft Teams, dispone de varias opc
 | Implementar más de 50 dispositivos de salas de Microsoft Teams, implementar dispositivos de más de un proveedor o requerir agentes específicos de la organización como parte de la implementación. | Usar una plataforma de creación y distribución de software basada en secuencia de tareas, como [Microsoft Endpoint Configuration Manager](rooms-scale.md).  |
 
 
-**Sugerencia Pro** : cada sala de Microsoft Teams debe tener un nombre de equipo válido y único en su red. Muchos sistemas de supervisión y alerta muestran el nombre de la máquina como un identificador de clave, por lo que es importante desarrollar una Convención de nomenclatura para las implementaciones de salas de Microsoft teams que permita al personal de soporte localizar fácilmente las salas de Microsoft teams que se han marcado como obligatorias. Un ejemplo podría estar usando un patrón de MTR-*site*-*Room Name* (MTR-Lon-Curie). 
+**Sugerencia Pro** : cada sala de Microsoft Teams debe tener un nombre de equipo válido y único en su red. Muchos sistemas de supervisión y alerta muestran el nombre de la máquina como un identificador de clave, por lo que es importante desarrollar una Convención de nomenclatura para las implementaciones de salas de Microsoft teams que permita al personal de soporte localizar fácilmente las salas de Microsoft teams que se han marcado como obligatorias. Un ejemplo podría estar usando un patrón de MTR-*site* - *Room Name* (MTR-Lon-Curie). 
 
 Como parte de la implementación, también debe considerar su estrategia para administrar y configurar las [cuentas locales](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) creadas por el instalador de la aplicación salas de Microsoft Teams.
 
@@ -188,7 +188,7 @@ Puede usar [PowerShell remoto](rooms-operations.md#remote-management-using-power
 
 Después de implementar el sistema de salas de Microsoft Teams, debe probarlo. Compruebe que las funciones que se enumeran en la [ayuda de Microsoft Teams Rooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) estén trabajando en el dispositivo implementado. Recomendamos encarecidamente que el equipo de implementación Verifique que las salas de Microsoft Teams estén iniciando sesión en Microsoft Operations Management Suite (si se usa). También es importante que realices una serie de llamadas y reuniones de prueba para comprobar la calidad. Para obtener más información, consulte esta [útil lista de comprobación de implementación](console.md#microsoft-teams-rooms-deployment-checklist).
 
-Le recomendamos que, como parte de los equipos generales o de la implementación de Skype empresarial, configure los archivos de compilación para el panel de calidad de llamadas (CQD), tendencias de calidad del monitor y participe en el proceso de revisión de la calidad de la experiencia. Para obtener más información, consulta la [Guía de revisión de la calidad de la experiencia](https://aka.ms/qerguide). 
+Le recomendamos que, como parte de los equipos generales o de la implementación de Skype empresarial, configure los archivos de compilación para el panel de calidad de llamadas (CQD), tendencias de calidad del monitor y participe en el proceso de revisión de la calidad de la experiencia. Para obtener más información, vea [mejorar y supervisar la calidad de las llamadas de los equipos](../monitor-call-quality-qos.md). 
 
 ### <a name="asset-management"></a>Administración de activos
 

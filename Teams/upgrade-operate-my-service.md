@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7828675f2a1dc7f3ea6f1cbad1227a9c47bd816
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: c23d5d3967e681b0b30d69c5977672063f4e648e
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868507"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085916"
 ---
 # <a name="operate-your-service"></a>Ejecutar los servicios
 
@@ -49,7 +49,9 @@ Las tareas y actividades de esta guía se agrupan en ocho categorías, tal como 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decidir cómo se implementarán las operaciones para Teams.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Revise completa la guía de operaciones.</li><li>Implemente una estrategia de operaciones que se alinee con los objetivos de su organización para ofrecer la calidad y confiabilidad de las cargas de trabajo de Teams.</li><li>Revise la guía de revisión de la calidad de la experiencia.</li><li> Implemente una estrategia de operaciones para realizar regularmente revisiones de la experiencia de la experiencia para asegurarse de que su implementación de equipos está funcionando a su máxima capacidad.</li></ul></td></tr>
+
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul><li>Revise completa la guía de operaciones.</li><li>Implemente una estrategia de operaciones que se alinee con los objetivos de su organización para ofrecer la calidad y confiabilidad de las cargas de trabajo de Teams.</li><li>Revise la guía de revisión de la calidad de la experiencia.</li><li> Implemente una estrategia de operaciones para realizar regularmente revisiones de la experiencia de la experiencia para asegurarse de que su implementación de equipos está funcionando a su máxima capacidad.</li></ul></td></tr>
+
 </table>
 
 ### <a name="operational-role-mapping"></a>Asignación de roles operativos
@@ -67,7 +69,7 @@ Asegúrese de que cada equipo contable tenga una buena comprensión de las activ
 Una vez que se haya implementado un contrato, los equipos correspondientes deberán comenzar a operar sus roles.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td>
 <td><ul><li>Use este documento para facilitar el ejercicio de asignación de roles operativos.</li><li>Reunirse con los respectivos equipos de soporte técnico para asignar nombres a cada elemento de la lista de actividades necesarias.</li><li>Gana la aceptación o la aprobación de los roles asignados.</li><li>Asegúrese de que los equipos correspondientes tengan la formación, preparación y recursos adecuados para completar las actividades que necesiten.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Dependencias del servicio de Teams
@@ -377,12 +379,12 @@ Para garantizar el estado de la red, es necesario realizar una serie de activida
 Todas las organizaciones necesitan un grupo o una persona para que sea responsable de la calidad. Es, sin duda, el rol más importante en la administración de servicios. El rol de preexperto de calidad se asigna a una persona o grupo que es apasionado de la experiencia de los usuarios.
 y requiere las habilidades adecuadas para identificar tendencias del entorno y el respaldo necesario para poder trabajar con otros equipos y dirigir las correcciones que corresponda. El mejor candidato para ser experto en calidad es normalmente el propietario del servicio al cliente. Según el tamaño y la complejidad de la organización, puede ser cualquier persona o grupo con pasión para garantizar una experiencia de usuario de alta calidad.
 
-El defensor de calidad aprovecha las herramientas existentes y los procesos documentados, como el panel de calidad de llamadas (CQD) y la guía de revisión de la calidad de la experiencia, para supervisar la experiencia del usuario, identificar tendencias de calidad y controlar la corrección cuando sea necesario.
+El experto en calidad aprovecha las herramientas existentes y los procesos documentados, como el panel de calidad de llamadas (CQD) y [mejorar y supervisar la calidad de las llamadas de los equipos](monitor-call-quality-qos.md), supervisar la experiencia del usuario, identificar tendencias de calidad y controlar la corrección cuando sea necesario.
 El experto en calidad debe trabajar con los equipos respectivos para impulsar acciones de corrección e informar a un Comité de dirección sobre el progreso y los problemas pendientes.
 
-La [Guía de revisión de la calidad de la experiencia](https://aka.ms/qerguide) incluye actividades que evalúan y proporcionan instrucciones de corrección en áreas clave que tienen el mayor impacto en la mejora de la experiencia del usuario. Las instrucciones proporcionadas en la guía de revisión de la experiencia de calidad se centran en usar el CQD online como la herramienta principal para informar e investigar cada área, centrándose en el audio para maximizar la adopción y el impacto. Las optimizaciones que se realicen en la red para mejorar la experiencia de audio se traducirán directamente en mejoras de las de vídeo y escritorio compartido.
+[Mejorar y supervisar la calidad de las llamadas de Teams](monitor-call-quality-qos.md) incluye actividades que evalúan y proporcionan instrucciones de corrección en áreas clave que tienen el mayor impacto en la mejora de la experiencia del usuario. Las instrucciones proporcionadas en la guía de revisión de la experiencia de calidad se centran en usar el CQD online como la herramienta principal para informar e investigar cada área, centrándose en el audio para maximizar la adopción y el impacto. Las optimizaciones que se realicen en la red para mejorar la experiencia de audio se traducirán directamente en mejoras de las de vídeo y escritorio compartido.
 
-Le recomendamos encarecidamente que se nominar a la calidad del experto en el primer momento. Después de ser nombrados, deben empezar a familiarizarse con el contenido de la guía de revisión de la calidad de la experiencia y los materiales de aprendizaje relacionados.
+Le recomendamos encarecidamente que se nominar a la calidad del experto en el primer momento. Después de ser nombrados, deben empezar a familiarizarse con el contenido [para mejorar y supervisar la calidad de las llamadas de los equipos](monitor-call-quality-qos.md) y los materiales de aprendizaje relacionados.
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas diarias/semanales/mensuales/según sea necesario
 
@@ -398,7 +400,7 @@ Le recomendamos encarecidamente que se nominar a la calidad del experto en el pr
 
 [Cargar información de compilación](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[Guía de revisión de la experiencia de calidad](https://aka.ms/qerguide)
+[Mejorar y supervisar la calidad de las llamadas de los equipos](monitor-call-quality-qos.md)
 
 <!--ENDOFSECTION-->
 
@@ -419,7 +421,7 @@ Los firewalls del cliente pueden afectar a la calidad de las llamadas e incluso 
 
 ### <a name="wi-fi-drivers"></a>Controladores Wi-Fi
 
-Los drivers Wi-Fi pueden ser problemáticos. Como ejemplo, un controlador puede tener comportamientos de itinerancia muy agresivos entre puntos de acceso que pueden inducir un cambio de punto de acceso innecesario, lo que lleva a una mala calidad de las llamadas. Es posible que se descubra un controlador Wi-Fi de mala ejecución a través de la revisión de la calidad de la experiencia (consulte la guía de revisión de la [calidad de la experiencia](https://aka.ms/qerguide) para obtener más detalles). Es esencial implementar un proceso basado en la calidad que supervise los nuevos drivers de Wi-Fi y garantice que estén probados antes de implementarlos en la población general de usuarios.
+Los drivers Wi-Fi pueden ser problemáticos. Como ejemplo, un controlador puede tener comportamientos de itinerancia muy agresivos entre puntos de acceso que pueden inducir un cambio de punto de acceso innecesario, lo que lleva a una mala calidad de las llamadas. Es posible que se descubra un controlador Wi-Fi de mala calidad mediante una revisión de la calidad de la experiencia (vea [mejorar y supervisar la calidad de las llamadas de Teams](monitor-call-quality-qos.md) para obtener más detalles). Es esencial implementar un proceso basado en la calidad que supervise los nuevos drivers de Wi-Fi y garantice que estén probados antes de implementarlos en la población general de usuarios.
 
 ### <a name="endpoint-management"></a>Administración de extremos
 
@@ -445,7 +447,7 @@ Incluso si ha seguido las instrucciones anteriores, los usuarios de su organizac
 |---|---|---|---|
 | Requisitos de los extremos | Asegúrese de que el punto de conexión de Teams siga cumpliendo todos los requisitos de software para Teams que aparecen en [obtener clientes para Microsoft Teams](get-clients.md). | Cada mes | |
 | Firewalls para los puntos de conexión | Mantenga las exclusiones apropiadas en el Firewall de extremo en función de la información de las [direcciones URL y los intervalos de direcciones IP de Office 365](https://aka.ms/o365ips). Su proveedor de terceros tendrá una orientación específica sobre cómo mantener las exclusiones. Suscribirse a la [fuente RSS](https://support.office.com/o365ip/rss) para recibir notificaciones automáticas de los cambios. | Según sea necesario | |
-| Controladores Wi-Fi | Pruebe y actualice los drivers Wi-Fi en su PC. Valide los resultados con el CQD ([Guía de revisión de la calidad de la experiencia](https://aka.ms/qerguide)). | Según sea necesario | |
+| Controladores Wi-Fi | Pruebe y actualice los drivers Wi-Fi en su PC. Valide los resultados con el CQD ([mejorar y supervisar la calidad de las llamadas de los equipos](monitor-call-quality-qos.md)). | Según sea necesario | |
 | Administración de extremos | Mantenga el catálogo de los puntos de conexión y los dispositivos de interfaz compatibles (como auriculares con micrófono). Administrar contratos de proveedores, la garantía, la distribución, la sustitución y las directivas de reparación. | Cada mes | |
 | Solución de problemas de extremos | Las tareas de solución de problemas pueden incluir la comprobación de la conectividad, la consulta de la lista de problemas conocidos, la recopilación de registros, el análisis y el escalamiento al soporte técnico de Microsoft o a proveedores de terceros. | Según sea necesario | |
 

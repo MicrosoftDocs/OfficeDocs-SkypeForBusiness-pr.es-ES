@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2439a2fd23566c93fb60772112da098cff315760
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 28a89502a628c3cc9dcdf2c910371bb37568f194
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665172"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085176"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>Habilitar Microsoft 365 u Office 365
  
@@ -36,4 +36,4 @@ ms.locfileid: "44665172"
 | EJEMPLO 7  | Confirmar administradores de inquilinos | Trabaje con sus equipos de seguridad para desarrollar un modelo de administración de Microsoft 365 o de Office 365. <br/><br/>Asegúrese de identificar y documentar todos los administradores de servicios e inquilinos. | | [Acerca de los roles de administrador de Microsoft 365 u Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) |
 | 8 MB  | Implementar roles administrativos para su inquilino | Confirme que el modelo de administración satisface las necesidades de su organización y asigne roles de administrador de Microsoft 365 u Office 365 a sus administradores. | | [Asignar roles de administrador en Microsoft 365 u Office 365 para empresas](https://support.office.com/article/Assign-admin-roles-in-Office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) |
 | Paso 9  | Iniciar sesión en el Panel de calidad de llamadas para cargar información de compilación. | Cada implementación de Teams debe usar el Panel de calidad de llamadas para obtener información sobre la calidad y la fiabilidad de todas las llamadas que usen Teams. <br><br>Use la guía sobre este panel que se indica en la columna **Información adicional** para sacar el máximo partido de esta herramienta. | | [Plan para la calidad y la administración de servicios](https://docs.microsoft.com/MicrosoftTeams/prepare-network) <br/><br/>[Guía de revisión de la experiencia de calidad](https://aka.ms/qerguide) <br/><br/>[Plantillas de revisión de la experiencia de calidad](https://aka.ms/qertemplates) <br/><br/>[Activar y usar el Panel de calidad de llamadas para Microsoft Teams y Skype Empresarial Online](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[Cargar información de compilación](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
-| 10%  | Compruebe que la información de compilación se haya procesado y que el Panel de calidad de llamadas esté operativo para su inquilino. | | | [Panel de calidad de llamadas](https://cqd.lync.com) |
+| 10%  | Compruebe que la información de compilación se haya procesado y que el Panel de calidad de llamadas esté operativo para su inquilino. | | | [Panel de calidad de llamadas](https://cqd.teams.microsoft.com) |

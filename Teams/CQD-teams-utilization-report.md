@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Use los informes de uso de los equipos de Power BI para realizar un seguimiento del uso de Microsoft Teams en su organización.
-ms.openlocfilehash: efca39a89eecdf9d603a81a07d8529147f87698a
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+description: Use los informes de uso de Power BI de Teams para acceder a datos del panel de calidad de llamadas de Microsoft Teams (CQD) para realizar un seguimiento del uso de Microsoft Teams en su organización.
+ms.openlocfilehash: bd1a95a683da881a78acb5d4849bba0ac55f4898
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978559"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085586"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Ver la utilización de Microsoft Teams en Power BI con datos del CQD
 
 Novedades de marzo de 2020 hemos agregado un informe de uso de Teams a nuestras [plantillas de consultas descargables de Power BI para el CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
-Estos nuevos informes de uso de equipos le permiten ver cómo (y cuántos) usan los usuarios Microsoft Teams. Estos informes están diseñados para ser una ubicación centralizada que los administradores y los líderes de negocios pueden ir rápidamente a para esta información.
+Estos nuevos informes de uso de equipos le permiten ver cómo (y cuánto) los usuarios usan Microsoft Teams accediendo a los datos del panel de calidad de llamadas de Teams (CQD). Estos informes están diseñados para ser una ubicación centralizada que los administradores y los líderes de negocios pueden ir rápidamente a para esta información.
 
 El informe de uso de Power BI para equipos consta de dos informes principales: Resumen de **[recuento de llamadas](#call-count-summary-report)** y Resumen de **[minutos de audio](#audio-minutes-summary-report)**. Los informes [uso diario](#daily-usage), [detalles de audio regional](#regional-audio-details), detalles de la [Conferencia](#conference-details) y lista de [usuarios](#user-list) entran en juego cuando un usuario aprovecha los informes de análisis detallado, que se indican en las descripciones siguientes.
 
@@ -51,7 +51,7 @@ La Página principal (Resumen de recuento de llamadas) proporciona inmediatament
   ![Captura de pantalla: informes de uso de Teams](media/CQD-teams-utilization-report4.png)
 
 En la sección inferior izquierda de la página, encontrarás una tabla que proporciona valores totales para cada tipo de medio en el último año. 
-    ![Captura de pantalla: informes](media/CQD-teams-utilization-report5.png) ![de uso de equipos captura de pantalla: informes de uso de Teams](media/CQD-teams-utilization-report6.png)   
+    ![Captura de pantalla: informes de uso de equipos ](media/CQD-teams-utilization-report5.png) ![ captura de pantalla: informes de uso de Teams](media/CQD-teams-utilization-report6.png)   
 
 A la derecha de la tabla, un gráfico de barras muestra los clientes con el mayor uso (llamadas/transmisiones) en los últimos 30 días.
    ![Captura de pantalla: informes de uso de Teams](media/CQD-teams-utilization-report7.png)
@@ -167,4 +167,6 @@ La tabla inferior proporciona información detallada sobre las sesiones en las q
 [Usar el Análisis de llamadas para solucionar problemas de mala calidad en las llamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Análisis de llamadas y Panel de calidad de llamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+[Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
  
