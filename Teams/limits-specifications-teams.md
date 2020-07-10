@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9356ae3dc9ed5bb7375f90cad18e13a83b8f5e8
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 83872fd1a98bc75a2872651e0ed8085ef815d082
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042802"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085716"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -69,7 +69,7 @@ El chat de Teams funciona en un servidor backend de Microsoft Exchange, por lo q
 |Cantidad de datos adjuntos de archivo<sup>2</sup>  |10     |
 |Tamaño de chat | Aproximadamente 28 KB por publicación<sup>3</sup> |
 
-<sup>1</sup> Si tienes más de 20 personas en un chat, las siguientes funciones de chat están desactivadas: Respuestas automáticas de Outlook y mensajes de estado de los equipos; indicador de escritura; llamadas de vídeo y audio; compartir; leer recibos.
+<sup>1</sup> Si tienes más de 20 personas en un chat, las siguientes funciones de chat están desactivadas: Respuestas automáticas de Outlook y mensajes de estado de los equipos; indicador de escritura; llamadas de vídeo y audio; compartir; leer recibos. El botón "Establecer opciones de entrega" (!) también se quita cuando las conversaciones de grupo privado contienen más de 20 miembros.
 
 <sup>2</sup> Si el número de archivos adjuntos supera este límite, aparecerá un mensaje de error.
 

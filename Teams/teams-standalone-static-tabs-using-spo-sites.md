@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Elija un sitio o una página de SharePoint Online ya existente y cree una pestaña estática independiente que se pueda usar como portal de intranet de su organización.
 localization_priority: Priority
-ms.openlocfilehash: 4777b744d76415f45718cb274f402556e1e28240
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 09ff3fd57eee23c5eec9dfac118b68938c1c9f36
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326587"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083170"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Crear una aplicación de portal de intranet de Teams desde un sitio o una página de SharePoint Online
 
@@ -105,7 +105,7 @@ Para ver y probar la nueva aplicación en un dispositivo móvil, abra el cajón 
 
 ## <a name="a-sample-manifestjson-file"></a>Ejemplo de archivo Manifest.JSON
 
-El archivo         JSO que genere tendrá un aspecto similar al siguiente.
+El archivo JSON que genere tendrá un aspecto similar al siguiente.
 
 ```JSON'
 {
