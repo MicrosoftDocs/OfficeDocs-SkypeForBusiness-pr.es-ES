@@ -255,6 +255,7 @@
 #### [Crear una cola de llamadas en la nube](create-a-phone-system-call-queue.md)
 #### [Responder al operador automático y llamar a la cola de llamadas directamente desde Teams](answer-auto-attendant-and-call-queue-calls.md)
 
+### [Bloquear llamadas entrantes](block-inbound-calls.md)
 ### [Estacionar llamadas y recuperar](call-park-and-retrieve.md)
 ### [Compartir llamadas y atender llamadas grupales](call-sharing-and-group-call-pickup.md)
 ### [Directiva de llamadas](teams-calling-policy.md)
@@ -381,7 +382,6 @@
 #### [Administración de números de teléfono para Países Bajos](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Administración de números de teléfono para Reino Unido](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Administración de números de teléfono para EE. UU.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
-
 
 ### Restricciones y limitaciones de marcado de número gratuito
 #### [Información general](toll-free-dialing-limitations-and-restrictions.md)
@@ -518,7 +518,6 @@
 #### [Elegir su recorrido de actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [Planear una prueba piloto de usuario](pilot-essentials.md)
 
-
 ### Preparar el entorno para Teams
 #### [Información general sobre la preparación técnica](upgrade-prepare-environment.md)
 #### [Preparar al personal de TI para Teams](upgrade-prepare-IT-pros.md)
@@ -531,12 +530,10 @@
 #### [Evaluar si la organización está preparada para el cambio](upgrade-org-change-readiness.md)
 #### [Preparar un plan de preparación del usuario](upgrade-user-readiness.md)
 
-
 ## Implementar la actualización
 ### [Información general](upgrade-to-Teams.md)
 ### [Actualizar Skype Empresarial Online a Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Actualizar Skype Empresarial local a Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-
 
 ## Ejecutar, adoptar y optimizar
 ### [Información general del plan operativo](continue-journey.md)
@@ -553,7 +550,6 @@
 ### [Coexistencia con Skype Empresarial](coexistence-chat-calls-presence.md)
 ### [Experiencia del cliente de Teams y cumplimiento con los modos de coexistencia](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [Establecer configuración de actualización y coexistencia](setting-your-coexistence-and-upgrade-settings.md)
-
 
 ### [Reuniones primero](meetings-first.md)
 
@@ -686,6 +682,7 @@
 ## Cumplimiento
 ### [Barreras de información](information-barriers-in-teams.md)
 ### [Directivas de retención](retention-policies.md)
+### [Cumplimiento de la comunicación](communication-compliance.md)
 ### [Grabación basada en directivas para llamadas y reuniones](teams-recording-policy.md)
 ### [Prevención de pérdida de datos](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
@@ -698,21 +695,29 @@
 
 <!-- ============================================================ -->
 # Supervisar, mantener y solucionar problemas
-## [Supervisar y administrar la calidad de las llamadas](monitor-call-quality-qos.md)
-### [Guía de revisión de la experiencia de calidad](quality-of-experience-review-guide.md)
-### [Configurar la calidad del servicio en Teams](QoS-in-Teams.md)
+## Supervisar y administrar la calidad de las llamadas
+### [Supervisar y mejorar la calidad de las llamadas](monitor-call-quality-qos.md)
+### Panel de calidad de llamadas (CQD)
+#### [¿Qué es el CQD?](CQD-what-is-call-quality-dashboard.md)
+#### [Configurar el CQD](turning-on-and-using-call-quality-dashboard.md)
+#### [Cargar espacio empresarial y crear datos](CQD-upload-tenant-building-data.md)
+#### [Datos e informes del CQD](CQD-data-and-reports.md)
+#### [Usar el CQD para administrar la calidad de las llamadas y reuniones](quality-of-experience-review-guide.md)
+#### [Preguntas más frecuentes](CQD-frequently-asked-questions.md)
+#### [Dimensiones y medidas disponibles en el CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
+#### [Clasificación de secuencia en el CQD](stream-classification-in-call-quality-dashboard.md)
+#### [Crear un mapa de construcción](CQD-building-mapping.md)
+#### Usar Power BI para analizar los datos de CQD
+##### [Usar Power BI para analizar los datos de CQD](CQD-Power-BI-query-templates.md)
+##### [Instalar el conector de Power BI para usar las plantillas de consulta de CQD](CQD-Power-BI-connector.md)
+##### [Obtener datos del CQD sobre el uso de Teams](CQD-teams-utilization-report.md)
+##### [Usar el informe de enrutamiento directo RTC del CQD](CQD-PSTN-report.md)
+### Análisis de llamadas
+#### [Configurar los análisis de llamadas](set-up-call-analytics.md)
+#### [Usar el análisis de llamadas para solucionar problemas de mala calidad en las llamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### Calidad de servicio (QoS)
+#### [Configurar la calidad del servicio en Teams](QoS-in-Teams.md)
 #### [Configurar QoS en clientes de Windows](QoS-in-Teams-clients.md)
-### [Análisis de llamadas y Panel de calidad de llamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Configurar el Análisis de llamadas](set-up-call-analytics.md)
-### [Usar el Análisis de llamadas para solucionar problemas de mala calidad en las llamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Activar y usar paneles de calidad de llamadas](turning-on-and-using-call-quality-dashboard.md)
-### Usar Power BI para analizar los datos de CQD
-#### [Usar Power BI para analizar los datos de CQD](CQD-Power-BI-query-templates.md)
-#### [Instalar el conector de Power BI para usar las plantillas de consulta de CQD](CQD-Power-BI-connector.md)
-#### [Obtener datos del CQD sobre el uso de Teams](CQD-teams-utilization-report.md)
-#### [Usar el informe de enrutamiento directo RTC de CQD](CQD-PSTN-report.md)
-### [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Clasificación de la secuencia en el Panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md)
 ## [Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Solución de problemas de instalación y actualización](troubleshoot-installation.md)
 ## [Solucionar problemas de conectividad con el cliente de Microsoft Teams](connectivity-issues.md)
@@ -721,6 +726,7 @@
 ## [Preguntas más frecuentes: Soporte para los trabajadores remotos](FAQ-support-remote-workforce.md)
 ## [Comprobar el estado del servicio para Microsoft Teams](service-health.md)
 ## [Contactar con el soporte técnico para productos empresariales: ayuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+
 
 <!-- ============================================================ -->
   
@@ -767,7 +773,6 @@
 ### [Licencias de directivas de mensajería](teams-add-on-licensing/pri-message.md)
 ### [Sistema telefónico de Microsoft 365: Licencia de usuario virtual](teams-add-on-licensing/virtual-user.md)
 
-
 ## Interoperabilidad con Microsoft 365 y Office 365
 
 ### [Grupos de Microsoft 365 y Teams](office-365-groups.md)
@@ -779,7 +784,6 @@
 ### [Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams](sharepoint-onedrive-interact.md)
 ### [Experiencia de Teams en un espacio empresarial de Microsoft 365 u Office 365 con capacidades multigeográficas](teams-experience-o365odb-spo-multi-geo.md)
 
-
 ## Dispositivos admitidos
 ### [Administrar los dispositivos en Teams](devices/device-management.md)
 ### [Actualizar los dispositivos de forma remota](devices/remote-update.md)
@@ -789,7 +793,6 @@
 ### [Soluciones y dispositivos de salas de reuniones](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teléfonos IP certificados para Microsoft Teams](devices/teams-ip-phones.md)
 ### [Teléfonos para Skype Empresarial Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
 
 ## PowerShell para Teams
 ### [Información general](teams-powershell-overview.md)
