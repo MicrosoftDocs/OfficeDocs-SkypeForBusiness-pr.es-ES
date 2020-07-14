@@ -18,12 +18,12 @@ f1.keywords:
 description: Administre las funcionalidades y las características de acceso de invitado de Microsoft Teams a través de cuatro niveles de autorización distintos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c1a01c600ce0b5e64df274b12c9956bf922e9b4
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: fe067e88fe6e73b16e4296b611e87eb94d7e060c
+ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689806"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45098368"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar el acceso de invitado en Microsoft Teams
 ===========================================
@@ -104,7 +104,7 @@ Desde Microsoft 365 Groups, puede controlar la incorporación de usuarios invita
 
 Esta configuración se aplica en el nivel de inquilino y controla la experiencia de invitado en los grupos y equipos de Microsoft 365 y Microsoft Teams.
 
-Vea [Acceso de invitado en Grupos de Microsoft 365](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6) para obtener más información sobre el acceso de invitado en grupos, incluyendo cómo funciona el acceso de invitados, cómo administrar el acceso de invitados y respuestas a las preguntas más frecuentes.
+Vea [Administrar el acceso de invitados en Grupos de Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#manage-groups-guest-access) y [Acceso de invitados en Grupos de Microsoft 365](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6) para obtener más información sobre el acceso de invitados en grupos, incluido cómo funciona, cómo administrarlo y las respuestas a las preguntas más frecuentes.
 
 ## <a name="control-guest-access-to-sharepoint-online-and-onedrive-for-business"></a>Controlar el acceso de invitado a SharePoint Online y OneDrive para la Empresa
 
