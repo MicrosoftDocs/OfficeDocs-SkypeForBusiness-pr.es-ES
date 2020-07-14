@@ -1,8 +1,8 @@
 ---
 title: Buscar eventos en el registro de auditoría en Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -10,16 +10,17 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
 description: Obtenga información sobre cómo recuperar datos de Microsoft Teams del registro de auditoría.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4084074d9dec08b2c254d1678fde51d0a26adfaa
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: d5b458dec4782794fef69b58d44430b35eccc07d
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042882"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121380"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 

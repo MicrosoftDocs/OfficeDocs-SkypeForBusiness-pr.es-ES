@@ -1,8 +1,8 @@
 ---
 title: Introducción a la grabación basada en directivas de Teams para llamar & reuniones
-author: microsoftheidi
-ms.author: heidip
-manager: serdars
+author: cabailey
+ms.author: cabailey
+manager: laurawi
 ms.date: 05/11/2020
 audience: Admin
 ms.topic: conceptual
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00727602aed5eee205a01b01e1ab01218c5b2352
-ms.sourcegitcommit: 8acc2ed4cb807f941a6526ec8aad562536f45aa6
+ms.openlocfilehash: 48cc430ea864614a306725958b56dda934e00eef
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44804684"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121650"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introducción a la grabación basada en directivas de Teams para realizar llamadas & reuniones
 
@@ -222,6 +222,6 @@ Los siguientes socios están en el proceso de certificar su solución para Micro
 
 Esta lista se actualizará a medida que se unan más socios y cumplan los criterios de certificación.
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
 Si eres un proveedor y deseas participar en el programa de certificación, envía un mensaje de correo <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@microsoft.com</a>.

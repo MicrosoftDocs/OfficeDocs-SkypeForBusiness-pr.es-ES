@@ -1,7 +1,7 @@
 ---
 title: Ubicación de los datos en Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: reference
 audience: admin
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 92516a73843b16212a13b4533da7db6fd1075532
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: c16065a864ac82cdf5f11c0d2c8254b648731cac
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638759"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121690"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Ubicación de los datos en Microsoft Teams
 
@@ -77,7 +77,7 @@ Los servicios de Teams descritos en esta sección almacenan datos en reposo en l
 |País o región  |Ubicación del centro de recursos |
 |---------|---------|
 |Australia   |Nueva Gales del sur y Victoria         |
-|Canadá    |Quebec City y Toronto         |
+|Canada    |Quebec City y Toronto         |
 |Francia    |Marseille y París         |
 |Alemania    |Berlín y Frankfurt      |
 |India   |Chennai y Pune        |

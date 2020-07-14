@@ -1,12 +1,12 @@
 ---
 title: Guía de seguridad para Microsoft Teams
-author: MicrosoftHeidi
+author: MSFTTracyP
 ms.author: tracyp
-manager: serdars
+manager: dansimp
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: ''
+ms.reviewer: pawa
 description: Consejos de seguridad y formación para administradores de TI sobre la instalación, la configuración y el mantenimiento de Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6762bd49bbe22b1e80c1b97f37048ee0a944e0a1
-ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
+ms.openlocfilehash: 94a16b7f9f133c6df6c0c30ee4ac24c54397d110
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761448"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121640"
 ---
 # <a name="security-and-microsoft-teams"></a>Seguridad y Microsoft Teams
 

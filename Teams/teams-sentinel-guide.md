@@ -2,7 +2,7 @@
 title: Azure Sentinel y Microsoft Teams
 author: MicrosoftHeidi
 ms.author: tracyp
-manager: serdars
+manager: dansimp
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a59609404e51287be02dafc961561bd03e9efb9b
-ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
+ms.openlocfilehash: 310105abaa5a5c545bdb85963bb14796c630bf66
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761488"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121630"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel y Microsoft Teams
 

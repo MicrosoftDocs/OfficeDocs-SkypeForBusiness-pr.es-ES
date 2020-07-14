@@ -1,15 +1,15 @@
 ---
 title: Realizar una investigación de contenido en eDiscovery
-author: LolaJacobsen
-ms.author: hakank
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
 - SPO_Content
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ description: Obtenga información sobre qué hacer cuando necesite realizar una 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 55afbf3ff1dd3f38990dc60f9cae3cbce7c2f9db
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 0bdd14db1fd0e849effe9ffe1789c06e1e012d90
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950895"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121400"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -54,7 +54,7 @@ No todo el contenido de los equipos está eDiscoverable. En la tabla siguiente s
 
 - Para realizar una investigación de eDiscovery con el contenido de Microsoft Teams, revise el paso 1 en [administrar casos de eDiscovery en el vínculo del centro de cumplimiento de & de seguridad](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) .
 
-- Los datos de Microsoft Teams aparecerán como mensajes instantáneos o conversaciones en la salida de exportación de eDiscovery de Excel. Puede abrir el archivo `.pst` en Outlook para ver esos mensajes después de la exportación.
+- Los datos de Microsoft Teams aparecerán como mensajes instantáneos o conversaciones en la salida de exportación de eDiscovery de Excel. Puede abrir el `.pst` archivo en Outlook para ver esos mensajes después de la exportación.
 
     Cuando vea el `.pst` archivo del equipo, tenga en cuenta que todas las conversaciones se guardan en la carpeta chat de equipo en historial de conversaciones. El título del mensaje contiene el nombre del equipo y el nombre del canal. Por ejemplo, la imagen siguiente muestra un mensaje de Bob que ha expuesto el canal de Project 7 Standard del equipo de especificaciones de fabricación.
 
@@ -154,7 +154,7 @@ Después de finalizar la búsqueda, puede hacer clic en el botón **Agregar resu
 
 Al agregar una búsqueda a un conjunto de revisiones, puede elegir un conjunto de revisiones normal o un conjunto de revisión de conversaciones.
 
-Un conjunto de revisiones normal es similar a una exportación; proporciona los archivos individuales `.msg` del contenido de Teams y presenta el contenido en una vista básica. Normalmente, debe usar un conjunto de revisión normal al planear el uso de otras herramientas de software para volver a procesar los archivos más adelante.
+Un conjunto de revisiones normal es similar a una exportación; proporciona los archivos individuales del `.msg` contenido de Teams y presenta el contenido en una vista básica. Normalmente, debe usar un conjunto de revisión normal al planear el uso de otras herramientas de software para volver a procesar los archivos más adelante.
 
 Un conjunto de revisión de conversaciones ofrece una vista más intuitiva y encadenada de las conversaciones; muestra los mensajes relacionados juntos en el orden correcto.
 
@@ -180,11 +180,11 @@ Además de los documentos, puede Agregar correos electrónicos, mensajes de equi
 
 El botón **administrar conjuntos de revisiones** proporciona opciones adicionales, como análisis, informes de Resumen, cuántos conjuntos de carga se han agregado, etc.
 
-Para obtener acceso a las visualizaciones y los gráficos de los datos, haga clic en la \> **vista Perfil de búsqueda** de **resultados individuales** , en la esquina superior derecha. Puede hacer clic en porciones de estos gráficos para seleccionar de forma interactiva el tipo de contenido que desea consultar. Por ejemplo, puede elegir consultar solo el contenido de Teams. También puede guardar estas consultas de la misma manera en que guarda las consultas que escribe manualmente.
+Para obtener acceso a las visualizaciones y los gráficos de **Individual results** los datos, haga clic \> en la **vista Perfil de búsqueda** de resultados individuales, en la esquina superior derecha. Puede hacer clic en porciones de estos gráficos para seleccionar de forma interactiva el tipo de contenido que desea consultar. Por ejemplo, puede elegir consultar solo el contenido de Teams. También puede guardar estas consultas de la misma manera en que guarda las consultas que escribe manualmente.
 
 #### <a name="summary-view-text-view-and-annotate-view"></a>Vista de Resumen, vista de texto y vista de anotaciones
 
-Si hace clic en una conversación de Teams en el conjunto de revisiones, se muestra la **vista de Resumen**, que muestra una conversación de equipos completa como una lista de mensajes con los que puede interactuar individualmente. Haga clic en la flecha abajo situada a la derecha de un mensaje para mostrar un menú contextual que le permite ver los detalles de `.msg` los mensajes o descargar el archivo individual. Al hacer clic en detalles del mensaje, se mostrará un resumen de los metadatos o los metadatos completos del mensaje.
+Si hace clic en una conversación de Teams en el conjunto de revisiones, se muestra la **vista de Resumen**, que muestra una conversación de equipos completa como una lista de mensajes con los que puede interactuar individualmente. Haga clic en la flecha abajo situada a la derecha de un mensaje para mostrar un menú contextual que le permite ver los detalles de los mensajes o descargar el `.msg` archivo individual. Al hacer clic en detalles del mensaje, se mostrará un resumen de los metadatos o los metadatos completos del mensaje.
 
 Para descargar un archivo PDF, haga clic en el botón Descargar en la parte superior derecha de la vista de resumen.
 
@@ -196,7 +196,7 @@ En la parte inferior de la pestaña **vista anotar** se encuentra el botón **do
 
 #### <a name="action-menu"></a>Menú Acción
 
-En la ventana de conjuntos de revisiones, puede exportar el contenido haciendo clic en **exportar** **acción** \> . Hay muchas opciones disponibles al exportar.
+En la ventana de conjuntos de revisiones, puede exportar el contenido haciendo **Action** clic en \> **exportar**acción. Hay muchas opciones disponibles al exportar.
 
 Para exportar un archivo que contiene todos los metadatos de todos los mensajes de Teams, haga clic para activar la casilla **Cargar archivo** . Para incluir en el archivo cualquier etiqueta que haya aplicado al contenido, haga clic para seleccionar la casilla **etiquetas** .
 

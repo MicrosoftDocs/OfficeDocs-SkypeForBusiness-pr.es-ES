@@ -5,7 +5,7 @@ ms.author: heidip
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: anach
+ms.reviewer: anwara
 audience: admin
 description: Una descripción general de las características de seguridad y cumplimiento de Microsoft Teams, entre las que se incluyen auditoría e informes, búsqueda de contenido de cumplimiento, exhibición de eDiscovery y más.
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43535495153979642e0913c18d39581406fbf84c
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 5d4c19de7fdc8bfc4ed0608841613514d09fae27
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868087"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121390"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Seguridad y cumplimiento en Microsoft Teams
 
