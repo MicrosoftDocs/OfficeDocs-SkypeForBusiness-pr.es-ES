@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Obtenga más información sobre las características de atención médica que incluyen coordinación de cuidados, mensajería segura, TeleHealth, integración de EHR y integración con el sistema de los Firstline.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 457a5701288cf3d6203ad690d82d0bea3a4556cc
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8d2a77e5e7e696e20efb13a5c805968fc3af3204
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938369"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138110"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introducción a Teams para organizaciones sanitarias
 
@@ -89,9 +89,25 @@ La aplicación de pacientes se ha creado en la plataforma de extensibilidad de e
 
 Para obtener más información sobre la implementación, consulte [integrar registros de asistencia electrónica en Microsoft Teams](patients-app.md) .
 
-## <a name="templates"></a>Plantillas
+## <a name="teams-templates"></a>Plantillas de Teams
 
 Las nuevas plantillas para crear equipos fueron desarrolladas para aplicarse a una configuración hospitalaria y pronto se espera más. Esto facilita la creación de equipos que los trabajadores de cuidado de la salud usan para coordinar la atención de pacientes en varios departamentos o en adelante. Consulte [Introducción a las plantillas de Teams para organizaciones de salud](healthcare-templates.md). Los equipos se pueden iniciar para departamentos internos, como Cardiología, o por cuidados y más plantillas en desarrollo.
+
+## <a name="lists-app"></a>Lista de aplicaciones
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
+La aplicación listas de Teams ayuda a los equipos a realizar un seguimiento de la información y organizar el trabajo. La aplicación está preinstalada para todos los usuarios de Teams y está disponible como una pestaña en todos los equipos y canales. Las listas se pueden crear desde cero, desde plantillas predefinidas o importando datos a Excel.
+
+Los equipos de atención pueden usar la plantilla patients para comenzar. Pueden crear listas para realizar un seguimiento de las necesidades y el estado de los pacientes. Los datos de pacientes existentes en hojas de cálculo de Excel se pueden incorporar para crear una lista en Teams. Estas listas se pueden usar para escenarios como redondeos y supervisión de pacientes para coordinar el cuidado.
+
+Por ejemplo, una enfermera de cargos crea una lista de pacientes en un equipo que incluye a todos los miembros del equipo de cuidados. Durante los retrasos, el equipo de acceso a equipos de atención médica en sus dispositivos móviles y actualiza la información de pacientes en la lista, que todos los miembros del equipo pueden ver para mantener la sincronización. En las sesiones de redondeo en las que el equipo de cuidados se reúne para analizar y evaluar las métricas de rendimiento clave para garantizar que un paciente se encuentra en la ruta de presentación correcta para descargarse, puede compartir esta información con Teams en una pantalla grande. Los miembros del equipo de cuidados que no se encuentran en el sitio se pueden unir de forma remota.
+
+Esta es una lista de ejemplo que se configuró para el redondeo de pacientes.
+
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="Captura de pantalla de la lista de ejemplo para el redondeo de pacientes":::
+
+Para obtener más información, vea [administrar la aplicación listas para su organización en Teams](../../manage-lists-app.md).
 
 ## <a name="secure-messaging"></a>Mensajería segura
 
@@ -105,7 +121,7 @@ En conjunto, estas características permiten una atención más rápida a los me
 
 Para obtener más información, consulte [Introducción a las directivas de mensajería segura para organizaciones de sanidad](messaging-policies-hc.md) .
 
-También relacionada con la mensajería segura es la capacidad de tener otros inquilinos federados por organizaciones de cuidado de la salud, lo que permite una comunicación entre inquilinos más rica. (consulte [administrar el acceso externo (Federación) en Microsoft Teams](../../manage-external-access.md)).
+También relacionada con la mensajería segura es la capacidad de tener otros inquilinos federados por organizaciones de cuidado de la salud, lo que permite una comunicación entre inquilinos más rica. (Consulte [administrar el acceso externo (Federación) en Microsoft Teams](../../manage-external-access.md)).
 
 ## <a name="firstline-worker-integration"></a>Integración de trabajadores de los Firstline
 

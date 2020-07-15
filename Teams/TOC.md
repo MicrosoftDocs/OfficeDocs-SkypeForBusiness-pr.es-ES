@@ -672,17 +672,17 @@
 
 # Seguridad, privacidad y cumplimiento
 ## [Información general](security-compliance-overview.md)
-## Seguridad y privacidad
+## Seguridad
 ### [Guía de seguridad](teams-security-guide.md)
+### [Azure Sentinel y Teams](teams-sentinel-guide.md)
 ### [Modelos de identidad y autenticación](identify-models-authentication.md)
 ### [Iniciar sesión en Microsoft Teams con la autenticación moderna](sign-in-teams.md)
 ### [Vínculos seguros en Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Privacidad y Microsoft Teams](teams-privacy.md)
-### [Ubicación de los datos en Teams](location-of-data-in-teams.md)
+### [Directivas de control de aplicaciones de AppLocker](applocker-in-teams.md)
 ## Cumplimiento
 ### [Barreras de información](information-barriers-in-teams.md)
 ### [Directivas de retención](retention-policies.md)
-### [Cumplimiento de la comunicación](communication-compliance.md)
+### [Cumplimiento de las comunicaciones](communication-compliance.md)
 ### [Grabación basada en directivas para llamadas y reuniones](teams-recording-policy.md)
 ### [Prevención de pérdida de datos](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
@@ -691,7 +691,9 @@
 ### Búsqueda de contenido
 #### [Usar búsqueda de contenido](content-search.md)
 #### [Buscar eventos en el registro de auditoría](audit-log-events.md)
-### [Directivas de control de aplicaciones de AppLocker](applocker-in-teams.md)
+## Privacidad
+### [Privacidad y Microsoft Teams](teams-privacy.md)
+### [Ubicación de los datos en Teams](location-of-data-in-teams.md)
 
 <!-- ============================================================ -->
 # Supervisar, mantener y solucionar problemas

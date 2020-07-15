@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Más información sobre cómo configurar teléfonos de área común para salas, áreas de recepción y salas de conferencias '
-ms.openlocfilehash: 1b8e1582e1f3eba65802d4b1c181f8e0ba319eb0
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: ef75c23ff72d9b640fb5a53feff7cf46fec43292
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868607"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125993"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configuración de la licencia de teléfono de área común de Microsoft Teams
 > [!NOTE]
@@ -65,7 +65,7 @@ La licencia de telefonía por área común admite:
 |---------|---------|
 |Skype Empresarial |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
-|Sistemas telefónicos |    &#x2714; |
+|Sistema telefónico |    &#x2714; |
 |Audioconferencia |       &#x2718; &Sup1;  |
 |Microsoft Intune |        &#x2718; &sup2; |
 |Disponibilidad en todo el mundo |    &#x2714; |

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Actualizar teléfonos y barras de colaboración de Microsoft Teams de forma remota con el centro de administración de Teams
-ms.openlocfilehash: 7e47c9394eddfa73b8b55279b68ae59ff7b6de3d
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: f7607da002be7f038e4cafe5b4b6026ea2d99ddf
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944138"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125953"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Actualizar dispositivos de Microsoft Teams de forma remota
 
@@ -32,7 +32,7 @@ Con el centro de administración de Microsoft Teams, puede actualizar los dispos
 Las actualizaciones del firmware del dispositivo se pueden aplicar automáticamente o programar para una fecha y hora futuras. Otras actualizaciones de dispositivos disponibles no se aplican automáticamente, pero se pueden aplicar de forma manual o programada para una fecha y hora futuras.
 
 > [!NOTE]
-> Si bien las actualizaciones del firmware del dispositivo se pueden programar, si la fecha y la hora programadas caen después del retraso máximo configurado de 30 o 90, la actualización del firmware se aplicará cuando se alcance el retraso máximo. La fecha y la hora programadas se pasan por alto.
+> Si bien las actualizaciones del firmware del dispositivo se pueden programar, si la fecha y la hora programadas caen después del retraso máximo configurado de 30 o 90, la actualización del firmware se aplicará cuando se alcance el retraso máximo. La fecha y la hora programadas se pasan por alto. Además, la actualización remota de dispositivos de Microsoft Teams es una característica que aún no está disponible en los inquilinos de la nube del gobierno de Estados Unidos (GCC-High).
 
 ## <a name="choose-automatic-device-firmware-update-behavior"></a>Elegir comportamiento de actualización automática del firmware del dispositivo
 

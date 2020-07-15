@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga más información sobre cómo preparar su infraestructura para implementar salas de Microsoft Teams para poder aprovechar todas las características.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8551bc625b270b8b61de4be71ceb772a1d1ede47
-ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
+ms.openlocfilehash: a8252151dcad1c8e483394c6268d445376f25973
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44735430"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125963"
 ---
 # <a name="prepare-your-environment"></a>Preparar el entorno
 
@@ -36,8 +36,8 @@ Esta sección contiene una descripción general de los pasos necesarios para pre
    - HTTP: 80
    - Si su red se ejecuta mediante un proxy, necesitará también la dirección del proxy o la información de script.
     
-     > [!NOTE]
-     > Sala de Microsoft Teams no admite la incorporación de HDCP, ya que se ha visto que provoca problemas con la funcionalidad de transmisión por HDMI (vídeo, audio). Asegúrese de que los conmutadores conectados a Sala de Microsoft Teams tienen desactivadas las opciones de HDCP.
+     > [!IMPORTANT]
+     > Las salas de Microsoft Teams no admiten la autenticación de proxy ya que pueden interferir con las operaciones habituales del salón. Asegúrese de que las salas de Microsoft Teams hayan sido exentas de autenticación de proxy antes de entrar en producción.
   
 3. Para poder mejorar su experiencia, Microsoft recopila información. Para permitir que Microsoft recopile datos, lista blanca estos sitios:
 
