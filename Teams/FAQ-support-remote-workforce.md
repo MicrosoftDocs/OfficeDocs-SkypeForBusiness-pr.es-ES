@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos a ser productivos cuando trabajan desde casa (WFH) en respuesta al brote de COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 483aaab4fc21028c79fb6fd8cdc0b5044792985c
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 9335f890f3d466ed467025c5ab7b828e2db516b9
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028116"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138010"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Preguntas más frecuentes: Soporte para los trabajadores remotos
 
@@ -103,6 +103,10 @@ Después de activar una de las ofertas gratuitas de Teams, todavía debe activar
 
 Si es la primera vez que otorga licencias o habilita un usuario, pero tiene Microsoft 365 desde hace un tiempo, es posible que tenga que [Activar Teams](Office-365-set-up.md) en su organización. En este caso, lea el artículo [Ya tengo Microsoft 365, pero no uso Teams. ¿Proporcionan licencias de prueba?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses).
 
+### <a name="in-meetings-attendees-are-having-trouble-joining-by-dialing-in---calls-arent-getting-through"></a>En las reuniones, los asistentes están experimentando problemas al unirse por llamadas telefónicas: las llamadas no llegan.
+
+Durante los períodos de alto volumen de reuniones (que hemos estado experimentando con el brote del COVID-19), se recomienda que los usuarios se unan a las reuniones al hacer clic en el botón <strong>Unirse a la reunión de Teams</strong> en lugar de usar los números de conferencia RTC o <strong>Llamarme al</strong>. Esto contribuye a garantizar la calidad del audio cuando el alto volumen de reuniones provoca congestión en la red RTC. 
+
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>¿Puedo usar planes de llamadas con la Prueba de Office 365 E1 que ofrece Microsoft? ¿Puedo asignar números de teléfono a los usuarios? ¿Cuánto voy a pagar?
 
 Los usuarios pueden realizar llamadas de audio y videollamadas entre aplicaciones en cualquier versión de Teams. Para asignar un número a un empleado, necesitará el [Sistema telefónico](what-is-phone-system-in-office-365.md). Le recomendamos que trabaje con el representante de ventas o asociado de Microsoft para obtenerlo e implementarlo. Obtenga más información en [Videollamadas y llamadas de voz con Microsoft Teams](https://products.office.com/microsoft-teams/voice-calling).
@@ -119,4 +123,6 @@ Administradores de TI/Profesionales de TI: [Dar soporte para trabajadores remoto
 
 ### <a name="what-is-microsoft-doing-to-support-its-own-employees-during-the-covid-19-outbreak"></a>¿Qué hace Microsoft para apoyar a sus empleados durante el brote COVID-19?
 
-Lea el blog del 5 de marzo de 2020 de Brad Smith, presidente de Microsoft: [mientras trabajamos para proteger la salud pública, también debemos proteger los ingresos de los trabajadores por hora que apoyan nuestro campus.](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)
+Lea el blog del 5 de marzo de 2020 de Brad Smith, presidente de Microsoft: [Mientras trabajamos para proteger la salud pública, también debemos proteger los ingresos de los trabajadores por hora que apoyan nuestro campus](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/).
+
+Asimismo, asegúrese de visitar [Responder al COVID-19 juntos](https://news.microsoft.com/covid-19-response/?icid=mscom_marcom) en Microsoft.com.
