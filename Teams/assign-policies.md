@@ -18,11 +18,12 @@ description: Obtenga información sobre las diferentes formas de asignar directi
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 161a979578f24b351c93e870a562e6c4104b52d0
-ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
+ms.openlocfilehash: 0978ed0413c372b8bacbb936af6e125294e9d35f
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049447"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143851"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Asignar directivas a los usuarios de Microsoft Teams
 
@@ -295,7 +296,7 @@ Si no especifica una clasificación, la asignación de directiva recibe la clasi
 **Aún no se ha publicado esta característica. Se ha anunciado y pronto estará disponible.**
 
 > [!NOTE]
-> Por el momento, la asignación de directivas a grupos con el centro de administración de Microsoft Teams solo está disponible para la Directiva de llamadas de equipos, la Directiva de reunión de Teams y la Directiva de mensajería de Teams. Para otros tipos de directivas, use PowerShell.
+> Por el momento, la asignación de directivas a grupos que usan el centro de administración de Microsoft Teams solo está disponible para la Directiva de llamadas de Teams, la Directiva de Parque de llamadas de Teams, la Directiva de Teams, la Directiva de eventos en vivo de Teams, la Directiva de reuniones Para otros tipos de directivas, use PowerShell.
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la página tipo de directiva. Por ejemplo, vaya a **Meetings**  >  **las directivas de reunión**de reuniones.
 2. Seleccione la pestaña **asignación de directiva de grupo** .

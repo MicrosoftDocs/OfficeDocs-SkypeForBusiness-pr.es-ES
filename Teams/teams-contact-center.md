@@ -13,12 +13,12 @@ f1.keywords:
 description: Información general de la solución centro de contacto integrado como servicio (CCaaS) para Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aceca495760670846a869a8dcca9734a5cf7daa1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 34f801c19bcbc5479e4e71f520a4d0d437a7b58a
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756831"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143841"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integraciones del centro de contactos para Microsoft Teams
 
@@ -49,6 +49,7 @@ Los siguientes socios están en el proceso de certificar su solución para Micro
 | Enghouse interactivo | http://www.enghouseteams.com/                                                       |
 | Five9 | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | Genes | https://www.genesys.com/microsoft                                                                                   |
+| Tecnologías de Landis | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | BONITO contacto | https://www.niceincontact.com/microsoft-teams                                                            |
 | Tendfor | https://www.tendfor.com/en/                                                                                     |
@@ -204,16 +205,16 @@ Consulte la tabla siguiente para obtener información general sobre los modelos 
 </tr>
 <tr class="even">
 <td>Conectividad de servicio</td>
-<td>Múltiples<br />
+<td>Plataforma<br />
 (Planes de llamadas + DR)</td>
 <td>Enrutamiento directo</td>
 <td>Enrutamiento directo</td>
-<td>Múltiples<br />
+<td>Plataforma<br />
 (Planes de llamadas + DR)</td>
 </tr>
 </tbody>
 </table>
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
 Si es un proveedor y quiere unirse al programa de certificación, envíe un mensaje de correo electrónico <Teamscategorypartner@microsoft.com> .

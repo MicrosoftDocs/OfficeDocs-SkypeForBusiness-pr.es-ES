@@ -17,12 +17,12 @@ description: Obtener información sobre cómo administrar las aplicaciones de Te
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 1aa72a1720139324f53168c36f1d27a12b5cf5bb
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 3a99577b51f08d9ae0e0d4aef73297fade1b1176
+ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086217"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45146126"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el centro de administración de Microsoft Teams
 ======================================================
@@ -42,22 +42,31 @@ Puede ver todas las aplicaciones en el catálogo de aplicaciones de inquilino, i
 
 ![Captura de pantalla de la página aplicaciones administradas](media/manage-apps.png)
 
-- **Name**: el nombre de la aplicación. Haga clic en el nombre de la aplicación para ver más información sobre la aplicación. Esto incluye una descripción de la aplicación, si está permitida o bloqueada, la versión, las categorías que se aplican a la aplicación, el estado de la certificación, las características admitidas y el identificador de aplicación. Aquí se muestra un ejemplo:<br> 
-![Captura de pantalla de la página de detalles de aplicaciones de una aplicación](media/manage-apps-app-details.png)
+- **Name**: el nombre de la aplicación. Haga clic en el nombre de la aplicación para ver más información sobre la aplicación. Esto incluye una descripción de la aplicación, si está permitida o bloqueada, la versión, las categorías que se aplican a la aplicación, el estado de la certificación, las características admitidas y el identificador de aplicación. Aquí se muestra un ejemplo:
+
+  ![Captura de pantalla de la página de detalles de aplicaciones de una aplicación](media/manage-apps-app-details.png)
+  
 - **Certificación**: Si la aplicación ha superado la certificación, verá la atestación de **Microsoft 365** o la **atestación de Publisher**. Haga clic en el vínculo para ver los detalles de certificación de la aplicación. Si ves " **--** ", no tenemos información de certificación de la aplicación. Para obtener más información sobre las aplicaciones certificadas en Teams, lea el [programa de certificación de aplicaciones de Microsoft 365](https://docs.microsoft.com/teams-app-certification/all-apps).  
+
 - **Categorías**: categorías que se aplican a la aplicación.
+
 - **Estado**de la aplicación: estado de la aplicación en el nivel de la organización, que puede ser uno de los siguientes:
+
     - **Permitido**: la aplicación está disponible para todos los usuarios de la organización.
+    
     - **Bloqueado**: la aplicación está bloqueada y no está disponible para los usuarios de su organización.
-    - **Organización bloqueada**: la aplicación está bloqueada en la configuración de la aplicación en toda la organización. <br>
-Es importante saber que esta columna representa el estado permitido y bloqueado de las aplicaciones que anteriormente se encontraban en el panel **configuración de toda la organización** . Ahora ve, bloquea y permite aplicaciones en el ámbito de la organización en la página **Manage apps** . 
+    
+    - **Organización bloqueada**: la aplicación está bloqueada en la configuración de la aplicación en toda la organización.
+    
+      Es importante saber que esta columna representa el estado permitido y bloqueado de las aplicaciones que anteriormente se encontraban en el panel **configuración de toda la organización** . Ahora ve, bloquea y permite aplicaciones en el ámbito de la organización en la página **Manage apps** . 
+
 - **Versión**: versión de la aplicación.
 
 Para ver la información que desea en la tabla, haga clic en **Editar columna** , en la esquina superior derecha, para agregar o quitar columnas a la tabla.
 
 ## <a name="upload-a-new-app"></a>Cargar una nueva aplicación
 
-Puede usar el catálogo de aplicaciones para probar y distribuir aplicaciones personalizadas que se hayan creado específicamente para su organización. Un paquete de la aplicación de Teams se crea con [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Cuando tenga el paquete de la aplicación, puede agregarlo al catálogo de aplicaciones. Mientras todos los usuarios de su organización pueden ver el catálogo de aplicaciones, solo los administradores globales y los administradores de servicios de equipos pueden publicar y administrarlo.
+Puede usar el catálogo de aplicaciones para probar y distribuir aplicaciones personalizadas que se hayan creado específicamente para su organización. Un paquete de la aplicación de Teams se crea con [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Cuando tenga el paquete de la aplicación, puede agregarlo a su catálogo de aplicaciones. Mientras todos los usuarios de su organización pueden ver el catálogo de aplicaciones, solo los administradores globales y los administradores de servicios de equipos pueden publicar y administrarlo.
 
 Para cargar una nueva aplicación personalizada en el catálogo de aplicaciones de inquilino, haga clic en **cargar nueva aplicación** para cargar el paquete de la aplicación en formato. zip. La aplicación no se resalta después de cargarse, por lo que necesitará buscar en el catálogo de la aplicación para encontrarla.
 
@@ -91,7 +100,8 @@ Use la configuración de la aplicación en toda la organización para controlar 
 
     - **Permitir aplicaciones de terceros**: controla si los usuarios pueden usar aplicaciones de terceros. Si desactiva esta configuración, los usuarios no podrán instalar ni usar ninguna aplicación de terceros y el estado de la aplicación de estas aplicaciones aparecerá **bloqueado: todo el mundo** en la tabla.
 
-        Cuando se desactivan las **aplicaciones de terceros** , los enlaces de correo [salientes](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) están deshabilitados, lo que significa que los usuarios no pueden crearlos. Cuando esta configuración está activada, los webhooks salientes se habilitan para todos los usuarios, independientemente de si la configuración está activada o desactivada en la Directiva de permisos de la aplicación de los usuarios.
+        > [!NOTE]
+        > Cuando se desactivan las **aplicaciones de terceros** , los enlaces de correo [salientes](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) están deshabilitados, lo que significa que los usuarios no pueden crearlos. Cuando esta configuración está activada, los enlaces de webhook de salida están habilitados para todos los usuarios y puede controlarlos en el nivel de usuario permitiendo o bloqueando la aplicación de Hook de salida mediante [directivas de permisos](teams-app-permission-policies.md)de la aplicación. <br><br>Tenga en cuenta que si tiene [directivas de permisos de aplicaciones](teams-app-permission-policies.md) existentes para **aplicaciones de Microsoft** que usan la configuración **permitir aplicaciones específicas y bloquear a todos los** usuarios, y desea habilitar los webhooks salientes para los usuarios, agregue la aplicación de webhook saliente a la lista.
     - **Permitir que todas las aplicaciones de terceros se publiquen en la tienda de forma predeterminada**: controla si las nuevas aplicaciones de terceros publicadas en la tienda de aplicaciones de Teams se encuentran disponibles automáticamente en Teams. Solo puede establecer esta opción si permite aplicaciones de terceros.
 
 3. En **aplicaciones personalizadas**, desactive o desactive la **opción permitir la interacción con aplicaciones personalizadas**. Esta configuración controla si los usuarios pueden interactuar con aplicaciones personalizadas. Para obtener más información, vea [administrar la configuración y las directivas de la aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md).
