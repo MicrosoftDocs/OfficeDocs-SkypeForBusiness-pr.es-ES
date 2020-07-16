@@ -17,12 +17,12 @@ description: Infórmese sobre cómo comunicarse con usuarios de otras organizaci
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 8676c45a386a9fb36571e3262a8c70769f45f0a6
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 61cbaf6b869ffb0ff377615081953d16a6a63aea
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785282"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125973"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Comunicación con usuarios de otras organizaciones en Microsoft Teams
 ======================================================
@@ -47,7 +47,7 @@ Si desea que los usuarios externos tengan acceso a los equipos y canales, la opc
 Use el **acceso de invitado** para agregar un usuario individual (independientemente del dominio) a un equipo, donde podrá chatear, hacer llamadas, reunirse y colaborar en los archivos de la organización (almacenados en SharePoint o OneDrive para la Empresa) mediante aplicaciones de Microsoft 365 u Office 365 como Word, Excel o PowerPoint. A un usuario invitado se le pueden dar casi todas las mismas capacidades de equipo que a un miembro de equipo nativo. Para obtener más información, consulte [Acceso de invitado a Teams](guest-access.md).
 
 - Los invitados se agregarán al Active Directory de su organización
-- Para comunicarse con un invitado, este debe haber iniciado sesión en Teams con su cuenta de invitado. Esto significa que un invitado puede tener que cerrar sesión en su propia cuenta de Teams para iniciar sesión en la de usted.
+- Para comunicarse con un invitado, este debe haber iniciado sesión en Teams con su cuenta de invitado. Esto significa que un invitado puede tener que cerrar sesión en su propia cuenta de Teams para iniciar sesión en la de usted, o cambiar de organización si es la misma cuenta.
 - Los usuarios invitados tienen acceso a más recursos en Teams, como archivos, equipos y canales, que los usuarios de acceso externo (federado).
 - El administrador de Teams controla en el Centro de administración de Teams todas las tareas que un invitado puede o no realizar. Para obtener más información, consulte [Administrar el acceso de invitado](manage-guests.md).
 
