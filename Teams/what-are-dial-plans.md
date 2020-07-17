@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Descubra qué tipos de planes de llamadas de marcado (planes de marcado de llamadas RTC) están disponibles con Teams y cómo elegir uno para su organización.  '
-ms.openlocfilehash: 3ca0848094e94ff302cfcdeaa80ddd72a3b86698
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ddd2de412d0ddd00135f9b095eb2d14c8fc4c922
+ms.sourcegitcommit: 91f6db3cdb4f2b7761d2b21f0f4eef405edacd5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836690"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45153582"
 ---
 # <a name="what-are-dial-plans"></a>¿Qué son los planes de marcado?
 
@@ -57,6 +57,9 @@ Los siguientes son los posibles planes de marcado efectivos:
  **Usuario de inquilino: país del servicio** Si un plan de marcado de usuario de inquilino se define y se asigna a un usuario, el usuario aprovisionado recibirá un plan de marcado eficaz con el plan de marcado de usuario inquilino fusionado y el plan de marcado de país de servicio asociado a su ubicación de uso.
 
 Consulte [crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear sus planes de marcado de inquilino.
+
+> [!NOTE]
+> En el escenario en el que no se aplica ninguna regla de normalización del plan de marcado a un número marcado, aún se puede normalizar la cadena marcada para anteponer "+ CC", donde CC es el código de país de la ubicación de uso del usuario de marcado. Esto se aplica a los planes de llamadas, el enrutamiento directo y los escenarios de llamada de conferencias RTC.
 
 ## <a name="planning-for-tenant-dial-plans"></a>Diseño de planes de marcado de inquilino
 
@@ -105,7 +108,7 @@ Se debe asignar una regla de normalización o más al plan de marcado. Las regla
 Dado que todos los planes de marcado de inquilinos se combinan eficazmente con el plan de marcado de país de servicio de un usuario dado, es posible que sea necesario evaluar las reglas de normalización del plan de marcado de país del servicio para determinar qué reglas de normalización de plan de marcado de inquilino se necesitan. Se puede utilizar efectivamente el cmdlet de **Get-CsEffectiveTenantDialPlan** para este propósito. El cmdlet toma la identidad del usuario como parámetro de entrada y devolverá todas las reglas de normalización aplicables al usuario.
 
 ### <a name="creating-normalization-rules"></a>Crear reglas de normalización
-<a name="createrule"> </a> <a name="regularexpression"> </a>
+<a name="createrule"> </a>
 
 Las reglas de normalización utilizan expresiones regulares de .NET Framework para especificar patrones de coincidencia numérica que el servidor usa para traducir las cadenas de marcado al formato E. 164. Las reglas de normalización se pueden crear al especificar la expresión habitual para la coincidencia y la traducción que se debe realizar al encontrarla. Al terminar puede ingresar un número de prueba para verificar que la regla de normalización funcione según lo esperado.
 
@@ -117,11 +120,11 @@ Consulte [crear y administrar planes de marcado](create-and-manage-dial-plans.md
 
 La siguiente tabla muestra reglas de normalización de muestra que se escriben como expresiones regulares de .NET Framework. Las muestras son meramente ejemplos y no sirven como referencia prescriptiva para crear sus propias reglas de normalización.
 
- **Reglas de normalización con expresiones regulares de .NET Framework**<a name="#regularexpression"> </a>
+<a name="regularexpression"> </a> 
+ **Reglas de normalización con expresiones regulares de .NET Framework**
 
-||||||
+| Nombre de la regla<br/> | Descripción<br/> | Patrón de números<br/> | Conversión<br/> | Ejemplo<br/> |
 |:-----|:-----|:-----|:-----|:-----|
-|**Nombre de la regla** <br/> |**Descripción** <br/> |**Patrón de números** <br/> |**Traducción** <br/> |**Ejemplo** <br/> |
 |4digitExtension  <br/> |Traduce extensiones de 4 dígitos.  <br/> |^(\\d{4})$  <br/> |+1425555$1  <br/> |0100 se traduce a +14255550100  <br/> |
 |5digitExtension  <br/> |Traduce extensiones de 5 dígitos.  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |50100 se traduce a +14255550100  <br/> |
 |7digitcallingRedmond  <br/> |Traduce números de 7 dígitos a números locales de Redmond.  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 se traduce a +14255550100  <br/>|
@@ -135,13 +138,12 @@ La siguiente tabla muestra reglas de normalización de muestra que se escriben c
 
  La siguiente tabla ilustra un plan de marcado de muestra para Redmond, Washington, Estados Unidos, basado en las reglas de normalización que se muestran en la tabla anterior.
 
-| |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Plan de marcado de Redmond** <br/>                                                                                                                              |
-| 5digitExtension <br/>                                                                                                                                    |
-| 7digitcallingRedmond <br/>                                                                                                                               |
-| RedmondSitePrefix <br/>                                                                                                                                  |
-| RedmondOperator <br/>                                                                                                                                    |
+| Plan de marcado de Redmond<br/> |
+|:-----------------------|                                                                                                                      
+| 5digitExtension <br/> |                                                                                                                                    
+| 7digitcallingRedmond <br/> |
+| RedmondSitePrefix <br/> |
+| RedmondOperator <br/> |
 
 > [!NOTE]
 > Los nombres de las reglas de normalización que se muestran en la tabla anterior no incluyen espacios, pero esto es una cuestión de elección. Por ejemplo, el primer nombre de la tabla podría haberse escrito como "extensión de 5 dígitos" o "Extensión de 5 dígitos" y ser igualmente válido.

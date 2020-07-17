@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcb1570a87740d899a5f92957c0335e70d7f91ba
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 0ef1b81bda61cba281f944499118966d2b9a528d
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665422"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158608"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Elegir la vía de actualización de Skype Empresarial a Teams
 
@@ -56,6 +56,9 @@ Este artículo describe los distintos modos que le permiten administrar las moda
 A fin de preparar formalmente la organización para que pase a Teams, debe empezar a planificar los escenarios de actualización que finalmente permitirán a la organización adoptar plenamente Teams como única solución de colaboración y comunicación.
 
 Para recibir orientación sobre el proceso de toma de decisiones, familiarícese con los distintos modos, conceptos y terminología relevantes para actualizar de Skype Empresarial a Teams. Para obtener más información, consulte [Microsoft Teams y la coexistencia e interoperabilidad de Skype empresarial](https://aka.ms/SkypeToTeams-Coexist).
+
+> [!NOTE]
+> También debe tener en cuenta los escenarios de migración de voz. Sistema telefónico es la tecnología de Microsoft para habilitar el control de llamadas y las capacidades de la central de conmutación (PBX) en la nube de Microsoft 365 o de Office 365. Para conectar el sistema telefónico a la red de telefonía pública conmutada (RTC) para que los usuarios puedan hacer llamadas telefónicas en todo el mundo, tienes opciones basadas en las necesidades de tu empresa. Para obtener más información sobre las opciones de conectividad RTC y del sistema telefónico, consulte [sistema de telefonía por voz y conectividad RTC](cloud-voice-landing-page.md).
 
 Un usuario que ha migrado a Teams ya no usa un cliente de Skype Empresarial, salvo para incorporarse a una reunión mantenida en Skype Empresarial. Todas las conversaciones entrantes y llama en tierra en el cliente de equipos del usuario, independientemente de si el remitente usa Teams o Skype empresarial. Todas las reuniones nuevas organizadas por el usuario actualizado se programarán como reuniones de Teams. Si el usuario intenta usar el cliente de Skype Empresarial, se bloqueará el inicio de chats y llamadas<sup>1</sup>. Sin embargo, el usuario puede (y debe) seguir usando el cliente de Skype Empresarial para incorporarse a las reuniones a las que sea invitado.
 
@@ -154,7 +157,7 @@ Como alternativa, el administrador de puede mover primero la programación de re
 |Chats y llamadas VoIP entrantes procedentes de los usuarios de su organización recibidos en:     | Skype Empresarial        | Skype Empresarial       | Teams        |
 |Llamadas RTC recibidas en:     | Skype Empresarial        |Skype Empresarial         | Teams        |
 |Presencia     | Skype Empresarial        |Skype Empresarial         | Teams        |
-|Programación de reuniones     | Skype Empresarial         | Teams        | Teams        |
+|Programación de reuniones     | Skype Empresarial         | Microsoft Teams        | Teams        |
 
 
 En la tabla siguiente se resumen las ventajas e inconvenientes de usar los modos de Skype Empresarial como paso transitorio hacia el modo TeamsOnly.

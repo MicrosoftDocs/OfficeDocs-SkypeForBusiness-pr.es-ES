@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b7e237ffd041c2207516b714147d555b3a1b9043
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 1423c17d57c0074f9e6db1091791eb3f17370414
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138404"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158698"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación listas para su organización en Microsoft Teams
 
@@ -46,7 +46,7 @@ Las plantillas de listas se adaptan a escenarios comunes de seguimiento de infor
 
 - Realice un seguimiento de los problemas y póngalos en cierre con la plantilla Issue Tracker.
 - Organice todos los detalles de los eventos con la plantilla itinerario de eventos.
-- Use la plantilla de pacientes para registrar las necesidades y el estado de los pacientes para que los equipos de atención médica de su organización de cuidado de la salud puedan monitorear y coordinar el cuidado.
+- Use la plantilla pacientes para registrar las necesidades y el estado de los pacientes de los equipos de atención médica de su organización de la salud para supervisar y coordinar el cuidado.
 - Realizar un seguimiento del estado de las solicitudes de préstamos con la plantilla préstamos.
 
 ## <a name="example-scenario"></a>Escenario de ejemplo

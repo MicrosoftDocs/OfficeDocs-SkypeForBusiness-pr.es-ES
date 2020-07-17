@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be512ac7726defdd2879114eb47ed3e66a229e30
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0ed9c6b55551e7541f8074b71f67abd57851df9c
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751542"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158508"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Cómo usar Microsoft Teams de forma eficaz
 
@@ -37,10 +37,10 @@ La tecnología está innovando a un ritmo sin precedentes. Mantener la actualida
 
 ## <a name="monitor-for-network-health-and-quality"></a>Supervisar el estado y la calidad de la red
 
-El estado de la red afecta a la experiencia del usuario. Cuando un usuario tiene una experiencia deficiente (por ejemplo, llamar a caídas o tiempos de posposición al unirse a reuniones), lo correlaciona con la tecnología en sí, lo que tiene la impresión de que la tecnología no funciona y abre la puerta de las aplicaciones no compatibles. Implementar un plan para supervisar y mitigar el estado de la red le ayudará a garantizar una experiencia de usuario positiva además de reducir las llamadas a su servicio de asistencia al cliente. Para obtener más información, vea los artículos siguientes:
+El estado de la red afecta a la experiencia del usuario. Cuando un usuario tiene una experiencia deficiente (por ejemplo, llamar a caídas o tiempos de posposición al unirse a reuniones), lo correlaciona con la tecnología en sí, lo que tiene la impresión de que la tecnología no funciona y abre la puerta de las aplicaciones no compatibles. Implementar un plan para supervisar y mitigar el estado de la red le ayudará a garantizar una experiencia de usuario positiva además de reducir las llamadas a su servicio de asistencia al cliente. Para obtener más información, vea:
 
 - [Ejecutar los servicios](upgrade-operate-my-service.md)
-- [Supervisar la calidad](upgrade-monitor-quality.md)
+- [Supervisar y mejorar la calidad de las llamadas](monitor-call-quality-qos.md)
 - [Mejorar los servicios](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>Impulsar el impulso y la adopción de usuarios

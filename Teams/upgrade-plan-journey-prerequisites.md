@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 241c1f2ab0287b6beb2a99386b2f04b1f7cbfb28
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 1199bacde9ed41152cde6054975963cfd5a19ae9
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666072"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158738"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Requisitos previos y dependencias medioambientales de los equipos
 
@@ -48,12 +48,16 @@ Consulte los artículos siguientes para obtener información sobre los requisito
 
 - Si su organización no ha sincronizado las identidades con Azure Active Directory, consulte [modelos de identidad y autenticación en Microsoft Teams](identify-models-authentication.md).
 
-- Si su organización no tiene<sup>1</sup>Exchange Online, consulte [comprender cómo interactúan Exchange y Microsoft Teams](Exchange-Teams-interact.md).
+- Si su organización no tiene Exchange Online, consulte [comprender cómo interactúan Exchange y Microsoft Teams](Exchange-Teams-interact.md).
 
 - Si su organización no tiene SharePoint Online, consulte [comprender cómo SharePoint Online y OneDrive para la empresa interactúan con Microsoft Teams](SharePoint-OneDrive-interact.md).
 
-- Obtenga información sobre cómo [interactúan microsoft 365 Groups y Microsoft Teams](Office-365-groups.md).
+- Para obtener información sobre cómo [interactúan microsoft 365 Groups y Microsoft Teams](Office-365-groups.md).
 
-- Si su organización es un centro educativo y usa un sistema de información de estudiante, [implemente School Data Sync](https://docs.microsoft.com/schooldatasync) antes de implementar Microsoft Teams.
+- Si su organización es un centro educativo y usa un sistema de información de estudiante, consulte [Bienvenido a Microsoft School Data Sync](https://docs.microsoft.com/schooldatasync) antes de implementar Microsoft Teams.
+
+- Si su organización está considerando las opciones de llamada de la red de telefonía pública conmutada (RTC), consulte [sistema de teléfono telefónico y conectividad RTC](cloud-voice-landing-page.md), [qué plan de llamadas es adecuado para usted](calling-plan-landing-page.md)y [enrutamiento de sistema telefónico directo](direct-routing-landing-page.md).
+
+- Para asegurarse de que se cumplen todos los requisitos de red antes de implementar Teams, vea [preparar la red de su organización para Microsoft Teams](prepare-network.md).
 
 Una vez que haya verificado que su entorno cumple con todos los requisitos previos vigentes, [evalúe su entorno actual para Teams](upgrade-plan-journey-evaluate-environment.md).

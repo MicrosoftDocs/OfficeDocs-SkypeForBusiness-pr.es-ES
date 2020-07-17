@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29dc02a88efe533f9a43a110c357203b87a890d6
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 76e9aeab00d2ce86d79fb50fa6bbc1ee3d2c3347
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523173"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158668"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Actualización de Skype Empresarial Online a Microsoft Teams
 
@@ -99,8 +99,16 @@ Como alternativa, es posible que le resulte más fácil actualizar grupos de usu
 Mientras valida la actualización al modo solo para equipos y está listo para expandir, repita los pasos anteriores para aplicar TeamsOnly a más usuarios.  
 
 
-## <a name="phone-system-and-teams-upgrade"></a>Actualización de equipos y sistemas telefónicos
+## <a name="phone-system-and-pstn-connectivity-options"></a>Opciones de conectividad RTC y sistema telefónico
 
-Si su implementación de Skype empresarial online incluye sistemas telefónicos con planes de llamadas y Microsoft es su proveedor de redes de telefonía pública conmutada (RTC), la actualización de los usuarios a teams migrará automáticamente las llamadas RTC entrantes a teams.
+El sistema telefónico con Teams es compatible cuando el usuario está en modo TeamsOnly. (Si el usuario está en modo islas, el sistema telefónico solo es compatible con Skype empresarial).  
 
-Si su implementación de Skype empresarial online incluye el sistema telefónico con el conector para Cloud Edition, consulte las [consideraciones adicionales para el enrutamiento directo de sistema telefónico](2-envision-make-my-service-decisions-direct-routing.md).
+### <a name="pstn-connectivity-options"></a>Opciones de conectividad RTC
+
+Al considerar las opciones de conectividad de la red de telefonía pública conmutada (RTC), hay dos situaciones posibles en las que se pasa de Skype empresarial online al modo TeamsOnly:
+
+- Un usuario de Skype empresarial online con un plan de llamadas de Microsoft. Después de la actualización, este usuario seguirá teniendo un plan de llamadas de Microsoft. Este es el escenario más simple que requiere solo un par de pasos. Para obtener más información, consulte [de Skype empresarial online con los planes de llamadas de Microsoft](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-microsoft-calling-plans).
+
+- Un usuario de Skype empresarial online con funcionalidad de voz local a través de Skype empresarial local o Cloud Connector Edition. La actualización del usuario a teams debe coordinarse con la migración del usuario al enrutamiento directo para garantizar que el usuario de TeamsOnly tiene la funcionalidad de RTC.  Para obtener más información, consulte [Skype empresarial online con voz local](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-on-premises-voice).
+
+

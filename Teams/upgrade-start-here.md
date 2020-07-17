@@ -28,12 +28,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f113f617ece465c3f18a0e9facacabc7bd776eb9
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: fae61030e7ee8b2695fa518b194999a974ed0d8d
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523003"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158638"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Introducción a su actualización de Microsoft Teams
 
@@ -52,6 +52,14 @@ Skype Empresarial Online se retirará el 31 de julio de 2021, momento a partir d
 ## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>¿Podemos seguir usando Skype empresarial online a medida que preparemos y ejecutemos nuestra actualización para los equipos?
 
 Sí, Microsoft ofrece varias opciones para ejecutar Skype empresarial online y equipos conjuntamente. Estos modos de coexistencia permiten a los usuarios familiarizarse con Teams actuales mientras se acelera la actualización solo a Teams. Para obtener más información, consulte [https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist).
+
+## <a name="is-phone-system-available-for-teams-users"></a>¿Está disponible el sistema telefónico para los usuarios de Teams?
+
+Sí. El sistema telefónico está disponible para todos los usuarios de Teams después de que se hayan movido al modo TeamsOnly.  Además, Microsoft ofrece opciones para conectarse a la red de telefonía pública conmutada (RTC), de modo que los usuarios puedan hacer llamadas telefónicas en cualquier lugar del mundo. Para obtener más información, consulte [voz: sistema telefónico y conectividad RTC](cloud-voice-landing-page.md).
+
+## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>¿Podemos continuar usando nuestra infraestructura de telefonía local?
+
+Sí. Con el enrutamiento directo del sistema telefónico, puede usar el sistema telefónico con prácticamente cualquier operador de telefonía. Con el enrutamiento directo, conecta su propio controlador de borde de sesión (SBC) directamente al sistema telefónico. Para obtener más información, consulte [enrutamiento directo de sistema telefónico](direct-routing-landing-page.md).
  
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>¿Cómo ayuda Microsoft a los clientes con la actualización a los equipos? 
 

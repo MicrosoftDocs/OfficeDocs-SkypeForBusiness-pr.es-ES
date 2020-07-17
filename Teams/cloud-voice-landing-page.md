@@ -20,33 +20,32 @@ search.appverid: MET150
 description: Obtenga más información sobre la característica de voz en la nube y comprenda las decisiones de implementación necesarias a las que se enfrentará.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96d4f6b5e75e0f0f716b4f1b840b079996344cfb
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8106e5ef30b71ec82e9b1ae42f785b7a73b170a5
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690796"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158648"
 ---
-# <a name="cloud-voice-in-microsoft-teams"></a>Voz en la nube de Microsoft Teams
+# <a name="voice---phone-system-and-pstn-connectivity-options"></a>Opciones de conectividad RTC y sistema telefónico de voz
 
-Ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Es posible que haya implementado [reuniones & conferencias](deploy-meetings-microsoft-teams-landing-page.md). Ahora está listo para agregar funcionalidades de voz en la nube para sus usuarios. 
+Ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Es posible que haya implementado [reuniones & conferencias](deploy-meetings-microsoft-teams-landing-page.md). Ahora ya puede agregar capacidades de voz para los usuarios. 
 
-La voz de nube proporciona capacidades de central de conmutación (PBX) y opciones para conectarse a la red de telefonía pública conmutada (RTC).
+La voz proporciona capacidades de intercambio privado (PBX) y opciones para conectarse a la red de telefonía pública conmutada (RTC).
 
-Este artículo le ayudará a decidir si necesita cambiar cualquiera de la configuración de voz de nube predeterminada, en función del perfil y los requisitos empresariales de su organización, y luego le guiará por los cambios. La configuración se dividirá en dos grupos, empezando por el conjunto básico de [cambios que es más probable que se realicen](#core-deployment-decisions). El segundo grupo incluye las [opciones adicionales](#additional-deployment-decisions) que puede que quiera configurar, según las necesidades de su organización.
+Este artículo le ayudará a decidir si necesita cambiar cualquiera de la configuración predeterminada de voz, en función del perfil y los requisitos empresariales de su organización, y luego le guiará por los cambios. La configuración se dividirá en dos grupos, empezando por el conjunto básico de [cambios que es más probable que se realicen](#core-deployment-decisions). El segundo grupo incluye las [opciones adicionales](#additional-deployment-decisions) que puede que quiera configurar, según las necesidades de su organización.
 
 Recomendamos que todas las organizaciones prosigan las decisiones básicas y, a continuación, si su organización tiene requisitos adicionales, revise el siguiente material.
 
 
 
-## <a name="learn-more-about-cloud-voice"></a>Más información sobre la voz de nube
+## <a name="learn-more-about-voice"></a>Más información sobre la voz
 
-Los artículos siguientes proporcionan más información sobre cómo implementar y usar las características de voz en la nube en Teams:
+Los artículos siguientes proporcionan más información sobre la implementación y el uso de las características de voz en Teams:
 
 - [Sistema telefónico en Microsoft 365 u Office 365](what-is-phone-system-in-office-365.md)
 - [Sistema telefónico con Planes de llamada](calling-plan-landing-page.md)
 - [Enrutamiento directo del Sistema telefónico](direct-routing-landing-page.md)
-- [Implementación de voz en la nube](cloud-voice-deployment.md)
 - [Soluciones de telefonía de Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Vea la siguiente sesión para obtener más información sobre el sistema telefónico: [Introducción al sistema telefónico en Microsoft Teams](https://aka.ms/teams-phone-system)
 

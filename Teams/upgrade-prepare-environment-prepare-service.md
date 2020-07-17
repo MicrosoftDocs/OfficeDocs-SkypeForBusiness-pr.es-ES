@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ab67b8a8181398c49e4763b3217a2f1ed770a6a
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 359f5071444942fd2209c39b9e93b1b9424ec0e0
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666062"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158688"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Preparar el servicio para la actualización a teams
 
@@ -40,9 +40,9 @@ Este artículo forma parte de la fase de preparación técnica de su viaje de ac
 
 Este artículo proporciona una descripción general de los requisitos para preparar a su organización para la colaboración y los servicios de voz en la nube con Teams. Si se prepara correctamente, puede estar seguro de que está listo para proporcionar estas capacidades a su organización.
 
-## <a name="onboarding-checklists-for-microsoft-teams-rollout"></a>Listas de comprobación de incorporación para la implementación de Microsoft Teams
+## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>Listas de comprobación de incorporación y páginas de aterrizaje para la implementación de Microsoft Teams
 
-La siguiente lista de comprobación le guiará a través de los pasos para implementar Microsoft Teams en su organización:
+Las siguientes listas de comprobación y páginas de aterrizaje le guiarán a través de los pasos para implementar Microsoft Teams en su organización:
 
 - [Preparar Microsoft 365 u Office 365 para Teams](onboarding-checklist-enable-office-365.md)
 
@@ -50,9 +50,12 @@ La siguiente lista de comprobación le guiará a través de los pasos para imple
 
 - [Preparar la red](prepare-network.md)
 
-- [Configurar cargas de trabajo de voz de nube en Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [Chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 
-- [Configurar el enrutamiento directo en Teams](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [Reuniones y conferencias de audio](deploy-meetings-microsoft-teams-landing-page.md)
+
+- [Opciones de conectividad RTC y sistema telefónico](cloud-voice-landing-page.md)
+
 
 Las tareas y actividades de estas listas de comprobación son los elementos básicos de "tareas pendientes" que se aplican a todas las implementaciones de las capacidades de colaboración y voz con Teams. Puede personalizar las listas de comprobación para incluir las actividades y las tareas específicas de su propio viaje de equipos.
 
@@ -67,7 +70,7 @@ Cuando incorpora usuarios en función de cada sitio, le recomendamos encarecidam
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Punto de decisión</td><td><ul><li>¿Quién será el responsable de supervisar la finalización de las listas de comprobación de incorporación?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Descargue las listas de comprobación de incorporación.</li><li>Trabaje paso a paso en la lista de comprobación de complementos de acuerdo con el plan de implementación de su organización.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul><li>Descargue las listas de comprobación de incorporación.</li><li>Trabaje paso a paso en la lista de comprobación de complementos de acuerdo con el plan de implementación de su organización.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

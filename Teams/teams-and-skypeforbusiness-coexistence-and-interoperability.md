@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcf7fc339fdf1b204f81d88c4fed08c720978280
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 7e9a1d50469490e3e68163cf7b51a0fc6cac9af7
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756851"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158758"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprender Microsoft Teams y la coexistencia e interoperabilidad de Skype empresarial
 
@@ -66,18 +66,7 @@ Para evitar una experiencia de Skype empresarial confusa o recargada, las comuni
 > [!Tip]
 > La ruta recomendada para los clientes de Skype empresarial online es empezar con el modo **islas** predeterminadas, los equipos de unidades de disco adoptan la saturación de la organización y, a continuación, se desplazan rápidamente al modo de **solo equipos** . En el caso de los clientes híbridos y locales, especialmente los más complejos, pueden beneficiarse de la implementación de **Skype empresarial con** el modo de colaboración de Teams como punto de partida en lugar del modo **islas** y del progreso a **Skype empresarial con el modo de colaboración y reuniones de Teams** (es decir, las reuniones en primer lugar), si es necesario, y al modo **solo de equipos** cuando
 
-### <a name="skype-for-business-only"></a>Solo Skype Empresarial
-
-En este modo de coexistencia, los usuarios permanecen en Skype empresarial, no en los equipos, en las capacidades de chat, reunión y llamada, y no usan Teams para equipos y canales. Este modo está disponible hoy; sin embargo, en la implementación actual, los equipos y los canales no se desactivan automáticamente para el usuario. Esto se puede conseguir usando la Directiva permisos de la aplicación para ocultar equipos y canales.
-
-Este modo se puede usar antes de iniciar una implementación administrada de Teams para evitar que los usuarios comiencen a usar Teams por adelantado, o como una forma de habilitar la participación autenticada en reuniones de Teams para los usuarios de Skype empresarial, siempre y cuando los usuarios tengan una licencia de Teams.
-
 ### <a name="teams-only"></a>Solo equipos
-
-
-> [!IMPORTANT]
-> Si desinstala el cliente de Skype empresarial después de mover un usuario al modo **solo de Teams** , es posible que tenga que reiniciar Outlook y Teams si la presencia deja de funcionar. 
-
 
 Un usuario **solo de equipos** (también denominado usuario *actualizado* ) tiene acceso a todas las capacidades de Teams. Pueden retener el cliente de Skype empresarial para unirse a reuniones de Skype empresarial organizadas por usuarios externos o no actualizados. Un usuario actualizado puede seguir comunicándose con otros usuarios de la organización que siguen usando Skype empresarial con las funciones de interoperabilidad entre Teams y Skype empresarial (siempre que estos usuarios de Skype empresarial no estén en modo **islas** ). Sin embargo, un usuario actualizado no puede iniciar una conversación, una llamada o una reunión de Skype empresarial.
 
@@ -88,6 +77,12 @@ Cuando se encuentra en el modo **solo de Teams** , Teams es la aplicación prede
 Para obtener más información sobre cómo cambiar al modo **solo de Teams** , vea [consideraciones del modo solo de Teams](teams-only-mode-considerations.md).
 
 ![Captura de pantalla del mensaje de confirmación de Teams](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Cliente de Skype empresarial que se ejecuta en un modo especial después de que el usuario se actualice como un usuario de solo equipo")
+
+### <a name="skype-for-business-only"></a>Solo Skype Empresarial
+
+En este modo de coexistencia, los usuarios permanecen en Skype empresarial, no en los equipos, en las capacidades de chat, reunión y llamada, y no usan Teams para equipos y canales. Este modo está disponible hoy; sin embargo, en la implementación actual, los equipos y los canales no se desactivan automáticamente para el usuario. Esto se puede conseguir usando la Directiva permisos de la aplicación para ocultar equipos y canales.
+
+Este modo se puede usar antes de iniciar una implementación administrada de Teams para evitar que los usuarios comiencen a usar Teams por adelantado, o como una forma de habilitar la participación autenticada en reuniones de Teams para los usuarios de Skype empresarial, siempre y cuando los usuarios tengan una licencia de Teams.
 
 ### <a name="skype-for-business-with-teams-collaboration"></a>Skype empresarial con colaboración de Teams
 
@@ -102,9 +97,6 @@ Use este modo de coexistencia para acelerar la disponibilidad de las capacidades
 Junto con el uso de Teams para las conversaciones basadas en equipos y canales en este modo, los usuarios usarán Teams para programar y dirigir sus reuniones. Las llamadas y chats privados permanecen en Skype empresarial. Los equipos y Skype empresarial se benefician de una variedad de capacidades de "mejor conjunto", como la reconciliación de presencia, la retención o dessuspensión automática y la compatibilidad con dispositivos HID en ambas aplicaciones. Tenga en cuenta que es posible ocultar equipos y canales si así lo desea mediante la Directiva de permisos de aplicación.
 
 Este modo de coexistencia es especialmente útil para las organizaciones con las implementaciones locales de Skype empresarial con telefonía IP empresarial, que probablemente tardarán algún tiempo en actualizarse a teams y desean beneficiarse de las reuniones superiores de los equipos tan pronto como sea posible.
-
-> [!Note]
-> Cuando se implementa en cualquier modo de coexistencia excepto **islas**, los equipos y Skype empresarial pueden [interoperar](#interoperability-of-teams-and-skype-for-business), lo que permite a los usuarios conversar y llamar entre sí, y garantizar que las comunicaciones permanezcan fluidas en toda la organización durante el viaje de actualización a teams. Los modos de coexistencia rigen la interoperabilidad. El modo de coexistencia del receptor determina si estará disponible la interoperabilidad. Por ejemplo, si el receptor está en un modo en el que la conversación solo está disponible en un cliente (por ejemplo, Teams), la interoperabilidad de chat estará disponible generalmente en caso de que el iniciador use el otro cliente (en este caso, Skype empresarial) para iniciar la conversación. Por otro lado, si el receptor está en el modo en el que la conversación está disponible en ambos clientes (modo Islas), la interoperabilidad no estará disponible para el chat. El destinatario recibirá el mensaje en el mismo cliente en el que el iniciador inició la conversación. Por lo tanto, la comunicación adecuada en el modo **islas** requiere la saturación de la adopción de equipos; es decir, todos los usuarios que usan y supervisan activamente a ambos clientes.
 
 > [!TIP]
 > Para ayudar a identificar el modo de actualización recomendado en función de las capacidades que desea habilitar en Teams mientras Skype empresarial aún está en uso, aproveche el [Asistente de actualización de Skype to Teams](https://aka.ms/SkypeToTeamsWizard).
@@ -121,6 +113,12 @@ Para obtener más información sobre los modos de coexistencia, los requisitos p
 La interoperabilidad es la capacidad de que los equipos y los usuarios de Skype empresarial de la misma organización se comuniquen entre equipos y Skype empresarial.
 
 La interoperabilidad está regida por el modo de coexistencia (también conocido como modo de actualización) del destinatario. No hay interoperabilidad cuando el receptor está en modo **islas** .
+
+> [!Note]
+> Cuando se implementa en cualquier modo de coexistencia excepto **islas**, los equipos y Skype empresarial pueden [interoperar](#interoperability-of-teams-and-skype-for-business), lo que permite a los usuarios conversar y llamar entre sí, y garantizar que las comunicaciones permanezcan fluidas en toda la organización durante el viaje de actualización a teams. Los modos de coexistencia rigen la interoperabilidad. El modo de coexistencia del receptor determina si estará disponible la interoperabilidad. Por ejemplo, si el receptor está en un modo en el que la conversación solo está disponible en un cliente (por ejemplo, Teams), la interoperabilidad de chat estará disponible generalmente en caso de que el iniciador use el otro cliente (en este caso, Skype empresarial) para iniciar la conversación. Por otro lado, si el receptor está en el modo en el que la conversación está disponible en ambos clientes (modo Islas), la interoperabilidad no estará disponible para el chat. El destinatario recibirá el mensaje en el mismo cliente en el que el iniciador inició la conversación. Por lo tanto, la comunicación adecuada en el modo **islas** requiere la saturación de la adopción de equipos; es decir, todos los usuarios que usan y supervisan activamente a ambos clientes.
+
+> [!Note]
+> **Para tener la última experiencia de coexistencia, la versión del cliente debe ser el último cliente disponible en el canal de implementación de Office del usuario.**
 
 ### <a name="native-interop-and-interop-escalation"></a>Interoperabilidad nativa y escalabilidad de interoperabilidad
 
