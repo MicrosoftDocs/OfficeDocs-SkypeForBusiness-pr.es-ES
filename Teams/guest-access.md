@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c025e408842c3d883112b7c99d930fc77db47435
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 1a2012464d3847cf15ae76fd9c5b5b453d810fa7
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44867977"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143791"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado en Microsoft Teams
 ======================================
@@ -46,7 +46,7 @@ El acceso de invitado es una configuración de Teams a nivel de toda la organiza
 
 ## <a name="licensing-for-guest-access"></a>Licencias para acceso de invitado
 
-El acceso de invitados está incluido en todas las suscripciones de Microsoft 365 Empresa Estándar, Office 365 Enterprise y Office 365 Education. No se necesita ninguna otra licencia de Microsoft 365 u Office 365. Teams no limita el número de invitados que se pueden agregar. Sin embargo, el número total de invitados que se pueden agregar a su espacio empresarial depende de su licencia de Azure AD. Generalmente, son 5 invitados por usuario con licencia. Para obtener más información, vea [Licencia de colaboración de Azure AD B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
+El acceso de invitados está incluido en todas las suscripciones de Microsoft 365 Empresa Estándar, Office 365 Enterprise y Office 365 Education. No se necesita ninguna otra licencia de Microsoft 365 u Office 365. Teams no limita el número de invitados que se pueden agregar. Sin embargo, es posible que el número total de invitados que se pueden agregar a su espacio empresarial esté restringido por las características de pago de Azure AD. Para obtener más información, vea [Licencia de colaboración de Azure AD B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 
 > [!NOTE]

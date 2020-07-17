@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a864e810df8cdd69a9c8a2e9bb29524147a3b865
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: ab278fe1bb53d46e8ee3b805ec46a344c19398e4
+ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45137910"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45146076"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -125,6 +125,9 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 |Regular con hora de finalización     |Hora de finalización + 60 días         |60 días         |
 |Periódica sin hora de finalización     |Hora de inicio + 60 días         |60 días         |
 |Periódica con hora de finalización     |Hora de finalización de la última repetición + 60 días         |60 días         |
+
+> [!NOTE]
+> Las reuniones de Microsoft Teams tienen un límite de tiempo de 24 horas. 
 
 ## <a name="teams-live-events"></a>Eventos en directo en Teams
 
