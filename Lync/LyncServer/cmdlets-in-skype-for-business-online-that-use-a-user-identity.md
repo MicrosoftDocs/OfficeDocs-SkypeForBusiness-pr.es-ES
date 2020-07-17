@@ -20,66 +20,66 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44755112"
 ---
-# <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a><span data-ttu-id="f84fd-102">Cmdlets de Skype empresarial online que usan una identidad de usuario</span><span class="sxs-lookup"><span data-stu-id="f84fd-102">Cmdlets in Skype for Business Online that use a user identity</span></span>
+# <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a><span data-ttu-id="7050a-102">Cmdlets de Skype empresarial online que usan una identidad de usuario</span><span class="sxs-lookup"><span data-stu-id="7050a-102">Cmdlets in Skype for Business Online that use a user identity</span></span>
 
  
 
 
-<span data-ttu-id="f84fd-103">En Skype empresarial online, hay varias formas de hacer referencia a una identidad de usuario individual:</span><span class="sxs-lookup"><span data-stu-id="f84fd-103">In Skype for Business Online, there are a number of different ways to reference an individual user Identity:</span></span>
+<span data-ttu-id="7050a-103">En Skype empresarial online, hay varias formas de hacer referencia a una identidad de usuario individual:</span><span class="sxs-lookup"><span data-stu-id="7050a-103">In Skype for Business Online, there are a number of different ways to reference an individual user Identity:</span></span>
 
-  - <span data-ttu-id="f84fd-104">Use el nombre para mostrar de los servicios de dominio de Active Directory del usuario.</span><span class="sxs-lookup"><span data-stu-id="f84fd-104">Use the user’s Active Directory Domain Services display name.</span></span> <span data-ttu-id="f84fd-105">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="f84fd-105">For example:</span></span>
+  - <span data-ttu-id="7050a-104">Use el nombre para mostrar de los servicios de dominio de Active Directory del usuario.</span><span class="sxs-lookup"><span data-stu-id="7050a-104">Use the user’s Active Directory Domain Services display name.</span></span> <span data-ttu-id="7050a-105">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="7050a-105">For example:</span></span>
     
         -Identity "Ken Myer"
 
-  - <span data-ttu-id="f84fd-106">Use la dirección SIP del usuario.</span><span class="sxs-lookup"><span data-stu-id="f84fd-106">Use the user’s SIP address.</span></span> <span data-ttu-id="f84fd-107">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="f84fd-107">For example:</span></span>
+  - <span data-ttu-id="7050a-106">Use la dirección SIP del usuario.</span><span class="sxs-lookup"><span data-stu-id="7050a-106">Use the user’s SIP address.</span></span> <span data-ttu-id="7050a-107">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="7050a-107">For example:</span></span>
     
         -Identity "sip:kenmyer@litwareinc.com"
 
-  - <span data-ttu-id="f84fd-108">Usar el UPN del usuario.</span><span class="sxs-lookup"><span data-stu-id="f84fd-108">Use the user’s UPN.</span></span> <span data-ttu-id="f84fd-109">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="f84fd-109">For example:</span></span>
+  - <span data-ttu-id="7050a-108">Usar el UPN del usuario.</span><span class="sxs-lookup"><span data-stu-id="7050a-108">Use the user’s UPN.</span></span> <span data-ttu-id="7050a-109">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="7050a-109">For example:</span></span>
     
         -Identity " kenmyer@litwareinc.com"
 
-  - <span data-ttu-id="f84fd-110">Use el nombre distintivo de los servicios de dominio de Active Directory del usuario.</span><span class="sxs-lookup"><span data-stu-id="f84fd-110">Use the user’s Active Directory Domain Services distinguished name.</span></span> <span data-ttu-id="f84fd-111">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="f84fd-111">For example:</span></span>
+  - <span data-ttu-id="7050a-110">Use el nombre distintivo de los servicios de dominio de Active Directory del usuario.</span><span class="sxs-lookup"><span data-stu-id="7050a-110">Use the user’s Active Directory Domain Services distinguished name.</span></span> <span data-ttu-id="7050a-111">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="7050a-111">For example:</span></span>
     
         -Identity "CN=48ebd1ba-95d4-460c-b751-811ebf0c4611,OU=fa8226f5-14fa-46da-8 236-039b25bc7a27,OU=Lync Online Tenants,DC=litwareinc,DC=com"
 
-<span data-ttu-id="f84fd-112">Los siguientes cmdlets aceptan una identidad de usuario:</span><span class="sxs-lookup"><span data-stu-id="f84fd-112">The following cmdlets accept a user Identity:</span></span>
+<span data-ttu-id="7050a-112">Los siguientes cmdlets aceptan una identidad de usuario:</span><span class="sxs-lookup"><span data-stu-id="7050a-112">The following cmdlets accept a user Identity:</span></span>
 
-  - <span data-ttu-id="f84fd-113">[Disable-CsMeetingRoom](https://technet.microsoft.com/library/jj204723\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="f84fd-113">[Disable-CsMeetingRoom](https://technet.microsoft.com/library/jj204723\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="7050a-113">[Disable-CsMeetingRoom](https://technet.microsoft.com/library/jj204723\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="7050a-113">[Disable-CsMeetingRoom](https://technet.microsoft.com/library/jj204723\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="f84fd-114">[Enable-CsMeetingRoom](https://technet.microsoft.com/library/jj205062\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="f84fd-114">[Enable-CsMeetingRoom](https://technet.microsoft.com/library/jj205062\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="7050a-114">[Enable-CsMeetingRoom](https://technet.microsoft.com/library/jj205062\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="7050a-114">[Enable-CsMeetingRoom](https://technet.microsoft.com/library/jj205062\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="f84fd-115">[Get-CsExUmContact](https://technet.microsoft.com/library/gg412725\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="f84fd-115">[Get-CsExUmContact](https://technet.microsoft.com/library/gg412725\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="7050a-115">[Get-CsExUmContact](https://technet.microsoft.com/library/gg412725\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="7050a-115">[Get-CsExUmContact](https://technet.microsoft.com/library/gg412725\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="f84fd-116">[Get-CsMeetingRoom](https://technet.microsoft.com/library/jj205277\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="f84fd-116">[Get-CsMeetingRoom](https://technet.microsoft.com/library/jj205277\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="7050a-116">[Get-CsMeetingRoom](https://technet.microsoft.com/library/jj205277\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="7050a-116">[Get-CsMeetingRoom](https://technet.microsoft.com/library/jj205277\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="f84fd-117">[Get-CsOnlineUser](https://technet.microsoft.com/library/jj994026\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="f84fd-117">[Get-CsOnlineUser](https://technet.microsoft.com/library/jj994026\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="7050a-117">[Get-CsOnlineUser](https://technet.microsoft.com/library/jj994026\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="7050a-117">[Get-CsOnlineUser](https://technet.microsoft.com/library/jj994026\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="f84fd-118">[Get-CsUserAcp](https://technet.microsoft.com/library/gg398978\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="f84fd-118">[Get-CsUserAcp](https://technet.microsoft.com/library/gg398978\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="7050a-118">[Get-CsUserAcp](https://technet.microsoft.com/library/gg398978\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="7050a-118">[Get-CsUserAcp](https://technet.microsoft.com/library/gg398978\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="f84fd-119">[New-CsExUmContact](https://technet.microsoft.com/library/gg398139\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="f84fd-119">[New-CsExUmContact](https://technet.microsoft.com/library/gg398139\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="7050a-119">[New-CsExUmContact](https://technet.microsoft.com/library/gg398139\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="7050a-119">[New-CsExUmContact](https://technet.microsoft.com/library/gg398139\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="f84fd-120">[Remove-CsExUmContact](https://technet.microsoft.com/library/gg398946\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="f84fd-120">[Remove-CsExUmContact](https://technet.microsoft.com/library/gg398946\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="7050a-120">[Remove-CsExUmContact](https://technet.microsoft.com/library/gg398946\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="7050a-120">[Remove-CsExUmContact](https://technet.microsoft.com/library/gg398946\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="f84fd-121">[Remove-CsUserAcp](https://technet.microsoft.com/library/gg398982\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="f84fd-121">[Remove-CsUserAcp](https://technet.microsoft.com/library/gg398982\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="7050a-121">[Remove-CsUserAcp](https://technet.microsoft.com/library/gg398982\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="7050a-121">[Remove-CsUserAcp](https://technet.microsoft.com/library/gg398982\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="f84fd-122">[Set-CsExUmContact](https://technet.microsoft.com/library/gg412944\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="f84fd-122">[Set-CsExUmContact](https://technet.microsoft.com/library/gg412944\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="7050a-122">[Set-CsExUmContact](https://technet.microsoft.com/library/gg412944\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="7050a-122">[Set-CsExUmContact](https://technet.microsoft.com/library/gg412944\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="f84fd-123">[Set-CsMeetingRoom](https://technet.microsoft.com/library/jj204831\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="f84fd-123">[Set-CsMeetingRoom](https://technet.microsoft.com/library/jj204831\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="7050a-123">[Set-CsMeetingRoom](https://technet.microsoft.com/library/jj204831\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="7050a-123">[Set-CsMeetingRoom](https://technet.microsoft.com/library/jj204831\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="f84fd-124">[Set-CsUserAcp](https://technet.microsoft.com/library/gg413018\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="f84fd-124">[Set-CsUserAcp](https://technet.microsoft.com/library/gg413018\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="7050a-124">[Set-CsUserAcp](https://technet.microsoft.com/library/gg413018\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="7050a-124">[Set-CsUserAcp](https://technet.microsoft.com/library/gg413018\(v=ocs.15\))</span></span>
 
-<span data-ttu-id="f84fd-125">Tenga en cuenta que no es necesario especificar una identidad de usuario al llamar a uno de los cmdlets **Get-CS** .</span><span class="sxs-lookup"><span data-stu-id="f84fd-125">Note that you do not need to specify a user Identity when calling one of the **Get-Cs** cmdlets.</span></span> <span data-ttu-id="f84fd-126">En este caso, los cmdlets devuelven todas las instancias del elemento especificado.</span><span class="sxs-lookup"><span data-stu-id="f84fd-126">In this case, the cmdlets return all the instances of the specified item.</span></span> <span data-ttu-id="f84fd-127">Por ejemplo, este comando devuelve información sobre todos los usuarios que se han habilitado para Skype empresarial online:</span><span class="sxs-lookup"><span data-stu-id="f84fd-127">For example, this command returns information about all the users who have been enabled for Skype for Business Online:</span></span>
+<span data-ttu-id="7050a-125">Tenga en cuenta que no es necesario especificar una identidad de usuario al llamar a uno de los cmdlets **Get-CS** .</span><span class="sxs-lookup"><span data-stu-id="7050a-125">Note that you do not need to specify a user Identity when calling one of the **Get-Cs** cmdlets.</span></span> <span data-ttu-id="7050a-126">En este caso, los cmdlets devuelven todas las instancias del elemento especificado.</span><span class="sxs-lookup"><span data-stu-id="7050a-126">In this case, the cmdlets return all the instances of the specified item.</span></span> <span data-ttu-id="7050a-127">Por ejemplo, este comando devuelve información sobre todos los usuarios que se han habilitado para Skype empresarial online:</span><span class="sxs-lookup"><span data-stu-id="7050a-127">For example, this command returns information about all the users who have been enabled for Skype for Business Online:</span></span>
 
     Get-CsOnlineUser
 
-<span data-ttu-id="f84fd-128">El parámetro Identity solo es necesario si desea devolver información de un usuario específico:</span><span class="sxs-lookup"><span data-stu-id="f84fd-128">The Identity parameter is required only if you want to return information for a specific user:</span></span>
+<span data-ttu-id="7050a-128">El parámetro Identity solo es necesario si desea devolver información de un usuario específico:</span><span class="sxs-lookup"><span data-stu-id="7050a-128">The Identity parameter is required only if you want to return information for a specific user:</span></span>
 
     Get-CsOnlineUser -Identity "Ken Myer"
 
-## <a name="see-also"></a><span data-ttu-id="f84fd-129">Vea también</span><span class="sxs-lookup"><span data-stu-id="f84fd-129">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7050a-129">Vea también</span><span class="sxs-lookup"><span data-stu-id="7050a-129">See Also</span></span>
 
 
-[<span data-ttu-id="f84fd-130">Identidades, ámbitos e inquilinos en Skype empresarial online</span><span class="sxs-lookup"><span data-stu-id="f84fd-130">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-<span data-ttu-id="f84fd-131">[Los cmdlets de Skype empresarial online](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="f84fd-131">[The Skype for Business Online cmdlets](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span></span>
+[<span data-ttu-id="7050a-130">Identidades, ámbitos e inquilinos en Skype empresarial online</span><span class="sxs-lookup"><span data-stu-id="7050a-130">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+<span data-ttu-id="7050a-131">[Los cmdlets de Skype empresarial online](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="7050a-131">[The Skype for Business Online cmdlets](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span></span>
 

@@ -25,7 +25,7 @@ ms.locfileid: "44757171"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="recommended-create-conference-directories"></a><span data-ttu-id="2febd-102">Recomenda Crear directorios de conferencia</span><span class="sxs-lookup"><span data-stu-id="2febd-102">(Recommended) Create Conference Directories</span></span>
+# <a name="recommended-create-conference-directories"></a><span data-ttu-id="9beb3-102">Recomenda Crear directorios de conferencia</span><span class="sxs-lookup"><span data-stu-id="9beb3-102">(Recommended) Create Conference Directories</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "44757171"
 
 <span> </span>
 
-<span data-ttu-id="2febd-103">_**Última modificación del tema:** 2014-10-03_</span><span class="sxs-lookup"><span data-stu-id="2febd-103">_**Topic Last Modified:** 2014-10-03_</span></span>
+<span data-ttu-id="9beb3-103">_**Última modificación del tema:** 2014-10-03_</span><span class="sxs-lookup"><span data-stu-id="9beb3-103">_**Topic Last Modified:** 2014-10-03_</span></span>
 
-<span data-ttu-id="2febd-104">Los directorios de conferencia mantienen una asignación entre el identificador de reunión alfanumérico que un participante usa para unirse a una conferencia cuando usa Lync 2013 y el identificador de conferencia de acceso telefónico local que usa un participante de la Conferencia de acceso telefónico local para unirse a la Conferencia.</span><span class="sxs-lookup"><span data-stu-id="2febd-104">Conference directories maintain a mapping between the alphanumeric meeting ID that a participant uses to join a conference when using Lync 2013, and the numeric-only conference ID that a dial-in conferencing participant uses to join the conference.</span></span> <span data-ttu-id="2febd-105">El formato del identificador de conferencia es el siguiente:</span><span class="sxs-lookup"><span data-stu-id="2febd-105">The format of the conference ID is as follows:</span></span>
+<span data-ttu-id="9beb3-104">Los directorios de conferencia mantienen una asignación entre el identificador de reunión alfanumérico que un participante usa para unirse a una conferencia cuando usa Lync 2013 y el identificador de conferencia de acceso telefónico local que usa un participante de la Conferencia de acceso telefónico local para unirse a la Conferencia.</span><span class="sxs-lookup"><span data-stu-id="9beb3-104">Conference directories maintain a mapping between the alphanumeric meeting ID that a participant uses to join a conference when using Lync 2013, and the numeric-only conference ID that a dial-in conferencing participant uses to join the conference.</span></span> <span data-ttu-id="9beb3-105">El formato del identificador de conferencia es el siguiente:</span><span class="sxs-lookup"><span data-stu-id="9beb3-105">The format of the conference ID is as follows:</span></span>
 
     <housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
 
-<span data-ttu-id="2febd-106">Si crea varios directorios de conferencia, se asegurará de que los Id. de conferencia se mantienen cortos hasta que se haya creado un número significativo de conferencias.</span><span class="sxs-lookup"><span data-stu-id="2febd-106">Creating multiple conference directories will ensure that conference IDs will stay short until a significant amount of conferences have been created.</span></span> <span data-ttu-id="2febd-107">En una organización con un número establecido de conferencias por usuario, se recomienda crear un directorio de conferencia por cada 999 usuarios en el grupo de servidores.</span><span class="sxs-lookup"><span data-stu-id="2febd-107">In an organization with a typical number of conferences per user, we recommend that you create one conference directory for every 999 users in the pool.</span></span> <span data-ttu-id="2febd-108">Si aplica esta sugerencia, los Id. de conferencia, por lo general, se mantendrán cortos.</span><span class="sxs-lookup"><span data-stu-id="2febd-108">Using this guideline the conference IDs can generally be kept small.</span></span> <span data-ttu-id="2febd-109">Sin embargo, una vez que el número de directorios de conferencia (entre los grupos de servidores) supera los 9, la longitud del identificador de conferencia aumentará para admitir conferencias adicionales.</span><span class="sxs-lookup"><span data-stu-id="2febd-109">However, once the number of conference directories (across the pools) exceed 9, the Conference ID length will grow to support additional conferences.</span></span>
+<span data-ttu-id="9beb3-106">Si crea varios directorios de conferencia, se asegurará de que los Id. de conferencia se mantienen cortos hasta que se haya creado un número significativo de conferencias.</span><span class="sxs-lookup"><span data-stu-id="9beb3-106">Creating multiple conference directories will ensure that conference IDs will stay short until a significant amount of conferences have been created.</span></span> <span data-ttu-id="9beb3-107">En una organización con un número establecido de conferencias por usuario, se recomienda crear un directorio de conferencia por cada 999 usuarios en el grupo de servidores.</span><span class="sxs-lookup"><span data-stu-id="9beb3-107">In an organization with a typical number of conferences per user, we recommend that you create one conference directory for every 999 users in the pool.</span></span> <span data-ttu-id="9beb3-108">Si aplica esta sugerencia, los Id. de conferencia, por lo general, se mantendrán cortos.</span><span class="sxs-lookup"><span data-stu-id="9beb3-108">Using this guideline the conference IDs can generally be kept small.</span></span> <span data-ttu-id="9beb3-109">Sin embargo, una vez que el número de directorios de conferencia (entre los grupos de servidores) supera los 9, la longitud del identificador de conferencia aumentará para admitir conferencias adicionales.</span><span class="sxs-lookup"><span data-stu-id="9beb3-109">However, once the number of conference directories (across the pools) exceed 9, the Conference ID length will grow to support additional conferences.</span></span>
 
 <div>
 
-## <a name="creating-a-conference-directory"></a><span data-ttu-id="2febd-110">Crear un directorio de conferencia</span><span class="sxs-lookup"><span data-stu-id="2febd-110">Creating a conference directory</span></span>
+## <a name="creating-a-conference-directory"></a><span data-ttu-id="9beb3-110">Crear un directorio de conferencia</span><span class="sxs-lookup"><span data-stu-id="9beb3-110">Creating a conference directory</span></span>
 
-1.  <span data-ttu-id="2febd-111">En el shell de administración de Lync Server, escriba el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="2febd-111">In Lync Server Management Shell, type the following cmdlet:</span></span>
+1.  <span data-ttu-id="9beb3-111">En el shell de administración de Lync Server, escriba el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="9beb3-111">In Lync Server Management Shell, type the following cmdlet:</span></span>
     
         New-CsConferenceDirectory -Identity <XdsGlobalRelativeIdentity> -HomePool <String> [-Confirm [<SwitchParameter>]] [-Force <SwitchParameter>] [-WhatIf [<SwitchParameter>]]
     
-    <span data-ttu-id="2febd-112">Por ejemplo, el siguiente ejemplo crea un directorio de conferencia con la identidad 42, hospedada en el grupo atl-cs-001.litwareinc.com:</span><span class="sxs-lookup"><span data-stu-id="2febd-112">For example, the following creates a conference directory with the identity 42, hosted on the pool atl-cs-001.litwareinc.com:</span></span>
+    <span data-ttu-id="9beb3-112">Por ejemplo, el siguiente ejemplo crea un directorio de conferencia con la identidad 42, hospedada en el grupo atl-cs-001.litwareinc.com:</span><span class="sxs-lookup"><span data-stu-id="9beb3-112">For example, the following creates a conference directory with the identity 42, hosted on the pool atl-cs-001.litwareinc.com:</span></span>
     
         New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"
 
@@ -59,13 +59,13 @@ ms.locfileid: "44757171"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="2febd-113">Vea también</span><span class="sxs-lookup"><span data-stu-id="2febd-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9beb3-113">Vea también</span><span class="sxs-lookup"><span data-stu-id="9beb3-113">See Also</span></span>
 
 
-[<span data-ttu-id="2febd-114">Requisitos de conferencia de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2febd-114">Dial-in conferencing requirements in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-requirements.md)  
+[<span data-ttu-id="9beb3-114">Requisitos de conferencia de acceso telefónico local en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9beb3-114">Dial-in conferencing requirements in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-requirements.md)  
 
 
-[<span data-ttu-id="2febd-115">New-CsConferenceDirectory</span><span class="sxs-lookup"><span data-stu-id="2febd-115">New-CsConferenceDirectory</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsConferenceDirectory)  
+[<span data-ttu-id="9beb3-115">New-CsConferenceDirectory</span><span class="sxs-lookup"><span data-stu-id="9beb3-115">New-CsConferenceDirectory</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsConferenceDirectory)  
   
 
 </div>

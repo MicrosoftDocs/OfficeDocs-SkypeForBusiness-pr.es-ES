@@ -26,7 +26,7 @@ ms.locfileid: "44755372"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="back-up-systems-and-data"></a><span data-ttu-id="b6b48-102">Copia de seguridad de los datos y sistemas</span><span class="sxs-lookup"><span data-stu-id="b6b48-102">Back up systems and data</span></span>
+# <a name="back-up-systems-and-data"></a><span data-ttu-id="a4891-102">Copia de seguridad de los datos y sistemas</span><span class="sxs-lookup"><span data-stu-id="a4891-102">Back up systems and data</span></span>
 
 </div>
 
@@ -36,11 +36,11 @@ ms.locfileid: "44755372"
 
 <span> </span>
 
-<span data-ttu-id="b6b48-103">_**Última modificación del tema:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="b6b48-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="a4891-103">_**Última modificación del tema:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="a4891-103">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="b6b48-104">Antes de comenzar la migración a Lync Server 2013, se recomienda realizar una copia de seguridad completa del sistema y documentar el sistema existente, incluido un inventario de las cuentas de usuario hospedadas en cada grupo de servidores, de modo que pueda volver a Lync Server 2010 si es necesario.</span><span class="sxs-lookup"><span data-stu-id="b6b48-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Lync Server 2010 if it becomes necessary.</span></span> <span data-ttu-id="b6b48-105">Existen numerosos programas y herramientas para realizar copias de seguridad y restauraciones de datos, configuraciones y sistemas.</span><span class="sxs-lookup"><span data-stu-id="b6b48-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span>
+<span data-ttu-id="a4891-104">Antes de comenzar la migración a Lync Server 2013, se recomienda realizar una copia de seguridad completa del sistema y documentar el sistema existente, incluido un inventario de las cuentas de usuario hospedadas en cada grupo de servidores, de modo que pueda volver a Lync Server 2010 si es necesario.</span><span class="sxs-lookup"><span data-stu-id="a4891-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Lync Server 2010 if it becomes necessary.</span></span> <span data-ttu-id="a4891-105">Existen numerosos programas y herramientas para realizar copias de seguridad y restauraciones de datos, configuraciones y sistemas.</span><span class="sxs-lookup"><span data-stu-id="a4891-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span>
 
-<span data-ttu-id="b6b48-106">Para obtener detalles y procedimientos, consulte [copia de seguridad y restauración de Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span><span class="sxs-lookup"><span data-stu-id="b6b48-106">For details and procedures, see [Backing Up and Restoring Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span></span>
+<span data-ttu-id="a4891-106">Para obtener detalles y procedimientos, consulte [copia de seguridad y restauración de Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span><span class="sxs-lookup"><span data-stu-id="a4891-106">For details and procedures, see [Backing Up and Restoring Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span></span>
 
 </div>
 

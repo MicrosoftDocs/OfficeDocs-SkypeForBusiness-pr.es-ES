@@ -25,7 +25,7 @@ ms.locfileid: "44755464"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="introduction"></a><span data-ttu-id="27e47-102">Introducción</span><span class="sxs-lookup"><span data-stu-id="27e47-102">Introduction</span></span>
+# <a name="introduction"></a><span data-ttu-id="cc5e5-102">Introducción</span><span class="sxs-lookup"><span data-stu-id="cc5e5-102">Introduction</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "44755464"
 
 <span> </span>
 
-<span data-ttu-id="27e47-103">_**Última modificación del tema:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="27e47-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="cc5e5-103">_**Última modificación del tema:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="cc5e5-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="27e47-104">La herramienta stress and performance de Lync Server 2013 (denominada LyncPerfTool) puede simular la carga de usuarios de los siguientes tipos:</span><span class="sxs-lookup"><span data-stu-id="27e47-104">The Lync Server 2013 Stress and Performance Tool (referred to as LyncPerfTool) can simulate user load of the following types:</span></span>
+<span data-ttu-id="cc5e5-104">La herramienta stress and performance de Lync Server 2013 (denominada LyncPerfTool) puede simular la carga de usuarios de los siguientes tipos:</span><span class="sxs-lookup"><span data-stu-id="cc5e5-104">The Lync Server 2013 Stress and Performance Tool (referred to as LyncPerfTool) can simulate user load of the following types:</span></span>
 
 
 <table>
@@ -47,28 +47,28 @@ ms.locfileid: "44755464"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="27e47-105">Mensajería instantánea (MI) y presencia</span><span class="sxs-lookup"><span data-stu-id="27e47-105">Instant messaging (IM) and presence</span></span></p></td>
-<td><p><span data-ttu-id="27e47-106">Audioconferencia</span><span class="sxs-lookup"><span data-stu-id="27e47-106">Audio conferencing</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-105">Mensajería instantánea (MI) y presencia</span><span class="sxs-lookup"><span data-stu-id="cc5e5-105">Instant messaging (IM) and presence</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-106">Audioconferencia</span><span class="sxs-lookup"><span data-stu-id="cc5e5-106">Audio conferencing</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="27e47-107">Uso compartido de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="27e47-107">Application sharing</span></span></p></td>
-<td><p><span data-ttu-id="27e47-108">Voz sobre IP (VoIP), incluida la simulación de red telefónica conmutada (RTC)</span><span class="sxs-lookup"><span data-stu-id="27e47-108">Voice over IP (VoIP), including public switched telephone network (PSTN) simulation</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-107">Uso compartido de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="cc5e5-107">Application sharing</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-108">Voz sobre IP (VoIP), incluida la simulación de red telefónica conmutada (RTC)</span><span class="sxs-lookup"><span data-stu-id="cc5e5-108">Voice over IP (VoIP), including public switched telephone network (PSTN) simulation</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="27e47-109">Conferencia de cliente de Web Access</span><span class="sxs-lookup"><span data-stu-id="27e47-109">Web Access Client conferencing</span></span></p></td>
-<td><p><span data-ttu-id="27e47-110">Operador 2013 de Microsoft Lync</span><span class="sxs-lookup"><span data-stu-id="27e47-110">Microsoft Lync 2013 Attendant</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-109">Conferencia de cliente de Web Access</span><span class="sxs-lookup"><span data-stu-id="cc5e5-109">Web Access Client conferencing</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-110">Operador 2013 de Microsoft Lync</span><span class="sxs-lookup"><span data-stu-id="cc5e5-110">Microsoft Lync 2013 Attendant</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="27e47-111">Grupos de respuesta</span><span class="sxs-lookup"><span data-stu-id="27e47-111">Response Groups</span></span></p></td>
-<td><p><span data-ttu-id="27e47-112">Expansión de la lista de distribución</span><span class="sxs-lookup"><span data-stu-id="27e47-112">Distribution list expansion</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-111">Grupos de respuesta</span><span class="sxs-lookup"><span data-stu-id="cc5e5-111">Response Groups</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-112">Expansión de la lista de distribución</span><span class="sxs-lookup"><span data-stu-id="cc5e5-112">Distribution list expansion</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="27e47-113">Consulta de la libreta de direcciones y de descarga de la libreta de direcciones</span><span class="sxs-lookup"><span data-stu-id="27e47-113">Address book download and address book query</span></span></p></td>
-<td><p><span data-ttu-id="27e47-114">Llamadas mejoradas 9-1-1 (E9-1-1) y Perfil de ubicación (plan de marcado)</span><span class="sxs-lookup"><span data-stu-id="27e47-114">Enhanced 9-1-1 (E9-1-1) calls and location profile (dial plan)</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-113">Consulta de la libreta de direcciones y de descarga de la libreta de direcciones</span><span class="sxs-lookup"><span data-stu-id="cc5e5-113">Address book download and address book query</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-114">Llamadas mejoradas 9-1-1 (E9-1-1) y Perfil de ubicación (plan de marcado)</span><span class="sxs-lookup"><span data-stu-id="cc5e5-114">Enhanced 9-1-1 (E9-1-1) calls and location profile (dial plan)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="27e47-115">Vídeo</span><span class="sxs-lookup"><span data-stu-id="27e47-115">MultiView</span></span></p></td>
-<td><p><span data-ttu-id="27e47-116">Ver varias secuencias desde una conferencia</span><span class="sxs-lookup"><span data-stu-id="27e47-116">Viewing multiple streams from a conference</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-115">Vídeo</span><span class="sxs-lookup"><span data-stu-id="cc5e5-115">MultiView</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-116">Ver varias secuencias desde una conferencia</span><span class="sxs-lookup"><span data-stu-id="cc5e5-116">Viewing multiple streams from a conference</span></span></p></td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -78,25 +78,25 @@ ms.locfileid: "44755464"
 </table>
 
 
-<span data-ttu-id="27e47-117">La herramienta de esfuerzo y rendimiento de Lync Server 2013 admite la generación de carga entre grupos de servidores y la Federación solo a través de la configuración avanzada.</span><span class="sxs-lookup"><span data-stu-id="27e47-117">The Lync Server 2013 Stress and Performance Tool supports cross-pool load generation and federation through advanced configuration only.</span></span>
+<span data-ttu-id="cc5e5-117">La herramienta de esfuerzo y rendimiento de Lync Server 2013 admite la generación de carga entre grupos de servidores y la Federación solo a través de la configuración avanzada.</span><span class="sxs-lookup"><span data-stu-id="cc5e5-117">The Lync Server 2013 Stress and Performance Tool supports cross-pool load generation and federation through advanced configuration only.</span></span>
 
-<span data-ttu-id="27e47-118">La herramienta tampoco simula la carga de usuarios para los siguientes clientes:</span><span class="sxs-lookup"><span data-stu-id="27e47-118">The tool also does not simulate user load for the following clients:</span></span>
+<span data-ttu-id="cc5e5-118">La herramienta tampoco simula la carga de usuarios para los siguientes clientes:</span><span class="sxs-lookup"><span data-stu-id="cc5e5-118">The tool also does not simulate user load for the following clients:</span></span>
 
-  - <span data-ttu-id="27e47-119">Office Live Meeting 2007</span><span class="sxs-lookup"><span data-stu-id="27e47-119">Office Live Meeting 2007</span></span>
+  - <span data-ttu-id="cc5e5-119">Office Live Meeting 2007</span><span class="sxs-lookup"><span data-stu-id="cc5e5-119">Office Live Meeting 2007</span></span>
 
-  - <span data-ttu-id="27e47-120">Chat persistente de Lync 2013</span><span class="sxs-lookup"><span data-stu-id="27e47-120">Lync 2013 Persistent Chat</span></span>
+  - <span data-ttu-id="cc5e5-120">Chat persistente de Lync 2013</span><span class="sxs-lookup"><span data-stu-id="cc5e5-120">Lync 2013 Persistent Chat</span></span>
 
-<span data-ttu-id="27e47-121">Como resultado, la herramienta stress and performance de Lync Server 2013 no permitirá probar los siguientes componentes:</span><span class="sxs-lookup"><span data-stu-id="27e47-121">As a result, the Lync Server 2013 Stress and Performance Tool will not support testing the following components:</span></span>
+<span data-ttu-id="cc5e5-121">Como resultado, la herramienta stress and performance de Lync Server 2013 no permitirá probar los siguientes componentes:</span><span class="sxs-lookup"><span data-stu-id="cc5e5-121">As a result, the Lync Server 2013 Stress and Performance Tool will not support testing the following components:</span></span>
 
-  - <span data-ttu-id="27e47-122">Chat persistente de Lync 2013</span><span class="sxs-lookup"><span data-stu-id="27e47-122">Lync 2013 Persistent Chat</span></span>
+  - <span data-ttu-id="cc5e5-122">Chat persistente de Lync 2013</span><span class="sxs-lookup"><span data-stu-id="cc5e5-122">Lync 2013 Persistent Chat</span></span>
 
-  - <span data-ttu-id="27e47-123">Escenarios de integración de Exchange</span><span class="sxs-lookup"><span data-stu-id="27e47-123">Exchange integration scenarios</span></span>
+  - <span data-ttu-id="cc5e5-123">Escenarios de integración de Exchange</span><span class="sxs-lookup"><span data-stu-id="cc5e5-123">Exchange integration scenarios</span></span>
 
 <div>
 
-## <a name="applications-and-files-included-with-the-lync-server-2013-stress-and-performance-tool"></a><span data-ttu-id="27e47-124">Aplicaciones y archivos incluidos con la herramienta de esfuerzo y rendimiento de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="27e47-124">Applications and Files Included with the Lync Server 2013 Stress and Performance Tool</span></span>
+## <a name="applications-and-files-included-with-the-lync-server-2013-stress-and-performance-tool"></a><span data-ttu-id="cc5e5-124">Aplicaciones y archivos incluidos con la herramienta de esfuerzo y rendimiento de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cc5e5-124">Applications and Files Included with the Lync Server 2013 Stress and Performance Tool</span></span>
 
-<span data-ttu-id="27e47-125">Las siguientes aplicaciones se incluyen en la herramienta de esfuerzo y rendimiento de Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="27e47-125">The following applications are included in the Lync Server 2013 Stress and Performance Tool:</span></span>
+<span data-ttu-id="cc5e5-125">Las siguientes aplicaciones se incluyen en la herramienta de esfuerzo y rendimiento de Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="cc5e5-125">The following applications are included in the Lync Server 2013 Stress and Performance Tool:</span></span>
 
 
 <table>
@@ -106,30 +106,30 @@ ms.locfileid: "44755464"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="27e47-126">Herramienta</span><span class="sxs-lookup"><span data-stu-id="27e47-126">Tool</span></span></th>
-<th><span data-ttu-id="27e47-127">Descripción</span><span class="sxs-lookup"><span data-stu-id="27e47-127">Description</span></span></th>
+<th><span data-ttu-id="cc5e5-126">Herramienta</span><span class="sxs-lookup"><span data-stu-id="cc5e5-126">Tool</span></span></th>
+<th><span data-ttu-id="cc5e5-127">Descripción</span><span class="sxs-lookup"><span data-stu-id="cc5e5-127">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="27e47-128">UserProvisioningTool.exe</span><span class="sxs-lookup"><span data-stu-id="27e47-128">UserProvisioningTool.exe</span></span></p></td>
-<td><p><span data-ttu-id="27e47-129">La herramienta de aprovisionamiento de usuarios de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="27e47-129">The Lync Server 2013 User Provisioning tool.</span></span> <span data-ttu-id="27e47-130">Esta herramienta se usa para crear usuarios y contactos.</span><span class="sxs-lookup"><span data-stu-id="27e47-130">This tool is used to create users and contacts.</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-128">UserProvisioningTool.exe</span><span class="sxs-lookup"><span data-stu-id="cc5e5-128">UserProvisioningTool.exe</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-129">La herramienta de aprovisionamiento de usuarios de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cc5e5-129">The Lync Server 2013 User Provisioning tool.</span></span> <span data-ttu-id="cc5e5-130">Esta herramienta se usa para crear usuarios y contactos.</span><span class="sxs-lookup"><span data-stu-id="cc5e5-130">This tool is used to create users and contacts.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="27e47-131">UserProfileGenerator.exe</span><span class="sxs-lookup"><span data-stu-id="27e47-131">UserProfileGenerator.exe</span></span></p></td>
-<td><p><span data-ttu-id="27e47-132">Herramienta de configuración de carga de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="27e47-132">The Lync Server 2013 Load Configuration Tool.</span></span> <span data-ttu-id="27e47-133">Esta herramienta se usa para configurar las características de la carga de usuarios que se van a simular.</span><span class="sxs-lookup"><span data-stu-id="27e47-133">This tool is used to configure the characteristics of the user load to simulate.</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-131">UserProfileGenerator.exe</span><span class="sxs-lookup"><span data-stu-id="cc5e5-131">UserProfileGenerator.exe</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-132">Herramienta de configuración de carga de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cc5e5-132">The Lync Server 2013 Load Configuration Tool.</span></span> <span data-ttu-id="cc5e5-133">Esta herramienta se usa para configurar las características de la carga de usuarios que se van a simular.</span><span class="sxs-lookup"><span data-stu-id="cc5e5-133">This tool is used to configure the characteristics of the user load to simulate.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="27e47-134">LyncPerfTool.exe</span><span class="sxs-lookup"><span data-stu-id="27e47-134">LyncPerfTool.exe</span></span></p></td>
-<td><p><span data-ttu-id="27e47-135">La herramienta de esfuerzo y rendimiento de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="27e47-135">The Lync Server 2013 Stress and Performance Tool.</span></span> <span data-ttu-id="27e47-136">LyncPerfTool es la herramienta que simula la carga de usuarios.</span><span class="sxs-lookup"><span data-stu-id="27e47-136">LyncPerfTool is the tool that simulates the user load.</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-134">LyncPerfTool.exe</span><span class="sxs-lookup"><span data-stu-id="cc5e5-134">LyncPerfTool.exe</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-135">La herramienta de esfuerzo y rendimiento de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cc5e5-135">The Lync Server 2013 Stress and Performance Tool.</span></span> <span data-ttu-id="cc5e5-136">LyncPerfTool es la herramienta que simula la carga de usuarios.</span><span class="sxs-lookup"><span data-stu-id="cc5e5-136">LyncPerfTool is the tool that simulates the user load.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="27e47-137">Default. TMX</span><span class="sxs-lookup"><span data-stu-id="27e47-137">Default.tmx</span></span></p></td>
-<td><p><span data-ttu-id="27e47-138">El valor predeterminado. TMX es necesario para usar la herramienta de registro de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="27e47-138">Default.tmx is required to use the Lync Server 2013 Logging Tool.</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-137">Default. TMX</span><span class="sxs-lookup"><span data-stu-id="cc5e5-137">Default.tmx</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-138">El valor predeterminado. TMX es necesario para usar la herramienta de registro de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cc5e5-138">Default.tmx is required to use the Lync Server 2013 Logging Tool.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="27e47-139">Scripts de aprovisionamiento de ejemplo</span><span class="sxs-lookup"><span data-stu-id="27e47-139">Example provisioning scripts</span></span></p></td>
-<td><p><span data-ttu-id="27e47-140">Estos ejemplos se usan para configurar la topología para ejecutar pruebas de carga, en función de escenarios específicos.</span><span class="sxs-lookup"><span data-stu-id="27e47-140">These examples are used to configure the topology for running load tests, based on specific scenarios</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-139">Scripts de aprovisionamiento de ejemplo</span><span class="sxs-lookup"><span data-stu-id="cc5e5-139">Example provisioning scripts</span></span></p></td>
+<td><p><span data-ttu-id="cc5e5-140">Estos ejemplos se usan para configurar la topología para ejecutar pruebas de carga, en función de escenarios específicos.</span><span class="sxs-lookup"><span data-stu-id="cc5e5-140">These examples are used to configure the topology for running load tests, based on specific scenarios</span></span></p></td>
 </tr>
 </tbody>
 </table>

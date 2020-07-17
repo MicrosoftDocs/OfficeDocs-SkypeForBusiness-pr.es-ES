@@ -25,7 +25,7 @@ ms.locfileid: "44755614"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-configuration-settings"></a><span data-ttu-id="9f694-102">Comprobación de los parámetros de configuración</span><span class="sxs-lookup"><span data-stu-id="9f694-102">Verify configuration settings</span></span>
+# <a name="verify-configuration-settings"></a><span data-ttu-id="d9f3b-102">Comprobación de los parámetros de configuración</span><span class="sxs-lookup"><span data-stu-id="d9f3b-102">Verify configuration settings</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "44755614"
 
 <span> </span>
 
-<span data-ttu-id="9f694-103">_**Última modificación del tema:** 2012-09-06_</span><span class="sxs-lookup"><span data-stu-id="9f694-103">_**Topic Last Modified:** 2012-09-06_</span></span>
+<span data-ttu-id="d9f3b-103">_**Última modificación del tema:** 2012-09-06_</span><span class="sxs-lookup"><span data-stu-id="d9f3b-103">_**Topic Last Modified:** 2012-09-06_</span></span>
 
-<span data-ttu-id="9f694-104">Puede validar la replicación de la información de configuración en el servidor perimetral ejecutando el cmdlet **Get-CsManagementStoreReplicationStatus** de lync Server 2013 en el equipo interno en el que se encuentra el almacén de administración central, o en cualquier equipo unido al dominio en el que se hayan instalado los componentes principales de Lync Server 2013 (OcsCore.msi).</span><span class="sxs-lookup"><span data-stu-id="9f694-104">You can validate the replication of configuration information to the Edge server by running the Lync Server 2013 **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located, or on any domain joined computer on which Lync Server 2013 Core Components (OcsCore.msi) is installed.</span></span>
+<span data-ttu-id="d9f3b-104">Puede validar la replicación de la información de configuración en el servidor perimetral ejecutando el cmdlet **Get-CsManagementStoreReplicationStatus** de lync Server 2013 en el equipo interno en el que se encuentra el almacén de administración central, o en cualquier equipo unido al dominio en el que se hayan instalado los componentes principales de Lync Server 2013 (OcsCore.msi).</span><span class="sxs-lookup"><span data-stu-id="d9f3b-104">You can validate the replication of configuration information to the Edge server by running the Lync Server 2013 **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located, or on any domain joined computer on which Lync Server 2013 Core Components (OcsCore.msi) is installed.</span></span>
 
-<span data-ttu-id="9f694-105">Los resultados iniciales pueden indicar el estado como "False" en lugar de "True" para la replicación.</span><span class="sxs-lookup"><span data-stu-id="9f694-105">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="9f694-106">Si es así, ejecute el cmdlet del **Invoke-CsManagementStoreReplication** y deje que la replicación termine antes de volver a ejecutar **Get-CsManagementStoreReplicationStatus**.</span><span class="sxs-lookup"><span data-stu-id="9f694-106">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** again.</span></span>
+<span data-ttu-id="d9f3b-105">Los resultados iniciales pueden indicar el estado como "False" en lugar de "True" para la replicación.</span><span class="sxs-lookup"><span data-stu-id="d9f3b-105">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="d9f3b-106">Si es así, ejecute el cmdlet del **Invoke-CsManagementStoreReplication** y deje que la replicación termine antes de volver a ejecutar **Get-CsManagementStoreReplicationStatus**.</span><span class="sxs-lookup"><span data-stu-id="d9f3b-106">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** again.</span></span>
 
 </div>
 

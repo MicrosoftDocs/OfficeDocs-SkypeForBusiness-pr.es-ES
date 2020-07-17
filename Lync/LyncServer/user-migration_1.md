@@ -25,7 +25,7 @@ ms.locfileid: "44755644"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-migration"></a><span data-ttu-id="a5e93-102">Migración de usuario</span><span class="sxs-lookup"><span data-stu-id="a5e93-102">User migration</span></span>
+# <a name="user-migration"></a><span data-ttu-id="dcefc-102">Migración de usuario</span><span class="sxs-lookup"><span data-stu-id="dcefc-102">User migration</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "44755644"
 
 <span> </span>
 
-<span data-ttu-id="a5e93-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="a5e93-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="dcefc-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="dcefc-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="a5e93-104">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests.</span><span class="sxs-lookup"><span data-stu-id="a5e93-104">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests.</span></span> <span data-ttu-id="a5e93-105">After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them.</span><span class="sxs-lookup"><span data-stu-id="a5e93-105">After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them.</span></span> <span data-ttu-id="a5e93-106">When you get satisfactory results, you can move the rest of your users to the new deployment.</span><span class="sxs-lookup"><span data-stu-id="a5e93-106">When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
+<span data-ttu-id="dcefc-p101">Uno de los procedimientos recomendados más generalizado para las migraciones consiste en crear varios usuarios de prueba y usarlos para llevar a cabo pruebas del sistema. Después de migrar correctamente y probar esas cuentas, se ha de identificar un grupo piloto de usuarios de producción, migrar sus cuentas y realizar pruebas de validación. Cuando obtenga resultados satisfactorios, podrá migrar el resto de los usuarios a la nueva implementación.</span><span class="sxs-lookup"><span data-stu-id="dcefc-p101">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
 
 </div>
 
