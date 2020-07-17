@@ -39,15 +39,15 @@ _**Última modificación del tema:** 2012-10-06_
 
 A medida que crea categorías y salones de chat persistente, y diseña el ámbito y la pertenencia, las siguientes sugerencias pueden ayudarle a planear:
 
-  - If your company does not require an ethical wall, do not narrow the scope in your category tree. Put all your users in the scope of one category, and create all chat rooms in that category. Subsequently, use only membership lists to grant or restrict access to each chat room.
+  - Si la compañía no necesita la imposición de zonas de protección de datos confidenciales y no está concediendo acceso a usuarios federados, no limite el ámbito en el árbol de categorías. Ponga a todos los usuarios en el ámbito de la categoría raíz y cree todos los salones de chat en dicha categoría. Después, utilice únicamente las listas de pertenencia para conceder o restringir el acceso a cada salón de chat.
 
-  - In most cases, you should enable users to create new chat rooms so that discussions about new topics can be started any time. Do this by making the **Creators** list the same as the **AllowedMembers** list. However, if you want to allow only a central support team or designated users to create rooms, then make the **Creators** list as the appropriate subset.
+  - En la mayoría de casos, deberá habilitar a los usuarios para crear nuevos salones de chat, para que se puedan iniciar debates sobre temas nuevos en cualquier momento. Para ello, haga que la lista **Creators** sea la misma que la lista de **AllowedMembers**. Ahora bien, si desea que un solo equipo de soporte técnico central o usuarios designados puedan crear salones, convierta la lista **Creators** en el subconjunto apropiado.
 
-  - Give each chat room a complete name and description summary that describes where it fits in with your organization. Because users cannot see the category name when they use the chat room, you cannot rely on the category name to help users determine the intended discussion forum for the chat room.
+  - Proporcione a cada salón de chat un nombre completo y un resumen de temas que lo ubique totalmente dentro de la organización. Como los usuarios no verán el nombre de categoría cuando usen el salón de chat, no puede basarse en el nombre de categoría para ayudar a los usuarios a ver lo que está previsto debatirse en el salón de chat.
 
   - Probablemente quiera tener un flujo de trabajo de creación de salones personalizado si desea implementar determinadas convenciones de nomenclatura o validaciones. La configuración de chat persistente permite personalizar el **RoomManagementUrl** en algo que hospede. Por ejemplo, cuando los usuarios hacen clic en **crear una sala** en su cliente de Lync, pueden redirigirse a su solución personalizada.
 
-  - Create a variety of add-ins that help to enhance the experience of chat rooms by bringing in other business data into chat rooms. Administrators must register the add-ins that they want to allow in the system. Chat room managers and creators can choose from the list of allowed add-ins for the ones most relevant to their respective rooms.
+  - Cree varios complementos para que le sea más fácil mejorar la experiencia de los salones de chat incorporando datos de negocio a los salones de chat. Los administradores deben registrar los complementos que desean permitir en el sistema. Los creadores y los administradores de salones de chat pueden elegir en una lista de complementos permitidos aquellos complementos que sean más adecuados para sus respectivos salones.
 
 <div>
 

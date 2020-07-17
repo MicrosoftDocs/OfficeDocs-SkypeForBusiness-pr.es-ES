@@ -53,7 +53,7 @@ Asegúrese de que ha cumplido los siguientes requisitos previos antes de migrar 
     
 
     > [!IMPORTANT]  
-    > Be aware that these newly created items may conflict with legacy items that you migrate. Avoid any naming conflicts; otherwise, they will be overwritten when the legacy data is migrated.
+    > Tenga presente que estos nuevos elementos pueden entrar en conflicto con los elementos heredados que migre. Evite los conflictos de nombres, de lo contrario se sobrescribirán cuando se migren los datos heredados.
 
     
     </div>
@@ -92,9 +92,9 @@ Haga lo siguiente para preparar correctamente los datos de origen para la migrac
     
     1.  El servidor de chat persistente admite un solo nivel de categorías, a diferencia de un conjunto de categorías jerárquico en profundidad. Tras la migración, se agrega a las subcategorías el prefijo con los nombres completos de categoría principal. Puede simplificar la estructura de categorías actual conforme a sus necesidades.
     
-    2.  Verify the **Managers** at the root Category. If any Managers exist at this level, these users will be added as **Managers to all rooms** after migration. If this is not a requirement for your organization, you need to remove these Managers from the root Category.
+    2.  Compruebe los **administradores** de la categoría raíz. Si existe algún administrador en este nivel, estos usuarios se agregarán como **administradores para todos los salones** tras la migración. Si su organización no requiere esto, tiene que eliminar estos administradores de la categoría raíz.
     
-    3.  Verify the length of room names. After migration, due to simplified category structures, if the rooms exist under a child category, they are prefixed with full parent category names. The naming limit is 256 characters, including parent category names. You must verify the length of the room names and possibly shorten the length, if they are too long.
+    3.  Compruebe la longitud de los nombres de los salones. Tras la migración, debido a que se han simplificado las estructuras de las categorías, si hay salones por debajo de una categoría secundaria, se les agregarán como prefijos los nombres completos de las categorías principales. El límite de los nombres es de 256 caracteres, incluidos los nombres de las categorías principales. Debe comprobar la longitud de los nombres de los salones y posiblemente abreviarlos, si son demasiado largos.
     
     4.  En Lync Server 2013, si la configuración de **invitaciones** de categoría se establece en true, puede elegir true o false para invitaciones a salas de esa categoría. No obstante, si se configuran las invitaciones con el valor false, los salones de esta categoría tienen las invitaciones desactivadas. Antes de la migración, debe restablecer la configuración de la invitación en la versión heredada del servidor de chat en grupo de Lync Server, si desea que existan salas o salas en una categoría específica. De lo contrario, durante la migración, Lync Server 2013 muestra advertencias y establece salas en el valor predeterminado de false.
     
@@ -104,7 +104,7 @@ Haga lo siguiente para preparar correctamente los datos de origen para la migrac
     
     7.  Identifique los salones que no desea migrar y márquelos como deshabilitados.
     
-    8.  Identify the date beyond which you want to migrate the chat room content. For example, you may not want to migrate messages earlier than January 1, 2010, because these messages may be obsolete or not relevant for migration.
+    8.  Identifique la fecha a partir de la cual desea migrar el contenido de los salones de chat. Por ejemplo, quizás no desee migrar los mensajes anteriores al 1 de enero de 2010, porque ya son obsoletos o no son importantes para migrarlos.
 
 </div>
 

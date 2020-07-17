@@ -40,7 +40,7 @@ Puede usar el siguiente procedimiento al agregar o quitar un servidor front-end.
   
 ### <a name="to-add-or-remove-front-end-servers"></a>Para agregar o quitar servidores front-end
 
-1. If you are removing any Front End Servers, first stop new connections to those servers. To do so, you can use the following cmdlet:
+1. Si desea quitar servidores front-end, primero detenga las nuevas conexiones a esos servidores. Para ello, puede usar el siguiente cmdlet:
     
    ```PowerShell
    Stop-CsWindowsService -Graceful

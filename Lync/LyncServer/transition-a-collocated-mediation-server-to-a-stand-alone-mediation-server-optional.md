@@ -49,13 +49,13 @@ Utilice el procedimiento siguiente para realizar la transición del servidor de 
 
 3.  Haga clic con el botón secundario en **Grupos de mediación**    y seleccione **Nuevo servidor de mediación  **.
 
-4.  On the **Define New Mediation Pool** page, provide the FQDN of the new Mediation Server pool. Also, select whether this pool will be a single-server or multiple-server pool, and then click **Next**.
+4.  En la página **Definir nuevo grupo de servidores de mediación**, proporcione el nombre completo del nuevo grupo de servidor de mediación. Además, seleccione si este grupo va a ser un grupo de servidor único o de varios servidores y, a continuación, haga clic en **Siguiente**.
 
 5.  Seleccione el siguiente grupo de salto del servidor de usuario al que el nuevo servidor de mediación enrutará las llamadas entrantes y, a continuación, haga clic en **Siguiente**.
 
 6.  Seleccione el grupo perimetral que va a usar el servidor de mediación y, a continuación, haga clic en **Siguiente**.
 
-7.  On the **Specify PSTN gateways** page, associate the previous PSTN gateway with the Mediation Server. Select the gateway and then click **Add**.
+7.  En la página **Definir nuevo grupo de servidores de mediación**, asocie la puerta de enlace RTC anterior con el servidor de mediación. Seleccione la puerta de enlace y, a continuación, haga clic en **Agregar  **.
 
 8.  Haga clic en **Finalizar ** para cerrar el asistente **Definir nuevo grupo de servidores de mediación  **.
 

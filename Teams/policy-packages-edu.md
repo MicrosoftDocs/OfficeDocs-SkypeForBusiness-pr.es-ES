@@ -23,6 +23,7 @@ search.appverid: MET150
 description: Más información sobre las directivas en una configuración educativa o EDU, y cómo usar y administrar paquetes de directivas en Microsoft Teams.
 ms.openlocfilehash: fcc6a5d22d5e499cf698e424148ff37cd3ee054e
 ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/02/2020
 ms.locfileid: "45021888"

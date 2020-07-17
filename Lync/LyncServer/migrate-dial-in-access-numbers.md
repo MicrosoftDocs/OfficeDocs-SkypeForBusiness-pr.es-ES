@@ -55,7 +55,7 @@ Los números de acceso telefónico que ha creado en Lync Server 2010, pero que s
 
   - Se pueden volver a secuenciar en la región con el cmdlet Set-CsDialinConferencingAccessNumber con el parámetro Priority.
 
-You must finish migrating dial-in access numbers that point to a Lync Server 2010 pool before you decommission the Lync Server 2010 pool. If you do not complete dial-in access number migration as described in the following procedure, incoming calls to the access numbers will fail.
+Finalice la migración de los números de acceso telefónico que apuntan a un grupo de servidores de Lync Server 2010, para dar de baja el grupo de servidores de Lync Server 2010. Si no finaliza la migración tal como se describe en el procedimiento siguiente, las llamadas entrantes a los números de acceso serán erróneas.
 
 <div>
 

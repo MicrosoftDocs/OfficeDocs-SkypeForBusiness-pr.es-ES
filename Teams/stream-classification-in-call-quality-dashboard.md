@@ -29,11 +29,11 @@ ms.locfileid: "45085896"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Clasificación de la transmisión en el panel de calidad de llamadas (CQD)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to set it up, see [Set up Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
+El panel de calidad de llamadas (CQD) para Microsoft Teams y Skype empresarial online le permite obtener información sobre la calidad de las llamadas hechas con Microsoft Teams y los servicios de Skype empresarial. En este tema, se proporciona información detallada sobre la clasificación de calidad de las transmisiones multimedia. Para obtener más información sobre el CQD y cómo configurarlo, consulte [configurar el panel de calidad de llamadas](turning-on-and-using-call-quality-dashboard.md).
 
 ## <a name="classifier-definitions"></a>Definiciones del clasificador
 
-Streams in CQD are classified as _Good_, _Poor_, or _Unclassified_ based on the values of the available key quality metrics. The metrics and conditions used to classify stream are shown in the tables that follow. CQD's "Poor Due To" dimensions can be used to understand which metric is responsible for a _Poor_ classification. For more information on these dimensions, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Las transmisiones en el CQD se clasifican como _buenas_, _malas_o no _clasificadas_ en función de los valores de las métricas de calidad de clave disponibles. Las métricas y condiciones que se usan para clasificar la secuencia se muestran en las tablas siguientes. Las dimensiones de "mala calidad de los CQDs" pueden usarse para comprender qué métrica es responsable de una clasificación _deficiente_ . Para obtener más información sobre estas dimensiones, consulte [dimensiones y medidas disponibles en el panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>Clasificador de audio
 
@@ -41,7 +41,7 @@ Si se cumplen una o varias de las siguientes condiciones, una secuencia de audio
 
 |Métrica|Condición|Explicación|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|>1,0|Average Network Mean Opinion Score degradation for stream. How much network loss and jitter have impacted the quality of received audio.|
+|Audio Degradation Avg|>1,0|Promedio de media de puntuación de la red: degradación de la transmisión. La cantidad de pérdida de la red y de vibración han influyedo en la calidad del audio recibido.|
 |Round Trip|>500|Promedio de tiempo de propagación de red de ida y vuelta, que se calcula en milisegundos. Detalles disponibles en [RFC3550](https://tools.ietf.org/html/rfc3550).|
 |Packet Loss Rate|>0,1|Porcentaje medio de pérdida de paquetes en la transmisión.|
 |Vibración|>30|Vibración media producida en la transmisión en milisegundos.|

@@ -62,7 +62,7 @@ Puede asignar directivas de voz por usuario con Windows PowerShell y el cmdlet *
 
 ## <a name="unassign-a-per-user-voice-policy"></a>Cancelar la asignación de una directiva de voz por usuario
 
-  - The following command unassigns any per-user voice policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.
+  - Este comando desasigna cualquier directiva de voz por usuario previamente asignada a Ken Myer. Una vez desasignada la directiva por usuario, Ken Myer pasará automáticamente a ser administrado mediante la directiva global (o, de existir, por la directiva de su sitio local). Las directivas de sitio tienen prioridad sobre la directiva global.
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 

@@ -23,7 +23,7 @@ ms.locfileid: "44752872"
 En este tema se destacan las opciones de configuración que debe tener en cuenta antes de implementar el servidor perimetral de Skype empresarial Server 2019. Los procesos de implementación y configuración de Skype empresarial Server 2019 son muy similares a los de Skype empresarial Server 2015. En esta sección solo se detallan los aspectos clave que hay que considerar al implementar el grupo piloto. <!-- For detailed steps, see 
  [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->
   
-As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown. 
+Al navegar por el asistente **Definir nuevo grupo de servidores perimetrales**, repase las principales opciones de configuración recogidas en cada paso. Observe que solo se muestran unas cuantas páginas de**** este asistente. 
   
 ### <a name="to-define-an-edge-pool"></a>Para definir un grupo de servidores perimetrales
 

@@ -61,7 +61,7 @@ Teams ofrece protección frente a estos ataques mediante la ejecución de la pro
 
 ### <a name="eavesdropping"></a>Interceptación
 
-Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path.
+La interceptación se produce cuando un atacante obtiene acceso a la ruta de datos en una red y puede supervisar y leer el tráfico. Este tipo de ataque también se denomina rastreo o espionaje. Si el tráfico se produce como texto sin formato, el atacante puede leerlo cuando obtiene acceso a la ruta. Un ejemplo es un ataque que se realiza al controlar un enrutador de la ruta de acceso a los datos.
 
 Teams utiliza TLS mutua (MTLS) para las comunicaciones del servidor en Microsoft 365 y Office 365, además de TLS para los clientes al servicio. Esto dificulta mucho —o imposibilita— realizar este tipo de ataque en el período de tiempo en el que se puede atacar una conversación determinada. TLS autentica todas las partes y cifra todo el tráfico. Esto no impide la interceptación, pero el atacante no puede leer el tráfico a menos se interrumpa el cifrado.
 

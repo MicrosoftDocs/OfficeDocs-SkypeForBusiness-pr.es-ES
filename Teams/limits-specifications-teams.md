@@ -154,7 +154,7 @@ La presencia de Teams en Outlook es compatible con la aplicación de escritorio 
 
 ## <a name="storage"></a>Almacenamiento
 
-Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
+Cada equipo de Microsoft Teams tiene un sitio de grupo en SharePoint Online y cada canal de un equipo tiene una carpeta dentro de la biblioteca de documentos del sitio de grupo predeterminado. Los archivos compartidos en un chat se agregan automáticamente a la biblioteca de documentos y los permisos y opciones de seguridad configurados en SharePonit se reflejan automáticamente en Microsoft Teams.
 
 > [!NOTE]
 > Cada [canal privado](https://docs.microsoft.com/microsoftteams/private-channels) tiene su propia colección de sitios de SharePoint.

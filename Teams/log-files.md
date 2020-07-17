@@ -34,9 +34,9 @@ Hay tres tipos de archivos de registro que el cliente genera automáticamente y 
 
 -   Registros de escritorio
 
-When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having these logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. Media or desktop logs are only required if requested by Microsoft.
+Cuando se crea una solicitud de soporte técnico con Soporte técnico de Microsoft, el ingeniero de soporte técnico necesitará los registros de depuración. Disponer de estos registros con antelación, antes de crear la solicitud de soporte técnico, permitirá a Microsoft empezar rápidamente a resolver el problema. Los registros de medios o de escritorio solo son necesarios si los solicita Microsoft.
 
-The following table outlines the various clients, and their associated logs. Log files are stored in locations specific to the client and operating system.
+En esta table se muestran los distintos clientes y sus registros asociados. Los archivos de registro se almacenan en ubicaciones específicas del cliente y el sistema operativo.
 
 
 |Cliente |Depuración|Escritorio|Medios|
@@ -90,7 +90,7 @@ Los registros de depuración se descargan automáticamente en las siguientes car
 <a name="media-logs"></a>Registros de medios
 ---------------------------
 
-Media logs contain diagnostic data about audio, video and screen sharing. They are required for support cases only upon request and can only be inspected by Microsoft. The following table outlines the log location.
+Los registros de medios contienen datos de diagnóstico sobre el uso compartido de pantalla, audio, vídeo. Son necesarios para resolver casos de soporte técnico. Se generan únicamente bajo petición y solo pueden ser inspeccionados por Microsoft. En la siguiente tabla se muestra la ubicación del registro.
 
 
 |Cliente |Ubicación |
@@ -108,7 +108,7 @@ Media logs contain diagnostic data about audio, video and screen sharing. They a
 <a name="desktop-logs"></a>Registros de escritorio
 ---------------------
 
-Desktop logs, also known as bootstrapper logs, contains log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text based and can be read using any text based editor in a top down format.
+Los registros de escritorio, también conocidos como registros de programa previo, contienen datos de registro que se producen entre el cliente de escritorio y el explorador. Al igual que los registros de medios, estos registros solo son necesarios si los solicita Microsoft. Los registros son archivos de texto y se pueden leer con cualquier editor de texto de arriba abajo.
 
 Windows:
 

@@ -49,7 +49,7 @@ Antes de retirar un grupo de servidores, debe realizar el siguiente procedimient
     
         Get-CsConferenceDirectory
     
-    Because this cmdlet returns all the conference directories in your organization, you may want to limit the results to only the pool you want to decommission. For example, if you want to decommission a pool with the fully qualified domain name (FQDN) pool01.contoso.net:
+    Debido a que este cmdlet devuelve todos los directorios de conferencia de su organización, es posible que desee limitar los resultados solo a los grupos que desea retirar. Por ejemplo, si desea retirar un grupo con el nombre de dominio completo (FQDN) pool01.contoso.net:
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     

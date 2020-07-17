@@ -47,7 +47,7 @@ En general, la libreta de direcciones 2010 de Lync Server se migra junto con el 
 
 **Entradas de la Libreta de direcciones agrupadas**
 
-If you set the **PartitionbyOU** WMI property to True to create address books for each OU, you need to set the **msRTCSIP-GroupingId** Active Directory attribute on users and contacts if you want to continue grouping address book entries. You might want to group address book entries to limit the scope of Address Book searches. To use the **msRTCSIP-GroupingId** attribute, write a script to populate the attribute, assigning the same value for all of the users that you want to group together. For example, assign a single value for all the users in an OU.
+Si estableció el valor True (verdadero) en la propiedad de WMI **PartitionbyOU** para crear libretas de direcciones para cada unidad organizativa, deberá establecer el atributo **msRTCSIP-GroupingId** de Active Directory en los usuarios y contactos si desea seguir agrupando entradas de libretas de direcciones. Puede que le interese agrupar entradas para limitar el alcance de las búsquedas en las libretas de direcciones. Si desea utilizar el atributo **msRTCSIP-GroupingId**, escriba un script para rellenar el atributo y que asigne el mismo valor a todos los usuarios que desee agrupar. Por ejemplo, asigne un único valor a todos los usuarios de una unidad organizativa.
 
 **Reglas de normalización de la Libreta de direcciones**
 
@@ -57,7 +57,7 @@ Si ha personalizado las reglas de normalización de la libreta de direcciones en
 
 
 > [!NOTE]  
-> If your organization uses remote call control and you customized Address Book normalization rules, you must perform the procedure in this topic before you can use remote call control. The procedure requires membership in the RTCUniversalServerAdmins group or equivalent rights.
+> Si su organización usa el control remoto de llamadas y personalizó las reglas de normalización de la libreta de direcciones, deberá llevar a cabo el procedimiento que se describe en este tema para poder usar el control remoto de llamadas. El procedimiento requiere pertenecer al grupo RTCUniversalServerAdmins o contar con derechos equivalentes.
 
 
 
@@ -86,7 +86,7 @@ Si establece el valor de **UseNormalizationRules** en false para que los usuario
 
 3.  Ciertos tipos de entradas no funcionarán correctamente en Lync Server 2013. Busque en el archivo los tipos de entradas que se describen en este paso, modifíquelos como sea necesario y guarde los cambios en la carpeta compartida de la libreta de direcciones de su grupo piloto.
     
-    Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:
+    Las cadenas que contienen puntuación o espacios en blanco necesarios provocan errores en las reglas de normalización, ya que estos caracteres se quitan de la cadena que se incluye en las reglas de normalización. Si tiene cadenas que incluyen puntuación o espacios en blanco necesarios, deberá modificarlas. Por ejemplo, la siguiente cadena generará un error en la regla de normalización:
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     

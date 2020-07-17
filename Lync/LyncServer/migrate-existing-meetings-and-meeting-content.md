@@ -39,13 +39,13 @@ _**Última modificación del tema:** 2013-02-22_
 
 Cuando se mueve una cuenta de usuario de Lync Server 2010 a un servidor de Lync Server 2013, la siguiente información se mueve con esa cuenta de usuario:
 
-  - **Meetings already scheduled by the user**. This includes moving the conferencing directories and conferencing data.
+  - **Reuniones ya programadas por el usuario**. Incluye el movimiento de los directorios y los datos de conferencia.
 
-  - **User’s personal identification number (PIN)**. The user’s current PIN continues to work until it expires or the user requests a new PIN.
+  - **Número de identificación personal (PIN) del usuario**. El PIN actual del usuario seguirá funcionando hasta que caduque o hasta que el usuario solicite un PIN nuevo.
 
 La siguiente información de la cuenta del usuario no se pasa al nuevo servidor:
 
-  - **Meeting content**. In order to move the content shared during a meeting, for example PowerPoint, Whiteboard, attachments or poll data, use the **-MoveConferenceData** parameter as part of the **Move-CsUser** cmdlet.
+  - **Contenido de reuniones**. Para mover el contenido compartido durante una reunión como, por ejemplo, una presentación de PowerPoint, la pizarra, los datos adjuntos o de sondeos, use el parámetro **-MoveConferenceData** como parte del cmdlet **Move-CsUser**.
 
 </div>
 

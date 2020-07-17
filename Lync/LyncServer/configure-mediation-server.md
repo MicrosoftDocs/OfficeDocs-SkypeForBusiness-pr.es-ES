@@ -63,7 +63,7 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
 
 4.  Complete la página **Definir nueva puerta de enlace IP/RTC ** con la siguiente información:
     
-      - Enter the gateway FQDN or IP address. The FQDN of the gateway is required if the gateway uses the TLS protocol.
+      - Indique el FQDN de puerta de enlace o la dirección IP. El FQDN de la puerta de enlace es obligatorio si la puerta de enlace utiliza el protocolo TLS.
     
       - Acepte el valor predeterminado de la opción **Puerto de escucha para la puerta de enlace IP/RTC** o, si se ha modificado, especifique el nuevo puerto de escucha.
     

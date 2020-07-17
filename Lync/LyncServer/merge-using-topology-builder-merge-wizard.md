@@ -47,13 +47,13 @@ _**Última modificación del tema:** 2012-10-02_
     
     ![Asistente para combinar topología, especificar página de configuración perimetral](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "Asistente para combinar topología, especificar página de configuración perimetral")  
 
-5.  In **Specify Edge Type**, enter the type of Edge Server configuration, and then click **Next**. This example uses the **Single Edge Server** option.
+5.  En **Especificar tipo de servidor perimetral**, escriba el tipo de configuración del servidor perimetral y haga clic en **Siguiente**. En este ejemplo, se usa la opción **Servidor perimetral único**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <STRONG>Expanded Edge deployment</STRONG> is not a supported configuration. An <STRONG>Expanded Edge Server</STRONG> must first be converted to a <STRONG>Single Edge Server</STRONG> or a <STRONG>Load-balanced consolidated Edge</STRONG> Server.
+    > No se admite la configuración de <STRONG>servidor perimetral expandido</STRONG>. Un <STRONG>servidor perimetral expandido</STRONG> debe convertirse primero en <STRONG>servidor perimetral único</STRONG> o en <STRONG>servidor perimetral consolidado con equilibrio de carga</STRONG>.
 
     
     </div>
@@ -68,7 +68,7 @@ _**Última modificación del tema:** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > Before you click <STRONG>Next</STRONG>, do the next step in this procedure. It is very important that you do not miss this step.
+    > Antes de hacer clic en <STRONG>Siguiente</STRONG>, realice el próximo paso de este procedimiento. Es muy importante que no omita este paso.
 
     
     </div>

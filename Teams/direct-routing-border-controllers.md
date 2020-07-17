@@ -20,6 +20,7 @@ description: Administrador puede saber qué controladores de borde de sesión (S
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: b27bcc55ad2039d7e51af835c0b64c514d7dc303
 ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/06/2020
 ms.locfileid: "45042952"

@@ -37,7 +37,7 @@ ms.locfileid: "44755654"
 
 _**Última modificación del tema:** 2012-10-19_
 
-A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.
+Uno de los procedimientos recomendados más generalizado para las migraciones consiste en crear varias cuentas de usuario de prueba y usarlas para llevar a cabo pruebas del sistema. Después de mover correctamente y probar esas cuentas, se ha de identificar un grupo piloto de usuarios de producción, mover sus cuentas y realizar pruebas de validación. Si los resultados son satisfactorios, se podrá mover el resto de los usuarios a la nueva implementación.
 
 Para obtener más información sobre cómo habilitar usuarios para Lync Server 2013, consulte el tema sobre cómo [deshabilitar o volver a habilitar la cuenta de usuario para Lync server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) en la documentación sobre la implementación de lync Server 2013.
 

@@ -63,7 +63,7 @@ Los administradores de salones de chat persistente, que tienen la capacidad de a
 
 </div>
 
-Chat room managers can make changes to all chat room properties, except for changing the category of the room. They cannot be restricted from performing the following actions:
+Los administradores de salones pueden hacer cambios en todas las propiedades de salones de chat, excepto en la categoría del salón. No pueden tener restricciones para realizar las siguientes acciones:
 
   - Deshabilitar un salón de chat
 
@@ -89,7 +89,7 @@ Chat room managers can make changes to all chat room properties, except for chan
 
 La creación y administración de salones de chat persistente es mucho más sencilla con el uso correcto de las categorías. Un administrador de chat persistente puede definir **miembros permitidos** y **creadores** para cada categoría y también puede definir la configuración y los comportamientos predeterminados del salón de chat que se aplicarán a todos los salones de chat creados en la categoría. Los administradores de chat persistente crean y administran categorías mediante el panel de control de Lync Server o los cmdlets de Windows PowerShell.
 
-Users, Organizational Units (OUs), and user groups that are identified as Creators of the category are the only individuals and groups that are allowed to create rooms in the category. After the category is created, they can choose users, OUs, and user groups from the category’s **AllowedMembers** list as chat room managers and members to manage and participate in the room.
+Los usuarios, las unidades organizativas (OU) y los grupos de usuarios identificados como creadores de la categoría son los únicos individuos y grupos que pueden crear salones en la categoría. Una vez creada la categoría, pueden elegir usuarios, OU y grupos de usuarios desde la lista de **miembrospermitidos** de la categoría como administradores de salones de chat y miembros para administrar y participar en el salón.
 
 Los salones de chat que se crean en una categoría respetan las directivas y la configuración que exige la categoría (por ejemplo, quién puede estar en la pertenencia de la sala, quién puede administrar el salón, si se permiten las cargas de archivos, si se envían invitaciones, etc.).
 

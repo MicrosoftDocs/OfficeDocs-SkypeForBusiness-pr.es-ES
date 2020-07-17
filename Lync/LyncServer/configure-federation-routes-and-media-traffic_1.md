@@ -87,11 +87,11 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
     
     ![Página especificar borde externo en el generador de topologías](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "Página especificar borde externo en el generador de topologías")
 
-5.  In **Specify External Edge**, clear the **This Edge pool is used for federation and public IM connectivity** check box. This will remove the federation association with the BackCompatSite.
+5.  En **Especificar perímetro externo**, desactive la casilla **Este grupo de servidores perimetrales se usa para federación y conectividad de mensajería instantánea pública**. Se quitará la asociación de federación con BackCompatSite.
     
 
     > [!IMPORTANT]  
-    > This step is important. You must clear this option to remove the legacy federation association.
+    > Este paso es importante. Debe desactivar esta opción para quitar la asociación de federación heredada.
 
 
 
@@ -123,7 +123,7 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
 
 1.  En el servidor de Office Communications Server 2007 R2 Standard Edition o el servidor front-end, abra la herramienta administrativa de Office Communications Server 2007 R2.
 
-2.  In the left pane, expand the top node, and then right-click the **Forest** node. Select **Properties**, and then click **Global Properties**.
+2.  En el panel izquierdo, expanda el nodo en primera posición y, a continuación, haga clic con el botón secundario en el nodo **Bosque**. Seleccione **Propiedades** y haga clic en **Propiedades globales**.
 
 3.  Haga clic en la pestaña **Federación**.
 
@@ -217,7 +217,7 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
     
 
     > [!NOTE]  
-    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TTL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge server, federation and remote access will be updated quickly.
+    > Si no tiene un equilibrador de cargas del hardware, tendrá que actualizar el registro A de DNS para que la federación resuelva el nuevo servidor perimetral de acceso Lync Server. Para realizar esta tarea con las mínimas molestias, reduzca el valor TTL del FQDN del servidor perimetral de acceso a Lync Server externo, de modo que cuando se actualice el DNS para apuntar al nuevo servidor perimetral de acceso a Lync Server, la federación y el acceso remoto se actualicen rápidamente.
 
 
 

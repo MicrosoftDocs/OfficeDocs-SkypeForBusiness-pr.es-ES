@@ -32,7 +32,7 @@ En general, la libreta de direcciones se migra junto con el resto de la topolog�
 Si ha personalizado las reglas de normalización de la libreta de direcciones en el entorno heredado, deberá migrar las reglas personalizadas al grupo piloto. Si no ha personalizado las reglas de normalización de la Libreta de direcciones, no tendrá nada que migrar al servicio de la Libreta de direcciones. Las reglas de normalización predeterminadas de Skype empresarial Server 2019 son las mismas que las reglas predeterminadas para la instalación heredada. Siga el procedimiento que se describe más adelante en esta sección para migrar reglas de normalización personalizadas.
 
 > [!NOTE]
-> If your organization uses remote call control and you customized Address Book normalization rules, you must perform the procedure in this topic before you can use remote call control. The procedure requires membership in the RTCUniversalServerAdmins group or equivalent rights. 
+> Si su organización usa el control remoto de llamadas y personalizó las reglas de normalización de la libreta de direcciones, deberá llevar a cabo el procedimiento que se describe en este tema para poder usar el control remoto de llamadas. El procedimiento requiere pertenecer al grupo RTCUniversalServerAdmins o contar con derechos equivalentes. 
 
  **Definición de UseNormalizationRules en False**
 
@@ -49,7 +49,7 @@ Si establece el valor de **UseNormalizationRules** en false para que los usuario
 
 3. Ciertos tipos de entradas no funcionarán correctamente en Skype empresarial Server 2019. Busque en el archivo los tipos de entradas que se describen en este paso, modifíquelos como sea necesario y guarde los cambios en la carpeta compartida de la libreta de direcciones de su grupo piloto.
 
-    Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:
+    Las cadenas que contienen puntuación o espacios en blanco necesarios provocan errores en las reglas de normalización, ya que estos caracteres se quitan de la cadena que se incluye en las reglas de normalización. Si tiene cadenas que incluyen puntuación o espacios en blanco necesarios, deberá modificarlas. Por ejemplo, la siguiente cadena generará un error en la regla de normalización:
 
    ```console
    \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d

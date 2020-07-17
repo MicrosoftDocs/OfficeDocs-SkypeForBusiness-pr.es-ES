@@ -27,7 +27,7 @@ ms.locfileid: "45085236"
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Solucionar problemas de conectividad con el cliente de Microsoft Teams
 ==============================================================
 
-Most issues discovered with the Microsoft Teams client can be traced back to firewall or proxy connectivity. Verifying that the necessary URLs, IP addresses and ports are opened in your firewall or proxy will minimize unnecessary troubleshooting. For specific information on URLs and IPs required for Microsoft Teams, please see the [Microsoft 365 and Office 365 URLs and IP Address](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) support article. The following scenarios require specific URLs and ports to be opened in the firewall.
+Es posible que la mayoría de los problemas detectados con el cliente de Microsoft Teams vuelvan a la conectividad de proxy o firewall. Comprobando que las direcciones URL, direcciones IP y puertos necesarios se abren en el firewall o proxy minimizará la solución de problemas. Para obtener información específica sobre las direcciones URL e IPs necesarias para Microsoft Teams, consulte el artículo de las direcciones URL y de soporte técnico de [microsoft 365 y Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) . Los siguientes escenarios requieren que se abran direcciones URL y puertos específicos en el firewall.
 
 -   Autenticación
 

@@ -42,7 +42,7 @@ Para configurar un operador automático para el sistema telefónico, vaya a [con
 Un operador automático de la nube tiene las siguientes características:
   
 - Puede transmitir saludos corporativos o informativos.
-- It can provide custom corporate menus. You can customize these menus to have more than one level.
+- Puede proporcionar menús corporativos personalizados. Estos menús se pueden personalizar para que tengan más de un nivel.
 - Proporciona búsqueda en directorios que permite a las personas que llaman para buscar un nombre en el directorio de la organización.
 - Permite que alguien que llama para llegar a un mensaje o abandonarlo para una persona de su organización.
 - Admite varios idiomas para avisos, texto a voz y reconocimiento de voz.

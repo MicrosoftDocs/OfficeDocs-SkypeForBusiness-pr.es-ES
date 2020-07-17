@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.
+description: Uno de los procedimientos recomendados más generalizado para las migraciones consiste en crear varias cuentas de usuario de prueba y usarlas para llevar a cabo pruebas del sistema. Después de mover correctamente y probar esas cuentas, se ha de identificar un grupo piloto de usuarios de producción, mover sus cuentas y realizar pruebas de validación. Si los resultados son satisfactorios, se podrá mover el resto de los usuarios a la nueva implementación.
 ms.openlocfilehash: 98b9395da8341dab99b48d4f97da7332b8ed8102
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "44753282"
 ---
 # <a name="user-migration"></a>Migración de usuario
 
-A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.
+Uno de los procedimientos recomendados más generalizado para las migraciones consiste en crear varias cuentas de usuario de prueba y usarlas para llevar a cabo pruebas del sistema. Después de mover correctamente y probar esas cuentas, se ha de identificar un grupo piloto de usuarios de producción, mover sus cuentas y realizar pruebas de validación. Si los resultados son satisfactorios, se podrá mover el resto de los usuarios a la nueva implementación.
   
 Para obtener más información sobre cómo habilitar usuarios para Skype empresarial Server 2019, consulte la documentación de implementación de Skype empresarial Server 2019. 
   

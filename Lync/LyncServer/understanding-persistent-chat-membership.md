@@ -69,9 +69,9 @@ Una categoría especifica todos los usuarios y grupos que pueden ser miembros de
 
 Definir **AllowedMembers** y **Creators** para una categoría tiene las siguientes ventajas:
 
-  - All chat rooms in this category are bound by the restrictions set at the category level. You can use this to segregate chat rooms based on business need and access policies.
+  - Todos los salones de chat de esta categoría se rigen por las restricciones establecidas en el nivel de la categoría. Puede usarlo para segregar salones de chat en función de las necesidades empresariales y las directivas de acceso.
 
-  - A user who is in the **Creators** list can create new chat rooms in that category. If you want to implement a system where a restricted number of personnel in the organization can create chat rooms, this control can be used to meet that requirement.
+  - Un usuario de la lista **Creators** puede crear nuevos salones de chat en esa categoría. Si quiere implementar un sistema en el que un número restringido de personal de la organización pueda crear salones de chat, se puede usar este control para cumplir ese requisito.
 
 </div>
 
@@ -81,7 +81,7 @@ Definir **AllowedMembers** y **Creators** para una categoría tiene las siguient
 
 El **miembros permitidos** de una categoría debe incluir todos los usuarios que usarán cualquier salón de chat persistente en esta categoría. En función de sus requisitos para proteger los datos empresariales y garantizar un nivel de acceso adecuado, quizás quiera definir una o varias categorías para especificar quién puede buscar salones y participar en ellos. Si quiere permitir que solo un conjunto determinado de usuarios (departamento de soporte técnico central o solo empleados a tiempo completo) pueda crear salones, puede definir el ámbito de la lista **Creators** de una categoría para satisfacer ese requisito.
 
-Categories can also be used to create ethical walls. Ethical walls prevent any conflict of interest in an organization. For example, an administrator can create chat rooms in a category for traders only, whereas chat rooms in another category can be used by analysts only.
+Las categorías también se pueden usar para crear zonas de protección. Las zonas de protección evitan conflictos de intereses en una organización. Por ejemplo, un administrador puede crear salones de chat en una categoría solo para comerciales, mientras que los salones de chat de otra categoría son solo para analistas.
 
 <div>
 

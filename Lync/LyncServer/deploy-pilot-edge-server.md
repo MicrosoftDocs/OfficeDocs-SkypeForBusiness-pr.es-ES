@@ -39,7 +39,7 @@ _**Última modificación del tema:** 2012-10-19_
 
 En este tema se destacan las opciones de configuración que debe tener en cuenta antes de implementar el servidor perimetral de Lync Server 2013. Los procesos de implementación y configuración de Lync Server 2013 son muy similares a los de Lync Server 2010. En esta sección solo se detallan los aspectos clave que hay que considerar al implementar el grupo piloto. Para conocer los pasos detallados, consulte [Deploying external User Access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) en la documentación sobre implementación, que describe el proceso de implementación y también proporciona información de configuración para el acceso de usuarios externos.
 
-As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown.
+Al navegar por el asistente **Definir nuevo grupo de servidores perimetrales**, repase las principales opciones de configuración recogidas en cada paso. Observe que solo se muestran unas cuantas páginas de**** este asistente.
 
 **Definir un grupo de servidores perimetrales**
 

@@ -69,7 +69,7 @@ Cada aplicación de sucursal con funciones de supervivencia (SBA) está asociada
 
 7.  Haga clic en **Siguiente** y, a continuación, siga uno de estos procedimientos:
     
-    1.  If you are using a Lync 2010 Survivable Branch Appliance or Server at this site, be sure to uncheck the **Open the New Survivable Wizard when this wizard closes** option. Click **Finish**.
+    1.  Si utiliza una aplicación o un servidor de sucursal con funciones de supervivencia de Lync 2010 en este sitio, no olvide desactivar la opción **Abrir el Asistente con nuevas funciones de supervivencia cuando se cierre el asistente**. Haga clic en **Finalizar**.
 
 8.  Para asociar el SBA heredado de Lync Server 2010 al grupo de servidores front-end de Lync Server 2013:
     

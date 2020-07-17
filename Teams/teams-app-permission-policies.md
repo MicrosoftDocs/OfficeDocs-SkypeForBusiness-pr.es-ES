@@ -24,6 +24,7 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
 ms.openlocfilehash: 15698c7eeb12187ccc510a42b9a6e2120a7907cc
 ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/06/2020
 ms.locfileid: "45043001"
