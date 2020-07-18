@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y de escritorio están certificados para Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: 4dc1438261271b57796b0907def79a4affdc167b
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: a4789f23f79b48001bd2c411eeefe592267c4c24
+ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021738"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45166758"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Teléfonos IP certificados para Microsoft Teams
 
@@ -53,8 +53,8 @@ Los siguientes teléfonos están certificados para Microsoft Teams:
 | Vista ThinkSmart de Lenovo                 | CD-18781Y. 200410.067                                                                                                                                                                                                                       | 2020 de abril                   |
 | C60 de un trío de poli                          | 5.9.3.6155                                                                                                                                                                                                                                 | 2020 de abril                   |
 | CCX400 de poli                            | 1.0.0.0200                                                                                                                                                                                                                                 | 2020 de enero                 |
-| CCX600 de poli                            | 5.9.12.1111                                                                                                                                                                                                                                | 2020 de enero                 |
-| CCX500 de poli                            | 5.9.12.1111                                                                                                                                                                                                                                | 2019 de diciembre                |
+| CCX600 de poli                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020 de enero                 |
+| CCX500 de poli                            | 5.9.12.1122                                                                                                                                                                                                                                | 2019 de diciembre                |
 | Poli trío 8500/8800 (solo en modo compartido) | 5.9.0.10869                                                                                                                                                                                                                                | 2019 de junio                    |
 | Yealink MP56                           | 122.15.0.6                                                                                                                                                                                                                                 | 2020 de marzo                   |
 | Yealink VP59                           | 91.15.0.16                                                                                                                                                                                                                                 | 2019 de junio                    |
@@ -91,6 +91,7 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo        | Versión de firmware     | Versión de producto incluida |
 |:--------------------|:---------------------|:-------------------------|
+| C448HD de AudioCodes   | C450HD_TEAMS_1.4.208 | #4 de actualización                |
 | C450HD de AudioCodes   | C450HD_TEAMS_1.4.208 | #4 de actualización                |
 | CCX400 de poli         | 1.0.1.0054           | #3 de actualización                |
 | Poli CCX500/CCX600  | 5.9.13.0306          | #3 de actualización                |
