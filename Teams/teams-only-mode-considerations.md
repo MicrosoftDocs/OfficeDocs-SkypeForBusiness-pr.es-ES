@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96ff2652a326e537f200c47495496dd81ea9fd4b
-ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
+ms.openlocfilehash: 01a4b593366018fa1eb153d96e1b42508d541f60
+ms.sourcegitcommit: 705ccc9a76e08fd3bae2b51d8853f84d3b325a3b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854102"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "45185825"
 ---
 # <a name="teams-only-mode-considerations"></a>Consideraciones del modo Teams solo
 
@@ -43,7 +43,7 @@ Aunque miles de clientes se han actualizado correctamente a Microsoft Teams, hay
 **Consideraciones de coexistencia**: las organizaciones que ya usan Skype empresarial online o Skype empresarial Server pueden introducir equipos en su entorno a un ritmo que satisfaga sus necesidades. Las organizaciones pueden implementar de manera incremental Teams para un conjunto de usuarios deseado según sea necesario, y los usuarios que usen Teams podrán comunicarse con los usuarios que usen Skype empresarial y viceversa. Para administrar esta experiencia, los administradores usan modos de coexistencia, que definen la experiencia del cliente del usuario final, el comportamiento de enrutamiento de las conversaciones entrantes y las llamadas, así como si se programan nuevas reuniones en Teams o Skype empresarial. Los usuarios pueden federarse a usuarios de otras organizaciones si el usuario solo se actualiza a **Teams**; sin embargo, la mejor experiencia se proporciona cuando ambos usuarios usan Teams. Los usuarios que se actualizan a teams solo pueden unirse a reuniones de Skype empresarial. 
 
 > [!IMPORTANT]
-> Para obtener información más detallada sobre la coexistencia, consulte [comprender Microsoft Teams y la interoperabilidad y la interoperabilidad de Skype empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md). 
+> Para obtener información más detallada acerca de la coexistencia, consulte [comprender Microsoft Teams y la coexistencia e interoperabilidad de Skype empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md). Para obtener más información acerca de Teams y Skype (consumidor), vea [Teams and Skype Interoperability](teams-skype-interop.md).
 
 **Consideraciones para todo el inquilino**: estamos trabajando en la habilitación de equipos en los siguientes entornos; sin embargo, por ahora, los administradores no deberían actualizar los usuarios de su organización si su inquilino de Skype empresarial está hospedado en uno de los siguientes entornos:
 
