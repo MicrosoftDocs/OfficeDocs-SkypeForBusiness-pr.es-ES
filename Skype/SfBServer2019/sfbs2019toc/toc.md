@@ -1,4 +1,4 @@
-# [Skype Empresarial Server 2019](../skype-for-business-server-2019.md)
+# [Skype Empresarial Server 2019](../skype-for-business-server-2019.yml)
 
 ## [Novedades](../whats-new.md)
 ## [¿Qué está obsoleto?](../deprecated.md)
