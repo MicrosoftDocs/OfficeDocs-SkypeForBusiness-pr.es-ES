@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el informe de uso de RTC de T
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a6836e6f29cce1d55ff755cd1fa8ac5b18dea06
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 18fce1d70308fcdc58441bb1a5cad8a446131e0e
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918578"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201204"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Informe de uso de RTC de Microsoft Teams
 
@@ -30,16 +30,19 @@ El informe de uso de RTC de Teams en el centro de administración de Microsoft T
 
 La pestaña **planes de llamada** muestra la información que incluye el número de minutos que los usuarios han invertido en llamadas RTC entrantes y salientes, así como el costo de estas llamadas. La pestaña **enrutamiento directo** muestra información que incluye la dirección SIP y las horas de inicio y finalización de la llamada. Use la información de este informe para obtener información sobre el uso de RTC en su organización y ayudarle a investigar, planear y tomar decisiones empresariales.
 
+> [!NOTE]
+> Si tiene un plan de llamadas de Telstra o Softbank, no verá ningún registro de detalles de llamadas en el informe de uso de RTC. Comuníquese con Telstra o Softbank para informar de tus necesidades de informes. 
+
 ## <a name="view-the-pstn-usage-report"></a>Ver el informe de uso de RTC
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en > **informes de uso**de **informes &**. En la pestaña **ver informes** , en **Informe**, seleccione **Informe de uso de RTC**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en informes de uso de **informes &**  >  **Usage reports**. En la pestaña **ver informes** , en **Informe**, seleccione **Informe de uso de RTC**.
 2. En **intervalo de fechas**, seleccione un rango predefinido de 7 o 28 días, o establezca un rango personalizado y, a continuación, seleccione **Ejecutar Informe**.
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 
 ### <a name="calling-plans"></a>Planes de llamadas
 
-![Captura de pantalla del informe de informe de uso de RTC de planes de llamada en el centro de administración](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Captura de pantalla del informe de uso de RTC en el centro de administración de Microsoft Teams con llamadas numeradas")
+[![Captura de pantalla del informe de informe de uso de RTC de planes de llamada en el centro de administración](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Captura de pantalla del informe de uso de RTC en el centro de administración de Microsoft Teams con llamadas numeradas")](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
 
 |Globo |Descripción  |
 |--------|-------------|
@@ -54,7 +57,7 @@ La pestaña **planes de llamada** muestra la información que incluye el número
 
 ### <a name="direct-routing"></a>Enrutamiento directo
 
-![Captura de pantalla del informe de uso del informe de uso de RTC de enrutamiento directo en el centro de administración](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Captura de pantalla del informe de uso de RTC de enrutamiento directo en el centro de administración de Microsoft Teams con llamadas numeradas")
+[![Captura de pantalla del informe de uso del informe de uso de RTC de enrutamiento directo en el centro de administración](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Captura de pantalla del informe de uso de RTC de enrutamiento directo en el centro de administración de Microsoft Teams con llamadas numeradas")](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
 
 |Globo |Descripción  |
 |--------|-------------|
@@ -90,11 +93,11 @@ Haga clic en **exportar a Excel**y, a continuación, en la pestaña **descargas*
 
 De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Los archivos exportados contienen campos adicionales que no están disponibles en el informe en línea. Se pueden usar para la solución de problemas y los flujos de trabajo automatizados.
 
- Recibirá un archivo zip denominado "**calls. Export.`[identifier]`. zip**", donde el identificador es un identificador único para la exportación que se puede usar para la solución de problemas.
+ Recibirá un archivo zip denominado "**calls. Export. `[identifier]` . zip**", donde el identificador es un identificador único para la exportación que se puede usar para la solución de problemas.
 
-Si tiene tanto planes de llamadas como enrutamiento directo, el archivo exportado puede contener datos para ambos productos. El archivo de informe de uso de RTC tendrá el nombre de archivo "**RTC. calls`[UTC date]`.. CSV**"y enrutamiento directo"**DirectRouting. calls`[UTC date]`.. CSV**".
+Si tiene tanto planes de llamadas como enrutamiento directo, el archivo exportado puede contener datos para ambos productos. El archivo de informe de uso de RTC tendrá el nombre de archivo "**RTC. calls. `[UTC date]` . CSV**"y enrutamiento directo"**DirectRouting. calls `[UTC date]` .. CSV**".
 
- Además de los archivos RTC y de enrutamiento directo, el archivo contiene "**Parameters. JSON**", con el intervalo de tiempo de exportación y las capacidades que seleccione.
+ Además de los archivos RTC y de enrutamiento directo, el archivo contiene el archivo "**parameters.jsactivado**", con el intervalo de tiempo y capacidades de exportación seleccionados.
 
 Los archivos exportados están en formato de valores separados por comas (CSV), compatibles con el estándar [RFC 4180](https://tools.ietf.org/html/rfc4180) . Los archivos se pueden abrir en Excel o en cualquier otro editor conforme a los estándares sin necesidad de ninguna transformación.
 

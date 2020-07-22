@@ -16,12 +16,12 @@ description: En este artículo, se explica qué son las barreras de información
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc9bbd3f3ff190eee3aa0b44ba68dfd8eb9aab6a
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 29a9ac9d80e4c729dc6c040c1a7ec7fdc5eaa7d7
+ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121710"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45202916"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de la información en Microsoft Teams
 
@@ -31,7 +31,7 @@ Las barreras de información (IB) son directivas que un administrador puede conf
 > - Los grupos de barrera de información no se pueden crear en todos los inquilinos.
 > - En la versión 1, no se admite el uso de bots para agregar usuarios.
 > - Los canales privados son compatibles con las directivas de la barrera de información que se configuran.
-> - Nuevo: la compatibilidad con la barrera de información para el sitio de SharePoint conectado a teams ahora está en vista previa privada. Haz clic [aquí](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) para participar en la versión preliminar privada.
+> - Nuevo: para obtener información sobre la compatibilidad con barreras para el sitio de SharePoint conectado a Teams, haga clic [aquí](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
 
 Las directivas de barrera de información también evitan búsquedas y descubrimiento. Esto significa que si intentas comunicarte con alguien con quien no deberías comunicarte, no encontrarás ese usuario en el selector de personas.
 
@@ -171,6 +171,8 @@ Cuando se crea un equipo, se aprovisiona un sitio de SharePoint y se asocia al e
 
 Por ejemplo: en Contoso Bank Corporation, el usuario ' Sesha@contosobank.onmicrosoft.com ' pertenece a un segmento de banca de inversiones y el usuario ' Nikita@contosobank.onmicrosoft.com ' pertenece a un asesoramiento de segmentos. La Directiva IB de la organización bloquea la comunicación y la colaboración entre estos dos segmentos.
 Cuando la Sesha de usuario crea un equipo para el segmento de banca de inversiones, el equipo y el sitio de SharePoint que los respalda solo serán accesibles para los usuarios del segmento de banca de inversión. Los usuarios no pueden acceder a ese sitio, incluso si tiene el vínculo a Nikita.
+
+Haz clic [aquí](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) para obtener más información.
 
 ## <a name="required-licenses-and-permissions"></a>Licencias y permisos necesarios
 

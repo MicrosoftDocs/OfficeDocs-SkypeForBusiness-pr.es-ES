@@ -16,15 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e233664f2110b342e0a81ccf64d66c32ea3d7648
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 8720c4a7f228283e15fb5d7568f74f0153f2069f
+ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523311"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45202943"
 ---
 # 
 
 [!INCLUDE [prepare-network](prepare-network.md)]
 
-<!-- This file is a short-term fix to a problem with 404s in Advisor for Teams. We will delete this file and redirect correctly once the code change is made in Advisor for Teams -->
+
+
+<!-- This file needs to remain in the repo as a workaround for a product dependency. Ignore the redirection warning. For details, contact lolaj. -->
+

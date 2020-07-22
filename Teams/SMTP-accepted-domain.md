@@ -16,12 +16,12 @@ f1.keywords:
 description: Aprenda a agregar el dominio SMTP de Microsoft Teams como dominio de remitentes permitido en Exchange Online para enviar notificaciones a los miembros del equipo.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b66b58cb14c5205b0ba4a6ff7e95102dc1584579
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c60620a10bc5bb0cff37547313731ba214944ffc
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689866"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201144"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Agregar el dominio SMTP de Microsoft Teams como un dominio de remitente permitido en Exchange Online 
 =============================================================================
@@ -30,7 +30,7 @@ Si crea un grupo de Microsoft 365 en la consola de administración o mediante Ou
 
 ![Captura de pantalla de un encabezado de mensaje que muestra un usuario agregado a un grupo.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image1.jpg)
 
-Teams usa Microsoft Exchange Online para enviar notificaciones a los miembros del equipo cuando se hayan agregado. La diferencia es que el FQDN de dominio del mensaje SMTP es "@email. teams.microsoft.com" para los inquilinos comerciales/empresariales y "@GCC-email.teams.com" para inquilinos de administración pública y podría ser detectado por el filtrado de correo no deseado.
+Teams usa Microsoft Exchange Online para enviar notificaciones a los miembros del equipo cuando se hayan agregado. La diferencia es que el FQDN de dominio del mensaje SMTP es "@email. teams.microsoft.com" para los inquilinos comerciales/empresariales y "@GCC-email.teams.microsoft.com" para inquilinos de administración pública y podría ser detectado por el filtrado de correo no deseado.
 
 ![Captura de pantalla de un encabezado de mensaje que muestra un usuario agregado a un grupo.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image2.jpg)
 

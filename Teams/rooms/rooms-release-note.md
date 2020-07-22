@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede leer las notas de la versión de las salas de Microsoft Teams, que enumeran las mejoras acumulativas de las salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68101e5787db85e0b3136e292a332fd9c1a62ecf
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: cd072f87371dacd45d92d92307ffe79567831201
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021878"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201184"
 ---
 # <a name="release-notes"></a>Notas de la versión
 
@@ -29,6 +29,7 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 
 |Prensa |Publicado en <br/> Microsoft Store |
 |--- |--- |
+|4.5.33.0 |07/20/2020 |
 |4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
@@ -64,6 +65,17 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introducción a la característica salas de Microsoft Teams y problemas
+
+### <a name="45330-07202020"></a>4.5.33.0 (07/20/2020)
+Introdujo en esta actualización:
+- Unirse a reuniones de Cisco WebEx desde salas de equipos con Unión directa de invitados
+- Activación del centro de administración de Teams y inscripción automática
+- Soporte técnico de versiones de Windows 10 1909
+- Cambiar al diseño de la galería de vídeos incluso cuando el contenido está presente
+- Asistencia virtual manos libres para el asistente y los controles para el moderador
+- Configuración de volumen predeterminado ajustable para Conferencia y altavoz predeterminado
+- Buscar y llamar a usuarios federados (inquilino) desde sala de equipos
+    
 
 ### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
 

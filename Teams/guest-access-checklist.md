@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 583fdf2ba821437d1877036ddafe5cce0a460269
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: ee7fd8e7fc85e345df3e29de99e16292c6ef7e1f
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637299"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201054"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Lista de control de acceso de invitados de Microsoft Teams
 =========================================
@@ -78,7 +78,7 @@ Estos son los ajustes de Azure AD que permiten el acceso de invitados en Teams. 
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>Paso 3: configurar grupos de Microsoft 365
 
-1. En el centro de administración de Microsoft 365, **vaya a configuración**  >  **configuración**, haga clic en **servicios**y, a continuación, seleccione **grupos de Microsoft 365**.
+1. En el centro de administración de Microsoft 365, vaya a **configuración**de la  >  **organización**configuración de la organización, haga clic en **servicios**y, a continuación, seleccione **grupos de Microsoft 365**.
 
      ![Captura de pantalla que muestra la configuración de grupos de Microsoft 365](media/guest-access-checklist-services-settings.png)
 2. Asegúrese de que la casilla de verificación **Dejar que los miembros del grupo fuera de la organización accedan al contenido del grupo** esté seleccionada. Si no se selecciona esta opción, los invitados no podrán acceder a ningún contenido del grupo.
@@ -92,7 +92,7 @@ Para obtener instrucciones detalladas sobre cómo configurar estas opciones, vea
 
 Asegúrate de que los usuarios puedan añadir invitados. A continuación se describe cómo:
 
-1. En el Centro de administración de Microsoft 365, diríjase a **Configuraciones** > **Configuraciones**, haga clic en**Seguridad y privacidad**, y luego seleccione **Compartir**.
+1. En el centro de administración de Microsoft 365, vaya a **configuración de**  >  **configuración**de la organización, haga clic en **seguridad & privacidad**y, después, seleccione **compartir**.
 
      ![La captura de pantalla muestra un ejemplo de configuración de servicios](media/guest-access-checklist-security-privacy-settings.png)
  

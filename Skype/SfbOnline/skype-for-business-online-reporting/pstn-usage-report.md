@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: El nuevo área informes del centro de administración de Skype empresarial muestra la actividad de llamadas y audioconferencias en su organización. Le permite profundizar en los informes para proporcionarle información más detallada sobre las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver los detalles de uso de RTC de conferencias de audio, incluido el costo de la llamada, para que pueda comprender su uso y los detalles de facturación para determinar el uso dentro de su organización.
-ms.openlocfilehash: e298bc79b821a8ec8373186a879b94790bc9d151
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 09d372f6526d14a65e878271a1b277fc19d7d3e4
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918518"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201174"
 ---
 # <a name="pstn-usage-report"></a>Informe de uso de RTC
 
@@ -41,7 +41,7 @@ Este informe, junto con los otros informes de Skype empresarial, ofrece detalles
 
 ![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
 
-- Vaya al centro de administración > **centros** > de administración > **centro de administración de Skype empresarial****informa** > de los**detalles de uso de RTC**.
+- Vaya al centro de administración > **centros**de administración  >  **centro de administración de Skype empresarial**  >  **informa**de los  >  **detalles de uso de RTC**.
     
     > [!NOTE]
     > Según la suscripción de Microsoft 365 u Office 365 que tenga, es posible que no vea todos los productos e informes que se muestran aquí.
@@ -52,7 +52,7 @@ Puede analizar el uso de RTC de Skype Empresarial de sus usuarios consultando ca
   
 Este es el aspecto del informe.
   
-![Informe de uso de RTC de Skype Empresarial](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)
+[![Informe ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png) de uso de RTC de Skype empresarial](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
 
 ***
 ![Número 1](../images/sfbcallout1.png)<br/>La tabla muestra un desglose de todo el uso de RTC por usuario. Se muestran todos los usuarios que tienen Skype empresarial asignado y su uso de RTC. Puede agregar o quitar columnas en la tabla.
@@ -103,7 +103,7 @@ Este es el aspecto del informe.
 > También puede ver "sin datos" en algunos campos. "Sin datos" significa que el campo no es aplicable al tipo o la función de la llamada. 
 
 > [!NOTE]
-> Si tiene un plan de llamadas de Telstra, no verá ningún registro de detalles de llamadas en el informe de uso de RTC. Comunícate con Telstra para tus necesidades de informes. 
+> Si tiene un plan de llamadas de Telstra o Softbank, no verá ningún registro de detalles de llamadas en el informe de uso de RTC. Comuníquese con Telstra o Softbank para informar de tus necesidades de informes. 
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas.
  ***
@@ -114,9 +114,9 @@ Hacer clic o pulsar el botón **exportar a Excel** le permite descargar el infor
 
 De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis.
 
-El proceso de exportación puede tardar entre unos segundos y varios minutos en completarse, dependiendo de la cantidad de datos. Cuando el servidor complete la exportación, recibirá un archivo zip denominado "**calls. Export. [ ] `identifier`. zip**", donde el identificador es un identificador único para la exportación, que se puede usar para la solución de problemas.
+El proceso de exportación puede tardar entre unos segundos y varios minutos en completarse, dependiendo de la cantidad de datos. Cuando el servidor complete la exportación, recibirá un archivo zip denominado "**calls. Export. [ `identifier` ]. zip**", donde el identificador es un identificador único para la exportación, que se puede usar para la solución de problemas.
 
-Si tiene tanto planes de llamadas como enrutamiento directo, el archivo exportado puede contener datos para ambos productos. El archivo de informe de uso de RTC tendrá el nombre de archivo "**RTC. calls. [ ] `UTC date`. csv**". Además de los archivos RTC y de enrutamiento directo, el archivo contiene "**Parameters. JSON**", con el intervalo de tiempo de exportación seleccionado y las funcionalidades (si las hay).
+Si tiene tanto planes de llamadas como enrutamiento directo, el archivo exportado puede contener datos para ambos productos. El archivo de informe de uso de RTC tendrá el nombre de archivo "**RTC. calls. [ `UTC date` ]. CSV**". Además de los archivos RTC y de enrutamiento directo, el archivo contiene el archivo "**parameters.jsactivado**", con el intervalo de tiempo de exportación seleccionado y las capacidades (si las hay).
 
 Archivo exportado es un archivo de valores separados por comas (CSV), compatible con el estándar [RFC 4180](https://tools.ietf.org/html/rfc4180) . El archivo se puede abrir en Excel o en cualquier otro editor conforme a los estándares sin necesidad de ninguna transformación.
 
