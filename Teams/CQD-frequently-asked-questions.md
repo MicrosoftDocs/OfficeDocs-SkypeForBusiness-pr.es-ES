@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Lea las preguntas más frecuentes (FAQ) y las respuestas acerca del panel de calidad de llamadas de Microsoft Teams (CQD).
-ms.openlocfilehash: f33d66d9c8abb465c6680bacbbd2ff200cf930c6
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 43dd0f85c21914320ff48c2e0aab82614670ff90
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086176"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372129"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Panel de calidad de llamadas (el CQD) preguntas más frecuentes (FAQ)
 
@@ -35,8 +35,6 @@ ms.locfileid: "45086176"
 [¿Por qué el CQD marca una llamada como "buena" si uno o más participantes de la reunión tuvieran una experiencia deficiente?](#why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience)
 
 [¿Por qué veo una diferencia de 0,2% en los valores de llamadas y usuarios recuentos de las medidas y cómo obtener los volúmenes más precisos?](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
-
-[¿Por qué la apariencia de los datos del informe de CQD V2 es diferente de la de los datos del informe del CQD V3?](#why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data)
 
 [¿Por qué diferencia los datos del CQD de Skype empresarial de los datos del CQD de Teams?](#why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams)
 
@@ -73,66 +71,17 @@ La telemetría no reconocerá el problema, pero puede ayudarlo a comprender mejo
 ### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>¿Por qué veo una diferencia de 0,2% en los valores de llamadas y usuarios recuentos de las medidas y cómo obtener los volúmenes más precisos? 
 Para calcular el número de llamadas y las medidas de recuento de usuarios, se realiza una operación de resume distinta en la llamada o en los identificadores de usuario del conjunto de datos. En conjuntos de datos grandes, existe un error de hasta 0,2% inherente a la operación DISTINCT contar.Si. Para obtener el volumen más preciso, debe basarse en las medidas de recuento de flujo porque no dependen de esta operación diferenciada de contar.Si. El filtrado para reducir el volumen de datos puede reducir el error, pero no puede eliminar esta fuente de error en distintos números de llamadas y usuarios. Consulte las [dimensiones y medidas disponibles en el panel de calidad](dimensions-and-measures-available-in-call-quality-dashboard.md) de las llamadas para las que se ven afectadas las medidas.
 
-### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>¿Por qué la apariencia de los datos del informe de CQD V2 es diferente de la de los datos del informe del CQD V3? 
-
-Si ve diferencias de datos entre el CQD versión 2 y el V3, asegúrese de que la comparación o validación de datos se realiza en un nivel de "Apple to-manzanas" y en un nivel estrecho, no en un nivel agregado. Por ejemplo, si filtra los informes de MSIT ' crear 30 ' datos de cliente de escritorio de WiFi Teams, el porcentaje de mala calidad debe ser el mismo entre V2 y V3.
-
-La clasificación CQDv2 para llamada error solo se tiene en cuenta para el "audio" modal, en CQDv3 esta clasificación se produce para cada modalidad (audio, vídeo y uso compartido) y se representa en el flujo de moda respectivo. 
-
-Para Teams, CQDv2 aplica los mismos comentarios de los usuarios a todas las modalidades CQDv3 aplica la base de comentarios para la modalidad de los equipos.
-
-El CQD V3 incluye 
-1. Llamadas de 2019 de Skype empresarial Server, 
-2. Llamadas de Skype bot, como: operador automático, cola de llamadas, servicio de anuncio de conferencia, 
-3. Interfaz de escritorio virtual,
-4. Interoperabilidad de videoconferencias
-3. Llamadas de Publisher y moderador de eventos en vivo, y 
-4. Llamadas RTC. 
-
-Para obtener información sobre cómo usar estas plantillas de Power BI para analizar y notificar los datos del CQD, lea [usar Power BI para informes de CQD](cqd-power-bi-query-templates.md).
-
 
 ### <a name="why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams"></a>¿Por qué diferencia los datos del CQD de Skype empresarial de los datos del CQD de Teams? 
 
 
 > [!IMPORTANT]
-> A partir del 1 de julio de 2020, el CQD anterior accede a los datos desde el CQD más reciente. Los datos anteriores del CQD ya no están disponibles y no puede exportar los datos de compilación o de informe.
+> A partir del 1 de julio de 2020, el CQD (CQD.lync.com) más antiguo usa los datos del CQD más reciente (CQD. Teams.microsoft.com). Los datos anteriores del CQD ya no están disponibles y no puede exportar los datos de compilación o de informe. Aún puede usar CQD.lync.com (disponible en el centro de administración de Skype empresarial), pero en breve desactivaremos el acceso a CQD.lync.com, por lo que debe ir a CQD. Teams.microsoft.com si aún no lo has hecho.
 
 
 Si está intentando comparar datos entre el CQD anterior del portal heredado de Skype empresarial (cqd.lync.com) y el último CQD del centro de administración de equipos (cqd.teams.microsoft.com), podrá advertir rápidamente que los datos no coinciden. Esto se debe a que los últimos informes de CQD sobre muchos escenarios de llamadas adicionales. Si todavía está usando informes del CQD anterior, use este artículo para que le ayude a interpretar esos informes: [Panel de calidad de llamadas para Skype empresarial Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard).
 
 
-
-Este es un ejemplo de cómo se aplican filtros específicos para comparar los datos del CQD V2 y el CQD V3:
-
-1. Registro de calidad de la calidad disponible = verdadero
-
-2. Filtro agregar es un par de servidores con valor: cliente: cliente y cliente: servidor. La mayoría de los inquilinos prefieren excluir las llamadas de servidor: servidor.
-
-3. Agregar un filtro para la categoría de agente de usuario y filtrar el operador automático, cola de llamadas, Bot, sistema de salas, MediationServer, servicio de anuncio de conferencia, VDI, etc.
-
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard1.png" alt-text="Captura de pantalla de la aplicación de filtros específicos en el CQD V3":::
-
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard2.png" alt-text="Captura de pantalla de la aplicación de filtros específicos en el CQD versión 2":::
-
-#### <a name="other-expected-differences-between-cqd-v2-and-cqd-v3"></a>Otras diferencias previstas entre el CQD y el CQD V3
-
-Para obtener más información sobre las diferencias entre el CQD más antiguo y el más reciente, lea el blog sobre el [Panel de calidad de llamadas avanzada](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Introducing-the-Advanced-Call-Quality-Dashboard/ba-p/972586) , del 5 de noviembre de 2019.
-
-
-> [!IMPORTANT]
-> A partir del 1 de julio de 2020, el CQD anterior accede a los datos desde el CQD más reciente. Los datos anteriores del CQD ya no están disponibles y no puede exportar los datos de compilación o de informe.
-
-Probablemente verá más diferencias de datos entre los informes de CQD más antiguos y más recientes en el nivel sumado o en el resumen. Si compara los datos en un nivel más granular, obtendrá una comparación "entre manzanas". Por ejemplo, si está buscando los datos de un edificio individual, el porcentaje de calidad deficiente debe ser el mismo entre el antiguo y el nuevo informe de CQD.
-
-- Elija un escenario con un enfoque estrecho, como conexiones corporativas por cable, equipos de escritorio de Windows o una sola región o edificio.
-- Compruebe los intervalos de IP de los equipos MR, TR o MP. Los intervalos de equipos son más recientes que los de Skype empresarial online, y pueden provocar problemas de conectividad relacionados con los firewalls.
-- No compare los números de resumen o de nivel superior. Estas comparaciones le llevarán a comparar una gran cantidad de llamadas de Skype empresarial online en una conexión de cable corporativa con un pequeño volumen de llamadas de equipo en una red de LTE o privada.
-- Tenga cuidado con el sesgo de la ubicación y las diferencias de población: existen muchas comparaciones que son demasiado diferentes para ser útiles:
-  - NOAM: APAC
-  - NY: Goa
-  - Con cable: WiFi
-  - Red corporativa: red doméstica
   
 ### <a name="why-cant-i-see-euii-in-cqd"></a>¿Por qué no puedo ver EUII en el CQD?
 

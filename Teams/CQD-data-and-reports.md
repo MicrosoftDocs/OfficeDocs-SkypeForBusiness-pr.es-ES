@@ -22,20 +22,17 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga más información sobre los datos y los informes disponibles en el panel de calidad de llamadas de Microsoft (CQD).
-ms.openlocfilehash: 02acff8cd423901c8959e94af664ffe4d43c0e51
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 2801b8b2a35ae06c4bb42479bac64985b13ea93f
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086113"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372169"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Datos e informes en el panel de calidad de llamadas (CQD)
 
 El panel de calidad de llamadas de Microsoft (CQD) usa una fuente de datos casi en tiempo real (NRT). Los registros de llamadas están disponibles en el CQD en un plazo de 30 minutos a partir de la finalización de una llamada. Los registros de llamadas de la canalización de NRT solo están disponibles durante unos meses antes de que se eliminen del conjunto de datos. 
 
-
-> [!NOTE]
-> El CQD avanzado (nuevo en noviembre de 2019) combina los datos de la canalización del CQD anterior (que hizo registros de llamadas disponibles en aproximadamente 24 horas) con datos de NRT de la canalización de CQD avanzada. Las consultas de los portales anteriores y avanzados para los datos del período de archivado generan los mismos resultados. Las consultas en cualquiera de los portal para los datos de NRT y NRT los períodos de datos y EUII serán diferentes.
 
 ## <a name="many-ways-to-access-cqd-data"></a>Muchas formas de obtener acceso a datos CQD
 
@@ -46,7 +43,7 @@ Puede acceder a los datos de CQD con varias formas diferentes. Elige el que mejo
 |Centro de administración de Teams [( https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | Los datos del CQD se incluyen en la página **usuarios** del centro de administración de equipos, que muestra los datos más comunes que necesita en un formato fácil de leer. No se pueden personalizar los datos del CQD que se encuentran en **usuarios**.  |
 |Portal de [CQD https://cqd.teams.microsoft.com) (](https://cqd.teams.microsoft.com)     | Sólidos informes de Resumen y detallados que se ajustan a la mayoría de las necesidades, con filtrado detallado. También puede personalizar informes en el portal de CQD. <br><br>Obtenga dos [plantillas de informes de CQD](#import-the-cqd-report-templates) para ayudarle a analizar datos en el portal de CQD.       |
 |Power BI     | Use consultas directas para ver los datos del CQD en Power BI con [plantillas de Power BI personalizables](CQD-Power-BI-query-templates.md). [Descargue las plantillas de consulta de Power BI para el CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>También puede [usar la API de REST para obtener acceso a los datos de CQD](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/data-api) a través de Power BI. Use este método si desea descargar los datos del CQD para poder trabajar en él sin conexión. La ventaja de usar este método es un mejor rendimiento, especialmente útil para conjuntos de datos grandes que perjudican a Power BI cuando está conectado.       |
-|API Graph     | Accede a los datos de calidad de las llamadas usted mismo usando la [API Graph](https://docs.microsoft.com/graph/api/resources/callrecords-api-overview?view=graph-rest-beta). Este es el método más complejo, pero proporciona el mayor control y flexibilidad para analizar los datos de calidad de las llamadas. Por ejemplo, si necesita unirse a él con otros datos de su organización, puede usar la API Graph para crear un modelo de datos e incorporar datos de calidad de llamadas.        |
+|API de Graph     | Accede a los datos de calidad de las llamadas usted mismo usando la [API Graph](https://docs.microsoft.com/graph/api/resources/callrecords-api-overview?view=graph-rest-beta). Este es el método más complejo, pero proporciona el mayor control y flexibilidad para analizar los datos de calidad de las llamadas. Por ejemplo, si necesita unirse a él con otros datos de su organización, puede usar la API Graph para crear un modelo de datos e incorporar datos de calidad de llamadas.        |
 
 ## <a name="import-the-cqd-report-templates"></a>Importar plantillas de informes de CQD
 

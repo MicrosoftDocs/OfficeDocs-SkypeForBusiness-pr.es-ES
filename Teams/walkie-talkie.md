@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9369cf56a32142d6527fcb86271d8d0fa56718ec
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 4154a3ad30bf18de934f0fe5a23bbabc94fc76eb
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45043019"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229056"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicación talkie de walkie en Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-La aplicación de talkie de walkie de Teams ofrece una comunicación instantánea inmediata (PTT) para su equipo y pronto estará disponible en la versión preliminar pública de Android. Walkie talkie permite que los usuarios se conecten con su equipo usando los mismos canales subyacentes de los que son miembros. Solo los usuarios que se conectan a walkie talkie de un canal se convierten en participantes y pueden comunicarse entre sí usando Push para hablar, de uno en uno.
+La aplicación walkie talkie de Teams proporciona una comunicación instantánea (PTT) instantánea para su equipo y está disponible en la versión preliminar pública de Android. Walkie talkie permite que los usuarios se conecten con su equipo usando los mismos canales subyacentes de los que son miembros. Solo los usuarios que se conectan a walkie talkie de un canal se convierten en participantes y pueden comunicarse entre sí usando Push para hablar, de uno en uno.
 
 Con walkie talkie en Teams, los Firstline los trabajadores pueden comunicarse con seguridad con una experiencia de PTT que les resulte familiar sin necesidad de transportar radios de gran volumen y walkie talkie funciona en cualquier lugar con conectividad WiFi o de Internet de telefonía móvil.
 
@@ -73,9 +73,9 @@ El uso de datos esperado de walkie talkie está cerca de 20KB/s al enviar o reci
 
 Los trabajadores de los Firstline a menudo necesitan hablar y recibir llamadas de talkie walkie incluso cuando sus teléfonos están bloqueados. Esta experiencia es posible mediante dispositivos especializados con un botón de PTT dedicado.
 
-- Teléfonos existentes
-  - Auriculares con cable ([Klein Electronics](https://www.kleinelectronics.com/))
-  - Auriculares con micrófono inalámbricos ([Jabra BlueParrott](https://www.blueparrott.com/))
+- Auriculares con micrófono
+  - Auriculares con cable ([Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/))
+  - Auriculares con micrófono inalámbricos ([Jabra BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie))
 - Teléfonos resistentes
   - Samsung Galaxy XCover Pro
     - [Más información](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/).

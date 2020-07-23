@@ -16,16 +16,16 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Aprenda a usar el panel de estado para supervisar la conexión entre el controlador de borde de sesión y el enrutamiento directo.
-ms.openlocfilehash: 55ae433428a8bb6fd42d4166e5d756432463b4ed
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: a75510340815489921a5dd67a204b6914a9539d4
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940747"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229116"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Panel de estado para enrutamiento directo
 
-El panel de estado para el enrutamiento directo le permite supervisar la conexión entre el controlador de borde de sesión (SBC) y la interfaz de enrutamiento directo.  Con el panel de estado, puede supervisar información sobre su SBC, el servicio de telefonía y los parámetros de red entre su SBC y la interfaz de enrutamiento directo. Esta información puede ayudarte a identificar los problemas, incluido el motivo de las llamadas interrumpidas. Por ejemplo, es posible que el SBC deje de enviar llamadas si un certificado de SBC ha expirado o si hay problemas de red.  
+El panel de estado para el enrutamiento directo le permite supervisar la conexión entre el controlador de borde de sesión (SBC) y la interfaz de enrutamiento directo.  Con el panel de estado, puede supervisar información sobre su SBC, el servicio de telefonía y los parámetros de red entre su SBC y la interfaz de enrutamiento directo. Esta información puede ayudarte a identificar los problemas, incluido el motivo de las llamadas interrumpidas. Por ejemplo, es posible que el SBC deje de enviar llamadas si un certificado de SBC ha expirado o si hay problemas de red. Consulte los [roles de administrador](using-admin-roles.md) para saber quién tiene acceso al panel de estado.
 
 El panel de Estado supervisa dos niveles de información:
 
@@ -33,7 +33,6 @@ El panel de Estado supervisa dos niveles de información:
 - Información detallada sobre el SBCs conectado
 
 Puede ver el panel de estado en el centro de administración de Microsoft Teams y Skype empresarial.
-
 
 ## <a name="overall-health"></a>Estado general
 
@@ -47,18 +46,17 @@ El panel de estado proporciona la siguiente información relacionada con el esta
 
 - **Relación de efectividad de la red (NER)** : el ner mide la capacidad de una red de entregar llamadas midiendo el número de llamadas enviadas en comparación con el número de llamadas entregadas a un destinatario.  
 
-   El NER mide la capacidad de las redes para enviar llamadas al terminal de la parte final, excluidas las acciones del usuario, como resultado de rechazos de llamadas.  Si el destinatario rechazó una llamada o envió la llamada al buzón de voz, la llamada se cuenta como una entrega correcta. Esto significa que un mensaje de respuesta, una señal de ocupado o un timbre sin respuesta se consideran llamadas correctas. 
+   El NER mide la capacidad de las redes para enviar llamadas al terminal de la parte final, excluidas las acciones del usuario, como resultado de rechazos de llamadas.  Si el destinatario rechazó una llamada o envió la llamada al buzón de voz, la llamada se cuenta como una entrega correcta. Esto significa que un mensaje de respuesta, una señal de ocupado o un timbre sin respuesta se consideran llamadas correctas.
   
-   Por ejemplo, supongamos que el enrutamiento directo envió una llamada al SBC y el SBC devuelve el código SIP "504 el tiempo de espera del servidor: el servidor intentó acceder a otro servidor al intentar procesar la solicitud y no recibió una respuesta de mensaje". Esta respuesta indica que hay un problema en el lado de SBC y esto disminuirá el NER en el panel de estado para este SBC. 
+   Por ejemplo, supongamos que el enrutamiento directo envió una llamada al SBC y el SBC devuelve el código SIP "504 el tiempo de espera del servidor: el servidor intentó acceder a otro servidor al intentar procesar la solicitud y no recibió una respuesta de mensaje". Esta respuesta indica que hay un problema en el lado de SBC y esto disminuirá el NER en el panel de estado para este SBC.
   
-   Debido a que la acción que realices puede depender del número de llamadas afectadas, el panel de estado muestra cuántas llamadas se han analizado para calcular un parámetro. Si el número de llamadas es menor que 100, el NER podría ser muy bajo, pero sigue siendo normal. 
+   Debido a que la acción que realices puede depender del número de llamadas afectadas, el panel de estado muestra cuántas llamadas se han analizado para calcular un parámetro. Si el número de llamadas es menor que 100, el NER podría ser muy bajo, pero sigue siendo normal.
 
    La fórmula que se usa para calcular NER es la siguiente:
 
    NER = 100 x (llamadas respondidas + el usuario ocupado + timbre no responde + ataques de rechazo de terminal)/total
 
- 
-- **Duración media** de las llamadas: la información acerca de la duración media de las llamadas puede ayudarte a controlar la calidad de las llamadas. La duración media de una llamada RTC de 1:1 es de cuatro a cinco minutos.  Sin embargo, para cada empresa, este promedio puede diferir.  Microsoft recomienda establecer una línea base para la duración media de las llamadas de su empresa. Si este parámetro va muy por debajo de la línea base, puede indicar que los usuarios tienen problemas con la calidad de las llamadas o con la confiabilidad y están colgados antes de lo habitual. Si comienza a ver la duración media de las llamadas, por ejemplo, 15 segundos, es posible que las personas que llaman se cuelguen porque su servicio no funciona correctamente. 
+- **Duración media** de las llamadas: la información acerca de la duración media de las llamadas puede ayudarte a controlar la calidad de las llamadas. La duración media de una llamada RTC de 1:1 es de cuatro a cinco minutos.  Sin embargo, para cada empresa, este promedio puede diferir.  Microsoft recomienda establecer una línea base para la duración media de las llamadas de su empresa. Si este parámetro va muy por debajo de la línea base, puede indicar que los usuarios tienen problemas con la calidad de las llamadas o con la confiabilidad y están colgados antes de lo habitual. Si comienza a ver la duración media de las llamadas, por ejemplo, 15 segundos, es posible que las personas que llaman se cuelguen porque su servicio no funciona correctamente.
 
    Debido a que la acción que realices puede depender del número de llamadas afectadas, el panel de estado muestra cuántas llamadas se han analizado para calcular un parámetro.
 
@@ -76,17 +74,15 @@ El panel de estado proporciona la siguiente información relacionada con el esta
 
     - ADVERTENCIA: sin opciones de SIP, el controlador de borde de sesión existe en la base de datos (el administrador lo creó mediante el comando New-CsOnlinePSTNGateway). Está configurado para enviar opciones de SIP, pero el servicio de enrutamiento directo nunca vio las opciones de SIP que devolvió este SBC.
 
-    - ADVERTENCIA: los mensajes SIP no están configurados: la supervisión de Troncalización con las opciones de SIP no está activada. El sistema de llamadas de Microsoft usa las opciones SIP y la supervisión de protocolo de seguridad de la capa de transporte (TLS) para detectar el estado de los controladores de borde de la sesión conectada (SBCs) en el nivel de aplicación. Tendrá problemas si este tronco se puede alcanzar en el nivel de red (haciendo ping), pero el certificado ha expirado o la pila SIP no funciona. Microsoft recomienda habilitar el envío de las opciones del SIP para ayudarle a identificar esos problemas en un principio. Consulte la documentación de su fabricante de SBC para configurar el envío de opciones de SIP. 
+    - ADVERTENCIA: los mensajes SIP no están configurados: la supervisión de Troncalización con las opciones de SIP no está activada. El sistema de llamadas de Microsoft usa las opciones SIP y la supervisión de protocolo de seguridad de la capa de transporte (TLS) para detectar el estado de los controladores de borde de la sesión conectada (SBCs) en el nivel de aplicación. Tendrá problemas si este tronco se puede alcanzar en el nivel de red (haciendo ping), pero el certificado ha expirado o la pila SIP no funciona. Microsoft recomienda habilitar el envío de las opciones del SIP para ayudarle a identificar esos problemas en un principio. Consulte la documentación de su fabricante de SBC para configurar el envío de opciones de SIP.
 
 - **Capacidad de llamadas simultáneas** : puede especificar el límite de llamadas simultáneas que un SBC puede controlar mediante el comando New-or Set-CsOnlinePSTNGateway con el parámetro-MaxConcurrentSessions. Este parámetro calcula el número de llamadas que se han enviado o recibido mediante el enrutamiento directo con un SBC específico y la compara con el límite establecido. Nota: Si el SBC también controla las llamadas a diferentes sistemas PBX, este número no mostrará las llamadas simultáneas actuales.
-
 
 ## <a name="detailed-information-for-each-sbc"></a>Información detallada para cada SBC
 
 También puede ver la información detallada para un SBC específico, tal como se muestra en la siguiente captura de pantalla:
 
 ![Detalles de SBC del panel de estado](media/direct-routing-dashboard-SBC-detail1.png)
-
 
 La vista detallada muestra los siguientes parámetros adicionales:
 
@@ -113,7 +109,3 @@ La vista detallada muestra los siguientes parámetros adicionales:
    Puede deslizar los datos por número de días y dirección de llamada (entrante o saliente/todas las transmisiones).
 
 **Relación de eficacia de red** : este es el mismo parámetro que aparece en el panel de estado general, pero con la opción de segmentar los datos por serie de tiempo o dirección de llamada.
-
-
-
-

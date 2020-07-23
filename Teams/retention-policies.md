@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efa11a5ca91be13508ab518ab5be504743825b68
-ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
+ms.openlocfilehash: 01b042ee5eb604e59044022e3064f522039b4272
+ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45202963"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45247389"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Directivas de retención en Microsoft Teams
 
@@ -154,6 +154,24 @@ Para eliminar una directiva de retención de Teams, haga lo siguiente:
 1. En el panel izquierdo del Centro de seguridad y cumplimiento, vaya a **Control de la información** > **Retención**.
 2. En la lista de directivas de retención, seleccione la casilla de verificación junto a la directiva de retención que desea eliminar.
 3. Seleccione **Eliminar directiva**.
+
+### <a name="end-user-experience"></a>Experiencia de usuario final
+
+Para los chats privados (chats de 1:1) o chats grupales, los usuarios finales verán que se eliminan las conversaciones anteriores a la configuración de la Directiva de retención y se muestra un mensaje de control que indica "hemos eliminado mensajes anteriores debido a la Directiva de retención de su organización", en la parte superior de los mensajes no eliminados.
+:::image type="content" source="media/retention-policies-image1.png" alt-text="Captura de pantalla de la retención de chat":::
+
+
+:::image type="content" source="media/retention-policies-image2.png" alt-text="Captura de pantalla de la retención de conversaciones grupales":::
+
+Para los mensajes de canal, los usuarios finales (miembros del canal) verán que los mensajes eliminados desaparecen de la vista después de que los mensajes expiren. Si el mensaje eliminado era un mensaje principal de una conversación encadenada, se mostrará un mensaje que indicará que se ha eliminado este mensaje debido a una directiva de retención.
+
+:::image type="content" source="media/retention-policies-image3.png" alt-text="Captura de pantalla de canal antes de la retención":::
+
+:::image type="content" source="media/retention-policies-image4.png" alt-text="Captura de pantalla del canal después de la retención":::
+
+> [!NOTE]
+> La mensajería de usuario final no se pueden modificar en este momento.
+
 
 ### <a name="using-powershell"></a>Con PowerShell
 

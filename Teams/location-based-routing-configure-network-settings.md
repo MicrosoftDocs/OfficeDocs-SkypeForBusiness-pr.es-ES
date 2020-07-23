@@ -17,16 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f63ff0191518acf72fd3e4c33abe80b819c3db28
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8025467a0581c95a40551244948a8e6b7c0ecbc8
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141283"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372065"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Configuración de red de enrutamiento basado en la ubicación
-
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 Si aún no lo ha hecho, lea [planificar el enrutamiento basado en la ubicación para que el enrutamiento directo](location-based-routing-plan.md) Revise otros pasos que debe realizar antes de configurar la configuración de red para el enrutamiento basado en la ubicación.
 
@@ -54,7 +52,7 @@ Las direcciones IP de confianza son las direcciones IP externas de Internet de l
 
 Si la dirección IP externa del usuario coincide con una dirección IP de la lista de direcciones IP fiables, las comprobaciones de enrutamiento basadas en la ubicación determinan la subred interna en la que se encuentra el punto final del usuario. Si la dirección IP externa del usuario no coincide con ninguna dirección IP definida en la lista de direcciones IP fiables, el extremo se clasifica como si fuera de una ubicación desconocida y cualquier llamada RTC a o de un usuario que tenga habilitado el enrutamiento basado en la ubicación está bloqueada.
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
 Vaya a [Habilitar el enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md).
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo obtener nuevos números para los equipos, trasladarlos o transferirlos, y cómo mostrar los cambios a los usuarios. '
-ms.openlocfilehash: 45c0b87d8e208913b9be0d231a8e2ae2e0ebfd5a
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: ccc0baa1f4793967daa9520de1c9aaa9b56175ba
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691436"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372079"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtener números de teléfono de Skype Empresarial para los usuarios
 
@@ -34,7 +34,7 @@ ms.locfileid: "44691436"
 Hay tres formas de obtener números de usuarios:
 
 - **Use el centro de administración de Microsoft Teams.** En el caso de algunos países y regiones, puede obtener números para los usuarios mediante el centro de administración de Microsoft Teams. Consulte [obtener nuevos números de teléfono para los usuarios](#get-new-phone-numbers-for-your-users).
-    
+
 - **Portar los números existentes.** Puede trasladar o transferir números existentes de su proveedor de servicios u operador telefónico actual. Consulte [Transferir números de teléfono a Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) o [Administrar los números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization) para obtener más información que le ayude a hacer esto.  
   
 - **Usar un formulario de solicitud para números nuevos.** A veces, en función de su país o región, no podrá obtener números de teléfono nuevos usando el centro de administración de Microsoft Teams o necesitará números de teléfono o códigos de área específicos. Para obtener más información, vea [Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization).
@@ -46,14 +46,16 @@ Hay tres formas de obtener números de usuarios:
 
 ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
-1. Vaya al centro de administración de Microsoft Teams en <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> . 
+Para realizar estos cambios, debe ser administrador del servicio de Teams. Consulte [usar los roles de administrador de Teams para administrar los equipos](https://docs.microsoft.com/microsoftteams/using-admin-roles) para obtener información sobre cómo obtener roles y permisos de administrador.
+
+1. Vaya al centro de administración de Microsoft Teams.
 2. En el navegación de la izquierda, vaya a números de teléfono de **voz**  >  **Phone numbers**y, después, haga clic en **Agregar**.
 3. Escriba un nombre para el pedido y agregue una descripción.
 4. En la página ubicación y cantidad, haga lo siguiente:
     1. En **país o región**, seleccione un país o una región.
     2. En **tipo de número**, seleccione **usuario (suscriptor)**.
     3. En **Ubicación**, seleccione una ubicación. Si necesita crear una nueva ubicación, haga clic en **Agregar una ubicación**.
-    4. En **código de área**, seleccione un código de área. 
+    4. En **código de área**, seleccione un código de área.
     5. En **cantidad**, introduzca la cantidad de números que desea para su organización y, a continuación, haga clic en **siguiente** para seleccionar los números.
 5. Seleccione los números que desee. Tienes 10 minutos para seleccionar tus números de teléfono y realizar tu pedido. Si tardas más de 10 minutos, los números de teléfono se devolverán al conjunto de números.
 6. Cuando esté listo para realizar su pedido, haga clic en **realizar pedido**.
@@ -69,9 +71,9 @@ Hay tres formas de obtener números de usuarios:
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Ver los números de teléfono de su organización
 
-![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams** 
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
-En el centro de navegación izquierdo del <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administración</a>, vaya a números de teléfono de **voz**  >  **Phone numbers** para ver los números de la organización, incluida la ubicación, el tipo de número y la información de estado.
+En el centro de navegación izquierdo del centro de administración, vaya a números de teléfono de **voz**  >  **Phone numbers** para ver los números de la organización, incluida la ubicación, el tipo de número y la información de estado.
   
 ## <a name="assign-phone-numbers-to-users"></a>Asignar números de teléfono a los usuarios
 

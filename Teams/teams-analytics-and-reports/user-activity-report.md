@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el informe actividad de usuar
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9516c7ed39a56e09bb714f58e988dc46b41ec9e2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 19f1ef23e29805e53d819752e3f6313c4989d295
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903875"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372159"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Informe de actividad de usuario de Microsoft Teams
 
@@ -30,7 +30,9 @@ El informe actividad de usuarios de Teams le proporciona información sobre los 
 
 ## <a name="view-the-user-activity-report"></a>Ver el informe de actividad del usuario
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en > **informes de uso**de **informes &**. En la pestaña **ver informes** , en **Informe**, seleccione **actividad de usuario de Teams**.
+Para realizar estos cambios, debe ser administrador del servicio de Teams. Consulte [usar los roles de administrador de Teams para administrar los equipos](https://docs.microsoft.com/microsoftteams/using-admin-roles) para obtener información sobre cómo obtener roles y permisos de administrador.
+
+1. En el centro de navegación izquierdo del centro de administración, haga clic en **análisis &** informes de  >  **uso**de informes. En la pestaña **ver informes** , en **Informe**, seleccione **actividad de usuario de Teams**.
 2. En **Intervalo de fechas**, seleccione un rango y haga clic en **Ejecutar informe**.
 
     ![Captura de pantalla del informe actividad de usuarios de Teams en el centro de administración de Teams con llamadas](../media/teams-reports-user-activity-with-callouts.png "Captura de pantalla del informe actividad de usuarios de Teams en el centro de administración de Teams con llamadas")

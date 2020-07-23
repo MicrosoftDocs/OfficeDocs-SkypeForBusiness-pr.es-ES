@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f800b92a0663b5c4318022c00cbb9ba022f2e8c3
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 7ae1776cf57368ea0f18cb6b0e46e5a11dffe447
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085686"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45228906"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurar la administración para aplicaciones en Microsoft Teams
 ==========================================
@@ -34,7 +34,7 @@ ms.locfileid: "45085686"
 
 Las aplicaciones proporcionan herramientas para su organización para obtener más provecho de Teams. Estas aplicaciones combinan la funcionalidad de las pestañas, las extensiones de mensajería, los conectores y los bots proporcionados por Microsoft, creados por un tercero o por los programadores de su organización.
 
-Administre las aplicaciones de su organización en las **aplicaciones de Teams** en el [centro de administración](https://admin.teams.microsoft.com/). Por ejemplo, puede permitir o bloquear aplicaciones en el nivel de organización, configurar directivas para controlar qué aplicaciones están disponibles para los usuarios de Teams y personalizar Teams anclando las aplicaciones más importantes para los usuarios.
+Administre las aplicaciones de su organización en las **aplicaciones de Teams** en el centro de administración. (Consulte [usar los roles de administrador de Teams para administrar equipos](https://docs.microsoft.com/microsoftteams/using-admin-roles) para obtener información sobre cómo obtener roles y permisos de administrador). Por ejemplo, puede permitir o bloquear aplicaciones en el nivel de organización, configurar directivas para controlar qué aplicaciones están disponibles para los usuarios de Teams y personalizar Teams anclando las aplicaciones más importantes para los usuarios.
 
 Mejoramos continuamente la experiencia de la aplicación en Teams y agregamos características y funcionalidades. A lo largo del tiempo, crearemos otras funciones de administración de aplicaciones, así que vuelve a consultar la información más actualizada sobre las directivas de la aplicación.
 

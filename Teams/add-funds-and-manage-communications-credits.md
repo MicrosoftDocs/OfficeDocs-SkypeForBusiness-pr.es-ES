@@ -29,27 +29,27 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Obtenga información sobre cómo pagar crédito de comunicación (consumo RTC) para servicios de Skype empresarial y consulte planes para mantener a los usuarios con acceso continuo al sistema telefónico. '
-ms.openlocfilehash: ba3ca7b50b39915997096d28af3dc52e33455088
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: ad8122ba0b915c669ec991d1b522b853e7b85533
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610289"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229106"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar los créditos de comunicaciones
 
 Los créditos de comunicaciones son una forma cómoda de pagar el sistema telefónico y los planes de llamadas en Microsoft 365 u Office 365. Los créditos de comunicación le ayudan a asegurarse de que usted y sus usuarios nunca se capturan sin ser capaces de:
   
 - Llamar a reuniones de audioconferencia con números de teléfono de acceso telefónico gratuitos.
-    
+
 - Llamar desde una reunión de audioconferencia para agregar a otra persona desde cualquier lugar del mundo.
-    
+
 - Llame desde una reunión de audioconferencia a su teléfono móvil con la aplicación Skype empresarial o Microsoft Teams instalada.
-    
+
 - Marca cualquier número de teléfono internacional cuando tienes un **plan de llamadas nacionales**.
-    
+
 - Llama y paga por minuto una vez que hayas agotado tu cobertura mensual de minutos.
-    
+
 > [!NOTE]
 > Si se está preguntando cuánto es y las tarifas, consulte la tabla tarifas en la página de [planes de llamada](https://go.microsoft.com/fwlink/p/?LinkId=799523) .
   
@@ -62,31 +62,29 @@ Puede actualizar las opciones de pago en cualquier momento. En la página **susc
 Los fondos se aplicarán únicamente a los créditos de comunicación de las tarifas publicadas de Microsoft cuando se usen los servicios. Los fondos no utilizados dentro de los doce (12) meses de la fecha de compra vencerán y se perderán.
   
 > [!TIP]
-> Te enviaremos notificaciones por correo electrónico cuando los fondos se agreguen a través de la recarga automática, cuando la recarga automática falle (por ejemplo, cuando una tarjeta de crédito vence) y cuando tu saldo sea inferior a cero. 
+> Te enviaremos notificaciones por correo electrónico cuando los fondos se agreguen a través de la recarga automática, cuando la recarga automática falle (por ejemplo, cuando una tarjeta de crédito vence) y cuando tu saldo sea inferior a cero.
   
 Para obtener más información, vea [¿Qué son los créditos de comunicaciones?](what-are-communications-credits.md)
   
-## <a name="want-to-know-about-plans-and-pricing"></a>¿Desea obtener información acerca de los planes y los precios?
+## <a name="want-to-know-about-plans-and-pricing"></a>¿Quiere saber sobre los planes y los precios?
 
 Para ver los planes y los precios, visite uno de los siguientes vínculos:
   
 - [Planes de llamadas](https://go.microsoft.com/fwlink/?LinkId=799761 )
-    
+
 - [Planes de audioconferencia](https://go.microsoft.com/fwlink/?LinkId=799762 )
-    
+
 - [Planes de sistemas telefónicos](https://go.microsoft.com/fwlink/?LinkId=799763)
-    
-También puede ver información [iniciando sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a suscripciones de **facturación**para  >  **Subscriptions**  >  **Agregar suscripciones**.
+
+También puede ver información iniciando sesión en el centro de administración de Microsoft 365 y yendo a suscripciones de **facturación**para  >  **Subscriptions**  >  **Agregar suscripciones**.
   
 Para ver una tabla con las licencias que necesitará para cada característica, consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Configurar Skype Empresarial Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
-    
+
 - [Configurar el Correo de voz en la nube. Ayuda para el administrador](set-up-phone-system-voicemail.md)
-    
+
 - [Configurar planes](set-up-calling-plans.md) de llamadas y [planes de llamadas para Microsoft 365 u Office 365](calling-plans-for-office-365.md)
-        
- 
- 
+

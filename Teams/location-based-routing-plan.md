@@ -16,16 +16,14 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f72360f4462a64e357d58489aa70203bf10c532
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: c47ca6105b1d497bbba391856bfc190ea88fb47f
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326647"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372039"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
-
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 ## <a name="overview-of-location-based-routing"></a>Información general sobre el enrutamiento basado en la ubicación
 
@@ -254,7 +252,7 @@ Un usuario con capacidad de enrutamiento basado en la ubicación en una llamada 
 
 Si implementas el enrutamiento basado en la ubicación en India, también es necesario configurar la omisión de medios. Para obtener más información, vea [planear la omisión de multimedia con el enrutamiento directo](direct-routing-plan-media-bypass.md) y la [optimización de medios locales para el enrutamiento directo](direct-routing-media-optimization.md).
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
 Vaya a [configurar la configuración de red para el enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md).
 

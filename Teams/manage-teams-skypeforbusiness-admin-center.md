@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: f30db1425c61e8cb5f916345c0b751bc81c90a0f
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0dc4e9a4c223422ab743e657d808f5de0f3239e7
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637429"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45228896"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams
 ======================================================
@@ -36,7 +36,7 @@ ms.locfileid: "44637429"
 
 ## <a name="what-is-the-new-microsoft-teams-admin-center"></a>¿Qué es el nuevo centro de administración de Microsoft Teams?  
 
-La nueva experiencia del centro de administración le proporcionará una experiencia unificada para administrar tanto los equipos como Skype empresarial. Ofrecemos funciones adicionales, información completa y la capacidad de administrar la configuración de Teams en un nivel de usuario. Puede obtener acceso al centro de administración en <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+La nueva experiencia del centro de administración le proporcionará una experiencia unificada para administrar tanto los equipos como Skype empresarial. Ofrecemos funciones adicionales, información completa y la capacidad de administrar la configuración de Teams en un nivel de usuario.
 
 ![Captura de pantalla del centro de administración de Microsoft Teams.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
@@ -84,15 +84,15 @@ La siguiente tabla identifica las secciones de la experiencia de teams que se ha
 
 - Permitir a un usuario transferir aplicaciones que se pueden administrar a nivel de usuario en [TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
 - Permita que los usuarios de un inquilino interactúen con aplicaciones personalizadas que se pueden administrar en el nivel de inquilino en la configuración de la aplicación de toda la organización.
- 
-<sup>3</sup> las aplicaciones predeterminadas y las aplicaciones externas se pueden habilitar y deshabilitar en el nivel de usuario en TeamsAppPermissionPolicy. Además, las aplicaciones se pueden bloquear en el nivel de espacio empresarial en la configuración de la aplicación de toda la organización, que reemplaza cualquier configuración de usuario y de nivel de inquilino. 
+
+<sup>3</sup> las aplicaciones predeterminadas y las aplicaciones externas se pueden habilitar y deshabilitar en el nivel de usuario en TeamsAppPermissionPolicy. Además, las aplicaciones se pueden bloquear en el nivel de espacio empresarial en la configuración de la aplicación de toda la organización, que reemplaza cualquier configuración de usuario y de nivel de inquilino.
 
 > [!NOTE]
-> Continuará usando el panel grupos en el centro de administración de Microsoft 365 para la configuración relacionada con equipos y canales. La configuración de las aplicaciones permanecerá en el área de equipos del centro de administración de Microsoft 365 y se migrará más tarde. 
+> Continuará usando el panel grupos en el centro de administración de Microsoft 365 para la configuración relacionada con equipos y canales. La configuración de las aplicaciones permanecerá en el área de equipos del centro de administración de Microsoft 365 y se migrará más tarde.
 
 ## <a name="manage-settings-during-the-migration"></a>Administrar la configuración durante la migración
 
-Puede continuar modificando la configuración en el centro de administración de Microsoft 365 y en el centro de administración de Skype empresarial hasta que se complete la migración de una sección para su inquilino. 
+Puede continuar modificando la configuración en el centro de administración de Microsoft 365 y en el centro de administración de Skype empresarial hasta que se complete la migración de una sección para su inquilino.
 
 En la tabla siguiente se muestra dónde puede administrar características durante la migración.
 
@@ -104,7 +104,7 @@ En la tabla siguiente se muestra dónde puede administrar características duran
 |Administración del ciclo de vida de Teams   |    X    |      |       |
 |Configuración de Teams   |    X    |      |       |
 |Configuración de acceso externo     |    X    |      |       |
-|Administración de usuarios    |         |         |    X     |    
+|Administración de usuarios    |         |         |    X     |
 |Audioconferencia     |    X     |    X     |         |
 |Planes de llamada     |    X    |    X     |         |
 |Sistema telefónico    |    X    |     X    |         |
