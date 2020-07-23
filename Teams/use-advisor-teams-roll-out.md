@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Use el Asesor de Teams (versión preliminar pública) para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: ef9b22d7e4a3a3c3670acc766ee27cdc2c3de67c
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: e447c05fc19766d3e67d510af6fbd424dc4173e7
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868157"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201214"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
@@ -53,7 +53,7 @@ La primera vez que utilice el asesor para Teams, creará un equipo de implementa
 
 ## <a name="available-advisor-for-teams-plans"></a>Asesor disponible para los planes de Teams
 
-Aunque asesor para equipos se encuentra en la versión preliminar pública, ofreceremos los dos siguientes planes:
+Aunque el Asesor de Teams está en versión preliminar pública, ofreceremos los siguientes planes:
 
 1. Chat, equipos, canales y aplicaciones
     - Evaluación de los inquilinos
