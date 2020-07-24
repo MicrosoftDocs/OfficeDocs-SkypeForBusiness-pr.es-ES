@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Bahrein.
-ms.openlocfilehash: 5d3dbac85646384eb2491c05797235d212450382
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 2b87e6545d8c24215f9d61c6b2f75ade95fa3266
+ms.sourcegitcommit: ca2faa1cd2b078e8d0389b5d2f49bfe6ddbcb9f6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231219"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391628"
 ---
 # <a name="availability-in-bahrain"></a>Disponibilidad en Baréin
 
@@ -71,7 +71,7 @@ Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |Manama  <br/> |
-|¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
+|¿Hay números de pago disponibles?  <br/> |No  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |No  <br/> |
    
  Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
