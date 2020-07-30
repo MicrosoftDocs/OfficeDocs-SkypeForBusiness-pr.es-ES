@@ -1,0 +1,124 @@
+### YamlMime:Landing
+title: Administración de Skype for Business Online
+summary: Skype empresarial online se retirará el 31 de julio de 2021, momento en el que finalizará el acceso al servicio. Recomendamos a los clientes que inicien la actualización a Microsoft Teams, el hub para el trabajo en equipo de Microsoft 365.
+metadata:
+  title: Administración de Skype for Business Online
+  description: Aprenda a administrar Skype for Business Online para su organización.
+  services: skype-for-business-online-admin
+  ms.service: skype-for-business-online-admin
+  ms.topic: landing-page
+  search.appverid: MET150
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  author: tonysmit
+  ms.author: tonysmit
+  f1.keywords:
+  - CSH
+  ms.custom:
+  - ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+  ms.date: 06/24/2020
+  ms.openlocfilehash: fe7199d98c010f1ade9dc8b2c7cc9a320aed5719
+  ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+  ms.translationtype: MT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 07/29/2020
+  ms.locfileid: "46522972"
+landingContent:
+- title: Acerca de Skype empresarial online
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: Skype empresarial online para su retirada en 2021
+      url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
+  - linkListType: get-started
+    links:
+    - text: Introducción
+      url: https://support.office.com/article/2da94a13-6d16-4d67-adf3-439f2b946994
+  - linkListType: overview
+    links:
+    - text: Estamos aquí para ayudarle
+      url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
+    - text: ¿Necesita ayuda para iniciar sesión en Skype for Business?
+      url: https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05
+    - text: Solución de problemas en Skype for Business Online
+      url: /SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
+    - text: Cambiar de Skype Empresarial a Teams
+      url: https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here
+- title: Novedades
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Configurar el Sistema telefónico en su organización
+      url: /microsoftteams/setting-up-your-phone-system
+    - text: Integración de terceros con Audioconferencia
+      url: /SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers
+    - text: Configurar Audioconferencia
+      url: /microsoftteams/audio-conferencing-in-office-365
+  - linkListType: overview
+    links:
+    - text: Planes de llamadas en Canadá (disponibilidad general)
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada
+    - text: Planes de llamadas en Australia (solo vista previa)
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia
+- title: Audioconferencia
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Preguntas frecuentes sobre Audioconferencia
+      url: /MicrosoftTeams/audio-conferencing-common-questions
+    - text: Consultar si Audioconferencia está disponible en su país o región
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
+  - linkListType: how-to-guide
+    links:
+    - text: Administrar la configuración de la conferencia de acceso telefónico local en mi organización
+      url: /SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization
+    - text: Comparar proveedores de conferencias de acceso telefónico local
+      url: /SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers
+- title: Configurar
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Configurar Skype Empresarial Online
+      url: /SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online
+    - text: Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial
+      url: /SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users
+    - text: Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype
+      url: /SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts
+- title: Licencias complementarias
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Licencias complementarias de Skype Empresarial y Microsoft Teams
+      url: /SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing
+    - text: ¿Qué son los Créditos de comunicaciones?
+      url: /MicrosoftTeams/what-are-communications-credits
+- title: Planes de llamadas
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: ¿Qué son los planes de llamadas?
+      url: /MicrosoftTeams/calling-plan-landing-page
+    - text: Consultar si Planes de llamada está disponible en su país o región
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
+  - linkListType: how-to-guide
+    links:
+    - text: Configurar las llamadas RTC en Skype Empresarial
+      url: /MicrosoftTeams/set-up-calling-plans
+- title: Sistema telefónico
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: ¿Qué es el sistema telefónico?
+      url: /MicrosoftTeams/what-is-phone-system-in-office-365
+    - text: Esto es lo obtiene con el Sistema telefónico
+      url: /MicrosoftTeams/here-s-what-you-get-with-phone-system
+- title: Mejorar la calidad de las llamadas y los vídeos
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Solucionar los problemas de conexión en Skype Empresarial
+      url: https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771
+    - text: Solucionar problemas de audio y vídeo en Skype Empresarial
+      url: https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc
+    - text: Ajustar el rendimiento de Skype Empresarial Online
+      url: https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802
