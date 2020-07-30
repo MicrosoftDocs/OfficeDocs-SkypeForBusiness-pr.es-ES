@@ -13,26 +13,29 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Las consideraciones de planeación pertinentes para implementar salas de Microsoft Teams y cómo implementar y administrar el sistema.
-ms.openlocfilehash: 2cba74f72016b51446f7721041039faedd865866
-ms.sourcegitcommit: 18838ed1da69ab4668c903bfcafd4ad2fa02639d
+ms.openlocfilehash: 98fbd10cdbc575412253b4a9c8fdfc16869da2ed
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44773385"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521995"
 ---
 # <a name="microsoft-teams-rooms"></a>Salas de Microsoft Teams
 
-Transforme espacios de reunión, desde pequeñas áreas de Huddle hasta grandes salas de conferencias, con una experiencia de equipos de colaboración enriquecida y fácil de usar, implementar y administrar.
-
-Inicia reuniones a tiempo con una sola combinación táctil y luego proyecta al instante en la pantalla de la sala y comparte a los participantes remotos.
-
-Seleccione los periféricos de video de audio y de sistema correctos de uno de nuestros socios: Yealink, Logitech, Crestron, Polycom, Lenovo y HP.
-
-:::image type="content" source="../media/srs-room.jpg" alt-text="Una tabla de conferencias con el equipo de salas de Microsoft Teams":::
+:::row:::
+    :::column span="2":::
+       Transforme espacios de reunión, desde pequeñas áreas de Huddle hasta grandes salas de conferencias, con una experiencia de equipos de colaboración enriquecida y fácil de usar, implementar y administrar. <br> 
+       Inicia reuniones a tiempo con una sola combinación táctil y luego proyecta al instante en la pantalla de la sala y comparte a los participantes remotos.<br> 
+       Seleccione los periféricos de video de audio y de sistema correctos de uno de nuestros socios: Yealink, Logitech, Crestron, Polycom, Lenovo y HP.
+    :::column-end:::
+    :::column:::
+       ![Una tabla de conferencias con el equipo de salas de Microsoft Teams](../media/srs-room.jpg)
+    :::column-end:::
+:::row-end:::
 
 |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![Símbolo de la lista](https://docs.microsoft.com/office/media/icons/list-123-teams.svg)  | **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![Símbolo de implementación](https://docs.microsoft.com/office/media/icons/deploy-teams.svg)  | **[Implementación](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![Herramientas/llave inglesa](https://docs.microsoft.com/office/media/icons/toolbox.svg)  | **[Manage](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+| ![Símbolo de la lista](https://docs.microsoft.com/office/media/icons/list-123-teams_small.svg)  | **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![Símbolo de implementación](https://docs.microsoft.com/office/media/icons/deploy-teams_small.svg)  | **[Implementación](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![Herramientas/llave inglesa](https://docs.microsoft.com/office/media/icons/toolbox_small.svg)  | **[Manage](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
 
 <br>
 

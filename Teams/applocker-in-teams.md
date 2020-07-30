@@ -16,24 +16,24 @@ description: Aprenda a habilitar la aplicación cliente de escritorio de Teams c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cbccede3ca2d114b7bffa81b669a06a519f6b4e6
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 4e70fc4502851137494c316db9eff7faefc140d1
+ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121670"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526696"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Directivas de control de aplicaciones de AppLocker en Microsoft Teams
 
 En este artículo se explica cómo habilitar la aplicación cliente de escritorio de Teams con directivas de control de aplicaciones de AppLocker. El uso de AppLocker está diseñado para restringir la ejecución de programas y scripts por parte de usuarios no administrativos. Para obtener más información y orientación en AppLocker, consulte [¿Qué es AppLocker?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker).
 
-El proceso de habilitar equipos con AppLocker requiere la creación de políticas de listas blancas basadas en AppLocker. Las directivas se crean con el software de administración de directivas de grupo y/o el uso de cmdlets de Windows PowerShell para AppLocker (consulte la [referencia técnica de AppLocker](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference) para obtener más información). La Directiva de AppLocker se guarda en formato XML y puede editarse con cualquier editor de texto o XML.
+El proceso de habilitar los equipos con AppLocker requiere la creación de directivas de inscripción basadas en AppLocker. Las directivas se crean con el software de administración de directivas de grupo y/o el uso de cmdlets de Windows PowerShell para AppLocker (consulte la [referencia técnica de AppLocker](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference) para obtener más información). La Directiva de AppLocker se guarda en formato XML y puede editarse con cualquier editor de texto o XML.
 
-## <a name="teams-whitelisting-with-applocker"></a>Listas blancas de equipos con AppLocker
+## <a name="teams-allow-list-with-applocker"></a>Lista permitir de Teams con AppLocker
 
 Las reglas de AppLocker se organizan en colecciones de reglas. Las reglas de AppLocker se aplican a la aplicación de destino y son los componentes que conforman la Directiva de AppLocker.  
 
-Para los equipos de la lista blanca, le recomendamos que use las [reglas de condición de Publisher](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker) , ya que todos los archivos de la aplicación Teams están firmados digitalmente.
+Para permitir a Teams, le recomendamos que use las [reglas de condición de Publisher](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker) , ya que todos los archivos de la aplicación Teams están firmados digitalmente.
   
 No recomendamos el uso de reglas de ruta de acceso porque el directorio de instalación de Teams es grabable para el usuario. Tampoco recomendamos el uso de Reglas Hash porque las reglas deberían actualizarse cada vez que se actualice la aplicación cliente de Teams.
 

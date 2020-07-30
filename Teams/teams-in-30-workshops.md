@@ -3,8 +3,6 @@ title: Teams en 30
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-layout: HubPage
-ms.topic: hub-page
 ms.date: 7/1/19
 ms.service: msteams
 audience: admin
@@ -21,25 +19,19 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b82830041736751685807e2cda652fc4ab8525d
-ms.sourcegitcommit: b257e11ba5506b5a105b438dcade4f12805d9595
+ms.openlocfilehash: b6d721da9e2b5a722675c5026301435c65eac5a8
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "44909003"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522521"
 ---
+# <a name="teams-in-30"></a>Teams en 30
 <div id="main" class="v2">
     <div class="container">
-        <h1>Teams en 30</h1>
-           <p>Microsoft está entusiasmado a invitarle a los <strong>equipos de 30</strong>, una serie de talleres interactivos en vivo diseñados para ayudar a las organizaciones de tamaño mediano (500-5000 empleados) a trabajar con Microsoft Teams en tan solo 30 días. Únase a nosotros para obtener más información sobre las directrices y procedimientos recomendados probados en el tiempo y Obtenga respuestas a las preguntas de su equipo. Los participantes del taller también recibirán una invitación exclusiva para las horas de oficina del micrófono abierto con un experto en Teams.
+        <p>Microsoft está entusiasmado a invitarle a los <strong>equipos de 30</strong>, una serie de talleres interactivos en vivo diseñados para ayudar a las organizaciones de tamaño mediano (500-5000 empleados) a trabajar con Microsoft Teams en tan solo 30 días. Únase a nosotros para obtener más información sobre las directrices y procedimientos recomendados probados en el tiempo y Obtenga respuestas a las preguntas de su equipo. Los participantes del taller también recibirán una invitación exclusiva para las horas de oficina del micrófono abierto con un experto en Teams.
            <p><font color="#6264A7">¿Está listo para ir?</font> Recomendamos a todos los miembros del equipo de proyecto que comiencen con los <i>equipos de introducción a teams en 30</i> . Haga clic en el título de una sesión a continuación para registrarse.
-        <ul class="pivots">
-            <li>
-                <a href="#home" data-linktype="self-bookmark"></a>
-                <ul id="home">
-                    <li>
-                        <a href="#home-all" data-linktype="self-bookmark"></a>
-                        <ul id="home-all" class="panelContent cardsF cols cols2">        
+ <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
         <div class="cardSize">
@@ -47,7 +39,7 @@ ms.locfileid: "44909003"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/process-flow-teams.svg" alt="Grid of three shapes representing a process" />
+                            <img src="./media/process-flow-teams.svg"  alt="Grid of three shapes representing a process" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -67,7 +59,7 @@ ms.locfileid: "44909003"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
+                            <img src="./media/users-people.svg"  alt="Two person icons with representing users" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,7 +78,7 @@ ms.locfileid: "44909003"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg" alt="Cloud image and carpenter's square, representing cloud architecture" />
+                            <img src="./media/cloud-architecture2.svg"  alt="Cloud image and carpenter's square, representing cloud architecture" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -104,7 +96,7 @@ ms.locfileid: "44909003"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" alt="Grid of four blocks representing architecture" />
+                            <img src="./media/blocks-teams.svg"  alt="Grid of four blocks representing architecture" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -123,7 +115,7 @@ ms.locfileid: "44909003"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg" alt="Image of a graph, representing a report" />
+                            <img src="./media/trend-graph-teams.svg"  alt="Image of a graph, representing a report" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -143,7 +135,7 @@ ms.locfileid: "44909003"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" alt="Sign up symbol" />
+                            <img src="./media/sign-up-teams.svg"  alt="Sign up symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -156,9 +148,5 @@ ms.locfileid: "44909003"
             </div>
         </div>
         </a>
-    </li>
-
-</ul>
-
-    
+    </li>    
 </ul>
