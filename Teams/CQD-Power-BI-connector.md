@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar el conector de Power BI para usar las plantillas de consulta del panel de calidad de llamadas (CQD)
-ms.openlocfilehash: 1647497cf2551a125e28d5a3920625bee15eca9f
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 1c315dc0214ee0540ddce25fb8f0a1dc1794048f
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138069"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506173"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar el conector de Power BI para usar plantillas de consulta de CQD
 
@@ -124,7 +124,7 @@ A pesar de usar Power BI, no todas las funciones de Power BI son compatibles con
 
 6. **Compatibilidad con la nube de la comunidad de administración pública (GCC):** Para los clientes en el entorno GCC, el conector de Power BI del CQD funcionará cuando se use Power BI Desktop. El conector de Power BI del CQD no es compatible actualmente con el servicio Power BI para clientes de GCC.
 
-Ten en cuenta que, aunque el conector está en versión preliminar, no es probable que estas limitaciones cambien con la versión final del conector. La mayoría de estos problemas son restricciones para el diseño del conector DirectQuery en Power BI o fundamental para el diseño del modelo de datos CQD.
+La mayoría de estos problemas son restricciones para el diseño del conector DirectQuery en Power BI o fundamental para el diseño del modelo de datos CQD.
 
 ## <a name="troubleshooting"></a>Solución de problemas
 

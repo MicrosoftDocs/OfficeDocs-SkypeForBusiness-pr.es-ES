@@ -1,5 +1,5 @@
 ---
-title: Plantillas de Teams para pequeñas y medianas empresas
+title: Plantillas de Teams para pequeñas y medianas empresas creadas con Microsoft Graph
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
@@ -15,16 +15,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
-description: Use las plantillas predefinidas de Microsoft Teams para crear de forma rápida y sencilla equipos para pequeñas y medianas empresas.
+description: Use las plantillas predefinidas de Microsoft Teams integradas en Microsoft Graph para crear de forma rápida y sencilla equipos para pequeñas y medianas empresas.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1de5e0459168c7586f0b8e18a33153ca1519853a
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 9807e7f3694731af398abd83189698420ec36b8a
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944033"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506153"
 ---
-# <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>Introducción a las plantillas de Teams para pequeñas y medianas empresas
+# <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Plantillas de Teams integradas en Microsoft Graph para pequeñas y medianas empresas
 
 Las plantillas de Microsoft Teams le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
 
