@@ -53,7 +53,6 @@
 ## [Plantillas de Teams integradas en Graph para pequeñas y medianas empresas](smb-templates.md)
 
 
-
 ## Aplicaciones, bots y conectores
 
 ### [Información general](deploy-apps-microsoft-teams-landing-page.md)
