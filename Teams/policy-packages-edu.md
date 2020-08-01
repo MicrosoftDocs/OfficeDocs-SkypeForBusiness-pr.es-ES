@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Más información sobre las directivas en una configuración educativa o EDU, y cómo usar y administrar paquetes de directivas en Microsoft Teams.
-ms.openlocfilehash: fcc6a5d22d5e499cf698e424148ff37cd3ee054e
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: b395005dd8e997d296c56b055fff29f2c1636180
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021888"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533907"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Directivas de Teams y paquetes de directivas para educación
 
@@ -100,7 +100,7 @@ Una vez que se ha creado o actualizado la definición de la directiva, puede asi
 También puede asignar una directiva a un usuario al navegar a Usuarios, seleccionando el usuario para el que quiere actualizar las directivas, después Directivas y luego Editar. Desde allí, puede seleccionar la definición de directiva que le gustaría usar para asignar al usuario en cada área de funciones.
 
 > [!IMPORTANT]
-> Si forma parte de un gran centro educativo, usar la experiencia del portal de administración de Microsoft Teams para establecer directivas para cada usuario puede ser difícil. Le resultará más fácil asignar directivas en lotes a través de PowerShell. Tenemos cierta información específica de EDU sobre cómo [Asignar directivas a grandes grupos de usuarios en su institución educativa](batch-policy-assignment-edu.md) si la necesita, y también puede consultar la sección siguiente sobre paquetes de directivas, que es otro método ideal para administrar directivas y opciones de configuración para grandes grupos de usuarios.
+> Si forma parte de un gran centro educativo, usar la experiencia del portal de administración de Microsoft Teams para establecer directivas para cada usuario puede ser difícil. Le resultará más fácil asignar directivas en lotes a través de PowerShell. Tenemos cierta información específica de EDU sobre cómo [Asignar directivas a grandes grupos de usuarios en su institución educativa](batch-group-policy-assignment-edu.md) si la necesita, y también puede consultar la sección siguiente sobre paquetes de directivas, que es otro método ideal para administrar directivas y opciones de configuración para grandes grupos de usuarios.
 
 ![Panel Editar directivas de usuario, en el lado derecho de la página Directivas asignadas.](media/edu-edit-user-policies-pane.png)
 

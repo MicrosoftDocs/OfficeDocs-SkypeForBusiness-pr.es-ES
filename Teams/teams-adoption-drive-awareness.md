@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0744c78062b2ecd507cc16658819ba101930597
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e091e63b47dd33e848be9fc77f6f630174564c95
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665972"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533857"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Darlo a conocer e implementar formación para Microsoft Teams
 
@@ -51,7 +51,7 @@ Si su empresa tiene un portal de intranet central para noticias, información o 
 
 Use nuestros recursos para ofrecer aprendizaje para el usuario final a medida que los usuarios comienzan a usar Microsoft Teams y otros servicios de Microsoft 365 u Office 365. Para obtener más información, visita nuestras páginas de recursos:
 
-- [Formación para usuarios finales dirigida por un instructor para equipos](instructor-led-training-teams-landing-page.md)
+- [Formación para usuarios finales dirigida por un instructor para equipos](instructor-led-training-teams-landing-page.yml)
 - [Aprendizaje del administrador para equipos](itadmin-readiness.md)
 - [Aprendizaje de vídeo para usuarios finales en línea](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Café en la nube aprendizaje en línea para campeones & profesionales de ti](https://aka.ms/CoffeeintheCloud) 

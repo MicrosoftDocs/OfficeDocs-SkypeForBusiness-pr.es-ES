@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el informe de uso de disposit
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 128a9e816249dd918a5bf5fb380fde78d3ed9ce2
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: dc36ccca5145bdfdd21e5b398954aec79cd12127
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "43904922"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533867"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Informe de uso de dispositivos de Microsoft Teams
 
@@ -39,10 +39,10 @@ El informe de uso de dispositivos de Teams en el centro de administración de Mi
 
 |Globo |Descripción  |
 |--------|-------------|
-|**1**   |El informe de uso de dispositivos de Teams se puede visualizar para las tendencias de los últimos 7 días o 28 días.  |
-|**2**   |Cada informe tiene una fecha en la que se generó el informe. Normalmente, el informe refleja una latencia de 24 a 48 horas desde el momento de actividad. |
-|**3**   |<ul><li>El eje X del gráfico representa los diferentes dispositivos (**Windows**, **Mac**, **Linux**, **iOS**, **teléfono Android**) que se usan para conectarse a teams. </li><li>El eje Y es el número de usuarios que usan el dispositivo durante el período de tiempo seleccionado.</li> </ul>Desplace el puntero sobre la barra que representa un dispositivo para ver el número de usuarios que usan el dispositivo para conectarse a teams.|
-|**4**   |La tabla ofrece un desglose del uso del dispositivo por parte del usuario. <ul><li>**Nombre para mostrar** es el nombre para mostrar del usuario. Puede hacer clic en el nombre para mostrar para ir a la página de configuración del usuario en el centro de administración de Microsoft Teams. </li><li>**Windows** se selecciona si el usuario ha estado activo en el cliente de escritorio de Teams en un equipo basado en Windows.</li><li>**Mac** está seleccionado si el usuario ha estado activo en el cliente de escritorio de Teams en un equipo Mac OS. </li> <li>**Linux** está seleccionado si el usuario ha estado activo en el cliente de escritorio de Teams en un equipo Linux. </li> <li>**iOS** está seleccionado si el usuario ha estado activo en el cliente móvil de Teams para iOS.</li><li>**Teléfono Android** está seleccionado si el usuario ha estado activo en el cliente móvil de Teams para Android. <li>**Última actividad** es la última fecha (UTC) en la que el usuario participó en una actividad de Teams.</li> </ul> Tenga en cuenta que si ya no existe una cuenta de usuario en Azure AD, el nombre de usuario se muestra como "--" en la tabla. <br><br>Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla. |
+|**1**   |El informe de uso de dispositivos de Teams se puede visualizar para las tendencias de los últimos 7 días o 30 días.  |
+|**2**   |Cada informe tiene una fecha en la que se generó el informe. Los informes suelen reflejar una latencia de 24 horas de la actividad. |
+|**3**   |<ul><li>El eje X del gráfico representa los diferentes dispositivos (**Windows**, **Mac**, **Linux**, **iOS**, **teléfono Android**, **Web**) que se usan para conectarse a teams. </li><li>El eje Y es el número de usuarios que usan el dispositivo durante el período de tiempo seleccionado.</li> </ul>Desplace el puntero sobre la barra que representa un dispositivo para ver el número de usuarios que usan el dispositivo para conectarse a teams.|
+|**4**   |La tabla ofrece un desglose del uso del dispositivo por parte del usuario. <ul><li>**Username** es el nombre para mostrar del usuario. Puede hacer clic en el nombre para mostrar para ir a la página de configuración del usuario en el centro de administración de Microsoft Teams. </li><li>**Windows** se selecciona si el usuario ha estado activo en el cliente de escritorio de Teams en un equipo basado en Windows.</li><li>**Mac** está seleccionado si el usuario ha estado activo en el cliente de escritorio de Teams en un equipo Mac OS. </li> <li>**Linux** está seleccionado si el usuario ha estado activo en el cliente de escritorio de Teams en un equipo Linux. </li> <li>**iOS** está seleccionado si el usuario ha estado activo en el cliente móvil de Teams para iOS.</li><li>**Teléfono Android** está seleccionado si el usuario ha estado activo en el cliente móvil de Teams para Android. <li><li>La **Web** está seleccionada si el usuario ha estado activo en el cliente web de Teams. <li>**Última actividad** es la última fecha (UTC) en la que el usuario participó en una actividad de Teams.</li> </ul> Tenga en cuenta que si ya no existe una cuenta de usuario en Azure AD, el nombre de usuario se muestra como "--" en la tabla. <br><br>Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla. |
 |**5**   |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla. |
 |**6**   |Puede exportar el informe a un archivo CSV para analizarlos sin conexión. Haga clic en **exportar a Excel**y, a continuación, en la pestaña **descargas** , haga clic en **Descargar** para descargar el informe cuando esté listo.<br><br>![Captura de pantalla de la pestaña descargas que muestra informes exportados](../media/teams-reports-export-to-csv.png)|
 

@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos de su organización de administración pública a ser productivos con Microsoft Teams, especialmente cuando trabajan desde casa en respuesta al ataque del COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb3fb631c47a97d96c2709bbbe4257950221cb91
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: ae7580b9fd58be66296ab4c9c5e6723aa1a3db91
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028146"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533755"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Dar soporte a trabajadores remotos de la administración pública con Microsoft Teams
 
@@ -65,7 +65,7 @@ Comparta recursos y vídeos con los usuarios finales para que puedan empezar rá
 
   - Comience a trabajar en Teams con una serie de **[cursos de formación interactivos](https://aka.ms/TeamsLiveTraining)**, diseñados para que su organización esté lista para Teams.
 
-  - Únase a una de nuestras **[clases en línea](../instructor-led-training-teams-landing-page.md)** para ver cómo funciona Teams y obtener respuestas a sus preguntas.
+  - Únase a una de nuestras **[clases en línea](../instructor-led-training-teams-landing-page.yml)** para ver cómo funciona Teams y obtener respuestas a sus preguntas.
 
   - Comparta **[vídeos de formación avanzada](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)** con los usuarios que quieran aprender más.
 

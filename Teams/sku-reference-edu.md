@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Enumera los planes de licencias para profesores y estudiantes de educación y los identificadores de SKU.
 f1keywords: ''
-ms.openlocfilehash: 5f382be6aa19cbfef45bc0dcef350e5354df118a
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 921ea3313709fc16b415915b444e416527076251
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702705"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533897"
 ---
 # <a name="education-sku-reference"></a>Referencia de SKU de educación
 
@@ -71,4 +71,4 @@ En este artículo se enumeran los planes de licencias para estudiantes y profeso
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Asignar directivas a grandes conjuntos de usuarios de la escuela](batch-policy-assignment-edu.md)
+- [Asignar directivas a grandes conjuntos de usuarios de la escuela](batch-group-policy-assignment-edu.md)
