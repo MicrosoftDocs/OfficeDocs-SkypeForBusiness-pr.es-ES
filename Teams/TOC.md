@@ -8,7 +8,7 @@
 
 # Aprendizaje
 ## [Información general](training-microsoft-teams-landing-page.md)
-## [Cursos de entrenamiento dirigidos por un instructor para Teams](instructor-led-training-teams-landing-page.md)
+## [Cursos de entrenamiento dirigidos por un instructor para Teams](instructor-led-training-teams-landing-page.yml)
 ## [Formación de administradores para Teams](itadmin-readiness.md)
 ## [Formación del usuario final para Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
@@ -670,7 +670,8 @@
 ### [Inicio rápido: Administradores de Teams para el ámbito educativo](teams-quick-start-edu.yml)
 ### [Introducción al aprendizaje remoto](remote-learning-edu.md)
 ### [Directivas y paquetes de directivas de Teams EDU](policy-packages-edu.md)
-### [Asignar directivas a grandes grupos de usuarios](batch-policy-assignment-edu.md)
+### [Asignar directivas a grandes grupos de usuarios](batch-group-policy-assignment-edu.md)
+### [Script de PowerShell para crear grupos de seguridad para educadores y estudiantes](scripts/powershell-script-security-groups-edu.md)
 ### [Guía ancho de banda bajo de para administradores de educación](edu-remote-low-bandwidth.md)
 ### [Información sobre Clase](class-insights.md)
 ### [Tareas en Teams para educación](expand-teams-across-your-org/assignments-in-teams.md)
