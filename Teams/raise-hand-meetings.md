@@ -1,5 +1,5 @@
 ---
-title: Levantar la mano de las reuniones de Teams
+title: Levantar la mano en reuniones de Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,42 +17,42 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga más información sobre la característica elevar la mano de las reuniones de Microsoft Teams.
+description: Obtenga información sobre la característica para levantar la mano en reuniones de Microsoft Teams.
 ms.openlocfilehash: 9f431354b412cd51afb662a86246f9f23662a676
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44755424"
 ---
-# <a name="raise-your-hand-option-in-teams-meetings"></a>Elevar la opción de mano en reuniones de Teams
+# <a name="raise-your-hand-option-in-teams-meetings"></a>Opción Levantar la mano en reuniones de Teams
 
-Durante una reunión de Microsoft Teams, un participante puede usar la opción **elevar la mano** para obtener la atención del orador y del moderador.
+Durante una reunión de Microsoft Teams, un participante puede usar la opción **Levantar la mano** para obtener la atención del orador y el moderador.
 
-Esta característica es importante por los siguientes motivos:
+Esta característica es importante por los motivos siguientes:
 
-- Los participantes pueden señalar que quieren hablar sin interrumpir la reunión.
+- Los participantes pueden indicar que quieren hablar sin interrumpir la reunión.
 
-- El moderador o el orador puede ver si alguien de la reunión desea hablar.  
+- El moderador o el orador pueden ver si alguien de la reunión quiere hablar.  
 
-- **Subir la mano** hace que las reuniones sean más inclusivas al alentar la participación de los participantes.
+- **Levantar la mano** hace que las reuniones sean más inclusivas fomentando la participación de los participantes.
 
-- **Levante de la mano** proporciona una forma sencilla y rápida de realizar un sondeo de los participantes de la reunión.
+- **Levantar la mano** ofrece una forma sencilla y rápida de realizar un sondeo de los participantes de la reunión.
 
-Un administrador de equipo no tiene que crear una directiva para que la característica aparezca en una reunión.
+Un administrador de Teams no tiene que crear una directiva para que la característica aparezca en una reunión.
 
-## <a name="raise-your-hand-display"></a>Mostrar la pantalla de la mano
+## <a name="raise-your-hand-display"></a>Indicación de Levantar la mano
 
-**Levantar la mano** siempre está disponible en cualquier reunión a la que se une y es compatible con todos los clientes excepto los dispositivos de la sala de reuniones (en este momento).
+**Levantar la mano** siempre está disponible en todas las reuniones a las que se una y es compatible con todos los clientes, excepto con los dispositivos de sala de reuniones (en este momento).
 
-- Una mano levantada está visible para todos los participantes de la reunión y se indica mediante un icono de mano.
+- Una mano elevada es visible para todos los participantes de la reunión y se indica mediante un icono de mano.
 
-- Las manos levantadas se muestran en la fase de la reunión, lista (ordenada por duración) y cuando se comparte contenido.
+- Las manos levantadas se muestran en la fase de reunión, en la lista (ordenada por duración) y cuando se comparte contenido.
 
-- La mano levantada se muestra en amarillo junto al nombre de un participante.
+- La mano levantada se muestra en amarillo adyacente al nombre de un participante.
 
-Una vez que los participantes se han confirmado, pueden usar la opción **más baja de tu mano** . Los moderadores de la reunión también pueden disminuir la mano de un participante.
+Una vez que se haya respondido a los participantes, pueden usar la opción **Bajar la mano**. Los moderadores de reuniones también pueden bajar la mano de un participante.
 
 ## <a name="related-article"></a>Artículo relacionado
 
-[Subir la mano en una reunión de Teams](https://support.office.com/article/raise-your-hand-in-a-teams-meeting-bb2dd8e1-e6bd-43a6-85cf-30822667b372?ui=en-US&rs=en-US&ad=US)
+[Levantar la mano en una reunión de Teams](https://support.office.com/article/raise-your-hand-in-a-teams-meeting-bb2dd8e1-e6bd-43a6-85cf-30822667b372?ui=en-US&rs=en-US&ad=US)

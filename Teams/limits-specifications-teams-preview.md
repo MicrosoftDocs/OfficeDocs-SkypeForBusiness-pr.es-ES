@@ -18,12 +18,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 178dc23403a637e15bb8c01b18e03fb5c86477dc
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 7138495b3f210a7c10b61b7bb8dc1287afefb71c
 ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522347"
+ms.locfileid: "46522950"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -109,16 +110,20 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 
 ## <a name="meetings-and-calls"></a>Reuniones y llamadas
 
-> [!IMPORTANT]
-> En abril, [anunciamos](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929) que los incrementos en el límite predeterminado temporal se habilitarían para los eventos en directo de Microsoft 365 con el fin de ayudar a los clientes, hasta el 1 de julio. Para seguir satisfaciendo las necesidades de los clientes, ampliaremos los límites temporales predeterminados hasta el 1 de octubre de 2020. Los eventos en directo hospedados en Teams, Stream y Yammer seguirán admitiendo temporalmente eventos de hasta 20 000 asistentes, 16 horas de duración y 50 eventos simultáneos. Además, los clientes pueden hospedar un evento en directo en Stream de hasta 100 000 asistentes cuando se planee en el [programa de asistencia de eventos en directo de Microsoft](https://resources.techcommunity.microsoft.com/live-events/assistance/).
-
 |Característica     | Límite máximo |
 |------------|---------------|
-|Número de personas en una reunión (pueden chatear y llamar)  |300. <br><br>**Nota:** Para Teams para la administración pública (GCC, GCC High, DoD), el límite sigue siendo 250. Actualizaremos este artículo cuando el límite de la nube de administración pública aumente de 250 a 300.   |
+|Número de personas en una reunión (pueden chatear y llamar)  |300. **Solo lectura** permite que un máximo de 20 000 participantes en modo escucha se unan a una reunión en la que el organizador cuenta con una licencia para el complemento SKU de Advanced Communications.<sup>1</sup> [!INCLUDE [template](includes/preview-feature.md)] <br><br>**Nota:** Para Teams para la administración pública (GCC, GCC High, DoD), el límite sigue siendo 250. Actualizaremos este artículo cuando el límite de la nube de administración pública aumente de 250 a 300.   |
 |Número de personas en una reunión (pueden chatear y llamar)  | 300 |
 |Cantidad de personas en una llamada de audio o vídeo desde el chat | 20 |
 |Tamaño máximo de archivo de PowerPoint | 2 GB|
 |Teams guarda [grabaciones de la reunión](cloud-recording.md) que no se cargan en Microsoft Stream, que se pueden descargar de forma local | 20 días |
+
+<sup>1</sup> Solo vista está activado de forma predeterminada. Puede usar PowerShell para deshabilitar el número de participantes excedente en la reunión. 
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
+Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
+```
+Los participantes en modo solo vista no podrán unirse a una reunión si ya no hay más capacidad para los participantes en este modo en la reunión, o si no tienen permiso para saltarse la sala de espera en función de las directivas u opciones de la sala de espera. Los participantes en modo solo vista no pueden ver archivos compartidos nativos de PPT.
 
 ### <a name="meeting-expiration"></a>Expiración de la reunión
 

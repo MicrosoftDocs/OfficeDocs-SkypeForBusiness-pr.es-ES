@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62cb28b26cb96faa05674a705f33b34bfb00aa90
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: f0fab79f0672c21f348ccfda999bcc32a468c87f
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085976"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533765"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introducción a Microsoft Teams para el aprendizaje remoto
 
@@ -98,7 +98,7 @@ Es posible que se deban restringir funciones a los **alumnos de primaria y secun
 > [!IMPORTANT]
 > Para las directivas de reunión asignadas a usuarios, recomendamos configurar la opción "Admitir personas automáticamente" a "Todos los usuarios de su organización". Esta configuración asegurará que los usuarios no autenticados deban ser admitidos desde la sala de espera antes de que puedan unirse a reuniones de Teams. Para obtener más información, consulte [administrar directivas de reunión de Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
 
-**Los formadores y el personal de las escuelas primarias** deben tener asignadas directivas que otorguen las funciones fundamentales que pueden estar restringidas para los alumnos. Cree nuevas directivas que permitan el chat privado y la programación de reuniones (la configuración predeterminada de una nueva directiva). [Asigne estas directivas en bloque al personal y los formadores mediante la asignación de directivas por lotes](batch-policy-assignment-edu.md).
+**Los formadores y el personal de las escuelas primarias** deben tener asignadas directivas que otorguen las funciones fundamentales que pueden estar restringidas para los alumnos. Cree nuevas directivas que permitan el chat privado y la programación de reuniones (la configuración predeterminada de una nueva directiva). [Asigne estas directivas de forma masiva al personal y los formadores](batch-group-policy-assignment-edu.md).
 
 ## <a name="start-using-teams"></a>Empezar a usar equipos
 
