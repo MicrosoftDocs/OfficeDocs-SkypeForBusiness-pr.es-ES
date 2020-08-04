@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instrucciones para implementar el correo de voz basado en la nube para los usuarios alojados en Skype empresarial Server.
-ms.openlocfilehash: 8284ee3d06574f3d5772b929fcae8363f399acb8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 29faba6bf092647f0c55899f013c6b4bf146304f
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221464"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552586"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurar el servicio de correo de voz en la nube para los usuarios locales
 
@@ -38,7 +38,7 @@ La configuración del correo de voz de nube implica las siguientes tareas:
 
 2.  Asegúrese de que ha configurado la conectividad híbrida como se describe en [plan Hybrid Connectivity](plan-hybrid-connectivity.md) y [Configure Hybrid Connectivity](configure-hybrid-connectivity.md). 
 
-3.  [Configure el correo de voz en la nube como proveedor de hospedaje en el servidor perimetral](#configure-cloud-voicemail-as-the-hosting-provider) como se describe en este artículo.
+3.  [Configure el correo de voz de nube como proveedor de hospedaje en el servidor front-end](#configure-cloud-voicemail-as-the-hosting-provider) como se describe en este artículo.
 
 4.  [Configure una directiva de correo de voz hospedado](#configure-a-hosted-voicemail-policy) tal como se describe en este artículo.
 
