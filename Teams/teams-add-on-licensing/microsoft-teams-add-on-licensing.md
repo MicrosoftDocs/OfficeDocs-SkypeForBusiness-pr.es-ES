@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga más información sobre las licencias de complemento para Microsoft Teams y las características que obtiene con cada licencia.
-ms.openlocfilehash: 3e6ab7572c04151c76a99faedd328ac32c457811
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 05df369636687d84235dffbfe5ba494213e5374f
+ms.sourcegitcommit: 343756f70480f5e2f8f6486f8651affac8d2004f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522467"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "46542861"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licencias de complemento de Microsoft Teams
 
@@ -46,6 +46,7 @@ Esta es una lista de características que puede Agregar con las licencias de com
 |**Sistema telefónico** <br/> |El [sistema telefónico](../what-is-phone-system-in-office-365.md) es un servicio de telefonía hospedada que le ofrece funciones de control de llamadas y de central de conmutación (PBX), con opciones para conectarse a la red de telefonía pública conmutada (RTC). Entre las características del sistema telefónico se incluyen el buzón de voz, la identificación de llamadas, el parque de llamadas, el desvío de llamadas, los operadores automáticos, las colas de llamadas, la transferencia de llamadas, la identificación de llamadas, etc. <br>Para obtener más información, consulte [estas son las características que obtiene con el sistema telefónico](../here-s-what-you-get-with-phone-system.md). Para obtener información sobre precios, consulta [precios para el sistema telefónico](https://go.microsoft.com/fwlink/?linkid=799763).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Planes de llamadas** <br/> |Si quiere que los usuarios puedan llamar a números de teléfono fuera de su organización, obtenga un [plan de llamadas](../calling-plans-for-office-365.md). Existen planes de llamadas nacionales y planes de llamadas nacionales e internacionales. Para obtener información sobre precios, consulta [precios para planes de llamadas](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Salas de Microsoft Teams** <br/> |[Salas de Microsoft Teams](../rooms/index.md) no es un complemento, sino una característica que lleva el vídeo, el audio y el uso compartido de contenido a salas de conferencia. Ver las [licencias de sala de reuniones de Teams](../rooms/rooms-licensing.md).  <br/> |&#x2713;|&#x2713;|
+|**Comunicaciones avanzadas** <br/> |Las [comunicaciones avanzadas](advanced-communications.md) incluyen capacidades de llamada y de reunión mejoradas, como reuniones de gran tamaño, personalización de reuniones, integraciones de comunicaciones y herramientas avanzadas para la administración de comunicaciones. Llegar a audiencias más grandes con eventos en directo para un máximo de 20.000 participantes y reuniones interactivas para participantes de 1.000. Entre las características adicionales se incluyen la sala de reuniones personalizada de la marca para adaptar las reuniones, la capacidad de integrar reuniones y llamadas a flujos de trabajo, y herramientas para supervisar, realizar el seguimiento y analizar los datos de usuarios y dispositivos.   |&#x2713;|&#x2713;|
 
 <sup>1</sup> si es una pequeña empresa o mediana que tiene un plan para empresas de Microsoft 365, aún puede comprar licencias de complemento para estas características de voz, pero le recomendamos que considere un plan empresarial y una [voz de negocio](https://www.microsoft.com/microsoft-365/business/business-voice)de [Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) .
 
