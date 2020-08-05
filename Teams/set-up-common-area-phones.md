@@ -21,18 +21,18 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Más información sobre cómo configurar teléfonos de área común para salas, áreas de recepción y salas de conferencias '
-ms.openlocfilehash: ef75c23ff72d9b640fb5a53feff7cf46fec43292
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: d9d77765451f98028f808028822ec42e6e51fdc7
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125993"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552308"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configuración de la licencia de teléfono de área común de Microsoft Teams
 > [!NOTE]
 > Los teléfonos de área común no admiten el buzón de voz.
 
-Un teléfono de área común suele colocarse en un área como una sala de recepción u otra área que está disponible para muchas personas para hacer una llamada; por ejemplo, un área de recepción, una sala de recepción o un teléfono de conferencia. Los teléfonos de área común se configuran como dispositivos en lugar de usuarios y pueden iniciar sesión automáticamente en una red.
+Un teléfono de área común suele colocarse en un área como una sala de recepción u otra área que está disponible para muchas personas para hacer una llamada; por ejemplo, un área de recepción, una sala de recepción o un teléfono de conferencia. Los teléfonos de área común están iniciados con cuentas vinculadas a una licencia de teléfono común de área. La Directiva TeamsIPPhone también debe establecerse correctamente para que el teléfono tenga una experiencia de usuario de área común.
 
 En los pasos siguientes, le ayudaremos a configurar una cuenta para el sistema telefónico para implementar teléfonos de área común para su organización. Para obtener una experiencia de sala de reuniones más completa, incluidas las conferencias de audio, considere la posibilidad de comprar la licencia de sala de reuniones dedicada con un dispositivo de sala de reuniones. 
 

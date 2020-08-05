@@ -17,14 +17,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo controlar si los usuarios de Microsoft Teams pueden descubrir los equipos privados mediante sugerencias de la galería de equipos y resultados de la búsqueda.
-ms.openlocfilehash: 0d068de791afd32d38b2b49ada275c6e3eced41c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e06a9511d8198a069c3dccfdbbbacf3d3f1b2c42
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836520"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46554700"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Administrar la detección de equipos privados en Microsoft Teams
+
+> [!IMPORTANT]
+> En función de los comentarios de los clientes, deshabilitaremos esta característica, a partir del 31 de agosto de 2020. Esto significa que después del 31 de agosto de 2020, ya no podrás configurar equipos privados para que se puedan descubrir y todos los equipos privados existentes y nuevos dejarán de ser detectables. Para obtener más información, consulte la [hoja de ruta de Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=44370).
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
@@ -60,11 +63,11 @@ Los propietarios de equipo pueden establecer la configuración de detección de 
 
 ### <a name="in-team-settings"></a>En la configuración del equipo
 
-En Teams, vaya al equipo privado, haga clic en **más opciones** > **administrar equipo**. En la pestaña **configuración** , expanda descubrimiento de equipo y, a continuación, Active o desactive la casilla **de verificación Activar** el **descubrimiento**.
+En Teams, vaya al equipo privado, haga clic en **más opciones**  >  **administrar equipo**. En la pestaña **configuración** , expanda descubrimiento de equipo y, a continuación, Active o desactive la casilla **de verificación Activar** el **descubrimiento**.
 
 ![Captura de pantalla de la configuración de detección para equipos privados existentes](media/private-team-discovery-existing-team.png)
 
-### <a name="using-powershell"></a>Usar PowerShell
+### <a name="using-powershell"></a>Con PowerShell
 
 Use el cmdlet **[set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** para desactivar o activar la configuración de detección de un equipo privado existente. Este es un ejemplo de cómo hacer que un equipo sea reconocible:
 ```PowerShell

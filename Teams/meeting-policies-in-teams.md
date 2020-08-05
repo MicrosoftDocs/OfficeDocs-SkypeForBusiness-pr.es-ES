@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: 1b7c94cd8dc0f46b72cea21ae46d98ed9a974fc5
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8eba2d4ebed9112e1ada4e3101bae9fe1cbfbcfe
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938309"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552616"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -268,7 +268,7 @@ Para usar PowerShell para controlar quién puede ceder el control o aceptar soli
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>Permitir que un participante externo pueda ceder o solicitar el control
 
-Esta es una directiva por usuario. Esta opción controla si los participantes externos de una reunión pueden ceder el control de su escritorio o ventana compartidos a otros participantes de la reunión. Los participantes externos de las reuniones de Teams se pueden clasificar de la siguiente manera:  
+Esta es una directiva por usuario. Si una organización tiene este valor para un usuario no controla lo que los participantes externos pueden hacer, independientemente de lo que haya establecido el organizador de la reunión. Este parámetro controla si los participantes externos pueden recibir control o solicitar el control de la pantalla del compartidor, en función de lo que el compartidor haya establecido dentro de las políticas de reuniones de su organización. Los participantes externos de las reuniones de Teams se pueden clasificar de la siguiente manera:  
 
 - Usuario anónimo
 - Usuarios invitados  

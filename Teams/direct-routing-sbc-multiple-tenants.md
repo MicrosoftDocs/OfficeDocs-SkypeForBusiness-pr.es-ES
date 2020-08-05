@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Aprenda a configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos para socios de Microsoft y/o para operadores RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4df64ec7bb47b440ba334becdfc03f1966631b3b
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0effcbf1c328592781ca955813368e3ee97b61e8
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689746"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552626"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -104,7 +104,7 @@ La siguiente tabla es un ejemplo de una configuración.
 Para configurar la base y los subdominios, siga los pasos que se describen a continuación. En el ejemplo, configuraremos un nombre de dominio base (customers.adatum.biz) y un subdominio para un cliente (sbc1.customers.adatum.biz en inquilino de Woodgrove Bank).
 
 > [!NOTE]
-> Usa sbcX.customers.adatum.biz para habilitar la voz en el inquilino de la portadora.
+> Usa sbcX.customers.adatum.biz para habilitar la voz en el inquilino de la portadora. sbcX puede ser cualquier nombre de host alfanumérico válido y único.
 
 ## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>Registrar un nombre de dominio base en el inquilino de la portadora
 

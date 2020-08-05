@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube con Microsoft Teams, que proporcionan un mensaje de saludo, mantener música, redirigir llamadas y otras características.
-ms.openlocfilehash: dd11e33e4947ea231310b06af2570711d55b2451
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+ms.openlocfilehash: f0631eece5b8f67cd93c46b34c56bb2283826c3f
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077724"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46556665"
 ---
 # <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 
@@ -203,6 +203,10 @@ Después de habilitar el modo de conferencia en una cola de llamadas, las llamad
 
 La mayoría de las llamadas se reciben a través de uno de los métodos mencionados anteriormente. Si se recibe una llamada a través de otro método (como una llamada de VoIP desde un cliente de Skype empresarial), la llamada se agregará a la cola de llamadas, pero no se beneficiará de la conexión más rápida.
 
+> [!NOTE]
+> El modo de conferencia no admite el uso ocupado en ocupado. Es posible que los agentes de las llamadas a colas que no sean de llamadas sigan apareciendo con una llamada en la cola de llamadas si el enrutamiento basado en presencia no está habilitado.
+
+
 ![Icono del número 3, que hace referencia a una llamada en el método de enrutamiento de captura de pantalla anterior, ](media/teamscallout3.png)
  **Routing method** puede elegir entre **operador**, **serie**, más **tiempo de inactividad**o por **turnos** como método de distribución. Todas las colas de llamadas nuevas y existentes tienen el enrutamiento de operador seleccionado de forma predeterminada. Cuando se usa el enrutamiento del operador, la primera llamada en la cola llama a todos los agentes de llamadas al mismo tiempo. El primer agente de llamadas que atiende la llamada recibe la llamada.
 
@@ -274,9 +278,7 @@ La configuración predeterminada es de 30 segundos, pero se puede establecer has
 - **Desconectar** La llamada se desconectará.
 - **Redirigir a** Si elige esta opción, seleccione una de las siguientes opciones:
 
-  - **Persona en la organización** Un usuario en línea con una licencia de sistema telefónico y estar habilitado para telefonía IP empresarial o tener un plan de llamadas. Puedes configurarlo para que la persona que llama pueda enviarse al buzón de voz. Para ello, seleccione una persona de su organización y configure esta persona para que sus llamadas se desvíen directamente al buzón de voz.
-
-  Para obtener información sobre las licencias necesarias para el buzón de voz, consulte [configurar el buzón de voz en la nube](set-up-phone-system-voicemail.md).
+  - **Persona en la organización** Un usuario en línea con una licencia de sistema telefónico y está habilitado para telefonía IP empresarial o tiene un plan de llamadas.
 
   - **Aplicación de voz** Seleccione el nombre de una cuenta de recursos asociada a una cola de llamadas o a un operador automático que ya se ha creado.
 
@@ -291,6 +293,13 @@ La configuración predeterminada es de 30 segundos, pero se puede establecer has
             - Si se establece en deshabilitado, se muestra el número de teléfono de la persona que llama original. Esta es la configuración predeterminada y recomendada.
             - Si se establece en habilitado, se muestra el número de teléfono de la cuenta del recurso.
     - No se admiten las transferencias entre los troncos del plan de llamadas y los troncos de enrutamiento directos.
+  - **Buzón de voz** Seleccione el grupo de Microsoft 365 que contiene los usuarios de su organización que necesitan obtener acceso al buzón de voz recibido por esta cola de llamadas y, a continuación, seleccione una de las siguientes opciones:
+      - **Reproducir un archivo de audio** Si elige esta opción, seleccione **Cargar archivo** para cargar un mensaje de bienvenida grabado. La grabación no puede tener más de 5 MB. 
+      - **Escribir un mensaje de bienvenida** Si elige esta opción, escriba el texto que quiere que el sistema Lea (hasta 1000 caracteres). Por ejemplo, puedes escribir "Lamentamos que no podamos hacer tu llamada en este momento. Deja el nombre, el número de teléfono y el motivo de la llamada después del pitido.
+
+      Active la transcripción si quiere habilitar la transcripción de voz a texto de los mensajes de voz.
+
+      Los mensajes de voz se envían al grupo de Microsoft 365 que especifique. Para acceder a los mensajes de voz, los miembros del grupo pueden abrirlos desplazándose al grupo en Outlook.
 
 * * *
 
@@ -304,9 +313,7 @@ El valor de tiempo de espera se puede establecer en segundos, en intervalos de 1
 
 - **Desconectar** La llamada se desconectará.
 - **Redirigir esta llamada a** Si elige esta opción, tiene estas opciones:
-  - **Persona en la organización** Un usuario en línea con una licencia de sistema telefónico y estar habilitado para telefonía IP empresarial o para tener planes de llamadas. Para configurarlo de modo que la persona que llama pueda enviarse al buzón de voz, seleccionar a una persona de su organización y configurar esta persona para que las llamadas se desvíen directamente al buzón de voz.
-
-  Para obtener información sobre las licencias necesarias para el buzón de voz, consulte [configurar el buzón de voz en la nube](set-up-phone-system-voicemail.md).
+  - **Persona en la organización** Un usuario en línea con una licencia de sistema telefónico y habilitado para telefonía IP empresarial o para tener planes de llamadas.
 
   - **Aplicación de voz** Seleccione el nombre de una cuenta de recursos asociada con una cola de llamadas o un operador automático que ya haya creado.
 
@@ -321,6 +328,13 @@ El valor de tiempo de espera se puede establecer en segundos, en intervalos de 1
             - Si se establece en deshabilitado, se muestra el número de teléfono de la persona que llama original. Esta es la configuración predeterminada y recomendada.
             - Si se establece en habilitado, se muestra el número de teléfono de la cuenta del recurso.
     - No se admiten las transferencias entre los troncos del plan de llamadas y los troncos de enrutamiento directos.
+    - **Buzón de voz** Seleccione el grupo de Microsoft 365 que contiene los usuarios de su organización que necesitan obtener acceso al buzón de voz recibido por esta cola de llamadas y, a continuación, seleccione una de las siguientes opciones:
+      - **Reproducir un archivo de audio** Si elige esta opción, seleccione **Cargar archivo** para cargar un mensaje de bienvenida grabado. La grabación no puede tener más de 5 MB.
+      - **Escribir un mensaje de bienvenida** Si elige esta opción, escriba el texto que quiere que el sistema Lea (hasta 1000 caracteres). Por ejemplo, puedes escribir "Lamentamos que no podamos hacer tu llamada en este momento. Deja el nombre, el número de teléfono y el motivo de la llamada después del pitido.
+
+      Active la transcripción si quiere habilitar la transcripción de voz a texto de los mensajes de voz.
+
+      Los mensajes de voz se envían al grupo de Microsoft 365 que especifique. Para acceder a los mensajes de voz, los miembros del grupo pueden abrirlos desplazándose al grupo en Outlook.
 
 ## <a name="change-caller-id-for-outbound-calls"></a>Cambiar la identificación de llamadas para llamadas salientes
 

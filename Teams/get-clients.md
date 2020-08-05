@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 928812619ff0f3f5c0194f75bdc93ced2f84c79b
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: d19e7b997a5972d3b3eb9b28d89b3e1b06359889
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139134"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552348"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 
@@ -40,7 +40,7 @@ Microsoft Teams tiene clientes disponibles para web, escritorio (Windows, Mac y 
 > [!TIP]
 > Vea la sesión siguiente para conocer las ventajas del cliente de escritorio de Windows, y cómo planearlo e implementarlo: [Cliente de escritorio de Teams para Windows](https://aka.ms/teams-clients)
 
-El cliente de escritorio de Microsoft Teams es una aplicación independiente y también está [disponible en las aplicaciones de microsoft 365 para empresas](https://docs.microsoft.com/deployoffice/teams-install). Teams está disponible para versiones de Windows de 32 y 64 bits de Windows (8,1 o posterior) y Windows Server (2012 R2 o posterior), así como para macOS y Linux (en `.deb` formato `.rpm` y formato). En Windows, Teams requiere .NET Framework 4.5 o posterior; el instalador de Teams le ofrecerá instalarlo si no lo tiene. En Linux, los administradores de paquetes como `apt` y `yum` intentarán instalar los requisitos por usted. No obstante, si no lo hacen, deberá instalar todos los requisitos indicados antes de instalar Teams en Linux.
+El cliente de escritorio de Microsoft Teams es una aplicación independiente y también está [disponible en las aplicaciones de microsoft 365 para empresas](https://docs.microsoft.com/deployoffice/teams-install). Teams está disponible para versiones de Windows de 32 y 64 bits de Windows (8,1 o posterior) y Windows Server (2012 R2 o posterior), así como para macOS y Linux (en `.deb` `.rpm` formato y formato). En Windows, Teams requiere .NET Framework 4.5 o posterior; el instalador de Teams le ofrecerá instalarlo si no lo tiene. En Linux, los administradores de paquetes como `apt` y `yum` intentarán instalar los requisitos por usted. No obstante, si no lo hacen, deberá instalar todos los requisitos indicados antes de instalar Teams en Linux.
 
 Los clientes de escritorio brindan asistencia en tiempo real para las comunicaciones (audio, vídeo y contenido compartido) para las reuniones de equipo, las llamadas grupales y las llamadas de uno a uno.
 
@@ -125,7 +125,7 @@ La clave de firma para habilitar la actualización automática mediante el admin
     - Abra la herramienta de administración del paquete correspondiente y siga el proceso autoguiado de instalación de aplicaciones Linux.
     - O bien, si le gusta Terminal, escriba lo siguiente: `sudo apt install **teams download file**`
 
-Para iniciar Teams a través de Actividades o a través de Terminal, escriba `Teams`. 
+Para iniciar Teams a través de Actividades o a través de Terminal, escriba `teams`. 
 
 #### <a name="install-teams-using-rpm-package"></a>Instalación de Teams con el paquete RPM
 
@@ -134,12 +134,13 @@ Para iniciar Teams a través de Actividades o a través de Terminal, escriba `Te
     - Abra la herramienta de administración del paquete correspondiente y siga el proceso autoguiado de instalación de aplicaciones Linux.
     - O bien, si le gusta Terminal, escriba lo siguiente: `sudo yum install **teams download file**`
 
-Para iniciar Teams a través de Actividades o a través de Terminal, escriba `Teams`.
+Para iniciar Teams a través de Actividades o a través de Terminal, escriba `teams`.
 
 #### <a name="install-manually-from-the-command-line"></a>Instalación manual mediante la línea de comandos
 
 Instalación manual en las distribuciones de Debian y Ubuntu:
-```
+
+```bash
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
  
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
@@ -149,7 +150,8 @@ sudo apt install teams
 ```
 
 Instalación manual en las distribuciones basadas en RHEL, Fedora y CentOS:
-```
+
+```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
@@ -159,13 +161,15 @@ sudo dnf install teams
 ```
 
 También puede usar yum en lugar de dnf:
-```
+
+```bash
 yum check-update
 sudo yum install teams
 ```
 
 Instalación manual en las distribuciones basadas en openSUSE:
-```
+
+```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'

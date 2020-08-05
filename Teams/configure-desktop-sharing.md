@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 955a642d2a2309ccbaf9f9d6280170a93a9179ae
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 34d7780e1d10370b78c11c1a8021381aff71f479
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905902"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552596"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configure el uso compartido del escritorio en Microsoft Teams
 ============================================
@@ -54,7 +54,7 @@ Para configurar el uso compartido de la pantalla, debe crear una nueva Directiva
 5. Activar o desactivar la siguiente configuración:
 
     - **Permitir que un participante pueda ceder o solicitar el control** : permite a los miembros del equipo ceder o solicitar el control del escritorio o de la aplicación del moderador.
-    - **Permitir que un participante externo pueda ceder o solicitar el control** : permite a los invitados y a los usuarios externos (federados) ceder o solicitar el control del escritorio o de la aplicación del moderador.
+    - **Permitir que un participante externo pueda ceder o solicitar el control** : esta es una directiva por usuario. Si una organización tiene este valor para un usuario no controla lo que los participantes externos pueden hacer, independientemente de lo que haya establecido el organizador de la reunión. Este parámetro controla si los participantes externos pueden recibir control o solicitar el control de la pantalla del compartidor, en función de lo que el compartidor haya establecido dentro de las políticas de reuniones de su organización.
     - **Permitir el uso compartido de PowerPoint**: permite a los usuarios crear reuniones que permiten cargar y compartir presentaciones de PowerPoint.
     - **Permitir pizarra**: permite a los usuarios compartir una pizarra.
     - **Permitir notas compartidas**: permite a los usuarios tomar notas compartidas.

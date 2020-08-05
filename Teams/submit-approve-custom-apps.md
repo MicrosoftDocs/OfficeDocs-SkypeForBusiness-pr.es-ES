@@ -17,22 +17,19 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo aprobar las aplicaciones personalizadas que se envían con la API de envío de aplicaciones de Teams en Microsoft Teams.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4c3563dc028c8566d29906e4e42a2002a197e71d
-ms.sourcegitcommit: 8812db47b45d171d47e71f87e84ab1828590392d
+ms.openlocfilehash: 6efb6a6c1541b7ea7e252b132c0ea891560bbdb6
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46523729"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552606"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar una aplicación personalizada enviada a través de la API de envío de la aplicación de Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## <a name="overview"></a>Información general
 
 > [!NOTE]
-> Al publicar una aplicación de Teams personalizada, esta estará disponible para los usuarios de la tienda de aplicaciones de su organización. Hay dos formas de publicar una aplicación personalizada y la forma de usarla depende de cómo obtenga la aplicación. **Este artículo se centra en cómo aprobar y publicar una aplicación personalizada que envía un desarrollador a través de la API de envío de la aplicación de Teams**. El otro método, cargar una aplicación personalizada, se usa cuando un desarrollador le envía un paquete de la aplicación en formato. zip. Para obtener más información sobre ese método, vea [publicar una aplicación personalizada mediante la carga de un paquete de la aplicación](manage-your-custom-apps.md).
+> Al publicar una aplicación de Teams personalizada, esta estará disponible para los usuarios de la tienda de aplicaciones de su organización. Hay dos formas de publicar una aplicación personalizada y la forma de usarla depende de cómo obtenga la aplicación. **Este artículo se centra en cómo aprobar y publicar una aplicación personalizada que envía un desarrollador a través de la API de envío de la aplicación de Teams**. El otro método, cargar una aplicación personalizada, se usa cuando un desarrollador le envía un paquete de la aplicación en formato. zip. Para obtener más información sobre ese método, vea <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">publicar una aplicación personalizada mediante la carga de un paquete de la aplicación</a>.
  
 En este artículo se proporcionan instrucciones completas sobre cómo llevar la aplicación de su equipo de desarrollo a la implementación hasta su descubrimiento. Obtendrá información general de las experiencias conectadas que Teams proporciona en el ciclo de vida de la aplicación para simplificar el desarrollo, la implementación y la administración de aplicaciones personalizadas en la tienda de aplicaciones de su organización.
 
@@ -142,6 +139,7 @@ En la mayoría de los casos, después de publicar una actualización de la aplic
 
 ## <a name="related-topics"></a>Temas relacionados
 
+- [Publicar una aplicación personalizada mediante la carga de un paquete de la aplicación](upload-custom-apps.md)
 - [Administrar las aplicaciones en el centro de administración de Microsoft Teams](manage-apps.md)
 - [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md)
 - [Administrar directivas de permisos de aplicación en Teams](teams-app-permission-policies.md)

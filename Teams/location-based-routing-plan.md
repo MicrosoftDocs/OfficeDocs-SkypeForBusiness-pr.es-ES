@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c47ca6105b1d497bbba391856bfc190ea88fb47f
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 233e26042c66e96f5611b9f3997684404353453d
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372039"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552278"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
 
@@ -30,12 +30,17 @@ ms.locfileid: "45372039"
 En algunos países y regiones, no es ilegal eludir el proveedor de la red telefónica conmutada (RTC) para reducir los gastos de llamadas de larga distancia. Este artículo describe cómo usar el enrutamiento basado en la ubicación para restringir el omisión de pago para los usuarios de Microsoft Teams en función de su ubicación geográfica. Este artículo se aplica únicamente al enrutamiento de un sistema telefónico directo.
 
 Aquí se ofrece información general sobre el enrutamiento basado en la ubicación y la orientación para ayudarle a planificarlo. Cuando esté listo para aplicar y habilitar el enrutamiento basado en la ubicación, consulte:
+
 - [Implementar la configuración de red para el enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md)
 - [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)
 
-El enrutamiento basado en la ubicación es una característica que le permite restringir la omisión de pago en función de la Directiva y la ubicación geográfica del usuario en el momento de una llamada RTC entrante o saliente. 
+> [!NOTE]
+> El enrutamiento basado en la ubicación no está disponible en las implementaciones de Microsoft 365 la nube de la comunidad de administración pública (GCC).
+
+El enrutamiento basado en la ubicación es una característica que le permite restringir la omisión de pago en función de la Directiva y la ubicación geográfica del usuario en el momento de una llamada RTC entrante o saliente. El enrutamiento basado en la ubicación está pensado para proporcionar un mecanismo que evite la omisión de peaje. No debe usarse como mecanismo para enrutar dinámicamente las llamadas RTC en función de la ubicación del usuario o pueden producirse consecuencias no deseadas.
 
 Cuando un usuario de Teams está habilitado para el enrutamiento basado en la ubicación, se aplican las siguientes acciones:
+
 - Para hacer una llamada RTC saliente, una de las siguientes condiciones debe cumplirse:
     - El extremo del usuario se encuentra en un sitio de red que está habilitado para el enrutamiento basado en la ubicación y las llamadas salida a través de la puerta de enlace correspondiente que está habilitada para el enrutamiento basado en la ubicación. 
     - El punto final del usuario se encuentra en un sitio de red que no está habilitado para el enrutamiento basado en la ubicación y las llamadas salida a través de una puerta de enlace que no está habilitada para el enrutamiento basado en la ubicación.

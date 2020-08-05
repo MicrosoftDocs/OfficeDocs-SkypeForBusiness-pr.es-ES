@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre los operadores automáticos de la nube y cómo usarlos para que los autores de llamadas puedan desplazarse por un sistema de menús para ubicar y transferir llamadas a usuarios o departamentos.
-ms.openlocfilehash: 53353df78c0344b3cf96b1854ea576e8d907bfbc
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+ms.openlocfilehash: 57e718ad6b660baa39814b987c2b6ca18bba05d9
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077645"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552576"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>¿Qué son los operadores automáticos en la nube?
 
@@ -109,7 +109,7 @@ Las personas pueden realizar búsquedas por nombre en su organización empleando
 |FirstName  |Completo   |Amos#   |Pulse 1 para Amos Marble  <br/> Pulse 2 para Amos Marcus |
 |Apellidos |Completo |Marble#  |Pulse 1 para Amos Marble  <br/> Pulse 2 para Mary Marble |
 |Nombre o Apellidos |Parcial |Mar# |Pulse 1 para Mary Marble  <br/> Pulse 2 para Mary Jones  <br/> Pulse 3 para Amos Marcus |
-|Nombre + Apellidos |Parcial |Mar0Amos# |Pulse 1 para Amos Marble  <br/> Pulse 2 para Amos Marcus |
+|Nombre + Apellidos |Parcial |Amos0Mar # |Pulse 1 para Amos Marble  <br/> Pulse 2 para Amos Marcus |
 |Apellidos + Nombre |Parcial |Mar0Am# |Pulse 1 para Amos Marble  <br/> Pulse 2 para Amos Marcus |
 
 En las búsquedas de personas a través del teclado del teléfono se pueden utilizar diferentes caracteres especiales. Por ejemplo, se le solicitará a la persona que use la tecla almohadilla (#), mientras que la tecla cero (0) se usa para un espacio entre nombres. Al pulsar la tecla de asterisco (*) se repetirá la lista de nombres coincidentes.

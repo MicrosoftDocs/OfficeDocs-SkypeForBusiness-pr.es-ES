@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2806d913fb63dcd2a7a25b26153435333282e871
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 8b064fa34511704c382ca42e6daa7812c17a13b0
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752982"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552016"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -45,28 +45,26 @@ La siguiente tabla proporciona una referencia rápida y útil sobre la disponibi
 
 **Acciones compatibles:**
 
-| El buzón del usuario se hospeda en: | eDiscovery| &nbsp;Retención legal | Policy| Administración de equipos y canales |Crear y ver reuniones en Teams| Modificar la imagen de perfil de usuario | Historial de llamadas | Administrar contactos | Obtener acceso a contactos de Outlook | Correo de voz |Agregar y configurar conectores|Agregar y configurar fichas|Agregar y configurar bots|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí |Sí<sup>8</sup>|Sí |Sí |Sí <sup>7</sup>|Sí |Sí |Sí |Sí |
-|**Exchange Online Dedicated vNext**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí |Sí<sup>8</sup>|Sí |Sí |Sí <sup>7</sup>|Sí |Sí |Sí |Sí|
-|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí <sup>2</sup>|Sí <sup>, 2, 3</sup>|Sí <sup> 4|Sí|No|No|Sí|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|Sí <sup> 5|Sí <sup> 6|Sí |Sí |
-|**Exchange local** (sincronizar con la configuración de OAuth de Azure ad & es necesario)|Sí <sup>2</sup>| Sí <sup>2</sup> |Sí <sup> 4|Sí|Sí (Exchange 2016 CU3 +)|No|Sí|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|Sí <sup> 5|Sí <sup> 6|Sí |Sí |
+| El buzón del usuario se hospeda en:                                        | eDiscovery       | &nbsp;Retención legal    | Policy  | Administración de equipos y canales | Crear y ver reuniones en Teams | Modificar la imagen de perfil de usuario | Historial de llamadas | Administrar contactos | Obtener acceso a contactos de Outlook | Correo de voz  | Agregar y configurar conectores | Agregar y configurar fichas | Agregar y configurar bots |
+|---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
+| **Exchange Online**                                                 | Sí <sup>1</sup> | Sí <sup>1</sup>   | Sí         | Sí                    | Sí                                | Sí<sup>7</sup>             | Sí           | Sí              | Sí <sup>6</sup>        | Sí         | Sí                           | Sí                     | Sí                     |
+| **Exchange Online Dedicated vNext**                                 | Sí <sup>1</sup> | Sí <sup>1</sup>   | Sí         | Sí                    | Sí                                | Sí<sup>7</sup>             | Sí           | Sí              | Sí <sup>6</sup>        | Sí         | Sí                           | Sí                     | Sí                    |
+| **Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)  | Sí <sup>1</sup> | Sí <sup>, 1, 2</sup> | Sí <sup> 3 | Sí                   | No                                | No                          | Sí          | Sí             | Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos                      | Sí <sup> 4 | Sí <sup> 5                   | Sí                     | Sí                     |
+| **Exchange local** (sincronizar con la configuración de OAuth de Azure ad & es necesario) | Sí <sup>1</sup> | Sí <sup>1</sup>   | Sí <sup> 3 | Sí                   | Sí (Exchange 2016 CU3 +)          | No                          | Sí          | Sí             | Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos                      | Sí <sup> 4 | Sí <sup> 5                   | Sí                     | Sí                     |
 
-<sup>1</sup> se admite la versión Exchange 2016 CU3 y versiones posteriores.  
+<sup>1</sup> las opciones de hospedaje admiten EDiscovery y retención legal para el cumplimiento de los mensajes de canal.
 
-<sup>2</sup> las opciones de hospedaje admiten EDiscovery y retención legal para el cumplimiento de los mensajes de canal.
+los mensajes de chat privado de <sup>2</sup> equipos aún no son compatibles con la retención legal de esta opción de hospedaje.
 
-los mensajes de chat privado de <sup>3</sup> equipos aún no son compatibles con la retención legal de esta opción de hospedaje.
+<sup>3</sup> la retención usará un buzón de sombra para que el usuario en línea almacene los mensajes.
 
-<sup>4</sup> la retención usará un buzón de sombra para que el usuario en línea almacene los mensajes. [Microsoft Teams es compatible con eDiscovery para usuarios de equipos en un entorno híbrido de Exchange](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
+<sup>4</sup> los usuarios de equipos de Exchange pueden usar el buzón de voz con Teams y recibir mensajes de voz en Outlook, pero los mensajes de voz no estarán disponibles para su visualización o reproducción en el cliente de Teams.
 
-<sup>5</sup> los usuarios de un equipo con buzón de correo de Exchange local pueden usar el buzón de voz con Teams y recibir mensajes de voz en Outlook, pero los mensajes de voz no estarán disponibles para su visualización o reproducción en el cliente de Teams.
+<sup>5</sup> si uno de los propietarios de un equipo puede Agregar conectores, todos los demás miembros de ese equipo podrán hacerlo, incluso si sus buzones están alojados en local.
 
-<sup>6</sup> si uno de los propietarios de un equipo puede Agregar conectores, todos los demás miembros de ese equipo podrán hacerlo, incluso si sus buzones están alojados en local.
+<sup>6</sup> solo los contactos de la carpeta contactos predeterminada. No se admite el acceso a otras carpetas o subcarpetas de contactos.
 
-<sup>7</sup> solo los contactos de la carpeta contactos predeterminada. No se admite el acceso a otras carpetas o subcarpetas de contactos.
-
-<sup>8</sup> Teams respeta la configuración de la [Directiva de buzón de correo web de Outlook](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) que está configurada por los administradores de inquilinos para controlar si los usuarios pueden cambiar su imagen de perfil. Si la opción **-SetPhotoEnabled** está desactivada en la Directiva, los usuarios no pueden agregar, modificar ni quitar su imagen de perfil. Por ejemplo, si un usuario carga una imagen de perfil aprobada por el Departamento de ti o de RRHH de su organización, no es necesario realizar ninguna acción. Sin embargo, si un usuario carga una imagen que no es apropiada, cámbiela de acuerdo con las directivas internas de la organización.
+<sup>7</sup> Teams respeta la configuración de la [Directiva de buzón de correo web de Outlook](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) que está configurada por los administradores de inquilinos para controlar si los usuarios pueden cambiar su imagen de perfil. Si la opción **-SetPhotoEnabled** está desactivada en la Directiva, los usuarios no pueden agregar, modificar ni quitar su imagen de perfil. Por ejemplo, si un usuario carga una imagen de perfil aprobada por el Departamento de ti o de RRHH de su organización, no es necesario realizar ninguna acción. Sin embargo, si un usuario carga una imagen que no es apropiada, cámbiela de acuerdo con las directivas internas de la organización.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Requisitos para sacar el máximo provecho de Microsoft Teams
 
