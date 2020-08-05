@@ -68,7 +68,6 @@
 ### [Plantillas de aplicación para equipos](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Administrar la aplicación Listas para su organización en Teams](manage-lists-app.md)
 ### [Administrar la aplicación Tareas para su organización](manage-tasks-app.md)
-### [Administrar la aplicación Elogiar](manage-praise-app.md)
 ### [Configurar la jerarquía de destinos de equipo](set-up-your-team-hierarchy.md)
 ### [Configurar la aplicación de Reuniones de Skype para trabajar con Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
