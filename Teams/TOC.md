@@ -660,6 +660,7 @@
 ### [Introducción a las plantillas para las organizaciones sanitarias de Teams](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Introducción a la mensajería segura para las organizaciones sanitarias](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Delegación de mensajes](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [Paquetes de directivas de Teams para sanidad](policy-packages-healthcare.md)
 ### [Información general de la aplicación Pacientes](expand-teams-across-your-org/healthcare/patients-app-overview.md)
 #### [Integración de registros sanitarios electrónicos en Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [Especificación de la interfaz DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
