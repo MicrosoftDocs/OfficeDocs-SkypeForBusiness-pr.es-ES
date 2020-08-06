@@ -1,8 +1,7 @@
 ---
 title: Teams para el comercio
 description: Obtenga más información sobre los recursos de administración disponibles para administrar y sacar el máximo partido de los equipos para las tiendas minoristas y los empleados.
-layout: LandingPage
-ms.topic: landing-page
+ms.topic: conceptual
 author: lanachin
 ms.author: v-lanac
 audience: admin
@@ -17,34 +16,17 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5d1db862ce796ab64b96df0c36de6931cc6fe0a5
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: c343dec360a910019a46dd7741ea28bc36dcd48d
+ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905692"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46576900"
 ---
 # <a name="teams-for-retail"></a>Teams para el comercio
 
 Use los recursos de administración aquí para administrar y sacar el máximo partido de los equipos para las tiendas minoristas y los empleados.
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/get-started-with-retail-teams-templates">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" alt="Icon depicting a map, representing getting started"/>
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Introducción a las plantillas comerciales de Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+|               |               |
+| ------------- | ------------- |
+| ![Tutorial: mapas](../media/walkthrough-map-teams-small.svg)  |  [Introducción a las plantillas comerciales de Teams](/microsoftteams/get-started-with-retail-teams-templates) |

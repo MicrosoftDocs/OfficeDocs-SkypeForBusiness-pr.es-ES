@@ -17,12 +17,12 @@ description: Aprenda a configurar el enrutamiento directo de las llamadas de Mic
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27ee8dd17b3948d373b5a6c13a210d298ee10d8c
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 1b0cfe260a2d7e159c4adfad31d5266ed5f924d5
+ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083160"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46576932"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -75,6 +75,9 @@ Actualmente se admiten los siguientes clientes.  Vuelva a consultar a menudo par
 - Teams Mobile Client para Android y Google Play Store versión 1416/1.0.0.2019121201 y superior
 - Teams Phone versión 1449/1.0.94.2019110802 y posteriores
 - Salas de equipos versión 4.4.25.0 y posteriores
+
+> [!NOTE]
+> Las llamadas de emergencia dinámicas, incluidas las notificaciones de seguridad, no se admiten en el cliente web de Teams. Para evitar que los usuarios usen el cliente web de Teams para llamar a números RTC, puede establecer una directiva de llamadas de equipo y desactivar la configuración de **permitir la llamada RTC en Internet** . Para obtener más información, vea [llamadas a directivas en Teams](teams-calling-policy.md) y [set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps).
 
 ## <a name="assign-emergency-addresses"></a>Asignar direcciones de emergencia
 

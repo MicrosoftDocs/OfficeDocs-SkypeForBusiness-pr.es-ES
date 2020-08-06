@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 233e26042c66e96f5611b9f3997684404353453d
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 3ab779c7b60ab702284c871ab6bd0ec08d051267
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552278"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572245"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
 
@@ -35,7 +35,7 @@ Aquí se ofrece información general sobre el enrutamiento basado en la ubicaci�
 - [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)
 
 > [!NOTE]
-> El enrutamiento basado en la ubicación no está disponible en las implementaciones de Microsoft 365 la nube de la comunidad de administración pública (GCC).
+> El enrutamiento basado en la ubicación no está disponible en las implementaciones High o DoD de la comunidad de Microsoft 365 pública Cloud (GCC).
 
 El enrutamiento basado en la ubicación es una característica que le permite restringir la omisión de pago en función de la Directiva y la ubicación geográfica del usuario en el momento de una llamada RTC entrante o saliente. El enrutamiento basado en la ubicación está pensado para proporcionar un mecanismo que evite la omisión de peaje. No debe usarse como mecanismo para enrutar dinámicamente las llamadas RTC en función de la ubicación del usuario o pueden producirse consecuencias no deseadas.
 

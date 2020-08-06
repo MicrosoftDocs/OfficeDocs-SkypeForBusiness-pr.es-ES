@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0b5c289a2cc87c778a0d9b0bd1ebb8d52978fb4
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 1508305fbc1d45caff9306dd5afb01d587df030b
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229146"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552288"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Administrar la licencia de Microsoft Teams Exploratory
 =======================================================
@@ -81,7 +81,7 @@ Los administradores pueden desactivar la opción de que los usuarios finales eje
 
 Puede desactivar la capacidad de un usuario para instalar aplicaciones y servicios de prueba, lo que impediría al usuario ejecutar la experiencia de Teams Exploratory. 
 
-1. Desde el Centro de administración de Microsoft 365, vaya a **Configuración** > **Configuración**, seleccione **Servicios** y **Aplicaciones y servicios en propiedad del usuario**.
+1. Desde el Centro de administración de Microsoft 365, vaya a **Configuración** > **Configuración de la organización**, seleccione **Servicios**, y luego seleccione **Aplicaciones y servicios que son propiedad del usuario**.
 
     ![Captura de pantalla de la página Servicios en el centro de administración.](media/iw-trial-services.png)
 
@@ -169,4 +169,3 @@ Las licencias de la experiencia de Microsoft Teams Exploratory iniciadas en un p
 En el caso de contratos sin una fecha de aniversario o una renovación anual, el año siguiente después de que el primer usuario final active las licencias de Microsoft Teams Exploratory se considerará como el aniversario o la fecha de renovación. Los usuarios de Microsoft Teams Exploratory deben pasar a una licencia de pago en esa fecha cada año, según las directivas anteriormente indicadas.
 
 Por ejemplo, si el primer usuario final activa Microsoft Teams Exploratory el 19 de junio de 2020, este usuario y todos los demás elegibles en el espacio empresarial del cliente deben pasar a una licencia de pago con Teams el 19 de junio de 2021. 
-

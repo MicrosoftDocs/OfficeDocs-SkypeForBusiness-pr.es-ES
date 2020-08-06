@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0e6185b81d7fcdbf76efa7c827249a93dfc00df
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 9f541eb0bd6970a54bad5272a26ec3a3449d2a13
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868687"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552636"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Administrar la oferta de prueba comercial en la nube de Microsoft Teams
 =======================================================
@@ -81,7 +81,7 @@ Los administradores pueden desactivar la capacidad de los usuarios finales de so
 
 Puede desactivar la capacidad de un usuario para instalar servicios y aplicaciones de prueba.
 
-1. Desde el [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home), vaya a **Configuración** > **Configuración**, seleccione **Servicios** y **Aplicaciones y servicios en propiedad del usuario**.
+1. Desde el [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home), vaya a **Configuración** > **Configuración de la organización**, seleccione **Servicios**, y luego **Aplicaciones y servicios que son propiedad del usuario**.
 
     ![Captura de pantalla de la página Servicios en el centro de administración.](media/iw-trial-services.png)
 
