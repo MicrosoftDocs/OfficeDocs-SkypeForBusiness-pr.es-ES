@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams | Preparación del entorno | Adopción, descubrimiento
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 audience: admin
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8720c4a7f228283e15fb5d7568f74f0153f2069f
-ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
+ms.openlocfilehash: c70d4273efb0f1d85d5c11bdcbd4cd05c15ac9b8
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45202943"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583898"
 ---
 # 
 

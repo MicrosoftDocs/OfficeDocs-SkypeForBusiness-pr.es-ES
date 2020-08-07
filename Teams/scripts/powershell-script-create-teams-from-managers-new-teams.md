@@ -1,7 +1,7 @@
 ---
 title: Ejemplo de script de PowerShell-crear nuevos equipos de administrador de contactos
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
@@ -16,23 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd7f638d8023595de3f3526376e3ce46c37dcff2
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 1f17ccf2372b10d8b0a14e4259faf9db22fc72ce
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951035"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583117"
 ---
-# <a name="powershell-script-sample---create-new-people-manager-teams"></a><span data-ttu-id="708cf-103">Ejemplo de script de PowerShell-crear nuevos equipos de administrador de contactos</span><span class="sxs-lookup"><span data-stu-id="708cf-103">PowerShell script sample - Create new people manager teams</span></span>
+# <a name="powershell-script-sample---create-new-people-manager-teams"></a><span data-ttu-id="bf31c-103">Ejemplo de script de PowerShell-crear nuevos equipos de administrador de contactos</span><span class="sxs-lookup"><span data-stu-id="bf31c-103">PowerShell script sample - Create new people manager teams</span></span>
 
-<span data-ttu-id="708cf-104">Use este script de PowerShell para crear un equipo para cada jefe con sus directos como miembros del equipo.</span><span class="sxs-lookup"><span data-stu-id="708cf-104">Use this PowerShell script to create a team for each manager with their directs as team members.</span></span> <span data-ttu-id="708cf-105">Antes de ejecutar esta secuencia de comandos, ejecute la secuencia de comandos de [export managers](powershell-script-create-teams-from-managers-export-managers.md) para exportar (de su Active Directory) una lista de administradores y sus directos para su organización.</span><span class="sxs-lookup"><span data-stu-id="708cf-105">Before you run this script, run the [Export managers](powershell-script-create-teams-from-managers-export-managers.md) script to  export (from your Active Directory) a list of managers and their directs for your organization.</span></span>
+<span data-ttu-id="bf31c-104">Use este script de PowerShell para crear un equipo para cada jefe con sus directos como miembros del equipo.</span><span class="sxs-lookup"><span data-stu-id="bf31c-104">Use this PowerShell script to create a team for each manager with their directs as team members.</span></span> <span data-ttu-id="bf31c-105">Antes de ejecutar esta secuencia de comandos, ejecute la secuencia de comandos de [export managers](powershell-script-create-teams-from-managers-export-managers.md) para exportar (de su Active Directory) una lista de administradores y sus directos para su organización.</span><span class="sxs-lookup"><span data-stu-id="bf31c-105">Before you run this script, run the [Export managers](powershell-script-create-teams-from-managers-export-managers.md) script to  export (from your Active Directory) a list of managers and their directs for your organization.</span></span>
 
-<span data-ttu-id="708cf-106">Para obtener más información sobre este script de PowerShell, lea [crear equipos de administración de personas](../create-manager-directs-teams.md).</span><span class="sxs-lookup"><span data-stu-id="708cf-106">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="bf31c-106">Para obtener más información sobre este script de PowerShell, lea [crear equipos de administración de personas](../create-manager-directs-teams.md).</span><span class="sxs-lookup"><span data-stu-id="bf31c-106">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="708cf-107">Si es la primera vez que usa PowerShell y necesita ayuda para comenzar, consulte [Introducción a Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="708cf-107">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="bf31c-107">Si es la primera vez que usa PowerShell y necesita ayuda para comenzar, consulte [Introducción a Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="bf31c-107">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="create-new-people-manager-teams"></a><span data-ttu-id="708cf-108">Crear nuevos equipos del administrador de personas</span><span class="sxs-lookup"><span data-stu-id="708cf-108">Create new people manager teams</span></span> 
+## <a name="create-new-people-manager-teams"></a><span data-ttu-id="bf31c-108">Crear nuevos equipos del administrador de personas</span><span class="sxs-lookup"><span data-stu-id="bf31c-108">Create new people manager teams</span></span> 
 
 ```powershell
 <# 

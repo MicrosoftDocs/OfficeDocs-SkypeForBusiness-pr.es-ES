@@ -7,8 +7,8 @@ metadata:
   description: Únase a nosotros en una serie de talleres de planificación de actualización interactivos, en los que compartiremos la orientación, las prácticas recomendadas y los recursos diseñados para ayudarle a planear e implementar la actualización a Teams. Para obtener una experiencia óptima, inicie con el plan de actualizaciones de las sesiones que se muestran a continuación. Haga clic en el título de un taller para inscribirse.
   ms.service: msteams
   ms.topic: hub-page
-  author: LolaJacobsen
-  ms.author: lolaj
+  author: SerdarSoysal
+  ms.author: serdars
   manager: serdars
   ms.date: 01/27/2020
   ms.reviewer: landerl
@@ -24,12 +24,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: d001251acc86e516267cdcd38a797afbfc2516f2
-  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.openlocfilehash: 855fc39ea6694cf6fc1741fd64cc4ba3d07eb098
+  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 06/26/2020
-  ms.locfileid: "44902395"
+  ms.lasthandoff: 08/06/2020
+  ms.locfileid: "46583287"
 productDirectory:
   items:
   - title: Planee la actualización (¡Comience aquí!)

@@ -7,8 +7,8 @@ metadata:
   description: Diseñado para profesionales de ti y responsables de la toma de decisiones, las conversaciones de tiza para equipos proporcionan una oportunidad única de aprender las mejores prácticas y la orientación práctica en algunos de los escenarios más populares y atractivos de Teams. Estos talleres interactivos en línea, facilitados por expertos en la materia, presentarán información para mejorar la implementación de sus equipos y proporcionar valor adicional a los usuarios finales. Haz clic en el título de cualquier taller a continuación para ver las fechas y horas disponibles, y Regístrate hoy mismo. Haga clic en el título de un taller para inscribirse.
   ms.service: msteams
   ms.topic: hub-page
-  author: LolaJacobsen
-  ms.author: lolaj
+  author: SerdarSoysal
+  ms.author: serdars
   manager: serdars
   ms.date: 06/17/2020
   ms.reviewer: nsuter
@@ -25,12 +25,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 45489827990ef2453a92e6a7ea980790efadb569
-  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.openlocfilehash: aeb244d8969ad3f8463cd966a6f0facae68f08e0
+  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 06/26/2020
-  ms.locfileid: "44902386"
+  ms.lasthandoff: 08/06/2020
+  ms.locfileid: "46583469"
 productDirectory:
   items:
   - title: 'Llegar a teams: de cero a producción'

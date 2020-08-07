@@ -7,8 +7,8 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: lolaj
-  author: LolaJacobsen
+  ms.author: serdars
+  author: SerdarSoysal
   ms.reviewer: shalenc
   manager: serdars
   ms.service: msteams
@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: b3b2deccbe49b5fa54ab9825a0d66b74e61917ec
-  ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+  ms.openlocfilehash: b23b4eaa363a0a2d43c911fd0909c99d77a2cd35
+  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 07/15/2020
-  ms.locfileid: "45137920"
+  ms.lasthandoff: 08/06/2020
+  ms.locfileid: "46582457"
 items:
 - durationInMinutes: 1
   content: >
