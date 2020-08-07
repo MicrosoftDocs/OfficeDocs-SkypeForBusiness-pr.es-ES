@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d971a7c9e44e2fbf7c3d2500f237e3755c5f89d0
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 86c0908b04b2eece835a747d9f57625878c15a99
+ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522948"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588294"
 ---
 # <a name="use-ndi-in-microsoft-teams"></a>Usar NDI en Microsoft Teams
 
@@ -40,7 +40,7 @@ NDI está limitado a una red local y solo se debe considerar parte del flujo de 
 
 NDI requiere que se activen dos pasos para un usuario.
 
-1. El administrador de inquilinos debe habilitar la característica de marca de enableStreamingCallsOverNdi.
+1. El administrador de inquilinos debe habilitar la propiedad ' AllowNDIStreaming ' en CsTeamsMeetingPolicy.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
@@ -54,13 +54,13 @@ La imagen siguiente muestra el mensaje emergente que un usuario ve en una reuni�
 
 ![Una imagen del banner NDI que se muestra en una reunión de Teams.](media/NDI-disclosure.png)
 
-La pancarta tiene un vínculo a la [política de privacidad de Microsoft](https://support.skype.com/faq/FA34853/what-is-skype-for-content-creators?q=ndi).
+La pancarta tiene un vínculo a la [política de privacidad de Microsoft](https://aka.ms/teamsprivacy).
 
 ## <a name="supported-locales-and-user-types"></a>Configuraciones regionales y tipos de usuario admitidos
 
 NDI es compatible con todas las configuraciones regionales. Los siguientes usuarios son compatibles con una reunión de NDI:
 
-- En el inquilino: soporte completo, entregado en función de ring/tenantId/userId (controlado por la marca de características y Directiva de reuniones)
+- En el inquilino: soporte completo, entregado en función de ring/tenantId/userId (controlado por la Directiva de reuniones)
 - Federado: no (incluso cuando se NDI)<sup>1</sup>
 - Freemium: no (valor predeterminado)
 - Anonymous: no (valor predeterminado)
