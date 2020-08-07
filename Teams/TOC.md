@@ -675,7 +675,7 @@
 ### [Asignar directivas a grandes grupos de usuarios](batch-group-policy-assignment-edu.md)
 ### [Script de PowerShell para crear grupos de seguridad para educadores y estudiantes](scripts/powershell-script-security-groups-edu.md)
 ### [Guía ancho de banda bajo de para administradores de educación](edu-remote-low-bandwidth.md)
-### [Información sobre Clase](class-insights.md)
+### [Introducción a Insights](class-insights.md)
 ### [Tareas en Teams para educación](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Recursos de Teams para administradores de educación](resources-teams-edu.md)
 ### [Preguntas frecuentes de la administración de Microsoft Education para administradores](plan-teams-governance-edu.md)
