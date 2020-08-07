@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Administrador puede saber qué controladores de borde de sesión (SBCs) se han certificado para el enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 973df1511657a71cb05ee6df8409dff4290ccd95
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 357bfd141527d104a0843e9e4e5d9c574307b4ac
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572255"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583939"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 
@@ -75,7 +75,9 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Elemento de borde unificado (cubo) de Cisco para los enrutadores de servicios integrados de la serie 1000        |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |    <ul> <li> [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Servicio de enrutamiento de emergencia de entrada de entrada (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Puerta de enlace de emergencia de entrada (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |   |  
 |                                   |     Elemento de borde unificado (cubo) de Cisco para los enrutadores de servicios integrados de la serie 4000        |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |   <ul> <li> [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Servicio de enrutamiento de emergencia de entrada de entrada (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Puerta de enlace de emergencia de entrada (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  
 |                                   |     Elemento de borde unificado (cubo) de Cisco para el enrutador de servicios en la nube serie 1000V       |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |    <ul> <li> [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Servicio de enrutamiento de emergencia de entrada de entrada (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Puerta de enlace de emergencia de entrada (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
-|                                 |     Elemento de borde unificado (cubo) de Cisco para enrutadores de servicios de agregación de la serie 1000      |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |    <ul> <li> [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Servicio de enrutamiento de emergencia de entrada de entrada (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Puerta de enlace de emergencia de entrada (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
+|                                 |     Elemento de borde unificado (cubo) de Cisco para enrutadores de servicios de agregación de la serie 1000      |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |    <ul> <li> [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Servicio de enrutamiento de emergencia de entrada de entrada (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Puerta de enlace de emergencia de entrada (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
+|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Controlador de borde de sesión de Avaya para la empresa (ASBCE)    |     &#10004;     |           |       Liberar 8.1.1       |     |    | 
+
 
 En la siguiente tabla se enumeran los dispositivos verificados para la interoperabilidad entre el enrutamiento directo y los dispositivos analógicos.
 

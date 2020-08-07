@@ -19,16 +19,18 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 26f26e869758c06762167731068033acb1707135
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: cc62eeb2cbbc14ce921c3f85860a72d38b59965d
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506479"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583177"
 ---
 # <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>Introducción a las plantillas de Teams en la consola de administración de Teams
 
 [!INCLUDE [template](includes/preview-feature.md)]
+
+**Las plantillas personalizadas aún no son compatibles con los clientes de EDU.**
 
 > [!NOTE]
 > Las plantillas de Teams actualmente no admiten la creación de canales privados. La creación de canales privados no se incluye en las definiciones de plantilla.
@@ -89,6 +91,6 @@ Una vez que se define un tipo de plantilla base, puede extender o invalidar esta
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Crear una plantilla de equipo](create-a-team-template.md)
-- [Crear un equipo a partir de una plantilla de equipo existente](modify-existing-team-template.md)
-- [Crear una plantilla a partir de un equipo existente](create-team-from-existing-team.md)
+- [Crear una plantilla de equipo personalizada](create-a-team-template.md)
+- [Crear una plantilla de equipo a partir de una plantilla de equipo existente](create-template-from-existing-template.md)
+- [Crear una plantilla a partir de un equipo existente](create-template-from-existing-team.md)

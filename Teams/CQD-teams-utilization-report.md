@@ -1,7 +1,7 @@
 ---
 title: Ver la utilización de Microsoft Teams en Power BI con datos del CQD
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article
@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Use los informes de uso de Power BI de Teams para acceder a datos del panel de calidad de llamadas de Microsoft Teams (CQD) para realizar un seguimiento del uso de Microsoft Teams en su organización.
-ms.openlocfilehash: bd1a95a683da881a78acb5d4849bba0ac55f4898
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: bda89f3715997016e6c1bea242dcf6b8b182c6bf
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085586"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581551"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Ver la utilización de Microsoft Teams en Power BI con datos del CQD
 

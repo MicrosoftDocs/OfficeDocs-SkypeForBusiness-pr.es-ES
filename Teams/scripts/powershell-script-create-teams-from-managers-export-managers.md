@@ -1,7 +1,7 @@
 ---
 title: 'Ejemplo de script de PowerShell: administradores de exportación y sus directos'
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ccc5e5f435ccb096b3cd552fc8e2e87204a4abc
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: d9e7b35710811438f1435306ce08b487b490d472
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951085"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583127"
 ---
 # <a name="powershell-script-sample---export-managers-and-their-directs"></a>Ejemplo de script de PowerShell: administradores de exportación y sus directos
 

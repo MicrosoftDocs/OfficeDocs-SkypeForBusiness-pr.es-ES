@@ -1,7 +1,7 @@
 ---
 title: Apariencia de línea compartida en Microsoft Teams
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Obtenga más información sobre cómo enviar a los usuarios un correo electrónico con la información de las audioconferencias en Microsoft Teams.
-ms.openlocfilehash: 92eda8a1818d98689e71d81f31c5355df3ef1e26
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: 7750f85e959f332832c24b60b4efafd784218f61
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125983"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583839"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Apariencia de línea compartida en Microsoft Teams
 
@@ -59,14 +59,14 @@ La apariencia de línea compartida es compatible actualmente con las siguientes 
 
 | Función | Equipo de escritorio | Aplicación de equipos Mac | Teams Web App (Edge) |Teams Mobile iOS/aplicación para Android | Teléfono IP de Teams |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| Configurar delegación | Sí  | Sí  | Sí | No | Sí |
-| Recibir llamadas en nombre de otro | Sí  | Sí  | Sí  | Sí  | Sí  |
-| Llamar a un número de teléfono en nombre de otro | Sí  | Sí  | Sí  | Sí  | Sí  |
-| Llamar a un usuario de Teams en nombre de otro | Sí  | Sí  | Sí  | Sí  | Sí  |
-| Ver la vista de administrador de líneas compartidas | Sí  | Sí  | Sí | No | No |
-| Ver la vista de administración de las actividades de llamadas de Manager | Sí  | Sí  | Sí | No | No |
-| Ver la vista de administrador de delegados | Sí  | Sí  | Sí | No | No |
-| El administrador o el administrador pueden retener o reanudar | Sí  | Sí  | Sí | No | No |
+| Configurar delegación | Sí | Sí | Sí | No | Sí |
+| Recibir llamadas en nombre de otro | Sí | Sí | Sí | Sí | Sí |
+| Llamar a un número de teléfono en nombre de otro | Sí | Sí | Sí | Sí | Sí |
+| Llamar a un usuario de Teams en nombre de otro | Sí | Sí | Sí | Sí | Sí |
+| Ver la vista de administrador de líneas compartidas | Sí | Sí | Sí | No | No |
+| Ver la vista de administración de las actividades de llamadas de Manager | Sí | Sí | Sí | No | No |
+| Ver la vista de administrador de delegados | Sí | Sí | Sí | No | No |
+| El administrador o el administrador pueden retener o reanudar | Sí | Sí | Sí | No | No |
 
 ## <a name="limitations"></a>Algunas
 

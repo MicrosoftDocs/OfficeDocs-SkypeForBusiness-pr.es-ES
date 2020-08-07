@@ -1,8 +1,8 @@
 ---
 title: Microsoft 365 Groups y Microsoft Teams
 ms.reviewer: Kyle Blevins
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 04/16/2019
 ms.topic: conceptual
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ec2845723ce7f4a593064795f158ddf718d5b6e5
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: a44adb84cb6669bb96bd617fb52ea9b5fdceb7af
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753900"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581131"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 Groups y Microsoft Teams
 =====================================

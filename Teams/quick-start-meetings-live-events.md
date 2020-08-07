@@ -3,8 +3,8 @@ title: 'Inicio rápido de administración: reuniones y eventos en directo en Mic
 ms.reviewer: ''
 description: Empiece rápidamente con reuniones y eventos en directo en Microsoft Teams.
 ms.topic: article
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.service: msteams
 audience: admin
@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eb91032689ffccc5696d60e44e52e72d5f4f067
-ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
+ms.openlocfilehash: 02588d7aa53561993237bd51c0bb5764c2e6ac2b
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44889989"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581151"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Inicio rápido de administración: reuniones y eventos en directo en Microsoft Teams
 

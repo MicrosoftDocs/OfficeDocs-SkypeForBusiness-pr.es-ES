@@ -1,7 +1,7 @@
 ---
 title: Obtener ayuda en Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: Obtenga más información sobre temas de ayuda, vídeos, notas de l
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a43e6f0907f3cb5c994b9ce0060a7213744358d
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: cdc4365e000eab7ff4c91cbcb0f44d985bb13c33
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085306"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583217"
 ---
 <a name="get-help-in-microsoft-teams"></a>Obtener ayuda en Microsoft Teams
 ============================================

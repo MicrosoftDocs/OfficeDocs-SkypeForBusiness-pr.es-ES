@@ -1,7 +1,7 @@
 ---
 title: Usar fichas integradas y personalizadas en Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/20/2019
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Aprenda a usar fichas integradas y personalizadas para incluir características como conversaciones, archivos, mapas y mucho más.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e542b1370cdd03fb0c39c5bf471df58ec0c7e989
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 8ed9b1048eae307eaba0dcb5463cee15dac981db
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824698"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581361"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar fichas integradas y personalizadas en Microsoft Teams
 ==================================================
@@ -41,7 +41,7 @@ Los propietarios y los miembros del equipo pueden agregar pestañas adicionales 
 
     ![Captura de pantalla de las pestañas de una conversación.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
-- Los propietarios y los miembros del equipo pueden agregar más pestañas a un canal o un chat haciendo clic en **Agregar una** ![captura de pantalla de pestaña del botón Agregar una pestaña, que muestra un signo +.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) en la parte superior del canal o del chat.
+- Los propietarios y los miembros del equipo pueden agregar más pestañas a un canal o un chat haciendo clic en **Agregar una** ![ captura de pantalla de pestaña del botón Agregar una pestaña, que muestra un signo +.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) en la parte superior del canal o del chat.
 
 - Los archivos Excel, PowerPoint, Word y PDF deben cargarse en la pestaña **archivos** antes de que se puedan convertir en pestañas. Cualquier archivo cargado existente puede convertirse en una ficha con un solo clic, como se muestra a continuación.
 

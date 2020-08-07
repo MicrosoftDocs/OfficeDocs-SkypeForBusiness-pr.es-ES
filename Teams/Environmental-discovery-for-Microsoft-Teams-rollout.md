@@ -1,7 +1,7 @@
 ---
 title: Compatibilidad ambiental-Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6decfba208fd33bfd1326b4839ef77c9fc1f7558
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 43fc4728ab634efe78a0e0e129b2979096a57d60
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522683"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581121"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Descubrimiento ambiental para una implementación de Microsoft Teams
 ===================================================

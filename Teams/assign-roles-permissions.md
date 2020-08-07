@@ -1,7 +1,7 @@
 ---
 title: Asignar miembros y propietarios de equipo en Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45cfe8ed255e889093044672cb738152adaaf6ae
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 006c1a446708c5773abc2b63720846900051bfdf
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610142"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581401"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Asignar miembros y propietarios de equipo en Microsoft Teams
 =================================================
@@ -38,14 +38,14 @@ En la tabla siguiente se muestra la diferencia entre un propietario y un miembro
 |-----------------------------------|------------|-------------|
 |          **Crear un equipo**          |    Sí<sup>1</sup>     |     No      |
 |          **Abandonar equipo**           |    Sí     |     Sí     |
-|  **Editar nombre o descripción del equipo**   |    No     |     No      |
+|  **Editar nombre o descripción del equipo**   |    Sí     |     No      |
 |          **Eliminar equipo**          |    Sí     |     No      |
 |          **Agregar canal estándar**          |    Sí     |    Sí<sup>2</sup>|
 | **Editar Nombre/Descripción del canal estándar** |    Sí     |    Sí<sup>2</sup>|
 |        **Eliminar canal estándar**         |    Sí     |    Sí<sup>2</sup>|
 |          ***Agregar canal privado**          |    Sí     |    Sí<sup>2</sup>|
 | ***Editar Nombre/Descripción del canal privado** |    No     |    N/D|
-|        ***Eliminar canal privado**         |    No     |    No|
+|        ***Eliminar canal privado**         |    Sí     |    No|
 |          **Agregar miembros**          |  Sí<sup>3</sup>   |     No<sup>4</sup>    |
 |          **Solicitud para agregar miembros**          |  N/D   |     Sí<sup>5</sup>     |
 |           **Agregar aplicaciones**            |    Sí     |    Sí<sup>2</sup>|

@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo aprobar las aplicaciones personalizadas que se envían con la API de envío de aplicaciones de Teams en Microsoft Teams.
-ms.openlocfilehash: 6efb6a6c1541b7ea7e252b132c0ea891560bbdb6
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 7168a6cf531890a8e942153cc4d214085d6bc63f
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552606"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583509"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar una aplicación personalizada enviada a través de la API de envío de la aplicación de Teams
 
@@ -87,6 +87,12 @@ De forma predeterminada, todos los usuarios de su organización pueden acceder a
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>Anclar e instalar la aplicación para que los usuarios puedan descubrir
 
 De forma predeterminada, para que los usuarios encuentren la aplicación, deben ir a la tienda de aplicaciones de su organización y examinarla o buscarla. Para facilitar a los usuarios el acceso a la aplicación, puede anclar la aplicación a la barra de aplicaciones de Teams. Para ello, cree una directiva de configuración de aplicaciones y asígnela a los usuarios. Para obtener más información, vea <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">Administrar directivas de configuración de aplicaciones en Teams</a>.
+
+### <a name="search-the-audit-log-for-teams-app-events"></a>Buscar eventos de aplicaciones de Teams en el registro de auditoría
+
+Puede buscar en el registro de auditoría para ver la actividad de las aplicaciones de Teams de su organización. Para obtener más información sobre cómo buscar en el registro de auditoría y ver una lista de las actividades de Teams registradas en el registro de auditoría, consulte <a href="https://docs.microsoft.com/microsoftteams/audit-log-events" target="_blank">buscar eventos en el registro de auditoría de los equipos</a>.
+
+Antes de poder buscar en el registro de auditoría, primero debe activar la auditoría en el <a href="https://protection.office.com" target="_blank">centro de cumplimiento de & de seguridad</a>. Para obtener más información, vea <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">activar o desactivar la búsqueda de registros de auditoría</a>. Tenga en cuenta que los datos de auditoría solo están disponibles desde el punto en el que activó la auditoría.
 
 ## <a name="discover-and-adopt"></a>Descubrir y aprobar
 

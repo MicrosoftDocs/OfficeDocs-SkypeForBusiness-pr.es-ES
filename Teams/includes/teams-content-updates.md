@@ -3,83 +3,10 @@
 
 
 
-## <a name="week-of-june-29-2020"></a>Semana del 29 de junio de 2020
-
-
-| Fecha de publicación |Título del tema | Change |
-|------|------------|--------|
-| 6/23/2020 | [Etiquetas de confidencialidad para Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | modificado |
-| 6/23/2020 | [Plan para eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modificado |
-| 6/23/2020 | [Consideraciones del modo Teams solo](/MicrosoftTeams/teams-only-mode-considerations) | modificado |
-| 6/23/2020 | [Enrutamiento directo del Sistema telefónico](/MicrosoftTeams/direct-routing-protocols-sip) | modificado |
-| 6/23/2020 | [Interoperabilidad entre equipos y Skype](/MicrosoftTeams/teams-skype-interop) | modificado |
-| 6/24/2020 | [Guía de operaciones para Microsoft Teams](/MicrosoftTeams/1-drive-value-operate-my-service) | modificado |
-| 6/24/2020 | [Archivar o borrar un equipo en Microsoft Teams](/MicrosoftTeams/archive-or-delete-a-team) | modificado |
-| 6/24/2020 | [Audioconferencias con enrutamiento directo, GCCH y DoD](/MicrosoftTeams/audio-conferencing-with-direct-routing-for-gcch-and-dod) | modificado |
-| 6/24/2020 | [Crear usuarios de Microsoft 365, agregar licencias de Business Voice y asignar números de teléfono](/MicrosoftTeams/business-voice/create-users) | modificado |
-| 6/24/2020 | [Microsoft 365 Empresa Voice](/MicrosoftTeams/business-voice/index) | modificado |
-| 6/24/2020 | [Permisos de administrador necesarios para comprar Microsoft 365 Business Voice](/MicrosoftTeams/business-voice/ui/admin-perms-needed) | modificado |
-| 6/24/2020 | [Configurar un operador automático en la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
-| 6/24/2020 | [Crear un equipo que abarque toda la organización en Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | modificado |
-| 6/24/2020 | [Chat, equipos, canales y aplicaciones en Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | modificado |
-| 6/24/2020 | [Administrar la Prueba gratuita de Office 365 E1](/MicrosoftTeams/e1-trial-license) | modificado |
-| 6/24/2020 | [Se retirará Microsoft StaffHub](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | modificado |
-| 6/24/2020 | [Administrar la Prueba de Office 365 G1 gratuita para el gobierno de Estados Unidos](/MicrosoftTeams/g1-trial-license) | modificado |
-| 6/24/2020 | [Usar PowerShell para controlar el acceso de invitados a un equipo](/MicrosoftTeams/guest-access-powershell) | modificado |
-| 6/24/2020 | [Acceso de invitado en Microsoft Teams](/MicrosoftTeams/guest-access) | modificado |
-| 6/24/2020 | [Barreras de la información en Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modificado |
-| 6/24/2020 | [Administrar la oferta de prueba comercial en la nube](/MicrosoftTeams/iw-trial-teams) | modificado |
-| 6/24/2020 | [Administrar las aplicaciones en el centro de administración de Microsoft Teams](/MicrosoftTeams/manage-apps) | modificado |
-| 6/24/2020 | [Administrar cuentas de recursos en Teams](/MicrosoftTeams/manage-resource-accounts) | modificado |
-| 6/24/2020 | [Administrar las aplicaciones personalizadas en Microsoft Teams](/MicrosoftTeams/manage-your-custom-apps) | modificado |
-| 6/24/2020 | [Reunión en primer lugar-Microsoft Teams](/MicrosoftTeams/meetings-first) | modificado |
-| 6/24/2020 | [Preparar la red de la organización para Microsoft Teams](/MicrosoftTeams/prepare-network) | modificado |
-| 6/24/2020 | [Información general de seguridad y cumplimiento](/MicrosoftTeams/security-compliance-overview) | modificado |
-| 6/24/2020 | [Configurar la licencia telefónica de área común](/MicrosoftTeams/set-up-common-area-phones) | modificado |
-| 6/24/2020 | [Iniciar sesión en Microsoft Teams con la autenticación moderna](/MicrosoftTeams/sign-in-teams) | modificado |
-| 6/24/2020 | [Caducidad y renovación de equipos en Microsoft Teams](/MicrosoftTeams/team-expiration-renewal) | modificado |
-| 6/24/2020 | [Asignar licencias de complementos de Teams a los usuarios](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | modificado |
-| 6/24/2020 | [Sistema telefónico de Microsoft 365-licencias de usuario virtual](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | modificado |
-| 6/24/2020 | [Optimizar la adopción de comentarios e informes para la adopción de Microsoft Teams](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) | modificado |
-| 6/24/2020 | [Administrar directivas de configuración de aplicación en Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modificado |
-| 6/24/2020 | [Administrar la experiencia de Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | modificado |
-| 6/24/2020 | [Probar o comprar conferencias de audio en Microsoft 365 para equipos](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | modificado |
-| 6/24/2020 | [Activar y usar el panel de calidad de llamadas](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | modificado |
-| 6/24/2020 | [Operaciones de Microsoft Teams\| Administración del servicio \| Calidad](/MicrosoftTeams/upgrade-operate-my-service) | modificado |
-| 6/24/2020 | [Plan para la actualización de Skype Empresarial a Microsoft Teams \| Marco de adopción](/MicrosoftTeams/upgrade-plan-journey) | modificado |
-| 6/24/2020 | [Aprendizaje de Microsoft Teams \| problemas de administración de soporte técnico de TI](/MicrosoftTeams/upgrade-prepare-it-pros) | modificado |
-| 6/24/2020 | [Guía básica de la actualización a Microsoft Teams \| Skype empresarial](/MicrosoftTeams/upgrade-to-teams) | modificado |
-| 6/24/2020 | [Usar el Asesor de Teams (versión preliminar pública) para ayudar a implementar Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modificado |
-| 6/24/2020 | [Grabación de reuniones en la nube de Teams](/MicrosoftTeams/cloud-recording) | modificado |
-| 6/24/2020 | [Directivas de Microsoft Teams y paquetes de directivas para administradores de EDU](/MicrosoftTeams/policy-packages-edu) | modificado |
-| 6/24/2020 | [Funciones del moderador y participante en un evento de Teams en directo](/MicrosoftTeams/roles-in-live-events) | modificado |
-| 6/24/2020 | [Problemas conocidos](/MicrosoftTeams/rooms/known-issues) | modificado |
-| 6/24/2020 | Use el Asistente para pruebas de red | eliminado |
-| 6/25/2020 | [Disponibilidad en Argelia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria) | modificado |
-| 6/25/2020 | [Disponibilidad de país o región: audioconferencia, planes de llamadas](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | modificado |
-| 6/25/2020 | [Teléfonos y dispositivos para equipos](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
-| 6/25/2020 | [Administrar etiquetas en Microsoft Teams](/MicrosoftTeams/manage-tags) | modificado |
-| 6/25/2020 | [Notas de la versión](/MicrosoftTeams/rooms/rooms-release-note) | modificado |
-| 6/25/2020 | [Iniciar sesión en Microsoft Teams con la autenticación moderna](/MicrosoftTeams/sign-in-teams) | modificado |
-| 6/25/2020 | Formación de administradores para Microsoft Teams | eliminado |
-| 6/25/2020 | [Inicio rápido de administración: reuniones y eventos en directo en Microsoft Teams](/MicrosoftTeams/quick-start-meetings-live-events) | modificado |
-| 6/25/2020 | [Administrar directivas de permisos de aplicación en Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modificado |
-| 6/25/2020 | [Administrar directivas de configuración de aplicación en Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modificado |
-| 6/25/2020 | [Administrar directivas de Teams en Microsoft Teams](/MicrosoftTeams/teams-policies) | modificado |
-| 6/26/2020 | Habla de tiza de Microsoft Teams | eliminado |
-| 6/26/2020 | [Disponibilidad en Bangladesh](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bangladesh) | modificado |
-| 6/26/2020 | [Directivas de retención en Microsoft Teams](/MicrosoftTeams/retention-policies) | modificado |
-| 6/26/2020 | [Definir eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modificado |
-| 6/26/2020 | [¿Qué son los eventos en directo de Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modificado |
-| 6/26/2020 | Talleres en planificación de actualización de los equipos | eliminado |
-| 6/26/2020 | [Cursos de aprendizaje para los usuarios impartidos por un instructor](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modificado |
-| 6/26/2020 | [Teams en 30](/MicrosoftTeams/teams-in-30-workshops) | modificado |
-
-
 ## <a name="week-of-july-06-2020"></a>Semana del 6 de julio de 2020
 
 
-| Fecha de publicación |Título del tema | Cambio |
+| Fecha de publicación |Título del tema | Change |
 |------|------------|--------|
 | 6/30/2020 | [Asignar directivas a los usuarios de Microsoft Teams](/MicrosoftTeams/assign-policies) | modificado |
 | 6/30/2020 | [Estacionamiento y recuperación de llamadas en Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | modificado |
@@ -213,7 +140,7 @@
 ## <a name="week-of-july-13-2020"></a>Semana del 13 de julio de 2020
 
 
-| Fecha de publicación |Título del tema | Change |
+| Fecha de publicación |Título del tema | Cambio |
 |------|------------|--------|
 | 7/14/2020 | [Comunicación con usuarios de otras organizaciones en Microsoft Teams](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modificado |
 | 7/14/2020 | [Configurar un operador automático en la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
@@ -307,3 +234,40 @@
 | 7/23/2020 | [Disponibilidad en Baréin](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | modificado |
 | 7/24/2020 | [Consideraciones y permisos de las aplicaciones de Microsoft Teams](/MicrosoftTeams/app-permissions) | modificado |
 | 7/24/2020 | [Consentimiento específico de recursos en Microsoft Teams](/MicrosoftTeams/resource-specific-consent) | modificado |
+
+
+## <a name="week-of-july-27-2020"></a>Semana del 27 de julio de 2020
+
+
+| Fecha de publicación |Título del tema | Cambio |
+|------|------------|--------|
+| 7/28/2020 | [Instalar el conector de Power BI para usar plantillas de consulta de CQD](/MicrosoftTeams/cqd-power-bi-connector) | modificado |
+| 7/28/2020 | [Introducción a las plantillas de Teams con Microsoft Graph](/MicrosoftTeams/get-started-with-teams-templates) | modificado |
+| 7/28/2020 | [Cómo se puede usar el identificador de llamada en su organización](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | modificado |
+| 7/28/2020 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
+| 7/28/2020 | [Autenticación en salas de Microsoft Teams](/MicrosoftTeams/rooms/rooms-authentication) | modificado |
+| 7/28/2020 | [Plantillas de Teams para pequeñas y medianas empresas creadas con Microsoft Graph](/MicrosoftTeams/smb-templates) | modificado |
+| 7/29/2020 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
+| 7/29/2020 | [Salas de Microsoft Teams](/MicrosoftTeams/rooms/index) | modificado |
+| 7/29/2020 | [Microsoft Teams salas Premium](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | modificado |
+| 7/29/2020 | [Teams en 30](/MicrosoftTeams/teams-in-30-workshops) | modificado |
+| 7/29/2020 | [Licencias de complemento de Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | modificado |
+| 7/30/2020 | [Directivas de control de AppLocker](/MicrosoftTeams/applocker-in-teams) | modificado |
+| 7/30/2020 | [Administrar configuración de reuniones](/MicrosoftTeams/meeting-settings-in-teams) | modificado |
+| 7/30/2020 | [Preparar la red de la organización para Microsoft Teams](/MicrosoftTeams/prepare-network) | modificado |
+| 7/30/2020 | [Preparar el entorno](/MicrosoftTeams/rooms/rooms-prep) | modificado |
+| 7/31/2020 | [Asignar directivas a los usuarios de Microsoft Teams](/MicrosoftTeams/assign-policies) | modificado |
+| 7/31/2020 | Asignar directivas a grandes conjuntos de usuarios de la escuela | eliminado |
+| 7/31/2020 | [Dar soporte a trabajadores remotos de la administración pública con Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams) | modificado |
+| 7/31/2020 | Cursos de aprendizaje para los usuarios impartidos por un instructor | eliminado |
+| 7/31/2020 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
+| 7/31/2020 | [Directivas de Microsoft Teams y paquetes de directivas para administradores de EDU](/MicrosoftTeams/policy-packages-edu) | modificado |
+| 7/31/2020 | [Recursos de Microsoft Teams para administradores de educación](/MicrosoftTeams/remote-learning-edu) | modificado |
+| 7/31/2020 | [Ejemplo de script de PowerShell: crear & asignar Directiva de mensajería](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | modificado |
+| 7/31/2020 | [Referencia de SKU de educación](/MicrosoftTeams/sku-reference-edu) | modificado |
+| 7/31/2020 | [Retirada de Skype Empresarial Online](/MicrosoftTeams/skype-for-business-online-retirement) | modificado |
+| 7/31/2020 | [Dar soporte para trabajadores remotos con Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modificado |
+| 7/31/2020 | [Darlo a conocer e implementar formación](/MicrosoftTeams/teams-adoption-drive-awareness) | modificado |
+| 7/31/2020 | [Informe de uso de dispositivos de Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | modificado |
+| 7/31/2020 | [Informe de uso de Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | modificado |
+| 7/31/2020 | [Informe de actividad de usuario de Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | modificado |

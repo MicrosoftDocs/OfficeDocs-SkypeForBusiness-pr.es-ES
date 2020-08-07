@@ -2,7 +2,7 @@
 title: 'Administrar equipos grandes en Microsoft Teams: procedimientos recomendados'
 ms.reviewer: abgupta
 author: lolaj
-ms.author: lolaj
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d939b4be4fcd5f3a1045f2f9adde750197b92f29
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 90345578ceb6bbf8d8752b561511d8df85023bf1
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638910"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582667"
 ---
 <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Administrar equipos grandes en Microsoft Teams: procedimientos recomendados
 ======================================================

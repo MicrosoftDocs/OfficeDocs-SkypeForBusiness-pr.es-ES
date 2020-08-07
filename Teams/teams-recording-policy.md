@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48cc430ea864614a306725958b56dda934e00eef
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: a63aee051467d07a5eef9063538d740b07e6eadf
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121650"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584089"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introducción a la grabación basada en directivas de Teams para realizar llamadas & reuniones
 
@@ -40,7 +40,7 @@ Teams ha sido mejorado para admitir la integración de soluciones de grabación 
 
 - Nuevas directivas administrativas para la grabación de cumplimiento, incluida la integración con las herramientas y políticas de reuniones y herramientas administrativas existentes de Teams
 
-- Habilitado para los usuarios de Teams con una licencia independiente
+- Requiere una [licencia de comunicaciones avanzadas](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/advanced-communications)
 
 Las capacidades de integración de soluciones de grabación de cumplimiento también fueron revisadas en el encendido 2019 de la [<span class="underline">sesión de cumplimiento y Microsoft Teams</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions).
 
@@ -56,10 +56,10 @@ Cada una de las categorías conlleva diferentes requisitos sobre cómo se inicia
 | ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
 | Inició              | Usuario               | Aplicación/solución       | Administrador (sistema)     | Administrador (sistema)  | LEA                |
 | Target                 | Por llamada/reunión | Por llamada/reunión | Por llamada/reunión | Por usuario        | Por punto de conexión/ha |
-| Propietario del almacenamiento          | Usuario               | Aplicación                | Administrador              | Respeto      | LEA                |
-| ¿Se requiere notificación? | Sí                 | Sí                 | Sí                 | Sí             | No                 |
-| Propietario de acceso           | Usuario               | Aplicación                | Administrador              | Respeto      | LEA                |
-| ¿Directiva de retención?      | Opcional           | Sí                 | Sí                 | Sí              | Sí                |
+| Propietario del almacenamiento          | Usuario               | Aplicación                | Administrador              | Cumplimiento      | LEA                |
+| ¿Se requiere notificación? | Sí                | Sí                | Sí                | Sí             | No                 |
+| Propietario de acceso           | Usuario               | Aplicación                | Administrador              | Cumplimiento      | LEA                |
+| ¿Directiva de retención?      | Opcional           | Sí                | Sí                | Sí             | Sí                |
 
 Teams proporciona diversas funciones para la grabación [<span class="underline">cómoda</span>](https://docs.microsoft.com/microsoftteams/cloud-recording) y funcional de reuniones y eventos en directo. La grabación organizacional significa permitir a las organizaciones que adoptan equipos de llamadas y reuniones establecerse, a través de una directiva administrativa, cuando las llamadas y las reuniones en línea deben grabarse y capturarse de forma automática para su procesamiento y retención posterior, según lo requiera la política corporativa o normativa pertinente. Los usuarios de esta Directiva serán conscientes de que sus interacciones digitales con equipos se graban, pero no podrán deshabilitar la grabación y no tendrán acceso a la grabación una vez completada la interacción. La grabación se convierte en parte del archivo organizativo disponible para el cumplimiento y el personal legal de eDiscovery, la retención legal y otros usos de la retención corporativa.
 

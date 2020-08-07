@@ -1,7 +1,7 @@
 ---
 title: Estacionamiento y recuperación de llamadas en Microsoft Teams
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 04/12/2019
 ms.reviewer: srividhc
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Obtenga más información sobre cómo usar el servicio de atención telefónica y recuperar para poner una llamada en espera en el servicio de Teams en la nube.
-ms.openlocfilehash: a9518705cd5edff3834be21732f78dd47352cd63
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8c6f275ea1b1aac9bfa011fba76d17aeb1811e10
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938539"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582657"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamiento y recuperación de llamadas en Microsoft Teams
 
@@ -52,9 +52,9 @@ En la actualidad, los siguientes clientes y dispositivos son compatibles con la 
 
 | Función | Equipo de escritorio | Aplicación de equipos Mac | Teams Web App (Edge) |Teams Mobile iOS/aplicación para Android | Teléfono IP de Teams | Teléfono IP de Skype empresarial |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| Detener una llamada | Sí  | Sí  | Sí  | Sí  | Sí | No |
-| Recuperar una llamada estacionada | Sí  | Sí  | Sí  | Sí  | Sí | No |
-| Timbre de llamada no recuperado | Sí  | Sí  | Sí  | Sí  | Sí | No |
+| Detener una llamada | Sí | Sí | Sí | Sí | Sí | No |
+| Recuperar una llamada estacionada | Sí | Sí | Sí | Sí | Sí | No |
+| Timbre de llamada no recuperado | Sí | Sí | Sí | Sí | Sí | No |
 
 ## <a name="configure-call-park-and-retrieve"></a>Configurar el parque de llamadas y recuperar
 

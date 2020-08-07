@@ -1,7 +1,7 @@
 ---
 title: Ejemplo de script de PowerShell-crear nuevos equipos de administrador de contactos
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd7f638d8023595de3f3526376e3ce46c37dcff2
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 1f17ccf2372b10d8b0a14e4259faf9db22fc72ce
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951035"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583117"
 ---
 # <a name="powershell-script-sample---create-new-people-manager-teams"></a>Ejemplo de script de PowerShell-crear nuevos equipos de administrador de contactos
 

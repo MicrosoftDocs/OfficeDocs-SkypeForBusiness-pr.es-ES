@@ -1,8 +1,8 @@
 ---
 title: Planear los grupos de Microsoft 365 cuando se crean equipos
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 08/29/2018
 ms.topic: conceptual
@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: be5b6244c11d3d65b83719ac4f55cf2e0fbef598
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 4e714d530e391ad0e5888607df2fb38dfd862581
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665122"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581081"
 ---
 <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>Planear los grupos de Microsoft 365 al crear equipos en Microsoft Teams
 ==========================================================

@@ -1,7 +1,7 @@
 ---
 title: Datos e informes en el panel de calidad de llamadas (CQD)
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga más información sobre los datos y los informes disponibles en el panel de calidad de llamadas de Microsoft (CQD).
-ms.openlocfilehash: 2801b8b2a35ae06c4bb42479bac64985b13ea93f
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: ec9714e0eae187bc82edf01809b50d8512d04e01
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372169"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583097"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Datos e informes en el panel de calidad de llamadas (CQD)
 
@@ -123,18 +123,18 @@ Si quiere usar Power BI para analizar los datos del CQD, lea [usar Power BI para
 |Característica|Informes de Resumen|Informes detallados|
 |:--- |:--- |:--- |
 |Métrica de uso compartido de aplicaciones | No | Sí |
-|Soporte de información de creación de clientes | Sí | Sí  |
+|Soporte de información de creación de clientes | Sí | Sí |
 |Asistencia para la información del extremo del cliente | Solo en <span> CQD.Teams.Microsoft.com<span/> | Solo en <span> CQD.Teams.Microsoft.com<span/> |
 |Compatibilidad con análisis detallado   | No   | Sí   |
 |Métricas de confiabilidad de multimedia   | No   | Sí   |
-|Informes listos para su servicio   | Sí   | Sí    |
-|Informes de información general   | Sí   | Sí    |
+|Informes listos para su servicio   | Sí   | Sí   |
+|Informes de información general   | Sí   | Sí   |
 |Conjunto de informes por usuario   | No   | Sí   |
 |Personalización del conjunto de informes (agregar, eliminar, modificar informes)   | No   | Sí   |
 |Métricas de pantalla compartida basada en vídeo   | No   | Sí   |
 |Métricas de video   | No   | Sí   |
 |Cantidad de datos disponibles   | Últimos 12 meses   | Últimos 12 meses   |
-|Datos de Microsoft Teams   | Sí   | Sí    |
+|Datos de Microsoft Teams   | Sí   | Sí   |
 | | | |
 
 

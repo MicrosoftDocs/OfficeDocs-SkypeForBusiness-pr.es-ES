@@ -1,6 +1,6 @@
 ---
 title: Clasificación de la transmisión en el panel de calidad de llamadas (CQD)
-ms.author: lolajacobsen
+ms.author: serdarsacobsen
 author: lolaj
 manager: serdars
 ms.reviewer: gageames
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Obtenga información sobre cómo se clasifica la calidad de la transmisión en el panel de calidad de llamadas (CQD) para Microsoft Teams y Skype empresarial online.
-ms.openlocfilehash: 28c3857f1bf30903e9a59d45e8149f8ecbfc57be
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 0853b5602525d17f8fd8d440a5275dc2c8ab04a3
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085896"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583829"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Clasificación de la transmisión en el panel de calidad de llamadas (CQD)
 

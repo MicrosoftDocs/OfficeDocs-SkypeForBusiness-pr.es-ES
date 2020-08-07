@@ -1,7 +1,7 @@
 ---
 title: Activar Teams en Microsoft 365 u Office 365
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 08/7/2018
 ms.topic: article
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1240ebc29be11241c26054a9281e59d2654dca82
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: cb314a64fdc6027195fe6c79ecff27b5cc8db46e
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041867"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581811"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>Activar Teams en su organización
 

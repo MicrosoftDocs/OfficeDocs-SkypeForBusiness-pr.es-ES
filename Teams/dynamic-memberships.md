@@ -1,7 +1,7 @@
 ---
 title: Información general sobre la pertenencia dinámica para los equipos
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: kblevens, phlouie
 ms.topic: conceptual
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24268206ee4f325d3b80f315f1125cfff5d0fbad
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 75bd058d79b1f54a40ad0e42207178c9c29d08cd
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691596"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583929"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Información general sobre la pertenencia dinámica para los equipos
 

@@ -1,8 +1,8 @@
 ---
 title: Requisitos de hardware para Microsoft Teams
 ms.reviewer: microthk, sthurlow
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: reference
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a61c7338c6a182b6803bf2a302522b7fb97586f
-ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
+ms.openlocfilehash: b79a9c0ed52ff205f81da8d859cfc9ceaacadd1b
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45143781"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581561"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Requisitos de hardware para Microsoft Teams
 

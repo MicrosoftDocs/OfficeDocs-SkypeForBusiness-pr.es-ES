@@ -17,12 +17,12 @@ description: Aprenda a usar el informe de uso de eventos de Teams Live en el cen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: faf4a19b8a9bcd4b6fbdc2b3fd55882121015da2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f9b25fa7c476c9dd3fe347af26fc13742b41d009
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904295"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583769"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Informe de uso de eventos de Microsoft Teams Live
 
@@ -30,7 +30,7 @@ El informe de uso de eventos de Teams Live en el centro de administración de Mi
 
 ## <a name="view-the-live-event-usage-report"></a>Ver el informe de uso de eventos en directo
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en > **informes de uso**de **informes &**. En la pestaña **ver informes** , en **Informe**, seleccione **uso de eventos de Teams Live**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en informes de uso de **informes &**  >  **Usage reports**. En la pestaña **ver informes** , en **Informe**, seleccione **uso de eventos de Teams Live**.
 2. En **intervalo de fechas**, seleccione un rango predefinido o establezca un rango personalizado. Puede establecer un intervalo para mostrar los datos hasta un año, seis meses antes y después de la fecha actual.
 3. Faculta En **Organizer**, puede elegir mostrar solo eventos en directo organizados por un usuario específico.
 4. Haga clic en **Ejecutar Informe**.  
@@ -46,6 +46,9 @@ El informe de uso de eventos de Teams Live en el centro de administración de Mi
 |**3**   |<ul><li>En el gráfico, el eje X es el intervalo de fechas seleccionado para el informe específico.</li> <li> El eje Y es el recuento total de la vista.</li> </ul>Desplace el puntero sobre el punto en una fecha determinada para ver el número de vistas en todos los eventos en directo de esa fecha.|
 |**4**   |La tabla ofrece un desglose de cada evento en directo. <ul><li>**Evento** es el nombre para mostrar del evento en directo. Para [obtener más información](#view-event-details) sobre el evento, haga clic en el nombre del evento. </li> <li>**Hora de inicio** hace referencia a la fecha y la hora de inicio del evento.</li> <li>El **Estado del evento** indica si el evento se ha realizado.  </li><li>**Organizador** es el nombre del organizador de eventos.</li> <li>Los **moderadores** son los nombres de los moderadores de eventos.</li><li>Los **productores** son los nombres de los productores de eventos.</li><li>**Vistas** es el número de vistas únicas.</li><li>**Grabación** : muestra si la configuración de grabación está activada o desactivada.</li><li>**Tipo de producción** : muestra si el evento se produce en Teams o mediante una aplicación o dispositivo externo.</li></li> </ul>Tenga en cuenta que si ya no existe una cuenta de usuario en Azure AD, el nombre de usuario se muestra como "--" en la tabla. <br><br>Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla. |
 |**5**   |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla.|
+
+## <a name="notes"></a>Notas
+Se muestran hasta 100 eventos en directo que coinciden con los criterios actuales del informe. Para ver más eventos en vivo, aplique filtros de fecha para reducir el tamaño de la lista.
 
 ## <a name="view-event-details"></a>Ver detalles del evento
 

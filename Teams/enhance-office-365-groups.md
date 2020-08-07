@@ -1,8 +1,8 @@
 ---
 title: Mejorar los grupos de Microsoft 365 existentes
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 38707df888adbd6da61e0e5487e570564ad26cbf
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: d845dff067f23bc923b53a0dcf7ee6351a5d24c7
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349844"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582307"
 ---
 <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Mejorar los grupos de Microsoft 365 existentes con Microsoft Teams
 =======================================================

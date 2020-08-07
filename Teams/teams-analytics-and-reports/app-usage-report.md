@@ -1,7 +1,7 @@
 ---
 title: Informe de uso de aplicaciones de Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Aprenda a usar el informe de uso de la aplicación de Teams en el c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 565a3cb28b73a37162947859effc6ec154b59258
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 91af37ed9c19a1d3e8d32cdf296cf32e90818564
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938209"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583799"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Informe de uso de aplicaciones de Microsoft Teams
 

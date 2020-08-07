@@ -17,134 +17,68 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: En este artículo se describe la lista de teléfonos que están certificados para Microsoft Teams y las características compatibles con los teléfonos certificados para Microsoft Teams.
-ms.openlocfilehash: e34734d88caa011185e56c5540d0fe6cee62dfe0
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: b017e02b2d3d2bdc6b01886929d034abb6650384
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281781"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583959"
 ---
 # <a name="phones-for-microsoft-teams"></a>Teléfonos para Microsoft Teams
 
-Microsoft Teams es compatible con una cartera de teléfonos de escritorio para usuarios que requieren una experiencia de teléfono tradicional. En este artículo se describe la lista de teléfonos que están certificados para Microsoft Teams y las características compatibles con los teléfonos certificados para Microsoft Teams. Para obtener la información más reciente y actualizada sobre los equipos certificados, vaya a [Teams Marketplace](https://office.com/teamsdevices).
+Microsoft Teams es compatible con una cartera de teléfonos de escritorio para usuarios que requieren una experiencia de teléfono tradicional. Este artículo proporciona una descripción completa de los teléfonos de los equipos y puede ayudarle a planear, entregar y administrar teléfonos de Microsoft Teams como parte de su solución de sistema de Microsoft Phone. 
 
-## <a name="teams-certified-ip-phones"></a>Teléfonos IP certificados por Teams
+Para ofrecer una experiencia de alta calidad y confiable de Microsoft Teams en teléfonos, estamos asociados y trabajando activamente con Yealink, Crestron, Lenovo, Polycom y AudioCodes con el fin de desarrollar y certificar una amplia cartera de teléfonos de escritorio y dispositivos de audio de sala de conferencias. Para obtener la información más reciente y actualizada sobre los dispositivos de Teams, vaya a [Teams Marketplace](https://office.com/teamsdevices).
 
-Para ofrecer una experiencia de alta calidad y confiable de Microsoft Teams en teléfonos, estamos asociados y trabajando activamente con Yealink, Crestron, Polycom y AudioCodes con el fin de desarrollar y certificar una amplia cartera de teléfonos de escritorio y dispositivos de audio de sala de conferencias. Consulta los [teléfonos IP certificados actualmente](teams-ip-phones.md#currently-certified-ip-phones) para los dispositivos compatibles actuales.
+## <a name="features-supported-by-teams-phones"></a>Características admitidas por teléfonos de Teams
+Los teléfonos certificados por Teams tienen una amplia variedad de características para ayudar a los usuarios a realizar sus trabajos y ayudarle a administrar su uso. Este es un resumen de las características disponibles en los teléfonos certificados por Teams:
 
-## <a name="microsoft-teams-phones-feature-set"></a>Conjunto de características de Microsoft Teams PHONES
+- **Autenticación** Los teléfonos usan la autenticación moderna para simplificar el inicio de sesión y mejorar la seguridad. Los usuarios pueden iniciar sesión escribiendo su nombre de usuario y contraseña en el teléfono o iniciando sesión desde otro dispositivo como PC/smartphone.
+- **Historial de llamadas y marcación rápida** Los usuarios tienen acceso rápido a sus contactos, el historial de llamadas y el buzón de voz. Pueden administrar fácilmente sus contactos y entradas de marcación con rapidez directamente desde su teléfono.
+- **Reuniones y llamadas** Los usuarios pueden ver sus programaciones y unirse fácilmente a las reuniones con Teams JOIN en un solo toque.
+- **Grupos de llamadas** Los agentes de telefonía que participan en los grupos de llamadas pueden administrar fácilmente su disponibilidad y aceptar o rechazar llamadas entrantes de la cola de llamadas.
+- **Delegación de usuarios** Los asistentes ejecutivos y los administradores pueden administrar los teléfonos de sus ejecutivos y interceptar las llamadas entrantes; hacer llamadas en nombre del Ejecutivo; toma el control de las llamadas que el Ejecutivo ha puesto en espera. y supervisa si el Ejecutivo está en una llamada, en espera, etc.
+- **Entrada de lápiz en caliente** Los usuarios pueden obtener sus contactos, reuniones y otras preferencias, simplemente iniciando sesión en un teléfono. Cuando haya terminado, podrán cerrar sesión y dejar el teléfono listo para el siguiente usuario.
+- **Vídeo** Los teléfonos con soporte de video permiten a los usuarios unirse a llamadas y videoconferencias como si estuvieran en sus equipos. Los usuarios pueden mantener su privacidad usando el interruptor de la cámara del teléfono y el interruptor de silenciar el micrófono cuando estén disponibles.
+- **Mejor juntos** Los teléfonos pueden bloquear y desbloquear de manera integrada cuando se conectan a su PC con Windows, con un cliente de escritorio de 64 bits.
+- **Accesibilidad** Los teléfonos tienen varias características de accesibilidad, como el texto de alto contraste, para que cualquier persona pueda usarlos más fácilmente.
+- **Soporte de E911 dinámico y mejorado** Los usuarios con sesión iniciada que llaman a 911 verán su ubicación en el teléfono. 
+    > [!IMPORTANT]
+    > Si un teléfono no ha iniciado sesión, o si no tiene una conexión a Internet, no se pueden hacer llamadas de 911. Si esto sucede, se muestra una notificación en el teléfono.
 
-En la tabla siguiente se ofrece un conjunto de características de alto nivel compatibles con los equipos de telefonía IP certificados.
-
-|Funciones |Teléfono de escritorio (modo personal) |Teléfono de sala de conferencias (modo compartido)|
-|---------|---------|---------|
-|**Autenticación** | |  |
-|Inicio de sesión con las credenciales del usuario |  Sí  | Sí|
-|Iniciar sesión con PC o smartphone  | Sí  |Sí|
-|Autenticación moderna | Sí  |Sí |
-|Bloqueo/desbloqueo de teléfono | Sí |No |
-|**Llamadas** |  |  |
-|Llamadas P2P entrantes y salientes | Sí   |Sí |
-|Controles de la llamada a través de la interfaz de usuario (silenciar, suspender/reanudar, transferir, finalizar llamada)| Sí   |Sí |
-|Llamadas RTC| Sí   |Sí |
-|Correo de voz visual | Sí | No |
-|soporte técnico de 911  | Sí   |Sí |
-|**Calendario y presencia**|   | |
-|Detalles de acceso y reunión de calendario|Sí  |Sí|
-|Integración de presencia |Sí|Sí|
-|Integración del calendario de Exchange |Sí |Sí|
-|Integración de imagen de contacto  |Sí |Sí|
-|Acceso a directorio corporativo | Sí |Sí|
-|**Reuniones**|   ||
-|Unirse con un clic para reuniones  | Sí   |Sí |
-|Unirse a reuniones de Skype empresarial | Sí   | Sí|
-|Controles de llamada de reunión (desactivar o reactivar el audio, suspender/reanudar, colgar, agregar o quitar participante)|Sí |Sí|
-|Detalles de la reunión|Sí|No|
-
-Estamos trabajando para agregar características continuamente para ayudar a nuestros usuarios a mejorar la experiencia de sus equipos en teléfonos. Las capturas de pantalla siguientes ilustran algunas de las experiencias que admitimos hoy.
-
-## <a name="sign-in-experience"></a>Experiencia de inicio de sesión
-
-Cuando un usuario hace clic en el botón de inicio de sesión de Teams, el inicio de sesión se inicia a través del portal de la empresa. El usuario tiene la opción de iniciar sesión escribiendo credenciales de usuario en el teléfono o seleccionando iniciar sesión desde otro dispositivo. Si el usuario elige iniciar sesión desde otro dispositivo, el usuario puede completar la autenticación desde su PC o smartphone.
-
-**Inicio de sesión de usuario con credenciales**
-
-![Captura de pantalla de inicio de sesión con credenciales](../media/sign-in-with-credentials.png)
-
-**Inicio de sesión de usuario a través de PC/smartphone**
-
-![Captura de pantalla de inicio de sesión con otro dispositivo](../media/sign-in-with-device.jpg)
-
-## <a name="personalshared-mode"></a>Modo personal/compartido
-
-Después de iniciar sesión correctamente, el usuario puede elegir si el dispositivo se usará para uso personal o en una sala de conferencias compartida.
-
-![Captura de pantalla de la opción de cuenta personal o compartida](../media/personal-vs-shared-mode.jpg)
-
-La experiencia telefónica de su equipo está optimizada en función de la selección del usuario.
-
-**Modo personal**
-
-![Captura de pantalla de una cuenta en modo personal](../media/personal-mode.png)
-
-**Modo compartido**
-
-![Captura de pantalla de una cuenta en modo compartido](../media/shared-mode.png)
-
-## <a name="calling-experience"></a>Experiencia de llamada
-
-El usuario de Microsoft Teams puede levantar el teléfono o pulsar el botón del altavoz para iniciar el teclado de marcado en la pantalla de llamada. También puede usar los botones de hardware (si están disponibles) para llamar a un número.
-
-**Teclado de marcado en pantalla**
-
-![Captura de pantalla del teclado de marcado en pantalla](../media/on-screen-dial-pad.png)
-
-**Pantalla de llamada**
-
-![Captura de pantalla de la pantalla de llamada](../media/calling-screen.png)
-
-## <a name="meeting-experience"></a>Experiencia de reunión
-
-El usuario de Microsoft Teams puede ir a la ficha reuniones para ver las reuniones y usar el botón **unirse** para unirse a las reuniones de Teams.
-
-**Vista Calendario**
-
-![Captura de pantalla de las reuniones en la vista Calendario](../media/calendar-view.png)
-
-**Vista de combinación de reuniones**
-
-![Captura de pantalla de una reunión en la vista de combinación](../media/meeting-join-view.png)
-
-
-## <a name="voicemail"></a>Correo de voz
-
-El usuario de Microsoft Teams puede acceder a su buzón de voz cuando navegue a la ficha **buzón de voz** .
-
-![Captura de pantalla de la pestaña buzón de voz](../media/voicemail-tab.png)
-
-## <a name="user-sign-out"></a>Cierre de sesión de usuario
-
-El usuario de Teams Phone puede elegir cerrar la sesión seleccionando la opción **Cerrar sesión** en el menú de la parte superior izquierda.
-
-![Captura de pantalla de la sesión fuera de Teams](../media/teams-sign-out.png)
-
-## <a name="finding-the-firmware-version-on-a-mobile-device"></a>Buscar la versión de firmware en un dispositivo móvil
-
-Para revisar la versión mínima del firmware, en la página de inicio de sesión de Teams, elija el icono **configuración** en la esquina superior derecha y, a continuación, haga clic en **acerca de**.
-
-**Página de inicio de sesión de Teams**
-
-![Captura de pantalla de la página de inicio de sesión de Teams](../media/teams-sign-in-page.jpg)
-
-**Página de configuración**
-
-![Captura de pantalla de la página de configuración de Teams](../media/teams-settings-page.jpg)
+Además de las características anteriores, puede controlar qué capacidades están disponibles según el tipo de licencia y la Directiva de teléfono asignadas al usuario que inicia sesión en el teléfono. Por ejemplo, los usuarios que inicien sesión en un teléfono con sus cuentas personales pueden acceder a la gama completa de características: llamadas, reuniones, buzón de voz, etc. Las cuentas a las que se ha asignado una licencia telefónica común que inician sesión en un teléfono, no obstante, solo pueden obtener acceso a una variedad de características limitadas; el historial de llamadas y las programaciones de reuniones no se pueden conservar, por ejemplo, para proteger la privacidad de los usuarios.
 
 ## <a name="required-licenses"></a>Licencias necesarias
 
 Las licencias de Microsoft Teams se pueden comprar como parte de sus [suscripciones a microsoft 365 y Office 365](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Para obtener más información sobre las licencias necesarias para usar Microsoft Teams en teléfonos, consulte [licencias de sistema telefónicas](https://products.office.com/microsoft-teams/voice-calling)disponibles.
 
 Para obtener más información sobre la obtención de equipos, consulte [¿Cómo puedo obtener acceso a Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+
+## <a name="deploy-your-phones-via-intune"></a>Implementa tus teléfonos a través de Intune
+
+### <a name="conditional-access"></a>Acceso condicional
+
+El acceso condicional es una característica de Azure Active Directory que le ayuda a garantizar que los dispositivos que tengan acceso a los recursos de Office 365 estén administrados correctamente y sean seguros.  Si aplica directivas de acceso condicional al servicio de Teams, los dispositivos con Android (incluido un teléfono de Teams) que tengan acceso a teams deben estar inscritos en Intune y su configuración debe cumplir sus directivas.  Si el dispositivo no se ha inscrito en Intune o si está inscrito pero su configuración no cumple con las directivas, el acceso condicional evitará que un usuario inicie sesión en el dispositivo o use la aplicación de Teams.
+
+Normalmente, las directivas de cumplimiento definidas en Intune se asignan a grupos de usuarios.  Esto significa que si asigna una directiva de cumplimiento de Android a user@contoso.com, esa Directiva se aplicará por igual a su smartphone Android y a cualquier dispositivo de Teams basado en Android en el que se inicie sesión user@contoso.com.
+
+Si usa el acceso condicional, que requiere que se exija la inscripción de Intune, en su organización, hay un par de cosas que debe configurar para permitir una inscripción correcta de Intune:
+
+- **Licencia de Intune** El usuario que inicia sesión en Microsoft Teams Phone debe tener una licencia para Intune.  Siempre y cuando los teléfonos de Microsoft Teams estén iniciados en una cuenta de usuario que tenga una licencia válida de Intune, el teléfono se inscribirá automáticamente en Microsoft Intune como parte del proceso de inicio de sesión.
+- **Configurar Intune** Debe tener configurado un inquilino de Intune configurado correctamente para la inscripción de administrador de dispositivos Android.
+
+### <a name="configure-intune-to-enroll-teams-android-based-devices"></a>Configurar Intune para inscribir dispositivos basados en Android
+
+Los dispositivos basados en Android se administran en Intune a través de administración de administrador de dispositivos de Android (DA). Antes de que los dispositivos puedan ser inscritos en Intune, hay que realizar algunos pasos básicos.  Si ya está administrando dispositivos con Intune hoy, probablemente ya haya realizado todas estas acciones.  De lo contrario, esto es lo que debe hacer:
+
+1. Establezca la autoridad de MDM (administración de dispositivos móviles) de Intune.  Si nunca ha usado Intune antes, debe configurar la autoridad de MDM antes de poder inscribir dispositivos. Para obtener más información, vea [establecer la entidad de administración de dispositivos móviles](https://docs.microsoft.com/intune/fundamentals/mdm-authority-set).  Este es un paso que debe realizarse una sola vez al crear un nuevo inquilino de Intune.
+2. Habilitar la inscripción de administrador de dispositivos Android. Los dispositivos de equipos basados en Android se administran como dispositivos de administrador de dispositivos con Intune.  La inscripción de administrador de dispositivos está desactivada de forma predeterminada para los inquilinos recién creados.  Para obtener más información, consulte inscripción en el [Administrador de dispositivos Android](https://docs.microsoft.com/intune/enrollment/android-enroll-device-administrator).
+3. Asignar licencias a los usuarios. Los usuarios de los dispositivos de equipos que se inscriban en Intune deben tener asignada una licencia válida de Intune. Para obtener más información, vea [asignar licencias a los usuarios para que puedan inscribir dispositivos en Intune](https://docs.microsoft.com/intune/fundamentals/licenses-assign).
+4. Asignar directivas de cumplimiento para el administrador del dispositivo.  Crear una directiva de cumplimiento de administrador de dispositivos de Android y asignarla al grupo de Azure Active Directory que contenga los usuarios que iniciarán sesión en los dispositivos de Teams. Para obtener más información, consulte [usar directivas de cumplimiento para establecer reglas para los dispositivos que administra con Intune](https://docs.microsoft.com/mem/intune/protect/device-compliance-get-started).
+
+## <a name="manage-your-phones"></a>Administrar los teléfonos
+
+Un administrador de inquilinos puede administrar y mantener actualizados todos los dispositivos de su equipo a través del centro de administración de Teams. Para obtener más información, consulte [administrar los dispositivos en Microsoft Teams](https://docs.microsoft.com/microsoftteams/devices/device-management). 
 
 ## <a name="see-also"></a>Vea también
 

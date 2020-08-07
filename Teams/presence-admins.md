@@ -1,7 +1,7 @@
 ---
 title: Presencia del usuario en Teams
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c31439485f245b522a55c2e5e1134ca6cdddbdf7
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 2629ef2fd378744647aa7ed158e7128dfbaeba8a
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572355"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581211"
 ---
 # <a name="user-presence-in-teams"></a>Presencia del usuario en Teams
 

@@ -1,7 +1,7 @@
 ---
 title: Usar el CQD para administrar la calidad de las llamadas y reuniones en Microsoft Teams
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 60d3c2ad7c7f8c77fb9d6d7f01f937ffb0998a08
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: f4221b08742d27b4dbe360dfd345142795640588
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085986"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581191"
 ---
 #  <a name="use-cqd-to-manage-call-and-meeting-quality-in-microsoft-teams"></a>Usar el CQD para administrar la calidad de las llamadas y reuniones en Microsoft Teams 
 
