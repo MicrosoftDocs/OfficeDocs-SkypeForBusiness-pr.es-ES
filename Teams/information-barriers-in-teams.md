@@ -16,12 +16,12 @@ description: En este artículo, se explica qué son las barreras de información
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 585cff9e8eb99a736b25e4ee0463ce4783c01ad1
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 2fa842f341bac8aca0c1972519777de2855cf06c
+ms.sourcegitcommit: 197f96841a58efd70bcd198b6eb1775e5ecd155c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572385"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46592914"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de la información en Microsoft Teams
 
@@ -167,12 +167,12 @@ En la actualidad, los usuarios experimentan lo siguiente si una directiva de bar
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Directivas de Teams y sitios de SharePoint
 
-Cuando se crea un equipo, se aprovisiona un sitio de SharePoint y se asocia al equipo para la experiencia de los archivos. El acceso a este sitio de SharePoint y los archivos reconoce la IB de la organización, es decir, solo los usuarios cuya coincidencia con el segmento IB coinciden con el acceso a la Directiva IB. Incluso en el momento del uso compartido de archivos, se respeta la política IB.
+Cuando se crea un equipo, se aprovisiona un sitio de SharePoint y se asocia a Microsoft Teams para la experiencia de los archivos. Las directivas de barrera de información no se admiten en este sitio de SharePoint y archivos de forma predeterminada. Para habilitar las directivas de la barrera de información, el administrador ya ha rellenado un formulario, solicitando que las directivas de IB estén habilitadas en SharePoint y OneDrive (consulte la sección *requisitos previos* en [barreras de información](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)). Si la Directiva de barrera de información está activada en SharePoint y OneDrive, las directivas IB funcionarán en los sitios de SharePoint que se aprovisionan cuando se crea un equipo con Microsoft Teams.
 
-Por ejemplo: en Contoso Bank Corporation, el usuario ' Sesha@contosobank.onmicrosoft.com ' pertenece a un segmento de banca de inversiones y el usuario ' Nikita@contosobank.onmicrosoft.com ' pertenece a un asesoramiento de segmentos. La Directiva IB de la organización bloquea la comunicación y la colaboración entre estos dos segmentos.
+**Ejemplo de las políticas de IB en el sitio de SharePoint de un equipo**: en Contoso Bank Corporation, el usuario ' Sesha@contosobank.onmicrosoft.com ' pertenece al segmento de banca de inversiones y el usuario ' Nikita@contosobank.onmicrosoft.com ' pertenece a asesoramiento de segmentos. La Directiva IB de la organización bloquea la comunicación y la colaboración entre estos dos segmentos.
 Cuando la Sesha de usuario crea un equipo para el segmento de banca de inversiones, el equipo y el sitio de SharePoint que los respalda solo serán accesibles para los usuarios del segmento de banca de inversión. Los usuarios no pueden acceder a ese sitio, incluso si tiene el vínculo a Nikita.
 
-Haz clic [aquí](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) para obtener más información.
+Para obtener más información, consulta el artículo [sobre las barreras de información](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) .
 
 ## <a name="required-licenses-and-permissions"></a>Licencias y permisos necesarios
 

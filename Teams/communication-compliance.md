@@ -1,5 +1,5 @@
 ---
-title: Cumplimiento de las comunicaciones de Microsoft Teams
+title: Cumplimiento de la comunicación con Microsoft Teams
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -16,48 +16,57 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01d9906044fe0ea8472cd8bb2ba8ccf247cdbeb9
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: a8fa1bcc7190050fd06c15717aebf8648f94b090
+ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121700"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597154"
 ---
-# <a name="communication-compliance-for-microsoft-teams"></a>Cumplimiento de las comunicaciones de Microsoft Teams
+# <a name="communication-compliance-with-microsoft-teams"></a>Cumplimiento de la comunicación con Microsoft Teams
 
-El cumplimiento de la comunicación forma parte de la nueva solución de riesgo de Insider de Microsoft 365 que ayuda a minimizar los riesgos de comunicación ayudándole a detectar, capturar y tomar medidas de corrección para los mensajes inapropiados de su organización. Ayuda a identificar el lenguaje ofensivo y el Antiacoso de los canales del equipo o 1:1 y los chats grupales. También puede configurar directivas para ver si hay información confidencial compartida como parte de los canales del equipo o 1:1 y chats grupales. Para obtener más información sobre los distintos tipos de directivas y sobre cómo configurar, consulte el [artículo M365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
+El cumplimiento de la comunicación es una solución de riesgo de Insider en Microsoft 365 que ayuda a minimizar los riesgos de comunicación ayudándole a detectar, capturar y actuar en los mensajes inapropiados de su organización.
 
-## <a name="how-to-use-communication-compliance-in-teams"></a>Cómo usar el cumplimiento de las comunicaciones en Teams
+Para Microsoft Teams, el cumplimiento de la comunicación ayuda a identificar los [siguientes tipos](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference) de contenido inadecuado en canales de equipos o en 1:1 y chats grupales:
 
-### <a name="identify-inappropriate-messages"></a>Identificar mensajes inapropiados
+- Lenguaje ofensivo, irreverente y de acoso
+- Imágenes de adultos, racy y Gory
+- Uso compartido de información confidencial
 
-Si desea identificar los mensajes que se envían en Microsoft Teams (1:1, chats grupales o conversaciones de canales) contienen lenguaje ofensivo o Antiacoso, puede habilitar las directivas para identificar esta opción y el revisor puede consultar los mensajes y llevar a cabo los pasos necesarios, como enviar material de formación o escalar a las autoridades adecuadas.
+>[!IMPORTANT]
+>Los canales privados de Microsoft Teams no son compatibles con el cumplimiento de la comunicación. Las comunicaciones por chat enviadas por usuarios invitados a los usuarios de los equipos no se supervisan para el contenido inapropiado.
 
-### <a name="identify-sensitive-or-regulatory-information"></a>Identificar información confidencial o normativa
+Para obtener más información sobre el cumplimiento de las comunicaciones y sobre cómo configurar directivas para su organización, consulte [cumplimiento de la comunicación en Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
 
-Si desea analizar los mensajes enviados en Microsoft Teams (1:1, chats grupales o conversaciones de canal) para obtener información confidencial o tipos normativos, puede elegir directivas que admitan tipos predefinidos para la normativa o sensible.
+## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>Cómo usar el cumplimiento de la comunicación en Microsoft Teams
 
-> [!NOTE]
-> Los canales privados no son compatibles con el cumplimiento de la comunicación.
+El cumplimiento de las comunicaciones y Microsoft Teams están estrechamente integrados y pueden ayudar a minimizar los riesgos de comunicación de su organización. Una vez que haya configurado las primeras directivas de cumplimiento de comunicaciones, puede administrar activamente los mensajes y el contenido inapropiados de Microsoft teams que se marcan automáticamente en las alertas.
 
-### <a name="custom-policy"></a>Directiva personalizada
+### <a name="getting-started"></a>Introducción
 
-Use esta plantilla para configurar canales de comunicación específicos, condiciones de detección individuales y la cantidad de contenido que se debe supervisar y revisar en la organización.
+Introducción a la comunicación el cumplimiento en Microsoft Teams comienza a [planear](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan) y crear directivas predefinidas o personalizadas para identificar actividades de usuario inadecuadas en los canales de Teams o en 1:1 y grupos. Tenga en cuenta que tendrá que [configurar](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure) algunos permisos y los requisitos previos básicos como parte del proceso de configuración.
 
-### <a name="custom-trainable-classifier"></a>Clasificador personalizado personalizado
+Los administradores de equipos pueden configurar directivas de cumplimiento de comunicaciones en los siguientes niveles:
 
-Use clasificadores capacitables cuando uno de los clasificadores del cuadro no se ajuste a sus necesidades. Un clasificador de Microsoft 365 es una herramienta que se puede utilizar para reconocer diversos tipos de contenido, proporcionándoles ejemplos para verlos. La formación del clasificador implica que, en primer lugar, las muestras de los seres humanos se seleccionan y cumplen positivamente la categoría. Después, después de que haya procesado esos ejemplos, pruebe las predicciones asignándole una combinación de muestras positivas y negativas. Para obtener más información sobre este tema, consulta el [artículo M365](https://docs.microsoft.com/microsoft-365/compliance/classifier-creating-a-trainable-classifier) para obtener más información sobre este tema.
+- **Nivel de usuario**: las directivas de este nivel se aplican a un usuario individual de Teams o se pueden aplicar a todos los usuarios de su organización. Estas directivas cubren los mensajes que estos usuarios pueden enviar en 1:1 o chats grupales. Las comunicaciones por chat de los usuarios se supervisan automáticamente en todos los equipos de Microsoft en los que los usuarios son miembros.
+- **Nivel de Teams**: las directivas de este nivel se aplican a un canal de equipo de Microsoft. Estas directivas cubren los mensajes enviados solo en el canal de Teams.
 
-> [!NOTE]
-> El cumplimiento de la comunicación ahora es compatible con las implementaciones híbridas de Exchange.
+### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>Actuar sobre mensajes inapropiados en Microsoft Teams
 
-El cumplimiento de la comunicación admite el historial de conversaciones para todos los mensajes que coincidan con las directivas. Esto proporciona contexto al administrador instructora.
+Una vez que haya configurado las directivas y haya recibido alertas de cumplimiento para las comunicaciones de los mensajes de Microsoft Teams, es el momento de que los revisores de cumplimiento de normas de su organización tomen medidas en estos mensajes. Los revisores pueden ayudar a proteger su organización revisando las alertas de cumplimiento de comunicaciones y eliminando los mensajes marcados de la vista en Microsoft Teams.
 
-:::image type="content" source="media/communication-compliance-1.png" alt-text="Una pantalla para el cumplimiento de la comunicación en Microsoft Teams.":::
+![Quitar un mensaje de Teams](./media/communication-compliance-remove-teams-message.png)
 
-## <a name="where-communication-policies-can-be-applied-in-teams"></a>Dónde se pueden aplicar las directivas de comunicación en Teams
+Los mensajes y el contenido quitados se reemplazan por notificaciones para visores que explican que el mensaje o contenido se ha quitado y qué directiva es aplicable a la eliminación. El remitente del mensaje o contenido eliminado también recibe la notificación del estado de eliminación y se proporciona con el contenido del mensaje original para el contexto relacionado con su eliminación. El remitente también puede ver la condición de la Directiva específica que se aplica a la eliminación del mensaje.
 
-Las directivas de cumplimiento de comunicaciones se pueden configurar para los mensajes enviados en Teams en los siguientes niveles:
+Ejemplo de sugerencia de directiva visto por el remitente:
 
-- Nivel de usuario: un administrador puede configurar directivas a un nivel de usuario individual o aplicarlas a todos los usuarios del espacio empresarial. Esto solo cubrirá los mensajes que un usuario envió en 1:1 o conversaciones grupales.
-- Nivel de equipo: un administrador también puede configurar directivas en un equipo. Esto cubre todos los mensajes enviados en el canal de ese equipo (no se admiten mensajes de canal privado).
+![Sugerencia de directiva para el remitente](./media/communication-compliance-warning-1.png)
+
+Ejemplo de notificación de condición de la Directiva visto por el remitente:
+
+![Información de condición de la Directiva para el remitente](./media/communication-compliance-warning-2.png)
+
+Ejemplo de sugerencia de directiva visto por el destinatario:
+
+![Sugerencia de directiva para el destinatario](./media/communication-compliance-warning-3.png)

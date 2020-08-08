@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49b260179749b5aba906fdf0ce64cd5b99452b37
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 54d5f9fbf9821e88e17ebb8fe5dfa45f2b3c7270
+ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028166"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597125"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -31,7 +31,7 @@ En este artículo se describen los requisitos y las limitaciones para usar Micro
 
 La infraestructura de escritorio virtual (VDI) es una tecnología de virtualización que hospeda un sistema operativo de escritorio y aplicaciones en un servidor centralizado en un centro de datos. Esto permite una experiencia de escritorio totalmente personalizada para los usuarios con un origen centralizado totalmente seguro y compatible.
 
-Microsoft Teams en un entorno virtualizado admite chat y colaboración. Además, con la plataforma Citrix, también se admiten las funciones de llamada y reunión.
+Microsoft Teams en un entorno virtualizado admite chat y colaboración. Y con las plataformas de escritorio virtual de Windows o Citrix, también se admiten las funciones de llamada y reunión.
 
 Los equipos de un entorno virtualizado admiten varias configuraciones. Esto incluye VDI, modos dedicados, compartidos, persistentes y no persistentes. Las características están en desarrollo continuo y se agregan con regularidad, y la funcionalidad se expandirá en los próximos meses y años.
 
@@ -54,15 +54,20 @@ El uso de Teams en un entorno virtualizado requiere los siguientes componentes.
 
 La aplicación de escritorio de Teams se validó con los principales proveedores de soluciones de virtualización. Con los diversos proveedores de mercado, le recomendamos que consulte a su proveedor de soluciones de virtualización para asegurarse de que cumple con los requisitos mínimos.
   
-Actualmente, los equipos de VDI con la optimización de audio y vídeo (AV) están certificados con Citrix. Revise la información de esta sección para asegurarse de que cumple con los requisitos de Citrix y Teams para que funcionen correctamente.
+En la actualidad, los equipos con la optimización de audio/vídeo (AV) de la VDI están certificados con el escritorio virtual de Windows y Citrix. Revise la información de esta sección para asegurarse de que reúne todos los requisitos para obtener la funcionalidad adecuada.
 
-### <a name="partners-certified-for-teams"></a>Socios certificados para equipos
+### <a name="platforms-certified-for-teams"></a>Plataformas certificadas para equipos
 
-Los siguientes socios tienen soluciones de infraestructura de escritorio virtual para Teams.
+Las siguientes plataformas tienen soluciones de infraestructura de escritorio virtual para Teams.
 
-|Servidor|Solución de socio|
+|Plataforma|Solución|
 |----|---|
-|![El logotipo representa Citrix](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Aplicaciones virtuales y equipos de escritorio Citrix</a> |
+|![El logotipo representa Microsoft](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Escritorio virtual de Windows</a> |
+|![El logotipo representa Citrix](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Aplicaciones virtuales y equipos de escritorio Citrix</a> |
+
+### <a name="windows-virtual-desktop"></a>Escritorio virtual de Windows
+
+El escritorio virtual de Windows proporciona optimización de AV para Teams en VDI. Para obtener más información y los requisitos y la instalación, consulte [usar Teams en el escritorio virtual de Windows](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd).
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Requisitos de aplicaciones virtuales y de escritorio de Citrix
 
@@ -360,19 +365,19 @@ Para obtener más información sobre cómo usar PowerShell para administrar dire
 ### <a name="calling-and-meetings"></a>Llamadas y reuniones
 
 - La interoperabilidad con Skype empresarial está limitada a las llamadas de audio; no hay ninguna modalidad de video.
-- Actualmente no se admite la interacción de multifrecuencia de tono dual (DTMF) con sistemas de telefonía.
 - Unirse a reuniones de Teams como usuario anónimo no está optimizado para AV. El usuario puede unirse a la reunión y tener una experiencia no optimizada.
 - En las reuniones o en las llamadas grupales solo se admite una única secuencia de vídeo entrante. Cuando varias personas envían video, solo se muestra el vídeo del altavoz dominante en un momento dado.
 - La resolución de flujo de vídeo entrante y saliente está limitada a la resolución de 720p. Esta es una limitación de WebRTC.
 - Solo se admite una secuencia de vídeo de una cámara entrante o una secuencia compartida de pantalla. Cuando hay un uso compartido de pantalla entrante, se muestra ese recurso compartido de pantalla, en lugar del vídeo del altavoz dominante.
 - Pantalla compartida saliente:
-    - La pantalla compartida desde la conversación no es compatible.
     - El uso compartido de aplicaciones no es compatible.
 - Ceder el control y tomar el control:
     - No se admite durante una sesión compartida de pantalla o de uso compartido de aplicaciones.
     - Compatible durante una sesión de uso compartido de PowerPoint.
-- Cuando se comparte la pantalla en una configuración de varios monitores, solo se comparte el monitor principal.
-- No se admite el escalado de PPP alto en CWA.
+- Limitaciones de Citrix solamente
+    - Actualmente no se admite la interacción de multifrecuencia de tono dual (DTMF) con sistemas de telefonía.
+    - Cuando se comparte la pantalla en una configuración de varios monitores, solo se comparte el monitor principal.
+    - No se admite el escalado de PPP alto en CWA.
 
 Para los problemas conocidos de teams que no se relacionan con VDI, consulte [soporte técnico de equipos de su organización](Known-issues.md).
 
