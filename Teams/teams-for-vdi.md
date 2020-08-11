@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54d5f9fbf9821e88e17ebb8fe5dfa45f2b3c7270
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 62d61a031f1fc69e1288dc160b4459c792c0c1cf
+ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597125"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46607105"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -31,7 +31,7 @@ En este artículo se describen los requisitos y las limitaciones para usar Micro
 
 La infraestructura de escritorio virtual (VDI) es una tecnología de virtualización que hospeda un sistema operativo de escritorio y aplicaciones en un servidor centralizado en un centro de datos. Esto permite una experiencia de escritorio totalmente personalizada para los usuarios con un origen centralizado totalmente seguro y compatible.
 
-Microsoft Teams en un entorno virtualizado admite chat y colaboración. Y con las plataformas de escritorio virtual de Windows o Citrix, también se admiten las funciones de llamada y reunión.
+Microsoft Teams en un entorno virtualizado admite chat y colaboración. Y con las plataformas de escritorio virtual de Windows, Citrix y VMware, también se admiten las funciones de llamada y reunión.
 
 Los equipos de un entorno virtualizado admiten varias configuraciones. Esto incluye VDI, modos dedicados, compartidos, persistentes y no persistentes. Las características están en desarrollo continuo y se agregan con regularidad, y la funcionalidad se expandirá en los próximos meses y años.
 
@@ -54,7 +54,7 @@ El uso de Teams en un entorno virtualizado requiere los siguientes componentes.
 
 La aplicación de escritorio de Teams se validó con los principales proveedores de soluciones de virtualización. Con los diversos proveedores de mercado, le recomendamos que consulte a su proveedor de soluciones de virtualización para asegurarse de que cumple con los requisitos mínimos.
   
-En la actualidad, los equipos con la optimización de audio/vídeo (AV) de la VDI están certificados con el escritorio virtual de Windows y Citrix. Revise la información de esta sección para asegurarse de que reúne todos los requisitos para obtener la funcionalidad adecuada.
+En la actualidad, los equipos con la optimización de audio y vídeo (AV) de la VDI son certificados con el escritorio virtual de Windows, Citrix y VMware. Revise la información de esta sección para asegurarse de que reúne todos los requisitos para obtener la funcionalidad adecuada.
 
 ### <a name="platforms-certified-for-teams"></a>Plataformas certificadas para equipos
 
@@ -64,6 +64,7 @@ Las siguientes plataformas tienen soluciones de infraestructura de escritorio vi
 |----|---|
 |![El logotipo representa Microsoft](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Escritorio virtual de Windows</a> |
 |![El logotipo representa Citrix](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Aplicaciones virtuales y equipos de escritorio Citrix</a> |
+|![El logotipo representa a VMware](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">Horizonte de VMware</a> |
 
 ### <a name="windows-virtual-desktop"></a>Escritorio virtual de Windows
 
@@ -76,6 +77,10 @@ Las aplicaciones virtuales y los escritorios de Citrix (anteriormente conocidos 
 Puede descargar la última versión de los equipos de escritorio y las aplicaciones virtuales de Citrix en [el sitio de descargas de Citrix](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/). (Primero deberás iniciar sesión). Los componentes necesarios se agrupan en la [aplicación Citrix Workspace (CWA)](https://www.citrix.com/downloads/workspace-app/) y virtual Delivery Agent (VDA) de forma predeterminada. No es necesario instalar ningún componente o complemento adicional en CWA o en VDA.
 
 Para obtener los últimos requisitos de servidor y cliente, consulte [este sitio web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
+
+### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>Espacio de trabajo de horizonte de VMware y requisitos de escritorio
+
+El horizonte de VMware proporciona soporte de AV optimizado para los equipos de VDI para mejorar la productividad en todos los escritorios virtuales. Puede descargar la última versión de horizonte de VMware desde la página de [descargas de VMware](https://my.vmware.com/web/vmware/downloads/#all_products) .
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>Instalar o actualizar la aplicación de escritorio de Teams en VDI
 
@@ -197,24 +202,12 @@ Hay una variedad de configuraciones de instalación virtualizadas, cada una con 
 
 ## <a name="teams-on-vdi-with-calling-and-meetings"></a>Teams en VDI con llamadas y reuniones
 
-Además de los chats y la colaboración, los equipos de VDI con soporte de llamadas y reuniones están disponibles con plataformas basadas en Citrix. Las características compatibles se basan en la pila de medios de WebRTC y en la implementación específica de Citrix. El siguiente diagrama ofrece una descripción general de la arquitectura.
+Además de los chats y la colaboración, los equipos de la VDI con llamadas y reuniones están disponibles con las plataformas de proveedores de virtualización compatibles. Las características compatibles se basan en la implementación de los proveedores de virtualización y la pila de medios de WebRTC. El siguiente diagrama ofrece una descripción general de la arquitectura.
 
 ![Diagrama que muestra equipos en arquitectura de VDI](media/teams-on-vdi-architecture.png)
 
-No se admiten estas características de llamadas y reuniones:
-
-- Servicios de emergencia mejorados
-- Botones HID y controles LED entre la aplicación de Teams y los dispositivos
-- Efectos y desenfoque de fondo
-- Eventos de difusión/Live
-- Enrutamiento basado en la ubicación (LBR)
-- Estacionar llamada
-- Cola de llamadas
-
 > [!IMPORTANT]
-> Si actualmente ejecuta equipos sin optimización de AV en VDI y usa características que aún no se admiten para la optimización (como conceder y tomar el control al compartir aplicaciones), debe configurar directivas de Citrix para desactivar el redireccionamiento de equipos. Esto significa que las sesiones de Team media no se optimizarán. Para conocer los pasos sobre cómo configurar directivas para desactivar el redireccionamiento de equipos, consulte este [sitio web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html).
-
-Estamos trabajando para agregar características de llamadas y reuniones que actualmente solo están disponibles en entornos ajenos a VDI. Esto puede incluir más control de administración de la calidad, escenarios de pantalla compartida adicionales y características avanzadas que se han agregado recientemente a teams. Póngase en contacto con el representante de su equipo para obtener más información sobre las próximas características.
+> Si actualmente ejecuta equipos sin optimización de AV en VDI y usa características que aún no se admiten para la optimización (como conceder y tomar el control al compartir aplicaciones), debe configurar las directivas del proveedor de virtualización para desactivar el redireccionamiento de equipos. Esto significa que las sesiones de Team media no se optimizarán. Para conocer los pasos sobre cómo establecer directivas para desactivar el redireccionamiento de Teams, póngase en contacto con el proveedor de virtualización.
 
 ### <a name="network-requirements"></a>Requisitos de red
 
@@ -243,7 +236,7 @@ El explorador de Teams en Chrome no proporciona un reemplazo para la aplicación
 
 ## <a name="teams-on-vdi-with-chat-and-collaboration"></a>Equipos en VDI con chat y colaboración
 
-Si su organización desea usar únicamente las características de colaboración y chat en Teams, puede establecer directivas de nivel de usuario para desactivar las funciones de llamada y de reunión de Teams. Este nivel de características no requiere aplicaciones virtuales de Citrix y equipos de escritorio.
+Si su organización desea usar únicamente las características de colaboración y chat en Teams, puede establecer directivas de nivel de usuario para desactivar las funciones de llamada y de reunión de Teams. 
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>Establecer directivas para desactivar la funcionalidad de llamadas y reuniones
 
@@ -297,9 +290,9 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 Para obtener más información sobre cómo usar PowerShell para administrar directivas de reuniones, consulte [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a>Migrar equipos de VDI con chat y colaboración a Citrix con llamadas y reuniones
+## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-optimize-teams-with-calling-and-meetings"></a>Migrar equipos en VDI con chat y colaboración para optimizar equipos con llamadas y reuniones
 
-Si tiene una implementación existente de Teams en VDI con conversaciones y colaboración en las que ha establecido directivas de nivel de usuario para desactivar la funcionalidad de llamadas y reuniones, y está migrando a Citrix con optimización de AV, debe configurar las directivas para activar la funcionalidad de llamadas y reuniones de esos equipos en los usuarios de VDI.
+Si tiene una implementación existente de Teams en VDI con conversaciones y colaboración en las que ha establecido directivas de nivel de usuario para desactivar la funcionalidad de llamadas y reuniones, y está migrando a teams con optimización de AV, debe configurar directivas para activar la funcionalidad de llamadas y reuniones de esos equipos en los usuarios de VDI.
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>Establecer directivas para activar la funcionalidad de llamadas y reuniones
 
@@ -359,13 +352,28 @@ Para obtener más información sobre cómo usar PowerShell para administrar dire
 
 - Con la instalación por equipo, Teams en VDI no se actualiza automáticamente de la manera en que se encuentran los clientes de equipos ajenos a VDI. Tiene que actualizar la imagen de VM instalando un nuevo MSI, tal y como se describe en la sección [instalar o actualizar la aplicación de escritorio de Teams en VDI](#install-or-update-the-teams-desktop-app-on-vdi) . Debe desinstalar la versión actual para actualizar a una versión más reciente.
 - Los equipos se deben implementar tanto por usuario como por equipo. No se admite la implementación de equipos para usuarios simultáneos y por equipo. Para migrar de cualquiera por equipo o por usuario a uno de estos modos, siga el procedimiento de desinstalación y vuelva a implementarlo en cualquiera de los dos.
-- Citrix no es compatible con los clientes de MacOs y Linux en este momento.
+- El escritorio virtual de Windows y VMware no son compatibles en este momento con los clientes basados en MacOS y Linux.
+- Citrix no es compatible con los clientes de MacOs en este momento.
 - Citrix no admite el uso de proxy HTTP explícitos definidos en un extremo.
 
 ### <a name="calling-and-meetings"></a>Llamadas y reuniones
 
+No se admiten las siguientes características de llamadas y reuniones:
+
+- Servicios de emergencia mejorados
+- Botones HID y controles LED entre la aplicación de Teams y los dispositivos
+- Efectos y desenfoque de fondo
+- Eventos de difusión/Live
+- Enrutamiento basado en la ubicación (LBR)
+- Estacionar llamada
+- Cola de llamadas
+
+> [!NOTE]
+> Estamos trabajando para agregar características de llamadas y reuniones que actualmente solo están disponibles en entornos ajenos a VDI. Esto puede incluir más control de administración de la calidad, escenarios de pantalla compartida adicionales y características avanzadas que se han agregado recientemente a teams. Póngase en contacto con el representante de su equipo para obtener más información sobre las próximas características.
+
+A continuación se indican los problemas conocidos y las limitaciones de las llamadas y las reuniones:
+
 - La interoperabilidad con Skype empresarial está limitada a las llamadas de audio; no hay ninguna modalidad de video.
-- Unirse a reuniones de Teams como usuario anónimo no está optimizado para AV. El usuario puede unirse a la reunión y tener una experiencia no optimizada.
 - En las reuniones o en las llamadas grupales solo se admite una única secuencia de vídeo entrante. Cuando varias personas envían video, solo se muestra el vídeo del altavoz dominante en un momento dado.
 - La resolución de flujo de vídeo entrante y saliente está limitada a la resolución de 720p. Esta es una limitación de WebRTC.
 - Solo se admite una secuencia de vídeo de una cámara entrante o una secuencia compartida de pantalla. Cuando hay un uso compartido de pantalla entrante, se muestra ese recurso compartido de pantalla, en lugar del vídeo del altavoz dominante.
