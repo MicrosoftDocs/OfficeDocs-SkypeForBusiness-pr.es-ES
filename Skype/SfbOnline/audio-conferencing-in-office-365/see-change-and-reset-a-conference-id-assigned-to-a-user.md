@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre cómo asignar un identificador de conferencia a un usuario en Skype empresarial online y cuáles deben ser los parámetros de IDs de conferencia. '
-ms.openlocfilehash: caa94984b06ff73d8f14acf4727870a988298974
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: a8f0e64ef30e1e503a1e3b78c9823f5d115df837
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163919"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46643610"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Ver y restablecer un Id. de conferencia asignado a un usuario en Skype for Business Online
 
@@ -82,7 +82,7 @@ Puede restablecer un Id. de conferencia para un usuario si, por ejemplo, este lo
 
 2. Vaya al centro de administración > **Skype empresarial**.
 
-3. En el **Centro**> de administración de Skype empresarial,**los usuarios**de la**Conferencia** > de audio, en el panel de acciones, en **ID de conferencia**, haga clic en **restablecer**.
+3. En el **centro de administración de Skype empresarial** >  , los usuarios de la**Conferencia de audio**  >  **Users**, en el panel de acciones, en **ID de conferencia**, haga clic en **restablecer**.
 
 4. En la ventana **Restablecer Id. de conferencia?**, haga clic en **Sí**. Se creará automáticamente un ID de conferencia y un mensaje de correo electrónico con el nuevo identificador de conferencia.
 
@@ -103,7 +103,7 @@ Puede restablecer el id. de conferencia de un usuario mediante Windows PowerShel
 
 - El identificador de conferencia debe cumplir la longitud en dígitos establecidos en el puente de audioconferencia. No se pueden usar caracteres alfabéticos o especiales en los id. de conferencia, solo se pueden usar números.
 
-- El identificador de conferencia de todos los usuarios de la audioconferencia será de 7 dígitos de forma predeterminada, y no se podrá cambiar el número de dígitos.
+- El identificador de conferencia de todos los usuarios de la audioconferencia será de 9 dígitos de forma predeterminada, y no se podrá cambiar el número de dígitos.
 
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
