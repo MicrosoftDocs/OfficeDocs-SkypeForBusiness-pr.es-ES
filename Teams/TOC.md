@@ -25,7 +25,7 @@
 
 <!-- ============================================================ -->
 
-# Chat, equipos, canales y aplicaciones
+# Chat, equipos y canales
 ## [Planear la implementación](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Usar el Asesor de Teams para implementar Teams](use-advisor-teams-roll-out.md)
 ## [Información general de los equipos y canales](teams-channels-overview.md)
@@ -51,25 +51,6 @@
 ## [Archivar o eliminar un equipo](archive-or-delete-a-team.md)
 ## [Migrar de Slack a Teams](migrate-slack-to-teams.md)
 ## [Plantillas de Teams integradas en Graph para pequeñas y medianas empresas](smb-templates.md)
-
-
-## Aplicaciones, bots y conectores
-
-### [Información general](deploy-apps-microsoft-teams-landing-page.md)
-### [Consideraciones y permisos de las aplicaciones](app-permissions.md)
-### [Administrar aplicaciones para Teams](manage-apps.md)
-### [Configurar la administración para aplicaciones en Teams](admin-settings.md)
-### [Usar pestañas integradas y personalizadas](built-in-custom-tabs.md)
-### [Usar Microsoft 365 u Office 365 y los conectores personalizados](Office-365-custom-connectors.md)
-### [Consentimiento específico del recurso](resource-specific-consent.md)
-### [Publicar una aplicación personalizada que se ha enviado a través de la API de envío de aplicaciones de Teams](submit-approve-custom-apps.md)
-### [Publicar una aplicación personalizada cargando un paquete de aplicación](upload-custom-apps.md)
-### [Certificación de aplicación](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Plantillas de aplicación para equipos](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Administrar la aplicación Listas para su organización en Teams](manage-lists-app.md)
-### [Administrar la aplicación Tareas para su organización](manage-tasks-app.md)
-### [Configurar la jerarquía de destinos de equipo](set-up-your-team-hierarchy.md)
-### [Configurar la aplicación de Reuniones de Skype para trabajar con Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## Comunicación con usuarios externos
 ### [Comunicación con usuarios de otras organizaciones](communicate-with-users-from-other-organizations.md)
@@ -129,6 +110,26 @@
 
 <!-- ============================================================ -->
 
+# Aplicaciones, bots y conectores
+
+## [Información general](deploy-apps-microsoft-teams-landing-page.md)
+## [Consideraciones y permisos de las aplicaciones](app-permissions.md)
+## [Administrar aplicaciones para Teams](manage-apps.md)
+## [Configurar la administración para aplicaciones en Teams](admin-settings.md)
+## [Usar pestañas integradas y personalizadas](built-in-custom-tabs.md)
+## [Usar Microsoft 365 u Office 365 y los conectores personalizados](Office-365-custom-connectors.md)
+## [Consentimiento específico del recurso](resource-specific-consent.md)
+## [Publicar una aplicación personalizada que se ha enviado a través de la API de envío de aplicaciones de Teams](submit-approve-custom-apps.md)
+## [Publicar una aplicación personalizada cargando un paquete de aplicación](upload-custom-apps.md)
+## [Certificación de aplicación](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Plantillas de aplicación para equipos](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Administrar la aplicación Listas para su organización en Teams](manage-lists-app.md)
+## [Administrar la aplicación Tareas para su organización](manage-tasks-app.md)
+## [Configurar la jerarquía de destinos de equipo](set-up-your-team-hierarchy.md)
+## [Configurar la aplicación de Reuniones de Skype para trabajar con Teams](configure-skype-meetings-app-to-work-with-teams.md)
+
+
+<!-- ============================================================ -->
 # Reuniones y conferencias
 ## [Inicio rápido: reuniones y eventos en vivo](quick-start-meetings-live-events.md)
 ## [Planear la implementación](deploy-meetings-microsoft-teams-landing-page.md)
