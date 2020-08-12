@@ -1,10 +1,9 @@
 ---
-title: Configurar los equipos de Skype empresarial Server que se supervisarán
+title: Instalación y configuración de nodos de monitor
 ms.reviewer: ''
 ms.author: v-lanac
 author: LanaChin
 manager: serdars
-ms.date: 11/7/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -12,72 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Resumen: Instale los archivos del agente Operations Manager en el equipo con Skype empresarial Server 2019 para que se supervise y configure el equipo para que actúe como un proxy de System Center.'
-ms.openlocfilehash: 062dfeb4b03cbe68de21bcb4ea8722bf0f666070
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: 'Resumen: Instale y configure nodos de monitor para transacciones sintéticas de Skype empresarial Server.'
+ms.openlocfilehash: ed82e668fc09acf80aeb86f2aa0d2a3e0d1819b9
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150491"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640954"
 ---
-# <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a><span data-ttu-id="6df0c-103">Configurar los equipos de Skype empresarial Server que se supervisarán</span><span class="sxs-lookup"><span data-stu-id="6df0c-103">Configure the Skype for Business Server computers that will be monitored</span></span>
-
-<span data-ttu-id="6df0c-104">**Resumen:** Instale los archivos del agente Operations Manager en el equipo de Skype empresarial Server 2019 que se va a supervisar y configure el equipo para que actúe como un proxy de System Center.</span><span class="sxs-lookup"><span data-stu-id="6df0c-104">**Summary:** Install the Operations Manager agent files on the Skype for Business Server 2019 computer to be monitored, and configure the computer to act as a System Center proxy.</span></span>
-
-<span data-ttu-id="6df0c-105">Cada equipo de Skype empresarial Server 2019 que desee supervisar debe ser capaz de informar a sí mismo sobre su existencia en el servidor de administración.</span><span class="sxs-lookup"><span data-stu-id="6df0c-105">Each Skype for Business Server 2019 computer that you want to monitor must be able to self-report its existence to the management server.</span></span> <span data-ttu-id="6df0c-106">Para habilitar este proceso, debe instalar los archivos del agente Operations Manager en cada uno de los equipos que se va a supervisar.</span><span class="sxs-lookup"><span data-stu-id="6df0c-106">To enable this process, you must install the Operations Manager agent files on each of the computers to be monitored.</span></span> <span data-ttu-id="6df0c-107">Después de instalar los archivos del agente, debe configurar el equipo para que actúe como un proxy de System Center.</span><span class="sxs-lookup"><span data-stu-id="6df0c-107">After installing the agent files, you must configure the computer to act as a System Center proxy.</span></span> <span data-ttu-id="6df0c-108">Asegúrese de haber instalado y configurado primero Skype empresarial Server en estos equipos antes de llevar a cabo estos procedimientos.</span><span class="sxs-lookup"><span data-stu-id="6df0c-108">Be sure that you have first installed and configured Skype for Business Server on these computers before carrying out these procedures.</span></span>
-
-## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a><span data-ttu-id="6df0c-109">Instalación de un certificado en un nodo de monitor localizado fuera de la red perimetral</span><span class="sxs-lookup"><span data-stu-id="6df0c-109">Installing a Certificate on a Watcher Node Located Outside the Perimeter Network</span></span>
-<span data-ttu-id="6df0c-110"><a name="watcher_node_outside"> </a></span><span class="sxs-lookup"><span data-stu-id="6df0c-110"><a name="watcher_node_outside"> </a></span></span>
-
-<span data-ttu-id="6df0c-111">Los agentes de System Center Operations Manager que se ejecutan en una red perimetral (como un servidor perimetral de Skype empresarial Server), fuera de la empresa (como un nodo externo de monitor de transacciones sintéticas) o en un límite de confianza de Active Directory, pueden requerir la configuración de un servidor de puerta de enlace de System Center Operations Manager.</span><span class="sxs-lookup"><span data-stu-id="6df0c-111">System Center Operations Manager agents running in a perimeter network (such as a Skype for Business Server Edge Server), outside of the enterprise (such as an external synthetic transaction watcher node), or across an Active Directory trust boundary, may require the configuration of a System Center Operations Manager Gateway Server.</span></span> <span data-ttu-id="6df0c-112">Este rol de servidor permite que los agentes que no tienen una relación de confianza con el servidor de administración raíz generen alertas.</span><span class="sxs-lookup"><span data-stu-id="6df0c-112">This server role enables agents that do not have a trust relationship with the Root Management Server to raise alerts.</span></span> <span data-ttu-id="6df0c-113">Para obtener más información, consulte [administrar servidores de puerta de enlace en Operations Manager 2012](https://technet.microsoft.com/library/hh212823.aspx).</span><span class="sxs-lookup"><span data-stu-id="6df0c-113">For details, see [Managing Gateway Servers in Operations Manager 2012](https://technet.microsoft.com/library/hh212823.aspx).</span></span>
-
-<span data-ttu-id="6df0c-114">Si implementa un agente en una de estas ubicaciones, también tendrá que solicitar y configurar un certificado que permita al nodo de monitor enviar alertas a System Center Operations Manager.</span><span class="sxs-lookup"><span data-stu-id="6df0c-114">If you deploy an agent in one of these locations, you will also need to request and configure a certificate that enables the watcher node to send alerts to System Center Operations Manager.</span></span> <span data-ttu-id="6df0c-115">Para simplificar este proceso, el equipo de Operations Manager creó una serie de utilidades para que pueda solicitar e instalar el tipo correcto de certificado en la PC nodo de supervisión.</span><span class="sxs-lookup"><span data-stu-id="6df0c-115">To simplify this process, the Operations Manager team has created a set of utilities that enable you to request and install the correct type of certificate on the watcher node computer.</span></span> <span data-ttu-id="6df0c-116">Para obtener más información y para descargar estas utilidades, consulte [obtención de certificados para agentes no Unidos a un dominio fácilmente con el Asistente para generación de certificados](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409).</span><span class="sxs-lookup"><span data-stu-id="6df0c-116">For details, and to download these utilities, see [Obtaining Certificates for Non-Domain Joined Agents Made Easy with Certificate Generation Wizard](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409).</span></span>
-
-### <a name="installing-the-operation-manager-agent-files"></a><span data-ttu-id="6df0c-117">Instalación de los archivos del agente Operations Manager</span><span class="sxs-lookup"><span data-stu-id="6df0c-117">Installing the Operation Manager Agent Files</span></span>
-
-1. <span data-ttu-id="6df0c-118">En los medios de configuración de System Center, haga doble clic en **setup. exe**.</span><span class="sxs-lookup"><span data-stu-id="6df0c-118">On your System Center setup media, double-click **Setup.exe**.</span></span>
-
-2. <span data-ttu-id="6df0c-119">En el Asistente para la instalación de System Center Operations Manager, haga clic en **instalar agente de Operations Manager**, en instalar agente en instalaciones opcionales.</span><span class="sxs-lookup"><span data-stu-id="6df0c-119">In the System Center Operation Manager setup wizard, click **Install Operations Manager Agent**, from Install Agent under Optional Installations</span></span>
-
-3. <span data-ttu-id="6df0c-120">En el Asistente para la instalación de System Center, en la página éste es el Asistente para la instalación de System Center Operations Manager, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="6df0c-120">In the System Center setup wizard, on the Welcome to the System Center Operations Manager Setup wizard page, click **Next**.</span></span>
-
-4. <span data-ttu-id="6df0c-121">En la página carpeta de destino, seleccione la carpeta en la que se instalarán los archivos del agente de Operations Manager y haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="6df0c-121">On the Destination Folder page, select the folder where the Operations Manager Agent files will be installed and click **Next**.</span></span>
-
-5. <span data-ttu-id="6df0c-122">En la página Configuración del grupo de administración, seleccione **especificar información del grupo de administración** y haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="6df0c-122">On the Management Group Configuration page, select **Specify Management Group information** and click **Next**.</span></span>
-
-6. <span data-ttu-id="6df0c-123">En la página Configuración del grupo de administración, escriba el nombre del grupo de administración de Operations Manager en el cuadro **nombre del grupo de administración** y, a continuación, escriba el nombre de host del servidor de Operations Manager (por ejemplo, ATL-SCOM-001) en el cuadro servidor de **Administración** .</span><span class="sxs-lookup"><span data-stu-id="6df0c-123">On the Management Group Configuration page, type the name of your Operations Manager Management Group in the **Management Group Name** box, and then type the host name of your Operations Manager server (for example, atl-scom-001) in the **Management Server** box.</span></span> <span data-ttu-id="6df0c-124">Si cambió el número de puerto que usa Operations Manager, escriba el nuevo número de puerto en el cuadro **Puerto del servidor de administración** .</span><span class="sxs-lookup"><span data-stu-id="6df0c-124">If you changed the port number used by Operations Manager, enter the new port number in the **Management Server Port** box.</span></span> <span data-ttu-id="6df0c-125">En caso contrario, deje el puerto en el valor predeterminado de 5723 y, a continuación, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="6df0c-125">Otherwise, leave the port at the default value of 5723, and then click **Next**.</span></span>
-
-7. <span data-ttu-id="6df0c-126">En la página cuenta de acción del agente, seleccione **sistema local** y haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="6df0c-126">On the Agent Action Account page, select **Local System** and click **Next**.</span></span>
-
-8. <span data-ttu-id="6df0c-127">En la página Microsoft Update, seleccione **no quiero usar Microsoft Update** y haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="6df0c-127">On the Microsoft Update page, select **I don't want to use Microsoft Update** and click **Next**.</span></span>
-
-9. <span data-ttu-id="6df0c-128">En la página Listo para instalar, haga clic en **Instalar**.</span><span class="sxs-lookup"><span data-stu-id="6df0c-128">On the Ready to Install page, click **Install**.</span></span>
-
-10. <span data-ttu-id="6df0c-129">En la página finalización del Asistente para la instalación de System Center Operations Manager, haga clic en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="6df0c-129">On the Completing the System Center Operations Manager Setup wizard page, click **Finish**.</span></span>
-
-11. <span data-ttu-id="6df0c-130">Haga clic en **Salir**.</span><span class="sxs-lookup"><span data-stu-id="6df0c-130">Click **Exit**.</span></span>
-
-<span data-ttu-id="6df0c-131">Para System Center 2012, puede comprobar que el agente se ha creado haciendo clic en **Inicio**, en **todos los programas**, en **System Center Operations Manager 2012**y, a continuación, en **Operations 2012 Manager Shell**.</span><span class="sxs-lookup"><span data-stu-id="6df0c-131">For System Center 2012, you can verify that the agent has been created by clicking **Start**, clicking **All Programs**, clicking **System Center Operations Manager 2012**, and then clicking **Operations 2012 Manager Shell**.</span></span> <span data-ttu-id="6df0c-132">En el shell de Operations Manager, escriba el siguiente comando de Windows PowerShell y, a continuación, presione ENTRAR:</span><span class="sxs-lookup"><span data-stu-id="6df0c-132">In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:</span></span>
-```PowerShell
-Get-SCOMAgent
-```
-
-<span data-ttu-id="6df0c-133">Aparecerá una lista de todos los agentes de Operations Manager.</span><span class="sxs-lookup"><span data-stu-id="6df0c-133">A list of all your Operations Manager agents will appear.</span></span>
-## <a name="configuring-the-skype-for-business-server-computer-to-participate-in-system-center-discovery"></a><span data-ttu-id="6df0c-134">Configuración del equipo de Skype empresarial Server para participar en la detección de System Center</span><span class="sxs-lookup"><span data-stu-id="6df0c-134">Configuring the Skype for Business Server Computer to Participate in System Center Discovery</span></span>
-<span data-ttu-id="6df0c-135"><a name="watcher_node_outside"> </a></span><span class="sxs-lookup"><span data-stu-id="6df0c-135"><a name="watcher_node_outside"> </a></span></span>
-
-<span data-ttu-id="6df0c-136">Para asegurarse de que el nuevo agente de Skype empresarial Server participa en el proceso de detección de System Center Operations Manager, debe completar el siguiente procedimiento en cada equipo en el que se haya instalado la consola de System Center Operations Manager:</span><span class="sxs-lookup"><span data-stu-id="6df0c-136">To make sure that your new Skype for Business Server agent participates in the discovery process for System Center Operations Manager, you must complete the following procedure on each computer where the System Center Operations Manager console has been installed:</span></span>
-
-1. <span data-ttu-id="6df0c-137">En la pestaña Administración, haga clic en **Agente administrado**.</span><span class="sxs-lookup"><span data-stu-id="6df0c-137">On the Administration tab, click **Agent Managed**.</span></span>
-
-2. <span data-ttu-id="6df0c-138">Haga clic en **Asistente para detección** y complete el Asistente para el equipo que se va a detectar.</span><span class="sxs-lookup"><span data-stu-id="6df0c-138">Click on **Discovery Wizard** and complete the wizard for the computer to be discovered.</span></span>
-
-3. <span data-ttu-id="6df0c-139">Reinicie el servicio de agente de estado.</span><span class="sxs-lookup"><span data-stu-id="6df0c-139">Reboot the Health Agent service.</span></span> <span data-ttu-id="6df0c-140">El reinicio del servicio impondrá la detección del nuevo equipo.</span><span class="sxs-lookup"><span data-stu-id="6df0c-140">Rebooting the service will force discovery of the new machine.</span></span> <span data-ttu-id="6df0c-141">Si no reinicia el servicio, puede tardar hasta 4 horas antes de que System Center Operations Manager detecte el nuevo equipo.</span><span class="sxs-lookup"><span data-stu-id="6df0c-141">If you do not reboot the service, it could take as long as 4 hours before the new machine is discovered by System Center Operations Manager.</span></span>
-
-4. <span data-ttu-id="6df0c-142">Compruebe que no se haya registrado ningún evento de error en el registro de eventos de Operations Manager.</span><span class="sxs-lookup"><span data-stu-id="6df0c-142">Verify that no error events were recorded in the Operations Manager event log.</span></span>
-
-5. <span data-ttu-id="6df0c-143">El equipo en el que se inserta correctamente el agente se mostrará en la lista "administrado por el agente" y el equipo en el que se instaló manualmente el agente se mostrará en "administración pendiente", haga clic en el nombre del equipo y en aprobar.</span><span class="sxs-lookup"><span data-stu-id="6df0c-143">The computer where the agent is pushed successfully will be shown under "Agent Managed" list and the computer where agent was installed manually will be shown under "Pending Management", click on the computer name and approve.</span></span>
-
-6. <span data-ttu-id="6df0c-144">Haga clic con el botón secundario en el nombre del equipo y, a continuación, haga clic en  **Propiedades**.</span><span class="sxs-lookup"><span data-stu-id="6df0c-144">Right-click the name of the computer, and then click **Properties**.</span></span> <span data-ttu-id="6df0c-145">En el cuadro de diálogo Propiedades, en la pestaña Seguridad, seleccione **Permitir a este agente que actúe como proxy ay detecte objetos administrados en otros equipos** y luego haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6df0c-145">In the Properties dialog box, on the Security tab, select **Allow this agent to act as a proxy and discover managed objects on other computers**, and then click **OK**.</span></span>
-
-
+[!INCLUDE [watcher-nodes](../../SfbServer/management-tools/use-scom-management-pack/watcher-nodes.md)]
