@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: 8eba2d4ebed9112e1ada4e3101bae9fe1cbfbcfe
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: c617669cdb5b0ee9f5a7acd52c2c9064b9cbc88e
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552616"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640965"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -443,3 +443,4 @@ Para especificar si los usuarios pueden personalizar su fondo de vídeo en una r
 
 - [Descripción de PowerShell para Teams](teams-powershell-overview.md)
 - [Asignar directivas a los usuarios de Teams](assign-policies.md)
+- [Quitar la política de reunión de RestrictedAnonymousAccess Teams de los usuarios](meeting-policies-restricted-anonymous-access.md)

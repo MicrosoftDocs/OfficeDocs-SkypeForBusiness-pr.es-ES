@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Ver qué dispositivos y periféricos USB, como, por ejemplo, auriculares con micrófono, teléfonos, cámaras Web y monitores, están certificados para Microsoft Teams.
-ms.openlocfilehash: 3b92c41745027987ec3f03272fd10077c6302c49
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 1bf3e122293665d5e883f191c31b76ba4dbba061
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572265"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640915"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
@@ -80,8 +80,8 @@ Si es un fabricante y desea participar en el programa de certificación, consult
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Certificado para Skype empresarial                        |
 |ViewSonic            |WCD- IFP6570                                               |7/31/2020       |Certificado para Skype empresarial                        |
-|Jabra                |Enganchar auriculares con micrófono 75                                          |7/31/2020       |Skype empresarial con la actualización a Microsoft Teams      |
-|Jabra                |Enganchar auriculares con micrófono 65                                          |7/31/2020       |Skype empresarial con la actualización a Microsoft Teams      |
+|Jabra                |Otros auriculares con micrófono 75                                          |7/31/2020       |Skype empresarial con la actualización a Microsoft Teams      |
+|Jabra                |Otros auriculares con micrófono 65                                          |7/31/2020       |Skype empresarial con la actualización a Microsoft Teams      |
 |Jabra                |Enganchar auriculares con micrófono 50                                          |7/31/2020       |Skype empresarial con la actualización a Microsoft Teams      |
 |Avocor               |WCD-AVW-6555                                              |7/30/2020       |Certified for Microsoft Teams                           |
 |Jabra                |Auriculares con micrófono Evolve2 85                                         |7/17/2020       |Certified for Microsoft Teams                           |

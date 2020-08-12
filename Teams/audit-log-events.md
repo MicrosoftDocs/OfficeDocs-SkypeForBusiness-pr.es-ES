@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo recuperar datos de Microsoft Teams del registro de auditoría.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5b458dec4782794fef69b58d44430b35eccc07d
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 64b2e2f28b33a3f0518dbf4f2f07a4be3053d342
+ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121380"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46634616"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -189,6 +189,11 @@ Si su organización usa la aplicación turnos en Teams, puede buscar en el regis
 ## <a name="office-365-management-activity-api"></a>API de actividad de administración 365 de Office
 
 Puede usar la API de actividad de administración de Office 365 para recuperar información sobre los eventos de Teams. Para obtener más información sobre el esquema API de administración de la actividad de los equipos, consulte [esquema de equipos](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
+
+
+## <a name="attribution-in-teams-audit-logs"></a>Atribución en los registros de auditoría de Teams
+
+En la actualidad, existe un problema conocido con la atribución de los registros de auditoría de Teams y los mensajes de control: es posible que un propietario no se haya atribuido correctamente con la eliminación o adición de usuarios. Esto sucede cuando el cambio se produce fuera de Teams. En estos casos, le recomendamos que use los [registros de auditoría de Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 ## <a name="related-topics"></a>Temas relacionados
 
