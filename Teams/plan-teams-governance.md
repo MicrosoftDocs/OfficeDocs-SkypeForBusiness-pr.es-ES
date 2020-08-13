@@ -1,7 +1,7 @@
 ---
 title: Plan para la administración en Teams - Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: reference
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19b2fc0c14730f4aa4c25ccdfcf5298f6f038d3d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ea48b4df3313784cf129cf483aebac341917cb21
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665282"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656361"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planificar el gobierno en Teams
 
@@ -41,7 +41,7 @@ Es posible que su organización requiera que implemente controles estrictos sobr
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |Puntos de decisión|<ul><li>¿Su organización requiere una Convención de nomenclatura específica para Teams?</li><li>¿Los creadores de equipos necesitan la capacidad de asignar clasificaciones específicas de la organización a teams?</li><li>¿Necesita restringir la posibilidad de agregar invitados a los equipos de acuerdo con cada equipo?</li><li>¿Requiere su organización limitar quién puede crear equipos?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente los requisitos de la organización para la creación, denominación, clasificación y acceso de invitados de su organización.</li><li>Planee la implementación de estos requisitos como parte de la implementación de Teams.</li><li>Comunique y publique sus directivas para informar a los usuarios del comportamiento que pueden esperar.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Siguientes pasos|<ul><li>Documente los requisitos de la organización para la creación, denominación, clasificación y acceso de invitados de su organización.</li><li>Planee la implementación de estos requisitos como parte de la implementación de Teams.</li><li>Comunique y publique sus directivas para informar a los usuarios del comportamiento que pueden esperar.</li></ul>|
 
 > [!TIP]
 > Use la tabla siguiente para capturar los requisitos de la organización.
@@ -103,6 +103,34 @@ Para obtener instrucciones técnicas sobre cómo implementar esta configuración
 
 - [Archivar o restaurar un equipo](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 
+## <a name="group-and-team-membership-management"></a>Administración de la pertenencia a grupos y equipos
+
+Administrar de forma coherente miembros de proyectos basados en proyectos o grupos restringidos son necesarios para los equipos que requieren la incorporación y descarga rápida o los usuarios y los invitados. Es posible que su organización también tenga que asegurarse de que todos los miembros actuales tengan la justificación empresarial en un equipo. La administración de miembros puede ser difícil porque los propietarios del equipo pueden abandonar y los usuarios no suelen dejar grupos por sí mismos cuando el proyecto finaliza o cuando cambian los roles. La mejor manera de administrar la pertenencia a grupos que permite a los usuarios obtener acceso cuando es necesario pero asegurarse de que el grupo no tiene ningún riesgo de acceso inapropiado es mediante dos procesos de distrito: la administración de derechos y las revisiones de Access.
+
+La [Administración de derechos](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) le permite delegar a alguien, como un jefe de proyecto, recopilar todos los recursos necesarios, incluidas las pertenencias a equipos, en un único paquete. También pueden definir quién puede hacer solicitudes: usuarios de su inquilino o de otras organizaciones conectadas. El jefe de proyecto recibirá solicitudes de acceso en su correo electrónico y aprobará o denegará solicitudes en el portal de acceso. Los administradores pueden configurar las condiciones de acceso para incluir una fecha o período de expiración cuando el usuario o el invitado se van a quitar del equipo, a menos que se renueve el acceso. Los administradores también pueden configurar los grupos asociados a los equipos para participar en las revisiones de Access. Para las [revisiones de Access](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview), los propietarios del grupo recibirán avisos periódicos para revisar los miembros de un equipo. Las revisiones de Access incluyen recomendaciones que hacen que sea más fácil para los propietarios del grupo pasar por el proceso de atestación habitual.
+
+||||
+|:-|:-|:-|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | Puntos de decisión | ¿Requiere su organización un proceso coherente para administrar la pertenencia de uno o varios equipos? <br> ¿Requiere su organización propietarios, o los miembros mismos, para justificar la pertenencia continua de uno o varios equipos de forma periódica? <br> ¿Requiere su organización aprobación para que los usuarios y los invitados soliciten el acceso a los recursos, incluidos equipos, grupos, sitios de SharePoint y aplicaciones? |
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| Pasos siguientes | Documente los requisitos de la organización para cada equipo o para equipos específicos para la caducidad de la suscripción.<br>Planee la forma en que su organización puede empaquetar equipos, grupos, sitios de SharePoint y aplicaciones conjuntamente en paquetes de Access.<br>Planee qué personas, como el administrador del solicitante, un jefe de proyecto, un patrocinador de una organización conectada o un funcionario de seguridad de su organización deberán aprobar o denegar solicitudes de acceso. |
+
+> [!TIP]
+> Use la tabla siguiente para capturar los requisitos de la organización.
+
+| Función | Detalles | Se necesita una licencia de Azure AD Premium | Tomar |
+|:-|:-|:-|:-|
+| Revisiones de Access | Configurar las revisiones de Access para recertificar la pertenencia de determinados equipos a intervalos regulares | P2 | DETERMINADO |
+| Administración de derechos | Configurar el paquete de Access para permitir a los usuarios e invitados solicitar acceso a teams | P2 | DETERMINADO |
+
+> [!NOTE]
+> Para ayudarle a planificar con antelación, [Obtenga más información sobre las licencias que requieren](https://azure.microsoft.com/pricing/details/active-directory/).
+
+### <a name="additional-information"></a>Información adicional
+
+Para obtener instrucciones técnicas sobre cómo implementar esta configuración, consulte:
+
+- [Administración de derechos](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
+- [Revisiones de Access](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
 
 ## <a name="teams-feature-management"></a>Administración de características de Teams
 

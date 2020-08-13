@@ -1,7 +1,7 @@
 ---
 title: Cómo es la experiencia de invitado
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b34c58bc043f67d1a60f3b6c30fef7f5cc693b08
-ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
+ms.openlocfilehash: 4d02fa805481e99b2627f4ca88b4d4000da31972
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44799801"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46655951"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
@@ -69,19 +69,19 @@ En la tabla siguiente se muestran las características de llamadas y reuniones d
 
 | Característica de llamadas | Invitado | Usuario E1 y E3 | E5 y usuarios de la telefonía IP empresarial |
 | --------------- | ----- | -------------- | -------------- |
-| Llamadas VOIP | Sí | Sí  | Sí  |
-| Llamadas grupales | Sí | Sí  | Sí  |
-| Controles de llamadas principales compatibles (mantener, silenciar, activar o desactivar vídeo, pantalla compartida) | Sí | Sí  | Sí  |
-| Transferir destino | Sí | Sí  | Sí  |
-| Puede transferir una llamada | Sí | Sí  | Sí  |
-| Permite la transferencia de asesoría | Sí | Sí  | Sí  |
-| Puede agregar otros usuarios a una llamada a través de VOIP | Sí | Sí  | Sí  |
+| Llamadas VOIP | Sí | Sí | Sí |
+| Llamadas grupales | Sí | Sí | Sí |
+| Controles de llamadas principales compatibles (mantener, silenciar, activar o desactivar vídeo, pantalla compartida) | Sí | Sí | Sí |
+| Transferir destino | Sí | Sí | Sí |
+| Puede transferir una llamada | Sí | Sí | Sí |
+| Permite la transferencia de asesoría | Sí | Sí | Sí |
+| Puede agregar otros usuarios a una llamada a través de VOIP | Sí | Sí | Sí |
 | Puede añadir usuarios por número de teléfono a una llamada | No | No | Sí |
-| Destino de reenvío | No | Sí | Sí  |
-| Destino del grupo de llamadas | No | Sí | Sí  |
-| Objetivo sin contestar | No | Sí | Sí  |
-| Puede ser el objetivo de una llamada federada | No | Sí | Sí  |
-| Puede hacer una llamada federada | No | Sí | Sí  |
+| Destino de reenvío | No | Sí | Sí |
+| Destino del grupo de llamadas | No | Sí | Sí |
+| Objetivo sin contestar | No | Sí | Sí |
+| Puede ser el objetivo de una llamada federada | No | Sí | Sí |
+| Puede hacer una llamada federada | No | Sí | Sí |
 | Puede desviar sus llamadas inmediatamente | No | No | Sí |
 | Puede llamar simultáneamente a sus llamadas | No | No | Sí |
 | Puede enrutar las llamadas no contestadas | No | No | Sí |

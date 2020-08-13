@@ -1,20 +1,19 @@
 ---
 title: Administrar la aplicación de elogios en el centro de administración de Teams
-author: CaitlynZawideh
-ms.author: t-cazaw
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Obtenga más información sobre la configuración de administración en la aplicación elogiar en el centro de administración de Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: deff9fca7cf1097399079482dc4667052a7be537
-ms.sourcegitcommit: 5bcc25fb20ed72bac02bc78e40b591e67eb58686
+ms.openlocfilehash: 2fa2f7e92646dafe3d8bf1cc39325a682c823686
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46564081"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656311"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Administrar la aplicación de elogios en el centro de administración de Microsoft Teams
 
@@ -46,7 +45,7 @@ Los educadores pueden reconocer a alumnos individuales en cuanto a logros social
 
 ## <a name="create-your-own-badges"></a>Crear tus propias insignias
 
-Cambie el **botón de alternancia** a activado y seleccione **crear un distintivo personalizado**. Desde allí, puedes diseñar un distintivo personalizado en el panel lateral.
+Cambie el **botón de alternancia** a activado y seleccione **crear un distintivo personalizado**. Desde allí, puedes diseñar un distintivo personalizado en el panel lateral. Puedes crear hasta 25 insignias personalizados. 
 
 1. Escribe un nombre para el distintivo. Este es el nombre que aparecerá en el distintivo cuando los usuarios envíen elogios.
 
@@ -55,7 +54,7 @@ Cambie el **botón de alternancia** a activado y seleccione **crear un distintiv
    > [!TIP]
    > Si no está familiarizado con los valores hexadecimales, en este artículo se incluye una [Introducción rápida](#hex-colors-intro) para mostrar cómo usarlos.
 
-3. Cargar una imagen de notificación. El tipo de archivo aceptado es. PNG. El archivo debe tener menos de 25 KB.
+3. Cargar una imagen de notificación. El tipo de archivo aceptado es. PNG. El archivo de imagen debe tener menos de 40 KB de dimensiones máximas de 216 X 216 píxeles.
 ![Distintivo con el fondo, el texto y los campos de imagen etiquetados](media/praise-app-badge-fields.png)
 
 4. Localizar el nombre de tu tarjeta de identificación: en **nombres de tarjetas localizadas**, seleccione **Agregar**. Seleccione la configuración regional deseada de la lista desplegable. A continuación, escribe el nombre del distintivo en el idioma designado.
@@ -98,7 +97,7 @@ A continuación encontrará una lista de colores de ejemplo que le ayudarán a e
 
 **Cuando elija colores, tenga en cuenta la accesibilidad.** Algunos colores van mejor juntos que otros.  Cree un contraste entre el texto y los colores de fondo para que el nombre del distintivo sea más fácil de leer. Por ejemplo, si elige un color de fondo oscuro, elija un color de texto claro.
 
-**Al seleccionar una imagen, tenga en mente las dimensiones de las notas.** Para obtener la mejor calidad, recomendamos cargar un archivo de imagen que sea de 216x216 píxeles. Evite estirar o distorsionar la imagen para ajustarla a estas dimensiones.
+**Al seleccionar una imagen, tenga en mente las dimensiones de las notas.** Para obtener la mejor calidad, recomendamos cargar un archivo de imagen de 216 x 216 píxeles (las dimensiones máximas). Evite estirar o distorsionar la imagen para ajustarla a estas dimensiones.
 
 **Si la imagen de tu distintivo no es rectangular, Haz que la imagen sea transparente.** Tendrá que hacer esto antes de cargar el archivo de imagen para elogiar.
 

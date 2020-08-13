@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo recuperar datos de Microsoft Teams del registro de auditoría.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64b2e2f28b33a3f0518dbf4f2f07a4be3053d342
-ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
+ms.openlocfilehash: ac732b499327e6661472c59f370f45ece42e78cc
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46634616"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648541"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -193,7 +193,7 @@ Puede usar la API de actividad de administración de Office 365 para recuperar i
 
 ## <a name="attribution-in-teams-audit-logs"></a>Atribución en los registros de auditoría de Teams
 
-En la actualidad, existe un problema conocido con la atribución de los registros de auditoría de Teams y los mensajes de control: es posible que un propietario no se haya atribuido correctamente con la eliminación o adición de usuarios. Esto sucede cuando el cambio se produce fuera de Teams. En estos casos, le recomendamos que use los [registros de auditoría de Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Los cambios de pertenencia a equipos (como usuarios agregados o eliminados) realizados a través de Azure Active Directory (Azure AD), portal de administración de Microsoft 365 o la API para gráficos de grupos de Microsoft 365 aparecerán en los mensajes de auditoría de Teams y en el canal general con una atribución a un propietario existente del equipo, y no al iniciador real de la acción. En estos escenarios, consulte los registros de auditoría de grupo de Azure AD o [Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) para ver la información relevante.
 
 ## <a name="related-topics"></a>Temas relacionados
 

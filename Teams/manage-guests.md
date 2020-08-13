@@ -1,7 +1,7 @@
 ---
 title: Administrar el acceso de invitado en Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: Aprenda a crear sus primeros equipos y canales, a incorporar a los 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4751f274e4bc7a874c1469041787d7d145c11bb8
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: fa45c5c307e33188548353a9a4d36086d804b278
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637669"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46655941"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Administrar el acceso de invitado en Microsoft Teams
 ======================================
@@ -30,7 +30,7 @@ ms.locfileid: "44637669"
 > [!IMPORTANT]
 > Es posible que tenga que esperar unas horas para que los cambios surtan efecto. 
 
-**Guest** es un tipo de usuario en Microsoft teams que se incluye con todas las suscripciones Microsoft 365 Business Standard, Office 365 Enterprise, Microsoft 365 Business Basic y Office 365 educación. No es necesaria ninguna licencia adicional de Microsoft 365 o de Office 365. Más adelante encontrará más información sobre las [licencias de acceso de invitado](#guest-access-licensing-limits) .
+**Guest** es un tipo de usuario en Microsoft teams que se incluye con todas las suscripciones Microsoft 365 Business Standard, Office 365 Enterprise, Microsoft 365 Business Basic y Office 365 educación. No se necesita ninguna otra licencia de Microsoft 365 u Office 365. Más adelante encontrará más información sobre las [licencias de acceso de invitado](#guest-access-licensing-limits) .
 
 El acceso de invitado de Teams es una configuración a nivel de inquilino y se encuentra desactivada de forma predeterminada. Para obtener más información sobre cómo activar el acceso de invitados, vea [activar o desactivar el acceso de invitados a los equipos](set-up-guests.md), o use la [lista de comprobación de acceso de invitados](guest-access-checklist.md) para que le guíe por la configuración.
 

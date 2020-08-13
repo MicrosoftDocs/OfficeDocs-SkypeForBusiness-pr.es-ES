@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Aprenda a habilitar el enrutamiento directo de los usuarios de Microsoft Phone.
-ms.openlocfilehash: 2ae485398cef1cef2444de07dcabc4bf3f949ad5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 5fc3955430e5aa441d3c1099a86011d2b0c760f0
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691376"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656151"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Habilitar a los usuarios para el enrutamiento directo, la voz y el buzón de voz
 
@@ -53,9 +53,9 @@ Si su implementación de Skype empresarial online coexiste con Skype empresarial
 
 Para obtener información sobre los requisitos de licencia, consulte [licencias y otros requisitos](direct-routing-plan.md#licensing-and-other-requirements) en [planificar enrutamiento directo](direct-routing-plan.md).
 
-## <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>Comprobar que el usuario se ha alojado en Skype empresarial online 
+## <a name="ensure-that-the-user-is-homed-online"></a>Asegurarse de que el usuario está conectado en línea 
 
-El enrutamiento directo requiere que el usuario se base en Skype empresarial online. Puede consultar el parámetro RegistrarPool, que necesita tener un valor en el dominio de infra.lync.com.
+El enrutamiento directo requiere que el usuario se conecte en línea. Puede consultar el parámetro RegistrarPool, que necesita tener un valor en el dominio de infra.lync.com.
 
 1. Conéctese a PowerShell remoto.
 2. Emita el comando: 
